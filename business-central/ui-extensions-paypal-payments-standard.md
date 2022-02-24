@@ -1,23 +1,23 @@
 ---
-title: Verwendung der PayPal-Zahlungen-Standarderweiterung
-description: In diesem Thema wird beschrieben, wie Sie die Standard-Erweiterung verwenden, damit Debitoren Zahlungen mit PayPal vornehmen können.
+title: Nutzung der Paypal Payments Standard-Erweiterung| Microsoft Docs
+description: Beschreibt, wie die Erweiterung verwendet wird, um Debitoren zu aktivieren, um Zahlungen mit Paypal zu leisten.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize
-ms.date: 06/23/2021
-ms.author: edupont
-ms.openlocfilehash: cc7db26df0cfd554b083ac606c14965eecc991eb
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: f295ab10d30f5a22f924ec3ad76548375f929b7c
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6322877"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315444"
 ---
 # <a name="the-paypal-payments-standard-extension"></a>Die PayPal Payments Standard-Erweiterung
 Debitoren erfordern regelmäßig höheren Debitorenservice, sowohl in Bezug auf Produktqualität wie auch in Bezug auf Lieferungs- und Zahlungsoptionen. Mit dem Paypal Payments Standard-Service erhöhen Sie Ihren Debitorenservice.
@@ -37,9 +37,6 @@ Der Paypal Payments Standard-Service hat folgende Vorteile:
 Weitere Informationen finden Sie unter [Aktivieren Sie Debitoren-Zahlung durch Paypal](sales-how-enable-payment-service-extensions.md)
 
 ## <a name="see-also"></a>Siehe auch
-[Anpassen [!INCLUDE[prod_short](includes/prod_short.md)] Erweiterungen nutzen](ui-extensions.md)  
+[Anpassen [!INCLUDE[d365fin](includes/d365fin_md.md)] Erweiterungen nutzen](ui-extensions.md)  
 [Einrichten von Verkäufen](sales-setup-sales.md)  
-[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

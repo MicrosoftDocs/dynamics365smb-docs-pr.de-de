@@ -1,28 +1,28 @@
 ---
-title: Elektronische Belege in Business Central
-description: Hier erhalten Sie einen Überblick über die Verwendung des Dataaustausch-Frameworks, um den Austausch von Daten in geschäftlichen Belegen wie Bankdateien und Wechselkursen zu verwalten.
+title: Elektronische Dokumente in Business Central einrichten | Microsoft Docs
+description: Einführung zum Senden und Empfang von elektronischen Dokumenten in Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: Data exchange framework, data files, data exchange, electronic document, invoice, Business Central, business document, standard-compliant file
-ms.date: 06/10/2021
-ms.author: edupont
-ms.openlocfilehash: 3f67cf78444e263932897948f93c8ece028989d8
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.search.keywords: ''
+ms.date: 01/30/2020
+ms.author: sgroespe
+ms.openlocfilehash: ac4060caf413245720c01d55e7ebf809d973a647
+ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588376"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "2999831"
 ---
 # <a name="exchanging-data-electronically"></a>Daten elektronisch austauschen
 Sie können das Datenaustauschframework verwenden, um den Austausch von Geschäftsbelegen, Bankdateien, Währungswechselkursen und sämtlichen anderen Datendateien mit Ihren Geschäftspartnern zu verwalten.
 
-In der Standardversion [!INCLUDE[prod_short](includes/prod_short.md)] wird das Data Exchange Framework für Prozesse wie den Austausch elektronischer Belege, den Import und Export von Bankdateien und die Aktualisierung von Sätzen für Währungen verwendet. Weitere Informationen finden Sie unter [Informationen zum Datenaustauschframework](across-about-the-data-exchange-framework.md).
+In der Standardversion von [!INCLUDE[d365fin](includes/d365fin_md.md)] wird das Datenaustausch-Framework in Funktionen verwendet, wie z. B. elektronische Dokumente, Import/Export von Bankdateien und Währungswechselkursaktualisierung. Weitere Informationen finden Sie unter [Informationen zum Datenaustauschframework](across-about-the-data-exchange-framework.md).
 
-Als Administrator oder Microsoft-Partner können Sie das Framework in neuen Funktionen der Integration verwenden, indem Sie die auszutauschenden Daten und die Art des Austauschs festlegen. Für weitere Informationen, siehe [Einrichten der Datenaustauschdefinition](across-how-to-set-up-data-exchange-definitions.md).
+Als Administrator oder Microsoft-Partner können Sie das Framework in neuen Integrationsfunktionen verwenden, indem Sie festlegen, welche Daten ausgetauscht werden sollen und wie. Für weitere Informationen, siehe [Einrichten der Datenaustauschdefinition](across-how-to-set-up-data-exchange-definitions.md).
 
 Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Themen, die sie beschreiben.  
 
@@ -39,6 +39,3 @@ Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Themen,
 [Austausch von Daten](across-exchange-data.md)  
 [Eingehende Belege](across-income-documents.md)  
 [Allgemeine Geschäftsfunktionen](ui-across-business-areas.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

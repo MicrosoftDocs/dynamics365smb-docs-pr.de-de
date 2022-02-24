@@ -1,24 +1,24 @@
 ---
-title: Bestand Null offene Elemente Sachkonto-Einträge
-description: Dieser Artikel befasst sich mit einem Problem, bei dem der Bestand Null ist, obwohl Offene-Posten-Ledger-Einträge existieren.
+title: Artikelposten öffnen
+description: Erfahren, warum der Lagerbestand Null ist, obwohl offene Artikelposten vorhanden sind.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/15/2021
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 75cf8f2ccbf7738c753a25c98ea9c79e13b9d53d
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 6168b8a14bc520f811db231e9d8f885e7372a3d6
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444995"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185204"
 ---
 # <a name="design-details-known-item-application-issue"></a>Designdetails: Bekannte Artikelanwendungsprobleme
-Dieser Artikel adressiert ein Problem, bei dem der Lagerebene Null ist, obwohl offene Artikelposten in existieren [!INCLUDE[prod_short](includes/prod_short.md)].  
+Dieser Artikel adressiert ein Problem, bei dem der Lagerebene Null ist, obwohl offene Artikelposten in existieren [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 Der Artikel beginnt, indem die typischen Symptomen des Problems aufgeführt werden, gefolgt von den Grundlagen der Artikelanwendung bis hin zur Unterstützung der beschriebenen Gründen für dieses Problem. Am Ende des Artikels finden Sie eine Problemumgehung, um solche offenen Artikelposten zu adressieren.  
 
@@ -37,7 +37,7 @@ Der Artikel beginnt, indem die typischen Symptomen des Problems aufgeführt werd
      |334|01 28 2018|Verkauf|Verkaufslieferung|102043|TEST|BLAU|1|10|1|1|Ja|  
 
 ## <a name="basics-of-item-application"></a>Vorgaben des Artikelausgleichs  
- Es wird ein Artikelausgleichsposten für jede Lagertransaktion erstellt, um den Empfänger mit Kosten auf seine Herkunftsbelege mit Kosten zu verknüpfen, sodass die Kosten gemäß der Lagerabgangsmethode weitergeleitet werden können. Weitere Informationen finden Sie unter [Designdetails: Artikelverfolgung](design-details-item-application.md).  
+ Es wird ein Artikelausgleichsposten für jede Lagertransaktion erstellt, um den Empfänger mit Kosten auf seine Herkunftsbelege mit Kosten zu verknüpfen, sodass die Kosten gemäß der Lagerabgangsmethode weitergeleitet werden können. [Weitere Informationen finden Sie unter "Designdetails: Artikelverfolgung".](design-details-item-application.md)  
 
 -   Für einen eingehenden Artikelposten wird der Artikelausgleichsposten erstellt, wenn der Artikelposten erstellt wurde.  
 
@@ -54,7 +54,7 @@ Der Artikel beginnt, indem die typischen Symptomen des Problems aufgeführt werd
 
  Das folgende Diagramm zeigt, wie Mengenanträge gemacht werden.  
 
-![Flow der Kostenanpassung von Kauf bis zum Verkauf.](media/helene/TechArticleInventoryZero2.png "Fluss der Kostenanpassung vom Kauf zum Verkauf")
+![Fluss der Kostenanpassung vom Kauf zum Verkauf](media/helene/TechArticleInventoryZero2.png "Fluss der Kostenanpassung vom Kauf zum Verkauf")
 
  Beachten Sie weiter, dass Artikelposten 1 (Einkauf) sowohl Lieferant des Artikels und die Kostenquelle für den ausgeglichenen Artikelposten, Artikelposten 2 (Verkauf) ist.  
 
@@ -78,7 +78,7 @@ Das folgende Diagramm zeigt, wie Kostenanträge gemacht werden.
 
  Das folgende Diagramm zeigt den Kostenfluss.  
 
-![Flow der Kostenanpassung vom Verkauf zur Retoure.](media/helene/TechArticleInventoryZero4.png "Fluss der Kostenanpassung vom Verkauf bis zur Rückgabe")
+![Fluss der Kostenanpassung vom Verkauf bis zur Umsatzrendite](media/helene/TechArticleInventoryZero4.png "Fluss der Kostenanpassung vom Verkauf bis zur Rückgabe")
 
  Beachten Sie darüber hinaus, dass die Kosten an Artikelposten 2 (Verkauf), dann an Artikelposten 3 (Rücklieferung) und zum Schluss an Artikelposten 4 weitergeleitet werden (Verkauf 2).  
 
@@ -91,7 +91,7 @@ Das folgende Diagramm zeigt, wie Kostenanträge gemacht werden.
 
  Das folgende Diagramm zeigt, wie Artikelausgleiche in beiden Szenarien gemacht werden.  
 
-![Flow der Kostenanpassung geht in beide Richtungen.](media/helene/TechArticleInventoryZero6.png "Der Fluss der Kostenanpassung geht in beide Richtungen")  
+![Fluss der Kostenanpassung geht in beide Richtungen](media/helene/TechArticleInventoryZero6.png "Der Fluss der Kostenanpassung geht in beide Richtungen")  
 
  Beachten Sie darüber hinaus, dass ein Ausgleich mit Kosten (angezeigt durch die blauen Pfeile) sicherstellt, dass Artikelposten 2 (Rücklieferung) die gleichen Einstandspreis wie der Artikelposten hat, den er storniert, d.h. Artikelposten 1 zugeordnet ist (Verkauf 1). Es wird jedoch kein Mengenantrag (angezeigt durch die roten Pfeile) vorgenommen.  
 
@@ -133,7 +133,7 @@ Das folgende Diagramm zeigt, wie Kostenanträge gemacht werden.
      |Postennr.|Artikelposten Lfd. Nr.|Eingeh. Artikelposten Lfd. Nr.|Ausgeh. Artikelposten Lfd. Nr.|Menge|Buchungsdatum|Ausgleich Lagerwert reguliert|  
      |---------|---------------------|----------------------|-----------------------|--------|------------|----------------|  
      |299|334|334|333|1|01 28 2018|Ja|  
-<!--![Why is inventory zero 8.](media/helene/TechArticleInventoryZero8.png "Whyisinventoryzero\_8")  -->
+<!--![Why is inventory zero 8](media/helene/TechArticleInventoryZero8.png "Whyisinventoryzero\_8")  -->
 
  Beachten Sie darüber hinaus, dass der eingehende Artikelposten 334 auf den ausgehenden Artikelposten 333 angewendet wird.  
 
@@ -151,6 +151,3 @@ Das folgende Diagramm zeigt, wie Kostenanträge gemacht werden.
 ## <a name="see-also"></a>Siehe auch  
 [Designdetails: Artikelausgleich](design-details-item-application.md)   
 [Designdetails: Lagerkostenberechnung](design-details-inventory-costing.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,26 +1,26 @@
 ---
-title: Designdetails – Neubewertung
-description: Sie können den Lagerbestand basierend auf der Bewertungsbasis, die den Lagerwert am genauesten wiedergibt, neu bewerten.
+title: Designdetailsl- Neubewertung | Microsoft Docs
+description: Sie können den Lagerbestand basierend auf der Bewertungsbasis, die den Lagerwert am genauesten wiedergibt, neu bewerten. Sie können eine Neubewertung auch zurückdatieren, damit der Wareneinsatz (COGS) ordnungsgemäß für Artikel aktualisiert wird, die bereits verkauft wurden. Artikel mit der Lagerabgangsmethode "Standard", die noch nicht vollständig fakturiert wurden, können ebenfalls neu bewertet werden.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/15/2021
-ms.author: edupont
-ms.openlocfilehash: 2af7425324314c14039ef56bc7e124db033fd8ef
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: d0e779587a409232a6ab618ec80f5ad1ae17e31f
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444305"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3184772"
 ---
 # <a name="design-details-revaluation"></a>Designdetails: Neubewertung
 Sie können den Lagerbestand basierend auf der Bewertungsbasis, die den Lagerwert am genauesten wiedergibt, neu bewerten. Sie können eine Neubewertung auch zurückdatieren, damit der Wareneinsatz (COGS) ordnungsgemäß für Artikel aktualisiert wird, die bereits verkauft wurden. Artikel mit der Lagerabgangsmethode "Standard", die noch nicht vollständig fakturiert wurden, können ebenfalls neu bewertet werden.  
 
-In [!INCLUDE[prod_short](includes/prod_short.md)] wird die folgende Flexibilität für die Neubewertung unterstützt:  
+In [!INCLUDE[d365fin](includes/d365fin_md.md)] wird die folgende Flexibilität für die Neubewertung unterstützt:  
 
 -   Die neu bewertbare Menge kann für jedes Datum berechnet werden, auch zeitlich rückwärts.  
 -   Für Artikel mit der Kostenberechnungsmethode Standard sind Soll-Kosten-Posten in der Neubewertung enthalten.  
@@ -39,7 +39,7 @@ Da die Neubewertung an jedem beliebigen Datum erstellt werden kann, müssen Sie 
 ### <a name="example"></a>Beispiel  
 Im folgenden Beispiel wird gezeigt, wann ein WIP-Artikel Teil des Bestands wird. Das Beispiel basiert auf der Produktion einer Kette mit 150 Gliedern.  
 
-![RIF-Bestand und Neubewertung.](media/design_details_inventory_costing_10_revaluation_wip.png "“RIF-Lagerbestand und Neubewertung")  
+![“RIF-Lagerbestand und Neubewertung](media/design_details_inventory_costing_10_revaluation_wip.png "“RIF-Lagerbestand und Neubewertung")  
 
 **1Q**: Der Benutzer bucht die eingekauften Links als erhalten. Die folgende Tabelle zeigt den sich daraus ergebenden Artikelposten.  
 
@@ -85,12 +85,12 @@ Das Bewertungsdatum wird auf das Datum der Verbrauchsbuchung (02-01-20) als rege
 |02-15-20|EK-Preis|02-15-20|150.00|3|3|  
 
 ## <a name="expected-cost-in-revaluation"></a>Soll-Kosten in der Neubewertung  
-Die neu bewertbare Menge wird als die Gesamtsumme der Mengen vollständig fakturierter Artikelposten berechnet, die ein Buchungsdatum gleich oder vor dem Neubewertungsbuchungsdatum haben. Das bedeutet, dass, wenn mehrere Artikel eingegangen/geliefert, aber noch nicht fakturiert sind, deren Lagerwert nicht berechnet werden kann. Artikel mit der Lagerabgangsmethode Standard werden nicht in dieser Hinsicht begrenzt.  
+Die neubewertete Menge XE "Neubewertete Menge" XE "Menge,Neubewertet" wird als die Summe der Menge XE "Menge" für vollständig fakturierte XE "Rechnungs" Artikelposten XE "Artikelposten" Einträgen mit einem Buchungsdatum gleich oder vor dem XE Neubewertung " Neubewertungs" Datum berechnet. Das bedeutet, dass, wenn mehrere Artikel eingegangen/geliefert, aber noch nicht fakturiert sind, deren Lagerwert nicht als XE "Bestandwert" berechnet werden kann. Artikel mit der Lagerabgangsmethode "Standard" werden nicht in dieser Hinsicht begrenzt. XE "Wert"  
 
 > [!NOTE]  
->  Eine weitere Art von erwarteten Kosten, die neubewertet werden können, ist der WIP-Bestand, für den bestimmte Regeln gelten. Weitere Informationen finden Sie unter [WIP Neubewerten von Lagerbestand](design-details-revaluation.md#wip-inventory-revaluation).  
+>  Eine weitere Art von erwarteten Kosten, die neubewertet werden können, ist der WIP-Bestand, für den bestimmte Regeln gelten. Weitere Informationen finden Sie im "Abschnitt "Lagerbewertung - Aktiviert" dieses Themas.  
 
-Wenn Sie die neu bewertbare Menge für Artikel mit der Lagerabgangsmethode Standard wird, werden Artikelposten, die noch nicht vollständig fakturiert wurden, in die Berechnung einbezogen. Diese Posten werden dann neu bewertet, wenn Sie die Neubewertung buchen. Wenn Sie den neu bewerteten Posten fakturieren, werden die folgenden Wertposten erzeugt:  
+Wenn Sie die neu bewertbare Menge für Artikel mit der Lagerabgangsmethode "Standard" wird, werden Artikelposten, die noch nicht vollständig fakturiert wurden, in die Berechnung einbezogen. Diese Posten werden dann neu bewertet, wenn Sie die Neubewertung buchen. Wenn Sie den neu bewerteten Posten fakturieren, werden die folgenden Wertposten erzeugt:  
 
 -   Der übliche fakturierte Wertposten mit dem Postentyp **Direkte Kosten**. Der Kostenbetrag für diesen Posten entspricht den direkten Kosten aus der Herkunftszeile.  
 -   Ein Wertposten mit dem Postentyp **Abweichung**. Dieser Eintrag erfasst die Differenz zwischen den fakturierten Kosten und dem neu bewerteten Einstandspreis.  
@@ -116,7 +116,7 @@ Die folgende Tabelle zeigt die sich daraus ergebenden Wertposten.
 |3.b.|01-15-20|Neubewertung|01-20-20|-150.00|0.00|1|4|  
 |3.c.|01-15-20|Abweichung|01-15-20|0.00|450.00|1|5|  
 
-## <a name="determining-whether-an-inventory-decrease-is-affected-by-revaluation"></a>Bestimmen Sie, ob eine Bestandsreduzierung von der Neubewertung betroffen ist  
+## <a name="determining-if-an-inventory-decrease-is-affected-by-revaluation"></a>Bestimmen, ob eine Bestandsreduzierung von der Neubewertung betroffen ist  
 Das Datum der Buchung oder der Neubewertung wird verwendet, um zu ermitteln, ob eine Bestandsminderung von einer Neubewertung beeinflusst wird.  
 
 Die folgende Tabelle zeigt die Kriterien an, die für einen Artikel verwendet werden, der nicht das Durchschnittskostenbewertungsverfahren verwendet.  
@@ -163,13 +163,13 @@ Die folgende Tabelle zeigt die sich daraus ergebenden Wertposten.
 ## <a name="wip-inventory-revaluation"></a>"Lagerbewertung - Aktiviert"  
 Die Neubewertung des WIP-Bestands impliziert die Neubewertung von Komponenten, die als Teil des WIP-Bestands zum Zeitpunkt der Neubewertung erfasst sind.  
 
-In diesem Sinne ist es wichtig, Konventionen dahingehend zu schaffen, wenn ein Artikel als Teil des Produktionslagers aus finanzieller Sicht betrachtet wird. In [!INCLUDE[prod_short](includes/prod_short.md)] bestehen die folgenden Konventionen:  
+In diesem Sinne ist es wichtig, Konventionen dahingehend zu schaffen, wenn ein Artikel als Teil des Produktionslagers aus finanzieller Sicht betrachtet wird. In [!INCLUDE[d365fin](includes/d365fin_md.md)] bestehen die folgenden Konventionen:  
 
 -   Mit dem Buchen eines fakturierten Einkaufs wird eine eingekaufte Komponente Teil des Rohmaterialbestands.  
--   Eine eingekaufte/als Untermontage verbaute Komponente wird Teil des WIP-Lagerbestands seit dem Buchen ihres Verbrauchs in Verbindung mit einem Fertigungsauftrag.  
--   Eine eingekaufte/als Untermontage verbaute Komponente bleibt Teil des WIP-Lagerbestands bis zu dem Zeitpunkt, an dem ein Fertigungsauftrag (Produktionsartikel) fakturiert wird.  
+-   Eine eingekaufte/als Unterbaugruppe verbaute Komponente wird Teil des WIP-Lagerbestands seit dem Buchen ihres Verbrauchs in Verbindung mit einem Fertigungsauftrag.  
+-   Eine eingekaufte/als Unterbaugruppe verbaute Komponente bleibt Teil des WIP-Lagerbestands bis zu dem Zeitpunkt, an dem ein Fertigungsauftrag (Produktionsartikel) fakturiert wird.  
 
-Die Art, wie das Bewertungsdatum des Wertpostens von Verbrauch festgelegt wird, folgt denselben Regeln wie für Nicht-WIP-Bestand. Weitere Informationen finden Sie im Abschnitt [Feststellen, ob eine Bestandsminderung von der Neubewertung beeinflusst wird](design-details-revaluation.md#determining-whether-an-inventory-decrease-is-affected-by-revaluation).  
+Die Art, wie das Bewertungsdatum des Wertpostens von Verbrauch festgelegt wird, folgt denselben Regeln wie für Nicht-WIP-Bestand. Weitere Informationen finden Sie im Abschnitt „Feststellen, ob eine Bestandsminderung von der Neubewertung beeinflusst wird“ in diesem Thema.  
 
 Das Produktionslager kann neubewertet werden, solange das Neubewertungsdatum nicht hinter dem Buchungsdatum des entsprechenden Artikelposten des Typs Verbrauch liegt und solange der entsprechende Fertigungsauftrag noch nicht fakturiert wurde.  
 
@@ -181,7 +181,4 @@ Das Produktionslager kann neubewertet werden, solange das Neubewertungsdatum nic
  [Designdetails: Kostenberechnungsmethoden](design-details-costing-methods.md)   
  [Designdetails: Lagerkosten Bewerten](design-details-inventory-valuation.md) [Verwalten der Lagerkosten](finance-manage-inventory-costs.md)  
  [Finanzen](finance.md)  
- [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+ [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

@@ -1,25 +1,25 @@
 ---
 title: Lokale Funktion (Deutschland)
-description: Die folgenden Themen beschreiben die lokale Funktionalität, die in der deutschen Version von Business Central verfügbar ist.
+description: Die folgenden Themen beschreiben die lokale Funktion in der deutschen Version von Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/18/2021
-ms.author: edupont
-ms.openlocfilehash: b2e4980edfabb55e672d678b620411af728f71cc
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.date: 06/09/2020
+ms.author: sgroespe
+ms.openlocfilehash: 835c517f08aae230efe676e1c3f32c04d5577b5f
+ms.sourcegitcommit: 0b5f8f68b1c9526288bfcce1a3bdc988d2910040
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6320255"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "3454290"
 ---
 # <a name="germany-local-functionality"></a>Lokale Funktion (Deutschland)
 
-Die folgenden Themen beschreiben die lokale Funktionalität, die nur in der deutschen Version von [!INCLUDE[prod_short](../../includes/prod_short.md)] vorhanden ist.  
+Die folgenden Themen beschreiben die lokale Funktionalität, die nur in der deutschen Version von [!INCLUDE[d365fin](../../includes/d365fin_md.md)] vorhanden ist.  
 
 ## <a name="feature-availability"></a>Verfügbarkeit von Funktionen
 
@@ -41,10 +41,12 @@ Die folgenden Themen beschreiben die lokale Funktionalität, die nur in der deut
     * [Buchen eines negativen Postens](how-to-post-a-negative-entry.md) **Jetzt verfügbar**
     * [Prozess für Digital-Überwachung](process-for-digital-audits.md) **Jetzt verfügbar**
     * [Wie Sie Daten für eine Digital-Überwachung einrichten](how-to-set-up-data-exports-for-digital-audits.md) **Jetzt verfügbar**
+    * [Wie Sie Daten für GDPDU einrichten](how-to-set-up-data-exports-for-gdpdu.md) **Jetzt verfügbar**
     * [Wie Sie Daten für eine Digital-Überwachung exportieren](how-to-export-data-for-a-digital-audit.md) **Jetzt verfügbar**
     * [GDPDU-Filterbeispiele](gdpdu-filter-examples.md) **Jetzt verfügbar**
     * [Aktualisieren Sie eine .DTD-Definitions-Datei](how-to-upgrade-a-.dtd-definition-file.md) **Jetzt verfügbar**
     * [Exemplarische Vorgehensweise: Wie Sie Daten für eine Digital-Überwachung exportieren](walkthrough-exporting-data-for-a-digital-audit.md) **Jetzt verfügbar**
+    * [Exemplarische Vorgehensweise: Exportieren von GDPDU-Daten](walkthrough-exporting-gdpdu-data.md) **Jetzt verfügbar**
 
 * Einkauf
     * [Einrichten von Lieferbenachrichtigungen](how-to-set-up-delivery-reminders.md) **Jetzt verfügbar**
@@ -60,13 +62,11 @@ Die folgenden Themen beschreiben die lokale Funktionalität, die nur in der deut
     * [Währungswechselkurse](currency-exchange-rates.md) **Jetzt verfügbar**
     * [Einbeziehen von Steuernummern von Unternehmen in Verkaufs- und Einkaufsberichte](how-to-include-company-registration-numbers-on-sales-reports-and-purchase-reports.md) **Jetzt verfügbar**
     * [Drucken von Finanzbuchhaltungs-Setupinformationen](how-to-print-general-ledger-setup-information.md) **Jetzt verfügbar**
+
 ## <a name="see-also"></a>Siehe auch
 
 [Zertifizierung von Business Central für deutschen Zielmarkt (Beleg ist in Deutsch)](https://go.microsoft.com/fwlink/?linkid=875256)  
-[Arbeiten mit [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
+[Arbeiten mit [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)  
 [Verfügbarkeit nach Ländern/Regionen und unterstützte Sprachen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
-## [!INCLUDE[prod_short](../../includes/free_trial_md.md)]  
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]  

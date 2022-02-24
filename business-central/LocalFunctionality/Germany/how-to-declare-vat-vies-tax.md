@@ -1,24 +1,24 @@
 ---
-title: Wie Sie die MwSt-VIES-Erklärung erstellen [DE]
-description: So erstellen Sie den MwSt.-VIES-Erklärungsbericht, um Informationen über Verkaufstransaktionen mit anderen Ländern/Regionen der Europäischen Union (EU) zu senden.
+title: 'Gewusst wie: Zusammenfassende Meldung'
+description: Mit der zusammenfassenden Meldung können Sie Informationen zu Verkaufstransaktionen mit anderen Ländern oder Regionen innerhalb der Europäischen Union (EU) an das System der Zoll- und Steuerbehördenlisten übermitteln.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/18/2021
-ms.author: edupont
-ms.openlocfilehash: 5ceab85061df0ac30d4430f6c9a1b946b20e6d48
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: bfde1999fcbe60b999c83ee1597d21d696004b86
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435880"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181172"
 ---
-# <a name="declare-vat-vies-tax-in-the-german-version"></a>MwSt-VIES-Steuererklärung in der deutschen Version
-[!INCLUDE[prod_short](../../includes/prod_short.md)] enthält die zusammenfassende Meldung, mit der Sie Informationen zu Verkaufstransaktionen mit anderen Ländern oder Regionen innerhalb der Europäischen Union (EU) an das System der Zoll- und Steuerbehördenlisten übermitteln können. Im Bericht werden Informationen in dem Format angezeigt, das auch in der Erklärungsliste der Zoll- und Steuerbehörden verwendet wird.  
+# <a name="declare-vat-vies-tax"></a>MwSt-VIES-Steuer angeben
+[!INCLUDE[d365fin](../../includes/d365fin_md.md)] enthält die zusammenfassende Meldung, mit der Sie Informationen zu Verkaufstransaktionen mit anderen Ländern oder Regionen innerhalb der Europäischen Union (EU) an das System der Zoll- und Steuerbehördenlisten übermitteln können. Im Bericht werden Informationen in dem Format angezeigt, das auch in der Erklärungsliste der Zoll- und Steuerbehörden verwendet wird.  
 
 Abhängig vom Volumen der verkauften Waren oder Dienstleistungen an andere EU-Länder/Regionen, müssen Sie monatliche, zweimonatliche oder vierteljährliche Meldungen senden. Hat das Unternehmen Verkäufe von mehr als 100.000 Euro pro Quartal, müssen Sie eine monatliche Meldung senden. Hat das Unternehmen Verkäufe von weniger als 100.000 Euro pro Quartal, müssen Sie eine monatliche Meldung senden. Weitere Informationen finden Sie unter [BZSt-Website](https://go.microsoft.com/fwlink/?LinkId=204368).  
 
@@ -26,7 +26,7 @@ Der Bericht basiert auf Daten in der Tabelle "MwSt.-Posten".
 
 ## <a name="to-declare-vat-vies-tax"></a>So erstellen Sie eine zusammenfassende Meldung  
 
-1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](../../media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **VAT-VIES Zusammenf. Meldung – Formular – DE** ein und wählen Sie dann den entsprechenden Link.  
+1.  Wählen Sie das Symbol ![Suche nach Seite oder Bericht](../../media/ui-search/search_small.png "Symbol „Suche nach Seite oder Bericht“"), geben Sie **MwSt. – Steuer gemäß zusammenfassender Meldung – DE** ein und wählen Sie dann den entsprechenden Link.  
 2.  Füllen Sie auf der Seite **Zusammenf. Meldung MwSt-Vies-Formular** im Inforegister **Optionen** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 
     |Feld|Description|  
@@ -45,6 +45,3 @@ Der Bericht basiert auf Daten in der Tabelle "MwSt.-Posten".
 
 ## <a name="see-also"></a>Siehe auch  
 [MwSt.-Abrechnung](vat-reporting.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

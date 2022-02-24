@@ -1,28 +1,29 @@
 ---
-title: Verwenden von Verteilungsschlüsseln in Fibu Buch.-Blättern
-description: Die Posten einer Fibu Buch.-Blattzeile lassen sich beim Buchen des Buch.-Blatts auf verschiedene Konten verteilen.
+title: Verwenden von Verteilungsschlüsseln in Fibu Buch.-Blättern | Microsoft Docs
+description: Erfahren Sie, wie Sie Verteilungsschlüssel in Buch.-Blättern verwenden können.
+services: project-madeira
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cost accounting
-ms.search.form: 283, 284
-ms.date: 06/29/2021
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 347e4999be079d31aa06cc80a1b7c9858d19ff57
-ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
+ms.openlocfilehash: 9c540b04b7dcda7cd3b656a86679228af08261c9
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/08/2022
-ms.locfileid: "8101295"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310924"
 ---
-# <a name="use-allocation-keys-in-general-journals"></a>Zuordnungsschlüssel in Allgemeinen Buch.-Blättern verwenden
-Sie können einen Eintrag in einem Allgemeinen Journal mehreren verschiedenen Konten zuordnen, wenn Sie das Journal buchen. Die Verteilung kann nach Anzahl, Prozent oder Betrag vorgenommen werden.
+# <a name="use-allocation-keys-in-general-journals"></a>Verwenden von Verteilungsschlüsseln in Fibu Buch.-Blättern
+Die Posten einer Fibu Buch.-Blattzeile lassen sich beim Buchen des Buch.-Blatts auf verschiedene Konten verteilen. Die Verteilung kann nach Anzahl, Prozent oder Betrag vorgenommen werden.
 
 ## <a name="to-set-up-allocation-keys"></a>Einrichten von Verteilungsschlüsseln
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Wiederk. Fibu Buch.-Blatt** ein und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Wiederk. Fibu Buch.-Blatt** ein, und wählen dann den zugehörigen Link aus.
 2. Wählen Sie auf der Seite **Fibu Buch.-Blattnamen** den **Buch.-Blattnamen**.
 3. Sie können entweder Zuordnungen in einer vorhandene Charge in der Liste ändern oder eine neue Charge mit Zuordnungen erstellen.
    * Um eine neue Chargennummer zu erstellen, wählen Sie die Aktion **Neu** und gehen Sie zum nächsten Schritt.
@@ -36,16 +37,13 @@ Sie können einen Eintrag in einem Allgemeinen Journal mehreren verschiedenen Ko
 10. Nachdem Sie die Zuteilungszeilen eingegeben haben, wählen Sie **OK** aus, um zur Seite **Wiederk. Fibu Buch.-Blätter** zurückzukehren. Das Feld **Zugewiesener Betrag (USD)** ist ausgefüllt und entspricht dem Feld **Betrag**.
 11. Buchen Sie die Buch.-Blattzeile.
 
-## <a name="to-change-an-allocation-key-that-has-already-been-set-up"></a>So ändern Sie einen bereits eingerichteten Zuordnungsschlüssel
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Wiederk. Fibu Buch.-Blatt** ein und wählen Sie dann den zugehörigen Link.
+## <a name="to-change-an-allocation-key-that-has-already-been-set-up"></a>Ändern eines bereits eingerichteten Verteilungsschlüssels
+1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Wiederk. Fibu Buch.-Blatt** ein, und wählen dann den zugehörigen Link aus.
 2. Wählen Sie auf der Seite **Wiederk. Fibu Buch.-Blatt** das Buch.-Blatt mit der Verteilung aus.
 3. Wählen Sie die Zeile mit der Verteilung, und wählen Sie dann die Aktion **Zuweisungen** aus.
 4. Ändern Sie die relevanten Felder und wählen Sie dann die Schaltfläche **OK** aus.
 
 ## <a name="see-also"></a>Siehe auch
-[Arbeiten mit allgemeinen Buch.-Blättern](ui-work-general-journals.md)  
-[Dokumente und Buch.-Blatt verbuchen](ui-post-documents-journals.md)  
-[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Arbeiten mit Fibu Buch.-Blättern](ui-work-general-journals.md)  
+[Journale und Dokumente buchen](ui-post-documents-journals.md)  
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

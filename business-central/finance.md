@@ -1,30 +1,30 @@
 ---
-title: Finanzmanagement (enthält Video)
-description: Erfahren Sie, wie Business Central Ihre Anforderungen an das Finanzmanagement, die Buchhaltung, die Rechnungsprüfung und die Buchführung unterstützt.
+title: Financial Management| Microsoft Docs
+description: Informationen zu Aufgaben, Finanzen in Ihrem Unternehmen einzurichten, um Ihrer Buchhaltung, oder Buchhaltungsanforderungen Prüfungen zu entsprechen.
+services: project-madeira
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.search.form: 1151, 1166, 9027, 9004
-ms.date: 06/15/2021
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2582e96b8113abe91fe10a087833d4fbeb5b7da5
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 60b62845a359cec21b52f42c6692edc417a65123
+ms.sourcegitcommit: 4545bb597dd9dc4c563b30af762977ee1d815497
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7970911"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3410747"
 ---
-# <a name="financial-management"></a>Finanzmanagement
-
-[!INCLUDE[prod_short](includes/prod_short.md)] umfasst eine Standardkonfiguration der meisten Finanzvorgänge, aber Sie können die Konfiguration ändern, um Sie den Anforderungen Ihres Unternehmens anzupassen. Weitere Informationen finden Sie unter [Einrichten von Finanzen](finance-setup-finance.md).
+# <a name="finance"></a>Finanzen
+[!INCLUDE[d365fin](includes/d365fin_md.md)] umfasst eine Standardkonfiguration der meisten Finanzvorgänge, aber Sie können die Konfiguration ändern, um Sie den Anforderungen Ihres Unternehmens anzupassen. Weitere Informationen finden Sie unter [Einrichten von Finanzen](finance-setup-finance.md).
 
 Die Standardkonfiguration enthält Kontenpläne und Standardbuchungsgruppen, die das Zuordnen von standardmäßigen Sachkontobuchungskonten zu Debitoren, Kreditoren und Artikeln effizienter gestalten.  
 
-Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Themen, die sie beschreiben..  
+In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den beschriebenen Themen erläutert.  
 
 | Aufgabe | Siehe |
 | --- | --- |
@@ -45,35 +45,25 @@ Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Themen,
 | Weisen Sie zusätzliche Kosten, wie Fracht und Bewegung, die Sie im Zuge des Handels verursachen, mit den einbezogenen Artikel an, für die Kosten in der Lagerbewertung widergespiegelt werden. |[Verwenden von Artikelzuschlägen für zusätzliche Kosten](payables-how-assign-item-charges.md) |
 |Erstatten Sie Mitarbeitern persönliche Ausgaben für die Geschäftsaktivitäten zurück, indem Sie Zahlung zu dem Bankkonto vornehmen.|[Geschäftsverwandte Ausgaben der Beschäftigten aufzeichnen und zurückzahlen](finance-how-record-reimburse-employee-expenses.md)|
 | Erkennen Sie Einnahmen und Ausgaben in anderen Perioden die Transaktionen gebucht wurden. |[Einnahmen und Ausgaben abgrenzen](finance-how-defer-revenue-expenses.md)|
-| Erfahren Sie mehr über die verfügbaren Optionen zum automatischen Senden von Abonnementrechnungen an Ihre Kunden und zum Registrieren wiederkehrender Einnahmen. |[Arbeiten mit wiederkehrenden Umsätzen](finance-recurring-invoicing.md)|
+| Erfahren Sie mehr über die verfügbaren Optionen zum automatischen Senden von Abonnementrechnungen an Ihre Kunden und zum Registrieren wiederkehrender Einnahmen. |[Wiederkehrende Einnahmen (aus Abonnements)](finance-recurring-invoicing.md)|
 |Erfahren Sie, wie Sie zusätzliche Währungen verwenden und Wechselkurse automatisch aktualisieren. |[Währungswechselkurse aktualisieren](finance-how-update-currencies.md)|
 | Importieren Sie Gehaltstransaktionen von Ihrem Gehaltsabrechnungsanbieter in die Finanzbuchhaltung. |[Lohntransaktionen importieren](finance-how-import-payroll-transactions.md)|
 |Verwenden Sie Funktionen, um die MwSt. in Einkaufs- und Verkaufstransaktionen zu berechnen, sodass Sie die Beträge an die Steuerbehörden melden können.|[Arbeiten mit MwSt im Verkauf und Einkauf](finance-work-with-vat.md)|
 |Erfahren Sie, wie Sie einen Bericht erstellen, der die MwSt aus Verkäufen in einer Zeilenliste in einer Periode darstellt, und übermitteln Sie den Bericht an die Behörden in der EU. | [Melden von MwSt. an die Steuerbehörden](finance-how-report-vat.md)|
 |Serviceverträge manuell umwandeln, dass der Mehrwertsteuersatz geändert wird.|[Konvertieren von Serviceverträgen, die MwSt.-Beträge enthalten](service-how-to-convert-service-contracts.md)|
 | Überwachen Sie den Ablauf des Bargeldes für Ihr Unternehmen. |[Analysieren von Cashflow in Ihren Mandanten](finance-analyze-cash-flow.md) |
-|Folgen Sie einer durchgängigen Vorgehensweise, wie Sie Kontenschemata verwenden, um Cashflow-Planungen zu erstellen.|[Exemplarische Vorgehensweise: Erstellen von Cashflowplanungen mithilfe von Kontenschemata](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)|
+|Folgen Sie einem umfassenden Verfahren zur Verwendung von Kontenschemata, um Cashflowplanungen zu erstellen.|[Exemplarische Vorgehensweise: Erstellen von Cashflowplanungen mithilfe von Kontenschemata](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)|
 | Arbeiten mit Finanzberichten und -übersichten in Excel. |[Finanzauswertungen in Excel analysieren](finance-analyze-excel.md) |
-|Erfahren Sie, wie Sie das Buchhalter-Rollencenter verwenden, einen externen Buchhalter einladen und den Unternehmens-Hub nutzen, um Konten mehrerer Clients zu verwalten.|[Buchhaltungs-Erfahrung in Business Central](finance-accounting.md)|  
-
-## <a name="take-a-video-tour"></a>Machen Sie eine Videotour
-
-Das folgende Video stellt einige der wichtigsten Funktionen für die Verwaltung von Finanzen vor. <br><br>  
-
-> [!Video https://www.microsoft.com/videoplayer/embed/RE4Fss4?rel=0]
+|Erfahren Sie, wie Sie das Buchhalter-Rollencenter verwenden, einen externen Buchhalter einladen und den Accountant Hub nutzen, um Konten mehrerer Mandanten zu verwalten.|[Buchhaltungs-Erfahrung in Business Central](finance-accounting.md)|  
 
 ## <a name="see-also"></a>Siehe auch
-
 [Finanzen einrichten](finance-setup-finance.md)  
 [Verkauf](sales-manage-sales.md)  
 [Einkauf](purchasing-manage-purchasing.md)  
 [Schließen des Finanzzeitraums](year-close-years-periods.md)  
-[Projekte verwalten](projects-manage-projects.md)  
+[Projekte verwalten](projects-manage-projects.md)    
 [Daten aus anderen Finanzsystemen importieren](across-import-data-configuration-packages.md)  
 [Arbeiten mit Fibu Buch.-Blättern](ui-work-general-journals.md)  
-[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

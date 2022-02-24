@@ -1,31 +1,30 @@
 ---
-title: Compliance-Übersicht
-description: Überblick darüber, wie die Funktionalität von Business Central auf einer Plattform aufgebaut ist, die es den Debitoren leicht macht, Compliance und gesetzliche Vorschriften einzuhalten.
+title: Kompatibilität | Microsoft Docs
+description: Dieser Inhalt enthält Informationen über Dienstkompatibilität in Bezug auf Business Central.
 author: sorenfriisalexandersen
 documentationcenter: ''
 ms.service: dynamics365-business-central
-ms.topic: overview
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.reviewer: edupont
-ms.date: 06/14/2021
+ms.date: 04/01/2020
 ms.author: soalex
-ms.openlocfilehash: 3995d8c22dbcadbff5aa19e3d1574d75802f9db4
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: f11428a5375627b5ec5529e2d667b598494fb5a9
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8011019"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185909"
 ---
-# <a name="compliance-overview"></a>Compliance-Übersicht
+# <a name="compliance"></a>Kompatibilität
+Dieser Inhalt enthält Informationen über Dienstkompatibilität in Bezug auf [!INCLUDE[d365fin](../includes/d365fin_md.md)].  
 
-Dieser Inhalt enthält Informationen über Dienstkompatibilität in Bezug auf [!INCLUDE[prod_short](../includes/prod_short.md)].  
+Kompatibilität ist ein Thema für das Erhöhens von Zinsen und durch die Entwicklung von Business Central haben wird sichergestellt, dass das Produkt Debitoren und Ihrem Partner auf einer breiten Skala befähigt und nicht Blocker hinsichtlich der Kompatibilität erforderlich macht. Im Gegenteil Business Central enthält Funktionalitäten und ist auf einer Plattform gebaut, die es für Kunden einfach macht, die Kompatibilität und Gesetze einzuhalten.
 
-Compliance ist ein Thema von wachsendem Interesse, und während der gesamten Entwicklung von Business Central haben wir dafür gesorgt, dass das Produkt Kunden und Partner auf breiter Ebene befähigt und keine Blockierer in Bezug auf Compliance auferlegt. Im Gegenteil Business Central enthält Funktionalitäten und ist auf einer Plattform gebaut, die es für Kunden einfach macht, die Kompatibilität und Gesetze einzuhalten.
-
-In diesem Abschnitt können Sie mehr über den Ansatz unserer Compliance in Bezug auf Anwendung, Dienstleistungen und länderspezifische Anforderungen lesen.
+In diesem Abschnitt können Sie mehr über den Ansatz unserer Kompatibilität in Bezug auf Anwendung, Dienstleistungen und länderspezifische Perspektiven lesen.
 
 |**Prozess**|**Siehe**|  
 |------------|-------------|  
@@ -34,7 +33,4 @@ In diesem Abschnitt können Sie mehr über den Ansatz unserer Compliance in Bezu
 |Sehen Sie Informationen über die verschiedenen Zertifizierungen, die mit Business Central verknüpft werden. Hier finden Sie allgemeine Informationen über Zertifizierungen und länderspezifische Besonderheiten.|[Bescheinigungen](compliance-certifications.md)|  
 |Mehr über die Service Level Agreement Bestimmungen und andere Bestimmungen für den Service erfahren.|[Servicebedingungen](compliance-service-compliance.md#service-terms)|  
 
-## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+## [!INCLUDE[d365fin](../includes/free_trial_md.md)]  

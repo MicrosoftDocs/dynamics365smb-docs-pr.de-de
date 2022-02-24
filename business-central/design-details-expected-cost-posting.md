@@ -1,21 +1,21 @@
 ---
-title: Designdetails – Erwartete Kostenbuchung
+title: 'Designdetails: Erwartete Kostenbuchung | Microsoft Docs'
 description: Soll-Kosten repräsentieren die Schätzung der Kosten, z. B. für die Kosten eines Einkaufsartikels, die Sie registrieren, bevor Sie die Rechnung für den Artikel erhalten.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/20/2021
-ms.author: edupont
-ms.openlocfilehash: 1327eaf9a26ff2bbf8aa3dab8f2e7f64b8f00ab4
-ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 024d80039c2293924a53db31ea998a7b565c333b
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "6649837"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185492"
 ---
 # <a name="design-details-expected-cost-posting"></a>Designdetails: Soll-Kosten-Buchen
 Soll-Kosten repräsentieren die Schätzung der Kosten, z. B. für die Kosten eines Einkaufsartikels, die Sie registrieren, bevor Sie die Rechnung für den Artikel erhalten.  
@@ -29,22 +29,10 @@ Soll-Kosten repräsentieren die Schätzung der Kosten, z. B. für die Kosten ein
 
  Um Abstimmung und Verfolgbarkeit zu unterstützen, zeigt der fakturierte Wertposten den Soll-Kostenbetrag, der zum Ausgleichen der Interimskonten gebucht wurde.  
 
-## <a name="prerequisites-for-posting-expected-costs"></a>Voraussetzungen für die Buchung der erwarteten Kosten
-
-Um die erwarteten Kosten buchen zu können, müssen Sie Folgendes tun:
-1. Aktivieren Sie auf der Seite **Lager-Einrichtung** das Kontrollkästchen **Automatische Kostenbuchung** und das Kontrollkästchen **Soll-Kosten buchen**.
-2. Legen Sie fest, welche Interimskonten während des erwarteten Kostenbuchungsprozesses verwendet werden sollen.  
-
-  Überprüfen Sie auf der Seite **Lagerbuchungseinrichtung** die Felder **Lagerkonto** und **Lagerkonto (Interim)** auf den **Lagerortcode und Lagerbuchungsgruppencode** des Artikels, den Sie kaufen möchten. Weitere Informationen zu diesen Konten finden Sie unter [Designdetails: Konten in der Finanzbuchhaltung](design-details-accounts-in-the-general-ledger.md).
-3. Überprüfen Sie auf der Seite **Buchungsmatrix Einrichtung** das Feld **Lagerzugangskonto (Interim)** auf die **Geschäftsbuchungsgruppe** und die **Produktbuchungsgruppe**, die Sie verwenden.
-4. Wenn Sie eine Bestellung erstellen, ist die Standardeinstellung, dass das Feld **Kred.-Rechnungsnr.** erforderlich ist. Sie müsse dies auf der Seite **Kreditoren & Einkauf Einr.** deaktivieren, indem Sie das Feld **Ext. Belegnr. erforderlich** deaktivieren.
-
 ## <a name="example"></a>Beispiel  
+ Das folgende Beispiel zeigt erwartete Kosten an, wenn das Kontrollkästchen **Automatische Lagerbuchung** und das Kontrollkästchen **Erwartete Kostenbuchung** auf der Seite **Lager Einrichtung** ausgewählt werden.  
 
-> [!NOTE]  
-> Die in diesem Beispiel verwendeten Kontonummern dienen nur als Referenz und unterscheiden sich in Ihrem System. Richten Sie sie wie in den Voraussetzungen oben beschrieben ein.
-
-Sie buchen eine Einkaufsbestellung als erhalten. Die erwarteten Kosten sind MW 95,00.  
+ Sie buchen eine Einkaufsbestellung als erhalten. Die erwarteten Kosten sind MW 95,00.  
 
  **Wertposten**  
 
@@ -85,7 +73,7 @@ Sie buchen eine Einkaufsbestellung als erhalten. Die erwarteten Kosten sind MW 
 
  **Sachposten**  
 
-|Buchungsdatum|Sachkonto|Kontonummer (nur Beispiele!)|Betrag|Eingabenr.|  
+|Buchungsdatum|Sachkonto|Kontonr. (En-US-Demo)|Betrag|Lfd. Nr.|  
 |------------------|------------------|---------------------------------|------------|---------------|  
 |01-15-20|Lagerzugangskonto (Interim)|5530|95.00|4|  
 |01-15-20|Lagerkonto (Interim)|2131|-95.00|3|  
@@ -100,7 +88,4 @@ Sie buchen eine Einkaufsbestellung als erhalten. Die erwarteten Kosten sind MW 
  [Designdetails: Abweichung](design-details-variance.md)  
  [Verwalten der Lagerregulierung](finance-manage-inventory-costs.md)  
  [Finanzen](finance.md)  
- [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+ [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

@@ -1,20 +1,21 @@
 ---
-title: Informationen zur Berechnung von festen Einstandspreisen
-description: Ein Standard-Kostensystem bestimmt die Kosten der Einheit des Bestandes auf der Grundlage angemessener historischer oder erwarteter Kosten.
+title: Über das Berechnen von festen Einstandspreise | Microsoft Docs
+description: Ein Einstandspreissystem bestimmt die Kosten einer Lagerbestandseinheit anhand fundierter früherer oder erwarteter Kosten. Untersuchungen der früheren oder der erwarteten zukünftigen Kosten können dann die Basis für feste Einstandspreise bereitstellen.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 5841
-ms.author: edupont
-ms.openlocfilehash: 6b0b531c1a41d2f19941578f8f381d56e554cb96
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.search.keywords: ''
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 208f07fe68fac326d5cc444b498d9cca09fd231b
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7973700"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3184268"
 ---
 # <a name="about-calculating-standard-cost"></a>Informationen zur Berechnung von festen Einstandspreisen
 Viele Produktionsbetriebe verwenden feste Einstandspreise als Bewertungsbasis. Dies gilt auch für Unternehmen, die Leichtproduktion ausführen, wie Montage und Kitting. Ein Einstandspreissystem bestimmt die Kosten einer Lagerbestandseinheit anhand fundierter früherer oder erwarteter Kosten. Untersuchungen der früheren oder der erwarteten zukünftigen Kosten können dann die Basis für feste Einstandspreise bereitstellen. Diese Kosten bleiben unverändert, bis entschieden wird, sie zu ändern. Die Ist-Produktionskosten eines Produkts können von den erwarteten festen Einstandspreisen abweichen. Damit das Management steuernd eingreifen kann, werden die Ist-Kosten eines bestimmten Artikels mit dessen festem Einstandspreis verglichen. Dabei entdeckte Unterschiede oder *Abweichungen* werden gekennzeichnet und analysiert.  
@@ -32,23 +33,22 @@ Da der Einstandspreis eines produzierten oder montierten Artikels aus mehreren K
 
 Die Kalkulationsaufgabe für einen Artikelproduktionsbetrieb, in dem Einstandspreise verwendet werden, besteht aus:  
 
-- Kalkulieren Sie einen Einstandspreis für einen fertigen Artikel und richten sie ihn auf der Artikelkarte ein.  
-- Erfassen und Zuordnen der Ist-Kosten der Produktionskostenelemente und genaues Feststellen von Abweichungen.  
+-   Kalkulieren Sie einen Einstandspreis für einen fertigen Artikel und richten sie ihn auf der Artikelkarte ein.  
+-   Erfassen und Zuordnen der Ist-Kosten der Produktionskostenelemente und genaues Feststellen von Abweichungen.  
 
 Zum Bestimmen der direkten Kosten eines fertigen Artikels müssen alle Komponentenkosten summiert werden. Ein montierter oder hergestellter Artikel kann Unterbaugruppen umfassen, die auch aus mehreren Komponenten bestehen.  
 
 Die folgenden wesentlichen Kostenelemente bilden die direkten Kosten eines fertig bearbeiteten Artikels:  
 
-- Materialkosten.  
-- Kapazitätskosten.  
-- Fremdarbeitskosten nur für gefertigte Artikel.  
+-   Materialkosten.  
+-   Kapazitätskosten.  
+-   Fremdarbeitskosten nur für gefertigte Artikel.  
 
-### <a name="material-costs"></a>Materialkosten
+### <a name="material-costs"></a>Materialkosten  
+ Materialkosten sind Kosten, die Halbfabrikaten und gekauftem Rohmaterial zugeordnet sind. Materialeinstandspreise können aus direkten und indirekten Kostenelementen bestehen.  
 
-Materialkosten sind Kosten, die Halbfabrikaten und gekauftem Rohmaterial zugeordnet sind. Materialeinstandspreise können aus direkten und indirekten Kostenelementen bestehen.  
-
-- Direkte Materialkosten entsprechen dem in Rechnung gestellten Betrag für gekauftes Rohmaterial oder den Produktionskosten bei Halbfabrikaten.  
-- Indirekte Materialkosten (oder *Gemeinkosten*) entsprechen beispielsweise den Logistikkosten für den produzierten fertigen Artikel.  
+-   Direkte Materialkosten entsprechen dem in Rechnung gestellten Betrag für gekauftes Rohmaterial oder den Produktionskosten bei Halbfabrikaten.  
+-   Indirekte Materialkosten (oder *Gemeinkosten*) entsprechen beispielsweise den Logistikkosten für den produzierten fertigen Artikel.  
 
 Das Konfigurieren der Materialkosten für Einkaufsartikel hinsichtlich der direkten und der indirekten Kosten hängt von der Lagerabgangsmethode ab, die für den fraglichen Artikel ausgewählt ist. Die Kosteninformationen für jede Lagerabgangsmethode auf der Artikelkarte. Weitere Informationen finden Sie unter [Neue Artikel registrieren](inventory-how-register-new-items.md).
 
@@ -66,13 +66,13 @@ Kapazitätskosten entsprechen den internen Bearbeitungs- und den Maschinenkosten
 
 Die Einrichtung der Kapazitätskosten für montierte Artikel besteht aus den folgenden Elementen:  
 
-- Direkter und indirekter Einstandspreis der Ressource.  
-- Feste oder direkte Ressourcenverbrauchsart.  
+-   Direkter und indirekter Einstandspreis der Ressource.  
+-   Feste oder direkte Ressourcenverbrauchsart.  
 
 Die Einrichtung der Kapazitätskosten für produzierte Artikel besteht aus den folgenden Elementen:  
 
-- Direkter und indirekter Einstandspreis des Arbeitsplatzes bzw. der Arbeitsplatzgruppe.  
-- Zeit und Losgröße einrichten.  
+-   Direkter und indirekter Einstandspreis des Arbeitsplatzes bzw. der Arbeitsplatzgruppe.  
+-   Zeit und Losgröße einrichten.  
 
 Zum Berechnen der Standardkapazitätskosten müssen Sie die Standardzeitlöhne festlegen, die zum Ausführen von Arbeitsgängen an Arbeitsplätzen oder Arbeitsplatzgruppen erforderlich sind. Die Gesamtzeit, die für einen Arbeitsgang erforderlich ist, besteht üblicherweise aus der Rüst- und der Bearbeitungszeit sowie der Warte- und der Transportzeit.  
 
@@ -97,7 +97,7 @@ Die Aktualisierung oder Berechnung von festen Einstandspreisen umfasst üblicher
 
 1.  Aktualisieren von Kosten auf der Komponenten- und Kapazitätsebene. Weitere Informationen finden Sie unter Stapelverarbeitungen **Artikel Einst.-Preis vorschlagen** und **Einstandspreis für Kapazität vorschlagen**.  
 2.  Konsolidieren und mehrstufiges Berechnen der Komponenten- und Kapazitätskosten, um die Gesamtproduktionskosten der Artikel zu berechnen. Weitere Informationen finden Sie unter [So berechnen Sie die Standardkosten eines Montageartikels](inventory-how-work-boms.md#to-calculate-the-standard-cost-of-an-assembly-item).  
-3.  Implementieren der festen Einstandspreise, die bei der Ausführung der vorherigen Batchaufträge eingegeben werden. Die festen Einstandspreise treten erst in Kraft, wenn Sie implementiert werden. Verwenden Sie den Stapelverarbeitungsauftrag **Einst.-Preis (fest) Vorschlag übernehmen**, der die Änderungen der Standardkosten für Artikel mit denen aus der Tabelle „Einst.-Preis (fest) Arbeitsblatt“ aktualisiert.  
+3.  Implementieren der festen Einstandspreise, die bei der Ausführung der vorherigen Batchaufträge eingegeben werden. Die festen Einstandspreise treten erst in Kraft, wenn Sie implementiert werden. Weitere Informationen finden Sie unter dem Stapelverarbeitungsauftrag **Artikel Einst.-Preis implementieren**.  
 4.  Implementieren der Änderungen, um das Feld **Einstandspreis** auf der Artikelkarte zu aktualisieren und eine Lagerneubewertung durchzuführen. Weitere Informationen finden Sie unter [Neubewerten von Lagerbestand](inventory-how-revalue-inventory.md).
 
 ## <a name="see-also"></a>Siehe auch  
@@ -105,6 +105,3 @@ Die Aktualisierung oder Berechnung von festen Einstandspreisen umfasst üblicher
  [Mit Fertigungsstücklisten arbeiten](inventory-how-work-BOMs.md)   
  [Standardkosten aktualisieren](finance-how-to-update-standard-costs.md)   
  [Designdetails: Lagerkostenberechnung](design-details-inventory-costing.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

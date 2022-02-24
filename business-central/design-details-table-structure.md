@@ -3,19 +3,19 @@ title: Designdetails - Tabellenstruktur | Microsoft Docs
 description: Um zu erkennen, wie die Dimensionsposten-Einlagerungs- und Buchung neu entwickelt wurde, ist es wichtig, die Tabellenstruktur zu kennen.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
-ms.author: edupont
-ms.openlocfilehash: 6d418633eb884f0b8cfca2f46fc69103a8fabdb2
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 04e9fda4d784f8e1fa049455ddcab989691e821c
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215728"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3184622"
 ---
 # <a name="design-details-table-structure"></a>Designdetails: Tabellenstruktur
 Um zu erkennen, wie die Dimensionsposten gespeichert und gebucht werden, ist es wichtig, die Tabellenstruktur zu kennen.  
@@ -150,7 +150,7 @@ Feld 480 ist in den folgenden Tabellen editierbar.
 |207|**Res. Buch.-Blattzeile**|  
 |210|**Projekt Buch.-Blattzeile**|  
 |221|**Fibu Buch.-Blatt Verteilungen**|  
-|246|**Bestellarbeitsblattszeile**|  
+|246|**Bestellvorschlagszeile**|  
 |295|**Mahnungskopf**|  
 |302|**Zinsrechnungskopf**|  
 |5405|**Fertigungsauftrag**|  
@@ -181,7 +181,8 @@ Feld 480 ist in den folgenden Puffertabellen vorhanden.
 |5637|**Anlagen Fibu-Buchungspuffer**|  
 |7136|**Artikelbudgetpuffer**|  
 
-## <a name="see-also"></a>Siehe auch
-
-[Dimensionssatz-Eintrags-Übersicht](design-details-dimension-set-entries-overview.md)  
-[Designdetails: Suche nach Dimensionskombinationen](design-details-searching-for-dimension-combinations.md)   
+## <a name="see-also"></a>Siehe auch  
+ [Designdetails: Dimensionssatzposten](design-details-dimension-set-entries.md)   
+ [Dimensionssatz-Eintrags-Übersicht](design-details-dimension-set-entries-overview.md)   
+ [Designdetails: Suche nach Dimensionskombinationen](design-details-searching-for-dimension-combinations.md)   
+ 

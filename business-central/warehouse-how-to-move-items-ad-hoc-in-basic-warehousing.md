@@ -1,21 +1,21 @@
 ---
-title: Ad-hoc-Bewegung von Artikeln in grundlegenden Lagerkonfigurationen
-description: Dieses Thema erklärt Ad-hoc-Bewegungen, die durchgeführt werden, wenn Sie Artikel zwischen internen Lagerplätzen ohne einen bestimmten Bedarf aus einem Quellbeleg verschieben müssen.
+title: 'Vorgehensweise: Ad-hoc-Umlagerung von Artikeln in Basis-Lagerkonfigurationen | Microsoft Docs'
+description: Möglicherweise müssen Sie gelegentlich Artikel zwischen internen Lagerplätzen umlagern, ohne Eingangs- oder Versandlagerort und ohne einen speziellen Bedarf aus einem Herkunftsbeleg. Sie können diese Ad-hoc-Lagerplatzumlagerungen zum Beispiel durchführen, um das Lager neu zu organisieren, Artikel in einen Inspektionsbereich zu bringen oder zusätzliche Artikel an einen bzw. aus einem Fertigungsbereich zu bewegen, ohne dass ein Systembezug zum Herkunftsbeleg des Fertigungsauftrags besteht.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/25/2021
-ms.author: edupont
-ms.openlocfilehash: 11377c1944f47723b97fad9b5ffc699fa8255a4f
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 8944c01f032444b98efaf482c00d198127570c4e
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444102"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3193083"
 ---
 # <a name="move-items-ad-hoc-in-basic-warehouse-configurations"></a>Ad-hoc-Umlagerung von Artikeln in Basis-Lagerkonfigurationen
 Möglicherweise müssen Sie gelegentlich Artikel zwischen internen Lagerplätzen umlagern, ohne Eingangs- oder Versandlagerort und ohne einen speziellen Bedarf aus einem Herkunftsbeleg. Sie können diese Ad-hoc-Lagerplatzumlagerungen zum Beispiel durchführen, um das Lager neu zu organisieren, Artikel in einen Inspektionsbereich zu bringen oder zusätzliche Artikel an einen bzw. aus einem Fertigungsbereich zu bewegen, ohne dass ein Systembezug zum Herkunftsbeleg des Fertigungsauftrags besteht.  
@@ -26,10 +26,10 @@ In den Basislagerkonfigurationen können für Lagerplätze, die das Einrichtungs
 - Mit der Seite **Umlagerungs Buch.-Blatt**.  
 
 > [!NOTE]  
->  In erweiterten Lagerkonfigurationen sind dies Lagerplätze, die das Einrichtungsfeld **Gesteuerte Einlag. u. Kommiss.** verwenden. Um die Artikel ad hoc zwischen Lagerplätzen zu verschieben, verwenden Sie die Seiten **Lagerplatzumlagerungsarbeitsblatt** oder **Interne Kommissionierung** oder **Interne Einlagerung**.  
+>  In erweiterten Lagerkonfigurationen sind dies Lagerplätze, die das Einrichtungsfeld **Gesteuerte Einlag. u. Kommiss.** verwenden. Um die Artikel ad hoc zwischen Lagerplätzen zu verschieben, verwenden Sie die Seiten **Lagerplatzumlagerungsvorschlag** oder **Interne Kommissionierung** oder **Interne Einlagerung**.  
 
 ## <a name="to-move-items-as-an-internal-movement"></a>Um Artikel als interne Umlagerung zu verschieben  
-1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Interne Umlagerungen** ein, und wählen Sie dann den entsprechenden Link.  
+1.  Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Interne Bewegung** ein, und wählen Sie dann den entsprechenden Link.  
 2.  Füllen Sie auf dem Inforegister **Allgemein** das Feld **Nr.** aus. Feld, das Sie entweder leer lassen oder indem Sie die Schaltfläche **AssistEdit** klicken, um in der Nummernserie eine Auswahl zu treffen.  
 3.  Geben Sie im Feld **Lagerortcode** den Lagerort ein, an dem die Bewegung stattfindet.  
 
@@ -58,7 +58,7 @@ In den Basislagerkonfigurationen können für Lagerplätze, die das Einrichtungs
 
 ## <a name="to-move-items-with-the-item-reclassification-journal"></a>Um Artikel mit dem Artikel-Umlagerungs-Buch.-Blatt umzulagern
 Anstelle der Verwendung von Lagerplatzumlagerungsbelegen können Sie die Umlagerung von Artikeln erfassen, indem Sie deren Lagerplatzcodes neu klassifizieren. Weitere Informationen finden Sie unter [Erfassen, Regulieren und Umbuchen von Lagerbestand mithilfe von Buch.-Blättern](inventory-how-count-adjust-reclassify.md)   
-1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Element umklassifizieren. Erfassungen** ein und wählen Sie dann den zugehörigen Link.  
+1.  Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), und geben Sie **Umlagerung Buch.-Blatt** ein und wählen Sie dann den entsprechenden Link.  
 2.  Legen Sie in jeder Buch.-Blattzeile die Lagerplätze fest, von denen und auf die Sie Artikel umlagern möchten, indem Sie die Felder **Lagerplatzcode** und **Neuer Lagerplatzcode** ausfüllen.  
 
     1.  Um den gesamten Inhalt eines Lagerplatzes in einen anderen Lagerplatz umzulagern, wählen Sie die Aktion **Lagerplatzinhalt holen** aus.  
@@ -75,7 +75,4 @@ Anstelle der Verwendung von Lagerplatzumlagerungsbelegen können Sie die Umlager
 [Lagerortverwaltung einrichten](warehouse-setup-warehouse.md)     
 [Montageverwaltung](assembly-assemble-items.md)    
 [Designdetails: Logistik](design-details-warehouse-management.md)  
-[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

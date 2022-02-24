@@ -1,25 +1,27 @@
 ---
-title: Regeln für die automatische Anwendung von Zahlungen
-description: Lesen Sie auf der Seite Regeln für Zahlungsausgleichsvorschriften, wie Sie Regeln für die automatische Anwendung von Zahlungen festlegen können.
+title: Abstimmen von Zahlungen mithilfe der automatischen Anwendung | Microsoft Docs
+description: Auf der Seite „Zahlungsausgleichsvorschriften“ richten Sie die Regeln ein, um zu steuern, wie Zahlungen/Banktransaktionen automatisch mit ihren entsprechenden offenen Sachposten ausgeglichen werden, wenn Sie die Funktion Automatisch anwenden auf der Seite Zahlungsabstimmungsbuch.-Blatt verwenden.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
-ms.date: 06/25/2021
-ms.author: edupont
-ms.openlocfilehash: 6eb37cbe2c4891c35b24a3ae7517add73669a2ac
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 64756cdc1a95cc0bb866fa4b7f87ecea0f1282ff
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7971275"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3191931"
 ---
 # <a name="set-up-rules-for-automatic-application-of-payments"></a>Einrichten von Regeln für die automatische Anwendung von Zahlungen
+Auf der Seite **Zahlungsausgleichsvorschriften** Regeln Sie regeln ein, um zu steuern, wie der Zahlungstext (bei einer Banktransaktion) in den folgenden beiden Prozessen automatisch mit dem Text auf offenen Einträgen abgeglichen wird:
+- Gleichen Sie Zahlungen automatisch mit ihren entsprechenden offenen (unbezahlten) Rechnungen, Gutschriften und anderen Einträgen ab, wenn Sie die Funktion **Automatisch anwenden** auf der Seite **Zahlungsabstimmungsbuch.-Blatt** verwenden. Weitere Informationen finden Sie unter [Abstimmen von Zahlungen mithilfe der automatischen Anwendung](receivables-how-reconcile-payments-auto-application.md).
 
-Auf der Seite **Zahlungsausgleichsvorschriften** richten Sie die Regeln ein, um zu steuern, wie Zahlungstext (bei einer Banktransaktion) automatisch mit dem Text auf zugehörigen offenen (unbezahlten) Rechnungen, Gutschriften oder anderen Einträgen abeglichen wird, wenn Sie die Funktion **Automatisch anwenden** auf der Seite **Zahlungsabstimmungsbuch.-Blatt** verwenden. Weitere Informationen finden Sie unter [Abstimmen von Zahlungen mithilfe der automatischen Anwendung](receivables-how-reconcile-payments-auto-application.md).
+- Ordnen Sie Banktransaktionen automatisch den zugehörigen internen Bankkontenposten zu, wenn Sie die Aktion **Automatisch abgleichen** auf der Seite **Bankkontoabstimmung** auswählen. Weitere Informationen finden Sie unter [Abstimmen von Bankkonten](bank-how-reconcile-bank-accounts-separately.md).
 
 Sie richten neue Regeln zur Zahlungsanwendung ein, indem Sie auswählen, welche Arten von Daten in einer Zahlungsabstimmungsbuch.-Blattzeile mit Daten einem oder mehreren offenen Posten übereinstimmen müssen, bevor die zugehörige Zahlung automatisch auf die offenen Posten angewendet wird. Die Qualität jedes automatischen Ausgleichs wird als Wert zwischen **Niedrig** und **Hoch** im Feld **Übereinstimmungsgenauigkeit** auf der Seite **Zahlungsabstimmungsbuch.-Blatt** entsprechend der Zahlungsausgleichsregel angezeigt, die verwendet wurde.
 
@@ -36,7 +38,7 @@ Neben den Zuordnungskriterien gilt Folgendes hinsichtlich des Vorzeichens des Za
 - Für positive Beträge wird ein Abgleich gegen offene Posten, die Kreditorenrechnungen repräsentieren, und dann gegen Debitorgutschriften vorgenommen.
 
 ## <a name="to-set-up-a-payment-application-rule"></a>So richten Sie eine Zahlungsausgleichsregel ein
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Zahlungsausgleichsvorschriften** ein, und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Zahlungsausgleichsvorschriften** ein, und wählen Sie dann den zugehörigen Link.
 2. Definieren Sie eine neue oder bearbeitete Zahlungsausgleichsregel, indem Sie die Felder in einer Zeile ausfüllen, wie in der folgenden Tabelle beschrieben.
 
 |Feld|Beschreibung|
@@ -46,12 +48,11 @@ Neben den Zuordnungskriterien gilt Folgendes hinsichtlich des Vorzeichens des Za
 |**Übereinstimmende zugehörige Partei**|Gibt an, wie viel Informationen über den Debitor oder Kreditor (wie Adresse, Ortsname und Bankkontonummer) auf der Zahlungsabstimmungsbuch.-Blattzeile mit Daten in dem offenen Posten übereinstimmen müssen, bevor die Ausgleichsregel verwendet wird, um die Zahlung automatisch mit dem offenen Eintrag auszugleichen.|
 |**Belegnummer/übereinstimmende ext. Belegnummer**|Gibt an, ob der Text in der Zahlungsabstimmungsbuch.-Blattzeile mit dem Wert im Feld **Belegnr.** oder im Feld **Externe Belegnummer** für den offenen Posten übereinstimmen muss, bevor die Ausgleichsregel zum automatischen Ausgleich der Zahlung des offenen Postens verwendet wird.|
 |**Übereinstimmender Betrag einschließlich Toleranz**|Gibt an, wie viele Posten für einen Debitor oder Kreditor den Betrag einschließlich Zahlungstoleranz übereinstimmen müssen, bevor die Ausgleichsregel verwendet wird, um die Zahlung eines offenen Postens automatisch auszugleichen.|
-|**Überprüfung erforderlich**|Gibt an, ob die automatische Zahlungsanwendung für die manuelle Überprüfung durch den Benutzer vor dem Posten empfohlen wird. Durch Auswahl des Felds **Zu überprüfende Zeilen** auf der Seite **Zahlungsantragsjournal** startet eine geführte Erfahrung, bei der Sie problemlos mehrere Anwendungen in einer Sequenz auf der Website **Überprüfung des Zahlungsantrags** überprüfen können.|
 
-In der folgenden Tabelle werden die Standardregeln für Zahlungsanwendungen in [!INCLUDE[prod_short](includes/prod_short.md)] beschrieben.
+Die folgende Tabelle zeigt, welche Zahlungsausgleichsregeln in der generischen Version von [!INCLUDE[d365fin](includes/d365fin_md.md)] eingerichtet sind.
 
 > [!Important]
-> Die Zahlungsausgleichsregeln können anders sein als in Ihrer Implementierung von [!INCLUDE[prod_short](includes/prod_short.md)].
+> Die Zahlungsausgleichsregeln können anders sein als in Ihrer Implementierung von [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 | Übereinstimmungsgenauigkeit | Priorität | Übereinstimmende zugehörige Partei | Belegnummer/Externe Belegnummer Übereinstimmend | Übereinstimmender Betrag einschließlich Toleranz |
 |------------------|----------|-----------------------|--------------------------------|--------------------------------|
@@ -86,7 +87,4 @@ In der folgenden Tabelle werden die Standardregeln für Zahlungsanwendungen in [
 [Zahlungen mit automatischem Ausgleich abstimmen](receivables-how-reconcile-payments-auto-application.md)  
 [Verwalten von Forderungen](receivables-manage-receivables.md)  
 [Verkauf](sales-manage-sales.md)  
-[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

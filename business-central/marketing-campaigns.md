@@ -3,19 +3,19 @@ title: Marketingkampagnen in Business Central einrichten | Microsoft Docs
 description: Beschreibt, wie Sie Marketingkampagnen in Business Central einrichten und ausführen, um potenzielle Kunden zu identifizieren und Kunden zu behalten.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: marketing, campaign, promo, prospect
-ms.date: 04/01/2021
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5e9ed545daaa9600beb96ebb19aaeb36fb3a518c
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a51fc3a0fdd4ea1e622f3f69f2e6faf9902178bc
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780732"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181652"
 ---
 # <a name="managing-marketing-campaigns"></a>Verwaltung von Marketingkampagnen
 Der Einsatz eines fundierten Marketingplans ermöglicht das Erkennen, Gewinnen und Binden von Debitoren. Ein Marketingplan setzt sich aus mehreren Kampagnen und anderen Aktivitäten rund um Ihre Verkaufs- und Marketingaktivitäten zusammen. Beim Planen einer Kampagne müssen Sie entscheiden, welche Kontakte Sie ansprechen möchten, welche Art von Kampagne (beispielsweise Messe oder Direktwerbung) Sie erstellen möchten und welche Verkäufer die einzelnen Aufgaben ausführen sollen.
@@ -51,6 +51,3 @@ Kampagnen werden vom Verkäufer geleitet werden, und Sie müssen Aktivitäten er
 [Verwalten von Segmenten](marketing-segments.md)  
 [Verkaufschancen verwalten](marketing-manage-sales-opportunities.md)  
 [Arbeiten mit  Business Central](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

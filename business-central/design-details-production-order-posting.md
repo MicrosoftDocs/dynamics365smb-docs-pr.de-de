@@ -3,19 +3,19 @@ title: 'Designdetails: Fertigungsauftragsbuchung | Microsoft Docs'
 description: Ähnlich wie bei der Montageauftragsbuchung werden die verbrauchten Komponenten und die verwendete Maschinenzeit konvertiert und als gefertigter Artikel ausgegeben, wenn der Fertigungsauftrag abgeschlossen wird.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
-ms.author: edupont
-ms.openlocfilehash: 98dee9205b2d2f66365d111608cd69c151951ca2
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: d69007dfba9fe7aa95365f7bd2c7f5b6b2c756d0
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442360"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3184820"
 ---
 # <a name="design-details-production-order-posting"></a>Designdetails: Fertigungsauftragsbuchung
 Ähnlich wie bei der Montageauftragsbuchung werden die verbrauchten Komponenten und die verwendete Maschinenzeit konvertiert und als gefertigter Artikel ausgegeben, wenn der Fertigungsauftrag abgeschlossen wird. Weitere Informationen finden Sie unter [Designdetails: Montageauftragsbuchung](design-details-assembly-order-posting.md). Der Kostenfluss für Montageaufträge ist jedoch weniger Komplex, insbesondere da die Buchung der Montagekosten nur einmal geschieht und daher keinen WIP-Bestand generiert.
@@ -44,10 +44,10 @@ Abhängig vom Typ des Lagerbestands werden Erhöhungen und Reduzierungen von unt
 
 ||Zugänge|Abgänge|  
 |-|---------------|---------------|  
-|**Rohmaterialbestand**|-   Nettoeinkäufe von Material<br />-   Ausstoß Unterbaugruppen<br />-   Negativer Verbrauch|Materialverbrauch|  
+|**Rohmaterialbestand**|-   Netzwerkeinkäufe des Materials<br />-   Fertigprodukte aus Unterbaugruppen<br />-   Negativer Verbrauch|Materialverbrauch|  
 |**Produktionslager**|-   Materialverbrauch<br />-   Kapazitätsverbrauch<br />-   Produktionsgemeinkosten|Istmeldungen von Endartikeln (Fertigungskosten)|  
-|**Fertigerzeugnisse (Bestand)**|Istmeldungen von Endartikeln (Fertigungskosten)|-   Verkauf (Kosten verkäufter Erzeugnisse)<br />-   Negativer Ausstoß|  
-|**Rohmaterialbestand**|-   Nettoeinkäufe von Material<br />-   Ausstoß Unterbaugruppen<br />-   Negativer Verbrauch|Materialverbrauch|  
+|**Fertigerzeugnisse (Bestand)**|Istmeldungen von Endartikeln (Fertigungskosten)|-   Verkauf (Lagerverbrauch)<br />-   Negativausgabe|  
+|**Rohmaterialbestand**|-   Netzwerkeinkäufe des Materials<br />-   Fertigprodukte aus Unterbaugruppen<br />-   Negativer Verbrauch|Materialverbrauch|  
 
 Die Werte der Lagerzu- und - abgänge werden in den verschiedenen Arten von Produktionsartikel-Lagerbestand ebenso wie für gekauften Lagerbestand erfasst. Bei jeder Bestandserhöhungs- oder -minderungstransaktion werden ein Artikelposten und ein entsprechender Sachposten für den Betrag erstellt. Weitere Informationen finden Sie unter [Designdetails: Planungsbuchung](design-details-inventory-posting.md).  
 
@@ -58,11 +58,11 @@ Das Buchen von Fertigungsaufträgen auf das Produktionslager beinhaltet Istmeldu
 
 Das folgende Diagramm zeigt die betroffenen Buchungsroutinen in Codeunit 22.  
 
-![Produktionsauftrags-Buchungsroutinen.](media/design_details_inventory_costing_14_production_posting_1.png "Fertigungsauftrags-Buchungsroutinen")  
+![Fertigungsauftrags-Buchungsroutinen](media/design_details_inventory_costing_14_production_posting_1.png "Fertigungsauftrags-Buchungsroutinen")  
 
 Das folgende Diagramm zeigt die Zuordnungen zwischen den resultierenden Posten und den Kostenträgern.  
 
-![Flow der Produktionserfassung.](media/design_details_inventory_costing_14_production_posting_2.png "Produktionseintragsfluss")  
+![Produktionseintragsfluss](media/design_details_inventory_costing_14_production_posting_2.png "Produktionseintragsfluss")  
 
 Der Kapazitätsposten beschreibt den Kapazitätsverbrauch in Bezug auf Zeiteinheiten, während der zugehörige Wertposten den Wert des speziellen Kapazitätsverbrauchs beschreibt.  
 
@@ -110,6 +110,3 @@ In Standard-Kostenumgebungen basiert die Kalkulation eines Fertigungsauftrags au
  [Designdetails: Montageauftragsbuchung](design-details-assembly-order-posting.md)  
  [Verwalten der Lagerregulierung](finance-manage-inventory-costs.md) [Finanzen](finance.md)  
  [Arbeiten mit Business Central](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

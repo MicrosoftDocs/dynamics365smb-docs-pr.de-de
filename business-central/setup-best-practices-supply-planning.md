@@ -1,21 +1,21 @@
 ---
-title: Bewährte Verfahren zur Einrichtung – Lieferplanung
-description: Eingerichtet und korrekt eingesetzt hilft die Beschaffungsplanung einem Unternehmen, fehlende Lagerbestände zu vermeiden sowie Bestellungs- und Lagerkosten zu verringern.
+title: Bewährte Vorgehensweisen einrichten - Beschaffungsplanung | Microsoft Docs
+description: Die Beschaffungsplanung ist ein wichtiger Geschäftsbereich. Eingerichtet und korrekt eingesetzt hilft die Beschaffungsplanung einem Unternehmen, fehlende Lagerbestände zu vermeiden sowie Bestellungs- und Lagerkosten zu verringern.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/25/2021
-ms.author: edupont
-ms.openlocfilehash: 423d26aad7fe708cf51d614449cb7a3666c27dd6
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 6e80ba7e148e8a415c8b9c71e42bdda13df7050f
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6320031"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3192171"
 ---
 # <a name="setup-best-practices-supply-planning"></a>Bewährte Einrichtungsmethoden: Beschaffungsplanung
 Die Beschaffungsplanung ist ein wichtiger Geschäftsbereich. Eingerichtet und korrekt eingesetzt hilft die Beschaffungsplanung einem Unternehmen, fehlende Lagerbestände zu vermeiden sowie Bestellungs- und Lagerkosten zu verringern.  
@@ -34,7 +34,4 @@ Die Beschaffungsplanung ist ein wichtiger Geschäftsbereich. Eingerichtet und ko
  [Designdetails: Vorratsplanung](design-details-supply-planning.md)   
  [Designdetails: Planungsparameter](design-details-planning-parameters.md)   
  [Richten Sie komplexe Anwendungsbereiche mithilfe bewährter Methoden ein](set-up-complex-application-areas-using-best-practices.md)  
- [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+ [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

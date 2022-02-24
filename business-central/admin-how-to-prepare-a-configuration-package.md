@@ -1,41 +1,35 @@
 ---
-title: So bereiten Sie ein Konfigurationspaket vofr
-description: Lernen Sie jetzt, wie Sie ein Konfigurationspaket RapidStart vorbereiten, mit dem Sie neue Firmen auf der Basis vorhandener Daten festlegen können.
-author: bholtorf
+title: So bereiten Sie ein Konfigurations-Paket vor | Microsoft Docs
+description: Erfahren Sie nun, wie Sie ein RapidStart-Konfigurationspaket konfigurieren, mit dem Sie Unternehmen basierend auf vorhandenen Daten einrichten können.
+author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/23/2021
-ms.author: bholtorf
-ms.openlocfilehash: b3b8b7792363d8d44cdfea563b422748ad39de90
-ms.sourcegitcommit: e904da8dc45e41cdd1434111c15e2a9d9edd3fa2
+ms.date: 07/06/2020
+ms.author: sgroespe
+ms.openlocfilehash: f2550f9df9e2eda87e2f5b3de9f6be00d4758b7a
+ms.sourcegitcommit: 7d05fc049d81cae9b2b711101cdaea037b7ba61f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "6660231"
+ms.lasthandoff: 07/06/2020
+ms.locfileid: "3535972"
 ---
 # <a name="prepare-a-configuration-package"></a>So bereiten Sie ein Konfigurationspaket vofr
 
-Wenn Sie ein neues Unternehmen basierend auf einem Konfigurationspaket konfigurieren, werden Tabellenrelationen festgestellt und verarbeitet. Daten werden in der richtigen Reihenfolge importiert und übernommen. Dimensionstabellen werden auch importiert, wenn sie im Konfigurationspaket enthalten sind. Weitere Informationen finden Sie unter [So werden Kundendaten importiert](admin-migrate-customer-data.md#to-import-customer-data).  
+Wenn Sie ein neues Unternehmen basierend auf einerm Konfigurationspaket konfigurieren, werden Tabellenrelationen festgestellt und verarbeitet. Daten werden in der richtigen Reihenfolge importiert und übernommen. Dimensionstabellen werden auch importiert, wenn sie im Konfigurationspaket enthalten sind. Weitere Informationen finden Sie unter [So werden Kundendaten importiert](admin-migrate-customer-data.md#to-import-customer-data).  
 
-Um Ihrem Debitor die Verwendung des Konfigurationspakets zu erleichtern, können Sie dem Paket einen Fragebogen oder eine Reihe von Fragebögen hinzufügen. Der Fragebogen kann dem Debitor beim Verständnis der verschiedenen Setup-Optionen helfen. Typischerweise werden Fragebögen für die wichtigsten Einrichtungstabellen erstellt, bei denen ein Kunde möglicherweise zusätzliche Hinweise zur Auswahl einer geeigneten Einstellung benötigt. Weitere Informationen finden Sie unter [Sammeln von Debitoren-Einrichtungswerten](admin-gather-customer-setup-values.md).
+Um Ihrem Debitoren zu helfen, das Konfigurationspaket zu verwenden, können Sie dem Paket einen Fragebogen oder einen Satz von Fragebogen hinzufügen. Der Fragebogen kann dem Debitor beim Verständnis der verschiedenen Setupoptionen helfen. Üblicherweise werden Fragebögen für die größten Einrichtungstabellen in erstellt, wenn ein Debitor weitere Anleitung dazu anfordert, wie eine entsprechende Einstellung wählen soll. Weitere Informationen finden Sie unter [Sammeln von Debitoren-Einrichtungswerte](admin-gather-customer-setup-values.md).
 
 ## <a name="before-you-create-a-configuration-package"></a>Vor dem Erstellen eines Konfigurationspakets
 
-Es gibt einige Dinge, die Sie beachten sollten, bevor Sie ein Konfigurationspaket erstellen, weil sie sich auf Ihre Fähigkeit oder die Ihres Kunden auswirken, es zu importieren.  
+Bevor Sie ein Konfigurationspaket erstellen, müssen Sie einige Dinge berücksichtigen, da diese darauf auswirken, ob Sie oder Ihr Kunde es importieren können.  
 
 ### <a name="tables-that-contain-posted-entries"></a>Tabellen mit gebuchten Einträgen
 
-Sie können keine Daten in Tabellen importieren, die gebuchte Einträge enthalten, z. B. Tabellen für Kunden-, Lieferanten- und Artikelposteneinträge. Daher sollten Sie diese Daten nicht in Ihr Konfigurationspaket aufnehmen. Sie können diesen Tabellen Einträge hinzufügen, nachdem Sie das Konfigurationspaket mithilfe von Journalen importiert haben, um die Einträge zu buchen. Weitere Informationen finden Sie unter [Buchung von Belegen und Journalen](ui-post-documents-journals.md).
-
-### <a name="table-names-that-contain-special-characters"></a>Tabellennamen, die Sonderzeichen enthalten
-
-Seien Sie vorsichtig, wenn Sie Tabellen oder Felder haben, die denselben zeitlichen Namen haben, sich jedoch durch Sonderzeichen wie %, &, <,>, (, und) unterscheiden. Beispielsweise kann die Tabelle „XYZ“ die Felder „Feld 1“ und „Feld 1%“ enthalten.
-
-Der XML-Prozessor akzeptiert nur einige Sonderzeichen und entfernt diejenigen, die er nicht akzeptiert. Wenn das Entfernen eines Sonderzeichens, wie z. B. des %-Zeichens in „Feld 1 %“, zu zwei oder mehr Tabellen oder Feldern mit demselben Namen führt, tritt beim Exportieren oder Importieren eines Konfigurationspakets ein Fehler auf. 
+Sie können keine Daten in Tabellen importieren, die gebuchte Einträge enthalten, z. B. Tabellen für Kunden-, Lieferanten- und Artikelposteneinträge. Daher sollten Sie diese Daten nicht in Ihr Konfigurationspaket aufnehmen. Sie können diesen Tabellen Einträge hinzufügen, nachdem Sie das Konfigurationspaket mithilfe von Journalen importiert haben, um die Einträge zu buchen. Weitere Informationen finden Sie unter [Buchung von Dokumenten und Journalen ](ui-post-documents-journals.md).
 
 ### <a name="licensing"></a>Lizenzierung
 
@@ -56,38 +50,26 @@ Sie können ein Konfigurationspaket importieren, das aus einer Datenbank exporti
 
 ## <a name="to-create-a-configuration-package"></a>So erstellen Sie ein Konfigurationspaket.
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun") Symbol. Geben Sie **Konfigurationspakete** ein, und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Konfigurationspakete** ein, und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die Aktion **Neu** aus.  
 3. Füllen Sie die restlichen Felder auf dem Inforegister **Allgemein** aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Um die Konfigurationsfragebögen, Konfigurationsvorlagen und Konfigurationsarbeitsblatttabellen aus dem Paket auszuschließen, wählen Sie das Kontrollkästchen **Konfigurationstabellen ausschließen**. Andernfalls werden diese Tabellen automatisch der Liste der Pakettabellen hinzugefügt, wenn Sie das Paket exportieren.  
 5. Wählen Sie die Aktion **Tabellen abrufen** aus. Das Batchauftragsseite **Tabellenpaket abrufen** wird geöffnet.  
 6. Wählen Sie das Feld **Tabellen auswählen** aus. Die Seite **Konfigurationsauswahl** wird geöffnet.  
 7. Wählen Sie auf der Registerkarte Start in der Gruppe Vorgang die Option **Alles auswählen**, um alle Tabellen dem Paket hinzuzufügen, oder wählen Sie das Kontrollkästchen **Ausgewählt** für jede Tabelle in der Liste aus, die Sie hinzufügen möchten.
-8. Wählen Sie die Schaltfläche **OK**. Die Anzahl der Tabellen, die Sie ausgewählt haben, wird im Feld **Tabellen auswählen** angegeben. Geben Sie die Zusatzfunktionen an und wählen Sie dann die Schaltfläche **OK** aus. [!INCLUDE[prod_short](includes/prod_short.md)] Tabellen werden in den Zeilen der Seite **Config. Paket** hinzugefügt.  
+8. Wählen Sie die Schaltfläche **OK** aus. Die Anzahl der Tabellen, die Sie ausgewählt haben, wird im Feld **Tabellen auswählen** angegeben. Geben Sie die Zusatzfunktionen an und wählen Sie dann die Schaltfläche **OK** aus. [!INCLUDE[d365fin](includes/d365fin_md.md)] Tabellen werden in den Zeilen der Seite **Config. Paket** hinzugefügt.  
 
     > [!NOTE]  
-    >  Diese Einstellung kann auch im Konfigurationsarbeitsblatt vorgenommen werden. Wählen Sie die Tabellen aus, die Sie in das Paket einschließen möchten, und wählen Sie die Aktion **Paket zuweisen**.
+    >  Diese Einstellung kann auch im Konfigurationsarbeitsblatt vorgenommen werden. Wählen Sie die Tabellen aus, die Sie in das Paket einschließen möchten, und wählen Sie auf der Registerkarte Aktionen in der Gruppe Funktionen die Option **Paket zuweisen**.
 
-9. Um die Felder auszuwählen, die Sie aus einer Tabelle einschließen möchten, wählen Sie die Tabelle aus und wählen Sie dann auf der Registerkarte **Zeilen** die Aktion **Felder**.
+9. Um die Felder auszuwählen, die Sie einer Tabelle berücksichtigen möchten, wählen Sie Tabelle aus, und wählen Sie auf der Symbolleiste **Zeilen** im Menü Tabelle die Option **Felder**.
 Geben Sie an, welche Felder im Paket enthalten sind. Standardmäßig sind alle Felder enthalten.
 
-    - Um nur die Felder auszuwählen die Sie hinzufügen möchten, wählen Sie die Aktion **Eingeschlossene löschen**. Um alle Felder hinzuzufügen, wählen Sie **Eingeschlossene festlegen**.  
+    - Um nur die Felder auszuwählen die Sie hinzufügen möchten, wählen Sie die **Eingeschlossene löschen** Aktion. Um alle Felder hinzuzufügen, wählen Sie **Eingeschlossene festlegen**.  
     - Um festzulegen, dass die Felddaten nicht bestätigt werden sollen, löschen Sie das Kontrollkästchen **Feld überprüfen** für das Feld.  
 
-10. Um optional Verarbeitungsfilter auf Tabellendaten anzuwenden oder eine Codeunit mit einem beliebigen Code hinzuzufügen, den Sie in das Paket aufnehmen möchten, wählen Sie die Zeile für die entsprechende Tabelle und dann die Aktion **Verarbeitungsregeln** aus.
-
-    1. Auf der Seite **Verarbeitungsregeln in Konfigurationstabelle** füllen Sie die Felder aus. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
-
-        - Um Filter auf Daten anzuwenden, geben Sie die entsprechende Aktion im Feld **Aktion** an, wählen Sie die Aktion **Verarbeitungsfilter** aus, und füllen Sie dann die Felder aus.  
-
-            Beispielsweise setzen die Konfigurationspakete von Microsoft für die Evaluierungsunternehmen Verarbeitungsfilter für die Tabellen **Verkaufskopf** und **Einkaufskopf**.
-        - Um eine Verarbeitungscodeunit hinzuzufügen, geben Sie sie im Feld **Benutzerdefinierte Verarbeitungs-Codeunit-ID** an.
-
-          > [!NOTE]
-          > Diese Codeunit muss Tabelle 8614 *Paketdatensatz konfigurieren* als Parameter für die `OnRun`-Methode verwenden.
-    2. Schließen Sie die Seite.
-11. Bestimmen, ob Sie mögliche Fehler gemacht haben, indem Sie die Aktion **Paket überprüfen** auswählen. Dies kann eintreten, wenn Sie Tabellen nicht einschließen, auf denen die Konfiguration beruht.  
-12. Wählen Sie die Schaltfläche **OK**.  
+10. Bestimmen, ob Sie mögiche Fehler gemacht haben, indem Sie die **Paket überprüfen** Aktion auswählen. Dies kann eintreten, wenn Sie Tabellen nicht einschließen, auf denen die Konfiguration beruht.  
+11. Wählen Sie die Schaltfläche **OK** aus.  
 
 Nachdem Sie die Liste der Felder, die von einer Tabelle enthalten sein sollen, neu definiert haben, können Sie die Ergebnisse in Excel prüfen.  
 
@@ -109,7 +91,7 @@ Nachdem das Paket vollständig ist, verwenden Sie den folgenden Vorgang, um das 
 
 ### <a name="to-save-and-export-a-configuration-package"></a>So speichern und exportieren Sie ein Konfigurationspaket.
 
-- Auf der Seite **Config. Paketkarte** wählen Sie die Aktion **Paket exportieren** aus.  
+- Auf der Seite **Config. Paketkarte** wählen Sie die **Paket exportieren** Aktion aus.  
 
 Das Paket wird in einer .rapidstart-Datei erstellt werden, die Paketinhalte in einem komprimierten Format bereitstellt. Konfigurationsfragebögen, Konfigurationsvorlagen und das Konfigurationsarbeitsblatt werden dem Paket automatisch hinzugefügt, es sei denn, Sie sich speziell dafür entscheiden, sie auszuschließen.  
 
@@ -119,17 +101,17 @@ Sie können die Datei mit einem Namen speichern, der Ihnen sinnvoll ist, aber Si
 
 Nachdem Sie ein Paket erstellt haben, das die meisten Ihrer Anforderungen erfüllt, können Sie es als Basis für die Erstellung von ähnlichen Paketen verwenden. Dies kann die Implementierungszeit verkürzen und erhöht den Wiederholbarkeitsaspekt von RapidStart Services.
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun") Symbol. Geben Sie **Konfigurationspakete** ein, und wählen Sie dann den entsprechenden Link.  
-2. Wählen Sie ein Paket aus der Liste und wählen sie die Aktion **Paket kopieren** aus.  
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Konfigurationspakete** ein, und wählen Sie dann den zugehörigen Link.  
+2. Wählen Sie ein Paket aus der Liste und wählen sie die Aktion **Pakt kopieren** aus.  
 3. Geben Sie in dem Feld **Neuer Paketcode** einen Code für das neue Paket ein.  
 4. Aktivieren Sie das Kontrollkästchen **Daten kopieren**, wenn Sie auch Datenbankdaten aus dem vorhandenen Paket kopieren möchten.  
-5. Wählen Sie die Schaltfläche **OK**.
+5. Wählen Sie die Schaltfläche **OK** aus.
 
 ## <a name="to-customize-a-configuration-package"></a>So passen Sie ein Konfigurationspaket an.
 
 Verwenden Sie das Konfigurationsarbeitsblatt, um Informationen zu sammeln und zu kategorisieren, die Sie verwenden möchten, um einen neuen Mandanten zu konfigurieren und Tabellen auf eine logische Art anzuordnen. Die Formatierung im Arbeitsblatt basiert auf einer einfachen Hierarchie: Bereiche enthalten Gruppen, die wiederum Tabellen enthalten. Bereiche und Gruppen sind optional, sie sind jedoch notwendig, wenn Sie in der Lage sein möchten, eine Übersicht des Konfigurationsprozesses im RapidStart Services-Rollencenter anzuzeigen.
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun") Symbol. Geben Sie **Konfigurationsarbeitsblatt** ein, und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Konfigurationsarbeitsblatt** ein, und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie im Feld **Zeilenart** die Option **Bereich** aus. Geben Sie im Feld **Name** einen beschreibenden Namen ein.  
 3. Wählen Sie im Feld **Zeilenart** die Option **Gruppe** aus. Geben Sie im Feld **Name** einen beschreibenden Namen ein.  
 4. Wählen Sie im Feld **Zeilenart** die Option **Tabelle** aus. Geben Sie im Feld **Tabellen-ID** die Tabelle ein, die im Arbeitsblatt berücksichtigt werden soll.  
@@ -139,33 +121,33 @@ Jetzt können Sie die Tabellen bestimmten Konfigurationspaketen zuweisen, die Si
 ## <a name="to-work-with-promoted-tables"></a>So arbeiten Sie mit heraufgestuften Tabellen.
 
 1. Wählen Sie das Kontrollkästchen **Höhergestufte Tabelle**, um eine Tabelle anzugeben, die häufig während des Setupprozesses von einem typischen Debitor verwendet wird, beispielsweise die Tabelle **Sachkonto**. Wenn eine Tabelle diese Bezeichnung hat, kann ein Debitor das Arbeitsblatt leicht filtern, um nur die Liste der höhergestuften Tabellen anzuzeigen, die Aufmerksamkeit erfordern.  
-2. Um eine gefilterte Ansicht anzuzeigen, wählen Sie die Aktion **Nur heraufgestufte**. Die Liste enthält nur die Tabellen, deren Kontrollkästchen aktiviert ist.  
+2. Um eine gefilterte Ansicht anzuzeigen, wählen Sie die **Nur heraufgestufte** Aktion. Die Liste enthält nur die Tabellen, deren Kontrollkästchen aktiviert ist.  
 
 ## <a name="to-assign-a-table-to-a-configuration-package"></a>So weisen Sie eine Tabelle einem Konfigurationspaket zu.
 
-Nachdem Sie die Tabellen festgelegt haben, die Sie als Teil der Konfiguration behandeln möchten, können Sie die Tabellen einfach den Konfigurationspaketen zuweisen. Sie können eine Tabelle nur einem Paket zuweisen. Im folgenden Verfahren weisen Sie das Paket aus dem Kontext des Konfigurationsarbeitsblatts zu.  
+Nachdem Sie die Tabellen festgelegt haben, die Sie als Teil der Konfiguration behanden möchten, können Sie die Tabellen einfach den Konfigurationspaketen zuweisen. Sie können eine Tabelle nur einem Paket zuweisen. Im folgenden Verfahren weisen Sie das Paket aus dem Kontext des Konfigurationsarbeitsblatts zu.  
 
 > [!NOTE]  
 > Sie können ein Paket auch direkt erstellen und ihm Tabellen hinzufügen. Weitere Informationen finden Sie unter [So erstellen Sie ein Konfigurationspaket](admin-how-to-prepare-a-configuration-package.md#to-create-a-configuration-package).
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Konfigurationsarbeitsblatt** ein, und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Konfigurationsarbeitsblatt** ein, und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie im Konfigurationsarbeitsblatt eine Zeile oder mehrere Zeilen aus, die Sie einem Konfigurationspaket zuordnen möchten und wählen Sie **Paket zuweisen**.  
-3. Wählen Sie ein Paket in der Liste aus, oder wählen Sie die Aktion **Neu** aus, um ein Paket neu zu erstellen, und wählen Sie dann die Schaltfläche **OK** aus.  
+3. Wählen Sie ein Paket in der Liste aus, oder wählen Sie die **Neu** Aktion aus, um ein Paket neu zu erstellen, und wählen Sie dann die Schaltfläche **OK** aus.  
 
     Wenn eine Tabelle nicht bereits im Paket enthalten ist, wird sie diesem jetzt hinzugefügt. Das Paketcodefeld in der Arbeitsblattzeile wird mit dem Code des Pakets ausgefüllt, dem die Tabelle zugeordnet ist.  
-4. Wenn Sie ein bestehendes Paket auswählen, können Sie anhand der Informationen im Feld **Anzahl Tabellen** sehen, wie viele Tabellen bereits im Paket enthalten sind.
+4. Wenn Sie eine vorhandenes Paket auswählen, können Sie sehen, wie viele Tabellen bereits im Paket sind, indem Sie die Informationen im Feld **Anzahl Tabellen** zur Kenntnis nehmen.
 
 ## <a name="to-review-or-customize-existing-database-data"></a>So können Sie vorhandene Datenbank-Daten prüfen und anpassen.
 
 Wenn Sie ein Konfigurationspaket für eine Lösung erstellen, können Sie die verfügbaren Datenbankdaten anzeigen und anpassen, um Ihren Debitoranforderungen entsprechen. Die Datenbanktabelle muss eine zugeordnete Seite haben.  
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Konfigurationsarbeitsblatt** ein, und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Konfigurationsarbeitsblatt** ein, und wählen Sie dann den zugehörigen Link.
 2. Identifizieren Sie im Konfigurationsarbeitsblatt die Tabellen, deren Daten Sie anzeigen oder anpassen möchten.  
 
     > [!NOTE]  
-    >  Stellen Sie sicher, dass jede Tabelle eine Seiten-ID hat, die ihr zugeordnet ist. Für Standard [!INCLUDE[prod_short](includes/prod_short.md)]-Tabellen wird dieser Wert automatisch ausgefüllt. Für benutzerdefinierte Tabellen müssen Sie die ID zur Verfügung stellen
+    >  Stellen Sie sicher, dass jede Tabelle eine Seiten-ID hat, die ihr zugeordnet ist. Für Standard [!INCLUDE[d365fin](includes/d365fin_md.md)]-Tabellen wird dieser Wert automatisch ausgefüllt. Für benutzerdefinierte Tabellen müssen Sie die ID zur Verfügung stellen
 
-3. Wählen Sie die Aktion **Datenbankdaten** aus. Die Seite für die zugehörige Seite wird geöffnet.
+3. Wählen Sie die **Datenbankdaten** Aktion aus. Die Seite für die zugehörige Seite wird geöffnet.
 4. Überprüfen Sie die verfügbaren Informationen. Ändern Sie sie bei Bedarf, indem Sie Datensätze löschen, die nicht relevant sind oder indem Sie neue hinzufügen.  
 
 ## <a name="to-copy-data-from-a-test-environment-to-a-production-environment"></a>So kopieren Sie Daten aus der Testumgebung in die Produktionsumgebung
@@ -173,10 +155,10 @@ Wenn Sie ein Konfigurationspaket für eine Lösung erstellen, können Sie die ve
 Nachdem Sie alle Ihre Setupinformationen untersucht und getestet haben, können Sie mit dem Kopieren von Daten in Ihre Produktionsumgebung fortfahren. Erstellen Sie in derselben Datenbank einen neuen Mandanten.
 
 1. Öffnen und initialisieren Sie den neuen Mandanten.  
-2. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Konfigurationsarbeitsblatt** ein, und wählen Sie dann den entsprechenden Link.  
+2. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Konfigurationsarbeitsblatt** ein, und wählen Sie dann den zugehörigen Link.  
 3. Wählen Sie **Daten vom Mandanten kopieren**.  
 4. Wählen Sie auf der Seite **Mandantendaten kopieren** das Feld **Kopieren von** aus. Die Seite **Mandanten** wird geöffnet.  
-5. Wählen Sie die Version aus, den Sie kopieren möchten, und wählen Sie die Schaltfläche **OK**. Eine Liste der im Konfigurationsarbeitsblatt ausgewählten Tabellen wird geöffnet. Nur Tabellen, die Datensätze enthalten, sind in dieser Übersicht enthalten.
+5. Wählen Sie die Version aus, den Sie kopieren möchten, und wählen Sie die Schaltfläche **OK**. Ein Liste der im Konfigurationsarbeitsblatt ausgewählten Tabellen wird geöffnet. Nur Tabellen, die Datensätze enthalten, sind in dieser Übersicht enthalten.
 6. Wählen Sie die Tabellen aus, aus denen Sie Daten kopieren möchten, und wählen Sie **Daten kopieren**. Wählen Sie auf der Seite **Mandantendaten kopieren** die Schaltfläche **OK** aus.  
 
 ## <a name="see-also"></a>Siehe auch
@@ -186,7 +168,3 @@ Nachdem Sie alle Ihre Setupinformationen untersucht und getestet haben, können 
 [Unternehmenskonfiguration einrichten](admin-set-up-company-configuration.md)  
 [Einrichten eines Unternehmens mit RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Verwaltung](admin-setup-and-administration.md)  
-[Analyse der Trace-Telemetrie für Konfigurationspakete](/dynamics365/business-central/dev-itpro/administration/telemetry-configuration-package-trace)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

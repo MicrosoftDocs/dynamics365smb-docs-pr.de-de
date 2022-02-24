@@ -3,22 +3,22 @@ title: 'Designdetails: Bedarfsplanung | Microsoft Docs'
 description: Diese Dokumentation stellt einen detaillierten technischen Einblick in die Konzepte und Prinzipien bereit, die in den Beschaffungsplanungsfunktionen in Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, supply, planning, reordering, replenishment
-ms.date: 06/08/2021
-ms.author: edupont
-ms.openlocfilehash: 78b5700646d95d9cdc38a7a67663473fafddaa2c
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 8b364aef69ab7b9e036caebe2f60387982cd9221
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6214828"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3184662"
 ---
 # <a name="design-details-supply-planning"></a>Designdetails: Vorratsplanung
-Diese Dokumentation stellt einen detaillierten technischen Einblick in die Konzepte und Prinzipien bereit, die in den Beschaffungsplanungsfunktionen in [!INCLUDE[prod_short](includes/prod_short.md)] verwendet werden.  
+Diese Dokumentation stellt einen detaillierten technischen Einblick in die Konzepte und Prinzipien bereit, die in den Beschaffungsplanungsfunktionen in [!INCLUDE[d365fin](includes/d365fin_md.md)] verwendet werden.  
 
 Erläutert, wie das Planungssystem arbeitet und wie die Algorithmen angepasst werden, um Planungsbedingungen in verschiedenen Umgebungen zu erfüllen. Stellt zuerst die zentralen Lösungskonzepte vor und beschreibt dann die Logik des zentralen Mechanismus, des Vorratsausgleichs, und erläutert dann, wie die Bestandsplanung mithilfe von Wiederbeschaffungsverfahren ausgeführt wird.  
 
@@ -31,6 +31,3 @@ Erläutert, wie das Planungssystem arbeitet und wie die Algorithmen angepasst we
 [Designdetails: Planungs-Zuordnungstabelle](design-details-planning-assignment-table.md)  
 [Designdetails: Bedarf an leerem Lagerort](design-details-demand-at-blank-location.md)  
 [Designdetails: Umlagerungen in Planung](design-details-transfers-in-planning.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,21 +1,21 @@
 ---
-title: Einlagerungen aus internen Einlagerungsanforderungen erstellen
-description: Dieses Thema behandelt das Kommissionieren und Einlagern ohne einen Quellbeleg, sowohl das Erstellen einer internen Kommissionierung als auch das Erstellen einer internen Einlagerung.
+title: 'Vorgehensweise: Einlagerungen aus internen Einlagerungsanforderungen erstellen | Microsoft Docs'
+description: Nachdem Artikel eingelagert wurden und bevor sie kommissioniert werden, um einen Fertigungsauftrag oder einen Warenausgang zu bedienen, sind sie im Lager ein Teil des verfügbaren Lagerbestands.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/24/2021
-ms.author: edupont
-ms.openlocfilehash: 198c4fb8ead4179667e35957046b3446ce5d8065
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: da8e0022a7b510cd4cd143b8bfe4f9f34466c912
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444180"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3193179"
 ---
 # <a name="pick-and-put-away-without-a-source-document"></a>Wählen und setzen Sie die Einlagerung ohne Herkunftsbeleg
 Nachdem Artikel eingelagert wurden und bevor sie kommissioniert werden, um einen Fertigungsauftrag oder einen Warenausgang zu bedienen, sind sie im Lager ein Teil des verfügbaren Lagerbestands.  
@@ -34,30 +34,21 @@ Mit **Interne Einlag.-Anforderungen** können Sie Einlagerungen auszuführen, oh
 >  Wenn der Lagerort die gesteuerte Einlagerung und Kommissionierung verwendet und daher Lagerplatzarten nutzt, können Sie keine Artikel manuell in einen Lagerplatz der Lagerplatzart "Wareneingang" hinein oder aus diesem heraus umlagern, da Artikel in einem Lagerplatz der Art "Wareneingang" als eingelagert registriert werden müssen, bevor sie Teil des verfügbaren Lagerbestands werden.  
 
 ## <a name="to-create-an-internal-pick"></a>So erstellen Sie eine interne Kommissionierung  
-1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Whse. Interne Kommissionierung** ein, und wählen Sie dann den zugehörigen Link.  
-2. Wählen Sie die Aktion **Neu**.
-3. Füllen Sie die **Felder Nr.** Felder **Lagerortcode** und **Nach Lagerplatzcode** im Inforegister **Allgemein**. Das Feld **Nach Lagerplatzcode** legt den Lagerplatz fest, in dem Sie die entnommenen Artikel platzieren wollen. Für die Produktion wäre dieser Lagerplatz der Fertigungsbereitstellungslagerplatz oder der Off. Fert.-Ber.-Lagerplatz. Für andere Zwecke müssen Sie einen „Lagerplatzcode“ einer Lagerplatzart auswählen, die nicht für Kommissionierungen genutzt werden, am besten einen Warenausgangs-, Zwischen- oder Speziallagerplatz.  
-4.  Wählen Sie einen Artikel im Feld **Artikelnr.** und tragen Sie die Mengen ein, die Sie kommissionieren möchten.  
-5. Wählen Sie die Aktion **Kommissionierung erstellen** aus. Jetzt ist eine Kommissionieranweisung fertig und kann von einem Lagermitarbeiter ausgeführt werden. Alternativ können Sie die Aktion **Veröffentlichung** wählen und Warehouse-Picks mit dem **Picks-Arbeitsblatt** erstellen. Weitere Informationen finden Sie unter [Kommissionierungen im Arbeitsblatt bearbeiten](warehouse-how-to-plan-picks-in-worksheets.md).
+1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Interne Kommiss.-Anforderung** ein und wählen Sie dann den entsprechenden Link.  
+2.  Füllen Sie die **Felder Nr.** Füllen Sie die Felder **An Lagerplatzcode** im Inforegister **Allgemein** aus. Das Feld **Nach Lagerplatzcode** legt den Lagerplatz fest, aus dem Sie die Artikel entnehmen wollen. Für die Produktion wäre dieser Lagerplatz der Fertigungsbereitstellungslagerplatz oder der Off. Fert.-Ber.-Lagerplatz. Für andere Zwecke müssen Sie einen "Nach Lagerplatzcode" einer Lagerplatzart auswählen, die nicht für Kommissionierungen genutzt werden, am besten einen Warenausgangs-, Zwischen- oder Speziallagerplatz.  
+3.  Wählen Sie einen Artikel im Feld **Artikelnr.** und tragen Sie die Mengen ein, die Sie kommissionieren möchten.  
+4. Wählen Sie die Aktion **Kommissionierung erstellen** aus. Jetzt ist eine Kommissionieranweisung fertig und kann von einem Lagermitarbeiter ausgeführt werden.  
 
 ## <a name="to-create-an-internal-put-away"></a>So erstellen Sie eine interne Einlag.-Anforderung  
-1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Whse. Interne Einlagerungen** ein und wählen Sie dann den zugehörigen Link.  
-2. Wählen Sie die Aktion **Neu** aus.
-3. Füllen Sie den Kopfbereich einer neuen internen Einlagerungsanforderung mindestens mit der **Nummer** und **Lagerortcode** aus.
-4. Tragen Sie für jeden Artikel, den Sie ins Lager einlagern möchten, eine Zeile ein. Sie müssen nur die Felder **Artikelnr.** und **Menge** ausfüllen.
-
-  > [!NOTE]  
-  > Wenn Sie das Feld **Artikelnr.** auswählen, wird die **Lagerplatzinhaltsübersicht** anstelle der **Artikelübersicht** angezeigt. Dies liegt daran, dass Sie einen Artikel einlagern möchten, der sich in einem bestimmten Lagerplatz befindet – *Lagerplatzinhalt* – und nicht nur einen Artikel. Außerdem wissen Sie bereits, aus welchem Lagerplatz der Artikel entnommen werden soll.  <!--If you filled in **From Bin Code** in the header, the bin content will be filtered by value defined in the **From Bin Code**.-->
-5. Um die Zeilen mit dem gesamten oder dem gefilterten Lagerplatzinhalt der Lagerplätze des Lagerorts zu füllen, wählen Sie die Aktion **Lagerplatzinhalt abrufen** aus.  
-6. Wählen Sie die Aktion **Einlagerung erstellen** aus. Jetzt ist eine Einlagerungsanweisung fertig und kann von einem Lagermitarbeiter ausgeführt werden. Alternativ können Sie die Aktion **Veröffentlichung** wählen und Warehouse-Put-Aways mit dem **Put-Away-Arbeitsblatt** erstellen. Weitere Informationen finden Sie unter [Kommissionierungen im Arbeitsblatt bearbeiten](warehouse-how-to-plan-put-aways-in-worksheets.md).
+1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Interne Einlag.-Anforderung** ein und wählen Sie dann den entsprechenden Link.  
+2.  Füllen Sie die **Felder Nr.** Füllen Sie die Felder **Lagerplatzcode** im Inforegister **Allgemein** aus. Das Feld **Von Lagerplatzcode** legt den Lagerplatz fest, in dem sich die Artikel befinden, die ins Lager zurückgegeben werden, z. B. aus der Produktion.  
+3.  Tragen Sie die Nummern und Mengen in die Zeilen ein.  
+4.  Wählen Sie die Aktion **Einlagerung erstellen** aus. Jetzt ist eine Einlagerungsanweisung fertig und kann von einem Lagermitarbeiter ausgeführt werden.  
 
 ## <a name="see-also"></a>Siehe auch  
 [Logistik](warehouse-manage-warehouse.md)  
 [Lagerbestand](inventory-manage-inventory.md)  
-[Lagerverwaltung einrichten](warehouse-setup-warehouse.md)     
+[Lagerortverwaltung einrichten](warehouse-setup-warehouse.md)     
 [Montageverwaltung](assembly-assemble-items.md)    
 [Designdetails: Logistik](design-details-warehouse-management.md)  
-[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

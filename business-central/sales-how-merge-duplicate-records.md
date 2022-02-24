@@ -1,21 +1,23 @@
 ---
-title: Doppelte Debitoren- oder Kreditorendatensätze zusammenführen
-description: Beschreibt, wie Informationen zu Kunden oder Lieferanten konsolidiert werden, wenn Sie doppelte Einträge zu einigen von ihnen haben.
+title: Doppelte Debitoren- oder Kreditorendatensätze zusammenführen | Microsoft Docs
+description: Beschreibt, wie eine Debitorenkarte erstellt wird, um Informationen zu jedem neuen Debitor oder Clients zu erfassen, an die Sie verkaufen.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: client
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: 336c10e93a50e7fb880f9bf5856c85b44daef266
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 1fb7f049e253e70e9170c257848b3738dec9d176
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6436851"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2312172"
 ---
 # <a name="merge-duplicate-records"></a>Doppelt Datensätze zusammenführen
 Wenn unterschiedliche Benutzer im Laufe der Zeit neue Debitoren-, Kreditoren- oder Kontaktkarten erstellen, oder die neuen Datensätze automatisch während der Migration erstellt werden, wird ein Debitor, ein Kreditor oder ein Kontakt im System mit mehr als einem Datensatz dargestellt. In diesem Fall können Sie die Seite **Doppelte Datensätze zusammenführen** aus der Karte des Datensatzes verwenden, den Sie erfassen möchten. Die Seite zeigt Ihnen eine Übersicht der duplizierten Feldwerte und bietet Funktionen, um auszuwählen, welche Werte behalten oder verworfen werden, wenn zwei Datensätze zusammengeführt werden.
@@ -28,7 +30,7 @@ Wenn unterschiedliche Benutzer im Laufe der Zeit neue Debitoren-, Kreditoren- od
 
 Das folgende Verfahren basiert auf einer Debitorenkarte. Die Schritte sind für Debitor- und Kontaktkarten ähnlich.
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Debitor** ein und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Debitor** ein, und wählen dann den zugehörigen Link aus.
 2. Wählen Sie den Debitor, von dem Sie wissen oder vermuten, dass ein doppelter Datensatz für ihn existiert, und wählen Sie die dann die Aktion **Bearbeiten** aus.
 3. Wählen Sie auf der Seite **Debitorenkarte** die Aktion **Zusammenführen mit** aus.
 4. Wählen Sie auf der Seite **Doppelte Datensätze zusammenführen** im Feld **Zusammenführen mit** den Kunden aus, von dem Sie der Meinung sind, dass dies ein Duplikat des von Ihnen geöffneten Datensatzes ist, der im Feld **Aktuell** angezeigt wird.
@@ -65,7 +67,4 @@ Das folgende Verfahren basiert auf einer Debitorenkarte. Die Schritte sind für 
 ## <a name="see-also"></a>Siehe auch
 [Verkauf](sales-manage-sales.md)  
 [Kontakte einrichten](marketing-setup-contacts.md)  
-[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

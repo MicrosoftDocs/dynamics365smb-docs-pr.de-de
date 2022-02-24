@@ -1,27 +1,26 @@
 ---
-title: Fibu-Buchungszeile - Überblick
-description: In diesem Thema werden die Änderungen in Codeunit 12, Gen. B.-Bl.-Zeile, und ist der einzige Ort, an dem Hauptbuch-, MwSt.- und Debitoren- und Kreditorenbuch-Einträge eingefügt werden können.
+title: Fibu-Buchungszeile - Überblick | Microsoft Docs
+description: Dieses Thema enthält Änderungen für Codeunit 12, **Jnl.-Beitrags-Zeile**, welche das größte Anwendungsobjekt für Sachpostenbuchung ist und der einzige Bereich, um in der Finanzbuchhaltung MwSt. und Debitoren- und Kreditorenposten einzufügen.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: overview
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, general ledger, post
-ms.date: 06/15/2021
-ms.author: edupont
-ms.openlocfilehash: 849bf54380aa7ee3abe09986a168aa946a1b3426
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: ffe7e29d26b386f0a69cc3a7377bf9ff58f93abf
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8011033"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185444"
 ---
 # <a name="general-journal-post-line-overview"></a>Fibu-Buchungszeile - Überblick
-
 Codeunit 12, **Jnl.-Beitrags-Zeile**, ist das größte Anwendungsobjekt für Sachpostenbuchung und ist der einzige Bereich, um die Finanzbuchhaltung, MwSt. und Debitoren- und Kreditorenposten einzufügen. Diese Codeunit wird auch für Ausgleich-, Ausgleich aufheben- und Zurücksetzen-Arbeitsgänge verwendet.  
   
-In Microsoft Dynamics NAV 2013 R2 wurde die Codeunit überarbeitet, da sie mit ca. 7.600 Codezeilen sehr groß geworden war. Die Architektur wurde geändert und die Codeunit vereinfacht uns somit leichter zu verwalten. In dieser Dokumentation werden die Änderungen beschrieben und Informationen bereitgestellt, die Sie für das Upgrade benötigen.  
+Während die Codeunit in jeder Version in den letzten zehn Jahre verbessert wurde, blieb die Architektur im Wesentlichen unverändert. Die Codeunit wurde mit ungefähr 7.600 Codezeilen sehr umfangreich. Mit dieser Version von [!INCLUDE[d365fin](includes/d365fin_md.md)] wird die Architektur geändert und die Codeunit wurde einfacher und leichter zu verwalten. Diese Dokumentation stellt die Änderungen vor und enthält Informationen, die Sie für das Upgrade benötigen.  
   
 ## <a name="old-architecture"></a>Alte Architektur  
 Die alte Architektur hatte die folgenden Funktionen:  
@@ -35,7 +34,7 @@ Die alte Architektur hatte die folgenden Funktionen:
 * Buchen, Ausgleichen, Ausgleich aufheben, Zahlungsrabatt und -Toleranz und Wechselkursregulierung wurden in Codeunit 12 unter Verwendung einer langen Liste von globalen Variablen vereint.  
   
 ### <a name="new-architecture"></a>Neue Architektur  
-In [!INCLUDE[prod_short](includes/prod_short.md)] hat Codeunit 12 die folgenden Verbesserungen:  
+In [!INCLUDE[d365fin](includes/d365fin_md.md)] hat Codeunit 12 die folgenden Verbesserungen:  
   
 * Codeunit 12 ist in kleinere Verfahren umgestaltet worden (insgesamt weniger als 100 Codezeilen).  
 * Standardisierte Muster für die Suche von Sachkonten wurden implementiert, indem Hilfsfunktionen aus den Buchungsgruppen verwendet wurden.  
@@ -44,11 +43,6 @@ In [!INCLUDE[prod_short](includes/prod_short.md)] hat Codeunit 12 die folgenden 
 * Viele Hilfsfunktionen wurden zu den entsprechenden Debitoren- und Kreditorenpostentabellen übertragen.  
 * Die Verwendung von globalen Variablen ist minimiert worden, sodass jedes Verfahren Parameter verwendet und eine eigene Anwendungslogik enthält.  
   
-## <a name="see-also"></a>Siehe auch
-
-[Designdetails: Buchungs-Schnittstellenstruktur](design-details-posting-interface-structure.md)  
-[Designdetails: Buchungs-Modul-Struktur](design-details-posting-engine-structure.md)  
-[Designdetails: Fibu Buch.-Blatt-Beitrags-Zeile (Dynamics NAV)](/dynamics-nav-app/design-details-general-journal-post-line)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+## <a name="see-also"></a>Siehe auch  
+[Designdetails: Buchungs-Schnittstellenstruktur](design-details-posting-interface-structure.md)   
+[Designdetails: Buchungs-Modul-Struktur](design-details-posting-engine-structure.md)

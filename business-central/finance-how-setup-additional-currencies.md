@@ -1,37 +1,31 @@
 ---
-title: Zusätzliche Währungen festlegen
+title: Richten von zusätzlichen Währungen| Microsoft Docs
 description: Ihre Finanzbuchhaltung wird in der lokalen Wählrung (LW) eingerichtet. Sie können eine weitere Währung einrichten, der Sie einen aktuellen Wechselkurs zuweisen.
-author: edupont04
+services: project-madeira
+documentationcenter: ''
+author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: multiple currencies, foreign exchange rates
-ms.search.form: 5, 16,118, 483, 495
-ms.date: 07/23/2021
-ms.author: edupont
-ms.openlocfilehash: 601ed7ceb9817b8bf24c12a260fd346087eed86f
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.search.keywords: multiple currencies
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 9802821985550668d460aa3213c9fb64764169c0
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7972044"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183548"
 ---
 # <a name="set-up-an-additional-reporting-currency"></a>Einrichten einer zusätzlichen Berichtswährung
-
 Da die Anzahl der Länder, in denen Unternehmen Geschäftsbeziehungen unterhalten, ständig wächst, wird es immer wichtiger, dass Finanzdaten in mehreren Währungen erfasst und angezeigt werden können.
 
-> [!NOTE]  
-> Wenn Sie in [!INCLUDE[prod_short](includes/prod_short.md)] nach Echtzeitinformationen zu Wechselkursen (FX) oder älteren Kursen suchen, werden diese als Währung bezeichnet. Siehe neben diesem Artikel auch [Währungswechselkurse aktualisieren](finance-how-update-currencies.md).
-
-
-In der Anwendung wird die Finanzbuchhaltung in der Mandantenwährung (MW) eingerichtet. Eine weitere Währung, der ein aktueller Wechselkurs zugewiesen ist, wird als zusätzliche Währung eingerichtet. Wird eine zweite Währung als [!INCLUDE[prod_short](includes/prod_short.md)] Berichtswährung festgelegt, werden Beträge automatisch für jeden Sachposten und weitere Posten, wie zum Beispiel MwSt.-Posten, in der Mandantenwährung und der Berichtswährung erfasst.
+Ihre Finanzbuchhaltung wird in der lokalen Wählrung (LW) eingerichtet. Sie können eine weitere Währung einrichten, der Sie einen aktuellen Wechselkurs zuweisen. Wird eine zweite Währung als [!INCLUDE[d365fin](includes/d365fin_md.md)] Berichtswährung festgelegt, werden Beträge automatisch für jeden Sachposten und weitere Posten, wie zum Beispiel MwSt.-Posten, in der Mandantenwährung und der Berichtswährung erfasst.
 
 > [!Warning]
-> Die Funktion Zusätzliche Berichtswährung sollte nicht als Grundlage für die Umrechnung von Abschlüssen verwendet werden, wenn Sie die Einschränkungen nicht verstehen. Es handelt sich dabei nicht um ein Tool, mit dem Finanzauswertungen von Niederlassungen im Rahmen einer Unternehmenskonsolidierung durchgeführt werden können. Die zusätzliche Berichtswährung kann nur verwendet werden, um Berichte in einer anderen Währung zu erstellen, so als ob diese Währung die Hauswährung der Firma wäre.
->
-> Sie haben z.B. eine große Menge an Debitoren in Britischen Pfund (GBP) und Sie haben Ihre zusätzliche Berichtswährung (ACY) auf GBP festgelegt. In diesem Szenario werden die Beträge in den Debitoren, die GBP verwenden, nicht um Wechselkursgewinne/-verluste im ACY bereinigt, sondern nur die Beträge in den Debitoren, die in anderen Währungen sind. Das bedeutet, dass, wenn Sie ACY verwenden, um Ihren Jahresabschluss zu erstellen, dies zu unter- oder überbewerteten ausstehenden Salden der Debitoren führen kann.
+> Die Funktion "Berichtswährung" sollte nicht als Grundlage für die Umrechnung von Finanzauswertungen verwendet werden. Es handelt sich dabei nicht um ein Tool, mit dem Finanzauswertungen von Niederlassungen im Rahmen einer Unternehmenskonsolidierung durchgeführt werden können. Die Berichtswährungsfunktion bietet lediglich die Möglichkeit, Berichte so in anderen Währungen vorzubereiten, als handelte es sich dabei um die Mandantenwährung des Unternehmens.
 
 ## <a name="displaying-reports-and-amounts-in-the-additional-reporting-currency"></a>Anzeigen von Berichten und Beträgen in der Berichtswährung
 Eine Berichtswährung kann in folgenden Fällen für das Berichtswesen eines Unternehmens hilfreich sein:
@@ -42,21 +36,19 @@ Eine Berichtswährung kann in folgenden Fällen für das Berichtswesen eines Unt
 Einige Finanzberichte basieren auf Sachposten. Um die Finanzdaten in dem Bericht in der zusätzlichen Berichtswährung anzuzeigen, aktivieren Sie einfach das Feld **In Zusatzwährung anzeigen** im Inforegister **Optionen** für den entsprechenden Sachkontobericht.
 
 ## <a name="adjusting-exchange-rates"></a>Regulieren von Wechselkursen
-
 Da sich Wechselkurse ständig ändern, müssen weitere Währungsentsprechungen im System in regelmäßigen Abständen reguliert werden. Werden diese Regulierungen nicht durchgeführt, sind Beträge, die aus fremden (oder zusätzlichen) Währungen umgerechnet und in der Mandantenwährung in der Finanzbuchhaltung gebucht wurden, möglicherweise irreführend. Darüber hinaus müssen Tagesposten, die vor der Eingabe eines Tageswechelkurses in der Anwendung gebucht werden, aktualisiert werden, nachdem der Tageswechselkurs eingegeben wurde. Die Stapelverarbeitung  **Wechselkurse** regulieren dient zur Regulierung der Wechselkurse gebuchter Kreditoren-, Debitoren- und Bankkontoposten. Berichtswährungsbeträge in Sachposten können hiermit ebenfalls aktualisiert werden. Weitere Informationen finden Sie unter [Stapelverarbeitungsauftrag "Wechselkurse regulieren"](finance-how-update-currencies.md).
 
 ## <a name="setting-up-an-additional-reporting-currency"></a>Einrichten einer Berichtswährung
-
 Folgen Sie diesen Schritten, um die zusätzliche Berichtswährung einzurichten:
 
-- Legen Sie Sachkonten für die Buchung von Kursregulierungen fest.  
-- Legen Sie Kursregulierungsart für alle Sachkonten fest.  
-- Legen Sie die Kursregulierungsmethode für MwSt.-Posten fest.  
-- Aktivieren Sie die Berichtswährung.  
+-   Legen Sie Sachkonten für die Buchung von Kursregulierungen fest.  
+-   Legen Sie Kursregulierungsart für alle Sachkonten fest.  
+-   Legen Sie die Kursregulierungsmethode für MwSt.-Posten fest.  
+-   Aktivieren Sie die Berichtswährung.  
 
 ### <a name="to-specify-general-ledger-accounts-for-posting-exchange-rate-adjustments"></a>Sachkonten für die Buchung von Kursregulierungen festlegen:  
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Währungen** ein, und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Währungen** ein und wählen Sie dann den entsprechenden Link.  
 2. Auf der Seite **Währungen** geben Sie die folgenden Felder für die zusätzliche Berichtswährung an.  
 
 |Feld|Description|  
@@ -67,13 +59,12 @@ Folgen Sie diesen Schritten, um die zusätzliche Berichtswährung einzurichten:
 |**Differenzkonto Verlust**|Das Sachkonto, auf das Rundungsverluste gebucht werden, wenn im Anwendungsbereich "Finanzbuchhaltung" Buchungen sowohl in der Mandantenwährung als auch in einer Berichtswährung durchgeführt werden.|
 
 > [!NOTE]  
->  Rundungsbeträge können entstehen, wenn [!INCLUDE[prod_short](includes/prod_short.md)] Soll- und Habenbeträge rundet, die aus der Mandantenwährung in eine Berichtswährung umgerechnet wurden.  
+>  Rundungsbeträge können entstehen, wenn [!INCLUDE[d365fin](includes/d365fin_md.md)] Soll- und Habenbeträge rundet, die aus der Mandantenwährung in eine Berichtswährung umgerechnet wurden.  
 
 Für jedes Sachkonto müssen Sie angeben, wie Beträge für dieses Konto hinsichtlich der Wechselkursschwankungen zwischen der Mandantenwährung und der Berichtswährung reguliert werden.  
 
-### <a name="to-specify-the-exchange-rate-adjustment-method-for-all-general-ledger-accounts"></a>So geben Sie die Kursregulierungsmethode für alle Sachkonten an
-
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Kontenplan** ein, und wählen Sie dann den zugehörigen Link.  
+### <a name="to-specify-the-exchange-rate-adjustment-method-for-all-general-ledger-accounts"></a>So geben Sie die Kursregulierungsmethode für alle Sachkonten an  
+1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol öffnet, geben Sie **Kontenplan** ein und wählen Sie dann den entsprechenden Link.  
 2. Auf der Seite **Kontenplan** wählen Sie das gewünschte Konto aus, und wählen Sie die **Bearbeiten** Aktion aus.  
 3. Wählen Sie auf der Seite **Berichtswesen** die richtige Methode im Feld **Kursregulierung** aus.  
 
@@ -89,9 +80,8 @@ Für jedes Sachkonto müssen Sie angeben, wie Beträge für dieses Konto hinsich
 
 4.  Schließen Sie die Seite **Sachkontokarte**.  
 
-### <a name="to-specify-exchange-rate-adjustment-method-for-vat-entries"></a>Die Kursregulierungsmethode für MwSt.-Posten festlegen:
-
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Hauptbuchhaltung Einrichtung** ein und wählen Sie dann den zugehörigen Link.  
+### <a name="to-specify-exchange-rate-adjustment-method-for-vat-entries"></a>Die Kursregulierungsmethode für MwSt.-Posten festlegen:  
+1. Wählen Sie die ![Glühbirne, die das Symbol Tell Me öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Finanzbuchhaltungs-Einrichtung** ein und wählen Sie dann den entsprechenden Link.  
 2. Wählen Sie auf der Seite **Berichtswesen einrichten** die richtige Methode im Feld **Kursregulierung** aus.  
 3. Wenn Sie die Buchung in einer Berichtswährung durchführen, können Sie im Feld **MwSt.-Kursregulierung** angeben, wie die auf der Seite **MwSt.-Buchungsmatrix Einr.** für die Buchung der MwSt. eingerichteten Konten bei Wechselkursschwankungen zwischen der Mandantenwährung und der Berichtswährung reguliert werden.  
 
@@ -106,14 +96,14 @@ Für jedes Sachkonto müssen Sie angeben, wie Beträge für dieses Konto hinsich
     |**Betrag (BW) regulieren**|Die zusätzliche Berichtswährung wird gemäß der Wechselkursgewinne oder -verluste reguliert. Wechselkursgewinne oder -verluste werden auf das Sachkonto im Feld **Betrag (BW)** gebucht und auf die Konten, die Sie für Gewinne oder Verluste in den Feldern **Sachkto. Kursgewinn real. Kto.** und **Sachkto. Kursverlust real. Kto.** im Fenster **Währungen** festgelegt haben.|  
 
 ### <a name="to-activate-the-additional-reporting-currency"></a>Berichtswährung aktivieren:  
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Hauptbuchhaltung Einrichtung** ein und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Sie Wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Finanzbuchhaltungs-Einrichtung** ein und wählen Sie dann den entsprechenden Link.  
 2. Auf der Seite **Finanzbuchhaltung Einrichtung** wählen Sie das Feld **zusätzliche Berichtswährung**, um die zusätzliche Berichtswährung auszuwählen, in der Sie Daten erfassen möchten.  
-3. Beim Verlassen des Felds zeigt [!INCLUDE[prod_short](includes/prod_short.md)] eine Bestätigungsmeldung an, die Sie über die Auswirkungen der Aktivierung der Berichtswährung informiert.  
+3. Beim Verlassen des Felds zeigt [!INCLUDE[d365fin](includes/d365fin_md.md)] eine Bestätigungsmeldung an, die Sie über die Auswirkungen der Aktivierung der Berichtswährung informiert.  
 4. Wählen Sie die Schaltfläche **Ja** aus, um zu bestätigen, dass Sie die Währung aktivieren möchten.  
 5. Der Batchauftrag **Berichtswährung regulieren** wird geöffnet.
 
     Mithilfe dieser Stapelverarbeitung werden MW-Beträge in vorhandenen Posten in die Berichtswährung umgerechnet. Der Stapelverarbeitungsauftrag verwendet einen Standardwechselkurs, der am Arbeitsdatum entsprechend der Seite **Währungswechselkurse** gültig ist. Rundungsbeträge, die bei der Umrechnung der Mandantenwährung in die Berichtswährung entstehen, werden auf der Seite **Währungen** angegebenen Differenzkonten für Gewinne und Verluste gebucht. Das Buchungsdatum und die Belegnummer dieser Posten ist mit denen des ursprünglichen Sachpostens identisch. Nachdem sämtliche Rundungsposten gebucht wurden, wird bei der Stapelverarbeitung ein Rundungsposten am Ultimodatum jedes abgeschlossenen Jahres auf das Abschlusskonto für die GuV gebucht. Hierdurch wird sichergestellt, dass der Endsaldo der GuV-Konten für alle abgeschlossenen Jahre in der Mandantenwährung und der Berichtswährung 0 ist.
-6. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]      
+6. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]      
 7. Wählen Sie die Schaltfläche **OK**, um den Batchauftrag zu starten.  
 
 Nach die Stapelverarbeitung ausgeführt wurde, sind die Beträge in den folgenden bereits vorhandenen Posten in der Mandantenwährung und der Berichtswährung angegeben:  
@@ -129,15 +119,11 @@ Nach die Stapelverarbeitung ausgeführt wurde, sind die Beträge in den folgende
 Darüber hinaus werden die Beträge für alle zukünftigen Posten desselben Typs sowohl in der Mandantenwährung als auch in der Berichtswährung erfasst.  
 
 > [!NOTE]  
-> Das Feld **Berichtswährung** wird erst aktiviert, nachdem Sie im Batchauftrag **Berichtswährung regulieren** die Schaltfläche **OK** gewählt haben.  
+>  Das Feld **Berichtswährung** wird erst aktiviert, nachdem Sie im Batchauftrag **Berichtswährung regulieren** die Schaltfläche **OK** gewählt haben.  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/paths/use-multiple-currencies-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Siehe auch
-
 [Währungswechselkurse aktualisieren](finance-how-update-currencies.md)  
 [Abschlussjahre und -perioden](year-close-years-periods.md)  
-[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

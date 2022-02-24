@@ -1,43 +1,41 @@
 ---
-title: Einem Lieferanten eine Prioritätsstufe zuweisen (enthält ein Video)
+title: Weisen Sie einem Kreditor eine Prioritätsstufe zu| Microsoft Docs
 description: Sie können sowohl Zahlen Ihren Kreditoren oder Lieferanten zuweisen, um sie zu priorisieren und Zahlungsvorschläge in  Business Central zu erleichtern.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: supplier, payment priority
-ms.search.form: 26, 27
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: dd6374288258baa07a8d91f4bc2dc210d33344fc
-ms.sourcegitcommit: e008b3d7003c256475d6c606e5f7c9866a6bbb72
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: cede9a43bb66d314640e0e28443c63c925fd575a
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7953491"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3192723"
 ---
 # <a name="prioritize-vendors"></a>Kreditoren priorisieren
-[!INCLUDE[prod_short](includes/prod_short.md)] kann verschiedene Zahlungen an Kreditoren vorschlagen. Dies können z. B. Zahlungen sein, die in Kürze fällig sind, oder Zahlungen, bei denen Sie einen Rabatt erhalten können. Weitere Informationen finden Sie unter [Erstellen von Zahlungsvorschlägen für Kreditoren](payables-how-suggest-vendor-payments.md).
+[!INCLUDE[d365fin](includes/d365fin_md.md)] kann verschiedene Zahlungen an Kreditoren vorschlagen. Dies können z. B. Zahlungen sein, die in Kürze fällig sind, oder Zahlungen, bei denen Sie einen Rabatt erhalten können. Weitere Informationen finden Sie unter [Erstellen von Zahlungsvorschlägen für Kreditoren](payables-how-suggest-vendor-payments.md).
 
 Zuerst müssen Sie den Kreditoren priorisieren, indem Sie ihm Nummern zuweisen.
 <br><br>
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3PRGa?rel=0]
 
 ## <a name="to-prioritize-vendors"></a>So priorisieren Sie Kreditoren
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Kreditoren** ein und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol öffnet, geben Sie **Anbieter** ein und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie die entsprechende Kreditor, und klicken Sie dann auf **Bearbeiten**.
 3. Geben Sie im Feld **Priorität** eine Zahl ein.
 
-[!INCLUDE[prod_short](includes/prod_short.md)] geht davon aus, dass die niedrigsten Nummern (außer 0) die höchste Priorität haben. Wenn Sie also z. B. 1, 2 und 3 verwenden, erhält 1 die höchste Priorität.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] geht davon aus, dass die niedrigsten Nummern (außer 0) die höchste Priorität haben. Wenn Sie also z. B. 1, 2 und 3 verwenden, erhält 1 die höchste Priorität.
 
 Falls Sie einem Kreditor keine Priorität zuweisen wollen, lassen Sie das Feld **Priorität** leer. Wenn Sie dann die Funktion "Zahlungsvorschlag" verwenden, wird dieser Kreditor nach den Kreditoren aufgeführt, die eine Priorität haben. Sie können so viele Prioritäten einrichten wie Sie benötigen.
 
 ## <a name="see-also"></a>Siehe auch
 [Einkaufeinrichten](purchasing-setup-purchasing.md)  
 [Verwalten von Verbindlichkeiten](payables-manage-payables.md)  
-[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

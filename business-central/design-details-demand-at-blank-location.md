@@ -3,19 +3,19 @@ title: 'Designdetails: Bedarf und Vorrat | Microsoft Docs'
 description: Dieses Thema erläutert das Konzept der Nachfrage, welches der allgemeine Begriff ist für jede Art Brutto-Bedarf, wie beispielsweise für Verkaufsauftrags und Komponentenbedarf aus einem Fertigungsauftrag.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, demand, supply, inventory, planning
-ms.date: 06/08/2021
-ms.author: edupont
-ms.openlocfilehash: 62abcd0e37a9871efd6158a898538b7c18b6b47f
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: f808865bd4fc2113dd5c04071f7ba2e8793fe3af
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215328"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185564"
 ---
 # <a name="design-details-demand-at-blank-location"></a>Designdetails: Bedarf an leerem Lagerort
 Wenn ein Benutzer ein Bedarfsereignis erstellt, wie eine Verkaufsauftragszeile, erlaubt es das Programm dem Benutzer, manchmal einen Lagerortcode anzugeben und andere Male nicht, das heißt, es muss ein leerer Lagerort verwendet werden.
@@ -132,6 +132,3 @@ Wie aus dem letzten Szenario ersehen werden kann, besteht die einzige Möglichke
 [Designdetails: Ausgleich von Bedarf und Vorrat](design-details-balancing-demand-and-supply.md)   
 [Designdetails: Zentrale Konzepte des Planungssystems](design-details-central-concepts-of-the-planning-system.md)   
 [Designdetails: Vorratsplanung](design-details-supply-planning.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

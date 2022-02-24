@@ -1,28 +1,26 @@
 ---
-title: Projektmanagement
-description: Dieses Thema beschreibt, wie Sie Ressourcen, Arbeitszeittabellen und Aufträge verwenden, um Projekte und deren Budgets zu verwalten.
+title: Jobaufgabe, die Ressourcen und Arbeitszeittabellen verwendet | Microsoft Docs
+description: Beschreibt, wie Ressourcen, Arbeitszeittabellen und Projekte genutzt werden, um Projekte zu verwalten.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.workload: na
 ms.search.keywords: projects
-ms.search.form: 89, 200, 289, 290, 376, 462, 463, 1029, 1615, 8904, 9014, 9015
-ms.date: 06/22/2021
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 2c53179960fc6b9ebd7a77193b13d271f22fe1b1
-ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
+ms.openlocfilehash: aa3158789f22cbb3a534bda2a83e2def209f9826
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/08/2022
-ms.locfileid: "8101269"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2312652"
 ---
 # <a name="project-management"></a>Projektmanagement
+In [!INCLUDE[d365fin](includes/d365fin_md.md)] können Sie allgemeine Projektmanagement-Verwaltungsaufgaben ausführen, wie Konfigurieren eines Projekts und Planen einer Ressource sowie Bereitstellung der Informationen, die benötigt werden, um Budgets zu verwalten und den Status zu überwachen. Sie können Computer- und Mitarbeiterstunden für das Projekt verfolgen, indem Sie Arbeitszeittabellen verwenden. Als Projektmanager haben Sie einen guten Überblick, nicht nur über einzelnen Projekte, sondern auch über die Verteilung der Mitarbeiter, der Maschinen und anderer Ressourcen, die in allen Projekten verwendet werden.
 
-In [!INCLUDE[prod_short](includes/prod_short.md)] können Sie allgemeine Projektmanagement-Verwaltungsaufgaben ausführen, wie Konfigurieren eines Projekts und Planen einer Ressource sowie Bereitstellung der Informationen, die benötigt werden, um Budgets zu verwalten und den Status zu überwachen. Sie können Computer- und Mitarbeiterstunden für das Projekt verfolgen, indem Sie Arbeitszeittabellen verwenden. Als Projektmanager haben Sie einen guten Überblick, nicht nur über einzelnen Projekte, sondern auch über die Verteilung der Mitarbeiter, der Maschinen und anderer Ressourcen, die in allen Projekten verwendet werden.
+Bevor Sie [!INCLUDE[d365fin](includes/d365fin_md.md)] verwnden können, um Projekte zu verwalten, müssen Sie Ressourcen, Arbeitszeitblätter und Projekte einrichten. Weitere Informationen finden Sie unter [Projektmanagement einrichten](projects-setup-projects.md).  
 
-Bevor Sie [!INCLUDE[prod_short](includes/prod_short.md)] verwnden können, um Projekte zu verwalten, müssen Sie Ressourcen, Arbeitszeitblätter und Projekte einrichten. Weitere Informationen finden Sie unter [Projektmanagement einrichten](projects-setup-projects.md).  
-
-Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Themen, die sie beschreiben.
+In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den beschriebenen Themen erläutert
 
 | Aktion | Siehe |
 | --- | --- |
@@ -38,19 +36,16 @@ Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Themen,
 
 ## <a name="get-started-with-projects"></a>Erste Schritte mit Projekten
 
-Projektmanagement ist allein ist schon kompliziert genug, und zu Lernen, wie Projekte erstellt und Umlaufbestand in einem neuen Tool verwaltet werden, kann eine zusätzliche Komplikation sein. Als Hilfe beim Projektmanagement in [!INCLUDE[prod_short](includes/prod_short.md)] können Sie sich [ein Video zum Erstellen von Aufträgen](https://www.youtube.com/watch?v=VqaPWr7BWmw) im [!INCLUDE[prod_short](includes/prod_short.md)] YouTube-Kanal ansehen.  
+Projektmanagement ist allein ist schon kompliziert genug, und zu Lernen, wie Projekte erstellt und Umlaufbestand in einem neuen Tool verwaltet werden, kann eine zusätzliche Komplikation sein. Als Hilfe beim Projektmanagement in [!INCLUDE [prodshort](includes/prodshort.md)] können Sie sich [ein Video zum Erstellen von Aufträgen](https://www.youtube.com/watch?v=VqaPWr7BWmw) im [!INCLUDE [prodshort](includes/prodshort.md)] YouTube-Kanal ansehen.  
 
 ## <a name="see-also"></a>Siehe auch
 
-[Projektmanagement einrichten](projects-setup-projects.md)  
+[Richten Sie Ihr Projektmanagement ein.](projects-setup-projects.md)  
 [Video: So erstellen Sie ein Projekt in Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  
 [Funktionen, die angezeigt werden ändern](ui-experiences.md)  
 [Einkauf](purchasing-manage-purchasing.md)  
 [Verkauf](sales-manage-sales.md)  
 [Finanzen](finance.md)  
-[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

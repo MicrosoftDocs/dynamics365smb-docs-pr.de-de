@@ -3,26 +3,26 @@ title: 'Gewusst wie: Einrichten von Berichten für MwSt. und Intrastat'
 description: Sie können festlegen, welche Berichte verwendet werden sollen, um die Dokumente zu erstellen, die Sie an die Behörden, wie beispielsweise die MwSt.-Abrechnung und das Intrastat-Formular übermitteln müssen.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 83ed5ef373245aa4fc31ab2f9b5164839d838686
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: dcc44164f6273558c88999f5f342bcb8da591677
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439970"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181155"
 ---
 # <a name="set-up-reports-for-vat-and-intrastat"></a>Richten Sie Berichte für MwSt ein.
-In [!INCLUDE[prod_short](../../includes/prod_short.md)] können Sie festlegen, welche Berichte verwendet werden sollen, um die Dokumente zu erstellen, die Sie an die Behörden, wie beispielsweise die MwSt.-Abrechnung und das Intrastat-Formular übermitteln müssen.  
+In [!INCLUDE[d365fin](../../includes/d365fin_md.md)] können Sie festlegen, welche Berichte verwendet werden sollen, um die Dokumente zu erstellen, die Sie an die Behörden, wie beispielsweise die MwSt.-Abrechnung und das Intrastat-Formular übermitteln müssen.  
 
 ### <a name="to-set-up-reports-for-vat"></a>Richten Sie MwSt.-Berichte ein.  
 
-1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](../../media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen") Symbol. Geben Sie **Berichtsauswahl – MwSt.** ein und wählen Sie dann den zugehörigen Link.  
+1.  Wählen Sie das Symbol ![Suche nach Seite oder Bericht](../../media/ui-search/search_small.png "Symbol „Suche nach Seite oder Bericht“"), geben Sie **Berichtsauswahl - MwSt.** ein und wählen Sie dann den entsprechenden Link.  
 
 2.  Auf der Seite **Berichtsauswahl - MwSt.** im Feld **Verbrauch**, wählen Sie die Art des Belegs aus, für die Sie Berichte festlegen möchten. Dieses umfasst die MwSt.-Abrechnung und den MwSt.-Abrechnungsplan.  
 
@@ -45,7 +45,7 @@ In [!INCLUDE[prod_short](../../includes/prod_short.md)] können Sie festlegen, w
 > |XML|Unternehmensnummer|
 > |ASCII|Verkaufsmaterial-Nr., Einkaufsmaterial-Nr.|
 
-1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](../../media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen") Symbol. Geben Sie **Berichtsauswahl** ein und wählen Sie dann den zugehörigen Link.  
+1.  Wählen Sie das Symbol ![Suche nach Seite oder Bericht](../../media/ui-search/search_small.png "Symbol „Suche nach Seite oder Bericht“"), geben Sie **Berichtsauswahl** ein und wählen Sie dann den entsprechenden Link.  
 
 2.  Auf der Seite **Berichtsauswahl - Intrastat** im Feld **Verbrauch**, wählen Sie die Art des Belegs aus, für die Sie Berichte festlegen möchten. Dieses umfasst die Intrastat-Checkliste und das Intrastat-Formular.  
 
@@ -62,6 +62,3 @@ In [!INCLUDE[prod_short](../../includes/prod_short.md)] können Sie festlegen, w
 ## <a name="see-also"></a>Siehe auch  
 [Exportieren und Drucken von Intrastat-Berichten](how-to-export-and-print-intrastat-reports.md)  
 [MwSt.-Abrechnung](vat-reporting.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

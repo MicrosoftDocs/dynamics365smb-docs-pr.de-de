@@ -1,1 +1,1 @@
-Dieses Funktionalität ist noch im Entwicklungsstadium. Die Funktionalität und der Inhalt auf der Seite unterliegen Änderungen. Erfahren, was als Nächstes kommt, unter [Microsoft Dynamics 365 Business Central Veröffentlichungsplan](/dynamics365/release-plans/).
+Dieses Funktionalität ist noch im Entwicklungsstadium. Die Funktionalität und der Inhalt auf der Seite unterliegen Änderungen. Erfahren, was als nächstes kommt, unter [Microsoft Dynamics 365 Business Central Veröffentlichungsplan](https://go.microsoft.com/fwlink/?linkid=2047422).

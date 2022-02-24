@@ -1,23 +1,23 @@
 ---
 title: Datenbank-Sperren anzeigen
-description: Erfahren Sie, wie Sie Informationen über Debitoren-Datenbanksperren direkt über die Client-Oberfläche in Business Central anzeigen können.
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 9511
-ms.date: 06/14/2021
+ms.date: 04/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 6fe59a57514225a0a03d45770df2329c63fda4af
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: abee0f31d66f648f4b0be567d8599b31c536a193
+ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8011731"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3324102"
 ---
 # <a name="viewing-database-locks"></a>Anzeigen von Datenbank-Sperren
+
+## <a name="about-locks"></a>Über Sperren
 
 Die Datenbanksperre steuert den gleichzeitigen Zugriff mehrerer Benutzer auf dieselben Daten. Um eine Transaktion gegen andere Transaktionen zu schützen, die dieselben Daten ändern, sperrt die erste Transaktion die Daten. Die Sperre bleibt bestehen, bis die Transaktion abgeschlossen ist.
 
@@ -25,7 +25,7 @@ Benutzer können für den Abschluss von Transaktionen mit den gesperrten Daten g
 
 ## <a name="to-view-database-locks"></a>So zeigen Sie Datenbanksperren an
 
-Wählen Sie das ![Suchen Sie nach Seite oder Bericht.](media/ui-search/search_small.png "Suchen Sie nach dem Symbol Seite oder Bericht") Symbol. Geben Sie **Datenbanksperren** ein und wählen Sie dann den zugehörigen Link.
+Wählen Sie das Symbol ![Seite suchen oder Bericht](media/ui-search/search_small.png "Suchen Sie nach dem Symbol Seite oder Bericht"), geben Sie **Datenbanksperren** ein, und wählen Sie dann den entsprechenden Link.
 
 Die Seite **Datenbanksperren** zeigt eine Momentaufnahme aller aktuellen Datenbanksperren.
 
@@ -34,6 +34,3 @@ Weitere Informationen über Datenbanksperren finden Sie unter [Überwachung von 
 ## <a name="see-also"></a>Siehe auch
 
 [Datenbanksperren überwachen](/dynamics365/business-central/dev-itpro/administration/monitor-database-locks) 
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

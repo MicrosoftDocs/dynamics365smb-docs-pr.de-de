@@ -1,21 +1,23 @@
 ---
-title: So legen Sie Lagerorte für die Verwendung von Lagerplätzen fest
-description: Lagerplätze stellen die Grundstruktur des Lagers dar und werden verwendet, um Vorschläge für die Platzierung und den Lagerort von Artikeln zu machen.
+title: So richten Sie Lagerorte zur Verwendung von Lagerplätzen ein | Microsoft Docs
+description: Lagerplätze stellen die grundlegende Lagerstruktur dar und werden verwendet, um Vorschläge zur Einlagerung von Artikeln zu erstellen. Wenn Sie Ihre Lagerplätze erzeugt haben, können Sie sehr genau festlegen, welche Inhalte in jeden Lagerplatz eingelagert werden soll, oder der Lagerplatz kann als freier Lagerplatz fungieren, dem kein bestimmter Inhalt zugewiesen wurde.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/25/2021
-ms.author: edupont
-ms.openlocfilehash: 29ee70ffa50b018073b8f44a66588df3d822b5cc
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: f2d7ecc163737c103c91b2a28a6a8072fad89279
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442954"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310180"
 ---
 # <a name="set-up-locations-to-use-bins"></a>Lagerorte für die Verwendung von Lagerplätzen einrichten
 Lagerplätze stellen die grundlegende Lagerstruktur dar und werden verwendet, um Vorschläge zur Einlagerung von Artikeln zu erstellen. Wenn Sie Ihre Lagerplätze erzeugt haben, können Sie sehr genau festlegen, welche Inhalte in jeden Lagerplatz eingelagert werden soll, oder der Lagerplatz kann als freier Lagerplatz fungieren, dem kein bestimmter Inhalt zugewiesen wurde.  
@@ -26,7 +28,7 @@ Um die Funktionalität der Lagerplätze zu nutzen, müssen Sie diese auf der Kar
 >  Bevor Sie Lagerplatzcodes auf der Lagerortkarte festlegen können, müssen die Lagerplatzcodes erstellt werden. Weitere Informationen finden Sie unter  [Lagerplätze erstellen](warehouse-how-to-create-individual-bins.md).  
 
 ## <a name="to-set-up-a-location-to-use-bins"></a>Um einen Lagerort für die Verwendung von Lagerplätzen einzurichten  
-1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Lagerorte** ein, und wählen Sie dann den entsprechenden Link.  
+1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Standort** ein, und wählen dann den zugehörigen Link aus.  
 2.  Wählen Sie den Lagerort aus, an dem Sie Lagerplätze verwenden möchten.  
 3.  Wählen Sie die Aktion **Bearbeiten** aus.  
 4.  Aktivieren Sie im Inforegister **Lager** das Kontrollkästchen **Lagerplatz notwendig**.  
@@ -39,17 +41,14 @@ Um die Funktionalität der Lagerplätze zu nutzen, müssen Sie diese auf der Kar
 11. Tragen Sie im Inforegister **Logistik** die Felder **Ausgeh. Lagerdurchlaufzeit**, **Eingeh. Lagerdurchlaufzeit** und **Basiskalendercode** ein. Weitere Informationen finden Sie unter [Einrichten von Grundkalendern](across-how-to-assign-base-calendars.md).
 
 ## <a name="filling-the-consumption-bin"></a>Auffüllen des Verbrauchslagerplatzes
-Dieses Flow-Diagramm zeigt, wie das Feld **Lagerplatz-Code** auf den Zeilen der Produktionsauftragskomponenten entsprechend der Einrichtung Ihres Lagerorts gefüllt wird.
+Dieses Flussdiagramm zeigt, wie das Feld **Lagerplatzcode** in FA-Komponentenzeilen entsprechend Ihrer Einrichtung ausgefüllt wird.
 
-![Flowdiagramm Lagerplatz.](media/binflow.png "BinFlow")  
+![Lagerplatz-Flussdiagramm](media/binflow.png "Lagerfluss")  
 
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-also"></a>Siehe auch
 [Logistik](warehouse-manage-warehouse.md)  
 [Lagerbestand](inventory-manage-inventory.md)  
-[Lagerverwaltung einrichten](warehouse-setup-warehouse.md)     
+[Lagerortverwaltung einrichten](warehouse-setup-warehouse.md)     
 [Montageverwaltung](assembly-assemble-items.md)    
-[Designdetails: Lagerverwaltung](design-details-warehouse-management.md)  
-[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Designdetails: Logistik](design-details-warehouse-management.md)  
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

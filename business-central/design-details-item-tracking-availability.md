@@ -1,21 +1,21 @@
 ---
-title: Design-Details – Verfügbarkeit der Artikelverfolgung
-description: Die Seiten „Element Tracking Lines“ und „Element Tracking Summary“ bieten dynamische Verfügbarkeitsinformationen für Serien- oder Losnummern und erhöhen so die Transparenz für Benutzer.
+title: 'Designdetails: Artikelverfolgung und Verfügbarkeit | Microsoft Docs'
+description: Die Artikelverfolgungszeilen und Artikelverlaufs-Zusammenfassungsseiten stellen dynamische Verfügbarkeitsinformationen für Serien- oder Chargennummern bereit. Der Zweck besteht darin, die Transparenz für Benutzer bei ausgehenden Belegen, wie etwa Verkaufsaufträgen, zu erhöhen, indem ihnen gezeigt wird, welche Seriennummern oder wie viele Einheiten einer Charge derzeit auf anderen offenen Belegen zugewiesen sind.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/15/2021
-ms.author: edupont
-ms.openlocfilehash: 707adc254b955ce80bbdb9efc2b22a0fb116d9d5
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 628d72c030d26b8de1f7341ea0ebbb0289b02ae5
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6320863"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185084"
 ---
 # <a name="design-details-item-tracking-availability"></a>Designdetails: Artikelverfolgungsverfügbarkeit
 Die **Artikelverfolgungszeilen** und **Artikelverlaufs-Zusammenfassung** seiten stellen dynamische Verfügbarkeitsinformationen für Serien- oder Chargennummern bereit. Der Zweck besteht darin, die Transparenz für Benutzer bei ausgehenden Belegen, wie etwa Verkaufsaufträgen, zu erhöhen, indem ihnen gezeigt wird, welche Seriennummern oder wie viele Einheiten einer Charge derzeit auf anderen offenen Belegen zugewiesen sind. Dadurch wird die Ungewissheit reduziert, die durch doppelte Zuteilung entsteht und den Auftragsbearbeiter wird das Vertrauen vermittelt, dass die Artikelverfolgungsnummern und die Daten, die sie in nicht gebuchten Verkaufsaufträgen versprechen, erfüllt werden können. Weitere Informationen finden Sie unter [Designdetails: Artikelverfolgungszeilenseite](design-details-item-tracking-lines-window.md)  
@@ -44,6 +44,3 @@ Die **Artikelverfolgungszeilen** und **Artikelverlaufs-Zusammenfassung** seiten 
 
 ## <a name="see-also"></a>Siehe auch  
  [Designdetails: Artikelnachverfolgung](design-details-item-tracking.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

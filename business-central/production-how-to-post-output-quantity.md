@@ -1,59 +1,49 @@
 ---
-title: Produktionsausgabe und Laufzeiten über Stapelverarbeitung buchen
-description: Die fertig gestellte Menge repräsentiert den Arbeitsfortschritt in Form der fertigen Menge und der genutzten Kapazität der Arbeit oder des Arbeitsplatzes.
+title: 'Vorgehensweise: Produktionsausgabe und Laufzeiten über Stapelverarbeitung buchen| Microsoft Docs'
+description: Die fertig gestellte Menge stellt den Arbeitsfortschritt in Form der gefertigten Menge dar.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 99000773, 99000778, 99000823, 99000827
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: d5adb9f1f4eb1edefdeb15b6f716458247b4ebf9
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.search.keywords: ''
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: a0eeb0a944a0feaee27fcb6d5891f83151499940
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7970427"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877783"
 ---
 # <a name="batch-post-output-and-run-times"></a>Ausgabe über Stapelverarbeitung buchen und Bearbeitungszeiten prüfen
-Die fertig gestellte Menge repräsentiert den Arbeitsfortschritt in Form der fertigen Menge und der genutzten Kapazität der Arbeit oder des Arbeitsplatzes.
-
-Sie können das Ausgabejournal für Folgendes verwenden:
-
-* Regulieren Sie Lagerbestand in Verbindung mit der Ausgabe fertiger Artikel aus der Produktion.
-* Registrieren Sie Mengen und Ausschuss für jeden Vorgang im Fertigungsarbeitsgang.
-* Registrieren Sie Setup und Laufzeit für Arbeit und Arbeitsplätze.
+Die fertig gestellte Menge stellt den Arbeitsfortschritt in Form der gefertigten Menge dar.  
 
 > [!NOTE]
-> Wenn der Fertigungsarbeitsgang verwendet wird, aktualisiert die Anwendung automatisch den Lagerbestand nur wenn Sie die fertig gestellte Menge für den letzten Arbeitsgang buchen.
+> Nur wenn Sie die fertig gestellte Menge für den letzten Arbeitsgang buchen, dann aktualisiert die Anwendung automatisch den Lagerbestand.  
 
-Im Fenster **Produktions Buch.-Blatt** können Sie die gleichen Aufgaben wie im Fenster **FA-Istmeldungs Buch.-Blatt** ausführen und gleichzeitig die entsprechenden Verbrauchsbuchungsaufgaben ausführen. Weitere Informationen finden Sie unter [Gemeinsames Erfassen und Buchen von Verbrauch und Istmeldungen für eine einzelne freigegebene Fertigungsauftragszeile](production-how-to-register-consumption-and-output.md).
-
-## <a name="to-post-output-quantities-andor-register-run-times-for-one-or-more-production-order-lines"></a>Die fertig gestellte Mengen und/oder Erfassungslaufzeiten für eine oder mehrere Fertigungsauftragszeilen buchen
-
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Erfassung Buch.-Blatt** ein und wählen Sie dann den zugehörigen Link.  
-2. Füllen Sie die Felder mit den Daten des Fertigungsauftrags und den Ausgabedaten und/oder der Laufzeit aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-  
-    Sie können die Funktion **Arbeitsplan auflösen** Generieren von Journalzeilen aus Fertigungsaufträgen verwenden.
-  
+## <a name="to-post-output-quantities-for-one-or-more-production-order-lines"></a>Die fertig gestellte Mengen für eine oder mehrere Fertigungsauftragszeilen buchen
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **FA-Istmeldungs Buch.-Blatt** ein und wählen Sie dann den entsprechenden Link.  
+2. Füllen Sie die Felder mit den Daten des Fertigungsauftrags und den Ausgabedaten aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Wenn der Arbeitsgang beendet ist, wählen Sie das Feld **Beendet** aus.  
-4. Um die Vorgänge zu buchen, wählen Sie die Aktion **Buchen** aus. 
 
-Kapazitätsposten werden für die verwendeten Arbeitsplätze mit Informationen zu Zeit und Menge der Ausgabe und des Ausschusses aktualisiert.  
+    Wenn der Lagerort, in den die Artikel eingelagert werden sollen, Lagerplätze verwendet, die Bearbeitung der Einlagerung jedoch nicht erforderlich ist, weisen Sie der Buch.-Blattzeile einen Lagerplatzcode zu, um festzulegen, wo die Artikel im Lagerort eingelagert werden sollen. Weitere Informationen finden Sie unter [Produktionseinlagerung oder Montageausgabe](warehouse-how-to-put-away-production-output.md).  
 
-Wenn Sie den letzten Vorgang gebucht haben, wird der Artikel dem Lager hinzugefügt.  
+4. Wählen Sie **Buchen** aus, um die Vorgänge zu buchen. Die fertig gestellte Menge wird gebucht. Der Artikel ist jetzt versandbereit.  
 
-## <a name="see-also"></a>Siehe auch
+## <a name="to-post-run-times-for-one-or-more-production-order-lines"></a>Die Laufzeit für eine oder mehrere Fertigungsauftragszeilen buchen
+Die Bearbeitungszeit stellt den Arbeitsfortschritt in Form der benötigten Arbeitszeit dar.    
 
-[Ausschuss manuell buchen](production-how-to-post-scrap.md)
-[Gebuchte fertig gestellte Menge stornieren](production-how-to-reverse-output-posting.md)
-[Produktion](production-manage-manufacturing.md)
+1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **FA-Istmeldungs Buch.-Blatt** ein und wählen Sie dann den entsprechenden Link.  
+2. Füllen Sie die Felder mit den Daten des Fertigungsauftrags und den Ausgabedaten aus.  
+3.  Wenn der Arbeitsgang beendet ist, wählen Sie das Feld **Beendet** aus.  
+4. Wählen Sie die **Buchen** Aktion aus, um die Zeit zu buchen, die je Arbeitsgang aufgewendet wurde. Kapazitätsposten werden für die benötigte Arbeitsplätzen oder Arbeitsplatzgruppen aktualisiert.
+
+## <a name="see-also"></a>Siehe auch  
+[Produktion](production-manage-manufacturing.md)    
 [Produktion einrichten](production-configure-production-processes.md)  
-[Planung](production-planning.md)  
+[Planung](production-planning.md)      
 [Lagerbestand](inventory-manage-inventory.md)  
-[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Einkauf](purchasing-manage-purchasing.md)  
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

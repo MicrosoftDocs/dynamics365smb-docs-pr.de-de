@@ -3,19 +3,19 @@ title: 'Vorgehensweise: Erstellen von Montageaufträgen| Microsoft Docs'
 description: Erstellen Sie Rahmenaufträge für benutzerdefinierte Montageartikel, bevor Sie die tatsächlichen Verkaufsaufträge in regelmäßigen Abständen entsprechend der Rahmenbestellung erstellen.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: a62d2b1d84d1139a0e5472d8e95f1c87f13bfa6c
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: cdcc62b92e4fd8a080e3167c50efba1d1235c172
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435469"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3186395"
 ---
 # <a name="create-blanket-assembly-orders"></a>Erstellen von Montagerahmenaufträgen
 Sie können Montageverwaltung verwenden, um einen Montageartikel auf Anforderung eines Debitors während des Vertriebsprozesses anzupassen. Weitere Informationen finden Sie unter [Verkaufen von Auftragsmontageartikeln](assembly-how-to-sell-items-assembled-to-order.md).  
@@ -26,7 +26,7 @@ Sie können Montageverwaltung verwenden, um einen Montageartikel auf Anforderung
 >  Wie bei allen Rahmenaufträgen werden Mengen in Montagerahmenaufträgen nur prognostiziert und sind nicht operativ, bis sie in tatsächliche Montageaufträge umgewandelt werden. Daher sind die Bestellungsfunktionen, wie Verfügbarkeitsberechnung, Reservierung, Artikelverfolgung auf Montagerahmenaufträgen nicht aktiv.  
 
 ## <a name="to-create-a-blanket-assembly-order-for-an-assemble-to-order-item"></a>So erstellen Sie einen Montagerahmenauftrag für einen Auftrags\-\-montageartikel:  
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Verkaufsrahmenaufträge** ein und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Verkauf Rahmenauftrag** ein, und wählen Sie dann den zugehörigen Link.  
 2. Erstellen Sie einen neune Rahmenauftrag mit einer Zeile für einen Montageartikel. Weitere Informationen hierzu finden Sie unter [Rahmenaufträge erstellen](sales-how-to-create-blanket-sales-orders.md).  
 3. Geben Sie im Feld **Menge für Montageauftrag** auf dem Montagerahmenauftrag die vollständige Menge ein.
 
@@ -46,7 +46,4 @@ Der verknüpfte Montagerahmenauftrag und alle eventuellen Anpassungen werden mit
 [Mit Fertigungsstücklisten arbeiten](inventory-how-work-BOMs.md)  
 [Lagerbestand](inventory-manage-inventory.md)  
 [Designdetails: Lagerverwaltung](design-details-warehouse-management.md)  
-[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

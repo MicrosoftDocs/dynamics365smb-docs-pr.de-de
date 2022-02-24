@@ -1,30 +1,30 @@
 ---
-title: So geben Sie Daten in Business Central ein
-description: Es gibt eine Vielzahl allgemeiner Funktionen, mit denen Sie Daten einfacher, schneller und genauer eingeben können. Hier werden die grundlegenden Prinzipien und erweiterten Funktionen beschrieben.
-author: jswymer
+title: Eingeben von Daten in Business Central | Microsoft Docs
+description: Informationen zu allgemeinen Funktionen, die Ihnen dabei helfen, Daten in die Felder einzugeben.
+author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: decimal separator, data entry, focus
-ms.date: 10/01/2021
-ms.author: jswymer
-ms.openlocfilehash: 1e6dbdd5880902c7b649464ad967f01cc599f37f
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.search.keywords: ''
+ms.date: 04/03/2020
+ms.author: sgroespe
+ms.openlocfilehash: f3af601f0de00445a42c88bb47053084b05fc14b
+ms.sourcegitcommit: 8a4e66f7fc8f9ef8bdf34595e0d3983df4749376
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588957"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "3262142"
 ---
 # <a name="entering-data"></a>Eingeben von Daten
 
-Es gibt viele allgemeine Funktionen, die Ihnen helfen, Daten einfacher, schneller und präziser einzugeben. Die Grundprinzipien und erweiterten Funktionen für die Eingabe von Daten werden in diesem Artikel beschrieben.  
+Es gibt eine Vielzahl allgemeiner Funktionen, mit denen Sie Daten einfacher, schneller und genauer eingeben können. Die Grundprinzipien und erweiterten Funktionen für die Eingabe von Daten werden in diesem Artikel beschrieben.  
 
 Die Beispiele in diesen Artikel verwendet die Demodaten.
 
 ## <a name="working-with-editable-fields"></a>Mit bearbeitbaren Feldern arbeiten
-Felder in [!INCLUDE[prod_short](includes/prod_short.md)] können verschiedene bearbeitbare Daten enthalten, z. B. Text oder Währungsbeträge. Bearbeitbare Felder zeigen in der Regel ein Eingabefeld an, in das Sie einen Wert eingeben bzw. aus dem Sie einen Wert auswählen können. Nicht bearbeitbare Felder werden normalerweise mit einem grauem Hintergrund angezeigt.   
+Felder in [!INCLUDE[d365fin](includes/d365fin_md.md)] können verschiedene bearbeitbare Daten enthalten, z. B. Text oder Währungsbeträge. Bearbeitbare Felder zeigen in der Regel ein Eingabefeld an, in das Sie einen Wert eingeben bzw. aus dem Sie einen Wert auswählen können. Nicht bearbeitbare Felder werden normalerweise mit einem grauem Hintergrund angezeigt.   
 
 Einige bearbeitbare Felder bieten eine Auswahl, anhand derer Sie einen Wert festlegen können.  
 
@@ -36,6 +36,7 @@ Einige bearbeitbare Felder bieten eine Auswahl, anhand derer Sie einen Wert fest
 |Schalter oder Kontrollkästchen|Einige Felder bieten eine einfache Auswahl von *Ja*- oder *Nein*-Werten. Dieser Wert wird mit dem Schalter festgelegt und in Listen immer als Kontrollkästchen angezeigt.|
 |AssistEdit       |Einige Felder bieten benutzerdefinierte Auswahlfelder zum Suchen und Auswählen des besten Werts für dieses Feld, z. B. ein Popup-Fenster.|
 
+
 ### <a name="modifying-a-field-value"></a>Ändern eines Feldwerts
 
 Um den Wert eines Felds zu ändern, müssen Sie zuerst den Fokus auf dieses Feld legen. Führen Sie dazu die folgenden Aktionen aus:
@@ -43,7 +44,7 @@ Um den Wert eines Felds zu ändern, müssen Sie zuerst den Fokus auf dieses Feld
 - Verwenden Sie die **TAB**-Taste. Die Aktion wählt den gesamten Wert aus.
 - Klicken Sie mit der linken Maustaste oder einem ähnlichen Eingabegerät. Diese Aktion wählt nur den gesamten Feldwert aus, wenn sich das Feld in einer Liste befindet.  
 
-Wenn Sie mit Feldern in der Benutzeroberfläche interagieren, bevorzugt [!INCLUDE[prod_short](includes/prod_short.md)] in der Regel die Auswahl des gesamten Feldwerts, damit Sie diesen Wert leichter ersetzen können.
+Wenn Sie mit Feldern in der Benutzeroberfläche interagieren, bevorzugt [!INCLUDE[d365fin](includes/d365fin_md.md)] in der Regel die Auswahl des gesamten Feldwerts, damit Sie diesen Wert leichter ersetzen können.
 
 Gehen Sie wie folgt vor, wenn der gesamte Feldwert ausgewählt ist:
 - Ersetzen Sie den Wert einfach durch die Eingabe eines neuen Werts, um diesen festzulegen. Wenn das Feld eine Auswahl bietet, können Sie diese mit der Tastenkombination **Alt + Pfeil nach unten** aktivieren.
@@ -57,6 +58,7 @@ Wenn der Cursor am Ende des Feldwerts angezeigt wird:
 
 > [!NOTE]
 > Nachdem Sie einen Wert angegeben haben, überprüft Business Central dessen Gültigkeit erst, wenn Sie außerhalb des Felds klicken oder den Fokus auf ein anderes Element wie das nächste Feld legen.  
+
 
 ## <a name="keyboard-shortcuts"></a>Tastenkombinationen
 
@@ -83,7 +85,7 @@ Nachfolgend sind einige nützliche Informationen zur Anwendung der Schnelleingab
 - Sie ist für alle bearbeitbaren Felder verfügbar.
 - Sie funktioniert auch über Spalten und Zeilen hinweg.
 - Sie verhindert nicht den Zugriff auf andere Elemente einer Seite wie Aktionen. Auf diese Elemente kann noch mit TAB und UMSCHALT+TAB zugegriffen werden.  
-- Es ist nicht erforderlich, dass Inforegister erweitert werden, damit die Schnelleingabe funktioniert. Wenn sich das nächste Feld der Schnelleingabe in einem reduzierten Inforegister befindet, wird das Inforegister automatisch mit Fokus auf dem ausgewählten Feld erweitert. [!INCLUDE[prod_short](includes/prod_short.md)] erweitert das Inforegister automatisch beim nächsten Besuch der Seite.  
+- Es ist nicht erforderlich, dass Inforegister erweitert werden, damit die Schnelleingabe funktioniert. Wenn sich das nächste Feld der Schnelleingabe in einem reduzierten Inforegister befindet, wird das Inforegister automatisch mit Fokus auf dem ausgewählten Feld erweitert. [!INCLUDE[d365fin](includes/d365fin_md.md)] erweitert das Inforegister automatisch beim nächsten Besuch der Seite.  
 - Schnelleingabe funktioniert unabhängig davon, ob Felder erforderlich sind. Daher ist es vorteilhaft, sicherzustellen, dass erforderliche Felder in der Schnelleingabe enthalten sind.
 - Standardmäßig sind die meisten Felder automatisch im der Schnelleingabe enthalten. Daher wird die Aufgabe höchstwahrscheinlich zunächst darin bestehen, Felder aus der Schnelleingabe auszuschließen.
 
@@ -91,7 +93,7 @@ Nachfolgend sind einige nützliche Informationen zur Anwendung der Schnelleingab
 
 Verwenden Sie die Personalisierung, um die Schnelleingabe für Felder einzurichten.
 
-1. Starten Sie die Personalisierung, indem Sie das Symbol ![Einstellungen.](media/ui-experience/settings_icon_small.png "Einstellungssymbol für Rollencenter") Symbol und dann die Aktion **Personalisieren**.
+1. Beginnen Sie mit der Personalisierung, indem Sie das Symbol ![Einstellungen](media/ui-experience/settings_icon_small.png "Einstellungssymbol für Rollencenter") und dann die Aktion **Personalisieren** auswählen.
 2. Wählen Sie ein Feld aus, das Sie ändern möchten. Wählen Sie in Listen die entsprechende Spaltenüberschrift aus. Wählen Sie dann **In Schnelleingabe einschließen** oder **Von der Schnelleingabe ausschließen** aus.
 
 Weitere Informationen zur Personalisierung finden Sie unter [Personalisieren Ihres Arbeitsbereichs](ui-personalization-user.md).
@@ -118,7 +120,7 @@ Sie können eine oder mehrere Zeilen aus einer Liste oder einem einzelnen Feld a
 
 Um das Feld in einer Liste in der gleichen Spalte der Zeile darüber zu kopieren, und es in die aktuelle Zeile einzufügen, drücken Sie einfach F8.
 
-Weitere Informationen finden Sie unter [FAQ zum Kopieren und Einfügen](faq-copy-paste.yml).
+Weitere Informationen finden Sie unter [FAQ zum Kopieren und Einfügen](ui-copy-paste.md).
 
 ## <a name="filtering-line-items"></a>Filtern von Positionsartikel
 
@@ -134,9 +136,9 @@ Dies ist besonders hilfreich, wenn Sie mit großen Positionsartikellisten arbeit
 
 ### <a name="switching-the-focus-on-and-off"></a>Den Fokus zwischen An- und Ausschalten wechseln
 
-Um den Fokus auf die Elemente der Zeile zu setzen, wählen Sie eine beliebige Stelle im Teil der Zeile aus und wählen dann das Symbol ![Fokusmodus.](media/focus-mode.png "Fokusmodus-Symbol") in der oberen rechten Ecke, oder drücken Sie Strg+Umschalt+F12.
+Um sich auf Zeilenartikel zu konzentrieren, wählen irgendeine Stelle im Bereich des Zeilenartikelteils aus und wählen Sie dann das ![Fokusmodussymbol](media/focus-mode.png "Fokusmodus-Symbol") in der oberen rechten Ecke aus, oder drücken Sie STRG+UMSCHALT+F12.
 
-Um wieder in die normale Ansicht zu wechseln, wählen Sie ![Fokusmodus Symbol.](media/focus-mode.png "Fokusmodus-Symbol") oder drücken Sie erneut Strg+Umschalt+F12.
+Um zur Normalansicht zurückzukehren, wählen Sie das ![Fokusmodussymbol](media/focus-mode.png "Fokusmodus-Symbol") aus, oder drücken Sie STRG+UMSCHALT+F12 erneut.
 
 ## <a name="multitasking-across-multiple-pages"></a>Multitasking über mehrere Seiten
 
@@ -146,21 +148,21 @@ Sie können eine Karten- oder Dokumentseite in einem neuen Fenster öffnen. Wenn
 - Unterbrechungen der aktuellen Aufgabe verwalten, z. B. einen eingehenden Anruf annehmen
 - ein Fenster für eine laufende Aufgabe geöffnet lassen, während Sie eine andere Aufgabe in Fenstern starten oder abschließen
 
-Um die aktuelle Karte oder den aktuellen Beleg in einem neuen Fenster zu öffnen, wählen Sie ![Neues Fenster öffnen.](media/open-new-window-icon.png "Symbol „Neues Fenster öffnen“") in der oberen rechten Ecke, oder drücken Sie Alt+Umschalt+W.
+Um die aktuelle Karte oder den aktuellen Beleg in einem neuen Fenster zu öffnen, wählen Sie ![Neues Fenster öffnen](media/open-new-window-icon.png "Symbol „Neues Fenster öffnen“") öffnen in der oberen rechten Ecke, oder drücken Sie Alt + UMSCHALT+W.
 
 <!--
 When working on multiple tasks at a time or when managing interruptions to the current task, such as taking an incoming call, you can open a card or document page in a new window. This allows you to keep a window open for an ongoing task while you start or complete another task in one or more other windows.
 -->
-Um die aktuelle Karte oder den aktuellen Beleg in einem neuen Fenster zu öffnen, wählen Sie ![Neues Fenster öffnen.](media/open-new-window-icon.png "Symbol „Neues Fenster öffnen“") in der oberen rechten Ecke, oder drücken Sie Alt+Umschalt+W.
+Um die aktuelle Karte oder den aktuellen Beleg in einem neuen Fenster zu öffnen, wählen Sie ![Neues Fenster öffnen](media/open-new-window-icon.png "Symbol „Neues Fenster öffnen“") öffnen in der oberen rechten Ecke, oder drücken Sie Alt + UMSCHALT+W.
 
 > [!NOTE]
-> Wenn Sie andere Seiten von einer Karte oder einem Beleg öffnen, der in einem neuen Fenster geöffnet ist, werden diese Seiten in einem neuen Fenster geöffnet, auch wenn Sie nicht ![Neues Fenster öffnen.](media/open-new-window-icon.png "Symbol „Neues Fenster öffnen“") wählen.
+> Wenn Sie andere Seiten über eine Karte oder einen Beleg öffnen, die bzw. der in einem neuen Fenster geöffnet wird, werden diese Seiten auch dann in einem neuen Fenster geöffnet, wenn Sie ![Neues Fenster öffnen](media/open-new-window-icon.png "Symbol „Neues Fenster öffnen“") nicht auswählen.
 
 > [!NOTE]
 > Wenn Sie im Safari-Browser arbeiten, kann ein Popupblocker dazu führen, dass das neue Fenster nicht geöffnet wird. In diesem Fall geben Sie die Produkt-URL als zulässige Website an. Weitere Informationen finden Sie unter [Ändern Sie die Einstellungen in Safari](https://go.microsoft.com/fwlink/?LinkId=2102965).<br /><br />
-> Das Gleiche kann auch in anderen Browsern wie Firefox passieren. Weitere Informationen finden Sie unter [Popupblocker-Einstellungen in Firefox](https://go.microsoft.com/fwlink/?LinkId=2116400).  
+> Das Gleiche kann in anderen Browsern wie Firefox passieren. Weitere Informationen finden Sie unter [Popupblocker-Einstellungen in Firefox](https://go.microsoft.com/fwlink/?LinkId=2116400).  
 
-Eine andere Möglichkeit, Multitasking zu betreiben, besteht darin, die [!INCLUDE[prod_short](includes/prod_short.md)] auf zwei oder mehr Browser-Registerkarten zu öffnen. Wenn Sie dies tun, sollten Sie eine neue Registerkarte erstellen und dann die URL der ursprünglichen Registerkarte in die neue Registerkarte kopieren/einfügen. Dadurch wird eine neue Sitzung erstellt.   
+Eine andere Möglichkeit, Multitasking zu betreiben, besteht darin, die [!INCLUDE[d365fin](includes/d365fin_md.md)] auf zwei oder mehr Browser-Registerkarten zu öffnen. Wenn Sie dies tun, sollten Sie eine neue Registerkarte erstellen und dann die URL der ursprünglichen Registerkarte in die neue Registerkarte kopieren/einfügen. Dadurch wird eine neue Sitzung erstellt.   
 
 > [!NOTE]
 > Verwenden Sie nicht die Funktion **Duplizieren** des Browsers, um die neue Registerkarte zu erstellen, da dies dazu führen kann, dass Aktionen auf einer Registerkarte Aktionen auf anderen Registern blockieren, weil sie Teil derselben Sitzung sind.
@@ -201,7 +203,7 @@ Datums- und Uhrzeitwerte können in alle Felder eingegeben werden, die für Datu
 
 ### <a name="entering-dates"></a>Eingeben von Datumswerten
 
-Sie können entweder die Datenauswahl verwenden, um ein Datum aus einem Kalender auszuwählen, oder Sie können Daten manuell eingeben. Dieser Abschnitt bietet eine kurze Übersicht über die Dateneingabe. Weitere Informationen finden Sie unter [Arbeiten mit Datumsangaben und Uhrzeiten in Kalendern](ui-enter-date-ranges.md).
+Sie können entweder die Datumsauswahl verwenden, um ein Datum aus einem Kalender auszuwählen, oder Sie können Daten manuell eingeben. Dieser Abschnitt bietet eine kurze Übersicht über die Dateneingabe. Weitere Informationen finden Sie unter [Arbeiten mit Datumsangaben und Uhrzeiten in Kalendern](ui-enter-date-ranges.md).
 
 Für manuelle Eingabe von Datumsangaben können zwei-, vier-, sechs- oder achtstellige Werte eingegeben werden:  
 
@@ -240,9 +242,34 @@ In der folgenden Tabelle finden Sie eine Übersicht über die Möglichkeiten zum
 
  Wird kein Trennzeichen verwendet, müssen für jede Zeiteinheit zwei Zeichen eingegeben werden.  
 
-## <a name="entering-combined-datetimes"></a>Eingeben kombinierter Datums‑ und Zeitangaben
+## <a name="entering-datetimes"></a>Eingeben von Datums-/Uhrzeitangaben
 
-[!INCLUDE [datetimes](includes/datetimes.md)]
+Beim Eingeben einer Datums-/Uhrzeitangabe muss zwischen dem Datum und der Zeiteingabe ein Leerzeichen eingefügt werden.  
+
+In der folgenden Tabelle finden Sie eine Übersicht über die Möglichkeiten zum Eingeben von Datums-/Uhrzeitangaben sowie die Interpretation der jeweiligen Angabe.  
+
+|Eingabe|Interpretation|  
+|---------------|------------------------|  
+|`131202` 132455|13.12.2002 13:24:55|  
+|1-12-02 10|01.12.2002 10:00:00|  
+|1.12.02 5|01.12.2002 05:00:00|  
+|1.12.02|01.12.2002 00:00:00|  
+|11 12|11.aktueller Monat.aktuelles Jahr 12:00:00|  
+|1112 12|11.12.aktuelles Jahr 12:00:00|  
+|"h" für heute|heutiges Datum 00:00:00|  
+|Z… Zeit|heutiges Datum aktuelle Zeit|  
+|h 10:30|heutiges Datum 10:30:00|  
+|h 3:3:3|heutiges Datum 03:03:03|  
+|"a" oder "Arbeitsdatum"|das Arbeitsdatum 00:00:00|  
+|"mo" oder "Montag"|Montag der aktuellen Woche 00:00:00|  
+|"di" oder "Dienstag"|Dienstag der aktuellen Woche 00:00:00|  
+|"mi" oder "Mittwoch"|Mittwoch der aktuellen Woche 00:00:00|  
+|"do" oder "Donnerstag"|Donnerstag der aktuellen Woche 00:00:00|  
+|"fr" oder "Freitag"|Freitag der aktuellen Woche 00:00:00|  
+|"s" oder "Sonnabend"|Samstag der aktuellen Woche 00:00:00|  
+|"so" oder "Sonntag"|Sonntag der aktuellen Woche 00:00:00|  
+|di 10:30|Dienstag der aktuellen Woche 10:30:00|  
+|di 3:3:3|Dienstag der aktuellen Woche 03:03:03|  
 
 ## <a name="entering-duration"></a>Eingeben von Terminen
 
@@ -265,16 +292,6 @@ Hier folgen einige Beispiele.
 
  Die Zahl 5 wird in 5 Std. konvertiert, wenn Stunden als Einheit angegeben wurden.  
 
-## <a name="setting-the-decimal-separator-used-by-numeric-keyboards"></a><a name="decimal"></a>Festlegen des Dezimaltrennzeichens, das von numerischen Tastaturen verwendet wird
-
-Wenn Sie bei der Eingabe von Daten die Dezimaltrennzeichen-Taste der numerischen Tastatur verwenden, wird das tatsächliche Dezimaltrennzeichen, das in das Feld eingegeben wird, durch die Regionseinstellung Ihres Business Central bestimmt. Sie legen die Region in Business Central auf der Seite **Meine Einstellungen** fest.
-
-Nehmen wir zum Beispiel an, Sie verwenden eine numerische Tastatur, die einen Punkt (.) als Dezimaltrennzeichen verwendet. Sie geben aber Daten für eine regionale Sprache ein, die ein Komma (**,**) als Dezimaltrennzeichen verwendet, wie z.B. Dänisch (Dänemark) oder Französisch (Frankreich). Sie möchten also, dass Dezimalzahlen wie „1.23“ als „1,23“ eingegeben werden. In diesem Fall können Sie auf die Seite **Meine Einstellungen** gehen und die **Region** auf die regionale Zielsprache festlegen, wie **Dänisch (Dänemark)** oder **Französisch (Frankreich)**. Weitere Informationen finden Sie unter [Grundeinstellungen ändern](ui-change-basic-settings.md#region).
-
-## <a name="see-also"></a>Weitere Informationen
-
-[Sortieren, Durchsuchen und Filtern von Listen](ui-enter-criteria-filters.md)  
-[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+## <a name="see-also"></a>Siehe auch  
+ [Sortieren, Durchsuchen und Filtern von Listen](ui-enter-criteria-filters.md)  
+ [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

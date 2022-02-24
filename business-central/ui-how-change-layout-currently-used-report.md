@@ -1,25 +1,25 @@
 ---
-title: Ändern Sie das Aussehen eines Berichts durch Auswahl eines anderen Layouts
+title: Ändern Sie die Art, wie Berichte dargestellt werden, indem Sie ein anderes Layout auswählen| Microsoft Docs
 description: Sie können unterschiedliche Layouts für einen Bericht auswählen und zwischen Layouts wechseln, um das Aussehen des Berichts zu ändern.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.search.form: 9652, 9650
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: a5115407dd7cfbb8760a5749432ca6fc37f9f933
-ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
+ms.date: 01/13/2020
+ms.author: sgroespe
+ms.openlocfilehash: b6c11e58694e68918ab5f4d5bd48bd7a43beb8f1
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/08/2022
-ms.locfileid: "8101081"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953251"
 ---
 # <a name="change-the-current-report-layout"></a>Ändern Sie das aktuelle Berichtslayout
-
 Ein Bericht kann mit mehreren Berichtlayouts eingerichtet werden, die bei Bedarf ausgewechselt werden können.
 
 Abhängig von den Layouts, die für einen Bericht verfügbar sind, können Sie ein integriertes RDLC-Berichtlayout, ein integriertes Word-Berichtlayout oder ein Debitorenspezifisches Layout verwenden. Weitere Informationen zu RDLC- und Word-Berichtlayouts, integrierten und benutzerdefinierten Layouts und mehr finden Sie unter [Verwalten von Berichtslayouts](ui-manage-report-layouts.md).
@@ -30,8 +30,7 @@ Wenn benutzerdefinierte Berichtslayouts definiert sind, können Sie diese aus De
 > Belegberichte (keine Listen), die ein Word-Berichtslayout verwenden, sind normalerweise schneller als diejenigen, die ein RDLC-Berichtslayout verwenden. Wenn Sie also die Möglichkeit haben, zwischen einem Word- oder einem RDLC-Berichtslayout für einen Belegbericht zu wählen, verwenden Sie das Word-Berichtslayout für optimale Leistung.
 
 ## <a name="to-change-which-report-layout-to-use-for-a-report-or-document"></a>So ändern Sie das für einen Bericht oder einen Beleg zu verwendende Berichtslayout
-
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Auswahl des Berichtslayouts** ein und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Berichtslayoutauswahl** ein, und wählen Sie dann den zugehörigen Link.  
    Auf der Seite **Berichtslayoutauswahl** sind alle Berichte aufgelistet, die für das Unternehmen verfügbar sind, das im Feld **Unternehmen** obern auf der Seite angegeben ist. Das Feld **Ausgewähltes Layout** gibt das Layout an, das momentan in dem Bericht verwendet wird.
 2. Legen Sie das Feld **Unternehmen** oben auf der Seite auf das Unternehmen fest, das den Bericht umfasst.
 3. Um das Layout, das von einem Bericht verwendet wird, zu ändern, legen Sie in der Zeile für den Bericht das Feld **Ausgewähltes Layout** auf eine der folgenden Optionen fest:
@@ -60,7 +59,4 @@ Sie können jetzt zu Ihren Debitoren- und Kreditorenkarten wechseln, um anzugebe
 
 ## <a name="see-also"></a>Siehe auch
 [Verwalten von Berichtslayouts](ui-manage-report-layouts.md)  
-[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

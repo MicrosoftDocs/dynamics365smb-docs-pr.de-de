@@ -1,45 +1,44 @@
 ---
-title: Info zu Fertigungsaufträgen
-description: Erfahren Sie mehr über Produktionsaufträge und wie diese zur Verwaltung der Umwandlung von gekauften Materialien in gefertigte Artikel verwendet werden.
+title: Info zu Fertigungsaufträgen | Microsoft Docs
+description: Fertigungsaufträge werden dazu verwendet, die Umwandlung von Einkaufsmaterialien in Produktionsartikel zu verwalten. Fertigungsaufträge (Arbeits- oder Werkaufträge) leiten Arbeit durch verschiedene Einrichtungen (Arbeitsplätze oder Arbeitsplatzgruppen) im Fertigungsbereich.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 99000813, 99000814, 99000815, 99000816, 99000829, 99000830, 99000831, 99000832, 99000833, 99000838, 99000839, 99000867, 99000868, 99000882, 99000897, 99000898, 99000900, 99000912, 99000913, 99000914, 99000917
-ms.date: 06/22/2021
-ms.author: edupont
-ms.openlocfilehash: 6a72c3ae54138d2d67f4fdd2025d385c35b92af2
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.search.keywords: ''
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 316d8e05960b6f0581e4789a2b097d966e4dd2b6
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7972408"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878119"
 ---
 # <a name="about-production-orders"></a>Info zu Fertigungsaufträgen
-
 Fertigungsaufträge werden dazu verwendet, die Umwandlung von Einkaufsmaterialien in Produktionsartikel zu verwalten. Fertigungsaufträge (Arbeits- oder Werkaufträge) leiten Arbeit durch verschiedene Einrichtungen (Arbeitsplätze oder Arbeitsplatzgruppen) im Fertigungsbereich.  
 
 Bevor sie mit der Produktion fortfahren, führen die meisten Unternehmen eine Beschaffungsplanung aus, in der Regel einmal wöchentlich, um zu berechnen wie viele Fertigungsaufträge und Einkaufsbestellungen auszuführen sind, um den Verkaufsbedarf diese Woche zu erfüllen. Einkaufsbestellungen liefern die Komponenten, die nach der Fertigungsstückliste erforderlich sind, um die Endartikel zu fertigen.
 
 Fertigungsaufträge sind die zentralen Komponenten der Fertigungsfunktionen der Anwendung und enthält die folgenden Informationen:  
 
-- Produkte, die für die Fertigung geplant sind  
-- Materialien, die für die geplanten Fertigungsaufträge erforderlich sind  
-- Produkte, die soeben gefertigt wurden  
-- Materialien, die bereits ausgewählt wurden  
-- Produkte, die früher gefertigt wurden  
-- Materialien, die in früheren Fertigungsvorgängen verwendet wurden  
+-   Produkte, die für die Fertigung geplant sind  
+-   Materialien, die für die geplanten Fertigungsaufträge erforderlich sind  
+-   Produkte, die soeben gefertigt wurden  
+-   Materialien, die bereits ausgewählt wurden  
+-   Produkte, die früher gefertigt wurden  
+-   Materialien, die in früheren Fertigungsvorgängen verwendet wurden  
 
 Fertigungsaufträge sind die Ausgangspunkte für:  
 
-- Planen der zukünftigen Fertigung  
-- Überwachen der aktuellen Fertigung  
-- Verfolgen der abgeschlossenen Fertigung  
+-   Planen der zukünftigen Fertigung  
+-   Überwachen der aktuellen Fertigung  
+-   Verfolgen der abgeschlossenen Fertigung  
 
 ## <a name="production-order-creation"></a>Fertigungsauftrag erstellen  
-Fertigungsaufträge können auftragsweise manuell aus den Seiten **Fertigungsauftrag**, **Verkaufsauftragsplanung** und/oder **Auftragsplanung** erstellt werden. Mehrere Aufträge werden aus der Seite **Planungsarbeitsblatt** erstellt.  
+Fertigungsaufträge können auftragsweise manuell aus den Seiten **Fertigungsauftrag**, **Verkaufsauftragsplanung** und/oder **Auftragsplanung** erstellt werden. Mehrere Aufträge werden aus der Seite **Planungsvorschlag** erstellt.  
 
 Für die Erstellung eines Fertigungsauftrags werden Informationen aus folgenden Quellen verwendet:  
 
@@ -50,19 +49,19 @@ Für die Erstellung eines Fertigungsauftrags werden Informationen aus folgenden 
 - Arbeitsplatzgruppen  
 
 ## <a name="limitations-on-production-order-creation"></a>Einschränkungen für das Erstellen von Fertigungsaufträgen  
-Ein Fertigungsauftrag wird in folgenden Fällen automatisch reserviert und zu seinem Ursprung verfolgt:  
+Ein Fertigungsauftrag wird automatisch reserviert und zu seinem Ursprung verfolgt, wenn:  
 
-- Erstellung aus dem **[Planungsarbeitsblatt](production-how-to-run-mps-and-mrp.md)**  
-- Erstellung auf der Seite **[Verkaufsuftragsplanung](production-how-to-create-production-orders-from-sales-orders.md)**  
-- Erstellung auf der Seite **[Auftragsplanung](production-how-to-plan-for-new-demand.md)**  
-- Erstellung mit der Funktion **[Neu planen](production-how-to-replan-refresh-production-orders.md)** für Fertigungsaufträge  
+-   Er aus dem **Planungsvorschlag** erstellt wurde  
+-   Wurde mit der Auftragsfunktion auf der Seite **Verkaufsauftragsplanung** erstellt  
+-   Wurde aus der Seite **Auftragsplanung** erstellt  
+-   Die Funktion **Neu planen** für Fertigungsaufträge verwendet wird  
 
 Weitere Informationen finden Sie unter [Titel-Beziehungen zwischen Bedarf und Vorrat nachverfolgen](production-how-track-demand-supply.md).
 
 Fertigungsaufträge, die auf andere Weise erstellt wurden, werden nicht automatisch reserviert und verfolgt.   
 
 ## <a name="production-order-status"></a>Fertigungsauftragsstatus (FA-Status)  
-Über den Fertigungsauftragsstatus wird gesteuert, wie sich der Fertigungsauftrag in der Anwendung sich verhält. Form und Inhalt der Produktion werden durch den Status des Auftrags festgelegt. Je nach Status werden die Fertigungsaufträge auf verschiedenen Seiten angezeigt. Sie können den Status eines Fertigungsauftrags nicht manuell ändern. Sie müssen die Funktion **Status ändern** im einzelnen Fertigungsauftrag oder im Fenster **Fertigungsauftragsstatus ändern** verwenden.  
+Über den Fertigungsauftragsstatus wird gesteuert, wie sich der Fertigungsauftrag in der Anwendung sich verhält. Form und Inhalt der Produktion werden durch den Status des Auftrags festgelegt. Je nach Status werden die Fertigungsaufträge auf verschiedenen Seiten angezeigt. Sie können den Status eines Fertigungsauftrags nicht manuell ändern; Sie müssen die Funktion **Status ändern** verwenden.  
 
 ### <a name="simulated-production-order"></a>Simulierter Fertigungsauftrag  
 Ein simulierter Fertigungsauftrag zeichnet sich durch folgende Eigenschaften aus:  
@@ -111,16 +110,16 @@ Sobald ein Fertigungsauftrag erstellt und geplant worden ist, muss er für den F
 - Die Zeit, die für das Abarbeiten des Auftrags benötigt wurde  
 - Die Menge des gefertigten übergeordneten Artikels  
 
-Diese Informationen können manuell oder über automatische Berichterstellung erfasst werden, entsprechend der Einrichtung im Feld „Buchungsmethode“ des Artikels und der Arbeitsplatzgruppe.  
+Diese Informationen können manuell oder über automatische Berichterstellung erfasst werden, entsprechend der Artikeleinrichtung im Feld .  
 
 ### <a name="material-consumption"></a>Materialverbrauch  
 Die Anwendung bietet verschiedene Optionen, wie ein Produktionsbetrieb den Materialverbrauch erfassen kann. Beispielsweise kann es vorteilhaft sein, den Materialverbrauch manuell zu erfassen, weil häufig Komponenten ersetzt werden oder der Ausschuss größer ist als erwartet.  
 
-Der Verbrauch von Materialien kann über das [FA-Verbrauchs Buch.-Blatt](production-how-to-post-consumption.md) verarbeitet werden, kann aber auch automatisch durch die Anwendung erfasst werden, was als automatische Berichterstellung (Buchung) bezeichnet wird. Es gibt folgende Berichterstellungsmethoden:  
+Der Verbrauch von Materialien kann über das FA-Verbrauchs Buch.-Blatt verarbeitet werden, kann aber auch automatisch durch die Anwendung erfasst werden (wird als automatische Berichterstellung bezeichnet). Es gibt folgende Berichterstellungsmethoden:  
 
-- Manuell  
-- Vorwärts  
-- Rückwärts  
+-   Manuell  
+-   Vorwärts  
+-   Rückwärts  
 
 Die manuelle Verbrauchsberichterstellung verwendet "FA-Verbrauchs Buch.-Blatt", um die Materialkommissionierung anzugeben.  
 
@@ -131,14 +130,62 @@ Bei der Verbrauchsberichterstellung vom Typ "Vorwärts" wird davon ausgegangen, 
 
 Bei der Verbrauchsberichterstellung vom Typ "Rückwärts" werden die tatsächlichen Mengen aller kommissionierten oder verbrauchten Materialien erfasst, sobald sich der Status eines Fertigungsauftrags in *Beendet* geändert hat und sofern keine Verbindungscodes verwendet werden. Bei Verwendung von Verbindungscodes werden die Materialien verbraucht, nachdem eine Menge des übergeordneten Artikels für den Fertigungsschritt im "FA-Istmeldungs Buch.-Blatt" erfasst wurde.  
 
-Wird der Fertigungsauftrag aktualisiert, wird die Buchungsmethode von der Artikelkarte kopiert. Da die Buchungsmethode für jede Komponente eines Fertigungsauftrags steuert, wie und wann der Verbrauch erfasst wird, sollten Sie wissen, dass Sie die Buchungsmethode für bestimmte Artikel direkt auf dem "Fertigungsauftrag" ändern können. 
+Wird der Fertigungsauftrag aktualisiert, wird die Buchungsmethode von der Artikelkarte kopiert. Da die Buchungsmethode für jede Komponente eines Fertigungsauftrags steuert, wie und wann der Verbrauch erfasst wird, sollten Sie wissen, dass Sie die Buchungsmethode für bestimmte Artikel direkt auf dem "Fertigungsauftrag" ändern können.  
 
-Weitere Informationen finden Sie unter [Komponenten entsprechend dem Arbeitsgangs-Ausstoß leeren](production-how-to-flush-components-according-to-operation-output.md).
+#### <a name="automatic-consumption-posting-flushing"></a>Automatisches Buchen des Verbrauchs  
+Der Vorteil der automatischen Buchung besteht darin, dass sie die Dateneingabe erheblich verringert. Durch die Möglichkeit, einen Arbeitsgang automatisch zu buchen, kann der gesamte Erfassungsprozess für Verbrauch und fertige Artikel automatisiert werden. Der Nachteil des automatischen Buchens besteht darin, dass Ausschuss möglicherweise nicht richtig oder sogar gar nicht erfasst wird. Die Methoden zur automatischen Berichterstellung:  
+
+- "Vorwärts"-Buchen des gesamten Auftrags  
+- "Vorwärts"-Buchen pro Arbeitsgang  
+- "Rückwärts"-Buchen pro Arbeitsgang  
+- "Rückwärts"-Buchen des gesamten Auftrags  
+
+#### <a name="automatic-reporting---forward-flush-the-entire-order"></a>Automatisches Berichtswesen - "Vorwärts"-Buchen des gesamten Auftrags  
+Wenn Sie den Fertigungsauftrag zu Beginn des Projekts mit der Methode "Vorwärts" buchen, verhält sich die Anwendung ähnlich wie bei einem manuellen Verbrauch. Der Hauptunterschied besteht darin, dass der Verbrauch automatisch auftritt.  
+
+- Der gesamte Inhalt der Fertigungsstückliste wird zu dem Zeitpunkt verbraucht und dem Lagerbestand entnommen, zu dem der freigegebene Fertigungsauftrag aktualisiert wird.  
+- Die Verbrauchsmenge entspricht der Menge pro Stück, die in der Fertigungsstückliste angegeben ist, multipliziert mit der Anzahl der übergeordneten Artikel, die gefertigt werden.  
+- Es ist nicht erforderlich, irgendwelche Informationen im FA-Verbrauchs Buch.-Blatt zu erfassen, wenn für alle Artikel festgelegt ist, dass sie gebucht werden müssen.  
+- Wenn Artikel aus dem Lagerbestand verbraucht werden, spielt es keine Rolle, wann die Einträge in das FA-Istmeldungs Buch.-Blatt vorgenommen werden, weil sich das FA-Istmeldungs Buch.-Blatt nicht auf diesen Modus des Buchens des Verbrauchs auswirkt.  
+- Es können keine Verbindungscodes festgelegt werden.  
+
+Das "Vorwärts"-Buchen eines gesamten Auftrags ist für Fertigungsumgebungen mit folgenden Eigenschaften geeignet:  
+
+-   Es gibt nur wenige Defekte.  
+-   Es gibt nur wenige Arbeitsgänge.  
+-   Es gibt einen hohen Komponentenverbrauch in frühen Arbeitsgängen.  
+
+#### <a name="automatic-reporting---forward-flushing-by-operation"></a>Automatisches Berichtswesen - "Vorwärts"-Buchen pro Arbeitsgang  
+Buchen pro Arbeitsgang versetzt Sie in die Lage, den Lagerbestand zu aktualisieren, während ein bestimmter Arbeitsgang aus dem Arbeitsplan des übergeordneten Artikels ausgeführt wird. Die Materialien sind mit dem Arbeitsplan über Verbindungscodes verknüpft, die den Verbindungscodes entsprechen, die auf Komponenten in der Fertigungsstückliste angewendet werden.  
+
+Die Buchung erfolgt, wenn der Arbeitsgang gestartet wurde, der denselben Verbindungscode hat. Gestartet bedeutet, dass mindestens eine Aktivität im FA-Istmeldungs Buch.-Blatt des Arbeitsgangs erfasst wurde. Diese Aktivität kann z. B. lediglich darin bestehen, dass eine Rüstzeit eingegeben wird.  
+
+Die Mengenangabe für die Buchung ergibt sich aus der Menge pro Stück, die in der Fertigungsstückliste angegeben ist, multipliziert mit der Anzahl der übergeordneten Artikel, die gefertigt werden (erwartete Menge).  
+
+Diese Methode ist am besten geeignet, wenn es viele Arbeitsgänge gibt und bestimmte Komponenten erst spät im Fertigungsablauf benötigt werden. Tatsächlich kann es sein, dass bei einer JIT-Einrichtung (Just-in-Time) die Artikel noch nicht einmal verfügbar sind, wenn die Neuplanung des Fertigungsauftrags gestartet wird.  
+
+Materialien können im Verlauf von Arbeitsgängen verbraucht werden, indem Verbindungscodes verwendet werden. Einige Komponenten werden möglicherweise erst bei den Endmontagearbeitsgängen benötigt und sollten bis dahin nicht aus dem Lager entnommen werden.  
+
+#### <a name="automatic-reporting---back-flushing-by-operation"></a>Automatisches Berichtswesen - "Rückwärts"-Buchen pro Arbeitsgang  
+Beim "Rückwärts"-Buchen pro Arbeitsgang wird der Verbrauch erfasst, nachdem der Arbeitsgang im FA-Istmeldungs Buch.-Blatt gebucht wurde.  
+
+Der Vorteil dieser Methode liegt darin, dass die Anzahl der übergeordneten Teile, die im Arbeitsgang fertig gestellt wurden, bekannt ist.  
+
+Material in der Fertigungsstückliste ist über Verbindungscodes mit den Arbeitsplandatensätzen verbunden. Die "Rückwärts"-Buchung erfolgt, wenn ein Arbeitsgang mit einem bestimmten Verbindungscode zusammen mit einem fertigen Teil gebucht wird.  
+
+Die Mengenangabe für die Buchung ergibt sich aus der Menge pro Stück, die in der Fertigungsstückliste angegeben ist, multipliziert mit der Zahl der übergeordneten Artikel, die für diesen Arbeitsgang als fertig gestellte Menge gebucht wurden. Diese Mengenangabe kann von der erwarteten Menge unterscheiden.  
+
+#### <a name="automatic-reporting---back-flushing-the-entire-order"></a>Automatisches Berichtswesen - "Rückwärts"-Buchen des gesamten Auftrags  
+Bei dieser Berichterstellungsmethode werden keine Verbindungscodes berücksichtigt.  
+
+Komponenten werden erst entnommen, wenn sich der Status des freigegebenen Fertigungsauftrags in *Beendet* geändert hat. Die Mengenangabe für die Buchung ergibt sich aus der Menge pro Stück, die in der Fertigungsstückliste angegeben ist, multipliziert mit der Zahl der übergeordneten Artikel, die fertig gestellt und in den Lagerbestand übernommen wurden.  
+
+Soll ein gesamter Fertigungsauftrag nach der Methode "Rückwärts" gebucht werden, ist die gleiche Einrichtung wie für die Buchungsmethode "Vorwärts" erforderlich: Die Berichterstellungsmethode muss auf jeder Artikelkarte auf "Rückwärts" festgelegt sein, damit alle Artikel in der übergeordneten Stückliste bei der Berichterstellung berücksichtigt werden. Außerdem müssen alle Verbindungscodes aus der Produktionsstückliste entfernt worden sein.  
 
 ### <a name="production-output"></a>Fertig produzierte Artikel (Istmeldungen)  
 Die Anwendung gibt Ihnen die Möglichkeit nachzuverfolgen, wie viel Zeit für das Abarbeiten eines Fertigungsauftrags benötigt wurde, zusätzlich zur Aufzeichnung der produzierten Menge. Mit diesen Informationen können Sie die Fertigungskosten genauer bestimmen. Außerdem kann es sein, dass Hersteller, die ein standardmäßiges Kostenrechnungssystem verwenden, die tatsächlichen Informationen erfassen möchten, damit sie genauere Standards entwickeln können.  
 
-Die Istmeldung kann über das [FA-Istmeldungs Buch.-Blatt](production-how-to-post-output-quantity.md) verarbeitet, jedoch auch automatisch erfasst werden. Beim Berechnen kopiert die Anwendung die Buchungsmethode von der Arbeitsplatz- oder Arbeitsplatzgruppenkarte in den FA-Arbeitsplan kopiert. Wie beim Materialverbrauch gibt es auch für Istmeldungen drei Berichterstellungsmethoden:  
+Die Istmeldung kann über das FA-Istmeldungs Buch.-Blatt verarbeitet, können aber auch automatisch erfasst werden. Beim Berechnen kopiert die Anwendung die Buchungsmethode von der Arbeitsplatz- oder Arbeitsplatzgruppenkarte in den FA-Arbeitsplan kopiert. Wie beim Materialverbrauch gibt es auch für Istmeldungen drei Berichterstellungsmethoden:  
 
 - Manuell  
 - Vorwärts  
@@ -156,7 +203,7 @@ Sie können sowohl für Verbrauch als auch für Istmeldungen beliebige Kombinati
 Wenn Sie Verbrauch und Istmeldungen manuell eingeben, müssen Sie die Reihenfolge festlegen, in der diese Informationen erfasst werden sollen. Sie können den Verbrauch zuerst erfassen und zum Eingeben der Istmeldungen eine Schnellmethode verwenden, die auf der erwarteten Menge für die Istmeldungen basiert. Sie können aber auch zuerst die Istmeldungen mit der Funktion **Arbeitsplan auflösen** eingeben. Anschließend müssen Sie den Verbrauch anhand der tatsächlichen Mengen der Istmeldungen erfassen.  
 
 ### <a name="production-journal"></a>Produktions Buch.-Blatt  
-Im [Produktions Buch.-Blatt](production-how-to-register-consumption-and-output.md) werden die Funktionen des FA-Verbrauchs Buch.-Blatts und des FA-Istmeldungs Buch.-Blatts in einem Buchungsblatt kombiniert, auf das direkt vom freigegebenen Fertigungsauftrag aus zugegriffen werden kann.  
+Im Produktions Buch.-Blatt werden die Funktionen des FA-Verbrauchs Buch.-Blatts und des FA-Istmeldungs Buch.-Blatts in einem Buchungsblatt kombiniert, auf das direkt vom freigegebenen Fertigungsauftrag aus zugegriffen werden kann.  
 
 Der Sinn des Produktions Buch.-Blatt besteht darin, eine einzelne Oberfläche bereitzustellen, über die Sie den Verbrauch und die Istmeldungen eines Fertigungsauftrags erfassen können.  
 
@@ -182,12 +229,9 @@ In den folgende Punkten unterscheidet sich das Produktions Buch.-Blatt aber vom 
 Im Produktions Buch.-Blatt werden Verbrauchsmengen als negative Artikelposten, fertig gestellte Mengen als positive Posten und benötigte Zeiten als Kapazitätsposten gebucht.  
 
 ## <a name="see-also"></a>Siehe auch
-[Produktion](production-manage-manufacturing.md)
+[Produktion](production-manage-manufacturing.md)    
 [Produktion einrichten](production-configure-production-processes.md)  
-[Planung](production-planning.md)  
+[Planung](production-planning.md)      
 [Lagerbestand](inventory-manage-inventory.md)  
 [Einkauf](purchasing-manage-purchasing.md)  
-[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

@@ -1,24 +1,23 @@
 ---
-title: MwSt.-Berichterstattung in der deutschen Version
-description: MwSt.-Berichte können in der deutschen Version elektronisch an Steuerbehörden übermittelt werden.
+title: MwSt.-Abrechnung
+description: MwSt.-Erklärungen können elektronisch übermittelt werden.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: 9c76e53a5f4619984c3583a3b679ae80e63d0f2d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: ca9c92ad8f59cfdec5987b602d58ca105c3d638f
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780213"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181151"
 ---
-# <a name="vat-reporting-in-the-german-version"></a>MwSt.-Berichterstattung in der deutschen Version
-
+# <a name="vat-reporting"></a>MwSt.-Abrechnung
 Sie können dann das VAT-Dokument an die Schnittstelle des Onlineportals „Elektronische Steuererklärungen (ELSTER)“ der deutschen Finanzämter übermitteln. Sie können eine MwSt-Erklärung als XML-Datei generieren und exportieren und dann direkt an das ELSTER-Portal senden. Weitere Informationen finden Sie unter [Gewusst wie: Einrichten von Umsatzsteuervoranmeldungen](how-to-set-up-and-export-sales-vat-advance-notifications.md).  
 
 Folgende lokale MwSt.-Erklärungen können gedruckt werden:  
@@ -33,7 +32,4 @@ Folgende lokale MwSt.-Erklärungen können gedruckt werden:
 [Umsatzsteuervoranmeldungen](how-to-set-up-and-export-sales-vat-advance-notifications.md)  
 [Melden von MwSt. an die Steuerbehörden](../../finance-how-report-vat.md)  
 [Arbeiten mit MwSt im Verkauf und Einkauf](../../finance-work-with-vat.md)  
-[Richten Sie Berichte für MwSt ein](how-to-set-up-reports-for-vat-and-intrastat.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+[Richten Sie Berichte für MwSt ein.](how-to-set-up-reports-for-vat-and-intrastat.md)

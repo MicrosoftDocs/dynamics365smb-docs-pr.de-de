@@ -1,63 +1,54 @@
 ---
-title: Versenden von Artikeln
-description: In diesem Thema wird beschrieben, wie Sie Artikel aus Ihrem Lager abhängig von Ihrer Lagerkonfiguration für die Versandverarbeitung versenden können.
+title: "So geht's: Artikel versenden | Microsoft Docs"
+description: Abhängig von Ihrer Lagerkonfiguration können Sie entweder Lieferung im zugehörigen ausgehenden Geschäftsdokument, wie einem Verkaufsauftrag, direkt buchen, oder Sie können einen der Warenausgangsbelege verwenden, die einen Workflow berücksichtigen und in verschiedene Lageraktivitäten integriert werden.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 7335, 7337, 7339, 7340, 7341, 7362
-ms.date: 06/24/2021
-ms.author: edupont
-ms.openlocfilehash: 941cc8b8ffeb22cc5cf14f400fd25bfc9479e66a
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.search.keywords: ''
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 950e471b635c6b188ef6bc0e0a08331df47c86bf
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7970820"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3193299"
 ---
 # <a name="ship-items"></a>Versenden von Artikeln
-
 Wenn Sie Artikel von einem Lager liefern, das nicht für die Bearbeitung des Warenausgangs eingerichtet wurde, können Sie den Warenausgang einfach im zugehörigen Geschäftsdokument, wie einer Verkaufsauftrag, einer Serviceauftrag, eine Einkaufsreklamation oder ein ausgehender Umlagerungsauftrag, erfassen.
 
-Wenn Sie Artikel aus einem Lager versenden, das für die Verarbeitung von Warensendungen festgelegt ist, können Sie nur Artikel auf der Basis von Quellbelegen versenden, die andere Einheiten der Firma zur Aktion an das Lager freigegeben haben.
+Wenn Sie Artikel aus einem Lagerort liefern, der so eingerichtet wurde, dass die Bearbeitung des Warenausgangs erforderlich ist, können Sie den Warenausgang nur auf der Basis von Herkunftsbelegen erfassen, die andere Abteilungen Ihres Unternehmens für die Bearbeitung freigegeben haben.
 
 > [!NOTE]
 > Wenn Ihr Lager Crossdocking und Lagerplätze benutzt, können Sie für jede Zeile die Menge an Artikeln sehen, die in die Zuordnungslagerplätze eingelagert wurde. Die Anwendung berechnet dann diese Mengen automatisch, wenn die Felder im Warenausgang aktualisiert werden. Wenn dies die Mengen sind, die zu dem Warenausgang passen, den Sie gerade vorbereiten, können Sie eine Kommissionierung für alle Zeilen erstellen und dann den Warenausgang vervollständigen. Weitere Informationen finden Sie unter [Zuordnen von Artikeln](warehouse-how-to-cross-dock-items.md).
 
 ## <a name="to-ship-items-with-a-sales-order"></a>So liefern Sie Artikel mit einem Verkaufsauftrag
-
-Nachfolgend wird erläutert, wie Artikel aus einem Verkaufsauftrag geliefert werden. Die Schritte für Einkaufsreklamationen, Serviceaufträge und ausgehende Umlagerungsaufträge sind ähnlich.  
-
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Verkaufsaufträge** ein, und wählen Sie dann den zugehörigen Link.
+Nachfolgend wird erläutert, wie Artikel mit einer Bestellung empfangen werden. Die Schritte für Einkaufsreklamationen, Serviceaufträge und ausgehende Umlagerungsaufträge sind ähnlich.  
+1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Tell Me-Funktion") Symbol öffnet, geben Sie **Verkaufsaufträge** ein und wählen Sie dann den entsprechenden Link.
 2. Öffnen Sie einen Auftrag oder erstellen Sie einen neuen. Weitere Informationen finden Sie unter [Produkte verkaufen](sales-how-sell-products.md)
-3. Geben Sie in dem Feld **Zu liefern** die gelieferte Menge an.
+3. Geben Sie in dem Feld **Zu liefern** die empfangene Menge an.
 
     Der Wert im Feld **Menge geliefert** wird aktualisiert. Wenn dieses eine Teillieferung ist, ist der Wert niedriger als der Wert im Feld **Menge**.
-4. Wählen Sie die Aktion **Buchen**.
-
-> [!NOTE]
-> Wenn Ihre Organisation keine Verkaufsaufträge verwendet, setzt [!INCLUDE [prod_short](includes/prod_short.md)] voraus, dass Sie die vollständige Menge versendet haben, wenn Sie die Verkaufsrechnung buchen. Wenn dies im Widerspruch zur Funktionsweise Ihrer Organisation steht, empfehlen wir Ihnen, Verkaufsaufträge zu verwenden und Sendungen zu registrieren, wie in diesem Artikel erläutert.
+4. Wählen Sie die Aktion **Buchen** aus.
 
 ## <a name="to-ship-items-with-a-warehouse-shipment"></a>So liefern Sie Artikel mit einem Warenausgang
-
 Zuerst erstellen Sie einen Warenausgangsbeleg von einem Geschäftsherkunftsbeleg. Dann wählen Sie die angegebenen Artikel für den Versand aus.
 
 ### <a name="to-create-a-warehouse-shipment"></a>So erstellen Sie einen neuen Warenausgang.
-
-Normalerweise erstellt der Mitarbeiter, der für die Lieferung verantwortlich ist, einen Warenausgang. Das folgende Verfahren beschreibt, wie Sie den Versand in der Standardversion von [!INCLUDE[prod_short](includes/prod_short.md)] manuell erstellen. Ihre Organisation hat jedoch möglicherweise einen Teil des Prozesses automatisiert, z. B. mithilfe von tragbaren oder montierten Scannern, die von externen Anbietern unterstützt werden.  
-
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Warenausgänge** ein und wählen Sie dann den entsprechenden Link.  
-2. Wählen Sie die Aktion **Neu** aus.  
+Normalerweise erstellt der Mitarbeiter, der für die Lieferung verantwortlich ist, einen Warenausgang.
+1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Warenausgänge** ein, und wählen Sie dann den zugehörigen Link.  
+2.  Wählen Sie die Aktion **Neu** aus.  
 
     Füllen Sie die Felder auf dem Inforegister **Allgemein** aus. Beim Abrufen der Herkunftsbelegzeilen werden einige der Informationen in jede Zeile kopiert.  
 
     Für Lagerkonfigurationen mit gesteuerte Einlagerung und Kommissionierung: Wenn der Lagerort eine Vorgabezone und einen Vorgabelagerplatz für Warenausgänge hat, werden die Felder **Zonencode** und **Lagerplatzcode** automatisch ausgefüllt, Sie können diese jedoch bei Bedarf ändern.  
 
     > [!NOTE]  
-    > Wenn Sie Artikel mit Lagerklassen liefern möchten, die von den Lagerklassen der Lagerplätze im Feld **Lagerplatzcode** des Belegkopfes abweichen, müssen Sie den Inhalt des Feldes **Lagerplatzcode** des Kopfes löschen, bevor Sie die Herkunftsbelegzeilen der Artikel holen können.  
-3. Wählen Sie die **Herkunftsbelege holen** Aktion aus. Die Seite **Herkunftsbelege** wird geöffnet.
+    >  Wenn Sie Artikel mit Lagerklassen liefern möchten, die von den Lagerklassen der Lagerplätze im Feld **Lagerplatzcode** des Belegkopfes abweichen, müssen Sie den Inhalt des Feldes **Lagerplatzcode** des Kopfes löschen, bevor Sie die Herkunftsbelegzeilen der Artikel holen können.  
+3.  Wählen Sie die **Herkunftsbelege holen** Aktion aus. Die Seite **Herkunftsbelege** wird geöffnet.
 
     Aus einem neuen oder offenen Warenausgang können Sie die Seite **Filter z. Holen v. Herk.-Bel.** nutzen, um die Zeilen des freigegebenen Herkunftsbelegs zu erhalten, die festlegen, welche Artikel geliefert werden sollen.
 
@@ -70,25 +61,23 @@ Normalerweise erstellt der Mitarbeiter, der für die Lieferung verantwortlich is
 
     Die Filterkombinationen, die Sie definieren, werden auf der Seite **Filter z. Holen v. Herk.-Bel.** gespeichert, bis das nächste Mal benötigt werden. Sie können eine unbegrenzte Anzahl von Filterkombinationen erstellen. Sie können die Kriterien jederzeit ändern, indem Sie die Aktion **Bearbeiten** auswählen.
 
-4. Wählen Sie die Herkunftsbelege, für die Sie Artikel liefern möchten, und bestätigen Sie dann mit **OK**.  
+4.  Wählen Sie die Herkunftsbelege, für die Sie Artikel liefern möchten, und bestätigen Sie dann mit **OK**.  
 
 Die Zeilen der Herkunftsbelege werden auf der Seite **Warenausgang** angezeigt. Das Feld **Zu liefern** ist für jede Zeile gefüllt, Sie können die Menge jedoch bei Bedarf ändern. Wenn Sie den Inhalt des Feldes **Lagerplatzcode** m Inforegister **Allgemein** löschen, bevor Sie die Zeilen abrufen, muss in jeder Warenausgangszeile ein geeigneter Lagerplatzcode eingetragen werden.  
 
 > [!NOTE]  
-> Sie können nicht mehr Artikel liefern als die Anzahl im Feld **Restmenge** der Herkunftsbelegzeile. Um weitere Artikel zu liefern, holen Sie einen weiteren Herkunftsbeleg, der eine Zeile für den Artikel enthält, indem Sie die Filterfunktion zum Holen von Herkunftsbelegen mit dem Artikel verwenden.  
+>  Sie können nicht mehr Artikel liefern als die Anzahl im Feld **Restmenge** der Herkunftsbelegzeile. Um weitere Artikel zu liefern, holen Sie einen weiteren Herkunftsbeleg, der eine Zeile für den Artikel enthält, indem Sie die Filterfunktion zum Holen von Herkunftsbelegen mit dem Artikel verwenden.  
 
 Wenn Sie die Zeilen haben, die Sie ausliefern möchten, können Sie den Prozess starten, der die Zeilen an die Lagermitarbeiter zur Kommissionierung schickt.
 
 ### <a name="to-pick-and-ship"></a>So können Sie kommissionieren und ausliefern:
-
-In der Regel erstellt ein Lagermitarbeiter, der für das Kommissionieren zuständig ist, einen Kommissionierungsbeleg oder öffnet einen bereits erstellten Kommissionierbeleg.  
-
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Warenausgänge** ein und wählen Sie dann den entsprechenden Link.
+In der Regel erstellt ein Lagermitarbeiter, der für das Kommissionieren zuständig ist, einen Kommissionierungsbeleg oder öffnet einen bereits erstellten Kommissionierbeleg.
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Warenausgänge** ein, und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie die Warenausgangslieferung aus, die Sie kommissionieren möchten, und wählen Sie die **Kommissionierung erstellen** Aktion aus.
 3. Füllen Sie die Felder auf der Anforderungsseite aus, und wählen Sie dann die Schaltfläche **OK** aus. Der angegebene Kommissionierbeleg wird erstellt.
 
     Alternativ öffnen Sie eine vorhandene Kommissionierung.
-4. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Kommissionierungen** ein und wählen Sie dann den zugehörigen Link. Wählen Sie die Lagerkommissionierung aus, die Sie bearbeiten möchten.
+4. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Kommissionierungen** ein und wählen Sie dann den entsprechenden Link. Wählen Sie die Lagerkommissionierung aus, die Sie bearbeiten möchten.
 
     Wenn Ihr Lager für die Verwendung von Lagerplätzen eingerichtet wurde, wurden die Kommissionierzeilen in Aktionszeilen der Arten "Lagerentnahme" und "Einlagerung" umgewandelt.
 
@@ -102,19 +91,15 @@ In der Regel erstellt ein Lagermitarbeiter, der für das Kommissionieren zustän
 
 Weitere Informationen zum Kommissionieren für Warenausgänge finden Sie unter: [Kommissionieren von Artikeln für den Warenausgang](warehouse-how-to-pick-items-for-warehouse-shipment.md).
 
-Sie können den Kommissionierarbeitsblatt auch verwenden, um mehrere Anweisungen in eine zu übernehmen (für mehrere Warenausgänge) und dadurch die Effizienz der Kommissionierung im Lager zu erhöhen. Weitere Informationen finden Sie unter [Kommissionierungen im Arbeitsblatt bearbeiten](warehouse-how-to-plan-picks-in-worksheets.md).
+Sie können den Kommissioniervorschlag auch verwenden, um mehrere Anweisungen in eine zu übernehmen (für mehrere Warenausgänge) und dadurch die Effizienz der Kommissionierung im Lager zu erhöhen. Weitere Informationen finden Sie unter [Kommissionierungen im Vorschlag bearbeiten](warehouse-how-to-plan-picks-in-worksheets.md).
 
 > [!NOTE]
-> Wenn Sie auf bestimmte Artikel warten, die im Lager ankommen sollen, und wenn Sie die Zuordnungsfunktionalität verwenden, berechnet [!INCLUDE[prod_short](includes/prod_short.md)] in jeder Warenausgangs- oder Kommissionierarbeitsblattszeile die Menge des Artikels, die sich im Zuordnungslagerplatz befindet. Sie aktualisiert dieses Feld jedes Mal, wenn Sie den Warenausgangsbeleg oder das Arbeitsblatt verlassen und öffnen. Weitere Informationen finden Sie unter [Zuordnen von Artikeln](warehouse-how-to-cross-dock-items.md).
+> Wenn Sie auf bestimmte Artikel warten, die im Lager ankommen sollen, und wenn Sie die Zuordnungsfunktionalität verwenden, berechnet [!INCLUDE[d365fin](includes/d365fin_md.md)] in jeder Warenausgangs- oder Kommissioniervorschlagszeile die Menge des Artikels, die sich im Zuordnungslagerplatz befindet. Sie aktualisiert dieses Feld jedes Mal, wenn Sie den Warenausgangsbeleg oder den Vorschlag verlassen und öffnen. Weitere Informationen finden Sie unter [Zuordnen von Artikeln](warehouse-how-to-cross-dock-items.md).
 
-## <a name="see-also"></a>Siehe auch
-
+## <a name="see-also"></a>Siehe auch  
 [Logistik](warehouse-manage-warehouse.md)  
 [Lagerbestand](inventory-manage-inventory.md)  
-[Lagerortverwaltung einrichten](warehouse-setup-warehouse.md)  
-[Montageverwaltung](assembly-assemble-items.md)  
+[Lagerortverwaltung einrichten](warehouse-setup-warehouse.md)     
+[Montageverwaltung](assembly-assemble-items.md)    
 [Designdetails: Logistik](design-details-warehouse-management.md)  
-[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

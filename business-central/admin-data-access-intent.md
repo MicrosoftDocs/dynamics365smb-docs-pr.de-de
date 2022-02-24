@@ -1,39 +1,39 @@
 ---
-title: Datenbank-Zugriffsabsicht in Business Central verwalten
+title: Verwalten der Datenbank-Zugriffsabsicht in Business Central | Microsoft Docs
 description: Ändern Sie die Datenbank-Zugriffsabsicht für Berichte, API-Seiten und Abfragen.
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 9880
-ms.date: 04/01/2021
+ms.search.keywords: ''
+ms.date: 04/30/2020
 ms.author: jswymer
-ms.openlocfilehash: f1f77c4c1506db6d4f90d5d13f7c22ca54f44eac
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: b46786b60d7c5799b056c49188785bd595db57ff
+ms.sourcegitcommit: 866f0e6ed9df3397072b9df838e31c3a1f4b626d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8011204"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "3333908"
 ---
-# <a name="managing-database-access-intent"></a>Verwaltung der Datenbank-Zugriffsabsicht
+# <a name="managing-database-access-intent"></a>Verwaltung der Datenbank-Zugriffsabsicht 
 
 Als Superuser oder Administrator können Sie die Datenbankzugriffsabsicht auf Berichte, Seiten vom Typ API und Abfragen ändern, um die Leistung des Dienstes zu verbessern.
 
 ## <a name="overview"></a>Matrix
 
-[!INCLUDE[prod_short](includes/prod_short.md)] kann so eingerichtet werden, dass schreibgeschützte Replikate der primären Datenbank (Lesen und Schreiben) verwendet werden. Die Verwendung der Datenbankreplik reduziert die Belastung der primären Datenbank. In einigen Fällen wird dadurch auch die Leistung beim Anzeigen von Daten im Client verbessert. Replikate sind vorteilhaft für Objekte wie Berichte, Abfragen und API-Seiten, die nur zur Anzeige von Daten, nicht zur Änderung von Daten verwendet werden.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] kann so eingerichtet werden, dass schreibgeschützte Replikate der primären Datenbank (Lesen und Schreiben) verwendet werden. Die Verwendung der Datenbankreplik reduziert die Belastung der primären Datenbank. In einigen Fällen wird dadurch auch die Leistung beim Anzeigen von Daten im Client verbessert. Replikate sind vorteilhaft für Objekte wie Berichte, Abfragen und API-Seiten, die nur zur Anzeige von Daten, nicht zur Änderung von Daten verwendet werden.
 
 Wenn Objekte ausgeführt werden, bestimmt die Datenbank-Zugriffsabsicht, ob eine schreibgeschützte Replik, falls vorhanden, oder die primäre Datenbank verwendet werden soll. Berichte, API-Seiten und Abfragen werden mit einer vordefinierten Datenbank-Zugriffsabsicht entwickelt (siehe [DatabaseAccessIntent-Eigenschaft](/dynamics365/business-central/dev-itpro/developer/properties/devenv-dataaccessintent-property)).
 
 Auf der Seite **Datenbank-Zugriffsabsichtsliste** können Sie die vordefinierte Datenbank-Zugriffsabsicht für Objekte außer Kraft setzen, wenn sie ausgeführt werden.
 
-In Bezug auf die Datenbank wird diese Funktion allgemein als *Lesen Scale-out* bezeichnet. Weitere Informationen über die Ausleseskalierung und die Datenzugriffsabsicht in [!INCLUDE[prod_short](includes/prod_short.md)] finden Sie unter [Ausnutzung der Ausleseskalierung für eine bessere Leistung](/dynamics365/business-central/dev-itpro/administration/database-read-scale-out-overview) in der Hilfe für Entwickler und die Verwaltung unter [!INCLUDE[prod_short](includes/prod_short.md)].
+In Bezug auf die Datenbank wird diese Funktion allgemein als *Lesen Scale-out* bezeichnet. Weitere Informationen über die Ausleseskalierung und die Datenzugriffsabsicht in [!INCLUDE[prodshort](includes/prodshort.md)] finden Sie unter [Ausnutzung der Ausleseskalierung für eine bessere Leistung](/dynamics365/business-central/dev-itpro/administration/database-read-scale-out-overview) in der Hilfe für Entwickler und die Verwaltung unter [!INCLUDE[prodshort](includes/prodshort.md)].
 
 ## <a name="to-change-the-database-access-intent"></a>So ändern Sie die Datenbank-Zugriffsabsicht
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Liste Datenbankzugriffsabsicht** ein, und wählen Sie den zugehörigen Link.
+1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen"), geben Sie **Datenbankzugriffsabsichtsliste** ein, und wählen Sie dann den entsprechenden Link.
 
     Die Seite listet alle Berichte, Seiten und Abfragen auf. Die Spalte **Zugriffsabsicht** enthält einen der folgenden Werte:
 
@@ -55,10 +55,7 @@ In Bezug auf die Datenbank wird diese Funktion allgemein als *Lesen Scale-out* b
 ## <a name="see-also"></a>Siehe auch
 [Geschäftsfunktionen](across-business-functionality.md)  
 [Allgemeine Geschäftsfunktionen](ui-across-business-areas.md)  
-[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Vorbereitung für die Geschäftstätigkeit](ui-get-ready-business.md)    
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Erste Schritte](product-get-started.md)    
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

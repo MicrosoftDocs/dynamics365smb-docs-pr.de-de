@@ -1,22 +1,22 @@
 ---
 title: Antworten auf Anforderungen zu Personendaten
-description: In diesem Thema erfahren Sie, wie Sie auf Anfragen zu personenbezogenen Daten reagieren können. Dies wird als Anfrage eines Betroffenen bezeichnet.
+description: Sie müssen auf Anträge betroffener Personen reagieren.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.author: bholtorf
 ms.custom: na
-ms.date: 06/14/2021
+ms.date: 04/01/2020
 ms.reviewer: na
-ms.topic: conceptual
-ms.openlocfilehash: 77b1470ee7df736815451c03e4afbf684803aea4
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.topic: article
+ms.openlocfilehash: 16c7bb44326ebb754846171a0379cc9423754c45
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6321962"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3186764"
 ---
-# <a name="responding-to-requests-about-users-personal-data"></a>Reagieren auf Anfragen über personenbezogene Daten von Benutzern  
-Datensubjekte können mehrere Arten von Aktionen für die Personendaten abfragen. Beispielsweise unter dem Gesetz zum Schutz der allgemeinen Daten (DSGVO), haben EU-Bewohner das Recht, Export, das Löschen oder die Änderung Ihrer Personendaten anzufordern. Dieses wird *Anträge betroffener Personen* genannt. Wenn Sie die Vertraulichkeit Ihrer Daten klassifiziert haben und sicher sind, dass sie korrekt sind, kann ein Administrator mithilfe der Optionen unter der Registerkarte **Datenprivatsphäre** im **IT-Manager** Rollenzentrum antworten. Weitere Informationen zum Klassifizieren vol sensiblen Daten in [!INCLUDE[prod_long](includes/prod_long.md)] und [Klassifizieren von Daten](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json) und [Klassieren von Datensensibilität](admin-classifying-data-sensitivity.md).  
+# <a name="responding-to-requests-about-personal-data"></a>Antworten auf Anforderungen zu Personendaten  
+Datensubjekte können mehrere Arten von Aktionen für die Personendaten abfragen. Beispielsweise unter dem Gesetz zum Schutz der allgemeinen Daten (DSGVO), haben EU-Bewohner das Recht, Export, das Löschen oder die Änderung Ihrer Personendaten anzufordern. Dieses wird *Anträge betroffener Personen* genannt. Wenn Sie die Vertraulichkeit Ihrer Daten klassifiziert haben und sicher sind, dass sie korrekt sind, kann ein Administrator mithilfe der Optionen unter der Registerkarte **Datenprivatsphäre** im **IT-Manager** Rollenzentrum antworten. Weitere Informationen zum Klassifizieren vol sensiblen Daten in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] und [Klassifizieren von Daten](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json) und [Klassieren von Datensensibilität](admin-classifying-data-sensitivity.md).  
 
 ## <a name="types-of-requests"></a>Arten von Anforderungen
 
@@ -35,13 +35,13 @@ Die folgende Tabelle enthält Beispiele über die Anforderungen, auf die Sie rea
 Ein Datensubjekt kann verlangen, dass Sie die vorübergehend keine Personendaten verarbeiten. Um solche Anforderungen zu ehren, können Sie ihren Datensatz als gesperrt markieren aufgrund des Datenschutzes und die Verarbeitung der Daten stoppen. Wenn ein Datensatz als gesperrt markiert wird, können Sie keine neuen Transaktionen erstellen, die den Datensatz verwenden. Beispielsweise können Sie eine neue Rechnung für keinen Debitor erstellen, wenn entweder der Debitor oder der Verkäufer gesperrt ist. Um ein Datensubjekt als gesperrt zu kennzeichnen, öffnen Sie die Karte für das Datensubjekt, beispielsweise die Debitoren-, Kreditoren- oder Kontaktkarte, und wählen Sie **Datenschutzsperre**. Sie müssen u **Mehr anzeigen**, um das Feld anzuzeigen.  
 
 ## <a name="handling-data-subject-requests-while-in-trial"></a>Behandlung von Datensubjekt-Anforderungen in der Testphase
-Bestimmte Arten von Personendaten sind Teil Ihres Microsoft 365-Kontos und erfordern Administratorzugriff zum Exportieren, wenn Sie Anträge betroffener Personen von einem Benutzer für diese Art von Personendaten im Rahmen der Datenschutz-Grundverordnung (DSGVO) erhalten. Das Verfahren zur Verarbeitung von Datensubjektanforderungen ist abhängig vom [!INCLUDE[prod_short](includes/prod_short.md)]-Tenant-Typ.  
+Bestimmte Arten von Personendaten ist Teil des Office 365 Kontos und erfordert Verwaltungszugriff auf Exportieren, wenn Sie eine Datensubjektanforderung von einem Anwender für diese Art von Personendaten unter der Schutz-Regelung (DSGVO) Daten erhalten. Das Verfahren zur Verarbeitung von Datensubjektanforderungen ist abhängig vom [!INCLUDE[d365fin](includes/d365fin_md.md)]-Tenant-Typ.  
 
-Wenn Sie für ein Abonnement bezahlt haben [!INCLUDE[prod_short](includes/prod_short.md)], müssen Sie den Tenant Administrator Ihrer Organisation kontaktieren, um einen Datensubjektantrag vorzunehmen. Der Administrator hat die Verwaltungsrechte und Werkzeuge bei Bedarf zu erfüllen.  
+Wenn Sie für ein Abonnement bezahlt haben [!INCLUDE[d365fin](includes/d365fin_md.md)], müssen Sie den Tenant Administrator Ihrer Organisation kontaktieren, um einen Datensubjektantrag vorzunehmen. Der Administrator hat die Verwaltungsrechte und Werkzeuge bei Bedarf zu erfüllen.  
 
-Wenn Sie bei [!INCLUDE[prod_short](includes/prod_short.md)] angemeldet sind für [Test](https://trials.dynamics.com/) und Sie diese Testumgebung für ein Abonnement bei Ihrer Organisation verlassen haben, können Sie Ihre eigene Datensubjektanforderung auf der [Datenschutzseite im Azure-Portal](https://portal.azure.com#blade/Microsoft_AAD_IAM/GDPRViralBlade)erfüllen. Hier können Sie Ihre Personendaten exportieren und herunterladen.
+Wenn Sie bei [!INCLUDE[d365fin](includes/d365fin_md.md)] angemeldet sind für [Test](https://trials.dynamics.com/) und Sie diese Testumgebung für ein Abonnement bei Ihrer Organisation verlassen haben, können Sie Ihre eigene Datensubjektanforderung auf der [Datenschutzseite im Azure-Portal](https://portal.azure.com#blade/Microsoft_AAD_IAM/GDPRViralBlade)erfüllen. Hier können Sie Ihre Personendaten exportieren und herunterladen.
 
-In der Arbeits- und Schuldatenschutzseite können Sie Ihr Konto schließen. Es empfiehlt sich, dass Sie sicherstellen, dass Sie zuerste alle Daten exportiert und gelöscht haben, wenn Sie Ihr Konto löschen und bedeutet, dass Sie auf [!INCLUDE[prod_short](includes/prod_short.md)] zugreifen.  
+In der Arbeits- und Schuldatenschutzseite können Sie Ihr Konto schließen. Es empfiehlt sich, dass Sie sicherstellen, dass Sie zuerste alle Daten exportiert und gelöscht haben, wenn Sie Ihr Konto löschen und bedeutet, dass Sie auf [!INCLUDE[d365fin](includes/d365fin_md.md)] zugreifen.  
 
 Sie können Personal immer noch sperren aufgrund des Datenschutzes und Transaktionen wie in diesem Artikel erklärt bearbeiten oder löschen.  
 
@@ -62,6 +62,3 @@ Wenn das Alter der Kontaktperson tiefer ist als das Alter der Volljährigkeit en
 [Exportieren Ihrer Geschäftsdaten nach Excel](about-export-data.md)  
 [Änderungen protokollieren](across-log-changes.md)  
 [Anträge betroffener Personen um das DSGVO](/microsoft-365/compliance/gdpr-data-subject-requests)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

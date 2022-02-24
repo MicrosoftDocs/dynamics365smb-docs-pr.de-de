@@ -1,19 +1,19 @@
 ---
-title: Regulatorische Warnungen senden
-description: Wenn Sie von neuen Gesetzen wissen, die die Unterstützung von Funktionen in Business Central erfordern, können Sie diese Anleitung befolgen, um eine regulatorische Warnung an das Produktteam zu senden.
+title: Regulatorische Warnungen übermitteln | Microsoft Docs
+description: Wenn Sie über neue Gesetze informiert sind, die Funktionsunterstützung in Business Central benötigen, können Sie diesem Handbuch folgen, um eine gesetzliche Warnung an das Produktteam zu übermitteln.
 author: sorenfriisalexandersen
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.reviewer: edupont
 ms.search.keywords: ''
-ms.date: 06/25/2021
+ms.date: 04/01/2020
 ms.author: soalex
-ms.openlocfilehash: dc993a446219c5dcb28cd9a90756c0355ba30a16
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 349c930a5103814d6d7befc3a4e8135bc92081b0
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6319981"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3192147"
 ---
 # <a name="submit-alerts-about-countryregion-specific-regulatory-features"></a>Warnungen zu landes-/regionsspezifischen gesetzliche Funktionen übermitteln
 
@@ -52,7 +52,7 @@ Wir laden Sie ein, Microsoft Dynamics Lifecycle Services (LCS) zu verwenden, um 
         |Description  | Geben Sie eine kurze Übersicht des Gesetzes ein. Die Beschreibung sollte sich auf Probleme konzentrieren, die für die Unternehmensressourcenplanung (ERP) relevant sind, damit Benutzer die Anforderungen auf hoher Ebene erkennen können, ohne erst die Gesetzestexte lesen zu müssen.|
         |Land  | Geben Sie das Land bzw. die Region des Gesetzes an.|
         |Branche| Geben Sie der Branche an, wenn die Anforderung nur für bestimmte Branchen gilt. Wählen Sie beispielsweise **Öffentlicher Sektor**, **Einzelhandel** oder **Produktion** aus.|
-        |Funktionsreferenz  | Dies ist nicht für Dynamics 365 Business Central relevant, aber Sie können eine Funktionsreferenz eingeben, wenn Sie sie kennen. Die Liste der Funktionen für das bestimmte Land finden Sie im [Lokalisierungsportal](/dynamics/s-e/) auf der CustomerSource Seite. |
+        |Funktionsreferenz  | Dies ist nicht für Dynamics 365 Business Central relevant, aber Sie können eine Funktionsreferenz eingeben, wenn Sie sie kennen. Die Liste der Funktionen für das bestimmte Land finden Sie im [Lokalisierungsportal](https://mbs.microsoft.com/customersource/global/ax/support/support-news/GFMLocalizationPortalMC) auf der CustomerSource Seite. |
         |Strafverfolgungsdatum  | Geben Sie das Datum an, wenn betroffene Debitoren starten müssen, das Gesetz einzuhalten.|
         |Regierungsankündigungsdatum  | Geben Sie das Datum an, an dem die Behörde die Änderung angekündigt hat.|
         |Letztes Archivierungsdatum  | Wählen Sie den Stichtag für die erste Übermittlung des neuen oder geänderten Berichts aus.|
@@ -74,12 +74,9 @@ Wir laden Sie ein, Microsoft Dynamics Lifecycle Services (LCS) zu verwenden, um 
 
 ## <a name="see-also"></a>Siehe auch
 
-[Lokale Funktion in [!INCLUDE[prod_long](includes/prod_long.md)]](about-localization.md)  
+[Lokale Funktion in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](about-localization.md)  
 [Sprache und Gebiet ändern](about-locale-language.md)  
-[Vorbereitung für die Geschäftstätigkeit](ui-get-ready-business.md)  
+[Erste Schritte](product-get-started.md)  
 [Willkommen zu Business Central](index.md)  
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

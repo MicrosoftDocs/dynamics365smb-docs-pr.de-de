@@ -3,23 +3,23 @@ title: 'Problembehebung: Auf Kamera und Standort zugreifen'
 description: In diesem Artikel wird beschrieben, wie Fehler beim Zugriff auf Kamera- und Standortinformationen in Business Central behoben werden.
 author: blrobl
 ms.author: t-blrobl
-ms.date: 04/01/2021
+ms.date: 04/22/2020
 ms.custom: na
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
-ms.topic: conceptual
-ms.service: dynamics365-business-central
-ms.openlocfilehash: d6323ef6ce1a278d0dfd5fc0ecb4c7f8e9632aa1
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.topic: article
+ms.prod: dynamics365-business-central
+ms.openlocfilehash: befb7af01ba26512a4b62005e81b5a3ff351b02f
+ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783084"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3324468"
 ---
 # <a name="troubleshooting-accessing-camera-and-location"></a>Problembehebung: Auf Kamera und Standort zugreifen
 
-Wenn Sie versuchen, die Kamera- und Standortinformationen eines Geräts über [!INCLUDE[prod_short](includes/prod_short.md)] aufzurufen, können Probleme auftreten. Nachfolgend sind die möglichen Ursachen für diese Probleme und deren Umgehung aufgeführt.
+Wenn Sie versuchen, die Kamera- und Standortinformationen eines Geräts über [!INCLUDE[prodshort](includes/prodshort.md)] aufzurufen, können Probleme auftreten. Nachfolgend sind die möglichen Ursachen für diese Probleme und deren Umgehung aufgeführt.
 
 ## <a name="device-must-have-camera-and-location-capabilities"></a>Das Gerät muss über Kamera- und Standortfunktionen verfügen
 
@@ -29,11 +29,11 @@ Wenn Ihr Gerät über Kamera- und Standortfunktionen verfügt, jedoch weiterhin 
 
 ## <a name="access-permissions-not-enabled"></a>Zugriffsberechtigungen sind nicht aktiviert
 
-Sie müssen den allgemeinen Zugriff auf die Kamera und den Standort über die Datenschutzeinstellungen Ihres Geräts aktivieren und [!INCLUDE[prod_short](includes/prod_short.md)] ausdrücklich die Erlaubnis erteilen, darauf zuzugreifen. Wechseln Sie zu **Einstellungen**, und wählen Sie **Datenschutz** und dann **App-Berechtigungen** aus, wenn Sie beispielsweise die Berechtigungen für ein unter Windows ausgeführtes Gerät anzeigen oder ändern möchten. 
+Sie müssen den allgemeinen Zugriff auf die Kamera und den Standort über die Datenschutzeinstellungen Ihres Geräts aktivieren und [!INCLUDE[prodshort](includes/prodshort.md)] ausdrücklich die Erlaubnis erteilen, darauf zuzugreifen. Wechseln Sie zu **Einstellungen**, und wählen Sie **Datenschutz** und dann **App-Berechtigungen** aus, wenn Sie beispielsweise die Berechtigungen für ein unter Windows ausgeführtes Gerät anzeigen oder ändern möchten. 
 
-Bei mobilen Geräten müssen Sie der mobilen [!INCLUDE[prod_short](includes/prod_short.md)]-App Zugriffsberechtigungen für die Kamera und den Standort gewähren. Wechseln Sie dazu bei einem iOS-Gerät zu **Einstellungen**, und wählen Sie **Datenschutz** und dann **Kamera** oder **Standort** aus. Gehen Sie bei Android-Geräten zu **Einstellungen**, und wählen Sie **Apps & Benachrichtigungen**, **Erweitert**, **Berechtigungsmanager** und dann **Kamera** oder **Standort** aus.
+Bei mobilen Geräten müssen Sie der mobilen [!INCLUDE[prodshort](includes/prodshort.md)]-App Zugriffsberechtigungen für die Kamera und den Standort gewähren. Wechseln Sie dazu bei einem iOS-Gerät zu **Einstellungen**, und wählen Sie **Datenschutz** und dann **Kamera** oder **Standort** aus. Gehen Sie bei Android-Geräten zu **Einstellungen**, und wählen Sie **Apps & Benachrichtigungen**, **Erweitert**, **Berechtigungsmanager** und dann **Kamera** oder **Standort** aus.
 
-Wenn Sie [!INCLUDE[prod_short](includes/prod_short.md)] in einem Browser verwenden, müssen Sie [!INCLUDE[prod_short](includes/prod_short.md)] außerdem die Websiteberechtigung zum Zugriff auf die Kamera oder Standortinformationen gewähren. Zum Anzeigen oder Ändern der Berechtigungen einer Website im Microsoft Edge-Browser wechseln Sie zu **Einstellungen**, wählen Sie **Websiteberechtigungen** und dann **Kamera** oder **Standort** aus. Beachten Sie, dass dies bei anderen Browsern möglicherweise anders ist.
+Wenn Sie [!INCLUDE[prodshort](includes/prodshort.md)] in einem Browser verwenden, müssen Sie [!INCLUDE[prodshort](includes/prodshort.md)] außerdem die Websiteberechtigung zum Zugriff auf die Kamera oder Standortinformationen gewähren. Zum Anzeigen oder Ändern der Berechtigungen einer Website im Microsoft Edge-Browser wechseln Sie zu **Einstellungen**, wählen Sie **Websiteberechtigungen** und dann **Kamera** oder **Standort** aus. Beachten Sie, dass dies bei anderen Browsern möglicherweise anders ist.
 
 Das Gerät oder der Browser zeigt standardmäßig eine Anforderung für den Zugriff auf diese Funktionen an, wenn der Benutzer sie zum ersten Mal aktiviert.
 
@@ -49,7 +49,7 @@ Die einzige Ausnahme ist die Verbindung zu `http://localhost`, die für Entwickl
 
 ## <a name="working-with-virtualization-technologies"></a>Mit Virtualisierungstechnologien arbeiten
 
-Wenn eine Verbindung mit [!INCLUDE[prod_short](includes/prod_short.md)] über Remotedesktop oder eine andere Virtualisierung hergestellt wird, ist der Zugriff auf die Kamera oder den Standort möglicherweise nicht verfügbar. Verwenden Sie in diesem Fall stattdessen das physische System.
+Wenn eine Verbindung mit [!INCLUDE[prodshort](includes/prodshort.md)] über Remotedesktop oder eine andere Virtualisierung hergestellt wird, ist der Zugriff auf die Kamera oder den Standort möglicherweise nicht verfügbar. Verwenden Sie in diesem Fall stattdessen das physische System.
 
 ## <a name="antivirus-software"></a>Antivirensoftware
 Es gibt Antivirensoftware, die den Zugriff auf die Kamera und den Standort standardmäßig blockiert. Denken Sie daran, die Einstellungen Ihrer Antivirensoftware zu überprüfen.
@@ -57,6 +57,3 @@ Es gibt Antivirensoftware, die den Zugriff auf die Kamera und den Standort stand
 ## <a name="see-also"></a>Siehe auch
 [Kamera in AL implementieren](/dynamics365/business-central/dev-itpro/developer/devenv-implement-camera-al)  
 [Standort in AL implementieren](/dynamics365/business-central/dev-itpro/developer/devenv-implement-location-al)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

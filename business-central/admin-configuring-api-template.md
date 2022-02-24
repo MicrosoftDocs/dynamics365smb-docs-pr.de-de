@@ -1,26 +1,26 @@
 ---
-title: API Vorlagen konfigurieren
+title: Konfigurieren von API Vorlagen | Microsoft Docs
 description: Beschreibung der Schritte, die Sie durchlaufen, um API-Vorlagen für Dynamics 365 Business Central zu konfigurieren.
+services: project-madeira
+documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: API templates, configuring templates
-ms.search.form: 5469
-ms.date: 04/01/2021
+ms.date: 04/01/2020
 ms.author: solsen
-ms.openlocfilehash: f5f081e4d0042333549453a3ad6af5a05a0e6ca0
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: 7e21da444f8dc8858ebe0e5f65335311dfb2a5e7
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8011256"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3187388"
 ---
 # <a name="configuring-api-templates"></a>API Vorlagen konfigurieren
-
-Die API-Bibliothek für [!INCLUDE[prod_short_md](includes/prod_short.md)] bietet eine vereinfachte Darstellung der zugrunde liegenden Einheiten. Alle Eigenschaften der Anwendung werden nicht durch die zugeordnete API bereitgestellt. Die Seite **API Einrichten** ermöglicht Ihnen, Vorlagen festzulegen, die verwendet werden, um leere Eigenschaften auf eine Einheit zu füllen, wenn Sie eine Beitragsaktion durch die API erstellen. 
+Die API-Bibliothek für [!INCLUDE[d365fin_md](includes/d365fin_md.md)] bietet eine vereinfachte Darstellung der zugrunde liegenden Einheiten. Alle Eigenschaften der Anwendung werden nicht durch die zugeordnete API bereitgestellt. Die Seite **API Einrichten** ermöglicht Ihnen, Vorlagen festzulegen, die verwendet werden, um leere Eigenschaften auf eine Einheit zu füllen, wenn Sie eine Beitragsaktion durch die API erstellen. 
 
 Wenn beispielsweise eine Konfigurationsvorlage für die Artikeleinheit definiert ist, wenn ein Datensatz des neuen Artikels um die API Artikel erstellt wird, werden Eigenschaften für den neuen Artikel, die nicht im API-Aufruf definiert sind, aus der ausgewählten Vorlage definiert. Wenn beispielsweise kein Wert für das Feld **Gen. Prod. Buchungsgruppe** durch die API definiert wird, aber ein Wert in der ausgewählten Vorlage definiert ist, wird der Wert, der in der Vorlage festgelegt wird, vom neuen Artikel übernommen. 
 
@@ -31,7 +31,7 @@ Um Vorlagen mit der API-Bibliothek zu verwenden, müssen Sie verschiedene Eigens
 
 Um eine Vorlage zu einer API zuzuordnen, müssen Sie folgende Schritte durchführen.
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **API-Einrichtung** ein, und wählen Sie den zugehörigen Link.
+1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen"), geben Sie **API-Einrichtung** ein und wählen Sie den entsprechenden Link.
 2. Wählen Sie **Neu** und dann den Wert **Auftrag** für den Datensatztyp aus.  
 Wenn es mehr als eine Vorlage gibt, die für eine API ausgewählt wird (Seiten-ID), werden die Vorlagen im Auftrag angewendet, der in der Spalte **Auftrag** definiert ist.   
 Wenn jeder Vorlage übernommen wird, werden die Feldwerte, die in der Vorlage definiert werden, nur zu den Feldern, die nicht bereits einen explizit definierten Wert aufweisen, entweder explizit der API oder einer zuvor zugewiesenen Vorlage im Auftrag zugeordnent. 
@@ -44,10 +44,8 @@ Die definierte Vorlage wird in einen neuen Datensatz angewendet, der durch die A
 
 ## <a name="see-also"></a>Siehe auch
 [API-Dokumentation](/dynamics-nav/fin-graph)  
-[Connect Apps entwicklen für [!INCLUDE[prod_short_md](includes/prod_short.md)]](/dynamics365/business-central/dev-itpro/developer/devenv-develop-connect-apps)  
+[Connect Apps entwicklen für [!INCLUDE[d365fin_md](includes/d365fin_md.md)]](/dynamics365/business-central/dev-itpro/developer/devenv-develop-connect-apps)  
 [Aktivieren der APIs](/dynamics-nav/enabling-apis-for-dynamics-nav)  
 [Endpunkte für die APIs](/dynamics-nav/endpoints-apis-for-dynamics)  
 [Mandanten mit RapidStart Services einrichten](admin-set-up-a-company-with-rapidstart.md)  
 [Verwaltung](admin-setup-and-administration.md)
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -3,27 +3,26 @@ title: Designdetailsl- Artikelausgleich | Microsoft Docs
 description: Dieses Thema beschreibt, woher Lagermenge und Wert erfasst werden, wenn Sie eine Lagertransaktion buchen.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, items, ledger entries, posting, inventory
-ms.date: 06/08/2021
-ms.author: edupont
-ms.openlocfilehash: fd37ec9ca5cc2de00f18f26bccc32aa81cd5659a
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: bfd2c67c7e7133f13a2e021cb9cf70ba82f6bb21
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215028"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185156"
 ---
 # <a name="design-details-item-application"></a>Designdetails: Artikelausgleich
-
 Wenn Sie eine Lagertransaktion buchen, wird die Mengenbuchung in den Artikelposten, die Wertbuchungen in den Wertposten erfasst. Weitere Informationen finden Sie unter [Designdetails: Planungsbuchung](design-details-inventory-posting.md).  
 
-Darüber hinaus wird ein Artikelausgleich erstellt, um den Kostenempfänger mit seiner Kostenquelle zu verknüpfen, damit eine Kostenweiterleitung entsprechend der Kostenmethode erfolgen kann. Weitere Informationen finden Sie unter [Designdetails: Lagerabgangsmethoden](design-details-costing-methods.md).  
+Darüber hinaus wird ein Artikelausgleich erstellt, um den Kostenempfänger mit seiner Kostenquelle zu verknüpfen, damit eine Kostenweiterleitung entsprechend der Kostenmethode erfolgen kann. Weitere Informationen finden Sie unter [Designdetails: Lagerabgangsmethoden".](design-details-costing-methods.md)  
 
-[!INCLUDE[prod_short](includes/prod_short.md)] nimmt zwei Arten von Artikelausgleich vor.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] nimmt zwei Arten von Artikelausgleich vor.  
 
 |Anwendungstyp|Description|  
 |----------------------|---------------------------------------|  
@@ -35,21 +34,21 @@ Artikelausgleiche können folgendermaßen vorgenommen werden.
 |Methode|Description|Anwendungstyp|  
 |------------|---------------------------------------|----------------------|  
 |Automatisch|Tritt als allgemeine Kosten entsprechend der Lagerabgangsmethode auf|Mengenausgleich|  
-|Fixiert|Durch den Benutzer erstellt, wenn:<br /><br /> -   Verarbeiten von Rücklieferungen<br />-   Buchungskorrekturen<br />-   Mengenbuchungen rückgängig machen<br />-   Direktlieferung erstellen **Hinweis**  Der feste Ausgleich kann entweder manuell durch Eingabe einer Postennummer im Feld **Ausgegl. von Artikelposten** oder mithilfe einer Funktion durchgeführt werden, wie etwa **Zu stornierende gebuchte Belegzeilen abrufen**.|Mengenausgleich<br /><br /> Kostenanwendung **Hinweis:** Der Kostenausgleich tritt nur in eingehenden Transaktionen auf, bei denen das Feld **Ausgegl. von Artikelposten** ausgefüllt ist, um einen festen Ausgleich zu erstellen. Siehe die folgende Tabelle.|  
+|Fixiert|Durch den Benutzer erstellt, wenn:<br /><br /> -   Verarbeiten von Rücklieferungen<br />-   Buchungskorrekturen<br />-   Um Warenausgänge rückgängig zu machen<br />-   Direktlieferung erstellen **Hinweis**  Der feste Ausgleich kann entweder manuell durch Eingabe einer Postennummer im Feld **Ausgegl. von Artikelposten** oder mithilfe einer Formel durchgeführt werden, wie etwa **Zu stornierende gebuchte Belegzeilen abrufen**.|Mengenausgleich<br /><br /> Kostenanwendung **Hinweis:** Der Kostenausgleich tritt nur in eingehenden Transaktionen auf, bei denen das Feld **Ausgegl. von Artikelposten** ausgefüllt ist, um einen festen Ausgleich zu erstellen. Siehe die folgende Tabelle.|  
 
 Ob Mengen-Anwendungen oder Kostenanträge gemacht werden, hängt von der Richtung der Lagertransaktion und auch davon ab, ob der Artikelausgleich in Verbindung mit Systemprozessen automatisch gesetzt oder korrigiert wird.  
 
 Die nachstehende Tabelle zeigt, basierend auf den zentralen Ausgleichsfeldern auf Lagertransaktionzeilen, wie die Kosten je nach Transaktionsrichtung fließen. Gibt auch an, wann und warum der Artikelausgleich den Typ Menge oder Kosten hat.  
 
-|-|Ausgleich mit Artikelpostenfeld|Ausgegl. von Artikelpostenfeld|  
+||Ausgleich mit Artikelpostenfeld|Ausgegl. von Artikelpostenfeld|  
 |-|--------------------------------|----------------------------------|  
 |Anwendung für ausgehenden Posten|Der ausgehende Posten ruft die Kosten aus dem offenen eingehenden Posten ab.<br /><br /> **Mengenausgleich**|Nicht unterstützt|  
 |Anwendung für eingehenden Posten|Der eingehende Posten verschiebt die Kosten in den offenen ausgehenden Posten.<br /><br /> Der eingehende Posten ist die Kostenquelle.<br /><br /> **Mengenausgleich**|Der eingehende Posten ruft die Kosten aus dem ausgehenden Posten ab. **Hinweis:**  Wenn dieser festen Ausgleich vorgenommen wird, wird die eingehende Transaktion als Verkaufsreklamation verarbeitet. Daher bleibt der ausgeglichene ausgehende Posten offen. <br /><br /> Der eingehende Posten ist NICHT die Kostenquelle.<br /><br /> **Ausgleich Lagerwert reguliert**|  
 
 > [!IMPORTANT]  
-> Eine Verkaufsreklamation gilt NICHT als Kostenquelle, wenn "Fest" angewendet wird.  
->
-> Der Verkaufsposten bleibt offen, bis die tatsächliche Herkunft gebucht wird.  
+>  Eine Verkaufsreklamation gilt NICHT als Kostenquelle, wenn "Fest" angewendet wird.  
+>   
+>  Der Verkaufsposten bleibt offen, bis die tatsächliche Herkunft gebucht wird.  
 
 In einem Artikelausgleichsposten werden folgende Informationen erfasst.  
 
@@ -72,7 +71,7 @@ Die folgende Tabelle zeigt den Artikelausgleichsposten, der erstellt wird, wenn 
 |01-01-20|1|0|10|1|  
 
 ## <a name="inventory-decrease"></a>Lagerabgänge  
-Wenn Sie einen Lagerabgang buchen, wird ein Artikelausgleichsposten erfasst, der den Lagerbagang mit einem Lagerzugang verknüpft. Diese Verknüpfung wird erstellt, indem die Lagerabgangsmethode des Artikels verwendet wird. Für Artikel mit den Kostenberechnungsmethoden FIFO, Standard und Durchschnitt basiert die Verknüpfung auf dem FIFO-Prinzip. Die Bestandsminderung wird auf die Bestandserhöhung mit dem frühesten Buchungsdatum angewendet. Für Artikel mit der Kostenberechnungsmethode LIFO basiert die Verknüpfung auf dem LIFO-Prinzip. Die Bestandsminderung wird auf die Bestandserhöhung mit dem neuesten Buchungsdatum angewendet.  
+Wenn Sie einen Lagerabgang buchen, wird ein Artikelausgleichsposten erfasst, der den Lagerbagang mit einem Lagerzugang verknüpft. Diese verknüpfung wird erstellt, indem die Lagerabgangsmethode des Artikels verwendet wird. Für Artikel mit den Kostenberechnungsmethoden FIFO, Standard und Durchschnitt basiert die Verknüpfung auf dem FIFO-Prinzip. Die Bestandsminderung wird auf die Bestandserhöhung mit dem frühesten Buchungsdatum angewendet. Für Artikel mit der Kostenberechnungsmethode LIFO basiert die Verknüpfung auf dem LIFO-Prinzip. Die Bestandsminderung wird auf die Bestandserhöhung mit dem neuesten Buchungsdatum angewendet.  
 
 In der Tabelle **Artikelposten** enthält das Feld **Restmenge die Menge**, für die es noch keine Verknüpfung gibt. Wenn die Restmenge größer als 0 ist, wird das Kontrollkästchen **Offen** aktiviert.  
 
@@ -89,7 +88,7 @@ Die folgende Tabelle zeigt die beiden Artikelausgleichsposten, die aus der Besta
 ## <a name="fixed-application"></a>fester Ausgleich  
 Sie können einen festen Ausgleich vornehmen, wenn Sie angeben, dass die Kosten eines Lagerzugangs einem bestimmten Lagerabgang (oder umgekehrt) zugeordnet werden sollen. Der feste Ausgleich betrifft die verbleibenden Mengen der Posten , er kehrt aber auch die exakten Kosten des ursprünglichen Postens um, zu oder von dem Sie den Ausgleich durchführen.  
 
-Für einen festen Ausgleich verwenden Sie das Feld **Ausgleich mit Lfd. Nr**. oder **Ausgegl. von Posten in den Belegzeilen**, um den Artikelposten anzugeben, der mit der Transaktionszeile (oder ab dieser) verknüpft werden soll. Beispielsweise könnten Sie einen festen Ausgleich vornehmen, wenn Sie einen Kostenausgleich erstellen möchten, mit dem eine Verkaufsreklamation mit einer bestimmten Verkaufslieferung verknüpft werden soll, damit die Kosten der Verkaufslieferung exakt storniert werden. In diesem Fall ignoriert [!INCLUDE[prod_short](includes/prod_short.md)] die Lagerabgangsmethode ignoriert und der Lagerabgang (oder Lagerzugang, wenn es sich um eine Verkaufsreklamation handelt) mit dem von Ihnen angegebenen Artikelposten verknüpft. Das Vornehmen eines festen Ausgleichs hat den Vorteil, dass die Kosten der ursprünglichen Transaktion an die neue Transaktion übergeben werden können.  
+Für einen festen Ausgleich verwenden Sie das Feld **Ausgleich mit Lfd. Nr**. oder **Ausgegl. von Posten in den Belegzeilen**, um den Artikelposten anzugeben, der mit der Transaktionszeile (oder ab dieser) verknüpft werden soll. Beispielsweise könnten Sie einen festen Ausgleich vornehmen, wenn Sie einen Kostenausgleich erstellen möchten, mit dem eine Verkaufsreklamation mit einer bestimmten Verkaufslieferung verknüpft werden soll, damit die Kosten der Verkaufslieferung exakt storniert werden. In diesem Fall ignoriert [!INCLUDE[d365fin](includes/d365fin_md.md)] die Lagerabgangsmethode ignoriert und der Lagerabgang (oder Lagerzugang, wenn es sich um eine Verkaufsreklamation handelt) mit dem von Ihnen angegebenen Artikelposten verknüpft. Das Vornehmen eines festen Ausgleichs hat den Vorteil, dass die Kosten der ursprünglichen Transaktion an die neue Transaktion übergeben werden können.  
 
 ### <a name="example--fixed-application-in-purchase-return"></a>Beispiel – Fester Ausgleich in der Einkaufsreklamation  
 Das folgende Beispiel, das die Auswirkungen des festen Ausgleichs einer Einkaufsreklamation eines Artikels zeigt, der die FIFO-Kostenbewertungsmethode verwendet, basiert auf dem folgenden Szenario:  
@@ -120,21 +119,19 @@ Der Einstandsbetrag wird dann LCY 20.00, richtig mit der Einkaufsreklamation ver
 Das folgende Beispiel, das die Auswirkungen des festen Ausgleichs einer Einkaufsreklamation, basiert auf dem folgenden Szenario eines Artikels mit der Durchschnittskostenbewertungsmethode:  
 
 1. In Postennummer 1 und 2 bucht der Benutzer zwei Einkaufsrechnungen. Die zweite Rechnung hat den falschen EK-Preis von MW 1000,00.  
-2. Mit der Buchungsnummer 3 bucht der Benutzer eine Einkaufsgutschrift mit einem festen Ausgleich für den Einkaufsposten mit den falschen direkten Einheitskosten. Die Summe des Feldes **Kostenbetrag (Ist)** für die zwei fest ausgeglichenen Wertposten wird 0,00  
+2. In Postennummer3 bucht der Benutzer eine Einkaufsgutschrift mit einem festen Ausgleich für den Einkaufsposten mit den falschen direkten Einheitskosten. Die Summe des Feldes **Kostenbetrag (Ist)** für die zwei fest ausgeglichenen Wertposten wird 0,00  
 3. In Postennummer 4 bucht der Benutzer eine andere Einkaufsrechnung mit dem korrekten Direkteinheitspreis von MW 100,00  
 4. In Postennummer 5 bucht der Benutzer eine Verkaufsrechnung.  
 5. Die Bestandsmenge ist 0, und der Bestandwert ist ebenfalls 0,00.  
 
 Die folgende Tabelle zeigt das Ergebnis des Szenarios auf die Wertposten des Artikels an.  
 
-Die folgende Tabelle zeigt das Ergebnis des Szenarios für die Wertposten des Artikels, nachdem die Buchung abgeschlossen und die Kostenanpassung durchgeführt wurde.
-
 |Buchungsdatum|Artikelpostenart|Bewertete Menge|Einstandsbetrag (tatsächl.)|Ausgleich mit Artikelposten|Bew. z. Einst.-Pr. (durchschn.)|Artikelposten Lfd. Nr.|Postennr.|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|--------------------------------------------|-------------------------------------------------|-----------------------------------------------|----------------------------------|  
 |01-01-20|Einkauf|1|200.00||Nr.|1|1|  
-|01-01-20|Einkauf|1|1000.00||Nr.|2|2|  
-|01-01-20|Einkauf|-1|-1000|2|Nr.|3|3|  
-|01-01-20|Einkauf|1|100.00||Nr.|4|4|  
+|01-01-20|Einkauf|1|1000.00||Nein|2|2|  
+|01-01-20|Einkauf|-1|-1000|2|Nein|3|3|  
+|01-01-20|Einkauf|1|100.00||Nein|4|4|  
 |01-01-20|Verkauf|-2|-300.00||Ja|5|5|  
 
 Wenn der Benutzer nicht den festen Ausgleich zwischen der Einkaufsgutschrift und dem Einkauf mit dem falschen EK-Preis (Schritt 2 im vorherigen Szenario) eingerichtet hätte, dann würden die Kosten anders reguliert worden sein.  
@@ -144,9 +141,9 @@ Die folgende Tabelle zeigt die Auswirkung auf die Wertposten des Artikels an, we
 |Buchungsdatum|Artikelpostenart|Bewertete Menge|Einstandsbetrag (tatsächl.)|Ausgleich mit Artikelposten|Bew. z. Einst.-Pr. (durchschn.)|Artikelposten Lfd. Nr.|Postennr.|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|--------------------------------------------|-------------------------------------------------|-----------------------------------------------|----------------------------------|  
 |01-01-20|Einkauf|1|200.00||Nr.|1|1|  
-|01-01-20|Einkauf|1|1000.00||Nr.|2|2|  
+|01-01-20|Einkauf|1|1000.00||Nein|2|2|  
 |01-01-20|Einkauf|-1|433,33||Ja|3|3|  
-|01-01-20|Einkauf|1|100.00||Nr.|4|4|  
+|01-01-20|Einkauf|1|100.00||Nein|4|4|  
 |01-01-20|Verkauf|-2|866,67||Ja|5|5|  
 
 In Postennummer 3 wird der Wert im Feld **Kostenbetrag (Ist)** durch die Methode „Durchschnitt“ bewertet und enthält daher die fehlerhafte Buchung von 1000,00. Entsprechend ergibt sich -433,33, d.h. ein überhöhter Kostenbetrag. Die Berechnung lautet: 1300 / 3 = .-433,33.  
@@ -192,43 +189,43 @@ Die folgende Tabelle zeigt die Auswirkung der exakten Kostenumkehrung der Wertpo
 Wenn Sie die Stapelverarbeitung **Kostenanpassung Artikeleinträge** ausführen, werden die erhöhten Kosten des Einkaufspostens aufgrund des Zu-/Abschlags (Artikelnummer) zum Verkaufsposten weitergeleitet (Postennummer 2). Der Verkaufsposten übergibt dann diese erhöhten Kosten an den Verkaufsgutschriftposten weiter (Postennummer 3). Das Endergebnis ist, dass die Kosten korrekt umgekehrt werden.  
 
 > [!NOTE]  
->  Wenn Sie mit Retouren oder Gutschriften arbeiten und das Feld **Einst.-Pr.-Rückverfolg. notw** entweder auf der Seite **Kreditoren & Einkauf Einr.** oder auf der Seite **Debitoren & Verkauf Einr.** entsprechend Ihrer Situation eingerichtet haben, dann füllt [!INCLUDE[prod_short](includes/prod_short.md)] automatisch die verschiedenen Eingabefelder der Anwendung aus, wenn Sie die Funktion **Aus Dokument kopieren** verwenden. Wenn Sie die Funktion **Zu stornierende gebuchte Belegzeilen abrufen** verwenden, werden diese Felder immer automatsich ausgefüllt.  
+>  Wenn Sie mit Retouren oder Gutschriften arbeiten und das Feld **Einst.-Pr.-Rückverfolg. notw** entweder auf der Seite **Kreditoren & Einkauf Einr.** oder auf der Seite **Debitoren & Verkauf Einr.** entsprechend Ihrer Situation eingerichtet haben, dann füllt [!INCLUDE[d365fin](includes/d365fin_md.md)] automatisch die verschiedenen Eingabefelder der Anwendung aus, wenn Sie die Funktion **Aus Dokument kopieren** verwenden. Wenn Sie die Funktion **Zu stornierende gebuchte Belegzeilen abrufen** verwenden, werden diese Felder immer automatsich ausgefüllt.  
 
 > [!NOTE]  
 >  Wenn Sie eine Transaktion mit einem festen Ausgleich buchen und der Artikelposten, zu dem Sie verknüpfen, ist geschlossen (d. h. die Restmenge ist gleich 0), wird automatisch der alte Ausgleich zurückgenommen und erneut mit dem Artikelposten ausgeglichen, wobei der von Ihnen angegebene feste Ausgleich verwendet wird.  
 
 ## <a name="transfer-application"></a>Umlagerungs-Anwendung  
-Wenn ein Artikel von einem Lagerort zu einem anderen innerhalb des Bestands übertragen wird, wird eine Anwendung zwischen den beiden Übergangsposten erstellt. Die Bewertung eines Übergangspostens hängt von der Lagerabgangsmethode ab. Für Artikel mit der Kostenberechnungsmethode Durchschnitt wird Bewertung mithilfe der durchschnittlichen Kosten in der Durchschnittskostenperiode erstellt, in der das Bewertungsdatum der Übertragung auftritt. Für Artikel mit anderen Kostenbewertungsmethoden wird die Bewertung durch Rückverfolgung zu den Kosten der ursprünglichen Bestandszunahme durchgeführt.  
+Wenn ein Artikel von einem Lagerort zu einem anderen innerhalb des Lagerbestands übertragen wird, wird eine Anwendung zwischen den beiden Übergangsposten erstellt. Die Bewertung eines Übergangspostens hängt von der Lagerabgangsmethode ab. Für Artikel mit der Kostenberechnungsmethode Durchschnitt wird Bewertung mithilfe der durchschnittlichen Kosten in der Durchschnittskostenperiode erstellt, in der das Bewertungsdatum der Übertragung auftritt. Für Artikel mit anderen Kostenbewertungsmethoden wird die Bewertung durch Rückverfolgung zu den Kosten der ursprünglichen Bestandszunahme durchgeführt.  
 
 ### <a name="example--average-costing-method"></a>Beispiel - Durchschnittskostenberechnungsmethode  
 Das folgende Beispiel, das zeigt, wie Übergangsposten ausgeglichen werden, basiert auf dem folgenden Szenario für einen Artikel mit der Durchschnittskostenbewertungsmethode und der Durchschnittskostenperiode Tag.  
 
 1. Der Benutzer kauft den Artikel zu einem Preis von MW 10,00 ein.  
 2. Der Benutzer kauft den Artikel erneut zu einem Preis von MW 20,00 ein.  
-3. Der Benutzer lagert den Artikel von Lagerort OST zu WEST um.  
+3. Der Benutzer lagert den Artikel von Lagerort BLAU zu ROT um.  
 
 Die folgende Tabelle zeigt die Auswirkung der Umlagerung auf die Wertposten des Artikels an.  
 
-|Buchungsdatum|Artikelpostenart|Lagerortcode|Bewertete Menge|Einstandsbetrag (tatsächl.)|Eingabenr.|  
+|Buchungsdatum|Artikelpostenart|Lagerortcode|Bewertete Menge|Einstandsbetrag (tatsächl.)|Postennr.|  
 |-------------------------------------|-----------------------------------------------|--------------------------------------|-----------------------------------------|------------------------------------------------|----------------------------------|  
-|01-01-20|Einkauf|OST|1|10,00|1|  
-|01-01-20|Einkauf|OST|1|20,00|2|  
-|02-01-20|Umlagerung|OST|-1|15.00|3|  
-|02-01-20|Umlagerung|WEST|1|15.00|4|  
+|01-01-20|Einkauf|BLAU|1|10.00|1|  
+|01-01-20|Einkauf|BLAU|1|20.00|2|  
+|02-01-20|Umlagerung|BLAU|-1|15.00|3|  
+|02-01-20|Umlagerung|ROT|1|15.00|4|  
 
 ### <a name="example--standard-costing-method"></a>Beispiel - Lagerabgangsmethode  
 Das folgende Beispiel, das zeigt, wie Übergangsposten ausgeglichen werden, basiert auf dem folgenden Szenario für einen Artikel mit der Standardkostenbewertungsmethode und der Durchschnittskostenperiode Tag.  
 
 1. Der Benutzer kauft den Artikel zu einem Standardpreis von MW 10,00 ein.  
-2. Der Benutzer überträgt den Artikel aus Lagerort OST zu WEST zu einem Einstandspreis (fest) von MW 12,00.  
+2. Der Benutzer überträgt den Artikel aus Lagerort BLAU zu ROT zu einem Einstandspreis (fest) von MW 12,00.  
 
 Die folgende Tabelle zeigt die Auswirkung der Umlagerung auf die Wertposten des Artikels an.  
 
-|Buchungsdatum|Artikelpostenart|Lagerortcode|Bewertete Menge|Einstandsbetrag (tatsächl.)|Eingabenr.|  
+|Buchungsdatum|Artikelpostenart|Lagerortcode|Bewertete Menge|Einstandsbetrag (tatsächl.)|Postennr.|  
 |-------------------------------------|-----------------------------------------------|--------------------------------------|-----------------------------------------|------------------------------------------------|----------------------------------|  
-|01-01-20|Einkauf|OST|1|10,00|1|  
-|02-01-20|Umlagerung|OST|-1|10,00|2|  
-|02-01-20|Umlagerung|WEST|1|10,00|3|  
+|01-01-20|Einkauf|BLAU|1|10.00|1|  
+|02-01-20|Transfer|BLAU|-1|10,00|2|  
+|02-01-20|Umlagerung|ROT|1|10,00|3|  
 
 Da der Wert des ursprünglichen Bestandszunahme MW 10,00 ist, wird die Übertragung zu diesen Kosten bewertet, nicht mit MW 12,00.  
 
@@ -240,7 +237,7 @@ Wegen der Art, in der Einstandspreise berechnet werden, kann ein fehlerhafter Ar
 * Sie möchten die erstellte Anwendung automatisch beim Buchen überschreiben, entsprechend der Lagerabgangsmethode des Artikels.  
 * Sie müssen einen Artikel zurückliefern, für den bereits ein Verkauf manuell angewendet wurde, ohne die Funktion **Zu stornierende Belegzeilen abrufen** zu verwenden und daher die Anwendung annullieren.  
 
-[!INCLUDE[prod_short](includes/prod_short.md)] bietet eine Funktion zum Analysieren und Korrigieren der Artikelausgleiche. Dieser Vorgang wird auf der Seite **Arbeitsblatt anwenden** ausgeführt.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] bietet eine Funktion zum Analysieren und Korrigieren der Artikelausgleiche. Dieser Vorgang wird auf der Seite **Arbeitsblatt anwenden** ausgeführt.  
 
 ## <a name="see-also"></a>Siehe auch  
 [Designdetails: Bekannte Artikelanwendungsprobleme](design-details-inventory-zero-level-open-item-ledger-entries.md)  
@@ -250,7 +247,4 @@ Wegen der Art, in der Einstandspreise berechnet werden, kann ein fehlerhafter Ar
 [Designdetails: Kostenregulierung](design-details-cost-adjustment.md)  
 [Verwalten der Lagerregulierung](finance-manage-inventory-costs.md)  
 [Finanzen](finance.md)  
-[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

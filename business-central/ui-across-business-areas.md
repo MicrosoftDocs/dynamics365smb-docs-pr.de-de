@@ -5,22 +5,22 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview, functionality
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: b6c64e9a86c462749eb24eb6e57118efd35fd47c
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: c078195f25d28b517a25b23cbb22c78bfb4e9ec4
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787502"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3192075"
 ---
 # <a name="general-business-functionality"></a>Allgemeine Geschäftsfunktionen
-[!INCLUDE[prod_short](includes/prod_short.md)] stellt dedizierte Funktionen für typische Geschäftsbereiche, wie Finanzen und Personalwesen, bereit. Weitere Informationen finden Sie unter [Business-Funktionalität](across-business-functionality.md).
+[!INCLUDE[d365fin](includes/d365fin_md.md)] stellt dedizierte Funktionen für typische Geschäftsbereiche, wie Finanzen und Personalwesen, bereit. Weitere Informationen finden Sie unter [Business-Funktionalität](across-business-functionality.md).
 
 Und um die bereichsspezifischen Aufgaben des Geschäftes zu unterstützen, können Sie eine Reihe von Geschäftsfunktionalitäten nutzen, wie beispielsweise das Definieren der Textbausteins für Belegzeilen und das Organisieren von verbindenden Geschäftsaufgaben in den Arbeitsabläufen.
 
@@ -50,10 +50,7 @@ Die folgende Tabelle enthält die unterstützten Geschäftsbereiche und Links zu
 | Richten Sie Datenaustauschdefinitionen ein, damit Sie elektronische Belege versenden und erhalten können. |[Daten elektronisch austauschen](across-data-exchange.md) |
 
 ## <a name="see-also"></a>Siehe auch
-[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Verwaltung](admin-setup-and-administration.md)
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

@@ -1,21 +1,21 @@
 ---
-title: Auftragsmontage und Lagermontage verstehen
-description: Elemente für die Montage können geliefert werden, indem sie bei der Bestellung montiert werden oder indem sie im Bestand gehalten werden, bis sie auf einem Verkaufsauftrag benötigt werden.
-author: bholtorf
+title: Auftragsmontage und Lagermontage verstehen | Microsoft Docs
+description: Montageartikeln können angegeben werden entweder, indem sie zusammengestellt werden, wenn sie bestellt oder montiert werden oder indem sie im Lager gehalten werden, bis diese Anforderung eines Verkaufsauftrags sind.
+author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 06/15/2021
-ms.author: bholtorf
-ms.openlocfilehash: 4f47d2e60ae1adeab814ab630f8f90877881b4ae
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 1f34ee61fa532aa7600baa8883d182cbad545493
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8011178"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3186812"
 ---
 # <a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Auftragsmontage und Lagermontage verstehen
 Montageartikel können in den beiden folgenden Prozessen geliefert werden:  
@@ -66,38 +66,26 @@ Wenn Sie einen Auftragsmontageartikel in eine Verkaufszeile eingeben, wird autom
 
  In den kombinierten Szenarien wird der Gesamtwert in **Menge für Versand** jedoch nicht in das Feld **Menge für Montage** im Montageauftragskopf kopiert. Stattdessen wird der Standardwert in das Feld **Menge für Montage** eingefügt, der entsprechend einer vordefinierten Regel, die sicherstellt, dass Auftragsmontagemengen zuerst geliefert werden, aus dem Feld **Zu liefern** berechnet wird.  
 
- Wenn Sie von diesem Standard abweichen möchten, weil Sie beispielsweise mehr oder weniger zusammenbauen möchten, als die Menge im Feld **Zu liefern** können Sie das Feld **Menge für Montage** ändern, allerdings nur innerhalb der vordefinierten Regeln, wie unten dargestellt.  
+ Wenn Sie von diesem Standard abweichen möchten, weil Sie beispielsweise mehr oder weniger zusammenbauen möchten, als die Menge im Feld ,**Menge für Montage** können Sie das Feld **Menge für Montage** ändern, allerdings nur innerhalb der vordefinierten Regeln, wie unten dargestellt.  
 
- Ein Beispiel dafür, warum Sie die zu montierende Menge ggf. ändern möchten, wäre, dass Sie Liefer- von Lagermengen teilweise buchen möchten, bevor der Montageausstoß geliefert werden kann.  
+ Ein Beispiel, warum Sie die zu montierende Menge ggf. ändern wollen, wäre, dass Sie Liefer- von Lagermengen teilweise buchen möchten, bevor der Montageausstoß geliefert werden kann.  
 
- In den folgenden Tabellen werden die Regeln erläutert, die die minimalen und maximalen Werte festlegen, die Sie manuell in das Feld **Menge für Montage** eingeben können, um in einem kombinierten Szenario vom Standardwert abzuweichen. Die Tabelle zeigt ein kombiniertes Szenario, in dem das Feld **Menge für Montage** der verknüpften Verkaufsauftragszeile von 7 in 4 geändert wird, weshalb **Menge für Montage** den Standardwert 4 annimmt.  
+ Im Folgenden werden die Regeln erläutert, die die minimalen und maximalen Werte festlegen, die Sie in **Menge für Montage** manuell eingeben können, um in einem kombinierten Szenario vom Standardwert abzuweichen. Die Tabelle zeigt ein kombiniertes Szenario, in dem das Feld **Menge für Montage** der verknüpften Verkaufsauftragszeile von 7 in 4 geändert wird, weshalb **Menge für Montage** den Standardwert 4 annimmt.  
 
-- Verkaufszeile
+||Verkaufszeile|Montageauftragskopf|  
+|-|----------------------|---------------------------|  
+||**Menge**|**Zu liefern**|**Menge für Auftragsmontage**|**Menge geliefert**|**Menge**|**Menge für Montage**|**Zusammengesetzte Menge**|**Restmenge**|  
+|Anfang|10|7|7|0|7|7|0|7|  
+|Ändern||4||||4 (standardmäßig eingefügt)|||  
 
-    |                | **Menge** | **Zu liefern** | **Menge für Auftragsmontage** | **Menge geliefert** |
-    |----------------|--------------|------------------|-------------------------------|----------------------|
-    |**Anfangswert**| 10          | 7                | 7                             | 0                    |
-    |**Änderung**      |              | 4                |                               |                      |
+ Basierend auf der obigen Situation können Sie nur das Feld **Menge für Montage** wie folgt ändern:  
 
-- Montageauftragskopf
+-   Die Mindestmenge, die Sie eingeben können, ist 1. Die Mindestmenge, die Sie eingeben können, ist 1. Dies liegt daran, dass Sie mindestens eine Einheit zusammenbauen müssen, damit Sie die vier Einheiten verkaufen können, wenn davon ausgegangen wird, dass die verbleibenden drei im Lager verfügbar sind.  
+-   Die Höchstmenge, die Sie eingeben können, ist 4. Damit wird sichergestellt, dass Sie nicht mehr als diese Auftragsmontageartikel zusammenbauen, die im Verkauf benötigt werden.  
 
-    |                | **Menge** | **Zu liefern** | **Menge für Auftragsmontage** | **Menge geliefert** |
-    |----------------|--------------|------------------|-------------------------------|----------------------|
-    |**Anfangswert**| 7           | 7                | 0                             | 7                    |
-    |**Änderung**      |              | 4 (standardmäßig eingefügt)|                         |                      |
-
-Basierend auf diesem Beispiel können Sie nur das Feld **Menge für Montage** wie folgt ändern:  
-
-- Die Mindestmenge, die Sie eingeben können, ist 1. Die Mindestmenge, die Sie eingeben können, ist 1. Dies liegt daran, dass Sie mindestens eine Einheit zusammenbauen müssen, damit Sie die vier Einheiten verkaufen können, wenn davon ausgegangen wird, dass die verbleibenden drei im Lager verfügbar sind.  
-- Die Höchstmenge, die Sie eingeben können, ist 4. Damit wird sichergestellt, dass Sie nicht mehr als diese Auftragsmontageartikel zusammenbauen, die im Verkauf benötigt werden.  
-
-## <a name="see-also"></a>Siehe auch
-
+## <a name="see-also"></a>Siehe auch  
 [Montageverwaltung](assembly-assemble-items.md)  
 [Mit Fertigungsstücklisten arbeiten](inventory-how-work-BOMs.md)  
 [Lagerbestand](inventory-manage-inventory.md)  
 [Designdetails: Logistik](design-details-warehouse-management.md)  
-[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

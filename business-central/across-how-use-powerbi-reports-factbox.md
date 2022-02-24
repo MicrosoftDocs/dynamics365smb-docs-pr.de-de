@@ -1,125 +1,72 @@
 ---
-title: Angepasste Power BI-Berichte anzeigen
-description: Sie können die Power BI-FactBox verwenden, um Power BI-Berichte anzuzeigen und zusätzliche Einblicke in die Datensätze in Schlüssellisten zu erhalten.
-author: jswymer
+title: Benutzerdefinierte Power BI-Berichte anzeigen | Microsoft Docs
+description: Sie können Power BI-Berichte verwenden, um einen zusätzlichen Einblick in Daten in Listen zu gewinnen.
+author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 06/11/2021
-ms.author: jswymer
-ms.openlocfilehash: b5858d3852eddc19501f0b3dc1c5f4071b07baee
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 04/01/2020
+ms.author: edupont
+ms.openlocfilehash: 15b9f17b0b7748df977eef3837fb75122eb8d1ae
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440924"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3187844"
 ---
-# <a name="creating-power-bi-reports-for-displaying-list-data-in-prod_short"></a>Erstellen von Power BI-Berichten zum Anzeigen von Listendaten in [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="viewing-list-data-in-power-bi-reports-in-business-central"></a>Anzeigen von Listendaten in Power BI-Berichten in Business Central
 
-[!INCLUDE[prod_long](includes/prod_long.md)] umfasst ein Power BI-Infobox-Steuerelement auf mehreren Schlüssellistenseiten. Der Zweck dieser Infobox ist die Anzeige von Power BI-Berichten, die sich auf Datensätze in den Listen beziehen und zusätzlichen Einblick in die Daten bieten. Die Idee ist, dass, wenn Sie sich zwischen den Zeilen in der Liste bewegen, der Bericht für den ausgewählten Eintrag aktualisiert wird.
+[!INCLUDE[prodlong](includes/prodlong.md)] enthält einen Infoboxregler in mehreren Schlüssellistenseiten, die zusätzliche Einblick in die Daten in dieser Liste bereitstellen. Während Sie sich zwischen den Zeilen in der Liste bewegen, wird der Bericht für den Eintrag gefiltert und aktualisiert. Sie können benutzerdefinierte Berichte erstellen, aber es gibt einige Regeln, die Sie beim Erstellen der Berichte befolgen müssen, um sicherzustellen, dass das gewünschte Verhalten geliefert wird.  
 
-[!INCLUDE[prod_long](includes/prod_long.md)] kommt mit einigen dieser Berichte. Sie können auch eigene benutzerdefinierte Berichte erstellen, die in dieser Infobox angezeigt werden. Das Erstellen dieser Berichte ähnelt anderen Berichten. Es gibt jedoch einige Entwurfsregeln, die Sie befolgen müssen, um sicherzustellen, dass die Berichte wie erwartet angezeigt werden. Diese Regeln werden in diesem Artikel erläutert.
+> [!NOTE]  
+> Sie müssen ein gültiges Konto bei [!INCLUDE[prodshort](includes/prodshort.md)] und Power BI haben. Um benutzerdefinierte Berichte zu erstellen, müssen Sie diese herunterladen [Power BI Desktop](https://powerbi.microsoft.com/desktop/). Weitere Informationen finden Sie unter [Verwenden von [!INCLUDE[d365fin](includes/d365fin_md.md)] als Power BI-Datenquelle](across-how-use-financials-data-source-powerbi.md).  
 
-> [!NOTE]
-> Allgemeine Informationen zum Erstellen und Veröffentlichen von Power BI-Berichten für Business Central finden Sie unter [Power BI-Berichte zum Anzeigen erstellen [!INCLUDE [prod_long](includes/prod_long.md)]-Daten](across-how-use-financials-data-source-powerbi.md). 
+## <a name="report-data-set"></a>Bericht Dataset
+Wenn Sie den Bericht in Power BI Desktop erstellen, definieren Sie die Datenquelle oder den Webdienst, der die Daten enthält, die mit der Liste verknüpft sind, der Sie den Bericht zuordnen möchten. Wenn Sie beispielsweise einen Bericht für die Verkaufs-Liste erstellen möchten, stellen Sie sicher, dass das Dataset Informationen zu den entsprechenden Verkäufen enthält.  
 
-## <a name="prerequisites"></a>Voraussetzungen
+Um Daten in Berichten zu filtern, basierend auf dem ausgewählten Datensatz der Listenseite, muss der primäre Schlüssel als Berichtsfilter verwendet werden. Die Primärschlüssel müssen Teil des Datasets sein, um die Berichte korrekt zu filtern. In den meisten Fällen ist der Primärschlüssel für eine Liste **Nr.** Feld  
 
-- Ein Power BI-Konto.
-- Power BI Desktop.
+## <a name="defining-the-report-filter"></a>Definiert den Berichts-Filter
+Der Bericht wird benötigt, um einen grundlegenden Berichtsfilter (keinen Seiten- oder visuellen Filter und keinen erweiterten Filter), um in der Power BI-Infobox-Steuerung korrekt zu filtern. Der Filter, der zum Power BI-Bericht von jeder Listenseite übergeben wird, basiert auf dem Primärschlüssel, wie im vorherigen Abschnitt erläutert.  
 
-<!-- 
-For more information about getting started, see [Using [!INCLUDE[prod_short](includes/prod_short.md)] as a Power BI Data Source](across-how-use-financials-data-source-powerbi.md).-->
+Um einen Filter für den Bericht zu definieren, wählen Sie den Primärschlüssel aus der Liste der verfügbaren Felder und ziehen dann das Feld in den Abschnitt **Berichts-Filter**.  
 
-## <a name="create-a-report-for-a-list-page"></a>Einen Bericht für eine Listenseite erstellen
+![Den Berichtfilter für den Verkaufsrechnungs-Tätigkeitsbericht festlegen](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-filter.png)
 
-1. Starten Sie Power BI Desktop.
-2. Wählen Sie **Daten abrufen** aus, und beginnen Sie mit der Auswahl der Datenquelle für den Bericht.
+## <a name="report-size-and-color"></a>Meldet Größe und Farbe
+Die Größe des Berichts muss auf 325 Pixel auf 310 Pixel festgelegt werden. Dies ist für die Skalierung des Berichts im verfügbaren Platz erforderlich, der von der Power BI-Infobox-Steuerung zugelassen wird. Um die Größe des Berichts zu definieren, den Fokus außerhalb des Berichts im Berichtslayoutbereich zu platzieren und um das Farbenrollensymbol zu wählen.
 
-    Geben Sie die Business Central-Listenseiten an, die die Daten enthalten, die Sie im Bericht haben wollen. Um z.B. einen Bericht für die Liste **Verkaufsrechnungen** zu erstellen, schließen Sie die Seiten ein, die sich auf den Verkauf beziehen.
-
-    Weitere Informationen finden Sie in den Anweisungen [[!INCLUDE[prod_short](includes/prod_short.md)] als Datenquelle in Power BI Desktop hinzufügen](across-how-use-financials-data-source-powerbi.md#getdata).
-
-3. Definieren Sie den Berichtsfilter.
-
-    Um die Daten für den ausgewählten Datensatz in der Liste zu aktualisieren, fügen Sie dem Bericht einen Filter hinzu. Der Filter muss ein Feld der Datenquelle enthalten, mit dem jeder Datensatz in der Liste eindeutig identifiziert wird. In Bezug auf Entwickler ist dieses Feld der *Primärschlüssel*. In den meisten Fällen ist der Primärschlüssel für eine Liste **Nr.** Feld eingetragen.
-
-    Führen Sie die folgenden Schritte aus, um den Filter einzustellen:
-
-    1. Wählen Sie unter **Filter** das Primärschlüsselfeld aus der Liste der verfügbaren Felder aus.
-    2. Ziehen Sie den Bereich **Filter** und legen Sie ihn in der Box **Filter auf allen Seiten** ab.
-    3. Stellen Sie den **Filtertyp** auf **Grundfilterung**. Es darf sich nicht um einen Seiten-, visuellen oder erweiterten Filter handeln.
-
-    ![Festlegen des Berichtsfilters für den Bericht „Verkaufsrechnungen Aktivitäten“.](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-filter-v3.png)
-4. Entwerfen Sie den Berichtslayout.
-
-    Erstellen Sie das Layout, indem Sie Felder ziehen und Visualisierungen hinzufügen. Weitere Informationen finden Sie unter [Mit der Berichtsansicht in Power BI Desktop arbeiten](/power-bi/create-reports/desktop-report-view) in der Power BI-Dokumentation.
-
-5. In den nächsten Abschnitten erfahren Sie, wie Sie die Größe des Berichts ändern und mehrere Seiten verwenden.
-
-6. Speichern und benennen Sie den Bericht.
-
-    Geben Sie dem Bericht einen Namen, der den Namen der mit dem Bericht verknüpften Listenseite enthält, wie er im Client steht. Bei dem Namen wird nicht zwischen Groß- und Kleinschreibung unterschieden. Angenommen, der Bericht ist für die Listenseite **Verkaufsrechnungen**. In diesem Fall fügen Sie die Wörter **Verkaufsrechnungen** irgendwo im Namen ein, z. B. **Meine Verkaufsrechnungen.pbix** oder **Meine_Verkaufsrechnungen_liste.pbix**.
-
-    Diese Namenskonvention ist nicht zwingend erforderlich. Sie beschleunigt jedoch das Auswählen von Berichten in [!INCLUDE[prod_short](includes/prod_short.md)]. Wenn die Berichtauswahlseite von einer Listenseite aus geöffnet wird, wird automatisch ein Filter auf der Basis des Seitennamens angewendet. Der Filter hat die Syntax: `@*<caption>*`, wie `@*Sales Invoices*`. Diese Filterung wird durchgeführt, um die Anzahl der angezeigten Berichte zu beschränken. Benutzer können den Filter entfernen, um eine vollständige Liste der in Power BI verfügbaren Berichte zu erhalten.
-
-7. Wenn Sie fertig sind, veröffentlichen Sie den Bericht wie gewohnt.
-
-    Weitere Informationen finden Sie unter [Veröffentlichen eines Berichts](across-how-use-financials-data-source-powerbi.md#publish-reports).
-
-8. Testen Sie den Bericht.
-
-    Sobald der Bericht in Ihrem Arbeitsbereich veröffentlicht wurde, sollte er in der FactBox Power BI auf der Listenseite in [!INCLUDE[prod_short](includes/prod_short.md)] verfügbar sein.
-
-    Führen Sie die folgenden Schritte aus, um es zu testen.
-
-    1. Öffnen Sie [!INCLUDE[prod_short](includes/prod_short.md)], und gehen Sie zur Listenseite.
-    2. Wenn Sie die Power BI-Infobox nicht sehen, wechseln Sie zur Aktionsleiste und wählen Sie **Aktionen** > **Anzeigen** > **Power BI-Berichte anzeigen/ausblenden** aus.
-    3. Wählen Sie in der Power BI-Infobox **Berichte auswählen**, dann das Feld **Aktivieren** für den Bericht und **OK** aus.
-
-    Bei korrekter Gestaltung wird der Bericht angezeigt.  
-
-## <a name="set-the-report-size-and-color"></a>Berichtsgröße und ‑farbe festlegen
-
-Die Größe des Berichts muss auf 325 Pixel auf 310 Pixel festgelegt werden. Diese Größe gibt die richtige Skalierung des Berichts im verfügbaren Platz des Power BI-Infoboxreglers in [!INCLUDE[prod_short](includes/prod_short.md)] an. Um die Größe des Berichts zu definieren, den Fokus außerhalb des Berichts im Berichtslayoutbereich zu platzieren und um das Farbenrollensymbol zu wählen.
-
-![Festlegen der Berichtsbreite und -höhe für den Bericht „Verkaufsrechnungen Aktivität“.](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-sizing-v3.png)
+![Den Berichtfilter für die Breite und die Höhe des Verkaufsrechnungs-Tätigkeitsbericht festlegen](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-sizing.png)
 
 Sie können die Breite und die Tiefe des Berichts ändern, indem Sie im Feld **Benutzerdefiniert** **Art** auswählen.
 
-Wenn Sie möchten, dass sich der Hintergrund des Bericht an die Hintergrundfarbe des Power BI-Infoboxreglers anpasst, legen Sie die Berichtshintergrundfarbe auf *#FFFFFF* (weiß) fest. 
-
-> [!TIP]
-> Verwenden Sie die [!INCLUDE [prod_short](includes/prod_short.md)]-Themendatei zum Erstellen von Berichten mit dem gleichen Farbstil wie die [!INCLUDE [prod_short](includes/prod_short.md)]-Apps. Weitere Informationen finden Sie unter [[!INCLUDE [prod_short](includes/prod_short.md)]-Berichtsthema verwenden](across-how-use-financials-data-source-powerbi.md#theme).
+Wenn Sie möchten, dass der Hintergrund des Bericht sich an die Hintergrundfarbe der Power BI-Infobox-Steuerung anpasst, definieren Sie eine benutzerdefinierte Berichtshintergrundfarbe von *E5E5E5*. Diese Angabe ist optional.  
 
 ## <a name="reports-with-multiple-pages"></a>Berichte mit mehrere Seiten
+Mit Power BI können Sie einen einzelnen Bericht mit mehreren Seiten erstellen. Die grafischen Elemente, die Sie in den [!INCLUDE[d365fin](includes/d365fin_md.md)]-Listenseiten einsehen möchten, müssen auf der ersten Seite des Berichts in Power BI sein.  
 
-Mit Power BI können Sie einen einzelnen Bericht mit mehreren Seiten erstellen. Für Berichte, die mit Listenseiten angezeigt werden sollen, empfehlen wir jedoch, dass sie nicht mehr als eine Seite haben. Die Power BI-Infobox zeigt nur die erste Seite Ihres Berichts an.
+> [!NOTE]  
+> Die Power BI-Infobox kann nur die ersten Seite des Berichts anzeigen; wenn Sie andere Seiten anzeigen möchten, müssen Sie den Bericht erweitern und Registerkarten im unteren Bereich des Berichts verwenden, um zu anderen Seiten zu navigieren.  
 
-## <a name="fixing-problems"></a>Probleme beheben
+## <a name="saving-your-report"></a>Ihren Bericht speichern
 
-In diesem Abschnitt wird erklärt, wie Sie Probleme beheben können, die auftreten können, wenn Sie versuchen, einen Power BI-Bericht für eine Listenseite in [!INCLUDE[prod_short](includes/prod_short.md)] anzuzeigen.  
+Wenn Sie Ihren Bericht speichern, ist es üblich, dass der Name des Berichts den Namen der Liste enthält, die Sie im Bericht anzeigen möchten. Beispielsweise muss das Wort *Kreditor* im Namen des Berichts erscheinen, die Sie auf der Kreditorenliste zur Verfügung stellen möchten.  
 
-### <a name="you-cant-see-the-power-bi-factbox-on-a-list-page"></a>Sie können die Power BI-Infobox auf einer Listenseite nicht sehen
+Dies ist keine Anforderung; es macht aber den Prozess zur Auswahl der Berichte schneller. Wenn die Berichts-Auswahlseite in einer Listenseite geöffnet ist, werden sie in einen Filter basierend auf dem Seitennamen bereitgestellt, um die Anzahl der angezeigten Bericht zu begrenzen.  Sie können den Filter entfernen, um eine vollständige Liste von Berichten zu erhalten, die in Power BI verfügbar sind.  
 
-Standardmäßig ist die Power BI-Infobox nicht sichtbar. Um die Infobox auf einer Seite anzuzeigen, wählen Sie in der Aktionsleiste **Aktionen** > **Anzeigen** > **Power BI-Berichte anzeigen/ausblenden** aus.
+## <a name="troubleshooting"></a>Problembehebung
+Dieser Abschnitt bietet eine Problemumgehung für die typischsten Probleme, die auftreten können, wenn Sie den Power BI-Bericht erstellen.  
 
-### <a name="you-cant-see-the-report-in-the-select-report-pane"></a>Sie können den Bericht im Abschnitt „Bericht auswählen“ nicht sehen
+**Benutzer sieht keinen Bericht auf der ausgewählten Berichtseite** Wenn Sie keinen Bericht auswählen können, ist eine mögliche Lösung, den Namen des Berichts zu prüfen, um sicherzustellen, dass es den Namen der Seite enthält. Sie können auch den Filter entfernen, um eine vollständige Liste von verfügbaren Power BI-Berichten zu erhalten.  
 
-Der Name des Berichts enthält nicht den Namen der Listenseite, die angezeigt wird. Löschen Sie den Filter, um die vollständige Liste der verfügbaren Power BI-Berichte anzuzeigen.  
+**Bericht wird geladen ist aber leer, nicht gefiltert oder falsch gefiltert** Prüfen Sie, dass der Berichtsfilter den korrekten Primärschlüssel enthält. In den meisten Fällen ist dies das **Nr.** Feld, aber in der Tabelle **Sachposten** beispielsweise müssen Sie das Feld **Lfd. Nr.** verwenden.
 
-### <a name="report-is-loaded-but-blank-not-filtered-or-filtered-incorrectly"></a>Der Bericht wird zwar geladen, ist jedoch leer, wird nicht gefiltert oder falsch gefiltert
+**Bericht wird gebucht, aber er zeigt die Seite an, die Sie nicht erwartet haben** Überprüfen Sie, ob die Seite, die angezeigt werden sollen, die ersten Seite in Ihren Bericht ist.  
 
-Stellen Sie sicher, dass der Berichtsfilter den richtigen Primärschlüssel enthält. In den meisten Fällen handelt es sich hierbei um das Feld **Nr.**. In der Tabelle **Sachposten** beispielsweise müssen Sie jedoch das Feld **Postennr.** verwenden.
-
-### <a name="report-is-loaded-but-it-shows-a-page-you-didnt-expect"></a>Der Bericht wird zwar geladen, zeigt jedoch nicht die erwartete Seite an
-
-Vergewissern Sie sich, dass die Seite, die angezeigt werden soll, die erste Seite im Bericht ist.  
-
-### <a name="report-appears-with-an-unwanted-gray-boarder-or-its-too-small-or-too-large"></a>Der Bericht wird mit einem unerwünschten grauen Rand angezeigt, ist zu klein oder zu umfangreich
+**Bericht erscheint mit unerwünschten grauen Rändern, ist zu klein oder zu umfangreich**
 
 Vergewissern Sie sich, dass die Berichtsgröße auf 325 Pixel x 310 Pixel festgelegt wird. Speichern Sie den Bericht, und aktualisieren Sie anschließend die Seite.  
 
@@ -128,10 +75,7 @@ Vergewissern Sie sich, dass die Berichtsgröße auf 325 Pixel x 310 Pixel festge
 ## <a name="see-also"></a>Siehe auch
 
 [Aktivieren Sie Ihre Geschäftsdaten für Power BI](admin-powerbi.md)  
-[Verwenden von [!INCLUDE[prod_short](includes/prod_short.md)] als Power BI-Datenquelle](across-how-use-financials-data-source-powerbi.md)  
-[Vorbereitung für die Geschäftstätigkeit](ui-get-ready-business.md)  
-[Einrichten [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
+[Verwenden von [!INCLUDE[d365fin](includes/d365fin_md.md)] als Power BI-Datenquelle](across-how-use-financials-data-source-powerbi.md)  
+[Erste Schritte](product-get-started.md)  
+[Einrichten [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Finanzen](finance.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

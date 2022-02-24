@@ -3,19 +3,19 @@ title: 'Vorgehensweise: Konfigurieren neuer Unternehmen | Microsoft Docs'
 description: Sie können ein neues Unternehmen, das Sie erstellt haben, konfigurieren und anpassen. Um Ihre Implementierung abzustimmen, gehen Sie in drei Phasen vor, um die Konfiguration abzuschließen.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: b7a71e6611d78555d4be266e2b972152e5c43857
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 15275c25745b8c8b3e332efc9addf441140bc04b
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439685"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3187244"
 ---
 # <a name="configure-new-companies"></a>So konfigurieren Sie einen neuen Mandanten.
 Um einen neuen Mandanten in der Lösungsimplementierung zu konfigurieren, folgen Sie in der Regel drei Phasen. In der ersten Phase importieren Sie das Konfigurationspaket, eine .rapidstart-Datei mit den Konfigurationsinformationen. In der zweiten Phase ändern Sie die Konfigurationsinformationen und übernehmen sie dann für Ihren neuen Mandanten. In der letzten Phase überprüfen Sie auf Fehler und korrigieren diese.  
@@ -28,19 +28,19 @@ Bevor Sie den folgenden Verfahren übernehmen, vergewissern Sie sich, dass Ihr n
 Bevor Sie ein Konfigurationspaket importieren, sollten Sie sicherstellen, dass die folgenden Aussagen zutreffen. Andernfalls können Sie oder Ihr Kunde das Konfigurationspaket nicht importieren.
 
 * Ihre Lizenz enthält die Tabellen, die Sie aktualisieren. Wenn Sie sich nicht sicher sind, kann das **Konfigurationsarbeitsblatt** helfen. Wenn Ihre Lizenz die Tabellen enthält, ist das Kontrollkästchen **Lizenzierte Tabelle** aktiviert.  
-* Der Benutzer, der das Konfigurationspaket importiert, verfügt über die gültigen Berechtigungen zum Einfügen und Ändern für alle Tabellen, die vom Paket aktualisiert werden. Weitere Informationen finden Sie unter [Berechtigungen an Benutzer und Gruppen zuweisen](ui-define-granular-permissions.md) 
+* Der Benutzer, der das Konfigurationspaket importiert, verfügt über die gültigen Berechtigungen zum Einfügen und Ändern für alle Tabellen, die vom Paket aktualisiert werden. Weitere Informationen finden Sie unter [Berechtigungen für Benutzer und Gruppen zuweisen](ui-define-granular-permissions.md) 
 
 ## <a name="to-import-a-configuration-package"></a>So importieren Sie ein Konfigurationspaket.  
-1. Öffnen Sie das neue Unternehmen im [!INCLUDE[prod_short](includes/prod_short.md)] Datenbank.  
-2. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Konfigurationspakete** ein und wählen Sie dann den entsprechenden Link.  
+1. Öffnen Sie das neue Unternehmen im [!INCLUDE[d365fin](includes/d365fin_md.md)] Datenbank.  
+2. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Konfigurationspakete** ein, und wählen Sie dann den zugehörigen Link.  
 3. Wählen Sie die **Paket importieren**-Aktion aus.  
 4. Navigieren Sie zum gewünschten Speicherort, in dem Sie die .rapidstart-Konfigurationspaketdatei gespeichert haben, und wählen Sie **Öffnen** aus.  
-5. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Unternehmensdaten** ein, und wählen Sie dann den zugehörigen Link. Geben Sie Informationen über den Mandanten in der Mandanteninformationenkarte ein. Schließen Sie Informationen wie Bankdetails ein. Sie können ein Logo für den Mandanten bereitstellen.  
+5. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol öffnet, geben Sie **Firmeninformationen** ein und wählen Sie dann den entsprechenden Link. Geben Sie Informationen über den Mandanten in der Mandanteninformationenkarte ein. Schließen Sie Informationen wie Bankdetails ein. Sie können ein Logo für den Mandanten bereitstellen.  
 
 Alle Tabellen, die Sie zum Einschließen in den neuen Mandanten festgelegt haben, werden importiert. Zu diesem Zeitpunkt können Sie die Paketdaten zur Datenbank zuordnen, oder die Tabellendaten anpassen und ändern, um Ihren Debitorspezifikationen zu entsprechen.  
 
 ## <a name="to-apply-package-data"></a>So wenden Sie Paketdaten an  
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Konfigurationsarbeitsblatt** ein und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Konfigurationsarbeitsblatt** ein, und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie eine Tabelle, in das Sie Daten ändern möchten, und wählen die **Daten übernehmen** Aktion aus. Klicken Sie auf die Schaltfläche **Ja**, um die Anwendung zu bestätigen.
 3. Um zu bestätigen dass die Daten nun in der Datenbank sind und dass die Anwendung erfolgreich war, kehren Sie zur Seite **Arbeitsblatt konfigurieren** zurück und wählen die Aktion **Datenbank** aus.  
 
@@ -48,16 +48,16 @@ Alle Tabellen, die Sie zum Einschließen in den neuen Mandanten festgelegt haben
 >  Nachdem Sie Daten zugeordnet haben, können Sie diese nur in der Datenbank anzeigen. Sie befinden sich nicht mehr im Paket.  
 
 ## <a name="to-modify-and-apply-package-data"></a>So können Sie Paketdaten ändern und zuordnen  
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Konfigurationsarbeitsblatt** ein und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Konfigurationsarbeitsblatt** ein, und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie eine Tabelle, in das Sie Daten ändern möchten, und wählen die **Datenpaket** Aktion aus.  
 3. Auf der Seite **Config. Paket-Datensätze** führen Sie Ihre Änderungen durch. Beispielsweise können Sie Optionen zu löschen, die nicht zutreffen.  
 4. Wählen Sie die Schaltfläche **Daten anwenden** und dann die Schaltfläche **OK** aus.  
 5. Um zu bestätigen dass die Daten nun in der Datenbank sind und dass die Anwendung erfolgreich war, kehren Sie zur Seite **Arbeitsblatt konfigurieren** zurück und wählen die Aktion **Datenbank** aus.  
 
 ## <a name="to-locate-and-identify-a-configuration-error"></a>So lokalisieren und identifizieren Sie einen Konfigurationsfehler  
-Es gibt bestimmte Arten von Fehlern, die auftreten können, wenn Sie Daten auf eine Datenbank anwenden. Der häufigste Fehler ist, nicht alle zugehörigen Tabellen, die erforderlich sind, eingeschlossen waren. Sie korrigieren solche Fehler im Konfigurationsarbeitsblatt.
+Es gibt bestimmte Arten von Fehlern, die auftreten können, wenn Sie Daten auf eine Datenbank anwenden. Der häufigste Fehler ist, nicht alle zugehörigen Tabellen, die erforderlich sind, eingeschlossen waren. Sie korrigieren solche Fehler im Konfigurationsvorschlag.
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Konfigurationspakete** ein und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Konfigurationspakete** ein, und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die fertig zu stellende Aktivität aus, und klicken Sie anschließend auf die Aktion **Bearbeiten**.  
 
     Jede Tabelle, die Fehler enthält, wird hervorgehoben. Die Anzahl der Paketfehlern wird im Feld **Anzahl Paket-Fehlern** wird im Feld angezeigt.  
@@ -66,7 +66,7 @@ Es gibt bestimmte Arten von Fehlern, die auftreten können, wenn Sie Daten auf e
 
 ### <a name="to-fix-an-error"></a>So korrigieren Sie einen Fehler.  
 1. Öffnen Sie den Mandanten, auf dem Sie Ihr Konfigurationspaket basierten.  
-2. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Konfigurationsarbeitsblatt** ein und wählen Sie dann den zugehörigen Link.  
+2. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Konfigurationsarbeitsblatt** ein, und wählen Sie dann den zugehörigen Link.  
 3. Korrigieren Sie Fehler und fügen Sie dem Arbeitsblatt fehlende verknüpfte Tabellen hinzu.  
 4. Fügen Sie die Tabellen dem bestehenden Konfigurationspaket hinzu, oder erstellen Sie ein neues Paket, das nur die neuen Tabellen enthält. Weitere Informationen finden Sie unter [Vorgehensweise: Erstellen eines Konfigurations-Paket](admin-how-to-prepare-a-configuration-package.md).  
 5. Öffnen Sie den neuen Mandanten, für den Sie die Konfiguration übernehmen, erneut.  
@@ -81,6 +81,3 @@ Es gibt bestimmte Arten von Fehlern, die auftreten können, wenn Sie Daten auf e
 [Konfigurationen für neue Mandanten übernehmen](admin-apply-configuration-to-new-companies.md)  
 [Mandanten mit RapidStart Services einrichten](admin-set-up-a-company-with-rapidstart.md)  
 [Verwaltung](admin-setup-and-administration.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

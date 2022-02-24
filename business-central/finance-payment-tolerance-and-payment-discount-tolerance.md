@@ -1,21 +1,21 @@
 ---
-title: Zahlungstoleranz und Skontotoleranz
+title: Zahlungstoleranz und Skontotoleranz | Microsoft Docs
 description: Sie können Zahlungstoleranz einrichten, um eine Rechnung zu schließen, wenn die Zahlung nicht vollständig den Betrag der Rechnung umfasst.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 118, 314, 395
-ms.date: 10/29/2021
-ms.author: edupont
-ms.openlocfilehash: fa9e4abb37788b7aa8261ab0a5a705edef27e3c4
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.search.keywords: ''
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 42f89bc4f62cdcb4b2abcd9c919006a65451330b
+ms.sourcegitcommit: 8a4e66f7fc8f9ef8bdf34595e0d3983df4749376
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7972486"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "3262238"
 ---
 # <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Mit Zahlungstoleranzen und Skontotoleranzen arbeiten
 Sie können eine Zahlungstoleranz einrichten, um eine Rechnung zu schließen, wenn die Zahlung nicht vollständig den Betrag der Rechnung umfasst. Beispielsweise sind Zahlungstoleranzen in der Regel für kleine Beträge vorgesehen, deren Korrektur mehr kosten würde als deren Akzeptanz. Die eingerichtete Skontotoleranz erlaubt Ihnen, Skonto nach Ablauf des Skontodatums zu gewähren.  
@@ -45,40 +45,40 @@ Weitere Informationen finden Sie unter [So aktivieren oder deaktivieren Sie die 
 Toleranz auf Tage und Beträge erlaubt Ihnen, eine Rechnung auszugleichen, selbst wenn die Zahlung nicht vollständig den Rechnungsbetrag abdeckt, sei es aufgrund eines überschrittenen Skontodatums, weil Waren abgezogen wurden oder aufgrund eines kleineren Fehlers. Dies gilt auch für Gutschriften und Erstattungen.  
 
 Um diese Toleranz einzurichten, müssen Sie verschiedene Toleranzkonten einrichten, das Skontokonto und die Zahlungstoleranzbuchungsmethode spezifizieren und die Stapelverarbeitung **Zahlungstoleranz ändern** laufen lassen.  
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Allgemeine Buchungsmatrixeinrichtung** ein, und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Buchungsmatrix** ein und wählen Sie dann den entsprechenden Link.  
 2. Öffnen Sie die Seite **Buchungsmatrix Einrichtung**. Richten Sie ein Haben- und ein Soll-Verkaufszahlungstoleranzkonto sowie ein Haben- und ein Soll-Einkaufszahlungstoleranzkonto ein.  
-3. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Debitorenbuchungsgruppen** ein und wählen Sie dann den zugehörigen Link.    
+3. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Debitorenbuchungsgruppen** ein und wählen Sie dann den entsprechenden Link.    
 4. Öffnen Sie die Seite **Debitorenbuchungsgruppen**. Richten Sie ein Haben- und ein Soll-Zahlungstoleranzkonto ein. Weitere Informationen finden Sie unter [Einrichten von Buchungsgruppen](finance-posting-groups.md).  
-5. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Kreditorenbuchungseinrichtung** ein, und wählen Sie dann den zugehörigen Link.  
+5. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Kreditorenbuchungsmatrix** ein und wählen Sie dann den entsprechenden Link.  
 6. Öffnen Sie die Seite **Debitorenbuchungsgruppen**. Richten Sie ein Haben- und ein Soll-Zahlungstoleranzkonto ein.  
-7. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Hauptbuchhaltung Einrichtung** ein und wählen Sie dann den zugehörigen Link.  
+7. Wählen Sie die ![Glühbirne, die das Symbol Tell Me öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Finanzbuchhaltungs-Einrichtung** ein und wählen Sie dann den entsprechenden Link.  
 8. Öffnen Sie die Seite **Finanzbuchhaltung Einrichtung**.  
 9. Füllen Sie auf dem Inforegister **Ausgleich** die Felder **Skontotoleranzbuchung**, **Skontotoleranzperiode** und **Zahlungstoleranzbuchung** aus.   
 10. Wählen Sie die Aktion **Zahlungstoleranz ändern** aus.
 11. Füllen Sie die Seite **Zahlungstoleranz ändern** die Felder **Zahlungstoleranz %** und **Max- Zahlungstoleranzbetrag** und bestätigen Sie dann mit **OK**.
 
 > [!IMPORTANT]  
->  Sie haben jetzt nur die Toleranz für die Mandantenwährung eingerichtet. Wenn [!INCLUDE[prod_short](includes/prod_short.md)] Toleranzen auf Zahlungen, Gutschriften und Erstattungen in Fremdwährungen gewähren soll, müssen Sie die Stapelverarbeitung **Zahlungstoleranz ändern** mit einem Wert im Feld **Währungscode** aufrufen.  
+>  Sie haben jetzt nur die Toleranz für die Mandantenwährung eingerichtet. Wenn [!INCLUDE[d365fin](includes/d365fin_md.md)] Toleranzen auf Zahlungen, Gutschriften und Erstattungen in Fremdwährungen gewähren soll, müssen Sie die Stapelverarbeitung **Zahlungstoleranz ändern** mit einem Wert im Feld **Währungscode** aufrufen.  
 
 > [!NOTE]  
 >  Wenn Sie jedes Mal eine Zahlungstoleranzwarnung erhalten möchten, wenn Sie einen Ausgleich innerhalb der Toleranz buchen, müssen Sie die Zahlungstoleranzwarnung aktivieren. Weitere Informationen finden Sie unter [So aktivieren oder deaktivieren Sie die Zahlungstoleranzwarnung](finance-payment-tolerance-and-payment-discount-tolerance.md#to-enable-or-disable-payment-tolerance-warnings).  
 >   
 >  Um die Toleranz für einen Debitor oder Kreditor zu deaktivieren, müssen Sie auf der Debitoren- oder Kreditorenkarte Toleranzen blockieren. Weitere Informationen finden unter [Zahlungstoleranz für Debitoren sperren](finance-payment-tolerance-and-payment-discount-tolerance.md#to-block-payment-tolerance-for-customers).  
 >   
->  Wenn Sie eine Toleranz einrichten, prüft [!INCLUDE[prod_short](includes/prod_short.md)] auch, ob es offene Posten gibt, und berechnet die Toleranz für diese Posten.
+>  Wenn Sie eine Toleranz einrichten, prüft [!INCLUDE[d365fin](includes/d365fin_md.md)] auch, ob es offene Posten gibt, und berechnet die Toleranz für diese Posten.
 
 ## <a name="to-enable-or-disable-payment-tolerance-warnings"></a>So aktivieren oder deaktivieren Sie die Zahlungstoleranzwarnungen
 Die Zahlungstoleranzwarnung erscheint, wenn Sie einen Ausgleich mit einem Saldo innerhalb der erlaubten Toleranz buchen. Sie können dann wählen, wie Sie den Saldo buchen und dokumentieren wollen.    
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Hauptbuchhaltung Einrichtung** ein und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die das Symbol Tell Me öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Finanzbuchhaltungs-Einrichtung** ein und wählen Sie dann den entsprechenden Link.  
 2. Aktivieren Sie auf der Seite **Finanzbuchhaltung einrichten** im Inforegister **Anwendung** den Schalter **Zahlungstoleranzwarnung**, um die Warnung zu aktivieren. Deaktivieren Sie den Schalter, um die Warnung zu deaktivieren.  
 
 > [!NOTE]  
->  Die Standardoption der Seite **Zahlungstoleranzwarnung** ist **Restbetrag offen lassen**. Die Standardoption der Seite **Skontotoleranzwarnung** ist **Überzogenes Skonto nicht akzeptieren**.
+>  Die Standardoption der Seite **Zahlungstoleranzwarnung** ist **Restbetrag offen lassen**. Die Standardoption der Seite **Kontotoleranzwarnung** ist **Überzogenes Skonto nicht akzeptieren**.
 
 ## <a name="to-block-payment-tolerance-for-customers"></a>Zahlungstoleranz für Debitoren sperren:  
 Die Standardeinrichtung für die Zahlungstoleranz ist zulässig. Um eine Zahlungstoleranz für einen bestimmten Kreditor oder Debitor zu sperren, müssen Sie auf der entsprechenden Debitoren- oder Kreditorenkarte die Toleranz sperren. Wie dies für einen Debitoren stattfindet, wird im Folgendem beschrieben: Die Schritte sind für einen Kreditor ähnlich.
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Kunde** oder **Kreditor** ein und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol öffnet, geben Sie **Kunde** oder **Lieferant** ein und wählen Sie dann den entsprechenden Link.  
 2. Aktivieren Sie auf dem Inforegister **Zahlungen** das Kontrollkästchen **Zahlungstoleranz sperren**.  
 
 > [!NOTE]  
@@ -96,23 +96,23 @@ Szenarien mit Alternative A oder B bedeuten Folgendes:
 - **A** – In diesem Fall wurde die Skontotoleranzwarnung ausgeschaltet ODER der Benutzer hat die Warnung aktiviert und sich entschieden, den verspäteten Skonto zu erlauben (d. h. den Saldo als Zahlungstoleranz zu buchen).  
 - **B** – In diesem Fall hat der Benutzer die Warnung aktiviert und sich entschieden, den überzogenen Skonto nicht zu erlauben (d. h. den Saldo als Restbetrag zu belassen).  
 
-|—|Inv.|Skonto|Max. Zahlungstoleranz|Skontodatum|Skontotoleranz – Datum|Zahlungsdatum|Zahlung|Toleranzart|Alle Posten geschlossen|Skontotoleranz GL/CL|Maximale Zahlungstoleranz GL/CL|  
+|—|Inv.|Skonto|Max. Zahl.-Tol.|Skontodatum|Skontotol. Datum|Zahlungsdatum|Zahl.-|Toleranzart|Alle Posten geschlossen|Skontotol. Skontotoleranz|Zahl.-Tol. G/L|  
 |-------|----------|----------------|-----------------------|---------------------|--------------------------|------------------|----------|--------------------|------------------------|------------------------------|----------------------------|  
-|1|1.000|20|5|15.01.2003|01/20/03|<=15.01.03|985|PaymentTolerance|Ja|0|-5|  
+|1|1.000|20|5|15.01.2003|01/20/03|<=15.01.03|985|Zahl.-Tol.|Ja|0|-5|  
 |2|**1,000**|**20**|**5**|**15.01.2003**|**01/20/03**|**<=15.01.03**|**980**|**Keine**|**Ja**|**0**|**0**|  
-|3|1.000|20|5|15.01.2003|a|<=15.01.03|975|PaymentTolerance|Ja|0|5|  
-|4A|1.000|20|5|15.01.2003|01/20/03|16.01.2003 – 20.01.03|1005|PaymentDiscountTolerance|Nein, 25 in der Zahlung|20/-20|0|  
-|5A|1.000|20|5|15.01.2003|01/20/03|16.01.2003 – 20.01.03|1000|PaymentDiscountTolerance|Nein, 20 in der Zahlung|20/-20|0|  
-|6A|1.000|20|5|15.01.2003|01/20/03|16.01.2003 – 20.01.03|995|PaymentDiscountTolerance|Nein, 15 in der Zahlung|20/-20|0|  
-|4B|1.000|20|5|15.01.2003|01/20/03|16.01.2003 – 20.01.03|1005|PaymentTolerance|Ja|0|-5|  
+|3|1.000|20|5|15.01.2003|c|<=15.01.03|975|Zahl.-Tol.|Ja|0|5|  
+|4A|1.000|20|5|15.01.2003|01/20/03|16.01.2003 – 20.01.03|1005|Skontotoleranz|Nein, 25 in der Zahl.|20/-20|0|  
+|5A|1.000|20|5|15.01.2003|01/20/03|16.01.2003 – 20.01.03|1000|Skontotoleranz|Nein, 20 in der Zahl.|20/-20|0|  
+|6A|1.000|20|5|15.01.2003|01/20/03|16.01.2003 – 20.01.03|995|Skontotoleranz|Nein, 15 in der Zahl.|20/-20|0|  
+|4B|1.000|20|5|15.01.2003|01/20/03|16.01.2003 – 20.01.03|1005|Zahl.-Tol.|Ja|0|-5|  
 |**5B**|**1,000**|**20**|**5**|**15.01.2003**|**01/20/03**|**16.01.2003 – 20.01.03**|**1000**|**Keine**|**Ja**|**0**|**0**|  
-|6B|1.000|20|5|15.01.2003|01/20/03|16.01.2003 – 20.01.03|995|PaymentTolerance|Ja|0|5|  
-|7|1.000|20|5|15.01.2003|01/20/03|16.01.2003 – 20.01.03|985|PaymentDiscountTolerance & PaymentTolerance|Ja|20/-20|-5|  
-|8|1.000|20|5|15.01.2003|01/20/03|16.01.2003 – 20.01.03|980|PaymentDiscountTolerance|Ja|20/-20|0|  
-|9|1.000|20|5|15.01.2003|01/20/03|16.01.2003 – 20.01.03|975|PaymentDiscountTolerance & PaymentTolerance|Ja|20/-20|5|  
-|10|1.000|20|5|15.01.2003|01/20/03|>20.01.03|1005|PaymentTolerance|Ja|0|-5|  
+|6B|1.000|20|5|15.01.2003|01/20/03|16.01.2003 – 20.01.03|995|Zahl.-Tol.|Ja|0|5|  
+|7|1.000|20|5|15.01.2003|01/20/03|16.01.2003 – 20.01.03|985|Skontotol. & Zahl.-Tol.|Ja|20/-20|-5|  
+|8|1.000|20|5|15.01.2003|01/20/03|16.01.2003 – 20.01.03|980|Skontotoleranz|Ja|20/-20|0|  
+|9|1.000|20|5|15.01.2003|01/20/03|16.01.2003 – 20.01.03|975|Skontotol. & Zahl.-Tol.|Ja|20/-20|5|  
+|10|1.000|20|5|15.01.2003|01/20/03|>20.01.03|1005|Zahl.-Tol.|Ja|0|-5|  
 |**11**|**1,000**|**20**|**5**|**15.01.2003**|**01/20/03**|**>20.01.03**|**1000**|**Keine**|**Ja**|**0**|**0**|  
-|12|1.000|20|5|15.01.2003|01/20/03|>20.01.03|995|PaymentTolerance|Ja|0|5|  
+|12|1.000|20|5|15.01.2003|01/20/03|>20.01.03|995|Zahl.-Tol.|Ja|0|5|  
 |13|1.000|20|5|15.01.2003|01/20/03|>20.01.03|985|"Keine"|Nein, 15 in der Rech.|0|0|  
 |14|1.000|20|5|15.01.2003|01/20/03|>20.01.03|980|"Keine"|Nein, 20 in der Rech.|0|0|  
 |15|1.000|20|5|15.01.2003|01/20/03|>20.01.03|975|"Keine"|Nein, 25 in der Rech.|0|0|  
@@ -125,9 +125,9 @@ Restbetrag gemäß
 
 Normale Ausgleichsvorschriften  
 
-![Einzelzahlungstoleranzregeln 1.](media/singlePmtTolRules_Pre1503.gif "Einmahlzahlungstoleranz-Regeln 1")  
+![Einmalzahlungstoleranz-Regeln 1](media/singlePmtTolRules(Pre1503).gif "Einmahlzahlungstoleranz-Regeln 1")  
 
-(1) Fällt die Zahlung in diesen Zeitraum, können alle Ausgleichsposten mit oder ohne Toleranz geschlossen werden.  
+(1) Fällt die Zahlung in diesen Zeitraum, können alle Posten mit oder ohne Toleranz geschlossen werden.  
 
 (2) Fällt die Zahlung in diesen Zeitraum, können nicht alle Posten geschlossen werden, auch nicht mit Toleranz.  
 
@@ -136,9 +136,9 @@ Restbetrag gemäß
 
 Normale Ausgleichsvorschriften  
 
-![Einzelzahlungstoleranzregeln 2.](media/singlePmtTolRules_GracePeriod.gif "Einmahlzahlungstoleranz-Regeln 2")  
+![Einmalzahlungstoleranz-Regeln 2](media/singlePmtTolRules(GracePeriod).gif "Einmahlzahlungstoleranz-Regeln 2")  
 
-(1) Wenn die Zahlung in diese Bereiche fällt, können alle Anwendungseinträge mit oder ohne Toleranz abgeschlossen werden.  
+(1) Fällt die Zahlung in diesen Zeitraum, können alle Ausgleichsposten mit oder ohne Toleranz geschlossen werden.  
 
 (2) Fällt die Zahlung in diesen Zeitraum, können nicht alle Posten geschlossen werden, auch nicht mit Toleranz.  
 
@@ -147,9 +147,9 @@ Restbetrag gemäß
 
 Normale Ausgleichsvorschriften  
 
-![Einzelzahlungstoleranzregeln 3.](media/singlePmtTolRules_Post0120.gif "Einmalzahlungstoleranz-Regeln 3")  
+![Einmalzahlungstoleranz-Regeln 3](media/singlePmtTolRules(Post0120).gif "Einmalzahlungstoleranz-Regeln 3")  
 
-(1) Wenn die Zahlung in diese Bereiche fällt, können alle Anwendungseinträge mit oder ohne Toleranz abgeschlossen werden.  
+(1) Fällt die Zahlung in diesen Zeitraum, können alle Ausgleichsposten mit oder ohne Toleranz geschlossen werden.  
 
 (2) Fällt die Zahlung in diesen Zeitraum, können nicht alle Posten geschlossen werden, auch nicht mit Toleranz.  
 
@@ -167,38 +167,38 @@ Szenarien mit Alternative A, B, C oder D bedeuten Folgendes:
 - **C** – In diesem Fall hat der Benutzer die Warnung aktiviert und sich entschieden, den verspäteten Skonto in der ersten Rechnung zu erlauben, in der zweiten jedoch nicht.  
 - **D** – In diesem Fall hat der Benutzer die Warnung aktiviert und sich entschieden, den verspäteten Skonto in der ersten Rechnung nicht zu erlauben, jedoch in der zweiten.  
 
-|—|Inv.|Skonto|Max. Zahlungstoleranz|Skontodatum|Skontotoleranz – Datum|Zahlungsdatum|Zahlung|Toleranzart|Alle Posten geschlossen|Skontotoleranz GL/CL|Maximale Zahlungstoleranz GL/CL|  
+|—|Inv.|Skonto|Max. Zahl.-Tol.|Skontodatum|Skontotol. Datum|Zahlungsdatum|Zahl.-|Toleranzart|Alle Posten geschlossen|Skontotol. Skontotoleranz|Zahl.-Tol. G/L|  
 |-------|----------|---------------|-------------------|---------------------|--------------------------|------------------|---------|--------------------|------------------------|------------------------------|------------------------|  
-|1|1.000 <br />1.000|60 <br />30|5 <br />5|15.01.2003 <br />17.01.2003|01/20/03 <br />01/22/03|<=15.01.03|1920|PaymentTolerance|Ja|0<br /><br /> 0|-5 <br />-5|  
+|1|1.000 <br />1.000|60 <br />30|5 <br />5|15.01.2003 <br />17.01.2003|01/20/03 <br />01/22/03|<=15.01.03|1920|Zahl.-Tol.|Ja|0<br /><br /> 0|-5 <br />-5|  
 |**2**|**1,000** <br />**1,000**|**60** <br />**30**|**5** <br />**5**|**15.01.2003** <br />**01/17/03**|**01/20/03** <br />**01/22/03**|**<=15.01.03**|**1910**|**Keine**|**Ja**|**0**<br /><br /> **0**|0 <br />0|  
-|3|1.000 <br />1.000|60 <br />30|5 <br />5|15.01.2003 <br />17.01.2003|01/20/03 <br />01/22/03|<=15.01.03|1900|PaymentTolerance|Ja|0<br /><br /> 0|5 <br />5|  
-|4B|1.000 <br />1.000|60 <br />30|5 <br />5|15.01.2003 <br />17.01.2003|01/20/03 <br />01/22/03|01/16/03 01/17/03|1980|PaymentTolerance|Ja|0<br /><br /> 0|-5<br /><br /> -5|  
+|3|1.000 <br />1.000|60 <br />30|5 <br />5|15.01.2003 <br />17.01.2003|01/20/03 <br />01/22/03|<=15.01.03|1900|Zahl.-Tol.|Ja|0<br /><br /> 0|5 <br />5|  
+|4B|1.000 <br />1.000|60 <br />30|5 <br />5|15.01.2003 <br />17.01.2003|01/20/03 <br />01/22/03|01/16/03 01/17/03|1980|Zahl.-Tol.|Ja|0<br /><br /> 0|-5<br /><br /> -5|  
 |**5B**|**1,000** <br />**1,000**|**60** <br />**30**|**5** <br />**5**|**15.01.2003** <br />**01/17/03**|**01/20/03** <br />**01/22/03**|**01/16/03 01/17/03**|**1970**|**Keine**|**Ja**|**0**<br /><br /> **0**|**0**<br /><br /> **0**|  
-|6B|1.000 <br />1.000|60 <br />30|5 <br />5|15.01.2003 <br />17.01.2003|01/20/03 <br />01/22/03|01/16/03 01/17/03|1960|PaymentTolerance|Ja|0<br /><br /> 0|5<br /><br /> 5|  
-|7A|1.000 <br />1.000|60 <br />30|5 <br />5|15.01.2003 <br />17.01.2003|01/20/03 <br />01/22/03|01/16/03 01/17/03|1920|PaymentDiscountTolerance & PaymentTolerance|Ja|60/60<br /><br /> 0/0|-5 <br />-5|  
-|8A|1.000 <br />1.000|60 <br />30|5 <br />5|15.01.2003 <br />17.01.2003|01/20/03 <br />01/22/03|01/16/03 01/17/03|1910|PaymentDiscountTolerance|Ja|60/60<br /><br /> 0/0|0 <br />0|  
-|9A|1.000 <br />1.000|60 <br />30|5 <br />5|15.01.2003 <br />17.01.2003|01/20/03 <br />01/22/03|01/16/03 01/17/03|1900|PaymentDiscountTolerance & PaymentTolerance|Ja|60/60|5 <br />5|  
-|10B|1.000 <br />1.000|60 <br />30|5 <br />5|15.01.2003 <br />17.01.2003|01/20/03 <br />01/22/03|01/18/03 01/20/03|2010|PaymentTolerance|Ja|0<br /><br /> 0|-5<br /><br /> -5|  
+|6B|1.000 <br />1.000|60 <br />30|5 <br />5|15.01.2003 <br />17.01.2003|01/20/03 <br />01/22/03|01/16/03 01/17/03|1960|Zahl.-Tol.|Ja|0<br /><br /> 0|5<br /><br /> 5|  
+|7A|1.000 <br />1.000|60 <br />30|5 <br />5|15.01.2003 <br />17.01.2003|01/20/03 <br />01/22/03|01/16/03 01/17/03|1920|Skontotol. & Zahl.-Tol.|Ja|60/60<br /><br /> 0/0|-5 <br />-5|  
+|8A|1.000 <br />1.000|60 <br />30|5 <br />5|15.01.2003 <br />17.01.2003|01/20/03 <br />01/22/03|01/16/03 01/17/03|1910|Skontotoleranz|Ja|60/60<br /><br /> 0/0|0 <br />0|  
+|9A|1.000 <br />1.000|60 <br />30|5 <br />5|15.01.2003 <br />17.01.2003|01/20/03 <br />01/22/03|01/16/03 01/17/03|1900|Skontotol. & Zahl.-Tol.|Ja|60/60|5 <br />5|  
+|10B|1.000 <br />1.000|60 <br />30|5 <br />5|15.01.2003 <br />17.01.2003|01/20/03 <br />01/22/03|01/18/03 01/20/03|2010|Zahl.-Tol.|Ja|0<br /><br /> 0|-5<br /><br /> -5|  
 |**11B**|**1,000** <br />**1,000**|**60** <br />**30**|**5** <br />**5**|**15.01.2003** <br />**01/17/03**|**01/20/03** <br />**01/22/03**|**01/18/03 01/20/03**|**2000**|**Keine**|**Ja**|**0**<br /><br /> **0**|**0**<br /><br /> **0**|  
-|12B|1.000 <br />1.000|60 <br />30|5 <br />5|15.01.2003 <br />17.01.2003|01/20/03 <br />01/22/03|01/18/03 01/20/03|1990|PaymentTolerance|Ja|0<br /><br /> 0|5<br /><br /> 5|  
-|13D|1.000 <br />1.000|60 <br />30|5 <br />5|15.01.2003 <br />17.01.2003|01/20/03 <br />01/22/03|01/18/03 01/20/03|1980|PaymentDiscountTolerance & PaymentTolerance|Ja|0/0<br /><br /> 30/-30|-5 <br />-5|  
-|14T|1.000 <br />1.000|60 <br />30|5 <br />5|15.01.2003 <br />17.01.2003|01/20/03 <br />01/22/03|01/18/03 01/20/03|1970|PaymentDiscountTolerance|Ja|0/0<br /><br /> 30/-30|0 <br />0|  
-|15T|1.000 <br />1.000|60 <br />30|5 <br />5|15.01.2003 <br />17.01.2003|01/20/03 <br />01/22/03|01/18/03 01/20/03|1960|PaymentDiscountTolerance & PaymentTolerance|Ja|0/0<br /><br /> 30/-30|5 <br />5|  
-|16T|1.000 <br />1.000|60 <br />30|5 <br />5|15.01.2003 <br />17.01.2003|01/20/03 <br />01/22/03|01/18/03 01/20/03|1950|PaymentDiscountTolerance & PaymentTolerance|Ja|60/-60<br /><br /> 0/0|-5 <br />-5|  
-|17T|1.000 <br />1.000|60 <br />30|5 <br />5|15.01.2003 <br />17.01.2003|01/20/03 <br />01/22/03|01/18/03 01/20/03|1940|PaymentDiscountTolerance|Ja|60/-60<br /><br /> 0/0|0 <br />0|  
-|18T|1.000 <br />1.000|60 <br />30|5 <br />5|15.01.2003 <br />17.01.2003|01/20/03 <br />01/22/03|01/18/03 01/20/03|1930|PaymentDiscountTolerance & PaymentTolerance|Ja|60/-60<br /><br /> 0/0|5 <br />5|  
-|19A|1.000 <br />1.000|60 <br />30|5 <br />5|15.01.2003 <br />17.01.2003|01/20/03 <br />01/22/03|01/18/03 01/20/03|1920|PaymentDiscountTolerance & PaymentTolerance|Ja|60/-60<br /><br /> 30/-30|-5 <br />-5|  
-|20A|1.000 <br />1.000|60 <br />30|5 <br />5|15.01.2003 <br />17.01.2003|01/20/03 <br />01/22/03|01/18/03 01/20/03|1910|PaymentDiscountTolerance|Ja|60/-60<br /><br /> 30/-30|0 <br />0|  
-|21A|1.000 <br />1.000|60 <br />30|5 <br />5|15.01.2003 <br />17.01.2003|01/20/03 <br />01/22/03|01/18/03 01/20/03|1900|PaymentDiscountTolerance & PaymentTolerance|Ja|60/-60<br /><br /> 30/-30|5 <br />5|  
-|22B|1.000 <br />1.000|60 <br />30|5 <br />5|15.01.2003 <br />17.01.2003|01/20/03 <br />01/22/03|01/21/03 01/22/03|2010|PaymentTolerance|Ja|0<br /><br /> 0|-5<br /><br /> -5|  
+|12B|1.000 <br />1.000|60 <br />30|5 <br />5|15.01.2003 <br />17.01.2003|01/20/03 <br />01/22/03|01/18/03 01/20/03|1990|Zahl.-Tol.|Ja|0<br /><br /> 0|5<br /><br /> 5|  
+|13D|1.000 <br />1.000|60 <br />30|5 <br />5|15.01.2003 <br />17.01.2003|01/20/03 <br />01/22/03|01/18/03 01/20/03|1980|Skontotol. & Zahl.-Tol.|Ja|0/0<br /><br /> 30/-30|-5 <br />-5|  
+|14T|1.000 <br />1.000|60 <br />30|5 <br />5|15.01.2003 <br />17.01.2003|01/20/03 <br />01/22/03|01/18/03 01/20/03|1970|Skontotoleranz|Ja|0/0<br /><br /> 30/-30|0 <br />0|  
+|15T|1.000 <br />1.000|60 <br />30|5 <br />5|15.01.2003 <br />17.01.2003|01/20/03 <br />01/22/03|01/18/03 01/20/03|1960|Skontotol. & Zahl.-Tol.|Ja|0/0<br /><br /> 30/-30|5 <br />5|  
+|16T|1.000 <br />1.000|60 <br />30|5 <br />5|15.01.2003 <br />17.01.2003|01/20/03 <br />01/22/03|01/18/03 01/20/03|1950|Skontotol. & Zahl.-Tol.|Ja|60/-60<br /><br /> 0/0|-5 <br />-5|  
+|17T|1.000 <br />1.000|60 <br />30|5 <br />5|15.01.2003 <br />17.01.2003|01/20/03 <br />01/22/03|01/18/03 01/20/03|1940|Skontotoleranz|Ja|60/-60<br /><br /> 0/0|0 <br />0|  
+|18T|1.000 <br />1.000|60 <br />30|5 <br />5|15.01.2003 <br />17.01.2003|01/20/03 <br />01/22/03|01/18/03 01/20/03|1930|Skontotol. & Zahl.-Tol.|Ja|60/-60<br /><br /> 0/0|5 <br />5|  
+|19A|1.000 <br />1.000|60 <br />30|5 <br />5|15.01.2003 <br />17.01.2003|01/20/03 <br />01/22/03|01/18/03 01/20/03|1920|Skontotol. & Zahl.-Tol.|Ja|60/-60<br /><br /> 30/-30|-5 <br />-5|  
+|20A|1.000 <br />1.000|60 <br />30|5 <br />5|15.01.2003 <br />17.01.2003|01/20/03 <br />01/22/03|01/18/03 01/20/03|1910|Skontotoleranz|Ja|60/-60<br /><br /> 30/-30|0 <br />0|  
+|21A|1.000 <br />1.000|60 <br />30|5 <br />5|15.01.2003 <br />17.01.2003|01/20/03 <br />01/22/03|01/18/03 01/20/03|1900|Skontotol. & Zahl.-Tol.|Ja|60/-60<br /><br /> 30/-30|5 <br />5|  
+|22B|1.000 <br />1.000|60 <br />30|5 <br />5|15.01.2003 <br />17.01.2003|01/20/03 <br />01/22/03|01/21/03 01/22/03|2010|Zahl.-Tol.|Ja|0<br /><br /> 0|-5<br /><br /> -5|  
 |**23B**|**1,000** <br />**1,000**|**60** <br />**30**|**5** <br />**5**|**15.01.2003** <br />**01/17/03**|**01/20/03** <br />**01/22/03**|**01/21/03 01/22/03**|**2000**|**Keine**|**Ja**|**0**<br /><br /> **0**|**0**<br /><br /> **0**|  
-|24B|1.000 <br />1.000|60 <br />30|5 <br />5|15.01.2003 <br />17.01.2003|01/20/03 <br />01/22/03|01/21/03 01/22/03|1990|PaymentTolerance|Ja|0<br /><br /> 0|5<br /><br /> 5|  
-|25A|1.000 <br />1.000|60 <br />30|5 <br />5|15.01.2003 <br />17.01.2003|01/20/03 <br />01/22/03|01/21/03 01/22/03|1980|PaymentDiscountTolerance & PaymentTolerance|Ja|0/0<br /><br /> 30/30|-5 <br />-5|  
-|26A|1.000 <br />1.000|60 <br />30|5 <br />5|15.01.2003 <br />17.01.2003|01/20/03 <br />01/22/03|01/21/03 01/22/03|1970|PaymentDiscountTolerance|Ja|0/0<br /><br /> 30/30|0 <br />0|  
-|27A|1.000 <br />1.000|60 <br />30|5 <br />5|15.01.2003 <br />17.01.2003|01/20/03 <br />01/22/03|01/21/03 01/22/03|1960|PaymentDiscountTolerance & PaymentTolerance|Ja|0/0<br /><br /> 30/30|5 <br />5|  
-|28|1.000 <br />1.000|60 <br />30|5 <br />5|15.01.2003 <br />17.01.2003|01/20/03 <br />01/22/03|>22.01.03|2010|PaymentTolerance|Ja|0|-5|  
+|24B|1.000 <br />1.000|60 <br />30|5 <br />5|15.01.2003 <br />17.01.2003|01/20/03 <br />01/22/03|01/21/03 01/22/03|1990|Zahl.-Tol.|Ja|0<br /><br /> 0|5<br /><br /> 5|  
+|25A|1.000 <br />1.000|60 <br />30|5 <br />5|15.01.2003 <br />17.01.2003|01/20/03 <br />01/22/03|01/21/03 01/22/03|1980|Skontotol. & Zahl.-Tol.|Ja|0/0<br /><br /> 30/30|-5 <br />-5|  
+|26A|1.000 <br />1.000|60 <br />30|5 <br />5|15.01.2003 <br />17.01.2003|01/20/03 <br />01/22/03|01/21/03 01/22/03|1970|Skontotoleranz|Ja|0/0<br /><br /> 30/30|0 <br />0|  
+|27A|1.000 <br />1.000|60 <br />30|5 <br />5|15.01.2003 <br />17.01.2003|01/20/03 <br />01/22/03|01/21/03 01/22/03|1960|Skontotol. & Zahl.-Tol.|Ja|0/0<br /><br /> 30/30|5 <br />5|  
+|28|1.000 <br />1.000|60 <br />30|5 <br />5|15.01.2003 <br />17.01.2003|01/20/03 <br />01/22/03|>22.01.03|2010|Zahl.-Tol.|Ja|0|-5|  
 |**29**|**1,000** <br />**1,000**|**60** <br />**30**|**5** <br />**5**|**15.01.2003** <br />**01/17/03**|**01/20/03** <br />**01/22/03**|**>22.01.03**|**2000**|**Keine**|**Ja**|**0**|**0**|  
-|30|1.000 <br />1.000|60 <br />30|5 <br />5|15.01.2003 <br />17.01.2003|01/20/03 <br />01/22/03|>22.01.03|1990|PaymentTolerance|Ja|0|5|  
+|30|1.000 <br />1.000|60 <br />30|5 <br />5|15.01.2003 <br />17.01.2003|01/20/03 <br />01/22/03|>22.01.03|1990|Zahl.-Tol.|Ja|0|5|  
 
 ### <a name="payment-range-diagrams"></a>Zahlungsbereichsdiagramme  
 Bezugnehmend auf das o. g. Szenario, sind die Zahlungszeiträume wie folgt:  
@@ -208,7 +208,7 @@ Restbetrag gemäß
 
 Normale Ausgleichsvorschriften  
 
-:::image type="content" source="media/multiplePmtTolRules_Pre1503.gif" alt-text="Mehrfachzahlungstoleranz-Regeln 1A":::
+![Mehrfachzahlungstoleranz-Regeln 1](media/multiplePmtTolRules(Pre1503).gif "Mehrfachzahlungstoleranz-Regeln 1")  
 
 (1) Fällt die Zahlung in diesen Zeitraum, können alle Ausgleichsposten mit oder ohne Toleranz geschlossen werden.  
 
@@ -219,7 +219,7 @@ Restbetrag gemäß
 
 Normale Ausgleichsvorschriften  
 
-:::image type="content" source="media/multiplePmtTolRules_GracePeriodInv1-2.gif" alt-text="Mehrfachzahlungstoleranz-Regeln 2":::
+![Mehrfachzahlungstoleranz-Regeln 2](media/multiplePmtTolRules(GracePeriodInv1-2).gif "Mehrfachzahlungstoleranz-Regeln 2")  
 
 (1) Fällt die Zahlung in diesen Zeitraum, können alle Ausgleichsposten mit oder ohne Toleranz geschlossen werden.  
 
@@ -230,7 +230,7 @@ Restbetrag gemäß
 
 Normale Ausgleichsvorschriften  
 
-:::image type="content" source="media/multiplePmtTolRules_GracePeriodInv1.gif" alt-text="Mehrfachzahlungstoleranz-Regeln 3":::
+![Mehrfachzahlungstoleranz-Regeln 3](media/multiplePmtTolRules(GracePeriodInv1).gif "Mehrfachzahlungstoleranz-Regeln 3")  
 
 (1) Fällt die Zahlung in diesen Zeitraum, können alle Ausgleichsposten mit oder ohne Toleranz geschlossen werden.  
 
@@ -241,7 +241,7 @@ Restbetrag gemäß
 
 Normale Ausgleichsvorschriften  
 
-:::image type="content" source="media/multiplePmtTolRules_GracePeriodInv2.gif" alt-text="Mehrfachzahlungstoleranz-Regeln 4":::
+![Mehrfachzahlungstoleranz-Regeln 4](media/multiplePmtTolRules(GracePeriodInv2).gif "Mehrfachzahlungstoleranz-Regeln 4")  
 
 (1) Fällt die Zahlung in diesen Zeitraum, können alle Ausgleichsposten mit oder ohne Toleranz geschlossen werden.  
 
@@ -252,7 +252,7 @@ Restbetrag gemäß
 
 Normale Ausgleichsvorschriften  
 
-:::image type="content" source="media/multiplePmtTolRules_Post0122.gif" alt-text="Mehrfachzahlungstoleranz-Regeln 5":::
+![Mehrfachzahlungstoleranz-Regeln 5](media/multiplePmtTolRules(Post0122).gif "Mehrfachzahlungstoleranz-Regeln 5")  
 
 (1) Fällt die Zahlung in diesen Zeitraum, können alle Ausgleichsposten mit oder ohne Toleranz geschlossen werden.  
 
@@ -262,7 +262,4 @@ Normale Ausgleichsvorschriften
 [Finanzen](finance.md)  
 [Finanzen einrichten](finance-setup-finance.md)  
 [Verwalten von Forderungen](receivables-manage-receivables.md)  
-[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

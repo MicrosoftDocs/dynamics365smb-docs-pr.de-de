@@ -1,28 +1,28 @@
 ---
-title: Info über Lagerkostenberechnung
-description: Bei der Verwaltung von Lagerbeständen geht es um die Erfassung und das Reporting der betrieblichen Vorgänge, einschließlich des Reportings von Herstellkosten und Bestandskosten.
+title: Info über Lagerkostenberechnung | Microsoft Docs
+description: Die Verwaltung der Lagerkostenberechnung dient zum Erfassen und Melden der Betriebskosten eines Unternehmens. Sie umfasst das Melden von Fertigungskosten und Lagerkosten (also den Wert von Artikeln).
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/16/2021
-ms.author: edupont
-ms.openlocfilehash: 36420747117425e1f66e30ed6090f300e27776f4
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 477c5f004f2d62fcc9c3b2a065f9d00e382fff09
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6325761"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183093"
 ---
 # <a name="about-inventory-costing"></a>Info über Lagerkostenberechnung
 Die Verwaltung der Lagerkostenberechnung dient zum Erfassen und Melden der Betriebskosten eines Unternehmens. Sie umfasst das Melden von Fertigungskosten und Lagerkosten (also den Wert von Artikeln).  
 
  Wichtige Prinzipien: Mithilfe von Lagerabgangsmethoden werden die Bewertung von Artikeln sowie der Zeitpunkt definiert, zu dem sie das Lager verlassen. Durch eine Lagerregulierung werden die Kosten für verkaufte Waren mit zugehörigen, nach dem Verkauf gebuchten Einkaufskosten aktualisiert. Lagerwerte müssen in regelmäßigen Abständen auf dedizierte Sachkonten gebucht werden.  
 
- Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Themen, die sie beschreiben..   
+ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den beschriebenen Themen erläutert.   
 
 |**Aufgabe**|**Siehe**|  
 |------------|-------------|  
@@ -33,14 +33,11 @@ Die Verwaltung der Lagerkostenberechnung dient zum Erfassen und Melden der Betri
 |Unterscheiden der Soll-Kosten (noch nicht fakturiert) und der tatsächlichen Kosten sowie Erhalten von Informationen dazu, warum diese in der Finanzbuchhaltung verwaltet werden|[Designdetails: Soll-Kosten-Buchen](design-details-expected-cost-posting.md)|  
 |Entwickeln eines Verständnisses für den Kostenregulierungsmechanismus, durch den die Berücksichtigung von Kosten auch dann sichergestellt ist, wenn Lagertransaktionen auf unregelmäßige Weise erfolgen|[Designdetails: Kostenregulierung](design-details-cost-adjustment.md)|  
 |Erhalten von Informationen dazu, warum feste Einstandspreise häufig von Fertigungsbetrieben als Bewertungsgrundlage für Komponenten und Endartikel verwendet werden|[Informationen zur Berechnung von festen Einstandspreisen](finance-about-calculating-standard-cost.md)|  
-|Entwickeln eines Verständnisses dafür, wie der Wert von Lagerbestand in der Finanzbuchhaltung dargestellt wird|[Abstimmen der Lagerkosten mit der Finanzbuchhaltung](finance-how-to-post-inventory-costs-to-the-general-ledger.md)|  
+|Entwickeln eines Verständnisses dafür, wie der Wert von Lagerbestand in der Finanzbuchhaltung dargestellt wird|[Melden von Kosten und Abstimmen mit der Finanzbuchhaltung](finance-report-costs-and-reconcile-with-the-general-ledger.md)|  
 |Erhalten von Informationen dazu, wie dem Einstandspreis eines Artikels durch Artikelzu-/-abschläge (wie Fracht und Versicherung) zusätzliche Kostenkomponenten zugeordnet werden können|[Verwenden von Artikelzuschlägen für zusätzliche Kosten](payables-how-assign-item-charges.md)|  
 |Erhalten von Informationen dazu, wie Lagerbuchungsperioden in einem Unternehmen zur kontinuierlichen Steuerung des Lagerwerts beitragen können, indem kürzere Perioden definiert werden, die im Laufe des Geschäftsjahrs abgeschlossen werden können|[Arbeiten mit Lagerbuchungsperioden](finance-how-to-work-with-inventory-periods.md)|  
 |Verstehen aller Mechanismen im Kalkulationsmodul, einschließlich dessen, was passiert, wenn Sie Montage- und Produktionstransaktionen buchen.|[Designdetails: Lagerkostenberechnung](design-details-inventory-costing.md)|  
 
 ## <a name="see-also"></a>Siehe auch
 [Verwalten der Lagerregulierung](finance-manage-inventory-costs.md)    
-[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

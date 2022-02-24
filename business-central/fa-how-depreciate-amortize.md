@@ -1,22 +1,21 @@
 ---
-title: FA abschreiben oder amortisieren
-description: Sie müssen definieren, wie Sie jede Ihrer Anlagen, wie z. B. Maschinen und Geräte, über ihre Abschreibungsdauer abschreiben, abwerten oder amortisieren.
+title: Anlagen abschreiben oder amortisieren| Microsoft Docs
+description: Sie müssen festlegen, wie Sie jede Ihrer Anlagen abschreiben oder amortisieren.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
-ms.search.form: 5610, 5611, 5659, 5660, 5663, 5619, 5666
-ms.date: 06/15/2021
-ms.author: edupont
-ms.openlocfilehash: 54470439a7376f2bb3d22b357d9b5397588190a5
-ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: d113277e72dbc7e367fe39e6af7f4e3e2a2bb18d
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "8029352"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3184484"
 ---
 # <a name="depreciate-or-amortize-fixed-assets"></a>Anlagen abschreiben oder amortisieren
 Abschreibung wird verwendet, um die Anschaffungskosten von Anlagen wie Maschinen und Ausrüstung über die Nutzungsdauer zu verteilen. Sie müssen für jede Anlage definieren, wie diese abgeschrieben wird.  
@@ -26,7 +25,7 @@ Abschreibung wird verwendet, um die Anschaffungskosten von Anlagen wie Maschinen
 * Automatisch durch Ausführen der Stapelverarbeitung **AfA berechnen**  
 * Manuell, unter Verwendung des Anlagen Fibu Buch.-Blattes.  
 
-[!INCLUDE[prod_short](includes/prod_short.md)] kann tägliche Abschreibungen berechnen, sodass Sie Abschreibungen für beliebige Perioden berechnen können. Sie können damit das aktuelle operative Ergebnis beispielsweise auf monatlicher, quartalsweiser oder jährlicher Basis analysieren. Die Berechnungen verwendet ein standardisiertes Jahr mit 360 Tagen und einen standardisierten Monat mit 30 Tagen. Weitere Informationen finden Sie unter [AfA-Methoden](fa-depreciation-methods.md).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] kann tägliche Abschreibungen berechnen, sodass Sie Abschreibungen für beliebige Perioden berechnen können. Sie können damit das aktuelle operative Ergebnis beispielsweise auf monatlicher, quartalsweiser oder jährlicher Basis analysieren. Die Berechnungen verwendet ein standardisiertes Jahr mit 360 Tagen und einen standardisierten Monat mit 30 Tagen. Weitere Informationen finden Sie unter [AfA-Methoden](fa-depreciation-methods.md).  
 
 Falls eine Anlage von verschiedenen Abteilungen verwendet wird, kann die AfA automatisch entsprechend einer benutzerdefinierten Tabelle auf diese Abteilungen verteilt werden.  
 
@@ -37,25 +36,19 @@ Die Indexierung wird verwendet, um die Werte allgemeinen Preisänderungen anzupa
 ## <a name="to-calculate-depreciation-automatically"></a>So berechnen Sie AfA automatisch
 Einmal monatlich oder in beliebigen anderen Intervallen können Sie die Stapelverarbeitung **AfA berechnen** ausführen. Der Stapelverarbeitungsjob ignoriert Anlagen, die verkauft wurden, auf der Anlagenkarte gesperrt oder inaktiv sind, und Anlagen, die die AfA-Methode "Manuell" verwenden.  
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **AfA berechnen** ein, und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Abschreibung berechnen** ein, und wählen Sie dann den zugehörigen Link.  
 2. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Wählen Sie die Schaltfläche **OK** aus.  
 
     Die Stapelverarbeitung berechnet die AfA und erstellt Zeilen im Anlagen Fibu Buch.-Blatt.
 
-4. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Anlagen Fibu Buch.-Blätter** ein, und wählen Sie dann den zugehörigen Link.  
+4. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Anlagen-Fibu Buch.-Blätter** ein und wählen Sie dann den entsprechenden Link.  
 
     Auf der Seite **Anlagen-Fibu Buch.-Blatt** können Sie im Feld **Anzahl AfA-Tage** sehen, wie viele AfA-Tage berechnet wurden.  
-5. Wählen Sie die Aktion **Buchen**.  
-
-> [!NOTE]
-> Bekannte Einschränkung: Wenn Sie das Feld **Anzahl der Tage erzwingen** auf Ja festlegen und das Feld **Anzahl der Tage erzwingen** auf einen Wert festgelegt ist, bei dem **Buchungsdatum** minus **Anzahl der Tage** ein Datum im vorherigen Kalenderjahr ergibt, lässt das System Sie die Abschreibung nicht buchen.
-> Sie können dies vermeiden, indem Sie das Feld **Anzahl der Tage** auf höchstens die berechneten Tage bis zum Buchungsdatum mit 30 Tagen/Monat reduzieren ODER das Flag **Geschäftsjahr 365 Tage** im AfA-Buch festlegen.
-> Wir empfehlen die erste Option, da Sie die Verwendung von 30 Tagen/Monaten für die Abschreibung möglicherweise nicht ändern möchten. Weitere Informationen finden Sie unter [Feld 365 Tage Geschäftsjahr Abschreibung](fa-how-setup-depreciation.md#fiscal-year-365-days-field-depreciation).
-
+5. Wählen Sie die Aktion **Buchen** aus.  
 
 ## <a name="to-post-depreciation-manually-from-the-fixed-asset-gl-journal"></a>So buchen Sie eine AfA aus dem Anlagen Fibu Buch.-Blatt
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Anlagen-Fibu Buch.-Blatt** ein und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Anlagen-Fibu Buch.-Blatt** ein, und wählen Sie dann den entsprechenden Link.  
 2. Erstellen Sie eine ursprüngliche Buch.-Blattzeile und füllen Sie die notwendigen Felder aus.  
 3. Wählen Sie im Feld **Anlagenbuchungsart** die **AfA**.  
 4. Wählen Sie die Aktion **Anlagengegenkonto einfügen**. Eine zweite Buch.-Blattzeile wird für das Gegenkonto erstellt, das für die AfA-Buchung eingerichtet ist. Weitere Informationen finden Sie unter [So richten Sie Anlagenbuchungsgruppen ein](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).
@@ -75,7 +68,7 @@ Im Feld **Erinnerungswert** auf der Seite **Anlagenabschreibungsbücher** könne
 ## <a name="to-calculate-allocations-in-the-fixed-asset-gl-journal"></a>So berechnen Sie Verteilungen in Anlagen Fibu Buch.-Blättern
 Falls eine Anlage von verschiedenen Kostenstellen verwendet wird, kann die AfA automatisch entsprechend einer benutzerdefinierten Tabelle auf diese Kostenstellen verteilt werden.  
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Anlagen-Fibu Buch.-Blatt** ein und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Anlagen-Fibu Buch.-Blatt** ein, und wählen Sie dann den entsprechenden Link.  
 2. Erstellen Sie eine ursprüngliche Zeile und füllen Sie die notwendigen Felder aus.
 3. Wählen Sie im Feld **Anlagenbuchungsart** die **Verteilung**.  
 4. Wählen Sie die Aktion **Anlagengegenkonto einfügen**. Eine zweite Buch.-Blattzeile wird für das Gegenkonto erstellt, das für die Buchung einer Verteilung eingerichtet wird.  
@@ -84,18 +77,18 @@ Falls eine Anlage von verschiedenen Kostenstellen verwendet wird, kann die AfA a
 ## <a name="use-duplication-lists-to-prepare-to-post-to-multiple-depreciation-books"></a>Kopiervorgänge zum Vorbereiten von Buchungen in mehrere AfA-Bücher verwenden
 Ausfüllen der Zeilen in einem Buch.-Blatt für die Buchung auf ein AfA-Buch und anschließendes Kopieren der Zeilen in ein anderes Buch.-Blatt, von wo aus sie auf ein anderes AfA-Buch gebucht werden können Weitere Informationen finden Sie unter [So buchen Sie Posten auf verschiedene Abschreibungsbücher](fa-how-depreciate-amortize.md#to-post-entries-to-different-depreciation-books).
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Afa-Bücher** ein und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **AfA-Bücher** ein, und wählen Sie dann den zugehörigen Link.  
 2. Öffnen Sie das entsprechende AfA-Buch aus und aktivieren Sie dann das Kontrollkästchen **Teil des Kopiervorgangs**.  
 
 > [!IMPORTANT]  
 >   Wenn Sie das Feld **Kopiervorgang aktivieren** aktiviert haben, dürfen Sie im Buch.-Blatt keine Nummernserien verwenden. Der Grund dafür ist, dass die Nummernserie für das Anlagen Fibu Buch.-Blatt nicht der Nummernserie im Anlagen Buch.-Blatt entspricht.  
 
 ## <a name="to-post-entries-to-different-depreciation-books"></a>So buchen Sie Posten auf verschiedene AfA-Bücher
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Anlagen-Fibu Buch.-Blatt** ein und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Anlagen-Fibu Buch.-Blatt** ein, und wählen Sie dann den entsprechenden Link.  
 2. Aktivieren Sie im Buch.-Blatt, das Sie zum Buchen der AfA verwenden möchten, das Kontrollkästchen **Kopiervorgang aktivieren**.  
 3. Füllen Sie die verbleibenden Felder je nach Bedarf aus.  
 4. Wählen Sie die Aktion **Buchen**.  
-5. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **FA-Erfassungen Buch.-Blätter** ein und wählen Sie dann den zugehörigen Link.  
+5. Wählen Sie das Symbol ![Glühbirne , das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Anlagen Buch.-Blätter** ein und wählen Sie dann den entsprechenden Link.  
 
     > [!NOTE]  
     >   Auf der Seite **Anlagen Buch.-Blatt** enthält neue Zeilen für verschiedene AfA-Bücher entsprechend der Verdopplungsliste.  
@@ -107,7 +100,7 @@ Ausfüllen der Zeilen in einem Buch.-Blatt für die Buchung auf ein AfA-Buch und
 Sie können mit Hilfe der Stapelverarbeitung **AfA-Buch kopieren** Posten von einem AfA-Buch in ein anderes AfA-Buch kopieren. Die Stapelverarbeitung erstellt Buch.-Blattzeilen in dem Buch.-Blatt, das Sie auf der Seite **Anlagen Buch.-Blatt Einr.** für das AfA-Buch angegeben haben, aus dem Sie kopieren möchten. Weitere Informationen finden Sie in der folgenden Prozedur.  
 
 ## <a name="to-copy-fixed-asset-ledger-entries-between-depreciation-books"></a>So kopieren Sie Anlagenposten zwischen AfA-Büchern
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Afa-Bücher** ein und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **AfA-Bücher** ein, und wählen Sie dann den zugehörigen Link.  
 2. Öffnen Sie die entsprechende AfA-Buch - Karte und wählen Sie dann die Aktion **AfA-Buch kopieren**.  
 3. Füllen Sie im Inforegister **AfA-Buchkarte kopieren** die Seite nach Bedarf aus.  
 4. Wählen Sie die Schaltfläche **OK** aus.  
@@ -118,7 +111,4 @@ Die kopierten Zeilen werden entweder in einem Anlagen Fibu Buch.-Blatt oder im A
 [Anlagen](fa-manage.md)  
 [Anlagen einrichten](fa-setup.md)  
 [Finanzen](finance.md)  
-[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

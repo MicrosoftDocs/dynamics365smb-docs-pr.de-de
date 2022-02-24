@@ -1,33 +1,29 @@
 ---
-title: Listenberichte für Kreditorenzahlungen in deutscher Version drucken
-description: Der Listenbericht für Kreditorenzahlungen liefert eine Zahlungsauflistung für jeden Kreditor in der deutschen Version. Der Bericht kann Zahlungen chronologisch oder nach Kreditor gruppiert sortieren.
+title: 'Gewusst wie: Druck von Listenberichten für Kreditorenzahlungen'
+description: Die Liste Kreditorenzahlungen zeigt eine Liste von Zahlungen für jeden Kreditor an. Der Bericht kann Zahlungen chronologisch oder nach Kreditor gruppiert sortieren.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: 007f0db59923dc9d529822a7d7cd85b257d237d8
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: e78fbc673d7d45cb81b1db689bde70674949fb8d
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435181"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181160"
 ---
-# <a name="print-vendor-payments-list-reports-in-the-german-version"></a>Listenberichte für Kreditorenzahlungen in deutscher Version drucken
-
+# <a name="print-vendor-payments-list-reports"></a>Gewusst wie: Druck von Listenberichten für Kreditorenzahlungen
 Die Liste **Kreditorenzahlungen** zeigt eine Liste von Zahlungen für jeden Kreditor an. Der Bericht kann Zahlungen chronologisch oder nach Kreditor gruppiert sortieren.  
-
-> [!NOTE]
-> Der **Listenbericht für Kreditorenzahlungen** ist in folgenden Märkten verfügbar: Österreich, Deutschland, Schweiz.
 
 ## <a name="to-print-the-vendor-payments-list-report"></a>Gewusst wie: Druck von Listenberichten für Kreditorenzahlungen  
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](../../media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen") Symbol. Geben Sie **Kreditorenzahlungen – Liste** ein, und wählen Sie dann den entsprechenden Link.  
-2. Füllen Sie im Inforegister **Optionen** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
+1.  Wählen Sie das Symbol ![Suche nach Seite oder Bericht](../../media/ui-search/search_small.png "Symbol „Suche nach Seite oder Bericht“"), geben Sie **Kreditorenzahlungsliste** ein und wählen Sie dann den entsprechenden Link.  
+2.  Füllen Sie im Inforegister **Optionen** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 
     |Feld|Description|  
     |---------------------------------|---------------------------------------|  
@@ -36,9 +32,5 @@ Die Liste **Kreditorenzahlungen** zeigt eine Liste von Zahlungen für jeden Kred
 
  Am Ende des Berichts wir die Anzahl der verarbeiteten Zahlungen angezeigt.  
 
-## <a name="see-also"></a>Siehe auch
-
+## <a name="see-also"></a>Siehe auch  
 [Zahlungen vornehmen](../../payables-make-payments.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

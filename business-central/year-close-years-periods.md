@@ -1,25 +1,25 @@
 ---
-title: Geschäftsjahr und Buchhaltungsperioden schließen
+title: Abschließen der Buchhaltungsperioden für ein Geschäftsjahr | Microsoft Docs
 description: Gliedert die Aufgaben, um ein Geschäftsjahr abzuschließen oder Buchhaltungsperiode, beispielsweise der Belege und die Buch.-Blätter sind vergewissernd gebucht überprüfend und Bankguthaben.
+services: project-madeira
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
-ms.search.form: 100
-ms.date: 04/01/2021
+ms.date: 01/13/2020
 ms.author: jswymer
-ms.openlocfilehash: 3faa427363d2d30ce387bbfe911f320064d3276a
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: ef2f3f5e11b9593dce1ba1eb2039c0c0edd32aba
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7971784"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953131"
 ---
 # <a name="closing-years-and-periods"></a>Beenden von Jahresabschluss und Perioden
-
 Am Ende eines Geschäftsjahrs gibt es einige Verwaltungsaufgaben, die Sie ausführen müssen, wie das Sicherstellen, dass alle Belege und Buch.-Blätter gebucht sind und dass alle Währungsdaten aktuell sind, die Bücher abschließen und weiteres. Die tatsächlichen Aufgaben hängen von Ihrem Unternehmen ab.
 
 Die folgende Tabelle enthält einen Überblick über die Aufgaben, die Sie üblicherweise ausführen, um ein Jahr und eine Periode zu schließen.
@@ -39,11 +39,7 @@ Die folgende Tabelle enthält einen Überblick über die Aufgaben, die Sie übli
 ## <a name="see-related-training-at-microsoft-learn"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/modules/close-fiscal-year-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Siehe auch
+[Ein neues Geschäftsjahres eröffnen](finance-how-open-new-fiscal-year.md)  
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
-[Arbeiten mit Buchhaltungsperioden und Geschäftsjahren](finance-accounting-periods-and-fiscal-years.md)  
-[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

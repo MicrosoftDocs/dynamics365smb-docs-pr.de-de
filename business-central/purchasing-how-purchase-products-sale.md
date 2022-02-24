@@ -1,25 +1,23 @@
 ---
-title: Einkauf von Artikeln für einen Verkauf
+title: Einkaufs-Artikel für einen Verkauf durch das Erstellen von Einkaufsrechnungen | Microsoft Docs
 description: Von einer Verkaufsrechnung um Produkte einzukaufen, können Sie eine Einkaufsrechnung für einen Kreditor oder Lieferanten einen erstellen.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: supply planning, sales demand, replenish
-ms.search.form: 50, 51, 56, 9308
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: 46057027e89a087105ca52969c8d5f40a2c0cd26
-ms.sourcegitcommit: e008b3d7003c256475d6c606e5f7c9866a6bbb72
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 1b723eaa62ef51fb6cacd42c29a4e2709a3228e6
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7953409"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2312484"
 ---
-# <a name="purchase-items-for-a-sale-by-creating-purchase-invoices"></a>Artikel für einen Verkauf durch das Erstellen von Einkaufsrechnungen kaufen
-
+# <a name="purchase-items-for-a-sale"></a>Einkauf von Artikeln für einen Verkauf
 Bei Verkaufsaufträgen aus der Verkaufsrechnungen können Sie Funktionen verwenden, um für Einkaufsbelege Mengen des fehlenden Stücks schneller zu erstellen, die im Verkauf benötigt werden. Sie können zwei verschiedene Funktionen nutzen, abhängig von der Belegart, die verwendet wird.
 
 > [!Note]
@@ -33,7 +31,7 @@ Bei Verkaufsaufträgen aus der Verkaufsrechnungen können Sie Funktionen verwend
 ## <a name="to-create-one-or-more-purchase-orders-from-a-sales-order"></a>Um eine oder mehrere Einkaufsbestellungen aus Verkaufsaufträgen zu erstellen
 Um eine Bestellung für jede Artikelmenge von nichtverfügbaren Artikeln im Verkaufsauftrag zu erstellen, verwenden Sie die Funktion **Einkaufsbestellungen**.
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Verkaufsaufträge** ein, und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Aufträge** ein, und wählen dann den zugehörigen Link aus.
 2. Öffnen Sie einen Verkaufsauftrag für Artikel, die Sie kaufen möchten.
 3. Wählen Sie die Aktion **Einkaufsbestellung erstellen**.
 
@@ -56,7 +54,7 @@ Eine einzelne Einkaufsrechnung für eine oder mehrere Zeilen in einem Verkaufsbe
 > [!NOTE]  
 >   Diese Funktion erstellt eine Einkaufsrechnung für die exakte Artikelmenge audf dem ausgewählten Verkaufsbeleg. Um die Abnahmemenge zu ändern, müssen Sie die Einkaufsrechnung bearbeiten nachdem sie erstellt wurde.  
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Verkaufsaufträge** ein, und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Aufträge** ein, und wählen dann den zugehörigen Link aus.
 2. Öffnen Sie einen Verkaufsrechnunung für Artikel, die Sie kaufen möchten.
 3. Wählen Sie eine oder mehrere Rechnungszeilen aus, die Sie auf der Einkaufsrechnung verwenden möchten. Um alle Verkaufsrechnungszeilen zu verwenden, wählen Sie entweder alle oder keine Zeilen aus.
 4. Wählen Sie die Aktion **Einkaufsrechnung erstellen**.
@@ -71,7 +69,4 @@ Eine einzelne Einkaufsrechnung für eine oder mehrere Zeilen in einem Verkaufsbe
 [Erfassen eines Einkaufs](purchasing-how-record-purchases.md)  
 [Fakturieren eines Verkaufs](sales-how-invoice-sales.md)  
 [Registriert einen neuen Kreditor](purchasing-how-register-new-vendors.md)  
-[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

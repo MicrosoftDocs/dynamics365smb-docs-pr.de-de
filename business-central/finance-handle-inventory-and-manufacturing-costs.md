@@ -1,28 +1,28 @@
 ---
-title: Umgang mit Bestand und Kalkulationen
-description: Hier erfahren Sie, wie sich eine Reihe von Feldern, Seiten und Berichten an Benutzer richtet, die direkt oder indirekt die Kosten von Artikeln oder Vorgängen verwalten.
+title: Verarbeiten von Lager- und Fertigungskosten | Microsoft Docs
+description: Obgleich viele der Kostenberechnungsfunktionen in untergeordneten Prozessen ohne Benutzereingriff ausgedrückt werden (beispielsweise Postenausgleich und automatische Lagerregulierung), sind eine Reihe von Feldern, Seiten und Berichten für Benutzer konzipiert, die die Kosten von Artikeln oder Arbeitsgängen direkt oder indirekt verwalten.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/16/2021
-ms.author: edupont
-ms.openlocfilehash: 82221de7c57e6130a3259ae7cf7be095e3c0571e
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: e61174dd162111f6e7580026c5e91454b2ffa918
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6323340"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183740"
 ---
 # <a name="handling-inventory-and-manufacturing-costs"></a>Verarbeiten von Lager- und Fertigungskosten
 Obgleich viele der Kostenberechnungsfunktionen in untergeordneten Prozessen ohne Benutzereingriff ausgedrückt werden (beispielsweise Postenausgleich und automatische Lagerregulierung), sind eine Reihe von Feldern, Seiten und Berichten für Benutzer konzipiert, die die Kosten von Artikeln oder Arbeitsgängen direkt oder indirekt verwalten.  
 
  Das Zuordnen von Artikelzu-/-abschlägen zu Einkaufsbelegen ist ein Beispiel für eine indirekte Kostenberechnungsaufgabe. Das Aktualisieren des Einstandspreises von Produktionsstücklistenartikeln ist ein Beispiel für eine direktere Kostenberechnungsaufgabe.  
 
- Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Themen, die sie beschreiben..   
+ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den beschriebenen Themen erläutert.   
 
 |**Aufgabe**|**Siehe**|  
 |------------|-------------|  
@@ -38,6 +38,3 @@ Obgleich viele der Kostenberechnungsfunktionen in untergeordneten Prozessen ohne
 ## <a name="see-also"></a>Siehe auch  
 [Lagerkosten Verwalten](finance-manage-inventory-costs.md)
 [Designdetails: Lagerkosten](design-details-inventory-costing.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

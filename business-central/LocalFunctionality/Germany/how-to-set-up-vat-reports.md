@@ -1,28 +1,28 @@
 ---
-title: So legen Sie MwSt.-Berichte fest [DE]
-description: Um einen MwSt-Bericht unter dem System ELMA5 von Business Central einzurichten, müssen Sie die Parameter melden.
+title: 'Vorgehensweise: Einrichten von MwSt.-Berichten'
+description: Informationen aus verschiedenen Rechnungstypen werden verwendet, um Daten in den Ausfuhr-Listenbericht EU zu speisen. Um einen MwSt-Bericht unter dem System ELMA5 von Business Central einzurichten, müssen Sie die Parameter melden.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/18/2021
-ms.author: edupont
-ms.openlocfilehash: 4c9ef5ddce21f37106cb9577df47f9d284e6b7a6
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 9bfab31558aaffab1c5bf0d5ffb2008dd8aaf98c
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439228"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181154"
 ---
-# <a name="set-up-vat-reports-in-the-german-version"></a>Festlegen von MwSt.-Berichten in der deutschen Version
-Informationen aus verschiedenen Rechnungstypen werden verwendet, um Daten in den Ausfuhr-Listenbericht EU zu speisen. Um einen MwSt-Bericht unter dem System ELMA5 von [!INCLUDE[prod_short](../../includes/prod_short.md)] einzurichten, müssen Sie die Parameter melden.  
+# <a name="set-up-vat-reports"></a>Richten Sie die MwSt.-Berichte ein.
+Informationen aus verschiedenen Rechnungstypen werden verwendet, um Daten in den Ausfuhr-Listenbericht EU zu speisen. Um einen MwSt-Bericht unter dem System ELMA5 von [!INCLUDE[d365fin](../../includes/d365fin_md.md)] einzurichten, müssen Sie die Parameter melden.  
 
 ## <a name="to-set-up-a-vat-report"></a>So richten Sie einen MwSt-Bericht ein  
 
-1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](../../media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen") Symbol. Geben Sie **MWSt.-Berichtseinrichtung** ein und wählen Sie dann den entsprechenden Link.  
+1.  Wählen Sie das Symbol ![Suche nach Seite oder Bericht](../../media/ui-search/search_small.png "Symbol „Suche nach Seite oder Bericht“"), geben Sie **MwSt.-Berichtseinrichtung** ein und wählen Sie dann den entsprechenden Link.  
 2.  Wählen Sie im Inforegister **Allgemein** das Feld **Übermittelte Berichte bearbeiten** aus, damit Benutzer MwSt.-Erklärungen, die an die Steuerbehörden übermittelt wurden, ändern können.  
 
     Wenn Sie das Feld leer lassen, müssen Benutzer stattdessen eine Korrektur-MwSt.-Erklärung erstellen.  
@@ -39,7 +39,4 @@ Informationen aus verschiedenen Rechnungstypen werden verwendet, um Daten in den
 
 ## <a name="see-also"></a>Siehe auch  
  [MwSt.-Abrechnung](vat-reporting.md)   
- [Erstellen von MwsT-Berichten](how-to-create-vat-reports.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+ [Erstellen von MwsT-Berichten.](how-to-create-vat-reports.md)

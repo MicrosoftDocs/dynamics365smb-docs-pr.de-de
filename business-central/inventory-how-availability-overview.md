@@ -1,38 +1,37 @@
 ---
-title: Eine Verfügbarkeitsübersicht erhalten
-description: Sie können Informationen über die Verfügbarkeit von Artikeln oder Lagerbeständen über Lagerorte hinweg, nach Verkaufs- oder Kauf-Ereignissen, nach Zeiträumen und mehr erhalten.
+title: Verschaffen Sie sich einen Überblick über die Verfügbarkeit| Microsoft Docs
+description: Beschreibt, wie die Verfügbarkeit der Artikel über Lagerorte, pro Verkaufs- oder Einkaufsereignisse, nach einem Zeitraum oder der Position des Artikels in einer Montagestückliste angezeigt werden kann.
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: overview
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: stock
-ms.search.form: 908, 909, 925, 926, 504, 501, 500, 499, 99000896, 342, 515, 5417, 5415, 5871, 5530, 492, 157, 5540, 5416, 5414, 1872, 1873, 99000902, 353, 491, 9231, 5390
-ms.date: 06/16/2021
-ms.author: edupont
-ms.openlocfilehash: 01efc9191cad10414c344b4fe3a28ae2cef63ef9
-ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
+ms.date: 04/01/2020
+ms.author: SorenGP
+ms.openlocfilehash: f95544f2090185512d94e9a8ce10975304f0ec2f
+ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060116"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3324246"
 ---
 # <a name="view-the-availability-of-items"></a>Artikelverfügbarkeit anzeigen
 Vom Kontext einer Geschäftsaufgabe können Sie erweiterte Informationen darüber erhalten, wann und wo ein Artikel verfügbar ist, so als ob Sie mit einem Debitoren über ein Lieferdatum sprechen.
 
-Sie können die Verfügbarkeit aller Elemente pro Lagerort anzeigen, und Sie können die Verfügbarkeit jedes Elements auch nach Ereignis oder nach Zeitraum anzeigen. Ein Ereignis ist jede beliebige geplante Artikeltransaktion, wie beispielsweise eine Verkaufslieferung oder ein eingehender Umlagerungseingang.
+Sie können die Verfügbarkeit aller Artikel pro Lagerplatz anzeigen, und Sie können die Verfügbarkeit jedes Artikels nach Ereignis, nach Periode oder nach Lagerplatz anzeigen. Ein Ereignis ist jede beliebige geplante Artikeltransaktion, wie beispielsweise eine Verkaufslieferung oder ein eingehender Umlagerungseingang.
 
 > [!NOTE]  
 >   Die Verfügbarkeitsansichten nach Lagerplatz erfordern, dass Sie den Lagerbestand an mehr als einem Lagerplatz verwalten. Weitere Informationen finden Sie unter [Einrichten von Lagerorten](inventory-how-setup-locations.md).
 
 Wenn Sie die Lagerfunktion verwenden, variiert die Verfügbarkeit je nach Zuordnungen auf Lagerplatzebene, wenn Lageraktivitäten wie Kommissionierungen und Lagerplatzumlagerungen auftreten, und wenn das Bestandsreservierungssystem Einschränkungen erforderlich macht, die einzuhalten sind. Ein komplexer Algorithmus prüft, ob alle Bedingungen erfüllt sind, bevor Mengen auf Kommissionierungen für ausgehende Ströme zugewiesen werden. Weitere Informationen finden Sie unter [Designdetails: Verfügbarkeit im Lager](design-details-availability-in-the-warehouse.md).
 
-In [!INCLUDE[prod_short](includes/prod_short.md)] werden Verfügbarkeitszahlen typischerweise in zwei verschiedenen Feldern angezeigt, jedes mit einer anderen Definition:
+In [!INCLUDE[d365fin](includes/d365fin_md.md)] werden Verfügbarkeitszahlen typischerweise in zwei verschiedenen Feldern angezeigt, jedes mit einer anderen Definition:
 
 * Das Feld **verfügbare Menge** an einigen Stellen auch **Lagerbestand** genannt, zeigt die tatsächliche aktuelle Menge entsprechend den Sachkontoeinträgen.
-* Das Feld **Verfügbarkeitssaldo** wird berechnet und zeigt den Lagerbestand sowie geplante Zugänge abzüglich des Bruttobedarfs an. (In [!INCLUDE[prod_short](includes/prod_short.md)] enthalten geplante Belege Mengen in Bestellungen und eingehenden Umlagerungsaufträgen. Bruttobedarf enthält Mengen der Verkaufsaufträge und ausgehenden Umlagerungsaufträge.)
+* Das Feld **Verfügbarkeitssaldo** wird berechnet und zeigt den Lagerbestand sowie geplante Zugänge abzüglich des Bruttobedarfs an. (In [!INCLUDE[d365fin](includes/d365fin_md.md)] enthalten geplante Belege Mengen in Bestellungen und eingehenden Umlagerungsaufträgen. Bruttobedarf enthält Mengen der Verkaufsaufträge und ausgehenden Umlagerungsaufträge.)
 
 > [!TIP]  
 >   Der Verfügbarkeitssaldo ist insbesondere relevant zum Anzeigen in den Seiten **Artikelverfügb. nach Perioden** und **Artikelverfügbarkeit nach Ereignis**, da diese die Datumsdimension enthalten.  
@@ -43,8 +42,8 @@ In [!INCLUDE[prod_short](includes/prod_short.md)] werden Verfügbarkeitszahlen t
 ## <a name="to-view-the-availability-of-an-item-according-to-when-it-will-be-received-or-shipped"></a>Um die Verfügbarkeit eines Artikels anzuzeigen gemäß dem, wann er erhalten oder gesendet wird
 Sie zeigen die Verfügbarkeit eines Artikels gemäß geplanter Artikeltransaktionen auf der Seite **Verfügbarkeit nach Ereignis** an.
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Elemente** ein, und wählen Sie dann den zugehörigen Link.
-2. Öffnen Sie die Karte eines Elements, für das Sie die Verfügbarkeit anzeigen möchten.
+1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol öffnet, geben Sie **Elemente** ein und wählen Sie dann den entsprechenden Link.
+2. Öffnen Sie die Karte eines Artikels, für den Sie die Verfügbarkeit anzeigen möchten.
 3. Wählen Sie die Aktion **Artikelverfügbarkeit nach** aus, und wählen Sie dann die Aktion **Ereignis** aus.
 
     Die Seite **Artikelverfügbarkeit nach Ereignis** zeigt an, wie sich die Lagermenge des Artikels im Zeitverlauf entsprechend der geplanten Lieferungs- und Zugangsereignisse entwickelt. Die Seite bietet eine verkürzte Darstellungsform, in der eine Zeile mit kumulierten Informationen pro Zeitintervall angezeigt wird, in dem sich Lagermengen ändern. Zeitintervalle, bei denen keine Ereignisse aufgetreten sind, werden nicht angezeigt. Sie können jede Zeile erweitern, um Einzelheiten zu dem Ereignis oder den Ereignissen anzuzeigen, die die kumulierte Menge in der Zeile verursacht haben.
@@ -53,8 +52,8 @@ Sie zeigen die Verfügbarkeit eines Artikels gemäß geplanter Artikeltransaktio
 ## <a name="to-view-the-availability-of-an-item-in-different-periods"></a>So zeigen Sie die Verfügbarkeit eines Artikels in verschiedenen Perioden an
 Sie zeigen die Verfügbarkeit eines Artikels im Zeitverlauf für angegebene Zeitperioden auf der Seite **Artikelverfügbarkeit nach Perioden** an.
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Elemente** ein, und wählen Sie dann den zugehörigen Link.
-2. Öffnen Sie die Karte eines Elements, für das Sie die Verfügbarkeit anzeigen möchten.
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Elemente** ein und wählen Sie dann den entsprechenden Link.
+2. Öffnen Sie die Karte eines Artikels, für den Sie die Verfügbarkeit anzeigen möchten.
 3. Wählen Sie die Aktion **Artikelverfügbarkeit nach** aus, und wählen Sie dann die Aktion **Periode** aus.
 
     Die Seite **Artikelverfügbarkeit nach Perioden** zeigt an, wie die Lagermenge des Artikels sich im Zeitverlauf entwickelt, angezeigt für eine Periode, die Sie auswählen, wie beispielsweise Tag, Woche oder Quartal.
@@ -63,8 +62,8 @@ Sie zeigen die Verfügbarkeit eines Artikels im Zeitverlauf für angegebene Zeit
 ## <a name="to-view-the-availability-of-an-item-at-the-locations-where-it-is-stored"></a>So zeigen Sie die Verfügbarkeit eines Artikels an den Lagerplätzen an, wo er gelagert wird
 Sie zeigen auf der Seite **Artikelverfügbarkeit nach Lagerort** die Verfügbarkeit eines Artikels an verschiedenen Stellen an, wo er gelagert wird.
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Elemente** ein, und wählen Sie dann den zugehörigen Link.
-2. Öffnen Sie die Karte eines Elements, für das Sie die Verfügbarkeit anzeigen möchten.
+1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol öffnet, geben Sie **Elemente** ein und wählen Sie dann den entsprechenden Link.
+2. Öffnen Sie die Karte eines Artikels, für den Sie die Verfügbarkeit anzeigen möchten.
 3. Wählen Sie die Aktion **Artikelverfügbarkeit nach** aus, und wählen Sie dann die Aktion **Lagerplatz** aus.
 
     Die Seite **Artikelverfügbarkeit nach Lagerort** zeigt an, wie die Lagermenge des Artikels sich zukünftig entwickelt, angezeigt für jeden Lagerplatz, an dem er gelagert wird.
@@ -74,7 +73,7 @@ Sie zeigen auf der Seite **Artikelverfügbarkeit nach Lagerort** die Verfügbark
 ## <a name="to-view-the-availability-of-all-items-by-the-location-where-they-are-stored"></a>So zeigen Sie die Verfügbarkeit aller Artikel nach Lagerplatz an, wo sie gelagert werden
 Sie zeigen die Verfügbarkeit aller Ihrer Artikel über alle Lagerplätze hinweg auf der Seite **Artikel nach Lagerort** an.
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Elemente** ein, und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Tell Me-Funktion") Symbol öffnet, geben Sie **Elemente** ein und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie die Aktion **Artikel nach Lagerort** aus.
 
     Die Seite **Artikel nach Lagerort** zeigt für alle Ihre Artikel an, wie viele an jedem Lagerplatz verfügbar sind.
@@ -130,6 +129,3 @@ Wenn eine oder mehrere Montagekomponenten nicht verfügbar sind, wird dies im Fe
 [Produkte verkaufen](sales-how-sell-products.md)      
 [Arbeiten mit Business Central](ui-work-product.md)  
 [Allgemeine Geschäftsfunktionen](ui-across-business-areas.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
