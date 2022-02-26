@@ -3,19 +3,19 @@ title: Einrichten von Servicevorgängen | Microsoft Docs
 description: Erfahren Sie, wie Sie Vorgänge einrichten, die vollständige Zufriedenheit Ihrer Debitoren mit Ihrem Debitorendienst sicherzustellen.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, number sequences, setup, warnings, fee, contracts, warranties
-ms.date: 04/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 80f56b9572e8ff20c29174e738aff135243530b7
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 91a6b16b4a7670fa78ddda0317ce20f259d35892
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3192295"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438232"
 ---
 # <a name="configure-service-processes"></a>Konfigurieren von Serviceprozessen
 Es folgen einige Beispiele für Einstellungen, die Sie bei Servicevorgängen anwenden können:  
@@ -27,7 +27,7 @@ Es folgen einige Beispiele für Einstellungen, die Sie bei Servicevorgängen anw
 * Die Anzahl der zu verwendenden Reihenfolgen bei dienstbezogenen Belegen und Artikeln.  
 
 ## <a name="to-enter-general-and-mandatory-settings"></a>So geben Sie allgemeine und obligatorische Einstellungen ein
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Serviceverwaltungseinrichtung** ein, und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Service Einrichtung** ein, und wählen Sie dann den entsprechenden Link.
 2. Füllen Sie die Felder bei Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="see-also"></a>Siehe auch  
@@ -37,3 +37,6 @@ Es folgen einige Beispiele für Einstellungen, die Sie bei Servicevorgängen anw
 [Einrichten zusätzlicher Kosten für Services](service-how-setup-service-costs-pricing.md)  
 [Lösungsanleitung Einrichtung](service-how-setup-troubleshooting.md)  
 [Service](service-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

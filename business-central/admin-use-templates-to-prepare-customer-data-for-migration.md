@@ -1,21 +1,21 @@
 ---
-title: Debitorendatenmigration mit Vorlagen vorbereiten | Microsoft Docs
-description: Erfahren Sie, wie Sie mit Konfigurationsvorlagen vorhandene Kundendaten strukturieren, bevor Sie die Daten in Business Central auf das neue Unternehmen migrieren.
+title: Vorbereiten der Datenmigration von Debitoren mit Templates
+description: Erfahren Sie, wie Sie Konfigurationsvorlagen verwenden, um bestehende Kundendaten zu strukturieren, bevor Sie die Stammdaten in Business Central zur neuen Firma migrieren.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/06/2020
-ms.author: sgroespe
-ms.openlocfilehash: 273d7a0b15684f7cd97874d4dba818b9a289e2a7
-ms.sourcegitcommit: 7d05fc049d81cae9b2b711101cdaea037b7ba61f
+ms.date: 06/14/2021
+ms.author: edupont
+ms.openlocfilehash: 49ea877d2a6a213a1559b7269bc4b70f660745d7
+ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/06/2020
-ms.locfileid: "3535922"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "6649887"
 ---
 # <a name="prepare-to-migrate-customer-data-with-templates"></a>Migration von Debitorendaten mit Vorlagen vorbereiten
 
@@ -28,7 +28,7 @@ Normalerweise erstellen Sie Datenvorlagen für die folgenden Stammdatentabellen:
 - **Artikel**  
 - **Kreditor**  
 
-Sie können jedoch eine Vorlagenstruktur erstellen und diese auf jede beliebige Tabelle in [!INCLUDE[d365fin](includes/d365fin_md.md)] anwenden.  
+Sie können jedoch eine Vorlagenstruktur erstellen und diese auf jede beliebige Tabelle in [!INCLUDE[prod_short](includes/prod_short.md)] anwenden.  
 
 > [!TIP]  
 > Sie können auch Datenvorlagen für tägliche Arbeitsgänge verwenden, um neue Datensätze zu erstellen, die auf Vorlagen basieren. Diese Datenvorlagen funktionieren nur für die unterstützten Stammdatentabellen. Weitere Informationen finden Sie unter [Neue Artikel registrieren](inventory-how-register-new-items.md).  
@@ -47,7 +47,7 @@ Wenn Sie eine vorhandene Datenvorlage auswählen, müssen Sie bewerten, ob die V
 > [!TIP]  
 > Datenvorlagen ermöglichen jedoch auch das schnelle Erstellen neuer Datensätze. Verwenden Sie diese für eine schnellere und genauere Erstellung von Daten. Weitere Informationen finden Sie unter [Neue Artikel registrieren](inventory-how-register-new-items.md).
 
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Konfigurationsvorlagen** ein, und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Konfigurationsvorlagen** ein, und wählen Sie dann den entsprechenden Link.  
 2. Auf der Seite **Config. Vorlagen** wählen Sie aus der Liste eine Datenvorlage, und wählen die **Bearbeiten** Aktion aus.  
 
 Wenn die Standardvorlagen nicht Ihren Anforderungen entsprechen, können Sie neue Vorlagen erstellen oder einer vorhandenen Vorlage Felder hinzufügen. Wenn die Standardvorlagen ausreichen, können Sie sie zum Erstellen von Datensätzen verwenden, die auf Stammdatenvorlagen basieren.
@@ -87,7 +87,7 @@ Die Tabellen-ID, der Tabellenname und die vorhandenen Datenvorlage werden in die
 3. Geben Sie im Feld **Standardwert** einen geeigneten Wert ein. In einigen Fällen möchten Sie möglicherweise einen Wert verwenden, der nicht einem in der Datenbank vorhandenen Wert entspricht. In diesem Fall können Sie das Kontrollkästchen **Relationenprüfung überspringen** aktivieren, um zu ermöglichen, Daten ohne Fehler zu verwenden.
 
     > [!TIP]  
-    > Da das Feld **Standardwert** keinen Lookup zu den entsprechenden [!INCLUDE[d365fin](includes/d365fin_md.md)]-Feldoptionen hat, kopieren Sie den gewünschten Wert von der entsprechenden Seite in die Vorlage.
+    > Da das Feld **Standardwert** keinen Lookup zu den entsprechenden [!INCLUDE[prod_short](includes/prod_short.md)]-Feldoptionen hat, kopieren Sie den gewünschten Wert von der entsprechenden Seite in die Vorlage.
 
 4. Wählen Sie das Kontrollkästchen **Notwendig**, wenn Benutzer das jeweilige Feld ausfüllen müssen.
 
@@ -98,15 +98,15 @@ Die Tabellen-ID, der Tabellenname und die vorhandenen Datenvorlage werden in die
 
 ## <a name="to-export-to-a-template-in-excel"></a>Exportieren einer Vorlage in Excel
 
-Sie können schnell eine Excel-Arbeitsmappe erstellen, die als Vorlage dient und auf der Struktur einer vorhandenen Datenbanktabelle basiert. Sie können die Vorlage dann verwenden, um Debitorendaten in einem konsistenten Format für den späteren Import in [!INCLUDE[d365fin](includes/d365fin_md.md)] zu erfassen.
+Sie können schnell ein Excel-Arbeitsblatt erstellen, die als Vorlage dient und auf der Struktur einer vorhandenen Datenbanktabelle basiert. Sie können die Vorlage dann verwenden, um Debitorendaten in einem konsistenten Format für den späteren Import in [!INCLUDE[prod_short](includes/prod_short.md)] zu erfassen.
 
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Konfigurationsarbeitsblatt** ein, und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Konfigurationsarbeitsblatt** ein, und wählen Sie dann den entsprechenden Link.
 2. Fügen Sie der Liste eine Tabelle hinzu, oder wählen Sie eine vorhandene Tabelle aus. Weitere Informationen finden Sie unter [Verwalten von Mandanten-Konfiguration in einem Arbeitsblatt](admin-how-to-manage-company-configuration-in-a-worksheet.md).
 3. Wählen Sie die Aktion **Felder anzeigen**, um die Felder aus der Tabelle zu definieren, die Sie in die Vorlage aufnehmen möchten.
 4. Wählen Sie die Aktion **Vorlageninhalt exportieren** aus.
-5. Benennen und speichern Sie die .xlsx-Datei. Die Excel-Arbeitsmappe wird automatisch geöffnet.
+5. Benennen und speichern Sie die .xlsx-Datei. Das Excel-Arbeitsblatt wird automatisch geöffnet.
 
-Sie können jetzt in die Excel-Arbeitsmappe Debitorendaten eingeben. Wenn Sie mehrere Tabellen exportiert haben, befindet sich jede Tabelle in einem eigenen Arbeitsblatt. Speichern Sie die Arbeitsmappe, bevor Sie mit der folgenden Vorgehensweise fortfahren.
+Sie können jetzt in das Excel-Arbeitsblatt Debitorendaten eingeben. Wenn Sie mehrere Tabellen exportiert haben, befindet sich jede Tabelle in einem eigenen Arbeitsblatt. Speichern Sie das Arbeitsblatt, bevor Sie mit der folgenden Vorgehensweise fortfahren.
 
 > [!NOTE]  
 > Wenn Sie eine englischsprachige Version von Excel nutzen, Ihre regionalen Einstellungen aber für eine andere Sprache konfiguriert haben, kann der folgende Fehler auftreten: "Old format or invalid type library." Um diesen Fehler zu beheben, prüfen Sie, ob das Language Pack für die andere Sprache installiert ist.
@@ -114,7 +114,7 @@ Sie können jetzt in die Excel-Arbeitsmappe Debitorendaten eingeben. Wenn Sie me
 ## <a name="to-import-from-a-template-in-excel"></a>So importieren Sie aus einer Vorlage in Excel
 
 1. Auf der Seite **Config. Arbeitsblatt** wählen Sie die **Aus Vorlage importieren** Aktion aus.
-2. Navigieren Sie zum Vorlagenvorschlag, den Sie erstellt haben, und wählen Sie die Aktion **Öffnen**.
+2. Navigieren Sie zum Vorlagenarbeitsblatt, den Sie erstellt haben, und wählen Sie die Aktion **Öffnen**.
 3. Um der gesammelten Debitorendaten der Datenbank hinzuzufügen, wählen Sie die **Daten übernehmen** Aktion.
 
 Wenn Sie Daten aus einer Vorlage in Excel auf eine Tabelle anwenden, der auch im Konfigurationspaket eine Konfigurationstabelle zugeordnet ist, werden auch die Standardfeldwerte aus der Konfigurationstabelle angewendet.
@@ -122,7 +122,8 @@ Wenn Sie Daten aus einer Vorlage in Excel auf eine Tabelle anwenden, der auch im
 Jeder Datensatz, dessen Daten auf diese Weise angewendet werden, ist vollständig, da er aus den Daten besteht, die von einem Benutzer in Excel eingegeben werden, plus der Standardwerte, die die Konfigurationsvorlage angibt.
 
 > [!NOTE]
-> Wenn die Daten in den Tabellen im Konfigurationspaket Datumsangaben enthalten, z. B. Buchungsdatumsangaben auf Rechnungen, werden die Datumsangaben in der Zeitzone berücksichtigt, die in [!INCLUDE[d365fin](includes/d365fin_md.md)] angegeben ist. 
+> Wenn die Daten in den Tabellen im Konfigurationspaket Datumsangaben enthalten, z. B. Buchungsdatumsangaben auf Rechnungen, werden die Datumsangaben in der Zeitzone berücksichtigt, die in [!INCLUDE[prod_short](includes/prod_short.md)] angegeben ist. 
+
 
 ## <a name="to-create-a-record-from-a-configuration-template"></a>So erstellen Sie einen Datensatz aus einer Konfigurationsvorlage
 
@@ -130,17 +131,26 @@ Sie können die Struktur der Daten verwenden, die in den Datenvorlagen enthalten
 
 Die folgenden Schritte veranschaulichen, wie eine Artikelkarte aus einer Artikeldatenvorlage erstellt wird. Mit demselben Verfahren können Sie einen Datensatz aus jeder beliebigen Datenvorlage erstellen.  
 
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Konfigurationsvorlagen** ein, und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Konfigurationsvorlagen** ein, und wählen Sie dann den entsprechenden Link.  
 2. Wählen Sie die entsprechende **Element**-Vorlage und wählen Sie dann die Aktion **Bearbeiten** aus. Weitere Informationen finden Sie unter [So erstellen Sie eine Datenvorlage](admin-use-templates-to-prepare-customer-data-for-migration.md#to-create-a-new-data-template).
 3. Wählen Sie die Aktion **Instanz erstellen** aus. Eine Artikelkarte wird erstellt.  
 4. Wählen Sie die Schaltfläche **OK** aus.  
-5. Um die neue Elementkarte zu überprüfen, wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Elemente** ein, und wählen Sie dann den zugehörigen Link.  
+5. Um die neue Artikelkarte zu überprüfen, wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Elemente** ein, und wählen Sie dann den zugehörigen Link.  
 6. Öffnen Sie eine neue Artikelkarte.  
 7. Erweitern Sie verschiedene Inforegister und vergewissern Sie sich, dass die Informationen korrekt in ihnen erstellt wurden.  
 
+## <a name="to-use-conversion-templates"></a>Verwenden von Konvertierungsvorlagen
+
+Sie können Kontakte in Debitoren, Kreditoren und Mitarbeiter umwandeln. 
+
+### <a name="to-convert-a-contact-into-a-customer-vendor-or-employee"></a>So konvertieren Sie einen Kontakt in einen Debitor, Kreditor oder Mitarbeiter
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Kontakte** ein, und wählen Sie dann den richtigen Kontakt aus. 
+2. Wählen Sie auf der Kontaktkarte **Aktionen**, dann **Funktionen** und dann **Erstellen als Debitor, Kreditor, Bank oder Mitarbeiter** aus.
+
+
 ## <a name="to-use-a-configuration-template-on-a-record"></a>So verwenden Sie eine Konfigurationsdatenvorlage bei einem Datensatz
 
-Sie können eine Datenvorlage bei jedem beliebigen Datensatz anwenden, der in [!INCLUDE[d365fin](includes/d365fin_md.md)] vorhanden ist, und diese Methode verwenden, um einen Datensatz zu ändern oder zu bearbeiten. Hierbei werden jedoch vorhandene Werte im Datensatz mit denen der Vorlage überschrieben. Deshalb sollten Sie behutsam vorgehen, wenn Sie eine Vorlage bei vorhandenen Datensätzen anwenden.
+Sie können eine Datenvorlage bei jedem beliebigen Datensatz anwenden, der in [!INCLUDE[prod_short](includes/prod_short.md)] vorhanden ist, und diese Methode verwenden, um einen Datensatz zu ändern oder zu bearbeiten. Hierbei werden jedoch vorhandene Werte im Datensatz mit denen der Vorlage überschrieben. Deshalb sollten Sie behutsam vorgehen, wenn Sie eine Vorlage bei vorhandenen Datensätzen anwenden.
 
 > [!WARNING]  
 > Die **Vorlage anwenden**-Funktion überschreibt vorhandene Daten in einem Datensatz. Wenn diese Funktion bei der Stammdatenmigration verwendet wird, überschreibt sie die importierten Daten, wenn Sie Datensätze erstellen.
@@ -153,8 +163,14 @@ Das folgende Verfahren basiert auf einer Debitorenkarte.
 
 Die Standardwerte aus der ausgewählten Debitorenvorlage werden in die Debitorenkarte eingefügt.
 
-## <a name="see-also"></a>Siehe auch
+> [!NOTE]
+> Sie können die Option „Vorlage anwenden“ nicht verwenden, um Felder für Debitoren, Lieferanten usw. auszublenden. Stattdessen müssen Sie die Funktion **In Excel bearbeiten** verwenden. Weitere Informationen finden Sie unter [In Excel bearbeiten](across-work-with-excel.md#edit-in-excel).
+
+## <a name="see-also"></a>Weitere Informationen
 
 [Einrichten eines Unternehmens mit RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Verwaltung](admin-setup-and-administration.md)  
-[Registriert einen neuen Debitor.](sales-how-register-new-customers.md)  
+[Neue Debitoren registrieren](sales-how-register-new-customers.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

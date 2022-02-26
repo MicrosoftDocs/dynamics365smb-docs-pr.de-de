@@ -3,19 +3,19 @@ title: 'Designdetails: Verfügbarkeit im Lager | Microsoft Docs'
 description: Die Anwendung muss eine konstante Kontrolle der Artikelverfügbarkeit im Lager aufrechterhalten, sodass ausgehende Aufträge effizient verlaufen und optimale Lieferungen zur Verfügung stellen können.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 10eb4e51a90437d847d01fdbf577adba8c8275eb
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/08/2021
+ms.author: edupont
+ms.openlocfilehash: 7d23dc10ffb215ee2ac160c9ec9b9fd1ddb5cc2d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185756"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442535"
 ---
 # <a name="design-details-availability-in-the-warehouse"></a>Designdetails: Verfügbarkeit im Lager
 Die Anwendung muss eine konstante Kontrolle der Artikelverfügbarkeit im Lager aufrechterhalten, sodass ausgehende Aufträge effizient verlaufen und optimale Lieferungen zur Verfügung stellen können.  
@@ -35,7 +35,7 @@ Wenn eine oder mehrere Bedingungen nicht erfüllt werden, können verschiedene F
 ## <a name="quantity-available-to-pick"></a>Verfügbare Menge für Kommissionierung  
  Wenn, zum Beispiel, der Entnahmealgorithmus nicht Artikelmengen berücksichtigt, die für eine offene Verkaufsauftragslieferung reserviert sind, dann werden diejenigen Artikel für einen anderen Verkaufsauftrag kommissioniert, der zuvor ausgeliefert wurde, wodurch der erste Verkauf verhindert wird. Um diese Situation zu vermeiden, zieht der Entnahmealgorithmus Mengen, die für andere ausgehende Belege reserviert sind, Mengen auf bestehenden Kommissionierbelegen und Mengen, die kommissioniert, aber noch nicht geliefert oder verbraucht wurden, ab.  
 
- Das Ergebnis wird im Feld **Verfügbare Menge** auf der Seite **Kommissioniervorschlag** angezeigt, in dem das Feld dynamisch berechnet wird. Der Wert wird auch berechnet, wenn Benutzer Kommissionierungen direkt für ausgehende Belege erstellen. Solche ausgehenden Belege können Verkaufsaufträge, Fertigungsverbrauch oder ausgehende Umlagerungen sein, bei denen das Ergebnis in den entsprechenden Mengenfeldern reflektiert wird, wie etwa **Verfügbare Menge.**  
+ Das Ergebnis wird im Feld **Verfügbare Menge** auf der Seite **Kommissionierarbeitsblatt** angezeigt, in dem das Feld dynamisch berechnet wird. Der Wert wird auch berechnet, wenn Benutzer Kommissionierungen direkt für ausgehende Belege erstellen. Solche ausgehenden Belege können Verkaufsaufträge, Fertigungsverbrauch oder ausgehende Umlagerungen sein, bei denen das Ergebnis in den entsprechenden Mengenfeldern reflektiert wird, wie etwa **Verfügbare Menge.**  
 
 > [!NOTE]  
 >  Hinsichtlich der Priorität von Reservierungen wird die zu reserviere Menge von der Menge abgezogen, die für die Kommissionierung verfügbar ist. Wenn beispielsweise die Menge, die an den Kommissionierlagerplätzen verfügbar ist, 5 Einheiten ist,sich jedoch 100 Einheiten an Einlagerungslagerplätzen befinden, wird, wenn Sie versuchen, mehr als 5 Einheiten für einen anderen Auftrag zu reservieren, eine Fehlermeldung angezeigt, da die zusätzliche Menge an den Kommissionierlagerplätzen verfügbar sein muss.  
@@ -47,7 +47,7 @@ Wenn eine oder mehrere Bedingungen nicht erfüllt werden, können verschiedene F
 
  Das folgende Diagramm zeigt die verschiedenen Elemente der Berechnung an.  
 
- ![Verfügbar zur Entnahme mit Reservierungsüberschneidung](media/design_details_warehouse_management_availability_2.png "Verfügbar zur Entnahme mit Reservierungsüberschneidung")  
+ ![Verfügbar zum Kommissionieren mit Reservierungsüberschneidung.](media/design_details_warehouse_management_availability_2.png "Verfügbar zur Entnahme mit Reservierungsüberschneidung")  
 
 ## <a name="quantity-available-to-reserve"></a>&Menge Verfügbar für Reservierung  
  Da die Konzepte des Lagerplatzinhaltes und der Reservierung gleichzeitig existieren, muss die Menge der Artikel, die zur Reservierung verfügbar sind, an die Zuordnung zu ausgehenden Lagerbelegen angepasst sein.  
@@ -70,10 +70,13 @@ Wenn eine oder mehrere Bedingungen nicht erfüllt werden, können verschiedene F
 
  Zur Reservierung verfügbare Menge = Gesamtmenge im Lagerbestand - Menge in Kommissionierungen und Lagerplatzumlagerungen für Herkunftsbelege - Reservierte menge - Menge in Ausgangslagerplätzen  
 
- Das folgende Diagramm zeigt die verschiedenen Elemente der Berechnung an.  
+ Das folgende Diagramm zeigt die verschiedenen Elemente der Berechnung.  
 
- ![Verfügbar, um pro Lagerzuordnung zu reservieren](media/design_details_warehouse_management_availability_3.png "Verfügbar, um pro Lagerzuordnung zu reservieren")  
+ ![Verfügbar zum Reservieren pro Lager-Zuordnung.](media/design_details_warehouse_management_availability_3.png "Verfügbar, um pro Lagerzuordnung zu reservieren")  
 
-## <a name="see-also"></a>Siehe auch  
- [Designdetails: Lagerverwaltung](design-details-warehouse-management.md)  
+## <a name="see-also"></a>Weitere Informationen  
+ [Designdetails: Logistik](design-details-warehouse-management.md)  
  [Artikelverfügbarkeit anzeigen](inventory-how-availability-overview.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

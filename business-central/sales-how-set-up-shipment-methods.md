@@ -1,39 +1,48 @@
 ---
-title: 'Vorgehensweise: Versandagentenmethoden einrichten in | Microsoft Docs'
-description: Sie können eine Code für jede einzelne angebotene Versandmethode einrichten, wie auch die Informationen dazu angeben und die Informationen dazu eingeben.e können Sie einen Code für jeden Zusteller anlegen und Informationen dazu eingeben.
+title: Lieferbedingungen einrichten
+description: Sie können eine Code für jede einzelne angebotene Lieferbedingungen einrichten, wie auch die Informationen dazu angeben und die Informationen dazu eingeben.e können Sie einen Code für jeden Zusteller anlegen und Informationen dazu eingeben.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: incoterms
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 75a3e689083e64f446e84b2bc3b1d26961e3d898
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.search.form: 11, 130
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 032faa6e9266f966f0c6393eb1837e1ca9bc9f55
+ms.sourcegitcommit: a9e2aaee735870af566db68532cfa697347d68e0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2877543"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752494"
 ---
-# <a name="set-up-shipment-methods"></a>Liefermethoden einrichten
-Versandmethoden nennt man auch Incoterms; sie hängen oft ab vom Artikel, den Debitoren und den Kreditoren Wenn der Debitor beispielsweise auf einer Insel lebt, kann er entscheiden, die Artikel immer auf dem Luftweg oder immer auf dem Seeweg geliefert zu bekommen. Einige Debitoren möglicherweise eine Lieferung am nächsten Tag. Einige möchten vielleicht den Auftrag abholen. Sie können auf den Debitoren- und Kreditorenkarten angeben, welche Lieferart gewünscht ist.
+# <a name="set-up-shipment-methods"></a>Lieferbedingungen einrichten
 
-In der Tabelle **Lieferbedingung** richten Sie die Beschreibung und den Code für jede Lieferbedingung ein. Sie können z. B. den Code "FOB" einrichten und im Feld **Beschreibung** können Sie "Frei an Bord" eingeben. Sie können dann den Code im Feld **Versandmethodencode** an anderer Stelle in der Anwendung eingeben, z. B. auf der Debitorenkarte. Wenn Sie dann neue Aufträge, Bestellungen, Rechnungen oder Gutschriften erstellen oder buchen, wird das System die Beschreibung einfügen, die zu dem Code gehört. Sie können die Standardbeträge auf dem Beleg je nach Anforderung ändern.
+Lieferbedingungen hängen häufig von den Debitoren, Kreditoren und den Artikeln ab. Wenn der Debitor beispielsweise auf einer Insel lebt, kann er entscheiden, die Artikel immer auf dem Luftweg oder immer auf dem Seeweg geliefert zu bekommen. Einige Debitoren möglicherweise eine Lieferung am nächsten Tag. Einige möchten vielleicht den Auftrag abholen. Sie können auf den Debitoren- und Kreditorenkarten angeben, welche Lieferart gewünscht ist.
 
-## <a name="to-set-up-a-shipment-code"></a>So richten Sie einen Verandcode ein
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Lieferbedingungen** ein, und wählen Sie dann den zugehörigen Link.
-2. Wählen Sie auf der Seite **Versandmethode** die Aktion **Neu** aus.
+In der Tabelle **Lieferbedingungen** richten Sie die Beschreibung und den Code für jede Lieferbedingung ein. Sie können z. B. den Code "FOB" einrichten und im Feld **Beschreibung** können Sie "Frei an Bord" eingeben. Sie können dann den Code im Feld **Lieferbedingungscode** an anderer Stelle in der Anwendung eingeben, z. B. auf der Debitorenkarte. Wenn Sie dann neue Aufträge, Bestellungen, Rechnungen oder Gutschriften erstellen oder buchen, wird das System die Beschreibung einfügen, die zu dem Code gehört. Sie können die Standardbeträge auf dem Beleg je nach Anforderung ändern.
+
+## <a name="to-set-up-a-shipment-method"></a>So richten Sie eine Lieferbedingung ein
+
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Lieferbedingungen** ein und wählen Sie dann den zugehörigen Link.
+2. Wählen Sie auf der Seite **Lieferbedingungen** die Aktion **Neu** aus.
 3. Geben Sie in der neuen Zeile einen Code und eine Beschreibung für die Lieferbedingung an.
 
+> [!TIP]
+> Wenn Sie Incoterms verwenden, richten Sie Versandmethoden ein, um die relevanten Incoterms-Regeln darzustellen.  
+
 ## <a name="see-also"></a>Siehe auch
-[Incoterms](https://iccwbo.org/resources-for-business/incoterms-rules)  
+
 [Zusteller einrichten](sales-how-to-set-up-shipping-agents.md)  
-[Um Pakete zu verfolgen](sales-how-track-packages.md)    
+[Um Pakete zu verfolgen](sales-how-track-packages.md)  
 [Logistik](warehouse-manage-warehouse.md)  
 [Lagerbestand](inventory-manage-inventory.md)  
-[Lagerortverwaltung einrichten](warehouse-setup-warehouse.md)     
-[Montageverwaltung](assembly-assemble-items.md)    
+[Lagerortverwaltung einrichten](warehouse-setup-warehouse.md)  
+[Montageverwaltung](assembly-assemble-items.md)  
 [Designdetails: Lagerverwaltung](design-details-warehouse-management.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Incoterms auf iccwbo.org](https://iccwbo.org/resources-for-business/incoterms-rules)  
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

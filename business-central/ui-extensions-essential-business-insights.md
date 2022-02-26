@@ -1,22 +1,22 @@
 ---
-title: Bearbeitbare Einblicke in Rollencentern | Microsoft Docs
-description: Die Essential Business Insights  Erweiterung dreht eine Reihe von Geschäftseinblicke in Rollencentern.
+title: Actionable Insights in Role Centern anzeigen
+description: Erfahren Sie, wie die Erweiterung Essential Business Insights eine Reihe von Business Insights in Role Centern anzeigt.
 documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: BI, add-in, insight, headline, data
-ms.date: 10/01/2019
+ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: 08a955f9fb2698b95e8cc92648be0e7c0bfe6e6c
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 458e7826979b75c370cb0a90d90c2d64c9ab599e
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311260"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6322669"
 ---
 # <a name="the-essential-business-insights-extension"></a>Die wesentliche Business Insights-Erweiterung
 Die Essential Business Insights Erweiterung findet interessante Geschäftsfakten in Ihren Unternehmensdaten und zeigt sie als zeitungsähnliche Titel in Rollencenters an. Abhängig davon, was die Erweiterung findet, sind die Einblicke der letzten Woche, des letzten Monats oder der letzten drei Monate ab dem aktuellen Datum. Die Einblicke aktualisieren alle 10 Minuten.  
@@ -37,4 +37,7 @@ Die folgende Tabelle beschreibt die Einblicke, die diese Erweiterung für jedes 
 |Administrator| Zeigt eine Anrede und Verbindung zur Produktinformationen an.|
 
 ## <a name="see-also"></a>Siehe auch
-[Anpassen [!INCLUDE[d365fin](includes/d365fin_md.md)] Erweiterungen nutzen](ui-extensions.md)
+[Anpassen [!INCLUDE[prod_short](includes/prod_short.md)] Erweiterungen nutzen](ui-extensions.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

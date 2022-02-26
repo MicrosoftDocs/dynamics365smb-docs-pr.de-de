@@ -1,24 +1,24 @@
 ---
-title: Dimensionssatzposten Übersicht | Microsoft Docs
-description: In diesem Thema wird beschrieben, wie Dimensionssatzposten in Dynamics 365 gespeichert und gebucht werden.
+title: Dimensionssatz-Eintrags-Übersicht
+description: Dieser Artikel gibt Ihnen einen Überblick darüber, wie Dimensionen-Set-Einträge als Dimensions-Set-Einträge gespeichert werden und wie sie gebucht werden.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dimension
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: f35184a6a69ed0fa1ccd504525a19af6bd9c5955
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/14/2021
+ms.author: edupont
+ms.openlocfilehash: 8196cf08b5e4bf410d9682a30e714cb8c4522e17
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185516"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011679"
 ---
 # <a name="dimension-set-entries-overview"></a>Dimensionssatz-Eintrags-Übersicht
-In diesem Thema wird beschrieben, wie Dimensionssatzposten in [!INCLUDE[d365fin](includes/d365fin_md.md)] gespeichert und gebucht werden.  
+In diesem Thema wird beschrieben, wie Dimensionssatzposten in [!INCLUDE[prod_short](includes/prod_short.md)] gespeichert und gebucht werden.  
 
 ## <a name="dimension-sets"></a>Dimensionssätze  
 Ein Dimensionssatz ist eine eindeutige Kombination von Dimensionswerten. Er wird als Dimensionssatzposten in die Datenbank gespeichert. Jeder Dimensionssatzposten stellt einen einzelnen Dimensionswert dar. Der Dimensionssatz wird durch eine allgemeine Dimensionssatz-ID identifiziert, die jedem Dimensionssatzposten zugewiesen wird, der zum Dimensionssatz gehört.  
@@ -34,7 +34,7 @@ Im folgenden Beispiel wird ein Dimensionssatz gezeigt, der drei Dimensionssatzpo
 ## <a name="dimension-set-entries"></a>Dimensionssatzposten  
 Dimensionssätze werden in der Tabelle als **Dimensionssatzposten** mit derselben Dimensionssatz-ID gespeichert.  
 
-![Fluss von Dimensionssatzeinträgen](media/dimensionentrynav7.png "Fluss der Dimensionssatzeinträge")  
+![Flow von Dimensions-Set-Einträgen.](media/dimensionentrynav7.png "Fluss der Dimensionssatzeinträge")  
 
 Wenn Sie eine neue Buch.-Blattzeile, einen Belegkopf oder eine Belegzeile erstellen, können Sie eine Kombination von Dimensionswerten angeben. Anstatt jeden Dimensionswert explizit in der Datenbank zu speichern, wird eine Dimensionssatz-ID der Buch.-Blattzeile, dem Belegkopf oder der Belegzeile zugewiesen, um den Dimensionssatz anzugeben.  
 
@@ -46,7 +46,10 @@ Codeunit 408 Dimension Management ist eine Funktionsbibliothek, die häufige Auf
 ## <a name="performance-improvement"></a>Leistungsverbesserung  
 Durch das einmalige Speichern von Dimensionssätzen in der Datenbank wird Datenbankplatz beibehalten und die Gesamtleistung verbessert.  
 
-## <a name="see-also"></a>Siehe auch  
+## <a name="see-also"></a>Siehe auch
 [Designdetails: Suche nach Dimensionskombinationen](design-details-searching-for-dimension-combinations.md)   
 [Designdetails: Tabellenstruktur](design-details-table-structure.md)   
 [Designdetails: Dimensionssatzeinträge](design-details-dimension-set-entries.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

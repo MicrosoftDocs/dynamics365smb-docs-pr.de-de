@@ -1,25 +1,25 @@
 ---
-title: 'Exemplarische Vorgehensweise: Manuelle Beschaffungsplanung | Microsoft Docs'
-description: In der folgenden exemplarischen Vorgehensweise wird die Planung von Beschaffungsaufträgen zum Erfüllen eines neuen Bedarfs beschrieben. Je nach Bedarfsart können Sie die Beschaffungsplanung in festen Intervallen, z. B. jeden Morgen oder jeden Montag, oder bei einer entsprechenden Benachrichtigung durch den Verkauf oder die Produktion initiieren.
+title: Exemplarische Vorgehensweise – Manuelles Planen von Vorräten
+description: Diese exemplarische Vorgehensweise demonstriert den Prozess der Planung von Vorräten zur Deckung des neuen Bedarfs, einschließlich der Planung eines Kaufs, einer Umlagerungsbestellung und eines Produktionsauftrags.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 0da12af6eb5a165c717cd112735a91aebe3ae85d
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.date: 06/24/2021
+ms.author: edupont
+ms.openlocfilehash: ef6ff3f6d31b43b127146404bd9aa7407d950677
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2876967"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438993"
 ---
 # <a name="walkthrough-planning-supplies-manually"></a>Exemplarische Vorgehensweise: Manuelle Beschaffungsplanung
 
-**Hinweis**: In dieser exemplarischen Vorgehensweise muss in einem Demomandanten mit der Option **Volle Auswertung - vollständige Beispieldaten** ausgeführt werden, die in der Sandboxumgebung verfügbar ist. Weitere Informationen finden Sie unter [Erstellen einer Sandbox-Umgebung](across-how-create-sandbox-environment.md).
+<!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
 In der folgenden exemplarischen Vorgehensweise wird die Planung von Beschaffungsaufträgen zum Erfüllen eines neuen Bedarfs beschrieben. Je nach Bedarfsart können Sie die Beschaffungsplanung in festen Intervallen, z. B. jeden Morgen oder jeden Montag, oder bei einer entsprechenden Benachrichtigung durch den Verkauf oder die Produktion initiieren. In dieser exemplarischen Vorgehensweise verwenden Sie die Seite **Auftragsplanung**, ein einfaches Tool für die Beschaffungsplanung, bei dem Entscheidungen manuell getroffen werden, anstatt die Planung automatisch anhand von Parametern durchzuführen.  
 
@@ -38,10 +38,10 @@ In der folgenden exemplarischen Vorgehensweise wird die Planung von Beschaffungs
 -   Verkaufsauftragsbearbeiter  
 
 ## <a name="prerequisites"></a>Voraussetzungen  
- Bevor Sie diese exemplarische Vorgehensweise beginnen können, müssen Sie [!INCLUDE[d365fin](includes/d365fin_md.md)] einrichten. Die folgenden Änderungen müssen an der Datenbank vorgenommen werden:  
+ Bevor Sie diese exemplarische Vorgehensweise beginnen können, müssen Sie [!INCLUDE[prod_short](includes/prod_short.md)] einrichten. Die folgenden Änderungen müssen an der Datenbank vorgenommen werden:  
 
 -   Löschen Sie alle vorhandenen Verkaufsaufträge für Tourenräder.  
--   Erstellen Sie einen Verkaufsauftrag für zehn Tourenräder am Standort BLAU.  
+-   Erstellen Sie einen Verkaufsauftrag für zehn Fahrräder am Standort EAST.  
 -   Löschen Sie alle geplanten und fest geplanten Fertigungsaufträge. Löschen Sie keine gestarteten Aufträge mit bereits gebuchten Posten.  
 
  Verwenden Sie grundsätzlich die vorgeschlagenen Daten in dieser exemplarischen Vorgehensweise. Diese Daten enthalten die erforderlichen Datensätze.  
@@ -51,7 +51,7 @@ In der folgenden exemplarischen Vorgehensweise wird die Planung von Beschaffungs
 
  Da die Produkte nur wenige Stücklistenebenen besitzen und der Auftragsfluss ebenfalls relativ wenige Stufen umfasst, verwendet Jürgen die Seite **Auftragsplanung** zum manuellen Erstellen von Beschaffungsaufträgen und arbeitet dabei nacheinander die einzelnen Produktebenen ab.  
 
- In einer komplexeren Produktionsumgebung wird der Planungsvorschlag verwendet, um die Beschaffung basierend auf Artikelparametern wie Neuplanungsperiode, Sicherheitszuschlag für die Beschaffungszeit und Minimalbestand sowie Stapelberechnungen des konsolidierten Bedarfs aller Produktebenen zu planen.  
+ In einer komplexeren Produktionsumgebung wird der Planungsarbeitsblatt verwendet, um die Beschaffung basierend auf Artikelparametern wie Neuplanungsperiode, Sicherheitszuschlag für die Beschaffungszeit und Minimalbestand sowie Stapelberechnungen des konsolidierten Bedarfs aller Produktebenen zu planen.  
 
 ## <a name="setting-up-the-sample-data"></a>Einrichten der Beispieldaten  
  Das standardmäßige Demounternehmen CRONUS verfügt derzeit über einen umfangreichen, nicht geplanten Bedarf. Während der unterschiedlichen Planungsphasen dieser exemplarischen Vorgehensweise ist eine Abweichung von einer realistischen Vorgehensweise erforderlich, da Bedarf mit unmittelbar bevorstehendem Fälligkeitsdatum ignoriert und stattdessen Bedarf mit einem späteren Fälligkeitsdatum verwendet wird.  
@@ -67,7 +67,7 @@ Die Seite **Auftragsplanung** kann von mehreren Standorten aus aufgerufen werden
 
 ### <a name="to-use-the-order-planning-page"></a>So verwenden Sie die Seite "Auftragsplanung"  
 
-1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Auftragsplanung** ein, und wählen Sie dann den zugehörigen Link.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Auftragsplanung** ein, und wählen Sie dann den entsprechenden Link.  
 
      Beim erstmaligen Öffnen der Seite **Auftragsplanung** muss eine Planung berechnet werden, um den neuen Bedarf seit der letzten Berechnung anzuzeigen.  
 
@@ -148,7 +148,7 @@ Die Seite **Auftragsplanung** kann von mehreren Standorten aus aufgerufen werden
 4.  Klicken Sie auf **OK**, um die zehn verfügbaren Artikel zu buchen.  
 
     > [!NOTE]  
-    >  In der Bedarfszeile wurde der vorgeschlagene Einkauf gegen eine Umlagerung vom Standort GRÜN ausgetauscht. Mit der Funktion **Aufträge erstellen** wird somit ein Umlagerungsauftrag von GRÜN zum angeforderten Standort erstellt. Das Feld **Ersatzartikel vorhanden** funktioniert auf die gleiche Weise.  
+    >  In der Bedarfszeile wurde der vorgeschlagene Einkauf gegen eine Umlagerung vom Standort MAIN ausgetauscht. Mit der Funktion **Aufträge erstellen** wird somit ein Umlagerungsauftrag von MAIN zum angeforderten Standort erstellt. Das Feld **Ersatzartikel vorhanden** funktioniert auf die gleiche Weise.  
 
 5.  Wählen Sie die **Auftrag erstellen** Aktion aus. Die Seite **Beschaffungsaufträge erstellen** wird geöffnet.  
 6.  Wählen Sie im Feld **Aufträge erstellen für** auf dem Inforegister **Auftragsplanung** die Option **Aktive Bestellung** aus.  
@@ -225,10 +225,13 @@ Die Seite **Auftragsplanung** kann von mehreren Standorten aus aufgerufen werden
 
      Die Meldung zeigt an, dass alle erforderlichen Artikel geliefert werden. Prüfen Sie die fest geplanten Fertigungsaufträge, die erstellt wurden.  
 
-13. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Feste geplante Fertigungsaufträge** ein, und wählen Sie dann den zugehörigen Link.  
+13. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Geplante Prod. Aufträge** ein und wählen Sie dann den zugehörigen Link.  
 
      Überprüfen Sie auf der Seite **Fest geplante FA** , wie die Start- und Endzeiten der einzelnen Aufträge entsprechend der Produktstruktur geplant wurden. Die Komponenten auf der niedrigsten Ebene werden zuerst gefertigt. Daher ist es unumgänglich, die Planung von Aufträgen mit mehreren Ebenen wie in diesem Planungsworkflow gezeigt vorzunehmen.  
 
 ## <a name="see-also"></a>Siehe auch  
  [Exemplarische Vorgehensweisen für Geschäftsprozesse](walkthrough-business-process-walkthroughs.md)   
- [Exemplarische Vorgehensweise: Automatische Beschaffungsplanung](walkthrough-planning-supplies-automatically.md)
+<!--  [Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md) -->
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

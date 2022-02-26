@@ -1,41 +1,52 @@
 ---
-title: Einrichten der Lagerwertberechnung und der Kostenrechnung | Microsoft Docs
-description: In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den beschriebenen Themen erläutert.
+title: Bestandsbewertung und Kalkulation festlegen
+description: Um sicherzustellen, dass Lagerregulierungen ordnungsgemäß aufgezeichnet werden, müssen Sie verschiedene Felder und Seiten einrichten, bevor Sie Artikeltransaktionen durchführen können.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: ab2ae5103a1bcc613309412744e913b09a054647
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/16/2021
+ms.author: edupont
+ms.openlocfilehash: fa04fa90e749434d6ccf19e10e1a7daa1a4eaba8
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182876"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6327138"
 ---
 # <a name="setting-up-inventory-valuation-and-costing"></a>Einrichten der Lagerwertberechnung und der Kostenrechnung
-Um sicherzustellen, dass Lagerregulierungen ordnungsgemäß aufgezeichnet werden, müssen Sie verschiedene Felder und Seiten einrichten, bevor Sie Artikeltransaktionen durchführen können.
 
-In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den beschriebenen Themen erläutert.
+Um sicherzustellen, dass Lagerregulierungen ordnungsgemäß aufgezeichnet werden, müssen Sie verschiedene Felder und Seiten einrichten, bevor Sie Artikeltransaktionen durchführen können. In der Regel wählen Unternehmen eine bestimmte Lagerabgangsmethode und wenden diese auf Lagerartikel an, beispielsweise um den Wert von auf Lager befindlichen Artikel besser nachzuverfolgen.  
 
-|**Aufgabe**|**Siehe**|  
-|------------|-------------|  
-|Festlegen einer Lagerabgangsmethode für jeden Artikel, um zu steuern, wie dessen eingehende Kosten zum Ermitteln des Lagerwerts und der Kosten für verkaufte Waren verwendet werden sollen|[Neue Artikel registrieren](inventory-how-register-new-items.md)|  
+> [!TIP]
+> Für eine Einführung in die Nachkalkulation in [!INCLUDE [prod_short](includes/prod_short.md)] betrachten Sie [Informationen zur Bestandskalkulation](finance-learn-about-costing.md).
+
+Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Themen, die sie beschreiben.
+
+|**Prozess**|**Siehe**|  
+|------------|-------------|
+|Geben Sie eine standardmäßige Lagerabgangsmethode für das Unternehmen an, um zu steuern, wie eingehende Kosten zum Ermitteln des Lagerwerts und der Kosten für verkaufte Waren verwendet werden.|[So richten Sie allgemeine Lagerbestandsinformationen ein](inventory-how-setup-general.md)|  
+|Geben Sie eine Lagerabgangsmethode für einzelne Artikel an, wenn für sie eine andere Lagerabgangsmethode erforderlich ist.|[Neue Artikel registrieren](inventory-how-register-new-items.md)|  
 |Sicherstellen, dass Kosten beim Buchen einer Lagertransaktion automatisch in die Finanzbuchhaltung gebucht werden|Wählen Sie auf der Seite **Lagereinrichtung** das Feld **Automatische Lagerbuchung**.|  
 |Sicherstellen, dass die Soll-Kosten in die Finanzbuchhaltung gebucht werden, um in den Interimssachkonten vor der eigentlichen Buchung eine Schätzung der fälligen Beträge und der Kosten der gehandelten Waren anzuzeigen|Wählen Sie auf der Seite **Lagereinrichtung** das Feld **Soll-Kosten buchen**.|  
 |Einrichten der automatischen Regulierung von Kostenänderungen beim Buchen von Lagertransaktionen|[Artikelpreise justieren](inventory-how-adjust-item-costs.md)|  
-|Festlegen, ob der durchschnittliche Einstandspreis nur pro Artikel oder pro Artikel für alle Lagerhaltungsdaten sowie für jede Variante des Artikels berechnet werden soll|Wählen Sie auf der Seite **Lagereinrichtung** das Feld **Einst.-Pr.(durchschn.)Ber.-Art**.|  
+|Definieren Sie, ob der Einstandspreis (durchschn.) nur pro Artikel oder pro Artikel für jede Lagermengeneinheit und für jede Variante des Artikels berechnet werden soll.|Wählen Sie auf der Seite **Lagereinrichtung** das Feld **Einst.-Pr.(durchschn.)Ber.-Art**.|  
 |Auswählen des gewünschten Zeitraums für die Berechnung der gewichteten Durchschnittskosten von Artikeln, für die die Durchschnittskostenmethode verwendet wird, angewendet werden soll.|Wählen Sie auf der Seite **Lagereinrichtung** das Feld **Durchschnittskostenperiode**.|  
 |Definieren der Lagerbuchungsperioden zum Steuern des Lagerwerts im Zeitverlauf durch Sperren der Buchung von Transaktionen in geschlossenen Lagerbuchungsperioden|[Arbeiten mit Lagerbuchungsperioden](finance-how-to-work-with-inventory-periods.md)|  
 |Sicherstellen, dass Verkaufsreklamationen mit der ursprünglichen ausgehenden Transaktion ausgeglichen werden, um den Lagerwert zu erhalten.|Das Feld **Einst.-Pr.-Rückverfolg. notw.** auf der Seite **Debitoren & Verkauf**|  
-|Sicherstellen, dass Einkaufsreklamationen mit der ursprünglichen eingehenden Transaktion ausgeglichen werden, um den Lagerwert zu erhalten.|Das Feld **Einst.-Pr.-Rückverfolg. notw.** auf der Seite **Kreditoren & Einkauf**|
+|Sicherstellen, dass Einkaufsreklamationen mit der ursprünglichen eingehenden Transaktion ausgeglichen werden, um den Lagerwert zu erhalten.|Das Feld **Exakte Einstandspreisstornierung notwendig** auf der Seite **Kreditoren und Einkauf**|
 |Einrichten der Rundungsregeln, die beim Regulieren oder Vorschlagen von Artikelpreisen sowie beim Regulieren oder Vorschlagen von Einstandspreisen angewendet werden|**Rundungsmethode**|  
 
-## <a name="see-also"></a>Siehe auch  
+## <a name="see-also"></a>Siehe auch
+
 [Verwalten der Lagerregulierung](finance-manage-inventory-costs.md)  
+[So richten Sie allgemeine Lagerbestandsinformationen ein](inventory-how-setup-general.md)  
+[Abstimmen der Lagerkosten mit der Finanzbuchhaltung](finance-how-to-post-inventory-costs-to-the-general-ledger.md)  
+[Bewährte Einrichtungsmethoden: Lagerabgangsmethode](setup-best-practices-costing-method.md)  
+[Designdetails: Lagerkostenberechnung](design-details-inventory-costing.md)  
+[Designdetails: Lagerabgangsmethode für Artikel ändern](design-details-changing-costing-methods.md)  
 [Arbeiten mit Business Central](ui-work-product.md)  
 [Finanzen](finance.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

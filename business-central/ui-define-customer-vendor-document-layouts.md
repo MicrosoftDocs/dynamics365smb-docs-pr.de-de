@@ -1,23 +1,23 @@
 ---
-title: Debitoren oder Kreditoren spezielle Beleglayouts zuweisen | Microsoft Docs
-description: Wenn benutzerdefinierte Berichtslayouts definiert sind, können Sie diese aus Debitoren- und Kreditorenkarten auswählen, um anzugeben, dass die ausgewählten Layouts für Belege verwendet werden, die Sie für den betreffenden Debitoren oder Kreditoren erstellen.
+title: Kunden oder Kreditoren Beleg-Layouts zuweisen
+description: Wenn angepasste Berichtslayouts definiert sind, können Sie diese aus Kunden- und Lieferantenkarten auswählen, um festzulegen, dass sie für den jeweiligen Kunden oder Kreditor verwendet werden.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 11/15/2019
-ms.author: sgroespe
-ms.openlocfilehash: 23c4573c3121a660b8263c3bc9bb2c6ac8b1d331
-ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
+ms.date: 06/24/2021
+ms.author: edupont
+ms.openlocfilehash: 29b349824e2aff727cd255e612fa054f1d71610c
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "2809399"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443743"
 ---
 # <a name="define-document-layouts-for-customers-and-vendors"></a>Beleglayouts für Debitoren und Kreditoren definieren
 Wenn benutzerdefinierte Berichtslayouts definiert sind, können Sie diese aus Debitoren- und Kreditorenkarten auswählen, um anzugeben, welche Layouts für verschiedene Arten von Belegen verwendet werden, die Sie für den betreffenden Debitoren oder Kreditoren erstellen. Der Wert im Feld **Verwendung** definiert, für welchen Prozess das Beleglayout verwendet wird, z. B. **Erinnerung**, **Lieferung** und **Bestätigung**.
@@ -31,7 +31,7 @@ Bevor Sie festlegen können, welches Beleglayout für welche Prozesse verwendet 
 Im Folgenden wird beschrieben, wie Sie Verkaufsbeleglayouts aus einer Debitorenkarte definieren. Die Schritte sind dieselben für Einkaufsbeleglayouts aus einer Kreditorenkarte.
 
 ## <a name="to-enable-all-available-sales-documents-for-a-customer"></a>So aktivieren Sie alle verfügbaren Verkaufsbelege für einen Debitor
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Debitoren** ein, und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Debitor** ein und wählen Sie dann den entsprechenden Link.
 2. Öffnen Sie die Karte des Debitoren, für den Sie Beleglayouts pro Geschäftsprozess definieren möchten.
 3. Wählen Sie auf der Seite **Debitorenkarte** die Seite **Belegvorlagen** aus.
 4. Auf der Seite **Beleglayouts** wählen Sie die Aktion **Aus Berichtsauswahl kopieren** aus.
@@ -62,3 +62,6 @@ Die E-Mail-Adresse des Kontakts wird nun in die Beleglayoutzeile eingefügt, sod
 [Verwalten von Berichtslayouts](ui-manage-report-layouts.md)  
 [Arbeiten mit Berichten, Batchaufträgen und XMLports](ui-work-report.md)  
 [Arbeiten mit Berichten, Batchaufträgen und XMLports](ui-work-report.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

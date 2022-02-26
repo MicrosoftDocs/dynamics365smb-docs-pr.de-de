@@ -2,15 +2,15 @@
 title: Funktionaler Lernkatalog für Berater
 description: Hier finden Sie alle verfügbaren Informationen für Business Central.
 author: loreleishannonmsft
-ms.date: 04/20/2020
-ms.topic: article
-ms.author: v-lshann
-ms.openlocfilehash: eba4c2c1badc0b686d50b23c8e47600f1cdbed3f
-ms.sourcegitcommit: b9264b4ed650feca18776892ec23f2aa7ec43e20
+ms.date: 04/01/2021
+ms.topic: conceptual
+ms.author: margoc
+ms.openlocfilehash: c7e235f878287a061dfaff25d7a9f2e2e8f40c16
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "3372640"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5781888"
 ---
 # <a name="functional-consultant-learning-catalog"></a>Funktionsberater Lernkatalog
 
@@ -68,3 +68,6 @@ Der folgende Katalog ist vom Kernwissen bis zu spezifischen Bereichen organisier
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|--------------------|
 | [Die Zukunft liegt in der Trusted Cloud](https://www.microsoft.com/trust-center)                                                                                                                                                              | Über die vertrauenswürdige Cloud                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | Website                                                                        |                    |
 | [Datenschutzressourcen](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=5fa41da9-69b2-47ea-8413-4a91345b299b&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers) | Informationen darüber, wie Microsoft Cloud Services Ihre Daten schützen und wie Sie die Sicherheit und Compliance von Cloud-Daten für Ihr Unternehmen verwalten können.                                                                                                                                                                                                                                                                                                                                                | Whitepaper herunterladen                                                           |                    |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

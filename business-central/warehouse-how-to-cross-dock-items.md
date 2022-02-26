@@ -3,19 +3,19 @@ title: 'Vorgehensweise: Zuordnen von Artikeln | Microsoft Docs'
 description: Die Zuordnungsfunktionalität ist verfügbar, wenn Sie Ihren Lagerort so eingerichtet haben, dass die Bearbeitung des Wareneingangs und der Einlagerung erforderlich ist.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: f07b287a177aae24f383a54a48bf5a0fa8cf8b77
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 6090a1b259dfc456f331118a30f0e25fbc712b6f
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3193155"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445822"
 ---
 # <a name="cross-dock-items"></a>Zuordnungselemente
 Die Zuordnungsfunktionalität ist verfügbar, wenn Sie Ihren Lagerort so eingerichtet haben, dass die Bearbeitung des Wareneingangs und der Einlagerung erforderlich ist.  
@@ -26,11 +26,11 @@ Wenn Sie Zuordnungsmengen berechnet haben, werden Einlagerungszeilen für den Zu
 
 Wenn Sie die zugeordneten Artikel sofort buchen möchten, um sie für die Kommissionierung verfügbar zu machen, müssen Sie ebenfalls eine Einlagerung für die anderen Artikel aus der Wareneingangszeile, nämlich die, die eingelagert werden müssen, erfassen. Wenn nur einige der Artikel der Wareneingangszeile zugeordnet werden, müssen Sie sich daher bemühen, die anderen Artikel so schnell wie möglich einzulagern. Alternativ dazu kann Ihre Lagerpolitik so aussehen, dass Sie – wenn möglich – ganze Wareneingangszeilen zuordnen möchten.  
 
-In der Einlagerungsanweisung können Sie zu Ihrem Vorteil Anweisungszeilen löschen (sowohl Zeilen der Art "Entnahme" als auch "Einlagerung" für jede Wareneingangszeile), die Wareneingänge betreffen, die vollständig eingelagert werden sollen. Diese Zeilen können später als Einlagerungszeilen aus dem Einlagerungsvorschlag oder dem gebuchten Wareneingang erzeugt werden. Wenn sie gelöscht sind, können Sie die Zeilen, die Zuordnungsartikel betreffen, einlagern und registrieren.  
+In der Einlagerungsanweisung können Sie zu Ihrem Vorteil Anweisungszeilen löschen (sowohl Zeilen der Art "Entnahme" als auch "Einlagerung" für jede Wareneingangszeile), die Wareneingänge betreffen, die vollständig eingelagert werden sollen. Diese Zeilen können später als Einlagerungszeilen aus dem Einlagerungsarbeitsblatt oder dem gebuchten Wareneingang erzeugt werden. Wenn sie gelöscht sind, können Sie die Zeilen, die Zuordnungsartikel betreffen, einlagern und registrieren.  
 
-Wenn Sie das Feld **Einlagerungsvorschl. verwenden** auf der Lagerortkarte ausgewählt und den Wareneingang mit berechneten Zuordnungen gebucht haben, werden alle Wareneingangszeilen im Vorschlag verfügbar. Die Informationen zur Zuordnung sind verloren und können nicht wiederhergestellt werden. Wenn Sie daher die Zuordnungsfunktionalität nutzen möchten, sollten Sie Zeilen in den Einlagerungsvorschlag übertragen, indem Sie Einlagerungsanweisungen löschen, anstatt die automatische Übertragungsfunktion im Feld **Einlagerungsvorschl. verwenden** zu nutzen.  
+Wenn Sie das Feld **Einlagerungsarbeitsblatt verwenden** auf der Lagerortkarte ausgewählt und den Wareneingang mit berechneten Zuordnungen gebucht haben, werden alle Wareneingangszeilen im Arbeitsblatt verfügbar. Die Informationen zur Zuordnung sind verloren und können nicht wiederhergestellt werden. Wenn Sie daher die Zuordnungsfunktionalität nutzen möchten, sollten Sie Zeilen in das Einlagerungsarbeitsblatt übertragen, indem Sie Einlagerungsanweisungen löschen, anstatt die automatische Übertragungsfunktion im Feld **Einlagerungsarbeitsblatt verwenden** zu nutzen.  
 
-Wenn Sie den Wareneingang buchen, und sich kein Häkchen im Feld **Einlagerungsvorschl. verwenden** befindet, erscheinen die Artikel, die zugeordnet werden sollen, als einzelne Zeilen in der Einlagerungsanweisung. Das Feld **Zuordnungsinformation** in jeder Einlagerungszeile zeigt an, ob die Zeile zugeordnete Artikel, Artikel aus demselben Wareneingang, die alle eingelagert werden sollen, oder Artikel, die eingelagert werden sollen und aus einer Wareneingangszeile stammen, in der einige Artikel zugeordnet werden sollen, enthält. Mit diesem Feld können die Mitarbeiter schnell sehen, warum nicht die volle Menge eingelagert werden soll.  
+Wenn Sie den Wareneingang buchen, und sich kein Häkchen im Feld **Einlagerungsarbeitsblatt verwenden** befindet, erscheinen die Artikel, die zugeordnet werden sollen, als einzelne Zeilen in der Einlagerungsanweisung. Das Feld **Zuordnungsinformation** in jeder Einlagerungszeile zeigt an, ob die Zeile zugeordnete Artikel, Artikel aus demselben Wareneingang, die alle eingelagert werden sollen, oder Artikel, die eingelagert werden sollen und aus einer Wareneingangszeile stammen, in der einige Artikel zugeordnet werden sollen, enthält. Mit diesem Feld können die Mitarbeiter schnell sehen, warum nicht die volle Menge eingelagert werden soll.  
 
 Die Anwendung speichert keine eigenen Datensätze von Artikeln, die zugeordnet wurden, sondern erfasst sie als normale Einlagerungsanweisungen.  
 
@@ -41,14 +41,14 @@ Die Anwendung speichert keine eigenen Datensätze von Artikeln, die zugeordnet w
 
     Wenn Sie Zonen verwenden, erstellen Sie eine Zone für Ihre Zuordnungslagerplätze, und wählen Sie das Feld **Zuordnungslagerplatzzone** aus. Weitere Informationen finden Sie unter [Einrichten von Lagerplätzen](warehouse-how-to-set-up-locations-to-use-bins.md).  
 
-2.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Lagerort** ein und wählen Sie dann den entsprechenden Link.  
+2.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Lagerort** ein und wählen Sie dann den zugehörigen Link.  
 3.  Öffnen Sie die Seite **Lagerort**, und wählen Sie den Lagerort aus, den Sie für das Lager bezüglich Zuordnungen einrichten möchten, und wählen Sie die Aktion **Bearbeiten** aus.  
 4.  Wählen Sie im Inforegister **Lager** das Kontrollkästchen **Zuordnung verwenden** aus, und tragen Sie im Feld **Zuord.-Fälligkeitsdatum ber.** die Zeit für die Suche nach Zuordnungsmöglichkeiten ein.
 
     Die Option **Zuordnung verwenden** ist nur verfügbar, wenn die Felder **Wareneingang erforderlich**, **Warenausgang erforderlich**, **Kommissionierung erforderlich** und **Einlagerung erforderlich** ausgewählt sind.  
 
 5.  Wenn Sie Lagerplätze verwenden, tragen Sie im Inforegister **Lagerplätze** in das Feld **Zuordnungslagerplatzcode** den Code des Lagerplatzes ein, der als Vorgabelagerplatz für Zuordnungen verwendet werden soll.  
-6.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Lagermengeneinheit** ein und wählen Sie dann den entsprechenden Link aus.  
+6.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Lagerhaltungsdaten Einheit** ein und wählen Sie den zugehörigen Link.  
 7.  Für jeden Artikel oder alle Lagerhaltungsdaten, die Sie zur Zuordnung verwenden möchten, wählen Sie den Artikel aus, und wählen Sie die **Bearbeiten** Aktion aus.
 8. Auf der Seite **Lagerhaltungsdatenkarte** wählen Sie das Kontrollkästchen **Zuordnung verwenden** aus.  
 
@@ -56,15 +56,15 @@ Die Anwendung speichert keine eigenen Datensätze von Artikeln, die zugeordnet w
 >  Die Zuordnung ist nur möglich, wenn Ihr Lagerort so eingerichtet wurde, dass die Bearbeitung des Wareneingangs und der Einlagerung erforderlich ist.  
 
 ## <a name="to-cross-dock-items-without-viewing-the-opportunities"></a>So ordnen Sie Artikel zu, ohne sich die Möglichkeiten anzeigen zu lassen:  
-1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Wareneingänge** ein, und wählen Sie dann den zugehörigen Link.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Wareneingänge** ein, und wählen Sie dann den entsprechenden Link.  
 2.  Erstellen Sie Wareneingänge für einen Artikel, der angekommen ist und möglicherweise in Zuordnungen einbezogen werden kann. Weitere Informationen finden Sie unter [Entnahme von Artikeln](warehouse-how-receive-items.md).  
 3.  Füllen Sie das Feld **Menge akt. Lieferung** aus, und wählen Sie dann die Aktion **Zuordnung berechnen** aus.  
 
-    Ausgehende Herkunftsbelege, die die Artikel benötigen und die das Lager innerhalb der Datumsformelperiode verlassen sollen, werden identifiziert.  [!INCLUDE[d365fin](includes/d365fin_md.md)] berechnet Mengen, damit Sie soviel wie möglich zuordnen und auf diese Art vermeiden können, Artikel einzulagern, ohne zu viele Artikel im Zuordnungsbereich anzusammeln. Der Wert im Feld **Menge für Zuordnung** ist die Summe aller ausgehenden Zeilen, die den Artikel in der Vorausschauperiode benötigen, abzüglich der Menge der Artikel, die bereits in den Zuordnungsbereich eingelagert wurden. Oder es ist der Wert im Feld **Menge akt. Lieferung** in der Lieferzeile, je nachdem, welcher geringer ist. Sie können nicht mehr zuordnen, als Sie erhalten haben.  
+    Ausgehende Herkunftsbelege, die die Artikel benötigen und die das Lager innerhalb der Datumsformelperiode verlassen sollen, werden identifiziert.  [!INCLUDE[prod_short](includes/prod_short.md)] berechnet Mengen, damit Sie soviel wie möglich zuordnen und auf diese Art vermeiden können, Artikel einzulagern, ohne zu viele Artikel im Zuordnungsbereich anzusammeln. Der Wert im Feld **Menge für Zuordnung** ist die Summe aller ausgehenden Zeilen, die den Artikel in der Vorausschauperiode benötigen, abzüglich der Menge der Artikel, die bereits in den Zuordnungsbereich eingelagert wurden. Oder es ist der Wert im Feld **Menge akt. Lieferung** in der Lieferzeile, je nachdem, welcher geringer ist. Sie können nicht mehr zuordnen, als Sie erhalten haben.  
 
 4.  Wenn Sie die Menge wie vorgeschlagen zuordnen möchten, buchen Sie den Wareneingang. Sie können sich auch entscheiden, die zuzuordnende Menge auf einen höheren oder niedrigeren Wert zu setzen, und dann den Wareneingang zu buchen.  
 
-    Die zuzuordnenden Mengen erscheinen jetzt als Zeilen in der Einlagerungsanweisung, vorausgesetzt, das Feld **Einlagerungsvorschl. verwenden** ist deaktiviert. Die nicht zugeordneten Mengen werden auch Zeilen in der Einlagerungsanweisung.  
+    Die zuzuordnenden Mengen erscheinen jetzt als Zeilen in der Einlagerungsanweisung, vorausgesetzt, das Feld **Einlagerungsarbeitsblatt verwenden** ist deaktiviert. Die nicht zugeordneten Mengen werden auch Zeilen in der Einlagerungsanweisung.  
 
     Wenn Sie Lagerplätze verwenden, wurden die zugeordneten Artikel dem Vorgabe-Zuordnungslagerplatz zugeordnet, der auf der Artikelkarte festgelegt wurde.  
 
@@ -73,7 +73,7 @@ Die Anwendung speichert keine eigenen Datensätze von Artikeln, die zugeordnet w
 7.  Wenn Sie zugeordnete Artikel als eingelagert und zum Kommissionieren registrieren möchten, wählen Sie die Aktion **Registrieren** aus.  
 
 ## <a name="to-cross-dock-items-after-viewing-the-opportunities"></a>So ordnen Sie Artikel zu, nachdem Sie die Verkaufschancen angezeigt haben:  
-1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Wareneingänge** ein, und wählen Sie dann den zugehörigen Link.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Wareneingänge** ein, und wählen Sie dann den entsprechenden Link.  
 2.  Erstellen Sie Wareneingänge für einen Artikel, der angekommen ist und möglicherweise in Zuordnungen einbezogen werden kann. Weitere Informationen finden Sie unter [Entnahme von Artikeln](warehouse-how-receive-items.md).  
 
     Sie können sich die Herkunftsbelegzeilen ansehen, die den Artikel anfordern, bevor Sie den Wareneingang buchen.  
@@ -89,12 +89,12 @@ Die Anwendung speichert keine eigenen Datensätze von Artikeln, die zugeordnet w
 > [!NOTE]  
 >  In der Einlagerung können Sie fortfahren, die Mengen zu ändern – falls notwendig –, die eingelagert oder zugeordnet werden sollen. Sie können sich z. B. entscheiden, eine zusätzliche Menge zuzuordnen, um die Zuordnungsregistrierung zu beschleunigen.  
 
-## <a name="to-view-cross-docked-items-in-a-shipment-or-pick-worksheet"></a>So zeigen Sie zugeordnete Artikel in Warenausgängen oder Kommissioniervorschlägen an:  
-Wenn Sie Lagerplätze verwenden, können Sie jedes Mal, wenn Sie einen Warenausgang oder den Kommissioniervorschlag öffnen, eine aktualisierte Berechnung der Menge jedes Artikels in den Zuordnungslagerplätzen sehen. Diese Information ist wertvoll, wenn Sie auf einen Artikel warten. Wenn Sie sehen, dass der Artikel in einem Zuordnungslagerplatz verfügbar ist, können Sie schnell eine Kommissionierung für alle Artikel des Warenausgangs erstellen. Im Kommissioniervorschlag können Sie die Zeilen wie gewünscht ändern und dann eine Kommissionierung erstellen.  
+## <a name="to-view-cross-docked-items-in-a-shipment-or-pick-worksheet"></a>So zeigen Sie zugeordnete Artikel in Warenausgängen oder Kommissionierarbeitsblättern an:  
+Wenn Sie Lagerplätze verwenden, können Sie jedes Mal, wenn Sie einen Warenausgang oder das Kommissionierarbeitsblatt öffnen, eine aktualisierte Berechnung der Menge jedes Artikels in den Zuordnungslagerplätzen sehen. Diese Information ist wertvoll, wenn Sie auf einen Artikel warten. Wenn Sie sehen, dass der Artikel in einem Zuordnungslagerplatz verfügbar ist, können Sie schnell eine Kommissionierung für alle Artikel des Warenausgangs erstellen. Im Kommissionierarbeitsblatt können Sie die Zeilen wie gewünscht ändern und dann eine Kommissionierung erstellen.  
 
 Sie müssen die Artikel zuerst im Zuordnungsbereich suchen, wenn Sie Artikel für den Warenausgang kommissionieren. Wenn Sie sich beim Wareneingangsprozess die Herkunftsbelege notiert haben, die die Basis der Zuordnung waren, haben Sie einen besseren Überblick darüber, ob die Artikel im Zuordnungsbereich gefunden werden können oder nicht.  
 
-Wenn ein Fertigungsauftrag freigegeben wurde, sind die Zeilen im Kommissioniervorschlag verfügbar und Sie können dann im Feld **Menge in Zuord.-Lagerplätzen** sehen, ob die Artikel, auf die Sie warten, angekommen sind und in die zugeordneten Lagerplätze eingelagert wurden. Wenn Sie eine Kommissionieranweisung erstellen, schlägt die Anwendung vor, dass Sie zuerst die zugeordneten Artikel kommissionieren und erst dann in den festen Lagerplätzen nach weiteren Artikeln suchen.  
+Wenn ein Fertigungsauftrag freigegeben wurde, sind die Zeilen im Kommissionierarbeitsblatt verfügbar und Sie können dann im Feld **Menge in Zuord.-Lagerplätzen** sehen, ob die Artikel, auf die Sie warten, angekommen sind und in die zugeordneten Lagerplätze eingelagert wurden. Wenn Sie eine Kommissionieranweisung erstellen, schlägt die Anwendung vor, dass Sie zuerst die zugeordneten Artikel kommissionieren und erst dann in den festen Lagerplätzen nach weiteren Artikeln suchen.  
 
 Wenn Sie keine Lagerplätze verwenden, müssen Sie daran denken, den Zuordnungsbereich von Zeit zu Zeit zu überprüfen, oder Sie müssen sich auf die Nachrichten aus dem Wareneingang verlassen, dass die Artikel für die Produktion angekommen sind.  
 
@@ -104,4 +104,7 @@ Wenn Sie keine Lagerplätze verwenden, müssen Sie daran denken, den Zuordnungsb
 [Lagerortverwaltung einrichten](warehouse-setup-warehouse.md)     
 [Montageverwaltung](assembly-assemble-items.md)    
 [Designdetails: Logistik](design-details-warehouse-management.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

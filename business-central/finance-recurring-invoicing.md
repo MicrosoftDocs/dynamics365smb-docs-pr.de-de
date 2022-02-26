@@ -1,27 +1,28 @@
 ---
-title: Arbeiten mit wiederkehrenden Umsätzen | Microsoft Docs
+title: Mit wiederkehrenden Umsätzen arbeiten
 description: Erfahren Sie mehr über die verfügbaren Optionen zum automatischen Senden von Abonnementrechnungen an Ihre Kunden und zum Registrieren wiederkehrender Einnahmen.
 author: AndreiPanko
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: recurring, invoicing, subscription, billing
+ms.search.form: 283
 ms.reviewer: edupont
-ms.date: 05/27/2020
+ms.date: 04/01/2021
 ms.author: andreipa
-ms.openlocfilehash: a0439557ce69b3c53406bd43b3b76cdf9ae73a10
-ms.sourcegitcommit: 4545bb597dd9dc4c563b30af762977ee1d815497
+ms.openlocfilehash: 696ab59530c81cd19709f4e1bde3324bcaebbf5a
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3410787"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7970989"
 ---
-# <a name="work-with-recurring-revenue-in-d365fin"></a>Arbeiten mit wiederkehrenden Umsätzen in [!INCLUDE[d365fin](includes/d365fin_md.md)]
+# <a name="work-with-recurring-revenue-in-prod_short"></a>Arbeiten mit wiederkehrenden Umsätzen in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Viele Unternehmen wechseln von einem Geschäftsumsatzmodell, bei dem der Umsatz aus dem einmaligen Kauf eines Debitors erzielt wird, zu einem Abonnementmodell, bei dem der Umsatz durch die Bereitstellung eines dauerhaften Zugangs zu einer Ware oder Dienstleistung regelmäßig erzielt wird.
-[!INCLUDE[d365fin](includes/d365fin_md.md)] bietet folgende Optionen zur Automatisierung des Sendes von Abonnementrechnungen an Ihre Debitoren und zur Registrierung wiederkehrender Umsätze. 
+[!INCLUDE[prod_short](includes/prod_short.md)] bietet folgende Optionen zur Automatisierung des Sendes von Abonnementrechnungen an Ihre Debitoren und zur Registrierung wiederkehrender Umsätze. 
 
 ## <a name="register-revenue-with-a-recurring-general-journal"></a>Registrieren von Umsatz mit einem wiederkehrenden Fibu Buch.-Blatt
 
@@ -31,7 +32,7 @@ Bei einem wiederkehrenden Buch.-Blatt handelt es sich um ein Fibu Buch.-Blatt mi
 
 Mit dieser Option definieren Sie flexible Fakturierungsintervalle mit [Datumsformeln](ui-enter-date-ranges.md#using-date-formulas).
 
-Mit dieser Option können Sie in der Standardversion von [!INCLUDE[d365fin](includes/d365fin_md.md)] jedoch keine Rechnungen drucken und senden.  
+Mit dieser Option können Sie in der Standardversion von [!INCLUDE[prod_short](includes/prod_short.md)] jedoch keine Rechnungen drucken und senden.  
 
 Weitere Informationen finden Sie unter [Arbeiten mit wiederkehrenden Buch.-Blättern](ui-work-general-journals.md#working-with-recurring-journals).  
 
@@ -57,7 +58,7 @@ Wenn Sie häufiger Verkaufs- und Einkaufszeilen mit ähnlichen Daten erstellen m
 
 Mit dieser Option können Sie mehreren Debitoren dieselben wiederkehrenden Zeilen zuweisen. Sie können die Gültigkeitsdauer für die wiederkehrenden Verkaufszeilen für einen bestimmten Debitor definieren. Sie können demselben Debitor mehrere wiederkehrende Zeilen zuweisen, die alle in der Rechnung enthalten sein werden.
 
-Es gibt jedoch keine Möglichkeit, Festpreise für Artikel festzulegen, da [!INCLUDE[d365fin](includes/d365fin_md.md)] die am Dokumentdatum gültigen tatsächlichen Preise und Rabatte verwenden und versuchen wird, die beste Kombination für den niedrigsten Preis zu finden.  
+Es gibt jedoch keine Möglichkeit, Festpreise für Artikel festzulegen, da [!INCLUDE[prod_short](includes/prod_short.md)] die am Dokumentdatum gültigen tatsächlichen Preise und Rabatte verwenden und versuchen wird, die beste Kombination für den niedrigsten Preis zu finden.  
 
 Weitere Informationen finden Sie unter [Erstellen Sie wiederkehrende Verkaufs- und Einkaufszeilen](sales-how-work-standard-lines.md).
 
@@ -77,7 +78,7 @@ Für diese Option wird jedoch die Premium-Lizenz benötigt. Einrichtung und Verw
 Weitere Informationen finden Sie unter [Arbeiten mit Serviceverträgen und Servicevertragsangeboten](service-how-to-create-service-contracts-and-service-contract-quotes.md) und [Mehrere Serviceverträge in Rechnung stellen](service-how-create-invoices.md#to-invoice-several-service-contracts).
 
 ## <a name="related-features"></a>Zugehörige Funktionen
-Es gibt mehrere zugehörige Funktionen in [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Es gibt mehrere zugehörige Funktionen in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ### <a name="blanket-sales-orders"></a>Verkauf Rahmenauftrag
 
@@ -103,11 +104,11 @@ Mit dieser Option können Sie zwischen festen und „besten“ Preisen wählen.
 
 Diese Option ist jedoch nur in Norwegen verfügbar. Die Gültigkeitsdauer kann auf der Ebene der wiederkehrenden Gruppen definiert werden.
 
-Weitere Informationen finden Sie unter [Wiederkehrende Aufträge (Norwegen)](/localfunctionality/norway/recurring-orders.md).
+Weitere Informationen finden Sie unter [Wiederkehrende Aufträge](LocalFunctionality/Norway/recurring-orders.md).
 
 ### <a name="recurring-revenue-and-subscription-billing-by-other-providers"></a>Wiederkehrende Umsätze und Abonnementabrechnungen durch andere Anbieter
 
-Unter [AppSource.microsoft.com](https://appsource.microsoft.com/) können Sie Erweiterungen für Business Central abrufen. Einige Erweiterungen werden von Microsoft bereitgestellt, und andere Erweiterungen werden von anderen anderen Unternehmen bereitgestellt. Die Liste der Erweiterungen durch andere Unternehmen wächst jeden Monat. Rufen Sie regelmäßig [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1) auf und holen Sie sich die Apps, die Ihnen das Arbeiten in Business Central erleichtern.  
+Unter [AppSource.microsoft.com](https://appsource.microsoft.com/) können Sie Erweiterungen für Business Central abrufen. Einige Erweiterungen werden von Microsoft bereitgestellt, und andere Erweiterungen werden von anderen anderen Unternehmen bereitgestellt. Die Liste der Erweiterungen durch andere Unternehmen wächst jeden Monat. Rufen Sie regelmäßig [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646) auf und holen Sie sich die Apps, die Ihnen das Arbeiten in Business Central erleichtern.  
 
 ## <a name="see-also"></a>Siehe auch
 
@@ -120,4 +121,7 @@ Unter [AppSource.microsoft.com](https://appsource.microsoft.com/) können Sie Er
 [Mehrere Serviceverträge in Rechnung stellen](service-how-create-invoices.md#to-invoice-several-service-contracts)  
 [Absatzplanungen und Rahmenaufträge Nachfrage](design-details-central-concepts-of-the-planning-system.md#demand-forecasts-and-blanket-orders)  
 [Arbeiten mit Rahmenaufträgen](sales-how-to-create-blanket-sales-orders.md)  
-[Wiederkehrende Aufträge (Norwegen)](/localfunctionality/norway/recurring-orders.md)  
+[Wiederkehrende Aufträge (Norwegen)](LocalFunctionality/Norway/recurring-orders.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

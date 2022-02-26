@@ -1,26 +1,25 @@
 ---
-title: Analysieren von Cashflow | Microsoft Docs
+title: Cashflows analysieren
 description: Beschreibt, wie die Geldumlauf-, Einnahmen- und Ausgaben-, Cash Flow- und Cashflow-Prognosediagramme verwendet werden, um vergangene und künftige Bargeldbewegungen im Unternehmen zu analysieren.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera
-ms.date: 04/01/2020
+ms.search.form: 762, 840, 841, 847, 848, 849, 850, 857, 858, 859, 860, 862, 863, 865, 866, 867, 868, 869, 1818
+ms.date: 12/20/2021
 ms.author: bholtorf
-ms.openlocfilehash: 5a13d461bd4764173e7d674ef35f5fa32f11318b
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: f7edf7f1b878f6647b123c956531313317f3bb15
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184004"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7973570"
 ---
 # <a name="analyzing-cash-flow-in-your-company"></a>Analysieren von Cashflow in Ihren Mandanten
-Wie man sagt, Bargeld ist der König. Die Diagramme im Feld Rollencenter Buchhalter liefert Einblick, die Ihnen dabei helfen, fundierte Entscheidungen über das zu erfüllen, was Sie mit Ihrem Bargeld tun.  
+Die Diagramme im Buchhalter-Rollencenter liefern Einblicke, die Ihnen dabei helfen, fundierte Entscheidungen in Bezug auf die Verwendung Ihres Bargelds zu treffen.  
 
 | Um Fragen wie diese zu beantworten | Verwenden Sie dieses Chart |
 | --- | --- |
@@ -38,20 +37,26 @@ Im Feld Rollencenter Buchhalte unter **Finanzleistung** geben die Diagramme **Ba
 
 Obwohl dies separat ist, ist das Fenster **Cashflowplanung** gleich. Um Details anzuzeigen Filtern Sie die Ergebnisse und ändern, was gleich angezeigt wird. Wenn Sie eine Einstellung ändern, kann die Planung mithilfe von **Cashflowplanung** und **Planung neu berechnen** aktualisiert werden.
 
-Wenn Sie die Planung, zusätzlich zu den Absatzplanungsposten prüfen möchten, können Sie den Cashflowvorschlag auch berücksichtigen. Beispielsweise wird angezeigt, wie die Planungs:
+Wenn Sie die Planung, zusätzlich zu den Absatzplanungsposten prüfen möchten, können Sie den Cashflowarbeitsblatt auch berücksichtigen. Beispielsweise wird angezeigt, wie die Planungs:
 
 * Verarbeitet bestätigte Verkäufe und Einkäufe.  
 * Subtrahiert Verbindlichkeiten und fügt Forderungen hinzu.  
 * Überspringt duplizierte Verkaufsaufträge und Bestellungen.  
 
-## <a name="to-view-a-cash-flow-worksheet"></a>Cashflowvorschlagszeile anzeigen
+## <a name="to-view-a-cash-flow-worksheet"></a>Cashflowarbeitsblattszeile anzeigen
+
 1. Suchen Sie nach **Cashflow-Planungen** und wählen Sie dann den zugehörigen Link aus.  
-2. Wählen Sie eine Cashflowplanung, und wählen die **Cashflowvorschlag** Aktion aus.  
+2. Wählen Sie eine Cashflowplanung, und wählen die **Cashflowarbeitsblatt** Aktion aus.  
 3. Auf der Seite **Cashflow Arbeitsblatt** wählen Sie die Aktion **Vorgeschlagene Arbeitsblattpositionen** aus.  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/modules/forecast-cash-flow-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Siehe auch
+
 [Finanzen einrichten](finance-setup-finance.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Einrichten der Cashflowanalyse](finance-setup-cash-flow-analyses.md)  
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Cashflow Analyse festlegen](finance-setup-cash-flow-analyses.md)  
+[Prognostizieren Sie Ihren Cashflow in Dynamics 365 Business Central (Microsoft Learn)](/learn/modules/forecast-cash-flow-dynamics-365-business-central/index)  
+[Einrichten von Cashflow-Planungen mit Azure AI in Dynamics 365 Business Central(Microsoft Learn)](/learn/modules/setup-cash-flow-forecasts/)  
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

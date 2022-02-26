@@ -1,30 +1,30 @@
 ---
-title: Anlagen verwalten| Microsoft Docs
-description: Erhalten Sie Informationen zu den Funktionen von Anlagen und eine Übersicht , wie mit Anlagen gearbeitet wird.
-services: project-madeira
-documentationcenter: ''
-author: SorenGP
+title: Verwalten von Anlagen (enthält Video)
+description: Informieren Sie sich über die Funktionalität der Anlagen und verschaffen Sie sich einen Überblick, wie Sie mit Ihren Anlagen arbeiten und diese verwalten.
+author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: machinery, buildings
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 8b332e50d722ff56625fce45a9617ea67ec2201a
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.search.form: 5604, 5606, 5664, 5601, 5602, 5658, 5603, 5671, 5641, 5634, 5649, 5622, 5650
+ms.date: 06/15/2021
+ms.author: edupont
+ms.openlocfilehash: e7b40c1d4809193a22367157fd69cacbd9b27105
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184196"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8029378"
 ---
-# <a name="fixed-assets"></a>Anlagen
-Die Anlagenfunktion in [!INCLUDE[d365fin](includes/d365fin_md.md)] gibt Ihnen einen Überblick über Ihre Anlagen und stellt die korrekten periodischen Abschreibungen sicher. Außerdem erhalten Sie dort einen Überblick über die Wartungskosten, können die Versicherungen verwalten, Anlagentransaktionen buchen und verschiedene Berichte und Statistiken generieren.
+# <a name="managing-fixed-assets"></a>Verwalten von Anlagen
+
+Die Anlagenfunktion in [!INCLUDE[prod_short](includes/prod_short.md)] gibt Ihnen einen Überblick über Ihre Anlagen und stellt die korrekten periodischen Abschreibungen sicher. Außerdem erhalten Sie dort einen Überblick über die Wartungskosten, können die Versicherungen verwalten, Anlagentransaktionen buchen und verschiedene Berichte und Statistiken generieren.
 
 Sie müssen für jede Anlage eine Karte mit entsprechenden Informationen zur Anlage einrichten. Sie können Gebäude oder Produktionseinrichtungen als Hauptanlage mit einer Komponentenliste einrichten und sie unterschiedlich gruppieren, z. B. nach Klasse, Abteilung oder Standort. Dann können Sie beginnen, die Anlagen zu erwerben, zu verwalten und zu verkaufen. Sie können auch Plananlagen einrichten. Dadurch haben Sie die Möglichkeit, geplante Anschaffungen und Verkäufe in Berichten zu berücksichtigen.
 
-Um Anlagenabscheibungen sowie andere finanzielle Transaktionen, die sich auf die Anlagen beziehen, nachzuverfolgen, richten Sie mindestens ein AfA-Buch für jede Anlage in Ihrem Unternehmen ein. Die Abschreibung wird getätigt, indem ein Bericht ausgeführt wird, der die periodische Abschreibung berechnet und ein Buch.-Blatt mit den daraus resultierenden Posten ausfüllt, die dann gebucht werden. [!INCLUDE[d365fin](includes/d365fin_md.md)] unterstützt verschiedene AfA-Methoden. Weitere Informationen finden Sie unter [AfA-Methoden](fa-depreciation-methods.md). Sie können mehrere AfA-Bücher pro Anlage für unterschiedliche Zwecke einrichten, beispielsweise eins für eine Steuerberichterstellung und ein weiteres zur internen Berichterstellung.
+Um Anlagenabscheibungen sowie andere finanzielle Transaktionen, die sich auf die Anlagen beziehen, nachzuverfolgen, richten Sie mindestens ein AfA-Buch für jede Anlage in Ihrem Unternehmen ein. Die Abschreibung wird getätigt, indem ein Bericht ausgeführt wird, der die periodische Abschreibung berechnet und ein Buch.-Blatt mit den daraus resultierenden Posten ausfüllt, die dann gebucht werden. [!INCLUDE[prod_short](includes/prod_short.md)] unterstützt verschiedene AfA-Methoden. Weitere Informationen finden Sie unter [AfA-Methoden](fa-depreciation-methods.md). Sie können mehrere AfA-Bücher pro Anlage für unterschiedliche Zwecke einrichten, beispielsweise eins für eine Steuerberichterstellung und ein weiteres zur internen Berichterstellung.
 
 Für jede Anlage können Sie die Wartungskosten und das nächste Servicedatum erfassen. Durch die Überwachung der Wartungskosten werden die Budgetierung und die Entscheidung über den Verkauf einer Anlage erleichtert.
 
@@ -35,25 +35,33 @@ Jede Anlage kann mit Versicherungspolicen verknüpft werden. Daher haben Sie die
 
 Bevor Sie mit dem Verwalten von Anlagen beginnen können, müssen Sie Standardwerte, Anlagenbuchungen, Buchungsgruppen, Verteilungsschlüsseln, Buch.-Blätter und Buchungsarten einrichten. Weitere Informationen finden Sie unter [Einrichten von Anlagen](fa-setup.md).
 
-In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den beschriebenen Themen erläutert.
+Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Themen, die sie beschreiben..
 
 | Aufgabe | Siehe |
 | --- | --- |
 | Erstellen von Anlagen, Zuordnen von AfA-Methoden, Buchen von Anschaffungen und Restwerten sowie Drucken von Anlagenübersichten |[Erworbene Anlagen](fa-how-acquire.md) |
 | Erfassen von Servicebesuchen, Buchen und Überwachen von Wartungskosten. |[Anlagen verwalten](fa-how-maintain.md) |
 | Aktualisieren von Versicherungsinformationen, Buchen von Anschaffungskosten auf Versicherungspolicen, Anpassen der Versicherungsdeckung, Anzeigen der Versicherungsstatistik und Auflisten von Versicherungspolicen |[Versichern von Anlagen](fa-how-insure.md) |
-| Umbuchen von Anlagen, Transferieren von Anlagen an verschiedene Standorte sowie Aufteilen oder Zusammenfassen von Anlagen |[Übertragen, Teilen oder Kombinieren von Anlagen.](fa-how-trans-split-combine.md) |
+| Umbuchen von Anlagen, Transferieren von Anlagen an verschiedene Standorte sowie Aufteilen oder Zusammenfassen von Anlagen |[Übertragen, Teilen oder Kombinieren von Anlagen](fa-how-trans-split-combine.md) |
 | Anpassen der Werte von Anlagen, Buchen von Zuschreibungen und Buchen von erhöhten AfA-Transaktionen |[Anlagen neu bewerten](fa-how-revalue.md) |
 | Berechnen und Buchen der AfA und Analysieren der AfA in Anlagenberichten. |[Anlagen abschreiben oder amortisieren](fa-how-depreciate-amortize.md) |
 | Buchen von Verkaufstransaktionen, Anzeigen von Verkaufsposten und Buchen von Teilverkäufen |[Anlagen entsorgen oder außer Dienst stellen](fa-how-dispose-retire.md) |
-| Verwalten von Anlagenbudgets, Budgetieren von Anschaffungskosten, Budgetieren von Anlagenverkäufen und Budgetieren der AfA. |[Budgets für Anlagen verwalten.](fa-how-manage-budgets.md) |
+| Verwalten von Anlagenbudgets, Budgetieren von Anschaffungskosten, Budgetieren von Anlagenverkäufen und Budgetieren der AfA. |[Budgets für Anlagen verwalten](fa-how-manage-budgets.md) |
+
+## <a name="video-overview"></a>Videoübersicht
+Das folgende Video behandelt die Grundlagen des Anlagevermögens.
+
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS?rel=0]
 
 ## <a name="see-also"></a>Siehe auch
 [Anlagen einrichten](fa-setup.md)  
-[Funktionen, die angezeigt werden ändern](ui-experiences.md)  
+[Ändern, welche Funktionen angezeigt werden](ui-experiences.md)  
 [Finanzen](finance.md)  
-[Erste Schritte](product-get-started.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Vorbereitung für die Geschäftstätigkeit](ui-get-ready-business.md)  
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,21 +1,21 @@
 ---
-title: Personalisieren von Seiten | Microsoft Docs
-description: Erfahren Sie, wie Sie die Benutzeroberfläche anpassen, damit diese Ihren Bedürfnissen in Business Central entspricht.
+title: Personalisierte Seiten (enthält ein Video)
+description: Hier erfahren Sie, wie Sie die Benutzeroberfläche anpassen und Ihren Arbeitsbereich in Business Central an Ihre Arbeitsweise und persönlichen Vorlieben anpassen können.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: c0fe93df0022f66aa5cc3964c2717e2e6ca76147
-ms.sourcegitcommit: 8a4e66f7fc8f9ef8bdf34595e0d3983df4749376
+ms.date: 06/24/2021
+ms.author: edupont
+ms.openlocfilehash: cd25d18787f8f28b01974e59580f7e83425e54bf
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "3262190"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940276"
 ---
 # <a name="personalize-your-workspace"></a>Ihren Arbeitsbereich personalisieren
 Sie können Ihren Arbeitsbereich für Ihre Arbeit personalisieren oder anpassen und Präferenzen definieren, indem Sie die Seiten ändern, so dass Sie nur die Informationen angezeigt erhalten, die Sie auch benötigen. Die Personalisierungsänderungen, die Sie durchführen, beeinflussen nur, was Sie sehen, und nicht, was die Benutzer sehen.
@@ -28,6 +28,11 @@ Je nach Art der Seite und was enthalten ist, können Sie verschiedene Änderunge
 > Administratoren können dieselben Layoutänderungen wie Benutzer durchführen, indem sie den Arbeitsbereich für ein Profil anpassen, dem mehrere Benutzer zugewiesen sind. Weitere Informationen finden Sie unter [Seiten für Profile anpassen](ui-personalization-manage.md)<br /><br />
 Administratoren können auch Personalisierungen der Benutzer überschreiben und definieren, welche Funktionen in allen oder bestimmten Unternehmen zugänglich sind. Weitere Informationen finden Sie unter [Anpassen von Business Central](ui-customizing-overview.md).
 
+## <a name="video-overview"></a>Videoübersicht
+Das folgende Video zeigt einige Möglichkeiten, wie Sie Ihr Rollencenter personalisieren können.
+
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4ArUB?rel=0]
+
 ## <a name="to-change-the-width-of-a-column"></a>Ändern der Breite einer Spalte
 Sie können die Größe von Spalten in jeder Liste leicht ändern, indem Sie die Grenze zwischen zwei Spalten nach links oder rechts ziehen.
 1. Ziehen Sie im Kopf einer Liste die Grenze zwischen zwei Spalten.
@@ -37,7 +42,7 @@ Wie bei anderen Personalisierungen werden die Änderungen, die Sie an der Spalte
 
 ## <a name="to-start-personalizing-a-page-through-the-personalizing-banner"></a>So beginnen Sie mit der Personalisierung einer Seite über das Banner **Personalisieren**
 1. Öffnen Sie eine beliebige Seite, die Sie personalisieren möchten.
-2. In der rechten oberer Ecke wählen Sie das Symbol ![Einstellungen](media/ui-experience/settings_icon_small.png "Einstellungssymbol für Rollencenter") aus und wählen dann die Aktion **Personalisieren**.
+2. Wählen Sie in der oberen rechten Ecke das Symbol ![Einstellungen.](media/ui-experience/settings_icon_small.png "Einstellungssymbol für Rollencenter") Symbol, und wählen Sie dann die Aktion **Personalisieren**.
 
     Das **Personalisieren** Banner erscheint oben und zeigt an, dass Sie mit den Änderungen beginnen können.
 
@@ -60,7 +65,7 @@ Wie bei anderen Personalisierungen werden die Änderungen, die Sie an der Spalte
 |Etwas verbergen, wie ein Feld, eine Spalte in der Liste, eine Kachel, Aktion oder ein Teil.|Pfeil wählen und <b>Ausblenden</b> auswählen.|Das Element ist im Personalisierungsmodus grau hinterlegt. Wenn das Feld, das Sie ausblenden, auch in der Inforegisterüberschrift angezeigt wird, wenn das Inforegister reduziert ist, wird das Feld dort nicht länger angezeigt.|
 |Versteckte Aktionen und Teile anzeigen.|Wählen Sie für ein graues (ausgeblendetes) Element die Pfeilspitze und dann <b>Anzeigen</b>.|Das versteckte Element ist wieder sichtbar.|
 |Hinzufügen eines Felds oder einer Spalte.|In dem <b>Personalisierung</b> Banner, wählen Sie die <b>+ Feld</b> Aktion.<br /></br>Der Berecih <b>Feld oder Seite hinzufügen</b> wird geöffnet auf der rechten Seite. Es führt die Felder auf, die Sie auf der Seite hinzufügen können.<br /><br />Um ein Feld hinzuzufügen, ziehen Sie es von der Position an den gewünschten Ort. Die Position wird entweder mit einer horizontalen oder einer vertikalen Zeile angegeben.|Jede Seite enthält einen vordefinierten Satz von Feldern, die Sie anzeigen können. Verwenden Sie dieses Verfahren, um Felder oder Spalten hinzuzufügen, die zuvor nicht angezeigt wurden oder um Felder anzuzeigen, die Sie ausgeblendet haben.|
-|Zeigen Sie ein Feld in der Überschrift eines Inforegisters an, wenn das Inforegister reduziert ist.|Wählen Sie die Pfeilspitze aus und dann wählen Sie <b>Bei Reduzierung anzeigen</b> aus. <br /> <br />Wenn Sie diese Option nicht finden, ist sie bereits festgelegt. In diesem Fall wählen Sie <b>Immer anzeigen</b> auf dem Inforegister aus, damit das Feld nicht mehr in der Inforegisterüberschrift angezeigt wird.|*Inforegister* ist der Begriff, der für eine Gruppe von Feldern verwendet wird, die unter einer gemeinsamen Überschrift angezeigt werden. Verwenden Sie <b>Bei Reduzierung anzeigen</b>-Option, um die wichtigsten Felder anzuzeigen. Wenn Sie ein Feld im der Überschrift auswählen, wird das Inforegister mit Fokus auf dem ausgewählten Feld geöffnet.<br /><br />Diese Option wird nur angewendet, wenn eine Seite mehr als ein Inforegister hat. Wenn nur ein Inforegister da ist, kann es nicht reduziert werden, sodass die <b>Bei Reduzierung anzeigen</b>-Option nicht verfügbar ist.|
+|Zeigen Sie ein Feld in der Überschrift eines Inforegisters an, wenn es reduziert ist.|Wählen Sie die Pfeilspitze aus und dann wählen Sie <b>Bei Reduzierung anzeigen</b> aus. <br /> <br />Wenn Sie diese Option nicht finden, ist sie bereits festgelegt. In diesem Fall wählen Sie <b>Immer anzeigen</b> auf dem Inforegister aus, damit das Feld nicht mehr in der Inforegisterüberschrift angezeigt wird.|*Inforegister* ist der Begriff, der für eine Gruppe von Feldern verwendet wird, die unter einer gemeinsamen Überschrift angezeigt werden. Verwenden Sie <b>Bei Reduzierung anzeigen</b>-Option, um die wichtigsten Felder anzuzeigen. Wenn Sie ein Feld im der Überschrift auswählen, wird das Inforegister mit Fokus auf dem ausgewählten Feld geöffnet.<br /><br />Diese Option wird nur angewendet, wenn eine Seite mehr als ein Inforegister hat. Wenn nur ein Inforegister da ist, kann es nicht reduziert werden, sodass die <b>Bei Reduzierung anzeigen</b>-Option nicht verfügbar ist.|
 |Lassen Sie ein Feld anzeigen, wenn Sie **Mehr anzeigen** auswählen.|Wählen Sie die Pfeilspitze aus und wählen Sie dann <b>Unter „Mehr anzeigen“ anzeigen</b> aus. <br /> <br />Wenn Sie die Option <b>Unter „Mehr anzeigen“ anzeigen</b> nicht sehen, ist sie bereits festgelegt. Wenn Sie in diesem Fall ein Feld immer anzeigen lassen möchten, und nicht nur, wenn Sie **Mehr anzeigen** auswählen, wählen Sie <b>Immer anzeigen</b> aus.||
 |Ändern Sie die Fixierung von Spalten in der Liste. |Wählen Sie nun die Spalte der Pfeilspitze, die Sie als letzte Spalte der Fixierung möchten, und wählen Sie dann <b>Fixierung einstellen</b> aus.<br /><br/>Wenn Sie die Fixierung wieder am ursprünglichen Ort wünschen, wählen Sie die Pfeilspitze für die aktuelle Fixierung und wählen Sie dann <b>Fixierung löschen</b> aus. Hinweis: Sie können die ursprüngliche Fixierung nicht entfernen.|Der Fixierungsbereich gibt die Spalten an, die immer links erscheinen, auch wenn Sie horizontal blättern.|  
 |Überspringen Sie ein Feld, wenn die EINGABETASTE gedrückt wird.|Wählen Sie die Pfeilspitze neben dem Feld oder der Spaltenüberschrift in der Liste aus, und wählen Sie dann **Von der Schnelleingabe ausschließen** aus. <br /><br /> Wenn Sie diese Option nicht sehen, ist das Überspringen für das Feld bereits festgelegt. Wenn Sie in diesem Fall Überspringen des Felds beenden möchten, wählen Sie **In Schnelleingabe einbeziehen** aus. |Siehe [Beschleunigen der Dateneingabe mithilfe der Schnelleingabe](ui-enter-data.md#QuickEntry)|
@@ -138,6 +143,9 @@ Um die Personalisierung besser zu verstehen, finden Sie hier einige Hinweise.
 
 ## <a name="see-also"></a>Siehe auch
 [Seiten für Profile anpassen](ui-personalization-manage.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Ändern von grundlegenden Einstellungen](ui-change-basic-settings.md)  
 [Ändern, welche Merkmale angezeigt werden](ui-experiences.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

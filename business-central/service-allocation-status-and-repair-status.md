@@ -1,26 +1,24 @@
 ---
 title: Zuweisungsstatus und Reparaturstatus | Microsoft Docs
 description: Kennenlernen des Verhältnisses zwischen dem Reparaturstatus der Serviceartikel und dem Zuordnungsstatus von Zuordnungen.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: resources, allocation, status, repairs
-ms.date: 10/01/2019
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: cffd91900c5644ab31764290c0a3ff78a4685171
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 9cf3349d654a4e007079075c64e9e56654619810
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316236"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5772404"
 ---
 # <a name="allocation-status-and-repair-status-of-service-items"></a>Zuordnungsstatus und Reparaturstatus von Serviceartikeln
-Der Reparaturstatus der Serviceartikel und der Zuordnungsstatus von Zuordnungen für Serviceartikel stellen unter "Service" eine bestimmte Beziehung zueinander dar. Der Zuordnungsstatus ändert sich, wenn Sie den Reparaturstatus des Serviceartikels auf **Erledigt** oder **Unvollständig bearbeitet** setzen oder wenn Sie ein Serviceangebot in einen Serviceauftrag umwandeln. Der Reparaturstatus des Serviceartikels ändert sich, wenn Sie die Serviceartikelzuordnung stornieren oder den Serviceartikel einer anderen Ressource neu zuordnen. Sie können den Reparaturstatus der Serviceartikel auf der Seite **Serviceaufgaben** einsehen und ihn im Feld **Reparaturstatuscode** auf der Seite **Servicearbeitsschein** aktualisieren. Sie können den Zuordnungsstatus im Feld **Status** der Seite **Ressourcenzuordnungen** einsehen.  
+Der Reparaturstatus der Serviceartikel und der Zuordnungsstatus von Zuordnungen für Serviceartikel stellen unter "Service" eine bestimmte Beziehung zueinander dar. Der Zuordnungsstatus ändert sich, wenn Sie den Reparaturstatus des Serviceartikels auf **Erledigt** oder **Unvollständig bearbeitet** setzen oder wenn Sie ein Serviceangebot in einen Serviceauftrag umwandeln. Der Reparaturstatus des Serviceartikels ändert sich, wenn Sie die Serviceartikelzuordnung stornieren oder den Serviceartikel einer anderen Ressource neu zuordnen. Sie können den Reparaturstatus der Serviceartikel auf der Seite **Serviceaufgaben** einsehen und ihn im Feld **Reparaturstatuscode** auf der Seite **Servicearbeitsblatt** aktualisieren. Sie können den Zuordnungsstatus im Feld **Status** der Seite **Ressourcenzuordnungen** einsehen.  
   
 ## <a name="changing-repair-status"></a>Ändern des Reparaturstatus  
 Wenn Sie den Reparaturstatus eines Serviceartikels in einer Serviceauftragszeile ändern, sucht die Anwendung nach einem entsprechenden Zuordnungseintrag für diesen Serviceartikel, der den Status **Aktiv** hat. Wenn eine solche Zuordnung gefunden wird, wird der Status dieser Zuordnung gemäß einer der folgenden Methoden aktualisiert:  
@@ -40,7 +38,7 @@ Wenn Sie ein Serviceangebot in einen Serviceauftrag umwandeln, aktualisiert die 
 * Die Anwendung sucht nach Zuordnungen für alle Serviceartikel des Serviceauftrags mit dem Status **Aktiv**. Wenn solche Zuordnungen gefunden werden, wird der Zuordnungsstatus von **Aktiv** auf **Neuzuordnung notwendig** geändert.  
   
 ## <a name="canceling-allocations"></a>Zuordnungen stornieren  
-Wenn Sie die Zuordnung für einen Serviceartikel stornieren, aktualisiert [!INCLUDE[d365fin](includes/d365fin_md.md)] den Zuordnungsstatus des entsprechenden Zuordnungspostens von **Aktiv** auf **Neuzuordnung erforderlich**.
+Wenn Sie die Zuordnung für einen Serviceartikel stornieren, aktualisiert [!INCLUDE[prod_short](includes/prod_short.md)] den Zuordnungsstatus des entsprechenden Zuordnungspostens von **Aktiv** auf **Neuzuordnung erforderlich**.
 
 Der Reparaturstatus der Serviceartikel wird in dem Zuordnungsposten auf die folgenden Arten aktualisiert:  
   
@@ -72,3 +70,6 @@ Ein neuer Zuordnungsposten mit dem Zuordnungsstatus **Aktiv** wird erstellt, der
 [Ressourcenzuweisung einrichten](service-how-setup-resource-allocation.md)  
 [Ressourcen zuordnen](service-how-to-allocate-resources.md)  
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

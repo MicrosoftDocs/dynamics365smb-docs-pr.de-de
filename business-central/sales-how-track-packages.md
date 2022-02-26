@@ -1,39 +1,43 @@
 ---
-title: Pakete nachverfolgen | Microsoft Docs
-description: Verwenden Sie den Zustellerüberwachungsdienst, um den Status einer Lieferung anzuzeigen.
+title: So können Sie Pakete verfolgen
+description: Verwenden Sie die Sendungsverfolgung für Zusteller im Internet, um Pakete zu verfolgen und den Fortschritt einer Lieferung zu verfolgen.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords: rfq
-ms.date: 05/28/2020
+ms.search.form: 103, 142, 800, 806
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: a655768234c262ff98a753b28dfbbd53d1bc1749
-ms.sourcegitcommit: 4545bb597dd9dc4c563b30af762977ee1d815497
+ms.openlocfilehash: 8c05c4a86e0bf9ace996dfc879b719324dc99593
+ms.sourcegitcommit: a9e2aaee735870af566db68532cfa697347d68e0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3410692"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752366"
 ---
 # <a name="track-packages"></a>Pakete verfolgen
-
-Eine Anzahl von Zustellern bietet einen Service im Internet, der es Ihnen erlaubt, Pakete zu verfolgen, die Sie ihm übergeben haben. Wenn Sie einen oder mehrere dieser Zusteller verwenden, können Sie bestimmte Basisinformationen hinterlegen und die Funktionalität der automatischen Paketverfolgung von gebuchten Lieferungen, gebuchten Verkaufsrechnungen, gebuchten Verkaufsgutschriften und gebuchten Rücksendungen aus nutzen. Weitere Informationen finden Sie unter [Versand-Agenten](sales-how-to-set-up-shipping-agents.md).  
+Die meisten Spediteure bieten einen Webservice an, mit dem Sie den Status Ihrer Pakete unterwegs verfolgen können. Diese Informationen können in vielen Geschäftsprozessen nützlich sein, beispielsweise bei der Bereitstellung von Kundenservice. Wenn Sie einen oder mehrere dieser Zusteller verwenden, können Sie bestimmte Basisinformationen zu ihnen hinterlegen und die Funktionalität der Paketverfolgung von gebuchten Lieferungen, gebuchten Verkaufsrechnungen, gebuchten Verkaufsgutschriften und gebuchten Rücksendungen aus nutzen. Weitere Informationen finden Sie unter [Versand-Agenten](sales-how-to-set-up-shipping-agents.md). 
 
 Das folgende Verfahren zeigt, wie Sie ein Paket aus einer gebuchten Verkaufslieferung verfolgen. Die gleichen Schritte gelten jedoch auch, um die Paketverfolgung auf den Seiten „Gebuchte Verkaufsrechnung“, „Gebuchte Verkaufsgutschrift“ und „Gebuchte Rücksendung“ zu aktivieren.  
 
 ## <a name="to-track-a-package"></a>So verfolgen Sie ein Paket:
 
-1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen"), geben Sie **Verkaufslieferung gebucht** ein, und wählen Sie dann den entsprechenden Link.
-2. Öffnen Sie die relevante Verkaufslieferung.
-3. Wählen Sie die Aktion **Dokument aktualisieren** aus.
-4. In der **Paketverfolgungsnr.** Feld geben Sie die Paketnummer ein, die Sie vom Zusteller erhalten haben. Aktualisieren Sie bei Bedarf **Zusteller**, und schließen Sie die Seite.
-5. Wählen Sie die **Paketverfolgung**-Aktion aus.
+> [!NOTE]
+> Im folgenden Verfahren wird die Seite Gebuchte Verkaufssendung als Beispiel verwendet. Die Schritte zum Verfolgen eines Pakets sind auf den Seiten Gebuchte Verkaufsrechnungen, Gebuchte Verkaufsgutschriften und Gebuchte Rückscheine gleich.
 
-Ihr Standardbrowser öffnet die Nachverfolgungsseite des Zustellers.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Gebuchte Verkaufslieferungen** ein, und wählen Sie dann den zugehörigen Link.
+2. Öffnen Sie die Lieferung, die Sie nachverfolgen möchten, und wählen Sie anschließend die Aktion **Beleg aktualisieren** aus.
+3. In der **Paketverfolgungsnr.** geben Sie die Paketnummer ein, die Sie vom Zusteller erhalten haben. 
+4. Stellen Sie sicher, dass der richtige Spediteur und die Servicestufe korrekt sind, und schließen Sie dann die Seite.
+5. Wählen Sie die Aktion **Paket nachverfolgen**, um die Nachverfolgungsseite des Zustellers zu öffnen.
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 [Zusteller einrichten](sales-how-to-set-up-shipping-agents.md)  
 [Verkauf](sales-manage-sales.md)  
 [Einrichten von Verkäufen](sales-setup-sales.md)  
 [Dokumente per E-Mail versenden](ui-how-send-documents-email.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

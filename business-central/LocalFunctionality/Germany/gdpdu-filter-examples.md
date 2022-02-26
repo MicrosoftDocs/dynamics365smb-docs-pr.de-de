@@ -1,23 +1,25 @@
 ---
-title: GDPdU-Filterbeispiele
-description: Das folgende Thema enthält Beispiele, wie Sie unterschiedliche Filtertypen verwenden und kombinieren können, wenn Sie Ihre GPDdU-Exporte einrichten. Wenn Sie Filter passend einsetzen, können Sie die Leistung verbessern.
+title: GDPdU Filter Beispiele [DE]
+description: Das folgende Thema enthält Beispiele, wie Sie unterschiedliche Filtertypen verwenden und kombinieren können, wenn Sie Ihre GPDdU-Exporte einrichten.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 1eeda5f9cbc1fdd1e3131788feb332e436f55766
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.search.form: 11002, 11003, 11004, 11007, 11008, 11009, 11014, 11026, 11027
+ms.date: 06/18/2021
+ms.author: edupont
+ms.openlocfilehash: 83616b6819df662a313dd7af0a0434b6058825cb
+ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181176"
+ms.lasthandoff: 12/28/2021
+ms.locfileid: "7947224"
 ---
-# <a name="gdpdu-filter-examples"></a>GDPdU-Filterbeispiele
+# <a name="gdpdu-filter-examples-in-the-german-version"></a>GDPdU-Filter-Beispiele in der deutschen Version
+
 Das folgende Thema enthält Beispiele, wie Sie unterschiedliche Filtertypen verwenden und kombinieren können, wenn Sie Ihre GPDdU-Exporte einrichten. Wenn Sie Filter passend einsetzen, können Sie die Leistung verbessern.  
 
 In den folgenden Beispielen werden für Daten die Tabellen für Sachposten und Debitorenposten verwendet. Sie gehen davon aus, dass Sie das nächste Datum in der Stapelverarbeitung **Geschäftsdaten exportieren** angegeben haben.  
@@ -28,7 +30,8 @@ Enddatum = 31.12.2013
 
 ## <a name="setting-up-export-record-source-examples"></a>Einrichten von Beispielen für Datensatzquellen für den Export  
 
-### <a name="period-field-no"></a>Periodenfeldnr.  
+### <a name="period-field-no"></a>Periodenfeldnr.
+
 Auf der Seite **Datenexport – Datensatzherkunft** erfolgt die Einrichtung wie in folgender Tabelle beschrieben.  
 
 |Tabellennr.|Tabellenname|Periodenfeldnr.|Periodenfeldname|Tabellenfilter|  
@@ -36,12 +39,13 @@ Auf der Seite **Datenexport – Datensatzherkunft** erfolgt die Einrichtung wie 
 |17|Fibubuchung|4|Buchungsdatum|Kein Filter festgelegt.|  
 |21|Debitorenposten|4|Buchungsdatum|Kein Filter festgelegt.|  
 
-**Ergebnisse exportieren**  
+Exportergebnisse:
 
 - Sachposten mit Buchungsdatum zwischen 01.01.2013 und 31.12.2013.  
 - Debitorenposten mit Buchungsdatum zwischen 01.01.2013 und 31.12.2013.  
 
-### <a name="table-filter"></a>Tabellenfilter  
+### <a name="table-filter"></a>Tabellenfilter
+
 In diesem Beispiel geben Sie, zusätzlich zu „Periodenfeldnr.“-Informationen auch einen Tabellenfilter an. Dies ist hilfreich, wenn Sie nicht nur ein Start- und Enddatum für Ihren Export einbeziehen möchten, sondern auch einen zusätzlichen Filter, um weitere Kriterien anzugeben, wie beispielsweise Beträge.  
 
 |Tabellennr.|Tabellenname|Periodenfeldnr.|Periodenfeldname|Tabellenfilter|  
@@ -49,12 +53,13 @@ In diesem Beispiel geben Sie, zusätzlich zu „Periodenfeldnr.“-Informationen
 |17|Fibubuchung|4|Buchungsdatum||  
 |21|Debitorenposten|||Debitorenposten: **Buchungsdatum=..31-12-13**|  
 
-**Ergebnisse exportieren**  
+Exportergebnisse:
 
 - Sachposten mit Buchungsdatum zwischen 01.01.2013 und 31.12.2013.  
 - Debitorenposten mit Buchungsdatum vor 01.01.2014.  
 
-### <a name="date-filter-field-no-and-date-filter-handling"></a>Datumsfilter-Feldnummer und Behandlung von Datumsfiltern  
+### <a name="date-filter-field-no-and-date-filter-handling"></a>Datumsfilter-Feldnummer und Behandlung von Datumsfiltern
+
 Im folgenden Beispiel wird die Einstellung von Datumstyp-FlowFilters veranschaulicht. Wenn eine Tabelle mehr als einen Datums-FlowFilter hat, können Sie keinen zur Benutzung angeben, aber Sie können angeben, wie der Datumsfilter behandelt werden soll.  
 
 |Tabellennr.|Tabellenname|Periodenfeldnr.|Periodenfeldname|Tabellenfilter|Behandlung von Datumsfiltern|  
@@ -62,12 +67,13 @@ Im folgenden Beispiel wird die Einstellung von Datumstyp-FlowFilters veranschaul
 |18|Debitor|||Debitor: **Bewegung (MW)**=<>0|**Periode**|  
 |21|Debitorenposten|4|Buchungsdatum|Debitorenposten: **Restbetrag (MW)**=<>0|**Nur Enddatum**|  
 
-**Ergebnisse exportieren**  
+Exportergebnisse:
 
 - Debitoren, die eine Bewegung (MW) <> 0 in die Periode von 01.01.2013 bis 31.12.2013 haben.  
 - Debitorenposten mit Buchungsdatum zwischen 01.01.2013 und 31.12.2013, die einen Restbetrag (MW) <> 0 am 31.12.2013 haben.  
 
-### <a name="date-filter-handling-for-the-same-table"></a>Datumsfilterbehandlung für dieselbe Tabelle  
+### <a name="date-filter-handling-for-the-same-table"></a>Datumsfilterbehandlung für dieselbe Tabelle
+
 In diesem Beispiel legen Sie mehrere Filterdefinitionen für dieselbe Tabelle fest.  
 
 |Tabellennr.|Tabellenname|Tabellenfilter|Behandlung von Datumsfiltern|  
@@ -75,10 +81,14 @@ In diesem Beispiel legen Sie mehrere Filterdefinitionen für dieselbe Tabelle fe
 |18|Debitor|Debitor: **Bewegung (MW)**=<>0|**Periode**|  
 |18|Debitor|Debitor: **Bewegung (MW)**=<>0|**Nur Startdatum**|  
 
-**Ergebnisse exportieren**  
+Exportergebnisse:
 
-- Debitoren, die eine Bewegung (MW) <> 0 in die Periode von 01.01.2013 bis 31.12.2013 haben.  
+- Debitoren, die eine Bewegung (MW) <> 0 in der Periode vom 01.01.2013 bis 31.12.2013 haben.  
 - Debitoren, die Bewegung (MW) <> 0 am Tag vor dem Startdatum versehen haben.  
 
-## <a name="see-also"></a>Siehe auch  
- [Gewusst wie: Einrichten von Datenexporten für GDPdU](how-to-set-up-data-exports-for-gdpdu.md)
+## <a name="see-also"></a>Siehe auch
+
+[Daten für eine digitale Prüfung (GoBD/GDPdU) einrichten](how-to-set-up-data-exports-for-digital-audits.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

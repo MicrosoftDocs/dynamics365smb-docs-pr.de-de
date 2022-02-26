@@ -1,36 +1,54 @@
 ---
-title: Erstellen von Workflows | Microsoft Docs
-description: Sie können Workflows einrichten, die Geschäftsprozessaufgaben von verschiedenen Benutzern verbinden. Systemaufgaben, wie automatische Buchung, können als Schritte in Workflows berücksichtigt werden, vor oder nach Benutzeraufgaben. Die Anforderung oder Bewilligung von Genehmigungen zum Erstellen neuer Datensätze sind typische Workflowschritte.
+title: Erstellen von Workflows zur Verbindung von Aufgaben
+description: Sie können Workflows erstellen, die Geschäftsprozess-Aufgaben verbinden, die von verschiedenen Benutzern ausgeführt werden, und Systemaufgaben, wie z.B. automatische Buchungen, als Workflow-Schritte einschließen.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: cd22a5df6dbe713c2ccc5706df99b0b73dd2f792
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/30/2021
+ms.author: edupont
+ms.openlocfilehash: 2734f4d65869ba666a53333c9338239a1cb1a1b4
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188348"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588226"
 ---
-# <a name="create-workflows"></a>Erstellen eines Workflows
+# <a name="create-workflows-to-connect-business-process-tasks"></a>Workflows erstellen, um Geschäftsprozess-Aufgaben zu verbinden
+
 Sie können Workflows einrichten, die Geschäftsprozessaufgaben von verschiedenen Benutzern verbinden. Systemaufgaben, wie automatische Buchung, können als Schritte in Workflows berücksichtigt werden, vor oder nach Benutzeraufgaben. Die Anforderung oder Bewilligung von Genehmigungen zum Erstellen neuer Datensätze sind typische Workflowschritte.  
 
 Auf der Seite **Workflow** können Sie einen Workflow erstellen, indem Sie die entsprechenden Schritte in den Zeilen auflisten. Jeder Schritt besteht aus einem durch Ereignisbedingungen moderiertem Workflowereignis und einer Workflowantwort mit Antwortoptionen. Sie definieren Workflowschritte, indem Sie die Felder in Workflowzeilen mit Ereignis- und Antwortwerten aus festen Listen ausfüllen, die die Workflowszenarien darstellen, die durch den Anwendungscode unterstützt werden.  
 
-Wenn Sie Workflows erstellen, können Sie die Schritte aus bestehenden Workflows oder aus Workflowvorlagen kopieren. Workflowvorlagen sind nicht-bearbeitbare Workflows, die Sie in der generischen Version von [!INCLUDE[d365fin](includes/d365fin_md.md)] finden. Dem Code für von Microsoft hinzugefügte Workflowvorlagen ist „MS“ vorangestellt, z. B. „MS-PIW“. Weitere Informationen finden Sie unter [Workflows von Workflow-Vorlagen erstellen](across-how-to-create-workflows-from-workflow-templates.md).  
+Wenn Sie Workflows erstellen, können Sie die Schritte aus bestehenden Workflows oder aus Workflowvorlagen kopieren. Workflowvorlagen sind nicht-bearbeitbare Workflows, die Sie in der generischen Version von [!INCLUDE[prod_short](includes/prod_short.md)] finden. Dem Code für Workflow-Muster, die von Microsoft hinzugefügt werden, wird ein „MS-„ vorangestellt, z. B. in „MS-PIW“. Weitere Informationen finden Sie unter [Workflows von Workflow-Vorlagen erstellen](across-how-to-create-workflows-from-workflow-templates.md).  
 
-Wenn Ihr Szenario Workflowereignisse oder -antworten benötigt, die nicht unterstützt werden, muss ein Microsoft-Partner diese implementieren, indem er den Anwendungscode anpasst.  
+Wenn Ihr Geschäftsszenario Workflow-Ereignisse oder -Antworten erfordert, die nicht unterstützt werden, muss ein Microsoft-Partner diese implementieren, indem er eine Erweiterung erstellt, die das entsprechende Workflow-Ereignis implementiert.  
 
 > [!NOTE]  
->  Alle Benachrichtigungen über Workflowschritte werden über eine Aufgabenwarteschlange gesendet. Stellen Sie sicher, dass die Aufgabenwarteschlange in Ihrer Installation so eingerichtet wurde, dass Workflowbenachrichtigungen empfangen werden. Das Kontrollkästchen **Automatisch von NAS starten** muss aktiviert sein. Weitere Informationen finden Sie unter [Vorgehensweise: Projektwarteschlangen nutzen, um Aufgaben zu planen](admin-job-queues-schedule-tasks.md)  
+> Alle Benachrichtigungen über Workflowschritte werden über eine Aufgabenwarteschlange gesendet. Stellen Sie sicher, dass die Auftragswarteschlange Ihre geschäftlichen Anforderungen widerspiegelt. Weitere Informationen finden Sie unter [Job-Warteschlangen zur Einplanung von Aufgaben verwenden](admin-job-queues-schedule-tasks.md).  
 
-## <a name="to-create-a-workflow"></a>So erstellen Sie einen Workflow  
-1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Workflows** ein und wählen Sie dann den zugehörigen Link.  
+:::image type="content" source="media/Workflows/workflow-example.png" alt-text="Abbildung eines Workflow-Beispiels.":::
+
+Der Workflow ist in drei Abschnitte unterteilt:
+
+1) **Wenn Ereignis** Hier wird der Auslöser ausgewählt.
+    Beispiele für Auslöser könnten sein:
+    - Ein Stammdatensatz wird geändert
+    - eine Buchungsblattzeile wird erstellt
+    - ein Eingehender Beleg wird erstellt oder freigegeben
+    - Die Genehmigung eines Belegs wird genehmigt
+
+2) **Bei Bedingung von** Die **Bedingungen** beziehen sich auf das Ereignis und ermöglichen das Erstellen von Filtern, wann das Ereignis ausgelöst wird
+3) **Dann Antwort** Die **Antworten** geben an, was der nächste Arbeitsschritt ist.
+
+Für beide Arten von Ereignissen gilt, dass die Ereignisse systemdefiniert sind. Neue Ereignisse müssen durch die Entwicklung einer Erweiterung hinzugefügt werden.
+
+## <a name="to-create-a-workflow"></a>So erstellen Sie einen Workflow
+
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Workflows** ein, und wählen Sie dann den entsprechenden Link.  
 2. Wählen Sie die Aktion **Neu**. Die Seite **Workflow** wird geöffnet.  
 3. Geben Sie im Feld **Code** maximal 20 Zeichen ein, um den Workflow zu identifizieren.  
 4. Um den Workflow von einer Workflowvorlage zu erstellen, wählen Sie auf der Seite **Workflows** die Aktion **Workflow von Vorlage erstellen**. Weitere Informationen finden Sie unter [Workflows von Workflow-Vorlagen erstellen](across-how-to-create-workflows-from-workflow-templates.md).  
@@ -45,41 +63,43 @@ Wenn Ihr Szenario Workflowereignisse oder -antworten benötigt, die nicht unters
 
     Wenn es sich bei dem Workflowereignis um die Änderung eines bestimmten Felds in einem Datensatz handelt, wird die Seite **Ereignisbedingungen** geöffnet. Dort können Sie Optionen für das Feld und die Art der Änderung auswählen.  
 
-    1.  Um eine Feldänderung für das Ereignis festzulegen, wählen Sie auf der Seite **Ereignisbedingungen** im Feld **Feld** das Feld aus, das sich ändert.  
-    2.  Geben Sie im Feld **Operator** entweder **Verringert**, **Erhöht** oder **Geändert** aus.  
+    1. Um eine Feldänderung für das Ereignis festzulegen, wählen Sie auf der Seite **Ereignisbedingungen** im Feld **Feld** das Feld aus, das sich ändert.  
+    2. Geben Sie im Feld **Operator** entweder **Verringert**, **Erhöht** oder **Geändert** aus.  
 9. Geben Sie im Feld **Dann Antwort** die Antwort an, die beim Auftreten des Workflowereignisses folgt.  
 
      Wenn Sie das Feld auswählen, wird die Seite **Workflow-Antworten** geöffnet, das alle vorhandenen Workflowantworten zur Auswahl anbietet und in dem Sie Antwortoptionen für die gewählte Antwort festlegen können.  
 10. Geben Sie im Inforegister **Optionen für die ausgewählte Reaktion** die Optionen für die Workflowantwort an, indem Sie in die folgenden Felder Werte eingeben:  
 
-    1.  Um Optionen für eine Workflowantwort inkl. des Sendens einer Benachrichtigung festzulegen, füllen Sie die Felder wie in der folgenden Tabelle beschrieben aus.  
+    1. Um Optionen für eine Workflowantwort inkl. des Sendens einer Benachrichtigung festzulegen, füllen Sie die Felder wie in der folgenden Tabelle beschrieben aus.  
 
         |Feld|Beschreibung|  
-        |----------------------------------|---------------------------------------|  
+        |-----|-----------|  
         |**Absender benachrichtigen**|Geben Sie an, ob der Genehmigungsanforderer anstatt des Genehmigungsanforderungsempfängers benachrichtigt wird. Wenn Sie das Kontrollkästchen aktivieren, wird das Feld **Benutzer-ID des Empfängers** deaktiviert, da stattdessen der Anforderer der Genehmigung, der Absender, benachrichtigt wird. Der Name der Workflowreaktion ändert sich entsprechend zu **Benachrichtigung erstellen für &lt;Absender&gt;**. Wenn das Kontrollkästchen nicht aktiviert ist, lautet der Name der Workflowreaktion **Benachrichtigung erstellen für &lt;Benutzer&gt;**.
-        |**Benutzer-ID des Empfängers**|Geben Sie den Benutzer an, an den Benachrichtigung gesendet werden muss. Hinweis: Diese Option ist nur für Workflowantworten mit einem Platzhalter für einen bestimmten Benutzer verfügbar. Für Workflowantworten ohne Platzhalter für Benutzer, wird der Benachrichtigungsempfänger in der Regel von der Genehmigungsbenutzereinrichtung definiert.|  
+        |**Benutzer-ID des Empfängers**|Geben Sie den Benutzer an, an den Benachrichtigung gesendet werden muss. **Hinweis**: Diese Option ist nur für Workflow-Antworten mit einem Platzhalter für einen bestimmten Benutzer verfügbar. Für Workflowantworten ohne Platzhalter für Benutzer, wird der Benachrichtigungsempfänger in der Regel von der Genehmigungsbenutzereinrichtung definiert.|  
         |**Benachrichtigungseintragstyp**|Gibt an, ob die Workflowbenachrichtigung durch eine Datensatzänderung, eine Genehmigungsanforderung oder übergebene fällige Daten ausgelöst wird.|
-        |**Zielseite für Link**|Geben Sie eine andere Seite in [!INCLUDE[d365fin](includes/d365fin_md.md)] an, die über den Link in der Benachrichtigung anstelle der Standardseite geöffnet werden soll.<br /><br />Beachten Sie, dass die Seite dieselbe Quellentabelle wie der betreffende Datensatz haben muss.|  
-        |**Benutzerdefinierter Link**|Geben Sie die URL eines Links an, den Sie zusätzlich zu dem Link, der auf die Seite in [!INCLUDE[d365fin](includes/d365fin_md.md)] verweist, der Benachrichtigung hinzufügen möchten.|  
-    2.  Um Optionen für eine Workflowantwort inkl. des Erstellens von einer Genehmigungsanforderung festzulegen, füllen Sie die Felder wie in der folgenden Tabelle beschrieben aus.  
+        |**Zielseite für Link**|Geben Sie eine andere Seite an, die der Link in der Benachrichtigung anstelle der Standardseite öffnet. Beachten Sie, dass die Seite dieselbe Quellentabelle wie der betreffende Datensatz haben muss.|
+        |**Benutzerdefinierter Link**|Geben Sie die URL eines Links an, der zusätzlich zum Link zur Seite in die Benachrichtigung eingefügt wird.|  
+
+    2. Um Optionen für eine Workflowantwort inkl. des Erstellens von einer Genehmigungsanforderung festzulegen, füllen Sie die Felder wie in der folgenden Tabelle beschrieben aus.  
 
         |Feld|Description|  
-        |----------------------------------|---------------------------------------|  
-        |**Fälligkeitsdatumsformel**|Geben Sie an, in wievielen Tagen eine die Genehmigungsanforderung ab dem Datum, an dem sie gesendet wurde, abgeschlossen werden muss.|  
-        |**Delegieren nach**|Geben Sie an, ob und wann eine Anforderung für fällige Genehmigung automatisch an den relevanten Stellvertreter delegiert wird. Sie können eine automatische Delegierung ein, zwei oder fünf Tage nach der Anforderung der Genehmigung auswählen.|  
-        |**Genehmigertyp**|Geben Sie an, wer gemäß der Einrichtung von Genehmigungsbenutzern und von Workflowbenutzern der Genehmiger ist.<br /><br /> Folgende Optionen sind verfügbar:<br /><br /> -   **Verkäufer/Einkäufer** bedeutet, dass der Benutzer, der im Feld **Verkäufer-/Einkäufercode** auf der Seite **Genehmigungsbenutzereinrichtung** definiert wurde, den Genehmiger bestimmt. Es werden dann entsprechend des Werts im Feld **Einschränkungsart Genehmiger** Genehmigungsanforderungsposten erstellt.<br />     Weitere Informationen finden Sie unter [Einrichten von Genehmigungsbenutzern.](across-how-to-set-up-workflow-users.md)|  
-        |**Bestätigungsmeldung anzeigen**|Geben Sie an, ob Benutzern eine Bestätigungsmeldung angezeigt wird, nachdem sie eine Genehmigung angefordert haben.|  
-        |**Einschränkungsart Genehmiger**|Gibt an, welchen Einfluss die Genehmigungsgrenzwerte des Genehmigers haben, wenn Genehmigungsanforderungsposten für sie erstellt werden. Ein qualifizierter Genehmiger ist ein Genehmiger, dessen Genehmigungsgrenzwert über dem Wert der Genehmigungsanforderung liegt.<br /><br /> Folgende Optionen sind verfügbar:<br /><br /> 1.  **Genehmigerkette** gibt an, dass Genehmigungsanforderungsposten für alle Genehmiger des Anforderers bis einschließlich dem ersten qualifizierten Genehmiger erstellt werden.<br />2.  **Direkter Genehmiger** gibt an, dass ein Genehmigungsanforderungsposten nur für den direkten Genehmiger des Anforderers erstellt wird, unabhängig vom Genehmigungsgrenzwert des Genehmigers.<br />3.  **Erster qualifizierter Genehmiger** gibt an, dass ein Genehmigungsanforderungsposten nur für den ersten qualifizierten Genehmiger des Anforderers erstellt wird.<br />|  
-    3.  Um Optionen für eine Workflowantwort inkl. des Erstellens von Buch.-Blattzeilen festzulegen, füllen Sie die Felder wie in der folgenden Tabelle beschrieben aus.  
+        |-----|-----------|  
+        |**Fälligkeitsdatumsformel**|Geben Sie an, in wievielen Tagen eine die Genehmigungsanforderung ab dem Datum, an dem sie gesendet wurde, abgeschlossen werden muss.|
+        |**Delegieren nach**|Geben Sie an, ob und wann eine Anforderung für fällige Genehmigung automatisch an den relevanten Stellvertreter delegiert wird. Sie können eine automatische Delegierung ein, zwei oder fünf Tage nach der Anforderung der Genehmigung auswählen.|
+        |**Genehmigertyp**|Geben Sie an, wer gemäß der Einrichtung von Genehmigungsbenutzern und von Workflowbenutzern der Genehmiger ist. Wenn das Feld auf **Verkäufer/Einkäufer** festgelegt ist, gibt diese Einstellung an, dass der Benutzer, der im Feld **Verkäufer/Einkäufer. Code** auf der Seite **Genehmigungsbenutzereinrichtung** den Genehmiger bestimmt. Es werden dann entsprechend des Werts im Feld **Einschränkungsart Genehmiger** Genehmigungsanforderungsposten erstellt. Weitere Informationen finden Sie unter [Einrichten von Genehmigungsbenutzern](across-how-to-set-up-workflow-users.md).|
+        |**Bestätigungsmeldung anzeigen**|Geben Sie an, ob Benutzern eine Bestätigungsmeldung angezeigt wird, nachdem sie eine Genehmigung angefordert haben.|
+        |**Einschränkungsart Genehmiger**|Geben Sie an, wie sich die Genehmigungsgrenzen der Genehmiger darauf auswirken, wann Genehmigungsanforderungseinträge für sie erstellt werden. Ein qualifizierter Genehmigender ist ein Genehmigender, dessen Genehmigungslimit über dem Wert der zu erstellenden Anfrage liegt. Es gibt die folgenden Optionen: <ol><li>**Genehmigerkette** legt fest, dass Genehmigungsanforderungseinträge für alle Genehmigenden des Antragstellers bis einschließlich des ersten qualifizierten Genehmigers erstellt werden</li><li>**Direkter Genehmiger** legt fest, dass ein Genehmigungsanforderungseintrag nur für den unmittelbaren Genehmiger des Anforderers erstellt wird, unabhängig vom Genehmigungslimit des Genehmigers.</li><li>**Erster qualifizierter Genehmiger** gibt an, dass ein Eintrag für eine Genehmigungsanfrage nur für den ersten qualifizierten Genehmiger des Antragstellers erstellt wird.</li></ol>|
+    3. Um Optionen für eine Workflowantwort inkl. des Erstellens von Buch.-Blattzeilen festzulegen, füllen Sie die Felder wie in der folgenden Tabelle beschrieben aus.  
 
         |Feld|Description|  
-        |----------------------------------|---------------------------------------|  
+        |-----|-----------|  
         |**Fibu Buch.-Blattvorlagenname**|Geben Sie den Namen der Buch.-Blattvorlage an, in der die angegebenen Buch.-Blattzeilen erstellt werden.|  
         |**Fibu Buch.-Blattname**|Geben Sie den Namen des Buch.-Blattname an, in den die angegebenen Buch.-Blattzeilen erstellt werden.|  
 
-11. Wählen Sie die Schaltflächen **Einzug vergrößern** und **Einzug verringern** aus, um den Ereignisnamen im Feld **Wenn** einzurücken und die Position des Schritts im Workflow zu definieren.  
-    1.  Geben Sie an, dass der Schritt der nächste in der Workflowsequenz ist, indem Sie den Ereignisnamen unter dem Ereignisnamen des vorangegangenen Schrittes einrücken.  
-    2.  Geben Sie an, dass der Schritt einer von mehreren alternativen Schritten ist, die abhängig von seiner Bedingung beginnen können, indem Sie den Ereignisnamen an derselben Einrückung wie die anderen alternativen Schritte setzen. Sortieren Sie solche optionalen Schritte entsprechend der Priorität, indem Sie zuerst den wichtigsten Schritt setzen.  
+11. Wählen Sie die Schaltflächen **Einrückung vergrößern** und **Einrückung verkleinern**, um den Namen des Ereignisses im Feld **Wann** einzurücken, um die Position des Schritts im Workflow zu definieren.  
+
+    1. Geben Sie an, dass der Schritt der nächste in der Workflowsequenz ist, indem Sie den Ereignisnamen unter dem Ereignisnamen des vorangegangenen Schrittes einrücken.  
+    2. Geben Sie an, dass der Schritt einer von mehreren alternativen Schritten ist, die abhängig von seiner Bedingung beginnen können, indem Sie den Ereignisnamen an derselben Einrückung wie die anderen alternativen Schritte setzen. Sortieren Sie solche optionalen Schritte entsprechend der Priorität, indem Sie zuerst den wichtigsten Schritt setzen.  
 
     > [!NOTE]  
     >  Sie können den Einzug eines Schrittes nur ändern, wenn er keinen folgenden Schritt hat.  
@@ -88,18 +108,89 @@ Wenn Ihr Szenario Workflowereignisse oder -antworten benötigt, die nicht unters
 13. Wählen Sie das Kontrollkästchen **Aktiviert**, um anzugeben, dass der Workflow startet, sobald das Ereignis vom Typ **Einstiegspunkt** auftritt. Weitere Informationen erhalten Sie unter [Workflows verwenden](across-use-workflows.md).  
 
 > [!NOTE]  
->  Aktivieren Sie keinen Workflow, bevor Sie sicher sind, dass der Workflow abgeschlossen wurde und dass die entsprechenden Workflowschritte beginnen können.  
+> Aktivieren Sie keinen Workflow, bevor Sie sicher sind, dass der Workflow abgeschlossen wurde und dass die entsprechenden Workflowschritte beginnen können.  
 
 > [!TIP]  
->  Um Beziehungen zwischen Tabellen anzuzeigen, die in Workflows verwendet werden, wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Sie wünschen“ geöffnet wird](media/ui-search/search_small.png "Was möchten Sie tun?"), und geben Sie dann **Workflow – Tabellenrelationen** ein.  
+> Um Beziehungen zwischen Tabellen zu sehen, die in Workflows verwendet werden, wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol, und geben Sie dann **Workflow – Tabellenbeziehungen** ein.  
 
-## <a name="see-also"></a>Siehe auch  
-[Erstellen von Workflows aus Workflowvorlagen](across-how-to-create-workflows-from-workflow-templates.md)   
-[Genehmigungsbenutzer einrichten](across-how-to-set-up-approval-users.md)   
-[Einrichten von Workflowbenachrichtigungen](across-setting-up-workflow-notifications.md)   
-[Anzeigen von archivierten Workflowschritt-Instanzen](across-how-to-view-archived-workflow-step-instances.md)   
-[Löschen eines Workflows](across-how-to-delete-workflows.md)   
-[Exemplarische Vorgehensweise: Einrichten und Nutzen eines Einkaufsgenehmigungsworkflows](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
-[Einrichten von Workflows](across-set-up-workflows.md)   
-[Verwenden von Workflows](across-use-workflows.md)   
-[Workflow](across-workflow.md)      
+## <a name="example-of-creating-a-new-workflow-using-existing-events"></a>Beispiel für das Erstellen eines neuen Workflows unter Verwendung vorhandener Ereignisse
+
+Im folgenden Beispiel wird ein neuer Workflow erstellt, um Änderungen am Namen eines bestehenden Kreditors zu genehmigen:
+
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Workflows** ein, und wählen Sie dann den entsprechenden Link.  
+2. Wählen Sie die Aktion **Neu**. Die Seite **Workflow** wird geöffnet.
+3. Füllen Sie im Workflow-Abschnitt die Felder wie in der folgenden Tabelle beschrieben aus.
+
+    |Feld  |Wert  |
+    |---------|---------|
+    |**Code**|**VENDAPN-01**|
+    |**Beschreibung**|**Genehmigung der Änderung des Kreditorennamens** |
+    |**Kategorie**|**PURCH**|
+
+4. Um den ersten Workflow-Schritt zu erstellen, gehen Sie wie folgt vor.
+
+    1. Geben Sie im Feld **Wann Ereignis** an: *Ein Datensatz des Kreditors wird geändert*.  
+    2. Wählen Sie im Feld **Bei Bedingung** das Wort **Immer**, und wählen Sie dann auf der Seite **Ereignisbedingungen** den Link **Bedingung hinzufügen, wenn sich ein Feldwert ändert**, und wählen Sie dann das Feld *Name*.  
+
+      Das Ergebnis dieses Schritts ist, dass die Bedingung als *Name ist geändert* lautet.  
+    3. Wählen Sie im Feld **Antwort** den Link **Antwort auswählen** und dann auf der Seite **Workflow-Antworten** im Feld **Antwort auswählen** die Antwort *Den Wert des Feldes \<Field\> im Datensatz zurücksetzen und die Änderung speichern* und geben Sie dann im Abschnitt **Optionen für die ausgewählte Antwort** das Feld *Name* an.  
+    4. Wählen Sie den Link **Weitere Antworten hinzufügen** und fügen Sie dann einen Eintrag für die *Erstellen Sie eine Genehmigungsanfrage für den Datensatz unter Verwendung der Genehmiger-Typen <%1> und <%2>.* Antwort hinzu.  
+    5. Ändern Sie im Abschnitt **Optionen für die ausgewählte Antwort** für die neue Antwort das Feld **Genehmigungstyp** in *Workflow-Benutzergruppe* und geben Sie dann im Feld **Workflow-Benutzergruppe** die entsprechende Benutzergruppe an.  
+
+    Weitere Informationen finden Sie unter [Einrichten von Genehmigungsbenutzern](across-how-to-set-up-approval-users.md).  
+    6. Fügen Sie eine dritte Antwort hinzu, *Senden Sie eine Genehmigungsanfrage für den Datensatz und erstellen Sie eine Benachrichtigung.*  
+    7. Fügen Sie eine vierte Antwort hinzu, *Nachricht anzeigen „%1“*, und geben Sie dann im Abschnitt **Optionen für die ausgewählte Antwort** im Feld Nachricht an: **Eine Genehmigungsanfrage wurde gesendet**.  
+    8. Wählen Sie die Schaltfläche OK, um zum Workflow-Schritt zurückzukehren.  
+
+5. Fügen Sie in der nächsten Zeile einen neuen Workflow-Schritt für das *Ein Genehmigungsantrag wurde genehmigt.* Ereignis.  
+
+    1. Geben Sie im Feld **Wann Ereignis** an: *Ein Genehmigungsantrag wird genehmigt*.  
+    2. Wählen Sie das Zeilenmenü und wählen Sie dann **Einzug vergrößern**.  
+    3. Wählen Sie im Feld **Bei Bedingung** das Wort **Immer** und geben Sie dann im Feld **Anstehende Genehmigungen** *0* an.  
+
+      Das Ergebnis dieses Schritts ist, dass die Bedingung als *Ausstehende Genehmigungen:0* gelesen wird, um anzuzeigen, dass dies der letzte Genehmigende ist.  
+    4. Wählen Sie im Feld **Antwort** den Link **Antwort auswählen** und dann auf der Seite **Workflow-Antworten** im Feld **Antwort auswählen** die Antwort *Genehmigungsanfrage für den Datensatz senden und eine Benachrichtigung erstellen*.  
+    5. Wählen Sie die Schaltfläche OK.  
+6. Fügen Sie in der nächsten Zeile einen zweiten Workflow-Schritt für das Ereignis *Ein Genehmigungsantrag wird genehmigt* hinzu.  
+
+    1. Geben Sie im Feld **Wann Ereignis** an: *Ein Genehmigungsantrag wird genehmigt*.
+    2. Wählen Sie im Feld **Bei Bedingung** das Wort **Immer** und geben Sie dann im Feld **Ausstehende Genehmigungen** *>0* an.  
+
+      Das Ergebnis dieses Schritts ist, dass die Bedingung als *Ausstehende Genehmigungen:>0* gelesen wird, um anzuzeigen, dass dies *nicht* der letzte Genehmiger ist.  
+    3. Wählen Sie im Feld **Antwort** den Link **Antwort auswählen** und dann auf der Seite **Workflow-Antworten** im Feld **Antwort auswählen** die Antwort *Genehmigungsanfrage für den Datensatz senden und eine Benachrichtigung erstellen*.  
+    4. Wählen Sie die Schaltfläche OK.  
+7. Fügen Sie in der nächsten Zeile einen Workflow-Schritt für das Ereignis *Ein Genehmigungsantrag wird abgelehnt* hinzu.  
+
+    1. Geben Sie im Feld **Wann Ereignis** an: *Ein Genehmigungsantrag wird abgelehnt*.  
+    2. Im Feld **Bei Bedingung** lassen Sie den Wert auf *Immer*.  
+    3. Wählen Sie im Feld **Dann Antwort** den Link **Antwort wählen** und dann auf der Seite **Workflow-Antworten** im Feld **Antwort wählen** die Antwort *Verwerfen der neuen Werte*.  
+    4. Wählen Sie den Link **Weitere Antworten hinzufügen** und fügen Sie dann einen Eintrag für die Antwort *Die Genehmigungsanfrage für den Datensatz ablehnen und eine Benachrichtigung erstellen* hinzu
+    5. Wählen Sie die Schaltfläche OK.  
+8. Fügen Sie in der nächsten Zeile einen zweiten Workflow-Schritt für das Ereignis *Ein Genehmigungsantrag wird abgelehnt* hinzu.  
+
+    1. Geben Sie im Feld **Wann Ereignis** an: *Ein Genehmigungsantrag wird abgelehnt*.  
+    2. Im Feld **Bei Bedingung** lassen Sie den Wert auf *Immer*.  
+    3. Wählen Sie im Feld **Antwort** den Link **Antwort auswählen** und dann auf der Seite **Workflow-Antworten** im Feld **Antwort auswählen** die Antwort *Genehmigungsanfrage für den Datensatz senden und eine Benachrichtigung erstellen*.  
+    4. Wählen Sie die Schaltfläche OK.  
+9. Um den Workflow zu aktivieren, wählen Sie das Feld **Aktiviert**.  
+
+Die folgenden Abbildungen geben einen Überblick über das Ergebnis dieses Vorgangs.  
+
+:::image type="content" source="media/Workflows/workflow-example-2.png" alt-text="Abbildung des Workflows zur Genehmigung des Namens des Kreditors.":::
+
+Als nächstes müssen und testen Sie den Workflow, indem Sie einen bestehenden Kreditor öffnen und den Namen ändern. Überprüfen Sie, ob bei der Änderung des Kreditorennamens ein Genehmigungsantrag gestellt wird.
+
+## <a name="see-also"></a>Weitere Informationen
+
+[Erstellen von Workflows aus Workflowvorlagen](across-how-to-create-workflows-from-workflow-templates.md)  
+[Genehmigungsbenutzer einrichten](across-how-to-set-up-approval-users.md)  
+[Einrichten von Workflowbenachrichtigungen](across-setting-up-workflow-notifications.md)  
+[Anzeigen von archivierten Workflowschritt-Instanzen](across-how-to-view-archived-workflow-step-instances.md)  
+[Löschen eines Workflows](across-how-to-delete-workflows.md)  
+[Exemplarische Vorgehensweise: Einrichten und Nutzen eines Einkaufsanfrage-Genehmigungsworkflows](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
+[Einrichten von Workflows](across-set-up-workflows.md)  
+[Verwenden von Workflows](across-use-workflows.md)  
+[Workflow](across-workflow.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

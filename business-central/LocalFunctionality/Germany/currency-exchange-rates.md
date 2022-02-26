@@ -1,23 +1,23 @@
 ---
-title: Währungswechselkurse
-description: Am Ende des Geschäftsjahres, müssen Wechselkurse für Verbindlichkeiten und Forderungen reguliert werden, sodass sie ordnungsgemäß in der Jahresbilanz bewertet werden. Der Batchauftrag **Wechselkurse regulieren** unterstützt verschiedene Bewertungsmethoden, um so die rechtlichen Anforderungen in Deutschland zu erfüllen.
+title: Currency Exchange Sätze [DE]
+description: Am Ende des Geschäftsjahres, müssen Wechselkurse für Verbindlichkeiten und Forderungen reguliert werden, sodass sie ordnungsgemäß in der Jahresbilanz bewertet werden.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 9226634b53af44ed9e5ec8b60f8f2b05dcd53e97
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/18/2021
+ms.author: edupont
+ms.openlocfilehash: 12dde096305466f847b7e8049ab5737940473825
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181179"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6325121"
 ---
-# <a name="currency-exchange-rates"></a>Währungswechselkurse
+# <a name="currency-exchange-rates-in-the-german-version"></a>Currency Exchange Rates in der deutschen Version
 Am Ende des Geschäftsjahres, müssen Wechselkurse für Verbindlichkeiten und Forderungen reguliert werden, sodass sie ordnungsgemäß in der Jahresbilanz bewertet werden. Der Batchauftrag **Wechselkurse regulieren** unterstützt verschiedene Bewertungsmethoden, um so die rechtlichen Anforderungen in Deutschland zu erfüllen.  
 
 ## <a name="valuation-methods"></a>Bewertungsmethoden  
@@ -41,3 +41,6 @@ Deutsche Unternehmen müssen die Option **BilMoG (Deutschland)** verwenden, wenn
 ## <a name="see-also"></a>Siehe auch  
 [Währungswechselkurse aktualisieren](../../finance-how-update-currencies.md)  
 [Einrichten einer zusätzlichen Berichtswährung](../../finance-how-setup-additional-currencies.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

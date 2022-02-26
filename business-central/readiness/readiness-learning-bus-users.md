@@ -2,15 +2,15 @@
 title: Lernkatalog für Geschäftsanwender
 description: Hier finden Sie alle verfügbaren Informationen für Business Central.
 author: loreleishannonmsft
-ms.date: 04/20/2020
-ms.topic: article
-ms.author: v-lshann
-ms.openlocfilehash: 2076c0b3cf17167bea654e136be98c6cb9522718
-ms.sourcegitcommit: 99915b493a7e49d12c530f2f9fda1fcedb518b6e
+ms.date: 04/01/2021
+ms.topic: conceptual
+ms.author: margoc
+ms.openlocfilehash: fd0b839e402ff59ec5fb875d026eb5fe2202850e
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3271942"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5772429"
 ---
 # <a name="business-users-learning-catalog"></a>Lernkatalog für Geschäftsanwender
 
@@ -48,3 +48,6 @@ Der folgende Katalog ist vom Kernwissen bis zu spezifischen Bereichen organisier
 | [Einträge in Microsoft Dynamics 365 Business Central zurückgeben](/learn/paths/return-items-dynamics-365-business-central/)                                                   | Müssen Sie Artikel an Kreditoren zurücksenden und Retouren von Debitoren annehmen? Dieser Pfad wird Ihnen helfen, zu lernen, wie Sie Retouren bearbeiten können.                                                                                                                                                                         | Kostenloser, selbstbestimmter Online-Lernpfad mit eigenem Tempo | 1 Stunde 25 Minuten  |
 | [Ergänzung von Elementen in Microsoft Dynamics 365 Business Central](/learn/paths/replenish-items-dynamics-365-business-central/)                                             | Müssen Sie in Ihrem Unternehmen Bestandsartikel nachfüllen? Dieser Lernpfad zeigt Ihnen Möglichkeiten, wie Sie Artikel in Business Central effizient auffüllen können.                                                                                                                                     | Kostenloser, selbstbestimmter Online-Lernpfad mit eigenem Tempo | 1 Stunde 46 Minuten  |
 | [Elemente in Microsoft Dynamics 365 Business Central zusammenstellen](/learn/paths/assemble-items-dynamics-365-business-central/)                                               | Verkaufen Sie montierte Artikel? Dieser Lernpfad bietet die Informationen, die Sie für die Montageverwaltung und die Elemente benötigen. Es bietet auch Schritte zur Herstellung von montierten Artikeln für das Lager oder die Bestellung.                                                                                                                | Kostenloser, selbstbestimmter Online-Lernpfad mit eigenem Tempo | 2 Stunden 26 Minuten |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

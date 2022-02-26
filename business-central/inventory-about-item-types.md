@@ -1,60 +1,62 @@
 ---
-title: Artikel-Arten verstehen| Microsoft Docs
-description: Sie können die Lagerbewertung eines Artikels anpassen, indem Sie die FIFO. oder " Standard "oder Durchschnittskostenmethode anwenden, z. B. wenn Artikelkosten für Gründe, die keine Transaktionen betreffen, ändern.
-services: project-madeira
+title: Verstehen von Element-Typen
+description: Sie können die Bestandsbewertung eines Elements mit der FIFO- oder Durchschnittskalkulation anpassen, wenn sich die Kosten des Elements aus anderen Gründen als Transaktionen ändern.
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 481e8bbdb13863055c4dc532cb2c214228b8a8ba
-ms.sourcegitcommit: 0b5f8f68b1c9526288bfcce1a3bdc988d2910040
+ms.search.form: 9297, 5845, 30,
+ms.date: 06/16/2021
+ms.author: edupont
+ms.openlocfilehash: acb6ab4436f32760d905701348a242a4374b6b2d
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "3454296"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8059622"
 ---
 # <a name="about-item-types"></a>Info zu Elementtypen
-Im Feld **Art** auf der Seite **Artikelkarte** können Sie auswählen, welche Artikel in Ihrer Unternehmung verwendet werden und deshalb im System verwaltet werden. Drei Optionen sind verfügbar:
+Im Feld **Typ** auf der Seite **Artikelkarte** können Sie auswählen, wofür das Element in Ihrem Unternehmen verwendet wird, was sich auf den Grad auswirkt, in dem Sie das Element im Bestand verwalten können. In der folgenden Tabelle sind die drei verfügbaren Arten von Elementen aufgeführt und beschrieben.
 
 |Option|Typischer Zweck|
 |------|-----------|
-|Lagerbestand|Eine physikalische Einheit, wie z. B. Rennrad für volle Geschäftsunterstützung.|
-|Nicht-Lager|Eine physikalische Einheit, wie ein Bolzen, für begrenzte Geschäftsunterstützung beispielsweise da der Artikel nur intern verwendet wird und Basis Einstandspreis hat.|
-|Dienst|Eine Arbeitszeiteinheit, wie eine Beratungsstunde, für begrenzte Geschäftsunterstützung.|
+|Bestand|Physische Dinge, wie Fahrräder, Telefone und Schreibtische, für die Sie alle Bestandsprozesse nutzen können möchten. Dazu können auch nicht-physische Elemente wie Softwarelizenzen und Abonnements gehören, wenn die Elemente über Identifikationsnummern, wie z.B. Seriennummern, verfügen. Sie können die Werte und die Verfügbarkeit von Elementen im Bestand vollständig verfolgen.|
+|Kein Bestand|In der Regel handelt es sich bei nicht inventarisierten Elementen um physische Gegenstände wie Schrauben oder Stifte, die ein Unternehmen verbraucht, aber nicht vollständig im Bestand verfolgen möchte. Zum Beispiel, weil es sich um preisgünstige Elemente handelt, die nur intern verwendet werden.|
+|Service|Eine Arbeitszeiteinheit, wie eine Beratungsstunde, für begrenzte Geschäftsunterstützung.|
 
-Die **Lagerbestand** Art umfasst die vollständige Verfolgung der Lagermenge und des Wertes. Daher werden alle Artikeltransaktionstypen unterstützt, und Artikel der Art Lager können mit allen Artikelbehandlungsfunktionen verwendet werden.
+> [!NOTE]
+> Die Typen **Dienstleistung** und **Nicht-Bestand** unterstützen die Verfolgung von Bestandsmengen und -werten nicht. Es werden nur ausgewählte Transaktionstypen und Funktionen für Artikel unterstützt.
 
-Die Arten **Service** und **Nicht-Lager** umfassen keine Nachverfolgung von Lagermengen und Werten. Daher werden nur die ausgewählten Geschäftsarten und Funktionen unterstützt.
+In der folgenden Tabelle sind die Funktionen aufgeführt, die die drei Artikelarten unterstützen.
 
-Die drei Elementtypen unterstützen die folgenden Funktionen entsprechend.
-
-|Artikelart|Verkauf|Einkauf|Job-Verbrauch|Serviceverbrauch|Verbrauch für Montage|Produktions-Verbrauch|Montageausstoß|Fertig produzierte Artikel (Istmeldungen)|Lagerortumlagerung|Physische Zählung|Lagerbestandsneubewertung|Lagerkosten|Artikelverfolgung|Reservierung|Lagerhaus|Planung|
+|Artikelart|Verkauf|Einkauf|Job-Verbrauch|Serviceverbrauch|Verbrauch für Montage|Produktions-Verbrauch|Montageausstoß|Fertig produzierte Artikel (Istmeldungen)|Lagerortumlagerung|Physische Zählung|Bestandsneubewertung|Bestandskosten|Artikelverfolgung|Reservierung|Lagerhaus|Planung|
 |-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
-|Lagerbestand|Ja|Ja|Ja|Ja|Ja|Ja|Ja|Ja|Ja|Ja|Ja|Ja|Ja|Ja|Ja|Ja|
-|Nicht-Lager|Ja|Ja|Ja|Ja|Ja|Ja|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nein|Nein|Nein|Nein|
-|Dienst|Ja|Ja|Ja|Nein|Nein|Nein|Nein|Nein|Nein|Nein|Nein|Nein|Nein|Nein|Nein|Nein|
+|Bestand|Ja|Ja|Ja|Ja|Ja|Ja|Ja|Ja|Ja|Ja|Ja|Ja|Ja|Ja|Ja|Ja|
+|Kein Bestand|Ja|Ja|Ja|Ja|Ja|Ja|Nein|Nein|Nein|Nein|Nein|Nein|Nein|Nein|Nein|Nein|
+|Service|Ja|Ja|Ja|Nein|Nein|Nein|Nein|Nein|Nein|Nein|Nein|Nein|Nein|Nein|Nein|Nein|
 
 ## <a name="costing-methods-for-types-of-items"></a>Kalkulationsmethoden für Artikeltypen
-Wenn Sie Lagerbuchungen vornehmen, werden die Mengen- und Wertänderungen des Lagerbestands in den Artikelposten bzw. Wertposten erfasst. 
+Wenn Sie Lagerbuchungen vornehmen, werden die Mengen- und Wertänderungen des Bestands in den Artikelposten bzw. Wertposten erfasst. 
 
-Für Lagerartikel werden die Kosten im Feld **Einstandsbetrag (tatsächl.)** auf der Seite **Werteinträge** erfasst und bei der Abstimmung mit der Finanzbuchhaltung werden die Kosten im Feld **Gebuchte Lagerregulierung** angezeigt. Weitere Informationen finden Sie unter [Designdetails: Lagerkosten](design-details-inventory-costing.md).
+Für Lagerartikel werden die Kosten im Feld **Einstandsbetrag (tatsächl.)** auf der Seite **Wertposten** erfasst und bei der Abstimmung mit der Finanzbuchhaltung werden die Kosten im Feld **Gebuchte Lagerregulierung** angezeigt. Weitere Informationen finden Sie unter [Designdetails: Bestandskosten](design-details-inventory-costing.md).
 
-Für Nicht-Bestands- und Serviceartikel werden die Kosten im Feld **Einst.-Betr. (lagerwertunabh.)** auf der Seite **Werteinträge** erfasst. Für Nicht-Bestands- und Serviceartikel werden die Kosten in den Verkaufs-, Montage- und Produktionsbelegen und -buchungsblättern angegeben. Die Standardkosten können im Feld **Einstandspreis** auf den Seiten **Artikelkarte** und **Lagerhaltungsdaten** angegeben werden. Die Kosten für diese Arten von Artikeln werden nicht mit der Finanzbuchhaltung abgeglichen. 
+Für Nicht-Bestands- und Serviceartikel werden die Kosten im Feld **Einst.-Betr. (lagerwertunabh.)** auf der Seite **Wertposten** erfasst. Für Nicht-Bestands- und Serviceartikel werden die Kosten in den Verkaufs-, Montage- und Produktionsbelegen und -buchungsblättern angegeben. Die Standardkosten können im Feld **Einstandspreis** auf den Seiten **Artikelkarte** und **Lagerhaltungsdaten** angegeben werden. Die Kosten für diese Arten von Artikeln werden nicht mit der Finanzbuchhaltung abgeglichen. 
 
 ## <a name="catalog-and-service-items"></a>Katalog- und Serviceartikel
-Sie können Ihren Debitoren bestimmte Artikel als Dienstleistung anbieten, die Sie nicht im Lager verwalten möchten, bis Sie den Verkauf sie starten. Katalogelemente sollen nicht mit regulären Artikel der Art Nicht-Lager verwechselt werden. Weitere Informationen finden Sie unter [Arbeiten mit Katalogelementen](inventory-how-work-nonstock-items.md).
+Sie können Ihren Debitoren bestimmte Artikel als Dienstleistung anbieten, die Sie nicht im Lager verwalten möchten, bis Sie den Verkauf sie starten. Katalogelemente sollen nicht mit regulären Artikel der Art Kein Bestand verwechselt werden. Weitere Informationen finden Sie unter [Arbeiten mit Katalogelementen](inventory-how-work-nonstock-items.md).
 
-Die Artikel der Debitoren, die Sie im Service, wie z.B Drucker anbieten, werden Serviceartikel genannt. Serviceartikel haben nichts mit regulärem oder Katalogelementen zu tun. Aber Dienstkomponenten können normale Artikel sein. Weitere Informationen finden Sie unter [Serviceartikelkomponenten und Serviceartikel einrichten](service-how-setup-service-items.md).
+Die Artikel der Debitoren, die Sie im Service, wie z. B Drucker anbieten, werden Serviceartikel genannt. Serviceartikel haben nichts mit regulärem oder Katalogelementen zu tun. Aber Servicekomponenten können normale Artikel sein. Weitere Informationen finden Sie unter [Serviceartikelkomponenten und Serviceartikel einrichten](service-how-setup-service-items.md).
 
 ## <a name="see-also"></a>Siehe auch
 [Neue Artikel registrieren](inventory-how-register-new-items.md)  
 [Bestand einrichten](inventory-setup-inventory.md)  
-[Verwalten der Lagerregulierung](finance-manage-inventory-costs.md)  
-[Lagerbestand](inventory-manage-inventory.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Verwalten der Bestandsregulierung](finance-manage-inventory-costs.md)  
+[Bestand](inventory-manage-inventory.md)  
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

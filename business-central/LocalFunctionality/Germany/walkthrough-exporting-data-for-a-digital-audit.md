@@ -1,53 +1,58 @@
 ---
-title: Wie Sie Daten für eine Digital-Überwachung exportieren
-description: Sie können Unternehmensdaten exportieren entsprechend dem Prozess für Datenzugriff und Testbarkeit von digitalen Dokumenten (GDPdU), der auf deutschen Steuergesetzen basiert. In der folgenden exemplarischen Vorgehensweise wird der durchgängige Prozess beschrieben, dies ist jedoch nur ein Beispiel.
+title: Datenexport für eine digitale Prüfung [DE]
+description: Sie können Unternehmensdaten exportieren entsprechend dem Prozess für Datenzugriff und Testbarkeit von digitalen Dokumenten (GDPdU), der auf deutschen Steuergesetzen basiert.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 6e179f21988d5bdd4d15f1961b1cb2c6af5c578e
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/25/2021
+ms.author: edupont
+ms.openlocfilehash: 6bd64ee39b7f7900ff0b2b981d773b64b69e2ec9
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181150"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439169"
 ---
-# <a name="walkthrough-exporting-data-for-a-digital-audit"></a>Wie Sie Daten für eine Digital-Überwachung exportieren
+# <a name="walkthrough-exporting-data-for-a-digital-audit-in-the-german-version"></a>Exemplarische Vorgehensweise: Datenexport für eine digitale Betriebsprüfung in der deutschen Version
+
 Sie können Geschäftsdaten für Überwachungszwecke exportieren. Die Einrichtung des Datenexportes unterscheidet sich von anderen Unternehmen und Sie sollten Ihren Steuerberater und den Steuerprüfer um Rat fragen. In der folgenden exemplarischen Vorgehensweise wird der durchgängige Prozess beschrieben, dies ist jedoch nur ein Beispiel.  
 
-Die Beispielimplementierung illustriert ein Szenario, in dem der Prüfer Sie auffordert, Daten aus der Finanzbuchhaltung zu exportieren, und Informationen über Ihre Debitoren und Kreditoren bereitzustellen. Dies ist kein Beispiel, das auf tatsächlichen Anforderungen von Steuerprüfern basiert, aber es dient zur Veranschaulichung, wie Sie Daten entsprechend dem Prozess für Datenzugriff und Testbarkeit von digitalen Dokumenten (GDPdU) in [!INCLUDE[d365fin](../../includes/d365fin_md.md)] exportieren.  
+Die Beispielimplementierung illustriert ein Szenario, in dem der Prüfer Sie auffordert, Daten aus der Finanzbuchhaltung zu exportieren, und Informationen über Ihre Debitoren und Kreditoren bereitzustellen. Dies ist kein Beispiel, das auf tatsächlichen Anforderungen von Steuerprüfern basiert, aber es dient zur Veranschaulichung, wie Sie Daten entsprechend dem Prozess für Datenzugriff und Testbarkeit von digitalen Dokumenten (GDPdU) in [!INCLUDE[prod_short](../../includes/prod_short.md)] exportieren.  
 
-## <a name="about-this-walkthrough"></a>Informationen zu dieser exemplarischen Vorgehensweise  
+## <a name="about-this-walkthrough"></a>Informationen zu dieser exemplarischen Vorgehensweise
+
 In dieser exemplarischen Vorgehensweise werden folgende Aufgaben erläutert:  
 
 - Einrichten von Anforderungen für den Datenexport.  
 - Einrichten von Quellen für den Datenexport.  
 - Exportieren von Daten für die Steuerprüfer.  
 
-## <a name="prerequisites"></a>Voraussetzungen  
+## <a name="prerequisites"></a>Voraussetzungen
+
 Für diese exemplarische Vorgehensweise gelten folgende Voraussetzungen:  
 
-- Die deutsche Version von [!INCLUDE[d365fin](../../includes/d365fin_md.md)] mit dem CRONUS AG-Demounternehmen.
+- Die deutsche Version von [!INCLUDE[prod_short](../../includes/prod_short.md)] mit dem Demounternehmen CRONUS AG.
 - Die .DTD-Datei, die gemäß GDPdU erforderlich ist. In diesem Szenario **gdpdu-01-08-2002.dtd**.  
 
-## <a name="story"></a>Hintergrund  
-Cassie ist Buchhalterin bei der CRONUS AG. Sie wurde vom Steuerprüfer des Unternehmens benachrichtigt, dass diese eine Liste der Bestellungs- und Verkaufstransaktionen im ersten Quartal des Kalenderjahres 2013 einsehen wollen. Cassie kennt die Art der Finanzdaten, die der Prüfer möchte, aber sie benötigt die Hilfe von Sean, um den Export einzurichten.  
+## <a name="story"></a>Hintergrund
+
+Cassie ist Buchhalterin bei der CRONUS AG. Sie wurde vom Steuerprüfer des Unternehmens benachrichtigt, dass dieser eine Liste der Einkaufs- und Verkaufstransaktionen im ersten Quartal des Kalenderjahres 2013 einsehen möchte. Cassie kennt die Art der Finanzdaten, die der Prüfer möchte, aber sie benötigt die Hilfe von Sean, um den Export einzurichten.  
 
 Sean ist ein Hauptbenutzer der CRONUS AG. Er versteht, wie die Daten technisch mit Tabellen und Feldern eingerichtet werden. Daher unterstützt er normalerweise Cassie, die Datenexporte für die Prüfer einzurichten. Von anderen Datenexporten weiß er, dass das Werkzeug, das die Prüfer verwenden, einige Anforderungen hat, was die exportierten Dateien enthalten müssen, aber er braucht die Hilfe von Cassie, um genau festzulegen, welche Daten benötigt werden.  
 
-## <a name="defining-the-requirements"></a>Festlegen der Anforderungen  
+## <a name="defining-the-requirements"></a>Festlegen der Anforderungen
+
 Cassis richtet die anforderungen für den Datenexport ein. Die Prüfer haben sie um Einsicht in Transaktionen mit Debitoren und Kreditoren gebeten. Daher weiß sie, dass sie Daten aus der Debitoren-, Kreditoren- und der Finanzbuchhaltung benötigt.  
 
 ### <a name="to-set-up-the-requirements-for-a-data-export"></a>Einrichten von Anforderungen für den Datenexport  
 
-1.  Wählen Sie das Symbol ![Suche nach Seite oder Bericht](../../media/ui-search/search_small.png "Symbol „Suche nach Seite oder Bericht“"), geben Sie **Datenexport** ein und wählen Sie dann den entsprechenden Link.  
-2.  Wählen Sie die Aktion **Neu**.  
-3.  Füllen Sie auf der Seite **Datenexporte** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](../../media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Datenexport** ein und wählen Sie dann den entsprechenden Link.  
+2. Wählen Sie die Aktion **Neu**.  
+3. Füllen Sie auf der Seite **Datenexporte** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 
     |Feld|Description|  
     |---------------------------------|---------------------------------------|  
@@ -58,17 +63,17 @@ Cassis richtet die anforderungen für den Datenexport ein. Die Prüfer haben sie
 
     Als Nächstes fügt Cassie Beschreibungen der Art der Daten hinzu, die sie im Export benötigt.  
 
-4.  Wählen Sie auf der Seite **Datenexport** in der Gruppe Start die Option **Definitionen aufzeigen** aus.  
-5.  Auf der Seite **Datenexport - Datensatzdefinitionen** wählen Sie das Feld **Datensatzcode**, und wählen Sie dann in dem Fenster, das erscheint **Neu** aus.  
-6.  Füllen Sie auf der Seite **Datenexport - Berichtsarten** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
+4. Wählen Sie auf der Seite **Datenexport** in der Gruppe Start die Option **Definitionen aufzeigen** aus.  
+5. Auf der Seite **Datenexport - Datensatzdefinitionen** wählen Sie das Feld **Datensatzcode**, und wählen Sie dann in dem Fenster, das erscheint **Neu** aus.  
+6. Füllen Sie auf der Seite **Datenexport - Berichtsarten** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 
     |Feld|Description|  
     |---------------------------------|---------------------------------------|  
     |**Code**|Enthält den Code für die Art des Geschäfts **GLCUSTVEND**.|  
     |**Beschreibung**|Die Beschreibung für den Datensatztyp, **Sach-, Debitor-. verkaufen**.|  
 
-7.  Wählen Sie die Schaltfläche **OK** aus.  
-8.  Füllen Sie auf der Seite **Datenexport - Berichtsdefinitonen** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
+7. Wählen Sie die Schaltfläche **OK** aus.  
+8. Füllen Sie auf der Seite **Datenexport - Berichtsdefinitonen** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 
     |Feld|Description|  
     |---------------------------------|---------------------------------------|  
@@ -251,7 +256,7 @@ Cassie möchte Daten exportieren, die sie anschließend den Steuerprüfern sende
 
 ### <a name="to-export-data"></a>Daten exportieren  
 
-1.  Wählen Sie das Symbol ![Suche nach Seite oder Bericht](../../media/ui-search/search_small.png "Symbol „Suche nach Seite oder Bericht“") aus, geben Sie **Geschäftsdaten exportieren** ein und wählen Sie dann den entsprechenden Link.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](../../media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Geschäftsdaten exportieren** ein, und wählen Sie dann den entsprechenden Link.  
 2.  Füllen Sie auf der Seite **Geschäftsdaten exportieren** im Inforegister **Optionen** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 
     |Feld|Description|  
@@ -270,12 +275,17 @@ Cassie möchte Daten exportieren, die sie anschließend den Steuerprüfern sende
 
 Wenn der Export abgeschlossen ist, wird Cassie benachrichtigt. Nun kann sie die exportierten Dateien den Steuerprüfern senden. Zuerst überprüft sie die Dateien im Ordner C: Exports auf ihrem Computer. Es gibt eine Datei für jede Tabelle, und die Dateien haben die Namen, die Sean in der Datenexportquelle angegeben hat. Es gibt auch eine INDEX.XML-Datei, die die Struktur des Datenexports mit den Namen der Tabellen und Felder beschreibt, die Sean angegeben hat.  
 
-## <a name="next-steps"></a>Nächste Schritte  
+## <a name="next-steps"></a>Nächste Schritte
+
 Wenn die Steuerprüfer Cassies Dateien in ihre Software importieren, können sie die Daten lesen, die sie exportiert hat. Wenn die Auditoren eine neue Version des gleichen Datenexports benötigen, kann Cassie den Export erneut ausführen.  
 
 Wenn die Steuerprüfer das nächste Mal neue Daten anfordern, können Cassie und Sean zusammenarbeiten, um einen neuen Datenexport zu erstellen.  
 
-## <a name="see-also"></a>Siehe auch  
- [Prozess für Digital-Überwachung](process-for-digital-audits.md)   
- [Wie Sie Daten für eine Digital-Überwachung einrichten](how-to-set-up-data-exports-for-gdpdu.md)   
- [Wie Sie Daten für eine Digital-Überwachung exportieren](how-to-export-data-for-a-digital-audit.md)
+## <a name="see-also"></a>Siehe auch
+
+[Prozess für Digital-Überwachung (GoBD/GDPdU)](process-for-digital-audits.md)  
+[Datenexporte für eine digitale Prüfung (GoBD/GDPdU) einrichten](how-to-set-up-data-exports-for-digital-audits.md)  
+[Daten für eine digitale Prüfung exportieren](how-to-export-data-for-a-digital-audit.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

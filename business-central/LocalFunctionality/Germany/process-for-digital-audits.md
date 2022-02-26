@@ -3,22 +3,23 @@ title: Digital-Überwachung (/GoBD GDPdU)
 description: Sie können Finanz- und Steuerdaten exportieren entsprechend dem Prozess für Datenzugriff und Testbarkeit von digitalen Dokumenten (GDPdU), der auf deutschen Steuergesetzen basiert.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 9107433f93089f45c13bfe7ff2a7cddc224f2a68
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.search.form: 11002, 11003, 11004, 11007, 11008, 11009, 11014, 11026, 11027
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 924a6f8bd740fc163e68b551084a3ebe88b3e335
+ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181152"
+ms.lasthandoff: 12/28/2021
+ms.locfileid: "7947228"
 ---
 # <a name="process-for-digital-audits-gobdgdpdu"></a>Prozess für Digital-Überwachung (/GoBD GDPdU)
-Sie können Daten aus [!INCLUDE[d365fin](../../includes/d365fin_md.md)] exportieren entsprechend dem Prozess für Datenzugriff und Testbarkeit von digitalen Dokumenten (GDPdU), der auf deutschen Steuergesetzen basiert.  
+Sie können Daten aus [!INCLUDE[prod_short](../../includes/prod_short.md)] exportieren entsprechend dem Prozess für Datenzugriff und Testbarkeit von digitalen Dokumenten (GDPdU), der auf deutschen Steuergesetzen basiert.  
 
 ## <a name="overview"></a>Matrix  
 Nach §146 und 147 des deutschen Steuercodes (Abgabenordnung, AO) ist es der Finanzverwaltung möglich, die Daten von elektronischen Buchführungssystemen „digital“ zu prüfen. Sie können dies über ein Datenspeichergerät oder direkt oder indirekt über Zugriff auf das System tun. Für die Datenträgerüberlassung ist es notwendig, dass die Daten vom steuerpflichtigen Unternehmen (oder dem beauftragten Steuerberater, buchführenden (Sub-)Unternehmen, etc.) in „maschinell auswertbarer Form“ auf geeigneten Datenträgern bereitgestellt werden. Unter dem Begriff „maschineller Auswertbarkeit“ versteht die Finanzverwaltung den wahlfreien Zugriff auf alle gespeicherten Daten einschließlich der Stammdaten und Verknüpfungen mit Sortier- und Filterfunktionen. Um eine solche Auswertbarkeit oder Verwertbarkeit zu erreichen, ist es notwendig, dass die Dateiformate für die Datenträgerüberlassung definiert und standardisiert werden.  
@@ -26,11 +27,11 @@ Nach §146 und 147 des deutschen Steuercodes (Abgabenordnung, AO) ist es der Fin
 Steuerbehörden in Deutschland verwenden Analysesoftware mit der Bezeichnung IDEA, mit der Daten aus ASCII-Dateien importiert werden. Die IDEA-Software kann Daten mit festem oder variablem Längenformat importieren. Dazu wird eine XML-Datei, index.xml benötigt, die die Struktur der Datendateien beschreibt. Weitere Informationen finden Sie unter [Audicon-Website für GDPdU](https://go.microsoft.com/fwlink/?LinkId=245841).  
 
 ## <a name="defining-gdpdu-export-data"></a>Gewusst wie: Exportieren von GDPdU-Daten  
-Sie können [!INCLUDE[d365fin](../../includes/d365fin_md.md)] konfigurieren, ums GDPdU-Daten zu exportieren, um Ihren Anforderungen zu entsprechen. Sie können große Datenbestände exportieren, und kleine Datenbestände exportieren. Sie können Daten aus einer einzelnen Tabelle oder aus einer Tabelle und den verknüpften Tabellen exportieren.  
+Sie können [!INCLUDE[prod_short](../../includes/prod_short.md)] konfigurieren, ums GDPdU-Daten zu exportieren, um Ihren Anforderungen zu entsprechen. Sie können große Datenbestände exportieren, und kleine Datenbestände exportieren. Sie können Daten aus einer einzelnen Tabelle oder aus einer Tabelle und den verknüpften Tabellen exportieren.  
 
 Für jeden Datenexport definieren Sie die Tabellen und Felder, die Sie exportieren möchten. Dies hängt von den Anforderungen des Steuerprüfers ab. Die ausgewählten Daten werden in die ASCII-Dateien exportiert. Eine entsprechende XML-Datei, INDEX.XML, wird ebenfalls erstellt, um die ASCII-Datei-Struktur zu beschreiben.  
 
-Die Elemente in der INDEX.XML-Datei definieren die Namen der Tabellen und die Felder, die exportiert werden. Da das aktuelle Überwachungstool Einschränkungen auf diesen Feldnamen, wie der Länge und die Zeichen hat, die verwendet werden, entfernt [!INCLUDE[d365fin](../../includes/d365fin_md.md)] Leerzeichen und Sonderzeichen und schneidet dann die Namen, um die Beschränkung mit 20 Zeichen zu finden. Sie können die vorgeschlagenen Tabellen- und Feldnamen ändern, wenn Sie einer Tabellendefinition Felder hinzufügen.  
+Die Elemente in der INDEX.XML-Datei definieren die Namen der Tabellen und die Felder, die exportiert werden. Da das aktuelle Überwachungstool Einschränkungen auf diesen Feldnamen, wie der Länge und die Zeichen hat, die verwendet werden, entfernt [!INCLUDE[prod_short](../../includes/prod_short.md)] Leerzeichen und Sonderzeichen und schneidet dann die Namen, um die Beschränkung mit 20 Zeichen zu finden. Sie können die vorgeschlagenen Tabellen- und Feldnamen ändern, wenn Sie einer Tabellendefinition Felder hinzufügen.  
 
 In den meisten Fällen richten Sie den GDPdU-Datenexport einmal ein, und dann kann eine Person in Ihrem Unternehmen den Export ausführen, wenn der Steuerprüfer neue Daten anfordert. Es wird empfohlen, dass die Einrichtung nicht nur von Personen mit einem Verständnis der Datenbankstruktur und der technischen Hardware in Ihrem Unternehmen durchgeführt wird, sondern auch gemeinsam mit Personen, die die Geschäftsdaten verstehen, wie der Buchhalter.  
 
@@ -66,3 +67,6 @@ Weitere Informationen finden Sie unter [GDPdU-Filterbeispiele](gdpdu-filter-exam
  [Wie Sie Daten für eine Digital-Überwachung exportieren](how-to-export-data-for-a-digital-audit.md)   
  [Wie Sie Daten für eine Digital-Überwachung exportieren](walkthrough-exporting-data-for-a-digital-audit.md)   
  [Lokale Funktion (Deutschland)](germany-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
