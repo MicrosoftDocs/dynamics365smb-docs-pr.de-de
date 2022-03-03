@@ -2,7 +2,6 @@
 title: Lagerbestand erfassen und regulieren
 description: Beschreibt, wie Sie den physischen Bestand zählen und mit Hilfe von Belegen den Lagerbestand anpassen können.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: adjustment, status, negative, positive, increase, decrease, 
 ms.search.forms: 5895, 6561, 6562, 6563, 6564, 6565, 6566, 5892, 5891, 5879, 5880, 5893, 5897, 5882, 5881, 5899, 5875, 5878, 5877, 5876, 5896, 6567, 6568, 6569, 6570, 6571, 6572, 5883, 5886, 884, 5898, 5885, 5890, 5888, 5889, 5887, 5894, 6774, 6775, 6776, 6780, 6781, 6782, 6783
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 45001f05d2ddedcd254fafbd78f38e03cd87b93c
-ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
+ms.openlocfilehash: af091b33126d4098980c19329d7160ef1789c1b9
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8115284"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8131587"
 ---
 # <a name="count-and-adjust-inventory-using-documents"></a>Erfassung und Regulierung des Lagerbestand mithilfe von Belegen
 

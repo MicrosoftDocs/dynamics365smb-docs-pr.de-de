@@ -1,8 +1,7 @@
 ---
 title: Nutzung von Business Central with Outlook| Microsoft Docs
-description: Dieser Dienst hat eine starke Integration in Microsoft 365 und macht es möglich, dass Sie Ihre Geschäftsaktivitäten und E-Mails mit Debitoren und Kreditoren direkt in Outlook verwalten können.
+description: Dieser Service ist in Microsoft 365 integriert und ermöglicht Ihnen die direkte Verwaltung Ihrer Geschäftsaktivitäten und E-Mails mit Debitoren und Kreditoren in Outlook.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365
 ms.date: 08/13/2021
 ms.author: jswymer
-ms.openlocfilehash: 5de1ae4dc96419d848103a8b4ea9e11113793242
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: c281ce94e518f8ef099bb3e48177b90732a65c45
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589417"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8145132"
 ---
 # <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Nutzen Sie Business Central als Ihr Unternehmenspostfach in Outlook
 

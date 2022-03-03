@@ -2,12 +2,13 @@
 metadata:
   title: Elektronische Rechnungsstellung FAQ
   description: Erhalten Sie Antworten zum Dokumentenaustauschdienst und zu unterstützten Versionen von PEPPOL.
-  ms.openlocfilehash: a71f81306cffb6b223d39b3104fcbb33ad4ab7ff
-  ms.sourcegitcommit: 5f403a0567dcfa77493178d116ac64e531c269ad
+  ms.topic: faq
+  ms.openlocfilehash: 0351a756d8b07eee489ff5457c8463f8587dded4
+  ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
   ms.translationtype: HT
   ms.contentlocale: de-DE
-  ms.lasthandoff: 02/15/2021
-  ms.locfileid: "5181804"
+  ms.lasthandoff: 02/15/2022
+  ms.locfileid: "8136218"
 title: Elektronische Rechnungsstellung FAQ
 summary: "Der integrierte Dokumentenaustauschdienst sendet elektronische Rechnungen an TradeShift, einen Dienstanbieter, der elektronische Rechnungen an PEPPOL- oder NemHandel-Empfänger weiterleitet. Der Dienst unterstützt jedoch eine begrenzte Anzahl von Versionen.   \n\nDiese FAQ beantwortet einige der wichtigsten Fragen zur elektronischen Rechnungsstellung.  \n"
 sections:

@@ -2,7 +2,6 @@
 title: Bewährte Verfahren für die Einrichtung – Planungsparameter
 description: Dieses Thema beschreibt bewährte Verfahren zum Festlegen ausgewählter Planungsparameterfelder mit dem Inforegister Planung auf der Artikelkarte.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 72d6f07ca98fad0bed123c648025665add723c23
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: b491a986e3936389fa228fdb1bfc000627368b82
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6320056"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8129988"
 ---
 # <a name="setup-best-practices-planning-parameters"></a>Bewährte Einrichtungsmethoden: Planungsparameter
 Das Inforegister **Planung** auf der Artikelkarte ist Mittelpunkt der gesamten Lieferkette des Unternehmens. Das Einstellen eines richtigen Planungsparameters ist für die kosteneffektive Bestandskontrolle und einen sehr guten Debitorenservice sehr wichtig.  

@@ -2,7 +2,6 @@
 title: Verwenden von Word-Vorlagen für die Massenkommunikation | Microsoft Docs
 description: Mit Word-Vorlagen können Sie auf einfache Weise Dokumente in großen Mengen erstellen, die für bestimmte Entitäten personalisiert sind.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: document, mail, merge, Word, template, email
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: c624d718d27de607aed49a82a506f81eec57247c
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 9e87e86ea4f267bea0e636f16fab55ae485ee8cf
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588907"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8145316"
 ---
 # <a name="using-word-templates-for-bulk-communication"></a>Verwenden von Word-Vorlagen für die Kommunikation
 Microsoft Word-Vorlagen können die Massenkommunikation in Druckform oder per E-Mail mit Entitäten wie Kontakten, Kunden und Kreditoren erleichtern. Sie können beispielsweise Broschüren erstellen, um Debitoren über eine Verkaufskampagne zu informieren, Briefe, um Kreditoren über eine neue Einkaufsrichtlinie zu informieren, oder Einladungen, um Kontakte zu einer bevorstehenden Veranstaltung zu gewinnen.

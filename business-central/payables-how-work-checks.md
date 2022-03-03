@@ -2,7 +2,6 @@
 title: Schecks ausstellen, drucken, stornieren und annullieren
 description: Beschreibt, wie Schecks mithilfe des Zahlungsausgangs Buch.-Blattes, ausgegeben, gedruckt oder annulliert werden oder wie Check-Sachposteneinträge in Business Central angezeigt werden.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: payment journal, print check, vendor payment, creditor, debt
 ms.search.form: 256, 404,
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 24e12472ea02f91ff3a0a8d23295865ca2855ca5
-ms.sourcegitcommit: e008b3d7003c256475d6c606e5f7c9866a6bbb72
+ms.openlocfilehash: b2c57c4a96021beb6e02564e7b24577f52b60922
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952960"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8137809"
 ---
 # <a name="make-check-payments"></a>Zahlung per Scheck machen
 

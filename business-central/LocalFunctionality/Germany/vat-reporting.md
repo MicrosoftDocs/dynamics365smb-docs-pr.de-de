@@ -2,7 +2,6 @@
 title: MwSt.-Berichterstattung in der deutschen Version
 description: MwSt.-Berichte können in der deutschen Version elektronisch an Steuerbehörden übermittelt werden.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9c76e53a5f4619984c3583a3b679ae80e63d0f2d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f28aeb03321c8cf2c357ee57c2d01b3305a727d2
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780213"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142674"
 ---
 # <a name="vat-reporting-in-the-german-version"></a>MwSt.-Berichterstattung in der deutschen Version
 

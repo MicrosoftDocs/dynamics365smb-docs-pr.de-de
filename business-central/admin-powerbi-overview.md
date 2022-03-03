@@ -2,7 +2,6 @@
 title: Übersicht über die Power BI-Integrationskomponente und -Architektur für Business Central | Microsoft Docs
 description: Erfahren Sie mehr über die verschiedenen Aspekte der Power BI Integration mit Business Central.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.reviewer: edupont
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 6260edff16c0d9123d389f59f0d035b2e87766b4
-ms.sourcegitcommit: 1508643075dafc25e9c52810a584b8df1d14b1dc
+ms.openlocfilehash: b4f48182e6d4356e9621dc5a041945700f5d7599
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "8049511"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8143925"
 ---
 # <a name="power-bi-integration-component-and-architecture-overview-for-prod_short"></a>Übersicht über die Power BI-Integrationskomponente und -Architektur für [!INCLUDE[prod_short](includes/prod_short.md)]
 

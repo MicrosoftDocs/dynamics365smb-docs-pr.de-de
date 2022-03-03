@@ -2,7 +2,6 @@
 title: Ausgleichen von Zahlungen mit nicht geleisteten Verkaufsbelegen | Microsoft Docs
 description: Sie gleichen die Beträge aus, die von den Debitoren mit Bezug auf den entsprechenden Verkaufsbeleg bezahlt werden und buchen die Zahlungen, um den Debitor, die Finanzbuchhaltung und die Bankposten zu aktualisieren.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: payment process, cash receipts, customer payment
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9a2880437f802cb07617690361558745e06540eb
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: dab5042a6a72426453f92c67e2763d370ce8dff1
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445400"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8139483"
 ---
 # <a name="reconcile-customer-payments-from-a-list-of-unpaid-sales-documents"></a>Debitoren-Zahlungen aus einer Liste mit unbezahlten Verkaufsbelegen abstimmen
 Wenn Ihre Debitoren Zahlungen an Ihr elektronisches Bankkonto getätigt haben, müssen Sie jeden gezahlten Betrag auf den zugehörigen Verkaufsbeleg anwenden und dann die Zahlung buchen, um die Debitoren-, Sachkonto- und Bankposten zu aktualisieren. Abhängig von den Unternehmensanforderungen können Sie bezahlt werden und die Zahlung auf unterschiedliche Arten erfassen: automatisch und durch Zahlungsverkehr.  

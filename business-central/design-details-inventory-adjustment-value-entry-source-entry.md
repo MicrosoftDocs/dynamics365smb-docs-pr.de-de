@@ -2,7 +2,6 @@
 title: Buchungsdatum bei der Eingabe von Anpassungswerten im Vergleich zur Quelleingabe
 description: Informieren Sie sich über das Szenario „Buchungsdatum der Korrekturwerteingabe im Vergleich zum Buchungsdatum der Eingabe, die die Korrektur verursacht, wie z.B. Neubewertung oder Artikelzu-/abschläge“, wenn Sie den Batchauftrag Lagerreg. fakt. ein-/abschlagen ausführen.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 09/17/2021
 ms.author: edupont
-ms.openlocfilehash: 2f3a74752faca380236a8b56c920fb5b88003073
-ms.sourcegitcommit: 772af6954539c65743d1a2f59e8a37d30bd30278
+ms.openlocfilehash: 9d77c13cbe60d9e9b5c4d12e55d75f8815a4a5ba
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/27/2021
-ms.locfileid: "7557298"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8138674"
 ---
 # <a name="posting-date-on-adjustment-value-entry-compared-to-the-source-entry"></a>Buchungsdatum bei der Eingabe von Anpassungswerten im Vergleich zur Quelleingabe
 
@@ -31,9 +30,9 @@ Bitte geben Sie die folgenden Werte ein:
 
 **Lagerbestandseinrichtung**:  
 
-- Automatische Lagerbuchung = Ja  
+- Automatische Kostenbuchung = Ja  
 
-- Automatische Lagerregulierung = Immer  
+- Automatische Kostenregulierung = Immer  
 
 - Durchschnittliche Kalkulation kalkuliert. Typ = Element  
 

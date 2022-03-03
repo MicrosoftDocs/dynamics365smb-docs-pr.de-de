@@ -2,7 +2,6 @@
 title: Terminberechnung für Verkäufe
 description: Die Anwendung berechnet automatisch das Datum, an dem Sie ein Element bestellen müssen, damit es zu einem bestimmten Datum im Bestand ist und zur Kommissionierung zur Verfügung steht.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 221580cebab85be781cd56d461e9d75bb321c15b
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: bee576ce77411e15710e9f09ccbc6ef457f80728
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6320206"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8145446"
 ---
 # <a name="date-calculation-for-sales"></a>Terminberechnung für Verkäufe
 [!INCLUDE[prod_short](includes/prod_short.md)] berechnet automatisch das frühestmögliche Datum, an dem ein Artikel in einer Verkaufsauftragszeile geliefert werden kann.

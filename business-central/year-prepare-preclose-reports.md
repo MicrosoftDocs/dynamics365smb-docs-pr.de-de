@@ -2,7 +2,6 @@
 title: Übersicht über Vorab-Abschlussberichte zur Überprüfung der Kontengenauigkeit
 description: Ihnen stehen eine Vielzahl von Standardberichten zur Verfügung, um die Fehlerfreiheit der Konten zu prüfen, bevor die Bücher am Jahres- oder Periodenende abgeschlossen werden.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 1393, 1394
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 877f2ed9ba278ccafb26266d85165b8cfc5589d3
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: 2ce238ea11f7bbe04639de64e6529ebe8c6ff2e9
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8012657"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8139027"
 ---
 # <a name="using-pre-closing-reports"></a>Vorabschlussberichte verwenden
 

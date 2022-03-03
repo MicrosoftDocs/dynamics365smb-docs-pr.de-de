@@ -2,7 +2,6 @@
 title: Erstellen Sie Geschäftskontakte
 description: Umreißt die Aufgaben, die mit dem Erstellen von Kontakten und der Definition Ihrer Geschäftsbeziehungen auf der Kontaktkarte verbunden sind.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 07/08/2021
 ms.author: edupont
-ms.openlocfilehash: 4ab9b6051f93daa9f1b342ed8a5fbaa7bbd9c4b2
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 31fa33a1842a7e825872b13f6f7a2fb65c517ffa
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435319"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8140891"
 ---
 # <a name="create-contacts"></a>Kontakt erstellen
 

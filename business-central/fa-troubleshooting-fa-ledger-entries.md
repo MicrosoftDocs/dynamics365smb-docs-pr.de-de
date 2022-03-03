@@ -3,7 +3,6 @@ title: Die Erweiterung zur Problembehebung bei Anlagenposten
 description: Es ist einfacher, mit ganzen Zahlen zu arbeiten. Verwenden Sie diese Erweiterung, um Beträge für Anlagen im Anlagenposten zu runden.
 documentationcenter: ''
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.workload: na
 ms.search.keywords: machinery, buildings
 ms.date: 10/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 39bfc61cf928b6556a3c54625c8b6f9221553c93
-ms.sourcegitcommit: a6000804ad9a176de5750372d3951547ddb71006
+ms.openlocfilehash: bad9c995f87a3a4dfc598989e68b8e2b047a7d5d
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "7865577"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142315"
 ---
 # <a name="the-troubleshooting-fa-ledger-entries-extension"></a>Die Erweiterung zur Problembehebung bei Anlagenposten
 Verwenden Sie die Erweiterung zur Problembehebung bei Anlagenposten, um Abschreibungs- und Anschaffungsbeträge in Anlagenposten auf ganze Zahlen zu runden. Beispielsweise zum Runden eines Betrags von 30.000,44 auf 30.000. Typische Ursachen für Rundungsprobleme sind Datenmigration, plötzliche Buchungen von Beträgen im Sachposten oder Anpassungen, die Sie an Ihrem [!INCLUDE[prod_short](includes/prod_short.md)] vorgenommen haben.

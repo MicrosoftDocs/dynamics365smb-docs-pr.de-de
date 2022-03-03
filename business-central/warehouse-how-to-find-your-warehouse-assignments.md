@@ -2,7 +2,6 @@
 title: So finden Sie Ihre Lager-Zuordnungen
 description: In diesem Thema wird erklärt, wie Sie die Ihnen zugewiesenen Lager-Zuordnungen auf der Seite Elementkarte finden, wenn Anweisungen für Sie erstellt wurden.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 6c861ed1f068d6381d99ef0761244befd08ba43a
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 5fe603b5cb2499c4b74e29725ee1747219d37e27
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444130"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141977"
 ---
 # <a name="find-your-warehouse-assignments"></a>Suchen der Lagerzuweisungen
 Um Lagerzuweisungen zu suchen, öffnen Sie die Kartenseite für einen ausgewählten Artikel. Wenn Logistikanweisungen erzeugt wurden, sehen Sie Zeilen der Arten "Entnahme" und "Einlagerung", und Sie können mit einer Ihnen zugewiesenen Aufgabe beginnen. In einigen Lagern haben die Lagermanager eventuell jedem Mitarbeiter bestimmte Anweisungen zugeordnet. Weitere Informationen finden Sie unter [Lagermitarbeiter einrichten](warehouse-how-to-set-up-warehouse-employees.md)

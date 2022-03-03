@@ -1,14 +1,13 @@
 ---
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: include
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f0e6013130a123739accca0d46f764ee8fc5fba4
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: b6724610c1c323d6714d8dcefc7fa46c83b2e20c
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773154"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8130540"
 ---
 Dataverse

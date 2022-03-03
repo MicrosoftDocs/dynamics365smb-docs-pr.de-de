@@ -2,7 +2,6 @@
 title: Business Central-Datensätze in Microsoft Teams teilen
 description: Erfahren Sie, wie Sie die Business Central-App für Microsoft Teams verwenden.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, share records
 ms.date: 05/19/2021
 ms.author: jswymer
-ms.openlocfilehash: 3ad8b25fef8b486d4b2064e8c5117f0b25c6ec5b
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 4d8ca98d4e13d50bcf58f4a66956c33b1d0996f3
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7587834"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8147112"
 ---
 # <a name="sharing-business-central-records-and-page-links-in-microsoft-teams"></a>Gemeinsame Nutzung von Business Central Datensätzen und Seitenlinks in Microsoft Teams
 

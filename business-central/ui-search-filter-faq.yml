@@ -3,18 +3,17 @@ metadata:
   title: Informationen zum Suchen und Filtern in Business Central
   description: Antworten auf häufig gestellte Fragen zu Suche und Filter.
   author: mikebcMSFT
-  ms.service: dynamics365-business-central
-  ms.topic: conceptual
+  ms.topic: faq
   ms.reviewer: edupont04
   ms.search.keywords: keyboarding, productivity, how do i, filter pane
   ms.date: 04/01/2021
   ms.author: mikebc
-  ms.openlocfilehash: 708033d8d803aebb871a83237962078bc6ab6a4f
-  ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+  ms.openlocfilehash: 58c0e15d418bdf8743acdbbe14eb01243bd30a14
+  ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
   ms.translationtype: HT
   ms.contentlocale: de-DE
-  ms.lasthandoff: 06/30/2021
-  ms.locfileid: "6325838"
+  ms.lasthandoff: 02/15/2022
+  ms.locfileid: "8138232"
 title: Suchen und Filtern – FAQs
 summary: Dieser Artikel beantwortet einige allgemeine Fragen, die Sie zum Suchen und Filtern in Business Central haben könnten.
 sections:

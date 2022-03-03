@@ -2,7 +2,6 @@
 title: So verschieben Sie Komponenten in einen Arbeitsgangbereich in Basis-Lagerkonfigurationen
 description: Wenn die Arbeitsgänge, die den Artikel verarbeiten, an Ihrem Lagerort stattfinden, müssen Sie möglicherweise Artikel zwischen internen Lagerplätzen umlagern, um auf interne Herkunftsbelege, wie Produktions-, Montage- oder Serviceaufträge am Lagerort zu reagieren.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e8ccd03e24c80e1cd7ac2fe39d272599af7f72fe
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 1059e6c5bf0a308382951fd19606dbaf0ef14425
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444155"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141951"
 ---
 # <a name="move-components-to-an-operation-area-in-basic-warehouse-configurations"></a>So verschieben Sie Komponenten in einen Arbeitsgangbereich in Basis-Lagerkonfigurationen
 Wenn die Arbeitsgänge, die den Artikel verarbeiten, an Ihrem Lagerort stattfinden, müssen Sie möglicherweise Artikel zwischen internen Lagerplätzen umlagern, um auf interne Herkunftsbelege, wie Produktions-, Montage- oder Serviceaufträge am Lagerort zu reagieren.  

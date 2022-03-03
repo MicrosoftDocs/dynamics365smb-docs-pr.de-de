@@ -2,7 +2,6 @@
 title: Produktionsprozesse konfigurieren
 description: Damit Material zu Fertigerzeugnissen verarbeitet werden kann, müssen im System Fertigungsressourcen wie Maschinisten und Maschinen eingerichtet werden.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 99000768, 99000779, 99000780, 99000866
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d15f1dd84a151224189a52ae73f5276ac14afbc9
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: e2edca2f2a5b89575810ed2aa0ad3898cd6d01d3
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7972356"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8135029"
 ---
 # <a name="setting-up-manufacturing"></a>Produktion einrichten
 

@@ -2,7 +2,6 @@
 title: Designdetails – Erwartete Kostenbuchung
 description: Soll-Kosten repräsentieren die Schätzung der Kosten, z. B. für die Kosten eines Einkaufsartikels, die Sie registrieren, bevor Sie die Rechnung für den Artikel erhalten.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 07/20/2021
 ms.author: edupont
-ms.openlocfilehash: 1327eaf9a26ff2bbf8aa3dab8f2e7f64b8f00ab4
-ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
+ms.openlocfilehash: edf08dfd87596da0a2c052651e323963ff13ce6a
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "6649837"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8128889"
 ---
 # <a name="design-details-expected-cost-posting"></a>Designdetails: Soll-Kosten-Buchen
 Soll-Kosten repräsentieren die Schätzung der Kosten, z. B. für die Kosten eines Einkaufsartikels, die Sie registrieren, bevor Sie die Rechnung für den Artikel erhalten.  

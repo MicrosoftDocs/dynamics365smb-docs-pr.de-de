@@ -2,7 +2,6 @@
 title: Richten Sie eine Unternehmenskonfiguration ein.
 description: Richten Sie als Partner Business Central für Ihren Kunden mit Standard- oder kundenspezifischen Konfigurationen ein, die Sie in Konfigurationspaketen bündeln.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5baef81f22e260fa6f582b536dcf356d3ae25d25
-ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
+ms.openlocfilehash: 841d57ec0e5897ee0395e498ed24dc19b4fcbaea
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "6649712"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8143934"
 ---
 # <a name="set-up-company-configuration"></a>Richten Sie eine Unternehmenskonfiguration ein.
 Der Implementierungsprozess beginnt mit dem Microsoft-Partner. Als Partner sind Sie für die Formulierung der Konfigurationsdetails und das Erstellen eines Pakets zuständig ist, das ein Debitor einfach anwenden kann. Bevor Sie einen neuen Mandanten in [!INCLUDE [prod_short](includes/prod_short.md)] online oder on-premises erstellen, sollten Sie planen, wie dieser konfiguriert wird. Sie müssen an grundlegende Einrichtungsdaten und die Arten der Daten denken, die Ihre [!INCLUDE[prod_short](includes/prod_short.md)]-Lösung benötigt. Sie bündeln alle diese Informationen in Konfigurationspakete.

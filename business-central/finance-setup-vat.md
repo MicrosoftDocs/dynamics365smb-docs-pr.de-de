@@ -2,7 +2,6 @@
 title: Mehrwertsteuer einrichten
 description: Überprüfen Sie, ob Sie die MwSt für Verkäufe und Einkäufe korrekt berechnen, buchen und melden. Es wird empfohlen, dass Sie diesen Einrichtungsleitfaden verwenden, um die MwSt einzurichten.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: VAT, posting, tax, value-added tax
 ms.search.form: 10, 1877, 470, 471, 472
 ms.date: 01/31/2022
 ms.author: bholtorf
-ms.openlocfilehash: 7e15405a55256b0130b45f49bc610218248e6bff
-ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
+ms.openlocfilehash: 18087426a99d232a27c053c0e4ffd32440ee704c
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8059987"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146514"
 ---
 # <a name="set-up-calculations-and-posting-methods-for-value-added-tax"></a>Berechnungen einrichten und Buchungsmethoden für Mehrwertsteuer
 

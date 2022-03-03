@@ -2,7 +2,6 @@
 title: Designdetails - Bestandbewertung | Microsoft Docs
 description: Die Bestandsbewertung ist die Ermittlung der Kosten eines Lagerartikels.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 8d68b2c5f0a1026daeca4f872551cbddcd95b047
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: a4877cf45e4cbf035e2914b72e10f4d7a4102e59
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215053"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8145862"
 ---
 # <a name="design-details-inventory-valuation"></a>Designdetails: Bestandsbewertung
 Die Lagerbewertung ist die Identifizierung der Kosten, die einem Lagerartikel zugewiesen sind, wie durch folgende Formel dargestellt.  
@@ -48,7 +47,7 @@ Der Wert des WIP-Lagers wird durch folgende Formel bestimmt:
 
 * End-WIP-Bestand = Anfangs-WIP-Bestand + Fertigungskosten - Fertigungskosten  
 
-As for purchased inventory, the value entries provide the basis of the inventory valuation. Die Berechnung erfolgt anhand der Werte in dem Feld **Kostenbetrag (Ist)** der Artikel- und Kapazitätswertposten, die mit einem Fertigungsauftrag verbunden sind.  
+Wie bei eingekauftem Lagerbestand sind die Werteinträge die Grundlage der Bestandsbewertung. Die Berechnung erfolgt anhand der Werte in dem Feld **Kostenbetrag (Ist)** der Artikel- und Kapazitätswertposten, die mit einem Fertigungsauftrag verbunden sind.  
 
 Der Zweck der WIP-Bestandsbewertung besteht darin, den Wert der Artikel zu ermitteln, deren Produktion an einem vorgegebenen Datum noch nicht abgeschlossen wurde. Daher ist der den Lagerwert der unfertigen Arbeit auf den Wertposten basiert, die sich auf die Verbrauchs- und Kapazitätsposten beziehen. Verbrauchsposten müssen am Datum der Bewertung vollständig fakturiert sein. Deshalb zeigt der Bericht **Lagerbewertung - Aktiviert** die Kosten an, die den den Lagerwert der unfertigen Arbeit in zwei Kategorien darstellen: Verbrauch und Kapazität.  
 

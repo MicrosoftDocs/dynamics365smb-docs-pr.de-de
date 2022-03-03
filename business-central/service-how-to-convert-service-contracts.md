@@ -2,7 +2,6 @@
 title: Wie Sie Serviceverträge konvertieren
 description: Dieses Thema beschreibt mehrere alternative Methoden, die Sie verwenden können, um Serviceverträge umzurechnen, die Mehrwertsteuerbeträge enthalten.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 1b2bb49651a52f36ab8d98edc22ba2248794f598
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 715f532745b74b0fb49e8dff10a355fda71a0271
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6436401"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8134847"
 ---
 # <a name="convert-service-contracts-that-include-vat-amounts"></a>Konvertieren von Serviceverträgen, die MwSt.-Beträge enthalten
 Da das Werkzeug zum Ändern des MwSt.-Satzes keine Serviceverträge konvertieren, müssen diese Verträge manuell konvertiert werden. In diesem Thema werden mehrere alternative Methoden beschrieben, die Sie für die Servicevertragkonvertierung verwenden können.  

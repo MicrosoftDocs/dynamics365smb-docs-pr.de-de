@@ -2,7 +2,6 @@
 title: 'So geht es: Ein neues Unternehmen erstellen | Microsoft Docs'
 description: Verwenden Sie RapidStart Services-Tabellen und -Seiten, um eine neue Firma zu erstellen, für die Sie eine Implementierung beim Debitor durchführen möchten.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: bb2e3e8d431160c94f7944fe8986ea9cc115ffe7
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 0031a05821346aa061334e0f9ced1079fef2978b
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439635"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8130771"
 ---
 # <a name="create-a-new-company"></a>Erstellen eines neuen Mandanten.
 Um RapidStart Services für [!INCLUDE[prod_short](includes/prod_short.md)] zu verwenden, müssen Sie zunächst einen neuen Mandanten erstellen, für den Sie eine Debitoren-Implementierung durchführen wollen. Bei der Erstellung eines neuen Mandanten werden die [!INCLUDE[prod_short](includes/prod_short.md)]-Standardtabellen und -seiten erstellt, aber sie enthalten keine Daten.

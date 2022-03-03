@@ -2,7 +2,6 @@
 title: 'Designdetails: Verfügbarkeit im Lager | Microsoft Docs'
 description: Die Anwendung muss eine konstante Kontrolle der Artikelverfügbarkeit im Lager aufrechterhalten, sodass ausgehende Aufträge effizient verlaufen und optimale Lieferungen zur Verfügung stellen können.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 7d23dc10ffb215ee2ac160c9ec9b9fd1ddb5cc2d
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 670fbfc0f7e576f92ef26e31418d0d44f6262eec
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442535"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132081"
 ---
 # <a name="design-details-availability-in-the-warehouse"></a>Designdetails: Verfügbarkeit im Lager
 Die Anwendung muss eine konstante Kontrolle der Artikelverfügbarkeit im Lager aufrechterhalten, sodass ausgehende Aufträge effizient verlaufen und optimale Lieferungen zur Verfügung stellen können.  
@@ -28,7 +27,7 @@ Wenn eine oder mehrere Bedingungen nicht erfüllt werden, können verschiedene F
 > Informationen werden in Kürze hier über mögliche Ursachen und Lösungen veröffentlicht, dass das "nichts zu behandeln" umfasst. Nachricht
 
 ## <a name="bin-content-and-reservations"></a>Lagerplatzinhalt und Reservierungen  
- In jeder Installation von NAV-Logistik sind Artikelmengen als Lagerplatzposten, im Logistikbereich, und als Artikelposten, im Anwendungsbereich Lager, vorhanden. Diese beiden Postenarten enthalten verschiedene Informationen darüber, wo Artikel vorhanden sind und ob sie verfügbar sind. Lagerplatzposten definieren die Verfügbarkeit eines Artikels nach Lagerplatz und Lagerplatzart, was als Lagerplatzinhalt bezeichnet wird. Artikelposten definieren die Verfügbarkeit eines Artikels durch ihre Reservierung auf ausgehenden Belegen.  
+ In jeder Installation von Logistik sind Artikelmengen als Lagerplatzposten, im Logistikbereich, und als Artikelposten, im Anwendungsbereich Lager, vorhanden. Diese beiden Postenarten enthalten verschiedene Informationen darüber, wo Artikel vorhanden sind und ob sie verfügbar sind. Lagerplatzposten definieren die Verfügbarkeit eines Artikels nach Lagerplatz und Lagerplatzart, was als Lagerplatzinhalt bezeichnet wird. Artikelposten definieren die Verfügbarkeit eines Artikels durch ihre Reservierung auf ausgehenden Belegen.  
 
  Spezielle Funktionen sind im Kommissionierungsalgorithmus vorhanden, um die Menge zu berechnen, die zur Kommissionierung verfügbar ist, wenn Lagerplatzinhalt mit Reservierungen verknüpft ist.  
 

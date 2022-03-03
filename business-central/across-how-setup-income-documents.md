@@ -2,7 +2,6 @@
 title: Einrichten von eingehenden Belegen| Microsoft Docs
 description: Verwenden Sie die Funktion der eingehenden Belege, um elektronische Belege zu erstellen, verwalten Sie OCRaufgaben, importieren Sie Rechnungen und wandeln Sie Bilddateien um.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 313de95353fc42b222fa95cd36d320881a7fbdb8
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: b35eeb057566b9dde9141e9295b45a4dd7c5b7e7
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442585"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8134304"
 ---
 # <a name="set-up-incoming-documents"></a>Einrichten von eingehenden Belegen
 

@@ -2,7 +2,6 @@
 title: Anlagen umbuchen
 description: Beschreibt, wie eine Anlage umgelagert wird, um sie mit anderen Anlagen aufzusplitten oder zu kombinieren.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 5638, 5636, 5640, 5637
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a3f95096a2c4cfaf80e3473c405e527014e6697a
-ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
+ms.openlocfilehash: 8bed1cc63d95d3b49bf439da0ccf949d536b9792
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "8029222"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8136244"
 ---
 # <a name="transfer-split-or-combine-fixed-assets"></a>Übertragen, Teilen oder Kombinieren von Anlagen.
 

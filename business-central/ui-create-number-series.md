@@ -2,7 +2,6 @@
 title: Erstellen von Nummernkreisen
 description: Erfahren Sie, wie Sie Nummernserien einrichten, die Konten und Belegen in Business Central eindeutige ID-Codes zuweisen.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: numbers, numbering
 ms.search.form: 456, 457, 458, 459, 460, 461, 21, 22, 26, 27, 31
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f886656262853acd34007118248a52af2184b36a
-ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
+ms.openlocfilehash: e95b60af569511a8a95154a53f80bcc235f883f5
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8115366"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8140475"
 ---
 # <a name="create-number-series"></a>Erstellen von Nummernkreisen
 

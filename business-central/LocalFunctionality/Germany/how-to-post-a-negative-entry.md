@@ -2,17 +2,16 @@
 title: So buchen Sie einen Negativeintrag [DE]
 description: Verwenden Sie das Feld Korrektur, um ein negatives Soll anstelle eines Guthabens zu buchen, oder um ein negatives Haben anstelle eines Solls auf einem Konto zu buchen, um gesetzliche Anforderungen zu erfüllen.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: ''
 ms.date: 06/18/2021
 ms.author: edupont
-ms.openlocfilehash: 20588e3824eb8fea9088700eaa3c97a7677c9297
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: f3f7df51cc573c51859483231d2ec9ed7e70d043
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435183"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8144190"
 ---
 # <a name="post-a-negative-entry-in-the-german-version"></a>Eine Negativbuchung in der deutschen Version buchen
 Im Feld **Storno** kann ein negativer Soll- anstelle eines Habenbetrags oder ein negativer Haben- anstelle eines Sollbetrags in einem Konto gebucht werden. Zur Einhaltung gesetzlicher Vorschriften wird das Feld standardmäßig in allen Buch.-Blättern angezeigt. Die Felder **Sollbetrag** und **Habenbetrag** enthalten jeweils den ursprünglichen und den stornierten Posten. Diese Felder haben keinen Einfluss auf den Kontensaldo.  

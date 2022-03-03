@@ -2,7 +2,6 @@
 title: Vorgehensweise beim Kopieren von vorhandenen Artikeln in neue Artikel
 description: Wenn Sie einen neuen Artikel hinzufügen, können Sie zur Zeitersparnis mit der Option Artikel kopieren einen vorhandenen Artikel als Vorlage für einen neuen Artikel verwenden.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: ''
 ms.search.forms: 729
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6ad87fc0a6c137886b59e581f467119fc75b93fd
-ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
+ms.openlocfilehash: 3e31f64136f09c1623236f976f70fea088a4106c
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060300"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8130296"
 ---
 # <a name="copy-existing-items-to-create-new-items"></a>Kopieren von vorhandenen Artikeln um neue Artikel zu erstellen
 

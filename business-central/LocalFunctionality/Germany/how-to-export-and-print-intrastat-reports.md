@@ -2,7 +2,6 @@
 title: Exportieren und Drucken von Intrastat-Berichten (DE)
 description: Business Central unterstützt das Intrastat-Reporting nach deutschen Anforderungen. Sie können die Anforderung erfüllen, Ihren Handel mit anderen EU-Ländern zu melden.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 26100
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e547c5fc761e73a93964378399819e8f2b967627
-ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
+ms.openlocfilehash: a671601280c2fe5020578bc26077e81165e03205
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/28/2021
-ms.locfileid: "7947195"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8133505"
 ---
 # <a name="export-and-print-intrastat-reports"></a>Exportieren und Drucken von Intrastat-Berichten
 Intrastat-Berichterstattung ist in der gesamten Europäischen Union (EU) erforderlich und muss landesbezogenen Anforderungen entsprechen (beispielsweise bestimmten Formaten und Dateien). Alle Unternehmen innerhalb der EU sind verpflichtet, Auskunft über ihre Handelsaktivitäten mit anderen EU-Ländern zu geben. Warenbewegungen müssen jeden Monat dem Statistischen Amt Ihres Landes/Ihrer Region mitgeteilt und die Berichte müssen an die Steuerbehörden übermittelt werden.  

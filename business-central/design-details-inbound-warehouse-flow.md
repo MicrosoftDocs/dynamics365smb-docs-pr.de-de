@@ -2,7 +2,6 @@
 title: Design-Details – Inbound Warehouse Flow
 description: Der eingehende Warehouse Flow beginnt, wenn die Artikel am Lagerort der Firma ankommen. Artikel werden registriert und schließlich mit eingehenden Belegen abgeglichen.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: a3a300deaaf4b64e7f26e34168ff1f69b72e90de
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: de7a468377f454c01d45742f4510cb9978340ae6
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441772"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132003"
 ---
 # <a name="design-details-inbound-warehouse-flow"></a>Designdetails: Eingehender Lagerfluss
 Der eingehende Fluss in ein Lager beginnt, wenn Artikel im Lager des Unternehmensstandorts ankommen, entweder aus externen Quellen oder von einem anderen Standort des Unternehmens. Ein Mitarbeiter registriert die Artikel, normalerweise, indem er einen Barcode scannt. Vom empfangenden Dock werden Lageraktivitäten auf verschiedene Komplexitätsebenen ausgeführt, um die Artikel in den Lagerbereich zu bringen.  

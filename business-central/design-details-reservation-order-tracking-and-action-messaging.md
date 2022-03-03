@@ -2,7 +2,6 @@
 title: Designdetails - Reservierung, Auftragsnachverfolgung und Aktionsmeldungen | Microsoft Docs
 description: Das Reservierungssystem ist umfassend und enthält auch die zusammenhängenden und parallelen Funktionen der Auftragsnachverfolgung und des Aktionsmessagings.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: design, replenishment, reordering
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 4671954cd059360e4f16db5cb4a4faf3ce01aff4
-ms.sourcegitcommit: 13b811918b3c9f1598150b5cbbf387974b2a6df6
+ms.openlocfilehash: a45ba50302d2d50fae805c67ae51cb4d95b61d48
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/04/2022
-ms.locfileid: "7949037"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8131899"
 ---
 # <a name="design-details-reservation-order-tracking-and-action-messaging"></a>Designdetails: Reservierung, Auftragsnachverfolgung und Aktionsmeldungen
 Das Reservierungssystem ist umfassend und enthält auch die zusammenhängenden und parallelen Funktionen der Auftragsnachverfolgung und des Aktionsmessagings.  

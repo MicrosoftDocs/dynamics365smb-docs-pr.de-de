@@ -2,7 +2,6 @@
 title: Eine Firma mit RapidStart Services festlegen
 description: Sie können eine neue Firma in Business Central mit RapidStart-Diensten festlegen, um die Produktivität durch Automatisierung und Vereinfachung wiederkehrender Aufgaben zu erhöhen.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 813ac2b7c8fe074e9c1f2572f947b92156a56d1a
-ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
+ms.openlocfilehash: c5e47b4e866ce25a0a2cac84e00630b371f6e2b2
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "6649787"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8147060"
 ---
 # <a name="setting-up-a-company-with-rapidstart-services"></a>Mandanten mit RapidStart Services einrichten
 Sie können in [!INCLUDE[prod_short](includes/prod_short.md)] mit RapidStart Services einen neuen Mandanten einrichten. Dies ist ein Werkzeug, das dazu dient, Bereitstellungszeiten zu verkürzen, die Qualität der Implementierung zu erhöhen, einen wiederholbaren Ansatz für Implementierungen einzuführen, und durch die Automatisierung und Vereinfachung wiederkehrender Prozesse die Produktivität zu erhöhen.  

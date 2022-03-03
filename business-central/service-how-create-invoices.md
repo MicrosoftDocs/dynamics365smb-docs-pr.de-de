@@ -2,7 +2,6 @@
 title: Erstellen von Rechnungen oder Gutschriften für Serviceleistungen
 description: Erfahren Sie, wie Sie mit Business Central nahtlos Servicerechnungen und Gutschriften für Ihre Dienstleistungen erstellen können.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: ad5003e8dac33ac5886caa698650ba211c9b89ae
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 47ff02006af6182752ed110464b4c8aa493060c5
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440153"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8143088"
 ---
 # <a name="create-service-invoices-or-credit-memos"></a>Erstellen Sie eine Servicerechnung oder eine Servicegutschrift.
 Die einfache Fakturierung von Serviceaufträgen ist ein zentrales Feature von [!INCLUDE[prod_short](includes/prod_short.md)] [!INCLUDE[prod_short](includes/prod_short.md)] kann auch so eingerichtet werden, dass ein Servicetechniker im Feld eine Rechnung für einen Service erstellen kann, der nicht mit einem Vertrag oder Auftrag verbunden ist. Richten Sie [!INCLUDE[prod_short](includes/prod_short.md)] alternativ so ein, dass Sie Serviceverträge regelmäßig in Rechnung stellen. Im Fakturierungsintervall wird für jeden Vertrag festgelegt, wie oft fakturiert wird.

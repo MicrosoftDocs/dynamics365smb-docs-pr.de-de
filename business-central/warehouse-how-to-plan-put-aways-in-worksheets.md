@@ -2,7 +2,6 @@
 title: So planen Sie Einlagerungen in Arbeitsblättern
 description: Richten Sie Ihr Lager so ein, dass Ihnen Belegzeilen im Einlagerungs-Arbeitsblatt zur Verfügung stehen, wenn Sie Einlagerungsanweisungen für Belege planen wollen.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: cfe8f04e84c2bb5cddcbad71fd71b1253043b60f
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: b7bd6481c6347cfb9c8d02ba58f38101802a6caa
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438182"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8131119"
 ---
 # <a name="plan-put-aways-in-worksheets"></a>Planen von Einlagerungen in Arbeitsblättern
 Wenn für Ihren Lagerort die Bearbeitung der Einlagerung und des Wareneingangs erforderlich ist und Sie Einlagerungsanweisungen für mehrere Wareneingänge planen möchten, anstatt die Mitarbeiter Anweisungen ausführen zu lassen, die die Anwendung für einzelne gebuchte Wareneingänge erzeugt – können Sie das Einlagerungsarbeitsblatt nutzen.  

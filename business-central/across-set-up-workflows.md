@@ -2,7 +2,6 @@
 title: Workflows festlegen (enthält Video)
 description: Legen Sie Workflows, Workflow-Benutzer und Genehmiger fest, um Aufgaben des Geschäftsprozesssystems zu verbinden, die von diesen verschiedenen Benutzern ausgeführt werden.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 5be16c0d7cbd035d28a15967270cf982870acd78
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
+ms.openlocfilehash: d9cf7f41f399d2747b554f3784c40b51fb9d71da
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940801"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8133252"
 ---
 # <a name="set-up-workflows"></a>Einrichten von Workflows
 

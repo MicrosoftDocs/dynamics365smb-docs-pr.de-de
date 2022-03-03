@@ -2,7 +2,6 @@
 title: Einrichten von Basislagern mit Vorgangsbereichen
 description: Legen Sie Lagerarbeitsbereiche fest und verwenden Sie Lagerbewegungen, Kommissionierungen und Einlagerungen, um Waren zwischen ihnen zu bewegen.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 6774, 6775, 6776
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 6dbf91bcf720a3b57f7e6e9446b0a46d1e053987
-ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
+ms.openlocfilehash: 7d64cb9cdba21d3a023c86fbb39e802a78945c2b
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8115198"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8144203"
 ---
 # <a name="set-up-basic-warehouses-with-operations-areas"></a>Basislager mit Vorgängen festlegen
 Wenn in den Basislagerkonfigurationen interne Vorgangsbereiche wie Produktion oder Montage vorhanden sind, in denen Lagerplätze das Einrichtungsfeld **Lagerplatz notwendig** und möglicherweise die Einrichtungsfelder **Kommissionierung erforderlich** und **Einlagerung erforderlich** verwenden, können Sie die folgenden Basislagerbelege verwenden, um Ihre Lageraktivitäten für interne Vorgangsbereiche zu erfassen:  

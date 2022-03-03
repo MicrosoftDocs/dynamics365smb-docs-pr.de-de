@@ -2,7 +2,6 @@
 title: Wie Sie Serviceangebote erstellen
 description: Erfahren Sie, wie Sie ein Serviceangebot als Vorentwurf für einen Serviceauftrag verwenden und dann das Angebot in einen Serviceauftrag umwandeln.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 3a28ee7522faa1e08608deb00718bf955e0e4984
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: eb96cbfee145b418334f49121acfaa5f867ee042
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441910"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8143036"
 ---
 # <a name="create-service-quotes"></a>Serviceangebote erstellen
 Sie können an Serviceangebote als Basis für Serviceaufträge denken. Tatsächlich sind sie fast identisch. Sie enthalten sowohl die Serviceartikelbeschreibung, wie der Debitor, die Art des Auftrags, den Artikel, für den Service, Gebührenzählung und benötigte Versandinformationen, und die Informationen über die tatsächliche Dienstarbeit.

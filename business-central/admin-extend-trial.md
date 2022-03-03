@@ -2,7 +2,6 @@
 title: Erweitern Sie Ihre Testversion von Business Central
 description: Wenn Sie mehr Zeit benötigen, um sich für ein Abonnement für Dynamics 365 Business Central zu entscheiden, können Sie Ihre Testversion einmal verlängern. Erfahren Sie mehr über Ihre Möglichkeiten.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 0843dee0e0ac392f138bfa7632635dff8d6411ce
-ms.sourcegitcommit: 1aab52477956bf1aa7376fc7fb984644bc398c61
+ms.openlocfilehash: 571b71ed67a14151d668fa6e1b37a837a989a693
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6184274"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8129107"
 ---
 # <a name="need-more-time-to-decide-whether-to-subscribe"></a>Benötigen Sie mehr Zeit, um sich für ein Abonnement zu entscheiden?
 
@@ -29,7 +28,7 @@ Sie können die Testzeitraum selbst nur einmal verlängern. Sie können ihn nich
 
     Melden Sie sich mit dem E-Mail-Konto an, das Sie bei der Anmeldung für den Test verwendet haben.  
 
-    Wenn Sie sich mit einem E-Mail-Konto von einer [30-Tage-Testversion von Microsoft 365](/microsoft-365/commerce/sign-up-for-office-365-trial) angemeldet haben, müssen Sie zuerst Ihre Microsoft 365-Testversion verlängern oder ein Microsoft 365-Abonnement kaufen. Weitere Informationen finden Sie unter [Ihre Testversion für Microsoft 365 für Unternehmen verlängern](/microsoft-365/commerce/extend-your-trial).
+    Wenn Sie sich mit einem E-Mail-Konto von einer [30-Tage-Testversion von Microsoft 365](/microsoft-365/commerce/sign-up-for-office-365-trial) angemeldet haben, müssen Sie zuerst Ihre Microsoft 365-Testversion verlängern oder ein Microsoft 365-Abonnement kaufen. Weitere Informationen finden Sie unter [Testversion für Microsoft 365 für Unternehmen verlängern](/microsoft-365/commerce/extend-your-trial).
 2. In der Benachrichtigung oben im Arbeitsbereich wählen Sie **Testversion erweitern** aus.
 
     Wenn Sie die Meldung abgelehnt haben, müssen Sie sich abmelden und dann wieder anmelden.

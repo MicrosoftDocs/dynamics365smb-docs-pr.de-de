@@ -2,7 +2,6 @@
 title: Übersicht über die Aufgaben zum Einrichten von Einkäufen
 description: Beschreibt die Aufgaben, um die Beschaffungsrichtlinien Ihres Mandanten festzulegen und Ihre Einkaufsprozesse einzurichten.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: procurement, supply, vendor order
 ms.search.form: 175, 176, 177, 178, 456, 460, 5727, 5729
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 138cbe3e8f20448c37b59ca9ab8232e0155dc6a6
-ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
+ms.openlocfilehash: 395af6b23c85c3f78eb970b9e2d9603bf336d34d
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8115394"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146202"
 ---
 # <a name="setting-up-purchasing"></a>Einkauf einrichten
 Bevor Sie Einkaufsprozesse verwalten können, müssen die Regeln und Werte konfiguriert werden, die die Einkaufsrichtlinien des Mandanten definieren.

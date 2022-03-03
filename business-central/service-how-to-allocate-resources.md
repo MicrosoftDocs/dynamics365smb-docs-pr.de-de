@@ -2,7 +2,6 @@
 title: 'Gewusst wie: Ressourcen zuweisen | Microsoft Docs'
 description: Sie können den Betrag "Zu fakturieren (Jahr)" des Servicevertrags oder Vertragsangebots ändern, um den jährlich fakturierten Betrag zu korrigieren.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 4b84f2521e0b1c9e6026975b42db20947821b0db
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: ba3571eac4e26646507db2c67f0c2f77207a4566
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6436430"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8143062"
 ---
 # <a name="allocate-resources"></a>Ressourcen zuordnen
 Kernstück des Servicemanagements sind die Mitarbeiter, von denen der Service bereitgestellt wird. Sie können einrichten [!INCLUDE[prod_short](includes/prod_short.md)], um die geeigneten Mitarbeiter den entsprechenden Projekten zuzuweisen. Zuweisungen können auf Servicebereichen basieren, in denen Mitarbeiter tätig sind, oder in denen der Service stattfindet. Zudem können Ressourcen beim Antworten auf Serviceanforderungen zusammengruppiert werden. Weitere Informationen finden Sie unter [Ressourcen zuweisen einrichten](service-how-setup-resource-allocation.md).

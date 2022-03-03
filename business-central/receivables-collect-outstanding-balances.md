@@ -2,7 +2,6 @@
 title: Einziehen von Restbeträgen
 description: Lernen Sie, wie Sie Ihre Debitor an ausstehende Zahlungen erinnern können. Senden Sie einen Debitor-Auszug, eine Mahnung oder eine Zinsrechnung.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
 ms.date: 02/09/2022
 ms.author: edupont
-ms.openlocfilehash: 3002a343128feaf6035ea8e72cddc0e713ad5cc0
-ms.sourcegitcommit: 8a968e9176a913635e47e5170c66962e485e6689
+ms.openlocfilehash: fe9dc2ed31244bbca601d90397dc813085817eb1
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/10/2022
-ms.locfileid: "8105724"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8144957"
 ---
 # <a name="collect-outstanding-balances"></a>Einziehen von Restbeträgen
 

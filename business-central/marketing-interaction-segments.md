@@ -3,7 +3,6 @@ title: Behalten Sie den Überblick über Segmente und damit verbundene Interakti
 description: Erhalten von Informationen zum Erstellen von Segmenten, um Kontaktgruppen zu definieren und Festlegen von Aktivitäten für Segmente.
 documentationcenter: ''
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,12 +11,12 @@ ms.search.keywords: relationship, prospect
 ms.search.forms: 5139,
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 0da5f065b1a455ae9829c4ac6d10b90c3f326c04
-ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
+ms.openlocfilehash: 792b2172a96287732e9ae81c8af5fd6ba5aeccf7
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8059648"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8131405"
 ---
 # <a name="manage-interactions-for-segments"></a>Aktivitäten für Segmente verwalten
 Die Seite **Segment** ist ein Arbeitsblatt, in dem Sie folgende Aufgaben ausführen können:

@@ -2,7 +2,6 @@
 title: Fakturieren eines Verkaufs
 description: Beschreibt, wie Sie einen Verkaufsauftrag erstellen, einen Vertrag mit einem Debitoren erfassen, Produkte unter bestimmten Bedingungen verkaufen oder kaufen.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: bill, sale, invoice, order
 ms.search.form: 42, 43, 48, 9301, 9305
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e2e3b9ff8a070c5bfe927251499efe93ed373d8a
-ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
+ms.openlocfilehash: 0667c06af3fdd90da5b1b68dba2ae0e5ab21d1ab
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8059726"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8133614"
 ---
 # <a name="invoice-sales"></a>Fakturieren eines Verkaufs
 

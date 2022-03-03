@@ -2,7 +2,6 @@
 title: Einrichten und Berichten von Intrastat
 description: Erfahren Sie, wie Intrastat-Berichtsfunktinen eingerichtet werden, und wie der Handel mit Unternehmen in anderen EU-Ländern gemeldet wird.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
 ms.search.form: 308, 309, 310, 311, 325, 326, 327, 328, 405, 406, 8451, 12202, 31077
 ms.date: 01/28/2022
 ms.author: bholtorf
-ms.openlocfilehash: d51e1657d6c28581a49af9b65b7bee8a27baa57f
-ms.sourcegitcommit: 1508643075dafc25e9c52810a584b8df1d14b1dc
+ms.openlocfilehash: cf6a58789a2ff9dab867699bad8fc63ed40dc5ac
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "8049666"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142238"
 ---
 # <a name="set-up-and-report-intrastat"></a>Einrichten und Berichten von Intrastat
 

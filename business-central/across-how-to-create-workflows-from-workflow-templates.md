@@ -4,7 +4,6 @@ description: Um beim Erstellen neuer Workflows Zeit zu sparen, können Sie nicht
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,12 +11,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 4c3c8011802d9deb1b7a3804758333f08fc2403b
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: d429b5acce6520b86a1272620379265fb01b1462
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438432"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8147268"
 ---
 # <a name="create-workflows-from-workflow-templates"></a>Erstellen von Workflows aus Workflowvorlagen
 Um Zeit zu sparen, wenn Sie neue Workflows erstellen, können Sie Workflows aus Workflowvorlagen erstellen.  

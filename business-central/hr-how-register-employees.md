@@ -4,7 +4,6 @@ description: Beschreibt, wie Sie die Human Resources-Funktionalität verwenden, 
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -13,12 +12,12 @@ ms.search.keywords: personnel, people, employee, staff, HR
 ms.search.form: 5200, 5201
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: c3e8215f80d2d035643166832b866c569e1d2d1a
-ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
+ms.openlocfilehash: 99add650ec16fcb62d9cdc27962bd83c9c71b794
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/08/2022
-ms.locfileid: "8101107"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8137939"
 ---
 # <a name="register-employees"></a>Erfassen eines Mitarbeiters
 Um die Funktion Human Resources zu nutzen, müssen Sie zunächst jeden Mitarbeiter hinzufügen, indem Sie die Felder auf der Seite **Mitarbeiterkarte** ausfüllen.

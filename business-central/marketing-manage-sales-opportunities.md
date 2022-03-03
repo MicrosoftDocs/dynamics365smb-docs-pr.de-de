@@ -3,7 +3,6 @@ title: Verwalten Sie Verkaufschancen und Leads
 description: Beschreibt, wie sämtliche eingehenden Leads oder Verkaufschancen in Business Central verwaltet werden und verknüpft die Verkaufschance mit einem Vertriebsmitarbeiter, um die potenziellen Verkäufe nachverfolgen zu können.
 documentationcenter: ''
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,12 +11,12 @@ ms.search.keywords: relationship, prospect
 ms.search.forms: 5132, 5101, 5103, 5102, 5146, 5199, 5197, 5198, 5137, 5086, 5089, 5087, 5088, 5090, 5128, 5133, 5114, 5151, 5145, 5126, 5189, 5191, 5097, 5135, 5188, 5187, 5154, 5147, 5131, 9257, 5124, 782, 5130, 5123, 5127, 5174, 5125, 5115, 5112, 5111, 5110, 5109, 5149, 5169, 5190, 783, 505, 5118, 5072, 781, 5152, 5153, 5155, 5098, 5196, 5096, 5099, 9255, 5129, 5136
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 2ad501ffb4b045f8b6c704e9adf6b0fc346f22a4
-ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
+ms.openlocfilehash: cf696f5e30c308e04f90983eece35017045e985d
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8059491"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8135081"
 ---
 # <a name="managing-sales-opportunities"></a>Verkaufschancen verwalten
 Alle eingehenden Informationen zu potenziellen Kunden können als Verkaufschance behandelt werden. Sie können Verkaufschancen erstellen und diese einem Verkäufer zuordnen, um potenziellen Verkäufe nachverfolgen zu können.

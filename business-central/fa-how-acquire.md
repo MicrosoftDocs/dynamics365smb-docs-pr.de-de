@@ -2,7 +2,6 @@
 title: Erworbene Anlagen
 description: Sie können Anlagen einrichten, ein AfA-Buch zuweisen und Anlagen-Anschaffungskosten aufzeichnen.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: purchase fixed asset
 ms.search.form: 5605, 5551, 5600, 5628, 5629
 ms.date: 12/03/2021
 ms.author: edupont
-ms.openlocfilehash: a7c74ef8e5dc7e40f6ea63962734074f35ac57a8
-ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
+ms.openlocfilehash: e0a60cbb82c99e3497a6f8d1907c261b6199e7ec
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "8029248"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141210"
 ---
 # <a name="acquire-fixed-assets"></a>Erworbene Anlagen
 Sie müssen für jede Anlage eine Karte mit entsprechenden Informationen zur Anlage einrichten. Sie können Gebäude oder Produktionseinrichtungen als Hauptanlage mit einer Komponentenliste einrichten und sie unterschiedlich gruppieren, z. B. nach Klasse, Abteilung oder Standort. Vor der Anschaffung muß für jede Anlage ein AfA-Buch eingerichtet und zugewiesen werden.

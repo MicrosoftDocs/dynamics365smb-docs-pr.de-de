@@ -2,7 +2,6 @@
 title: Buchhaltungsperioden für ein Geschäftsjahr schließen
 description: Dieser Artikel beschreibt, wie Sie die Buchhaltungsperioden, aus denen das Geschäftsjahr besteht, für den Jahresabschluss schließen.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ba
 ms.search.form: 100
 ms.date: 06/25/2021
 ms.author: jswymer
-ms.openlocfilehash: 44f7b577855f1df9967fd59bee5148d9ec06d087
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: e0ba7bc6b2979dec4b006f43ff8188010fa1885b
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7973732"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141847"
 ---
 # <a name="close-accounting-periods"></a>Schließen von Buchhaltungsperioden
 

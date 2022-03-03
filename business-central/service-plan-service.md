@@ -4,7 +4,6 @@ description: Dieses Thema umreißt verschiedene Aufgaben zum Festlegen von Regel
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,12 +11,12 @@ ms.workload: na
 ms.search.keywords: service, work hours, configure, price, pricing
 ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: 93dfc313521d392b3585eac4aacab3c152a43c78
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 98cd4b41a8e47f045c89ebc31813a07e9f3a46bf
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6323002"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8134795"
 ---
 # <a name="planning-services"></a>Planungsservices
 Mit [!INCLUDE[prod_short](includes/prod_short.md)] können Sie die Standardaufgaben für die Erfüllung der Kundenserviceanforderungen einrichten. Dazu muss bestimmt werden, welche Serviceangebote von der Serviceorganisation unterstützt werden und zu welchem Preis.   

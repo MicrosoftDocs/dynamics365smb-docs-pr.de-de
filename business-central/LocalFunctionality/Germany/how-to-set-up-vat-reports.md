@@ -2,7 +2,6 @@
 title: So legen Sie MwSt.-Berichte fest [DE]
 description: Um einen MwSt-Bericht unter dem System ELMA5 von Business Central einzurichten, müssen Sie die Parameter melden.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/18/2021
 ms.author: edupont
-ms.openlocfilehash: 4c9ef5ddce21f37106cb9577df47f9d284e6b7a6
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 3cf2d246478319c60c5f0d36b0c1b0b91b78b00a
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439228"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8131097"
 ---
 # <a name="set-up-vat-reports-in-the-german-version"></a>Festlegen von MwSt.-Berichten in der deutschen Version
 Informationen aus verschiedenen Rechnungstypen werden verwendet, um Daten in den Ausfuhr-Listenbericht EU zu speisen. Um einen MwSt-Bericht unter dem System ELMA5 von [!INCLUDE[prod_short](../../includes/prod_short.md)] einzurichten, müssen Sie die Parameter melden.  

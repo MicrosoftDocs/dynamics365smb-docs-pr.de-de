@@ -2,7 +2,6 @@
 title: Datenexport für eine digitale Prüfung [DE]
 description: Sie können Unternehmensdaten exportieren entsprechend dem Prozess für Datenzugriff und Testbarkeit von digitalen Dokumenten (GDPdU), der auf deutschen Steuergesetzen basiert.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 6bd64ee39b7f7900ff0b2b981d773b64b69e2ec9
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: c4d9ce42c406c7a652146f44ebe535669e8f2315
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439169"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146031"
 ---
 # <a name="walkthrough-exporting-data-for-a-digital-audit-in-the-german-version"></a>Exemplarische Vorgehensweise: Datenexport für eine digitale Betriebsprüfung in der deutschen Version
 

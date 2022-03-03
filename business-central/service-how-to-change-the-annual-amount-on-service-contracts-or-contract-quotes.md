@@ -2,7 +2,6 @@
 title: Ändern des jährlichen Betrags für Serviceverträgen oder Vertragsangebote
 description: Gibt den Betrag an, der jährlich für den Servicevertrag oder das Vertragsangebot fakturiert wird.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: bb4fa7b9d75afa49846247b1fdce3fa25f19334a
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: c131e7b93a73bbcc0a7977f11e70518961b77134
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6436451"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8134951"
 ---
 # <a name="change-the-annual-amount-on-service-contracts-or-contract-quotes"></a>Ändern des jährlichen Betrags für Serviceverträgen oder Vertragsangebote
 Sie können den Betrag "Zu fakturieren (Jahr)" des Servicevertrags oder Vertragsangebots ändern, um den jährlich fakturierten Betrag zu korrigieren.  

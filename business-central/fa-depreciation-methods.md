@@ -2,7 +2,6 @@
 title: Abschreibungsmethoden für Anlagen
 description: Erfahren Sie mehr über die verschiedenen integrierten Methoden zur Abschreibung von Anlagen in der Standardversion von Business Central, die acht Methoden enthält.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: write down
 ms.date: 07/05/2021
 ms.author: edupont
-ms.openlocfilehash: 649a60f815da072a1a2794492c4e957ca74d8e08
-ms.sourcegitcommit: a8a01561f46c0a60f8bfd7985be0dcd3e28441fa
+ms.openlocfilehash: af6a19e55c339d7103e0e644368a30fd4a13a0a6
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6343374"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8136296"
 ---
 # <a name="depreciation-methods-for-fixed-assets"></a>Abschreibungsmethoden für Anlagen
 

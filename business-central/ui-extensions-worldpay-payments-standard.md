@@ -4,19 +4,18 @@ description: Mit der WorldPay Payments Standard-Erweiterung bieten Sie Debitoren
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: 7a5d492ec273bfccd016e8216510f3301234d931
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: dfb523d70938cd4110cca9f963de05bdf8033623
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6322644"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132394"
 ---
 # <a name="the-worldpay-payments-standard-extension"></a>Die WorldPay Payments Standard-Erweiterung
 Mit der WorldPay Payments Standard-Erweiterung bieten Sie Debitoren eine bequeme Alternative für das Anwenden von Zahlungen mithilfe von Banküberweisungen oder Kreditkarten. Aber nicht nur das, Zahlungen, die durch Zahlungsservices getätigt werden, sind üblicherweise schneller auf Ihrem Bankkonto.

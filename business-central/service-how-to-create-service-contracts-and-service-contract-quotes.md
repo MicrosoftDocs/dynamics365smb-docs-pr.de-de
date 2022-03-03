@@ -2,7 +2,6 @@
 title: So arbeiten Sie mit Serviceverträgen und Servicevertragsangeboten | Microsoft Docs
 description: Sie können einen Servicevertrag manuell erstellen oder aus einem Servicevertragsangebot. Si können einen Vertrag auf einem Servicevertragsangebot erstellen.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: d011b97c81492af0ac796d08693084cf65bb7712
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 0a9e90f19584e3586bac0cc80dac3b2cc0d9ce74
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6436376"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8134884"
 ---
 # <a name="work-with-service-contracts-and-service-contract-quotes"></a>Arbeiten mit Serviceverträgen und Servicevertragsangeboten
 Sie können einen Servicevertrag manuell erstellen oder aus einem Servicevertragsangebot. Sie können ein Servicevertragsangebot als Vorläufer eines Servicevertrags verwenden, in dem Ihr Unternehmen dem Debitoren ein Angebot unterbreitet und die Genehmigung des Debitoren erhält, bevor das Angebot in einen Servicevertrag umgewandelt wird. Die Vorgehensweisen zur Erstellung eines Servicevertrags oder eines Servicevertragsangebots sind ähnlich.  

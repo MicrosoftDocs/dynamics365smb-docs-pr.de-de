@@ -2,7 +2,6 @@
 title: E-Mail in Business Central festlegen (enthält ein Video)
 description: Beschreibt, wie E-Mail-Konten mit Business Central verbunden werden, damit Sie ausgehende Nachrichten senden können, ohne eine andere App öffnen zu müssen.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: SMTP, email, Office 365, connector
 ms.search.form: 1805, 9813, 9814, 1262, 1263
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 7e71694e59dcd17072bb7616324953ca02117a89
-ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
+ms.openlocfilehash: dfeb85bae0329059d4dda9b5edc302b4d0e908e6
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8115066"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142549"
 ---
 # <a name="set-up-email"></a>E-Mail einrichten
 Menschen in Unternehmen senden täglich Informationen und Dokumente wie Verkaufsdokumente und Bestellungen sowie Rechnungen per E-Mail. Administratoren können dies vereinfachen, indem sie ein oder mehrere E-Mail-Konten mit [!INCLUDE[prod_short](includes/prod_short.md)] verbinden. So können Sie Dokumente senden, ohne eine E-Mail-App öffnen zu müssen. Sie können jede Nachricht einzeln mit grundlegenden Formatierungswerkzeugen wie Schriftarten, Stilen, Farben usw. zusammenstellen und Anhänge mit bis zu 100 MB hinzufügen. Administratoren können auch Berichtslayouts einrichten, die nur die wichtigsten Informationen aus Dokumenten enthalten. Weitere Informationen finden Sie unter [Senden von Dkumenten über E-Mail](ui-how-send-documents-email.md).

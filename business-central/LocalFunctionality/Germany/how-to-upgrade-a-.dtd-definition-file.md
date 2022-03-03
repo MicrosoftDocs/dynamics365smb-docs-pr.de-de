@@ -2,7 +2,6 @@
 title: So aktualisieren Sie eine .DTD-Definitionsdatei [DE]
 description: Sie können eine .dtd-Datei explizit validieren, nachdem Sie eine importiert haben, um Upgrade-Probleme in der deutschen Version zu beheben.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/18/2021
 ms.author: edupont
-ms.openlocfilehash: c4e348fc9ac3606181aa70f37288a5240d4511e9
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 808bb8736f22453c87ca47cbc312ecaf7b24e7c7
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439224"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8136694"
 ---
 # <a name="upgrade-a-dtd-definition-file-for-digital-audits-in-the-german-version"></a>Upgrade einer .DTD-Definitionsdatei für digitale Prüfungen in der deutschen Version
 

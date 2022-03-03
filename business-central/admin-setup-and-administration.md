@@ -2,7 +2,6 @@
 title: Verwaltungsaufgaben in Business Central
 description: Einige Aufgaben in Business Central erfordern eine zentrale Administration und Einrichtung. Erfahren, welche das sind und was zu tun ist.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 07/23/2021
 ms.author: edupont
-ms.openlocfilehash: 959a56e4bb7fcaac57b05d30dca4939ed2f8576d
-ms.sourcegitcommit: e904da8dc45e41cdd1434111c15e2a9d9edd3fa2
+ms.openlocfilehash: 26e675073dde5cae0b14f0f3ee3526ba44e4200f
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "6660131"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8143868"
 ---
 # <a name="administration"></a>Verwaltung
 
@@ -34,7 +33,7 @@ Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Artikel
 
 |**Prozess**|**Siehe**|  
 |------------|-------------|
-|Definieren Sie, wer sich bei [!INCLUDE[prod_short](includes/prod_short.md)] anmelden darf, indem Sie Benutzer im Microsoft 365 Admin Center entsprechend den Produktlizenzen erstellen.|[Benutzer nach Lizenzen anlegen](ui-how-users-permissions.md)|
+|Definieren Sie, wer sich bei [!INCLUDE[prod_short](includes/prod_short.md)] anmelden darf, indem Sie Benutzer im Microsoft 365 Admin Center entsprechend den Produktlizenzen anlegen.|[Benutzer nach Lizenzen anlegen](ui-how-users-permissions.md)|
 |Weisen Sie Benutzern Berechtigungen zu, ändern Sie Berechtigungssätze und gruppieren Sie Benutzer für eine einfache Berechtigungsverwaltung.|[Berechtigungen an Benutzer und Gruppen zuweisen](ui-how-users-permissions.md)|
 |Fügen Sie Benutzer hinzu, und verwalten Sie Berechtigungen und den Zugriff auf Daten.|[Profile verwalten](admin-users-profiles-roles.md)|
 |Verwalten Sie Benutzereinstellungen wie Unternehmen, Rolle, Sprache, Region und Zeitzone.|[Benutzereinstellungen](admin-manage-user-settings-preferences.md)|

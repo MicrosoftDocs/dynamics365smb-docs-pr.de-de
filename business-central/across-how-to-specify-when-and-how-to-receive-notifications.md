@@ -2,7 +2,6 @@
 title: Legen Sie fest, wann und wie Sie Workflow-Benachrichtigungen erhalten möchten
 description: Wenn Sie Benutzer in Workflows für Genehmigungen festlegen, können Sie angeben, wie und wann jeder Genehmigungsbenutzer benachrichtigt wird.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 6812fa270066b03fa64a7d8c664ef4df8d28eff0
-ms.sourcegitcommit: 2c972dfc94d27245eaa99efcf638d030dedafb22
+ms.openlocfilehash: 3f663ca22cdcfde38b42ac0285eaf403a9e0982d
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102499"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8129167"
 ---
 # <a name="specify-when-and-how-to-receive-workflow-notifications"></a>Legen Sie fest, wann und wie Sie Workflow-Benachrichtigungen erhalten möchten
 Wenn Sie Genehmigungsbenutzer in Workflows festlegen, in denen jemand Änderungen genehmigen soll, z.B. wenn neue Datensätze erstellt werden oder wenn jemand eine Genehmigung beantragt, müssen Sie angeben, wie und wann der Genehmigungsbenutzer benachrichtigt werden soll. Sie können z.B. festlegen, dass ein Genehmigter sofort eine E-Mail erhält, wenn jemand einen neuen Debitor erstellt. Alternativ können Sie die Zustellung der Benachrichtigungen auch planen, z.B. auf wöchentlicher oder monatlicher Basis.

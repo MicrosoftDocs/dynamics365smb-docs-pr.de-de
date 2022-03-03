@@ -2,7 +2,6 @@
 title: Neue Kunden registrieren, indem Sie eine Kundenkarte erstellen (enthält ein Video)
 description: Beschreibt, wie eine Debitorenkarte erstellt wird, um Informationen zu jedem neuen Debitor oder Clients zu erfassen, an die Sie verkaufen.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: client, customer, credit
 ms.search.form: 7, 21, 22, 33, 42, 43, 367, 368, 369, 461, 512, 785, 1330, 1380, 1381, 1382, 1627, 2107, 7177, 9080, 9081, 9084, 9301, 9305
 ms.date: 09/24/2021
 ms.author: edupont
-ms.openlocfilehash: 0e3745351039db7b4e24b8dfa1e31d920878aed0
-ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
+ms.openlocfilehash: f1b37df909e482f9f4102eab70ce82cdef999a12
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8115258"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8137003"
 ---
 # <a name="register-new-customers"></a>Neue Debitoren registrieren
 

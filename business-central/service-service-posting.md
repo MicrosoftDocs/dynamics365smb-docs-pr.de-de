@@ -2,7 +2,6 @@
 title: Servicebuchung
 description: Mit der Funktion "Servicebuchung" können Sie Belege effizient verarbeiten und damit eine erfolgreiche Debitorenservicepolitik sicherstellen.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 8bdfb6986f16c580cef6e1fc7bdde2ef25dab14b
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 54d1a7aec0edcedbdb69ab1c60c6d1515c9a22c7
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443029"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8143010"
 ---
 # <a name="service-posting"></a>Servicebuchung
 Mit der Service-Buchungsfunktionalität können Sie Ihre Belege effizient verarbeiten und eine erfolgreiche Richtlinie für den Kundendienst aufrechterhalten. Sie können Belege erstellen und gebuchte Belege aktualisieren und Posten sowohl im Servicebereich als auch in anderen Modulen erstellen, um eine ordnungsgemäße Aktualisierung sicherzustellen.  

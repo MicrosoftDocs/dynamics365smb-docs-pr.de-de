@@ -2,7 +2,6 @@
 title: Artikelzu-/abschläge zu Verkäufen und Käufen zuordnen (enthält Video)
 description: Weisen Sie Artikelzu-/abschläge zu, wenn Sie für Artikel im Bestand zusätzliche Kosten benötigen, z.B. für Fracht und physische Handhabung, die beim Kauf oder Verkauf von Artikeln anfallen.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: transportation, added cost, landed cost
 ms.search.form: 5709, 5800, 5805, 5814
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: c49b529bcb93544aef8393a5440b142e722efd1c
-ms.sourcegitcommit: e008b3d7003c256475d6c606e5f7c9866a6bbb72
+ms.openlocfilehash: 6cfebffb12eb2cd7ffa84e12a07c01968c429069
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7953234"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8145602"
 ---
 # <a name="use-item-charges-to-account-for-additional-trade-costs"></a>Verwenden von Artikelzuschlägen für zusätzliche Kosten
 Um eine korrekte Bewertung sicherzustellen, müssen Ihre Lagerartikel Kosten wie Fracht, Versicherung, Umlagerung und Transport enthalten, die beim Kauf oder Verkauf entstehen. Die Kosten eines eingekauften Artikels bestehen aus dem Einkaufspreis des Kreditors und allen zusätzlichen Artikelzuschlägen, die einzelnen Wareneingängen oder Rücklieferungen zugewiesen werden können. Die Frachtkosten der verkauften Artikel zu kennen, kann für Ihr Unternehmen genauso wichtig sein wie die Einkaufspreise der eingekauften Artikel zu kennen.

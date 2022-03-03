@@ -2,7 +2,6 @@
 title: Ändern, welche Funktionen angezeigt werden
 description: Erfahren Sie, was die Essential- und Premium-Stufen der Benutzerfreundlichkeit für die Benutzerschnittstelle, Anwendungsbereiche und Ihr Unternehmen bedeutet.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: essential, basic, user interface, application area, experien
 ms.search.form: 1
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b7b27d39997e0adccc6b27ec91386741620d27b8
-ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
+ms.openlocfilehash: 0c1950fb828dc6a45c35eb6503ff1702cfb3fd71
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "8029114"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8130015"
 ---
 # <a name="change-which-features-are-displayed"></a>Funktionen, die angezeigt werden ändern
 [!INCLUDE[prod_short](includes/prod_short.md)] wurde entwickelt, um Ihnen zu helfen, Ihr Unternehmen unabhängig von Größe und Komplexität zu führen. Im Mittelpunkt des Produkts stehen wesentliche Funktionen wie Finanzberichterstattung, Vertrieb, Einkauf und Lagerverwaltung. Mit zunehmender Komplexität des Unternehmens können Sie z.B. Funktionen für das Fertigungs- und Servicemanagement aktivieren.

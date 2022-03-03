@@ -2,7 +2,6 @@
 title: Tastenkombinationen
 description: Die gesamte Übersicht der Tastenkombinationskombinationen, um mit den Daten effizient zu arbeiten.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: a2acba6a6140be088d38d7473557fc4b7cd40fae
-ms.sourcegitcommit: a6000804ad9a176de5750372d3951547ddb71006
+ms.openlocfilehash: 490fbd0abb7bf6769e580c34f0958ec9babbe141
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "7865442"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8135263"
 ---
 # <a name="keyboard-shortcuts"></a>Tastenkombinationen
 

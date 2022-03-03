@@ -2,7 +2,6 @@
 title: Wie Sie Artikel mit Lagereinlagerungen einlagern
 description: Lesen Sie, wie Sie den Beleg Lagereinlagerungen verwenden, um Datensätze und Eingangsinformationen für Ihre Quellbelege zu erfassen und zu buchen.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: e28e565858f4dc6fc1e01c614914b0b1620c9659
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 02d3f8dca5381ecebac7cb2d980841a2e5897846
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438107"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8138154"
 ---
 # <a name="put-items-away-with-inventory-put-aways"></a>Artikel mit Lagereinlagerungen einlagern
 Wenn Ihr Lagerort so eingerichtet wurde, dass er Einlagerung erfordert, jedoch keinen Wareneingang, verwenden Sie den Beleg **Lagereinlagerung**, um die Wareneingangs- und Einlagerungsinformationen für Ihre Herkunftsbelege zu erfassen. Der eingehende Herkunftsbeleg kann eine Einkaufsbestellung, eine Verkaufsreklamation, ein eingehender Umlagerungsauftrag oder ein Montage- bzw. Fertigungsauftrag sein, dessen Endprodukt zur Einlagerung bereitsteht.  

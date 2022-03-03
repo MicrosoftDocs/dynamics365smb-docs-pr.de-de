@@ -2,7 +2,6 @@
 title: Einrichten der Kostenrechnung
 description: Bevor Sie mit der Kostenrechnung arbeiten, müssen Sie eine Einrichtung vornehmen. Jedem Kosteneintrag muss eine Kostenart und ein Kostenstellencode oder ein Kostenobjekt zugewiesen werden.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 1100, 1112, 1113, 1122
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: bf5e893dbdf7270174c631c1d830b647f74fd45b
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 8192a884b697274484be2fba4b9f0cb75ebec5b0
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7970570"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142107"
 ---
 # <a name="setting-up-cost-accounting"></a>Einrichten der Kostenrechnung
 

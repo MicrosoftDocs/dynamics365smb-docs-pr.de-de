@@ -2,7 +2,6 @@
 title: 'Exemplarische Vorgehensweise: Durchführen einer Verkaufskampagne'
 description: Diese exemplarische Vorgehensweise gibt einen detaillierten Überblick über alle Aufgaben, die bei der Durchführung einer Verkaufskampagne in Business Central anfallen.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 63e2c298c7830fb993c99587a0b7475d1ece7223
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 00b2cd6f4e0b7a141bd6c31dc61ceac909407376
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437837"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8140293"
 ---
 # <a name="walkthrough-conducting-a-sales-campaign"></a>Exemplarische Vorgehensweise Durchführen einer Verkaufskampagne
 

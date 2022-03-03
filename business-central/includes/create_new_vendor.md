@@ -1,15 +1,14 @@
 ---
 author: jill-kotel-andersson
-ms.service: dynamics365-business-central
 ms.topic: include
 ms.date: 09/27/2021
 ms.author: edupont
-ms.openlocfilehash: 410aca90e40ee714f35ad9ff1fd8b96d398c9d8e
-ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
+ms.openlocfilehash: 0adf8b93cd5cfb6349e829ceb88f4f9428892051
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/29/2021
-ms.locfileid: "7724538"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8128500"
 ---
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet 2.](../media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Kreditoren** ein und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie auf der Seite **Kreditoren** **Neu** aus.

@@ -2,7 +2,6 @@
 title: So generieren Sie Lieferanmahnungen [DE]
 description: In der deutschen Version von Business Central können Sie Lieferanmahnungen erstellen, wenn eine Bestellung nicht wie erwartet geliefert wurde.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: bc4e09ea2970685d28628091675371764de4470e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: c17c5f0c076df71c9743502cd67d3e94c24d57ba
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785339"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142676"
 ---
 # <a name="generate-delivery-reminders-in-the-german-version"></a>Lieferanmahnungen in der deutschen Version generieren
 

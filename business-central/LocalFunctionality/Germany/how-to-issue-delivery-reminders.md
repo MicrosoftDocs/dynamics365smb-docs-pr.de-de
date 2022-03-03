@@ -2,7 +2,6 @@
 title: Lieferanmahnungen in der deutschen Version ausstellen
 description: Erfahren Sie, wie Sie Lieferbenachrichtigungen registrieren und ausdrucken, sodass Sie Mahnungen an Kreditoren in der deutschen Version von Business Central verschicken können.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 5005272, 5005273, 5005274, 5005275, 5005276
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e66c98097d8c8a4073a00031b8e9e46766198618
-ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
+ms.openlocfilehash: 74f90a6f9563db78d9d40b995c4cbca44c7a483d
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/28/2021
-ms.locfileid: "7947133"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132255"
 ---
 # <a name="issue-delivery-reminders-in-the-german-version"></a>Lieferanmahnungen in der deutschen Version ausstellen
 

@@ -2,7 +2,6 @@
 title: Artikel einlagern
 description: Das Einlagern von Artikeln, nachdem sie empfangen oder ausgegeben wurden, wird auf unterschiedliche Weise durchgeführt, je nachdem, wie die Funktionen der Lagerverwaltung konfiguriert sind.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 5770, 5783, 5784, 5786, 5795, 7334, 7352, 7354, 7356, 7375, 7379, 7390, 7394, 7396, 9312, 9315, 9343
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 90e1c5508dfa578a6231634e9a65257fae6777e1
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 4643368181fa2f36c010f50ab6ce444d0a5fdce4
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7972122"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8134509"
 ---
 # <a name="putting-items-away"></a>Einlagerung von Artikeln
 

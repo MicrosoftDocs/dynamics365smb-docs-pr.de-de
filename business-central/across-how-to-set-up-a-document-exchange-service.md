@@ -2,7 +2,6 @@
 title: 'Gewusst wie: Einrichten eine Belegaustauschdienstes | Microsoft Docs'
 description: Sie verwenden einen externen Anbieter zum Austausch elektronischer Belege mit Ihren Handelspartnern.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: eea1b946814803c1f05d5b4985d3c5330931fbc6
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 8804b9bb7f7b8112e54e8a9953198db8686f768d
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588751"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8133382"
 ---
 # <a name="set-up-a-document-exchange-service"></a>So richten Sie einen Belegaustauschdienst ein
 Als Teil des Data Exchange Frameworks können Sie Einkaufs- und Verkaufsbelege mit Ihren Handelspartnern ohne zusätzliche Schritte austauschen, z. B. indem Sie die Belege als PDF-Dateien an E-Mail-Nachrichten anhängen. Wenn Sie z.B. bereit sind, einem Kunden eine Rechnung zu stellen, können Sie diese zur Zahlung als Datei versenden, die Ihr Kunde in seiner Business Management-Anwendung empfangen kann. Weitere Informationen finden Sie unter [Daten elektronisch austauschen](across-data-exchange.md).

@@ -2,7 +2,6 @@
 title: Workflows in Dynamics 365 Business Central
 description: Verwenden Sie Workflows, um Geschäftsprozessaufgaben zu verbinden, die von verschiedenen Benutzern ausgeführt werden. Systemaufgaben, wie z. B. automatische Buchungen, können als Workflow-Schritte eingebunden werden.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 1804ab571c806d9fb78d15738be7f27f21274146
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 02f03c3b3423de2b78aea7f4e61c65c968290341
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6324125"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8130879"
 ---
 # <a name="workflows-in-dynamics-365-business-central"></a>Workflows in Dynamics 365 Business Central
 

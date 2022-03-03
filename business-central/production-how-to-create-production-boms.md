@@ -2,17 +2,16 @@
 title: Fertigungsauftrag erstellen
 description: Erfahren Sie, wie Sie eine Fertigungsstückliste erstellen, wie Sie neue Versionen einer Fertigungsstückliste erstellen und wie Sie die Mengenberechnungsformel verwenden.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.form: 9287, 99000786, 99000787, 99000788, 99000789, 99000795, 99000797, 99000800, 99000809, 99000811, 99000812, 99000818
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 090b8d6bf2f9d784b14c0e6efe0f5547872109d9
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: ff4e2068d8ba588b6d92839538df6bfd2ecade24
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7973888"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8130254"
 ---
 # <a name="create-production-boms"></a>Fertigungsauftrag erstellen
 

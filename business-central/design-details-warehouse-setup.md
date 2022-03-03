@@ -2,7 +2,6 @@
 title: Entwurfsdetails – Einrichtung des Lagers
 description: Die Funktionalität des Lagers enthält verschiedene Komplexitätsstufen, die größtenteils durch die Einrichtung der Lagerplätze auf den Lagerortkarten definiert werden.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: c0559ef10dd8051b64d919b8a27d3af11cce2819
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 9014836d228ee5bd01a74129fa0ba2aa0dd8dcea
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6325160"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142341"
 ---
 # <a name="design-details-warehouse-setup"></a>Designdetails: Lagereinrichtung
 

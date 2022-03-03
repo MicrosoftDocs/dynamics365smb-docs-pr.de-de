@@ -2,7 +2,6 @@
 title: Einkäufe mit Einkaufsrechnungen erfassen (enthält Video)
 description: Beschreibt, wie Sie Bestand, Nicht-Bestandsartikel oder Ressourcen erwerben, indem Sie Einkaufsrechnungen oder Bestellungen erstellen und buchen.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: procurement
 ms.search.form: 50 ,51, 53, 56, 146
 ms.date: 09/07/2021
 ms.author: edupont
-ms.openlocfilehash: 3d634e1ffb34cfdc0e4e7f6fc5e6ad4805cdabb5
-ms.sourcegitcommit: e008b3d7003c256475d6c606e5f7c9866a6bbb72
+ms.openlocfilehash: b263a44dd9490ef787b74f5b3e0585e10545be45
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7953034"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8140735"
 ---
 # <a name="record-purchases-with-purchase-invoices"></a>Käufe mit Einkaufsrechnungen erfassen
 

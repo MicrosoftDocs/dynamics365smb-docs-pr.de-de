@@ -2,7 +2,6 @@
 title: Buchen Sie Überweisungsbescheid-Erweiterung | Microsoft Docs
 description: Beschreibt das Senden der Zahlungsanzeigeerweiterung, die das Buchen und das Neuversenden der Zahlungsanzeige aus dem Zahlungsausgangs Buch.-Blatt und den Kreditorenposten zulassen.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize, stream, remittance, advice
 ms.date: 07/06/2021
 ms.author: edupont
-ms.openlocfilehash: a5b1245a47975f2db9465c5dc101ee13eea74248
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 256744599bcf30a6386ed5ef74b815e959b3b2bb
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6434859"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132498"
 ---
 # <a name="send-remittance-advice"></a>Rimesseavis senden
 

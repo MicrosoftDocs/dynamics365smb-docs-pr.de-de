@@ -2,7 +2,6 @@
 title: Info zu Fertigungsaufträgen
 description: Erfahren Sie mehr über Produktionsaufträge und wie diese zur Verwaltung der Umwandlung von gekauften Materialien in gefertigte Artikel verwendet werden.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 99000813, 99000814, 99000815, 99000816, 99000829, 99000830, 99000831, 99000832, 99000833, 99000838, 99000839, 99000867, 99000868, 99000882, 99000897, 99000898, 99000900, 99000912, 99000913, 99000914, 99000917
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 6a72c3ae54138d2d67f4fdd2025d385c35b92af2
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 568b8f119cf741a16b7d20560e541d7995b7834f
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7972408"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8135055"
 ---
 # <a name="about-production-orders"></a>Info zu Fertigungsaufträgen
 

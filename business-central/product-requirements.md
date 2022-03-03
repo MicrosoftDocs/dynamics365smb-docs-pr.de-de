@@ -2,7 +2,6 @@
 title: Mindestanforderungen bei der Verwendung von Business Central
 description: Informieren Sie sich über die minimalen System- und Versionsanforderungen für die Verwendung von Business Central online, die im Folgenden beschrieben werden.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: version
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 3c116786612b62587dd68dc90c358a5a51a24a29
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 8f0e9b608611c963cd31112a31d004108ad1ab73
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6321416"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8135185"
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Mindestanforderungen für die Nutzung von Business Central
 

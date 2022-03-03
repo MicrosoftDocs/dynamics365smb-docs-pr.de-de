@@ -2,7 +2,6 @@
 title: Lieferanmahnungsbestimmungen, -stufen und -text einrichten [DE]
 description: Um Lieferanmahnungen zu erstellen, müssen Sie bestimmte Einrichtungen in der deutschen Version festlegen.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 5005279, 5005280, 5005281, 5005282, 5005283
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e850a8d6a4ebb8f9883bd839e01608475c8e9dbd
-ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
+ms.openlocfilehash: 1cf2ebbc4d4e8c4ff573c22770fb72315209687b
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/28/2021
-ms.locfileid: "7947180"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8145105"
 ---
 # <a name="set-up-delivery-reminder-terms-levels-and-text-in-the-german-version"></a>Lieferanmahnungsbestimmungen, -stufen und -text in der deutschen Version einrichten
 

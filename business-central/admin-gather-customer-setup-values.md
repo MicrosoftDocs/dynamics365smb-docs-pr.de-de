@@ -2,7 +2,6 @@
 title: Sammeln von Einrichtungswerten für Debitoren
 description: Der Konfigurationsfragebogen hilft, die Implementierung zu reduzieren, indem er das Einrichten neuer Firmen rationalisiert und den Debitoren eine Excel- oder XML-Datei anbietet.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: f0f60976283aeba5a81c9e77e329e1ba91c82ea9
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: d26fb334462ad52a14058e8d5f6b9f86088ad3d7
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589257"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8145970"
 ---
 # <a name="gather-customer-setup-values"></a>Sammeln von Werten für die Einrichtung von Debitoren
 Verwenden Sie den Einrichtungsfragebogen, um Ihre Implementierungsarbeitslast zu verringern, indem Sie die Aufgabe des Einrichtens neuer Mandanten rationalisieren. Sie können den Einrichtungsfragebogen in [!INCLUDE[prod_short](includes/prod_short.md)] erstellen und Ihrem Debitor als Excel (.xls) oder XML-Datei zur Verfügung stellen.  

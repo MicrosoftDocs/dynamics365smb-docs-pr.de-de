@@ -2,7 +2,6 @@
 title: Suchen nach Kontakten von Microsoft Teams
 description: Erfahren Sie, wie Sie nach Business Central-Debitoren, ‑Kreditoren und anderen Kontakten von Microsoft Teams suchen.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, contacts, search, messaging extensions
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 18a0eaf953c99050edb3b047cb5b4a31c83feeeb
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 5d6da7bb6f515fa7b65597c944694eba8dd7755c
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440749"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8138742"
 ---
 # <a name="searching-for-customers-vendors-and-other-contacts-from-microsoft-teams"></a>Suche nach Debitoren, Kreditoren und anderen Kontakten von Microsoft Teams
 

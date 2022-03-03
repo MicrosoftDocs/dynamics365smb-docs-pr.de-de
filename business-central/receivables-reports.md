@@ -2,17 +2,16 @@
 title: Debitoren Berichte und Analysen
 description: Sehen Sie, welche Berichte und Analysen in der Standardversion von Business Central verfügbar sind, damit Sie Ihre Debitoren im Blick behalten können.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.date: 07/13/2021
 ms.author: edupont
-ms.openlocfilehash: 676a4e5e33b5288c5d7ec8cb0d6b7593ff371e3b
-ms.sourcegitcommit: 2c972dfc94d27245eaa99efcf638d030dedafb22
+ms.openlocfilehash: 0ef32a974a86253a6418c2f0b1d3cc99cba0921c
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102473"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8143400"
 ---
 # <a name="accounts-receivable-reports-and-analytics-in-business-central"></a>Debitoren-Berichte und -Analysen in Business Central
 

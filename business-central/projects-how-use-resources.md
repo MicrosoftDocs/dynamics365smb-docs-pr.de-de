@@ -2,7 +2,6 @@
 title: Ressourcenverbrauch und Preise aufzeichnen und anpassen
 description: Beschreibt, wie Sie den Ressourcenverbrauch oder den Verbrauch erfassen können, die einem Projekt zugeordnet sind, um Kosten, Preisen und Arbeitstypen zu verwalten.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: project management, capacity, staff
 ms.search.form: 201,206, 207, 271, 493
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 67229e5ee977c37edac3e9b805212b89f5a17dfb
-ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
+ms.openlocfilehash: 749ef6e4da9ffe8997647eae67d25362b7dbab6d
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/08/2022
-ms.locfileid: "8101373"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8143434"
 ---
 # <a name="use-resources-for-jobs"></a>Verwenden von Ressourcen für Projekte
 

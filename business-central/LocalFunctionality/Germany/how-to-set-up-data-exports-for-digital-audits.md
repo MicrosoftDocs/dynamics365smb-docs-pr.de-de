@@ -2,7 +2,6 @@
 title: Festlegen von Datenexporten für eine digitale Prüfung [DE]
 description: Sie müssen die Exportdatensatzquellen einrichten, um die Daten für eine digitale Prüfungen basierend auf GDPdU zu exportieren.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/18/2021
 ms.author: edupont
-ms.openlocfilehash: 97a83a4065ceede0bf7040c33f41101c53224874
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 4f4a21a1d19321986efbaa874dee904de477fd38
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7587652"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132248"
 ---
 # <a name="set-up-data-exports-for-a-digital-audit-gobdgdpdu-in-the-german-version"></a>Datenexporte für eine digitale Betriebsprüfung (GoBD/GDPdU) in der deutschen Version festlegen
 

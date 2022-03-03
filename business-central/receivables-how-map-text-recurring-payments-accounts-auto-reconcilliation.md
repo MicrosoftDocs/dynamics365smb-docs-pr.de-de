@@ -2,7 +2,6 @@
 title: Text-zu-Konton-Zuordnung für Wiederk Zahlungen einrichten| Microsoft Docs
 description: Verknüpfen Sie Text für Zahlungen mit bestimmten Konten, so dass Zahlungen auf die Konten gebucht werden, wenn Sie das Zahlungsabstimmungsbuch.-Blatt buchen.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: account linking, direct payment posting, automatic payment processing, reconcile payment, recurring expense, recurring cash receipt
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 168626f211d0aa9a01ae8fc50bda659d55bcc4be
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 942f472b2ca134e98d87becc3a866e76f1138114
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6436048"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8144931"
 ---
 # <a name="map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a>Zuordnen von Text auf sich wiederholenden Zahlungen an Konten für automatische Abstimmung
 Im Fenster **Zuordnung Text zu Konto**, das Sie auf der Seite **Zahlungsabstimmungsbuch.-Blatt** öffnen, können Sie schnell Zuordnungen zwischen Text in Zahlungen und bestimmten Soll-, Haben- und Gegenkonten eingeben, sodass solche Zahlungen auf die angegebenen Konten gebucht werden, wenn Sie Zahlungen im Zahlungsabstimmungsbuch.-Blatt buchen.

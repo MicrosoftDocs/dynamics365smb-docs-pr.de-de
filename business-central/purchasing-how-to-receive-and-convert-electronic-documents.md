@@ -2,7 +2,6 @@
 title: 'Vorgehensweise: Elektronische Belege empfangen und konvertieren'
 description: Dieses Thema beschreibt, wie Sie elektronische Belege direkt von Handelspartnern oder von einem OCR-Dienst empfangen können.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 189, 190, 191
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: b5fbf5266b95a4ed0ba5ebdd8cda00a71a924182
-ms.sourcegitcommit: e008b3d7003c256475d6c606e5f7c9866a6bbb72
+ms.openlocfilehash: bf1cb735e823ee22a9bd65a9b69955b841adc442
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952909"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8131145"
 ---
 # <a name="receive-and-convert-electronic-documents"></a>Vorgehensweise: Elektronische Belege empfangen und konvertieren
 

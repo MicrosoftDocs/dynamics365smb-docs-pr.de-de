@@ -2,7 +2,6 @@
 title: Design Details – Elementverfolgung und Reservierungen
 description: Dieses Thema behandelt die Artikelverfolgung und Reservierungen und beschreibt die Konzepte hinter den beiden Optionen.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: d2c5032983bd20fc1e8fa902bd6ed522506fc5b3
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 25d911fd663e35f218f78e68f76c5f3043ba6764
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6320888"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8139729"
 ---
 # <a name="design-details-item-tracking-and-reservations"></a>Designdetails: Artikelverfolgung und Reservierungen
 

@@ -2,7 +2,6 @@
 title: Fehlersuche und Korrektur von Dimensionen
 description: Erfahren Sie, wie Sie typische Dimensionsfehler beheben und wie Sie Dimensionen korrigieren können, nachdem sie in gebuchten Transaktionen verwendet wurden.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: dimension, correction, correct, business intelligence
 ms.search.form: 116, 540, 2588
 ms.date: 09/27/2021
 ms.author: bholtorf
-ms.openlocfilehash: aaa9bff8f4221d6a0a237b3a781da88c574cb7b4
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 91dce6ef4fee44800ab5892a986783139eeed892
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7971862"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146462"
 ---
 # <a name="troubleshooting-and-correcting-dimensions"></a>Fehlersuche und Korrektur von Dimensionen
 

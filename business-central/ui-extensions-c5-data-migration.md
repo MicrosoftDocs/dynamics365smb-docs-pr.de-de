@@ -2,7 +2,6 @@
 title: C5-Datenmigrations-Erweiterung verwenden | Microsoft Docs
 description: Verwenden Sie diese Erweiterung, um Debitoren, Kreditoren, Artikel und Sachkonten von Microsoft Dynamics C5 2012 zu Business Central zu migrieren.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms. search.keywords: extension, migrate, data, C5, import
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 6b146e2a515ffd2a200574c4ce059c8a0205b602
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: ccebff57d4189a3273c9930fc82ca665e7f807c5
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443568"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8133602"
 ---
 # <a name="the-c5-data-migration-extension"></a>Die C5-Datenmigrations-Erweiterung
 

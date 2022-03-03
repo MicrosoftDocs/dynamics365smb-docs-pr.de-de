@@ -2,17 +2,16 @@
 title: Anlagenabschreibung einrichten
 description: Es gibt verschiedene Methoden der Abschreibung. In Business Central definieren Sie die Abschreibungsmethode für eine Anlage auf der Seite **Anlagekarte**.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: write down
 ms.date: 06/28/2021
 ms.author: edupont
-ms.openlocfilehash: 166e0a534632b0bf67dc14a860088e6a846d6957
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 228ca9aa8b1f476e5063bd0f8d6728f18cfafaf3
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437862"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8136270"
 ---
 # <a name="set-up-fixed-asset-depreciation"></a>Richten Sie eine neue Anlagenkarte ein
 

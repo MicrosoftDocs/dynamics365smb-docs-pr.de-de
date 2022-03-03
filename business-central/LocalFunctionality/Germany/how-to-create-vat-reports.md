@@ -2,7 +2,6 @@
 title: Wie Sie MwSt.-Berichte erstellen [DE]
 description: Sie können verschiedene Arten von MwSt.-Berichten im elektronischen Format konfigurieren, die den ELMA5-Formatanforderungen entsprechen.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/18/2021
 ms.author: edupont
-ms.openlocfilehash: f58b7096e9c73fbc83e595ead8b0b28f3c71f153
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 2fd193c5e7a577168dd3e9dc3455834e2323e337
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435883"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142679"
 ---
 # <a name="create-vat-reports-in-the-german-version"></a>Erstellen von MwSt.-Berichten in der deutschen Version
 Verschiedene Arten von MwSt.-Erklärungen können basierend auf Anforderungen konfiguriert werden. Wenn Sie dann eine MwSt buchen müssen, können Sie sie auf der Seite **MwSt Bericht** erstellen und dann im elektronischen Format exportieren, das an die Anforderungen des ELMA5 Formats sich anpaßt.  

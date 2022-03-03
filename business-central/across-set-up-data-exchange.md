@@ -2,7 +2,6 @@
 title: Datenaustausch festlegen, um Dateien zu senden und zu empfangen
 description: Legen Sie das Framework für den Datenaustausch fest, um Daten mit externen Dateien auszutauschen; um elektronische Belege zu senden und zu empfangen oder Bankdateien zu importieren und zu exportieren.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 0b94d258a07ba65c81f329144d12a8b4e10093a9
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 9736a1ea6c0da0381a14c8e77eabaaf752ea9f34
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6325093"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8133278"
 ---
 # <a name="setting-up-data-exchange"></a>Einrichten eines Datenaustauschs
 Bevor Sie elektronische Belege senden und empfangen oder Bankdateien importieren und exportieren können, müssen Sie das Daten-Exchange-Framework einrichten, um die entsprechenden Dateien zu verarbeiten. Darüber hinaus müssen Sie verwandte Bereiche einrichten, wie z. B. die Kunden, an die Sie elektronische Rechnungen senden, oder die AMC Banking 365 Fundamentals-Erweiterung, wenn Sie den externen Dienstleister zur Konvertierung Ihrer Bankdateien nutzen. Weitere Informationen finden Sie unter [Daten elektronisch austauschen](across-data-exchange.md).  

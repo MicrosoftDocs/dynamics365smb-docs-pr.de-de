@@ -2,7 +2,6 @@
 title: Standardaufgaben für Vorgänge einrichten
 description: Erfahren Sie, wie Sie Standardaufgaben festlegen und Standardaufgaben zu Vorgängen hinzufügen können, um die Wartung von Arbeitsplänen zu vereinfachen.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 99000799, 99000803, 99000804, 99000805, 99000807
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 7e6cc29c2968111cc581f8e615007ff70985e24c
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 89c6f60e2c68866babb7efd2762766f957325a6a
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7973015"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8137601"
 ---
 # <a name="set-up-standard-routing-lines"></a>Einrichten von Aufgabenzeilen
 

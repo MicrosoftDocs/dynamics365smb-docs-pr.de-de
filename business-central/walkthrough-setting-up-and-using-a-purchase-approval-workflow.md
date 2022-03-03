@@ -2,7 +2,6 @@
 title: Einrichten und Verwenden eines Einkaufsanfrage-Genehmigungsworkflows
 description: Diese exemplarische Vorgehensweise führt Sie durch alle Schritte, die zum Festlegen und Verwenden eines Workflows zur Genehmigung von Einkäufen in Business Central gehören.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 5c7575f0b3a35536e412757fe90993b764fc3ba5
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 1d3e30185d4e5486c6e56941d08cc1586b2c554f
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445151"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8138180"
 ---
 # <a name="walkthrough-setting-up-and-using-a-purchase-approval-workflow"></a>Exemplarische Vorgehensweise: Einrichten und Nutzen eines Einkaufsanfrage-Genehmigungsworkflows
 

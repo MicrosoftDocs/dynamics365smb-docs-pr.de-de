@@ -2,7 +2,6 @@
 title: Verwalten von Änderungen des MwSt.-Satzes
 description: Erfahren Sie, wie Sie das Tool zur Änderung des MwSt.-Satzes für Dynamics 365 Business Central verwenden, um die MwSt.-Sätze auf der Grundlage der lokalen Gesetzgebung zu ändern.
 author: andregu
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.reviewer: edupont
 ms.workload: na
@@ -10,12 +9,12 @@ ms.search.keywords: VAT, VAT rate, posting, tax, value-added tax
 ms.search.form: 550,
 ms.date: 06/16/2021
 ms.author: andregu
-ms.openlocfilehash: e021a2950d3441f481c63771250c44b874f92cda
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: ce98367d08c399e8c1a93140bad6fbecd04dda95
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7970544"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8135393"
 ---
 # <a name="managing-vat-rate-changes"></a>Verwalten von Änderungen des Mehrwertsteuersatzes
 

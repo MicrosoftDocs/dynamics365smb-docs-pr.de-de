@@ -4,15 +4,14 @@ description: Suchen Sie Ressourcen für Produkthilfe, Anleitungen, Problemlösun
 author: edupont04
 ms.reviewer: na
 ms.topic: conceptual
-ms.service: dynamics365-business-central
 ms.author: edupont
 ms.date: 10/26/2021
-ms.openlocfilehash: bc04ebdbd8092fc480fdaa00043b4e4c49fa823e
-ms.sourcegitcommit: 41876b559872fe7adbfa5b59a6e1a71dc907fb15
+ms.openlocfilehash: aa472df02891c6de1a786a9a4c3321c461a45395
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920928"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8145550"
 ---
 # <a name="resources-for-help-and-support"></a>Ressourcen für Hilfe und Support
 

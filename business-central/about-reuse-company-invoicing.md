@@ -2,7 +2,6 @@
 title: Invoicing und Business Central verwenden | Microsoft Docs
 description: Problemumgehung für den Zugriff auf Microsoft Invoicing, wenn Sie sich für Dynamics 365 Business Central registriert haben.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,15 +9,15 @@ ms.workload: na
 ms.search.keywords: Invoicing, Microsoft 365
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: ea59fa49889cd6bfc53f727123f259448242c79b
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 8c492b42c1b9c864f44707bebc4b61538e93b7d0
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439147"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8134408"
 ---
-# <a name="using-the-same-microsoft-365-account-in-prod_short-and-microsoft-invoicing"></a>Verwenden des gleichen Microsoft 365-Kontos in [!INCLUDE[prod_short](includes/prod_long.md)] und Microsoft Invoicing
-Wenn Sie sich für eine Testversion anmelden [!INCLUDE[prod_short](includes/prod_short.md)], können das Programm 30-Tage lang testen, Sie können ein Abonnement abschließen oder Sie können die Verwendung von [!INCLUDE[prod_short](includes/prod_short.md)] beenden. In allen Fällen wurde möglicherweise irgendwann **Microsoft Invoicing** angezeigt und Sie haben darauf geklickt. Dies war eine App, die Teil des heutigen Microsoft 365 Business Standard war und früher als Microsoft 365 Business Premium-Abonnement bezeichnet wurde, sodass diese Kachel nicht in jeder Microsoft 365-Umgebung angezeigt wurde.  
+# <a name="using-the-same-microsoft-365-account-in-prod_short-and-microsoft-invoicing"></a>Mithilfe des gleichen Microsoft 365-Kontos in [!INCLUDE[prod_short](includes/prod_long.md)] und Microsoft Invoicing
+Wenn Sie sich für eine Testversion anmelden [!INCLUDE[prod_short](includes/prod_short.md)], können das Programm 30-Tage lang testen, Sie können ein Abonnement abschließen oder Sie können die Verwendung von [!INCLUDE[prod_short](includes/prod_short.md)] beenden. In allen Fällen wurde möglicherweise irgendwann **Microsoft Invoicing** angezeigt und Sie haben darauf geklickt. Dies war eine App, die Teil des heutigen Microsoft 365 Business Standard war und früher als Microsoft 365 Business Premium-Abonnement bezeichnet wurde, sodass diese Kachel nicht in jeder Microsoft 365-Umgebung angezeigt wurde.  
 
 Microsoft Invoicing ist nicht mehr verfügbar. Wenn Sie sich jedoch bei Invoicing anmelden müssen, um Ihre Daten abzurufen, wird möglicherweise die Meldung angezeigt, dass Sie nicht auf Microsoft Invoicing zugreifen können, da Ihr Konto in [!INCLUDE[prod_short](includes/prod_short.md)] verwendet wird.  
 
@@ -41,7 +40,7 @@ Daher müssen Sie sich bei [!INCLUDE[prod_short](includes/prod_short.md)] anmeld
 7.  Wenn die Anwendung wieder bereit steht, wählen Sie die Schaltfläche **Neues Unternehmen erstellen** aus.  
 8.  Im Dialogfeld, das erscheint, geben Sie den Namen als *Mein Unternehmen* an, und wählen Sie die Option **Suiten-Produktion – nur Einrichtungsdaten** aus.  
 
-Dies kann wieder mehrere Minuten dauern. Wenn der Vorgang abgeschlossen ist, sind Sie in der Lage, auf Invoicing als Teil Ihrer Microsoft 365 Business Standard-Umgebung zuzugreifen. Dies gilt jedoch nur für das Exportieren von Daten, da die Invoicing-App veraltet ist.  
+Dies kann wieder mehrere Minuten dauern. Wenn der Vorgang abgeschlossen ist, sind Sie in der Lage, auf Invoicing als Teil Ihrer Microsoft 365 Business Standard-Erfahrung zuzugreifen. Dies gilt jedoch nur für das Exportieren von Daten, da die Invoicing-App veraltet ist.  
 
 ### <a name="what-about-my-data"></a>Informationen zu Ihren Daten.
 Wenn Sie die Vorlage Meine Mandanten umbenennen auswählen, werden die Datenbanktabellen, die Ihre bestehenden [!INCLUDE[prod_short](includes/prod_short.md)] Daten speichern, umbenennte, aber die Daten selber werden nicht berührt  

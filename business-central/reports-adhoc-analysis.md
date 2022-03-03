@@ -2,7 +2,6 @@
 title: Ad-hoc-Datenanalyse
 description: Bietet einen Überblick über alle Funktionen, die Ad-hoc-Datenanalyseaufgaben in Business Central unterstützen.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: feature overview
 ms.date: 02/03/2022
 ms.author: edupont
-ms.openlocfilehash: 8978657d5ffe4a36ed4f72e6dd86db581f893858
-ms.sourcegitcommit: 8a968e9176a913635e47e5170c66962e485e6689
+ms.openlocfilehash: b10ca898ed6c46f0db0dbef10d15ff755da2afaf
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/10/2022
-ms.locfileid: "8105762"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146083"
 ---
 # <a name="ad-hoc-data-analysis"></a>Ad-hoc-Datenanalyse
 

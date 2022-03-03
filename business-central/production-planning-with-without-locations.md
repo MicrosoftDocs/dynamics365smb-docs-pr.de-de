@@ -2,7 +2,6 @@
 title: Siehe Planung mit/ohne Lagerortcodes.
 description: In diesem Thema lernen Sie die Produktion und Fertigung, einschließlich der Vorratsplanung, in Business Central kennen.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 07/16/2021
 ms.author: edupont
-ms.openlocfilehash: fa1b63bb94152c130077907dbe2d4e0d08281f40
-ms.sourcegitcommit: acc1871afa889cb699e65b1b318028c05f8e6444
+ms.openlocfilehash: 27f9b5002d96d55121272f992f58c9cf9748111f
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/16/2021
-ms.locfileid: "6635991"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8137471"
 ---
 # <a name="planning-with-or-without-locations"></a>Siehe Planung mit/ohne Lagerortcodes.
 In der Planung mit oder ohne Lagerortcodes in Bedarfszeilen arbeitet das Planungssystem unter diesen Voraussetzungen in geradliniger Weise:  

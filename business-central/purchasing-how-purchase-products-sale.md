@@ -2,7 +2,6 @@
 title: Einkauf von Artikeln für einen Verkauf
 description: Von einer Verkaufsrechnung um Produkte einzukaufen, können Sie eine Einkaufsrechnung für einen Kreditor oder Lieferanten einen erstellen.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: supply planning, sales demand, replenish
 ms.search.form: 50, 51, 56, 9308
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 46057027e89a087105ca52969c8d5f40a2c0cd26
-ms.sourcegitcommit: e008b3d7003c256475d6c606e5f7c9866a6bbb72
+ms.openlocfilehash: f77234135fe1b7b0b3120c9b839c1873bdcb8b09
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7953409"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8131186"
 ---
 # <a name="purchase-items-for-a-sale-by-creating-purchase-invoices"></a>Artikel für einen Verkauf durch das Erstellen von Einkaufsrechnungen kaufen
 

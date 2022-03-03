@@ -5,15 +5,14 @@ author: bholtorf
 ms.author: bholtorf
 ms.custom: na
 ms.reviewer: na
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.date: 06/14/2021
-ms.openlocfilehash: df6bf07fad3b9029b1a033d6ec17a869004995ab
-ms.sourcegitcommit: 1508643075dafc25e9c52810a584b8df1d14b1dc
+ms.openlocfilehash: 34d1583ac7e844a7d7acad82f202c37be0b99c47
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "8049469"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8133966"
 ---
 # <a name="handling-missing-option-values"></a>Behandlung fehlender Optionswerte
 

@@ -2,7 +2,6 @@
 title: Testberichte für Lieferanmahnungen drucken [DE]
 description: Nachdem Sie Lieferanmahnungen erstellt und die erforderlichen Änderungen in Deutschland vorgenommen haben, können Sie entweder die Prüfberichte drucken oder die Lieferanmahnungen ausgeben.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/29/2021
 ms.author: edupont
-ms.openlocfilehash: b7d77a2bc7eb65b5a59633729a09780b1e9cf402
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 44dd251ebc12cc04b6e6680a9ce39ed72945e2ad
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435177"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8147380"
 ---
 # <a name="print-test-reports-for-delivery-reminders-in-the-german-version"></a>Testberichten für Lieferanmahnungen in der deutschen Version drucken
 

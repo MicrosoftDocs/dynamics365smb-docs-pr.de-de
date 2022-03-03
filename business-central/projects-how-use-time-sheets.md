@@ -2,7 +2,6 @@
 title: Arbeitszeittabellen verwenden
 description: Beschreibt, wie Sie eine Arbeitszeittabelle erstellen, Arbeitstypen definieren, Arbeitszeittabellen ausfüllen und sie zur Genehmigung senden.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: project management, capacity, staff, resource, time sheets
 ms.search.form: 950, 951, 973
 ms.date: 12/13/2021
 ms.author: edupont
-ms.openlocfilehash: bd163b5e8c4d96a28a1dd557d53b04dafe6829fd
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 6cb8789b75350b3879fb0179759498394b6e22d1
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7973125"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8134977"
 ---
 # <a name="use-time-sheets"></a>Arbeitszeittabellen verwenden
 

@@ -1,15 +1,14 @@
 ---
 author: edupont04
-ms.service: dynamics365-accountant
 ms.topic: include
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: fa7e5a51696c149e66da0d76cf1042c5e8f7e7e3
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 045f3cc062c3ffec74177f7c7bc41c3bb96c9b8c
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776396"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8129708"
 ---
 Personen unterstützen manchmal mehrere Unternehmen und müssen in [!INCLUDE [prod_short](prod_short.md)] problemlos zwischen Unternehmen wechseln. Ein Unternehmen kann beispielsweise Verkaufsbüros in Städten und mehreren Ländern haben, sodass für jedes Büro eine separate Geschäftseinheit eingerichtet wurde. Die Büros, die sich im selben Land befinden, werden als separate Unternehmen in einer gemeinsamen Umgebung eingerichtet. Andere Büros werden als Unternehmen in separaten Umgebungen erstellt, da sie geografisch in anderen Ländern ansässig sind.<br><br>  
 

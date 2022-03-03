@@ -1,14 +1,13 @@
 ---
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: include
 ms.date: 12/03/2021
 ms.author: edupont
-ms.openlocfilehash: 4cd5fa2d5713dc585489be7198d2e5dd2a5e0030
-ms.sourcegitcommit: 4223484b0eeceb0258dae5abfd04e1a9a4a0990d
+ms.openlocfilehash: 47d507c2d88b3e0ad2b367f7847ca67ea38474c7
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7890499"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8140143"
 ---
 Die Vorauszahlungsanforderungen können für jeden Debitor oder Kreditor für alle oder für ausgewählte Artikel definiert werden. Wenn Sie Vorauszahlungen eingerichtet haben, können Sie anschließend Vorauszahlungsrechnungen aus Verkaufsaufträge und Bestellungen mit Vorauszahlungsbeträgen generieren, die auf Ihrer Einrichtung basieren. Die Standardbeträge auf der Rechnung können je nach Anforderung geändert werden.  

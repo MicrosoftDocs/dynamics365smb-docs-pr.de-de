@@ -1,20 +1,19 @@
 ---
 author: edupont04
-ms.service: dynamics365-accountant
 ms.topic: include
-ms.date: 09/02/2021
+ms.date: 02/15/2022
 ms.author: edupont
-ms.openlocfilehash: 5bb0e2d4ec0dfe20ecb6668a6d01ba4e8a174b8e
-ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
+ms.openlocfilehash: c947d843a17c46323febee83a01c80a574982bbd
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7482297"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142497"
 ---
 > [!NOTE]
 > In den folgenden Abschnitten wird davon ausgegangen, dass Sie über Administratorzugriff für Exchange Online verfügen.
 
-Bevor Sie die E-Mail-Protokollierung einrichten können, müssen Sie Office 365 mit [öffentlichen Ordnern](/exchange/collaboration-exo/public-folders/public-folders?preserve-view=true) vorbereiten. Dies kann im [Exchange Admin Center](/exchange/exchange-admin-center?preserve-view=true) oder über [Exchange Online PowerShell](/powershell/exchange/exchange-online-powershell?view=exchange-ps&?preserve-view=true) erfolgen.
+Bevor Sie die E-Mail-Protokollierung einrichten können, müssen Sie Office 365 mit [öffentlichen Ordnern](/exchange/collaboration-exo/public-folders/public-folders) vorbereiten. Dies kann im [Exchange Admin Center](/exchange/exchange-admin-center?preserve-view=true) oder über [Exchange Online PowerShell](/powershell/exchange/exchange-online-powershell?view=exchange-ps&?preserve-view=true) erfolgen.
 
 > [!TIP]
 > Wenn Sie [Exchange Online PowerShell](/powershell/exchange/exchange-online-powershell?view=exchange-ps&preserve-view=true) verwenden, finden Sie in einem Beispielskript, das wir im [BCTech-Repo](https://github.com/microsoft/BCTech/tree/master/samples/EmailLogging) veröffentlicht haben, Anregungen zum Einrichten Ihres Skripts.
@@ -31,7 +30,7 @@ Erstellen Sie eine Administratorrollengruppe für öffentliche Ordner basierend 
 |Ausgewählte Rollen  |Öffentliche Ordner            |
 |Ausgewählte Benutzer  |Die E-Mail-Adresse des Benutzerkontos, mit dem Business Central das E-Mail-Protokollierungsprojekt ausführt|
 
-Weitere Informationen finden Sie unter [Rollengruppen in Exchange Online verwalten](/exchange/permissions-exo/role-groups?preserve-view=true).
+Weitere Informationen finden Sie unter [Rollengruppen in Exchange Online verwalten](/exchange/permissions-exo/role-groups).
 
 ### <a name="create-a-new-public-folder-mailbox"></a>Ein neues Postfach für öffentliche Ordner erstellen
 
@@ -41,7 +40,7 @@ Erstellen Sie ein neues Postfach für öffentliche Ordner basierend auf den Info
 |----------------|--------------------------|
 |Name            |Öffentliches Postfach            |
 
-Weitere Informationen finden Sie unter [Ein Postfach für öffentliche Ordner erstellen](/exchange/collaboration-exo/public-folders/create-public-folder-mailbox?preserve-view=true).
+Weitere Informationen finden Sie unter [Ein Postfach für öffentliche Ordner erstellen](/exchange/collaboration-exo/public-folders/create-public-folder-mailbox).
 
 ### <a name="create-new-public-folders"></a>Neue öffentliche Ordner erstellen
 
@@ -51,7 +50,7 @@ Weitere Informationen finden Sie unter [Ein Postfach für öffentliche Ordner er
     - `\Email Logging\Queue\`
     - `\Email Logging\Storage\`
 
-Weitere Informationen finden Sie unter [Öffentlichen Ordner erstellen](/exchange/collaboration-exo/public-folders/create-public-folder?preserve-view=true).
+Weitere Informationen finden Sie unter [Öffentlichen Ordner erstellen](/exchange/collaboration-exo/public-folders/create-public-folder).
 
 ### <a name="set-public-folder-ownership"></a>Besitz für öffentliche Ordner festlegen
 
@@ -61,7 +60,7 @@ Weitere Informationen finden Sie unter [Dem öffentlichen Ordner Berechtigungen 
 
 ### <a name="mail-enable-the-queue-public-folder"></a>Den öffentlichen Ordner *Warteschlange* für E-Mail aktivieren
 
-  Weitere Informationen finden Sie unter [Öffentlichen Ordner für E-Mail aktivieren oder deaktivieren](/exchange/collaboration-exo/public-folders/enable-or-disable-mail-for-public-folder?preserve-view=true).
+  Weitere Informationen finden Sie unter [Öffentlichen Ordner für E-Mail aktivieren oder deaktivieren](/exchange/collaboration-exo/public-folders/enable-or-disable-mail-for-public-folder).
 
 ### <a name="mail-enable-sending-emails-to-the-queue-public-folder"></a>Das Senden von E-Mails an den öffentlichen Ordner *Warteschlange* aktivieren
 

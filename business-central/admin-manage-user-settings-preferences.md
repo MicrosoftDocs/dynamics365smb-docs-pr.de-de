@@ -2,7 +2,6 @@
 title: Verwalten Sie Benutzereinstellungen und Präferenzen als Administrator
 description: Verwalten Sie Benutzereinstellungen und Präferenzen in Dynamics 365 Business Central.
 author: sorenfriisalexandersen
-ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,12 +11,12 @@ ms.search.keywords: user settings, preferences, language, region, time zone, reg
 ms.search.form: 9204
 ms.date: 04/01/2021
 ms.author: soalex
-ms.openlocfilehash: b3b4c857f006970fa3973a1203a7ddd8cffc2298
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: 779dcea91d2e856bfae847f98695ceed0c0d600e
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8011757"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8145940"
 ---
 # <a name="manage-user-settings-and-preferences"></a>Benutzereinstellungen und Präferenzen verwalten
 

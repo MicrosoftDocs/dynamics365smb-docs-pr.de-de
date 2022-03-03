@@ -2,7 +2,6 @@
 title: Exemplarische Vorgehensweise – Automatisch Vorräte planen
 description: Diese exemplarische Vorgehensweise demonstriert die Verwendung des Lieferplanungssystems zur automatischen Planung von Kauf- und Fertigungsaufträgen auf verschiedenen Verkaufsaufträgen.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 86cc905a5bc3226a0bdd779b29570cbbd17ae5d4
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: a9bc9b245ec8bcb7146f688da7ad3c94a16c00ec
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439360"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8140267"
 ---
 # <a name="walkthrough-planning-supplies-automatically"></a>Exemplarische Vorgehensweise: Automatische Beschaffungsplanung
 

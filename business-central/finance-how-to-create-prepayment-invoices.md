@@ -2,7 +2,6 @@
 title: Vorauszahlungsrechnungen erstellen
 description: Behandeln Sie Situationen, in denen Sie oder Ihr Kreditor eine Vorauszahlung verlangen. Verwenden Sie die voreingestellten Prozentsätze für jede Verkaufs- oder Kauf-Zeile oder passen Sie den Betrag nach Bedarf an.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 42, 50, 9305, 9307
 ms.date: 12/02/2021
 ms.author: edupont
-ms.openlocfilehash: ebce3f22b4977b9dfca506ce536abb8c7e5ad46b
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: c1374929790c27bd84733e506866a1e54cea9ffd
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7972018"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8136062"
 ---
 # <a name="create-prepayment-invoices"></a>Vorauszahlungsrechnungen erstellen
 

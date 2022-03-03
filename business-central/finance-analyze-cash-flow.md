@@ -2,7 +2,6 @@
 title: Cashflows analysieren
 description: Beschreibt, wie die Geldumlauf-, Einnahmen- und Ausgaben-, Cash Flow- und Cashflow-Prognosediagramme verwendet werden, um vergangene und künftige Bargeldbewegungen im Unternehmen zu analysieren.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: money flow, expense and income, liquidity, cash receipts min
 ms.search.form: 762, 840, 841, 847, 848, 849, 850, 857, 858, 859, 860, 862, 863, 865, 866, 867, 868, 869, 1818
 ms.date: 12/20/2021
 ms.author: bholtorf
-ms.openlocfilehash: f7edf7f1b878f6647b123c956531313317f3bb15
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 41dc7aba46960197a6b77ad13f98b4194fd589d2
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7973570"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8145706"
 ---
 # <a name="analyzing-cash-flow-in-your-company"></a>Analysieren von Cashflow in Ihren Mandanten
 Die Diagramme im Buchhalter-Rollencenter liefern Einblicke, die Ihnen dabei helfen, fundierte Entscheidungen in Bezug auf die Verwendung Ihres Bargelds zu treffen.  

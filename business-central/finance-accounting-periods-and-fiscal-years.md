@@ -2,7 +2,6 @@
 title: Mit Buchhaltungsperioden und Geschäftsjahren arbeiten
 description: Erfahren Sie, wie Sie mit Buchhaltungsperioden arbeiten, um festzulegen, wann Ihr Unternehmen über Finanzleistung berichtet.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 100
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 381b5db4ee0af6bdb863730099b16892117231d3
-ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
+ms.openlocfilehash: 8d7927c8adcf19fae55af48ea699ea9b852d6974
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "8028851"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8136166"
 ---
 # <a name="working-with-accounting-periods-and-fiscal-years"></a>Mit Buchhaltungsperioden und Geschäftsjahren arbeiten
 

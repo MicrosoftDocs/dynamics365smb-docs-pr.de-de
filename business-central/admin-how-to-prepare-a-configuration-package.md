@@ -2,7 +2,6 @@
 title: So bereiten Sie ein Konfigurationspaket vofr
 description: Lernen Sie jetzt, wie Sie ein Konfigurationspaket RapidStart vorbereiten, mit dem Sie neue Firmen auf der Basis vorhandener Daten festlegen können.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 07/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: b3b8b7792363d8d44cdfea563b422748ad39de90
-ms.sourcegitcommit: e904da8dc45e41cdd1434111c15e2a9d9edd3fa2
+ms.openlocfilehash: 6bb0c48f1b6be3857ada32e4847d28be19c61580
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "6660231"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8147086"
 ---
 # <a name="prepare-a-configuration-package"></a>So bereiten Sie ein Konfigurationspaket vofr
 

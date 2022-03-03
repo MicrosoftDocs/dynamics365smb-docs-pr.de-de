@@ -2,7 +2,6 @@
 title: Intercompany Belege und Erfassungen posten
 description: Dieses Thema erklärt, wie Sie Intercompany-Belege oder Erfassungen verwenden, um Transaktionen mit Ihren Intercompany-Partnern zu buchen.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
 ms.search.form: 610
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 903a0b1770bb29cb744f2aa8dc9510541ca7539c
-ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
+ms.openlocfilehash: ec02fa8000c9c16236430712a50dc1c0c064b24e
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "8029404"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8131782"
 ---
 # <a name="work-with-intercompany-documents-and-journals"></a>Arbeiten mit Intercompany-Belegen und Buch.-Blättern
 Intercompanybelege werden zum Buchen der Transaktionen zwischen Intercompanypartnern verwendet. Wenn Sie einen Intercompanybeleg oder eine Buch.-Blattzeile im Unternehmen buchen, wird durch das Programm im IC-Ausgang ein entsprechender Beleg erstellt, der an den Partner übertragen werden kann. Der Partner kann dieses Buch.-Blatt dann im eigenen Unternehmen buchen, ohne die Daten dazu noch einmal eingeben zu müssen.

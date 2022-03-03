@@ -2,7 +2,6 @@
 title: Feldzuordnung für den Export von Bankzahlungsdateien | Microsoft Docs
 description: Wenn Sie Zahlungsdateien mit der AMC Banking 365 Fundamentals-Erweiterung exportieren, werden die von Ihnen exportierten Daten dem Dienstanbieter zugänglich gemacht.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f705334d42d27e22d9108a410ab91a213c725a4d
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 46664dac24f5da8eab714f1be303e4fb7241496d
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437752"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8131034"
 ---
 # <a name="field-mapping-when-exporting-payment-files-using-the-amc-banking-365-fundamentals-extension"></a>Feldzuordnung beim Export von Zahlungsdateien mit der AMC Banking 365 Fundamentals-Erweiterung
 Wenn Sie Zahlungsdateien mit der AMC Banking 365 Fundamentals-Erweiterung exportieren, werden die von Ihnen exportierten Daten dem Dienstanbieter zugänglich gemacht. Der Dienstanbieter ist für den Schutz dieser Daten verantwortlich. Weitere Informationen zur AMC Banking 365 Fundamentals-Erweiterung finden Sie unter [Verwenden der AMC Banking 365 Fundamentals-Erweiterung](ui-extensions-amc-banking.md).  

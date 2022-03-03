@@ -2,7 +2,6 @@
 title: Einrichten von Fehlerlösungsprozessen | Microsoft Docs
 description: Erfahren Sie, wie Sie Vorgänge eingerichtet, die Techniker helfen, Probleme bei Serviceartikeln zu identifizieren und zu bearbeiten.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: service, service item, troubleshoot, repairs, maintenance
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5dbef8bda307a38b25e3c84776da0a50e2daced5
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: ba3a265f94221388fb539d3c5b90a3327440b37a
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6436501"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8134873"
 ---
 # <a name="setting-up-troubleshooting-for-service-items"></a>Problembehandlung für Serviceartikel einrichten
 Sie können Lösungsanleitungen einrichten, die den Technikern helfen, Probleme zu lösen, wenn Sie einen Service ausführen. Beispielsweise könnten möglicherweise Richtlinien eine Übersicht der Schritte oder eine Reihe von Fragen sein, um den Artikel einzurichten. In diesem Fenster können Sie Lösungsanleitungen festlegen, diese Serviceartikelgruppen, Artikeln oder Serviceartikeln zuordnen. Es gibt eine Übernahmehierarchie für Richtlinien. Wenn Sie diese einer Serviceartikelgruppe zuweisen, übernehmen die Artikel, die in die Gruppe enthalten sind, die Richtlinien, es sei denn, Sie definieren diese für den Artikel. Analog übernehmen Serviceartikel Richtlinien der Artikel.  

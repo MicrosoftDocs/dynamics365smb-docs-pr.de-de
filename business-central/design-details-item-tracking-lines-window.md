@@ -2,7 +2,6 @@
 title: Design Details – Elementverfolgungszeilen Seite
 description: Lesen Sie, wie Sie den Flow von Seriennummern und Chargennummern in Ihrem Bestand mit der Seite Element Tracking Lines verwalten können.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: design, inventory, item, tracking, serial number, lot number
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 50888b8d00696645841f37aa24b5cb3bc031fed2
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 43c6c6dedbc7a1b35e5aa05d0ed42fb986c01f3f
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6320314"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146649"
 ---
 # <a name="design-details-item-tracking-lines-page"></a>Designdetails – Artikelverfolgungszeilenfenster-Seite
 Artikelverfolgungsdatensätze und Reservierungsdatensätze werden im Reservierungssystem erstellt, und ihre Verfügbarkeit wird dynamisch berechnet. Daten, die auf der **Artikelzeilen nachverfolgen**-Seite eingegeben werden, werden in einer temporären Version der Tabelle **Verfolgungsspezifikation** verwaltet. Wenn die Seite geschlossen wird, werden die aktiven Daten in der Tabelle **Reservierungsposten** bestätigt und die historischen Daten werden in der Tabelle **Verfolgungsspezifikation** bestimmt. Weitere Informationen finden Sie unter [Designdetails: Aktiv gegen historische Artikelverfolgungsposten](design-details-active-versus-historic-item-tracking-entries.md).  

@@ -2,7 +2,6 @@
 title: MwSt.-Berichte korrigieren [DE]
 description: Wenn Sie einen Korrektur-MwSt-Bericht übermitteln müssen oder einen übermittelten MwSt-Bericht löschen müssen, müssen Sie einen neuen MwSt-Bericht erstellen.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 26101
 ms.date: 06/18/2021
 ms.author: edupont
-ms.openlocfilehash: 39aee8d4d237540b99300006179c85a964922af7
-ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
+ms.openlocfilehash: 3cccfc9151f74d88cf038930f671435edd7a7ed2
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/28/2021
-ms.locfileid: "7947248"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8131101"
 ---
 # <a name="correct-vat-reports-in-the-german-version"></a>MwSt.-Berichte korrigieren in der deutschen Version
 

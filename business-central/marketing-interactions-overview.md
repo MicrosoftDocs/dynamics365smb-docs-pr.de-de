@@ -4,7 +4,6 @@ description: In Business Central versteht man unter Aktivitäten alle Arten der 
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,12 +11,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: de3362b82bdba2248e8d3e288822ec12db0fcc05
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: 6cb8696d84bf9e40d07f7f29a6c2e08b39c30b2c
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8011152"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8135160"
 ---
 # <a name="managing-interactions-with-your-contacts"></a>Verwalten von Interaktionen mit Ihren Kontakten
 In [!INCLUDE[prod_short](includes/prod_short.md)] versteht man unter Aktivitäten alle Arten der Kommunikation zwischen Ihrem Unternehmen und Ihren Kontakten. Kommunikationen können zum Beispiel per Brief, E-Mail, Telefon, Besprechungen usw. erfolgen.

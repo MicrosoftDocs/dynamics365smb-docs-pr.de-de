@@ -2,7 +2,6 @@
 title: Zinskonditionen einrichten
 description: Erfahren Sie, wie Sie Business Central einrichten, damit Sie Debitoren über zusätzliche Gebühren informieren können, indem Sie Memos zu Finanzierungskosten senden.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: payment due, debt, overdue, fee, charge
 ms.search.form: 6, 494
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: cd6bfd8489981c219a09ee3e7603caedaac943fa
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: de00eb7e96e2903872a3ef312d096bd91d97577d
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7972383"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142055"
 ---
 # <a name="set-up-finance-charge-terms"></a>Zinskonditionen einrichten
 

@@ -2,7 +2,6 @@
 title: 'Gewusst wie: Einrichten des Senden und Empfangen von elektronischen Bele | Microsoft Docsgen'
 description: Als Alternative zu E-Mail-Dateianhängen können Sie Geschäftsbelegen elektronisch versenden und empfangen.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 80555f6362b1a071b26d4119c821075e8fcc4944
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: bcc706a221c40019792167b4b75cb8826216457d
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774661"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8147216"
 ---
 # <a name="set-up-electronic-document-sending-and-receiving"></a>Einrichten des Senden und Empfangen von elektronischen Belegen
 

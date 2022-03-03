@@ -2,7 +2,6 @@
 title: Lager umstrukturieren
 description: Erfahren Sie, wie Sie Ihr Lager mit neuen Lagerplatz-Codes und neuen Lagerplatz-Merkmalen umstrukturieren können, um einen effizienteren Vorgang zu erreichen oder beizubehalten.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 9813, 9814
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: fe027e43c91723c4e2a24d8afab373f2b96b07eb
-ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
+ms.openlocfilehash: 97a8ff2971ca8cc6e34fb89cd5edbb092ac264a8
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8115230"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8144281"
 ---
 # <a name="restructure-warehouses"></a>Lager umstrukturieren
 Es kann sein, dass Sie Ihr Lager neu strukturieren und dabei neue Lagerplatzcodes und Eigenschaften von Zonen berücksichtigen möchten. Diese Art von Aktivität werden Sie nicht oft ausführen. Es können jedoch Situationen auftreten, in denen eine Neustrukturierung notwendig ist, um effektivere Arbeitsabläufe zu erreichen. Beispiel:  

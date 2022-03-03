@@ -2,7 +2,6 @@
 title: Business Central auf Ihrem mobilen Gerät nutzen (enthält Video)
 description: Dieses Thema beschreibt die verschiedenen Möglichkeiten, wie Sie Ihre Business Central-Daten auf Ihrem Telefon oder Tablet anzeigen und bearbeiten, an Excel senden und vieles mehr.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,16 +9,16 @@ ms.workload: na
 ms.search.keywords: desktop, Windows, app
 ms.date: 10/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 31f9a34d2fc14ddca146ff00d8b4b678e0b97d99
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
+ms.openlocfilehash: 9c550c5e62b025d59c451aed83a6dbf6f0e1e11b
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940076"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8138466"
 ---
 # <a name="getting-business-central-on-your-mobile-device"></a>Abrufen von Business Central auf meinem mobilen Gerät
 
-Greifen Sie von Ihrem mobilen Gerät auf [!INCLUDE[prod_short](includes/prod_short.md)] zu. Sie können durch Ihre Geschäftsdaten navigieren, Funktionen verwenden, wie z. B. an Excel oder Microsoft 365 zu senden, aktuelle Diagramme und KPIs anzeigen, Verkaufsangebote und Rechnungen per E-Mail versenden und mit Ihrer Kamera Bilder erstellen und anfügen. Führen Sie die Schritte unten aus, um die App herunterzuladen und zu beginnen.
+Greifen Sie von Ihrem mobilen Gerät auf [!INCLUDE[prod_short](includes/prod_short.md)] zu. Sie können durch Ihre Unternehmensdaten navigieren, Funktionen verwenden, sowie an Excel oder Microsoft 365 versenden, aktuelle Diagramme und KPIs anzeigen, Verkaufsangebote und Rechnungen per E-Mail versenden und mit Ihrer Kamera Bilder erstellen und anfügen. Führen Sie die Schritte unten aus, um die App herunterzuladen und zu beginnen.
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4Arje?rel=0]
 

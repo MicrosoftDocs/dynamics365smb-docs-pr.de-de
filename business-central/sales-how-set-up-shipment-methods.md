@@ -2,7 +2,6 @@
 title: Lieferbedingungen einrichten
 description: Sie können eine Code für jede einzelne angebotene Lieferbedingungen einrichten, wie auch die Informationen dazu angeben und die Informationen dazu eingeben.e können Sie einen Code für jeden Zusteller anlegen und Informationen dazu eingeben.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: incoterms
 ms.search.form: 11, 130
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 032faa6e9266f966f0c6393eb1837e1ca9bc9f55
-ms.sourcegitcommit: a9e2aaee735870af566db68532cfa697347d68e0
+ms.openlocfilehash: 7f83c8e3e001fe1b92e975d165d40a353ece032a
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752494"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8134925"
 ---
 # <a name="set-up-shipment-methods"></a>Lieferbedingungen einrichten
 

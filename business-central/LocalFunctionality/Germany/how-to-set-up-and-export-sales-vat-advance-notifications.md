@@ -2,7 +2,6 @@
 title: Einrichten und Exportieren von Umsatzsteuervoranmeldungen
 description: Um in Business Central gültige Umsatzsteuervoranmeldungen zu erstellen, müssen Sie die Erklärung und andere Einrichtungsseiten einrichten.
 author: sorenfriisalexandersen
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 01/21/2022
 ms.author: soalex
-ms.openlocfilehash: 9d218c2e8b69fc4a284ed0f2196acc2d649db78a
-ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
+ms.openlocfilehash: b942c2784679a2c6aaea1b24ff80b8bfd18644af
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "8028948"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8129362"
 ---
 # <a name="set-up-and-export-sales-vat-advance-notifications"></a>Einrichten und Exportieren von Umsatzsteuervoranmeldungen
 

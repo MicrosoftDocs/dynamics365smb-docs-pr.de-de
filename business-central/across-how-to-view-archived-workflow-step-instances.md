@@ -2,7 +2,6 @@
 title: So zeigen Sie archivierte Workflowschritt-Instanzen an
 description: Alle abgeschlossenen Workflowschritt-Instanzen werden auf der Seite **Archivierte Workflowinstanzen** gespeichert. Jeder Schritt besteht aus einem Workflow-Ereignis und einer Workflow-Antwort.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: e264e5fe8399721398a2edc06faad2b1136e486c
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: f1266ada40085e1999b9ea49281e8c5ec73f8394
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439870"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8134174"
 ---
 # <a name="view-archived-workflow-step-instances"></a>Anzeigen von archivierten Workflowschritt-Instanzen
 Alle abgeschlossenen Workflowschritt-Instanzen werden auf der Seite **Archivierte Workflowschritt-Instanzen** gespeichert.  

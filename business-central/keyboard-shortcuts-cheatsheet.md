@@ -2,7 +2,6 @@
 title: PC-Tastenkombinationskurzübersicht Referenz
 description: Ein druckerfreundliches Bezugsblatt für PC-Benutzer, das die gängigsten Tastenkombinationen enthält.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: da764b00f8fb3218d3b53b843a27943b4e0bf5e1
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 0e605470c312b93d7ebe7afde1c673bd57fb3615
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438902"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8135237"
 ---
 # <a name="keyboard-quick-reference---pc-only"></a>Nur PC-Tastenkombinationskurzübersicht
 

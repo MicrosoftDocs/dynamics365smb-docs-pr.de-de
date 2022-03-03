@@ -2,7 +2,6 @@
 title: 'Vorgehensweise: Erstellen von Montageaufträgen| Microsoft Docs'
 description: Erstellen Sie Rahmenaufträge für benutzerdefinierte Montageartikel, bevor Sie die tatsächlichen Verkaufsaufträge in regelmäßigen Abständen entsprechend der Rahmenbestellung erstellen.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a62d2b1d84d1139a0e5472d8e95f1c87f13bfa6c
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: e565a07bf148043de47eab5cba4df5c76beceb5a
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435469"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146930"
 ---
 # <a name="create-blanket-assembly-orders"></a>Erstellen von Montagerahmenaufträgen
 Sie können Montageverwaltung verwenden, um einen Montageartikel auf Anforderung eines Debitors während des Vertriebsprozesses anzupassen. Weitere Informationen finden Sie unter [Verkaufen von Auftragsmontageartikeln](assembly-how-to-sell-items-assembled-to-order.md).  

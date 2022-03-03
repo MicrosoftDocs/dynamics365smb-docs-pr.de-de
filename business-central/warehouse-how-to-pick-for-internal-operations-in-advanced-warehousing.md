@@ -2,7 +2,6 @@
 title: Kommissionierung für interne Arbeitsgänge in erweiterter Lagerkonfigurationen
 description: Wenn Ihre Standorte sowohl Kommissionierung als auch Versand verwenden, wählen Sie Komponenten für Produktions- und Montageaktivitäten auf der Seite Lagerauswahl aus.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5ef90e4c99a567e6abe18f06b8a9be29365323bb
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 5df764b1ca184d1f70dd67c08abf0505833dc2aa
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445772"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8139131"
 ---
 # <a name="pick-for-production-or-assembly-in-advanced-warehouse-configurations"></a>Kommissionierung für Montage oder Produktion in erweiterter Lagerkonfiguration
 In der erweiterten Lagerkonfigurationen, in der der Lagerort für Kommissionierung und Lieferung eingerichtet wurde, können Sie Komponenten für Produktions- und Montageaktivitäten auf der Seite **Kommissionierung** kommissionieren.  

@@ -2,7 +2,6 @@
 title: Versenden von Artikeln
 description: In diesem Thema wird beschrieben, wie Sie Artikel aus Ihrem Lager abhängig von Ihrer Lagerkonfiguration für die Versandverarbeitung versenden können.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 7335, 7337, 7339, 7340, 7341, 7362
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 941cc8b8ffeb22cc5cf14f400fd25bfc9479e66a
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 4cf357c8fac13c4f6ed714ee108020adc53686cc
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7970820"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8144411"
 ---
 # <a name="ship-items"></a>Versenden von Artikeln
 

@@ -2,7 +2,6 @@
 title: Aktivieren Sie Debitoren-Zahlungen mit Zahlungsverkehr
 description: Erleichtern Sie Ihren Debitoren das Bezahlen ihrer Rechnungen, indem Sie Kundenzahlungen über Zahlungsdienste aktivieren.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: online payment
 ms.search.forms: 1060, 1061, 1062
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 8216c4f34cf63b1dcc9a501747ae8738309ba511
-ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
+ms.openlocfilehash: 33f15301e65bdb187bfb4a4b0e6389e827aee2e3
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8059856"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8139417"
 ---
 # <a name="enable-customer-payments-through-payment-services"></a>Gewusst wie: Aktivieren von Debitoren-Zahlungen durch Zahlungsverkehr
 Als Alternative zum Einzug von Zahlungen per Banküberweisung oder Kreditkarte können Ihre Debitoren Sie über ihr Konto mit Zahlungsdiensten wie PayPal oder WorldPay bezahlen.  

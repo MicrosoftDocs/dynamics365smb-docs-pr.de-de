@@ -4,7 +4,6 @@ description: Erfahren Sie, wie die Mehrwertsteuereinstellungen für Kunden und L
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,12 +11,12 @@ ms.workload: na
 ms.search.keywords: incoming document
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: b1946ce8d23a8f9e8f6d48a527060727a9bc3447
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: fc11979fb6e21feba85c883b83ca7a3dcc5d8772
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444255"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8137913"
 ---
 # <a name="allocate-costs-to-intercompany-partners"></a>Kosten den Intercompanypartnern zuordnen
 Wenn Sie konzerninterne Buchungen verwenden, um Dokumente zwischen Partnerunternehmen zu übertragen, steuern die den Kunden- oder Lieferantenkonten (dem konzerninternen Partner zugeordneten) zugewiesenen umsatzsteuerlichen Einstellungen (hauptsächlich die Umsatzsteuer-Geschäftsbuchungsgruppe), ob und wie die Mehrwertsteuer berechnet und registriert wird. Sie können Kostenverteilungen auch direkt von einer Bestellung an Partnerunternehmen durchführen. Wenn Sie beispielsweise eine Kaufrechnung von einem externen Anbieter registrieren und einen Teil oder die gesamten Kosten an einen oder mehrere konzerninterne Partner verteilen möchten.

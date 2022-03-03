@@ -2,7 +2,6 @@
 title: Details zum Anwendungsdesign
 description: Dieser Inhalt enthält detaillierte technische Informationen über komplexe Anwendungsbereiche in  Business Central.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 11/26/2021
 ms.author: edupont
-ms.openlocfilehash: 06fa9254f59e283abb673f66190c61e464d510af
-ms.sourcegitcommit: 641d7018f7ee21345a67651bfa4603e6dd2c4bab
+ms.openlocfilehash: 5cec98907fd3ab3b95763abd45e03038e8ccec35
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/27/2021
-ms.locfileid: "7865672"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146748"
 ---
 # <a name="application-design-details"></a>Details zum Anwendungsdesign
 

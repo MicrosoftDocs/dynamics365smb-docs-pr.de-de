@@ -2,7 +2,6 @@
 title: Verwalten von Intercompanytransaktionen
 description: Mit der Intercompany-Funktionalität können Sie die Geschäftsvorgänge und - transaktionen zwischen Unternehmen innerhalb derselben Organisation vereinfachen.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
 ms.date: 08/11/2021
 ms.author: edupont
-ms.openlocfilehash: 19fa804213d4f0a66a92a9febb157f2b5da23ec2
-ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
+ms.openlocfilehash: f0757f42a6c4cc28586f09a772cde53688eaf5a7
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7440563"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8131743"
 ---
 # <a name="managing-intercompany-transactions"></a>Intercompanytransaktionen verwalten
 

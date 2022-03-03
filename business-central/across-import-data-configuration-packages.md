@@ -2,7 +2,6 @@
 title: Excel zum Importieren von Daten nach Business Central verwenden
 description: Verwenden Sie das Standardkonfigurationspaket, um Debitorendaten in Excel hinzuzufügen und Daten nach Business Central zu importieren.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: migration, Excel
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 984186e8bb08cc9e99ab91dbc08f0e85c58e0804
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 5c6dc9d386bde8e4f8496f086141589ea4c89c73
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777948"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8136452"
 ---
 # <a name="importing-business-data-from-other-finance-systems"></a>Geschäftsdaten aus anderen Finanzsystemen importieren
 

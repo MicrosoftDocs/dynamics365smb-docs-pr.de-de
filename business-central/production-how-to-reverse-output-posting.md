@@ -2,7 +2,6 @@
 title: Gebuchte fertig gestellte Menge stornieren
 description: Es gibt Fälle, in denen die Ausgabebuchung storniert werden muss. In diesem Thema wird die Vorgehensweise zum Stornieren von Ausgangsbuchungen beschrieben.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 5510
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 43704140bf7dec64fdc38b073c722f79a15df4a6
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: ed45facfc64dda670d0e1e4d7dd9b396b4c11fae
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7970349"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132785"
 ---
 # <a name="reverse-output-posting"></a>Gebuchte fertig gestellte Menge stornieren
 

@@ -2,7 +2,6 @@
 title: Verwalten der Microsoft Teams-Integration in Business Central | Microsoft Docs
 description: Verwalten Sie die Business Central-Integration in Microsoft Teams.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 7fef0f2ffe23155e840fa89a62b1822fee1efd35
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 4d6e329dbf6c8d5badfcb317261db18d8432d303
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589082"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8147034"
 ---
 # <a name="managing-microsoft-teams-integration-with-prod_short"></a>Verwalten der Microsoft Teams-Integration mit [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -126,7 +125,7 @@ Funktionen zur Verhinderung von Datenverlust im Microsoft 365 Security & Complia
 
 Sie ermöglichen Teammitgliedern und Teambesitzern, Nachrichten mit vertraulichen Karten zu löschen, indem Sie Nachrichtenrichtlinien einrichten, wie **Besitzer können gesendete Nachrichten löschen** und **Benutzer können gesendete Nachrichten löschen**. Weitere Informationen zu dieser Einstellung finden Sie unter [Nachrichtenrichtlinien in Teams verwalten](/microsoftteams/messaging-policies-in-teams).
 
-Inhaltssuche und eDiscovery Compliance-Funktinen im Microsoft 365 Security & Compliance Center können nicht auch auf Karten angewendet werden.
+Inhaltssuche und eDiscovery Compliance-Funktionen im Microsoft 365 Security & Compliance Center können nicht auch auf Karten angewendet werden.
 
 Weil Kartendaten in Teams eine Kopie der Daten in [!INCLUDE [prod_short](includes/prod_short.md)] sind, können Sie auch [!INCLUDE [prod_short](includes/prod_short.md)] Funktionen zum Exportieren der Kundendaten sofern erforderlich verwenden. Weitere Informationen zum Datenschutz in [!INCLUDE [prod_short](includes/prod_short.md)] finden Sie unter [FAQ zu Datenschutz für Business Central Debitoren](/dynamics365/business-central/dev-itpro/security/privacyfaq).
 

@@ -2,7 +2,6 @@
 title: WIP-Methoden für die Berechnung und Aufzeichnung des Projektstatus
 description: Beschreibt die unterschiedlichen Umlaufbestand (WIP)-Methoden, die verwendet werden können, um Finanzdaten für Projekte zu senden und zu überwachen, die im Umlaufbestand sind.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: work in process, work in progress, calculate project WIP
 ms.search.form: 1010
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d7fbe8faa3fc4d75f068ad585faddeb1b5186e70
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: bfae06855a633642ebc8032578f4f4c1bf4e35d3
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7970885"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8131249"
 ---
 # <a name="understanding-wip-methods-in-project-management"></a>Grundlegendes zu WIP-Methoden im Projektmanagement
 

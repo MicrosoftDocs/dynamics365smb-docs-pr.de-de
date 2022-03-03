@@ -2,7 +2,6 @@
 title: Einrichten von unrealisierter Mehrwertsteuer
 description: Wenn Sie Einnahmen- und Ausgabenrechnung verwenden, können Sie angeben, wie Sie unrealisierte MwSt. für Verkäufe und Einkäufe behandeln möchten.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: cash, VAT, unrealized, cash-based
 ms.search.form: 118, 472, 473
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 02ad408b55340bca218859d6742b0d74fbb1a294
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 2f57799d0c0bf8f238745107cccd6c9694c7ea16
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7971888"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8137965"
 ---
 # <a name="set-up-unrealized-vat-for-cash-based-accounting"></a>Einrichten unrealisierter MwSt. für Einnahmen- und Ausgabenrechnung
 

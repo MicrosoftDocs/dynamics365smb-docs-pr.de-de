@@ -2,7 +2,6 @@
 title: So erstellen Sie Serviceaufträge
 description: Lernen Sie die verschiedenen Aufgaben kennen, die mit dem Erstellen von Serviceaufträgen in Business Central verbunden sind, z.B. das Erstellen eines neuen Serviceauftrags oder von Aufträgen auf der Basis eines Servicevertrags.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: adac8451aadd5aa5d6c772b16baefe60dea317b1
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: d74aa4a4898010f4aeb3adfee37f4628dbea1f30
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441935"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8140631"
 ---
 # <a name="create-service-orders"></a>Erstellen von Serviceaufträgen
 Sie können die Seite **Serviceauftrag** verwenden, um Belege zu erstellen, in die Sie Informationen über den Service (Reparatur und Wartung) von Serviceartikeln auf Debitorenanfrage eingeben.  

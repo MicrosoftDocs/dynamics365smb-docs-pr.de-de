@@ -2,7 +2,6 @@
 title: Eine Standortkarte festlegen und Umlagerungsrouten definieren (enthält ein Video)
 description: Wenn Sie Artikel an mehreren Orten oder Lagern kaufen, lagern oder verkaufen, müssen Sie für jeden Lagerort eine Standortkarte festlegen und Umlagerungsrouten definieren.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: warehouse, distribution center
 ms.search.forms: 5703, 15
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 2482b25e6b8e29e5cff420db1700943ca4f1df51
-ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
+ms.openlocfilehash: 0a2d5234a78daf6243591cc478ab7b19957a196a
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060090"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8130337"
 ---
 # <a name="set-up-locations"></a>Einrichten von Lagerorten
 

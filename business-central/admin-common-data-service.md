@@ -5,15 +5,14 @@ author: bholtorf
 ms.author: bholtorf
 ms.custom: na
 ms.reviewer: na
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.date: 06/14/2021
-ms.openlocfilehash: 9555ce9f7a072376b38a0be460b74c46f2b3f3f9
-ms.sourcegitcommit: 1508643075dafc25e9c52810a584b8df1d14b1dc
+ms.openlocfilehash: 95b1146f2f664ad73966162e24c3e0ad0c34e310
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "8049461"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141437"
 ---
 # <a name="integrating-with-microsoft-dataverse"></a>Integrieren in Microsoft Dataverse
 

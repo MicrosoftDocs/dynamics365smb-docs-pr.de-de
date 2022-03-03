@@ -3,7 +3,6 @@ title: Marketing & Vertrieb
 description: Die Funktionen zur Verwaltung von Geschäftsbeziehungen unterstützen Ihre Vertriebsbemühungen und ermöglichen Ihnen den Zugriff auf Informationen über Kontakte und Interessenten, um Kunden effizient zu bedienen.
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,12 +11,12 @@ ms.search.keywords: contact, prospect, client
 ms.search.forms: 9076, 9026
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 09b9ecdc1d8f0b2a36193a6f931b2ac3fc03f4d4
-ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
+ms.openlocfilehash: 3dec95b484bce34c2eff2cbc49510e54f871f4ef
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8059948"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8137861"
 ---
 # <a name="managing-relationships"></a>Verwalten von Beziehungen
 Die Marketing & Vertriebsverwaltungsfeatures von [!INCLUDE[prod_short](includes/prod_short.md)] unterstützen Sie beim Verwalten und Ausführen von Verkaufsmaßnahmen. Mit diesen Features haben Sie Zugriff auf umfassende und exakte Informationen, dank derer Sie Ihre Aktivitäten auf bevorzugte Debitoren-Kontaktsegmente konzentrieren können.

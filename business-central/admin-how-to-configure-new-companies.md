@@ -2,7 +2,6 @@
 title: 'Vorgehensweise: Konfigurieren neuer Unternehmen | Microsoft Docs'
 description: Sie können ein neues Unternehmen, das Sie erstellt haben, konfigurieren und anpassen. Um Ihre Implementierung abzustimmen, gehen Sie in drei Phasen vor, um die Konfiguration abzuschließen.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b7a71e6611d78555d4be266e2b972152e5c43857
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: f0964028b7d6e711e48e1361950d1ec6b4e14425
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439685"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8130800"
 ---
 # <a name="configure-new-companies"></a>So konfigurieren Sie einen neuen Mandanten.
 Um einen neuen Mandanten in der Lösungsimplementierung zu konfigurieren, folgen Sie in der Regel drei Phasen. In der ersten Phase importieren Sie das Konfigurationspaket, eine .rapidstart-Datei mit den Konfigurationsinformationen. In der zweiten Phase ändern Sie die Konfigurationsinformationen und übernehmen sie dann für Ihren neuen Mandanten. In der letzten Phase überprüfen Sie auf Fehler und korrigieren diese.  

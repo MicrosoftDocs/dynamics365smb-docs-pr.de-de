@@ -2,7 +2,6 @@
 title: Beschaffungsplanung
 description: Vorbereiten eines ausführlichen ausführbaren Plan und der Montageplan für Verkäufe und Produktionsbedarf.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.for: 291, 292, 293, 295, 517, 9010, 9038
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c589fbccabed3f8e021e503ee8a1fbac17ad5db7
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: df1489446627b1043f348a2f1cf5e457ae757018
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7972619"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146410"
 ---
 # <a name="planning"></a>Planung
 

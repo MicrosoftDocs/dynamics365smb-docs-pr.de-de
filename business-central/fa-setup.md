@@ -2,7 +2,6 @@
 title: Anlagen einrichten
 description: Kennenlernen der die Abfolge von Aufgaben, die Sie ausführen müssen, um Anlagen einzurichten, wie Arbeitsplätze oder Gebäude.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: machinery, buildings
 ms.search.form: 5607
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 874c1c18611f0aa165a8537642324334e8e0798a
-ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
+ms.openlocfilehash: 3213dfabc13b9402c794589b6bced5fe3350cf5d
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "8029536"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8136192"
 ---
 # <a name="setting-up-fixed-assets"></a>Anlagen einrichten
 Um mit Anlagen arbeiten können, müssen Sie einige Elemente festlegen:  

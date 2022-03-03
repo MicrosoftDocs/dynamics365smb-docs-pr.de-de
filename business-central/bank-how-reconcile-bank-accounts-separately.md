@@ -2,7 +2,6 @@
 title: Bankkonten abstimmen
 description: Dieses Thema beschreibt, wie Sie die Transaktionen in Ihren internen Bankkonten mit den Transaktionen in den Kontoauszügen Ihrer Bank abstimmen.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: bank account balance, bank statement
 ms.search.form: 379, 388, 1290, 10124
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 7880227a09696b6de8411a09ba04ebd3e2395543
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 89fc1b881ce738d50ae40088be265d3944491f21
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7971483"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8128999"
 ---
 # <a name="reconcile-bank-accounts"></a>Bankkonten abstimmen
 

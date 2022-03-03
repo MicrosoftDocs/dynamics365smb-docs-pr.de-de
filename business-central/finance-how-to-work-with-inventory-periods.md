@@ -2,7 +2,6 @@
 title: Arbeiten mit Lagerbuchungsperioden
 description: Sie können den Zeitrahmen steuern, auf den Mitarbeiter Beitragsänderungen des Lagerbestandes buchen können, indem Sie Lagerbuchungsperioden definieren.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: inventory, periods
 ms.search.form: 5828
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d41936ece0911f726a72476716b148bede71a25b
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 9812d6f5b58839d1374f443497553734b46865e6
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7970622"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8136036"
 ---
 # <a name="work-with-inventory-periods"></a>Arbeiten mit Lagerbuchungsperioden
 

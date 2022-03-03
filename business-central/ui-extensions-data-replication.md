@@ -2,7 +2,6 @@
 title: Cloud-Migrationserweiterungen
 description: Verwenden Sie die Cloudmigrationserweiterungen, um Ihre lokalen Daten zu Business Central online zu migrieren. Diese Erweiterungen verschieben Ihre Daten vor Ort in die Cloud.
 author: jenolson
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.reviewer: edupont
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: f76241497eea8a53dfc054c895bf4a788e2226a4
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 5c18605da5ba115f39d46c317eaf51278c8948cf
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6322297"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8129968"
 ---
 # <a name="cloud-migration-extensions-for-migrating-to-business-central-online"></a>Cloud-Migrationserweiterungen für die Migration zu Business Central Online
 

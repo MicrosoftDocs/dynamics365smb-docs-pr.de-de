@@ -2,7 +2,6 @@
 title: Servicepreismanagement
 description: Mit der Servicepreisverwaltung können Sie Servicepreisgruppen, Servicepreise, Servicepreisanpassung und mehr festlegen.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: 1857efe5dd3accf7f8ec53a57ce9a614efbeacad
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: e6cfc801e40bfae60dd687ede073bd4367e69092
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438282"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142960"
 ---
 # <a name="service-price-management"></a>Servicepreismanagement
 Die Funktionalität "Servicepreismanagement" erlaubt Ihnen, den Serviceaufträgen die besten Preise zuzuordnen, individuelle Preisvereinbarungen mit Kunden einzurichten, die Effizienz der Servicemitarbeiter zu verbessern und den Rechnungsstellungsprozess zu beschleunigen.  

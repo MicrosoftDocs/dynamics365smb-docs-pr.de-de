@@ -3,7 +3,6 @@ title: Cloud-Migrationsbasiserweiterung
 description: Verwenden Sie die Cloud-Migrationsbasiserweiterung, um Ihre lokale Lösung mit Business Central Online zu verbinden.
 author: edupont04
 manager: edupont
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7b6c312192f2c20ce54c20241d2cc77e3ca1fda5
-ms.sourcegitcommit: 951d3c9d541f0b1d26712d37e253c2958dae3321
+ms.openlocfilehash: 8999ad14b3937ddcbc0f0935338173a35f698b30
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5889180"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8136795"
 ---
 # <a name="cloud-migration-base-extension"></a>Cloud-Migrationsbasiserweiterung
 

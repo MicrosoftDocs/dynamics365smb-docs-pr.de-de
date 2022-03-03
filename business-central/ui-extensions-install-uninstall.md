@@ -3,7 +3,6 @@ title: Installieren und Deinstallieren von Erweiterungen in Business Central | M
 description: Hier erfahren Sie etwas über das Installieren und Deinstallieren von Erweiterungen in Business Central.
 documentationcenter: ''
 author: SusanneWindfeldPedersen
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize, install, uninstall
 ms.date: 06/03/2021
 ms.author: solsen
-ms.openlocfilehash: b9028bf88940a8c378469078ca680858b7702872
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 7868e0dc10c3ec0f81f39b714b8d517fcf3c5f06
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589157"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8140397"
 ---
 # <a name="installing-and-uninstalling-extensions-in-business-central"></a>Installieren und Deinstallieren von Erweiterungen in Business Central
 
