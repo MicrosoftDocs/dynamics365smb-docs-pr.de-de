@@ -2,7 +2,6 @@
 title: Erstellen und Ändern von angepassten Layouts für Berichte und Belege
 description: Erfahren Sie, wie Sie angepasste Layouts erstellen, um das Erscheinungsbild eines Berichts beim Anzeigen, Drucken oder Speichern zu personalisieren.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9650, 9652
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a3e16ff82492c3331be901c5be5d30de6d302787
-ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
+ms.openlocfilehash: 0b4642f6ca4c7701cbb49e8441debccfbd32b9be
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/08/2022
-ms.locfileid: "8101055"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8134717"
 ---
 # <a name="create-and-modify-custom-report-layouts"></a>Erstellen und Ändern benutzerdefinierter Berichtslayouts
 
@@ -56,7 +55,7 @@ Wenn angepasste Berichtslayouts definiert sind, können Sie diese aus Kunden- un
 Das benutzerdefinierte Layout wurde erstellt. Sie können das benutzerdefinierte Layout jetzt bei Bedarf ändern.
 
 > [!TIP]
-> Sie können die Berichtsergebnisse in eine Excel-Datei exportieren, um das komplette Dataset einschließlich aller Spalten, aber ohne das Layout, zu betrachten. Die Excel-Datei kann Ihnen helfen, zu überprüfen, ob der Bericht die erwarteten Daten liefert, oder Probleme zu diagnostizieren. Weitere Informationen finden Sie unter [Arbeiten mit Berichten – Senden an Excel](ui-work-report.md#send-to-excel).
+> Sie können die Berichtsergebnisse in eine Excel-Datei exportieren, um das komplette Dataset einschließlich aller Spalten, aber ohne das Layout, zu betrachten. Die Excel-Datei kann Ihnen helfen, zu überprüfen, ob der Bericht die erwarteten Daten liefert, oder Probleme zu diagnostizieren. Weitere Informationen finden Sie unter [Analysieren von Berichtsdaten mit Excel](report-analyze-excel.md).
 
 ## <a name="modifying-a-custom-layout"></a><a name="ModifyCustomLayout"></a>Ändern eines benutzerdefinierten Layouts
 

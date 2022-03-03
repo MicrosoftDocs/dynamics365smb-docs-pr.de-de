@@ -2,7 +2,6 @@
 title: Verarbeiten einer Verkaufsrücklieferung oder von Stornierungen
 description: Hier wird beschrieben, wie Sie eine Verkaufsgutschrift erstellen, um eine Rückgabe, Stornierung oder Rückerstattung für Artikel oder Dienstleistungen zu verarbeiten, für die Sie eine Zahlung erhalten haben.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: undo, credit memo, return
 ms.search.form: 44, 134, 143, 9302
 ms.date: 09/27/2021
 ms.author: edupont
-ms.openlocfilehash: 1f346acbfc39eeece4ef5d1eb66c3e81432e3335
-ms.sourcegitcommit: a9e2aaee735870af566db68532cfa697347d68e0
+ms.openlocfilehash: de67c2dd217c50d4c8109c286940e76056df19c9
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752443"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8137081"
 ---
 # <a name="process-sales-returns-or-cancellations"></a>Verarbeiten einer Verkaufsrücklieferung oder von Stornierungen
 

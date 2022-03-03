@@ -2,7 +2,6 @@
 title: Designdetails – Kalkulationsmethoden
 description: Dieses Thema beschreibt, wie sich die Kalkulationsmethode darauf auswirkt, wie Ist- und Planwerte kapitalisiert und in der Kostenkalkulation verwendet werden.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 30, 31, 8645
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 8c05c009cddcb957cc55b6ee5c384747033b9971
-ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
+ms.openlocfilehash: 6c52c6399beae37b65627e00a96dfc16e665a4e4
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8115158"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8139781"
 ---
 # <a name="design-details-costing-methods"></a>Designdetails: Kostenberechnungsmethoden
 

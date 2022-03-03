@@ -4,7 +4,6 @@ description: Sie können Ihre Debitor- oder Clientaktivitäten beispielsweise Ve
 services: project-madeira
 documentationcenter: ''
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,12 +11,12 @@ ms.workload: na
 ms.search.keywords: marketing, relationship, prospect, contact, client, customer
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 0d6365bda6f8d027f01cc9cfa381463fa925ad91
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: ef6e6561ca2a7c3d51a192e6565242dc6f82505b
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437291"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8140969"
 ---
 # <a name="recording-interactions-with-contacts-automatically"></a>Aktivitäten mit Kontakten automatisch aufzeichnen
 Sie können Anwendung für die Automatische Aufzeichnung von Aktivitäten für Verkaufs-, Einkaufs- und Servicebelege, Deckblätter, E-Mails und Telefonanrufe konfigurieren:

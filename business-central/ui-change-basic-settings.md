@@ -2,21 +2,20 @@
 title: Die Grundeinstellungen für den aktuellen Benutzer ändern
 description: Hier erfahren Sie, wie Sie einige grundlegende Einstellungen in Business Central festlegen können, z. B. Ihre Rolle und Ihr Rollenzentrum, Ihre Firma, Ihr Arbeitsdatum und Ihre Zeitzonen.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date, decimal separator
-ms.search.form: 9022, 9019, 9027
+ms.search.form: 9022, 9019, 9027, 9020, 9026, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 10/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 38301359b6f13b809b2f980fdf5dc3b4a678451d
-ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
+ms.openlocfilehash: 2939b3b8545c1f0679052b51d76f596aae14cfc6
+ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "8029036"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8322929"
 ---
 # <a name="change-basic-settings"></a>Ändern von grundlegenden Einstellungen
 

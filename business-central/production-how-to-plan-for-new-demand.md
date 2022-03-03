@@ -2,7 +2,6 @@
 title: Planung der Bestellung eines neuen Bedarfs von Auftrag
 description: Diese Planungsaufgabe kann auf der Seite „Auftragsplanung“ durchgeführt werden, die neuen Bedarf zusammen mit Verfügbarkeitsinformationen und Beschaffungsvorschlägen anzeigt, einschließlich Ersatz der Artikel.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 5522, 5524, 5526
 ms.date: 07/29/2021
 ms.author: edupont
-ms.openlocfilehash: 2f8d31513984ced422d4bedae9c70cac703fd775
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 8d26c606782193ee9017b4f57577d3e6cdf79cab
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7972330"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8148382"
 ---
 # <a name="plan-for-new-demand-order-by-order"></a>Planung der Bestellung eines neuen Bedarfs von Auftrag
 

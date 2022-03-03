@@ -2,18 +2,17 @@
 title: Währungswechselsätze aktualisieren (enthält Video)
 description: Verfolgen Sie Beträge in verschiedenen Währungen mithilfe der Währungscodes, und lassen Sie mithilfe von Business Central die Wechselkurse der gebuchte Posten mit einer Fremdleistung anpassen.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: multiple currencies, adjust exchange rates, FX rates
 ms.search.form: 5, 118
-ms.date: 07/23/2021
+ms.date: 02/17/2022
 ms.author: edupont
-ms.openlocfilehash: 93a5059be3810af4d0351c6508c5d6119eaa4015
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 04f96b269b842045c1a804f976ffddfd5348befc
+ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7972879"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323266"
 ---
 # <a name="update-currency-exchange-rates"></a>Währungswechselkurse aktualisieren
 
@@ -28,6 +27,9 @@ Ihre Finanzbuchhaltung wird in der Mandantenwährung (MW) eingerichtet. Sie kön
 
 > [!IMPORTANT]
 > Wenn Sie eine zusätzliche Berichtswährung für die Finanzberichterstattung verwenden wollen, vergewissern Sie sich, dass Sie die Einschränkungen verstehen. Weitere Informationen finden Sie unter [Zusätzliche Berichtswährung einrichten](finance-how-setup-additional-currencies.md).
+
+> [!NOTE]  
+> Wenn Sie mit einem Währungscode auf Sachkonten buchen, z. B. um einen Aufwand in einem FibuBuch.-Blatt mit einem Währungscode buchen, wird die Transaktion mit dem Wechselkurs des Buchungsdatums in MW umgerechnet. Der Sachposten enthält keine Informationen darüber, welche Währung verwendet wurde, sondern nur deren Wert in MW. Wenn Sie die ursprüngliche Währung verfolgen möchten, z. B. für eine Rechnung, müssen Sie die Verkaufs- und Einkaufsbeleg sowie Bankkonten verwenden, die Währungscodeinformationen für die Einträge speichern.
 
 ## <a name="currencies"></a>Währungen
 

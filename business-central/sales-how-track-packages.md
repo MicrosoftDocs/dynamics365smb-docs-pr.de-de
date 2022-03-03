@@ -1,19 +1,18 @@
 ---
-title: So können Sie Pakete verfolgen
+title: Pakete verfolgen
 description: Verwenden Sie die Sendungsverfolgung für Zusteller im Internet, um Pakete zu verfolgen und den Fortschritt einer Lieferung zu verfolgen.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: rfq
-ms.search.form: 103, 142, 800, 806
+ms.search.form: 142, 800, 806
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 8c05c4a86e0bf9ace996dfc879b719324dc99593
-ms.sourcegitcommit: a9e2aaee735870af566db68532cfa697347d68e0
+ms.openlocfilehash: b5a819c1aeea44b39f7c8497420e08af3c0ae2ab
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752366"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8334486"
 ---
 # <a name="track-packages"></a>Pakete verfolgen
 Die meisten Spediteure bieten einen Webservice an, mit dem Sie den Status Ihrer Pakete unterwegs verfolgen können. Diese Informationen können in vielen Geschäftsprozessen nützlich sein, beispielsweise bei der Bereitstellung von Kundenservice. Wenn Sie einen oder mehrere dieser Zusteller verwenden, können Sie bestimmte Basisinformationen zu ihnen hinterlegen und die Funktionalität der Paketverfolgung von gebuchten Lieferungen, gebuchten Verkaufsrechnungen, gebuchten Verkaufsgutschriften und gebuchten Rücksendungen aus nutzen. Weitere Informationen finden Sie unter [Versand-Agenten](sales-how-to-set-up-shipping-agents.md). 

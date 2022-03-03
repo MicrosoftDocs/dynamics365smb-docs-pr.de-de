@@ -2,7 +2,6 @@
 title: GDPdU Filter Beispiele [DE]
 description: Das folgende Thema enthält Beispiele, wie Sie unterschiedliche Filtertypen verwenden und kombinieren können, wenn Sie Ihre GPDdU-Exporte einrichten.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 11002, 11003, 11004, 11007, 11008, 11009, 11014, 11026, 11027
 ms.date: 06/18/2021
 ms.author: edupont
-ms.openlocfilehash: 83616b6819df662a313dd7af0a0434b6058825cb
-ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
+ms.openlocfilehash: 846435bfcf002fa0ac24a2bb78dd4ab9b3aadb09
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/28/2021
-ms.locfileid: "7947224"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8134462"
 ---
 # <a name="gdpdu-filter-examples-in-the-german-version"></a>GDPdU-Filter-Beispiele in der deutschen Version
 

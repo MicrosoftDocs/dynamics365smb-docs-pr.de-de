@@ -2,19 +2,18 @@
 title: Testversionen und Abonnements
 description: Erfahren Sie, wie Sie eine Testversion von Business Central erhalten, wie Sie mit Sandboxumgebungen arbeiten und wie Sie sich für ein Abonnement anmelden.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox, subscription
 ms.search.form: 1803, 1801
-ms.date: 09/29/2021
+ms.date: 02/18/2022
 ms.author: edupont
-ms.openlocfilehash: 01bdfbd52db384176defb5383470346b086fe293
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: 4b31d6d4ca0a7fba8376437fb37f3678f607f7b3
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8011546"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8335526"
 ---
 # <a name="prod_long-trials-and-subscriptions"></a>[!INCLUDE[prod_long](includes/prod_long.md)] Testversionen und Abonnements
 
@@ -38,7 +37,7 @@ Wenn Sie [!INCLUDE [prod_short](includes/prod_short.md)] nicht verwenden möchte
 
 ### <a name="add-your-own-data-to-an-empty-trial-company"></a>Eigene Daten zu einer leeren Testversion der Firma hinzufügen
 
-Wenn Sie [!INCLUDE[prod_short](includes/prod_short.md)] mit Ihren eigenen Daten ausprobieren möchten, können Sie zu einer kostenlosen 30-tägigen Testversion mit einer leeren Firma wechseln. Mithilfe der Anleitung für die unterstützte Einrichtung **Mein Unternehmen einrichten** können Sie grundlegende Informationen zu Ihrem Unternehmen angeben. Optional können Sie Daten aus Ihrer vorhandenen Geschäftsverwaltungslösung importieren, damit Sie [!INCLUDE[prod_short](includes/prod_short.md)] mit Ihren eigenen Daten auswerten können. Wir empfehlen Ihnen jedoch, keine kostenlose Testversion zu verwenden, um Ihr Unternehmen zu unterstützen. Kontaktieren Sie [einen Vertriebspartner](/dynamics365/business-central/across-faq#findpartner), um mehr Informationen zu den ersten Schritten [!INCLUDE[prod_short](includes/prod_short.md)] zu erhalten.  
+Wenn Sie [!INCLUDE[prod_short](includes/prod_short.md)] mit Ihren eigenen Daten ausprobieren möchten, können Sie zu einer kostenlosen 30-tägigen Testversion mit einer leeren Firma wechseln. Mithilfe der Anleitung für die unterstützte Einrichtung **Mein Unternehmen einrichten** können Sie grundlegende Informationen zu Ihrem Unternehmen angeben. Optional können Sie Daten aus Ihrer vorhandenen Geschäftsverwaltungslösung importieren, damit Sie [!INCLUDE[prod_short](includes/prod_short.md)] mit Ihren eigenen Daten auswerten können. Wir empfehlen Ihnen jedoch, keine kostenlose Testversion zu verwenden, um Ihr Unternehmen zu unterstützen. Kontaktieren Sie [einen Vertriebspartner](/dynamics365/business-central/across-faq#findpartner), um mehr Informationen zu den ersten Schritten [!INCLUDE[prod_short](includes/prod_short.md)] zu erhalten. Der Partner kann Ihnen auch dabei helfen, Ihre Daten zu [!INCLUDE [prod_short](includes/prod_short.md)] online zu migrieren.  
 
 Wenn 30 Tage nicht ausreichen, um eine Entscheidung zu treffen, können Sie Ihre Testversion verlängern. Weitere Informationen finden Sie unter [Benötigen Sie mehr Zeit, um zu entscheiden, ob Sie abonnieren möchten?](admin-extend-trial.md).  
 
@@ -105,6 +104,7 @@ Der Administrator Ihrer [!INCLUDE[prod_short](includes/prod_short.md)] und Ihr V
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Häufig gestellte Fragen](across-faq.yml)  
 [Wie finde ich einen Vertriebspartner?](/dynamics365/business-central/across-faq#findpartner)  
+[Daten migrieren](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
 [Auswählen Ihrer Dynamics 365 Business Central-Entwicklungssandkasten-Umgebung](/dynamics365/business-central/dev-itpro/developer/devenv-sandbox-overview?toc=/dynamics365/business-central/toc.json)  
 [Verfügbarkeit in Ländern/Regionen und unterstützte Übersetzungen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
 [Tests verlängern (als Administrator)](/dynamics365/business-central/dev-itpro/administration/tenant-administration#extending-trials)  

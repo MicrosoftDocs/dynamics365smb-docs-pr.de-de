@@ -2,21 +2,20 @@
 title: Führen Sie Stapeljobs und XMLports aus
 description: Sie führen Stapelverarbeitungen durch , um Daten zu verarbeiten und Informationen zu aktualisieren, um periodische Buchhaltungsaktivitäten oder Berechnungen durchzuführen.
 author: SusanneWindfeldPedersen
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: task, process
-ms.search.form: 672, 676, 682
+ms.search.form: 672, 676, 682, 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: solsen
-ms.openlocfilehash: 84741ec7d98e405aeb5792a5d1a907221eef11f7
-ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
+ms.openlocfilehash: 7d06ebd368f42c142d7cb222ee378da79706132e
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/08/2022
-ms.locfileid: "8100977"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8335396"
 ---
 # <a name="run-batch-jobs-and-xmlports"></a>Führen Sie Stapeljobs und XMLports aus
 

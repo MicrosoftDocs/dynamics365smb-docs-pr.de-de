@@ -1,20 +1,20 @@
 ---
-title: Arbeiten mit intelligenten Benachrichtigungen und angeben, wenn Sie sie sehen | Microsoft Docs
+title: Arbeiten mit intelligenten Benachrichtigungen und festlegen, wann sie angezeigt werden
 description: Sie können Benachrichtigungen erhalten, die Sie über Statusänderungen oder Ereignissen, beispielsweise, ein überfälliger Saldo oder ein Logistik Basis informieren.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2021
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.author: bholtorf
-ms.openlocfilehash: 3fbf2905f20f1f19fc3bd6fb315e63f9944528b9
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 53a1852ca3c957b4b2cf0a2c23652b616bd383cb
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439977"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8334617"
 ---
 # <a name="manage-notifications"></a>Verwalten von Benachrichtigungen
 

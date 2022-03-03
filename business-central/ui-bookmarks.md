@@ -2,20 +2,20 @@
 title: Lesezeichen-Link zu Seite oder Bericht in Role Center
 description: Mit dem Lesezeichensymbol können Sie über das Navigationsmenü Ihres Rollencenters eine Aktion hinzufügen, die eine Seite oder einen Bericht öffnet.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: ec89d35da258020ce08710d3eafc4bce32cf81a8
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 5cc5f6039a25161267127f40f4f3077725c5d0bc
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6446022"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8334928"
 ---
 # <a name="bookmark-a-page-or-report-on-your-role-center"></a>Erstellen eines Lesezeichens für eine Seite oder einen Bericht im Rollencenter
 Mit dem Symbol für ein Lesezeichen können Sie eine Aktion hinzufügen, die eine Seite oder einen Bericht aus dem Navigationsmenü Ihres Role Centers öffnet. Lesezeichen lassen zu, dass Sie schnell zu Ihren bevorzugten Inhalten oder Geschäftsaufgaben gelangen. Sie fügen das Lesezeichen von der Zielseite oder dem Zielbericht aus hinzu, d. h. von dem Bildschirm, der durch den Link im Rollenzentrum geöffnet werden soll.

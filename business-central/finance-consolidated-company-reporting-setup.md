@@ -2,7 +2,6 @@
 title: Unternehmenskonsolidierung einrichten
 description: Erfahren Sie, wie Sie konfigurieren können, wie Daten von verschiedenen Unternehmen in Business Central an ein Konsolidierungsunternehmen gemeldet werden.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: consolidation, subsidiaries, consolidate
 ms.search.form: 1826, 1827
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: a0a4b5ad87d381f836ac61f234d633e5d30003eb
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 2f28ea1822677e1690f5cf3b5fb68afca221b9f8
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7972070"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8149075"
 ---
 # <a name="set-up-company-consolidation"></a>Unternehmenskonsolidierung einrichten
 

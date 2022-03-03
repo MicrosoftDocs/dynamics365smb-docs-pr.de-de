@@ -2,21 +2,21 @@
 title: Intelligente Einblicke und Cloudmigration
 description: In Business Central Online haben Sie Zugriff auf andere Onlinedienste und erhalten intelligente Einblicke, die beispielsweise auf Azure AI basieren. Lesen Sie weiter, wenn Sie eine Migration von lokal in die Cloud in Betracht ziehen.
 author: bmeier94
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
 ms. search.keywords: cloud, migrate, insights
+ms.search.form: 9018, 9020, 9022, 9027
 ms.date: 04/12/2021
 ms.author: edupont
-ms.openlocfilehash: d98f876648f642484fe44e91da14120265e9a451
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 35457b6723ed514fb09d379c55062995d423c24d
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442610"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8335136"
 ---
 # <a name="intelligent-insights-in-prod_short-online"></a>Intelligente Einblicke in [!INCLUDE[prod_short](includes/prod_short.md)] Online
 

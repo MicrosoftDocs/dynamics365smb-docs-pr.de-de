@@ -2,24 +2,23 @@
 title: Migrieren von Debitorendaten
 description: Sie können vorhandene Kundendaten mithilfe von von einem vorhandenen System nach Business Central migrieren, indem Sie RapidStart Services verweden oder diese einfach direkt in das Unternehmen eingeben.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.search.form: 1799, 1807, 8632, 1800, 1340
+ms.date: 02/18/2022
 ms.author: edupont
-ms.openlocfilehash: 38e2062566d77d539b1280bdc4829f55bace386b
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: f339e5c878d64cb243c34c97f6711629389bfa0e
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437466"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8335370"
 ---
 # <a name="migrate-customer-data"></a>Migrieren von Debitorendaten
 
-Sie können vorhandene Debitorendaten aus einem vorhandenen ERP-System nach [!INCLUDE[prod_short](includes/prod_short.md)] migrieren, indem Sie die Datenmigrationswerkzeuge aus RapidStart Services verwenden. Sie können Excel-.xlsx-Dateien als Datenträger verwenden. Sie können die Daten auch manuell umlagern, indem Sie sie direkt in den Mandanten eingeben.
+Sie können vorhandene Debitorendaten aus einem vorhandenen ERP-System nach [!INCLUDE[prod_short](includes/prod_short.md)] migrieren, indem Sie die Datenmigrationswerkzeuge aus RapidStart Services verwenden. Sie können Excel-.xlsx-Dateien als Datenträger verwenden. Sie können die Daten auch manuell umlagern, indem Sie sie direkt in den Mandanten eingeben. Alternativ können Sie Daten anhand der Anleitung **Cloud-Migration** verschieben. Weitere Informationen finden Sie unter [Daten migrieren](/dynamics365/business-central/dev-itpro/administration/migrate-data) im Administratorinhalt.
 
 > [!NOTE]
 > Felder vom Typ Blob können nicht mithilfe von Excel exportiert/importiert werden.

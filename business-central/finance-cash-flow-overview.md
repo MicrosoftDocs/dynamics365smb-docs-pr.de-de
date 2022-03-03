@@ -2,7 +2,6 @@
 title: Cashflowübersicht
 description: Eine Übersicht über eingehenden und ausgehenden Cashflows, um den Erhalt und die Auszahlung von Geld vorherzusagen.
 author: jill-kotel-andersson
-ms.service: dynamics365-business-central
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: cash flow, money flow, expense and income, liquidity, cash r
 ms.search.form: 841, 849, 1818
 ms.date: 12/20/2021
 ms.author: edupont
-ms.openlocfilehash: e5ce39c435c236719e6ee564217a0b1f7e338cf2
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: fef3a27cf02d48fcf08a7bb70c469ed2820d0753
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8011096"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8149101"
 ---
 # <a name="cash-flow-overview"></a>Cashflowübersicht
 

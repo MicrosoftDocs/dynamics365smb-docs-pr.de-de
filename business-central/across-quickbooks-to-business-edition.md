@@ -2,7 +2,6 @@
 title: Daten aus einer QuickBooks-App übertragen
 description: Sie können Daten, wie Debitoren, Kreditoren, Lagerartikel und Sachkonten aus QuickBooks-Apps auf Business Central migrieren.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: app, import, migrate, data, transfer, QuickBooks, customize
 ms.search.form: 1808
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 76a53a828fb953210cb9094cad07434d4f7906dc
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: 9e8f24712efe1c6902d83e3c454d5c90209629c3
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8012523"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8134045"
 ---
 # <a name="changing-from-a-quickbooks-app-to-dynamics-365-business-central"></a>Von einer QuickBooks-App zu Dynamics 365 Business Central wechseln
 Mehr und mehr zunehmende Geschäfte wechseln von Finanz-Apps, wie QuickBooks Desktop und QuickBooks Online, die für Startups und andere Kleinunternehmen vorgesehen sind, zu [!INCLUDE[prod_short](includes/prod_short.md)], das auch größere komplexere Organisationen unterstützt. 

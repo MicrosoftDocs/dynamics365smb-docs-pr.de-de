@@ -2,20 +2,20 @@
 title: Häufig gestellte Fragen zu Tell Me
 description: In diesem Artikel finden Sie Antworten auf Fragen, die unsere Partner und Kunden häufig zur „Wie möchten Sie weiter verfahren“-Funktion stellen.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/24/2021
 ms.author: bholtorf
-ms.openlocfilehash: 20493ffc3dd20da07d5f27602f4c766a0ebfbd87
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 13605b6188f9aa2c30a82cbb8216d8419a711d31
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6325863"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8334681"
 ---
 # <a name="tell-me-faq"></a>Häufig gestellte Fragen zu „Wie möchten Sie weiter verfahren“
 In diesem Thema werden Fragen beantwortet, die unsere erfahrenen Benutzer häufig zu der Funktion "Wie möchten Sie weiter verfahren" stellen.

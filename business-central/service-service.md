@@ -2,7 +2,6 @@
 title: Service
 description: Lernen Sie die Funktionen in Business Central kennen, die für die Verwaltung und Nachverfolgung von Dienstleistungen zur Unterstützung von Werkstatt- und Außendienstvorgängen entwickelt wurden.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 4e3f85ae3bc5f8672f148ad04388e5810cefb45f
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 9b579b2b91d9699800b5fbf550c58c2e7caaa77d
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6320081"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142906"
 ---
 # <a name="service-management"></a>Service
 > [!NOTE]

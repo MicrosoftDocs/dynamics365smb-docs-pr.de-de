@@ -2,7 +2,6 @@
 title: Lagerbestand verwalten
 description: In diesem Thema wird beschrieben, wie Sie die physischen Produkte, die Sie in Zahlung nehmen, verwalten, indem Sie eine Karte für Lagerartikel erstellen.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: warehouse, stock
 ms.search.forms: 5804, 2106, 5823, 5751, 5750, 772, 5829, 5828, 513, 304, 40, 38, 167, 117, 5827, 9223, 158, 354, 9152, 286, 5754, 5402, 209, 297, 298, 99000782
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: fb7df1a8577648d306e2db2c7ef3a9bdf96b6c3e
-ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
+ms.openlocfilehash: c2479b23ba429d80137d5bbba6200c2e45a0f943
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060196"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8148488"
 ---
 # <a name="manage-inventory"></a>Lagerbestand verwalten
 

@@ -2,20 +2,20 @@
 title: Geschäftsfunktionen unterstützt durch Business Central
 description: Stellt eine Funktion für alle Abteilungen und Geschäftsfunktionen bereit, die durch Anwendungsbereichen wie z. B. Finanzen, Lager und Projektmanagement unterstützt werden.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8b60f8df6d40ceaf6c2c62397cb4d21f848d9aee
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: f25e6f2afbcb6f249bf3e04f35172d6678cbd113
+ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588351"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323110"
 ---
 # <a name="business-functionality"></a>Geschäftsfunktionen
 

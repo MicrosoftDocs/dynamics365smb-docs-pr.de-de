@@ -2,20 +2,20 @@
 title: Mehrsprachigkeit und Lokalisierung
 description: Erfahren Sie, wie die Sprache und Region die Benutzeroberfläche in Business Central beeinflussen. Um der Benutzeroberfläche die Sprache zu ändern, wechseln Sie zur Seite Meine Einstellungen.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: language, locale, localization, culture, region, regional settings
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 39927cc6adb02768a4358b2b7480a22cf68bc73a
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 5187d4f98360d7cf43300f86eda9e99dcbda4063
+ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588401"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323136"
 ---
 # <a name="changing-language-and-region"></a>Ändern der Sprache und der Region
 
@@ -26,7 +26,7 @@ Wenn Sie die kanadische Version von [!INCLUDE[prod_short](includes/prod_short.md
 Um der Benutzeroberfläche die Sprache zu ändern, wechseln Sie zur Seite **Meine Einstellungen**. Weitere Informationen finden Sie unter [Ändern der Grundeinstellungen](ui-change-basic-settings.md#language). 
 
 > [!NOTE]  
-> Die Auswahl der Sprachen wird auf Ihre Einstellung in Ihrem Microsoft 365-Profil zurückgesetzt, wenn Ihr Administrator Benutzer von Microsoft 365 mit [!INCLUDE[prod_short](includes/prod_short.md)] synchronisiert.
+> Die Auswahl der Sprachen wird auf Ihre Einstellung in Ihrem Microsoft 365-Profil zurückgesetzt, wenn Ihr Administrator Benutzer von Microsoft 365 mit [!INCLUDE[prod_short](includes/prod_short.md)] synchronisiert.
 
 Die Änderung der Texte in den Daten der Anwendung ist kein Bestandteil der Multilanguagefunktionalität. Dies ist durch das Design der Anwendung bedingt. Beispiele für solche Texte sind die Namen der Artikel oder Bemerkungen für einen Debitor. D. h. diese Textarten werden nicht übersetzt.  
 
@@ -36,7 +36,7 @@ Die Änderung der Texte in den Daten der Anwendung ist kein Bestandteil der Mult
 ## <a name="changing-your-region-setting"></a>Ändern der Einstellungen für Ihre Region
 Die Region unterscheidet sich von der Sprache und von gesetzlichen Vorschriften in den lokalen Märkten. Die Region bestimmt, wie Ihre Daten in Bezug auf das Kommatrennzeichen, die Ausrichtung nach links oder rechts und auf bestimmte andere Einstellungen dargestellt werden. Die Region bestimmt auch einige der Systemelemente im Browser, z. B. die Aktion zum Erstellen eines neuen Artikels in einer Liste.  
 
-Sie können die Region in der Browserregisterkarte ändern, mit der Sie in [!INCLUDE[prod_short](includes/prod_short.md)] arbeiten. Die Änderung bezieht sich nur auf Sie und die nicht die anderer Benutzer in Ihrem Unternehmen.  Die Auswahl der Region auf Ihre Einstellung in Ihrem Office-Profil zurückgesetzt wird, wenn Ihr Administrator Benutzer von Microsoft 365 mit [!INCLUDE[prod_short](includes/prod_short.md)] synchronisiert.
+Sie können die Region in der Browserregisterkarte ändern, mit der Sie in [!INCLUDE[prod_short](includes/prod_short.md)] arbeiten. Die Änderung bezieht sich nur auf Sie und die nicht die anderer Benutzer in Ihrem Unternehmen.  Die Auswahl der Region wird auf Ihre Einstellung in Ihrem Microsoft 365-Profil zurückgesetzt, wenn Ihr Administrator Benutzer von Microsoft 365 mit [!INCLUDE[prod_short](includes/prod_short.md)] synchronisiert.
 
 > [!IMPORTANT]  
 > Wenn Sie die Region ändern, wird eine eine lange Liste von Sprachen und Regionen angezeigt. Die Sprache wird jedoch nicht von der Auswahl der Region beeinflusst.  

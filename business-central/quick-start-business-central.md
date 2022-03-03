@@ -2,7 +2,6 @@
 title: Business Central Schnellstarts
 description: Machen Sie sich mit Business Central vertraut und nutzen Sie die Tipps aus den Schnellstart-Artikeln, die Ihnen beim Ausfüllen der ersten wichtigen Felder helfen.
 author: jill-kotel-andersson
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: quickstart
 ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: 0114eb0342f4113c40e85f15c21a9d628da7ffbb
-ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
+ms.openlocfilehash: ee2f9f6989e2f2c5142397a171b0709fb2e9b087
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/29/2021
-ms.locfileid: "7724787"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8147518"
 ---
 # <a name="business-central-quick-starts"></a>Business Central Schnellstarts
 

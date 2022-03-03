@@ -2,20 +2,20 @@
 title: Verfügbare Schriftarten
 description: Erfahren Sie mehr über die vorinstallierten Schriftarten, die Sie für Ihr externe Berichte verwenden können.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 11/30/2021
 ms.author: edupont
-ms.openlocfilehash: 6e57ffa9a004417fa16c92780b8c1bdc73c17570
-ms.sourcegitcommit: 58df17a2b79f32adb777fe1b1916baebc23cb584
+ms.openlocfilehash: faa581a88a6c7503c34177db459345a24638a95a
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/30/2021
-ms.locfileid: "7868301"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8334947"
 ---
 # <a name="available-fonts"></a>Verfügbare Schriftarten
 

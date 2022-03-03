@@ -1,15 +1,14 @@
 ---
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: include
 ms.date: 05/27/2021
 ms.author: edupont
-ms.openlocfilehash: dedbd4e0bc87531a96ca197fa48c6a22a71f65a6
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.openlocfilehash: 2a745a6a961226067f326cc1c1a1f61c4199401b
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115962"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8149023"
 ---
 Wenn der Debitor noch nicht erfasst wurde, dann führen Sie die folgenden Schritte durch:
 

@@ -2,20 +2,20 @@
 title: Lokale Funktionalität und Lokalisierungsstrategie
 description: Erfahren Sie mehr über die lokale Verfügbarkeit und die Einhaltung von Vorschriften in Business Central für die Länder, in denen Microsoft die lokale Funktionalität bereitstellt.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: availability, localization
+ms.search.form: 9018, 9020, 9022, 9027
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 6967e54999c1bb2a0a9e7fe095e8c3cca9543ec8
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 386953ce98bdd4d926c8ea8c698bb1463694d0ee
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6321695"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8334903"
 ---
 # <a name="local-functionality-in-prod_long"></a>Lokale Funktion in [!INCLUDE[prod_long](includes/prod_long.md)]
 

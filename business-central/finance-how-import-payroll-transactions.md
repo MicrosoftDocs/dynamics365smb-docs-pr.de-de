@@ -2,7 +2,6 @@
 title: Lohntransaktionen importieren
 description: Um das Gehalt zu verwalten, importieren und buchen Sie finanzielle Transaktionen von Ihrem Gehaltsabrechnungsanbieter in das Hauptbuch, indem Sie eine Gehaltsabrechnungserweiterung wie Ceridian verwenden.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: Ceridian, Quickbooks, salary
 ms.search.form: 1660, 1661, 36601
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 4cd05e5059b57add08b71e6850e347d15e2e4fa6
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 2bd2ab34093bc3aac8ff7d470936a39da893cf82
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7973041"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8147752"
 ---
 # <a name="importing-payroll-transactions"></a>Importieren von Transaktionen der Gehaltsabrechnung
 

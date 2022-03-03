@@ -2,7 +2,6 @@
 title: E-Mail-Protokollierung einrichten | Microsoft Docs
 description: Erfahren Sie, wie Sie E-Mail-Interaktionen zwischen Verkäufern und Kunden in echte Verkaufschancen verwandeln können.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect, opportunity, email
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: c1e47dba1c10b994cb43c21afbfdd548f85c774b
-ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
+ms.openlocfilehash: 2abc0406fa8e86646d2382a4c7bbb1e228439728
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7482345"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8148408"
 ---
 # <a name="track-email-message-exchanges-between-salespeople-and-contacts"></a>Verfolgen Sie den Austausch von E-Mail-Nachrichten zwischen Verkäufern und Kontakten
 
@@ -31,7 +30,7 @@ Als nächstes verbinden Sie [!INCLUDE[prod_short](includes/prod_short.md)] mit E
 
 Beginnen Sie mit der E-Mail-Protokollierung in zwei einfachen Schritten:
 
-1. Stellen Sie eine Verbindung von [!INCLUDE[prod_short](includes/prod_short.md)] mit Exchange Online her für Ihr Microsoft 365-Abonnement. Exchange Online verarbeitet Ihre E-Mail-Nachrichten. Wir haben diesen Schritt vereinfacht, indem wir eine Anleitung für Unterstützte Einrichtung bereitgestellt haben. Sie benötigen lediglich Ihre Administratoranmeldeinformationen für Ihr Administratorkonto in Microsoft 365. Um die Anleitung zu starten, wechseln Sie zu **Unterstützte Einrichtung**, und wählen Sie dann die Anleitung **E-Mail-Protokollierung einrichten** aus.  
+1. Verbinden Sie [!INCLUDE[prod_short](includes/prod_short.md)] mit Exchange Online für Ihr Microsoft 365-Abonnement. Exchange Online verarbeitet Ihre E-Mail-Nachrichten. Wir haben diesen Schritt vereinfacht, indem wir eine Anleitung für Unterstützte Einrichtung bereitgestellt haben. Sie benötigen lediglich Ihre Administratoranmeldeinformationen für Ihr Administratorkonto in Microsoft 365. Um die Anleitung zu starten, wechseln Sie zu **Unterstützte Einrichtung**, und wählen Sie dann die Anleitung **E-Mail-Protokollierung einrichten** aus.  
 
 2. Stellen Sie sicher, dass in [!INCLUDE[prod_short](includes/prod_short.md)] gültige E-Mail-Adressen für Ihre Verkäufer und Kontakte eingegeben wurden, je nachdem, ob es sich um potenzielle oder bestehende Kunden handelt. Öffnen Sie dazu für jeden Kunden oder Verkäufer die Karte **Kontakt** oder **Verkäufer/Käufer**, und überprüfen Sie das Feld **E-Mail**.
 

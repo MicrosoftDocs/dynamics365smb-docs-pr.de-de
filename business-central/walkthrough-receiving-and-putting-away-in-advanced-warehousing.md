@@ -2,7 +2,6 @@
 title: Wareneingang und Einlagerung in der erweiterten Lagerhaltung
 description: Die eingehenden Prozesse für den Empfang und die Einlagerung können auf vier Arten mit unterschiedlichen Funktionalitäten durchgeführt werden, je nach Komplexitätsgrad des Lagers.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: beac112feb685b0e3804ac5a243ce9dac5160857
-ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
+ms.openlocfilehash: 35ba60e75b78d043f0e17272dd18084846dfa30e
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "6543095"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8148122"
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-advanced-warehouse-configurations"></a>Exemplarische Vorgehensweise: Eingang und Einlagerung bei erweiterten Lagerkonfigurationen
 

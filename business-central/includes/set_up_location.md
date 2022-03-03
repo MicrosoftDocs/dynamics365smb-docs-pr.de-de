@@ -1,15 +1,14 @@
 ---
 author: jill-kotel-andersson
-ms.service: dynamics365-business-central
 ms.topic: include
 ms.date: 05/27/2021
 ms.author: edupont
-ms.openlocfilehash: 0f1dd1591aa05b450a90e36b35ad99e44e59bd52
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 838a5c44ca1be72644b3cb9b7d26c65adccc96af
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439018"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8148070"
 ---
 ## <a name="setting-up-the-location"></a>Einrichten des Lagerorts
 

@@ -1,21 +1,21 @@
 ---
-title: Verstehen, wie man Kaufbelege bucht
+title: Kaufbelege buchen
 description: Lernen Sie die verschiedenen Buchungsfunktionen kennen, mit denen Sie Kaufbelege buchen können, und erfahren Sie, wie Sie gebuchte Belege aktualisieren können.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 5c29b35b34fc3cf80fd4d41b1d49b857d395e820
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 27cefa04aef99b548a40afdfabbbb1c1ceffb234
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6325913"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8334876"
 ---
 # <a name="posting-purchases"></a>Einkäufe buchen
 Bei einem Kaufbeleg können Sie zwischen den folgenden Buchungsaktionen wählen:

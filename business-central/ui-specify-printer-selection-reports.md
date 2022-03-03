@@ -2,20 +2,20 @@
 title: Einrichten von Druckern
 description: Informieren Sie sich über die Einrichtung von Druckern, die Sie für Berichte und Belege verwenden können, und über die verschiedenen Druckfunktionen, die Ihnen in Business Central zur Verfügung stehen.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: online printing, email printing, cloud printing, Universal Print
+ms.search.form: 8900, 9018, 9022
 ms.date: 06/24/2021
 ms.author: jswymer
-ms.openlocfilehash: 79f9e9d03eb8ac58bcddfeb39669b0dc08763f1f
-ms.sourcegitcommit: 2c972dfc94d27245eaa99efcf638d030dedafb22
+ms.openlocfilehash: 317e90976aed760f55fc7122483377e8df11c906
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102447"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8335144"
 ---
 # <a name="set-up-printers"></a>Einrichten von Druckern
 

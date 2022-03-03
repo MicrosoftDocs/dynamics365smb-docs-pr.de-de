@@ -2,18 +2,18 @@
 title: Senden von Belegen und E-Mails
 description: Sie können Inhalt definieren, um in den Text eine E-Mail beispielsweise ein PayPal-Link einzufügen. Bestellanforderungen können auch Dokumente an eine E-Mail-Nachricht angehängt werden.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, cover, body, PayPal, layout
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3322199feee09c656b01c7723a8c95396015cde4
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: e39bd85451406bc835624183a5e65a45935a62ab
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588451"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8334644"
 ---
 # <a name="send-documents-and-emails"></a>Senden von Belegen und E-Mails
 
