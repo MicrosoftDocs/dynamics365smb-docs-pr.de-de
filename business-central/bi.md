@@ -1,31 +1,33 @@
 ---
-title: Business Intelligence
-description: Business Central enthält eine Reihe von Funktionen, die Ihnen beim Sammeln, Analysieren und Weitergeben wertvoller Firmendaten für Business Intelligence und Entscheidungsfindung helfen.
+title: Business Intelligence| Microsoft Docs
+description: Daten – wie Verkaufszahlen der Organisation, Einkäufe, operative Aufwendungen, Löhne/Gehälter oder Budgets analysieren und erfassen, die für Entscheidungsträger eine Quelle wichtiger Informationen sind.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.search.form: 103, 198, 490
-ms.date: 06/14/2021
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 994ae303d46e2e3d290ca297038a3bca6fc21d44
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: e4a08c3c81aa9c59c27da920deb354320559f54c
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335448"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3786471"
 ---
 # <a name="business-intelligence"></a>Business Intelligence
-In Unternehmen fällt Tag für Tag eine erhebliche Menge an Daten an. Diese Daten – wie Verkaufszahlen der Organisation, Einkäufe, operative Aufwendungen, Löhne/Gehälter oder Budgets – sind für Entscheidungsträger eine Quelle wichtiger Informationen (auch: Business Intelligence). [!INCLUDE[prod_short](includes/prod_short.md)] verfügt über eine Reihe von Features, die Sie beim Sammeln, Analysieren und gemeinsamen Nutzen von Firmendaten unterstützen.
+In Unternehmen fällt Tag für Tag eine erhebliche Menge an Daten an. Diese Daten – wie Verkaufszahlen der Organisation, Einkäufe, operative Aufwendungen, Löhne/Gehälter oder Budgets – sind für Entscheidungsträger eine Quelle wichtiger Informationen (auch: Business Intelligence). [!INCLUDE[d365fin](includes/d365fin_md.md)] verfügt über eine Reihe von Features, die Sie beim Sammeln, Analysieren und gemeinsamen Nutzen von Firmendaten unterstützen.
 
 Die Funktionalität " Dimensionen spielt eine wichtige Rolle in der Business Intelligence. Bei den Dimensionen der Finanzanalyse handelt es sich um Daten, die Sie einem Posten als eine Art Markierung hinzufügen können. Diese Daten dienen zum Gruppieren von Posten mit ähnlichen Merkmalen – beispielsweise Debitoren, Regionen, Produkte oder Verkäufer – sowie zum einfachen Abrufen dieser Gruppen zur Analyse. Sie nutzen beispielsweise Dimensionen, wenn Sie Analyseansichten definieren und Kontenschemata zur Berichterstattung erstellen. Weitere Informationen finden Sie unter [Arbeiten mit Dimensionen](finance-dimensions.md)
 
 > [!TIP]
 > Als schnelle Möglichkeit, Transaktionsdaten nach Dimensionen zu analysieren, können Sie Summen im Kostenplan und Posten in allen **Posten**-Seiten nach Dimensionen filtern. Suchen Sie nach der Aktion **Dimensionsfilter festlegen**.  
 
-Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Themen, die sie beschreiben..  
+In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den beschriebenen Themen erläutert.  
 
 | An | Siehe |
 | --- | --- |
@@ -42,9 +44,6 @@ Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Themen,
 [Verwenden von Business Central als Power BI-Datenquelle](across-how-use-financials-data-source-powerbi.md)  
 [Schließen des Finanzzeitraums](year-close-years-periods.md)  
 [Daten aus anderen Finanzsystemen importieren](across-import-data-configuration-packages.md)  
-[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

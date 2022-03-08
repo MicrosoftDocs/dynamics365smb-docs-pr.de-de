@@ -1,20 +1,21 @@
 ---
-title: Design Details – Elementverfolgung und Reservierungen
-description: Dieses Thema behandelt die Artikelverfolgung und Reservierungen und beschreibt die Konzepte hinter den beiden Optionen.
+title: 'Designdetails: Artikelverfolgung und Reservierungen | Microsoft Docs'
+description: Dieses Thema befasst sich mit Artikelverfolgung und mit Reservierungen und beschreiben die Konzepte der zwei.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/15/2021
+ms.date: 07/23/2020
 ms.author: edupont
-ms.openlocfilehash: 25d911fd663e35f218f78e68f76c5f3043ba6764
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b0f671fc4c3a8b08d1bf9b21cef79ae35defb636
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8139729"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3787621"
 ---
 # <a name="design-details-item-tracking-and-reservations"></a>Designdetails: Artikelverfolgung und Reservierungen
 
@@ -35,11 +36,10 @@ Die Reservierung von Artikelverfolgungsnummern zerfällt in zwei Kategorien, wie
 |Unspezifisch|Sie können keine bestimmte Serien- oder Chargennummer auswählen, wenn Sie den Lagerartikel aus einem Bedarf reservieren, beispielsweise einem Verkaufsauftrag.<br /><br /> Dies ist ein Status, der einem Reservierungsposten für Serien- oder Chargennummern, die nicht speziell ausgewählt werden, auferlegt wird. **Hinweis:**  Der Bedarf trägt keine Serien- oder Chargennummern. <br /><br /> Sie möchten beispielsweise eine Dose blaue Farbe von einer Charge für Ihren Verkaufsauftrag reservieren. Eine Dose blaue Farbe einer zufälligen Serien- oder Chargennummer wird an den Kunden geliefert.|  
   
 Der hauptsächliche Unterschied zwischen spezifischer und unspezifischer Reservierung ist durch das Vorhandensein von Serien- oder Chargennummern auf in der Bedarfsseite definiert, wie in der folgenden Tabelle gezeigt.  
-
-| Typ            | Vorrat                | Bedarf                   |
-|-----------------|-----------------------|--------------------------|
-| **Ausgewählt**    | Serien- oder Chargennummer | Serien- oder Chargennummer    |
-| **Unspezifisch** | Serien- oder Chargennummer | Keine Serien- oder Chargennummer. |
+  
+|<!--blank -->|**Angebot**|**Nachfrage**|  
+|**Spezifisch** | Serien- oder Chargennummer.| Serien- oder Chargennummer.|  
+|**Unspezifisch** | Serien- oder Chargennummer.| Serien- oder Chargennummer.|  
   
 Wenn Sie reservieren, werden Lagerbestandsmengen aus einem ausgehenden Beleg für einen Artikel, der die zugeordneten Artikelverfolgungsnummern hat und für bestimmte Artikelverfolgung eingerichtet ist, führt Sie die Seite **Reservierung** durch verschiedene Workflows entsprechend Ihres Bedarfs für eine Serien- oder Chargennummer.  
   
@@ -91,5 +91,3 @@ Dieses Geschäftsszenario wird durch die Late Binding-Funktionalität unterstüt
   
 ## <a name="see-also"></a>Siehe auch  
 [Designdetails: Artikelnachverfolgung](design-details-item-tracking.md)
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

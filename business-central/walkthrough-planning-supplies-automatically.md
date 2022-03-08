@@ -1,36 +1,37 @@
 ---
-title: Exemplarische Vorgehensweise – Automatisch Vorräte planen
-description: Diese exemplarische Vorgehensweise demonstriert die Verwendung des Lieferplanungssystems zur automatischen Planung von Kauf- und Fertigungsaufträgen auf verschiedenen Verkaufsaufträgen.
+title: Walkthrough - Vorräte automatisch planen | Microsoft Docs
+description: Die Begriffe "Planung ausführen" oder "Nettobedarf ausführen" beziehen sich auf die Berechnung der Produktions-Programmplanung und des Materialbedarfsplans anhand des tatsächlichen und geplanten Bedarfs.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/24/2021
+ms.date: 06/25/2020
 ms.author: edupont
-ms.openlocfilehash: a9bc9b245ec8bcb7146f688da7ad3c94a16c00ec
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 219b7aa5bdeff1ba0a7a527ba35ff23b846920ed
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140267"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3786796"
 ---
 # <a name="walkthrough-planning-supplies-automatically"></a>Exemplarische Vorgehensweise: Automatische Beschaffungsplanung
 
-<!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
+[!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]  
 
-Die Begriffe Planung ausführen oder Nettobedarf ausführen beziehen sich auf die Berechnung der Produktions-Programmplanung und des Materialbedarfsplans anhand des tatsächlichen und geplanten Bedarfs.  
+Die Begriffe "Planung ausführen" oder "Nettobedarf ausführen" beziehen sich auf die Berechnung der Produktions-Programmplanung und des Materialbedarfsplans anhand des tatsächlichen und geplanten Bedarfs.  
 
 -   Prod.-Programmplanung ist die Berechnung eines Produktionsplans, der auf dem tatsächlichen Bedarf und der Absatzplanung basiert. Die Berechnung der Produktionsprogrammplanung wird für Endartikel mit einer Planung oder einer Verkaufsauftragszeile durchgeführt. Diese Artikel werden als "Prod.-Programmplanungsartikel" bezeichnet und werden dynamisch gekennzeichnet, wenn die Berechnung gestartet wird.  
 -   Nettobedarf ist die Berechnung der Materialbedarfe auf Basis des tatsächlichen Bedarfs für Komponenten sowie der Absatzplanung auf Komponentenebene. Der Nettobedarf wird nur für Artikel berechnet, die keine Prod.-Programmplanungsartikel sind. Der Hauptzweck eines Nettobedarfs besteht darin, terminierte formale Pläne (nach Artikeln) aufzustellen, um den richtigen Artikel zur richtigen Zeit am richtigen Ort in der richtigen Menge bereitzustellen.  
 
- Sowohl für die Prod.-Programmplanung (MPS) als auch für den Nettobedarf (MRP) wird derselbe Planungsalgorithmus verwendet. Die Planungsalgorithmen arbeiten mit Aufrechnung, Wiederverwendung vorhandener Beschaffungsaufträge und Ereignismeldungen. Der Planungssystemprozess untersucht, welche Mengen momentan oder zukünftig benötigt werden (Bedarf) und welche Mengen verfügbar sind oder erwartet werden (Vorrat). Wenn diese Mengen gegeneinander aufgerechnet werden, werden Ereignismeldungen im Planungsarbeitsblatt angezeigt. Ereignismeldungen sind Vorschläge für das Erstellen eines neuen Beschaffungsauftrags, Ändern eines Beschaffungsauftrags (Menge oder Datum) oder Stornieren eines vorhandenen Beschaffungsauftrags. Bei Beschaffungsaufträgen kann es sich um Fertigungsaufträge, Bestellungen und Umlagerungsaufträge handeln. Weitere Informationen finden Sie unter [Designdetails: Beschaffungsplanung](design-details-supply-planning.md)  
+ Sowohl für die Prod.-Programmplanung (MPS) als auch für den Nettobedarf (MRP) wird derselbe Planungsalgorithmus verwendet. Die Planungsalgorithmen arbeiten mit Aufrechnung, Wiederverwendung vorhandener Beschaffungsaufträge und Ereignismeldungen. Der Planungssystemprozess untersucht, welche Mengen momentan oder zukünftig benötigt werden (Bedarf) und welche Mengen verfügbar sind oder erwartet werden (Vorrat). Wenn diese Mengen gegeneinander aufgerechnet werden, werden Ereignismeldungen im Planungsvorschlag angezeigt. Ereignismeldungen sind Vorschläge für das Erstellen eines neuen Beschaffungsauftrags, Ändern eines Beschaffungsauftrags (Menge oder Datum) oder Stornieren eines vorhandenen Beschaffungsauftrags. Bei Beschaffungsaufträgen kann es sich um Fertigungsaufträge, Bestellungen und Umlagerungsaufträge handeln. Weitere Informationen finden Sie unter [Designdetails: Beschaffungsplanung](design-details-supply-planning.md)  
 
  Das Planungsergebnis wird zum Teil aus den Bedarf-Bestand-Sätzen in der Datenbank und zum Teil durch die Einrichtung von Lagerhaltungsdatenkarten oder Artikelkarten, Fertigungsstücklisten und Arbeitsplänen berechnet.  
 
 ## <a name="about-this-walkthrough"></a>Informationen zu dieser exemplarischen Vorgehensweise  
- In dieser exemplarischen Vorgehensweise wird beschrieben, wie Sie das Beschaffungsplanungssystem verwenden, um alle Bestellungen und Fertigungsaufträge automatisch zu planen, die erforderlich sind, um 15 Tourenräder zu produzieren, die in verschiedenen Verkaufsaufträgen angefordert wurden. Um eine klare und realistische exemplarische Vorgehensweise zu bieten, wurde die Anzahl der Planungszeilen begrenzt, indem alle anderen Nachfrage-Angebots-Sätze im Demounternehmen CRONUS AG außer dem Verkaufsbedarf am Standort OST herausgefiltert wurden.  
+ In dieser exemplarischen Vorgehensweise wird beschrieben, wie Sie das Beschaffungsplanungssystem verwenden, um alle Bestellungen und Fertigungsaufträge automatisch zu planen, die erforderlich sind, um 15 Tourenräder zu produzieren, die in verschiedenen Verkaufsaufträgen angefordert wurden. Um eine klare und realistische exemplarische Vorgehensweise zu bieten, wurde die Anzahl der Planungszeilen begrenzt, indem alle anderen Nachfrage-Angebots-Sätze im Demounternehmen CRONUS AG außer dem Verkaufsbedarf am Standort BLUE herausgefiltert wurden.  
 
  In dieser exemplarischen Vorgehensweise werden folgende Aufgaben erläutert:  
 
@@ -47,17 +48,17 @@ Die Begriffe Planung ausführen oder Nettobedarf ausführen beziehen sich auf di
 ## <a name="prerequisites"></a>Voraussetzungen  
  Für diese exemplarische Vorgehensweise gelten folgende Voraussetzungen:  
 
--   Die Demonstrationsfirma CRONUS International Ltd.  
--   Ändern Sie, wie im Abschnitt Vorbereiten der Beispieldaten dieser exemplarischen Vorgehensweise beschrieben, verschiedene Artikelkonfigurationswerte.  
+-   Das Demounternehmen CRONUS AG.  
+-   Ändern Sie, wie im Abschnitt "Vorbereiten der Beispieldaten" dieser exemplarischen Vorgehensweise beschrieben, verschiedene Artikelkonfigurationswerte.  
 
 ## <a name="story"></a>Hintergrund  
- Der Debitor, Cannon Group PLC, bestellt fünf Rennräder mit Liefertermin am 05.02.2021 (5. Februar).  
+ Der Debitor, Möbel-Meller KG, bestellt fünf Rennräder mit Liefertermin am 05.02.2014 (5. Februar).  
 
- Jürgen, der Produktionsplaner, führt die routinemäßige Beschaffungsplanung für die erste Woche im Februar 2021 aus. Er filtert nach seinem eigenen Standort, OST, und gibt als Planungsintervall 23.01.2021 bis 07.02.2021 ein, bevor er den ersten Beschaffungsplan berechnet.  
+ Jürgen, der Produktionsplaner, führt die routinemäßige Beschaffungsplanung für die erste Woche im Februar 2014 aus. Er filtert nach seinem eigenen Standort, BLAU, und gibt als Planungsintervall 23.01.2014 bis 07.02.2014 ein, bevor er den ersten Beschaffungsplan berechnet.  
 
  In dieser Woche ist nur für den Verkaufsauftrag der Möbel-Meller KG ein Bedarf vorhanden. Jürgen sieht, dass für keine der Planungszeilen Warnungen vorliegen, und fährt mit der Erstellung von Beschaffungsaufträgen für die vorgeschlagenen Planungszeilen ohne Änderungen fort.  
 
- Am nächsten Tag (noch bevor die anfänglichen Beschaffungsaufträge gestartet oder gebucht wurden) wird Jürgen benachrichtigt, dass ein anderer Debitor zehn Rennräder mit Liefertermin am 12.02.2021 bestellt hat. Er führt eine Neuberechnung aus, um den Beschaffungsplan entsprechend dem geänderten Bedarf anzupassen. Die Neuberechnung ergibt eine Änderungsplanung, in der Änderungen der Zeit und Menge einiger Beschaffungsaufträge aus dem ersten Berechnungslauf vorgeschlagen werden.  
+ Am nächsten Tag (noch bevor die anfänglichen Beschaffungsaufträge gestartet oder gebucht wurden) wird Jürgen benachrichtigt, dass ein anderer Debitor zehn Rennräder mit Liefertermin am 12.02.2014 bestellt hat. Er führt eine Neuberechnung aus, um den Beschaffungsplan entsprechend dem geänderten Bedarf anzupassen. Die Neuberechnung ergibt eine Änderungsplanung, in der Änderungen der Zeit und Menge einiger Beschaffungsaufträge aus dem ersten Berechnungslauf vorgeschlagen werden.  
 
  Während der verschiedenen Planungsschritte überprüft Jürgen die relevanten Aufträge. Er verwendet die Funktion "Bedarfsverursacher", um festzustellen, welcher Bedarf von welchem Bestand abgedeckt wird.  
 
@@ -73,8 +74,8 @@ Die Begriffe Planung ausführen oder Nettobedarf ausführen beziehen sich auf di
 
 ### <a name="to-change-selected-planning-parameters"></a>Ausgewählte Planungsparameter ändern  
 
-1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Lagerhaltungseinheiten** ein, und wählen Sie dann den entsprechenden Link.  
-2.  Öffnen Sie die OST Lagerhaltungsdatenkarte für Artikel 1100, Vorderrad.  
+1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Lagermengeneinheiten** ein, und wählen Sie dann den zugehörigen Link.  
+2.  Öffnen Sie die BLAUE Lagerhaltungsdatenkarte für Artikel 1100, Vorderrad.  
 3.  Füllen Sie im Inforegister **Planung** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 
     |Wiederbeschaffungsverfahren|Sicherheitsbestand|Loskumulierungsperiode|Neuplanungsperiode|  
@@ -86,61 +87,61 @@ Die Begriffe Planung ausführen oder Nettobedarf ausführen beziehen sich auf di
  Damit ist die Vorbereitung der Beispieldaten für die exemplarische Vorgehensweise abgeschlossen.  
 
 ## <a name="creating-a-regenerative-supply-plan"></a>Erstellen einer Beschaffungsneuplanung  
- Als Antworten auf einen neuen Verkaufsauftrag für fünf Rennräder, beginnt Andreas mit dem Planungsprozess, indem er Optionen und Filter setzt und das Planungsintervall festlegt, um jeden anderen Bedarf auszuschließen, mit Ausnahme des Bedarfs der ersten Woche vom Februar am Standort OST. Er berechnet als Erstes eine Produktions-Programmplanung (MPS) und berechnet dann einen vollständigen Beschaffungsplan für den gesamten Bedarf auf untergeordneter Ebene (Materialbedarfsplan).  
+ Als Antworten auf einen neuen Verkaufsauftrag für fünf Rennräder, beginnt Andreas mit dem Planungsprozess, indem er Optionen und Filter setzt und das Planungsintervall festlegt, um jeden anderen Bedarf auszuschließen, mit Ausnahme des Bedarfs der ersten Woche vom Februar am Standort BLAU. Er berechnet als Erstes eine Produktions-Programmplanung (MPS) und berechnet dann einen vollständigen Beschaffungsplan für den gesamten Bedarf auf untergeordneter Ebene (Materialbedarfsplan).  
 
-### <a name="to-create-the-sales-order"></a>So erstellen Sie den Verkaufsauftrag  
+### <a name="to-create-the-sales-order"></a>Den Verkaufsauftrag erstellen  
 
-1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Verkaufsaufträge** ein, und wählen Sie dann den zugehörigen Link.  
+1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Verkaufsaufträge** ein und wählen Sie dann den entsprechenden Link.  
 2.  Wählen Sie die Aktion **Neu** aus.  
 3.  Füllen Sie auf der Seite **Verkaufsauftrag** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 
     |Verk. an Debitorname|Warenausg.-Datum|Artikelnr.|Lagerort|Menge|  
     |----------------------------|-------------------|--------------|--------------|--------------|  
-    |Möbel-Meller|05.02.2014|1001|OST|5|  
+    |Möbel-Meller|05.02.2014|1001|BLAU|5|  
 
 4.  Akzeptieren Sie die Verfügbarkeitswarnung und klicken Sie auf **Ja**, um die neue Bedarfsmenge zu erfassen.  
 
-### <a name="to-create-a-regenerative-plan-to-fulfill-demand-at-location-east"></a>So erstellen Sie eine Neuplanung, um den Bedarf am Standort OST zu erfüllen  
+### <a name="to-create-a-regenerative-plan-to-fulfill-demand-at-location-blue"></a>So erstellen Sie eine Neuplanung, um den Bedarf am Standort BLAU zu erfüllen  
 
-1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Planungsarbeitsblatt** ein und wählen Sie dann den zugehörigen Link.  
+1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Planungsarbeitsblatt** ein, und wählen Sie dann den zugehörigen Link.  
 2.  Wählen Sie die **Neuplanung berechnen** Aktion aus.  
 3.  Auf der Seite **Arbeitsplan - Plan berechnen** füllen Sie die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 
     |Planung berechnen|Startdatum|Enddatum|Ergebnisse anzeigen:|Summenberechnung einschränken auf|  
     |--------------------|-------------------|-----------------|-------------------|---------------------|  
-    |**MPS** = Ja<br /><br /> **MRP** = Nein|01-23-2021<br /><br /> (Arbeitsdatum)|02-07-2021|1001..1300|Lagerortfilter = OST|  
+    |**MPS** = Ja<br /><br /> **MRP** = Nein|01-23-2014<br /><br /> (Arbeitsdatum)|07.02.2014|1001..1300|Lagerortfilter = BLAU|  
 
 4.  Klicken Sie auf die Schaltfläche **OK**, um die Planungsausführung zu starten.  
 
-     Es wird eine Planungszeile erstellt, in der vorgeschlagen wird, einen geplanten Fertigungsauftrag für die Produktion der zehn Rennräder, Artikel 1001, zum 05.02.2021 (Warenausgangsdatum des Verkaufsauftrags) zu registrieren.  
+     Es wird eine Planungszeile erstellt, in der vorgeschlagen wird, einen geplanten Fertigungsauftrag für die Produktion der zehn Rennräder, Artikel 1001, zum 05.02.2014 (Warenausgangsdatum des Verkaufsauftrags) zu registrieren.  
 
      Als Nächstes stellen Sie mithilfe der Funktion **Bedarfsverursacher** sicher, dass sich diese Planungszeile auf den Verkaufsauftrag der Möbel-Meller KG bezieht. Diese Funktion verknüpft den Bedarf dynamisch mit der geplanten Beschaffung.  
 
 5.  Wählen Sie die neue Planungszeile aus und klicken Sie dann auf **Bedarfsverursacher**.  
 6.  Auf der Seite **Verkaufsnachverfolgung** wählen Sie die Aktion **Anzeigen** aus.  
 
-     Der Verkaufsauftrag über den Versand von fünf Rennrädern für die Debitorennummer 10000 am 05.02.2021 wird nun angezeigt.  
+     Der Verkaufsauftrag über den Versand von fünf Rennrädern für die Debitorennummer 10000 am 05.02.2014 wird angezeigt.  
 
 7.  Schließen Sie die Seite **Verkaufsauftrag** und **Bedarfsverursacher**.  
 
 ### <a name="to-calculate-mrp-to-include-underlying-component-needs"></a>Nettobedarf berechnen, um den Bedarf zugrunde liegender Komponenten einzuschließen  
 
-1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Planungsarbeitsblatt** ein und wählen Sie dann den zugehörigen Link.  
+1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Planungsarbeitsblatt** ein, und wählen Sie dann den zugehörigen Link.  
 2.  Wählen Sie die **Neuplanung berechnen** Aktion aus.  
 3.  Auf der Seite **Arbeitsplan - Plan berechnen** füllen Sie die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 
     |Berechnen|Startdatum|Enddatum|Ergebnisse anzeigen:|Summenberechnung einschränken auf:|  
     |---------------|-------------------|-----------------|-------------------|----------------------|  
-    |**MPS** = Ja<br /><br /> **MRP** = Ja|01-23-2021|02-07-2021|1001..1300|Lagerortfilter = OST|  
+    |**MPS** = Ja<br /><br /> **MRP** = Ja|01-23-2014|07.02.2014|1001..1300|Lagerortfilter = BLAU|  
 
 4.  Klicken Sie auf die Schaltfläche **OK**, um die Planungsausführung zu starten.  
 
-     Es werden insgesamt 14 Planungszeilen erstellt, in denen Beschaffungsaufträge für den gesamten Bedarf des Rennradauftrags am Standort OST vorgeschlagen werden.  
+     Es werden insgesamt 14 Planungszeilen erstellt, in denen Beschaffungsaufträge für den gesamten Bedarf des Rennradauftrags am Standort BLAU vorgeschlagen werden.  
 
 ## <a name="analyzing-the-planning-result"></a>Analysieren des Planungsergebnisses  
  Zum Analysieren der vorgeschlagenen Mengen führt Jürgen ein Drilldown in ausgewählten Planungszeilen aus, um Bedarfsverursacher und Planungsparameter anzuzeigen.  
 
- Beachten Sie, dass dann auf der Seite **Planungsarbeitsblatt** in der Spalte **Fälligkeitsdatum** die vorgeschlagenen Beschaffungsaufträge rückwärts vom Fälligkeitsdatum des Verkaufsauftrags (05.02.2021) geplant werden. Die Zeitleiste beginnt auf der obersten Planungszeile mit dem Fertigungsauftrag zur Produktion der fertigen Rennräder. Die Zeitleiste endet in der untersten Planungszeile mit der Bestellung für einen der Artikel auf unterster Ebene, 1255 (Laufbuchse hinten), fällig am 30.01.2021. Wie die Planungszeile für den Artikel 1251, wird Achsen-Hinterrad, steht diese Zeile für eine Bestellung für Komponenten, die am Startdatum seines gefertigten übergeordneten Elements, Unterbaugruppenartikel 1250 fällig sind, das wiederum am 02-03-2014 fällig ist. In diesem Arbeitsblatt können Sie sehen, dass alle zugrunde liegenden Artikel im Startdatum ihrer Elemente fällig sind.  
+ Beachten Sie, dass auf der Seite **Planungsvorschlag** in der Spalte **Fälligkeitsdatum** die vorgeschlagenen Beschaffungsaufträge rückwärts vom Fälligkeitsdatum des Verkaufsauftrags (05.02.2014) geplant werden. Die Zeitleiste beginnt auf der obersten Planungszeile mit dem Fertigungsauftrag zur Produktion der fertigen Rennräder. Die Zeitleiste endet in der untersten Planungszeile mit der Bestellung für einen der Artikel auf unterster Ebene, 1255 (Laufbuchse hinten), fällig am 30.01.2014. Wie die Planungszeile für den Artikel 1251, wird Achsen-Hinterrad, steht diese Zeile für eine Bestellung für Komponenten, die am Startdatum seines gefertigten übergeordneten Elements, Unterbaugruppenartikel 1250 fällig sind, das wiederum am 02-03-2014 fällig ist. In diesem Vorschlag können Sie sehen, dass alle zugrunde liegenden Artikel im Startdatum ihrer Elemente fällig sind.  
 
  In der Planungszeile für den Artikel 1300 (Kette komplett) werden zehn Stück vorgeschlagen. Dies weicht von den vorgeschlagenen fünf Stück ab, von denen wir erwarten, dass sie erforderlich sind, um den Verkaufsauftrag zu erfüllen. Fahren Sie fort, um die Bedarfsverursacherposten anzuzeigen.  
 
@@ -159,9 +160,9 @@ Die Begriffe Planung ausführen oder Nettobedarf ausführen beziehen sich auf di
 1.  Wählen Sie auf der Seite **Planungselemente ohne Bedarfsverursacher** die Bedarfsverursacherzeile für Artikel 1300 aus.  
 2.  Wählen Sie das Feld **Artikelnr.** und dann **Erweitert** aus.  
 3.  Wählen Sie auf der Seite **Artikelkarte** die Aktion **Lagerhaltungseinheit** aus.  
-4.  Öffnen Sie auf der Seite **Lagerhaltungsdatenübersicht** die Lagerhaltungsdatenkarte OST.  
+4.  Öffnen Sie auf der Seite **Lagerhaltungsdatenübersicht** die BLAUE Lagerhaltungsdatenkarte.  
 5.  Aud dem Inforegister **Planung** achten Sie darauf, dass das Feld **Mindestbestellmenge** zehn enthält.  
-6.  Schließen Sie alle Seiten außer der Seite **Planungsarbeitsblatt**.  
+6.  Schließen Sie alle Seiten außer der Seite **Planungsvorschlag**.  
 
 ### <a name="to-view-more-order-tracking-entries"></a>Weitere Bedarfsverursacher anzeigen  
 
@@ -199,12 +200,12 @@ Die Begriffe Planung ausführen oder Nettobedarf ausführen beziehen sich auf di
     |Fest geplant|Bestellungen erst.|Umlag.-Aufträge erstellen|  
 
 4.  Klicken Sie auf **OK**, um alle vorgeschlagenen Beschaffungsaufträge automatisch zu erstellen.  
-5.  Schließen Sie die leere Seite **Planungsarbeitsblatt**.  
+5.  Schließen Sie die leere Seite **Planungsvorschlag**.  
 
- Damit ist die erste Berechnung, Analyse und Erstellung eines Beschaffungsplans für den Bedarf am Standort OST in der ersten Februarwoche abgeschlossen. Im folgenden Abschnitt bestellt ein weiterer Debitor zehn Rennräder und Jürgen muss neu planen.  
+ Damit ist die erste Berechnung, Analyse und Erstellung eines Beschaffungsplans für den Bedarf am Standort BLAU in der ersten Februarwoche abgeschlossen. Im folgenden Abschnitt bestellt ein weiterer Debitor zehn Rennräder und Jürgen muss neu planen.  
 
 ## <a name="creating-a-net-change-plan"></a>Erstellen eines Änderungsplans  
- Am nächsten Tag (noch bevor Beschaffungsaufträge gestartet oder gebucht wurden) geht ein neuer Verkaufsauftrag von Libros S.A. für zehn Rennräder mit Liefertermin am 12.02.2021 ein. Jürgen wird über den neuen Bedarf benachrichtigt und beginnt mit der Neuplanung, um den aktuellen Beschaffungsplan anzupassen. Jürgen verwendet die Funktion "Änderungsplanung", um nur die Änderungen zu berechnen, die seit dem letzten Planungslauf am Bedarf oder Bestand vorgenommen wurden. Zudem verlängert er den Planungszeitraum bis zum 14.02.2021, um das zweite Bedarfsdatum (12.02.2014) einzuschließen.  
+ Am nächsten Tag (noch bevor Beschaffungsaufträge gestartet oder gebucht wurden) geht ein neuer Verkaufsauftrag von Libros S.A. für zehn Rennräder mit Liefertermin am 12.02.2014 ein. Jürgen wird über den neuen Bedarf benachrichtigt und beginnt mit der Neuplanung, um den aktuellen Beschaffungsplan anzupassen. Jürgen verwendet die Funktion "Änderungsplanung", um nur die Änderungen zu berechnen, die seit dem letzten Planungslauf am Bedarf oder Bestand vorgenommen wurden. Zudem verlängert er den Planungszeitraum bis zum 14. 02. 2014, um das zweite Bedarfsdatum (12.02.2014) einzuschließen.  
 
  Das Planungssystem berechnet, wie der Bedarf für diese beiden identischen Produkte am besten gedeckt werden kann. Zu diesem Zweck werden einige Bestellungen und Fertigungsaufträge konsolidiert, andere Aufträge neu geplant und bei Bedarf neue Aufträge erstellt.  
 
@@ -215,21 +216,21 @@ Die Begriffe Planung ausführen oder Nettobedarf ausführen beziehen sich auf di
 
     |Verk. an Debitorname|Warenausg.-Datum|Artikelnr.|Lagerort|Menge|  
     |----------------------------|-------------------|--------------|--------------|--------------|  
-    |Libros S.a.|02-12-2021|1001|OST|10|  
+    |Libros S.a.|12.02.2014|1001|BLAU|10|  
 
 3.  Akzeptieren Sie die Verfügbarkeitswarnung und klicken Sie auf **Ja**, um die Bedarfsmenge zu erfassen.  
 4.  Als Nächstes führen Sie die Neuplanung durch, um den aktuellen Beschaffungsplan anzupassen.  
-5.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Planungsarbeitsblatt** ein und wählen Sie dann den zugehörigen Link.  
+5.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Planungsarbeitsblatt** ein, und wählen Sie dann den zugehörigen Link.  
 6.  Wählen Sie die **Nettoveränderung berechnen** Aktion aus.  
 7.  Auf der Seite **Arbeitsplan - Plan berechnen** füllen Sie die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 
     |Planung berechnen|Startdatum|Enddatum|Ergebnisse anzeigen:|Summenberechnung einschränken auf|  
     |--------------------|-------------------|-----------------|-------------------|---------------------|  
-    |**MPS** = Ja<br /><br /> **MRP** = Ja|01-23-2021|02-14-2021|1001..1300|Lagerortfilter = OST|  
+    |**MPS** = Ja<br /><br /> **MRP** = Ja|01-23-2014|14.02.2014|1001..1300|Lagerortfilter = BLAU|  
 
 8.  Klicken Sie auf die Schaltfläche **OK**, um die Planungsausführung zu starten.  
 
- Insgesamt werden 14 Planungszeilen erstellt. Beachten Sie, dass auf der ersten Planungszeile das Feld **Aktionsnachricht** **Neu** enthält, das Feld **Menge** 10 anzeigt, und das Feld **Fälligkeitsdatum** 12.02.2021 enthält. Diese neue Zeile für den obersten übergeordneten Artikel, 1001, Rennrad, wird erstellt, weil der Artikel ein Wiederbeschaffungsverfahren aus **Auftrag** verwendet, d.h., dass er in einer Eins-zu-Eins-Beziehung zu dem Bedarf geliefert werden muss, dem Verkaufsauftrag von zehn Stück.  
+ Insgesamt werden 14 Planungszeilen erstellt. Beachten Sie, dass auf der ersten Planungszeile das Feld **Aktionsnachricht** **Neu** enthält, das Feld **Menge** 10 anzeigt, und das Feld **Fälligkeitsdatum** 12.02.2014 enthält. Diese neue Zeile für den obersten übergeordneten Artikel, 1001, Rennrad, wird erstellt, weil der Artikel ein Wiederbeschaffungsverfahren aus **Auftrag** verwendet, d.h., dass er in einer Eins-zu-Eins-Beziehung zu dem Bedarf geliefert werden muss, dem Verkaufsauftrag von zehn Stück.  
 
  Die nächsten beiden Planungszeilen enthalten die Fertigungsaufträge für die Rennradräder. Jede bestehende Menge von 5 im Feld **Originalmenge** wird mit 15 erhöht im Feld **Menge**. Beide Fertigungsaufträge haben unverändert Fälligkeitsdaten, wie im **Aktionsnachricht**-Feld, das **Menge ändern** enthält. Dies ist auch der Fall für die Planungszeile für Artikel 1300, außer seinem Losgrößenrundungsfaktor mit 10,00 Rundungen, der Nachfrageverfolgung von 15 Stück bis zu 20 Stück.  
 
@@ -252,7 +253,7 @@ Die Begriffe Planung ausführen oder Nettobedarf ausführen beziehen sich auf di
 
      Der Seite **Planungselement ohne Bedarfsverursacher** können Sie entnehmen, dass für den Artikel 1250 ein Planungsparameter "Minimale Losgröße" von 10,00 Stück verwendet wird. Daher wurde die Planungszeile für 20 Stück, insgesamt um den tatsächlichen Bedarf auf die nächste Zahl gerundet, die durch 10 teilbar ist. Die letzten fünf Stück sind eine Menge ohne Bedarfsverursacher und werden aufgrund des Planungsparameters angezeigt.  
 
-3.  Schließen Sie alle Seiten außer der Seite **Planungsarbeitsblatt**.  
+3.  Schließen Sie alle Seiten außer der Seite **Planungsvorschlag**.  
 
 ### <a name="to-view-an-existing-order"></a>Bestehenden Auftrag anzeigen  
 
@@ -264,8 +265,5 @@ Die Begriffe Planung ausführen oder Nettobedarf ausführen beziehen sich auf di
 
 ## <a name="see-also"></a>Siehe auch  
  [Exemplarische Vorgehensweisen für Geschäftsprozesse](walkthrough-business-process-walkthroughs.md)   
-<!--  [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md)    -->
+ [Exemplarische Vorgehensweise: Manuelle Beschaffungsplanung](walkthrough-planning-supplies-manually.md)   
  [Designdetails: Vorratsplanung](design-details-supply-planning.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

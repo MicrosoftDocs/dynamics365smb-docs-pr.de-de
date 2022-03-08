@@ -1,24 +1,24 @@
 ---
-title: Abstimmen der Lagerkosten mit der Finanzbuchhaltung
-description: Am Ende der Buchhaltungsperioden muss eine Sequenz von Steuerelementen und Prüfungsaufgaben durchgeführt werden, um einen korrekten und ausgeglichenen Bestandswert auszuweisen.
+title: "So geht's: Buchen der Lagerkosten in die Finanzbuchhaltung| Microsoft Docs"
+description: Beschreibt, wie physischen Produkte verwaltet werden, die Sie im Lagerbestand in Ihrem Lager verwalten.
+documentationcenter: ''
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.search.form: 9297
-ms.date: 06/16/2021
-ms.author: edupont
-ms.openlocfilehash: 35b9753a1d21ebfbd2970699c720b0e97ed5bcb4
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: eed219bb8bc6401c0f2bbc5cab7600fe1bfc3d53
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142159"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2306076"
 ---
-# <a name="reconcile-inventory-costs-with-the-general-ledger"></a>Abstimmen der Lagerkosten mit der Finanzbuchhaltung
-
+# <a name="reconcile-inventory-costs-with-the-general-ledger"></a>Abstimmen der Lagerregulierung mit der Finanzbuchhaltung
 Wenn Sie Lagertransaktionen buchen, z. B. Verkaufslieferungen, Einkaufsrechnungen oder Lagerregulierungen, werden die veränderten Artikelkosten in den Artikelwerteinträgen aufgezeichnet. Um diese Änderung des Lagerwerts in Ihren Finanzbüchern wiederzugeben, werden die Lagerkosten automatisch zu den entsprechenden Lagerkonten in der Finanzbuchhaltung gebucht. Für jede Lagertransaktion, die Sie buchen, werden die entsprechenden Werte in der Hauptbuchhaltung im Lagerkonto, im Korrekturkonto und im Lagerverbrauchskonto gebucht.
 
 Die automatische Lagerbuchung wird durch das Feld **Automatische Lagerbuchung** auf der Seite **Lagereinrichtung** definiert.
@@ -26,8 +26,7 @@ Die automatische Lagerbuchung wird durch das Feld **Automatische Lagerbuchung** 
 Selbst wenn Lagerkosten automatisch in die Finanzbuchhaltung gebucht werden, ist es immer noch notwendig sicherzustellen, dass die Kosten für Waren zur zugehörigen ausgehenden Transaktion weitergeleitet werden, insbesondere in Situationen, in denen Sie Waren verkaufen, bevor Sie den Kauf dieser Waren in Rechnung stellen. Dies wird als Kostenanpassung bezeichnet. Artikelkosten werden automatisch angepasst, wenn Sie Artikeltransaktionen buchen, Sie können jedoch auch Artikelpreise manuell anpassen. Weitere Informationen finden Sie unter [Artikelkosten anpassen](inventory-how-adjust-item-costs.md).
 
 ## <a name="to-post-inventory-costs-manually"></a>Lagerkosten manuell buchen
-
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Lagerkosten ins Hauptbuch buchen** ein, und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Lagerkosten in Kostenstelle buchen** ein, und wählen dann den zugehörigen Link aus.
 2. Sie buchen eine Lagerkosten manuell in der Hauptbuchhaltung, indem Sie den Batchauftrag ausführen. Wenn Sie diesen Batchauftrag ausführen, werden auf Basis der Wertposten Hauptbuchungsposten erstellt. Sie können die Posten so buchen, dass sie pro Buchungsgruppe zusammengefasst werden.
 
 > [!NOTE]  
@@ -70,24 +69,9 @@ In den nächsten Spalten werden für dieselben Kontoarten die Summen angezeigt, 
 
 Wählen Sie in einem der Summenfelder den Betrag, damit die Lagerberichtsposten angezeigt werden, mit denen die Summen berechnet wurden. Für Lagerbestandssummen sind die Lagerberichtsposten die Summen der Wertposten für die Artikel. Für die Werte in Fibu gesamt sind die Lagerberichtsposten die Summen aus den Sachposten.
 
-## <a name="reporting-costs-and-reconciling-with-the-general-ledger"></a>Melden von Kosten und Abstimmen mit der Finanzbuchhaltung
-Weitere Berichte, Rückverfolgungsfunktionen und ein spezielles Abstimmungsinstrument stehen dem Prüfer oder Controller zur Verfügung, der für die Meldung eines korrekten und ausgewogenen Bestandswerts an die Finanzabteilung verantwortlich ist.
-
-Die Werte werden in der folgenden Tabelle beschrieben.    
-
-|**Prozess**|**Siehe**|  
-|------------|-------------|  
-|Anzeigen des Lagerwerts ausgewählter Artikel, einschließlich Informationen zu Mengen und Werten bei Erhöhung oder Verringerung des Lagerbestands innerhalb eines bestimmten Zeitraums|Bericht **Aktuellen Lagerwert ermitteln**|  
-|Anzeigen des Lagerwerts ausgewählter Fertigungsaufträge in "Aktiviert Lager", beispielsweise der Mengen und Werte für Verbrauch, Kapazitätsauslastung und Ausgabe in laufenden Fertigungsaufträgen|Bericht **Lagerbewertung - Aktiviert**|  
-|Anzeigen des Lagerwerts ausgewählter Artikel, einschließlich der tatsächlichen Kosten und der Soll-Kosten zum angegebenen Datum|Bericht **Lagerbew.-Einst.-Pr.-Ermittl.**|  
-|Verwenden eines Berichts zum Analysieren der Ursachen für Kostenschwankungen oder zum Verschaffen eines Überblicks über den Kostenanteil verkaufter Artikel (Lagerverbrauch)|Bericht **Kostenanteilsanalyse**|  
-
 ## <a name="see-also"></a>Siehe auch  
 [Verwalten der Lagerregulierung](finance-manage-inventory-costs.md)  
 [Einkauf](purchasing-manage-purchasing.md)  
 [Verkauf](sales-manage-sales.md)    
-[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Allgemeine Geschäftsfunktionen](ui-across-business-areas.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

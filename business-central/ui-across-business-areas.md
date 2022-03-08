@@ -1,24 +1,26 @@
 ---
-title: Allgemeinen Funktionen über Geschäftsbereiche hinweg nutzen
+title: Yllgemeinen Funktionen über Geschäftsbereiche hinweg nutzen | Microsoft Docs
 description: Weitere Informationen über Funktionalitäten und Funktionen, die über Geschäftsbereiche hinweg in Business Central verwendet werden.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview, functionality
-ms.search.form: 9020, 9022, 9027, 9018
-ms.date: 04/01/2021
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 36edd01c369e83e2020f43ff914b4cc693cba4e3
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.openlocfilehash: 774c45d50ac56cb0e950ea8687ee86d24cfb9b0a
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8322850"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3782593"
 ---
 # <a name="general-business-functionality"></a>Allgemeine Geschäftsfunktionen
-[!INCLUDE[prod_short](includes/prod_short.md)] stellt dedizierte Funktionen für typische Geschäftsbereiche, wie Finanzen und Personalwesen, bereit. Weitere Informationen finden Sie unter [Business-Funktionalität](across-business-functionality.md).
+[!INCLUDE[d365fin](includes/d365fin_md.md)] stellt dedizierte Funktionen für typische Geschäftsbereiche, wie Finanzen und Personalwesen, bereit. Weitere Informationen finden Sie unter [Business-Funktionalität](across-business-functionality.md).
 
 Und um die bereichsspezifischen Aufgaben des Geschäftes zu unterstützen, können Sie eine Reihe von Geschäftsfunktionalitäten nutzen, wie beispielsweise das Definieren der Textbausteins für Belegzeilen und das Organisieren von verbindenden Geschäftsaufgaben in den Arbeitsabläufen.
 
@@ -48,10 +50,7 @@ Die folgende Tabelle enthält die unterstützten Geschäftsbereiche und Links zu
 | Richten Sie Datenaustauschdefinitionen ein, damit Sie elektronische Belege versenden und erhalten können. |[Daten elektronisch austauschen](across-data-exchange.md) |
 
 ## <a name="see-also"></a>Siehe auch
-[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Verwaltung](admin-setup-and-administration.md)
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

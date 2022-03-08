@@ -1,26 +1,27 @@
 ---
-title: So finden Sie Ihre Lager-Zuordnungen
-description: In diesem Thema wird erklärt, wie Sie die Ihnen zugewiesenen Lager-Zuordnungen auf der Seite Elementkarte finden, wenn Anweisungen für Sie erstellt wurden.
+title: So suchen Sie Ihre Lagerzuweisungen | Microsoft Docs
+description: Um Lagerzuweisungen zu suchen, öffnen Sie die Kartenseite für einen ausgewählten Artikel. Wenn Logistikanweisungen erzeugt wurden, sehen Sie Zeilen der Arten "Entnahme" und "Einlagerung", und Sie können mit einer Ihnen zugewiesenen Aufgabe beginnen. In einigen Lagern haben die Lagermanager eventuell jedem Mitarbeiter bestimmte Anweisungen zugeordnet.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/24/2021
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5fe603b5cb2499c4b74e29725ee1747219d37e27
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 479ad10ee6bd10d123202749c1cc934bc67493af
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141977"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3779636"
 ---
 # <a name="find-your-warehouse-assignments"></a>Suchen der Lagerzuweisungen
 Um Lagerzuweisungen zu suchen, öffnen Sie die Kartenseite für einen ausgewählten Artikel. Wenn Logistikanweisungen erzeugt wurden, sehen Sie Zeilen der Arten "Entnahme" und "Einlagerung", und Sie können mit einer Ihnen zugewiesenen Aufgabe beginnen. In einigen Lagern haben die Lagermanager eventuell jedem Mitarbeiter bestimmte Anweisungen zugeordnet. Weitere Informationen finden Sie unter [Lagermitarbeiter einrichten](warehouse-how-to-set-up-warehouse-employees.md)
 
 ## <a name="to-find-an-instruction-assigned-to-you"></a>So finden Sie eine Anweisung, die Ihnen zugeordnet wurde:  
-1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Einlagerungen**, **Kommissionierungen** oder **Lagerplatzumlagerungen** ein, und wählen Sie dann den entsprechenden Link.
+1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Einlagerungen**, **Kommissionierungen** oder **Lagerplatzumlagerung** ein und wählen Sie dann den entsprechenden Link.
 
     In allen drei Seiten werden Zuweisungen für alle Lagerorte angezeigt.  
 
@@ -35,7 +36,4 @@ Sie können das Feld **Zugewiesene Benutzer-ID** im Kopf verwenden, um selbst ei
 [Lagerortverwaltung einrichten](warehouse-setup-warehouse.md)     
 [Montageverwaltung](assembly-assemble-items.md)    
 [Designdetails: Lagerverwaltung](design-details-warehouse-management.md)  
-[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md) 
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md) 

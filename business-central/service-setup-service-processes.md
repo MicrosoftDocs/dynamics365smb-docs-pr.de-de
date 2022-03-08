@@ -2,19 +2,20 @@
 title: Einrichten von Servicevorgängen | Microsoft Docs
 description: Erfahren Sie, wie Sie Vorgänge einrichten, die vollständige Zufriedenheit Ihrer Debitoren mit Ihrem Debitorendienst sicherzustellen.
 author: bholtorf
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, number sequences, setup, warnings, fee, contracts, warranties
-ms.date: 04/01/2021
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 20afe251a1853ee31cd5de34c14ddb025a23c32e
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 665842a2ec24cbee6db469f5ce71b03ddd278555
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140579"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877135"
 ---
 # <a name="configure-service-processes"></a>Konfigurieren von Serviceprozessen
 Es folgen einige Beispiele für Einstellungen, die Sie bei Servicevorgängen anwenden können:  
@@ -26,8 +27,8 @@ Es folgen einige Beispiele für Einstellungen, die Sie bei Servicevorgängen anw
 * Die Anzahl der zu verwendenden Reihenfolgen bei dienstbezogenen Belegen und Artikeln.  
 
 ## <a name="to-enter-general-and-mandatory-settings"></a>So geben Sie allgemeine und obligatorische Einstellungen ein
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Service Einrichtung** ein, und wählen Sie dann den entsprechenden Link.
-2. Füllen Sie die Felder bei Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Serviceeinrichtung** ein und wählen Sie dann den entsprechenden Link.
+2. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="see-also"></a>Siehe auch  
 [Fehlerberichte einrichten](service-how-setup-fault-reporting.md)  
@@ -36,6 +37,3 @@ Es folgen einige Beispiele für Einstellungen, die Sie bei Servicevorgängen anw
 [Einrichten zusätzlicher Kosten für Services](service-how-setup-service-costs-pricing.md)  
 [Lösungsanleitung Einrichtung](service-how-setup-troubleshooting.md)  
 [Service](service-service.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

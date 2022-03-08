@@ -1,20 +1,21 @@
 ---
-title: Info zu Planungsfunktionen
-description: Das Planungssystem in Dynamics 365 Business Central berücksichtigt sämtliche Bedarfs- und Vorratsdaten, saldiert die Ergebnisse und erstellt Vorschläge zum Ausgleichen des Vorrats, damit der Bedarf erfüllt werden kann.
+title: Info zu Planungsfunktionen | Microsoft Docs
+description: Das Planungssystem berücksichtigt sämtliche Bedarfs- und Vorratsdaten, saldiert die Ergebnisse und erstellt Vorschläge zum Ausgleichen des Vorrats, damit der Bedarf erfüllt werden kann.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 5430
-ms.date: 07/16/2021
-ms.author: edupont
-ms.openlocfilehash: 14048cfe4d18df0002f51dacac658a6c07bc0155
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.search.keywords: ''
+ms.date: 07/14/2020
+ms.author: sgroespe
+ms.openlocfilehash: 2b803e52038d39375aa13dce36f81d429261f985
+ms.sourcegitcommit: 89d0ea903f61ab0628f99329c762d9f1619c49a7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135107"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "3577331"
 ---
 # <a name="about-planning-functionality"></a>Info zu Planungsfunktionen
 
@@ -36,12 +37,9 @@ Außerdem hat das Planungssystem die Aufgabe sicherzustellen, dass der Lagerbest
 
 ## <a name="planning-calculation"></a>Planungsberechnung
 
-Das Planungssystem wird durch den erwarteten und den tatsächlichen Debitorenbedarf sowie die Wiederbeschaffungsparameter gesteuert. Ein Ausführen der Planungsberechnung bewirkt, dass die Anwendung bestimmte Aktionen ([Ereignismeldungen](production-how-to-run-mps-and-mrp.md#action-messages)) vorschlägt, die sich auf mögliche Beschaffungen von Kreditoren, Umlagerungen zwischen Lagern oder die Fertigung beziehen. Wenn es bereits Ersatzaufträge gibt, könnten die vorgeschlagenen Aktionen so aussehen, dass die Aufträge vergrößert oder schneller erteilt werden sollen, damit den Bedarfsänderungen Rechnung getragen wird.  
+Das Planungssystem wird durch den erwarteten und den tatsächlichen Debitorenbedarf sowie die Wiederbeschaffungsparameter gesteuert. Ein Ausführen der Planungsberechnung bewirkt, dass die Anwendung bestimmte Aktionen (Ereignismeldungen) vorschlägt, die sich auf mögliche Beschaffungen von Kreditoren, Umlagerungen zwischen Lagern oder die Fertigung beziehen. Wenn es bereits Ersatzaufträge gibt, könnten die vorgeschlagenen Aktionen so aussehen, dass die Aufträge vergrößert oder schneller erteilt werden sollen, damit den Bedarfsänderungen Rechnung getragen wird.  
 
 Die Basis der Planungsroutine findet sich in der Brutto-Netto-Berechnung. Die Nettobedarfe steuern die voraussichtlichen Freigabemengen, die anhand der Arbeitspläne (Produktionsartikel) oder der Vorlaufzeiten der Artikelkarten (Einkaufsartikel) geplant werden. Voraussichtliche Freigabemengen basieren auf der Planungsberechnung und werden durch die Parameter beeinflusst, die auf den einzelnen Artikelkarten festgelegt sind.  
-
-> [!TIP]
-> Das Planungssystem hängt davon ab, wie Ihre Organisation Standorte verwendet. Weitere Informationen finden Sie unter [Planung mit/ohne Lagerortcodes](production-planning-with-without-locations.md).
 
 ## <a name="planning-with-manual-transfer-orders"></a>Planung mit manuellen Umlagerungsaufträgen
 
@@ -103,7 +101,7 @@ Enthält das Feld die Option **Unbeschränkt**, wird die Zeile beim Berechnen vo
 
 ### <a name="warning"></a>Warnung
 
-Das Feld **Warnung** auf der **Planungsarbeitsblatt** Seite informiert Sie über jede mögliche Planungszeile, die für eine ungewöhnliche Situation mit einen Text erstellt wird, den der Benutzer klicken kann, um weitere Informationen anzuzeigen. Folgende Arten von Warnungen sind verfügbar:
+Das Feld **Warnung** auf der **Planungsvorschlag** Seite informiert Sie über jede mögliche Planungszeile, die für eine ungewöhnliche Situation mit einen Text erstellt wird, den der Benutzer klicken kann, um weitere Informationen anzuzeigen. Folgende Arten von Warnungen sind verfügbar:
 
 - Notfall
 - Ausnahme
@@ -140,7 +138,7 @@ Die Achtungswarnung wird in zwei Situationen angezeigt:
 > [!NOTE]
 > In Planzeilen mit Warnungen ist das Kontrollkästchen **Ereignismeldung akzeptieren** nicht aktiviert, da diese Zeilen vom Planer genauer untersucht werden sollen, bevor der Plan umgesetzt wird.
 
-## <a name="planning-worksheets-and-requisition-worksheets"></a>Planungs‑ und Anforderungsarbeitsblätter
+## <a name="planning-worksheets-and-requisition-worksheets"></a>Planungsarbeitsblätter und Anforderungsarbeitsblätter
 
 Wie in [Planung](production-planning.md) beschrieben können Sie für die meisten Planungsaktivitäten zwischen zwei Arbeitsblättern wählen, dem Planungsarbeitsblatt und dem Anforderungsarbeitsblatt. Die meisten Prozesse werden anhand des Planungsarbeitsblatts beschrieben. Es gibt jedoch einige Szenarien, in denen das Anforderungsarbeitsblatt bevorzugt wird.
 
@@ -158,7 +156,7 @@ Auf der Seite **Anforderungsarbeitsblatt** sind die Artikel aufgelistet, die Sie
 
 - Sie können die Aktion **Spezialauftrag** verwenden, um die Anforderungsarbeitsblattszeilen zu füllen. Diese Aktion verwendet die Stapelverarbeitung **Aufträge holen**, um die Verkaufsauftragszeilen zu ermitteln, die für einen Spezialauftrag vorgesehen sind.
 
-Anforderungsarbeitsblattzeilen enthalten detaillierte Informationen über die Artikel, die wiederbestellt werden müssen. Sie können die Zeilen bearbeiten und löschen, um Ihren Bestellarbeitsblatt anzupassen, und Sie können die Zeilen auch mit der Stapelverarbeitung **Ereignismeldung durchführen** weiterverarbeiten.
+Anforderungsarbeitsblattzeilen enthalten detaillierte Informationen über die Artikel, die wiederbestellt werden müssen. Sie können die Zeilen bearbeiten und löschen, um Ihren Bestellvorschlag anzupassen, und Sie können die Zeilen auch mit der Stapelverarbeitung **Ereignismeldung durchführen** weiterverarbeiten.
 
 Einzelheiten zur Planung mit Standorten und Transfers finden Sie unter [Planen mit oder ohne Standorte](production-planning-with-without-locations.md).
 
@@ -171,7 +169,4 @@ Einzelheiten zur Planung mit Standorten und Transfers finden Sie unter [Planen m
 [Lagerbestand](inventory-manage-inventory.md)  
 [Einkauf](purchasing-manage-purchasing.md)  
 [Bewährte Einrichtungsmethoden: Beschaffungsplanung](setup-best-practices-supply-planning.md)  
-[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

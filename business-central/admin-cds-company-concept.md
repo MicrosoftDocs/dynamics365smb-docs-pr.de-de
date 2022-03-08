@@ -2,24 +2,30 @@
 title: Zuordnung von Unternehmen und Geschäftsbereichen | Microsoft Docs
 description: Unternehmen sind sowohl ein rechtliches als auch ein geschäftliches Konstrukt, und sie werden zur Sicherung und Visualisierung von Geschäftsdaten verwendet.
 author: bholtorf
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: CDS, Dataverse, integration, sync
-ms.date: 04/01/2021
+ms.search.keywords: CDS, , integration, sync
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: c1af1f571170a167d59b20d85010fdd8d70d07cd
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 22411c8392cf81b25b1f11f221bbd98942f653f4
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133992"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754092"
 ---
 # <a name="data-ownership-models"></a>Modelle für Datenbesitz
+[!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
 
+[!INCLUDE[prod_short](includes/cds_long_md.md)] erfordert, dass Sie einen Eigentümer für die von Ihnen gespeicherten Daten angeben. Weitere Informationen finden Sie unter [Entitätseigentum](https://docs.microsoft.com/powerapps/maker/common-data-service/types-of-tables#table-ownership) in der Power Apps-Dokumentation. Wenn Sie die Integration zwischen [!INCLUDE[prod_short](includes/cds_long_md.md)] und [!INCLUDE[prod_short](includes/prod_short.md)] einrichten, müssen Sie eines von zwei Eigentumsmodellen für Datensätze wählen, die synchronisiert werden:
 
-[!INCLUDE[prod_short](includes/cds_long_md.md)] erfordert, dass Sie einen Eigentümer für die von Ihnen gespeicherten Daten angeben. Weitere Informationen finden Sie unter [Arten von Tabellen](/powerapps/maker/data-platform/types-of-entities) in der Power Apps-Dokumentation. Wenn Sie die Integration zwischen [!INCLUDE[prod_short](includes/cds_long_md.md)] und [!INCLUDE[prod_short](includes/prod_short.md)] einrichten, müssen Sie **Benutzer oder Team**-Besitz für synchronisierte Datensätze auswählen. Aktionen, die mit diesen Datensätzen ausgeführt werden können, können auf Benutzerebene gesteuert werden. <!--We recommend the Team ownership model because it makes it easier to manage ownership for multiple people.NO LONGER TRUE IN DATAVERSE-->
+* Team 
+* Person (Benutzer)
+
+Aktionen, die mit diesen Datensätzen ausgeführt werden können, können auf Benutzerebene gesteuert werden. Weitere Informationen finden Sie unter [Benutzer- und Teamtabellen](https://docs.microsoft.com/powerapps/developer/common-data-service/user-team-tables). Wir empfehlen das Team-Eigentümermodell, da es die Verwaltung der Eigentümerschaft für mehrere Personen erleichtert.
 
 ## <a name="team-ownership"></a>Team-Eigentum
 In [!INCLUDE[prod_short](includes/prod_short.md)] ist ein Unternehmen eine juristische und geschäftliche Tabelle, die Möglichkeiten zur Sicherung und Visualisierung von Geschäftsdaten bietet. Benutzer arbeiten immer im Kontext eines Unternehmens. Diesem Konzept kommt [!INCLUDE[prod_short](includes/cds_long_md.md)] am nächsten, da die Geschäftseinheitstabelle keine rechtlichen oder geschäftlichen Auswirkungen hat.
@@ -38,11 +44,11 @@ Die folgende Abbildung zeigt ein Beispiel für diese Dateneinrichtung in [!INCLU
 
 ![Der Stamm-Geschäftsbereich steht oben, die Teams in der Mitte, und dann die Unternehmen ganz unten.](media/cds_bu_team_company.png)
 
-In dieser Konfiguration befinden sich Datensätze, die sich auf die Firma Cronus US beziehen, im Besitz eines Teams, das mit dem Cronus US-Geschäftsbereich in [!INCLUDE[prod_short](includes/cds_long_md.md)] verbunden ist. Benutzer, die auf diese Geschäftseinheit über eine Sicherheitsrolle zugreifen können, die in [!INCLUDE[prod_short](includes/cds_long_md.md)] auf Sichtbarkeit auf Geschäftseinheitsebene eingestellt ist, können nun diese Datensätze sehen. Das folgende Beispiel zeigt, wie Teams eingesetzt werden können, um den Zugriff auf diese Datensätze zu ermöglichen.
+In dieser Konfiguration werden Datensätze, die sich auf die Firma Cronus US beziehen, einem Team gehören, das mit dem Cronus US-Geschäftsbereich <ID> in [!INCLUDE[prod_short](includes/cds_long_md.md)] verbunden ist. Benutzer, die auf diese Geschäftseinheit über eine Sicherheitsrolle zugreifen können, die in [!INCLUDE[prod_short](includes/cds_long_md.md)] auf Sichtbarkeit auf Geschäftseinheitsebene eingestellt ist, können nun diese Datensätze sehen. Das folgende Beispiel zeigt, wie Teams eingesetzt werden können, um den Zugriff auf diese Datensätze zu ermöglichen.
 
 * Die Rolle des Vertriebsleiters wird den Mitgliedern des US-Vertriebsteams von Cronus zugewiesen.
 * Benutzer, die die Rolle Vertriebsleiter haben, können auf Kontoaufzeichnungen für Mitglieder derselben Geschäftseinheit zugreifen.
-* Das US-Verkaufsteam von Cronus ist mit der bereits erwähnten Geschäftseinheit von Cronus US verbunden. Mitglieder des Cronus US-Verkaufsteams können jedes Konto sehen, das dem Cronus US-Benutzer gehört, das von der Cronus US-Firmentabelle in [!INCLUDE[prod_short](includes/prod_short.md)] gekommen wäre.
+* Das US-Verkaufsteam von Cronus ist mit der bereits erwähnten Geschäftseinheit von Cronus US verbunden. Mitglieder des Cronus US-Verkaufsteams können jedes Konto sehen, das dem Cronus US-Benutzer <ID> gehört, das von der Cronus US-Firmentabelle in [!INCLUDE[prod_short](includes/prod_short.md)] gekommen wäre.
 
 Die 1:1-Abbildung zwischen Geschäftseinheit, Unternehmen und Team ist jedoch nur ein Ausgangspunkt, wie in der folgenden Abbildung gezeigt.
 
@@ -50,7 +56,7 @@ Die 1:1-Abbildung zwischen Geschäftseinheit, Unternehmen und Team ist jedoch nu
 
 In diesem Beispiel wird eine neue EUR (Europa) Stamm-Geschäftseinheit in [!INCLUDE[prod_short](includes/cds_long_md.md)] als Muttergesellschaft sowohl für Cronus DE (Gernamy) als auch für Cronus ES (Spanien) angelegt. Der EUR-Geschäftsbereich ist nicht mit der Synchronisation verbunden. Es kann jedoch Mitgliedern des EUR-Verkaufsteams Zugriff auf Kontodaten sowohl in Cronus DE als auch in Cronus ES geben, indem die Datensichtbarkeit auf **Übergeordnete/untergeordnete GE** auf die zugehörige Sicherheitsrolle in [!INCLUDE[prod_short](includes/cds_long_md.md)] gesetzt wird.
 
-Die Synchronisation bestimmt, welches Team Datensätze besitzen soll. Dies wird durch das Feld **Standardeigentümerteam** in der BCI-Zeile gesteuert. Wenn ein BCI-Datensatz für die Synchronisierung aktiviert wird, erstellen wir automatisch die zugehörige Geschäftseinheit und das Eigentümerteam (falls noch nicht vorhanden) und legen das Feld **Standardeigentümerteam** fest. Wenn die Synchronisierung für eine Tabelle aktiviert ist, können Administratoren das besitzende Team ändern, aber es muss immer ein Team zugewiesen werden.
+Die Synchronisation bestimmt, welches Team Datensätze besitzen soll. Dies wird durch das Feld **Standardeigentümerteam** auf dem BCI - <ID> Zeile gesteuert. Wenn ein BCI - <ID>-Datensatz für die Synchronisierung aktiviert wird, erstellen wir automatisch die zugehörige Geschäftseinheit und das Eigentümerteam (falls noch nicht vorhanden) und setzen das Feld **Standard Eigentümerteam**. Wenn die Synchronisierung für eine Tabelle aktiviert ist, können Administratoren das besitzende Team ändern, aber es muss immer ein Team zugewiesen werden.
 
 > [!NOTE]
 > Die Aufzeichnungen werden schreibgeschützt, nachdem eine Firma hinzugefügt und gespeichert wurde, also achten Sie darauf, die richtige Firma zu wählen.
@@ -71,5 +77,3 @@ Wenn Sie Verkäufer in [!INCLUDE[prod_short](includes/prod_short.md)] mit Benutz
 
 ## <a name="see-also"></a>Siehe auch
 [Über [!INCLUDE[prod_short](includes/cds_long_md.md)]](admin-common-data-service.md)
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

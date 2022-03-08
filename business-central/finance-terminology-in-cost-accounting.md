@@ -2,6 +2,7 @@
 title: Terminologie der Kostenrechnung
 description: Dieses Thema definiert die wichtigsten Begriffe, die in der Kalkulation verwendet werden, wie z.B. Verrechnungsschlüssel und Verrechnungsquelle.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 4ba3cb0930426f44c1064f4d565b8ddaf8563fdd
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 957612150a5a5b99f41b83222ec8b84a3c617620
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147570"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971914"
 ---
 # <a name="terminology-in-cost-accounting"></a>Terminologie der Kostenrechnung
 

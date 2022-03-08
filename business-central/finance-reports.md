@@ -1,26 +1,40 @@
 ---
-title: Finanzberichte und Analysen
-description: Sehen Sie, welche Finanzberichte und Analysen in der Standardversion von Business Central verfügbar sind, damit Sie den Überblick über Ihr Geschäft behalten. Verwenden Sie Bericht 38 für Gewinn- und Verlustberichte (G+V).
+title: Finanzberichte in Business Central
+description: Sehen Sie, welche Finanzberichte in der Standardversion von Business Central verfügbar sind, damit Sie Ihr Unternehmen im Auge behalten können.
 author: edupont04
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: reporting
-ms.date: 04/12/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c31914e1c251f4cf04cd3b990c2570b51e1717f5
-ms.sourcegitcommit: 67006b090a7bd70446414a19cc82e531190637dc
+ms.openlocfilehash: dd4ae64c008c45fb6876387d98dac27440f17141
+ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8311206"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935286"
 ---
-# <a name="financial-reports-and-analytics-in-business-central"></a>Finanzielle Berichte und Analysen in Business Central
+# <a name="financial-reports-in-business-central"></a>Finanzberichte in Business Central
 
-Finanzberichterstattung in [!INCLUDE [prod_short](includes/prod_short.md)] ermöglicht Finanz- und Geschäftsfachleuten das Erstellen, Verwalten, Bereitstellen und Anzeigen von Abschlüssen. Es geht über die herkömmlichen Berichtsbeschränkungen hinaus und hilft Ihnen, verschiedene Arten von Berichten effizient zu gestalten. [!INCLUDE [prod_short](includes/prod_short.md)] enthält mehrere Berichte, Nachverfolgungsfunktionen und Tools, die Wirtschaftsprüfern oder Controllern helfen, die für die Berichterstattung an die Finanzabteilung verantwortlich sind. Die Finanzberichterstattung umfasst die Unterstützung von Dimensionen, sodass Kontosegmente oder Dimensionen sofort verfügbar sind. Es sind keine weiteren Tools oder Konfigurationsschritte erforderlich.  
-
-[!INCLUDE [tip_open_report_from_docs](includes/tip-open-report-from-docs.md)]
+Finanzberichterstattung in [!INCLUDE [prod_short](includes/prod_short.md)] ermöglicht Finanz- und Geschäftsfachleuten das Erstellen, Verwalten, Bereitstellen und Anzeigen von Abschlüssen. Es geht über die herkömmlichen Berichtsbeschränkungen hinaus und hilft Ihnen, verschiedene Arten von Berichten effizient zu gestalten. [!INCLUDE [prod_short](includes/prod_short.md)] enthält mehrere Berichte, Nachverfolgungsfunktionen und Tools, die Wirtschaftsprüfern oder Controllern helfen, die für die Berichterstattung an die Finanzabteilung verantwortlich sind. Die Finanzberichterstattung umfasst die Unterstützung von Dimensionen, sodass Kontosegmente oder Dimensionen sofort verfügbar sind. Es sind keine zusätzlichen Tools oder Konfigurationsschritte erforderlich.  
 
 ## <a name="reports"></a>Berichte
-[!INCLUDE [finance_reports](includes/finance-reports-include.md)]
+
+In der folgenden Tabelle werden einige der wichtigsten Berichte in der Finanzberichterstattung beschrieben.
+
+|Bericht |Beschreibung  |
+|---------|---------|
+|**Rohbilanz**| Zeigt den Kontenplan mit Salden und Bewegungen. Sie können die Ansicht einer Rohbilanz für ausgewählte Dimensionen wählen. Sie können den Bericht beim Abschluss einer Buchhaltungsperiode oder eines Geschäftsjahrs verwenden. |
+|**Rohbilanz nach Periode**  | Zeigt die Eröffnungsbilanz nach Sachkonto, die Bewegungen in der ausgewählten Monats-, Quartals- oder Jahresperiode und die resultierende Abschlussbilanz.         |
+|**Rohbilanz/Budget** | Zeigt eine Rohbilanz im Vergleich zu einem Budget. Sie können die Ansicht einer Rohbilanz für ausgewählte Dimensionen wählen. Sie können den Bericht beim Abschluss einer Buchhaltungsperiode oder eines Geschäftsjahrs verwenden.        |
+|**Ausführlicher Rohbilanzbericht** |Zeigt ein ausführliches Kontoblatt für ausgewählte Sachkonten an. Sie können den Bericht beim Abschluss einer Buchhaltungsperiode oder eines Geschäftsjahrs verwenden. Die im Bericht enthaltenen Konten können Sie durch Setzen von Filtern festlegen.         |
+|**Rohbilanz/Vorjahresvergleich**|Zeigt eine Rohbilanz im Vergleich zu den Werten des Vorjahres. Sie können die Ansicht einer Rohbilanz für ausgewählte Dimensionen wählen. Sie können den Bericht beim Abschluss einer Buchhaltungsperiode oder eines Geschäftsjahrs verwenden. Als *Vorjahr* wird hier die gleiche Periode ein Kalenderjahr früher bezeichnet.|
+|**Kontenschema**|Kontenschemata können verwendet werden, um Sachkonten anders als im Kontenplan anzuzeigen. Kontenpläne können beispielsweise verwendet werden, um Berichte zu Kennzahlen zu erzeugen.|
+<!--|**Bilanz** (Acc.Schedule oder Excel) oder **Rohbilanz** |         |
+|**Cashflow-Auszug** (Kontenschema) |         |
+|**Rohbilanz – Übersicht/Detail** |         |
+|**GuV** (Kontenschema oder Excel)||
+|**Budget** ||-->
 
 ## <a name="tasks"></a>Aufgaben
 
@@ -43,9 +57,6 @@ In den folgenden Artikeln werden einige der wichtigsten Aufgaben zur Analyse des
 [Abschlussberichte vorbereiten](year-prepare-close-statement.md)  
 [Finanzauswertungen analysieren in Microsoft Excel](finance-analyze-excel.md)  
 [Arbeiten mit Dimensionen](finance-dimensions.md)  
-[Debitoren Berichte und Analysen](receivables-reports.md)  
-[Berichte und Analysen zu Verbindlichkeiten a. LL](payables-reports.md)  
-[Anlagen-Berichte und -Analysen](fa-reports.md)  
 [Finanzen einrichten](finance-setup-finance.md)  
 [Finanzen](finance.md)  
 [Lokale Funktionen – Übersicht](about-localization.md)  

@@ -1,27 +1,28 @@
 ---
-title: Wie Sie MwSt.-Berichte erstellen [DE]
-description: Sie können verschiedene Arten von MwSt.-Berichten im elektronischen Format konfigurieren, die den ELMA5-Formatanforderungen entsprechen.
+title: 'Gewusst wie: MwSt.-Berichte erstellen'
+description: Verschiedene Arten von MwSt.-Erklärungen können basierend auf Anforderungen konfiguriert werden. Wenn Sie dann eine MwSt buchen müssen, können Sie sie auf der Seite MwSt Bericht erstellen und dann im elektronischen Format exportieren, das an die Anforderungen des ELMA5 Formats sich anpaßt.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/18/2021
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2fd193c5e7a577168dd3e9dc3455834e2323e337
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3996d67889bf6e8fc1bc13cd0c57e7b0f1a88c1f
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142679"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3778608"
 ---
-# <a name="create-vat-reports-in-the-german-version"></a>Erstellen von MwSt.-Berichten in der deutschen Version
+# <a name="create-vat-reports"></a>Erstellen von MwsT-Berichten.
 Verschiedene Arten von MwSt.-Erklärungen können basierend auf Anforderungen konfiguriert werden. Wenn Sie dann eine MwSt buchen müssen, können Sie sie auf der Seite **MwSt Bericht** erstellen und dann im elektronischen Format exportieren, das an die Anforderungen des ELMA5 Formats sich anpaßt.  
 
 ## <a name="to-create-a-vat-report"></a>Einen MwSt.-Bericht erstellen:  
 
-1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](../../media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen") Symbol. Geben Sie **MwSt.-Bericht** ein, und wählen Sie dann den entsprechenden Link.  
+1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“](../../media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen") öffnet, geben Sie **MwSt.-Bericht** ein und wählen Sie dann den entsprechenden Link.  
 2.  Füllen Sie im Inforegister **Allgemein** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 
     |Feld|Description|  
@@ -58,7 +59,7 @@ Nachdem Sie die MwSt.-Erklärung erstellt haben, müssen Sie sie an die Steuerbe
 1.  Wählen Sie auf der Seite **MwSt-Bericht** die Aktion **Freigabe** aus.  
 2.  Bestätigen Sie, dass Sie den Bericht freigeben möchten.  
 
-    [!INCLUDE[prod_short](../../includes/prod_short.md)] prüft, ob die MwSt.-Erklärung korrekt eingerichtet ist. Wenn die Prüfung fehlschlägt, werden die Fehler auf der Seite **MwSt-Bericht Fehlerprotokoll** angezeigt, sodass Sie entsprechende Änderungen vornehmen können. Beispielsweise wird ein Fehler angezeigt, wenn Sie versuchen, eine Standard-MwSt.-Erklärung freizugeben, aber Sie der Erklärung noch keine Zeilen hinzugefügt haben.  
+    [!INCLUDE[d365fin](../../includes/d365fin_md.md)] prüft, ob die MwSt.-Erklärung korrekt eingerichtet ist. Wenn die Prüfung fehlschlägt, werden die Fehler auf der Seite **MwSt-Bericht Fehlerprotokoll** angezeigt, sodass Sie entsprechende Änderungen vornehmen können. Beispielsweise wird ein Fehler angezeigt, wenn Sie versuchen, eine Standard-MwSt.-Erklärung freizugeben, aber Sie der Erklärung noch keine Zeilen hinzugefügt haben.  
 
     Wenn Sie eine MwSt.-Erklärung als freigegeben kennzeichnen, ist sie nicht mehr editierbar. Wenn Sie die Erklärung ändern müssen, nachdem Sie sie als freigegeben gekennzeichnet haben, müssen Sie sie zuerst erneut öffnen.  
 
@@ -70,7 +71,4 @@ Nachdem Sie die MwSt.-Erklärung erstellt haben, müssen Sie sie an die Steuerbe
 
 ## <a name="see-also"></a>Siehe auch  
  [Zu korrigierender MwSt.-Bericht](how-to-correct-vat-reports.md)   
- [Richten Sie die MwSt.-Berichte ein](how-to-set-up-vat-reports.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+ [Richten Sie die MwSt.-Berichte ein.](how-to-set-up-vat-reports.md)

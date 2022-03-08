@@ -1,20 +1,23 @@
 ---
-title: Informationen zur Kostenrechnung
-description: Kostenrechnung wird verwendet, um Ihnen dabei zu helfen, die Kosten des Betriebs eines Geschäftes zu erkennen. Die Kostenrechnung dient dazu, verschiedene Sachverhalte zu analysieren.
+title: Informationen zur Kostenrechnung | Microsoft Docs
+description: Kostenrechnung wird verwendet, um Ihnen dabei zu helfen, die Kosten des Betriebs eines Geschäftes zu erkennen.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 1101, 1103, 1105, 1108, 1111, 1112, 1124
-ms.date: 06/16/2021
-ms.author: edupont
-ms.openlocfilehash: 52138687b0959c80711495e4c1a8b608184ba211
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.search.keywords: ''
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 053a0ca21ff26b53cabcc8894ed1cd0e48c904b0
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145738"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2302668"
 ---
 # <a name="about-cost-accounting"></a>Informationen zur Kostenrechnung
 Kostenrechnung wird verwendet, um Ihnen dabei zu helfen, die Kosten des Betriebs eines Geschäftes zu erkennen. Kostenrechnungsinformationen sollen Folgendes analysieren:  
@@ -36,7 +39,7 @@ Kostenrechnung hat folgende Hauptkomponenten:
 
 Das folgende Diagramm zeigt den Workflow der Kostenrechnung.  
 
-![Kostenrechnung im Überblick](media/costaccountingoverview.png "CostAccountingOverview")  
+![Kostenrechnungsübersicht](media/costaccountingoverview.png "CostAccountingOverview")  
 
 ## <a name="cost-types-cost-centers-and-cost-objects"></a>Kostenarten, Kostenstellen und Kostenträger  
 Sie definieren Kostenarten, Kostenstellen und Kostenträger, um zu analysieren, worin die Kosten bestehen, woher die Kosten stammen und wer die Kosten trägt.  
@@ -71,7 +74,4 @@ Die meisten Berichte und Statistiken basieren auf den gebuchten Kostenposten. Si
  [Kostenrechnung](finance-manage-cost-accounting.md)  
  [Finanzen](finance.md)   
  [Terminologie der Kostenrechnung](finance-terminology-in-cost-accounting.md)  
- [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+ [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

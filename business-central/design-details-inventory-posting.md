@@ -2,19 +2,20 @@
 title: Designdetails - Bestandbuchung | Microsoft Docs
 description: Jede Bestandstransaktion, wie etwa eine Einkaufslieferung oder eine Verkaufslieferung, bucht zwei Posten unterschiedlichen Typs.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: edff39ccb01cc7da7e8a0387a4737088b0be231d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d9c4574f913355961d5bee6baa51bc88f0bdc64d
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138648"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3913713"
 ---
 # <a name="design-details-inventory-posting"></a>Designdetails: Bestandsbuchung
 
@@ -25,13 +26,13 @@ Jede Bestandstransaktion, wie etwa eine Einkaufslieferung oder eine Verkaufslief
 |Menge|Spiegelt die Menge im Bestand wider. Diese Informationen werden in Artikelposten gespeichert.<br /><br /> Begleitet von den Artikelausgleichsposten.|  
 |Wert|Spiegelt die Änderung des Lagerwerts wider. Diese Informationen werden in Wertposten gespeichert.<br /><br /> Pro Artikelposten und pro Kapazitätsposten kann es einen oder mehrere Wertposten geben.<br /><br /> Informationen zu Kapazitätswertposten, die sich auf die Verwendung der Produktions- oder Montageressourcen beziehen, finden Sie unter [Designdetails: Produktionsauftragsbuchung](design-details-production-order-posting.md) .|  
 
- In Verbindung mit Mengenbuchungen gibt es Artikelausgleichsposten, um die Bestandserhöhung mit der Bestandsminderung zu verknüpfen. Dies ermöglicht dem Kalkulationsmodul, Kosten für Lagerzu- an die entsprechenden Abgänge weiterzuleiten und umgekehrt. Weitere Informationen finden Sie unter [Designdetails: Artikelverfolgung](design-details-item-application.md).  
+ In Verbindung mit Mengenbuchungen gibt es Artikelausgleichsposten, um die Bestandserhöhung mit der Bestandsminderung zu verknüpfen. Dies ermöglicht dem Kalkulationsmodul, Kosten für Lagerzu- an die entsprechenden Abgänge weiterzuleiten und umgekehrt. [Weitere Informationen finden Sie unter "Designdetails: Artikelverfolgung".](design-details-item-application.md)  
 
  Artikelposten, Wertposten und Artikelausgleichsposten werden durch eine Artikel Buch.-Blattzeile erstellt, entweder indirekt durch Buchen einer Auftragszeile oder direkt auf der Seite Fenster Artikel Buch.-Blatt.  
 
  In regelmäßigen dynamischen Abständen werden Wertposten, die im Bestandsposten erstellt werden, ins Hauptbuch gebucht, um die beiden Bücher aus Finanzkontrollgründen abzugleichen. Weitere Informationen finden Sie unter [Designdetails: Abstimmung mit der Finanzbuchhaltung](design-details-reconciliation-with-the-general-ledger.md).  
 
- ![Eintrags-Flow beim Abstimmen des Bestands mit dem Hauptbuch.](media/design_details_inventory_costing_1_entry_flow.png "Eintragsfluss beim Abgleich des Lagerbestands mit dem Sachkonto")  
+ ![Eintragsfluss beim Abgleich des Lagerbestands mit dem Sachkonto](media/design_details_inventory_costing_1_entry_flow.png "Eintragsfluss beim Abgleich des Lagerbestands mit dem Sachkonto")  
 
 ## <a name="example"></a>Beispiel
 
@@ -133,7 +134,4 @@ Weitere Informationen finden Sie unter [Designdetails: Montageauftragsbuchung](d
  [Designdetails: Konten in der Finanzbuchhaltung](design-details-accounts-in-the-general-ledger.md)  
  [Designdetails: Kostenkomponenten](design-details-cost-components.md) [Verwalten der Lagerkosten](finance-manage-inventory-costs.md)  
  [Finanzen](finance.md)  
- [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+ [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

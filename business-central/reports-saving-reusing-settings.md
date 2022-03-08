@@ -2,6 +2,7 @@
 title: Gespeicherte Einstellungen für Berichte und Stapelaufträge verwalten
 description: Beschreibt, wie der Admin vordefinierte Optionen und Filter für einen Bericht festlegen und diese Einstellungen für einen oder alle Benutzer freigeben kann.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +10,12 @@ ms.workload: na
 ms.search.keywords: customization, personalization
 ms.date: 12/21/2021
 ms.author: edupont
-ms.openlocfilehash: 0534e2e5d54102d85a7cf49f20fb0a1700ff2012
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 289603bcfb11b50711a854c355a99781a8e77264
+ms.sourcegitcommit: 8837ed2aeb454806e153145c675cf049a020ea38
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137185"
+ms.lasthandoff: 12/21/2021
+ms.locfileid: "7944073"
 ---
 # <a name="manage-saved-settings-for-reports-and-batch-jobs"></a>Gespeicherte Einstellungen für Berichte und Batch-Aufträge verwalten
 

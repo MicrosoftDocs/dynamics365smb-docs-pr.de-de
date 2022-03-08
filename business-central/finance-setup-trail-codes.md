@@ -1,21 +1,21 @@
 ---
-title: Codes für Audit-Trails festlegen
+title: Codes für Audit-Trails einrichten | Microsoft Docs
 description: Erfahren Sie mehr über die Aufgaben zum Einrichten von Herkunftscodes und Ursachencodes ein, mit denen Sie Audit-Trails verfolgen können.
 author: edupont04
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.search.form: 257, 259, 279
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7d89c5795b9f4d0115469a505305bf3264eab613
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 6c20c57f05d17b0b52fcc1d4c9b1234cf03c6e97
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133758"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5773839"
 ---
 # <a name="setting-up-source-codes-and-reason-codes-for-audit-trails"></a>Herkunftscodes und Ursachencodes für Audit Trails einrichten
 
@@ -33,7 +33,7 @@ Beim Buchen oder Ausführen einer Stapelverarbeitung wird dem Posten automatisch
 
 ### <a name="to-define-source-codes"></a>So definieren Sie Herkunftscodes
 
-1. Wählen Sie das ![Suchen Sie nach Seite oder Bericht.](media/ui-search/search_small.png "Nach dem Symbol für „Seite“ oder „Bericht“ suchen") Symbol. Geben Sie **Herkunftscode Einrichtung** ein, und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie das Symbol ![Seite suchen oder Bericht](media/ui-search/search_small.png "Nach dem Symbol für „Seite“ oder „Bericht“ suchen"), geben Sie **Herkunftscode Einrichtung** ein und wählen Sie dann den entsprechenden Link aus.  
 
 2. Geben Sie im Fenster **Herkunftscode Einrichtung** für jede Buchungsart und jede Stapelverarbeitung den entsprechenden Herkunftscode ein.  
 
@@ -45,7 +45,7 @@ Sie können einen Herkunftscode ändern. Sie können den Herkunftscode *FIBUBUCH
 
 ### <a name="to-change-source-codes"></a>So ändern Sie Herkunftscodes
 
-1. Wählen Sie die ![Suche nach Seite oder Bericht.](media/ui-search/search_small.png "Nach dem Symbol für „Seite“ oder „Bericht“ suchen") Symbol. Geben Sie **Herkunftscodes** ein und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie das Symbol ![Seite oder Bericht suchen](media/ui-search/search_small.png "Nach dem Symbol für „Seite“ oder „Bericht“ suchen") aus, geben Sie **Herkunftscode Einrichtung** ein, und wählen Sie dann den zugehörigen Link aus.
 
 2. Wählen Sie in der Zeile mit dem zu ändernden den Code im Feld **Code** aus.
 
@@ -59,7 +59,7 @@ Ursachencodes ergänzen die Quellcodes und geben an, warum ein Eintrag erstellt 
 
 ### <a name="to-set-up-reason-codes"></a>So richten Sie Ursachencodes ein
 
-1. Wählen Sie das ![Suchen Sie nach Seite oder Bericht.](media/ui-search/search_small.png "Symbol „Suche nach Seite oder Bericht“")  Symbol. Geben Sie **Ursachencodes** ein und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie das Symbol ![Seite oder Bericht suchen](media/ui-search/search_small.png "Symbol „Suche nach Seite oder Bericht“") aus, geben Sie **Ursachencodes** ein, und wählen Sie dann den zugehörigen Link aus.
 
 2. Geben Sie im Fenster **Ursachencodes** den ersten Code im Feld **Code** ein. Geben Sie im Feld **Beschreibung** einen erklärenden Text ein.
 
@@ -69,7 +69,7 @@ Nachfolgend wird beschrieben, wie Sie einer Buch.-Blattvorlage einen Ursachencod
 
 ### <a name="to-assign-reason-codes-to-journal-templates"></a>So weisen Sie Buch.-Blattvorlagen Ursachencodes zu
 
-1. Wählen Sie das ![Suchen Sie nach Seite oder Bericht.](media/ui-search/search_small.png "Symbol „Suche nach Seite oder Bericht“")  Symbol. Geben Sie **Allgemeine Fibu Buch.-Blattvorlagen** ein, und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie das Symbol ![Seite oder Bericht suchen](media/ui-search/search_small.png "Symbol „Suche nach Seite oder Bericht“") aus, geben Sie **Allgemeine Buch.-Blatt Vorlage** ein, und wählen Sie dann den zugehörigen Link aus.
 
 2. Geben Sie in der Zeile mit der ausgewählten Buch.-Blattvorlage den entsprechenden Code in das Feld **Ursachencode** ein.
 

@@ -1,20 +1,23 @@
 ---
-title: Designdetails – Übersicht über das Lager
-description: Um die physische Bewegung der Artikel auf dieser Zonen- und Lagerplatzebene zu unterstützen, müssen alle Informationen für jede Transaktion oder Umlagerung im Lager nachverfolgt werden.
+title: Designdetails - Lagerhaus Übersicht | Microsoft Docs
+description: Um die physische Bewegung der Artikel auf dieser Zonen- und Lagerplatzebene zu unterstützen, müssen alle Informationen für jede Transaktion oder Umlagerung im Lager nachverfolgt werden. Dies wird in der Tabelle **Lagerplatzposten** verwaltet. Jede Transaktion wird in einem Lagerplatzjournal gespeichert.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
-ms.topic: overview
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/15/2021
-ms.author: edupont
-ms.openlocfilehash: 95e6e88f1f448546a7c1b0e4e49d33e54c642932
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 1edf9c9f5b86a618e32820a261f1f9a4597b756a
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141255"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2306652"
 ---
 # <a name="design-details-warehouse-overview"></a>Designdetails: Lagerübersicht
 Um die physische Bewegung der Artikel auf dieser Zonen- und Lagerplatzebene zu unterstützen, müssen alle Informationen für jede Transaktion oder Umlagerung im Lager nachverfolgt werden. Dies wird in der Tabelle **Lagerplatzposten** verwaltet. Jede Transaktion wird in einem Lagerplatzjournal gespeichert.  
@@ -27,10 +30,10 @@ Wenn Artikelbuchungen außerhalb des Lagermoduls auftreten, wird ein Standard-Au
 
 Die folgenden Abbildung zeigt typische Warenflüsse.  
 
-![Übersicht über die Lager-Prozesse.](media/design_details_warehouse_management_overview.png "Überblick über Lagerprozesse")  
+![Übersicht Lagerprozesse](media/design_details_warehouse_management_overview.png "Übersicht Lagerprozesse")  
 
 ## <a name="basic-or-advanced-warehousing"></a>Grundlegende oder erweiterte Lagerhaltung  
-Lagerfunktionen in [!INCLUDE[prod_short](includes/prod_short.md)] können in unterschiedlichen Komplexitätsebenen implementiert werden, abhängig von den Prozessen eines Unternehmens und dem Auftragsvolumen. Der wichtigste Unterschied besteht darin, dass Aktivitäten in der einfachen Logistik Auftrag für Auftrag durchgeführt werden, während sie in der erweiterten Logistik für mehrere Aufträge konsolidiert werden.  
+Lagerfunktionen in [!INCLUDE[d365fin](includes/d365fin_md.md)] können in unterschiedlichen Komplexitätsebenen implementiert werden, abhängig von den Prozessen eines Unternehmens und dem Auftragsvolumen. Der wichtigste Unterschied besteht darin, dass Aktivitäten in der einfachen Logistik Auftrag für Auftrag durchgeführt werden, während sie in der erweiterten Logistik für mehrere Aufträge konsolidiert werden.  
 
  Um zwischen den verschiedenen Komplexitätsebenen zu unterscheiden, verwendet diese Dokumentation zwei allgemeine Bezeichnungen, grundlegende und erweiterte Lagerhaltung. Diese einfache Unterscheidung umfasst mehrere verschiedene Komplexitätsebenen, die durch definierte Produktdetails und Lagerorteinrichtung definiert sind, wobei jede durch unterschiedliche UI-Dokumente unterstützt werden. Weitere Informationen finden Sie unter [Designdetails: Lagerhaus einrichten](design-details-warehouse-setup.md).  
 
@@ -51,16 +54,16 @@ Lagerfunktionen in [!INCLUDE[prod_short](includes/prod_short.md)] können in unt
 ## <a name="advanced-ui-documents"></a>Erweiterte UI-Dokumente  
 
 -   **Wareneingang**  
--   **Einlagerungsarbeitsblatt**  
+-   **Einlagerungsvorschlag**  
 -   **Einlagerung**  
--   **Kommissionierarbeitsblatt**  
+-   **Kommissioniervorschlag**  
 -   **Kommissionierung**  
--   **Lagerplatzumlagerungsarbeitsblatt**  
+-   **Lagerplatzumlagerungsvorschlag**  
 -   **Lagerplatzumlagerung**  
 -   **Interne Kommissionierung**  
 -   **Interne Einlag.-Anforderung**  
--   **Lagerplatz Erst.-Arbeitsblatt**  
--   **Lagerplatzinh. Erst.-Arbeitsblatt**  
+-   **Lagerplatz Erst.-Vorschlag**  
+-   **Lagerplatzinh. Erst.-Vorschlag**  
 -   **Logistik Artikel Buch.-Blatt**  
 -   **Umlagerung Logistik Artikel Buch.-Blatt**  
 -   (Verschiedene Berichte)  
@@ -68,7 +71,7 @@ Lagerfunktionen in [!INCLUDE[prod_short](includes/prod_short.md)] können in unt
 Weitere Informationen über jeden Beleg finden Sie den entsprechenden Fensterthemen.  
 
 ### <a name="terminology"></a>Terminologie  
-Um mit den Finanzbegriffen Einkauf und von Verkauf zu entsprechen, verwendet [!INCLUDE[prod_short](includes/prod_short.md)] Lagerdokumentation die folgenden Begriffe für Warenfluss im Lager.  
+Um mit den Finanzbegriffen Einkauf und von Verkauf zu entsprechen, verwendet [!INCLUDE[d365fin](includes/d365fin_md.md)] Lagerdokumentation die folgenden Begriffe für Warenfluss im Lager.  
 
 |Begriff|Description|  
 |----------|---------------------------------------|  
@@ -78,6 +81,3 @@ Um mit den Finanzbegriffen Einkauf und von Verkauf zu entsprechen, verwendet [!I
 
 ## <a name="see-also"></a>Siehe auch  
  [Designdetails: Logistik](design-details-warehouse-management.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

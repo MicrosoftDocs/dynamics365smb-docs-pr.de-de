@@ -2,25 +2,26 @@
 title: Erweitern Sie Ihre Testversion von Business Central
 description: Wenn Sie mehr Zeit benötigen, um sich für ein Abonnement für Dynamics 365 Business Central zu entscheiden, können Sie Ihre Testversion einmal verlängern. Erfahren Sie mehr über Ihre Möglichkeiten.
 author: bholtorf
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 571b71ed67a14151d668fa6e1b37a837a989a693
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 8714ecb87cd005693925767783de0adabddc0049
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8129107"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5378498"
 ---
 # <a name="need-more-time-to-decide-whether-to-subscribe"></a>Benötigen Sie mehr Zeit, um sich für ein Abonnement zu entscheiden?
 
 Es ist wichtig, dass Sie die richtige Entscheidung treffen, wenn Sie eine Geschäftsanwendung auswählen, und wir wissen, dass es einige Zeit dauern kann, um alle Ecken in [!INCLUDE[prod_short](includes/prod_short.md)] zu erkunden. Wenn Sie mehr Zeit benötigen, um Ihre Evaluierung abzuschließen, können Sie den Testzeitraum selbst um weitere 30 Tage verlängern. Wenn sich das Ablaufdatum für Ihre Testphase nähert, zeigen wir eine Benachrichtigung an, um Sie bei der Anmeldung zu warnen. Die Benachrichtigung enthält einen Link zum Leitfaden **Testzeitraum verlängern**, womit Sie Ihren Testzeitraum verlängern können. Die zusätzlichen 30 Tage starten in dem Moment, wenn Sie im Leitfaden **Testversion verlängern** auswählen.
 
-Sie können die Testzeitraum selbst nur einmal verlängern. Sie können ihn nicht zweimal verlängern, zumindest nicht Sie selbst. Wenn Sie den Zeitraum bereits verlängert haben, kann Ihr Microsoft-Partner ihn für Sie noch einmal verlängern. Die ist auch eine einmalige Sache. Wenn Sie nicht bereits mit einem Partner zusammenarbeiten, finden Sie weitere Informationen unter [Wie finde ich einen Vertriebspartner?](/dynamics365/business-central/across-faq#findpartner).  
+Sie können die Testzeitraum selbst nur einmal verlängern. Sie können ihn nicht zweimal verlängern, zumindest nicht Sie selbst. Wenn Sie den Zeitraum bereits verlängert haben, kann Ihr Microsoft-Partner ihn für Sie noch einmal verlängern. Die ist auch eine einmalige Sache. Wenn Sie nicht bereits mit einem Partner zusammenarbeiten, siehe [Wie finde ich einen Wiederverkaufspartner?](across-faq.md#findpartner).  
 
 ## <a name="to-extend-your-trial-period"></a>So verlängern Sie Ihren Testzeitraum
 
@@ -28,7 +29,7 @@ Sie können die Testzeitraum selbst nur einmal verlängern. Sie können ihn nich
 
     Melden Sie sich mit dem E-Mail-Konto an, das Sie bei der Anmeldung für den Test verwendet haben.  
 
-    Wenn Sie sich mit einem E-Mail-Konto von einer [30-Tage-Testversion von Microsoft 365](/microsoft-365/commerce/sign-up-for-office-365-trial) angemeldet haben, müssen Sie zuerst Ihre Microsoft 365-Testversion verlängern oder ein Microsoft 365-Abonnement kaufen. Weitere Informationen finden Sie unter [Testversion für Microsoft 365 für Unternehmen verlängern](/microsoft-365/commerce/extend-your-trial).
+    Wenn Sie sich mit einem E-Mail-Konto von einer [30-Tage-Testversion von Microsoft 365](/microsoft-365/commerce/sign-up-for-office-365-trial) angemeldet haben, müssen Sie zuerst Ihre Microsoft 365-Testversion verlängern oder ein Microsoft 365-Abonnement kaufen. Weitere Informationen finden Sie unter [Ihre Testversion für Microsoft 365 für Unternehmen verlängern](/microsoft-365/commerce/extend-your-trial).
 2. In der Benachrichtigung oben im Arbeitsbereich wählen Sie **Testversion erweitern** aus.
 
     Wenn Sie die Meldung abgelehnt haben, müssen Sie sich abmelden und dann wieder anmelden.
@@ -48,13 +49,11 @@ Nach dieser zweiten Verlängerung, durch die Ihre Organisation eine 90-Tage-Test
 
 Wenn Ihr verlängerter Testzeitraum abgelaufen ist, können Sie innerhalb von 90 Tagen [abonnieren](https://go.microsoft.com/fwlink/?linkid=828659) für [!INCLUDE[prod_short](includes/prod_short.md)] und weiterhin im von Ihnen erstellten Unternehmen arbeiten. 90 Tage nach Ablauf der verlängerten Testversion werden wir Ihr Unternehmen und Ihre Daten löschen, es sei denn, sie entscheiden sich für das Abonnement.  
 
-[!INCLUDE [admin-viral-trial-expiry](includes/admin-viral-trial-expiry.md)]
-
 ## <a name="see-also"></a>Siehe auch
 
 [Neue Unternehmen anlegen](about-new-company.md)  
 [Testversionen und Abonnements](across-preview.md)  
-[Wie finde ich einen Vertriebspartner?](/dynamics365/business-central/across-faq#findpartner)  
+[Wie finde ich einen Weiterverkaufspartner?](across-faq.md#findpartner)  
 [Tests verlängern (als Administrator)](/dynamics365/business-central/dev-itpro/administration/tenant-administration#extending-trials)  
 [Einstieg als Wiederverkäufer von Business Central Online](/dynamics365/business-central/dev-itpro/administration/get-started-online)  
 

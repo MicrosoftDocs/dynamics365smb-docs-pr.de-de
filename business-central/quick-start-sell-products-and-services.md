@@ -2,6 +2,7 @@
 title: Verkauf Schnellstart (enthält Video)
 description: Erfahren Sie, wie Sie die ersten wichtigen Felder zu Produkten und Kunden in Business Central ausfüllen, damit Sie mit Ihren Verkaufsprozessen beginnen können.
 author: jill-kotel-andersson
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +10,12 @@ ms.workload: na
 ms.search.keywords: quickstart
 ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: b607da4fbf5ab99eb8a3af1e939fe915151e00b0
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 9641d87dadc3b33683d1bab0bdc70d0b36b4d1ae
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135606"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940851"
 ---
 # <a name="sales-quick-start"></a>Schnellstart Verkauf
 

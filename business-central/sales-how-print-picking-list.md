@@ -2,6 +2,7 @@
 title: Drucken einer Liste zur Lagerkommissionierung aus einem Verkaufsauftrag
 description: Sie können eine Lager-Kommissionierliste direkt aus einem Verkaufsauftrag, Verkaufsbeleg, Rechnungsbeleg und anderen ausgehenden Verkaufsauftragsbelegen drucken.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: e42008912079eafeaa037f7759a50a2c76393edb
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 50c0a9836a45bac0dfd4a190040c908d28d5617f
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130098"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436826"
 ---
 # <a name="print-the-picking-list"></a>Kommissionierliste drucken
 

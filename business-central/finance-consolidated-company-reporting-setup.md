@@ -2,20 +2,20 @@
 title: Unternehmenskonsolidierung einrichten
 description: Erfahren Sie, wie Sie konfigurieren können, wie Daten von verschiedenen Unternehmen in Business Central an ein Konsolidierungsunternehmen gemeldet werden.
 author: bholtorf
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: consolidation, subsidiaries, consolidate
-ms.search.form: 1826, 1827
-ms.date: 04/01/2021
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 2f28ea1822677e1690f5cf3b5fb68afca221b9f8
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 7a5ad9eeb2dc42f1cb6fe7640bda721a6f511a75
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8149075"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3927669"
 ---
 # <a name="set-up-company-consolidation"></a>Unternehmenskonsolidierung einrichten
 
@@ -30,11 +30,10 @@ Je nach Komplexität Ihrer Unternehmen, gibt es zwei Arten, die Konsolidierung e
 
 ## <a name="simple-consolidation-setup"></a>Einfache Konsolidierungseinrichtung
 
-[!INCLUDE [2021_releasewave1](includes/2021_releasewave1.md)]
 Wenn die Konsolidierung einfach ist, weil Sie beispielsweise die Geschäftseinheit als Ganzes besitzen, führt Sie der unterstützte Setup **Mandanten-Konsolidierung** durch die folgenden Schritte:
 
 * Wählen Sie aus, ob einen neuen Konsolidierungsmandanten erstellen oder ob die Daten in einem Mandanten konsolidiert werden, den Sie bereits für die Konsolidierung erstellt haben. Der Mandant sollte keine Transaktionen beinhalten.
-* Ergebnisse in Vorschau anzeigen. [!INCLUDE[prod_short](includes/prod_short.md)] überprüft, dass die Masterdaten und die Transaktionen in den Konsolidierungsmandanten erfolgreich übertragen werden können.
+* Ergebnisse in Vorschau anzeigen. [!INCLUDE[d365fin](includes/d365fin_md.md)] überprüft, dass die Masterdaten und die Transaktionen in den Konsolidierungsmandanten erfolgreich übertragen werden können.
 
 Um die unterstützte Einrichtung zu starten, gehen Sie folgendermaßen vor:
 
@@ -71,10 +70,10 @@ Die folgende Liste veranschaulicht wichtige Aspekte des konsolidierten Unternehm
 
 ### <a name="add-business-units"></a><a name="busunit"></a>Konzernmandanten hinzufügen
 
-[!INCLUDE[prod_short](includes/prod_short.md)] ermöglicht es Ihnen, eine Liste zu konsolidierender Konzernmandanten einzurichten, die Buchhaltungsdaten zu überprüfen, bevor Sie diese konsolidieren, Dateien zu importieren und Konsolidierungsberichte zu generieren.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] ermöglicht es Ihnen, eine Liste zu konsolidierender Konzernmandanten einzurichten, die Buchhaltungsdaten zu überprüfen, bevor Sie diese konsolidieren, Dateien zu importieren und Konsolidierungsberichte zu generieren.  
 
 1. Melden Sie sich im Konsolidierungsmandanten an.
-2. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Konzernmandanten** ein und wählen Sie dann den zugehörigen Link.  
+2. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Geschäftseinheiten** ein und wählen Sie dann den entsprechenden Link.  
 3. Wählen Sie Aktion **Neu** aus, und füllen Sie die relevanten Felder aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!IMPORTANT]
@@ -89,7 +88,7 @@ Der Kontenplan eines Unternehmens, das konsolidiert wird, muss Konten für die K
 
 Wenn der Kontenplan des Konzernmandanten aus dem Konsolidierungsmandanten abweicht, müssen Sie die Sachkonten vorbereiten für die Konsolidierung. Sie können Konten definieren, um Soll- und Habenposten zu buchen und die Methode festlegen, die verwendet wird, um Währungen im Konsolidierungsmandanten zu übersetzen. Dies ist beispielsweise dann nützlich, wenn Sie häufig den Bericht ausführen.
 
-1. Wählen Sie in der [!INCLUDE [prod_short](includes/prod_short.md)] jeder Einheit die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Kontenplan** ein, und wählen Sie dann den zugehörigen Link.  
+1. Im [!INCLUDE [prodshort](includes/prodshort.md)] jedes Konzernmandanten wählen Sie das Symbol ![Glühbirne, die die „Sie wünschen...“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Kontenplan** ein, und wählen Sie dann den zugehörigen Link aus.  
 2. Öffnen Sie die Karte für das Konto, und füllen Sie dann die Felder im Inforegister **Konsolidierung** aus. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
 ### <a name="specify-exchange-rates-for-consolidations"></a><a name="exchrates"></a>Wechselkurse für Konsolidierungen angeben
@@ -109,7 +108,7 @@ Die folgende Tabelle beschreibt die Wechselkursmethoden, die Sie für Konten ver
 
 Um Wechselkurse für Konzernmandanten anzugeben, gehen Sie folgendermaßen vor:
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Konzernmandanten** ein und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Geschäftseinheiten** ein und wählen Sie dann den entsprechenden Link.  
 2. Auf der Seite **Konzernmandantenübersicht** wählen Sie die Konzernmandanten aus, und wählen Sie die **Durchschnittskurs (manuell)** Aktion aus.  
 3. Der Inhalt des Felds **Bezug auf Wechselkursbetrag** (im Fenster **Wechselkurs ändern**) wurde aus der Tabelle **Währungswechselkurs** kopiert, kann jedoch geändert werden. Schließen Sie die Seite.  
 4. Wählen Sie die **Ultimokurs**-Aktion aus.  
@@ -137,8 +136,5 @@ Wenn Sie nur einen Teil des Unternehmen anlegen, können Sie einen Prozentsatz j
 
 [Konsolidieren von Finanzdaten aus mehreren Unternehmen](finance-consolidated-company-reporting.md)  
 [Intercompanytransaktionen verwalten](intercompany-manage.md)  
-[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Exportieren Ihrer Geschäftsdaten nach Excel](about-export-data.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

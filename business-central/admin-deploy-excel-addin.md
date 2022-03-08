@@ -2,6 +2,7 @@
 title: Business Central-Add-in für Excel abrufen
 description: Erfahren Sie, wie Sie Benutzern das Business Central-Add-in für Excel zur Verfügung stellen können.
 author: jswymer
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Excel, add-in, centralized deployment, M365 admin center, individual acquisition, appsource
 ms.date: 10/07/2021
 ms.author: jswymer
-ms.openlocfilehash: 29cfec8ea605209aed7e7005dfcfa1c10d54b7b6
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 6bb034f9809f4241a4a538d6ecb133976fb60fb2
+ms.sourcegitcommit: a6000804ad9a176de5750372d3951547ddb71006
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141411"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "7865492"
 ---
 # <a name="get-the-business-central-add-in-for-excel"></a>Holen Sie sich das Business Central-Add-in für Excel
 
@@ -31,7 +32,7 @@ Das Add-in heißt **Microsoft Dynamics Office Add-in** und kann über den [Offic
 
 ### <a name="about-deployment-as-an-admin"></a>Über das Bereitstellen als Admin
 
-Mit [!INCLUDE[prod_short](includes/prod_short.md)] Online gibt es einige Bereitstellungsoptionen, um das Add-In für die Benutzer bereitzustellen. Eine Option ist der *individuelle Erwerb*, bei dem Sie die Benutzer das Add-In selbst installieren lassen. Bei dieser Option müssen die Benutzer Zugriff auf das Herunterladen von Dateien aus dem Office Store haben. Eine andere Möglichkeit ist, die *Zentrale Bereitstellung* im Microsoft 365 Admin Center festzulegen, um das Add-In automatisch für Ihr gesamtes Unternehmen, für Gruppen oder für bestimmte Benutzer bereitzustellen. Die zentrale Bereitstellung bietet eine Möglichkeit, das Add-in den Benutzern zur Verfügung zu stellen, wenn Ihr Unternehmen den Benutzern keinen Zugriff auf den Office Store gewährt.
+Mit [!INCLUDE[prod_short](includes/prod_short.md)] Online gibt es einige Bereitstellungsoptionen, um das Add-In für die Benutzer bereitzustellen. Eine Option ist der *individuelle Erwerb*, bei dem Sie die Benutzer das Add-In selbst installieren lassen. Bei dieser Option müssen die Benutzer Zugriff auf das Herunterladen von Dateien aus dem Office Store haben. Eine andere Möglichkeit ist, die *Zentrale Bereitstellung* im Microsoft 365-Admincenter festzulegen, um das Add-In automatisch für Ihr gesamtes Unternehmen, für Gruppen oder für bestimmte Benutzer bereitzustellen. Die zentrale Bereitstellung bietet eine Möglichkeit, das Add-in den Benutzern zur Verfügung zu stellen, wenn Ihr Unternehmen den Benutzern keinen Zugriff auf den Office Store gewährt.
 
 Für den Endbenutzer stellt sich die Installation in den beiden Bereitstellungsszenarien unterschiedlich dar:
 
@@ -53,7 +54,7 @@ Dieser Zustand wird dadurch verursacht, dass jeder Excel-Datei eine „Add-In“
 
 ## <a name="deploy-the-add-in-by-using-centralized-deployment"></a>Bereitstellen des Add-Ins mit Hilfe der zentralen Bereitstellung
 
-Die zentrale Bereitstellung ist eine Funktion im Microsoft 365 Admin Center, mit der Sie Add-Ins automatisch in den Office-Apps der Benutzer, z. B. Excel, bereitstellen können. Um Ihnen bei der zentralen Bereitstellung zu helfen, enthält [!INCLUDE[prod_short](includes/prod_short.md)] die **Unterstützte Einrichtung des Excel Add-Ins Zentrale Bereitstellung**.
+Die zentrale Bereitstellung ist eine Funktion im Microsoft 365-Admincenter, mit der Sie Add-Ins automatisch in den Office Apps der Benutzer, wie z.B. Excel, installieren können. Um Ihnen bei der zentralen Bereitstellung zu helfen, enthält [!INCLUDE[prod_short](includes/prod_short.md)] die **Unterstützte Einrichtung des Excel Add-Ins Zentrale Bereitstellung**.
 
 ### <a name="before-you-begin"></a>Bevor Sie beginnen
 
@@ -66,11 +67,11 @@ Die zentrale Bereitstellung ist eine Funktion im Microsoft 365 Admin Center, mit
 
 ### <a name="set-up-centralized-deployment-of-the-add-in"></a>Zentrale Bereitstellung des Add-Ins festlegen
 
-Sie werden sowohl in [!INCLUDE[prod_short](includes/prod_short.md)] als auch im Microsoft 365 Admin Center arbeiten.
+Sie werden sowohl in [!INCLUDE[prod_short](includes/prod_short.md)] als auch im Microsoft 365-Admincenter arbeiten.
 
 1. Wählen Sie in [!INCLUDE[prod_short](includes/prod_short.md)] die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol, geben Sie **Excel Add-in Zentrale Bereitstellung** ein und wählen Sie dann den entsprechenden Link.
 2. Lesen Sie die Informationen auf der Seite **Einrichtung des Business Central-Add-in für Excel** und wählen Sie **Weiter**.
-3. Melden Sie sich beim [Microsoft 365 Admin Center](https://go.microsoft.com/fwlink/?linkid=2163967) an, und wechseln Sie dann zu **Integrierte Apps**.<!--**Add-ins**-->.
+3. Melden Sie sich im [Microsoft 365-Admincenter](https://go.microsoft.com/fwlink/?linkid=2163967) an und gehen Sie zu **Integrierte Apps**<!--**Add-ins**-->.
 
     Führen Sie die folgenden Schritte aus, um das Add-in so zu konfigurieren, dass es aus dem Office Store bereitgestellt wird: 
     1. Wählen Sie **Apps holen**, um den Office Store zu öffnen (AppSource). <!--**Deploy Add-in** 5. In the **Deploy a new add-in**, select **Choose from the store**.-->
@@ -79,13 +80,13 @@ Sie werden sowohl in [!INCLUDE[prod_short](includes/prod_short.md)] als auch im 
     4. Überprüfen Sie die Seite **Anforderungen für Berechtigungen akzeptieren** und wählen Sie dann **Weiter** > **Einsatz fertig stellen**.
     5. Warten Sie, bis das grüne Häkchen neben **Bereitgestellt** für das Add-In erscheint, und wählen Sie dann **Erledigt**. <!--Select **Deploy** and wait til successful, then **Next** > **Continue**.-->
 
-       Das Add-In erscheint auf der Seite **Add-ins**. Weitere Informationen über das Bereitstellen von Add-Ins im Microsoft 365 Admin Center finden Sie unter [Einsatz von Add-Ins im](/microsoft-365/admin/manage/manage-deployment-of-add-in) Admin Center.
+       Das Add-In erscheint auf der Seite **Add-ins**. Weitere Informationen zum Bereitstellen von Add-Ins im Microsoft 365-Admincenter finden Sie unter [Add-Ins im Admin Center bereitstellen](/microsoft-365/admin/manage/manage-deployment-of-add-in).
 4. Gehen Sie zurück zur unterstützten Einrichtung **Excel Add-in „Zentrale Bereitstellung“** unterstützten Einrichtung in [!INCLUDE[prod_short](includes/prod_short.md)]. und wählen Sie **Weiter** aus.
 5. Aktivieren Sie **Zentrale Bereitstellung verwenden** und wählen Sie **Fertigstellen**.
 
     Wenn Sie diesen Schalter nicht einschalten, holt [!INCLUDE[prod_short](includes/prod_short.md)] das Add-in direkt aus dem Office Store.
 
-Wenn Sie fertig sind, können Sie die Bereitstellung im Microsoft 365 Admin Center jederzeit ändern, z. B. weitere Benutzer zuweisen. Weitere Informationen über das Bereitstellen von Add-Ins im Admin Center finden Sie unter [Einsatz von Add-Ins im Admin Center](/microsoft-365/admin/manage/manage-deployment-of-add-in).
+Wenn Sie fertig sind, können Sie die Bereitstellung im Microsoft 365-Admincenter jederzeit ändern, z. B. weitere Benutzer zuweisen. Weitere Informationen über das Bereitstellen von Add-Ins im Admin Center finden Sie unter [Einsatz von Add-Ins im Admin Center](/microsoft-365/admin/manage/manage-deployment-of-add-in).
 
 > [!IMPORTANT]
 > Wenn Sie über mehr als eine Umgebung verfügen, müssen Sie die unterstützte Einrichtung **Excel Add-in Zentrale Bereitstellung** in jeder Umgebung ausführen, in der Sie die zentrale Bereitstellung verwenden möchten. Sie müssen die zentrale Bereitstellung in Microsoft 365 jedoch nicht erneut konfigurieren. Sie müssen lediglich den Schalter **Zentrale Bereitstellung bereitstellen** in der unterstützten Einrichtung aktivieren. 

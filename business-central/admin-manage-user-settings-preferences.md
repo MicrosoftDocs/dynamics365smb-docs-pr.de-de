@@ -2,21 +2,21 @@
 title: Verwalten Sie Benutzereinstellungen und Präferenzen als Administrator
 description: Verwalten Sie Benutzereinstellungen und Präferenzen in Dynamics 365 Business Central.
 author: sorenfriisalexandersen
+ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
 ms.search.keywords: user settings, preferences, language, region, time zone, regional settings
-ms.search.form: 9204
 ms.date: 04/01/2021
 ms.author: soalex
-ms.openlocfilehash: 779dcea91d2e856bfae847f98695ceed0c0d600e
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: fff79b56d6846547230788b6caa831e7bf3a11d7
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145940"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438952"
 ---
 # <a name="manage-user-settings-and-preferences"></a>Benutzereinstellungen und Präferenzen verwalten
 
@@ -43,27 +43,27 @@ Die Option *Benutzereinstellungen*, bei der es um den Benutzer als Entität und 
 
 - **Sprache**  
 
-  Definiert die Anwendungssprache, in der [!INCLUDE[prod_short](includes/prod_short.md)] Text, Beschriftungen und Fehlermeldungen darstellt. Beim Synchronisieren von [!INCLUDE[prod_short](includes/prod_short.md)]-Benutzern über Microsoft 365 werden die Spracheinstellungen von Microsoft 365 verwendet, wobei davon ausgegangen wird, dass der Benutzer dieselben Einstellungen in Office-Produkten und [!INCLUDE[prod_short](includes/prod_short.md)] verwenden möchte. Der Administrator kann die Standardeinstellung ändern und jeder Benutzer kann auf der Seite „Meine Einstellungen“ zwischen verfügbaren Sprachen wählen. Sie werden jedoch bei der nächsten Synchronisierung auf den Wert von Microsoft 365 zurückgesetzt.
+  Definiert die Anwendungssprache, in der [!INCLUDE[prod_short](includes/prod_short.md)] Text, Beschriftungen und Fehlermeldungen darstellt. Beim Synchronisieren von [!INCLUDE[prod_short](includes/prod_short.md)]-Benutzern über Microsoft 365 werden die Spracheneinstellungen von Microsoft 365 verwendet, wobei davon ausgegangen wird, dass der Benutzer dieselben Einstellungen in Office-Produkten und [!INCLUDE[prod_short](includes/prod_short.md)] verwenden möchte. Der Administrator kann die Standardeinstellung ändern und jeder Benutzer kann auf der Seite „Meine Einstellungen“ zwischen verfügbaren Sprachen wählen. Sie werden jedoch bei der nächsten Synchronisierung auf den Wert von Microsoft 365 zurückgesetzt.
 
-  Wenn die Spracheinstellung von Microsoft 365 einer unterstützten Sprache in [!INCLUDE[prod_short](includes/prod_short.md)] entspricht, wird diese Sprache für den Benutzer ausgewählt.  
+  Wenn die Spracheinstellung von Microsoft 365 einer unterstützten Sprache in [!INCLUDE[prod_short](includes/prod_short.md)] entspricht, wird diese Sprache für den Benutzer ausgewählt.  
 
   > [!NOTE]
   > Möglicherweise müssen Sie eine Sprach-App für [!INCLUDE[prod_short](includes/prod_short.md)] installieren, um die Sprache ordnungsgemäß anzuzeigen. Daher empfiehlt es sich, die erforderlichen Sprach-Apps zu installieren, bevor sich ein Benutzer zum ersten Mal anmeldet, sodass ihm vom ersten Tag an eine benutzerfreundliche Umgebung zur Verfügung steht. Weitere Informationen finden Sie in der Liste der [unterstützte Sprachen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations).  
   
 - **Region**  
 
-  Definiert, wie Daten und Zahlen im [!INCLUDE[prod_short](includes/prod_short.md)]-Client angezeigt werden, z. B., ob europäische oder amerikanische Datumsformate verwendet werden sollen oder wie das Dezimalzeichen und Tausendertrennzeichen in Beträgen angezeigt werden sollen. Beim Synchronisieren von [!INCLUDE[prod_short](includes/prod_short.md)]-Benutzern über Microsoft 365 werden die regionalen Einstellungen von Microsoft 365 verwendet, wobei davon ausgegangen wird, dass der Benutzer dieselben Einstellungen in Office-Produkten und [!INCLUDE[prod_short](includes/prod_short.md)] verwenden möchte. Ein Administrator oder Benutzer kann diese Einstellungen manuell in [!INCLUDE[prod_short](includes/prod_short.md)] ändern, diese werden jedoch von Microsoft 365 zurückgesetzt, sobald die nächste Synchronisation durchgeführt wurde.
+  Definiert, wie Daten und Zahlen im [!INCLUDE[prod_short](includes/prod_short.md)]-Client angezeigt werden, z. B., ob europäische oder amerikanische Datumsformate verwendet werden sollen oder wie das Dezimalzeichen und Tausendertrennzeichen in Beträgen angezeigt werden sollen. Beim Synchronisieren von [!INCLUDE[prod_short](includes/prod_short.md)]-Benutzern über Microsoft 365 werden die regionalen Einstellungen von Microsoft 365 verwendet, wobei davon ausgegangen wird, dass der Benutzer dieselben Einstellungen in Office-Produkten und [!INCLUDE[prod_short](includes/prod_short.md)] verwenden möchte. Ein Administrator oder Benutzer kann diese Einstellungen manuell in [!INCLUDE[prod_short](includes/prod_short.md)] ändern, diese werden jedoch von Microsoft 365 zurückgesetzt, sobald die nächste Synchronisation durchgeführt wurde.
 
 - **Zeitzone**  
 
-  Definiert die Zeitzone, in der sich der Benutzer befindet. Derzeit wird diese nicht von Microsoft 365 synchronisiert und muss manuell eingestellt werden.  
+  Definiert die Zeitzone, in der sich der Benutzer befindet. Derzeit wird diese nicht von Microsoft 365 synchronisiert und muss manuell eingestellt werden.  
 
 - **Unterrichtstipps**
 
   [!INCLUDE [ua-teachingtips](includes/ua-teachingtips.md)] Als Administrator können Sie Unterrichtstipps für alle Benutzer deaktivieren, z. B. wenn Sie gerade Benutzer einbinden, mit denen Sie bereits vertraut sind [!INCLUDE [prod_short](includes/prod_short.md)].  
 
 > [!NOTE]
-> Wenn eine Microsoft 365-Benutzersynchronisierung durchgeführt wird, während Benutzer bei [!INCLUDE[prod_short](includes/prod_short.md)] angemeldet sind, müssen diese Benutzer den Browser aktualisieren oder sich bei [!INCLUDE[prod_short](includes/prod_short.md)] ab- und wieder anmelden, um eine potenziell andere Sprache anzuzeigen, die durch die Synchronisierungsaktion festgelegt wurde.
+> Wenn eine Microsoft 365-Benutzersynchronisierung durchgeführt wird, während Benutzer bei [!INCLUDE[prod_short](includes/prod_short.md)] angemeldet sind, müssen diese Benutzer den Browser aktualisieren oder sich bei [!INCLUDE[prod_short](includes/prod_short.md)] ab- und wieder anmelden, um eine potenziell andere Sprache anzuzeigen, die durch die Synchronisierungsaktion festgelegt wurde.
 
 ## <a name="overview-of-all-user-specific-changes"></a>Übersicht aller benutzerspezifischen Änderungen
 

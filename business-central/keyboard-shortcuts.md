@@ -2,19 +2,20 @@
 title: Tastenkombinationen
 description: Die gesamte Übersicht der Tastenkombinationskombinationen, um mit den Daten effizient zu arbeiten.
 author: bholtorf
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 04/01/2021
+ms.date: 11/26/2020
 ms.author: bholtorf
-ms.openlocfilehash: 490fbd0abb7bf6769e580c34f0958ec9babbe141
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 23ab336997bdc89e6de617676e2c2f5e2bd689e5
+ms.sourcegitcommit: cb06aa973f5c767df774b0e1e199c6fbe0e85b88
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135263"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470487"
 ---
 # <a name="keyboard-shortcuts"></a>Tastenkombinationen
 
@@ -24,7 +25,7 @@ Einen Überblick über die gängigsten Tastenkombinationen finden Sie unter [Tas
 
 > [!TIP]
 > Für eine grafische Darstellung der am häufigsten verwendeten Tastenkombinationen wählen Sie das folgende Bild und laden Sie die PDF-Datei herunter.  
-> [ ![Symbol für die PDF-Datei.](media/keyboard_shortcut_inline.png) ](media/keyboard_shortcuts.pdf "Symbol zum Öffnen einer PDF")
+> [ ![Symbol für die PDF-Datei](media/keyboard_shortcut_inline.png) ](media/keyboard_shortcuts.pdf "Symbol zum Öffnen einer PDF")
 
 ## <a name="overview"></a>Matrix
 
@@ -36,7 +37,7 @@ Die Tastenkombinationseingabehilfe kann es effizienter und einfacher machen, um 
 Die meisten Verknüpfungen sind gleich, unabhängig davon, ob das Betriebssystem Windows oder macOS ist. Einige Verknüpfungen unterscheiden sich jedoch für macOS. Diese Verknüpfungen sind in den folgenden Abschnitten in Klammern angegeben.
 
 > [!NOTE]
-> Zusätzlich zu den in diesem Artikel beschriebenen globalen Tastenkombinationen stehen eine Reihe von geschäftsspezifischen Tastenkombinationen zur Verfügung. Zum Beispiel in der generischen Version von [!INCLUDE[prod_short](includes/prod_short.md)], F9 bucht einen Beleg und STRG+F7 zeigt die Finanzbuchungen für einen Datensatz wenn Sie den Datensatz in der Karte öffnen. Dieser Artikel enthält einige der gängigeren geschäftsspezifischen Tastenkombinationen, die in Kursivschrift angezeigt werden. Beachten Sie, dass die tatsächlichen Verknüpfungen in Ihrer Lösung unterschiedlich sein können. In der Benutzeroberfläche wird die Tastenkombination in der QuickInfo für die betreffende Aktion angezeigt.
+> Zusätzlich zu den in diesem Thema beschriebenen globalen Tastenkombinationen stehen eine Reihe von geschäftsspezifischen Tastenkombinationen zur Verfügung. Zum Beispiel in der generischen Version von [!INCLUDE[prod_short](includes/prod_short.md)], F9 bucht einen Beleg und STRG+F7 zeigt die Finanzbuchungen für einen Datensatz wenn Sie den Datensatz in der Karte öffnen. (Diese können in Ihrer Lösung unterschiedlich sein.) Die Tastenkombination wird in der QuickInfo für die betreffende Aktion angezeigt.
 
 ##  <a name="general-keyboard-shortcuts"></a><a name="Keyboard"></a> Allgemeine Tastenkombinationen
 
@@ -54,7 +55,7 @@ Die folgende Tabelle beschreibt Tastenkombinationen, um in verschiedenen Element
 |ALT+N |Öffnen Sie eine Seite, um einen neuen Datensatz zu erstellen. (Ähnlich wie bei der Auswahl der **Neu** und **+** Aktionen.)|
 |ALT+UMSCHALT+N |Schließen Sie eine neu erstellte Seite und öffnen Sie eine neue, um einen neuen Datensatz zu erstellen. Ebenso bucht Alt+F9 ein Dokument und erstellt ein neues.|
 |ALT+T|Öffnen der Seite **Meine Einstellungen**.|
-|Alt+Nach-rechts-Taste|Nachschlagen zusätzlicher Informationen oder zugrunde liegender Werte für ein Feld, das die ![Bearbeitungshilfe.](media/assist-edit-icon.png "AssistEdit-Schaltfläche") Schaltfläche enthält. Dies wird verwendet, wenn die übliche Dropdown-Schaltfläche (Alt + Abwärtspfeil) im selben Feld für einen anderen Zweck verwendet wird.|
+|Alt+Nach-rechts-Taste|Suchen Sie zusätzliche Informationen oder zugrundeliegende Werte für ein Feld, das die Schaltfläche ![AssistEdit](media/assist-edit-icon.png "AssistEdit-Schaltfläche") enthält. Dies wird verwendet, wenn die übliche Dropdown-Schaltfläche (Alt + Abwärtspfeil) im selben Feld für einen anderen Zweck verwendet wird.|
 |Ctrl+Alt+Shift+C|Informationen in der Unternehmenskennzeichnung anzeigen.|
 |STRG+ALT+F1|Öffnen und schließen Sie den Seitenüberprüfungsbereich. Der Seitenüberprüfungsbereich zeigt Informationen zur Seite, wie deren Herkunftstabelle, Felder, Filter, Erweiterungen und mehr.<br /><br />Weitere Informationen finden Sie unter [Überprüfen von Seiten](across-inspect-page.md).|
 |Strg+C |Den Wert des Felds kopieren. Wenn das Feld im Fokus liegt und Sie keinen Text in diesem Feld ausgewählt haben, wird hierdurch der gesamten Wert kopiert. Wenn Sie Text in diesem Feld ausgewählt haben, wird nur der markierte Text kopiert.|
@@ -82,36 +83,28 @@ Die folgende Tabelle beschreibt Tastenkombinationen, die Sie auf einer Listensei
 |--------------------------------|-------------------------|--------------------------|
 |Alt+F7 |Sortieren Sie die ausgewählte Spalte in aufsteigender oder absteigender Reihenfolge.|Nicht anwendbar.|
 |ALT+N|Fügen Sie eine neue Zeile in eine bearbeitbare Liste ein, wie die **Sachbudgets** Seite.|Das gleiche.|
-|Shift+F9|Veröffentlichen und drucken Sie ein Dokument.|Das gleiche.|
 |Shift+F10 |Öffnen Sie ein Menü mit Optionen, die für die ausgewählte Zeile verfügbar sind.|Das gleiche.|
-|Alt+D|Öffnen Sie die Dimensionssatzeinträge.|Das gleiche.|
-|Ctrl+F7|Öffnen Sie Posten, Protokolleinträge, Kosteneinträge usw.|
-|Ctrl+F9|Geben Sie den Beleg frei.|Das gleiche.|
-|*F7*|Öffnen Sie Statistiken.|Das gleiche.|
-|*F9*|Buchen Sie Belege, stellen Sie sie aus, und registrieren und stornieren Sie sie.|Das gleiche.|
-|*Umschalt+Strg+F*|Senden Sie vorgeschlagene Zeilen an die Seite „Cashflow-Arbeitsblatt“.|Nicht anwendbar.|
-|*Umschalt+Strg+I*|Zeigen Sie dem Positionsartikel im Beleg oder Buch.-Blatt zugewiesene Seriennummern und Chargennummern an, oder bearbeitet diese.|Nicht anwendbar.|
 
 ### <a name="navigating-between-rows-and-columns"></a><a name="navigateshortcuts"></a>Navigieren zwischen Zeilen und Spalten
 
 Raster mit Zeilen und Spalten existieren auf vielen Seitentypen in [!INCLUDE[prod_short](includes/prod_short.md)], wie z.B. Listenseiten und **Zeilen** Teilen auf Dokumenten. Die Bewegung von einer Zelle zur anderen über ein Raster ist vollständig über die Tastatur möglich.
 
-| Drücken Sie diese Tasten<br />(in Mac Os) | Um dies in einer Listenansicht zu tun | Um dies in einer Kachelansicht zu tun |
-|--|--|--|
-| Strg+Pos1<br />(STRG+NACH-LINKS-TASTE) | Wählen Sie die erste Zeile in der Liste aus; der Fokus bleibt in der gleichen Spalte. | Navigieren zur ersten Kachel in der ersten Zeile. |
-| Strg+Ende<br />(STRG+NACH-RECHTS-TASTE) | Wählen Sie die letzte Zeile in der Liste aus; der Fokus bleibt in der gleichen Spalte. | Navigieren zur letzten Kachel in der letzten Zeile. |
-| Zuhause<br />(NACH-LINKS-TASTE) | Navigieren zum ersten Feld in einer Zeile. | Navigieren zur ersten Kachel in einer Zeile. |
-| Ende<br />(NACH-RECHTS-TASTE) | Navigieren zum letzten Feld in einer Zeile. | Navigieren zur letzten Kachel in einer Zeile. |
-| Eingabe | Öffnet den Datensatz, der diesem Feld zugeordnet ist.<br /><br />Nur relevant, wenn eine Kartenseite dem Datensatz zugeordnet wird. | Öffnet den Datensatz.<br /><br />Nur relevant, wenn eine Kartenseite dem Datensatz zugeordnet wird. |
-| Ctrl+Enter | Um den Fokus zum nächsten Element außerhalb der Liste zu verschieben. | Um den Fokus zum nächsten Element außerhalb der Liste zu verschieben. |
-| Seite nach oben<br />(NACH-OBEN-TASTE) | Scrollen, um den Zeilensatz über der aktuellen Zeile in der Darstellungsform anzuzeigen. | Scrollen, um den Kachelsatz über den aktuellen Kacheln in der Darstellung anzuzeigen. |
-| Seite nach unten<br />(NACH-UNTEN-TASTE) | Scrollen, um den Zeilensatz unter der aktuellen Zeile in der Darstellungsform anzuzeigen. | Scrollen, um den Kachelsatz unter der aktuellen Zeile in der Darstellungsform anzuzeigen. |
-| NACH-UNTEN-TASTE | Navigieren zum darüberliegenden Feld in der Zeile darunter. | Navigieren zur darüberliegenden Kachel in der Zeile darunter. |
-| NACH-OBEN-TASTE | Navigieren zum darüberliegenden Feld in der Zeile darüber. | Navigieren zur darüberliegenden Kachel in der Zeile darüber. |
-| NACH-RECHTS-TASTE | Navigieren Sie in einer schreibgeschützten Liste in derselben Zeile zum nächsten Feld rechts.<br /><br />Navigieren Sie in einer bearbeitbaren Liste innerhalb des aktuellen Felds nach rechts. | Navigieren zur gleichen Zeile in der nächsten Kachel rechts. |
-| NACH-LINKS-TASTE | Navigieren zur gleichen Zeile im vorherigen bearbeitbaren Feld links. <br /><br />In einer bearbeitbaren Liste bewegen Sie die Linke im aktuellen Feld. | Navigieren zur gleichen Zeile in der vorherigen Kachel links. |
-| Tab | Navigieren Sie in einer schreibgeschützten Liste in derselben Zeile zum nächsten Feld rechts. | Nicht anwendbar. | 
-| UMSCHALT+TAB | Navigieren zur gleichen Zeile im vorherigen bearbeitbaren Feld links. | Nicht anwendbar. |
+|Drücken Sie diese Tasten<br />(in Mac Os)|Um dies in einer Listenansicht zu tun |Um dies in einer Kachelansicht zu tun |
+|--------------------------------|--------------------------|--------------------------|
+|Strg+Pos1<br />(STRG+NACH-LINKS-TASTE)|Wählen Sie die erste Zeile in der Liste aus; der Fokus bleibt in der gleichen Spalte.|Navigieren zur ersten Kachel in der ersten Zeile. |
+|Strg+Ende<br />(STRG+NACH-RECHTS-TASTE)|Wählen Sie die letzte Zeile in der Liste aus; der Fokus bleibt in der gleichen Spalte.|Navigieren zur letzten Kachel in der letzten Zeile.|
+|Zuhause<br />(NACH-LINKS-TASTE)|Navigieren zum ersten Feld in einer Zeile.|Navigieren zur ersten Kachel in einer Zeile.|
+|Ende<br />(NACH-RECHTS-TASTE)|Navigieren zum letzten Feld in einer Zeile.|Navigieren zur letzten Kachel in einer Zeile.|
+|Eingabe|Öffnet den Datensatz, der diesem Feld zugeordnet ist.<br /><br />Nur relevant, wenn eine Kartenseite dem Datensatz zugeordnet wird.|Öffnet den Datensatz.<br /><br />Nur relevant, wenn eine Kartenseite dem Datensatz zugeordnet wird.|
+|Ctrl+Enter|Um den Fokus zum nächsten Element außerhalb der Liste zu verschieben.|Um den Fokus zum nächsten Element außerhalb der Liste zu verschieben.|
+|Seite nach oben<br />(NACH-OBEN-TASTE)|Scrollen, um den Zeilensatz über der aktuellen Zeile in der Darstellungsform anzuzeigen. |Scrollen, um den Kachelsatz über den aktuellen Kacheln in der Darstellung anzuzeigen. |
+|Seite nach unten<br />(NACH-UNTEN-TASTE)|Scrollen, um den Zeilensatz unter der aktuellen Zeile in der Darstellungsform anzuzeigen.|Scrollen, um den Kachelsatz unter der aktuellen Zeile in der Darstellungsform anzuzeigen.|
+|NACH-UNTEN-TASTE|Navigieren zum darüberliegenden Feld in der Zeile darunter. |Navigieren zur darüberliegenden Kachel in der Zeile darunter. |
+|NACH-OBEN-TASTE|Navigieren zum darüberliegenden Feld in der Zeile darüber.| Navigieren zur darüberliegenden Kachel in der Zeile darüber.  |
+|NACH-RECHTS-TASTE|Navigieren Sie in einer schreibgeschützten Liste in derselben Zeile zum nächsten Feld rechts.<br /><br />Navigieren Sie in einer bearbeitbaren Liste innerhalb des aktuellen Felds nach rechts.| Navigieren zur gleichen Zeile in der nächsten Kachel rechts. |
+|NACH-LINKS-TASTE|Navigieren zur gleichen Zeile im vorherigen bearbeitbaren Feld links. <br /><br />In einer bearbeitbaren Liste bewegen Sie die Linke im aktuellen Feld.| Navigieren zur gleichen Zeile in der vorherigen Kachel links. |
+|Tab|Navigieren Sie in einer schreibgeschützten Liste in derselben Zeile zum nächsten Feld rechts.|Nicht anwendbar.||
+|UMSCHALT+TAB|Navigieren zur gleichen Zeile im vorherigen bearbeitbaren Feld links. | Nicht anwendbar. |
 
 ### <a name="selecting-copying-and-pasting"></a><a name="CopyRows"></a>Auswählen, Kopieren und Einfügen
 
@@ -149,9 +142,7 @@ Folgende Tastenkombinationen sind auf Kartenseiten wie **Debitorenkarte** und Be
 
 |Drücken Sie diese Tasten<br />(in Mac Os)|Vorgehensweise|
 |--------------------------------|----------|
-|Alt+D|Öffnen Sie die Dimensionssatzeinträge.|
 |Alt+F6|Schalten Sie das Ein-/Ausklappen für den aktuellen FastTab oder Teil (Unterseite) ein/aus.|
-|Alt+F9|Erstellen Sie einen neuen Beleg, und buchen Sie ihn.|
 |Alt+G|Öffnen Sie die Seite **Posten finden**, um Posten zu finden, die sich auf den gebuchten Beleg beziehen. Funktioniert auch mit Listen.|
 |ALT+N |Öffnen Sie eine Seite für das Erstellen eines neuen Datensatzes auf die gleiche Weise wie das Auswählen der Aktion **Neu**. |
 |ALT+UMSCHALT+N |Schließen Sie eine Seite und öffnen Sie eine neue Seite, um einen neuen Datensatzes auf die gleiche Weise wie das Auswählen der Aktion **Ok und Neu**. |
@@ -161,15 +152,9 @@ Folgende Tastenkombinationen sind auf Kartenseiten wie **Debitorenkarte** und Be
 |STRG+NACH-OBEN-TASTE |Öffnen Sie den vorherigen Datensatz für eine Einheit.|
 |Strg+Einfügen |Fügen Sie eine neue Zeile in Dokumente ein.|
 |STRG+ENTF |Löschen Sie die Zeile in Dokumenten, Journalen und Arbeitsblättern.|
-|Ctrl+F7|Öffnen Sie Posten, Protokolleinträge, Kosteneinträge usw.|
-|Ctrl+F9|Geben Sie den Beleg frei.|
 |Ctrl+Shift+F12 |Maximieren Sie den Werbebuchungsteil auf einer Dokumentseite. Drücken Sie die Tasten erneut, um zur normalen Anzeige zurückzukehren. Weitere Informationen finden Sie unter [Fokussieren auf Positionsartikel](ui-enter-data.md#Focus).|
 |F6|Navigieren Sie zum nächsten Inforegister oder Teil (Unterseite).|
-|*F7*|Öffnen Sie Statistiken.|
-|*F9*|Buchen Sie Belege, stellen Sie sie aus, und registrieren und stornieren Sie sie.|
-|*Umschalt+Strg+F9*|Buchen, Drucken und Einlagern des Wareneingangs.|
 |Shift+F6|Navigieren Sie zum vorherigen Inforegister oder Teil (Unterseite).|
-|*Shift+F9*|Veröffentlichen und drucken Sie ein Dokument.|
 
 ## <a name="quick-entry-shortcuts-for-fields"></a><a name="QuickEntry"></a>Schnelleingabeverknüpfungen für Felder
 
@@ -244,9 +229,9 @@ Der Rollen-Explorer bietet Ihnen einen Überblick und schnellen Zugriff auf alle
 
 [Nur PC-Tastenkombinationskurzübersicht](keyboard-shortcuts-cheatsheet.md)  
 [Assistive Funktionen](ui-accessibility.md)  
-[Vorbereitung für die Geschäftstätigkeit](ui-get-ready-business.md)  
+[Erste Schritte](product-get-started.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Häufig gestellte Fragen](across-faq.yml)  
+[Häufig gestellte Fragen](across-faq.md)  
 [Posten finden](ui-find-entries.md)  
 
 

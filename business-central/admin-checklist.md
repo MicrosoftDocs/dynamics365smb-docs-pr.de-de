@@ -2,17 +2,17 @@
 title: Onboarding von Benutzern mit Checklisten
 description: Erfahren Sie, wie Sie Checklisten einrichten, die Benutzern den Einstieg in Business Central erleichtern.
 author: edupont04
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: setup, wizard, checklist
-ms.search.form: 1992, 1993, 1994, 1995, 1990, 1997, 1801
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 148856f5160d88d2567516acb561fecaddbeba6f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: c4c636f6030f9ee8d9c2fde849c9b86fc04670ad
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8129051"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5788546"
 ---
 # <a name="onboard-users-with-checklists"></a>Onboarding von Benutzern mit Checklisten
 
@@ -22,7 +22,7 @@ Das erste Mal, wenn sich ein Benutzer bei einem neuen [!INCLUDE [prod_short](inc
 
 1. Melden Sie sich unter [https://businesscentral.dynamics.com/](https://businesscentral.dynamics.com/) bei [!INCLUDE[prod_short](includes/prod_short.md)] an.
 
-2. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Checklistenverwaltung** ein, und wählen Sie den entsprechenden Link.  
+2. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Checklistenverwaltung** ein, und wählen Sie dann den zugehörigen Link.  
 
 3. Wählen Sie die Aktion **Neu** und dann **Checklistenelement erstellen** aus.  
 

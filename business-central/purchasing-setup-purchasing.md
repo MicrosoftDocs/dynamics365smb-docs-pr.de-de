@@ -1,21 +1,21 @@
 ---
-title: Übersicht über die Aufgaben zum Einrichten von Einkäufen
+title: Überblick der Aufgaben zum Einrichten von Einkauf einzurichten | Microsoft Docs
 description: Beschreibt die Aufgaben, um die Beschaffungsrichtlinien Ihres Mandanten festzulegen und Ihre Einkaufsprozesse einzurichten.
 author: SorenGP
-ms.topic: overview
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement, supply, vendor order
-ms.search.form: 175, 176, 177, 178, 456, 460, 5727, 5729
-ms.date: 04/01/2021
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 395af6b23c85c3f78eb970b9e2d9603bf336d34d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: bda110a8d97376b283461bb0c2c6a6b7f334ba4d
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146202"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3783274"
 ---
 # <a name="setting-up-purchasing"></a>Einkauf einrichten
 Bevor Sie Einkaufsprozesse verwalten können, müssen die Regeln und Werte konfiguriert werden, die die Einkaufsrichtlinien des Mandanten definieren.
@@ -32,21 +32,10 @@ Einrichten von finanzbezogenen Einkäufen wie Zahlungsformen und Währungen werd
 | Eingeben der unterschiedlichen Rabatte und alternativen Preise, die vom Kreditor in Abhängigkeit des Artikels, der Menge und/oder des Datums gewährt werden |[Erfassen von Einkaufspreisen, Skonti und Zahlungsvereinbarungen](purchasing-how-record-purchase-price-discount-payment-agreements.md) |
 | Kreditoren priorisieren |[Kreditoren priorisieren](purchasing-how-prioritize-vendors.md) |
 | Einkäufer einrichten |[Einkäufer einrichten](purchasing-how-setup-purchasers.md) |
-|Geben Sie Standardberichte an, die für verschiedene Dokumenttypen verwendet werden sollen.|[Berichtsauswahl in Business Central](across-report-selections.md)|
-
-> [!TIP]
-> Abhängig von Ihrem geografischen Standort können einige Seiten Felder enthalten, die in den hier aufgeführten Artikeln nicht beschrieben sind, da sie für lokale Funktionen oder Anpassungen gelten. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
-
-## <a name="external-document-number"></a>Externe Belegnummer
-
-[!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Siehe auch
 
 [Einkauf](purchasing-manage-purchasing.md)  
-[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

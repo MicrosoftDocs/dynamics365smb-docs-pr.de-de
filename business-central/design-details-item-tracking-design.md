@@ -2,19 +2,20 @@
 title: Designdetails – Artikelverfolgungsdesign
 description: In diesem Thema wird das Design der Artikelverfolgung in Business Central beschrieben, wenn diese über Produktversionen hinweg ausgereift ist.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, item, tracking, tracing
-ms.date: 06/08/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 626d22b4a45035698862c727547b332c898508af
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: c41b131c538337db81b30956a7871040d11f9ce3
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141333"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5780957"
 ---
 # <a name="design-details-item-tracking-design"></a>Designdetails: Artikelverfolgungsdesign
 
@@ -26,7 +27,7 @@ Mit der Hinzufügung der Serien-, Chargen‑ und Paketnummern verarbeitet das Re
 
 Das folgende Diagramm illustriert das Design von Artikelverfolgungsfunktionen in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-![Beispiel für einen Item Tracking Flow.](media/design_details_item_tracking_design.png "Beispiel für den Fluss der Artikelverfolgung")  
+![Beispiel für den Fluss der Artikelverfolgung](media/design_details_item_tracking_design.png "Beispiel für den Fluss der Artikelverfolgung")  
 
 Das zentrale Buchungsobjekt wird überarbeitet, um die besondere Subklassifikation einer Belegzeile in Form von Serien- oder Chargennummern zu bearbeiten, und bestimmte Beziehungstabellen werden hinzugefügt, um die 1-zu-viele-Relationen zwischen gebuchten Belegen und deren geteilten Artikelposten bzw. Wertposten zu erstellen.  
 

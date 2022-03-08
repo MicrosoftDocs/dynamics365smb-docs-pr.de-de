@@ -1,31 +1,30 @@
 ---
-title: MwSt.-Berichte korrigieren [DE]
-description: Wenn Sie einen Korrektur-MwSt-Bericht übermitteln müssen oder einen übermittelten MwSt-Bericht löschen müssen, müssen Sie einen neuen MwSt-Bericht erstellen.
+title: Vorgehensweise beim Korrigieren von MwSt.-Berichten
+description: Wenn Sie einen Korrektur-MwSt-Bericht übermitteln müssen oder einen übermittelten MwSt-Bericht löschen müssen, müssen Sie einen neuen MwSt-Bericht erstellen. Entsprechend der Gesetzgebung muss ein Korrekturbericht innerhalb eines Monats nach dem ursprünglichen Bericht übermittelt werden.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.search.form: 26101
-ms.date: 06/18/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 3cccfc9151f74d88cf038930f671435edd7a7ed2
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f7d452ea4c0e06a13f0e98085da05510522a706d
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131101"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3920086"
 ---
-# <a name="correct-vat-reports-in-the-german-version"></a>MwSt.-Berichte korrigieren in der deutschen Version
-
+# <a name="correct-vat-reports"></a>Zu korrigierender MwSt.-Bericht
 Wenn Sie einen Korrektur-MwSt-Bericht übermitteln müssen oder einen übermittelten MwSt-Bericht löschen müssen, müssen Sie einen neuen MwSt-Bericht erstellen. Entsprechend der Gesetzgebung muss ein Korrekturbericht innerhalb eines Monats nach dem ursprünglichen Bericht übermittelt werden.  
 
 Wenn Sie einen Korrekturbericht erstellen, enthält die Erklärung zwei Zeilenarten pro korrigierter Zeile. In einer Zeilenart, „Stornierung“, wird der Basiswert der MwSt. als Stornierung aufgezeichnet. Alle anderen Informationen bleiben dieselben und können nicht bearbeitet werden. In einer neuen Zeile, Korrekturtyp, können Sie nach Bedarf Korrekturen am MwSt.-Betrag vornehmen. Bei der Aktion **Zeilen vorschlagen** wird jedoch der richtige Betrag, basierend auf den Filtern und gebuchten Belegen, vorgeschlagen. Sie können die **USt-IdNr.** nicht korrigieren oder ändern. Jede Periode, die korrigiert wird, benötigt ihren eigenen Korrekturbericht.  
 
 Bei der Aktion **Zeilen vorschlagen**, werden die zu meldenden Werte neu berechnet. Die Aktion **Zeilen korrigieren** wird verwendet, um manuelle Änderungen vorzunehmen. Sie können die Auswirkungen der zwei Aktionen kombinieren, um den Bericht zu korrigieren.  
 
-## <a name="example-corrections-scenarios"></a>Beispielszenarien für Korrekturen
+**Beispielkorrekturszenarien**  
 
 1.  Wenn Sie zusätzliche MwSt-Posten buchen, nachdem Sie den Standardbericht im Berichtszeitraum übermitteln, wählen Sie **Zeilen vorschlagen** in der Gruppe **Verarbeiten** aus, um die aktualisierten Beträge zu erhalten.  
 
@@ -44,7 +43,7 @@ Bei der Aktion **Zeilen vorschlagen**, werden die zu meldenden Werte neu berechn
     **Zeilen vorschlagen** erstellt Posten, um die Differenz zwischen den Filter zu widerzuspiegeln.  
 
     > [!NOTE]  
-    >  Wenn die aktualisierten Filter einen Debitor oder einen Kreditor ausschließen, erstellt [!INCLUDE[prod_short](../../includes/prod_short.md)] eine Stornierungszeile für den vorherigen berichteten Betrag und einen Korrekturposten mit Betrag 0.
+    >  Wenn die aktualisierten Filter einen Debitor oder einen Kreditor ausschließen, erstellt [!INCLUDE[d365fin](../../includes/d365fin_md.md)] eine Stornierungszeile für den vorherigen berichteten Betrag und einen Korrekturposten mit Betrag 0.
 
 ## <a name="to-correct-a-vat-report"></a>So wird ein MwSt-Bericht korrigiert  
 
@@ -61,7 +60,4 @@ Bei der Aktion **Zeilen vorschlagen**, werden die zu meldenden Werte neu berechn
 6.  Fahren Sie mit dem MwSt-Berichterstellungsprozess fort und geben Sie den Bericht frei.  
 
 ## <a name="see-also"></a>Siehe auch  
- [Richten Sie die MwSt.-Berichte ein](how-to-set-up-vat-reports.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+ [Richten Sie die MwSt.-Berichte ein.](how-to-set-up-vat-reports.md)

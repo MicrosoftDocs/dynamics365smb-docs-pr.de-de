@@ -1,25 +1,25 @@
 ---
-title: Lokale Funktionalität und Lokalisierungsstrategie
-description: Erfahren Sie mehr über die lokale Verfügbarkeit und die Einhaltung von Vorschriften in Business Central für die Länder, in denen Microsoft die lokale Funktionalität bereitstellt.
+title: Lokale Funktion in Business Central | Microsoft Docs
+description: Erfahren Sie mehr über die lokale Verfügbarkeit und die gesetzliche Kompatibilität von Dynamics 365 Business Central.
 author: edupont04
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: availability, localization
-ms.search.form: 9018, 9020, 9022, 9027
-ms.date: 06/11/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 386953ce98bdd4d926c8ea8c698bb1463694d0ee
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: b7e6aeb4db5e189bf8f985b55cf226c94a9aa1de
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8334903"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3914515"
 ---
-# <a name="local-functionality-in-prod_long"></a>Lokale Funktion in [!INCLUDE[prod_long](includes/prod_long.md)]
+# <a name="local-functionality-in-prodlong"></a>Lokale Funktion in [!INCLUDE[prodlong](includes/prodlong.md)]
 
-[!INCLUDE[prod_short](includes/prod_short.md)] verfügt über eine kombinierte Lokalisierungsstrategie, inklusive von Microsoft geführter und partnergeführter Modelle. In diesem Abschnitt können Sie Beschreibungen der Funktionen anzeigen, die für die Länder gelten, in denen Microsoft die regulatorische Kompatibilität und andere Funktionen bereitstellt.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] verfügt über eine kombinierte Lokalisierungsstrategie, inklusive von Microsoft geführter und partnergeführter Modelle. In diesem Abschnitt können Sie Beschreibungen der Funktionen anzeigen, die für die Länder gelten, in denen Microsoft die regulatorische Kompatibilität und andere Funktionen bereitstellt.  
 
 Eine Liste der derzeit unterstützten Märkte finden Sie unter [Verfügbarkeit nach Ländern/Regionen und unterstützte Übersetzungen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json).  
 
@@ -51,20 +51,16 @@ Wählen Sie den entsprechenden Link, um mehr über die lokalen Funktionen für j
 |        | Vereinigte Staaten|[Lokale Funktion (USA)](localfunctionality/unitedstates/united-states-local-functionality.md) |
 | Asien Pazifik |       |  |
 |        | Australien | [Lokale Funktion (Australien)](localfunctionality/australia/australia-local-functionality.md) |
-|        | Indien | [Indien Lokale Funktionalität](LocalFunctionality/India/india-local-functionality.md) |
 |        | Neuseeland | [Lokale Funktion (Neuseeland)](localfunctionality/newzealand/new-zealand-local-functionality.md) |
 
 ### <a name="other-countries"></a>Andere Länder
 
-[!INCLUDE[prod_short](includes/prod_short.md)] ist über Lokalisierungs-Apps auch in anderen Märkten verfügbar. Wenn ein Microsoft-Partner eine Lokalisierungs-App für Ihr Land/Ihre Region entwickelt hat, finden Sie diese in [AppSource](https://go.microsoft.com/fwlink/?linkid=2081646).
+[!INCLUDE[d365fin](includes/d365fin_md.md)] ist über Lokalisierungs-Apps auch in anderen Märkten verfügbar. Wenn ein Microsoft-Partner eine Lokalisierungs-App für Ihr Land/Ihre Region entwickelt hat, finden Sie diese in [AppSource](https://go.microsoft.com/fwlink/?linkid=2081646).
 
 ## <a name="see-also"></a>Siehe auch
 
-[Vorbereitung für die Geschäftstätigkeit](ui-get-ready-business.md)  
+[Erste Schritte](product-get-started.md)  
 [Kompatibilität](compliance/compliance-overview.md)  
 [Verfügbarkeit in Ländern/Regionen und unterstützte Übersetzungen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
 [Internationale Verfügbarkeit von Microsoft Dynamics 365](/dynamics365/get-started/availability)  
 [Entwicklung einer Lokalisierungslösung](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-localization)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

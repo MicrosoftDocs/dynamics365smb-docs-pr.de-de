@@ -2,19 +2,20 @@
 title: Unternehmens-Hub nutzen
 description: Bietet Informationen über die Unternehmens-Hub-Erweiterung, mit der Sie Ihre Arbeit unternehmensübergreifend in Business Central verwalten können.
 author: edupont04
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 71efcfc54da6462525d4900c4879e984b59f27e3
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ec59a17d9a3a32e1c17cf6670f69bcc4077993aa
+ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138310"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5014125"
 ---
 # <a name="the-company-hub-for-business-central-extension"></a>Die Erweiterung Unternehmens-Hub für Business Central
 
@@ -33,6 +34,3 @@ Wenn Sie die Erweiterung in Ihrem [!INCLUDE [prod_short](includes/prod_short.md)
 [Arbeit über mehrere Unternehmen hinweg im Unternehmens-Hub verwalten](company-hub.md)  
 [Buchhaltungs-Erfahrung in Business Central](finance-accounting.md)  
 [Finanzen](finance.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

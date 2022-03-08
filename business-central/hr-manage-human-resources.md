@@ -2,6 +2,7 @@
 title: Personalwesen verwalten
 description: Sie können neue Mitarbeiter registrieren, Informationen über bestehende Mitarbeiter bearbeiten und Fehlzeiten aufzeichnen und analysieren.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +11,12 @@ ms.search.keywords: personnel, people, employee, staff, HR
 ms.search.form: 5200, 5201, 5212, 5211
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 97758b684b3a68508b9b6966d155f956d58c1f4a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: afeeb4c3d170fc137586dc83864ba78baad943a8
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135906"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8101162"
 ---
 # <a name="manage-human-resources"></a>Personalwesen verwalten
 

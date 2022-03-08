@@ -1,23 +1,23 @@
 ---
 title: Erstellen Sie Geschäftskontakte
-description: Umreißt die Aufgaben, die mit dem Erstellen von Kontakten und der Definition Ihrer Geschäftsbeziehungen auf der Kontaktkarte verbunden sind.
+description: Beschreibt die Aufgaben zum Erstellen von Kontakten und Definieren Ihrer Geschäftsbeziehungen.
 author: bholtorf
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 07/08/2021
+ms.date: 01/05/2021
 ms.author: edupont
-ms.openlocfilehash: 31fa33a1842a7e825872b13f6f7a2fb65c517ffa
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f07bc493a88f7ce46d3845a97774d0971c0fe5ba
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140891"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5388899"
 ---
 # <a name="create-contacts"></a>Kontakt erstellen
-
 Wenn Sie eine Geschäftsbeziehung zu jemandem in einem anderen Unternehmen aufbauen, fügen Sie ihn als Kontakt hinzu [!INCLUDE[prod_short](includes/prod_short.md)]. Fügen Sie dann alle Informationen über sie oder das Unternehmen hinzu, die für die zukünftige Kommunikation nützlich sein können. Auf der Seite **Kontaktkarte** können Sie die folgenden Arten von Kontakten erstellen:
 
 * **Person** – In der Regel haben Sie in diesem Fall direkten Kontakt zu jemandem und Sie haben dessen Kontaktdaten.
@@ -29,13 +29,8 @@ Sie können manuellen Änderungen im Feld **Art** später vornehmen. Alternativ 
 
 Wenn beispielsweise ein Kontakt in einen Debitor umgewandelt wird, wird die Kontaktperson oder das Kontaktunternehmen zum Namen des Debitors. Der Datensatz für den Kontakt wird beibehalten, und Sie können den Kontakt und den Debitor so verknüpfen, dass deren Daten künftig synchronisiert werden.
 
-> [!NOTE]
-> Wenn Sie die [Funktion Update für Konvertierungsvorlagen](/dynamics365-release-plan/2020wave2/smb/dynamics365-business-central/use-conversion-templates-convert-contacts-vendors-employees) einschalten, dann können Sie auch Kreditor oder Mitarbeiter aus Geschäftskontakten erstellen.
->
-> Wenn Sie jedoch bereits die integrierte Funktion zum automatischen Erstellen von Debitoren oder Artikeln verwenden, dann unterstützt dieses Funktions-Update keine angepassten Felder, und neu erstellte Debitoren oder Artikel enthalten diese Daten nicht.
-
 ## <a name="to-create-a-contact-manually"></a>So werden Kontakte manuell erstellt:
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Kontakte** ein, und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol öffnet, geben Sie **Kontakte** ein und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie die Aktion **Neu**.
 3. Geben Sie im Feld **Nr.** eine Nummer für den Kontakt ein.
 
@@ -48,7 +43,7 @@ Wenn Sie Debitoren, Kreditoren und Bankkonten haben, für die Sie Kontaktkarten 
 > [!NOTE]  
 > Bevor Sie Kontakte basierend auf vorhandenen Daten erstellen können, müssen Sie einen Geschäftsbeziehungscode für Debitoren, Kreditoren und Bankkonten auf dem Inforegister **Interkationen** auf der Seite **Marketingeinrichtung** angeben. Weitere Informationen finden Sie unter [Kontakte einrichten](marketing-setup-contacts.md).
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie eine der folgenden Angaben ein, je nachdem, woraus Sie Kontakte erstellen möchten, und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol öffnet, geben Sie eine der folgenden Optionen ein, je nachdem, woraus Sie Kontakte erstellen möchten, und wählen Sie dann den entsprechenden Link.
    * **Kontakte aus Debitoren erstellen**
    * **Kontakte aus Kreditoren erstellen**
    * **Kontakte aus Bankkonten erstellen**
@@ -66,7 +61,7 @@ Wenn Sie einen Debitor, Kreditor, Mitarbeiter oder ein Bankkonto für das Untern
 > [!NOTE]  
 > Bevor Sie Debitoren, Kreditoren, Mitarbeiter oder Bankkonten aus Kontakten erstellen können, müssen Sie einen Geschäftsbeziehungscode auf der Seite **Marketingeinrichtung** im Inforegister **Interaktionen** angeben. Weitere Informationen finden Sie unter [Einrichten von Kontakten](marketing-setup-contacts.md).
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Kontakte** ein, und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol öffnet, geben Sie **Kontakte** ein und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie den Kontakt aus, den Sie als Debitor, Kreditor, Mitarbeiter oder Bankkonto erstellen möchten.
 3. Wählen Sie die Aktion **Erstellen als**, und wählen Sie denn entweder **Debitor**, **Kreditor**, **Bank** oder **Mitarbeiter**.
 4. Wählen Sie die Schaltfläche **OK** aus.
@@ -114,7 +109,7 @@ Es gibt drei Möglichkeiten, die Datensynchronisierung zwischen Kontakten und De
 * Wenn Sie Kontakte mit bestehenden Debitoren, Kreditoren, Mitarbeitern oder Bankkonten von der Kontaktkarte verknüpfen. Siehe auch [Verknüpfen eines Kontakts mit einem vorhanden Debitor, Kreditor oder Konto](marketing-create-contact-companies.md#to-link-a-contact-to-an-existing-customer-vendor-employee-or-bank-account).
 
 ## <a name="to-view-which-customer-vendor-employee-or-bank-account-a-contact-is-related-to"></a>So sehen Sie, mit welchem Debitor, Kreditor, Mitarbeiter oder Bankkonto ein Kontakt verknüpft ist
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Kontakte** ein, und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol öffnet, geben Sie **Kontakte** ein und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie die Zeile für einen Kontakt aus, wählen Sie die Aktion **Verknüpfte Informationen** und dann die Aktion **Debitor/Kreditor/Bankkonto/Mitarbeiter** aus.
 
 ## <a name="see-also"></a>Siehe auch

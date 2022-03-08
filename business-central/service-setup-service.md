@@ -2,28 +2,29 @@
 title: Einrichten von Service | Microsoft Docs
 description: Überblick der Aufgaben zur Serviceeinrichtung für eine passende Serviceverwaltungsmethode für Ihre Organisation.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, service items, repairs, maintenance, fix
-ms.date: 04/01/2021
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 062e74b422f2190feb15d54cea47af90db468d3b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 05501ac6a2ea3856c9bcfb3dc001d3120546dad9
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140553"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3789475"
 ---
 # <a name="setting-up-service-management"></a>Einrichten der Serviceverwaltung
-Bevor Sie mit den Servicemanagement-Funktionen in [!INCLUDE[prod_short](includes/prod_short.md)] beginnen können, müssen einige Dinge eingerichtet werden. Beispielsweise können Sie Codierung für Standardservices, Symptome und Fehlercodes festlegen und die Serviceartikel und Serviceartikeltypen einrichten, die vom Kundendienst des Unternehmens benötigt werden.  
+Bevor Sie mit den Servicemanagement-Funktionen in [!INCLUDE[d365fin](includes/d365fin_md.md)] beginnen können, müssen einige Dinge eingerichtet werden. Beispielsweise können Sie Codierung für Standardservices, Symptome und Fehlercodes festlegen und die Serviceartikel und Serviceartikeltypen einrichten, die vom Kundendienst des Unternehmens benötigt werden.  
 
 Beim Einrichten des Servicemanagements muss festgelegt werden, welche Services Debitoren angeboten werden und ein entsprechender Zeitplan entworfen werden. Bei einem Service handelt es sich um eine Arbeit, die von mindestens einer Ressource ausgeführt und einem Debitor zur Verfügung gestellt wird. Ein Beispiel für einen Service ist die Reparatur eines Computers. Ein Serviceartikel ist das Gerät oder der Artikel, für den ein Service zu erbringen ist, beispielsweise ein reparaturbedürftiger Computer, der bei einem bestimmten Debitor installiert ist. Sie können Services als Teil einer Gruppe zugehöriger zu reparierender oder zu wartender Artikel einrichten.  
   
 Beim Definieren eines Service kann dieser den Qualifikationen zugeordnet werden, die zur Ausführung des Services erforderlich sind. Damit die Servicemitarbeiter effizient arbeiten, können auch Richtlinien für Lösungsanleitungen in Echtzeit eingerichtet und typische Anfangskosten, wie Reisekosten oder andere Gebühren, zugeordnet werden.  
 
-Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Themen, die sie beschreiben..  
+In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den beschriebenen Themen erläutert.  
   
 | An | Siehe |
 | --- | --- |
@@ -42,7 +43,4 @@ Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Themen,
 
 ## <a name="see-also"></a>Siehe auch
 [Service](service-service.md)  
-[Vorbereitung für die Geschäftstätigkeit](ui-get-ready-business.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Erste Schritte](product-get-started.md)  

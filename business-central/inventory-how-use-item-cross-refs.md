@@ -1,66 +1,52 @@
 ---
-title: Element-Referenzen verwenden
-description: Richten Sie Referenzen zwischen den Beschreibungen, Einheiten und Varianten ein, die Sie und Ihr Kreditor oder Debitor für einen Artikel verwenden.
+title: Artikelreferenzen verwenden | Microsoft Docs
+description: Richten Sie Referenzen zwischen den Beschreibungen ein, die Sie und Ihr Kreditor für einen Artikel verwenden, damit Sie die Artikelbeschreibung des Kreditors in Einkaufsbelege einfügen können.
+services: project-madeira
+documentationcenter: ''
 author: bholtorf
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item reference, cross reference, inventory
-ms.search.forms: 5737, 5735, 5736
-ms.date: 10/27/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a53ce228f1edc337b8f3fb004984f80f6db5dec8
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 056897c799dd12755432637690446a0797c9f18c
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135315"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3919438"
 ---
-# <a name="use-item-references"></a>Element-Referenzen verwenden
+# <a name="use-item-cross-references"></a>Artikelreferenzen verwenden
+Wenn Sie eine Artikelreferenzen zwischen der Artikelbeschreibung definieren, die Sie für den Artikel und die Beschreibung verwenden, die der Kreditor dieses Artikels verwendet, wird die Artikelbeschreibung des Kreditors automatisch auf Verkaufsbelegen für den Kreditor eingegeben, wenn Sie die **Referenznr.** ausfüllen Feld Dieselbe Funktionalität gilt für Debitorenartikelnummern in Verkaufsbelegen.
 
-Wenn Sie Artikel kaufen oder verkaufen, für die Sie und Ihr Kreditor oder Debitor unterschiedliche Bedingungen verwenden, können Sie eine Referenz zwischen Ihren Bedingungen für die Artikel und den Bedingungen einrichten, die der Debitor oder Kreditor dieses Artikels verwendet. Auf diese Weise wird die Artikelbezeichnung, die Einheit oder der Variantencode des Kreditors oder Debitors beim Ausfüllen des Formulars automatisch in die entsprechenden Dokumente eingefügt **Artikel-Referenz-Nr.** Feld eingetragen.  
+Die folgenden Verfahren beschreiben, wie Artikelreferenzen beim Einkauf verwendet werden. Die Schritte sind für den Verkauf ähnlich.
 
 > [!NOTE]
-> [!INCLUDE [2021_releasewave2](includes/2021_releasewave2.md)]
->
-> Nicht alle Unternehmen verwenden Artikelreferenzen. Wir haben die zugehörigen Felder und Aktionen standardmäßig ausgeblendet, um das Durcheinander auf den Seiten zu minimieren. Wenn Sie sich entscheiden, sie zu verwenden, können Sie auf der Seite **Lagerbestandseinrichtung** das Feld **Artikelreferenzen verwenden** aktivieren. Nachdem Sie die Artikelreferenzen aktiviert haben, sind die Felder und Aktionen auf den Seiten Artikelkarte, Lieferantenkarte und Kundenkarte sowie in Einkaufs- und Verkaufsbelegen verfügbar.
->
-> In Versionen vor dem 2. Veröffentlichungszyklus 2021 kann Ihr Administrator die Funktion *Längere Artikelreferenzen schreiben* auf der Seite [Funktionsverwaltung](https://businesscentral.dynamics.com/?page=2610) aktivieren (der Link erfordert, dass Sie einen [!INCLUDE [prod_short](includes/prod_short.md)]-Mandanten haben) aktivieren. Die Verwendung von Referenzen ändert sich nicht, aber die Namen von Dingen wie Seiten und Schaltflächen ändern sich. Aus der Seite **Artikelquerverweisposten** wird beispielsweise die Seite **Artikelreferenzposten**.
+> Für Artikelbezeichner wie z. B. GTINs oder GUIDs wird es immer üblicher, dass sie mindestens 30 Zeichen enthalten, was mehr ist. als die aktuelle Funktion für Artikelquerverweise handhaben kann. Wenn Sie Referenzen verwenden müssen, die mehr als 30 Zeichen enthalten, kann Ihr Administrator die Funktion **Längere Artikelreferenzen schreiben** auf der Seite [Funktionsverwaltung](https://businesscentral.dynamics.com/?page=xzy) aktivieren (der Link erfordert, dass Sie einen [!INCLUDE[d365fin](includes/d365fin_md.md)]-Mandanten haben) aktivieren. Die Verwendung von Referenzen ändert sich nicht, aber die Namen von Dingen wie Seiten und Schaltflächen ändern sich. Aus der Seite **Artikelquerverweisposten** wird beispielsweise die Seite **Artikelreferenzposten**.
 
-## <a name="to-start-using-item-references"></a>So beginnen Sie mit der Verwendung von Artikelreferenzen
+## <a name="to-set-up-an-item-cross-reference-to-a-vendors-item-description"></a>Eine Artikelreferenz zur Artikelbeschreibung des Kreditor einrichten
 
-[!INCLUDE [2021_releasewave2](includes/2021_releasewave2.md)]
+1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol öffnet, geben Sie **Artikel** ein und wählen Sie dann den entsprechenden Link.
+2. Öffnen Sie die Karte eines Artikels, für den Sie eine Referenz zur Artikelbeschreibung erstellen möchten, die der Kreditor für diesen Artikel verwendet.
+3. Wählen Sie die **Referenzen**-Aktion aus.
 
-1. Wählen Sie das Symbol :::image type="icon" source="media/ui-search/search_small.png" border="false"::: aus, und geben Sie **Lagerbestandseinrichtung** ein und wählen Sie dann den zugehörigen Link.
-2. Wählen Sie das Feld **Artikelreferenzen verwenden**.
-
-## <a name="to-set-up-an-item-reference"></a>Artikelreferenzen einrichten
-
-1. Wählen Sie das Symbol :::image type="icon" source="media/ui-search/search_small.png" border="false"::: aus, und geben Sie **Artikel** ein, und wählen Sie dann den zugehörigen Link.
-2. Öffnen Sie die Karte eines Elements, für das Sie eine Referenz erstellen möchten.
-3. Wählen Sie die Aktion **Artikelverweise**.
-
-     Wenn Sie die Aktion **Artikelverweise** nicht finden können, wählen Sie die Option zum Anzeigen weiterer Optionen und suchen Sie sie dann unter **Verwandt** > **Artikel**.
+     Wenn Sie die Aktion **Querverweise** nicht finden können, wählen Sie die Anzeige weiterer Optionen aus, und suchen Sie diese unter **Verknüpft** > **Artikel**.
   
-4. Füllen Sie in einer neuen Zeile auf der Seite **Element-Referenz-Einträge** die erforderlichen Felder aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
+4. In einer neuen Zeile auf der Seite **Artikelreferenzposten** füllen Sie die Felder wie notwendig aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
 
-Das folgenden Verfahren beschreibt, wie Sie Artikelreferenzen für eine Bestellung angeben. Die gleichen Schritte gelten auch für andere Verkaufs- und Einkaufsbelege.  
+## <a name="to-enter-a-vendors-item-description-on-a-purchase-order"></a>So geben Sie die Artikelbeschreibung eines Kreditors auf einer Einkaufsbestellung ein
 
-## <a name="to-enter-a-vendors-item-description-on-a-document"></a>So geben Sie die Artikelbeschreibung eines Kreditors auf einem Beleg ein
+1. Wählen Sie die ![Glühbirne, die das Tell Me Feature öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol, geben Sie **Bestellungen** ein und wählen Sie dann den entsprechenden Link.
+2. Erstellen Sie eine Bestellung für den Kreditor, für den Sie im vorherigen Verfahren eine Artikelreferenz eingerichtet haben.
+3. Erstellen Sie eine Einkaufszeile für den Artikel, für den Sie im vorherigen Verfahren eine Artikelreferenz eingerichtet haben.
+4. Wählen Sie im Feld **Referenznr.** die Artikelreferenz aus, die Sie erstellt haben, und wählen Sie dann **OK** aus.
 
-1. Wählen Sie das Symbol :::image type="icon" source="media/ui-search/search_small.png" border="false"::: aus, geben Sie **Einkaufsbestellungen** ein, und wählen Sie dann den zugehörigen Link.
-2. Erstellen Sie eine Bestellung für den Kreditor, für den Sie im vorherigen Verfahren einen Artikelbezug festgelegt haben.
-3. Erstellen Sie eine Kauf-Zeile für den Artikel, für den Sie in der vorherigen Vorgehensweise einen Artikelbezug festgelegt haben.
-4. Im Feld **Artikelreferenz-Nr.** und wählen Sie die entsprechende Artikelreferenz aus und wählen dann die Schaltfläche **OK**.
+Das Feld **Beschreibung** in der Zeile wird mit der Artikelbeschreibung des Kreditors überschrieben, wie im Artikelreferenzposten festgelegt.
 
-Das Feld **Beschreibung** in der Zeile wird mit der Artikelbeschreibung des Kreditors überschrieben, wie sie auf dem Eintrag für die Artikelreferenz festgelegt wurde. Enthält die Artikelreferenz einen Variantencode oder eine Einheit, werden diese Werte ebenfalls in den Beleg übernommen.  
-
-## <a name="see-also"></a>Weitere Informationen
-
+## <a name="see-also"></a>Siehe auch
 [Neue Artikel registrieren](inventory-how-register-new-items.md)  
-[Bestand](inventory-manage-inventory.md)  
-[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Lagerbestand](inventory-manage-inventory.md)  
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

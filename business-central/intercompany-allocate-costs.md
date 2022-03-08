@@ -4,19 +4,20 @@ description: Erfahren Sie, wie die Mehrwertsteuereinstellungen für Kunden und L
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: incoming document
-ms.date: 04/01/2021
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: fc11979fb6e21feba85c883b83ca7a3dcc5d8772
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 0ebed6a95212fdcf00b54af823684ae139e29638
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137913"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5388474"
 ---
 # <a name="allocate-costs-to-intercompany-partners"></a>Kosten den Intercompanypartnern zuordnen
 Wenn Sie konzerninterne Buchungen verwenden, um Dokumente zwischen Partnerunternehmen zu übertragen, steuern die den Kunden- oder Lieferantenkonten (dem konzerninternen Partner zugeordneten) zugewiesenen umsatzsteuerlichen Einstellungen (hauptsächlich die Umsatzsteuer-Geschäftsbuchungsgruppe), ob und wie die Mehrwertsteuer berechnet und registriert wird. Sie können Kostenverteilungen auch direkt von einer Bestellung an Partnerunternehmen durchführen. Wenn Sie beispielsweise eine Kaufrechnung von einem externen Anbieter registrieren und einen Teil oder die gesamten Kosten an einen oder mehrere konzerninterne Partner verteilen möchten.
@@ -29,7 +30,7 @@ Sie können Kosten einem oder mehreren konzerninternen Partnern wie folgt zuordn
 ## <a name="to-allocate-costs-using-an-intercompany-general-journal"></a>Zuordnung der Kosten mithilfe eines Intercompany Fibu Buch.-Blattes
 Führen Sie die folgenden Schritte aus, um eine Zeile in ein Intercompany Fibu Buch.-Blatt einzugeben. 
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun") Symbol. Geben Sie **Intercompany-Fibu Buch.-Blatt** ein, und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie das Symbol ![Glühbirne, die die Funktion wie möchten Sie weiter verfahren öffnet](media/ui-search/search_small.png "Was möchten Sie tun"), geben Sie **Intercompany Fibu Buch.-Blatt** ein, und wählen Sie dann den entsprechenden Link.
 2. Bei Bedarf im Feld **Externes Dokument Nr.** die Belegnummer des Lieferanten auf der Rechnung eingeben.
 3. Wählen Sie in dem Feld **Belegart** **Rechnung** ein.
 4. Wählen Sie im Feld **Kontoart** die Option **Kreditor** aus.
@@ -54,9 +55,9 @@ Führen Sie die folgenden Schritte aus, um eine Zeile in ein Intercompany Fibu B
 Das folgende Verfahren beschreibt die Zuordnung von Kosten mithilfe einer Einkaufsrechnung. Die Schritte sind für eine Einkaufsbestellung gleich.
 
 > [!NOTE]
-> Um diese Schritte auszuführen, müssen Sie die Seite **Einkaufsrechnung** durch Hinzufügen der **IC-Partnercode**, **IC Partner Ref. Art**, und **IC-Partner** Felder personalisieren. Weitere Informationen finden Sie unter [So starten Sie die Personalisierung einer Seite über das Personalisierungsbanner](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).
+> Um diese Schritte auszuführen, müssen Sie die Seite **Einkaufsrechnung** durch Hinzufügen der **IC-Partnercode**, **IC Partner Ref. Art**, und **IC-Partner** Felder personalisieren. Weitere Informationen finden Sie unter [So starten Sie die Personalisierung einer Seite über das Banner Personalisierung](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun") Symbol. Geben Sie **Einkaufsrechnungen** ein, und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie das Symbol ![Glühbirne, die die Funktion Wie möchten Sie weiter verfahren öffnet](media/ui-search/search_small.png "Was möchten Sie tun") und geben Sie **Einkaufsrechnungen** ein und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie im Feld **Art** die Option **Sachkonto** aus.
    
    Das Sachkonto ist die einzige Option, mit der Sie Kosten zuordnen können.  
@@ -69,7 +70,7 @@ Das folgende Verfahren beschreibt die Zuordnung von Kosten mithilfe einer Einkau
 1. Um die Bestellung zu buchen, wählen Sie **Buchen**.
 
 ## <a name="to-send-the-allocated-costs-to-intercompany-partners"></a>Um die zugeordneten Kosten an die Intercompanypartner zu senden
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **IC-Ausgangstransaktionen** ein und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie das Symbol ![Glühbirne, um die Funktion wie möchten Sie weiter verfahren zu öffnen](media/ui-search/search_small.png "Was möchten Sie tun?") und geben Sie **Intercompany-Ausgangstransaktionen** ein und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie die zu sendenden Zeilen aus und wählen Sie dann die **An IC-Partner senden** Aktion aus. 
 3. Um die Kosten zuzuordnen, wählen Sie die Aktion **Komplette Linienaktionen** aus.
 

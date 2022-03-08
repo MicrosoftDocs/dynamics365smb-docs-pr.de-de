@@ -2,6 +2,7 @@
 title: Debitorenpreisgruppen festlegen
 description: Erfahren Sie, wie Sie Debitorenpreisgruppen festlegen und Verkaufspreise für diese Gruppen erstellen.
 author: jill-kotel-andersson
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +10,12 @@ ms.workload: na
 ms.search.keywords: customer price groups, discounts, sales prices
 ms.date: 09/30/2021
 ms.author: edupont
-ms.openlocfilehash: 9b2ff8cca6abf8c1f849039deff5a441427bf112
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d7c658dea40441791a2dc8adda1ca2a8d745c973
+ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143140"
+ms.lasthandoff: 10/29/2021
+ms.locfileid: "7724503"
 ---
 # <a name="set-up-customer-price-groups"></a>Debitorenpreisgruppen festlegen
   
