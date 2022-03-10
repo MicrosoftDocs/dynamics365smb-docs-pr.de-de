@@ -1,21 +1,21 @@
 ---
 title: Assistive Funktionen
-description: Tastenkombinationen und andere assistive Funktionen.
+description: Dieser Artikel enthält Informationen über Tastaturkürzel und andere unterstützende Funktionen in Business Central für Menschen mit Behinderungen.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, charts, tooltips, screen reader
-ms.date: 04/29/2021
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.date: 06/23/2021
 ms.author: jswymer
-ms.openlocfilehash: 5a9b99b367ca732f5b6347462a07b0d0c3f5c522
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.openlocfilehash: 6389387e2b2e9dcaa2d709e7e376f38a3dd8e1a9
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115890"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8334564"
 ---
 # <a name="accessibility-and-keyboard-shortcuts"></a>Eingabehilfe und Tastenkombinationen
 

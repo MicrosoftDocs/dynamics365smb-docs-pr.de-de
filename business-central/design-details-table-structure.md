@@ -2,20 +2,19 @@
 title: Designdetails - Tabellenstruktur | Microsoft Docs
 description: Um zu erkennen, wie die Dimensionsposten-Einlagerungs- und Buchung neu entwickelt wurde, ist es wichtig, die Tabellenstruktur zu kennen.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 1dccea4f700f8cf141e05058b54fd20d62665b7b
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 249fb667676dcb91c91b5fd9015c46c0b994da31
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910980"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142367"
 ---
 # <a name="design-details-table-structure"></a>Designdetails: Tabellenstruktur
 Um zu erkennen, wie die Dimensionsposten gespeichert und gebucht werden, ist es wichtig, die Tabellenstruktur zu kennen.  
@@ -150,7 +149,7 @@ Feld 480 ist in den folgenden Tabellen editierbar.
 |207|**Res. Buch.-Blattzeile**|  
 |210|**Projekt Buch.-Blattzeile**|  
 |221|**Fibu Buch.-Blatt Verteilungen**|  
-|246|**Bestellvorschlagszeile**|  
+|246|**Bestellarbeitsblattszeile**|  
 |295|**Mahnungskopf**|  
 |302|**Zinsrechnungskopf**|  
 |5405|**Fertigungsauftrag**|  
@@ -181,8 +180,7 @@ Feld 480 ist in den folgenden Puffertabellen vorhanden.
 |5637|**Anlagen Fibu-Buchungspuffer**|  
 |7136|**Artikelbudgetpuffer**|  
 
-## <a name="see-also"></a>Siehe auch  
- [Designdetails: Dimensionssatzposten](design-details-dimension-set-entries.md)   
- [Dimensionssatz-Eintrags-Übersicht](design-details-dimension-set-entries-overview.md)   
- [Designdetails: Suche nach Dimensionskombinationen](design-details-searching-for-dimension-combinations.md)   
- 
+## <a name="see-also"></a>Siehe auch
+
+[Dimensionssatz-Eintrags-Übersicht](design-details-dimension-set-entries-overview.md)  
+[Designdetails: Suche nach Dimensionskombinationen](design-details-searching-for-dimension-combinations.md)   

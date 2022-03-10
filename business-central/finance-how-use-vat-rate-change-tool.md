@@ -1,24 +1,24 @@
 ---
-title: Verwalten von Mehrwertsteuersätzen | Microsoft Docs
-description: Erfahren Sie, wie Sie das Tool zum Ändern des Mehrwertsteuersatzes für Dynamics 365 Business Central verwenden.
+title: Verwalten von Änderungen des MwSt.-Satzes
+description: Erfahren Sie, wie Sie das Tool zur Änderung des MwSt.-Satzes für Dynamics 365 Business Central verwenden, um die MwSt.-Sätze auf der Grundlage der lokalen Gesetzgebung zu ändern.
 author: andregu
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.reviewer: edupont
 ms.workload: na
 ms.search.keywords: VAT, VAT rate, posting, tax, value-added tax
-ms.date: 10/01/2020
+ms.search.form: 550,
+ms.date: 06/16/2021
 ms.author: andregu
-ms.openlocfilehash: 7d75cb42b064f8541a1142ef149c9641baa6f69a
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: ce98367d08c399e8c1a93140bad6fbecd04dda95
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923920"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8135393"
 ---
 # <a name="managing-vat-rate-changes"></a>Verwalten von Änderungen des Mehrwertsteuersatzes
 
-Mehrwertsteuersätze können sich je nach lokaler Gesetzgebung ändern. Jede Änderung der Mehrwertsteuer wirkt sich auf Ihre Daten in [!INCLUDE[d365fin](includes/d365fin_md.md)] aus, unabhängig davon, ob der Mehrwertsteuersatz gesenkt, angehoben oder entfernt wird. Die Mehrwertsteuer ist mit vielen Entitäten in [!INCLUDE[d365fin](includes/d365fin_md.md)] verbunden, z. B. Kunden, Lieferanten, Artikel, Ressourcen, Artikel Zu-/Abschläge und Sachkonten. Änderungen der Mehrwertsteuersätze erfolgen normalerweise zu einem bestimmten Zeitpunkt. Ab diesem Zeitpunkt müssen Sie die MwSt.-Einrichtung und Buchungsgruppen usw. geändert haben, um sicherzustellen, dass neue Verkaufsaufträge und Einkaufsbestellungen mit dem neuen Mehrwertsteuersatz erstellt werden.
+Mehrwertsteuersätze können sich je nach lokaler Gesetzgebung ändern. Jede Änderung der Mehrwertsteuer wirkt sich auf Ihre Daten in [!INCLUDE[prod_short](includes/prod_short.md)] aus, unabhängig davon, ob der Mehrwertsteuersatz gesenkt, angehoben oder entfernt wird. Die Mehrwertsteuer ist mit vielen Entitäten in [!INCLUDE[prod_short](includes/prod_short.md)] verbunden, z. B. Kunden, Lieferanten, Artikel, Ressourcen, Artikel Zu-/Abschläge und Sachkonten. Änderungen der Mehrwertsteuersätze erfolgen normalerweise zu einem bestimmten Zeitpunkt. Ab diesem Zeitpunkt müssen Sie die MwSt.-Einrichtung und Buchungsgruppen usw. geändert haben, um sicherzustellen, dass neue Verkaufsaufträge und Einkaufsbestellungen mit dem neuen Mehrwertsteuersatz erstellt werden.
 
 ## <a name="changing-vat-rates"></a>Ändern von Mehrwertsteuersätzen
 
@@ -71,13 +71,13 @@ Bevor Sie das Mehrwertsteuersatz-Änderungstool einrichten, müssen Sie die folg
 
 ### <a name="to-set-up-the-vat-rate-change-tool"></a>So richten Sie das Mehrwertsteuersatz-Änderungstool ein
 
-1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol öffnet, geben Sie **Einrichtung der MwSt.-Satzänderung** ein und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Einrichtung der MwSt.-Satzänderung** ein, und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie auf den Inforegistern **Masterdaten**, **Buch.-Blätter** und **Belege** einen Buchungsgruppenwert aus der Liste der Optionen für erforderliche Felder aus. Für jede Gruppe können Sie wählen, ob Sie MwSt.-Produktbuchungsgruppen oder allgemeine Produktbuchungsgruppen konvertieren oder beide Werte konvertieren möchten, sofern sie im Masterdatenelement verfügbar sind. Für einige Bereiche können Sie auch einen Filter festlegen, um nur eine Teilmenge von Werten zu konvertieren, z. B. Sachkonten. 
 3. Wählen Sie auf dem Inforegister **Preise inkl. MwSt** aus, für welche Zeilenarten in Bestellungen Sie VK-Preise aktualisieren möchten. VK-Preise in Zeilen vom Typ „Artikel“ und „Ressource“ werden immer aktualisiert.
 
 ### <a name="to-set-up-product-posting-group-conversion"></a>So richten Sie die Produktbuchungsgruppenkonvertierung ein
 
-1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol öffnet, geben Sie **Einrichtung der MwSt.-Satzänderung** ein und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Einrichtung der MwSt.-Satzänderung** ein, und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie auf der Seite **Einrichtung der MwSt.-Satzänderung** entweder die Option **Umrech. für MwSt.-Produktbuchungsgruppe** oder **Umrech. für Produktbuchungsgruppe** Aktion.  
 3. Geben Sie im Feld **Code ab** die aktuelle Buchungsgruppe ein.  
 4. Geben Sie den neuen Standort in dem Feld **Cod zu** ein.  
@@ -92,7 +92,7 @@ Sie verwenden das MwSt.-Satz-Änderungstool, um Änderungen im Standard-MwSt.-Sa
 > [!IMPORTANT]  
 > Bevor Sie die Umrechnung für MwSt.-Satzänderungen ausführen, können Sie die Konvertierung testen. Um dies zu tun, führen Sie die Schritte unten aus, stellen Sie aber sicher, dass Sie die Kontrollkästchen **Konvertierung durchführen** und **Tool zum Ändern des MwSt.-Satzes abgeschlossen** deaktivieren. Während der Testkonvertierung wird das Feld **Konvertiert** in der Tabelle **Protokollposten für MwSt.-Satzänderung** gelöscht und das Feld **Konvertierungsdatum** in der Tabelle **Protokollposten für MwSt.-Satzänderung** ist leer. Nach der Umrechnung wählen Sie auf der Registerkarte Start, in der Gruppe Prozess die Option **Änderungsprotokollposten für MwSt.-Satz** aus, um die Ergebnisse der Umrechnung anzuzeigen. Prüfen Sie jeden Posten, bevor Sie die Umrechnung ausführen. Insbesondere überprüfen Sie Transaktionen, die einen alten Mehrwertsteuersatz verwenden.
 
-1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol öffnet, geben Sie **Änderung des MwSt.-Satzes** ein und wählen Sie dann den Link **Einrichtung der MwSt.-Satzänderung**.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **MwSt.-Satz-Änderung** ein und wählen Sie dann den Link **Einrichtung der MwSt.-Satzänderung**.  
 2. Vergewissern Sie sich, dass Sie bereits die MwSt.-Produktbuchungsgruppen-Umrechnung oder die Produktbuchungsgruppen-Umrechnung eingerichtet haben.  
 3. Wählen Sie das Kontrollkästchen **Konvertierung durchführen**.  
 
@@ -112,3 +112,6 @@ Sie verwenden das MwSt.-Satz-Änderungstool, um Änderungen im Standard-MwSt.-Sa
 [Meldung der Mehrwertsteuer an eine Steuerbehörde](finance-how-report-vat.md)  
 [Arbeiten mit MwSt im Verkauf und Einkauf](finance-work-with-vat.md)  
 [Lokale Funktion in Business Central](about-localization.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

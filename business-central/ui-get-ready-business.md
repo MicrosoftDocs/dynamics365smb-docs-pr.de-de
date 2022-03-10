@@ -2,20 +2,19 @@
 title: Vorbereitungen zum Tätigen von Geschäften
 description: Gliedert die unterstützten Einrichtungshandbücher, Videos, Hilfethemen, Seiten, die sie verwenden, um Business Central zu nutzen.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, setup, wizard, experience
-ms.date: 04/01/2021
+ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: bb9ace03ee8e47b25a7812e1ace624b8e88e990c
-ms.sourcegitcommit: 5a916b0aa0a2eef0c22b5722a0af041757e6d7c2
+ms.openlocfilehash: b75381cd5153294ec65878c3e6726b9a3e4821de
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "6074662"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8335031"
 ---
 # <a name="getting-ready-for-doing-business"></a>Vorbereitungen zum Tätigen von Geschäften
 
@@ -23,27 +22,27 @@ Glückwünsche, Sie haben soeben Ihren ersten Mandanten in [!INCLUDE[prod_short]
 
 Damit Sie sich leichter auf Ihre Geschäftstätigkeiten vorbereiten können, können Sie die Seite **Unterstützte Einrichtung** besuchen. Dort können Sie Anleitungen zur unterstützten Einrichtung, Videos oder Hilfethemen für ausgewählte Einrichtungsaufgaben starten. Wählen Sie zum Aufrufen der Seite einfach [diesen Link](https://businesscentral.dynamics.com/?page=1801) aus.  
 
-Sie können auch das ![Zahnradsymbol zum Öffnen des Einstellungsmenüs](media/ui-experience/settings_icon_small.png) und dann die Aktion **Unterstützte Einrichtung** auswählen.
+Alternativ können Sie das ![Rad-Symbol wählen, um das Menü „Einstellungen“ zu öffnen.](media/ui-experience/settings_icon_small.png) Symbol, und dann die Aktion **Unterstützte Einrichtung**.
 
-Sie können auch die Liste der Anleitungen zur unterstützten Einrichtung auch suchen, wenn Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") auswählen, **Unterstützes Setup** eingeben und dann den entsprechenden Link auswählen.  
+Sie finden die Liste der Anleitungen für die Unterstützte Einrichtung auch, wenn Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") wählen. Symbol, geben Sie **Unterstützte Einrichtung** ein und wählen Sie dann den entsprechenden Link.  
 
 > [!TIP]
 > [!INCLUDE [ua-get-help](includes/ua-get-help.md)]
 
 ## <a name="get-started"></a>Erste Schritte
 
-Ab 2021 Veröffentlichungszyklus 1, wenn Sie sich zum ersten Mal anmelden oder eine neue Firma gründen, führt Sie die Checkliste **Erste Schritte** durch die Schritte, um Sie für das Geschäft vorzubereiten. Die Schritte variieren je nach Land und branchenspezifischen Funktionen, die Sie Ihrem [!INCLUDE [prod_short](includes/prod_short.md)] hinzugefügt haben.  
+Wenn Sie sich zum ersten Mal anmelden oder eine neue Firma gründen, führt Sie die Checkliste **Erste Schritte** durch die Schritte, die Sie zur Geschäftsfähigkeit führen. Die Schritte variieren je nach Land und branchenspezifischen Funktionen, die Sie Ihrem [!INCLUDE [prod_short](includes/prod_short.md)] hinzugefügt haben. Ab 2021 Veröffentlichungszyklus 2, wenn Sie sich zum ersten Mal bei der CRONUS Demonstrationsfirma anmelden, ist Ihre Startseite für Ihre ersten Erfahrungen optimiert. Wenn Sie lieber mehr Links zu mehr Seiten sehen möchten, wechseln Sie einfach in die Rolle des Business Managers. Weitere Informationen finden Sie unter [Grundeinstellungen ändern](ui-change-basic-settings.md).  
 
 Sobald Sie Daten wie Debitoren, Kreditoren und Artikel von Ihrem vorhandenen Finanzsystem migriert haben, können Sie bereit damit zu beginnen. Je nach Ihrem Bedarf sollten Sie jedoch in Betracht ziehen, ob andere Anleitungen zur unterstützten Einrichtung auf der Liste Ihnen helfen können.
 
-Wenn ein Bereich nicht durch eine unterstützte Einrichtung abgedeckt ist, wählen Sie das Symbol ![Zahnrad, um das Einstellungsmenü zu öffnen](media/ui-experience/settings_icon_small.png) und dann die Aktion **Erweiterte Einstellungen**. Unter **Erweiterte Einstellungen** bietet der Abschnitt **Manuelle Einrichtung** Zugang zu Einrichtungsseiten, auf denen Sie Einrichtungsfelder für alle Bereiche manuell ausfüllen können. Weitere Informationen finden Sie unter [Einrichten von [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)
+Wenn ein Bereich nicht durch eine unterstützte Einrichtung abgedeckt ist, wählen Sie das Symbol ![Rad, um das Menü Einstellungen zu öffnen.](media/ui-experience/settings_icon_small.png) Symbol, und dann die Aktion **Erweiterte Einstellungen**. Unter **Erweiterte Einstellungen** bietet der Abschnitt **Manuelle Einrichtung** Zugang zu Einrichtungsseiten, auf denen Sie Einrichtungsfelder für alle Bereiche manuell ausfüllen können. Weitere Informationen finden Sie unter [Einrichten von [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)
 
 > [!NOTE]  
 > Die Liste der Leitfäden für das unterstützte Setup, Erweiterungen und Diensten, die verfügbar sind, unterscheidet sich abhängig von der Benutzerumgebung, die Sie für Ihr Unternehmen auswählen. Die **Standard** Umgebung gibt Zugang zu weniger, als die Umgebung **Premium**.
 >
 > Wenn Sie sich zum ersten Mal anmelden, nutzen Sie die Umgebung **Standard**. Weitere Informationen finden Sie unter [Ändern Sie, welche Funktionen angezeigt werden](ui-experiences.md).
 
-Wenn Sie einen Leitfaden für das unterstützte Setup ausgeführt haben, wird er als **Abgeschlossen** markiert. <!--VERIFY-->  
+Wenn Sie einen Leitfaden für das unterstützte Setup ausgeführt haben, wird er als **Abgeschlossen** markiert.  
 
 ## <a name="teaching-tips-and-tours"></a>Unterrichtstipps und Touren
 
@@ -70,9 +69,9 @@ Unter **Mandanten-Einstellungen** können Sie Informationen über den aktuellen 
 
 ## <a name="adding-users-and-permissions"></a>Hinzufügen von Benutzern und von Berechtigungen
 
-Wenn Sie mehrere Benutzer hinzufügen müssen, wird dieses vom Microsoft 365 Admin Center aus durchgeführt. Weitere Informationen finden Sie unter [Benutzer nach Lizenzen anlegen](ui-how-users-permissions.md).
+Wenn Sie mehrere Benutzer hinzufügen müssen, wird dieses vom Microsoft 365 Admin Center durchgeführt. Weitere Informationen finden Sie unter [Benutzer nach Lizenzen anlegen](ui-how-users-permissions.md).
 
-Wenn Benutzer in Microsoft 365 erstellt werden, können sie in die Seite **Benutzer** importiert werden, indem Sie die Aktion **Aktualisierungen von Office 365** abrufen verwenden. Sie können dann fortfahren, Berechtigungen Benutzern und Benutzergruppen zuzuordnen. Weitere Informationen finden Sie unter [Berechtigungen an Benutzer und Gruppen zuweisen](ui-define-granular-permissions.md).  
+Wenn Benutzer in Microsoft 365 erstellt werden, können sie in die Seite **Benutzer** importiert werden, indem Sie die Aktion **Aktualisierungen von Office 365 abrufen** verwenden. Sie können dann fortfahren, Berechtigungen Benutzern und Benutzergruppen zuzuordnen. Weitere Informationen finden Sie unter [Berechtigungen an Benutzer und Gruppen zuweisen](ui-define-granular-permissions.md).  
 
 ## <a name="product-help"></a>Produkthilfe
 
@@ -80,15 +79,21 @@ Wenn Benutzer in Microsoft 365 erstellt werden, können sie in die Seite **Benut
 
 ## <a name="next-steps"></a>Nächste Schritte
 
-Auf Grundlage Ihre migrierten Daten können Sie jetzt fortfahren, um neue Verkäufe oder Einkaufsbelege zu erstellen. Verwenden Sie den Bereich **Aktionen** auf der Homepage, um rasch ein neues Verkaufsangebot, eine Verkaufsrechnung, einen Verkaufsauftrag, eine Einkaufsrechnung oder eine Zahlungsregistrierung zu erstellen.
+Auf Grundlage Ihre migrierten Daten können Sie jetzt fortfahren, um neue Verkäufe oder Einkaufsbelege zu erstellen. Verwenden Sie den Bereich **Aktionen** auf der Homepage, um rasch ein neues Verkaufsangebot, eine Verkaufsrechnung, einen Verkaufsauftrag, eine Einkaufsrechnung oder eine Zahlungsregistrierung zu erstellen. Schauen Sie sich die [Schnellstart](quick-start-business-central.md) Artikel an, die Ihnen bei den ersten Schritten helfen.  
 
 ## <a name="see-also"></a>Siehe auch
 
+[Business Central Schnellstarts](quick-start-business-central.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Ändern von grundlegenden Einstellungen](ui-change-basic-settings.md)  
+[Eingabehilfe und Tastenkombinationen](ui-accessibility.md)  
+[Testversionen und Abonnements](across-preview.md)  
+[Geschäftsfunktionen](across-business-functionality.md)  
 [Berechtigungen an Benutzer und Gruppen zuweisen](ui-define-granular-permissions.md)  
-[[!INCLUDE[prod_long](includes/prod_long.md)]-Testversionen und Abonnements](across-preview.md)  
+[Suchen Sie im Hilfebereich](product-help-and-support.md#search-in-the-help-pane)  
 [Ressourcen für Hilfe und Support](product-help-and-support.md)  
 [Microsoft Learn-Website](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
+[Daten migrieren](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

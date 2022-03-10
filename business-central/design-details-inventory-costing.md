@@ -1,28 +1,30 @@
 ---
-title: Designdetails - Bestandkosten | Microsoft Docs
+title: Design Details - Kalkulation von Beständen
 description: Diese Dokumentation stellt einen detaillierten technischen Einblick in die Konzepte und Prinzipien bereit, die in den Lagerkostenfunktionen in Business Central verwendet werden.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, inventory, costing
+ms.search.form: 8645
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 8bfcf2b10d9b302c9a65b7cf27c7fb336be68617
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 82b837475f12f402d3b534f1ae1063a56619d8c4
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215978"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146657"
 ---
 # <a name="design-details-inventory-costing"></a>Designdetails: Lagerkostenberechnung
+
 Diese Dokumentation stellt einen detaillierten technischen Einblick in die Konzepte und Prinzipien bereit, die in den Lagerkostenfunktionen in [!INCLUDE[prod_short](includes/prod_short.md)] verwendet werden.  
 
 Die Kostenverwaltung, die auch als "Lagerabgang" bezeichnet wird, dient zum Erfassen und Melden der Betriebskosten eines Unternehmens.  
 
-## <a name="in-this-section"></a>In diesem Abschnitt  
+## <a name="in-this-section"></a>In diesem Abschnitt
+
 [Designdetails: Kostenberechnungsmethoden](design-details-costing-methods.md)  
 [Designdetails: Artikelausgleich](design-details-item-application.md)  
 [Designdetails: Bekannte Artikelanwendungsprobleme](design-details-inventory-zero-level-open-item-ledger-entries.md)  

@@ -2,20 +2,19 @@
 title: Die Data Archive-Erweiterung
 description: Die Archivierung von Daten erstellt ein kostengünstiges Backup Ihrer Datensätze.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 630
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 032c425f10bae29416cf8602d0c339f3ffaa3043
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: e2df40494f72260a1ce7e66f57ea1c96fb35b301
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589418"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8130826"
 ---
 # <a name="the-data-archive-extension"></a>Die Data Archive-Erweiterung
 Im Laufe der Zeit wird sich in Ihrem Unternehmen eine beträchtliche Menge an Daten ansammeln, und als Administrator ist es wahrscheinlich eine gute Idee, eine Strategie für die Archivierung von Daten zu haben. Viele Daten können die Arbeit verlangsamen, z.B. kann es etwas länger dauern, Berichte zu erstellen oder sogar Datensätze zu sperren. Außerdem können große Datenmengen zu erhöhten Speicherkosten führen.
@@ -39,19 +38,19 @@ Die Data Archive-Erweiterungen werden von den folgenden Batchaufträgen zur Date
 
 |Batchaufträge  |
 |---------|
-|Datum Komp. Element Budget-Einträge     |
-|Datum komprimieren Bankabst. Posten     |
-|Datum Debitoren-Posten komprimieren     |
-|Datum Komprimieren FA-Posten     |
-|Datum Komprimieren Allgemeiner Posten     |
-|Datum Komprimieren Versicherung Posten     |
-|Datum Komprimieren Wartung. Posten     |
-|Datum Komprimieren Wartung. Posten     |
-|Datum Komprimieren Ressourcen Posten     |
-|Datum Komprimieren MwSt.-Posten     |
-|Datum Kreditor-Posten komprimieren     |
-|Datum Komprimieren Whse. Posten     |
-|Datum Kompr. Finanzbudgetposten     |
+|Datum Komp. Element Budget-Einträge |
+|Datum komprimieren Bankabst. Posten |
+|Datum Debitoren-Posten komprimieren |
+|Datum Komprimieren FA-Posten |
+|Datum Komprimieren Allgemeiner Posten |
+|Datum Komprimieren Versicherung Posten |
+|Datum Komprimieren Wartung. Posten |
+|Datum Komprimieren Wartung. Posten |
+|Datum Komprimieren Ressourcen Posten |
+|Datum Komprimieren MwSt.-Posten |
+|Datum Kreditor-Posten komprimieren |
+|Datum Komprimieren Whse. Posten |
+|Datum Kompr. Finanzbudgetposten |
 
 Um die Archivierung von Daten zu starten, wenn Sie einen der Batchaufträge ausführen, schalten Sie die Option **Löschte Einträge archivieren** ein.
 

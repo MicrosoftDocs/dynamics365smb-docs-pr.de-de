@@ -2,7 +2,6 @@
 title: Business Central für Unternehmen mit mehreren Standorten und internationalen Organisationen | Microsoft Dokumente
 description: Business Central bietet Funktionalitäten, die ein Hub-and-Spoke-Geschäftsmodell unterstützen.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: hub-and-spoke, multi-site, headquarter, sites
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: cfdcdd68baa8fdd73ebc75d46650eeee65a28802
-ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
+ms.openlocfilehash: a135499b12ed04ecf179f1cb5691c97ecc0f1aaf
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935417"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141099"
 ---
 # <a name="business-central-for-multi-site-and-international-organizations"></a>Business Central für Unternehmen mit mehreren Standorten und internationale Organisationen
 Organisationen mit mehreren Standorten verwenden häufig ein Hub-and-Spoke-Geschäftsmodell, bei dem eine übergeordnete Firma oder die Zentrale die gesamten Vorgänge des Unternehmens verwaltet, während jeder Standort als einzelne, unabhängige Entität fungiert. Die Standorte sind oft geografisch verteilt und haben unterschiedliche Anforderungen an den Informationsaustausch mit der Firma in der Zentrale. Außerdem benötigen die Standorte in der Regel nicht den gleichen Grad an Komplexität und haben oft nicht die Ressourcen, um ein großes System zu pflegen.
@@ -30,7 +29,7 @@ In diesem Artikel werden einige der Möglichkeiten vorgestellt, wie [!INCLUDE[pr
 
 Das folgende Diagramm ist ein Beispiel für die Integration verschiedener Standorte mit einer Firma in der Zentrale.
 
-![Diagramm Beschreibung automatisch generiert](media/multisite-headquarter-sites.png)
+![Diagramm Beschreibung automatisch generiert.](media/multisite-headquarter-sites.png)
 
 ## <a name="meet-the-needs-of-domestic-and-international-sites"></a>Erfüllen Sie die Bedürfnisse von inländischen und internationalen Standorten
 
@@ -38,8 +37,8 @@ Die geschäftlichen Anforderungen der Standorte unterscheiden sich oft aufgrund 
 
 Für multinationale Unternehmen unterstützt [!INCLUDE[prod_short](includes/prod_short.md)] die lokalen rechtlichen Anforderungen und Geschäftspraktiken.
 
-* Für Online-Versionen gibt es mehr als [40 lokalisierte Länderversionen](https://docs.microsoft.com/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json), die Sie als Erweiterungen von Microsoft AppSource installieren können.  
-* Für lokale Versionen sind [Länderversionen](https://docs.microsoft.com/azure/architecture/solution-ideas/articles/business-central) entweder als von Microsoft lokalisierte Versionen oder als von Partnern betriebene Zusatzlokalisierungen verfügbar.
+* Für Onlineversionen gibt es mehr als [40 lokalisierte Länderversionen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json), die Sie als Erweiterungen von Microsoft AppSource installieren können.  
+* Für lokale Versionen sind [Länderversionen](/azure/architecture/solution-ideas/articles/business-central) entweder als von Microsoft lokalisierte Versionen oder als von Partnern betriebene Zusatzlokalisierungen verfügbar.
 
 Ein Netzwerk von mehr als 4.000 Microsoft-Partnern weltweit sorgt für lokale Expertise.
 
@@ -80,12 +79,12 @@ APIs und XMLports vereinfachen den Prozess der Verbindung von Instanzen von [!IN
 | **Business-Anforderung** | **Wie Business Central sie unterstützt** | **Mehr erfahren** |
 |-------------------------|-------------------------|-------------------------|
 | Verbinden Sie angepasste Versionen zwischen Standorten und der Firma in der Zentrale. | API-Seiten können jede Darstellung einer Entität offenlegen, einschließlich ihrer Anpassungen. | [Aktivieren von APIs für Business Central](/dynamics-nav/enabling-apis-for-dynamics-nav) |
-| Versionsverwaltung und Sicherheit. | Die APIs verwenden ODataV4, das Versionsverwaltung, Webhooks und Änderungsverfolgung bietet. | [Sicherheit und Schutz](https://docs.microsoft.com/dynamics365/business-central/dev-itpro/security/security-and-protection) |
-| Posten und Importieren von XML-Dokumenten. | Codeunits können als ungebundene Aktionen ausgesetzt werden, um das Posten und Einbinden von XML-Dokumenten zu unterstützen. Zum Verarbeiten von XML-Dokumenten können XMLports verwendet werden. Ungebundene Aktionen sind auch in der Lage, ein XML- oder JSON-Dokument zu erzeugen. | [XMLport Objekte](https://docs.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-xmlport-object) |
+| Versionsverwaltung und Sicherheit. | Die APIs verwenden ODataV4, das Versionsverwaltung, Webhooks und Änderungsverfolgung bietet. | [Sicherheit und Schutz](/dynamics365/business-central/dev-itpro/security/security-and-protection) |
+| Posten und Importieren von XML-Dokumenten. | Codeunits können als ungebundene Aktionen ausgesetzt werden, um das Posten und Einbinden von XML-Dokumenten zu unterstützen. Zum Verarbeiten von XML-Dokumenten können XMLports verwendet werden. Ungebundene Aktionen sind auch in der Lage, ein XML- oder JSON-Dokument zu erzeugen. | [XMLport-Objekte](/dynamics365/business-central/dev-itpro/developer/devenv-xmlport-object) |
 | Erleichtern Sie die Wartung durch elektronischen Datenaustausch. | Eine Lösung für den elektronischen Datenaustausch kann hinzugefügt werden, um als Integrationsschicht zwischen der Firma in der Zentrale und den Standorten zu dienen. | [Data Exchange Framework](across-about-the-data-exchange-framework.md) |
-| Tauschen Sie Daten zwischen verschiedenen Systemen aus. | Verwenden Sie XMLports, um XML-Dokumente zu erstellen, die dann zwischen einer Firma in der Zentrale, die ein System verwendet, und Standorten, die Business Central verwenden, ausgetauscht werden können. | [XMLport Überblick](https://docs.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-xmlport-overview) |
+| Tauschen Sie Daten zwischen verschiedenen Systemen aus. | Verwenden Sie XMLports, um XML-Dokumente zu erstellen, die dann zwischen einer Firma in der Zentrale, die ein System verwendet, und Standorten, die Business Central verwenden, ausgetauscht werden können. | [XMLport-Übersicht](/dynamics365/business-central/dev-itpro/developer/devenv-xmlport-overview) |
 | Orchestrieren Sie komplexen Datenaustausch. | Verwenden Sie eine Kombination aus XMLports mit Business Central und Microsoft BizTalk Server, um die speziellen Anforderungen an Ihren Standorten zu erfüllen.</br>Verwenden Sie für komplexe Anforderungen eine Lösung für den elektronischen Datenaustausch auf Basis von BizTalk Server und Commerce Gateway in Business Central in Kombination mit den XMLports. | [Arbeiten mit Berichten, Batchaufträgen und XMLports](ui-work-report.md) |
-| Verbinden Sie sich mit Lösungen und Diensten von Dritt<sup></sup>parteien. | APIs stellen eine Punkt-zu-Punkt-Verbindung zwischen Business Central und Lösungen und Diensten von Dritt<sup></sup>parteien her. | [API v2.0](https://docs.microsoft.com/dynamics-nav/api-reference/v2.0/) |
+| Verbinden Sie sich mit Lösungen und Diensten von Drittanbietern. | APIs stellen eine Punkt-zu-Punkt-Verbindung zwischen Business Central und Lösungen und Diensten von Dritt<sup></sup>parteien her. | [API v2.0](/dynamics-nav/api-reference/v2.0/) |
 
 
 ## <a name="promote-an-efficient-intercompany-supply-chain"></a>Fördern Sie eine effiziente Intercompany-Lieferkette
@@ -101,7 +100,7 @@ Standorte benötigen oft Zugriff auf die Lieferkette und die Möglichkeit, besti
 
 Die Firma in der Zentrale muss in der Lage sein, schnell auf geschäftliche Veränderungen an jedem Standort zu reagieren. In Kombination mit Power Automate kann [!INCLUDE[prod_short](includes/prod_short.md)] als Frühwarnmechanismus dienen.
 
-![Ein Screenshot eines Social Media Posts Beschreibung automatisch generiert](media/multisite-apps.png)
+![Ein Screenshot eines POSTs in sozialen Medien Beschreibung automatisch generiert.](media/multisite-apps.png)
 
 | **Business-Anforderung** | **Wie Business Central sie unterstützt** | **Mehr erfahren** |
 |-------------------------|-------------------------|-------------------------|

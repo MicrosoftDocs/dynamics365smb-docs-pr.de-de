@@ -1,21 +1,21 @@
 ---
-title: Überblick der Aufgaben zum Verwalten von Zahlungen an Kreditoren | Microsoft Docs
+title: Übersicht über Aufgaben zum Verwalten von Zahlungen an Kreditoren
 description: Gliederungen ihm eine Arbeit, um Zahlungen an Kreditoren oder zu den Gläubigern, einschließlich Buchungszahlungszeilen und das Anzeigen einer Übersicht über den fälligen Saldo zu verwalten.
 author: edupont04
-ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: print check, vendor payment, creditor, debt, balance due, AP
-ms.date: 10/01/2020
+ms.search.form: 254, 256, 1190, 1191, 1227, 1228, 1229
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 91a36f45fa59959b6d7c074e1e62f5004d81db72
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 6cda8910fdd2f0bdaa3e79a193cae5274d6f9ba8
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5376787"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8137757"
 ---
 # <a name="making-payments"></a>Zahlungen vornehmen
 

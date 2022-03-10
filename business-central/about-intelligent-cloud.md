@@ -1,34 +1,32 @@
 ---
-title: Intelligente Einblicke und Cloudmigration| Microsoft-Dokumente
-description: Verschaffen Sie sich mit Business Central intelligente Einblicke über Ihre lokale Lösung. Erfahren Sie, wie Sie in die Cloud migrieren.
+title: Intelligente Einblicke und Cloudmigration
+description: In Business Central Online haben Sie Zugriff auf andere Onlinedienste und erhalten intelligente Einblicke, die beispielsweise auf Azure AI basieren. Lesen Sie weiter, wenn Sie eine Migration von lokal in die Cloud in Betracht ziehen.
 author: bmeier94
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms. search.keywords: cloud, edge
-ms.date: 04/01/2020
-ms.author: bmeier
-ms.openlocfilehash: e3fccf0fbbc0031c0b2bf4dc73059bece1c465f4
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms. search.keywords: cloud, migrate, insights
+ms.search.form: 9018, 9020, 9022, 9027
+ms.date: 04/12/2021
+ms.author: edupont
+ms.openlocfilehash: 35457b6723ed514fb09d379c55062995d423c24d
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188924"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8335136"
 ---
-# <a name="intelligent-insights-with-prodshort-online"></a>Intelligente Einblicke mit [!INCLUDE[prodshort](includes/prodshort.md)] Online
+# <a name="intelligent-insights-in-prod_short-online"></a>Intelligente Einblicke in [!INCLUDE[prod_short](includes/prod_short.md)] Online
 
-Als Benutzer von [!INCLUDE[prodshort](includes/prodshort.md)] Online haben Sie umfassenden Zugriff auf Szenarien, die auf der Intelligenten Cloud basieren, wie KPIs, die auf maschinellem Lernen basieren oder wenn Sie Daten in Power BI anzeigen. Da [!INCLUDE[prodshort](includes/prodshort.md)] ein Cloud First-Service ist, können auch jene Debitoren, die ihre Arbeitsauslastungen vollständig lokal oder in der Cloud (mit Intelligent-Edge-Technologie) ausführen, dies tun.  
+Als Benutzer von [!INCLUDE[prod_short](includes/prod_short.md)] Online haben Sie umfassenden Zugriff auf Szenarien, die auf der Intelligenten Cloud basieren, wie KPIs, die auf maschinellem Lernen basieren oder wenn Sie Daten in Power BI anzeigen.  
 
-Wenn Sie an [!INCLUDE[prodshort](includes/prodshort.md)] Interesse haben, können Sie sich für eine kostenlose Online-Testversion anmelden. Alternativ können Sie sich auch dazu entschließen, mit einem Partner zusammenzuarbeiten, um [!INCLUDE[prodshort](includes/prodshort.md)] lokal auf einer Hardware Ihrer Wahl bereitzustellen. Sie können dann entscheiden, Intelligente Einblicke zu erhalten, indem Sie mit einem Tenant in der Cloud verbinden. Dies hat zum Ergebnis, dass die Daten aus der lokalen [!INCLUDE[prodshort](includes/prodshort.md)]-Bereitstellung für intelligente Cloudszenarien repliziert werden.  
+Wenn Sie jedoch [!INCLUDE [prod_short](includes/prod_short.md)] vor Ort verwenden, haben Sie nicht Zugriff auf dieselben Erkenntnisse. Wenn Sie von Online-Szenarien profitieren möchten, müssen Sie zu [!INCLUDE [prod_short](includes/prod_short.md)] online migrieren. Weitere Informationen finden Sie unter [Migrieren lokaler Daten zu Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) im Verwaltungsinhalt für [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-Eine Verbindung mit der intelligenten Cloud über eine lokale Lösung erfordert, dass der Administrator einige Informationen über Ihre Datenbank angibt. Die Tools, mit denen Sie Ihre lokale Bereitstellung mit [!INCLUDE [prodshort](includes/prodshort.md)] Online verbinden, sind identisch mit denen, die Sie auch für die Migration von lokal zu online verwenden. Weitere Informationen finden Sie unter [Migrieren lokaler Daten zu Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) im Verwaltungsinhalt für [!INCLUDE[prodshort](includes/prodshort.md)].  
+## <a name="viewing-insights-in-prod_short-online"></a>Einblicke in [!INCLUDE[prod_short](includes/prod_short.md)] Online
 
-## <a name="viewing-intelligent-cloud-insights-in-prodshort-online"></a>Anzeigen von Einblicken aus der intelligenten Cloud in [!INCLUDE[prodshort](includes/prodshort.md)] Online
-
-In Ihrem [!INCLUDE[prodshort](includes/prodshort.md)]-Onlinemandanten zeigt die Seite **Intelligente Cloud Insights** vier wesentliche Eckpunkte an, die für die meisten Unternehmen von Interesse sind:
+In [!INCLUDE[prod_short](includes/prod_short.md)] Online zeigt die Seite **Intelligente Cloud Insights** vier wesentliche Eckpunkte an, die für die meisten Unternehmen von Interesse sind:
 
 - Bargeld-Verfügbarkeit
 - Verkaufsrentabilität
@@ -38,17 +36,14 @@ In Ihrem [!INCLUDE[prodshort](includes/prodshort.md)]-Onlinemandanten zeigt die 
 Neben KPI-Diagrammen erhalten Sie zudem Einblicke in mögliche Problembereiche, wie z. B. überfällige Zahlungen. Wählen Sie die einzelnen Einblicke aus, um die Daten genauer zu untersuchen.  
 
 > [!div class="mx-imgBorder"]
-> ![Einblicke aus der intelligenten Cloud](media/across-intelligent-cloud/intelligentcloudApril19.png "Zeigt die Seite „Einblicke aus der intelligenten Cloud“ in Business Central an.")
+> ![Intelligente Cloud Insights.](media/across-intelligent-cloud/intelligentcloudApril19.png "Zeigt die Seite „Einblicke aus der intelligenten Cloud“ in Business Central Online an")
 
-Die Seite stellt auch eine Verbindung mit Power BI her, sodass Sie noch mehr Einblicke erhalten.
-
-## <a name="viewing-intelligent-insights-on-premises"></a>Lokale Anzeige der Einblicke aus der intelligenten Cloud
-
-Wenn Ihr Dynamics 365-Wiederverkaufspartner die richtige Lizenz für Ihre lokale Lösung erworben hat, um über [!INCLUDE[prodshort](includes/prodshort.md)] eine Verbindung mit der Cloud herzustellen, kann Ihr Administrator diese Verbindung einrichten. Im Anschluss daran können Sie die gleichen Einblicke aus der Cloud in der lokalen Anwendung anzeigen. Abhängig von der lokalen Lösung kann **Einblicke aus der intelligenten Cloud** in die Homepage oder in eine einzelne Seite in [!INCLUDE[prodshort](includes/prodshort.md)] online und lokal eingebettet werden.  
+Die Seite stellt auch eine Verbindung mit Power BI her, sodass Sie noch mehr Einblicke erhalten. Stellen Sie optional eine Verbindung zu Azure AI her, um noch intelligentere Einblicke zu erhalten. Weitere Informationen finden Sie unter [Die Verkaufs‑ und Bestandprognosen-Erweiterung](ui-extensions-sales-forecast.md).  
 
 ## <a name="see-also"></a>Siehe auch
 
-[Willkommen bei Business Central](index.md)  
-[Intelligente Cloud-Erweiterung von Business Central](ui-extensions-intelligent-cloud.md)  
-[Datenreplikationserweiterung](ui-extensions-data-replication.md)  
+[Willkommen zu Business Central](index.md)  
+[Cloud-Migrationserweiterungen](ui-extensions-data-replication.md)  
 [Migrieren lokaler Daten zu Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

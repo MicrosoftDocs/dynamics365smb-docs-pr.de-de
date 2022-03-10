@@ -1,29 +1,26 @@
 ---
 title: So leihen Sie Serviceartikel als Ersatzartikel | Microsoft Docs
 description: Sie können einem Debitor vorübergehend Leihartikel für einen Serviceartikel zur Verfügung stellen, der sich bei Ihnen im Service befindet.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 9b48cbf20e5324c4d347caf1a60cb9bc296aaaff
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: ddf4dd090246bd1b102a3f812db7955f48ad0afb
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1250641"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132576"
 ---
 # <a name="lend-and-receive-loaners"></a>Leihen und Zurücknehmen von Leihgeräten
 Sie können einem Debitor vorübergehend ein Leihgerät für einen Serviceartikel zur Verfügung stellen, der sich bei Ihnen im Service befindet.  
   
 ## <a name="to-lend-a-loaner-item"></a>So verleihen Sie Leihartikel    
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Serviceaufträge** ein, und wählen dann den zugehörigen Link aus.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Serviceaufträge** ein und wählen Sie dann den zugehörigen Link.  
 2. Öffnen Sie die relevante Serviceauftragskarte.  
 3. Wählen Sie die Serviceartikelzeile mit dem Artikel aus, den Sie durch ein Leihgerät ersetzen möchten.  
 4. Im Feld **Kreditorennr** wählen Sie den relevanten Leihgerätartikel aus.  
@@ -32,7 +29,7 @@ Sie können einem Debitor vorübergehend ein Leihgerät für einen Serviceartike
 ## <a name="to-receive-a-loaner"></a>So nehmen Sie ein Leihgerät zurück  
 Wenn Sie ein Leihgerät von einem Debitor zurückerhalten, müssen Sie den Empfang bestätigen. Sie können dies auf den Seiten **Serviceauftrag**, **Gebuchte Servicelieferung** und **Leihgerätekarte** durchführen. Im folgenden Verfahren wird beschrieben, wie Leihgeräte auf der Seite **Serviceauftrag** zurückgenommen werden.  
   
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Serviceaufträge** ein, und wählen dann den zugehörigen Link aus.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Serviceaufträge** ein und wählen Sie dann den zugehörigen Link.  
 2. Öffnen Sie den relevanten Serviceauftrag.  
 3. Wählen Sie die Serviceartikelzeile mit dem Leihgerät, das Sie zurücknehmen möchten.  
 4. Wählen Sie **Aktionen**, wählen Sie **Funktionen**, und wählen Sie dann **Leihgerät zurücknehmen** aus.  
@@ -40,7 +37,7 @@ Wenn Sie ein Leihgerät von einem Debitor zurückerhalten, müssen Sie den Empfa
 ## <a name="to-register-loaner-comments"></a>So erfassen Sie Bemerkungen zu Leihgeräten  
 Sie können die Seite **Allgemein Servicebemerkungen** verwenden, um Bemerkungen zu Leihgeräten zu erfassen.  
   
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Kommissionierungen** ein, und wählen dann den zugehörigen Link aus.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Leihgeräte** ein und wählen Sie dann den zugehörigen Link.  
 2. Öffnen Sie die relevante Leihgerätekarte.  
 3. Wählen Sie die Aktion **Kommentare** aus. Die Seite **Allgemeine Servicebemerkungen** wird geöffnet.  
 4. Geben Sie in das Feld **Datum** ein Datum ein.  
@@ -48,3 +45,6 @@ Sie können die Seite **Allgemein Servicebemerkungen** verwenden, um Bemerkungen
   
 ## <a name="see-also"></a>Siehe auch  
 [Einrichten eines Leihgeräteprogramms](service-how-setup-loaner-program.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

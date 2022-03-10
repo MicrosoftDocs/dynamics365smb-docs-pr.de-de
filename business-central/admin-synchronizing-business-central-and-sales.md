@@ -1,24 +1,25 @@
 ---
 title: Synchronisierung und Datenintegration | Microsoft Docs
-description: Die Synchronisierung kopiert Daten zwischen Dynamics 365 Sales Einträgen und Business Central-Datensätze, um die Daten in beiden Systemen auf dem neuesten Stand zu halten.
+description: Die Synchronisierung kopiert Daten zwischen Microsoft Dataverse Tabellen und Business Central-Datensätze, um die Daten in beiden Systeme auf dem neuesten Stand zu halten.
 author: bholtorf
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 10/01/2019
+ms.search.keywords: Dataverse, integration, sync, synchronize, mapping
+ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: bbc7da12176d2a5c8ab9a2ccc153ea4053d59656
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: ceef56f1b951b5c9f1621d463276ec1d22c44da4
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304235"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8148824"
 ---
-# <a name="synchronizing-data-in-business-central-and-dynamics-365-sales"></a>Synchronisieren von Daten in Business Central und Dynamics 365 Sales
-Wenn Sie [!INCLUDE[crm_md](includes/crm_md.md)] in [!INCLUDE[d365fin](includes/d365fin_md.md)] integrieren, können Sie entscheiden, ob die Daten der ausgewählten Felder von [!INCLUDE[d365fin](includes/d365fin_md.md)]-Datensätzen (wie Debitoren, Kontakten und Vertriebsmitarbeitern) mit entsprechenden Datensätzen in [!INCLUDE[d365fin](includes/d365fin_md.md)] synchronisieren (beispielsweise Konten, Kontakte und Benutzer). Je nach Art des Datensatzes können Sie Daten von [!INCLUDE[crm_md](includes/crm_md.md)] nach [!INCLUDE[d365fin](includes/d365fin_md.md)] synchronisieren oder umgekehrt. Weitere Informationen finden Sie unter [Integrieren in Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).  
+# <a name="synchronizing-data-in-business-central-with-microsoft-dataverse"></a>Synchronisieren von Daten in Business Central mit Microsoft Dataverse
+
+
+Wenn Sie [!INCLUDE[prod_short](includes/cds_long_md.md)] in [!INCLUDE[prod_short](includes/prod_short.md)] integrieren, können Sie entscheiden, ob die Daten der ausgewählten Felder von [!INCLUDE[prod_short](includes/prod_short.md)] (wie Debitoren, Kontakte und Vertriebsmitarbeiter) mit entsprechenden Zeilen in [!INCLUDE[prod_short](includes/cds_long_md.md)] synchronisieren (beispielsweise Konten, Kontakte und Benutzer). Je nach Art des Datensatzes können Sie Zeilen von [!INCLUDE[prod_short](includes/cds_long_md.md)] nach [!INCLUDE[prod_short](includes/prod_short.md)] synchronisieren oder umgekehrt. Weitere Informationen finden Sie unter [Integrieren in Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).  
 
 Bei der Synchronisierung werden die folgenden Elemente einbezogen:
 
@@ -27,74 +28,46 @@ Bei der Synchronisierung werden die folgenden Elemente einbezogen:
 * Synchronisierungsregeln
 * Gekoppelte Datensätze
 
-Wenn die Synchronisierung eingerichtet ist, können Sie die [!INCLUDE[d365fin](includes/d365fin_md.md)]-Datensätze mit [!INCLUDE[crm_md](includes/crm_md.md)]-Datensätzen koppeln, um ihre Daten zu synchronisieren. Sie können eine Synchronisierung manuell oder nach Plan starten. Die folgende Tabelle zeigt eine Übersicht über die Methoden der Synchronisierung von Datensätzen.  
+Wenn die Synchronisierung eingerichtet ist, können Sie die [!INCLUDE[prod_short](includes/prod_short.md)] Datensätze mit [!INCLUDE[prod_short](includes/cds_long_md.md)] Zeilen koppeln, um ihre Daten zu synchronisieren. Sie können eine Synchronisierung manuell oder nach Plan starten. Die folgende Tabelle zeigt eine Übersicht über die Methoden der Synchronisierung von Datensätzen.  
 
 |  Typ  |  Art  |  Siehe  |  
 |--------|----------|-------|  
-|Manuelle Synchronisierung|Synchronisieren Sie auf Basis von Datensätzen.<br /><br /> Sie können, beispielsweise als Debitor, einzelne Datensätze in [!INCLUDE[d365fin](includes/d365fin_md.md)] mit einem entsprechenden [!INCLUDE[crm_md](includes/crm_md.md)]-Datensatz synchronisieren, beispielsweise einem Konto. So arbeiten Benutzer normalerweise mit [!INCLUDE[crm_md](includes/crm_md.md)]-Daten in [!INCLUDE[d365fin](includes/d365fin_md.md)].|[Datensätze manuell koppeln und synchronisieren](admin-manual-synchronization-of-table-mappings.md#synchronize-individual-table-mappings)|  
-|  |Synchronisieren Sie auf Basis einer Tabellenzuordnung.<br /><br /> Sie können alle Datensätze in einer [!INCLUDE[d365fin](includes/d365fin_md.md)]-Tabelle mit einer [!INCLUDE[crm_md](includes/crm_md.md)]-Einheit synchronisieren.|[Synchronisieren einzelner Tabellenzuordnungen](admin-manual-synchronization-of-table-mappings.md#synchronize-individual-table-mappings)|  
-||Synchronisieren Sie alle geänderten Datensätze für alle Tabellenzuordnungen.<br /><br /> Sie können alle Datensätze synchronisieren, die in den [!INCLUDE[d365fin](includes/d365fin_md.md)]-Tabellen seit der letzten Synchronisierung geändert wurden.|[Synchronisierung aller geänderten Datensätze](admin-manual-synchronization-of-table-mappings.md#synchronizing-all-modified-records)|
-||Vollständige Synchronisierung aller Daten für alle Tabellenzuordnungen.<br /><br /> Sie können alle Daten in den [!INCLUDE[d365fin](includes/d365fin_md.md)]-Tabellen und die [!INCLUDE[crm_md](includes/crm_md.md)]-Einheiten, die zugeordnet werden, synchronisieren, und neue Datensätze in der Ziellösung für ungekoppelte Datensätze in der Quelllösung erstellen.<br /><br /> Bei der vollständigen Synchronisierung werden alle Daten synchronisiert und die Kopplung ignoriert. Normalerweise führen Sie eine vollständige Synchronisierung durch, wenn Sie die Integration einrichten und nur eine der Lösungen enthält Daten. Eine vollständige Synchronisierung kann auch in einer Demonstrationsumgebung hilfreich sein.|[Ausführen einer vollständigen Synchronisierung](admin-manual-synchronization-of-table-mappings.md#run-a-full-synchronization)|  
-|Geplante Synchronisierung|Synchronisieren Sie alle Änderungen an Daten für alle Tabellenzuordnungen.<br /><br /> Sie können [!INCLUDE[d365fin](includes/d365fin_md.md)] mit [!INCLUDE[crm_md](includes/crm_md.md)] in geplanten Intervallen synchronisieren, indem Sie Projekte in der Projektwarteschlange einrichten.|[Planen einer Synchronisierung](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)|  
+|Manuelle Synchronisierung|Synchronisieren Sie auf Basis von Zeilen.<br /><br /> Sie können, beispielsweise als Debitor, einzelne Datensätze in [!INCLUDE[prod_short](includes/prod_short.md)] mit einer entsprechenden [!INCLUDE[prod_short](includes/cds_long_md.md)] Zeile synchronisieren, beispielsweise einem Konto. So arbeiten Benutzer normalerweise mit [!INCLUDE[prod_short](includes/cds_long_md.md)]-Daten in [!INCLUDE[prod_short](includes/prod_short.md)].|[Datensätze manuell koppeln und synchronisieren](admin-manual-synchronization-of-table-mappings.md#synchronize-individual-table-mappings)|  
+|  |Synchronisieren Sie auf Basis einer Tabellenzuordnung.<br /><br /> Sie können alle Datensätze in einer [!INCLUDE[prod_short](includes/prod_short.md)]-Tabelle mit einer [!INCLUDE[prod_short](includes/cds_long_md.md)] Tabelle synchronisieren.|[Synchronisieren einzelner Tabellenzuordnungen](admin-manual-synchronization-of-table-mappings.md#synchronize-individual-table-mappings)|  
+||Synchronisieren Sie alle geänderten Datensätze für alle Tabellenzuordnungen.<br /><br /> Sie können alle Datensätze synchronisieren, die in den [!INCLUDE[prod_short](includes/prod_short.md)]-Tabellen seit der letzten Synchronisierung geändert wurden.|[Synchronisierung aller geänderten Datensätze](admin-manual-synchronization-of-table-mappings.md#synchronizing-all-modified-records)|
+||Vollständige Synchronisierung aller Daten für alle Tabellenzuordnungen.<br /><br /> Sie können alle Daten in den [!INCLUDE[prod_short](includes/prod_short.md)]-Tabellen und die [!INCLUDE[prod_short](includes/cds_long_md.md)]-Tabellen, die zugeordnet werden, synchronisieren, und neue Datensätze oder Tabellen in der Ziellösung für ungekoppelte Datensätze in der Quelllösung erstellen.<br /><br /> Bei der vollständigen Synchronisierung werden alle Daten synchronisiert und die Kopplung ignoriert. Normalerweise führen Sie eine vollständige Synchronisierung durch, wenn Sie die Integration einrichten und nur eine der Lösungen enthält Daten. Eine vollständige Synchronisierung kann auch in einer Demonstrationsumgebung hilfreich sein.|[Ausführen einer vollständigen Synchronisierung](admin-manual-synchronization-of-table-mappings.md#run-a-full-synchronization)|  
+|Geplante Synchronisierung|Synchronisieren Sie alle Änderungen an Daten für alle Tabellenzuordnungen.<br /><br /> Sie können [!INCLUDE[prod_short](includes/prod_short.md)] mit [!INCLUDE[prod_short](includes/cds_long_md.md)] in geplanten Intervallen synchronisieren, indem Sie Projekte in der Projektwarteschlange einrichten.|[Planen einer Synchronisierung](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)|  
 
-## <a name="standard-sales-entity-mapping-for-synchronization"></a>Standard-Sales-Entitätszuordnungen für die Synchronisierung
-Entitäten in [!INCLUDE[crm_md](includes/crm_md.md)] wie beispielsweise Konten, werden mit äquivalenten Arten von Entitäten in [!INCLUDE[d365fin](includes/d365fin_md.md)] wie beispielsweise Debitoren integriert. Um mit [!INCLUDE[crm_md](includes/crm_md.md)]-Daten zu arbeiten, richten Sie Verknüpfungen, auch Kopplungen genannt, zwischen Einheiten in [!INCLUDE[crm_md](includes/crm_md.md)] und [!INCLUDE[d365fin](includes/d365fin_md.md)] ein.
+> [!NOTE]
+> Die Synchronisierung zwischen [!INCLUDE[prod_short](includes/cds_long_md.md)] und [!INCLUDE[prod_short](includes/prod_short.md)] basiert auf der geplanten Ausführung von Jobwarteschlangeneinträgen und garantiert keine Echtzeitdatenkonsistenz zwischen zwei Diensten. Um weitere Informationen zur Datenkonsistenz in Echtzeit zu erhalten, sollten Sie [Virtuelle Business Central-Tabellen](/dynamics365/business-central/dev-itpro/powerplatform/powerplat-overview) oder Business Central-APIs erkunden.   
 
-Die folgende Tabelle zeigt die standardmäßige Zuordnung zwischen Einheiten in [!INCLUDE[d365fin](includes/d365fin_md.md)] und [!INCLUDE[d365fin](includes/d365fin_md.md)], die [!INCLUDE[crm_md](includes/crm_md.md)] bietet.
 
-|[!INCLUDE[d365fin](includes/d365fin_md.md)]|[!INCLUDE[crm_md](includes/crm_md.md)]|Synchronisierungsrichtung|Standardfilter|
-|-------------------------------------------|-----|-------------------------|--------------|
-|Verkäufer/Einkäufer|Benutzer|[!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|Vertriebskontaktfilter: **Status** ist **Nein**, **Benutzer lizenziert** **Ja** ist, Integrationsbenutzer Modus ist **Nein**|
-|Debitor|Konto|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] und [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|Sales-Kontenfilter: **Verhältnisart** ist **Debitor** und **Status** ist **Aktiv**.|
-|Kontakt|Kontakt|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] und [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|[!INCLUDE[d365fin](includes/d365fin_md.md)] Kontaktfilter: **Type** ist **Person** und der Kontakt wird einem Unternehmen zugewiesen. Sales Kontaktfilter: Kontakt wird einem Unternehmen zugeordnet und die übergeordnete Debitorenart ist **Konto**.|
-|Währung|Transaktionswährung|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]| |
-|Maßeinheit|Einheiten-Gruppe|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]| |
-|Artikel|Produkt|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] und [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|Vertriebskontaktfilter: **Produkt-Typ** ist **Verkaufs-Lager**|
-|Ressource|Produkt|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] und [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|Vertriebskontaktfilter: **Produkt-Typ** ist **Service**|
-|Debitorenpreisgruppe|VK-Preisliste|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]| |
-|Verkaufspreis|Produkt-Preisliste|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]|[!INCLUDE[d365fin](includes/d365fin_md.md)] Kontaktfilter: **Verkaufscode** ist nicht leer, **Verkaufsart** ist **Debitorenpreisgruppe**|
-|Verkaufschance|Verkaufschance|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] und [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]| |
-|Verkaufsrechnungskopf|Fakturieren|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]| |
-|Verkaufsrechnungszeile|Rechnungsprodukt|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]| |
-|Verkaufsauftrags-Kopf|Verkaufsauftrag|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]|[!INCLUDE[d365fin](includes/d365fin_md.md)] Verkaufskopffilter: **Dokumentart** ist Auftrag. **Status** ist freigegeben|
-|Hinweise zu Verkaufsaufträgen|Hinweise zu Verkaufsaufträgen|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] und [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]| |
+## <a name="standard-table-mapping-for-synchronization"></a>Standard-Tabellenzuordnung für die Synchronisierung
+Tabellen in [!INCLUDE[prod_short](includes/cds_long_md.md)] wie beispielsweise Konten, werden mit äquivalenten Arten von Tabellen in [!INCLUDE[prod_short](includes/prod_short.md)] wie beispielsweise Debitoren integriert. Um mit [!INCLUDE[prod_short](includes/cds_long_md.md)]-Daten zu arbeiten, richten Sie Verknüpfungen, auch Kopplungen genannt, zwischen Tabellen in [!INCLUDE[prod_short](includes/cds_long_md.md)] und [!INCLUDE[prod_short](includes/prod_short.md)] ein.
 
-### <a name="tip-for-admins-viewing-entity-mappings"></a>Tipp für Administratoren: Aufrufen von Einheitenzuordnungen
-Sie können die Zuordnung zwischen den Einheiten in [!INCLUDE[crm_md](includes/crm_md.md)] und den Tabellen in [!INCLUDE[d365fin](includes/d365fin_md.md)] auf der Seite **Integrationstabellenzuordnungen** aufrufen, auf der Sie auch Filter anwenden können. Sie legen die Zuordnung zwischen den Feldern in [!INCLUDE[d365fin](includes/d365fin_md.md)]-Tabellen und den Feldern in [!INCLUDE[crm_md](includes/crm_md.md)]-Einheiten auf der Seite **Integrationsfeldzuordnung** fest, auf der Sie zusätzliche Zuordnungslogiken hinzufügen können. Dies kann beispielsweise hilfreich sein, wenn Sie Fehler bei der Synchronisierung beheben müssen.
+Die folgende Tabelle zeigt die standardmäßige Zuordnung zwischen Tabellen in [!INCLUDE[prod_short](includes/prod_short.md)] und [!INCLUDE[prod_short](includes/cds_long_md.md)].
 
-### <a name="tip-for-developers-mapping-fields-in-business-central-to-the-option-sets-in-sales"></a>Tipp für Entwickler: Zuordnen von Feldern in Business Central zu den Optionssätzen im Verkauf
-Wenn Sie Entwickler sind und Optionen zu den Optionssätzen in [!INCLUDE[crm_md](includes/crm_md.md)] hinzufügen möchten, müssen Sie dies wissen. Es gibt drei Tabellen in [!INCLUDE[d365fin](includes/d365fin_md.md)], die den Optionsfeldern der Einheit **Konto** in [!INCLUDE[crm_md](includes/crm_md.md)] zugeordnet sind. Datensätze in den Tabellen, die nicht mit den Optionen in [!INCLUDE[crm_md](includes/crm_md.md)] verknüpft sind, werden nicht synchronisiert. Das bedeutet, dass das Feld **Option** in [!INCLUDE[crm_md](includes/crm_md.md)] leer ist.
+> [!TIP]
+> Sie können Konfigurationsänderungen an Integrationstabellen- und Feldzuordnungen auf ihre Standardeinstellungen zurücksetzen, indem Sie die Zuordnungen auswählen und dann **Standardsynchronisationseinrichtung verwenden** wählen.
 
-Die folgende Tabelle zeigt Zuordnungen der [!INCLUDE[d365fin](includes/d365fin_md.md)]-Tabellen für das Feld **Option** in der Einheit **Konto** in [!INCLUDE[crm_md](includes/crm_md.md)].
+| [!INCLUDE[prod_short](includes/prod_short.md)] | [!INCLUDE[prod_short](includes/cds_long_md.md)] | Synchronisierungsrichtung | Standardfilter |
+|---------------------------------------------|----------------------------------------------|---------------------------|----------------|
+| Verkäufer/Einkäufer | Benutzer | [!INCLUDE[prod_short](includes/cds_long_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] | [!INCLUDE[prod_short](includes/cds_long_md.md)] Kontaktfilter: **Status** ist **Nein**, **Benutzer lizenziert** ist **Ja**, Integrationsbenutzermodus ist **Nein** |
+| Debitor | Konto | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[prod_short](includes/cds_long_md.md)] und [!INCLUDE[prod_short](includes/cds_long_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] | [!INCLUDE[prod_short](includes/cds_long_md.md)] Kontofilter: **Beziehungstyp** ist **Debitor** und **Status** ist **Aktiv**. [!INCLUDE[prod_short](includes/prod_short.md)] Filter: **Blockiert** ist leer (Debitor ist nicht blockiert). |
+| Kreditor | Konto | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[prod_short](includes/cds_long_md.md)] und [!INCLUDE[prod_short](includes/cds_long_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] | [!INCLUDE[prod_short](includes/cds_long_md.md)] Kontofilter: **Beziehungstyp** ist **Kreditor** und **Status** ist **Aktiv**. [!INCLUDE[prod_short](includes/prod_short.md)] Filter: **Blockiert** ist leer (Kreditor ist nicht blockiert). |
+| Kontakt | Kontakt | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[prod_short](includes/cds_long_md.md)] und [!INCLUDE[prod_short](includes/cds_long_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] | [!INCLUDE[prod_short](includes/prod_short.md)] Kontaktfilter: **Type** ist **Person** und der Kontakt wird einem Unternehmen zugewiesen. [!INCLUDE[prod_short](includes/cds_long_md.md)] Kontaktfilter: Der Kontakt wird einem Unternehmen zugeordnet und der übergeordnete Debitorentyp ist **Debitor**. |
+| Währung | Transaktionswährung | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[prod_short](includes/cds_long_md.md)] |  |
 
-|Tisch|Optionsfeld in der Kontoeinheit|
-|----------------------|-------------------------------------------|
-|Zahlungsbedingungen|Zahlungsbedingungen|
-|Lieferbedingung|Adresse 1: Frachtbedingungen|
-|Zusteller|Adresse 1: Versandmethode|
+> [!NOTE]
+> Die **Dataverse**-Aktionen stehen auf Seiten nicht zur Verfügung, z. B. auf der Seite „Kundenkarte“ für Datensätze, die den Tabellenfilter auf der Zuordnung der Integrationstabelle nicht beachten.
 
-### <a name="synchronization-rules"></a>Synchronisierungsregeln
-Die folgende Tabelle beschreibt Regeln, die die Synchronisierung zwischen den Anwendungen steuern.
-
-> [!NOTE]  
-> Ändert an Daten in [!INCLUDE[crm_md](includes/crm_md.md)], die durch das [!INCLUDE[crm_md](includes/crm_md.md)]-Verbindungsbenutzerkonto vorgenommen wurden, werden nicht synchronisiert. Daher empfiehlt es sich, bei der Nutzung dieses Kontos keine Daten zu ändern. Weitere Informationen finden Sie unter [Einrichten des Benutzerkontos für die Integration in Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md).
-
-|Tisch|Regel|
-|-----|----|
-|Debitoren|Bevor ein Debitor mit einem Konto synchronisiert werden kann, muss der Verkäufer, der dem Debitor zugewiesen ist, mit einem Benutzer in [!INCLUDE[crm_md](includes/crm_md.md)] gekoppelt werden. Wenn Sie den DEBITOREN – Dynamics 365 Sales Synchronisierungsauftrag ausführen und wenn Sie es so einrichten, dass neue Datensätze erstellt werden, achten Sie darauf, dass Sie Verkäufer mit [!INCLUDE[crm_md](includes/crm_md.md)] Benutzern synchronisieren, bevor Sie Debitoren mit [!INCLUDE[crm_md](includes/crm_md.md)] Konten synchronisieren. <br /> <br />Der DEBITOREN - Dynamics 365 Sales Synchronisierungsauftrag synchronisiert nur Sales-Konten, die die Verhältnisart Debitor haben.|
-|Kontakte|Nur Kontakte in [!INCLUDE[crm_md](includes/crm_md.md)], die mit einem Konto verknüpft sind, werden in [!INCLUDE[d365fin](includes/d365fin_md.md)] erstellt. Der Verkäufer-Codewert definiert den Besitzer der gekoppelten Einheit in [!INCLUDE[crm_md](includes/crm_md.md)].|
-|Währungen|Währungen werden an Transaktionswährungen in [!INCLUDE[crm_md](includes/crm_md.md)] basierend auf ISO-Codes gekoppelt. Nur Währungen, die einen Standard-ISO-Code haben, werden mit Transaktionswährungen gekoppelt und synchronisiert.|
-|Einheiten|Maßeinheiten werden mit Einheitengruppen in [!INCLUDE[crm_md](includes/crm_md.md)] synchronisiert. Es kann nur eine Einheit in der Einheitengruppe definiert sein.|
-|Artikel|Wenn Artikel mit [!INCLUDE[crm_md](includes/crm_md.md)] Produkten synchronisiert werden, erstellt [!INCLUDE[d365fin](includes/d365fin_md.md)] automatisch eine Preisliste in [!INCLUDE[crm_md](includes/crm_md.md)]. Um Synchronisationsfehler zu vermeiden, sollten Sie diese Preisliste nicht manuell ändern.|
-|Verkäufer|Verkäufer werden mit den Systembenutzern in [!INCLUDE[crm_md](includes/crm_md.md)] gekoppelt. Der Benutzer muss aktiviert werden und lizenziert werden und darf nicht der integrierte Benutzer sein. Die Notiz, dass dies die erste Tabelle ist, die synchronisiert werden muss, weil sie Debitoren, Kontakten, Verkaufschancen und in den Verkaufsrechnungen verwendet wird.|
-|Ressourcen|Ressourcen werden mit [!INCLUDE[crm_md](includes/crm_md.md)]-Produkten synchronisiert, die den Produkttyp-Service haben.|
-|Debitorenpreisgruppen|Debitorenpreisgruppen werden mit Verkaufspreislisten synchronisiert.|
-|Verkaufspreise|Verkaufspreise, die Verkaufsart Debitorenpreisgruppe haben und einen definierten Verkaufscode haben werden mit [!INCLUDE[crm_md](includes/crm_md.md)]-Preislistenzeilen synchronisiert|
-|Verkaufschancen|Chancen werden mit [!INCLUDE[crm_md](includes/crm_md.md)]-Chancen synchronisiert. Der Verkäufer-Codewert definiert den Besitzer der gekoppelten Einheit in [!INCLUDE[crm_md](includes/crm_md.md)].|
-|Gebuchte Verkaufsrechnungen|Gebuchte Verkaufsrechnungen werden mit Verkaufsrechnungen synchronisiert. Bevor eine Rechnung synchronisiert werden kann, ist es besser, alle anderen Einheiten, die in der Rechnung teilnehmen können, von Verkäufer zu Preislisten zu synchronisieren. Der Verkäufer-Codewert im Rechnungskopf definiert den Besitzer der gekoppelten Einheit im Verkauf.|
-|Verkaufsaufträge|Wenn die Verkaufsauftragsintegration aktiviert ist, werden Verkaufsaufträge in [!INCLUDE[d365fin](includes/d365fin_md.md)], die aus übermittelten Verkaufsaufträgen in [!INCLUDE[crm_md](includes/crm_md.md)] erstellt werden, mit Verkaufsaufträgen in INCLUDE SALES synchronisiert, wenn sie freigegeben werden. Vor dem Synchronisieren von Aufträgen wird empfohlen, zunächst alle an dem Auftrag beteiligten Entitäten zu synchronisieren, z. B. Verkäufer und Preislisten. Das Verkäufer-Codefeld im Auftragskopf definiert den Besitzer der gekoppelten Einheiten in [!INCLUDE[crm_md](includes/crm_md.md)].|  
+### <a name="tip-for-admins-viewing-table-mappings"></a>Tipp für Administratoren: Aufrufen von Tabellenzuordnungen
+Sie können die Zuordnung zwischen den Tabellen in [!INCLUDE[prod_short](includes/cds_long_md.md)] und den Tabellen in [!INCLUDE[prod_short](includes/prod_short.md)] auf der Seite **Integrationstabellenzuordnungen** aufrufen, auf der Sie auch Filter anwenden können. Sie legen die Zuordnung zwischen den Feldern in [!INCLUDE[prod_short](includes/prod_short.md)]-Tabellen und den Spalten in [!INCLUDE[prod_short](includes/cds_long_md.md)]-Tabellen auf der Seite **Integrationsfeldzuordnung** fest, auf der Sie zusätzliche Zuordnungslogiken hinzufügen können. Dies kann beispielsweise hilfreich sein, wenn Sie Fehler bei der Synchronisierung beheben müssen.
 
 ## <a name="see-also"></a>Siehe auch  
 [Datensätze manuell koppeln und synchronisieren](admin-how-to-couple-and-synchronize-records-manually.md)   
 [Planen einer Synchronisierung](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)   
 [Integration mit Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

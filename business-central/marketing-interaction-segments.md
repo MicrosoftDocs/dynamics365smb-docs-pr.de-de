@@ -1,26 +1,25 @@
 ---
-title: Überwachen von Segmenten und zugehörigen Aktivitäten| Microsoft Docs
+title: Behalten Sie den Überblick über Segmente und damit verbundene Interaktionen
 description: Erhalten von Informationen zum Erstellen von Segmenten, um Kontaktgruppen zu definieren und Festlegen von Aktivitäten für Segmente.
-services: project-madeira
 documentationcenter: ''
 author: jswymer
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2020
+ms.search.forms: 5139,
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: faab1c6273d3e7c09c44f42104da55296859139e
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 792b2172a96287732e9ae81c8af5fd6ba5aeccf7
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181436"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8131405"
 ---
 # <a name="manage-interactions-for-segments"></a>Aktivitäten für Segmente verwalten
-Die Seite **Segment** ist ein Arbeitsschein, in dem Sie folgende Aufgaben ausführen können:
+Die Seite **Segment** ist ein Arbeitsblatt, in dem Sie folgende Aufgaben ausführen können:
 
 * Segmente erstellen
 * Speichern Sie die Segmentierungskriterien, die Sie bei der Auswahl von Kontakten verwendet haben.
@@ -52,3 +51,6 @@ Auf der Seite **Protokollierte Segmente** können Sie ein Anschluss-Segment mit 
 [Verkaufschancen verwalten](marketing-manage-sales-opportunities.md)  
 [Erstellen und Verwalten von Kontakten](marketing-contacts.md)  
 [Arbeiten mit  Business Central](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

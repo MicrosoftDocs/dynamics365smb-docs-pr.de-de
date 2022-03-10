@@ -1,60 +1,32 @@
 ---
-title: 'Gewusst wie: Lieferbenachrichtigungen ausstellen'
-description: Nachdem Sie Lieferbenachrichtigungen erstellt haben, müssen Sie sie registrieren und ausdrucken, sodass Sie Mahnungen an Kreditoren verschicken können. Vor dem Ausstellen von Lieferbenachrichtigungen können Sie einen Testbericht drucken.
-services: project-madeira
-documentationcenter: ''
+title: Lieferanmahnungen in der deutschen Version ausstellen
+description: Erfahren Sie, wie Sie Lieferbenachrichtigungen registrieren und ausdrucken, sodass Sie Mahnungen an Kreditoren in der deutschen Version von Business Central verschicken können.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: d1619b0b0c91fc1d31b60d8f189fd83febd5ff75
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.search.form: 5005272, 5005273, 5005274, 5005275, 5005276
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 74f90a6f9563db78d9d40b995c4cbca44c7a483d
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1246248"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132255"
 ---
-# <a name="issue-delivery-reminders"></a>Lieferbenachrichtigung registrieren
-Nachdem Sie Lieferbenachrichtigungen erstellt haben, müssen Sie sie registrieren und ausdrucken, sodass Sie Mahnungen an Kreditoren verschicken können. Vor dem Ausstellen von Lieferbenachrichtigungen können Sie einen Testbericht drucken. Weitere Informationen finden Sie unter [Vorgehensweise: Drucken von Testberichten für  Lieferbenachrichtigungen](how-to-print-test-reports-for-delivery-reminders.md).  
+# <a name="issue-delivery-reminders-in-the-german-version"></a>Lieferanmahnungen in der deutschen Version ausstellen
 
-Beim Registrieren der Lieferantenbenachrichtigungen erzeugt die Anwendung Lieferantenbenachrichtigungsposten. Die erstellten Posten können Sie dann auf der Seite **Registrierten Lieferbenachrichtigungskopfes** anzeigen.  
+[!INCLUDE [delivery-reminders-issue](../includes/ATCHDE/delivery-reminders-issue.md)] 
 
-## <a name="to-issue-delivery-reminders"></a>So registrieren Sie Lieferbenachrichtigungen  
+## <a name="see-also"></a>Siehe auch
 
-1.  Wählen Sie in der rechten oberen Ecke ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Symbol nach Seite oder Bericht suchen") und geben **Lieferbenachrichtigungen** ein. Wählen Sie dann den zugehörigen Link aus.  
-2.  Auf der Seite **Lieferbenachrichtigungen** wählen Sie die Lieferbenachrichtigungen aus, die Sie registrieren möchten, und wählen die **Bearbeiten** Aktion aus.  
-3.  Wählen Sie die Aktion **Ausgeben** aus.  
-4.  Füllen Sie auf der Seite **Lieferbenachrichtigung** im Inforegister **Option** die erforderlichen Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
+[So drucken Sie Testberichte vor dem Registrieren von Lieferanmahnungen](how-to-print-test-reports-for-delivery-reminders.md)  
+[Lieferbenachrichtigungen](delivery-reminders.md)  
+[So erstellen Sie Lieferanmahnungen](how-to-generate-delivery-reminders.md)  
+[Manuelle Lieferanmahnungen erstellen](how-to-create-delivery-reminders-manually.md)  
 
-    |Feld|Description|  
-    |---------------------------------|---------------------------------------|  
-    |**Drucken**|Wählen Sie diese Option aus, um die Lieferbenachrichtigungen zu drucken, wenn sie registriert werden.|  
-    |**Buchungsdatum ersetzen**|Wählen Sie diese Option aus, um das vorhandene Buchungsdatum für die Lieferbenachrichtigungen zu ersetzen.|  
-    |**Buchungsdatum**|Gibt das Buchungsdatum der Lieferbenachrichtigung an.<br /><br /> Dieses Buchungsdatum wird für alle Lieferbenachrichtigungen verwendet, wenn Sie das Kontrollkästchen **Buchungsdatum ersetzen** aktiviert haben. Wenn das Kontrollkästchen **Buchungsdatum ersetzen** deaktiviert ist, wird dieses Datum nur für diejenigen Lieferbenachrichtigungen verwendet, für die kein Buchungsdatum verfügbar ist.|  
 
-5.  Optional wählen Sie im Inforegister **Lieferbenachrichtigungen Kopfzeile** die entsprechenden Filter aus.  
-
-    > [!NOTE]  
-    >  Sie können Filter entfernen und allen Lieferbenachrichtigungen gleichzeitig registrieren.  
-
-6.  Wählen Sie die Schaltfläche **OK** aus.  
-
-Sie können das Fenster registrierte Mahnungen anzeigen auf der Seite **Registrierte Lieferbenachrichtigungen**. Optional können Sie jetzt eine Lieferbenachrichtigung drucken.  
-
-## <a name="to-view-delivery-reminder-ledger-entries"></a>Um sich detaillierte Lieferbenachrichtigungen anzeigen zu lassen:  
-
-1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Gebuchte Aufträge** ein. Wählen Sie dann den zugehörigen Link aus.  
-2.  Wählen Sie die Bestellung, für die Sie den Mahnungsstatus anzeigen möchten, und wählen die Aktion **Bearbeiten**.  
-3.  Wählen Sie die Aktion **Lieferbenachrichtigungs-Einträge** aus.  
-
-Auf der Seite registrierter Lieferbenachrichtigungskopf können Sie die Lieferbenachrichtigungsposten der ausgewählten Bestellung anzeigen.  
-
-## <a name="see-also"></a>Siehe auch  
- [Lieferbenachrichtigungen](delivery-reminders.md)   
- [So erstellen Sie Lieferanmahnungen](how-to-generate-delivery-reminders.md)   
- [So erstellen Sie Lieferanmahnungen manuell](how-to-create-delivery-reminders-manually.md)
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

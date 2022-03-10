@@ -2,20 +2,19 @@
 title: Basic Experience-Erweiterung | Microsoft Docs
 description: Diese Erweiterung ist eine modernisierte Alternative zu Microsoft Dynamics C5.
 author: bholtorf
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: C5, financials, extension
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 58c8a66e9fbe1609dc2e65c764dd3c4f60b4bc54
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: b423ce61a5bc8a7f5c580d0b4f3348792c4b02ab
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4757342"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132472"
 ---
 # <a name="the-basic-experience-extension"></a>Die Basic Experience-Erweiterung
 Wenn Sie bisher Microsoft Dynamics C5 verwendet haben, können Microsoft-Partner Ihnen beim Übergang zu einer moderneren Lösung helfen, die auf [!INCLUDE[prod_short](includes/prod_short.md)] basiert. So können Sie weiterhin dieselben optimierten Funktionen wie in Dynamics C5 nutzen.
@@ -51,3 +50,5 @@ Bringen Sie Ihre Dynamics C5-Daten mit. Nachdem Ihr Microsoft-Partner die Basic 
 
 ## <a name="see-also"></a>Siehe auch
 [Die C5-Datenmigrations-Erweiterung](ui-extensions-c5-data-migration.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -2,20 +2,19 @@
 title: 'Designdetails: Suche nach Dimensionskombinationen | Microsoft Docs'
 description: Wenn Sie eine Seite schließen, nachdem Sie einen Satz von Dimensionen bearbeitet haben, prüft Business Central, ob die bearbeitete Zusammenstellung von Dimensionen vorhanden ist. Wenn der Satz nicht vorhanden, wird ein neuer Satz erstellt und die Dimensionskombination-ID wird zurückgegeben.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: db971af61719bfa84566c78cc91b4c805c14ab9b
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 67aa9c5a7b56b00e49573b5232045f032db178c3
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783847"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8145810"
 ---
 # <a name="design-details-searching-for-dimension-combinations"></a>Designdetails: Suche nach Dimensionskombinationen
 Wenn Sie eine Seite schließen, nachdem Sie einen Satz von Dimensionen bearbeitet haben, prüft [!INCLUDE[prod_short](includes/prod_short.md)], ob die bearbeitete Zusammenstellung von Dimensionen vorhanden ist. Wenn der Satz nicht vorhanden, wird ein neuer Satz erstellt und die Dimensionskombination-ID wird zurückgegeben.  
@@ -26,7 +25,7 @@ Wenn Sie eine Seite schließen, nachdem Sie einen Satz von Dimensionen bearbeite
 ### <a name="example-1"></a>Beispiel 1  
  Das folgende Diagramm stellt eine Suchstruktur mit sechs Dimensionssätzen dar. Nur der unterscheidene Dimensionssatzposten wird im Diagramm angezeigt.  
 
- ![Beispiel einer Dimensionsbaumstruktur](media/nav2013_dimension_tree.png "Beispiel einer Dimensionsbaumstruktur")  
+ ![Beispiel für die Struktur eines Dimensionsbaums.](media/nav2013_dimension_tree.png "Beispiel einer Dimensionsbaumstruktur")  
 
  Die folgende Tabelle enthält eine vollständige Liste der Dimensionssatzposten, die jeden Dimensionssatz ergeben.  
 
@@ -45,7 +44,7 @@ Wenn Sie eine Seite schließen, nachdem Sie einen Satz von Dimensionen bearbeite
 
  Außerdem aktualisiert [!INCLUDE[prod_short](includes/prod_short.md)] die Tabelle **Dimensionssatz-Strukturknoten**, um sicherzustellen, dass die Suchstruktur wie das folgende Diagramm aussieht. Daher wird Dimensionssatz 7 zu einem untergeordneten Element des Dimensionssatzes 5.  
 
- ![Beispiel einer Dimensionsbaumstruktur in NAV 2013](media/nav2013_dimension_tree_example2.png "Beispiel einer Dimensionsbaumstruktur in NAV 2013")  
+ ![Beispiel für die Struktur des Dimensionsbaums in NAV 2013.](media/nav2013_dimension_tree_example2.png "Beispiel einer Dimensionsbaumstruktur in NAV 2013")  
 
 ### <a name="finding-dimension-set-id"></a>Suchen der Dimensionssatz-ID  
  Auf konzeptioneller Ebene werden **Übergeordnete Kennung**, **Dimension** und **Dimensionswert**, in der Suchstruktur, als Primärschlüssel kombiniert und verwendet, da [!INCLUDE[prod_short](includes/prod_short.md)] die Struktur in derselben Reihenfolge wie die Dimensionsposten durchläuft. Die GET-Funktion (Datensatz) wird verwendet, um nach der Dimensionssatz-ID zu suchen Das folgende Codebeispiel zeigt, wie Sie die Dimensionssatz-ID finden, wenn es drei Dimensionswerte gibt.  
@@ -73,8 +72,7 @@ EXIT(DimSet.ID);
 ```  
 
 ## <a name="see-also"></a>Siehe auch
-
- [Funktion ABRUFEN (Datensatz)](/dynamics-nav/GET-Function--Record-)    
+    
  [Designdetails: Dimensionssatzposten](design-details-dimension-set-entries.md)   
  [Dimensionssatz-Eintrags-Übersicht](design-details-dimension-set-entries-overview.md)   
  [Designdetails: Tabellenstruktur](design-details-table-structure.md)   

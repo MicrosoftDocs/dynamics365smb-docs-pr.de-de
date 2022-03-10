@@ -2,17 +2,16 @@
 title: Info zu Kosten des beendeten FA
 description: Die Fertigstellung des Produktionsauftrags ist der Schlüssel zur Vervollständigung der Kalkulation eines Elements der Produktion. Die endgültigen Kosten werden im Batchauftrag „Lagerreg. fakt. Einst. Preise“ kalkuliert.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.form: 99000867
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: f8e4c6b4a0db47c56650ea91410670d81bae4cef
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: dd9010e055e5e24cafb87846b8eed98f54d83474
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7973648"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8147830"
 ---
 # <a name="about-finished-production-order-costs"></a>Info zu Kosten des beendeten FA
 

@@ -1,23 +1,22 @@
 ---
-title: 'Vorgehensweise: Verkaufen von Lagerartikel in Programmfertigungs-Flüssen | Microsoft Docs'
-description: Wenn der Montageartikels für die Auftragsmontage eingerichtet ist, dann nimmt der Standard-Verkaufsauftragsprozess an, dass der Artikel nicht auf Lager ist und für den jeweiligen Verkaufsauftrag montiert werden muss. Daher wird ein Montageauftrag automatisch erstellt, wenn Sie den Artikel einer Verkaufsauftragszeile hinzufügen.
+title: Verkauf von Lagerartikeln in Programmfertigungen (Flows)
+description: Wenn ein Element für die Programmfertigung festgelegt ist, muss der Artikel für Verkaufsaufträge montiert werden und es wird automatisch ein verknüpfter Montageauftrag erstellt.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 04/01/2020
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 4386888ed1c4803787938161f8c9e1071dd524e4
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 2d68bb10c6ff7d153417dbdc491dd8abd75b7adc
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3786046"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146959"
 ---
-# <a name="sell-inventory-items-in-assemble-to-order-flows"></a>So verkaufen Sie Lagerartikel in Programmfertigungs-Flüssen
+# <a name="selling-inventory-items-in-assemble-to-order-flows"></a>Verkauf von Lagerartikeln in Programmfertigungen (Flows)
 Wenn das Feld **Montagerichtlinie** auf der Artikelkarte eines Montageartikels **Auftragsmontage** enthält, dann nimmt der Standard-Verkaufsauftragsprozess an, dass der Artikel nicht auf Lager ist und für den jeweiligen Verkaufsauftrag montiert werden muss. Daher wird ein Montageauftrag automatisch erstellt, wenn Sie den Artikel einer Verkaufsauftragszeile hinzufügen. Weitere Informationen finden Sie unter [Verkaufen von Auftragsmontageartikeln](assembly-how-to-sell-items-assembled-to-order.md). Wenn jedoch ein Teil der Verkaufsauftragsmenge bereits im Lagerbestand verfügbar ist, können Sie die Menge des Montageauftrags verringern, indem Sie das Feld **Menge für Auftragsmontage** auf der Verkaufsauftragszeile ändern.  
 
 Dieses Szenario ist selten, da Auftragsmontageartikel normalerweise immer individuell gefertigt werden und nur eine geringe Möglichkeit dafür besteht, dass sie genau mit den angefragten Spezifikationen auf Lager sind. Wenn ein Mandant jedoch die Auftragsmontagemengen aufgrund von Rücklieferungen oder Stornierungen auf Lager hat, sollten diese Mengen kommissioniert und verkauft werden, bevor weitere Montagen vorgenommen werden.  
@@ -33,7 +32,7 @@ Dieses Szenario ist selten, da Auftragsmontageartikel normalerweise immer indivi
 Bei diesem Verfahren ersetzen Sie Auftragsmontagemengen durch Lagerbestandsmengen auf einer Verkaufsauftragszeile. Zu den Schritten gehören das Erkennen dieser Verfügbarkeit, das Abziehen dieser Menge von dem verknüpften Montageauftrag und dann die Reservierung der Lagermenge, um sicherzustellen, dass sie für den Auftrag kommissioniert und geliefert wird.  
 
 ## <a name="to-sell-inventory-items-in-assemble-to-order-flows"></a>So verkaufen Sie Lagerartikel in Programmfertigungs-Flüssen  
-1.  Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol öffnet, geben Sie **Verkaufsaufträge** ein und wählen Sie dann den entsprechenden Link.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Verkaufsaufträge** ein, und wählen Sie dann den zugehörigen Link.  
 2.  Erstellen Sie einen Auftrag. Weitere Informationen finden Sie unter [Produkte verkaufen](sales-how-sell-products.md)  
 3.  Geben Sie auf einer Verkaufsauftragszeile für einen Auftragsmontageartikel im Feld **Menge** die verlangte Menge ein.  
 4.  Sehen Sie in der Infobox **VK-Zeilendetails** nach, ob die gesamte oder ein Teil der verlangten Menge verfügbar ist.  
@@ -54,4 +53,7 @@ Bei diesem Verfahren ersetzen Sie Auftragsmontagemengen durch Lagerbestandsmenge
 [Mit Fertigungsstücklisten arbeiten](inventory-how-work-BOMs.md)  
 [Lagerbestand](inventory-manage-inventory.md)  
 [Designdetails: Lagerverwaltung](design-details-warehouse-management.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

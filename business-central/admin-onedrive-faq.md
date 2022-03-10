@@ -2,7 +2,6 @@
 title: OneDrive für Business FAQ
 description: Erhalten Sie Antworten auf einige typische Fragen zur Arbeit mit OneDrive for Business und Business Central.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: OneDrive, integration, share, browser
 ms.date: 05/19/2021
 ms.author: bholtorf
-ms.openlocfilehash: 3d9058b3b0f751729d5538f36454bd8244a3594f
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: f54e8b6290e9dd653180b3ea05246255b84dc2ae
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589421"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8144050"
 ---
 # <a name="onedrive-for-business-faq"></a>OneDrive für Business FAQ
 
@@ -29,7 +28,7 @@ Ja. Sie können Dateien in OneDrive von den [!INCLUDE[prod_short](includes/prod_
 
 ## <a name="is-onedrive-the-same-as-sharepoint-for-storing-files"></a>Ist OneDrive zum Speichern von Dateien dasselbe wie SharePoint?
 
-Als Teil Ihres Microsoft 365 Abonnements stellt Ihnen Ihr Unternehmen OneDrive zur Verfügung, Ihren Dateispeicher in der Cloud. OneDrive ist standardmäßig ein privater Speicher, in dem Sie Ihre Inhalte organisieren und auswählen, welche Dateien oder Ordner Sie mit wem teilen möchten. SharePoint hingegen bietet einen Dateispeicher in der Cloud, der mit anderen in Ihrem Unternehmen geteilt wird.  
+Als Teil Ihres Microsoft 365-Abonnements stellt Ihnen Ihr Unternehmen OneDrive zur Verfügung, Ihren Dateispeicher in der Cloud. OneDrive ist standardmäßig ein privater Speicher, in dem Sie Ihre Inhalte organisieren und auswählen, welche Dateien oder Ordner Sie mit wem teilen möchten. SharePoint hingegen bietet einen Dateispeicher in der Cloud, der mit anderen in Ihrem Unternehmen geteilt wird.  
 
 ## <a name="does-prod_short-support-consumer-onedrive"></a>Unterstützt [!INCLUDE[prod_short](includes/prod_short.md)] den Verbraucher OneDrive?
 
@@ -41,7 +40,7 @@ Anzahl Diese Integration ist ausschließlich für OneDrive for Business gedacht 
 
 ## <a name="where-can-i-see-onedrive-service-health"></a>Wo kann ich den Dienststatus von OneDrive einsehen?
 
-Administratoren können im Microsoft 365-Admincenter auf das Dashboard zum Dienststatus zugreifen. Das Dashboard zeigt die Verfügbarkeit des Dienstes OneDrive an. 
+Administratoren können im Microsoft 365 Admin Center auf das Dashboard zum Dienststatus zugreifen. Das Dashboard zeigt die Verfügbarkeit des Dienstes OneDrive an. 
  
 ## <a name="is-onedrive-integration-available-to-prod_short-on-premises"></a>Ist die Integration von OneDrive auch für [!INCLUDE[prod_short](includes/prod_short.md)] vor Ort verfügbar?
 
@@ -84,7 +83,7 @@ Die Integration mit OneDrive wurde 2021 im Veröffentlichungszyklus 2 verfügbar
 
 ## <a name="will-microsoft-continue-to-improve-the-integration-to-onedrive"></a>Wird Microsoft die Integration in OneDrive weiter verbessern?
 
-Bei Microsoft achten wir stets auf das Feedback aus unsere breitgefächerte Benutzer-Community und reagieren auf die häufigsten Vorschläge. Um zu erfahren, was als nächstes für Integrationen mit Microsoft 365 Apps geplant ist, lesen Sie den [Dynamics 365 Veröffentlichungsplan](/dynamics365-release-plan/2021wave1).  
+Bei Microsoft achten wir stets auf das Feedback aus unsere breitgefächerte Benutzer-Community und reagieren auf die häufigsten Vorschläge. Um zu erfahren, was als nächstes für Integrationen mit Microsoft 365-Apps geplant ist, lesen Sie den [Dynamics 365 Veröffentlichungsplan](/dynamics365-release-plan/2021wave1).  
 
 Wenn Sie sich an der Verbesserung der OneDrive-Integration beteiligen möchten oder eine Idee haben, die die gemeinsame Nutzung von Dateien und die Zusammenarbeit in [!INCLUDE[prod_short](includes/prod_short.md)] verbessern würde, fügen Sie eine Idee hinzu oder stimmen Sie für bestehende Ideen unter [https://aka.ms/BusinessCentralIdeas](https://aka.ms/BusinessCentralIdeas) ab.
 

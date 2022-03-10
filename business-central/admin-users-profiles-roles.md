@@ -2,17 +2,17 @@
 title: Verwalten von Benutzern und Rollen
 description: Erfahren Sie, wie Sie Benutzerprofile und Rollen in Business Central verwalten können. Profile erlauben es Administratoren, zentral zu definieren und zu verwalten, was Benutzer sehen und tun können.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: profiles, users
+ms.search.form: 9171
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 74f8b0a7bdd4c95bee12b14c8354de68cafc1649
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: fa9bd31f0f9ff1705f9caa7f21d9f376febdb712
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443129"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8133122"
 ---
 # <a name="manage-user-profiles"></a>Verwalten von Benutzerprofilen
 
@@ -29,11 +29,15 @@ Bevor Sie Benutzerprofile verwalten können, müssen die Benutzer erstellt und �
 Sie können die Seitenlayouts für ein Profil so anpassen, dass alle Benutzer, denen das Profil zugewiesen wurde, die angepassten Seiten sehen. Als Administrator passen Sie Seiten an, indem Sie dieselben Funktionen verwenden wie Benutzer, wenn sie Personalisierungen vornehmen. Weitere Informationen finden Sie unter [Gewusst wie: Seiten für Profile anpassen](ui-personalization-manage.md).
 
 ## <a name="to-create-a-profile"></a>So erstellen Sie ein Profil
+
 Wenn Sie ein vorhandenes Profil nicht kopieren können, können Sie manuell ein neues Profil erstellen.
 
 1. Wählen Sie das ![Suchen Sie nach Seite oder Bericht.](media/ui-search/search_small.png "Suche nach Seiten- oder Berichtssymbolen") Symbol. Geben Sie **Profile (Rollen)** ein und wählen Sie dann den entsprechenden Link.  
 2. Auf der Seite **Profile (Rollen)** wählen Sie die Aktion **Neu** aus.  
-3. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Füllen Sie die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+> [!TIP]
+> Wenn Sie möchten, dass ein bestimmtes Profil nur ganz bestimmten Benutzern zur Verfügung steht, können Sie das Feld **Beschreibung** auf `Navigation menu only.` festlegen. Auf diese Weise wird das Profil aus der Liste der verfügbaren Rollen in **Meine Einstellungen** ausgeschlossen.
 
 ## <a name="to-copy-a-profile"></a>So kopieren Sie ein Profil
 Um Zeit zu sparen, können Sie ein neues Profil erstellen, indem Sie ein vorhandenes kopieren. Kopieren Sie eines mit ähnlichen Einstellungen wie das, das Sie erstellen möchten.

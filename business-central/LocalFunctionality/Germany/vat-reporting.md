@@ -1,26 +1,24 @@
 ---
-title: MwSt.-Abrechnung
-description: MwSt.-Erklärungen können elektronisch übermittelt werden.
-services: project-madeira
-documentationcenter: ''
+title: MwSt.-Berichterstattung in der deutschen Version
+description: MwSt.-Berichte können in der deutschen Version elektronisch an Steuerbehörden übermittelt werden.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 9435ce3c488eedaef9472a961de36071d1d4e0e4
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: f28aeb03321c8cf2c357ee57c2d01b3305a727d2
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301311"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142674"
 ---
-# <a name="vat-reporting"></a>MwSt.-Abrechnung
-Sie können dann das VAT-Dokument an die Schnittstelle des Onlineportals „Elektronische Steuererklärungen (ELSTER)” der deutschen Finanzämter übermitteln. Sie können eine MwSt-Erklärung als XML-Datei generieren und exportieren und dann direkt an das ELSTER-Portal senden. Weitere Informationen finden Sie unter [Gewusst wie: Einrichten von Umsatzsteuervoranmeldungen](how-to-set-up-and-export-sales-vat-advance-notifications.md).  
+# <a name="vat-reporting-in-the-german-version"></a>MwSt.-Berichterstattung in der deutschen Version
+
+Sie können dann das VAT-Dokument an die Schnittstelle des Onlineportals „Elektronische Steuererklärungen (ELSTER)“ der deutschen Finanzämter übermitteln. Sie können eine MwSt-Erklärung als XML-Datei generieren und exportieren und dann direkt an das ELSTER-Portal senden. Weitere Informationen finden Sie unter [Gewusst wie: Einrichten von Umsatzsteuervoranmeldungen](how-to-set-up-and-export-sales-vat-advance-notifications.md).  
 
 Folgende lokale MwSt.-Erklärungen können gedruckt werden:  
 
@@ -34,4 +32,7 @@ Folgende lokale MwSt.-Erklärungen können gedruckt werden:
 [Umsatzsteuervoranmeldungen](how-to-set-up-and-export-sales-vat-advance-notifications.md)  
 [Melden von MwSt. an die Steuerbehörden](../../finance-how-report-vat.md)  
 [Arbeiten mit MwSt im Verkauf und Einkauf](../../finance-work-with-vat.md)  
-[Richten Sie Berichte für MwSt ein.](how-to-set-up-reports-for-vat-and-intrastat.md)
+[Richten Sie Berichte für MwSt ein](how-to-set-up-reports-for-vat-and-intrastat.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

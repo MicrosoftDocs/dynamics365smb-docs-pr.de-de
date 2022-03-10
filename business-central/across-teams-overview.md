@@ -2,26 +2,25 @@
 title: Übersicht über die Integration von Business Central und Microsoft Teams | Microsoft Docs
 description: Geben Sie Business Central-Datensätze direkt in einer Unterhaltung in Teams frei.
 author: jswymer
-ms.service: dynamics365-business-central
-ms.topic: get-started-article
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 15a6f009095c2e20cf65d38503a7c737e64e7bb8
-ms.sourcegitcommit: 5a916b0aa0a2eef0c22b5722a0af041757e6d7c2
+ms.openlocfilehash: 1cbb122c313f60b79678d5e8ed3b186b52f25782
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "6074687"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8138726"
 ---
 # <a name="business-central-and-microsoft-teams-integration"></a>Integration von Business Central und Microsoft Teams
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
-[Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/microsoft-teams) ist ein Microsoft 365-Produkt, mit dem Sie Mitarbeiter verbinden und mit ihnen chatten und zusammenarbeiten können. [!INCLUDE [prod_short](includes/prod_short.md)] bietet eine App, die Microsoft Teams mit Ihren Geschäftsdaten in [!INCLUDE [prod_short](includes/prod_short.md)] verbindet. So können Sie schnell Daten zwischen Teammitgliedern austauschen, Kontakte finden und Anfragen schneller beantworten.
+[Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/microsoft-teams) ist ein Microsoft 365-Produkt, mit dem Sie Mitarbeiter verbinden und mit ihnen chatten und zusammenarbeiten können. [!INCLUDE [prod_short](includes/prod_short.md)] bietet eine App, die Microsoft Teams mit Ihren Geschäftsdaten in [!INCLUDE [prod_short](includes/prod_short.md)] verbindet. So können Sie schnell Daten zwischen Teammitgliedern austauschen, Kontakte finden und Anfragen schneller beantworten.
 
 Die App ist im Teams-Marketplace verfügbar und kann mit der Teams-Web-, Desktop- oder mobilen App verwendet werden.
 
@@ -33,11 +32,11 @@ Die [!INCLUDE [prod_short](includes/prod_short.md)]-App für Teams bietet die fo
 
 Unabhängig davon, wo Sie sich in Teams befinden, können Sie Details zu Debitoren, Kreditoren und anderen [!INCLUDE [prod_short](includes/prod_short.md)]-Kontakten nachschlagen. Mit dieser Funktion können Sie nicht nur allgemeine Informationen zu Kontakten anzeigen, sondern auch auf den Interaktionsverlauf, verwandte Dokumente und mehr zugreifen.
 
- [![Nach Business Central-Kontakten über das Befehlsfeld in Teams suchen](media/teams-contacts-overview.png)](media/teams-contacts-overview.png#lightbox)
+ [![Business Central-Kontakte aus Teams-Befehlsfeld nachschlagen.](media/teams-contacts-overview.png)](media/teams-contacts-overview.png#lightbox)
 
 Sie können auch Kontaktdaten in einem Gespräch teilen. Von dort haben die Teilnehmer auch Zugriff auf noch mehr Details zum Kontakt.
 
- [![Nach Business Central-Kontakten über das Erstellungsfeld in Teams suchen](media/teams-contacts.png)](media/teams-contacts.png#lightbox)
+ [![Business Central-Kontakte aus der Teams-Befehlsbox nachschlagen.](media/teams-contacts.png)](media/teams-contacts.png#lightbox)
 
 Weitere Informationen finden Sie unter [Suchen nach Kontakten von Microsoft Teams](across-search-contacts-teams.md).
 
@@ -45,15 +44,23 @@ Weitere Informationen finden Sie unter [Suchen nach Kontakten von Microsoft Team
 
 Sie können einen Link zu einem beliebigen Business Central-Datensatz kopieren und ihn in eine Teams-Unterhaltung einfügen, um ihn dann mit Ihren Mitarbeitern zu teilen. Die App dann wird zu einem kompakten, interaktiven Link erweitert, auf dem Informationen zum Datensatz angezeigt werden.
 
-[![Teams-Integration in Business Central](media/teams-intro-v3.png)](media/teams-intro-v3.png#lightbox)
+[![Teams-Integration mit Business Central.](media/teams-intro-v3.png)](media/teams-intro-v3.png#lightbox)
 
 Wenn Sie sich in der Unterhaltung befinden, können Sie und Ihre Mitarbeiter weitere Details zum Datensatz anzeigen, Daten bearbeiten und Maßnahmen ergreifen, ohne Teams zu verlassen.
 
 Weitere Informationen finden Sie unter [Datensätze in Microsoft Teams](across-working-with-teams.md) teilen.
 
+### <a name="share-links-from-pages-in-business-central-to-teams"></a>Links von Seiten in Business Central für Teams freigeben
+
+Direkt von den meisten Sammlungs- und Detailseiten in Business Central können Sie die Aktion **Für Teams freigeben** über das Symbol ![!Das Teilen-Menü auf Seiten.](media/share-icon.png "Das Menü Teilen, das auf einer Karte angezeigt wird.") Symbol eine Nachricht eingeben, Empfänger auswählen, z.B. Teammitglieder, Gruppen oder Kanäle, und die Nachricht mit einem Link zu der Business Central Seite versenden.
+
+![!Das Menü Teilen, das auf einer Karte angezeigt wird.](media/teams-share-link.png "Das Menü Teilen, das auf einer Karte angezeigt wird.")
+
+Weitere Informationen finden Sie unter [Datensätze und Seitenlinks teilen in Microsoft Teams](across-working-with-teams.md#share-link).
+
 ## <a name="get-started"></a>Erste Schritte
 
-1. Ein [!INCLUDE [prod_short](includes/prod_short.md)]-Online-Benutzerkonto ist erforderlich für [!INCLUDE [prod_short](includes/prod_short.md)]-App für Teams.
+1. Für die [!INCLUDE [prod_short](includes/prod_short.md)]-App für Teams ist ein [!INCLUDE [prod_short](includes/prod_short.md)]-Online-Benutzerkonto erforderlich.
 
     Wenden Sie sich an den Administrator Ihres Unternehmens, wenn Sie nicht sicher sind, ob Sie ein Konto besitzen oder Ihre Anmeldeinformationen für die Anmeldung nicht kennen.
 
@@ -62,13 +69,14 @@ Weitere Informationen finden Sie unter [Datensätze in Microsoft Teams](across-w
 
 2. Administratorinformationen zur Einrichtung von Benutzern für die Arbeit mit [!INCLUDE [prod_short](includes/prod_short.md)] und Teams finden Sie unter [Verwalten der Microsoft Teams Integration in Business Central](admin-teams-integration.md).
 3. Installieren Sie die [!INCLUDE [prod_short](includes/prod_short.md)]-App in Teams. Siehe [Die [!INCLUDE [prod_short](includes/prod_short.md)]-App für Microsoft Teams installieren](across-install-app-for-teams.md).
-4. Sobald die App installiert ist, können Sie loslegen. Weitere Informationen finden Sie unter [Debitoren, Kreditoren oder andere Kontakte über Microsoft Teams suchen](across-search-contacts-teams.md) und unter [Datensätze in Microsoft Teams teilen](across-working-with-teams.md). 
+4. Sobald die App installiert ist, können Sie loslegen. Weitere Informationen finden Sie unter [Debitoren, Kreditoren oder andere Kontakte über Microsoft Teams suchen](across-search-contacts-teams.md) und unter [Datensätze in Microsoft Teams teilen](across-working-with-teams.md).
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 [Teams FAQ](teams-faq.md)  
 [Teams Problembehebung](admin-teams-troubleshooting.md)  
-[Entwicklung für die Teams-Integration](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)
+[Ändern der Firma und anderer Einstellungen in Teams](across-teams-settings.md)  
+[Entwickeln für Teams Integration](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)
   
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

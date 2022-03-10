@@ -1,23 +1,21 @@
 ---
-title: Analysieren von Cashflow | Microsoft Docs
+title: Cashflows analysieren
 description: Beschreibt, wie die Geldumlauf-, Einnahmen- und Ausgaben-, Cash Flow- und Cashflow-Prognosediagramme verwendet werden, um vergangene und künftige Bargeldbewegungen im Unternehmen zu analysieren.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera
-ms.date: 04/01/2020
+ms.search.form: 762, 840, 841, 847, 848, 849, 850, 857, 858, 859, 860, 862, 863, 865, 866, 867, 868, 869, 1818
+ms.date: 12/20/2021
 ms.author: bholtorf
-ms.openlocfilehash: 09bf4d364afdff27dc97396a2d88ea0a934379fb
-ms.sourcegitcommit: 8b2f02dd5189c46ecff33c07223ed62b36842d34
+ms.openlocfilehash: 41dc7aba46960197a6b77ad13f98b4194fd589d2
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "3542692"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8145706"
 ---
 # <a name="analyzing-cash-flow-in-your-company"></a>Analysieren von Cashflow in Ihren Mandanten
 Die Diagramme im Buchhalter-Rollencenter liefern Einblicke, die Ihnen dabei helfen, fundierte Entscheidungen in Bezug auf die Verwendung Ihres Bargelds zu treffen.  
@@ -38,20 +36,26 @@ Im Feld Rollencenter Buchhalte unter **Finanzleistung** geben die Diagramme **Ba
 
 Obwohl dies separat ist, ist das Fenster **Cashflowplanung** gleich. Um Details anzuzeigen Filtern Sie die Ergebnisse und ändern, was gleich angezeigt wird. Wenn Sie eine Einstellung ändern, kann die Planung mithilfe von **Cashflowplanung** und **Planung neu berechnen** aktualisiert werden.
 
-Wenn Sie die Planung, zusätzlich zu den Absatzplanungsposten prüfen möchten, können Sie den Cashflowvorschlag auch berücksichtigen. Beispielsweise wird angezeigt, wie die Planungs:
+Wenn Sie die Planung, zusätzlich zu den Absatzplanungsposten prüfen möchten, können Sie den Cashflowarbeitsblatt auch berücksichtigen. Beispielsweise wird angezeigt, wie die Planungs:
 
 * Verarbeitet bestätigte Verkäufe und Einkäufe.  
 * Subtrahiert Verbindlichkeiten und fügt Forderungen hinzu.  
 * Überspringt duplizierte Verkaufsaufträge und Bestellungen.  
 
-## <a name="to-view-a-cash-flow-worksheet"></a>Cashflowvorschlagszeile anzeigen
+## <a name="to-view-a-cash-flow-worksheet"></a>Cashflowarbeitsblattszeile anzeigen
+
 1. Suchen Sie nach **Cashflow-Planungen** und wählen Sie dann den zugehörigen Link aus.  
-2. Wählen Sie eine Cashflowplanung, und wählen die **Cashflowvorschlag** Aktion aus.  
+2. Wählen Sie eine Cashflowplanung, und wählen die **Cashflowarbeitsblatt** Aktion aus.  
 3. Auf der Seite **Cashflow Arbeitsblatt** wählen Sie die Aktion **Vorgeschlagene Arbeitsblattpositionen** aus.  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/modules/forecast-cash-flow-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Siehe auch
+
 [Finanzen einrichten](finance-setup-finance.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Einrichten der Cashflowanalyse](finance-setup-cash-flow-analyses.md)  
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Cashflow Analyse festlegen](finance-setup-cash-flow-analyses.md)  
+[Prognostizieren Sie Ihren Cashflow in Dynamics 365 Business Central (Microsoft Learn)](/learn/modules/forecast-cash-flow-dynamics-365-business-central/index)  
+[Einrichten von Cashflow-Planungen mit Azure AI in Dynamics 365 Business Central(Microsoft Learn)](/learn/modules/setup-cash-flow-forecasts/)  
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -2,15 +2,15 @@
 title: Lernkatalog für Geschäftsanwender
 description: Hier finden Sie alle verfügbaren Informationen für Business Central.
 author: loreleishannonmsft
-ms.date: 04/01/2020
-ms.topic: article
-ms.author: v-lshann
-ms.openlocfilehash: c169bde62c9ff2bf32160801d258d034d0187371
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 04/01/2021
+ms.topic: conceptual
+ms.author: margoc
+ms.openlocfilehash: fd0b839e402ff59ec5fb875d026eb5fe2202850e
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190851"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5772429"
 ---
 # <a name="business-users-learning-catalog"></a>Lernkatalog für Geschäftsanwender
 
@@ -33,7 +33,7 @@ Der folgende Katalog ist vom Kernwissen bis zu spezifischen Bereichen organisier
 | [Kostenrechnung in Microsoft Dynamics 365 Business Central verwenden](/learn/paths/use-cost-accounting-dynamics-365-business-central/)                                     | Müssen Sie in Ihrem Unternehmen die Kostenrechnung einsetzen? Dieser Lernpfad kann Ihnen den Einstieg in die Kostenrechnung in Business Central erleichtern. Es wird erläutert, wie man Stammdaten für die Kostenrechnung anlegt, Transaktionen überträgt und Kosten auf eine Gruppe von Konten verrechnet.   | Kostenloser, selbstbestimmter Online-Lernpfad mit eigenem Tempo | 3 Stunden 16 Minuten |
 | [Buch.-Blätter in Microsoft Dynamics 365 Business Central verwenden](/learn/paths/use-journals-dynamics-365-business-central/)                                                   | Müssen Sie in Business Central Buchungen anlegen und buchen? Dann ist dieser Pfad für Sie. Das Einrichten allgemeiner Buch.-Blattvorlagen, das Anlegen von Buch.-Blattbuchungen einschließlich wiederkehrender Buchungen und Buchungsvorgänge werden in den Modulen dieses Lernpfades behandelt.                  | Kostenloser, selbstbestimmter Online-Lernpfad mit eigenem Tempo | 2 Stunden 1 Minute   |
 | [Bankkontenabstimmung in Microsoft Dynamics 365 Business Central](/learn/paths/reconcile-bank-accounts-dynamics-365-business-central/)                             | Möchten Sie wissen, wie Sie Bankkonten in Business Central abstimmen können? Die Bankabstimmungsfunktion und die Abstimmungsprotokolle werden in diesem Lernpfad diskutiert.                                                                                                                           | Kostenloser, selbstbestimmter Online-Lernpfad mit eigenem Tempo | 1 Stunde 3 Minuten   |
-| [Verwenden Sie mehrere Währungen in Microsoft Dynamics 365 Business Central](https://docs.microsoft.com/learn/paths/use-multiple-currencies-dynamics-365-business-central/)                             | Arbeiten Sie mit mehreren Währungen? Wenn Sie dies tun, wird Ihnen dieser Pfad helfen, die Schritte zu verstehen, die Sie durchführen müssen, um mehrere Währungen einzurichten und zu verwenden, Zahlungen und Rechnungen in verschiedenen Währungen zu verarbeiten und gegebenenfalls Wechselkurse anzupassen.                                             | Kostenloser, selbstbestimmter Online-Lernpfad mit eigenem Tempo | 3 Stunden 4 Minuten  |
+| [Verwenden Sie mehrere Währungen in Microsoft Dynamics 365 Business Central](/learn/paths/use-multiple-currencies-dynamics-365-business-central/)                             | Arbeiten Sie mit mehreren Währungen? Wenn Sie dies tun, wird Ihnen dieser Pfad helfen, die Schritte zu verstehen, die Sie durchführen müssen, um mehrere Währungen einzurichten und zu verwenden, Zahlungen und Rechnungen in verschiedenen Währungen zu verarbeiten und gegebenenfalls Wechselkurse anzupassen.                                             | Kostenloser, selbstbestimmter Online-Lernpfad mit eigenem Tempo | 3 Stunden 4 Minuten  |
 | [Erstellen von Finanzberichten in Microsoft Dynamics 365 Business Central](/learn/paths/create-financial-reports-dynamics-365-business-central/)                           | Sind Sie für die Erstellung von Finanzberichten aus Business Central verantwortlich? Dieser Lernpfad behandelt die Erstellung von Budgets und die Verwendung von Kontenplänen, Dimensionen und der erweiterbaren Geschäftsberichtssprache (XBRL), um die Finanzberichte zu erstellen, die normalerweise für die meisten Unternehmen benötigt werden. | Kostenloser, selbstbestimmter Online-Lernpfad mit eigenem Tempo | 3 Stunden 44 Minuten |
 | [Verarbeiten von periodischen Finanzaktivitäten in Microsoft Dynamics 365 Business Central](/learn/paths/process-financial-periodic-activities-dynamics-365-business-central/) | Sind Sie für die Prozesse des Perioden- und Jahresabschlusses verantwortlich? Schließen Sie dieses Modul ab, in dem es darum geht, wie Sie Mahnungen und Finanzierungsrechnungen an Kunden senden können. Außerdem werden die Intrastat-Verarbeitung und -Berichterstattung sowie der Abschluss eines Geschäftsjahres behandelt.                                                     | Kostenloser, selbstbestimmter Online-Lernpfad mit eigenem Tempo | 3 Stunden 3 Minuten  |
 ## <a name="trade"></a>Trade<a name="trade"></a>
@@ -48,3 +48,6 @@ Der folgende Katalog ist vom Kernwissen bis zu spezifischen Bereichen organisier
 | [Einträge in Microsoft Dynamics 365 Business Central zurückgeben](/learn/paths/return-items-dynamics-365-business-central/)                                                   | Müssen Sie Artikel an Kreditoren zurücksenden und Retouren von Debitoren annehmen? Dieser Pfad wird Ihnen helfen, zu lernen, wie Sie Retouren bearbeiten können.                                                                                                                                                                         | Kostenloser, selbstbestimmter Online-Lernpfad mit eigenem Tempo | 1 Stunde 25 Minuten  |
 | [Ergänzung von Elementen in Microsoft Dynamics 365 Business Central](/learn/paths/replenish-items-dynamics-365-business-central/)                                             | Müssen Sie in Ihrem Unternehmen Bestandsartikel nachfüllen? Dieser Lernpfad zeigt Ihnen Möglichkeiten, wie Sie Artikel in Business Central effizient auffüllen können.                                                                                                                                     | Kostenloser, selbstbestimmter Online-Lernpfad mit eigenem Tempo | 1 Stunde 46 Minuten  |
 | [Elemente in Microsoft Dynamics 365 Business Central zusammenstellen](/learn/paths/assemble-items-dynamics-365-business-central/)                                               | Verkaufen Sie montierte Artikel? Dieser Lernpfad bietet die Informationen, die Sie für die Montageverwaltung und die Elemente benötigen. Es bietet auch Schritte zur Herstellung von montierten Artikeln für das Lager oder die Bestellung.                                                                                                                | Kostenloser, selbstbestimmter Online-Lernpfad mit eigenem Tempo | 2 Stunden 26 Minuten |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

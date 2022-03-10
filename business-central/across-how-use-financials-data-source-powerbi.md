@@ -2,7 +2,6 @@
 title: Berichte erstellen in Power BI Desktop zur Anzeige von Business Central-Daten | Microsoft Docs
 description: Sie können Ihre Daten zur Verfügung stellen als Datenquelle in Power BI und leistungsstarke Berichte über den Zustand Ihres Geschäftes erstellen.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: ef81b4fd16e66c4ec1453798ae77f947b12c975e
-ms.sourcegitcommit: eeaf9651c26e49974254e29b7e2d16200c818dad
+ms.openlocfilehash: 471847e62911ba1dc274a0d02ffbd66968d0b7ca
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6341333"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141567"
 ---
 # <a name="building-power-bi-reports-to-display-prod_long-data"></a>Power BI-Berichte erstellen zur Anzeige von [!INCLUDE [prod_long](includes/prod_long.md)]-Daten
 
@@ -151,9 +150,42 @@ Es gibt verschiedene Möglichkeiten, um Berichte an Ihre Mitarbeiter und andere 
 
     Wenn Sie über eine Lizenz für Power BI Pro verfügen, können Sie den Bericht direkt über Ihren Power BI-Dienst mit anderen Benutzern teilen. Weitere Informationen finden Sie unter [Power BI – Teilen von Dashboards oder Berichten](/power-bi/collaborate-share/service-share-dashboards#share-a-dashboard-or-report).
 
-## <a name="see-related-training-at-microsoft-learn"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="fixing-problems"></a>Probleme beheben
 
-## <a name="see-also"></a>Siehe auch
+### <a name="cannot-insert-a-record-current-connection-intent-is-read-only-error-connecting-to-custom-api-page"></a>„Ein Datensatz kann nicht eingefügt werden. Die aktuelle Verbindungsabsicht ist schreibgeschützt“. Fehler beim Verbinden mit der angepassten API-Seite
+
+> **GILT FÜR:** Business Central Online
+
+Ab Februar 2022 werden neue Berichte, die Business Central-Daten verwenden, standardmäßig mit einer schreibgeschützten Replik der Business Central-Datenbank verbunden. In seltenen Fällen, abhängig vom Design der Seite, erhalten Sie eine Fehlermeldung, wenn Sie versuchen, eine Verbindung zur Seite herzustellen und Daten von der Seite abzurufen.
+
+1. Starten Sie Power BI Desktop.
+2. Wählen Sie im Menüband **Daten abrufen** > **Onlinedienste**.
+3. Im Fenster **Online-Dienste** wählen Sie **Dynamics 365 Business Central** und dann **Verbinden**.
+4. Wählen Sie im Fenster **Navigator** den API-Endpunkt, von dem Sie Daten laden möchten.
+5. Im Vorschaubereich auf der rechten Seite sehen Sie den folgenden Fehler:
+
+   *Dynamics365BusinessCentral: Anfrage fehlgeschlagen: Der Remote-Server hat einen Fehler zurückgegeben: (400) Fehlerhafte Anfrage. (Ein Datensatz kann nicht eingefügt werden. Die aktuelle Verbindungsabsicht ist schreibgeschützt. CorrelationId: [...])“.*
+
+6. Wählen Sie **Daten transformieren** anstelle von **Laden**, wie Sie es normalerweise tun würden.
+7. Wählen Sie im **Power Query-Editor** aus dem Menüband **Erweiterter Editor**.
+8. In der Zeile, die mit **Quelle =** beginnt, ersetzen Sie den folgenden Text:
+
+   ```
+   Dynamics365BusinessCentral.ApiContentsWithOptions(null, null, null, null)
+   ```
+
+   mit:
+
+   ```
+   Dynamics365BusinessCentral.ApiContentsWithOptions(null, null, null, [UseReadOnlyReplica = false])
+   ```
+
+9. Wählen Sie **Erledigt**.
+10. Wählen Sie **Schließen & Anwenden** aus dem Menüband, um die Änderungen zu speichern und den Power Query-Editor zu schließen.
+
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe Verwandte Schulungen unter [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+
+## <a name="see-also"></a>Weitere Informationen
 
 [Aktivieren Sie Ihre Geschäftsdaten für Power BI](admin-powerbi.md)  
 [Business Intelligence](bi.md)  

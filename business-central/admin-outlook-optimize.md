@@ -2,7 +2,6 @@
 title: Outlook für Ihr Unternehmenspostfach optimieren
 description: Erfahren Sie, wie Sie die Erfahrung mit dem Unternehmenspostfach in Microsoft Outlook verbessern können.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Outlook, Microsoft 365, inbox, business inbox, WebView2, Edge, addin, add-in
 ms.date: 05/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 2fee1782057d0f45319e4d12d715c2e1e0d3d4a6
-ms.sourcegitcommit: 61e279b253370cdf87b7bc1ee0f927e4f0521344
+ms.openlocfilehash: 1726162e25b3a488df0d179c702c9c99afcc5c91
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "6064856"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8143972"
 ---
 # <a name="optimizing-outlook-for-your-business-inbox"></a>Outlook für Ihr Unternehmenspostfach optimieren 
 
@@ -50,7 +49,7 @@ Führen Sie die folgenden Schritte aus, um zu überprüfen, ob Microsoft Edge We
 
 Über das Startmenü:
 
-1. Wählen Sie **Start** ![Windows-Start](media/windows-start-icon.png "Symbol für Windows-Start") > **Einstellungen** ![Windows-Einstellungen](media/windows-settings-icon.png "Symbol für Windows-Einstellungen") > **Apps und Funktionen** aus.
+1. Wählen Sie **Start** ![Windows Start.](media/windows-start-icon.png "Symbol für Windows-Start") > **Einstellungen** ![Windows Einstellungen](media/windows-settings-icon.png "Symbol für Windows-Einstellungen") > **Apps & Funktionen**.
 2. Geben Sie **WebView2** in das Suchfeld ein. Wenn Microsoft Edge WebView2 installiert ist, wird der Eintrag **Microsoft Edge WebView2 Runtime** angezeigt.
 
 Über die Systemsteuerung:

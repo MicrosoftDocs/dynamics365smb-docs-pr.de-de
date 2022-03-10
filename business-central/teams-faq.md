@@ -2,20 +2,19 @@
 title: Teams FAQ
 description: Hier erhalten Sie Antworten auf einige typische Fragen zur Arbeit mit Teams und Business Central.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, faq, errors
-ms.date: 05/19/2021
+ms.date: 10/01/2021
 ms.author: jswymer
-ms.openlocfilehash: f3c9626fa73247b2109e5f179aef405e80b44b07
-ms.sourcegitcommit: 5a916b0aa0a2eef0c22b5722a0af041757e6d7c2
+ms.openlocfilehash: 34c669f955bebf84149959182bb1ce8bdeb139a0
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "6074640"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8147492"
 ---
 # <a name="teams-faq"></a>Teams FAQ
 
@@ -67,7 +66,7 @@ Für die Liste der unterstützten Sprachen für [!INCLUDE [prod_short.md](includ
 
 ### <a name="does-the-prod_shortmd-app-work-with-industry-solutions"></a>Funktioniert die [!INCLUDE [prod_short.md](includes/prod_short.md)]-App mit Branchenlösungen?
 
-Ja. Es funktionieren jedoch nur einige Funktionen der App mit [Apps einbetten](/dynamics365/business-central/dev-itpro/deployment/embed-app-overview) ::
+Ja. Es funktionieren jedoch nur einige Funktionen der App mit [Apps einbetten](/dynamics365/business-central/dev-itpro/deployment/embed-app-overview):
 
 - Die App arbeitet mit Links, die auf dem Muster **\*. bc.dynamics.com** basieren, das normalerweise mit „Apps einbetten“ verwendet wird.
 - Die Kontaktsuche ist für eingebettete Apps, die die Basisanwendung von Microsoft ersetzen, nicht verfügbar.
@@ -146,7 +145,11 @@ Bei Microsoft achten wir stets auf das Feedback aus unsere breitgefächerte Benu
 
 Wenn Sie an der Verbesserung der App für Teams teilnehmen möchten oder eine Idee haben, die Ihre Arbeit oder Ihre Erfahrungen in der Zusammenarbeit in Teams vereinfacht, fügen Sie eine Idee hinzu oder stimmen Sie für vorhandene Ideen ab unter [https://aka.ms/BusinessCentralIdeas](https://aka.ms/BusinessCentralIdeas).
 
-## <a name="searching-for-contacts"></a>[Suchen nach Kontakten](#tab/contacts)
+### <a name="where-can-i-find-teams-integration-inside-the-business-central-web-client"></a>Wo finde ich die Teams Integration innerhalb des Business Central Web Clients? 
+
+Funktionen im Web Client, die mit Teams verknüpft sind, finden Sie unter [Datensätze und Seitenverknüpfungen teilen](across-working-with-teams.md#share-link) in Microsoft Teams.
+
+## <a name="search-for-contacts"></a>[Suchen Sie nach Kontakten](#tab/contacts)
 
 ### <a name="which-tables-does-the-app-search-in"></a>In welchen Tabellen sucht die App?
 
@@ -192,7 +195,7 @@ Suchen Sie im Detailfenster für einen Kontakt die Aktion **Interaktion erstelle
 
 ### <a name="how-do-i-search-for-contacts-using-special-characters"></a>Wie suche ich mit Sonderzeichen nach Kontakten?
 
-Sie können Suchkriterien mit fast allen Unicode-Zeichen eingeben. Jedoch behält sich [!INCLUDE [prod_short.md](includes/prod_short.md)] folgende Symbole für andere Zwecke vor: **=**, **.**, **\**_, and _*@**. Wenn Sie diese Symbole in Ihren Suchbegriffen verwenden, werden möglicherweise nicht die erwarteten Ergebnisse zurückgegeben. Wenn Sie die erwarteten Ergebnisse nicht sehen, setzen Sie die Symbole in Ihren Suchbegriffen in einfache Anführungszeichen, z. B. **Contoso'='2**.
+Sie können Suchkriterien mit fast allen Unicode-Zeichen eingeben. Jedoch behält sich [!INCLUDE [prod_short.md](includes/prod_short.md)] folgende Symbole für andere Zwecke vor: **=**, **.**, **\**_, and _*@**. Wenn Sie diese Symbole in Ihren Suchbegriffen verwenden, werden möglicherweise nicht die erwarteten Ergebnisse zurückgegeben. Wenn Sie nicht die erwarteten Ergebnisse sehen, schließen Sie die Symbole in Ihren Suchbegriffen in einfache Anführungszeichen ein, zum Beispiel **Contoso'='2**.
 
 ### <a name="how-can-i-search-contacts-stored-in-a-different-company"></a>Wie kann ich nach Kontakten suchen, die in einem anderen Unternehmen gespeichert sind?
 
@@ -240,7 +243,7 @@ Das Suchen in anderen Tabellen ist derzeit nicht möglich. Die [!INCLUDE [prod_s
 
 Wenn Sie möchten, dass die Suchfunktionen auch andere Tabellen enthalten, empfehlen wir unserer Community, eine Idee hinzuzufügen oder für vorhandene Ideen bei https://aka.ms/BusinessCentralIdeas zu stimmen.
 
-## <a name="working-with-cards"></a>[Arbeiten mit Karten](#tab/cards)
+## <a name="work-with-cards"></a>[Arbeiten mit Karten](#tab/cards)
 
 ### <a name="which-types-of-links-does-the-app-support"></a>Welche Arten von Links unterstützt die App?
 
@@ -273,7 +276,7 @@ Wenn Sie eine Nachricht verfassen und an den Chat senden, die eine Karte enthäl
 
 Wenn Sie über [!INCLUDE [prod_short.md](includes/prod_short.md)]-Unternehmen hinweg arbeiten, sprechen Sie mit Ihrem Administrator über die Aktivierung eines Unternehmensausweises für jedes Unternehmen. Wenn diese Option aktiviert ist, wird dieser auffällige Hinweis in jedem Detailfenster in Teams angezeigt und zeigt das Unternehmen und die Umgebung an, zu denen der Datensatz gehört. Informationen zum Einrichten eines Firmenausweises finden Sie unter [Anzeigen eines Firmenausweises für den schnellen Zugriff auf Firmeninformationen](ui-change-basic-settings.md#badge).
 
-## <a name="working-with-card-details"></a>[Arbeiten mit Kartendetails](#tab/carddetails)
+## <a name="work-with-card-details"></a>[Mit Kartendetails arbeiten](#tab/carddetails)
 
 ### <a name="where-is-the-save-button-in-the-details-window-in-teams"></a>Wo befindet sich die Schaltfläche Speichern im Detailfenster in Teams?
 
@@ -303,7 +306,7 @@ Ja. [!INCLUDE [prod_short.md](includes/prod_short.md)] Funktionen im Detailfenst
 
 Wenn Sie Funktionalität in [!INCLUDE [prod_short.md](includes/prod_short.md)] verwenden, die auf Ihre aktuellen Standortkoordinaten zugreifen können, z. B. mit Karten, müssen Sie Teams im Browser oder in der mobilen Team-App verwenden. Der Standort ist bei Verwendung der Team-Desktop-App nicht verfügbar. 
 
-## <a name="collaborating-with-guests"></a>[Mit Gästen zusammenarbeiten ](#tab/collaborating)
+## <a name="collaborate-with-guests"></a>[Mit Gästen zusammenarbeiten](#tab/collaborating)
 
 ### <a name="can-i-share-cards-with-users-outside-my-organization"></a>Kann ich Karten mit Benutzern außerhalb meiner Organisation teilen?
 
@@ -319,14 +322,46 @@ Weitere Informationen zu Ähnlichkeiten und Unterschieden zwischen Gästen und T
 
 Gäste haben keinen Zugriff auf den App-Marktplatz, um Apps selbst zu installieren. Die App kann jedoch basierend auf den Richtlinien Ihres Unternehmens automatisch für sie installiert werden. Eine andere Möglichkeit für einen Gastbenutzer, die [!INCLUDE [prod_short.md](includes/prod_short.md)] App zu installieren ist, wenn sie eine Chat-Nachricht erhalten, die eine [!INCLUDE [prod_short.md](includes/prod_short.md)] Karte enthält. In diesem Fall wählt der Benutzer die Schaltfläche **Einzelheiten** oder das Menü auf der Karte und installiert dann die [!INCLUDE [prod_short.md](includes/prod_short.md)] App zur Verwendung mit Ihrer Organisation. Nach der Installation der App erhält ein Benutzer nicht automatisch die Berechtigung, auf Daten von Ihnen zuzugreifen [!INCLUDE [prod_short.md](includes/prod_short.md)].
 
----
+## <a name="share-to-teams"></a>[Freigeben an Teams](#tab/share)
 
-## <a name="see-also"></a>Siehe auch
+### <a name="does-share-to-teams-send-a-compact-card"></a>Versendet Teilen über Teams eine kompakte Karte? 
+
+Derzeit wird nur ein Deep Link zu der Seite freigegeben. Die Empfänger sehen in Ihrer Nachricht einen Hyperlink, den sie auswählen können, um in einem separaten Browserfenster zu [!INCLUDE [prod_short.md](includes/prod_short.md)] zu gelangen. 
+
+### <a name="will-recipients-receive-the-message-from-me-or-from-a-business-central-service-account"></a>Erhalten die Empfänger die Nachricht von mir oder von einem Business Central Servicekonto? 
+
+Wenn Sie die Funktion Für Teams freigeben verwenden, wird die Nachricht an eine Person, eine Gruppe oder einen Kanal gesendet, ähnlich wie wenn Sie die Nachricht selbst von Microsoft Teams aus gesendet hätten. Die Empfänger sehen die Nachricht von Ihnen in ihrem bevorzugten Teams Client und können wie gewohnt auf eine Nachricht von Ihnen reagieren und antworten. 
+
+### <a name="is-share-to-teams-available-in-business-central-on-premises"></a>Ist „Share über Teams“ in Business Central On-Premises verfügbar? 
+
+Anzahl Ähnlich wie bei der App [!INCLUDE [prod_short.md](includes/prod_short.md)] für Teams ist diese Funktion nur für den Web Client in [!INCLUDE [prod_short.md](includes/prod_short.md)] online verfügbar. Es ist nicht geplant, [!INCLUDE [prod_short.md](includes/prod_short.md)] Bereitstellungsarten &mdash;wie on-premises, Hybrid Cloud oder Private Cloud &mdash;zu unterstützen, die Microsoft nicht direkt hostet oder verwaltet.
+
+### <a name="does-share-to-teams-grant-permissions-to-recipients"></a>Gewährt Teilen über Teams den Empfängern Berechtigungen? 
+
+Anzahl Wenn Sie mit einer Person, einer Gruppe oder einem Kanal teilen, bleiben die Berechtigungen davon unberührt. Benutzer, die bereits die Berechtigung haben, die Seite und die Daten zu sehen, auf die der Link verweist, können dies tun. Benutzer, die keine Berechtigung zum Anzeigen der Seite und der Daten haben oder nicht über eine [!INCLUDE [prod_short.md](includes/prod_short.md)]-Lizenz verfügen, erhalten eine Fehlermeldung. 
+ 
+### <a name="must-i-have-the-teams-desktop-app-installed-to-use-share-to-teams"></a>Muss ich die Teams Desktop App installiert haben, um Share über Teams nutzen zu können? 
+
+Anzahl Alles, was Sie brauchen, ist ein gültiges Konto, das Zugriff auf Microsoft Teams hat. 
+
+### <a name="is-share-to-teams-available-in-all-business-central-clients"></a>Ist Teilen über Teams in allen Business Central Clients verfügbar? 
+
+Zurzeit ist „Teilen über Teams“ ausschließlich im Desktop Web Client und im Detailfenster von Teams verfügbar.  
+
+### <a name="where-do-i-find-share-to-teams-in-business-central"></a>Wo finde ich die Funktion Für Teams freigeben in Business Central? 
+
+Die Aktion **Für Teams freigeben** finden Sie im Menü **Freigeben** auf allen Seiten, wie Karten- und Belegseiten, Listen- oder Arbeitsblattseiten, einschließlich angepasster Seiten. Die Aktion ist nicht verfügbar auf Dialogfeldern oder Seiten, die als Dialogfelder angezeigt werden, wie Nachschlagefelder oder Assistenten.
+
+---
+## <a name="see-also"></a>Weitere Informationen
 
 [[!INCLUDE [prod_short](includes/prod_short.md)] und Microsoft Teams Integration Übersicht](across-teams-overview.md)  
-[Die [!INCLUDE [prod_short](includes/prod_short.md)]-App für Microsoft Teams installieren](across-install-app-for-teams.md)  
+[Installieren Sie die [!INCLUDE [prod_short](includes/prod_short.md)] App für Microsoft Teams](across-install-app-for-teams.md)  
+[Suchen Sie nach Debitoren, Kreditoren und anderen Kontakten aus Microsoft Teams](across-search-contacts-teams.md)  
+[Datensätze in Microsoft Teams freigeben](across-working-with-teams.md)  
 [Teams Problembehebung](admin-teams-troubleshooting.md)  
-[Entwicklung für die Teams-Integration](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
+[Ändern von Firmen- und anderen Einstellungen in Teams](across-teams-settings.md)  
+[Entwickeln für Teams Integration](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
 

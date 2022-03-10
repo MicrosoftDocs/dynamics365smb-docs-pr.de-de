@@ -2,20 +2,20 @@
 title: Verkaufsaufträge Rücklieferung verarbeiten
 description: Beschreibt, wie Sie einen Verkaufsauftrag erstellen, um eine Rückgabe, Stornierung oder Rückerstattung für Artikel oder Dienstleistungen zu verarbeiten, für die Sie eine Zahlung erhalten haben.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return, order
+ms.search.form: 44, 134, 144, 9302
 ms.date: 09/08/2021
 ms.author: edupont
-ms.openlocfilehash: 7e2dbaa1bce2c698191e866e20cca2102d53d26c
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 8a82b9116984f8b824375238fd1e6e4eb73930a3
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589419"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8137055"
 ---
 # <a name="process-sales-return-orders"></a>Verkaufsaufträge Rücklieferung verarbeiten  
 

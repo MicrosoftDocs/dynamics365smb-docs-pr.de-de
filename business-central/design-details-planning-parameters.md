@@ -1,24 +1,23 @@
 ---
-title: 'Designdetails: Planungsparameter | Microsoft Docs'
-description: Dieses Thema beschreibt die verschiedenen Planungsparameter, die Sie in Business Central verwenden können.
+title: Designdetails – Planungsparameter
+description: In diesem Thema werden die verschiedenen Planungsparameter beschrieben, die Sie verwenden können, und wie sie sich auf das Planungssystem auswirken.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: planning, design
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: e45850539b84e2762d93140e47ae336f2ec6efda
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 07/21/2021
+ms.author: edupont
+ms.openlocfilehash: d6598583ad118961fc15c7257e5207c3024e20e7
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184892"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8131977"
 ---
 # <a name="design-details-planning-parameters"></a>Designdetails: Planungsparameter
-Dieses Thema beschreibt die verschiedenen Planungsparameter, die Sie in [!INCLUDE[d365fin](includes/d365fin_md.md)] verwenden können.  
+Dieses Thema beschreibt die verschiedenen Planungsparameter, die Sie in [!INCLUDE[prod_short](includes/prod_short.md)] verwenden können.  
 
 Die Art, in der das Planungssystem Artikelzubehör steuert, wird durch verschiedene Einstellungen auf den Artikelkarten oder den Lagerhaltungsdaten und Einstellungen in der Produktionseinrichtung bestimmt. Die nachstehende Tabelle zeigt, wie diese Parameter für die Planung verwendet werden.  
 
@@ -51,7 +50,7 @@ Wenn das Planungssystem die Notwendigkeit einer Neubestellung erkennt, wird das 
 
 Unabhängige vom Wiederbeschaffungsverfahrens folgt das Planungssystem normalerweise dieser Logik:  
 
-1. Die Menge des Bestellvorschlags wird berechnet, um den angegebenen minimalen Bestand des Artikels zu erfüllen; dies ist normalerweise der Sicherheitsbestand. Wenn nichts angegeben ist, ist der minimale Lagerbestand Null.  
+1. Die Menge des Bestellarbeitsblatts wird berechnet, um den angegebenen minimalen Bestand des Artikels zu erfüllen; dies ist normalerweise der Sicherheitsbestand. Wenn nichts angegeben ist, ist der minimale Lagerbestand Null.  
 2. Wenn der voraussichtlich verfügbare Lagerbestand den Sicherheitsbestand unterschreitet, wird ein rückwärts-geplanter Beschaffungsauftrag vorgeschlagen. Die Auftragsmenge füllt mindestens den Sicherheitsbestand und kann durch den Bruttobedarf innerhalb des Zeitrahmens, durch die Wiederbeschaffungsrichtlinie oder die Auftragsmodifikatoren erhöht werden.  
 3. Wenn der voraussichtliche Lagerbestand den Minimalbestand (berechnet aus den aggregierten Änderungen innerhalb des Zeitrahmens) erreicht oder unterschreitet und über dem Sicherheitsbestand liegt, wird ein vorwärtsgeplanter Ausnahmeauftrag vorgeschlagen. Sowohl der zu erfüllende Bruttobedarf, als auch das Wiederbeschaffungsverfahren bestimmen die Bestellmenge. Mindestens entspricht die Bestellmenge dem Minimalbestand.  
 4. Wenn mehr Grobbedarf vor dem Fälligkeitsdatum des vorwärts geplanten Auftragsvorschlag besteht und dieser Bedarf den derzeit geplanten voraussichtlich verfügbaren Lagerbestand unter den Sicherheitsbestand bringt, wird die Auftragsmenge entsprechend erhöht. Die vorgeschlagene Beschaffungsauftrag wird dann vom Fälligkeitsdatum dieses Grobbedarfs, der den Sicherheitsbestand unterschritten hätte, rückwärts geplant.  
@@ -70,51 +69,76 @@ Die folgenden Wiederbeschaffungsrichtlinien beeinflussen die Menge, die nachbest
 |**Los-für-Los**|Die Menge wird berechnet, um die Summe des Bedarfs abzudecken, der im Zeitrahmen fällig wird.|  
 
 ##  <a name="optimize-when-and-how-much-to-reorder"></a>Optimieren des Zeitpunktes und der Menge bei einer Neubestellung  
-Um einen rationalen Beschaffungsplan zu erhalten, kann ein Planer Planungsparameter genau abstimmen, um Neuplanungsvorschläge einzuschränken, Bedarf zu akkumulieren (dynamische Nachbestellmenge), oder um unwichtige Planungsaktionen zu vermeiden. Die folgenden Nachbestellungsperiodenfelder helfen bei der Optimierung, wann und wie viel nachzubestellen ist.  
+Um einen rationalen Beschaffungsplan zu erhalten, kann ein Planer Planungsparameter genau abstimmen, um NeuPlanungsvorschläge einzuschränken, Bedarf zu akkumulieren (dynamische Nachbestellmenge), oder um unwichtige Planungsaktionen zu vermeiden. Die folgenden Nachbestellungsperiodenfelder helfen bei der Optimierung, wann und wie viel nachzubestellen ist.  
 
 |Feld|Beschreibung|  
 |---------------------------------|---------------------------------------|  
 |**Neuplanungsperiode**|Dieses Feld wird verwendet, um zu ermitteln, ob die Ereignismeldung einen bestehenden Auftrags neu planen oder diesen stornieren und einen neuen Auftrag erstellen soll. Der bestehende Auftrag wird innerhalb einer Neuplanungsperiode vor dem aktuellen Vorrat und bis zu einer Neuplanungsperiode nach dem aktuellen Vorrat neu geplant.|  
-|**Loskumulierungsperiode**|Mit dem Wiederbeschaffungsverfahren Los-für-Los wird dieses Feld verwendet, um mehrere Bedarfsposten in einem Beschaffungsauftrag zusammenzufassen. Ab dem ersten geplanten Vorrat werden alle Bedarfsposten in der folgenden Loskumulierungsperiode in einen Beschaffungsauftrag zusammengefasst, der am Tag des ersten Bedarfs aufgeben wird. Ein Bedarfsposten, der außerhalb der Loskumulierungsperiode liegt, wird nicht durch den Beschaffungsauftrag abgedeckt.|  
-|**Toleranzperiode**|Dieses Feld wird verwendet, um kleinere Neuplanungen für vorhandenen Bedarf rechtzeitig zu vermeiden. Ändert das Lieferdatum, bis eine Toleranzperiode ab dem Lieferdatum keine Ereignismeldungen mehr generiert.<br /><br /> Die Toleranzperiode definiert eine Zeitspanne, die das Planungssystem nicht vorschlagen soll, um bestehende Beschaffungsaufträge in der Planung vorzuverlegen. Dies schränkt die Anzahl der geringfügigen Neuplanungen für vorhandenen Bedarf auf ein späteres Datum ein, wenn dieses neue Datum innerhalb der Toleranzperiode liegt.<br /><br /> Deshalb ist ein positives Delta zwischen dem vorgeschlagenen neuen Lieferdatum und dem ursprünglichen Lieferdatum immer größer als die Toleranzperiode.|  
+|**Loskumulierungsperiode**|Mit dem Wiederbeschaffungsverfahren „Los-für-Los“ wird dieses Feld verwendet, um mehrere Bedarfsposten in einem Beschaffungsauftrag zusammenzufassen. Ab dem ersten geplanten Vorrat werden alle Bedarfsposten in der folgenden Loskumulierungsperiode in einen Beschaffungsauftrag zusammengefasst, der am Tag des ersten Bedarfs aufgeben wird. Ein Bedarfsposten, der außerhalb der Loskumulierungsperiode liegt, wird nicht durch den Beschaffungsauftrag abgedeckt.|  
+|**Toleranzperiode**|Dieses Feld wird verwendet, um kleinere Neuplanungen für vorhandenen Bedarf rechtzeitig zu vermeiden. Ändert das Lieferdatum, bis eine Toleranzperiode ab dem Lieferdatum keine Ereignismeldungen mehr generiert.<br /><br /> Die Toleranzperiode definiert eine Zeitspanne, die das Planungssystem nicht vorschlagen soll, um bestehende Beschaffungsaufträge in der Neuplanung vorzuverlegen. Dies schränkt die Anzahl der geringfügigen Neuplanungen für vorhandenen Bedarf auf ein späteres Datum ein, wenn dieses neue Datum innerhalb der Toleranzperiode liegt.<br /><br /> Deshalb ist ein positives Delta zwischen dem vorgeschlagenen neuen Lieferdatum und dem ursprünglichen Lieferdatum immer größer als die Toleranzperiode.|  
+> [!NOTE]
+> Beim Wiederbeschaffungsverfahren Los-für-Los muss der Wert des Felds **Loskumulierungsperiode** dem Wert des Felds **Toleranzperiode** entsprechen oder größer als dieser sein. Andernfalls wird die Toleranzperiode während der Planungsroutine automatisch reduziert, um der Loskumulierungsperiode zu entsprechen.  
 
 Die Terminierung für die Neuplanungsperiode, die Toleranzperiode und die Loskumulierungsperiode basiert auf einem Lieferdatum. Das Zeitrahmen basiert auf dem Planungsstartdatum, wie in der folgenden Abbildung gezeigt.  
 
-![Zeitrahmenelemente](media/supply_planning_5_time_bucket_elements.png "Zeitbereich-Elemente")  
+![Zeitrahmen-Elemente.](media/supply_planning_5_time_bucket_elements.png "Zeitbereich-Elemente")  
 
 In den folgenden Beispielen stellen die schwarzen Pfeile vorhandenen Bedarf (aufwärts) und Bedarf dar (abwärts). Rote, grüne und orange Pfeile sind Planungsvorschläge.  
 
 **Beispiel 1**: Das geänderte Datum liegt außerhalb der Neuplanungsperiode, wodurch der bestehende Vorrat storniert wird. Ein neuer Vorrat wird vorgeschlagen, um den Bedarf in der Loskumulierungsperiode zu decken.  
 
-![Neuplanungsperiode und Losakkumulationsperiode](media/supply_planning_5_recheduling_period_lot_accumulation_period.png "Neuplanungsperiode und Losakkumulationsperiode")  
+![Neuplanungsperiode und Loskumulierungsperiode.](media/supply_planning_5_recheduling_period_lot_accumulation_period.png "Neuplanungsperiode und Losakkumulationsperiode")  
 
 **Beispiel 2**: Das geänderte Datum liegt innerhalb der Neuplanungsperiode, wodurch der bestehende Vorrat neu geplant wird. Ein neuer Vorrat wird vorgeschlagen, um den Bedarf außerhalb der Loskumulierungsperiode zu decken.  
 
-![Neuplanungsperiode, Losakkumulationsperiode und Neuplanung](media/supply_planning_5_recheduling_period_lot_accum_period_reschedule.png "Neuplanungsperiode, Losakkumulationsperiode und Umplanung")  
+![Neuplanungsperiode, Loskumulierungsperiode und Neu planen.](media/supply_planning_5_recheduling_period_lot_accum_period_reschedule.png "Neuplanungsperiode, Loskumulierungsperiode und Neu planen")  
 
 **Beispiel 3**: Es gibt einen Bedarf in der Toleranzperiode, und die Vorratsmenge in der Loskumulierungsperiode entspricht der Vorratsmenge. Der nächste Bedarf wird aufgedeckt, und ein neuer Vorrat wird vorgeschlagen.  
 
-![Toleranzperiode und Lotakkumulationsperiode](media/supply_planning_5_dampener_period_lot_accumulation_period.png "Toleranzperiode und Losakkumulationsperiode")  
+![Dämpfungsperiode und Loskumulierungsperiode.](media/supply_planning_5_dampener_period_lot_accumulation_period.png "Toleranzperiode und Losakkumulationsperiode")  
 
 **Beispiel 4**: Es gibt einen Bedarf in der Toleranzperiode, und der Vorrat bleibt auf dem selben Datum. Die derzeitige Vorratsmenge reicht jedoch nicht aus, um den Bedarf in der Loskumulierungsperiode zu decken; daher wird eine Mengenänderungsaktion für den vorhandenen Beschaffungsauftrag empfohlen.  
 
-![Toleranzperiode, Losakkumulationsperiode und Änderungsmenge](media/supply_planning_5_dampener_period_lot_accum_period_change_qty.png "Toleranzperiode , Losakkumulationsperiode und Änderungsmenge")  
+![Dämpfungsperiode, Loskumulierungsperiode und Änderungsmenge.](media/supply_planning_5_dampener_period_lot_accum_period_change_qty.png "Toleranzperiode , Losakkumulationsperiode und Änderungsmenge")  
 
 **Vorgabewerte**: Der Vorgabewert des **Zeitrahmen**-Feldes und der drei Nachbestellungsperiodenfelder ist leer. Für alle Felder mit Ausnahme des Felds **Toleranzperiode** bedeutet dies 0D (Null Tage). Wenn das Feld **Toleranzperiode** leer ist, wird der Wert im Feld **Standardtoleranzperiode** auf der Seite **Produktion Einrichtung** verwendet.  
 
 ## <a name="modify-the-supply-orders"></a>Ändern Sie die Beschaffungsaufträge  
-Wenn die Menge des Bestellvorschlags berechnet wurde, können eine oder mehrere der Auftragsmodifikationen ihn anpassen. Beispielsweise ist die maximale Auftragsgröße größer als oder gleich der minimale Auftragsgröße, die größer als oder gleich dem Auftragsvielfachen ist.  
+Wenn die Menge des Bestellarbeitsblatts berechnet wurde, können eine oder mehrere der Auftragsmodifikationen ihn anpassen. Beispielsweise ist die maximale Auftragsgröße größer als oder gleich der minimale Auftragsgröße, die größer als oder gleich dem Auftragsvielfachen ist.  
 
-Die Menge wird verringert, wenn sie die maximale Auftragsmenge übersteigt. Dann wird sie erhöht, wenn sie unter der Mindestbestellgröße liegt. Schließlich wird sie aufgerundet, sodass sie einem angegebenen Auftragsvielfachen entspricht. Alle Restmengen verwenden die gleichen Regulierungen, bis der Gesamtbedarf in Bestellvorschläge umgewandelt wurde.  
+Die Menge wird verringert, wenn sie die maximale Auftragsmenge übersteigt. Dann wird sie erhöht, wenn sie unter der Mindestbestellgröße liegt. Schließlich wird sie aufgerundet, sodass sie einem angegebenen Auftragsvielfachen entspricht. Alle Restmengen verwenden die gleichen Regulierungen, bis der Gesamtbedarf in Bestellarbeitsblätter umgewandelt wurde.  
 
 ## <a name="delimit-the-item"></a>Abgrenzen des Artikels  
 Die Option **Produktionsart** definiert, welche zusätzlichen Aufträge die Nettobedarfsberechnung vorschlagen wird.  
 
 Wenn die Option **Lagerfertigung** verwendet wird, betreffen die Aufträge nur den jeweiligen Artikel.  
 
-Wenn die Option **Auftragsfertigung** verwendet wird, analysiert das Planungssystem die Fertigungsstückliste des Artikels und erstellt zusätzliche verknüpfte Vorschlagszeilen für diejenigen Artikel auf untergeordneter Ebene, die auch als Auftragsfertigung definiert werden. Dieses wird fortgesetzt, solange Auftragsfertigungsartikel in den absteigenden Stücklistenstrukturen vorhanden sind.  
+Wenn die Option **Auftragsfertigung** verwendet wird, analysiert das Planungssystem die Fertigungsstückliste des Artikels und erstellt zusätzliche verknüpfte Vorschlagszeilen für diejenigen Artikel auf untergeordneter Ebene, die auch als Auftragsfertigung definiert werden. Dieses wird fortgesetzt, solange Auftragsfertigungsartikel in den absteigenden Stücklistenstrukturen vorhanden sind.
 
-## <a name="see-also"></a>Siehe auch  
-[Designdetails: Umgang mit Wiederbeschaffungsverfahren](design-details-handling-reordering-policies.md)   
+## <a name="use-low-level-codes-to-manage-derived-demand"></a>Verwenden von eine Stücklistenebenen, um den abgeleiteten Bedarf zu verwalten
+
+Verwenden Sie eine Stücklistenebenen, um den abgeleiteten Bedarf an Komponenten bis zu den unteren Ebenen der Stückliste durchzuleisten. Eine ausführlichere Erklärung dazu finden Sie unter [Artikelpriorität Stücklistenebene](design-details-central-concepts-of-the-planning-system.md#item-priority--low-level-code).
+
+Jedem Teil in der Erzeugnisstruktur oder der eingerückten Stückliste wird eine Stücklistenebene zugeordnet. Das oberste Fertigprodukt wird mit der Ebene 0 gekennzeichnet. Je größer die Stücklistenebenennummer, desto tiefer ist der Artikel in der Hierarchie. Fertigprodukte haben z. B. die Ebene 0, Baugruppen, die als Teile in die Montage des Produkts eingehen, haben die Ebenen 1, 2, 3 und so weiter. Das Ergebnis ist die mit den Bedarfen koordinierte Planung von Baugruppen aller Artikel mit einer höheren Ebenennummer. Wenn Sie einen Plan berechnen, wird die Stückliste im Planungsvorschlag entfaltet, und der Bruttobedarf für die Ebene 0 geht ein in die Bruttobedarfe für die nächste Planungsebene.
+
+Wählen Sie das Feld **Dyn. Stückl.-Ebene berechnen** aus, um anzugeben, ob sofort Stücklistenebenen für jede Komponente in der Produktstruktur zugewiesen und berechnet werden sollen. Wenn Sie große Mengen an Daten haben, kann sich diese Funktion negativ auf die Leistung der Anwendung auswirken (zum Beispiel bei der automatischen Kostenanpassung). Beachten Sie, dass diese Funktion nicht rückwirkend arbeitet. Deshalb ist es empfehlenswert, diese Funktion bereits im Vorfeld zu verwenden.
+
+Als Alternative zur automatischen Berechnung, die bei aktiviertem Kontrollkästchen dynamisch erfolgt, können Sie im Menü **Produktion** den Batchauftrag **Stücklistenebene berechnen** ausführen, indem Sie auf **Produktentwicklung** und anschließend auf **Stücklistenebene berechnen** klicken.
+
+> [!IMPORTANT]
+> Wenn Sie nicht das Feld **Dyn. Stückl.-Ebene berechnen** auswählen, dann müssen Sie den Batchauftrag **Stücklistenebene berechnen** ausführen, bevor Sie den Beschaffungsplan berechnen (den Batchauftrag **Planung berechnen**).  
+
+> [!NOTE]
+> Auch bei aktiviertem Kontrollkästchen **Dyn. Stückl.-Ebene berechnen** werden die Stücklistenebenen nicht dynamisch geändert, wenn eine übergeordnete Stückliste gelöscht wird oder als nicht zertifiziert festgelegt wird. Dadurch ergeben sich möglicherweise Probleme beim Hinzufügen neuer Artikel zum Ende der Produktstruktur, da unter Umständen die maximale Anzahl von Stücklistenebenen überschritten wird. Daher empfiehlt es sich bei umfangreichen Produktstrukturen, bei denen das Limit für die Stücklistenebenen erreicht wird, häufig die Stapelverarbeitung **Stücklistenebene berechnen** auszuführen, um die Struktur beizubehalten.  
+
+### <a name="optimize-low-level-code-calculation"></a>Stücklistenebenencode-Berechnung optimieren
+
+Wählen Sie das Feld **Stücklistenebenencode-Berechnung optimieren** aus, um anzugeben, dass Sie die neue, schnellere Methode der Stücklistenebenencode-Berechnung verwenden möchten. Beachten Sie, dass die neue Berechnung anders ausgeführt wird und dass bei ihrer Verwendung möglicherweise Erweiterungen beschädigt werden, die auf der vorhandenen Methode basieren. Die neue Berechnungsmethode wird die bisherige Methode in einem zukünftigen Release ersetzen.
+
+## <a name="see-also"></a>Weitere Informationen  
+[Entwurfsdetails: Handhabung von Richtlinien zur Wiederbestellung](design-details-handling-reordering-policies.md)   
 [Designdetails: Ausgleich von Bedarf und Vorrat](design-details-balancing-demand-and-supply.md)   
 [Designdetails: Zentrale Konzepte des Planungssystems](design-details-central-concepts-of-the-planning-system.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

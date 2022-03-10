@@ -1,29 +1,28 @@
 ---
-title: Microsoft Pay Standard | Microsoft Docs
-description: Enthält Informationen über die Microsoft Pay-Erweiterung
+title: Microsoft Pay Standard
+description: Die Microsoft Pay-Erweiterung fügt einen Microsoft Pay-Link zu Verkaufsbelegen hinzu, sodass Debitoren einfach mithilfe von Microsoft Pay bezahlen können.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: df7ce179f14fdaea9a65645d6ccf5d69076212db
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: d5668db9d0a7fa9b461a19949643ca7a2cc01a31
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3194115"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132524"
 ---
 # <a name="the-microsoft-pay-extension"></a>Die Microsoft Pay-Erweiterung
 
 > [!IMPORTANT]
-> Mit Wirkung zum 8. Februar 2020 wirken sich Änderungen im Microsoft Pay-Service auf die Microsoft Pay-Erweiterung in Microsoft [!INCLUDE[d365fin](includes/d365fin_long_md.md)] aus. Aufgrund der Änderungen öffnen die **Zahlen Sie jetzt**-Zahlungslinks, die die Microsoft Pay-Erweiterung für Rechnungen in [!INCLUDE[d365fin](includes/d365fin_md.md)] generiert, nach dem 8. Februar Microsoft Pay nicht. Kunden, die die Erweiterung verwenden, sollten ihre Zahlungsverkehrseinrichtung ändern, um stattdessen die PayPal-Erweiterung zu verwenden.<br /></br>
+> Mit Wirkung zum 8. Februar 2020 wirken sich Änderungen im Microsoft Pay-Service auf die Microsoft Pay-Erweiterung in Microsoft [!INCLUDE[prod_short](includes/prod_long.md)] aus. Aufgrund der Änderungen öffnen die **Zahlen Sie jetzt**-Zahlungslinks, die die Microsoft Pay-Erweiterung für Rechnungen in [!INCLUDE[prod_short](includes/prod_short.md)] generiert, nach dem 8. Februar Microsoft Pay nicht. Kunden, die die Erweiterung verwenden, sollten ihre Zahlungsverkehrseinrichtung ändern, um stattdessen die PayPal-Erweiterung zu verwenden.<br /></br>
 >
-> Ab dem 8. Januar wird in [!INCLUDE[d365fin](includes/d365fin_md.md)] eine Benachrichtigung angezeigt. Die Benachrichtigung enthält einen Link zu den Einstellungen, die Sie ändern müssen, und zu weiteren Informationen. Nach dem 8. Februar ist die Microsoft Pay-Erweiterung nicht mehr in [!INCLUDE[d365fin](includes/d365fin_md.md)] verfügbar.<br /></br>
+> Ab dem 8. Januar wird in [!INCLUDE[prod_short](includes/prod_short.md)] eine Benachrichtigung angezeigt. Die Benachrichtigung enthält einen Link zu den Einstellungen, die Sie ändern müssen, und zu weiteren Informationen. Nach dem 8. Februar ist die Microsoft Pay-Erweiterung nicht mehr in [!INCLUDE[prod_short](includes/prod_short.md)] verfügbar.<br /></br>
 >
 > Die Änderungen wirken sich auf die folgenden Versionen von Business Central aus:
 > - Microsoft Dynamics 365 Business Central Oktober 2018
@@ -42,9 +41,12 @@ Die Microsoft Pay-Erweiterung bietet die folgenden Vorteile:
 - Der Microsoft Pay-Link kann jedem Rechnungsbeleg oder vom Benutzer automatisch eingebettet werden.
 - Da diese Funktionalität als Erweiterung aufgebaut ist, gibt sie Ihnen Kontrolle, um sie zu aktivieren und wenn die Geschäftsvorgänge sie benötigen.
 
-Das Aktivieren der Zahlungsverkehrerweiterungen ist frei in [!INCLUDE[d365fin](includes/d365fin_md.md)]jedoch müssen Sie den Zahlungsservice kontaktieren, um ein Konto auszuwählen. Weitere Informationen finden Sie unter [Aktivieren Sie Zahlungen durch Zahlungsverkehr](sales-how-enable-payment-service-extensions.md)
+Das Aktivieren der Zahlungsverkehrerweiterungen ist frei in [!INCLUDE[prod_short](includes/prod_short.md)]jedoch müssen Sie den Zahlungsservice kontaktieren, um ein Konto auszuwählen. Weitere Informationen finden Sie unter [Aktivieren Sie Zahlungen durch Zahlungsverkehr](sales-how-enable-payment-service-extensions.md)
 
 ## <a name="see-also"></a>Siehe auch
-[Anpassen [!INCLUDE[d365fin](includes/d365fin_md.md)] Erweiterungen nutzen](ui-extensions.md)  
+[Anpassen [!INCLUDE[prod_short](includes/prod_short.md)] Erweiterungen nutzen](ui-extensions.md)  
 [Einrichten von Verkäufen](sales-setup-sales.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

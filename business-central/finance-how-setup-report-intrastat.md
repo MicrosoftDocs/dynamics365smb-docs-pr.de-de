@@ -2,21 +2,20 @@
 title: Einrichten und Berichten von Intrastat
 description: Erfahren Sie, wie Intrastat-Berichtsfunktinen eingerichtet werden, und wie der Handel mit Unternehmen in anderen EU-Ländern gemeldet wird.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
 ms.search.form: 308, 309, 310, 311, 325, 326, 327, 328, 405, 406, 8451, 12202, 31077
-ms.date: 04/01/2021
+ms.date: 01/28/2022
 ms.author: bholtorf
-ms.openlocfilehash: c2f54f37791b93f41aa4cf03aaf7b6d6856cd15c
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: cf6a58789a2ff9dab867699bad8fc63ed40dc5ac
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7971093"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142238"
 ---
 # <a name="set-up-and-report-intrastat"></a>Einrichten und Berichten von Intrastat
 
@@ -28,7 +27,11 @@ Bevor Sie das Intrastat Buch.-Blatt verwenden können, um Intrastat-Informatione
 * **Intrastat einrichten**: Intrastat-Einrichtungsseite wird verwendet, um Intrastat-Berichts- und Satzstandards zu aktivieren. Sie können festlegen, ob Sie die Intrastatmeldung von Lieferungen (Dispatches), Eingängen (Wareneingang) oder beiden abhängig von den Schwellenwerten melden müssen, die von Ihren lokalen Vorschriften festgelegt werden. Sie können auch die Transaktionstypen für reguläre Dokumente und Reklamationsbelege festlegen, die für die Transaktionsberichterstellung verwendet werden.
 * **Intrastat Buch.-Blattvorlagen**: Sie müssen die Intrastat-Buch.-Blattvorlagen und Intrastat-Buch.-Blattnamen einrichten, die Sie verwenden. Da Intrastat-Daten monatlich erfasst werden, müssen Sie 12 Intrastat-Buchungsblätter basierend auf derselben Vorlage erstellen.  
 * **Warencodes**: Zoll- und Steuerbehörde haben numerische Codes eingerichtet, die Artikel und Dienstleistungen klassifizieren. Sie geben diese Codes der Artikel an.
-* **Transaktionstypencodes**: Länder und Regionen haben unterschiedliche Codes für Intrastat-Transaktionstypen, wie beispielsweise gewöhnlichen Einkauf und Verkauf, den Austausch zurückgegebener Waren und den Austausch nicht zurückgegebener Waren. Einrichtung aller Codes, die sich auf Ihr Land/Ihre Region beziehen. Sie verwenden diese Codes in Einkaufs- und Verkaufsbelegen und wenn Sie Rückgaben verarbeiten.  
+* **Transaktionstypencodes**: Länder und Regionen haben unterschiedliche Codes für Intrastat-Transaktionstypen, wie beispielsweise gewöhnlichen Einkauf und Verkauf, den Austausch zurückgegebener Waren und den Austausch nicht zurückgegebener Waren. Einrichtung aller Codes, die sich auf Ihr Land/Ihre Region beziehen. Sie verwenden diese Codes in Einkaufs- und Verkaufsbelegen und wenn Sie Rückgaben verarbeiten. 
+
+    > [!NOTE]
+    > Ab Januar 2022 verlangt Intrastat unterschiedliche Transaktions-Natur-Codes für Versendungen an Privatpersonen oder nicht mehrwertsteuerlich registrierte Unternehmen und an mehrwertsteuerlich registrierte Unternehmen. Um diese Anforderung zu erfüllen, empfehlen wir Ihnen, die Transaktionsnatur-Codes auf der Seite **Transaktionsarten** entsprechend den Anforderungen in Ihrem Land zu überprüfen und/oder neue hinzuzufügen. Außerdem sollten Sie das Feld **Partnertyp** überprüfen und auf der entsprechenden **Kunden**-Seite auf *Person* für Privatpersonen oder nicht mehrwertsteuerlich registrierte Debitorenkunden aktualisieren. Wenn Sie sich nicht sicher sind, welcher Partnertyp oder welche Transaktionsart zu verwenden ist, empfehlen wir Ihnen, einen Experten in Ihrem Land oder Ihrer Region zu fragen. 
+ 
 * **Transportmethoden**: Es gibt sieben einstellige Codes für Intrastat-Transportmethoden. **1** für See, **2** für Schiene, **3** für Straße, **4** für Luft, **5** für Post, **7** für feste Installationen und **9** für eigenen Antrieb (z. B. Tranportieren eines Autos, indem dieses gefahren wird). [!INCLUDE[prod_short](includes/prod_short.md)] erfordert diese Codes nicht, wir empfehlen jedoch, dass die Beschreibungen eine ähnliche Bedeutung bereitstellen.  
 * **Transaktionsspezifikationen**: Dienen der Ergänzung der Beschreibungen aus den Buchungsarten.  
 * **Ursprungsland**: Verwenden Sie die aus zwei Buchstaben bestehenden ISO-Alphacodes für das Land, in dem die Ware erworben oder hergestellt wurde. Wenn die Ware in mehr als einem Land hergestellt wurde, ist das Ursprungsland das letzte Land, in dem sie in nennenswertem Umfang verarbeitet wurde. 
@@ -110,7 +113,19 @@ Nachdem Sie das Intrastat-Buch.-Blatt ausgefüllt haben, können Sie den Bericht
 Der Batchauftrag holt alle Posten innerhalb der Statistikperiode und fügt Sie als Zeilen im Intrastat Buch.-Blatt ein. Sie können diese Positionen bei Bedarf bearbeiten.  
 
 > [!IMPORTANT]  
-> Durch die Stapelverarbeitung werden nur die Posten abgerufen, die einen Länder-/Regionscode enthalten, für den auf der Seite **Länder/Regionen** ein Intrastatcode angegeben wurde. Daher ist es wichtig, dass Sie Intrastatcodes für die Länder-/Regionscodes eingeben, für die Sie die Stapelverarbeitung ausführen möchten.  
+> Durch die Stapelverarbeitung werden nur die Posten abgerufen, die einen Länder-/Regionscode enthalten, für den auf der Seite **Länder/Regionen** ein Intrastatcode angegeben wurde. Daher ist es wichtig, dass Sie Intrastatcodes für die Länder-/Regionscodes eingeben, für die Sie die Stapelverarbeitung ausführen möchten. Der Batchauftrag legt das Feld **Partner-Umsatzsteuer-ID** auf *QV999999999999* für Privatpersonen oder nicht mehrwertsteuerpflichtige Unternehmen fest (Kunden, bei denen das Feld **Partnertyp** auf *Person* festgelegt ist), und er verwendet den Wert des Feldes **Tranaktionsart** auf dem gebuchten Artikel- oder Auftragsbucheintrag. 
+
+### <a name="to-modify-intrastat-journals-lines"></a>So ändern Sie die Zeilen der Intrastat-Erfassungen
+
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Intrastat-Buch.-Blatt** ein und wählen Sie dann den entsprechenden Link.  
+2. Wählen Sie auf der Seite **Intrastat-Buch.-Blatt** den betreffenden Buch.-Blattnamen im Feld **Buch.-Blattname** aus und dann **OK**.  
+3. Benutzer-Filterbereich zum Filtern von Intrastat-Jorunal-Zeilen anhand bestimmter Kriterien. Filtern Sie zum Beispiel auf **Partner-Mehrwertsteuer-ID** Felder mit dem Wert *QV999999999999*.
+4. Wählen Sie das Symbol **Freigeben** ![Eine Seite in einer anderen App freigeben.](media/share-icon.png) und wählen Sie **Bearbeiten in Excel**
+5. Ändern Sie in Excel die Intrastat-Buch.-Blatt-Zeilen, die Sie herausgefiltert haben. Ändern Sie zum Beispiel die Werte des Feldes **Transaktionsart**.  
+6. Veröffentlichen Sie die Änderungen, die Sie in Excel vorgenommen haben, zurück auf [!INCLUDE[prod_short](includes/prod_short.md)].
+
+> [!Note]
+> In [!INCLUDE[prod_short](includes/prod_short.md)]-Versionen, die [**Bearbeiten in Excel**](across-work-with-excel.md#edit-in-excel) für Erfassungen nicht unterstützen, können Sie [Konfigurationspakete](admin-how-to-prepare-a-configuration-package.md#to-create-a-configuration-package) erstellen, um Intrastat-Buchungsblattzeilen nach Excel zu exportieren und zu importieren. 
 
 ### <a name="report-intrastat-on-a-form-or-a-file"></a>Melden von Intrastat auf einem Formular oder einer Datei
 

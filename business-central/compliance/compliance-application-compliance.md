@@ -1,22 +1,21 @@
 ---
-title: Anwendungs-Kompatibilität | Microsoft Docs
-description: Dieser Inhalt enthält Informationen über Anwendungskompatibilität in Bezug auf Business Central.
+title: Anwendungs-Kompatibilität
+description: Dieses Thema erklärt die Anwendungs-Compliance in Bezug auf Business Central wie die International Financial Reporting Standards, lokale Funktionen und die DSGVO.
 author: sorenfriisalexandersen
 documentationcenter: ''
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 06/14/2021
 ms.author: soalex
-ms.openlocfilehash: cc95787d17affb1291ad963b5e69b303a579f1e7
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 7d264ae88d1f9743d7e30994ee0e39f19a5febbd
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4752005"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8139859"
 ---
 # <a name="application-compliance"></a>Anwendungs-Kompatibilität
 
@@ -77,7 +76,6 @@ Stellen Sie integrierte Informationen, abgestimmte Prozesse und benutzerfreundli
 - Sparen Sie Zeit, wenn Sie Standardberichte erstellen, die allgemeine Geschäftsparameter und die Kriterien verwenden, um Berichtsanforderungen zu erfüllen, angefangen bei Auftragszusammenfassungen bis zu Debitorenkonten.
 - Führen Sie komplexe Überprüfungen mit erweiterter oder grundlegender Geschäftsanalytikfunktionalität aus.
 - Erstellen Sie benutzerdefinierte Berichte und Produktanzeigen und nutzen Sie die Integration von Microsoft POWERBI.
-- Beschleunigen Sie die Übertragung der Finanzdaten zu Debitoren, Aktionären, Aufsichtsbehörden und der Öffentlichkeit MIT XML-basierten XBRL-Belegen, die den Austausch der Finanzdaten über Software und Technologien unterstützen, einschließlich dem Internet.
 
 ### <a name="help-ensure-clear-audit-trails"></a>Stellen Sie klare Protokolle sicher
 
@@ -110,3 +108,6 @@ Microsoft erstellt lokalisierte Versionen von Business Central für eine begrenz
 
  ## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

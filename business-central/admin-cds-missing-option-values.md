@@ -1,22 +1,21 @@
 ---
 title: Behandlung fehlender Optionswerte
-description: Erfahren Sie, wie Sie verhindern können, dass die vollständige Synchronisierung fehlschlägt, weil sich die Optionen in den zugeordneten Feldern unterscheiden.
+description: Erfahren Sie, wie Sie verhindern können, dass die vollständige Synchronisierung fehlschlägt, weil sich die Optionen in den zugeordneten Feldern unterscheiden. Dieser Prozess erfordert die Hilfe eines Entwicklers.
 author: bholtorf
 ms.author: bholtorf
 ms.custom: na
 ms.reviewer: na
-ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.date: 10/01/2020
-ms.openlocfilehash: 2b6d27ed04eb7f09bc884930105867c25b2b4a5f
-ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
+ms.date: 06/14/2021
+ms.openlocfilehash: 34d1583ac7e844a7d7acad82f202c37be0b99c47
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5492959"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8133966"
 ---
 # <a name="handling-missing-option-values"></a>Behandlung fehlender Optionswerte
-[!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
+
 
 Dieses Thema richtet sich an ein technisches Publikum. Die darin beschriebenen Prozesse erfordern die Hilfe eines Entwicklers.
 

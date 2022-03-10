@@ -1,22 +1,21 @@
 ---
-title: Eingeben von Datumsangaben und Uhrzeiten in Business Central | Microsoft Docs
-description: Erfahren Sie, wie Sie Datumsangaben und Uhrzeiten einschließlich verschiedener Produktivitätstipps wie Stenografie, Ausdrücke und Bereiche eingegeben. Filtern Sie Listen oder Berichte bis zu einem bestimmten Datum oder zu Zeiträumen.
-documentationcenter: ''
+title: Eingeben von Daten und Zeiten in Business Central
+description: Erfahren Sie, wie Sie Datumsangaben und Uhrzeiten einschließlich verschiedener Produktivitätstipps wie Stenografie, Ausdrücke und Bereiche eingegeben.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
-ms.date: 10/01/2020
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 3a48863231c06742e5cc1b2f13d554e65cb8ae91
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 934fcefa552f01a05f95221d57d9a708b9acc26f
+ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5381215"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323006"
 ---
 # <a name="working-with-calendar-dates-and-times"></a>Arbeiten mit Datumsangaben und Uhrzeiten in Kalendern
 
@@ -48,7 +47,7 @@ Um produktiver mit Datumswerten und Uhrzeiten zu arbeiten, können Sie alle Meth
 
 Alle Felder, die ein Kalendersymbol anzeigen, können mithilfe der Kalendertagauswahl festgelegt werden. Um die Kalendertagauswahl anzuzeigen, aktivieren Sie das Kalendersymbol oder drücken Sie die Tastenkombination STRG+POS1 im Feld.
 
-![Datumsfelder](media/ui-date-field.png "Beispiel für ein Datumsfeld")
+![Datumsfelder.](media/ui-date-field.png "Beispiel für ein Datumsfeld")
 
 Weitere Informationen unter [Tastenkombinationen in der Kalenderdatumsauswahl](keyboard-shortcuts.md#calendarshortcuts).
 
@@ -72,23 +71,21 @@ In einem Datumsfeld können zwei-, vier-, sechs- oder achtstellige Werte eingege
 
 ### <a name="today"></a>Heute
 
-Geben Sie das Wort für heute in der Sprache ein, die von der **Sprach**-Einstellung festgelegt wird. Dadurch wird das Datum auf das aktuelle Datum festgelegt. Anstatt den gesamten Begriff einzugeben, können Sie einen Teil des Begriffs eingeben. Beginnen Sie mit h oder heu , sofern dies nicht auch der Beginn eines anderen Begriffs ist.
+Geben Sie das Wort für _Heute_ in der Sprache ein, die auf der Seite **Meine Einstellungen** angegeben ist, um das Datum eines Datensatzes auf das heutige Datum festzulegen. Anstatt das ganze Wort einzugeben, können Sie auch einen Teil des Wortes eingeben, beginnend mit dem Anfang. Im Englischen können Sie z.B. _t_ oder _tod_ eingeben, solange es nicht gleichzeitig der Anfang eines anderen Wortes ist.
 
 ### <a name="period"></a>Periode
 
-Wenn Sie eine bestimmte Buchhaltungsperiode filtern möchten, geben Sie in einem Datumsfeld den Buchstaben P oder das Wort Periode ein, gefolgt von einer Nummer, die die Buchhaltungsperiode identifiziert, z. B. P2 oder Periode 4. Die Buchhaltungsperiode ist relativ zum Geschäftsjahr des aktuellen Arbeitsdatums, das von Ihrem Rollencenter festgelegt wurde. Wenn beispielsweise das Arbeitsdatum **21.03.2020** lautet, dann filtert P1 oder einfach P in der ersten Buchhaltungsperiode des Geschäftsjahres 2020 (wie 01.01.2020..31.01.2020). P15 filtert den Fünfzehnten der Buchhaltungsperiode ab dem Anfang des Geschäftsjahres 2020 (wie 01.03.2021..31.03.2021 ).
+Wenn Sie eine bestimmte Buchhaltungsperiode filtern möchten, geben Sie in einem Datumsfeld den Buchstaben P oder das Wort Periode ein, gefolgt von einer Nummer, die die Buchhaltungsperiode identifiziert, z. B. P2 oder Periode 4. Die Buchhaltungsperiode ist relativ zum Geschäftsjahr des aktuellen Arbeitsdatums, das von Ihrem Rollencenter festgelegt wurde. Wenn beispielsweise das Arbeitsdatum **21.03.2020** lautet, dann filtert P1 oder einfach P in der ersten Buchhaltungsperiode des Geschäftsjahres 2020 (wie 01.01.2020..31.01.2020). P15 filtert den Fünfzehnten der Buchhaltungsperiode ab dem Anfang des Geschäftsjahres 2020 (wie 01.03.2021..31.03.2021).
 
 Die Buchhaltungsperioden werden auf der Seite **Buchhaltungsperiode** definiert. Um die Buchhaltungsperioden anzuzeigen oder zu ändern, öffnen Sie [hier](https://businesscentral.dynamics.com/?page=100) die Seite.
 
-### <a name="current-work-date"></a>Aktuelles Arbeitsdatum
+### <a name="work-date"></a>Arbeitsdatum
 
-Die Arbeitsdatumsfunktion ermöglicht es Ihnen Übergänge mithilfe eines Datums aufzuzeichnen, das sich vom aktuellen Datum unterscheidet.
+Verwenden Sie ein Arbeitsdatum, um ein Datum anzugeben, das in Datensätzen nicht das heutige Datum ist. Ein Arbeitsdatum ist zum Beispiel nützlich, wenn Sie ein bestimmtes Datum für mehrere Datensätze festlegen müssen. Sie legen das Arbeitsdatum auf der Seite **Meine Einstellungen** fest. 
 
-Das für Wort "Arbeitsdatum" in der Sprache, die in der Einstellung **Sprache** festgelegt ist, legt das Datum auf das aktuell festgelegte Arbeitsdatum fest, das auf der Seite **Meine Einstellungen** definiert ist. Anstatt das gesamte Wort einzugeben, können Sie vom Anfang an einen Teil des Begriffs eingeben, z. B. 'A' oder 'Arbeit'.
+Eine schnelle Möglichkeit, das Arbeitsdatum auf Datensätzen einzugeben, ist die Eingabe eines Teils oder des gesamten Wortes _Arbeit_, beginnend mit dem Wortanfang, in der Sprache, in der Sie [!INCLUDE[prod_short](includes/prod_long.md)] verwenden. In Englisch können Sie zum Beispiel _w_ oder _work_ eingeben. Die Sprache wird auch auf der Seite **Meine Einstellungen** festgelegt.
 
-Wenn Sie kein Arbeitsdatum definiert haben, wird das aktuelle Datum als Arbeitsdatum verwendet. Die Verwendung des Arbeitsdatums ist hilfreich, wenn eine Vielzahl von Transaktionen zu einem Datum ausgeführt werden müssen, das vom Systemdatum abweicht.
-
-Weitere Informationen finden Sie unter [Ändern von grundlegenden Einstellungen, wie Arbeitsdatum](ui-change-basic-settings.md#work-date).
+Wenn Sie kein Arbeitsdatum angegeben haben, wird das heutige Datum verwendet. Weitere Informationen finden Sie unter [Grundlegende Einstellungen, wie das Arbeitsdatum festlegen](ui-change-basic-settings.md#work-date).
 
 ### <a name="closing-date"></a>Ultimodatum
 
@@ -102,12 +99,12 @@ Die folgende Tabelle enthält Beispiele von Datumsangaben, die alle diese Format
 
 |**Eingabe**      |**Interpretation**      |
 |---------------|------------------------|
-|2018.12.31.|31.12.2018|
-|181231|31.12.2018|
-|18.12.31.|31.12.2018|
-|18.12.31.|31.12.2018|
-|20181231|31.12.2018|
-|18/12,31|31.12.2018|
+|2022.12.31.|2022.12.31.|
+|221231|2022.12.31.|
+|22.12.31.|2022.12.31.|
+|22.12.31.|2022.12.31.|
+|20221231|2022.12.31.|
+|22/12,31|2022.12.31.|
 |11|11.Arbeitsdatum Monat.Arbeitsdatum Jahr|
 |1112|12.11.Arbeitsdatum Jahr.|
 |"h" für heute|heutiges Datum|
@@ -194,12 +191,12 @@ Das folgende Beispiel zeigt, wie Sie ein Minuszeichen verwenden können, um anzu
 |-1J|Heute vor einem Jahr|
 
 > [!IMPORTANT]
->  Wenn für den Lagerort einen Grundkalender verwendet, wird das Datumsformular, das Sie eingeben, zum Beispiel das Feld **Transportzeit**, entsprechend der Kalenderarbeitstage interpretiert. Zum Beispiel entspricht 1W sieben Arbeitstagen.
+> Wenn für den Lagerort einen Grundkalender verwendet, wird das Datumsformular, das Sie eingeben, zum Beispiel das Feld **Transportzeit**, entsprechend der Kalenderarbeitstage interpretiert. Zum Beispiel entspricht 1W sieben Arbeitstagen.
 <!--
 # Entering Date Ranges
 You can set filters containing a start date and an end date to display only the data contained in that date range or time interval. Special rules apply to the way you set date ranges. Let's take the **Customer Top 10** as an example:
 
-![Setting a date range in the request page for the Customer Top 10 list](./media/ui-enter-date-ranges/customer-top10-list.png)
+![Setting a date range in the request page for the Customer Top 10 list.](./media/ui-enter-date-ranges/customer-top10-list.png)
 
 Here you can limit the report to a date range such as the past 2 weeks, or a total of 6 weeks, or whatever range you want. To set date ranges, you enter dates and then use either **..** or **|** to set the range. In our example, to show the top 10 customers for the first two weeks of May, you would set the date filter to *05 01 17..05 14 17*.
 Here are a couple of other examples:
@@ -314,36 +311,9 @@ Sie können 24.00 nicht verwenden, um Mitternacht anzugeben oder einen Wert anzu
 
 Das für Wort für "Zeit" in der Sprache, die von [!INCLUDE[prod_short](includes/prod_long.md)] verwendet wird, wird in die aktuelle Uhrzeit auf Ihrem Computer oder mobilen Gerät umgerechnet. Sie können vom Anfang einem Teil des Begriffs eingeben, z. B. h oder TIM.
 
-## <a name="entering-combined-dates-and-times"></a>Eingeben kombinierter Datums- und Zeitangaben
-Wenn Sie Datums-/Uhrzeitangaben eingeben, die aus einem kombinierten Datum und einer Uhrzeit in einem Feld bestehen, müssen Sie ein Leerzeichen zwischen dem Datum und der Uhrzeit eingeben. Der Datumsteil kann nur Stellen in Form von den offiziellen Datumstrennzeichen Ihrer Regionseinstellung enthalten. Die Uhrzeit kann Stellen um die AM/AM-Angabe enthalten.
+## <a name="entering-combined-dates-and-times"></a>Eingeben kombinierter Datums‑ und Zeitangaben
 
-Sie können auch nur ein Datum in einem Datums-/Uhrzeitangabefeld eingeben, aber Sie können nicht bloß eine Uhrzeit angeben.
-
-Die folgende Tabelle führt einige Beispiele von Datum-/Uhrzeitkombinationen auf. Die Regionseinstellungen in den Beispielen zeigen Datumsangaben im Tag\-Monat\-Jahr-Format mit den AM/PM-Angaben, der englischen Sprache und Sonntag als Start der Woche an.
-
-|**Eingabe**      |**Interpretation**      |
-|---------------|------------------------|
-|08-01-2016 05:48:12 PM|08\-01\-2016 05:48:12 PM|
-|131202 132455|13\-12\-2002 13:24:55|
-|1-12-02 10|01.12.2002 10:00:00|
-|1.12.02 5|01.12.2002 05:00:00|
-|1.12.02|01.12.2002 00:00:00|
-|11 12|11\-Arbeitsdatum Monat\-Arbeitsdatum Jahr 12:00:00|
-|1112 12|11\-12\-Arbeitsdatum Jahr 12:00:00|
-|h für heute|heutiges Datum 00:00:00|
-|h 10:30:00|heutiges Datum 10:30:00|
-|h 03:03:03|heutiges Datum 03:03:03|
-|"a" oder "Arbeitsdatum"|das Arbeitsdatum 00:00:00|
-|"Mo" oder "Montag"|Montag der Woche des Arbeitsdatums 00:00:00|
-|"di" oder "Dienstag"|Dienstag der Woche des Arbeitsdatums 00:00:00|
-|sa oder Samstag|Samstag der Woche des Arbeitsdatums 00:00:00|
-|So oder Sonntag|Sonntag der Woche des Arbeitsdatums 00:00:00|
-|di 10:30|Dienstag der Woche des Arbeitsdatums 10:30:00|
-|di 3:3:3|Dienstag der Woche des Arbeitsdatums 03:03:03|
-|d23 h|Dienstag der Woche 23 des Jahres des Arbeitsdatums, aktuelle Uhrzeit|
-|d23|Dienstag von Woche 23 des Arbeitsjahres|
-|d 23|Heute 23:00:00|
-|d-1|Dienstag von Woche 1 des Arbeitsjahres|
+[!INCLUDE [datetimes](includes/datetimes.md)]
 
 ## <a name="entering-duration"></a>Eingeben von Terminen
 Einige Felder in der Anwendung stellen eine Dauer oder Betrag der verstrichenen Uhrzeit, anstatt einer bestimmten Datums- oder Uhrzeitangabe dar. Zeiträume können als Zahl gefolgt von der entsprechenden Einheit eingegeben werden.

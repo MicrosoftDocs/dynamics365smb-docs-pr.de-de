@@ -2,21 +2,20 @@
 title: Cashflowübersicht
 description: Eine Übersicht über eingehenden und ausgehenden Cashflows, um den Erhalt und die Auszahlung von Geld vorherzusagen.
 author: jill-kotel-andersson
-ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cash flow, money flow, expense and income, liquidity, cash receipts minus cash payments
-ms.date: 06/08/2021
+ms.search.form: 841, 849, 1818
+ms.date: 12/20/2021
 ms.author: edupont
-ms.reviewer: edupont
-ms.openlocfilehash: 1c506e8d2471e7112b523b05d80e47d6f1700a64
-ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
+ms.openlocfilehash: fef3a27cf02d48fcf08a7bb70c469ed2820d0753
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/29/2021
-ms.locfileid: "7724812"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8149101"
 ---
 # <a name="cash-flow-overview"></a>Cashflowübersicht
 
@@ -26,7 +25,7 @@ Eingehende und ausgehende Cashflows zu verstehen, ist für den Erfolg eines Gesc
 
 Der Begriff *Cashflow* wird verwendet, um Zahlungseingänge minus der Barzahlungen über eine ausgewählte Periode festzulegen. Es handelt sich um eine Schätzung des Geldbetrags, den Ihr Geschäft erhält und ausgibt, und er enthält alle Ihr prognostizierten Einnahmen und Ausgaben.
 
-## <a name="cash-flow-overview"></a>Cashflowübersicht
+## <a name="work-with-cash-flow"></a>Arbeiten Sie mit Cashflow
 
 Die folgende Abbildung zeigt eine Übersicht für die Arbeit mit dem Cashflow.
 
@@ -49,9 +48,9 @@ Die folgende Abbildung zeigt eine Übersicht für die Arbeit mit dem Cashflow.
 
 Auf Grundlage der erfassten Vorschlagszeilen können Sie eine Cashflowplanung in regelmäßigen Abständen erstellen. Das folgende Layout ist ein häufig für eine Cashflowplanung verwendetes Layout. Das Layout hat drei Abschnitte:
 
-  - Zahlungseingänge  
-  - Barausgaben  
-  - Netto-Cashflow oder Barbestand  
+- Zahlungseingänge  
+- Barausgaben  
+- Netto-Cashflow oder Barbestand  
 
 Zahlungseingänge liefern Details der Erträge, die das Geschäft erhält.
 
@@ -73,8 +72,11 @@ Netto-Cashflow oder Barbestand wird als Gesamteinnahmen minus kumulierte Auszahl
 
 Die Planung kann als internes Managemententscheidungstool verwendet werden, das Ihnen dabei hilft, im Voraus zu planen und wichtige strategische Entscheidungen über den Betrieb des Geschäftes zu treffen.
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
+
 [Einrichten der Cashflowanalyse](finance-setup-cash-flow-analyses.md)  
-[Cashflow analysieren](finance-analyze-cash-flow.md)
+[Cashflow analysieren](finance-analyze-cash-flow.md)  
+[Prognostizieren Sie Ihren Cashflow in Dynamics 365 Business Central (Microsoft Learn)](/learn/modules/forecast-cash-flow-dynamics-365-business-central/index)  
+[Einrichten von Cashflow-Planungen mit Azure AI in Dynamics 365 Business Central(Microsoft Learn)](/learn/modules/setup-cash-flow-forecasts/)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

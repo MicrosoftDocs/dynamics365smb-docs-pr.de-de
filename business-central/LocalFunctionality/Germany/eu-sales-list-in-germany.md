@@ -2,20 +2,19 @@
 title: Zusammenfassende Meldung in Deutschland
 description: In Deutschland wird die deutsche zusammenfassende Meldung an das „Bundeszentralamt für Steuern” (BZSt) über das BZSt-Onlineportal mithilfe der ELMA5-Schnittstelle übermittelt.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 10351575e06cb95885b6f6d90b99d1a8a2d2f3f7
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: a3a41b02ee08cb29f513f89dafccf0d12a3c6cbd
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920094"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8133509"
 ---
 # <a name="eu-sales-list-in-germany"></a>Zusammenfassende Meldung in Deutschland
 In Deutschland wird die deutsche zusammenfassende Meldung an das „Bundeszentralamt für Steuern” (BZSt) über das BZSt-Onlineportal mithilfe der ELMA5-Schnittstelle übermittelt.  
@@ -24,8 +23,11 @@ Um die Sicherheit zu erhöhen, müssen alle Arten von Steuern und Steuererkläru
 
 ## <a name="see-also"></a>Siehe auch  
 [BZSt-Onlineportal](https://www.bzst.de)   
-[Erstellen von MwsT-Berichten.](how-to-create-vat-reports.md)  
+[Erstellen von MwsT-Berichten](how-to-create-vat-reports.md)  
 [Richten Sie die MwSt.-Berichte ein](how-to-set-up-vat-reports.md)  
-[Erstellen von MwSt-Berichten.](how-to-create-vat-reports.md)  
+[Erstellen von MwSt-Berichten](how-to-create-vat-reports.md)  
 [Zu korrigierender MwSt.-Bericht](how-to-correct-vat-reports.md)  
 [MwSt-VIES-Steuer angeben](how-to-declare-vat-vies-tax.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

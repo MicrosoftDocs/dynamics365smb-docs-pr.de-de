@@ -1,51 +1,37 @@
 ---
-title: Videos machen mit Business Central | Microsoft Docs
-description: Bietet Zugang zu Erste Schritte-Videos, die veranschaulichen, wie häufige Aufgaben ausgeführt werden.
-services: project-madeira
-documentationcenter: ''
+title: Besuchen Sie unsere Videobibliothek
+description: Besuchen Sie unsere Videobibliothek, um Hilfe zu erhalten – von Einführungsvideos, die allgemeine „How to“-Aufgaben illustrieren, bis hin zu themenbezogenen Produktvideos.
 author: bholtorf
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: video, library, how to
-ms.date: 10/01/2019
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.date: 06/11/2021
 ms.author: bholtorf
-ms.openlocfilehash: bfcf6190250ba05ac5556d5c7543df6c4e9fa34e
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 7786dab73b28a0107aac746f8029207592e6b78b
+ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304732"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323240"
 ---
 # <a name="visit-our-video-library"></a>Besuchen Sie unsere Videobibliothek
-Haben Sie Verständnis, während wir unsere Bibliothek von "So gehts" Videos neu erstellen. Eine Nebenwirkung der neuen Verbesserungen in [!INCLUDE[d365fin](includes/d365fin_md.md)] ist, dass wir unsere Inhalt reproduzieren müssen, damit er genau das Produkt wiedergibt.
 
-Mittlerweile bieten wir drei Videos an, die Ihnen mit den ersten Schritten helfen.
+Wir wissen, dass einige Leute es vorziehen, Inhalte anzusehen, anstatt sie zu lesen. Zu diesem Zweck produzieren wir kurze, leicht verdauliche Videos, die entweder einzeln stehen oder unsere Benutzerhilfe ergänzen.  
 
-|Titel|Description|
-|----|----|
-|Einführung|Erfahren Sie, wie Produktfunktionen organisiert werden und wie Sie an verschiedene Arten von Aufgaben und Informationen gelangen.|
-|Erste Schritte|Verstehen Sie die ersten Schritte, wenn Sie ausprobieren oder [!INCLUDE[d365fin](includes/d365fin_md.md)] erst vor kurzem das Produkt bezogen haben. |
-|Hilfe anfordern|Wissen woher Sie Antworten auf die verschiedenen Arten von Fragen erhalten.|
+Wenn Sie neu bei [!INCLUDE[prod_short](includes/prod_short.md)] sind, können Sie die Einführungsvideos von der angezeigten Startseite aus starten. Wenn Sie bereits mit [!INCLUDE[prod_short](includes/prod_short.md)] arbeiten, können Sie zur Bibliothek über **Business Manager** und **Buchhalter** im Rollencenter gelangen, indem Sie die **Produkt-Videos** Kachel auswählen.  
 
-Sie können die Videos auf verschiedene Arten aufrufen. Wenn Sie zum [!INCLUDE[d365fin](includes/d365fin_md.md)] ersten Mal aufrufen, können Sie die Videos aus der Willkommensseite starten, die anzeigt werden. Wenn Sie bereits mit [!INCLUDE[d365fin](includes/d365fin_md.md)] arbeiten, können Sie zur Bibliothek über **Business Manager** und **Buchhalter** im Rollencenter gelangen, indem Sie die **Produkt-Videos** Kachel auswählen.
+Sie können auch unsere Anleitungsvideos und viele andere Inhalte in der YouTube-Wiedergabeliste sehen, die für [!INCLUDE[prod_short](includes/prod_short.md)] erstellt wurde. Um die Videos jetzt zu sehen, [klicken Sie hier](https://go.microsoft.com/fwlink/?linkid=851533).
 
 > [!Tip]  
 > Videos in der Bibliothek werden in einem Rahmen angezeigt, der möglicherweise etwas klein wirkt. Um den Rahmen zu vergrößern, wählen Sie das Pfeilsymbol mit dem doppelten Ende in der oberen rechten Ecke des Rahmens aus. Danach werden Videos in größeren Rahmen wiedergegeben, bis Sie ihn wieder verkleinern.
 
-Sie können auch unsere Anleitungsvideos und viele andere Inhalte auf dem YouTube-Kanal sehen, der für [!INCLUDE[d365fin](includes/d365fin_md.md)] erstellt wurde. Um den Kanal jetzt zu besuchen [klicken Sie hier](https://go.microsoft.com/fwlink/?linkid=851533).
-
-## <a name="content-that-is-coming-soon"></a>Inhalt, der in Kürze verfügbar ist
-Um einige Beispiele zu erwähnen, die Bibliothek von Videos, die wir anzeigen, sind "so geht's" Videos:  
-
-* Geschäftsdaten aus anderen Finanzsystemen migrieren [!INCLUDE[d365fin](includes/d365fin_md.md)]  
-* Richten Sie Dimensionen ein, damit Sie unterschiedliche Einheiten und Belege verfolgen und analysieren können
-* Verbinden [!INCLUDE[d365fin](includes/d365fin_md.md)] mit Dynamics 365 Sales
-* Genehmigungsworkflows einrichten  
-* Verwenden von Power BI mit [!INCLUDE[d365fin](includes/d365fin_md.md)]  
-* E-Mail-Protokollierung einrichten und Belegen direkt aus [!INCLUDE[d365fin](includes/d365fin_md.md)] buchen  
-
 ## <a name="see-also"></a>Siehe auch
-[Erste Schritte](product-get-started.md)
+
+[Vorbereitung für die Geschäftstätigkeit](ui-get-ready-business.md)  
+[Dynamics 365-Kanal auf YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]
