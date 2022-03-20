@@ -1,8 +1,7 @@
 ---
 title: Die Mehrwertsteuergruppenverwaltungserweiterung
 description: Sie können mit anderen Unternehmen zusammenarbeiten, um eine Mehrwertsteuergruppe zu bilden, und bei der Meldung der Mehrwertsteuer entweder als Mitglied oder als Vertreter der Gruppe fungieren.
-author: bholtorf
-manager: annbe
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms. search.keywords: VAT, value added tax, report
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 470b8af1322fa0f3b295f566244af44c3183c2fe
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f385cd6dc2186a2e492eb7c045639ec34185237c
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132446"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8382557"
 ---
 # <a name="the-vat-group-management-extension"></a>Die Mehrwertsteuergruppenverwaltungserweiterung
 
@@ -84,9 +83,9 @@ Richten Sie das Mehrwertsteuergruppenmitglied ein, indem Sie die Anleitung zur u
 5. Wählen Sie **Authentifizierungsart**, wählen Sie **OAuth2** und wählen Sie dann **Weiter**.
 6. Im Feld **Client-ID** geben Sie die vom Vertreter der Mehrwertsteuergruppe angegebene ID ein.
 7. Im Feld **Vom Vertreter der Mehrwertsteuergruppe bereitgestellter geheimer Clientschlüssel** geben Sie den vom Vertreter der Mehrwertsteuergruppe bereitgestellten Geheimschlüssel an.
-8. Im Feld **OAuth 2.0-Autoritätsendpunkt** geben Sie *https://login.microsoftonline.com/common/oauth2* ein.
-9. Im Feld **OAuth 2.0-Ressourcen-URL** geben Sie *https://api.businesscentral.dynamics.com/* ein.
-10. Im Feld **OAuth 2.0-Umleitungs-URL** geben Sie *https://businesscentral.dynamics.com/OAuthLanding.htm* ein. 
+8. Geben Sie im Feld **OAuth 2.0-Autoritätsendpunkt** `https://login.microsoftonline.com/common/oauth2` ein.
+9. Geben Sie im Feld **OAuth 2.0-Ressourcen-URL** `https://api.businesscentral.dynamics.com/` ein.
+10. Geben Sie im Feld **OAuth 2.0-Umleitungs-URL** `https://businesscentral.dynamics.com/OAuthLanding.htm` ein. 
 11. Wenn Sie die verschiedenen Felder angegeben haben, wählen Sie **Weiter** und geben Sie dann die Benutzeranmeldeinformationen ein, die vom Vertreter der Mehrwertsteuergruppe bereitgestellt wurden.
 12. Wählen Sie die MwSt.-Berichtskonfiguration aus, die Sie verwenden, um die Mehrwertsteuer den Behörden in Ihrem Land zu melden.
 
@@ -94,7 +93,7 @@ Richten Sie das Mehrwertsteuergruppenmitglied ein, indem Sie die Anleitung zur u
 
 ## <a name="using-the-vat-group-management-features"></a>Verwenden der Funktionen der Mehrwertsteuergruppenverwaltung
 
-Mehrwertsteuergruppenmitglieder verwenden die Standardprozesse, um Mehrwertsteuererklärungen zu erstellen. Der einzige Unterschied ist die Auswahl der Berichtsversion **MEHRWERTSTEUERGRUPPE**, wodurch die Mehrwertsteuererklärung an den Vertreter der Mehrwertsteuergruppe und nicht an die Behörden übermittelt wird. Weitere Informationen finden sie unter [Informationen zum Mehrwertsteuererrückerstattungsbericht](finance-how-report-vat.md#about-the-vat-return-report).
+Mehrwertsteuergruppenmitglieder verwenden die Standardprozesse, um Mehrwertsteuererklärungen zu erstellen. Der einzige Unterschied ist die Auswahl der Berichtsversion **MEHRWERTSTEUERGRUPPE**, wodurch die Mehrwertsteuererklärung an den Vertreter der Mehrwertsteuergruppe und nicht an die Behörden übermittelt wird. Weitere Informationen finden Sie unter [Informationen zum MwSt.-Rückgabebericht](finance-how-report-vat.md#vatreturn).
 
 In den folgenden Abschnitten werden die Aufgaben beschrieben, die Vertreter von Mehrwertsteuergruppen ausführen müssen.
 

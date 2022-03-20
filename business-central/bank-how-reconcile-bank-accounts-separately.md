@@ -1,21 +1,21 @@
 ---
 title: Bankkonten abstimmen
 description: Dieses Thema beschreibt, wie Sie die Transaktionen in Ihren internen Bankkonten mit den Transaktionen in den Kontoauszügen Ihrer Bank abstimmen.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank account balance, bank statement
-ms.search.form: 379, 388, 1290, 10124
+ms.search.form: 379, 388, 389, 1290, 10124
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 89fc1b881ce738d50ae40088be265d3944491f21
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 1ebc2680aea583410a0f1bab8f4ff1d35989eb36
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8128999"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8381088"
 ---
 # <a name="reconcile-bank-accounts"></a>Bankkonten abstimmen
 
@@ -88,7 +88,7 @@ Der Beriech **Kontoauszugszeilen** wird entsprechend den Rechnungen in [!INCLUDE
 
 Die Seite **Bankkontoabstimmung** bietet automatisch Zuordnungsfunktionen auf Grundlage einer Zuordnung des Textes in einer Bankkontoauszugszeile (linker Bereich) zu Text auf einer oder mehreren offenen Posten (rechter Bereich). Beachten Sie, dass die vorgeschlagenen automatischen Zuordnungen überschrieben können, und Sie können wählen, dass die Zuordnung nicht automatisch verwendet wird. Weitere Informationen finden Sie unter [So gleichen Sie manuell Bankauszugspositionen mit Bankposten ab](bank-how-reconcile-bank-accounts-separately.md#to-match-bank-statement-lines-with-bank-account-ledger-entries-manually).
 
-Der automatische Abgleich gleicht Einträge auf der Grundlage einer Reihe von Zahlungsanwendungsregeln ab. Weitere Informationen finden Sie unter [Einrichten von Regeln für die automatische Anwendung von Zahlungen](receivables-how-set-up-payment-application-rules.md). Mit der Aktion **Details abgleichen** können Sie die Grundlage für den Abgleich untersuchen. Die Details enthalten zum Beispiel die Namen der Felder, die übereinstimmende Werte enthalten.  
+Mit der Aktion **Details abgleichen** können Sie die Grundlage für den Abgleich untersuchen. Die Details enthalten zum Beispiel die Namen der Felder, die übereinstimmende Werte enthalten.  
 
 1. Wählen Sie auf der Seite **Bankkontoabstimmung** die Aktion **Automatisch abgleichen** aus. Die Seite **Bankposten abstimmen** wird geöffnet.
 2. Geben Sie im Feld **Toleranz Buchungsdaten in Tagen** die Anzahl der Tage vor und nach dem Bankpostenbuchungsdatum an, innerhalb dessen die Funktion nach entsprechenden Transaktionsdaten im Bankkontoauszug sucht.

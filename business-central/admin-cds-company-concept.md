@@ -1,7 +1,7 @@
 ---
 title: Zuordnung von Unternehmen und Geschäftsbereichen | Microsoft Docs
 description: Unternehmen sind sowohl ein rechtliches als auch ein geschäftliches Konstrukt, und sie werden zur Sicherung und Visualisierung von Geschäftsdaten verwendet.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: CDS, Dataverse, integration, sync
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: c1af1f571170a167d59b20d85010fdd8d70d07cd
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 2ac7f2b0b64277f84e9995bb4e29d620e2a2262d
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133992"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8383005"
 ---
 # <a name="data-ownership-models"></a>Modelle für Datenbesitz
 

@@ -1,7 +1,7 @@
 ---
 title: 'Gewusst wie: Einrichten eine Belegaustauschdienstes | Microsoft Docs'
 description: Sie verwenden einen externen Anbieter zum Austausch elektronischer Belege mit Ihren Handelspartnern.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 8804b9bb7f7b8112e54e8a9953198db8686f768d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: cc0bda1808e33db7ea54aac2a1afdb932c01f629
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133382"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8382977"
 ---
 # <a name="set-up-a-document-exchange-service"></a>So richten Sie einen Belegaustauschdienst ein
 Als Teil des Data Exchange Frameworks können Sie Einkaufs- und Verkaufsbelege mit Ihren Handelspartnern ohne zusätzliche Schritte austauschen, z. B. indem Sie die Belege als PDF-Dateien an E-Mail-Nachrichten anhängen. Wenn Sie z.B. bereit sind, einem Kunden eine Rechnung zu stellen, können Sie diese zur Zahlung als Datei versenden, die Ihr Kunde in seiner Business Management-Anwendung empfangen kann. Weitere Informationen finden Sie unter [Daten elektronisch austauschen](across-data-exchange.md).

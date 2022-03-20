@@ -1,7 +1,7 @@
 ---
 title: Verwalten der OneDrive Integration mit Business Central
 description: Erfahren Sie, wie Sie eine Integration zwischen Business Central und OneDrive for Business verwalten können.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: OneDrive, share, browser
 ms.date: 05/12/2021
 ms.author: bholtorf
-ms.openlocfilehash: 20c6eb27aa3af2557ce77993b11f759f2c329100
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 5debd01f9d26e5e1dc1abc1a0123073d0f7ee234
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144024"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8382871"
 ---
 # <a name="managing-onedrive-integration-with-business-central"></a>Verwalten der OneDrive Integration mit Business Central 
 Dieser Artikel gibt einen Überblick darüber, was ein Administrator tun kann, um die OneDrive for Business Integration mit [!INCLUDE[prod_short](includes/prod_short.md)] zu steuern. [!INCLUDE[prod_short](includes/prod_short.md)]-Online-Kunden profitieren von der automatischen Integration, ohne dass eine zusätzliche Einrichtung erforderlich ist, um diese Funktionen zu nutzen. 

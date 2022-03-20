@@ -88,14 +88,16 @@
 ##### [Designdetails: Buchungs-Modul-Struktur](design-details-posting-engine-structure.md)  
 
 ## Testen
+### [Für eine kostenlose Dynamics 365 Business Central-Testversion registrieren](trial-signup.md)
+### [Häufig gestellte Fragen zur Dynamics 365 Business Central-Testversion](trial-faq.md)
 ### [Testversionen und Abonnements](across-preview.md)
-### [Vorbereiten auf die Geschäftsabwicklung](ui-get-ready-business.md)
+### [Vorbereitungen zum Tätigen von Geschäften](ui-get-ready-business.md)
 ### [Problembehandlungs-Selbstbedienungs-Registrierung](ui-troubleshoot-self-signup.md)
 ### [Verlängern Ihrer Testversion](admin-extend-trial.md)
 ### [Business Central kündigen oder entfernen](admin-cancel.md)
 ## Kaufen
-### [Erste Schritte mit einem Abonnement](across-preview.md#getting-started-with-a-subscription)
-### [Vorbereiten auf die Geschäftsabwicklung](ui-get-ready-business.md)
+### [Erste Schritte mit einem Abonnement](across-preview.md#get-started-with-a-subscription)
+### [Vorbereitungen zum Tätigen von Geschäften](ui-get-ready-business.md)
 
 ## Schnelleinstieg
 ### [Business Central Schnellstarts](quick-start-business-central.md)
@@ -179,7 +181,7 @@
 #### [Benutzerdefinierte Abschreibungsmethoden festlegen](fa-how-setup-user-defined-depreciation-method.md)
 #### [Um Anlagenversicherung einzurichten:](fa-how-setup-insurance.md)
 #### [Um Anlagenwartung einzurichten:](fa-how-setup-maintenance.md)
-### Lagerortverwaltung einrichten
+### Warehouse Management einrichten
 #### [Lager einrichten](warehouse-setup-warehouse.md)
 #### [Designdetails: Lagerübersicht](design-details-warehouse-overview.md)
 #### [Lagerplatzarten einrichten](warehouse-how-to-set-up-bin-types.md)
@@ -557,7 +559,7 @@
 #### [Artikelposten entfernen und erneut ausgleichen](finance-how-to-remove-and-reapply-item-entries.md)
 #### [Schließen von offenen Artikelposten aus einem festen Ausgleich im Artikel Buch.-Blatt](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)
 #### Melden von Kosten und Abstimmen mit der Finanzbuchhaltung
-##### [Berichterstellung zu Kosten](finance-report-costs-and-reconcile-with-the-general-ledger.md)
+##### [Berichterstellung zu Kosten](/dynamics365/business-central/finance-how-to-post-inventory-costs-to-the-general-ledger)
 ##### [Abstimmen der Lagerkosten mit der Finanzbuchhaltung](finance-how-to-post-inventory-costs-to-the-general-ledger.md)
 ##### [Überwachen des Status und der Leistung](projects-how-monitor-progress-performance.md)
 #### [Anpassen von Lagerkosten und Abstimmen der Kosten mit dem Hauptbuch mithilfe der Aufgabenwarteschlange](finance-adjust-reconcile-inventory-cost-job-queue.md)

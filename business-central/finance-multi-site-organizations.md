@@ -1,7 +1,7 @@
 ---
 title: Business Central für Unternehmen mit mehreren Standorten und internationalen Organisationen | Microsoft Dokumente
 description: Business Central bietet Funktionalitäten, die ein Hub-and-Spoke-Geschäftsmodell unterstützen.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: hub-and-spoke, multi-site, headquarter, sites
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: a135499b12ed04ecf179f1cb5691c97ecc0f1aaf
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ec650016000d8f6007a3abfa839cea7f1422de7b
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141099"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8382045"
 ---
 # <a name="business-central-for-multi-site-and-international-organizations"></a>Business Central für Unternehmen mit mehreren Standorten und internationale Organisationen
 Organisationen mit mehreren Standorten verwenden häufig ein Hub-and-Spoke-Geschäftsmodell, bei dem eine übergeordnete Firma oder die Zentrale die gesamten Vorgänge des Unternehmens verwaltet, während jeder Standort als einzelne, unabhängige Entität fungiert. Die Standorte sind oft geografisch verteilt und haben unterschiedliche Anforderungen an den Informationsaustausch mit der Firma in der Zentrale. Außerdem benötigen die Standorte in der Regel nicht den gleichen Grad an Komplexität und haben oft nicht die Ressourcen, um ein großes System zu pflegen.

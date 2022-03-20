@@ -1,14 +1,14 @@
 ---
 author: edupont04
 ms.topic: include
-ms.date: 04/01/2021
+ms.date: 03/01/2022
 ms.author: edupont
-ms.openlocfilehash: 0bfe45574f3f209ac5ee310546cd2ef0998ab417
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: 5a3e15669bfc590d663b7774fba84017ae842521
+ms.sourcegitcommit: 865b390b5571b08084bde93b539ec9898e201933
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8334539"
+ms.lasthandoff: 03/02/2022
+ms.locfileid: "8372021"
 ---
 In der folgenden Tabelle werden einige der wichtigsten Berichte in der Produktionsberichterstattung beschrieben.
 
@@ -22,6 +22,7 @@ In der folgenden Tabelle werden einige der wichtigsten Berichte in der Produktio
 | [Artikelstücklisten-Vergleichsliste](https://businesscentral.dynamics.com?report=99000758)|Mit diesem Bericht können Sie ähnliche Endprodukte hinsichtlich der Kosten vergleichen. Sie sehen eine Liste mit allen Komponenten und deren Kosten sowie den benötigten Mengen. Als Berechnungsdatum wird normalerweise das Arbeitsdatum festgelegt. |99000758|
 | [Produktionsauftragsstatistik](https://businesscentral.dynamics.com?report=99000791)|Zeigt die verschiedenen Kosten an, die sich für den ausgewählten Fertigungsauftrag angesammelt haben.<br>Der Inhalt des Berichts ist der Seite **FA-Statistik** sehr ähnlich.<br>Für Fertigungsaufträge, die die Produktionsart *Auftragsfertigung* verwenden, zeigt das Fenster nur Material- und Kapazitätskosten von Artikeln auf der höchsten Stücklistenebene an.|99000791|
 | [Auftragsvorratsliste](https://businesscentral.dynamics.com?report=99000780)|Zeigt die Fertigungsaufträge, die darauf warten, von den Arbeitsplätzen und Arbeitsplatzgruppen bearbeitet zu werden. Die Kapazität der Arbeitsplatzgruppe oder des Arbeitsplatzes wird angezeigt. Der Bericht enthält Informationen, wie z. B. Start- und Endzeit und Datum sowie die Einsatzmenge je Fertigungsauftrag.|99000780|
-| [Arbeitsplatzgruppenauslastung](https://businesscentral.dynamics.com?report=99000783)|Beide Berichte zeigen eine Übersicht der Auslastung einer Arbeit oder eines Arbeitsplatzes. Die Auslastung einer Arbeit/eines Arbeitsplatzes ist die Summe der benötigten Zeiten für alle geplanten und aktuellen Aufträge, die auf der Arbeitsplatzgruppe in der Zeitperiode laufen sollen.|99000783|
-| [Arbeitsplatzauslastung](https://businesscentral.dynamics.com?report=99000784)|Beide Berichte zeigen eine Übersicht der Auslastung einer Arbeit oder eines Arbeitsplatzes. Die Auslastung einer Arbeit/eines Arbeitsplatzes ist die Summe der benötigten Zeiten für alle geplanten und aktuellen Aufträge, die auf der Arbeitsplatzgruppe in der Zeitperiode laufen sollen.|99000784|
+| [Arbeitsplatzgruppenauslastung](https://businesscentral.dynamics.com?report=99000783)|Zeigt eine Liste der Auslastung einer Arbeitsplatzgruppe an. Die Auslastung ist die Summe der benötigten Zeiten für alle geplanten und aktuellen Aufträge, die auf der Arbeitsplatzgruppe in der Zeitperiode laufen sollen.|99000783|
+| [Arbeitsplatzauslastung](https://businesscentral.dynamics.com?report=99000784)|Zeigt eine Liste der Auslastung eines Arbeitsplatzes an. Die Auslastung ist die Summe der benötigten Zeiten für alle geplanten und aktuellen Aufträge, die auf der Arbeitsplatzgruppe in der Zeitperiode laufen sollen.|99000784|
 | [FA-Fehlteilliste](https://businesscentral.dynamics.com?report=99000788)|Dieser Bericht kann verwendet werden, um alle Komponenten anzuzeigen, die aufgrund von fehlendem Bestand nicht verfügbar sind. Diese Übersicht kann also herangezogen werden, um rechtzeitig zu sehen, ob der Zeitplan für einen geplanten oder freigegebenen Fertigungsauftrag oder die geplante Zeit eingehalten werden kann.|99000788|
+|[FA-Kalkulation](https://businesscentral.dynamics.com?report=99000767)|Zeigt eine Liste der Fertigungsaufträge und ihre Einstandspreise an. Sie umfasst Soll-Arbeitsgangkosten, Soll-Komponentenkosten und die Gesamtkosten.|99000767|

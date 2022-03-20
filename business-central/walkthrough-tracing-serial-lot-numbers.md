@@ -1,7 +1,7 @@
 ---
 title: Exemplarische Vorgehensweise – Verfolgen von Seriennummern
 description: Dieses Thema beschreibt die Maßnahmen, die ergriffen werden müssen, um den Verkauf eines fehlerhaften Artikels zu verhindern, und auch, wie Sie Artikel bei Bedarf verfolgen und zurückrufen können.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: bholtorf
-ms.openlocfilehash: aff1012c0a1b8ec409c14e0481c73c4fb51fde18
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 611a182a7f2b2202dd03e709da22183f762fe351
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144489"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8382819"
 ---
 # <a name="walkthrough-tracing-seriallot-numbers"></a>Exemplarische Vorgehensweise: Verfolgung von Serien-/Chargennummern
 

@@ -8,12 +8,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: aaf3a30be1c04d1f5f30c157b20a1f10c51170a3
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: cb917d1d54d66e02315e82ef6596a8fef65fb077
+ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145264"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8366190"
 ---
 # <a name="troubleshooting-self-service-sign-up"></a>Problembehandlungs-Selbstbedienungs-Registrierung
 Die Anmeldung für [!INCLUDE[prod_short](includes/prod_short.md)] ist einfach und kann sehr schnell vorgenommen werden. Sie können ein freies Konto erstellen, wenn es sich um eine vorhandene Organisation handelt. Dieser Artikel bezieht sich Probleme an, die Sie möglicherweise für die die Anmeldung haben.
@@ -41,8 +41,10 @@ In vielen Fällen kann das Registrieren für [!INCLUDE[prod_short](includes/prod
 
 Eine Übersicht der aktuell unterstützten Märkte für Dynamics 365 insgesamt, finden Sie im Stapel [Internationale Verfügbarkeit von Microsoft Dynamics 365](/dynamics365/get-started/availability). Einen Überblick über die lokalen Funktionen in [!INCLUDE[prod_short](includes/prod_short.md)] finden auf der Angebotsseite [Lokale Funktionen](about-localization.md).  
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
+[Für eine kostenlose Dynamics 365 Business Central-Testversion registrieren](trial-signup.md)  
+[Häufig gestellte Fragen zur Dynamics 365 Business Central-Testversion](trial-faq.md)  
 [Willkommen bei [!INCLUDE[prod_short](includes/prod_long.md)]](index.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Lokale Funktionalität](about-localization.md)  

@@ -1,7 +1,7 @@
 ---
 title: Ändern des jährlichen Betrags für Serviceverträgen oder Vertragsangebote
 description: Gibt den Betrag an, der jährlich für den Servicevertrag oder das Vertragsangebot fakturiert wird.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: c131e7b93a73bbcc0a7977f11e70518961b77134
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 31ea87ca93ff4a79726b7ed2edfaa905359fdc76
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134951"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8382503"
 ---
 # <a name="change-the-annual-amount-on-service-contracts-or-contract-quotes"></a>Ändern des jährlichen Betrags für Serviceverträgen oder Vertragsangebote
 Sie können den Betrag "Zu fakturieren (Jahr)" des Servicevertrags oder Vertragsangebots ändern, um den jährlich fakturierten Betrag zu korrigieren.  

@@ -1,7 +1,7 @@
 ---
 title: MwSt.-Berichte an die Steuerbehörden übermitteln
 description: Erfahren Sie, wie Sie Berichte erstellen, die die MwSt aus Verkäufen in einer Periode bzw. aus Verkäufen und Einkäufen darstellt, und übermitteln Sie den Bericht an eine Steuerbehörde.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,21 +10,25 @@ ms.search.keywords: VAT, tax, report, EC sales list, statement
 ms.search.form: 321, 322, 323, 474, 475, 739, 740, 741, 742, 743, 744, 745, 746, 747, 748, 9401
 ms.date: 01/31/2022
 ms.author: bholtorf
-ms.openlocfilehash: 11d9b165c598cbb17f870044763e8b0bdca1723b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b927faed205e64088ce399a9a973d7fcea0d1eda
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141177"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8383805"
 ---
 # <a name="report-vat-to-tax-authorities"></a>Melden von MwSt. an die Steuerbehörden
 
-Dieses Thema beschreibt die Berichte in [!INCLUDE[prod_short](includes/prod_short.md)], die Sie verwenden können, um MwSt.-Informationen über Einkäufe und Verkäufe an die Steuerbehörden in Ihrer Region zu senden. 
+Dieses Thema beschreibt die Berichte in [!INCLUDE[prod_short](includes/prod_short.md)], die Sie verwenden können, um MwSt.-Informationen über Einkäufe und Verkäufe an die Steuerbehörden in Ihrer Region zu senden. Je nach Land können die Berichte spezifische Informationen enthalten, oder Sie müssen möglicherweise zusätzliche Berichte einreichen. Überprüfen Sie die Artikel für Ihr Land im Abschnitt [Lokale Funktionen](about-localization.md).  
 
-Es können folgende Berichte verwendet werden:
+Es können die folgenden integrierten Berichte verwendet werden:
 
-* Der Verkaufslistenbericht **EU-Verkaufsübersicht** führt MwSt.-Beträge der Europäischen Union (EU) auf, die Sie für Verkäufe an für MwSt. registrierte Debitoren innerhalb der EU eingetrieben haben  
-* Der Bericht **MwSt.-Rückgabe** enthält die MwSt. für Verkäufe und Einkäufe an Debitoren und von Kreditoren in allen Ländern, die MwSt. verwenden.  
+* Der **„EU-Verkaufsübersicht“**-Bericht  
+
+    Der „EU-Verkaufsübersicht“-Bericht führt MwSt.-Beträge der Europäischen Union (EU) auf, die Sie für Verkäufe an für MwSt. registrierte Debitoren innerhalb der EU eingetrieben haben.  
+* Der Bericht **MwSt.-Rückgabe**  
+
+    Der Bericht „MwSt.-Rückgabe“ enthält die MwSt. für Verkäufe und Einkäufe an Debitoren und von Kreditoren in allen Ländern, die MwSt. verwenden.  
 
 In beiden Fällen wird die Mehrwertsteuer auf der Grundlage der MwSt.-Buchungseinrichtung und der MwSt.-Buchungsgruppen, die Sie festgelegt haben, berechnet.
 
@@ -33,9 +37,9 @@ Wenn Sie den gesamten Verlauf von MwSt.-Posten anzeigen möchten, erstellt jede 
 > [!NOTE]
 > Jede [!INCLUDE[prod_short](includes/prod_short.md)]-Umgebung soll die gesetzlich vorgeschriebene Berichterstellung in einem einzigen Land handhaben. Die niederländische Version von [!INCLUDE[prod_short](includes/prod_short.md)] handhabt MwSt-Berichterstellung beispielsweise in den Niederlanden, jedoch nicht in anderen Ländern. In ähnlicher Weise handhabt die US-Version von [!INCLUDE[prod_short](includes/prod_short.md)] Steuererklärungen (US 1099) in den USA und unterstützt nicht die Geltendmachung von MwSt-Berichten in anderen Ländern, es sei denn, sie wird durch eine von unserem Partner-Ökosystem gelieferte Erweiterung oder eine kundenspezifische Code-Modifikation eingeführt.
 
-## <a name="about-the-ec-sales-list-report"></a>Info über den Bericht "EU-Verkaufsübersicht"
+## <a name="about-the-ec-sales-list-report"></a><a name="ecsaleslist"></a>Info über den „EU-Verkaufsübersicht“-Bericht
 
-In der Europäischen Union (EU) und im Vereinigten Königreich müssen alle Unternehmen, die Waren und Dienstleistungen an mehrwertsteuerlich registrierte Debitoren verkaufen, einschließlich Debitoren in anderen Ländern der Europäischen Union (EU), eine elektronische Version der EU-Verkaufsübersicht an ihre Zoll- und Steuerbehörden senden. Der Bericht **EU-Verkaufsübersicht** funktioniert nur für Länder in der EU.
+In der Europäischen Union (EU) und im Vereinigten Königreich müssen alle Unternehmen, die Waren und Dienstleistungen an mehrwertsteuerlich registrierte Debitoren verkaufen, einschließlich Debitoren in anderen Ländern der Europäischen Union (EU), eine elektronische Version der EU-Verkaufsübersicht an ihre Zoll- und Steuerbehörden senden. Der **EU-Verkaufsübersicht**-Bericht funktioniert nur für Länder in der EU.
 
 Der Bericht enthält eine Zeile für jede Art Transaktion mit dem Debitor und zeigt den Gesamtbetrag für jede Art von Transaktionen an. Es gibt drei Arten von Transaktionen, die der Bericht enthalten kann:  
 
@@ -47,7 +51,11 @@ Der Bericht enthält eine Zeile für jede Art Transaktion mit dem Debitor und ze
 
 Nachdem die Steuerbehörden den Bericht erneut erstellen, senden Sie eine E-Mail an die Kontaktperson des Unternehmens. In [!INCLUDE[prod_short](includes/prod_short.md)], wird die Kontaktperson auf der Seite **Firmendaten** angegeben. Bevor Sie den Bericht senden, prüfen Sie, ob eine Kontaktperson ausgewählt ist.  
 
-## <a name="about-the-vat-return-report"></a>Über den MwSt.-Rückgabebericht
+### <a name="submit-an-ec-sales-list-report"></a>Einen „EU-Verkaufsübersicht“-Bericht übermitteln
+
+[!INCLUDE [finance-ecsaleslist](includes/finance-ecsaleslist.md)]
+
+## <a name="about-the-vat-return-report"></a><a name="vatreturn"></a>Informationen zum MwSt.-Rückgabebericht
 
 Verwenden Sie diesen Bericht, um MwSt. für Einkaufs- und Verkaufsbelege zu senden, wie Bestellungen und Verkaufsaufträge, Rechnungen und Gutschriften. Die Informationen dieses Berichts haben dabei dasselbe Format wie die Formulare der Finanz- und Steuerbehörden.  
 
@@ -114,7 +122,7 @@ Die Übertragung von MwSt.-Beträgen auf Abrechnungskonten bedeutet, dass das Vo
 
 ## <a name="configuring-your-own-vat-reports"></a>MwSt-Bericht konfigurieren
 
-Sie können den **EU-Verkaufsübersicht**-Bereicht ohne Änderungen nutzen. Sie können jedoch auch eigene Berichte erstellen, wenn Sie über eine Entwicklungslizenz verfügen, mit der Sie Codeunits erstellen können. Wenn Sie Hilfe benötigen, wenden Sie sich an einen Microsoft Partner.  
+Sie können den **EU-Verkaufsübersicht**-Bericht ohne Änderungen nutzen. Sie können jedoch auch eigene Berichte erstellen, wenn Sie über eine Entwicklungslizenz verfügen, mit der Sie Codeunits erstellen können. Wenn Sie Hilfe benötigen, wenden Sie sich an einen Microsoft Partner.  
 
 Die folgende Tabelle beschreibt Codeunits, die Sie für den Bericht erstellen müssen.  
 

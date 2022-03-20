@@ -6,15 +6,15 @@ ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 283
+ms.search.form: 283, 5629
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3380c66c5204c85b9d26f4a9f8e8943f2f7b5275
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 9f378289f5e6351b431a871110a778b4df8793bb
+ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8129422"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8367098"
 ---
 # <a name="allocate-costs-and-income"></a>Kosten und Einkünfte zuteilen
 

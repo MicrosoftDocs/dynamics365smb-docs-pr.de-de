@@ -1,20 +1,21 @@
 ---
-title: So weisen Sie Artikeln Standardlagerplätze zu
-description: Wenn Sie in einem Lagerort Lagerplätze verwenden, kann das Zuordnen von Vorgabelagerplätzen zu Ihren Artikeln den Warenausgangs-, Wareneingangs- und Umlagerungsprozess wesentlich vereinfachen.
+title: Zuordnen der Vorgabelagerplätze zu Artikeln
+description: Wenn Sie Lagerplätze an einem Lagerort verwenden, kann das Zuweisen von Standard-Lagerplätzen zu Ihren Artikeln den Prozess des Versands, des Empfangs und des Umzugs Ihrer Artikel erheblich vereinfachen.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 7371, 7374, 7379
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: e4f3d103c5bfdcedfef6fa3571f4ca56aa2ccb9a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 6802009029d8eea434e7c5096f4efb591ee4993b
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134645"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8382741"
 ---
 # <a name="assign-default-bins-to-items"></a>Zuordnen der Vorgabelagerplätze zu Artikeln
 Wenn Sie Lagerplätze an einem Lagerort verwenden, kann das Zuweisen von Standard-Lagerplätzen zu Ihren Artikeln den Prozess des Versands, des Empfangs und des Umzugs Ihrer Artikel erheblich vereinfachen. Wenn einem Artikel ein Vorgabelagerplatz zugeordnet wurde, wird diesen Lagerplatz jedes Mal vorgeschlagen, wenn Sie eine Transaktion mit diesem Artikel starten. Vorgabelagerplätze werden auf der Seite **Lagerplatzinhalt** definiert.  
@@ -28,7 +29,7 @@ Wenn Sie Lagerplätze an einem Lagerort verwenden, kann das Zuweisen von Standar
 >  Wenn ein Artikel eingelagert wird, dem noch kein Vorgabelagerplatz zugeordnet wurde, wird dem Artikel der Lagerplatz als Vorgabelagerplatz zugeordnet, in den der Artikel eingelagert wird.  
 
 ## <a name="to-change-the-default-bin-for-an-item"></a>So ändern Sie den Standardlagerplatz für einen Artikel  
-Es kann sein, dass Sie die Zuordnung des Vorgabelagerplatzes für einen Artikel ändern oder einem neuen Artikel einen Vorgabelagerplatz zuordnen müssen.    
+Es kann sein, dass Sie die Zuordnung des Vorgabelagerplatzes für einen Artikel ändern oder einem neuen Artikel einen Vorgabelagerplatz zuordnen müssen.
 1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Lagerplatzinhalt** ein und wählen Sie dann den zugehörigen Link.  
 2.  Wählen Sie im Feld **Lagerortfilter** den geeigneten Lagerortcode aus.  
 3.  Suchen Sie die aktuelle Zeile mit dem Vorgabewert des Artikels und deaktivieren Sie das Kontrollkästchen **Vorgabewert**.  
@@ -40,9 +41,9 @@ Es kann sein, dass Sie die Zuordnung des Vorgabelagerplatzes für einen Artikel 
 ## <a name="see-also"></a>Siehe auch  
 [Logistik](warehouse-manage-warehouse.md)  
 [Lagerbestand](inventory-manage-inventory.md)  
-[Lagerortverwaltung einrichten](warehouse-setup-warehouse.md)     
-[Montageverwaltung](assembly-assemble-items.md)    
-[Designdetails: Logistik](design-details-warehouse-management.md)  
+[Lagerverwaltung einrichten](warehouse-setup-warehouse.md) 
+[Montageverwaltung](assembly-assemble-items.md)
+[Designdetails: Lagerverwaltung](design-details-warehouse-management.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

@@ -1,5 +1,5 @@
 ---
-title: Einen Verkaufsauftrag mit einer Bestellung für den Direktversand verknüpfen (enthält Video) | Microsoft Dokumente
+title: Direktlieferungen durchführen (enthält Video)
 description: Beschreibt, wie Sie einen Verkaufsauftrag erstellen, der mit einer Bestellung verknüpft ist, um sicherzustellen, dass die Artikel vom Kreditor direkt an den Debitor versendet werden
 author: SorenGP
 ms.topic: conceptual
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: direct shipment
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 19bfb28494a6ee5a4650f32fd2794c0254eff561
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3fe45eb6403798a7e64b9604321440a2fff38c3f
+ms.sourcegitcommit: 865b390b5571b08084bde93b539ec9898e201933
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144827"
+ms.lasthandoff: 03/02/2022
+ms.locfileid: "8372043"
 ---
 # <a name="make-drop-shipments"></a>Direktlieferungen machen
 
@@ -40,12 +40,12 @@ Um eine Direktlieferung vorzubereiten, geben Sie auf der Bestellung an, dass sie
 2. Wählen Sie im Feld **Lief. an** **Adresse Debitor** aus.
 3. Wählen Sie im Feld **Debitor** den Debitor aus, an den Sie verkaufen.
 4. Wählen Sie die Aktion **Direktlieferungen** aus, und dann die Aktion **Auftrag holen**.
-5. Auf der Seite **Verkaufsübersicht** wählen Sie den Auftrag, den Sie im Abschnitt [So erstellen Sie einen Verkaufsauftrag für Direktlieferung](sales-how-drop-shipment.md#to-create-a-sales-order-for-drop-shipment) vorbereitet haben.
+5. Auf der Seite **Verkaufsübersicht** wählen Sie den Auftrag aus, den Sie im Abschnitt [So erstellen Sie einen Verkaufsauftrag für Direktlieferung](#to-create-a-sales-order-for-drop-shipment) vorbereitet haben.
 6. Wählen Sie die Schaltfläche **OK** aus.
 
 Die Zeileninformation aus dem Auftrag werden in die Bestellzeile eingetragen.
 
-Sie können nun den Kreditor anweisen, die Artikel an Ihren Debitoren zu versenden, indem Sie ihm beispielsweise die Bestellung als PDF-Datei senden.     
+Sie können nun den Kreditor anweisen, die Artikel an Ihren Debitoren zu versenden, indem Sie ihm beispielsweise die Bestellung als PDF-Datei senden. Wenn Ihr Kreditor eine Sendungsverfolgungsnummer oder ähnliche Informationen bereitstellt, können Sie diese in einer Bestellposition vom Typ *Kommentar* erfassen.  
 
 ## <a name="to-create-multiple-purchase-orders-for-drop-shipments"></a>Um mehrere Bestellungen für Direktlieferungen zu erstellen
 

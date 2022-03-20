@@ -6,14 +6,14 @@ ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox, subscription
 ms.search.form: 1803, 1801
-ms.date: 02/18/2022
+ms.date: 02/22/2022
 ms.author: edupont
-ms.openlocfilehash: 4b31d6d4ca0a7fba8376437fb37f3678f607f7b3
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: 48d8ee794c9259a19b22dfcb7c6203f489bf3534
+ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335526"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8366236"
 ---
 # <a name="prod_long-trials-and-subscriptions"></a>[!INCLUDE[prod_long](includes/prod_long.md)] Testversionen und Abonnements
 
@@ -21,9 +21,9 @@ ms.locfileid: "8335526"
 
 Wenn Sie nicht bereits mit einem Partner zusammenarbeiten, finden Sie weitere Informationen unter [Wie finde ich einen Vertriebspartner?](/dynamics365/business-central/across-faq#findpartner).  
 
-## <a name="getting-started-with-a-trial"></a>Erste Schritte mit einer Testversion
+## <a name="get-started-with-a-trial"></a>Erste Schritte mit einer Testversion
 
-Sie können sich für eine kostenlose Testversion [hier](https://go.microsoft.com/fwlink/?linkid=847861) registrieren. Wir empfehlen Ihnen, mit [einem Vertriebspartner](/dynamics365/business-central/across-faq#findpartner) zusammenzuarbeiten, um Ihrem Unternehmen den Einstieg mit [!INCLUDE[prod_short](includes/prod_short.md)] zu erleichtern.  
+Sie können sich für eine kostenlose Testversion [hier](https://go.microsoft.com/fwlink/?linkid=847861) registrieren. Wir empfehlen Ihnen, mit [einem Vertriebspartner](/dynamics365/business-central/across-faq#findpartner) zusammenzuarbeiten, um Ihrem Unternehmen den Einstieg mit [!INCLUDE[prod_short](includes/prod_short.md)] zu erleichtern. Weitere Informationen zum Einstieg erhalten Sie auch im Artikel [Für eine kostenlose Dynamics 365 Business Central-Testversion anmelden](trial-signup.md).  
 
 Abhängig von Ihrem Land oder Ihrer Region umfasst die Testversion die Sprachen und Funktionen, die Ihr Land oder Ihre Region benötigt. Weitere Informationen finden Sie unter [Ändern von Sprache und Gebietsschema](about-locale-language.md).  
 
@@ -35,13 +35,13 @@ Wenn Sie [!INCLUDE [prod_short](includes/prod_short.md)] nicht verwenden möchte
 
 [!INCLUDE [admin-viral-trial-expiry](includes/admin-viral-trial-expiry.md)]
 
-### <a name="add-your-own-data-to-an-empty-trial-company"></a>Eigene Daten zu einer leeren Testversion der Firma hinzufügen
+### <a name="add-your-own-data-to-an-empty-trial-company"></a>Einem leeren Testunternehmen eigene Daten hinzufügen
 
-Wenn Sie [!INCLUDE[prod_short](includes/prod_short.md)] mit Ihren eigenen Daten ausprobieren möchten, können Sie zu einer kostenlosen 30-tägigen Testversion mit einer leeren Firma wechseln. Mithilfe der Anleitung für die unterstützte Einrichtung **Mein Unternehmen einrichten** können Sie grundlegende Informationen zu Ihrem Unternehmen angeben. Optional können Sie Daten aus Ihrer vorhandenen Geschäftsverwaltungslösung importieren, damit Sie [!INCLUDE[prod_short](includes/prod_short.md)] mit Ihren eigenen Daten auswerten können. Wir empfehlen Ihnen jedoch, keine kostenlose Testversion zu verwenden, um Ihr Unternehmen zu unterstützen. Kontaktieren Sie [einen Vertriebspartner](/dynamics365/business-central/across-faq#findpartner), um mehr Informationen zu den ersten Schritten [!INCLUDE[prod_short](includes/prod_short.md)] zu erhalten. Der Partner kann Ihnen auch dabei helfen, Ihre Daten zu [!INCLUDE [prod_short](includes/prod_short.md)] online zu migrieren.  
+Wenn Sie [!INCLUDE[prod_short](includes/prod_short.md)] mit Ihren eigenen Daten ausprobieren möchten, können Sie zu einer kostenlosen 30-tägigen Testversion ohne Beispieldaten wechseln. Mithilfe der Anleitung für die unterstützte Einrichtung **Mein Unternehmen einrichten** können Sie grundlegende Informationen zu Ihrem Unternehmen angeben. Optional können Sie Daten aus Ihrer vorhandenen Geschäftsverwaltungslösung importieren, damit Sie [!INCLUDE[prod_short](includes/prod_short.md)] mit Ihren eigenen Daten auswerten können. Wir empfehlen Ihnen jedoch, keine kostenlose Testversion zu verwenden, um Ihr Unternehmen zu unterstützen. Kontaktieren Sie [einen Vertriebspartner](/dynamics365/business-central/across-faq#findpartner), um mehr Informationen zu den ersten Schritten [!INCLUDE[prod_short](includes/prod_short.md)] zu erhalten. Der Partner kann Ihnen auch dabei helfen, Ihre Daten zu [!INCLUDE [prod_short](includes/prod_short.md)] online zu migrieren.  
 
 Wenn 30 Tage nicht ausreichen, um eine Entscheidung zu treffen, können Sie Ihre Testversion verlängern. Weitere Informationen finden Sie unter [Benötigen Sie mehr Zeit, um zu entscheiden, ob Sie abonnieren möchten?](admin-extend-trial.md).  
 
-### <a name="setting-up-your-company-in-prod_short"></a>Einrichten Ihres Unternehmens in [!INCLUDE[prod_short](includes/prod_short.md)]
+### <a name="set-up-your-company-in-prod_short"></a>Ihr Unternehmen in [!INCLUDE[prod_short](includes/prod_short.md)] einrichten
 
 Die [Schnellstart](quick-start-business-central.md)-Artikel können Ihnen helfen, die ersten Schritte zur Festlegung von [!INCLUDE [prod_short](includes/prod_short.md)] für Ihr Unternehmen zu unternehmen. Innerhalb von [!INCLUDE [prod_short](includes/prod_short.md)] finden Sie auf der Seite **Unterstützte Einrichtung** die Anleitungen für die unterstützte Einrichtung, die Ihnen helfen können. Abhängig von Ihrer Rolle und Ihrem Land oder Ihrer Region zeigt die Seite verschiedene Assistenten für die Einrichtung, wie in der folgenden Tabelle dargestellt:
 
@@ -70,9 +70,9 @@ Wenn Sie Ihrer [!INCLUDE[prod_short](includes/prod_short.md)]-Testversion Daten 
 > [!IMPORTANT]
 > Wenn Sie [!INCLUDE[prod_short](includes/prod_short.md)] mit anderen Personen in Ihrer Organisation gemeinsam nutzen, müssen Sie sicherstellen, dass keine anderen Personen angemeldet sind, wenn Sie ein Unternehmen löschen.  
 
-## <a name="getting-started-with-a-subscription"></a>Erste Schritte mit einem Abonnement
+## <a name="get-started-with-a-subscription"></a>Erste Schritte mit einem Abonnement
 
-Jedes Mal, wenn Sie sich während der Probezeit anmelden, erscheint eine Benachrichtigung in einer blauen Leiste und zeigt die verfügbare Zeit an. Wenn Sie sich entscheiden, zu abonnieren, suchen Sie einen [!INCLUDE[prod_short](includes/prod_short.md)]-Partner. Weitere Informationen finden Sie unter [Wie finde ich einen Vertriebspartner?](/dynamics365/business-central/across-faq#findpartner). Der Wiederverkaufspartner kann Ihnen helfen, [!INCLUDE[prod_short](includes/prod_short.md)] so einzurichten, dass es zu Ihrem Unternehmen passt, einschließlich des Imports Ihrer Daten aus Ihrem früheren System. Sie können [!INCLUDE[prod_short](includes/prod_short.md)] auch anpassen, indem Sie Apps aus dem [Microsoft Marktplatz](https://go.microsoft.com/fwlink/?linkid=2081646) hinzufügen.  
+Jedes Mal, wenn Sie sich während des Testzeitraums anmelden, erscheint eine Benachrichtigung in einer blauen Leiste oben und zeigt die verbleibende Zeit an. Wenn Sie sich entscheiden, zu abonnieren, suchen Sie einen [!INCLUDE[prod_short](includes/prod_short.md)]-Partner. Weitere Informationen finden Sie unter [Wie finde ich einen Vertriebspartner?](/dynamics365/business-central/across-faq#findpartner). Der Wiederverkaufspartner kann Ihnen helfen, [!INCLUDE[prod_short](includes/prod_short.md)] so einzurichten, dass es zu Ihrem Unternehmen passt, einschließlich des Imports Ihrer Daten aus Ihrem früheren System. Sie können [!INCLUDE[prod_short](includes/prod_short.md)] auch anpassen, indem Sie Apps aus dem [Microsoft Marktplatz](https://go.microsoft.com/fwlink/?linkid=2081646) hinzufügen.  
 
 [!INCLUDE[prod_short](includes/prod_short.md)] online verwendet Microsoft 365. Wenn Ihr Unternehmen eine andere Art der E-Mail-Einrichtung verwendet, kann der Weiterverkaufspartner Ihnen bei der Entscheidung helfen, wie Sie migrieren möchten oder ob Sie [!INCLUDE[prod_short](includes/prod_short.md)] lokal verwenden sollten.  
 
@@ -83,7 +83,7 @@ Sie können sich auch an das [[!INCLUDE[prod_short](includes/prod_short.md)] Ver
 
 Weitere Informationen zur Verwendung von [!INCLUDE [prod_short](includes/prod_short.md)] finden Sie unter [Einrichten des Geschäftsbetriebs](ui-get-ready-business.md) und [Geschäftsfunktionen](across-business-functionality.md).  
 
-## <a name="getting-started-with-sandboxes"></a>Erste Schritte mit Sandboxes
+## <a name="get-started-with-sandboxes"></a>Erste Schritte mit Sandboxes
 
 Sandboxumgebungen können eine Möglichkeit sein, mit [!INCLUDE[prod_short](includes/prod_short.md)] zu üben. Stellen Sie sich eine Sandbox als eine Nicht-Produktionsumgebung vor, die Sie zusätzlich zu Ihrer Produktionsinstanz von [!INCLUDE[prod_short](includes/prod_short.md)] verwenden können. Wenn Sie zum Beispiel das kostenlose Online-Training von [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs) nutzen möchten, kann Ihr Administrator [eine Sandbox-Umgebung](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-sandbox-environment) erstellen. Auf diese Weise können Sie und Ihre Kollegen an einem sicheren Ort üben und nicht in Ihrer Produktionsumgebung.  
 
@@ -96,8 +96,10 @@ Derzeit können alle Kunden eine Sandbox verwenden, auch Organisationen, die sic
 
 Der Administrator Ihrer [!INCLUDE[prod_short](includes/prod_short.md)] und Ihr Vertriebspartner können weitere Umgebungen im Administrationscenter erstellen. Weitere Informationen finden Sie unter [Das Business Central Admin Center](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center).  
 
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-also"></a>Siehe auch
 
+[Für eine kostenlose Dynamics 365 Business Central-Testversion registrieren](trial-signup.md)  
+[Häufig gestellte Fragen zur Dynamics 365 Business Central-Testversion](trial-faq.md)  
 [Business Central Schnellstarts](quick-start-business-central.md)  
 [Vorbereiten auf die Geschäftsabwicklung](ui-get-ready-business.md)  
 [Verlängern Ihrer Testversion](admin-extend-trial.md)  

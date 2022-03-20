@@ -7,14 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 1123
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 4ba3cb0930426f44c1064f4d565b8ddaf8563fdd
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: db3ee1e8aaa01102bb46e3bc581f46fa86c8cb8b
+ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147570"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8367228"
 ---
 # <a name="terminology-in-cost-accounting"></a>Terminologie der Kostenrechnung
 

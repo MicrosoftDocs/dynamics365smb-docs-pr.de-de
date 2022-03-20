@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource, time sheets
 ms.search.form: 950, 951, 973
-ms.date: 12/13/2021
+ms.date: 03/01/2022
 ms.author: edupont
-ms.openlocfilehash: 6cb8789b75350b3879fb0179759498394b6e22d1
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f19e37752385d276683d4ce924883629cb7d086c
+ms.sourcegitcommit: 865b390b5571b08084bde93b539ec9898e201933
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134977"
+ms.lasthandoff: 03/02/2022
+ms.locfileid: "8372132"
 ---
 # <a name="use-time-sheets"></a>Arbeitszeittabellen verwenden
 
@@ -32,7 +32,7 @@ Bevor Sie Arbeitszeittabellen verwenden können, müssen Sie Informationen einri
 
 ## <a name="to-create-time-sheets"></a>So erstellen Sie Arbeitszeittabellen
 
-Sie können die Stapelverarbeitung **Arbeitszeittabellen erstellen** verwenden, um Arbeitszeittabellen für eine bestimmte Anzahl von Perioden oder Wochen einzurichten. Nachdem eine Arbeitszeittabelle erstellt wurde, kann der Arbeitszeittabellenbesitzer sie öffnen und die Zeit aufzeichnen, die für eine Aufgabe benötigte wurde.  
+Sie können die Stapelverarbeitung **Arbeitszeittabellen erstellen** verwenden, um Arbeitszeittabellen für eine bestimmte Anzahl von Perioden oder Wochen einzurichten. Nachdem eine Arbeitszeittabelle erstellt wurde, kann der Arbeitszeittabellenbesitzer sie öffnen und die Zeit aufzeichnen, die für eine Aufgabe benötigte wurde. Sie können auch [die automatische Ausführung der Stapelverarbeitung planen](ui-work-report.md#ScheduleReport).  
 
 > [!IMPORTANT]
 > Sie müssen Berechtigungen haben, Arbeitszeittabellen zu erstellen. Weitere Informationen finden Sie unter [Zeittabellen festlegen](projects-how-setup-time-sheets.md).
@@ -43,7 +43,9 @@ Sie können die Stapelverarbeitung **Arbeitszeittabellen erstellen** verwenden, 
 
     > [!NOTE]  
     > Die Felder **Arbeitszeittabellen** verwenden und **Arbeitszeittabellenbesitzer-Benutzer-ID** müssen auf der Karte der Arbeitszeittabelle für die Ressource ausgefüllt werden.
-4. Wählen Sie die Schaltfläche **OK** aus.  
+
+    Wählen Sie optional die Aktion **Zeitplan** aus, um anzugeben, wie oft die Aufgabe automatisch ausgeführt werden soll. Um beispielsweise die Aufgabe so zu konfigurieren, dass sie vier Wochen lang wöchentlich ausgeführt wird, legen Sie das Feld **Datumsformel für nächste Ausführung** auf der Seite **Bericht planen – Arbeitszeittabelle erstellen** auf *4W* fest. Weitere Informationen finden Sie unter [Bericht für die Ausführung planen](ui-work-report.md#ScheduleReport).  
+4. Wählen Sie die Schaltfläche **OK**.  
 
 Auf der Seite **Arbeitszeittabellen** können Sie die erstellten Arbeitszeittabellen anzeigen. Jede Arbeitszeittabelle besteht aus mindestens einer Zeile, die die Zeit definiert, die Sie zur Genehmigung senden möchten. In der folgenden Tabelle werden die Zeilentypen beschrieben, die Sie der Arbeitszeittabelle hinzufügen können.
 

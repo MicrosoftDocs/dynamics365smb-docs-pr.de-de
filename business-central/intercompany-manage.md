@@ -7,14 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
+ms.search.form: 605
 ms.date: 08/11/2021
 ms.author: edupont
-ms.openlocfilehash: f0757f42a6c4cc28586f09a772cde53688eaf5a7
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 9dfe0ae8f0688f6494196f52cd5c4d57adf836e2
+ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131743"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8367124"
 ---
 # <a name="managing-intercompany-transactions"></a>Intercompanytransaktionen verwalten
 

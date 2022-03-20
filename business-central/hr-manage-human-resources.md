@@ -7,15 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personnel, people, employee, staff, HR
-ms.search.form: 5200, 5201, 5212, 5211
+ms.search.form: 5200, 5201, 5204, 5206, 5208, 5209, 5211, 5212, 5221, 5228
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 97758b684b3a68508b9b6966d155f956d58c1f4a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f258805bfed9acf0cb43e42df54660bf52d54853
+ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135906"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8366646"
 ---
 # <a name="manage-human-resources"></a>Personalwesen verwalten
 

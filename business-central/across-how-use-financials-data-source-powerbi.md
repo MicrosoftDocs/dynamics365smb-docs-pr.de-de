@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 471847e62911ba1dc274a0d02ffbd66968d0b7ca
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 51fb5e0f818974ed421b7f2bf282ad1c35c2eb0a
+ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141567"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8366343"
 ---
 # <a name="building-power-bi-reports-to-display-prod_long-data"></a>Power BI-Berichte erstellen zur Anzeige von [!INCLUDE [prod_long](includes/prod_long.md)]-Daten
 
@@ -40,7 +40,7 @@ Dieser Artikel beschreibt die ersten Schritte zur Verwendung von Power BI Deskto
 
   - Die OData-URL für [!INCLUDE[prod_short](includes/prod_short.md)].
   
-    Diese URL hat üblicherweise das Format `http[s]://[computer]:[port]/[serverinstance]/ODataV4`, zum Beispiel `https://localhost:7048/BC160/ODataV4`. Bei einer Bereitstellung mit mehreren Mandanten sollte der Mandant in der URL enthalten sein, zum Beispiel `https://localhost:7048/BC160/ODataV4?tenant=tenant1`.
+    Diese URL hat in der Regel das Format `http[s]://[computer]:[port]/[serverinstance]/ODataV4`, z. B. `https://localhost:7048/BC190/ODataV4`. Bei einer Bereitstellung mit mehreren Mandanten sollte der Mandant in der URL enthalten sein, z. B. `https://localhost:7048/BC190/ODataV4?tenant=tenant1`.
   - Einen Benutzernamen und einen Webdienst-Zugriffsschlüssel für ein [!INCLUDE[prod_short](includes/prod_short.md)]-Konto.
 
     Für das Abrufen von Daten aus [!INCLUDE[prod_short](includes/prod_short.md)] verwendet Power BI die Standardauthentifizierung. Sie benötigen also einen Benutzernamen und einen Webdienst-Zugriffsschlüssel, um eine Verbindung herzustellen. Hierbei kann es sich um Ihr eigenen Benutzerkonto oder um ein Konto Ihrer Organisation handeln, das speziell für diesen Zweck angelegt wurde.

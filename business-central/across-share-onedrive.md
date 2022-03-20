@@ -1,18 +1,18 @@
 ---
 title: Öffnen von Business Central Dateien in OneDrive
 description: Erfahren Sie, wie Sie Business Central-Daten über OneDrive for Business freigeben können.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: bholtorf
-ms.openlocfilehash: 449fac4cf8d8a19caed8093019e9a804a08d1aaf
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 76d845b26bf9c68b3e60947fef4d2ac78304e5ee
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147190"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8383965"
 ---
 # <a name="opening-business-central-files-in-onedrive"></a>Öffnen von Business Central Dateien in OneDrive
 [!INCLUDE[prod_short](includes/prod_short.md)] macht es Ihnen leicht, Dateien zu speichern, zu verwalten und mit anderen Personen über OneDrive for Business zu teilen. Auf den meisten Seiten, auf denen Dateien verfügbar sind, wie z.B. dem Berichtseingang oder Dateien, die an Datensätze angehängt sind, finden Sie eine **Öffnen in OneDrive** Aktion.

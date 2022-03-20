@@ -1,7 +1,7 @@
 ---
 title: Business Central und Dataverse synchronisieren
 description: Erfahren Sie mehr über die Synchronisierung von Daten zwischen Business Central und Dataverse.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 937601cffe10fe7862aad48ec7f7bded37ad8e61
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ac6bae8d001728da43fc7357cf156d6ac6fc6633
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130618"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8383913"
 ---
 # <a name="scheduling-a-synchronization-between-business-central-and-dataverse"></a>Planen einer Synchronisierung zwischen Business Central und Dataverse
 

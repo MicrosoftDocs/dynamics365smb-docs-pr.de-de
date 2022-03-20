@@ -3,19 +3,19 @@ title: WorldPay Payments Standard
 description: Mit der WorldPay Payments Standard-Erweiterung bieten Sie Debitoren eine bequeme Alternative für das Anwenden von Zahlungen mithilfe von Banküberweisungen oder Kreditkarten.
 services: project-madeira
 documentationcenter: ''
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: dfb523d70938cd4110cca9f963de05bdf8033623
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: cdaa582e11d3d0deaabb7282da54f65c447013e1
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132394"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8381380"
 ---
 # <a name="the-worldpay-payments-standard-extension"></a>Die WorldPay Payments Standard-Erweiterung
 Mit der WorldPay Payments Standard-Erweiterung bieten Sie Debitoren eine bequeme Alternative für das Anwenden von Zahlungen mithilfe von Banküberweisungen oder Kreditkarten. Aber nicht nur das, Zahlungen, die durch Zahlungsservices getätigt werden, sind üblicherweise schneller auf Ihrem Bankkonto.

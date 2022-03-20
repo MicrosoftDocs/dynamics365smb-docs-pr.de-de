@@ -7,14 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
+ms.search.form: 6, 25, 440, 448, 452
 ms.date: 02/09/2022
 ms.author: edupont
-ms.openlocfilehash: fe9dc2ed31244bbca601d90397dc813085817eb1
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 0974cce66734c5a25d87e87052fa82ad1e2a1c53
+ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144957"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8366936"
 ---
 # <a name="collect-outstanding-balances"></a>Einziehen von Restbeträgen
 

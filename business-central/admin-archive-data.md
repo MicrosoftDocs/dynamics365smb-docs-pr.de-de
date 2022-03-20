@@ -1,7 +1,7 @@
 ---
 title: Die Data Archive-Erweiterung
 description: Die Archivierung von Daten erstellt ein kostengünstiges Backup Ihrer Datensätze.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 630
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: e2df40494f72260a1ce7e66f57ea1c96fb35b301
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 9c547b9fe73a889145aeb228e987895aeae6aa12
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130826"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8382529"
 ---
 # <a name="the-data-archive-extension"></a>Die Data Archive-Erweiterung
 Im Laufe der Zeit wird sich in Ihrem Unternehmen eine beträchtliche Menge an Daten ansammeln, und als Administrator ist es wahrscheinlich eine gute Idee, eine Strategie für die Archivierung von Daten zu haben. Viele Daten können die Arbeit verlangsamen, z.B. kann es etwas länger dauern, Berichte zu erstellen oder sogar Datensätze zu sperren. Außerdem können große Datenmengen zu erhöhten Speicherkosten führen.

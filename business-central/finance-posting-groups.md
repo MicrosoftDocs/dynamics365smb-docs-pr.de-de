@@ -1,7 +1,7 @@
 ---
 title: Einrichtung der Buchungsgruppe
 description: Übersicht der Buchungsgruppen, die Sie verwenden können, um die Zeit zu sparen und Fehler zu vermeiden, wenn Sie Transaktionen buchen.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +10,12 @@ ms.search.keywords: posting setup, initialize
 ms.search.form: 312, 313
 ms.date: 01/24/2022
 ms.author: bholtorf
-ms.openlocfilehash: ca9ec4e9d0e07306181e86d287e61747d34892a4
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: e44181c8206662b8dee7899a23b49b7f0cb9df57
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8128825"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8381775"
 ---
 # <a name="set-up-posting-groups"></a>Buchungsgruppen einrichten
 

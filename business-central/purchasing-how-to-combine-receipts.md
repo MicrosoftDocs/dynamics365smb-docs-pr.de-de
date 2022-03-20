@@ -7,15 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.search.form: 136, 145, 146
+ms.search.form: 136, 145, 146, 9308
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: fa038043a1a9451f3f74c0ab72f8c9a2b8033cf0
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d108525de00685e0661b4817ecc5919501f14d9f
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137263"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8380906"
 ---
 # <a name="combine-receipts-on-a-single-invoice"></a>Zusammenfassen von Lieferungen in einer einzelnen Rechnung
 

@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: remove, delete
-ms.date: 04/01/2021
+ms.date: 02/23/2022
 ms.author: edupont
-ms.openlocfilehash: 7c02bc46895c211748b8200c1490b08e54f0eb94
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f6586423ed8fa0254c84d2cd8737d1104f1ecea4
+ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138095"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8366962"
 ---
 # <a name="unsubscribe-or-remove-prod_short"></a>Abonnement kündigen oder [!INCLUDE[prod_short](includes/prod_short.md)] entfernen
 
@@ -26,7 +26,7 @@ Wenn Sie für die kostenlose Testversion angemeldet sind und nicht mit [!INCLUDE
 
 Sie müssen Ihren Microsoft 365-Administrator bitten, das Test Abonnement aus dem Konto Ihrer Firma im [Microsoft 365-Admin-Center](https://admin.microsoft.com/) zu entfernen.  
 
-Wenn Sie sich für [!INCLUDE[prod_short](includes/prod_short.md)] mit einem Nicht-Microsoft 365-Geschäftskonto angemeldet haben, verfügen Sie nicht über einen Microsoft 365-Administrator. Stattdessen müssen Sie kündigen, indem Sie das [!INCLUDE[prod_short](includes/prod_short.md)] Stornierungsteam kontaktieren, indem Sie eine E-Mail an [cancelbusinesscentra@microsoft.com](mailto:cancelbusinesscentra@microsoft.com) senden. Sie müssen den Namen Ihres [!INCLUDE[prod_short](includes/prod_short.md)]-Mandanten in die Nachricht einfügen, damit wir Sie identifizieren können. Sie finden diese Informationen auf der Seite **Hilfe und Unterstützung**. Weitere Informationen finden Sie unter [Ressourcen für Hilfe und Support](product-help-and-support.md).  
+Wenn Sie sich für [!INCLUDE[prod_short](includes/prod_short.md)] mit einem Nicht-Microsoft 365-Geschäftskonto angemeldet haben, verfügen Sie nicht über einen Microsoft 365-Administrator. Stattdessen müssen Sie kündigen, indem Sie das [!INCLUDE[prod_short](includes/prod_short.md)]-Stornierungsteam kontaktieren, indem Sie eine E-Mail an [cancelbusinesscentra@microsoft.com](mailto:cancelbusinesscentra@microsoft.com) senden. Sie müssen den Namen Ihres [!INCLUDE[prod_short](includes/prod_short.md)]-Mandanten in die Nachricht einfügen, damit wir Sie identifizieren können. Sie finden diese Informationen auf der Seite **Hilfe und Unterstützung**. Weitere Informationen finden Sie unter [Ressourcen für Hilfe und Support](product-help-and-support.md).  
 
 ## <a name="unsubscribing-by-removing-prod_short-from-your-microsoft-365-experience"></a>Kündigen Sie Ihr Abonnement, indem Sie [!INCLUDE[prod_short](includes/prod_short.md)] aus Ihrer Microsoft 365-Erfahrung entfernen
 

@@ -1,18 +1,18 @@
 ---
 title: Antworten auf Anforderungen zu Personendaten
 description: In diesem Thema erfahren Sie, wie Sie auf Anfragen zu personenbezogenen Daten reagieren können. Dies wird als Anfrage eines Betroffenen bezeichnet.
-author: bholtorf
+author: brentholtorf
 ms.author: bholtorf
 ms.custom: na
 ms.date: 06/14/2021
 ms.reviewer: na
 ms.topic: conceptual
-ms.openlocfilehash: 0d1ead6fc36df5b06f9ab995bbc30ce04d24c622
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 8c37617355582748658d20dfac9578bbf4b33d1d
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148850"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8382125"
 ---
 # <a name="responding-to-requests-about-users-personal-data"></a>Reagieren auf Anfragen über personenbezogene Daten von Benutzern  
 Datensubjekte können mehrere Arten von Aktionen für die Personendaten abfragen. Beispielsweise unter dem Gesetz zum Schutz der allgemeinen Daten (DSGVO), haben EU-Bewohner das Recht, Export, das Löschen oder die Änderung Ihrer Personendaten anzufordern. Dieses wird *Anträge betroffener Personen* genannt. Wenn Sie die Vertraulichkeit Ihrer Daten klassifiziert haben und sicher sind, dass sie korrekt sind, kann ein Administrator mithilfe der Optionen unter der Registerkarte **Datenprivatsphäre** im **IT-Manager** Rollenzentrum antworten. Weitere Informationen zum Klassifizieren vol sensiblen Daten in [!INCLUDE[prod_long](includes/prod_long.md)] und [Klassifizieren von Daten](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json) und [Klassieren von Datensensibilität](admin-classifying-data-sensitivity.md).  
@@ -50,7 +50,7 @@ Wenn Sie eine Situation haben, in der Sie Daten exportieren müssen, die nicht a
 -   Fügen Sie diese Tabelle und Verbindung manuell mit dem Rapid Start Paket hinzu und exportieren Sie es direkt aus dem Rapid Start Paket - daher erstellen wir ein Anfangspaket einfach für Sie, so dass Sie dieses in Situationen wie dieser ändern können.
 
 ## <a name="handling-data-about-minors"></a>Behandlung von Daten Minderjähriger
-Wenn das Alter der Kontaktperson tiefer ist als das Alter der Volljährigkeit entsprechend dem Gesetz Ihres Landes, können Sie das mithilfe des Kontrollkästchens **Minderjährig** auf der Karte **Kontakt** aktivieren. Wenn Sie dies tun, wird das Kontrollkästchen **Datenschutzsperre** automatisch ausgewählt. Wenn Sie die Zustimmung des Feld von den Eltern oder dem Erziehungsberechtigten der minderjährigen Person erhalten, können Sie das Kontrollkästchen **Zustimmung eines Erziehungsberechtigten erhalten** aktivieren, um die Blockierung des Kontakts aufzuheben. Auch wenn Sie Personendaten für Minderjährige bearbeiten können, können Sie die Profilerstellungsfunktionalität in Microsoft Dynamics 365 Sales nicht verwenden.
+Wenn das Alter der Kontaktperson tiefer ist als das Alter der Volljährigkeit entsprechend dem Gesetz Ihres Landes, können Sie das mithilfe des Kontrollkästchens **Minderjährig** auf der Karte **Kontakt** aktivieren. Wenn Sie dies tun, wird das Kontrollkästchen **Datenschutzsperre** automatisch ausgewählt. Wenn Sie die Zustimmung des Feld von den Eltern oder dem Erziehungsberechtigten der minderjährigen Person erhalten, können Sie das Kontrollkästchen **Zustimmung eines Erziehungsberechtigten erhalten** aktivieren, um die Blockierung des Kontakts aufzuheben. Auch wenn Sie Personendaten für Minderjährige bearbeiten können, können Sie die Profilerstellungsfunktionalität in Dynamics 365 Sales nicht verwenden.
 
 > [!Note]
 > Das Änderungsprotokoll kann Details erfassen, wie wann und durch wen die **Zustimmung eines Erziehungsberechtigten erhalten** im Kontrollkästchen ausgewählt wurde. Ein Administrator kann dies mithilfe dem Leitfaden **Änderungsprotokoll einrichten** einrichten und kann auch das Kontrollkästchen **Protokoll-Änderung für Zustimmung eines Erziehungsberechtigten erhalten** auf der Karte **Kontakt** aktivieren. Weitere Informationen finden Sie unter [Änderungen protokollieren](across-log-changes.md).  

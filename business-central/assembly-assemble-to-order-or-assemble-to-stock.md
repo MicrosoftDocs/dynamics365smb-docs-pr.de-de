@@ -1,20 +1,21 @@
 ---
 title: Auftragsmontage und Lagermontage verstehen
 description: Elemente für die Montage können geliefert werden, indem sie bei der Bestellung montiert werden oder indem sie im Bestand gehalten werden, bis sie auf einem Verkaufsauftrag benötigt werden.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
+ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
 ms.date: 06/15/2021
 ms.author: bholtorf
-ms.openlocfilehash: 1f90e732f71e59f37aa4e81bd87101979ef8aa0b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: cc5f10097d26859805d9e03691dd1bb02e204a1e
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8128949"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8381564"
 ---
 # <a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Auftragsmontage und Lagermontage verstehen
 Montageartikel können in den beiden folgenden Prozessen geliefert werden:  

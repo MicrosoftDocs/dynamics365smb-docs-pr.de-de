@@ -9,15 +9,16 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/18/2021
 ms.author: edupont
-ms.openlocfilehash: f5bee2d0a7829b68929d4f642dd977a5b6a927bb
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 1d91635ad6c8821d15f40b6492e01b17e3d77c2c
+ms.sourcegitcommit: 865b390b5571b08084bde93b539ec9898e201933
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142678"
+ms.lasthandoff: 03/02/2022
+ms.locfileid: "8372010"
 ---
 # <a name="declare-vat-vies-tax-in-the-german-version"></a>MwSt-VIES-Steuererklärung in der deutschen Version
-[!INCLUDE[prod_short](../../includes/prod_short.md)] enthält die zusammenfassende Meldung, mit der Sie Informationen zu Verkaufstransaktionen mit anderen Ländern oder Regionen innerhalb der Europäischen Union (EU) an das System der Zoll- und Steuerbehördenlisten übermitteln können. Im Bericht werden Informationen in dem Format angezeigt, das auch in der Erklärungsliste der Zoll- und Steuerbehörden verwendet wird.  
+
+[!INCLUDE[prod_short](../../includes/prod_short.md)] enthält den **EU-Verkaufsübersicht**-Bericht, mit dem Sie Informationen zu Verkaufstransaktionen mit anderen Ländern oder Regionen innerhalb der Europäischen Union (EU) an das System der Zoll- und Steuerbehördenlisten übermitteln können. Im Bericht werden Informationen in dem Format angezeigt, das auch in der Erklärungsliste der Zoll- und Steuerbehörden verwendet wird.  
 
 Abhängig vom Volumen der verkauften Waren oder Dienstleistungen an andere EU-Länder/Regionen, müssen Sie monatliche, zweimonatliche oder vierteljährliche Meldungen senden. Hat das Unternehmen Verkäufe von mehr als 100.000 Euro pro Quartal, müssen Sie eine monatliche Meldung senden. Hat das Unternehmen Verkäufe von weniger als 100.000 Euro pro Quartal, müssen Sie eine monatliche Meldung senden. Weitere Informationen finden Sie unter [BZSt-Website](https://go.microsoft.com/fwlink/?LinkId=204368).  
 
@@ -25,7 +26,7 @@ Der Bericht basiert auf Daten in der Tabelle "MwSt.-Posten".
 
 ## <a name="to-declare-vat-vies-tax"></a>So erstellen Sie eine zusammenfassende Meldung  
 
-1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](../../media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **VAT-VIES Zusammenf. Meldung – Formular – DE** ein und wählen Sie dann den entsprechenden Link.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](../../media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **VAT-VIES Zusammenf. Meldung – Formular – DE** ein und wählen Sie dann den entsprechenden Link.  
 2.  Füllen Sie auf der Seite **Zusammenf. Meldung MwSt-Vies-Formular** im Inforegister **Optionen** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 
     |Feld|Description|  
@@ -42,8 +43,10 @@ Der Bericht basiert auf Daten in der Tabelle "MwSt.-Posten".
     > [!NOTE]  
     >  Um diesen Bericht ausführen, müssen Sie das **Buchungsdatum** als Filter auswählen und den Wert des Buchungsdatums eingegeben.  
 
-## <a name="see-also"></a>Siehe auch  
-[MwSt.-Abrechnung](vat-reporting.md)
+## <a name="see-also"></a>Weitere Informationen  
+
+[MwSt.-Abrechnung](vat-reporting.md)  
+[Melden von MwSt. an die Steuerbehörden](../../finance-how-report-vat.md)  
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -8,16 +8,18 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: 95f54be520c439984343fbe9413570dc18097db9
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 398f9a221dbdbdf2889d847b2d26db7faec23ff0
+ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138492"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8367202"
 ---
 # <a name="welcome-to-prod_long"></a>Willkommen bei [!INCLUDE[prod_long](includes/prod_long.md)]
 
 [!INCLUDE[prod_short](includes/prod_short.md)] ist eine Unternehmensverwaltungslösung für kleine und mittelständische Organisationen und dient zum Automatisieren und Optimieren von Geschäftsprozessen. Dank der hohen Flexibilität sowie der umfangreichen Features ermöglicht [!INCLUDE[prod_short](includes/prod_short.md)] Unternehmen die Verwaltung ihrer Geschäftsbereiche – einschließlich Finanzen, Produktion, Vertrieb, Versand, Projektverwaltung und Services. Die Anwendung kann problemlos um weitere Funktionen erweitert werden, die für den jeweiligen Geschäftsbereich benötigt werden und die selbst für hoch spezialisierte Branchen angepasst werden können.  
+
+[Erfahren Sie, wie Sie eine kostenlose Testversion erhalten](trial-signup.md).  
 
 Wenn Sie bereits über [!INCLUDE[prod_short](includes/prod_short.md)] verfügen, melden Sie sich bei [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com) an. Sonst [verschaffen Sie sich einen Überblick](https://dynamics.microsoft.com/business-central/overview/),  [Nehmen Sie an der Führung teil](https://dynamics.microsoft.com/en-us/guidedtour/dynamics/business-central/1/1), und [starten Sie eine kostenlose Testversion](https://go.microsoft.com/fwlink/?linkid=847861). Schauen Sie sich die [Schnellstart-Artikel](quick-start-business-central.md) an, die Ihnen helfen, [!INCLUDE [prod_short](includes/prod_short.md)] kennen zu lernen. Weitere Informationen zum Onboarding zu [!INCLUDE[prod_short](includes/prod_short.md)] finden Sie unter [Vorbereitung für die Geschäftstätigkeit](ui-get-ready-business.md).  
 
