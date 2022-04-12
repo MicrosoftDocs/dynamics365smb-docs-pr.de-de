@@ -10,12 +10,12 @@ ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, bank file import, 
 ms.search.form: 304, 20106, 20105, 20100, 20101, 20107, 20109
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4e601eb57aebd831e85c20449d32b0e52acb387a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ea671a550dcada2573ae9b8e174a6e2e23051f9e
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148759"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523170"
 ---
 # <a name="set-up-the-amc-banking-365-fundamentals-extension"></a>Einrichten der AMC Banking 365 Fundamentals-Erweiterung
 Ein globaler Diensteanbieter, der Bankdaten in das Dateiformat konvertiert, das Ihre Bank verlangt, ist in [!INCLUDE[prod_short](includes/prod_short.md)] eingebunden und kann aktiviert werden. Dies wird in [!INCLUDE[prod_short](includes/prod_short.md)] als die AMC Banking 365 Fundamentals-Erweiterung bezeichnet.
@@ -32,7 +32,7 @@ Um Bankdateien zu importieren oder zu exportieren, müssen Sie Ihre eigenen Bank
 > Die AMC Banking 365 Fundamentals-Erweiterung legt möglicherweise einen Höchstwert für die Anzahl der Zeilen fest, die in einer Datei exportiert werden können. Sie erhalten eine Fehlermeldung, wenn der Grenzwert überschritten wird. Es wird empfohlen, dass Bankkontoauszugsdateien 1.000-Zeilen nicht überschreiten, da sich die Verarbeitungszeit in der AMC Banking 365 Fundamentals-Erweiterung andernfalls erheblich erhöht.
 
 ## <a name="to-sign-your-company-up-for-the-amc-banking-365-fundamentals-extension"></a>So registrieren Sie Ihr Unternehmen für die AMC Banking 365 Fundamentals-Erweiterung
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Bank Data Conv. Service Einrichtung** ein, und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Bank Data Conv. Service Einrichtung** ein, und wählen Sie dann den entsprechenden Link.  
 2. Die Seite **Einrichtung Bankdaten-Konvertierungsservice** wird geöffnet und zeigt drei Felder an, die mit relevanten URLs des Anbieters der AMC Banking 365 Fundamentals-Erweiterung vorab ausgefüllt sind.
 
     > [!NOTE]  
@@ -49,7 +49,7 @@ Um Bankdateien zu importieren oder zu exportieren, müssen Sie Ihre eigenen Bank
 > Sie informieren Daten werden verschlüsselt automatisch an.
 
 ## <a name="to-view-or-update-the-list-of-currently-supported-bank-data-formats"></a>Um die Liste der gerade unterstützten Bankdatenformate anzeigen oder zu aktualisieren
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Bankdaten Konv. Service Einrichtung** ein und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Bankdaten Konv. Service Einrichtung** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie auf der Seite **Einrichtung Bankdaten-Konvertierungsservice** die Aktion **Bankname – Datenkonvertierungsübersicht**, um die Liste der Banknamen zu öffnen, die die Bankdatenformate darstellen, die von dem Konvertierungs-Service unterstützt werden.
 3. Wählen Sie auf der Seite **Bankname – Datenkonvertierungsübersicht** die Aktion **Banknamenübersicht aktualisieren** aus.
 
@@ -60,7 +60,7 @@ Die Liste der Bankdatenformate, die von der AMC Banking 365 Fundamentals Erweite
 
 Sie haben sich nun für die AMC Banking 365 Fundamentals-Erweiterung registriert. Fahren Sie fort, die Registrierungsinformationen über jedes Bankkonto wiederzugeben, das der Service verwendet.
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 [Einrichten von Banken](bank-setup-banking.md)  
 [Abstimmen von Bankkonten](bank-manage-bank-accounts.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -10,12 +10,12 @@ ms.search.keywords: non-inventoriable
 ms.search.forms: 5725, 5726, 5732
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8f8d97f10904664dc68bec6ccb85823a765a58aa
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 1051b36f70eeb5d86aef04e7faf200660117232d
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137887"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516161"
 ---
 # <a name="work-with-catalog-items"></a>Arbeiten mit Katalogartikeln
 Sie können Ihren Debitoren bestimmte Artikel als Dienstleistung anbieten, die Sie nicht im Lager verwalten möchten, bis Sie den Verkauf sie starten. Wenn Sie damit beginnen wollen, solche Artikel im Lager zu verwalten, können Sie sie auf zwei Arten in normale Artikelkarten umwandeln.
@@ -35,18 +35,18 @@ Ein Katalogartikel besitzt üblicherweise die Artikelnummer des Kreditoren, der 
 ## <a name="to-create-a-catalog-item"></a>So erstellen Sie einen Katalogartikel
 Katalogartikelkarten enthalten viel weniger Informationen als normale Artikelkarten, da Sie diese nur verwenden, um Angebote auf Anfragen oder auf andere Arten zu erstellen. Aus diesem Grund müssen sie in normale Artikelkarten konvertiert werden, bevor Sie Verkaufstransaktionen mit ihnen buchen können.
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Katalogartikel** ein und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Katalogartikel** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie die Aktion **Neu** aus.
 3. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-set-up-how-catalog-item-numbers-are-converted-to-your-own-numbering"></a>So richten Sie ein, wie Katalogartikelnummern in Ihrer eigenen Nummerierung erstellt werden
 Um die Konvertierung einer Katalogartikelkarte in eine normale Artikelkarte zu aktivieren, muß zunächst festgelegt werden, wie die Kreditorenartikelnummerierung in Ihr eigenes Artikelnummernformat umgewandelt wird.
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Katalogartikel – Einrichtung** ein und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Katalogartikel – Einrichtung** ein und wählen Sie dann den zugehörigen Link.
 2. Füllen Sie die Felder je nach Bedarf aus.
 
 ## <a name="to-convert-a-catalog-item-to-a-normal-item"></a>So konvertieren Sie einen Katalogartikel in einen normalen Artikel
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Katalogartikel** ein und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Katalogartikel** ein und wählen Sie dann den zugehörigen Link.
 2. Öffnen Sie die Karte für einen Katalogartikel, den Sie in einen normalen Artikel umwandeln wollen.
 3. Wählen Sie auf der Seite **Katalogartikelkarte** die Aktion **Artikel erstellen** aus.
 
@@ -70,7 +70,7 @@ Sie können dann die Felder in der neuen Artikelkarte nach Bedarf ausfüllen ode
 ## <a name="see-also"></a>Weitere Informationen
 [Neue Artikel registrieren](inventory-how-register-new-items.md)  
 [Spezialaufträge erstellen](sales-how-to-create-special-orders.md)|  
-[Lagerbestand](inventory-manage-inventory.md)  
+[Bestand](inventory-manage-inventory.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

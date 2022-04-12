@@ -9,12 +9,12 @@ ms.workload: na
 ms. search.keywords: VAT, value added tax, report
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: f385cd6dc2186a2e492eb7c045639ec34185237c
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 7d040289fbcf85b67c32147e56f13797e3bd5447
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382557"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519570"
 ---
 # <a name="the-vat-group-management-extension"></a>Die Mehrwertsteuergruppenverwaltungserweiterung
 
@@ -91,7 +91,7 @@ Richten Sie das Mehrwertsteuergruppenmitglied ein, indem Sie die Anleitung zur u
 
   Im Vereinigten Königreich würde beispielsweise die Konfiguration des Mehrwertsteuerberichts so eingerichtet, dass die Mehrwertsteuer an die HMRC gemeldet wird. Die Erweiterung „Mehrwertsteuergruppenverwaltung“ kopiert diese Einrichtung, aber ersetzt die Übermittlungs-codeunit durch‌ eine solche, die die Übermittlung an den Vertreter der Mehrwertsteuergruppe anstelle an die Steuerbehörden unterstützt. Die codeunit wird von Microsoft bereitgestellt. Wenn Sie fertig sind, wählen Sie **Weiter**.
 
-## <a name="using-the-vat-group-management-features"></a>Verwenden der Funktionen der Mehrwertsteuergruppenverwaltung
+## <a name="use-the-vat-group-management-features"></a>Die Funktionen der Mehrwertsteuergruppenverwaltung verwenden
 
 Mehrwertsteuergruppenmitglieder verwenden die Standardprozesse, um Mehrwertsteuererklärungen zu erstellen. Der einzige Unterschied ist die Auswahl der Berichtsversion **MEHRWERTSTEUERGRUPPE**, wodurch die Mehrwertsteuererklärung an den Vertreter der Mehrwertsteuergruppe und nicht an die Behörden übermittelt wird. Weitere Informationen finden Sie unter [Informationen zum MwSt.-Rückgabebericht](finance-how-report-vat.md#vatreturn).
 

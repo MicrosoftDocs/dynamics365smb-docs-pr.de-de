@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: decimal separator, data entry, focus
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
-ms.date: 10/01/2021
+ms.date: 03/23/2022
 ms.author: jswymer
-ms.openlocfilehash: 9fb5df3e4b73b23b469185c46235170d6cebdde2
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.openlocfilehash: 8212dd5d85ee826bb0147a0d09d623c3af14071b
+ms.sourcegitcommit: d6af3155bb818430f22d5caca78df322a8d9b178
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323032"
+ms.lasthandoff: 04/01/2022
+ms.locfileid: "8528548"
 ---
 # <a name="entering-data"></a>Eingeben von Daten
 
@@ -23,7 +23,8 @@ Es gibt viele allgemeine Funktionen, die Ihnen helfen, Daten einfacher, schnelle
 
 Die Beispiele in diesen Artikel verwendet die Demodaten.
 
-## <a name="working-with-editable-fields"></a>Mit bearbeitbaren Feldern arbeiten
+## <a name="work-with-editable-fields"></a>Mit bearbeitbaren Feldern arbeiten
+
 Felder in [!INCLUDE[prod_short](includes/prod_short.md)] können verschiedene bearbeitbare Daten enthalten, z. B. Text oder Währungsbeträge. Bearbeitbare Felder zeigen in der Regel ein Eingabefeld an, in das Sie einen Wert eingeben bzw. aus dem Sie einen Wert auswählen können. Nicht bearbeitbare Felder werden normalerweise mit einem grauem Hintergrund angezeigt.   
 
 Einige bearbeitbare Felder bieten eine Auswahl, anhand derer Sie einen Wert festlegen können.  
@@ -58,6 +59,8 @@ Wenn der Cursor am Ende des Feldwerts angezeigt wird:
 > [!NOTE]
 > Nachdem Sie einen Wert angegeben haben, überprüft Business Central dessen Gültigkeit erst, wenn Sie außerhalb des Felds klicken oder den Fokus auf ein anderes Element wie das nächste Feld legen.  
 
+[!INCLUDE [background_doc_journal_check](includes/background_doc_journal_check.md)]
+
 ## <a name="keyboard-shortcuts"></a>Tastenkombinationen
 
 Es gibt verschiedene Tastenkombinationen, mit denen Sie ohne Maus arbeiten und die Dateneingabe beschleunigen können. Diese Tastenkombinationen sind besonders hilfreich bei umfangreichen Einträgen und wiederkehrenden Eingabeaufgaben.
@@ -91,7 +94,7 @@ Nachfolgend sind einige nützliche Informationen zur Anwendung der Schnelleingab
 
 Verwenden Sie die Personalisierung, um die Schnelleingabe für Felder einzurichten.
 
-1. Starten Sie die Personalisierung, indem Sie das Symbol ![Einstellungen.](media/ui-experience/settings_icon_small.png "Einstellungssymbol für Rollencenter") Symbol und dann die Aktion **Personalisieren**.
+1. Starten Sie die Personalisierung, indem Sie das Symbol ![Einstellungen.](media/ui-experience/settings_icon_small.png "Einstellungssymbol für Rollenzentrum") Symbol und dann die Aktion **Personalisieren**.
 2. Wählen Sie ein Feld aus, das Sie ändern möchten. Wählen Sie in Listen die entsprechende Spaltenüberschrift aus. Wählen Sie dann **In Schnelleingabe einschließen** oder **Von der Schnelleingabe ausschließen** aus.
 
 Weitere Informationen zur Personalisierung finden Sie unter [Personalisieren Ihres Arbeitsbereichs](ui-personalization-user.md).
@@ -108,9 +111,9 @@ Auch wenn ein Feld obligatorisch ist, sind Sie nicht gezwungen, das Feld auszuf�
 
  Viele Felder haben eine Schaltfläche mit einem nach unten zeigenden Pfeil, den Sie auswählen können. Durch Klicken auf diesen Pfeil wird eine Liste der Daten angezeigt, die in das Feld eingegeben werden können. Die Schaltfläche bietet abhängig vom Feldtyp zwei Funktionen:  
 
--   Lookup – Zeigt Informationen aus einer anderen Tabelle an, die im Feld eingegeben werden können. Es kann jeweils ein Datenelement ausgewählt werden.  
+- Lookup – Zeigt Informationen aus einer anderen Tabelle an, die im Feld eingegeben werden können. Es kann jeweils ein Datenelement ausgewählt werden.  
 
--   Dropdown – Zeigt die Optionen an, die für das Feld verfügbar sind. Sie können nur eine der Optionen auswählen.  
+- Dropdown – Zeigt die Optionen an, die für das Feld verfügbar sind. Sie können nur eine der Optionen auswählen.  
 
 ## <a name="copying-and-pasting-faq-fields-and-lines"></a>FAQ Felder und Zeilen kopieren und einfügen
 
@@ -171,26 +174,26 @@ Beim Eingeben von Zahlen in die Mengenfelder, beispielsweise in das Feld **Menge
 
 ### <a name="examples"></a>Beispiele  
 
--   Bei Eingabe von 19+19 wird im Feld als Wert 38 angezeigt.  
+- Bei Eingabe von 19+19 wird im Feld als Wert 38 angezeigt.  
 
--   Bei Eingabe von 41-9 wird im Feld als Wert 32 angezeigt.  
+- Bei Eingabe von 41-9 wird im Feld als Wert 32 angezeigt.  
 
--   Bei Eingabe von 12*4 wird im Feld als Wert 48 angezeigt.  
+- Bei Eingabe von 12*4 wird im Feld als Wert 48 angezeigt.  
 
--   Bei Eingabe von 12/4 wird im Feld als Wert 3 angezeigt.  
+- Bei Eingabe von 12/4 wird im Feld als Wert 3 angezeigt.  
 
 ## <a name="entering-negative-numbers"></a>Eingeben von negativen Zahlen
 
 Sie können negative Zahlen auf zwei Arten eingeben. Die Zahl. -20,5 kann so eingegeben werden:  
 
--   -20.5  
+- -20.5  
 
-    Oder
--   20.5-  
+  Oder
+- 20.5-  
 
- In beiden Fällen wird der Betrag als -20,5 erfasst.  
+In beiden Fällen wird der Betrag als -20,5 erfasst.  
 
- Wenn das letzte Zeichen des Ausdrucks **+** oder **-** ist, wird der gesamte Ausdruck mit diesem Vorzeichen erfasst. Ein Beispiel, **10-20+** ergibt 10 und nicht -10.  
+Wenn das letzte Zeichen des Ausdrucks **+** oder **-** ist, wird der gesamte Ausdruck mit diesem Vorzeichen erfasst. Ein Beispiel, **10-20+** ergibt 10 und nicht -10.  
 
 ## <a name="entering-dates-and-times"></a>Daten und Zeit eingeben
 
@@ -201,15 +204,18 @@ Datums- und Uhrzeitwerte können in alle Felder eingegeben werden, die für Datu
 
 ### <a name="entering-dates"></a>Eingeben von Datumswerten
 
-Sie können entweder die Datenauswahl verwenden, um ein Datum aus einem Kalender auszuwählen, oder Sie können Daten manuell eingeben. Dieser Abschnitt bietet eine kurze Übersicht über die Dateneingabe. Weitere Informationen finden Sie unter [Arbeiten mit Datumsangaben und Uhrzeiten in Kalendern](ui-enter-date-ranges.md).
+Sie können entweder die Datenauswahl verwenden, um ein Datum aus einem Kalender auszuwählen, oder Sie können Daten manuell eingeben. Dieser Abschnitt bietet eine kurze Übersicht über die Dateneingabe. Weitere Informationen finden Sie unter [Mit Datumsangaben und Uhrzeiten in Kalendern arbeiten](ui-enter-date-ranges.md).
 
 Für manuelle Eingabe von Datumsangaben können zwei-, vier-, sechs- oder achtstellige Werte eingegeben werden:  
 
--   Zwei Ziffern werden als Tag interpretiert. Der Monat und das Jahr des Arbeitsdatums werden hinzugefügt.  
+- Zwei Ziffern werden als Tag interpretiert. Der Monat und das Jahr des Arbeitsdatums werden hinzugefügt.  
 
--   Vier Ziffern werden als Tag und Monat interpretiert. Das Jahr des Arbeitsdatums wird hinzugefügt.  
+- Vier Ziffern werden als Tag und Monat interpretiert. Das Jahr des Arbeitsdatums wird hinzugefügt.  
 
--   Wenn das gewünschte Datum im Bereich vom 01.01.1930 bis zum 31.12.2029 liegt, geben Sie das Jahr zweistellig ein. Andernfalls geben Sie das Jahr vierstellig ein.  
+- Wenn das gewünschte Datum im Bereich vom 01.01.1950 bis zum 31.12.2049 liegt, geben Sie das Jahr zweistellig ein. Andernfalls geben Sie das Jahr vierstellig ein.
+
+  > [!NOTE]
+  > Wenn Sie [!INCLUDE[prod_short](includes/prod_short.md)] lokal verwenden, kann der zweistellige Jahresbereich abweichen. Administratoren können den Bereich ändern, indem sie die **CalendarTwoDigitYearMax**-Einstellung des [!INCLUDE[prod_short](includes/prod_short.md)]-Servers ändern. Weitere Informationen finden Sie unter [Konfigurieren von Business Central Server](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#General).
 
 Sie können auch ein Datum als Wochentag gefolgt von einer Wochennummer eingeben. Oder Sie können ein Jahr eingeben. Beispielsweise bedeutet Mo25 oder mo25 Montag in der 25. Woche  
 
@@ -267,9 +273,12 @@ Hier folgen einige Beispiele.
 
 ## <a name="setting-the-decimal-separator-used-by-numeric-keyboards"></a><a name="decimal"></a>Festlegen des Dezimaltrennzeichens, das von numerischen Tastaturen verwendet wird
 
-Wenn Sie bei der Eingabe von Daten die Dezimaltrennzeichen-Taste der numerischen Tastatur verwenden, wird das tatsächliche Dezimaltrennzeichen, das in das Feld eingegeben wird, durch die Regionseinstellung Ihres Business Central bestimmt. Sie legen die Region in Business Central auf der Seite **Meine Einstellungen** fest.
+Wenn Sie bei der Eingabe von Daten die Dezimaltrennzeichen-Taste auf einem Ziffernblock verwenden, wird das tatsächliche Dezimaltrennzeichen, das in das Feld eingegeben wird, durch die Regionseinstellung in Business Central bestimmt. Die meisten Regionen verwenden das Symbol Punkt (.) oder Komma (,) als Trennzeichen für Dezimalwerte, wie Sie es normalerweise in Währungsbeträgen sehen würden. Die Dezimaltaste auf Ihrer Tastatur passt sich Ihrer Region an. Sie unterscheidet sich oft von den Punkt- oder Kommatasten auf dem Rest Ihrer Tastatur. Sie legen die Region in Business Central auf der Seite **Meine Einstellungen** fest.
 
-Nehmen wir zum Beispiel an, Sie verwenden eine numerische Tastatur, die einen Punkt (.) als Dezimaltrennzeichen verwendet. Sie geben aber Daten für eine regionale Sprache ein, die ein Komma (**,**) als Dezimaltrennzeichen verwendet, wie z.B. Dänisch (Dänemark) oder Französisch (Frankreich). Sie möchten also, dass Dezimalzahlen wie „1.23“ als „1,23“ eingegeben werden. In diesem Fall können Sie auf die Seite **Meine Einstellungen** gehen und die **Region** auf die regionale Zielsprache festlegen, wie **Dänisch (Dänemark)** oder **Französisch (Frankreich)**. Weitere Informationen finden Sie unter [Grundeinstellungen ändern](ui-change-basic-settings.md#region).
+Nehmen wir zum Beispiel an, Sie verwenden eine numerische Tastatur, die einen Punkt (.) als Dezimaltrennzeichen verwendet. Sie geben aber Daten für eine regionale Sprache ein, die ein Komma (**,**) als Dezimaltrennzeichen verwendet, wie z.B. Französisch (Frankreich). Sie möchten also, dass Dezimalzahlen wie „1.23“ als „1,23“ eingegeben werden. In diesem Fall können Sie auf die Seite **Meine Einstellungen** gehen und die **Region** auf die regionale Zielsprache festlegen, wie **Französisch (Frankreich)**. Weitere Informationen finden Sie unter [Grundeinstellungen ändern](ui-change-basic-settings.md#region).
+
+> [!TIP]
+> Es kann vorkommen, dass Sie das Dezimaltrennzeichen verwenden möchten, um einen Punkt (.) einzugeben. Angenommen, Sie geben einen Datumsbereich in einen Filter ein, z. B. `01/01/2022..04/01/2022` oder irgendetwas, das einen Punkt erfordert. Um diesen Fall zu berücksichtigen, drücken Sie die Tasten „Alt+Dezimaltrennzeichen“ auf der numerischen Tastatur. Diese Tastenkombination schaltet das Dezimaltrennzeichen zwischen der Ausgabe eines Punktes und dem durch die **Region**-Einstellung festgelegten Dezimaltrennzeichen um.
 
 ## <a name="see-also"></a>Weitere Informationen
 

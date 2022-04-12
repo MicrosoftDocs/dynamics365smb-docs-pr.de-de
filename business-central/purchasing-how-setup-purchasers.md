@@ -10,12 +10,12 @@ ms.search.keywords: purchasing agent
 ms.search.form: 14, 5116
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 17f307f76f4f34e431b8ee2239886d91bc2c26e3
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 366feb242578d79ece0553bc8fba570403d8cde1
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140709"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520838"
 ---
 # <a name="set-up-purchasers"></a>Einkäufer einrichten
 Falls in Ihrem Unternehmen mehrere Einkäufer tätig sind, können Sie diese auf einer Seite einrichten und jedem einen Code zuweisen. Diese Codes können Sie dann für statistische Auswertungen und als Filter in Berichten verwenden<br><br>  
@@ -23,16 +23,16 @@ Falls in Ihrem Unternehmen mehrere Einkäufer tätig sind, können Sie diese auf
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3Q7hU?rel=0]
 
 ## <a name="to-set-up-purchasers"></a>So richten Sie Einkäufer ein
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Verkäufer/Einkäufer** ein und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Verkäufer/Einkäufer** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie auf der Seite **Verkäufer/Einkäufer** **Neu** aus.
 3. Füllen Sie auf der Seite **Verkäufer-/Einkäuferkarte** die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-purchasers-to-vendors"></a>Einkäufer Kreditoren zuweisen
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Kreditoren** ein und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Kreditoren** ein und wählen Sie dann den zugehörigen Link.
 2. Öffnen Sie die relevante Kreditorenkarte für den Kreditor, dem ein Einkäufer zugewiesen wird.
 3. Wählen Sie im Feld **Einkäufercode** den entsprechenden Code aus, und schließen Sie dann die Seite.
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 [Einkaufeinrichten](purchasing-setup-purchasing.md)  
 [Verwalten von Verbindlichkeiten](payables-manage-payables.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

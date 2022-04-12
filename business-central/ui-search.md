@@ -7,15 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.search.form: TellMe, 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 841e964408750ec60e406262cacd53c2320d3d8e
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: c8f75b9f2d5be0a7916996362518bb5d49762484
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381685"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512049"
 ---
 # <a name="finding-pages-and-information-with-tell-me"></a>Suchen von Seiten und Informationen mit Wie möchten Sie weiter verfahren  
 In diesem Thema wird beschrieben, wie Sie mit „Wie möchten Sie weiter verfahren“ schnell zu Aktionen, Seiten oder Berichten navigieren, Informationen zum Abschluss einer bestimmten Aufgabe finden und zusätzliche Apps und Beratungsdienste für [!INCLUDE[prod_short](includes/prod_short.md)] zu ermitteln.  
@@ -65,8 +65,8 @@ Wir haben „Wie möchten Sie weiter verfahren“ einer Reihe von Projektbeteili
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/modules/user-interface-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Siehe auch
-[Arbeiten mit  Business Central](ui-work-product.md)  
+## <a name="see-also"></a>Weitere Informationen
+[Arbeiten mit Business Central](ui-work-product.md)  
 [Fügen Sie Ihrem Rollencenter eine Seitenaktion hinzu](ui-bookmarks.md)
 
 

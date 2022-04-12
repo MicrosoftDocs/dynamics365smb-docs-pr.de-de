@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: UOM
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 28351ac57c6c1941446d5383b384b78fbdf1f77a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 6457750589393b2f8cc9d76e732ab0c3e6064a9d
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131509"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518025"
 ---
 # <a name="set-up-units-of-measure"></a>Einheiten einrichten
 
@@ -31,7 +31,7 @@ Ein weiteres Tool, das Ihnen die Arbeit mit mehreren Maßeinheiten für Artikel 
 
 ## <a name="to-set-up-units-of-measure"></a>So richten Sie Einheiten ein
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Maßeinheiten** ein, und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Maßeinheiten** ein, und wählen Sie dann den entsprechenden Link.  
 2. Wählen Sie die Aktion **Neu**. Eine neue leere Zeile wird eingefügt.  
 3. Füllen Sie die Felder aus. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 4. Wenn Sie wissen, dass Ihre Organisation Artikel mit dieser Einheit an Kunden in anderen Ländern verkauft, können Sie Übersetzungen hinzufügen.  
@@ -44,7 +44,7 @@ Wenn Sie einen neuen Artikel registrieren, können Sie die Einheit aus der Liste
 
 ## <a name="to-set-up-multiple-item-units-of-measure"></a>So richten Sie mehrere Einheiten für Artikel ein
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Elemente** ein, und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Elemente** ein, und wählen Sie dann den zugehörigen Link.
 2. Öffnen Sie die Karte des Artikels, für die Sie alternative Einheiten einrichten möchten.
 3. Wählen Sie die **Einheiten** Aktion aus. Die Seite **Artikeleinheiten** wird geöffnet.
 4. Wenn das Feld **Basismaßeinheit** auf der Artikelkarte ausgefüllt wird, ist diese Maßeinheit bereits eingerichtet.
@@ -62,9 +62,9 @@ Sie können die alternativen Einheiten von Einkauf, Produktion und Verkaufsbeleg
 
 ## <a name="to-set-up-unit-of-measure-translations"></a>Einheiten der Maßübersetzungen einrichten
 
-Wenn Sie Artikel an ausländische Kunden verkaufen, möchten Sie vielleicht die Maßeinheit in der Sprache des Kunden angeben. Das können Sie tun, indem Sie Übersetzungen für Maßeinheiten angeben.
+Wenn Sie Artikel an ausländische Kunden verkaufen, möchten Sie vielleicht die Maßeinheit in der Sprache des Debitors angeben. Das können Sie tun, indem Sie Übersetzungen für Maßeinheiten angeben.
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Maßeinheiten** ein, und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Maßeinheiten** ein, und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie den Code aus, für den Sie Übersetzungen einrichten möchten und klicken Sie auf **Übersetzungen**.
 3. Wählen Sie im Feld **Sprachcode** auf den Dropdown-Pfeil, um eine Übersicht über die verfügbaren Sprachcodes anzuzeigen. Wählen Sie den Sprachcode, für den Sie eine Übersetzung eingeben möchten, und wählen Sie dann die Schaltfläche OK, um den Code in das Feld zu kopieren.
 4. Geben Sie in dem Feld **Beschreibung** den entsprechenden Text ein.

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 21dfc90e25c33c26bc739ff32274d0a5088a6e2f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 51d04edb267ba2d75b4ed57d1587b40994f009cc
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146566"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511701"
 ---
 # <a name="design-details-production-order-posting"></a>Designdetails: Fertigungsauftragsbuchung
 Ähnlich wie bei der Montageauftragsbuchung werden die verbrauchten Komponenten und die verwendete Maschinenzeit konvertiert und als gefertigter Artikel ausgegeben, wenn der Fertigungsauftrag abgeschlossen wird. Weitere Informationen finden Sie unter [Designdetails: Montageauftragsbuchung](design-details-assembly-order-posting.md). Der Kostenfluss für Montageaufträge ist jedoch weniger Komplex, insbesondere da die Buchung der Montagekosten nur einmal geschieht und daher keinen WIP-Bestand generiert.

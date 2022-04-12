@@ -10,12 +10,12 @@ ms.search.keywords: consolidation, subsidiaries, consolidate
 ms.search.form: 1826, 1827
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: c1873d8b5b4da7958fdab052bc587d004b06c7c6
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 5e6e633155131c7a397a4214d9d22d9464b0847d
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136092"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518155"
 ---
 # <a name="consolidating-financial-data-from-multiple-companies"></a>Konsolidieren von Finanzdaten aus mehreren Unternehmen
 
@@ -55,7 +55,7 @@ Der Prozess der Übertragung der Zahlen aus den Konzernmandanten in das konsolid
 Sie können Ihre Daten testen, bevor Sie sie an den Konsolidierungsmandanten übertragen. [!INCLUDE[prod_short](includes/prod_short.md)] So überprüfen Sie Unterschiede zwischen den Informationen in den Konzernmandanten und dem Konsolidierungsmandanten Beispielsweise ob Kontonummern oder Dimensionscodes abweichen. Sie müssen Fehler korrigieren, bevor Sie den Bericht ausführen können. Sie können prüfen, die Datenbank oder, wenn Sie Daten einer XML-Datei importiert, können Sie testen die Datei.  
 
 1. Öffnen Sie den Konsolidierungsmandanten.  
-2. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Konzernmandanten** ein und wählen Sie dann den zugehörigen Link.  
+2. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Konzernmandanten** ein und wählen Sie dann den zugehörigen Link.  
 3. Führen Sie einen der folgenden Schritte aus:  
 
     * Um eine Datei zu testen, wählen Sie die **Datei prüfen** Aktion, geben Sie den Namen der Datei an zum Testen ein, und wählen Sie dann **Drucken** aus.  

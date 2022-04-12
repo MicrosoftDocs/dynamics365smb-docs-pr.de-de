@@ -1,28 +1,27 @@
 ---
-title: Definieren Sie die Kontakte in einem Segment| Microsoft Docs
+title: Kontakte zu Segementen hinzuzufügen
 description: Nachdem Sie ein Segment erstellt haben, können Sie dem Segment Kontakte zum Beispiel als Teil der bestimmte Debitoren oder der Clients einer Werbekampagnezielgruppenadressierung hinzufügen.
-services: project-madeira
-documentationcenter: ''
 author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: marketing, campaign, promo, prospect, contact, client, customer
+ms.search.form: 5091, 5093
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 975a6e769bbba3a32451fc1e9fda54da9cad401b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d285e384ceef9e78fca764fdffaabb3ff439ea02
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135211"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519069"
 ---
 # <a name="add-contacts-to-segments"></a>Kontakte zu Segementen hinzuzufügen
 Nachdem Sie ein Segment erstellt haben und Basisinformationen darüber eingegeben haben, können Sie dem Segment Kontakte hinzufügen. Sie können dies manuell in den Zeilen auf der Seite **Segment** tun, aber es ist schneller und einfacher, die Aktion **Kontakte hinzufügen** zu verwenden.
 
 ## <a name="to-add-a-contact-to-a-segment"></a>Um einem Segment einen Kontakt hinzuzufügen:
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Segmente** ein, und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Segmente** ein, und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie das Segment, und wählen Sie die Aktion **Kontakte hinzufügen** aus. Die Batchauftragsseite **Kontakte hinzufügen** wird geöffnet.
 3. Geben Sie im Abschnitt **Kontakt** durch Setzen von Filtern die Informationen an, nach denen Kontakte ausgewählt werden sollen.
 

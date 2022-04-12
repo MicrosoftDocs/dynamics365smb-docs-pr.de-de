@@ -1,28 +1,29 @@
 ---
-title: Sammeln von Einrichtungswerten für Debitoren
-description: Der Konfigurationsfragebogen hilft, die Implementierung zu reduzieren, indem er das Einrichten neuer Firmen rationalisiert und den Debitoren eine Excel- oder XML-Datei anbietet.
+title: Sammeln von Werten für die Einrichtung von Debitoren
+description: Wenn Sie RapidStart Services verwenden möchten, können die Implementierung mithilfe des Konfigurationsfragebogens reduziert werden, indem das Einrichten neuer Mandanten rationalisiert und Debitoren eine Excel- oder XML-Datei zur Verfügung gestellt wird.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 8610, 8613
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: d26fb334462ad52a14058e8d5f6b9f86088ad3d7
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 91c13c5b0fb67befd0c03e2662c545ff8231e6da
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145970"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518389"
 ---
-# <a name="gather-customer-setup-values"></a>Sammeln von Werten für die Einrichtung von Debitoren
+# <a name="gather-customer-setup-values-with-rapidstart-services"></a>Werte für die Einrichtung von Debitoren mit RapidStart Services sammeln
 Verwenden Sie den Einrichtungsfragebogen, um Ihre Implementierungsarbeitslast zu verringern, indem Sie die Aufgabe des Einrichtens neuer Mandanten rationalisieren. Sie können den Einrichtungsfragebogen in [!INCLUDE[prod_short](includes/prod_short.md)] erstellen und Ihrem Debitor als Excel (.xls) oder XML-Datei zur Verfügung stellen.  
 
 Sie können alle Vorgabewerte in einem Fragebogen ändern, um sie an die Anforderungen des Debitors anzugleichen.  
 
 > [!TIP]  
->  Weitere Informationen zum Definieren von Einrichtungswerten auf den Beschaffungsplanungsgebieten, siehe [Bewährte Einrichtungsmethoden: Beschaffungsplanung](setup-best-practices-supply-planning.md).  
+> Weitere Informationen zum Definieren von Einrichtungswerten auf den Beschaffungsplanungsgebieten, siehe [Bewährte Einrichtungsmethoden: Beschaffungsplanung](setup-best-practices-supply-planning.md).  
 
 Wenn Ihr Debitor den Fragebogen ausgefüllt hat, importieren Sie die Datei in den neuen Mandanten [!INCLUDE[prod_short](includes/prod_short.md)] des Debitors. Sie und Ihr Debitor validieren die Antworten aus dem Fragebogen, bevor Sie ihn für das Unternehmen anwenden.
 

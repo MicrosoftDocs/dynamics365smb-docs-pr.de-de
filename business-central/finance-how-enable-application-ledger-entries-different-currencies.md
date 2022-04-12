@@ -10,12 +10,12 @@ ms.search.keywords: multiple currencies, payment, reconcile
 ms.search.form: 148, 460, 25
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 24a0465b787afb6f78a82869f1025ffe60bd02ee
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: d7b83a2f53a41cc646b6480048fa4152035077c9
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8366828"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8510864"
 ---
 # <a name="enable-application-of-ledger-entries-in-different-currencies"></a>Anwendung von Kreditorenposten in unterschiedlichen Währungen aktivieren
 
@@ -27,7 +27,7 @@ Im Folgenden wird beschrieben, wie dies für Kreditorenposten auf der Seite **Kr
 
 ## <a name="to-enable-application-of-vendor-ledger-entries-in-different-currencies"></a>So aktivieren Sie den Ausgleich von Kreditorenposten in unterschiedlichen Währungen
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen") Symbol. Geben Sie **Kredite und Einkauf Einr. ein** und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Kredite und Einkauf Einr. ein** und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie im Feld **Währungsausgleich** eine der folgenden Optionen.
 
 | Option | Beschreibung |
@@ -43,12 +43,12 @@ Wenn Sie Posten in unterschiedlichen Währungen ausgleichen, müssen Sie die Sac
 > [!NOTE]  
 > Sie müssen die Sachkonten einrichten, bevor Sie die Aufgabe abschließen. Weitere Informationen finden Sie unter [Die Finanzbuchhaltung und der Kontenplan verstehen](finance-general-ledger.md).
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen") Symbol. Geben Sie **Debitorenbuchungsgruppen** ein und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Debitorenbuchungsgruppen** ein und wählen Sie dann den zugehörigen Link.  
 2. Geben Sie in die Felder **Währungsausgl. Rund.-Sollkto.** und **Währungsausgl. Rund.-Habenkto.** die entsprechenden Sachkonten ein, um Rundungsdifferenzen zu buchen.  
-3. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Kreditorenbuchungsgruppen** ein und wählen Sie dann den zugehörigen Link.  
+3. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Kreditorenbuchungsgruppen** ein und wählen Sie dann den zugehörigen Link.  
 4. Geben Sie in die Felder **Währungsausgl. Rund.-Sollkto.** und **Währungsausgl. Rund.-Habenkto.** die entsprechenden Sachkonten ein, um Rundungsdifferenzen zu buchen.  
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 [Verwalten von Verbindlichkeiten](payables-manage-payables.md)  
 [Verwalten von Forderungen](receivables-manage-receivables.md)  

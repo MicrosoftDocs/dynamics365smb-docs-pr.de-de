@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: f6f4966a1132c4e389cb3b37f31d9dcc883d27b5
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 7496c21745e2a27271db8ccb37c9607040e5259b
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384202"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511597"
 ---
 # <a name="keyboard-quick-reference---pc-only"></a>Nur PC-Tastenkombinationskurzübersicht
 
@@ -79,11 +79,18 @@ ms.locfileid: "8384202"
 |-|-|
 |STRG+UMSCHALT+EINGABE|Zum nächsten Schnelleingabefeld außerhalb einer Liste navigieren|
 |EINGABETASTE/UMSCHALTTASTE+EINGABETASTE|Zum nächsten/vorherigen Schnelleingabefeld navigieren|
+
 ##### <a name="report-preview"></a>Berichtvorschau
 
 |Drücken Sie diese Tasten|Vorgehensweise|
 |-|-|
 |Strg+Start/Ende|Zur ersten/letzten Seite.|
+
+#### <a name="numeric-keypad"></a>Numerische Tastatur
+
+|Drücken Sie diese Tasten|Vorgehensweise|  
+|-|-|
+|ALT+Dezimaltrennzeichen|Schaltet die Ausgabe des Dezimaltrennzeichens auf der Zehnertastatur um|
 
 > [!TIP]
 > Für eine grafische, druckfreundliche Version wählen Sie das folgende Bild und laden Sie die PDF-Datei herunter.

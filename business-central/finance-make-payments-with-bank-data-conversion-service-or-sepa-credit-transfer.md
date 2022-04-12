@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 256, 1205, 1206, 1209, 10810, 10811
 ms.date: 07/06/2021
 ms.author: bholtorf
-ms.openlocfilehash: 7ca67e062f2ea6720d0aa7cbf196fd2c6e612159
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: be2f6e3efdfd34d59c55a3addeefb5646454b3bb
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382628"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516265"
 ---
 # <a name="make-payments-with-the-amc-banking-365-fundamentals-extension-or-sepa-credit-transfer"></a>Zahlungen mit der AMC Banking 365 Fundamentals-Erweiterung oder per SEPA-Überweisung vornehmen
 
@@ -31,7 +31,7 @@ Auf der Seite **Zahlungsjournal** können Sie Zahlungen an Ihre Kreditoren verar
 
 ## <a name="setting-up-the-amc-banking-365-fundamentals-extension"></a>Einrichten der AMC Banking 365 Fundamentals-Erweiterung
 
-Aktivieren Sie die AMC Banking 365 Fundamentals-Erweiterung, um jede Bankauszugsdatei in ein Format zu konvertieren, das Sie importieren können, oder um Ihre exportierten Zahlungsdateien in das Format zu konvertieren, das Ihre Bank benötigt. Weitere Informationen finden Sie [Verwenden der AMC Banking 365 Fundamentals-Erweiterung](ui-extensions-amc-banking.md).
+Aktivieren Sie die AMC Banking 365 Fundamentals-Erweiterung, um jede Bankauszugsdatei in ein Format zu konvertieren, das Sie importieren können, oder um Ihre exportierten Zahlungsdateien in das Format zu konvertieren, das Ihre Bank benötigt. Weitere Informationen finden Sie unter [Die AMC Banking 365 Fundamentals-Erweiterung verwenden](ui-extensions-amc-banking.md).
 
 ## <a name="setting-up-sepa-credit-transfer"></a>Einrichten von SEPA-Kreditübertragung
 
@@ -93,7 +93,7 @@ Wenn Sie bereit sind, Zahlungen oder Rückvergütungen an Ihre Mitarbeiter zu ma
 In der generischen Version von [!INCLUDE[prod_short](includes/prod_short.md)] ist die AMC Banking 365 Fundamentals-Erweiterung verfügbar. In den nordamerikanischen Versionen kann die gleiche Erweiterung verwendet werden, um Zahlungsdateien wie beim elektronischen Zahlungsverkehr (EFT) zu versenden, allerdings mit einem etwas anderen Prozess. Siehe Schritt 6 unter [Zahlungen in eine Bankdatei exportieren](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#to-export-payments-to-a-bank-file).
 
 > [!NOTE]  
-> Bevor Sie Zahlungsdateien aus dem Zahlungsausgangs Buch.-Blatt exportieren können, müssen Sie das elektronische Format für das betreffende Bankkonto angeben und die AMC Banking 365 Fundamentals-Erweiterung aktivieren. Weitere Informationen finden Sie unter [Bankkonten einrichten](bank-how-setup-bank-accounts.md) und [Verwenden der AMC Banking 365 Fundamentals-Erweiterung](ui-extensions-amc-banking.md). Darüber hinaus müssen Sie das Kontrollkästchen **Zahlungsexport erlauben** auf der Seite **Fibu Buch.-Blattnamen** auswählen. Weitere Informationen finden Sie unter [Arbeiten mit Fibu Buch.-Blättern](ui-work-general-journals.md)  
+> Bevor Sie Zahlungsdateien aus dem Zahlungsausgangs Buch.-Blatt exportieren können, müssen Sie das elektronische Format für das betreffende Bankkonto angeben und die AMC Banking 365 Fundamentals-Erweiterung aktivieren. Weitere Informationen finden Sie unter [Bankkonten einrichten](bank-how-setup-bank-accounts.md) und [Verwenden der AMC Banking 365 Fundamentals-Erweiterung](ui-extensions-amc-banking.md). Darüber hinaus müssen Sie das Kontrollkästchen **Zahlungsexport erlauben** auf der Seite **Fibu Buch.-Blattnamen** auswählen. Weitere Informationen finden Sie unter [Arbeiten mit Allgemeinen Buch.-Blättern](ui-work-general-journals.md).  
 
 Sie verwenden die Seite **Kreditübertragungsjournale**, um die Zahlungsdateien anzuzeigen, die aus dem Zahlungsausgangs Buch.-Blatt exportiert wurden. Von dieser Seite aus können Sie Zahlungsdateien auch erneut exportieren (im Fall von technischen Fehlern oder Dateiänderungen). Beachten Sie, dass die exportierten EFT-Dateien nicht auf dieser Seite angezeigt werden und nicht wieder exportiert werden können.  
 
@@ -154,11 +154,11 @@ Sie können Zahlungsdateien aus der **Kreditübertragungsjournale**-Seite export
 
 Wenn die elektronische Zahlung erfolgreich von der Bank verarbeitet wird, buchen Sie die Zahlungen. Weitere Informationen finden Sie unter [Zahlungen durchführen](payables-make-payments.md).
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
-[Verwenden der AMC Banking 365 Fundamentals-Erweiterung](ui-extensions-amc-banking.md)  
+[AMC Banking 365 Fundamentals-Erweiterung verwenden](ui-extensions-amc-banking.md)  
 [Verwalten von Verbindlichkeiten](payables-manage-payables.md)  
-[Arbeiten mit allgemeinen Buch.-Blättern](ui-work-general-journals.md)  
+[Arbeiten mit Fibu Buch.-Blättern](ui-work-general-journals.md)  
 [Erfassen von Zahlungen per Lastschriftverfahren SEPA](finance-collect-payments-with-sepa-direct-debit.md)  
 
 

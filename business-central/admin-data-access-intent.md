@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 9880
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 66473480ac2db86bc35adc7e60d7fcd2cafc7212
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3ca69d95ae40965c83df56e1454ca9984a448cbb
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142523"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8510979"
 ---
 # <a name="managing-database-access-intent"></a>Verwaltung der Datenbank-Zugriffsabsicht
 
@@ -32,7 +32,7 @@ In Bezug auf die Datenbank wird diese Funktion allgemein als *Lesen Scale-out* b
 
 ## <a name="to-change-the-database-access-intent"></a>So ändern Sie die Datenbank-Zugriffsabsicht
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Liste Datenbankzugriffsabsicht** ein, und wählen Sie den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Liste Datenbankzugriffsabsicht** ein, und wählen Sie den zugehörigen Link.
 
     Die Seite listet alle Berichte, Seiten und Abfragen auf. Die Spalte **Zugriffsabsicht** enthält einen der folgenden Werte:
 
@@ -55,7 +55,7 @@ In Bezug auf die Datenbank wird diese Funktion allgemein als *Lesen Scale-out* b
 [Geschäftsfunktionen](across-business-functionality.md)  
 [Allgemeine Geschäftsfunktionen](ui-across-business-areas.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Vorbereitung für die Geschäftstätigkeit](ui-get-ready-business.md)    
+[Vorbereiten auf die Geschäftsabwicklung](ui-get-ready-business.md)    
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

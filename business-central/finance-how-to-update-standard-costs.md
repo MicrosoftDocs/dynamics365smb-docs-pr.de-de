@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 5841
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: dd79e723ea86f3e5631a571a26a061c84adab518
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 4bada4ee28df77cc9700d5957ef8fb8b1a64535b
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141125"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517446"
 ---
 # <a name="update-standard-costs"></a>Standardkosten aktualisieren
 Sie müssen die festen Einstandspreise von Komponenten in regelmäßigen Abständen aktualisieren und die neuen Einstandspreise auf den übergeordneten Artikel übertragen. Der Prozess besteht in der Regel aus den folgenden vier Schritten:  

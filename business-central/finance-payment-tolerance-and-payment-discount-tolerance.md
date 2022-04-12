@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 118, 314, 395
 ms.date: 10/29/2021
 ms.author: edupont
-ms.openlocfilehash: 0ec67d201d89b01b38b86edbeb6dcd3ea0148153
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f9cd8d837d94e9f90e48f84d4209bc3427d0b922
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147648"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523397"
 ---
 # <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Mit Zahlungstoleranzen und Skontotoleranzen arbeiten
 Sie können eine Zahlungstoleranz einrichten, um eine Rechnung zu schließen, wenn die Zahlung nicht vollständig den Betrag der Rechnung umfasst. Beispielsweise sind Zahlungstoleranzen in der Regel für kleine Beträge vorgesehen, deren Korrektur mehr kosten würde als deren Akzeptanz. Die eingerichtete Skontotoleranz erlaubt Ihnen, Skonto nach Ablauf des Skontodatums zu gewähren.  
@@ -44,11 +44,11 @@ Weitere Informationen finden Sie unter [So aktivieren oder deaktivieren Sie die 
 Toleranz auf Tage und Beträge erlaubt Ihnen, eine Rechnung auszugleichen, selbst wenn die Zahlung nicht vollständig den Rechnungsbetrag abdeckt, sei es aufgrund eines überschrittenen Skontodatums, weil Waren abgezogen wurden oder aufgrund eines kleineren Fehlers. Dies gilt auch für Gutschriften und Erstattungen.  
 
 Um diese Toleranz einzurichten, müssen Sie verschiedene Toleranzkonten einrichten, das Skontokonto und die Zahlungstoleranzbuchungsmethode spezifizieren und die Stapelverarbeitung **Zahlungstoleranz ändern** laufen lassen.  
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Allgemeine Buchungsmatrixeinrichtung** ein, und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Allgemeine Buchungsmatrixeinrichtung** ein, und wählen Sie dann den zugehörigen Link.  
 2. Öffnen Sie die Seite **Buchungsmatrix Einrichtung**. Richten Sie ein Haben- und ein Soll-Verkaufszahlungstoleranzkonto sowie ein Haben- und ein Soll-Einkaufszahlungstoleranzkonto ein.  
-3. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Debitorenbuchungsgruppen** ein und wählen Sie dann den zugehörigen Link.    
+3. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Debitorenbuchungsgruppen** ein und wählen Sie dann den zugehörigen Link.    
 4. Öffnen Sie die Seite **Debitorenbuchungsgruppen**. Richten Sie ein Haben- und ein Soll-Zahlungstoleranzkonto ein. Weitere Informationen finden Sie unter [Einrichten von Buchungsgruppen](finance-posting-groups.md).  
-5. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Kreditorenbuchungseinrichtung** ein, und wählen Sie dann den zugehörigen Link.  
+5. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Kreditorenbuchungseinrichtung** ein, und wählen Sie dann den zugehörigen Link.  
 6. Öffnen Sie die Seite **Debitorenbuchungsgruppen**. Richten Sie ein Haben- und ein Soll-Zahlungstoleranzkonto ein.  
 7. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Hauptbuchhaltung Einrichtung** ein und wählen Sie dann den zugehörigen Link.  
 8. Öffnen Sie die Seite **Finanzbuchhaltung Einrichtung**.  
@@ -257,7 +257,7 @@ Normale Ausgleichsvorschriften
 
 (2) Fällt die Zahlung in diesen Zeitraum, können nicht alle Posten geschlossen werden, auch nicht mit Toleranz.
 
-## <a name="see-also"></a>Siehe auch  
+## <a name="see-also"></a>Weitere Informationen  
 [Finanzen](finance.md)  
 [Finanzen einrichten](finance-setup-finance.md)  
 [Verwalten von Forderungen](receivables-manage-receivables.md)  

@@ -10,12 +10,12 @@ ms.search.keywords: money flow, expense and income, liquidity, cash receipts min
 ms.search.form: 846, 847, 849, 851, 855, 862, 869, 1818
 ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: 21a9fb4f38b6960389ec216e638cf06694eca07a
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: a79299d835b7a5af06edf16119f037cdaf610311
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381406"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515615"
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Aufstellung Cashflow-Analyse
 Wenn Sie etwas Unterstützung benötigen, was Sie mit Ihrem Barkonto zu tun sollen, schauen Sie sich das Diagramm im Buchhalter-Rollencenter an:  
@@ -68,14 +68,14 @@ Um die unterstützte Einrichtung zu verwenden:
 
 1. Im Buchhalterrollencenter unter **Cashflow-Planung** wählen Sie die Aktion **Unterstütze Einrichtung** aus.  
 2. Füllen Sie die Felder soweit erforderlich für jeden Schritt aus.  
-3. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Cashflowplanung** ein, und wählen Sie dann den entsprechenden Link.
+3. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Cashflowplanung** ein, und wählen Sie dann den entsprechenden Link.
 4. Auf der Seite **Cashflowplanung** wählen Sie die **Berechnen Sie Planung nach** Aktion aus.  
 
 Um einen manuellen Vorgang zu verwenden:  
 
 1. Im Feld Buchhalter-Rollencenter suchen Sie nach **Cashfloweinrichtung** und wählen Sie dann den zugehörigen Link aus.  
 2. Erweitern Sie das Inforegister **Azure AI** und aktivieren Sie das Kontrollkästchen **Azure AI aktiviert**.  
-3. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Cashflowplanung** ein, und wählen Sie dann den entsprechenden Link.
+3. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Cashflowplanung** ein, und wählen Sie dann den entsprechenden Link.
 4. Auf der Seite **Cashflowplanung** wählen Sie die **Berechnen Sie Planung nach** Aktion aus.  
 
 > [!TIP]  
@@ -121,7 +121,7 @@ Sie können Ihren eigenen vorhersagenden Webdienst auf einem öffentliches Model
 3. Verwenden Sie das Microsoft-Konto, um sich für einen Arbeitsbereich anzumelden und kopieren Sie dann das Muster.  
 4. Führen Sie die Vorlage aus und veröffentlichen Sie dieses als Webdienst.  
 5. Notieren Sie den API URL und den API Schlüssel. Sie verwenden diese Anmeldeinformationen für die Cashfloweinrichtung.  
-6. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Cashflow-Einrichtung** ein und wählen Sie dann den zugehörigen Link.  
+6. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Cashflow-Einrichtung** ein und wählen Sie dann den zugehörigen Link.  
 7. Erweitern Sie das Inforegister **Azure AI**, und füllen Sie die entsprechenden Felder aus.  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/modules/forecast-cash-flow-dynamics-365-business-central/index)

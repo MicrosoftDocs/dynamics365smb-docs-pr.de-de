@@ -10,12 +10,12 @@ ms.search.keywords: online printing, email printing, cloud printing, Universal P
 ms.search.form: 8900, 9018, 9022
 ms.date: 06/24/2021
 ms.author: jswymer
-ms.openlocfilehash: 317e90976aed760f55fc7122483377e8df11c906
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: b52d90dfadfac794ff1a62088def7c26a903a57d
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335144"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512654"
 ---
 # <a name="set-up-printers"></a>Einrichten von Druckern
 
@@ -143,7 +143,7 @@ Wenn Sie Drucker einzeln hinzufügen, können Sie denselben Universal Print-Druc
   
 <!-- To Do Adding printers individually lets you duplicate printers with custom , like different paper trays and paper size and orientation.  To add printers individually, you'll need to know printer's share name in Universal Print. -->
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Druckerverwaltung** ein, und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Druckerverwaltung** ein, und wählen Sie dann den entsprechenden Link.
 2. Klicken Sie auf **Universal Print**, und wählen Sie dann eine der folgenden Optionen aus:
 
     - **Alle Universal Print-Drucker hinzufügen**, um alle Drucker hinzuzufügen, die noch nicht hinzugefügt wurden. Sie können diese Option auch dann verwenden, wenn bereits Drucker hinzugefügt wurden. 
@@ -275,7 +275,7 @@ Anstatt den Standarddrucker zu verwenden, wenn Sie einen Bericht ausführen, kö
 
 Das Drucken in der Cloud ist für Dokumente mit einer angemessenen Größe vorgesehen. Die meisten Clouddienste, einschließlich PrintNode und HP ePrint, sind auf 10 MB pro Auftrag begrenzt. Wenn Sie größere Berichte drucken müssen, müssen Sie diese möglicherweise in mehrere Ausdrucke aufteilen.
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 [Berichte drucken](ui-work-report.md#PrintReport)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

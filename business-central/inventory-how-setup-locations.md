@@ -10,12 +10,12 @@ ms.search.keywords: warehouse, distribution center
 ms.search.forms: 5703, 15
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 0a2d5234a78daf6243591cc478ab7b19957a196a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 9de6580971f25d092de474c0720b86fab420bbf8
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130337"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515511"
 ---
 # <a name="set-up-locations"></a>Einrichten von Lagerorten
 
@@ -75,13 +75,16 @@ Wenn Sie Ihre Lagerplätze nach Zonen strukturieren möchten, haben Sie auf der 
 
 Sie können jedoch auch nur eine Zone einrichten und Ihr Lager einfach auf Lagerplatzebene verwalten. Weitere Informationen finden Sie unter [Lagerortverwaltung einrichten](warehouse-setup-warehouse.md).  
 
-## <a name="see-also"></a>Siehe auch
+## <a name="default-dimensions-for-locations"></a>Standarddimensionen für Standorte
+Sie legen Standarddimensionen für einen Standort auf der **Standortkarte**-Seite festlegen, indem Sie **Standort** und dann **Dimensionen** auswählen. Die Standarddimensionen des Standorts werden in Journale und Dokumente kopiert, wenn Sie den Standort in einer Zeile angeben, aber Sie können die Dimension in der Zeile bei Bedarf löschen oder ändern. Sie können verlangen, dass Personen Dimensionen für bestimmte Standorte angeben, bevor sie einen Eintrag veröffentlichen können. Sie können auch Standortdimensionswerte in **Standarddimensionsprioritäten** und **Dimensionskombinationen** für Kombinationen aus Prioritäts- und Dimensionsregeln einbeziehen.
+
+## <a name="see-also"></a>Weitere Informationen
 
 [Verwalten des Lagerbestands](inventory-manage-inventory.md)  
 [Lagerbestand zwischen Lagerplätzen umlagern](inventory-how-transfer-between-locations.md)  
 [Lagerplätze erstellen](warehouse-how-to-create-individual-bins.md)  
 [Lagerplatzarten einrichten](warehouse-how-to-set-up-bin-types.md)  
-[Lagerortverwaltung einrichten](warehouse-setup-warehouse.md)  
+[Warehouse Management einrichten](warehouse-setup-warehouse.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Ändern, welche Funktionen angezeigt werden](ui-experiences.md)  
 [Allgemeine Geschäftsfunktionen](ui-across-business-areas.md)

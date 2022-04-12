@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 5628, 5629, 5633
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 56b2beb44811ff0effa548eb72b4cf3ba2f59e69
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: 7934e272652f175360d58ea3643fa28c5551c082
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8366854"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512292"
 ---
 # <a name="revalue-fixed-assets"></a>Anlagen neu bewerten
 Eine Neubewertung von Anlagen kann aus Abschreibungen, erhöhter AfA oder allgemeinen Wertanpassungen bestehen.
@@ -26,7 +26,7 @@ Wenn sich der Wert einer Anlage verringert hat, buchen Sie eine Buch.-Blattzeile
 Die Indexierung wird verwendet, um mehrere zu versichernde Summen, wie beispielsweise allgemeinen Preisänderungen, anzupassen. Die Stapelverarbeitung **Anlagen indexieren** kann verwendet werden, um verschiedene Beträge (wie erhöhte AfA und Zuschreibungen) zu ändern.
 
 ## <a name="to-post-an-appreciation-from-the-fixed-asset-gl-journal"></a>So buchen Sie Zuschreibungen aus dem Anlagen Fibu Buch.-Blatt
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Anlagen Fibu Buch.-Blätter** ein, und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Anlagen Fibu Buch.-Blätter** ein, und wählen Sie dann den zugehörigen Link.  
 2. Erstellen Sie eine ursprüngliche Buch.-Blattzeile und füllen Sie die notwendigen Felder aus.
 3. Wählen Sie im Feld **Anlagenbuchungsart** die **Neubewertung**.
 4. Wählen Sie die Aktion **Anlagengegenkonto einfügen**. Eine zweite Buch.-Blattzeile wird für das Gegenkonto erstellt, das für die Buchung von Zuschreibungen eingerichtet wird.
@@ -36,7 +36,7 @@ Die Indexierung wird verwendet, um mehrere zu versichernde Summen, wie beispiels
 5. Wählen Sie die Aktion **Buchen** aus.
 
 ## <a name="to-post-a-write-down-from-the-fixed-asset-gl-journal"></a>So buchen Sie eine erhöhte AfA aus dem Anlagen Fibu Buch.-Blatt
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Anlagen Fibu Buch.-Blätter** ein, und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Anlagen Fibu Buch.-Blätter** ein, und wählen Sie dann den zugehörigen Link.  
 2. Erstellen Sie eine ursprüngliche Buch.-Blattzeile und füllen Sie die notwendigen Felder aus.
 3. Wählen Sie im Feld **Anlagenbuchungsart** die **Erhöhte AfA**.
 4. Wählen Sie die Aktion **Anlagengegenkonto einfügen**. Eine zweite Buch.-Blattzeile wird für das Gegenkonto erstellt, das für die Buchung einer erhöhten AfA eingerichtet wird.
@@ -48,7 +48,7 @@ Die Indexierung wird verwendet, um mehrere zu versichernde Summen, wie beispiels
 ## <a name="to-perform-general-revaluation-of-fixed-assets"></a>So führen Sie allgemeine Neubewertungen von Anlagen aus
 Die Indexierung wird verwendet, um mehrere zu versichernde Summen, wie beispielsweise allgemeinen Preisänderungen, anzupassen. Die Stapelverarbeitung **Anlagen indexieren** kann verwendet werden, um verschiedene Beträge (wie erhöhte AfA und Zuschreibungen) zu ändern. Das Kontrollkästchen **Indexierung zulassen** auf der Seite **AfA-Buch** muss aktiviert sein.
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Anlage indexieren** ein und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Anlage indexieren** ein und wählen Sie dann den zugehörigen Link.  
 2. Füllen Sie die Felder je nach Bedarf aus.
 3. Wählen Sie die Schaltfläche **OK** aus.
 
@@ -116,9 +116,9 @@ Falls Sie das Kontrollkästchen **AfA bis Anlagedatum** aktiviert haben, würde 
 
 ## <a name="see-also"></a>Siehe auch
 [Anlagen](fa-manage.md)  
-[Anlagen einrichten](fa-setup.md)  
+[Einrichten von Anlagen](fa-setup.md)  
 [Finanzen](finance.md)  
-[Vorbereitung für die Geschäftstätigkeit](ui-get-ready-business.md)  
+[Vorbereiten auf die Geschäftsabwicklung](ui-get-ready-business.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

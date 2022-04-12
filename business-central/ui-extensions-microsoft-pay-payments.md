@@ -10,12 +10,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d5668db9d0a7fa9b461a19949643ca7a2cc01a31
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 91f23a3b0a04a4e0d35d3574d4af84e187df14e8
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132524"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521650"
 ---
 # <a name="the-microsoft-pay-extension"></a>Die Microsoft Pay-Erweiterung
 
@@ -37,14 +37,14 @@ Die Microsoft Pay-Erweiterung bietet die folgenden Vorteile:
 - Debitorenzahlungen sind schneller auf Ihrem Bankkonto.
 - Debitoren haben mehr Arten, Rechnungen zu bezahlen.
 - Microsoft Pay bietet einen vertrauenswürdigen Zahlungsservice an, den Debitoren gegenüber der Eingabe von Kreditkarteninformationen auf unbekannten Websites bevorzugen.
-- Microsoft Pay bietet mehrere Arten zur Zahlungsabwicklung an, einschließlich Kreditkartenverarbeitung, wie Paypal-Konten und andere Quellen.
+- Microsoft Pay bietet mehrere Arten zur Zahlungsabwicklung an, einschließlich Kreditkartenverarbeitung, wie PayPal-Konten und andere Quellen.
 - Der Microsoft Pay-Link kann jedem Rechnungsbeleg oder vom Benutzer automatisch eingebettet werden.
 - Da diese Funktionalität als Erweiterung aufgebaut ist, gibt sie Ihnen Kontrolle, um sie zu aktivieren und wenn die Geschäftsvorgänge sie benötigen.
 
 Das Aktivieren der Zahlungsverkehrerweiterungen ist frei in [!INCLUDE[prod_short](includes/prod_short.md)]jedoch müssen Sie den Zahlungsservice kontaktieren, um ein Konto auszuwählen. Weitere Informationen finden Sie unter [Aktivieren Sie Zahlungen durch Zahlungsverkehr](sales-how-enable-payment-service-extensions.md)
 
-## <a name="see-also"></a>Siehe auch
-[Anpassen [!INCLUDE[prod_short](includes/prod_short.md)] Erweiterungen nutzen](ui-extensions.md)  
+## <a name="see-also"></a>Weitere Informationen
+[Anpassen von [!INCLUDE[prod_short](includes/prod_short.md)] über Erweiterungen](ui-extensions.md)  
 [Einrichten von Verkäufen](sales-setup-sales.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

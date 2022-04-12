@@ -10,12 +10,12 @@ ms.search.keywords: project invoice
 ms.search.form: 1002, 1007,
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: d2d2437028c5d7e7f8ad4bc613e4f6bf1dc06de3
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 792b5a3640693b7d1be76b319dfc4e713085106f
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146306"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516614"
 ---
 # <a name="invoice-jobs"></a>Fakturieren von Projekten
 Im Laufe des Projekts können Projektkosten wie Ressourcenverbrauch, Material oder projektbezogene Einkäufe anfallen. Diese Transaktionen werden im weiteren Verlauf des Projekts auf das Projekt Buch.-Blatt gebucht. Dabei ist es wichtig, dass alle Kosten im Projekt Buch.-Blatt erfasst werden, bevor die Rechnung an den Debitor erstellt wird.
@@ -28,12 +28,14 @@ Sie können das gesamte Projekt auf der Seite **Projektaufgabenzeilen** fakturie
 > [!NOTE]  
 > Wenn Sie **Verrechenbar** im Feld **Projekt-Zeilenart** auf den Verkaufsbelegen für projektbezogene Einkäufe auswählen, werden Projektplanzeilen, die bereit sind, an den Debitoren zu fakturieren, erstellt. Weitere Informationen finden Sie unter [Verwalten von Projekt-Material](projects-how-manage-project-supplies.md).
 
+Sie können auch einem Unternehmen, das nicht der Endkunde ist, eine Rechnung stellen. Manchmal unterscheidet sich die Partei, für die ein Projekt ist, von der Partei, die die Rechnung bezahlt. Auf der **Projekte**-Seite können Sie den Debitor, der von dem Projekt profitieren wird, in den Feldern **Verk. an** angeben und den Rechnungssteller in den Feldern **Rech. an**. 
+
 ## <a name="to-create-multiple-job-sales-invoices"></a>So erstellen Sie mehrere Projektverkaufsrechnungen
 Sie können eine Rechnung für ein Projekt oder für eine oder mehrere Projektunteraktivitäten für einen Debitor erstellen, wenn entweder die zu fakturierende Arbeit abgeschlossen ist oder das Datum für die Fakturierung basierend auf einem Fakturierungsplan erreicht ist.
 
 Der folgende Ablauf zeigt, wie eine Stapelverarbeitung verwendet wird, um mehrere Projekte zu fakturieren.  
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun") Symbol. Geben Sie **Job Verkaufsrechnung erstellen** ein und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Job Verkaufsrechnung erstellen** ein und wählen Sie dann den zugehörigen Link.  
 2. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Legt Filter fest, wenn Sie die Projekte einschränken möchten, die die Stapelverarbeitung verarbeiten soll.
 4. Wählen Sie die Schaltfläche **OK**, um die Rechnung zu erstellen.  
@@ -62,7 +64,7 @@ Sie können eine Rechnung aus Projektplanungszeilen erstellen, und dabei die Men
 >   Das obige Verfahren dient zum Erstellen, Prüfen und Buchen einer projektbezogenen Verkaufsgutschrift.
 
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 [Projekte verwalten](projects-manage-projects.md)  
 [Finanzen](finance.md)  
 [Einkauf](purchasing-manage-purchasing.md)         

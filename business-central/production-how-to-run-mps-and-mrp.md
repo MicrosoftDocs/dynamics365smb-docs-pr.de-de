@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 99000852, 99000860
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 561b069cb3136b50a76fe6c43276edc2fb0ab5ab
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b8a9f648030e0a307ccd1a086c681ba8492cf357
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131353"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516666"
 ---
 # <a name="run-full-planning-mps-or-mrp"></a>Vollständige Planung, Prod.-Programmplanung oder Nettobedarf ausführen
 
@@ -45,7 +45,7 @@ Bei jeder Planungsmethode generiert [!INCLUDE[prod_short](includes/prod_short.md
 >  Die Funktion "Ereignismeldungen abrufen" kann zwischen dem Ausführen einer Änderungsplanung und einer Neuplanung ausgeführt werden, um sofort sehen zu können, wie sich Planänderungen auswirken, ist aber nicht dazu vorgesehen, die Änderungsplanung oder Neuplanung zu ersetzen.  
 
 ## <a name="to-calculate-the-planning-worksheet"></a>Planungsarbeitsblatt berechnen  
-1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Planungsarbeitsblätter** ein, und wählen Sie dann den entsprechenden Link.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Planungsarbeitsblätter** ein, und wählen Sie dann den entsprechenden Link.  
 2.  Wählen Sie die **Neuplanung berechnen** Aktion aus, um die Seite **Planung berechnen** zu öffnen.  
 3.  Füllen Sie im Inforegister **Optionen** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 

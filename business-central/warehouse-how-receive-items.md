@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 5768, 7330, 7332, 7333, 7342, 7363, 8510
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 2c5a0ebaad14e33ec15df9f6483a397715a167a4
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ebb230a7bd0e2008d16b33c0fb00bdbeac3177d6
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144437"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519492"
 ---
 # <a name="receive-items"></a>Empfangen von Artikeln
 
@@ -26,7 +26,7 @@ Wenn Artikel bei einem Lager ankommen, das für die Bearbeitung des Wareneingang
 
 Nachfolgend wird erläutert, wie Artikel mit einer Bestellung empfangen werden. Die Schritte für Verkaufsreklamationen und Umlagerungsaufträgen sind ähnlich.  
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Einkaufsbestellungen** ein, und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Einkaufsbestellungen** ein, und wählen Sie dann den zugehörigen Link.
 2. Öffnen Sie eine bestehende Bestellung, oder erstellen Sie eine neue. Weitere Informationen finden Sie unter [Erfassen eines Einkaufs](purchasing-how-record-purchases.md).
 3. Geben Sie in dem Feld **Menge akt. Lieferung** die empfangene Menge an.
 
@@ -42,7 +42,7 @@ Nachfolgend wird erläutert, wie Artikel mit einer Bestellung empfangen werden. 
 
 ## <a name="to-receive-items-with-a-warehouse-receipt"></a>So empfangen Sie Artikel mit einem Wareneingang
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Wareneingänge** ein, und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Wareneingänge** ein, und wählen Sie dann den entsprechenden Link.  
 2. Wählen Sie die Aktion **Neu** aus.  
 
     Füllen Sie die Felder auf dem Inforegister **Allgemein** aus. Beim Abrufen der Herkunftsbelegzeilen werden einige der Informationen in jede Zeile kopiert.  
@@ -95,7 +95,7 @@ Sie müssen einen Prozentsatz festlegen, um den Sie beim Empfang eine Überschre
 
 Im Folgenden wird beschrieben, wie Sie einen Übereingangscode einrichten und einem Artikel zuordnen. Die Schritte sind für einen Kreditor ähnlich.
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Elemente** ein, und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Elemente** ein, und wählen Sie dann den zugehörigen Link.
 2. Öffnen Sie die Karte für einen Artikel, von dem Sie vermuten, dass er manchmal mit einer höheren als der bestellten Menge geliefert wird.
 3. Wählen Sie die Nachschlagschaltfläche im Feld **Eingangsüberschuss-Code**.
 4. Wählen Sie die Aktion **Neu**.
@@ -132,7 +132,7 @@ Wenn Sie einen Übereingang bearbeiten, können Sie entweder den Wert im Feld **
 [Lagerbestand](inventory-manage-inventory.md)  
 [Lagerortverwaltung einrichten](warehouse-setup-warehouse.md)  
 [Montageverwaltung](assembly-assemble-items.md)  
-[Designdetails: Logistik](design-details-warehouse-management.md)  
+[Designdetails: Warehouse Management](design-details-warehouse-management.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

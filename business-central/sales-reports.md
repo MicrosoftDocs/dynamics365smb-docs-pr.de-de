@@ -4,14 +4,15 @@ description: Sehen Sie, welche Verkaufsberichte und Analysen in der Standardvers
 author: AndreiPanko
 ms.topic: conceptual
 ms.search.keywords: reporting
+ms.search.form: Report_107, Report_111, Report_112, Report_113, Report_119, Report_121, Report_129, Report_209, Report_708, Report_713, Report_718, Report_813, Report_7313
 ms.date: 06/01/2021
 ms.author: andreipa
-ms.openlocfilehash: f25d7af82ff9542e5d3607c81127f8afaf4a6d28
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 416318805626e853fcd8d1964c3ed4e172de0f90
+ms.sourcegitcommit: 670d589c6870a01e0655c2da800560ed69d18db2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144697"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "8455497"
 ---
 # <a name="sales-reports-and-analytics-in-business-central"></a>Verkaufsberichte und Analysen in Business Central
 

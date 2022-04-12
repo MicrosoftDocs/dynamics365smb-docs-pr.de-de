@@ -6,12 +6,12 @@ ms.topic: conceptual
 ms.search.keywords: write down
 ms.date: 06/28/2021
 ms.author: edupont
-ms.openlocfilehash: 228ca9aa8b1f476e5063bd0f8d6728f18cfafaf3
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: e70b14b5344acd9b59034b5847455417b8225182
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136270"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518207"
 ---
 # <a name="set-up-fixed-asset-depreciation"></a>Richten Sie eine neue Anlagenkarte ein
 
@@ -25,7 +25,7 @@ Nachdem Sie die erforderlichen AfA-Bücher erstellt haben, müssen Sie jeder Anl
 
 In einem AfA-Buch können Sie festlegen, wie eine Anlage abgeschrieben wird. Sie können mehrere AfA-Bücher einrichten, um die verschiedenen Abschreibungsarten zu erleichtern.  
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Afa-Bücher** ein und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Afa-Bücher** ein und wählen Sie dann den zugehörigen Link.
 2. Auf der Seite **AfA-Buch Übersicht** wählen Sie die Aktion **Neu** aus.
 3. Füllen Sie im Inforegister **AfA-Buchkarte** die Seite nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -40,7 +40,7 @@ In einem AfA-Buch können Sie festlegen, wie eine Anlage abgeschrieben wird. Sie
 Wenn Sie beispielsweise ein Anlagevermögen veräußern, in dem im Abschreibungsbuch keine Rundung angegeben ist, die Einrichtung des Hauptbuchs Ihres Unternehmens jedoch eine Rundung erfordert, wird bei der Veräußerung des Anlagevermögens die Fehlermeldung angezeigt, dass ein Betrag gerundet werden muss auf einem Hauptbucheintrag.  
 
 ## <a name="to-assign-a-depreciation-book-to-a-fixed-asset"></a>So verknüpfen Sie ein AfA-Buchs mit einer Anlage
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Anlagen** ein und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Anlagen** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie die Anlage aus, für die Sie ein Anlagen-AfA-Buch einrichten möchten.
 3. Füllen Sie im Inforegister **AfA-Buch** die Felder nach Bedarf aus.
 4. Wenn Sie mehrere AfA-Bücher der Anlage zuweisen müssen, wählen Sie die Aktion **Weitere AfA-Bücher hinzufügen** aus.
@@ -55,7 +55,7 @@ Wenn Sie beispielsweise ein Anlagevermögen veräußern, in dem im Abschreibungs
 ## <a name="to-assign-a-depreciation-book-to-multiple-fixed-assets-with-a-batch-job"></a>So weisen Sie ein AfA-Buch mehreren Anlagen mit einer Stapelverarbeitung zu
 Falls Sie ein AfA-Buch mit mehreren Anlagen verknüpfen möchten, können Sie die Stapelverarbeitung **Anlagen-AfA-Buch erstellen** verwenden, um die Anwendung die erforderlichen AfA-Bücher automatisch erstellen zu lassen.  
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Anlagen** ein und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Anlagen** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie die Anlage aus, die Sie einrichten möchten und der ein AfA-Buch zugewiesen werden soll, und wählen Sie dann die Aktion **Bearbeiten** aus.
 3. Wählen Sie auf der Seite **AfA-Buch - Karte** die Aktion **Anlagen-AfA-Bücher erstellen** aus.
 4. Füllen Sie auf der Seite **Anlagen-AfA-Buch erstellen** das Fenster **AfA-Buch** aus.
@@ -96,7 +96,7 @@ Wenn Sie dieses Feld markieren, verwendet der Batchauftrag „AfA berechnen“ s
 [Einrichten von Anlagen](fa-setup.md)  
 [Anlagen](fa-manage.md)  
 [Finanzen](finance.md)  
-[Einrichten des Geschäftsbetriebs](ui-get-ready-business.md)  
+[Vorbereiten auf die Geschäftsabwicklung](ui-get-ready-business.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

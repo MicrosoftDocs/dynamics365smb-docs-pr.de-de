@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 136, 145, 146, 9308
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d108525de00685e0661b4817ecc5919501f14d9f
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 2fe6a0b680472ff695f9203c11868d79f51e9a0a
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8380906"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521832"
 ---
 # <a name="combine-receipts-on-a-single-invoice"></a>Zusammenfassen von Lieferungen in einer einzelnen Rechnung
 
@@ -30,7 +30,7 @@ Wenn Einkaufslieferungen in einer Rechnung zusammengefasst und gebucht werden, w
 
 ## <a name="to-combine-receipts"></a>So fassen Sie Wareneingänge zusammen
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Einkaufsrechnungen** ein, und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Einkaufsrechnungen** ein, und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die Aktion **Neu** aus. Weitere Informationen finden Sie unter [Erfassen eines Einkaufs](purchasing-how-record-purchases.md).  
 3. Klicken Sie im Inforegister **Zeilen** und wählen die  Aktionen **Wareneingangszeilen holen**.  
 4. Wählen Sie die Wareneingangszeilen aus, die in der Rechnung enthalten sein sollen.  
@@ -40,7 +40,7 @@ Wenn Einkaufslieferungen in einer Rechnung zusammengefasst und gebucht werden, w
 
 ## <a name="to-remove-open-purchase-orders-after-combined-receipt-posting"></a>Offene Einkaufsreklamationen nach kombinierter Lieferungsbuchung entfernen
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Löschen Sie Erledigte Bestellungen** ein und wählen Sie den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Löschen Sie Erledigte Bestellungen** ein und wählen Sie den zugehörigen Link.  
 2. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
 3. Wählen Sie die Schaltfläche **OK** aus.  
 

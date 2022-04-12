@@ -9,12 +9,12 @@ ms.workload: na
 ms.date: 04/01/2021
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.author: bholtorf
-ms.openlocfilehash: be94ef47fa86b613f3ee1e33bc28bfd050def543
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 6bcfb7e570de8c261de05c958716e7116c11cdc1
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381619"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512706"
 ---
 # <a name="manage-notifications"></a>Verwalten von Benachrichtigungen
 
@@ -32,12 +32,12 @@ Darüber hinaus lassen gewisse Benachrichtigungen Sie die Bedingungen angeben, m
 
 Aktivieren oder deaktivieren Sie bestimmte Benachrichtigungen, die auf Sie interessieren.  
 
-1. Wählen Sie in der oberen rechten Ecke das Symbol **Einstellungen** ![Einstellungen.](media/ui-experience/settings_icon_small.png "Einstellungssymbol für Rollencenter") und dann die Aktion **Meine Einstellungen**.  
+1. Wählen Sie in der oberen rechten Ecke das Symbol **Einstellungen** ![Einstellungen.](media/ui-experience/settings_icon_small.png "Einstellungssymbol für Rollenzentrum") und dann die Aktion **Meine Einstellungen**.  
 2. Auf der Seite **Meine Einstellungen**, im Feld **Benachrichtigungen** wählen Sie den *Ändern, wenn ich Benachrichtigungen erhalte.* Link.  
 3. Auf der Seite, die angezeigt wird, aktivieren oder deaktivieren Sie eine Benachrichtigung, indem Sie das Kontrollkästchen **Aktiviert** aktivieren oder deaktivieren.  
 4. Um Bedingungen anzugeben, die eine Benachrichtigung auslösen, wählen Sie den Link **Filterdetails ansehen** und füllen Sie die Felder aus.  
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

@@ -10,12 +10,12 @@ ms.search.keywords: inventory, periods
 ms.search.form: 5828
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9812d6f5b58839d1374f443497553734b46865e6
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 69100f2194e9218e48bb5d4330b8b07ee0962826
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136036"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522170"
 ---
 # <a name="work-with-inventory-periods"></a>Arbeiten mit Lagerbuchungsperioden
 
@@ -29,7 +29,7 @@ In den folgenden Abschnitten werden diese Schritte beschrieben:
 
 ## <a name="to-create-an-inventory-period"></a>Eine Lagerbuchungsperiode erstellen
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Lagerbuchungsperioden** ein und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Lagerbuchungsperioden** ein und wählen Sie dann den zugehörigen Link.  
 2. Erstellen Sie eine neue Zeile.  
 3. Geben Sie in das Feld **Enddatum** das letzte Datum der Lagerbuchungsperiode ein, die Sie definieren möchten. Wenn die Periode geschlossen ist, können Sie vor diesem Datum keine Lagerbestandsänderungen buchen.  
 4. Geben Sie im Feld **Name** einen beschreibenden Namen ein. Wählen Sie die Schaltfläche **OK** aus.  
@@ -63,7 +63,7 @@ Das heißt, dass alle ausgehenden Transaktionsmengen (z. B. von Verkaufsaufträg
 Nachdem Sie eine Lagerbuchungsperiode geschlossen haben, können Sie diese Periode nicht mehr löschen. Sie können sie aber erneut öffnen, wenn Sie Buchungen vor dem Enddatum der Lagerbuchungsperiode zulassen möchten. Ein erneutes Öffnen einer Periode bewirkt, dass auch jede Lagerbuchungsperiode geöffnet wird, deren Enddatum hinter dem Enddatum der Periode liegt, die Sie erneut öffnen.  
 
 ### <a name="to-reopen-an-inventory-period"></a>So öffnen Sie eine Lagerbuchungsperiode erneut  
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Lagerbuchungsperioden** ein und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Lagerbuchungsperioden** ein und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die Lagerbuchungsperiode aus, die erneut geöffnet werden soll.  
 3. Wählen Sie die Aktion **Periode erneut öffnen**. Bestätigen Sie, dass Sie die Periode erneut öffnen möchten.  
 4. Alle Lagerbuchungsperioden, deren Enddatum nach der von Ihnen ausgewählten Periode liegt, werden erneut geöffnet.  
@@ -71,7 +71,7 @@ Nachdem Sie eine Lagerbuchungsperiode geschlossen haben, können Sie diese Perio
 ## <a name="see-also"></a>Siehe auch  
 [Designdetails: Bestandsperioden](design-details-inventory-periods.md)  
 [Finanzen](finance.md)  
-[Lagerbestand](inventory-manage-inventory.md)  
+[Bestand](inventory-manage-inventory.md)  
 [Arbeiten mit Financials](ui-work-product.md)
 
 

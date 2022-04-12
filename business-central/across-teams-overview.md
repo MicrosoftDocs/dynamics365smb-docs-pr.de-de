@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
-ms.date: 04/12/2021
+ms.date: 03/04/2022
 ms.author: jswymer
-ms.openlocfilehash: 1cbb122c313f60b79678d5e8ed3b186b52f25782
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 4ee154f242eebb65f9ef61453c8ff51c770f2713
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138726"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511233"
 ---
 # <a name="business-central-and-microsoft-teams-integration"></a>Integration von Business Central und Microsoft Teams
 
@@ -44,7 +44,7 @@ Weitere Informationen finden Sie unter [Suchen nach Kontakten von Microsoft Team
 
 Sie können einen Link zu einem beliebigen Business Central-Datensatz kopieren und ihn in eine Teams-Unterhaltung einfügen, um ihn dann mit Ihren Mitarbeitern zu teilen. Die App dann wird zu einem kompakten, interaktiven Link erweitert, auf dem Informationen zum Datensatz angezeigt werden.
 
-[![Teams-Integration mit Business Central.](media/teams-intro-v3.png)](media/teams-intro-v3.png#lightbox)
+[![Teams-Integration in Business Central](media/teams-intro-vBC20.png)](media/teams-intro-vBC20.png#lightbox)
 
 Wenn Sie sich in der Unterhaltung befinden, können Sie und Ihre Mitarbeiter weitere Details zum Datensatz anzeigen, Daten bearbeiten und Maßnahmen ergreifen, ohne Teams zu verlassen.
 
@@ -65,7 +65,7 @@ Weitere Informationen finden Sie unter [Datensätze und Seitenlinks teilen in Mi
     Wenden Sie sich an den Administrator Ihres Unternehmens, wenn Sie nicht sicher sind, ob Sie ein Konto besitzen oder Ihre Anmeldeinformationen für die Anmeldung nicht kennen.
 
     > [!TIP]
-    > Wenn Ihre Organisation kein [!INCLUDE [prod_short](includes/prod_short.md)]-Abonnement hat, können Sie sich für eine kostenlose Testversion anmelden. Weitere Informationen finden Sie unter [Erste Schritte mit einer Testversion](across-preview.md#getting-started-with-a-trial).
+    > Wenn Ihre Organisation kein [!INCLUDE [prod_short](includes/prod_short.md)]-Abonnement hat, können Sie sich für eine kostenlose Testversion anmelden. Weitere Informationen finden Sie unter [Erste Schritte mit einer Testversion](across-preview.md#get-started-with-a-trial).
 
 2. Administratorinformationen zur Einrichtung von Benutzern für die Arbeit mit [!INCLUDE [prod_short](includes/prod_short.md)] und Teams finden Sie unter [Verwalten der Microsoft Teams Integration in Business Central](admin-teams-integration.md).
 3. Installieren Sie die [!INCLUDE [prod_short](includes/prod_short.md)]-App in Teams. Siehe [Die [!INCLUDE [prod_short](includes/prod_short.md)]-App für Microsoft Teams installieren](across-install-app-for-teams.md).

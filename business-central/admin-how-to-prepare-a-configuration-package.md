@@ -7,14 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 8614, 8615
 ms.date: 07/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: 979680be432eb7ecf7c2753ce84b971b529e9665
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: d27a75ec57bf3e6a8cde42fa8887f44a69fc881f
+ms.sourcegitcommit: 521735f8e27d8bff2d2dfbe94d240c09dcdaec29
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382445"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "8419104"
 ---
 # <a name="prepare-a-configuration-package"></a>So bereiten Sie ein Konfigurationspaket vofr
 

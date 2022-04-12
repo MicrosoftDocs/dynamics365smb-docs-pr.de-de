@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sandbox, demo, develop
 ms.date: 12/20/2021
 ms.author: solsen
-ms.openlocfilehash: 1a80e5ba3fb54d618334f65de452984dc3c1c356
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 20637dcced16fe695d64c2b4d858483882c64f7a
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142471"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518285"
 ---
 # <a name="sandbox-environments-in-prod_short"></a>Sandbox-Umgebungen in [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -66,11 +66,11 @@ When the assisted setup guide completes, you can start exploring the new company
 
 In einer Sandboxumgebung finden Sie den **Designer** aktiviert. Sie können den Designer aktivieren, indem Sie das Symbol ![Designer](./media/across-sandbox/sandbox-inclient-design-icon.png) auf einer Seite oder durch Auswahl des Menüelements **Design** im Menü ![Einstellungen ](media/ui-experience/settings_icon_small.png) Einstellungen.  
 
-Weitere Informationen finden Sie in den Entwickler- und Verwaltungsinhalten unter [Verwenden von Designer](/dynamics365/business-central/dev-itpro/developer/devenv-inclient-designer) (nur auf Englisch).  
+Weitere Informationen finden Sie in den Entwickler- und Verwaltungsinhalten unter [Designer verwenden](/dynamics365/business-central/dev-itpro/developer/devenv-inclient-designer) (nur in englischer Sprache).  
 
 <!-- ![In-client Designer.](./media/across-sandbox/sandbox-inclient-designer.png) -->
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [[!INCLUDE[prod_long](includes/prod_long.md)]-Testversionen und Abonnements](across-preview.md)  

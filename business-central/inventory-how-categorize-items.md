@@ -10,12 +10,12 @@ ms.search.keywords: category, search, attribute, facet
 ms.search.form: 5730, 5733, 5401
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a8db351f2f99a98f91dedb9d9cc6e0634be5e42a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 108f88cf9f068f28598d3b8ff8013b8879ca630a
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130436"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514959"
 ---
 # <a name="categorize-items"></a>Artikel kategorisieren
 
@@ -27,7 +27,7 @@ Um Artikel nach Eigenschaften zu finden, können Sie Artikelattribute Artikeln u
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4j4mo?rel=0]
 
 ## <a name="to-create-an-item-category"></a>So erstellen Sie eine Artikelkategorie
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Artikelkategorien** ein und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Artikelkategorien** ein und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie auf der Seite **Artikelkategorien** die Aktion **Neu** aus.
 3. Füllen Sie auf der Seite **Artikelkategorienkarte** im Inforegister **Allgemein** die notwendigen Felder aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Geben Sie im Inforegister **Attribute** alle Artikelattribute für die Artikelkategorie an. Weitere Informationen finden Sie unter [So ordnen Sie ein Artikelattribut einer Artikelkategorie zu](inventory-how-work-item-attributes.md#to-assign-item-attributes-to-item-categories).
@@ -42,7 +42,7 @@ Wenn Sie Ihre Meinung zu einer Artikelkategorie ändern, können Sie sie lösche
 
 ## <a name="to-assign-an-item-category-to-an-item"></a>So ordnen Sie eine Artikelkategorie einem Artikel zu
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Elemente** ein, und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Elemente** ein, und wählen Sie dann den zugehörigen Link.
 2. Öffnen Sie die Karte des Artikels, den Sie einer Artikelkategorie zuordnen möchten.
 3. Klicken Sie im Feld **Artikelkategoriencode** auf die Schaltfläche suchen und wählen Sie eine bereits vorhandene Artikelkategorie aus. Alternativ wählen Sie die Aktion **Neu**, um zuerst eine neue Artikelkategorie so zu erstellen, wie es unter [So erstellen Sie eine Artikelkategorie](inventory-how-categorize-items.md#to-create-an-item-category) erklärt wird.
 
@@ -54,7 +54,7 @@ Wenn Sie Ihre Meinung zu einer Artikelkategorie ändern, können Sie sie lösche
 
 [Arbeiten mit Artikelattributen](inventory-how-work-item-attributes.md)  
 [Neue Artikel registrieren](inventory-how-register-new-items.md)  
-[Lagerbestand](inventory-manage-inventory.md)  
+[Bestand](inventory-manage-inventory.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

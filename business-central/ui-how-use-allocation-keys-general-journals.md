@@ -10,18 +10,18 @@ ms.search.keywords: cost accounting
 ms.search.form: 283, 284
 ms.date: 06/29/2021
 ms.author: edupont
-ms.openlocfilehash: f5270acb437ca600e145d0060b34b16f9b20a009
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: a803a9a7533de5ff94bbb41e73cc1877a25044af
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140345"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512230"
 ---
 # <a name="use-allocation-keys-in-general-journals"></a>Zuordnungsschlüssel in Allgemeinen Buch.-Blättern verwenden
 Sie können einen Eintrag in einem Allgemeinen Journal mehreren verschiedenen Konten zuordnen, wenn Sie das Journal buchen. Die Verteilung kann nach Anzahl, Prozent oder Betrag vorgenommen werden.
 
 ## <a name="to-set-up-allocation-keys"></a>Einrichten von Verteilungsschlüsseln
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Wiederk. Fibu Buch.-Blatt** ein und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Wiederk. Fibu Buch.-Blatt** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie auf der Seite **Fibu Buch.-Blattnamen** den **Buch.-Blattnamen**.
 3. Sie können entweder Zuordnungen in einer vorhandene Charge in der Liste ändern oder eine neue Charge mit Zuordnungen erstellen.
    * Um eine neue Chargennummer zu erstellen, wählen Sie die Aktion **Neu** und gehen Sie zum nächsten Schritt.
@@ -36,13 +36,13 @@ Sie können einen Eintrag in einem Allgemeinen Journal mehreren verschiedenen Ko
 11. Buchen Sie die Buch.-Blattzeile.
 
 ## <a name="to-change-an-allocation-key-that-has-already-been-set-up"></a>So ändern Sie einen bereits eingerichteten Zuordnungsschlüssel
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Wiederk. Fibu Buch.-Blatt** ein und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Wiederk. Fibu Buch.-Blatt** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie auf der Seite **Wiederk. Fibu Buch.-Blatt** das Buch.-Blatt mit der Verteilung aus.
 3. Wählen Sie die Zeile mit der Verteilung, und wählen Sie dann die Aktion **Zuweisungen** aus.
 4. Ändern Sie die relevanten Felder und wählen Sie dann die Schaltfläche **OK** aus.
 
-## <a name="see-also"></a>Siehe auch
-[Arbeiten mit allgemeinen Buch.-Blättern](ui-work-general-journals.md)  
+## <a name="see-also"></a>Weitere Informationen
+[Arbeiten mit Fibu Buch.-Blättern](ui-work-general-journals.md)  
 [Dokumente und Buch.-Blatt verbuchen](ui-post-documents-journals.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

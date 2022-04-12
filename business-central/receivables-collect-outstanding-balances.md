@@ -7,15 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.search.form: 6, 25, 440, 448, 452
+ms.search.form: 6, 25, 440, 443, 448, 452
 ms.date: 02/09/2022
 ms.author: edupont
-ms.openlocfilehash: 0974cce66734c5a25d87e87052fa82ad1e2a1c53
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: 271b9f032df685b5eac1c3bddca037326ea4c1d6
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8366936"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520734"
 ---
 # <a name="collect-outstanding-balances"></a>Einziehen von Restbeträgen
 
@@ -29,7 +29,7 @@ Anhand der Kundenkarte können Sie einen Auszug mit den Transaktionen dieses Kun
 
 ### <a name="to-send-the-customer-statement-report"></a>Um den Kontoauszugsbericht zu senden
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet 10.](media/ui-search/search_small.png "Was möchten Sie tun") Symbol. Geben Sie **Kontoauszug** ein und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet 10.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Kontoauszug** ein und wählen Sie dann den zugehörigen Link.
 2. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Unter **Ausgabeoptionen** wählen Sie aus, wie der Bericht an den Debitoren gesendet wird.
 
@@ -59,7 +59,7 @@ Nach dem Erstellen von Zinsrechnungen und dem Vornehmen von möglicherweise erfo
 
 Eine Zinsrechnung ist ähnlich wie eine Rechnung. Sie können den Kopf manuell ausfüllen und die Zeilen ausfüllen lassen, oder Sie können Zinsrechnungen für alle Debitoren automatisch erstellen lassen.
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet 2.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Zinsrechnungen** ein und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet 2.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Zinsrechnungen** ein und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die Aktion **Neu** aus, und füllen Sie die Felder nach Bedarf aus.  
 3. Wählen Sie **Zinsgebührmemo-Zeilen** vorschlagen.
 4. Auf der Seite **Zinsrechnungszeile vorschlagen** setzen Sie auf dem Inforegister **Debitorenposten** einen Filter, wenn Sie nur für bestimmte Posten Zinsrechnungen erstellen möchten.
@@ -71,7 +71,7 @@ Eine Zinsrechnung ist ähnlich wie eine Rechnung. Sie können den Kopf manuell a
 ### <a name="to-update-finance-charge-memo-texts"></a>So aktualisieren Sie Zinsrechnungstexte:  
 In manchen Fällen möchten Sie möglicherweise den Vor- und Nachtext ändern, den Sie für die Zinskonditionen eingerichtet haben. Wenn Sie dies zu einem Zeitpunkt tun, an dem Sie Zinsrechnungen angelegt, aber noch nicht registriert haben, können Sie die Anwendung dazu veranlassen, die Zinsrechnungen mit den geänderten Texten zu aktualisieren.
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet 3.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Finance Zinsrechnungen** ein und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet 3.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Finance Zinsrechnungen** ein und wählen Sie dann den zugehörigen Link.  
 2. Öffnen Sie das Fenster, in dem Sie Text ändern möchten und wählen Sie die **Zinsrech. Text aktualisieren** Aktion aus.
 3. Auf der Seite **Zinsrechnungskopf aktualisieren** können Sie einen Filter festlegen, wenn Sie mehrere Zinsrechnungen aktualisieren möchten.
 4. Wählen Sie die Schaltfläche **OK**, um den Vortext und den Nachtext zu aktualisieren.  
@@ -118,7 +118,7 @@ Wenn Sie eine Mahnung registrieren, wird für jede Mahnungszeile, die einen Debi
 ## <a name="see-also"></a>Siehe auch
 
 [Einrichten von Mahnmethoden, Bestimmungen und Mahntext](finance-setup-reminders.md)  
-[Zinskonditionen einrichten](finance-setup-finance-charges.md)  
+[Konditionen für Finance-Belastungen festlegen](finance-setup-finance-charges.md)  
 [Verwalten von Forderungen](receivables-manage-receivables.md)  
 [Verkauf](sales-manage-sales.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

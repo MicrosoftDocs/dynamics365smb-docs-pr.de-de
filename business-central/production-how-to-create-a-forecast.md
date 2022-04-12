@@ -7,22 +7,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 9245, 99000919, 99000921, 99000922
-ms.date: 06/22/2021
+ms.date: 03/11/2022
 ms.author: edupont
-ms.openlocfilehash: 2992aaf0d28f6d46bdd942465659760f0622ac0b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 5f734667385dcc1e26a4ace4903a88414ff12348
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140943"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512914"
 ---
 # <a name="create-a-demand-forecast"></a>Bedarfsplanung erstellen
 
-Verkaufs- und Absatzplanungen können auf der Seite **Nachfrageplanung** vorgenommen werden.  
+Verkaufs- und Absatzplanungen können auf der Listenseite **Nachfrageplanung** vorgenommen werden. Anschließend legen Sie für jede Prognose verschiedene Einstellungen für diese Prognose auf der Seite **Bedarfsplanungsübersicht** fest.  
 
-Die Absatzplanungsfunktionen werden verwendet, um voraussichtlichen Bedarf zu erstellen; der tatsächliche Bedarf wird aus Verkaufs- und Fertigungsaufträgen erstellt. Beim Erstellen des Produktionsplans (Master Production Schedule, MPS) wird die Planung gegen die Verkaufs- und Fertigungsaufträge aufgerechnet. Mit der Absatzplanungsoption *Komponente* wird festgelegt, welche Anforderungen bei einem Saldierungsvorgang berücksichtigt werden sollen. Gilt die Absatzplanung für einen Verkaufsartikel, werden nur Verkaufsaufträge gegen die Absatzplanung saldiert. Wenn sie für Komponenten gilt, wird nur der abhängige Bedarf aus Fertigungsauftragskomponenten gegen die Absatzplanung saldiert.  
+Die Absatzplanungsfunktionen werden verwendet, um voraussichtlichen Bedarf zu erstellen; der tatsächliche Bedarf wird aus Verkaufs- und Fertigungsaufträgen erstellt. Beim Erstellen des Produktionsplans (Master Production Schedule, MPS) wird die Planung gegen die Verkaufs- und Fertigungsaufträge aufgerechnet. Mit dem Feld **Planungsart** wird festgelegt, welche Anforderungen bei einem Saldierungsvorgang berücksichtigt werden sollen. Gilt die Absatzplanung für einen *Verkaufsartikel*, werden nur Verkaufsaufträge gegen die Absatzplanung saldiert. Wenn sie für *Komponenten* gilt, wird nur der abhängige Bedarf aus Fertigungsauftragskomponenten gegen die Absatzplanung saldiert.  
 
 Absatzplanung ermöglicht es Ihnen, "Was-wenn"-Szenarien zu erstellen sowie effizient und Kosten sparend für den Bedarf zu planen und diesen zu befriedigen. Eine genaue Absatzplanung kann den entscheidenden Unterschied bei der Kundenzufriedenheit hinsichtlich Lieferterminzusagen und termingerechter Lieferung ausmachen.  
+
+Mit Veröffentlichungszyklus 1 2022 können Sie auch den richtigen Detaillierungsgrad in den Feldern **Prognose nach Standort** und **Prognose nach Variante** in der **Bedarfsplanungsübersicht**-Seite definieren. Filter und andere Einstellungen werden in der Tabelle **Bedarfsplanungsname** gespeichert. So können Sie Ihre Arbeit später problemlos unterbrechen und fortsetzen. Wenn Ihre Organisation vor dem 1. Veröffentlichungszyklus 2022 aktualisiert wurde, müssen Sie die neue Erfahrung in der [Funktionsverwaltung](admin-feature-management.md)-Seite einschalten.  
 
 ## <a name="sales-forecasts-and-production-forecasts"></a>Absatzplanungen und Fertigungsplanungen
 
@@ -33,7 +35,10 @@ Die von der Anwendung bereitgestellten Absatzplanungsfunktionen können dazu ver
 
 In den meisten Fällen ändert der Fertigungsplaner die Absatzplanung dann entsprechend den Gegebenheiten der Fertigung, wobei die Absatzplanung dennoch weiterhin erfüllt wird.  
 
-Das Erstellen von Absatzplanungen erfolgt manuell auf der Seite **Nachfrageplanung**. Es können mehrere Absatzplanungen vorhanden sein, die nach Name und Art unterschieden werden. Eine Absatzplanung kann je nach Bedarf kopiert und bearbeitet werden. Für Planungszwecke ist aber immer nur jeweils eine Absatzplanung zulässig.  
+Das Erstellen von Absatzplanungen erfolgt manuell auf der Seite **Nachfrageplanung**. Es können mehrere Absatzplanungen vorhanden sein, die nach Name und Art unterschieden werden. Eine Absatzplanung kann je nach Bedarf kopiert und bearbeitet werden. 
+
+> [!NOTE]
+> Für Planungszwecke ist aber immer nur jeweils eine Absatzplanung zulässig.
 
 Eine Absatzplanung besteht aus einer Reihe von Datensätzen, wobei in jedem Datensatz die Artikelnummer, das Planungsdatum und die Planungsmenge angegeben sind. Die Absatzplanung eines Artikels erstreckt sich über eine Periode, die durch das Planungsdatum des aktuellen sowie das Planungsdatum des nächsten (späteren) Planungsdatensatzes definiert ist. Aus Planungssicht sollte die Planungsmenge zu Beginn der Bedarfsperiode verfügbar sein.  
 
@@ -89,7 +94,7 @@ Anschließend legen Sie vor Ort WEST einen Kundenauftrag mit einer Menge von 12 
 
 ## <a name="to-create-a-demand-forecast"></a>So erstellen Sie eine Absatzplanung
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Bedarfsplanung** ein, und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Bedarfsplanung** ein, und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie im Inforegister **Allgemein** im Feld **Nachfragelanungsname** eine Planung aus. Es können mehrere Absatzplanungen vorhanden sein, die nach Name und Absatzplanungsart unterschieden werden.  
 3. Im Feld **Lagerortfilter** müssen Sie den Lagerort auswählen, für den die Planung gelten soll.
 4. Im Feld **Anzeigen nach**, um den Zeitraum zu ändern, der in jeder Spalte angezeigt wird. Folgende Intervalle stehen zur Auswahl: **Tag**, **Woche**, **Monat**, **Quartal**, **Jahr** oder **Buchhaltungsperiode**, gemäß Einrichtung in Ihrem Finanzbereich.

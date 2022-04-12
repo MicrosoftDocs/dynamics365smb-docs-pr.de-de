@@ -9,12 +9,12 @@ ms.workload: na
 ms.date: 06/24/2021
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.author: edupont
-ms.openlocfilehash: 13c2639ab416fd472850fef5161f0f374024bb51
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: 5aa00f32bbe3fe35c2f860c37c7b1849c7f7a1c6
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335578"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513445"
 ---
 # <a name="posting-documents-and-journals"></a>Journale und Dokumente buchen
 Das Buchen stellt die Buchhaltungsaktion vom Aufzeichnen von Geschäftstransaktionen in verschiedenen Mandantensachkontos dar.

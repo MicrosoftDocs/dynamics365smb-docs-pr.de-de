@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 07/08/2021
 ms.author: edupont
-ms.openlocfilehash: 7f25c192c43823c1f3594f21097fe7bd7081f889
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 6b82557463633959e62b4d2fed9484c8e2412b22
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383559"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520256"
 ---
 # <a name="create-contacts"></a>Kontakt erstellen
 
@@ -35,7 +35,7 @@ Wenn beispielsweise ein Kontakt in einen Debitor umgewandelt wird, wird die Kont
 > Wenn Sie jedoch bereits die integrierte Funktion zum automatischen Erstellen von Debitoren oder Artikeln verwenden, dann unterstützt dieses Funktions-Update keine angepassten Felder, und neu erstellte Debitoren oder Artikel enthalten diese Daten nicht.
 
 ## <a name="to-create-a-contact-manually"></a>So werden Kontakte manuell erstellt:
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Kontakte** ein, und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Kontakte** ein, und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie die Aktion **Neu**.
 3. Geben Sie im Feld **Nr.** eine Nummer für den Kontakt ein.
 
@@ -48,7 +48,7 @@ Wenn Sie Debitoren, Kreditoren und Bankkonten haben, für die Sie Kontaktkarten 
 > [!NOTE]  
 > Bevor Sie Kontakte basierend auf vorhandenen Daten erstellen können, müssen Sie einen Geschäftsbeziehungscode für Debitoren, Kreditoren und Bankkonten auf dem Inforegister **Interkationen** auf der Seite **Marketingeinrichtung** angeben. Weitere Informationen finden Sie unter [Kontakte einrichten](marketing-setup-contacts.md).
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie eine der folgenden Angaben ein, je nachdem, woraus Sie Kontakte erstellen möchten, und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie eine der folgenden Angaben ein, je nachdem, woraus Sie Kontakte erstellen möchten, und wählen Sie dann den entsprechenden Link.
    * **Kontakte aus Debitoren erstellen**
    * **Kontakte aus Kreditoren erstellen**
    * **Kontakte aus Bankkonten erstellen**
@@ -117,7 +117,7 @@ Es gibt drei Möglichkeiten, die Datensynchronisierung zwischen Kontakten und De
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Kontakte** ein, und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie die Zeile für einen Kontakt aus, wählen Sie die Aktion **Verknüpfte Informationen** und dann die Aktion **Debitor/Kreditor/Bankkonto/Mitarbeiter** aus.
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 [Kontakte verwalten](marketing-contacts.md)  
 [Kontakte einrichten](marketing-setup-contacts.md)  
 [Arbeiten mit Business Central](ui-work-product.md)

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 7600, 7601, 7602, 5703
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 25d15bfab1dac9cea52d9efdb30e5ed3c7cbb4a2
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 0c6be4bc0c602363e4ae54cc27663d1eaa4091e9
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141593"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511836"
 ---
 # <a name="set-up-base-calendars"></a>Basiskalender einrichten
 
@@ -22,7 +22,7 @@ Sie können Ihrer Firma sowie Ihren Geschäftspartnern, wie z. B. Debitoren, Kre
 
 ## <a name="to-set-up-a-base-calendar"></a>einen Basiskalender einrichten
 
-1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Basiskalender** ein, und wählen Sie dann den entsprechenden Link.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Basiskalender** ein, und wählen Sie dann den entsprechenden Link.  
 2.  Wählen Sie die Aktion **Neu** aus.  
 3.  Füllen Sie das Feld **Code** aus.  
 4. Wählen Sie die **Basiskalender pflegen** Aktion aus.
@@ -66,7 +66,7 @@ Während ein Basiskalender z. B. alle Samstage als freie Tage auflistet, kann de
 
 Die folgende Vorgehensweise verwendet den Fall eines Lagerortes als Beispiel. Beachten Sie, dass Sie dem Lagerort zu diesem Zeitpunkt bereits einen Basiskalender zugeordnet haben.
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Lagerorte** ein, und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Lagerorte** ein, und wählen Sie dann den entsprechenden Link.
 2. Öffnen Sie den Lagerort, den Sie aktualisieren möchten, und wählen Sie das Feld **Spezifischer Kalender** aus. Beachten Sie, dass ein Kalender im Feld **Basiskalendercode** ausgewählt werden muss.
 3. Auf der Seite **Spezifische Kalenderposten** wählen Sie **Spezifische Kalenderänderungen verwalten** Aktion aus.
 4. In **Spezifische Kalenderänderungen** fügen Sie Zeilen für spezifische Kalenderposten hinzu.
@@ -102,7 +102,7 @@ Basiskalender werden Ihrer eigenen Firma, Debitoren, Kreditoren, Lagerorten und 
 -   Klicken Sie auf der Karte **Lagerort** wird der Basiskalender im Inforegister **Logistik** zugewiesen.  
 -   Auf der Seite **Zusteller** wird der Basiskalender im Fenster **Zustellertransportarten** zugeordnet.  
 
-1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Debitor** ein und wählen Sie dann den entsprechenden Link.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Debitor** ein und wählen Sie dann den entsprechenden Link.  
 2.  Öffnen Sie die **Debitorenkarte**, für die Sie einen Basiskalender zuordnen möchten.  
 3.  Wählen Sie im Inforegister **Lieferung** im Feld **Basiskalendercode** den Basiskalender aus, den Sie zuordnen möchten.  
 
@@ -114,10 +114,10 @@ Basiskalender werden Ihrer eigenen Firma, Debitoren, Kreditoren, Lagerorten und 
 > [!NOTE]  
 >  Bevor Sie einen spezifischen Kalender anlegen können, müssen Sie zuerst der Firma einen Basiskalender zuordnen.  
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 [Einkauf](purchasing-manage-purchasing.md)  
 [Produktion](production-manage-manufacturing.md)    
-[Lagerbestand](inventory-manage-inventory.md)  
+[Bestand](inventory-manage-inventory.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

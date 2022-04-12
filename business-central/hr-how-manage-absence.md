@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 5200, 5201, 5204, 5206, 5208, 5209, 5211, 5212
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: eeb886becb78fdccd4a075db88fc393c30adb221
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: deb54eae1b6b6494043ae1ed0d3fc5cbdf2bab22
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8366262"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516239"
 ---
 # <a name="manage-employee-absence"></a>Analysiert die Fehlzeiten der Mitarbeiter.
 Damit die Abwesenheit eines Mitarbeiters verwaltet werden kann, muss diese auf der Seite **Abwesenheitsregistrierung** aufgezeichnet werden. Sie kann dann auf verschiedene Art und Weise zur Analyse und Berichterstellungszwecken angezeigt werden.
@@ -66,11 +66,11 @@ Sie können die Mitarbeiterabwesenheiten auf täglicher Basis oder einem anderen
 
     Die Seite **Abwesenheiten nach Perioden - Matrix** wird geöffnet und zeigt Abwesenheiten von Mitarbeitern an, aufgeschlüsselt nach Perioden.
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 [Personalwesen verwalten](hr-manage-human-resources.md)  
 [Finanzen](finance.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Funktionen, die angezeigt werden ändern](ui-experiences.md)
+[Ändern, welche Funktionen angezeigt werden](ui-experiences.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

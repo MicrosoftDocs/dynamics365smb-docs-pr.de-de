@@ -10,12 +10,12 @@ ms.search.keywords: accounting, auditing, bookkeeping
 ms.search.form: 1151, 1166, 9027, 9004
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 44c7475921c679cc03ee25e8c05ffa78d04592f3
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3ef243581ddd0df9b546e3f2a40b2f1d666f73dc
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135958"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515641"
 ---
 # <a name="financial-management"></a>Finanzmanagement
 

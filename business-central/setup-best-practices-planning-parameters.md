@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: b491a986e3936389fa228fdb1bfc000627368b82
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 6cb63f5fcc6f3fcf4262214c8fb162a6835b0c50
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8129988"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513653"
 ---
 # <a name="setup-best-practices-planning-parameters"></a>Bewährte Einrichtungsmethoden: Planungsparameter
 Das Inforegister **Planung** auf der Artikelkarte ist Mittelpunkt der gesamten Lieferkette des Unternehmens. Das Einstellen eines richtigen Planungsparameters ist für die kosteneffektive Bestandskontrolle und einen sehr guten Debitorenservice sehr wichtig.  

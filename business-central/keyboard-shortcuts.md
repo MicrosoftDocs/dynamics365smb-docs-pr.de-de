@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 04/01/2021
+ms.date: 01/27/2022
 ms.author: bholtorf
-ms.openlocfilehash: 39700bcb00aadf4a567da0487db58c17aefe58af
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 3d8b49c34bee069c10fdd2713de9ed0cd3c3fb72
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381749"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517973"
 ---
 # <a name="keyboard-shortcuts"></a>Tastenkombinationen
 
@@ -240,11 +240,19 @@ Der Rollen-Explorer bietet Ihnen einen Überblick und schnellen Zugriff auf alle
 |Umschalttaste F3 oder Strg + Aufwärtspfeil|Verschiebt den Fokus auf das vorherige gefundene Feature im Rollen-Explorer.|
 |Ctrl+Shift|Erweitern oder reduzieren Sie alle Unterknoten zusätzlich zu den Knoten der obersten Ebene, wenn Sie die Aktion **Erweitern** oder **Reduzieren** auswählen.|
 
+##  <a name="numeric-keypad-shortcuts"></a><a name="keypad"></a> Tastenkombinationen für den Ziffernblock
+
+In der folgenden Tabelle werden die Tastenkombinationen auf einem numerischen Tastenfeld beschrieben.
+
+|Drücken Sie diese Tasten<br />(in Mac Os)|Vorgehensweise|
+|--------------------------------|----------|
+|ALT+Dezimaltrennzeichen|Schalten Sie die Ausgabe der Dezimaltrenntaste entweder auf einen Punkt (.) oder das durch die festgelegte **Region**-Einstellung der **Meine Einstellungen** Seite Zeichen um. Weitere Informationen finden Sie unter [Festlegen des Dezimaltrennzeichens, das von numerischen Tastaturen verwendet wird](ui-enter-data.md#decimal).|
+
 ## <a name="see-also"></a>Siehe auch
 
-[Nur PC-Tastenkombinationskurzübersicht](keyboard-shortcuts-cheatsheet.md)  
+[Tastatur-Kurzreferenz - nur PC](keyboard-shortcuts-cheatsheet.md)  
 [Assistive Funktionen](ui-accessibility.md)  
-[Vorbereitung für die Geschäftstätigkeit](ui-get-ready-business.md)  
+[Vorbereiten auf die Geschäftsabwicklung](ui-get-ready-business.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Häufig gestellte Fragen](across-faq.yml)  
 [Posten finden](ui-find-entries.md)  

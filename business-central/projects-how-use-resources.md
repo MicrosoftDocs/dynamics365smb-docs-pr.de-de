@@ -10,12 +10,12 @@ ms.search.keywords: project management, capacity, staff
 ms.search.form: 201,206, 207, 271, 493
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 749ef6e4da9ffe8997647eae67d25362b7dbab6d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 9e2d8b51381e3fd89f9fab423485fc52cee46071
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143434"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517368"
 ---
 # <a name="use-resources-for-jobs"></a>Verwenden von Ressourcen für Projekte
 
@@ -32,7 +32,7 @@ Sie weisen Projekten Ressourcen zu, indem Sie Projektplanungszeilen für das Pro
 
 ## <a name="to-record-resource-usage-for-a-job"></a>Um Ressourcenverbrauch für ein Projekt buchen
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Projekt Buch.-Blätter** ein und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Projekt Buch.-Blätter** ein und wählen Sie dann den zugehörigen Link.
 2. Öffnen Sie das relevante Projekt-Buch.-Blatt und füllen Sie die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Wenn der Verkaufsauftrag ausgeführt wurde, wählen Sie die Aktion **Buchen** aus.
 
@@ -40,7 +40,7 @@ Sie weisen Projekten Ressourcen zu, indem Sie Projektplanungszeilen für das Pro
 
 Wenn Sie die Einstands- und Verkaufspreise für eine große Anzahl von Ressourcen ändern möchten, können Sie den Batchauftrag verwenden.  
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Ressourcenpreise justieren** ein und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Ressourcenpreise justieren** ein und wählen Sie dann den zugehörigen Link.
 2. Füllen Sie die anderen relevanten Felder wie erforderlich aus, und wählen Sie dann die Schaltfläche **OK** aus.
 
 > [!NOTE]  
@@ -50,7 +50,7 @@ Wenn Sie die Einstands- und Verkaufspreise für eine große Anzahl von Ressource
 
 Wenn Sie bereits einen alternativen Ressourcenpreis für einige Ressourcen eingerichtet haben, können Sie einen Batch-Job verwenden, um mehrere alternative Ressourcenpreise einzurichten.
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Ressourcen-VK-Preisvorschläge** ein und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Ressourcen-VK-Preisvorschläge** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie die Aktion **Res. Preisänderung (Preis) vorschlagen** aus. Füllen Sie dann die Felder wie notwendig aus.
 3. Wählen Sie die Schaltfläche **OK** aus.  
 4. Wenn die Stapelverarbeitung beendet ist, öffnen Sie die Seite **Ressourcen-Preisänderungen**, um die Ergebnisse der Stapelverarbeitung anzuzeigen.
@@ -73,12 +73,12 @@ Wenn Sie bereits alternative Ressourcenpreise für einige Ressourcen festgelegt 
 3. Wählen Sie die Schaltfläche **OK** aus.  
 4. Wenn die Stapelverarbeitung beendet ist, öffnen Sie die Seite **Ressourcen-VK-Preisarbeitsblätter**, um die Ergebnisse der Stapelverarbeitung anzuzeigen.
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 [Projektmanagement](projects-manage-projects.md)  
 [Finanzen](finance.md)  
-[Einkauf](purchasing-manage-purchasing.md)  
-[Verkauf](sales-manage-sales.md)  
+[Einkauf](purchasing-manage-purchasing.md)         
+[Verkauf](sales-manage-sales.md)     
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

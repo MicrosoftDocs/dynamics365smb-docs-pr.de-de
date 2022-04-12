@@ -10,12 +10,12 @@ ms.search.keywords: item, finished good, component, raw material, assembly item,
 ms.search.form: 30, 5717, 31, 32, 346, 9091, 5718, 5716, 5720, 1384, 1383, 35, 5404, 1378, 5719
 ms.date: 09/24/2021
 ms.author: edupont
-ms.openlocfilehash: a2d64fe3a04109246540a463597dbf49684b8913
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 83ebbe21771c8836e6998747733b82f5e4999c83
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148590"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522040"
 ---
 # <a name="register-new-items"></a>Neue Artikel registrieren
 
@@ -71,7 +71,7 @@ Wenn Sie Artikel registrieren möchten, die dann in Fertigungsaufträgen verwend
 
 Wenn Sie den gleichen Artikel von mehr als einem Kreditoren einkaufen, müssen Sie die benötigten Informationen für jeden Kreditor eingeben. Dies umfasst z. B. Preise, Lieferzeit, Rabatte usw.  
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Elemente** ein, und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Elemente** ein, und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die entsprechende Projekte und wählen Sie dann die Aktion **Bearbeiten** aus.  
 3. Wählen Sie die Aktion **Kreditoren** aus.  
 4. Wählen Sie das Feld **Kreditorennr.**, und wählen Sie den Kreditor aus, den Sie für den Artikel einrichten möchten.  
@@ -86,7 +86,7 @@ Sie können Artikel so einrichten, dass sie über Ersatzartikel verfügen, z. B
 
 ### <a name="to-make-an-item-substitution"></a>So legen Sie einen Ersatzartikel für einen Artikel fest
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Elemente** ein, und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Elemente** ein, und wählen Sie dann den zugehörigen Link.  
 2. Suchen Sie den entsprechenden Artikel, und klicken Sie dann auf die **Artikelnr.**, um die Artikelkarte zu öffnen.  
 3. Wählen Sie die Aktion **Zugehörig**, dann den **Artikel** und anschließend die Option **Ersatzartikel** aus, um die Seite „Ersatzartikel“ zu öffnen.  
 4. Wählen Sie das Feld **Ersatzartikelnr.** und dann den Ersatzartikel aus der Liste aus.

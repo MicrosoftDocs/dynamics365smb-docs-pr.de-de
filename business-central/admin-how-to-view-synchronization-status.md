@@ -10,12 +10,12 @@ ms.search.keywords: sales, crm, integration, sync, synchronize
 ms.search.form: 6250
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 6112b025c08468a3e0f5bdfbb9147b2fbdaf6744
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: c98cadba0a9bdf21a89a6c50dd61d805f0547685
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383505"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521254"
 ---
 # <a name="view-the-status-of-synchronization-jobs"></a>Status von Synchronisationsaufträgen anzeigen
 
@@ -35,7 +35,7 @@ Dieses Video zeigt ein Beispiel für die Behebung von Fehlern, die bei der Synch
 
 
 ## <a name="to-view-and-resolve-synchronization-errors-for-coupled-records"></a>Anzeigen und Beheben von Synchronisationsfehlern für gekoppelte Datensätze
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen") Symbol. Geben Sie **Gekoppelte Datensynchronisierungsfehler** ein und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Gekoppelte Datensynchronisierungsfehler** ein und wählen Sie dann den entsprechenden Link.
 2. Die Seite **Gekoppelte Daten-Synchronisierungs-Fehler** zeigt Probleme an, die auftraten, als Sie gekoppelte Datensätze synchronisierten. Die folgende Tabelle enthält Aktionen, mit denen Sie Probleme einzeln beheben können:
 
 |Aktion|Beschreibung|
@@ -59,7 +59,7 @@ Wenn eine Entität mit einer unidirektionalen Kopplung in [!INCLUDE[prod_short](
 
 ## <a name="see-also"></a>Weitere Informationen  
 [Einrichten von Benutzerkonten für die Integration mit Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md)  
-[Verwenden von Dynamics 365 Sales von Business Central](marketing-integrate-dynamicscrm.md)
+[Dynamics 365 Sales von Business Central aus verwenden](marketing-integrate-dynamicscrm.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

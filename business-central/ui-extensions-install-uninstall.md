@@ -1,23 +1,23 @@
 ---
-title: Installieren und Deinstallieren von Erweiterungen in Business Central | Microsoft Docs
+title: Erweiterungen installieren und deinstallieren
 description: Hier erfahren Sie etwas über das Installieren und Deinstallieren von Erweiterungen in Business Central.
-documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize, install, uninstall
-ms.date: 06/03/2021
+ms.search.form: 2500
+ms.date: 03/25/2022
 ms.author: solsen
-ms.openlocfilehash: 7868e0dc10c3ec0f81f39b714b8d517fcf3c5f06
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: fcdfe843071bc416973b7411e5702a690e7e377d
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140397"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514751"
 ---
-# <a name="installing-and-uninstalling-extensions-in-business-central"></a>Installieren und Deinstallieren von Erweiterungen in Business Central
+# <a name="install-and-uninstall-extensions-in-business-central"></a>Erweiterungen in Business Central installieren und deinstallieren
 
 Sie können [!INCLUDE[prod_short](includes/prod_short.md)] ändern, indem Sie Erweiterungen installieren. Diese Erweiterungen können beispielsweise Funktionen hinzufügen, das Verhalten ändern oder Ihnen den Zugriff auf die neuen Onlinedienste ermöglichen. Weitere Informationen finden Sie unter [Anpassen von Business Central über Erweiterungen](ui-extensions.md).
 
@@ -29,7 +29,7 @@ Sie können [!INCLUDE[prod_short](includes/prod_short.md)] ändern, indem Sie Er
 > [!NOTE]  
 > Der Berechtigungssatz **EXTEND. MGT. - ADMIN** wurde in Business Central 2021, Veröffentlichungszyklus 1, als Ersatz für den Berechtigungssatz **D365 EXTENSION MGT** in früheren Versionen eingeführt.
 
-## <a name="installing-an-extension"></a>Eine Erweiterung wird installiert
+## <a name="install-an-extension"></a><a name="install"></a>Eine Erweiterung installieren
 
 Sie verwalten die Erweiterungen auf der Seite **Erweiterungsverwaltung**. Sie können vom Startbildschirm auf diese Seite zugreifen. Alternativ wählen Sie das Symbol **Seite oder Bericht suchen** ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") in der oberen rechten Ecke, geben Sie **Erweiterung** ein und wählen Sie dann den entsprechenden Link.  
 
@@ -75,14 +75,13 @@ Microsoft stellt die folgenden Erweiterungen bereit:
 * [Die britische Postleitzahlenerweiterung GetAddress.io](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)  
 * [USA/CA/GB/AU/NZ/ZA – Überweisungsbescheid senden](ui-extensions-send-remittance-advice.md)
 
-
-## <a name="uploading-a-per-tenant-extension-pte"></a>Hochladen einer Tenant-Erweiterung (PTE)
+## <a name="upload-a-per-tenant-extension-pte"></a>Eine Pro-Tenant-Erweiterung (PTE) hochladen
 
 Sie laden eine PTE hoch, indem Sie die Seite **Erweiterungsverwaltung** verwenden. Gehen Sie auf der Seite **Erweiterungsverwaltung** zu **Verwalten** und wählen Sie dann **Erweiterung hochladen**. Geben Sie auf der Seite **Erweiterung hochladen und bereitstellen** die hochzuladende .app-Datei an. Um fortzufahren, wählen Sie die Schaltfläche **Akzeptieren** und dann die Schaltfläche **Bereitstellen**. Damit wird der Prozess des Bereitstellens des PTE gestartet.
 
-Wenn der PTE Änderungen am Schema enthält, können Sie *einen Upload des PTE erzwingen*. Wählen Sie dazu im **Schema-Synchronisationsmodus** die Option **Erzwingen**. Sie erhalten einen Bestätigungsdialog, den Sie akzeptieren müssen, bevor Sie fortfahren. 
+Wenn der PTE Änderungen am Schema enthält, können Sie *einen Upload des PTE erzwingen*. Wählen Sie dazu im **Schema-Synchronisationsmodus** die Option **Erzwingen**. Sie erhalten einen Bestätigungsdialog, den Sie akzeptieren müssen, bevor Sie fortfahren.  
 
-## <a name="uninstalling-an-extension"></a>Deinstallieren einer Erweiterung
+## <a name="uninstall-an-extension"></a>Eine Erweiterung deinstallieren
 
 Sie deinstallieren eine Erweiterung, indem Sie die Seite **Erweiterungsverwaltung** verwenden. Wenn Sie eine Erweiterung deinstallieren und Sie Ihre Meinung anschließend ändern, können Sie die Erweiterung erneut installieren. Wenn Sie eine Erweiterung deinstallieren, die Sie verwendet haben, werden die Daten standardmäßig beibehalten, falls Sie die Erweiterung erneut installieren sollten. Sie können die Daten jedoch auch zusammen mit der Erweiterung löschen. Verwenden Sie hierfür das Kontrollkästchen **Erweiterungsdaten löschen**. Standardmäßig ist dieses Kontrollkästchen *nicht aktiviert*.
 

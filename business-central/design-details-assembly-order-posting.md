@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 2ec7e242bd174f3a825a29923b33642d035ec4ca
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 33d8c3a36340c997a12f879f8770e17045a88aa2
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132108"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521046"
 ---
 # <a name="design-details-assembly-order-posting"></a>Designdetails: Montageauftragsbuchung
 Die Montageauftragsbuchung basiert auf demselben Prinzip wie das Buchen ähnlicher Aktivitäten von Verkaufsaufträgen und von Produktionsverbrauch/-aushabe. Die Prinzipien werden jedoch insofern kombiniert, als Montageaufträge ihre eigene Buchungsbenutzeroberfläche, wie für Verkaufsaufträge, haben, während die tatsächliche Postenbuchung im Hintergrund als direkte Artikel- und Ressourcen Buch.-Blattbuchung, wie für den Fertigungsverbrauch, Ausgabe und Kapazität geschieht.  
@@ -112,7 +112,7 @@ Das Buchen von Verkaufsauftragszeilen, bei denen ein Teil eine Lagermenge und ei
  [Designdetails: Lagerkostenberechnung](design-details-inventory-costing.md)   
  [Designdetails: Fertigungsauftragsbuchung](design-details-production-order-posting.md)   
  [Designdetails: Kostenberechnungsmethoden](design-details-costing-methods.md)  
- [Verwalten der Lagerregulierung](finance-manage-inventory-costs.md)  
+ [Verwalten der Bestandsregulierung](finance-manage-inventory-costs.md)  
  [Finanzen](finance.md)  
  [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

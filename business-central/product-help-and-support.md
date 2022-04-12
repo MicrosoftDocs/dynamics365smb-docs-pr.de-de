@@ -4,29 +4,54 @@ description: Suchen Sie Ressourcen für Produkthilfe, Anleitungen, Problemlösun
 author: edupont04
 ms.reviewer: na
 ms.topic: conceptual
+ms.search.form: HelpAndSupport
 ms.author: edupont
-ms.date: 10/26/2021
-ms.openlocfilehash: aa472df02891c6de1a786a9a4c3321c461a45395
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 03/21/2022
+ms.openlocfilehash: d97911cd7c3556e8ee447102e22b3764548b6f13
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145550"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516926"
 ---
 # <a name="resources-for-help-and-support"></a>Ressourcen für Hilfe und Support
 
-In [!INCLUDE[prod_long](includes/prod_long.md)] haben Sie über das Element Hilfe (das Fragezeichen in der rechten oberen Ecke) Zugriff auf ein Hilfefenster, in dem Sie Antworten auf Ihre Fragen finden können.  
+Tipps und Anleitungen zur Verwendung von [!INCLUDE[prod_long](includes/prod_long.md)], wie Sie die Blockierung aufheben, wo Sie mehr erfahren und wie Sie technische Informationen finden, ist alles in [!INCLUDE [prod_short](includes/prod_short.md)] verfügbar. Dieser Artikel beschreibt, wie Sie was finden.  
+
+## <a name="in-product-tips"></a>Produktinterne Tipps
+
+[!INCLUDE [ua-get-help](includes/ua-get-help.md)] Diese Links können auch auf Inhalte zugreifen, die auf anderen Websites veröffentlicht sind, z.B. auf die Websites der Anbieter von Apps, die in Ihrem [!INCLUDE [prod_short](includes/prod_short.md)] installiert sind.  
+
+## <a name="help-pane"></a>Hilfebereich
+
+[!INCLUDE [2022_releasewave1](includes/2022_releasewave1.md)]
+
+In [!INCLUDE [prod_short](includes/prod_short.md)] haben Sie über das Element Hilfe (das Fragezeichen in der rechten oberen Ecke) Zugriff auf ein Hilfefenster, in dem Sie Antworten auf Ihre Fragen finden können. Der Hilfebereich hat je nachdem, wie Sie darauf zugreifen, unterschiedliche Inhalte. Die folgende Liste beschreibt die Karten, die immer oder fast immer vorhanden sind:  
+
+[!INCLUDE [ua-help-pane-links-default](includes/ua-help-pane-links-default.md)]
+
+Die folgende Liste beschreibt, wie Sie auf das Hilfefenster zugreifen können und ob ihm Karten hinzugefügt wurden:
+
+- Wählen Sie den *Mehr erfahren*-Link auf einem QuickInfo für ein Feld
+
+  Die folgende Karte wird dem Hilfebereich hinzugefügt:
+
+  - Die QuickInfo des Feldes
+- Wählen Sie den *Mehr erfahren*-Link auf einem QuickInfo für eine Aktion
+- Wählen Sie den Hilfe-Menüpunkt (das Fragezeichen in der oberen rechten Ecke)
+- Verwenden Sie von überall aus die Tastenkombination STRG+F1
+
+> [!TIP]
+> Wenn Sie einen Link auswählen, wird der Zielartikel in einer neuen Browser-Registerkarte geöffnet. Sie können dann die Browser-Registerkarte abdocken, um die relevanten Informationen Seite an Seite mit [!INCLUDE [prod_short](includes/prod_short.md)] zu sehen. Das Fenster bleibt geöffnet, während Sie durch [!INCLUDE [prod_short](includes/prod_short.md)] navigieren, sodass der von Ihnen gesuchte Inhalt sichtbar bleibt.  
 
 ## <a name="search-in-the-help-pane"></a>Suche im Hilfefenster
 
 [!INCLUDE [2021_releasewave2](includes/2021_releasewave2.md)]
 
-Der Veröffentlichungszyklus 2 von 2021 enthält ein neues Hilfefenster mit einer Registerkarte für die Suche. Verwenden Sie das Suchfeld, um nach Anleitungen zur Verwendung des Produkts, integrierten Funktionalitäten und verfügbaren Schulungsmodulen zu suchen. Abhängig von Ihren Suchbegriffen werden im Fenster mindestens fünf Links mit einer kurzen Beschreibung angezeigt. Wählen Sie einen Link aus, oder verfeinern Sie Ihre Suchbegriffe. Wenn Sie einen Link auswählen, wird der Zielartikel in einer neuen Browser-Registerkarte geöffnet. Sie können dann die Browser-Registerkarte abdocken, um die relevanten Informationen Seite an Seite mit [!INCLUDE [prod_short](includes/prod_short.md)] zu sehen. Das Fenster bleibt geöffnet, während Sie durch [!INCLUDE [prod_short](includes/prod_short.md)] navigieren, sodass der von Ihnen gesuchte Inhalt sichtbar bleibt.  
+Verwenden Sie das Suchfeld oben im Hilfefenster, um nach Anleitungen zur Verwendung des Produkts, integrierten Funktionalitäten und verfügbaren Schulungsmodulen zu suchen. Abhängig von Ihren Suchbegriffen werden im Fenster mindestens fünf Links mit einer kurzen Beschreibung angezeigt. Wählen Sie einen Link aus, oder verfeinern Sie Ihre Suchbegriffe. Wenn Sie einen Link auswählen, wird der Zielartikel in einer neuen Browser-Registerkarte geöffnet. Sie können dann die Browser-Registerkarte abdocken, um die relevanten Informationen Seite an Seite mit [!INCLUDE [prod_short](includes/prod_short.md)] zu sehen. Das Fenster bleibt geöffnet, während Sie durch [!INCLUDE [prod_short](includes/prod_short.md)] navigieren, sodass der von Ihnen gesuchte Inhalt sichtbar bleibt.  
 
 > [!NOTE]
-> In der aktuellen Version von [!INCLUDE [prod_short](includes/prod_short.md)] gilt das Suchfeld im Hilfebereich nur für Inhalte, die auf der Website docs.microsoft.com veröffentlicht sind.
-
-[!INCLUDE [ua-get-help](includes/ua-get-help.md)] Diese Links können auch auf Inhalte zugreifen, die auf anderen Websites veröffentlicht sind, z.B. auf die Websites der Anbieter von Apps, die in Ihrem [!INCLUDE [prod_short](includes/prod_short.md)] installiert sind.  
+> In der aktuellen Version von [!INCLUDE [prod_short](includes/prod_short.md)] gilt das Suchfeld im Hilfebereich nur für Inhalte, die auf der Website [Docs.microsoft.com](/dynamics365/business-central) veröffentlicht sind.
 
 ## <a name="help--support-page"></a>Hilfe & Support Seite
 
@@ -35,7 +60,7 @@ Der Veröffentlichungszyklus 2 von 2021 enthält ein neues Hilfefenster mit eine
 In diesem Abschnitt finden Sie die Ressourcen, die Ihnen in den verschiedenen Abschnitten der Seite **Hilfe und Support** zur Verfügung stehen, wie in der folgenden Liste beschrieben:
 
 - [Antworten finden](#find-answers)  
-- [Produkt-Hilfe](#product-help)  
+- [Hilfe](#product-help)  
 - [Gemeinschaft](#community)  
 - [Blog](#blog)  
 - [Funktionalitäten in Kürze](#capabilities-coming-soon)  
@@ -59,6 +84,7 @@ Der Abschnitt **Suchen** umfasst zwei Links zur Produkthilfe:
 - Hilfe über die Seite, die Sie soeben in [!INCLUDE[prod_short](includes/prod_short.md)] angezeigt haben  
 
   Dieser Link wird automatisch generiert. Wenn [!INCLUDE[prod_short](includes/prod_short.md)] den entsprechenden Link nicht finden kann, wird die Produktseite auf [Docs.microsoft.com](index.md) als Standardversion von [!INCLUDE[prod_short](includes/prod_short.md)] angezeigt. Zum Beispiel, wenn die Seite Teil einer App war, der keine kontextsensitive Hilfe hinzugefügt wurde, die [!INCLUDE[prod_short](includes/prod_short.md)] zugeordnet ist, leitet der *Lernlink* standardmäßig zur Zielseite weiter.  
+  
 - Hilfeproduktseite für [!INCLUDE[prod_short](includes/prod_short.md)]  
 
   Die Funktionen in der Standardversion von [!INCLUDE[prod_short](includes/prod_short.md)] wird auf der Website [Docs.microsoft.com](/dynamics365/business-central) beschrieben. Weitere Informationen finden Sie im Abschnitt [Verwenden der docs.microsoft.com-Website, um weitere Informationen zu erhalten](#use-the-docsmicrosoftcom-site-to-learn-more). Sie können auch [!INCLUDE[prod_short](includes/prod_short.md)] mit Apps von AppSource erweitern und anpassen. Alle Apps stellen Links zur jeweiligen Produkthilfe zur Verfügung, sodass Sie immer Anleitung für verschiedene Workflows in Ihrer Version von [!INCLUDE[prod_short](includes/prod_short.md)] finden können.  

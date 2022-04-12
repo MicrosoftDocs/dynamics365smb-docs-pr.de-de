@@ -1,30 +1,32 @@
 ---
-title: Analysieren von Berichtsdaten mit Excel
-description: Lernen Sie, wie Sie mit Excel ein Dataset für einen Bericht analysieren können.
+title: Analysieren von Berichtsdaten mit Excel und XML
+description: Lernen Sie, wie Sie mit Excel und XML ein Dataset für einen Bericht analysieren können.
 author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: task, process, report, print, schedule, save, Excel, PDF, Word, dataset
-ms.date: 02/09/2022
+ms.date: 03/16/2022
 ms.author: jswymer
-ms.openlocfilehash: f3996c051eed69974de9511aa570f232e44764fa
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 46831a7b5c4672dd3d65142803aa77bbf2fce807
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145472"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521806"
 ---
-# <a name="analyzing-report-data-with-excel"></a>Analysieren von Berichtsdaten mit Excel
+# <a name="analyzing-report-data-with-excel-and-xml"></a>Analysieren von Berichtsdaten mit Excel und XML
 
 [!INCLUDE[2021_releasewave2](includes/2021_releasewave2.md)]
 
-Als Entwickler oder fortgeschrittener Benutzer ist es hilfreich, die Daten, die für ein bestimmtes Dataset eines Berichts erzeugt werden, zu prüfen, während Sie neue Berichte erstellen oder bestehende Berichte ändern. Um diese Funktionalität zu unterstützen, können Sie ein Dataset eines Berichts als Rohdaten in ein Excel-Arbeitsblatt exportieren &mdash;, und zwar direkt von der Berichtsanforderungsseite im Client. In Excel können Sie dann eine Ad-hoc-Analyse der Daten durchführen und Probleme diagnostizieren.
+Als Entwickler oder fortgeschrittener Benutzer ist es hilfreich, die Daten, die für ein bestimmtes Dataset eines Berichts erzeugt werden, zu prüfen, während Sie neue Berichte erstellen oder bestehende Berichte ändern. Um diese Funktion zu unterstützen, können Sie einen Berichtsdatensatz als Rohdaten in eine Excel-Arbeitsmappe oder eine XML-Datei exportieren direkt. In Excel können Sie beispielsweise dann eine Ad-hoc-Analyse der Daten durchführen und Probleme diagnostizieren.
 
 ## <a name="get-started"></a>Erste Schritte
 
-Um ein Dataset eines Berichts nach Excel zu exportieren, öffnen Sie den Bericht im Client und wählen dann auf der Anforderungsseite **Senden an** > **Microsoft Excel Beleg (nur Daten)**. 
+Um einen Berichtsdatensatz in eine Excel-Arbeitsmappe oder eine XML-Datei zu exportieren, öffnen Sie den Bericht im Client und wählen Sie dann auf der Anforderungsseite **Senden an** > **Microsoft Excel-Dokument (nur Daten)** oder **XML-Dokument**. Die Datei wird auf Ihr Gerät heruntergeladen.
+
+## <a name="more-about-excel-data-only"></a>Mehr über Excel (nur Daten)
 
 **Microsoft Excel Beleg (nur Daten)** Die Option exportiert die Berichtsergebnisse und die Kriterien, die zu ihrer Erstellung verwendet wurden &mdash;aber sie enthält nicht das Berichtslayout. Die Excel-Datei enthält das komplette Dataset, als Rohdaten, angeordnet in Zeilen und Spalten. Alle Datenspalten des Datasets des Berichts sind enthalten, unabhängig davon, ob sie im Berichtslayout verwendet werden.
 

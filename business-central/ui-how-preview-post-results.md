@@ -8,24 +8,24 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2021
 ms.author: solsen
-ms.openlocfilehash: 0b367c59b3d9be298fa7f42fe0b94018d99c94a5
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 28c9d8c9f24158f119ffffaeddd92590bee906cb
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148226"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515927"
 ---
 # <a name="preview-posting-results"></a>Vorschau-Buchungs-Ergebnisse
 Auf jedem Beleg und Buch.-Blatt, die gebucht werden können, können Sie die Schaltfläche **Vorschau-Buchung** auswählen, um verschiedene Arten von Posten zu überprüfen, die erstellt werden, wenn Sie den Beleg oder das Buch.-Blatt buchen.
 
 ## <a name="to-preview-gl-entries-that-will-result-from-posting-a-purchase-invoice"></a>Um Sachposten in der Vorschau anzeigen, die aus dem Buchen einer Einkaufsrechnung resultieren
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen") Symbol. Geben Sie **Einkaufsrechnungen** ein, und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Einkaufsrechnungen** ein, und wählen Sie dann den zugehörigen Link.
 2. Erstellen Sie eine Einkaufsrechnung. Weitere Informationen finden Sie unter [Erfassen eines Einkaufs](purchasing-how-record-purchases.md).
 3. **Buchungsvorschau** wählen.
 4. Wählen Sie auf der Seite **Buchungsvorschau** die Option **Sachkonteneintrag** aus und wählen Sie dann **Zugehörige Einträge anzeigen** aus.  
    Die Seite **Sachkosten in der Vorschau** zeigt, welche Einträge beim Buchen der Einkaufsrechnung erstellt werden.
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 [Dokumente und Buch.-Blatt verbuchen](ui-post-documents-journals.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Allgemeine Geschäftsfunktionen](ui-across-business-areas.md)

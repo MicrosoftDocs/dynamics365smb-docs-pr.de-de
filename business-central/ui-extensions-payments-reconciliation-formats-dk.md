@@ -9,12 +9,12 @@ ms.workload: na
 ms. search.keywords: extension, bank, formats
 ms.date: 06/24/2021
 ms.author: bholtorf
-ms.openlocfilehash: 9e0d924270134e940fb4102dbf1fd0a9a58655dd
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 2b2ca286540ceca0d881b9e9928dd275583472c3
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381062"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8510557"
 ---
 # <a name="the-payments-and-reconciliations-dk-extension"></a>Die Zahlungs- und Abstimmungs-Erweiterung
 
@@ -54,7 +54,7 @@ Darüber hinaus müssen Sie Kreditoren einer inländischen **Gen. Bus. Buchungsg
 
 ### <a name="to-allow-prod_short-to-export-payment-data"></a>[!INCLUDE[prod_short](includes/prod_short.md)] erlauben, Zahlungsdaten zu exportieren
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Zahlungsausgangs Buch.-Blatt** ein und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Zahlungsausgangs Buch.-Blatt** ein und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie auf der Seite **Projekt Buch.-Blatt bearbeiten** das Feld **Bank** Stapel aus.  
 3. Wählen Sie das Kontrollkästchen **Zahlungsexport erlauben**.  
 
@@ -68,7 +68,7 @@ Die folgende Tabelle zeigt die FIK- und Kombinationen von GIRO-Zahlungsformen an
 |Nachricht an Empfänger zulassen? | Ja |Nein |Nein | Ja |
 |Enthält Zahlungs-Referenznummer? | Nein | Ja, 16 Ziffern. | Ja, 15 Ziffern. | Nein|
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Kreditoren** ein und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Kreditoren** ein und wählen Sie dann den zugehörigen Link.  
 2. Öffnen Sie die Karte, erweitern Sie die Registerkarte **Zahlungen**, im Feld **Zahlungsform** und wählen Sie die Zahlungsform.  
 3. Abhängig von Ihrer Wahl müssen Sie weitere Felder ausfüllen. Siehe die Tabelle oben für eine Beschreibung der Kombinationen.  
 
@@ -106,7 +106,7 @@ Die folgende Tabelle zeigt die FIK- und Kombinationen von GIRO-Zahlungsformen an
 
 [Anpassen von Business Central für [!INCLUDE[prod_short](includes/prod_short.md)] mithilfe der Erweiterungen](ui-extensions.md)  
 [Erfassen von Zahlungen per Lastschriftverfahren SEPA](finance-collect-payments-with-sepa-direct-debit.md)  
-[Arbeiten mit allgemeinen Buch.-Blättern](ui-work-general-journals.md)  
+[Arbeiten mit Fibu Buch.-Blättern](ui-work-general-journals.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

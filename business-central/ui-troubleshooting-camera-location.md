@@ -9,12 +9,12 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: conceptual
-ms.openlocfilehash: c484be64a252ae8f565bf04215b9a2191e572875
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 5c5693b05d8590e569e0fb1b80993e35550c5ed5
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138206"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518809"
 ---
 # <a name="troubleshooting-accessing-camera-and-location"></a>Problembehebung: Auf Kamera und Standort zugreifen
 
@@ -46,7 +46,7 @@ Die Kamera- und Standortfunktionen sind nur verfügbar, wenn der Zugriff auf den
 Die einzige Ausnahme ist die Verbindung zu `http://localhost`, die für Entwicklungs- und Testzwecke verwendet wird.
 
 
-## <a name="working-with-virtualization-technologies"></a>Mit Virtualisierungstechnologien arbeiten
+## <a name="work-with-virtualization-technologies"></a>Mit Virtualisierungstechnologien arbeiten
 
 Wenn eine Verbindung mit [!INCLUDE[prod_short](includes/prod_short.md)] über Remotedesktop oder eine andere Virtualisierung hergestellt wird, ist der Zugriff auf die Kamera oder den Standort möglicherweise nicht verfügbar. Verwenden Sie in diesem Fall stattdessen das physische System.
 

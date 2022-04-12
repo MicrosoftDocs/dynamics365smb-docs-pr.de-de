@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 375c333bf6fc56d4dac5a59be0dbf905c8339ec5
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3e86bf736bb25a9270bec93fcabfa683a6f4ae5f
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137575"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516058"
 ---
 # <a name="flush-components-according-to-operation-output"></a>Komponenten nach Vorgangsausgabe bündeln
 Sie können verschiedene Buchungsmethoden definieren, um die Registrierung des Verbrauchs von Komponenten zu automatisieren. 
@@ -90,18 +90,18 @@ Wenn beispielsweise ein Fertigungsauftrag, 800 Meter zu produzieren, 8 Kilogramm
 
 ## <a name="to-flush-components-according-to-operation-output"></a>Komponenten entsprechend dem Arbeitsgangs-Ausstoß leeren
 
-1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Elemente** ein, und wählen Sie dann den zugehörigen Link.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Elemente** ein, und wählen Sie dann den zugehörigen Link.  
 2.  Wählen Sie die Aktion **Bearbeiten** aus.  
 3.  Wählen Sie im Inforegister **Beschaffung** im Feld **Buchungsmethode** die Option **Rückwärts** aus.  
 
     > [!NOTE]  
     >  Wählen Sie **Kommiss. + Rückwärts** aus, wenn die Komponente in einem Lagerplatz verwendet wird, der für die gesteuerte Einlagerung und Kommissionierung eingerichtet ist.  
 
-4.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Arbeitspläne** ein und wählen Sie dann den zugehörigen Link.  
+4.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Arbeitspläne** ein und wählen Sie dann den zugehörigen Link.  
 5.  Definieren Sie Verbindungscodes für jeden Arbeitsgang, der die Komponente verbraucht. Weitere Informationen finden Sie unter [Arbeitspläne erstellen ](production-how-to-create-routings.md).  
     > [!IMPORTANT]  
     > Verwenden Sie nicht dieselbe Routing-Routing-Verbindung für verschiedene Vorgänge im Routing, da dies zur Registrierung des Verbrauchs von Komponenten für jeden verknüpften Vorgang führt.  
-6.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Produktionsstückliste** ein und wählen Sie dann den zugehörigen Link.  
+6.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Produktionsstückliste** ein und wählen Sie dann den zugehörigen Link.  
 7.  Definieren Sie Verbindungscodes von jeder Instanz der Komponente zu dem Arbeitsgang, in dem sie verbraucht wird.
 
 Der Verbrauch wird automatisch gebucht, wenn Sie die Ausgabe registrieren. Weitere Informationen finden Sie unter [Ausgabe über Stapelverarbeitung buchen und Bearbeitungszeiten prüfen](production-how-to-post-output-quantity.md)
@@ -124,7 +124,7 @@ In der folgenden Tabelle werden die verfügbaren Optionen für die Buchungsmetho
 [Produktion einrichten](production-configure-production-processes.md)  
 [Produktion](production-manage-manufacturing.md)  
 [Planung](production-planning.md)  
-[Lagerbestand](inventory-manage-inventory.md)  
+[Bestand](inventory-manage-inventory.md)  
 [Einkauf](purchasing-manage-purchasing.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

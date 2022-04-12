@@ -6,12 +6,12 @@ ms.topic: conceptual
 ms.search.form: 51, 9308
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 39361f09520f17ab659ddc35e49fe4cd39d35354
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 8386d5e52086f1a291529d828b66163c5d2851d3
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381941"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516291"
 ---
 # <a name="settle-purchase-invoices-promptly"></a>Einkaufsrechnungen sofort ausgleichen
 
@@ -22,7 +22,7 @@ Wenn Sie den Kreditor bar oder per Scheck bezahlen, können Sie die notwendigen 
 
 ## <a name="to-settle-purchase-invoices-promptly"></a>So gleichen Sie Einkaufsrechnungen sofort aus
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Einkaufsrechnungen** ein, und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Einkaufsrechnungen** ein, und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die Aktion **Neu**.  
 3. Um entweder bar oder per Banktransfer zu bezahlen, geben Sie die Nummer des Sachkontos für Barzahlungen oder die des Bankkontos in dem Feld **Gegenkontonr.** an.  
 
@@ -31,7 +31,7 @@ Wenn Sie den Kreditor bar oder per Scheck bezahlen, können Sie die notwendigen 
 >
 > Diese Anpassung ist nur erforderlich, wenn Sie keine Gegenkonten zu den Zahlungsformen, wie oben beschrieben, angeben.
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 [Verwalten von Verbindlichkeiten](payables-manage-payables.md)  
 [Einkauf](purchasing-manage-purchasing.md)  

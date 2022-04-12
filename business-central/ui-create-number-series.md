@@ -8,21 +8,22 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: numbers, numbering
 ms.search.form: 456, 457, 458, 459, 460, 461, 21, 22, 26, 27, 31
-ms.date: 04/01/2021
+ms.date: 03/24/2022
 ms.author: edupont
-ms.openlocfilehash: e95b60af569511a8a95154a53f80bcc235f883f5
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ad82c9aa86210c5f89e24fcced0af70751788ef8
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140475"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8510577"
 ---
 # <a name="create-number-series"></a>Erstellen von Nummernkreisen
 
 Für jeden eingerichteten Mandanten müssen eindeutige Identifizierungscodes für Elemente wie Sachkonten, Debitor-/Kreditorkonten, Rechnungen und andere Belege zugeordnet werden. Die Nummerierung dient jedoch nicht nur zur Identifizierung. Ein durchdachtes Nummerierungssystem trägt zur einfacheren Verwaltung und besseren Analysierbarkeit des Mandanten bei, was eine Verringerung von Eingabefehlern zur Folge hat.
 
 > [!Important]
-> Standardmäßig sind Lücken in Zahlenreihen nicht zulässig, da der genaue Verlauf von Finanztransaktionen gesetzlich für die Prüfung verfügbar sein muss und daher eine ununterbrochene Reihenfolge ohne gelöschte Zahlen einhalten muss.<br /><br />
+> Standardmäßig sind Lücken in Zahlenreihen nicht zulässig, da der genaue Verlauf von Finanztransaktionen gesetzlich für die Prüfung verfügbar sein muss und daher eine ununterbrochene Reihenfolge ohne gelöschte Zahlen einhalten muss.
+> 
 > Wenn Sie Lücken in bestimmten Nummernserien zulassen möchten, wenden Sie sich zuerst an Ihren Wirtschaftsprüfer oder Buchhaltungsleiter, um sicherzustellen, dass Sie die gesetzlichen Anforderungen in Ihrem Land/Ihrer Region einhalten. Weitere Informationen finden Sie im Abschnitt [Lücken in Nummernserien](#gaps-in-number-series).
 
 > [!NOTE]  
@@ -41,11 +42,14 @@ Verwenden Sie Nummernserienbeziehungen, wenn Sie für eine Masterdatenart mehrer
 Nicht alle Datensätze, die Sie in [!INCLUDE[prod_short](includes/prod_short.md)] erstellen sind Finanztransaktionen, die fortlaufend nummeriert werden müssen. Debitorenkarten, Verkaufsangebote und Lageraktivitäten sind Beispiele für Datensätze, denen eine Nummer aus einer Nummernreihe zugewiesen wurde, die jedoch keiner Finanzprüfung unterliegen und/oder die gelöscht werden können. Für solche Nummernserien können Sie das Kontrollkästchen **Lücken in Nr. zulassen** auf der Seite **Serienlinien** auswählen. Diese Einstellung kann auch nach dem Erstellen der Nummernserie geändert werden. Weitere Informationen zum Erstellen einer Vorlage finden Sie unter [Eine neue Nummernserie erstellen](ui-create-number-series.md#to-create-a-new-number-series).
 
 ## <a name="behavior-of-the-no-field-on-documents-and-cards"></a>Verhalten des Nr.- Felder auf Belegen und Karten
-In den Feldern „Vertrieb“, „Einkauf“ und „Übergangsbelege“ und auf allen Karten kann die **Nr.** automatisch aus einer Nummernserie oder manuell ausgefüllt und so eingerichtet werden, dass es unsichtbar ist.
+
+In den Feldern „Vertrieb“, „Einkauf“ und „Übergangsbelege“ und auf allen Karten kann die **Nr.** Feld kann automatisch aus einer vordefinierten Nummernserie ausgefüllt werden. Sie können es auch manuell hinzufügen. Allerdings kann unter bestimmten Umständen das **Nr.**- Feld unsichtbar sein, damit Sie es nicht bearbeiten können.  
 
 Das Feld **Nr.** Feld kann auf drei Arten ausgefüllt werden:
 
-1. Wenn nur eine Nummernserie für die Art des Belegs oder der Karte vorhanden ist, wo das Kontrollkästchen **Standardnr.** aktiviert und das Kontrollkästchen **Manuelle Nr.** nicht aktiviert ist, wird das Feld automatisch mit der nächsten Nummer der Serie ausgefüllt, und das **Nr.**- Feld ist nicht sichtbar.
+1. Wenn nur eine Nummernserie für die Art des Belegs oder der Karte vorhanden ist und das Feld **Standardnummern** ausgewählt und das Feld **Manuelle Nr.** nicht für die Nummernserie ausgewählt ist, wird das Feld automatisch mit der nächsten Nummer der Serie ausgefüllt. Das Feld **Nr.** ist auf der Karte oder dem Beleg nicht sichtbar.  
+
+    Auch wenn Sie Vorlagen mit verschiedenen Nummernserien für Debitoren definieren, wenn die Nummernserie, die auf der **Einrichtung von Verkäufen und Forderungen**-Seite auf diese Weise eingerichtet ist, ist das **Nr.**- Feld ist auf der Debitorenkarte sichtbar, egal welche Vorlage Sie verwenden. Gleiches gilt für andere Arten von Karten und Dokumenten.  
 
     > [!NOTE]  
     > Wenn die Nummernserie nicht funktioniert, z. B. weil keine Nummern mehr vorhanden sind, dann ist das **Nr.**- Feld wird sichtbar und Sie können eine Nummer manuell eingeben oder die Probleme auf der Seite **Nummernserienübersicht** lösen.
@@ -71,13 +75,13 @@ Wenn Sie einen neuen Beleg oder eine Karte öffnen, für den bzw. die eine Numme
 > [!TIP]
 > Um Benutzern zu erlauben, Nummern manuell anzugeben, wenn sie z.B. einen neuen Debitor oder Kreditor registrieren, wählen Sie das Feld **Manuelle Nummern** in der Nummernserie selbst. Um manuelle Nummern nicht zuzulassen, deaktivieren Sie das Feld.
 
-Sie können den Vorlagen, die Sie für die verschiedenen Arten von Kunden und Kreditoren festgelegt haben, Nummernserien zuweisen, die Ihre Vertriebsmitarbeiter und Einkäufer am häufigsten in Ihre [!INCLUDE [prod_short](includes/prod_short.md)] eintragen. Legen Sie in diesem Fall die entsprechenden Zahlenserien fest, verknüpfen Sie sie über Beziehungen und fügen Sie dann die erste Zahlenserie in der entsprechenden Beziehung auf der entsprechenden Einrichtungsseite hinzu.  
+Sie können den Vorlagen, die Sie für die verschiedenen Arten von Kunden und Kreditoren festgelegt haben, Nummernserien zuweisen, die Ihre Vertriebsmitarbeiter und Einkäufer am häufigsten in Ihre [!INCLUDE [prod_short](includes/prod_short.md)] eintragen. Legen Sie in diesem Fall die entsprechenden Zahlenserien fest, verknüpfen Sie sie über Beziehungen und fügen Sie dann die erste Zahlenserie in der entsprechenden Beziehung auf der entsprechenden Einrichtungsseite hinzu. Wenn ein Benutzer dann einen Debitor erstellt, wählt er die relevante Vorlage aus, und dem neuen Debitor wird eine Nummer aus der Nummernserie zugewiesen, die für diese Vorlage definiert ist.  
 
 ## <a name="to-create-relationships-between-number-series"></a>Verbindungen zwischen Nummernserien herstellen:
 
 Wenn Sie mehr als einen Nummernseriencode für dieselbe Art von grundlegenden Daten oder Geschäftsvorfällen eingerichtet haben, können Sie Verbindungen zwischen diesen Codes herstellen. Dann können Sie zwischen den verschiedenen Codes auswählen, wenn Sie eine Nummer verwenden wollen. Wenn Sie eine Beziehung zwischen einer Gruppe von Zahlenreihen festlegen, ordnen Sie alle zugehörigen Reihen einem Zahlenreihencode zu. Dann können Sie diesen Code in ein Feld auf dem Inforegister **Nummerierung** auf einer der entsprechenden Einrichtungsseite eingeben, z.B. **Einrichtung Debitoren & Verkauf**.  
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Nummernserie** ein, und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Nummernserie** ein, und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie die Zeile mit der Nummernserie, für die Sie Verbindungen herstellen wollen und wählen Sie **Beziehungen**.
 3. Geben Sie im Feld **Seriencode** den Code für die Nummernserie ein, für die Sie eine Verbindung mit der in Schritt 2 ausgewählten Nummernserie herstellen möchten.
 4. Fügen Sie für jeden Code, für den eine Verbindung mit der ausgewählten Nummernserie hergestellt werden soll, eine neue Zeile hinzu.
@@ -89,7 +93,7 @@ Wenn Sie jetzt etwas einrichten, was eine Nummer benötigt, können Sie die von 
 
 Der folgende Ablauf zeigt, wie Nummernserien für den Verkaufsbereich eingerichtet werden. Die Schritte sind gleich wie bei anderen Bereichen.  
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Verkäufe & Debitoren** ein und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Verkäufe & Debitoren** ein und wählen Sie dann den zugehörigen Link.
 2. Auf der Seite **Debitoren & Verkauf** im Inforegister **Nummernserie**, wählen Sie die gewünschte Serie für jede Verkaufs- Karte oder jeden Beleg aus.
 
 Die ausgewählten Anzahl wird nun verwendet, um **Nr.** auszufüllen Feld auf der fraglichen Karte oder auf dem fraglichen Dokument entsprechend den Einstellungen, die Sie in der Nummernserie erstellt haben.  

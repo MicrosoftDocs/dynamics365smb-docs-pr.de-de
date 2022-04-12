@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
 ms.search.form: 10, 1877, 470, 471, 472
-ms.date: 01/31/2022
+ms.date: 03/04/2022
 ms.author: bholtorf
-ms.openlocfilehash: 80264ff085ab9d88a2d6a32d8f0f1189b3622832
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 285f0f224853837e2aac6553c34d366afb09f08a
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383671"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519225"
 ---
 # <a name="set-up-calculations-and-posting-methods-for-value-added-tax"></a>Berechnungen einrichten und Buchungsmethoden für Mehrwertsteuer
 
@@ -31,7 +31,7 @@ Sie können die Berechnungen der MwSt manuell einrichten, aber das kann heikel u
 > [!NOTE]  
 > Hinweis: Sie können den Leitfaden nur nutzen, wenn Sie eine "Meine Unternehmen" erstellt haben, und keine Transaktionen gebucht haben, die Mehrwertsteuer beinhalten. Sonst wäre es sehr einfach, versehentlich unterschiedliche Mehrwertsteuersätze zu verwenden und mit Mehrwertsteuer verknüpfte Berichte würden ungenau.  
 
-Wenn Sie MwSt-Berechnungen einrichten möchten oder einfach mehr über jeden Schritt erfahren möchten, enthält dieses Thema Beschreibungen jedes Schrittes.  
+Wenn Sie MwSt-Berechnungen einrichten möchten oder einfach mehr über jeden Schritt erfahren möchten, enthält dieser Artikel Beschreibungen jedes Schrittes.  
 
 [!INCLUDE [finance-vat](includes/finance-vat.md)]
 
@@ -44,6 +44,14 @@ Um die unterstützte Einrichtung zu starten, gehen Sie folgendermaßen vor:
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"). Symbol. Geben Sie **Unterstützte Einrichtung** ein.  
 2. Wählen Sie **MwSt Einrichtung** aus, und führen Sie die Schritte aus.
 3. Wenn Sie die unterstützte Einrichtung abgeschlossen haben, besuchen Sie die Seite **MwSt.-Buchungseinrichtung** und prüfen Sie, ob Sie entsprechend den lokalen Anforderungen in Ihrer Version von [!INCLUDE [prod_short](includes/prod_short.md)] weitere Felder ausfüllen müssen. Weitere Informationen finden Sie unter [Lokale Funktion in Business Central](about-localization.md)  
+
+### <a name="check-the-vat-posting-setup"></a>Überprüfen Sie die Einrichtung der MwSt.-Buchung
+
+Um Sie beim schnellen Einstieg zu unterstützen, zeigt [!INCLUDE [prod_short](includes/prod_short.md)] Ihnen Benachrichtigungen an, wenn Ihnen Hauptbuchkonten (Sachkonten) in Buchungsgruppen oder Buchungseinstellungen fehlen, wie z. B. die **Einrichtung der MwSt.-Buchung**-Seite. Sie können diese Art der Benachrichtigung über *Sachkonto ist nicht in der Buchungsgruppe oder Einrichtung vorhanden*-Benachrichtigung in der **Meine Benachrichtigungen**-Seite ein- oder ausschalten. Wählen Sie einfach auf der Seite **Meine Einstellungen** die Option *Ändern, wenn ich Benachrichtigungen erhalte* aus. Link.  
+
+Wenn Sie eine solche Benachrichtigung wählen, erstellt [!INCLUDE [prod_short](includes/prod_short.md)] automatisch diese Buchungseinstellungen basierend auf den Buchungsgruppen in dem Dokument oder Journal, an dem Sie gerade arbeiten.  
+
+An dieser Stelle können Sie einfach die fehlenden Sachkonten ausfüllen. Später, wenn Sie das Setup weiter verfeinern, stellen Sie möglicherweise fest, dass dieses Setup falsch war. [!INCLUDE [prod_short](includes/prod_short.md)] erlaubt kein Löschen der MwSt.-Buchungseinstellungen und der allgemeinen Buchungseinstellungen, wenn Einträge auf der Grundlage solcher Konfigurationen erstellt wurden. Ab dem 1. Veröffentlichungszyklus 2022 können Sie das **Gesperrt**-Feld auf der Seite **MwSt.-Buchungsmatrix** verwenden, um zu verhindern, dass Benutzer versehentlich ein Setup verwenden, das für neue Buchungen nicht mehr relevant ist.
 
 ## <a name="set-up-vat-registration-numbers-for-your-country-or-region"></a>Umsatzsteuer-Identifikationsnummern für Ihr Land oder Ihre Region festlegen
 
@@ -94,7 +102,7 @@ Sie können beliebig viele Codes einrichten. Wenn Sie MwSt.-Buchungsmatrixeinric
 Um MwSt.-Buchungseinrichtungen zu kombinieren, gehen Sie folgendermaßen vor:
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet 5.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **MWSt.-Buchungseinrichtung** ein und wählen Sie dann den zugehörigen Link.
-2. Füllen Sie die Felder nach Bedarf aus.
+2. Füllen Sie die Felder nach Bedarf aus. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="assign-vat-posting-groups-by-default-to-multiple-entities"></a>Weisen Sie VAT-Buchungsgruppen standardmäßig mehreren Entitäten zu
 

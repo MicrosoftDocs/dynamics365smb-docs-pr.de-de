@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ec39dfd6a8b9c209060fbd5d17ba429c56a6f92f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 6ff238b213de72210908c89eae1da180a1a10fb1
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136478"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519303"
 ---
 # <a name="enable-workflows"></a>Aktivieren von Workflows
 Wenn Sie einen Workflow erstellt haben und sicher sind, dass er bereit ist zu starten, müssen Sie den Workflow aktivieren.  
@@ -31,7 +31,7 @@ Wenn Sie einen Workflow erstellt haben und sicher sind, dass er bereit ist zu st
  [Anzeigen von archivierten Workflowschritt-Instanzen](across-how-to-view-archived-workflow-step-instances.md)   
  [Löschen eines Workflows](across-how-to-delete-workflows.md)   
  [Einrichten von Workflows](across-set-up-workflows.md)   
- [Verwenden von Workflows](across-use-workflows.md)   
+ [Workflows verwenden](across-use-workflows.md)   
  [Exemplarische Vorgehensweise: Einrichten und Nutzen eines Einkaufsgenehmigungsworkflows](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
  [Workflow](across-workflow.md)   
 

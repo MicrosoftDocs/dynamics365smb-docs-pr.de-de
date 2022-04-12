@@ -9,14 +9,14 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 54271ce12ed5b71266511a85ab7a10516092be36
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b51aa003aa37ed95545d4f9d94e3c34d25d02270
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147164"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8510922"
 ---
-# <a name="working-with-power-bi-reports-in-prod_short"></a>Arbeiten mit Power BI-Berichten in [!INCLUDE [prod_short](includes/prod_short.md)]
+# <a name="work-with-power-bi-reports-in-prod_short"></a>Mit Power BI-Berichten in [!INCLUDE [prod_short](includes/prod_short.md)] arbeiten
 
 In diesem Artikel erlernen Sie einige der Grundlagen zum Anzeigen von Power BI-Berichten in [!INCLUDE [prod_short](includes/prod_short.md)].
 
@@ -65,7 +65,7 @@ Das Verbinden mit Power BI erfolgt auf ähnliche Weise wie bei [!INCLUDE [prod_s
 
 Sobald die Verbindung hergestellt ist, können Sie auf den Seiten einen Bericht aus dem Power BI-Teil auswählen.
 
-## <a name="working-with-power-bi-reports"></a>Mit Power BI-Berichten arbeiten
+## <a name="work-with-power-bi-reports"></a>Mit Power BI-Berichten arbeiten
 
 ### <a name="show-reports-on-list-pages"></a>Berichte auf Listenseiten anzeigen
 
@@ -109,7 +109,7 @@ Um einen vorhandenen Bericht hochzuladen, wählen Sie die Aktion **Bericht hochl
 Nachdem der Bericht in Ihren Power BI-Arbeitsbereich hochgeladen wurde, wird er automatisch in die Power BI-Arbeitsbereiche anderer Benutzer hochgeladen.
 
 > [!NOTE]
-> Zum Hochladen eines Berichts benötigen Sie SUPERUSER-Berechtigungen in [!INCLUDE[prod_short](includes/prod_short.md)]. Außerdem ist das Hochladen von Berichten mit [!INCLUDE [prod_short](includes/prod_short.md)] on-premises nicht möglich. Mit der lokalen Version laden Sie Berichte direkt in Ihren Power BI-Arbeitsbereich hoch. Weitere Informationen finden Sie unter [Arbeiten mit [!INCLUDE [prod_short](includes/prod_short.md)]-Daten in Power BI](across-working-with-business-central-in-powerbi.md).
+> Zum Hochladen eines Berichts benötigen Sie SUPERUSER-Berechtigungen in [!INCLUDE[prod_short](includes/prod_short.md)]. Außerdem ist das Hochladen von Berichten mit [!INCLUDE [prod_short](includes/prod_short.md)] on-premises nicht möglich. Mit der lokalen Version laden Sie Berichte direkt in Ihren Power BI-Arbeitsbereich hoch. Weitere Informationen finden Sie unter [Mit [!INCLUDE [prod_short](includes/prod_short.md)]-Daten in Power BI](across-working-with-business-central-in-powerbi.md) arbeiten.
 
 ## <a name="fixing-problems"></a>Probleme beheben
 
@@ -134,7 +134,7 @@ Vermutlich enthält der Name des Berichts nicht den Namen der Listenseite. Lösc
 [Business Central und Power BI](admin-powerbi.md)  
 [Power BI-Berichte erstellenl zur Anzeige von [!INCLUDE [prod_long](includes/prod_long.md)]-Daten](across-how-use-financials-data-source-powerbi.md)  
 [Übersicht über die Power BI-Integrationskomponente und -Architektur für [!INCLUDE[prod_short](includes/prod_short.md)]](admin-powerbi-overview.md)  
-[Arbeiten mit [!INCLUDE [prod_short](includes/prod_short.md)]-Daten in Power BI](across-working-with-business-central-in-powerbi.md)  
+[Mit [!INCLUDE [prod_short](includes/prod_short.md)]-Daten in Power BI arbeiten](across-working-with-business-central-in-powerbi.md)  
 [Power BI für Verbraucher](/power-bi/consumer/end-user-consumer)  
 [Der „neue Look“ des Power BI Service](/power-bi/service-new-look)  
 [Schnellstart: Stellen Sie eine Verbindung zu Daten her in Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data)  
@@ -143,9 +143,9 @@ Vermutlich enthält der Name des Berichts nicht den Namen der Listenseite. Lösc
 [Vorbereitung für die Geschäftstätigkeit](ui-get-ready-business.md)  
 [Importieren von Geschäftsdaten aus anderen Finanzsystemen](across-import-data-configuration-packages.md)  
 [Einrichten [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
-[Verwenden von [!INCLUDE[prod_short](includes/prod_short.md)] als Power BI-Datenquelle](across-how-use-financials-data-source-powerbi.md)  
-[Verwenden von [!INCLUDE[prod_short](includes/prod_short.md)] als Power Apps-Datenquelle](across-how-use-financials-data-source-powerapps.md)  
-[Verwenden von [!INCLUDE[prod_short](includes/prod_short.md)] in Power Automate](across-how-use-financials-data-source-flow.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] als Power BI-Datenquelle verwenden](across-how-use-financials-data-source-powerbi.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] als Power Apps-Datenquelle verwenden](across-how-use-financials-data-source-powerapps.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] in Power Automate verwenden](across-how-use-financials-data-source-flow.md)  
 
 
 

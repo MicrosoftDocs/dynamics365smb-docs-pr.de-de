@@ -11,12 +11,12 @@ ms.search.form: 283
 ms.reviewer: edupont
 ms.date: 04/01/2021
 ms.author: andreipa
-ms.openlocfilehash: cf990ec5de639054a79e98275be76cb0aed989d1
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 96a4330b880ecfe760c146d4b7ae5778716725ef
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8128791"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513913"
 ---
 # <a name="work-with-recurring-revenue-in-prod_short"></a>Arbeiten mit wiederkehrenden Umsätzen in [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -29,11 +29,11 @@ Bei einem wiederkehrenden Buch.-Blatt handelt es sich um ein Fibu Buch.-Blatt mi
 
 ### <a name="why-use-this-option"></a>Warum sollten Sie diese Option verwenden?
 
-Mit dieser Option definieren Sie flexible Fakturierungsintervalle mit [Datumsformeln](ui-enter-date-ranges.md#using-date-formulas).
+Mit dieser Option definieren Sie flexible Fakturierungsintervalle mit [Datumsformeln](ui-enter-date-ranges.md#use-date-formulas).
 
 Mit dieser Option können Sie in der Standardversion von [!INCLUDE[prod_short](includes/prod_short.md)] jedoch keine Rechnungen drucken und senden.  
 
-Weitere Informationen finden Sie unter [Arbeiten mit wiederkehrenden Buch.-Blättern](ui-work-general-journals.md#working-with-recurring-journals).  
+Weitere Informationen finden Sie unter [Arbeiten mit wiederkehrenden Buch.-Blättern](ui-work-general-journals.md#work-with-recurring-journals).  
 
 ## <a name="create-multiple-invoices-based-on-a-recurring-job-journal"></a>Erstellen mehrerer Rechnungen basierend auf einem wiederkehrenden Projekt-Buch.-Blatt
 
@@ -111,8 +111,8 @@ Unter [AppSource.microsoft.com](https://appsource.microsoft.com/) können Sie Er
 
 ## <a name="see-also"></a>Siehe auch
 
-[Datumsformeln](ui-enter-date-ranges.md#using-date-formulas)  
-[Arbeiten mit wiederkehrenden Buchblättern](ui-work-general-journals.md#working-with-recurring-journals)  
+[Datumsformeln](ui-enter-date-ranges.md#use-date-formulas)  
+[Arbeiten mit wiederkehrenden Buchblättern](ui-work-general-journals.md#work-with-recurring-journals)  
 [Erstellen von Projekt-Buch.-Blattzeilen](projects-how-record-job-usage.md#to-create-job-journal-lines-manually)  
 [Erstellen mehrerer Projektverkaufsrechnungen](projects-how-invoice-jobs.md#to-create-multiple-job-sales-invoices)  
 [Erstellen Sie wiederkehrende Verkaufs- und Einkaufszeilen](sales-how-work-standard-lines.md)  

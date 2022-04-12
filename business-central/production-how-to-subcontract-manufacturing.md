@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: 99000886
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 116c19964bde7cc58a2c90be1f6b9143ceca3af6
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ec85406518757c9ba2b8560e88153dc5c6d899b6
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132732"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515355"
 ---
 # <a name="subcontract-manufacturing"></a>Fertigung durch Fremdarbeitsvertrag
 
@@ -52,7 +52,7 @@ Die Seiten **Fremdarbeitenarbeitsblatt** funktioniert wie die **Planungsarbeitsb
 >  Ein Fertigungsauftrag muss den Status **Freigegeben** haben, damit aus einem Fremdarbeitenarbeitsblatt auf ihn zugegriffen und er dort verwendet werden kann.  
 
 ### <a name="to-calculate-the-subcontracting-worksheet"></a>Fremdarbeitenarbeitsblatt berechnen  
-1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Fremdarbeitenvorschlag** ein, und wählen Sie dann den zugehörigen Link.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Fremdarbeitenvorschlag** ein, und wählen Sie dann den zugehörigen Link.  
 2.  Damit das Arbeitsblatt berechnet wird, klicken Sie auf Aktionen **Fremdarbeit berechnen**.  
 3.  Definieren Sie auf der Seite **Fremdarbeit berechnen** den Filter für an Subunternehmer vergebene Arbeitsgänge oder die Arbeitsplatzgruppen, in der sie ausgeführt werden, um nur die relevanten Fertigungsaufträge zu berechnen.  
 4.  Wählen Sie die Schaltfläche **OK** aus.  
@@ -60,7 +60,7 @@ Die Seiten **Fremdarbeitenarbeitsblatt** funktioniert wie die **Planungsarbeitsb
     Sehen Sie sich die Zeilen auf der Seite **Fremdarbeitenarbeitsblatt** an. Die Informationen in diesem Arbeitsblatt stammen aus dem Fertigungsauftrag und den FA-Arbeitsgängen und werden in die Einkaufsbestellung übernommen, wenn dieser Beleg erstellt wird. Wie bei den anderen Arbeitsblättern auch können Sie eine Zeile aus dem Arbeitsblatt löschen, ohne dass sich dies auf die ursprünglichen Informationen auswirkt. Die Informationen werden wieder angezeigt, wenn Sie die Funktion **Fremdarbeit berechnen** das nächste Mal ausführen.  
 
 ### <a name="to-create-the-subcontract-purchase-order"></a>Einkaufsbestellung für Fremdarbeit generieren  
-1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Fremdarbeitenvorschlag** ein, und wählen Sie dann den zugehörigen Link.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Fremdarbeitenvorschlag** ein, und wählen Sie dann den zugehörigen Link.  
 2.  Wählen Sie die **Ereignismeldung durchführen** Aktion aus.  
 3.  Wählen Sie das Feld **Bestellungen/Aufträge drucken**, um die Einkaufsbestellung zu drucken, wenn diese erstellt wird.  
 4.  Wählen Sie die Schaltfläche **OK** aus.  
@@ -73,7 +73,7 @@ Die Arbeitsblattzeile, die in eine Einkaufsbestellung umgewandelt wurde, wird au
 Sobald die Einkaufsbestellungen für Subunternehmer erstellt wurden, können sie gebucht werden. Nach Empfang der Bestellung wird ein Kapazitätsposten im Fertigungsauftrag gebucht, und bei der Fakturierung der Bestellung wird der EK-Preis der Einkaufsbestellung im Fertigungsauftrag gebucht.  
 
 ## <a name="to-post-a-subcontract-purchase-order"></a>So buchen Sie eine Fremdarbeitsbestellung  
-1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Einkaufsbestellungen** ein, und wählen Sie dann den zugehörigen Link.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Einkaufsbestellungen** ein, und wählen Sie dann den zugehörigen Link.  
 2.  Öffnen Sie eine Einkaufsbestellung, die über den Fremdarbeitenarbeitsblatt erstellt wurde.  
 
     In den Einkaufsbestellungszeilen werden dieselben Informationen angezeigt, die im Arbeitsblatt enthalten waren. Die **Fertigungsauftrag Auftragsnr.**, **Fertigungsauftrag Auftragszeilennr.**, **Arbeitsgangnr.** und **Arbeitsplatzgruppennr.** Felder werden mit den Informationen aus dem ursprünglichen Fertigungsauftrag ausgefüllt.  
@@ -93,7 +93,7 @@ Wenn die Einkaufsbestellung als fakturiert gebucht wird, wird der EK-Preis der E
 [Produktion](production-manage-manufacturing.md)    
 [Produktion einrichten](production-configure-production-processes.md)  
 [Planung](production-planning.md)      
-[Lagerbestand](inventory-manage-inventory.md)  
+[Bestand](inventory-manage-inventory.md)  
 [Einkauf](purchasing-manage-purchasing.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

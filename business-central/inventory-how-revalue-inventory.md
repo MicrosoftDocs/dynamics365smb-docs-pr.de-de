@@ -11,18 +11,18 @@ ms.search.keywords: costing, inventory cost, value entries
 ms.search.forms: 5803,
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4abfe521684fd6e0e4d8d519248919b0628dc1fb
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: edad8dcc23a204f4dcfabfa43a9c83918f63f416
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135932"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511546"
 ---
 # <a name="revalue-inventory"></a>Neubewerten von Lagerbestand
 Wenn Sie den Lagerwert eines Artikels oder den eines bestimmten Artikelpostens nach oben oder unten verändern möchten, müssen Sie das Neubewertungs Buch.-Blatt verwenden.
 
 ## <a name="to-revalue-inventory"></a>Neubewerten von Lagerbestand
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Neubewertungs Buch.-Blatt** ein, und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Neubewertungs Buch.-Blatt** ein, und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie die Aktion **Lagerwert berechnen** aus.
 3. Füllen Sie auf der Seite **Lagerwert berechnen** die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Wählen Sie die Schaltfläche **OK** aus.
@@ -35,7 +35,7 @@ Neue Wertposten werden nun erstellt, um die Neubewertungen abzubilden, die Sie g
 
 ## <a name="see-also"></a>Siehe auch
 [Designdetails: Neubewertung](design-details-revaluation.md)  
-[Lagerbestand](inventory-manage-inventory.md)  
+[Bestand](inventory-manage-inventory.md)  
 [Verkauf](sales-manage-sales.md)  
 [Einkauf](purchasing-manage-purchasing.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

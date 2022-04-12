@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 1100, 1112, 1113, 1122
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 8192a884b697274484be2fba4b9f0cb75ebec5b0
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 9cfb46221098869f41b67c5365f14265b34017c0
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142107"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520334"
 ---
 # <a name="setting-up-cost-accounting"></a>Einrichten der Kostenrechnung
 
@@ -39,7 +39,7 @@ Kostenartenpläne ähneln Kontenpläne im Sachkonto. Sie können den Kostenarten
 
 ### <a name="to-transfer-the-general-ledger-chart-of-accounts-to-the-chart-of-cost-types"></a>So übertragen Sie den Sachkontenplan in den Kostenartenplan.
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"). Symbol. Geben Sie **Kostenartenplan** ein und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten"). Symbol. Geben Sie **Kostenartenplan** ein und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die Aktion **Kostenarten aus K&ontenplan abrufen**. Klicken Sie im Dialogfeld auf die Schaltfläche **Ja**, um die Übertragung zu bestätigen. Die Funktion verwendet den Kontenplan, um einen Kostenartenplan zu erstellen.  
 
     Der Kostenartenplan enthält jetzt alle GuV-Konten im Sachkonto und umfasst Überschriften und Zwischensummen. Sie können den Kostenartenplan ändern, falls erforderlich. Beispielsweise können Sie doppelt vorhandene Kostenarten löschen.  
@@ -108,7 +108,7 @@ Kostenstellen sind Abteilungen, die für die Kosten und die Einnahmen zuständig
 ### <a name="to-transfer-dimension-values-in-the-general-ledger-to-the-chart-of-cost-centers"></a>So transferieren Sie Dimensionswerte im Sachkonto zum Kostenstellenplan
 
 1. Richten Sie eine Dimension als Kostenstellendimension auf der Seite **Kostenstellendimension aktualisieren** ein. Es werden nur die Werte aus dieser Dimension übernommen.  
-2. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet 2.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Kostenstellenplan** ein, und wählen Sie dann den entsprechenden Link.  
+2. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet 2.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Kostenstellenplan** ein, und wählen Sie dann den entsprechenden Link.  
 3. Klicken Sie auf der Registerkarte **Aktionen** in der Gruppe **Funktion** auf **Kostenstellen aus Dimension abrufen**, um Dimensionswerte zum Kostenstellenplan zu übertragen. Die Funktion überträgt die Dimensionswerte, die Sie in Schritt 1 definiert haben.  
 
     > [!NOTE]  
@@ -143,7 +143,7 @@ Kostenträger sind Projekte, Produkte oder Services eines Unternehmens. Der Kost
 
 ### <a name="to-transfer-dimension-values-from-the-general-ledger-to-the-chart-of-cost-objects"></a>So transferieren Sie Dimensionswerte aus dem Sachkonto zum Kostenträgerplan  
 1.  Legen Sie eine Dimension als Kostenträgerdimension auf der Seite **Kostenträger-Dimensionen aktualisieren** fest. Es werden nur die Werte aus dieser Dimension übertragen.  
-2.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet 3.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Diagramm der Kostenträgerpläne** ein und wählen Sie dann den zugehörigen Link.  
+2.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet 3.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Diagramm der Kostenträgerpläne** ein und wählen Sie dann den zugehörigen Link.  
 3.  Wählen Sie die Aktion **Kostenträger aus Dimension abrufen**, um Dimensionswerte zum Kostenträgerplan zu übertragen. Die Funktion überträgt die Dimensionswerte, die Sie in Schritt 1 definiert haben.  
 
     > [!NOTE]  

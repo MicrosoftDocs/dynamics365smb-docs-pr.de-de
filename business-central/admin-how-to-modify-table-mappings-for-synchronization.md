@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize, table mapping
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: dfae531d49166d3a95c841cfc27e7f73e181072d
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: b0d7382cbc831ff856dc8d75bb776fc9f9ee022a
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383137"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515745"
 ---
 # <a name="mapping-the-tables-and-fields-to-synchronize"></a>Zu synchronisierende Tabellen und Felder zuordnen
 
@@ -85,7 +85,7 @@ Beispielsweise verwendet der SALESPEOPLE - Dynamics 365 Sales Synchronisierungsa
 
 2.  Deaktivieren Sie im Tabellenzuordnungseintrag in der Liste das Feld **Nur gekoppelte Datensätze synchronisieren**.  
 
-## <a name="using-configuration-templates-on-table-mappings"></a>Konfigurationsvorlagen für Tabellenzuordnungen verwenden
+## <a name="use-configuration-templates-on-table-mappings"></a>Konfigurationsvorlagen für Tabellenzuordnungen verwenden
 Sie können den Tabellenzuordnungen Konfigurationsvorlagen zur Verwendung für neue Datensätze oder Zeilen zuweisen, die in [!INCLUDE[prod_short](includes/prod_short.md)] oder [!INCLUDE[prod_short](includes/cds_long_md.md)] erstellt werden. Für jede Tabellenzuordnung können Sie eine Konfigurationsvorlage zur Verwendung für neue [!INCLUDE[prod_short](includes/prod_short.md)]-Datensätze und eine andere Vorlage zur Verwendung für neue [!INCLUDE[prod_short](includes/cds_long_md.md)] Zeilen angeben.  
 
 Wenn Sie das Standard-Synchronisationssetup installieren, werden in den meisten Fällen automatisch zwei Konfigurationsvorlagen erstellt und für die Tabellenzuordnung für [!INCLUDE[prod_short](includes/prod_short.md)] Debitoren und [!INCLUDE[crm_md](includes/crm_md.md)] Konten verwendet: **CDSCUST** und **CDSACCOUNT**.  

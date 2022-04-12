@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: solsen
-ms.openlocfilehash: 2694b4489878d7d953d4075eaa5cc740b817d727
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: fd114fab64ac6d3f33db2b281d39c9d7a9fc9a1f
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335215"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513498"
 ---
 # <a name="detecting-mandatory-fields"></a>Pflichtfelder erkennen
 Wenn Sie Daten auf Seiten in  [!INCLUDE[prod_short](includes/prod_short.md)] eingeben, werden bestimmte Felder mit einem roten Sternchen markiert. Das rote Sternchen bedeutet, dass das Feld ausgefüllt werden muss, um einen bestimmten Prozess, der das Feld verwendet, abzuschließen (Beispiel: Buchung einer Transaktion, die den Wert in dem Feld verwendet).
@@ -26,7 +26,7 @@ Auf der Seite **Debitorenkarte** wird im Feld **Name** und in den drei **Buchung
 
 Auf der Seite **Artikelkarte** wird das rote Sternchen auf **Beschreibung** und den Basiseinheitencode Feldern angezeigt, um anzugeben, dass Sie den Artikel in einer Belegzeile (beispielsweise in einem Verkaufsauftrag) nur dann eingeben können, wenn auch diese Felder ausgefüllt werden.
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

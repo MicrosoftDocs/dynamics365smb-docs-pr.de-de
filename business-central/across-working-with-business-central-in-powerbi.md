@@ -9,14 +9,14 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: d8cd59f77230fe7d7593510f0abfc24bf9c29a2a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 67e564271e54c7c6c7f1b141172a537cd2bd6286
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142575"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8510942"
 ---
-# <a name="working-with-prod_short-data-in-power-bi"></a>Arbeiten mit [!INCLUDE [prod_short](includes/prod_short.md)]-Daten in Power BI
+# <a name="work-with-prod_short-data-in-power-bi"></a>Mit [!INCLUDE [prod_short](includes/prod_short.md)]-Daten in Power BI arbeiten
 
 In diesem Artikel erlernen Sie einige der Grundlagen zum Arbeiten mit Berichten und Dashboards in Power BI, die [!INCLUDE [prod_short](includes/prod_short.md)] als Datenquelle verwenden. Der Artikel beschreibt einige Aspekte, die Ihnen den Einstieg als [!INCLUDE[prod_short](includes/prod_short.md)]-Benutzer erleichtern. Allgemeine Richtlinien und Anweisungen zur Verwendung von Power BI finden Sie unter [Power BI-Dokumentation für Verbraucher](/power-bi/consumer).
 
@@ -64,7 +64,7 @@ Weitere Informationen finden Sie unter [Hochladen des Berichts in den Dienst](/p
 > Zum Hochladen eines Berichts benötigen Sie einen Arbeitsbereich in einer [Premium-Kapazität](/power-bi/service-premium-what-is). Weitere Informationen finden Sie unter [Premium-Kapazitäten verwalten](/power-bi/admin/service-premium-capacity-manage). 
 
 > [!TIP]
-> Wenn Sie [!INCLUDE[prod_short](includes/prod_short.md)] online verwenden, können Sie einen Bericht auch aus [!INCLUDE[prod_short](includes/prod_short.md)] hochladen. Weitere Informationen finden Sie unter [Arbeiten mit Power BI-Berichten in [!INCLUDE [prod_short](includes/prod_short.md)] – Berichte hochladen](across-working-with-powerbi.md#upload).
+> Wenn Sie [!INCLUDE[prod_short](includes/prod_short.md)] online verwenden, können Sie einen Bericht auch aus [!INCLUDE[prod_short](includes/prod_short.md)] hochladen. Weitere Informationen finden Sie unter [Mit Power BI-Berichten in [!INCLUDE [prod_short](includes/prod_short.md)] arbeiten – Berichte hochladen](across-working-with-powerbi.md#upload).
 
 ## <a name="share-reports-with-others"></a><a name="share"></a>Berichte mit anderen teilen
 
@@ -82,7 +82,7 @@ Um einen Bericht zu teilen, wählen Sie in einer Liste mit Berichten oder in ein
 [Business Central und Power BI](admin-powerbi.md)  
 [Power BI-Berichte erstellenl zur Anzeige von [!INCLUDE [prod_long](includes/prod_long.md)]-Daten](across-how-use-financials-data-source-powerbi.md)  
 [Übersicht über die Power BI-Integrationskomponente und -Architektur für [!INCLUDE[prod_short](includes/prod_short.md)]](admin-powerbi-overview.md)  
-[Arbeiten mit Power BI-Berichten in [!INCLUDE [prod_short](includes/prod_short.md)]](across-working-with-powerbi.md)  
+[Mit Power BI-Berichten in [!INCLUDE [prod_short](includes/prod_short.md)] arbeiten](across-working-with-powerbi.md)  
 [Power BI für Verbraucher](/power-bi/consumer/end-user-consumer)  
 [Der „neue Look“ des Power BI Service](/power-bi/service-new-look)  
 [Schnellstart: Stellen Sie eine Verbindung zu Daten her in Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data)  
@@ -91,9 +91,9 @@ Um einen Bericht zu teilen, wählen Sie in einer Liste mit Berichten oder in ein
 [Vorbereitung für die Geschäftstätigkeit](ui-get-ready-business.md)  
 [Importieren von Geschäftsdaten aus anderen Finanzsystemen](across-import-data-configuration-packages.md)  
 [Einrichten [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
-[Verwenden von [!INCLUDE[prod_short](includes/prod_short.md)] als Power BI-Datenquelle](across-how-use-financials-data-source-powerbi.md)  
-[Verwenden von [!INCLUDE[prod_short](includes/prod_short.md)] als Power Apps-Datenquelle](across-how-use-financials-data-source-powerapps.md)  
-[Verwenden von [!INCLUDE[prod_short](includes/prod_short.md)] in Power Automate](across-how-use-financials-data-source-flow.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] als Power BI-Datenquelle verwenden](across-how-use-financials-data-source-powerbi.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] als Power Apps-Datenquelle verwenden](across-how-use-financials-data-source-powerapps.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] in Power Automate verwenden](across-how-use-financials-data-source-flow.md)  
 
 
 

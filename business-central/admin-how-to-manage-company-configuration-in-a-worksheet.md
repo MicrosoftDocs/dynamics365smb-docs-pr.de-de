@@ -1,22 +1,24 @@
 ---
-title: Wie Sie die Konfiguration einer Firma in einem Arbeitsblatt verwalten
-description: Das Konfigurationsarbeitsblatt ist der zentrale Lagerort, an dem Sie die Konfiguration Ihrer Firma planen, verfolgen und durchführen können.
+title: So verwalten Sie eine Mandantenkonfiguration in einem Arbeitsblatt
+description: Wenn Sie RapidStart Services verwenden, ist das Konfigurationsarbeitsblatt der zentrale Ort, an dem Sie die Konfiguration Ihrer Firma planen, verfolgen und durchführen können.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 8632
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 23a999ab500512a4aaed2aaab7e205629b5954b7
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: c678d48b202043110627a2c8b29ae12be045d38d
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141359"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514200"
 ---
-# <a name="manage-company-configuration-in-a-worksheet"></a>So verwalten Sie eine Mandantenkonfiguration in einem Arbeitsblatt
+# <a name="manage-company-configuration-in-a-worksheet-with-rapidstart-services"></a>Mandantenkonfiguration in einem Arbeitsblatt mit RapidStart Services verwalten
+
 Das Konfigurationsarbeitsblatt ist die zentrale Stelle, an der Sie Ihre Konfigurationsarbeit planen, nachverfolgen und ausführen können. Sie können ein Arbeitsblatt für jeden Mandanten erstellen, mit dem Sie arbeiten, oder ein Standardkonfigurationsarbeitsblatt erstellen, das für die Konfiguration von mehreren identischen Mandanten verwendet werden kann.  
 
 Der erste Schritt zum Vorbereiten eines Konfigurationspakets ist es, einen Mandanten auszuwählen, den Sie bereits eingerichtet und in Hinblick auf die meisten Ihrer Lösungsanforderungen geändert haben. Dieser Mandant dient als Grundlage für Ihre Konfigurationsarbeit mit neuen Mandanten. Im Arbeitsblatt können Sie die Tabellen festlegen, die die Konfiguration steuern und verarbeiten soll. Da die meisten Tabellen in [!INCLUDE[prod_short](includes/prod_short.md)] Beziehungen und Abhängigkeiten zu anderen Tabellen haben, sollten Sie diese zugehörigen Tabelle auch nach Bedarf einschließen. Zusammen dienen diese Tabellen dann als die Struktur, um die herum Sie einen neuen Mandanten erstellen. Folgende Schritte unterstützen Sie dabei, die Konfiguration zu verpacken und bereitzustelllen.  
@@ -25,9 +27,10 @@ Um Ihnen bei der Nachverfolgung und Überprüfung Ihrer Arbeit zu helfen, verwen
 
 Die folgenden Verfahren zeigen, wie Tabelleninformationen für die Konfiguration angepasst und addiert werden.  
 
-## <a name="to-open-the-configuration-worksheet"></a>So öffnen Sie das Konfigurationsarbeitsblatt  
-1.  Öffnen Sie in [!INCLUDE[prod_short](includes/prod_short.md)] den Mandanten, der die Grundlage für die Konfiguration ist, und öffnen Sie dann sein RapidStart Services-Implementierungs-Rollencenter.  
-2.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Konfigurationsarbeitsblatt** ein, und wählen Sie dann den entsprechenden Link.  
+## <a name="to-open-the-configuration-worksheet"></a>So öffnen Sie das Konfigurationsarbeitsblatt
+
+1.  Öffnen Sie den Mandanten, der die Grundlage für die Konfiguration bildet, in [!INCLUDE[prod_short](includes/prod_short.md)].  
+2.  Wählen Sie das Symbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Konfigurationsarbeitsblatt** ein, und wählen Sie dann den entsprechenden Link.  
 
 ## <a name="to-add-a-table-to-the-worksheet"></a>So fügen Sie dem Arbeitsblatt eine Tabelle hinzu  
 1.  Auf der Seite **Config. Arbeitsblatt** wählen Sie die **Liste bearbeiten** Aktion aus.  
@@ -40,9 +43,9 @@ Die folgenden Verfahren zeigen, wie Tabelleninformationen für die Konfiguration
     > [!NOTE]  
     > Zugehörige Tabellen werden nicht mit der Aktion **Zugehörige Tabellen abrufen** hinzugefügt, wenn Folgendes zutrifft:
     > - Die Beziehung ist bedingt.  
-    > Beispiel: Wenn Sie zugehörige Tabellen für Tabelle **Debitor** erhalten, dann wird die Tabelle **Lagerort** nicht hinzugefügt, da sie nur bedingt mit der Tabelle **Debitor** verknüpft ist, und zwar, wenn das Feld **Lagerortcode** in Tabelle **Debitor** ausgefüllt ist.  
+    >     Beispiel: Wenn Sie zugehörige Tabellen für Tabelle **Debitor** erhalten, dann wird die Tabelle **Lagerort** nicht hinzugefügt, da sie nur bedingt mit der Tabelle **Debitor** verknüpft ist, und zwar, wenn das Feld **Lagerortcode** in Tabelle **Debitor** ausgefüllt ist.  
     > - Die verknüpfte Tabelle wird gefiltert.  
-    > Beispiel: Ein Feld in der zugehörigen Tabelle hat eine WHERE-Klausel. Der Grund dafür ist, dass die entsprechenden Beziehungsinformationen in der Systemtabelle **Feld** gespeichert werden, die nicht vollständig für die Anwendung zugänglich ist.  
+    >     Beispiel: Ein Feld in der zugehörigen Tabelle hat eine WHERE-Klausel. Der Grund dafür ist, dass die entsprechenden Beziehungsinformationen in der Systemtabelle **Feld** gespeichert werden, die nicht vollständig für die Anwendung zugänglich ist.  
     > Sie müssen solche Areten von Tabellen manuell hinzufügen, indem Sie Schritt 4 in diesem Verfahren befolgen.  
 
 8.  Um die resultierende Liste von Tabellen zu ändern, wählen Sie eine Tabelle aus, die Sie entfernen möchten, und wählen Sie auf der Registerkarte Start die Option **Löschen** aus.  

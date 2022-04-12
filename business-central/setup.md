@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: configure, initialize
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 38aaf6b77defd6afcc9cbe2bda7b56d71c139699
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 10b9483d46caa9fff156a80f5301521ae9c36d63
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8128636"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8510765"
 ---
 # <a name="overview-of-tasks-to-set-up-prod_short"></a>Überblick der Aufgaben zum Einrichten von [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -45,9 +45,9 @@ Einige Funktionen, sowohl allgemeine als auch solche für bestimmte Geschäftsvo
 |Lesen Sie die besten Verfahren für Artikel für Lagerkostenberechnung und -Beschaffungsplanung.|[Einrichten komplexer Anwendungsbereiche mithilfe bewährter Methoden](set-up-complex-application-areas-using-best-practices.md)|
 |Verbessern Sie die Qualität der Implementierung und verkürzen Sie die Bereitstellungszeit, indem Sie ein Toolset zur Einrichtung eines neuen Mandanten mit Assistenten, Vorlagen, Arbeitsblättern und Fragebögen verwenden.|[Mandanten mit RapidStart Services einrichten](admin-set-up-a-company-with-rapidstart.md)|
 |Übertragen Sie Debitoren, Kreditoren, Lagerbestände und Bankkontoinformationen aus einer anderen Anwendung zu [!INCLUDE[prod_short](includes/prod_short.md)]|[Geschäftsdaten aus anderen Finanzsystemen importieren](across-import-data-configuration-packages.md).|
-|Mit dem Business Central Outlook-Add-In können Sie die Finanzdaten sehen, die mit den Debitoren und Kreditoren verknüpft sind, oder Finanzbelege wie beispielsweise Angebote und Rechnungen erstellen und versenden.|[Nutzen Sie Business Central als Ihr Unternehmenspostfach in Outlook](admin-outlook.md)|
+|Mit dem Business Central Outlook-Add-In können Sie die Finanzdaten sehen, die mit den Debitoren und Kreditoren verknüpft sind, oder Finanzbelege wie beispielsweise Angebote und Rechnungen erstellen und versenden.|[Business Central als Posteingang für Ihr Unternehmen in Outlook verwenden](admin-outlook.md)|
 |Erhalten Sie Einblicke in Ihre Business Central-Daten mit Power BI und Business Central-Inhaltspaketen.|[Aktivieren Sie Ihre Geschäftsdaten für Power BI](admin-powerbi.md)|
-|Verwenden Sie Ihre Business Central-Daten als Teil eines Workflows in Power Automate.|[Business Central in einem automatisierten Workflow nutzen](across-how-use-financials-data-source-flow.md)|
+|Verwenden Sie Ihre Business Central-Daten als Teil eines Workflows in Power Automate.|[Business Central in einem automatisierten Workflow verwenden](across-how-use-financials-data-source-flow.md)|
 |Sie können die Business Central-Daten als Datenquelle in Power Apps bereitstellen.|[Verknüpfung mit Business Central daten, um eine Geschäfts-App mithilfe von Power Apps zu erstellen](across-how-use-financials-data-source-powerapps.md)|
 |Verwenden Sie dedizierte QuickBooks-Migrationshandbücher.|[Von QuickBooks-App zu Business Central wechseln](across-quickbooks-to-business-edition.md)|
 |Greifen Sie von Ihrem mobilen Gerät auf Business Central-Daten zu.|[Abrufen von Business Central auf meinem mobilen Gerät](install-mobile-app.md)|
@@ -61,13 +61,14 @@ Einige Bereiche erfordern, dass Sie ein Administrator Ihres Abonnement [!INCLUDE
 > [!NOTE]
 > Als Administrator können Sie in [!INCLUDE[prod_short](includes/prod_short.md)] mit RapidStart Services ein neues Unternehmen einrichten. Dieses Tool wurde entwickelt, um die Bereitstellungszeiten zu verkürzen, die Qualität der Implementierung zu verbessern, einen wiederholbaren Ansatz für Implementierungen einzuführen und die Produktivität durch Automatisierung und Vereinfachung wiederkehrender Aufgaben zu steigern. Weitere Informationen finden Sie unter [Mandanten einrichten mit RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
+[Unternehmensdatenübersicht](admin-company-information.md)  
 [Verwaltung](admin-setup-and-administration.md)  
 [Finanzen](finance.md)  
 [Verkauf](sales-manage-sales.md)  
 [Einkauf](purchasing-manage-purchasing.md)  
-[Lagerbestand](inventory-manage-inventory.md)  
+[Bestand](inventory-manage-inventory.md)  
 [Projektmanagement](projects-manage-projects.md)  
 [Anlagen](fa-manage.md)  
 [Montageverwaltung](assembly-assemble-items.md)  

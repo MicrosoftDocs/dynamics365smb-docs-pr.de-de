@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 1115, 1116, 1117, 1118, 1119, 1120, 1121, 1131, 1132, 1133
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: d64704caee7c808cd2197adf2994a7b1abb4ea7f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 56757c07ae0bbc41ae2ac9fad6bc3318a1d0ab93
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145680"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520412"
 ---
 # <a name="creating-cost-budgets"></a>Erstellen von Kostenbudgets
 
@@ -22,7 +22,7 @@ Die Kalkulation in der Kostenrechnung ähnelt der Kalkulation im Hauptbuch. Ein 
 
 Ein Kostenbudget wird für eine bestimmten Zeitraum erstellt, zum Beispiel für ein Geschäftsjahr. Sie können beliebig viele Kostenbudgets erstellen. Sie können ein neues Kostenbudget manuell erstellen, indem Sie ein Kostenbudget importieren oder indem Sie ein vorhandenes Kostenbudget als Budgetbasis kopieren. Weitere Informationen finden Sie unter [Sachkonto-Budgets erstellen](finance-how-create-budgets.md).
 
-Sie verwenden die folgenden Seiten, um Kostenbudgets zu erstellen und zu analysieren. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol, um eine Seite zu finden, und lesen Sie dann den Tooltip für jede Seite.
+Sie verwenden die folgenden Seiten, um Kostenbudgets zu erstellen und zu analysieren. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol, um eine Seite zu finden, und lesen Sie dann den Tooltip für jede Seite.
 
 |Aktion|Siehe|  
 |--------|---------|  

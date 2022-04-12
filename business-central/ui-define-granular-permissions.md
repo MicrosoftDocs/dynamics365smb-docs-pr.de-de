@@ -7,39 +7,103 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.search.form: 1, 119, 9807, 9808, 9830, 9831
-ms.date: 06/23/2021
+ms.search.form: 1, 119, 8930, 9807, 9808, 9830, 9831
+ms.date: 03/24/2022
 ms.author: edupont
-ms.openlocfilehash: c0dedf8ba397bb1a50f81de0435abf5e4e726404
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ca0373fc55fb14d43dae9ce5bc51c0063c88a2af
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146124"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522512"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Zuweisen von Berechtigungen zu Benutzern und Gruppen
 
-Mit dem Sicherheitssystem [!INCLUDE[prod_short](includes/prod_short.md)] können Sie steuern, auf welche Objekte ein Benutzer innerhalb jeder Datenbank oder Umgebung zugreifen darf. Sie können für jeden Benutzer festlegen, ob er Daten in den ausgewählten Datenbankobjekten lesen, ändern oder eingeben darf. Detaillierte Informationen finden Sie unter [Datensicherheit](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level) in der Hilfe für Entwickler und ITPro für [!INCLUDE[prod_short](includes/prod_short.md)].
+Administratoren verwenden das [!INCLUDE[prod_short](includes/prod_short.md)]-Sicherheitssystem, um zu steuern, auf welche Objekte ein Benutzer in jeder Datenbank oder Umgebung in Kombination mit den zugewiesenen Lizenzen zugreifen kann. Sie können für jeden Benutzer festlegen, ob er Daten in den ausgewählten Datenbankobjekten lesen, ändern oder eingeben darf. Detaillierte Informationen finden Sie unter [Datensicherheit](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level) in der Hilfe für Entwickler und Verwaltungsinhalt für [!INCLUDE[prod_short](includes/prod_short.md)].
 
 Bevor Sie Benutzern und Benutzergruppen Berechtigungen zuweisen, müssen Sie festlegen, wer sich anmelden kann, indem Sie Benutzer entsprechend der im Microsoft 365 Admin Center definierten Lizenz anlegen. Weitere Informationen finden Sie unter [Benutzer nach Lizenzen anlegen](ui-how-users-permissions.md).
 
 In [!INCLUDE[prod_short](includes/prod_short.md)] gibt es zwei Ebenen von Berechtigungen für Datenbankobjekte:
 
 - Gesamt-Berechtigungen gemäß der Lizenz, auch als Berechtigung bezeichnet.
-- Detailliertere Berechtigungen, wie sie innerhalb von [!INCLUDE[prod_short](includes/prod_short.md)] vergeben werden.
 
-Um die Verwaltung von Berechtigungen für mehrere Benutzer zu erleichtern, können Sie diese in Benutzergruppen organisieren und so ein Berechtigungsset für mehrere Benutzer in einer Aktion zuordnen oder ändern. Weitere Informationen finden Sie unter [Berechtigungen über Benutzergruppen verwalten](ui-define-granular-permissions.md#to-manage-permissions-through-user-groups).
+  Die Lizenzen enthalten Standardberechtigungssätze. Ab dem 1. Veröffentlichungszyklus 2022 können Administratoren diese Standardberechtigungen für die relevanten Lizenztypen anpassen. Weitere Informationen finden Sie unter [Berechtigungen basierend auf Lizenzen konfigurieren](ui-how-users-permissions.md#licensespermissions).  
+- Detailliertere Berechtigungen, die innerhalb von [!INCLUDE[prod_short](includes/prod_short.md)] vergeben werden.
+
+  Dieser Artikel beschreibt, wie Sie in [!INCLUDE [prod_short](includes/prod_short.md)] Berechtigungen definieren, verwenden und anwenden können, um die Standardkonfiguration zu ändern.  
+
+[!INCLUDE [prod_short](includes/prod_short.md)]-Online enthält Standardbenutzergruppen, die Benutzern automatisch basierend auf ihrer Lizenz zugewiesen werden. Sie können die Standardkonfiguration ändern, indem Sie Benutzergruppen, Berechtigungssätze und Berechtigungen ändern oder hinzufügen. In der folgenden Tabelle sind wichtige Szenarien zum Ändern der Standardberechtigungen aufgeführt.  
+
+|Aktion  |Siehe  |
+|---------|---------|
+|Um die Verwaltung von Berechtigungen für mehrere Benutzer zu erleichtern, können Sie diese in Benutzergruppen organisieren und so ein Berechtigungsset für mehrere Benutzer in einer Aktion zuordnen oder ändern.| [So verwalten Sie Berechtigungen über Benutzergruppen](#to-manage-permissions-through-user-groups) |
+|So verwalten Sie Berechtigungssätze für bestimmte Benutzer | [So weisen Sie Benutzern Berechtigungen zu](#to-assign-permission-sets-to-users) |
+|So erfahren Sie, wie Sie einen Berechtigungssatz definieren|[So erstellen oder ändern Sie einen Berechtigungssatz](#to-create-or-modify-a-permission-set)|
+|So verwalten Sie bestimmte Berechtigungen|[So erstellen oder ändern Sie Berechtigungen manuell](#to-create-or-modify-permissions-manually)|
+|So zeigen Sie Berechtigungen eines Benutzers an oder bearbeiten sie|[So erhalten Sie eine Übersicht der Benutzerberechtigungen](#to-get-an-overview-of-a-users-permissions)|
+|So erfahren Sie mehr über Sicherheit auf Rekordniveau|[Sicherheitsfilter beschränken den Zugriff eines Benutzers auf bestimmte Datensätze in einer Tabelle](#security-filters-limit-a-users-access-to-specific-records-in-a-table)|
 
 > [!NOTE]
-> Eine weitere Methode, um zu definieren, auf welche Funktionen ein Benutzer Zugriff hat, ist das Setzen des Feldes **Erfahrung** auf der Seite **Unternehmensinformationen**. Weitere Informationen finden Sie unter [Ändern Sie, welche Funktionen angezeigt werden](ui-experiences.md).
+> Eine weitere Methode, um zu definieren, auf welche Funktionen Benutzer Zugriff haben, ist das Setzen des Feldes **Erfahrung** auf der Seite **Unternehmensinformationen**. Weitere Informationen finden Sie unter [Ändern Sie, welche Funktionen angezeigt werden](ui-experiences.md).
 >
 > Sie können auch definieren, was Benutzer auf der Benutzeroberfläche sehen und wie sie mit ihrer zulässigen Funktionalität über Seiten interagieren. Dies geschieht über Profile, die Sie verschiedenen Arten von Benutzern entsprechend ihrer Jobrolle oder Abteilung zuordnen. Weitere Informationen finden Sie unter [Verwalten von Profilen](admin-users-profiles-roles.md) und [[!INCLUDE[prod_short](includes/prod_short.md)] anpassen](ui-customizing-overview.md).
 
+## <a name="to-manage-permissions-through-user-groups"></a>So verwalten Sie Berechtigungen über Benutzergruppen
+
+Benutzergruppen helfen Ihnen bei der Verwaltung von Berechtigungssätzen im gesamten Unternehmen. [!INCLUDE [prod_short](includes/prod_short.md)]-Online enthält Standardbenutzergruppen, die Benutzern automatisch basierend auf ihrer Lizenz zugewiesen werden. Sie können Benutzer manuell zu einer Benutzergruppe hinzufügen und neue Benutzergruppen als Kopien vorhandener Gruppen erstellen.  
+
+Sie beginnen mit der Erstellung einer Benutzergruppe. Anschließend ordnen Sie der Gruppe Berechtigungen zu, um festzulegen, auf welche Objekte die Benutzer der Gruppe zugreifen können. Wenn Sie einen Benutzer zur Gruppe hinzufügen, gelten die für die Gruppe definierten Berechtigungssätze für den Benutzer.
+
+Berechtigungssätze, die einem Benutzer über eine Benutzergruppe zugewiesen wurden, bleiben synchronisiert, so dass eine Änderung der Berechtigungen der Benutzergruppe automatisch an den Benutzer weitergegeben wird. Wenn Sie einen Benutzer aus einer Benutzergruppe entfernen, werden die entsprechenden Berechtigungen automatisch entzogen.
+
+### <a name="to-add-users-to-a-user-group"></a>So fügen Sie einer Benutzergruppe Benutzer hinzu
+
+Die folgende Vorgehensweise erläutert, wie Sie Benutzergruppen manuell anlegen. Informationen zum automatischen Erstellen von Benutzergruppen finden Sie unter [Eine Benutzergruppe und alle ihre Berechtigungen kopieren](#to-copy-a-user-group-and-all-its-permission-sets).
+
+1. Wählen Sie das Symbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Benutzergruppen** ein und wählen Sie dann den zugehörigen Link.
+
+    1. Wählen Sie alternativ auf der Seite **Benutzer** die Aktion **Benutzergruppen** aus.
+2. Wählen Sie auf der Seite **Benutzergruppen** die Aktion **Benutzergruppenmitglieder** aus.
+3. Wählen Sie auf der Seite **Benutzergruppenmitglieder** die Aktion **Benutzer hinzufügen** aus.
+
+### <a name="to-copy-a-user-group-and-all-its-permission-sets"></a>So kopieren Sie eine Benutzergruppe und all seine Zugriffsrechtsätze
+
+Zur schnellen Definition einer neuen Benutzergruppe können Sie eine Funktion verwenden, um alle Berechtigungssätze einer vorhandenen Benutzergruppe zur neuen Benutzergruppe zu kopieren.
+
+> [!NOTE]
+> Die Mitglieder der Benutzergruppe werden nicht in die neue Benutzergruppe kopiert. Sie müssen sie hinterher manuell hinzufügen. Weitere Informationen finden Sie im Abschnitt [So fügen Sie Benutzer einer Benutzergruppe hinzu](#to-add-users-to-a-user-group).
+
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Benutzergruppen** ein und wählen Sie dann den zugehörigen Link.
+2. Wählen Sie die Benutzergruppe aus, die Sie kopieren möchten, und wählen Sie **Benutzergruppe kopieren** aus.
+3. Im Feld **Neuer Benutzergruppencode** geben Sie einen Namen für die Gruppe an. Wählen Sie dann die Schaltfläche **OK** aus.
+
+Die neue Benutzergruppe wird die Seite **Benutzergruppen** hinzugefügt. Fahren Sie fort, um Benutzer hinzuzufügen. Weitere Informationen finden Sie im Abschnitt [So fügen Sie Benutzer einer Benutzergruppe hinzu](#to-add-users-to-a-user-group).  
+
+### <a name="to-assign-permission-sets-to-user-groups"></a>So weisen Sie Berechtigungssätze Benutzergruppen zu
+
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Benutzergruppen** ein und wählen Sie dann den zugehörigen Link.
+2. Wählen Sie die Benutzergruppe aus, der Sie die Berechtigung zuweisen möchten.  
+
+    Zugriffsrechtsätze, die dem Benutzer bereits zugewiesen sind, werden im Bereich **Benutzerzugriffsrechtsätze** angezeigt.
+3. Wählen Sie die Aktion **Benutzerrechtesätze**, um die Seite **Benutzerrechtesätze** zu öffnen.
+4. Füllen Sie auf der Seite **Benutzerberechtigungen** in einer neuen Zeile die Felder nach Bedarf aus.
+
+### <a name="to-assign-a-permission-set-on-the-permission-set-by-user-group-page"></a>So weisen Sie ein Berechtigungsset auf der Seite **Berechtigung festgelegt nach Benutzergruppe** zu
+
+Die folgende Vorgehensweise erläutert, wie Sie Berechtigungssätze einer Benutzergruppe auf der Seite **Berechtigungen nach Benutzergruppe** zuordnen.
+
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Benutzer** ein, und wählen Sie dann den entsprechenden Link.
+2. Wählen Sie auf der Seite **Benutzer** den entsprechenden Benutzer aus und wählen Sie dann die Aktion **Berechtigung festgelegt durch Benutzergruppe**.
+3. Aktivieren Sie auf der Seite **Berechtigung festgelegt durch Benutzergruppe** das Kontrollkästchen **[Name der Benutzergruppe]** in einer Zeile für die entsprechende Berechtigung, um die Gruppe der Benutzergruppe zuzuordnen.
+4. Aktivieren Sie das Kontrollkästchen **Alle Benutzergruppen**, um die Berechtigung allen Benutzergruppen zuzuordnen.
+
+Sie können einem Benutzer Berechtigungsgruppen zudem direkt zuweisen.
+
 ## <a name="to-assign-permission-sets-to-users"></a>So weisen Sie Benutzern Berechtigungen zu
 
-Ein Berechtigungssatz ist eine Sammlung von Berechtigungen für bestimmte Datenbankobjekte. Allen Benutzern muss mindestens ein Berechtigungssatz zugeordnet werden, bevor sie auf [!INCLUDE[prod_short](includes/prod_short.md)] zugreifen können.
+Ein Berechtigungssatz ist eine Sammlung von Berechtigungen für bestimmte Datenbankobjekte. Allen Benutzern muss mindestens ein Berechtigungssatz zugeordnet werden, bevor sie auf [!INCLUDE[prod_short](includes/prod_short.md)] zugreifen können. 
 
-Eine [!INCLUDE[prod_short](includes/prod_short.md)]-Lösung enthält eine Reihe von vordefinierten Berechtigungen, die von Microsoft oder Ihrem Lösungsanbieter hinzugefügt werden. Sie können auch neue Berechtigungen hinzufügen, die auf die Bedürfnisse Ihres Unternehmens zugeschnitten sind. Weitere Informationen finden Sie unter [Erstellen und Bearbeiten von Berechtigungssätzen](ui-define-granular-permissions.md#to-create-or-modify-a-permission-set).
+Eine [!INCLUDE[prod_short](includes/prod_short.md)]-Lösung enthält eine Reihe von vordefinierten Berechtigungen, die von Microsoft oder Ihrem Lösungsanbieter hinzugefügt werden. Sie können auch neue Berechtigungen hinzufügen, die auf die Bedürfnisse Ihres Unternehmens zugeschnitten sind. Weitere Informationen finden Sie im Abschnitt [So erstellen Sie Berechtigungssätze oder bearbeiten Sie](#to-create-or-modify-a-permission-set).
 
 > [!NOTE]
 > Wenn Sie den Zugriff eines Benutzers nicht mehr einschränken möchten, als in der Lizenz bereits definiert ist, können Sie dem Benutzer eine spezielle Berechtigung namens SUPER zuweisen. Diese Berechtigung stellt sicher, dass der Benutzer auf alle in der Lizenz angegebenen Objekte zugreifen kann.
@@ -62,9 +126,10 @@ Zugriffsrechtsätze, die dem Benutzer bereits zugewiesen sind, werden im Bereich
 ### <a name="to-assign-a-permission-set-on-the-permission-set-by-user-page"></a>Zuweisen eines Berechtigungssatzes auf der Seite Benutzerberechtigungssatz nach Benutzer
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Benutzer** ein, und wählen Sie dann den entsprechenden Link.
-2. Wählen Sie auf der Seite **Benutzer** den gewünschten Benutzer aus, und wählen Sie die Aktion **Benutzerberechtigungssatz nach Benutzer** aus.
+2. Wählen Sie auf der Seite **Benutzer** die Aktion **Berechtigungssatz nach Benutzer** aus.
 3. Auf der Seite **Benutzerberechtigungssatz nach Benutzer** wählen Sie das Kontrollkästchen **[Benutzername]** in einer Zeile für den relevanten Berechtigungssatz aus, um den Satz einem Benutzer zuzuweisen.
-4. Wählen Sie das Kontrollkästchen **Alle Benutzer** aus, um dem Berechtigungssatz allen Anwender zuzuweisen.
+
+    Wählen Sie das Kontrollkästchen **Alle Benutzer** aus, um dem Berechtigungssatz allen Anwender zuzuweisen.
 
 ## <a name="to-get-an-overview-of-a-users-permissions"></a>So erhalten Sie eine Übersicht der Benutzerberechtigungen
 
@@ -91,6 +156,11 @@ Zugriffsrechtsätze, die dem Benutzer bereits zugewiesen sind, werden im Bereich
 
 > [!NOTE]  
 > Wenn Sie einen Berechtigungssatz bearbeiten, gelten die Änderungen auch für andere Benutzer, denen der Berechtigungssatz zugewiesen wurde.
+
+### <a name="security-filters-limit-a-users-access-to-specific-records-in-a-table"></a>Sicherheitsfilter beschränken den Zugriff eines Benutzers auf bestimmte Datensätze in einer Tabelle
+
+Verwenden Sie für Sicherheit auf Datensatzebene in [!INCLUDE[prod_short](includes/prod_short.md)] Sicherheitsfilter, um den Benutzerzugriff auf Daten in einer Tabelle einzuschränken. Sie erstellen Sicherheitsfilter für Tabellendaten. Ein Sicherheitsfilter beschreibt einen Satz Datensätze in einer Tabelle, worauf ein Benutzer zugreifen darf. Sie können z. B. angeben, dass ein Benutzer nur die Daten lesen kann, die Informationen über einen bestimmten Debitor enthalten. Das bedeutet, dass der Benutzer nicht auf die Daten zugreifen kann, die Informationen zu anderen Debitoren enthalten. Weitere Informationen finden Sie unter [Verwenden von Sicherheitsfiltern](/dynamics365/business-central/dev-itpro/security/security-filters) im Verwaltungsinhalt.
+
 
 ## <a name="to-create-or-modify-a-permission-set"></a>Um ein Berechtigungssatz zu erstellen oder zu ändern
 
@@ -172,68 +242,18 @@ Jedoch muss der Anwender keinen vollen Zugriff auf die Tabelle Verkaufszeile hab
 ## <a name="to-create-or-modify-permissions-by-recording-your-actions"></a>So erstellen oder ändern Sie Berechtigungen, indem Sie Ihre Aktionen aufzeichnen
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Befugnissätze** ein und wählen Sie dann den entsprechenden Link.
-2. Wählen Sie alternativ auf der Seite **Benutzer** die Aktion **Berechtigungssätze** aus.
-3. Wählen Sie auf der Seite **Benutzer** die Aktion **Neu** aus.
-4. Füllen Sie die Felder in einer neuen Zeile wie erforderlich aus.
-5. Wählen Sie die Aktion **Berechtigungen** aus.
-6. Auf der Seite **Berechtigungen** wählen Sie die Aktion **Berechtigungen aufzeichnen** aus, und wählen Sie dann die Aktion **Starten** aus.
+
+    Wählen Sie alternativ auf der Seite **Benutzer** die Aktion **Berechtigungssätze** aus.
+2. Wählen Sie auf der Seite **Benutzer** die Aktion **Neu** aus.
+3. Füllen Sie die Felder in einer neuen Zeile wie erforderlich aus.
+4. Wählen Sie die Aktion **Berechtigungen** aus.
+5. Auf der Seite **Berechtigungen** wählen Sie die Aktion **Berechtigungen aufzeichnen** aus, und wählen Sie dann die Aktion **Starten** aus.
 
     Damit wird ein Aufnahmeprozesses gestartet, der alle Ihre Aktionen in der Benutzeroberfläche erfasst.
-7. Wechseln Sie zu den verschiedenen Seiten und Aktivitäten in [!INCLUDE[prod_short](includes/prod_short.md)] für die Benutzer mit diesem Berechtigungssatz, die darauf zugreifen sollen. Sie müssen die Aufgaben ausführen, für die Sie Berechtigungen erfassen möchten.
-8. Wenn Sie die Erfassung abschließen möchten, kehren Sie zur Seite **Berechtigungen** zurück, und wählen Sie die **Beenden** Aktion aus.
-9. Wählen Sie die Schaltfläche **Ja**, um die erfassten Berechtigungen dem neuen Berechtigungssatz zuzuordnen.
-10. Für jedes Objekt in der erfassten Liste geben Sie an, ob Benutzer in der Lage sind, Datensätze in den erfassen Tabellen einzufügen, zu ändern oder zu löschen.
-
-## <a name="security-filters---to-limit-a-users-access-to-specific-records-in-a-table"></a>Sicherheitsfilter - So beschränken Sie den Zugriff eines Benutzers auf bestimmte Datensätze in einer Tabelle
-
-Verwenden Sie für Sicherheit auf Datensatzebene in [!INCLUDE[prod_short](includes/prod_short.md)] Sicherheitsfilter, um den Benutzerzugriff auf Daten in einer Tabelle einzuschränken. Sie erstellen Sicherheitsfilter für Tabellendaten. Ein Sicherheitsfilter beschreibt einen Satz Datensätze in einer Tabelle, worauf ein Benutzer zugreifen darf. Sie können z. B. angeben, dass ein Benutzer nur die Daten lesen kann, die Informationen über einen bestimmten Debitor enthalten. Das bedeutet, dass der Benutzer nicht auf die Daten zugreifen kann, die Informationen zu anderen Debitoren enthalten. Weitere Informationen finden Sie unter [Verwenden von Sicherheitsfiltern](/dynamics365/business-central/dev-itpro/security/security-filters) in der Hilfe für Entwickler und IT-Spezialisten.
-
-## <a name="to-manage-permissions-through-user-groups"></a>So verwalten Sie Berechtigungen über Benutzergruppen
-
-Sie können Benutzergruppen einrichten, die Ihnen bei der Verwaltung von Berechtigungen für Benutzergruppen in Ihrem Unternehmen helfen.
-
-Sie beginnen mit der Erstellung einer Benutzergruppe. Anschließend ordnen Sie der Gruppe Berechtigungen zu, um festzulegen, auf welche Objekte die Benutzer der Gruppe zugreifen können. Wenn Sie einen Benutzer zur Gruppe hinzufügen, gelten die für die Gruppe definierten Berechtigungssätze für den Benutzer.
-
-Berechtigungssätze, die einem Benutzer über eine Benutzergruppe zugewiesen wurden, bleiben synchronisiert, so dass eine Änderung der Berechtigungen der Benutzergruppe automatisch an den Benutzer weitergegeben wird. Wenn Sie einen Benutzer aus einer Benutzergruppe entfernen, werden die entsprechenden Berechtigungen automatisch entzogen.
-
-### <a name="to-group-users-in-user-groups"></a>Um Benutzer in Benutzergruppen zu ordnen
-
-Die folgende Vorgehensweise erläutert, wie Sie Benutzergruppen manuell anlegen. Um Benutzergruppen automatisch zu erstellen, siehe [Eine Benutzergruppe und alle ihre Berechtigungen kopieren](ui-define-granular-permissions.md#to-copy-a-user-group-and-all-its-permission-sets).
-
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Benutzergruppen** ein und wählen Sie dann den zugehörigen Link.
-2. Wählen Sie alternativ auf der Seite **Benutzer** die Aktion **Benutzergruppen** aus.
-3. Wählen Sie auf der Seite **Benutzergruppen** die Aktion **Benutzergruppenmitglieder** aus.
-4. Wählen Sie auf der Seite **Benutzergruppenmitglieder** die Aktion **Benutzer hinzufügen** aus.
-
-### <a name="to-copy-a-user-group-and-all-its-permission-sets"></a>So kopieren Sie eine Benutzergruppe und all seine Zugriffsrechtsätze
-
-Zur schnellen Definition einer neuen Benutzergruppe können Sie eine Funktion verwenden, um alle Berechtigungssätze einer vorhandenen Benutzergruppe zur neuen Benutzergruppe zu kopieren.
-
-> [!NOTE]
-> Die Mitglieder der Benutzergruppe werden nicht in die neue Benutzergruppe kopiert. Sie müssen sie hinterher manuell hinzufügen. Weitere Informationen finden Sie unter [So ordnen Sie Benutzer in Benutzergruppen](ui-define-granular-permissions.md#to-group-users-in-user-groups).
-
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Benutzergruppen** ein und wählen Sie dann den zugehörigen Link.
-2. Wählen Sie die Benutzergruppe aus, die Sie kopieren möchten, und wählen Sie **Benutzergruppe kopieren** aus.
-3. Im Feld **Neuer Benutzergruppencode** geben Sie einen Namen für die Gruppe an. Wählen Sie dann die Schaltfläche **OK** aus.
-
-Die neue Benutzergruppe wird die Seite **Benutzergruppen** hinzugefügt. Fahren Sie fort, um Benutzer hinzuzufügen. Weitere Informationen finden Sie unter [Zu Gruppenbenutzern in Benutzergruppen](ui-define-granular-permissions.md#to-group-users-in-user-groups).  
-
-### <a name="to-assign-permission-sets-to-user-groups"></a>So weisen Sie Berechtigungssätze Benutzergruppen zu
-
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Benutzergruppen** ein und wählen Sie dann den zugehörigen Link.
-2. Wählen Sie die Benutzergruppe aus, der Sie die Berechtigung zuweisen möchten.
-Zugriffsrechtsätze, die dem Benutzer bereits zugewiesen sind, werden im Bereich **Benutzerzugriffsrechtsätze** angezeigt.
-3. Wählen Sie die Aktion **Benutzerrechtesätze**, um die Seite **Benutzerrechtesätze** zu öffnen.
-4. Füllen Sie auf der Seite **Benutzerberechtigungen** in einer neuen Zeile die Felder nach Bedarf aus.
-
-### <a name="to-assign-a-permission-set-on-the-permission-set-by-user-group-page"></a>So weisen Sie ein Berechtigungsset auf der Seite **Berechtigung festgelegt nach Benutzergruppe** zu
-
-Die folgende Vorgehensweise erläutert, wie Sie Berechtigungssätze einer Benutzergruppe auf der Seite **Berechtigungen nach Benutzergruppe** zuordnen.
-
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Benutzer** ein, und wählen Sie dann den entsprechenden Link.
-2. Wählen Sie auf der Seite **Benutzer** den entsprechenden Benutzer aus und wählen Sie dann die Aktion **Berechtigung festgelegt durch Benutzergruppe**.
-3. Aktivieren Sie auf der Seite **Berechtigung festgelegt durch Benutzergruppe** das Kontrollkästchen **[Name der Benutzergruppe]** in einer Zeile für die entsprechende Berechtigung, um die Gruppe der Benutzergruppe zuzuordnen.
-4. Aktivieren Sie das Kontrollkästchen **Alle Benutzergruppen**, um die Berechtigung allen Benutzergruppen zuzuordnen.
+6. Wechseln Sie zu den verschiedenen Seiten und Aktivitäten in [!INCLUDE[prod_short](includes/prod_short.md)] für die Benutzer mit diesem Berechtigungssatz, die darauf zugreifen sollen. Sie müssen die Aufgaben ausführen, für die Sie Berechtigungen erfassen möchten.
+7. Wenn Sie die Erfassung abschließen möchten, kehren Sie zur Seite **Berechtigungen** zurück, und wählen Sie die **Beenden** Aktion aus.
+8. Wählen Sie die Schaltfläche **Ja**, um die erfassten Berechtigungen dem neuen Berechtigungssatz zuzuordnen.
+9. Für jedes Objekt in der erfassten Liste geben Sie an, ob Benutzer in der Lage sind, Datensätze in den erfassen Tabellen einzufügen, zu ändern oder zu löschen.
 
 ## <a name="to-remove-obsolete-permissions-from-all-permission-sets"></a>So entfernen Sie veraltete Berechtigungen aus allen Berechtigungssätzen
 
@@ -247,7 +267,6 @@ Administratoren nutzen das Fenster Benutzer einrichten, um Zeiträume zu definie
 2. Öffnen Sie auf der Seite **Benutzereinrichtung** die Aktion **Neu** aus.
 3. In dem Feld **Benutzer-ID** geben Sie die ID eines Benutzers ein, oder wählen Sie das Feld aus, um alle Nutzer der aktiven Fenster im System anzuzeigen.
 4. Füllen Sie die Felder nach Bedarf aus.
-
 
 ## <a name="viewing-permission-changes-telemetry"></a>Durch das Anzeigen der Berechtigung wird die Telemetrie geändert 
 
@@ -265,7 +284,8 @@ Sie können [!INCLUDE[prod_short](includes/prod_short.md)] einrichten, um Änder
 [Vorbereitung für die Geschäftstätigkeit](ui-get-ready-business.md)  
 [Verwaltung](admin-setup-and-administration.md)  
 [Benutzer zu Microsoft 365 für Unternehmen hinzufügen](/microsoft-365/admin/add-users/add-users)  
-[Sicherheit und Schutz in Business Central](/dynamics365/business-central/dev-itpro/security/security-and-protection) in der Hilfe für Entwickler und IT-Profis
+[Sicherheit und Schutz in Business Central](/dynamics365/business-central/dev-itpro/security/security-and-protection) in der Hilfe für Entwickler und IT-Profis  
+[Benutzern eine Telemetriekennung zuweisen](/dynamics365/business-central/dev-itpro/administration/telemetry-enable-application-insights#assign-a-telemetry-id-to-users)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

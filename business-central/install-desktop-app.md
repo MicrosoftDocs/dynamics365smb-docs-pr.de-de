@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: phone, tablet
 ms.date: 01/11/2022
 ms.author: jswymer
-ms.openlocfilehash: fe612bb6366647ca031b38122de30fc96cc66853
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3e04e348c55fa487f8a7776c0f197210c3cacb49
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130462"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519752"
 ---
 # <a name="get-business-central-desktop-app"></a>Business Central-App auf den Desktop holen
 

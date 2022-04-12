@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 7351, 7382, 9330
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2a9f24087303cd4570adad5124c996e84204dc97
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: da2f937c50e5634a5f4e3abe6d1eae9064916f52
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382259"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513263"
 ---
 # <a name="move-components-to-an-operation-area-in-basic-warehouse-configurations"></a>So verschieben Sie Komponenten in einen Arbeitsgangbereich in Basis-Lagerkonfigurationen
 Wenn die Arbeitsgänge, die den Artikel verarbeiten, an Ihrem Lagerort stattfinden, müssen Sie möglicherweise Artikel zwischen internen Lagerplätzen umlagern, um auf interne Herkunftsbelege, wie Produktions-, Montage- oder Serviceaufträge am Lagerort zu reagieren.  
@@ -46,7 +46,7 @@ Alternativ kann ein Lagermitarbeiter diese erstellen, indem er auf den freigegeb
 Im folgenden Verfahren wird beschrieben, wie eine Lagerbestandsumlagerung aus der Seite **Lagerbestandsumlagerung** durch das Verweisen auf einen freigegebenen Montageauftrag als Herkunftsbeleg erstellt wird. Dieser Vorgang ist derselbe, wenn Sie Komponenten für Fertigungsaufträge und Serviceaufträge umlagern.  
 
 ## <a name="to-move-components-to-an-operation-area-in-basic-warehouse-configurations"></a>So lagern Sie Komponenten in einen Arbeitsgangbereich in Basis-Lagerkonfigurationen um  
-1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Lagerbestandsumlagerungen** ein und wählen Sie den entsprechenden Link.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Lagerbestandsumlagerungen** ein und wählen Sie den entsprechenden Link.  
 2.  Füllen Sie auf dem Inforegister **Allgemein** das Feld **Nr.** aus. Feld Sie können die EINGABETASTE betätigen, um in den Nummernserien eine Auswahl zu treffen.  
 3.  Geben Sie im Feld **Lagerortcode** den Lagerort ein, an dem die Umlagerung stattfindet.  
 4.  Wählen Sie die **Herkunftsbelege holen** Aktion aus. Füllen Sie alternativ das Feld **Herkunftsbeleg** aus, und klicken Sie anschließend auf die Schaltfläche **AssistEdit** im Feld **Herkunftsnr.**.  
@@ -74,7 +74,7 @@ Im folgenden Verfahren wird beschrieben, wie eine Lagerbestandsumlagerung aus de
 [Lagerbestand](inventory-manage-inventory.md)  
 [Warehouse Management einrichten](warehouse-setup-warehouse.md)     
 [Montageverwaltung](assembly-assemble-items.md)    
-[Designdetails: Lagerverwaltung](design-details-warehouse-management.md)  
+[Designdetails: Warehouse Management](design-details-warehouse-management.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

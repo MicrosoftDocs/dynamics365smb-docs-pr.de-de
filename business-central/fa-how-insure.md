@@ -10,12 +10,12 @@ ms.search.keywords: policy, coverage
 ms.search.form: 5647, 5644, 5653, 5651, 5655, 5652, 5645, 5656, 5646, 5648, 9275
 ms.date: 06/29/2021
 ms.author: edupont
-ms.openlocfilehash: 3385d0a8d7158237a1f86e8d78785c7045490886
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 9b4cbceb0dec26b242a4904ea40de7b8147dc8f4
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146540"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515089"
 ---
 # <a name="insure-fixed-assets"></a>Versichern von Anlagen
 Eine Versicherungspolice für eine Anlage wird durch eine Versicherungskarte angezeigt. Sie können eine Anlage einer Versicherungspolice oder mehreren Anlagen einer Versicherungspolice zuzuordnen.
@@ -36,7 +36,7 @@ Eine Versicherungspolice für eine Anlage muß durch eine Versicherungskarte ang
 
 Wenn Sie Informationen über Änderungen in der Deckungssumme erhalten, müssen Sie diese in der **Versicherungskarte** aktualisieren, um sicherzustellen, dass die Versicherungsdeckung korrekt angezeigt wird.  
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Versicherung** ein, und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Versicherung** ein, und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie die Aktion **Neu** aus, um eine neue Karte für eine Versicherungspolice zu erstellen. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Wählen Sie die Versicherungspolice, die Sie ändern möchten, und wählen die Aktion **Bearbeiten** aus.
 
@@ -45,7 +45,7 @@ Sie verknüpfen eine Anlage mit einer Versicherungspolice, indem Sie sie in den 
 
 Nachfolgend wird beschrieben, wie Sie eine Versicherungs Buch.-Blattzeile manuell erstellen. Wenn das Kontrollkästchen **Autom. Versicherungsbuchung** auf der Seite **Anlageneinrichtung** ausgewählt wird, werden Versicherungs Buch.-Blattzeilen automatisch erstellt, wenn Sie Anschaffungskosten buchen. In diesem Fall müssen Sie nur das Buch.-Blatt buchen.  
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Vers. Buch.-Blätter** ein und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Vers. Buch.-Blätter** ein und wählen Sie dann den zugehörigen Link.  
 2. Öffnen Sie das relevante Buch.-Blatt und füllen Sie die Buch.-Blattzeilen nach Bedarf aus.  
 3. Um mehrere Anlagen einer Versicherungspolice zuzuweisen, können Sie Buch.-Blattzeilen mit dem gleichen Wert im Feld **Versicherungsnr** und unterschiedliche Werte im Feld **Anlagennr.**  
 4. Wählen Sie die Aktion **Buchen** aus.  
@@ -56,7 +56,7 @@ Nachfolgend wird beschrieben, wie Sie eine Versicherungs Buch.-Blattzeile manuel
 ## <a name="to-update-the-insurance-value-of-a-fixed-asset"></a>So aktualisieren Sie den Versicherungswert einer Anlage
 Sie können die Stapelverarbeitung **Indexiere Versicherung** verwenden, um den Wert der versicherten Anlagen zu aktualisieren.  
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Versicherung indexieren** ein und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Versicherung indexieren** ein und wählen Sie dann den zugehörigen Link.
 2. Füllen Sie die Felder je nach Bedarf aus.
 
     > [!NOTE]  
@@ -112,9 +112,9 @@ Wenn eine Anlage der falschen Versicherung zugeordnet wurde, können Sie diese k
 
 Die Verknüpfung der Anlage mit der falschen Versicherung der zweiten Zeile wird aufgehoben und stattdessen eine Verknüpfung mit der richtigen Versicherung aus der ersten Zeile erstellt.  
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 [Anlagen](fa-manage.md)  
-[Anlagen einrichten](fa-setup.md)  
+[Einrichten von Anlagen](fa-setup.md)  
 [Finanzen](finance.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

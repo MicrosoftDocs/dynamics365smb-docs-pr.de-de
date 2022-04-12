@@ -10,12 +10,12 @@ ms.search.keywords: payment process, cash receipts, customer payment
 ms.search.form: 1290, 1294, 1287
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d611a245797fd20382f79deb35d8d598a8fe3565
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 6fa22b84284d05d77bd04919403435d99050cded
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382951"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517791"
 ---
 # <a name="reconcile-customer-payments-from-a-list-of-unpaid-sales-documents"></a>Debitoren-Zahlungen aus einer Liste mit unbezahlten Verkaufsbelegen abstimmen
 Wenn Ihre Debitoren Zahlungen an Ihr elektronisches Bankkonto getätigt haben, müssen Sie jeden gezahlten Betrag auf den zugehörigen Verkaufsbeleg anwenden und dann die Zahlung buchen, um die Debitoren-, Sachkonto- und Bankposten zu aktualisieren. Abhängig von den Unternehmensanforderungen können Sie bezahlt werden und die Zahlung auf unterschiedliche Arten erfassen: automatisch und durch Zahlungsverkehr.  
@@ -30,14 +30,14 @@ Zahlungen für verschiedene Debitoren, die verschiedene Fälligkeitsdaten haben,
 ## <a name="to-set-up-the-payment-registration-journal"></a>Zahlungsregistrierungsbuch.-Blatt einrichten
 Da Sie verschiedene Zahlungsarten auf verschiedene Gegenkonten buchen können, müssen Sie ein Gegenkonto auf der Seite **Zahlungsanmeldungs-Einrichtung** auswählen, bevor Sie die Bearbeitung von Debitorenzahlungen starten. Wenn Sie immer auf das gleiche Gegenkonto buchen, können Sie dieses Konto als Standardwert festlegen und diesen Schritt jedes Mal vermeiden, wenn Sie die Seite **Debitorenzahlung erfassen** öffnen.  
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen") Symbol. Geben Sie **Einrichtung der Zahlungsregistrierung** ein und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Einrichtung der Zahlungsregistrierung** ein und wählen Sie dann den zugehörigen Link.
 
     Wählen Sie auf der Seite **Debitorenzahlung erfassen** die Aktion **Einrichten** aus.    
 2. Füllen Sie die Felder auf der Seite **Zahlungserfassungseinrichtung** aus. Wählen Sie ein Feld aus, um eine kurze Beschreibung des Feldes zu lesen oder einen Link für weitere Informationen zu öffnen.  
 
 ## <a name="to-register-customer-payments-individually"></a>Um Debitorenzahlungen einzeln zu erfassen
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Debitoren-Zahlungen registrieren** ein und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Debitoren-Zahlungen registrieren** ein und wählen Sie dann den zugehörigen Link.  
 
     Die Seite **Debitorenzahlungen registrieren** werden alle gebuchten Belege angezeigt, für die eine Zahlung erfasst werden kann. Dieselbe Seite kann auch aus der Seite **Debitoren** und der **Debitorenkarte** geöffnet werden , in der sie automatisch für den angegebenen Debitoren gefiltert wird.  
 2. Wählen Sie das Kontrollkästchen **Zahlung erfolgt** in der Zeile, die den gebuchten Beleg darstellt, für den eine Zahlung geleistet wurde.
@@ -55,7 +55,7 @@ Die eingegebene Zahlungsinformation ist für Belege gebucht, die durch Zeilen da
 Zahlungsposten werden in der Finanzbuchhaltung, Bank und in Debitorenkonten gebucht. Jede Zahlung wird für den entsprechenden gebuchten Verkaufsbeleg angewandt.  
 
 ## <a name="to-reconcile-lump-sum-payments"></a>Pauschalzahlungen verarbeiten
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Zahlungsregistrierung** ein und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Zahlungsregistrierung** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie das Kontrollkästchen **Zahlung erfolgt** in der Zeile, die die gebuchten Belege für denselben Debitor darstellen, für den eine Pauschalzahlung gemacht wurde.  
 
     > [!NOTE]  
@@ -183,7 +183,7 @@ Sie können entweder die Buch.-Blattzeile buchen, um die Summe in dem Gegenkonto
 
 Wenn Sie die Buch.-Blattzeile nicht buchen lassen, wird der Wert im Feld **Ungebuchter Saldo** am unteren Rand der Seite **Zahlungserfassung** hinzugefügt.  
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 [Verwalten von Forderungen](receivables-manage-receivables.md)  
 [Verkauf](sales-manage-sales.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

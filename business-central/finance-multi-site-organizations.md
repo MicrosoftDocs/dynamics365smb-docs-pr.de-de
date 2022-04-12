@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: hub-and-spoke, multi-site, headquarter, sites
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: ec650016000d8f6007a3abfa839cea7f1422de7b
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 88877f719ec969fbca6dfd5928faf185b447bb42
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382045"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520360"
 ---
 # <a name="business-central-for-multi-site-and-international-organizations"></a>Business Central für Unternehmen mit mehreren Standorten und internationale Organisationen
 Organisationen mit mehreren Standorten verwenden häufig ein Hub-and-Spoke-Geschäftsmodell, bei dem eine übergeordnete Firma oder die Zentrale die gesamten Vorgänge des Unternehmens verwaltet, während jeder Standort als einzelne, unabhängige Entität fungiert. Die Standorte sind oft geografisch verteilt und haben unterschiedliche Anforderungen an den Informationsaustausch mit der Firma in der Zentrale. Außerdem benötigen die Standorte in der Regel nicht den gleichen Grad an Komplexität und haben oft nicht die Ressourcen, um ein großes System zu pflegen.
@@ -66,7 +66,7 @@ Richten Sie die Organisation auf Ihre Geschäftsziele aus, indem Sie ein allgeme
 
 | **Business-Anforderung** | **Wie Business Central sie unterstützt** | **Mehr erfahren** |
 |-------------------------|-------------------------|-------------------------|
-| Teilen Sie Insights mit Standorten ohne umfangreiche IT-Unterstützung. | Erstellen Sie KPIs und Business Intelligence Dashboards in Power BI auf der Basis Ihrer Daten. | [Arbeiten mit Business Central-Daten in Power BI](across-working-with-business-central-in-powerbi.md) |
+| Teilen Sie Insights mit Standorten ohne umfangreiche IT-Unterstützung. | Erstellen Sie KPIs und Business Intelligence Dashboards in Power BI auf der Basis Ihrer Daten. | [Mit Business Central-Daten in Power BI arbeiten](across-working-with-business-central-in-powerbi.md) |
 | Entwickeln Sie angepasste Finanzberichte. | Generieren Sie parameterbasierte Finanzberichte. | [Business Intelligence](bi.md) |
 | Orientieren Sie sich an den Fakten. | Generieren Sie Berichte, zeigen Sie sie an und teilen Sie sie mit internen und externen Beteiligten. | [Finanzberichte](finance-reports.md) |
 | Analysieren Sie Daten in Excel. | Finden Sie Fakten, beheben Sie Probleme und führen Sie Ad-hoc-Analysen in Microsoft Excel durch. | [Analysieren von Finanzberichten in Excel](finance-analyze-excel.md) |
@@ -105,9 +105,9 @@ Die Firma in der Zentrale muss in der Lage sein, schnell auf geschäftliche Ver�
 | **Business-Anforderung** | **Wie Business Central sie unterstützt** | **Mehr erfahren** |
 |-------------------------|-------------------------|-------------------------|
 | Automatisch E-Mail-Warnungen generieren. | Legen Sie in Power Automate Alarme fest, die E-Mails generieren, um Sie über kritische Geschäftsbedingungen an Standorten oder Partnern in der Lieferkette zu informieren. | [Business Central und Power BI](admin-powerbi.md) |
-| Verwenden Sie Standard- oder angepasste Alarme. | Verwenden Sie 12 verschiedene Vorlagen, die für Business Central mitgeliefert werden, oder legen Sie Ihre eigenen Alarme fest, die zu Ihrem Unternehmen passen. | [Business Central in einem automatisierten Workflow nutzen](across-how-use-financials-data-source-flow.md) |
+| Verwenden Sie Standard- oder angepasste Alarme. | Verwenden Sie 12 verschiedene Vorlagen, die für Business Central mitgeliefert werden, oder legen Sie Ihre eigenen Alarme fest, die zu Ihrem Unternehmen passen. | [Business Central in einem automatisierten Workflow verwenden](across-how-use-financials-data-source-flow.md) |
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 [Verwaltung von Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

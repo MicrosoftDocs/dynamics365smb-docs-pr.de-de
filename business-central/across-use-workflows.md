@@ -9,14 +9,14 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 2cbf60577e7c0c4f95fcb623fb448f8cb5bd7960
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 8fc4dc464e6562684db6b4ae67422f59cb641927
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138700"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511207"
 ---
-# <a name="using-workflows"></a>Verwenden von Workflows
+# <a name="use-workflows"></a>Workflows verwenden
 
 Ein Workflow ist eine Sequenz von Aufgaben, die durch eine Aktion, eine Bedingung oder eine Regel ausgelöst wird. Workflows werden in der Regel implementiert, um Geschäftslogik in eine Organisation zu integrieren, wie z. B. die Trennung von Aufgaben, die Vereinheitlichung von Prozessen oder die Erhöhung von Vertrauen und Verantwortung.  
 
@@ -69,7 +69,7 @@ Sie können Workflows festlegen und verwenden, die von verschiedenen Benutzern a
 |Zeigen Sie Workflowschrittinstanzen mit dem Status „Abgeschlossen“ an.|[Anzeigen von archivierten Workflowschritt-Instanzen](across-how-to-view-archived-workflow-step-instances.md)|  
 |Löschen Sie einen Workflow, den Sie mit Gewissheit nicht mehr verwenden werden.|[Löschen eines Workflows](across-how-to-delete-workflows.md)|  
 
-## <a name="see-also"></a>Siehe auch  
+## <a name="see-also"></a>Weitere Informationen  
 [Einrichten von Workflows](across-set-up-workflows.md)   
 [Workflow](across-workflow.md)   
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

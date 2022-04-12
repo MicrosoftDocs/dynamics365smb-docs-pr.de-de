@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.forms: 498, 497
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6dcd912dfae36e31bd2642b5f1427483f3095c19
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 385003db0d0fe8b121e6512257f0ed448596225e
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148564"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519700"
 ---
 # <a name="reserve-items"></a>Artikel reservieren
 Reservieren Sie Lager oder eingehenden Artikel für Verkaufsaufträge, Bestellungen, Serviceaufträge, Montageaufträge oder Fertigungsaufträge. Sie können Artikel in Lager oder eingehenden in Zeilen der offenen Belegzeile reservieren. Sie führen die Arbeit auf der Seite **Reservierungen** aus.
@@ -24,7 +24,7 @@ Jede Zeile in **Reservierung** beinhaltet Informationen zu der Art der Zeile (Ve
 
 ## <a name="to-reserve-items-for-sales"></a>So reservieren Sie Artikel für Verkäufe:
 Nachfolgend wird erläutert, wie Entscheidungsträger als Artikel aus einem Verkaufsauftrag reserviert werden. Die Schritte sind gleich für Einkaufs-, Service- und Montageaufträge.  
-1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Verkaufsaufträge** ein, und wählen Sie dann den zugehörigen Link.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Verkaufsaufträge** ein, und wählen Sie dann den zugehörigen Link.  
 2.  Klicken Sie in einem Verkaufsauftrag auf dem Inforegister **Zeilen** auf **Reservieren**. Die Seite **Reservierung** wird geöffnet.  
 3. Wählen Sie in die Zeile, aus der Sie Artikel reservieren möchten.  
 4. Wählen Sie eine der folgenden Optionen aus.  
@@ -42,7 +42,7 @@ Nachfolgend wird erläutert, wie Entscheidungsträger als Artikel aus einem Verk
 Sie können Artikel für Erstellungsaufträge reservieren. Sie müssen zwischen Produktionsauftragszeilen, d.h. übergeordnete Artikel und Produktionsauftragskomponenten unterscheiden.
 
 Im folgenden Verfahren wird ein fest geplanter Fertigungsauftrag verwendet.   
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Firm Planned Prod. Auftrag** ein und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Firm Planned Prod. Auftrag** ein und wählen Sie dann den zugehörigen Link.  
 2. Öffnen Sie den fest geplanten Produktionsauftrag, den Sie für übergeordnete Artikel reservieren möchten.  
 3. Wählen Sie die entsprechende FA-Zeilennummer aus.  
 4. Wählen Sie auf dem Inforegister **Zeilen** das Feld **Reservieren** aus.
@@ -54,7 +54,7 @@ Die Menge, die Sie im fest geplanten Fertigungsauftrag eingetragen haben, ist re
 Sie können Artikel für Erstellungsaufträge reservieren. Sie müssen zwischen Produktionsauftragszeilen, d.h. übergeordnete Artikel und Produktionsauftragskomponenten unterscheiden.
 
 Im folgenden Verfahren wird ein fest geplanter Fertigungsauftrag verwendet.    
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Firm Planned Prod. Auftrag** ein und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Firm Planned Prod. Auftrag** ein und wählen Sie dann den zugehörigen Link.  
 2. Öffnen Sie den fest geplanten FA, für den Sie Komponentenartikel reservieren möchten.  
 3. Wählen Sie die entsprechende FA-Zeilennummer aus.  
 4. Wählen Sie auf dem Inforegister **Zeilen** die Option **Zeile** und dann **Posten** aus.  
@@ -96,7 +96,7 @@ Das folgende Verfahren basiert auf einer Auftragsabwicklung.
 ## <a name="see-also"></a>Siehe auch
 [Lagerbestand](inventory-manage-inventory.md)  
 [Designdetails: Reservierung, Auftragsnachverfolgung und Aktionsmeldungen](design-details-reservation-order-tracking-and-action-messaging.md)  
-[Designdetails: Artikelverfolgung und Reservierungen](design-details-item-tracking-and-reservations.md)  
+[Designdetails – Artikelverfolgung und Reservierungen](design-details-item-tracking-and-reservations.md)  
 [Arbeiten mit Chargennummern und Seriennummern](inventory-how-work-item-tracking.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

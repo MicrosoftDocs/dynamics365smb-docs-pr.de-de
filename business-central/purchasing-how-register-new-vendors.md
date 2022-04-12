@@ -10,12 +10,12 @@ ms.search.keywords: supplier
 ms.search.form: 26, 27, 34, 461, 786, 1379, 1385, 1386, 1628
 ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: 4bfb66f86c0cc06abed559af9c32942a5a27b40a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: eaa10e4ed7890dd1e6cc8fb2fe76be7770689b75
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137315"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521858"
 ---
 # <a name="register-new-vendors"></a>Registriert einen neuen Kreditor
 

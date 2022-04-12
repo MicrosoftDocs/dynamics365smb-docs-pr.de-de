@@ -10,12 +10,12 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.search.form: 103, 104, 197, 196, 195, 198, 490, 764, 765, 766
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 91a97ab506f7536b9c468862709d1d39ed767d53
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: 32ca89daf15485057cf9ef8b86ff9090bb12d037
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335474"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512360"
 ---
 # <a name="prepare-financial-reporting-with-account-schedules-and-account-categories"></a>Bereiten Sie Finanzberichte mit Kontenschemata und Kontengruppen vor
 
@@ -54,10 +54,10 @@ Die Kontenschemata in der Standardeinstellung sind [!INCLUDE[prod_short](include
 
 Die Seite **Kontenschema. Planen Überblick** ist jene, auf der Sie Finanzbericht in der Vorschau sehen, die das Kontenschema definiert. Im Weiteren ist es wichtig zu verstehen, dass, was Sie einrichten, während Kontenschemazeilen und Spalten auf der Seite **Kontenschema. "Kontenschemamatrix** angezeigt werden und überprüft werden können, das Sie von einem Fenster öffnen, indem Sie die Aktion **Matrix** auswählen. Die Seite **Kontenschema** selbst ist nur ein Aufsetzbereich.  
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Kontenschemata** ein und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten"). Symbol. Geben Sie **Kontenschemata** ein und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie im Fenster **Kontoschema** auf der Registerkarte **Neu** die Option Neu aus, um einen neuen Kontenschemanamen zu erstellen.
 3. Im Fenster **Kontenplan kopieren** geben Sie die zwei Felder wie nötig ein, und wählen Sie dann die Schaltfläche **OK**.
-4. Füllen Sie die Felder je nach Bedarf aus. Im **Standard Spaltenlayout** Feld wählen Sie ein existierendes Layout aus. Sie können diese bei Bedarf später bearbeiten.
+4. Füllen Sie die Felder nach Bedarf aus. Wählen Sie im Feld **Standard Spaltenlayout** ein vorhandenes Layout aus. Sie können diese bei Bedarf später bearbeiten.
 
     Sie nutzen Spaltenlayouts, um Spalten für verschiedene Parameter festzulegen, durch die die Finanzdaten in den Zeilen angezeigt werden. Zum Beispiel können Sie ein Spalten-Layout gestalten, das Bewegung und Saldo für dieselbe Periode dieses und letzten Jahres mit vier Spalten vergleicht. Weitere Informationen finden Sie im Abschnitt [So erstellen Sie ein Spaltenlayout](bi-how-work-account-schedule.md#to-edit-a-column-layout).
 
@@ -71,7 +71,7 @@ Sie haben jetzt die Grundlage des Kontenschemas, die Zeilen von Finanzdaten, die
 
 ### <a name="to-edit-a-column-layout"></a>Um ein Spaltenlayout zu bearbeiten
 
-Sie verwenden Spaltenlayouts, um festzulegen, welche Spalten in dem Bericht erscheinen sollen. Zum Beispiel können Sie ein Layout gestalten, das Bewegung und Saldo für dieselbe Periode dieses und letzten Jahres vergleicht.
+Sie verwenden Spaltenlayouts, um festzulegen, welche Spalten in dem Bericht erscheinen sollen. Zum Beispiel können Sie ein Layout gestalten, das Bewegung und Saldo für dieselbe Periode dieses und letzten Jahres vergleicht. Sie können bis zu 15 Spalten verwenden. Dies ist beispielsweise hilfreich, wenn Sie Budgets für 12 Monate anzeigen und eine Spalte mit der Gesamtsumme einfügen möchten.
 
 > [!NOTE]
 > Beachten Sie, dass in einer gedruckten Version eines Kontenschemas höchstens fünf Spalten angezeigt werden können. Wenn das Kontenschema ausschließlich zur Analyse der Seite **Kontenschema. Planen Überblick** dient, können Sie so viele Spalten erstellen, wie Sie möchten.
@@ -88,7 +88,7 @@ Sie verwenden Spaltenlayouts, um festzulegen, welche Spalten in dem Bericht ersc
 
 Manchmal möchten Sie möglicherweise eine Spalte in ein Kontenschema einfügen, in der Prozentsätze einer Summe berechnet werden. Wenn beispielsweise mehrere Zeilen vorhanden sind, in denen die Verkäufe nach Dimension aufgeschlüsselt sind, empfiehlt sich die Einrichtung einer Spalte, in der für jede Zeile der prozentuale Anteil an den Gesamtverkäufen angegeben ist.
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Kontenschemata** ein und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet 2.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Kontenschemata** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie im Fenster **Kontenschemanamen** ein Kontenschema aus.  
 3. Klicken Sie auf der Registerkarte **Kontoschema bearbeiten** in der Gruppe Prozess auf Kontenschema bearbeiten, um eine Kontenschemazeile einzurichten, um die Gesamtsumme zu berechnen, auf denen die Prozentsätze basieren.  
 4. Fügen Sie eine Zeile unmittelbar über der ersten Zeile ein, für die Sie einen Prozentsatz anzeigen möchten.  
@@ -101,11 +101,11 @@ Manchmal möchten Sie möglicherweise eine Spalte in ein Kontenschema einfügen,
 
 Sie können eine Kontenschema zum Erstellen eines Vergleichs der in der Finanzbuchhaltung gebuchten Werte mit den Finanzbudgetwerten benutzen.
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Kontenschemata** ein und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet 3.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Kontenschemata** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie im Fenster **Kontenschemanamen** ein Kontenschema aus.  
 3. Wählen Sie die **Kontenschema bearbeiten** Aktion aus.  
 4. Auf der Seite **Kontenplan** im Feld **Name** wählen Sie den Standard-Kontenplan aus.
-5. Wählen Sie die **Konten einfügen** Aktion aus.  
+5. Wählen Sie die Aktion **Sachkonten einfügen** aus.  
 6. Wählen Sie die Konten, die Sie in Ihrer Aufstellung berücksichtigen möchten, und wählen Sie dann **OK**.
 
     Die Konten sind damit in Ihr Kontenschema eingefügt. Wenn Sie möchten, können Sie auch das Spaltenlayout ändern.  
@@ -149,9 +149,19 @@ Wenn die Berechnung gemäß regulärer Zeitperioden erfolgen soll, muss eine For
 
 Weitere Informationen zu Datumsformeln finden Sie unter [Arbeiten mit Kalenderdaten und -zeiten](ui-enter-date-ranges.md).  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/modules/configure-financial-reports-dynamics-365-business-central/index)
+## <a name="import-or-export-account-schedules"></a>Import- oder Exportkontenpläne
+Sie können Kontenschemata als RapidStart-Konfigurationspakete importieren und exportieren. Dies ist beispielsweise hilfreich, um sie für andere Unternehmen freizugeben. Das Paket wird in einer .rapidstart-Datei erstellt werden, die Paketinhalte in einem komprimierten Format bereitstellt.
 
-## <a name="see-also"></a>Siehe auch
+### <a name="to-import-and-export-account-schedules"></a>Kontenschemata importieren und exportieren
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet 4.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Kontenschemata** ein und wählen Sie dann den zugehörigen Link.
+2. Wählen Sie den Kontoplan und dann die Aktionen **Kontenplan importieren** oder **Kontenplan exportieren** aus, je nachdem, was Sie tun möchten. 
+
+> [!NOTE]
+> Beim Importieren von Kontenplänen werden vorhandene Datensätze mit demselben Namen wie die importierten Datensätze gelöscht.
+
+## <a name="see-related-training-at-microsoft-learn"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/modules/configure-financial-reports-dynamics-365-business-central/index).
+
+## <a name="see-also"></a>Weitere Informationen
 
 [Business Intelligence](bi.md)  
 [Finanzen](finance.md)  

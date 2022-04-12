@@ -10,12 +10,12 @@ ms.search.keywords: print check, customize
 ms.search.form: 374, 404
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 7be12b5fe3c6bac93a6ea51454a193ba76320a8e
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ed0cf9383ed635e3f7b940ef4f28943ffb6bc1a0
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8149049"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518103"
 ---
 # <a name="select-a-check-layout"></a>Ein Prüflayout auswählen
 
@@ -25,7 +25,7 @@ Schecks können sowohl im USA- als auch im Kanada-Schecklayout, entweder im Sche
 
 ## <a name="to-select-a-check-layout"></a>Ein Prüflayout auswählen
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Berichtsauswahl – Bankkonto** ein, und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Berichtsauswahl – Bankkonto** ein, und wählen Sie dann den zugehörigen Link.
 2. Auf der Seite **Berichts-Auswahl - Bankkonto** unter **Verwendung** wählen Sie **Scheck**.
 3. Wählen Sie eine der folgenden Berichts-IDs:
 
@@ -40,8 +40,7 @@ Wenn Sie Schecklayouts eingerichtet haben, können Sie Schecks auf de Seite **Za
 
 Verwenden Sie dazu entweder die Word- oder die RDLC-Integration, um eines dieser Standardprüflayouts zu ändern. Weitere Informationen finden Sie unter [Erstellen und Ändern benutzerdefinierter Berichtslayouts](ui-how-create-custom-report-layout.md).
 
-## <a name="using-micr-and-security-fonts"></a>Verwenden von MICR- und Sicherheitsschriftarten
-
+## <a name="use-micr-and-security-fonts"></a>Verwenden von MICR- und Sicherheitsschriftarten
 Die Onlineversion von [!INCLUDE[prod_short](includes/prod_short.md)] enthält vorinstallierte Schriftarten auf den Servern, die beim Definieren von Prüflayouts verwendet werden können. Im Folgenden wird erläutert, welche Schriftarten verfügbar sind, und es werden Links zu detaillierten Informationen der Drittanbieter der Schriftarten angezeigt.
 
 > [!Important]

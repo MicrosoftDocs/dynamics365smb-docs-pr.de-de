@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5464f2770ca603a67b825ff8b5908cb7ac255d9b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3ea522a54f45e95c154b779c3603229d1efdef1a
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141541"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522300"
 ---
 # <a name="use-ocr-to-turn-pdf-and-image-files-into-electronic-documents"></a>Verwenden von OCR, um PDF und Bilddateien in elektronische Belege umzuwandeln
 Mithilfe eines externen OCR-Dienstes (optische Zeichenerkennung) können Sie aus PDF- oder Bilddateien, die Sie von Ihren Handelspartnern erhalten, elektronische Belege erstellen, die Sie in [!INCLUDE[prod_short](includes/prod_short.md)] in Belegdatensätze konvertieren können. Wenn Sie beispielsweise eine Rechnung in PDF-Format von Ihrem Kreditor erhalten, können Sie diese über die Seiter **Eingehende Belege** zum OCR-Dienst senden. Dies wird im ersten Verfahren beschrieben.
@@ -29,7 +29,7 @@ Da OCR mit einer optischen Zeichenerkennung arbeitet, ist es wahrscheinlich, das
 Der Dateiverkehr zum und vom OCR-Dienst wird von einen dedizierten Projektwarteschlangeneintrag verarbeitet, der automatisch erstellt wird, wenn Sie die damit zusammenhängende Dienstverbindung aktivieren. Weitere Informationen finden Sie unter [Eingehende Belege einrichten](across-how-setup-income-documents.md).
 
 ## <a name="to-send-a-pdf-or-image-file-to-the-ocr-service-from-the-incoming-documents-page"></a>So senden Sie eine PDF- oder eine Bilddatei von der Seite **Eingehende Belege** an den OCR-Dienst
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Eingehende Belege** ein und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Eingehende Belege** ein und wählen Sie dann den zugehörigen Link.
 2. Erstellen Sie einen neuen Datensatz für den eingehenden Beleg und fügen Sie die Datei an. Weitere Informationen finden Sie unter [So geht's: Eingehende Belege erstellen](across-how-create-income-document-records.md).  
 3. Wählen auf der Seite **Eingehende Belege** eine oder mehrere Zeilen aus, und wählen Sie dann die Aktion **An Aufgabenwarteschlange senden**.
 
@@ -106,7 +106,7 @@ Da OCR mit einer optischen Zeichenerkennung arbeitet, ist es wahrscheinlich, das
 
 Die Seite **OCR-Datenkorrektur**, die Sie über das Fenster **Eingehender Beleg** öffnen, zeigt die Felder aus dem Inforegister **Finanzinformationen** in zwei Spalten an. Eine mit bearbeitungsfähigen OCR-Daten und eine mit den schreibgeschützten OCR-Daten. Wenn Sie auf die Schaltfläche **OCR-Feedback senden** klicken, wird der Inhalt der Seite **OCR-Datenkorrektur** an den OCR-Service gesendet. Bei der nächsten Verarbeitung eines PDFs oder einer Bilddateien mit den entsprechenden Daten durch den Service werden Ihre Korrekturen dazu genutzt, die gleichen Fehler zu vermeiden.
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Eingehende Belege** ein und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Eingehende Belege** ein und wählen Sie dann den zugehörigen Link.
 2. Öffnen Sie einen eingehenden Belegsdatensatz mit den Daten, die vom OCR-Dienst empfangen wurden und die Sie korrigieren möchten.
 3. Wählen Sie auf der Seite **Eingehender Beleg** die Aktion **OCR-Daten korrigieren** aus.
 4. Überschreiben Sie auf der Seite **OCR-Datenkorrektur** die Daten in der editierbaren Spalte für jedes Feld, das einen fehlerhaften Wert enthält.

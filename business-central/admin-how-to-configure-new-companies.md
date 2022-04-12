@@ -1,6 +1,6 @@
 ---
-title: 'Vorgehensweise: Konfigurieren neuer Unternehmen | Microsoft Docs'
-description: Sie können ein neues Unternehmen, das Sie erstellt haben, konfigurieren und anpassen. Um Ihre Implementierung abzustimmen, gehen Sie in drei Phasen vor, um die Konfiguration abzuschließen.
+title: So konfigurieren Sie einen neuen Mandanten.
+description: Sie können einen neuen Mandanten, den Sie erstellt haben, mit RapidStart Services konfigurieren und anpassen. Um Ihre Implementierung abzustimmen, gehen Sie in drei Phasen vor, um die Konfiguration abzuschließen.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -9,14 +9,14 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f0964028b7d6e711e48e1361950d1ec6b4e14425
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 8b3bdea227d5314d4b4f218fed59906db1995180
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130800"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515771"
 ---
-# <a name="configure-new-companies"></a>So konfigurieren Sie einen neuen Mandanten.
+# <a name="configure-new-companies-with-rapidstart-services"></a>Neue Mandanten mit RapidStart Services konfigurieren
 Um einen neuen Mandanten in der Lösungsimplementierung zu konfigurieren, folgen Sie in der Regel drei Phasen. In der ersten Phase importieren Sie das Konfigurationspaket, eine .rapidstart-Datei mit den Konfigurationsinformationen. In der zweiten Phase ändern Sie die Konfigurationsinformationen und übernehmen sie dann für Ihren neuen Mandanten. In der letzten Phase überprüfen Sie auf Fehler und korrigieren diese.  
 
 In den folgenden Verfahren wird davon ausgegangen, dass Sie ein Konfigurationspaket erstellt und gespeichert haben. Weitere Informationen finden Sie unter [Vorgehensweise: Erstellen eines Konfigurations-Paket](admin-how-to-prepare-a-configuration-package.md).  

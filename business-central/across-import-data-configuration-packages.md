@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: migration, Excel
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5c6dc9d386bde8e4f8496f086141589ea4c89c73
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f2918b554cf578baa0636f0a18bbbbf2fc8a4692
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136452"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516473"
 ---
 # <a name="importing-business-data-from-other-finance-systems"></a>Geschäftsdaten aus anderen Finanzsystemen importieren
 
@@ -40,7 +40,7 @@ Um Artikelbilder zu importieren, können Sie eine dedizierte Funktion auf der Se
 > [!NOTE]  
 >   Das Arbeiten mit Konfigurationspaketen ist eine erweiterte Funktionalität und wir empfehlen, dass Sie sich an Ihren Administrator wenden. [Importieren von Daten aus der Vorgänger-Buchhaltungs-Software unter Verwendung eines Konfigurations-Pakets](across-import-data-configuration-packages.md)
 
-## <a name="working-with-data-in-excel"></a>Arbeiten mit Daten in Excel
+## <a name="work-with-data-in-excel"></a>Mit Daten in Excel arbeiten
 Wenn Sie das Standardkonfigurationspaket in Excel exportieren, enthält das generierte Arbeitsblatt ein Arbeitsblatt für jede Tabelle im Paket. Um Ihre Aufgaben zu vereinfachen, können Sie die in Excel integrierten XML-Änderungswerkzeuge nutzen. Sie können die in Excel integrierten Funktionen auch für die Datenformatierung und zum Verschieben von Daten in die richtige Zelle verwenden. Beispielsweise fügen Sie ein leeres Arbeitsblatt hinzu und kopieren Sie die Stammdaten dazu. Verwenden Sie eine Excel-Formel, um Daten im Arbeitsblatt für die Datenumwandlung zwischen den Feldern im exportierten Arbeitsblatt und in den Debitorenstammdaten zuzuordnen. Sobald Sie alle Daten zugeordnet haben, kopieren Sie den Bereich der Daten in das Arbeitsblatt mit der Migrationstabelle.  
 
 > [!IMPORTANT]  

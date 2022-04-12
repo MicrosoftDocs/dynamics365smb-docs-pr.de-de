@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: undo, credit memo, return
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: d36ca3a4f20e509a18f19f9fec6a3444040de9df
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 59fd78c106f6a5b7d44aa3b2c84232c6441d0d31
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137133"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517264"
 ---
 # <a name="correct-or-cancel-unpaid-sales-invoices"></a>Ändern oder Löschen einer unbezahlten Verkaufsrechnung
 
@@ -37,7 +37,7 @@ Wenn Sie eine gebuchte Verkaufsrechnung korrigieren oder stornieren, wird sie in
 
 ## <a name="to-cancel-a-posted-sales-invoice"></a>Gebuchte Verkaufsrechnung stornieren
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Gebuchte Verkaufsrechnungen** ein und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Gebuchte Verkaufsrechnungen** ein und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die gebuchte Verkaufsrechnung, die Sie stornieren möchten.
 
     > [!NOTE]  
@@ -53,7 +53,7 @@ Wenn sich die Stornierung auf eine Rechnungsteilbuchung bezieht, wird die urspr�
 
 ## <a name="to-correct-a-posted-sales-invoice"></a>Gebuchte Verkaufsrechnung korrigieren
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Gebuchte Verkaufsrechnungen** ein und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Gebuchte Verkaufsrechnungen** ein und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die gebuchte Verkaufsrechnung, die Sie korrigieren möchten.
 
     > [!NOTE]  
@@ -67,7 +67,7 @@ Wenn sich die Stornierung auf eine Rechnungsteilbuchung bezieht, wird die urspr�
     Eine Verkaufsgutschrift wird automatisch erstellt und gebucht, um die ursprüngliche gebuchte Verkaufsrechnung zu stornieren.
 5. Wählen Sie die Registerkarte **Korrekturgutschrift anzeigen** aus, um die gebuchte Verkaufsgutschrift anzuzeigen, die die gebuchte Verkaufsrechnung storniert.
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 [Verkauf](sales-manage-sales.md)  
 [Einrichten von Verkäufen](sales-setup-sales.md)  

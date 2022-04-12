@@ -10,12 +10,12 @@ ms.search.keywords: personalization
 ms.search.form: 31
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6d2fd979106f1ec9923eb3fed5717eb7e2c05b23
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: afa3806cd0597ffe04c516f586ea58fab83c0bc2
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141697"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515849"
 ---
 # <a name="displaying-lists-in-different-ways"></a>Anzeigen von Listen in verschiedenen Ansichten
 In der rechten Ecke einer Liste in [!INCLUDE[prod_short](includes/prod_short.md)] finden Sie Symbole, mit denen Sie wählen können, wie die Liste der Datensätze angezeigt wird. Eine Liste kann als detaillierte Zeilen angezeigt werden. Dies ist ideal, wenn Sie mit vielen Feldern arbeiten oder Felder in der Liste bearbeiten müssen. Sie können aber auch wechseln, um Datensätze als Kacheln anzuzeigen. Dies ist kompakter und zeigt weniger Felder im jeweiligen Datensatz. Diese Ansicht ist sehr nützlich, um eine Übersicht mehrerer Posten zu erhalten und ist insbesondere auf kleineren Geräten hilfreich, da es das Tippen auf jeden Posten erleichtert und kompakt ist.
@@ -25,7 +25,7 @@ Auf der Seite **Artikel** haben Sie Bilder, die es ermöglichen Ihnen einen schn
 
 Sie können Artikelbilder einzeln oder für mehrere Artikel gleichzeitig importieren. Weitere Informationen finden Sie unter [Importieren mehrerer Artikelbilder](inventory-how-import-item-pictures.md).  
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Neue Artikel registrieren](inventory-how-register-new-items.md)  
 

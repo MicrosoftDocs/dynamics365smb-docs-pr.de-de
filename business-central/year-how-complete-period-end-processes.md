@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 3b2ab40e0386ced967ad3f389f70817321d9bd92
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 8803669a32df335275e9419cf247e501c408a2f9
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142724"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514257"
 ---
 # <a name="overview-of-tasks-to-close-accounting-periods"></a>Überblick zu Aufgaben, Buchhaltungsperioden zu schließen
 
@@ -63,9 +63,9 @@ ms.locfileid: "8142724"
 
 * Schließen Sie Steuer-Abrechnungen ab.  
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
-[Beenden von Jahresabschluss und Perioden](year-close-years-periods.md)  
+[Jahre und Perioden abschließen](year-close-years-periods.md)  
 [Schließen der Bücher](year-close-books.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

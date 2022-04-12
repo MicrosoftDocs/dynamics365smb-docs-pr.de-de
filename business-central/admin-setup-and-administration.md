@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 07/23/2021
 ms.author: edupont
-ms.openlocfilehash: 26e675073dde5cae0b14f0f3ee3526ba44e4200f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b7a20d6f116a383332b5daab6aa059839f608276
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143868"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521176"
 ---
 # <a name="administration"></a>Verwaltung
 
@@ -68,7 +68,7 @@ Interne und stellvertretende Administratoren haben Zugriff auf das [!INCLUDE [pr
 [Geschäftsfunktionen](across-business-functionality.md)  
 [Allgemeine Geschäftsfunktionen](ui-across-business-areas.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Vorbereitung für die Geschäftstätigkeit](ui-get-ready-business.md)  
+[Vorbereiten auf die Geschäftsabwicklung](ui-get-ready-business.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

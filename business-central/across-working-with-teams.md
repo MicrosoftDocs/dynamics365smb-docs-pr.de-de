@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, share records
 ms.date: 05/19/2021
 ms.author: jswymer
-ms.openlocfilehash: 4d8ca98d4e13d50bcf58f4a66956c33b1d0996f3
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d663f3099f90f5eccff3ab5acefc97f8b27629b2
+ms.sourcegitcommit: d6af3155bb818430f22d5caca78df322a8d9b178
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147112"
+ms.lasthandoff: 04/01/2022
+ms.locfileid: "8528449"
 ---
 # <a name="sharing-business-central-records-and-page-links-in-microsoft-teams"></a>Gemeinsame Nutzung von Business Central Datensätzen und Seitenlinks in Microsoft Teams
 
@@ -45,7 +45,7 @@ In den folgenden Abschnitten werden die verschiedenen Möglichkeiten im Detail b
 
 Mit der Business Central-App für Teams können Sie einen Link aus einem beliebigen Business Central-Datensatz, z.B. einem Debitor oder Verkaufsauftrag, kopieren und in eine Teams-Unterhaltung einfügen. Die App verbindet Microsoft Teams mit Ihren Geschäftsdaten in [!INCLUDE [prod_short](includes/prod_short.md)]\. Anschließend erweitert sie den Link zu einer kompakten, interaktiven Karte, die Informationen über den Datensatz anzeigt. Wenn Sie sich in der Unterhaltung befinden, können Sie und Ihre Mitarbeiter weitere Details zum Datensatz anzeigen, Daten bearbeiten und Maßnahmen ergreifen&mdash;ohne Teams zu verlassen.
 
-[![Teams-Integration mit Business Central.](media/teams-intro-v3.png)](media/teams-intro-v3.png#lightbox)
+[![Teams-Integration in Business Central](media/teams-intro-vBC20.png)](media/teams-intro-vBC20.png#lightbox)
 
 ### <a name="prerequisites"></a>Voraussetzungen
 
@@ -60,38 +60,36 @@ Mit der Business Central-App für Teams können Sie einen Link aus einem beliebi
 1. Verwenden Sie Ihren Browser, um sich bei [!INCLUDE [prod_short](includes/prod_short.md)] anzumelden.
 2. Öffnen Sie den Datensatz, den Sie teilen möchten.
 
-    Die App ist so konzipiert, dass sie Seiten vom Typ Karte aus [!INCLUDE [prod_short](includes/prod_short.md)]\. anzeigt. Öffnen Sie daher eine Seite, auf der ein einzelner Datensatz angezeigt wird, z. B. ein Artikel, ein Kunde oder ein Verkaufsauftrag. Sie können sie nicht für Rollencenter oder Seiten verwenden, auf denen mehrere Datensätze in einer Liste angezeigt werden.
+    Die App dient zum Anzeigen einer Karte für fast alle Typen von [!INCLUDE [prod_short](includes/prod_short.md)]-Seiten. Sie bietet jedoch die beste Umgebung, wenn es für Seiten verwendet wird, die einen einzelnen Datensatz anzeigen, wie z. B. einen Artikel, einen Kunden oder einen Verkaufsauftrag.
+3. Kopieren Sie den Link auf die Seite.
 
-3. Kopieren Sie die gesamte URL aus der Adressleiste des Browsers.
+    Es gibt zwei Möglichkeiten, den Link zu kopieren. Die einfachste und bevorzugte Weise ist die Auswahl von **Freigeben** ![Symbol in Business Central freigeben](media/share-icon.png) > **Link kopieren**. Die andere Möglichkeit besteht darin, die gesamte URL direkt aus der Adressleiste des Browsers zu kopieren.
 
-   ![Kopieren Sie die Business Central URL aus dem Browser.](media/teams-url-v2.png)
+    [![Kopieren Sie die Business Central-URL aus dem Browser.](media/teams-copy-link.png)](media/teams-copy-link.png#lightbox)
 4. Wechseln Sie zu Teams und beginnen Sie eine Unterhaltung, die mit einer Person, einer Personengruppe oder einem Teamkanal geführt werden kann.
+5. Fügen Sie den Link (die URL) in das Nachrichtenfeld ein, in dem Sie die Nachricht erstellen.
 
-    <!--Teams imposes a few limitations here eg. you cannot unfurl a link during a Voice/Video call :/ We should probably only mention this in a Troubleshooting section (and i hope it will also be fixed soon)-->
-5. Fügen Sie die URL in das Feld Nachrichten ein, in dem Sie die Nachricht erstellen.
+    ![Fügen Sie die Business Central URL in Teams ein.](media/teams-paste-url-v2.png)
 
-   ![Fügen Sie die Business Central URL in Teams ein.](media/teams-paste-url-v2.png)
+    > [!TIP]
+    > Wenn Sie beispielsweise die Meldung *Business Central möchte eine Vorschau dieses Links anzeigen.* erhalten, bedeutet dies, dass Sie die Business Central-App für Teams nicht installiert haben. Um die App zu installieren, wählen Sie **Vorschauversion zeigen** aus, und folgen Sie den Anweisungen.
 6. Wenn Sie zum ersten Mal einen Link in eine Unterhaltung einfügen, werden Sie aufgefordert, sich bei [!INCLUDE [prod_short](includes/prod_short.md)] anzumelden und der App die Zustimmung zum Datenabruf zu geben. Folgen Sie einfach den Anweisungen auf dem Bildschirm.
 
     > [!NOTE]
     > Sie müssen diesen Schritt nur einmal ausführen.
-
 7. Warten Sie einen Moment, während eine Karte im Nachrichtenfeld generiert wird.
-
 8. Wenn die Karte angezeigt wird, überprüfen Sie den Inhalt der Karte sorgfältig auf sensible Informationen, bevor Sie die Nachricht senden. Dieser Schritt ist wichtig, da nach dem Senden der Nachricht jeder Unterhaltungsteilnehmer die Karte sehen kann.
-
 9. Wenn Sie mit der Karte zufrieden sind, wählen Sie **Senden** aus, um sie der Unterhaltung hinzuzufügen.
 
     > [!TIP]
     > Nachdem die Karte angezeigt wird und bevor Sie **Senden** auswählen, können Sie die eingefügte URL bei Bedarf löschen.
-
 10. Um weitere Details anzuzeigen oder Änderungen an der Karte vorzunehmen, wählen Sie **Details** aus. Weitere Informationen finden Sie im nächsten Abschnitt.
 
 ### <a name="view-card-details"></a>Kartendetails anzeigen
 
-Sobald eine Karte an ein Gespräch gesendet wurde, können alle Teilnehmer mit den [ordnungsgemäßen Berechtigungen](admin-teams-integration.md#permissions) **Einzelheiten** auswählen, um ein Fenster zu öffnen, in dem weitere Informationen zum Datensatz angezeigt werden&mdash; und möglicherweise Änderungen am Datensatz vornehmen. Es spielt keine Rolle, ob Sie die Karte senden oder die Karte empfangen. Die Funktion **Details** ist besonders für Empfänger nützlich, da sie ihnen schnell präzise und zielgerichtete Informationen über den Datensatz liefert, anstatt den gesamten Datensatz scannen zu müssen.
+Sobald eine Karte an ein Gespräch gesendet wurde, können alle Teilnehmer mit den [ordnungsgemäßen Berechtigungen](admin-teams-integration.md#permissions) **Einzelheiten** auswählen, um ein Fenster zu öffnen, in dem weitere Informationen zum Datensatz angezeigt werden&mdash; und möglicherweise Änderungen am Datensatz vornehmen. Es spielt keine Rolle, ob Sie die Karte senden oder die Karte empfangen. Die Funktion **Details** ist besonders für Empfänger nützlich, da sie ihnen schnell präzise und zielgerichtete Informationen über den Datensatz liefert.
 
-Das Detailfenster ähnelt der Seite, die im [!INCLUDE [prod_short](includes/prod_short.md)] Datensatz angezeigt wird. Sie ist für Teams jedoch ein wenig gekürzt. Wenn Sie mit dem Anzeigen und Vornehmen von Änderungen fertig sind, schließen Sie das Fenster, um zur Unterhaltung in Teams zurückzukehren.
+Das Detailfenster ähnelt der Anzeige in [!INCLUDE [prod_short](includes/prod_short.md)], konzentriert sich jedoch auf die Seite oder den Datensatz, um den es auf der Karte geht. Wenn Sie mit dem Anzeigen und Vornehmen von Änderungen fertig sind, schließen Sie das Fenster, um zur Unterhaltung in Teams zurückzukehren.
 
 Hier sind einige Dinge zu beachten, wenn Sie mit den Kartendetails arbeiten:
 

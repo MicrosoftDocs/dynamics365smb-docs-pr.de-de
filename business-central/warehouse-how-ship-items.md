@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 7335, 7337, 7339, 7340, 7341, 7362
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 4cf357c8fac13c4f6ed714ee108020adc53686cc
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 4a5aec398d502b7041c64a405c11ecb8de29179e
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144411"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520630"
 ---
 # <a name="ship-items"></a>Versenden von Artikeln
 
@@ -29,7 +29,7 @@ Wenn Sie Artikel aus einem Lager versenden, das für die Verarbeitung von Warens
 
 Nachfolgend wird erläutert, wie Artikel aus einem Verkaufsauftrag geliefert werden. Die Schritte für Einkaufsreklamationen, Serviceaufträge und ausgehende Umlagerungsaufträge sind ähnlich.  
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Verkaufsaufträge** ein, und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Verkaufsaufträge** ein, und wählen Sie dann den zugehörigen Link.
 2. Öffnen Sie einen Auftrag oder erstellen Sie einen neuen. Weitere Informationen finden Sie unter [Produkte verkaufen](sales-how-sell-products.md)
 3. Geben Sie in dem Feld **Zu liefern** die gelieferte Menge an.
 
@@ -47,7 +47,7 @@ Zuerst erstellen Sie einen Warenausgangsbeleg von einem Geschäftsherkunftsbeleg
 
 Normalerweise erstellt der Mitarbeiter, der für die Lieferung verantwortlich ist, einen Warenausgang. Das folgende Verfahren beschreibt, wie Sie den Versand in der Standardversion von [!INCLUDE[prod_short](includes/prod_short.md)] manuell erstellen. Ihre Organisation hat jedoch möglicherweise einen Teil des Prozesses automatisiert, z. B. mithilfe von tragbaren oder montierten Scannern, die von externen Anbietern unterstützt werden.  
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Warenausgänge** ein und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Warenausgänge** ein und wählen Sie dann den entsprechenden Link.  
 2. Wählen Sie die Aktion **Neu** aus.  
 
     Füllen Sie die Felder auf dem Inforegister **Allgemein** aus. Beim Abrufen der Herkunftsbelegzeilen werden einige der Informationen in jede Zeile kopiert.  
@@ -82,7 +82,7 @@ Wenn Sie die Zeilen haben, die Sie ausliefern möchten, können Sie den Prozess 
 
 In der Regel erstellt ein Lagermitarbeiter, der für das Kommissionieren zuständig ist, einen Kommissionierungsbeleg oder öffnet einen bereits erstellten Kommissionierbeleg.  
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Warenausgänge** ein und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Warenausgänge** ein und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie die Warenausgangslieferung aus, die Sie kommissionieren möchten, und wählen Sie die **Kommissionierung erstellen** Aktion aus.
 3. Füllen Sie die Felder auf der Anforderungsseite aus, und wählen Sie dann die Schaltfläche **OK** aus. Der angegebene Kommissionierbeleg wird erstellt.
 
@@ -112,7 +112,7 @@ Sie können den Kommissionierarbeitsblatt auch verwenden, um mehrere Anweisungen
 [Lagerbestand](inventory-manage-inventory.md)  
 [Lagerortverwaltung einrichten](warehouse-setup-warehouse.md)  
 [Montageverwaltung](assembly-assemble-items.md)  
-[Designdetails: Logistik](design-details-warehouse-management.md)  
+[Designdetails: Warehouse Management](design-details-warehouse-management.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

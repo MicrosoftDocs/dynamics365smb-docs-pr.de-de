@@ -10,12 +10,12 @@ ms.search.keywords: trade, partial deliveries, customer sales order
 ms.search.form: 42, 48, 9305
 ms.date: 01/19/2022
 ms.author: edupont
-ms.openlocfilehash: 8aafbe502c59924703d04711458ec9fa77a604f1
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 52060d74d7ef855a89dd3cffabd4ada435d6b117
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148330"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523267"
 ---
 # <a name="sell-products-with-a-customer-sales-order"></a>Produkte mit einem Debitorenauftrag verkaufen  
 
@@ -34,7 +34,7 @@ Sie können direkt gezahlte Rechnungen für nicht-registrierte Debitoren auch er
 > [!NOTE]  
 > Beim nachfolgenden Verfahren wird davon ausgegangen aus, dass der Debitor bereits eingerichtet ist. Anweisungen dazu finden Sie unter [Neue Debitoren registrieren](sales-how-register-new-customers.md).
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Verkaufsaufträge** ein, und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Verkaufsaufträge** ein, und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie **Neu** aus, um einen neuen Eintrag zu erstellen.
 3. Geben Sie im Feld **Debitor** den Namen eines vorhandenen Debitors ein.
 
@@ -99,7 +99,7 @@ Der zugehörige Artikel und die Debitorenposten werden nun im System erfasst ers
 [Verkauf](sales-manage-sales.md)  
 [Einrichten von Verkäufen](sales-setup-sales.md)  
 [Kommissionierliste drucken](sales-how-print-picking-list.md)  
-[Lagerbestand](inventory-manage-inventory.md)  
+[Bestand](inventory-manage-inventory.md)  
 [Dokumente per E-Mail versenden](ui-how-send-documents-email.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

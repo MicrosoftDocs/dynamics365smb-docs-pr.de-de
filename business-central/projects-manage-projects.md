@@ -8,12 +8,12 @@ ms.search.keywords: projects
 ms.search.form: 89, 200, 289, 290, 376, 462, 463, 1029, 1615, 8904, 9014, 9015
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: af4801956ce27bc282356400513fc22a03860784
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ad87e0db86cb32b80aa14e80042264977605348a
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146254"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517817"
 ---
 # <a name="project-management"></a>Projektmanagement
 
@@ -43,7 +43,7 @@ Projektmanagement ist allein ist schon kompliziert genug, und zu Lernen, wie Pro
 
 [Projektmanagement einrichten](projects-setup-projects.md)  
 [Video: So erstellen Sie ein Projekt in Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  
-[Funktionen, die angezeigt werden ändern](ui-experiences.md)  
+[Ändern, welche Funktionen angezeigt werden](ui-experiences.md)  
 [Einkauf](purchasing-manage-purchasing.md)  
 [Verkauf](sales-manage-sales.md)  
 [Finanzen](finance.md)  

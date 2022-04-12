@@ -10,12 +10,12 @@ ms.search.keywords: dimension, correction, correct, business intelligence
 ms.search.form: 116, 540, 2588
 ms.date: 09/27/2021
 ms.author: bholtorf
-ms.openlocfilehash: 1a5647045e3b7aff1b709096b8b856485ce762e9
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 497daecd0834b2651e52131df809d12d45b18d48
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381723"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519121"
 ---
 # <a name="troubleshooting-and-correcting-dimensions"></a>Fehlersuche und Korrektur von Dimensionen
 
@@ -103,7 +103,7 @@ Wenn die Aktion „Rückgängig“ nicht verfügbar ist, z. B. weil Sie viele K
 
 Seien Sie vorsichtig, wenn Sie große Sätze von Einträgen korrigieren, z. B. Sets mit mehr als 10.000 Einträgen. Wenn Sie können, empfehlen wir, dass Sie die Filter verwenden, um die Korrekturen für kleinere Datensätze auszuführen. Es ist auch eine gute Idee, Korrekturen außerhalb der normalen Geschäftszeiten durchzuführen. 
 
-### <a name="using-analysis-views-with-dimension-corrections"></a>Analyseansichten mit Dimensionskorrekturen verwenden
+### <a name="use-analysis-views-with-dimension-corrections"></a>Analyseansichten mit Dimensionskorrekturen verwenden
 
 Wenn **Bei Buchung aktualisieren** für eine Analyseansicht aktiviert ist, kann [!INCLUDE[prod_short](includes/prod_short.md)] die Ansicht, wann Dokumente und Journale gebucht werden, anzeigen. Sie können Ansichten auch mit dieser Einstellung aktualisieren, die mit Ergebnissen von Dimensionskorrekturen aktiviert ist. Aktivieren Sie dazu den Umschalter **Analyseansichten aktualisieren**. Das Aktualisieren von Analyseansichten kann sich auf die Leistung auswirken, insbesondere bei großen Datenmengen. Wir empfehlen daher, die Analyseansichten nur bei kleinen Datenmengen zu aktualisieren.  
 
@@ -118,7 +118,7 @@ Wenn eine Korrektur nicht abgeschlossen ist, wird auf der Korrekturkarte eine Wa
 > [!NOTE]
 > Das Zurücksetzen einer unvollständigen Korrektur wirkt sich nicht auf Aktualisierungen der Analyseansichten aus, da diese am Ende des Korrekturprozesses erfolgen.
 
-### <a name="using-cost-accounting-with-corrected-gl-entries"></a>Verwenden von Kostenrechnung mit korrigierten Sachkonteneinträgen
+### <a name="use-cost-accounting-with-corrected-gl-entries"></a>Verwenden von Kostenrechnung mit korrigierten Sachkonteneinträgen
 
 Nachdem Sie die Dimensionen korrigiert haben, sind Ihre Daten für die Kostenrechnung nicht mehr synchron. Die Kostenrechnung verwendet Dimensionen, um Beträge für Kostenstellen und Kostenobjekte zu aggregieren und Kostenzuordnungen durchzuführen. Das Ändern der Abmessungen für Sachkontenbuchungen bedeutet wahrscheinlich, dass Sie Ihre Kostenrechnungsmodelle erneut ausführen. Ob Sie nur einige Kostenregister löschen und Zuordnungen erneut ausführen müssen oder alles löschen und alle Ihre Modelle erneut ausführen müssen, hängt von den aktualisierten Daten und der Einrichtung Ihrer Kostenrechnungsfunktionen ab. Sie müssen manuell ermitteln, wo sich Korrekturen an Dimensionen auf die Kalkulation auswirken und wo Aktualisierungen erforderlich sind. [!INCLUDE[prod_short](includes/prod_short.md)] bietet derzeit keine automatisierte Möglichkeit, dies zu tun.
 

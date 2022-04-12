@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 00b2cd6f4e0b7a141bd6c31dc61ceac909407376
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 4afda1c307f0f327196ad3dc0d53d74842bf3d9f
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140293"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523074"
 ---
 # <a name="walkthrough-conducting-a-sales-campaign"></a>Exemplarische Vorgehensweise Durchführen einer Verkaufskampagne
 
@@ -68,7 +68,7 @@ Eine Kampagne ist eine Aktivität, die mehrere Kontakte umfasst. Ein wichtiger S
 
 ### <a name="to-set-up-a-campaign"></a>So richten Sie eine Kampagne ein  
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Kampagnen** ein, und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Kampagnen** ein, und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die **Neu** Aktion aus, um eine neue Kampagne zu erstellen. Klicken Sie auf die Kampagnenkarte, drücken Sie die **Eingabetaste**, um eine Kampagnennummer automatisch einfügen zu lassen.  
 3. Geben Sie im Feld **Beschreibung** eine Beschreibung für die Kampagne ein, z. B. **Office Futurus-Messe**.  
 4. Wählen Sie das Feld **Statuscode** und den Statuscode „1-PLAN“ aus. 
@@ -160,11 +160,11 @@ Der Marketingmanager entscheidet, dass die reduzierte Liste als endgültige Kont
 
 Die Dateianhänge werden gesendet. Wenn der Vorgang abgeschlossen ist, wählen Sie die Schaltfläche **OK** für die Meldung aus, die angibt, dass das Segment protokolliert wurde.  
 
- Die Briefe werden automatisch gedruckt, und das Segment wird protokolliert. Da das Segment protokolliert wurde, ist es nicht mehr in der Liste der Segmente vorhanden, sondern wurde in die Liste der protokollierten Segmente verschoben. Um diese Liste zu sehen, wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Protokollierte Segmente** ein und wählen Sie dann den zugehörigen Link.  
+ Die Briefe werden automatisch gedruckt, und das Segment wird protokolliert. Da das Segment protokolliert wurde, ist es nicht mehr in der Liste der Segmente vorhanden, sondern wurde in die Liste der protokollierten Segmente verschoben. Um diese Liste zu sehen, wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Protokollierte Segmente** ein und wählen Sie dann den zugehörigen Link.  
 
 Nachdem das Segment protokolliert ist, wird jeder Brief, der versendet wurde, als Aktivität gespeichert, die Sie im Protokoll einsehen können.  
 
-Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Interaktionsprotokollposten** ein und wählen Sie dann den zugehörigen Link. Es gibt jeweils einen Posten für jeden gesendeten Brief.  
+Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Interaktionsprotokollposten** ein und wählen Sie dann den zugehörigen Link. Es gibt jeweils einen Posten für jeden gesendeten Brief.  
 
 ### <a name="to-send-an-email-message-to-a-contact"></a>So senden Sie eine E-Mail-Nachricht an einen Kontakt  
 

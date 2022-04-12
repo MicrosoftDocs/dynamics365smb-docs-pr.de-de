@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 3f663ca22cdcfde38b42ac0285eaf403a9e0982d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 261e2908f7f7ed3a47a337b2c3f49d7c633f1cce
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8129167"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522352"
 ---
 # <a name="specify-when-and-how-to-receive-workflow-notifications"></a>Legen Sie fest, wann und wie Sie Workflow-Benachrichtigungen erhalten möchten
 Wenn Sie Genehmigungsbenutzer in Workflows festlegen, in denen jemand Änderungen genehmigen soll, z.B. wenn neue Datensätze erstellt werden oder wenn jemand eine Genehmigung beantragt, müssen Sie angeben, wie und wann der Genehmigungsbenutzer benachrichtigt werden soll. Sie können z.B. festlegen, dass ein Genehmigter sofort eine E-Mail erhält, wenn jemand einen neuen Debitor erstellt. Alternativ können Sie die Zustellung der Benachrichtigungen auch planen, z.B. auf wöchentlicher oder monatlicher Basis.
@@ -36,7 +36,7 @@ Mit vielen Workflowschritten zur Genehmigung werden Benutzer darüber benachrich
 
 ## <a name="specify-when-and-how-users-receive-notifications"></a>Angeben des Zeitpunkts und der Art des Empfangs von Benachrichtigungen  
 
-1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Genehmigungsbenutzereinrichtung** ein, und wählen Sie dann den zugehörigen Link.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Genehmigungsbenutzereinrichtung** ein, und wählen Sie dann den zugehörigen Link.  
 2.  Wählen Sie die Zeile für den Benutzer aus, für den Sie Benachrichtigungseinstellungen festlegen möchten, und wählen Sie dann die Aktion **Benachrichtigungseinrichtung** aus.  
 3.  Füllen Sie auf der Seite **Benachrichtigung einrichten** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 

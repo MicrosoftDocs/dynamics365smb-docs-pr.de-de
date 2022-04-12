@@ -9,17 +9,17 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: addc48ca52ea27ee7c63b8f8c1b44af8a2f1eb63
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: b4fb329c076cab03b6ea5ccc78813ad57ae29db3
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383105"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517030"
 ---
 # <a name="integrating-with-dynamics-365-sales"></a>Integration mit Dynamics 365 Sales
 
 
-Die Rolle des Verkäufers wird häufig als eine der am meisten nach außen gerichteten Tätigkeiten in einem Unternehmen angesehen. Es kann jedoch für Verkäufer hilfreich sein, einen Blick in das Innere des Unternehmens zu werfen und zu erfahren, was am anderen Ende passiert. Durch die Integration von [!INCLUDE[crm_md](includes/crm_md.md)] und [!INCLUDE[prod_short](includes/prod_short.md)] können Sie Ihren Verkäufern diese Einblicke ermöglichen, indem Sie es ihnen ermöglichen, diese Informationen in [!INCLUDE[prod_short](includes/prod_short.md)] abzurufen, während sie in [!INCLUDE[crm_md](includes/crm_md.md)] arbeiten. Bei der Vorbereitung eines Verkaufsangebots kann es zum Beispiel hilfreich sein, zu wissen, ob ausreichend Lagerbestand vorhanden ist, um die Bestellung zu erfüllen. Weitere Informationen finden Sie unter [Verwenden von Dynamics 365 Sales von Business Central](marketing-integrate-dynamicscrm.md).
+Die Rolle des Verkäufers wird häufig als eine der am meisten nach außen gerichteten Tätigkeiten in einem Unternehmen angesehen. Es kann jedoch für Verkäufer hilfreich sein, einen Blick in das Innere des Unternehmens zu werfen und zu erfahren, was am anderen Ende passiert. Durch die Integration von [!INCLUDE[crm_md](includes/crm_md.md)] und [!INCLUDE[prod_short](includes/prod_short.md)] können Sie Ihren Verkäufern diese Einblicke ermöglichen, indem Sie es ihnen ermöglichen, diese Informationen in [!INCLUDE[prod_short](includes/prod_short.md)] abzurufen, während sie in [!INCLUDE[crm_md](includes/crm_md.md)] arbeiten. Bei der Vorbereitung eines Verkaufsangebots kann es zum Beispiel hilfreich sein, zu wissen, ob ausreichend Lagerbestand vorhanden ist, um die Bestellung zu erfüllen. Weitere Informationen finden Sie unter [Dynamics 365 Sales von Business Central verwenden](marketing-integrate-dynamicscrm.md).
 
 > [!NOTE]
 > Dieses Thema beschreibt den Prozess der Integration der Online-Versionen von [!INCLUDE[crm_md](includes/crm_md.md)] und [!INCLUDE[prod_short](includes/prod_short.md)] bis [!INCLUDE[prod_short](includes/cds_long_md.md)]. Informationen zur lokalen Konfiguration finden Sie unter [Dynamics 365 Sales für die lokale Integration vorbereiten](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration).
@@ -80,6 +80,7 @@ Zusätzlich zu den oben genannten Einstellungen geben Sie folgende Einstellungen
 | **Auftragsintegration ist aktiviert** | Ermöglichen Sie es Benutzern, Verkaufsaufträge und aktivierte Angebote in [!INCLUDE[crm_md](includes/crm_md.md)] zu senden und sie dann in [!INCLUDE[prod_short](includes/prod_short.md)] anzuzeigen und zu bearbeiten. Dies integriert den Prozess in [!INCLUDE[crm_md](includes/crm_md.md)]. Weitere Informationen finden Sie unter [Integration für Vertriebsauftragsverarbeitung aktivieren](/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration). |
 | **Verkaufsaufträge automatisch erstellen** | Erstellen Sie einen Verkaufsauftrag in [!INCLUDE[prod_short](includes/prod_short.md)], wenn ein Benutzer einen in [!INCLUDE[crm_md](includes/crm_md.md)] erstellt und sendet. |
 | **Verkaufsangebote automatisch verarbeiten** | Verarbeiten Sie ein Verkaufsangebot in [!INCLUDE[prod_short](includes/prod_short.md)], wenn ein Benutzer eins in [!INCLUDE[crm_md](includes/crm_md.md)] erstellt und aktiviert. Weitere Informationen finden Sie im Abschnitt [Handhaben von Verkaufsangebotsdaten](/dynamics365/business-central/marketing-integrate-dynamicscrm?tabs=new-experience#handling-sales-quotes-data). |
+|**Bidirektionale Synchronisierung von Verkaufsaufträgen**|Synchronisieren Sie Verkaufsaufträge in beide Richtungen. Wenn ein Kunde beispielsweise seine Meinung bezüglich des bestellten Produkts oder der Bestellmenge ändert [!INCLUDE[crm_md](includes/crm_md.md)], können Sie die Änderung in [!INCLUDE[prod_short](includes/prod_short.md)] bearbeiten, indem Sie den Verkaufsbeleg archivieren und einen neuen erstellen. Dasselbe gilt für Änderungen in [!INCLUDE[prod_short](includes/prod_short.md)]. Wenn sich beispielsweise Preise, Steuerbeträge oder voraussichtliche Warenausgangsdaten ändern, werden die Änderungen automatisch mit [!INCLUDE[crm_md](includes/crm_md.md)] synchronisiert. Dadurch bleiben Ihre Verkäufer über die neuesten Änderungen und den Status von Angeboten und Bestellungen auf dem Laufenden.|
 
 <!--
 ### User Account Settings
@@ -104,7 +105,7 @@ Die folgende Tabelle zeigt die standardmäßige Zuordnung zwischen Tabellen in [
 | Verkaufschance | Verkaufschance | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[prod_short](includes/cds_long_md.md)] und [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] |  |
 | Verkaufsrechnungskopf | Fakturieren | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] |  |
 | Verkaufsrechnungszeile | Rechnungsprodukt | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] |  |
-| Verkaufsauftrags-Kopf | Verkaufsauftrag | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] | [!INCLUDE[prod_short](includes/prod_short.md)] Verkaufskopffilter: **Dokumentart** ist Auftrag. **Status** ist freigegeben |
+| Verkaufsauftrags-Kopf | Verkaufsauftrag | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] und [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] <br><br> Um in beide Richtungen zu synchronisieren, müssen Sie den Umschalter **Bidirektionale Synchronisierung von Verkaufsaufträgen** auf der Seite **Dynamics 365-Verbindungseinrichtung** aktivieren.| [!INCLUDE[prod_short](includes/prod_short.md)] Verkaufskopffilter: **Dokumentart** ist Auftrag. **Status** ist freigegeben |
 | Hinweise zu Verkaufsaufträgen | Hinweise zu Verkaufsaufträgen | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] und [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] |  |
 
 > [!NOTE]

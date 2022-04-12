@@ -10,12 +10,12 @@ ms.search.keywords: client, customer, credit
 ms.search.form: 7, 21, 22, 33, 42, 43, 367, 368, 369, 461, 512, 785, 1330, 1380, 1381, 1382, 1627, 2107, 7177, 9080, 9081, 9084, 9301, 9305
 ms.date: 09/24/2021
 ms.author: edupont
-ms.openlocfilehash: f1b37df909e482f9f4102eab70ce82cdef999a12
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: e0bd4ae513428cb951e4b8cc23fe46b91dd1f683
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137003"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520126"
 ---
 # <a name="register-new-customers"></a>Neue Debitoren registrieren
 
@@ -65,11 +65,11 @@ Das Feld **Kreditlimit** auf einer Debitorenkarte gibt den Höchstbetrag an, mit
 
 Sie können jedoch weiterhin Buchungen vornehmen, auch wenn das Kreditlimit überschritten wird. Wenn Sie das Feld leer lassen, verfügt der Debitor über ein unbegrenztes Kreditlimit.  
 
-Sie können festlegen, dass keine Warnungen angezeigt werden, die darauf hinweisen, dass das Kreditlimit des Kunden überschritten wurde, und Sie können angeben, welche Arten von Warnungen angezeigt werden sollen.
+Sie können festlegen, dass keine Warnungen angezeigt werden, die darauf hinweisen, dass das Kreditlimit des Debitors überschritten wurde, und Sie können angeben, welche Arten von Warnungen angezeigt werden sollen.
 
 ### <a name="to-specify-credit-limit-warnings"></a>So legen Sie Kreditlimitwarnungen fest
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Einrichtung Debitoren & Verkauf** ein und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Einrichtung Debitoren & Verkauf** ein und wählen Sie dann den entsprechenden Link.
 
 2. Wählen Sie im Inforegister **Allgemein** im Feld **Kreditlimitwarnung** die entsprechende Option aus, wie in der folgenden Tabelle beschrieben:
 

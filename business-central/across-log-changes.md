@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: user log, user activity, tracking
 ms.search.form: 592, 593, 594, 595, 710, 1366, 1367, 1368, 1369
-ms.date: 04/01/2021
+ms.date: 03/24/2022
 ms.author: edupont
-ms.openlocfilehash: c04be33b2c84cd89872765a3781ad2c553ced442
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 0fda7235af0868a87ac4d76afa3f1030cdf83600
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138778"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523241"
 ---
 # <a name="auditing-changes-in-business-central"></a>Protokollieren von Änderungen in Business Central
 
@@ -40,8 +40,7 @@ Das Änderungsprotokoll wird auch aus Performance-Gründen während des Upgrades
 > * Der Benutzer hat ein anderes Unternehmen oder Rollencenter ausgewählt.
 > * Der Benutzer hat sich abgemeldet und erneut angemeldet.
 
-### <a name="working-with-the-change-log"></a>Arbeiten mit dem Änderungsprotokoll
-
+### <a name="work-with-the-change-log"></a>Mit dem Änderungsprotokoll arbeiten
 Sie verwenden die Seite **Änderungsprotokoll einrichten** zum Aktivieren bzw. Deaktivieren des Änderungsprotokolls. Wenn Sie das Änderungsprotokoll aktivieren bzw. deaktivieren, wird diese Aktivität protokolliert, sodass Sie immer sehen, welcher Anwender die Protokollierung an- bzw. abgeschaltet hat.
 
 Wenn Sie auf der Seite **Einrichtung des Änderungsprotokolls** die Aktion **Tabellen** wählen, können Sie angeben, für welche Tabellen Sie Änderungen verfolgen wollen und welche Änderungen verfolgt werden sollen. Mit [!INCLUDE[prod_short](includes/prod_short.md)] werden auch mehrere Systemtabellen verfolgt.
@@ -55,8 +54,7 @@ Wenn Sie das Änderungsprotokoll eingerichtet und aktiviert haben und jemand Dat
 
 Von einigen Seiten in [!INCLUDE [prod_short](includes/prod_short.md)] können Sie ein Aktivitätsprotokoll anzeigen, in dem der Status und alle Fehler von Dateien angezeigt werden, aus denen Sie exportieren oder in die Sie importieren [!INCLUDE [prod_short](includes/prod_short.md)].  
 
-### <a name="working-with-activity-logs"></a>Arbeiten mit Aktivitätsprotokollen
-
+### <a name="work-with-activity-logs"></a>Mit Aktivitätsprotokollen arbeiten
 Die Informationen werden auf der Seite **Aktivitätsprotokoll** angezeigt, entsprechend dem Kontext, aus dem sie geöffnet wurden. Sie können die Seite beispielsweise über die Seiten **Belegaustauschdienst – Einrichtung**, **Eingehender Beleg**, **Gebuchte Verkaufsrechnung** und **Geb. Verkaufsgutschrift** öffnen. Sie können die Liste der Protokolleinträge leeren oder die Liste der Einträge löschen, die älter als sieben Tage sind.  
 
 ## <a name="monitoring-sensitive-fields"></a>Überwachen sensibler Felder
@@ -82,7 +80,7 @@ Sie können Einstellungen für die Feldüberwachung (z. B. ob eine E-Mail-Benac
 > [!NOTE]
 > Nachdem Sie ein oder mehrere Felder hinzugefügt und mit der Überwachung begonnen haben, müssen Sie sich bei [!INCLUDE[prod_short](includes/prod_short.md)] abmelden und erneut anmelden, damit Ihre Einstellungen übernommen werden.
 
-### <a name="working-with-field-monitoring"></a>Arbeiten mit der Feldüberwachung
+### <a name="work-with-field-monitoring"></a>Mit der Feldüberwachung arbeiten
 
 Einträge für alle geänderten Werte für überwachte Felder sind auf der Seite **Protokolleinträge für überwachte Felder** verfügbar. Die Einträge enthalten zum Beispiel die folgenden Informationen:
 
@@ -107,7 +105,7 @@ Sie können Aufbewahrungsrichtlinien erstellen, um nicht benötigte Daten in Pro
 
 [Ändern von grundlegenden Einstellungen](ui-change-basic-settings.md)  
 [Sortieren, Suchen und Filtern](ui-enter-criteria-filters.md)  
-[Suche nach Seiten und Informationen mit Tell Me](ui-search.md)  
+[Suche nach Seiten und Informationen mit „Sie wünschen...“](ui-search.md)  
 [Berechtigungen an Benutzer und Gruppen zuweisen](ui-define-granular-permissions.md)    
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Aufbewahrungsrichtlinien definieren](admin-data-retention-policies.md)  

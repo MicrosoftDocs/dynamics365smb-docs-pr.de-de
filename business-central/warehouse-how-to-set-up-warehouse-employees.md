@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 7328, 7348
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 668b34e011ec103689b45bdc864a7e726d4d8082
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 7c04e2e81876628a8b6fe9534bb7ecdbb960bcc8
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141925"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511317"
 ---
 # <a name="set-up-warehouse-employees"></a>Lagermitarbeiter einrichten
 
@@ -22,7 +22,7 @@ Jeder Benutzer, von dem Lageraktivitäten ausgeführt werden, muss als Lagermita
 
 ## <a name="to-set-up-warehouse-employees"></a>So richten Sie die Lagermitarbeiter ein:  
 
-1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Lagermitarbeiter** ein, und wählen Sie dann den zugehörigen Link.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Lagermitarbeiter** ein, und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die Aktion **Neu** aus.  
 3. Wählen Sie das Feld **Benutzer-ID** und dann den Benutzer aus, der als Lagermitarbeiter hinzugefügt werden soll. Wählen Sie die Schaltfläche **OK** aus.  
 4. Geben Sie im Feld **Lagerortcode** den Code des Lagerorts ein, an dem der Lagermitarbeiter arbeitet.  
@@ -33,9 +33,9 @@ Jeder Benutzer, von dem Lageraktivitäten ausgeführt werden, muss als Lagermita
 
 [Logistik](warehouse-manage-warehouse.md)  
 [Lagerbestand](inventory-manage-inventory.md)  
-[Lagerverwaltung einrichten](warehouse-setup-warehouse.md) 
+[Warehouse Management einrichten](warehouse-setup-warehouse.md) 
 [Montageverwaltung](assembly-assemble-items.md)
-[Designdetails: Lagerverwaltung](design-details-warehouse-management.md)  
+[Designdetails: Warehouse Management](design-details-warehouse-management.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

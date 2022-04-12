@@ -7,15 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
-ms.search.form: 44, 134, 143, 9302, 9304, 6662
+ms.search.form: 44, 134, 143, 6629, 6630, 6633, 6662, 9302, 9304, Report_6646
 ms.date: 09/27/2021
 ms.author: edupont
-ms.openlocfilehash: cf613ce6898165bca4a881a045ed4b86ef327f35
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: ad8dbaae34876678c199501648cf9d5e10a90ed0
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8366988"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522590"
 ---
 # <a name="process-sales-returns-or-cancellations"></a>Verarbeiten einer Verkaufsrücklieferung oder von Stornierungen
 
@@ -38,7 +38,7 @@ Die Gutschriftsbuchung stellt auch jegliche Artikel Zu-/Abschläge wieder her, d
 
 ## <a name="to-create-a-sales-credit-memo-from-a-posted-sales-invoice"></a>Erstellt eine neue Verkaufsgutschrift, um eine gebuchte Verkaufsrechnung zurückzusetzen.  
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie **Gebuchte Verkaufsrechnungen** ein und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Gebuchte Verkaufsrechnungen** ein und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie auf der Seite **Gebuchte Verkaufsrechnungen** die gebuchte Verkaufsrechnung aus, die Sie stornieren möchten, wählen Sie die Aktion **Stornieren** und wählen Sie dann die Aktion **Korrekturgutschrift erstellen**.
 
     Der Verkaufsgutschriftskopf enthält einige Informationen aus der gebuchten Verkaufsrechnung. Sie können alle Felder bearbeiten, zum Beispiel mit neuen Daten, die die Rückholvereinbarung wiedergeben.  
@@ -61,7 +61,7 @@ Die gebuchten Verkaufsdokumente für die entsprechende Gutschrift werden nun sto
 
 ## <a name="to-create-a-sales-credit-memo-by-copying-a-posted-sales-invoice"></a>Erstellt eine neue Verkaufsgutschrift, um eine gebuchte Verkaufsrechnung zurückzusetzen.
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie **Verkaufsgutschriften** ein und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Verkaufsgutschriften** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie **Neu**, um eine neue leere Verkaufsgutschrift zu öffnen.
 3. Geben Sie in das Feld **Kundenname** den Namen eines bestehenden Kunden ein.
 4. Wählen Sie die Aktion **Vorbereiten** und dann die Aktion **Dokument kopieren**.
@@ -75,7 +75,7 @@ Die gebuchten Verkaufsdokumente für die entsprechende Gutschrift werden nun sto
 Sie können einem Debitoren eine Gutschrift mit einem Preisnachlass ausstellen, wenn der Debitor leicht beschädigte Artikel erhalten hat oder die Artikel zu spät geliefert wurden.  
 Sie können diesen herabgesetzten Preis als Zu-/Abschlag (Artikel) in einer Gutschrift oder einer Reklamation buchen und ihn der gebuchten Lieferung zuordnen. Nachfolgend wird es für eine Verkaufsreklamation erläutert, aber dieselben Schritte gelten für eine Verkaufsgutschrift.
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Verkaufsgutschriften** ein und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Verkaufsgutschriften** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie **Neu**, um eine neue leere Verkaufsgutschrift zu öffnen.
 3. Füllen Sie den Kopf der Gutschrift mit den entsprechenden Informationen über den Debitor aus, dem Sie den Verkaufsrabatt gewähren möchten.  
 4. Wählen Sie auf dem Inforegister **Zeilen** im Feld **Art** die Option **Zu-/Abschlag (Artikel)**.  

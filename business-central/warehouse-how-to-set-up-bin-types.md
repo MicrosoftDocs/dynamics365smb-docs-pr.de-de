@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 7367
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: f45908cf5a1d4352039cf83ab1db2719caca8a53
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: 8fb409e9ca0a8540fa2ea997faae790f78086d6e
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8334590"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520048"
 ---
 # <a name="set-up-bin-types"></a>Lagerplatzarten einrichten
 Sie können den Warenfluss durch die Lagerplätze steuern, die Sie für bestimmte Logistikaktivitäten definiert haben. Sie weisen jedem Lagerplatz eine Lagerplatzart zu und ordnen dadurch dem Lagerplatz seine grundlegenden Warenflussaktivitäten zu, und definieren hiermit auf welche ein Lagerplatz verwendet wird.  
@@ -22,7 +22,7 @@ Sie können den Warenfluss durch die Lagerplätze steuern, die Sie für bestimmt
 Es gibt sechs Arten. Sie können Ihr Lager mit allen möglichen sechs Lagerplatzarten betreiben oder Sie entscheiden sich, nur die Lagerplatzarten EING, EINLAGKOMM, AUSG und QK zu verwenden. Diese vier Lagerplatzarten ermöglichen der Anwendung, Vorschläge zu machen, um den Warenfluss zu unterstützen, und sie geben Ihnen die Möglichkeit, Abweichungen im Lagerbestand zu erfassen.  
 
 ## <a name="to-set-up-the-bin-types-you-want-to-use"></a>So richten die Lagerplatzarten ein, die Sie verwenden möchten:  
-1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Lagerplatzarten** ein und wählen Sie dann den zugehörigen Link.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Lagerplatzarten** ein und wählen Sie dann den zugehörigen Link.  
 2.  Erzeugen Sie auf der Seite **Lagerplatzarten** einen Code mit 10 Zeichen für eine Lagerplatzart.  
 3.  Wählen Sie die Aktivitäten aus, die mit den einzelnen Lagerplatzarten durchgeführt werden können.  
 
@@ -47,7 +47,7 @@ Die Lagerplatzarten, die Sie erzeugen können, werden weiter unten aufgelistet.
 [Lagerbestand](inventory-manage-inventory.md)  
 [Lagerortverwaltung einrichten](warehouse-setup-warehouse.md)     
 [Montageverwaltung](assembly-assemble-items.md)    
-[Designdetails: Lagerverwaltung](design-details-warehouse-management.md)  
+[Designdetails: Warehouse Management](design-details-warehouse-management.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

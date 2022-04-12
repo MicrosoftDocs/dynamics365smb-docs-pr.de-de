@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 5cfc08a7a4f8645bc8657477819cdacc9d147d88
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.openlocfilehash: 05cd41ffea6b2c78747112925d4da1e8a74c67b6
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8322876"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518783"
 ---
 # <a name="save-and-personalize-list-views"></a>Listenansichten speichern und personalisieren
 Wenn Sie einen Filter für eine Liste festgelegt haben und den Filter für später behalten möchten, können Sie ihn als Ansicht speichern. Weitere Informationen zum Filtern von Listen finden Sie unter [Festlegen von Filtern in Listen](ui-enter-criteria-filters.md#setting-filters-on-lists).
@@ -43,7 +43,7 @@ Wenn Sie ihm keinen Namen geben, wird er **Alle (Kopie)** benannt.
 ## <a name="managing-many-views"></a>Viele Ansichten verwalten
 Wenn die Anzahl der Ansichten auf einer Seite zunimmt, müssen Sie möglicherweise zusätzlich steuern, wie Ansichten im Filterbereich angezeigt werden. Mit dem Banner **Personalisierung** können Sie unerwünschte Ansichten verbergen oder Ihre Ansichten neu anordnen, um die perfekte Sequenz zu erhalten. Weitere Informationen finden Sie unter [Personalisieren Sie Ihren Arbeitsbereich](ui-personalization-user.md).
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 [Listenansichten FAQ](ui-views-faq.yml)  
 [Ihren Arbeitsbereich personalisieren](ui-personalization-user.md)    
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    

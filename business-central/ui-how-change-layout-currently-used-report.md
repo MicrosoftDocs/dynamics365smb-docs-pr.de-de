@@ -1,23 +1,25 @@
 ---
 title: Ändern Sie das Aussehen eines Berichts durch Auswahl eines anderen Layouts
 description: Sie können unterschiedliche Layouts für einen Bericht auswählen und zwischen Layouts wechseln, um das Aussehen des Berichts zu ändern.
-author: SorenGP
+author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9652, 9650
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: c02f1e2083ef47d5aeee5831b042128c065c411f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 03/07/2022
+ms.author: jswymer
+ms.openlocfilehash: af90fd2361a42c06f8af360119bb391efb184de5
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144645"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515303"
 ---
-# <a name="change-the-current-report-layout"></a>Ändern Sie das aktuelle Berichtslayout
+# <a name="legacy-set-the-layout-used-by-a-report"></a>(Legacy) Die von einem Bericht verwendeten Layouts festlegen
+
+[!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
 Ein Bericht kann mit mehreren Berichtlayouts eingerichtet werden, die bei Bedarf ausgewechselt werden können.
 
@@ -30,9 +32,13 @@ Wenn benutzerdefinierte Berichtslayouts definiert sind, können Sie diese aus De
 
 ## <a name="to-change-which-report-layout-to-use-for-a-report-or-document"></a>So ändern Sie das für einen Bericht oder einen Beleg zu verwendende Berichtslayout
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Auswahl des Berichtslayouts** ein und wählen Sie dann den entsprechenden Link.  
-   Auf der Seite **Berichtslayoutauswahl** sind alle Berichte aufgelistet, die für das Unternehmen verfügbar sind, das im Feld **Unternehmen** obern auf der Seite angegeben ist. Das Feld **Ausgewähltes Layout** gibt das Layout an, das momentan in dem Bericht verwendet wird.
-2. Legen Sie das Feld **Unternehmen** oben auf der Seite auf das Unternehmen fest, das den Bericht umfasst.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Auswahl des Berichtslayouts** ein und wählen Sie dann den entsprechenden Link.
+  
+   Auf der Seite **Berichtslayoutauswahl** sind alle Berichte aufgelistet, die für das Unternehmen verfügbar sind, das im Feld **Unternehmen** obern auf der Seite angegeben ist. Die **Beschreibung des Layouts** <!-- **Selected Layout** -->Feld gibt das Layout an, das im Bericht derzeit verwendet wird.
+2. Legen Sie das Feld **Unternehmen** oben auf das Unternehmen fest, das den Bericht umfasst.
+
+   In diesem Feld können Sie unterschiedliche Layouts für denselben Bericht in verschiedenen Unternehmen festlegen.
+
 3. Um das Layout, das von einem Bericht verwendet wird, zu ändern, legen Sie in der Zeile für den Bericht das Feld **Ausgewähltes Layout** auf eine der folgenden Optionen fest:
    * **RDLC (integriert)** verwendet im Bericht das integrierte RDLC-Berichtslayout.
    * **Word (integriert)** verwendet im Bericht das integrierte Word-Berichtslayout.
@@ -44,6 +50,7 @@ Wenn benutzerdefinierte Berichtslayouts definiert sind, können Sie diese aus De
 Wenn Sie ein integriertes RDLC- oder Word-Berichtslayout ausgewählt haben, ist keine weitere Aktionen erforderlich, und das Layout wird verwendet, wenn der Bericht zum nächsten Mal ausgeführt wird.
 
 ## <a name="to-change-the-custom-layout-to-use-for-a-report-layout"></a>So ändern Sie das benutzerdefinierte Layout, das für ein Berichtslayout verwendet werden soll
+
 Möglicherweise möchten Sie auch das aktuell verwendete benutzerdefinierte Layout ändern. Weitere Informationen finden Sie unter [Erstellen und Ändern benutzerdefinierter Berichtslayouts](ui-how-create-custom-report-layout.md).
 
 Alle benutzerdefinierten Berichtslayouts, die für Berichtslayouts in einem Unternehmen vorhanden sind, werden auf der Seite **Benutzerdefinierte Berichtslayouts** aufgeführt. Auf der Seite **Berichtslayoutauswahl** können Sie sehen, welche benutzerdefinierten Layouts für jeden Bericht in der Infobox **Benutzerdefinierte Layouts** verfügbar sind.
@@ -57,7 +64,7 @@ Sie können jetzt zu Ihren Debitoren- und Kreditorenkarten wechseln, um anzugebe
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 [Verwalten von Berichtslayouts](ui-manage-report-layouts.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

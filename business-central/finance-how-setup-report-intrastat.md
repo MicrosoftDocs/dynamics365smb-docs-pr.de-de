@@ -10,12 +10,12 @@ ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
 ms.search.form: 308, 309, 310, 311, 325, 326, 327, 328, 405, 406, 8451, 12202, 31077
 ms.date: 01/28/2022
 ms.author: bholtorf
-ms.openlocfilehash: bcf0e27710c66e71dd95710790af2c2ffd4ab5e0
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 2530b6a5d562cfd22abd8ae097408388034a5711
+ms.sourcegitcommit: 4a57fb5b88b9ebbb61fdd1b25e1fd4ba0013c8e5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381459"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "8485003"
 ---
 # <a name="set-up-and-report-intrastat"></a>Einrichten und Berichten von Intrastat
 
@@ -27,7 +27,7 @@ Bevor Sie das Intrastat Buch.-Blatt verwenden können, um Intrastat-Informatione
 * **Intrastat einrichten**: Intrastat-Einrichtungsseite wird verwendet, um Intrastat-Berichts- und Satzstandards zu aktivieren. Sie können festlegen, ob Sie die Intrastatmeldung von Lieferungen (Dispatches), Eingängen (Wareneingang) oder beiden abhängig von den Schwellenwerten melden müssen, die von Ihren lokalen Vorschriften festgelegt werden. Sie können auch die Transaktionstypen für reguläre Dokumente und Reklamationsbelege festlegen, die für die Transaktionsberichterstellung verwendet werden.
 * **Intrastat Buch.-Blattvorlagen**: Sie müssen die Intrastat-Buch.-Blattvorlagen und Intrastat-Buch.-Blattnamen einrichten, die Sie verwenden. Da Intrastat-Daten monatlich erfasst werden, müssen Sie 12 Intrastat-Buchungsblätter basierend auf derselben Vorlage erstellen.  
 * **Warencodes**: Zoll- und Steuerbehörde haben numerische Codes eingerichtet, die Artikel und Dienstleistungen klassifizieren. Sie geben diese Codes der Artikel an.
-* **Transaktionstypencodes**: Länder und Regionen haben unterschiedliche Codes für Intrastat-Transaktionstypen, wie beispielsweise gewöhnlichen Einkauf und Verkauf, den Austausch zurückgegebener Waren und den Austausch nicht zurückgegebener Waren. Einrichtung aller Codes, die sich auf Ihr Land/Ihre Region beziehen. Sie verwenden diese Codes in Einkaufs- und Verkaufsbelegen und wenn Sie Rückgaben verarbeiten. 
+* **Transaktionstypencodes**: Länder und Regionen haben unterschiedliche Codes für Intrastat-Transaktionstypen, wie beispielsweise gewöhnlichen Einkauf und Verkauf, den Austausch zurückgegebener Waren und den Austausch nicht zurückgegebener Waren. Einrichtung aller Codes, die sich auf Ihr Land/Ihre Region beziehen. Sie verwenden diese Codes auf dem Inforegister **Außenhandel** und wenn Sie Rückgaben verarbeiten. 
 
     > [!NOTE]
     > Ab Januar 2022 verlangt Intrastat unterschiedliche Transaktions-Natur-Codes für Versendungen an Privatpersonen oder nicht mehrwertsteuerlich registrierte Unternehmen und an mehrwertsteuerlich registrierte Unternehmen. Um diese Anforderung zu erfüllen, empfehlen wir Ihnen, die Transaktionsnatur-Codes auf der Seite **Transaktionsarten** entsprechend den Anforderungen in Ihrem Land zu überprüfen und/oder neue hinzuzufügen. Außerdem sollten Sie das Feld **Partnertyp** überprüfen und auf der entsprechenden **Kunden**-Seite auf *Person* für Privatpersonen oder nicht mehrwertsteuerlich registrierte Debitorenkunden aktualisieren. Wenn Sie sich nicht sicher sind, welcher Partnertyp oder welche Transaktionsart zu verwenden ist, empfehlen wir Ihnen, einen Experten in Ihrem Land oder Ihrer Region zu fragen. 

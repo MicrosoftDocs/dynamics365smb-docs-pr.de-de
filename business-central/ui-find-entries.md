@@ -10,12 +10,12 @@ ms.search.keywords: find
 ms.search.form: 344, 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: b77a8508d921f885276d3e0b7956d7785b7f29cb
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.openlocfilehash: 6e6e6f6f622d1938fb2195bc2dde2c2ba689a59f
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8322980"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517687"
 ---
 # <a name="finding-related-entries-for-posted-documents"></a>Suchen verwandter Posten für gebuchte Belege 
 
@@ -29,7 +29,7 @@ Diese Funktion ist nützlich, wenn Sie Posten finden möchten, die aus bestimmte
 
 ## <a name="get-started"></a>Erste Schritte
 
-Die Funktion zum Suchen von Posten ist auf den meisten Seiten verfügbar, auf denen gebuchte Belege oder gebuchte Belegposten angezeigt werden – sowohl für Listen als auch für Karten. Der erste Schritt ist also das Öffnen einer dieser Seiten. Dann wählen Sie entweder die Aktion **Posten suchen** aus oder drücken die Tasten ALT+G.
+Die Funktion zum Suchen von Posten ist auf den meisten Seiten verfügbar, auf denen gebuchte Belege oder gebuchte Belegposten angezeigt werden – sowohl für Listen als auch für Karten. Der erste Schritt ist also das Öffnen einer dieser Seiten. Dann wählen Sie entweder die Aktion **Posten suchen** aus oder drücken die Tasten Strg+Alt+G.
 
 Die Seite **Posten suchen** enthält alle verknüpften Belege und Posten basierend auf der Belegnr. und dem Buchungsdatum. Die Seite ist in drei Abschnitte unterteilt:
 
@@ -71,7 +71,7 @@ Nachdem Sie eine Auswahl getroffen haben, geben Sie die relevanten Suchinformati
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/modules/user-interface-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 [Arbeiten mit Business Central](ui-work-product.md)  
 [Fügen Sie Ihrem Rollencenter eine Seitenaktion hinzu](ui-bookmarks.md)  

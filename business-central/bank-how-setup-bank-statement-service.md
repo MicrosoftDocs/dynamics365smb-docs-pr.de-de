@@ -10,12 +10,12 @@ ms.search.keywords: Yodlee, feed, stream, payment process
 ms.search.form: 1280, 1290
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ce0ccc00b1d2cf823e0a676f66fef1c124a4932e
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: af8695ca048b7fc7534f2376e8b186ac08737469
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146878"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511779"
 ---
 # <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>Die Envestnet Yodlee Bank Feeds Services einrichten
 
@@ -48,7 +48,7 @@ Wenn der Bankfeeddienst aktiviert ist, können Sie ein Bankkonto so einrichten, 
 > Wenn Sie den Leitfaden für das unterstützt Setup über "Unternehmen einrichten" verwenden, werden einige der folgenden Schritte automatisch beim Einrichten von Unternehmensbankkonten ausgeführt. Weitere Informationen finden Sie unter [Vorbereitungen für das Ausführen von Geschäften](ui-get-ready-business.md).
 
 ## <a name="to-enable-the-bank-feed-service"></a>So aktivieren Sie den Bankfeeddienst
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Bankkonten** ein und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Bankkonten** ein und wählen Sie dann den zugehörigen Link.
 2. Öffnen Sie das Bankkonto, das Sie für den Bankfeeddienst verwenden werden.
 3. Wählen Sie auf der Seite **Bankkonto** im Feld **Format Bankauszugimport** YODLEEBANKFEED aus.  
 
@@ -58,7 +58,7 @@ Der Bankfeeddienst wird aktiviert, wenn Sie ein Bankkonto mit den dazugehörigen
 > Wenn Sie den Leitfaden für unterstützes Setup **Unternehmenseinrichtung** verwenden, dann aktivieren Sie den Service, indem Sie das Kontrollkästchen **Einen Bankfeeddienst verwenden** auswählen. Weitere Informationen finden Sie unter  [Neue Mandanten erstellen in Business Central](about-new-company.md).
 
 ## <a name="to-create-a-new-linked-bank-account"></a>So erstellen Sie ein neues verknüpftes Bankkonto
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Bankkonten** ein und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Bankkonten** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie das entsprechende Bankkonto aus, und wählen Sie dann **Neues verknüpftes Bankkonto erstellen**. auf der Seite **Bankkontenverknüpfung** wird nach wenigen Augenblicken geöffnet.
 
     > [!NOTE]  
@@ -86,7 +86,7 @@ Der Bankfeeddienst wird aktiviert, wenn Sie ein Bankkonto mit den dazugehörigen
 10. Wählen Sie auf der Seite **Bankkontenübersicht** das Bankkonto aus, mit dem Sie eine Verknüpfung erstellen möchten, und klicken Sie anschließend auf **OK**.
 
 ## <a name="to-link-a-bank-account-to-an-online-bank-account"></a>So verknüpfen Sie ein Bankkonto mit einem Onlinebankkonto
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Bankkonten** ein und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Bankkonten** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie die Zeile des Bankkontos aus, das nicht mit einem Onlinebankkonto verknüpft ist, und wählen Sie dann die Aktion **Verknüpfen mit Onlinebankkonto**. Die Seite **Onlinebankkonto-Verknüpfung** wird für ein neues Bankkonto geöffnet und der Name des Onlinebankkontos ist bereits im Bereich **Konto verknüpfen** eingefügt.
 3. Wählen Sie den Banknamen aus. Der Bereich **Anmeldung** wird geöffnet.
 4. Geben Sie den Benutzernamen und das Kennwort, das Sie für die Ameldung bei der Onlinebank verwenden, an, und wählen Sie dann die Schaltfläche **Weiter**.  
@@ -134,7 +134,7 @@ Jede Stunde wird die Seite **Zahlungsabstimmungsbuch.-Blatt** mit allen neuen Za
 [Einrichten von Banken](bank-setup-banking.md)  
 [Abstimmen von Bankkonten](bank-manage-bank-accounts.md)  
 [Zahlungen automatisch vornehmen und Bankkonten abstimmen](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
-[Anpassen [!INCLUDE[prod_short](includes/prod_short.md)] Erweiterungen nutzen](ui-extensions.md)  
+[Anpassen von [!INCLUDE[prod_short](includes/prod_short.md)] mit Erweiterungen](ui-extensions.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

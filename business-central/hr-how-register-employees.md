@@ -10,12 +10,12 @@ ms.search.keywords: personnel, people, employee, staff, HR
 ms.search.form: 5200, 5201, 5204, 5206, 5208, 5209, 5211, 5221, 5228
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: b76ce1b15dde904ad3257b6f849e3629f293206c
-ms.sourcegitcommit: 865b390b5571b08084bde93b539ec9898e201933
+ms.openlocfilehash: fbf1647b23733beffc005b617beff185b183a6fe
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8372052"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519095"
 ---
 # <a name="register-employees"></a>Erfassen eines Mitarbeiters
 
@@ -35,7 +35,7 @@ Die Mitarbeiterinformationen können jederzeit geändert werden. Wenn Sie die Da
 
 ## <a name="to-set-up-an-employee"></a>Einen Mitarbeiter einrichten:
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Mitarbeiter** ein, und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Mitarbeiter** ein, und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie die Aktion **Neu**.
 3. Füllen Sie auf der Seite **Mitarbeiterkarte** die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -63,7 +63,7 @@ Sie können alternative Adressen verwenden, um die Aufenthaltsorte Ihrer Mitarbe
 4. Füllen Sie auf der Seite **Alternative Adressliste** die notwendigen Felder aus.
 5. Wiederholen Sie Schritt 4 für jede alternative Adresse.
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 [Geschäftsverwandte Ausgaben der Beschäftigten aufzeichnen und zurückzahlen](finance-how-record-reimburse-employee-expenses.md)  
 [Finanzen](finance.md)  

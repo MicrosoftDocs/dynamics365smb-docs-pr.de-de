@@ -8,16 +8,16 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: COA, cha of acc
 ms.search.form: 16, 17, 18, 118, 386, 391
-ms.date: 06/22/2021
+ms.date: 01/21/2022
 ms.author: edupont
-ms.openlocfilehash: 3ddb1a5612eb4a2c060357b32e8209accdda7349
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f2ef4432d91d9f647a4bea58febbdfd5513a4350
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147622"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520282"
 ---
-# <a name="setting-up-or-changing-the-chart-of-accounts"></a>Einrichten oder Ändern des Kontenplans
+# <a name="set-up-or-change-the-chart-of-accounts"></a>Einrichten oder Ändern des Kontenplans
 
 Der Kontenplan zeigt die Sachkonten an, die Finanzdaten speichern. [!INCLUDE[prod_short](includes/prod_short.md)] umfasst einen Standardkontenplan, der zur Unterstützung Ihres Unternehmens bereit steht.
 Sie können jedoch die Standardkonten ändern und neue Konten hinzufügen.
@@ -25,7 +25,7 @@ Sie können jedoch die Standardkonten ändern und neue Konten hinzufügen.
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE43KO9?rel=0]
 
-## <a name="adding-or-changing-accounts"></a>Hinzufügen oder Ändern von Konten
+## <a name="add-or-change-accounts"></a>Hinzufügen oder Ändern von Konten
 
 Im Kontenplan können Sie jedes Sachkonto öffnen und Einstellungen hinzufügen oder ändern. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 
@@ -36,7 +36,7 @@ Für Konten des Kontotyps **Summe** müssen Sie das Feld **Summe** ausfüllen. B
 > [!IMPORTANT]
 > Wenn Sie vor dem Ausführen der Funktion Einrücken Definitionen in den Feldern **Summe** für **Endsumme** Konten eingegeben haben, müssen Sie diese erneut eingeben, da die Funktion die Werte in allen **Endsumme** Feldern überschreibt.
 
-## <a name="deleting-accounts"></a>Löschen von Konten
+## <a name="delete-accounts"></a>Konten löschen
 
 Sie können ein Sachkonto löschen. Bevor es gelöscht wird, müssen allerdings folgende Bedingungen erfüllt sein:  
 
@@ -46,9 +46,21 @@ Sie können ein Sachkonto löschen. Bevor es gelöscht wird, müssen allerdings 
 
 [!INCLUDE[prod_short](includes/prod_short.md)] verhindert, dass Sie ein Sachkonto löschen, in dem Daten gespeichert werden, die im Kontenplan erforderlich sind.  
 
+## <a name="block-deletion-of-gl-accounts"></a>Löschen von Sachkonten blockieren
+
+[!INCLUDE [2022_releasewave1](includes/2022_releasewave1.md)]
+
+Der 2. Veröffentlichungszyklus 2022 führt einen zusätzlichen Schutz gegen das versehentliche Löschen von Sachkonten ein, selbst in den Szenarien, in denen die Kriterien erfüllt sind.  
+
+Ein neues Feld, **Löschen von Sachkonten blockieren**, wird zur **Finanzbuchhaltungs-Einrichtung**-Seite hinzugefügt. Das Feld fungiert als zusätzliche Validierung, wenn ein Benutzer versucht, ein Konto zu löschen, bei dem es nach dem in der angegebenen Datum Einträge im Feld **Sachkontolöschung prüfen nach** gibt.
+
+Wenn das Feld **Löschen von Sachkonten blockieren** auf *Ja* gesetzt ist, können Sie keine Sachkonten löschen, deren Hauptbucheinträge nach dem Datum im Feld **Sachkontolöschung prüfen nach** liegen. Um ein solches Konto zu löschen, muss ein Benutzer mit Zugriff auf die **Finanzbuchhaltungs-Einrichtung**-Seite dieses Feld zuerst auf *Nein* setzen. Dann kann das Konto gelöscht werden.  
+
+Wir empfehlen, die Einstellung **Löschen von Sachkonten blockieren** auf *Ja* einzustellen. Wir empfehlen außerdem, dass Sie immer ein Datum im Feld **Sachkontolöschung prüfen nach** eingestellt haben, wie z. B. die Zeit, die Sie zum Speichern Ihrer Finanzdaten benötigen.  
+
 ## <a name="see-related-training-at-microsoft-learn"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/modules/chart-accounts-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 [Die Finanzbuchhaltung und der Kontenplan](finance-general-ledger.md)  
 [Abstimmen von Bankkonten](bank-manage-bank-accounts.md)  

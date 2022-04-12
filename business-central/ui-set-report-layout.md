@@ -1,0 +1,72 @@
+---
+title: Festlegen des Berichtslayouts
+description: Erfahren Sie, wie Sie das Layout festlegen, das beim Anzeigen und Drucken eines Berichts verwendet wird.
+author: jswymer
+ms.topic: conceptual
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: customized report, document layout, logo, personalize
+ms.search.form: 9652, 9650
+ms.date: 03/07/2022
+ms.author: jswymer
+ms.openlocfilehash: 9cc827630c5acfeba2efc860d8baf67cd31bb404
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8525093"
+---
+# <a name="setting-the-layout-used-by-a-report"></a>Festlegen des von einem Bericht verwendeten Layouts
+
+> **GILT FÜR:** Business Central Online, Business Central lokal 2022 Veröffentlichungzyklus 1 und höher. Informationen zu früheren Versionen finden Sie [hier](ui-how-change-layout-currently-used-report.md).
+
+Ein Berichtslayout bestimmt das Aussehen eines Berichts. Es steuert, welche Datenfelder eines Berichtsdatensatzes angezeigt werden, wie sie angeordnet, formatiert sind und mehr. Ein Bericht kann mehr als ein Layout haben, die bei Bedarf ausgewechselt werden können.
+
+Wenn die Anwendung mehrere Unternehmen enthält, werden die Layouts pro Unternehmen festgelegt. Derselbe Bericht in einem Unternehmen kann also in einem anderen Unternehmen ein anderes Layout haben.
+
+## <a name="get-started"></a>Erste Schritte
+
+Es gibt zwei Möglichkeiten festzulegen, welches Layout ein Bericht verwendet. Eine Möglichkeit ist auf der Seite **Berichtslayout-Auswahl**. Die andere Möglichkeit ist auf der Seite **Berichtslayouts**. Jede Seite hat Vorteile, zum Beispiel: 
+
+- Die Seite **Auswahl des Berichtslayouts** zeigt eine Liste aller Berichte an.
+
+  Diese Seite zeigt das aktuelle Layout für einen Bericht an. Außerdem können Sie Layouts in verschiedenen Unternehmen festlegen, ohne das Unternehmen wechseln zu müssen, mit dem Sie arbeiten.
+
+- Die **Berichtslayouts**-Seite zeigt alle verfügbaren Layouts für jeden Bericht im aktuellen Unternehmen an.
+
+  Es ist einfach, ein bestimmtes Layout zu finden, indem Sie die Liste sortieren oder filtern. Sobald Sie das Layout gefunden haben, können Sie es mit einer einzigen Auswahl für einen Bericht festlegen.
+
+  > [!NOTE]
+  > Sie können die Seite **Berichtslayouts** nicht für Word- und RDLC-Layouts verwenden, die mit der der **Benutzerdefinierte Layouts**-Funktion einer Vorgängerversion erstellt wurden. Tatsächlich werden diese benutzerdefinierten Layouts nicht einmal auf der Seite **Berichtslayouts** aufgelistet. Sie können diese Layouts nur über die **Auswahl des Berichtslayouts**-Seite festlegen.
+
+## <a name="set-the-layout-from-the-report-layouts-page"></a>Das Layout aus der Berichtslayouts-Seite festlegen
+
+[!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
+2. Suchen Sie das Layout in der Liste, wählen Sie es aus, und wählen Sie dann die **Standard festlegen**-Aktion oben auf der Seite aus.
+
+## <a name="set-the-layout-from-report-layout-selection-page"></a>Das Layout aus der Auswahl des Berichtslayouts-Seite festlegen
+
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"). Symbol. Geben Sie **Auswahl des Berichtslayouts** ein und wählen Sie dann den entsprechenden Link.
+  
+   Auf der Seite sind alle Berichte aufgelistet, die für das Unternehmen verfügbar sind, das im Feld **Unternehmen** oben auf der Seite verfügbar ist. Das Feld **Layoutbeschreibung** gibt das Layout an, das in dem Bericht aktuell verwendet wird.
+2. Legen Sie das Feld **Unternehmen** oben auf das Unternehmen fest, das den Bericht umfasst.
+3. Suchen Sie den Bericht in der Liste und wählen Sie ihn aus. Führen Sie dann einen der folgenden Schritte aus:
+
+   - Wenn das Layout, zu dem Sie wechseln möchten, ein anderer Typ als das aktuelle Layout ist, wählen Sie das **Layouttyp**-Feld und dann den Typ des Layouts aus, den Sie für den Bericht festlegen möchten. 
+   - Wenn das Layout, zu dem Sie wechseln möchten, den gleichen Typ wie das aktuelle Layout hat, wählen Sie die **Layout auswählen**-Aktion ganz oben.
+
+4. Auf der **Berichtslayouts**-Seite wählen Sie das Layout und dann **OK** aus.
+
+## <a name="revert-to-the-original-default-layout"></a>Das ursprüngliche Standardlayout wiederherstellen
+
+Berichte sind so konzipiert, dass sie standardmäßig ein Layout verwenden. Sie können auf der **Auswahl des Berichtslayouts**-Seite wieder zum ursprünglichen Standardlayout wechseln. Wählen Sie einfach den Bericht und dann die **Standardauswahl wiederherstellen**-Aktion oben auf der Seite aus.
+
+## <a name="see-related-training-at-microsoft-learn"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
+
+## <a name="see-also"></a>Weitere Informationen
+
+[Verwalten von Berichtslayouts](ui-manage-report-layouts.md)  
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

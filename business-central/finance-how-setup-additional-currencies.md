@@ -10,12 +10,12 @@ ms.search.keywords: multiple currencies, foreign exchange rates
 ms.search.form: 5, 16,118, 483, 495
 ms.date: 07/23/2021
 ms.author: edupont
-ms.openlocfilehash: 3df39a6054a73fb44c18c4893a253bfcd358f318
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 43933346f68fef474dc1f68c7eadbe295732bad8
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132914"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515037"
 ---
 # <a name="set-up-an-additional-reporting-currency"></a>Einrichten einer zusätzlichen Berichtswährung
 
@@ -55,7 +55,7 @@ Folgen Sie diesen Schritten, um die zusätzliche Berichtswährung einzurichten:
 
 ### <a name="to-specify-general-ledger-accounts-for-posting-exchange-rate-adjustments"></a>Sachkonten für die Buchung von Kursregulierungen festlegen:  
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Währungen** ein, und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Währungen** ein, und wählen Sie dann den entsprechenden Link.  
 2. Auf der Seite **Währungen** geben Sie die folgenden Felder für die zusätzliche Berichtswährung an.  
 
 |Feld|Description|  
@@ -72,7 +72,7 @@ Für jedes Sachkonto müssen Sie angeben, wie Beträge für dieses Konto hinsich
 
 ### <a name="to-specify-the-exchange-rate-adjustment-method-for-all-general-ledger-accounts"></a>So geben Sie die Kursregulierungsmethode für alle Sachkonten an
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Kontenplan** ein, und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Kontenplan** ein, und wählen Sie dann den zugehörigen Link.  
 2. Auf der Seite **Kontenplan** wählen Sie das gewünschte Konto aus, und wählen Sie die **Bearbeiten** Aktion aus.  
 3. Wählen Sie auf der Seite **Berichtswesen** die richtige Methode im Feld **Kursregulierung** aus.  
 
@@ -90,7 +90,7 @@ Für jedes Sachkonto müssen Sie angeben, wie Beträge für dieses Konto hinsich
 
 ### <a name="to-specify-exchange-rate-adjustment-method-for-vat-entries"></a>Die Kursregulierungsmethode für MwSt.-Posten festlegen:
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Hauptbuchhaltung Einrichtung** ein und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Hauptbuchhaltung Einrichtung** ein und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie auf der Seite **Berichtswesen einrichten** die richtige Methode im Feld **Kursregulierung** aus.  
 3. Wenn Sie die Buchung in einer Berichtswährung durchführen, können Sie im Feld **MwSt.-Kursregulierung** angeben, wie die auf der Seite **MwSt.-Buchungsmatrix Einr.** für die Buchung der MwSt. eingerichteten Konten bei Wechselkursschwankungen zwischen der Mandantenwährung und der Berichtswährung reguliert werden.  
 
@@ -135,7 +135,7 @@ Darüber hinaus werden die Beträge für alle zukünftigen Posten desselben Typs
 ## <a name="see-also"></a>Siehe auch
 
 [Währungswechselkurse aktualisieren](finance-how-update-currencies.md)  
-[Abschlussjahre und -perioden](year-close-years-periods.md)  
+[Jahre und Perioden abschließen](year-close-years-periods.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

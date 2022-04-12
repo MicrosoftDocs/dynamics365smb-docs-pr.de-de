@@ -10,12 +10,12 @@ ms.search.keywords: adjustment, status, negative, positive, increase, decrease, 
 ms.search.forms: 5895, 6561, 6562, 6563, 6564, 6565, 6566, 5892, 5891, 5879, 5880, 5893, 5897, 5882, 5881, 5899, 5875, 5878, 5877, 5876, 5896, 6567, 6568, 6569, 6570, 6571, 6572, 5883, 5886, 884, 5898, 5885, 5890, 5888, 5889, 5887, 5894, 6774, 6775, 6776, 6780, 6781, 6782, 6783
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: af091b33126d4098980c19329d7160ef1789c1b9
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 600ddd9d927712b4b27f9b4c12e233379808ebe4
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131587"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522092"
 ---
 # <a name="count-and-adjust-inventory-using-documents"></a>Erfassung und Regulierung des Lagerbestand mithilfe von Belegen
 
@@ -40,7 +40,7 @@ Auf Anwendungsebene ist ein Inventurauftrag ein vollständiger Beleg, der aus ei
 
 Um die Inventurauftragszeilen zu erstellen, verwenden Sie üblicherweise die Funktion **Zeilen berechnen**, um den aktuellen Lagerbestand als Zeilen auf dem Auftrag darzustellen. Alternativ können Sie die Funktion **Aus Beleg kopieren** verwenden, um die Zeilen mit dem Inhalt eines anderen offenen oder gebuchten Inventurauftrags zu füllen. Nachfolgend wird nur beschrieben, wie Sie die Funktion **Zeilen berechnen** verwenden.
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Physikalische Inventuraufträge** ein und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Physikalische Inventuraufträge** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie die Aktion **Neu** aus.
 3. Füllen Sie die erforderlichen Felder auf dem Inforegister **Allgemein** aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Wählen Sie die Aktion **Zeilen berechnen** aus.
@@ -100,7 +100,7 @@ Sie können auch die **Phys. Inventory Order Diff.** Aktion auswählen, um Unter
 
 ### <a name="to-find-duplicate-physical-inventory-order-lines"></a>So finden Sie doppelte Inventurauftragszeilen
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Physikalische Inventuraufträge** ein und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Physikalische Inventuraufträge** ein und wählen Sie dann den zugehörigen Link.
 2. Öffnen Sie den Inventurauftrag, für den Sie doppelte Zeilen anzeigen möchten.
 3. Wählen Sie die **Doppelte Zeilen anzeigen** Aktion aus.
 
@@ -113,7 +113,7 @@ Nach Fertigstellen eines Inventurauftrags und Ändern des Status in **Beendet** 
 - Jede Inventurauftragszeile wurde in mindestens einer Inventurerfassungszeile erfasst.
 - Die Kontrollkästchen **In Erfassungszeilen enthalten** und **Berechnete erw. Menge** wurden für alle Inventurauftragszeilen aktiviert.
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Physikalische Inventuraufträge** ein und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Physikalische Inventuraufträge** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie den Inventurauftrag aus, den Sie fertig stellen möchten, klicken Sie auf **Bearbeiten**.
 
     Auf der Seite **Inventurauftrag** kann die Menge angezeigt werden, die im Feld **Erfasste Menge (Basis)** erfasst wurde.
@@ -233,7 +233,7 @@ Sie können die Berichte angeben, die in verschiedenen Phasen gedruckt werden m�
 ## <a name="see-also"></a>Siehe auch
 [Erfassen, Regulieren und Umbuchen von Lagerbestand mithilfe von Buch.-Blättern](inventory-how-count-adjust-reclassify.md)  
 [Arbeiten mit Chargennummern und Seriennummern](inventory-how-work-item-tracking.md)  
-[Lagerbestand](inventory-manage-inventory.md)  
+[Bestand](inventory-manage-inventory.md)  
 [Logistik](warehouse-manage-warehouse.md)    
 [Verkauf](sales-manage-sales.md)  
 [Einkauf](purchasing-manage-purchasing.md)  

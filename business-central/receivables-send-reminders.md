@@ -7,15 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.search.form: 436, 437, 442, 431, 432
+ms.search.form: 436, 437, 442, 431, 432, 434
 ms.date: 02/09/2022
 ms.author: edupont
-ms.openlocfilehash: 994112ead97dae4e0bb4c8e659c6f2f370934bbf
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 56a0725c324942e2b469b58d70168df0c232171b
+ms.sourcegitcommit: 521735f8e27d8bff2d2dfbe94d240c09dcdaec29
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143327"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "8419286"
 ---
 # <a name="send-reminders-of-outstanding-balances"></a>Senden Sie Mahnungen für ausstehende Salden
 

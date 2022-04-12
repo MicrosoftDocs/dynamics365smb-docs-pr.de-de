@@ -10,12 +10,12 @@ ms.search.keywords: feature overview, functionality
 ms.search.form: 9020, 9022, 9027, 9018
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 36edd01c369e83e2020f43ff914b4cc693cba4e3
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.openlocfilehash: 5f8cfbef682b2a039c5a52483a09380452fba4b9
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8322850"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513601"
 ---
 # <a name="general-business-functionality"></a>Allgemeine Geschäftsfunktionen
 [!INCLUDE[prod_short](includes/prod_short.md)] stellt dedizierte Funktionen für typische Geschäftsbereiche, wie Finanzen und Personalwesen, bereit. Weitere Informationen finden Sie unter [Business-Funktionalität](across-business-functionality.md).
@@ -23,7 +23,7 @@ ms.locfileid: "8322850"
 Und um die bereichsspezifischen Aufgaben des Geschäftes zu unterstützen, können Sie eine Reihe von Geschäftsfunktionalitäten nutzen, wie beispielsweise das Definieren der Textbausteins für Belegzeilen und das Organisieren von verbindenden Geschäftsaufgaben in den Arbeitsabläufen.
 
 > [!NOTE]
-> Zusätzlich zu den Geschäftsfunktionen, die in diesem Abschnitt beschrieben werden, verwenden Sie weitere alltägliche Benutzeroberflächenfunktionen zur Interaktion mit dem System. Weitere Informationen finden Sie unter [Arbeiten mit Business Central](ui-work-product.md).
+> Zusätzlich zu den Geschäftsfunktionen, die in diesem Abschnitt beschrieben werden, verwenden Sie weitere alltägliche Benutzeroberflächenfunktionen zur Interaktion mit dem System. Weitere Informationen finden Sie unter [Mit Business Central arbeiten](ui-work-product.md).
 
 Die folgende Tabelle enthält die unterstützten Geschäftsbereiche und Links zu den entsprechenden Themen, in denen die Bereiche beschrieben werden.
 
@@ -47,7 +47,7 @@ Die folgende Tabelle enthält die unterstützten Geschäftsbereiche und Links zu
 |Konfigurieren und verwenden Sie Workflows, die Aufgaben verbinden, welche von verschiedenen Benutzern oder vom System ausgeführt werden, z. B. die automatische Buchung. Die Anforderung oder Bewilligung von Genehmigungen zum Erstellen oder Buchen von Belegen sind typische Workflowschritte.|[Workflow](across-workflow.md)|
 | Richten Sie Datenaustauschdefinitionen ein, damit Sie elektronische Belege versenden und erhalten können. |[Daten elektronisch austauschen](across-data-exchange.md) |
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Verwaltung](admin-setup-and-administration.md)
 

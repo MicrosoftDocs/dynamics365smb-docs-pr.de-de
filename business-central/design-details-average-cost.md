@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 8645
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 591788bdf425dc198a173fbefef702c7b707b4e7
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: cdba126a3cdd6116f0067cac08bccadbdfc5a982
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146722"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519840"
 ---
 # <a name="design-details-average-cost"></a>Designdetails: Durchschnittskosten
 Die Durchschnittskosten eines Artikels werden mit einem periodischen gewichteten Durchschnitt berechnet, basierend auf der Durchschnittskostenperiode, die in [!INCLUDE[prod_short](includes/prod_short.md)] eingerichtet wurde.  
@@ -208,8 +208,8 @@ Die Durchschnittskosten eines Artikels werden mit einem periodischen gewichteten
  [Designdetails: Lagerkostenberechnung](design-details-inventory-costing.md)   
  [Designdetails: Kostenberechnungsmethoden](design-details-costing-methods.md)   
  [Designdetails: Kostenregulierung](design-details-cost-adjustment.md)   
- [Designdetails: Artikelausgleich](design-details-item-application.md)  
- [Verwalten der Lagerregulierung](finance-manage-inventory-costs.md)  
+ [Gestaltungsdetails: Element Anwendung](design-details-item-application.md)  
+ [Verwalten der Bestandsregulierung](finance-manage-inventory-costs.md)  
  [Finanzen](finance.md)  
  [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

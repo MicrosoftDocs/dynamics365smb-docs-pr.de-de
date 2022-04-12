@@ -10,12 +10,12 @@ ms.search.keywords: payment process, direct payment posting, reconcile payment, 
 ms.search.form: 1290, 1294, 1287
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: ce44487a4c40e3997e95f883ac3cdf3a396e0d4b
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 4d910826249f7a5e799a02c229bbb7875020df51
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382925"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514803"
 ---
 # <a name="set-up-rules-for-automatic-application-of-payments"></a>Einrichten von Regeln für die automatische Anwendung von Zahlungen
 
@@ -36,7 +36,7 @@ Neben den Zuordnungskriterien gilt Folgendes hinsichtlich des Vorzeichens des Za
 - Für positive Beträge wird ein Abgleich gegen offene Posten, die Kreditorenrechnungen repräsentieren, und dann gegen Debitorgutschriften vorgenommen.
 
 ## <a name="to-set-up-a-payment-application-rule"></a>So richten Sie eine Zahlungsausgleichsregel ein
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Zahlungsausgleichsvorschriften** ein, und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Zahlungsausgleichsvorschriften** ein, und wählen Sie dann den zugehörigen Link.
 2. Definieren Sie eine neue oder bearbeitete Zahlungsausgleichsregel, indem Sie die Felder in einer Zeile ausfüllen, wie in der folgenden Tabelle beschrieben.
 
 |Feld|Beschreibung|

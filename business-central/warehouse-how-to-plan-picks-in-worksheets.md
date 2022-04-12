@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/13/2021
 ms.author: edupont
-ms.openlocfilehash: fbb85d69cdd7844bbc63e6367ea962897ab30478
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 09b9f0d4d707da3872ae4b085f1405a99f69a9bc
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144307"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515199"
 ---
 # <a name="plan-picks-in-worksheets"></a>Kommissionierungen im Arbeitsblatt bearbeiten
 
@@ -42,11 +42,11 @@ Sie können Positionen nach Artikel, Regalnummer, Quelldokument, Fälligkeitsdat
 
 ## <a name="to-plan-picks-in-the-worksheet"></a>So planen Sie Kommissionierungen im Arbeitsblatt:
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Kommissionierarbeitsblatt** ein, und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Kommissionierarbeitsblatt** ein, und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die **Logistikbeleg holen** Aktion aus.  
 3. Wählen Sie die Warenausgänge, für die Sie eine Kommissionierung vorbereiten möchten. Sie können die Zeilen sortieren, aber die Sortierung wird nicht auf die Auswahlanweisung angewendet. Sie können auch einige der Zeilen löschen, um eine effektivere Kommissionierung zu erzielen. Wenn es z. B. mehrere Zeilen mit Artikeln in Zuordnungslagerplätzen gibt, möchten Sie möglicherweise eine Kommissionierung für alle Zeilen erzeugen, die mit all diesen Zeilen zusammenhängen. Die zugeordneten Artikel werden ausgeliefert (gemeinsam mit anderen Artikeln im Warenausgang) und die Zuordnungslagerplätze haben wieder Platz für neue ankommende Artikel.  
 4. Wählen Sie die Aktion **Kommissionierung erstellen** aus, und füllen Sie die Seite **Kommissionierung erstellen**. Die Sortierung, die Sie hier anfordern, sortiert die Kommissionierzeilen, die Sie erstellen. Sie können z. B. eine Kommissionierung für jede Zone erstellen und die Zeilen innerhalb jeder Kommissionierung nach der Lagerplatzpriorität sortieren.  
-5. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Lager-Kommissionierungen** ein und wählen Sie dann den zugehörigen Link. Die Seite **Lagerkommissionierungen** wird geöffnet.  
+5. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Lager-Kommissionierungen** ein und wählen Sie dann den zugehörigen Link. Die Seite **Lagerkommissionierungen** wird geöffnet.  
 6. Die Kommissionierung finden Sie durch Auswählen der Kommissionierung mit der höchsten Nummer.  
 7. Bei Bedarf können Sie einen anderen Benutzer zuweisen oder die Zeilen anders sortieren.  
 8. Wählen Sie die Aktion **Drucken** aus, um die Kommissionierungsanweisungen zu drucken.  
@@ -58,7 +58,7 @@ Sie können Positionen nach Artikel, Regalnummer, Quelldokument, Fälligkeitsdat
 [Bestand](inventory-manage-inventory.md)  
 [Lagerortverwaltung einrichten](warehouse-setup-warehouse.md)  
 [Montageverwaltung](assembly-assemble-items.md)  
-[Designdetails: Logistik](design-details-warehouse-management.md)  
+[Designdetails: Warehouse Management](design-details-warehouse-management.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

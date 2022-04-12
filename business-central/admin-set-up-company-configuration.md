@@ -9,14 +9,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 841d57ec0e5897ee0395e498ed24dc19b4fcbaea
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: e142f8aef14ea82d67de0c51a996e4f6a6b43dbf
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143934"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513174"
 ---
-# <a name="set-up-company-configuration"></a>Richten Sie eine Unternehmenskonfiguration ein.
+# <a name="set-up-company-configuration-with-rapidstart-services"></a>Unternehmenskonfiguration mit RapidStart Services einrichten
+
 Der Implementierungsprozess beginnt mit dem Microsoft-Partner. Als Partner sind Sie für die Formulierung der Konfigurationsdetails und das Erstellen eines Pakets zuständig ist, das ein Debitor einfach anwenden kann. Bevor Sie einen neuen Mandanten in [!INCLUDE [prod_short](includes/prod_short.md)] online oder on-premises erstellen, sollten Sie planen, wie dieser konfiguriert wird. Sie müssen an grundlegende Einrichtungsdaten und die Arten der Daten denken, die Ihre [!INCLUDE[prod_short](includes/prod_short.md)]-Lösung benötigt. Sie bündeln alle diese Informationen in Konfigurationspakete.
 
 RapidStart Services gibt außerdem die Werkzeuge, die Sie verwenden, um die Stammdaten zu migrieren, beispielsweise Debitoren und Kreditoren.  

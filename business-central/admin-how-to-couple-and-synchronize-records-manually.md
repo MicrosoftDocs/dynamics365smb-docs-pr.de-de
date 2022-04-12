@@ -10,12 +10,12 @@ ms.search.keywords: crm, sales, couple, decouple, synchronize
 ms.search.form: 6250
 ms.date: 10/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 4caf32bb0c7b4471809d8af3b899329c571d144f
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 2bc46e165018d29684b116f7aac3745c9d533c42
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381590"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517602"
 ---
 # <a name="coupling-and-synchronizing-records-between-dataverse-and-business-central"></a>Datensätze zwischen Dataverse und Business Central koppeln und synchronisieren
 
@@ -65,8 +65,8 @@ Sie können die zu synchronisierenden Daten für eine Entität, z.B. einen Debit
 ## <a name="uncoupling-records"></a>Kopplung von Datensätzen aufheben
 Sie können einen oder mehrere Datensätze von Listenseiten oder der Seite **Fehler bei der Synchronisierung gekoppelter Daten** durch Auswahl einer oder mehrerer Zeilen und Auswahl von **Kopplung löschen** entkoppeln. Sie können auch alle Kupplungen für eine oder mehrere Tabellenzuordnungen auf der Seite **Zuordnungen der Integrationstabelle** entfernen.
 
-## <a name="see-also"></a>Siehe auch  
-[Verwenden von Dynamics 365 Sales von Business Central](marketing-integrate-dynamicscrm.md)
+## <a name="see-also"></a>Weitere Informationen  
+[Dynamics 365 Sales von Business Central aus verwenden](marketing-integrate-dynamicscrm.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

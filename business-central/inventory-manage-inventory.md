@@ -10,12 +10,12 @@ ms.search.keywords: warehouse, stock
 ms.search.forms: 5804, 2106, 5823, 5751, 5750, 772, 5829, 5828, 513, 304, 40, 38, 167, 117, 5827, 9223, 158, 354, 9152, 286, 5754, 5402, 209, 297, 298, 99000782
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: c2479b23ba429d80137d5bbba6200c2e45a0f943
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 567b1cd469816f175508dddac068b8b8b3e1bc2e
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148488"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521962"
 ---
 # <a name="manage-inventory"></a>Lagerbestand verwalten
 
@@ -59,7 +59,7 @@ In der folgenden Tabelle sind verwandte Aufgaben aufgeführt.
 |Verwalten von Geschäften in den Verkaufsbüros, in den Einkaufsabteilungen oder in den Fabrikplanungsbüros von mehreren Standorten.|[Arbeiten mit Zuständigkeitseinheiten](inventory-responsibility-centers.md)|
 |Verwenden Sie Ressourcen mit spezifischen Fähigkeiten für verschiedene Services und Serviceelemente.|[Ressourcenzuweisung einrichten](service-how-setup-resource-allocation.md)|
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 [Logistik](warehouse-manage-warehouse.md)  
 [Einkauf](purchasing-manage-purchasing.md)  

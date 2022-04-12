@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 4e9bd9e44a92c952fe01636b1ef724491e479cf1
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f7127569153ee98aaadcbb807432d852a4f22d0d
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145238"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518705"
 ---
 # <a name="walkthrough-planning-supplies-manually"></a>Exemplarische Vorgehensweise: Manuelle Beschaffungsplanung
 
@@ -55,7 +55,7 @@ In der folgenden exemplarischen Vorgehensweise wird die Planung von Beschaffungs
 ## <a name="setting-up-the-sample-data"></a>Einrichten der Beispieldaten  
  Das standardmäßige Demounternehmen CRONUS verfügt derzeit über einen umfangreichen, nicht geplanten Bedarf. Während der unterschiedlichen Planungsphasen dieser exemplarischen Vorgehensweise ist eine Abweichung von einer realistischen Vorgehensweise erforderlich, da Bedarf mit unmittelbar bevorstehendem Fälligkeitsdatum ignoriert und stattdessen Bedarf mit einem späteren Fälligkeitsdatum verwendet wird.  
 
-## <a name="using-the-order-planning-page"></a>Verwenden der Seite "Auftragsplanung"  
+## <a name="use-the-order-planning-page"></a>Die Seite „Auftragsplanung“ verwenden  
 
 Die Seite **Auftragsplanung** kann von mehreren Standorten aus aufgerufen werden:  
 

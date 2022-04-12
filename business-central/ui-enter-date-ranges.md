@@ -10,14 +10,14 @@ ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 934fcefa552f01a05f95221d57d9a708b9acc26f
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.openlocfilehash: 010d130801dd68023eca4c3b65d716fa3ddcc8e8
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323006"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518861"
 ---
-# <a name="working-with-calendar-dates-and-times"></a>Arbeiten mit Datumsangaben und Uhrzeiten in Kalendern
+# <a name="work-with-calendar-dates-and-times"></a>Mit Datumsangaben und Uhrzeiten in Kalendern arbeiten
 
 [!INCLUDE[prod_short](includes/prod_long.md)] bietet mehrere Möglichkeiten, Datumsangaben und Uhrzeiten einzugeben, einschließlich leistungsstarker Funktionen, die die Dateneingabe beschleunigen oder Ihnen helfen, komplexe Kalenderausdrücke zu schreiben. Es gibt verschiedene Bereiche in der Anwendung, in denen Sie Daten und Uhrzeiten in die Felder eingeben können. So können Sie beispielsweise das Warenausgangsdatum für einen Auftrag festlegen. Wenn Sie Listen oder Berichtsdaten filtern, können Sie Datumswerten und Uhrzeiten eingeben, um genau die Daten zu finden, an denen Sie interessiert sind.
 
@@ -63,12 +63,15 @@ Das Kalenderwocheschema folgt immer ISO 8601. Dabei ist Woche 1, in die der 4. J
 
 In einem Datumsfeld können zwei-, vier-, sechs- oder achtstellige Werte eingegeben werden:
 
--   Wenn Sie nur zwei Ziffern eingeben, wird dies als Tagesangabe interpretiert, es gilt also der Monat und das Jahr des Arbeitsdatums.
+- Wenn Sie nur zwei Ziffern eingeben, wird dies als Tagesangabe interpretiert, es gilt also der Monat und das Jahr des Arbeitsdatums.
 
--   Wenn Sie vier Ziffern eingeben, wird dies als Tages- und Monatsangabe interpretiert, es gilt also das Jahr des Arbeitsdatums. Die Reihenfolge von Tag und Monat wird durch Ihre Regionseinstellungen bestimmt. Selbst wenn Ihre Regionseinstellungen das Jahr vor den Tag und Monat stellen, werden vier Ziffern als Tag und Monat interpretiert.
+- Wenn Sie vier Ziffern eingeben, wird dies als Tages- und Monatsangabe interpretiert, es gilt also das Jahr des Arbeitsdatums. Die Reihenfolge von Tag und Monat wird durch Ihre Regionseinstellungen bestimmt. Selbst wenn Ihre Regionseinstellungen das Jahr vor den Tag und Monat stellen, werden vier Ziffern als Tag und Monat interpretiert.
 
--   Wenn Sie ein Datum zwischen dem 01.01.1930 und dem 31.12.2029 eingeben wollen, können Sie das Jahr zweistellig eingeben; ansonsten muss das Jahr vierstellig angegeben werden.
+- Wenn Sie ein Datum zwischen dem 01.01.1950 und dem 31.12.2049 eingeben wollen, können Sie das Jahr zweistellig eingeben; ansonsten muss das Jahr vierstellig angegeben werden.
 
+  > [!NOTE]
+  > Wenn Sie [!INCLUDE[prod_short](includes/prod_short.md)] lokal verwenden, kann der zweistellige Jahresbereich abweichen. Administratoren können den Bereich ändern, indem sie die **CalendarTwoDigitYearMax**-Einstellung des [!INCLUDE[prod_short](includes/prod_short.md)]-Servers ändern. Weitere Informationen finden Sie unter [Konfigurieren von Business Central Server](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#General).
+ 
 ### <a name="today"></a>Heute
 
 Geben Sie das Wort für _Heute_ in der Sprache ein, die auf der Seite **Meine Einstellungen** angegeben ist, um das Datum eines Datensatzes auf das heutige Datum festzulegen. Anstatt das ganze Wort einzugeben, können Sie auch einen Teil des Wortes eingeben, beginnend mit dem Anfang. Im Englischen können Sie z.B. _t_ oder _tod_ eingeben, solange es nicht gleichzeitig der Anfang eines anderen Wortes ist.
@@ -130,7 +133,7 @@ In Listen, Summen und Berichten können Sie Filter für Datumsangaben, Uhrzeiten
 
 Sie können jedes der gültigen Formate in den Datumsbereichsfiltern verwenden. Beispielsweise ergibt Mo 14.3..h 4P bei einem Datums-/Zeitangabenfeld einen Filter von 3 Uhr morgens am Montag in der Woche 14 des Jahr des aktuellen Arbeitsdatums bis heute um 4 Uhr nachmittags.
 
-## <a name="using-date-formulas"></a>Verwenden von Datumsformeln
+## <a name="use-date-formulas"></a>Datenformeln verwenden
 Bei einer Datumsformel handelt es sich um eine verkürzte Kombination aus Buchstaben und Zahlen, die zum Berechnen von Datumswerten verwendet wird. Sie können Datumsformeln in verschiedenen Datumsberechnungsfeldern oder -filtern eingeben.
 
 > [!NOTE]
@@ -216,7 +219,7 @@ You can also combine the various format types.
 
 Note that we have used the US date format MMDDYY here. As [!INCLUDE[prod_short](includes/prod_short.md)] becomes available in other markets, you'll be able to use the formats that you are used to.
 
-## Using Date Formulas
+## Use Date Formulas
 A date formula is a short, abbreviated combination of letters and numbers that specifies how to calculate dates. You can enter date formulas in various date calculation fields and in recurring frequency fields in recurring journals.
 
 > [!NOTE]
@@ -335,7 +338,7 @@ Geben Sie zum Ermitteln der Einheit, die für ein Feld vom Typ "Dauer" verwendet
 
 Wenn die Maßeinheit beispielsweise Stunden ist, wird die Zahl 5 in 5 Std. konvertiert.
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_long.md)]](ui-work-product.md)  
 [Terminberechnung für Einkäufe](purchasing-date-calculation-for-purchases.md)  
 [Eingeben von Kriterien in Filtern](ui-enter-criteria-filters.md)  

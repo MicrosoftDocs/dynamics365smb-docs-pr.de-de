@@ -8,17 +8,19 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: incoming document
 ms.search.form: 600, 605, 618, 650, 651, 648, 649, 617, 614, 642, 643, 640, 641, 613, 616, 646, 647, 644, 645, 615, 619, 612, 638, 639, 636, 637, 611
-ms.date: 04/01/2021
+ms.date: 03/09/2022
 ms.author: edupont
-ms.openlocfilehash: d0f52d1debe40eb57ac0deb914d0e6bc32f0a5a1
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: 868f07b2b56ccaefb4c56e26be72c27b941d950c
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8366375"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522118"
 ---
 # <a name="manage-the-intercompany-inbox-and-outbox"></a>Intercompany-Ein- und -Ausgangstransaktionen verwalten
 Alle Intercompanytransaktionen, die Sie auf elektronischem Wege von Intercompanypartnern empfangen, werden im Intercompanyeingang aufgelistet.  
+
+Je nachdem, wie Intercompany für Ihr Unternehmen eingerichtet ist, werden einige Transaktionen jedoch automatisch an die relevanten Intercompany-Partner repliziert. Ab dem 1. Veröffentlichungszyklus 2022 können Sie das Unternehmen für die automatische Erstellung empfangener Intercompany-Transaktionen von Intercompany-Partnern einrichten, die über das Intercompany-Hauptbuch gebucht werden. Weitere Informationen finden Sie unter [Intercompany-Buch.-Blätter ausfüllen und buchen](intercompany-how-work-documents-journals.md#to-fill-in-and-post-an-intercompany-journal).  
 
 ## <a name="organizing-the-inbox"></a>Strukturieren des Eingangs  
  Mit Hilfe der Filterfelder im oberen Bereich des Fensters Eingang können Sie festlegen, welche Transaktionen auf der Seite angezeigt werden. Wenn Sie beispielsweise nur die von einem bestimmten Partner erstellten Transaktionen anzeigen möchten, können Sie die entsprechenden Filterkriterien in den Feldern **Transaktionsursprung** und **Intercompanypartnercode** festlegen.  
@@ -51,21 +53,23 @@ Das Feld **Transaktionsursprung anzeigen** kann zum Filtern der Transaktionen im
  > Wenn die Intercompanypartner sich in derselben Datenbank befinden, werden Transaktionen übertragen, ohne dass Dateien oder E-Mail erforderlich sind. Siehe Feld **Transfertyp** auf der Seite **Intercompanypartner**. <br /><br />
 In diesem Fall können Sie eine Überbrückung des Eingangs und Ausgangs durch das System festlegen, indem Sie das Kontrollkästchen **Transaktionen autom. akzeptieren** auf der Seite **Intercompanypartner** und das Kontrollkästchen **Transaktionen autom. senden** auf der Seite **Intercompanyeinrichtung** auswählen. Eingehende Intercompanytransaktionen können nur dann automatisch akzeptiert werden, wenn der Aufgabenplaner aktiviert ist. Weitere Informationen finden Sie unter [Business Central Server konfigurieren – Aufgabenplanungseinstellungen](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#Task).
 
-## <a name="to-import-intercompany-transactions-from-a-file"></a>Intercompanytransaktionen aus einer Datei importieren  
+## <a name="to-import-intercompany-transactions-from-a-file"></a>Intercompanytransaktionen aus einer Datei importieren
+
+[!INCLUDE [onprem_only_md](includes/onprem_only_md.md)]
+
 Wenn einer der Intercompanypartner sich nicht in derselben Datenbank wie das eigene Unternehmen befindet, können die Intercompanytransaktionen von diesem Partner in einer XML-Datei empfangen werden. Anschließend werden die Transaktionen in den Eingang importiert.  
 
-1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Unternehmensdaten** ein und wählen Sie dann den zugehörigen Link.
-2. Speichern Sie die Datei in dem Verzeichnis, das Sie im Feld **Intercompanyeingangsdetails** auf der Seite **Firmendaten** angegeben haben.  
-3. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Intercompany-Eingangstransaktionen** ein und wählen Sie dann den zugehörigen Link.
-4. Wählen Sie auf der Seite **Intercompany-Eingangstransaktionen** die **Transaktionsdatei importieren**-Aktion aus.  
-5. Wählen Sie auf der angezeigten Seite die XML-Datei mit den Transaktionen aus, und wählen Sie dann **Öffnen**.  
+1. Speichern Sie die Datei in dem Verzeichnis, das Sie im Feld **Intercompanyeingangsdetails** angegeben haben, als Sie Intercompany eingerichtet haben.  
+2. Wählen Sie das Symbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Intercompany-Eingangstransaktionen** ein und wählen Sie dann den zugehörigen Link.
+3. Wählen Sie auf der Seite **Intercompany-Eingangstransaktionen** die **Transaktionsdatei importieren**-Aktion aus.  
+4. Wählen Sie auf der angezeigten Seite die XML-Datei mit den Transaktionen aus, und wählen Sie dann **Öffnen**.  
 
 Die Transaktionen werden in den Eingang importiert und können nun verarbeitet werden.
 
 ## <a name="to-process-incoming-intercompany-transactions"></a>So verarbeiten Sie eingehende Intercompanytransaktionen  
 Wenn Intercompanypartner Intercompanytransaktionen an Sie senden, werden diese Transaktionen im Intercompanyeingang abgelegt. Sie müssen die einzelnen Transaktionen im Eingang bewerten und entsprechend verarbeiten.  
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Intercompany-Eingangstransaktionen** ein und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Intercompany-Eingangstransaktionen** ein und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie auf der Seite **Intercompany-Eingangstransaktionen** eine Zeile aus, und wählen Sie anschließend eine Aktion, wie **Akzeptieren** aus, um die Zeile zu verarbeiten.
 3. Füllen Sie auf der Seite **IC-Eingangsvorgang abschl.** die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Wählen Sie die Schaltfläche **OK** aus.  
@@ -79,7 +83,7 @@ Für Zeilen, die Sie mit der Aktion **Zurückgesendet durch Partner** verarbeite
 ## <a name="to-process-outgoing-intercompany-transactions"></a>So verarbeiten Sie ausgehende Intercompanytransaktionen  
 Wenn Sie Intercompany-Buch.-Blätter oder -Belege buchen oder Intercompanybestellbestätigungen senden, werden die Transaktionen an den Intercompanyausgang gesendet. Damit sie an die Intercompanypartner gesendet werden, müssen Sie den Ausgang öffnen und die Transaktionen verarbeiten.  
 
-1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Intercompany-Ausgangstransaktionen** ein, und wählen Sie dann den zugehörigen Link.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Intercompany-Ausgangstransaktionen** ein, und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie auf der Seite **Intercompany-Ausgangstransaktionen** eine Zeile aus, und wählen Sie anschließend eine Aktion, wie **Zurück in Eingang** aus, um die Zeile zu verarbeiten.
 
 Zeilen, die Sie mit der **An Intercompanypartner senden**-Aktion verarbeiten, werden an den Eingang des Partners gesendet.

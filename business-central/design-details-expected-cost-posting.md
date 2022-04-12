@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 07/20/2021
 ms.author: edupont
-ms.openlocfilehash: edf08dfd87596da0a2c052651e323963ff13ce6a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: c2c3e7cd0e9f5ae88e63bd305927a20341e7559b
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8128889"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513096"
 ---
 # <a name="design-details-expected-cost-posting"></a>Designdetails: Soll-Kosten-Buchen
 Soll-Kosten repräsentieren die Schätzung der Kosten, z. B. für die Kosten eines Einkaufsartikels, die Sie registrieren, bevor Sie die Rechnung für den Artikel erhalten.  
@@ -97,7 +97,7 @@ Sie buchen eine Einkaufsbestellung als erhalten. Die erwarteten Kosten sind MW 
  [Designdetails: Abgleich mit der Finanzbuchhaltung](design-details-reconciliation-with-the-general-ledger.md)   
  [Designdetails: Bestandsbuchung](design-details-inventory-posting.md)   
  [Designdetails: Abweichung](design-details-variance.md)  
- [Verwalten der Lagerregulierung](finance-manage-inventory-costs.md)  
+ [Verwalten der Bestandsregulierung](finance-manage-inventory-costs.md)  
  [Finanzen](finance.md)  
  [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

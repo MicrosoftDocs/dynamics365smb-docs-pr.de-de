@@ -4,14 +4,15 @@ description: Sehen Sie, welche Finanzberichte und Analysen in der Standardversio
 author: edupont04
 ms.topic: conceptual
 ms.search.keywords: reporting
+ms.search.form: Report_4, Report_6, Report_7, Report_9, Report_25, Report_38
 ms.date: 04/12/2021
 ms.author: edupont
-ms.openlocfilehash: c31914e1c251f4cf04cd3b990c2570b51e1717f5
-ms.sourcegitcommit: 67006b090a7bd70446414a19cc82e531190637dc
+ms.openlocfilehash: 2220bfacb8f94265363c30acbcde1cc6de745339
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8311206"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514387"
 ---
 # <a name="financial-reports-and-analytics-in-business-central"></a>Finanzielle Berichte und Analysen in Business Central
 
@@ -41,7 +42,7 @@ In den folgenden Artikeln werden einige der wichtigsten Aufgaben zur Analyse des
 [Jahre und Perioden abschließen](year-close-years-periods.md)  
 [Vorabschlussberichte verwenden](year-prepare-preclose-reports.md)  
 [Abschlussberichte vorbereiten](year-prepare-close-statement.md)  
-[Finanzauswertungen analysieren in Microsoft Excel](finance-analyze-excel.md)  
+[Analysieren von Finanzberichten in Microsoft Excel](finance-analyze-excel.md)  
 [Arbeiten mit Dimensionen](finance-dimensions.md)  
 [Debitoren Berichte und Analysen](receivables-reports.md)  
 [Berichte und Analysen zu Verbindlichkeiten a. LL](payables-reports.md)  

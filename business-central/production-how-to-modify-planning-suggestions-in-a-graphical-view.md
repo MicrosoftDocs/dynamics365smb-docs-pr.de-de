@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 08c685e37ccc6ee1fa3d4503cc40bd054b4a4ca1
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 90201c5aa134eb0c4c9c01c4c692f3f253b5f56c
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146366"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515407"
 ---
 # <a name="modify-planning-suggestions-in-a-graphical-view"></a>Ändern von Planungsvorschlägen in einer grafischen Ansicht
 
@@ -99,7 +99,7 @@ To implement the supply plan changes, you must follow the resulting action messa
 [Produktion](production-manage-manufacturing.md)  
 [Lagerbestand](inventory-manage-inventory.md)  
 [Einkauf](purchasing-manage-purchasing.md)  
-[Designdetails: Vorratsplanung](design-details-supply-planning.md)  
+[Entwurfsdetails: Vorratsplanung](design-details-supply-planning.md)  
 [Bewährte Einrichtungsmethoden: Beschaffungsplanung](setup-best-practices-supply-planning.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

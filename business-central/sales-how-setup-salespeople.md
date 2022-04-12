@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: sales rep
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8c4cca41beb49c05568d6e0c1c21946bb493e30b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 6046562a16bd1f9736bd10bea5c4bda397d99df1
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145394"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512179"
 ---
 # <a name="set-up-salespeople"></a>Verkäufer einrichten
 Viele Unternehmen möchten die Leistungen der einzelnen Angestellten bei der Berechnung von Verkaufsprovisionen oder Prämien berücksichtigen. Sehen Sie beispielsweise den **Verkäufer-Kommissionsbericht**. Ein Unternehmen möchte möglicherweise auch jeder Kontaktperson einen Verkäufer zuordnen.
@@ -24,12 +24,12 @@ Wenn Sie auf der Seite **Verkäufer** einen Verkäufer eingerichtet haben, könn
 > [!Video https://www.microsoft.com/videoplayer/embed/RE43Vhm?rel=0]
 
 ## <a name="to-set-up-a-salesperson-code"></a>So richten Sie einen Verkäufercode ein
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Verkäufer** ein und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Verkäufer** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie auf der Seite **Verkäufercode** die Aktion **Neu** aus.
 
 Sie können Verkäufer in verschiedenen Beziehungsverwaltung und Marketings-Arbeit verwenden. So können Sie z. B. Aufgaben Verkäufern zuweisen, sodass die Aufgaben in Verkaufschancen integriert sind, die Verkäufern zugeordnet werden. Weitere Informationen finden Sie unter [Einrichten von Verkaufschancen für Verkaufsprozesse und Prozess-Stufen](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 [Einrichten von Verkäufen](sales-setup-sales.md)  
 [Verkauf](sales-manage-sales.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

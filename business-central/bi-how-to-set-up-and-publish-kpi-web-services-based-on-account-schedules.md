@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 103, 104, 197, 196, 195, 198, 490, 764, 765, 766
 ms.date: 06/15/2021
 ms.author: bholtorf
-ms.openlocfilehash: b02b8fe9aeee685f65cf82ad66c9492d241c6711
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: d8d3e9b37abe5e8d24e1d01eacfdff96df94da45
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381273"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514095"
 ---
 # <a name="set-up-and-publish-kpi-web-services-based-on-account-schedules"></a>Einrichten und Veröffentlichen von KPI-Webdienste auf der Basis von Kontenschemata
 Auf der Seite **Kontopaln KPI Web-Service einrichten** richten Sie ein, wie die Kontenschema-KPI-Daten angezeigt werden, und auf welchen spezifischen Kontenschemata die KPIs basieren. Wenn Sie die Schaltfläche **Webdienst veröffentlichen** wählen, werden die angegebenen Kontenschema-KPI-Daten der Liste der veröffentlichten Webdienste auf der Seite **Web-Dienste** hinzugefügt.  
@@ -24,7 +24,7 @@ Auf der Seite **Kontopaln KPI Web-Service einrichten** richten Sie ein, wie die 
 > Wenn Sie diesen Webdienst verwenden, werden Abschlussdaten nicht in Ihren Datensatz aufgenommen. So können Sie Filter in Power BI verwenden, um verschiedene Zeiträume zu analysieren.
 
 ## <a name="to-set-up-and-publish-a-kpi-web-service-that-is-based-on-account-schedules"></a>So richten Sie einen KPI-Webdienst ein und veröffentlichen ihn, der auf Kontenschemata basiert  
-1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Setup von Kontenschema-KPI-Webdiensten** ein und wählen Sie dann den zugehörigen Link.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Setup von Kontenschema-KPI-Webdiensten** ein und wählen Sie dann den zugehörigen Link.  
 2.  Füllen Sie im Inforegister **Allgemein** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 
     |Feld|Beschreibung|  

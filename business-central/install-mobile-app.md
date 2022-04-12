@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: desktop, Windows, app
 ms.date: 10/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 9c550c5e62b025d59c451aed83a6dbf6f0e1e11b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 35d2c97f888905584010c75c7529b4b66fec51c0
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138466"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515589"
 ---
 # <a name="getting-business-central-on-your-mobile-device"></a>Abrufen von Business Central auf meinem mobilen Gerät
 
@@ -40,7 +40,7 @@ Sie sollten nun Zugriff auf [!INCLUDE[prod_short](includes/prod_short.md)] haben
 > [!TIP]
 > Wenn Sie die App mit einer Sandkastenumgebung verbinden möchten, wählen Sie die Schaltfläche **Erweiterte Optionen** und wählen Sie dann die Anmeldeoptionen **Cloud Sandbox**. Wenn Sie dann mehr als eine Sandkastenumgebung haben, wählen Sie die entsprechende Umgebung aus.
 
-## <a name="using-business-central-on-premises"></a>Lokales Business Central lokal nutzen?
+## <a name="use-business-central-on-premises"></a>Business Central lokal verwenden?
 
 Wenn Sie [!INCLUDE[prod_short](includes/prod_short.md)] lokal verwenden, können Sie auch die Vorteile der mobilen App nutzen. Die Installation ist ähnlich, aber mit einigen Ausnahmen.
 
@@ -60,10 +60,10 @@ Wenn Sie [!INCLUDE[prod_short](includes/prod_short.md)] lokal verwenden, können
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 [Mobile Apps FAQ](ui-mobile-faq.yml)  
-[Vorbereitung für die Geschäftstätigkeit](ui-get-ready-business.md)  
+[Vorbereiten auf die Geschäftsabwicklung](ui-get-ready-business.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

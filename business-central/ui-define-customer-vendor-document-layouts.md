@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 4b417c689c02a0252e3967379e33a88386ad694f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: cbd0fbea2e1567875dd7bda556271f693234a502
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147466"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8510739"
 ---
 # <a name="define-document-layouts-for-customers-and-vendors"></a>Beleglayouts für Debitoren und Kreditoren definieren
 Wenn benutzerdefinierte Berichtslayouts definiert sind, können Sie diese aus Debitoren- und Kreditorenkarten auswählen, um anzugeben, welche Layouts für verschiedene Arten von Belegen verwendet werden, die Sie für den betreffenden Debitoren oder Kreditoren erstellen. Der Wert im Feld **Verwendung** definiert, für welchen Prozess das Beleglayout verwendet wird, z. B. **Erinnerung**, **Lieferung** und **Bestätigung**.
@@ -30,7 +30,7 @@ Bevor Sie festlegen können, welches Beleglayout für welche Prozesse verwendet 
 Im Folgenden wird beschrieben, wie Sie Verkaufsbeleglayouts aus einer Debitorenkarte definieren. Die Schritte sind dieselben für Einkaufsbeleglayouts aus einer Kreditorenkarte.
 
 ## <a name="to-enable-all-available-sales-documents-for-a-customer"></a>So aktivieren Sie alle verfügbaren Verkaufsbelege für einen Debitor
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Debitor** ein und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Debitor** ein und wählen Sie dann den entsprechenden Link.
 2. Öffnen Sie die Karte des Debitoren, für den Sie Beleglayouts pro Geschäftsprozess definieren möchten.
 3. Wählen Sie auf der Seite **Debitorenkarte** die Seite **Belegvorlagen** aus.
 4. Auf der Seite **Beleglayouts** wählen Sie die Aktion **Aus Berichtsauswahl kopieren** aus.
@@ -57,7 +57,7 @@ Die E-Mail-Adresse des Kontakts wird nun in die Beleglayoutzeile eingefügt, sod
 [Benutzerdefinierte Berichtslayouts aktualisieren](ui-update-report-layouts.md)  
 [Erstellen und Ändern benutzerdefinierter Berichtslayouts](ui-how-create-custom-report-layout.md)  
 [Importieren und Exportieren von einem benutzerdefinierten Berichts- oder Beleglayout](ui-how-import-and-export-report-layout.md)  
-[Senden von Belegen über E-Mail](ui-how-send-documents-email.md)  
+[Dokumente per E-Mail versenden](ui-how-send-documents-email.md)  
 [Verwalten von Berichtslayouts](ui-manage-report-layouts.md)  
 [Arbeiten mit Berichten, Batchaufträgen und XMLports](ui-work-report.md)  
 [Arbeiten mit Berichten, Batchaufträgen und XMLports](ui-work-report.md)  

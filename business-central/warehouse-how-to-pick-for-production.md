@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: b824cec7e6169f20d3da6bf853828a103b3c2928
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b7be198a27a5c0a95aacb9c6eca988681d097316
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144359"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515225"
 ---
 # <a name="pick-for-production-or-assembly-in-basic-warehouse-configurations"></a>Kommissionierung für Montage oder Produktion in Grund-Lagerkonfiguration
 Wie Sie Ihre Kommissionierungskomponenten für Produktions- oder Montageaufträge einlagern, hängt davon ab, wie Ihr Lagerort eingerichtet wurde. Weitere Informationen finden Sie unter [Lagerortverwaltung einrichten](warehouse-setup-warehouse.md).
@@ -42,7 +42,7 @@ Eine Systemvoraussetzung für das Kommissionieren oder Umlagern von Komponenten 
 ## <a name="to-pick-production-components-in-basic-warehouse-configurations-using-inventory-pick"></a>Kommissionieren von Produktionskomponenten in grundlegenden Lagerkonfigurationen mithilfe der Bestandsauswahl
 In Basis--Lagerkonfigurationen, in der der Lagerort nur für Kommissionierung eingerichtet wurde, können Sie Komponenten für Produktions- und Montageaktivitäten auf der Seite **Lagerkommissionierung** kommissionieren. Weitere Informationen finden Sie unter [Entnahme von Artikeln mit Kommissionierungen](warehouse-how-to-pick-items-with-inventory-picks.md).
 
-1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Lagerkommissionierungen** ein und wählen Sie dann den zugehörigen Link.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Lagerkommissionierungen** ein und wählen Sie dann den zugehörigen Link.  
 2.  Um zu den Komponenten des Fertigungsauftrags zu gelangen, wählen Sie die Aktion **Herkunftsbeleg holen** aus, und wählen Sie den freigegebenen Fertigungsauftrag aus.  
 3.  Führen Sie die Kommissionierung aus und erfassen Sie dann die tatsächlichen Kommissionierinformationen im Feld **Bewegungsmenge**.  
 4.  Wenn die Zeilen zum Buchen bereit sind, wählen Sie die Aktion **Buchen** aus. Das Buchen erzeugt die erforderlichen Lagerplatzposten und bucht den Verbrauch der Artikel.  
@@ -87,7 +87,7 @@ Dieses Flussdiagramm zeigt, wie das Feld **Lagerplatzcode** in Fertigungsauftrag
 [Lagerbestand](inventory-manage-inventory.md)  
 [Lagerverwaltung einrichten](warehouse-setup-warehouse.md)     
 [Montageverwaltung](assembly-assemble-items.md)    
-[Designdetails: Lagerverwaltung](design-details-warehouse-management.md)  
+[Designdetails: Warehouse Management](design-details-warehouse-management.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

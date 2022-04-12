@@ -9,20 +9,20 @@ ms.workload: na
 ms.search.form: 371, 423, 424, 427, 1208, 1207, 1230
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: a1de8defa88e9a2d744f5b8d25ebebda33c22649
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 51875e782ca6ad0e96abd460f4e026b3e7b08073
+ms.sourcegitcommit: 4a57fb5b88b9ebbb61fdd1b25e1fd4ba0013c8e5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147804"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "8484921"
 ---
 # <a name="collect-payments-with-sepa-direct-debit"></a>Erfassen von Zahlungen per Lastschriftverfahren SEPA
 
 Mit dem Einverständnis Ihres Debitors können Sie Zahlungen nach dem SEPA-Format direkt vom Bankkonto des Debitors einziehen.  
 
-Richten Sie zuerst das Exportformat der Bankdatei ein, die Ihrer Bank aufträgt, eine Lastschrift durchführen. Dann richten Sie die Zahlungsmethode des Kunden ein. Richten Sie schließlich das Lastschrift-Mandat ein, die Ihrer Übereinkunft mit dem Kunden zum Einzug seiner Zahlungen in einem bestimmten Zeitraum entspricht.  
+Richten Sie zuerst das Exportformat der Bankdatei ein, die Ihrer Bank aufträgt, eine Lastschrift durchführen. Dann richten Sie die Zahlungsmethode des Debitors ein. Richten Sie schließlich das Lastschrift-Mandat ein, die Ihrer Übereinkunft mit dem Kunden zum Einzug seiner Zahlungen in einem bestimmten Zeitraum entspricht.  
 
-Um die Bank anzuweisen, den Zahlungsbetrag vom Bankkonto des Kunden auf das Konto Ihres Unternehmens zu überweisen, erstellen Sie eine Lastschrifteinzugsbuchung, die Informationen über Bankkonten, die betroffenen Verkaufsrechnungen und die Lastschriftanweisung enthält. Anschließend exportieren Sie eine XML-Datei, die auf dem Einzugseintrag basiert, und senden Sie zur Verarbeitung an Ihre Bank. Alle Zahlungen, die nicht verarbeitet werden konnten, werden Ihnen von Ihrer Bank mitgeteilt, und Sie müssen dann die jeweiligen Lastschrifteinzugsposten manuell ablehnen.  
+Um die Bank anzuweisen, den Zahlungsbetrag vom Bankkonto des Debitors auf das Konto Ihres Unternehmens zu überweisen, erstellen Sie eine Lastschrifteinzugsbuchung, die Informationen über Bankkonten, die betroffenen Verkaufsrechnungen und die Lastschriftanweisung enthält. Anschließend exportieren Sie eine XML-Datei, die auf dem Einzugseintrag basiert, und senden Sie zur Verarbeitung an Ihre Bank. Alle Zahlungen, die nicht verarbeitet werden konnten, werden Ihnen von Ihrer Bank mitgeteilt, und Sie müssen dann die jeweiligen Lastschrifteinzugsposten manuell ablehnen.  
 
 Sie können Standarddebitorverkaufscodes mit Informationen zum Lastschrifteinzug und zu Einzugsermächtigungen einrichten. Anschließend können Sie mit der **Standard-Debitorenrechnung erstellen**-Stapelverarbeitung mehrere Verkaufsrechnungen erstellen, die bereits vorab die Einzugsinformationen enthalten. Dies kann manuell oder automatisch durchgeführt werden, je nach dem Zahlungsfälligkeitsdatum.  
 
@@ -33,7 +33,7 @@ Wenn Ihre Bank Ihnen mitteilt, dass Zahlungen erfolgreich verarbeitet wurden, k�
 
 ## <a name="setting-up-sepa-direct-debit"></a>Einrichten von SEPA-Lastschriften
 
-Von der Seite **Lastschrifteinzüge** aus können Sie Anweisungen an Ihre elektronische Bank exportieren, um einen Lastschrifteinzug vom Bankkonto des Kunden auf Ihr Bankkonto gemäss dem SEPA-Lastschriftformat durchzuführen.
+Von der Seite **Lastschrifteinzüge** aus können Sie Anweisungen an Ihre elektronische Bank exportieren, um einen Lastschrifteinzug vom Bankkonto des Debitors auf Ihr Bankkonto gemäss dem SEPA-Lastschriftformat durchzuführen.
 
 > [!NOTE]
 > Die globale Version von [!INCLUDE[prod_short](includes/prod_short.md)] unterstützt nur das SEPA-Lastschriftformat. Die Version für Ihr Land/Ihre Region unterstützt möglicherweise andere Formate für die elektronische Zahlung. Siehe unter **Lokale Funktionalität** im Inhaltsverzeichnis.  
@@ -42,7 +42,7 @@ Um das Exportieren von Bankdateiformaten zu aktivieren, die nicht durch die allg
 
 Bevor Sie Debitorenzahlungen elektronisch durch den Export von Lastschriften im SEPA-Lastschriftformat verarbeiten können, müssen Sie die folgenden Einrichtungsschritte ausführen:  
 
-* Richten Sie das Exportformat der Bankdatei ein, mit der Ihre Bank angewiesen wird, einen Bankeinzug vom Bankkonto des Kunden auf Ihr Bankkonto durchzuführen.  
+* Richten Sie das Exportformat der Bankdatei ein, mit der Ihre Bank angewiesen wird, einen Bankeinzug vom Bankkonto des Debitors auf Ihr Bankkonto durchzuführen.  
 * Richten Sie die Zahlungsmethode des Debitors ein.  
 * Richten Sie das Lastschriftmandat ein, das Ihrer Übereinkunft mit dem Debitor zum Einzug seiner Zahlungen in einem bestimmten Zeitraum entspricht.  
 
@@ -97,7 +97,7 @@ Bevor Sie Debitorenzahlungen elektronisch durch den Export von Lastschriften im 
 
 ## <a name="creating-sepa-direct-debit-collection-entries-and-export-to-a-bank-file"></a>SEPA-Lastschrifteinzugsposten erstellen und in eine Bankdatei exportieren
 
-Um die Bank anzuweisen, den Zahlungsbetrag vom Bankkonto des Kunden auf das Konto Ihres Unternehmens zu überweisen, erstellen Sie eine Lastschrifteinzugsbuchung, die Informationen über das Bankkonto des Kunden, die betroffenen Verkaufsrechnungen und die Einzugsermächtigung enthält. Aus dem resultierenden Lastschrifteinzugsposten können Sie dann eine XML-Datei exportieren, die Sie dann zur Verarbeitung an Ihre elektronische Bank senden oder hochladen. Alle Zahlungen, die von der Bank nicht verarbeitet werden konnten, werden Ihnen von Ihrer Bank mitgeteilt, und Sie müssen dann die jeweiligen Lastschrifteinzugsposten manuell ablehnen.  
+Um die Bank anzuweisen, den Zahlungsbetrag vom Bankkonto des Debitors auf das Konto Ihres Unternehmens zu überweisen, erstellen Sie eine Lastschrifteinzugsbuchung, die Informationen über das Bankkonto des Debitors, die betroffenen Verkaufsrechnungen und die Einzugsermächtigung enthält. Aus dem resultierenden Lastschrifteinzugsposten können Sie dann eine XML-Datei exportieren, die Sie dann zur Verarbeitung an Ihre elektronische Bank senden oder hochladen. Alle Zahlungen, die von der Bank nicht verarbeitet werden konnten, werden Ihnen von Ihrer Bank mitgeteilt, und Sie müssen dann die jeweiligen Lastschrifteinzugsposten manuell ablehnen.  
 
  > [!NOTE]  
  > Um Zahlungen mithilfe von SEPA-Lastschrift zu erfassen, muss die Währung der Verkaufsrechnung EURO sein.  
@@ -115,7 +115,7 @@ Um die Bank anzuweisen, den Zahlungsbetrag vom Bankkonto des Kunden auf das Kont
     |**Partnerart**|Geben Sie an, ob der Lastschrifteinzug für Debitoren des Typs **Unternehmen** oder **Person** erfolgt.|  
     |**Nur Debitoren mit gültiger Einzugsermächtigung**|Geben Sie an, ob ein Lastschrifteinzug für Debitoren erstellt wird, die über ein gültiges Lastschrift-Mandat verfügen. **Hinweis:** Eine Lastschrift wird auch erstellt, wenn das Feld **Lastschrift-Unternehmens-ID** auf der Vertriebsrechnung nicht ausgefüllt ist.|  
     |**Nur Rechnungen mit gültigem Lastschrift-Mandat**|Legt fest, ob ein Lastschrifteinzug nur dann für Verkaufsrechnungen erstellt wird, wenn im Feld **Lastschrift-Mandat-ID** auf der Verkaufsrechnung ein gültiges Lastschrift-Mandat ausgewählt ist.|  
-    |**Bankkontonr.**|Geben Sie an, auf welches der Bankkonten Ihres Unternehmens die eingezogene Zahlung vom Bankkonto des Kunden überwiesen werden soll.|  
+    |**Bankkontonr.**|Geben Sie an, auf welches der Bankkonten Ihres Unternehmens die eingezogene Zahlung vom Bankkonto des Debitors überwiesen werden soll.|  
     |**Bankkontoname**|Gibt den Namen des Bankkontos an, das Sie im Feld **Bankkontonr.** auswählen. Dieses Feld wird automatisch ausgefüllt.|  
 
  4. Wählen Sie die Schaltfläche **OK** aus.  

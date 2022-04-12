@@ -10,12 +10,12 @@ ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
 ms.search.form: 605
 ms.date: 08/11/2021
 ms.author: edupont
-ms.openlocfilehash: 9dfe0ae8f0688f6494196f52cd5c4d57adf836e2
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: 356a484df2445dac39c02b9341cb9a0660a07467
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8367124"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511649"
 ---
 # <a name="managing-intercompany-transactions"></a>Intercompanytransaktionen verwalten
 
@@ -71,11 +71,11 @@ Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Artikel
 |Organisieren Sie und verarbeiten Sie die eingehenden und ausgehenden Transaktionen, die Sie zwischen Intercompanypartnern austauschen.|[Intercompany-Ein- und -Ausgangstransaktionen verwalten](intercompany-how-manage-intercompany-inbox.md)|
 |Verwenden Sie konzerninterne Transaktionen, um die Kosten zwischen Partnerunternehmen zu verteilen.|[Kosten den Intercompanypartnern zuordnen](intercompany-allocate-costs.md)|
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 [Finanzen](finance.md)  
 [Finanzen einrichten](finance-setup-finance.md)  
-[Arbeiten mit allgemeinen Buch.-Blättern](ui-work-general-journals.md)  
+[Arbeiten mit Fibu Buch.-Blättern](ui-work-general-journals.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

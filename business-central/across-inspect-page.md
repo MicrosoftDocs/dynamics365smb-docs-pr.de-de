@@ -9,12 +9,12 @@ ms.topic: conceptual
 author: jswymer
 ms.author: jswymer
 ms.date: 04/01/2021
-ms.openlocfilehash: d30b93942292e2f6a5a52831725ec06aed32820c
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 28ac84b76f40771cf29c4d504035f01458cb1631
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136504"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517174"
 ---
 # <a name="inspecting-pages-in-business-central"></a>Überprüfen von Seiten in Business Central
 
@@ -22,7 +22,7 @@ Die Überprüfungsfunktion der Seite ermöglicht es Ihnen, Details zu einer Seit
 
 [!INCLUDE [send-report-excel](includes/send-report-excel.md)]
 
-## <a name="working-with-page-inspection"></a>Arbeiten mit der Seitenüberprüfung
+## <a name="work-with-page-inspection"></a>Mit der Seitenüberprüfung arbeiten
 
 Starten Sie die Seitenüberprüfung über die Seite **Hilfe und Support**. Wählen Sie ein Fragezeichen in der oberen rechten Ecke aus, wählen Sie **Hilfe und Support** und dann **Seiten und Daten prüfen** aus. Zudem besteht die Möglichkeit, die Tastenkombination **Strg+Alt+F1** zu verwenden.
 
@@ -44,7 +44,7 @@ Als ein Administrator können Sie den Zugriff auf die gesamten Details steuern, 
 
 Benutzer, die keine Berechtigungen in **Systemobjekt 5330** haben, können dennoch auf den Bereich **Seitenüberprüfung** zugreifen, sehen allerdings nur die Felder **Seite** und **Tabelle**, die grundlegende Details anzeigen, die sie an ihr Support Team weitergeben können.
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

@@ -1,6 +1,6 @@
 ---
 title: Abstimmen von Debitoren-Zahlungen mit dem Zahlungseingangs Buch.-Blatt oder von Debitorenposten
-description: Beschreibt, wie Debitorenzahlungseingänge oder -Erstattungen mit einem oder mehreren offenen Debitorenposten angewendet und Debitorenzahlungen ausgeglichen werden.
+description: Beschreibt, wie Debitorenzahlungseingänge oder -Erstattungen mit einem oder mehreren offenen Debitorenposten angewendet werden. Dies ist Teil der Abstimmung von Kundenzahlungen.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -10,16 +10,16 @@ ms.search.keywords: payment process, cash receipt
 ms.search.form: 25, 255
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3225ec2a441bde12abb5dd008c58f5a82fc96770
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: b41c8558c29bcc14edfe1d84cfadc2fdcc95865d
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8367072"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513757"
 ---
 # <a name="reconcile-customer-payments-with-the-cash-receipt-journal-or-from-customer-ledger-entries"></a>Abstimmen von Debitoren-Zahlungen mit dem Zahlungseingangs Buch.-Blatt oder von Debitorenposten
 
-Wenn Sie einen Zahlungseingang von einem Debitor erhalten oder eine Barerstattung durchführen, müssen Sie entscheiden, ob die Zahlung oder die Rückerstattung mit einem oder mehreren offenen Soll- oder Habenposten ausgeglichen werden soll. Sie können den Betrag angeben, den Sie anwenden möchten. Beispielsweise können Sie Teilzahlungen für die Debitorenposten übernehmen. Schließende Debitorenposten stellen sicher, dass Informationen wie Debitorenstatistiken, Kontoauszüge und Zinsrechnungen korrekt sind.
+Wenn Sie eine Barzahlung von einem Kunden erhalten oder eine Barrückerstattung leisten, können Sie die Zahlung oder Rückerstattung verwenden, um offene Lastschriften oder Gutschriften zu schließen. Sie können den Betrag angeben, den Sie anwenden möchten. Beispielsweise können Sie Teilzahlungen für die Debitorenposten übernehmen. Der Abschluss von Kundenbucheinträgen hält Debitorenstatistiken, Kontoauszüge, Finanzierungskosten usw. auf dem neuesten Stand.
 
 > [!TIP]  
 >   Auf der Seite **Debitorenposten** bedeutet die rote Schriftart, dass die entsprechende Zahlung nach dem Fälligkeitsdatum liegt. Wenn fällige Zahlungen ein Problem werden, können wir Ihnen dabei helfen, die Häufigkeit zu verringern. Sie können die Funktionen **Zahlungsverzug-Vorhersagen** Erweiterung aktivieren, die ein vorbestimmtes Modell verwendet, das wir in Azure Machine Learning erstellten, um die zeitliche Steuerung der Zahlungen vorauszusagen. Diese Vorhersagen helfen Ihnen, ausstehende Forderungen zu reduzieren und die Sammlungsstrategie abzustimmen. Wenn beispielsweise vorausgesagt wird, dass eine Zahlung zu spät erfolgen wird, können Sie sich entschieden, die Zahlungsfristen oder die Zahlungsform für den Debitor anzupassen. Weitere Informationen finden Sie unter [Vorhersage verspätete Zahlung](ui-extensions-late-payment-prediction.md).  
@@ -29,16 +29,17 @@ Sie können Debitorenposten auf mehrere Arten übernehmen:
 * Durch die Eingabe von Informationen über dedizierte Seiten:
     * Die Seite **Zahlungsabstimmungsbuch.-Blatt**. Weitere Informationen finden Sie unter [Zahlungen automatisch vornehmen und Bankkonten abstimmen](receivables-apply-payments-auto-reconcile-bank-accounts.md).
     * Die Seite **Zahlungsregistrierung**. Weitere Informationen finden Sie unter [Debitoren-Zahlungen aus einer Liste mit unbezahlten Verkaufsbelegen abstimmen](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md)
-    * Das **Zahlungseingangs Buch.-Blatt**. Dies wird nachfolgend beschrieben.
-* Durch das Ausfüllen des Felds **Ausgleich mit Belegnr.** in Verkaufsgutschriftsbelegen. Dies wird nachfolgend beschrieben.
-* Mit der **Ausgleichs-ID setzen**-Aktion in Debitorenposten. Dies wird nachfolgend beschrieben.
+    * Das **Zahlungseingangs Buch.-Blatt**. Diese Option wird nachfolgend beschrieben.
+* Durch das Ausfüllen des Felds **Ausgleich mit Belegnr.** in Verkaufsgutschriftsbelegen. Diese Option wird nachfolgend beschrieben.
+* Mit der **Ausgleichs-ID setzen**-Aktion in Debitorenposten. Diese Option wird nachfolgend beschrieben.
+* Indem Sie die Aktion **Buchungen zuweisen** auf der Seite **Bankeinzahlung** verwenden und dann die Rechnungsnummer in das Feld **Gilt für ID** eingeben. Weitere Informationen finden Sie unter [Bankeinzahlungen erstellen](bank-create-bank-deposits.md).
 
 > [!NOTE]  
 >   Wenn das Feld **Ausgleichsmethode** auf der Debitorenkarte **Auf älteste anwenden** festgelegt ist, dann wird die Zahlung automatisch mit der ältesten offenen Rechnung abgeglichen, wenn Sie nicht explizit manuell einen Eintrag definieren. Ist die Ausgleichsmethode eines Debitors auf **Manuell** festgelegt, müssen die Posten immer manuell ausgeglichen werden.
 
 ## <a name="to-fill-and-post-a-cash-receipt-journal"></a>So füllen Sie ein Zahlungseingangs Buch.-Blatt aus und buchen dieses
-Ein Zahlungseingangs Buch.-Blatt ist eine Art von Fibu Buch.-Blatt. Daher können Sie es verwenden, um Transaktionen auf Sach-, Bank-, Debitoren-, Kreditor- und Anlagenkonten zu buchen. Daher können Sie die Zahlungen beim Buchen auf einen oder mehrere Sollposten anwenden oder die gebuchten Posten später anwenden.
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Zahlungseingangs Buch.-Blatt** ein und wählen Sie dann den zugehörigen Link.
+Ein Zahlungseingangs Buch.-Blatt ist eine Art allgemeines Journal. Sie können damit Transaktionen auf Sach-, Bank-, Debitoren-, Kreditoren- und Anlagekonten buchen. Daher können Sie die Zahlungen beim Buchen auf einen oder mehrere Sollposten anwenden. Sie können sich auch später aus den veröffentlichten Einträgen bewerben.
+1. Wählen Sie das Symbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Zahlungseingangs Buch.-Blatt** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie die Aktion **Buch.-Blatt bearbeiten** aus.
 3. Wählen Sie im Feld **Buch.-Blattname** das relevante Buch.-Blatt aus.
 4. Füllen Sie das Feld **Buchungsdatum** aus.  
@@ -54,7 +55,7 @@ Ein Zahlungseingangs Buch.-Blatt ist eine Art von Fibu Buch.-Blatt. Daher könne
 12. Buchen Sie die Buch.-Blattzeile.
 
 ## <a name="to-apply-a-payment-to-a-single-customer-ledger-entry"></a>So gleichen Sie einen einzelnen Debitorenposten mit einer Zahlung aus:
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Zahlungseingangs Buch.-Blatt** ein und wählen Sie den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Zahlungseingangs Buch.-Blatt** ein und wählen Sie den zugehörigen Link.
 2. Wählen Sie die Aktion **Buch.-Blatt bearbeiten** aus.
 3. Geben Sie in der ersten Buch.-Blattzeile die entsprechenden Informationen zu dem auszugleichenden Posten ein.
 4. Wählen Sie im Feld **Belegart** die Option **Zahlung** aus.
@@ -65,11 +66,11 @@ Ein Zahlungseingangs Buch.-Blatt ist eine Art von Fibu Buch.-Blatt. Daher könne
 9. Geben Sie in jeder Zeile im Feld **Anzuwendender Betrag** den Betrag ein, mit dem Sie den entsprechenden Posten ausgleichen möchten. Wenn Sie keinen Betrag eingeben, wird automatisch mit dem Höchstbetrag ausgeglichen.
 
     Am unteren Rand der Seite **Debitorenpostenausgleich** sehen Sie einen spezifischen Betrag im Fenster **Angewendeter Betrag** und auch, ob die Buchung ausgeglichen ist.  
-10. Wählen Sie die Schaltfläche **OK** aus. Die Seite **Zahlungseingangsbuch.-Blatt** zeigt nun die von Ihnen ausgewählten Einträge unter **Ausgleich mit Belegart** und auf **Ausgleich mit Belegnr.**.
+10. Wählen Sie die Schaltfläche **OK**. Die Seite **Zahlungseingangsbuch.-Blatt** zeigt nun die Einträge unter **Ausgleich mit Belegart** und auf **Ausgleich mit Belegnr.**.
 11. Buchen Sie das Zahlungseingangs Buch.-Blatt.
 
 ## <a name="to-apply-a-payment-to-multiple-customer-ledger-entries"></a>So gleichen Sie mehrere Debitorenposten mit einer Zahlung aus:
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Zahlungseingangs Buch.-Blatt** ein und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Zahlungseingangs Buch.-Blatt** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie die Aktion **Buch.-Blatt bearbeiten** aus.
 3. Geben Sie in der ersten Buch.-Blattzeile die entsprechenden Informationen zu dem auszugleichenden Posten ein.
 4. Wählen Sie im Feld **Belegart** die Option **Zahlung** aus.
@@ -120,7 +121,7 @@ Ein Zahlungseingangs Buch.-Blatt ist eine Art von Fibu Buch.-Blatt. Daher könne
     Wenn der gebuchte Ausgleich abgeschlossene Debitorenposten zur Folge hat, wird für diese Posten im Feld **Offen** kein Häkchen mehr angezeigt.    
 9. Um die Sachkonto-Einträge zu sehen, wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Debitor** ein und wählen Sie dann den entsprechenden Link. Wechseln Sie zur Karte für den jeweiligen Debitor, um die Buchungsposten zu sehen.  
 
-Sie können in der Liste der Posten sehen, dass„” „”i„”n der Zeile mit dem vollständig ausgeglichenen Posten das Feld **Offen** nicht aktiviert ist.  
+Sie können in der Liste der Posten sehen, dass in der Zeile mit dem vollständig ausgeglichenen Posten das Feld **Offen** nicht aktiviert ist.  
 
 > [!NOTE]  
 >   Nachdem Sie auf der Seite **Debitorenpostenausgleich** einen Posten oder mehrere Posten durch **Festlegen der Ausgleichs-ID** ausgewählt haben, enthält das Feld **Ausgleichsbetrag** die Summe der Restbeträge für die ausgewählten gebuchten Posten, es sei denn, das Feld enthält bereits Informationen. Wenn Sie **Auf Älteste Anwenden** im Feld **Anwendungsmethode** auf der Debitorenkarte auswählen, tritt die Anwendung automatisch auf.
@@ -128,7 +129,7 @@ Sie können in der Liste der Posten sehen, dass„” „”i„”n der Zeile m
 ## <a name="to-apply-customer-ledger-entries-in-different-currencies-to-one-another"></a>So gleichen Sie Debitorenposten in verschiedenen Währungen untereinander aus:
 Wenn Sie an einen Debitor in einer Währung verkaufen und die Zahlung in einer anderen Währung erhalten, können Sie dennoch die Rechnung mit der Zahlung ausgleichen.  
 
-Wenn Sie einen Posten (Posten 2) in einer Währung mit einem Posten (Posten 1) in einer anderen Währung ausgleichen, wird das Buchungsdatum von Posten 1 verwendet, um den entsprechenden Wechselkurs zur Umrechnung der Beträge von Posten 2 zu ermitteln. Den Wechselkurs finden Sie auf der Seite **Währungswechselkurse**.  
+Im Folgenden finden Sie ein Beispiel. Sie wenden Eintrag 1 in einer Währung auf Eintrag 2 in einer anderen Währung an. Das Buchungsdatum in Eintrag 1 wird verwendet, um den Wechselkurs zu ermitteln, der zum Umrechnen der Beträge in Eintrag 2 verwendet werden soll. Den relevanten Wechselkurs finden Sie auf der Seite **Währungswechselkurse**.  
 
 Das Ausgleichen von Debitorenposten in verschiedenen Währungen muss aktiviert sein. Weitere Informationen finden Sie unter [ Anwendung von Debitorenposten in unterschiedlichen Währungen aktivieren](finance-how-enable-application-ledger-entries-different-currencies.md)  
 
@@ -143,7 +144,7 @@ Das Ausgleichen von Debitorenposten in verschiedenen Währungen muss aktiviert s
 >   Wenn Sie Posten in verschiedenen Währungen miteinander ausgleichen, rechnet die Anwendung die Beträge in USD um. Selbst wenn der Wechselkurs fest ist, z. B. zwischen USD und EUR, kann es zu Rundungsdifferenzen kommen, wenn diese Fremdwährungsbeträge in USD umgerechnet werden. Diese Rundungsdifferenzen werden als Gewinne und Verluste auf die Konten gebucht, die in den Feldern **Kursgewinn realisiert** oder **Kursverlust realisiert** der Seite **Währungen** angegeben sind. Außerdem werden die Beträge im Feld **Betrag (USD)** der entsprechenden Debitorenposten angepasst.  
 
 ## <a name="to-correct-an-application-of-customer-entries"></a>So heben Sie den Ausgleich von Debitorenposten auf
-Wenn Sie einen fehlerhaften Ausgleich aufheben, wird ein Korrekturposten (ein Posten, der mit dem ursprünglichen Posten identisch ist, im Betragsfeld allerdings ein umgekehrtes Vorzeichen aufweist) für alle Posten erstellt und gebucht, einschließlich aller aus dem Ausgleich abgeleiteten Fibu-Buchungen, z. B. Skonto und Währungsgewinne/-verluste. Die Einträge, die durch die Anwendung geschlossen wurden, werden wieder geöffnet.  
+Wenn Sie einen Antrag korrigieren, werden Korrekturbuchungen für alle Buchungen erstellt und gebucht. Die Korrektureinträge sind die gleichen wie die Originale, haben aber ein entgegengesetztes Protokoll im **Menge**-Bereich. Die Korrekturbuchungen umfassen alle aus der Anwendung abgeleiteten Hauptbucheinträge. Zum Beispiel Skonto und Währungsgewinne/-verluste. Die Einträge, die durch die Anwendung geschlossen wurden, werden wieder geöffnet.  
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Debitor** ein und wählen Sie dann den entsprechenden Link.
 2. Öffnen Sie die relevante Debitorenkarte.
@@ -156,7 +157,7 @@ Wenn Sie einen fehlerhaften Ausgleich aufheben, wird ein Korrekturposten (ein Po
 > [!IMPORTANT]  
 >   Wenn ein Eintrag durch mehr als einen Anwendungseintrag angewendet wurde, müssen Sie den letzten Anwendungseintrag zuerst rückgängig machen.  
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 [Verwalten von Forderungen](receivables-manage-receivables.md)  
 [Verkauf](sales-manage-sales.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

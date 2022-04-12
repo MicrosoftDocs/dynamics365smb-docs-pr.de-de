@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 7368, 7369, 7370, 7371, 7372, 7373
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: ffd6bd12a1655cc330370df2c9d2c64a2d89e0af
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 4e41f61156dbc7248cc9cb1a99ca2b5c790ee036
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144385"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518601"
 ---
 # <a name="create-bins"></a>Lagerplätze erstellen
 
@@ -22,7 +22,7 @@ Die effektivste Art, die Lagerplätze Ihres Lagers zu erzeugen, ist, Gruppen von
 
 ## <a name="to-create-a-bin-from-the-location-card"></a>So erstellen einen Lagerplatz von der Lagerortkarte aus:
 
-1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Lagerorte** ein, und wählen Sie den zugehörigen Link.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Lagerorte** ein, und wählen Sie den zugehörigen Link.  
 2.  Wählen Sie den Lagerort aus, aus dem Sie einen Lagerplatz erstellen möchten, und wählen Sie die Aktion **Lagerplätze** aus.  
 3. Wählen Sie die Aktion **Neu**.
 4. Füllen Sie die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -42,7 +42,7 @@ Eine Arbeitsplatzgruppe mit einem Lagerplatzcode wird im Feld **Fert.-Bereitst.-
 
 ## <a name="to-create-bins-individually-in-the-bin-creation-worksheet"></a>So erstellen Sie Lagerplätze individuell im Lagerplatz-Erstellungsarbeitsblatt:
 
-1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Arbeitsblatt Lagerplatz Erst.-Arbeitsblatt** ein und wählen Sie den zugehörigen Link.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Arbeitsblatt Lagerplatz Erst.-Arbeitsblatt** ein und wählen Sie den zugehörigen Link.  
 2.  Füllen Sie in jeder Zeile die Felder aus, die erforderlich sind, um die Lagerplätze, die Sie erzeugen, zu benennen und zu charakterisieren.  
 3.  Wählen Sie die Aktion **Lagerplätze erstellen** aus.  
 
@@ -55,7 +55,7 @@ Bevor Sie beginnen, Lagerplätze automatisch zu erstellen, sollten Sie die Art d
 
 Um mit der **Lagerplatz Erst.-Arbeitsblatt**-Seite zu arbeiten, müssen Sie als Lagermitarbeiter am Lagerort eingerichtet sein, in dem die Lagerplätze vorhanden sind. Weitere Informationen finden Sie unter [Lagermitarbeiter einrichten](warehouse-how-to-set-up-warehouse-employees.md)    
 
-1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Lagerplatz Erst.-Arbeitsblatt** ein und wählen Sie dann den zugehörigen Link.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Lagerplatz Erst.-Arbeitsblatt** ein und wählen Sie dann den zugehörigen Link.  
 2.  Wählen Sie die Aktion **Lagerplätze berechnen** aus.
 3. Wählen Sie auf der Seite **Lagerplätze berechnen** im Feld **Lagerplatzvorlagencode** aus, und wählen Sie die Lagerplatzvorlage, die Sie als Muster für die Lagerplätze verwenden möchten, die Sie gerade erstellen.
 4.  Geben Sie eine Beschreibung für die Lagerplätze ein, die Sie gerade erstellen.  
@@ -82,7 +82,7 @@ Wiederholen Sie diesen Vorgang für die nächste Serie von Lagerplätzen, bis Si
 [Lagerbestand](inventory-manage-inventory.md)  
 [Lagerortverwaltung einrichten](warehouse-setup-warehouse.md)     
 [Montageverwaltung](assembly-assemble-items.md)    
-[Designdetails: Logistik](design-details-warehouse-management.md)  
+[Designdetails: Warehouse Management](design-details-warehouse-management.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

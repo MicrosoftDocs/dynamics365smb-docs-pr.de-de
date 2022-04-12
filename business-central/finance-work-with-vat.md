@@ -7,18 +7,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, sales, purchases
-ms.search.form: 118, 130, 142, 459, 460, 525
+ms.search.form: 7, 118, 130, 142, 459, 460, 525
 ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: 7543c60455794d9f004ea11b2baccf81264b9886
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: ea32a78ec191d335fb772a7040ed81db6753b196
+ms.sourcegitcommit: 3ca91139035b34cfe0b0303e4caff7c6d02d0d14
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382099"
+ms.lasthandoff: 03/14/2022
+ms.locfileid: "8417519"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Arbeiten mit MwSt im Verkauf und Einkauf
-Wenn Ihr Land oder Ihre Region es erfordert, die Mehrwertsteuer (MwSt) in Einkaufs- und Verkaufstransaktionen zu berechnen, sodass Sie die Beträge einer Steuerbehörden melden können, können Sie festlegen, dass [!INCLUDE[prod_short](includes/prod_short.md)] MwSt in Einkaufs- und Verkaufsbelegen automatisch berechnet wird. Weitere Informationen finden Sie [Einrichten der Berechnungs- und Buchungsmethoden für Mehrwertsteuer](finance-setup-vat.md).
+Wenn Ihr Land oder Ihre Region verlangt, dass Sie die Mehrwertsteuer (MwSt.) auf Verkaufs- und Einkaufstransaktionen berechnen und melden, können Sie in [!INCLUDE[prod_short](includes/prod_short.md)] einrichten, dass Mehrwertsteuer berechnet wird. Weitere Informationen finden Sie [Einrichten der Berechnungs- und Buchungsmethoden für Mehrwertsteuer](finance-setup-vat.md).
 
 Es gibt jedoch Mehrwertsteuer-verknüpfte Aufgaben, die Sie manuell tun können. Beispielsweise müssen Sie möglicherweise einen gebuchten Betrag korrigieren, wenn Sie feststellen, dass ein Kreditor eine andere Rundungsmethode verwendet.  
 
@@ -26,31 +26,44 @@ Es gibt jedoch Mehrwertsteuer-verknüpfte Aufgaben, die Sie manuell tun können.
 > Sie können [!INCLUDE[prod_short](includes/prod_short.md)] die Umsatzsteuer-Identifikationsnummern und andere Unternehmensinformationen, wenn Sie Dokumente erstellen oder aktualisieren lassen. Weitere Informationen finden Sie unter [Umsatzsteuer-Identifikationsnummern validieren](finance-how-validate-vat-registration-number.md).
 
 ## <a name="calculating-and-displaying-vat-amounts-in-sales-and-purchase-documents"></a>Berechnen und Anzeigen von MwSt.-Beträgen in Verkaufs- und Einkaufsbelegen  
-Je nach Debitoren- oder Kreditorenart können MwSt.-Beträge in Verkaufs- und Einkaufsbelegen unterschiedlich berechnet und angezeigt werden. Darüber hinaus kann der von der Anwendung berechnete MwSt.-Betrag außer Kraft gesetzt werden und der von Ihrem Kreditor für ein bestimmtes Geschäft berechnete MwSt.-Betrag verwendet werden.  
+Wenn Sie eine Artikelnummer im **Nr.** Feld auf einem Verkaufs- oder Einkaufsbeleg, [!INCLUDE[prod_short](includes/prod_short.md)] füllt die Felder **Einzelpreis** und **Zeilenbetrag**. Der Verkaufspreis wird von der **Artikel**-Karte übernommen oder anhand der Artikelpreise berechnet, die für den Artikel und den Debitor zulässig sind. [!INCLUDE[prod_short](includes/prod_short.md)] berechnet den Zeilenbetrag nur dann, wenn Sie eine Menge für die Zeile eingeben.  
 
-### <a name="unit-price-and-line-amount-includingexcluding-vat-on-sales-documents"></a>Verkaufspreis und Zeilenbetrag inklusive/exklusive MwSt. auf Verkaufsdokumenten  
-Wenn Sie eine Artikelnummer im **Nr.** Feld in einem Verkaufsbeleg auswählen, wird [!INCLUDE[prod_short](includes/prod_short.md)] von der Anwendung auch das Feld **VK-Preis** ausgefüllt. Der Verkaufspreis wird von der **Artikel**-Karte übernommen oder anhand der Artikelpreise berechnet, die für den Artikel und den Debitor zulässig sind. [!INCLUDE[prod_short](includes/prod_short.md)]berechnet den **Zeilenbetrag** nur dann, wenn Sie eine Menge für die Zeile eingeben.  
+Wenn Sie möchten, dass die Einzelpreise und Zeilenbeträge Mehrwertsteuer enthalten, wenn Sie beispielsweise an Endverbraucher verkaufen, wählen Sie das **Preise inkl. MwSt**-Kontrollkästchen auf dem Dokument aus. Weitere Informationen finden Sie unter [Einschließlich oder ohne Mehrwertsteuer in Preisen und Zeilenbeträgen](#including-or-excluding-vat-in-prices-and-line-amounts). 
 
-Wenn Sie an einen EinzelhandelsDebitoren verkaufen, möchten Sie möglicherweise, dass die Preise in Verkaufsbelegen die Mehrwertsteuer enthalten. Um dies zu tun, aktivieren Sie das Kontrollkästchen **Preise inkl. MwSt.** im Beleg.  
+Je nach Debitoren- oder Kreditorenart können MwSt.-Beträge in Verkaufs- und Einkaufsbelegen unterschiedlich berechnet und angezeigt werden. Sie können den berechneten MwSt.-Betrag auch manuell ändern, z. B. um ihn an den von Ihrem Lieferanten für eine bestimmte Transaktion berechneten MwSt.-Betrag anzupassen.
 
-### <a name="including-or-excluding-vat-on-prices"></a>Mit oder ohne Mehrwertsteuer auf Preisen
-Ist das Feld **Preise inkl. MwSt.** aktiviert, werden die Felder **VK-Preis** und **Zeilenbetrag** mit der MwSt. berechnet und der Feldname zeigt dies ebenfalls. Standardmäßig ist die MwSt nicht in diesen Feldern enthalten.  
+### <a name="including-or-excluding-vat-in-prices-and-line-amounts"></a>Einschließlich oder ohne Mehrwertsteuer in Preisen und Zeilenbeträgen
+Ist das Feld **Preise inkl. MwSt.** aktiviert, werden die Felder **VK-Preis** und **Zeilenbetrag** mit der MwSt. berechnet. Die Werte in diesen Feldern enthalten standardmäßig keine Mehrwertsteuer. Die Namen der Felder geben an, ob die Preise Mehrwertsteuer enthalten.  
 
-Ist das Feld nicht aktiviert, wird die Anwendung in die Felder **VK-Preis** und **Zeilenbetrag** ein Betrag ohne MwSt. eingegeben. Dies wird auch durch die Feldnamen wiedergegeben.  
-
-Sie können die Standardeinstellung der **Preise inkl. MwSt.** für alle Verkaufsbelege eines Debitors im Feld **Preise inkl. MwSt.** auf der **Debitor**-Karte einrichten. Darüber hinaus können Sie auch Artikelpreise inklusive oder exklusive MwSt. einrichten. Normalerweise ist auf der Artikelkarte der Artikelpreis ohne MwSt. angegeben. Die Anwendung verwendet die Informationen vom Feld **VK-Preis inkl. MwSt.** auf der **Artikelkarte**, um den Verkaufspreises für Verkaufsbelege zu bestimmen.  
+Sie können die Standardeinstellung der **Preise inkl. MwSt.** für alle Verkaufsbelege eines Debitors im Feld **Preise inkl. MwSt.** auf der **Debitor**-Karte einrichten. Darüber hinaus können Sie auch Artikelpreise inklusive oder exklusive MwSt. einrichten. In der Regel enthalten die Preise auf der Artikelkarte keine Mehrwertsteuer. 
 
 Die folgende Tabelle bietet einen Überblick darüber, wie in der Anwendung Verkaufspreise für einen Verkaufsbeleg berechnet werden, wenn auf der Seite **VK-Preise** keine Preise eingerichtet wurden:  
 
-|**Feld "VK-Preis inkl. MwSt." auf Artikelkarte**|**Feld "Preise inkl. MwSt." im Verkaufskopf**|**Durchgeführte Aktion**|  
+|**Feld "VK-Preis inkl. MwSt." auf Artikelkarte**|**Feld „Preise inkl. MwSt.“**|**Durchgeführte Aktion**|  
 |-----------------------------------------------|----------------------------------------------------|--------------------------|  
-|Kein Häkchen|Kein Häkchen|Der **VK-Preis** auf der Artikelkarte wird in das Feld **VK-Preis ohne MwSt.** in den Verkaufszeilen kopiert.|  
-|Kein Häkchen|Häkchen|Die Anwendung berechnet den MwSt.-Betrag pro Einheit und fügt ihn dem **VK-Preis** auf der Artikelkarte hinzugefügt. Dieser Gesamtverkaufspreis wird dann in das Feld **VK-Preis inkl. MwSt.** in den Verkaufszeilen eingegeben.|  
-|Häkchen|Kein Häkchen|Die Anwendung berechnet den MwSt.-Betrag, der im **VK-Preis** auf der Artikelkarte unter Verwendung des MwSt.-Prozentsatzes enthalten ist, der mit der Kombination aus MwSt.-Geschäftsbuchungsgruppe (Preis) und MwSt.-Produktbuchungsgruppe verknüpft ist. Der **VK-Preis** auf der Artikelkarte, verringert um den MwSt.-Betrag, wird dann im Feld **VK-Preis ohne MwSt.** in den Verkaufszeilen eingegeben.|  
-|Häkchen|Häkchen|Der **VK-Preis** auf der Artikelkarte wird in das Feld **VK-Preis inkl. MwSt.** in den Verkaufszeilen kopiert.|
+|Nicht aktiviert|Nicht aktiviert|Der **VK-Preis** auf der Artikelkarte wird in das Feld **VK-Preis ohne MwSt.** in den Verkaufszeilen kopiert.|  
+|Nicht aktiviert|Aktiviert|Die Anwendung berechnet den MwSt.-Betrag pro Einheit und fügt ihn dem **VK-Preis** auf der Artikelkarte hinzugefügt. Dieser Gesamtverkaufspreis wird dann in das Feld **VK-Preis inkl. MwSt.** in den Verkaufszeilen eingegeben.|  
+|Aktiviert|Nicht aktiviert|Die Anwendung berechnet den MwSt.-Betrag, der im **VK-Preis** auf der **Artikelkarte** unter Verwendung des MwSt.-Prozentsatzes enthalten ist, der mit der Kombination aus MwSt.-Geschäftsbuchungsgruppe (Preis) und MwSt.-Produktbuchungsgruppe verknüpft ist. Der **VK-Preis** auf der Artikelkarte, verringert um den MwSt.-Betrag, wird dann im Feld **VK-Preis ohne MwSt.** in den Verkaufszeilen eingegeben. Weitere Informationen finden Sie unter [Verwenden von MwSt.-Geschäftsbuchungsgruppen und Kundenpreisgruppen](finance-work-with-vat.md#using-vat-business-posting-groups-and-customer-price-groups).|  
+|Aktiviert|Aktiviert|Der **VK-Preis** auf der Artikelkarte wird in das Feld **VK-Preis inkl. MwSt.** in den Verkaufszeilen kopiert.|
+
+#### <a name="using-vat-business-posting-groups-and-customer-price-groups"></a>Verwenden von MwSt.-Geschäftsbuchungsgruppen und Kundenpreisgruppen 
+Wenn Sie möchten, dass die Preise Mehrwertsteuer enthalten, können Sie Mehrwertsteuer-Geschäftsbuchungsgruppen verwenden, um den Betrag basierend auf der Mehrwertsteuerbuchungseinrichtung für die Gruppe zu berechnen. Weitere Informationen finden Sie unter [MwSt.-Geschäftsbuchungsgruppen festlegen](finance-setup-vat.md#set-up-vat-business-posting-groups).
+
+Je nachdem, was Sie tun möchten, können Sie Debitoren oder Verkaufsbelegen eine MwSt.-Geschäftsbuchungsgruppe auf folgende Weise zuweisen:
+
+* Um für alle Kunden denselben Mehrwertsteuersatz zu verwenden, können Sie eine Gruppe im **MwSt.-Geschäftsbuchungsgruppe (Preis)**-Feld auf der **Einrichtung von Verkäufen und Forderungen**-Seite auswählen.
+* Um einen Mehrwertsteuersatz für einen bestimmten Kunden zu verwenden, können Sie auf der Seite **Debitorenkarte** im Feld **MwSt.-Geschäftsbuchungsgruppe (Preis)** eine Gruppe auswählen. 
+* Um einen Mehrwertsteuersatz für bestimmte Debitoren zu verwenden, können Sie auf der Seite **Debitorenkarte** im Feld **Debitorenpreisgruppe** eine Gruppe auswählen. Dies ist beispielsweise nützlich, wenn Sie möchten, dass ein Preis für alle Debitoren in einer bestimmten geografischen Region oder einer bestimmten Branche gilt.
+* Auf allen Verkaufsunterlagen im Feld **MwSt.-Geschäftsbuchungsgrp.**. Der für die Gruppe angegebene Mehrwertsteuerbetrag wird nur für das Dokument verwendet, an dem Sie gerade arbeiten.
+
+> [!NOTE]
+> Wenn Sie keine Gruppe im **MwSt.-Geschäftsbuchungsgruppe (Preis)** angeben, wird Mehrwertsteuer nicht in den Preisen enthalten sein.
+
+#### <a name="examples"></a>Beispiele
+Faktoren wie das Land oder die Region, in dem Sie verkaufen, oder die Art der Branchen, in die Sie verkaufen, können sich auf die Höhe der Mehrwertsteuer auswirken, die Sie abführen müssen. Beispielsweise kann ein Restaurant 6 % Mehrwertsteuer für Mahlzeiten berechnen, die im Haus eingenommen werden, und 17 % für Speisen zum Mitnehmen. Um dies zu erreichen, erstellen Sie eine Umsatzsteuer-Geschäftsbuchungsgruppe (Preis) für „Inhouse“ und eine für „Mitnahme“.
 
 ## <a name="correcting-vat-amounts-manually-in-sales-and-purchase-documents"></a>MwSt.-Beträgen in Verkaufs- und Einkaufsbelegen manuell korrigieren  
-An gebuchten MwSt.-Posten können Korrekturen durchgeführt werden. Auf diese Weise können Sie die MwST-Beträge sämtlicher Einkäufe oder Verkäufe ändern, ohne die MwSt-Bemessungsgrundlage zu verändern. Sie werden dies beispielsweise tun wollen, wenn Sie eine Rechnung von einem Kreditor bekommen, der die MwSt. nicht korrekt berechnet hat.  
+Sie können Korrekturen an gebuchten MwSt.-Posten vornehmen und die Umsatzsteuer- und Vorsteuerbeträge verändern, ohne die MwSt.-Bemessungsgrundlage zu verändern. Zum Beispiel, wenn Sie eine Rechnung von einem Lieferanten mit einem falschen Mehrwertsteuerbetrag erhalten.  
 
 Auch wenn Sie möglicherweise bereits eine oder mehrere Kombinationen für die Verarbeitung der Einfuhrumsatzsteuer eingerichtet haben, müssen Sie mindestens einen MwSt.-Produktbuchungsgruppencode einrichten. Beispielsweise können Sie den Namen **RICHTIG** für Korrekturen angeben, es sei denn, Sie können dasselbe Sachkonto im Feld **Vorsteuerkonto** in der MwSt.-Buchungsmatrixzeile verwenden. Weitere Informationen finden Sie [Einrichten der Berechnungs- und Buchungsmethoden für Mehrwertsteuer](finance-setup-vat.md).
 

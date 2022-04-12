@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: reject, delegate, request
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: a650f2e756f8b2be6008c7f7abc7c62290023bb4
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3026ab37ced1f1529d2a9fee2e22aeccce557c53
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134252"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522378"
 ---
 # <a name="set-up-workflow-users"></a>Einrichten von Workflowbenutzern
 
@@ -44,7 +44,7 @@ Workflowbenutzer, die als Genehmigungsbenutzer agieren (sowohl Genehmigungsanfor
 6. Wiederholen Sie Schritt 5, um weitere Workflowbenutzer zur Benutzergruppe hinzuzufügen.  
 7. Wiederholen Sie die Schritte 2 bis 6, um weitere Workflowbenutzergruppen hinzuzufügen.  
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 [Genehmigungsbenutzer einrichten](across-how-to-set-up-approval-users.md)  
 [Einrichten von Workflows](across-set-up-workflows.md)  

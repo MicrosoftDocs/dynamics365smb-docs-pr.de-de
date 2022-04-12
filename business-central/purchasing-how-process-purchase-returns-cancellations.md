@@ -10,12 +10,12 @@ ms.search.keywords: cancel, undo, correct
 ms.search.form: 6640, 6643, 9307, 9309, 9308, 6652, 145, 147
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9b59271a3c1bf1558b7a4584ac3088b33ea0ee34
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 643a0206bb5c84cb1530e24403094474d98f28f9
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382417"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517316"
 ---
 # <a name="process-purchase-returns-or-cancellations"></a>Verarbeiten einer Einkaufsrücklieferung oder von Stornierungen
 
@@ -50,7 +50,7 @@ Weitere Informationen finden Sie unter [Designdetails: Lagerkosten](design-detai
 
 ## <a name="to-create-a-purchase-credit-memo-from-a-posted-purchase-invoice"></a>Eine neue Einkaufsgutschrift aus einer gebuchte Einkaufsrechnung erstellen
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Gebuchte Einkaufsrechnungen** ein und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Gebuchte Einkaufsrechnungen** ein und wählen Sie dann den entsprechenden Link.  
 2. Wählen Sie das Feld **Gebuchte Einkaufsrechnung**, um die Seite **Korrekturgutschrift erstellen** zu öffnen, und wählen Sie die gebuchte Einkaufsrechnung aus, die Sie stornieren möchten.
 
     Die meisten Felder im Einkaufsgutschriftskopf werden mit den Informationen aus der gebuchten Einkaufsrechnung ausgefüllt. Sie können alle Felder bearbeiten, zum Beispiel mit neuen Daten, die die Rückholvereinbarung wiedergeben.

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: d053e800a8a873f84d30a078e1b9776ca17129f5
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: a4be92935903c1572e43af0f035e101fe0567772
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142776"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513419"
 ---
 # <a name="walkthrough-managing-projects-with-jobs"></a>Exemplarische Vorgehensweise: Verwalten von Projekten
 
@@ -76,7 +76,7 @@ Im Mittelpunkt dieser exemplarischen Vorgehensweise steht CRONUS, ein Entwicklun
 
 ### <a name="to-prepare-the-sample-data"></a>So bereiten Sie die Beispieldaten vor  
 
-1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Ressourcen** ein und wählen Sie dann den zugehörigen Link.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Ressourcen** ein und wählen Sie dann den zugehörigen Link.  
 2.  Wählen Sie die **Neu** Aktion aus, um eine neue Ressourcenkarte zu erstellen.  
 3.  Geben Sie auf dem Inforegister **Allgemein** die folgenden Informationen ein:  
 
@@ -99,7 +99,7 @@ Im folgenden Verfahren erstellen Sie eine Projektbuchungsblatt für Katrin, um d
 
 ### <a name="to-create-a-job-journal-batch"></a>So erstellen Sie einen Projekt Buch.-Blattnamen  
 
-1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Projekt Buch.-Blätter** ein und wählen Sie dann den zugehörigen Link.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Projekt Buch.-Blätter** ein und wählen Sie dann den zugehörigen Link.  
 2.  Wählen Sie auf der Seite **Projekt Buch.-Blatt** das Feld **Buch.-Blattname** aus. Die Seite **Projekt Buch.-Blattnamen** wird geöffnet.  
 3.  Wählen Sie auf der Registerkarte Start die Option **Neu** aus, um eine neue Zeile mit folgender Information zu erstellen.  
 
@@ -114,7 +114,7 @@ Im folgenden Verfahren erstellen Sie eine Projektbuchungsblatt für Katrin, um d
 
 ### <a name="to-set-up-a-job"></a>So richten Sie ein Projekt ein  
 
-1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Aufträge** ein, und wählen Sie dann den zugehörigen Link.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Aufträge** ein, und wählen Sie dann den zugehörigen Link.  
 2.  Wählen Sie die **Neu** Aktion aus, um eine neue Ressourcenkarte zu erstellen.  
 3.  Geben Sie auf dem Inforegister **Allgemein** die folgenden Informationen ein:  
 

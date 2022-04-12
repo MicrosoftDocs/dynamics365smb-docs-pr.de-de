@@ -9,15 +9,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 46664dac24f5da8eab714f1be303e4fb7241496d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 31f6c59f13bed6fdb62624b56ad732824af77230
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131034"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519329"
 ---
 # <a name="field-mapping-when-exporting-payment-files-using-the-amc-banking-365-fundamentals-extension"></a>Feldzuordnung beim Export von Zahlungsdateien mit der AMC Banking 365 Fundamentals-Erweiterung
-Wenn Sie Zahlungsdateien mit der AMC Banking 365 Fundamentals-Erweiterung exportieren, werden die von Ihnen exportierten Daten dem Dienstanbieter zugänglich gemacht. Der Dienstanbieter ist für den Schutz dieser Daten verantwortlich. Weitere Informationen zur AMC Banking 365 Fundamentals-Erweiterung finden Sie unter [Verwenden der AMC Banking 365 Fundamentals-Erweiterung](ui-extensions-amc-banking.md).  
+Wenn Sie Zahlungsdateien mit der AMC Banking 365 Fundamentals-Erweiterung exportieren, werden die von Ihnen exportierten Daten dem Dienstanbieter zugänglich gemacht. Der Dienstanbieter ist für den Schutz dieser Daten verantwortlich. Weitere Informationen zur AMC Banking 365 Fundamentals-Erweiterung finden Sie unter [Die AMC Banking 365 Fundamentals-Erweiterung verwenden](ui-extensions-amc-banking.md).  
 
 > [!CAUTION]  
 >  Wenn Sie Zahlungsdateien mit der AMC Banking 365 Fundamentals-Erweiterung exportieren, werden einige Ihrer Geschäftsdaten dem Anbieter des Dienstes zugänglich gemacht. Der Dienstanbieter, AMC Consult A/S, ist für den Schutz dieser Daten verantwortlich. Weitere Informationen finden Sie unter [AMC-Datenschutzrichtlinie](https://go.microsoft.com/fwlink/?LinkId=510158).  
@@ -72,7 +72,7 @@ Die folgende Tabelle listet die Felder in [!INCLUDE[prod_short](includes/prod_sh
 ## <a name="see-also"></a>Siehe auch  
 [Datenaustausch einrichten](across-set-up-data-exchange.md)  
 [Daten elektronisch austauschen](across-data-exchange.md)
-[Verwenden der AMC Banking 365 Fundamentals-Erweiterung](ui-extensions-amc-banking.md)   
+[Die AMC Banking 365 Fundamentals-Erweiterung verwenden](ui-extensions-amc-banking.md)   
 [Zahlungen mit der AMC Banking 365 Fundamentals-Erweiterung oder per SEPA-Überweisung vornehmen](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)   
 
 

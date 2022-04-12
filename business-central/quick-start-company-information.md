@@ -7,14 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: quickstart
-ms.date: 09/29/2021
+ms.search.form: 1,
+ms.date: 03/14/2022
 ms.author: edupont
-ms.openlocfilehash: beaca5bec31c0ba4877245cade5363dad21fe05a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: bf7435f7d11e05cbe517208ffacd173a73ba1fd6
+ms.sourcegitcommit: 3ca91139035b34cfe0b0303e4caff7c6d02d0d14
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133654"
+ms.lasthandoff: 03/14/2022
+ms.locfileid: "8417613"
 ---
 # <a name="company-information-quick-start"></a>Unternehmensdaten Schnellstart
 
@@ -25,19 +26,14 @@ Sie können alle relevanten Daten auf der Seite **Firmeninformationen** eingeben
 ## <a name="to-set-up-company-information"></a>Um Unternehmensinformationen einzurichten:  
 
 1. Wählen Sie das Symbol ![, um das Menü „Einstellungen“ zu öffnen.](media/ui-experience/settings_icon_small.png) und wählen Sie dann die Aktion **Unternehmensdaten**.
-2. Geben Sie die Informationen in die Inforegister ein, wie in der folgenden Tabelle beschrieben.
+2. Geben Sie die Informationen in die Inforegister ein, wie in der folgenden Tabelle beschrieben. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-    |Feld|Beschreibung|  
-    |-------------|---------------------------------------|  
-    |**Allgemein**|Geben Sie die allgemeinen Informationen über Ihre Firma ein, einschließlich eines Logos, da dieses auf kundenorientierten Belegen erscheinen wird, zum Beispiel auf Rechnungen, die Sie versenden. |  
-    |**Kommunikation**|Geben Sie die grundlegenden Kontaktinformationen Ihrer Firma ein, z.B. Telefonnummer und E-Mail-Adresse.|  
-    |**Zahlungen**| Geben Sie die relevanten Bankinformationen ein, um sicherzustellen, dass Ihre Kunden Sie bezahlen können.|  
-    |**Versand**|Geben Sie die relevanten Versandinformationen ein, damit Sie Waren von und zu Ihrer Firma senden und empfangen können.|  
-    |**Steuern**|Je nachdem, in welchem Land Sie leben, steht Ihnen die Registerkarte Steuern schnell zur Verfügung. Wenn sie verfügbar ist, füllen Sie sie aus.|  
+    [!INCLUDE [admin-company-info-fasttabs](includes/admin-company-info-fasttabs.md)]
 
 Sobald Sie die Informationen ausgefüllt haben, können Sie die Seite schließen.  
 
 ## <a name="see-also"></a>Weitere Informationen  
 
+[Unternehmensdatenübersicht](admin-company-information.md)  
+[Einrichten der Unternehmensdaten in Italien](LocalFunctionality/Italy/how-to-set-up-company-information.md)  
 [Business Central Schnellstarts](quick-start-business-central.md)  
-[Einrichten der Unternehmensdaten](LocalFunctionality/Italy/how-to-set-up-company-information.md)  

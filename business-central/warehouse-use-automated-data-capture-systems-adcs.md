@@ -10,12 +10,12 @@ ms.search.keywords: barcode
 ms.search.form: 7700, 7703, 7704, 7706, 7707, 7710, 9813, 9814
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 88f0fdefa640cb96316e0958279513211f6abf4d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: cf0ac9f90efe234b73d4509e50502ca37dcf458e
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144255"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514699"
 ---
 # <a name="use-automated-data-capture-systems-adcs"></a>Automatisches Datenerfassungssystem (ADCS) verwenden
 
@@ -37,7 +37,7 @@ Um das automatisierte Datenerfassungssystem verwenden zu können, müssen Sie de
 
 ## <a name="to-enable-and-publish-the-adcs-web-service"></a>So aktivieren und veröffentlichen Sie den ADCS-Webdienst  
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Webdienste** ein, und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Webdienste** ein, und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie die Aktion **Neu**.  
 3. Geben Sie auf der Seite **Webdienste** die folgenden Informationen in eine neue Zeile ein:  
 
@@ -56,14 +56,14 @@ Um MDE nutzen zu können, müssen Sie festlegen, welche Lagerorte die Technologi
 > [!NOTE]  
 >  Es ist empfehlenswert, dass Sie ein Lager nicht für die Verwendung von MDE einrichten, wenn das Lager auch eine Lagerplatzkapazitätsprüfung hat.
 
-1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Lagerorte** ein, und wählen Sie den zugehörigen Link.
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Lagerorte** ein, und wählen Sie den zugehörigen Link.
 2.  Wählen Sie ein Lager aus der Liste aus, für das Sie MDE aktivieren möchten, und wählen die **Bearbeiten** Aktion aus.
 3. Auf der Seite **Lagerortkarte** wählen Sie das Kontrollkästchen **MDE verwenden** aus.  
 
 ## <a name="to-specify-an-item-to-use-adcs"></a>So geben Sie einen Artikel für die Verwendung von MDE an  
 Jedem Logistik Artikel, den Sie mit MDE verwenden möchten, muss ein Barcode zugeordnet werden, um ihn mit der Artikelnummer zu verknüpfen. Beispielsweise können Sie den Barcode des Artikels als Identifzierungscode verwenden. Ein Artikel kann also mehrere Barcodes haben. Dies kann hilfreich sein, wenn ein Artikel in verschiedenen Maßeinheiten verfügbar ist, wie als Stück und als Palette. In diesem Fall weisen Sie jeder Einheit einen Barcode zu.    
 
-1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Elemente** ein, und wählen Sie dann den zugehörigen Link.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Elemente** ein, und wählen Sie dann den zugehörigen Link.  
 2.  Wählen Sie einen Artikel aus der Liste aus, der Teil der MDE-Lösung ist, und wählen die **Bearbeiten** Aktion aus.
 3. Wählen Sie auf der Seite **Artikelkarte** die Aktion **Kennzeichner** aus.
 4. Wählen Sie auf der Seite **Artikelbarcodes** die Aktion **Neu** aus.
@@ -120,7 +120,7 @@ Wenn Sie ein Miniform erstellt haben, sind die nächsten Schritte das Erstellen 
 [Lagerbestand](inventory-manage-inventory.md)  
 [Lagerverwaltung einrichten](warehouse-setup-warehouse.md)     
 [Montageverwaltung](assembly-assemble-items.md)    
-[Designdetails: Logistik](design-details-warehouse-management.md)  
+[Designdetails: Warehouse Management](design-details-warehouse-management.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

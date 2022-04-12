@@ -10,12 +10,12 @@ ms.search.keywords: delete, data, retention, policy, policies
 ms.search.form: 3903, 3901
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 1abd02f7c70e8fe624e7d8b18ec7b7cb8b7c2c9e
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: a6fee7aedd8fca20e032bc3ac67e5f9e26d1fb22
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383939"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517082"
 ---
 # <a name="define-retention-policies"></a>Aufbewahrungsrichtlinien definieren
 Administratoren können Aufbewahrungsrichtlinien definieren, um festzulegen, wie häufig [!INCLUDE[prod_short](includes/prod_short.md)] veraltete Daten in Tabellen löschen soll, die Protokolleinträge und archivierte Datensätze enthalten. Das Bereinigen von Protokolleinträgen kann beispielsweise das Arbeiten mit tatsächlich relevanten Daten erleichtern. Richtlinien können alle Daten in den Tabellen beinhalten, die nach dem Ablaufdatum liegen, oder Sie können Filterkriterien hinzufügen, die nur bestimmte abgelaufene Daten in die Richtlinie aufnehmen. 
@@ -40,7 +40,7 @@ Die Aufbewahrungszeiträume können beliebig lang oder kurz sein. Um Aufbewahrun
 > Aus Kompatibilitätsgründen haben wir für einige Tabellen einen Mindestaufbewahrungszeitraum festgelegt. Wenn Sie einen Aufbewahrungszeitraum festlegen, der die Mindestdauer unterschreitet, wird in einer Meldung der obligatorische Mindestaufbewahrungszeitraum angezeigt.
 
 ### <a name="set-up-a-retention-policy"></a>Aufbewahrungsrichtlinie einrichten
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Aufbewahrungsrichtlinien** ein und wählen Sie den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Aufbewahrungsrichtlinien** ein und wählen Sie den zugehörigen Link.
 2. Geben Sie im Feld **Tabellen-ID** die Tabelle ein, die in der Richtlinie berücksichtigt werden soll.
 3. Geben Sie im Feld **Aufbewahrungszeitraum** an, wie lange die Daten in der Tabelle verbleiben sollen.
 4. Optional: Um die Richtlinie auf bestimmte Daten in einer Tabelle anzuwenden, deaktivieren Sie die Option „Auf alle Datensätze anwenden“. Das Inforegister „Datensatzaufbewahrungsrichtlinie“ wird angezeigt, in dem Sie Filter festlegen können, um Teilmengen von Daten für jede Zeile zu erstellen. Weitere Informationen finden Sie unter [Filterung](ui-enter-criteria-filters.md#filtering).

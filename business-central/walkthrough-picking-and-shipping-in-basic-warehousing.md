@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 99271ea5f97bed9faca795f19a863977f8b0e6e4
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 8f938adf6a7629c4f9aedde32c4f8f10cb6f20e6
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148096"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513393"
 ---
 # <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations"></a>Exemplarische Vorgehensweise: Kommissionierung und Lieferung in Basis-Lagerkonfigurationen
 
@@ -80,7 +80,7 @@ Um diese Funktion nutzen zu können, müssen Sie sich selbst dem Lagerort als La
 
 #### <a name="to-make-yourself-a-warehouse-employee"></a>So machen Sie sich selbst zum Lagermitarbeiter
 
-  1. Wählen Sie die ![Glühbirne, die zuerst die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Lagermitarbeiter** ein, und wählen Sie dann den zugehörigen Link.  
+  1. Wählen Sie die ![Glühbirne, die zuerst die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Lagermitarbeiter** ein, und wählen Sie dann den zugehörigen Link.  
   2. Wählen Sie das Feld **Benutzer-ID** und dann Ihr eigenes Benutzerkonto auf der Seite **Lagermitarbeiter** aus.
   3. Wählen Sie im Feld **Lagerortcode** „SÜD“ aus.  
   4. Wählen Sie das Feld **Standard** und dann die Schaltfläche **Ja** aus.  
@@ -89,7 +89,7 @@ Um diese Funktion nutzen zu können, müssen Sie sich selbst dem Lagerort als La
 
 Führen Sie die folgenden Schritte aus, um den Artikel LS-1928 SÜD-Standort verfügbar zu machen:  
 
-  1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion als zweite öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Element Buch.-Blätter** ein und wählen Sie dann den zugehörigen Link.  
+  1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion als zweite öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Element Buch.-Blätter** ein und wählen Sie dann den zugehörigen Link.  
   2. Öffnen Sie das Standardjournal, und erstellen Sie dann zwei Artikel Buch.-Blattzeilen mit den folgenden Informationen über das Arbeitsdatum (23. Januar).  
 
         |Postentyp|Artikelnummer|Lagerortcode|Lagerplatzcode|Menge|  
@@ -108,7 +108,7 @@ Verkaufsaufträge sind die häufigste Art des ausgehenden Herkunftsbelegs.
 
 ### <a name="to-create-the-sales-order"></a>Den Verkaufsauftrag erstellen
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion als dritte öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Verkaufsaufträge** ein, und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion als dritte öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Verkaufsaufträge** ein, und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die Aktion **Neu** aus.  
 3. Erstellen Sie einen Verkaufsauftrag für den Debitor 10000 auf das Arbeitsdatum (23. Januar) mit den folgenden Verkaufszeilen.  
 

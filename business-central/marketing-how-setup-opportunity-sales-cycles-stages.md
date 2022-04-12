@@ -10,12 +10,12 @@ ms.search.keywords: relationship, prospect
 ms.search.forms: 5122, 5121, 5120, 5175, 5119
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 5eb180d1190e56dc7a43354b5aef2637500a38be
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: bc42d30cfbfd664ec3d60576f21f4e7cbf3967e8
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148434"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522928"
 ---
 # <a name="set-up-opportunity-sales-cycles-and-cycle-stages"></a>Einrichten von Verkaufsprozessen für Verkaufschancen und Prozess-Stufen
 Damit die Verkaufschancen verwendet werden kann, müssen zunächst Verkaufsprozesse sowie Verkaufsprozess-Stufen eingerichtet werden. Ein Verkaufsprozess setzt sich aus einer Reihe von Schritten zusammen, die vom ersten Kontakt bis zu einem Verkaufsabschluss reichen. Jeder Stufe kann bestimmten Bedingungen haben, die erfüllen sein müssen (z. B. ein Verkaufsangebot), bevor eine Verkaufschance in die nächste Stufe gehen kann. Sie können auch festlegen, ob eine Stufe übersprungen werden kann. Verkaufsprozesse können in beliebiger Anzahl eingerichtet werden. Gleiches gilt auch für die Anzahl der Verkaufsprozess-Stufen, die innerhalb eines Verkaufsprozesses eingerichtet werden.
@@ -25,7 +25,7 @@ Das Implementieren des Verkaufsprozesses für Verkaufschancen umfasst das Einric
 Dieses Thema beschreibt auch Entscheidungsträgern als Einrichtungsaufgaben und die Aktivitäten und wie Aufgaben zu den Aktionen zugewiesen werden. Weitere Informationen finden Sie unter [Um Aktionen mit Aufgaben einzurichten](marketing-how-setup-opportunity-sales-cycles-stages.md#to-set-up-activities-with-tasks).
 
 ## <a name="to-set-up-opportunity-sales-cycle-codes"></a>Um Verkaufschancen-Zykluscodes einzurichten:
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Verkaufsprozesse** ein und wählen Sie dann den zugehörigen Link. Die Seite **Verkaufsprozesse** wird geöffnet und führt alle vorhandenen Verkaufsprozesse auf.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Verkaufsprozesse** ein und wählen Sie dann den zugehörigen Link. Die Seite **Verkaufsprozesse** wird geöffnet und führt alle vorhandenen Verkaufsprozesse auf.
 2. Wählen Sie die Aktion **Neu** aus, und füllen Sie die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Wiederholen Sie diese Schritte, um weitere Verkaufsprozesse einzurichten. Nachdem Sie Verkaufsprozesse für Verkaufschancen eingerichtet haben, können Sie die verschiedenen Stufen innerhalb jedes Prozesses einrichten.
@@ -42,7 +42,7 @@ Nachdem Sie die Stufe des Verkaufprozesses hinzugefügt haben, können Sie Verka
 ## <a name="to-set-up-activities-with-tasks"></a>Um Aktionen mit Aufgaben einzurichten
 Sie können mehrere Aufgabe, zum Beispiel Tätigkeiten kombinieren, die jede einen Schritt darstellen in den Aktivitäten. Alle Schritte innerhalb einer Aktion sind durch ein Datenformular miteinander verbunden. Sie können Aktionen Verkaufschancen, Verkäufern bzw. den Kontakten zuweisen.
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Aktivitäten** ein, und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Aktivitäten** ein, und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie die Aktion **Neu** aus, und füllen Sie die Felder nach Bedarf aus.
 3. Im Inforegister **Zeilen** geben Sie die notwendigen Felder ein, um eine oder mehrere Aufgaben in der Aktivität zu definieren.
 
@@ -52,7 +52,7 @@ Wenn Sie eine Aufgabe eingerichtet haben, können Sie sie in einer Verkaufschanc
 > [!NOTE]  
 >   Diese Vorgehensweise beschreibt, wie Sie Aktivitätsaufgaben zu Verkaufschancen zuweisen. die Schritte sind ähnlich, wenn Sie Verkäufer und den Kontakten Aufgaben zuordnen.
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Verkaufschancen** ein und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Verkaufschancen** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie eine Chance und wählen Sie dann die Aktion **Aufgaben** aus.
 3. Wählen Sie auf der Seite **Aufgabenliste** die Aktion **Aufgabe erstellen**.
 4.  Füllen Sie auf der Seite **Aufgabe erstellen** die Felder wie benötigt aus.
@@ -62,7 +62,7 @@ Wenn Sie eine Aufgabe eingerichtet haben, können Sie sie in einer Verkaufschanc
 6. Auf der Seite **Aufgabenlisten** wählen Sie die Verkaufschance und dann die **Aktivität zuweisen**-Aktion aus.
 7. Auf der Seite **Aktivität zuweisen** geben Sie die Felder wie nötig ein, und wählen Sie dann die Schaltfläche **OK**.
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 [Verarbeiten von Verkaufschancen](marketing-processing-sales-opportunities.md)  
 [Verkauf](sales-manage-sales.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -7,12 +7,12 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ba
 ms.search.form: 100
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: d426dc74506a244746d8696dc12f80a0ada3a58e
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3b1f2bc55ce54153e6ca8f5fb4a3f8ccd0a459c9
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142698"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519414"
 ---
 # <a name="posting-the-year-end-closing-entry"></a>Buchen der Jahresendabschlussbuchung
 
@@ -23,7 +23,7 @@ Nachdem Sie die Stapelverarbeitung **GuV-Konten Nullstellung** ausgeführt haben
 
 ## <a name="to-post-the-year-end-closing-entry"></a>So buchen Sie den Jahresabschlussposten
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Fibu Buch.-Blatt** ein und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Fibu Buch.-Blatt** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie auf der Seite **Fibu Buch.Blatt** im Feld **Buch.-Blattname** das Buch.-Blatt mit den Abschlussposten aus.
 3. Überprüfen Sie die Posten.
 4. Wählen Sie auf der Registerkarte **Start** die Option Buchen aus, um das Buch.-Blatt zu buchen.

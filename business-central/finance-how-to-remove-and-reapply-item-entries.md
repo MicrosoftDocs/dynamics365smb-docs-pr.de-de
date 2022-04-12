@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 506, 521, 9125
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 61998453cb7bd31608dd18e156ca52b5f3f11b71
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: efe39fd4a4c800050deffc9c137274392f4b7dd0
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137991"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515693"
 ---
 # <a name="remove-and-reapply-item-ledger-entries"></a>Entfernen und erneutes Ausgleichen von Artikelposten
 Sie können auf der Seite **Ausgleichsarbeitsblatt** bestimmte Artikelausgleichsposten, die bei Lagertransaktionen automatisch erstellt werden, anzeigen und manuell ändern.  
@@ -41,7 +41,7 @@ Wenn Sie keinen Beleg verwenden können, um erneut auszugleichen, zum Beispiel w
 
 ## <a name="to-remove-an-item-application-by-using-the-application-worksheet"></a>Artikelausgleich mit dem Ausgleichsarbeitsblatt entfernen
 
-1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"). Symbol. Geben Sie **Ausgleichsarbeitsblatt** ein und wählen Sie dann den zugehörigen Link.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten"). Symbol. Geben Sie **Ausgleichsarbeitsblatt** ein und wählen Sie dann den zugehörigen Link.  
 2.  Die Seite **Ausgleichsarbeitsblatt** wird geöffnet und zeigt bestehende das Artikelposten für alle Artikel an.  
 3.  Geben Sie im Inforegister **Allgemein** Filter ein, um die Suche nach dem Artikelposten, für den Sie den Ausgleich ändern möchten, zu erleichtern.  
 4.  Wählen Sie den Artikelposten aus, und wählen Sie die Aktionen **Ausgeglichene Posten**. Die Seite **Ausgeglichene Posten anzeigen – Ausgeglichene Posten** wird geöffnet und zeigt den/die Artikelposten für den Ausgleich mit dem ausgewählten Posten an.  
@@ -58,7 +58,7 @@ Wenn Sie keinen Beleg verwenden können, um erneut auszugleichen, zum Beispiel w
 
 ## <a name="to-reapply-an-item-application-by-using-the-application-worksheet"></a>Artikelausgleich mit dem Ausgleichsarbeitsblatt erneut ausgleichen
 
-1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet 2.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol, geben Sie **Ausgleichsarbeitsblatt** ein und wählen Sie dann den entsprechenden Link.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet 2.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol, geben Sie **Ausgleichsarbeitsblatt** ein und wählen Sie dann den entsprechenden Link.  
 2.  Die Seite **Ausgleichsarbeitsblatt** wird geöffnet und zeigt bestehende das Artikelposten für alle Artikel an.  
 3.  Um Einträge, die seit dem Öffnen des Arbeitsblattes entfernt wurden, erneut zu übernehmen, markieren Sie den Eintrag des Positions-Ledgers, den Sie erneut übernehmen möchten, und wählen Sie dann die Aktion **Erneut anwenden**.  
 
@@ -78,7 +78,7 @@ Wenn Sie keinen Beleg verwenden können, um erneut auszugleichen, zum Beispiel w
 [Schließen von offenen Artikelposten aus einem festen Ausgleich im Artikel Buch.-Blatt](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)  
  [Verarbeiten einer Einkaufsrücklieferung oder von Stornierungen](purchasing-how-process-purchase-returns-cancellations.md)  
  [Verwalten der Lagerregulierung](finance-manage-inventory-costs.md)   
- [Designdetails: Artikelausgleich](design-details-item-application.md)  
+ [Gestaltungsdetails: Element Anwendung](design-details-item-application.md)  
  [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

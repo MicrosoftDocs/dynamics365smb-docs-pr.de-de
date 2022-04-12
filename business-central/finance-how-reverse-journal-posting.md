@@ -10,12 +10,12 @@ ms.search.keywords: reimbursement
 ms.search.form: 20, 25, 29, 38, 202, 5912,
 ms.date: 07/22/2021
 ms.author: edupont
-ms.openlocfilehash: 2a9689db234280c2bcca5e32ade2a82488c15de5
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 8757ba52142990449d5d60273a73bdc146ffb240
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147726"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517498"
 ---
 # <a name="reverse-journal-postings-and-undo-receiptsshipments"></a>Buchungen stornieren und Belege/Lieferungen rückgängig machen
 
@@ -31,7 +31,7 @@ Wenn Sie eine inkorrekte positive Mengenbuchung durchgeführt haben, wie eine Ve
 
 ## <a name="to-reverse-the-journal-posting-of-a-general-ledger-entry"></a>Um die Buch.-Blatt-Buchung eines Sachpostens zu stornieren
 Posten können in allen Seiten **Posten** storniert werden. Das folgende Verfahren basiert auf der Seite **Sachposten**.
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Hauptbuchhaltungsposten** ein und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Hauptbuchhaltungsposten** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie den Posten, den Sie stornieren möchten, und wählen die **Transaktion stornieren** Aktion aus. Beachten Sie, das sie aus einer Buch.-Blatt-Buchung stammen muss.
 3. Auf der Seite **Transaktionsposten stornieren** wählen Sie die Aktion **Stornieren** aus.
 4. Klicken Sie auf die Schaltfläche **Ja** auf der Bestätigungsnachricht.
@@ -42,7 +42,7 @@ Posten können in allen Seiten **Posten** storniert werden. Das folgende Verfahr
 ## <a name="to-post-a-negative-entry"></a>So buchen Sie einen negativen Posten  
 Im Feld **Storno** kann ein negativer Soll- anstelle eines Habenbetrags oder ein negativer Haben- anstelle eines Sollbetrags in einem Konto gebucht werden. Zur Einhaltung gesetzlicher Vorschriften wird das Feld standardmäßig in allen Buch.-Blättern angezeigt. Die Felder **Sollbetrag** und **Habenbetrag** enthalten jeweils den ursprünglichen und den stornierten Posten. Diese Felder haben keinen Einfluss auf den Kontensaldo.  
 
-1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Fibu Buch.-Blätter** ein und wählen Sie dann den zugehörigen Link  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Fibu Buch.-Blätter** ein und wählen Sie dann den zugehörigen Link  
 2.  Wählen Sie im Feld **Buch.-Blattname** den erforderlichen Buch.-Blattnamen aus.  
 3.  Geben Sie die Informationen in die entsprechenden Felder ein.  
 4.  Aktivieren Sie in der Buch.-Blattzeile, die Sie für negative Posten aktivieren möchten, das Kontrollkästchen **Storno**.  
@@ -51,7 +51,7 @@ Im Feld **Storno** kann ein negativer Soll- anstelle eines Habenbetrags oder ein
 ## <a name="to-undo-a-quantity-posting-on-a-posted-purchase-receipt"></a>So stornieren Sie eine Mengenbuchung einer gebuchten Einkaufslieferzeile  
 Im Folgenden wird beschrieben, wie Sie einen gebuchten Beleg von Artikeln oder Ressourcen rückgängig machen. Die Schritte sind ähnlich wie für eine Einkaufsbestellung.
 
-1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Geb. Einkaufslieferungen** ein und wählen Sie dann den zugehörigen Link.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Geb. Einkaufslieferungen** ein und wählen Sie dann den zugehörigen Link.  
 2.  Öffnen Sie die gebuchte Lieferung, den Sie rückgängig machen möchten.  
 3.  Wählen Sie die Zeile oder Zeilen aus, die Sie rückgängig machen möchten.  
 4.  Wählen Sie die Aktion **Wareneingang stornieren** aus.

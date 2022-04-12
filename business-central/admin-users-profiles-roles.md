@@ -7,12 +7,12 @@ ms.search.keywords: profiles, users
 ms.search.form: 9171
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: fa9bd31f0f9ff1705f9caa7f21d9f376febdb712
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b17a4f5a375e4fa1ad067d2679b37bb3d0f5da95
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133122"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514147"
 ---
 # <a name="manage-user-profiles"></a>Verwalten von Benutzerprofilen
 
@@ -85,7 +85,7 @@ Wenn ein Profil erstellt wird, können Sie verschiedene Kontrollkästchen aktivi
     - **Zeige im Rollen-Explorer**, um festzulegen, ob Aktionen für Geschäftsfunktionen, die im Profil enthalten sind, in der erweiterten Ansicht des Rollen-Explorers, einer Feature-Übersicht, angezeigt werden. Weitere Informationen finden Sie unter [Suchen von Seiten mit dem Rollen-Explorer](ui-role-explorer.md).
 
 ## <a name="to-export-profiles"></a>So exportieren Sie Profile
-Sie können Profile aus [!INCLUDE[prod_short](includes/prod_short.md)] exportieren, z.B. um sie in einem anderen Mandanten wiederzuverwenden. Die Profile werden in eine Zip-Datei exportiert, die .al-Dateien enthält, die zur Entwicklung von Erweiterungen wiederverwendet werden können. Weitere Informationen finden Sie unter [Verwenden des Clients zum Erstellen von Profilen und Seitenanpassungen](/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles-using-client).
+Sie können Profile aus [!INCLUDE[prod_short](includes/prod_short.md)] exportieren, z.B. um sie in einem anderen Mandanten wiederzuverwenden. Die Profile werden in eine Zip-Datei exportiert, die .al-Dateien enthält, die zur Entwicklung von Erweiterungen wiederverwendet werden können. Weitere Informationen finden Sie unter [Client zum Erstellen von Profilen und Seitenanpassungen verwenden](/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles-using-client).
 
 * Wählen Sie auf der Seite **Profile (Rollen)** die Aktion **Profile exportieren**.
 

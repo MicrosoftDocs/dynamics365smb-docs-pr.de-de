@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: ef7f0d170c76dc79627123ce76e036729b4d0bd0
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: fa49d48d4af1efe40cda6579ff15f703ef5ad426
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143660"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523049"
 ---
 # <a name="design-details-cost-components"></a>Designdetails: Kostenkomponenten
 Kostenkomponenten sind unterschiedliche Arten von Kosten, die den Wert eines Lagerzugangs erhöhen oder vermindern.  

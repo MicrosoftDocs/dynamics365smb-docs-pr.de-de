@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 5830, 9101, 99000822, 99000855
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 27dce308070eb72ae7699bae084b6bedb0324ba7
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 377f0af230bd1a1d77bcbc303a9b5cdefcb42ca6
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146358"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517869"
 ---
 # <a name="track-relations-between-demand-and-supply"></a>Verfolgen von Beziehungen zwischen Bedarf und Vorrat
 
@@ -27,7 +27,7 @@ Die Verfolgung zeigt, wie Verkaufsaufträge, Fertigungsaufträge und Bestellunge
 
 Nachfolgend wird erläutert, wie Artikel für einen fest geplanten Fertigungsauftrag verfolgt werden. Die Schritte sind für alle anderen Auftragsarten und der Planungsarbeitsblattszeilen ähnlich.
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Firm Planned Prod. Auftrag** ein und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Firm Planned Prod. Auftrag** ein und wählen Sie dann den zugehörigen Link.
 2. Öffnen Sie den relevanten fest geplanten Fertigungsauftrag in der Liste.
 3. Wählen Sie im Inforegister **Zeilen** in Aktionen **Funktion** aus, und wählen Sie dann **Auftrag-Verfolgung**.
 
@@ -59,7 +59,7 @@ Die Seite enthält Posten, die eine Überschussmenge ohne Bedarfsverursacher im 
 [Lagerbestand](inventory-manage-inventory.md)  
 [Einkauf](purchasing-manage-purchasing.md)  
 [Designdetails: Reservierung, Auftragsnachverfolgung und Aktionsmeldungen](design-details-reservation-order-tracking-and-action-messaging.md)  
-[Designdetails: Vorratsplanung](design-details-supply-planning.md)   
+[Designdetails: Beschaffungsplanung](design-details-supply-planning.md)   
 [Bewährte Einrichtungsmethoden: Beschaffungsplanung](setup-best-practices-supply-planning.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

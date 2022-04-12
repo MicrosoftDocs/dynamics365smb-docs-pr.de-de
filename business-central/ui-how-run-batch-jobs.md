@@ -10,12 +10,12 @@ ms.search.keywords: task, process
 ms.search.form: 672, 676, 682, 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: solsen
-ms.openlocfilehash: 7d06ebd368f42c142d7cb222ee378da79706132e
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: cd61ebd816fe5b701d493f03816f78d90b59e4f6
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335396"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512784"
 ---
 # <a name="run-batch-jobs-and-xmlports"></a>Führen Sie Stapeljobs und XMLports aus
 
@@ -26,7 +26,7 @@ Eine Stapelverarbeitung gleicht einem Bericht, die Ergebnisse der Stapelverarbei
 Sie können planen, wann ein Stapeljob ausgeführt wird. Weitere Informationen finden Sie unter [Vorgehensweise: Projektwarteschlangen nutzen, um Aufgaben zu planen](admin-job-queues-schedule-tasks.md)
 
 ## <a name="to-run-a-batch-job"></a>So führen Sie eine Stapelverarbeitung aus:
-1. Um die Anforderungsseite für den entsprechenden Batch-Auftrag zu öffnen, wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie den Namen des Batchauftrags ein und wählen Sie dann den zugehörigen Link.
+1. Um die Anforderungsseite für den entsprechenden Batch-Auftrag zu öffnen, wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie den Namen des Batchauftrags ein und wählen Sie dann den zugehörigen Link.
 2. Ist für die Stapelverarbeitung ein Inforegister vom Typ **Optionen** verfügbar, füllen Sie die Felder aus, um die Stapelverarbeitung zu konfigurieren.
 3. Die Seite kann mehrere Inforegister mit Filtern enthalten, mit denen sich die in die Stapelverarbeitung einzubeziehenden Daten einschränken lassen. Sie können Kriterien in die vorgeschlagenen Filter eingeben oder weitere Filter hinzufügen.
 4. Klicken Sie auf die Schaltfläche **OK**, um den Batchauftrag zu starten.

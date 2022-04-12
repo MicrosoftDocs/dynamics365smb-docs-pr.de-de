@@ -10,12 +10,12 @@ ms.search.keywords: SMTP, mail, Microsoft 365, Outlook
 ms.search.form: 1831, 1832, 9020, 9022, 9027, 9030, 9004, 9005, 9018, 9006, 9007, 9010
 ms.date: 08/13/2021
 ms.author: jswymer
-ms.openlocfilehash: 007d23bcb1d257402e33689ebe3ac57db10b84c2
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.openlocfilehash: 619d815fa9697671be9d1db9b7975c2ab7d93920
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323190"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518337"
 ---
 # <a name="get-the-business-central-add-in-for-outlook"></a>Holen Sie sich das Business Central-Add-in für Outlook
 
@@ -39,7 +39,7 @@ Das Business Central-Add-in für Outlook besteht aus zwei kleineren Add-ins:
 
     Wenn in einer E-Mail auf die Nummer eines Geschäftsdokuments verwiesen wird, bietet dieses Add-In einen direkten Inline-Link vom E-Mail-Text zu dem tatsächlichen Geschäftsdokument in [!INCLUDE[prod_short](includes/prod_short.md)].
 
-Weitere Informationen darüber, was Sie mit den Add-Ins tun können, finden Sie unter [Benutzung von Business Central als geschäftlicher Posteingang in Outlook](work-outlook-addin.md).
+Weitere Informationen zu den Nutzungsmöglichkeiten des Add-Ins finden Sie unter [Business Central als Unternehmenspostfach in Outlook verwenden](work-outlook-addin.md).
 
 Jedes Add-In wird in Form einer XML-Datei bereitgestellt, die als *Manifest* bezeichnet wird und die von jedem, der diese Funktionalität wünscht, in Outlook installiert werden muss. Diese Dateien beschreiben, wie die Add-Ins aktiviert und mit Business Central verbunden werden, wenn sie in Outlook verwendet werden. Die Arbeit mit diesen Dateien wird normalerweise von einem Admin durchgeführt. Als normaler Benutzer werden Sie in den meisten Fällen nicht direkt mit diesen Dateien arbeiten müssen. Entweder legt Ihr Admin fest, dass das Add-In automatisch für Sie installiert wird, oder Sie verwenden die integrierte unterstützte Einrichtung, um die Installation durchzuführen.
 
@@ -84,7 +84,7 @@ Die zentrale Bereitstellung ist eine Funktion im Microsoft 365 Admin Center, mit
 > [!IMPORTANT]
 > Ein grünes Häkchen erscheint, wenn das Add-In im Admin Center bereitgestellt ist. Es kann jedoch bis zu 24 Stunden dauern, bis die Benutzer das Add-In in der Outlook App sehen. Möglicherweise müssen die Benutzer auch Outlook neu starten.
 
-Wenn Sie fertig sind, können Sie die Bereitstellung im Microsoft 365 Admin Center jederzeit ändern, z. B. weitere Benutzer zuweisen. Weitere Informationen über das Bereitstellen von Add-Ins im Admin Center finden Sie unter [Einsatz von Add-Ins im Admin Center](/microsoft-365/admin/manage/manage-deployment-of-add-in).
+Wenn Sie fertig sind, können Sie die Bereitstellung im Microsoft 365 Admin Center jederzeit ändern, z. B. weitere Benutzer zuweisen. Weitere Informationen zur Bereitstellung von Add-Ins im Admin Center finden Sie unter [Add-Ins im Admin Center bereitstellen](/microsoft-365/admin/manage/centralized-deployment-faq?view=o365-worldwide#how-do-you-target-add-in-user-assignments-with-centralized-deployment-&preserve-view=true).
 
 ## <a name="install-the-add-in-for-your-own-use"></a><a name="install"></a>Installieren Sie das Add-In für Ihren eigenen Gebrauch
 
@@ -130,7 +130,7 @@ Jetzt können Sie das Add-In in Outlook verwenden.
 [Verkauf](sales-manage-sales.md)  
 [Einkauf](purchasing-manage-purchasing.md)  
 [Mindestanforderungen für die Verwendung von Outlook](product-requirements.md#outlook)  
-[Add-Ins in Outlook im Internet nutzen](https://support.office.com/article/Using-Add-ins-in-Outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?appver=OWB150)  
+[Add-Ins in Outlook im Internet verwenden](https://support.office.com/article/Using-Add-ins-in-Outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?appver=OWB150)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

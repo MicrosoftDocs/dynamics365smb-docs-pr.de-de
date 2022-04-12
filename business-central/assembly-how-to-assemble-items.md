@@ -10,12 +10,12 @@ ms.search.keywords: kit, kitting
 ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: d41ae558bf8570ab3439f25b82ed9892cb419ecd
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 24ea5d30b184018b69735768a6a721393086a95a
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381432"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521150"
 ---
 # <a name="assemble-items"></a>Artikel montieren
 Wenn das Feld **Beschaffungsmethode** auf der Artikelkarte **Montage** enthält, besteht die Standardmethode zur Bereitstellung des Artikels darin, es aus definierten Komponenten und eventuell mit einer definierten Ressource zu montieren.  
@@ -41,7 +41,7 @@ Diese Einrichtungsoptionen sind Standardeinstellungen, die verwalten, wie Verkau
 In diesem Verfahren erstellen und verarbeiten Sie einen Montageauftrag für Artikel, die für das Lager montiert werden, d. h. ohne einen verknüpften Verkaufsauftrag. Die Schritte enthalten das Initiieren des Montageauftrags, die Behandlung potenzieller Komponentenverfügbarkeitsprobleme und die Teilbuchung des Montageartikelausstoßes.
 
 ## <a name="to-assemble-an-item"></a>Um einen Artikel zu montieren  
-1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Montageaufträge** ein, und wählen Sie dann den entsprechenden Link.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Montageaufträge** ein, und wählen Sie dann den entsprechenden Link.  
 2.  Wählen Sie die Aktion **Neu** aus. Die Seite **Neuer Montageauftrag** wird geöffnet.  
 3.  Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4.  Wählen Sie im Feld **Artikelnr.** den Montageartikel aus, den Sie verarbeiten möchten. Das Feld wird gefiltert, um nur Artikel angezeigt, die für die Montage eingerichtet sind, d.h., denen Montagestücklisten zugeordnet sind.  
@@ -70,8 +70,8 @@ Nach erfolgreicher Buchung wird der Montageartikel als Ausstoß für den Lageror
 ## <a name="see-also"></a>Siehe auch
 [Montageverwaltung](assembly-assemble-items.md)  
 [Mit Fertigungsstücklisten arbeiten](inventory-how-work-BOMs.md)  
-[Lagerbestand](inventory-manage-inventory.md)  
-[Designdetails: Lagerverwaltung](design-details-warehouse-management.md)  
+[Bestand](inventory-manage-inventory.md)  
+[Designdetails: Warehouse Management](design-details-warehouse-management.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

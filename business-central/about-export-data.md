@@ -10,12 +10,12 @@ ms.search.keywords: analysis, reporting, financial report, business intelligence
 ms.search.form: 9901, 9018, 9020, 9022, 9027
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3161c51160790b2fcc4e702866025e501167b644
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: 912309636020923e522ea3060abf814c179dcbb1
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335604"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521384"
 ---
 # <a name="exporting-your-business-data-to-excel"></a>Exportieren Ihrer Geschäftsdaten nach Excel
 Wenn Sie mit Ihren Daten von [!INCLUDE[prod_short](includes/prod_short.md)] in Excel arbeiten, können Sie alle Listen in Excel öffnen und dort damit arbeiten. Möchten Sie das Abonnement für [!INCLUDE[prod_short](includes/prod_short.md)] stornieren, können Sie die Daten in Excel exportieren, sodass Sie diese nicht verlieren.
@@ -78,7 +78,7 @@ Weitere Informationen finden Sie unter [So erhalten Sie eine Übersicht der Benu
 ## <a name="see-also"></a>Siehe auch
 [Abbrechen des Abonnements für [!INCLUDE[prod_short](includes/prod_short.md)]](admin-cancel.md)  
 [Geschäftsdaten aus anderen Finanzsystemen importieren](across-import-data-configuration-packages.md)  
-[Finanzauswertungen analysieren in Microsoft Excel](finance-analyze-excel.md)  
+[Analysieren von Finanzberichten in Microsoft Excel](finance-analyze-excel.md)  
 [Finanzen](finance.md)  
 [Allgemeine Geschäftsfunktionen](ui-across-business-areas.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

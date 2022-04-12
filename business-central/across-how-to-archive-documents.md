@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 42, 49, 50, 459, 460, 5159, 5162, 5164, 5167, 6627, 6630, 6644, 9305, 9306, 9346, 9347, 9348, 9349
 ms.date: 06/29/2021
 ms.author: edupont
-ms.openlocfilehash: dcb99e2c1231e95fca2eb9f8c36fc363a193cd82
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 2fc414dcd9a8d9c978ee08eb5d19b960fa21a2d9
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141625"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511841"
 ---
 # <a name="archive-documents"></a>Beleg archivieren
 Sie können Verkaufs- und Einkaufsaufträge, Angebote und Rücklieferungen sowie Rahmenaufträge archivieren, beispielsweise weil Sie eine Kopie eines Dokuments zur späteren Wiederverwendung speichern möchten. Sie können ein Verkaufs- oder Einkaufsbeleg mehrmals archivieren, wobei Sie jedes Mal eine andere archivierte Version speichern.
@@ -29,7 +29,7 @@ Sie können die automatische Archivierung von Verkaufs- und Einkaufsbelegen einr
 
 Nachfolgend wird beschrieben, wie die automatische Archivierung von Verkaufsbelegen eingerichtet wird. Die Schritte sind für eine Einkaufsdokumente ähnlich.
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Einrichtung Debitoren & Verkauf** ein und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Einrichtung Debitoren & Verkauf** ein und wählen Sie dann den entsprechenden Link.
 2. Füllen Sie auf der Seite **Einrichtung Debitoren und Verkauf** die Felder aus. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
 Speziell für das Feld **Angebote archivieren** wird in der folgenden Tabelle der Unterschied zwischen den Optionen erläutert.
@@ -44,7 +44,7 @@ Speziell für das Feld **Angebote archivieren** wird in der folgenden Tabelle de
 
 Nachfolgend wird beschrieben, wie Sie einen Auftrag archivieren Die Schritte für alle Aufträge, Rahmenaufträge, Reklamationen und Angebote sind ähnlich.
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Verkaufsaufträge** ein, und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Verkaufsaufträge** ein, und wählen Sie dann den zugehörigen Link.  
 2. Öffnen Sie einen Verkaufsauftrag für Artikel, die Sie archivierne möchten.  
 3. Wählen Sie die **Beleg archivieren**-Aktion aus.
 
@@ -54,7 +54,7 @@ Der Auftrag ist archiviert. Sie können sie auf der Seite **Archivierte Verkaufs
 
 Die folgende Vorgehensweise beschreibt, wie Sie den Inhalt eines archivierten Verkaufsauftrags zum ursprünglichen Verkaufsauftrag zurück bereitstellen. Dies ist nur möglich, wenn das Originaldokument nicht gebucht wurde. Die Schritte sind für alle Aufträge, Rahmenaufträge, Rücklieferungen und Angebote ähnlich.
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Verkaufsauftragsarchive** ein und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Verkaufsauftragsarchive** ein und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie den archivierten Verkaufsauftrag oder eine Version davon aus, die Sie wiederherstellen möchten, und wählen Sie dann die Aktion **Wiederherstellen** aus.  
 
 Die Inhalte des ursprünglichen Auftrags werden durch die der ausgewählten archivierten Version ersetzt.

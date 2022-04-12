@@ -10,12 +10,12 @@ metadata:
   ms.search.keywords: phone, tablet
   ms.date: 10/25/2021
   ms.author: edupont
-  ms.openlocfilehash: 2511135e9e0aebb3a813c5fede167d10b46f045a
-  ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+  ms.openlocfilehash: 70e9bf530b2b640c42ee346d39ce6d06d5a7cee8
+  ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
   ms.translationtype: HT
   ms.contentlocale: de-DE
-  ms.lasthandoff: 02/15/2022
-  ms.locfileid: "8140319"
+  ms.lasthandoff: 03/31/2022
+  ms.locfileid: "8513471"
 title: Mobile Apps FAQ
 summary: "In diesem Artikel werden Fragen beantwortet, die unsere erfahrenen Benutzer häufig zu mobilen Apps für [!INCLUDE [prod_short](includes/prod_short.md)] stellen.  \n"
 sections:
@@ -83,7 +83,7 @@ sections:
     answer: "Fast, aber nicht ganz. Weitere Informationen finden Sie in der Liste des Abschnitts [Ist es die gleiche Erfahrung in den Apps wie im Browser?](#is-it-the-same-experience-in-the-apps-as-in-the-browser-).  \n"
   - question: >
       Kann ich die App mit unserer lokalen Lösung verbinden?
-    answer: "Ja, das können Sie! Es ist eine etwas andere Art, sich anzumelden, das ist alles. Weitere Informationen finden Sie unter [Business Central lokal nutzen?](install-mobile-app.md#using-business-central-on-premises).  \n"
+    answer: "Ja, das können Sie! Es ist eine etwas andere Art, sich anzumelden, das ist alles. Weitere Informationen finden Sie unter [Business Central lokal nutzen?](install-mobile-app.md#use-business-central-on-premises).  \n"
   - question: >
       Kann ein Gastbenutzer die App verwenden, um auf unsere Business Central-Lösung zuzugreifen?
     answer: "Anzahl Gastbenutzer sind eingeladene Benutzer von einem anderen Azure Active Directory (AD) Mandanten als Ihrer. In diesem Fall authentifiziert sich die App beim primären Benutzer des Gastbenutzers Azure AD Mandanten und versucht, den Business Central-Endpunkt auf diesem Mandanten statt auf Ihrem zu öffnen.  \n"

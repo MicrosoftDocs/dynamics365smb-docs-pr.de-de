@@ -10,12 +10,12 @@ ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 9f5eda0056c4c449a46f9f04064c3f2764087007
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: b59e6fc824f9c386c12030163f51ef09622f74a0
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335010"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519596"
 ---
 # <a name="sorting-searching-and-filtering"></a>Sortieren, Durchsuchen und Filtern
 
@@ -154,7 +154,7 @@ Spalten, die bereits über Filter verfügen, werden durch das Symbol ![Filter.](
 Beim Eingeben von Filterkriterien können alle Ziffern und Buchstaben verwendet werden, die auch normalerweise im Feld zulässig sind. Es gibt aber auch eine Reihe spezieller Symbole, die Sie als Operatoren verwenden können, um die Ergebnisse weiter zu filtern. In den folgenden Abschnitten werden diese Symbole und ihre Verwendung als Operatoren in Filtern beschrieben.
 
 > [!TIP]
-> Weitere Informationen zum Filtern von Daten und Zeiten finden Sie unter [Arbeiten mit Kalenderdaten und -zeiten](ui-enter-date-ranges.md).
+> Weitere Informationen zum Filtern von Daten und Zeiten finden Sie unter [Mit Kalenderdaten und -zeiten arbeiten](ui-enter-date-ranges.md).
 
 > [!IMPORTANT]
 > - Es kann Situationen geben, in denen der Wert, nach dem Sie filtern möchten, ein Symbol enthält, das ein Operator ist. Weitere Informationen zum Umgang mit diesen Situationen finden Sie unter [Filtern nach Werten, die Symbole enthalten](#symbols).
@@ -171,7 +171,10 @@ Beim Eingeben von Filterkriterien können alle Ziffern und Buchstaben verwendet 
 |`P8..`|Daten zur Buchhaltungsperiode 8 und folgende|  
 |`..23`|Vom Anfangsdatum bis zum 23. (aktueller Monat, aktuelles Jahr, 23:59:59)|  
 |`23..`|Vom 23-des aktuellen Monats-des aktuellen Jahres 0:00:00 bis zum Ende der Zeit|  
-|`22..23`|Vom 22-des aktuellen Monats-aktuellen Jahres 0:00:00 bis zum 23-des aktuellen Monats-aktuellen Jahres 23:59:59|  
+|`22..23`|Vom 22-des aktuellen Monats-aktuellen Jahres 0:00:00 bis zum 23-des aktuellen Monats-aktuellen Jahres 23:59:59| 
+
+> [!TIP]
+> Wenn Sie einen Ziffernblock verwenden, gibt die Dezimaltrenntaste möglicherweise ein anderes Zeichen als einen Punkt (.) aus. Um zu einem Punkt zu wechseln, drücken Sie die Tasten „Alt+Dezimaltrennzeichen“ auf dem Ziffernblock. Wenn Sie zurückwechseln möchten, drücken Sie „Alt+Dezimaltrennzeichen“ erneut. Weitere Informationen finden Sie unter [Festlegen des Dezimaltrennzeichens, das von numerischen Tastaturen verwendet wird](ui-enter-data.md#decimal).
 
 #### <a name="124-eitheror"></a>(&#124;) Entweder/oder
 

@@ -9,22 +9,22 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: d9cf7f41f399d2747b554f3784c40b51fb9d71da
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: c07a3cfc9807ddcb78a97dc342013ff6e498fee7
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133252"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518441"
 ---
 # <a name="set-up-workflows"></a>Einrichten von Workflows
 
-Sie können Workflows festlegen und verwenden, die von verschiedenen Benutzern ausgeführte Geschäftsprozessaufgaben miteinander verbinden. Systemaufgaben, wie automatische Buchung, können als Schritte in Workflows berücksichtigt werden, vor oder nach Benutzeraufgaben. Die Anforderung oder Bewilligung von Genehmigungen zum Erstellen neuer Datensätze sind typische Workflowschritte. Weitere Informationen erhalten Sie unter [Workflows verwenden](across-use-workflows.md).  
+Sie können Workflows festlegen und verwenden, die von verschiedenen Benutzern ausgeführte Geschäftsprozessaufgaben miteinander verbinden. Systemaufgaben, wie automatische Buchung, können als Schritte in Workflows berücksichtigt werden, vor oder nach Benutzeraufgaben. Die Anforderung oder Bewilligung von Genehmigungen zum Erstellen neuer Datensätze sind typische Workflowschritte. Weitere Informationen finden Sie unter [Workflows verwenden](across-use-workflows.md).  
 
  Bevor Sie beginnen, Workflows zu verwenden, müssen Sie Workflowbenutzer und Genehmigungsbenutzer einrichten und angeben, wie Benutzer Benachrichtigungen über Workflowschritte empfangen sollen. Dann müssen Sie Workflows erstellen und möglicherweise zuvor Codeanpassungen vornehmen.  
 
  Auf der Seite **Workflow** können Sie einen Workflow erstellen, indem Sie die entsprechenden Schritte in den Zeilen auflisten. Jeder Schritt besteht aus einem durch Ereignisbedingungen moderiertem Workflowereignis und einer durch Antwortoptionen moderierten Workflowantwort. Sie definieren Workflowschritte, indem Sie die Felder in Workflowzeilen mit Ereignis- und Antwortwerten aus festen Listen ausfüllen, die die Workflowszenarien darstellen, die durch den Anwendungscode unterstützt werden.  
 
- Wenn ein Szenario ein Workflowereignis oder -antwort benötigt, die nicht unterstützt wird, muss ein Microsoft-Partner diese implementieren, indem er den Workflow mithilfe von Power Automate anpasst. Weitere Informationen finden Sie unter [Verwenden von [!INCLUDE[prod_short](includes/prod_short.md)] in einem automatisierten Workflow](across-how-use-financials-data-source-flow.md) oder [Veranstaltungen in AL](/dynamics365/business-central/dev-itpro/developer/devenv-events-in-al) in der Entwicklerhilfe.
+ Wenn ein Szenario ein Workflowereignis oder -antwort benötigt, die nicht unterstützt wird, muss ein Microsoft-Partner diese implementieren, indem er den Workflow mithilfe von Power Automate anpasst. Weitere Informationen finden Sie unter [[!INCLUDE[prod_short](includes/prod_short.md)] in einem automatisierten Workflow verwenden](across-how-use-financials-data-source-flow.md) oder [Veranstaltungen in AL](/dynamics365/business-central/dev-itpro/developer/devenv-events-in-al) in der Entwicklerhilfe.
 
  Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Themen, die sie beschreiben..  
 
@@ -47,11 +47,11 @@ In diesem Video wird gezeigt, wie ein Workflow eingerichtet wird, bei dem eine P
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4jzHI?rel=0]
 
-## <a name="see-also"></a>Siehe auch  
- [Verwenden von Workflows](across-use-workflows.md)   
+## <a name="see-also"></a>Weitere Informationen  
+ [Workflows verwenden](across-use-workflows.md)   
  [Workflow](across-workflow.md)   
  [Exemplarische Vorgehensweise: Einrichten und Nutzen eines Einkaufsanfrage-Genehmigungsworkflows](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
- [Arbeiten mit  Business Central](ui-work-product.md)
+ [Arbeiten mit Business Central](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -10,12 +10,12 @@ ms.search.keywords: feature overview
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b88082cb1cf211f8ce6ab4e377c166a62372d530
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: e494307c5301549f2adaa15737e1f944d284bbf6
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8367040"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514226"
 ---
 # <a name="business-functionality"></a>Geschäftsfunktionen
 
@@ -48,7 +48,7 @@ ms.locfileid: "8367040"
 [Erforschen Sie die Dynamics 365 Business Central-Fähigkeiten](https://dynamics.microsoft.com/business-central/capabilities/)  
 [Verwaltung](admin-setup-and-administration.md)  
 [Einrichten [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
-[Vorbereitung für die Geschäftstätigkeit](ui-get-ready-business.md)  
+[Vorbereiten auf die Geschäftsabwicklung](ui-get-ready-business.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

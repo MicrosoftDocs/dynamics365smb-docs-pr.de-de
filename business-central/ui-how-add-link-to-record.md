@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: fb191de84dac161a6b3db95396e7f0b2b5f2ce40
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: e3f1e3f63c8e27d081a89f6d8626b8b392a6e02b
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142854"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519544"
 ---
 # <a name="manage-attachments-links-and-notes-on-cards-and-documents"></a>Verwalten von Anhängen, Links und Notizen zu Karten und Dokumenten
 
@@ -91,11 +91,11 @@ Das folgende Verfahren basiert auf einer Auftragsabwicklung. Die Schritte sind f
 2. Wählen Sie den Verkaufsauftrag aus, zu dem Sie einen Link hinzufügen möchten, und wählen Sie dann die Registerkarte **Anhänge** in der Infobox.
 3. In dem Abschnitt **Notizen** wählen Sie das **+** Symbol.
 4. In dem Feld **Hinweis** geben Sie in das Feld einen beliebigen Text ein, z. B. "Dies ist eine dringende Bestellung.".
-5. Wählen Sie die Schaltfläche **OK** aus.
+5. Wählen Sie die Schaltfläche **OK**.
 
 Der Hinweis ist jetzt dem Verkaufsauftrag beigefügt.
 
-## <a name="see-also"></a>Siehe auch  
+## <a name="see-also"></a>Weitere Informationen  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Eingehende Belege](across-income-documents.md)  
 [Einrichten von Workflowbenachrichtigungen](across-setting-up-workflow-notifications.md)  

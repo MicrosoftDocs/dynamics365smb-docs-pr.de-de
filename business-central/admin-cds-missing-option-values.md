@@ -6,16 +6,17 @@ ms.author: bholtorf
 ms.custom: na
 ms.reviewer: na
 ms.topic: conceptual
-ms.date: 06/14/2021
-ms.openlocfilehash: 1735b1e3d04b9b35653047b19587f84234389735
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.date: 03/23/2022
+ms.openlocfilehash: a726d182babca26525e2931ea2b487171b470bcc
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383373"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512490"
 ---
 # <a name="handling-missing-option-values"></a>Behandlung fehlender Optionswerte
-
+> [!NOTE]
+> Im 1. Veröffentlichungszyklus 2022 können Sie Ihre eigenen Optionszuordnungen erstellen. Weitere Informationen finden Sie unter [Anpassen von Optionszuordnungen mit Microsoft Dataverse](/dynamics365/business-central/dev-itpro/administration/administration-custom-option-mapping). Für die neuen Funktionen muss Ihr Administrator die Option **Funktionsupdate: Zuordnung zu Optionssätzen in Dataverse ohne Code** auf der Seite **Funktionsverwaltung** aktivieren. Weitere Informationen finden Sie unter [Bevorstehende Funktionen im Voraus aktivieren](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
 Dieses Thema richtet sich an ein technisches Publikum. Die darin beschriebenen Prozesse erfordern die Hilfe eines Entwicklers.
 

@@ -10,12 +10,12 @@ ms.search.keywords: vendor payment, creditor, debt, balance due, AP
 ms.search.form: 256
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 439db2ccacf165d27db44e4c786e71a4372171f3
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ab9844f52f74e79283daafbe02f8cc2139c3ac9d
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137783"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522798"
 ---
 # <a name="suggest-vendor-payments"></a>Zahlungsvorschlag
 
@@ -33,7 +33,7 @@ Um aus vorgeschlagenen Zeilen voll zu profitieren, müssen Sie zuerst die Kredit
     * Öffnen Sie die Kreditorenposten, die sich für Skonti qualifizieren, angeordnet nach Kreditorennummer.  
 
 ## <a name="to-use-the-suggest-vendor-payments-function"></a>Die Zahlungsvorschlagfunktion verwenden
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Zahlungsausgangs Buch.-Blätter** ein und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Zahlungsausgangs Buch.-Blätter** ein und wählen Sie dann den zugehörigen Link.  
 2. Öffnen Sie das relevante Buch.-Blatt, und klicken Sie dann auf die Aktion **Zahlungsvorschlag**.  
 3. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Wählen Sie die Schaltfläche **OK** aus.  
@@ -51,10 +51,10 @@ Alternativ können Sie Zahlungspositionen mithilfe des Fälligkeitsdatums manuel
 > [!NOTE]  
 >   Wenn die Einkaufsrechnung überfällig ist, wird das Buchungsdatum auf das Arbeitsdatum festgelegt, und die Schrift auf der Zeile wird in roter Farbe angezeigt.  
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 [Verwalten von Verbindlichkeiten](payables-manage-payables.md)  
 [Zahlungen vornehmen](payables-make-payments.md)  
-[Arbeiten mit allgemeinen Buch.-Blättern](ui-work-general-journals.md)  
+[Arbeiten mit Fibu Buch.-Blättern](ui-work-general-journals.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

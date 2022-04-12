@@ -10,12 +10,12 @@ ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007
 ms.reviewer: edupont
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 024588a5fcb565935a47f63a73b7287879c0db8c
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: 357a4a8d1eba62c3619439558cf81a5fc19f0963
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8334956"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515979"
 ---
 # <a name="post-multiple-documents-at-the-same-time"></a>Mehrere Belege gleichzeitig buchen
 
@@ -25,7 +25,7 @@ Anstatt einzelne Belege einzeln zu buchen, können Sie mehrere nicht gebuchte Be
 
 Das folgende Verfahren erläutert, wie Sie mehrere Einkaufsbestellungen sofort buchen. Die Schritte sind für alle Einkaufs- und Verkaufsbelege ähnlich.
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun") Symbol. Geben Sie **Einkaufsbestellungen** ein, und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Einkaufsbestellungen** ein, und wählen Sie dann den zugehörigen Link.
 2. Auf der Seite **Einkaufsbestellung** wählen Sie auf der folgenden Seite alle Bestellungen aus, die gebucht werden sollen:
 3. Geben Sie im Feld **Nr.** Wählen Sie in diesem Feld die drei vertikalen Punkte aus, um das Kontextmenü zu öffnen, und wählen Sie dann die Aktion **Wählen Sie Mehr** aus.
 4. Aktivieren Sie das Kontrollkästchen für alle Zeilen, die Aufträge darstellen, die Sie gleichzeitig buchen möchten.
@@ -36,7 +36,7 @@ Das folgende Verfahren erläutert, wie Sie mehrere Einkaufsbestellungen sofort b
 
 Das folgende Verfahren erläutert, wie Sie mehrere Einkaufsbestellungen buchen. Die Schritte sind für alle Kauf- und Verkaufsbelege gleich, bei denen die Aktion **Stapelbuchung** verfügbar ist.
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun") Symbol. Geben Sie **Einkaufsbestellungen** ein, und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Einkaufsbestellungen** ein, und wählen Sie dann den zugehörigen Link.  
 2. Auf der Seite **Einkaufsbestellung** wählen Sie auf der folgenden Seite alle Bestellungen aus, die gebucht werden sollen:
 3. Geben Sie im Feld **Nr.** Wählen Sie in diesem Feld die drei vertikalen Punkte aus, um das Kontextmenü zu öffnen, und wählen Sie dann die Aktion **Wählen Sie Mehr** aus.
 4. Aktivieren Sie das Kontrollkästchen für alle Zeilen, die Aufträge darstellen, die Sie gleichzeitig buchen möchten.
@@ -53,7 +53,7 @@ Projektwarteschlangen sind ein effektives Werkzeug, um die Ausführung von Gesch
 
 Nachfolgend wird erklärt, wie die Hintergrundbuchung von Verkaufsaufträgen eingerichtet wird. Die Schritte sind für den Kauf ähnlich.  
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Einrichtung Debitoren & Verkauf** ein und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Einrichtung Debitoren & Verkauf** ein und wählen Sie dann den entsprechenden Link.
 2. Auf der Seite **Einrichtung von Vertrieb und Forderungen** aktivieren Sie das Kontrollkästchen **Mit Projektwarteschlange buchen**.
 3. Wählen Sie das Feld **Projektwarteschlangen-Kategoriecode** aus und geben Sie dann den Code **SALESPOST** an.
 
@@ -129,7 +129,7 @@ Als Administrator können Sie [Application Insights](/azure/azure-monitor/app/ap
 [Verwenden von Aufgabenwarteschlangen für die Aufgabenplanung](admin-job-queues-schedule-tasks.md)  
 [Gebuchte Belege bearbeiten](across-edit-posted-document.md)  
 [Ändern oder Löschen einer unbezahlten Einkaufsrechnung](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
-[Suche nach Seiten und Informationen mit Tell Me](ui-search.md)  
+[Suche nach Seiten und Informationen mit „Sie wünschen...“](ui-search.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

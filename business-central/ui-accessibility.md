@@ -10,12 +10,12 @@ ms.search.keywords: accessibility, shortcuts, charts, tooltips, screen reader
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/23/2021
 ms.author: jswymer
-ms.openlocfilehash: 6389387e2b2e9dcaa2d709e7e376f38a3dd8e1a9
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: 9361f3b5c425374b40f3ca3f8a8401822c277048
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8334564"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513627"
 ---
 # <a name="accessibility-and-keyboard-shortcuts"></a>Eingabehilfe und Tastenkombinationen
 
@@ -81,9 +81,9 @@ Auf QuickInfos wird auf unterschiedliche Weise zugegriffen, je nach Client (Web 
 
 Sie können zusätzliche Informationen über Eingabehilfen mit Microsoft-Produkten und assistiven Technologien der Site [Microsoft-Eingabehilfe](https://go.microsoft.com/fwlink/?LinkId=262160) finden.
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
-[Vorbereitung für die Geschäftstätigkeit](ui-get-ready-business.md)  
+[Vorbereiten auf die Geschäftsabwicklung](ui-get-ready-business.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Häufig gestellte Fragen](across-faq.yml)  
 

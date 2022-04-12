@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: customer payment, debtor, balance due, AR
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 50745f63879bf3aa0610a0109950bdd9d88a676c
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f5f701f4c26b81140fd87a81aa47591d268c8203
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137159"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8510791"
 ---
 # <a name="managing-receivables"></a>Debitoren verwalten
 
@@ -42,14 +42,14 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 | Wenden Sie Zahlungen auf offene Debitorenposten basierend auf einer Liste der unbezahlten Verkaufsbelege auf der Seite **Zahlungs-Registrierung** an. |[Debitoren-Zahlungen aus einer Liste mit unbezahlten Verkaufsbelegen abstimmen](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md) |
 | Buchen Sie Zahlungseingänge oder Erstattungen für Debitoren im Zahlungseingangs Buch.-Blatt für Debitorenposten, entweder aus dem Buch.-Blatt oder von gebuchten Posten. |[Abstimmen von Debitoren-Zahlungen mit dem Zahlungseingangs Buch.-Blatt oder von Debitorenposten](receivables-how-apply-sales-transactions-manually.md) |
 | Erinnern von Debitoren an überfällige Beträge, Berechnen von Zinsen und Gebühren sowie Verwalten von Debitoren |[Einziehen von Restbeträgen](receivables-collect-outstanding-balances.md) |
-|Mit Zustimmung Ihres Kunden können Sie Zahlungen direkt vom Bankkonto des Kunden nur in europäischen Währung einziehen.|[Erfassen von Zahlungen per Lastschriftverfahren SEPA](finance-collect-payments-with-sepa-direct-debit.md)|
+|Mit Zustimmung Ihres Kunden können Sie Zahlungen direkt vom Bankkonto des Debitors nur in europäischen Währung einziehen.|[Erfassen von Zahlungen per Lastschriftverfahren SEPA](finance-collect-payments-with-sepa-direct-debit.md)|
 |Sperren Sie einen Debitor, so dass er nicht in Belege oder für das Buchen eingegeben werden kann, zum Beispiel aufgrund von Zahlungsunfähigkeit.|[Debitoren sperren](receivables-how-block-customers.md)|
 |Einrichtung einer Toleranz, mit der das System eine Rechnung schließt, selbst wenn die Zahlung einschließlich aller Rabatte nicht vollständig den Betrag der Rechnung abdeckt.|[Arbeiten mit Zahlungstoleranzen und Skontotoleranzen](finance-payment-tolerance-and-payment-discount-tolerance.md)|
 | Sagen Sie voraus, wenn Zahlungen für Verkaufsbelege zu spät geleistet werden. | [Die Erweiterung zur Vorhersage verspäteter Zahlungen](ui-extensions-late-payment-prediction.md) |
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/paths/process-customer-vendor-payments-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 [Verkauf](sales-manage-sales.md)  
 [Verwalten von Verbindlichkeiten](payables-manage-payables.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

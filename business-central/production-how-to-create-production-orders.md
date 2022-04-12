@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 9325, 99000815, 99000829, 9900083
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6aa9e0ac69f9d780a05db004dafcf4e400a7c458
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 814770db81744306120445a509325cff8502041d
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148997"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516848"
 ---
 # <a name="create-production-order-headers"></a>Fertigungsauftragsköpfe erstellen
 
@@ -26,7 +26,7 @@ Im weiteren Prozess wird ein fest geplanter Fertigungsauftrag erstellt. Sie kön
 
 ## <a name="to-create-a-production-order-header"></a>Fertigungsauftragsköpfe erstellen
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Geplante Prod. Aufträge** ein und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Geplante Prod. Aufträge** ein und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die Aktion **Neu** aus.  
 3. Geben Sie im Feld **Nr.** die nächste Nummer aus der Serie ein.  
 4. Wählen Sie im Feld **Herkunftsart.** die Herkunft des Fertigungsauftrags.
@@ -42,7 +42,7 @@ Wenn Sie Produktionsanforderungen, wie Komponenten oder Arbeitsgänge ändern, k
 [Produktion](production-manage-manufacturing.md)
 [Produktion einrichten](production-configure-production-processes.md)  
 [Planung](production-planning.md)  
-[Lagerbestand](inventory-manage-inventory.md)  
+[Bestand](inventory-manage-inventory.md)  
 [Einkauf](purchasing-manage-purchasing.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/18/2021
 ms.author: edupont
-ms.openlocfilehash: f87c914c25e85136f7cecc8893ec8838a8223178
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 1cf2e52d08f1174a72c53bd75b43ba6e4e2bd063
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133511"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521408"
 ---
 # <a name="germany-local-functionality"></a>Lokale Funktion (Deutschland)
 

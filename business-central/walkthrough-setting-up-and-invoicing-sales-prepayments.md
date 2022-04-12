@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 12/03/2021
 ms.author: edupont
-ms.openlocfilehash: b21a0dcd4122eb37cdac8f3acf33cf27e6c66414
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 2fcc04c05274922a13131178d16c3e27e0b18da1
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140189"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518731"
 ---
 # <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Exemplarische Vorgehensweise: Einrichten und Fakturieren von Verkaufsvorauszahlungen
 
@@ -71,7 +71,7 @@ In den folgenden Verfahren wird beschrieben, wie Sie Heikes Aufgaben ausführen:
 
 ### <a name="to-set-up-number-series-for-prepayments"></a>So richten Sie Nummernserien für Vorauszahlungen ein
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Einrichtung Debitoren & Verkauf** ein und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Einrichtung Debitoren & Verkauf** ein und wählen Sie dann den entsprechenden Link.  
 2. Erweitern Sie auf der Seite **Debitoren Verkauf Einr.** das Inforegister **Nummernserie**.  
 3. Vergewissern Sie sich, dass die Nummernserien für gebuchte Vorauszahlungsrechnungen im Feld **Geb. Vorauszahlungs-Rechnungsnr.** und gebuchte Verkaufsrechnungen (**Gebuchte Rechnungsnummern**) sowie die Nummernserien für gebuchte Vorauszahlungsgutschriften (**Geb. Vorauszahlungs-Gutschriftennr.**) und gebuchte Gutschriften (**Gebuchte Gutschriftennr.**) übereinstimmen.  
 
@@ -232,7 +232,7 @@ Zudem wurden das Buchen einer Vorauszahlungsrechnung, Erstellen einer zweiten Vo
 
 Die Vorauszahlungsfunktion in [!INCLUDE[prod_short](includes/prod_short.md)] erleichtert das Einrichten und Anwenden von Vorauszahlungsregeln für Debitoren und Artikel und ermöglicht es Ihnen, jede Zahlung für eine Rechnung zu buchen.  
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 [Fakturieren von Vorauszahlungen](finance-invoice-prepayments.md)  
 [Finanzen](finance.md)  

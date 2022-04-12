@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 99000764, 99000765, 99000766, 99000767, 99000794, 99000796, 99000798, 99000806, 99000808, 99000810, 99000817, 99000834, 99000835, 99000836, 99000837, 99000840, 99000841, 99000844, 99000845
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 29d879552f4879c856f3481fde7cfabbffabec95
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 9aca8b6308fc5a45e008bc5aba529f51e764c79d
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135724"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516874"
 ---
 # <a name="create-routings"></a>Routings erstellen
 
@@ -31,7 +31,7 @@ Bevor Sie einen Arbeitsplan erstellen können, muss Folgendes verfügbar sein:
 
 ## <a name="to-create-a-routing"></a>So erstellen Sie ein Routing
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Arbeitspläne** ein und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Arbeitspläne** ein und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die Aktion **Neu**.  
 3. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Wählen Sie im Feld **Art** die Option **Serien**, um die Fertigungsarbeitsgänge abhängig vom Eintrag im Feld **Arbeitsgangnr.** zu berechnen. Feld  
@@ -63,7 +63,7 @@ Sie können Arbeitsplanverbindungen von Komponenten mit speziellen Vorgängen er
 
 Ein weiterer wichtiger Vorteil besteht darin, dass verknüpfte Komponenten und Arbeitsgänge in einer logischen Vorgangsstruktur angezeigt werden, wenn Sie die Seite **Produktionsprotokoll** für Istmeldungen und Verbrauchsbuchungen verwenden.  
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Arbeitspläne** ein und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Arbeitspläne** ein und wählen Sie dann den zugehörigen Link.  
 2. Öffnen Sie den Arbeitsplan mit den Arbeitsgängen, die Sie verbinden möchten.  
 
     Stellen Sie sicher, dass der Arbeitsplanstatus **In Entwicklung** ist.  
@@ -95,7 +95,7 @@ Die ausgewählten Komponenten werden nun mit den ausgewählten Arbeitsgängen ve
 
 Wenn Sie Personal mit besonderen Fähigkeiten, speziellem Wissen oder speziellen Qualifikationen für diesen Arbeitsgang benötigen, können Sie dieses Personal hier zuordnen. Darüber hinaus können Sie Werkzeugen Qualitätsanforderungen dem Arbeitsgang zuweisen. Hier wird beschrieben, wie Personal zugewiesen wird. Die Schritte sind für andere Arten Arbeitsgangsinformationen ähnlich.
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Arbeitspläne** ein und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Arbeitspläne** ein und wählen Sie dann den zugehörigen Link.  
 2. Öffnen Sie den entsprechenden Arbeitsplan.  
 3. Im Inforegister **Zeilen** wählen Sie die Zeile aus, die Sie bearbeiten möchten, und wählen Sie dann die Aktion **Vorgänge** und **Personal** aus.  
 4. Füllen Sie die Felder auf der Seite **Arbeitsgang Personal** aus.  
@@ -126,7 +126,7 @@ Die zeitliche Gültigkeit der Version wird durch das **Startdatum** bestimmt.
 [Produktion einrichten](production-configure-production-processes.md)  
 [Produktion](production-manage-manufacturing.md)  
 [Planung](production-planning.md)  
-[Lagerbestand](inventory-manage-inventory.md)  
+[Bestand](inventory-manage-inventory.md)  
 [Einkauf](purchasing-manage-purchasing.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

@@ -10,12 +10,12 @@ ms.search.keywords: postpone
 ms.search.form: 1700, 1701, 1702, 1703, 1704, 1705, 1706, 1707
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 329a8db8dbae65f08ab4f0d12db43cde143077af
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 2feba527e33c2ded3275392420b3075cdab4228f
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138043"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512992"
 ---
 # <a name="defer-revenues-and-expenses"></a>Einnahmen und Ausgaben abgrenzen
 
@@ -25,7 +25,7 @@ Um Einnahmen oder Ausgaben in den betroffenen Buchhaltungsperioden einzubeziehen
 
 ## <a name="to-set-up-a-gl-account-for-deferral"></a>So richten Sie ein Sachkonto für Abgrenzungen ein
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Kontenplan** ein, und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Kontenplan** ein, und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie die Aktion **Neu** aus.
 3. Füllen Sie die Felder wie notwendig aus, um ein Sachkonto für abgegrenzte Einnahmen zu erstellen. Weitere Informationen finden Sie unter [Die Finanzbuchhaltung und der Kontenplan](finance-general-ledger.md).
 4. Wiederholen Sie die Schritte 2 und 3, um ein neues Sachkonto für abgegrenzte Ausgaben zu erstellen.
@@ -34,7 +34,7 @@ Für beide Arten von Abgrenzung wählen Sie im Feld **Art** **Bilanz** aus und b
 
 ## <a name="to-set-up-a-deferral-template"></a>So richten Sie eine Abgrenzungsvorlage ein
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Abgrenzungsvorlagen** ein, und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Abgrenzungsvorlagen** ein, und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie die Aktion **Neu** aus.
 3. Füllen Sie die Felder je nach Bedarf aus.
 4. Geben Sie auf der Seite **Berechnungsmethode** an, wie das Feld **Betrag** für jede Periode auf der Seite **Abgrenzungsplan** berechnet wird. Sie haben die Wahl zwischen den folgenden Optionen:
@@ -59,7 +59,7 @@ Beispiel: Das Buchungsdatum ist 02.06.2016. Wenn Sie „Abgrenzungsausgabe für 
 > [!NOTE]  
 > Die Schritte in diesem Verfahren sind die gleichen wie bei der Zuordnung einer Stundungsvorlage zu einem Sachkonto oder einer Ressource.
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Element** ein und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Element** ein und wählen Sie dann den zugehörigen Link.
 2. Öffnen Sie die Karte für den Artikel, für den Ausgaben oder Einnahmen zu den Buchhaltungsperioden abgegrenzt werden müssen, wenn der Artikel gekauft oder verkauft wurde.
 3. Im Feld **Standard-Abgrenzungsvorlage** wählen Sie die entsprechende Abgrenzungsvorlage aus.
 
@@ -96,11 +96,11 @@ Sachkonteneinträge, die im entsprechenden Abgrenzungskonto gebucht werden müss
 2. Geben Sie auf der Seite **Verkaufsabgrenzungszusammenfassung** im Feld **Saldo ab** das Datum ein, bis zu welchem Sie abgegrenzte Einnahmen anzeigen möchten.
 3. Klicken Sie auf die Schaltfläche **Vorschau**.
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 [Finanzen](finance.md)  
 [Finanzen einrichten](finance-setup-finance.md)  
-[Arbeiten mit allgemeinen Buch.-Blättern](ui-work-general-journals.md)  
+[Arbeiten mit Fibu Buch.-Blättern](ui-work-general-journals.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

@@ -11,12 +11,12 @@ ms.search.keywords: stock
 ms.search.form: 908, 909, 925, 926, 504, 501, 500, 499, 99000896, 342, 515, 5417, 5415, 5871, 5530, 492, 157, 5540, 5416, 5414, 1872, 1873, 99000902, 353, 491, 9231, 5390
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 7884eaa5e929eed27607fe77b3bea31fe6a12dc8
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d87f18b6af045e371cefe88ed35f62bc028fab2f
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130514"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514985"
 ---
 # <a name="view-the-availability-of-items"></a>Artikelverfügbarkeit anzeigen
 Vom Kontext einer Geschäftsaufgabe können Sie erweiterte Informationen darüber erhalten, wann und wo ein Artikel verfügbar ist, so als ob Sie mit einem Debitoren über ein Lieferdatum sprechen.
@@ -42,7 +42,7 @@ In [!INCLUDE[prod_short](includes/prod_short.md)] werden Verfügbarkeitszahlen t
 ## <a name="to-view-the-availability-of-an-item-according-to-when-it-will-be-received-or-shipped"></a>Um die Verfügbarkeit eines Artikels anzuzeigen gemäß dem, wann er erhalten oder gesendet wird
 Sie zeigen die Verfügbarkeit eines Artikels gemäß geplanter Artikeltransaktionen auf der Seite **Verfügbarkeit nach Ereignis** an.
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Elemente** ein, und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Elemente** ein, und wählen Sie dann den zugehörigen Link.
 2. Öffnen Sie die Karte eines Elements, für das Sie die Verfügbarkeit anzeigen möchten.
 3. Wählen Sie die Aktion **Artikelverfügbarkeit nach** aus, und wählen Sie dann die Aktion **Ereignis** aus.
 

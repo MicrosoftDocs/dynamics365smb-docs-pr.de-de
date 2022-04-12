@@ -9,14 +9,14 @@ ms.workload: na
 ms. search.keywords: bank, format, data
 ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: 277842528290f3d3974c7e4b22030fa33e237dbd
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: ec7ba151f94a7209e81f8e695b3053885d0fcc24
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381166"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8510532"
 ---
-# <a name="using-the-amc-banking-365-fundamentals-extension"></a>Verwenden der AMC Banking 365 Fundamentals-Erweiterung
+# <a name="use-the-amc-banking-365-fundamentals-extension"></a>Die AMC Banking 365 Fundamentals-Erweiterung verwenden
 Die AMC Banking 365 Fundamentals-Erweiterung macht es einfacher und genauer, Daten an Ihre Banken zu senden. Die Erweiterung verbindet [!INCLUDE[prod_short](includes/prod_short.md)] mit dem AMC Banking 365 Fundamentals for Microsoft Dynamics 365 Business Central-Dienst, der Bankdaten von [!INCLUDE[prod_short](includes/prod_short.md)] in Formate konvertieren kann, die von über 600 Banken weltweit benötigt werden. Dies erleichtert z.B. die Übertragung von Zahlungen und Gutschriften an Lieferanten, indem Sie die Zahlungen auf [!INCLUDE[prod_short](includes/prod_short.md)] eingeben und dann auf Ihre Bank hochladen. Die Formate können auch die Prozesse der Bankabstimmung glätten. Weitere Informationen finden Sie unter [AMC Banking für Microsoft Dynamics 365 Business Central](https://www.amcbanking.com/bc-fundamentals/).
 
 > [!Note]
@@ -25,7 +25,7 @@ Die AMC Banking 365 Fundamentals-Erweiterung macht es einfacher und genauer, Dat
 > [!NOTE]
 > In der generischen Version von [!INCLUDE[prod_short](includes/prod_short.md)]  wird ein globaler Diensteanbieter eingerichtet und verbunden, der Bankdaten in das Dateiformat konvertiert, das Ihre Bank verlangt. In den nordamerikanischen Versionen kann derselbe Dienst verwendet werden, um Zahlungsdateien als Electronic Funds Transfer (EFT) zu senden, z.B. über das allgemein verwendete Automated Clearing House (ACH) Netzwerk, allerdings mit einem etwas anderen Verfahren.
 
-## <a name="using-our-demonstration-account"></a>Verwendung unseres Demonstrationskontos
+## <a name="use-our-demonstration-account"></a>Unser Demonstrationskonto verwenden
 [!INCLUDE[prod_short](includes/prod_short.md)] wird mit einem Demokonto geliefert, mit dem Sie die AMC Banking 365 Fundamentals-Erweiterung ausprobieren können. Wir bieten Standardeinstellungen für die Verbindung mit AMC Banking, die Angabe der Bankkonten, von denen die Daten in [!INCLUDE[prod_short](includes/prod_short.md)] bezogen werden sollen, sowie einige Datenaustauschdefinitionen. Sie können die Verbindungseinstellungen auf der Seite **AMC Banking Setup** einsehen. Für Bankkonten bezieht die Erweiterung Werte in den Feldern **Bankname**, **Überweisung Msg. Nr.**, **Kontoauszug Importformat** und **Zahlungsexportformat** Felder auf Bankkontokarten.
 
 Wir stellen die Einstellungen zur Verfügung, aber um die Erweiterung auszuprobieren, müssen Sie die unterstützte Installationsanleitung ausführen, um sie anzuwenden. Um die Anleitung auszuführen, wählen Sie auf der Seite **AMC Banking Setup** die Aktion **Unterstütztes Setup**.
@@ -63,7 +63,7 @@ Erteilen Sie für jeden neuen Berechtigungssatz nur die Berechtigung **Lesen** f
 4. Wählen Sie im Feld **Überweisung Msg. Nr.** die Nummernserie aus, die für Nachrichten, die Zahlungen begleiten, verwendet werden soll.
 5. Wählen Sie in den Feldern **Kontoauszugsimportformat** und **Zahlungsexportformat** die Datenaustauschdefinitionen, die Ihre Bank benötigt.
 
-## <a name="using-the-extension"></a>Verwendung der Erweiterung
+## <a name="use-the-extension"></a>Die Erweiterung verwenden
 Die Verwendung dieser Erweiterung ist nur eine Frage des Exports von Daten auf der Seite **Zahlungsjournale** und des Hochladens auf den Webservice Ihrer Bank. Weitere Informationen finden Sie unter [Zahlungen mit Bankdatenumstellung oder SEPA-Überweisung](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).
 
 > [!Note]

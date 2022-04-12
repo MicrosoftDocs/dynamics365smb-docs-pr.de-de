@@ -10,12 +10,12 @@ ms.search.keywords: customize, personalize, personalization, hide columns, remov
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 95ed69baac51d4c343c639e8ddcea2db29520340
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: a862cb514145d50d1a86816bbd3758055b41a872
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8334658"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512732"
 ---
 # <a name="personalize-your-workspace"></a>Ihren Arbeitsbereich personalisieren
 Sie können Ihren Arbeitsbereich für Ihre Arbeit personalisieren oder anpassen und Präferenzen definieren, indem Sie die Seiten ändern, so dass Sie nur die Informationen angezeigt erhalten, die Sie auch benötigen. Die Personalisierungsänderungen, die Sie durchführen, beeinflussen nur, was Sie sehen, und nicht, was die Benutzer sehen.
@@ -141,11 +141,11 @@ Um die Personalisierung besser zu verstehen, finden Sie hier einige Hinweise.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/modules/personalize-ui-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 [Seiten für Profile anpassen](ui-personalization-manage.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Ändern von grundlegenden Einstellungen](ui-change-basic-settings.md)  
-[Ändern, welche Merkmale angezeigt werden](ui-experiences.md)  
+[Ändern, welche Funktionen angezeigt werden](ui-experiences.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -9,19 +9,19 @@ ms.workload: na
 ms.search.form: 99000883, 99000884
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 3080556ad69882c533bec3768787784bfdac5c4f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 5f24ee7b1e5fab2b54e9653e6bc98cfd87200770
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145524"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516822"
 ---
 # <a name="create-production-orders-from-sales-orders"></a>Erzeugen von Produktionsaufträgen aus Verkaufsaufträgen
 In diesem Fenster können Sie direkt zum aktuellen Verkaufsauftrag einen Fertigungsauftrag erstellen.  
 
 ## <a name="to-create-a-production-order-from-a-sales-order"></a>Fertigungsaufträge aus Verkaufsaufträgen erstellen  
 
-1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Verkaufsaufträge** ein, und wählen Sie dann den zugehörigen Link.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Verkaufsaufträge** ein, und wählen Sie dann den zugehörigen Link.  
 2.  Wählen Sie den Verkaufsauftrag, für den Sie einen Fertigungsauftrag erstellen möchten.  
 3.  Wählen Sie die Aktion **Planung** aus. Auf der Seite **Verkaufsauftragsplanung** können Sie die Verfügbarkeit des Verkaufsauftragsartikels anzeigen.  
 4.  Wählen Sie die Aktion **Produktionsauftrag erstellen** aus.  

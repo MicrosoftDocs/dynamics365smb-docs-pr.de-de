@@ -8,12 +8,12 @@ ms.search.keywords: project management
 ms.search.form: 211, 463, 1012
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d4880f91c53e8618db9be5e0bcdbfa396cbf21fd
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: e150dfec7471ad755ce6e0f69a224a36f24fc6f3
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137445"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514908"
 ---
 # <a name="set-up-jobs-prices-and-job-posting-groups"></a>Jobs, Preise und Buchungsgruppen festlegen
 
@@ -67,9 +67,8 @@ Die folgende Tabelle zeigt, wie die Informationen in den optionalen Feldern in J
 |**Projektartikel**|Die Felder **Projektaufgabennr.**, **Währungscode** und **Zeilenrabatt %**. Dies ist der Wert im Feld **VK-Preis** der in den Projektplanungszeilen und Projektbuchungsblättern verwendet wird, wenn dieser Artikel eingegeben wird. Beachten Sie, dass dieser Preis immer Vorrang vor dem regulären Kundenpreis (Mechanismus für „bester Preis“) für Artikel hat. Wenn Sie den Mechanismus für den regulären Debitorenpreis verwendet wollen, erstellen Sie keine Projektartikelpreise für das Projekt.|
 |**Sachkonten**|Die Informationen in den Feldern **Projektaufgabennr.**, **Währungscode**, **Zeilenrabatt %**, **Einheitskostenfaktor** und **Einheitskosten** werden auf den Projektplanungszeilen und Verbrauchsbuchungsblättern verwendet, wenn diese Ressource eingegeben und dem Projekt hinzugefügt wird. Füllen Sie das Feld **VK-Preis** für das Aufwandssachkonto aus. Dies ist der Verkaufspreis, der in den Projektplanungszeilen und Projektbuchungsblättern verwendet wird, wenn dieses Sachkonto eingegeben wird.|
 
----
 #### <a name="new-experience"></a>[Neue Erfahrung](#tab/new-experience)
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Aufträge** ein, und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Aufträge** ein, und wählen Sie dann den zugehörigen Link.  
 2. Markieren Sie den entsprechenden Job und wählen Sie dann die Aktion **Verkaufspreislisten**.
 
 ---
@@ -104,7 +103,7 @@ Ein Aspekt der Projektenplanung besteht darin, zu entscheiden, welche Buchungsko
 ## <a name="see-also"></a>Siehe auch
 
 [Projektmanagement einrichten](projects-setup-projects.md)  
-[Video: So erstellen Sie ein Projekt in Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  
+[Video: Wie man einen Auftrag in Dynamics 365 Business Central erstellt](https://www.youtube.com/watch?v=VqaPWr7BWmw)  
 [Projekte verwalten](projects-manage-projects.md)  
 [Finanzen](finance.md)  
 [Einkauf](purchasing-manage-purchasing.md)  

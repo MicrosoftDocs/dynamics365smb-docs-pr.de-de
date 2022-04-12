@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 99000790, 99000791, 99000792, 99000793
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d786da721738c6c8907232d510954d2dcba224e4
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 9732817de350d4fe709802b9726a3ad8d364ec5e
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135003"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521910"
 ---
 # <a name="work-with-production-families"></a>Arbeiten mit Fertigungsfamilien
 
@@ -30,12 +30,12 @@ Fertigungsfamilien verringern die Ausschussmenge, da der normalerweise bei der F
 
 ## <a name="to-set-up-a-production-family"></a>Fertigungsfamilien einrichten
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Fertigungsfamilien** ein, und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Fertigungsfamilien** ein, und wählen Sie dann den entsprechenden Link.
 2. Füllen Sie die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-produce-based-on-a-production-family"></a>Um auf Grundlage eine Produktionsfamilie erzeugen
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Geplante Prod. Aufträge** ein und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Geplante Prod. Aufträge** ein und wählen Sie dann den zugehörigen Link.
 2. Dient zum Erstellen eines neuen Produktionsauftrags. Weitere Informationen finden Sie unter [Erstellen von Montageaufträgen](production-how-to-create-production-orders.md).
 3. Wählen Sie im Feld **Quelltyp** **Familie** aus.  
 4. Wählen Sie im Feld **Quelle** die entsprechende Produktionsfamilien aus.
@@ -46,7 +46,7 @@ Fertigungsfamilien verringern die Ausschussmenge, da der normalerweise bei der F
 [Produktion einrichten](production-configure-production-processes.md)  
 [Produktion](production-manage-manufacturing.md)
 [Planung](production-planning.md)   
-[Lagerbestand](inventory-manage-inventory.md)  
+[Bestand](inventory-manage-inventory.md)  
 [Einkauf](purchasing-manage-purchasing.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

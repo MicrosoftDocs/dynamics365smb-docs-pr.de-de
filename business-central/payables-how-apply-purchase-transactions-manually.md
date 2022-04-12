@@ -10,12 +10,12 @@ ms.search.keywords: payment application, payment processing, match payments
 ms.search.form: 62, 233, 522, 623
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a3ec4f46425a344276792f44fde29e23f695384f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 001d747391998df212bacf9dbde23ebbe240bc2b
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145628"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521936"
 ---
 # <a name="reconcile-vendor-payments-with-the-payment-journal-or-from-vendor-ledger-entries"></a>Abstimmen von Kreditorenzahlungen mit dem Zahlungsjournal oder aus Kreditorenposten
 Wenn Sie eine Zahlung an einen Kreditor senden oder eine Erstattung von einem Kreditor erhalten, müssen Sie entscheiden, ob die Zahlung oder die Rückerstattung mit einem oder mehreren offenen Posten ausgeglichen werden soll. Sie können den genauen Betrag zum Ausgleichen der Zahlung oder der Rückerstattung angeben und dann die Kreditorenposten nur teilweise ausgleichen. Sie müssen alle Kreditorenposten ausgleichen, um eine korrekte Kreditorenstatistik und Berichte der Kontoauszüge und Zinsrechnungen zu erhalten.
@@ -37,7 +37,7 @@ Sie können Kreditorenzahlungen manuell auf die entsprechenden Einkaufsbelege an
 Sie können Kreditorenzahlungen und Debitorenzahlungen anwenden nachdem die Zahlungen als negative Banktransaktionen in Ihrer Bank erscheinen. Auf der **Zahlungs-Abstimmungs-Buch.-Blatt**-Seite können Sie Funktionen für den Bankkontoauszugsimport, die automatische Anwendung und die Bankkontoabstimmung verwenden. Weitere Informationen finden Sie unter [Abstimmen von Zahlungen mithilfe der automatischen Anwendung](receivables-how-reconcile-payments-auto-application.md).
 
 ## <a name="to-apply-a-payment-to-a-single-or-multiple-vendor-ledger-entries"></a>So gleichen Sie eine Zahlung mit einem einzelnen Kreditorenposten aus
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Zahlungsausgangs Buch.-Blatt** ein und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Zahlungsausgangs Buch.-Blatt** ein und wählen Sie dann den zugehörigen Link.
 2. Geben Sie auf der Seite **Zahlung Buch.-Blatt** in der ersten Buchungsblattzeile die entsprechenden Informationen zu dem Zahlungsposten ein.
 3. So gleichen Sie gebuchte Kreditorenposten aus:
    1. Im Feld **Ausgleich mit Belegnr.** wählen Sie das Feld aus, um die Seite **Kreditorenpostenausgleich** zu öffnen.
@@ -55,7 +55,7 @@ Sie können Kreditorenzahlungen und Debitorenzahlungen anwenden nachdem die Zahl
 6. Wählen Sie die Aktion **Buchen**, um das Buch.-Blatt zu buchen.
 
 ## <a name="to-apply-a-credit-memo-to-a-single-or-multiple-vendor-ledger-entries"></a>So gleichen Sie eine Gutschrift mit mehreren Kreditorenposten aus
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Einkaufsgutschrift** ein und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Einkaufsgutschrift** ein und wählen Sie dann den zugehörigen Link.
 2. Öffnen Sie die Gutschrift, die Sie ausgleichen möchten.
 3. Geben Sie die relevanten Informationen in der Kopfzeile ein.
 4. Um einen einzelnen Kreditorenposten, im Inforegister **Ausgleich**, im Feld **Ausgleich mit Belegnr.** Feld auszugleichen, wählen Sie den Posten aus auf den die Gurtschrift anzuwenden ist, und wählen Sie dann im Feld **Ausgleichsbetrag** den Betrag ein, mit dem Sie den entsprechenden Posten ausgleichen möchten.
@@ -72,7 +72,7 @@ Sie können Kreditorenzahlungen und Debitorenzahlungen anwenden nachdem die Zahl
 7. Wählen Sie die Schaltfläche **Buchen**, um die Gutschrift zu buchen.
 
 ## <a name="to-apply-posted-vendor-ledger-entries"></a>So gleichen Sie gebuchte Kreditorenposten aus
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Kreditoren** ein und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Kreditoren** ein und wählen Sie dann den zugehörigen Link.
 2. Öffnen Sie den relevanten Kreditor mit bereits gebuchten Posten.
 3. Wählen Sie die **Posten**-Aktion aus, und wählen Sie dann die **Posten ausgleichen**-Aktion aus.
 4. Auf der Seite **Kreditorenpostenausgleich** werden die offenen Posten des Kreditors angezeigt.
@@ -115,9 +115,9 @@ Wenn Sie einen fehlerhaften Ausgleich aufheben, wird ein Korrekturposten (ein Po
 7. Füllen Sie die Felder im Kopf aus, und wählen Sie dann die Aktion **Aufheben** aus.
 
 > [!IMPORTANT]  
->   Wenn ein Posten durch mehrere Ausgleichsposten ausgeglichen wurde, müssen Sie zuerst den Ausgleich des letzten Ausgleichspostens aufheben.
+>   Wenn ein Eintrag durch mehr als einen Anwendungseintrag angewendet wurde, müssen Sie den letzten Anwendungseintrag zuerst rückgängig machen.
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 [Verbindlichkeiten](payables-manage-payables.md)  
 [Einkauf](purchasing-manage-purchasing.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

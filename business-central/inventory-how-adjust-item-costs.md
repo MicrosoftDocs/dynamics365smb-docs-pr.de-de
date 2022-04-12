@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: cost adjustment, cost forwarding, costing method, inventory valuation, costing
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 2d499d22a51b3bea0367acaee0c650fe4dc67ad5
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 8b547aadab56af50aab5442b2634d4bcd1efe4cc
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131639"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515011"
 ---
 # <a name="adjust-item-costs"></a>Artikelpreise justieren
 Die Kosten eines Artikels (Lagerwert), den Sie ein- und später verkaufen, ändert sich im Laufe der Nutzungsdauer, weil beispielsweise Frachtkosten dem Kaufpreis hinzugefügt werden, nachdem Sie den Artikel verkauft haben. Dies ist insbesondere dann wichtig, wenn Sie Waren verkaufen, bevor der Kauf dieser Waren in Rechnung gestellt wurde. Um immer den richtigen Lagerwert zu kennen, müssen Artikelkosten daher regelmäßig reguliert werden. Dadurch ist sichergestellt, dass die Verkaufs- und Gewinnstatistiken auf dem neuesten Stand sind und die finanziellen Kennziffern korrekt sind. Weitere Informationen finden Sie unter [Designdetails: Kostenanpassung](design-details-cost-adjustment.md)
@@ -36,7 +36,7 @@ Wenn Sie die Durchschnittskostenmethode verwenden, dass werden die Einstandskost
 Die Kostenregulierungsfunktion verarbeitet nur Wertposten, die noch nicht reguliert wurden. Liegt eine Situation vor, in der geänderte eingehende Kosten an zugehörige ausgehende Posten weitergeleitet werden müssen, werden dafür neue Regulierungswertposten erstellt, die zwar auf den Informationen der ursprünglichen Wertposten basieren, aber den Regulierungsbetrag enthalten. Die Kostenregulierungsfunktion verwendet das Buchungsdatum des ursprünglichen Wertpostens in den Regulierungsposten, es sei denn, das Datum befindet sich in einer geschlossenen Lagerbuchungsperiode. In diesem Fall verwendet die Anwendung das Startdatum der nächsten offenen Lagerbuchungsperiode verwendet. Werden keine Lagerbuchungsperioden verwendet, definiert das Datum im Feld **Buchungen zugel. ab** auf der Seite **Finanzbuchhaltungs-Einrichtung:**, wann der Regulierungsposten gebucht wird.
 
 ## <a name="to-adjust-item-costs-manually"></a>So regulieren Sie Artikelpreise manuell
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Lagerreg. fakt. Einst. Preise anpassen** ein, und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Lagerreg. fakt. Einst. Preise anpassen** ein, und wählen Sie dann den entsprechenden Link.
 2. Auf der Seite **Lagerreg. fakt. Einst. Preise** geben Sie an, für welche Artikel die Kosten anzupassen sind.
 3. Wählen Sie die Schaltfläche **OK** aus.
 
@@ -45,7 +45,7 @@ Wenn Sie die direkten VK-Preise für mehrere Artikel ändern müssen, können Si
 
  Der Batchauftrag ändert den Inhalt des Felds **VK-Preis** auf der Artikelkarte. Die Stapelverarbeitung ändert den Inhalt des Felds auf die gleiche Weise für alle Artikel oder ausgewählten Artikel. Hierzu wird der Wert im Feld mit einem von Ihnen angegebenen Korrekturfaktor multipliziert.  
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Artikelpreise justieren** ein und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Artikelpreise justieren** ein und wählen Sie dann den zugehörigen Link.  
 2. Geben Sie im Inforegister Optionen im Feld **Feld korrigieren** an, welche Artikel- oder Lagerhaltungsdatenkarte Sie korrigieren möchten.  
 3. Geben Sie im Feld **Korrekturfaktor** den Faktor an, mit dem der Wert korrigiert wird. Beispielsweise geben Sie **1,5** ein, um den Wert um 50 % zu erhöhen.  
 4. Legen Sie im Inforegister **Artikel** Filter fest, um beispielsweise anzuzeigen, welche Artikel mit der Stapelverarbeitung zu verarbeiten sind.  
@@ -80,8 +80,8 @@ Als Grundregel gilt, dass der Wert im Feld **Einstandspreis** auf der Artikelkar
  Beim Buchen wird später der Einstandspreis in den Artikelposten der Verkaufsrechnung übernommen; er wird darüber hinaus in den Artikelposten des jeweiligen Artikels angezeigt. [!INCLUDE[prod_short](includes/prod_short.md)] verwendet den Einstandspreis aus der Herkunftsbelegzeile, um den Inhalt des Feldes **Einstandsbetrag (tatsächl.)** oder, falls anwendbar, des Feldes **Einstandsbetrag (erwartet)** in dem Wertposten zu berechnen, der mit diesem Artikelposten verknüpft ist.  
 
 ## <a name="see-also"></a>Siehe auch
-[Verwalten der Lagerregulierung](finance-manage-inventory-costs.md)  
-[Lagerbestand](inventory-manage-inventory.md)  
+[Verwalten der Bestandsregulierung](finance-manage-inventory-costs.md)  
+[Bestand](inventory-manage-inventory.md)  
 [Verkauf](sales-manage-sales.md)  
 [Einkauf](purchasing-manage-purchasing.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

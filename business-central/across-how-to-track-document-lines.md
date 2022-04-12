@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 6560, 42, 50, 507, 509
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 6a71c817570dd1a784995bbc41f095f0ce799c6f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 831087c068a75d37c30533e18f345d8a4de6129a
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138830"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522326"
 ---
 # <a name="track-document-lines"></a>Nachverfolgen von Belegzeilen
 Mit der Belegverfolgung können Belege angezeigt werden, die sich auf Verkaufsauftrags- und Bestellzeilen für Aufträge und archivierte Aufträge beziehen. Zugehörige Belege, die Sie nachverfolgen können, enthalten Angebote, Lieferungen, Wareneingänge und Rahmenaufträge. Dadurch werden Belege zur Verarbeitung von Aufträgen identifiziert.  
@@ -22,7 +22,7 @@ Mit der Belegverfolgung können Belege angezeigt werden, die sich auf Verkaufsau
 ## <a name="to-track-documents-related-to-a-sales-order-line"></a>Zusammenhängenden Beleg mit einer Verkaufsauftragszeile verfolgen
 Nachfolgend wird beschrieben, wie Sie einen Verkaufsauftragszeile nachverfolgen. Die Schritte sind gleich für Einkaufs- und Bestandsanalyseansichten.
 
-1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Verkaufsaufträge** ein, und wählen Sie dann den zugehörigen Link.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Verkaufsaufträge** ein, und wählen Sie dann den zugehörigen Link.  
 2.  Öffnen Sie einen Verkaufsauftrag, den Sie nachverfolgen möchten.  
 3.  Wählen Sie eine Zeile und wäglen Sie dann die Aktion **Belegzeile nachverfolgen** aus.
 4. Auf der Seite **Belegzeilenverfolgung** wählen Sie den Beleg, den Sie anzeigen möchten, und dann, auf der Registerkarte Start, in der Gruppe Verarbeiten wählen Sie **Anzeigen** aus, um die zugehörige Zeile anzuzeigen.
@@ -30,7 +30,7 @@ Nachfolgend wird beschrieben, wie Sie einen Verkaufsauftragszeile nachverfolgen.
 
 [!INCLUDE [line-no-info](includes/line-no-info.md)]
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 [Verkauf](sales-manage-sales.md)  
 [Allgemeine Geschäftsfunktionen](ui-across-business-areas.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

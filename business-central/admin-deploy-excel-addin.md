@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Excel, add-in, centralized deployment, M365 admin center, individual acquisition, appsource
 ms.date: 10/07/2021
 ms.author: jswymer
-ms.openlocfilehash: 29cfec8ea605209aed7e7005dfcfa1c10d54b7b6
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: beb7a01986d12458e0615918608b44a6d90c269c
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141411"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518415"
 ---
 # <a name="get-the-business-central-add-in-for-excel"></a>Holen Sie sich das Business Central-Add-in für Excel
 
@@ -79,13 +79,13 @@ Sie werden sowohl in [!INCLUDE[prod_short](includes/prod_short.md)] als auch im 
     4. Überprüfen Sie die Seite **Anforderungen für Berechtigungen akzeptieren** und wählen Sie dann **Weiter** > **Einsatz fertig stellen**.
     5. Warten Sie, bis das grüne Häkchen neben **Bereitgestellt** für das Add-In erscheint, und wählen Sie dann **Erledigt**. <!--Select **Deploy** and wait til successful, then **Next** > **Continue**.-->
 
-       Das Add-In erscheint auf der Seite **Add-ins**. Weitere Informationen über das Bereitstellen von Add-Ins im Microsoft 365 Admin Center finden Sie unter [Einsatz von Add-Ins im](/microsoft-365/admin/manage/manage-deployment-of-add-in) Admin Center.
+       Das Add-In erscheint auf der Seite **Add-ins**. Weitere Informationen über das Bereitstellen von Add-Ins im Microsoft 365 Admin Center finden Sie unter [Einsatz von Add-Ins im](/power-platform/admin/use-service-admin-role-manage-tenant?azure-portal=true) Admin Center.
 4. Gehen Sie zurück zur unterstützten Einrichtung **Excel Add-in „Zentrale Bereitstellung“** unterstützten Einrichtung in [!INCLUDE[prod_short](includes/prod_short.md)]. und wählen Sie **Weiter** aus.
 5. Aktivieren Sie **Zentrale Bereitstellung verwenden** und wählen Sie **Fertigstellen**.
 
     Wenn Sie diesen Schalter nicht einschalten, holt [!INCLUDE[prod_short](includes/prod_short.md)] das Add-in direkt aus dem Office Store.
 
-Wenn Sie fertig sind, können Sie die Bereitstellung im Microsoft 365 Admin Center jederzeit ändern, z. B. weitere Benutzer zuweisen. Weitere Informationen über das Bereitstellen von Add-Ins im Admin Center finden Sie unter [Einsatz von Add-Ins im Admin Center](/microsoft-365/admin/manage/manage-deployment-of-add-in).
+Wenn Sie fertig sind, können Sie die Bereitstellung im Microsoft 365 Admin Center jederzeit ändern, z. B. weitere Benutzer zuweisen. Weitere Informationen über das Bereitstellen von Add-Ins im Admin Center finden Sie unter [Einsatz von Add-Ins im Admin Center](/power-platform/admin/use-service-admin-role-manage-tenant?azure-portal=true).
 
 > [!IMPORTANT]
 > Wenn Sie über mehr als eine Umgebung verfügen, müssen Sie die unterstützte Einrichtung **Excel Add-in Zentrale Bereitstellung** in jeder Umgebung ausführen, in der Sie die zentrale Bereitstellung verwenden möchten. Sie müssen die zentrale Bereitstellung in Microsoft 365 jedoch nicht erneut konfigurieren. Sie müssen lediglich den Schalter **Zentrale Bereitstellung bereitstellen** in der unterstützten Einrichtung aktivieren. 

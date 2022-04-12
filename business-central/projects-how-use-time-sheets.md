@@ -10,12 +10,12 @@ ms.search.keywords: project management, capacity, staff, resource, time sheets
 ms.search.form: 950, 951, 973
 ms.date: 03/01/2022
 ms.author: edupont
-ms.openlocfilehash: f19e37752385d276683d4ce924883629cb7d086c
-ms.sourcegitcommit: 865b390b5571b08084bde93b539ec9898e201933
+ms.openlocfilehash: 1ed54a63f3747d9ea5a1010206f4faac74fa90b0
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8372132"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8510855"
 ---
 # <a name="use-time-sheets"></a>Arbeitszeittabellen verwenden
 
@@ -37,7 +37,7 @@ Sie können die Stapelverarbeitung **Arbeitszeittabellen erstellen** verwenden, 
 > [!IMPORTANT]
 > Sie müssen Berechtigungen haben, Arbeitszeittabellen zu erstellen. Weitere Informationen finden Sie unter [Zeittabellen festlegen](projects-how-setup-time-sheets.md).
 
-1. Wählen Sie das Symbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Arbeitszeittabellen** ein und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie das Symbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Arbeitszeittabellen** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie auf der Seite **Arbeitszeittabellen** die Aktion **Arbeitszeittabellen erstellen** aus.
 3. Füllen Sie die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -77,7 +77,7 @@ In diesem hypothetischen Beispiel würden Sie dann die relevanten Stunden über 
 
 Falls die Arbeitszeittabelle Informationen von einem Zeitraum zum anderen gleich bleiben, können Sie Zeit sparen, indem Sie die Zeilen aus dem vorherigen Zeitraum kopieren. Tragen Sie dann einfach Ihren Zeitverbrauch für die neuen Periode ein.
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Arbeitszeittabellen** ein und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Arbeitszeittabellen** ein und wählen Sie dann den zugehörigen Link.  
 2. Öffnen Sie die Arbeitszeittabelle für eine Periode nach der Periode für eine vorhandene Arbeitszeittabelle mit Zeilen.  
 3. Wählen Sie die Aktion **Zeilen aus vorherigen Arbeitszeittabellen kopieren** aus.
 
@@ -86,7 +86,7 @@ Die Zeilen werden kopiert, einschließlich Informationen wie Art und Beschreibun
 ## <a name="to-copy-job-planning-lines-to-a-time-sheet"></a>So kopieren Sie Projektplanzeilen in eine Arbeitszeittabelle:
 Die folgende Vorgehensweise beschreibt, wie Projektplanzeilen einer Arbeitszeittabelle enfach hinzugefügt werden können.
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Arbeitszeittabellen** ein und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Arbeitszeittabellen** ein und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie auf der Seite **Arbeitszeittabellen** eine Arbeitszeittabelle für den entsprechenden Zeitraum aus.  
 3. Wählen Sie die Aktion **Zeilen von Projektplanung erstellen** aus. Jegliche Projektplanzeilen im Arbeitszeittabellenzeitraum werden in die Arbeitszeittabelle für die Person oder die Maschine unter **Ressourcennummer** kopiert.
 

@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 33bb659621fe31d096020c52906915c9697e6a60
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ad7cb81559b27ffe1bb715cac30a4286d77f47da
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137835"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516109"
 ---
 # <a name="set-up-contacts"></a>Kontakte einrichten
 Beim Erstellen von Kontakten können Sie spezifische Informationen wie die Branche, der der Kontakt angehört, oder die Geschäftsbeziehung, die mit den Kontakten besteht, eingeben.
@@ -140,7 +140,7 @@ Wenn Sie eines dieser Felder auf der Kontaktunternehmenskarte ändern, werden di
 
 Weitere Informationen finden Sie unter [Kontakte erstellen](marketing-create-contact-companies.md).
 
-## <a name="using-predefined-defaults-on-new-contacts"></a>Vordefinierte Standards für neue Kontakte nutzen
+## <a name="use-predefined-defaults-on-new-contacts"></a>Vordefinierte Standards für neue Kontakte nutzen
 Sie können festlegen, dass jedem neuen Kontakt bei seiner Erstellung automatisch ein bestimmter Sprachcode, Gebietscode, Verkäufercode und Länder-/Regionscode als Vorgabe zugeordnet wird. Außerdem können Sie einen Vorgabewert für einen Verkaufsprozesscode eingeben, dem die Anwendung automatisch jede Verkaufschance zuweist, die Sie erstellen. Sie können dies auf dem Inforegister **Standard** auf der Seite **Marketingeinrichtung** festlegen.
 
 Durch die Übernahme von Feldern werden die Vorgabewerte überschrieben, die Sie eingerichtet haben. Wenn Sie z. B. Englisch als Vorgabesprache eingerichtet haben, die Sprache des Kontaktunternehmens jedoch Deutsch ist, wird den Kontaktpersonen dieses Unternehmens automatisch die Sprache Deutsch von der Anwendung zugewiesen.

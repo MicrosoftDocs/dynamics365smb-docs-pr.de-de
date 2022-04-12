@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 7374
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b1332240d6c6b0e43bada158fe11e82d42e0119f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ef6b031cfb87c74a62da85d0c7073a91e5e176e9
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144229"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520525"
 ---
 # <a name="create-bin-contents"></a>Lagerplatzinhalt erstellen
 
@@ -22,7 +22,7 @@ Nachdem Sie Ihre Lagerplätze eingerichtet haben, können Sie die Lagerplatzinha
 
 ## <a name="to-create-bin-content-manually"></a>So erstellen Sie Lagerplatzinhalt manuell
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Lagerorte** ein, und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Lagerorte** ein, und wählen Sie dann den entsprechenden Link.  
 2. Wählen Sie den Lagerort aus, an dem Sie Lagerplatzinhalte einrichten möchten, und wählen Sie dann die Aktion **Lagerplätze** aus.  
 3. Wählen Sie den Lagerplatz aus, an dem Sie Lagerplatzinhalte einrichten möchten, und wählen Sie dann die Aktion **Inhalte** aus.  
 4. Füllen Sie für jeden Artikel, den Sie in dem Lagerplatz lagern möchten, eine Zeile auf der Seite **Lagerplatzinhalt** mit den relevanten Informationen aus. Einige der Felder sind bereits mit Informationen über den Lagerplatz ausgefüllt.  
@@ -41,7 +41,7 @@ Wenn Sie das Feld **Fest** wählen, legen Sie diesen Lagerplatz für diesen Arti
 
 Wenn Sie Ihre Lagerplätze erzeugt haben, können Sie den Lagerplatzinhalt, den Sie in jedem Lagerplatz haben möchten, im Lagerplatzinhalt Erstellungsarbeitsblatt generieren.
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Lagerplatzinhalt Erst.-Arbeitsblatt** ein und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Lagerplatzinhalt Erst.-Arbeitsblatt** ein und wählen Sie dann den zugehörigen Link.  
 2. Klicken Sie im Kopf des Arbeitsblatts in das Feld **Name** und wählen Sie das Arbeitsblatt des Lagerortes, für den Sie Lagerplatzinhalte erstellen möchten.  
 3. Wählen Sie im Feld **Lagerplatzcode** den Code des Lagerplatzes, für den Sie den Lagerplatzinhalt definieren möchten.  
 
@@ -62,7 +62,7 @@ In diesem Arbeitsblatt können Sie mit einer Anzahl Lagerplatzinhaltszeilen für
 [Lagerbestand](inventory-manage-inventory.md)  
 [Lagerortverwaltung einrichten](warehouse-setup-warehouse.md)  
 [Montageverwaltung](assembly-assemble-items.md)  
-[Designdetails: Lagerverwaltung](design-details-warehouse-management.md)  
+[Designdetails: Warehouse Management](design-details-warehouse-management.md)  
 [Designdetails: Lagereinrichtung](design-details-warehouse-setup.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

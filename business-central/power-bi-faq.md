@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Power BI, reports, faq, errors
 ms.date: 04/22/2021
 ms.author: jswymer
-ms.openlocfilehash: 1c0a19a9739ab537b6a5df562484d2d9d6f8e3a6
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b19471cc3833c642ee65dc262fd5ca6cc1a57492
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137653"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520178"
 ---
 # <a name="power-bi--faq"></a>Power BI FAQ
 
@@ -256,8 +256,8 @@ Einige API-Seiten, einschließlich der meisten API v2.0-Seiten, haben Felder, di
 [Business Central und Power BI Einführung](admin-powerbi.md)  
 [Power BI Integration Übersicht](admin-powerbi-overview.md)  
 [Aktivierung von Power BI in Business Central](admin-powerbi-setup.md)  
-[Arbeiten mit Power BI-Berichten in Business Central](across-working-with-powerbi.md)  
-[Arbeiten mit Business Central-Daten in Power BI](across-working-with-business-central-in-powerbi.md)  
+[Mit Power BI-Berichten in Business Central arbeiten](across-working-with-powerbi.md)  
+[Mit Business Central-Daten in Power BI arbeiten](across-working-with-business-central-in-powerbi.md)  
 [Erstellung von Power BI-Berichten zur Anzeige von Business Central-Daten](across-how-use-financials-data-source-powerbi.md)    
 [Power BI Dokumentation](/power-bi/)  
 

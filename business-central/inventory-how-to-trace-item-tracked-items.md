@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.forms: 6520,
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 6592172331b92c1e0b6623c36c5531b4a32b5088
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 991df58fde5f525772d5b9eeadbf802429965575
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148526"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517420"
 ---
 # <a name="trace-item-tracked-items"></a>Verfolgen von Artikeln mit Artikelverfolgung
 Sie können sehen, wo ein Artikel mit Artikelverfolgung verwendet wurde. Dazu gehören die Informationen, wie und wann der Artikel entgegengenommen oder produziert, umgelagert, verkauft, verbraucht oder zurückgegeben wurde. Sie können außerdem alle aktuellen Instanzen einer bestimmten Serien- oder Chargennummern in der Datenbank suchen. Dazu können Sie die Funktionen „Artikelablaufverfolgung“ und [Posten suchen](ui-find-entries.md) verwenden.  
@@ -30,7 +30,7 @@ Diese Funktionen können insbesondere in der Qualitätssicherung hilfreich sein,
 
 ## <a name="to-trace-item-tracked-items"></a>Artikel mit Artikelverfolgung verfolgen  
 
-1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Artikelablaufverfolgung** ein und wählen Sie dann den entsprechenden Link.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Artikelablaufverfolgung** ein und wählen Sie dann den entsprechenden Link.  
 2.  Geben Sie in die Filterfelder oben auf der Seite die Artikelnummern oder einen Filter für die Artikelnummern ein, die Sie verfolgen möchten.  
 3.  Wählen Sie im Feld **Komponenten anzeigen**, ob Sie auch sehen möchten, woher die Komponenten für die Artikel stammen. Die Optionen werden in der folgenden Tabelle beschrieben.  
 
@@ -59,7 +59,7 @@ Diese Funktionen können insbesondere in der Qualitätssicherung hilfreich sein,
 
 ## <a name="to-find-item-tracked-items-with-find-entries"></a>So suchen Sie Artikel mit Artikelverfolgung mithilfe von „Posten suchen“  
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Posten suchen** ein, und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Posten suchen** ein, und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie **Aktionen** > **Suchen anhand von** > **Anhand von Artikelreferenz suchen**.
 3. Geben Sie in den Feldern **Seriennr.** und **Chargennr.** die Artikelverfolgungsnummern ein, die Sie nachverfolgen möchten.  
 4. Wählen Sie auf der Registerkarte Aktionen in der Gruppe Seite die Option **Suchen** aus, um alle Instanzen der Serien- oder Chargennummer und in der Datenbank zu finden.  

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 11/26/2021
 ms.author: edupont
-ms.openlocfilehash: 5cec98907fd3ab3b95763abd45e03038e8ccec35
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 886099234469a475e831d8f767d0aa1cf0023ece
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146748"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518259"
 ---
 # <a name="application-design-details"></a>Details zum Anwendungsdesign
 

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 07/16/2021
 ms.author: edupont
-ms.openlocfilehash: 27f9b5002d96d55121272f992f58c9cf9748111f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 97ba3a62954ae2d38106f0dc7aa4f1080e483ef5
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137471"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517843"
 ---
 # <a name="planning-with-or-without-locations"></a>Siehe Planung mit/ohne Lagerortcodes.
 In der Planung mit oder ohne Lagerortcodes in Bedarfszeilen arbeitet das Planungssystem unter diesen Voraussetzungen in geradliniger Weise:  

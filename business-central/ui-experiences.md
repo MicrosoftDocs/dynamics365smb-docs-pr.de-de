@@ -10,12 +10,12 @@ ms.search.keywords: essential, basic, user interface, application area, experien
 ms.search.form: 1
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0c1950fb828dc6a45c35eb6503ff1702cfb3fd71
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b3e053bf59a9019b9f736e24936f0e9a68a5daab
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130015"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521676"
 ---
 # <a name="change-which-features-are-displayed"></a>Funktionen, die angezeigt werden ändern
 [!INCLUDE[prod_short](includes/prod_short.md)] wurde entwickelt, um Ihnen zu helfen, Ihr Unternehmen unabhängig von Größe und Komplexität zu führen. Im Mittelpunkt des Produkts stehen wesentliche Funktionen wie Finanzberichterstattung, Vertrieb, Einkauf und Lagerverwaltung. Mit zunehmender Komplexität des Unternehmens können Sie z.B. Funktionen für das Fertigungs- und Servicemanagement aktivieren.
@@ -45,14 +45,14 @@ Benutzer werden Plänen in Microsoft 365 Admin Center in Verbindung mit allgemei
 Wenn Sie eine Änderung in den Benutzerplänen in Microsoft 365 Admin Center gemacht haben, wie mehr Benutzer dem Premium Plan hinzuzufügen, muss die Änderung in [!INCLUDE[prod_short](includes/prod_short.md)] vorgenommen werden.
 
 1. Als Administrator anmelden.
-2. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Benutzer** ein, und wählen Sie dann den entsprechenden Link.
+2. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Benutzer** ein, und wählen Sie dann den entsprechenden Link.
 3. Wählen Sie auf der Seite **Benutzer** die Aktion **Alle Benutzergruppen neu einrichten**.
 
 Alle neuen Informationen über die Schemata der Benutzer zusammen mit den zugeordneten Benutzergruppen werden jetzt entsprechend den Planänderungen aktualisiert.
 
 ### <a name="to-select-the-premium-experience"></a>Die Premium-Umgebung auswählen
 Sie können jetzt fortfahren, die neuen Benutzeroberfläche auszuwählen.
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Unternehmensdaten** ein, und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Unternehmensdaten** ein, und wählen Sie dann den zugehörigen Link.
 2. Auf der Seite **Unternehmensinformation** können Sie die **Benutzerfreundlichkeit** für Ihren Mandanten im Feld **Inforegister** festlegen.
 
 ## <a name="help-assumes-premium-experience"></a>Die Hilfe geht von der Premium-Umgebung aus

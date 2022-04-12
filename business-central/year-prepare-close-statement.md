@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments, assets, liabilities, equity, analysis, reporting, financial report, business intelligence, BI, Power Bi, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: e9eb5243541cdd365aa6a92b1278f38da531ed54
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d10ae12501feba348794c3deaa3ca66e221553b9
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141821"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521416"
 ---
 # <a name="preparing-closing-statements"></a>Abschlussberichrte vorbereiten
 Ihnen stehen eine Reihe von Standardberichten zur Verfügung, mit denen die benötigten Informationen zum Vorbereiten der Abschlussabrechnungen des Mandanten gesammelt werden können.
@@ -31,9 +31,9 @@ Die nachfolgende Tabelle beschreibt eine Reihe von Berichten, die in diesem Proz
 | Drucken eines Kontenschemas zum Analysieren der Werte auf Sachkonten oder zum Vergleichen tatsächlicher Sachposten mit Finanzbudgetposten |**Kontenschema** |
 | Überprüfen, ob Debitoren- und Kreditorenposten mit den entsprechenden Sachposten ausgeglichen sind |**Deb.- & Kred.-Konten abstimmen** |
 
-Um einen Bericht zu sehen, wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol, geben Sie den Namen ein, wie er in der Tabelle erscheint, und wählen Sie dann den zugehörigen Link.
+Um einen Bericht zu sehen, wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol, geben Sie den Namen ein, wie er in der Tabelle erscheint, und wählen Sie dann den zugehörigen Link.
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 [Jahre und Perioden abschließen](year-close-years-periods.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Business Intelligence](bi.md)

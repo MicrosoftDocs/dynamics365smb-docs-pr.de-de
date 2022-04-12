@@ -10,12 +10,12 @@ ms.search.keywords: Yodlee, feed, stream
 ms.search.form: 370, 371, 372, 373, 375, 423, 424, 425, 426, 1240, 1280
 ms.date: 01/24/2022
 ms.author: edupont
-ms.openlocfilehash: 4c305d4ba1f4208eb7a3c5845d4b32bb40f930e6
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: fc0c01281b4a4fb1bccee4196917b4357413e4cf
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382311"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514121"
 ---
 # <a name="set-up-bank-accounts"></a>Bankkonten festlegen
 
@@ -29,6 +29,8 @@ Bankkonten funktionieren unterschiedlich, je nachdem, ob ein Währungscode angeg
 - Währungscode wird angegeben
 
   Alle Transaktionen, die auf diesem Konto vorgenommen werden, müssen in der gleichen Währung erfolgen, die auf dem Konto angegeben ist. Alle Schecks, die von diesem Konto ausgestellt werden, müssen ebenfalls diese Währung haben.  
+
+Sie können bei der Dateneingabe Zeit sparen, indem Sie ein Bankkonto als Standardkonto für die für das Konto angegebene Währung festlegen. Bei dieser Vorgehensweise wird das Konto Verkaufs- und Servicebelegen zugeordnet, die die Währung verwenden. Um das Konto als Standardkonto für Verkaufs- und Servicebelege festzulegen, aktivieren Sie auf der Seite **Bankkontokarte** den Umschalter **Als Standard für Währung verwenden**. Bei Bedarf können Sie ein anderes Konto auswählen, wenn Sie an einem Beleg arbeiten.
 
 Ein Bankkonto ist ein integrierter Teil von [!INCLUDE[prod_short](includes/prod_short.md)] und spielt bei vielen anderen Funktionalitäten eine Rolle. Die folgende Illustration zeigt die wichtigsten Beziehungen:
 
@@ -86,7 +88,7 @@ Je besser Sie die Zuordnung von Informationen im Zahlungsabstimmungs Buch.-Blatt
 
 ## <a name="to-set-up-bank-accounts"></a>Bankkonten einrichten:
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Bankkonten** ein und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Bankkonten** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie auf der Seite **Bankkonten** die Aktion **Neu** aus.
 3. Füllen Sie die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -153,19 +155,19 @@ The following table explains key fields.
 |Bank Statement Import Format|Specifies the format of the bank statement file that can be imported into this bank account. The format is being used in both the payment reconciliation journals and the bank account reconciliations.|
 |Payment Export Format|Specifies the format of the bank file that will be exported when you choose the Export Payments to File button in the Payment Journal window.|
 -->
-> [!NOTE]
-> Um das Feld **Saldo** mit einem Eröffnungsbilanz auszufüllen, müssen Sie den Bankposten mit dem entsprechenden Betrag buchen. Sie können dies tun, indem Sie eine Bankkontoabstimmung durchführen. Weitere Informationen finden Sie unter [Abstimmen von Bankkonten](bank-how-reconcile-bank-accounts-separately.md).  
+
+## <a name="entering-an-opening-balance"></a>Eingeben einer Eröffnungsbilanz
+Um das Feld **Saldo** mit einem Eröffnungsbilanz auszufüllen, müssen Sie den Bankposten mit dem entsprechenden Betrag buchen. Sie können dies tun, indem Sie eine Bankkontoabstimmung durchführen. Weitere Informationen finden Sie unter [Abstimmen von Bankkonten](bank-how-reconcile-bank-accounts-separately.md).  
 >
 > Alternativ können Sie die Eröffnungsbilanz als Teil der allgemeinen Datenerstellung in neuen Unternehmen implementieren, indem Sie den Leitfaden für das unterstützte Setup **Geschäftsdaten migrieren** verwenden. Weitere Informationen finden Sie unter [Vorbereitungen für das Ausführen von Geschäften](ui-get-ready-business.md).  
 
 > [!IMPORTANT]
-> Es ist wichtig, dass Sie den Anfangssaldo nicht direkt in der Finanzbuchhaltung buchen. Buchungen im Sachkonto, die direkt in der Finanzbuchhaltung gebucht werden, führen in der Regel dazu, dass Sie das Bankkonto nicht abgleichen können, oder im Falle von Bankkonten in Fremdwährung, dazu, dass sich Differenzen ansammeln, wenn Sie mehr Bankabstimmungen buchen. Häufig wird der Anfangsbestand der Bank direkt auf das Bankkonto gebucht, und der Betrag landet dann auf dem Sachkonto. Alternativ können Sie eine Stornierung für ein bestimmtes Sachkonto durchführen, das Sie zum Ausgleich des Anfangssaldos des Sachpostens verwendet haben. In beiden Fällen müssen Sie alle Direktbuchungen auf das Sachkonto ausgleichen, bevor Sie mit der ersten Bankabstimmung beginnen, vor allem, wenn das Bankkonto auf eine Fremdwährung lautet.  
+> Es ist wichtig, dass Sie den Anfangssaldo nicht direkt in der Finanzbuchhaltung buchen. Buchungen im Sachkonto, die direkt in der Finanzbuchhaltung gebucht werden, führen in der Regel dazu, dass Sie das Bankkonto nicht abgleichen können, oder bei Bankkonten in Fremdwährung, dazu, dass sich Differenzen ansammeln, wenn Sie mehr Bankabstimmungen buchen. Häufig wird der Anfangsbestand der Bank direkt auf das Bankkonto gebucht, und der Betrag landet dann auf dem Sachkonto. Alternativ können Sie eine Stornierung für ein Sachkonto durchführen, das Sie zum Ausgleich des Anfangssaldos des Sachpostens verwenden. In beiden Fällen müssen Sie alle Direktbuchungen auf das Sachkonto ausgleichen, bevor Sie mit der ersten Bankabstimmung beginnen, vor allem, wenn das Bankkonto auf eine Fremdwährung lautet.
 
 ## <a name="to-set-up-your-bank-account-for-import-or-export-of-bank-files"></a>Um Ihre Bankkonten zum Importieren und Exportieren von Bankdateien einzurichten
+Die Felder, die sich auf den Import und den Export von Bankfeeds und Dateien beziehen, befinden sich im Inforegister **Transfer** im Fenster **Bankkontenkarte**. Weitere Informationen finden Sie unter [Verwenden der AMC Banking 365 Fundamentals-Erweiterung](ui-extensions-amc-banking.md) und [Einrichten des Envestnet Yodlee Bank Feeds Service](bank-how-setup-bank-statement-service.md).
 
-Felder auf dem Inforegister **Transfer** im Fenster **Bankkontenkarte** beziehen sich auf den Import und den Export von Bankfeeds und Dateien. Weitere Informationen finden Sie unter [Verwenden der AMC Banking 365 Fundamentals-Erweiterung](ui-extensions-amc-banking.md) und [Einrichten des Envestnet Yodlee Bank Feeds Service](bank-how-setup-bank-statement-service.md).
-
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Bankkonten** ein und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Bankkonten** ein und wählen Sie dann den zugehörigen Link.
 2. Öffnen Sie die Karte für ein Bankkonto, mit dem Sie Bankdateien exportieren oder importieren, indem Sie den Bankdatenkonvertierungs-Service verwenden.
 3. Füllen Sie im Inforegister **Übertrag** die notwendigen Felder aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -216,9 +218,9 @@ Die Abbildung zeigt den Arbeitsplan der ausgehenden Zahlungen:
 
 ## <a name="to-set-up-vendor-bank-accounts-for-export-of-bank-files"></a>Um Ihre Bankkonten zum Importieren und Exportieren von Bankdateien einzurichten
 
-Felder auf dem Inforegister **Transfer** auf der Seite **Bankkontenkarte** beziehen sich auf den Import und den Export von Bankfeeds und Dateien. Weitere Informationen finden Sie unter [Verwenden der AMC Banking 365 Fundamentals-Erweiterung](ui-extensions-amc-banking.md) und [Zahlungen in eine Bankdatei exportieren](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).
+Felder auf dem Inforegister **Transfer** auf der Seite **Bankkontenkarte** beziehen sich auf den Import und den Export von Bankfeeds und Dateien. Weitere Informationen finden Sie unter [AMC Banking 365 Fundamentals-Erweiterung verwenden](ui-extensions-amc-banking.md) und [Zahlungen in eine Bankdatei exportieren](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Kreditoren** ein und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Kreditoren** ein und wählen Sie dann den zugehörigen Link.
 2. Öffnen Sie die Karte für einen Kreditor, dem Sie Zahlungsbankdateien auf das Bankkonto exportieren möchten.
 3. Wählen Sie die **Bankkonten** Aktion aus.
 4. Wählen Sie aus der **Liste der Kreditorenbankkonten** das entsprechende Bankkonto aus, oder fügen Sie ein neues Bankkonto hinzu.  

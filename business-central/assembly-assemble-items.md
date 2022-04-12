@@ -10,12 +10,12 @@ ms.search.keywords: kit, kitting
 ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: e4d4f91ce7ca3f8ea85c0c84abdcab8fdc366fb3
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: ce0b3e4208cddba15c7358659e404ba2c868f11c
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382181"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514543"
 ---
 # <a name="assembly-management"></a>Montageverwaltung
 Für Unternehmen, die Produkte für ihre Debitoren herstellen, indem sie Komponenten in einfachen Prozessen kombinieren, und die keine Fertigungsfunktionen benötigen, bietet [!INCLUDE[prod_short](includes/prod_short.md)] Funktionen, um Artikel zu montieren, die sich in bestehende Funktionen einfügen, beispielsweise Verkaufs-, Planungs-, Reservierungs- und Lagerfunktionen.  
@@ -52,8 +52,8 @@ Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Themen,
 
 [Mit Fertigungsstücklisten arbeiten](inventory-how-work-BOMs.md)  
 [Lagerbestand](inventory-manage-inventory.md)  
-[Designdetails: Lagerverwaltung](design-details-warehouse-management.md)  
-[Designdetails: Vorratsplanung](design-details-supply-planning.md)  
+[Designdetails: Warehouse Management](design-details-warehouse-management.md)  
+[Entwurfsdetails: Vorratsplanung](design-details-supply-planning.md)  
 <!-- [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md)   -->
 <!-- [Walkthrough: Selling, Assembling, and Shipping Kits](walkthrough-selling-assembling-and-shipping-kits.md)   -->
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

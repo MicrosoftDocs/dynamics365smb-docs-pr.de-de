@@ -9,14 +9,14 @@ ms.workload: na
 ms.search.keywords: Invoicing, Microsoft 365
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 3c570f15d13f7a1dbb2a040f09f34b619b01a5f3
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 53216f530c5e0f334f2ffb9f96f12c9804d8ad48
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382715"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519996"
 ---
-# <a name="using-the-same-microsoft-365-account-in-prod_short-and-microsoft-invoicing"></a>Mithilfe des gleichen Microsoft 365-Kontos in [!INCLUDE[prod_short](includes/prod_long.md)] und Microsoft Invoicing
+# <a name="use-the-same-microsoft-365-account-in-prod_short-and-microsoft-invoicing"></a>Dasselbe Microsoft 365-Konto in [!INCLUDE[prod_short](includes/prod_long.md)] und Microsoft Invoicing verwenden
 Wenn Sie sich für eine Testversion anmelden [!INCLUDE[prod_short](includes/prod_short.md)], können das Programm 30-Tage lang testen, Sie können ein Abonnement abschließen oder Sie können die Verwendung von [!INCLUDE[prod_short](includes/prod_short.md)] beenden. In allen Fällen wurde möglicherweise irgendwann **Microsoft Invoicing** angezeigt und Sie haben darauf geklickt. Dies war eine App, die Teil des heutigen Microsoft 365 Business Standard war und früher als Microsoft 365 Business Premium-Abonnement bezeichnet wurde, sodass diese Kachel nicht in jeder Microsoft 365-Umgebung angezeigt wurde.  
 
 Microsoft Invoicing ist nicht mehr verfügbar. Wenn Sie sich jedoch bei Invoicing anmelden müssen, um Ihre Daten abzurufen, wird möglicherweise die Meldung angezeigt, dass Sie nicht auf Microsoft Invoicing zugreifen können, da Ihr Konto in [!INCLUDE[prod_short](includes/prod_short.md)] verwendet wird.  

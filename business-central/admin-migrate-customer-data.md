@@ -1,24 +1,26 @@
 ---
 title: Migrieren von Debitorendaten
-description: Sie können vorhandene Kundendaten mithilfe von von einem vorhandenen System nach Business Central migrieren, indem Sie RapidStart Services verweden oder diese einfach direkt in das Unternehmen eingeben.
-author: SorenGP
+description: Sie können vorhandene Debitorendaten aus einem vorhandenen System zu Business Central migrieren, indem Sie einen unterstützten Einrichtungsleitfaden verwenden. Verwenden Sie alternativ Excel und RapidStart Services.
+author: edupont04
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 1799, 1807, 8632, 1800, 1340
+ms.search.form: 1799, 1807, 8632, 1800, 1340, 8614, 8615
 ms.date: 02/18/2022
 ms.author: edupont
-ms.openlocfilehash: f339e5c878d64cb243c34c97f6711629389bfa0e
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: 492ec993dfbf33f90fc601b1d6f8f27319ee39c9
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335370"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515719"
 ---
 # <a name="migrate-customer-data"></a>Migrieren von Debitorendaten
 
-Sie können vorhandene Debitorendaten aus einem vorhandenen ERP-System nach [!INCLUDE[prod_short](includes/prod_short.md)] migrieren, indem Sie die Datenmigrationswerkzeuge aus RapidStart Services verwenden. Sie können Excel-.xlsx-Dateien als Datenträger verwenden. Sie können die Daten auch manuell umlagern, indem Sie sie direkt in den Mandanten eingeben. Alternativ können Sie Daten anhand der Anleitung **Cloud-Migration** verschieben. Weitere Informationen finden Sie unter [Daten migrieren](/dynamics365/business-central/dev-itpro/administration/migrate-data) im Administratorinhalt.
+Sie können vorhandene Debitorendaten aus einem vorhandenen ERP-System zu [!INCLUDE[prod_short](includes/prod_short.md)] Online migrieren, indem Sie den Cloud-Migrationsprozess für unterstützte Versionen verwenden. Alternativ können Sie mithilfe der Datenmigrationstools von RapidStart Services zu [!INCLUDE [prod_short](includes/prod_short.md)] On-Premises migrieren und anschließend zur Cloud wechseln. Weitere Informationen finden Sie unter [Lokale Daten zu Business Central Online migrieren](/dynamics365/business-central/dev-itpro/administration/migrate-data) im Admin-Inhalt (nur in englischer Sprache).  
+
+In diesem Artikel sehen wir uns die Konfigurationsdateien an, aus denen Sie exportieren und in [!INCLUDE [prod_short](includes/prod_short.md)] importieren können. Der Inhalt wurde mit Blick auf On-Premises-Bereitstellungen verfasst.  
 
 > [!NOTE]
 > Felder vom Typ Blob können nicht mithilfe von Excel exportiert/importiert werden.

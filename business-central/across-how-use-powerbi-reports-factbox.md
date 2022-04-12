@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 06/11/2021
 ms.author: jswymer
-ms.openlocfilehash: 3db84a185c47976f5d7f3aa5f166c81e4a035a89
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ccdcf519d33c9b4ee23526e773ec8eccc9e0ebdd
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133330"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517161"
 ---
 # <a name="creating-power-bi-reports-for-displaying-list-data-in-prod_short"></a>Erstellen von Power BI-Berichten zum Anzeigen von Listendaten in [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -31,7 +31,7 @@ ms.locfileid: "8133330"
 - Power BI Desktop.
 
 <!-- 
-For more information about getting started, see [Using [!INCLUDE[prod_short](includes/prod_short.md)] as a Power BI Data Source](across-how-use-financials-data-source-powerbi.md).-->
+For more information about getting started, see [Use [!INCLUDE[prod_short](includes/prod_short.md)] as a Power BI Data Source](across-how-use-financials-data-source-powerbi.md).-->
 
 ## <a name="create-a-report-for-a-list-page"></a>Einen Bericht für eine Listenseite erstellen
 
@@ -122,13 +122,13 @@ Vergewissern Sie sich, dass die Seite, die angezeigt werden soll, die erste Seit
 
 Vergewissern Sie sich, dass die Berichtsgröße auf 325 Pixel x 310 Pixel festgelegt wird. Speichern Sie den Bericht, und aktualisieren Sie anschließend die Seite.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe Verwandte Schulungen unter [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 [Aktivieren Sie Ihre Geschäftsdaten für Power BI](admin-powerbi.md)  
-[Verwenden von [!INCLUDE[prod_short](includes/prod_short.md)] als Power BI-Datenquelle](across-how-use-financials-data-source-powerbi.md)  
-[Vorbereitung für die Geschäftstätigkeit](ui-get-ready-business.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] als Power BI-Datenquelle verwenden](across-how-use-financials-data-source-powerbi.md)  
+[Vorbereiten auf die Geschäftsabwicklung](ui-get-ready-business.md)  
 [Einrichten [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Finanzen](finance.md)  
 

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 99000846, 99000850
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a4cc64e863c2bde02c61237e7baad7a58dfaba31
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 09129dc65ad61e632d7b5f5e3d22b47ae32d95bd
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145498"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516718"
 ---
 # <a name="batch-post-production-consumption"></a>Produktionsverbrauch mit Stapelverarbeitung buchen
 
@@ -27,7 +27,7 @@ Sie können [!INCLUDE[prod_short](includes/prod_short.md)] so einstellen, um aut
 
 ## <a name="to-post-consumption-for-one-or-more-production-order-lines"></a>Die Laufzeit für eine oder mehrere Verbrauchszeile buchen
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Verbrauchs Buch.-Blatt** ein, und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Verbrauchs Buch.-Blatt** ein, und wählen Sie dann den zugehörigen Link.  
 2. Füllen Sie die Felder mit den Daten des Fertigungsauftrags und den Verbrauchsdaten aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     Verwenden Sie die Aktion **Verbrauch berechnen**, um Buch.-Blattzeilen von Fertigungsaufträgen basierend auf der Berechnung der Verbrauchsmenge auf der Ist-Menge (der Menge der fertig gestellten Artikel, die Sie ausgewertet haben) oder der Soll-Menge (der Menge von Artikeln, die Sie fertigen möchten) basiert.
@@ -42,7 +42,7 @@ Sie können [!INCLUDE[prod_short](includes/prod_short.md)] so einstellen, um aut
 [Produktion](production-manage-manufacturing.md)  
 [Produktion einrichten](production-configure-production-processes.md)  
 [Planung](production-planning.md)  
-[Lagerbestand](inventory-manage-inventory.md)  
+[Bestand](inventory-manage-inventory.md)  
 [Einkauf](purchasing-manage-purchasing.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

@@ -10,12 +10,12 @@ ms.reviewer: edupont
 ms.search.form: 461
 ms.date: 09/23/2021
 ms.author: andreipa
-ms.openlocfilehash: 40642b524e44234cda8ef0bd468ff8eb47decb69
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 4dda49e125445ab754ce63dc6b2fc530ca59fcc4
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142263"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516978"
 ---
 # <a name="schedule-jobs-for-adjusting-and-reconciling-inventory-cost-with-the-general-ledger"></a>Aufträge für die Anpassung und Abstimmung der Kalkulation von Beständen mit dem Hauptbuch planen
 
@@ -25,7 +25,7 @@ Um die Erfahrung zu optimieren, sind die automatische Kostenanpassung und die Bu
 
 Das Erstellen der Aufgabenwarteschlangeneinträge kann selbst für einen erfahrenen Berater schwierig sein. Daher stellen wir einen Leitfaden für die unterstützte Einrichtung bereit, um den Prozess der Anpassung der Artikelkosten zu vereinfachen.  
 
-1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol öffnet, geben Sie **Bestandseinrichtung** ein und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol öffnet, geben Sie **Bestandseinrichtung** ein und wählen Sie dann den entsprechenden Link.  
 2. Schalten Sie auf der Seite **Lagereinrichtung** das Feld **Automatische Kostenbuchung** um, oder geben Sie **Nie** im Feld **Automatische Kostenregulierung** an.  
 3. Wählen Sie in der Benachrichtigung, die jetzt oben auf der Seite angezeigt wird, die Verknüpfung **Einen Projektwarteschlangenposten planen** aus. Dies öffnet die Anleitung zur unterstützten Einrichtung **Kostenanpassung und -buchung planen**.  
 4. Geben Sie die Aufgabe an, die Sie planen möchten.  
@@ -39,7 +39,7 @@ Das Erstellen der Aufgabenwarteschlangeneinträge kann selbst für einen erfahre
 
 Alternativ können Sie Aufgabenwarteschlangenposten manuell erstellen. Das folgende Verfahren zeigt, wie Sie den Batchauftrag **Lagerreg. fakt. Einst. Preise** einrichten, sodass er täglich ausgeführt wird, aber die gleichen Schritte gelten für den Batchauftrag **Lagerreg. buchen**.  
 
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Aufgabenwarteschlangeneinträge** ein, und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") aus, geben Sie **Aufgabenwarteschlangeneinträge** ein, und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die Aktion **Neu**.  
 3. Wählen Sie im Feld **Auszuführender Objekttyp** die Option *Bericht* aus.  
 4. Wählen Sie im Feld **Auszuführende Objekt-ID** die ID *795*, **Lagerreg. fakt. Einst. Preise** aus.  

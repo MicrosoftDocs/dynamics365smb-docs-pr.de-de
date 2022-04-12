@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 1115
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1d6d920e4259752a25dd73c4b10a84e09334f78e
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: a97185820c9b28e297c8e30ad0c3f921860b8267
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138017"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517472"
 ---
 # <a name="delete-cost-budget-entries"></a>Kostenbudgetposten löschen
 
@@ -24,7 +24,7 @@ Um keine Lücken in den Kostenbudgetposten und den Kostenjournalposten entstehen
 
 ## <a name="to-delete-a-cost-budget-entry"></a>Kostenbudgetposten löschen:  
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Kostenbudgetposten löschen** ein, und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Kostenbudgetposten löschen** ein, und wählen Sie dann den entsprechenden Link.  
 
     Die **Zu-Register-Nr.** Das Feld enthält die letzte Journalpostennummer und kann nicht geändert werden.  
 
@@ -34,7 +34,7 @@ Um keine Lücken in den Kostenbudgetposten und den Kostenjournalposten entstehen
 > [!NOTE]  
 > Um ein versehentliches Löschen von Kostenbudgetposten zu vermeiden, können Sie Journalposten schließen, indem Sie die Zeilen als **Abgeschlossen** im Feld **Abgeschlossen** auf der Seite **Kostenbudget-Register** markieren.  
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 [Kostenrechnung](finance-manage-cost-accounting.md)
 [Erstellen von Kostenbudgets](finance-create-cost-budgets.md)  

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, faq, errors
 ms.date: 10/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 34c669f955bebf84149959182bb1ce8bdeb139a0
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: addfaaf3e5991e5e0bce4d7e39c47f645cd6a2de
+ms.sourcegitcommit: d6af3155bb818430f22d5caca78df322a8d9b178
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147492"
+ms.lasthandoff: 04/01/2022
+ms.locfileid: "8528579"
 ---
 # <a name="teams-faq"></a>Teams FAQ
 
@@ -70,10 +70,6 @@ Ja. Es funktionieren jedoch nur einige Funktionen der App mit [Apps einbetten](/
 
 - Die App arbeitet mit Links, die auf dem Muster **\*. bc.dynamics.com** basieren, das normalerweise mit „Apps einbetten“ verwendet wird.
 - Die Kontaktsuche ist für eingebettete Apps, die die Basisanwendung von Microsoft ersetzen, nicht verfügbar.
-
-### <a name="where-can-i-find-teams-integration-inside-the-prod_shortmd-web-client"></a>Wo finde ich die Teamintegration innerhalb des [!INCLUDE [prod_short.md](includes/prod_short.md)] Webclients? 
-
-Derzeit gibt es keine Einbettung von Teams-Steuerelementen oder das Vorhandensein von Teams-Funktionen im [!INCLUDE [prod_short.md](includes/prod_short.md)] Web-Client oder anderen Clients.
 
 ### <a name="does-prod_shortmd-work-with-the-teams-mobile-app"></a>Funktioniert [!INCLUDE [prod_short.md](includes/prod_short.md)] mit der mobilen App von Teams?
 
@@ -304,7 +300,11 @@ Ja. [!INCLUDE [prod_short.md](includes/prod_short.md)] Funktionen im Detailfenst
 
 ### <a name="can-i-access-my-location-from-the-details-window-in-teams"></a><a name="location"></a>Kann ich über das Detailfenster in Teams auf meinen Standort zugreifen?
 
-Wenn Sie Funktionalität in [!INCLUDE [prod_short.md](includes/prod_short.md)] verwenden, die auf Ihre aktuellen Standortkoordinaten zugreifen können, z. B. mit Karten, müssen Sie Teams im Browser oder in der mobilen Team-App verwenden. Der Standort ist bei Verwendung der Team-Desktop-App nicht verfügbar. 
+Wenn Sie Funktionalität in [!INCLUDE [prod_short.md](includes/prod_short.md)] verwenden, die auf Ihre aktuellen Standortkoordinaten zugreifen können, z. B. mit Karten, müssen Sie Teams im Browser oder in der mobilen Team-App verwenden. Der Standort ist bei Verwendung der Team-Desktop-App nicht verfügbar.
+
+### <a name="how-do-i-open-the-details-in-a-new-window"></a>Wie öffne ich die Details in einem neuen Fenster?
+
+Das Öffnen des Detailfensters als separates Fenster ist nützlich für Multitasking, oder um mit Geschäftsdaten zu arbeiten und gleichzeitig den Teams-Chat und andere Teams-Funktionen nutzen zu können. Um Details in einem eigenen Fenster zu öffnen, wählen Sie **Im Browser öffnen** aus dem Ellipsenmenü (**...**) in der oberen rechten Ecke des Fensters aus.
 
 ## <a name="collaborate-with-guests"></a>[Mit Gästen zusammenarbeiten](#tab/collaborating)
 
@@ -346,7 +346,7 @@ Anzahl Alles, was Sie brauchen, ist ein gültiges Konto, das Zugriff auf Microso
 
 ### <a name="is-share-to-teams-available-in-all-business-central-clients"></a>Ist Teilen über Teams in allen Business Central Clients verfügbar? 
 
-Zurzeit ist „Teilen über Teams“ ausschließlich im Desktop Web Client und im Detailfenster von Teams verfügbar.  
+Derzeit ist Share to Teams im Desktop-Webclient, im Detailfenster in Teams und beim Öffnen einer Seite in einem neuen Fenster über das Outlook-Add-In verfügbar.
 
 ### <a name="where-do-i-find-share-to-teams-in-business-central"></a>Wo finde ich die Funktion Für Teams freigeben in Business Central? 
 

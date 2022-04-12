@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 99000842, 99000843, 99000861, 99000862, 99000863
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 4fca74c179e6da283a2486efd2dad1c22019d013
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3554fc674732c68e47bfd28c033534d1686e1421
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132862"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515381"
 ---
 # <a name="replan-or-refresh-production-orders-directly"></a>Produktionsaufträge direkt umplanen oder auffrischen
 
@@ -36,7 +36,7 @@ Sie können die FA-Zeilen entweder manuell eintragen oder Sie verwenden die Funk
 
 ## <a name="to-replan-a-production-order"></a>Einen Fertigungsauftrag neu planen
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"). Symbol. Geben Sie **Geplante Prod. Aufträge** ein und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten"). Symbol. Geben Sie **Geplante Prod. Aufträge** ein und wählen Sie dann den zugehörigen Link.  
 2. Öffnen Sie den Fertigungsauftrag, den Sie neu planen wollen.  
 3. Wählen Sie im Inforegister **Zeilen** die Aktionen **Zeilen**, und dann Zeilen, und dann **Komponenten**.  
 4. Fügen Sie eine Komponente hinzu, die einen Fertigungsartikel oder eine Unterkomponente darstellt.  
@@ -67,7 +67,7 @@ Sie können die FA-Zeilen entweder manuell eintragen oder Sie verwenden die Funk
 
 Wenn Sie FA-Zeilen geändert haben, dann müssen Sie die Komponenten des Fertigungsauftrags aktualisieren. Im weiteren Vorgang werden die Komponenten für einen fest geplanten Fertigungsauftrag berechnet. Die Schritte sind für eine Arbeitsplanzeile ähnlich.
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet 2.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Firm Planned Prod. Auftrag** ein und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet 2.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Firm Planned Prod. Auftrag** ein und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die Aktion **Neu** aus. Weitere Informationen finden Sie unter [Erstellen von Montageaufträgen](production-how-to-create-production-orders.md).  
 3. Wählen Sie die Aktion **Aktualisieren** aus.
 4. Auf der Seite **Produktionsauftrag aktualisieren** können Sie unter folgenden Optionen wählen:

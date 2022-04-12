@@ -10,17 +10,17 @@ ms.search.keywords: SMTP, email, Office 365, connector
 ms.search.form: 1805, 9813, 9814, 1262, 1263
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 0c1dc36384541742e36cc0a74dc00fdecaf18b37
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: ed1fb96cd3fb5a966df7f48f0918ac1514312c49
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382019"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515823"
 ---
 # <a name="set-up-email"></a>E-Mail einrichten
-Menschen in Unternehmen senden täglich Informationen und Dokumente wie Verkaufsdokumente und Bestellungen sowie Rechnungen per E-Mail. Administratoren können dies vereinfachen, indem sie ein oder mehrere E-Mail-Konten mit [!INCLUDE[prod_short](includes/prod_short.md)] verbinden. So können Sie Dokumente senden, ohne eine E-Mail-App öffnen zu müssen. Sie können jede Nachricht einzeln mit grundlegenden Formatierungswerkzeugen wie Schriftarten, Stilen, Farben usw. zusammenstellen und Anhänge mit bis zu 100 MB hinzufügen. Administratoren können auch Berichtslayouts einrichten, die nur die wichtigsten Informationen aus Dokumenten enthalten. Weitere Informationen finden Sie unter [Senden von Dkumenten über E-Mail](ui-how-send-documents-email.md).
+Menschen in Unternehmen senden täglich Informationen und Dokumente wie Verkaufsdokumente und Bestellungen sowie Rechnungen per E-Mail. Administratoren können ein oder mehrere E-Mail-Konten mit [!INCLUDE[prod_short](includes/prod_short.md)] verbinden. So können Sie Dokumente senden, ohne eine E-Mail-App öffnen zu müssen. Sie können jede Nachricht einzeln mit grundlegenden Formatierungswerkzeugen wie Schriftarten, Stilen, Farben usw. zusammenstellen. Sie können auch Anhänge mit bis zu 100 MB hinzufügen. Administratoren können außerdem Berichtslayouts einrichten, die nur die wichtigsten Informationen aus Dokumenten enthalten. Weitere Informationen finden Sie unter [Senden von Dkumenten über E-Mail](ui-how-send-documents-email.md).
 
-Die E-Mail-Funktionen in [!INCLUDE[prod_short](includes/prod_short.md)] sind nur für ausgehende Nachrichten. Sie können keine Antworten erhalten, d.h es ist keine Posteingangsseite vorhanden in [!INCLUDE[prod_short](includes/prod_short.md)].
+Die E-Mail-Funktionen in [!INCLUDE[prod_short](includes/prod_short.md)] sind nur für ausgehende Nachrichten. Sie können keine Antworten erhalten, d. h. es ist keine Posteingangsseite in [!INCLUDE[prod_short](includes/prod_short.md)] vorhanden.
 
 > [!NOTE]
 > Sie können die E-Mail-Funktionalitäten von [!INCLUDE[prod_short](includes/prod_short.md)] online nur mit Exchange Online verwenden. Wir unterstützen keine hybriden Szenarien, wie z.B. die Verbindung von [!INCLUDE[prod_short](includes/prod_short.md)] online mit einer lokalen Version von Exchange.
@@ -31,7 +31,7 @@ Die E-Mail-Funktionen in [!INCLUDE[prod_short](includes/prod_short.md)] sind nur
 Um E-Mails einzurichten, müssen Sie den **E-MAIL-EINRICHTEN** Berechtigungssatz haben. Weitere Informationen finden Sie unter [Berechtigungen an Benutzer und Gruppen zuweisen](ui-define-granular-permissions.md). 
 
 ## <a name="adding-email-accounts"></a>E-Mail-Konten hinzufügen
-Sie fügen E-Mail-Konten über Erweiterungen hinzu, mit denen Konten verschiedener Anbieter eine Verbindung herstellen können in [!INCLUDE[prod_short](includes/prod_short.md)]. Mit den Standarderweiterungen können Sie Konten von Microsoft Exchange Online verwenden, aber möglicherweise sind andere Erweiterungen verfügbar, mit denen Sie Konten von anderen Anbietern wie Google Mail verbinden können.
+Sie fügen E-Mail-Konten über Erweiterungen hinzu, mit denen Konten verschiedener Anbieter eine Verbindung herstellen können in [!INCLUDE[prod_short](includes/prod_short.md)]. Mit den Standarderweiterungen können Sie Konten von Microsoft Exchange Online verwenden. Möglicherweise sind jedoch andere Erweiterungen verfügbar, mit denen Sie Konten von anderen Anbietern verbinden können, z. B. Gmail.
 
 Nachdem Sie ein E-Mail-Konto hinzugefügt haben, können Sie vordefinierte Geschäftsszenarien angeben, in denen das Konto zum Senden von E-Mails verwendet werden soll. Sie können beispielsweise festlegen, dass alle Benutzer Verkaufsbelege von einem Konto senden und Dokumente von einem anderen Konto kaufen. Weitere Informationen finden Sie unter [Weisen Sie E-Mail-Konten E-Mail-Szenarien zu](admin-how-setup-email.md#assign-email-scenarios-to-email-accounts).
 
@@ -39,19 +39,19 @@ In der folgenden Tabelle werden die standardmäßig verfügbaren E-Mail-Erweiter
 
 |Erweiterung  |Beschreibung  |Beispiele für die Verwendung  |
 |---------|---------|---------|
-|**Microsoft 365**|Jeder sendet E-Mails von einem freigegebenen Postfach in Exchange Online.|Wenn beispielsweise alle Nachrichten aus derselben Abteilung stammen, sendet Ihre Verkaufsorganisation Nachrichten von einem sales@cronus.com-Konto. Dies erfordert, dass Sie ein freigegebenes Postfach im Microsoft 365 Admin Center einrichten. Weitere Informationen finden Sie unter [Freigegebene Postfächer](/Exchange/collaboration/shared-mailboxes/shared-mailboxes).|
-|**Aktueller Benutzer**|Jeder sendet E-Mails von dem Konto, bei dem er sich angemeldet hat in [!INCLUDE[prod_short](includes/prod_short.md)].|Ermöglichen Sie die Kommunikation von einzelnen Konten.|
+|**Microsoft 365-Konnektor**|Jeder sendet E-Mails von einem freigegebenen Postfach in Exchange Online.|Wenn beispielsweise alle Nachrichten aus derselben Abteilung stammen, sendet Ihre Verkaufsorganisation Nachrichten von einem sales@cronus.com-Konto. Diese Option erfordert, dass Sie ein freigegebenes Postfach im Microsoft 365 Admin Center einrichten. Weitere Informationen finden Sie unter [Freigegebene Postfächer](/Exchange/collaboration/shared-mailboxes/shared-mailboxes).|
+|**Konnektor für aktuellen Benutzer**|Jeder sendet E-Mails von dem Konto, bei dem er sich angemeldet hat in [!INCLUDE[prod_short](includes/prod_short.md)].|Ermöglichen Sie die Kommunikation von einzelnen Konten.|
 |**Andere (SMTP)**|Verwenden Sie SMTP-Protokoll zum Senden von E-Mails.|Ermöglichen Sie die Kommunikation über Ihren SMTP-Mailserver. |
 
 > [!NOTE]
-> Die Erweiterungen **Microsoft 365** und **Aktueller Benutzer** verwenden die Konten, die Sie für Benutzer im Microsoft 365 Admin Center für Ihr Microsoft 365-Abonnement eingerichtet haben. Um E-Mails mit den Erweiterungen senden zu können, müssen Benutzer über eine gültige Lizenz für Exchange Online verfügen. 
+> Die Erweiterungen **Microsoft 365-Konnektor** und **Aktueller Benutzer-Konnektor** verwenden die Konten, die Sie für Benutzer im Microsoft 365 Admin Center für Ihr Microsoft 365-Abonnement eingerichtet haben. Um E-Mails mit den Erweiterungen senden zu können, müssen Benutzer über eine gültige Lizenz für Exchange Online verfügen. Darüber hinaus erfordern diese Erweiterungen, dass die Einstellung **HttpClient-Anfragen zulassen** aktiviert ist. Um zu überprüfen, ob es für diese Erweiterungen aktiviert ist, gehen Sie zur Seite **Erweiterungsverwaltung**, wählen Sie die Erweiterung und dann die Option **Konfigurieren** aus.
 >
-> Darüber hinaus können externe Benutzer wie delegierte Administratoren und externe Buchhalter diese Erweiterungen nicht zum Senden von E-Mail-Nachrichten über [!INCLUDE[prod_short](includes/prod_short.md)] verwenden.
+> Externe Benutzer wie delegierte Administratoren und externe Buchhalter können diese Erweiterungen nicht zum Senden von E-Mail-Nachrichten über [!INCLUDE[prod_short](includes/prod_short.md)] verwenden.
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4JsUk]
 
 ## <a name="legacy-smtp-settings-and-the-email---smtp-connector-extension"></a>Ältere SMTP-Einstellungen und die E-Mail-SMTP-Connector-Erweiterung
-Wenn Sie bereits [!INCLUDE[prod_short](includes/prod_short.md)] verwenden und E-Mails über die ältere SMTP-Einrichtung konfiguriert haben, können Sie Ihre Einrichtung parallel zur Erweiterung E-Mail – SMTP Connector weiter verwenden. Wenn wir Ihre [!INCLUDE[prod_short](includes/prod_short.md)] in der nächsten Release-Version aktualisieren, kopieren wir Ihre alten SMTP-Einstellungen in die Erweiterung Email – SMTP Connector. Wenn Sie fertig sind, kann Ihr Administrator die erweiterten E-Mail-Funktionen aktivieren und Sie verwenden die Erweiterung E-Mail – SMTP Connector. Weitere Informationen hierzu finden Sie unter [Funktionsverwaltung](/dynamics365/business-central/dev-itpro/administration/feature-management#about-feature-management). Es gibt jedoch keine Synchronisation zwischen der SMTP Connector-Erweiterung und den Legacy-Einstellungen. Wenn Sie die SMTP-Einstellungen in der Erweiterung ändern, sollten Sie dieselben Änderungen in der alten SMTP-Einrichtung vornehmen oder umgekehrt.
+Wenn Sie die alte SMTP-Einrichtung in [!INCLUDE[prod_short](includes/prod_short.md)] verwenden, ist dies weiterhin parallel mit der E-Mail-SMTP-Konnektor-Erweiterung möglich. Wenn wir Ihre [!INCLUDE[prod_short](includes/prod_short.md)] in der nächsten Release-Version aktualisieren, kopieren wir Ihre alten SMTP-Einstellungen in die Erweiterung Email – SMTP Connector. Wenn Sie fertig sind, kann Ihr Administrator die erweiterten E-Mail-Funktionen aktivieren und Sie verwenden die Erweiterung E-Mail – SMTP Connector. Weitere Informationen hierzu finden Sie unter [Funktionsverwaltung](/dynamics365/business-central/dev-itpro/administration/feature-management#about-feature-management). Es gibt jedoch keine Synchronisation zwischen der SMTP Connector-Erweiterung und den Legacy-Einstellungen. Wenn Sie die SMTP-Einstellungen in der Erweiterung ändern, sollten Sie dieselben Änderungen in der alten SMTP-Einrichtung vornehmen oder umgekehrt.
 
 > [!NOTE]
 > Wenn Sie Anpassungen haben, die auf der alten SMTP-E-Mail-Einrichtung basieren, besteht die Möglichkeit, dass bei Ihren Anpassungen ein Fehler auftritt, wenn Sie E-Mail-Erweiterungen verwenden. Wir empfehlen, dass Sie die Erweiterungen einrichten und testen, bevor Sie den Funktionsschalter für erweiterte E-Mail-Funktionen aktivieren.
@@ -75,7 +75,7 @@ Die unterstützte Einrichtungsanleitung für das **Einrichten von E-Mails** kann
 
 is this still true?-->
 ## <a name="assign-email-scenarios-to-email-accounts"></a>Weisen Sie E-Mail-Konten E-Mail-Szenarien zu
-E-Mail-Szenarien sind Prozesse, bei denen ein Dokument wie ein Verkaufsdokument oder eine Bestellung oder eine Benachrichtigung wie eine Einladung an einen externen Buchhalter gesendet wird. Sie können bestimmte E-Mail-Konten für bestimmte Szenarien verwenden. Beispielsweise können Sie festlegen, dass alle Benutzer Verkaufsdokumente immer von einem Konto senden, Dokumente von einem anderen kaufen und Lager- oder Produktionsdokumente von einem dritten Konto aus senden. Sie können Szenarien jederzeit zuweisen, neu zuweisen und entfernen, aber Sie können jeweils nur einem E-Mail-Konto ein Szenario zuweisen. Das Standardkonto für E-Mail wird für alle E-Mail-Szenarien verwendet, die keinem Konto zugewiesen sind.
+E-Mail-Szenarien sind Prozesse, bei denen ein Dokument gesendet wird. Beispielsweise eine Einkaufsbestellung oder ein Verkaufsauftrag oder eine Benachrichtigung wie eine Einladung an einen externen Buchhalter. Sie können bestimmte E-Mail-Konten für bestimmte Szenarien verwenden. Beispielsweise können Sie festlegen, dass alle Benutzer Verkaufsdokumente immer von einem Konto senden, Dokumente von einem anderen kaufen und Lager- oder Produktionsdokumente von einem dritten Konto aus senden. Sie können Szenarien jederzeit zuweisen, neu zuweisen und entfernen, aber Sie können jeweils nur einem E-Mail-Konto ein Szenario zuweisen. Das Standardkonto für E-Mail wird für alle E-Mail-Szenarien verwendet, die keinem Konto zugewiesen sind.
  
 <!--
 ## To set up email
@@ -90,6 +90,19 @@ E-Mail-Szenarien sind Prozesse, bei denen ein Dokument wie ein Verkaufsdokument 
 
 -->
 
+## <a name="set-up-view-policies"></a>Anzeigerichtlinien einrichten
+Sie können die E-Mail-Nachrichten steuern, die ein Benutzer auf den Seiten „E-Mail-Ausgang“ und „Gesendete E-Mails“ anzeigen kann.
+
+Wählen Sie unter **Benutzer-E-Mail-Ansichtsrichtlinien** einen Benutzer und dann eine der folgenden Optionen im Feld **E-Mail-Ansichtsrichtlinie** aus:
+
+* **Eigene E-Mails anzeigen** – Der Benutzer kann nur seine eigenen E-Mail-Nachrichten anzeigen.
+* **Alle E-Mails anzeigen** – Der Benutzer kann alle E-Mail-Nachrichten anzeigen, einschließlich E-Mails, die von anderen Benutzern gesendet wurden.
+* **Ansicht, wenn Zugriff auf alle verknüpften Datensätze** – Dies ist die standardmäßige Anzeigerichtlinie. Der Benutzer kann E-Mail-Nachrichten anzeigen, die andere Benutzer gesendet haben, wenn der Benutzer Zugriff auf den gesendeten Datensatz und alle zugehörigen Datensätze hat. Beispiel: Benutzer A hat eine gebuchte Verkaufsrechnung an einen Kunden gesendet. Benutzer B kann die E-Mail-Nachricht anzeigen, wenn er sowohl Zugriff auf die Rechnung als auch auf den Kunden hat.
+* **Ansicht, wenn Zugriff auf zugehörige Datensätze** – Der Benutzer kann E-Mail-Nachrichten anzeigen, die von anderen Personen gesendet wurden, wenn der Benutzer Zugriff auf mindestens einen Datensatz hat, der sich auf den gesendeten Datensatz bezieht. Beispiel: Benutzer A hat eine gebuchte Verkaufsrechnung an einen Kunden gesendet. Benutzer B kann die E-Mail-Nachricht anzeigen, wenn er entweder Zugriff auf die Rechnung oder auf den Kunden hat.
+
+> [!NOTE]
+>  Wenn Sie das Feld **Benutzer-ID** leer lassen und dann die Aktion „E-Mail-Anzeigerichtlinie“ auswählen, gilt die von Ihnen definierte Richtlinie für alle Benutzer.
+
 ## <a name="set-up-reusable-email-texts-and-layouts-for-sales-and-purchase-documents"></a>Richten Sie wiederverwendbare E-Mail-Texte und Layouts für Verkaufs- und Einkaufsbelege ein
 Sie können Berichte verwenden, um wichtige Informationen aus Verkaufs- und Kaufdokumenten in Texte für E-Mails aufzunehmen. In diesem Verfahren wird beschrieben, wie Sie den Bericht **Verkaufsrechnung** für gebuchte Verkaufsrechnungen einrichten, aber der Prozess ist für andere Berichte ähnlich.
 
@@ -99,14 +112,14 @@ Sie können Berichte verwenden, um wichtige Informationen aus Verkaufs- und Kauf
 4. Wählen Sie das Kontrollkästchen **Für E-Mail-Text verwenden**.
 5. Wählen Sie das Feld **E-Mail-Text-Layout-Beschreibung** und ein Layout aus der Liste aus.
 
-    Berichtslayouts definieren das Format und den Inhalt des E-Mail-Texts, einschließlich den Standardtext, wie Anrede oder Anweisungen, die den Dokumentinformationen vorangehen. Wenn Ihre Organisation verschiedene Layouts hat, können Sie alle verfügbaren Berichtslayouts sehen, wenn Sie die Schaltfläche **Aus vollständiger Liste auswählen** auswählen.
+    Berichtslayouts definieren den Stil und den Inhalt des Textes in der E-Mail. Dazu gehören Texte wie eine Begrüßung oder Anweisungen, die den Dokumenteninformationen vorangestellt sind. Wenn Ihre Organisation verschiedene Layouts hat, können Sie **Aus vollständiger Liste auswählen** auswählen, um auf alle verfügbaren Berichtslayouts zuzugreifen.
 6. Um das Layout anzusehen oder zu bearbeiten, auf dem der E-Mail-Text basiert, gehen Sie zur Seite **Benutzerdefinierte Berichtslayouts** und wählen die Aktion **Layout aktualisieren** aus.
-7. Um Ihren Debitoren anzubieten, für Verkäufe unter Verwendung eines Zahlungsservice wie PayPal elektronisch zu bezahlen, können Sie die Paypal-Informationen und Links auch in den E-Mail-Text einfügen. Weitere Informationen finden Sie unter [Aktivieren Sie Debitoren-Zahlung durch PayPal](sales-how-enable-payment-service-extensions.md)
+7. Wenn Sie Kunden die Verwendung eines Zahlungsdienstes wie PayPal ermöglichen möchten, müssen Sie den Dienst einrichten. Anschließend werden die PayPal-Informationen und der Link in den E-Mail-Text eingefügt. Weitere Informationen finden Sie unter [Aktivieren Sie Debitoren-Zahlung durch PayPal](sales-how-enable-payment-service-extensions.md)
 8. Wählen Sie die Schaltfläche **OK** aus.
 
 Wenn Sie jetzt beispielsweise die Aktion **Senden** auf der Seite **Gebuchte Verkaufsrechnung** auswählen, enthält der E-Mail-Text die Beleginformationen 1306 des Berichts, der vom formatierten Standardtext entsprechend dem Berichtslayout stammt, das Sie in Schritt 5 ausgewählt haben.
 
-## <a name="using-a-substitute-sender-address-on-outbound-email-messages"></a>Verwenden eine Ersatz-Absenderadresse für ausgehende E-Mail-Nachrichten
+## <a name="use-a-substitute-sender-address-on-outbound-email-messages"></a>Eine Ersatz-Absenderadresse für ausgehende E-Mail-Nachrichten verwenden
 Wenn Sie die früheren SMTP-Einstellungen verwenden, können Sie jedoch die **Senden Als** oder **Senden im Auftrag von** Funktionen von Microsoft Exchange zum Ändern der Absenderadresse für ausgehende Nachrichten verwenden. [!INCLUDE[prod_short](includes/prod_short.md)] verwendet das SMTP- Konto zur Authentifizierung bei Exchange, ersetzt jedoch entweder die Absenderadresse durch die von Ihnen angegebene oder ändert sie durch im Namen von.
 
 Im Folgenden finden Sie Beispiele für die Verwendung von Senden als und Senden im Namen von [!INCLUDE[prod_short](includes/prod_short.md)]:
@@ -136,14 +149,14 @@ Im Folgenden finden Sie Beispiele für die Verwendung von Senden als und Senden 
 > [!INCLUDE[prod_short](includes/prod_short.md)] legt fest, welche Adresse in der folgenden Reihenfolge angezeigt werden soll: <br><br> 1. Die Adrsse, die im Feld **E-Mail** auf der Seite **Genehmigungsbenutzer einrichten** für Nachrichten in einem Workflow angegeben ist. <br> 2. Die Adresse im Feld **Senden Als** auf der Seite **SMTP-E-Mail-Setup** einrichten. <br> 3. Die Adresse im Feld **Benutzeer-ID** auf der Seite **SMTP-E-Mail einrichten**.
 
 ## <a name="set-up-document-sending-profiles"></a>Belegsendeprofile einrichten
-Sie können für jeden Ihrer Kunden eine bevorzugte Methode zum Senden von Verkaufsunterlagen einrichten, damit Sie nicht jedes Mal, wenn Sie ein Dokument senden, eine Versandoption auswählen müssen, z. B. ob Sie das Dokument per E-Mail oder als elektronisches Dokument senden möchten. Weitere Informationen finden Sie unter [Einrichten von Sendeprofilen](sales-how-setup-document-send-profiles.md).
+Sie können Zeit sparen, indem Sie für jeden Ihrer Kunden eine bevorzugte Methode zum Senden von Verkaufsbelegen einrichten. In diesem Fall müssen Sie nicht jedes Mal, wenn Sie ein Dokument senden, eine Sendeoption auswählen, z. B. ob das Dokument per E-Mail oder als elektronisches Dokument gesendet werden soll. Weitere Informationen finden Sie unter [Einrichten von Belegsendeprofilen](sales-how-setup-document-send-profiles.md).
 
-## <a name="set-up-public-folders-and-rules-for-email-logging-in-exchange-online"></a>Öffentliche Ordner und Regeln für die E-Mail-Anmeldung in Exchange Online einrichten
+## <a name="optional-set-up-email-logging-in-exchange-online"></a>Optional: E-Mail-Protokollierung in Exchange Online einrichten
 Machen Sie mehr aus der Kommunikation zwischen Verkäufern und Ihren bestehenden oder potenziellen Kunden, indem Sie den E-Mail-Austausch nachverfolgen und diese dann in umsetzbare Gelegenheiten umwandeln. Weitere Informationen finden Sie unter [Austausch von E-Mail-Nachrichten zwischen Verkäufern und Kontakten nachverfolgen](marketing-set-up-email-logging.md).  
-
+<!--
 [!INCLUDE[admin-setup-email-public-folder](includes/admin-setup-email-public-folder.md)]
 
-Als nächstes verbinden Sie [!INCLUDE[prod_short](includes/prod_short.md)] mit Exchange Online. Weitere Informationen finden Sie unter [Austausch von E-Mail-Nachrichten zwischen Verkäufern und Kontakten nachverfolgen](marketing-set-up-email-logging.md).  
+Next, you connect [!INCLUDE[prod_short](includes/prod_short.md)] with Exchange Online. For more information, see [Track Email Message Exchanges Between Salespeople and Contacts](marketing-set-up-email-logging.md).  -->
 
 ## <a name="setting-up-email-for-business-central-on-premises"></a>Einrichten von E-Mails für Business Central lokal 
 [!INCLUDE[prod_short](includes/prod_short.md)] lokal kann mit Services integriert werden, die auf Microsoft Azure basieren. Zum Beispiel können Sie Cortana Intelligence für intelligentere Cashflow-Prognosen verwenden, Power BI, um Ihr Geschäft zu visualisieren und Exchange Online zum Versenden von E-Mails. Die Integration mit diesen Diensten basiert auf einer App-Registrierung in Azure Active Directory. Die App-Registrierung bietet Authentifizierungs- und Autorisierungsdienste für die Kommunikation. So verwenden Sie die E-Mail-Funktionen in [!INCLUDE[prod_short](includes/prod_short.md)] lokal, Sie müssen Sie [!INCLUDE[prod_short](includes/prod_short.md)] als App im Azure-Portal registrieren und dann [!INCLUDE[prod_short](includes/prod_short.md)] mit der App-Registrierung verwenden. In den folgenden Abschnitten werden diese Schritte beschrieben.
@@ -219,8 +232,8 @@ Nachdem Sie Ihre Anwendung im Azure-Portal registriert haben, klicken Sie auf [!
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Einrichten [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Dokumente per E-Mail versenden](ui-how-send-documents-email.md)  
-[Anpassen [!INCLUDE[prod_short](includes/prod_short.md)] Erweiterungen nutzen](ui-extensions.md)  
-[Nutzen von [!INCLUDE[prod_short](includes/prod_short.md)] als Ihr Unternehmenspostfach in Outlook](admin-outlook.md)  
+[Anpassen von [!INCLUDE[prod_short](includes/prod_short.md)] über Erweiterungen](ui-extensions.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] als Ihr Unternehmenspostfach in Outlook verwenden](admin-outlook.md)  
 [Erhalten von [!INCLUDE[prod_short](includes/prod_short.md)] auf meinem mobilen Gerät](install-mobile-app.md)
 [Erhalten von [!INCLUDE[prod_short](includes/prod_short.md)] auf meinem mobilen Gerät](install-mobile-app.md)
 [Analysieren der E-Mail-Telemetrie (Verwaltungsinhalt)](/dynamics365/business-central/dev-itpro/administration/telemetry-email-trace)  

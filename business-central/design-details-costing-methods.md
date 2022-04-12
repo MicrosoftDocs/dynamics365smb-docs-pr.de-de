@@ -1,20 +1,20 @@
 ---
-title: Designdetails – Kalkulationsmethoden
+title: 'Designdetails: Kostenberechnungsmethoden'
 description: Dieses Thema beschreibt, wie sich die Kalkulationsmethode darauf auswirkt, wie Ist- und Planwerte kapitalisiert und in der Kostenkalkulation verwendet werden.
-author: brentholtorf
+author: bholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 30, 31, 8645
-ms.date: 06/14/2021
+ms.search.keywords: ''
+ms.date: 03/24/2022
 ms.author: bholtorf
-ms.openlocfilehash: c7c8106ff5e38efd35b361fcccc8ebd88602a475
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 2bf45ab89aaeb9aa9560fd1e1d9ff94bf47cc453
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383347"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519804"
 ---
 # <a name="design-details-costing-methods"></a>Designdetails: Kostenberechnungsmethoden
 
@@ -35,7 +35,7 @@ Die folgenden Methoden werden in [!INCLUDE[prod_short](includes/prod_short.md)] 
 
 Die folgenden Bild zeigt, wie Kosten für jede Kostenbewertungsmethode den Bestand durchlaufen.  
 
- ![Kalkulationsmethoden.](media/design_details_inventory_costing_7_costing_methods.png "Lagerabgangsmethoden")  
+![Kalkulationsmethoden visualisiert.](media/design_details_inventory_costing_7_costing_methods.png "Kalkulationsmethoden visualisiert")  
 
 Kostenberechnungsmethoden unterscheiden sich in der Art, wie sie Lagerabgänge bewerten und dahingehend, ob sie Ist-Kosten oder Standardkosten als Bewertungsbasis verwenden. Die verschiedenen Eigenschaften werden in der folgenden Tabelle beschrieben. (Die LIFO-Methode ist ausgeschlossen, da diese der FIFO-Methode sehr ähnlich ist)  
 
@@ -64,31 +64,17 @@ Die folgende Tabelle zeigt die Bestandserhöhungen und -minderungen, auf denen d
 > [!NOTE]  
 > Die resultierende Menge im Bestand ist Null. Aus diesem Grund muss der Lagerwert, unabhängig von der Kostenberechnungsmethode, auch Null sein.  
 
-### <a name="effect-of-costing-methods-on-valuing-inventory-increases"></a>Auswirkungen der Kostenbewertungsmethoden auf die Bewertung von Lagerzugängen
+### <a name="effect-of-costing-methods-on-valuing-inventory-increases"></a>Auswirkungen der Kostenbewertungsmethoden auf die Bewertung von Lagerzugängen  
 
-- **FIFO**/**LIFO**/**Durchschnitt**/**Spezifisch**  
-
-    Für Artikel mit Kostenberechnungsmethoden, die die Ist-Kosten als Bewertungsbasis verwenden (**FIFO**, **LIFO**, **Durchschnitt** oder **Spezifisch**) werden Bestandserhöhungen anhand der Anschaffungskosten des Artikels bewertet.  
-
-    Die nachstehende Tabelle zeigt, wie Bestandsminderungen für alle Kostenberechnungsmethoden, mit Ausnahme von **Standard**, bewertet werden.  
-
-    |Buchungsdatum|Menge|Einstandsbetrag (tatsächl.)|Lfd. Nr.|  
-    |------------------|--------------|----------------------------|---------------|  
-    |01-01-20|1|10,00|1|  
-    |01-01-20|1|20,00|2|  
-    |01-01-20|1|30,00|3|  
+Für Artikel mit Kostenberechnungsmethoden, die die Ist-Kosten als Bewertungsbasis verwenden (**FIFO**, **LIFO**, **Durchschnitt** oder **Spezifisch**) werden Bestandserhöhungen anhand der Anschaffungskosten des Artikels bewertet.  
 
 - **Standard**  
 
     Bei der Lagerabgangsmethode **Standard** werden Lagerzugänge mit den aktuellen Standardkosten des Artikels bewertet.  
 
-    Die nachstehende Tabelle zeigt, wie Bestandserhöhungen für die Kostenberechnungsmethode **Standard** bewertet werden.  
+#### <a name="standard"></a>Standard  
 
-    |Buchungsdatum|Menge|Einstandsbetrag (tatsächl.)|Lfd. Nr.|  
-    |------------------|--------------|----------------------------|---------------|  
-    |01-01-20|1|15.00|1|  
-    |01-01-20|1|15.00|2|  
-    |01-01-20|1|15.00|3|  
+Bei der Lagerabgangsmethode **Standard** werden Lagerzugänge mit den aktuellen Standardkosten des Artikels bewertet.  
 
 ### <a name="effect-of-costing-methods-on-valuing-inventory-decreases"></a>Auswirkungen der Kostenbewertungsmethoden auf die Bewertung von Lagerabgängen
 
@@ -96,9 +82,9 @@ Die folgende Tabelle zeigt die Bestandserhöhungen und -minderungen, auf denen d
 
     Für Artikel mit der Kostenberechnungsmethode **FIFO** werden Artikel, die zuerst eingekauft wurden, immer zuerst verkauft (in diesem Beispiel die Postennummern 3, 2 und 1). Entsprechend gilt: Lagerabgänge werden durch den Wert des ersten Lagerzugangs bewertet.  
 
-    Lagerverbrauch wird mithilfe des Werts der ersten Bestandsdatenerfassungen berechnet.  
+     Lagerverbrauch wird mithilfe des Werts der ersten Bestandsdatenerfassungen berechnet.  
 
-    Die nachstehende Tabelle zeigt, wie Bestandsminderungen für die Kostenberechnungsmethode **FIFO** bewertet werden.  
+     Die nachstehende Tabelle zeigt, wie Bestandsminderungen für die Kostenberechnungsmethode **FIFO** bewertet werden.  
 
     |Buchungsdatum|Menge|Einstandsbetrag (tatsächl.)|Lfd. Nr.|  
     |------------------|--------------|----------------------------|---------------|  
@@ -110,12 +96,12 @@ Die folgende Tabelle zeigt die Bestandserhöhungen und -minderungen, auf denen d
 
     Für Artikel mit der Kostenberechnungsmethode **LIFO** werden Artikel, die zuletzt eingekauft wurden, immer zuerst verkauft (in diesem Beispiel die Postennummern 3, 2 und 1). Entsprechend gilt: Lagerabgänge werden durch den Wert des letzten Lagerzugangs bewertet.  
 
-    Lagerverbrauch wird mithilfe des Werts der neuesten Bestandsdatenerfassungen berechnet.  
+     Lagerverbrauch wird mithilfe des Werts der neuesten Bestandsdatenerfassungen berechnet.  
 
-    Die nachstehende Tabelle zeigt, wie Bestandsminderungen für die Kostenberechnungsmethode **LIFO** bewertet werden.  
+     Die nachstehende Tabelle zeigt, wie Bestandsminderungen für die Kostenberechnungsmethode **LIFO** bewertet werden.  
 
     |Buchungsdatum|Menge|Einstandsbetrag (tatsächl.)|Lfd. Nr.|  
-    |------------------|--------------|----------------------------|---------------|  
+    |------------|--------|--------------------|---------|  
     |02-01-20|-1|-30.00|4|  
     |03-01-20|-1|-20.00|5|  
     |04-01-20|-1|-10.00|6|  
@@ -124,13 +110,13 @@ Die folgende Tabelle zeigt die Bestandserhöhungen und -minderungen, auf denen d
 
     Die Lagerabgangsmethode **Durchschnitt** bewertet einen Lagerabgang, indem sie den gewogenen Durchschnitt des verbleibenden Lagerbestandes zum Bewertungsdatum auf den Lagerabgang überträgt. Weitere Informationen finden Sie unter [Designdetails: Durchschnittliche Kosten](design-details-average-cost.md)  
 
-    Die nachstehende Tabelle zeigt, wie Bestandsminderungen für die Kostenberechnungsmethode **Durchschnitt** bewertet werden.  
+     Die nachstehende Tabelle zeigt, wie Bestandsminderungen für die Kostenberechnungsmethode **Durchschnitt** bewertet werden.  
 
-    |Buchungsdatum|Menge|Einstandsbetrag (tatsächl.)|Lfd. Nr.|  
-    |------------------|--------------|----------------------------|---------------|  
-    |02-01-20|-1|-20.00|4|  
-    |03-01-20|-1|-20.00|5|  
-    |04-01-20|-1|-20.00|6|  
+    | Buchungsdatum | Menge | Einstandsbetrag (tatsächl.) | Lfd. Nr. |
+    |--|--|--|--|
+    | 02-01-20 | -1 | -20.00 | 4 |
+    | 03-01-20 | -1 | -20.00 | 5 |
+    | 04-01-20 | -1 | -20.00 | 6 |
 
 - **Standard**  
 
@@ -160,13 +146,13 @@ Die folgende Tabelle zeigt die Bestandserhöhungen und -minderungen, auf denen d
 
 ## <a name="see-also"></a>Siehe auch
 
-[Designdetails: Lagerkostenberechnung](design-details-inventory-costing.md)   
-[Designdetails: Abweichung](design-details-variance.md)   
-[Designdetails: Durchschnittskosten](design-details-average-cost.md)   
-[Designdetails: Artikelausgleich](design-details-item-application.md)  
-[Verwalten der Lagerregulierung](finance-manage-inventory-costs.md)  
-[Finanzen](finance.md)  
-[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+ [Designdetails: Lagerkostenberechnung](design-details-inventory-costing.md)   
+ [Designdetails: Abweichung](design-details-variance.md)   
+ [Designdetails: Durchschnittskosten](design-details-average-cost.md)   
+ [Gestaltungsdetails: Element Anwendung](design-details-item-application.md)  
+ [Verwalten der Bestandsregulierung](finance-manage-inventory-costs.md)  
+ [Finanzen](finance.md)  
+ [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

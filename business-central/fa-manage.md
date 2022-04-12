@@ -10,12 +10,12 @@ ms.search.keywords: machinery, buildings
 ms.search.form: 5604, 5606, 5664, 5601, 5602, 5658, 5603, 5671, 5641, 5629, 5633, 5634, 5649, 5622, 5650
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 5ecdd01a4018af64d4530464f73c5982c98fd2de
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: 71a05e36075dfcfd7384b0e4c055e955dbfda3c4
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8366584"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8510984"
 ---
 # <a name="managing-fixed-assets"></a>Verwalten von Anlagen
 
@@ -56,7 +56,7 @@ Das folgende Video behandelt die Grundlagen des Anlagevermögens.
 [Anlagen einrichten](fa-setup.md)  
 [Ändern, welche Funktionen angezeigt werden](ui-experiences.md)  
 [Finanzen](finance.md)  
-[Vorbereitung für die Geschäftstätigkeit](ui-get-ready-business.md)  
+[Vorbereiten auf die Geschäftsabwicklung](ui-get-ready-business.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

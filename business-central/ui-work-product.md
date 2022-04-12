@@ -6,17 +6,17 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.search.form: RoleExplorer, 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 48efb839720832ffdcfdb390aed64108c032704b
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.openlocfilehash: 0f5910932e0a6bccaf31629fc182e5c451ec9f43
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323058"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516510"
 ---
-# <a name="working-with-prod_short"></a>Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="work-with-prod_short"></a>Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Beim Ausführen von Geschäftsaufgaben entsteht auf verschiedene Art und Weise eine Interaktion mit Daten, beispielsweise durch das Erstellen von Datensätzen und die Eingabe von Daten, durch Sortieren und Filtern von Daten, durch Schreiben von Notizen und durch die Ausgabe von Daten in andere Anwendungen.
 
@@ -43,7 +43,7 @@ Die folgende Tabelle enthält die allgemeinen Funktionalitäten mit Links zu den
 | Filtern von Daten in den Ansichten, in Berichten oder in den Funktionen, indem Sie Sonderzeichen und Zeichen verwenden. |[Sortieren, Durchsuchen und Filtern von Listen](ui-enter-criteria-filters.md) |
 |Lernen Sie die Vielzahl an allgemeinen Funktionen kennen, die Ihnen dabei helfen, Daten schnell und einfach einzugeben.|[Eingeben von Daten](ui-enter-data.md)|
 |Erfahren Sie, wie Sie Daten schnell kopieren und einfügen können, inklusive mithilfe von Tastenkombinationen.|[Kopieren und Einfüge FAQ](faq-copy-paste.yml)|
-| Anzeigen oder bearbeiten Sie Daten in bestimmten Zeiträumen. |[Arbeiten mit Datumsangaben und Uhrzeiten in Kalendern](ui-enter-date-ranges.md) |
+| Anzeigen oder bearbeiten Sie Daten in bestimmten Zeiträumen. |[Mit Datumsangaben und Uhrzeiten in Kalendern arbeiten](ui-enter-date-ranges.md) |
 | Diese Felder müssen ausgefüllt werden. |[Pflichtfelder erkennen](ui-mandatory-fields.md) |
 |Verstehen Sie, wie das Computergebietsschema die Benutzeroberfläche und die Hilfesite erfasst und die Sprache geändert wird.|[Sprache und Gebiet ändern](about-locale-language.md)|
 |Erfahren Sie, wie Sie mit Excel in [!INCLUDE[prod_short](includes/prod_short.md)] von nahezu überall interagieren können.|[Anzeigen und bearbeiten in Excel](across-work-with-excel.md)|
@@ -51,7 +51,7 @@ Die folgende Tabelle enthält die allgemeinen Funktionalitäten mit Links zu den
 | Grundeinstellungen wie Unternehmen, Arbeitsdaten und Rollencenter ändern. |[Ändern von grundlegenden Einstellungen](ui-change-basic-settings.md) |
 |Erhalten Sie Benachrichtigungen über spezielle Ereignisse oder Statusänderungen, beispielsweise, wenn Sie dabei sind, einen Kunden zu fakturieren, der einen überfälligen Saldo hat.|[Verwalten von Benachrichtigungen](ui-smart-notifications.md)|
 | Ändern Sie, welche und wo Benutzeroberflächenelemente passend zu Ihren Vorlieben angezeigt werden.|[Ihren Arbeitsbereich personalisieren](ui-personalization-user.md) |
-|Definieren, drucken oder speichern Sie Berichte, zeigen Sie sie als Vorschau an, und definieren Sie Stapelverarbeitungen und führen Sie sie aus.|[Arbeiten mit Berichten, Stapelverarbeitungen und XMLports](ui-work-report.md)|
+|Definieren, drucken oder speichern Sie Berichte, zeigen Sie sie als Vorschau an, und definieren Sie Stapelverarbeitungen und führen Sie sie aus.|[Arbeiten mit Berichten, Batchaufträgen und XMLports](ui-work-report.md)|
 | Ein Berichtlayout steuert Inhalt und Format des Berichts, auch, welche Datenfelder eines Berichtsdatasets im Bericht erscheinen und wie sie angeordnet werden, Text-Format, Bilder und mehr.|[Verwaltung von Berichts- und Beleg-Layouts](ui-manage-report-layouts.md) |
 |Erhalten von Informationen über Funktionen und Funktionen, die einfach [!INCLUDE[prod_short](includes/prod_short.md)] verfügbar sind für  Personen mit Behinderungen.|[Eingabehilfe und Tastenkombinationen](ui-accessibility.md)|
 

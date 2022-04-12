@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: c88081d9489e66979e4cfc757a9f5ed317a85b8e
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 37bd1ae61aae45a988ab38f1e25be3f870814f77
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382663"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512888"
 ---
 # <a name="viewing-service-statistics"></a>So zeigen Sie die Servicestatistik an
 Sie können Statistiken nutzen, um Belege zu analysieren und zu bestimmen, wie Sie Ihre Dienstvorgänge verwalten sollen. Sie können Serviceverträge, Artikel, Bestellungen, Rechnungen, Gutschriften und Anfragen analysieren, indem Sie die **Statistik** Aktion auswählen. Für Serviceartikel und Verträge können Sie **Serviceartikel-Trendscape** oder **Servicevertrag-Trendscape** verwenden, um eine Zusammenfassung der Serviceposten für einen bestimmten Serviceartikel angezeigt.   
@@ -62,7 +62,7 @@ Für jede Postenart sind der fakturierte Betrag, der Verbrauchsbetrag, der Einst
 
 * (Fakturierter Betrag - Verbrauch (Kosten)) x 100 / Fakturierter Betrag  
 
-## <a name="using-trendscapes"></a>Trendscapes nutzen
+## <a name="use-trendscapes"></a>Trendscapes nutzen
 Um Serviceartikel und Serviceverträgen stellen die Seiten **Serviceartikel-Trendscape** oder **Servicevertrags-Trendscape** eine Zusammenfassung der Serviceposten in einem Zeitraum für einen bestimmten Serviceartikel oder einen Vertrag. Um das Trendscape anzuzeigen, öffnen Sie den Serviceartikel oder den Servicevertrag, wählen Sie die **Statistik** Aktion aus, und wählen Sie dann **Trendscape** aus.
 
 Wenn Sie mit den Bildlaufleisten den sichtbaren Fensterausschnitt verschieben, werden automatisch die Beträge für das gewählte Intervall berechnet. Alle Beträge aus den Serviceposten werden berechnet. Dabei handelt es sich um Posten, die beim Buchen von Serviceaufträgen oder Servicerechnungen erzeugt wurden.

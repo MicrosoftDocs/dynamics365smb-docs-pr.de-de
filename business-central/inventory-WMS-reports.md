@@ -4,14 +4,15 @@ description: Sehen Sie, welche Bestands- und Lagerberichte und Analysen in der S
 author: AndreiPanko
 ms.topic: conceptual
 ms.search.keywords: reporting
+ms.search.form: Report_707, Report_716, Report_813, Report_1001, Report_5807, Report_5808, Report_5809, Report_7313, Report_7319, Report_7320
 ms.date: 06/01/2021
 ms.author: andreipa
-ms.openlocfilehash: 4c2329313d8678ed33527dd7b4917e839dd87dac
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: e12bace02d46429b6899395b3e792ac498374d6d
+ms.sourcegitcommit: 670d589c6870a01e0655c2da800560ed69d18db2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131717"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "8455540"
 ---
 # <a name="inventory-and-warehouse-reports-and-analytics-in-business-central"></a>Bestands- und Lagerberichte und Analysen in Business Central
 

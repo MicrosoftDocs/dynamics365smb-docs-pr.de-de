@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0ee0720c6fe8f7b64e99344fc277a5c42a0243b9
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: c3e8fea25e921288db80b993ff2911dc7b473fb1
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148148"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523293"
 ---
 # <a name="walkthrough-calculating-work-in-process-for-a-job"></a>Exemplarische Vorgehensweise: Berechnen der WIP für ein Projekt
 
@@ -59,7 +59,7 @@ Mit Projekten können Sie den Verbrauch der Ressourcen Ihres Unternehmens planen
 
 ### <a name="to-calculate-wip"></a>So berechnen Sie die WIP  
 
-1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Aufträge** ein, und wählen Sie dann den zugehörigen Link.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Aufträge** ein, und wählen Sie dann den zugehörigen Link.  
 2.  In der Liste **Projekte** wählen Sie das Projekt **Deerfield** aus, und wählen Sie die **Bearbeiten** Aktion aus. Die Projektkarte wird im Bearbeitungsmodus geöffnet.  
 
      Die WIP kann basierend auf Einstandswert, Verkaufswert, Vertriebskosten, Prozentsatz der Fertigung oder bei Abschluss berechnet werden. In diesem Beispiel verwendet CRONUS das Einstandswertverfahren.  
@@ -91,7 +91,7 @@ Mit Projekten können Sie den Verbrauch der Ressourcen Ihres Unternehmens planen
 
 ### <a name="to-review-wip-warnings"></a>WIP-Warnungen überprüfen  
 
-1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **WIP-Cockpit für Projekte** ein, und wählen Sie dann den entsprechenden Link.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **WIP-Cockpit für Projekte** ein, und wählen Sie dann den entsprechenden Link.  
 2.  Wählen Sie die entsprechende Projekte **Deerfield** und wählen Sie dann die Aktion **Warnung anzeigen** aus.  
 3.  Überprüfen Sie auf der Seite **Job-WIP-Warnungen** die Warnung, die dem Projekt zugeordnet ist.  
 

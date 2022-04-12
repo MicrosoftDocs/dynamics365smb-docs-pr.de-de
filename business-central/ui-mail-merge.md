@@ -9,14 +9,14 @@ ms.workload: na
 ms.search.keywords: document, mail, merge, Word, template, email
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: fe9717f871fdc1db782ceeda4cbad267abddca90
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: afc3391712ca33ae01d916dc4f9ed2421a0451f0
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383427"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519518"
 ---
-# <a name="using-word-templates-for-bulk-communication"></a>Verwenden von Word-Vorlagen für die Kommunikation
+# <a name="use-word-templates-for-bulk-communication"></a>Word-Vorlagen für die Massenkommunikation verwenden
 Microsoft Word-Vorlagen können die Massenkommunikation in Druckform oder per E-Mail mit Entitäten wie Kontakten, Kunden und Kreditoren erleichtern. Sie können beispielsweise Broschüren erstellen, um Debitoren über eine Verkaufskampagne zu informieren, Briefe, um Kreditoren über eine neue Einkaufsrichtlinie zu informieren, oder Einladungen, um Kontakte zu einer bevorstehenden Veranstaltung zu gewinnen.
 
 > [!NOTE]
@@ -55,7 +55,7 @@ Wenn Ihre Word-Vorlage fertig ist, können Sie auf der Seite **Word-Vorlagen** *
 
 Sie können Vorlagen auf eine oder mehrere Entitäten desselben Typs, z.B. einen Kontakt, direkt im Kontext dieser Seite anwenden oder über die Seite Word-Vorlagen, um die Vorlage auf alle Entitäten dieses Typs anzuwenden.
 
-## <a name="using-word-templates-with-email"></a>Word-Vorlagen mit E-Mail verwenden
+## <a name="use-word-templates-with-email"></a>Word-Vorlagen mit E-Mail verwenden
 Sie können Word-Vorlagen verwenden, um E-Mail-Nachrichten mit Inhalten zu versehen. Wenn Sie eine E-Mail verfassen, können Sie die Aktion **Word-Vorlage verwenden** wählen, um den Inhalt einer Vorlage auf die Nachricht anzuwenden. Dies setzt voraus, dass Sie eine oder mehrere Vorlagen für die Entität erstellt haben. Sie können jeweils eine Vorlage verwenden. Wenn Sie zwischen den Vorlagen wechseln, ändert sich die Nachricht so, dass sie den Inhalt der gewählten Vorlage wiedergibt.
 
 Zusätzlich können Sie die Aktion **Datei aus Word-Vorlage hinzufügen** verwenden, um den Inhalt der Vorlage als Datei an die E-Mail anzuhängen. Die Datei wird das Format verwenden, das Sie für die Ausgabe der Vorlage angegeben haben.

@@ -10,12 +10,12 @@ ms.search.keywords: payment journal, print check, vendor payment, customer refun
 ms.search.form: 256, 233, 624, 1228
 ms.date: 07/09/2021
 ms.author: edupont
-ms.openlocfilehash: fa43027481ba7b9eb970182eb62b5e2aa728fb06
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: 8b64ed6fc1342ec5f274b28f5a670bc329555e44
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8367255"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520942"
 ---
 # <a name="record-payments-and-refunds-in-the-payment-journal"></a>Erfassen von Zahlungen und Erstattungen im Zahlungsausgangs Buch.-Blatt
 
@@ -37,7 +37,7 @@ Das Buch.-Blatt ist ein Fibu Buch.-Blatt, das zum Anwenden von Zahlungen optimie
 
 ## <a name="to-make-payments-in-the-payment-journal"></a>Um Zahlungen im Zahlungsausgangs Buch.-Blatt vornehmen
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Zahlungsausgangs Buch.-Blätter** ein und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Zahlungsausgangs Buch.-Blätter** ein und wählen Sie dann den zugehörigen Link.
 2. Öffnen Sie den Buch.-Blattnamen, der mit den Zahlungen dediziert ist.
 3. Wenn Sie wissen, wer zu bezahlen ist, füllen Sie die Felder manuell aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Um die Zahlung mit der entsprechenden Rechnung oder Gutschrift auch anzuwenden, aktivieren Sie **Felder Ausgleich. No.** Feld auf der Seite **Kreditorenpostenausgleich** wählen Sie die relevante Rechnung oder die Gutschrift und dann die Schaltfläche **OK** aus.
@@ -51,7 +51,7 @@ Das Buch.-Blatt ist ein Fibu Buch.-Blatt, das zum Anwenden von Zahlungen optimie
 
 ## <a name="to-issue-a-refund-check"></a>So stellen Sie einen Scheck zur Rückerstattung aus
 
-1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Zahlungsjournale** ein, und wählen Sie dann den entsprechenden Link aus.
+1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten"), geben Sie **Zahlungsjournale** ein, und wählen Sie dann den entsprechenden Link aus.
 2. Wählen Sie im Feld **Belegart** die Option **Rückerstattung**.  
 3. Verwenden Sie im Feld **Externe Belegnummer** diese als Referenz für den Rückerstattungsscheck (z.B. Rücklieferungs-Bestellnummer).  
 4. Wählen Sie im Feld **Kontoart** die Option **Debitor** aus.  

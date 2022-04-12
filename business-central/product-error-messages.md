@@ -5,12 +5,12 @@ author: edupont04
 ms.topic: conceptual
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9b881ee5a4a98e30af3da572600747702a3ebca5
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 75ba3591c676089fd971886fa32284b5aec5715e
+ms.sourcegitcommit: 521735f8e27d8bff2d2dfbe94d240c09dcdaec29
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137627"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "8419312"
 ---
 # <a name="warnings-and-error-messages-in-dynamics-365-business-central"></a>Warnungen und Fehlermeldungen in Dynamics 365 Business Central
 
@@ -20,7 +20,7 @@ Während Ihres Arbeitstages werden möglicherweise Benachrichtigungen in [!INCLU
 
 Die Standardversion von [!INCLUDE [prod_short](includes/prod_short.md)] enthält Beschreibungen für die meisten Felder, Spalten und Aktionen, auf die bei Auswahl des Namens zugegriffen werden kann. In Kombination mit Unterrichtstipps für wichtige Seiten, beschreibenden Beschriftungen und Anweisungstexten sind diese QuickInfos oder Callouts unsere aktuelle Implementierung von *eingebetteter Benutzerunterstützung*. Dies ist ein wichtiges Prinzip in der heutigen Welt des Softwaredesigns.  
 
-Wenn Sie eine Frage zu einem Feld oder einem anderen Element der Benutzeroberfläche haben, wählen Sie den Namen. Eine kurze Beschreibung wird angezeigt. Wählen Sie den Link *Mehr erfahren*, wenn das nicht genug ist.  
+Wenn Sie eine Frage zu einem Feld oder einem anderen Element der Benutzeroberfläche haben, wählen Sie den Namen. Eine kurze Beschreibung wird angezeigt. Wählen Sie den Link *Mehr erfahren*, wenn das nicht genug ist. Sie können auch den produktinternen Hilfebereich verwenden, um Antworten auf Ihre Fragen zu finden.  
 
 Weitere Informationen finden Sie unter [Dynamics 365 Business Central-Benutzerunterstützungsmodell](/dynamics365/business-central/dev-itpro/user-assistance) im Verwaltungsinhalt für [!INCLUDE [prod_short](includes/prod_short.md)].  
 

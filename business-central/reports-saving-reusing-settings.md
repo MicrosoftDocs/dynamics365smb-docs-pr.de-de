@@ -9,16 +9,16 @@ ms.workload: na
 ms.search.keywords: customization, personalization
 ms.date: 12/21/2021
 ms.author: edupont
-ms.openlocfilehash: 0534e2e5d54102d85a7cf49f20fb0a1700ff2012
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 901f3899ef164d3d24dbc5c4e2226b840c97c945
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137185"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522642"
 ---
 # <a name="manage-saved-settings-for-reports-and-batch-jobs"></a>Gespeicherte Einstellungen für Berichte und Batch-Aufträge verwalten
 
-Abhängig vom ausgeführten Bericht, erhalten Benutzer in der Regel eine Seite, für die Sie bestimmte Optionen wählen und Filter festlegen können, um Daten zu ändern, die im erstellten Bericht enthalten sind. Diese Seite wird als *Anforderungsseite* bezeichnet. Ein Bericht kann eine oder mehrere *Gespeicherte Einstellungen* enthalten, die Benutzer auf den Bericht von der Anforderungsseite anwenden können. *Gespeicherte Einstellungen* sind grundsätzlich vordefinierte Optionen und Filter. Die Verwendung von gespeicherten Einstellungen ist eine schnelle und zuverlässige Art, Berichte zu erstellen, die die richtigen Daten enthalten. Weitere Informationen finden Sie unter [Verwendung von Standardwerten - vordefinierte Einstellungen](ui-work-report.md#SavedSettings).
+Abhängig vom ausgeführten Bericht, erhalten Benutzer in der Regel eine Seite, für die Sie bestimmte Optionen wählen und Filter festlegen können, um Daten zu ändern, die im erstellten Bericht enthalten sind. Diese Seite wird als *Anforderungsseite* bezeichnet. Ein Bericht kann eine oder mehrere *Gespeicherte Einstellungen* enthalten, die Benutzer auf den Bericht von der Anforderungsseite anwenden können. *Gespeicherte Einstellungen* sind grundsätzlich vordefinierte Optionen und Filter. Die Verwendung von gespeicherten Einstellungen ist eine schnelle und zuverlässige Art, Berichte zu erstellen, die die richtigen Daten enthalten. Weitere Informationen finden Sie unter [Gespeicherte Einstellungen verwenden](ui-work-report.md#SavedSettings).
 
 > [!NOTE]
 > Dieses Thema bezieht sich auf *Berichte*, aber ähnliche Informationen gelten auch für *Batch-Aufträge*.
@@ -58,5 +58,6 @@ Von der Seite **Berichts-Einstellungen** können Sie:
 ## <a name="see-also"></a>Weitere Informationen
 
 [Arbeiten mit Berichten, Batchaufträgen und XMLports](ui-work-report.md)  
+
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

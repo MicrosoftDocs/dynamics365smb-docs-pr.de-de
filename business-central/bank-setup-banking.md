@@ -10,12 +10,12 @@ ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, link
 ms.search.form: 1200
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 21665191cc2b6dbedc09321fd165ef2fab098fc3
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 95455b4100aa2628fe6f1e2eefdce8c8117f1166
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8139930"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516395"
 ---
 # <a name="setting-up-banking"></a>Einrichten von Banken
 
@@ -27,11 +27,11 @@ Um elektronische Bankdienstleistungen zum Importieren von Bankkontoauszügen und
 | --- | --- |
 | Einrichten von Bankkontokarten für Bankkonten zum Nachverfolgen von Banktransaktionen |[Bankkonten einrichten](bank-how-setup-bank-accounts.md) |
 | Richten Sie einen externen Dienst ein, der es Ihnen ermöglicht, Bankauszüge als Bankfeeds für Zahlungsausgleich und Bankabstimmung zu importieren. |[Den Envestnet Yodlee Bank Feeds Service einrichten](bank-how-setup-bank-statement-service.md) |
-| Richten Sie einen externen Dienst ein, der es Ihnen ermöglicht, Ihre Zahlungen zur Bearbeitung an die Bank zu exportieren und Bankauszüge als Bankdateien zum Zahlungsausgleich und zur Bankabstimmung zu importieren. |[Verwenden der AMC Banking 365 Fundamentals-Erweiterung](ui-extensions-amc-banking.md) |
+| Richten Sie einen externen Dienst ein, der es Ihnen ermöglicht, Ihre Zahlungen zur Bearbeitung an die Bank zu exportieren und Bankauszüge als Bankdateien zum Zahlungsausgleich und zur Bankabstimmung zu importieren. |[AMC Banking 365 Fundamentals-Erweiterung verwenden](ui-extensions-amc-banking.md) |
 
 [!INCLUDE [local-functionality](includes/local-functionality.md)]
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 [Abstimmen von Bankkonten](bank-manage-bank-accounts.md)  
 [Verwalten von Forderungen](receivables-manage-receivables.md)  

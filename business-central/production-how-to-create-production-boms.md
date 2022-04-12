@@ -1,17 +1,17 @@
 ---
 title: Fertigungsauftrag erstellen
 description: Erfahren Sie, wie Sie eine Fertigungsstückliste erstellen, wie Sie neue Versionen einer Fertigungsstückliste erstellen und wie Sie die Mengenberechnungsformel verwenden.
-author: SorenGP
+author: bholtorf
 ms.topic: conceptual
 ms.search.form: 9287, 99000786, 99000787, 99000788, 99000789, 99000795, 99000797, 99000800, 99000809, 99000811, 99000812, 99000818
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: ff4e2068d8ba588b6d92839538df6bfd2ecade24
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 07563e285e6806a1a2010446d4da65fd52c9ed16
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130254"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516900"
 ---
 # <a name="create-production-boms"></a>Fertigungsauftrag erstellen
 
@@ -26,7 +26,7 @@ Bevor Sie einen Arbeitsplan erstellen können, muss Folgendes verfügbar sein:
 
 ## <a name="to-create-a-production-bom"></a>Erstellen Sie eine neue Fertigungsstückliste.
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Produktionsstückliste** ein und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Produktionsstückliste** ein und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die Aktion **Neu** aus.  
 3. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Wenn Sie die Fertigungsstückliste bearbeiten möchten, setzen Sie das Feld **Status** auf **Neu** oder **In Entwicklung**. Um den Arbeitsplan zu aktivieren, setzen Sie das Feld **Status** auf **Zertifiziert**.  
@@ -54,7 +54,7 @@ Neue Versionen von Fertigungsstücklisten werden verwendet, wenn zum Beispiel ei
 
 Das Startdatum bestimmt den Start der Periode, in welcher die Version gültig ist. In allen anderen Fällen ist das Startdatum ein Filterkriterium für Berechnungen und Prüfungen. Die Fertigungsstücklistenversion ist gültig, bis die nächste Version aufgrund ihres Startdatums gültig wird.  
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Produktionsstückliste** ein und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Produktionsstückliste** ein und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die zu kopierende Fertigungsstückliste, und wählen Sie die **Versionen** Aktion aus.  
 3. Wählen Sie die Aktion **Neu** aus.  
 4. Füllen Sie die Felder je nach Bedarf aus.
@@ -85,6 +85,10 @@ Die Beziehung der einzelnen Komponenten wird durch die Formel festgelegt. Folgen
 - **Länge x Breite** - Menge = Länge x Breite x Komponentenmenge  
 - **Länge x Breite x Tiefe** - Menge = Länge x Breite x Tiefe x Komponentenmenge  
 - **Gewicht**- Menge = Gewicht pro Komponentenmenge  
+- **Feste Menge** – Menge = Menge pro
+
+> [!NOTE]
+> Die **Feste Menge**-Berechnungsformel stellt sicher, dass der Verbrauch einer Komponente unabhängig von Ausschuss oder Ausbringungsmengen gleich ist. Wenn das **Berechnungsformel**-Feld für Fertigungsauftragskomponenten auf **Feste Menge** eingestellt ist, ist der **Erwartete Menge**-Feldwert immer gleich dem **Menge pro**-Feld. Der in derselben Zeile definierte Ausschussprozentsatz wird ignoriert. Feste Menge wird vom **Verfügbarkeit nach Stückliste**-Prüfbericht berücksichtigt. Der Bericht zeigt den Artikel als Engpass an, wenn die verfügbare Menge geringer ist als die Menge im **Menge pro übergeordnetem Element**-Feld. Die Felder **Festlegen als übergeord. Element möglich** und **Festlegen als übergeord. Artikel möglich** sind immer leer, unabhängig von der verfügbaren Menge. Feste Menge wird auch in Berechnungen für Standardkosten einbezogen. Die Losgröße für den produzierten Artikel wirkt sich auf die Kosten aus, die einem Artikel zugeordnet werden.
 
 ### <a name="example"></a>Beispiel
 
@@ -96,7 +100,7 @@ In einer Fertigungsstückliste werden siebzig Metallteile mit den Abmessungen L�
 [Produktion einrichten](production-configure-production-processes.md)  
 [Produktion](production-manage-manufacturing.md)    
 [Planung](production-planning.md)   
-[Lagerbestand](inventory-manage-inventory.md)  
+[Bestand](inventory-manage-inventory.md)  
 [Einkauf](purchasing-manage-purchasing.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

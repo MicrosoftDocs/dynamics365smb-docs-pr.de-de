@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: d27ad94c21325808d92b8f71e97a5bb8a484ded5
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f03e67b0205af92fcdbb731a74ffe7f4507c39d3
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142601"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511259"
 ---
 # <a name="viewing-and-editing-in-excel-from-business-central"></a>Anzeigen und Arbeit in Excel aus Business Central
 
@@ -75,11 +75,11 @@ Wenn sich das Add-In aus irgendeinem Grund nicht installieren lässt, wenden Sie
 
 > [!Video https://go.microsoft.com/fwlink/?linkid=2086039]
 
-## <a name="see-related-training-at-microsoft-learn"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe Verwandte Schulungen unter [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
-[Finanzauswertungen analysieren in Microsoft Excel](finance-analyze-excel.md)  
+[Analysieren von Finanzberichten in Microsoft Excel](finance-analyze-excel.md)  
 [Arbeiten mit Business Central](ui-work-product.md)  
 [Verbesserungen der Excel-Integration in der Veröffentlichungswelle 2 von 2019](/dynamics365-release-plan/2019wave2/dynamics365-business-central/enhancements-excel-integration)  
 

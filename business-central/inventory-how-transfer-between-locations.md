@@ -10,12 +10,12 @@ ms.search.keywords: move, warehouse
 ms.search.forms: 5746, 5745, 5759, 5753, 5743, 5758, 5752, 5744, 5749, 5740, 5741, 5742, 5757, 5748, 5747, 9285, 5756, 5755
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b51bd44099c85ae16498e2f40abc86db7134cb1b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 347550073fc4efad89c41f180c3a48747b91d7a7
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148498"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511623"
 ---
 # <a name="transfer-inventory-between-locations"></a>Lagerbestand zwischen Lagerplätzen umlagern
 Sie können Bestandsartikel zwischen Lagerplätzen umlagern, indem Sie Umlagerungsaufträge erstellen. Sie können auch das Einkaufs-Buch.-Blatt verwenden.
@@ -58,13 +58,13 @@ Um Artikel umzulagern, müssen Lagerplätze und Umlagerungsrouten eingerichtet w
     > [!NOTE]  
     >   Um Artikel umzulagern die keinen Lagerortcode haben, belassen Sie das Feld **Lagerortcode** leer.
 4. Im Feld **Neuer Lagerortcode** geben Sie den Lagerplatz ein, an den Sie die Artikel umlagern möchten.
-5. Wählen Sie die Aktion **Buchen** aus.
+5. Wählen Sie die Aktion **Buchen**.
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 [Verwalten des Lagerbestands](inventory-manage-inventory.md)  
 [Einrichten von Lagerorten](inventory-how-setup-locations.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Ändern, welche Merkmale angezeigt werden](ui-experiences.md)  
+[Ändern, welche Funktionen angezeigt werden](ui-experiences.md)  
 [Allgemeine Geschäftsfunktionen](ui-across-business-areas.md)
 
 

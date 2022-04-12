@@ -10,12 +10,12 @@ ms.search.keywords: accountant, accounting, financial report
 ms.search.form: 100, 1156, 1157, 1314, 1315, 1316, 9027
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0f6594ae1e23f4047ff2bd8e44945eaf4284940c
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 538efe22006246cd4e5d78efb7e9678166688274
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142289"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523449"
 ---
 # <a name="accountant-experiences-in-prod_long"></a>Buchhalter-Erfahrung in [!INCLUDE[prod_long](includes/prod_long.md)]
 
@@ -91,7 +91,7 @@ Der Buchhalter erhält eine E-Mail, in der er darüber informiert wird, dass er 
 #### <a name="to-add-the-accountant-to-the-right-company"></a>Hinzufügen des Buchhalters zum richtigen Unternehmen
 
 1. Öffnen Sie das [!INCLUDE[prod_short](includes/prod_short.md)]-Unternehmen, auf die Sie dem Buchhalter Zugriff gewähren möchten unter [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com).
-2. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Benutzer** ein, und wählen Sie dann den entsprechenden Link.  
+2. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Benutzer** ein, und wählen Sie dann den entsprechenden Link.  
 3. Wählen Sie die Aktion **Neue Benutzer von Microsoft 365 abrufen** aus.
 
 Dadurch wird das Benutzerkonto, das Sie im Azure-Portal erstellt haben, in das Unternehmen importiert. Weitere Informationen finden Sie unter [Hinzufügen eines Benutzers in Business Central](ui-how-users-permissions.md#adduser).  
@@ -103,12 +103,12 @@ Wenn Sie mehreren Unternehmen Zugriff gewähren möchten, müssen Sie sich bei j
 [Finanzen](finance.md)  
 [Finanzen einrichten](finance-setup-finance.md)  
 [Die Finanzbuchhaltung und der Kontenplan](finance-general-ledger.md)  
-[Beenden von Jahresabschluss und Perioden](year-close-years-periods.md)  
+[Jahre und Perioden abschließen](year-close-years-periods.md)  
 [Arbeiten mit Dimensionen](finance-dimensions.md)  
 [Finanzauswertungen in Excel analysieren](finance-analyze-excel.md)  
 [Arbeit über mehrere Unternehmen hinweg im Unternehmens-Hub verwalten](company-hub.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Einrichten der Cashflowanalyse](finance-setup-cash-flow-analyses.md)  
+[Cashflow Analyse festlegen](finance-setup-cash-flow-analyses.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

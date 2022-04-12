@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 9000
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 5b27848474f26f92b54169e1d60e8e786a6ab95f
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: fbf2f125f7be6e5baa215092d70f1e13ce9e6b7d
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382153"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513289"
 ---
 # <a name="find-your-warehouse-assignments"></a>Suchen der Lagerzuweisungen
 
@@ -22,7 +22,7 @@ Um Lagerzuweisungen zu suchen, öffnen Sie die Kartenseite für einen ausgewähl
 
 ## <a name="to-find-an-instruction-assigned-to-you"></a>So finden Sie eine Anweisung, die Ihnen zugeordnet wurde:
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Einlagerungen**, **Kommissionierungen** oder **Lagerplatzumlagerungen** ein, und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Einlagerungen**, **Kommissionierungen** oder **Lagerplatzumlagerungen** ein, und wählen Sie dann den entsprechenden Link.
 
     In allen drei Seiten werden Zuweisungen für alle Lagerorte angezeigt.  
 

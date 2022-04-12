@@ -10,12 +10,12 @@ ms.search.keywords: procurement
 ms.search.form: 50 ,51, 53, 56, 146, 147, 9307, 9309, 9306, 9308, 9310
 ms.date: 09/07/2021
 ms.author: edupont
-ms.openlocfilehash: 55cc80b6f03d93dd2a4b92a32260831b52a1176c
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 7af3f2923c3e39d8855c80a954a4c092d4393477
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383163"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517290"
 ---
 # <a name="record-purchases-with-purchase-invoices"></a>Käufe mit Einkaufsrechnungen erfassen
 
@@ -34,7 +34,7 @@ Wenn Sie die Bestandsartikel erhalten oder wenn die gekaufte Dienstleistung abge
 
 Im Folgenden wird beschrieben, wie Sie eine Einkaufsrechnung erstellen. Bei einer Bestellung sind die Schritte ähnlich. Der Hauptunterschied besteht darin, dass Bestellungen zusätzliche Felder und Aktionen für die physische Handhabung von Artikeln haben.
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Einkaufsrechnungen** ein, und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Einkaufsrechnungen** ein, und wählen Sie dann den zugehörigen Link.  
 2. Geben Sie im Feld **Kreditor** den Namen eines vorhandenen Kreditors ein.
 
     Andere Felder auf der Seite **Einkaufsrechnung** werden nun mit den Standardinformationen vom ausgewählten Kreditor ausgefüllt. Wenn der Kreditor noch nicht erfasst wurde, dann führen Sie die folgenden Schritte durch:

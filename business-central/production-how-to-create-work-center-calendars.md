@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 9291, 9293, 9295, 99000750, 99000751, 99000752, 99000753, 99000759, 99000769, 99000770, 99000771, 99000772, 99000920
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: a39df1fc7ccff9d3f4fcfbf76e7d6a57a7801bce
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 4e8c950a402c8bbf650deec10eb7be2679c5eeab
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131327"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516796"
 ---
 # <a name="set-up-shop-calendars"></a>Betriebskalender einrichten
 
@@ -25,7 +25,7 @@ Ein grundlegender Schritt beim Berechnen eines spezifischen Arbeitsplatzgruppenk
 Nachfolgend ist beschrieben, wie ein alternativer Arbeitsplatzkalender eingerichtet wird. Die Schritte sind ähnlich, wenn Sie Arbeitsplatzkalender einrichten.  
 
 ## <a name="to-create-work-shifts"></a>Arbeitsschichten erstellen  
-1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Arbeitsschichten** ein und wählen Sie dann die entsprechende Verknüpfung.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Arbeitsschichten** ein und wählen Sie dann die entsprechende Verknüpfung.  
 2.  Geben Sie in einer leeren Zeile eine Zahl im Feld **Code** ein, um die Schicht zu bestimmen, z. B. **1**.  
 3.  Geben Sie im Feld **Beschreibung** eine Beschreibung der Schicht ein, z. B. **1. Schicht**.  
 4.  Optional füllen Sie Zeilen für eine zweite oder dritte Schicht aus.  
@@ -33,7 +33,7 @@ Nachfolgend ist beschrieben, wie ein alternativer Arbeitsplatzkalender eingerich
 Selbst wenn Ihre Arbeitsplatzgruppen nicht in verschiedenen Schichten arbeiten, geben Sie mindestens einen Schichtcode ein.  
 
 ## <a name="to-set-up-a-shop-calendar"></a>Einen Betriebskalender einrichten  
-1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Betriebskalender** ein und wählen Sie dann den zugehörigen Link.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Betriebskalender** ein und wählen Sie dann den zugehörigen Link.  
 2.  Geben Sie in einer leeren Zeile eine Zahl im Feld **Code** ein, um den Betriebskalender zu bestimmen.  
 3.  Geben Sie im Feld **Beschreibung** eine Beschreibung für den Betriebskalender ein.  
 4.  Wählen Sie die **Arbeitstage** Aktion aus.
@@ -68,7 +68,7 @@ Der Betriebskalender kann nun einer Arbeitsplatzgruppe zugewiesen werden, um ein
 
 ## <a name="to-calculate-a-work-center-calendar"></a>Einen Arbeitsplatzgruppenkalender berechnen  
 
-1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Arbeitsplatzgruppen** ein, und wählen Sie dann den zugehörigen Link.
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Arbeitsplatzgruppen** ein, und wählen Sie dann den zugehörigen Link.
 2. öffnen Sie den Arbeitsplatz, den Sie aktualisieren möchten.  
 3. Wählen Sie im Inforegister Planung im Feld **Betriebskalendercode** den Kalender aus, der in dieser Arbeitsplatzgruppe als Grundlage für einen Arbeitsplatzgruppenkalender verwendet werden soll.  
 4. Wählen Sie die Aktion **Kalender** aus.  

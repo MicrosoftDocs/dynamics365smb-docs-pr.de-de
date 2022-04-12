@@ -8,12 +8,12 @@ ms.search.keywords: SMTP, mail, Microsoft 365, cover, body, PayPal, layout
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e39bd85451406bc835624183a5e65a45935a62ab
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: fdf34ffe09f5a57c45772a58fe6e8e4e9735be11
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8334644"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515251"
 ---
 # <a name="send-documents-and-emails"></a>Senden von Belegen und E-Mails
 
@@ -54,7 +54,7 @@ In diesem Verfahren wird beschrieben, wie Sie eine gebuchte Verkaufsrechnung als
 Sie können E-Mails für Kontakte, Kunden, Lieferanten, Verkäufer/Einkäufer und Bankkonten direkt von den Seiten für diese Entitäten aus verfassen. Wählen Sie einfach **Verarbeiten** und dann **E-Mail senden**, um den E-Mail-Editor zu öffnen. Für Bankkonten finden Sie die Aktion **E-Mail senden** unter **Aktionen**.
 
 > [!TIP]
-> Wenn Sie häufig Nachrichten versenden, die sich ähneln, oder wenn Sie eine Massenkommunikation versenden möchten, z.B. um eine Verkaufskampagne zu bewerben, kann die Verwendung von Word-Vorlagen mit E-Mail den Prozess beschleunigen. Sie können eine Vorlage für Entitäten wie Kunden, Kreditor und Kontakte erstellen, die den Inhalt einer E-Mail-Nachricht für Sie generiert und sogar den Inhalt für den Empfänger anhand der Daten in [!INCLUDE[prod_short](includes/prod_short.md)] personalisiert. Weitere Informationen finden Sie unter [Verwendung von Word-Vorlagen für Massenkommunikation](ui-mail-merge.md).  
+> Wenn Sie häufig Nachrichten versenden, die sich ähneln, oder wenn Sie eine Massenkommunikation versenden möchten, z.B. um eine Verkaufskampagne zu bewerben, kann die Verwendung von Word-Vorlagen mit E-Mail den Prozess beschleunigen. Sie können eine Vorlage für Entitäten wie Kunden, Kreditor und Kontakte erstellen, die den Inhalt einer E-Mail-Nachricht für Sie generiert und sogar den Inhalt für den Empfänger anhand der Daten in [!INCLUDE[prod_short](includes/prod_short.md)] personalisiert. Weitere Informationen finden Sie unter [Word-Vorlagen für Massenkommunikation verwenden](ui-mail-merge.md).  
 
 ## <a name="documents-marked-as-printed-when-they-are-sent"></a>Belege, die beim Senden als gedruckt markiert sind
 

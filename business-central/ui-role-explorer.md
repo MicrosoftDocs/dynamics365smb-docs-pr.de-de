@@ -7,15 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: role explorer, find features, navigate
-ms.search.form: 9020, 9022, 9027, 9018
+ms.search.form: RoleExplorer, 9020, 9022, 9027, 9018
 ms.date: 08/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 485018e4a15f3e8ecb7c19f365d6dd6d06650cdb
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.openlocfilehash: 00831e4109f765f9ae0d275acc3f0c9902e1dae2
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8322903"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512074"
 ---
 # <a name="finding-pages-with-the-role-explorer"></a>Suchen von Seiten mit dem Rollen-Explorer
 

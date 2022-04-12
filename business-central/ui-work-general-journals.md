@@ -10,14 +10,14 @@ ms.search.keywords: journals, recurring, accrual, renumber, bulk-post
 ms.search.form: 39, 101, 102, 182, 184, 185, 201, 207, 250, 251, 253, 255, 256, 261, 262, 283, 519, 750, 751, 752, 753, 754, 755, 12409, 12410, 12411, 1290, 10101, 11400, 11402, 11403, 11405, 11300, 2000000, 2000001, 2000003, 2000020, 2000021, 2000022, 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5e697127998351040cb21c44c8383f1f64581bf4
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 365dae77b153794826681e500a1a753f6f749e55
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381326"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518757"
 ---
-# <a name="working-with-general-journals"></a>Arbeiten mit Fibu Buch.-Blättern
+# <a name="work-with-general-journals"></a>Mit Fibu Buch.-Blättern arbeiten
 
 Die meisten Finanztransaktionen werden in der Finanzbuchhaltung von Geschäftsbelegen wie Einkaufsrechnungen und Verkaufsaufträge gebucht. Sie können auch Geschäftsaktivitäten wie Einkauf, Zahlung, die Verwendung wiederkehrender Buch.-Blätter, um Abgrenzungen zu buchen, oder Rückerstattung von Mitarbeiterausgaben verarbeiten, indem Sie Buch.-Blattzeilen in den verschiedenen Buch.-Blättern in [!INCLUDE[prod_short](includes/prod_short.md)] buchen.  
 
@@ -29,12 +29,12 @@ Aber in vielen Fällen sollten Sie Buchungsblätter verwenden, die für bestimmt
 
 Fibu Buch.-Blätter dienen zum Buchen auf Sachkonten sowie auf andere Konten wie Bank-, Debitoren-, Debitoren- oder Mitarbeiterkonten. Bei der Buchung mit einem Fibu Buch.-Blatt werden immer Posten für Sachkonten erstellt. Dies gilt auch, wenn beispielsweise eine Buch.-Blattzeile auf ein Debitorenkonto gebucht wird, da ein Posten im Rahmen einer Buchungsgruppe auf ein Fibu-Debitorenkonto gebucht wird.
 
-Die in ein Buch.-Blatt eingegebenen Informationen sind temporär und können geändert werden, solange sie sich im Buch.-Blatt befinden. Durch Buchen des Buch.-Blatts werden die Informationen in Posten auf Konten übertragen und können nicht mehr geändert werden. Der Ausgleich gebuchter Posten kann jedoch aufgehoben werden, und Sie haben die Möglichkeit zum Buchen von Storno- oder Korrekturposten. Weitere Informationen finden Sie unter [Buchungen stornieren und Belege/Lieferungen rückgängig machen](finance-how-reverse-journal-posting.md).
+Die in ein Buch.-Blatt eingegebenen Informationen sind temporär und können geändert werden, solange sie sich im Buch.-Blatt befinden. Durch Buchen des Buch.-Blatts werden die Informationen in Posten auf Konten übertragen und können nicht mehr geändert werden. Der Ausgleich gebuchter Posten kann jedoch aufgehoben werden, und Sie haben die Möglichkeit zum Buchen von Storno- oder Korrekturposten. Weitere Informationen finden Sie unter [Erfassungsbuchungen stornieren und Belege/Lieferungen rückgängig machen](finance-how-reverse-journal-posting.md).
 
 > [!NOTE]
 > [!INCLUDE[journal-showhide-columns-inline-tip](includes/journal-showhide-columns-inline-tip.md)]  
 
-## <a name="using-journal-templates-and-batches"></a>Buch-Blattvorlagen und Stapel nutzen
+## <a name="use-journal-templates-and-batches"></a>Buch-Blattvorlagen und -namen verwenden
 
 Es gibt mehrere Fibu Buch.-Blattvorlagen. Jede Buch.-Blattvorlage wird durch eine spezifisches Seite mit bestimmten Funktionen und den Feldern dargestellt, die benötigt werden, um diese Funktionen zu unterstützen, wie die Seite **Zahlungs-Abstimmungs-Buch.-Blatt**, um Bankzahlungen zu verarbeiten, und die Seite **Zahlungsausgangs Buch.-Blatt**, um Ihre Mitarbeiter zu bezahlen. Weitere Informationen finden Sie unter [Zahlungen vornehmen](payables-make-payments.md) und [Abstimmen von Debitoren-Zahlungen mit dem Zahlungseingangs Buch.-Blatt oder von Debitorenposten](receivables-how-apply-sales-transactions-manually.md).
 
@@ -51,7 +51,9 @@ Um Verzögerungen beim Buchen zu vermeiden, können Sie eine Hintergrundüberpr�
 
 Wenn Sie die Überprüfung aktivieren, wird die Infobox **Buch.-Blatt-Prüfung** neben den Buch.-Blattzeilen angezeigt und zeigt Probleme in der aktuellen Zeile und im gesamten Stapel an. Die Überprüfung erfolgt, wenn Sie einen Finanz-Buch.-Blattname laden und eine andere Buch.-Blattzeile auswählen. Die Kachel **Probleme insgesamt** in der Infobox zeigt die Gesamtanzahl von Problemen, die [!INCLUDE[prod_short](includes/prod_short.md)] gefunden hat, und Sie können sie auswählen, um eine Übersicht über die Probleme zu öffnen. 
 
-Sie können die Aktionen **Zeilen mit Problemen anzeigen** und **Alle Zeilen anzeigen** anzeigen, um zwischen Buch.-Blattzeilen umzuschalten, die Probleme haben oder keine. Die neue Infobox **Buch.-Blattzeilendetails** bietet einen schnellen Überblick und Zugriff auf Daten aus Buch.-Blattzeilen, wie z. B. Sachkonto, Debitor oder Kreditor sowie zur Buchungseinrichtung für bestimmte Konten.     
+Sie können die Aktionen **Zeilen mit Problemen anzeigen** und **Alle Zeilen anzeigen** anzeigen, um zwischen Buch.-Blattzeilen umzuschalten, die Probleme haben oder keine. Die neue Infobox **Buch.-Blattzeilendetails** bietet einen schnellen Überblick und Zugriff auf Daten aus Buch.-Blattzeilen, wie z. B. Sachkonto, Debitor oder Kreditor sowie zur Buchungseinrichtung für bestimmte Konten.   
+
+[!INCLUDE [background_doc_journal_check](includes/background_doc_journal_check.md)]  
 
 ### <a name="reversing-journals-to-correct-mistakes"></a>Umkehren von Buch.-Blättern, um Fehler zu korrigieren
 Wenn Sie mit Buch.-Blättern arbeiten, die viele Zeilen haben und etwas schief geht, ist es wichtig, dass sich Fehler leicht korrigieren lassen. Die Seite **Gebuchtes Fibu Buch.-Blatt** bietet eine Reihe von Aktionen, die helfen können.
@@ -73,7 +75,7 @@ Wurden auf der Seite **Fibu Buch.-Blätter** Standardgegenkonten für die Buch.-
 > [!NOTE]  
 > Die MwSt. für Haupt- und Gegenkonto wird getrennt berechnet, damit für die Konten unterschiedliche MwSt.-Prozentsätze verwendet werden können.
 
-## <a name="working-with-recurring-journals"></a>Arbeiten mit wiederkehrenden Buchblättern
+## <a name="work-with-recurring-journals"></a>Mit wiederkehrenden Buchblättern arbeiten
 Bei einem wiederkehrenden Buch.-Blatt handelt es sich um ein Fibu Buch.-Blatt mit speziellen Feldern für die Verwaltung von Transaktionen, die häufig und ohne oder und mit geringen Änderungen gebucht werden. Mithilfe dieser speziellen Felder für wiederkehrende Transaktionen können Sie feste und variable Beträge buchen. Sie können auch ein automatisches Storno für den Tag nach dem Buchungsdatum festlegen und wiederkehrende Posten zusammen mit Verteilungsschlüsseln verwenden. Sie können auch Verteilungsschlüssel verwenden, um wiederkehrende Posten mit einem einzigen Vorgang zwischen verschiedenen Konten aufteilen zu können. Weitere Informationen finden Sie unter [Zuordnung von Beträgen des wiederkehrenden Buch.-Blatts auf mehrere Konten](#allocating-recurring-journal-amounts-to-several-accounts).
 
 Mit einem wiederkehrenden Buchungsblatt müssen Posten, die regelmäßig gebucht werden, nur einmal eingetippt werden. Das bedeutet, dass Einträge wie Konten, Dimensionen oder Dimensionswerte nach der Buchung im Buchungsblatt verbleiben. Werden Anpassungen notwendig, können Sie diese mit jeder Buchung durchführen.
@@ -97,7 +99,7 @@ Dieses Feld legt fest, wie der in der Buch.-Blattzeile angegebene Betrag nach de
 > Die MwSt.-Felder können entweder in der Wiederk. Buch.-Blattzeile oder in der Verteilungs Buch.-Blattzeile ausgefüllt werden, aber nicht in beiden. Das heißt, sie können auf der Seite **Zuweisungen** nur passende Zeilen eintragen, wenn die entsprechenden Zeilen nicht im wiederkehrenden Buch.-Blatt eingetragen werden.
 
 ### <a name="recurring-frequency-field"></a>Feld Wiederholungsrate
-Das Feld legt fest, wie oft der Posten in der Buch.-Blattzeile gebucht wird. Das ist ein Datumsformelfeld, und es muss für andere Zeilen des wiederkehrenden Buch.-Blatts ausgefüllt werden. Weitere Informationen zu finden Sie unter [Verwenden von Datumsformeln](ui-enter-date-ranges.md#using-date-formulas).
+Das Feld legt fest, wie oft der Posten in der Buch.-Blattzeile gebucht wird. Das ist ein Datumsformelfeld, und es muss für andere Zeilen des wiederkehrenden Buch.-Blatts ausgefüllt werden. Weitere Informationen zu finden Sie unter [Verwenden von Datumsformeln](ui-enter-date-ranges.md#use-date-formulas).
 
 #### <a name="examples"></a>Beispiele
 Wenn das Buch.-Blatt z. B. monatlich gebucht werden soll, geben Sie "1M" ein. Nach jeder Buchung wird dann das Datum im Feld **Buchungsdatum** auf dasselbe Datum im nächsten Monat aktualisiert.
@@ -145,7 +147,7 @@ Abgrenzungen werden normalerweise mit wiederkehrenden Methoden Fest, Variabel od
 > [!NOTE]
 > Standardmäßig ist das Feld **Stornierungsdatumsberchnung** auf der Seite **Wiederkehrende Fibu Buch.-Blätter** nicht verfügbar. Um das Feld zu verwenden, müssen Sie es hinzufügen, indem Sie die Seite personalisieren. Weitere Informationen finden Sie unter [Personalisieren Sie Ihren Arbeitsbereich](ui-personalization-user.md).
 
-## <a name="working-with-standard-journals"></a>Arbeiten mit Standard-Buchblättern
+## <a name="work-with-standard-journals"></a>Mit Standard-Buchblättern arbeiten
 Wenn Sie Buch.-Blattzeilen erstellt haben, die Sie wahrscheinlich zu einem späteren Zeitpunkt erneut erstellen werden, können Sie sich entscheiden, diese als Standard Buch.-Blatt zu speichern, bevor Sie das Buch.-Blatt buchen. Diese Funktionalität wird in Artikel Buch.-Blätter und Buch.-Blätter angewendet.
 
 > [!NOTE]  

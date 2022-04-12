@@ -1,29 +1,30 @@
 ---
-title: Erweiterungen installieren, um Business Central anzupassen
+title: Anpassen von Business Central Online mithilfe der Erweiterungen
 description: Erfahren Sie alles über das Hinzufügen von Funktionen und das Anpassen von Business Central durch die Installation von Erweiterungen hier.
 author: edupont04
 ms.topic: conceptual
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 08/25/2021
+ms.search.form: 2500, 2502
+ms.date: 03/22/2022
 ms.author: edupont
-ms.openlocfilehash: 7839c4364f299619707b0a346b9b5d0db07e627b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 56c564274e396d9699286b18d882c2a21f8721ef
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132420"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8510687"
 ---
 # <a name="customizing-business-central-online-using-extensions"></a>Anpassen von Business Central Online mithilfe der Erweiterungen
 
 Sie können [!INCLUDE[prod_short](includes/prod_short.md)] online ändern, indem Sie beispielsweise Erweiterungen installieren, die Funktionalität hinzufügen, das Verhalten ändern oder Zugriff auf die neuen Onlinediensten geben.
 
 > [!NOTE]
-> Um Erweiterungen von AppSource zu installieren bzw. zu deinstallieren oder Erweiterungen pro Mandanten hinzuzufügen, müssen Sie über die richtigen Berechtigungen verfügen. Sie müssen entweder Mitglied der Benutzergruppe „EXTEND. MGT. - ADMIN“ sein oder über den Berechtigungssatz „EXTEND. MGT. - ADMIN“ verfügen. Als Administrator können Sie anderen Benutzern in Ihrem Unternehmen Benutzergruppen und Berechtigungen zuweisen.
+> Um Erweiterungen von AppSource zu installieren bzw. zu deinstallieren oder Erweiterungen pro Mandanten hinzuzufügen, müssen Sie über die richtigen Berechtigungen verfügen. Sie müssen entweder Mitglied der Benutzergruppe **D365 Extension Mgt.** sein oder explizit über den Berechtigungssatz **EXTEN. MGT. - ADMIN** verfügen. Als Administrator können Sie anderen Benutzern in Ihrem Unternehmen Benutzergruppen und Berechtigungen zuweisen. Weitere Informationen finden Sie unter [Benutzer nach Lizenzen anlegen](ui-how-users-permissions.md).  
 >
 > Um die Funktionen einer Erweiterung nutzen zu können, z. B. Seiten öffnen, Berichte ausführen, Aktionen auswählen usw., müssen Sie den Berechtigungssätzen zugewiesen sein, die als Teil der Erweiterung installiert werden.
 
-> [!NOTE]  
-> Der Berechtigungssatz **EXTEND. MGT. - ADMIN** wurde in Business Central 2021, Veröffentlichungszyklus 1, als Ersatz für den Berechtigungssatz **D365 EXTENSION MGT** in früheren Versionen eingeführt.
+<!-- [!NOTE]  
+> The **EXTEN. MGT. - ADMIN** permission set was introduced in 2021 release wave 1 as a replacement for the **D365 EXTENSION MGT** permission set in earlier versions.-->
 
 > [!IMPORTANT]  
 > Das Hochladen von Tenant-Erweiterungen und die Installation von AppSource-Erweiterungen werden über die Seite **Erweiterungsverwaltung** für lokale Installationen nicht unterstützt. Sie können AppSource-Erweiterungen nicht vor Ort installieren, auch in Docker-basierten Bereitstellungen.
@@ -84,6 +85,7 @@ Microsoft Partner und Wiederverkäufer können eine Erweiterung erstellen, mit d
 
 ## <a name="see-also"></a>Weitere Informationen
 
+[Erweiterungen installieren und deinstallieren](ui-extensions-install-uninstall.md)  
 [Anpassen von Business Central](ui-customizing-overview.md)  
 [Business Central-Erweiterungen von anderen Anbietern](ui-extensions-other.md)  
 [Den Envestnet Yodlee Bank Feeds Service einrichten](bank-how-setup-bank-statement-service.md)  

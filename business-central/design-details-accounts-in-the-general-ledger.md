@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: b1b3620234901c3b2a1eba5f5af7eb0e79449dc4
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b67dd40723f28cb4d59818deb302a1d35c7420e4
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146800"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521072"
 ---
 # <a name="design-details-accounts-in-the-general-ledger"></a>Designdetails: Konten in der Finanzbuchhaltung
 Um Lagerbestände und Kapazitätsposten mit der Finanzbuchhaltung abzustimmen, werden die zugehörigen Wertposten auf verschiedene Konten in der Finanzbuchhaltung gebucht. Weitere Informationen finden Sie unter [Designdetails: Abstimmung mit der Finanzbuchhaltung](design-details-reconciliation-with-the-general-ledger.md).  
@@ -96,7 +96,7 @@ Die nachstehende Tabelle zeigt, wie die in die Finanzbuchhaltung zu buchenden Be
  [Designdetails: Lagerkostenberechnung](design-details-inventory-costing.md)   
  [Designdetails: Bestandsbuchung](design-details-inventory-posting.md)   
  [Designdetails: Soll-Kosten-Buchen](design-details-expected-cost-posting.md)  
- [Verwalten der Lagerregulierung](finance-manage-inventory-costs.md)  
+ [Verwalten der Bestandsregulierung](finance-manage-inventory-costs.md)  
  [Finanzen](finance.md)  
  [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

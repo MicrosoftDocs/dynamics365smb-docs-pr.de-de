@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 99000887, 99000888, 99000889, 99000890, 99000891, 99000892, 99000915, 99000916
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 456347d55a62864877a969ee7997463f37b1b8e7
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 5e1963bb8978e67b98ff3e85d09e6294e084034b
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140813"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515329"
 ---
 # <a name="view-load-on-work-and-machine-centers"></a>Anzeigen der Auslastung der Arbeit und Arbeitsplätze
 
@@ -22,7 +22,7 @@ Auf den Seiten **Arbeitsplatzgruppenkarte** und **Arbeitsplatzkarte** können Si
 
 ## <a name="to-view-the-load-on-work-centers"></a>Um sich die Auslastung von Arbeitsplatzgruppen anzeigen zu lassen:
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Arbeitsplatzgruppen** ein, und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Arbeitsplatzgruppen** ein, und wählen Sie dann den zugehörigen Link.  
 2. Öffnen Sie die relevante Karte **Arbeitsplatzgruppe** aus der Liste, und wählen Sie die **Laden** Aktion aus.  
 
 Verwenden Sie die Felder **Anzeigen nach** und **Anzeigen als** auf dem Inforegister **Optionen**, um den gewünschten Zeitraum auszuwählen.  
@@ -31,7 +31,7 @@ Verwenden Sie die Felder **Anzeigen nach** und **Anzeigen als** auf dem Inforegi
 [Produktion](production-manage-manufacturing.md)
 [Produktion einrichten](production-configure-production-processes.md)  
 [Planung](production-planning.md)  
-[Lagerbestand](inventory-manage-inventory.md)  
+[Bestand](inventory-manage-inventory.md)  
 [Einkauf](purchasing-manage-purchasing.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

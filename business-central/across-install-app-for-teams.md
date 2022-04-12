@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: e19db53137980b986dabc933ae56d33a5a768350
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: cd127d1b313a0c060ef676c74f0df83e01896b53
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141515"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516447"
 ---
 # <a name="install-the-prod_short-app-for-microsoft-teams"></a>Die App [!INCLUDE [prod_short](includes/prod_short.md)] für Microsoft Teams installieren
 
@@ -59,8 +59,8 @@ Diese Option ist der schnellste Weg zur Installation der App.
 4. Wählen Sie die App aus, wenn Sie sie finden.
 5. Wählen Sie **Hinzufügen**.
 
-> [!NOTE]
-> Bei beiden Optionen werden Sie möglicherweise aufgefordert, sich bei [!INCLUDE [prod_short](includes/prod_short.md)] anzumelden. Wählen Sie den Link **Anmelden** aus, klicken Sie auf den Link, und befolgen Sie die Anweisungen, um den Anmeldenamen und das Kennwort für [!INCLUDE [prod_short](includes/prod_short.md)] einzugeben.
+> [!TIP]
+> Wenn Sie einen Link zu einer Business Central-Seite in eine Team-Konversation einfügen und die App nicht installiert ist, erhalten Sie eine Meldung wie die folgende: **Business Central möchte eine Vorschauversion dieses Links anzeigen.** Um die App zu installieren, wählen Sie **Vorschauversion zeigen** aus, und folgen Sie den Anweisungen.
 
 **Option 3: Von Business Central aus**
 
@@ -68,6 +68,9 @@ Diese Option ist der schnellste Weg zur Installation der App.
 2. Wählen Sie die ![Lupe, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol, geben Sie **Get the Business Central-App for Teams** ein und wählen Sie dann den entsprechenden Link.  
 3. Wählen Sie **Die App aus dem Store holen**.
 4. Warten Sie, bis Teams sich öffnet und die Business Central-App angezeigt wird, und wählen Sie dann **Hinzufügen**.
+
+> [!NOTE]
+> Bei beiden Optionen werden Sie möglicherweise aufgefordert, sich bei [!INCLUDE [prod_short](includes/prod_short.md)] anzumelden. Wählen Sie den Link **Anmelden** aus, klicken Sie auf den Link, und befolgen Sie die Anweisungen, um den Anmeldenamen und das Kennwort für [!INCLUDE [prod_short](includes/prod_short.md)] einzugeben.
 
 ## <a name="next-step"></a>Nächster Schritt
 

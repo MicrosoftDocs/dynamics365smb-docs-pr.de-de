@@ -1,7 +1,7 @@
 ---
 title: Benutzerdefinierte Berichtslayouts aktualisieren
 description: Erfahren Sie, wie Sie ein angepasstes Berichtslayout, das in einem Bericht verwendet wird, aktualisieren können, wenn es z.B. Designänderungen am Dataset des Berichts gibt.
-author: SorenGP
+author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,14 +9,16 @@ ms.workload: na
 ms.search.form: 9652, 9650
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: d04b6b37573c81c3eef43fd2077b42bd7f5e1884
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 76e4b2351e3df740871b5f79e6086c1a70079023
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144619"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517212"
 ---
-# <a name="update-custom-report-layouts"></a>Benutzerdefinierte Berichtslayouts aktualisieren
+# <a name="legacy-update-custom-report-layouts"></a>(Legacy) Benutzerdefinierte Berichtslayouts aktualisieren
+
+[!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
 Gelegentlich müssen Sie möglicherweise ein benutzerdefiniertes Berichtslayout aktualisieren, das in einem Bericht verwendet wird. Dies ist obligatorisch, wenn es eine Entwurfsänderung an dem Datensatz des Berichts gegeben hat, wenn zum Beispiel ein Feld, das im Layout verwendet wird, aus dem Berichtsdatensatz entfernt wurde. Wenn ein Berichtlayout eine Aktualisierung benötigt, erhalten Sie eine Fehlermeldung, wenn Sie versuchen, die Berichtvorschau anzeigen, zu drucken oder zu speichern.  
 
@@ -28,9 +30,9 @@ Nicht alle Berichtsdatasetänderungen können automatisch aktualisiert werden in
 
 ## <a name="to-update-one-or-more-custom-report-layouts"></a>Um eine oder mehrere benutzerdefinierten Berichtslayouts zu aktualisieren  
 
-1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Berichtslayouts** ein und wählen Sie dann den zugehörigen Link.  
+1.  Wählen Sie das Symbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Auswahl des Berichtslayouts** ein und wählen Sie dann den entsprechenden Link.  
 
-2.  Auf der Seite **Berichtslayouts**, wenn Sie einen bestimmten Bericht aktualisieren möchten, wählen Sie das Layout aus der Liste, und wählen die **Layout aktualisieren** Aktion aus. Oder, wenn alle benutzerdefinierten Berichtslayouts des Unternehmens aktualisieren möchten, wählen Sie die Aktion **Alle Layouts aktualisieren** aus.  
+2.  Auf der Seite **Auswahl des Berichtslayouts**, wenn Sie einen bestimmten Bericht aktualisieren möchten, wählen Sie das Layout aus der Liste, und wählen die **Layout aktualisieren** Aktion aus. Oder, wenn alle benutzerdefinierten Berichtslayouts des Unternehmens aktualisieren möchten, wählen Sie die Aktion **Alle Layouts aktualisieren** aus.  
 
 Wenn keine Fehler auftreten, wird die Aktualisierung für die Berichtslayouts übernommen. Wenn Fehler auftreten, dann erscheint eine Meldung, die die Fehler enthält. Sie müssen dann manuell das benutzerdefinierte Berichtslayout bearbeiten, um den Fehler zu beheben. Weitere Informationen finden Sie unter [Beheben von Fehlern](ui-update-report-layouts.md#FixErrors).  
 
@@ -64,7 +66,7 @@ Nachdem Sie das Layout ändern, versuchen Sie, das Layout erneut zu aktualisiere
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Siehe auch  
+## <a name="see-also"></a>Weitere Informationen  
  [Verwalten von Berichtslayouts](ui-manage-report-layouts.md)  
  [Arbeiten mit Berichten, Batchaufträgen und XMLports](ui-work-report.md)  
 

@@ -10,12 +10,12 @@ ms.search.keywords: payment journal, print check, vendor payment, creditor, debt
 ms.search.form: 256, 404,
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b2c57c4a96021beb6e02564e7b24577f52b60922
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 1b4d3f152f74e1bba9f30e7da45e1b910301b4df
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137809"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520230"
 ---
 # <a name="make-check-payments"></a>Zahlung per Scheck machen
 
@@ -39,7 +39,7 @@ Sie können bis 10 Rechnungen auf einer Seite für einen Scheckabschnitt drucken
 ## <a name="to-pay-a-vendor-invoice-with-a-computer-check"></a>Um Kreditorenrechnungen mit einem Computer Scheck zu bezahlen
 Nachfolgend wird erläutert, wie Sie einen Kreditor mit Schecks bezahlen. Die Schritte sind ähnlich wie bei der Rückerstattung eines Debitors per Scheck.
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Zahlungsausgangs Buch.-Blätter** ein und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Zahlungsausgangs Buch.-Blätter** ein und wählen Sie dann den zugehörigen Link.
 2. Füllen Sie die Zalungszeilen ein. Weitere Informationen finden Sie unter [Zahlungen und Rückerstattungen aufzeichnen](payables-how-post-payments-refunds.md)
 3. Wählen Sie im Feld die **Zahlungsform** aus und wählen Sie **Check**.
 4. Wählen Sie im Feld **Bankkontozahlungsart** die Option **Computer Scheck** aus.
@@ -67,7 +67,7 @@ Wenn Scheckzahlung gebucht wurden, können Sie Schecks aus den resultierenden Ba
 > [!IMPORTANT]
 > Wenn der Scheck auf eine Rechnung angewendet wird, heben Sie den Scheck zuerst auf, damit die Rechnung zurückgezahlt werden kann, und stornieren Sie dann den Scheck. Wenn der Scheck gedruckt und keine Rechnung damit bezahlt wurde, wählen Sie **Scheck nur annullieren** aus, wie in diesem Abschnitt beschrieben.
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Bankkonten** ein und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Bankkonten** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie das entsprechende Bankkonto aus, wählen Sie die **Bearbeiten**-Aktion aus, und wählen Sie dann die **Scheckposten**-Aktion aus.
 3. Auf der Seite **Scheckposten** wählen Sie die **Scheck annullieren**-Aktion aus.
 4. Wählen das Kontrollkästchen **Scheck nur annullieren**.
@@ -75,7 +75,7 @@ Wenn Scheckzahlung gebucht wurden, können Sie Schecks aus den resultierenden Ba
 
 ## <a name="to-view-a-summary-of-posted-checks"></a>Um eine Zusammenfassung der gebuchten Schecks anzuzeigen
 Wenn Sie gebuchte Schecks überprüfen möchten, zum Beispiel, um Mehrfachverbindungsschecks für einen Kreditor zu überprüfen, können Sie **Bankkonto - Scheckdetails** verwenden.
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Bankkonto – Scheckdetails** ein, und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Bankkonto – Scheckdetails** ein, und wählen Sie dann den zugehörigen Link.
 2. Legen Sie Filter fest und wählen Sie dann die Schaltfläche **Vorschau** aus.
 
 ## <a name="see-also"></a>Siehe auch
