@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 99000754, 99000755, 99000756, 99000758, 99000760, 99000761, 99000762
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 52f84c4c4b30aa09094806e238fe4f72232f5e62
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 639a0a8cc8c7c3efa9e7331a1db45dc031f4515b
+ms.sourcegitcommit: 55f42d2407e109b4924218cb22129467b53deb08
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517895"
+ms.lasthandoff: 04/08/2022
+ms.locfileid: "8557223"
 ---
 # <a name="set-up-work-centers-and-machine-centers"></a>Arbeitsplätze und Arbeitsplatzgruppen einrichten
 
@@ -39,18 +39,19 @@ Nachfolgend ist beschrieben, wie ein alternativer Arbeitsplatzkalender eingerich
 2. Wählen Sie die Aktion **Neu** aus.  
 3. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Wählen Sie im Feld **Abteilung** die übergeordnete Ebene, unter der sich die Arbeitsplatzgruppe befindet, sofern relevant. Wählen Sie aus der Dropdown-Liste die Aktion **Neu** aus.  
-5. Wählen Sie das Feld **Gesperrt** aus, wenn Sie verhindern möchten, dass die Arbeitsplatzgruppe bei einer Verarbeitung verwendet wird. Das bedeutet, dass die Ausgabe für einen Artikel nicht gebucht werden kann, der für die Arbeitsplatzgruppe gefertigt wird. Weitere Informationen finden Sie unter [Erstellen von Montagestücklisten](production-how-to-post-output-quantity.md).
-6. Geben Sie im Feld **EK-Preis** die Kosten der Fertigung einer Einheit in dieser Arbeitsplatzgruppe ein, ausschließlich aller anderen Kostenelemente. Diese Kosten werden häufig als *direkte Arbeitskosten* bezeichnet.  
-7. Geben Sie im Feld **Kosten %** die Gesamtkosten des Einsatzes der Arbeitsplatzgruppe als Prozentsatz des EK-Preises ein. Dieser prozentuale Betrag wird in der Berechnung des Einstandspreises zum EK-Preis addiert.  
-8. Geben Sie im Feld **Gemeinkostensatz** die nicht mit dem eigentlichen Betrieb verbundenen Kosten für die Arbeitsplatzgruppe (z. B. Wartungsausgaben) als absoluten Betrag ein.  
+5. Wählen Sie im Feld **Alternativer Arbeitsplatz** den Arbeitsplatz aus, der verwendet werden soll, wenn dieser Arbeitsplatz nicht verfügbar ist oder wenn der Bedarf seine Kapazität übersteigt. Der alternative Arbeitsplatz dient nur zur Information und wird nicht automatisch in die Planungsprozesse einbezogen.
+6. Wählen Sie das Feld **Gesperrt** aus, wenn Sie verhindern möchten, dass die Arbeitsplatzgruppe bei einer Verarbeitung verwendet wird. Das bedeutet, dass die Ausgabe für einen Artikel nicht gebucht werden kann, der für die Arbeitsplatzgruppe gefertigt wird. Weitere Informationen finden Sie unter [Erstellen von Montagestücklisten](production-how-to-post-output-quantity.md).
+7. Geben Sie im Feld **EK-Preis** die Kosten der Fertigung einer Einheit in dieser Arbeitsplatzgruppe ein, ausschließlich aller anderen Kostenelemente. Diese Kosten werden häufig als *direkte Arbeitskosten* bezeichnet.  
+8. Geben Sie im Feld **Kosten %** die Gesamtkosten des Einsatzes der Arbeitsplatzgruppe als Prozentsatz des EK-Preises ein. Dieser prozentuale Betrag wird in der Berechnung des Einstandspreises zum EK-Preis addiert.  
+9. Geben Sie im Feld **Gemeinkostensatz** die nicht mit dem eigentlichen Betrieb verbundenen Kosten für die Arbeitsplatzgruppe (z. B. Wartungsausgaben) als absoluten Betrag ein.  
 
     Das Feld **Einstandspreis** enthält den berechneten Einstandspreis für die Fertigung einer Einheit in der Arbeitsplatzgruppe, wobei alle Kostenelemente berücksichtigt sind.  
 
     Einstandspreis = EK-Preis + (EK-Preis x Kosten %) + Gemeinkostensatz.  
 
-9. Legen Sie im Feld **Einstandspreisberechnung** fest, ob der obigen Berechnung die benötigte Zeitspanne (**Zeit**) oder die Anzahl der gefertigten Einheiten (**Einheiten**) zugrunde gelegt werden soll.  
-10. Markieren Sie das Feld **Spezifische Stückkosten**, wenn Sie die Stückkosten des Arbeitsplatzes in der Arbeitsplanzeile, in der er verwendet wird, definieren wollen. Dies kann sich als unerlässlich bei Arbeitsgängen mit wesentlich abweichenden Kapazitätskosten erweisen, die normalerweise in dieser Arbeitsplatzgruppe verarbeitet werden.  
-11. Wählen Sie im Feld **Buchungsmethode** aus, ob der Ausgabebuchung in dieser Arbeitsplatzgruppe manuell oder automatisch mit einer der folgenden Methoden berechnet und gebucht werden soll, indem eine der folgenden Methoden verwendet wird.
+10. Legen Sie im Feld **Einstandspreisberechnung** fest, ob der obigen Berechnung die benötigte Zeitspanne (**Zeit**) oder die Anzahl der gefertigten Einheiten (**Einheiten**) zugrunde gelegt werden soll.  
+11. Markieren Sie das Feld **Spezifische Stückkosten**, wenn Sie die Stückkosten des Arbeitsplatzes in der Arbeitsplanzeile, in der er verwendet wird, definieren wollen. Dies kann sich als unerlässlich bei Arbeitsgängen mit wesentlich abweichenden Kapazitätskosten erweisen, die normalerweise in dieser Arbeitsplatzgruppe verarbeitet werden.  
+12. Wählen Sie im Feld **Buchungsmethode** aus, ob der Ausgabebuchung in dieser Arbeitsplatzgruppe manuell oder automatisch mit einer der folgenden Methoden berechnet und gebucht werden soll, indem eine der folgenden Methoden verwendet wird.
 
     |Option|Beschreibung|
     |------|-----------|
@@ -61,17 +62,17 @@ Nachfolgend ist beschrieben, wie ein alternativer Arbeitsplatzkalender eingerich
     > [!NOTE]
     > Gegebenenfalls kann die hier ausgewählte Buchungsmethode für einzelne Arbeitsgänge überschrieben werden, indem die Einstellungen für Arbeitsgänge geändert wird.
 
-12. Geben Sie im Feld **Einheitencode** die Zeiteinheit ein, die bei der Kostenberechnung und der Kapazitätsplanung der Arbeitsplatzgruppe zugrunde gelegt werden soll.
+13. Geben Sie im Feld **Einheitencode** die Zeiteinheit ein, die bei der Kostenberechnung und der Kapazitätsplanung der Arbeitsplatzgruppe zugrunde gelegt werden soll.
     Um regelmäßig den Verbrauch erfassen zu können, müssen Sie zunächst die Buchungsmethode einrichten. Die Einheiten, die Sie eingeben, sind Basiseinheiten. Die Bearbeitungszeit wird z. B. in Stunden und Minuten gemessen.
 
     > [!NOTE]  
     > Beachten Sie bei der Verwendung von Tagen, dass 1 Tag 24 Stunden und nicht 8 (Arbeitsstunden) hat.
 
-13. Geben Sie im Feld **Kapazität** an, ob in der Arbeitsplatzgruppe mehrere Personen bzw. Maschinen gleichzeitig eingesetzt werden. Wenn in der [!INCLUDE[prod_short](includes/prod_short.md)]-Installation das Element "Arbeitsplatz" nicht enthalten ist, muss in diesem Feld der Wert **1** festgelegt sein.  
-14. Geben Sie im Feld **Effektivität** an, wie hoch die tatsächliche Effektivität der Arbeitsplatzgruppe prozentual hinsichtlich der erwarteten Standardeffektivität ist. Wenn Sie **100** eingeben, bedeutet dies, dass die Isteffektivität der Arbeitsplatzgruppe mit der Standardeffektivität übereinstimmt.  
-15. Wählen Sie das Kontrollkästchen **Konsolidierter Kalender**, wenn Sie auch Arbeitsplätze verwenden. Dadurch ist sichergestellt, dass Kalenderposten oben aus den Arbeitsplatzkalendern ermittelt werden.  
-16. Wählen Sie im Feld **Betriebskalender** einen Einkaufskalender. Weitere Informationen finden Sie unter [Erstellen von Betriebskalendern](production-how-to-create-work-center-calendars.md).  
-17. Geben Sie im Feld **Warteschlangenzeit** eine feste Zeitspanne an, die ablaufen muss, bevor die zugewiesenen Arbeiten in dieser Arbeitsplatzgruppe begonnen werden können. 
+14. Geben Sie im Feld **Kapazität** an, ob in der Arbeitsplatzgruppe mehrere Personen bzw. Maschinen gleichzeitig eingesetzt werden. Wenn in der [!INCLUDE[prod_short](includes/prod_short.md)]-Installation das Element "Arbeitsplatz" nicht enthalten ist, muss in diesem Feld der Wert **1** festgelegt sein.  
+15. Geben Sie im Feld **Effektivität** an, wie hoch die tatsächliche Effektivität der Arbeitsplatzgruppe prozentual hinsichtlich der erwarteten Standardeffektivität ist. Wenn Sie **100** eingeben, bedeutet dies, dass die Isteffektivität der Arbeitsplatzgruppe mit der Standardeffektivität übereinstimmt.  
+16. Wählen Sie das Kontrollkästchen **Konsolidierter Kalender**, wenn Sie auch Arbeitsplätze verwenden. Dadurch ist sichergestellt, dass Kalenderposten oben aus den Arbeitsplatzkalendern ermittelt werden.  
+17. Wählen Sie im Feld **Betriebskalender** einen Einkaufskalender. Weitere Informationen finden Sie unter [Erstellen von Betriebskalendern](production-how-to-create-work-center-calendars.md).  
+18. Geben Sie im Feld **Warteschlangenzeit** eine feste Zeitspanne an, die ablaufen muss, bevor die zugewiesenen Arbeiten in dieser Arbeitsplatzgruppe begonnen werden können. 
 
 > [!NOTE]
 > Verwenden Sie Warteschlangenzeiten, um einen Puffer zwischen dem Eintreffen einer Komponente auf einer Maschine oder einem Arbeitsplatz und dem tatsächlichen Start des Vorgangs bereitzustellen. Beispielsweise wird ein Teil um 10:00 Uhr an ein Maschinenzentrum geliefert, die Montage an der Maschine dauert jedoch eine Stunde, sodass der Vorgang erst um 11.00 Uhr beginnt. Um diese Stunde zu berücksichtigen, würde die Wartezeit eine Stunde betragen. Der Wert des Feldes **Warteschlangenzeit** der speziellen Arbeitsplatzkarte oder Arbeitsplatzgruppenkarte plus die Summe der Werte in den Feldern **Einrichtungszeit**, **Ausführungszeit**, **Wartezeit** und **Transportzeit** der Arbeitsgänge des Artikels ergeben zusammen die Produktionsdurchlaufzeit des Artikels. Dies trägt zu genauen Gesamtproduktionszeiten bei.  

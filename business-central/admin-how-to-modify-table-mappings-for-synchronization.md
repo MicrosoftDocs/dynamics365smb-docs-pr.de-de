@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize, table mapping
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: b0d7382cbc831ff856dc8d75bb776fc9f9ee022a
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: e6e7d42af64db3c1725e9f4b54ba7ca4e4b16320
+ms.sourcegitcommit: 55f42d2407e109b4924218cb22129467b53deb08
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8515745"
+ms.lasthandoff: 04/08/2022
+ms.locfileid: "8557405"
 ---
 # <a name="mapping-the-tables-and-fields-to-synchronize"></a>Zu synchronisierende Tabellen und Felder zuordnen
 
@@ -28,6 +28,9 @@ Wenn Sie die Verbindung zwischen den Apps herstellen, richtet [!INCLUDE[prod_sho
 
 > [!Note]
 > Wenn Sie eine lokale Version von [!INCLUDE[prod_short](includes/prod_short.md)] verwenden, werden die Integrationstabellenzuordnungen in Tabelle 5335 Integrationstabellenzuordnungen gespeichert und können dort angezeigt und geändert werden. Komplexe Zuordnungen und Synchronisierungsregeln werden in der Codeunit 5341 definiert. 
+
+### <a name="additional-mappings"></a>Zusätzliche Zuordnungen 
+Zahlungsbedingungen, Lieferformen und Zusteller können sich ändern, und es kann wichtig sein, sie anpassen zu können. Wenn Sie die Funktion **Funktionsaktualisierung: Zuordnung zu Optionssätzen in Dataverse ohne Code** auf der Seite [Funktionsverwaltung](https://businesscentral.dynamics.com/?page=2610) aktivieren, können Sie manuell Integrationstabellenzuordnungen für Zahlungsbedingungen (PAYMENT TERMS), Versandformen (SHIPMENT METHOD) und Zusteller (SHIPPING AGENT) hinzufügen. Mit dieser Zuordnung können Sie sicherstellen, dass Ihre Richtlinien für diese Einrichtungen in [!INCLUDE[prod_short](includes/cds_long_md.md)] und [!INCLUDE[cds_long_md](includes/cds_long_md.md)] gleich sind.
 
 ### <a name="synchronization-rules"></a>Synchronisierungsregeln
 Eine Integrationstabellenzuordnung enthält auch Regeln, die steuern, wie Integrationssynchronisationsaufträge Datensätze in einer [!INCLUDE[prod_short](includes/prod_short.md)]-Tabelle und eine Tabelle in [!INCLUDE[prod_short](includes/cds_long_md.md)] synchronisieren. <!--For examples of rules for an integration with Sales, see [Synchronization Rules](admin-synchronizing-business-central-and-sales.md#synchronization-rules). need to verify link -->

@@ -8,12 +8,12 @@ ms.search.keywords: project management, task
 ms.search.form: 88, 275, 276, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1020
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 70bfd81f6fd331018fe6cafd6793ae1f1501f159
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 6996c82ee184db980879ea98a6f2cbdca1b10852
+ms.sourcegitcommit: 55f42d2407e109b4924218cb22129467b53deb08
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519622"
+ms.lasthandoff: 04/08/2022
+ms.locfileid: "8557193"
 ---
 # <a name="create-jobs"></a>Projekt erstellen
 Wenn Sie mit einem neuen Projekt beginnen, müssen Sie eine Projektkarte mit integrierten Projektaufgaben und Projektplanungszeilen erstellen, strukturiert in zwei Ebenen.  
@@ -22,12 +22,16 @@ Die erste Ebene besteht aus Projektaufgaben. Sie müssen mindestens eine Projekt
 
 Die zweite Ebene besteht aus Projektplanungszeilen, die zum Angeben des genauen Verbrauchs von Ressourcen, Artikeln sowie von verschiedenen Aufwandssachposten dienen.
 
-Durch die Ebenenstruktur lässt sich das Projekt in kleinere Aufgaben unterteilen, was wiederum eine detaillierte Budgetierung, Angebotserstellung und Erfassung ermöglicht. Außerdem gibt sie Ihnen Einblick in den Fortschritt eines Projekt. So können Sie beispielsweise nachverfolgen, ob Sie die Meilensteine erfüllen, oder ob Sie mit den erwarteten Haushaltsmitteln zurechtkommen.
+Durch die Ebenenstruktur lässt sich das Projekt in kleinere Aufgaben unterteilen, was wiederum eine detaillierte Budgetierung, Angebotserstellung und Erfassung ermöglicht. Außerdem gibt sie Ihnen Einblick in den Fortschritt eines Projekt. So können Sie beispielsweise verfolgen, ob Sie die festgelegten Meilensteine erreichen oder ob Sie die Budgeterwartungen einhalten.
 
 > [!TIP]
 > Wählen Sie die Aktion **Neues Projekt** im Rollencenter **Projektmanager** aus, um einen Leitfaden für das unterstütze Setup zu starten, der Sie durch die Schritte zur Erstellung eines Projekts mit integrierten Aufgaben und Planungszeilen führt. Nachfolgend wird beschrieben, wie Sie die Schritte manuell ausführen. Ein Beispiel dazu, wie Sie ein Projekt manuell erstellen, finden im [Video: So erstellen Sie ein Projekt in Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw).
 
-Manchmal unterscheidet sich die Partei, die eine Dienstleistung erhält, von der Partei, die die Rechnung bezahlt. Auf der **Projekte**-Seite können Sie den Debitor, der von dem Projekt profitieren wird, in den Feldern **Verk. an** angeben und den Rechnungssteller in den Feldern **Rech. an**. Sie können auch angeben, wo die Arbeit stattfinden wird, indem Sie aus einer Liste von Lieferadressen für den Debitor auswählen, Informationen zu externen Referenzen hinzufügen, um die Kommunikation über das Projekt zu vereinfachen, und die finanziellen Standardkonditionen des Projekts überschreiben.
+Manchmal unterscheidet sich die Partei, die eine Dienstleistung erhält, von der Partei, die die Rechnung bezahlt. Auf der **Projekte**-Seite können Sie den Debitor, der von dem Projekt profitieren wird, in den Feldern **Verk. an** angeben und den Rechnungssteller in den Feldern **Rech. an**. Sie können auch die folgenden Informationen angeben: 
+
+* Wo die Arbeit stattfinden wird, indem Sie aus einer Liste von Lieferadressen für den Debitor auswählen.
+* Fügen Sie Informationen über externe Referenzen hinzu, um die Kommunikation über das Projekt zu vereinfachen.
+* Überschreiben Sie die finanziellen Standardbedingungen des Projekts.
 
 ## <a name="to-create-a-job-card"></a>So erstellen Sie eine Projektkarte
 Sie erstellen eine Projektkarte und erstellen dann Projektaufgabenzeilen und Projektplanungszeilen dafür.
@@ -40,7 +44,7 @@ Sie erstellen eine Projektkarte und erstellen dann Projektaufgabenzeilen und Pro
 >   Wenn Sie Arbeitszeittabellen bei Ihrem Projekt verwenden, müssen Sie auch eine verantwortliche Person angeben. Diese Person kann Arbeitszeittabellen für die Mitarbeiteraufgaben genehmigen, die dem Projekt zugeordnet sind. Weitere Informationen finden Sie unter [Einrichten von Arbeitszeittabellen](projects-how-setup-time-sheets.md).
 
 ## <a name="to-create-tasks-for-a-job"></a>Aufgaben für ein Projekt erstellen
-Beim Einrichten eines neuen Projekts ist es wichtig, auch die verschiedenen Aufgaben für das Projekt anzugeben. Dazu fügen Sie neue Zeilen im Inforegister **Aufgaben** auf der Seite **Projektkarten** hinzu, jeweils eine Aufgabe pro Zeile. Jedes Objekt muss mindestens eine Aufgabe haben.
+Beim Einrichten eines neuen Projekts ist es wichtig, auch die verschiedenen Aufgaben für das Projekt anzugeben. Sie legen Aufträge fest, indem Sie auf der Seite **Aufgaben** Inforegister auf der Seite **Auftragskarte** eine Zeile pro Auftrag erstellen. Jedes Objekt muss mindestens eine Aufgabe haben.
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Aufträge** ein, und wählen Sie dann den zugehörigen Link.
 2. Öffnen Sie die Projektkarte für ein entsprechendes Projekt.
@@ -50,23 +54,41 @@ Beim Einrichten eines neuen Projekts ist es wichtig, auch die verschiedenen Aufg
 6. Um die Projektaufgaben mit Informationen über andere Projektaufgaben anzugeben, wählen Sie die Aktion **Projektaufgaben kopieren von** aus und ergänzen Sie die Felder wie nötig. Wählen Sie dann die Schaltfläche **OK** aus.
 
 ## <a name="to-create-planning-lines-for-a-job"></a>So erstellen Sie eine Projektplanzeile für ein Projekt
-Sie können Ihre neuen Projektaufgaben für Projektplanzeilen neu definieren. Mithilfe einer Planzeile lassen sich alle Informationen erfassen, die Sie für ein Projekt nachverfolgen möchten. Planzeilen können verwendet werden, um Informationen wie erforderliche Ressourcen hinzuzufügen oder um Elemente zu erfassen, die zum Ausführen des Projekts erforderlich sind. So können Sie beispielsweise eine Aufgabe zum Einholen der Zustimmung des Debitors von einem Projekt erstellen. Diese Aufgabe können Sie mit Planzeilen für Elemente verknüpfen, beispielsweise Treffen mit dem Debitor und Zuweisen von Ressourcen.  
+Sie können Ihre neuen Projektaufgaben für Projektplanzeilen neu definieren. Eine Planungszeile kann die Informationen erfassen, die Sie für einen Auftrag verfolgen möchten. Sie können z.B. die Ressourcen, die der Auftrag erfordert, oder die Artikel, die benötigt werden, verfolgen. Ein Beispiel: Sie haben eine Aufgabe, um einen Debitor dazu zu bringen, einen Auftrag zu genehmigen. Sie verknüpfen die Aufgabe mit Planungszeilen für Artikel wie das Treffen mit dem Debitor und die Zuweisung einer Ressource.  
 
 Eine Projektplanungszeile kann von einer der folgenden Arten sein.  
 
 | Typ | Beschreibung |
 | --- | --- |
-| **Budget** |Dient zum Angeben der geschätzten Verbrauchswerte und der Kosten für das Projekt, üblicherweise in einem Aufwandsvertrag. Planzeilen dieser Art können nicht fakturiert werden. |
+| **Budget** |Dient zum Angeben der geschätzten Verbrauchswerte und der Kosten für das Projekt, üblicherweise in einem Aufwandsvertrag. Planungszeilen dieser Art können nicht in Rechnung gestellt werden. |
 | **Fakturierbar** |Dient zum Angeben der geschätzten Fakturierung für den Debitor, üblicherweise in einem Festpreisprojekt. |
 | **Sowohl budgetiert und verrechenbar** |Dient zum Angeben des geplanten Verbrauchs, der dem zu fakturierenden Wert entspricht. |
 
-**Hinweis**. Beim Hinzufügen von Informationen in der Projektplanungszeilen werden die Kosteninformationen automatisch ergänzt. Wenn Sie also beispielsweise eine neue Zeile eingeben, basieren Kosten, Preis und Skonto für Ressourcen und Artikel zunächst auf den Informationen, die auf den Ressourcen- und Artikelkarten angegeben sind.
+> [!NOTE]
+> Während Sie Informationen zu Auftragsplanungszeilen eingeben, werden die Informationen zur Kalkulation automatisch ausgefüllt. So basieren beispielsweise die Kosten, Preise und Rabatte für Ressourcen und Artikel auf den Informationen der Ressource und des Artikels. 
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Aufträge** ein, und wählen Sie dann den zugehörigen Link.
 2. Öffnen Sie eine entsprechende Jobkarte.
 3. Wählen Sie eine Projektaufgabe aus, deren Wert für das Feld **Projektaufgabenart** **Buchen** enthält und klicken Sie anschließend auf die Aktion **Projektplanzeilen**.  
 4. Auf einer neuen Zeile auf der Seite **Projektplanungszeilen** füllen Sie die Felder nach Bedarf aus.
 5. Wiederholen Sie die Schritte 3 und 4 für alle Planungszeilen für diese Projektaufgabe.
+
+## <a name="create-inventory-and-warehouse-pick-documents-for-a-job"></a>Belege für Bestand und Lagerkommissionierungen für einen Auftrag erstellen
+Um Bestands- und Lagerkommissionierungsbelege für Aufträge zu erstellen, muss Ihr Administrator die Funktion **Funktion Aktualisieren: Lagerbestand und Lagerkommissionierungen von Aufträgen aus aktivieren** auf der Seite **Funktionsverwaltung** aktivieren.
+
+Die Funktion erstellt die Aktionen **Lagerkommissionierung erstellen** und **Lagerkommissionierungen erstellen** auf der **Jobkarte**. Um einen Beleg für eine Kommissionierung zu erstellen oder zu registrieren, verwenden Sie die Aktionen **Kommissionierlinien/Bewegungslinien** oder **Registrierte Kommissionierlinien**.
+
+Sie können die Aktionen unter den folgenden Bedingungen verwenden:
+* Der **Status** des Auftrags ist **Offen**.
+* Die **Zeilenart** der Auftragsplanungszeile ist **Budget** oder **Budget und abrechenbar**.
+* Der **Typ** der Auftragsplanungszeile ist **Artikel**.
+* **Kommissionieren erforderlich** ist für den entsprechenden Ort aktiviert.
+* **Gerichtetes Kommissionieren und Einlagern** ist deaktiviert.
+
+> [!NOTE] 
+> Obwohl die Einstellung **Kommissionierung vorschreiben** heißt, können Sie den Verbrauch trotzdem direkt aus der Buchungsblattzeile für den Standort kommissionieren. Wenn Ihr Standort so festgelegt ist, dass eine Kommissionierung, aber keine Versandverarbeitung erforderlich ist, verwenden Sie die Seite **Lagerkommissionierung**, um die Kommissionierungsinformationen zu organisieren und zu drucken. Sie verwenden die Seite auch, um das Ergebnis der Kommissionierung einzugeben und zu verbuchen, was wiederum den Verbrauch der Artikel verbucht. 
+> 
+> Wenn Ihr Standort so festgelegt ist, dass sowohl die Kommissionierung als auch die Verarbeitung von Sendungen erforderlich ist, d.h. wenn Sie auf der Seite **Standortkarte** sowohl das Feld **Kommissionierung anfordern** als auch das Feld **Sendung anfordern** ausgewählt haben, verwenden Sie die Seite **Lager-Kommissionierung**, um die Kommissionierung zu bearbeiten. Lagerkommissionierungen sind ähnlich wie Bestandskommissionierungen. Der Unterschied besteht darin, dass Sie die Kommissionierung registrieren, anstatt die Kommissionierungsinformationen zu buchen. Mit dieser Registrierung wird kein Verbrauch gebucht, sondern die Artikel werden lediglich für die Buchung verfügbar gemacht. Als Manager eines Lagers können Sie ein Kommissionierarbeitsblatt verwenden, um die Kommissionierinformationen zu organisieren, bevor Sie die einzelnen Anweisungen für die Kommissionierung im Lager erstellen.
 
 ## <a name="see-also"></a>Siehe auch
 

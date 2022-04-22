@@ -1,45 +1,39 @@
 ---
 title: Testversionen und Abonnements
-description: Erfahren Sie, wie Sie eine Testversion von Business Central erhalten, wie Sie mit Sandboxumgebungen arbeiten und wie Sie sich für ein Abonnement anmelden.
+description: Erfahren Sie, wie Sie loslegen, wie Sie mit Sandbox-Umgebungen arbeiten und wie Sie ein Abonnement für Business Central online erwerben können.
 author: edupont04
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox, subscription
 ms.search.form: 1803, 1801
-ms.date: 02/22/2022
+ms.date: 04/05/2022
 ms.author: edupont
-ms.openlocfilehash: ce516bc49fce32c969097fbf17bb2a927f3db491
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: fc77c63351a97e130c00910a2e66c9497a24d104
+ms.sourcegitcommit: 55f42d2407e109b4924218cb22129467b53deb08
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511296"
+ms.lasthandoff: 04/08/2022
+ms.locfileid: "8557327"
 ---
 # <a name="prod_long-trials-and-subscriptions"></a>[!INCLUDE[prod_long](includes/prod_long.md)] Testversionen und Abonnements
 
-[!INCLUDE[prod_short](includes/prod_short.md)] ist in einer zunehmenden Anzahl von Ländern weltweit verfügbar. Wenn Sie über [!INCLUDE[prod_short](includes/prod_short.md)] erfahren möchten, können Sie sich für eine kostenlose Testversion anmelden. Wenn Sie dann bereit sind, können Sie mit einem Wiederverkaufspartner über den Abschluss eines Abonnements sprechen.  
+[!INCLUDE[prod_short](includes/prod_short.md)] ist in einer zunehmenden Anzahl von Ländern weltweit verfügbar. Wenn Sie über [!INCLUDE[prod_short](includes/prod_short.md)] erfahren möchten, können Sie sich für eine kostenlose Testversion anmelden. Wenn Sie dann bereit sind, können Sie mit einem Vertriebspartner über ein Abonnement sprechen.  
 
-Wenn Sie nicht bereits mit einem Partner zusammenarbeiten, finden Sie weitere Informationen unter [Wie finde ich einen Vertriebspartner?](/dynamics365/business-central/across-faq#findpartner).  
+Wenn Sie noch nicht mit einem Partner zusammenarbeiten, siehe [Wie finde ich einen Vertriebspartner?](/dynamics365/business-central/across-faq#findpartner).  
 
 ## <a name="get-started-with-a-trial"></a>Erste Schritte mit einer Testversion
 
-Sie können sich für eine kostenlose Testversion [hier](https://go.microsoft.com/fwlink/?linkid=847861) registrieren. Wir empfehlen Ihnen, mit [einem Vertriebspartner](/dynamics365/business-central/across-faq#findpartner) zusammenzuarbeiten, um Ihrem Unternehmen den Einstieg mit [!INCLUDE[prod_short](includes/prod_short.md)] zu erleichtern. Weitere Informationen zum Einstieg erhalten Sie auch im Artikel [Für eine kostenlose Dynamics 365 Business Central-Testversion anmelden](trial-signup.md).  
+[!INCLUDE [trial-get](includes/trial-get.md)]
+
+Wir empfehlen Ihnen, mit [einem Vertriebspartner](/dynamics365/business-central/across-faq#findpartner) zusammenzuarbeiten, um Ihrem Unternehmen den Einstieg mit [!INCLUDE[prod_short](includes/prod_short.md)] zu erleichtern. Weitere Informationen zum Einstieg erhalten Sie auch im Artikel [Für eine kostenlose Dynamics 365 Business Central-Testversion anmelden](trial-signup.md).  
 
 Abhängig von Ihrem Land oder Ihrer Region umfasst die Testversion die Sprachen und Funktionen, die Ihr Land oder Ihre Region benötigt. Weitere Informationen finden Sie unter [Ändern von Sprache und Gebietsschema](about-locale-language.md).  
 
-In [!INCLUDE[prod_short](includes/prod_short.md)] werden Ihnen einige Elemente vertraut sein und andere nicht. Wenn Sie sich zum ersten Mal bei der Demonstrationsfirma anmelden, erhalten Sie Zugriff auf eine Seite Erste Schritte mit Links zu Anleitungen zur unterstützten Einrichtung, die Ihnen den Einstieg erleichtern können. Weitere Informationen finden Sie in den Artikeln [Vorbereiten auf die Geschäftsabwicklung](ui-get-ready-business.md) und [Schnellstart](quick-start-business-central.md).  
-
-Wenn Sie auf Schwierigkeiten stoßen, kann die Seite [Häufig gestellte Fragen](across-faq.yml) Ihnen bei der Beantwortung einiger Ihrer Fragen hilfreich sein. Wenn Sie sich nicht für die Testversion anmelden können, kann die Seite [Anmeldung zur Fehlerbehebung in der Selbstbedienung](ui-troubleshoot-self-signup.md) helfen. Sie können auch einen [Partner](/dynamics365/business-central/across-faq#findpartner) kontaktieren und ihn bitten, eine kostenlose Testversion oder eine andere Art der Vorschau von [!INCLUDE[prod_short](includes/prod_short.md)] für Sie zu erstellen.  
-
-Wenn Sie [!INCLUDE [prod_short](includes/prod_short.md)] nicht verwenden möchten, können Sie die Testversion ablaufen lassen.  
-
-[!INCLUDE [admin-viral-trial-expiry](includes/admin-viral-trial-expiry.md)]
-
 ### <a name="add-your-own-data-to-an-empty-trial-company"></a>Einem leeren Testunternehmen eigene Daten hinzufügen
 
-Wenn Sie [!INCLUDE[prod_short](includes/prod_short.md)] mit Ihren eigenen Daten ausprobieren möchten, können Sie zu einer kostenlosen 30-tägigen Testversion ohne Beispieldaten wechseln. Mithilfe der Anleitung für die unterstützte Einrichtung **Mein Unternehmen einrichten** können Sie grundlegende Informationen zu Ihrem Unternehmen angeben. Optional können Sie Daten aus Ihrer vorhandenen Geschäftsverwaltungslösung importieren, damit Sie [!INCLUDE[prod_short](includes/prod_short.md)] mit Ihren eigenen Daten auswerten können. Wir empfehlen Ihnen jedoch, keine kostenlose Testversion zu verwenden, um Ihr Unternehmen zu unterstützen. Kontaktieren Sie [einen Vertriebspartner](/dynamics365/business-central/across-faq#findpartner), um mehr Informationen zu den ersten Schritten [!INCLUDE[prod_short](includes/prod_short.md)] zu erhalten. Der Partner kann Ihnen auch dabei helfen, Ihre Daten zu [!INCLUDE [prod_short](includes/prod_short.md)] online zu migrieren.  
+Wenn Sie [!INCLUDE[prod_short](includes/prod_short.md)] mit Ihren eigenen Daten ausprobieren möchten, können Sie zu einer kostenlosen 30-tägigen Testversion ohne Beispieldaten wechseln. Mithilfe der Anleitung für die unterstützte Einrichtung **Mein Unternehmen einrichten** können Sie grundlegende Informationen zu Ihrem Unternehmen angeben. Optional können Sie Daten aus Ihrer vorhandenen Geschäftsverwaltungslösung importieren, damit Sie [!INCLUDE[prod_short](includes/prod_short.md)] mit Ihren eigenen Daten auswerten können. Wir raten Ihnen jedoch dringend davon ab, einen kostenlosen Test zu verwenden, um Ihr Geschäft auszuführen. Kontaktieren Sie [einen Vertriebspartner](/dynamics365/business-central/across-faq#findpartner), um mehr Informationen zu den ersten Schritten [!INCLUDE[prod_short](includes/prod_short.md)] zu erhalten. Der Partner kann Ihnen auch dabei helfen, Ihre Daten zu [!INCLUDE [prod_short](includes/prod_short.md)] online zu migrieren.  
 
-Wenn 30 Tage nicht ausreichen, um eine Entscheidung zu treffen, können Sie Ihre Testversion verlängern. Weitere Informationen finden Sie unter [Benötigen Sie mehr Zeit, um zu entscheiden, ob Sie abonnieren möchten?](admin-extend-trial.md).  
+Wenn Ihnen 30 Tage nicht ausreichen, um sich zu entscheiden, können Sie Ihren Test verlängern. Weitere Informationen finden Sie unter [Benötigen Sie mehr Zeit, um zu entscheiden, ob Sie abonnieren möchten?](admin-extend-trial.md).  
 
 ### <a name="set-up-your-company-in-prod_short"></a>Ihr Unternehmen in [!INCLUDE[prod_short](includes/prod_short.md)] einrichten
 
@@ -65,7 +59,7 @@ Die Seite **Unterstützte Einrichtung** enthält möglicherweise andere Einträg
 
 ### <a name="resetting-your-prod_short-trial-experience"></a>Zurücksetzen Ihrer [!INCLUDE[prod_short](includes/prod_short.md)]-Testversionsumgebung
 
-Wenn Sie Ihrer [!INCLUDE[prod_short](includes/prod_short.md)]-Testversion Daten hinzugefügt haben und Sie möchten nochmal von vorn anfangen, können Sie ein neues Bewertungsunternehmen erstellen und dann das ersten Unternehmen löschen. Öffnen Sie die Seite **Unternehmen** und wählen Sie **Neu**, um die Anleitung **Neues Unternehmen anlegen** unterstützte Einrichtung zu starten. Der Leitfaden kann Ihnen helfen, eine neue Auswertungsfirma mit Beispieldaten einzurichten. Sie können auch eine Kopie Ihres aktuellen Unternehmens erstellen, sich abmelden und sich dann bei Ihrem neuen Unternehmen anmelden.  
+Wenn Sie Ihrem [!INCLUDE[prod_short](includes/prod_short.md)] kostenlosen Test Daten hinzugefügt haben, können Sie immer noch mit einer neuen Erfahrung beginnen. Erstellen Sie einfach eine neue Firma für die Auswertung, und löschen Sie dann die ursprüngliche Firma. Öffnen Sie die Seite **Firmen** und wählen Sie die Aktion **Neu**, um die Anleitung **Neue Firma erstellen** zur unterstützten Einrichtung zu starten. Der Leitfaden kann Ihnen helfen, eine neue Auswertungsfirma mit Beispieldaten einzurichten. Sie können auch eine Kopie Ihres aktuellen Unternehmens erstellen, sich abmelden und sich dann bei Ihrem neuen Unternehmen anmelden.  
 
 > [!IMPORTANT]
 > Wenn Sie [!INCLUDE[prod_short](includes/prod_short.md)] mit anderen Personen in Ihrer Organisation gemeinsam nutzen, müssen Sie sicherstellen, dass keine anderen Personen angemeldet sind, wenn Sie ein Unternehmen löschen.  
@@ -85,14 +79,14 @@ Weitere Informationen zur Verwendung von [!INCLUDE [prod_short](includes/prod_sh
 
 ## <a name="get-started-with-sandboxes"></a>Erste Schritte mit Sandboxes
 
-Sandboxumgebungen können eine Möglichkeit sein, mit [!INCLUDE[prod_short](includes/prod_short.md)] zu üben. Stellen Sie sich eine Sandbox als eine Nicht-Produktionsumgebung vor, die Sie zusätzlich zu Ihrer Produktionsinstanz von [!INCLUDE[prod_short](includes/prod_short.md)] verwenden können. Wenn Sie zum Beispiel das kostenlose Online-Training von [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs) nutzen möchten, kann Ihr Administrator [eine Sandbox-Umgebung](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-sandbox-environment) erstellen. Auf diese Weise können Sie und Ihre Kollegen an einem sicheren Ort üben und nicht in Ihrer Produktionsumgebung.  
+Sandbox-Umgebungen sind eine Möglichkeit für Sie, mit [!INCLUDE[prod_short](includes/prod_short.md)] zu üben. Stellen Sie sich eine Sandbox-Umgebung als eine Nicht-Produktionsumgebung vor, die Sie zusätzlich zu Ihrer Produktionsinstanz von [!INCLUDE[prod_short](includes/prod_short.md)] verwenden. Wenn Sie zum Beispiel das kostenlose Online-Training von [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs) nutzen möchten, kann Ihr Administrator [eine Sandbox-Umgebung](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-sandbox-environment) erstellen. Auf diese Weise können Sie und Ihre Kollegen an einem sicheren Ort üben und nicht in Ihrer Produktionsumgebung.  
 
-Wenn Sie ein Entwickler sind, können Sie mit einer Sandbox sicher Erweiterungen erstellen und testen und neue Funktionalitäten entwickeln, um den Service anzupassen, ohne die Daten und Einstellungen Ihre Produktionsumgebung zu beeinträchtigen.  
+Wenn Sie Entwickler sind, können Sie in einer Sandbox auf sichere Weise Erweiterungen erstellen und testen und neue Funktionen entwickeln, um den Dienst anzupassen, ohne die Daten und Einstellungen Ihrer Produktionsumgebung zu beeinträchtigen.  
 
 Derzeit können alle Kunden eine Sandbox verwenden, auch Organisationen, die sich für eine Testversion angemeldet haben. Weitere Informationen darüber, wie Sie eine Sandbox-Umgebung einrichten, finden Sie unter [Sandbox-Umgebungen](admin-sandbox-environments.md).  
 
 > [!NOTE]
-> Sandboxes, die auf diese Weise erstellt werden, enthalten Demodaten für das fiktive CRONUS-Unternehmen. Keine Daten werden kopiert oder anderswie von der Fertigungsumgebungen während der Sandkastenerstellung transferiert.   
+> Sandboxes, die auf diese Weise erstellt werden, enthalten Demodaten für das fiktive CRONUS-Unternehmen. Keine Daten werden kopiert oder anderswie von der Fertigungsumgebungen während der Sandkastenerstellung transferiert.  
 
 Der Administrator Ihrer [!INCLUDE[prod_short](includes/prod_short.md)] und Ihr Vertriebspartner können weitere Umgebungen im Administrationscenter erstellen. Weitere Informationen finden Sie unter [Das Business Central Admin Center](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center).  
 

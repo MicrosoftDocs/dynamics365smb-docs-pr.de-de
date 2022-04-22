@@ -1,6 +1,6 @@
 ---
 title: Vollständige Planung, Prod.-Programmplanung oder Nettobedarf ausführen
-description: Das Planungssystem kann auf Wunsch entweder die Produktprogrammplanung (MPS) oder die Materialbedarfsplanung (MRP) oder beide gleichzeitig berechnen.
+description: Das Planungssystem kann auf Wunsch entweder den Master Production Schedule (MPS) oder die Materialbedarfsplanung (MRP) berechnen, oder beides gleichzeitig.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -9,16 +9,16 @@ ms.workload: na
 ms.search.form: 99000852, 99000860
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: b8a9f648030e0a307ccd1a086c681ba8492cf357
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 35263f54400865c88694a483bda195957a8f8db4
+ms.sourcegitcommit: 55f42d2407e109b4924218cb22129467b53deb08
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516666"
+ms.lasthandoff: 04/08/2022
+ms.locfileid: "8557249"
 ---
 # <a name="run-full-planning-mps-or-mrp"></a>Vollständige Planung, Prod.-Programmplanung oder Nettobedarf ausführen
 
-Die Begriffe "Planungsarbeitsblatt ausführen" und "Nettobedarf ausführen" beziehen sich auf die Berechnung des Produktionsplans und der Materialbedarfe auf Basis des tatsächlichen und des geplanten Bedarfs. Das Planungssystem kann entweder die Prod.-Programmplanung (Master Planning Schedule, MPS) oder den Nettobedarf (Materialbedarfsplanung, Material Requirements Planning, MRP) auf Anforderung oder beides gleichzeitig berechnen.  
+Die Begriffe "Planungsvorschlag ausführen" und "Nettobedarf ausführen" beziehen sich auf die Berechnung des Produktionsplans und der Materialbedarfe auf Basis des tatsächlichen und des geplanten Bedarfs. Das Planungssystem kann entweder den Master Production Schedule (MPS) oder die Materialbedarfsplanung (MRP) auf Anfrage berechnen, oder beides gleichzeitig.  
 
 -   Prod.-Programmplanung ist die Berechnung eines Produktionsplans, der auf dem tatsächlichen Bedarf und der Absatzplanung basiert. Die Berechnung der Produktionsprogrammplanung wird für Endartikel mit einer Planung oder einer Verkaufsauftragszeile durchgeführt. Diese Artikel werden als „Prod.-Programmplanungsartikel“ bezeichnet und werden dynamisch gekennzeichnet, wenn die Berechnung gestartet wird.  
 -   Nettobedarf ist die Berechnung der Materialbedarfe auf Basis des tatsächlichen Bedarfs für Komponenten sowie der Absatzplanung auf Komponentenebene. Der Nettobedarf wird nur für Artikel berechnet, die keine Prod.-Programmplanungsartikel sind. Der Hauptzweck einer Nettobedarfsplanung besteht darin, terminierte formale Pläne je nach Artikeln aufzustellen, um den richtigen Artikel zur richtigen Zeit am richtigen Ort in der richtigen Menge bereitzustellen.  

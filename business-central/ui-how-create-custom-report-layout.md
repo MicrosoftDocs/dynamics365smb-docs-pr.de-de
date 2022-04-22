@@ -10,23 +10,23 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9650, 9652
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d629b2639325b95ab90db8aaf8ac9a3e5d51fc33
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 74a59567c7eb24673df62fe76b974c9b7bb58bf0
+ms.sourcegitcommit: 55f42d2407e109b4924218cb22129467b53deb08
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511441"
+ms.lasthandoff: 04/08/2022
+ms.locfileid: "8557172"
 ---
 # <a name="legacy-create-and-modify-custom-report-layouts"></a>(Legacy) Erstellen und Ändern benutzerdefinierter Berichtslayouts
 
 [!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
-Standardmäßig haben Berichte ein integriertes Berichtlayout, das entweder ein RDLC-Berichtlayout oder ein Word-Berichtlayout oder beides sein kann. Sie können die integrierten Layouts nicht ändern. Aber Sie können Ihre eigenen angepassten Layouts erstellen, mit denen Sie das Aussehen eines Berichts ändern können, wenn er angezeigt, gedruckt oder gespeichert wird. Sie können mehrere benutzerdefinierte Berichtslayouts für den gleichen Bericht erstellen und anschließend das Layout, das durch einen Bericht verwendet wird, nach Bedarf wechseln.
+Standardmäßig hat ein Bericht ein integriertes Berichtslayout, das entweder ein RDLC-Berichtslayout, ein Word-Berichtslayout oder beides sein kann. Sie können die integrierten Layouts nicht ändern, aber Sie können angepasste Layouts erstellen. Ein Bericht kann über mehrere angepasste Berichtslayouts verfügen, so dass Sie das verwendete Layout nach Bedarf wechseln können.
 
 > [!NOTE]  
 > In [!INCLUDE[prod_short](includes/prod_short.md)] enthält der Begriff "Bericht" auch für extern bestimmte Dokumente wie Verkaufsrechnungen und Bestellungbestätigungen, die Sie den Debitoren als PDF-Dateien senden.
 
-Um ein angepasstes Layout zu erstellen, erstellen Sie entweder eine Kopie eines bestehenden angepassten Layouts oder Sie fügen ein neues angepasstes Layout hinzu, das allgemein auf einem eingebauten Layout basiert. Wenn Sie ein neues Debitorenspezifisches Layout hinzufügen, können Sie wählen, einen RDLC-Berichtslayouttyp, Word-Berichtslayouttyp oder beide hinzuzufügen. Das neue benutzerdefinierte Layout basiert automatisch auf dem integrierten Layout des Berichts, falls einer verfügbar ist. Wenn es kein eingebautes Layout für den Typ gibt, wird ein neues leeres Layout erstellt. Sie müssen dieses leere Layout von Grund auf ändern und gestalten. Weitere Informationen zu RDLC- und Word-Berichtlayouts, integrierten und benutzerdefinierten Layouts und mehr finden Sie unter [Verwalten von Berichtslayouts](ui-manage-report-layouts.md).  
+Um ein angepasstes Layout zu erstellen, erstellen Sie entweder eine Kopie eines vorhandenen Layouts oder fügen ein neues angepasstes Layout hinzu, das häufig auf einem integrierten Layout basiert. Wenn Sie ein neues angepasstes Layout hinzufügen, können Sie wählen, ob Sie einen RDLC- oder einen Word-Berichtslayouttyp oder beides hinzufügen. Das neue angepasste Layout basiert auf dem integrierten Layout für den Bericht, sofern ein solches vorhanden ist. Wenn es kein eingebautes Layout für den Typ gibt, wird ein neues leeres Layout erstellt. Sie müssen dieses leere Layout von Grund auf ändern und gestalten. Weitere Informationen zu RDLC- und Word-Berichtlayouts, integrierten und benutzerdefinierten Layouts und mehr finden Sie unter [Verwalten von Berichtslayouts](ui-manage-report-layouts.md).  
 
 > [!TIP]
 > Verwenden von Kontenplan, um die Einblicke in die Finanzdaten zu kommen, die in Ihrem Kontenplan gespeichert werden. Mehr Informationen finden Sie in [Bereiten Sie Finanzberichte mit Kontenschemata und Kontengruppen vor](bi-how-work-account-schedule.md).
@@ -73,7 +73,7 @@ Um ein Berichtslayout zu ändern, müssen Sie das Berichtslayout zunächst als D
 
    RDLC-Berichtslayouts sind weiter entwickelter als Word-Berichtslayouts. Weitere Informationen zm Ändern eines RDLC-Berichtslayouts finden Sie unter [RDLC-Berichtslayout gestalten](/dynamics-nav/Designing-RDLC-Report-Layouts).
 
-   Denken Sie daran, nach Abschluss die Änderungen zu speichern.
+   Denken Sie daran, Ihre Änderungen zu speichern, wenn Sie fertig sind.
 
 4. Kehren Sie zur Seite **Benutzerdefinierte Berichtslayouts** zurück, das Berichtslayout, die Sie exportiert haben und geändert haben, und wählen die **Layout importieren** Aktion aus.  
 

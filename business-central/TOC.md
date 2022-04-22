@@ -1580,7 +1580,7 @@
 #### Microsoft Teams mit Business Central verwenden
 ##### [Matrix](across-teams-overview.md)
 ##### [Teams-Integration verwalten](admin-teams-integration.md)
-##### [Business Central-App for Teams installieren](across-install-app-for-teams.md)
+##### [Business Central-App für Teams installieren](across-install-app-for-teams.md)
 ##### [Nach Debitoren, Kreditoren und Kontakten suchen](across-search-contacts-teams.md)
 ##### [Datensätze und Seitenlinks in Teams freigeben](across-working-with-teams.md)
 ##### [Firma und andere Einstellungen ändern](across-teams-settings.md)

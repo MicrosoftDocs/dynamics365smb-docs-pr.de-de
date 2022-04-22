@@ -1,6 +1,6 @@
 ---
-title: Kunden oder Kreditoren Beleg-Layouts zuweisen
-description: Wenn angepasste Berichtslayouts definiert sind, können Sie diese aus Kunden- und Lieferantenkarten auswählen, um festzulegen, dass sie für den jeweiligen Kunden oder Kreditor verwendet werden.
+title: Beleg-Layouts Debitoren oder Kreditoren zuweisen
+description: Verwenden Sie Dokumentenlayouts, um das Aussehen und Format von Belegen wie Rechnungen und Bestellungen zu steuern, die Sie an Debitoren und Kreditoren senden.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -9,49 +9,45 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 06/24/2021
+ms.search.form: 21, 9650
+ms.date: 04/07/2022
 ms.author: edupont
-ms.openlocfilehash: cbd0fbea2e1567875dd7bda556271f693234a502
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: f751b13485cf795acef829f40e2ff0c8f689fd0b
+ms.sourcegitcommit: 55f42d2407e109b4924218cb22129467b53deb08
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8510739"
+ms.lasthandoff: 04/08/2022
+ms.locfileid: "8557379"
 ---
 # <a name="define-document-layouts-for-customers-and-vendors"></a>Beleglayouts für Debitoren und Kreditoren definieren
-Wenn benutzerdefinierte Berichtslayouts definiert sind, können Sie diese aus Debitoren- und Kreditorenkarten auswählen, um anzugeben, welche Layouts für verschiedene Arten von Belegen verwendet werden, die Sie für den betreffenden Debitoren oder Kreditoren erstellen. Der Wert im Feld **Verwendung** definiert, für welchen Prozess das Beleglayout verwendet wird, z. B. **Erinnerung**, **Lieferung** und **Bestätigung**.
+Dokumentenlayouts verwenden Berichtslayouts, um das Aussehen und Format von Belegen zu definieren, die Sie an Debitor und Kreditor senden. Business Central bietet Standardlayouts, aber Sie können auch angepasste Layouts für jeden Ihrer Geschäftspartner erstellen. Weitere Informationen finden Sie unter [Erstellen und Ändern benutzerdefinierter Berichtslayouts](ui-how-create-custom-report-layout.md). Sie wählen Standard- und angepasste Beleglayouts aus Debitor- und Kreditorenkarten aus, indem Sie die Aktion **Dokumentenlayouts** wählen. Der Wert im Feld **Verwendung** definiert den Prozess, für den das Beleg-Layout verwendet wird. Für Debitor können Sie zum Beispiel **Erinnerung**, **Versand** und **Bestätigung** als Beleglayout verwenden.
 
-Sie können nicht nur festlegen, welche Layouts für welchen Beleg verwendet werden sollen, sondern auch Zeit sparen, wenn Sie Belege an verschiedene Debitoren- oder Kreditorenkontakte senden, indem Sie die E-Mail-Adressen bestimmter Kontakte für die Verwendung mit bestimmten Belegen einrichten. Beispielsweise werden Kontoauszüge an Buchhalterkontakte gesendet, Verkaufsaufträge an die Käufer Ihrer Debitoren und Einkaufsbestellungen an Verkäufer oder Kundenbetreuer der Kreditoren.
+Dokumentenlayouts können Ihnen auch Zeit sparen, wenn Sie Belege per E-Mail an Debitor- oder Kreditor-Kontakte senden. Für jedes Layout, das Sie dem Debitor oder Kontakt zuweisen, können Sie eine oder mehrere E-Mail-Adressen angeben. So können Sie beispielsweise eine Rechnung an die Kontakte im Einkauf und im Lager des Debitors senden. Das Hinzufügen von Kontakt-E-Mail-Adressen ist ganz einfach. Auf der Seite **Dokumentenlayouts** können Sie mit der Aktion **E-Mail aus Kontakten auswählen** aus einer Liste der E-Mail-Adressen auswählen, die Sie für den Debitor oder Kreditor registriert haben. Sie können E-Mail-Adressen auch manuell hinzufügen. Wenn Sie mehrere Adressen eingeben, trennen Sie diese mit einem Semikolon und fügen Sie keine Leerzeichen zwischen den Adressen ein.
 
-Wenn Sie ein Beleglayout für einen Debitoren oder Kreditoren definieren, können Sie auch die E-Mail-Adresse der Kontaktperson angeben, die den Beleg erhalten muss. Dies können Sie schnell mit der Funktion **E-Mail von Kontakten auswählen** erledigen, die automatisch nach Kontakt-E-Mail-Adressen filtert, die für den betreffenden Debitor oder Kreditor registriert sind.
+Bevor Sie festlegen können, welches Beleglayout für welche Prozesse verwendet werden soll und an welchen Kontakt der Beleg gesendet werden soll, müssen Sie alle verfügbaren Berichte (Belege) von der Seite **Berichtsauswahl** laden. Sie können die Belege schnell laden, indem Sie die Aktion **Kopieren aus Berichtsauswahl** auf der Seite **Dokumentlayouts** verwenden.
 
-Bevor Sie festlegen können, welches Beleglayout für welche Prozesse verwendet werden soll und an welchen Kontakt der Beleg gesendet werden soll, müssen Sie alle verfügbaren Berichte (Belege) von der Seite **Berichtsauswahl** laden. Dies können Sie schnell mit der Funktion **Aus Berichtsauswahl kopieren** erledigen.
+Die Schritte in den folgenden Abschnitten beschreiben, wie Sie die Layouts für Verkaufsbelege auf der Seite **Kundenkarte** definieren. Für Kreditor sind die Schritte auf der Seite **Lieferantenkarte** die gleichen.
 
-Im Folgenden wird beschrieben, wie Sie Verkaufsbeleglayouts aus einer Debitorenkarte definieren. Die Schritte sind dieselben für Einkaufsbeleglayouts aus einer Kreditorenkarte.
+## <a name="to-load-the-standard-document-layouts-for-sales-documents-for-a-customer"></a>So laden Sie die Standardbeleg-Layouts für Verkaufsbelege für einen Debitor
+1. Wählen Sie das Symbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Debitoren** ein und wählen Sie dann den entsprechenden Link.
+2. Öffnen Sie die Seite **Kundenkarte** für den Debitor, und wählen Sie dann die Aktion **Dokumentenlayouts**.
+3. Auf der Seite **Beleglayouts** wählen Sie die Aktion **Aus Berichtsauswahl kopieren** aus.
 
-## <a name="to-enable-all-available-sales-documents-for-a-customer"></a>So aktivieren Sie alle verfügbaren Verkaufsbelege für einen Debitor
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Debitor** ein und wählen Sie dann den entsprechenden Link.
-2. Öffnen Sie die Karte des Debitoren, für den Sie Beleglayouts pro Geschäftsprozess definieren möchten.
-3. Wählen Sie auf der Seite **Debitorenkarte** die Seite **Belegvorlagen** aus.
-4. Auf der Seite **Beleglayouts** wählen Sie die Aktion **Aus Berichtsauswahl kopieren** aus.
-
-Die Seite **Beleglayouts** für den betreffenden Debitor wird mit allen Berichtslayouts für Verkäufe gefüllt, die im System vorhanden sind. Weitere Informationen über ihre Erstellung finden Sie unter [Erstellen und Ändern benutzerdefinierter Berichtslayouts](ui-how-create-custom-report-layout.md).
-
-Sie können nun damit fortfahren, die Liste mit sämtlichen benutzerdefinierten Berichtslayouts oder E-Mail-Adressen für die Kontakte anzupassen, zu denen die Belege gesendet werden müssen.
+Auf der Seite **Dokumentenlayouts** werden alle Layouts angezeigt, die für Verkaufsbelege verfügbar sind. 
 
 ## <a name="to-select-a-custom-report-layout-to-use-for-the-sales-document-layout"></a>So wählen Sie ein benutzerdefiniertes Berichtslayout aus, das für das Verkaufsbeleglayout verwendet werden soll
-Wenn für eines oder mehrere der Berichtslayouts, die auf der Seite **Beleglayouts** für den Debitor definiert sind, kein benutzerdefiniertes Berichtslayout definiert ist, können Sie dies schnell tun.
+Wenn Sie noch kein angepasstes Berichtslayout für die Art des Belegs erstellt haben, müssen Sie dies zuerst tun. Weitere Informationen finden Sie unter [Benutzerdefinierte Berichtslayouts erstellen und ändern](ui-how-create-custom-report-layout.md).
 
-1. Auf der Seite **Beleglayouts** in der Zeile für ein Berichtslayout, für das Sie ein benutzerdefiniertes Layout verwenden möchten, wählen Sie das Feld **Benutzerdefinierte Layoutbeschreibung** aus. Das Feld wird entweder gefüllt, wenn das Debitorenlayout bereits ausgewählt ist oder leer ist.
-2. Auf der Seite **Benutzerdefinierte Berichtslayouts** wählen Sie das spezielle Beleglayout aus, das Sie für die betreffende Verkaufsbelegart verwenden möchten. Weitere Informationen finden Sie unter [Erstellen und Ändern benutzerdefinierter Berichtslayouts](ui-how-create-custom-report-layout.md).
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol, geben Sie **Kunden** ein und wählen Sie dann den entsprechenden Link.
+2. Öffnen Sie die Seite **Kundenkarte** für den Debitor, und wählen Sie dann die Aktion **Dokumentenlayouts**.
+3. Auf der Seite **Beleglayouts** in der Zeile für ein Berichtslayout, für das Sie ein benutzerdefiniertes Layout verwenden möchten, wählen Sie das Feld **Benutzerdefinierte Layoutbeschreibung** aus.
+4. Wählen Sie auf der Seite **Benutzerdefinierte Berichtslayouts** das Dokumentenlayout aus, das Sie für die Art des Verkaufsbelegs verwenden möchten. Weitere Informationen finden Sie unter [Benutzerdefinierte Berichtslayouts erstellen und ändern](ui-how-create-custom-report-layout.md).
 
-## <a name="to-set-up-which-contact-receives-which-document-layout-for-a-customer"></a>So legen Sie fest, welcher Kontakt welches Beleglayout für einen Debitor erhält
-Sie können Zeit sparen, wenn Sie Belege an verschiedene Debitoren- oder Kreditorenkontakte senden, indem Sie Kontakt-E-Mail-Adressen in den verschiedenen Zeilen auf der Seite **Beleglayouts** angeben. Beispielsweise können Kontoauszüge an Buchhalterkontakte gesendet werden, Verkaufsaufträge an die Käufer Ihrer Debitoren und Einkaufsbestellungen an Verkäufer oder Kundenbetreuer der Kreditoren.
+## <a name="to-specify-which-contact-will-receive-which-document-layout-for-a-customer"></a>So legen Sie fest, welcher Kontakt welches Beleg-Layout für einen Debitor erhalten soll
+Um Zeit zu sparen, wenn Sie Belege per E-Mail an Debitor- und Kreditor-Kontakte senden, geben Sie deren E-Mail-Adressen in den Dokumentenlayouts an. So können Sie z.B. Kontoauszüge immer an die Debitor-Kontakte und Verkaufsaufträge an die Einkäufer bzw. Verkäufer/Einkäufer senden.
 
 1. Auf der Seite **Beleglayouts** in der Zeile für ein Berichtslayout, das Sie an einen bestimmten Kontakt für den Debitor senden möchten, wählen Sie die Aktion **E-Mail aus Kontakten auswählen** aus.
-2. Auf der Seite **Kontakte** wählen Sie die Zeile für den relevanten Kontakt aus, und wählen Sie dann die Schaltfläche **OK** aus.
-
-Die E-Mail-Adresse des Kontakts wird nun in die Beleglayoutzeile eingefügt, sodass der betreffende Verkaufsbeleg, z. B. Erinnerungen, immer an diesen Kontakt im Unternehmen des Debitors gesendet wird.
+2. Wählen Sie auf der Seite **Kontakte** einen oder mehrere Kontakte aus, und wählen Sie dann **OK**.
 
 ## <a name="see-also"></a>Siehe auch  
 [Benutzerdefinierte Berichtslayouts aktualisieren](ui-update-report-layouts.md)  
