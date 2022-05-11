@@ -4,15 +4,15 @@ description: Wenn Sie für mehrere Organisationen arbeiten, können Sie schnell 
 author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords: environments, companies, tenants, organization
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 10/04/2021
 ms.author: bholtorf
-ms.openlocfilehash: 1190a09a1e4cb67cb5a7f75732a18980f0aff4aa
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 7a874890fe88b32668b309edb43563f8d11e7555
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514361"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8655384"
 ---
 # <a name="switching-to-another-company-or-environment"></a>Wechseln zu einem anderen Unternehmen oder einer anderen Umgebung
 
@@ -24,6 +24,8 @@ ms.locfileid: "8514361"
 > Wenn Sie häufig zwischen Unternehmen wechseln oder mit [!INCLUDE[prod_short](includes/prod_short.md)] über eine andere App wie Microsoft Teams arbeiten, kann es leicht sein, den Überblick zu verlieren, wo Sie sich befinden. Um den Überblick zu behalten, können Sie eine Markierung hinzufügen, die den Unternehmensnamen anzeigt, sodass Sie schnell überprüfen können, ob Sie sich am richtigen Ort befinden. Weitere Informationen finden Sie unter [So zeigen Sie eine Unternehmensmarkierung für den schnellen Zugriff auf Unternehmensinformationen an](ui-change-basic-settings.md#badge).
 
 Abhängig von Ihrem Browser können Sie die verschiedenen Unternehmen auch an Ihre Favoritenleiste anheften.  
+
+[!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
 ## <a name="switch-to-another-environment"></a>Wechselt zu einer anderen Umgebung
 

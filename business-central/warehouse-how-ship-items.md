@@ -6,15 +6,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 7335, 7337, 7339, 7340, 7341, 7362
+ms.search.form: 7335, 7337, 7339, 7340, 7341, 7362, 9008
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 4a5aec398d502b7041c64a405c11ecb8de29179e
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 5af803495f90590e288ad3d4e919995bb60e06b2
+ms.sourcegitcommit: cfe4e924af2c89c09250270245e7a1eef1184bfc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520630"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "8626603"
 ---
 # <a name="ship-items"></a>Versenden von Artikeln
 

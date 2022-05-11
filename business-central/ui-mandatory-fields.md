@@ -1,32 +1,35 @@
 ---
 title: Zum Abschließen von Prozessen erforderliche Felder
-description: Erhalten von Informationen zu den Feldern, die mit einem roten Sternchen gekennzeichnet werden, das angibt, dass sie benötigt werden und ausgefüllt werden müssen, um Arbeitsgänge benötigt.
+description: Erfahren Sie mehr über Felder, die mit einem roten Sternchen gekennzeichnet sind, was darauf hinweist, dass diese erforderlich und ausgefüllt werden müssen, um einen Prozess abzuschließen.
 author: SusanneWindfeldPedersen
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.search.form: ''
 ms.date: 04/01/2021
 ms.author: solsen
-ms.openlocfilehash: fd114fab64ac6d3f33db2b281d39c9d7a9fc9a1f
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 991478a299f0ee2c31f3b50d98b99fde9dfeb78f
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8513498"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8655150"
 ---
 # <a name="detecting-mandatory-fields"></a>Pflichtfelder erkennen
-Wenn Sie Daten auf Seiten in  [!INCLUDE[prod_short](includes/prod_short.md)] eingeben, werden bestimmte Felder mit einem roten Sternchen markiert. Das rote Sternchen bedeutet, dass das Feld ausgefüllt werden muss, um einen bestimmten Prozess, der das Feld verwendet, abzuschließen (Beispiel: Buchung einer Transaktion, die den Wert in dem Feld verwendet).
 
-Selbst wenn das Feld ein rotes Sternchen enthält, sind Sie nicht gezwungen, das Feld auszufüllen, bevor Sie mit anderen Feldern fortfahren oder die Seite schließen. Das rote Sternchen dient nur als Erinnerung, dass Sie am Beenden eines bestimmten Prozesses gehindert werden.
+Wenn Sie Daten eingeben, wird möglicherweise ein rotes Sternchen neben einem Feld angezeigt. Das Sternchen bedeutet, dass das Feld für einen bestimmten Prozess erforderlich ist. Sie sind beispielsweise dabei, eine Transaktion zu buchen, haben aber ein wichtiges Feld nicht ausgefüllt.
+
+Der visuelle Hinweis zwingt Sie nicht, das Feld auszufüllen. Das rote Sternchen ist eine Erinnerung, dass Sie daran gehindert wurden, einen bestimmten zu beenden.
 
 ## <a name="examples"></a>Beispiele
+
 Auf der Seite **Debitorenkarte** wird im Feld **Name** und in den drei **Buchungsgruppengebieten** das rote Sternchen angezeigt, um anzugeben, dass Sie eine Verkaufstransaktion für den Debitor nur dann buchen können, wenn diese ausgefüllt werden.
 
 Auf der Seite **Artikelkarte** wird das rote Sternchen auf **Beschreibung** und den Basiseinheitencode Feldern angezeigt, um anzugeben, dass Sie den Artikel in einer Belegzeile (beispielsweise in einem Verkaufsauftrag) nur dann eingeben können, wenn auch diese Felder ausgefüllt werden.
 
 ## <a name="see-also"></a>Weitere Informationen
+
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

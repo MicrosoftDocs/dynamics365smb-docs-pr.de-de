@@ -10,12 +10,12 @@ ms.search.keywords: project management, consumption
 ms.search.form: 89, 92, 201, 1007, 1014
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b5030646d04e31983025e054992fa0fb71cf5b4e
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 04ef2fdd1020444711257230688fea927332ed83
+ms.sourcegitcommit: cfe4e924af2c89c09250270245e7a1eef1184bfc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8513861"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "8626265"
 ---
 # <a name="record-consumption-or-usage-for-jobs"></a>Datensatz-Verbrauch oder -Verwendung für Jobs aufzeichnen
 
@@ -69,6 +69,23 @@ Auf diese Weise können Sie die ursprüngliche Planung mit den tatsächlichen Er
 4. Aktualisieren Sie das Buch.-Blatt mit sämtlichen Änderungen, die möglicherweise erforderlich sind.  
 5. Wählen Sie die Aktion **Buchen** aus.
 
+## <a name="create-inventory-and-warehouse-pick-documents-for-a-job"></a>Belege für Bestand und Lagerkommissionierungen für einen Auftrag erstellen
+
+Um Bestands- und Lagerkommissionierungsbelege für Aufträge zu erstellen, muss Ihr Administrator die Funktion **Funktion Aktualisieren: Lagerbestand und Lagerkommissionierungen von Aufträgen aus aktivieren** auf der Seite **Funktionsverwaltung** aktivieren.
+
+Die Funktion erstellt die Aktionen **Lagerkommissionierung erstellen** und **Lagerkommissionierungen erstellen** auf der **Jobkarte**. Um einen Beleg für eine Kommissionierung zu erstellen oder zu registrieren, verwenden Sie die Aktionen **Kommissionierlinien/Bewegungslinien** oder **Registrierte Kommissionierlinien**. Weitere Informationen zu Kommissionierungen finden Sie unter [Entnahme von Artikeln](warehouse-pick-items.md)
+
+Sie können die Aktionen unter den folgenden Bedingungen verwenden:
+* Der **Status** des Auftrags ist **Offen**.
+* Die **Zeilenart** der Auftragsplanungszeile ist **Budget** oder **Budget und abrechenbar**.
+* Der **Typ** der Auftragsplanungszeile ist **Artikel**.
+* **Kommissionieren erforderlich** ist für den entsprechenden Ort aktiviert.
+* **Gerichtetes Kommissionieren und Einlagern** ist deaktiviert.
+
+> [!NOTE] 
+> Obwohl die Einstellung **Kommissionierung vorschreiben** heißt, können Sie den Verbrauch trotzdem direkt aus der Buchungsblattzeile für den Standort kommissionieren. Wenn Ihr Standort so festgelegt ist, dass eine Kommissionierung, aber keine Versandverarbeitung erforderlich ist, verwenden Sie die Seite **Lagerkommissionierung**, um die Kommissionierungsinformationen zu organisieren und zu drucken. Sie verwenden die Seite auch, um das Ergebnis der Kommissionierung einzugeben und zu verbuchen, was wiederum den Verbrauch der Artikel verbucht. 
+> 
+> Wenn Ihr Standort so festgelegt ist, dass sowohl die Kommissionierung als auch die Verarbeitung von Sendungen erforderlich ist, d.h. wenn Sie auf der Seite **Standortkarte** sowohl das Feld **Kommissionierung anfordern** als auch das Feld **Sendung anfordern** ausgewählt haben, verwenden Sie die Seite **Lager-Kommissionierung**, um die Kommissionierung zu bearbeiten. Lagerkommissionierungen sind ähnlich wie Bestandskommissionierungen. Der Unterschied besteht darin, dass Sie die Kommissionierung registrieren, anstatt die Kommissionierungsinformationen zu buchen. Mit dieser Registrierung wird kein Verbrauch gebucht, sondern die Artikel werden lediglich für die Buchung verfügbar gemacht. Als Manager eines Lagers können Sie ein Kommissionierarbeitsblatt verwenden, um die Kommissionierinformationen zu organisieren, bevor Sie die einzelnen Anweisungen für die Kommissionierung im Lager erstellen.
 
 
 ## <a name="to-review-planning-lines-for-a-job-ledger-entry"></a>Um Planungszeilen für einen Projektposten zu überprüfen

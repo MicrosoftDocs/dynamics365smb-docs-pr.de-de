@@ -7,15 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.search.form: ''
 ms.date: 11/30/2021
 ms.author: edupont
-ms.openlocfilehash: 9183d86bcdc82c8a630fd5f58c58277c425219d0
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 65a8379d2b6c534fd69022e4b7c6a7062b6d1471
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8512810"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8654812"
 ---
 # <a name="available-fonts"></a>Verfügbare Schriftarten
 

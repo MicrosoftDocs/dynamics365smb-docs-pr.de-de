@@ -11,17 +11,17 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 78ecb3147ef31bb2ced29aa3c316f9bd5c05ee0b
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 8350b6e2ce73d1f210bcb62a393ac8a76f7d297e
+ms.sourcegitcommit: cfe4e924af2c89c09250270245e7a1eef1184bfc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518835"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "8625517"
 ---
 # <a name="the-paypal-payments-standard-extension"></a>Die PayPal Payments Standard-Erweiterung
 Debitoren erfordern regelmäßig höheren Debitorenservice, sowohl in Bezug auf Produktqualität wie auch in Bezug auf Lieferungs- und Zahlungsoptionen. Mit dem PayPal Payments Standard-Service erhöhen Sie Ihren Debitorenservice.
 
-Als Alternative zu Zahlungen per Banktransfer oder Kreditkarten können Sie Ihren Debitoren anbieten, über PayPal zu bezahlen. Wenn Sie eine Verkaufsrechnung oder einen Verkaufsauftrag per E-Mail versenden, hat es einen PayPal-Link im E-Mail-Text und im angefügten PDF-Dokument. Wenn der Debitor den Link auswählt, erscheint die Service-Seite für Ihr PayPal-Konto mit den Zahlungsdetails für den Verkauf. Der Debitor kann die Rechnung wie jede andere PayPal-Zahlung bezahlen.
+Als Alternative zu Zahlungen per Banktransfer oder Kreditkarten können Sie Ihren Debitoren anbieten, über PayPal zu bezahlen. Wenn Sie eine Verkaufsrechnung per E-Mail versenden, hat es einen PayPal-Link im E-Mail-Text und im angefügten PDF-Dokument. Wenn der Debitor den Link auswählt, erscheint die Service-Seite für Ihr PayPal-Konto mit den Zahlungsdetails für den Verkauf. Der Debitor kann die Rechnung wie jede andere PayPal-Zahlung bezahlen.
 
 Der PayPal Payments Standard-Service hat folgende Vorteile:
 

@@ -7,15 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.search.form: TellMe, 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.search.form: TellMe, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: c8f75b9f2d5be0a7916996362518bb5d49762484
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: e1cbfea9a95d45fe78f0ef83ca2545b9a86a7645
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8512049"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8655748"
 ---
 # <a name="finding-pages-and-information-with-tell-me"></a>Suchen von Seiten und Informationen mit Wie möchten Sie weiter verfahren  
 In diesem Thema wird beschrieben, wie Sie mit „Wie möchten Sie weiter verfahren“ schnell zu Aktionen, Seiten oder Berichten navigieren, Informationen zum Abschluss einer bestimmten Aufgabe finden und zusätzliche Apps und Beratungsdienste für [!INCLUDE[prod_short](includes/prod_short.md)] zu ermitteln.  
@@ -33,6 +33,8 @@ Am unteren Rand des Fensters **Wie möchten Sie weiter verfahren** ist eine Akti
 
 > [!NOTE]  
 >   Wenn Sie Ihre Tastatur vorziehen, nutzen Sie die TAB-TASTE sowie die Pfeiltasten, um ein Element in den Ergebnissen auszuwählen. Wenn Sie auf Ihrer Tastatur auf Eingabe drücken, ohne auf ein Ergebnis zu wählen, öffnet [!INCLUDE[prod_short](includes/prod_short.md)] das Ergebnis, das zuerst aufgeführt wird.
+
+[!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
 ### <a name="finding-an-action-on-the-current-page"></a>Suchen nach einer Aktion auf der aktuelle Seite
 Im Abschnitt **Auf aktueller Seite** können Sie Aktionen auf der geöffneten Seite suchen und ausfüllen. Wenn beispielsweise die **Verkaufsangebot** Seite geöffnet ist und Sie "Debitor" eingeben, umfasst der Abschnitt eine Aktion, mit der die Debitorenkarte für den Debitor geöffnet wird, der im Verkaufsangebot ausgewählt ist.

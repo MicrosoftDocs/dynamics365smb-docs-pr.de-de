@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365
-ms.date: 03/21/2022
+ms.date: 04/21/2022
 ms.author: jswymer
-ms.openlocfilehash: 264dec3372ed33588d0f7f77a3e3b4d4d6795e42
-ms.sourcegitcommit: d6af3155bb818430f22d5caca78df322a8d9b178
+ms.openlocfilehash: ac75505d2f9987037cf04bbe96a0a1eb398c737c
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2022
-ms.locfileid: "8528530"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8655845"
 ---
 # <a name="use-business-central-as-your-business-inbox-in-outlook"></a>Business Central als Posteingang für Ihr Unternehmen in Outlook verwenden
 

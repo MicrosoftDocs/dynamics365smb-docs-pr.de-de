@@ -7,15 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: availability, localization
-ms.search.form: 9018, 9020, 9022, 9027
+ms.search.form: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 386953ce98bdd4d926c8ea8c698bb1463694d0ee
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: a0468ce2d5c58fae7fc8298b4f4bf320ba3540ce
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8334903"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8655722"
 ---
 # <a name="local-functionality-in-prod_long"></a>Lokale Funktion in [!INCLUDE[prod_long](includes/prod_long.md)]
 

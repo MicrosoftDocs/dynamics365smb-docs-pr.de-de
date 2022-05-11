@@ -1,37 +1,41 @@
 ---
 title: Business Central-Daten nach Excel exportieren
-description: Sie können Ihre Finanzberichte und Intelligence-Daten von Business Central in Excel exportieren, oder Ihre Financials Daten in Excel öffnen.
+description: Sie können Ihre Finanzberichte und Intelligence-Daten von Business Central nach Excel exportieren, oder Ihre Financials Daten in Excel öffnen.
 author: edupont04
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, reporting, financial report, business intelligence, BI, Excel
-ms.search.form: 9901, 9018, 9020, 9022, 9027
+ms.search.form: 9901
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 912309636020923e522ea3060abf814c179dcbb1
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 02493bee3940bf1416c2485b0b45016edbca9baa
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521384"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8655176"
 ---
-# <a name="exporting-your-business-data-to-excel"></a>Exportieren Ihrer Geschäftsdaten nach Excel
-Wenn Sie mit Ihren Daten von [!INCLUDE[prod_short](includes/prod_short.md)] in Excel arbeiten, können Sie alle Listen in Excel öffnen und dort damit arbeiten. Möchten Sie das Abonnement für [!INCLUDE[prod_short](includes/prod_short.md)] stornieren, können Sie die Daten in Excel exportieren, sodass Sie diese nicht verlieren.
+# <a name="export-your-business-data-to-excel"></a>Geschäftsdaten nach Excel exportieren
+
+Excel ist ein leistungsstarkes Tool, um mit Daten zu arbeiten. Sie können jede Liste in Excel über [!INCLUDE[prod_short](includes/prod_short.md)] öffnen. Sie können sogar Daten in Excel ändern und dann an [!INCLUDE [prod_short](includes/prod_short.md)] zurücksenden. Mit derselben Funktion können Sie Ihre Daten mühelos mitnehmen, wenn Sie sich entscheiden, Ihr Abonnement zu kündigen.
 
 ## <a name="opening-lists-in-excel"></a>Öffnen von Listen in Excel
+
 Sie können Daten aus jeder Liste, jedem Arbeitsblatt oder jedem Eintrag in Excel öffnen. Sie öffnen einfach die Seite, die Sie anzeigen möchten, und wählen dann **In Excel öffnen**. Beispielsweise öffnen Sie die Liste der Debitoren (nach **Debitoren** suchen) und wählen Sie dann **In Excel öffnen** aus. Ihr Browser fordert Sie auf, das generierte Excel-Arbeitsblatt zu öffnen oder zu speichern.  
 
 > [!NOTE]
 > Verwenden Sie diese Option, wenn Sie keine Änderungen vornehmen und die Änderungen zurück auf [!INCLUDE[prod_short](includes/prod_short.md)] veröffentlichen möchten.  
 
-Jede Liste enthält mehrere Spalten und der Export in Excel enthält sämtliche Spalten, die in Ihrer aktuellen Ansicht enthalten sind. Wenn Sie Spalten hinzufügen oder entfernen möchten, bevor Sie die Liste in Excel öffnen, öffnen Sie das Shortcutmenü für jede mögliche Spalte und geben dann die Spalten an, die angezeigt werden sollen. Diese Liste der Spalten ist für die meisten Listen anders und sie zeigt die Struktur der Datenbank, in der Ihre Daten gespeichert sind. Wenn Sie nicht sicher sind, welche Art der Daten eine bestimmte Spalte enthält, können Sie diese zur Ansicht hinzuzufügen und anschließend entscheiden, ob Sie diese wieder entfernen möchten.  
+Jede Liste enthält einige Spalten. Der Export nach Excel umfasst alle Spalten, die sich in Ihrer aktuellen Ansicht befinden. Ändern Sie die Spalten, indem Sie das Kontextmenü für eine beliebige Spalte öffnen und dann angeben, welche Spalten Sie anzeigen möchten. Die Liste der Spalten ist bei den meisten Listen unterschiedlich. Die Spalten spiegeln die Struktur in der Datenbank wider, in der Ihre Daten gespeichert sind. Wenn Sie nicht sicher sind, welchen Datentyp eine bestimmte Spalte enthält, fügen Sie sie Ihrer Ansicht hinzu. Sie können sie jederzeit wieder entfernen.  
 
 ### <a name="edit-data-in-excel"></a>Daten in Excel bearbeiten
+
 Ihre [!INCLUDE[prod_short](includes/prod_short.md)] Benutzeroberfläche wird das Add-In für Excel integrieren, sodass Sie Daten in Excel bearbeiten können. Weitere Informationen finden Sie unter [Finanzauswertungen analysieren Microsoft Excel](finance-analyze-excel.md).  
 
 ## <a name="exporting-data-to-other-finance-systems"></a>Daten in andere Finanzsysteme exportieren
+
 Wenn Sie Ihre Abonnement für [!INCLUDE[prod_short](includes/prod_short.md)] stornieren möchten, können Sie die Daten in Excel exportieren, damit Sie in Ihrem nächsten Finanzsystem bereitstehen.  
 
 Sie können alle Seiten exportieren, aber möglicherweise benötigen Sie nicht alles. Ziehen Sie in Betracht, nur die wesentlichen Seiten zu exportieren, und denken Sie daran, alle Spalten hinzuzufügen, wie zuvor beschrieben:  
@@ -68,8 +72,9 @@ Es ist empfehlenswert, dass Sie auch erwägen, Daten von den nächsten Seiten zu
 
 > [!NOTE]
 > Sie müssen über mindestens eine der folgenden Berechtigungen verfügen, um Daten in Excel zu öffnen oder zu bearbeiten:
->    - Berechtigungssatz *D365 Excel-Exportaktion*  
->    - Systemberechtigung 6110 *Aktionsexport nach Excel zulassen*.  
+>
+> * Berechtigungssatz *D365 Excel-Exportaktion*  
+> * Systemberechtigung 6110 *Aktionsexport nach Excel zulassen*.  
 
 Weitere Informationen finden Sie unter [So erhalten Sie eine Übersicht der Benutzerberechtigungen](ui-define-granular-permissions.md#to-get-an-overview-of-a-users-permissions).
 

@@ -7,21 +7,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: company, setup wizard
-ms.search.form: 1803, 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.search.form: 1803, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: bef90a9dab30391f310458cb0dde58cc4fac5268
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 40acd79a66452b99d3b6990f05ccfa5e5d3d326e
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519355"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8654968"
 ---
 # <a name="create-new-companies-in-prod_short"></a>Neue Unternehmen in [!INCLUDE[prod_short](includes/prod_short.md)] erstellen
 
-In [!INCLUDE[prod_short](includes/prod_short.md)] wird der Container für Geschäftsdaten, die zu einem Konzernmandanten oder einer juristischen Person gehören, als *Unternehmen* bezeichnet. Wenn Sie sich anmelden [!INCLUDE[prod_short](includes/prod_short.md)], werden Ihnen Demomandanten und ein leeres Unternehmen, *Mein Unternehmen* zugeordnet. Der Wechsel zwischen den Unternehmen ist einfach: Gehen Sie einfach zu **Meine Einstellungen** und wechseln Sie zu dem anderen Unternehmen. Sie können aber auch neue Unternehmen in [!INCLUDE[prod_short](includes/prod_short.md)] gründen, je nach Ihren Geschäftsanforderungen.  
+In [!INCLUDE[prod_short](includes/prod_short.md)] wird der Container für Geschäftsdaten, die zu einem Konzernmandanten oder einer juristischen Person gehören, als *Unternehmen* bezeichnet. Wenn Sie sich für [!INCLUDE[prod_short](includes/prod_short.md)] registrieren, erhalten Sie ein Demounternehmen und ein leeres Unternehmen, *Mein Unternehmen*. Der Wechsel zwischen den Unternehmen ist einfach: Gehen Sie einfach zu **Meine Einstellungen** und wechseln Sie zu dem anderen Unternehmen. Sie können aber auch neue Unternehmen in [!INCLUDE[prod_short](includes/prod_short.md)] gründen, je nach Ihren Geschäftsanforderungen.  
 
 Wenn Sie einen neuen Mandanten erstellen, hilft Ihnen ein unterstütztes Einrichtungshandbuch, die Grundlagen einzurichten. Dann können Sie relevante Daten aus dem Legacysystem oder einem anderen Mandanten in [!INCLUDE[prod_short](includes/prod_short.md)] importieren.  
+
+[!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
 ## <a name="choose-the-right-template"></a>Die richtige Vorlage auswählen
 
@@ -32,9 +34,9 @@ Der Setup-Assistent stellt zwei Vorlagen und eine leere Option zur Verfügung:
 - **Bewertung - Beispieldatei**  
     Dies erstellt einen Mandanten, der gleich ist wie das Demounternehmen mit Beispieldaten und Einrichtungsdaten. Dieser Unternehmenstyp steht Ihnen im Gegensatz zu den anderen Typen ohne Wechsel zu [einem 30-tägigen Testzeitraum](across-preview.md#add-your-own-data-to-an-empty-trial-company) zur Verfügung.  
 - **Produktion - nur Einrichtungsdaten**  
-    Dies erstellt einen Mandanten, der gleich ist wie **Mein Unternehmen** mit Einrichtungsdaten aber ohne Beispieldaten. Sie können dieses Unternehmen für einen [30-tägigen Testzeitraum verwenden](across-preview.md#add-your-own-data-to-an-empty-trial-company).  
+    Dies erstellt einen Mandanten, der gleich ist wie **Mein Unternehmen** mit Einrichtungsdaten aber ohne Beispieldaten. Sie können dieses Unternehmen für einen [30-tägigen Testzeitraum](across-preview.md#add-your-own-data-to-an-empty-trial-company) verwenden.  
 - **Neue Chargennr. erstellen**  
-    Dies erstellt einen leeren Mandanten ohne Einrichtungsdaten. Sie können dieses Unternehmen für einen [30-tägigen Testzeitraum verwenden](across-preview.md#add-your-own-data-to-an-empty-trial-company).  
+    Dies erstellt einen leeren Mandanten ohne Einrichtungsdaten. Sie können dieses Unternehmen für einen [30-tägigen Testzeitraum](across-preview.md#add-your-own-data-to-an-empty-trial-company) verwenden.  
 
 Wenn Sie mit einem neuen Mandanten einfach anfangen möchten, wählen Sie **Produktion - nur Daten einrichten** und importieren dann Ihre eigenen Geschäftsdaten, beispielsweise Debitoren, Kreditoren und Artikel. Wählen Sie die Vorlage aus **Neu**, wenn Sie etwas von Grund auf neu einrichten möchten. In diesem Fall können Sie den unterstützten Einrichtungs-Assistent **Unternehmenseinrichtung** verwenden, um Ihnen zu helfen, mit wesentlichen Einrichtungsdaten anzufangen.  
 
@@ -54,9 +56,9 @@ Auf der Seite **Firmen** können Sie mit der Aktion **Kopieren** eine zweite Fir
 
 Wenn Sie sich in einem neuen Mandanten annmelden, wird der Assistent **Unternehmenseinrichtung** automatisch ausgeführt und hilft Ihnen mit den ersten Schritten. Sie werden um Informationen zu Ihrem Unternehmen, wie zur Adresse, zu den Bankdetails und zur Lagerbestandmethode gebeten. Wir bitten um diese Information, da sie als Grundlage für eine Vielzahl von Bereichen in [!INCLUDE[prod_short](includes/prod_short.md)] verwendet werden, die Sie dann später nicht manuell einrichten müssen.  
 
-Beispielsweise wird Ihre Mandantenadresse in Rechnungen und in anderen Belegen enthalten, werden Ihre Bankinformationen in den Zahlungen verwendet, die Lagerabgangsmethode und wird verwendet, um Preise zu berechnen und auf Lager Bewertung.  
+[!INCLUDE [prod_short](includes/prod_short.md)] enthält beispielsweise Ihre Firmenadresse in Rechnungen und anderen Dokumenten und Ihre Bankdaten in Zahlungen. Die Kostenmethode wird zur Preiskalkulation und Bestandsbewertung verwendet.  
 
-Sobald Sie die Grundlagen bereit haben, können Sie die übrigen Kernbereiche einrichten. Anschließend sind Sie bereit, Geschäftsdaten, beispielsweise Debitoren und Kreditoren einzugeben. Weitere Informationen finden Sie unter [Einrichten von [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).  
+Sobald Sie die Grundlagen bereit haben, können Sie die übrigen Kernbereiche einrichten. Anschließend sind Sie bereit, Geschäftsdaten, beispielsweise Debitoren und Kreditoren, einzugeben. Weitere Informationen finden Sie unter [[!INCLUDE[prod_short](includes/prod_short.md)]](setup.md) einrichten.  
 
 ## <a name="companies-and-environments"></a>Unternehmen und Umgebungen
 
@@ -73,7 +75,7 @@ Sobald ein Unternehmen erstellt wurde, können Sie seinen Namen nicht mehr ände
 
 ## <a name="add-contoso-coffee"></a>Contoso Coffee hinzufügen
 
-Die Contoso Coffee-App stellt Demonstrationsdaten bereit, anhend derer Sie die erweiterten Funktionen von [!INCLUDE [prod_short](includes/prod_short.md)] erkunden können. Suchen Sie die App in AppSource, und installieren Sie sie in einem leeren Unternehmen, beispielsweise einem Unternehmen in einer Sandkastenumgebung. Weitere Informationen finden Sie unter [Einführung in die Demodaten für Contoso Coffee](contoso-coffee/contoso-coffee-intro.md).  
+Die Contoso Coffee-App stellt Demonstrationsdaten bereit, anhand derer Sie die erweiterten Funktionen von [!INCLUDE [prod_short](includes/prod_short.md)] erkunden können. Suchen Sie die App in AppSource, und installieren Sie sie in einem leeren Unternehmen, beispielsweise einem Unternehmen in einer Sandkastenumgebung. Weitere Informationen finden Sie unter [Einführung in die Demodaten für Contoso Coffee](contoso-coffee/contoso-coffee-intro.md).  
 
 ## <a name="see-also"></a>Weitere Informationen
 

@@ -6,16 +6,16 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.search.form: ''
 ms.reviewer: edupont
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 357a4a8d1eba62c3619439558cf81a5fc19f0963
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: c1a28e5bdf796f6ea7d049ca317f061ca7e318b7
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8515979"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8655410"
 ---
 # <a name="post-multiple-documents-at-the-same-time"></a>Mehrere Belege gleichzeitig buchen
 

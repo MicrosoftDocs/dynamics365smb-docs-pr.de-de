@@ -8,15 +8,15 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
 ms. search.keywords: cloud, migrate, insights
-ms.search.form: 9018, 9020, 9022, 9027
+ms.search.form: 4010
 ms.date: 04/12/2021
 ms.author: edupont
-ms.openlocfilehash: 35457b6723ed514fb09d379c55062995d423c24d
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: 6ec6b12bf5a1d4cff1b821f6962387bb11181687
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335136"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8655254"
 ---
 # <a name="intelligent-insights-in-prod_short-online"></a>Intelligente Einblicke in [!INCLUDE[prod_short](includes/prod_short.md)] Online
 

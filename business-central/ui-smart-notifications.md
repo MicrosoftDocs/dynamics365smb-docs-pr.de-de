@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2021
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.search.form: ''
 ms.author: bholtorf
-ms.openlocfilehash: 6bcfb7e570de8c261de05c958716e7116c11cdc1
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: ee3f03eb59df2c991cd0a87dd6e10c07000311cc
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8512706"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8654838"
 ---
 # <a name="manage-notifications"></a>Verwalten von Benachrichtigungen
 

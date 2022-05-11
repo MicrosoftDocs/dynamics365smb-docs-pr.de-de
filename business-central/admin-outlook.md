@@ -7,15 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, Outlook
-ms.search.form: 1831, 1832, 9020, 9022, 9027, 9030, 9004, 9005, 9018, 9006, 9007, 9010
-ms.date: 08/13/2021
+ms.search.form: 1831, 1832
+ms.date: 04/27/2022
 ms.author: jswymer
-ms.openlocfilehash: 619d815fa9697671be9d1db9b7975c2ab7d93920
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: a2c0754aed38d80fc4a088ab7dccec81cb0141e0
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518337"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8654914"
 ---
 # <a name="get-the-business-central-add-in-for-outlook"></a>Holen Sie sich das Business Central-Add-in für Outlook
 
@@ -42,6 +42,9 @@ Das Business Central-Add-in für Outlook besteht aus zwei kleineren Add-ins:
 Weitere Informationen zu den Nutzungsmöglichkeiten des Add-Ins finden Sie unter [Business Central als Unternehmenspostfach in Outlook verwenden](work-outlook-addin.md).
 
 Jedes Add-In wird in Form einer XML-Datei bereitgestellt, die als *Manifest* bezeichnet wird und die von jedem, der diese Funktionalität wünscht, in Outlook installiert werden muss. Diese Dateien beschreiben, wie die Add-Ins aktiviert und mit Business Central verbunden werden, wenn sie in Outlook verwendet werden. Die Arbeit mit diesen Dateien wird normalerweise von einem Admin durchgeführt. Als normaler Benutzer werden Sie in den meisten Fällen nicht direkt mit diesen Dateien arbeiten müssen. Entweder legt Ihr Admin fest, dass das Add-In automatisch für Sie installiert wird, oder Sie verwenden die integrierte unterstützte Einrichtung, um die Installation durchzuführen.
+
+> [!IMPORTANT]
+> Sie arbeiten mit verschiedenen Umgebungen? Das Business Central-Add-in für Outlook ist für das Arbeiten mit einer einzelnen Business Central-Umgebung ausgelegt. Wenn das Add-In installiert ist, wird der Name der Umgebung in das Manifest des Add-Ins aufgenommen. Diese Konfiguration bedeutet, dass das Add-In nur eine Verbindung mit der Umgebung herstellt, über die es installiert wurde. Um das Add-In mit einer anderen Umgebung zu verwenden, öffnen Sie die Umgebung und installieren das Add-In erneut.
 
 ## <a name="deploy-the-add-in-by-using-centralized-deployment-as-an-admin"></a>Bereitstellen des Add-Ins über die zentrale Bereitstellung als Admin
 

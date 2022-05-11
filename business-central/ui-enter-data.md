@@ -7,19 +7,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: decimal separator, data entry, focus
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 03/23/2022
 ms.author: jswymer
-ms.openlocfilehash: 8212dd5d85ee826bb0147a0d09d623c3af14071b
-ms.sourcegitcommit: d6af3155bb818430f22d5caca78df322a8d9b178
+ms.openlocfilehash: fffc72eaa44207779a751c3d85381f830f651eb3
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2022
-ms.locfileid: "8528548"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8655020"
 ---
 # <a name="entering-data"></a>Eingeben von Daten
 
 Es gibt viele allgemeine Funktionen, die Ihnen helfen, Daten einfacher, schneller und präziser einzugeben. Die Grundprinzipien und erweiterten Funktionen für die Eingabe von Daten werden in diesem Artikel beschrieben.  
+
+[!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
 Die Beispiele in diesen Artikel verwendet die Demodaten.
 
@@ -263,7 +265,7 @@ Hier folgen einige Beispiele.
 |6,5 Std.|6 Stunden 30 Minuten|  
 |90 Min.|1 Stunde 30 Minuten|  
 |2 T 6 Std. 30 Min.|2 Tage 6 Stunden 30 Minuten|  
-|2 T 6 Std. 30 Min. 56 Sek. 600 Milisek.|2 Tage 6 Stunden 30 Minuten 56 SeDebitoren 600 MilliseDebitoren|  
+|2d 6h 30m 56s 600ms|2 Tage 6 Stunden 30 Minuten 56 SeDebitoren 600 MilliseDebitoren|  
 
  Sie haben auch die Möglichkeit, eine Zahl einzugeben, die dann automatisch in einen Zeitraum umgewandelt wird. Die eingegebene Zahl wird entsprechend der Standardeinheit konvertiert, die im Feld "Dauer" definiert ist.  
 
