@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: direct shipment
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0ca22eaadb8ba4054ce22782881b487cab6bd5c4
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: bc6530a17e98d36a3f26e68e6231306aebfdda1d
+ms.sourcegitcommit: 2fa712d0aabe4287ebd4454c28d142d6baf045a0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521780"
+ms.lasthandoff: 05/09/2022
+ms.locfileid: "8729775"
 ---
 # <a name="make-drop-shipments"></a>Direktlieferungen machen
 
@@ -30,13 +30,16 @@ Wenn ein Verkaufsauftrag für die Direktlieferung markiert ist und Sie einen Ver
 Um eine Direktlieferung vorzubereiten, erstellen Sie einen normalen Verkaufsauftrag für einen Artikel und geben in der Verkaufsauftragszeile an, dass für den Verkauf Direktlieferung benötigt wird.
 
 1. Legen Sie einen Verkaufsauftrag für einen Artikel an. Weitere Informationen finden Sie unter [Produkte verkaufen](sales-how-sell-products.md)
-2. Aktivieren Sie in der Verkaufsauftragszeile für den Direktlieferungsartikel das Kontrollkästchen **Direktlieferung**. Verwenden Sie die Funktion **Spalten auswählen**, wenn das Feld nicht sichtbar ist. Weitere Informationen finden Sie unter [Personalisieren Sie Ihren Arbeitsbereich](ui-personalization-user.md).
+2. Aktivieren Sie in der Verkaufsauftragszeile für den Direktlieferungsartikel das Kontrollkästchen **Direktlieferung**. 
+
+> [!TIP]
+> Das Kontrollkästchen „Direktlieferung“ ist standardmäßig nicht in den Zeilen verfügbar. In diesem Fall können Sie es hinzufügen, indem Sie den Abschnitt der Seite personalisieren, die die Zeilen enthält. Weitere Informationen finden Sie unter [Personalisieren Sie Ihren Arbeitsbereich](ui-personalization-user.md).
 
 ## <a name="to-create-the-purchase-order-for-drop-shipment"></a>So erstellen Sie Bestellungen für Direktlieferungen:
 
 Um eine Direktlieferung vorzubereiten, geben Sie auf der Bestellung an, dass sie an Ihren Kunden und nicht an Sie selbst versendet werden muss.
 
-1. Erstellen Sie eine Bestellung. Füllen Sie keines dieser Felder in den Zeilen aus. Weitere Informationen finden Sie unter [Erfassen eines Einkaufs](purchasing-how-record-purchases.md).
+1. Erstellen Sie eine Bestellung. Füllen Sie keines dieser Felder in den Zeilen aus. Weitere Informationen finden Sie unter [Käufe erfassen](purchasing-how-record-purchases.md).
 2. Wählen Sie im Feld **Lief. an** **Adresse Debitor** aus.
 3. Wählen Sie im Feld **Debitor** den Debitor aus, an den Sie verkaufen.
 4. Wählen Sie die Aktion **Direktlieferungen** aus, und dann die Aktion **Auftrag holen**.
@@ -45,13 +48,17 @@ Um eine Direktlieferung vorzubereiten, geben Sie auf der Bestellung an, dass sie
 
 Die Zeileninformation aus dem Auftrag werden in die Bestellzeile eingetragen.
 
-Sie können nun den Kreditor anweisen, die Artikel an Ihren Debitoren zu versenden, indem Sie ihm beispielsweise die Bestellung als PDF-Datei senden. Wenn Ihr Kreditor eine Sendungsverfolgungsnummer oder ähnliche Informationen bereitstellt, können Sie diese in einer Bestellposition vom Typ *Kommentar* erfassen.  
+Sie können Ihren Kreditor jetzt anweisen, die Artikel direkt an den Debitor zu versenden. Sie können ihnen beispielsweise die Bestellung per E-Mail senden. 
+
+Wenn Ihr Kreditor eine Sendungsverfolgungsnummer oder ähnliche Informationen bereitstellt, können Sie diese in einer Bestellposition vom Typ *Kommentar* hinzufügen.  
 
 ## <a name="to-create-multiple-purchase-orders-for-drop-shipments"></a>Um mehrere Bestellungen für Direktlieferungen zu erstellen
 
-Sie können auch das Anforderungsarbeitsblatt verwenden, um die Bestellung für den Lieferanten zu erstellen. Der Vorteil der Verwendung des Anforderungsarbeitsblatts besteht darin, dass Bestellungen für alle ausstehenden Direktlieferungen erstellt werden können, sodass Sie nicht jede einzeln erstellen müssen.
+Sie können auch das Anforderungsarbeitsblatt verwenden, um die Bestellung für den Lieferanten zu erstellen. 
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Bestellarbeitsblätter** ein, und wählen Sie dann den entsprechenden Link.
+Der Vorteil der Verwendung des Anforderungsarbeitsblatts besteht darin, dass Bestellungen für alle ausstehenden Direktlieferungen erstellt werden können. Das heißt, diese müssen nicht einzeln erstellt werden.
+
+1. Wählen Sie das Symbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") , geben Sie **Bestellarbeitsblätter** ein, und wählen Sie dann den entsprechenden Link aus.
 2. Wählen Sie die Aktion **Direktlieferungen** aus, und dann die Aktion **Auftrag holen**.
 3. Wählen Sie die Schaltfläche **OK** aus.
 4. Überprüfen Sie die Bestellpositionen und im Feld **Lieferanten-Nr.** wählen Sie den Lieferanten aus, der die erforderlichen Waren liefert. 

@@ -1,130 +1,65 @@
 ---
-title: Ihre Daten mit Power Automate verbinden | Microsoft Docs
-description: Sie können Business Central als Datenquelle zur Verfügung stellen und eine OData-URL Ihrer Webdienste festlegen, um eine Geschäfts-App mithilfe einem automatisierten Workflow erstellen.
+title: Business Central in Power Automate-Flows verwenden
+description: Richten Sie Power Automate-Flows zum Erstellen ode Ändern von Business Central-Daten ein, und verwenden Sie sie.
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: workflow, OData, Power App, SOAP, Entity set not found, workflowWebhookSubscriptions
-ms.date: 07/27/2021
+ms.date: 05/12/2022
 ms.author: edupont
 author: jswymer
-ms.openlocfilehash: 62718df1c80cb419501b72bcbdb6d7a6f9f18402
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 93eb177ff9ba102277a50f9686ea941df33d5563
+ms.sourcegitcommit: 13ac10624bee47c73989b2b20942a01c849b4a6a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518467"
+ms.lasthandoff: 05/12/2022
+ms.locfileid: "8744110"
 ---
-# <a name="use-prod_short-in-an-automated-workflow"></a>[!INCLUDE[prod_short](includes/prod_short.md)] in einem automatisierten Workflow verwenden
+# <a name="use-prod_short-in-power-automate-flows"></a>[!INCLUDE[prod_short](includes/prod_short.md)] in Power Automate-Flows verwenden
 
-Sie können Ihre [!INCLUDE[prod_short](includes/prod_short.md)]-Daten als Teil eines Workflows in Microsoft Power Automate verwenden.
-
-> [!NOTE]
-> Zusätzlich zu Power Automate können Sie die Workflowfunktionalität verwenden in [!INCLUDE[prod_short](includes/prod_short.md)]. Beachten Sie, dass, obwohl es zwei verschiedene Workflowsysteme sind, jede beliebige Workflow-Vorlage, die Sie mit Power Automate erstellen, zur Liste von Workflows in [!INCLUDE[prod_short](includes/prod_short.md)] hinzugefügt wird. Weitere Informationen finden Sie unter [Workflow](across-workflow.md).  
+Sie können Ihre [!INCLUDE[prod_short](includes/prod_short.md)]-Daten als Teil eines Workflows in Microsoft Power Automate verwenden. Erstellen Sie Ihre eigenen Flows, und stellen Sie eine Verbindung mit Ihren Daten mit dem [!INCLUDE [prod_short](includes/prod_short.md)]-Konnektor her.  
 
 > [!NOTE]  
 > Sie müssen ein gültiges Konto bei [!INCLUDE[prod_short](includes/prod_short.md)] und Power Automate haben.  
 
-## <a name="add-prod_short-as-a-data-source-in-power-automate"></a>[!INCLUDE[prod_short](includes/prod_short.md)] als Datenquelle in Power Automate hinzufügen
+> [!TIP]
+> Zusätzlich zu Power Automate können Sie die Vorlagen für Genehmigungsworkflow in [!INCLUDE[prod_short](includes/prod_short.md)] verwenden. Obwohl es zwei verschiedene Workflowsysteme sind, wird jede Vorlage für Genehmigungsworkflows, die Sie mit Power Automate erstellen, der Liste von Workflows in [!INCLUDE[prod_short](includes/prod_short.md)] hinzugefügt. Weitere Informationen finden Sie unter [Workflows](across-workflow.md).  
 
-1. In Ihrem Browser navigieren Sie zu [flow.microsoft.com](https://flow.microsoft.com) und melden sich dann an.
-2. Wählen Sie **Meine Flows** im Menüband oben auf der Seite.
-3. Es gibt drei Möglichkeiten, einen Flow zu erstellen. **Mit Vorlage beginnen**, **Mit leerer Vorlage beginnen**, und **Mit Connector beginnen**. Eine Vorlage ist ein vordefinierter Flow, der für Sie erstellt wurde. Um eine Vorlage zu verwenden, aktivieren Sie sie und erstellen eine Verbindung für jeden Dienst, den die Vorlage verwendet. Mit den Optionen **Mit leerer Vorlage beginnen** und **Mit Connector beginnen** können Sie einen neuen Flow komplett neu erstellen.
-4. Zum Erstellen aus einer leeren Vorlage wählen Sie auf der Seite **Meine Flows** die Optionen **Mit leerer Vorlage beginnen** im **Automatisierter Flow** aus.
-5. Suchen Sie nach **Microsoft [!INCLUDE[prod_long](includes/prod_long.md)]** Connector.
-6. Definieren Sie einen Namen und wählen Sie den Trigger aus, den Sie für Ihren Flow verwenden möchten.
-7. Aus der Liste der verfügbaren Triggern, wählen Sie einen der [!INCLUDE[prod_short](includes/prod_short.md)] verfügbaren Trigger aus:  
+## <a name="automated-workflows"></a>Automatisierte Workflows
 
-    - *Die Genehmigung für einen Kreditor wird angefordert*  
-    - *Genehmigung von Fibu Buch.-Blattzeile wird angefordert* 
-    - *Ein Datensatz wird gelöscht*
-    - *Ein Datensatz wird geändert*
-    - *Ein Datensatz wird erstellt*
-    - *Ein Datensatz wird geändert*
-    - *Genehmigung von Fibu Buch.-Blattname wird angefordert* 
-    - *Die Genehmigung für einen Debitor wird angefordert*
-    - *Die Genehmigung für einen Artikel wird angefordert*
-    - *Die Genehmigung für einen Einkaufsbeleg wird angefordert*
-    - *Ein Verkaufsbeleg wird angefordert*
+Mit Power Automate können Sie Geschäftsabläufe direkt intern erstellen und sich auf Citizen Developer verlassen. Weitere Informationen finden Sie unter [Automatisierte Workflows einrichten](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows) im Verwaltungsinhalt.  
 
-8. Power Automate fordert Sie auf, eine Umgebung und ein Unternehmen innerhalb Ihres [!INCLUDE[prod_short](includes/prod_short.md)]-Tenants und sämtliche Bedingungen in Ihren Daten, die Sie abhören möchten, auszuwählen.
+## <a name="manual-instant-flows"></a>Manuelle Direktflows
 
-    > [!NOTE]
-    > Der [!INCLUDE[prod_short](includes/prod_short.md)] Connector for Microsoft Dynamics for Power Automate unterstützt mehrere Produktions- und Sandbox-Umgebungen. Wenn Sie nicht mehrere Produktions- oder Sandbox-Umgebungen erstellt haben, ist **Produktion** die einzige verfügbare Option, die Sie auswählen können.  
+Ab Mai 2022 kann ein Administrator von [!INCLUDE [prod_short](includes/prod_short.md)] Online kann [eine Funktion einschalten](admin-feature-management.md), um die Ausführung eines Power Automate-Flows von den meisten Seiten aus zu ermöglichen. Weitere Informationen finden Sie unter [Automatisierte Workflows einrichten](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows) im Verwaltungsinhalt.  
 
-    Zu diesem Zeitpunkt haben Sie sich erfolgreich mit Ihren Business Central[!INCLUDE[prod_short](includes/prod_short.md)]-Daten verbunden und sind bereit, Ihren Flow zu erstellen.
+Sobald der Administrator [!INCLUDE [prod_short](includes/prod_short.md)] mit Power Automate verbunden hat, werden alle von Ihrer Organisation hinzugefügten Flows angezeigt, wenn Sie die Aktion **Automatisieren** auf den entsprechenden Seiten auswählen. Sie führen die Flows aus, ohne [!INCLUDE [prod_short](includes/prod_short.md)] zu verlassen.  
 
-9. Um aus einer Vorlage zu erstellen, wählen Sie die Option **Mit Vorlage erstellen** aus.
-10. Suchen Sie nach **Microsoft [!INCLUDE[prod_long](includes/prod_long.md)]**-Vorlangen.
-11. Aus der Liste der verfügbaren Vorlagen wählen Sie eine der verfügbaren Vorlagen aus und wählen Sie **Erstellen**.  
+Diese automatisierten Workflows werden in einem Bereich in [!INCLUDE [prod_short](includes/prod_short.md)] Online geöffnet, damit Sie im Kontext des Geschäftsprozesses bleiben, in dem Sie sich gerade befanden. Auf einigen Seiten ist die Aktion **Automatisieren** unter dem Menü **Weitere Optionen** verborgen. Suchen Sie sie, wählen Sie den Menüpunkt **Power Automate** und dann den entsprechenden Link aus, um den Workflow auszulösen. Die Verknüpfung zu Power Automate ist bereits eingerichtet.  
 
-    - *Genehmigung für Microsoft [!INCLUDE[prod_long](includes/prod_long.md)]-Verkaufsauftrag anfordern*
-    - *Genehmigung für Microsoft [!INCLUDE[prod_long](includes/prod_long.md)]-Verkaufsangebot anfordern*
-    - *Genehmigung für Microsoft [!INCLUDE[prod_long](includes/prod_long.md)]-Verkaufsrechnung anfordern*
-    - *Genehmigung für Microsoft [!INCLUDE[prod_long](includes/prod_long.md)]-Verkaufsgutschrift anfordern*
-    - *Genehmigung für Microsoft [!INCLUDE[prod_long](includes/prod_long.md)]-Debitoren anfordern*
-    - *Genehmigung für Microsoft [!INCLUDE[prod_long](includes/prod_long.md)]-Einkaufsbestellung anfordern*
-    - *Genehmigung für Microsoft [!INCLUDE[prod_long](includes/prod_long.md)]-Einkaufsrechnung anfordern*
-    - *Genehmigung für Microsoft [!INCLUDE[prod_long](includes/prod_long.md)]-EInkaufsgutschrift anfordern*  
-    - *Genehmigung für Microsoft [!INCLUDE[prod_long](includes/prod_long.md)]-Artikel anfordern*
-    - *Genehmigung für Microsoft [!INCLUDE[prod_long](includes/prod_long.md)]-Anbieter anfordern*
-    - *Genehmigung für Microsoft [!INCLUDE[prod_long](includes/prod_long.md)]-Fibu Buch.-Blattname anfordern*  
-    - *Genehmigung für Microsoft [!INCLUDE[prod_long](includes/prod_long.md)]-Fibu Buch.-Blattzeilen anfordern*
-12. Power Automate zeigt eine Liste der Dienste an, die in der Flow-Vorlage verwendet werden und versucht, automatisch eine Verbindung zu diesen Diensten herzustellen. Wenn Sie noch keine Verbindung zu einem Dienst hergestellt haben, werden Sie aufgefordert, sich bei jedem Dienst anzumelden, zu dem Sie eine Verbindung herstellen müssen. Neben jedem Dienst wird ein grünes Häkchen angezeigt, sobald eine Verbindung erfolgreich hergestellt wurde. Wählen Sie **Fortsetzen**.
-13. Power Automate fordert Sie auf, eine Umgebung und ein Unternehmen innerhalb Ihres [!INCLUDE[prod_short](includes/prod_short.md)]-Tenant auszuwählen. Da jeder Schritt im Flow unabhängig vom darauffolgenden ist, werden Sie möglicherweise aufgefordert, die Umgebung und das Unternehmen mehrmals zu definieren, wenn Sie eine [!INCLUDE[prod_short](includes/prod_short.md)] Power Automate-Vorlage verwenden.
+Bei den meisten Flows müssen Sie ein oder zwei Felder ausfüllen, bevor Sie die Aktion **Flow ausführen** ausführen.  
 
-Weitere Informationen finden Sie in der [Power Automate-Dokumentation](/power-automate/getting-started).
+> [!TIP]
+> Wenn die Aktion **Automatisieren** nicht angezeigt wird, wurde [!INCLUDE [prod_short](includes/prod_short.md)] wahrscheinlich noch nicht für die Verwendung von Power Automate eingerichtet. Weitere Informationen erhalten Sie von Ihrem Administrator.
 
-## <a name="troubleshooting"></a>Problembehebung
+## <a name="add-more-automated-flows-and-manual-instant-flows"></a>Weitere automatisierte Flows und manuelle Instant-Flows hinzufügen
 
-### <a name="entity-set-not-found-error"></a>Fehler „Entitätenmenge nicht gefunden“
+Sie können Flows auf der Website [powerautomate.microsoft.com](https://powerautomate.microsoft.com) erstellen. Wenn Ihr Administrator jedoch die Funktion zum Ausführen von Power Automate-Flows in [!INCLUDE [prod_short](includes/prod_short.md)] Online deaktiviert hat, können Sie mit dem Erstellen eines Flows über die Aktion **Automatisieren** auf den entsprechenden Seiten beginnen. Auf einigen Seiten ist die Aktion **Automatisieren** unter dem Menü **Weitere Optionen** verborgen. Suchen Sie sie, wählen Sie den Menüpunkt **Power Automate** und dann die Aktion **Flow erstellen** aus. Power Automate wird dann in einer neuen Browserregisterkarte geöffnet, und Sie werden automatisch angemeldet.
 
-#### <a name="problem"></a>Problem
+## <a name="manage-workflows"></a>Workflows verwalten
 
-Beim Erstellen eines neuen Power Automate-Flows mit einem [!INCLUDE[prod_short](includes/prod_short.md)]-Genehmigungstrigger wie *Die Genehmigung für einen Einkaufsbeleg wird angefordert* erhalten Sie eine ähnliche Fehlermeldung wie:
+Sie erhalten eine Übersicht aller Workflows, auf die Sie Zugriff haben, indem Sie auf die Aktion **Workflows verwalten** im Menü **Power Automate** klicken. Die Liste wird in einer neuen Browserregisterkarte geöffnet, und Sie werden automatisch bei Power Automate angemeldet. Dort können Sie sehen, wann jeder Flow zuletzt ausgeführt wurde.  
 
-**Entitätenmenge nicht gefunden: \<name\>**
+## <a name="see-also"></a>Siehe auch
 
-wobei **\<name\>** der Dienstname des fehlenden Webdienstes, wie **workflowWebhookSubscriptions** oder **workflowPurchaseDocumentLines** ist.
-
-#### <a name="possible-cause"></a>Mögliche Ursache
-
-Die Verwendung von Power Automate zum Integrieren Ihrer [!INCLUDE[prod_short](includes/prod_short.md)]-Genehmigungen erfordert, dass bestimmte Seiten- und Codeunit-Objekte als Webdienste veröffentlicht werden. Standardmäßig werden die meisten erforderlichen Objekte als Webdienste für Sie veröffentlicht. In einigen Fällen wurde Ihre Umgebung jedoch möglicherweise so angepasst, dass diese Objekte nicht mehr veröffentlicht werden.
-
-#### <a name="fix"></a>Fix
-
-Gehen Sie zur Seite **Webdienste**, und stellen Sie sicher, dass die folgenden Objekte als Webdienste veröffentlicht sind. Für jedes Objekt sollte ein Eintrag in der Liste vorhanden sein, mit aktiviertem Kontrollkästchen **Veröffentlicht**. 
-
-|Objekttyp|Objekt-ID|Objektname|Dienstname|
-|-----------|---------|-----------|------------|
-|Codeunit|  1544    |WorkflowWebhookSubscription|WorkflowActionResponse|
-|Seite|  6408|   workflowCustomers|  workflowCustomers|
-|Seite   |6406   |workflowGenJournalBatches| workflowGenJournalBatches|
-|Seite   |6407   |workflowGenJournalLines|workflowGenJournalLines|
-|Seite   |6409   |workflowItems| workflowItems|
-|Seite   |6405   |Entität „EK-Belegzeilen“|workflowPurchaseDocumentLines|
-|Seite|  6404    |workflowPurchaseDocuments| workflowPurchaseDocuments|
-|Seite|  6403    |Entität „VK-Belegzeilen“ |workflowSalesDocumentLines|
-|Seite|  6402|   workflowSalesDocuments| workflowSalesDocuments|
-|Seite|  6410    |workflowVendors|   workflowVendors|
-|Seite|  831 |workflowWebhookSubscriptions|  workflowWebhookSubscriptions|
-
-> [!NOTE]
-> Der Wert **Dienstname** muss genau wie in der Tabelle angegeben sein. Ändern oder übersetzen Sie den Dienstnamen nicht.
-
-Weitere Informationen zum Veröffentlichen von Webdiensten finden Sie unter [Webdienst veröffentlichen](across-how-publish-web-service.md).
-
-## <a name="see-also"></a>Weitere Informationen
-
-[Einrichten des Geschäftsbetriebs](ui-get-ready-business.md)  
-[Workflow](across-workflow.md)  
+[Problembehandlung für automatisierte [!INCLUDE[prod_short](includes/prod_short.md)]-Workflows](across-flow-troubleshoot.md)  
+[Vorbereitungen zum Tätigen von Geschäften](ui-get-ready-business.md)  
+[Workflows](across-workflow.md)  
 [Importieren von Geschäftsdaten aus anderen Finanzsystemen](across-import-data-configuration-packages.md)  
 [Berechtigungen an Benutzer und Gruppen zuweisen](ui-define-granular-permissions.md)  
-[[!INCLUDE[prod_long](includes/prod_long.md)] Workflows verwalten](across-use-workflows.md)  
-[Genehmigungsbenutzereinrichtung](across-how-to-set-up-approval-users.md)  
-[Einrichten [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] einrichten](setup.md)  
 [Finanzen](finance.md)  
-
+[Automatisierte Workflows einrichten](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -10,12 +10,12 @@ ms.search.keywords: relationship, prospect, opportunity, email
 ms.date: 03/22/2022
 ms.search.form: 1680, 1811, 5076
 ms.author: bholtorf
-ms.openlocfilehash: fc755362a5b29cca9eb8e8e403374e173cff3630
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: e14e3b353cd06d348de36c23caa4bcfb1981a6e5
+ms.sourcegitcommit: 2fa712d0aabe4287ebd4454c28d142d6baf045a0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516135"
+ms.lasthandoff: 05/09/2022
+ms.locfileid: "8729937"
 ---
 # <a name="track-email-message-exchanges-between-salespeople-and-contacts"></a>Verfolgen Sie den Austausch von E-Mail-Nachrichten zwischen Verkäufern und Kontakten
 Machen Sie mehr aus der Kommunikation zwischen Ihren Verkäufern und Kunden, indem Sie den E-Mail-Verkehr in umsetzbare Verkaufsmöglichkeiten verwandeln. [!INCLUDE[prod_short](includes/prod_short.md)] kann mit Exchange Online arbeiten, um ein Protokoll der eingehenden und ausgehenden Nachrichten zu erhalten. Sie können den Inhalt jeder Nachricht auf der Seite **Aktivitätenprotokollposten** anzeigen und analysieren.
@@ -67,7 +67,7 @@ Nachrichtenflussregeln suchen nach bestimmten Bedingungen für Nachrichten und e
 
 ---
 
-## <a name="setting-up-prod_short-to-log-email-messages"></a>Einrichten von [!INCLUDE[prod_short](includes/prod_short.md)], um E-Mail-Nachrichten zu protokollieren
+## <a name="set-up-prod_short-to-log-email-messages"></a>[!INCLUDE[prod_short](includes/prod_short.md)] zum Protokollieren von E-Mail-Nachrichten einrichten
 Diese Schritte sind für die aktuellen und neuen Erfahrungen gleich.
 
 Beginnen Sie mit der E-Mail-Protokollierung in zwei einfachen Schritten:
@@ -89,14 +89,27 @@ Beginnen Sie mit der E-Mail-Protokollierung in zwei einfachen Schritten:
 - Zeigen Sie den Inhalt der E-Mail-Nachricht an, die ausgetauscht wurde, indem Sie **Verarbeiten** und dann **Dateianhänge anzeigen** auswählen.
 - Verwandeln Sie einen E-Mail-Austausch in eine Verkaufsmöglichkeit. Wenn ein Eintrag vielversprechend aussieht, können Sie ihn in eine Verkaufschance verwandeln und dann den Fortschritt in Richtung Verkauf steuern. Um einen E-Mail-Austausch in eine Chance zu verwandeln, wählen Sie den Eintrag, dann **Prozess** und dann **Gelegenheit schaffen** aus. Weitere Informationen finden Sie unter [Verkaufschancen verwalten](marketing-manage-sales-opportunities.md).
 
-## <a name="connecting-on-premises-versions-to-microsoft-exchange"></a>Verbinden von lokalen Versionen mit Microsoft Exchange
+## <a name="mailbox-and-folder-limits-in-exchange-online"></a>Postfach- und Ordnerbeschränkungen in Exchange Online
+Es gibt Postfach- und Ordnerbeschränkungen in Exchange Online, darunter Beschränkungen für Ordnergrößen und Anzahl der Nachrichten. Weitere Informationen finden Sie unter [Exchange Online-Beschränkungen](/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#storage-limits) und [Einschränkungen für öffentliche Ordner in Exchange Server](/Exchange/collaboration/public-folders/limits?view=exchserver-2019).
+
+[!INCLUDE[prod_short](includes/prod_short.md)] speichert protokollierte E-Mail-Nachrichten in einem Ordner in Exchange Online. [!INCLUDE[prod_short](includes/prod_short.md)] speichert auch einen Link zu jeder protokollierten Nachricht. Die Links öffnen die protokollierten Nachrichten in Exchange Online auf den Seiten „Interaktionsprotokollposten“, „Kontaktkarte“ und „Verkäuferkarte“ in [!INCLUDE[prod_short](includes/prod_short.md)]. Wenn eine protokollierte Nachricht in einen anderen Ordner verschoben wird, wird der Link beschädigt. Beispielsweise kann eine Nachricht manuell verschoben werden, oder Exchange Online kann AutoSplit automatisch starten, wenn ein Speicherlimit erreicht ist.
+
+Anhand der folgenden Schritte können Sie verhindern, dass Links zu Nachrichten in Exchange Online beschädigt werden.
+
+1. Verschieben Sie vorhandene Nachrichten nicht in einen anderen Ordner, nachdem Sie die Einstellungen für Ihre E-Mail-Protokollierung geändert haben. Wenn Sie vorhandene Nachrichten dort belassen, wo sie sind, bleiben die Links erhalten. Links zu Nachrichten im neuen Ordner sind gültig.
+2. Vermeiden Sie das Erreichen der Postfach- und Ordnerbeschränkungen. Wenn Sie kurz davor sind, eine Beschränkung zu erreichen, führen Sie die folgenden Schritte aus:
+    1. Richten Sie ein neues freigegebenes Postfach (neue Erfahrung) oder einen neuen freigegebenen Ordner (aktuelle Erfahrung) in Exchange Online ein.
+    2. Aktualisieren Sie Ihre E-Mail-Flow-Regeln in Exchange Online.
+    3. Aktualisieren Sie die Einrichtung der E-Mail-Protokollierung in Business Central entsprechend.
+
+## <a name="connect-on-premises-versions-to-microsoft-exchange"></a>Lokale Versionen mit Microsoft Exchange verbinden
 
 Sie können eine Verbindung mit [!INCLUDE[prod_short](includes/prod_short.md)] lokal zum Austausch lokal oder für die Exchange Online Protokollierung verbinden. Für beide Exchange-Versionen sind die Einstellungen für die Verbindung auf der Seite **Marketing-Einrichtung** verfügbar. Für Exchange Online können Sie auch eine unterstützte Einrichtungsanleitung verwenden.
 
 > [!IMPORTANT]
 > Die neue Erfahrung unterstützt keine Verbindung mit Exchange lokal. Wenn Sie Exchange lokal verwenden müssen, aktivieren Sie das Funktionsupdate nicht für die neue Erfahrung.
 
-## <a name="connecting-to-exchange-on-premises"></a>Mit Exchange lokal verbinden
+## <a name="connect-to-exchange-on-premises"></a>Mit lokaler Version von Exchange verbinden
 ## <a name="current-experience"></a>[Aktuelle Erfahrung](#tab/current-experience)
 Verbinden Sie [!INCLUDE[prod_short](includes/prod_short.md)] lokal mit Exchange lokal auf der Seite **Marketing-Einrichtung**. Sie können **Basis** als die **Authentifizierungsart** verwenden. Geben Sie anschließend die Anmeldeinformationen für das Benutzerkonto für Exchange lokal ein. Dann schalten Sie die **aktiviert** Umschaltung ein, um die Protokollierung von E-Mails zu starten.
 
@@ -105,7 +118,7 @@ Die neue Erfahrung unterstützt keine Verbindungen mit Exchange lokal.
 
 ---
 
-## <a name="connecting-to-exchange-online"></a>Verbinden mit Exchange Online
+## <a name="connect-to-exchange-online"></a>Mit Exchange Online verbinden
 Um Exchange Online zu verbinden, müssen Sie eine Anwendung in Azure Active Directory registrieren. Geben Sie die Anwendungs-ID, das Geheimnis des Schlüsseltresors und die Umleitungs-URL an, die für die Registrierung verwendet werden soll. Die Umleitungs-URL ist bereits festgelegt und sollte für die meisten Installationen funktionieren. Weitere Informationen finden Sie unter [So registrieren Sie eine Anwendung in Azure AD für die Verbindung von Business Central mit Exchange Online](marketing-set-up-email-logging.md#to-register-an-application-in-azure-ad-for-connecting-from-business-central-to-exchange-online). 
 
 Sie müssen auch **OAuth2** als **Authentifizierungstyp** verwenden. Sie müssen auch eine Anwendung in registrieren Azure Active Directory. Geben Sie die Anwendungs-ID, das Geheimnis des Schlüsseltresors und die Umleitungs-URL an, die für die Registrierung verwendet werden soll. Die Umleitungs-URL ist bereits ausgefüllt und sollte für die meisten Installationen funktionieren. Weitere Informationen finden Sie weiter unten unter „So registrieren Sie eine Anwendung in Azure AD für die Verbindung von Business Central mit Exchange Online“.
@@ -214,6 +227,8 @@ Deaktivieren Sie Ihr aktuelles Setup, ändern Sie den Benutzer auf der **E-Mail-
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **E-Mail-Protokollierung** ein und wählen Sie dann den zugehörigen Link. 
 2. Wählen Sie **Aktionen** und dann **Token erneuern**.
 3. Melden Sie sich mit dem Exchange Online-Konto an, das der geplante Auftrag für die Verbindung mit dem freigegebenen Postfach und die Verarbeitung von E-Mails verwenden soll.
+
+
 
 ## <a name="see-also"></a>Weitere Informationen
 [Verwalten von Beziehungen](marketing-relationship-management.md)

@@ -8,12 +8,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 5841
 ms.author: edupont
-ms.openlocfilehash: cdb1ff4581e8e2b79f9e2dd015426ee9719e38e6
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: c7be7f69c2b5d2c71b54ac3046900474e0c86f5f
+ms.sourcegitcommit: 2fa712d0aabe4287ebd4454c28d142d6baf045a0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8149153"
+ms.lasthandoff: 05/09/2022
+ms.locfileid: "8729911"
 ---
 # <a name="about-calculating-standard-cost"></a>Informationen zur Berechnung von festen Einstandspreisen
 Viele Produktionsbetriebe verwenden feste Einstandspreise als Bewertungsbasis. Dies gilt auch für Unternehmen, die Leichtproduktion ausführen, wie Montage und Kitting. Ein Einstandspreissystem bestimmt die Kosten einer Lagerbestandseinheit anhand fundierter früherer oder erwarteter Kosten. Untersuchungen der früheren oder der erwarteten zukünftigen Kosten können dann die Basis für feste Einstandspreise bereitstellen. Diese Kosten bleiben unverändert, bis entschieden wird, sie zu ändern. Die Ist-Produktionskosten eines Produkts können von den erwarteten festen Einstandspreisen abweichen. Damit das Management steuernd eingreifen kann, werden die Ist-Kosten eines bestimmten Artikels mit dessen festem Einstandspreis verglichen. Dabei entdeckte Unterschiede oder *Abweichungen* werden gekennzeichnet und analysiert.  
@@ -78,7 +78,7 @@ Zum Berechnen der Standardkapazitätskosten müssen Sie die Standardzeitlöhne f
 Sie können die Sätze für diese Zeitarten für jeden Arbeitsplatz bzw. jede Arbeitsplatzgruppe in einem eigenen Arbeitsplan einrichten.  
 
 > [!NOTE]  
->  Während Bearbeitungszeitsätze pro produziertem Artikel gelten, gelten Rüstzeitsätze pro Los. Daher muss die Arbeitsplanrüstzeit für jeden Arbeitsgang entsprechend der Losgröße umgelegt werden. Die Losgröße wird im entsprechenden Feld auf der Artikelkarte auf dem Inforegister **Bestellung** angegeben.  
+>  Während Bearbeitungszeitsätze pro produziertem Artikel gelten, gelten Rüstzeitsätze pro Los. Daher muss die Arbeitsplanrüstzeit für jeden Arbeitsgang entsprechend der Losgröße umgelegt werden. Die Losgröße wird im entsprechenden Feld im Inforegister **Beschaffung** der Seite **Artikelkarte** angegeben.  
 
 Um Rüstzeiten im Arbeitsgang für die Planung anzugeben, jedoch nicht bei der Einstandspreisberechnung zu berücksichtigen, leeren Sie das Feld **Kosten inkl. Rüsten** auf der Seite **Produktion Einrichtung**.  
 

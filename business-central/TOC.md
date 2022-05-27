@@ -237,21 +237,9 @@
 ##### [So finden Sie gebuchte Belege ohne zugehörige eingehende Belege](across-how-find-posted-documents-without-income-document-records.md)
 ##### [Mehrere eingehende Belege verwalten](across-how-manage-many-income-document-records.md)
 
-### Workflow
+### Workflows
 #### [Workflowübersicht](across-workflow.md)
-#### Einrichten von Workflows
-##### [Einrichten von Workflows](across-set-up-workflows.md)
-##### [Einrichten von Workflowbenutzern](across-how-to-set-up-workflow-users.md)
-##### [Genehmigungsbenutzer einrichten](across-how-to-set-up-approval-users.md)
-##### [Workflow-Benachrichtigungen](across-setting-up-workflow-notifications.md)
-##### [Angeben des Zeitpunkts und der Art des Empfangs von Benachrichtigungen](across-how-to-specify-when-and-how-to-receive-notifications.md)
-##### [Lyouts erstellen und ändern](ui-get-started-layouts.md)
-<!--##### [Create and Modify Custom Report Layouts](ui-how-create-custom-report-layout.md)-->
-##### [E-Mail einrichten](admin-how-setup-email.md)
-##### [Erstellen eines Workflows](across-how-to-create-workflows.md)
-##### [Erstellen von Workflows aus Workflowvorlagen](across-how-to-create-workflows-from-workflow-templates.md)
-##### [Exportieren und Importieren von Workflows](across-how-to-export-and-import-workflows.md)
-##### [Exemplarische Vorgehensweise: Einen Einkaufsanfrage-Genehmigungsworkflow einrichten und verwenden](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
+#### [Business Central in Power Automate-Flows verwenden](across-how-use-financials-data-source-flow.md)
 #### Workflows verwenden
 ##### [Verwenden von Workflows](across-use-workflows.md)
 ##### [Aktivieren von Workflows](across-how-to-enable-workflows.md)
@@ -259,7 +247,7 @@
 ##### [Zulassen und Einschränken des Verbrauchs eines Datensatzes](across-how-to-restrict-and-allow-usage-of-a-record.md)
 ##### [Anzeigen von archivierten Workflowschritt-Instanzen](across-how-to-view-archived-workflow-step-instances.md)
 ##### [Löschen eines Workflows](across-how-to-delete-workflows.md)
-
+<!--data exchange-->
 ### Daten elektronisch austauschen
 #### [OData-Austausch – Übersicht](across-data-exchange.md)
 #### [Über das Datenaustauschframework](across-about-the-data-exchange-framework.md)
@@ -672,6 +660,16 @@
 #### [Servicebuchung](service-service-posting.md)
 #### [Buchen von Serviceaufträgen und Gutschriften](service-how-to-post-service-orders.md)
 #### [Leihen und Zurücknehmen von Leihgeräten](service-how-to-lend-receive-loaners.md)
+<!--Shopify-->
+## Onlineshop mit Shopify
+### [Erste Schritte mit dem Shopify-Konnektor](shopify/get-started.md)
+### [Artikel mit Shopify synchronisieren](shopify/synchronize-items.md)
+### [Debitoren mit Shopify synchronisieren](shopify/synchronize-customers.md)
+### [Verkaufsaufträge mit Shopify synchronisieren und erfüllen](shopify/synchronize-orders.md)
+### [Aufgaben im Hintergrund ausführen](shopify/background.md)
+### [Problembehandlung des Shopify-Konnektors](shopify/troubleshoot.md)
+### [FAQ für den Shopify-Konnektor](shopify/shopify-faq.md)
+
 <!--Company Hub-->
 ## Unternehmens-Hub
 ### [Arbeit über mehrere Unternehmen hinweg mit dem Unternehmens-Hub verwalten](company-hub.md)
@@ -770,10 +768,11 @@
 ##### [Unternehmensnummern und Filialnummern](LocalFunctionality/Belgium/enterprise-numbers-and-branch-numbers.md)
 ##### [Beschränken der Buchungszeiträume](LocalFunctionality/Belgium/how-to-limit-the-posting-period.md)
 ##### [Arbeitsdatum als Buchungsdatum festlegen](LocalFunctionality/Belgium/how-to-set-the-work-date-as-the-posting-date.md)
+##### [Buch-Blattvorlagen als erforderlich festlegen](LocalFunctionality/Belgium/specify-journal-template-mandatory.md)
 
 ### Kanada
 #### [Lokale Funktionen in der kanadischen Version](LocalFunctionality/Canada/canada-local-functionality.md)
-#### Steuer
+#### Steuer 
 ##### [Verkaufssteuern sowie Steuern auf Waren und Dienstleistungen in Kanada melden](LocalFunctionality/Canada/sales-tax-goods-services.md)
 ##### [Verkaufssteuer in Kanada melden](LocalFunctionality/Canada/ca-sales-tax.md)
 ##### [Einrichten unrealisierter Verkaufssteuer und Verkaufs-Skonti](LocalFunctionality/Canada/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)
@@ -820,9 +819,10 @@
 
 ### Dänemark
 #### [Lokale Funktionen in der dänischen Version](LocalFunctionality/Denmark/denmark-local-functionality.md)
-#### MwSt.
+#### Umsatzsteuer
 ##### [MwSt-Abstimmungsbericht drucken](LocalFunctionality/Denmark/how-to-print-vat-reconciliation-reports.md)
 ##### [Zusammenfassende Meldung](LocalFunctionality/Denmark/vat-vies-reporting.md)
+##### [Einrichtung der Umsatzsteuer-Identifikationsnummer für Intrastat](LocalFunctionality/Denmark/vat-registration-no-intrastat.md)
 #### Banking und Zahlungen
 ##### [FIK-Details im Zahlungsabstimmungsbuch.-Blatt](LocalFunctionality/Denmark/fik-details-in-the-payment-reconciliation-journal.md)
 ##### [Die Zahlungs- und Abstimmungs-Erweiterung](ui-extensions-payments-reconciliation-formats-dk.md)
@@ -1329,6 +1329,7 @@
 ##### [Forderungen- Wechselmodul](LocalFunctionality/Spain/receivables-cartera-module.md)
 ##### [Zahlungswechselmodul](LocalFunctionality/Spain/payments-cartera-module.md)
 ##### [SII - Rechnung und Gutschrift mobiler Belegarten in Einkaufs- und Verkaufsbelegen](LocalFunctionality/Spain/SII-invoice-types-sales-purchase-documents.md)
+##### [SII für MwSt.-Abrechnung einrichten](LocalFunctionality/Spain/sii-setup.md)
 #### Kernfinanzierung
 ##### [Einrichten und Abschließen von GuV-Salden](LocalFunctionality/Spain/how-to-set-up-and-close-income-statement-balances.md)
 ##### [Kontenpläne einrücken und validieren](LocalFunctionality/Spain/how-to-indent-and-validate-chart-of-accounts.md)
@@ -1572,6 +1573,17 @@
 ##### [FAQ](ui-outlook-addin-faq.yml)
 ### Berichte einrichten
 #### [Berichtsauswahl](across-report-selections.md)
+### Genehmigungsworkflows basierend auf Vorlagen einrichten
+#### [Genehmigungsworkflows einrichten](across-set-up-workflows.md)
+#### [Einrichten von Workflowbenutzern](across-how-to-set-up-workflow-users.md)
+#### [Genehmigungsbenutzer einrichten](across-how-to-set-up-approval-users.md)
+#### [Workflow-Benachrichtigungen](across-setting-up-workflow-notifications.md)
+#### [Festlegen, wann und wie Sie Workflow-Benachrichtigungen erhalten möchten](across-how-to-specify-when-and-how-to-receive-notifications.md)
+#### [Erstellen eines Workflows](across-how-to-create-workflows.md)
+#### [Erstellen von Workflows aus Workflowvorlagen](across-how-to-create-workflows-from-workflow-templates.md)
+#### [Exportieren und Importieren von Workflows](across-how-to-export-and-import-workflows.md)
+#### [Exemplarische Vorgehensweise: Einen Einkaufsanfrage-Genehmigungsworkflow einrichten und verwenden](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
+<!--Connectors-->
 ### Verbindungen einrichten
 #### [Das Business Central-Add-in für Excel holen](admin-deploy-excel-addin.md)
 #### Business Central als Posteingang für Ihr Unternehmen in Outlook verwenden 
@@ -1606,7 +1618,8 @@
 ###### [Business Central-Apps in Power BI verwenden](across-powerbi-business-central-apps.md)
 ##### [FAQ](power-bi-faq.md)
 #### Power Automate mit Business Central verwenden
-##### [Business Central in einem automatisierten Workflow verwenden](across-how-use-financials-data-source-flow.md)
+##### [Business Central in Power Automate-Flows verwenden](across-how-use-financials-data-source-flow.md)
+##### [Problembehandlung für automatisierte Workflows](across-flow-troubleshoot.md)  
 #### Power Apps mit Business Central verwenden
 ##### [Verknüpfung mit Business Central daten, um eine Geschäfts-App mithilfe von Power Apps zu erstellen](across-how-use-financials-data-source-powerapps.md)
 #### [Von QuickBooks-App zu Business Central wechseln](across-quickbooks-to-business-edition.md)
@@ -1760,23 +1773,6 @@
 ### [Datensensitivität klassifizieren](admin-classifying-data-sensitivity.md)
 ### [Antworten auf Anforderungen zu Personendaten](admin-responding-to-requests-about-personal-data.md)
 ### [Neue Unternehmen erstellen](about-new-company.md)
-### Eine Firma mit RapidStart Services festlegen
-#### [RapidStart – Übersicht](admin-set-up-a-company-with-rapidstart.md)
-#### Richten Sie eine Unternehmenskonfiguration ein.
-##### [Unternehmenskonfiguration – Übersicht](admin-set-up-company-configuration.md)
-##### [So verwalten Sie eine Mandantenkonfiguration in einem Arbeitsblatt](admin-how-to-manage-company-configuration-in-a-worksheet.md)
-##### [So bereiten Sie ein Konfigurationspaket vofr](admin-how-to-prepare-a-configuration-package.md)
-#### Übernehmen von Konfiguration in neue Mandanten
-##### [Konfigurationen für neue Unternehmen übernehmen](admin-apply-configuration-to-new-companies.md)
-##### [Erstellen eines neuen Mandanten](admin-how-to-create-a-new-company.md)
-##### [So konfigurieren Sie einen neuen Mandanten](admin-how-to-configure-new-companies.md)
-##### [So konfigurieren Sie einen Mandanten mit dem RapidStart-Assistenten](admin-how-to-configure-a-company-with-the-rapidstart-wizard.md)
-##### [So kopieren Sie Daten in neue Mandanten](admin-how-to-copy-data-to-new-companies.md)
-##### [So erstellen Sie Buch.-Blatt-Eröffnungssalden](admin-how-to-create-journal-opening-balances.md)
-#### [Sammeln von Einrichtungswerten für Debitoren](admin-gather-customer-setup-values.md)
-#### [Migration von Debitorendaten mit Vorlagen vorbereiten](admin-use-templates-to-prepare-customer-data-for-migration.md)
-#### [Migrieren von Debitorendaten](admin-migrate-customer-data.md)
-#### [Tipps und Tricks: RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)
 ### [Protokolländerungen](across-log-changes.md)
 ### [Verwenden von Aufgabenwarteschlangen für die Aufgabenplanung](admin-job-queues-schedule-tasks.md)
 ### [Verwalten von Speicher durch Datenkomprimierung oder das Löschen von Dokumenten](admin-manage-documents.md)

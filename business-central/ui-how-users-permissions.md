@@ -6,14 +6,14 @@ ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: access, right, security
 ms.search.form: 119, 6300, 6301, 6302, 8930, 9800, 9807, 9808, 9830, 9831, 9838, 9818, 9062, 9061, 9069, 9173
-ms.date: 03/23/2022
+ms.date: 05/09/2022
 ms.author: edupont
-ms.openlocfilehash: 52d8c0fb735bb0667f2219f5ed73e914e236014a
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 77a58c9e4cfc5e9a744d66d0f6b62c06cb430d6b
+ms.sourcegitcommit: 2fa712d0aabe4287ebd4454c28d142d6baf045a0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8512152"
+ms.lasthandoff: 05/09/2022
+ms.locfileid: "8729801"
 ---
 # <a name="create-users-according-to-licenses"></a>Benutzer nach Lizenzen anlegen
 
@@ -28,9 +28,9 @@ Für weitere Informationen zu den verschiedenen Lizenztypen und zur Funktionswei
 
 ## <a name="manage-users-and-licenses-in-online-tenants"></a>Benutzer und Lizenzen in Online-Mandanten verwalten
 
-In der Online-Version von [!INCLUDE[prod_short](includes/prod_short.md)] definiert Ihr Abonnement die Anzahl der Benutzer, die Ihnen erlaubt sind. Benutzer werden Ihrem Mandanten im Microsoft Partner Center hinzugefügt, in der Regel von Ihrem Microsoft-Partner. Weitere Informationen finden Sie unter [Neukunden hinzufügen](/partner-center/add-a-new-customer) und [Kundenabonnements anlegen, aussetzen oder kündigen](/partner-center/create-a-new-subscription) in der Microsoft Partner Center Hilfe.
+Ihr Abonnement von [!INCLUDE[prod_short](includes/prod_short.md)] Online definiert die Anzahl der für Sie zulässigen Benutzer. Benutzer werden Ihrem Mandanten im Microsoft Partner Center hinzugefügt, in der Regel von Ihrem Microsoft-Partner. Weitere Informationen finden Sie unter [Verwaltung von Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration).
 
-Um festzulegen, wer sich bei [!INCLUDE[prod_short](includes/prod_short.md)] anmelden kann, weisen Sie den Benutzern Produktlizenzen entsprechend der Arbeit zu, die sie in [!INCLUDE[prod_short](includes/prod_short.md)] ausführen. Sie können Lizenzen auf verschiedene Arten zuweisen:
+Sie weisen Benutzern Produktlizenzen gemäß der Arbeitsaufgaben zu, die jeder Benutzer in [!INCLUDE[prod_short](includes/prod_short.md)] durchführt. Sie können Lizenzen auf verschiedene Arten zuweisen:
 
 - Der Microsoft 365-Administrator Ihres Unternehmens kann dies im [Microsoft 365 Admin Center](https://admin.microsoft.com) vornehmen. Weitere Informationen finden Sie unter [Benutzer einzeln oder in großen Mengen zu Microsoft 365](/microsoft-365/admin/add-users/add-users) hinzufügen.  
 - Ein Microsoft-Partner kann Lizenzen im Microsoft 365 Admin Center oder im Microsoft Partner Center vergeben. Weitere Informationen finden Sie unter [Benutzerverwaltungsaufgaben für Kundenkonten](/partner-center/assign-licenses-to-users) in der Hilfe zum Microsoft Partner Center.
@@ -39,10 +39,14 @@ Weitere Informationen finden Sie unter [Administration von Business Central Onli
 
 > [!NOTE]
 > Nachdem Sie Benutzer im Microsoft 365 Admin Center der hinzugefügt haben, empfehlen wir, dass Sie die Benutzerinformationen in [!INCLUDE[prod_short](includes/prod_short.md)] so bald wie möglich aktualisieren. Es ist einfach, die Benutzerinformationen auf dem neuesten Stand zu halten und sicherzustellen, dass sich die Benutzer immer anmelden können. Weitere Informationen finden Sie unter [Um Benutzer hinzuzufügen oder Benutzerinformationen und Lizenzzuweisungen in Business Central zu aktualisieren](#adduser).<br>
-> 
-> Das Aktualisieren von Benutzerinformationen ist besonders wichtig, wenn Sie Berechtigungssätze für die Lizenz angepasst haben. Wenn ein neuer Benutzer versucht, sich in [!INCLUDE[prod_short](includes/prod_short.md)] anzumelden, bevor Sie ihn hinzugefügt haben, kann er dies möglicherweise nicht. Weitere Informationen finden Sie unter [Berechtigungen basierend auf Lizenzen konfigurieren](#licensespermissions). 
-> 
+>
+> Das Aktualisieren von Benutzerinformationen ist besonders wichtig, wenn Sie Berechtigungssätze für die Lizenz angepasst haben. Wenn ein neuer Benutzer versucht, sich in [!INCLUDE[prod_short](includes/prod_short.md)] anzumelden, bevor Sie ihn hinzugefügt haben, kann er dies möglicherweise nicht. Weitere Informationen finden Sie unter [Berechtigungen basierend auf Lizenzen konfigurieren](#licensespermissions).
+>
 > Benutzer, bei denen dieses Problem auftritt, werden jedoch nicht wirklich blockiert. Sie können entweder die **Zruck zur Startseite** Aktion verwenden oder sich einfach erneut anmelden, um das Problem zu lösen.
+
+[!INCLUDE [admin-gdap-users](includes/admin-gdap-users.md)]
+
+Weitere Informationen finden Sie unter [Delegierter Administratorzugriff auf Business Central Online](/dynamics365/business-central/dev-itpro/administration/delegated-admin).  
 
 ### <a name="configure-permissions-based-on-licenses"></a><a name="licensespermissions"></a>Berechtigungen auf Grundlage von Lizenzen konfigurieren
 
@@ -50,7 +54,7 @@ Weitere Informationen finden Sie unter [Administration von Business Central Onli
 
 Administratoren können Berechtigungssätze und Benutzergruppen basierend auf den verschiedenen Lizenztypen konfigurieren.<!--Note to translators: The names in *italics* or capitalized in this section must not be translated.-->  
 
-Zum Beispiel ist die häufig verwendete Lizenz *Dynamics 365 Business Central-Teammitglied* standardmäßig für die Benutzergruppen *D365-Teammitglied* und *Excel-Exportaktion* sowie die folgenden Berechtigungssätze eingerichtet:
+Zum Beispiel verfügt die häufig verwendete Lizenz *Dynamics 365 Business Central-Teammitglied* standardmäßig über die Benutzergruppen *D365-Teammitglied* und *Excel-Exportaktion* sowie die folgenden Berechtigungssätze:
 
 - D365 LESEN
 - D365-TEAMMITGLIED
@@ -58,7 +62,7 @@ Zum Beispiel ist die häufig verwendete Lizenz *Dynamics 365 Business Central-Te
 - BERICHT EXPORTIEREN – EXCEL
 - LOKAL
 
-Wenn dies nicht die richtige Einrichtung für einen bestimmten Mandanten ist, kann der Administrator diese Konfiguration ändern. Benutzerdefinierte Berechtigungen wirken sich jedoch nur auf neue Benutzer aus, denen diese Lizenz zugewiesen wurde. Berechtigungen für vorhandene Benutzer, denen die Lizenz zugewiesen wurde, sind davon nicht betroffen.  
+Wenn diese Standardkonfiguration nicht die richtige Einrichtung für einen bestimmten Mandanten ist, kann der Administrator diese Konfiguration ändern. Benutzerdefinierte Berechtigungen wirken sich jedoch nur auf neue Benutzer aus, denen diese Lizenz zugewiesen wurde. Berechtigungen für vorhandene Benutzer, denen die Lizenz zugewiesen wurde, sind davon nicht betroffen.  
 
 1. Melden Sie sich als Administrator bei [!INCLUDE[prod_short](includes/prod_short.md)] mithilfe dem Administratorkonto an.  
 2. Wählen Sie das Symbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Lizenzkonfiguration** ein, und wählen Sie dann den zugehörigen Link.  
@@ -67,19 +71,20 @@ Wenn dies nicht die richtige Einrichtung für einen bestimmten Mandanten ist, ka
 3. Auf der **Lizenzkonfiguration**-Seite wählen Sie die Lizenz aus, die Sie anpassen möchten, und Sie wählen dann die **Konfigurieren**-Aktion aus.  
 4. Wählen Sie das **Berechtigungen anpassen**-Feld, um die Anpassung zu aktivieren, und nehmen Sie dann die entsprechenden Änderungen vor.  
 
-    In unserem Beispiel möchte der Administrator die Berechtigung zum Bearbeiten in Excel entfernen, also entfernt er die *Excel-Exportaktion*-Benutzergruppe aus der Team Member-Lizenz. In Zukunft erhalten neue Benutzer, denen die Team Member-Lizenz zugewiesen wurde, nicht die Möglichkeit, Daten in Excel zu exportieren. Wenn die Organisation ihre Meinung diesbezüglich ändert, können sie einfach zur **Lizenzkonfiguration**-Seite zurückkehren und die Anpassung für diesen Lizenztyp deaktivieren.  
+    In unserem Beispiel möchte der Administrator die Berechtigung zum Bearbeiten in Excel entfernen, also entfernt er die *Excel-Exportaktion*-Benutzergruppe aus der Team Member-Lizenz. In Zukunft erhalten neue Benutzer, denen die Team Member-Lizenz zugewiesen wurde, nicht die Möglichkeit, Daten in Excel zu exportieren. Wenn die Organisation ihre Meinung zu diesem Thema ändert, können sie einfach zur **Lizenzkonfiguration**-Seite zurückkehren und die Anpassung für diesen Lizenztyp deaktivieren.  
 
 > [!IMPORTANT]
 > Diese Anpassung der Berechtigungen wird nur für neue Benutzer wirksam, denen Sie die entsprechende Lizenz zuweisen. Vorhandene Benutzer werden nicht aktualisiert. Wir empfehlen, dass Sie Berechtigungen anpassen, bevor Sie mit der Zuweisung von Benutzerlizenzen im Microsoft 365 Admin Center beginnen.
 
 ### <a name="to-add-users-or-update-user-information-and-license-assignments-in-business-central"></a><a name="adduser"></a>Um Benutzer hinzuzufügen oder Benutzerinformationen und Lizenzzuweisungen in Business Central zu aktualisieren
-Nachdem Sie Benutzer hinzugefügt oder Benutzerinformationen im Microsoft 365 Admin Center geändert haben, können Sie die Benutzerinformationen schnell in [!INCLUDE[prod_short](includes/prod_short.md)] importieren. Der Import enthält Lizenzzuweisungen. 
+
+Nachdem Sie Benutzer hinzugefügt oder Benutzerinformationen im Microsoft 365 Admin Center geändert haben, können Sie die Benutzerinformationen schnell in [!INCLUDE[prod_short](includes/prod_short.md)] importieren. Der Import enthält Lizenzzuweisungen.  
 
 1. Melden Sie sich als Administrator bei [!INCLUDE[prod_short](includes/prod_short.md)] mithilfe dem Administratorkonto an.
 2. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Benutzer** ein, und wählen Sie dann den entsprechenden Link.  
 3. Wählen Sie **Benuzter von Microsoft 365** aktualisieren.
 
-Wenn Sie neue Benutzer hinzufügen, müssen Sie im nächsten Schritt Benutzergruppen und Berechtigungen zuweisen. Weitere Informationen finden Sie unter [Berechtigungen an Benutzer und Gruppen zuweisen](ui-define-granular-permissions.md). Wenn Sie Benutzerinformationen aktualisieren und die Aktualisierung eine Lizenzänderung enthält, werden die Benutzer der entsprechenden Benutzergruppe zugewiesen und ihre Berechtigungssätze werden aktualisiert. Weitere Informationen finden Sie unter [Berechtigungen über Benutzergruppen verwalten](ui-define-granular-permissions.md).  
+Für neue Benutzer hinzufügen müssen Sie im nächsten Schritt Benutzergruppen und Berechtigungen zuweisen. Weitere Informationen finden Sie unter [Berechtigungen an Benutzer und Gruppen zuweisen](ui-define-granular-permissions.md). Wenn Sie Benutzerinformationen aktualisieren und die Aktualisierung eine Lizenzänderung enthält, werden die Benutzer der entsprechenden Benutzergruppe zugewiesen und ihre Berechtigungssätze werden aktualisiert. Weitere Informationen finden Sie unter [Berechtigungen über Benutzergruppen verwalten](ui-define-granular-permissions.md).  
 
 > [!NOTE]
 > Alle Benutzer in einer Umgebung müssen der gleichen Lizenz zugeordnet werden, entweder Essential oder Premium. Weitere Informationen finden Sie im Microsoft Dynamics 365 Business Central-Lizenzierungshandbuch. Der Leitfaden steht auf der Website [Business Central](https://dynamics.microsoft.com/business-central/overview/) zum Herunterladen zur Verfügung.
@@ -91,7 +96,7 @@ Weitere Informationen über die Synchronisierung von Benutzerinformationen mit M
 
 ### <a name="to-remove-a-users-access-to-the-system"></a>So entfernen Sie den Zugriff eines Benutzers auf das System
 
-In Online-Bereitstellungen können Sie einem Benutzer den Zugriff auf [!INCLUDE[prod_short](includes/prod_short.md)] entziehen. Alle Verweise auf den Benutzer bleiben erhalten. Der Benutzer kann sich jedoch nicht anmelden, und aktive Sitzungen für den Benutzer werden beendet.
+Sie können den Zugriff eines Benutzers auf [!INCLUDE[prod_short](includes/prod_short.md)] Online entfernen. Alle Verweise auf den Benutzer bleiben erhalten. Der Benutzer kann sich jedoch nicht anmelden, und aktive Sitzungen für den Benutzer werden beendet.
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Benutzer** ein, und wählen Sie dann den entsprechenden Link.
 2. Öffnen Sie die Seite **Benutzerkarte** für den jeweiligen Benutzer, und wählen Sie dann im Feld **Status** **Deaktiviert**.

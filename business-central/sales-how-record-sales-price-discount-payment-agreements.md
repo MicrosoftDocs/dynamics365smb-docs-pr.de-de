@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 67536b129986343d67c2bc52cc3db8450e177d67
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 5ff042e1dec609b568c36967f56a8cd3673b9558
+ms.sourcegitcommit: 2fa712d0aabe4287ebd4454c28d142d6baf045a0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520153"
+ms.lasthandoff: 05/09/2022
+ms.locfileid: "8729841"
 ---
 # <a name="record-special-sales-prices-and-discounts"></a>Spezielle Verkaufspreise und Rabatte aufzeichnen
 > [!NOTE]
@@ -95,7 +95,14 @@ Wenn Sie das Funktionsupdate **Neue Verkaufspreis-Erfahrung** auf der Seite **Fu
 > [!NOTE]
 > Wenn Preise nur für Artikel- oder Ressourcenkarten festgelegt sind, werden die Standardpreislisten während der Datenaktualisierung nicht mit diesen Preisen ausgefüllt. Sie können jedoch jede der Standardpreislisten oder die Seite Preisarbeitsblatt öffnen und die Aktion **Zeilen vorschlagen** nutzen, um die auf Artikel- oder Ressourcenkarten festgelegten Preise hinzuzufügen. 
 
-* Um Verkaufspreislisten zu verwenden, deaktivieren Sie sie. Bestehende Preise werden für jede Kombination aus Debitor, Debitorengruppe oder Kampagne sowie Start- und Enddatum und Währung in eine neue Preisliste umgewandelt. Wenn Sie viele Kombinationen haben, haben Sie viele Preislisten.
+* Um Verkaufspreislisten zu verwenden, deaktivieren Sie sie. Bestehende Preise werden in eine neue Preisliste für jede Kombination von Folgendem umgewandelt: 
+
+* Debitor
+* Debitorengruppe oder Kampagne
+* Start- und Enddaten
+* Währungen 
+
+Wenn Sie viele Kombinationen haben, haben Sie viele Preislisten.
 
 Wenn Sie die neue Preisgestaltung bereits aktiviert haben, können Sie Standardpreislisten manuell erstellen oder eine vorhandene Preisliste als Standard angeben. Um eine vorhandene Preisliste als Standard festzulegen, aktivieren Sie den Schalter **Aktualisieren von Standardeinstellungen zulassen** auf der Preisliste. Setzen Sie dann auf den Seiten **Einrichtung von Verkäufen und Forderungen**, **Einrichtung von Käufen und Verbindlichkeiten** und **Projekteinrichtung** die Preisliste als standardmäßig.
 
@@ -129,13 +136,14 @@ Falls Sie Verkaufspreise kopieren möchten, wie z. B. den Preis eines einzelnen 
    > Die Stapelverarbeitung erzeugt nur Vorschläge, implementiert die vorgeschlagenen Änderungen aber nicht. Falls Sie die Vorschläge annehmen möchten, d. h. sie auf die Seite **VK-Preise** übernehmen möchten, können Sie die Aktion **Preisvorschlag übernehmen** verwenden, die Sie …auf der Seite **VK-Preisarbeitsblatt** finden.
 
 #### <a name="new-experience"></a>[Neue Erfahrung](#tab/new-experience/)  
+Sie können festlegen, ob die neue Preisliste die Einstellungen aus der Kopfzeile der Liste, die Sie kopieren, oder die Einstellungen der neuen Liste, in die Sie kopieren, verwenden soll. Um die Einstellungen aus der Preisliste zu verwenden, in die Sie Preise kopieren, aktivieren Sie den Umschalter **Standardwerte aus Ziel verwenden** verwenden.
 
 1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Verkaufspreislisten** ein, und wählen Sie dann den zugehörigen Link. 
 2. Wählen Sie die zu kopierende Preisliste aus und wählen Sie dann **Zeilen kopieren**.
 3. Füllen Sie die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
    > [!NOTE]
-   > Sie können nicht zwei Zeilen mit denselben Einstellungen, aber unterschiedlichen Preisen verwenden. In diesem Fall wird eine Meldung angezeigt, wenn Sie eine Preisliste aktivieren. Sie können den zu verwendenden Preis auswählen, indem Sie die Liste öffnen und den falschen Preis löschen.  
+   > Es dürfen keine zwei Artikel mit identischen Einstellungen, aber unterschiedlichen Preisen vorhanden sein. In diesem Fall wird eine Meldung angezeigt, wenn Sie die Preisliste aktivieren. Sie können den zu verwendenden Preis auswählen, indem Sie die Liste öffnen und den falschen Preis löschen.  
   
 ---
 
@@ -146,8 +154,8 @@ Diese Schritte unterscheiden sich je nachdem, ob Ihr Administrator das Feature-U
 
 Wenn Sie Artikelpreise, wie alle Lagerzugangs-Artikelpreise durch einen Prozentsatz auf einmal aktualisieren möchten, müssen Sie Verkaufspreisarbeitsblatt mithilfe der folgenden Batchvorgänge ausfüllen:
 
-* **VK-Preis vorschlagen** schlägt Änderungen vor, indem ein Anpassungsfaktor auf vorhandene Verkaufspreise angewendet oder vorhandene Verkaufspreisvereinbarungen auf andere Debitoren, Debitorpreisgruppen oder Verkaufsaktionen kopieren.
-* **Artikelpreis auf dem Arbeitsblatt vorschlagen** Schlägt Änderungen vor, indem ein Anpassungsfaktor auf vorhandene Einheitspreise auf Artikelkarten angewendet wird oder indem Preise für neue Kombinationen von Währungen, Maßeinheiten usw. vorgeschlagen werden. Die Stückpreise für Artikel werden durch diesen Batch-Job nicht geändert.  
+* **VK-Preis vorschlagen** schlägt Änderungen auf eine von zwei Arten vor. Indem ein Anpassungsfaktor auf vorhandene Verkaufspreise angewendet oder vorhandene Verkaufspreisvereinbarungen auf andere Debitoren, Debitorpreisgruppen oder Verkaufsaktionen kopiert werden.
+* **Artikelpreis auf dem Arbeitsblatt vorschlagen** schlägt Änderungen auf eine von zwei Arten vor. Indem ein Anpassungsfaktor auf vorhandene Einheitspreise auf Artikelkarten angewendet oder Preise für neue Kombinationen von Währungen, Maßeinheiten usw. vorgeschlagen werden. Die Stückpreise für Artikel werden durch diesen Batch-Job nicht geändert.  
 
 1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Verkaufspreisarbeitsblatt** ein, und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die Aktion **Artikelpreis auf dem Arbeitsblatt vorschlagen** aus.  
@@ -168,9 +176,9 @@ Um die Preise für mehrere Artikel zu aktualisieren, müssen Sie eine neue Preis
 ---
 
 ## <a name="best-price-calculation"></a>Beste Preisberechnung
-Nachdem Sie Sonderpreise und Zeilenrabatte für Verkäufe und Käufe erfasst haben, sorgt [!INCLUDE[d365fin](includes/d365fin_md.md)] dafür, dass Ihre Gewinne immer optimal sind. Es berechnet den besten Preis für Verkaufs- und Einkaufsbelege sowie für Auftrags- und Artikelerfassungszeilen.
+Nachdem Sie Sonderpreise und Zeilenrabatte für Verkäufe und Käufe erfasst haben,, berechnet [!INCLUDE[d365fin](includes/d365fin_md.md)] den besten Preis für Verkaufs- und Einkaufsbelege sowie für Auftrags- und Artikelerfassungszeilen berechnen.
 
-Der beste Preis ist der niedrigste mögliche Preis mit dem höchsten möglichen Zeilenrabatt an einem bestimmten Datum. [!INCLUDE[d365fin](includes/d365fin_md.md)] berechnet die besten Preise, wenn Sie den Verkaufspreis und den prozentualen Zeilenrabatt für Artikel auf neuen Beleg und Buch.-Blattzeilen eingefügt haben.
+Der beste Preis ist der niedrigste Preis mit dem höchsten Zeilenrabatt an einem bestimmten Datum. [!INCLUDE[d365fin](includes/d365fin_md.md)] berechnet die besten Preise, wenn Sie den Verkaufspreis und die prozentualen Zeilenrabatte für Artikel auf neuen Beleg- und Buch.-Blattzeilen eingefügt haben.
 
 > [!NOTE]  
 > Nachfolgend wird erläutert, wie die besten Preise für Verkäufe berechnet werden. Die Berechnung ist die gleiche wie für Einkäufe.
@@ -199,7 +207,7 @@ Bevor Sie Rechnungsrabatte mit Verkäufen verwenden können, müssen Sie einige 
 
 Wenn Sie Rechnungsrabatte automatisch berechnen möchten, aktivieren Sie auf der Seite **Debitoren & Verkauf Einr.** den Umschalter für **Rechnungsrabatt berechnen**.  
 
-Für jeden Debitor können Sie festlegen, ob Sie Rechnungsrabatte gewähren, wenn eine Rechnung bestimmte Kriterien erfüllt. Zum Beispiel, wenn der Rechnungsbetrag groß genug ist. Rechnungsrabatte können in Landeswährung für inländische Debitoren oder in Fremdwährung für ausländische Debitoren gewährt werden.  
+Sie können für jeden Debitor festlegen, ob Sie Rechnungsrabatte gewähren, wenn eine Rechnung bestimmte Kriterien erfüllt. Zum Beispiel, wenn der Rechnungsbetrag groß genug ist. Rechnungsrabatte können in Landeswährung für inländische Debitoren oder in Fremdwährung für ausländische Debitoren gewährt werden.  
 
 Sie verknüpfen Rabattprozentsätze mit bestimmten Rechnungsbeträgen auf den Seiten **Debitorenrechnungsrabatte** für jeden Debitor. Sie können eine beliebige Anzahl von Prozentsätzen auf jeder Seite eingeben. Jeder Debitor kann eine eigene Seite haben, oder Sie können verschiedene Debitoren mit der gleichen Seite verknüpfen.  
 
