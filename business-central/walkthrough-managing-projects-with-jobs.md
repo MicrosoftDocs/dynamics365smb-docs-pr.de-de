@@ -84,7 +84,7 @@ Im Mittelpunkt dieser exemplarischen Vorgehensweise steht CRONUS, ein Entwicklun
     - **Name**: **Katrin**  
     - **Art**: **Person**  
 
-4.  Wählen Sie im Feld **Basismaßeinheit** die Option **Neu**, um die Seite **Ressourceneinheit** zu öffnen. Wählen Sie im Feld **Code** die Option **Stunde** aus.  
+4.  Wählen Sie im Feld **Basiseinheit** die Option **Neu**, um die Seite **Ressourceneinheit** zu öffnen. Wählen Sie im Feld **Code** die Option **Stunde** aus.  
 5.  Geben Sie auf dem Inforegister **Fakturierung** die folgenden Informationen ein:  
 
     - **EK-Preis**: **5**  

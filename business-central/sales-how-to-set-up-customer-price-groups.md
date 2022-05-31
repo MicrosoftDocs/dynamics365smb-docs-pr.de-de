@@ -38,7 +38,7 @@ Wenn Sie sich auf die Preise geeinigt haben, die die Gruppe von Debitoren für b
   
 4. Füllen Sie das Feld **Verkaufscode** mit dem Verkaufscode aus, den Sie auf der vorherigen Seite ausgewählt haben.  
   
-5. Füllen Sie die Felder in den Zeilen mit der **Artikel Nr.**, **Maßeinheit Code** und dem vereinbarten **Maßeinheitspreis** aus. Sie können auch die Spalte **Variantencode** einblenden und den **Variantencode** angeben, wenn es mehrere Varianten des Elements gibt.  
+5. Füllen Sie die Felder in den Zeilen mit der **Artikel Nr.**, **Einheit Code** und dem vereinbarten **Einheitspreis** aus. Sie können auch die Spalte **Variantencode** einblenden und den **Variantencode** angeben, wenn es mehrere Varianten des Elements gibt.  
   
 6. Wenn die Debitorengruppe eine Mindestmenge kaufen muss, um den vereinbarten Preis zu erhalten, füllen Sie das Feld **Minimalmenge** aus.  
 

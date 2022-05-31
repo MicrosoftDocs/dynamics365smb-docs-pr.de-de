@@ -85,7 +85,7 @@ Anschließend müssen Sie erstellen mit den beiden Artikeln verschiedene Einkauf
     |Rennradrahmen|STÜCK|ROHMAT|MWST25|ROHMAT|CHARGEALLE|  
 
     > [!NOTE]  
-    >  Um die Basismaßeinheit einzugeben, wählen Sie die Schaltfläche **Neu**, und wählen Sie dann **PSC** auf der Seite **Artikeleinheiten** aus.  
+    >  Um die Basiseinheit einzugeben, wählen Sie die Schaltfläche **Neu**, und wählen Sie dann **PSC** auf der Seite **Artikeleinheiten** aus.  
 
 4. Alle anderen Felder enthalten geeignete Standarddaten oder müssen nicht ausgefüllt werden.  
 5. Klicken Sie auf **OK**, um die erste neue Artikelkarte, 2000, zu erstellen.  
@@ -97,7 +97,7 @@ Anschließend müssen Sie erstellen mit den beiden Artikeln verschiedene Einkauf
     |Rennrad|STÜCK|HANDEL|MWST25|FERTIG|Fertigungsauftrag|SNALLE|  
 
     > [!NOTE]  
-    >  Um die Basismaßeinheit einzugeben, wählen Sie die Schaltfläche **Neu**, und wählen Sie dann **PSC** auf der Seite **Artikeleinheiten** aus.  
+    >  Um die Basiseinheit einzugeben, wählen Sie die Schaltfläche **Neu**, und wählen Sie dann **PSC** auf der Seite **Artikeleinheiten** aus.  
 
     Als Nächstes müssen Sie die Produktionseinrichtung des Artikels definieren.
 

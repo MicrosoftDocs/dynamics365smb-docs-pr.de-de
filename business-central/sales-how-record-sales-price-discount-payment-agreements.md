@@ -155,7 +155,7 @@ Diese Schritte unterscheiden sich je nachdem, ob Ihr Administrator das Feature-U
 Wenn Sie Artikelpreise, wie alle Lagerzugangs-Artikelpreise durch einen Prozentsatz auf einmal aktualisieren möchten, müssen Sie Verkaufspreisarbeitsblatt mithilfe der folgenden Batchvorgänge ausfüllen:
 
 * **VK-Preis vorschlagen** schlägt Änderungen auf eine von zwei Arten vor. Indem ein Anpassungsfaktor auf vorhandene Verkaufspreise angewendet oder vorhandene Verkaufspreisvereinbarungen auf andere Debitoren, Debitorpreisgruppen oder Verkaufsaktionen kopiert werden.
-* **Artikelpreis auf dem Arbeitsblatt vorschlagen** schlägt Änderungen auf eine von zwei Arten vor. Indem ein Anpassungsfaktor auf vorhandene Einheitspreise auf Artikelkarten angewendet oder Preise für neue Kombinationen von Währungen, Maßeinheiten usw. vorgeschlagen werden. Die Stückpreise für Artikel werden durch diesen Batch-Job nicht geändert.  
+* **Artikelpreis auf dem Arbeitsblatt vorschlagen** schlägt Änderungen auf eine von zwei Arten vor. Indem ein Anpassungsfaktor auf vorhandene Einheitspreise auf Artikelkarten angewendet oder Preise für neue Kombinationen von Währungen, Einheiten usw. vorgeschlagen werden. Die Stückpreise für Artikel werden durch diesen Batch-Job nicht geändert.  
 
 1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Verkaufspreisarbeitsblatt** ein, und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die Aktion **Artikelpreis auf dem Arbeitsblatt vorschlagen** aus.  

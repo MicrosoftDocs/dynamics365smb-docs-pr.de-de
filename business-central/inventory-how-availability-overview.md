@@ -100,10 +100,10 @@ Die Seite **Artikelverfügbarkeit nach Stücklistenebene** zeigt Informationen f
 Das Feld **Engpass** gibt an, welcher Artikel in der Stücklistenstruktur verhindert, dass eine größere Menge als die im Feld **Festlegen als übergeord. Artikel möglich** angezeigte Menge hergestellt werden kann. Beispielsweise kann der Engpass-Artikel eine eingekaufte Komponente mit einem erwarteten Lieferdatum sein, die aber zu spät eintrifft, um zusätzliche Einheiten des Artikels bis zu dem Datum im Feld **Erforderlich bis Datum** herzustellen.
 
 ## <a name="to-view-the-availability-of-an-item-by-its-units-of-measure"></a>So zeigen Sie die Verfügbarkeit eines Artikels anhand dessen Einheiten an
-Die Seite **Artikelverfügbarkeit nach Einheit** zeigt die Verfügbarkeit eines Artikels in den Maßeinheiten an, in denen er gespeichert ist.
+Die Seite **Artikelverfügbarkeit nach Einheit** zeigt die Verfügbarkeit eines Artikels in den Einheiten an, in denen er gespeichert ist.
 
 > [!NOTE]  
-> Um diese Informationen korrekt zu halten, müssen Sie Artikeleinheiten konvertieren. Wenn Sie beispielsweise einen Artikel in einer Maßeinheit kaufen, z. B. Kisten, und Artikel in einer anderen Maßeinheit verkaufen, z. B. Teile, müssen Sie eine Buch.-Blattzeile verwenden, um die Maßeinheiten zu konvertieren, oder Artikel „auspacken“. Sie können einen Artikel Buch.-Blattzeile für einen Abgang verwenden, um den Lagerbestand in der Einkaufsmaßeinheit, z. B. Kisten, zu reduzieren, und einen Zugang, um den Lagerbestand in der Verkaufsmengeneinheit, z. B. Stück, zu erhöhen. 
+> Um diese Informationen korrekt zu halten, müssen Sie Artikeleinheiten konvertieren. Wenn Sie beispielsweise einen Artikel in einer Einheit kaufen, z. B. Kisten, und Artikel in einer anderen Einheit verkaufen, z. B. Teile, müssen Sie eine Buch.-Blattzeile verwenden, um die Einheiten zu konvertieren, oder Artikel „auspacken“. Sie können einen Artikel Buch.-Blattzeile für einen Abgang verwenden, um den Lagerbestand in der Einkaufseinheit, z. B. Kisten, zu reduzieren, und einen Zugang, um den Lagerbestand in der Verkaufsmengeneinheit, z. B. Stück, zu erhöhen. 
 
 ## <a name="assembly-availability-page"></a>Montageverfügbarkeitsseite
 Die Seite **Montageverfügbarkeit** zeigt detaillierte Verfügbarkeitsinformationen für den Montageartikel an. Es wird geöffnet:

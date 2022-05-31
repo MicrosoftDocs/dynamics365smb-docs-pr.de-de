@@ -56,7 +56,7 @@ Testen Sie dieses Szenario, indem Sie die folgenden Schritte ausführen.
 
 1. Erstellen Sie ein **Element** namens TEST mit den folgenden Werten:  
 
-     - Basismaßeinheit = PCS  
+     - Basiseinheit = PCS  
 
      - Kostenberechnungsmethode = Durchschnitt  
 
@@ -195,7 +195,7 @@ Testen Sie dieses Szenario, indem Sie die folgenden Schritte ausführen:
 
 1.  Erstellen Sie einen **Element** Belastung mit den folgenden Werten:  
 
-     - Basismaßeinheit = PCS  
+     - Basiseinheit = PCS  
 
      - Lagerabgangsmethode = Durchschnitt  
 

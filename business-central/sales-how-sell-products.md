@@ -59,7 +59,7 @@ Sie können direkt gezahlte Rechnungen für nicht-registrierte Debitoren auch er
 7. Geben Sie in dem Feld **Menge** die Anzahl des Artikels an, der verkauft werden soll.
 
     > [!NOTE]  
-    > Für Artikel des Typs *Ressource* oder *Service* ist die Menge eine Zeiteinheit wie Stunden, wie im Feld **Maßeinheitencode** der Zeile angegeben. Weitere Informationen finden Sie unter [Einrichten von Einheiten](inventory-how-setup-units-of-measure.md).
+    > Für Artikel des Typs *Ressource* oder *Service* ist die Menge eine Zeiteinheit wie Stunden, wie im Feld **Einheitencode** der Zeile angegeben. Weitere Informationen finden Sie unter [Einrichten von Einheiten](inventory-how-setup-units-of-measure.md).
 
     Das Feld **Zeilenmenge** wird aktualisiert, um den Wert im Feld **VK-Preis** multipliziert ist mit dem Wert im Feld **Menge** anzuzeigen.
 

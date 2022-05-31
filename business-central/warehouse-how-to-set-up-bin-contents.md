@@ -30,7 +30,7 @@ Nachdem Sie Ihre Lagerplätze eingerichtet haben, können Sie die Lagerplatzinha
 
 Wählen Sie bei Bedarf das Feld **Fix** aus. Wenn der Lagerplatz als Standardlagerplatz für den Artikel verwendet werden soll, wählen das Feld **Standardlagerplatz**.  
 
-Wenn Sie die gesteuerte Einlagerung und Kommissionierung verwenden und die richtigen Dimensionsinformationen auf der Artikelkarte zu den Maßeinheiten jedes Artikels eingegeben haben, wird die Höchstmenge, die Sie auf der Seite **Lagerplatzinhalt** eingeben, gegen die physische Kapazität des Lagerplatzes geprüft. Dann werden die minimale und maximale Menge verwendet, wenn die Lagerplatzauffüllung berechnet und Einlagerungen vorgeschlagen werden.  
+Wenn Sie die gesteuerte Einlagerung und Kommissionierung verwenden und die richtigen Dimensionsinformationen auf der Artikelkarte zu den Einheiten jedes Artikels eingegeben haben, wird die Höchstmenge, die Sie auf der Seite **Lagerplatzinhalt** eingeben, gegen die physische Kapazität des Lagerplatzes geprüft. Dann werden die minimale und maximale Menge verwendet, wenn die Lagerplatzauffüllung berechnet und Einlagerungen vorgeschlagen werden.  
 
 Wenn Sie das Feld **Fest** wählen, legen Sie diesen Lagerplatz für diesen Artikel fest. Das bedeutet, dass [!INCLUDE[prod_short](includes/prod_short.md)] versuchen wird, diesen Artikel in den Lagerplatz einzulagern, wenn dort Platz ist. Sie wird an dieser Festlegung sogar dann festhalten, wenn die Menge im Lagerplatz 0 ist. Andere Artikel können in den Lagerplatz eingelagert werden, obwohl ein bestimmter Artikel als Standard für den Lagerplatz festgelegt wurde. Andere Artikel können in den Lagerplatz eingelagert werden, obwohl ein bestimmter Artikel dem Lagerplatz fest zugewiesen wurde.  
 

@@ -74,7 +74,7 @@ Der Betriebskalender kann nun einer Arbeitsplatzgruppe zugewiesen werden, um ein
 4. Wählen Sie die Aktion **Kalender** aus.  
 5. Klicken Sie auf der Seite **Arbeitsplatzgruppenkalender** auf **Aktionen, Matrix anzeigen**.  
 
-    Links auf der Matrixseite werden die eingerichteten Arbeitsplatzgruppen aufgelistet. Rechts befindet sich ein Kalender, in dem die verfügbaren Kapazitäten pro Arbeitstag in der definierten Maßeinheit angegeben werden, z. B. **480** Minuten. Jede Zeile stellt den Kalender einer Arbeitsplatzgruppe dar.  
+    Links auf der Matrixseite werden die eingerichteten Arbeitsplatzgruppen aufgelistet. Rechts befindet sich ein Kalender, in dem die verfügbaren Kapazitäten pro Arbeitstag in der definierten Einheit angegeben werden, z. B. **480** Minuten. Jede Zeile stellt den Kalender einer Arbeitsplatzgruppe dar.  
 
     > [!NOTE]  
     >  Sie können die Kapazitätswerte auch pro Woche oder Monat anzeigen, indem Sie die Auswahl im Feld **Anzeigen nach** auf dem Inforegister Matrixoptionen auf der Seite **Arbeitsplatzgruppenkalender** ändern.  

@@ -70,7 +70,7 @@ Das Standardkonfigurationspaket unterstützt die folgenden Tabellen:
 - Debitorenbuchungsgruppe
 - Kreditorenbuchungsgruppe
 - Lagerbuchungsgruppe
-- Maßeinheit
+- Einheit
 - Gen. Geschäftsbuchungsgrp.
 - Gen. Produktbuchungsgruppe
 - Buchungsmatrix Einrichtung

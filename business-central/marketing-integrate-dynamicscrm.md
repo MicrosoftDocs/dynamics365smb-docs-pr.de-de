@@ -49,13 +49,13 @@ In einigen Fällen müssen Sie projektspezifische Datenbestände vor anderen Dat
 |Daten|Was zuerst koppeln|
 |-----|----|
 |Debitoren und Konten|Paare von Verkäufern mit [!INCLUDE[crm_md](includes/crm_md.md)] Benutzer|
-|Artikel und Ressourcen|Koppeln von Maßeinheiten mit [!INCLUDE[crm_md](includes/crm_md.md)]-Einheitengruppen|
+|Artikel und Ressourcen|Koppeln von Einheiten mit [!INCLUDE[crm_md](includes/crm_md.md)]-Einheitengruppen|
 |Artikel und Ressourcenpreise|Koppeln Sie Kundenpreisgruppen mit [!INCLUDE[crm_md](includes/crm_md.md)]-Preisen|
 
 > [!NOTE]  
 > Wenn Ihre Preise oder Debitoren Fremdwährungen verwenden, stellen Sie sicher, dass Sie Währungen mit Sales-Transaktionswährungen koppeln.
 
-In [!INCLUDE[crm_md](includes/crm_md.md)] hängen Debitorenaufträge von Informationen wie Debitoren, Mengeneinheiten, Währungen, Debitorenpreisgruppen und Artikeln und/oder Ressourcen ab. Damit Verkaufsaufträge arbeiten, müssen Sie Debitoren, Maßeinheiten, Währungen, Debitorenpreisgruppen, Artikel und/oder Ressourcen koppeln.
+In [!INCLUDE[crm_md](includes/crm_md.md)] hängen Debitorenaufträge von Informationen wie Debitoren, Mengeneinheiten, Währungen, Debitorenpreisgruppen und Artikeln und/oder Ressourcen ab. Damit Verkaufsaufträge arbeiten, müssen Sie Debitoren, Einheiten, Währungen, Debitorenpreisgruppen, Artikel und/oder Ressourcen koppeln.
 
 ## <a name="fully-synchronizing-records"></a>Datensätze vollständig synchronisieren
 Am Ende der Anleitung zur unterstützten Einrichtung können Sie die Aktion **Vollständige Synchronisierung ausführen** wählen, um die Synchronisierung aller [!INCLUDE[prod_short](includes/prod_short.md)]-Datensätze mit allen zugehörigen Datensätzen in [!INCLUDE[crm_md](includes/crm_md.md)] zu starten. Auf der Seite **Dynamics 365 Sales vollständige Synchronisierung prüfen** wählen Sie die Aktion **Starten** aus. Die vollständige Synchronisierung kann einige Zeit in Anspruch nehmen, aber Sie können die Arbeit in [!INCLUDE[prod_short](includes/prod_short.md)] fortsetzen, während sie im Hintergrund läuft.

@@ -103,7 +103,7 @@ Wenn Sie eine maximale Menge eines bestimmten Artikels für die Speicherung in e
 Bevor Sie Kapazitätseinschränkungen für Lagerplatzinhalte an einem Lagerplatz einrichten, müssen Sie zuerst prüfen, ob die Mengeneinheit und die Dimensionen des Artikels auf der Artikelkarte eingerichtet wurden.  
 
 > [!NOTE]  
-> Es kann nur mit mehrfachen Maßeinheiten in WMS-Installationen verfahren werden. In allen anderen Konfigurationen können Lagerplatzinhalte nur in der Basismengeneinheit platziert werden. In allen Transaktionen mit einer Einheit größer als die Basiseinheit des Artikels wird die Menge in die Basiseinheit umgewandelt.  
+> Es kann nur mit mehrfachen Einheiten in WMS-Installationen verfahren werden. In allen anderen Konfigurationen können Lagerplatzinhalte nur in der Basismengeneinheit platziert werden. In allen Transaktionen mit einer Einheit größer als die Basiseinheit des Artikels wird die Menge in die Basiseinheit umgewandelt.  
 
 ## <a name="zone"></a>Servicegebiet
 

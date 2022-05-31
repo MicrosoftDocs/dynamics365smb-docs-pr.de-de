@@ -168,7 +168,7 @@ Wenn der Auftrag später als vollständig fakturiert gebucht wird, werden der Ve
     |Feld|Wert|  
     |---------------------------------|-----------|  
     |**Beschreibung**|Kit A – Basis-PC|  
-    |**Basismaßeinheit**|STÜCK|  
+    |**Basiseinheit**|STÜCK|  
     |**Artikelkategoriencode**|Sonst.|  
     |**Beschaffungsmethode**|Montage|  
     |**Montagerichtlinie**|Lagermontage|  
@@ -192,7 +192,7 @@ Wenn der Auftrag später als vollständig fakturiert gebucht wird, werden der Ve
     |Feld|Wert|  
     |---------------------------------|-----------|  
     |**Beschreibung**|Kit B – Profi-PC|  
-    |**Basismaßeinheit**|STÜCK|  
+    |**Basiseinheit**|STÜCK|  
     |**Artikelkategoriencode**|Sonst.|  
     |**Beschaffungsmethode**|Montage|  
     |**Montagerichtlinie**|Programmfertigung|  

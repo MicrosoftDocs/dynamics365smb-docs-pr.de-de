@@ -61,7 +61,7 @@ sections:
 
       | Felder in den Inforegistern | Felder im Inforegister auf Listenseiten werden nicht angezeigt. Im Inhaltsbereich der Seite wird nur das Steuerelement Wiederholung angezeigt. | Nicht verfügbar. |  |
 
-      | Aus vollständiger Liste auswählen | Nicht verfügbar bei Suchen. Benutzer können keine Aktionen auf einer Suchseite ausführen und können nicht auf alle Datensätze zugreifen. | Nicht verfügbar bei Suchen. Benutzer können keine Aktionen auf einer Suchseite ausführen und können nicht auf alle Datensätze zugreifen. | Auf der `Item Card` bei der Auswahl der **Basismaßeinheit**. |
+      | Aus vollständiger Liste auswählen | Nicht verfügbar bei Suchen. Benutzer können keine Aktionen auf einer Suchseite ausführen und können nicht auf alle Datensätze zugreifen. | Nicht verfügbar bei Suchen. Benutzer können keine Aktionen auf einer Suchseite ausführen und können nicht auf alle Datensätze zugreifen. | Auf der `Item Card` bei der Auswahl der **Basiseinheit**. |
 
       | Suchen Sie über Listenspalten hinweg | Teilweise unterstützt. Die Suche enthält keine FlowFields. | Teilweise unterstützt. Die Suche enthält keine FlowFields. | Siehe Beispiele auf der `Customers` Listenseite. |
 

@@ -345,9 +345,9 @@ Hier folgen einige Beispiele.
 
 Sie haben auch die Möglichkeit, eine Zahl einzugeben, die automatisch in einen Zeitraum umgewandelt wird. Die eingegebene Zahl wird entsprechend der Standardeinheit konvertiert, die im Feld "Dauer" definiert ist.
 
-Geben Sie eine Zahl ein, um ermitteln, welche Maßeinheit in einem Dauerfeld verwendet wird. Dann können Sie sehen, in welche Maßeinheit es umgerechnet wird.
+Geben Sie eine Zahl ein, um ermitteln, welche Einheit in einem Dauerfeld verwendet wird. Dann können Sie sehen, in welche Einheit es umgerechnet wird.
 
-Wenn die Maßeinheit beispielsweise Stunden ist, wird die Zahl 5 in 5 Std. konvertiert.
+Wenn die Einheit beispielsweise Stunden ist, wird die Zahl 5 in 5 Std. konvertiert.
 
 ## <a name="see-also"></a>Weitere Informationen
 

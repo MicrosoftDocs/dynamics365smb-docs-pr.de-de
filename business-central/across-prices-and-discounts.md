@@ -30,7 +30,7 @@ Sie könne zwei Arten von Rabatten einrichten und verwenden:
 
 | Rabattart | Beschreibung |
 | --- | --- |
-| **Zeilenrabatt** |Ein Rabattbetrag, der für Zeilen in Verkaufs- und Kaufbelegen angegeben wird. In der Regel basieren Zeilenrabatte auf einer Kombination aus Kunde, Artikel, Mindestmenge, Maßeinheit oder Zeitraum, die Sie für Verkäufe und Einkäufe auf den Seiten **Debitoren & Verkauf Einr.** und **Kreditoren & Einkauf Einr.** definieren.|
+| **Zeilenrabatt** |Ein Rabattbetrag, der für Zeilen in Verkaufs- und Kaufbelegen angegeben wird. In der Regel basieren Zeilenrabatte auf einer Kombination aus Kunde, Artikel, Mindestmenge, Einheit oder Zeitraum, die Sie für Verkäufe und Einkäufe auf den Seiten **Debitoren & Verkauf Einr.** und **Kreditoren & Einkauf Einr.** definieren.|
 | **Rechnungsrabatt** |Ein Rabattprozentsatz, der von der Gesamtsumme des Verkaufs- und Einkaufsbelegs abgezogen wird, wenn die Summe aller Zeilen des Belegs einen bestimmten Mindestwert übersteigt. |
 
 Da Verkaufszeilenrabatte und Verkaufspreise auf einer Kombination aus Artikel und Debitor bestehen, können Sie diese Konfiguration auch auf der Artikelseite des Artikels eingerichtet werden, für den die Regeln und Werte gelten.
@@ -39,7 +39,7 @@ Da Verkaufszeilenrabatte und Verkaufspreise auf einer Kombination aus Artikel un
 > Wenn ein Artikel nie mit einem Rabatt verkauft werden sollte, lassen Sie die Skontofelder auf der Artikelseite leer und schließen Sie den Artikel nicht in einer Zeilenrabatteinrichtung ein.
 
 ## <a name="about-price-lists"></a>Über Preislisten
-Preislisten sind flexibel und ermöglichen es Ihnen, den Geschäftspartner oder die Aktivität anzugeben, für die sie gelten. Sie können beispielsweise eine Preisliste erstellen, die für alle Anbieter und Kunden gilt, oder für jeden Geschäftspartner Sonderpreise oder Rabatte anbieten, möglicherweise basierend auf einer Mindestmenge bei Kauf- oder Kundenaufträgen oder einer bestimmten Kombination von Kunden, Artikeln, Mindestmenge, Maßeinheit oder Zeiträume. Die von Ihnen definierten Preise und Rabatte werden automatisch auf Kauf- und Verkaufsbelege angewendet. 
+Preislisten sind flexibel und ermöglichen es Ihnen, den Geschäftspartner oder die Aktivität anzugeben, für die sie gelten. Sie können beispielsweise eine Preisliste erstellen, die für alle Anbieter und Kunden gilt, oder für jeden Geschäftspartner Sonderpreise oder Rabatte anbieten, möglicherweise basierend auf einer Mindestmenge bei Kauf- oder Kundenaufträgen oder einer bestimmten Kombination von Kunden, Artikeln, Mindestmenge, Einheit oder Zeiträume. Die von Ihnen definierten Preise und Rabatte werden automatisch auf Kauf- und Verkaufsbelege angewendet. 
 
 ## <a name="set-up-prices"></a>Preise einrichten
 
