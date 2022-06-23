@@ -6,12 +6,12 @@ ms.topic: get-started
 ms.custom: template-trial-faq
 ms.author: edupont
 ms.date: 02/23/2022
-ms.openlocfilehash: 6cb42322383506a7b6633952cb171cb7c6602339
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: 368ed714fb7b8367ff1876cb5be83e422860b684
+ms.sourcegitcommit: 0bb9473a2563211bc0c02ebfd837bba1b2e9ad3f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8367293"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "8805152"
 ---
 # <a name="dynamics-365-business-central-trial-faq"></a>Häufig gestellte Fragen zur Dynamics 365 Business Central-Testversion
 
@@ -19,11 +19,11 @@ ms.locfileid: "8367293"
 
 ### <a name="can-i-convert-the-trial-to-a-paid-license"></a>Kann ich die Testversion in eine kostenpflichtige Lizenz umwandeln?
 
-Ja, das können Sie! Weitere Informationen finden Sie unter [Erste Schritte mit einem Abonnement](across-preview.md#get-started-with-a-subscription).  
+Ja, das können Sie! Weitere Informationen finden Sie unter [Erste Schritte mit einem Abonnement](trial-signup.md#get-started-with-a-subscription).  
 
 ### <a name="what-are-the-trial-limits-and-quotas"></a>Welche Beschränkungen und Kontingente gelten für die Testversion?
 
-Die kostenlose Testversion enthält Beispieldaten. Wenn Sie Business Central mit Ihren eigenen Daten ausprobieren möchten, können Sie zu einer kostenlosen 30-tägigen Testversion mit einer leeren Firma wechseln. Weitere Informationen finden Sie unter [[!INCLUDE[prod_long](includes/prod_long.md)]-Testversionen und -Abonnements](across-preview.md).  
+Die kostenlose Testversion enthält Beispieldaten. Wenn Sie Business Central mit Ihren eigenen Daten ausprobieren möchten, können Sie zu einer kostenlosen 30-tägigen Testversion mit einer leeren Firma wechseln. [Hier](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions) kann Ihr Administrator mehr über Testversionen und Abonnements erfahren.  
 
 ### <a name="how-do-i-start-using-the-trial"></a>Wie beginne ich mit der Nutzung der Testversion?
 
@@ -54,4 +54,4 @@ Dies ist nicht möglich. Wenn Sie Beispieldaten versehentlich löschen, bitten S
 [Für eine kostenlose Dynamics 365 Business Central-Testversion registrieren](trial-signup.md)  
 [Häufig gestellte Fragen zur Verwendung von Business Central](across-faq.yml)  
 [Problembehandlungs-Selbstbedienungs-Registrierung](ui-troubleshoot-self-signup.md)  
-[[!INCLUDE[prod_long](includes/prod_long.md)]-Testversionen und Abonnements](across-preview.md)  
+[[!INCLUDE[prod_long](includes/prod_long.md)]-Testversionen und -Abonnements](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)  

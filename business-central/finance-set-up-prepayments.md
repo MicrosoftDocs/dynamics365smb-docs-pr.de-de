@@ -7,12 +7,12 @@ ms.search.keyword: prepayment
 ms.search.form: 314, 459, 460, 664
 ms.date: 10/27/2021
 ms.author: edupont
-ms.openlocfilehash: c2bfe2f10440921c95a7d20f3c601389030813e1
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: a1b771425c2a70f62dcfebeb4619c0f2f5445de3
+ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516213"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8799612"
 ---
 # <a name="set-up-prepayments"></a>Vorauszahlungen einrichten
 
@@ -92,6 +92,19 @@ In einem Auftrag kann ein Vorauszahlungsprozentsatz im Auftragskopf und ein ande
 4. Der Vorauszahlungsprozentsatz im Einkaufs- oder Verkaufskopf.  
 
 Anders ausgedrückt, der Vorauszahlungsprozentsatz auf der Debitorenkarte wird nur angewendet, wenn für den Artikel kein Vorauszahlungsprozentsatz eingerichtet wurde. Wenn Sie jedoch nach dem Erstellen der Zeilen den Inhalt des Felds **Vorauszahlung %** im Verkaufs- oder Einkaufskopf ändern, wird der Vorauszahlungsprozentsatz in allen Zeilen aktualisiert. So kann ungeachtet der Prozentsatzeinstellungen für Artikel auf einfache Weise ein Auftrag mit einem festen Vorauszahlungsprozentsatz erstellt werden.
+
+## <a name="to-automatically-release-sales-orders-when-prepayments-are-applied"></a>So werden Verkaufsaufträge automatisch freigeben, wenn Vorauszahlungen angewendet werden
+
+Sie können Zeit sparen, indem Sie einen Projektwarteschlangenposten einrichten, der Verkaufsaufträge, die eine Vorauszahlung erfordern, automatisch freigibt, nachdem die Zahlungen erfolgt sind. Die Automatisierung des Prozesses erspart Ihnen den Schritt der Freigabe des Verkaufsauftrags.
+
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Einrichtung Debitoren & Verkauf** ein und wählen Sie dann den entsprechenden Link.
+2. Geben Sie im Feld **Häufigkeit für automatische Aktualisierungen zu Vorauszahlungen** an, wie oft der Projektwarteschlangenposten ausgeführt werden soll.
+
+> [!TIP]
+> Während Sie hier sind, sollten Sie in Betracht ziehen, einen Schutz gegen den Versand oder die Rechnungsstellung von Verkaufsaufträgen mit unbezahlten Vorauszahlungsbeträgen hinzuzufügen. Wenn Sie den Schalter **Vorauszahlung beim Buchen prüfen** aktivieren, verhindert [!INCLUDE[prod_short](includes/prod_short.md)], dass Personen Bestellungen mit ausstehenden Vorauszahlungsbeträgen buchen.
+
+3. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Auftragswarteschlangenposten** ein und wählen Sie dann den zugehörigen Link.
+4. Richten Sie den Projektwarteschlangenposten **Ausstehende Vorauszahlungsverkäufe aktualisieren** ein, indem Sie die Einstellungen im Inforegister **Wiederholung** verwenden, um zu planen, wie oft er ausgeführt werden soll. Weitere Informationen finden Sie unter [Aufgabenwarteschlangen zum Planen von Aufgaben verwenden](admin-job-queues-schedule-tasks.md).
 
 ## <a name="see-also"></a>Siehe auch  
 

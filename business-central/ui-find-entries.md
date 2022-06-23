@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
 ms.search.form: 344
-ms.date: 04/01/2021
+ms.date: 05/23/2022
 ms.author: jswymer
-ms.openlocfilehash: a577e4723f7880b9e94babd645b7f35324e7d1ea
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: c5c35c8bc6a3a7827ae2893c79ce883bff6b05ea
+ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8654787"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8799849"
 ---
 # <a name="finding-related-entries-for-posted-documents"></a>Suchen verwandter Posten für gebuchte Belege 
 
@@ -29,7 +29,7 @@ Diese Funktion ist nützlich, wenn Sie Posten finden möchten, die aus bestimmte
 
 ## <a name="get-started"></a>Erste Schritte
 
-Die Funktion zum Suchen von Posten ist auf den meisten Seiten verfügbar, auf denen gebuchte Belege oder gebuchte Belegposten angezeigt werden – sowohl für Listen als auch für Karten. Der erste Schritt ist also das Öffnen einer dieser Seiten. Dann wählen Sie entweder die Aktion **Posten suchen** aus oder drücken die Tasten Strg+Alt+G.
+Die Funktion zum Suchen von Posten ist auf fast jeder Seite über die Tastenkombination STRG+ALT+Q verfügbar. Von Seiten, die speziell gebuchte Belege oder gebuchte Belegposten anzeigen, sowohl für Listen als auch für Karten, können Sie die Funktion auch durch Auswahl der Aktion **Posten suchen** öffnen.
 
 Die Seite **Posten suchen** enthält alle verknüpften Belege und Posten basierend auf der Belegnr. und dem Buchungsdatum. Die Seite ist in drei Abschnitte unterteilt:
 

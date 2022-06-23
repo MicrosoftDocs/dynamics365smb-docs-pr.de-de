@@ -7,12 +7,12 @@ ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: 01ff5ab1c5e6f132098f914f6bfe97e097cc88b0
-ms.sourcegitcommit: f071aef3660cc3202006e00f2f790faff849a240
+ms.openlocfilehash: ff2e4aca52f479e461dab0d9d0f0ce4958d19353
+ms.sourcegitcommit: fb43bc843be4ea9c0c674a14945df727974d9bb9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8768163"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "8808863"
 ---
 # <a name="troubleshooting-the-shopify-and-business-central-synchronization"></a>Fehlerbehebung bei der Synchronisierung zwischen Shopify und Business Central
 
@@ -56,9 +56,8 @@ Wenn [!INCLUDE[prod_short](../includes/prod_short.md)] keine Verbindung zu Ihrem
 
 1. Wechseln Sie zum Suchsymbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](../media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") , geben Sie **Shopify-Shop** ein, und wählen Sie den entsprechenden Link aus.
 2. Wählen Sie den Shop aus, für den Sie den Zugriffstoken abrufen möchten, um die Seite **Shopify-Shop-Karte** zu öffnen.
-3. Geben Sie im Feld **Code** den Code ein.  
-4. Wählen Sie die Aktion **Zugriff anfordern** aus.
-5. Melden Sie sich bei Ihrem Shopify-Konto an, falls Sie dazu aufgefordert werden.
+3. Wählen Sie die Aktion **Zugriff anfordern** aus.
+4. Melden Sie sich bei Ihrem Shopify-Konto an, falls Sie dazu aufgefordert werden.
 
 ## <a name="see-also"></a>Siehe auch
 

@@ -1,18 +1,18 @@
 ---
 title: Artikel und Inventar synchronisieren
 description: Synchronisierungen von Artikeln zwischen Shopify und Business Central einrichten und ausführen
-ms.date: 05/16/2022
+ms.date: 05/27/2022
 ms.topic: article
 ms.service: dynamics365-business-central
 author: AndreiPanko
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: fac1a3df12070a2030d6d2d8dfd5e740d8cca4f9
-ms.sourcegitcommit: f071aef3660cc3202006e00f2f790faff849a240
+ms.openlocfilehash: ad69d58a84926041df1125809f748b9129cc64e2
+ms.sourcegitcommit: fb43bc843be4ea9c0c674a14945df727974d9bb9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8768143"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "8808959"
 ---
 # <a name="synchronize-items-and-inventory"></a>Artikel und Inventar synchronisieren
 
@@ -23,7 +23,7 @@ Die **Artikel** in [!INCLUDE[prod_short](../includes/prod_short.md)] sind gleich
 
 Diese beiden Szenarien sind immer aktiviert.
 
-Ein anderes Szenario ist, wenn Daten in Shopify verwaltet werden und Sie diese Artikel in großen Mengen in [!INCLUDE[prod_short](../includes/prod_short.md)] importieren möchten. Dieses Szenario kann für Datenmigrationsereignisse nützlich sein, wenn ein bestehender Onlineshop mit einem neuen [!INCLUDE[prod_short](../includes/prod_short.md)] verbunden werden muss.
+Ein drittes Szenario ist die Verwaltung von Daten in Shopify, importieren Sie diese Artikel jedoch in großen Mengen in [!INCLUDE[prod_short](../includes/prod_short.md)]. Dieses Szenario kann für Datenmigrationsereignisse hilfreich sein, wenn einen bestehenden Onlineshop mit einer neuen [!INCLUDE[prod_short](../includes/prod_short.md)]-Umgebung verbinden möchten.
 
 ## <a name="to-define-item-synchronizations"></a>So definieren Sie Artikelsynchronisierungen
 
@@ -32,9 +32,9 @@ Ein anderes Szenario ist, wenn Daten in Shopify verwaltet werden und Sie diese A
 
 |Option|Description|
 |------|-----------|
-|**"Leer"**| Der Import von Produkten erfolgt zusammen mit dem Import von Bestellungen. Produkte werden nach Shopify exportiert, wenn Benutzer die Aktion **Artikel hinzufügen** über das Fenster **Shopify-Produkte** ausführen. Dies ist die Standardeinstellung. |
-|**Zu Shopify**| Wählen Sie diese Option, wenn Sie nach der ersten Synchronisierung, die durch die Aktion **Artikel hinzufügen** ausgelöst wurde, Produkte manuell mit der Aktion **Produkte synchronisieren** oder über eine Aufgabenwarteschlange für wiederkehrende Aktualisierungen aktualisieren möchten. Denken Sie daran, das Feld **Kann Shopify-Produkt aktualisiseren** zu aktivieren. Wenn es nicht aktiviert, entspricht es der Option **Leer**. |
-|**Von Shopify**| Wählen Sie diese Option aus, wenn Sie planen, Produkte aus Shopify in großen Mengen zu importieren, indem Sie entweder manuell die Aktion **Produkt synchronisieren** oder die Auftragswarteschlange für wiederkehrende Aktualisierungen verwenden. Wenn keine Option ausgewählt ist, entspricht es der Option **Leer**.|
+|**"Leer"**| Der Import von Produkten erfolgt zusammen mit dem Import von Bestellungen. Produkte werden nach Shopify exportiert, wenn Benutzer die Aktion **Artikel hinzufügen** über die Seite **Shopify-Produkte** ausführt. Dieser Prozess ist das Standardverhalten. |
+|**Zu Shopify**| Wählen Sie diese Option, wenn Sie nach der ersten Synchronisierung, die durch die Aktion **Artikel hinzufügen** ausgelöst wurde, Produkte manuell mit der Aktion **Produkte synchronisieren** oder über eine Aufgabenwarteschlange für wiederkehrende Aktualisierungen aktualisieren möchten. Denken Sie daran, das Feld **Kann Shopify-Produkt aktualisiseren** zu aktivieren. Wenn es nicht aktiviert, entspricht es der Option **Leer**. Weitere Informationen finden Sie unter [Artikel nach Shopify exportieren](synchronize-items.md#export-items-to-shopify).|
+|**Von Shopify**| Wählen Sie diese Option aus, wenn Sie planen, Produkte aus Shopify in großen Mengen zu importieren, indem Sie entweder manuell die Aktion **Produkt synchronisieren** oder die Auftragswarteschlange für wiederkehrende Aktualisierungen verwenden. Wenn keine Option ausgewählt ist, entspricht es der Option **Leer**. Weitere Einzelheiten zum Importieren von Artikeln finden Sie unter [Artikel aus Shopify importieren](synchronize-items.md#import-items-from-shopify).|
 
 ## <a name="import-items-from-shopify"></a>Artiekl aus Shopify importieren
 
@@ -42,9 +42,9 @@ Entweder importieren Sie Artikel aus Shopify in großen Mengen oder zusammen mit
 
 |Feld|Description|
 |------|-----------|
-|**Unbekannte Artikel automatisch erstellen**|Wenn Shopify-Produkte und -Varianten in [!INCLUDE[prod_short](../includes/prod_short.md)] importiert werden, versucht die [!INCLUDE[prod_short](../includes/prod_short.md)]-Funktion immer, zuerst einen übereinstimmenden Datensatz in der Artikelliste zu finden. **SKU-Zuordnung** wirkt sich darauf aus, wie der Abgleich durchgeführt wird, und erstellt neue Artikel und/oder Artikelvarianten. Weitere Informationen finden Sie unter [Produktzuordnung](synchronize-items.md#) Aktivieren Sie diese Option, wenn Sie einen neuen Artikel erstellen möchten oder kein übereinstimmender Datensatz vorhanden ist. Der neue Artikel wird mit importierten Daten und **Artikelvorlagencode** erstellt. Wenn diese Option nicht aktiviert ist, müssen Sie einen Artikel manuell erstellen und die Aktion **Kartenprodukt** auf der Seite **Shopify-Produkte** verwenden.|
+|**Unbekannte Artikel automatisch erstellen**|Wenn Shopify-Produkte und -Varianten in [!INCLUDE[prod_short](../includes/prod_short.md)] importiert werden, versucht die [!INCLUDE[prod_short](../includes/prod_short.md)]-Funktion immer, zuerst einen übereinstimmenden Datensatz in der Artikelliste zu finden. **SKU-Zuordnung** wirkt sich darauf aus, wie der Abgleich durchgeführt wird, und erstellt neue Artikel und/oder Artikelvarianten. Aktivieren Sie diese Option, wenn Sie einen neuen Artikel erstellen möchten oder kein übereinstimmender Datensatz vorhanden ist. Der neue Artikel wird mit importierten Daten und **Artikelvorlagencode** erstellt. Wenn diese Option nicht aktiviert ist, müssen Sie einen Artikel manuell erstellen und die Aktion **Kartenprodukt** auf der Seite **Shopify-Produkte** verwenden.|
 |**Artikelvorlagencode**|Wird zusammen mit **Unbekannte Artikel automatisch erstellen** verwendet. <br> Wählen Sie die Vorlage aus, die für automatisch erstellte Elemente verwendet werden soll.|
-|**SKU-Zuordnung**|Legen Sie fest, wie Sie den **SKU**-Wert verwenden möchten, der während der Zuordnung und Erstellung von Artikeln/Varianten aus Shopify importiert wurde. Weitere Informationen finden Sie unter [So wirken sich SKU und Strichcode, die in Shopify-Produkten definiert sind, auf die Zuordnung und Erstellung von Artikeln und Varianten aus](synchronize-items.md#how-sku-and-barcode-defined-in-shopify-product-affects-mapping-and-creation-of-items-and-variants-in-business-central).|
+|**SKU-Zuordnung**|Legen Sie fest, wie Sie den **SKU**-Wert verwenden möchten, der während der Zuordnung und Erstellung von Artikeln/Varianten aus Shopify importiert wurde. Weitere Informationen finden Sie unter [So wirken sich SKU und Strichcode, die in Shopify-Produkten definiert sind, auf die Zuordnung und Erstellung von Artikeln und Varianten aus](synchronize-items.md#how-skus-and-barcodes-defined-in-shopify-product-affects-mapping-and-creation-of-items-and-variants-in-business-central).|
 |**SKU-Feldtrennzeichen**|Wird zusammen mit **SKU-Zuordnung** verwendet, die auf die Option **Artikelnr. und Variantencode** festgelegt ist.<br> Definieren Sie ein Trennzeichen, das zum Aufteilen der SKU verwendet werden soll. <br>Wenn Sie beispielsweise in Shopify die Variante mit SKU „1000/001“ erstellen, geben Sie „/“ in das Feld **SKU-Feldtrennzeichen** ein, um die Artikelnummer in [!INCLUDE[prod_short](../includes/prod_short.md)] als „1000“ und den Artikelvariantencode als „001“ zu erhalten.
 |**Variantenpräfix**|Wird zusammen mit **SKU-Zuordnung** verwendet, die auf die Option **Variantencode** oder **Artikelnr. und Variantencode** als Fallback-Strategie festgelegt ist, wenn die SKU aus Shopify leer ist.<br>Wenn Sie die Artikelvariante automatisch in [!INCLUDE[prod_short](../includes/prod_short.md)] erstellen möchten, müssen Sie einen Wert in **Code** eingeben. Standardmäßig wird der im SKU-Feld definierte Wert aus Shopify verwendet. Wenn die SKU jedoch leer ist, wird Code generiert, der mit dem definierten Variantenpräfix und „001“ beginnt.|
 |**Shopify Kann Artikel aktualisieren**| Wählen Sie diese Option aus, wenn Sie Artikel und/oder Varianten automatisch aktualisieren möchten.|
@@ -100,10 +100,10 @@ Der Prozess des Artikelexports kann mit den folgenden Einstellungen verwaltet we
 |SEO-Seitentitel|Fester Wert: leer, siehe [Ad-Hoc-Aktualisierungen von Shopify-Produkten](synchronize-items.md#ad-hock-updates-of-shopify-products). |Wird nicht verwendet.|
 |SEO-Metabeschreibung|Fester Wert: leer, siehe [Ad-Hoc-Aktualisierungen von Shopify-Produkten](synchronize-items.md#ad-hock-updates-of-shopify-products). |Wird nicht verwendet.|
 |Medien|**Bild**, weitere Informationen, siehe [Artikelbilder synchronisieren](synchronize-items.md#sync-item-images)|**Bild**|
-|Preis|Der Endkundenpreis wird unter Berücksichtigung von Artikelpreisgruppe, Artikelrabattgruppe, Währungscode und Debitorenvorlagencode berechnet. |Wird nicht verwendet.|
-|Preisvergleich|Der Preis ohne Rabatt wird unter Berücksichtigung von Artikelpreisgruppe, Artikelrabattgruppe, Währungscode und Debitorenvorlagencode berechnet. |Wird nicht verwendet.|
+|Preis|Die Berechnung des Endkundenpreises enthält die Artikelpreisgruppe, die Artikelrabattgruppe, den Währungscode und den Debitorenvorlagencode. |Wird nicht verwendet.|
+|Preisvergleich|Die Berechnung des Preises ohne Rabatt enthält die Artikelpreisgruppe, die Artikelrabattgruppe, den Währungscode und den Debitorenvorlagencode. |Wird nicht verwendet.|
 |Kosten pro Artikel|**Einstandspreis**|**Einstandspreis**|
-|SKU|Weitere Informationen finden Sie unter **SKU-Zuordnung** unter [Artikel nach Shopify exportieren](synchronize-items.md#export-items-to-shopify).| Weitere Informationen finden Sie unter [So wirken sich SKU und Strichcode, die in Shopify definiert sind, auf die Zuordnung und Erstellung von Artikeln und Varianten aus](synchronize-items.md#how-sku-and-barcode-defined-in-shopify-product-impact-mapping-and-creation-of-items-and-variants-in-business-central).|
+|SKU|Weitere Informationen finden Sie unter **SKU-Zuordnung** unter [Artikel nach Shopify exportieren](synchronize-items.md#export-items-to-shopify).| Weitere Informationen finden Sie unter [So wirken sich SKU und Strichcode, die in Shopify definiert sind, auf die Zuordnung und Erstellung von Artikeln und Varianten aus](synchronize-items.md#how-skus-and-barcodes-defined-in-shopify-product-affects-mapping-and-creation-of-items-and-variants-in-business-central).|
 |Strichcode|**Artikelreferenzen** vom Typ „Strickcode“|**Artikelreferenzen** vom Typ „Strickcode“|
 |Menge verfolgen|Entsprechend der Option **Verfolgter Lagerbestand** auf der **Shopify-Shop-Karte**. Weitere Informationen finden Sie unter [Lagerbestand](synchronize-items.md#sync-inventory-to-shopify).|Wird nicht verwendet.|
 |Weiterverkaufen, wenn ein Artikel nicht mehr auf Lager ist|Entsprechend der Option **Standardrichtlinie für Lagerbestand** auf der **Shopify-Shop-Karte**. Nicht importiert.|Wird nicht verwendet.|
@@ -115,7 +115,7 @@ Der Prozess des Artikelexports kann mit den folgenden Einstellungen verwaltet we
 
 ### <a name="tags"></a>Tags
 
-Importierte Tags können in der Infobox **Tags** im **Shopify-Produkt** überprüft werden. Wählen Sie zum Bearbeiten von Tags die Aktion **Tags** auf der Seite **Shopify-Produkt** aus.
+Überprüfen Sie die importierten Tags in der Infobox **Tags** auf der Seite **Shopify-Produkt**. Wählen Sie zum Bearbeiten von Tags die Aktion **Tags** auf der Seite **Shopify-Produkt** aus.
 Wenn die Option **Mit Shopify** im Feld **Artikel synchronisieren** ausgewählt ist, werden zugewiesene Tags bei der nächsten Synchronisierung nach Shopify exportiert.
 
 ## <a name="run-item-synchronization"></a>Artikelsynchronisierung ausführen
@@ -139,6 +139,8 @@ Die resultierenden Artikel werden automatisch in Shopify mit Preisen erstellt, B
 3. Wählen Sie die Aktion **Produkte synchronisieren** aus.
 
 Verwenden Sie alternativ die Aktion **Produkte synchronisieren** im Fenster **Shopify-Produkte** aus, oder suchen Sie nach dem Stapelverarbeitungsauftrag **Produkte synchronisieren**.
+
+Sie können die durchzuführende Aufgabe so planen, dass sie automatisiert ausgeführt werden. Weitere Informationen finden Sie unter [Wiederkehrende Aufgaben planen](background.md#to-schedule-recurring-tasks).
 
 ### <a name="ad-hock-updates-of-shopify-products"></a>Ad-Hoc-Aktualisierungen von Shopify-Produkten
 
@@ -195,8 +197,8 @@ Preise können für synchronisierte Artikel auf die unten beschriebene Weise exp
 
 ### <a name="price-calculation-remarks"></a>Anmerkungen zur Preisberechnung
 
-* Für die Preisberechnung ist es wichtig, dass sich ein Wert im Feld **Standarddebitorenvorlage** befindet.
-* Denken Sie daran, einen **Währungscode** einzugeben, wenn Ihr Onlineshop eine andere Währung als MW verwendet.
+* Für die Preisberechnung ist es wichtig, dass sich ein Wert im Feld **Standarddebitorenvorlage** befindet. [!INCLUDE[prod_short](../includes/prod_short.md)] verwendet den Wert des Felds **MwSt.-Geschäftsbuchungsgruppe**, um den Preis inklusive Mehrwertsteuer zu berechnen. Möglicherweise möchten Sie eine Kundenpreisgruppe erstellen, in der Sie das Feld **Preis inkl. MwSt** auswählen und den entsprechenden Wert im Feld **Mehrwertsteuer Bus. Buchung Gr. (Preis)** angeben.
+* Geben Sie einen **Währungscode** ein, wenn Ihr Onlineshop eine andere Währung als MW verwendet. Für die angegebene Währung müssen Wechselkurse konfiguriert sein. Wenn Ihr Onlineshop dieselbe Währung verwendet wie [!INCLUDE[prod_short](../includes/prod_short.md)], lassen Sie das Feld leer.
 * Bei der Bestimmung eines Preises verwendet [!INCLUDE[prod_short](../includes/prod_short.md)] die Logik „Niedrigster Preis“. Das heißt, wenn der auf der Artikelkarte definierte Stückpreis niedriger ist als der in der Preisgruppe definierte, wird der Einzelpreis aus der Artikelkarte verwendet.
 
 ## <a name="sync-inventory-to-shopify"></a>Lagerbestand mit Shopify synchronisieren

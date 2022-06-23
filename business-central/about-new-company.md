@@ -10,12 +10,12 @@ ms.search.keywords: company, setup wizard
 ms.search.form: 1803, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 40acd79a66452b99d3b6990f05ccfa5e5d3d326e
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: 843de26d836e8cf16f1f4f79d4ec697c481eebc0
+ms.sourcegitcommit: 0bb9473a2563211bc0c02ebfd837bba1b2e9ad3f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8654968"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "8805228"
 ---
 # <a name="create-new-companies-in-prod_short"></a>Neue Unternehmen in [!INCLUDE[prod_short](includes/prod_short.md)] erstellen
 
@@ -32,11 +32,11 @@ Wenn Sie sich entscheiden, einen Mandanten Ihrem [!INCLUDE[prod_short](includes/
 Der Setup-Assistent stellt zwei Vorlagen und eine leere Option zur Verfügung:
 
 - **Bewertung - Beispieldatei**  
-    Dies erstellt einen Mandanten, der gleich ist wie das Demounternehmen mit Beispieldaten und Einrichtungsdaten. Dieser Unternehmenstyp steht Ihnen im Gegensatz zu den anderen Typen ohne Wechsel zu [einem 30-tägigen Testzeitraum](across-preview.md#add-your-own-data-to-an-empty-trial-company) zur Verfügung.  
+    Dies erstellt einen Mandanten, der gleich ist wie das Demounternehmen mit Beispieldaten und Einrichtungsdaten. Dieser Unternehmenstyp steht Ihnen im Gegensatz zu den anderen Typen ohne Wechsel zu einem 30-tägigen Testzeitraum zur Verfügung.  
 - **Produktion - nur Einrichtungsdaten**  
-    Dies erstellt einen Mandanten, der gleich ist wie **Mein Unternehmen** mit Einrichtungsdaten aber ohne Beispieldaten. Sie können dieses Unternehmen für einen [30-tägigen Testzeitraum](across-preview.md#add-your-own-data-to-an-empty-trial-company) verwenden.  
+    Dies erstellt einen Mandanten, der gleich ist wie **Mein Unternehmen** mit Einrichtungsdaten aber ohne Beispieldaten. Sie können dieses Unternehmen für einen 30-tägigen Testzeitraum verwenden.  
 - **Neue Chargennr. erstellen**  
-    Dies erstellt einen leeren Mandanten ohne Einrichtungsdaten. Sie können dieses Unternehmen für einen [30-tägigen Testzeitraum](across-preview.md#add-your-own-data-to-an-empty-trial-company) verwenden.  
+    Dies erstellt einen leeren Mandanten ohne Einrichtungsdaten. Sie können dieses Unternehmen für einen 30-tägigen Testzeitraum verwenden.  
 
 Wenn Sie mit einem neuen Mandanten einfach anfangen möchten, wählen Sie **Produktion - nur Daten einrichten** und importieren dann Ihre eigenen Geschäftsdaten, beispielsweise Debitoren, Kreditoren und Artikel. Wählen Sie die Vorlage aus **Neu**, wenn Sie etwas von Grund auf neu einrichten möchten. In diesem Fall können Sie den unterstützten Einrichtungs-Assistent **Unternehmenseinrichtung** verwenden, um Ihnen zu helfen, mit wesentlichen Einrichtungsdaten anzufangen.  
 
@@ -44,6 +44,8 @@ Wenn Sie mit einem neuen Mandanten einfach anfangen möchten, wählen Sie **Prod
 > Wenn Sie einen neuen Mandanten erstellen, dauert es mehrere Minuten, bevor Sie in [!INCLUDE[prod_short](includes/prod_short.md)]zugreifen können. Der Einrichtungsstatus auf der Seite **Unternehmen** zeigt an, ob das neue Unternehmen für Sie bereit ist. Dann können Sie zum neuen Mandanten wechseln, indem Sie **Meine Einstellungen** verwenden.  
 
 Während Ihrer 30-Tage-Testphase können Sie eine beliebige Anzahl neuer Unternehmen erstellen, allerdings sind diese nur innerhalb der Testphase verfügbar. Weitere Informationen erhalten Sie von Ihrem [!INCLUDE[prod_short](includes/prod_short.md)]-Partner. Weitere Informationen finden Sie im Artikel [FAQ zur Dynamics 365 Business Central-Testversion](trial-faq.md).  
+
+[Hier](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions) kann Ihr Administrator mehr über Testversionen und Abonnements erfahren.  
 
 ## <a name="copy-a-company"></a>Unternehmen kopieren
 
@@ -84,7 +86,6 @@ Die Contoso Coffee-App stellt Demonstrationsdaten bereit, anhand derer Sie die e
 [Importieren von Geschäftsdaten aus anderen Finanzsystemen](across-import-data-configuration-packages.md)  
 [Ändern von grundlegenden Einstellungen](ui-change-basic-settings.md)  
 [Vorbereiten auf die Geschäftsabwicklung](ui-get-ready-business.md)  
-[Testversionen und Abonnements](across-preview.md)  
 [Grundlegendes zur Infrastruktur von Business Central Online (nur in englischer Sprache)](/dynamics365/business-central/dev-itpro/administration/tenant-environment-topology)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

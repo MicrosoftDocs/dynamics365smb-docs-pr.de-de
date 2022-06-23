@@ -1,18 +1,18 @@
 ---
 title: Debitoren synchronisieren
 description: Import von Debitoren von oder Export von Debitoren nach Shopify durchführen
-ms.date: 05/11/2022
+ms.date: 05/27/2022
 ms.topic: article
 ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: 92ac46e9f7e69204b4c7edee4aa430a8786b6c0b
-ms.sourcegitcommit: f071aef3660cc3202006e00f2f790faff849a240
+ms.openlocfilehash: 75c4de7736572ff923c74464dc33b218d0665e3f
+ms.sourcegitcommit: fb43bc843be4ea9c0c674a14945df727974d9bb9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8768160"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "8808861"
 ---
 # <a name="synchronize-customers"></a>Debitoren synchronisieren
 
@@ -25,8 +25,8 @@ Wenn eine Bestellung aus Shopify importiert wird, sind die Informationen zum Deb
 
 Die Funktion *Bestellung aus Shopify importieren* versucht, den Debitor in der folgenden Reihenfolge auszuwählen:
 
-1. Wenn die **Standarddebitorennr.** in der **Shopify-Debitorenvorlage** für das entsprechende Land definiert ist, wird die **Standarddebitorennr.** unabhängig von den Einstellungen in **Debitorenimport von Shopify** und **Debitorenzuordnungstyp** verwendet.
-2. Wenn **Debitorenimport von Shopify** und **Standarddebitorennr.** definiert sind, wird die **Standarddebitorennr.** verwendet.
+1. Wenn das Feld **Standarddebitorennr.** in der **Shopify-Debitorenvorlage** für das entsprechende Land definiert ist, wird die **Standarddebitorennr.** unabhängig von den Einstellungen in **Debitorenimport von Shopify** und **Debitorenzuordnungstyp** verwendet. Weitere Informationen finden Sie unter [Debitorenvorlage pro Land](synchronize-customers.md#customer-template-per-country).
+2. Wenn **Debitorenimport von Shopify** auf *Keine* und **Standarddebitorennr.** in der **Shopify-Shop-Karte** definiert sind, wird die **Standarddebitorennr.** verwendet.
 
 Die nächsten Schritte hängen vom **Debitorenzuordnungstyp** ab.
 
@@ -76,7 +76,7 @@ Vorhandene Debitoren können in großen Mengen nach Shopify exportiert werden. I
 
 ### <a name="populate-customer-information-in-shopify"></a>Debitoreninformationen in Shopify ausfüllen
 
-Ein Debitor in Shopify hat einen Vornamen, einen Nachnamen, eine E-Mail-Adresse und/oder eine Telefonnummer. Sie können den Vor- und Nachnamen basierend auf den Daten aus der Debitorenkarte in [!INCLUDE[prod_short](../includes/prod_short.md)] ausfüllen.
+Ein Debitor in Shopify hat einen Vornamen, einen Nachnamen, eine E-Mail-Adresse und/oder eine Telefonnummer. Sie können den Vor- und Nachnamen über die Debitorenkarte in [!INCLUDE[prod_short](../includes/prod_short.md)] ausfüllen.
 
 |Priorität|Feld in Debitorenkarte|Description|
 |------|------|-----------|
@@ -100,6 +100,8 @@ Wählen Sie für Adressen, bei denen Land/Provinz verwendet wird, die Option *Co
 3. Wählen Sie die Aktion **Debitoren synchronisieren** aus.
 
 Verwenden Sie alternativ die Aktion **Debitorensynchronisierung starten** im Fenster **Shopify-Debitoren** aus, oder suchen Sie nach dem Stapelverarbeitungsauftrag **Debitoren synchronisieren**.
+
+Sie können die durchzuführende Aufgabe so planen, dass sie automatisiert ausgeführt werden. Weitere Informationen finden Sie unter [Wiederkehrende Aufgaben planen](background.md#to-schedule-recurring-tasks).
 
 ## <a name="see-also"></a>Siehe auch
 

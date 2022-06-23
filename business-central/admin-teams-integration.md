@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 4d6e329dbf6c8d5badfcb317261db18d8432d303
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 03e283bc2664b1f73a56c48fefdde9cba78918d2
+ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147034"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8799771"
 ---
 # <a name="managing-microsoft-teams-integration-with-prod_short"></a>Verwalten der Microsoft Teams-Integration mit [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -30,16 +30,18 @@ In diesem Abschnitt werden die Mindestanforderungen für die Verwendung der [!IN
 
 - Erforderliche Lizenzen
 
-    Diese Tabelle gibt Ihnen einen Überblick über die Lizenzen, die für die Verwendung der [!INCLUDE [prod_short](includes/prod_short.md)]-App-Funktionen in Teams erforderlich sind.
+    Die [!INCLUDE[prod_short](includes/prod_short.md)]-App erfordert eine Teams-Lizenz über ein Microsoft 365 Business- oder Enterprise-Abonnement. Eigenständige Teams-Abonnements wie Microsoft Teams (kostenlos) oder Microsoft Teams Essentials werden nicht unterstützt.
 
-    |Funktion|Teams-Lizenz|[!INCLUDE [prod_short](includes/prod_short.md)] Lizenz|
-    |----|---|---|
-    |Suchen Sie nach [!INCLUDE [prod_short](includes/prod_short.md)]-Kontakten.|![Häkchen setzen.](media/check.png "Aktivieren")|![Häkchen](media/check.png "Aktivieren")|
-    |Einen Link zu einem [!INCLUDE [prod_short](includes/prod_short.md)]-Datensatz in eine Unterhaltung einfügen und ihn als Karte versenden.|![Häkchen](media/check.png "Aktivieren")|![Häkchen](media/check.png "Aktivieren")|
-    |Geben Sie einen Link von einer Seite in [!INCLUDE [prod_short](includes/prod_short.md)] an die Teams Unterhaltung weiter.|![Häkchen](media/check.png "Aktivieren")|![Häkchen](media/check.png "Aktivieren")|
-    |Eine Karte eines [!INCLUDE [prod_short](includes/prod_short.md)]-Datensatzes in einer Unterhaltung anzeigen.|![Häkchen](media/check.png "Aktivieren")||
-    |Weitere Details für eine Karte eines [!INCLUDE [prod_short](includes/prod_short.md)]-Datensatzes in einer Unterhaltung anzeigen.|![Häkchen](media/check.png "Aktivieren")|![Häkchen](media/check.png "Aktivieren")|
-    |Öffnen Sie einen Seitenlink in [!INCLUDE [prod_short](includes/prod_short.md)] aus einer Unterhaltung heraus.|![Häkchen](media/check.png "Aktivieren")|![Häkchen](media/check.png "Aktivieren")|
+    Die meisten Funktionen der [!INCLUDE[prod_short](includes/prod_short.md)]-App für Teams erfordern außerdem eine [!INCLUDE [prod_short](includes/prod_short.md)]-Lizenz, wie in der folgenden Tabelle gezeigt.
+
+    |Funktion|[!INCLUDE [prod_short](includes/prod_short.md)] Lizenz|
+    |----|---|
+    |Suchen Sie nach [!INCLUDE [prod_short](includes/prod_short.md)]-Kontakten.|![Häkchen](media/check.png "Aktivieren")|
+    |Einen Link zu einem [!INCLUDE [prod_short](includes/prod_short.md)]-Datensatz in eine Unterhaltung einfügen und ihn als Karte versenden.|![Häkchen](media/check.png "Aktivieren")|
+    |Geben Sie einen Link von einer Seite in [!INCLUDE [prod_short](includes/prod_short.md)] an die Teams Unterhaltung weiter.|![Häkchen](media/check.png "Aktivieren")|
+    |Eine Karte eines [!INCLUDE [prod_short](includes/prod_short.md)]-Datensatzes in einer Unterhaltung anzeigen.||
+    |Weitere Details für eine Karte eines [!INCLUDE [prod_short](includes/prod_short.md)]-Datensatzes in einer Unterhaltung anzeigen.|![Häkchen](media/check.png "Aktivieren")|
+    |Öffnen Sie einen Seitenlink in [!INCLUDE [prod_short](includes/prod_short.md)] aus einer Unterhaltung heraus.|![Häkchen](media/check.png "Aktivieren")|
 
 - URL-Vorschau zulassen
 
@@ -85,7 +87,7 @@ Im Admin Center Microsoft Teams konfigurieren Sie die Richtlinien für die Einri
 > [!NOTE]
 > Um die zentrale Bereitstellung festzulegen, muss Ihr Teams-Konto die Rolle **Teams Service admin** oder die Rolle **Global admin** haben.
 
-1. Wählen Sie in Business Central die ![Lupe, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten"). Symbol, geben Sie **Teams App Zentrale Bereitstellung** ein und wählen Sie dann den entsprechenden Link. Oder wählen Sie [hier](https://businesscentral.dynamics.com/?page=1833), um die Seite direkt zu öffnen.
+1. Wählen Sie in Business Central die ![Lupe, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?"). Symbol, geben Sie **Teams App Zentrale Bereitstellung** ein und wählen Sie dann den entsprechenden Link. Oder wählen Sie [hier](https://businesscentral.dynamics.com/?page=1833), um die Seite direkt zu öffnen.
 2. Lesen Sie die Informationen auf der Seite **Einrichten der Business Central-App für Teams** und wählen Sie dann **Weiter**, wenn Sie bereit sind.
 3. Öffnen Sie das [Teams Admin Center](https://go.microsoft.com/fwlink/?linkid=2163970) und führen Sie die folgenden Schritte aus.
     1. Gehen Sie zu **Teams Apps** > **Richtlinien einrichten**.

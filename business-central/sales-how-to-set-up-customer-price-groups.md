@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: customer price groups, discounts, sales prices
 ms.date: 09/30/2021
 ms.author: edupont
-ms.openlocfilehash: 9b2ff8cca6abf8c1f849039deff5a441427bf112
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 9abd79500966a946228834166ef554e6a3e70911
+ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143140"
+ms.lasthandoff: 06/12/2022
+ms.locfileid: "8950065"
 ---
 # <a name="set-up-customer-price-groups"></a>Debitorenpreisgruppen festlegen
   
@@ -28,7 +28,7 @@ Wenn Sie sich auf die Preise geeinigt haben, die die Gruppe von Debitoren für b
 
 ### <a name="to-create-sales-prices-for-a-group-of-customers"></a>Um Verkaufspreise für eine Gruppe von Debitoren zu erstellen
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol, geben Sie **Debitorenpreisgruppen** ein und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol, geben Sie **Debitorenpreisgruppen** ein und wählen Sie dann den entsprechenden Link.  
 
 2. Wählen Sie die Zeile für die Debitorenpreisgruppe aus. Wenn eine Zeile noch nicht vorhanden ist, können Sie eine neue Zeile erstellen. Wählen Sie **Neu**, um eine neue Entität zu erstellen und ihr einen Namen zu geben.  
     
@@ -54,15 +54,18 @@ Nachdem Sie die Debitorenpreisgruppen festgelegt haben, können Sie die Debitore
 
 ### <a name="to-enter-customer-price-group-codes-on-a-customer-card"></a>Um Debitorenpreisgruppen-Codes auf einer Debitorenkarte einzugeben  
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Debitoren** ein und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Debitoren** ein und wählen Sie dann den entsprechenden Link.  
 
 2. Öffnen Sie die entsprechende **Debitorenkarte** für einen Debitoren, der Teil einer Debitorenpreisgruppe sein soll.  
 
 3. Wählen Sie auf dem Inforegister **Fakturierung** im Feld **Debitorenpreisgruppe** den Code **Debitorenpreisgruppe**.  
 
 
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-also"></a>Siehe auch
 
-[Spezielle Verkaufspreise und Rabatte aufzeichnen](sales-how-record-sales-price-discount-payment-agreements.md)  
+[Verkauf](sales-manage-sales.md)  
+[Einrichten von Verkäufen](sales-setup-sales.md)  
+[Sonderverkaufspreise und Rabatte Datensätze erfassen](sales-how-record-sales-price-discount-payment-agreements.md)  
+[Einrichten von Debitorenrabattgruppen](sales-how-to-set-up-customer-discount-groups.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

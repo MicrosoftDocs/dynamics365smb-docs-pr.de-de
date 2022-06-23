@@ -8,37 +8,39 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9650, 9652
-ms.date: 04/01/2021
+ms.date: 03/06/2022
 ms.author: edupont
-ms.openlocfilehash: 74a59567c7eb24673df62fe76b974c9b7bb58bf0
-ms.sourcegitcommit: 55f42d2407e109b4924218cb22129467b53deb08
+ms.openlocfilehash: 5e25685241e85a1a90ac23c7eb47f9808f3239b9
+ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/08/2022
-ms.locfileid: "8557172"
+ms.lasthandoff: 06/12/2022
+ms.locfileid: "8950382"
 ---
 # <a name="legacy-create-and-modify-custom-report-layouts"></a>(Legacy) Erstellen und Ändern benutzerdefinierter Berichtslayouts
 
 [!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
-Standardmäßig hat ein Bericht ein integriertes Berichtslayout, das entweder ein RDLC-Berichtslayout, ein Word-Berichtslayout oder beides sein kann. Sie können die integrierten Layouts nicht ändern, aber Sie können angepasste Layouts erstellen. Ein Bericht kann über mehrere angepasste Berichtslayouts verfügen, so dass Sie das verwendete Layout nach Bedarf wechseln können.
+Berichte verfügen standardmäßig über ein integriertes Berichtslayout. Das Layout kann ein RDLC-Berichtslayout und/oder ein Word-Berichtslayout sein. Sie können die integrierten Layouts nicht ändern, aber Sie können angepasste Layouts erstellen. Ein Bericht kann mehrere benutzerdefinierte Berichtslayouts haben.
 
 > [!NOTE]  
-> In [!INCLUDE[prod_short](includes/prod_short.md)] enthält der Begriff "Bericht" auch für extern bestimmte Dokumente wie Verkaufsrechnungen und Bestellungbestätigungen, die Sie den Debitoren als PDF-Dateien senden.
+> In [!INCLUDE[prod_short](includes/prod_short.md)] enthält der Begriff „Bericht“ auch für extern bestimmte Dokumente wie Verkaufsrechnungen und Bestellungbestätigungen, die Sie den Debitoren als PDF-Dateien senden.
 
-Um ein angepasstes Layout zu erstellen, erstellen Sie entweder eine Kopie eines vorhandenen Layouts oder fügen ein neues angepasstes Layout hinzu, das häufig auf einem integrierten Layout basiert. Wenn Sie ein neues angepasstes Layout hinzufügen, können Sie wählen, ob Sie einen RDLC- oder einen Word-Berichtslayouttyp oder beides hinzufügen. Das neue angepasste Layout basiert auf dem integrierten Layout für den Bericht, sofern ein solches vorhanden ist. Wenn es kein eingebautes Layout für den Typ gibt, wird ein neues leeres Layout erstellt. Sie müssen dieses leere Layout von Grund auf ändern und gestalten. Weitere Informationen zu RDLC- und Word-Berichtlayouts, integrierten und benutzerdefinierten Layouts und mehr finden Sie unter [Verwalten von Berichtslayouts](ui-manage-report-layouts.md).  
+Um ein benutzerdefiniertes Layout zu erstellen, kopieren Sie entweder ein vorhandenes benutzerdefiniertes Layout, oder fügen Sie ein neues benutzerdefiniertes Layout hinzu. Benutzerdefinierte Layouts basieren häufig auf einem integrierten Layout. Wenn Sie ein neues angepasstes Layout hinzufügen, können Sie wählen, ob Sie einen RDLC- oder einen Word-Berichtslayouttyp oder beides hinzufügen. Das neue angepasste Layout basiert auf dem integrierten Layout für den Bericht, sofern ein solches vorhanden ist. Wenn es kein eingebautes Layout für den Typ gibt, wird ein neues leeres Layout erstellt. Sie müssen dieses leere Layout von Grund auf ändern und gestalten. Weitere Informationen zu RDLC- und Word-Berichtlayouts, integrierten und benutzerdefinierten Layouts und mehr finden Sie unter [Verwalten von Berichtslayouts](ui-manage-report-layouts.md).  
 
 > [!TIP]
 > Verwenden von Kontenplan, um die Einblicke in die Finanzdaten zu kommen, die in Ihrem Kontenplan gespeichert werden. Mehr Informationen finden Sie in [Bereiten Sie Finanzberichte mit Kontenschemata und Kontengruppen vor](bi-how-work-account-schedule.md).
 
-Wenn angepasste Berichtslayouts definiert sind, können Sie diese aus Kunden- und Kreditorenkarten auswählen, um festzulegen, dass die ausgewählten Layouts für Belege verwendet werden, die Sie für den betreffenden Kunden oder Kreditor erstellen. Weitere Informationen finden Sie unter [Beleglayouts für Debitoren und Kreditoren definieren](ui-define-customer-vendor-document-layouts.md).
+Nachdem Sie benutzerdefinierte Berichtslayouts definiert haben, können Sie sie auf den Seiten „Debitorenkarte“ und „Kreditorenkarte“ auswählen. Die Layouts werden verwendet, wenn Sie Dokumente für den Debitor oder Kreditor erstellen. Weitere Informationen finden Sie unter [Beleglayouts für Debitoren und Kreditoren definieren](ui-define-customer-vendor-document-layouts.md).
+
+Sie können auch benutzerdefinierte Berichtslayouts verwenden, um E-Mail-Nachrichten Inhalte hinzuzufügen. Berichtslayouts können Zeit sparen und zur Konsistenz beitragen, indem dieselben Inhalte wiederverwendet werden, wenn Sie mit Ihren Debitoren kommunizieren. Um benutzerdefinierte Berichtslayouts mit E-Mail verwenden zu können, muss der Dateityp für das Layout „Word“ sein. Der Dateityp „RDLC“ kann nicht verwendet werden. Weitere Informationen finden Sie unter [Wiederverwendbare E-Mail-Texte und -Layouts einrichten](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts). 
 
 ## <a name="to-create-a-custom-layout"></a>So erstellen Sie ein benutzerdefiniertes Layout
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Auswahl des Berichtslayouts** ein und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie das Symbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Auswahl des Berichtslayouts** ein und wählen Sie dann den entsprechenden Link.
 
     In dem Feld **Unternehmesname** sind alle Berichte aufgelistet, die für das Unternehmen verfügbar sind, die auf der Seite **Bericht-Layout-Auswahl** oben verfügbar ist.
-2. Legen Sie das Feld **Mandant** für den Mandanten fest, für den Sie das Berichtlayout erstellen möchten.
+2. Wählen Sie im Feld **Unternehmensname** das Unternehmen aus, für das Sie das Berichtlayout erstellen möchten.
 3. Wählen Sie im Fenster **Debitorenspezifisches Layout** die Zeile für das benutzerdefinierte Layout, das Sie verwenden möchten, und wählen Sie dann die Schaltfläche OK aus.  
 
    Die Seite **Benutzerdefiniertes Berichtslayout** erscheint und alle benutzerdefinierten Layouts, die für den ausgewählten Bericht verfügbar sind, werden angezeigt.
@@ -47,9 +49,9 @@ Wenn angepasste Berichtslayouts definiert sind, können Sie diese aus Kunden- un
    Die Kopie des benutzerdefinierten Layouts erscheint auf der Seite **Benutzerdefiniertes Layout** und hat den Begriff *Kopie von* im Feld **Beschreibung**.
 5. Wenn Sie ein neues angepasstes Layout hinzufügen möchten, das auf einem integrierten Layout basiert, führen Sie die folgenden Schritte aus:  
    1. Wählen Sie die Aktion **Neu**. Die Seite **Integriertes Layout für einen Bericht** erscheint. Die Felder **ID** und **Name** werden automatisch ausgefüllt.
-   2. Um einen benutzerdefinierten WordBerichtlayouttyp hinzuzufügen, aktivieren Sie das **Word-Layout einfügen** Kontrollkästchen.
-   3. Um einen benutzerdefinierten RDLC-Berichtlayouttyp hinzuzufügen, aktivieren Sie das **RDLC-Layout einfügen** Kontrollkästchen.
-   4. Wählen Sie die Schaltfläche **OK**.  
+   2. Um einen benutzerdefinierten Word-Berichtslayouttyp hinzuzufügen, aktivieren Sie den Schalter **Word-Layout einfügen**.
+   3. Um einen benutzerdefinierten RDLC-Berichtlayouttyp hinzuzufügen, aktivieren Sie den Schalter **RDLC-Layout einfügen**.
+   4. Wählen Sie die Schaltfläche **OK** aus.  
 
     Das neue angepasste Layout erscheint nun auf der Seite **Benutzerdefinierte Berichtslayouts**. Wenn ein neues Layout auf einem integrierten Layout basiert, erscheinen die Begriffe **Kopie eines integrierten Layouts** im Feld **Beschreibung**. Wenn kein integriertes Layout für den Bericht vorhanden war, erhält das neue Layout die Begriffe **Neues Layout** im Feld **Beschreibung**, was angibt, dass das benutzerdefinierte Layout leer ist.
 6. Standardmäßig ist das Feld **Unternehmensname** leer, d. h., dass das benutzerdefiniertes Layout für den Bericht in allen Unternehmen ist verfügbar. Um das benutzerdefinierte Layout nur in einem bestimmten Mandanten zu ändern, wählen Sie die Registerkarte **Bearbeiten**, und geben Sie dann im Feld **Unternehmensnamen** den Namen für den gewünschten Mandanten ein.

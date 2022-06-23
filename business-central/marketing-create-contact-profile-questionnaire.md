@@ -7,39 +7,71 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contacts, profiles
+ms.search.form: 5109, 5110
 ms.author: edupont
-ms.date: 06/22/2021
-ms.openlocfilehash: 42ef7c92d138d717f10eb98a7fa9208eaf73ef54
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 05/20/2022
+ms.openlocfilehash: 135ca390dbf00e46deefbe6e195acfbcf11b959c
+ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140865"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8799664"
 ---
 # <a name="use-profile-questionnaires-to-classify-business-contacts"></a>Verwenden Sie Profilbefragungen, um Geschäftskontakten zu klassieren
-Sie können Profilbefragungen einrichten, die Sie beim Eingeben der Informationen über die Profile Ihrer Kontakte verwenden möchten. In jedem Fragebogen können Sie die unterschiedlichen Fragen einrichten, die Sie Ihren Kontakten stellen möchten.  
+
+Sie können einen Interessenten bewerten und so die idealen Interessenten erkennen, auf die Sie sich in Ihrer Verkaufskampagne konzentrieren. Sie können Profilbefragungen einrichten, die Sie beim Eingeben der Informationen über die Profile Ihrer Kontakte verwenden möchten. In jedem Fragebogen können Sie die unterschiedlichen Fragen einrichten, die Sie Ihren Kontakten stellen möchten. Auf diese Weise können Sie Kontakte gruppieren, sodass Ihre Kampagnen eher auf die richtigen Personen ausgerichtet sind, basierend auf den Kriterien, die Sie mit den Fragebögen definieren.  
+
+Mit den richtigen Fragebögen können Sie Ihre Interessenten bewerten und in Kategorien einteilen. Sie können vorhandene Fragen und Antworten verwenden und diese mit neuen Fragen und Antworten kombinieren, um die Grundlage für Ihre Bewertung zu schaffen. Jede Antwort in der Bewertung erhält einen Punktewert, und abhängig von dem Bereich, den Sie für die Kategorien festgelegt haben (*Von-Wert* und *Bis-Wert*), gruppiert das Bewertungssystem Ihre Kontakte nach den definierten Kategorien. Z. B. *ABC*-Debitoren, Lieferanten mit *hoher/niedriger Loyalität* oder *Platin/Gold/Silber*-Interessenten.  
 
 Sie können die Befragung auch dazu verwenden, um einige Fragen zum Kontakt, Debitor oder Kreditor automatisch zu beantworten.  
 
 ## <a name="to-add-a-profile-questionnaire"></a>So fügen Sie eine Profilbefragung hinzu
-1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Fragebogen Einrichtung** ein und wählen Sie dann den zugehörigen Link.  
-2.  Wählen Sie die Aktion **Neu**.  
-3.  Füllen Sie die Felder bei Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Fragebogen Einrichtung** ein und wählen Sie dann den zugehörigen Link.  
+2. Wählen Sie die Aktion **Neu**.  
+3. Füllen Sie die Felder bei Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-add-questions-to-a-profile-questionnaire"></a>So fügen Sie einen Fragebogen einer Profilbefragung hinzu
-1.  Wählen Sie den entsprechenden Profilfragebogen aus und wählen Sie dann die Aktion **Einstellung Fragebogen bearbeiten**.  
-2.  Wählen Sie in der ersten leeren Zeile im Feld **Art** die Option **Frage** aus, und geben Sie im Feld **Beschreibung** Ihre Frage ein. Füllen Sie die anderen Felder in dieser Zeile aus.  
-3.  Wählen Sie in der nächsten leeren Zeile im Feld **Art** die Option **Antwort** aus, und geben Sie im Feld **Beschreibung** Ihre Antwort ein.  
-4.  Wählen Sie im Feld **Priorität** die Priorität aus. Definieren Sie in den Feldern **Von Wert** und **Bis Wert** einen Punktbereich. Kontakte, die innerhalb des definierten Bereichs Punkte erhalten, erhalten die Antwort.  
+
+1. Wählen Sie den entsprechenden Profilfragebogen aus und wählen Sie dann die Aktion **Einstellung Fragebogen bearbeiten**.  
+2. Wählen Sie in der ersten leeren Zeile im Feld **Art** die Option **Frage** aus, und geben Sie im Feld **Beschreibung** Ihre Frage ein. Füllen Sie die anderen Felder in dieser Zeile aus.  
+
+    Fügen Sie der Frage optional Details hinzu.
+
+    1. Wählen Sie die Zeile mit der Frage, danach das Menü **Zeile** und anschließend die Option **Fragendetails** aus.  
+
+    2. Wählen Sie auf der Seite **Profilfragendetails** im Inforegister **Klassifizierung** das Feld **Autom. Kontaktklassifizierung** aus.  
+
+    3. Wählen Sie im Feld **Kontaktklassifizierungsfeld** die Option **Bewertung** aus.  
+
+    4. Füllen Sie das Feld **Min. % beantworteter Fragen** aus. Der Standardwert lautet **0**.  
+
+        Dies gibt die Anzahl der Fragen in Prozent an, die für die Berechnung dieser Bewertung beantwortet werden müssen.
+
+    5. Wählen Sie auf der Registerkarte **Aktionen** in der Gruppe **Seite** die Option **Antwortpunkte** aus. Geben Sie die Punkte ein, die Sie für die Antworten auf der Seite **Antwortpunkte** vergeben möchten.
+
+        Wenn Sie sich einen Überblick über die von Ihnen vergebenen Punkte für jede Antwort verschaffen möchten, wählen Sie die Aktion **Antwortpunkte** aus.
+
+    6. Um ein Update auszuführen, kehren Sie zur Seite **Profilbefragung Einrichtung** zurück. Wählen Sie im Menü **Aktionen** in der Gruppe **Funktionen** **Kontaktklassifizierung aktual.** aus.
+
+    Auf der Seite **Profilbefragung einrichten** wird die Anzahl der Kontakte, die diese Kriterien erfüllen, im Feld **Anzahl KontakteProfil** sowie in der **Kontaktkarte** jedes Kontaktes angezeigt.
+
+3. Wählen Sie in der nächsten leeren Zeile im Feld **Art** die Option **Antwort** aus, und geben Sie im Feld **Beschreibung** Ihre Antwort ein.  
+4. Wählen Sie im Feld **Priorität** die Priorität aus. Definieren Sie in den Feldern **Von Wert** und **Bis Wert** einen Punktbereich. Kontakte, die innerhalb des definierten Bereichs Punkte erhalten, erhalten die Antwort.  
 
 Wiederholen Sie diese Schritte, um alle Fragen und Antworten für die Profilbefragung einzugeben.
 
-Nachdem Sie eine Befragung erstellt haben, müssen Sie Kontaktbewertungen zu erstellen, um Ihre Kontakte zu klassifizieren. Sie können auch Fragen einrichten, die automatisch auf Grundlage der Informationen in der Kontaktkarte bewertet werden.  
+Nachdem Sie eine Befragung erstellt haben, können Sie Ihre Kontakte damit bewerten und klassifizieren. Sie können auch Fragen einrichten, die automatisch auf Grundlage der Informationen in der Kontaktkarte bewertet werden.  
 
 > [!NOTE]
-> Wenn Sie eine Frage eingeben, die automatisch beantwortet werden soll, wählen Sie die Optionen <STRONG>Zeile</STRONG> und dann <STRONG>Fragendetails</STRONG> aus, um die Kriterien einzugeben, die zur automatischen Beantwortung verwendet werden.
+> Wenn Sie eine Frage eingeben, die automatisch beantwortet werden soll, wählen Sie die Optionen **Zeile** und dann **Fragendetails** aus, um die Kriterien einzugeben, die zur automatischen Beantwortung verwendet werden.
+
+## <a name="apply-questionnaires-to-contacts"></a>Fragebögen auf Kontakte anwenden
+
+Sie können Ihre Fragebögen manuell auf Kontakte anwenden. Öffnen Sie einfach die entsprechende Kontaktkarte, und wählen Sie dann die Aktion **Profil** aus. Sobald Sie die gewünschten Fragebögen angewendet haben, können Sie mit der Verwendung der Kategorien in Ihren Kampagnen beginnen.  
 
 ## <a name="the-automatic-classification-of-contacts"></a>Die automatische Klassifizierung von Kontakten
+
 Sie können Ihre Kontakte nach Debitoren, Kreditoren und Kontaktinformationen klassifizieren, indem Sie auf der Seite Profilbefragung einrichten automatisch beantwortete **Profilbefragungen** einrichten.  
 
 > [!NOTE]

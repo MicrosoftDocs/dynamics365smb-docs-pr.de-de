@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Excel, add-in, centralized deployment, M365 admin center, individual acquisition, appsource
 ms.date: 10/07/2021
 ms.author: jswymer
-ms.openlocfilehash: beb7a01986d12458e0615918608b44a6d90c269c
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: e8229b1d911b51e065b3d5a94fff1a0253bd5e26
+ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518415"
+ms.lasthandoff: 06/12/2022
+ms.locfileid: "8950091"
 ---
 # <a name="get-the-business-central-add-in-for-excel"></a>Holen Sie sich das Business Central-Add-in für Excel
 
@@ -123,15 +123,14 @@ Netzwerkdienste wie Proxies oder Firewalls müssen Arbeitspläne zwischen jedem 
 
 Manchmal kommt es vor, dass Benutzer Probleme mit dem Excel-Add-In ausführen. In diesem Abschnitt finden Sie einige Tipps, wie Sie die Sperrung für Benutzer unter bestimmten Umständen aufheben können.
 
-|Problem  |Lösung oder Workaround  |Kommentare  |
+|Problem  |Lösung oder Workaround  |Bemerkungen  |
 |---------|---------|---------|
 |Das Add-In lässt sich nicht starten|Prüfen Sie, ob das Add-in zentral bereitgestellt wird. Oder überprüfen Sie, ob der Benutzer für die lokale Installation gesperrt ist. | Der Admin kann Office so konfigurieren, dass Benutzer keine Add-Ins erwerben können. In diesen Fällen muss der Admin das Add-In zentral bereitstellen. Weitere Informationen finden Sie unter [Add-ins im Admin Center bereitstellen](/microsoft-365/admin/manage/manage-deployment-of-add-ins?view=o365-worldwide&preserve-view=true).|
 |Die Daten werden nicht in Excel geladen|Testen Sie die Verbindung, indem Sie eine andere Liste in Excel über [!INCLUDE [prod_short](includes/prod_short.md)] öffnen. Oder öffnen Sie die Arbeitsmappe in Excel in einem Browser.|Wenn der Benutzer einen Firmennamen angegeben hat, der Sonderzeichen enthält, kann das Add-In keine Verbindung herstellen. |
 |Daten können nicht in [!INCLUDE [prod_short](includes/prod_short.md)] zurück veröffentlicht werden.|Testen Sie die Verbindung, indem Sie die Arbeitsmappe in Excel in einem Browser öffnen. |Manchmal kann eine Erweiterung den Veröffentlichungsauftrag blockieren. Wenn die Seite erweitert oder angepasst ist, entfernen Sie die Erweiterungen und versuchen Sie es dann erneut.|
 |Die Daten sind falsch  |Excel zeigt Zeiten und Daten möglicherweise in einem anderen Format als [!INCLUDE [prod_short](includes/prod_short.md)] an. Diese Bedingung macht sie nicht falsch, und die Daten in [!INCLUDE [prod_short](includes/prod_short.md)] werden nicht durcheinander gebracht.|         |
 |Bei einigen Listenseiten führt das Bearbeiten mehrerer Zeilen in Excel immer wieder zu Fehlern. Diese Bedingung kann auftreten, wenn OData-Aufrufe FlowFields und Felder außerhalb des Steuerelements des Repeaters enthalten.|Aktivieren Sie auf der Seite **Webdienste** die Kontrollkästchen **Nicht editierbare FlowFields ausschließen** und **Felder außerhalb des Repeaters ausschließen** für die veröffentlichte Seite. Wenn Sie diese Kontrollkästchen aktivieren, werden nicht editierbare FlowFields und Felder von der eTag Berechnung ausgeschlossen. |Diese Kontrollkästchen sind standardmäßig ausgeblendet. Um sie auf der Seite **Webdienste** anzuzeigen, verwenden Sie [Personalisierung](/dynamics365/business-central/ui-personalization-user). |
-
-
+|Benutzer können sich nicht mehr beim Add-In anmelden. Wenn sie versuchen, sich anzumelden, wird der Vorgang abgebrochen, ohne abgeschlossen zu werden.| Dieses Problem wird möglicherweise durch ein Update verursacht, das irgendwann im Juli 2022 am Add-In vorgenommen wurde. Weitere Informationen und eine Fehlerbehebung finden Sie unter [Excel-Add-In-Konfiguration zur Unterstützung des Updates vom Juli 2022 ändern](/dynamics365/business-central/dev-itpro/administration/update-excel-addin-configuration).|Gilt nur für [!INCLUDE [prod_short](includes/prod_short.md)]-On-Premises|
 
 <!--
 ## Deploy the Excel add-in for Business Central online
@@ -168,7 +167,7 @@ When the add-in is installed, it shows up as a panel in Excel. Next, you must co
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Siehe Verwandte Schulungen unter [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-also"></a>Siehe auch
 
 [Analysieren von Finanzberichten in Microsoft Excel](finance-analyze-excel.md)  
 [Arbeiten mit Business Central](ui-work-product.md)  

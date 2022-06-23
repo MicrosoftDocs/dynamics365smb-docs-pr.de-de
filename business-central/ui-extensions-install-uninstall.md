@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize, install, uninstall
 ms.search.form: 2500
-ms.date: 03/25/2022
+ms.date: 05/24/2022
 ms.author: solsen
-ms.openlocfilehash: fcdfe843071bc416973b7411e5702a690e7e377d
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: a70ea442ffb9d6e5f131e4d720da57f033474e16
+ms.sourcegitcommit: 6eeac924d8e211080316ce5068e3d4fb5a2d5ed9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514751"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "8804656"
 ---
 # <a name="install-and-uninstall-extensions-in-business-central"></a>Erweiterungen in Business Central installieren und deinstallieren
 
@@ -45,7 +45,7 @@ Wenn Sie eine Erweiterung auswählen, können Sie erfahren, was die Erweiterung 
 Wenn Sie eine Erweiterung installieren, müssen Sie diese möglicherweise einrichten, wie ein Konto zur Verwendung mit Erweiterung für **PayPal Payments Standard für [!INCLUDE[prod_short](includes/prod_short.md)]** definieren.
 Andere Erweiterungen fügen einfach Felder einer vorhandenen Seite hinzu, oder sie fügen beispielsweise eine neue Seite hinzu.
 
-Wenn Sie eine Erweiterung deinstallieren und Sie dann Ihre Absicht ändern, können Sie sie wieder einrichten. Wenn Sie eine Erweiterung deinstallieren, die Sie verwendet haben, werden die Daten beibehalten, sodass, wenn Sie die Erweiterung erneut einrichten, die Daten noch verfügbar sind. Es sind einige Erweiterungen erforderlich. Sie können diese nicht von der **Extension Management** Seite deinstallieren. Wenn Sie es versuchen, wird eine Fehlermeldung angezeigt.
+Wenn Sie eine Erweiterung deinstallieren und Sie dann Ihre Absicht ändern, können Sie sie wieder einrichten. Wenn Sie eine Erweiterung deinstallieren, die Sie verwendet haben, werden die Daten beibehalten, sodass, wenn Sie die Erweiterung erneut einrichten, die Daten noch verfügbar sind. Es sind einige Erweiterungen erforderlich. Sie können diese Erweiterungen nicht über die Seite **Erweiterungsverwaltung** deinstallieren. Wenn Sie es versuchen, wird eine Fehlermeldung angezeigt.
 
 Einige Erweiterungen werden von Microsoft bereitgestellt, und andere Erweiterungen werden von anderen [anderen Unternehmen](ui-extensions-other.md) bereitgestellt. Alle Erweiterungen werden getestet, bevor sie zugänglich gemacht werden, aber wir empfehlen, dass Sie auf die Links zugreifen, die mit jeder Erweiterung zur Verfügung gestellt wurden, um mehr über die Erweiterung zu erfahren, bevor Sie entscheiden, sie zu installieren.
 
@@ -77,17 +77,21 @@ Microsoft stellt die folgenden Erweiterungen bereit:
 
 ## <a name="upload-a-per-tenant-extension-pte"></a>Eine Pro-Tenant-Erweiterung (PTE) hochladen
 
-Sie laden eine PTE hoch, indem Sie die Seite **Erweiterungsverwaltung** verwenden. Gehen Sie auf der Seite **Erweiterungsverwaltung** zu **Verwalten** und wählen Sie dann **Erweiterung hochladen**. Geben Sie auf der Seite **Erweiterung hochladen und bereitstellen** die hochzuladende .app-Datei an. Um fortzufahren, wählen Sie die Schaltfläche **Akzeptieren** und dann die Schaltfläche **Bereitstellen**. Damit wird der Prozess des Bereitstellens des PTE gestartet.
+Sie laden eine PTE hoch, indem Sie die Seite **Erweiterungsverwaltung** verwenden. Gehen Sie auf der Seite **Erweiterungsverwaltung** zu **Verwalten** und wählen Sie dann **Erweiterung hochladen**. Geben Sie auf der Seite **Erweiterung hochladen und bereitstellen** die hochzuladende .app-Datei an. Um fortzufahren, wählen Sie die Schaltfläche **Akzeptieren** und dann die Schaltfläche **Bereitstellen** aus. Dadurch wird der Bereitstellungsprozess des PTE gestartet.
 
 Wenn der PTE Änderungen am Schema enthält, können Sie *einen Upload des PTE erzwingen*. Wählen Sie dazu im **Schema-Synchronisationsmodus** die Option **Erzwingen**. Sie erhalten einen Bestätigungsdialog, den Sie akzeptieren müssen, bevor Sie fortfahren.  
 
 ## <a name="uninstall-an-extension"></a>Eine Erweiterung deinstallieren
 
-Sie deinstallieren eine Erweiterung, indem Sie die Seite **Erweiterungsverwaltung** verwenden. Wenn Sie eine Erweiterung deinstallieren und Sie Ihre Meinung anschließend ändern, können Sie die Erweiterung erneut installieren. Wenn Sie eine Erweiterung deinstallieren, die Sie verwendet haben, werden die Daten standardmäßig beibehalten, falls Sie die Erweiterung erneut installieren sollten. Sie können die Daten jedoch auch zusammen mit der Erweiterung löschen. Verwenden Sie hierfür das Kontrollkästchen **Erweiterungsdaten löschen**. Standardmäßig ist dieses Kontrollkästchen *nicht aktiviert*.
+Sie deinstallieren eine Erweiterung, indem Sie die Seite **Erweiterungsverwaltung** verwenden. Um eine Erweiterung zu deinstallieren, wählen Sie sie auf der Seite und wählen Sie dann die Aktion **Deinstallieren** aus. Wenn Sie eine Erweiterung deinstallieren und Sie Ihre Meinung anschließend ändern, können Sie die Erweiterung erneut installieren.
+
+Wenn Sie eine Erweiterung deinstallieren, die Sie verwendet haben, werden die Daten standardmäßig beibehalten, falls Sie die Erweiterung erneut installieren sollten. Sie können die Daten jedoch auch zusammen mit der Erweiterung löschen. Dieser Vorgang wird durch den Schalter **Erweiterungsdaten löschen** gesteuert. Dieser Schalter ist standardmäßig **deaktiviert**. Wenn Sie versuchen, den Schalter **Erweiterungsdaten löschen** für die Erweiterung zu aktivieren, wird ein Bestätigungsdialog angezeigt, und Sie müssen **Ja** auswählen, um sie zu aktivieren. Nachdem der Schalter **Erweiterungsdaten löschen** aktiviert wurde, können Sie die Erweiterung deinstallieren, und Sie werden aufgefordert, die Deinstallation der Erweiterung und das Löschen der Daten zu bestätigen.
 
 > [!IMPORTANT]  
-> Wenn Sie das Kontrollkästchen **Erweiterungsdaten löschen** aktivieren, wird ein Bestätigungsdialogfeld angezeigt, in dem Sie **OK** auswählen müssen. Wenn das Kontrollkästchen **Erweiterungsdaten löschen** aktiviert ist und Sie die Erweiterung jetzt deinstallieren, werden Sie aufgefordert, die Deinstallation der Erweiterung und das Löschen der Daten zu bestätigen. Die Aktion kann nicht rückgängig gemacht werden.
-Einige Erweiterungen sind erforderlich. Sie können diese nicht von der **Extension Management** Seite deinstallieren. Wenn Sie es versuchen, wird eine Fehlermeldung angezeigt.  
+> - Möglicherweise gibt es andere Erweiterungen, die die zu deinstallierende Erweiterung erfordern oder von ihr abhängen, um zu funktionieren. Diese anderen Erweiterungen werden als *abhängige Elemente* bezeichnet. Sie können eine Erweiterung erst deinstallieren, wenn ihre abhängigen Erweiterungen ebenfalls deinstalliert werden.
+> - Wenn Sie eine Erweiterung mit einer oder mehreren abhängigen Elementen deinstallieren, wird ein Bestätigungsdialogfeld angezeigt, das die abhängigen Elemente auflistet und Sie fragt, ob Sie die Erweiterung und alle ihre abhängigen Elemente deinstallieren möchten. Sie müssen **Ja** auswählen, um den Vorgang fortzusetzen.
+> - Wenn Sie den Schalter **Erweiterungsdaten löschen** aktivieren, werden durch die Deinstallation der Erweiterung alle Daten für die Erweiterung **plus** die Daten für alle abhängigen Erweiterungen gelöscht. Die Aktion kann nicht rückgängig gemacht werden.
+> - Einige Erweiterungen sind erforderlich. Sie können diese nicht von der **Extension Management** Seite deinstallieren. Wenn Sie es versuchen, wird eine Fehlermeldung angezeigt.  
 
 ## <a name="see-also"></a>Siehe auch
 

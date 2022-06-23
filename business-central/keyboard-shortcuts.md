@@ -1,20 +1,20 @@
 ---
 title: Tastenkombinationen
 description: Die gesamte Übersicht der Tastenkombinationskombinationen, um mit den Daten effizient zu arbeiten.
-author: brentholtorf
+author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 01/27/2022
-ms.author: bholtorf
-ms.openlocfilehash: 3d8b49c34bee069c10fdd2713de9ed0cd3c3fb72
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.date: 05/23/2022
+ms.author: jswymer
+ms.openlocfilehash: 0e5ad41e6109d53a998f1c3ad8280b92a602a50e
+ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517973"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8799690"
 ---
 # <a name="keyboard-shortcuts"></a>Tastenkombinationen
 
@@ -51,15 +51,16 @@ Die folgende Tabelle beschreibt Tastenkombinationen, um in verschiedenen Element
 |Alt+Shift+F2|Umschalten zwischen **Einzelheiten** und **Anhängen** im FactBox-Bereich.|
 |ALT+O|Fügen Sie eine neue Notiz für den ausgewählten Datensatz hinzu, auch wenn das FactBox-Fenster nicht geöffnet ist.|
 |ALT+Q<br />(Strg + Wahltaste + Q)|Öffnen Sie das Fenster **Wie möchten Sie weiter verfahren**. Weitere Informationen finden Sie unter [Suchen von Seiten und Informationen mit Wie möchten Sie weiter verfahren](ui-search.md).|
-|ALT+N |Öffnen Sie eine Seite, um einen neuen Datensatz zu erstellen. (Ähnlich wie bei der Auswahl der **Neu** und **+** Aktionen.)|
+|STRG+ALT+Q<br />(Strg+Option+Befehl+Q)|Öffnen Sie die Seite **Posten suchen**, um Belege und Posten zu finden, die auf der Grundlage gemeinsamer Informationen wie Belegnummer oder Buchungsdatum miteinander in Beziehung stehen. Weitere Informationen finden Sie unter [Suchen zugehöriger Entitäten für gebuchte Belege](ui-find-entries.md).|
+|Alt+N |Öffnen Sie eine Seite, um einen neuen Datensatz zu erstellen. (Ähnlich wie bei der Auswahl der **Neu** und **+** Aktionen.)|
 |ALT+UMSCHALT+N |Schließen Sie eine neu erstellte Seite und öffnen Sie eine neue, um einen neuen Datensatz zu erstellen. Ebenso bucht Alt+F9 ein Dokument und erstellt ein neues.|
 |ALT+T|Öffnen der Seite **Meine Einstellungen**.|
-|Alt+Nach-rechts-Taste|Nachschlagen zusätzlicher Informationen oder zugrunde liegender Werte für ein Feld, das die ![Bearbeitungshilfe.](media/assist-edit-icon.png "AssistEdit-Schaltfläche") Schaltfläche enthält. Dies wird verwendet, wenn die übliche Dropdown-Schaltfläche (Alt + Abwärtspfeil) im selben Feld für einen anderen Zweck verwendet wird.|
+|Alt+Nach-rechts-Taste|Nachschlagen zusätzlicher Informationen oder zugrunde liegender Werte für ein Feld, das die ![Bearbeitungshilfe.](media/assist-edit-icon.png "AssistEdit-Schaltfläche") Schaltfläche enthält. Wird verwendet, wenn die übliche Dropdown-Schaltfläche (Alt + Abwärtspfeil) im selben Feld für einen anderen Zweck verwendet wird.|
 |Ctrl+Alt+Shift+C|Informationen in der Unternehmenskennzeichnung anzeigen.|
 |STRG+ALT+F1|Öffnen und schließen Sie den Seitenüberprüfungsbereich. Der Seitenüberprüfungsbereich zeigt Informationen zur Seite, wie deren Herkunftstabelle, Felder, Filter, Erweiterungen und mehr.<br /><br />Weitere Informationen finden Sie unter [Überprüfen von Seiten](across-inspect-page.md).|
 |Strg+C |Den Wert des Felds kopieren. Wenn das Feld im Fokus liegt und Sie keinen Text in diesem Feld ausgewählt haben, wird hierdurch der gesamten Wert kopiert. Wenn Sie Text in diesem Feld ausgewählt haben, wird nur der markierte Text kopiert.|
-|Ctrl+F1|Öffnen Sie die Business Central-Hilfe für die Seite.|
-|Ctrl+F12|Wechseln Sie zwischen der breiten und schmalen Layout-Ansicht.|
+|Ctrl+F1|Öffnet je nach Business Central-Version den [Hilfebereich](product-help-and-support.md#help-pane) oder einen Business Central-Hilfeartikel zu [Microsoft-Docs](/dynamics365/business-central/).|
+|Strg+F12|Wechseln Sie zwischen der breiten und schmalen Layout-Ansicht.|
 |Ctrl+Click|Navigieren Sie während der Personalisierung oder Anpassung, wenn die Aktion mit einer Pfeilspitze markiert ist. Weitere Informationen finden Sie unter [Personalisieren Sie Ihren Arbeitsbereich](ui-personalization-user.md).|  
 |Ctrl+F5|[!INCLUDE[prod_short](includes/prod_short.md)] Anwendung neu laden. (Dies ist gleich, wie Browser aktualisieren/neu laden.)|
 |F5|Aktualisieren Sie die Daten der aktuellen Seite.<br /><br />Verwenden Sie diesen Schlüssel, um sicherzustellen, dass sich die Daten aus der Seite mit sämtlichen Änderungen auf dem neuesten Stand befinden, die andere vorgenommen haben, während Sie arbeiten.|

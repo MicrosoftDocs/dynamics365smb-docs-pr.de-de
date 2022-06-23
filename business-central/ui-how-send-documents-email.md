@@ -8,12 +8,12 @@ ms.search.keywords: SMTP, mail, Microsoft 365, cover, body, PayPal, layout
 ms.search.form: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5e791eb8f066085b8230aeac4c85a82c67093f06
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: 632591160ab5cfad7d33fc26bf3f9a9b4877176a
+ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655573"
+ms.lasthandoff: 06/12/2022
+ms.locfileid: "8950490"
 ---
 # <a name="send-documents-and-emails"></a>Senden von Belegen und E-Mails
 
@@ -44,7 +44,7 @@ In diesem Verfahren wird beschrieben, wie Sie eine gebuchte Verkaufsrechnung als
 7. Im Feld **Anhang** wird die generierte Rechnung standardmäßig als PDF\_Datei angehängt.
 8. Geben Sie im **Nachrichtentext**-Feld eine kurze Mitteilung an den Empfänger ein.
 
-    Wenn ein belegspezifischer E-Mail-Text auf der Seite **Berichts-Auswahl, Verkauf** eingerichtet wird, wird das Feld **Text** automatisch ausgefüllt. Weitere Informationen finden Sie unter [Richten Sie wiederverwendbare E-Mail-Texte und Layouts für Verkaufs- und Einkaufsbelege ein](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts-for-sales-and-purchase-documents).
+    Wenn ein belegspezifischer E-Mail-Text auf der Seite **Berichts-Auswahl, Verkauf** eingerichtet wird, wird das Feld **Text** automatisch ausgefüllt. Weitere Informationen finden Sie unter [Wiederverwendbare E-Mail-Texte und -Layouts einrichten](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts).
 9. Wählen Sie die Schaltfläche **OK**, um die E-Mail zu senden.
 
 > [!NOTE]  

@@ -1,20 +1,20 @@
 ---
 author: edupont04
 ms.topic: include
-ms.date: 02/23/2022
+ms.date: 06/08/2022
 ms.author: edupont
-ms.openlocfilehash: 8f46c780d88df95264137814f0f49d72dd17bc75
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: fd1448c9fd32b359bf40a02b90a3ee6a66a5d685
+ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8367294"
+ms.lasthandoff: 06/12/2022
+ms.locfileid: "8950255"
 ---
 ## <a name="sign-up"></a>Anmeldung
 
 ### <a name="which-email-address-i-should-use-to-sign-up"></a>Mit welcher E-Mail-Adresse soll ich mich anmelden?
 
-Verwenden Sie Ihre Arbeits- oder Schul-E-Mail-Adresse. Wir richten Ihre Testversion auf dem Konto Ihrer Organisation ein. Sie können keine E-Mail-Adressen verwenden, die von E-Mail-Diensten für Endverbraucher oder Telekommunikationsanbietern wie outlook.com, hotmail.com, gmail.com und anderen bereitgestellt werden.  
+Verwenden Sie Ihre Arbeits- oder Schul-E-Mail-Adresse. Wir richten Ihre Testversion auf dem Konto Ihrer Organisation ein. Sie können keine E-Mail-Adressen verwenden, die von E-Mail-Diensten für Endverbraucher oder Telekommunikationsanbietern wie *outlook.com*, *hotmail.com*, *gmail.com* und anderen bereitgestellt werden.  
 
 ### <a name="what-are-the-system-requirements-for-the-trial"></a>Welche Systemvoraussetzungen bestehen für die Testversion?
 
@@ -39,7 +39,7 @@ Wenn Sie sich für die Testversion anmelden, erhalten Sie eine E-Mail mit den Te
 
 ### <a name="how-do-i-add-more-users-to-a-trial"></a>Wie füge ich einer Testversion weitere Benutzer hinzu?
 
-Um Benutzer hinzuzufügen, bitten Sie Ihren Administrator, zum [Microsoft 365 Admin Center](https://admin.microsoft.com) zu navigieren, wo dieser unter Befolgung der [Admin Center-Anweisungen](/microsoft-365/admin/add-users/add-users) Benutzer bis zur Testlizenzbegrenzung hinzufügen kann. Wenn der Benutzer, den Sie hinzufügen, bereits über ein Microsoft 365-Konto verfügt, weisen Sie ihm die entsprechende Lizenz zu. Weitere Informationen finden Sie unter [Benutzern Lizenzen zuweisen](/microsoft-365/admin/manage/assign-licenses-to-users) im Microsoft 365-Inhalt.
+Um Benutzer hinzuzufügen, muss Ihr Administrator zum [Microsoft 365 Admin Center](https://admin.microsoft.com) wechseln. Anschließend kann er unter Befolgung der [Admin Center-Anweisungen](/microsoft-365/admin/add-users/add-users) Benutzer bis zur Testlizenzbegrenzung hinzufügen. Wenn der Benutzer, den Sie hinzufügen, bereits über ein Microsoft 365-Konto verfügt, weisen Sie ihm die entsprechende Lizenz zu. Weitere Informationen finden Sie unter [Benutzern Lizenzen zuweisen](/microsoft-365/admin/manage/assign-licenses-to-users) im Microsoft 365-Inhalt.
 
 ### <a name="how-many-users-can-i-add-to-my-trial-environment"></a>Wie viele Benutzer kann ich zu meiner Testumgebung hinzufügen?
 
@@ -47,11 +47,9 @@ Sie können der Testumgebung eine unbegrenzte Anzahl von Benutzern hinzufügen.
 
 ### <a name="how-do-i-reset-the-trial-environment"></a>Wie setze ich die Testumgebung zurück?
 
-Sie können die Testumgebung nicht zurücksetzen. Ihr Administrator kann jedoch neue Sandbox-Umgebungen erstellen, in denen Sie die verschiedenen Funktionen ausprobieren können. Weitere Informationen finden Sie unter [Produktions- und Sandbox-Umgebungen](/dynamics365/business-central/dev-itpro/administration/environment-types) im Administratorinhalt.  
+Sie können die Testumgebung nicht zurücksetzen. Bitten Sie Ihren Administrator jedoch, eine neue Sandbox-Umgebungen zu erstellen, damit Sie die verschiedenen Funktionen ausprobieren können. Weitere Informationen finden Sie unter [Produktions- und Sandbox-Umgebungen](/dynamics365/business-central/dev-itpro/administration/environment-types) im Administratorinhalt.  
 
 Wenn Sie [!INCLUDE [prod_short](prod_short.md)] während eines Testzeitraums abbrechen möchten, müssen Sie Ihren Microsoft 365-Administrator bitten, das Testabonnement aus dem Konto Ihres Unternehmens im [Microsoft 365 Admin Center](https://admin.microsoft.com/) zu entfernen. Weitere Informationen finden Sie auch unter [Abonnement kündigen oder [!INCLUDE[prod_short](prod_short.md)]](../admin-cancel.md) entfernen.  
-
-Wenn Sie sich für Dynamics 365 Business Central mit einem Nicht-Microsoft 365-Geschäftskonto angemeldet haben, verfügen Sie nicht über einen Microsoft 365-Administrator. Wenn Sie das Abonnement kündigen möchten, müssen Sie das [!INCLUDE[prod_short](prod_short.md)]-Stornierungsteam kontaktieren, indem Sie eine E-Mail an [cancelbusinesscentra@microsoft.com](mailto:cancelbusinesscentra@microsoft.com) senden. Sie müssen den Namen Ihres [!INCLUDE[prod_short](prod_short.md)]-Mandanten in die Nachricht einfügen, damit wir Sie identifizieren können. Sie finden diese Informationen auf der Seite **Hilfe und Unterstützung**, die Sie über das **?**-Menü aufrufen können. Menü. Weitere Informationen finden Sie unter [Ressourcen für Hilfe und Support](../product-help-and-support.md).  
 
 ## <a name="trial-expiration-and-extension"></a>Ablauf und Verlängerung der Testversion
 

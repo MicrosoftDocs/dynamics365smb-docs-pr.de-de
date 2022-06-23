@@ -8,20 +8,26 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
 ms.search.form: 308, 309, 310, 311, 325, 326, 327, 328, 405, 406, 8451, 12202, 31077
-ms.date: 01/28/2022
+ms.date: 05/23/2022
 ms.author: bholtorf
-ms.openlocfilehash: d5b1358166f8d26a62da79059a73948bcd7b9784
-ms.sourcegitcommit: 4853614c85beb347091c5c4c1ea8d974dec887fc
+ms.openlocfilehash: 2ea3d93e1dac041848dc650fc8137e824e0fd4c2
+ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8740337"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8799745"
 ---
 # <a name="set-up-and-report-intrastat"></a>Einrichten und Berichten von Intrastat
 
 Alle Unternehmen innerhalb der EU sind verpflichtet, Auskunft über ihre Handelsaktivitäten mit anderen EU-Ländern/-Regionen zu geben. Warenbewegungen müssen jeden Monat dem Statistischen Amt Ihres Landes/Ihrer Region mitgeteilt und die Berichte müssen an die Steuerbehörden übermittelt werden. Dies wird als Intrastat-Berichterstattung bezeichnet. Auf der Seite **Intrastat Buch.-Blatt** können Sie regelmäßige Intrastat-Berichte ausfüllen.  
 
 ## <a name="required-and-optional-setups"></a>Erforderliche und optionale Einrichtung
+
+> [!IMPORTANT]  
+> Debitorenkarten und Kreditorenkarten enthalten das Feld **Intrastat-Partnertyp**, das dieselben Optionswerte wie das Feld **Partnertyp** aufweist: *"" (leer)*, *Unternehmen* und *Person*. Das Feld **Partnertyp** wurde in der Intrastat-Meldung durch das Feld **Intrastat-Partnertyp** ersetzt. **Partnertyp** wird in SEPA verwendet, um das SEPA-Lastschriftverfahren (Core oder B2B) zu definieren. **Intrastat-Partnertyp** wird nur für Intrastat-Berichte verwendet. Auf diese Weise können Sie bei Bedarf unterschiedliche Werte für die beiden Felder angeben.
+> 
+> Beachten Sie jedoch, dass der Wert aus dem Feld **Partnertyp** für Intrastat-Berichte verwendet wird, wenn das Feld **Intrastat-Partnertyp** leer gelassen wird.
+
 Bevor Sie das Intrastat Buch.-Blatt verwenden können, um Intrastat-Informationen zu berichten, müssen Sie mehrere Dinge einrichten:  
 
 * **Intrastat einrichten**: Intrastat-Einrichtungsseite wird verwendet, um Intrastat-Berichts- und Satzstandards zu aktivieren. Sie können festlegen, ob Sie die Intrastatmeldung von Lieferungen (Dispatches), Eingängen (Wareneingang) oder beiden abhängig von den Schwellenwerten melden müssen, die von Ihren lokalen Vorschriften festgelegt werden. Sie können auch die Transaktionstypen für reguläre Dokumente und Reklamationsbelege festlegen, die für die Transaktionsberichterstellung verwendet werden.
@@ -30,7 +36,7 @@ Bevor Sie das Intrastat Buch.-Blatt verwenden können, um Intrastat-Informatione
 * **Transaktionstypencodes**: Länder und Regionen haben unterschiedliche Codes für Intrastat-Transaktionstypen, wie beispielsweise gewöhnlichen Einkauf und Verkauf, den Austausch zurückgegebener Waren und den Austausch nicht zurückgegebener Waren. Einrichtung aller Codes, die sich auf Ihr Land/Ihre Region beziehen. Sie verwenden diese Codes auf dem Inforegister **Außenhandel** und wenn Sie Rückgaben verarbeiten. 
 
     > [!NOTE]
-    > Ab Januar 2022 verlangt Intrastat unterschiedliche Transaktions-Natur-Codes für Versendungen an Privatpersonen oder nicht mehrwertsteuerlich registrierte Unternehmen und an mehrwertsteuerlich registrierte Unternehmen. Um diese Anforderung zu erfüllen, empfehlen wir Ihnen, die Transaktionsnatur-Codes auf der Seite **Transaktionsarten** entsprechend den Anforderungen in Ihrem Land zu überprüfen und/oder neue hinzuzufügen. Außerdem sollten Sie das Feld **Partnertyp** überprüfen und auf der entsprechenden **Kunden**-Seite auf *Person* für Privatpersonen oder nicht mehrwertsteuerlich registrierte Debitorenkunden aktualisieren. Wenn Sie sich nicht sicher sind, welcher Partnertyp oder welche Transaktionsart zu verwenden ist, empfehlen wir Ihnen, einen Experten in Ihrem Land oder Ihrer Region zu fragen. 
+    > Ab Januar 2022 verlangt Intrastat unterschiedliche Transaktions-Natur-Codes für Versendungen an Privatpersonen oder nicht mehrwertsteuerlich registrierte Unternehmen und an mehrwertsteuerlich registrierte Unternehmen. Um diese Anforderung zu erfüllen, empfehlen wir Ihnen, die Transaktionsnatur-Codes auf der Seite **Transaktionsarten** entsprechend den Anforderungen in Ihrem Land zu überprüfen und/oder neue hinzuzufügen. Außerdem sollten Sie das Feld **Intrastat-Partnertyp** überprüfen und auf der entsprechenden **Debitoren**-Seite auf *Person* für Privatpersonen oder Debitoren nicht mehrwertsteuerlich registrierter Unternehmen aktualisieren. Wenn Sie sich nicht sicher sind, welcher Intrastat-Partnertyp oder welche Transaktionsart zu verwenden ist, empfehlen wir Ihnen, einen Experten in Ihrem Land oder Ihrer Region zu fragen. 
  
 * **Transportmethoden**: Es gibt sieben einstellige Codes für Intrastat-Transportmethoden. **1** für See, **2** für Schiene, **3** für Straße, **4** für Luft, **5** für Post, **7** für feste Installationen und **9** für eigenen Antrieb (z. B. Tranportieren eines Autos, indem dieses gefahren wird). [!INCLUDE[prod_short](includes/prod_short.md)] erfordert diese Codes nicht, wir empfehlen jedoch, dass die Beschreibungen eine ähnliche Bedeutung bereitstellen.  
 * **Transaktionsspezifikationen**: Dienen der Ergänzung der Beschreibungen aus den Buchungsarten.  
@@ -113,7 +119,7 @@ Nachdem Sie das Intrastat-Buch.-Blatt ausgefüllt haben, können Sie den Bericht
 Der Batchauftrag holt alle Posten innerhalb der Statistikperiode und fügt Sie als Zeilen im Intrastat Buch.-Blatt ein. Sie können diese Positionen bei Bedarf bearbeiten.  
 
 > [!IMPORTANT]  
-> Durch die Stapelverarbeitung werden nur die Posten abgerufen, die einen Länder-/Regionscode enthalten, für den auf der Seite **Länder/Regionen** ein Intrastatcode angegeben wurde. Daher ist es wichtig, dass Sie Intrastatcodes für die Länder-/Regionscodes eingeben, für die Sie die Stapelverarbeitung ausführen möchten. Der Batchauftrag legt das Feld **Partner-Umsatzsteuer-ID** auf *QV999999999999* für Privatpersonen oder nicht mehrwertsteuerpflichtige Unternehmen fest (Kunden, bei denen das Feld **Partnertyp** auf *Person* festgelegt ist), und er verwendet den Wert des Feldes **Tranaktionsart** auf dem gebuchten Artikel- oder Auftragsbucheintrag. 
+> Durch die Stapelverarbeitung werden nur die Posten abgerufen, die einen Länder-/Regionscode enthalten, für den auf der Seite **Länder/Regionen** ein Intrastatcode angegeben wurde. Daher ist es wichtig, dass Sie Intrastatcodes für die Länder-/Regionscodes eingeben, für die Sie die Stapelverarbeitung ausführen möchten. Der Batchauftrag legt das Feld **Partner-Umsatzsteuer-ID** auf *QV999999999999* für Privatpersonen oder nicht mehrwertsteuerpflichtige Unternehmen fest (Debitoren, bei denen das Feld **Intrastat** auf *Person* festgelegt ist), und er verwendet den Wert des Feldes **Tranaktionsart** auf dem gebuchten Artikel- oder Auftragsbucheintrag. 
 
 ### <a name="to-modify-intrastat-journals-lines"></a>So ändern Sie die Zeilen der Intrastat-Erfassungen
 
@@ -149,6 +155,9 @@ Sie können den Intrastat-auch auf einer Datei einreichen. Bevor Sie die Datei e
 5. Wählen Sie auf der Stapel-Job-Seite die Schaltfläche **OK**.  
 6. Wählen Sie **Speichern** aus.  
 7. Navigieren Sie zum gewünschten Speicherort für die Datei, und geben Sie den Dateinamen ein. Klicken Sie auf **Speichern**.
+
+> [!NOTE]
+> Wenn eine Zeile im Intrastat-Bericht eine zusätzliche Maßeinheit aufweist, wird das Gewicht des Artikels nicht angezeigt, da dieser Wert nicht erforderlich ist.
 
 ## <a name="reorganize-intrastat-journals"></a>Reorganisieren von Intrastat Buch.-Blättern
 

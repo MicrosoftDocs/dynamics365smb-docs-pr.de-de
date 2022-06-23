@@ -1,58 +1,68 @@
 ---
-title: Terminberechnung für Einkäufe
-description: Die Anwendung berechnet automatisch das Datum, an dem Sie einen Artikel bestellen müssen, damit er zu einem bestimmten Datum im Lagerbestand vorhanden ist.
-author: SorenGP
+title: Daten für Einkäufe berechnen
+description: In diesem Artikel wird beschrieben, wie Sie Daten für Einkäufe berechnen können.
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 06/22/2021
-ms.author: edupont
-ms.openlocfilehash: 35151e830c44cb3edd28988887f86b8abf7a3b51
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.search.keywords: purchase order, purchase, date, receipt, delivery, lead time
+ms.search.forms: ''
+ms.date: 02/06/2022
+ms.author: bholtorf
+ms.openlocfilehash: 6a3d7244beef57a1b5a82b881ec193316fe968fe
+ms.sourcegitcommit: 7a6efcbae293c024ca4f6622c82886decf86c176
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514881"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "8841866"
 ---
-# <a name="date-calculation-for-purchases"></a>Terminberechnung für Einkäufe
+# <a name="calculate-dates-for-purchases"></a>Daten für Einkäufe berechnen
 
-[!INCLUDE[prod_short](includes/prod_short.md)] berechnet automatisch das Datum, an dem Sie einen Artikel bestellen müssen, damit er zu einem bestimmten Datum im Lagerbestand vorhanden ist. Dies ist das Datum, an dem Sie erwarten können, dass Artikel, die an einem bestimmten Datum bestellt wurden, zur Kommissionierung verfügbar sind.  
+Wenn sich Artikel zu einem bestimmten Datum im Lager befinden sollen, kann [!INCLUDE[prod_short](includes/prod_short.md)] das Datum berechnen, an dem Sie die Artikel bestellen müssen. 
 
-Wenn Sie ein gewünschtes Wareneingangsdatum in einem Einkaufsbestellkopf angeben, ist das berechnete Auftragsdatum das Datum, an dem die Bestellung erfolgen muss, um die Artikel an dem Datum zu erhalten, das Sie angefordert haben. Dann wird das Datum, an dem die Artikel für die Kommissionierung zur Verfügung stehen, im Feld **Erwartetes Eingangsdatum** berechnet und eingegeben.  
+Das Ergebnis ist das Datum, an dem Sie die bestellten Artikel kommissionieren können.  
 
-Wenn Sie kein gewünschtes Wareneingangsdatum angeben, wird das Bestelldatum in der Zeile als Ausgangspunkt zur Berechnung des Datums verwendet, an dem die Artikel eingehen sollen, und des Datums, an dem die Artikel für die Kommissionierung zur Verfügung stehen.  
+Wenn Sie in einer Bestellposition ein gewünschtes Wareneingangsdatum angeben, ist das berechnete Bestelldatum das Datum, an dem Sie die Bestellung aufgeben müssen. Das Datum, an dem die Artikel für die Kommissionierung zur Verfügung stehen, wird im Feld **Erwartetes Eingangsdatum** angezeigt.  
+
+Wenn Sie kein angefordertes Wareneingangsdatum angeben, basiert das Datum, an dem Sie den Eingang des Artikels erwarten, auf dem Bestelldatum in der Zeile. 
+
+Das Wareneingangsdatum ist auch das Datum, an dem die Artikel zur Kommissionierung verfügbar sind.  
+
+> [!TIP]
+> Standardmäßig sind viele der in diesem Artikel erwähnten Datumsfelder in Bestellpositionen ausgeblendet. Wenn ein Feld nicht verfügbar ist, können Sie es hinzufügen, indem Sie die Seite personalisieren. Weitere Informationen finden Sie unter [Personalisieren Sie Ihren Arbeitsbereich](ui-personalization-user.md).
 
 ## <a name="calculating-with-a-requested-receipt-date"></a>Berechnung mit einem gewünschten Wareneingangsdatum
 
-Falls es ein gewünschtes Wareneingangsdatum in der Einkaufsbestellungszeile gibt, wird dieses Datum als Ausgangspunkt für die folgenden Berechnungen verwendet.  
+Falls ein gewünschtes Wareneingangsdatum in der Bestellzeile vorhanden ist, wird dieses Datum als Grundlage für die folgenden Berechnungen verwendet:  
 
 - Gewünschtes Wareneingangsdatum – Beschaffungszeit = Bestelldatum  
 - Gewünschtes Wareneingangsdatum + Eingeh. Lagerdurchlaufzeit + Beschaffungszeit = Erwartetes Wareneingangsdatum  
 
-Wenn Sie ein gewünschtes Wareneingangsdatum im Bestellkopf angegeben haben, wird dieses Datum in das entsprechende Feld in allen Zeilen kopiert. Sie können dieses Datum in den einzelnen Zeilen ändern oder entfernen.  
+Wenn Sie ein angefordertes Wareneingangsdatum in einer Bestellposition angeben, wird dieses Datum neuen Positionen zugewiesen, wenn Sie sie erstellen. Das Datum in den Zeilen können bei Bedarf geändert oder entfernt werden.  
 
 > [!NOTE]
 > Wenn Ihr Prozess auf einer Rückwärtsberechnung basiert, wenn Sie beispielsweise das angeforderte Wareneingangsdatum verwenden, um das geplante Auftragsdatum zu erhalten, empfehlen wir, Datumsformeln mit fester Dauer zu verwenden, z. B. 5D für fünf Tage oder 1W für eine Woche. Datumsformeln ohne feste Dauer, wie „CW“ für die aktuelle Woche oder CM für den aktuellen Monat, können zu falschen Datumsberechnungen führen. Weitere Informationen zu Datumsformeln finden Sie unter [Arbeiten mit Kalenderdaten und -zeiten](ui-enter-date-ranges.md).
 
 ## <a name="calculating-without-a-requested-delivery-date"></a>Berechnung ohne ein gewünschtes Wareneingangsdatum
 
-Wenn Sie eine Bestellzeile ohne ein gewünschtes Lieferdatum eingeben, füllt die Anwendung das Feld **Bestelldatum** in der Zeile mit dem **Bestelldatum** im Bestellkopf. Hierbei handelt es sich entweder um das Datum, das Sie eingegeben haben, oder um das Arbeitsdatum. Die folgenden Datumsangaben werden dann in der Einkaufsbestellungszeile berechnet, mit dem Bestelldatum als Ausgangspunkt.  
+Wenn Sie eine Bestellzeile ohne ein gewünschtes Lieferdatum eingeben, zeigt das Feld **Bestelldatum** in der Zeile das Datum im Feld **Bestelldatum** im Bestellkopf an. Dieses Datum ist entweder das von Ihnen eingegebene Datum oder das Arbeitsdatum. Die Daten werden dann wie folgt für die Bestellzeile berechnet, wobei das Bestelldatum als Ausgangspunkt dient:  
 
 - Bestelldatum + Beschaffungszeit = Geplantes Wareneingangsdatum  
 - Geplantes Wareneingangsdatum + Eingeh. Lagerdurchlaufzeit + Beschaffungszeit = Erwartetes Wareneingangsdatum  
 
-Falls Sie das Bestelldatum in der Zeile ändern (z. B. weil die Artikel bei dem Kreditor erst zu einem späteren Datum verfügbar sind), werden die entsprechenden Datumsangaben in der Zeile automatisch neu berechnet.  
-
-Wenn Sie das Bestelldatum im Kopf ändern, wird das Datum in allen Zeilen in das Feld  kopiert, und alle zugehörigen **Datumsfelder** werden neu berechnet.  
+Wenn Sie das Bestelldatum auf der Zeile ändern, berechnet [!INCLUDE[prod_short](includes/prod_short.md)] die anderen Daten neu.  
 
 ## <a name="default-values-for-lead-time-calculation"></a>Standardwerte für die Vorlaufzeitberechnung
 
-[!INCLUDE[prod_short](includes/prod_short.md)] verwendet den Wert aus dem Feld **Vorlaufzeitberechnung** in der Bestellzeile, um die Bestellung und die erwarteten Eingangsdaten zu berechnen.  
+[!INCLUDE[prod_short](includes/prod_short.md)] verwendet das Datumsformular im Feld **Vorlaufzeitberechnung** in der Bestellzeile, um die Bestellung und die erwarteten Eingangsdaten zu berechnen.  
 
-Sie können den Wert in der Zeile manuell angeben oder das Programm Werte verwenden lassen, die auf der Lieferantenkarte, der Artikelkarte, der Lagereinheitskarte oder dem Artikellieferantenkatalog definiert sind.
-Der Wert für die Vorlaufzeit auf der Lieferantenkarte wird jedoch nur verwendet, wenn auf der Artikelkarte, der Karte der Lagereinheit oder dem Artikellieferantenkatalog für den Artikel keine Vorlaufzeit angegeben ist. Dies ist auch die eskalierende Prioritätsreihenfolge für diese Werte. Wenn alle angegeben sind, hat die Vorlaufzeit von der Lieferantenkarte die niedrigste Priorität, und die Vorlaufzeit aus dem Lieferantenkatalog des Artikels hat die höchste Priorität.  
+Sie können die Datumsformel manuell in Zeilen angeben. Andernfalls verwendet [!INCLUDE[prod_short](includes/prod_short.md)] die auf den folgenden Seiten definierten Formeln in der Reihenfolge der Priorität:
+
+1. Artikel/Lieferanten Katalog
+2. Artikelkarte
+3. Lagerhaltungsdatenkarte
+4. Kreditorenkarte
 
 ## <a name="see-also"></a>Siehe auch
 

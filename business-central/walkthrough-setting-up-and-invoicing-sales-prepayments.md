@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 12/03/2021
 ms.author: edupont
-ms.openlocfilehash: 2fcc04c05274922a13131178d16c3e27e0b18da1
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: aa5e24755b44b2ce7b36a9a6062bf0168c5ddb89
+ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518731"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8799559"
 ---
 # <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Exemplarische Vorgehensweise: Einrichten und Fakturieren von Verkaufsvorauszahlungen
 
@@ -95,9 +95,9 @@ Heike legt fest, dass für alle Debitoren eine Anzahlung in Höhe von 20 % für
 
     |**Verkaufsart**|**Verkaufscode**|**Artikelnr.**|**Vorauszahlung %**|  
     |--------------------|--------------------|------------------|----------------------|  
-    |**Debitor**|**20000**|**1896-S**|**40**|  
-    |**Alle Debitoren**| |**1896-S**|**20**|  
-
+    |**Debitor**|**20000**|**1896-S**|**40**|
+    |**Debitor**|**20000**|**1900-S**|**30**|  
+    
     > [!TIP]
     > Je nach Land/Region müssen Sie im Inforegister **Einstandspreise und Buchung** für den Artikel 1896-S auch einen Steuergruppencode angeben. Wenn Sie das Demounternehmen verwenden, ist dieses Feld bereits festgelegt.
 

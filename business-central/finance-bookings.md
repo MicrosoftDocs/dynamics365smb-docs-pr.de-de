@@ -8,18 +8,18 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: invoicing, bookings
 ms.search.form: 1638, 6702, 6704
-ms.date: 06/16/2021
+ms.date: 05/20/2022
 ms.author: edupont
-ms.openlocfilehash: c0abb4d4389dd3896f1aceedb42d51aca0e61000
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 4423b51e7cac952bb2abcf41f9e9364d7bc098c0
+ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8139573"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8799716"
 ---
 # <a name="bulk-invoicing-for-microsoft-bookings-in-prod_short"></a>Massenrechnungsstellung für Microsoft Bookings in [!INCLUDE[prod_short](includes/prod_short.md)]
 
-Wenn Ihr Unternehmen die Anmeldungs-App in Microsoft 365 verwendet, können Sie Massenrechnungsstellung für Termine vornehmen. Die Seite **Nicht in Rechnung gestellte Anmeldungen** in [!INCLUDE[prod_short](includes/prod_short.md)] stellt eine Liste der abgeschlossenen Anmeldungen des Mandanten bereit. Auf dieser Seite können Sie schnell die Termine auswählen, die Sie verrechnen wollen und Entwurfsrechnungen für die erbrachten Services erstellen.  
+Wenn Ihr Unternehmen die Anmeldungs-App in Microsoft 365 verwendet, können Sie Massenrechnungsstellung für Termine vornehmen. Die Seite **Nicht fakturierte Buchungen** in [!INCLUDE[prod_short](includes/prod_short.md)] stellt eine Liste der abgeschlossenen Buchungen des Unternehmens bereit. Auf dieser Seite können Sie schnell die Termine auswählen, die Sie verrechnen wollen und Entwurfsrechnungen für die erbrachten Services erstellen.  
 
 ## <a name="connect-to-bookings"></a>Mit Anmeldungen verbinden
 
@@ -28,7 +28,7 @@ Um Ihr [!INCLUDE[prod_short](includes/prod_short.md)] mit Anmeldungen zu verbind
 Wenn Sie beispielsweise Debitoren zwischen Anmeldungen und [!INCLUDE[prod_short](includes/prod_short.md)] synchronisieren möchten, müssen Sie die Standardvorlage angeben, die sie verwenden möchten, um neue Debitoren basierend auf den [!INCLUDE[prod_short](includes/prod_short.md)] Debitoren in Ihrem Anmeldungsmandanten hinzuzufügen.  
 
 > [!NOTE]
-> Die Anmeldungs-App ist dafür ausgelegt, Termine für einzelne Debitoren statt Mandanten zu buchen. Die Synchronisierung mit [!INCLUDE[prod_short](includes/prod_short.md)] wird daher nur Debitorenkontakte mit einen Typ "Person" synchronisieren. Die E-Mail-Adresse ist auch erforderlich, damit der Kontakt synchronisiert wird.  
+> Die Anmeldungs-App ist dafür ausgelegt, Termine für einzelne Debitoren statt Mandanten zu buchen. Bei der Synchronisierung mit [!INCLUDE[prod_short](includes/prod_short.md)] werden daher nur Debitorenkontakte vom Typ *Person* synchronisiert. Die E-Mail-Adresse ist auch erforderlich, damit der Kontakt synchronisiert wird.  
 
 Wenn Sie beispielsweise Debitoren zwischen Anmeldungen und [!INCLUDE[prod_short](includes/prod_short.md)] synchronisieren möchten, müssen Sie die Standardvorlage angeben, die sie verwenden möchten, um neue Debitoren basierend auf den [!INCLUDE[prod_short](includes/prod_short.md)] Debitoren in Ihrem Anmeldungsmandanten hinzuzufügen.  
 
@@ -37,9 +37,12 @@ Wenn Sie beispielsweise Debitoren zwischen Anmeldungen und [!INCLUDE[prod_short]
 
 ## <a name="invoice-appointments"></a>Termin fakturieren
 
-Wenn es Zeit ist, die Rechnungen über die abgeschlossenen Anmeldungen zu senden, wechseln Sie zur Seite **Nicht fakturierte Anmeldungen**. Abhängig davon, wie oft die Daten synchronisiert werden, ist die Liste lang oder kurz. Sie können Rechnungen für alle Windows-Anmeldungen in der Liste oder für eine Anmeldung nach der anderen erstellen. Sie können eine oder mehrere Posten in der Liste auswählen und nur jene fakturieren.  
+Wenn es an der Zeit ist, die Rechnungen über die abgeschlossenen Buchungen zu senden, wechseln Sie zur Seite **Nicht fakturierte Buchungen**. Abhängig davon, wie oft die Daten synchronisiert werden, ist die Liste lang oder kurz. Sie können Rechnungen für alle Windows-Anmeldungen in der Liste oder für eine Anmeldung nach der anderen erstellen. Sie können eine oder mehrere Posten in der Liste auswählen und nur jene fakturieren.  
 
 Die Unterstützung für die Fakturierung von Terminen von Anmeldungen ist schneller und einfacher als der vollere Workflow für die Arbeit mit Verkaufsangeboten, Verkaufsaufträgen und Verkaufsrechnungen. Weitere Informationen finden Sie unter [Fakturieren eines Verkaufs](sales-how-invoice-sales.md). Sie können wählen, Ihre Services mithilfe von [!INCLUDE[prod_short](includes/prod_short.md)] zu verkaufen oder wählen, Anmeldungen zu nutzen, abhängig von Ihren Geschäftsanforderungen.  
+
+> [!NOTE]
+> Im Mai 2022 wurde ein Problem bei der Integration in Buchungen erkannt. Derzeit erfordert die Synchronisierung von Buchungen mit [!INCLUDE [prod_short](includes/prod_short.md)] die manuelle Verknüpfung der Rechnungen mit Debitoren in [!INCLUDE [prod_short](includes/prod_short.md)].
 
 ## <a name="see-also"></a>Siehe auch
 

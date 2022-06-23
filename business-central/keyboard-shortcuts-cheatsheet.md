@@ -1,20 +1,20 @@
 ---
 title: PC-Tastenkombinationskurzübersicht Referenz
 description: Ein druckerfreundliches Bezugsblatt für PC-Benutzer, das die gängigsten Tastenkombinationen enthält.
-author: brentholtorf
+author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding
-ms.date: 04/01/2021
-ms.author: bholtorf
-ms.openlocfilehash: 7496c21745e2a27271db8ccb37c9607040e5259b
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.date: 05/23/2022
+ms.author: jswymer
+ms.openlocfilehash: 399dd54ea89937dc29def09831688642a9889742
+ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511597"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8799533"
 ---
 # <a name="keyboard-quick-reference---pc-only"></a>Nur PC-Tastenkombinationskurzübersicht
 
@@ -27,6 +27,7 @@ ms.locfileid: "8511597"
 |ALT+UMSCHALT+N|Schließen Sie einen neu erstellten Datensatz und erstellen Sie einen neuen Datensatz.|
 |ALT+O|Fügen Sie eine neue Notiz für den ausgewählten Datensatz hinzu|
 |ALT+Q|Öffnen Sie **Mitteilen**|
+|STRG+ALT+Q|**Posten suchen** öffnen|
 |ALT+OBEN|Öffnen Sie QuickInfo oder Überprüfungsfehler|
 |ALT + NACH-UNTEN-TASTE|Dropdown oder Lookup für Anzeige|
 |ALT+T|Öffnen der Seite **Meine Einstellungen**.|
@@ -34,9 +35,9 @@ ms.locfileid: "8511597"
 |Strg+Einfügen|Fügen Sie eine neue Zeile in einem Dokument hinzu|
 |STRG-ENTF|Löschen Sie die Zeile in einem Dokumenten, Journal oder Arbeitsblatt|
 |Ctrl+Shift+F12|Maximieren Sie den Werbebuchungsteil auf einer Dokumentseite|
-|Ctrl+F1|Hilfe für die Seite öffnen<br />Navigieren Sie beim Personalisieren und Anpassen|
+|Ctrl+F1|Hilfebereich oder Hilfeartikel öffnen|
 |Ctrl+Click|Navigieren Sie beim Personalisieren und Anpassen|
-|Shift+F12|Öffnen Sie den Rollen-Explorer, eine Funktionsübersicht.|
+|Umschalt+F12|Öffnen Sie den Rollen-Explorer, eine Funktionsübersicht.|
 |F5/Ctrl+F5|Die Seite aktualisieren/neu laden.|
 |TAB/UMSCHALT+TAB|Fokus auf das nächste/vorherige Element richten|
 |F6/Umschalt+F6|Weiter zum nächsten Inforegister/Teil|

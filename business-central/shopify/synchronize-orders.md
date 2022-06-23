@@ -1,18 +1,18 @@
 ---
 title: Verkaufsaufträge synchronisieren und erfüllen
 description: Nehmen Sie die Einrichtung und Ausführung des Imports under der Verarbeitung von Verkaufsaufträgen über Shopify vor.
-ms.date: 05/16/2022
+ms.date: 05/27/2022
 ms.topic: article
 ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: e7c54cc620011d238942c093a05918e2f4e57c7d
-ms.sourcegitcommit: f071aef3660cc3202006e00f2f790faff849a240
+ms.openlocfilehash: 4e8d640f6de61d642037a55fdfeb09e32f197a96
+ms.sourcegitcommit: fb43bc843be4ea9c0c674a14945df727974d9bb9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8768121"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "8809013"
 ---
 # <a name="synchronize-and-fulfill-sales-orders"></a>Verkaufsaufträge synchronisieren und erfüllen
 
@@ -27,7 +27,7 @@ Zu einer regulären Shopify-Bestellung können zusätzliche Beträge hinzukommen
 - **Konto für Trinkgelder**  
 
 Aktivieren Sie **Bestellungen automatisch erstellen**, um Verkaufsbelege automatisch in [!INCLUDE[prod_short](../includes/prod_short.md)] zu erstellen, nachdem die Shopify-Bestellung importiert wurde.
-Der Verkaufsbeleg in [!INCLUDE[prod_short](../includes/prod_short.md)] enthält einen Link zur Shopify- Bestellung. Wenn Sie **Shopify-Auftragsnummer in Belegzeile** aktivieren, werden diese Informationen in der Verkaufszeile vom Typ *Kommentar* wiederholt.
+Der Verkaufsbeleg in [!INCLUDE[prod_short](../includes/prod_short.md)] enthält einen Link zur Shopify- Bestellung. Wenn Sie das Feld **Shopify-Auftragsnummer in Belegzeile** auswählen, werden diese Informationen in den Verkaufszeilen vom Typ *Kommentar* wiederholt.
 
 Im Feld **Steuergebietsquelle** können Sie die Priorität für die Auswahl des Steuergebietscodes oder der MwSt.-Geschäftsbuchungsgruppe basierend auf der Adresse definieren. Dieser Schritt ist für Länder mit Mehrwertsteuer relevant, kann aber für MwSt.-Länder verwendet werden. Weitere Informationen finden Sie unter [Anmerkungen zu Steuern](synchronize-orders.md#tax-remarks).
 
@@ -71,16 +71,20 @@ Nachfolgend wird beschrieben, wie Sie die Verkaufsaufträge importieren und aktu
 
 Alternativ können Sie nach dem Stapelverarbeitungsauftrag **Bestellungen aus Shopify synchronisieren** suchen.
 
-Nachdem der Import abgeschlossen wurde, können Sie die Shopify-Bestellung erkunden, wo Sie alle zugehörigen Informationen wie Zahlungsbuchungen, Versandkosten, Auftragserfüllungen und Risikostufe finden. Sie können auch die an den Debitor gesendete Auftragsbestätigung anzeigen, indem Sie die Aktion **Shopify-Statusseite** auswählen.
+Sie können die durchzuführende Aufgabe so planen, dass sie automatisiert ausgeführt werden. Weitere Informationen finden Sie unter [Wiederkehrende Aufgaben planen](background.md#to-schedule-recurring-tasks).
+
+## <a name="review-imported-orders"></a>Importierte Bestellungen überprüfen
+
+Sobald der Import abgeschlossen ist, können Sie die Shopify-Bestellung erkunden und alle zugehörigen Informationen finden. Suchen Sie beispielsweise die Zahlungstransaktionen, Versandkosten, Risikostufe oder Auftragserfüllungen, wenn die Bestellung bereits in Shopify ausgeführt wurde. Sie können auch alle an den Debitor gesendeten Auftragsbestätigungen anzeigen, indem Sie die Aktion **Shopify-Statusseite** auswählen.
 
 > [!NOTE]  
 > Sie können direkt zum Fenster **Shopify-Bestellungen** navigieren und Bestellungen mit dem Status *offen* aus allen Shops anzeigen. Um abgeschlossene Bestellungen zu überprüfen, müssen Sie die Seite **Shopify-Bestellungen** über das spezifische Fenster **Shopify-Shop-Karte** öffnen.
 
-## <a name="create-sales-document-in-business-central"></a>Verkaufsbeleg in Business Central erstellen
+## <a name="create-sales-documents-in-business-central"></a>Verkaufsbelege in Business Central erstellen
 
-Wenn der Umschalter **Bestellungen automatisch erstellen** auf der **Shopify-Shop-Karte** aktiviert ist, versucht [!INCLUDE[prod_short](../includes/prod_short.md)], einen Verkaufsbeleg zu erstellen, nachdem die Bestellung importiert wurde. Falls der Prozess auf Probleme stößt, wenn beispielsweise ein Kunde oder ein Produkt fehlt, müssen Sie das Problem beheben und versuchen, einen Verkaufsauftrag erneut zu erstellen.
+Wenn der Umschalter **Bestellungen automatisch erstellen** auf der **Shopify-Shop-Karte** aktiviert ist, versucht [!INCLUDE[prod_short](../includes/prod_short.md)], einen Verkaufsbeleg zu erstellen, nachdem die Bestellung importiert wurde. Treten während des Prozesses Probleme auf, wenn beispielsweise ein Debitor oder ein Produkt fehlt, müssen Sie das Problem beheben. Sie können dann versuchen, den Verkaufsauftrag erneut zu erstellen.
 
-### <a name="to-create-sales-document"></a>So erstellen Sie einen Verkaufsbeleg
+### <a name="to-create-sales-documents"></a>So erstellen Sie Verkaufsbelege
 
 1. Wechseln Sie zum Suchsymbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](../media/ui-search/search_small.png "Was möchten Sie tun?") , geben Sie **Shopify-Shop** ein, und wählen Sie den entsprechenden Link aus.
 2. Wählen Sie den Shop aus, für den Sie Bestellungen synchronisieren möchten, um die Seite **Shopify-Shop-Karte** zu öffnen.
@@ -88,7 +92,7 @@ Wenn der Umschalter **Bestellungen automatisch erstellen** auf der **Shopify-Sho
 4. Markieren Sie die Bestellung aus, für die Sie einen Verkaufsbeleg erstellen möchten, und wählen Sie die Aktion **Verkaufsbelege erstellen** aus.
 5. Wählen Sie **Ja** aus.
 
-Wenn die Shopify-Bestellung ausgefültt werden muss, wird der **Verkaufsauftrag** für ausgefüllte Shopify-Bestellungen erstellt. Für diejenigen, die nur Geschenkkarten enthalten, wird beispielsweise nur die **Verkaufsrechnung** erstellt.
+Wenn die Shopify-Bestellung ausgefüllt werden muss, wird der **Verkaufsauftrag** erstellt. Für vollständig ausgefüllte Shopify-Bestellungen, z. B. Bestellungen, die nur einen Geschenkgutschein enthalten oder die bereits in Shopify bearbeitet wurden, wird die **Verkaufsrechnung** erstellt.
 
 Ein Verkaufsbeleg ist nun erstellt und kann mit den Standarfunktionen von [!INCLUDE[prod_short](../includes/prod_short.md)] verwaltet werden.
 
@@ -102,7 +106,7 @@ Wenn Ihre Einstellungen die automatische Erstellung eines Debitors verhindern un
 
 ### <a name="tax-remarks"></a>Anmerkungen zu Steuern
 
-Während die importierte Shopify-Bestellung Informationen zu Steuern enthält, werden die Steuern neu berechnet, wenn Sie einen Verkaufsbeleg erstellen. Aus diesem Grund ist es wichtig, dass die Mehrwertsteuer-/Steuereinstellungen in [!INCLUDE[prod_short](../includes/prod_short.md)] korrekt sind.
+Während die importierte Shopify-Bestellung Informationen zu Steuern enthält, werden die Steuern neu berechnet, wenn Sie den Verkaufsbeleg erstellen. Für die Neuberechnung ist es wichtig, dass die Mehrwertsteuer-/Steuereinstellungen in [!INCLUDE[prod_short](../includes/prod_short.md)] korrekt sind.
 
 - Mehrere Produktsteuer-/MwSt.-Sätze. Beispielsweise unterliegen einige Produktkategorien ermäßigten Steuersätzen. Diese Artikel müssen in [!INCLUDE[prod_short](../includes/prod_short.md)] vorhanden und Shopify-Produkten zugeordnet sein. Andernfalls wird bei der automatischen Erstellung fehlender Artikel die MwSt-Produktbuchungsgruppe verwendet.
 

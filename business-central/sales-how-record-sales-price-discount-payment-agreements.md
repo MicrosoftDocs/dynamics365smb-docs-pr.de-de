@@ -1,5 +1,5 @@
 ---
-title: Verkaufspreise und Rabatte für Debitoren einrichten | Microsoft Docs
+title: Spezielle Verkaufspreise und Rabatte aufzeichnen
 description: Beschreibt, wie Sie Preis- und Rabattvereinbarungen für Verkaufsbelege definieren.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -8,25 +8,27 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
-ms.date: 04/01/2021
+ms.date: 06/03/2022
 ms.author: bholtorf
-ms.openlocfilehash: 5ff042e1dec609b568c36967f56a8cd3673b9558
-ms.sourcegitcommit: 2fa712d0aabe4287ebd4454c28d142d6baf045a0
+ms.openlocfilehash: 5f3d851356954ddf71411190f5f486633936c05a
+ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/09/2022
-ms.locfileid: "8729841"
+ms.lasthandoff: 06/12/2022
+ms.locfileid: "8950147"
 ---
 # <a name="record-special-sales-prices-and-discounts"></a>Spezielle Verkaufspreise und Rabatte aufzeichnen
+
 > [!NOTE]
-> In Veröffentlichungszyklus 2 von 2020 haben wir optimierte Prozesse zum Einrichten und Verwalten von Preisen und Rabatten veröffentlicht. Wenn Sie ein neuer Kunde mit dieser Version sind, nutzen Sie die neue Erfahrung. Wenn Sie bereits Kunde sind, hängt es davon ab, ob Sie die neue Erfahrung verwenden, ob Ihr Administrator die Funktionsaktualisierung **Neues Verkaufspreiserlebnis** in **Funktionsverwaltung** akualisiert hat. Weitere Informationen finden Sie unter [Bevorstehende Funktionen im Voraus aktivieren](/dynamics365/business-central/dev-itpro/administration/feature-management).
+> Im 2. Veröffentlichungszyklus 2020 wurden neue, optimierte Prozesse zum Einrichten und Verwalten von Preisen und Rabatten eingeführt. Wenn Sie ein neuer Kunde sind, der die aktuelle Version verwendet, nutzen Sie die neue Umgebung. Wenn Sie bereits Kunde sind, hängt es davon ab, ob Sie die neue Erfahrung verwenden, ob Ihr Administrator die Funktionsaktualisierung **Neues Verkaufspreiserlebnis** in **Funktionsverwaltung** akualisiert hat. Weitere Informationen finden Sie unter [Bevorstehende Funktionen im Voraus aktivieren](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
 [!INCLUDE[prod_short](includes/prod_short.md)] unterstützt verschiedene Preisstrategien, wie zum Beispiel:
+
 * Ein-Preis-für-alle-Modelle, bei denen ein Artikel immer zum gleichen Preis verkauft wird.
 * Besondere Preisvereinbarungen mit bestimmten Kunden oder Kundengruppen.
 * Kampagnen, wenn ein Verkauf die Kriterien für ein Sonderangebot erfüllt. Kriterien können beispielsweise sein, wenn eine Bestellung eine Mindestmenge erfüllt, vor einem bestimmten Datum liegt oder eine bestimmte Art von Artikel enthält.  
 
-Um ein einfaches Preismodell zu verwenden, müssen Sie nur einen Stückpreis angeben, wenn Sie einen Artikel oder eine Ressource einrichten. Dieser Preis wird immer für Verkaufsbelege verwendet. Für fortgeschrittenere Modelle, z. B. wenn Sie Sonderpreise für eine Verkaufskampagne anbieten möchten, können Sie auf der Seite **Verkaufspreise** Kriterien angeben. Sie können Sonderpreise auf der Grundlage einer Kombination der folgenden Informationen anbieten: 
+Um ein einfaches Preismodell zu verwenden, müssen Sie nur einen Stückpreis angeben, wenn Sie einen Artikel oder eine Ressource einrichten. Dieser Preis wird immer für Verkaufsbelege verwendet. Für fortgeschrittenere Modelle, z. B. wenn Sie Sonderpreise für eine Verkaufskampagne anbieten möchten, können Sie auf der Seite **Verkaufspreise** Kriterien angeben. Sie können Sonderpreise auf der Grundlage einer Kombination der folgenden Informationen anbieten:  
 
 * Debitor
 * Artikel
@@ -52,7 +54,7 @@ Diese Schritte unterscheiden sich je nachdem, ob Ihr Administrator das Feature-U
 
 #### <a name="current-experience"></a>[Aktuelle Erfahrung](#tab/current-experience/)
 
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Debitoren** ein, und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Debitoren** ein, und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie den Kunden und klicken dann auf die Aktion **Preise**.
 3. Füllen Sie die Felder in der Zeile wie erforderlich aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Füllen Sie eine Zeile für jede Kombination aus, die dem Debitor einen besonderen Preis gewährt.
 
@@ -60,7 +62,7 @@ Diese Schritte unterscheiden sich je nachdem, ob Ihr Administrator das Feature-U
 
 Standardmäßig lautet der Status neuer Preislisten Entwurf. Preislistenentwürfe gehen nicht in die Preiskalkulation ein. Wenn Sie mit dem Hinzufügen von Zeilen fertig sind und die Preise verwenden möchten, können Sie den Status in Aktiv ändern.
 
-1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Debitoren** ein, und wählen Sie dann den entsprechenden Link aus.
+1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?"), geben Sie **Debitoren** ein, und wählen Sie dann den entsprechenden Link aus.
 2. Wählen Sie den Debitor und wählen Sie dann die Aktion **Verkaufspreislisten**. 
 3. Wählen Sie **Neu**, um eine neue Verkaufspreisliste zu erstellen.
 4. Füllen Sie bei Bedarf die Felder in den Inforegistern **Allgemein** und **Steuern** aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -176,34 +178,36 @@ Um die Preise für mehrere Artikel zu aktualisieren, müssen Sie eine neue Preis
 ---
 
 ## <a name="best-price-calculation"></a>Beste Preisberechnung
-Nachdem Sie Sonderpreise und Zeilenrabatte für Verkäufe und Käufe erfasst haben,, berechnet [!INCLUDE[d365fin](includes/d365fin_md.md)] den besten Preis für Verkaufs- und Einkaufsbelege sowie für Auftrags- und Artikelerfassungszeilen berechnen.
 
-Der beste Preis ist der niedrigste Preis mit dem höchsten Zeilenrabatt an einem bestimmten Datum. [!INCLUDE[d365fin](includes/d365fin_md.md)] berechnet die besten Preise, wenn Sie den Verkaufspreis und die prozentualen Zeilenrabatte für Artikel auf neuen Beleg- und Buch.-Blattzeilen eingefügt haben.
+Nachdem Sie Sonderpreise und Zeilenrabatte für Verkäufe und Käufe erfasst haben,, berechnet [!INCLUDE[prod_short](includes/prod_short.md)] den besten Preis für Verkaufs- und Einkaufsbelege sowie für Auftrags- und Artikelerfassungszeilen berechnen.
+
+Der beste Preis ist der niedrigste Preis mit dem höchsten Zeilenrabatt an einem bestimmten Datum. [!INCLUDE[prod_short](includes/prod_short.md)] berechnet die besten Preise, wenn Sie den Verkaufspreis und die prozentualen Zeilenrabatte für Artikel auf neuen Beleg- und Buch.-Blattzeilen eingefügt haben.
 
 > [!NOTE]  
-> Nachfolgend wird erläutert, wie die besten Preise für Verkäufe berechnet werden. Die Berechnung ist die gleiche wie für Einkäufe.
+> Nachfolgend wird erläutert, wie die besten Preise für Verkäufe berechnet werden. Für Einkäufe ist die Berechnung ähnlich, basiert jedoch auf den verfügbaren Parametern. Beispielsweise werden Artikelrabattgruppen für den Einkauf nicht unterstützt.
 
-1. [!INCLUDE[d365fin](includes/d365fin_md.md)] prüft die Kombination aus Rechnungsempfänger und Artikel und wählt den entsprechenden Verkaufspreis/Rabatt unter Verwendung der folgenden Kriterien:
+1. [!INCLUDE[prod_short](includes/prod_short.md)] prüft die Kombination aus Rechnungsempfänger und Artikel und wählt den entsprechenden Verkaufspreis/Rabatt unter Verwendung der folgenden Kriterien:
 
-    - Hat dieser Debitor eine spezielle Vereinbarung für Preise oder Zeilenrabatte oder gehört der Debitor zu einer Gruppe, die solche Vereinbarungen hat?
-    - Ist der Artikel oder die Artikelrabattgruppe in der Zeile in einer dieser Prei-/Rabattvereinbarungen enthalten?
-    - Liegt das Auftragsdatum (oder das Buchungsdatum für die Rechnung und Gutschrift) innerhalb des Start- und Enddatums der Preis-/Zeilenrabatt-Vereinbarung?
-    - Wurde ein Einheitencode angegeben? Falls dies der Fall ist, prüft [!INCLUDE[d365fin](includes/d365fin_md.md)] Preise/Rabatte mit dem gleichen Einheitencode und die Preise und Rabatte, bei denen kein Einheitencode angegeben wurde.
+    * Hat dieser Debitor eine spezielle Vereinbarung für Preise oder Zeilenrabatte oder gehört der Debitor zu einer Gruppe, die solche Vereinbarungen hat?
+    * Ist der Artikel oder die Artikelrabattgruppe in der Zeile in einer dieser Prei-/Rabattvereinbarungen enthalten?
+    * Liegt das Auftragsdatum (oder das Buchungsdatum für die Rechnung und Gutschrift) innerhalb des Start- und Enddatums der Preis-/Zeilenrabatt-Vereinbarung?
+    * Wurde ein Einheitencode angegeben? Falls dies der Fall ist, prüft [!INCLUDE[prod_short](includes/prod_short.md)] Preise/Rabatte mit dem gleichen Einheitencode und die Preise und Rabatte, bei denen kein Einheitencode angegeben wurde.
 
-2. [!INCLUDE[d365fin](includes/d365fin_md.md)] prüft, ob Preis-/Rabattvereinbarungen für Informationen auf der Beleg- oder Journalzeile gelten. Anschließend fügt es den anwendbaren Einheitspreis und den Zeilenrabattprozentsatz unter Verwendung der folgenden Kriterien ein:
+2. [!INCLUDE[prod_short](includes/prod_short.md)] prüft, ob Preis-/Rabattvereinbarungen für Informationen auf der Beleg- oder Journalzeile gelten. Anschließend fügt es den anwendbaren Einheitspreis und den Zeilenrabattprozentsatz unter Verwendung der folgenden Kriterien ein:
 
-    - Gibt es eine Mindestanzahl in der Preis-/Rabattvereinbarung, die erfüllt ist?
-    - Gibt es eine Währungsanforderung in der Preis-/Rabattvereinbarung, die erfüllt ist? In diesem Fall werden der niedrigste Preis und der höchsten Zeilenrabatt für diese Währung eingefügt, selbst wenn lokale Währung einen besseren Preis liefern würde. Falls es für den angegebenen Währungscode keine Preis-/Zeilenrabatte gibt, verwendet [!INCLUDE[d365fin](includes/d365fin_md.md)] den niedrigsten Preis und den höchsten Zeilenrabatt in Ihrer lokalen Währung.
+    * Gibt es eine Mindestanzahl in der Preis-/Rabattvereinbarung, die erfüllt ist?
+    * Gibt es eine Währungsanforderung in der Preis-/Rabattvereinbarung, die erfüllt ist? In diesem Fall werden der niedrigste Preis und der höchsten Zeilenrabatt für diese Währung eingefügt, selbst wenn lokale Währung einen besseren Preis liefern würde. Falls es für den angegebenen Währungscode keine Preis-/Zeilenrabatte gibt, verwendet [!INCLUDE[prod_short](includes/prod_short.md)] den niedrigsten Preis und den höchsten Zeilenrabatt in Ihrer lokalen Währung.
 
 Wenn keine Spezialpreise für die Artikel in der Zeile gefunden werden, werden entweder die letzten direkten Kosten oder der VK-Preis von der Artikelkarte oder der Lagerhaltungsdatenkarte verwendet.
 
 ## <a name="sales-invoice-discounts-and-service-charges"></a>Verkaufsrechnungsrabatte und Servicegebühren
+
 Wenn Sie Rechnungsrabatte verwenden, bestimmt der Gesamtbetrag des Rechnungsbetrages die Höhe des Rabattes, der gewährt wird. Auf der Seite **Debitorenrechnungsrabatte** können Sie eine Servicegebühr für Rechnungen über einem bestimmten Betrag einrichten.  
 
 Bevor Sie Rechnungsrabatte mit Verkäufen verwenden können, müssen Sie einige Informationen in der Anwendung definieren. Sie müssen Folgendes entscheiden:  
 
-- Welchen Debitoren diese Art von Rabatt gewährt wird?  
-- Welche Rabattprozentsätze Sie verwenden möchten?  
+* Welchen Debitoren diese Art von Rabatt gewährt wird?  
+* Welche Rabattprozentsätze Sie verwenden möchten?  
 
 Wenn Sie Rechnungsrabatte automatisch berechnen möchten, aktivieren Sie auf der Seite **Debitoren & Verkauf Einr.** den Umschalter für **Rechnungsrabatt berechnen**.  
 
@@ -231,7 +235,7 @@ Diese Schritte unterscheiden sich je nachdem, ob Ihr Administrator das Feature-U
 2. Öffnen Sie die entsprechende Debitorenkarte und klicken dann auf **Zeilenrabatte**.
 3. Füllen Sie die Felder in der Zeile wie erforderlich aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Füllen Sie eine Zeile für jede Kombination aus, die dem Debitor einen besonderen Verkaufszeilenrabatt gewährt.
 
-> [!Note]
+> [!NOTE]
 > Wenn Sie die Seiten **Verkaufspreise** und **Verkaufszeilenrabatte** von einem bestimmten Debitoren öffnen, werden die Felder **Verkaufsartfilter** und **Verkaufscodefilter** für den Debitor festgelegt und können nicht geändert oder entfernt werden.
 >
 > Um Preise oder Zeilenrabatte für alle Debitoren, eine Debitorenpreisgruppe oder Kampagne einzurichten, müssen Sie die Seiten von einer Artikelkarte aus öffnen. Verwenden Sie alternativ für Verkaufspreise die Seite **VK-Preisarbeitsblatt**. Weitere Informationen finden Sie unter [So führen Sie eine Sammelaktualisierung von Artikelpreisen durch](sales-how-record-sales-price-discount-payment-agreements.md#to-bulk-update-item-prices).  
@@ -273,10 +277,12 @@ Fahren Sie fort, um neue Verkaufsrechnungsrabatt-Bedingungen einzurichten.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/modules/manage-sales-prices-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-also"></a>Siehe auch
 
 [Einrichten von Verkäufen](sales-setup-sales.md)  
 [Verkauf](sales-manage-sales.md)  
+[Einrichten von Debitorenpreisgruppen](sales-how-to-set-up-customer-price-groups.md)  
+[Einrichten von Debitorenrabattgruppen](sales-how-to-set-up-customer-discount-groups.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

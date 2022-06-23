@@ -10,18 +10,21 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9650, 9652
 ms.date: 03/23/2022
 ms.author: jswymer
-ms.openlocfilehash: 95d8aaf6749a2f02b1f586a2f235d3a5eaa7c21f
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 9dafc8e193ccf3c47947be6508a0917a45393c91
+ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8525094"
+ms.lasthandoff: 06/12/2022
+ms.locfileid: "8950039"
 ---
 # <a name="get-started-creating-report-layouts"></a>Erste Schritte beim Erstellen von Berichtslayouts
 
 Business Central enthält viele integrierte Layouts, die Sie für Ihre Berichte verwenden können. Andere Layouts wurden möglicherweise als Teil anderer Erweiterungen hinzugefügt. Es ist aber auch möglich, eigene Berichte entweder von Grund auf neu oder basierend auf einem bestehenden Layout zu erstellen.
 
-## <a name="overview"></a>Matrix
+> [!IMPORTANT]
+> Sie können auchBerichtslayouts verwenden, um E-Mail-Nachrichten Inhalte hinzuzufügen. Berichtslayouts können beispielsweise Zeit sparen und zur Konsistenz beitragen, indem dieselben Inhalte wiederverwendet werden, wenn Sie mit Ihren Debitoren kommunizieren. Um benutzerdefinierte Berichtslayouts mit E-Mail verwenden zu können, muss der Dateityp für das Layout „Word“ sein. Der Dateityp „RDLC“ kann nicht verwendet werden. Weitere Informationen finden Sie unter [Wiederverwendbare E-Mail-Texte und -Layouts einrichten](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts). 
+
+## <a name="overview"></a>Übersicht
 
 Beim Arbeiten mit Berichtslayouts ist es hilfreich, sich das Layout als eine Datei vorzustellen, die importiert und einem Bericht zugewiesen wird. Unabhängig vom Layouttyp ist die Verwaötung von Layouts in Business Central grundsätzlich gleich. Normalerweise arbeiten Sie auf der Seite **Berichtslayouts**. Der Hauptunterschied besteht darin, wie Sie das Layout entwerfen. Das erfolgt mit der Anwendungssoftware, auf der das Layout aufbaut, wie Word, Excel oder SQL Server Report Builder.
 

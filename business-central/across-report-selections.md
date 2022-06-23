@@ -7,27 +7,27 @@ ms.search.keywords: setup, reporting
 ms.search.form: 306, 307, 347, 385, 524, 865, 5932, 7401, 7355, 99000917
 ms.date: 03/11/2022
 ms.author: edupont
-ms.openlocfilehash: 35cd5f86eeee3eecd24f63d37f8d43191dbd9be8
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 9106b1ac3f6b179e26c8dfb01212b88e92b694fe
+ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8512452"
+ms.lasthandoff: 06/12/2022
+ms.locfileid: "8950199"
 ---
 # <a name="report-selection-in-business-central"></a>Berichtsauswahl in Business Central
 
-Sie können Standardbereichte einrichten, die verwendet werden, um sie bei der Arbeit mit verschiedenen Einkaufs- und Verkaufsbelegen, wie Bestellungen, Angebote, Rechnungen und Gutschriften, drucken zu können. Wenn Sie beispielsweise ein bestimmtes Layout für Verkaufsrechnungen haben, können Sie diesen Bericht auf der Seite **Berichtsauswahl – Verkauf** definieren, damit sie zum Senden oder Drucken von Verkaufsrechnungen verwendet wird.  
+Sie können Standardberichte einrichten, die zum Drucken von Verkaufs- und Einkaufsbelegen wie Bestellungen, Angebote und Rechnungen verwendet werden. Wenn Sie beispielsweise ein bestimmtes Layout für Verkaufsrechnungen haben, können Sie diesen Bericht auf der Seite **Berichtsauswahl – Verkauf** definieren, damit sie zum Senden oder Drucken von Verkaufsrechnungen verwendet wird.  
 
-Die Seiten **Berichtsauswahl** geben an, welcher Bericht in verschiedenen Situationen gedruckt wird. [!INCLUDE [prod_short](includes/prod_short.md)] enthält Standardkonfigurationen, aber Sie können diese Standardeinstellungen natürlich ändern. Zudem lassen sich auch weitere Berichte in das Fenster **Berichtsauswahl** aufnehmen, um gleichzeitig mehrere Berichte zu einer Belegart auszudrucken.  
+Die Seiten **Berichtsauswahl** geben an, welcher Bericht in verschiedenen Situationen gedruckt wird. [!INCLUDE [prod_short](includes/prod_short.md)] bietet Standardkonfigurationen, die Sie jedoch bei Bedarf ändern können. Zudem lassen sich auch weitere Berichte in das Fenster **Berichtsauswahl** aufnehmen, um gleichzeitig mehrere Berichte zu einer Belegart auszudrucken.  
 
 ## <a name="available-report-selections"></a>Verfügbare Berichtsauswahl
 
-[!INCLUDE [prod_short](includes/prod_short.md)] beinhaltet verschiedene **Berichtsauswahl** Seiten für verschiedene Bereiche. In den folgenden Tabellen wird beschrieben, wo Sie Informationen zu den verschiedenen Seiten finden.  
+[!INCLUDE [prod_short](includes/prod_short.md)] beinhaltet verschiedene **Berichtsauswahl** Seiten für verschiedene Bereiche. In der folgenden Tabelle wird beschrieben, wo Sie Informationen zu den verschiedenen Seiten finden.  
 
 |Bereich oder Aufgabe  |Weitere Informationen|
 |--------------|----------|
 |Beispiel für die Funktionsweise der Berichtsauswahl (Vertrieb)|[Berichtsauswahl für Verkaufsbelege](#example-report-selection-for-sales-documents)|
-|Standardlayout für E-Mails mit Verkaufs- und Kaufdokumenten  |[Richten Sie wiederverwendbare E-Mail-Texte und Layouts für Verkaufs- und Einkaufsbelege ein](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts-for-sales-and-purchase-documents) |
+|Standardlayout für E-Mails mit Verkaufs- und Kaufdokumenten  |[Wiederverwendbare E-Mail-Texte und Layouts für Verkaufs- und Einkaufsbelege einrichten](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts) |
 |Schecklayouts definieren     |[Ein Prüflayout auswählen](finance-how-define-check-layouts.md) |
 |Berichte für die Mehrwertsteuerberichterstattung definieren (Deutschland)|[Richten Sie Berichte für MwSt ein](LocalFunctionality/Germany/how-to-set-up-reports-for-vat-and-intrastat.md) |
 
@@ -51,19 +51,19 @@ Die Seite **Berichtsauswahl – Verkauf** definiert die Standardberichte, die in
 
 [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-Einige Dokumenttypen können als E-Mail-Anhänge gesendet werden, andere nicht. Jede Seite **Berichtsauswahl** zeigt zusätzliche Felder an, wenn der Typ unterstützende E-Mail nicht sofort verfügbar ist.  
+Einige Belegtypen können als E-Mail-Anhänge gesendet werden, andere nicht. Wenn ein Belegtyp per E-Mail gesendet werden kann, enthält die Seite **Berichtsauswahl** zusätzliche Felder.  
 
 Zum Beispiel helfen Ihnen die Seiten **Berichtsauswahl – Verkauf** und **Berichtsauswahl – Kauf** die folgenden Felder für die E-Mails einzurichten:
 
-|Name des Felds |Beschreibung  |
+|Name des Felds |Description  |
 |-----------|-------------|
-|**Für E-Mail-Text verwenden**| Gibt an, dass zusammengefasste Informationen, z. B. Rechnungsnummer, Fälligkeitsdatum und Zahlungsservicelink, in den Text der gesendeten E-Mail eingefügt werden.        |
-|**Für E-Mail-Anhang verwenden**| Legt fest, dass der zugehörige Beleg an die E-Mail angehängt wird.|
-|**Layout-Beschreibung E-Mail-Text**|Gibt das verwendete E-Mail-Textlayout an, normalerweise ein benutzerdefiniertes Berichtslayout. |
+|**Für E-Mail-Text verwenden**| Fügen Sie zusammengefasste Informationen wie Rechnungsnummer, Fälligkeitsdatum und Zahlungsservicelink in eine E-Mail ein.        |
+|**Für E-Mail-Anhang verwenden**| Hängen Sie den zugehörigen Beleg an die E-Mail an.|
+|**Layout-Beschreibung E-Mail-Text**|Geben Sie das zu verwendende E-Mail-Textlayout an. Das Layout ist in der Regel ein benutzerdefiniertes Berichtslayout. |
 
 ## <a name="see-also"></a>Siehe auch
 
-[Richten Sie wiederverwendbare E-Mail-Texte und Layouts für Verkaufs- und Einkaufsbelege ein](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts-for-sales-and-purchase-documents)  
+[Wiederverwendbare E-Mail-Texte und -Layouts einrichten](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts)  
 [Ein Prüflayout auswählen](finance-how-define-check-layouts.md)  
 [Einrichten von Berichten für MwSt. und Intrastat (Deutschland)](LocalFunctionality/Germany/how-to-set-up-reports-for-vat-and-intrastat.md)  
 [Verwaltung von Berichts- und Dokumentlayouts](ui-manage-report-layouts.md)  

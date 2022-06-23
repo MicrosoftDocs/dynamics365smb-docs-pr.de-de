@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 03/04/2022
 ms.author: jswymer
-ms.openlocfilehash: 4ee154f242eebb65f9ef61453c8ff51c770f2713
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 5252d3e595b3ae0246646fe7eafe910cdf4da2f0
+ms.sourcegitcommit: 0bb9473a2563211bc0c02ebfd837bba1b2e9ad3f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511233"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "8805048"
 ---
 # <a name="business-central-and-microsoft-teams-integration"></a>Integration von Business Central und Microsoft Teams
 
@@ -65,7 +65,7 @@ Weitere Informationen finden Sie unter [Datensätze und Seitenlinks teilen in Mi
     Wenden Sie sich an den Administrator Ihres Unternehmens, wenn Sie nicht sicher sind, ob Sie ein Konto besitzen oder Ihre Anmeldeinformationen für die Anmeldung nicht kennen.
 
     > [!TIP]
-    > Wenn Ihre Organisation kein [!INCLUDE [prod_short](includes/prod_short.md)]-Abonnement hat, können Sie sich für eine kostenlose Testversion anmelden. Weitere Informationen finden Sie unter [Erste Schritte mit einer Testversion](across-preview.md#get-started-with-a-trial).
+    > Wenn Ihre Organisation kein [!INCLUDE [prod_short](includes/prod_short.md)]-Abonnement hat, können Sie sich für eine kostenlose Testversion anmelden. Weitere Informationen finden Sie unter [Für eine kostenlose Dynamics 365 Business Central-Testversion registrieren](trial-signup.md).
 
 2. Administratorinformationen zur Einrichtung von Benutzern für die Arbeit mit [!INCLUDE [prod_short](includes/prod_short.md)] und Teams finden Sie unter [Verwalten der Microsoft Teams Integration in Business Central](admin-teams-integration.md).
 3. Installieren Sie die [!INCLUDE [prod_short](includes/prod_short.md)]-App in Teams. Siehe [Die [!INCLUDE [prod_short](includes/prod_short.md)]-App für Microsoft Teams installieren](across-install-app-for-teams.md).
