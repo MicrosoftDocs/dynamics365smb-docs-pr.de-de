@@ -18,7 +18,7 @@ ms.locfileid: "8139703"
 ---
 # <a name="design-details-outbound-warehouse-flow"></a>Designdetails: Ausgehender Lagerfluss
 
-Der ausgehende Fluss in das Lager beginnt mit einer Anforderung der freigegebenen Herkunftsbelege, die Artikel aus dem Lagerort B zu bringen, entweder, um an eine externe Partei oder an einen anderen Unternehmensstandort geliefert zu werden. Vom Lagerbereich werden Lageraktivitäten auf verschiedene Komplexitätsebenen ausgeführt, um die Artikel zu den Lieferdocks zu bringen.  
+Der ausgehende Fluss aus dem Lager beginnt mit einer Anforderung der freigegebenen Herkunftsbelege, die Artikel aus dem Lagerort B zu bringen, entweder, um an eine externe Partei oder an einen anderen Unternehmensstandort geliefert zu werden. Vom Lagerbereich werden Lageraktivitäten auf verschiedene Komplexitätsebenen ausgeführt, um die Artikel zu den Lieferdocks zu bringen.  
 
  Jeder Artikel wird durch einen entsprechenden eingehenden Herkunftsbeleg gekennzeichnet und an diesen angepasst. Die folgenden ausgehenden Herkunftsbelege sind verfügbar:  
 

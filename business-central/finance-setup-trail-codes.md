@@ -55,7 +55,7 @@ Alle neuen Posten, die über das Fibu Buch.-Blatt gebucht werden, weisen den neu
 
 ## <a name="define-reason-codes"></a>Ursachencodes definieren
 
-Ursachencodes ergänzen die Quellcodes und geben an, warum ein Eintrag erstellt wurde. Sie können Ursachencodes für einzelne Posten und permanente Codes bestimmten Buch.-Blattvorlagen und Buch.-Blattnamen zuweisen. Wenn ein Ursachencodes mit einer Buch.-Blattzeile bzw. einem Einkaufs- oder Verkaufskopf verknüpft ist, werden beim Buchen alle Posten mit dem entsprechenden Ursachencode markiert.  
+Ursachencodes ergänzen die Herkunftcodes und geben an, warum ein Eintrag erstellt wurde. Sie können Ursachencodes für einzelne Posten und permanente Codes bestimmten Buch.-Blattvorlagen und Buch.-Blattnamen zuweisen. Wenn ein Ursachencodes mit einer Buch.-Blattzeile bzw. einem Einkaufs- oder Verkaufskopf verknüpft ist, werden beim Buchen alle Posten mit dem entsprechenden Ursachencode markiert.  
 
 ### <a name="to-set-up-reason-codes"></a>So richten Sie Ursachencodes ein
 

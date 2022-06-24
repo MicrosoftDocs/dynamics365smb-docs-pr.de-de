@@ -19,7 +19,7 @@ ms.locfileid: "8655284"
 ---
 # <a name="set-up-printers"></a>Einrichten von Druckern
 
-Das Drucken von Dokumenten und Berichten aus [!INCLUDE[prod_short](includes/prod_short.md)] ist eine wichtige Aufgabe für Geschäftsanwender. Benutzer möchten normalerweise Druckaufträge direkt an einen der Drucker Ihres Unternehmens senden, egal welchen [!INCLUDE[prod_short](includes/prod_short.md)] Client oder welche App sie verwenden. Da [!INCLUDE[prod_short](includes/prod_short.md)] Online ein Cloud-Dienst ist, kann er der lokale Drucker, die mit den Geräten der Benutzer verbunden sind, nicht direkt erreichen, aber eine Verbindung zu Cloud-fähigen Druckern herstellen.
+Das Drucken von Dokumenten und Berichten aus [!INCLUDE[prod_short](includes/prod_short.md)] ist eine wichtige Aufgabe für Geschäftsanwender. Benutzer möchten normalerweise Druckaufträge direkt an einen der Drucker Ihres Unternehmens senden, egal welchen [!INCLUDE[prod_short](includes/prod_short.md)] Client oder welche App sie verwenden. Da [!INCLUDE[prod_short](includes/prod_short.md)] Online ein Cloud-Dienst ist, kann er lokale Drucker, die mit den Geräten der Benutzer verbunden sind, nicht direkt erreichen, aber eine Verbindung zu Cloud-fähigen Druckern herstellen.
 
 Um Ihre Druckanforderungen zu erfüllen, bietet [!INCLUDE[prod_short](includes/prod_short.md)] folgende Funktionen:
 
