@@ -10,14 +10,15 @@ ms.search.keywords: ''
 ms.search.form: 393, 7382
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: aa3c8b246d83ac222b4ceeb43124c835ca955850
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 08e8d8a0f8507f1b67d5209d8e76a5f1268d2548
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520604"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078440"
 ---
 # <a name="move-items-ad-hoc-in-basic-warehouse-configurations"></a>Ad-hoc-Umlagerung von Artikeln in Basis-Lagerkonfigurationen
+
 Möglicherweise müssen Sie gelegentlich Artikel zwischen internen Lagerplätzen umlagern, ohne Eingangs- oder Versandlagerort und ohne einen speziellen Bedarf aus einem Herkunftsbeleg. Sie können diese Ad-hoc-Lagerplatzumlagerungen zum Beispiel durchführen, um das Lager neu zu organisieren, Artikel in einen Inspektionsbereich zu bringen oder zusätzliche Artikel an einen bzw. aus einem Fertigungsbereich zu bewegen, ohne dass ein Systembezug zum Herkunftsbeleg des Fertigungsauftrags besteht.  
 
 In den Basislagerkonfigurationen können für Lagerplätze, die das Einrichtungsfeld **Lagerplatz notwendig** und möglicherweise die Einrichtungsfelder **Kommissionierung erforderlich** und **Einlagerung erforderlich** verwenden, Ad-hoc-Lagerplatzumlagerungen ohne Herkunftsbelege auf die folgenden Arten registriert werden:  
@@ -28,7 +29,8 @@ In den Basislagerkonfigurationen können für Lagerplätze, die das Einrichtungs
 > [!NOTE]  
 >  In erweiterten Lagerkonfigurationen sind dies Lagerplätze, die das Einrichtungsfeld **Gesteuerte Einlag. u. Kommiss.** verwenden. Um die Artikel ad hoc zwischen Lagerplätzen zu verschieben, verwenden Sie die Seiten **Lagerplatzumlagerungsarbeitsblatt** oder **Interne Kommissionierung** oder **Interne Einlagerung**.  
 
-## <a name="to-move-items-as-an-internal-movement"></a>Um Artikel als interne Umlagerung zu verschieben  
+## <a name="to-move-items-as-an-internal-movement"></a>Um Artikel als interne Umlagerung zu verschieben
+
 1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Interne Umlagerungen** ein, und wählen Sie dann den entsprechenden Link.  
 2.  Füllen Sie auf dem Inforegister **Allgemein** das Feld **Nr.** aus. Feld, das Sie entweder leer lassen oder indem Sie die Schaltfläche **AssistEdit** klicken, um in der Nummernserie eine Auswahl zu treffen.  
 3.  Geben Sie im Feld **Lagerortcode** den Lagerort ein, an dem die Bewegung stattfindet.  
@@ -36,7 +38,7 @@ In den Basislagerkonfigurationen können für Lagerplätze, die das Einrichtungs
     Wenn der Lagerort bereits als Ihr Standardlagerort als Lagermitarbeiter eingerichtet ist, wird der Lagerortcode automatisch eingefügt.  
 4.  Geben Sie im Feld **Nach Lagerplatzcode** einen Code für den Lagerort ein, an den Sie den Artikel umlagern möchten. Für die Produktion könnte dies z. B. der Fert.-Bereitst.-Lagerplatzcode oder der Off. Fert.-Ber.-Lagerplatz.-Code sein, wie auf der Lagerortkarte oder in der Arbeitsplatzgruppe definiert.  
 5.  Geben Sie im Feld **Fälligkeitsdatum** das Datum ein, an dem die Umlagerung abgeschlossen sein muss.  
-6.  Wählen Sie im Inforegister **Zeilen** das Feld **Artikelnr.**, um die Seite **Lagerplatzinhaltsübersicht** zu öffnen, und wählen Sie den Artikel aus, der basierend auf seiner Verfügbarkeit an Lagerorten umgelagert werden soll. Alternativ aktivieren Sie die Aktion **Lagerplatzinhalt holen**, um die Zeilen für die interne Umlagerung basierend auf Ihrem Filter auszufüllen. Weitere Informationen finden Sie unter der QuickInfo für die **Lagerplatzinhalt abrufen** Aktion.   
+6.  Wählen Sie im Inforegister **Zeilen** das Feld **Artikelnr.**, um die Seite **Lagerplatzinhaltsübersicht** zu öffnen, und wählen Sie den Artikel aus, der basierend auf seiner Verfügbarkeit an Lagerorten umgelagert werden soll. Alternativ aktivieren Sie die Aktion **Lagerplatzinhalt holen**, um die Zeilen für die interne Umlagerung basierend auf Ihrem Filter auszufüllen. Weitere Informationen finden Sie unter der QuickInfo für die **Lagerplatzinhalt abrufen** Aktion.  
 
     Wenn Sie den Artikel ausgewählt haben, wird das Feld **Von Lagerplatzcode** automatisch entsprechend dem ausgewählten Lagerplatzinhalt ausgefüllt, Sie können es aber in jeden beliebigen anderen Lagerort ändern, an dem der Artikel verfügbar ist.  
 
@@ -57,7 +59,9 @@ In den Basislagerkonfigurationen können für Lagerplätze, die das Einrichtungs
     Die restliche Ad-hoc-Umlagerung führen Sie auf der Seite **Lagerbestandsumlagerung** auf dieselbe Weise aus, wie Sie eine Lagerplatzumlagerung basierend auf Herkunftsbelegen ausführen würden. Weitere Informationen finden Sie unter [Umlagern von Komponenten in einen Arbeitsgangbereich in Basis-Lagerkonfigurationen](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)  
 
 ## <a name="to-move-items-with-the-item-reclassification-journal"></a>Um Artikel mit dem Artikel-Umlagerungs-Buch.-Blatt umzulagern
-Anstelle der Verwendung von Lagerplatzumlagerungsbelegen können Sie die Umlagerung von Artikeln erfassen, indem Sie deren Lagerplatzcodes neu klassifizieren. Weitere Informationen finden Sie unter [Erfassen, Regulieren und Umbuchen von Lagerbestand mithilfe von Buch.-Blättern](inventory-how-count-adjust-reclassify.md)   
+
+Anstelle der Verwendung von Lagerplatzumlagerungsbelegen können Sie die Umlagerung von Artikeln erfassen, indem Sie deren Lagerplatzcodes neu klassifizieren. Weitere Informationen finden Sie unter [Erfassen, Regulieren und Umbuchen von Lagerbestand mithilfe von Buch.-Blättern](inventory-how-count-adjust-reclassify.md)
+
 1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Element umklassifizieren. Erfassungen** ein und wählen Sie dann den zugehörigen Link.  
 2.  Legen Sie in jeder Buch.-Blattzeile die Lagerplätze fest, von denen und auf die Sie Artikel umlagern möchten, indem Sie die Felder **Lagerplatzcode** und **Neuer Lagerplatzcode** ausfüllen.  
 
@@ -69,11 +73,14 @@ Anstelle der Verwendung von Lagerplatzumlagerungsbelegen können Sie die Umlager
     > [!NOTE]  
     >  Anders als bei Lagerplatzumlagerungsbelegen erstellt eine Lagerplatzumlagerung, die mit dem Umlagerungs Buch.-Blatt gebucht wird, keine Logistikanforderung, die physische Aufgabe auszuführen.  
 
-## <a name="see-also"></a>Siehe auch  
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/manage-internal-warehouse-processes/)
+
+## <a name="see-also"></a>Siehe auch
+
 [Logistik](warehouse-manage-warehouse.md)  
-[Lagerbestand](inventory-manage-inventory.md)  
-[Warehouse Management einrichten](warehouse-setup-warehouse.md)     
-[Montageverwaltung](assembly-assemble-items.md)    
+[Bestand](inventory-manage-inventory.md)  
+[Einrichten von Warehouse Management](warehouse-setup-warehouse.md)  
+[Montageverwaltung](assembly-assemble-items.md)  
 [Designdetails: Warehouse Management](design-details-warehouse-management.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

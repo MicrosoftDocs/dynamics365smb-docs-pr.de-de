@@ -10,14 +10,15 @@ ms.search.keywords: personalize, add-in, extend, customize
 ms.search.form: 2500, 2502
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 01fd408e08dab78667eaa58bac55f39087b27f74
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: 7a08a9f53329693a44a7da1e293561d27fff4b78
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655462"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075785"
 ---
 # <a name="customize-business-central"></a>Anpassen von Business Central
+
 Es gibt unterschiedliche Arten, die Anwendung anzupassen, um Ihnen und Ihren Kollegen Zugriff auf die Funktionen, die Funktionalität und die Daten zu geben, die Sie am häufigsten brauchen, uns so, dass es am besten in Ihre tägliche Arbeit passt. Diejenigen, die Änderungen sehen, verlassen sich auf das, was Sie tun in der Tabelle.
 
 > [!NOTE]
@@ -30,9 +31,12 @@ Es gibt unterschiedliche Arten, die Anwendung anzupassen, um Ihnen und Ihren Kol
 |Aktiveren Sie Farben in Rollencentern, um die Bedeutung zu signalisieren.|Richten Sie Stapel ein, die in den Rollencentern des Benutzers mit einem Indikator angezeigt werden, dessen Farbe sich basierend auf den Werten in den Stapeln ändert.|Alle Benutzer in einem bestimmten Unternehmen.|[Einrichten eines farbigen Indikators auf Stapeln des Rollencenters](admin-how-set-up-colored-indicator-on-cues.md)|
 |Erweiterung installieren|Erweiterung sind wie kleine Anwendungen, die Funktionalität hinzufügen, Verhalten ändern, Zugriff auf neuen Onlinediensten bereitstellen und vieles mehr. Beispielsweise bietet Microsoft eine Erweiterung an, die die Integration mit PayPal Payments Standard ermöglicht.|Alle Benutzer in allen Mandanten.|[Erweiterungen nutzen anpassen](ui-extensions.md)|
 > [!NOTE]
-> Alle Funktionsbeschreibungen in der Dokumentation behandeln [!INCLUDE[prod_short](includes/prod_short.md)] die **Premium**-Umgebung, decken also den gesamten Umfang der Benutzeroberflächenelemente ab. Daher können Benutzer mit der **Essential**-Umgebung in einigen Themen Informationen zu Funktionen und Benutzeroberflächenelementen finden, die in der Benutzeroberfläche nicht sichtbar sind. Weitere Informationen finden Sie unter [Ändern Sie, welche Funktionen angezeigt werden](ui-experiences.md).
+> Alle Funktionsbeschreibungen in der Dokumentation behandeln [!INCLUDE[prod_short](includes/prod_short.md)] die **Premium**-Umgebung, decken also den gesamten Umfang der Benutzeroberflächenelemente ab. Daher können Benutzer mit der **Essential**-Umgebung in einigen Themen Informationen zu Funktionen und Benutzeroberflächenelementen finden, die in der Benutzeroberfläche nicht sichtbar sind. Weitere Informationen finden Sie unter [Ändern, welche Funktionen angezeigt werden](ui-experiences.md).
 
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/paths/tailor-roles-design-ui/)
+
+## <a name="see-also"></a>Siehe auch
+
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

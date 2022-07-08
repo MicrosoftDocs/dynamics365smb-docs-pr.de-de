@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: reject, delegate, request
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 3026ab37ced1f1529d2a9fee2e22aeccce557c53
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 57d106918230007484f37979b416d44277c86035
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8522378"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075134"
 ---
 # <a name="set-up-workflow-users"></a>Einrichten von Workflowbenutzern
 
@@ -44,9 +44,11 @@ Workflowbenutzer, die als Genehmigungsbenutzer agieren (sowohl Genehmigungsanfor
 6. Wiederholen Sie Schritt 5, um weitere Workflowbenutzer zur Benutzergruppe hinzuzufügen.  
 7. Wiederholen Sie die Schritte 2 bis 6, um weitere Workflowbenutzergruppen hinzuzufügen.  
 
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/create-workflows/)
 
-[Genehmigungsbenutzer einrichten](across-how-to-set-up-approval-users.md)  
+## <a name="see-also"></a>Siehe auch
+
+[Einrichten von Genehmigten Benutzern](across-how-to-set-up-approval-users.md)  
 [Einrichten von Workflows](across-set-up-workflows.md)  
 [Verwenden von Workflows](across-use-workflows.md)  
 [Exemplarische Vorgehensweise: Einrichten und Nutzen eines Einkaufsanfrage-Genehmigungsworkflows](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  

@@ -9,14 +9,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/29/2021
 ms.author: edupont
-ms.openlocfilehash: e739536a3752671d74e9ea0d8b3a2b1b548d1d21
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 8a310ba099c6eb5c90d116304240db3291bac67c
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511519"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9079506"
 ---
 # <a name="calculate-order-promising-dates"></a>Lieferterminzusagen-Daten berechnen
+
 Ein Mandant muss in der Lage sein, seine Debitoren über Auftragslieferdaten zu informieren. Die Seite **Lieferzusagenzeilen** ermöglicht Ihnen dies über einen Verkaufsauftrag.  
 
 [!INCLUDE[prod_short](includes/prod_short.md)] berechnet die Versand- und Liefertermine auf der Grundlage der bekannten und erwarteten Verfügbarkeitsdaten eines Artikels, die Sie den Kunden zusagen können.  
@@ -34,6 +35,7 @@ Wenn Sie kein angefordertes Lieferdatum auf der Verkaufsauftragszeile angeben od
 - Geplantes Warenausgangsdatum + Transportzeit = Geplantes Lieferdatum  
 
 ## <a name="about-order-promising"></a>Über Lieferterminzusagen
+
 Die Funktion Lieferzusagen ermöglicht Ihnen, den Versand oder die Lieferung eines Auftrags zu einem bestimmten Datum zuzusagen. Das Datum, zu dem der Artikel verfügbar oder geeignet für eine Zusage ist, wird berechnet und Auftragszeilen für das Datum, welches Sie akzeptiert haben, erstellt. Die Funktion "Lieferterminzusagen" ist ein Werkzeug zur Berechnung des frühestmöglichen Datums, an dem ein Artikel zum Versand oder zur Lieferung verfügbar ist. Sie erstellt außerdem Bestellarbeitsblattszeilen, falls die Artikel für die von Ihnen akzeptierten Daten zuerst bezogen oder gefertigt werden müssen.
 
 [!INCLUDE[prod_short](includes/prod_short.md)] verwendet zwei grundlegende Konzepte:  
@@ -41,16 +43,20 @@ Die Funktion Lieferzusagen ermöglicht Ihnen, den Versand oder die Lieferung ein
 - Lieferzusage (Available to promise, ATP)  
 - Beschaffungszusage (Capable to promise, CTP)  
 
-### <a name="available-to-promise"></a>Lieferzusage  
+### <a name="available-to-promise"></a>Lieferzusage
+
 "Lieferzusage (Available to promise, ATP)" berechnet die Daten auf der Grundlage des Reservierungssystems. Dabei wird eine Verfügbarkeitsprüfung der nicht reservierten Mengen im Lagerbestand im Hinblick auf die geplante Produktion, Einkäufe, Umlagerungen und Verkaufsreklamationen durchgeführt. Auf der Grundlage dieser Informationen berechnet [!INCLUDE[prod_short](includes/prod_short.md)] das Lieferdatum der Kundenbestellung, weil die Artikel entweder im Bestand oder auf geplanten Aufträgen verfügbar sind.  
 
-### <a name="capable-to-promise"></a>Beschaffungszusage  
+### <a name="capable-to-promise"></a>Beschaffungszusage
+
 Beschaffungszusage (CTP) für eine Zusage akzeptiert "Was-wenn", das nur auf Artikelmengen gehört, die nicht im Lagerbestand oder im geplanten Bestellungen sind. Auf Grundlage dieses Szenarios berechnet [!INCLUDE[prod_short](includes/prod_short.md)] das früheste Datum, zu dem der Artikel verfügbar sein kann, wenn er gefertigt werden, bezogen werden oder umgelagert werden muss.
 
 #### <a name="example"></a>Beispiel
+
 Wenn eine Bestellung über 10 Stück vorliegt und 6 Stück im Bestand oder auf geplanten Zugängen verfügbar sind, dann basiert die Funktionalität zum Zusagen der Berechnung auf 4 Stück.
 
-### <a name="calculations"></a>Berechnungen  
+### <a name="calculations"></a>Berechnungen
+
 Wenn [!INCLUDE[prod_short](includes/prod_short.md)] das Auslieferungsdatum des Debitors berechnet, werden zwei Aufgaben ausgeführt:  
 
 - Berechnung des frühesten Lieferdatums, wenn der Debitor kein bestimmtes Lieferdatum angefragt hat.  
@@ -74,7 +80,8 @@ Der Auftragsverarbeiter beendet den CTP-Prozess, indem er die Datumsangaben akze
 
 Zusätzlich zu den externen Lieferterminzusagen, die Sie auf der Seite **Lieferterminzusagenzeilen** durchführen können, können Sie interne oder externe Lieferdaten für Stücklistenrtikel zusagen. Weitere Informationen finden Sie unter [Die Verfügbarkeit von Artikeln anzeigen](inventory-how-availability-overview.md)
 
-## <a name="to-set-up-order-promising"></a>Lieferterminzusagen einrichten  
+## <a name="to-set-up-order-promising"></a>Lieferterminzusagen einrichten
+
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Lieferterminzusagen Einr.** ein, und wählen Sie dann den zugehörigen Link.  
 2. Geben Sie eine Zahl und einen Zeiteinheitencode in das Feld **Verschiebung (Zeit)** ein. Wählen Sie einen der folgenden Codes aus.  
 
@@ -91,14 +98,17 @@ Zusätzlich zu den externen Lieferterminzusagen, die Sie auf der Seite **Liefert
 4. Geben Sie eine Lieferterminzusagenvorlage im Feld **Lieferterminzusagenvorlage** ein, indem Sie eine Zeile auf der Seite **Bestellarbeitsblatt Vorl.-Übers.** wählen.  
 5. Geben Sie im Feld **Lieferterminzusagenvorschlag** einen Vorschlag ein, indem Sie eine Zeile auf der Seite **Bestellarbeitsblattsnamen** wählen.
 
-### <a name="inbound-and-outbound-warehouse-handling-times-in-order-promising"></a>Eingehende und ausgehende Lagerumschlagszeiten in der Lieferterminzusage  
+### <a name="inbound-and-outbound-warehouse-handling-times-in-order-promising"></a>Eingehende und ausgehende Lagerumschlagszeiten in der Lieferterminzusage
+
 Wenn Sie die Lagerumschlagszeit in die Berechnung der Lieferterminzusage in der Einkaufszeile einbeziehen möchten, können Sie auf der Seite **Bestandseinrichtung** eine Standardumschlagszeit für Verkaufs- und Einkaufsbelege angeben. Sie können auch auf der Seite **Standortkarte** spezifische Zeiten für jeden Ihrer Standorte eingeben. 
 
 #### <a name="to-enter-default-inbound-and-outbound-warehouse-handling-times-for-sales-and-purchase-documents"></a>So geben Sie Standard-Handlingszeiten für eingehende und ausgehende Lager für Einkaufs- und Verkaufsbelege ein
+
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Lagerbestandseinrichtung** ein und wählen Sie dann den zugehörigen Link.  
 2. Geben Sie auf der Seite **Allgemein** in den Feldern **Eingehende Lagerbearbeitungszeit** und **Ausgehende Lagerbearbeitungszeit** die Anzahl der Tage ein, die Sie in die Berechnung der Lieferterminzusagen einbeziehen möchten.  
 
-#### <a name="to-enter-inbound-and-outbound-warehouse-handling-times-on-locations"></a>So geben Sie eingehende und ausgehende Lagerbearbeitungszeiten für Standorte ein  
+#### <a name="to-enter-inbound-and-outbound-warehouse-handling-times-on-locations"></a>So geben Sie eingehende und ausgehende Lagerbearbeitungszeiten für Standorte ein
+
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Lagerort** ein und wählen Sie dann den zugehörigen Link.  
 2.  Öffnen Sie die relevante Lagerortkarte.  
 3.  Geben Sie auf dem Inforegister **Lager** in den Feldern **Eingehende Lagerbearbeitungszeiten** und **Ausgehende Lagerbearbeitungszeiten** die Anzahl der Tage ein, die Sie in die Berechnung der Lieferterminzusagen einbeziehen möchten.  
@@ -106,13 +116,15 @@ Wenn Sie die Lagerumschlagszeit in die Berechnung der Lieferterminzusage in der 
 > [!NOTE]  
 >  Wenn Sie bei der Erstellung einer Bestellung im Feld **Versand an** auf dem Inforegister **Versand und Zahlung** die Option **Lagerplatz** und anschließend im Feld **Lagerplatzcode** einen Lagerplatz auswählen, verwenden die Felder **Ausgehende Lagerbearbeitungszeit** und **Eingehende Lagerbearbeitungszeit** die für den Lagerplatz angegebene Bearbeitungszeit. Für Verkaufsaufträge gilt dasselbe, wenn Sie im Feld **Lagerortcode** einen Lagerort auswählen. Wenn für den Lagerort keine Bearbeitungszeit angegeben ist, bleiben die Felder **Ausgehende Lagerbearbeitungszeit** und **Eingehende Lagerbearbeitungszeit** leer. Wenn Sie das Feld **Lagerortcode** auf Belegen für Einkauf und Verkauf leer lassen, wird die auf der Seite **Bestandseinrichtung** angegebene Bearbeitungszeit verwendet.
 
-## <a name="to-make-an-item-critical"></a>Einen Artikel als kritisch kennzeichnen  
+## <a name="to-make-an-item-critical"></a>Einen Artikel als kritisch kennzeichnen
+
 Bevor ein Artikel bei der Berechnung der Lieferterminzusage berücksichtigt werden kann, muss er als kritisch markiert werden Diese Einstellungen stellen sicher, dass unkritische Artikel nicht irrelevante Lieferterminzusagen verursachen.   
 1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Elemente** ein, und wählen Sie dann den zugehörigen Link.  
 2.  Öffnen Sie die betreffende Elementkarte.  
 3.  Wählen Sie im Inforegister **Planung** das Feld **Kritisch** aus.  
 
-## <a name="to-calculate-an-order-promising-date"></a>Lieferterminzusagen berechnen  
+## <a name="to-calculate-an-order-promising-date"></a>Lieferterminzusagen berechnen
+
 1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Verkaufsauftrag** ein und wählen Sie dann den zugehörigen Link.  
 2.  Öffnen Sie den relevanten Verkaufsauftrag, und wählen Sie die Verkaufszeilen aus, die die Anwendung berechnen soll.  
 3.  Wählen Sie die **Lieferterminzusagen** Aktion aus, und wählen Sie die **Lieferterminzusagenzeilen** Aktion aus.  
@@ -122,9 +134,12 @@ Bevor ein Artikel bei der Berechnung der Lieferterminzusage berücksichtigt werd
     - Wählen Sie **Geeignet für Zusage**, wenn Sie wissen, dass der Artikel aktuell nicht an Lager ist und das früheste Datum, zu dem der Artikel durch neue Lagerzugänge verfügbar sein wird, errechnen wollen.  
 5.  Wählen Sie die Schaltfläche **Akzeptieren**, um das früheste verfügbare Lieferdatum zu akzeptieren.  
 
-## <a name="see-also"></a>Weitere Informationen  
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/promising-sales-order-delivery-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Siehe auch
+
 [Verkauf](sales-manage-sales.md)  
-[Terminberechnung für Einkäufe](purchasing-date-calculation-for-purchases.md)  
+[Datumsberechnung für Einkäufe](purchasing-date-calculation-for-purchases.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

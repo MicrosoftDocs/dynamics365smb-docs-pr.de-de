@@ -10,12 +10,12 @@ ms.search.keywords: trade, partial deliveries, customer sales order
 ms.search.form: 42, 48, 9305
 ms.date: 01/19/2022
 ms.author: edupont
-ms.openlocfilehash: 52060d74d7ef855a89dd3cffabd4ada435d6b117
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 102fa04db203d8b1fe05d63629fbe24f49193112
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8523267"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077840"
 ---
 # <a name="sell-products-with-a-customer-sales-order"></a>Produkte mit einem Debitorenauftrag verkaufen  
 
@@ -93,6 +93,8 @@ Der zugehörige Artikel und die Debitorenposten werden nun im System erfasst ers
 ## <a name="external-document-number"></a>Externe Belegnummer
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
+
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/create-sales-documents-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Siehe auch
 

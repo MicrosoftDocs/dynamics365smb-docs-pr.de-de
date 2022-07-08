@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.forms: 6503, 6515, 6513, 6512, 6502, 6506, 6501, 6510, 6507, 6500, 6505, 6508, 9126, 6526, 6516, 6511, 6504, 6509, 163, 6550,
 ms.date: 08/31/2021
 ms.author: edupont
-ms.openlocfilehash: 883a2d75b2d12f87a49eb84a6b545da30310274c
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: f458f1dca9f2aa23fcc7942ad6556b1d86848b5f
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517999"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074822"
 ---
 # <a name="track-items-with-serial-lot-and-package-numbers"></a>Verfolgen Sie Artikel mit Serien-, Chargen‑ und Paketnummern
 
@@ -226,7 +226,9 @@ Ein Umbuchen der Artikelverfolgung für einen Artikel bedeutet, dass eine Charge
 8. Wenn Sie die vorhandenen Informationen für eine Chargen- oder Seriennummer ändern möchten, können Sie die Chargen- oder Serieninformationen aufzeichnen.  
 9. Buchen Sie das Buch.-Blatt, um die neuen Artikelverfolgungsnummern oder Ablaufdatumsangaben mit den entsprechenden Artikelposten zu verknüpfen.
 
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/prepare-item-tracking/)
+
+## <a name="see-also"></a>Siehe auch
 
 [Artikelverfolgung mit Serien-, Chargen- und Paketnummern einrichten](inventory-how-setup-item-tracking.md)  
 [Verfolgen von Artikeln mit Artikelverfolgung](inventory-how-to-trace-item-tracked-items.md)  

@@ -10,14 +10,15 @@ ms.search.keywords: machinery, buildings
 ms.search.form: 5607
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 17e478464d49424d2eb929a297033605c91c25ba
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 9ec826560a44908b0635bf7698040b1c0e088b04
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516343"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076643"
 ---
 # <a name="setting-up-fixed-assets"></a>Anlagen einrichten
+
 Um mit Anlagen arbeiten können, müssen Sie einige Elemente festlegen:  
 
 * Wie Sie Anlagen versichern, verwalten und abschreiben.  
@@ -41,11 +42,13 @@ Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Themen,
 | Informieren Sie sich über verschiedene Anlagen-AfA-Methoden. |[Abschreibungsmethoden](fa-depreciation-methods.md) |
 | Erfahren Sie, wie Sie benutzerdefinierte Abschreibungsmethoden anwenden können. |[Benutzerdefinierte Abschreibungsmethoden festlegen](fa-how-setup-user-defined-depreciation-method.md) |
 
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/paths/set-up-fixed-assets-management/)
 
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-also"></a>Siehe auch
+
 [Anlagen](fa-manage.md)  
 [Finanzen](finance.md)  
-[Vorbereiten auf die Geschäftsabwicklung](ui-get-ready-business.md)  
+[Bereitschaft für die Geschäftsabwicklung](ui-get-ready-business.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

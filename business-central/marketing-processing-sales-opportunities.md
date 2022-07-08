@@ -1,8 +1,6 @@
 ---
 title: Verarbeiten von Verkaufschancen in Verkaufsprozessen
 description: Dieses Thema beschreibt die verschiedenen Möglichkeiten, wie Sie Verkaufschancen in Verkaufszyklen verarbeiten und eine Verkaufschance durch die Phasen eines Verkaufszyklus bewegen können.
-services: project-madeira
-documentationcenter: ''
 author: jswymer
 ms.topic: conceptual
 ms.devlang: na
@@ -11,12 +9,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 06/22/2021
 ms.author: jswymer
-ms.openlocfilehash: 927e90a5e25205873a3d0784c7065b9735dc7b24
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 60ce53dc750812dc7519e6d3894a51f4e16d71eb
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8515459"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076435"
 ---
 # <a name="process-sales-opportunities"></a>Verarbeiten von Verkaufschancen
 Nachdem Sie eine Verkaufschance erstellen haben, gibt es einige Funktionen für die Verwaltung der Verkaufschance und deren Abschluss.

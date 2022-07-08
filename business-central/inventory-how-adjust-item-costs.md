@@ -1,8 +1,6 @@
 ---
 title: Manuelles Anpassen der Kosten von Artikeln
 description: Sie können die Bestandsbewertung eines Elements unter Verwendung der FIFO- oder Durchschnittskalkulation manuell anpassen, wenn sich die Kosten von Artikeln ändern.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -11,12 +9,12 @@ ms.workload: na
 ms.search.keywords: cost adjustment, cost forwarding, costing method, inventory valuation, costing
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 8b547aadab56af50aab5442b2634d4bcd1efe4cc
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: d688838b832655a4e36abecf1162fe4e79aba7d8
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8515011"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078648"
 ---
 # <a name="adjust-item-costs"></a>Artikelpreise justieren
 Die Kosten eines Artikels (Lagerwert), den Sie ein- und später verkaufen, ändert sich im Laufe der Nutzungsdauer, weil beispielsweise Frachtkosten dem Kaufpreis hinzugefügt werden, nachdem Sie den Artikel verkauft haben. Dies ist insbesondere dann wichtig, wenn Sie Waren verkaufen, bevor der Kauf dieser Waren in Rechnung gestellt wurde. Um immer den richtigen Lagerwert zu kennen, müssen Artikelkosten daher regelmäßig reguliert werden. Dadurch ist sichergestellt, dass die Verkaufs- und Gewinnstatistiken auf dem neuesten Stand sind und die finanziellen Kennziffern korrekt sind. Weitere Informationen finden Sie unter [Designdetails: Kostenanpassung](design-details-cost-adjustment.md)

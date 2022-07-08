@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 8fc4dc464e6562684db6b4ae67422f59cb641927
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: b7e6574567e07b42187d3e33cfbf7f99e13096f8
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511207"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077371"
 ---
 # <a name="use-workflows"></a>Workflows verwenden
 
@@ -69,10 +69,13 @@ Sie können Workflows festlegen und verwenden, die von verschiedenen Benutzern a
 |Zeigen Sie Workflowschrittinstanzen mit dem Status „Abgeschlossen“ an.|[Anzeigen von archivierten Workflowschritt-Instanzen](across-how-to-view-archived-workflow-step-instances.md)|  
 |Löschen Sie einen Workflow, den Sie mit Gewissheit nicht mehr verwenden werden.|[Löschen eines Workflows](across-how-to-delete-workflows.md)|  
 
-## <a name="see-also"></a>Weitere Informationen  
-[Einrichten von Workflows](across-set-up-workflows.md)   
-[Workflow](across-workflow.md)   
-[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/create-workflows/)
+
+## <a name="see-also"></a>Siehe auch
+
+[Einrichten von Workflows](across-set-up-workflows.md)  
+[Workflow](across-workflow.md)  
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

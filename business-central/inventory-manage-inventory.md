@@ -10,12 +10,12 @@ ms.search.keywords: warehouse, stock
 ms.search.forms: 5804, 2106, 5823, 5751, 5750, 772, 5829, 5828, 513, 304, 40, 38, 167, 117, 5827, 9223, 158, 354, 9152, 286, 5754, 5402, 209, 297, 298, 99000782
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 567b1cd469816f175508dddac068b8b8b3e1bc2e
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 4653d961edd26f220160abca97bd5c7f236f05c2
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521962"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9079090"
 ---
 # <a name="manage-inventory"></a>Lagerbestand verwalten
 
@@ -31,6 +31,7 @@ Um die Übersicht über Artikel zu erhöhen und die Suche zu erleichtern, könne
 Die Planung von Artikeln zur Deckung des Bedarfs wird im Rahmen der Angebotsplanung abgedeckt. Weitere Informationen finden Sie unter [Planung](production-planning.md).  
 
 ## <a name="inventory-reconciliation"></a>Abstimmung des Lagerbestands
+
 Wenn Sie Lagertransaktionen buchen, z. B. Verkaufslieferungen, Einkaufsrechnungen oder Lagerregulierungen, werden die veränderten Artikelkosten in den Artikelwerteinträgen aufgezeichnet. Um diese Änderung des Lagerwerts in Ihren Finanzbüchern wiederzugeben, werden die Lagerkosten automatisch zu den entsprechenden Lagerkonten in der Finanzbuchhaltung gebucht. Für jede Lagertransaktion, die Sie buchen, werden die entsprechenden Werte in der Hauptbuchhaltung im Lagerkonto, im Korrekturkonto und im Lagerverbrauchskonto gebucht. Weitere Informationen finden Sie unter [Lagerregulierung mit Finanzbuchhaltung abstimmen](finance-how-to-post-inventory-costs-to-the-general-ledger.md).
 
 Selbst wenn Lagerkosten automatisch in die Finanzbuchhaltung gebucht werden, ist es immer noch notwendig sicherzustellen, dass die Kosten für Waren zur zugehörigen ausgehenden Transaktion weitergeleitet werden, insbesondere in Situationen, in denen Sie Waren verkaufen, bevor Sie den Kauf dieser Waren in Rechnung stellen. Dies wird als Kostenanpassung bezeichnet. Artikelkosten werden automatisch angepasst, wenn Sie Artikeltransaktionen buchen, Sie können jedoch auch Artikelpreise manuell anpassen. Weitere Informationen finden Sie unter [Artikelkosten anpassen](inventory-how-adjust-item-costs.md).  
@@ -59,7 +60,9 @@ In der folgenden Tabelle sind verwandte Aufgaben aufgeführt.
 |Verwalten von Geschäften in den Verkaufsbüros, in den Einkaufsabteilungen oder in den Fabrikplanungsbüros von mehreren Standorten.|[Arbeiten mit Zuständigkeitseinheiten](inventory-responsibility-centers.md)|
 |Verwenden Sie Ressourcen mit spezifischen Fähigkeiten für verschiedene Services und Serviceelemente.|[Ressourcenzuweisung einrichten](service-how-setup-resource-allocation.md)|
 
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/paths/get-started-inventory-management/)
+
+## <a name="see-also"></a>Siehe auch
 
 [Logistik](warehouse-manage-warehouse.md)  
 [Einkauf](purchasing-manage-purchasing.md)  

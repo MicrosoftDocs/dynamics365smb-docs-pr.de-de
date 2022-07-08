@@ -10,12 +10,12 @@ ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: b3e68fcd3eb33ee0885ae3ae5b0bee46017ed409
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: ba8dc155f3f25aa69907a729b1e235606a5268f9
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655098"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076799"
 ---
 # <a name="work-with-calendar-dates-and-times"></a>Mit Datumsangaben und Uhrzeiten in Kalendern arbeiten
 
@@ -330,6 +330,7 @@ Das für Wort für "Zeit" in der Sprache, die von [!INCLUDE[prod_short](includes
 [!INCLUDE [datetimes](includes/datetimes.md)]
 
 ## <a name="entering-duration"></a>Eingeben von Terminen
+
 Einige Felder in der Anwendung stellen eine Dauer oder Betrag der verstrichenen Uhrzeit, anstatt einer bestimmten Datums- oder Uhrzeitangabe dar. Zeiträume können als Zahl gefolgt von der entsprechenden Einheit eingegeben werden.
 
 Hier folgen einige Beispiele.
@@ -349,7 +350,9 @@ Geben Sie eine Zahl ein, um ermitteln, welche Einheit in einem Dauerfeld verwend
 
 Wenn die Einheit beispielsweise Stunden ist, wird die Zahl 5 in 5 Std. konvertiert.
 
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/explore-modify-info-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Siehe auch
 
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_long.md)]](ui-work-product.md)  
 [Terminberechnung für Einkäufe](purchasing-date-calculation-for-purchases.md)  

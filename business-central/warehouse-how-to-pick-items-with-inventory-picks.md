@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: edb133005292c0309de09273b6a2c5c43669eeed
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 8764fa82ef8bf408e85655b5a97719d9f649e7be
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514725"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078362"
 ---
 # <a name="pick-items-with-inventory-picks"></a>Artikel mit der Lagerkommissionierung kommissionieren
 
@@ -112,11 +112,13 @@ Wenn kein Lagerplatzcode in der Verkaufsauftragszeile angegeben wird und kein Mo
 
 In Kombinationsszenarien in denen ein Teil der Menge zunächst montiert werden muss und andere aus dem Lager kommissioniert werden müssen, werden mindestens zwei Lagerkommissionierzeilen erstellt. Eine Kommissionierzeile ist für die Programmfertigungsmenge. Die andere Kommissionierzeile hängt davon ab, welche Lagerplätze die Restmenge aus dem Lagerbestand erfüllen können. Lagerplatzcodes in den beiden Zeilen werden auf verschiedene Weise ausgefüllt, wie für die beiden verschiedenen Verkaufsarten beschrieben. Weitere Informationen finden Sie im Abschnitt "Kombinationsszenarien" in [Auftragsmontage und Lagermontage verstehen](assembly-assemble-to-order-or-assemble-to-stock.md).
 
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/paths/pick-ship-items-business-central/)
+
 ## <a name="see-also"></a>Siehe auch
 
 [Logistik](warehouse-manage-warehouse.md)  
-[Lagerbestand](inventory-manage-inventory.md)  
-[Lagerortverwaltung einrichten](warehouse-setup-warehouse.md)  
+[Bestand](inventory-manage-inventory.md)  
+[Einrichten von Warehouse Management](warehouse-setup-warehouse.md)  
 [Montageverwaltung](assembly-assemble-items.md)  
 [Exemplarische Vorgehensweise: Kommissionierung und Lieferung in Basis-Lagerkonfigurationen](walkthrough-picking-and-shipping-in-basic-warehousing.md)  
 [Designdetails: Warehouse Management](design-details-warehouse-management.md)  

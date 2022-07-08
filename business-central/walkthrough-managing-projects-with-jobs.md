@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: a4be92935903c1572e43af0f035e101fe0567772
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 6f46b07a33e49830944b1bdea9b13f241a7b2332
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8513419"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076747"
 ---
 # <a name="walkthrough-managing-projects-with-jobs"></a>Exemplarische Vorgehensweise: Verwalten von Projekten
 
@@ -24,54 +24,63 @@ In dieser exemplarischen Vorgehensweise erhalten Sie eine Einführung in die Pro
 
  In dieser exemplarischen Vorgehensweise werden die Einrichtung eines neuen Projekts sowie einige allgemeine Aufgaben wie das Verwenden von Festpreisen, Anwenden von Teilzahlungen, Buchen von Projektrechnungen und Kopieren von Projekten erläutert.  
 
-## <a name="about-this-walkthrough"></a>Informationen zu dieser exemplarischen Vorgehensweise  
+## <a name="about-this-walkthrough"></a>Informationen zu dieser exemplarischen Vorgehensweise
+
  In dieser exemplarischen Vorgehensweise werden folgende Aufgaben erläutert:  
 
-### <a name="setting-up-a-job"></a>Einrichten eines Projekts  
+### <a name="setting-up-a-job"></a>Einrichten eines Projekts
+
  Wenn die Budgetstruktur für Projekte eingerichtet ist, ist ein Projekt einfach zu erstellen. Diese exemplarische Vorgehensweise umfasst folgende Verfahren:  
 
 - Einrichten von Projektaufgabenzeilen und Planungszeilen  
 - Erstellen projektspezifischer Preise für Artikel, Ressourcen und Sachkonten  
 - Fakturieren eines Projekts  
 
-### <a name="handling-fixed-prices"></a>Verwenden von Festpreisen  
+### <a name="handling-fixed-prices"></a>Verwenden von Festpreisen
+
  In Projekten können Festpreise und die vorab mit Debitoren vereinbarten Preise für Services oder Waren verwendet werden. In dieser exemplarischen Vorgehensweise können Sie Folgendes durchführen:  
 
 - Erfahren Sie, wie Vertrags- und Rechnungswerte ermittelt werden.  
 - Einplanen zusätzlicher, nicht fakturierter Arbeit im Plan  
 
-### <a name="copying-a-job"></a>Kopieren eines Projekts  
+### <a name="copying-a-job"></a>Kopieren eines Projekts
+
  In diesem Teil der exemplarischen Vorgehensweise wird gezeigt, wie Sie ein Projekt ganz oder teilweise kopieren, um den manuellen Dateneingabeaufwand zu reduzieren und die Genauigkeit zu verbessern. Dazu zählen folgende Aufgaben:  
 
 - Kopieren eines Projektteils in ein neues Projekt  
 - Kopieren projektspezifischer Preise  
 - Kopieren von Planungszeilen  
 
-### <a name="making-payment-by-installment"></a>Anwenden von Teilzahlungen  
+### <a name="making-payment-by-installment"></a>Anwenden von Teilzahlungen
+
  Wenn ein großes, kostspieliges Projekt über einen langen Zeitraum läuft, schließt der Debitor häufig mit dem Unternehmen eine Teilzahlungsvereinbarung ab. In diesem Szenario wird gezeigt, wie Sie Teilzahlungen und Versicherungen einrichten:  
 
 - Erstellen von Teilzahlungen für ein Projekt  
 - Fakturieren von Teilzahlungen  
 - Abrechnen des Verbrauchs in einem Projekt, das für Teilzahlungen eingerichtet ist.  
 
-## <a name="roles"></a>Rollen  
+## <a name="roles"></a>Rollen
+
  Diese exemplarische Vorgehensweise umfasst Aufgaben für folgende Rollen:  
 
 - Projekt-Manager  
 - Projektteammitglied  
 
-## <a name="prerequisites"></a>Voraussetzungen  
+## <a name="prerequisites"></a>Voraussetzungen
+
  Für diese exemplarische Vorgehensweise gelten folgende Voraussetzungen:  
 
 - Installiere die CRONUS-Demonstrationsdatenbank.
 - Erstellen Sie wie im folgenden Abschnitt beschrieben einige Beispieldaten.  
 
-## <a name="story"></a>Hintergrund  
+## <a name="story"></a>Hintergrund
+
 Im Mittelpunkt dieser exemplarischen Vorgehensweise steht CRONUS, ein Entwicklungs- und Beratungsunternehmen, von dem neue Infrastrukturen (beispielsweise Sitzungssäle oder Büros) entwickelt und angepasst werden – komplett mit Einrichtungsgegenständen, Zubehör und Speichereinheiten. Der Großteil der Arbeiten ist projektorientierter Natur. Bernard ist Projektmanager bei CRONUS. Er verwendet das Projektmodul, da er sich damit einen Überblick über die einzelnen laufenden Projekte verschaffen kann, die CRONUS gestartet hat, wie auch über die abgeschlossenen Projekte. In der Regel ist er es, der die Geschäfte mit Debitoren einrichtet und die Kerndaten des Projekts, d.h. Aufgaben- und Planungszeilen sowie Preise, in [!INCLUDE[prod_short](includes/prod_short.md)] erfasst. Er findet, dass erstellen, verwalten, und Informationen prüfen einfach ist. Auch ist Bernhard schätzt die Art, wie [!INCLUDE[prod_short](includes/prod_short.md)] das Kopieren von Projekten sowie von Teilzahlungen ausführt.
 
  Katrin, ein Projektteammitglied, das Bernard unterstellt ist, ist für die tägliche Überwachung des Projekts zuständig. Sie gibt ihre eigene Arbeit zusätzlich zu der Arbeit ein, die von Technikern für jede Aufgabe ausgeführt wird. Sie speichert die Artikel, die sie verwendet haben und die Kosten, die sie verursacht haben.  
 
-## <a name="preparing-sample-data"></a>Vorbereiten der Beispieldaten  
+## <a name="preparing-sample-data"></a>Vorbereiten der Beispieldaten
+
  Um sich für diese exemplarische Vorgehensweise vorzubereiten, müssen Sie Katrin als neue Ressource hinzufügen.  
 
 ### <a name="to-prepare-the-sample-data"></a>So bereiten Sie die Beispieldaten vor  
@@ -109,7 +118,8 @@ Im folgenden Verfahren erstellen Sie eine Projektbuchungsblatt für Katrin, um d
 
 4.  Klicken Sie auf die Schaltfläche **OK**, um die Änderungen zu speichern.
 
-## <a name="setting-up-a-job"></a>Einrichten eines Projekts  
+## <a name="setting-up-a-job"></a>Einrichten eines Projekts
+
  In diesem Szenario hat CRONUS einen Vertrag mit einem Kunden, Progressive Home Furnishings, für den Entwurf eines Konferenz- und Speisesaals abgeschlossen. Der Debitor hat seinen Sitz in den USA, und für das Projekt ist spezielle Software erforderlich. Der Projektmanager trifft eine Vereinbarung mit dem Debitoren und erstellt ein Projekt für den Vertrag.  
 
 ### <a name="to-set-up-a-job"></a>So richten Sie ein Projekt ein  
@@ -202,7 +212,8 @@ Im folgenden Verfahren erstellen Sie eine Projektbuchungsblatt für Katrin, um d
 
 4. Schließen Sie die Seite. Die Summen werden auf der Seite **Projektaufgabenzeilen** aktualisiert.  
 
-## <a name="calculating-remaining-usage"></a>Berechnen des Restverbrauchs  
+## <a name="calculating-remaining-usage"></a>Berechnen des Restverbrauchs
+
  Katrin, das Teamprojektmitglied, arbeitet seit einiger Zeit an dem Projekt und möchte ihre Stunden und ihren Verbrauch für das Projekt erfassen. Sie hat nicht mehr gearbeitet, als vorab mit dem Debitoren vereinbart wurde. Sie verwendet den Batchauftrag **Restverbrauch berechnen**, um den Restverbrauch für das Projekt in einem Projektbuchhaltungsblatt zu berechnen. Mithilfe der Stapelverarbeitung wird für jede Projektaufgabe die Differenz zwischen dem geplanten Verbrauch von Artikeln, Ressourcen und Aufwandssachposten und dem in Projektposten gebuchten tatsächlichen Verbrauch berechnet. Der Restverbrauch wird dann im Projektbuchungsblatt angezeigt, von dem aus sie eine Buchung vornehmen kann.  
 
 ### <a name="to-calculate-remaining-usage"></a>So berechnen Sie den Restverbrauch  
@@ -219,7 +230,8 @@ Im folgenden Verfahren erstellen Sie eine Projektbuchungsblatt für Katrin, um d
 
 Die Zeilen werden gebucht.  
 
-## <a name="creating-and-posting-a-job-sales-invoice"></a>Erstellen und Buchen einer Projektverkaufsrechnung  
+## <a name="creating-and-posting-a-job-sales-invoice"></a>Erstellen und Buchen einer Projektverkaufsrechnung
+
  Als Nächstes kann Katrin eine neue Rechnung für das gesamte Projekt oder für Teil eines Projekts erstellen. Die Rechnung kann auch an eine andere Rechnung für denselben Debitoren und dasselbe Projekt angefügt werden. In diesem Fall fakturiert Sie das gesamte Projekt, da es jetzt abgeschlossen ist.  
 
 ### <a name="to-create-a-job-sales-invoice"></a>So erstellen Sie eine Projektverkaufsrechnung  
@@ -252,7 +264,8 @@ Die Zeilen werden gebucht.
 2.  Wählen Sie die Aktion **Statistik** aus. Sie können detaillierte Informationen über die Projektverkaufspreise, Kosten und Gewinne in lokalen und fremden Währungen anzeigen.  
 3.  Wählen Sie die Schaltfläche **Schließen**, um die Seite **Projektstatistik** zu schließen.  
 
-## <a name="handling-fixed-prices"></a>Verwenden von Festpreisen  
+## <a name="handling-fixed-prices"></a>Verwenden von Festpreisen
+
  CRONUS wurde abgeschlossen, um Konferenzräume einrichten. Als Projekt-Manager benötigt Bernard einen umfassenden Überblick über die erforderlichen Aufgaben für das Projekt sowie die zugehörigen budgetierten und angefallenen Kosten für jede Aufgabe. Zudem möchte er den vertraglich vereinbarten Verkaufsbetrag für das Projekt und den bisher fakturierten Betrag ermitteln. Er hat mit dem Debitoren Festpreise für das Projekt vereinbart.  
 
 ### <a name="to-manage-fixed-pricing-in-jobs"></a>So verwalten Sie Festpreise in Projekten  
@@ -443,15 +456,18 @@ In den folgenden Verfahren wird gezeigt, wie Sie ein neues Projekt erstellen, di
 2.  Legen Sie auf der Seite **Verkaufsrechnung erstellen** das heutige Datum als Buchungsdatum fest, geben Sie **" Nach Aufgabe** an, und wählen Sie die Schaltfläche **OK**, um eine Rechnung mit den Standardinformationen zu erstellen. Klicken Sie auf **OK**, um die Bestätigungsseite zu schließen.  
 3.  Wählen Sie die Aktion **Verkaufsrechnung/Gutschrift**. Auf der Verkaufsrechnung können Sie sehen, dass die Rechnung nur die Anzahlung enthält. Diese Rechnung kann jetzt wie vereinbart an den Debitoren gesendet werden.  
 
-## <a name="next-steps"></a>Nächste Schritte  
+## <a name="next-steps"></a>Nächste Schritte
+
  In dieser exemplarischen Vorgehensweise wurden Sie durch mehrere der grundlegenden Schritte für die Arbeit mit Projekten in [!INCLUDE[prod_short](includes/prod_short.md)] geführt. Sie haben gelernt, wie ein neues Projekt erstellt, ein Projekt kopiert und Zahlungen verarbeitet werden. Sie haben auch eine Demonstration gesehen, wie Stunden verfolgt und Rechnungen erstellt werden.  
+
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/paths/create-jobs/)
 
 ## <a name="see-also"></a>Siehe auch
 
- [Exemplarische Vorgehensweisen für Geschäftsprozesse](walkthrough-business-process-walkthroughs.md)   
- [Projektmanagement einrichten](projects-setup-projects.md)   
- [Ressourceneinsatz](projects-how-use-resources.md)   
- [Überwachen des Status und der Leistung](projects-how-monitor-progress-performance.md)   
+ [Exemplarische Vorgehensweisen für Geschäftsprozesse](walkthrough-business-process-walkthroughs.md)  
+ [Projektmanagement einrichten](projects-setup-projects.md)  
+ [Ressourcen verwenden](projects-how-use-resources.md)  
+ [Überwachen von Status und Leistung](projects-how-monitor-progress-performance.md)  
  [Fakturieren von Projekten](projects-how-invoice-jobs.md)  
  [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

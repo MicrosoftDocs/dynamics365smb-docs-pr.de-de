@@ -10,12 +10,12 @@ ms.search.keywords: decimal separator, data entry, focus
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 03/23/2022
 ms.author: jswymer
-ms.openlocfilehash: fffc72eaa44207779a751c3d85381f830f651eb3
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: 398c32043297e6900754da535f01a3fb5059c204
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655020"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076825"
 ---
 # <a name="entering-data"></a>Eingeben von Daten
 
@@ -282,7 +282,9 @@ Nehmen wir zum Beispiel an, Sie verwenden eine numerische Tastatur, die einen Pu
 > [!TIP]
 > Es kann vorkommen, dass Sie das Dezimaltrennzeichen verwenden möchten, um einen Punkt (.) einzugeben. Angenommen, Sie geben einen Datumsbereich in einen Filter ein, z. B. `01/01/2022..04/01/2022` oder irgendetwas, das einen Punkt erfordert. Um diesen Fall zu berücksichtigen, drücken Sie die Tasten „Alt+Dezimaltrennzeichen“ auf der numerischen Tastatur. Diese Tastenkombination schaltet das Dezimaltrennzeichen zwischen der Ausgabe eines Punktes und dem durch die **Region**-Einstellung festgelegten Dezimaltrennzeichen um.
 
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/explore-modify-info-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Siehe auch
 
 [Sortieren, Durchsuchen und Filtern von Listen](ui-enter-criteria-filters.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

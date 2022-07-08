@@ -1,8 +1,6 @@
 ---
 title: Planung von Service-Prozessen
 description: Dieses Thema umreißt verschiedene Aufgaben zum Festlegen von Regeln und Werten, um Ihre Service-Richtlinien und -Prozesse zu definieren.
-services: project-madeira
-documentationcenter: ''
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
@@ -11,12 +9,12 @@ ms.workload: na
 ms.search.keywords: service, work hours, configure, price, pricing
 ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: a255601103526cf633101e9f59155af21082a5f9
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 157ac179e51330cc5d9606872a8a121a4bbb67f2
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8380880"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077554"
 ---
 # <a name="planning-services"></a>Planungsservices
 Mit [!INCLUDE[prod_short](includes/prod_short.md)] können Sie die Standardaufgaben für die Erfüllung der Kundenserviceanforderungen einrichten. Dazu muss bestimmt werden, welche Serviceangebote von der Serviceorganisation unterstützt werden und zu welchem Preis.   

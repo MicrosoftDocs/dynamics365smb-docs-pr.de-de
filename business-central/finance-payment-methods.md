@@ -10,12 +10,12 @@ ms.search.keywords: check, bank transfer, cash, PayPal
 ms.search.form: 427
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: abe1d874658c393b0d9795c1710e642b4e33add0
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 5cf88736711667a18a43e75bc70533de5c924ad2
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8512958"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076591"
 ---
 # <a name="set-up-payment-methods"></a>Einrichten von Zahlungsformen
 
@@ -43,7 +43,9 @@ Fügen Sie Ihren Zahlungsbedingungen optional Ihre Zahlungsform hinzu. Weitere I
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Kunde** oder **Kreditor** ein und wählen Sie dann den zugehörigen Link.
 2. Im **Zahlungsformcode** Feld wählen Sie die Methode, die Sie für den Debitor oder Kreditor standardmäßig verwenden möchten.
 
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/cash-management-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Siehe auch
 
 [Registriert einen neuen Debitor](sales-how-register-new-customers.md)  
 [Zahlungsbedingungen einrichten](finance-payment-terms.md)  

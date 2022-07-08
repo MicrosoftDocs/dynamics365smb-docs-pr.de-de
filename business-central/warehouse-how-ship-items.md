@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 7335, 7337, 7339, 7340, 7341, 7362, 9008
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 5af803495f90590e288ad3d4e919995bb60e06b2
-ms.sourcegitcommit: cfe4e924af2c89c09250270245e7a1eef1184bfc
+ms.openlocfilehash: 7ad15181a1dc25f8b3ee923a62f5b4c553f965b2
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8626603"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078908"
 ---
 # <a name="ship-items"></a>Versenden von Artikeln
 
@@ -106,11 +106,13 @@ Sie können den Kommissionierarbeitsblatt auch verwenden, um mehrere Anweisungen
 > [!NOTE]
 > Wenn Sie auf bestimmte Artikel warten, die im Lager ankommen sollen, und wenn Sie die Zuordnungsfunktionalität verwenden, berechnet [!INCLUDE[prod_short](includes/prod_short.md)] in jeder Warenausgangs- oder Kommissionierarbeitsblattszeile die Menge des Artikels, die sich im Zuordnungslagerplatz befindet. Sie aktualisiert dieses Feld jedes Mal, wenn Sie den Warenausgangsbeleg oder das Arbeitsblatt verlassen und öffnen. Weitere Informationen finden Sie unter [Zuordnen von Artikeln](warehouse-how-to-cross-dock-items.md).
 
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/ship-invoice-items-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Siehe auch
 
 [Logistik](warehouse-manage-warehouse.md)  
-[Lagerbestand](inventory-manage-inventory.md)  
-[Lagerortverwaltung einrichten](warehouse-setup-warehouse.md)  
+[Bestand](inventory-manage-inventory.md)  
+[Einrichten von Warehouse Management](warehouse-setup-warehouse.md)  
 [Montageverwaltung](assembly-assemble-items.md)  
 [Designdetails: Warehouse Management](design-details-warehouse-management.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

@@ -10,12 +10,12 @@ ms.search.keywords: dimension, correction, correct, business intelligence
 ms.search.form: 116, 540, 2588
 ms.date: 09/27/2021
 ms.author: bholtorf
-ms.openlocfilehash: 497daecd0834b2651e52131df809d12d45b18d48
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 82f71f3fafb0b977dde28033443f4585aeaced52
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519121"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075421"
 ---
 # <a name="troubleshooting-and-correcting-dimensions"></a>Fehlersuche und Korrektur von Dimensionen
 
@@ -122,7 +122,12 @@ Wenn eine Korrektur nicht abgeschlossen ist, wird auf der Korrekturkarte eine Wa
 
 Nachdem Sie die Dimensionen korrigiert haben, sind Ihre Daten für die Kostenrechnung nicht mehr synchron. Die Kostenrechnung verwendet Dimensionen, um Beträge für Kostenstellen und Kostenobjekte zu aggregieren und Kostenzuordnungen durchzuführen. Das Ändern der Abmessungen für Sachkontenbuchungen bedeutet wahrscheinlich, dass Sie Ihre Kostenrechnungsmodelle erneut ausführen. Ob Sie nur einige Kostenregister löschen und Zuordnungen erneut ausführen müssen oder alles löschen und alle Ihre Modelle erneut ausführen müssen, hängt von den aktualisierten Daten und der Einrichtung Ihrer Kostenrechnungsfunktionen ab. Sie müssen manuell ermitteln, wo sich Korrekturen an Dimensionen auf die Kalkulation auswirken und wo Aktualisierungen erforderlich sind. [!INCLUDE[prod_short](includes/prod_short.md)] bietet derzeit keine automatisierte Möglichkeit, dies zu tun.
 
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/dimensions-dynamics-365-business-central/)
 
-[Arbeiten mit Dimensionen](finance-dimensions.md)
+## <a name="see-also"></a>Siehe auch
+
+[Arbeiten mit Dimensionen](finance-dimensions.md)  
 [Analysieren von Daten nach Dimensionen](bi-how-analyze-data-dimension.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

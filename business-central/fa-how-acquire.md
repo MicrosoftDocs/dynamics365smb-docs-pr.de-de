@@ -10,14 +10,15 @@ ms.search.keywords: purchase fixed asset
 ms.search.form: 5605, 5551, 5600, 5628, 5629, 5633
 ms.date: 12/03/2021
 ms.author: edupont
-ms.openlocfilehash: 46d8b491727f566c9a96640e3dfb40cc0d417f40
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 79705da9117c8b201b4f652351771210f97f3cb7
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519251"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075004"
 ---
 # <a name="acquire-fixed-assets"></a>Erworbene Anlagen
+
 Sie müssen für jede Anlage eine Karte mit entsprechenden Informationen zur Anlage einrichten. Sie können Gebäude oder Produktionseinrichtungen als Hauptanlage mit einer Komponentenliste einrichten und sie unterschiedlich gruppieren, z. B. nach Klasse, Abteilung oder Standort. Vor der Anschaffung muß für jede Anlage ein AfA-Buch eingerichtet und zugewiesen werden.
 
 Wenn eine Anlage eingerichtet und ein AfA-Buch zugewiesen ist, müssen Sie die Anlage erwerben. Um eine Anlage zu erwerben, erfassen Sie seine Anschaffungskosten im entsprechenden Sachkonto, Bankkonto oder Kreditor, indem Sie eine Anschaffungstransaktion auf der Seite **Anlagen Fibu Buch.-Blatt** buchen. Sie können die Seite **Unterstützte Anlagenanschaffung** verwenden, um die erforderlichen Fibu Buch.-Blattzeilen automatisch zu erstellen und zu buchen.
@@ -27,6 +28,7 @@ Der Restwert ist der verbleibende Wert einer Anlage, die nicht mehr verwendet we
 Die Indexierung wird verwendet, um die Werte allgemeinen Preisänderungen anzupassen. Die Stapelverarbeitung **Anlagen indexieren** kann verwendet werden, um die Anschaffungskosten zu Wiederbeschaffungskosten zu ermitteln.
 
 ## <a name="to-create-a-fixed-asset-and-acquire-it-automatically"></a>So erstellen Sie eine Anlage und erwerben diese automatisch
+
 Nachfolgend wird beschrieben, wie eine Anlage erstellt und erhalten wird, indem Sie die Seite **Unterstützte Anlagenanschaffung** verwenden, um die entsprechenden Fibu Buch.-Blattzeilen zu erstellen und zu buchen. Sie können die Buch.-Blattzeilen auch manuell erstellen und buchen. Weitere Informationen finden Sie unter [Wie Anlagenanschaffungen mit dem Anlagen Fibu Buch.-Blatt manuell gebucht werden](fa-how-acquire.md#to-post-a-fixed-asset-acquisition-manually-with-the-fixed-asset-gl-journal).
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Anlagen** ein und wählen Sie dann den zugehörigen Link.  
@@ -44,6 +46,7 @@ Nachfolgend wird beschrieben, wie eine Anlage erstellt und erhalten wird, indem 
 Wenn Sie **Fertigstellen** auswählen, wird das Feld **Buchwert** im Fenster **Anlagenkarte** ausgefüllt und gibt an, dass die Anlage zu den angegebenen Anschaffungskosten erworben wurde.  
 
 ## <a name="to-set-up-a-component-list-for-a-main-asset"></a>So richten Sie Komponentenlisten für Hauptanlagen ein
+
 Sie können Ihre Anlagen in Hauptanlagen und deren Komponenten gliedern. Sie können dies z. B. für eine Produktionsanlage verwenden, die aus vielen Teilen besteht, die auf diese Weise gruppiert werden sollen.  
 
 Sowohl für die Hauptanlage als auch für die Unteranlagen müssen Anlagenkarten eingerichtet werden. Nachdem Sie eine Komponentenübersicht eingerichtet haben, füllt [!INCLUDE[prod_short](includes/prod_short.md)] automatisch die Felder **Hauptanlage/Komponente** und **Komponente/Hauptanlage** auf den Anlagenkarten aus.
@@ -57,6 +60,7 @@ Sowohl für die Hauptanlage als auch für die Unteranlagen müssen Anlagenkarten
 7. Aktivieren Sie das Kontrollkästchen **Buchen auf Hauptanl. erlaubt**.
 
 ## <a name="to-post-a-fixed-asset-acquisition-manually-with-the-fixed-asset-gl-journal"></a>So buchen Sie eine Anlagenanschaffungen mit dem Anlagen Fibu Buch.-Blatt manuell
+
 Nachfolgend wird beschrieben, wie eine Anlage manuell erworben wird, indem Zeilen auf der Seite **Anlagen Fibu Buch.-Blatt** erstellt und gebucht werden. Sie können eine Anlage auch automatisch erwerben, indem Sie die Seite **Unterstützte Anlagenanschaffung** verwenden. Weitere Informationen finden Sie unter Schritt 5 in [So erstellen Sie eine Anlage und erwerben diese automatisch](fa-how-acquire.md#to-create-a-fixed-asset-and-acquire-it-automatically).
 
 > [!NOTE]  
@@ -71,6 +75,7 @@ Nachfolgend wird beschrieben, wie eine Anlage manuell erworben wird, indem Zeile
 >   Wenn Sie bei der Buchung von Anschaffungskosten in der Einkaufsrechnung das Feld **Versicherungsnr.** ausfüllen, bucht [!INCLUDE[prod_short](includes/prod_short.md)] die Anwendung die Anschaffungskosten der Anlage auch für die Versicherungsposten. Weitere Informationen finden Sie unter [Versichern von Anlagen](fa-how-insure.md).
 
 ## <a name="to-cancel-an-acquisition-cost-posting-for-one-fixed-asset"></a>So stornieren Sie eine Anschaffungskostenbuchung für eine Anlage
+
 Wenn Ihnen beim Buchen von Anschaffungskosten ein Fehler unterläuft, können Sie den Posten mithilfe der Stapelverarbeitung **Anlagenposten storn.** entfernen und anschließend den korrekten Anschaffungsposten buchen. Die fehlerhaften Posten werden in die Seite **Anlagenstornoposten** übertragen.
 
 Wenn Sie also beispielsweise eine Anschaffung mit dem falschen Datum gebucht haben, müssen Sie sie so schnell wie möglich korrigieren, da das Anlagenbuchungsdatum für viele Berechnungen verwendet wird.
@@ -86,6 +91,7 @@ Wenn Sie also beispielsweise eine Anschaffung mit dem falschen Datum gebucht hab
 6. Wenn der falsche Posten oder die falschen Posten storniert wurden, können Sie mit dem Buchen der korrekten Anschaffungskosten fortfahren.
 
 ## <a name="to-post-the-salvage-value-together-with-the-acquisition-cost"></a>So buchen Sie den Restbetrag zusammen mit den Anschaffungskosten
+
 Sie können den Restwert zusammen mit den Anschaffungskosten aus einem Anlagen Buch.-Blatt buchen.
 
 > [!NOTE]
@@ -99,11 +105,14 @@ Sie können den Restwert zusammen mit den Anschaffungskosten aus einem Anlagen B
 > [!NOTE]
 > Wenn für eine Anlage ein Restwert vorhanden ist, wird dieser Wert bei der Abschreibungsbuchung anstelle des Wertes im Feld **Erinnerungswert** auf der Seite **Anlagenabschreibungsbücher** verwendet. Weitere Informationen finden Sie unter [Wie der Erinnerungswert verwaltet wird](fa-how-depreciate-amortize.md#to-manage-the-ending-book-value).
 
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/purchase-fixed-assets/)
+
 ## <a name="see-also"></a>Siehe auch
+
 [Anlagen](fa-manage.md)  
 [Einrichten von Anlagen](fa-setup.md)  
 [Finanzen](finance.md)  
-[Vorbereiten auf die Geschäftsabwicklung](ui-get-ready-business.md)  
+[Bereitschaft für die Geschäftsabwicklung](ui-get-ready-business.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

@@ -10,19 +10,20 @@ ms.search.keywords: procurement, supply, vendor order
 ms.search.form: 460, 9307
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4a8d4e2568c64e09f1b71c247c6701e67bf9a824
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: dd86d4615abfb510ada19c3ec7e0f2c6ac6cb557
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8513809"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077137"
 ---
 # <a name="purchasing"></a>Einkauf
+
 Sie erstellen eine Einkaufsrechnung oder Einkaufsbestellung, um die Kosten der Einkäufe zu erfassen und Kreditoren zu verfolgen. Wenn Sie einen Bestand steuern müssen, werden Einkaufsrechnungen auch verwendet, um Lagerbestände dynamisch zu aktualisieren, sodass Sie Ihre Lagerbestandskosten minimieren und besseren Kundenservice bereitstellen können. Die Einkaufskosten, einschließlich Servicekosten und Bestandswerte, die aus der Buchung von Einkaufsrechnungen resultieren, tragen zu den Gewinnzahlen und anderen finanziellen Kennziffern in Ihrem Rollencenter bei.
 
 Sie müssen Einkaufsbestellungen verwenden, wenn es für den Einkaufsprozess erforderlich ist, Teillieferungen einer Bestellmenge zu erfassen, weil beispielsweise die vollständige Menge beim Kreditor nicht sofort verfügbar ist. Wenn Sie Artikel als Direktlieferung verkaufen, indem Sie direkt von Ihrem Kreditor an Ihren Debitor versenden, müssen Sie ebenfalls Einkaufsbestellungen verwenden. Weitere Informationen finden Sie unter [Direktlieferungen erstellen](sales-how-drop-shipment.md) In allen anderen Aspekten ist das Vorgehen bei Einkaufsbestellungen genau wie bei Einkaufsrechnungen.
 
-Sie können Verkaufsrechnungen automatisch erstellen lassen, indem Sie den OCR-Dienst (optische Zeichenerkennung) verwenden, um PDF-Rechnungen Ihrer Kreditoren zu elektronischen Dokumenten umwandeln, die dann zu Einkaufsrechnungen durch einen Workflow umgewandelt werden. Um diese Funktionalität nutzen zu können, müssen Sie den OCR-Service zuerst anmelden und dann verschiedene Einrichtungen ausführen. Weitere Informationen finden Sie unter [Eingehende Belege verarbeiten](across-process-income-documents.md).      
+Sie können Verkaufsrechnungen automatisch erstellen lassen, indem Sie den OCR-Dienst (optische Zeichenerkennung) verwenden, um PDF-Rechnungen Ihrer Kreditoren zu elektronischen Dokumenten umwandeln, die dann zu Einkaufsrechnungen durch einen Workflow umgewandelt werden. Um diese Funktionalität nutzen zu können, müssen Sie den OCR-Service zuerst anmelden und dann verschiedene Einrichtungen ausführen. Weitere Informationen finden Sie unter [Eingehende Belege](across-income-documents.md).
 
 Produkte können Lagerartikel und Dienstleistungen sein. Weitere Informationen finden Sie unter [Neue Artikel registrieren](inventory-how-register-new-items.md).
 
@@ -48,13 +49,14 @@ Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Themen,
 
 [!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
-## <a name="see-related-training-at-microsoft-learn"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/paths/purchase-items-services-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/paths/purchase-items-services-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Siehe auch
+
 [Einkaufeinrichten](purchasing-setup-purchasing.md)  
 [Registriert einen neuen Kreditor](purchasing-how-register-new-vendors.md)  
 [Verwalten von Verbindlichkeiten](payables-manage-payables.md)  
-[Projekte verwalten](projects-manage-projects.md)    
+[Projekte verwalten](projects-manage-projects.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Allgemeine Geschäftsfunktionen](ui-across-business-areas.md)
 

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: OData, Power App, SOAP
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 75dbc465373843327c4ff1c4a8563452d3464d94
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: a9c4f0decab63b3e0484ceff3f0bd7c31c638258
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133304"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075108"
 ---
 # <a name="connecting-to-your-business-central-data-to-build-a-business-app-using-power-apps"></a>Verknüpfung mit Business Central, um eine Geschäfts-App mithilfe von Power Apps zu erstellen
 
@@ -49,10 +49,12 @@ Wenn Sie Ihre App entworfen und erstellt haben, können Sie diese mit Ihre Kolle
 > [!NOTE]
 > Wenn Sie [!INCLUDE[prod_short](includes/prod_short.md)] lokal verbinden möchten, müssen Sie den **Business Central (lokal)** Connector in Schritt 3 auswählen.  
 
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/paths/power-apps-power-automate-business-central/)
+
 ## <a name="see-also"></a>Siehe auch
 
 [Erstellen Sie eine Canvas-App aus einer Vorlage in Power Apps](/powerapps/maker/canvas-apps/get-started-test-drive)  
-[Importieren von Geschäftsdaten aus anderen Finanzsystemen](across-import-data-configuration-packages.md)  
+[Importieren von Geschäftsdaten aus anderen Finance-Systemen](across-import-data-configuration-packages.md)  
 [Einrichten [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Erste Schritte mit dem Entwickeln von Verbindungs-Apps für Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-develop-connect-apps)  
 

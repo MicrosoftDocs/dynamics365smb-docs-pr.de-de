@@ -10,12 +10,12 @@ ms.search.keywords: SMTP, email, Office 365, connector
 ms.search.form: 1805, 9813, 9814, 1262, 1263
 ms.date: 02/06/2022
 ms.author: bholtorf
-ms.openlocfilehash: 8357659f42976c7e3bc9b64a3c0aa10fe5b32364
-ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
+ms.openlocfilehash: df98aeba310bdc1e111834277b28c4c8edc9085b
+ms.sourcegitcommit: 0513051fd4a3b804188e7404569e802ec327cf84
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/12/2022
-ms.locfileid: "8950462"
+ms.lasthandoff: 06/22/2022
+ms.locfileid: "9041426"
 ---
 # <a name="set-up-email"></a>E-Mail einrichten
 Menschen in Unternehmen senden täglich Informationen und Dokumente wie Verkaufsdokumente und Bestellungen sowie Rechnungen per E-Mail. Administratoren können ein oder mehrere E-Mail-Konten mit [!INCLUDE[prod_short](includes/prod_short.md)] verbinden. So können Sie Dokumente senden, ohne eine E-Mail-App öffnen zu müssen. Sie können jede Nachricht einzeln mit grundlegenden Formatierungswerkzeugen wie Schriftarten, Stilen, Farben usw. zusammenstellen und Anhänge mit bis zu 100 MB hinzufügen. Mit Berichtslayouts können Administratoren außerdem die wichtigsten Informationen aus Belegen einbeziehen. Weitere Informationen finden Sie unter [Dokumente per E-Mail versenden](ui-how-send-documents-email.md).
@@ -44,7 +44,7 @@ In der folgenden Tabelle werden die standardmäßig verfügbaren E-Mail-Erweiter
 |**SMTP Connector**|Verwenden Sie SMTP-Protokoll zum Senden von E-Mails.|Ermöglichen Sie die Kommunikation über Ihren SMTP-Mailserver. |
 
 > [!NOTE]
-> Die Erweiterungen **Microsoft 365-Konnektor** und **Aktueller Benutzer-Konnektor** verwenden die Konten, die Sie für Benutzer im Microsoft 365 Admin Center für Ihr Microsoft 365-Abonnement eingerichtet haben. Um E-Mails mit den Erweiterungen senden zu können, müssen Benutzer über eine gültige Lizenz für Exchange Online verfügen. Darüber hinaus erfordern diese Erweiterungen, dass die Einstellung **HttpClient-Anfragen zulassen** aktiviert ist. Um zu überprüfen, ob es für diese Erweiterungen aktiviert ist, gehen Sie zur Seite **Erweiterungsverwaltung**, wählen Sie die Erweiterung und dann die Option **Konfigurieren** aus.
+> Die Erweiterungen **Microsoft 365-Konnektor** und **Aktueller Benutzer-Konnektor** verwenden die Konten, die Sie für Benutzer im Microsoft 365 Admin Center für Ihr Microsoft 365-Abonnement eingerichtet haben. Um E-Mails mit den Erweiterungen senden zu können, müssen Benutzer über eine gültige Lizenz für Exchange Online verfügen. In Sandbox-Umgebungen erfordern diese Erweiterungen außerdem, dass die Einstellung **HttpClient-Anfragen zulassen** aktiviert ist. Um zu überprüfen, ob es für diese Erweiterungen aktiviert ist, gehen Sie zur Seite **Erweiterungsverwaltung**, wählen Sie die Erweiterung und dann die Option **Konfigurieren** aus.
 
 > Externe Benutzer wie delegierte Administratoren und externe Buchhalter können diese Erweiterungen nicht zum Senden von E-Mail-Nachrichten über [!INCLUDE[prod_short](includes/prod_short.md)] verwenden.
 

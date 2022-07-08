@@ -10,12 +10,12 @@ ms.search.keywords: work in process, work in progress, calculate project WIP
 ms.search.form: 1010
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 09568ab62f9bbc52014583cfc322bfefaf5102e4
-ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
+ms.openlocfilehash: 2ab39e3cf0e533a39c76bbdb9b673d55ff84d78d
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2022
-ms.locfileid: "8799512"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075811"
 ---
 # <a name="understanding-wip-methods-in-project-management"></a>Grundlegendes zu WIP-Methoden im Projektmanagement
 
@@ -33,7 +33,9 @@ Zum Überwachen des Werts in der Finanzbuchhaltung können Sie die WIP berechnen
 | Prozentsatz der Fertigung |Deaktivierte Kosten = Verbrauch (Einstandsbetrag)<br /><br /> Realisierte Einnahmen = Fakturierbarer Gesamtbetrag x Prozentsatz der Fertigung<br /><br /> Prozentsatz der Fertigung = Gesamtverbrauchskosten / Geplante Gesamtkosten<br /> (Im Feld **Kosten Abschluss %** in Projektaufgabenzeilen erfasst)<br /><br /> WIP Verkäufe = deklarierte Verkäufe - Fakturierbarer Rechnungspreis |Bei Berechnungen vom Typ "Prozentsatz der Fertigung" werden Einnahmen proportional – auf der Grundlage des Prozentsatzes der Fertigstellung, also "Verbrauch" contra "Einstandspreis" – realisiert.<br /><br /> Damit korrekte Ergebnisse erzielt werden können, müssen für das gesamte Projekt Werte für "Fakturierbarer Gesamtbetrag" und "Plan Gesamtkosten" eingegeben werden. |
 | Abgeschl. Vertrag |WIP-Betrag = WIP-Einstandsbetrag = Verbrauch (Einstandsbetrag)<br /><br /> WIP-Verkaufsbetrag = Fakturierbarer (Rechnungsbetrag) |Bei der Option "Abgeschl. Vertrag" werden Einnahmen und Kosten erst nach Abschluss des Projekts realisiert. Dies kann nützlich sein, wenn die Schätzungen der Kosten und Einnahmen für das Projekt äußerst unsicher sind.<br /><br /> Der gesamte Verbrauch wird auf das Konto für Kosten nicht abgeschlossener Arbeiten (Aktiva) gebucht, und alle fakturierten Verkäufe werden auf das Konto für fakturierte Verkäufe nicht abgeschlossener Arbeiten (Passiva) gebucht, bis das Projekt abgeschlossen ist. |
 
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/paths/calculate-post-job-wip/)
+
+## <a name="see-also"></a>Siehe auch
 
 [Projektmanagement](projects-manage-projects.md)  
 [Finanzen](finance.md)  

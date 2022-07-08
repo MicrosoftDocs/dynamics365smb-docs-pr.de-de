@@ -10,12 +10,12 @@ ms.search.keywords: analysis, history, track
 ms.search.form: 18, 20, 37, 65, 99, 312, 314, 313, 395, 552, 569, 570, 634, 790, 791, 1158
 ms.date: 01/21/2022
 ms.author: edupont
-ms.openlocfilehash: 1834cfe7bbbc933a1aebddbc94ea6dfe09523605
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: bb94f725c57f538f9d8704ba66e3d66e120d41d2
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8510848"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9079142"
 ---
 # <a name="understanding-the-general-ledger-and-the-chart-of-accounts"></a>Grundlegendes zum Sachkonto und zum Kontenplan
 
@@ -89,7 +89,9 @@ Auf der Seite **Kontenplan** werden die Konten in einer hierarchischen Liste ang
 
 In einer kleinen Organisation, wie der CRONUS-Demo-Firma, können die meisten Benutzer den Kontenplan bearbeiten, mit Ausnahme von Benutzern mit einer TEAM MEMBER-Lizenz. In größeren Organisationen ist der Zugriff auf die Bearbeitung des Kontenplans jedoch durch Rollen und Berechtigungen eingeschränkt. Wenn Sie ein Administrator sind oder die Rolle *Geschäftsführer* oder *Buchhalter* haben, können Sie die Berechtigungen für alle Benutzer überprüfen, um sicherzustellen, dass die richtigen Personen Zugriff auf die relevanten Tabellen haben. Weitere Informationen finden Sie unter [So erhalten Sie eine Übersicht der Benutzerberechtigungen](ui-define-granular-permissions.md#to-get-an-overview-of-a-users-permissions).  
 
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/business-central-configure-general-ledger-setup/)
+
+## <a name="see-also"></a>Siehe auch
 
 [Finanzen](finance.md)  
 [Einrichten oder Ändern des Kontenplans](finance-setup-chart-accounts.md)  

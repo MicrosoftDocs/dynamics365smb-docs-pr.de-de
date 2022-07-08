@@ -10,14 +10,15 @@ ms.search.keywords: ''
 ms.search.forms: 5704, 5700, 5702, 5701
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 320a5315f569deeec8c86ce8246497f171fbb853
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 5271203a9936f268e23df9b8e38a2373d875e5f9
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517394"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076487"
 ---
 # <a name="set-up-stockkeeping-units"></a>Lagerhaltungsdaten einrichten
+
 Sie können Lagerhaltungseinheiten verwenden, um Datensätze zu Artikeln für einen bestimmten Standort oder einen Variantencode zu erfassen.  
 
 Lagerhaltungsdaten sind eine Ergänzung zu Artikelkarten. Sie ersetzen sie nicht, obwohl sie mit ihnen verknüpft sind. Lagerhaltungsdaten ermöglichen Ihnen, Informationen über Artikel nach Lagerorten (wie z. B. Lagerhäuser und Vertriebsstellen) oder Varianten (wie z. B. unterschiedliche Regalnummern oder Informationen zur Wiederbestellung) zu unterscheiden.  
@@ -39,9 +40,12 @@ Um mehrere Lagerhaltungsdaten für einen Artikel anzulegen, verwenden Sie die St
 > Wenn die Lagerhaltungsdaten nach Produktion angegeben sind, wird dieses Feld **Standardkosten** nicht verwendet, wenn die Ist-Kosten des gefertigten Artikels fakturiert und reguliert werden. Stattdessen wird das Feld **Standardkosten** in der zugrunde liegenden Artikelkarte verwendet, und auftretende Abweichungen werden anhand der Kostenanteile dieses Artikels berechnet.<br /><br />
 > Da Fertigungsstücklisten und Arbeitspläne nicht Lagerhaltungsdaten zugeordnet werden können, sind der Einstandspreis-Roll-up und die entsprechende Berechnung von Kosten für Lagerhaltungsdaten ebenfalls nicht verfügbar. Weitere Informationen finden Sie unter [Über das Berechnen von festen Einstandspreisen](finance-about-calculating-standard-cost.md).
 
-## <a name="see-also"></a>Siehe auch  
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/control-inventory-multiple-locations/)
+
+## <a name="see-also"></a>Siehe auch
+
 [Neue Artikel registrieren](inventory-how-register-new-items.md)  
-[Lagerortverwaltung einrichten](warehouse-setup-warehouse.md)  
+[Einrichten von Warehouse Management](warehouse-setup-warehouse.md)  
 [Logistik](warehouse-manage-warehouse.md)  
 [Lagerbestand](inventory-manage-inventory.md)  
 [Montageverwaltung](assembly-assemble-items.md)    

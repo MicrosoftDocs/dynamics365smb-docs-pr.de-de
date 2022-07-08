@@ -7,12 +7,12 @@ ms.workload: na
 ms.search.keywords: reject, delegate, request
 ms.date: 09/28/2021
 ms.author: edupont
-ms.openlocfilehash: b97b4fb9c09c646a69c78747079e7fde3fdae7dc
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 46c81fa887af70e7a2f516df38ec003392b1dabd
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517654"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9079350"
 ---
 # <a name="use-approval-workflows"></a>Artikelgenehmigungsworkflow verwenden
 
@@ -83,7 +83,9 @@ Die Funktion **Fällige Genehmigungsbenachrichtigungen senden** ermittelt alle o
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Überfällige Genehmigungsanfragen** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie auf der Seite **Überfällige Genehmigungsanfragen** die Aktion **Überfällige Genehmigungsbenachrichtigungen senden** aus.
 
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/use-approval-workflows/)
+
+## <a name="see-also"></a>Siehe auch
 
 [Genehmigungsbenutzer einrichten](across-how-to-set-up-approval-users.md)  
 [Verkauf](sales-manage-sales.md)  

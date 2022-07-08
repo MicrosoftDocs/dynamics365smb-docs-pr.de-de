@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 7368, 7369, 7370, 7371, 7372, 7373
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 4e41f61156dbc7248cc9cb1a99ca2b5c790ee036
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 8b64a0314f4880ed9bc5a6c10a37c8747e4aa561
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518601"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077762"
 ---
 # <a name="create-bins"></a>Lagerplätze erstellen
 
@@ -76,12 +76,14 @@ Um mit der **Lagerplatz Erst.-Arbeitsblatt**-Seite zu arbeiten, müssen Sie als 
 
 Wiederholen Sie diesen Vorgang für die nächste Serie von Lagerplätzen, bis Sie alle Lagerplätze in Ihrem Lager erstellt haben.  
 
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/create-new-bins/)
+
 ## <a name="see-also"></a>Siehe auch
 
 [Logistik](warehouse-manage-warehouse.md)  
-[Lagerbestand](inventory-manage-inventory.md)  
-[Lagerortverwaltung einrichten](warehouse-setup-warehouse.md)     
-[Montageverwaltung](assembly-assemble-items.md)    
+[Bestand](inventory-manage-inventory.md)  
+[Einrichten von Warehouse Management](warehouse-setup-warehouse.md)  
+[Montageverwaltung](assembly-assemble-items.md)  
 [Designdetails: Warehouse Management](design-details-warehouse-management.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

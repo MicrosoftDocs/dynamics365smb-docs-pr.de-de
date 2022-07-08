@@ -10,12 +10,12 @@ ms.search.keywords: client, customer, credit
 ms.search.form: 7, 21, 22, 33, 42, 43, 367, 368, 369, 461, 512, 785, 1330, 1380, 1381, 1382, 1627, 2107, 7177, 9080, 9081, 9084, 9301, 9305
 ms.date: 09/24/2021
 ms.author: edupont
-ms.openlocfilehash: e0bd4ae513428cb951e4b8cc23fe46b91dd1f683
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 80544cf5d3e2f9e55fcf22037c7d44df98f22635
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520126"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076877"
 ---
 # <a name="register-new-customers"></a>Neue Debitoren registrieren
 
@@ -26,6 +26,7 @@ Bevor Sie neue Debitoren erfassen können, müssen Sie verschiedene Verkaufscode
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3PZsM]
 
 ## <a name="adding-new-customers"></a>Hinzufügen neuer Kunden
+
 Sie können neue Debitoren manuell hinzufügen, indem Sie die Felder auf der Seite **Kundenkarte** ausfüllen, oder Sie können Vorlagen verwenden, die vordefinierte Informationen enthalten. Sie können zum Beispiel Vorlagen für verschiedene Arten von Kundenprofilen erstellen. Die Verwendung von Vorlagen spart Zeit beim Hinzufügen neuer Kunden und hilft sicherzustellen, dass die Informationen jedes Mal korrekt sind. Wenn Sie Vorlagen für mehr als eine Art von Kunden erstellen, können Sie die Vorlage auswählen, die Sie beim Hinzufügen eines Kunden verwenden möchten. Wenn Sie nur eine Vorlage erstellen, wird diese für alle neuen Kunden verwendet. Nachdem Sie eine Vorlage erstellt haben, können Sie die Aktion **Vorlage anwenden** verwenden, um sie auf einen oder mehrere ausgewählte Kunden anzuwenden. Um eine Vorlage zu erstellen, geben Sie auf der Seite Kundenkarte die Informationen ein, die Sie wiederverwenden möchten, und speichern sie dann als Vorlage. Weitere Informationen finden Sie unter [Speichern der Kundenkarte als Vorlage](sales-how-register-new-customers.md#to-save-the-customer-card-as-a-template)
 
 > [!TIP]
@@ -79,6 +80,8 @@ Sie können festlegen, dass keine Warnungen angezeigt werden, die darauf hinweis
     |**Kreditlimit**|Der Wert im Feld **Kreditlimit** der Debitorenkarte wird mit dem Saldo des Debitors verglichen, und eine Warnung wird angezeigt, falls der Saldo des Debitors diesen Betrag übersteigt.|
     |**Fälliger Saldo**|Das Feld **Fälliger Saldo** auf der Debitorenkarte wird geprüft, und eine Warnung wird angezeigt, wenn sich der Debitor im Zahlungsrückstand befindet.|
     |**Keine Warnung**|Keine Warnungen werden über den Status des Debitors angezeigt.|
+
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/trade-master-data-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Siehe auch
 

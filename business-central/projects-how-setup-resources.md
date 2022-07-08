@@ -10,12 +10,12 @@ ms.search.keywords: project management, capacity, staff
 ms.search.form: 72, 76, 77, 203, 204
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 65f656dac8ec1588872b8a9458da7a8ffdcaf857
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 1447627f14d08e1e432d613298f4b29592864d4d
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520890"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078934"
 ---
 # <a name="set-up-resources-for-projects"></a>Ressourcen für Projekte einrichten
 
@@ -32,6 +32,7 @@ Der standardmäßige Betrag pro Stunde wird bei der Ressourcenerstellung angegeb
 > Wenn Sie Intercompany-Transaktionen buchen, können Sie zwar eine Ressource in eine Position eines Verkaufsauftrags schreiben, aber wenn Sie den Verkaufsauftrag auf der Empfängerseite in eine Bestellung umwandeln, wird die Ressource nicht eingeschlossen. Um Ressourcen in Intercompany-Transaktionen zu verwenden, verwenden Sie die **IC Einkauf. Sachkonto Nein.** Feld auf der Ressourcenkarte, um das Konto anzugeben, auf das die Ausgaben gebucht werden sollen.
 
 ## <a name="to-set-up-a-resource"></a>So richten Sie eine Ressource ein
+
 Erstellen Sie für jede Ressource eine Karte,die Sie in " Projekte verwenden möchten.
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Ressourcen** ein und wählen Sie dann den zugehörigen Link.
@@ -39,6 +40,7 @@ Erstellen Sie für jede Ressource eine Karte,die Sie in " Projekte verwenden mö
 3. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-set-up-a-resource-group"></a>Eine Ressourcengruppe einrichten
+
 Mehrere Ressourcen können in einer Ressourcengruppe zusammengefasst werden. Alle Kapazitäten und Budgets der einzelnen Ressourcen werden für die Ressourcengruppe aufsummiert. Es ist ebenfalls möglich, Kapazitäten unabhängig von den summierten Werten oder zusätzlich einzugeben.
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Ressourcengruppen** ein und wählen Sie dann den zugehörigen Link.
@@ -46,6 +48,7 @@ Mehrere Ressourcen können in einer Ressourcengruppe zusammengefasst werden. All
 3. Füllen Sie die Felder je nach Bedarf aus.
 
 ## <a name="to-set-capacity-for-a-resource"></a>So legen Sie die Kapazität für eine Ressource fest
+
 Um zu berechnen wie viel Zeit eine Ressource in Projekten verbringen kann, muss deren Kapazität zuerst als verfügbare Zeit pro Periode im Arbeitskalender eingerichtet werden. Diese Einstellungen werden verwendet, wenn Sie Projektplanungszeilen ausfüllen, die die Ressource enthalten. Weitere Informationen finden Sie unter  [Projekte erstellen](projects-how-create-jobs.md).
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Ressourcen** ein und wählen Sie dann den zugehörigen Link.
@@ -58,6 +61,7 @@ Um zu berechnen wie viel Zeit eine Ressource in Projekten verbringen kann, muss 
 8. Schließen Sie die Seite.
 
 ## <a name="to-set-up-alternate-resource-costs"></a>Um alternative Ressourcenkosten einzurichten:
+
 Zusätzlich zu den Kosten, die in der Ressourcenkarte angegeben werden, können Sie auch alternative Kosten für jede Ressource einrichten. Wenn z. B. ein Mitarbeiter einen anderen Stundensatz für Überstunden hat, können Sie für diesen Arbeitstyp einen Einstandspreis einrichten. Die alternativen Kosten, die Sie für die Ressource einrichten, übersteuert den Einstandspreis auf der Ressourcenkarte, wenn Sie die Ressource im Ressourcen Buch.-Blatt buchen.
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Ressourcen** ein und wählen Sie dann den zugehörigen Link.  
@@ -68,6 +72,7 @@ Zusätzlich zu den Kosten, die in der Ressourcenkarte angegeben werden, können 
 **Hinweis**. Wenn Sie einen Ressourcen-EK-Preis einrichten möchten, der für alle Ressourcen und Ressourcengruppen gültig ist, öffnen Sie die Seite **Ressourcen Einst.-Pr.**, und füllen Sie die Felder aus.
 
 ## <a name="to-set-up-alternate-resource-prices"></a>Um alternative Ressourcenkosten einzurichten:
+
 Zusätzlich zu den Kosten, die in der Ressourcenkarte angegeben werden, können Sie auch alternative Kosten für jede Ressource einrichten. Diese alternativen Preise können von Bedingungen abhängig sein. D. h. sie können davon abhängen, ob diese Ressource in einem bestimmten Projekt oder für einen bestimmten Arbeitstyp verwendet wird.
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Ressourcen** ein und wählen Sie dann den zugehörigen Link.
@@ -75,12 +80,15 @@ Zusätzlich zu den Kosten, die in der Ressourcenkarte angegeben werden, können 
 3. Füllen Sie auf der Seite **Ressourcenpreise** die Felder auf einer Zeile nach Bedarf aus.
 4. Wiederholen Sie Schritt 3 für jeden alternativen Ressourcenpreis, den Sie einrichten möchten.
 
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/paths/set-up-jobs-resources/)
+
 ## <a name="see-also"></a>Siehe auch
-[Projektmanagement einrichten](projects-setup-projects.md)  
+
+[Einrichten des Projektmanagements](projects-setup-projects.md)  
 [Projektmanagement](projects-manage-projects.md)  
 [Finanzen](finance.md)  
-[Einkauf](purchasing-manage-purchasing.md)         
-[Verkauf](sales-manage-sales.md)      
+[Einkauf](purchasing-manage-purchasing.md)  
+[Verkauf](sales-manage-sales.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

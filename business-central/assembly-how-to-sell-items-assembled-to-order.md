@@ -10,14 +10,15 @@ ms.search.keywords: kit, kitting, substitute items
 ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
 ms.date: 07/29/2021
 ms.author: edupont
-ms.openlocfilehash: 9860ebc2ce7260f450dbda928ee6339c0560e0a7
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: b66efde55918886132def51ad898fa9e89054c02
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521124"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077345"
 ---
 # <a name="sell-items-assembled-to-order"></a>Verkaufen von Auftragsmontageartikeln
+
 Wenn das Feld **Montagerichtlinie** auf der Artikelkarte eines Montageartikels **Auftragsmontage** anzeigt, wird nicht erwartet, dass der Artikel im Lagerbestand vorhanden ist, und er muss speziell für einen Verkaufsauftrag montiert werden. Wenn Sie den Artikel auf einer Verkaufsauftragszeile eingeben, wird ein Montageauftrag automatisch erstellt und mit dem Verkaufsauftrag verknüpft.  
 
 > [!NOTE]  
@@ -28,7 +29,8 @@ Bei diesem Verfahren verarbeiten Sie den verkauf eines Artikels, der gemäß den
 > [!NOTE]  
 >  Die folgende Vorgehensweise enthält nicht die Standard-Verkaufsauftragsschritte vor dem Schritt, in dem Sie den Auftragsmontageartikel in eine Verkaufsauftragszeile eingeben.  
 
-## <a name="to-sell-an-item-that-is-assembled-to-order"></a>So verkaufen Sie einen Auftragsmontageartikel:  
+## <a name="to-sell-an-item-that-is-assembled-to-order"></a>So verkaufen Sie einen Auftragsmontageartikel:
+
 1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Verkaufsaufträge** ein, und wählen Sie dann den zugehörigen Link.  
 2.  Erstellen Sie einen Auftrag. Weitere Informationen finden Sie unter [Produkte verkaufen](sales-how-sell-products.md)  
 3.  Geben Sie im Feld **Nr.** Geben Sie im Feld Nr. einen Artikel ein, der als Auftragsmontageartikel eingerichtet ist.  
@@ -52,7 +54,7 @@ Bei diesem Verfahren verarbeiten Sie den verkauf eines Artikels, der gemäß den
     >   
     >  Im Kopfbereich von verknüpften Montageaufträgen kann nur das Feld **Startdatum** geändert werden, um Montagearbeitern bei Beginn des Prozesses zu ermöglichen, ein Datum anzugeben, das vor dem Fälligkeitsdatum liegt. Alle Felder auf den Zeilen des verknüpften Montageauftrags können geändert werden, so dass die Lagermitarbeiter während des Prozesses Verbrauchsdaten eingeben können.  
 
-8.  Prüfen Sie Komponentenverfügbarkeitsprobleme und reagieren Sie darauf. Wählen Sie beispielsweise einen verfügbaren Ersatzartikel, oder richten Sie ein späteres Fälligkeitsdatum ein.  
+8.  Prüfen Sie Komponentenverfügbarkeitsprobleme und reagieren Sie darauf. Wählen Sie zum Beispiel einen verfügbaren Ersatzartikel.  
 9. Schließen Sie die Seite **Auftragsmontagezeilen**. Der verknüpfte Montageauftrag ist jetzt bereit damit zu beginnen, die angepassten Komponenten nach Fälligkeitsdatum zu montieren.  
 10. Wählen Sie im Verkaufsauftrag die Aktion **Freigeben**, um die Montageabteilung zu benachrichtigen, dass der Montagevorgang begonnen werden kann.  
 11. Führen Sie in der Montageabteilung die Schritte zur Montage der Artikel aus, die in diesem Prozess verkauft werden. Weitere Informationen finden Sie unter [Entnahme von Artikeln](assembly-how-to-assemble-items.md).  
@@ -60,9 +62,12 @@ Bei diesem Verfahren verarbeiten Sie den verkauf eines Artikels, der gemäß den
 > [!NOTE]  
 > Beachten Sie, dass Artikelersetzungen nicht automatisch dazu führen, dass ein Artikel durch einen anderen Artikel ersetzt wird, beispielsweise beim Erstellen eines Verkaufsauftrags oder in einer Stückliste. Stattdessen werden Sie darüber benachrichtigt, dass Ihnen ein Ersatzartikel zur Verfügung steht.
 
-## <a name="see-also"></a>Weitere Informationen  
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/assemble-to-order-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Siehe auch
+
 [Montageverwaltung](assembly-assemble-items.md)  
-[Mit Fertigungsstücklisten arbeiten](inventory-how-work-BOMs.md)  
+[Arbeiten mit Stücklisten](inventory-how-work-BOMs.md)  
 [Bestand](inventory-manage-inventory.md)  
 [Designdetails: Warehouse Management](design-details-warehouse-management.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 1102, 1105, 1106, 1107, 1109, 1114
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 11d979329860d72476a6c2ae2ad6fcf57bd2485e
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 78dd79ab8a0f2b966b60dd9d75e95a521b83f4a2
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8149127"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075551"
 ---
 # <a name="defining-and-allocating-costs"></a>Definieren und Zuweisen von Kosten
 
@@ -143,12 +143,14 @@ Dieses Thema zeigt ein Beispiel für das Definieren von Zuordnungen mithilfe der
 > [!IMPORTANT]  
 > [!INCLUDE[prod_short](includes/prod_short.md)] verwendet die Verkaufszahlen der Vorjahre, um einen Anteil von 1596,50 MW mit 100 Prozent für die COMPUTERAUSSTATTUNG-Pakete zu berechnen. Das bedeutet, dass alle Artikel, die letztes Jahr verkauft wurden, dem Kostenträger COMPUTERAUSSTATTUNG zugeordnet werden.
 
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/allocate-costs-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Siehe auch
 
- [Einrichten der Kostenrechnung](finance-set-up-cost-accounting.md)   
- [Übertragung und Buchung von Kostenzuteilungen](finance-transfer-and-post-cost-entries.md)   
- [Kostenrechnung](finance-manage-cost-accounting.md)   
- [Terminologie der Kostenrechnung](finance-terminology-in-cost-accounting.md)   
+ [Einrichten der Kostenrechnung](finance-set-up-cost-accounting.md)  
+ [Übertragen und Buchen von Kalkulationen](finance-transfer-and-post-cost-entries.md)  
+ [Kostenrechnung](finance-manage-cost-accounting.md)  
+ [Terminologie in der Kostenrechnung](finance-terminology-in-cost-accounting.md)  
  [Informationen zur Kostenrechnung](finance-about-cost-accounting.md)
 
 

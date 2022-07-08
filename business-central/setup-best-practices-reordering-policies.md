@@ -9,14 +9,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c67e185ba8994bd20712ca4606df0b5dd7c7682b
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: b71ea56c67df7689a268e633880d16fac616027b
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516562"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077528"
 ---
 # <a name="setup-best-practices-reordering-policies"></a>Bewährte Einrichtungsmethoden: Wiederbeschaffungsverfahren
+
 Das Feld **Nachbestellungs-Richtlinie** auf Artikelkarten umfasst vier verschiedene Planungsmethoden, die bestimmen, wie die einzelnen Planungsparameter interagieren.  
 
 Eine optimale Grundlage für die Auswahl eines Wiederbeschaffungsverfahrens ist die ABC-Klassifizierung des Artikels. Wenn Sie eine ABC-Klassifizierung für die Bestandskontrolle und die Beschaffungsplanung nutzen, werden Artikel abhängig von ihrem Wert und Volumen im Verhältnis zum Gesamtbestand in drei unterschiedlichen Klassen verwaltet. Die Wert-Volumen-Verteilung der drei Klassen wird in der folgenden Tabelle dargestellt.
@@ -40,9 +41,12 @@ Die folgende Tabelle enthält bewährte Methoden für die Auswahl zwischen den v
 |**Feste Bestellmenge**|Verwendung für C-Artikel.<br /><br /> Zusammenfassen mit Minimalbestandparametern.<br /><br /> In der Produktion, Verwendung für Komponenten auf der niedrigsten Ebene.<br /><br /> Nicht verwenden, wenn der Artikel häufig reserviert wird.|C-Artikel wie Teetassen sind geringwertige Artikel mit hoher und regelmäßiger Auftragsgeschwindigkeit. Das beste Wiederbeschaffungsverfahren für C-Artikel ist deshalb eines, das konstante Verfügbarkeit sicherstellt, indem der Bestand immer über dem Minimalbestand liegt.<br /><br /> Wenn der Benutzer eine Menge für beliebigen, in der Zukunft liegenden Bedarf reserviert, wird die Planungsgrundlage gestört. Selbst wenn der voraussichtliche Lagerbestand im Hinblick auf den Minimalbestand akzeptabel ist, stehen die Mengen möglicherweise aufgrund der Reservierung nicht zur Verfügung.|  
 |**Auffüllen auf Maximalbestand**|Verwendung für C-Artikel mit hohen Frachtkosten oder Einschränkungen bei der Lagerhaltung.<br /><br /> Zusammenfassen mit einen oder mehreren Auftragsmodifikationen (minimale/maximale Losgröße oder Losgrößenrundungsfaktor).|C-Artikel wie Teetassen sind geringwertige Artikel mit hoher und regelmäßiger Auftragsgeschwindigkeit. Das beste Wiederbeschaffungsverfahren für C-Artikel ist deshalb eines, das konstante Verfügbarkeit sicherstellt, indem der Bestand immer über dem Minimalbestand, aber unter dem maximalen Lagerbestand liegt.<br /><br /> Um den vorgeschlagenen Auftrag zu ändern, sollten Sie die Bestellmenge auf eine festgelegte maximale Losgröße reduzieren, auf eine minimale Losgröße erhöhen oder aufrunden, werden um einem festgelegten Losgrößenrundungsfaktor zu entsprechen. **Hinweis**: Bei Verwendung mit einem Minimalbestand bleibt der Lagerbestand zwischen dem Minimalbestand und dem Maximalbestand.|  
 
-## <a name="see-also"></a>Siehe auch  
- [Bewährte Einrichtungsmethoden: Beschaffungsplanung](setup-best-practices-supply-planning.md)   
- [Designdetails: Umgang mit Wiederbeschaffungsverfahren](design-details-handling-reordering-policies.md)   
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/paths/replenish-items-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Siehe auch
+
+ [Bewährte Einrichtungsmethoden: Beschaffungsplanung](setup-best-practices-supply-planning.md)  
+ [Designdetails: Umgang mit Wiederbeschaffungsverfahren](design-details-handling-reordering-policies.md)  
  [Richten Sie komplexe Anwendungsbereiche mithilfe bewährter Methoden ein](set-up-complex-application-areas-using-best-practices.md)  
  [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

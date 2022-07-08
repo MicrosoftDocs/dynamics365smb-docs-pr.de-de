@@ -6,12 +6,12 @@ ms.topic: get-started
 ms.custom: template-trial-setup
 ms.author: edupont
 ms.date: 05/25/2022
-ms.openlocfilehash: b832a72484c5186c2b619ada6278c2f396a6dbec
-ms.sourcegitcommit: 0bb9473a2563211bc0c02ebfd837bba1b2e9ad3f
+ms.openlocfilehash: 71f1e81982b649a12604f4d5fa77db3ddec5d9bf
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "8805178"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077502"
 ---
 # <a name="sign-up-for-a-free-dynamics-365-business-central-trial"></a>Für eine kostenlose Dynamics 365 Business Central-Testversion registrieren
 
@@ -43,9 +43,10 @@ Sie können sich auch an das [[!INCLUDE[prod_short](includes/prod_short.md)] Ver
 
 Weitere Informationen zur Verwendung von [!INCLUDE [prod_short](includes/prod_short.md)] finden Sie unter [Einrichten des Geschäftsbetriebs](ui-get-ready-business.md) und [Geschäftsfunktionen](across-business-functionality.md).  
 
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/trial-dynamics-365-business-central/)
+
 ## <a name="additional-resources"></a>Zusätzliche Ressourcen
 
-- [Schulungen unter Microsoft Learn erkunden](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 - [Besuchen Sie unsere Videobibliothek](across-videos.md)  
 - [Häufig gestellte Fragen zur Testversion](trial-faq.md)  
 - [Problembehandlungs-Selbstbedienungs-Registrierung](ui-troubleshoot-self-signup.md)  

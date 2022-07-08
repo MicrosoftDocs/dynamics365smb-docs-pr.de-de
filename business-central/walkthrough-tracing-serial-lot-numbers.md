@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: bholtorf
-ms.openlocfilehash: 611a182a7f2b2202dd03e709da22183f762fe351
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: b7e2ae55e231cdadf02a0a8e91f6d3ad066a0cb5
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382819"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075224"
 ---
 # <a name="walkthrough-tracing-seriallot-numbers"></a>Exemplarische Vorgehensweise: Verfolgung von Serien-/Chargennummern
 
@@ -189,7 +189,8 @@ Anschließend müssen Sie erstellen mit den beiden Artikeln verschiedene Einkauf
 
     Als Nächstes verkaufen Sie Rennräder. Verkaufen Sie zuerst das Rennrad mit SN1 an Selangorian Ltd.  
 
-### <a name="to-sell-the-end-items"></a>Um die Endartikel zu verkaufen  
+### <a name="to-sell-the-end-items"></a>Um die Endartikel zu verkaufen
+
 1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Verkaufsaufträge** ein, und wählen Sie dann den zugehörigen Link.  
 2.  Wählen Sie die Aktion **Neu** aus, und dann erstellen Sie einen Verkaufsauftrag, indem Sie die folgenden Felder ausfüllen.  
 
@@ -228,10 +229,12 @@ Anschließend müssen Sie erstellen mit den beiden Artikeln verschiedene Einkauf
 
     Damit ist die Vorbereitung der Daten zur Demonstration der Funktionen „Artikelablaufverfolgung“ und „Posten suchen“ abgeschlossen.  
 
-## <a name="tracing-from-usage-to-origin"></a>Verfolgung vom Verbrauch zum Ursprung  
+## <a name="tracing-from-usage-to-origin"></a>Verfolgung vom Verbrauch zum Ursprung
+
  Von der Verkaufsabteilung weiß der Qualitätskontrolleur, dass das reklamierte Rennrad, Artikel 1002, die Seriennummer SN1 besitzt. Anhand dieser Basisinformation kann er feststellen, wo das fertige Rennrad zuletzt verwendet wurde, in diesem Fall in der Verkaufslieferung an die Blütenhaus GmbH. Anschließend muss der Qualitätskontrolleur das Rennrad zum frühesten Ursprung zurückverfolgen, um festzustellen, aus welcher Charge und von welchem Kreditor der fehlerhafte Rennradrahmen stammt.  
 
-### <a name="to-determine-which-lot-included-the-faulty-frame-and-who-supplied-it"></a>So stellen Sie fest, aus welcher Charge und von welchem Lieferanten der fehlerhafte Rahmen stammt  
+### <a name="to-determine-which-lot-included-the-faulty-frame-and-who-supplied-it"></a>So stellen Sie fest, aus welcher Charge und von welchem Lieferanten der fehlerhafte Rahmen stammt
+
 1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Artikelablaufverfolgung** ein und wählen Sie dann den entsprechenden Link.  
 2.  Geben Sie auf der Seite **Artikelablaufverfolgung** **SN1** in das Feld **Seriennr** ein, und geben Sie dann **1002** in das Feld **Artikelfilter** ein.  
 3.  Übernehmen Sie die Standardeinstellung **Nur mit Artikelverfolgung** im Feld K **omponenten anzeigen** und die Standardverfolgungsmethode **Verbrauch - Ursprung** im Feld **Nachverfolgungsmethode**  
@@ -257,7 +260,8 @@ Anschließend müssen Sie erstellen mit den beiden Artikeln verschiedene Einkauf
 
      Damit ist die erste Aufgabe der Defektverwaltung auf der Seite **Artikelablaufverfolgung** abgeschlossen. Der Qualitätskontrolleur muss nun feststellen, ob in anderen gebuchten Belegen Rennradrahmen aus CHARGE1 verwendet wurden.  
 
-## <a name="tracing-from-origin-to-usage"></a>Verfolgung vom Verbrauch zum Ursprung  
+## <a name="tracing-from-origin-to-usage"></a>Verfolgung vom Verbrauch zum Ursprung
+
  Der Qualitätskontrolleur hat festgestellt, dass die fehlerhaften Rennradrahmen aus CHARGE1 stammen. Er muss jetzt alle anderen Rennräder ermitteln, die Rahmen aus der fehlerhaften Charge enthalten, damit Aufträge für diese Räder gestoppt oder zurückgerufen werden können.  
 
  Zum Vorbereiten dieser Aufgabe können Sie auf der Seite **Artikelnachverfolgung** Feld **Lot-Nr.Filter** manuell CHARGE1 und im Feld **Artikelfilter** 2000 eingeben. In dieser exemplarischen Vorgehensweise wird jedoch die Funktion **Umgekehrte Nachverfolgung - zeilenbasiert** verwendet.  
@@ -280,7 +284,8 @@ Anschließend müssen Sie erstellen mit den beiden Artikeln verschiedene Einkauf
 
     Damit ist die zweite Aufgabe der Defektverwaltung auf der Seite für **Artikelnachverfolgung** abgeschlossen. Da die Seite **Artikelablaufverfolgung** nur auf gebuchten Posten basiert, muss der Qualitätscontroller zur Seite **Posten suchen** wechseln, um sicherzustellen, dass CHARGE1 nicht in nicht-gebuchten Belegen verwendet wird.  
 
-## <a name="finding-all-records-of-a-seriallot-number"></a>Alle Datensätze einer Serien-/Chargennummer finden  
+## <a name="finding-all-records-of-a-seriallot-number"></a>Alle Datensätze einer Serien-/Chargennummer finden
+
  Aus der Seite **Artikelnachverfolgung** erfuhr der Qualitätskontrolleur, dass CHARGE1 die fehlerhaften Rennradrahmen enthielt, von welchem Kreditor sie stammen, und in welcher gebuchten Transaktion sie verwendet wurden. Er muss nun feststellen, ob CHARGE1 in irgendwelchen offenen Belegen enthalten ist, indem er eine Integration aus den Ablaufverfolgungsergebnissen auf die Seite **Posten suchen** durchführt, wo er eine Suche durch alle Datenbankdatensätze durchführen kann.  
 
 ### <a name="to-find-all-occurrences-of-lot1-in-non-posted-records-such-as-open-orders"></a>So suchen Sie nach allen Vorkommen von CHARGE1 in nicht gebuchten Datensätzen (z. B. offenen Aufträgen)  
@@ -298,12 +303,14 @@ Anschließend müssen Sie erstellen mit den beiden Artikeln verschiedene Einkauf
 
  Damit ist die exemplarische Vorgehensweise zur Verwendung der Seite **Posten suchen** zur Defektverwaltung in Integration mit der Seite **Artikelablaufverfolgung** abgeschlossen.  
 
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/paths/use-serial-lot-numbers/)
+
 ## <a name="see-also"></a>Siehe auch
+
 [Arbeiten mit Chargennummern und Seriennummern](inventory-how-work-item-tracking.md)  
 [Verfolgen von Artikeln mit Artikelverfolgung](inventory-how-to-trace-item-tracked-items.md)  
 [Posten finden](ui-find-entries.md)  
 [Exemplarische Vorgehensweisen für Geschäftsprozesse](walkthrough-business-process-walkthroughs.md)  
-
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -10,12 +10,12 @@ ms.search.keywords: write down
 ms.search.form: 5629, 5633
 ms.date: 07/05/2021
 ms.author: edupont
-ms.openlocfilehash: 337900111388e086e27a2d388843d4e1ab052eb6
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: ec81b14510d89729f7c51f95a3907db38e3876ea
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518233"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075941"
 ---
 # <a name="depreciation-methods-for-fixed-assets"></a>Abschreibungsmethoden für Anlagen
 
@@ -300,12 +300,14 @@ Wenn Sie einen Posten in B1 im Anlagen-Fibu Buch.-Blatt erstellen und dann ein H
 > [!NOTE]  
 > Es ist nicht möglich, im Anlagen Fibu Buch.-Blatt und im Anlagen Buch-Blatt dieselbe Nummernserie zu verwenden. Wenn Sie im Anlagen Fibu Buch.-Blatt Posten buchen, müssen Sie das Feld **Belegnr.** leer lasssen. Wenn Sie in das Feld eine Nummer eingeben, wird die Nummer im Anlagen Buch.-Blatt dupliziert. Sie müssen die Belegnummer manuell ändern, bevor Sie das Buch.-Blatt buchen können.  
 
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/configure-depreciation-books/)
+
 ## <a name="see-also"></a>Siehe auch
 
 [Anlagen](fa-manage.md)  
 [Einrichten von Anlagen](fa-setup.md)  
 [Finanzen](finance.md)  
-[Vorbereiten auf die Geschäftsabwicklung](ui-get-ready-business.md)  
+[Bereitschaft für die Geschäftsabwicklung](ui-get-ready-business.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 8f938adf6a7629c4f9aedde32c4f8f10cb6f20e6
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 0594134585fe85540c7ed87e1588fd218b7a561a
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8513393"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074458"
 ---
 # <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations"></a>Exemplarische Vorgehensweise: Kommissionierung und Lieferung in Basis-Lagerkonfigurationen
 
@@ -67,6 +67,7 @@ Ellen, die Lagermanagerin bei CRONUS, richtet das SÜD-Lager für grundlegende K
 [!INCLUDE[set_up_location.md](includes/set_up_location.md)]
 
 ### <a name="setting-up-the-bin-codes"></a>Einrichten der Lagerplatzcodes
+
 Nachdem Sie den Standort eingerichtet haben, müssen Sie zwei Lagerplätze hinzufügen.
 
 #### <a name="to-setup-the-bin-codes"></a>So richten Sie die Lagerplatzcodes ein
@@ -142,6 +143,8 @@ Auf der Seite **Lagerkommissionierung** können Sie alle ausgehenden Lageraktivi
 6. Wählen Sie die Aktion **Buchen** und **Versand** und klicken Sie anschließend auf die Schaltfläche **OK**.  
 
     Die 30 Lautsprecher werden nun erfasst, wie von den Lagerplätzen S-01-0001 und S-01-0002 kommissioniert, und es wird ein negativer Artikelposten erstellt, der gebuchte Verkaufslieferung anzeigt.  
+
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/paths/pick-ship-items-business-central/)
 
 ## <a name="see-also"></a>Siehe auch
 

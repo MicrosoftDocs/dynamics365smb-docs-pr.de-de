@@ -9,14 +9,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5d46916a96a55cf71c6b018fc66b4165c742b632
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 730308e265f7a3fef3ad4a8069ea3f5c6bf0a7d2
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518575"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078388"
 ---
 # <a name="pick-items-for-warehouse-shipment"></a>Um Artikel für den Warenausgang zu kommissionieren
+
 Wenn Ihr Lagerort so eingerichtet wurde, dass die Bearbeitung der Kommissionierung und des Warenausgangs erforderlich ist, verwenden Sie die Kommissionierbelege, um Kommissionierinformationen vor dem Buchen des Warenausgangs zu erstellen und zu bearbeiten.  
 
 Sie können einen Kommissionierungsbeleg nicht von Grund auf neu erstellen, da eine Kommissionierungsaktivität immer Teil eines Workflows ist, entweder in einem Abruf- oder Push-Szenario.  
@@ -36,7 +37,8 @@ Sie können Kommissionierungsbelege auch Push-artig im Fenster **Warenausgang** 
 >   
 >  Allgemeine Informationen über das Kommissionieren von Komponenten für Montageaufträge, einschließlich von Situationen, in denen der Montageartikel nicht mit einer Verkaufslieferung fällig ist, finden Sie unter [Vorgehensweise: Kommissionierung für die Produktion oder Montage](warehouse-how-to-pick-for-production.md).  
 
-## <a name="to-pick-items-for-warehouse-shipment"></a>Um Artikel für den Warenausgang zu kommissionieren  
+## <a name="to-pick-items-for-warehouse-shipment"></a>Um Artikel für den Warenausgang zu kommissionieren
+
 1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Kommissionierungen** ein und wählen Sie dann den zugehörigen Link.  
 
     Wenn Sie an einer bestimmten Kommissionierung arbeiten möchten, wählen Sie die Kommissionierung in der Liste aus, oder filtern Sie die Liste, um die Kommissionierungen zu finden, die speziell Ihnen zugeordnet wurden. Öffnen Sie die Kommissionierungskarte.  
@@ -54,6 +56,7 @@ Die für Lieferung verantwortliche Person kann die Artikel in den Warenausgang b
 Zusätzlich zur Kommissionierung für Herkunftsbelege, die in diesem Thema beschrieben wird, können Sie Artikel ohne Bezug zu Herkunftsbelegen an Lagerorten entnehmen und einlagern. Weitere Informationen finden Sie unter [Kommissionieren und Einlagern ohne Herkunftsbeleg](warehouse-how-to-create-put-aways-from-internal-put-aways.md).  
 
 ## <a name="handling-assemble-to-order-items-in-warehouse-shipments"></a>Verwenden von Auftragsmontageartikeln in Warenausgängen
+
 In den Auftragsmontageszenarien wird das Feld **Zu liefern** in Warenausgangszeilen verwendet, um zu erfassen, wie viele Einheiten montiert werden. Die angegebene Menge wird dann als Montageausstoß gebucht, wenn der Warenausgang gebucht wird.
 
 Für andere Warenausgangszeilen ist der Wert im Feld **Zu liefern** von Anfang an Null.
@@ -72,10 +75,13 @@ Nachdem der Warenausgang gebucht ist, werden verschiedene Felder in der Verkaufs
 
 > In diesem Fall wird die Auftragsmontagemenge wie in diesem Thema beschrieben behandelt, und die Lagermenge wird wie jede andere reguläre Warenausgangszeile verarbeitet. Weitere Informationen finden Sie im Abschnitt "Kombinationsszenarien" in [Auftragsmontage und Lagermontage verstehen](assembly-assemble-to-order-or-assemble-to-stock.md).
 
-## <a name="see-also"></a>Siehe auch  
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/pick-ship-items-warehouse/)
+
+## <a name="see-also"></a>Siehe auch
+
 [Logistik](warehouse-manage-warehouse.md)  
-[Lagerbestand](inventory-manage-inventory.md)  
-[Lagerortverwaltung einrichten](warehouse-setup-warehouse.md)     
+[Bestand](inventory-manage-inventory.md)  
+[Warehouse Management einrichten](warehouse-setup-warehouse.md)     
 [Montageverwaltung](assembly-assemble-items.md)    
 [Designdetails: Warehouse Management](design-details-warehouse-management.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

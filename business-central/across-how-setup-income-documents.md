@@ -1,47 +1,45 @@
 ---
-title: Einrichten von eingehenden Belegen| Microsoft Docs
-description: Verwenden Sie die Funktion der eingehenden Belege, um elektronische Belege zu erstellen, verwalten Sie OCRaufgaben, importieren Sie Rechnungen und wandeln Sie Bilddateien um.
+title: Einrichten von eingehenden Belegen
+description: Richten Sie die Funktion Eingehende Belege ein, um elektronische Belege zu erstellen, OCR-Aufgaben zu verwalten, Rechnungen zu importieren und Bilddateien zu konvertieren.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 04/01/2021
+ms.date: 06/14/2022
 ms.author: edupont
-ms.openlocfilehash: efad73622be6b4495974a7df02dac47c71814622
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: b26e2871eb4685df8e6e276a32b15f53bc0a2c85
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8515167"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9079376"
 ---
 # <a name="set-up-incoming-documents"></a>Einrichten von eingehenden Belegen
 
 Wenn Sie Fibu Buch.-Blattzeilen für eingehende Belege erstellen, müssen Sie auf der Seite **Einrichtung für eingehende Belege** angeben, welche Buch.-Blattvorlage und welches Buch.-Blatt verwendet werden sollen.
 
-Wenn Sie möchten, dass Benutzer Rechnungen oder Journalzeilen anhand von Eingangsbelegen nur dann erstellen können, wenn diese genehmigt sind, müssen Sie Workflow-Genehmiger einrichten.
-
-Um PDF und Bilddateien in elektronische Dokumente umzuwandeln, die in Dokumentdatensätze in Project [!INCLUDE[prod_short](includes/prod_short.md)] konvertiert werden, müssen Sie die OCR-Funktion einrichten und den Dienst aktivieren. Wählen Sie ein Servicepaket, das für Ihre Organisation und/oder Ihr Land/Ihre Region geeignet ist. Alternativ können Sie Einträge manuell erstellen, um die externen Dokumente darzustellen.  
-
-Wenn die Funktion für eingehende Belege eingerichtet ist, können Sie verschiedene Funktionen zum Überprüfen von Ausgabenbelegen, Verwalten von OCR-Aufgaben und Konvertieren von eingehenden Belegen, manuell oder automatisch, in den entsprechenden Belegen oder Buch.-Blattzeilen verwenden. Die externen Dateien können jeder Prozessphase zugeordnet werden, auch gebuchten Belegen und den resultierenden Kreditoren-, Debitoren- und Sachposten. Weitere Informationen finden Sie unter [Eingehende Belege verarbeiten](across-process-income-documents.md).
+Wenn die Funktion **Eingehende Belege** festgelegt ist, können Sie verschiedene Funktionen verwenden, um Spesenbelege zu prüfen, OCR-Aufgaben zu verwalten und eingehende Dokumentdateien manuell oder automatisch in die entsprechenden Dokumente oder Buchungsblattzeilen umzuwandeln. Die externen Dateien können in jeder Prozessphase angehängt werden, auch an gebuchte Belege und an die daraus resultierenden Kreditoren-, Kunden- und Hauptbuchhaltungsposten. Weitere Informationen finden Sie unter [Erstellen von Datensätzen für eingehende Belege](across-how-create-income-document-records.md).
 
 ## <a name="to-set-up-the-incoming-documents-feature"></a>So richten Sie die Funktion für eingehende Belege ein
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Einrichtung für eingehende Belege** ein und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie das Symbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Einrichtung für eingehende Belege** ein und wählen Sie dann den zugehörigen Link.
 2. Füllen Sie die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-Im Rahmen der Einrichtung müssen Sie entscheiden, ob Sie die Genehmigung eingehender Belege benötigen. Um eine Genehmigung anzufordern, müssen Sie Genehmiger und Genehmigungsworkflows einrichten. Wenn Ihre Organisation nicht beabsichtigt, eine Genehmigung anzufordern, können Sie den nächsten Abschnitt überspringen.  
+Im Rahmen der Einrichtung müssen Sie entscheiden, ob Sie die Genehmigung eingehender Belege benötigen. Um eine Genehmigung zu verlangen, müssen Sie [Genehmiger und Genehmigungs-Workflows festlegen](#to-set-up-approvers-of-incoming-document-records). Wenn Ihr Unternehmen nicht beabsichtigt, eine Genehmigung zu verlangen, können Sie den nächsten Abschnitt überspringen.
 
-Schließlich müssen Sie, wenn Sie einen Dienst zur Konvertierung von PDF- oder Bilddateien verwenden, die eingehende Belege darstellen, diesen einrichten. Andernfalls können Sie diesen Abschnitt auch überspringen.  
+Wenn Sie schließlich einen OCR-Dienst zur Konvertierung von PDF- oder Bilddateien verwenden, die eingehende Dokumente darstellen, [müssen Sie ihn festlegen](#to-set-up-an-ocr-service). Andernfalls können Sie diesen Abschnitt auch überspringen.
 
 ## <a name="to-set-up-approvers-of-incoming-document-records"></a>So richten Sie Genehmiger für eingehende Belege ein
 
-Richten Sie optional einen Genehmigungsprozess für die eingehenden Dokumente ein. Genehmiger von eingehenden Belegen müssen als Genehmigungsworkflow-Benutzer eingerichtet werden.
+Wenn Sie nicht möchten, dass Benutzer Rechnungen oder Allgemeine Buchungsblattzeilen aus eingehenden Datensätzen erstellen, ohne dass die Dokumente zuvor genehmigt wurden, legen Sie einen Genehmigungsprozess für die eingehenden Dokumente fest. Genehmiger von eingehenden Belegen müssen als Genehmigungsworkflow-Benutzer eingerichtet werden.
 
 Bevor Sie Workflows erstellen können, die Genehmigungsschritte betreffen, müssen Sie die Workflowbenutzer einrichten, die von den Genehmigungsprozessen betroffen sind. Auf der Seite **Genehmigungsbenutzereinrichtung** müssen Sie zusätzlich Grenzbeträge für bestimmte Arten von Anforderungen festlegen und Ersatzgenehmiger definieren, an die Genehmigungsanforderungen delegiert werden, wenn der ursprüngliche Genehmiger abwesend ist. Weitere Informationen finden Sie unter [Einrichten von Genehmigungsbenutzern](across-how-to-set-up-approval-users.md).
 
 ## <a name="to-set-up-an-ocr-service"></a>So richten Sie einen OCR-Service ein
+
+Um PDF- und Bilddateien in elektronische Belege zu verwandeln, die Sie in Rechnungen, Gutschriften oder Buchungsblattzeilen umwandeln können, legen Sie die OCR-Funktion fest. Alternativ können Sie Einträge manuell erstellen, um die externen Dokumente darzustellen.
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **OCR-Dienst Einrichtung** ein und wählen Sie dann den zugehörigen Link.
 2. Füllen Sie die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -51,9 +49,10 @@ Bevor Sie Workflows erstellen können, die Genehmigungsschritte betreffen, müss
 
 Weitere Informationen finden Sie unter [Verwenden von OCR, um PDF und Bilddateien in elektronische Belege umzuwandeln](across-how-use-ocr-pdf-images-files.md).  
 
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/incoming-documents-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Siehe auch
 
-[Eingehende Belege verarbeiten](across-process-income-documents.md)  
 [Eingehende Belege](across-income-documents.md)  
 [Einkauf](purchasing-manage-purchasing.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -10,14 +10,15 @@ ms.search.keywords: project budget, forecast
 ms.search.form: 1002, 1007
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c34a4dd34ab34c7d1a5b02686618ab5f95957cbd
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: bc3d630e232e560987daefaabbe7ea8b5ddc681c
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8513887"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075369"
 ---
 # <a name="manage-job-budgets"></a>Verwalten von Projektbudgets
+
 Jedes Projekt kann mit einem Budget versehen werden. Das Budget dient zum Planen der Ressourcen, die einem Projekt zugeordnet werden. Dabei kann es sich entweder um ein allgemeines Budget mit nur wenigen Posten oder um ein komplexeres Budget mit einer Vielzahl von Posten handeln, die in verschiedene Aktivitätsstufen unterteilt sind. Mithilfe eines Budgets können die geplanten Beträge mit dem tatsächlichen Verbrauch verglichen werden, der im Buch.-Blatt des Projekts erfasst ist. Durch Überwachung des tatsächlichen Verbrauchs im Vergleich zu einem Budget können sie ein laufendes Projekt kontrollieren und bei späteren Projekten zu einer höheren Qualität beitragen, da sich dadurch die Gefahr unterschätzter Kosten verringert.
 
 Nachfolgend wird beschrieben, wie Sie budgetierte Kosten während der Planung schätzen. Informationen zur Erfassung der budgetierten versus aktueller Preise und Kosten im Projekt finden Sie unter [Erfassen des Verbrauchs für Projekte](projects-how-record-job-usage.md)  
@@ -48,11 +49,14 @@ Auf der Seite **Projektkarte** können Sie nun eine Zusammenfassung mit budgetie
 
 Informationen zur Erfassung der budgetierten versus aktueller Preise und Kosten im Projekt finden Sie unter [Erfassen des Verbrauchs für Projekte](projects-how-record-job-usage.md)
 
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/set-up-job-planning-lines/)
+
+## <a name="see-also"></a>Siehe auch
+
 [Projektmanagement](projects-manage-projects.md)  
 [Finanzen](finance.md)  
-[Einkauf](purchasing-manage-purchasing.md)         
-[Verkauf](sales-manage-sales.md)      
+[Einkauf](purchasing-manage-purchasing.md)  
+[Verkauf](sales-manage-sales.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

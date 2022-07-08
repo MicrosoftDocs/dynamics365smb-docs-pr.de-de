@@ -9,14 +9,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d0e7db8e4aeade9865114769c659075971dd3c8d
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 46d00ec083cd749ed9922ab0e046d9a76aaf4390
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518627"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076097"
 ---
 # <a name="pick-for-production-or-assembly-in-advanced-warehouse-configurations"></a>Kommissionierung für Montage oder Produktion in erweiterter Lagerkonfiguration
+
 In der erweiterten Lagerkonfigurationen, in der der Lagerort für Kommissionierung und Lieferung eingerichtet wurde, können Sie Komponenten für Produktions- und Montageaktivitäten auf der Seite **Kommissionierung** kommissionieren.  
 
 Alternativ können Sie die Seite **Lagerplatzumlagerungsarbeitsblatt** verwenden, um die Artikel ohne Bezug zu einem Herkunftsbeleg zwischen Lagerplätzen ad hoc zu verschieben. Weitere Informationen finden Sie unter [Umlagern von Artikeln in erweiterten Lagerkonfigurationen](warehouse-how-to-move-items-in-advanced-warehousing.md).  
@@ -38,7 +39,8 @@ Um Kommissionieranforderungen zu erstellen, müssen für Abruf- und Push-Szenari
 |Fertigungsauftrag|Änderung des Auftragstyps in einen freigegebenen Fertigungsauftrag.|  
 |Montageauftrag|Änderung des Status in "Freigegeben".|  
 
-## <a name="to-pick-components-using-the-pick-worksheet"></a>So kommissionieren Sie Komponenten vom Kommissionierarbeitsblatt aus:  
+## <a name="to-pick-components-using-the-pick-worksheet"></a>So kommissionieren Sie Komponenten vom Kommissionierarbeitsblatt aus:
+
 1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Kommissionierarbeitsblatt** ein, und wählen Sie dann den zugehörigen Link.  
 2.  Wählen Sie die Aktion **Logistikbeleg holen** aus, und wählen Sie anschließend die Komponentenzeilen des freigegebenen Fertigungsauftrags aus.  
 3.  Prüfen Sie die Zeilen, sortieren Sie sie so, dass sie eine effiziente Kommissionierrunde ergeben, und kombinieren Sie sie, falls erforderlich, mit anderen Arbeitsblattzeilen, um die Arbeitszeit der Mitarbeiter bestmöglich zu nutzen.  
@@ -49,15 +51,19 @@ Um Kommissionieranforderungen zu erstellen, müssen für Abruf- und Push-Szenari
 Wenn der interne Vorgangsbereich, wie ein Produktionsfertigungsbereich, mit einem Lagerplatz eingerichtet ist, der für die Lagerung von Komponenten für den Arbeitsgang verwendet wird, dann wird dieser Lagerplatzcode in die Einlagerungszeilen des Kommissionierungsbelegs eingefügt, der Lagermitarbeiter anweist, wo sie die Artikel einlagern sollen. Weitere Informationen finden Sie im Feld **Fert.-Bereitst.-Lagerplatzcode** oder **Mont.-Bereitst.-Lagerplatzcode**.
 
 ## <a name="filling-the-consumption-bin"></a>Auffüllen des Verbrauchslagerplatzes
-Dieses Flow-Diagramm zeigt, wie das Feld **Lagerplatz-Code** auf den Zeilen der Produktionsauftragskomponenten entsprechend der Einrichtung Ihres Lagerorts gefüllt wird.
+
+Dieses Flow-Diagramm zeigt, wie das Feld **Lagerplatzcode** auf den Zeilen der Produktionsauftragskomponenten entsprechend der Einrichtung Ihres Standorts gefüllt wird.
 
 ![Flowdiagramm Lagerplatz.](media/binflow.png "BinFlow")  
 
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/paths/pick-ship-items-business-central/)
+
+## <a name="see-also"></a>Siehe auch
+
 [Logistik](warehouse-manage-warehouse.md)  
-[Lagerbestand](inventory-manage-inventory.md)  
-[Lagerverwaltung einrichten](warehouse-setup-warehouse.md)     
-[Montageverwaltung](assembly-assemble-items.md)    
+[Bestand](inventory-manage-inventory.md)  
+[Einrichten von Warehouse Management](warehouse-setup-warehouse.md)  
+[Montageverwaltung](assembly-assemble-items.md)  
 [Designdetails: Warehouse Management](design-details-warehouse-management.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

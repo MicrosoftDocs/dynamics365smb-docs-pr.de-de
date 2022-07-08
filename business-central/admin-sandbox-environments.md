@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sandbox, demo, develop
 ms.date: 12/20/2021
 ms.author: solsen
-ms.openlocfilehash: 93855d8c5fe1dfd292791cfec0c57aae25a740c1
-ms.sourcegitcommit: 0bb9473a2563211bc0c02ebfd837bba1b2e9ad3f
+ms.openlocfilehash: 1171195822d45cd38393e30947ec50539f11aae4
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "8805022"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076669"
 ---
 # <a name="sandbox-environments-in-prod_short"></a>Sandbox-Umgebungen in [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -70,7 +70,9 @@ Weitere Informationen finden Sie in den Entwickler- und Verwaltungsinhalten unte
 
 <!-- ![In-client Designer.](./media/across-sandbox/sandbox-inclient-designer.png) -->
 
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/admin-online-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Siehe auch
 
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [[!INCLUDE[prod_long](includes/prod_long.md)]-Testversionen und -Abonnements]((/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)  

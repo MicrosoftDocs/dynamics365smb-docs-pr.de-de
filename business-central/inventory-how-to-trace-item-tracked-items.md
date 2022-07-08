@@ -10,14 +10,15 @@ ms.search.keywords: ''
 ms.search.forms: 6520,
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 991df58fde5f525772d5b9eeadbf802429965575
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: dcc7b1586f50d3d9436d237592279007f38c05fa
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517420"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077241"
 ---
 # <a name="trace-item-tracked-items"></a>Verfolgen von Artikeln mit Artikelverfolgung
+
 Sie können sehen, wo ein Artikel mit Artikelverfolgung verwendet wurde. Dazu gehören die Informationen, wie und wann der Artikel entgegengenommen oder produziert, umgelagert, verkauft, verbraucht oder zurückgegeben wurde. Sie können außerdem alle aktuellen Instanzen einer bestimmten Serien- oder Chargennummern in der Datenbank suchen. Dazu können Sie die Funktionen „Artikelablaufverfolgung“ und [Posten suchen](ui-find-entries.md) verwenden.  
 
 Diese Funktionen können insbesondere in der Qualitätssicherung hilfreich sein, wenn Sie herausfinden müssen, welcher Debitor Produkte mit einer bestimmten Chargennummer erhalten hat oder aus welcher Charge eine defekte Komponente stammte.  
@@ -64,9 +65,11 @@ Diese Funktionen können insbesondere in der Qualitätssicherung hilfreich sein,
 3. Geben Sie in den Feldern **Seriennr.** und **Chargennr.** die Artikelverfolgungsnummern ein, die Sie nachverfolgen möchten.  
 4. Wählen Sie auf der Registerkarte Aktionen in der Gruppe Seite die Option **Suchen** aus, um alle Instanzen der Serien- oder Chargennummer und in der Datenbank zu finden.  
 
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/prepare-item-tracking/)
+
 ## <a name="see-also"></a>Siehe auch
 
-[Lagerbestand](inventory-manage-inventory.md)  
+[Bestand](inventory-manage-inventory.md)  
 [Arbeiten mit Serien‑, Chargen‑ und Paketnummern](inventory-how-work-item-tracking.md)  
 [Designdetails: Artikelverfolgung](design-details-item-tracking.md)  
 [Designdetails – Artikelverfolgung und Reservierungen](design-details-item-tracking-and-reservations.md)  

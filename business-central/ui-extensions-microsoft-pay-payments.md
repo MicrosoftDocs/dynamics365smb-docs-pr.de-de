@@ -1,8 +1,6 @@
 ---
 title: Microsoft Pay Standard
 description: Die Microsoft Pay-Erweiterung fügt einen Microsoft Pay-Link zu Verkaufsbelegen hinzu, sodass Debitoren einfach mithilfe von Microsoft Pay bezahlen können.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -10,12 +8,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 91f23a3b0a04a4e0d35d3574d4af84e187df14e8
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: e538d6ddef44948785c76bd1cf55b9bdd80c111c
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521650"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076253"
 ---
 # <a name="the-microsoft-pay-extension"></a>Die Microsoft Pay-Erweiterung
 

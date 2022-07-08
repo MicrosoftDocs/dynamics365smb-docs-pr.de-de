@@ -1,8 +1,6 @@
 ---
 title: Bevorzugte Methoden zum Versenden von Belegen festlegen (enthält ein Video) | Microsoft Dokumente
 description: Beschreibt, wie Sie für jeden Debitor die bevorzugte Methode zum Versenden von Verkaufsdokumenten, z.B. E-Mail, PDF, elektronisches Dokument usw., einrichten.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -11,12 +9,12 @@ ms.workload: na
 ms.search.keywords: email, PDF, electronic document
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 38072f85f88e5c5ae64f6ceb30e9585a8abe7841
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: d858c39b26ae75446bd73fc09f8df3845c1fb73d
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519043"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076383"
 ---
 # <a name="set-up-document-sending-profiles"></a>Belegsendeprofile einrichten
 Sie können jeden Debitor mit einer bevorzugten Methode der Übermittlung von Verkaufsbelegen einrichten, sodass Sie nicht jedes Mal eine Sendeoptionen auswählen müssen, wenn Sie die Schaltfläche **Buchen und senden** auswählen.

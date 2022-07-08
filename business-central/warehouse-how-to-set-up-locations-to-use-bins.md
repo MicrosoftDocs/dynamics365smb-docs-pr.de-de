@@ -9,14 +9,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: e2fe316c9f310abe3eb3bc031146445a8ffa7cef
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 88fa36a84b88ccb44df3c1412ac217461febc883
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8512022"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078258"
 ---
 # <a name="set-up-locations-to-use-bins"></a>Lagerorte für die Verwendung von Lagerplätzen einrichten
+
 Lagerplätze stellen die grundlegende Lagerstruktur dar und werden verwendet, um Vorschläge zur Einlagerung von Artikeln zu erstellen. Wenn Sie Ihre Lagerplätze erzeugt haben, können Sie sehr genau festlegen, welche Inhalte in jeden Lagerplatz eingelagert werden soll, oder der Lagerplatz kann als freier Lagerplatz fungieren, dem kein bestimmter Inhalt zugewiesen wurde.  
 
 Um die Funktionalität der Lagerplätze zu nutzen, müssen Sie diese auf der Karte **Lagerort** aktivieren. Dann entwerfen Sie den Warenfluss am Lagerort, indem Sie Lagerplatzcodes in den Einrichtungsfeldern angeben, die für die verschiedenen Ströme stehen.  
@@ -24,7 +25,8 @@ Um die Funktionalität der Lagerplätze zu nutzen, müssen Sie diese auf der Kar
 > [!NOTE]  
 >  Bevor Sie Lagerplatzcodes auf der Lagerortkarte festlegen können, müssen die Lagerplatzcodes erstellt werden. Weitere Informationen finden Sie unter  [Lagerplätze erstellen](warehouse-how-to-create-individual-bins.md).  
 
-## <a name="to-set-up-a-location-to-use-bins"></a>Um einen Lagerort für die Verwendung von Lagerplätzen einzurichten  
+## <a name="to-set-up-a-location-to-use-bins"></a>Um einen Lagerort für die Verwendung von Lagerplätzen einzurichten
+
 1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Lagerorte** ein, und wählen Sie dann den entsprechenden Link.  
 2.  Wählen Sie den Lagerort aus, an dem Sie Lagerplätze verwenden möchten.  
 3.  Wählen Sie die Aktion **Bearbeiten** aus.  
@@ -38,14 +40,18 @@ Um die Funktionalität der Lagerplätze zu nutzen, müssen Sie diese auf der Kar
 11. Tragen Sie im Inforegister **Logistik** die Felder **Ausgeh. Lagerdurchlaufzeit**, **Eingeh. Lagerdurchlaufzeit** und **Basiskalendercode** ein. Weitere Informationen finden Sie unter [Einrichten von Grundkalendern](across-how-to-assign-base-calendars.md).
 
 ## <a name="filling-the-consumption-bin"></a>Auffüllen des Verbrauchslagerplatzes
-Dieses Flow-Diagramm zeigt, wie das Feld **Lagerplatz-Code** auf den Zeilen der Produktionsauftragskomponenten entsprechend der Einrichtung Ihres Lagerorts gefüllt wird.
+
+Dieses Flow-Diagramm zeigt, wie das Feld **Lagerplatzcode** auf den Zeilen der Produktionsauftragskomponenten entsprechend der Einrichtung Ihres Standorts gefüllt wird.
 
 ![Flowdiagramm Lagerplatz.](media/binflow.png "BinFlow")  
 
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/configure-bins-location/)
+
+## <a name="see-also"></a>Siehe auch
+
 [Logistik](warehouse-manage-warehouse.md)  
-[Lagerbestand](inventory-manage-inventory.md)  
-[Lagerverwaltung einrichten](warehouse-setup-warehouse.md)     
+[Bestand](inventory-manage-inventory.md)  
+[Einrichten von Warehouse Management](warehouse-setup-warehouse.md)     
 [Montageverwaltung](assembly-assemble-items.md)    
 [Designdetails: Warehouse Management](design-details-warehouse-management.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

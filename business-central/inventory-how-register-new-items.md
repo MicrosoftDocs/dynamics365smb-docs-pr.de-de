@@ -10,12 +10,12 @@ ms.search.keywords: item, finished good, component, raw material, assembly item,
 ms.search.form: 30, 5717, 31, 32, 346, 9091, 5718, 5716, 5720, 1384, 1383, 35, 5404, 1378, 5719
 ms.date: 09/24/2021
 ms.author: edupont
-ms.openlocfilehash: 83ebbe21771c8836e6998747733b82f5e4999c83
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 893efecd282352ac44d10e15983a8f0f3923b224
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8522040"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075447"
 ---
 # <a name="register-new-items"></a>Neue Artikel registrieren
 
@@ -117,9 +117,11 @@ Wenn Ihre Firma die Prozesse der Lieferplanung in [!INCLUDE [prod_short](include
 
 Beispiele für die Verwendung der Felder auf der Inforegisterkarte **Planung** finden Sie unter [Bewährte Verfahren für die Einrichtung: Planungsparameter](setup-best-practices-planning-parameters.md).  
 
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/create-items/)
 
-[Lagerbestand](inventory-manage-inventory.md)  
+## <a name="see-also"></a>Siehe auch
+
+[Bestand](inventory-manage-inventory.md)  
 [Einheiten einrichten](inventory-how-setup-units-of-measure.md)  
 [Zollpositionen](finance-how-setup-report-intrastat.md#tariff-numbers)  
 [Abstimmen der Lagerkosten mit der Finanzbuchhaltung](finance-how-to-post-inventory-costs-to-the-general-ledger.md)  

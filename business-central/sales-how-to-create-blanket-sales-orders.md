@@ -9,18 +9,18 @@ ms.workload: na
 ms.search.form: 507, 509, 6620, 6622, 6623, 9303, 9310
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d421392a4428bc227cdbf6c5532d87e7360fe189
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 7bc0d1455960b1550c6a8d9fc54c20112b3e9f63
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518991"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074559"
 ---
 # <a name="work-with-blanket-sales-orders-or-blanket-purchase-orders"></a>Arbeiten mit Verkauf Rahmenaufträgen oder Einkauf Rahmenbestellungen
 
 Ein Rahmenauftrag stellt ein Gerüst für eine langfristige Vereinbarung zwischen Ihnen und einem Debitor dar. In ähnlicher Weise verwenden Sie Einkauf Rahmenbestellungen, um langfristige Vereinbarungen zwischen Ihnen und Ihrem Kreditor zu verwalten.
 
-Ein Rahmenauftrag wird in der Regel erstellt, wenn sich ein Debitor verpflichtet hat, größere Mengen abzunehmen, die über einen längeren Zeitraum in mehreren kleineren bereitgestellt werden. Häufig decken Rahmenaufträge nur einen bestimmten Artikel ab, für den bestimmte Liefertermine vorgegeben sind. Der Hauptgrund für die Verwendung eines Rahmenauftrags anstelle eines Verkaufsauftrags besteht darin, dass die bei einem Rahmenauftrag eingegebenen Mengen keinen Einfluss auf die Artikelverfügbarkeit haben und daher als Arbeitsblatt für die Überwachung und Planung verwendet werden können.
+Ein Rahmenauftrag wird in der Regel erstellt, wenn sich ein Debitor verpflichtet hat, größere Mengen abzunehmen, die über einen längeren Zeitraum in mehreren kleineren bereitgestellt werden. Häufig decken Rahmenaufträge nur einen bestimmten Artikel ab, für den bestimmte Liefertermine vorgegeben sind. Der Hauptgrund für die Verwendung eines Rahmenauftrags anstelle eines Verkaufsauftrags besteht darin, dass die bei einem Rahmenauftrag eingegebenen Mengen keinen Einfluss auf die Artikelverfügbarkeit haben und daher als Arbeitsvorlage für die Überwachung und Planung verwendet werden können.
 
 In einem Rahmenauftrag kann jede einzelne Lieferung als Auftragszeile eingerichtet werden, die dann zum Zeitpunkt der Lieferung in einen Auftrag umgewandelt werden kann.
 
@@ -56,7 +56,8 @@ Das folgende gilt für Verkaufsaufträge nach der Erstellung von Rahmenaufträge
 - Der fakturierte Rahmenauftrag verbleibt im System, bis er gelöscht wird, und zwar entweder durch Löschen einzelner Rahmenaufträge oder durch Ausführen der Stapelverarbeitung **Erledigte Rahmenauftr. löschen**.  
 - Wenn ein Debitor im Anwendungsbereich "Marketing" auch als Kontakt eingerichtet wurde und Sie einen Aktivitätenvorlagencode für Rahmenaufträge auf der Seite **Marketing & Vertrieb Einr.** angegeben haben, wird eine Aktivität in der Tabelle "Aktivitätenprotokollposten" aufgezeichnet, wenn Sie **Drucken** auswählen, um die Rahmenaufträge zu drucken.
 
-## <a name="to-view-the-status-of-a-blanket-sales-order"></a>So zeigen Sie den Status eines Rahmenauftrags an:  
+## <a name="to-view-the-status-of-a-blanket-sales-order"></a>So zeigen Sie den Status eines Rahmenauftrags an:
+
 Sie können sich den Status einer Rahmenbestellung auf der Seite **Auftragssstatistik Rahmenbestellung** anzeigen lassen. Dies kann dann von Bedeutung sein, wenn Sie beginnen, die Bestellung zu fakturieren, die aus der Rahmenverkaufsbestellung erstellt wurde.  
 
 1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Verkaufsrahmenaufträge** ein und wählen Sie dann den zugehörigen Link.  
@@ -68,7 +69,8 @@ Sie können sich den Status einer Rahmenbestellung auf der Seite **Auftragssstat
 - Auf dem Inforegister **Vorauszahlung** werden zusammenfassende Informationen zu den vorab bezahlten Beträgen angezeigt.  
 - Auf dem Inforegister **Kreditor** werden bestimmte grundlegende Informationen über den Kreditor angezeigt.
 
-## <a name="to-view-unposted-and-posted-blanket-sales-order-lines"></a>Um gebuchte und nicht gebuchte Rahmenbestellungszeilen anzuzeigen   
+## <a name="to-view-unposted-and-posted-blanket-sales-order-lines"></a>Um gebuchte und nicht gebuchte Rahmenbestellungszeilen anzuzeigen
+
 Die Verknüpfung zwischen dem Rahmenauftrag und dem daraus stammenden Verkaufsauftrag und jeder andere Verkaufsbeleg wird beibehalten, nachdem sie als Liste gebuchter und ungebuchter Verkaufsauftrags- und Rechnungszeilen gebucht wurden.  
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol geben Sie **Verkauf Rahmenaufträge** ein und wählen Sie dann den zugehörigen Link.
@@ -92,6 +94,8 @@ Die Verknüpfung zwischen dem Rahmenauftrag und dem daraus stammenden Verkaufsau
 |**Gutschriften**|Mit der ausgewählten Zeile verknüpfte gebuchte Gutschriften.|
 
 5.  Klicken Sie auf der Seite **Verkaufszeile** auf Zeile **Beleg anzeigen**, um den Posten anzuzeigen.
+
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/create-sales-documents-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Siehe auch
 

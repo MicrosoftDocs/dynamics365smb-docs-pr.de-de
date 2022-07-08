@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 44, 48, 42, 50, 52, 9305, 9307
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: cccfd5f5ca2b0e3d892e834465d628262f97151d
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: d45fc8f3b3636e79c17fec799f8f3682f0772e1b
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520386"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075499"
 ---
 # <a name="correct-prepayments"></a>So korrigieren Sie Vorauszahlungen
 
@@ -38,10 +38,12 @@ Das folgende Verfahren zeigt, wie Sie eine Vorauszahlungsgutschrift ausstellen, 
 5. Um eine Vorauszahlungsrechnung für neuen Zeilen in der Vorauszahlungsgutschrift zu erstellen, wählen Sie die Aktion **Vorauszahlung**, und dann die Aktion **Vorauszahlungsrechnung buchen** oder **Vorauszahlungsrechnung buchen und drucken**.  
 6. Um eine zusätzliche Vorauszahlungsrechnung zu erstellen, erhöhen Sie den Vorauszahlungsbetrag in einer oder mehreren Zeilen, und buchen die Vorauszahlungsrechnung. Für die Differenz zwischen dem fakturierten Vorauszahlungsbetrag und den neuen Vorauszahlungsbeträgen wird eine neue Rechnung erstellt.  
 
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/prepayment-invoices-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Siehe auch
 
 [Fakturieren von Vorauszahlungen](finance-invoice-prepayments.md)  
-[Exemplarische Vorgehensweise: Einrichten und Fakturieren von Verkaufsvorauszahlungen](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  
+[Beispielhafte Vorgehensweise: Verkaufsvorauszahlungen einrichten und in Rechnung stellen](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  
 [Finanzen](finance.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

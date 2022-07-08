@@ -9,14 +9,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 7847387049dd799044ed3dca4b62a657b726b069
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: c5efaaa688e2636ae68b149e05f9f526d1e4b1d4
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517134"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075993"
 ---
 # <a name="setting-up-data-exchange"></a>Einrichten eines Datenaustauschs
+
 Bevor Sie elektronische Belege senden und empfangen oder Bankdateien importieren und exportieren können, müssen Sie das Daten-Exchange-Framework einrichten, um die entsprechenden Dateien zu verarbeiten. Darüber hinaus müssen Sie verwandte Bereiche einrichten, wie z. B. die Kunden, an die Sie elektronische Rechnungen senden, oder die AMC Banking 365 Fundamentals-Erweiterung, wenn Sie den externen Dienstleister zur Konvertierung Ihrer Bankdateien nutzen. Weitere Informationen finden Sie unter [Daten elektronisch austauschen](across-data-exchange.md).  
 
  Wenn [!INCLUDE[prod_short](includes/prod_short.md)] für den Datenaustausch mit externen Dateien eingerichtet wurde, können Benutzer die Einrichtung in allgemeinen Geschäftsaufgaben, wie Senden und Empfangen von elektronischen Belegen und Importieren und Exportieren von Bankdateien, verwenden.  
@@ -37,7 +38,10 @@ Bevor Sie elektronische Belege senden und empfangen oder Bankdateien importieren
 |Bereiten Sie die Einrichtung einer neuen Datenaustauschdefinition für Datendateien oder Datenströme vor, indem Sie das Inforegister **Spaltendefinitionen** auf der Seite **Exchange-Definitinen buchen** mit dem XML-Schema der Datei vorab ausfüllen.|[Verwenden von XML-Schemata zur Vorbereitung der Datenaustauschdefinitionen](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)|  
 |Richten Sie das Datenaustauschframework so ein, dass Benutzer ein neues Einkaufsbelegformat empfangen, ein neues Verkaufsbelegformat senden, eine neue Bankdatei importieren oder andere Daten austauschen können.|[Richten Sie Datenaustauschdefinitionen ein](across-how-to-set-up-data-exchange-definitions.md)|  
 
-## <a name="see-also"></a>Siehe auch  
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/electronic-documents-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Siehe auch
+
 [Daten elektronisch austauschen](across-data-exchange.md)  
 [Eingehende Belege](across-income-documents.md)  
 [Allgemeine Geschäftsfunktionen](ui-across-business-areas.md)  

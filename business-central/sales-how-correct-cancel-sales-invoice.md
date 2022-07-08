@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: undo, credit memo, return
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 59fd78c106f6a5b7d44aa3b2c84232c6441d0d31
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 00be9cdf2e76df93f144662e70bb8558e9b12a2e
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517264"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076929"
 ---
 # <a name="correct-or-cancel-unpaid-sales-invoices"></a>Ändern oder Löschen einer unbezahlten Verkaufsrechnung
 
@@ -67,7 +67,9 @@ Wenn sich die Stornierung auf eine Rechnungsteilbuchung bezieht, wird die urspr�
     Eine Verkaufsgutschrift wird automatisch erstellt und gebucht, um die ursprüngliche gebuchte Verkaufsrechnung zu stornieren.
 5. Wählen Sie die Registerkarte **Korrekturgutschrift anzeigen** aus, um die gebuchte Verkaufsgutschrift anzuzeigen, die die gebuchte Verkaufsrechnung storniert.
 
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/ship-invoice-items-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Siehe auch
 
 [Verkauf](sales-manage-sales.md)  
 [Einrichten von Verkäufen](sales-setup-sales.md)  

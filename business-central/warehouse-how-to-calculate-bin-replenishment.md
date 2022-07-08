@@ -10,14 +10,15 @@ ms.search.keywords: ''
 ms.search.form: 7315, 7351
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7495ddfae4a6a59caba08c0d40d97f5b9c5f0c85
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: f59670f427eb530eabaa69aa7596d610cb117078
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518653"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076123"
 ---
 # <a name="calculate-bin-replenishment"></a>Lagerplatzauffüllung berechnen
+
 Wenn der Lagerort so eingerichtet wurde, dass er die gesteuerte Einlagerung und Kommissionierung verwendet, werden die Prioritäten der Einlagerungsvorlage für den Lagerplatz berücksichtigt, wenn Wareneingänge eingelagert werden. Prioritäten umfassen die minimalen und maximalen Mengen des Lagerplatzinhalts, die für einen bestimmten Lagerplatz verknüpft wurden, und die Lagerplatzprioritäten. Wenn daher gleichmäßig Artikel ankommen, werden die meistverwendeten Kommissionierlagerplätze nachgefüllt, während gleichzeitig Artikel aus ihnen entnommen werden.  
 
 Artikel treffen jedoch nicht immer gleichmäßig im Lager ein. Manchmal werden Artikel in großen Mengen gekauft, so dass das Unternehmen einen Rabatt erhalten kann, oder Ihre Fertigung produziert eine größere Menge eines Artikels, um geringe Stückkosten zu erzielen. Dann wiederum erhält das Lager eine Zeit lang keine Artikel mehr und Lagermitarbeiter müssen regelmäßig Artikel aus Palettenlagerplätzen in Kommissionierlagerplätze umpacken.  
@@ -26,7 +27,8 @@ Es ist auch möglich, dass das Lager neue Lieferungen erwartet und daher die Pal
 
 Wenn Sie Ihre Palettenlagerplätze mit einer Lagerplatzart definiert haben, die ausschließlich die Aktion **Einlagerung** vorsieht, d. h. die Lagerplatzart hat kein Häkchen bei der Aktion **Kommissionierung**, müssen Sie immer darauf achten, dass Ihre Kommissionierlagerplätze gefüllt sind, da keine Kommissionierung aus Einlagerungslagerplätzen vorgeschlagen wird.  
 
-## <a name="to-replenish-pick-bins"></a>So füllen Sie Kommissionierlagerplätze auf:  
+## <a name="to-replenish-pick-bins"></a>So füllen Sie Kommissionierlagerplätze auf:
+
 1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Arbeitsblatt für Lagerplatzumlagerungen** ein und wählen Sie dann den zugehörigen Link.  
 2.  Wählen Sie die Aktion **Lagerplatzauffüllung berechnen** aus, um die Berichtanforderungsseite zu öffnen.  
 3.  Füllen Sie die Anforderungsseite der Stapelverarbeitung aus, um den Umfang der Auffüllvorschläge zu begrenzen, die berechnet werden. Beispielsweise könnten Sie nur für bestimmte Artikel, Zonen oder Lagerplätze zuständig sein.  
@@ -45,12 +47,15 @@ Wenn Sie das nächste Mal eine Lagerplatzauffüllung berechnen lassen, werden Ih
 >   
 >  In diesem Fall bleiben die Felder **Von Zone** und **Von Lagerplatz** leer, da der Algorithmus zur Berechnung des Ausgangsortes der Umlagerung nur ausgelöst wird, wenn Sie die Funktion **Lagerplatzumlagerung erstellen** aktivieren.  
 
-## <a name="see-also"></a>Siehe auch  
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/move-items/)
+
+## <a name="see-also"></a>Siehe auch
+
 [Logistik](warehouse-manage-warehouse.md)  
 [Kommissionierung nach FEFO](warehouse-picking-by-fefo.md)  
-[Lagerbestand](inventory-manage-inventory.md)  
-[Warehouse Management einrichten](warehouse-setup-warehouse.md) 
-[Montageverwaltung](assembly-assemble-items.md)
+[Bestand](inventory-manage-inventory.md)  
+[Einrichten von Warehouse Management](warehouse-setup-warehouse.md)  
+[Montageverwaltung](assembly-assemble-items.md)  
 [Designdetails: Warehouse Management](design-details-warehouse-management.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

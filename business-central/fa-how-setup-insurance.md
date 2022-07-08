@@ -10,29 +10,33 @@ ms.search.keywords: policy, coverage
 ms.search.form: 5607, 5648, 5644, 5651
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1378a3090db4bfaa958a371c31416c98f887e73e
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: e5d22e409ec2b9dcd24b210d92a7c87df8df5380
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511027"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075577"
 ---
 # <a name="set-up-fixed-asset-insurance"></a>Um Anlagenversicherung einzurichten:
+
 Um die Abdeckung der Anlagenversicherung zu verwalten, müssen Sie pro Versicherung einige allgemeine Versicherungsinformationen und eine Versicherungskarte einrichten.
 
 ## <a name="to-set-up-general-insurance-information"></a>So richten Sie allgemeine Versicherungsinformationen ein
+
 Um die Versicherungsfunktionen in [!INCLUDE[prod_short](includes/prod_short.md)]  verwenden zu können, müssen Sie einige allgemeine Versicherungsinformationen einrichten.  
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **FA-Einrichtungen** ein und wählen Sie dann den zugehörigen Link.  
 2. Füllen Sie die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-set-up-insurance-types"></a>So richten Sie Versicherungsarten ein
+
 Sie können die Versicherungspolicen in Kategorien gruppieren, beispielsweise für Diebstahl- und Feuerversicherungen. Die Versicherungsarten werden auf der Versicherungskarte verwendet.
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Versicherungsarten** ein und wählen Sie dann den zugehörigen Link.  
 2. Füllen Sie die Felder je nach Bedarf aus.
 
 ## <a name="to-set-up-insurance-cards"></a>So richten Sie Versicherungskarten ein
+
 Sie können die gesammelten Informationen über die einzelnen Versicherungspolicen auf der Versicherungskarte eingeben.  
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Versicherung** ein, und wählen Sie dann den entsprechenden Link.  
@@ -40,12 +44,14 @@ Sie können die gesammelten Informationen über die einzelnen Versicherungspolic
 3. Füllen Sie die Felder je nach Bedarf aus.
 
 ## <a name="to-set-up-insurance-journal-templates"></a>So richten Sie Versicherungs Buch.-Blattvorlagen ein
+
 [!INCLUDE[prod_short](includes/prod_short.md)] erstellt automatisch eine Versicherungs-Buch.-Blattvorlage, wenn Sie zum ersten Mal die Seite **Versicherungs Buch.-Blatt** öffnen; Sie können aber zusätzliche Vorlagen einrichten. Weitere Informationen finden Sie unter [Arbeiten mit Allgemeinen Buch.-Blättern](ui-work-general-journals.md).  
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Vers. Buch.-Blattvorlagen** ein und wählen Sie dann den zugehörigen Link.  
 2. Füllen Sie die Felder je nach Bedarf aus.
 
 ## <a name="to-set-up-insurance-journal-batches"></a>So richten Sie Versicherungs Buch.-Blattnamen ein
+
 Sie können zusätzliche Namen in einer Versicherungs Buch.-Blattvorlage einrichten. Die Werte in dem Buch.-Blattnamen werden als Vorgabewerte verwendet, wenn die Felder in den Buch.-Blattzeilen nicht ausgefüllt sind. Weitere Informationen finden Sie unter [Arbeiten mit Fibu Buch.-Blättern](ui-work-general-journals.md)  
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Vers. Buch.-Blattvorlagen** ein und wählen Sie dann den zugehörigen Link.  
@@ -55,11 +61,14 @@ Sie können zusätzliche Namen in einer Versicherungs Buch.-Blattvorlage einrich
 > [!NOTE]  
 >   Zahlen haben in Buch.-Blattnamen eine spezielle Funktion. Wenn die Buch.-Blattvorlage oder der Buch.-Blattname eine Nummer enthält, wird diese beim Buchen des Buch.-Blatts automatisch um eins hochgezählt. Wenn z. B. HH1 in dem Feld **Name** verwendet wurde, ändert sich der Name auf HH2, nachdem das Buch.-Blatt HH1 gebucht wurde.
 
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/paths/set-up-fixed-assets-management/)
+
 ## <a name="see-also"></a>Siehe auch
-[Anlagen einrichten](fa-setup.md)  
+
+[Einrichten von Anlagen](fa-setup.md)  
 [Anlagen](fa-manage.md)  
 [Finanzen](finance.md)  
-[Vorbereiten auf die Geschäftsabwicklung](ui-get-ready-business.md)  
+[Bereitschaft für die Geschäftsabwicklung](ui-get-ready-business.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

@@ -10,14 +10,15 @@ ms.search.keywords: kit, kitting
 ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 24ea5d30b184018b69735768a6a721393086a95a
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 13f1a68ebb3c9a16c06cdc0cf9382867403ba5ca
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521150"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9079246"
 ---
 # <a name="assemble-items"></a>Artikel montieren
+
 Wenn das Feld **Beschaffungsmethode** auf der Artikelkarte **Montage** enthält, besteht die Standardmethode zur Bereitstellung des Artikels darin, es aus definierten Komponenten und eventuell mit einer definierten Ressource zu montieren.  
 
 Die Komponenten und Ressourcen, die in diese Art eines Montageartikels gehören, müssen in einer Montagestückliste definiert werden. Weitere Informationen finden Sie unter [Mit Stücklisten arbeiten](inventory-how-work-BOMs.md).  
@@ -40,7 +41,8 @@ Diese Einrichtungsoptionen sind Standardeinstellungen, die verwalten, wie Verkau
 
 In diesem Verfahren erstellen und verarbeiten Sie einen Montageauftrag für Artikel, die für das Lager montiert werden, d. h. ohne einen verknüpften Verkaufsauftrag. Die Schritte enthalten das Initiieren des Montageauftrags, die Behandlung potenzieller Komponentenverfügbarkeitsprobleme und die Teilbuchung des Montageartikelausstoßes.
 
-## <a name="to-assemble-an-item"></a>Um einen Artikel zu montieren  
+## <a name="to-assemble-an-item"></a>Um einen Artikel zu montieren
+
 1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Montageaufträge** ein, und wählen Sie dann den entsprechenden Link.  
 2.  Wählen Sie die Aktion **Neu** aus. Die Seite **Neuer Montageauftrag** wird geöffnet.  
 3.  Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -67,9 +69,12 @@ In diesem Verfahren erstellen und verarbeiten Sie einen Montageauftrag für Arti
 
 Nach erfolgreicher Buchung wird der Montageartikel als Ausstoß für den Lagerortcode und den potenziellen Lagerplatzcode gebucht, die im Montageauftrag definiert sind. Für manuell erstellte Montageaufträge wird der Lagerplatz möglicherweise aus dem Einrichtungsfeld **Standardlagerort für Aufträge** kopiert. Für Auftragsmontageflüsse wird der Lagerortcode möglicherweise aus der Verkaufsauftragszeile kopiert.  
 
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/paths/assemble-items-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Siehe auch
+
 [Montageverwaltung](assembly-assemble-items.md)  
-[Mit Fertigungsstücklisten arbeiten](inventory-how-work-BOMs.md)  
+[Arbeiten mit Stücklisten](inventory-how-work-BOMs.md)  
 [Bestand](inventory-manage-inventory.md)  
 [Designdetails: Warehouse Management](design-details-warehouse-management.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

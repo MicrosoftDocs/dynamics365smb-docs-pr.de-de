@@ -10,20 +10,22 @@ ms.search.keywords: kit, kitting
 ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
 ms.date: 06/15/2021
 ms.author: bholtorf
-ms.openlocfilehash: 317c8d5da772dbead39330f068df59e1603d525b
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 6228c53173995680bcef50f3135ba406a24e1d23
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517004"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075967"
 ---
 # <a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Auftragsmontage und Lagermontage verstehen
+
 Montageartikel können in den beiden folgenden Prozessen geliefert werden:  
 
 -   Auftragsmontage  
 -   Lagermontage  
 
-## <a name="assemble-to-order"></a>Auftragsmontage  
+## <a name="assemble-to-order"></a>Auftragsmontage
+
 In der Regel nutzen Sie die *Auftragsmontage* für Artikel, die Sie nicht auf Lager haben möchten, da Sie erwarten, dass diese für Debitorenanfragen angepasst werden müssen, oder weil Sie die Lagerkosten minimieren möchten. Die unterstützenden Funktionen umfassen:  
 
 -   Möglichkeit, Montageartikel anzupassen, wenn ein Verkaufsauftrag entgegengenommen wird.  
@@ -43,7 +45,8 @@ Wenn Sie einen Auftragsmontageartikel in eine Verkaufszeile eingeben, wird autom
 
  Um dieses Verfahren auszuführen, muss für das Feld **Montagerichtlinie** auf der Artikelkarte **Auftragsmontage** aktiviert sein.  
 
-## <a name="assemble-to-stock"></a>Lagermontage  
+## <a name="assemble-to-stock"></a>Lagermontage
+
  In der Regel nutzen Sie *Lagerfertigung* für Artikel, die Sie vor dem Verkauf montieren möchten - wie zur Vorbereitung einer Kit-Kampagne - und auf Lager zu halten, bis sie bestellt werden. Diese Artikel sind normalerweise Standardartikel, wie gepackte Kits, die Sie nicht an Debitorenanfragen anpassen.  
 
  Im Lagerfertigungsvorgang wird der Artikel ohne sofortigen Verkaufsbedarf montiert und ist im Lager als Lagerartikel für den späteren Verkauf oder Verbrauch als Unterbaugruppe verfügbar. Weitere Informationen finden Sie unter [Entnahme von Artikeln](assembly-how-to-assemble-items.md). Ab diesem Punkt kann der Artikel als einzelner Artikel kommissioniert und verarbeitet werden und wird wie ein gefertigter Artikel behandelt.  
@@ -55,7 +58,8 @@ Wenn Sie einen Auftragsmontageartikel in eine Verkaufszeile eingeben, wird autom
 
  Um dieses Verfahren auszuführen, muss für das Feld **Montagerichtlinie** auf der Artikelkarte **Lagermontage** aktiviert sein.  
 
-## <a name="combination-scenarios"></a>Kombinierte Szenarien  
+## <a name="combination-scenarios"></a>Kombinierte Szenarien
+
  Ein allgemeines Prinzip der Montageverwaltung ist, dass Auftragsmontagemengen, wenn sie in einer Verkaufsauftragszeile zusammengefasst sind, vor Lagermengen ausgeliefert werden müssen.  
 
  Wenn ein Montageauftrag mit einer Verkaufsauftragszeile verknüpft ist, wird der Wert im Feld **Menge für Auftragsmontage** der Verkaufsauftragszeile über das Feld **Montagemenge** im Montageauftragskopf in das Feld **Menge** kopiert. Weitere Informationen finden Sie unter [Verkaufen von Auftragsmontageartikeln](assembly-how-to-sell-items-assembled-to-order.md).  
@@ -91,10 +95,12 @@ Basierend auf diesem Beispiel können Sie nur das Feld **Menge für Montage** wi
 - Die Mindestmenge, die Sie eingeben können, ist 1. Die Mindestmenge, die Sie eingeben können, ist 1. Dies liegt daran, dass Sie mindestens eine Einheit zusammenbauen müssen, damit Sie die vier Einheiten verkaufen können, wenn davon ausgegangen wird, dass die verbleibenden drei im Lager verfügbar sind.  
 - Die Höchstmenge, die Sie eingeben können, ist 4. Damit wird sichergestellt, dass Sie nicht mehr als diese Auftragsmontageartikel zusammenbauen, die im Verkauf benötigt werden.  
 
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/paths/assemble-items-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Siehe auch
 
 [Montageverwaltung](assembly-assemble-items.md)  
-[Mit Fertigungsstücklisten arbeiten](inventory-how-work-BOMs.md)  
+[Arbeiten mit Stücklisten](inventory-how-work-BOMs.md)  
 [Bestand](inventory-manage-inventory.md)  
 [Designdetails: Warehouse Management](design-details-warehouse-management.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

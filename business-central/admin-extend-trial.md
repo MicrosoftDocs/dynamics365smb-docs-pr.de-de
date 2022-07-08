@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 2da669b7bc7675c1af7143e0a4702ab6655a7bca
-ms.sourcegitcommit: 0bb9473a2563211bc0c02ebfd837bba1b2e9ad3f
+ms.openlocfilehash: f1c1ba7640c03314c53bceee13711c66f03a3c09
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "8805100"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9079298"
 ---
 # <a name="need-more-time-to-decide-whether-to-subscribe"></a>Benötigen Sie mehr Zeit, um sich für ein Abonnement zu entscheiden?
 
@@ -49,6 +49,8 @@ Nach dieser zweiten Verlängerung, durch die Ihre Organisation eine 90-Tage-Test
 Wenn Ihr verlängerter Testzeitraum abgelaufen ist, können Sie innerhalb von 90 Tagen [abonnieren](https://go.microsoft.com/fwlink/?linkid=828659) für [!INCLUDE[prod_short](includes/prod_short.md)] und weiterhin im von Ihnen erstellten Unternehmen arbeiten. 90 Tage nach Ablauf der verlängerten Testversion werden wir Ihr Unternehmen und Ihre Daten löschen, es sei denn, sie entscheiden sich für das Abonnement.  
 
 [!INCLUDE [admin-viral-trial-expiry](includes/admin-viral-trial-expiry.md)]
+
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/trial-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Siehe auch
 

@@ -7,12 +7,12 @@ ms.search.keyword: prepayment
 ms.search.form: 314, 459, 460, 664
 ms.date: 10/27/2021
 ms.author: edupont
-ms.openlocfilehash: a1b771425c2a70f62dcfebeb4619c0f2f5445de3
-ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
+ms.openlocfilehash: cf7f84b8ba0c7622f08856b677e3559cc669e7ed
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2022
-ms.locfileid: "8799612"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078674"
 ---
 # <a name="set-up-prepayments"></a>Vorauszahlungen einrichten
 
@@ -105,6 +105,8 @@ Sie können Zeit sparen, indem Sie einen Projektwarteschlangenposten einrichten,
 
 3. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Auftragswarteschlangenposten** ein und wählen Sie dann den zugehörigen Link.
 4. Richten Sie den Projektwarteschlangenposten **Ausstehende Vorauszahlungsverkäufe aktualisieren** ein, indem Sie die Einstellungen im Inforegister **Wiederholung** verwenden, um zu planen, wie oft er ausgeführt werden soll. Weitere Informationen finden Sie unter [Aufgabenwarteschlangen zum Planen von Aufgaben verwenden](admin-job-queues-schedule-tasks.md).
+
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/prepayment-invoices-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Siehe auch  
 

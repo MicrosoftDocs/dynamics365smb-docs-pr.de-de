@@ -10,12 +10,12 @@ ms.search.keywords: VAT, posting, tax, value-added tax
 ms.search.form: 317, 318, 320, 474
 ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: 356eb4fd32eff269b166767ae3b6cb3df6b67f1b
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: bda2bc95c78f5cc2119a6725b7dd57491938d67b
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383697"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075525"
 ---
 # <a name="set-up-vat-statement-templates-and-vat-statement-names"></a>Vorlagen für Umsatzsteuerabrechnungen und Namen von Umsatzsteuerabrechnungen einrichten
 
@@ -45,10 +45,12 @@ Nachdem Sie eine MwSt.-Abrechnung eingeben haben, können Sie diese in der Vorsc
 4. Für die Zeilen, für die im Feld **Art** der Eintrag **MwSt.-Summe** angezeigt wird, kann eine Übersicht der MwSt.-Posten angezeigt werden, wenn Sie im Feld **Spaltenbetrag** den Betrag auswählen.
 5. Sie können Personalisierung verwenden, um weitere Felder in den Posten anzuzeigen. Zum Beispiel die Unrealisierte Bemessungsgrundlage und Unrealisierter MwSt.-Betrag, wenn Sie unrealisierte MwSt. verwenden.
 
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Siehe auch
 
 [Mehrwertsteuer einrichten](finance-setup-vat.md)  
-[Einrichten von unrealisierter Mehrwertsteuer](finance-setup-unrealized-vat.md)      
+[Einrichten von unrealisierter Mehrwertsteuer](finance-setup-unrealized-vat.md)  
 [Meldung der Mehrwertsteuer an eine Steuerbehörde](finance-how-report-vat.md)  
 [Arbeiten mit MwSt im Verkauf und Einkauf](finance-work-with-vat.md)  
 [Lokale Funktion in Business Central](about-localization.md)

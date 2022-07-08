@@ -1,8 +1,6 @@
 ---
 title: Nutzung der Quickbooks-Gehaltsabrechnungsdatei-Importerweiterung| Microsoft Docs
 description: Beschreibt, wie die Erweiterung verwendet wird, um Gehalts- und Lohntransaktionen aus dem Quickbooks-Gehaltsabrechnungsdienst zu importieren.
-services: project-madeira
-documentationcenter: ''
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
@@ -11,12 +9,12 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, salary, wage
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: cd715ac63f9ce7068d5b02fce21e294b7a2231cf
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 0d7acf85f8c4584f0c7458bf7af543e203d36aec
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511493"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075681"
 ---
 # <a name="the-quickbooks-payroll-file-import-extension"></a>Die Quickbooks-Gehaltsabrechnungsdatei-Importerweiterung
 Verwenden Sie die QuickBooks-Gehaltsabrechnungsdatei-Importerweiterung, um Gehaltsabrechnungstransaktionen von QuickBooks mit den Sachkonten in [!INCLUDE[prod_short](includes/prod_short.md)] zu importieren. Dies ist beispielsweise dann nützlich, wenn Sie von QuickBooks zu [!INCLUDE[prod_short](includes/prod_short.md)] wechseln oder, dass Sie Löhne auslagern aber diese in [!INCLUDE[prod_short](includes/prod_short.md)] nachverfolgen möchten.

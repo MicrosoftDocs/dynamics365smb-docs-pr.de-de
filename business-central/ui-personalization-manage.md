@@ -7,14 +7,15 @@ ms.search.keywords: customize, personalize, personalization, hide columns, remov
 ms.search.form: 9171
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: eb00a19bd5d61e8ed465e3765ef38561ce058554
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: bbb912f0e9e6718ba625fba4dc05fae19f4f2ebb
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521520"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076201"
 ---
 # <a name="customize-pages-for-profiles"></a>Seiten für Profile anpassen
+
 Benutzer können Seiten für ihren Arbeitsbereich personalisieren, um ihren Bedürfnissen zu entsprechen. Weitere Informationen finden Sie unter [Personalisieren Sie Ihren Arbeitsbereich](ui-personalization-user.md).
 
 Administratoren können Seiten für ein Profil anpassen, z. B. entsprechend der jeweiligen Geschäftsrolle oder Abteilung, sodass allen Benutzern, denen das Profil zugewiesen ist, das angepasste Seitenlayout angezeigt wird. Als Administrator passen Sie die Seiten an, indem Sie dieselben Funktionen verwenden wie Benutzer, wenn sie Personalisierungen vornehmen.
@@ -25,6 +26,7 @@ Administratoren können Seiten für ein Profil anpassen, z. B. entsprechend der 
 Die Seitenanpassung beginnt mit **Profile (Rollen)** Seite, Ausgangspunkt des Administrators für die Verwaltung der Benutzerprofile auf einzelnen Profilkarten. Zusätzlich zum Anpassen des Seitenlayouts steuern Sie verschiedene andere Einstellungen für Profile in der **Profil (Rolle)** Seite für jedes Profil. Weitere Informationen finden Sie unter [Profile verwalten](admin-users-profiles-roles.md).
 
 ## <a name="to-customize-pages-for-a-profile"></a>Um Seiten für ein Profil anzupassen
+
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Profile (Rollen)** ein und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie dir Zeile für die Personalisierungsseite, die Sie löschen möchten, und wählen die Aktion **Bearbeiten** aus.
 3. Wählen Sie die Aktion **Seiten anpassen**.
@@ -50,6 +52,7 @@ Sie können sich einen Überblick darüber verschaffen, welche Seiten für ein P
 Auf der Seite **Benutzerdefinierte Seiten** können Sie Anpassungen löschen und Fehler beheben, indem Sie nach potenziellen Problemen suchen.  
 
 ## <a name="to-delete-all-customizations-for-a-profile"></a>Löschen aller Anpassungen für ein Profil
+
 Sie können alle Anpassunge, die Sie für ein Profil vorgenommen haben, stornieren. Mit einer Erweiterung eingeführte Anpassungen und von einem Benutzer vorgenommene Personalisierungen werden nicht gelöscht. Sie können alle Personalisierungen mit einer anderen Aktion löschen. Weitere Informationen finden Sie unter [Löscht alle von einem Benutzer vorgenommenen Personalisierungen](admin-users-profiles-roles.md#to-delete-all-personalizations-made-by-a-user).
 
 - Auf der **Profil (Rolle)** Seite wählen Sie auf der Seite für ein benutzerdefiniertes Profil die Option **Löschen Sie benutzerdefinierte Seiten** Aktion.
@@ -57,12 +60,15 @@ Sie können alle Anpassunge, die Sie für ein Profil vorgenommen haben, stornier
 Das Seitenlayout für das Profil wird auf das Standardlayout zurückgesetzt.  
 
 ## <a name="to-delete-customization-for-specific-pages-for-a-profile"></a>So löschen Sie die Anpassung für bestimmte Seiten eines Profils
+
 Sie können auch alle individuellen Seitenanpassungen löschen, die Sie für ein gemacht haben. Mit einer Erweiterung eingeführte Anpassungen und von einem Benutzer vorgenommene Personalisierungen werden nicht gelöscht. Sie können eine bestimmte Seitenpersonalisierung mit einer anderen Aktion löschen. Weitere Informationen finden Sie unter [So löschen Sie alle Personalisierungen für bestimmte Seiten](admin-users-profiles-roles.md#to-delete-personalizations-for-specific-pages).
 
 1. Auf der Seite **Profil (Rolle)** wählen Sie die Aktion **Angepasste Seiten verwalten**.
 2. Auf der Seite **Angepasste Seiten** wählen Sie mindestens eine Zeile für Seitenanpassungen aus, die Sie löschen möchten, und wählen Sie dann die Aktion **Löschen** aus.
 
 Das Layout der ausgewählten Seiten wird an die von Ihnen vorgenommenen Änderungen angepasst.
+
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/paths/tailor-roles-design-ui/)
 
 ## <a name="see-also"></a>Siehe auch
 

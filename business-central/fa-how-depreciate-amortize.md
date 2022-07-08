@@ -10,14 +10,15 @@ ms.search.keywords: write down
 ms.search.form: 5610, 5611, 5629, 5633, 5659, 5660, 5663, 5619, 5666
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 3202fb5906328da08eed10ad722b914eb5b5afcb
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 8defe24ef55db891a630d1bce647382286901eaa
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511077"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074978"
 ---
 # <a name="depreciate-or-amortize-fixed-assets"></a>Anlagen abschreiben oder amortisieren
+
 Abschreibung wird verwendet, um die Anschaffungskosten von Anlagen wie Maschinen und Ausrüstung über die Nutzungsdauer zu verteilen. Sie müssen für jede Anlage definieren, wie diese abgeschrieben wird.  
 
  Es gibt zwei Wege, Abschreibungen zu buchen:  
@@ -34,6 +35,7 @@ Sie können falsche AfA-Posten aus einem AfA-Buch mit Hilfe der Stapelverarbeitu
 Die Indexierung wird verwendet, um die Werte allgemeinen Preisänderungen anzupassen. Die Stapelverarbeitung **Anlagen indexieren** kann verwendet werden, um die AfA-Beträge neu zu berechnen.  
 
 ## <a name="to-calculate-depreciation-automatically"></a>So berechnen Sie AfA automatisch
+
 Einmal monatlich oder in beliebigen anderen Intervallen können Sie die Stapelverarbeitung **AfA berechnen** ausführen. Der Stapelverarbeitungsjob ignoriert Anlagen, die verkauft wurden, auf der Anlagenkarte gesperrt oder inaktiv sind, und Anlagen, die die AfA-Methode "Manuell" verwenden.  
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **AfA berechnen** ein, und wählen Sie dann den entsprechenden Link.  
@@ -54,6 +56,7 @@ Einmal monatlich oder in beliebigen anderen Intervallen können Sie die Stapelve
 
 
 ## <a name="to-post-depreciation-manually-from-the-fixed-asset-gl-journal"></a>So buchen Sie eine AfA aus dem Anlagen Fibu Buch.-Blatt
+
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Anlagen-Fibu Buch.-Blatt** ein und wählen Sie dann den entsprechenden Link.  
 2. Erstellen Sie eine ursprüngliche Buch.-Blattzeile und füllen Sie die notwendigen Felder aus.  
 3. Wählen Sie im Feld **Anlagenbuchungsart** die **AfA**.  
@@ -65,6 +68,7 @@ Das Feld **Buchwert** auf der Seite **Anlagenkarte** wird entsprechend aktualisi
 Falls Sie Anlagenverteilungsschlüssel eingerichtet haben, um Beträge auf verschiedene Kostenstellen und/oder Kostenträger zu verteilen, werden die Beträge während der Buchung zugeordnet. Weitere Informationen finden Sie unter [Allgemeine Anlageninformationen einrichten](fa-how-setup-general.md).  
 
 ## <a name="to-manage-the-ending-book-value"></a>So werden Erinnerungswerte verwaltet
+
 Im Feld **Erinnerungswert** auf der Seite **Anlagenabschreibungsbücher** können Sie den Buchwert angeben, den Ihre Anlage im aktuellen Abschreibungsbuch haben soll, nachdem es vollständig abgeschrieben wurde. Sie können dies manuell tun oder Sie können das Feld **Standarderinnerungswert** auf der zugehörigen Seite **AfA-Buch** ausfüllen, womit dann das Feld automatisch ausgefüllt wird.
 
 > [!NOTE]
@@ -72,6 +76,7 @@ Im Feld **Erinnerungswert** auf der Seite **Anlagenabschreibungsbücher** könne
 > Wenn der Wert im Feld **Buchwert** nach der letzten Abschreibung größer als null ist, beispielsweise wegen eines Rundungsproblems oder weil ein Restwert besteht, wird der Wert im Feld **Erinnerungswert** auf der Seite **Anlagen-AfA-Bücher** ignoriert. Weitere Informationen finden Sie unter [Wie der Restwert zusammen mit den Anschaffungskosten gebucht wird](fa-how-acquire.md#to-post-the-salvage-value-together-with-the-acquisition-cost).
 
 ## <a name="to-calculate-allocations-in-the-fixed-asset-gl-journal"></a>So berechnen Sie Verteilungen in Anlagen Fibu Buch.-Blättern
+
 Falls eine Anlage von verschiedenen Kostenstellen verwendet wird, kann die AfA automatisch entsprechend einer benutzerdefinierten Tabelle auf diese Kostenstellen verteilt werden.  
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Anlagen-Fibu Buch.-Blatt** ein und wählen Sie dann den entsprechenden Link.  
@@ -81,6 +86,7 @@ Falls eine Anlage von verschiedenen Kostenstellen verwendet wird, kann die AfA a
 5. Wählen Sie die Aktion **Buchen**, um das Journal zu buchen.  
 
 ## <a name="use-duplication-lists-to-prepare-to-post-to-multiple-depreciation-books"></a>Kopiervorgänge zum Vorbereiten von Buchungen in mehrere AfA-Bücher verwenden
+
 Ausfüllen der Zeilen in einem Buch.-Blatt für die Buchung auf ein AfA-Buch und anschließendes Kopieren der Zeilen in ein anderes Buch.-Blatt, von wo aus sie auf ein anderes AfA-Buch gebucht werden können Weitere Informationen finden Sie unter [So buchen Sie Posten auf verschiedene Abschreibungsbücher](fa-how-depreciate-amortize.md#to-post-entries-to-different-depreciation-books).
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Afa-Bücher** ein und wählen Sie dann den zugehörigen Link.  
@@ -90,6 +96,7 @@ Ausfüllen der Zeilen in einem Buch.-Blatt für die Buchung auf ein AfA-Buch und
 >   Wenn Sie das Feld **Kopiervorgang aktivieren** aktiviert haben, dürfen Sie im Buch.-Blatt keine Nummernserien verwenden. Der Grund dafür ist, dass die Nummernserie für das Anlagen Fibu Buch.-Blatt nicht der Nummernserie im Anlagen Buch.-Blatt entspricht.  
 
 ## <a name="to-post-entries-to-different-depreciation-books"></a>So buchen Sie Posten auf verschiedene AfA-Bücher
+
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Anlagen-Fibu Buch.-Blatt** ein und wählen Sie dann den entsprechenden Link.  
 2. Aktivieren Sie im Buch.-Blatt, das Sie zum Buchen der AfA verwenden möchten, das Kontrollkästchen **Kopiervorgang aktivieren**.  
 3. Füllen Sie die verbleibenden Felder je nach Bedarf aus.  
@@ -106,6 +113,7 @@ Ausfüllen der Zeilen in einem Buch.-Blatt für die Buchung auf ein AfA-Buch und
 Sie können mit Hilfe der Stapelverarbeitung **AfA-Buch kopieren** Posten von einem AfA-Buch in ein anderes AfA-Buch kopieren. Die Stapelverarbeitung erstellt Buch.-Blattzeilen in dem Buch.-Blatt, das Sie auf der Seite **Anlagen Buch.-Blatt Einr.** für das AfA-Buch angegeben haben, aus dem Sie kopieren möchten. Weitere Informationen finden Sie in der folgenden Prozedur.  
 
 ## <a name="to-copy-fixed-asset-ledger-entries-between-depreciation-books"></a>So kopieren Sie Anlagenposten zwischen AfA-Büchern
+
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Afa-Bücher** ein und wählen Sie dann den zugehörigen Link.  
 2. Öffnen Sie die entsprechende AfA-Buch - Karte und wählen Sie dann die Aktion **AfA-Buch kopieren**.  
 3. Füllen Sie im Inforegister **AfA-Buchkarte kopieren** die Seite nach Bedarf aus.  
@@ -113,7 +121,10 @@ Sie können mit Hilfe der Stapelverarbeitung **AfA-Buch kopieren** Posten von ei
 
 Die kopierten Zeilen werden entweder in einem Anlagen Fibu Buch.-Blatt oder im Anlagen Buch.-Blatt erstellt. Dies hängt davon ab, ob das AfA-Buch, das Sie kopieren, in der Finanzbuchhaltung aktiviert wurde.  
 
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/calculate-post-depreciations/)
+
+## <a name="see-also"></a>Siehe auch
+
 [Anlagen](fa-manage.md)  
 [Einrichten von Anlagen](fa-setup.md)  
 [Finanzen](finance.md)  

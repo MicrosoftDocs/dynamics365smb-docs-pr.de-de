@@ -6,12 +6,12 @@ ms.topic: article
 ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
-ms.openlocfilehash: 6b128f79cb8e629147bdd5ae77f2545ad0f7025c
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: c5552d81dc612070b5dd5512222806527e18ce7e
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8525099"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078752"
 ---
 # <a name="walkthrough-combine-automatic-and-manual-flushing"></a>Vorgehensweise: Automatisches und manuelles Buchen kombinieren
 
@@ -23,7 +23,9 @@ Sie sind der Produktionsplaner bei Contoso Coffee. Sie müssen einen neuen Produ
 
 ## <a name="steps"></a>Schritte
 
-1. Erstellen Sie einen fest geplanten Fertigungsauftrag für fünf Einheiten des Artikels **SP-SCM1004, AutoDrip**. Eine Anleitung finden Sie unter [Vorgehensweise: Neuen fest geplanten Fertigungsauftrag erstellen und ändern](create-firm-planned-production-order-change.md).  
+> [Note!] Denken Sie daran, den Bestand zu bereinigen, indem Sie Artikel Buch.-Blätter mit Erfassungen der Anfangssalden buchen.
+
+1. Erstellen Sie einen fest geplanten Fertigungsauftrag für fünf Einheiten des Artikels **SP-SCM1004, AutoDrip** am Standort *NORD*. Eine Anleitung finden Sie unter [Vorgehensweise: Neuen fest geplanten Fertigungsauftrag erstellen und ändern](create-firm-planned-production-order-change.md).  
 
 2. Geben Sie den Fertigungsauftrag frei.
 

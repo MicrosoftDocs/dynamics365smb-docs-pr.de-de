@@ -1,8 +1,6 @@
 ---
 title: Kosten den Intercompanypartnern zuordnen | Microsoft Docs
 description: Erfahren Sie, wie die Mehrwertsteuereinstellungen für Kunden und Lieferanten steuern, ob und wie die Mehrwertsteuer berechnet wird.
-services: project-madeira
-documentationcenter: ''
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
@@ -11,12 +9,12 @@ ms.workload: na
 ms.search.keywords: incoming document
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: a9118614872559a9b2c321e7869f1b013266d92b
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: f6f8634ae4431038a6ac3ea66bc5b1ead0a21d30
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8522144"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077293"
 ---
 # <a name="allocate-costs-to-intercompany-partners"></a>Kosten den Intercompanypartnern zuordnen
 Wenn Sie konzerninterne Buchungen verwenden, um Dokumente zwischen Partnerunternehmen zu übertragen, steuern die den Kunden- oder Lieferantenkonten (dem konzerninternen Partner zugeordneten) zugewiesenen umsatzsteuerlichen Einstellungen (hauptsächlich die Umsatzsteuer-Geschäftsbuchungsgruppe), ob und wie die Mehrwertsteuer berechnet und registriert wird. Sie können Kostenverteilungen auch direkt von einer Bestellung an Partnerunternehmen durchführen. Wenn Sie beispielsweise eine Kaufrechnung von einem externen Anbieter registrieren und einen Teil oder die gesamten Kosten an einen oder mehrere konzerninterne Partner verteilen möchten.

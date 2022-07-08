@@ -10,12 +10,12 @@ ms.search.keywords: posting setup, initialize
 ms.search.form: 312, 313
 ms.date: 03/24/2022
 ms.author: bholtorf
-ms.openlocfilehash: 4391b73a6e7f26262349abaeff751dd8f0f6c4e1
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: a3ce9d938994f6300e0a1f2c26511b3c0702c124
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8515667"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076565"
 ---
 # <a name="set-up-posting-groups"></a>Buchungsgruppen einrichten
 
@@ -58,6 +58,7 @@ In der folgenden Tabelle werden die Buchungsgruppen beschrieben, die sich auf be
 | Anlagenbuchungsgruppen |Sie legen die Konten für die Anschaffungskosten, die kumulierten Abschreibungsbeträge, die Anschaffungskosten bei Verkauf, die kumulierte Abschreibung bei Verkauf, den Gewinn bei Verkauf, den Wartungsaufwand und den Abschreibungsaufwand fest. Richten Sie diese Buchungsgruppen auf der Seite **Anlagenbuchungsgruppen** ein. |
 
 ### <a name="allowing-substitute-customer-or-vendor-posting-groups-on-documents"></a>Zulassen von Ersatzbuchungsgruppen für Debitoren oder Kreditoren in Belegen
+
 Sie können Benutzern ermöglichen, andere Debitoren- und Kreditorenbuchungsgruppen als die Standardgruppen auszuwählen, wenn sie mit Verkaufs- oder Einkaufsdokumenten und Erfassungen arbeiten.
 
 Um Änderungen an Kundenbuchungsgruppen zuzulassen, wählen Sie **Änderung der Buchungsgruppe zulassen** auf den **Einrichtung von Verkäufen und Forderungen**- und **Service Einrichtung**-Seiten und die **Kreditoren & Einkauf Einr.**-Seite für Kreditorenbuchungsgruppenänderungen.
@@ -129,10 +130,13 @@ Wenn etwas nicht stimmt, zeigt [!INCLUDE[prod_short](includes/prod_short.md)] di
 > [!NOTE]
 > Die oben beschriebene Fehlerbehandlung ist nicht verfügbar für Artikel-, Ressourcen-, Mitarbeiter- und Anlage-Fibu Buch.-Blätter oder für Sachkonten, die in lokalen Versionen von Buchungsgruppen hinzugefügt wurden.
 
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/posting-groups-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Siehe auch
+
 [Die Finanzbuchhaltung und der Kontenplan](finance-general-ledger.md)  
 [Finanzen einrichten](finance-setup-finance.md)  
-[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

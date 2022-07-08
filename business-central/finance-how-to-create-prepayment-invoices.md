@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 42, 50, 9305, 9307
 ms.date: 12/02/2021
 ms.author: edupont
-ms.openlocfilehash: db06612ed644f8db52d8c9e8247b6cc7fe9df339
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 97e2e4e63d1a0d694cf881ed1fff8523d50fbb46
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519173"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077632"
 ---
 # <a name="create-prepayment-invoices"></a>Vorauszahlungsrechnungen erstellen
 
@@ -69,12 +69,14 @@ Es können weitere Vorauszahlungsrechnungen für den Auftrag ausgegeben werden. 
 
  Wenn Sie bereit zum Buchen des verbleibenden Rechnungsbetrags sind, buchen Sie diesen auf die gleiche Weise, wie Sie jede andere Rechnung buchen. Der Vorauszahlungsbetrag wird automatisch vom fälligen Betrag abgezogen.  
 
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/prepayment-invoices-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Siehe auch
 
 [Fakturieren von Vorauszahlungen](finance-invoice-prepayments.md)  
-[Exemplarische Vorgehensweise: Einrichten und Fakturieren von Verkaufsvorauszahlungen](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  
+[Beispielhafte Vorgehensweise: Verkaufsvorauszahlungen einrichten und in Rechnung stellen](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  
 [Finanzen](finance.md)  
-[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Ihren Arbeitsbereich personalisieren](ui-personalization-user.md)  
 
 

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 33d8c3a36340c997a12f879f8770e17045a88aa2
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 01c8b40b5217faccabc93e931472ad3aad64b7a1
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521046"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075603"
 ---
 # <a name="design-details-assembly-order-posting"></a>Designdetails: Montageauftragsbuchung
 Die Montageauftragsbuchung basiert auf demselben Prinzip wie das Buchen ähnlicher Aktivitäten von Verkaufsaufträgen und von Produktionsverbrauch/-aushabe. Die Prinzipien werden jedoch insofern kombiniert, als Montageaufträge ihre eigene Buchungsbenutzeroberfläche, wie für Verkaufsaufträge, haben, während die tatsächliche Postenbuchung im Hintergrund als direkte Artikel- und Ressourcen Buch.-Blattbuchung, wie für den Fertigungsverbrauch, Ausgabe und Kapazität geschieht.  
@@ -107,6 +107,13 @@ Der Artikelposten, der aus der Buchung eines Auftragsmontageverkaufs resultiert,
 Artikelposten des Typs Verkauf, die aus dem Buchen von Auftragsmontagemengen resultieren, werden mit **Ja** im Feld **Auftragsmontage** markiert.  
 
 Das Buchen von Verkaufsauftragszeilen, bei denen ein Teil eine Lagermenge und ein anderer Teil eine Auftragsmontagemenge darstellt, führt zu separaten Artikelposten, einer für die Lagermenge und einer für die Auftragsmontagemenge.  
+
+### <a name="posting-dates"></a>Buchungsdaten
+
+Allgemein werden die Buchungsdaten aus einem Verkaufsauftrag in den verknüpften Montage-Auftrag kopiert. Das Buchungsdatum im Montageauftrag wird automatisch aktualisiert, wenn Sie das Buchungsdatum im Verkaufsauftrag direkt oder indirekt ändern, z.B. wenn Sie das Buchungsdatum in der Lagerverladung, der Lagerkommissionierung oder als Teil einer Massenbuchung ändern.
+
+Sie können das Buchungsdatum im Montage-Auftrag manuell ändern. Es kann jedoch nicht später sein als das Buchungsdatum im verknüpften Verkaufsauftrag. Das System behält dieses Datum bei, es sei denn, Sie aktualisieren das Buchungsdatum im Kundenauftrag.
+
 
 ## <a name="see-also"></a>Siehe auch  
  [Designdetails: Lagerkostenberechnung](design-details-inventory-costing.md)   

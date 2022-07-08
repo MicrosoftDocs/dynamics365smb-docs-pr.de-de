@@ -10,12 +10,12 @@ ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
 ms.search.form: 431, 432, 436, 478
 ms.date: 02/09/2022
 ms.author: edupont
-ms.openlocfilehash: 9456123c29b26c964acf974163ca31daa1e1b7c1
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 09e6bf269e8561dab5d205bc61d81ac40787200c
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8523371"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075473"
 ---
 # <a name="set-up-reminder-terms-and-levels"></a>Einrichten von Mahnmethoden, Bestimmungen und Mahntext
 
@@ -97,6 +97,8 @@ Werden mehr Mahnungen erstellt als definierte Stufen vorhanden sind, werden die 
     > Das Fälligkeitsdatum wird entsprechend der von Ihnen eingegebenen Datumsformel berechnet. Weitere Informationen zu finden Sie unter [Verwenden von Datumsformeln](ui-enter-date-ranges.md#use-date-formulas).
 
 Geben Sie nach der Einrichtung der Mahnmethoden (mit zusätzlichen Stufen und Text) auf jeder Debitorenkarte einen der Codes ein. Weitere Informationen finden Sie unter [Neue Debitoren registrieren](sales-how-register-new-customers.md).  
+
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/send-reminders-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Siehe auch
 

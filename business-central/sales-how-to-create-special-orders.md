@@ -9,21 +9,23 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: d263be575b6f4102c25ff1b7fe2aa288058cbd22
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 3f9cb0690bf21c3b4571ff65486038499af010e9
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518913"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078544"
 ---
 # <a name="create-special-orders"></a>Spezialaufträge erstellen
+
 Sie können einen Spezialauftrag für einen bestimmten Katalogartikel erstellen, der an einen bestimmten Debitoren geliefert werden soll. Ihr Kreditor liefert den Artikel an Ihr Lager und Sie können den Artikel dann an Ihren Debitoren weiterleiten, entweder unabhängig von anderen Artikeln oder zusammen mit anderen Artikeln in einem anderen Auftrag.  
 
 Spezialaufträge setzen voraus, dass die Bestellung und der Verkaufsauftrag verknüpft sind, um sicherzustellen, dass der bestimmte Katalogartikel entnommen und an den Debitor geliefert wird.  
 
 Bevor Sie diese Funktion verwenden können, müssen Sie die Karten für den Debitor, den Kreditor und die Artikel in dem Auftrag erstellen.  
 
-## <a name="to-create-a-special-order"></a>So erstellen Sie Spezialaufträge:  
+## <a name="to-create-a-special-order"></a>So erstellen Sie Spezialaufträge:
+
 1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Verkaufsauftrag** ein und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die Aktion **Neu**. Erstellen Sie einen  Verkaufsauftrag für den Artikel, und füllen Sie diesen aus. Weitere Informationen finden Sie unter [Produkte verkaufen](sales-how-sell-products.md)
 3.  Geben Sie auf dem Inforegister **Zeilen** die Verkaufszeile ein. Wählen Sie im Feld **Einkaufscode** einen Einkaufscode mit einem Häkchen im Feld **Spezialauftrag** aus .
@@ -42,7 +44,10 @@ Eine als Spezialauftrag für einen Verkaufsauftrag erstellte Bestellung wird vom
 > [!NOTE]  
 >  Sie können die Spezialauftragsfunktion nicht verwenden, wenn der Artikel bereits reserviert ist. Stellen Sie daher für Artikel, die im Rahmen von Spezialaufträgen verkauft werden, sicher, dass das Feld **Reserve** auf der Artikelkarte nicht auf **Immer** gesetzt ist.  
 
-## <a name="see-also"></a>Siehe auch  
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/create-sales-documents-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Siehe auch
+
 [Arbeiten mit Katalogartikeln](inventory-how-work-nonstock-items.md)  
 [Verkauf](sales-manage-sales.md)  
 [Direktlieferungen machen](sales-how-drop-shipment.md)   

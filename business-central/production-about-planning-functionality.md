@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 5430
 ms.date: 07/16/2021
 ms.author: edupont
-ms.openlocfilehash: 693e7a3a5970e681840332f7b6899f1867e36bd1
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 51f1e2ff31e819c8aa571335b25dc51ec61d6d30
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8512256"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077208"
 ---
 # <a name="about-planning-functionality"></a>Info zu Planungsfunktionen
 
@@ -148,7 +148,7 @@ Wie in [Planung](production-planning.md) beschrieben können Sie für die meiste
 
 Auf der Seite **Anforderungsarbeitsblatt** sind die Artikel aufgelistet, die Sie bestellen möchten. Sie haben folgende Möglichkeiten, um die Artikel in das Arbeitsblatt einzugeben:
 
-- Geben Sie die Artikel manuell in das Arbeitsblatt ein, und füllen Sie die entsprechenden Felder aus.
+- Geben Sie die Artikel manuell in den Vorschlag ein, und füllen Sie die entsprechenden Felder aus.
 
 - Verwenden Sie die Stapelverarbeitung **Plan berechnen**. Diese berechnet eine Planung für Artikel und Lagerhaltungsdaten, die mit dem Dispositonsmethodencode **Einkauf** oder **Umlagerung** eingerichtet wurden. Wenn Sie diese Stapelverarbeitung verwenden, füllt die Anwendung automatisch das Feld **Ereignismeldung** mit einem Vorschlag, wie Sie die Artikel wiederbeschaffen können. Dabei kann es sich z. B. um die Erhöhung der Artikelmenge in einer bestehenden Bestellung oder um die Erstellung einer neuen Bestellung handeln.
 
@@ -158,13 +158,15 @@ Auf der Seite **Anforderungsarbeitsblatt** sind die Artikel aufgelistet, die Sie
 
 - Sie können die Aktion **Spezialauftrag** verwenden, um die Anforderungsarbeitsblattszeilen zu füllen. Diese Aktion verwendet die Stapelverarbeitung **Aufträge holen**, um die Verkaufsauftragszeilen zu ermitteln, die für einen Spezialauftrag vorgesehen sind.
 
-Anforderungsarbeitsblattzeilen enthalten detaillierte Informationen über die Artikel, die wiederbestellt werden müssen. Sie können die Zeilen bearbeiten und löschen, um Ihren Bestellarbeitsblatt anzupassen, und Sie können die Zeilen auch mit der Stapelverarbeitung **Ereignismeldung durchführen** weiterverarbeiten.
+Bestellvorschlagszeilen enthalten detaillierte Informationen über die Artikel, die wiederbestellt werden müssen. Sie können die Zeilen bearbeiten und löschen, um Ihren Bestellarbeitsblatt anzupassen, und Sie können die Zeilen auch mit der Stapelverarbeitung **Ereignismeldung durchführen** weiterverarbeiten.
 
 Einzelheiten zur Planung mit Standorten und Transfers finden Sie unter [Planen mit oder ohne Standorte](production-planning-with-without-locations.md).
 
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/plan-items-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Siehe auch
 
-[Designdetails: Vorratsplanung](design-details-supply-planning.md)  
+[Entwurfsdetails: Vorratsplanung](design-details-supply-planning.md)  
 [Planung](production-planning.md)  
 [Produktion einrichten](production-configure-production-processes.md)  
 [Produktion](production-manage-manufacturing.md)  

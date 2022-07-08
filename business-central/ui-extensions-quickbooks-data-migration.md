@@ -9,12 +9,12 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 5c910aa7ab769af315c34db27c065fb8b496c878
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 0b608fb83b643e548b5400c6339ce35e09e5617f
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136743"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078518"
 ---
 # <a name="the-quickbooks-data-migration-extension"></a>Die QuickBooks-Datenmigrationserweiterung
 
@@ -49,7 +49,7 @@ Ein wichtiger Teil des Migrationsvorgangs ist es, Konten anzugeben, um Transakti
 Business Central erfordert, dass Sachkonten die Kontonummern haben, die ihm zugeordnet werden. Überprüfen Sie, ob Sie Kontonummern Ihren Konten in QuickBooks online zugeordnet werden.
 Wenn Transaktionen in QuickBooks Steuerbeträge haben, müssen Sie eine MwSt einrichten für Ihre Steuerzuständigkeiten in Business Central, bevor Sie Buchungen durchführen können.
 
-Um die Daten aus der QuickBooks Desktop-Anwendung abzurufen, müssen Sie das Microsoft Daten Exporter Tool herunterladen.  Die Anweisungen für das Werkzeug finden Sie im Datenmigrationsassistenten in [!INCLUDE[prod_short](includes/prod_short.md)]. Das Tool stellt eine Verbindung mit Ihrer QuickBooks-Anwendung her und exportiert die anwendbaren Daten in eine .ZIP-Datei.  
+Um die Daten aus der QuickBooks desktop-Anwendung abzurufen, müssen Sie das Microsoft Daten Exporter Tool herunterladen.  Die Anweisungen für das Werkzeug finden Sie im Datenmigrationsassistenten in [!INCLUDE[prod_short](includes/prod_short.md)]. Das Tool stellt eine Verbindung mit Ihrer QuickBooks-Anwendung her und exportiert die anwendbaren Daten in eine .ZIP-Datei.  
 
 > [!NOTE]
 > Zurzeit arbeitet das Datenexporteurtool nur mit QuickBooks 2017 und 2018.
@@ -65,10 +65,12 @@ Sie sollten mehrere Dinge tun: wenn die Transaktionen in QuickBooks einen Aufsch
 Wenn Sie MwSt verwenden, können Sie eine Geschäftsbuchungsgruppe und eine Produktbuchungsgruppe "Buchungsmatrix Einrichtung" hinzufügen, sodass Sie MwSt.-Beträge buchen können.
 Prüfen Sie die Startkapitale für Konten in der Finanzbuchhaltung. QuickBooks speichert nicht den aktuellen Saldo für alle Konten, daher müssen Sie möglicherweise Startkapitale korrigieren.
 
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/migrate-data-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Siehe auch
 
 [Importieren von Geschäftsdaten aus anderen Finanzsystemen](across-import-data-configuration-packages.md)  
-[Anpassen [!INCLUDE[prod_short](includes/prod_short.md)] Erweiterungen nutzen](ui-extensions.md)  
+[Anpassen von [!INCLUDE[prod_short](includes/prod_short.md)] mit Erweiterungen](ui-extensions.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

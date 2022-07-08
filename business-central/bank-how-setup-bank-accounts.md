@@ -10,12 +10,12 @@ ms.search.keywords: Yodlee, feed, stream
 ms.search.form: 370, 371, 372, 373, 375, 423, 424, 425, 426, 1240, 1280
 ms.date: 01/24/2022
 ms.author: edupont
-ms.openlocfilehash: fc0c01281b4a4fb1bccee4196917b4357413e4cf
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: af48197d84407fc16e103991852f98fa0338bf9e
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514121"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078778"
 ---
 # <a name="set-up-bank-accounts"></a>Bankkonten festlegen
 
@@ -157,6 +157,7 @@ The following table explains key fields.
 -->
 
 ## <a name="entering-an-opening-balance"></a>Eingeben einer Eröffnungsbilanz
+
 Um das Feld **Saldo** mit einem Eröffnungsbilanz auszufüllen, müssen Sie den Bankposten mit dem entsprechenden Betrag buchen. Sie können dies tun, indem Sie eine Bankkontoabstimmung durchführen. Weitere Informationen finden Sie unter [Abstimmen von Bankkonten](bank-how-reconcile-bank-accounts-separately.md).  
 >
 > Alternativ können Sie die Eröffnungsbilanz als Teil der allgemeinen Datenerstellung in neuen Unternehmen implementieren, indem Sie den Leitfaden für das unterstützte Setup **Geschäftsdaten migrieren** verwenden. Weitere Informationen finden Sie unter [Vorbereitungen für das Ausführen von Geschäften](ui-get-ready-business.md).  
@@ -165,6 +166,7 @@ Um das Feld **Saldo** mit einem Eröffnungsbilanz auszufüllen, müssen Sie den 
 > Es ist wichtig, dass Sie den Anfangssaldo nicht direkt in der Finanzbuchhaltung buchen. Buchungen im Sachkonto, die direkt in der Finanzbuchhaltung gebucht werden, führen in der Regel dazu, dass Sie das Bankkonto nicht abgleichen können, oder bei Bankkonten in Fremdwährung, dazu, dass sich Differenzen ansammeln, wenn Sie mehr Bankabstimmungen buchen. Häufig wird der Anfangsbestand der Bank direkt auf das Bankkonto gebucht, und der Betrag landet dann auf dem Sachkonto. Alternativ können Sie eine Stornierung für ein Sachkonto durchführen, das Sie zum Ausgleich des Anfangssaldos des Sachpostens verwenden. In beiden Fällen müssen Sie alle Direktbuchungen auf das Sachkonto ausgleichen, bevor Sie mit der ersten Bankabstimmung beginnen, vor allem, wenn das Bankkonto auf eine Fremdwährung lautet.
 
 ## <a name="to-set-up-your-bank-account-for-import-or-export-of-bank-files"></a>Um Ihre Bankkonten zum Importieren und Exportieren von Bankdateien einzurichten
+
 Die Felder, die sich auf den Import und den Export von Bankfeeds und Dateien beziehen, befinden sich im Inforegister **Transfer** im Fenster **Bankkontenkarte**. Weitere Informationen finden Sie unter [Verwenden der AMC Banking 365 Fundamentals-Erweiterung](ui-extensions-amc-banking.md) und [Einrichten des Envestnet Yodlee Bank Feeds Service](bank-how-setup-bank-statement-service.md).
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Bankkonten** ein und wählen Sie dann den zugehörigen Link.
@@ -240,7 +242,9 @@ Nachdem Sie das neue Bankkonto erstellt haben, sollten Sie auch eine neue Bankbu
 
 Um eine komprimiertere Ansicht Ihrer Geldkonten in der Finanzberichterstattung zu erhalten, verwenden Sie die **Beginn-Summe** und **Ende-Summe** in Ihrem Kontenplan, die **Summen**-Zeilen in Kontenplänen oder Sachkonto-Kategorien. Weitere Informationen finden Sie im Abschnitt [Business Intelligence und Finanzberichte](bi.md).
 
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/cash-management-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Siehe auch
 
 [Einrichten von Banken](bank-setup-banking.md)  
 [Einrichten von Buchungsgruppen](finance-posting-groups.md)  

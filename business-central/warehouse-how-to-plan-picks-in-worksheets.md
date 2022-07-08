@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/13/2021
 ms.author: edupont
-ms.openlocfilehash: 09b9f0d4d707da3872ae4b085f1405a99f69a9bc
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 24e19eb56bf28b7871ec18f254dc5dbbaa0b290a
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8515199"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078336"
 ---
 # <a name="plan-picks-in-worksheets"></a>Kommissionierungen im Arbeitsblatt bearbeiten
 
@@ -33,6 +33,7 @@ Auf der Seite **Kommissionierarbeitsblätter** können Sie Kommissionierlisten e
 > Allgemeine Informationen über das Kommissionieren von Komponenten für Montageaufträge, einschließlich von Situationen, in denen der Montageartikel nicht mit einer Verkaufslieferung fällig ist, finden Sie unter [Kommissionierung für Montage oder Produktion in erweiterter Lagerkonfiguration](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md).  
 
 ## <a name="sorting-lines-on-a-pick-worksheet"></a>Sortieren von Zeilen auf einem Kommissionierarbeitsblatt
+
 Sie können Positionen nach Artikel, Regalnummer, Quelldokument, Fälligkeitsdatum oder Ziel sortieren. Nachfolgend finden Sie einige Verwendungsbeispiele für Sortierung.
 
 * Wenn Sie nach Fälligkeitsdatum sortieren, können Sie wählen, alle Zeilen zu löschen, außer denen, die sofort beachtet werden müssen. Die weniger dringenden Zeilen werden nicht wirklich gelöscht, sondern nur in den **Kommissionierarbeitsblatt** zurückgeschickt. Wenn Sie die Kommissionierung erzeugen, wurden die Zeilen bereits nach Fälligkeitsdatum sortiert und Sie können die Kommissionierung einem Mitarbeiter zuordnen.
@@ -52,11 +53,13 @@ Sie können Positionen nach Artikel, Regalnummer, Quelldokument, Fälligkeitsdat
 8. Wählen Sie die Aktion **Drucken** aus, um die Kommissionierungsanweisungen zu drucken.  
 9. Nachdem Sie die Kommissionierung durchgeführt haben, wählen Sie die **Registrieren** Aktion aus.  
 
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/pick-ship-items-warehouse/)
+
+## <a name="see-also"></a>Siehe auch
 
 [Logistik](warehouse-manage-warehouse.md)  
 [Bestand](inventory-manage-inventory.md)  
-[Lagerortverwaltung einrichten](warehouse-setup-warehouse.md)  
+[Einrichten von Warehouse Management](warehouse-setup-warehouse.md)  
 [Montageverwaltung](assembly-assemble-items.md)  
 [Designdetails: Warehouse Management](design-details-warehouse-management.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

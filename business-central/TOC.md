@@ -229,13 +229,11 @@
 ### Eingehende Belege
 #### [Eingehende Belege – Übersicht](across-income-documents.md)
 #### [Einrichten von eingehenden Belegen](across-how-setup-income-documents.md)
-#### Eingehende Belege verarbeiten
-##### [Eingehende Belege verarbeiten](across-process-income-documents.md)
-##### [Erstellen von eingehenden Belegen](across-how-create-income-document-records.md)
-##### [Verwenden von OCR, um PDF und Bilddateien in elektronische Belege umzuwandeln](across-how-use-ocr-pdf-images-files.md)
-##### [Erstellen und Verknüpfen von eingehenden Belegen aus Dokumenten und Posten](across-how-connect-disconnect-income-document-records.md)
-##### [So finden Sie gebuchte Belege ohne zugehörige eingehende Belege](across-how-find-posted-documents-without-income-document-records.md)
-##### [Mehrere eingehende Belege verwalten](across-how-manage-many-income-document-records.md)
+#### [Erstellen von eingehenden Belegen](across-how-create-income-document-records.md)
+#### [Verwenden von OCR, um PDF und Bilddateien in elektronische Dokumente umzuwandeln](across-how-use-ocr-pdf-images-files.md)
+#### [Erstellen und Verknüpfen von eingehenden Belegen aus Dokumenten und Posten](across-how-connect-disconnect-income-document-records.md)
+#### [So finden Sie gebuchte Belege ohne zugehörige eingehende Belege](across-how-find-posted-documents-without-income-document-records.md)
+#### [Mehrere eingehende Belege verwalten](across-how-manage-many-income-document-records.md)
 
 ### Workflows
 #### [Workflowübersicht](across-workflow.md)
@@ -1421,11 +1419,11 @@
 
 ### Vereinigte Staaten
 #### [Lokale Funktionen in der US-Version](LocalFunctionality/UnitedStates/united-states-local-functionality.md)
-#### Steuer
+#### Steuer 
 ##### [Verkaufssteuer der USA](LocalFunctionality/UnitedStates/us-sales-tax.md)
 ##### [MwSt in den USA melden](LocalFunctionality/UnitedStates/us-sales-tax.md)  
-##### [1099-Transaktionen in den USA melden](LocalFunctionality/UnitedStates/tax-1099.md)  
 ##### [Das IRS 1099-Formular einrichten und verwenden](LocalFunctionality/UnitedStates/set-up-use-irs1099-form.md)
+##### [Gesetzliche 1099 Formatänderungen und Details](LocalFunctionality/UnitedStates/tax-1099-changes.md)  
 ##### [Einrichten von Verbrauchssteuer und Umsatzsteuer](LocalFunctionality/UnitedStates/how-to-set-up-use-tax-and-purchase-tax.md)  
 ##### [Einrichten unrealisierter Verkaufssteuer und Verkaufs-Skonti](LocalFunctionality/UnitedStates/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)  
 #### Banking und Zahlungen

@@ -8,12 +8,12 @@ ms.search.keywords: project management
 ms.search.form: 211, 463, 1012
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e150dfec7471ad755ce6e0f69a224a36f24fc6f3
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 369e47e5bb8d30f2042b7051ed5bc0a1124a0797
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514908"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9079038"
 ---
 # <a name="set-up-jobs-prices-and-job-posting-groups"></a>Jobs, Preise und Buchungsgruppen festlegen
 
@@ -22,6 +22,7 @@ Als Projekt-Manager können Sie Projekte einrichten, die jedes der Projekte defi
 Für jedes Projekt geben Sie dann die einzelnen Projektkarten mit Informationen zu Preisen für Projektressourcen Projektartikel, Projekt und Sachkonten an, und Sie müssen Projektbuchungsgruppen einrichten.
 
 ## <a name="to-set-general-information-for-jobs"></a>Um allgemeine Informationen für Projekte einzurichten:
+
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Projekt Einrichtung** ein und wählen Sie den zugehörigen Link.
 2. Füllen Sie die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -49,12 +50,14 @@ If job usage tracking is not enabled and the **Line Type** field on the job jour
 
 
 ## <a name="to-set-up-prices-for-resources-items-and-general-ledger-accounts-for-jobs"></a>Erstellen projektspezifischer Preise für Ressourcen, Artikel und Sachkonten für Projekte
+
 > [!NOTE]
 > In der 2020er Release-Welle 2 haben wir neue Prozesse zum Einrichten und Verwalten von Preisen und Rabatten freigegeben. Wenn Sie ein neuer Kunde sind, nutzen Sie die neue Erfahrung. Wenn Sie bereits Kunde sind, hängt es davon ab, ob Sie die neue Erfahrung verwenden, ob Ihr Administrator die Funktionsaktualisierung **Neues Verkaufspreiserlebnis** in **Funktionsverwaltung** akualisiert hat. Weitere Informationen finden Sie unter [Bevorstehende Funktionen im Voraus aktivieren](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
 Sie können Preise für die Artikel, Ressourcen und Sachkonten für Projekte einrichten. 
 
 #### <a name="current-experience"></a>[Aktuelle Erfahrung](#tab/current-experience)
+
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Aufträge** ein, und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die entsprechende Projekte und wählen Sie dann die Aktion **Ressource**, **Artikel** oder **Sachkonto** aus.
 3. Füllen Sie auf den Seiten **Res.-VK-Preise Projekt**, **Projektartikelpreise**, oder **Projekt-Sachkontopreise** die Felder nach Bedarf aus.
@@ -68,12 +71,14 @@ Die folgende Tabelle zeigt, wie die Informationen in den optionalen Feldern in J
 |**Sachkonten**|Die Informationen in den Feldern **Projektaufgabennr.**, **Währungscode**, **Zeilenrabatt %**, **Einheitskostenfaktor** und **Einheitskosten** werden auf den Projektplanungszeilen und Verbrauchsbuchungsblättern verwendet, wenn diese Ressource eingegeben und dem Projekt hinzugefügt wird. Füllen Sie das Feld **VK-Preis** für das Aufwandssachkonto aus. Dies ist der Verkaufspreis, der in den Projektplanungszeilen und Projektbuchungsblättern verwendet wird, wenn dieses Sachkonto eingegeben wird.|
 
 #### <a name="new-experience"></a>[Neue Erfahrung](#tab/new-experience)
+
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Aufträge** ein, und wählen Sie dann den zugehörigen Link.  
 2. Markieren Sie den entsprechenden Job und wählen Sie dann die Aktion **Verkaufspreislisten**.
 
 ---
 
 ## <a name="to-set-up-job-posting-groups"></a>Projektbuchungsgruppen einrichten
+
 Ein Aspekt der Projektenplanung besteht darin, zu entscheiden, welche Buchungskonten für die Projektkalkulation verwendet werden. Damit Projekte gebucht werden können, müssen Sie Konten für die Buchung für jede Projektbuchungsgruppe einrichten. Eine Buchungsgruppe stellt eine Verknüpfung zwischen dem Projekt und der Art dar, wie es in der Finanzbuchhaltung zu behandeln ist. Wenn Sie ein Projekt erstellen, geben Sie eine Buchungsgruppe an, und standardmäßig wird jede Aufgabe, die Sie erstellen, dieser Buchungsgruppe zugeordnet. Wenn Sie Aufgaben erstellen, können Sie jedoch die Voreinstellung überschreiben und eine Buchungsgruppe auswählen, die geeigneter ist.  
 
 > [!NOTE]  
@@ -99,6 +104,8 @@ Ein Aspekt der Projektenplanung besteht darin, zu entscheiden, welche Buchungsko
 | **Projektverkaufsregulierungs-** Konto |Das Gegenkonto zum WIP-Konto für den Umsatz, bei dem es sich um ein Ertragskonto handelt. |
 | **Konto deklarierte Kosten** |Das Aufwandskonto, das die deklarierten Kosten für das Projekt enthält. Dabei handelt es sich normalerweise um ein Soll-Aufwandskonto. |
 | **Konto deklarierte Verkäufe** |Das Ertragskonto, das den deklarierten Umsatz für das Projekt enthält. Dabei handelt es sich normalerweise um ein Haben-Ertragskonto. |
+
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/paths/set-up-jobs-resources/)
 
 ## <a name="see-also"></a>Siehe auch
 

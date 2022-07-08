@@ -1,8 +1,6 @@
 ---
 title: Überblick zu Aufgaben für Lieferservice | Microsoft Docs
 description: Gliedert Arbeiten, um sicherstellen, dass Sie Qualitätsdienst liefern und Verträgen mit Debitoren gerecht werden.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.topic: overview
 ms.devlang: na
@@ -11,12 +9,12 @@ ms.workload: na
 ms.search.keywords: service, service items, respond, response
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ae2dd8a55c030d06e839a97f482adf1c548d6dbd
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: e44033b067ab51e17925330618f954294252177b
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8128478"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077814"
 ---
 # <a name="delivering-service"></a>Bereitstellen von Service
 [!INCLUDE[prod_short](includes/prod_short.md)] bietet Funktionen, die Ihnen die Bereitstellung von Service gemäß den von Ihnen erstellten Verträgen und die Erfüllung der Serviceaufträge entsprechend Ihren Zusagen ermöglichen. Die Servicetechniker oder Dispatcher können ausstehende Serviceaufträge mithilfe der **Einsatzplanung** problemlos ausfindig machen. Die **Einsatzplanung** zeigt auf einen Blick, welche Aufträge noch bearbeitet werden und welche bereits abgeschlossen wurden.  

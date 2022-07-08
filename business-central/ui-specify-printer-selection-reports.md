@@ -10,12 +10,12 @@ ms.search.keywords: online printing, email printing, cloud printing, Universal P
 ms.search.form: 8900
 ms.date: 06/24/2021
 ms.author: jswymer
-ms.openlocfilehash: e9c7cc2166581c318ff8febcf112765b4f78923c
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: 86f808aca7223115a3124d24dfc517ed6f96ae33
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655284"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075655"
 ---
 # <a name="set-up-printers"></a>Einrichten von Druckern
 
@@ -269,13 +269,16 @@ Sie oder der Administrator können auch die Seite **Druckerauswahl** verwenden, 
 > Spezifischere Druckerauswahlen haben Vorrang vor einer allgemeineren Druckerauswahl. Zum Beispiel hat eine Druckerauswahl, die Werte in den Feldern **Benutzer-ID**, **Berichts-ID** und **Druckername** hat, Vorrang vor einer Druckerauswahl, die leere Einträge in den Feldern **Benutzer-ID** oder **Berichts-ID** hat.
 
 ### <a name="choosing-the-printer-when-running-a-report"></a>Auswählen des Druckers beim Ausführen eines Berichts
+
 Anstatt den Standarddrucker zu verwenden, wenn Sie einen Bericht ausführen, können Sie diese Einstellung auf der Anforderungsseite außer Kraft setzen. Wählen Sie einfach im Dropdown-Menü **Drucker** den Drucker aus, den Sie für diesen Berichtsaufruf verwenden möchten.
 
 ### <a name="sizing-print-jobs"></a>Größe von Druckaufträgen anpassen
 
 Das Drucken in der Cloud ist für Dokumente mit einer angemessenen Größe vorgesehen. Die meisten Clouddienste, einschließlich PrintNode und HP ePrint, sind auf 10 MB pro Auftrag begrenzt. Wenn Sie größere Berichte drucken müssen, müssen Sie diese möglicherweise in mehrere Ausdrucke aufteilen.
 
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Siehe auch
 
 [Berichte drucken](ui-work-report.md#PrintReport)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

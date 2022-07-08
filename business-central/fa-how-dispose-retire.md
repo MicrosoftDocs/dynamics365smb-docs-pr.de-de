@@ -10,12 +10,12 @@ ms.search.keywords: scrap
 ms.search.form: 5628, 5610, 5611, 5629, 5633
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 210cfc51b9a9ffc68166636a2ff2d0e33edcbb62
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: dd8e374a0f7124084d789858767d08c4935d1631
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8523579"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077319"
 ---
 # <a name="dispose-of-or-retire-fixed-assets"></a>Anlagen entsorgen oder außer Dienst stellen
 
@@ -40,6 +40,7 @@ Bei den folgenden Schritten wird davon ausgegangen, dass Sie die entsprechenden 
 Wenn Sie eine Anlage zum Teil verkaufen, müssen Sie die Anlage aufteilen, bevor Sie die Verkaufstransaktion buchen können. Weitere Informationen finden Sie unter [Übertragen, Teilen oder Kombinieren von Anlagen](fa-how-trans-split-combine.md).  
 
 ## <a name="to-view-disposal-ledger-entries"></a>So zeigen Sie Verkaufsposten an
+
 Wenn Sie eine Anlage verkaufen, wird der Verkaufswert in den Sachposten gebucht, wo Sie die Ergebnisse anzeigen können.  
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Anlagen** ein und wählen Sie dann den zugehörigen Link.  
@@ -50,10 +51,12 @@ Wenn Sie eine Anlage verkaufen, wird der Verkaufswert in den Sachposten gebucht,
 
 Die Seite **Sachposten** wird geöffnet, in dem Sie die Posten sehen können, die aus der Verkaufsbuchung resultieren.  
 
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/dispose-fixed-assets/)
+
 ## <a name="see-also"></a>Siehe auch
 
 [Anlagen](fa-manage.md)  
-[Anlagen einrichten](fa-setup.md)  
+[Einrichten von Anlagen](fa-setup.md)  
 [So richten Sie Anlagen-Buchungsgruppen ein](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).  
 [Finanzen](finance.md)  
 [Vorbereiten auf die Geschäftsabwicklung](ui-get-ready-business.md)  

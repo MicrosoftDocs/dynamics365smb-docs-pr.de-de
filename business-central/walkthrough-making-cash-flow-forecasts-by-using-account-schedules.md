@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: be9ddda098391cad347948993c2038de7efc8fc9
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 242c3e65401f188068c6e1fbea20212d4a3a7653
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521442"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076149"
 ---
 # <a name="walkthrough-making-cash-flow-forecasts-by-using-account-schedules"></a>Exemplarische Vorgehensweise: Erstellen von Cashflowplanungen mithilfe von Kontenschemata
 
@@ -141,6 +141,8 @@ Ken kann das Spaltenlayout jetzt dem Kontenschemanamen zuweisen.
 1. Wählen Sie auf der Seite **Kontoschemanamen** auf der Registerkarte **Übersicht** in der Gruppe Prozess die Option Übersicht aus, um die Cashflowplanung anzuzeigen.  
 2. Auf der Seite **Kontoschemaübersicht** können Sie einen Betrag auswählen und die Cashflowplanungs Posten dann anzeigen, aus denen sich der Betrag zusammensetzt. Darüber hinaus können Sie die Formel anzeigen, die verwendet wird, um den Betrag zu berechnen. Sie können die Beträge auch nach Datum und Dimension filtern.  
 3. Wählen Sie die Aktion **Drucken** aus, um die Cashflowplanung zu drucken.  
+
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/forecast-cash-flow-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Siehe auch
 

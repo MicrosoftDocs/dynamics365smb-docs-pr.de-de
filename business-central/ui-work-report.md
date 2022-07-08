@@ -10,12 +10,12 @@ ms.search.keywords: task, process, report, print, schedule, save, Excel, PDF, Wo
 ms.search.form: ''
 ms.date: 03/24/2022
 ms.author: jswymer
-ms.openlocfilehash: f2129ff54f49637fb8abbcae374a2e9f7e5d7c2e
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: 43e2c33af227ccd33ad5e5a616df78fd75298bcd
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655228"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076175"
 ---
 # <a name="run-and-print-reports"></a>Berichte ausführen und drucken
 
@@ -146,7 +146,9 @@ Die Felder unter **Erweitert** legen Einschränkungen für den generierten Beric
 > [!NOTE]
 > Die Maximalwerte können sich für [!INCLUDE[prod_short](includes/prod_short.md)] lokal unterscheiden, und ein Administrator kann sie ändern. Weitere Informationen finden Sie unter [Konfigurieren von Business Central Server – Berichte](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#Reports). Für eine Übersicht über Berichtseinschränkungen [!INCLUDE[prod_short](includes/prod_short.md)] online sehen Sie [Einschränkungen im Betrieb](/dynamics365/business-central/dev-itpro/administration/operational-limits-online).
 
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/paths/setup-reporting-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Siehe auch
 
 [Drucker einrichten](ui-specify-printer-selection-reports.md)  
 [Mit Datumsangaben und Uhrzeiten in Kalendern arbeiten](ui-enter-date-ranges.md)  

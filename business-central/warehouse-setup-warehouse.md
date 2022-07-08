@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 5775, 7300, 7301, 7302, 7303, 7304, 7305, 7306, 7307, 7308, 7325, 7344, 7346, 7347, 7353, 7366
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 28c1ff79108f8192695a6faa524b06f409e9058e
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: db5db1518e4064a158e83ccfef1409d919a4e35d
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518493"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075629"
 ---
 # <a name="setting-up-warehouse-management"></a>Lagerortverwaltung einrichten
 
@@ -42,12 +42,14 @@ Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Themen,
 |Integrieren Sie Barcodeleser in Ihrer Logistiklösung. Nur für lokale Bereitstellung.|[Automatisierte Datenerfassung (MDE) verwenden](warehouse-use-automated-data-capture-systems-adcs.md)|
 |Geben Sie Standardberichte an, die für verschiedene Dokumenttypen verwendet werden sollen.|[Berichtsauswahl in Business Central](across-report-selections.md)|
 
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/paths/set-up-warehouse-management/)
+
 ## <a name="see-also"></a>Siehe auch
 
 [Logistik](warehouse-manage-warehouse.md)  
-[Lagerbestand](inventory-manage-inventory.md)  
-[Montageverwaltung](assembly-assemble-items.md)
-[Designdetails: Lagerverwaltung](design-details-warehouse-management.md)  
+[Bestand](inventory-manage-inventory.md)  
+[Montageverwaltung](assembly-assemble-items.md)  
+[Designdetails: Warehouse Management](design-details-warehouse-management.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

@@ -9,17 +9,19 @@ ms.workload: na
 ms.search.forms: 36, 5872, 5870, 5874, 911, 917, 912
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6f2ac75c4a00804c0fef47dfb7885fa2d50fbf19
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: d538ea3e1bb00772a3a3183c09c2220893380058
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8515485"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9079558"
 ---
 # <a name="work-with-bills-of-material"></a>Mit Fertigungsstücklisten arbeiten
+
 Verwenden Sie Stücklisten (BOMs), um beispielsweise Oberartikel zu strukturieren, die nach Ressourcen oder Arbeitsplätze aus Komponenten montiert oder gefertigt werden müssen. Eine Montagestückliste kann auch verwendet werden, um den übergeordneten Artikel als Kit zu verkaufen, das aus den Komponenten bestehet.
 
 ## <a name="assembly-boms-or-production-boms"></a>Montagestücklisten oder Fertigungsstücklisten
+
 Montageaufträge werden für die Produktion von Endartikeln aus Komponenten in einem einfachen Prozess verwendet, der mit einer oder mehreren grundlegenden Ressourcen, die keine Maschinen oder Arbeitsplatzgruppen sind, oder ganz ohne Ressourcen durchgeführt werden kann. Beispielsweise könnte ein Montagevorgang lauten, zwei Weinflaschen und ein Paket Kaffee zu kommissionieren und sie als Geschenkartikel zu verpacken.  
 
 Eine Montagestückliste liefert die Masterdaten, die festlegen, welche Komponentenartikel in einen montierten Endartikel enthalten sind und welche Ressourcen verwendet werden, um den Montageartikel zu montieren. Wenn Sie im Kopf eines neuen Montageauftrags den Montageartikel und die Menge eingeben, werden die Montageauftragszeilen automatisch aus der Montagestückliste übernommen und pro Komponente oder Ressource als eine Montageauftragszeile dargestellt. Weitere Informationen finden Sie unter [Montageverwaltung](assembly-assemble-items.md).
@@ -35,6 +37,7 @@ Das Ressourcenkonzept ist in der Produktion weitergehender als in der Montagever
 Montageaufträge und Fertigungsaufträge können direkt mit Verkaufsaufträgen verknüpft sein. Sie können jedoch nur Montageaufträge nutzen, um den Endartikel direkt für eine Debitorenanfrage im Verkaufsauftrag anzupassen.
 
 ## <a name="to-create-an-assembly-bom"></a>So erstellen Sie eine Montagestückliste
+
 Um einen übergeordneten Artikel zu definieren, der aus anderen Artikeln und möglicherweise Ressourcen besteht die benötigt werden, um die übergeordnete Baugruppe zusammenzufügen, müssen Sie eine Montagestückliste erstellen.  
 
 Montagestücklisten enthalten normalerweise Artikel, können jedoch auch eine oder mehrere Ressourcen enthalten, die die Montageartikel ausführen.
@@ -54,6 +57,7 @@ Es gibt zwei Schritte zum Erstellen einer Montagestückliste:
 3. Füllen Sie auf der Seite **Montagestückliste** die Felder wie benötigt aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-edit-assembly-boms"></a>So bearbeiten Sie Montagestücklisten
+
 Sie können die Zeilen in einer Montagestückliste jederzeit bearbeiten. Beachten Sie jedoch, dass die Stückliste möglicherweise bei laufenden Verkäufen oder Baugruppen des übergeordneten Unternehmens verwendet wird, die von der Änderung betroffen sein können. Wählen Sie das die Aktion **Artikelverwendungsübersicht** aus, um zu sehen, in welchen Artikeln es verwendet wird und dann ob Verkaufs- oder Montageaufträge betroffen sein können.
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Elemente** ein, und wählen Sie dann den zugehörigen Link.
@@ -61,6 +65,7 @@ Sie können die Zeilen in einer Montagestückliste jederzeit bearbeiten. Beachte
 3. Auf der Seite **Montagestückliste** wählen Sie die Aktion **Liste bearbeiten** aus und ändern dann jedes beliebige Feld nach Bedarf.
 
 ## <a name="to-view-components-and-resources-indented-according-to-the-bom-structure"></a>So werden Komponenten und Ressourcen angezeigt, eingerückt gemäß der Stücklistenstruktur
+
 Auf der Seite **Montagestückliste** können Sie ein separates Fenster öffnen, in dem die Komponenten sowie jegliche Ressourcen angezeigt werden, die gemäß ihrer Stücklistenposition unter den Montageartikel eingerückt werden.
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Elemente** ein, und wählen Sie dann den zugehörigen Link.
@@ -69,6 +74,7 @@ Auf der Seite **Montagestückliste** können Sie ein separates Fenster öffnen, 
 4. Wählen Sie auf der Seite **Montagestückliste** die Aktion **Stückliste anzeigen** aus.
 
 ## <a name="to-replace-the-assembly-item-with-its-components-on-document-lines"></a>Um den Montageartikel von den Komponenten in Belegzeilen ersetzen
+
 von beliebigen Verkaufs- und Einkaufsbeleg aus, die einen Montageartikel enthalten, können Sie eine spezielle Funktion verwenden, um die Zeile für den Montageartikel durch neue Zeilen für Komponenten zu ersetzen. Diese Funktion kann beispielsweise dann nützlich sein, wenn Sie die Komponenten als Kit verkaufen möchten, das den Montageartikel darstellt.
 
 Die Aktion **Stückliste auflösen** ist auch auf der Seite **Montagestückliste** verfügbar, um die Artikel der Unterbaugruppe in einer Montagestückliste anzuzeigen.
@@ -113,9 +119,12 @@ Der Einstandspreis einer Montagestückliste entspricht immer der Summe der Einst
 
 Die Einstandspreise der Artikel, aus denen die Montagestückliste besteht, werden anhand der Artikelkarten der Komponenten kopiert. Die Kosten jedes Artikels wird mit der Menge multipliziert und die Summe der Kosten wird auf der Montageartikelkarte im Feld **Einheitskosten** angezeigt.
 
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/set-up-assembly-items-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Siehe auch
+
 [Neue Artikel registrieren](inventory-how-register-new-items.md)  
-[Artikelverfügbarkeit anzeigen](inventory-how-availability-overview.md)     
+[Artikelverfügbarkeit anzeigen](inventory-how-availability-overview.md)  
 [Bestand](inventory-manage-inventory.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

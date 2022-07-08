@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.for: 291, 292, 293, 295, 517, 9010, 9038
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 508061c70d86a5f199acec5c052c354c769c8f51
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 7a8aeed07a17e19de22e751ac6c11959096a412a
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516640"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9079064"
 ---
 # <a name="planning"></a>Planung
 
@@ -45,11 +45,13 @@ Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Themen,
 |Anzeigen des voraussichtlich verfügbaren Lagerbestands eines Artikels in verschiedenen Ansichten und Anzeigen des beeinflussenden Bruttobedarfs sowie der beeinflussenden geplanten Auftragseingänge und anderer Ereignisse im Laufe der Zeit|[Artikelverfügbarkeit anzeigen](inventory-how-availability-overview.md)|  
 <!--|Wählen Sie Planungsaktivitäten wie ändern oder hinzufügen von Planungsarbeitsblattszeilen, in einer grafischen Ansicht des Beschaffungsplans aus.|[Ändern von Planungsvorschlägen in einer grafischen Ansicht](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)|-->
 
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/plan-items-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Siehe auch
 
 [Produktion einrichten](production-configure-production-processes.md)  
 [Produktion](production-manage-manufacturing.md)  
-[Lagerbestand](inventory-manage-inventory.md)  
+[Bestand](inventory-manage-inventory.md)  
 [Einkauf](purchasing-manage-purchasing.md)  
 [Entwurfsdetails: Vorratsplanung](design-details-supply-planning.md)  
 [Bewährte Einrichtungsmethoden: Beschaffungsplanung](setup-best-practices-supply-planning.md)  

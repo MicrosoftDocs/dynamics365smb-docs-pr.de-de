@@ -9,12 +9,12 @@ ms.search.keywords: VAT, VAT rate, posting, tax, value-added tax
 ms.search.form: 550,
 ms.date: 06/16/2021
 ms.author: andregu
-ms.openlocfilehash: ce98367d08c399e8c1a93140bad6fbecd04dda95
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: a71497451c56053b1f3c76a1bc58262ec2eb7ca7
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135393"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9079116"
 ---
 # <a name="managing-vat-rate-changes"></a>Verwalten von Änderungen des Mehrwertsteuersatzes
 
@@ -104,6 +104,8 @@ Sie verwenden das MwSt.-Satz-Änderungstool, um Änderungen im Standard-MwSt.-Sa
 
 > [!IMPORTANT]  
 > Nachdem die Umrechnung abgeschlossen ist, wird das Feld **Konvertiert** in der Tabelle **Protokollposten für MwSt.-Satzänderung** ausgewählt und das Feld **Konvertierungsdatum** in der Tabelle **Protokollposten für MwSt.-Satzänderung** wird mit dem Umrechnungsdatum ausgefüllt.  
+
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/rate-change-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Siehe auch
 

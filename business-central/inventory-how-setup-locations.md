@@ -10,12 +10,12 @@ ms.search.keywords: warehouse, distribution center
 ms.search.forms: 5703, 15
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 9de6580971f25d092de474c0720b86fab420bbf8
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 870effafbd38cdee0733097fa6fb0c0340fa77b8
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8515511"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077267"
 ---
 # <a name="set-up-locations"></a>Einrichten von Lagerorten
 
@@ -27,6 +27,7 @@ Sie können dann Belegzeilen für einen bestimmten Lagerplatz erstellen, Verfüg
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4aQvq?rel=0]
 
 ## <a name="location-cards"></a>Lagerortkarten
+
 Auf der Seite **Standortkarte** geben Sie Informationen über einen Standort an, z.B. ein Lager oder ein Vertriebszentrum. Sie vergeben für jeden Lagerort einen Namen und einen Code, der den Lagerort darstellt. Sie können dann den Lagerortcode auch in anderen Bereichen des Programms angeben, wenn Sie die Transaktionen für einen bestimmten Lagerort speichern möchten.  
 
 Sie können Informationen zu Lagerplätzen und Lagerrichtlinien für jeden Lagerort eingeben. Basierend auf den von Ihnen ausgewählten Lagerrichtlinien können Sie die Optionen des Inforegisters **Lagerplätze** verwenden, um die Lagerplätze zu definieren, die bei bestimmten Transaktionen als Standardlagerplätze verwendet werden. Wenn Sie die gesteuerte Einlagerung und Kommissionierung verwenden, verwenden Sie die meisten Optionen im Inforegister **Lagerplatzprüfung**, um festzulegen, wie Sie die zahlreichen erweiterten Logistikfunktionen verwenden möchten.  
@@ -76,9 +77,12 @@ Wenn Sie Ihre Lagerplätze nach Zonen strukturieren möchten, haben Sie auf der 
 Sie können jedoch auch nur eine Zone einrichten und Ihr Lager einfach auf Lagerplatzebene verwalten. Weitere Informationen finden Sie unter [Lagerortverwaltung einrichten](warehouse-setup-warehouse.md).  
 
 ## <a name="default-dimensions-for-locations"></a>Standarddimensionen für Standorte
+
 Sie legen Standarddimensionen für einen Standort auf der **Standortkarte**-Seite festlegen, indem Sie **Standort** und dann **Dimensionen** auswählen. Die Standarddimensionen des Standorts werden in Journale und Dokumente kopiert, wenn Sie den Standort in einer Zeile angeben, aber Sie können die Dimension in der Zeile bei Bedarf löschen oder ändern. Sie können verlangen, dass Personen Dimensionen für bestimmte Standorte angeben, bevor sie einen Eintrag veröffentlichen können. Sie können auch Standortdimensionswerte in **Standarddimensionsprioritäten** und **Dimensionskombinationen** für Kombinationen aus Prioritäts- und Dimensionsregeln einbeziehen.
 
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/trade-set-up-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Siehe auch
 
 [Verwalten des Lagerbestands](inventory-manage-inventory.md)  
 [Lagerbestand zwischen Lagerplätzen umlagern](inventory-how-transfer-between-locations.md)  
