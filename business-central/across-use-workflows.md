@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: b7e6574567e07b42187d3e33cfbf7f99e13096f8
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 4f66b334df678ff27e094858dd0cec44c1bb8e75
+ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077371"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9130226"
 ---
 # <a name="use-workflows"></a>Workflows verwenden
 
@@ -52,21 +52,21 @@ Der Workflow ist jedoch erst dann genehmigt, wenn alle Anträge von den Genehmig
 > [!NOTE]  
 > Es ist nicht möglich, einen Workflow mit mehreren Genehmigern zu erstellen und zu erwarten, dass der gesamte Workflow genehmigt wird, nachdem die erste Anfrage genehmigt wurde. Alle Anträge müssen genehmigt werden, damit der Workflow genehmigt werden kann.
 
-Sie können Workflows festlegen und verwenden, die von verschiedenen Benutzern ausgeführte Geschäftsprozessaufgaben miteinander verbinden. Es ist auch möglich, denselben Workflow mehr als einmal zu erstellen. Jeder Workflow wird durch ein Ereignis mit unterschiedlichen Filtern ausgelöst. Dies ist nützlich, wenn eine Genehmigungsanfrage in einer Abteilung von einem Genehmiger genehmigt werden muss, während Genehmigungsanfragen in anderen Abteilungen von einem anderen Genehmiger genehmigt werden müssen. Systemaufgaben, wie automatische Buchung, können als Schritte in Workflows berücksichtigt werden, vor oder nach Benutzeraufgaben. Die Anforderung oder Bewilligung von Genehmigungen zum Erstellen neuer Datensätze sind typische Workflowschritte.  
+Sie können Workflows festlegen und verwenden, die von verschiedenen Benutzern ausgeführte Geschäftsprozessaufgaben miteinander verbinden. Es ist auch möglich, denselben Workflow mehr als einmal zu erstellen. Jeder Workflow kann durch ein Ereignis mit unterschiedlichen Filtern ausgelöst werden. Dies ist nützlich, wenn eine Genehmigungsanfrage in einer Abteilung von einem Genehmiger genehmigt werden muss, während Genehmigungsanfragen in anderen Abteilungen von einem anderen Genehmiger genehmigt werden müssen. Systemaufgaben, wie automatische Buchung, können als Schritte in Workflows berücksichtigt werden, vor oder nach Benutzeraufgaben. Die Anforderung oder Bewilligung von Genehmigungen zum Erstellen neuer Datensätze sind typische Workflowschritte.  
 
- Bevor Sie beginnen können, Workflows zu verwenden, müssen Sie Workflowbenutzer einrichten, die Workflows erstellen, möglicherweise Codeanpassung berücksichtigen und angeben, wie Benutzer Benachrichtigungen empfangen sollen. Weitere Informationen erhalten Sie unter [Workflows einrichten](across-set-up-workflows.md).  
+Bevor Sie beginnen können, Workflows zu verwenden, müssen Sie Workflowbenutzer einrichten, die Workflows erstellen, möglicherweise Codeanpassung berücksichtigen und angeben, wie Benutzer Benachrichtigungen empfangen sollen. Weitere Informationen erhalten Sie unter [Workflows einrichten](across-set-up-workflows.md).  
 
 > [!NOTE]  
 > Typische Workflowschritte drehen sich um Benutzer, die Genehmigungen für Aufgaben anfordern, und Genehmiger, die Genehmigungsanforderungen annehmen oder ablehen. Daher beschäftigen sich viele Themen in Bezug auf die Verwendung von Workflows mit Genehmigungen.  
 
- Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Themen, die sie beschreiben..  
+ Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Artikeln, die sie beschreiben.  
 
-|**Aufgabe**|**Informationen**|  
+|**Prozess**|**Siehe**|  
 |------------|-------------|  
 |Richten Sie einen Workflow ein, der gestartet wird, wenn das erste Einstiegspunktereignis auftritt.|[Aktivieren von Workflows](across-how-to-enable-workflows.md)|  
 |Anforderung der Genehmigung einer Aufgabe, Akzeptieren oder Delegieren von Genehmigungen oder Ablehnen von Genehmigungen, und Senden oder Anzeigen von Genehmigungsbenachrichtigungen.|[Artikelgenehmigungsworkflow verwenden](across-how-use-approval-workflows.md)|  
 |Erstellen Sie Workflowschritte, die einen bestimmten Datensatztyp für die Verwendung vor einem bestimmten Ereignis einschränken (beispielsweise, bevor der Datensatz genehmigt wird).|[Zulassen und Einschränken des Verbrauchs eines Datensatzes](across-how-to-restrict-and-allow-usage-of-a-record.md)|  
-|Zeigen Sie Workflowschrittinstanzen mit dem Status „Abgeschlossen“ an.|[Anzeigen von archivierten Workflowschritt-Instanzen](across-how-to-view-archived-workflow-step-instances.md)|  
+|Zeigen Sie Workflowschrittinstanzen mit dem Status **Abgeschlossen** an.|[Archivierte Workflowschritt-Instanzen anzeigen](across-how-to-view-archived-workflow-step-instances.md)|  
 |Löschen Sie einen Workflow, den Sie mit Gewissheit nicht mehr verwenden werden.|[Löschen eines Workflows](across-how-to-delete-workflows.md)|  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/create-workflows/)

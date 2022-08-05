@@ -9,21 +9,23 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: d4d2134945f0beb15853bc9cca227cde74285c9d
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 276e80b622bc0dceb5280e7a4a95e7583ac89a8e
+ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9074511"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9129632"
 ---
 # <a name="walkthrough-setting-up-and-using-a-purchase-approval-workflow"></a>Exemplarische Vorgehensweise: Einrichten und Nutzen eines Einkaufsanfrage-Genehmigungsworkflows
 
-Sie können den Genehmigungsprozesses für neuen oder geänderten Datensätze, z. B. Dokumente, Buch.-Blattzeilen und Debitorenkarten automatisieren, indem Sie Workflows mit Schritten für die entsprechenden Genehmigungen erstellen. Bevor Sie Genehmigungsworkflows erstellen, müssen Sie einen Genehmiger und einen Stellvertreter für jeden Genehmigungsbenutzer einrichten. Sie können außerdem die Grenzbeträge für die Genehmiger festlegen, um zu definieren, für welche Verkaufs- und Einkaufsdatensätze sie für eine Genehmigung qualifiziert sind. Genehmigungsanforderungen und andere Benachrichtigungen können als E-Mail oder interne Notiz gesendet werden. Für jede Genehmigungsbenutzereinrichtung können Sie angeben wann dieser Benachrichtigungen erhält.
+Sie können den Genehmigungsprozesses für neuen oder geänderten Datensätze, z. B. Dokumente, Buch.-Blattzeilen und Debitorenkarten automatisieren, indem Sie Workflows mit Schritten für die entsprechenden Genehmigungen erstellen.
+
+Bevor Sie Genehmigungsworkflows erstellen, müssen Sie einen Genehmiger und einen Stellvertreter für jeden Genehmigungsbenutzer einrichten. Sie können außerdem die Grenzbeträge für die Genehmiger festlegen, um zu definieren, für welche Verkaufs- und Einkaufsdatensätze sie für eine Genehmigung qualifiziert sind. Genehmigungsanforderungen und andere Benachrichtigungen können als E-Mail oder interne Notiz gesendet werden. Für jede Genehmigungsbenutzereinrichtung können Sie angeben wann dieser Benachrichtigungen erhält.
 
 > [!NOTE]
 > Zusätzlich zur Workflowfunktionalität in [!INCLUDE[prod_short](includes/prod_short.md)] ist die Power Automate-Integration möglich, um Workflows für Ereignisse in [!INCLUDE[prod_short](includes/prod_short.md)] zu verwenden. Beachten Sie, dass, obwohl es zwei verschiedene Workflowsysteme sind, eine mit Power Automate erstellte Flow-Vorlage der Liste von Workflow-Vorlagen in [!INCLUDE[prod_short](includes/prod_short.md)] hinzugefügt wird. Weitere Informationen finden Sie unter [Business Central in einem automatisierten Workflow nutzen](across-how-use-financials-data-source-flow.md).  
 
- Sie können Workflows festlegen und verwenden, die von verschiedenen Benutzern ausgeführte Geschäftsprozessaufgaben miteinander verbinden. Systemaufgaben, wie automatische Buchung, können als Schritte in Workflows berücksichtigt werden, vor oder nach Benutzeraufgaben. Die Anforderung oder Bewilligung von Genehmigungen zum Erstellen neuer Datensätze sind typische Workflowschritte. Weitere Informationen finden Sie unter [Workflow](across-workflow.md).  
+Sie können Workflows festlegen und verwenden, die von verschiedenen Benutzern ausgeführte Geschäftsprozessaufgaben miteinander verbinden. Systemaufgaben, wie automatische Buchung, können als Schritte in Workflows berücksichtigt werden, vor oder nach Benutzeraufgaben. Die Anforderung oder Bewilligung von Genehmigungen zum Erstellen neuer Datensätze sind typische Workflowschritte. Weitere Informationen finden Sie unter [Workflow](across-workflow.md).  
 
 ## <a name="about-this-walkthrough"></a>Informationen zu dieser exemplarischen Vorgehensweise
 
@@ -37,7 +39,7 @@ In dieser exemplarischen Vorgehensweise werden folgende Aufgaben erläutert:
 
 ## <a name="story"></a>Hintergrund
 
-Stephan ist ein Superuser bei CRONUS. Er erstellt zwei Genehmigungsbenutzer. Der eine ist Christine, die einen Einkäufer darstellt. Der andere ist er selbst. Er ist der Genehmiger für Alicia. Stephan gibt sich selbst unbegrenzten Rechte zur Genehmigung und legt fest, dass er Benachrichtigungen über eine interne Notiz bei einem entsprechendes Ereignis erhält. Als letztes erstellt erstellt Stephan den erforderlichen Genehmigungsworkflow als Kopie der vorhandenen Workflow-Vorlage "Workflow Einkaufsbestellungsgenehmigung". Er übernimmt alle Ereignisbedingungen unverändert und aktiviert dann den Workflow.  
+Stephan ist ein Superuser bei CRONUS. Er erstellt zwei Genehmigungsbenutzer. Der eine ist Christine, die einen Einkäufer darstellt. Der andere ist er selbst. Er ist der Genehmiger für Alicia. Stephan gibt sich selbst unbegrenzten Rechte zur Genehmigung und legt fest, dass er Benachrichtigungen über eine interne Notiz bei einem entsprechendes Ereignis erhält. Als letztes erstellt erstellt Stephan den erforderlichen Genehmigungsworkflow als Kopie der vorhandenen Workflow-Vorlage *Workflow Einkaufsbestellungsgenehmigung*. Er übernimmt alle Ereignisbedingungen unverändert und aktiviert dann den Workflow.  
 
 Um den Genehmigungsworkflow zu testen, meldet sich Sean zunächst bei [!INCLUDE[prod_short](includes/prod_short.md)] als Alicia an und beantragt dann die Genehmigung einer Bestellung. Sean meldet sich dann selbst an, sieht die Notiz auf seinem Rollencenter, folgt dem Link zur Genehmigungsanforderung für die Bestellung und genehmigt die Anforderung.  
 
@@ -66,7 +68,7 @@ Wenn Sie sich als Sie selbst angemeldet haben, richten Sie Alicia als Genehmigun
 
 ### <a name="setting-up-notifications"></a>Einrichten von Benachrichtigungen
 
-In dieser exemplarischen Vorgehensweise wird der Benutzer über eine interne Notiz über die Genehmigung benachrichtigt. Die Genehmigungsbenachrichtigung kann auch per E-Mail erfolgen, und Sie können einen Workflow-Antwortschritt hinzufügen, der den Absender benachrichtigt, wenn eine Anforderung genehmigt oder abgelehnt wird. Weitere Informationen finden Sie unter [Definieren Sie, wann und wie Sie Benachrichtigungen möchten](across-how-to-specify-when-and-how-to-receive-notifications.md).
+In dieser exemplarischen Vorgehensweise wird ein Benutzer über eine interne Notiz über die Genehmigung benachrichtigt. Die Genehmigungsbenachrichtigungen können auch per E-Mail gesendet werden, und Sie können einen Workflow-Antwortschritt hinzufügen, der den Absender benachrichtigt, wenn eine Anforderung genehmigt oder abgelehnt wird. Weitere Informationen finden Sie unter [Definieren Sie, wann und wie Sie Benachrichtigungen möchten](across-how-to-specify-when-and-how-to-receive-notifications.md).
 
 #### <a name="to-set-up-how-and-when-you-are-notified"></a>So legen Sie fest, wie und wann Sie benachrichtigt werden
 
@@ -78,7 +80,7 @@ In dieser exemplarischen Vorgehensweise wird der Benutzer über eine interne Not
 
 ## <a name="creating-the-approval-workflow"></a>Erstellen des Genehmigungsworkflows
 
-Erstellen Sie den Einkaufsbestellungs-Genehmigungsworkflow, indem Sie die Schritte aus der Vorlage **Einkaufsbestellungs-Genehmigungsworkflow** kopieren. Lassen Sie die vorhandenen Workflowschritte unverändert, und aktivieren Sie dann den Workflow.  
+Erstellen Sie den Bestellungsgenehmigungsworkflow, indem Sie die Schritte aus der Vorlage **Bestellungsgenehmigungsworkflow** kopieren. Lassen Sie die vorhandenen Workflowschritte unverändert, und aktivieren Sie dann den Workflow.  
 
 > [!TIP]
 > Optional fügen Sie für Genehmigungsworkflows einen Workflow-Antwortschritt hinzu, um den Absender zu benachrichtigen, wenn die Anforderung genehmigt oder abgelehnt wurde. Weitere Informationen finden Sie unter [Definieren Sie, wann und wie Sie Benachrichtigungen möchten](across-how-to-specify-when-and-how-to-receive-notifications.md).
@@ -89,10 +91,10 @@ Erstellen Sie den Einkaufsbestellungs-Genehmigungsworkflow, indem Sie die Schrit
 2. Wählen Sie auf der Seite **Arbeitsabläufe** die Option **Aktionen**, **Neu** und dann die Aktion **Neuer Workflow aus Vorlage** aus.  
 3. Wählen Sie auf der Seite **Workflow-Vorlage** die Worklow-Vorlage **Einkaufsbestellung-Genehmigungsworkflow** aus.  
 
-    Die Seite **Workflow** wird für einen neuen Workflow geöffnet, der alle Informationen der ausgewählten Vorlage enthält. Der Wert im Feld **Code** wird mit **-01** erweitert. Dies zeigt an, dass dies der erste Workflow ist, der von der *Einkaufsbestellungs-Genehmigungsworkflow*-Workflow-Vorlage erstellt wurde.  
-4. Aktivieren Sie im Kopfbereich der **Workflow**-Seite das **Aktiviert**-Kontrollkästchen.  
+   Die Seite **Workflow** wird für einen neuen Workflow geöffnet, der alle Informationen der ausgewählten Vorlage enthält. Der Wert im Feld **Code** wird mit **-01** erweitert. Dies zeigt an, dass dies der erste Workflow ist, der aus der Vorlage *Bestellungsgenehmigungsworkflow* erstellt wurde.  
+4. Aktivieren Sie in der Kopfzeile der Seite **Workflow** das Kontrollkästchen **Aktiviert**.  
 
-## <a name="use-the-approval-workflow"></a>Den Genehmigungsworkflow nutzen
+## <a name="use-the-approval-workflow"></a>Genehmigungsworkflow verwenden
 
 Verwenden Sie den neuen Workflow zur Genehmigung von Bestellungen, indem Sie sich zuerst bei [!INCLUDE[prod_short](includes/prod_short.md)] als Alicia anmelden, um die Genehmigung einer Bestellung zu beantragen. Melden Sie sich dann als Sie selbst an, lesen Sie die Notiz im Rollencenter, folgen Sie dem Link zur Genehmigungsanfrage und genehmigen Sie die Anfrage.  
 
@@ -100,7 +102,7 @@ Verwenden Sie den neuen Workflow zur Genehmigung von Bestellungen, indem Sie sic
 
 1. Melden Sie sich als Alicia an.
 2. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Einkaufsbestellungen** ein, und wählen Sie dann den zugehörigen Link.  
-3. Wählen Sie die Zeile aus, um die Bestellung 106001 zu öffnen.  
+3. Wählen Sie die Zeile aus, um die *Bestellung 106001* zu öffnen.  
 4. Wählen Sie auf der Seite **Einkaufsbestellung** die Option **Aktionen**, **Genehmigungsanforderung** und anschließend die Aktion **Genehmigungsanforderung senden** aus.  
 
 Beachten Sie, dass sich der Wert im Feld **Status** zu **Genehmigung ausstehend** ändert.  
@@ -113,13 +115,13 @@ Beachten Sie, dass sich der Wert im Feld **Status** zu **Genehmigung ausstehend*
 
 Der Wert im Feld **Status** auf der Einkaufsbestellung von Alicia ändert sich zu **Freigegeben**.  
 
-Sie haben jetzt einen einfachen Genehmigungsworkflow auf Grundlage die ersten beiden Schritte der Workflow-Vorlage Einkaufsbestellungs-Genehmigungsworkflow eingerichtet und getestet. Sie können diesen Workflow sehr einfach erweitern, um Alicias Einkaufsbestellung automatisch zu buchen, wenn Sean sie genehmigt. Hierzu müssen Sie den Workflow "Workflow Einkaufsrechnung" aktivieren. In diesem wird eine genehmigte Einkaufsrechnung gebucht. Zuerst müssen Sie die Ereignisbedingung im ersten Workflowschritt aus (Einkauf ) **Rechnung** zu **Auftrag** ändern.  
+Sie haben jetzt einen einfachen Genehmigungsworkflow auf Grundlage die ersten beiden Schritte des **Bestellungsgenehmigungs-Workflows** eingerichtet und getestet. Sie können diesen Workflow sehr einfach erweitern, um Alicias Einkaufsbestellung automatisch zu buchen, wenn Sean sie genehmigt. Hierzu müssen Sie den **Einkaufsrechnungs-Workflow** aktivieren, bei dem die Reaktion auf eine freigegebene Einkaufsrechnung darin besteht, diese zu buchen. Zuerst müssen Sie die Ereignisbedingung im ersten Workflowschritt aus (Einkauf ) **Rechnung** zu **Auftrag** ändern.  
 
-Die Basisversion von [!INCLUDE[prod_short](includes/prod_short.md)] umfasst mehrere Workflowvorlagen für Szenarien, die durch den Anwendungscode unterstützt werden. Die meisten dieser Worflowvorlagen sind Genehmigungsworkflows.  
+Die Basisversion von [!INCLUDE[prod_short](includes/prod_short.md)] umfasst viele Workflowvorlagen für Szenarien, die durch den Anwendungscode unterstützt werden. Die meisten dieser Vorlagen sind Genehmigungsworkflows.  
 
 Sie definieren Workflowsvariationen, indem Sie die Felder in den Workflowzeilen über vordefinierte vom Anwendungscode unterstützten Listen mit Ereignissen und Reaktionen ausfüllen. Weitere Informationen finden Sie unter [Workflows erstellen](across-how-to-create-workflows.md).  
 
-Wenn ein Szenario ein Workflowereignis oder -antwort benötigt, die nicht unterstützt wird, muss ein Microsoft-Partner diese implementieren, indem er den Workflow mithilfe von Power Automate anpasst. Weitere Informationen finden Sie unter [[!INCLUDE[prod_short](includes/prod_short.md)] in einem automatisierten Workflow verwenden](across-how-use-financials-data-source-flow.md) oder [Veranstaltungen in AL](/dynamics365/business-central/dev-itpro/developer/devenv-events-in-al) in der Entwicklerhilfe.
+[!INCLUDE[workflow](includes/workflow.md)]
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/use-approval-workflows/)
 

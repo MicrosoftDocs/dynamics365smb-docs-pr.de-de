@@ -7,12 +7,12 @@ ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: 83678c6c81b29a524405699425be877459b6568d
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: bebdf73fd1b01a3c750a3d91496a8f5bb87f8db4
+ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9075317"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9129640"
 ---
 # <a name="troubleshooting-the-shopify-and-business-central-synchronization"></a>Fehlerbehebung bei der Synchronisierung zwischen Shopify und Business Central
 
@@ -77,7 +77,7 @@ Die folgenden Prozeduren beschreiben, wie Sie den Access Token, der vom Shopify 
 ### <a name="in-shopify"></a>In Shopify
 
 1. Gehen Sie in Ihrem **Shopify Admin** zu [Apps](https://www.shopify.com/admin/apps).
-2. In der Zeile mit der App **Dynamics 365 Business Central** wählen Sie **Löschen**.
+2. Wählen Sie in der Zeile mit der App **Dynamics 365 Business Central** die Option **Löschen** aus.
 3. In der angezeigten Nachricht wählen Sie **Löschen**.
 
 ### <a name="in-prod_short"></a>In [!INCLUDE[prod_short](../includes/prod_short.md)]

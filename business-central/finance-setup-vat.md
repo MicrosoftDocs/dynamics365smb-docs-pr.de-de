@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
 ms.search.form: 10, 1877, 470, 471, 472
-ms.date: 04/12/2022
+ms.date: 07/08/2022
 ms.author: bholtorf
-ms.openlocfilehash: 98a190594dbd2b37f949bdc51e7f810dd739b769
-ms.sourcegitcommit: 4853614c85beb347091c5c4c1ea8d974dec887fc
+ms.openlocfilehash: 60943e508e382bbbaa46d92a102a96ad70fed432
+ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8740311"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9130118"
 ---
 # <a name="set-up-calculations-and-posting-methods-for-value-added-tax"></a>Berechnungen einrichten und Buchungsmethoden für Mehrwertsteuer
 
@@ -167,10 +167,25 @@ Sie können eine MwSt.-Klausel ändern oder löschen, und Ihre Änderungen werde
 
 ### <a name="to-specify-translations-for-vat-clauses"></a>Um Beschreibungen für Mehrwertsteuerklauseln festzulegen
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet 11.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol, geben Sie **MWSt.-Klauseln** ein und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion 11 öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol, geben Sie **MWSt.-Klauseln** ein und wählen Sie dann den entsprechenden Link.  
 2. Wählen Sie die Aktion **Übersetzung** aus.  
 3. Im **Sprachcode** Feld wählen Sie die Sprache aus, in die Sie übersetzen.  
 4. Geben Sie in den Feldern **Beschreibung** und **Beschreibung 2** den Text ein, der eine Übersetzung der Beschreibungen ist. Dieser Text wird in den übersetzten MwSt.-Berichten angezeigt.  
+
+### <a name="to-specify-extended-text-for-vat-clauses"></a>So legen Sie Textbausteine für Mehrwertsteuerklauseln fest
+
+> [!NOTE]  
+> Wenn Ihr Land oder Ihre Region einen längeren Text für die MwSt.-Klauseln erfordert, als die Standardversion unterstützt, können Sie den längeren Text für die MwSt.-Klauseln als *Textbaustein* angeben, damit dieser in den Verkaufs- und Einkaufsberichten gedruckt wird.  
+
+1. Wählen Sie das Symbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion 11 öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **MWSt.-Klauseln** ein, und wählen Sie dann den entsprechenden Link aus.  
+2. Wählen Sie die Aktion **Textbaustein** aus.  
+3. Füllen Sie die Felder **Code** und **Beschreibung** aus.  
+3. Wählen Sie die Aktion **Neu**.  
+4. Wählen Sie optional das Feld **Alle Sprachcodes** aus, oder geben Sie die entsprechende Sprache im Feld **Sprachcode** an, wenn Sie Sprachcodes verwenden.  
+5. Füllen Sie die Felder **Startdatum** und/oder **Enddatum** aus, wenn Sie die Verwendung des Textbausteins zeitlich einschränken möchten.  
+6. Geben Sie den Textbaustein für Ihre MwSt.-Klauseln in den Zeilen für **Text** ein.  
+7. Wählen Sie die entsprechenden Felder für die Belegtypen aus, deren Textbausteine gedruckt werden sollen.  
+8. Die Seite schließen.  
 
 ## <a name="create-a-vat-posting-setup-to-handle-import-vat"></a>Erstellen Sie eine MwSt.-Buchungseinrichtung zur Behandlung der Import-MwSt.
 
@@ -178,9 +193,9 @@ Sie verwenden die Funktion *Import-MwSt.*, wenn Sie einen Beleg buchen müssen, 
 
 Gehen Sie folgendermaßen vor, um Codes für die Einfuhrsteuerfelder festzulegen:  
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet 12.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol, geben Sie **Mw.-Produktbuchungsgruppen** ein, und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie das Symbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion 12 öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Mw.-Produktbuchungsgruppen** ein, und wählen Sie dann den entsprechenden Link aus.  
 2. Auf der Seite MwSt Produktbuchungsgruppe richten Sie eine neue MwSt.-Produktbuchungsgruppen für Einfuhrsteuer ein.  
-3. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet 13.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol, geben Sie **MwSt.-Buchungseinrichtung** ein und wählen Sie dann den entsprechenden Link.  
+3. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion 13 öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **MwSt.-Buchungseinrichtung** ein, und wählen Sie dann den entsprechenden Link aus.  
 4. Auf der Seite MwSt Buchungseinrichtung erstellen Sie eine neue Zeile oder nutzen einen bestehende MwSt-Buchungsgruppe in Kombination mit der neuen MwSt.-Produktbuchungsgruppe für die Einfuhrsteuer.  
 5. Wählen Sie im Feld **MwSt.-Berechnungsart** **Volle MwSt.** aus.  
 6. Geben Sie im Feld **Vorsteuerkonto** das Sachkonto an, auf das Sie Einfuhrumsatzsteuer buchen wollen. Alle anderen Konten sind optional.  

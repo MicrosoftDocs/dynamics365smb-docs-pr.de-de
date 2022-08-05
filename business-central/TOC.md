@@ -440,7 +440,7 @@
 ### [Produkte verkaufen](sales-how-sell-products.md)
 ### [Kommissionierliste drucken](sales-how-print-picking-list.md)
 ### [Verkauf buchen](ui-post-sales.md)
-### [Erstellen Sie wiederkehrende Verkaufs- und Einkaufszeilen](sales-how-work-standard-lines.md)
+### [Wiederkehrende Verkaufszeilen erstellen](sales-how-work-standard-lines.md)
 ### [Direktlieferungen machen](sales-how-drop-shipment.md)
 ### [Spezialaufträge erstellen:](sales-how-to-create-special-orders.md)
 ### [Verarbeiten einer Verkaufsrücklieferung oder von Stornierungen](sales-how-process-sales-returns-cancellations.md)
@@ -472,9 +472,9 @@
 ### [Arbeiten mit Pauschalbestellungen](sales-how-to-create-blanket-sales-orders.md)
 ### [Externe Belegnummern auf Einkaufsbelegen](purchasing-ext-doc-no.md)
 ### [Externe Belegnummern eingeben](across-enter-external-document-numbers.md)
+### [Wiederkehrende Einkaufszeilen erstellen](purchasing-how-work-recurring-purchase-lines.md)
 
-
-## Lagerbestand
+## Inventar
 ### [Lagerbestand – Übersicht](inventory-manage-inventory.md)
 ### [Bestands- und Lagerberichte](inventory-WMS-reports.md)
 ### [Neue Artikel registrieren](inventory-how-register-new-items.md)
@@ -1472,6 +1472,7 @@
 #### [Verkäufe festlegen](sales-setup-sales.md)
 #### [Registriert einen neuen Debitor](sales-how-register-new-customers.md)
 #### [Aktivieren von Debitoren-Zahlungen durch Zahlungsverkehr](sales-how-enable-payment-service-extensions.md)
+#### [Preise und Rabatte einrichten](across-prices-and-discounts.md)
 #### [Sonderverkaufspreise und Rabatte Datensätze erfassen](sales-how-record-sales-price-discount-payment-agreements.md)
 #### [Debitorenpreisgruppen festlegen](sales-how-to-set-up-customer-price-groups.md)
 #### [Debitorenrabattgruppen einrichten](sales-how-to-set-up-customer-discount-groups.md)
@@ -1483,9 +1484,11 @@
 ### Einkäufe einrichten
 #### [Einkäufe einrichten](purchasing-setup-purchasing.md)
 #### [Registriert einen neuen Kreditor](purchasing-how-register-new-vendors.md)
-#### [Besondere Verkaufspreise und Rabatte aufzeichnen](purchasing-how-record-purchase-price-discount-payment-agreements.md)
+#### [Kreditoren-Bankkonto einrichten](purchasing-how-set-up-vendors-bank-accounts.md)
 #### [Kreditoren priorisieren](purchasing-how-prioritize-vendors.md)
 #### [Einkäufer einrichten](purchasing-how-setup-purchasers.md)
+#### [Preise und Rabatte einrichten](across-prices-and-discounts.md)
+#### [Besondere Verkaufspreise und Rabatte aufzeichnen](purchasing-how-record-purchase-price-discount-payment-agreements.md)
 ### Bestand einrichten
 #### [Lager einrichten](inventory-setup-inventory.md)
 #### [So richten Sie allgemeine Lagerbestandsinformationen ein](inventory-how-setup-general.md)
@@ -1772,6 +1775,7 @@
 ### [Benutzereinstellungen und Präferenzen verwalten](admin-manage-user-settings-preferences.md)
 ### [Drucker einrichten](ui-specify-printer-selection-reports.md)
 ### [Datensensitivität klassifizieren](admin-classifying-data-sensitivity.md)
+### [Status der Datenschutzhinweise](privacy-notices-status.md)
 ### [Antworten auf Anforderungen zu Personendaten](admin-responding-to-requests-about-personal-data.md)
 ### [Neue Unternehmen erstellen](about-new-company.md)
 ### [Protokolländerungen](across-log-changes.md)

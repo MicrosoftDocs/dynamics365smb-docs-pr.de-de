@@ -1,6 +1,6 @@
 ---
 title: Genehmigungsbenutzer einrichten
-description: Bevor Sie Workflows erstellen können, die Genehmigungsschritte beinhalten, müssen Sie die an den Genehmigungsprozessen beteiligten Workflow-Benutzer mit Genehmigungsbenutzereinrichtung festlegen.
+description: Bevor Sie Workflows erstellen können, die Genehmigungsschritte beinhalten, müssen Sie die an den Genehmigungsprozessen beteiligten Workflow-Benutzer auf der Seite „Genehmigungsbenutzereinrichtung“ festlegen.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 663
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 7602481a357a9b9e362a7b6fc0d605de04f44537
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: e4bb6345a55eedabdf433dbb84a7bf0c7f64d215
+ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8129207"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9129794"
 ---
 # <a name="set-up-approval-users"></a>Genehmigungsbenutzer einrichten
 
@@ -46,7 +46,7 @@ Bevor Sie Workflows erstellen können, die Genehmigungsschritte betreffen, müss
     |**Unbegrenzte Anfragegenehmigung**|Geben Sie an, dass der Benutzer im Feld **Benutzer-ID** alle Einkaufsangebote unabhängig von ihrem Betrag genehmigen kann.<br /><br /> Wenn Sie dieses Kontrollkästchen aktivieren, können Sie das Feld **Verkaufsbetrag-Genehmigungslimite anfordern** nicht ausfüllen.|  
     |**Stellvertreter**|Wählen Sie die ID des Benutzers aus, der Anforderungen vom Benutzer im Feld **Benutzer-ID** genehmigen muss, wenn der Benutzer unter **Genehmiger-ID** nicht verfügbar ist. <br /><br />**Hinweis:**  Der Ersatz kann entweder der Benutzer im Feld **Stellvertreter**, der direkten Genehmiger oder der Genehmigungsadministrator sein (in dieser Prioritätenreihenfolge). Weitere Informationen erhalten Sie unter [Genehmigungsworkflow verwenden](across-how-use-approval-workflows.md).|  
     |**E-Mail**|Geben Sie die E-Mail-Adresse des Benutzers im Feld **Benutzer-ID** an.|  
-    |**Genehmigungsadministrator**|Geben Sie den Benutzer an, der berechtigt ist, gesperrte Genehmigungsworkflow freizugeben, beispielsweise durch das Delegieren von Genehmigungsanforderungen an neue Ersatzgenehmiger und das Löschen von fälligen Genehmigungsanforderungen.|
+    |**Genehmigungsadministrator**|Geben Sie den Benutzer an, der über Rechte zum Entsperren des Genehmigungsworkflows verfügt. Beispielsweise durch das Delegieren von Genehmigungsanforderungen an neue Ersatzgenehmiger und das Löschen von fälligen Genehmigungsanforderungen.|
 
     > [!Note]
     > Nur eine Person kann der Genehmigungsadministrator sein.|
@@ -54,14 +54,16 @@ Bevor Sie Workflows erstellen können, die Genehmigungsschritte betreffen, müss
 3. Wählen Sie zum Testen der Genehmigungsbenutzereinrichtung die Aktion **Genehmigungsbenutzereinrichtung - Test** aus.  
 4. Wiederholen Sie die Schritte 2 und 3 für jeden Benutzer, den Sie als Genehmigungsbenutzer einrichten möchten.  
 
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/create-workflows/)
+
 ## <a name="see-also"></a>Siehe auch
 
-[Einrichten von Workflowbenutzern](across-how-to-set-up-workflow-users.md)   
-[Einrichten von Workflowbenachrichtigungen](across-setting-up-workflow-notifications.md)   
-[Erstellen eines Workflows](across-how-to-create-workflows.md)   
-[Einrichten von Workflows](across-set-up-workflows.md)   
-[Exemplarische Vorgehensweise: Einrichten und Nutzen eines Einkaufsgenehmigungsworkflows](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
-[Workflow](across-workflow.md)   
+[Einrichten von Workflowbenutzern](across-how-to-set-up-workflow-users.md)  
+[Einrichten von Workflowbenachrichtigungen](across-setting-up-workflow-notifications.md)  
+[Erstellen eines Workflows](across-how-to-create-workflows.md)  
+[Einrichten von Workflows](across-set-up-workflows.md)  
+[Beispielhafte Vorgehensweise: Einrichten und Verwenden eines Workflows zur Genehmigung von Käufen](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
+[Workflow](across-workflow.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

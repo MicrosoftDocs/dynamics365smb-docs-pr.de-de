@@ -10,28 +10,28 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.search.form: 103, 104, 197, 196, 195, 198, 490, 764, 765, 766
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 32ca89daf15485057cf9ef8b86ff9090bb12d037
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 8984d007f2082c6a21a3d2226a20f2ad585b131a
+ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8512360"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9129732"
 ---
 # <a name="prepare-financial-reporting-with-account-schedules-and-account-categories"></a>Bereiten Sie Finanzberichte mit Kontenschemata und Kontengruppen vor
 
-Verwenden von Kontenplan, um die Einblicke in die Finanzdaten zu kommen, die in Ihrem Kontenplan gespeichert werden. Verwenden von Kontenschemata zum Analysieren der Werte auf Sachkonten oder zum Vergleichen von Sachposten mit Finanzbudgetposten. Die Ergebnisse werden in den Diagrammen in Ihrem Rollencenter angezeigt, wie der Cashflowplan und Berichten, wie den GuV und den Bilanzberichten.
+Verwenden von Kontenplan, um die Einblicke in die Finanzdaten zu kommen, die in Ihrem Kontenplan gespeichert werden. Verwenden von Kontenschemata zum Analysieren der Werte auf Sachkonten oder zum Vergleichen von Sachposten mit Finanzbudgetposten. Die Ergebnisse werden in Diagrammen und Berichten in Ihrem Rollencenter angezeigt, darunter der Cashflowplan sowie die GuV- und Bilanzberichte.
 
 Sie rufen diese beiden Berichte beispielsweise mit der Aktion **Finanzverhältnis-Abrechnungen** im Business Manager und Buchhalter Rollen-Centers ab.  
 
-[!INCLUDE[prod_short](includes/prod_short.md)] enthält mehrere Beispielkontenschemata, die Sie verwenden können , oder Sie können eigene Zeilen und Spalten einrichten, um die Werte anzugeben und zu vergleichen. So können beispielsweise Kontenschemata zur Berechnung von Gewinnmargen für Dimensionen wie beispielsweise Abteilungen oder Debitorengruppen erstellen. Das bedeutet, dass Sie so viele maßgeschneiderte Finanzaufstellungen erstellen können, wie Sie möchten.  
+[!INCLUDE[prod_short](includes/prod_short.md)] bietet Musterkontopläne, die Sie sofort verwenden können. Sie können auch Ihre eigenen Zeilen und Spalten einrichten, um die zu vergleichenden Zahlen anzugeben. Sie können beispielsweise Kontenschemata zur Berechnung von Gewinnmargen für Dimensionen, z. B. Abteilungen oder Debitorengruppen, erstellen. Die Anzahl der benutzerdefinierten Finanzaufstellungen, die Sie erstellen können, ist unbegrenzt.  
 
-Das Einrichten von Kontenschemata erfordert ein Verständnis für die Finanzdaten im Kontenplan. Sie können beispielsweise die Sachposten als prozentualen Anteil der Budgetposten sehen. Dazu ist es erforderlich, dass Budgets erstellt werden. Weitere Informationen finden Sie unter [Sachkonto-Budgets erstellen](finance-how-create-budgets.md).
+Das Einrichten von Kontenschemata erfordert ein Verständnis für die Finanzdaten im Kontenplan. Sie können beispielsweise die Sachposten als prozentualen Anteil der Finanzbudgetposten anzeigen. Dazu müssen Sie jedoch Budgets erstellt haben. Weitere Informationen finden Sie unter [Sachkonto-Budgets erstellen](finance-how-create-budgets.md).
 
 ## <a name="account-schedules"></a>Kontenschemata
 
-Kontenschemata dienen dazu, die Konten aus dem Kontenplan auf informative Weise anzuordnen. Durch die Möglichkeit zum Einrichten mehrerer Layouts können Sie die Informationen definieren, die Sie dem Kontenplan entnehmen möchten. Eine der Hauptfunktionen eines Kontenschemas besteht in der Bereitstellung eines Orts für Berechnungen, die nicht direkt im Kontenplan vorgenommen werden können – beispielsweise zur Erstellung von Zwischensummen für Kontengruppen, die in neue Summen einbezogen und anschließend in anderen Summen verwendet werden können. So können Benutzer beispielsweise Kontenschemata zur Berechnung von Gewinnmargen für Dimensionen (beispielsweise Abteilungen oder Debitorengruppen) erstellen. Darüber hinaus besteht die Möglichkeit zum Filtern von Sachposten und Finanzbudgetposten – beispielsweise nach Bewegung oder Sollbetrag.
+Kontenschemata ordnen Konten aus Ihrem Kontenplan so an, dass Daten einfach dargestellt werden können. Durch die Möglichkeit zum Einrichten mehrerer Layouts können Sie die Informationen definieren, die Sie dem Kontenplan entnehmen möchten. Kontenschemata stellen einen Ort für Berechnungen bereit, die nicht direkt im Kontenplan vorgenommen werden können. Sie können beispielsweise Zwischensummen für Gruppen von Konten erstellen und diese Summe dann in andere Summen aufnehmen. Ein weiteres Beispiel ist die Berechnung von Gewinnmargen für Dimensionen wie Abteilungen oder Debitorengruppen. Darüber hinaus können Sie Sachposten und Finanzbudgetposten filtern, z. B. nach Bewegung oder Sollbetrag.
 
-Auch können mehrere Kontenschemata und Spaltenlayouts mithilfe von Formeln verglichen werden. Diese Art des Vergleichs ermöglicht Folgendes:
+Auch können mehrere Kontenschemata und Spaltenlayouts mithilfe von Formeln verglichen werden, die Ihnen die Ausführung der folgenden Aktionen ermöglichen:
 
 * Erstellen benutzerdefinierter Finanzberichte
 * Erstellen einer beliebigen Anzahl von Kontenschemata, jeweils mit eindeutigem Namen
@@ -50,28 +50,33 @@ Sie können Sachkontokategorien dazu verwenden, das Layout Ihrer Finanzberichte 
 
 Sie benutzen Kontenschemata zum Analysieren der Werte auf Sachkonten oder zum Vergleichen von Sachposten mit Finanzbudgetposten. Sie können beispielsweise die Sachposten als prozentualen Anteil der Finanzbudgetposten sehen.
 
-Die Kontenschemata in der Standardeinstellung sind [!INCLUDE[prod_short](includes/prod_short.md)] die Basis der Standardfinanzberichte, die möglicherweise nicht den Anforderungen Ihres Unternehmens entsprechen. Um Ihre eigenen Finanzberichte schnell erstellen zu können, beginnen Sie, indem Sie ein vorhandenes Kontenschema kopieren. Siehe dazu auch Schritt 3 unten.
+Die Kontenschemata in der Standardeinstellung sind [!INCLUDE[prod_short](includes/prod_short.md)] die Basis der Standardfinanzberichte, die möglicherweise nicht den Anforderungen Ihres Unternehmens entsprechen. Um Ihre eigenen Finanzberichte schnell erstellen zu können, beginnen Sie, indem Sie ein vorhandenes Kontenschema kopieren, wie in Schritt 3 beschrieben.
 
-Die Seite **Kontenschema. Planen Überblick** ist jene, auf der Sie Finanzbericht in der Vorschau sehen, die das Kontenschema definiert. Im Weiteren ist es wichtig zu verstehen, dass, was Sie einrichten, während Kontenschemazeilen und Spalten auf der Seite **Kontenschema. "Kontenschemamatrix** angezeigt werden und überprüft werden können, das Sie von einem Fenster öffnen, indem Sie die Aktion **Matrix** auswählen. Die Seite **Kontenschema** selbst ist nur ein Aufsetzbereich.  
+> [!TIP]
+> Nachdem Sie einen Kontenplan erstellt haben, können Sie die Seite **Kontenschemamatrix** verwenden, um eine Vorschau des Finanzberichts anzuzeigen und zu validieren, den der Kontenplan definiert. Wählen Sie zum Öffnen der Seite die Aktion **Übersicht** aus.  
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten"). Symbol. Geben Sie **Kontenschemata** ein und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie im Fenster **Kontoschema** auf der Registerkarte **Neu** die Option Neu aus, um einen neuen Kontenschemanamen zu erstellen.
-3. Im Fenster **Kontenplan kopieren** geben Sie die zwei Felder wie nötig ein, und wählen Sie dann die Schaltfläche **OK**.
+3. Wenn Sie alternativ Einstellungen aus einem vorhandenen Kontoplan wiederverwenden möchten, wählen Sie die Aktion **Kontoplan kopieren** aus.
 4. Füllen Sie die Felder nach Bedarf aus. Wählen Sie im Feld **Standard Spaltenlayout** ein vorhandenes Layout aus. Sie können diese bei Bedarf später bearbeiten.
 
-    Sie nutzen Spaltenlayouts, um Spalten für verschiedene Parameter festzulegen, durch die die Finanzdaten in den Zeilen angezeigt werden. Zum Beispiel können Sie ein Spalten-Layout gestalten, das Bewegung und Saldo für dieselbe Periode dieses und letzten Jahres mit vier Spalten vergleicht. Weitere Informationen finden Sie im Abschnitt [So erstellen Sie ein Spaltenlayout](bi-how-work-account-schedule.md#to-edit-a-column-layout).
+    Spaltenlayouts definieren Spalten für die Parameter, nach denen die Finanzdaten in den Zeilen angezeigt werden. Ein Spaltenlayout kann beispielsweise vier Spalten enthalten, anhand derer Sie Bewegung und Saldo für dieselbe Periode dieses und letzten Jahres vergleichen können. Weitere Informationen finden Sie im Abschnitt [So erstellen Sie ein Spaltenlayout](bi-how-work-account-schedule.md#to-edit-a-column-layout).
 
 5. Wählen Sie die **Kontenschema bearbeiten** Aktion aus.
-6. Erstellen Sie eine Zeile für jedes Finanzelement, dass im Bericht, wie eine Zeile für Umlaufvermögen und eine weitere Zeile für Anlagen erscheinen sollen. Für Inspiration finden Sie im CRONUS-Demounternehmen vorhandene Kontenschemata.
+6. Wählen Sie je nachdem, was Sie analysieren möchten, die Aktionen **Sachkonten einfügen**, **CF-Konten einfügen** und **Kostenarten einfügen** aus, um eine Zeile für jedes Finanzelement zu erstellen. Beispielsweise könnten Sie eine Zeile für Umlaufvermögen und eine andere für Anlagevermögen haben. Lassen Sie sich von den Kontenplänen des Demonstrationsunternehmens CRONUS inspirieren.
+
+    > [!NOTE]
+    > Im Feld **Zeilennr.** werden die ersten 10 Zeichen eines Bezeichners angezeigt, beispielsweise eine Kontonummer. Wenn Sie Bezeichner hinzufügen, die mit denselben 10 Zeichen beginnen, enthält das Feld **Zeilennr.** Duplikate . Bei Bedarf können Sie die Bezeichner nach dem Einfügen der Elemente manuell bearbeiten. Die vollständigen Bezeichner werden im Feld **Zusammenzählung** angezeigt.
+
 7. Wählen Sie die **Übersicht** Aktion aus, um den resultierenden Finanzbericht anzuzeigen.
 8. Auf der Seite **Kontenschema-Überblick** im Feld **Spaltenlayoutname** wählen Sie ein anderes Spaltenlayout aus, um die Finanzdaten durch andere Einstellungen anzuzeigen.
-9. Wählen Sie die Schaltfläche **OK** aus.
+9. Wählen Sie die Schaltfläche **OK**.
 
 Sie haben jetzt die Grundlage des Kontenschemas, die Zeilen von Finanzdaten, die angezeigt werden sollen und ein bestehendes Layout der Spalten definiert, um die Daten in den Zeilen für verschiedene Einstellungen anzuzeigen. Wenn Standard-Spaltenlayout, das Sie in Schritt 4 ausgewählt haben, nicht Ihrem Zweck entspricht, gehen Sie folgendermaßen vor.
 
 ### <a name="to-edit-a-column-layout"></a>Um ein Spaltenlayout zu bearbeiten
 
-Sie verwenden Spaltenlayouts, um festzulegen, welche Spalten in dem Bericht erscheinen sollen. Zum Beispiel können Sie ein Layout gestalten, das Bewegung und Saldo für dieselbe Periode dieses und letzten Jahres vergleicht. Sie können bis zu 15 Spalten verwenden. Dies ist beispielsweise hilfreich, wenn Sie Budgets für 12 Monate anzeigen und eine Spalte mit der Gesamtsumme einfügen möchten.
+Sie verwenden Spaltenlayouts, um festzulegen, welche Spalten in dem Bericht erscheinen sollen. Zum Beispiel können Sie ein Layout gestalten, das Bewegung und Saldo für dieselbe Periode dieses und letzten Jahres vergleicht. Sie können bis zu 15 Spalten haben, was beispielsweise hilfreich ist, um Budgets für 12 Monate mit einer Spalte anzuzeigen, die die Gesamtsumme anzeigt.
 
 > [!NOTE]
 > Beachten Sie, dass in einer gedruckten Version eines Kontenschemas höchstens fünf Spalten angezeigt werden können. Wenn das Kontenschema ausschließlich zur Analyse der Seite **Kontenschema. Planen Überblick** dient, können Sie so viele Spalten erstellen, wie Sie möchten.
@@ -86,7 +91,7 @@ Sie verwenden Spaltenlayouts, um festzulegen, welche Spalten in dem Bericht ersc
 
 ### <a name="to-create-a-column-that-calculates-percentages"></a>Eine Spalte zur Berechnung von Prozentsätzen erstellen:
 
-Manchmal möchten Sie möglicherweise eine Spalte in ein Kontenschema einfügen, in der Prozentsätze einer Summe berechnet werden. Wenn beispielsweise mehrere Zeilen vorhanden sind, in denen die Verkäufe nach Dimension aufgeschlüsselt sind, empfiehlt sich die Einrichtung einer Spalte, in der für jede Zeile der prozentuale Anteil an den Gesamtverkäufen angegeben ist.
+Manchmal möchten Sie möglicherweise eine Spalte in ein Kontenschema einfügen, in der Prozentsätze einer Summe berechnet werden. Wenn beispielsweise Zeilen vorhanden sind, die den Umsatz nach Dimensionen aufschlüsseln, empfiehlt sich die Einrichtung einer Spalte, die den prozentualen Anteil an den Gesamtverkäufen in jeder Zeile angibt.
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet 2.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Kontenschemata** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie im Fenster **Kontenschemanamen** ein Kontenschema aus.  
@@ -99,7 +104,7 @@ Manchmal möchten Sie möglicherweise eine Spalte in ein Kontenschema einfügen,
 
 ## <a name="to-set-up-account-schedules-with-overviews"></a>Kontenschemata mit Matrizen einrichten:
 
-Sie können eine Kontenschema zum Erstellen eines Vergleichs der in der Finanzbuchhaltung gebuchten Werte mit den Finanzbudgetwerten benutzen.
+Sie können eine Kontenschema verwenden, um einen Vergleichs der Finanzbudgetbeträge mit den Sachkonto-Budgetbeträgen zu erstellen.
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet 3.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Kontenschemata** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie im Fenster **Kontenschemanamen** ein Kontenschema aus.  
@@ -110,8 +115,8 @@ Sie können eine Kontenschema zum Erstellen eines Vergleichs der in der Finanzbu
 
     Die Konten sind damit in Ihr Kontenschema eingefügt. Wenn Sie möchten, können Sie auch das Spaltenlayout ändern.  
 7. Wählen Sie die Aktion **Übersicht** aus.  
-8. Auf der Seite **Kontoschema-Übersicht** im Inforegister **Dimensionenfilter** legen Sie den gewünschten Budgetfilter fest.  
-9. Wählen Sie die Schaltfläche **OK** aus.  
+8. Auf der Seite **Kontoschema-Übersicht** im Inforegister **Dimensionenfilter** legen Sie den Budgetfilter fest, den Sie verwenden möchten.  
+9. Wählen Sie die Schaltfläche **OK**.  
 
 Die Budgetaufstellung kann nun kopiert und in ein Arbeitsblatt eingefügt werden.  
 
@@ -119,9 +124,9 @@ Die Budgetaufstellung kann nun kopiert und in ein Arbeitsblatt eingefügt werden
 
 Ihr Kontenschema kann sich die Ergebnisse von verschiedenen Buchhaltungsperioden, wie diesen Monat mit jenem des Vorjahresmonat vergleichen. Öffnen Sie dazu die Seite **Spaltenlayout** und personalisieren Sie sie, indem Sie das Feld **Vergleichsperiodenformel** als Spalte hinzufügen. Weitere Informationen finden Sie unter [Personalisieren Sie Ihren Arbeitsbereich](ui-personalization-user.md). Sie können dieses Feld dann auf eine Periodenformel setzen.  
 
-Eine Buchhaltungsperiode muss nicht dem Kalender entsprechen, aber jedes Geschäftsjahr muss dieselbe Anzahl von Buchhaltungsperioden haben, selbst wenn jede Periode eine andere Länge haben kann.  
+Eine Buchhaltungsperiode muss nicht mit dem Kalender übereinstimmen. Jedes Geschäftsjahr muss jedoch dieselbe Anzahl von Buchhaltungsperioden aufweisen, selbst wenn jede Periode eine andere Länge haben kann.  
 
-[!INCLUDE[prod_short](includes/prod_short.md)] verwendet diese Periodenformel, um den Betrag der Vergleichsperiode in Bezug auf die Periode zu berechnen, die Sie im Datumsfilter des Anforderungsfensters im Bericht angegeben haben. Die Vergleichsperiode basiert auf der Periode des Startdatums des Datumsfilters. Für Periodenspezifikationen stehen folgende Abkürzungen zur Verfügung:
+[!INCLUDE[prod_short](includes/prod_short.md)] verwendet die Periodenformel, um den Betrag aus der Vergleichsperiode im Verhältnis zu der durch den Datumsfilter im Bericht dargestellten Periode zu berechnen. Die Vergleichsperiode basiert auf der Periode des Startdatums des Datumsfilters. Für Periodenspezifikationen stehen folgende Abkürzungen zur Verfügung:
 
 | Abkürzung | Beschreibung                                                                           |
 | ------------ | ------------------------------------------------------------------------------------- |
@@ -150,7 +155,7 @@ Wenn die Berechnung gemäß regulärer Zeitperioden erfolgen soll, muss eine For
 Weitere Informationen zu Datumsformeln finden Sie unter [Arbeiten mit Kalenderdaten und -zeiten](ui-enter-date-ranges.md).  
 
 ## <a name="import-or-export-account-schedules"></a>Import- oder Exportkontenpläne
-Sie können Kontenschemata als RapidStart-Konfigurationspakete importieren und exportieren. Dies ist beispielsweise hilfreich, um sie für andere Unternehmen freizugeben. Das Paket wird in einer .rapidstart-Datei erstellt werden, die Paketinhalte in einem komprimierten Format bereitstellt.
+Sie können Kontenschemata als RapidStart-Konfigurationspakete importieren und exportieren. Konfigurationspakete sind beispielsweise hilfreich, um sie für andere Unternehmen freizugeben. Das Paket wird in einer .rapidstart-Datei erstellt werden, die Paketinhalte in einem komprimierten Format bereitstellt.
 
 ### <a name="to-import-and-export-account-schedules"></a>Kontenschemata importieren und exportieren
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet 4.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Kontenschemata** ein und wählen Sie dann den zugehörigen Link.

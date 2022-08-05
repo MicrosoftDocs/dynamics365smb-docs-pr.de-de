@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 05/12/2022
 ms.author: edupont
-ms.openlocfilehash: 7ea61d359bbdaf0ac788a0fada151fe3e0ad5960
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: ab7d131e965b0698c6e33a0b1a43c8f408a7b1b2
+ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9075082"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9129902"
 ---
 # <a name="workflows-in-dynamics-365-business-central"></a>Workflows in Dynamics 365 Business Central
 
@@ -24,7 +24,7 @@ Die Standardversion von [!INCLUDE [prod_short](includes/prod_short.md)] unterst�
 
 * Automatisierte Genehmigungs-Workflows basierend auf integrierten Workflow-Vorlagen  
 
-  Auf der Seite **Workflow-Vorlagen** können Sie alle verfügbaren Workflows anzeigen. Die Testversion von [!INCLUDE[prod_short](includes/prod_short.md)] umfasst mehrere vorkonfigurierte Workflows, für die Workflowvorlagen vorliegen. Diese können Sie kopieren, um Workflows zu erstellen. Wenn Sie eine Workflow-Vorlage auf der Seite **Workflow-Vorlagen** öffnen und der Name des Workflows mit *MS-* beginnt, wird die Workflowvorlage von Microsoft hinzugefügt.  
+  Auf der Seite **Workflow-Vorlagen** können Sie alle verfügbaren Workflows anzeigen. Die Testversion von [!INCLUDE[prod_short](includes/prod_short.md)] umfasst viele vorkonfigurierte Workflows, für die Workflowvorlagen vorliegen. Diese können Sie kopieren, um Workflows zu erstellen. Wenn Sie eine Workflow-Vorlage auf der Seite **Workflow-Vorlagen** öffnen und der Name des Workflows mit *MS-* beginnt, wird die Workflowvorlage von Microsoft hinzugefügt.  
 * Automatisierte Abläufe, die Sie selbst einrichten  
 
   Jede mit Power Automate erstellte Workflowvorlage wird der Liste der Workflowvorlagen in [!INCLUDE[prod_short](includes/prod_short.md)] hinzugefügt. Weitere Informationen finden Sie unter [Business Central in Power Automate-Flows verwenden](across-how-use-financials-data-source-flow.md).  
@@ -32,13 +32,13 @@ Die Standardversion von [!INCLUDE [prod_short](includes/prod_short.md)] unterst�
 
 ## <a name="power-automate-flows"></a>Power Automate-Flows
 
-Für [!INCLUDE [prod_short](includes/prod_short.md)] Online können Sie sich bei Power Automate anmelden und dann leistungsstarke automatisierte Flows erstellen, die Sie über [!INCLUDE [prod_short](includes/prod_short.md)] ausführen können. Weitere Informationen finden Sie unter [[!INCLUDE[prod_short](includes/prod_short.md)] in Power Automate-Flows verwenden](across-how-use-financials-data-source-flow.md).  
+Mithilfe von [!INCLUDE [prod_short](includes/prod_short.md)] Online können Sie sich bei Power Automate anmelden und dann leistungsstarke automatisierte Flows erstellen, die Sie über [!INCLUDE [prod_short](includes/prod_short.md)] ausführen können. Weitere Informationen finden Sie unter [[!INCLUDE[prod_short](includes/prod_short.md)] in Power Automate-Flows verwenden](across-how-use-financials-data-source-flow.md).  
 
 ## <a name="automated-approval-workflows"></a>Automatisierte Genehmigungsworkflows
 
 Sie können einen Genehmigungsworkflow erstellen, indem Sie die entsprechenden Schritte in den Zeilen auflisten. Jeder Schritt besteht aus einem durch Ereignisbedingungen moderiertem Workflowereignis und einer durch Antwortoptionen moderierten Workflowantwort. Sie definieren Workflowschritte, indem Sie die Felder in Workflowzeilen mit Ereignis- und Antwortwerten aus festen Listen ausfüllen, die die Workflowszenarien darstellen, die durch den Anwendungscode unterstützt werden.  
 
-Wenn ein Geschäftsszenario ein Workflowereignis oder eine Reaktion erfordert, das/die in der Standardversion nicht unterstützt wird, registrieren Sie sich bei Power Automate. Weitere Informationen finden Sie unter [[!INCLUDE[prod_short](includes/prod_short.md)] in Power Automate-Flows verwenden](across-how-use-financials-data-source-flow.md). Holen Sie sich alternativ eine App, oder arbeiten Sie mit einem Microsoft-Partner zusammen, um den Anwendungscode anzupassen.  
+[!INCLUDE[workflow](includes/workflow.md)]
 
 Lesen Sie die folgenden Artikel, um Workflows, die nicht in Power Automate definiert sind, einzurichten und zu verwenden:  
 

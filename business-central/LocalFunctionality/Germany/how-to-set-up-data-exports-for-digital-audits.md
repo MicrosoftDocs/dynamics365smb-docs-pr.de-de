@@ -7,18 +7,26 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/18/2021
+ms.date: 06/27/2022
 ms.author: edupont
-ms.openlocfilehash: 4f4a21a1d19321986efbaa874dee904de477fd38
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 26603ae37d98bf45c1a819a42d76261066866730
+ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132248"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9129779"
 ---
 # <a name="set-up-data-exports-for-a-digital-audit-gobdgdpdu-in-the-german-version"></a>Datenexporte für eine digitale Betriebsprüfung (GoBD/GDPdU) in der deutschen Version festlegen
 
-Sie müssen die Exportdatensatzquellen einrichten, um Daten für eine digitale Prüfung entsprechend den Grundsätzen zum Datenzugriff und zur Prüfbarkeit digitaler Unterlagen (GDPdU) zu exportieren. Für jeden Datenexporttyp müssen Sie eine oder mehrere Datensatzquellen definieren, wobei jede Quelle eine Tabelle darstellt, aus der Daten exportiert werden sollen.  
+Sie müssen die Exportdatensatzquellen einrichten, um Daten für eine digitale Prüfung entsprechend den Grundsätzen zum Datenzugriff und zur Prüfbarkeit digitaler Unterlagen (GDPdU) zu exportieren. Für jeden Datenexporttyp müssen Sie eine oder mehrere Datensatzquellen definieren, wobei jede Quelle eine Tabelle darstellt, aus der Daten exportiert werden sollen. 
+
+> [!NOTE]  
+> Beim erstmaligen Öffnen der Seite **Datenexporte** werden drei Datenexportdatensätze mit vordefinierten Einstellungen mit den Codes **GLAcc 2022**, **FAAcc 2022** und **Item 2022** erstellt. Betrachten Sie diese Datenexport-Datensätze als vorgefertigte Vorlagen zum Exportieren von Daten aus [!INCLUDE[prod_short](../../includes/prod_short.md)] nach Anforderungen der Behörde.
+>
+> - **GLAcc 2022** kann zum Exportieren von Sachkonto-/Personendaten verwendet werden.
+> - **FAAcc 2022** kann zum Exportieren von Daten verwendet werden, die sich auf Anlagendaten beziehen.
+> - **Item 2022** kann zum Exportieren von Artikel- und Rechnungsdaten verwendet werden.
+
 
 ## <a name="to-set-up-a-data-export"></a>So richten Sie einen GDPdU-Datenexport ein  
 
@@ -59,13 +67,19 @@ Danach müssen Sie die Quelle für die zu exportierenden Daten definieren.
     |Feld|Description|  
     |---------------------------------|---------------------------------------|  
     |**Tabellennr.**|Wählen Sie die Nummer der Haupttabelle aus, aus der Daten exportiert werden sollen.<br /><br /> Wenn Sie einen Wert in Feld **Tabellennr.** eingeben das Feld **Tabellenname** wird aktualisiert.|  
-    |**Tabellenname exportieren**|Optional. Ändern Sie den vorgeschlagenen Namen der in der INDEX.XML-Datei verwendet wird während dem Export.<br /><br /> Der Wert des Felds **Tabellenname exportieren** wird verwendet, um die Datei INDEX.XML während des GDPdU-Datenexports zu generieren. Der Standardname ist der Name der Tabelle ohne Sonderzeichen aufgrund der Anforderungen des Prüftools.<br /><br /> **Tipp:** In den meisten Fällen basieren die Felder **Tabellenname exportieren** und **Exportdateiname** auf dem gleichen Wert.<br /><br /> Es kann Fälle geben, in denen Sie definieren, die selbe Tabelle mehrfach zu exportieren. Sie können verschiedene Export-Tabellennamen für jeden Tabelleneintrag auswählen, und die Export-Dateiname wird automatisch angepasst. Sie können den Export-Dateinamen ändern, solange er eindeutig ist.<br /><br /> [!INCLUDE[prod_short](../../includes/prod_short.md)] benennt automatisch die Dateien wie folgt.<br /><br /> **Tabellenname** Sachkonto<br /><br /> **Tabellenname exportieren**: Sachkonto<br /><br /> **Dateiname exportieren** Sachkonto.txt<br /><br /> **Tabellenname** Sachkonto<br /><br /> **Tabellenname exportieren:**: Sachkonto1<br /><br /> **Dateiname exportieren:** Sachkonto1.txt|  
+    |**Tabellenname exportieren**|Optional. Es wird eine Archivdatei mit den notwendigen Daten erstellt, die eine Datei INDEX.XML enthält. Sie können den vorgeschlagenen Namen, der in der INDEX.XML-Datei verwendet wird, während des Exports ändern. Der Standardname ist der Name der Tabelle ohne Sonderzeichen aufgrund der Anforderungen des Prüftools.<br /><br /> **Tipp:** In den meisten Fällen basieren die Felder **Tabellenname exportieren** und **Exportdateiname** auf dem gleichen Wert.<br /><br /> Es kann Fälle geben, in denen Sie definieren, die selbe Tabelle mehrfach zu exportieren. Sie können verschiedene Export-Tabellennamen für jeden Tabelleneintrag auswählen, und die Export-Dateiname wird automatisch angepasst. Sie können den Export-Dateinamen ändern, solange er eindeutig ist.<br /><br /> [!INCLUDE[prod_short](../../includes/prod_short.md)] benennt automatisch die Dateien wie folgt.<br /><br /> **Tabellenname** Sachkonto<br /><br /> **Tabellenname exportieren**: Sachkonto<br /><br /> **Dateiname exportieren** Sachkonto.txt<br /><br /> **Tabellenname** Sachkonto<br /><br /> **Tabellenname exportieren:**: Sachkonto1<br /><br /> **Dateiname exportieren:** Sachkonto1.txt|  
     |**Periodenfeldnr.**|Geben Sie einen Filter an, für den das Feld zum Erstellen des XML-Dokuments verwendet wird und legen Sie das Startdatum und das Enddatum des Berichts fest.<br /><br /> Wenn Sie zum Beispiel die Tabelle **Sachposten** als Quelldatei für den Datenexport auswählen, können Sie eines der Datumsfelder auswählen, die in dieser Tabelle stehen.|  
     |**Tabellenfilter**|Geben Sie ein Feld an, für das Sie einen Filter festlegen möchten.<br /><br /> Auf der Seite **Tabellenfilter** geben Sie Filtereinstellungen in der Spalte **Feldfilter** ein.<br /><br /> Beispielsweise können Sie ein Feld angeben, das Informationen über den Betrag überträgt. Sie können ein Datumsfeld festlegen und dafür einen Filter setzen, wenn Sie in einem Zeitraum unterschiedliche Startdaten setzen möchten. Enddatum. Sie können ein Datumsfeld nicht angeben und dafür einen Filter festlegen, wenn dasselbe Feld bereits im Feld Perioden-Gebiet " verwendet wird.|  
     |**Feldnr. Datumsfilter**|Definieren Sie ein Filterfeld, wenn die Tabelle eines hat.<br /><br /> Wenn die Tabelle mehr als einen Datumsfilter hat, definieren Sie keinen in diesem Feld.|  
     |**Behandlung von Datumsfiltern**|Geben Sie an, wie z. B. Datumsfilter bearbeitet werden sollen:<br /><br /> - \<blank\>: Es ist kein Filter festgelegt.<br /><br /> - Periode: Verwenden Sie das angegebene Startdatum und das Enddatum.<br /><br /> - Nur Enddatum: Verwenden Sie das Enddatum der Stapelverarbeitung.<br /><br /> - Nur Startdatum: Verwenden Sie das Startdatum - 1 der Stapelverarbeitung.|  
     |**Exportdateiname**|Geben Sie den Namen des Arbeitsblattes an, in die die Daten exportiert werden sollen.<br /><br /> Wenn die Tabelle beispielsweise **Sachkonto** ist, kann der Wert des **Tabellennamen exportieren** **Sachkonto** sein, und der Wert des Felds **Exportdateiname** kann **Sachkonto.txt** sein.|  
     |**Schlüsselnr.**|Optional. Definieren Sie das Schlüsselfeld.|
+
+    > [!NOTE]  
+    > Die Datei „INDEX.XML“ enthält Tabellen- und Feldnamen in englischer Sprache, die auf den Namen von Tabellen und Feldern basieren. Die Namen von Tabellen und Feldern werden in `<Name>` -Tags und Bildunterschriften in `<Description>` -Tags in der Datei INDEX.xml definiert.   
+    
+    > [!NOTE]  
+    > Tabellen- und Feldnamen werden unverändert geschrieben, einschließlich Leerzeichen, Punkten, Klammern usw. Die einzigen Zeichen, die aus den Namen entfernt werden, sind *&*, *'* (einfaches Anführungszeichen), *"* (doppeltes Anführungszeichen), *<* (Kleiner-als-Zeichen) und *>* (Größer-als-Zeichen).   
 
     Weitere Informationen finden Sie unter [GDPdU-Filterbeispiele](gdpdu-filter-examples.md).  
 

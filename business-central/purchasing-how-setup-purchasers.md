@@ -10,12 +10,12 @@ ms.search.keywords: purchasing agent
 ms.search.form: 14, 5116
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c9389ca6a888e81c67aa9e6421e20e5b43d35d38
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 15eaf7e799f12e1e2c1c4dca5328b354c8113af7
+ms.sourcegitcommit: 5560a49ca4ce85fa12e50ed9e14de6d5cba5f5c3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9078596"
+ms.lasthandoff: 07/13/2022
+ms.locfileid: "9144274"
 ---
 # <a name="set-up-purchasers"></a>Einkäufer einrichten
 
@@ -25,7 +25,7 @@ Falls in Ihrem Unternehmen mehrere Einkäufer tätig sind, können Sie diese auf
 
 ## <a name="to-set-up-purchasers"></a>So richten Sie Einkäufer ein
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Verkäufer/Einkäufer** ein und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Verkäufer/Einkäufer** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie auf der Seite **Verkäufer/Einkäufer** **Neu** aus.
 3. Füllen Sie auf der Seite **Verkäufer-/Einkäuferkarte** die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -39,9 +39,9 @@ Falls in Ihrem Unternehmen mehrere Einkäufer tätig sind, können Sie diese auf
 
 ## <a name="see-also"></a>Siehe auch
 
+[Registriert einen neuen Kreditor](purchasing-how-register-new-vendors.md)  
 [Einkaufeinrichten](purchasing-setup-purchasing.md)  
 [Verwalten von Verbindlichkeiten](payables-manage-payables.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
