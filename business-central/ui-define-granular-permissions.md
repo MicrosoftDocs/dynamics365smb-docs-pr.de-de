@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
 ms.search.form: 1, 119, 8930, 9800, 9807, 9808, 9830, 9831
-ms.date: 05/09/2022
+ms.date: 07/27/2022
 ms.author: edupont
-ms.openlocfilehash: 26dbf7e47c0159429aebd34e9167d9c3e7490ec6
-ms.sourcegitcommit: 2fa712d0aabe4287ebd4454c28d142d6baf045a0
+ms.openlocfilehash: 2b5bba12afb2fbb05dbfd3240088c2726f5d8337
+ms.sourcegitcommit: bb9b2b4e693fa326a13d94e5e83f60e6c7ac5b68
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/09/2022
-ms.locfileid: "8729829"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9227499"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Zuweisen von Berechtigungen zu Benutzern und Gruppen
 
@@ -82,6 +82,10 @@ Zur schnellen Definition einer neuen Benutzergruppe können Sie eine Funktion ve
 3. Im Feld **Neuer Benutzergruppencode** geben Sie einen Namen für die Gruppe an. Wählen Sie dann die Schaltfläche **OK** aus.
 
 Die neue Benutzergruppe wird die Seite **Benutzergruppen** hinzugefügt. Fahren Sie fort, um Benutzer hinzuzufügen. Weitere Informationen finden Sie im Abschnitt [So fügen Sie Benutzer einer Benutzergruppe hinzu](#to-add-users-to-a-user-group).  
+
+> [!IMPORTANT]
+> Sie erhalten einen Validierungsfehler, wenn Sie versuchen, dem Benutzer eine Benutzergruppe zuzuweisen, die sich auf einen Berechtigungssatz bezieht, der in einer nicht installierten Erweiterung definiert wurde. Dies liegt daran, dass die App-ID der Erweiterung überprüft wird, wenn darauf verwiesen wird. Um diese Benutzergruppe einem Benutzer zuzuweisen, können Sie entweder die Erweiterung neu installieren, die Referenz der deinstallierten Erweiterung aus dem Berechtigungssatz entfernen oder diesen Berechtigungssatz aus der Benutzergruppe entfernen.
+
 
 ### <a name="to-assign-permission-sets-to-user-groups"></a>So weisen Sie Berechtigungssätze Benutzergruppen zu
 

@@ -6,14 +6,14 @@ ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: project management, task
 ms.search.form: 88, 275, 276, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1020
-ms.date: 04/01/2021
+ms.date: 08/03/2022
 ms.author: edupont
-ms.openlocfilehash: 667cc445ed48bc7cf7d9af67567138a35a730934
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 8d70c11aa3d467ada4f7aae3a1cf3efa1603bbe4
+ms.sourcegitcommit: bb9b2b4e693fa326a13d94e5e83f60e6c7ac5b68
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9074692"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9227472"
 ---
 # <a name="create-jobs"></a>Projekt erstellen
 
@@ -43,7 +43,15 @@ Sie erstellen eine Projektkarte und erstellen dann Projektaufgabenzeilen und Pro
 3. Um das Projekt mit Informationen über andere Projekte anzugeben, wählen Sie die Aktion **Projekt kopieren** aus und ergänzen Sie die Felder wie nötig. Wählen Sie dann die Schaltfläche **OK** aus.
 
 > [!NOTE]  
->   Wenn Sie Arbeitszeittabellen bei Ihrem Projekt verwenden, müssen Sie auch eine verantwortliche Person angeben. Diese Person kann Arbeitszeittabellen für die Mitarbeiteraufgaben genehmigen, die dem Projekt zugeordnet sind. Weitere Informationen finden Sie unter [Einrichten von Arbeitszeittabellen](projects-how-setup-time-sheets.md).
+> Wenn Sie Arbeitszeittabellen bei Ihrem Projekt verwenden, müssen Sie auch eine verantwortliche Person angeben. Diese Person kann Arbeitszeittabellen für die Mitarbeiteraufgaben genehmigen, die dem Projekt zugeordnet sind. Weitere Informationen finden Sie unter [Zeittabellen festlegen](projects-how-setup-time-sheets.md).
+
+Markieren Sie optional Aktionen für das Projekt als blockiert, indem Sie das Feld **Blockiert** verwenden. In den folgenden Tabelle werden Auswirkungen der Optionen für dieses Feld beschrieben.
+
+|Option  |Description  |
+|---------|---------|
+|Leer |Alle Aktionen sind zulässig.|
+|Buchen    |Sie können mit Planungszeilen arbeiten, doch ist das Projekt für Buchungen gesperrt. Wenn Sie diese Option auswählen, können Sie keinen Verbrauch oder Verkauf für das Projekt buchen.|
+|Alle  |Alle Aktionen sind gesperrt.|
 
 ## <a name="to-create-tasks-for-a-job"></a>Aufgaben für ein Projekt erstellen
 

@@ -1308,6 +1308,7 @@
 ##### [Bericht 349](LocalFunctionality/Spain/report-349.md)  
 ##### [Bericht 349 erstellen](LocalFunctionality/Spain/how-to-create-report-349.md)  
 ##### [Einrichten von 340-Berichte für Kleinunternehmen](LocalFunctionality/Spain/how-to-set-up-340-reports-for-small-businesses.md)
+##### [SII für MwSt.-Abrechnung einrichten](LocalFunctionality/Spain/sii-setup.md)
 ##### [Erstellen von Vorlagen für Telematik-MwSt.-Abrechnungen im Textdateiformat](LocalFunctionality/Spain/how-to-create-templates-for-telematic-vat-statements-in-text-file-format.md)
 ##### [Erstellen von Vorlagen für Telematik-MwSt.-Abrechnungen im XML-Dateiformat](LocalFunctionality/Spain/how-to-create-templates-for-telematic-vat-statements-in-xml-file-format.md)
 ##### [MwSt.-Abrechnungen im XML-Format exportieren](LocalFunctionality/Spain/how-to-export-vat-statements-in-xml-format.md)  
@@ -1328,7 +1329,6 @@
 ##### [Forderungen- Wechselmodul](LocalFunctionality/Spain/receivables-cartera-module.md)
 ##### [Zahlungswechselmodul](LocalFunctionality/Spain/payments-cartera-module.md)
 ##### [SII - Rechnung und Gutschrift mobiler Belegarten in Einkaufs- und Verkaufsbelegen](LocalFunctionality/Spain/SII-invoice-types-sales-purchase-documents.md)
-##### [SII für MwSt.-Abrechnung einrichten](LocalFunctionality/Spain/sii-setup.md)
 #### Kernfinanzierung
 ##### [Einrichten und Abschließen von GuV-Salden](LocalFunctionality/Spain/how-to-set-up-and-close-income-statement-balances.md)
 ##### [Kontenpläne einrücken und validieren](LocalFunctionality/Spain/how-to-indent-and-validate-chart-of-accounts.md)
