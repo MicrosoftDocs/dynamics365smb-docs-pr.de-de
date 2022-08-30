@@ -9,16 +9,16 @@ ms.workload: na
 ms.search.form: 672, 673, 674, 671
 ms.date: 10/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9ed56b0724b19d971b8dc98ea79807423403fd83
-ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
+ms.openlocfilehash: 081f900836f97d6630608aade4251272ee1a1ff1
+ms.sourcegitcommit: b353f06e0c91aa6e725d59600f90329774847ece
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9129765"
+ms.lasthandoff: 08/19/2022
+ms.locfileid: "9317434"
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Verwenden von Aufgabenwarteschlangen für die Aufgabenplanung
 
-Die Aufgabenwarteschlangen ermöglichen es Benutzern, bestimmte Berichte und Codeunits zu planen und auszuführen. Die Projekte können entweder einmalig oder wiederholt ausgeführt werden. So kann es beispielsweise empfehlenswert sein, den Bericht **Verkäufer * Verkäuferstatistik** wöchentlich auszuführen, um die Verkaufserfolge eines Verkäufers zu beobachten, oder die Codeunit **Genehmigungsanforderungen delegieren** täglich auszuführen, um zu verhindern, dass sich Belege ansammeln.
+Die Aufgabenwarteschlangen ermöglichen es Benutzern, bestimmte Berichte und Codeunits zu planen und auszuführen. Die Projekte können entweder einmalig oder wiederholt ausgeführt werden. So kann es beispielsweise empfehlenswert sein, den Bericht **Verkäufer – Verkäuferstatistik** wöchentlich auszuführen, um die Verkaufserfolge eines Verkäufers zu beobachten, oder die Codeunit **Genehmigungsanforderungen delegieren** täglich auszuführen, um zu verhindern, dass sich Belege ansammeln.
 
 Im Fenster **Projektwarteschlangeneinträge** sind alle aktuellen Aufgabenwarteschlangenposten aufgelistet. Wenn Sie eine neue Aufgabenwarteschlangeneintrag hinzufügen, den Sie planen möchten, müssen Sie einige Informationen bereitstellen. Beispiel:
 * Der Objekttyp, den Sie ausführen möchten, z. B. ein Bericht oder eine Codeunit. Sie müssen über die Berechtigung zum Ausführen des jeweiligen Berichts oder der Codeunit verfügen.
@@ -47,7 +47,7 @@ Für jeden Projektwarteschlangeneintrag können Sie den Status anzeigen und änd
 
 Die folgende Tabelle beschreibt die Werte im Feld **Status**.
 
-| Status | Description |
+| Status | Beschreibung |
 |--|--|
 | Bereit | Die Aufgabenwarteschlange für die Ausführung bereit ist. |
 | In Bearbeitung | Der Aufgabenwarteschlangenposten ist in Bearbeitung. Dieses Feld wird aktualisiert, während die Aufgabenwarteschlange ausgeführt wird. |

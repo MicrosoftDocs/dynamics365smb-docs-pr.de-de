@@ -1,18 +1,18 @@
 ---
 title: Fehlerbehebung bei der Synchronisierung zwischen Shopify und Business Central
 description: Erfahren Sie, was zu tun ist, wenn bei der Synchronisierung von Daten zwischen Shopify und Business Central etwas schief gelaufen ist
-ms.date: 05/16/2022
+ms.date: 08/19/2022
 ms.topic: article
 ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: bebdf73fd1b01a3c750a3d91496a8f5bb87f8db4
-ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
+ms.openlocfilehash: 4ccbe8ac97eba568ff82d965f24b86ab58c95f81
+ms.sourcegitcommit: b353f06e0c91aa6e725d59600f90329774847ece
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9129640"
+ms.lasthandoff: 08/19/2022
+ms.locfileid: "9317245"
 ---
 # <a name="troubleshooting-the-shopify-and-business-central-synchronization"></a>Fehlerbehebung bei der Synchronisierung zwischen Shopify und Business Central
 
@@ -22,7 +22,7 @@ Es kann vorkommen, dass Sie bei der Synchronisierung von Daten zwischen Shopify 
 
 Wenn eine Synchronisierungsaufgabe fehlschlägt, können Sie die Protokollierung aktivieren, indem Sie den Schalter **Protokollierung aktivieren** in der **Shopify Shop-Karte** aktivieren. Lösen Sie die Synchronisierungsaufgabe manuell aus und überprüfen Sie die Protokolle.
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion 1.](../media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") öffnet. Symbol, geben Sie **Shopify Protokolleinträge** ein und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion 1.](../media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") öffnet. Symbol, geben Sie **Shopify Protokolleinträge** ein und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie den zugehörigen Protokolleintrag aus, und öffnen Sie das Fenster **Shopify-Protokolleintrag**.
 3. Überprüfen Sie die Anfrage, den Statuscode und die Beschreibung sowie die Antwort.
 
@@ -86,6 +86,16 @@ Die folgenden Prozeduren beschreiben, wie Sie den Access Token, der vom Shopify 
 2. Wählen Sie den Shop, für den Sie den Access-Token rotieren möchten, um die Seite **Shopify Shop-Karte** zu öffnen.
 3. Wählen Sie die Aktion **Zugriff anfordern**.
 4. Wenn Sie dazu aufgefordert werden, melden Sie sich bei Ihrem an Shopify-Konto an, überprüfen Sie den Datenschutz und die Berechtigungen, und wählen Sie dann die Schaltfläche **App installieren** aus.
+
+## <a name="known-issues"></a>Bekannte Probleme
+
+### <a name="gen-bus-posting-group-must-have-a-value-in-customer-it-cannot-be-zero-or-empty"></a>Gen. Geschäftsbuchungsgruppe muss einen Wert in Debitor haben. Sie darf nicht leer sein.
+
+Füllen Sie das Feld **Kundenvorlagencode** im Fenster **Shopify Shop-Karte** mit der Vorlage aus, in der **Geschäftsbuchungsgruppe** ausgefüllt ist. Die Debitorenvorlage wird nicht nur für die Erstellung von Debitoren, sondern auch für die Berechnung des Verkaufspreises und bei der Erstellung von Verkaufsdokumenten verwendet.
+
+### <a name="importing-data-to-your-shopify-shop-isnt-enabled-go-to-the-shop-card-to-enable-it"></a>Importieren von Daten in Ihren Shopify Shop ist nicht aktiviert. Gehen Sie zur Shop-Karte, um sie zu aktivieren.
+
+Aktivieren Sie im Fenster **Shopify Shop-Karte** **Datensynchronisierung mit Shopify zulassen**.  Dieser Umschalter soll den Online-Shop davor schützen, Demo-Daten aus [!INCLUDE[prod_short](../includes/prod_short.md)] abzurufen.
 
 ## <a name="see-also"></a>Siehe auch
 
