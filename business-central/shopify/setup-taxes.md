@@ -1,17 +1,17 @@
 ---
 title: Steuern für Shopify Verbindung einrichten
 description: So richten Sie Steuern in Shopify und Business Central ein.
-ms.date: 05/27/2022
+ms.date: 08/19/2022
 ms.topic: article
 ms.service: dynamics365-business-central
 author: AndreiPanko
 ms.author: andreipa
-ms.openlocfilehash: 0070d583752002cc34ebff74dee2906c289b7136
-ms.sourcegitcommit: b353f06e0c91aa6e725d59600f90329774847ece
+ms.openlocfilehash: 4146a84aae98b97b9486d4b5fa53ad663d6d5f91
+ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/19/2022
-ms.locfileid: "9317490"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "9362190"
 ---
 # <a name="set-up-taxes-for-the-shopify-connection"></a>Steuern für Shopify Verbindung einrichten
 
@@ -19,16 +19,16 @@ In diesem Artikel untersuchen wir, wie verschiedene Einstellungen in Shopify sic
 
 Der Artikel geht davon aus, dass Sie beim Verkauf von Waren im In- oder Ausland steuerpflichtig sind.
 
-## <a name="if-you-sell-domestically"></a>Wenn Sie im Inland verkaufen 
+## <a name="if-you-sell-domestically"></a>Wenn Sie im Inland verkaufen
 
-Sobald Sie Ihr Shopify konfiguriert haben, um Steuern in Ihrem Heimatland oder Ihrer Heimatregion zu erheben, können Sie entscheiden, wie Sie die Preise auf Ihrer Storefront anzeigen möchten. Sie steuern dies, indem Sie **Alle Preise verstehen sich inklusive Mehrwertsteuer** umschalten in den [**Steuern und Zölle**](https://www.shopify.com/admin/settings/taxes)-Einstellungen in Ihrem **Shopify Administrator**.
+Sobald Sie Ihr Shopify konfiguriert haben, um Steuern in Ihrem Heimatland oder Ihrer Heimatregion zu erheben, können Sie entscheiden, wie Sie die Preise auf Ihrer Storefront anzeigen möchten.
+Sie steuern dies, indem Sie **Alle Preise verstehen sich inklusive Mehrwertsteuer** umschalten in den [**Steuern und Zölle**](https://www.shopify.com/admin/settings/taxes)-Einstellungen in Ihrem **Shopify Administrator**.
 
 Es ist üblich, diesen Schalter für Länder wie Australien, Österreich, Belgien, die Tschechische Republik, Dänemark, Finnland, Frankreich, Deutschland, Island, Italien, die Niederlande, Neuseeland, Norwegen, Spanien, Schweden, die Schweiz und die Tschechische Republik und Vereinigtes Königreich zu aktivieren. In Märkten wie diesen enhält der Preis *100 EUR*, der auf der Produktkarte definiert ist, bereits die Mehrwertsteuer (MwSt.) und derselbe Preis wird dem Kunden im Geschäft und an der Kasse angezeigt.  
 
 In den USA und Kanada erwarten Kunden Produktpreise ohne Steuern, die an der Kasse hinzugefügt werden. So ist das Feld **Alle Preise verstehen sich inklusive Mehrwertsteuer** normalerweise nicht ausgewählt. In diesem Fall ist der Preis *$100* in der Produktkarte ohne MwSt. An der Kasse werden Steuern zusätzlich zum Preis hinzugefügt, um die Kassensumme zu berechnen.
 
 Um das Szenario zu unterstützen, wo **Alle Preise inklusive Mehrwertsteuer** auf der Seite [!INCLUDE[prod_short](../includes/prod_short.md)] ausgewählt ist, füllen Sie das Feld **Debitorenvorlagencode** auf der Seite **Shopify -Shop-Karte** aus für den Zugriff auf die Vorlage mit den folgenden definierten Feldern:  
-<!--I changed that last part of the sentence above because it didn't track logically. Just wanted to let you know in case I introduced an inaccuracy.-->
 
 1. **Allgemeine Geschäftsbuchungsgruppe**, für inländische Debitoren.  
 2. **MwSt.-Geschäftsbuchungsgrp.**, für inländische Debitoren.  
@@ -41,13 +41,13 @@ Definieren Sie nun Artikelpreise im Feld **Artikelkarte** oder **Verkaufspreisli
 
 ## <a name="if-you-sell-internationally"></a>Wenn Sie international verkaufen
 
-In diesem Abschnitt untersuchen wir Einstellungen für Szenarien, in denen Sie Steuern erheben müssen, wenn Sie in ein anderes Land verkaufen, z. B. andere Länder in der EU. 
+In diesem Abschnitt untersuchen wir Einstellungen für Szenarien, in denen Sie Steuern erheben müssen, wenn Sie in ein anderes Land verkaufen, z. B. andere Länder in der EU.
 
 Derzeit unterstützt die Erweiterung **Shopify Connector** nur den Export eines Preises. Shopify wendet automatisch lokale Steuern, Währungen und Rundungen an. Der Schalter **Alle Preise verstehen sich inklusive Mehrwertsteuer** führt zu den Aktionen, die in den folgenden Unterabschnitten beschrieben werden.
 
 ### <a name="all-prices-include-tax-is-selected"></a>*Alle Preise verstehen sich inklusive Mehrwertsteuer* ist ausgewählt
 
-||Inlandsverkäufe|Ausland, in dem Sie Steuern erheben|Ausland, in dem Sie keine Steuern erheben|
+|-|Inlandsverkäufe|Ausland, in dem Sie Steuern erheben|Ausland, in dem Sie keine Steuern erheben|
 |------------------------|--------|--------|--------|
 |Angezeigter Preis in der Storefront|1200|1200|1200|
 |Steuersatzprozentsatz|20|25|0|
@@ -57,7 +57,7 @@ Der Preis für den Kunden bleibt unabhängig von seinem Standort intakt, aber Ih
 
 ### <a name="all-prices-include-tax-is-not-selected"></a>*Alle Preise verstehen sich inklusive Mehrwertsteuer* ist nicht ausgewählt
 
-||Inlandsverkäufe|Ausland, in dem Sie Steuern erheben|Ausland, in dem Sie keine Steuern erheben|
+|-|Inlandsverkäufe|Ausland, in dem Sie Steuern erheben|Ausland, in dem Sie keine Steuern erheben|
 |------------------------|--------|--------|--------|
 |Angezeigter Preis in der Storefront|1000|1000|1000|
 |Steuersatzprozentsatz|20|25|0|
@@ -67,8 +67,7 @@ Shopify fügt lokale Steuern zu dem auf der Produktkarte definierten Preis hinzu
 
 ## <a name="dynamic-tax-inclusive-pricing"></a>Dynamische Preise inklusive Steuern
 
-Da verschiedene Länder unterschiedliche Anforderungen haben, je nachdem, ob Sie Steuern in den angezeigten Preis einschließen oder nicht, können Sie [Dynamische Preise inklusive Steuern](https://help.shopify.com/en/manual/markets/pricing/dynamic-tax-inclusive-pricing) in Shopify aktivieren. Dies automatisiert die Steuereinschlussfunktion. 
-<!--I added the last sentence to complete the thought. I hope that's okay.-->
+Da verschiedene Länder unterschiedliche Anforderungen haben, je nachdem, ob Sie Steuern in den angezeigten Preis einschließen oder nicht, können Sie [Dynamische Preise inklusive Steuern](https://help.shopify.com/en/manual/markets/pricing/dynamic-tax-inclusive-pricing) in Shopify aktivieren. Dies automatisiert die Steuereinschlussfunktion.
 
 Wählen Sie **Steuern basierend auf dem Land Ihres Debitors einschließen oder ausschließen** im Abschnitt **Andere Märkte – Präferenzen** der Einstellungen [**Märkte**](https://www.shopify.com/admin/settings/markets) in Ihrem **Shopify Administrator**.  
 
@@ -77,7 +76,7 @@ Wählen Sie **Steuern basierend auf dem Land Ihres Debitors einschließen oder a
 
 ### <a name="all-prices-include-tax-is-selected"></a>*Alle Preise verstehen sich inklusive Mehrwertsteuer* ist ausgewählt
 
-||Inlandsverkäufe|Ausland, in dem die Steuer im Preis inbegriffen ist|Ausland, in dem die Steuer im Preis nicht inbegriffen ist|
+|-|Inlandsverkäufe|Ausland, in dem die Steuer im Preis inbegriffen ist|Ausland, in dem die Steuer im Preis nicht inbegriffen ist|
 |------------------------|--------|--------|--------|
 |Angezeigter Preis in der Storefront|1200|1250|1000|
 |Steuersatzprozentsatz|20|25|10|
@@ -87,7 +86,7 @@ Der Preis für jeden Kunden ändert sich je nach Standort.
 
 ### <a name="all-prices-include-tax-is-not-selected"></a>*Alle Preise verstehen sich inklusive Mehrwertsteuer* ist nicht ausgewählt
 
-||Inlandsverkäufe|Ausland, in dem die Steuer im Preis inbegriffen ist|Ausland, in dem die Steuer im Preis nicht inbegriffen ist|
+|-|Inlandsverkäufe|Ausland, in dem die Steuer im Preis inbegriffen ist|Ausland, in dem die Steuer im Preis nicht inbegriffen ist|
 |------------------------|--------|--------|--------|
 |Angezeigter Preis in der Storefront|1000|1250|1000|
 |Steuersatzprozentsatz|20|25|10|
@@ -110,7 +109,7 @@ Aktivieren Sie die Option **Mehrwertsteuer einbehalten** im Abschnitt **Europäi
 
 ### <a name="collect-vat-set-to-one-stop-shop-registration"></a>Sammeln Sie die Mehrwertsteuer, die auf die One-Stop-Shop-Registrierung eingestellt ist
 
-Im folgenden Beispiel ist der Schalter **Alle Preise verstehen sich inklusive Mehrwertsteuer** aktiviert. Der Preis auf der Produktkarte ist auf *1200* gesetzt. 
+Im folgenden Beispiel ist der Schalter **Alle Preise verstehen sich inklusive Mehrwertsteuer** aktiviert. Der Preis auf der Produktkarte ist auf *1200* gesetzt.
         
 |-|Inlandsverkäufe|Ausland|
 |------------------------|--------|--------|
@@ -120,7 +119,7 @@ Im folgenden Beispiel ist der Schalter **Alle Preise verstehen sich inklusive Me
         
 ### <a name="collect-vat-set-to-micro-business-exemption"></a>MwSt. erheben ist auf Ausnahmeregelung für Kleinstunternehmen eingestellt
 
-Im folgenden Beispiel ist der Schalter **Alle Preise verstehen sich inklusive Mehrwertsteuer** aktiviert. Der Preis auf der Produktkarte ist auf *1200* gesetzt. 
+Im folgenden Beispiel ist der Schalter **Alle Preise verstehen sich inklusive Mehrwertsteuer** aktiviert. Der Preis auf der Produktkarte ist auf *1200* gesetzt.
         
 |-|Inlandsverkäufe|Ausland mit lokalem Steuersatz von 25 Prozent.|
 |------------------------|--------|--------|
@@ -134,8 +133,7 @@ Shopify ignoriert bei der Berechnung der Endpreise den Steuersatz im Ausland und
 
 Wenn Sie Steuern aus mehreren Ländern erheben, müssen Sie höchstwahrscheinlich eine länderspezifische Einstellung in [!INCLUDE[prod_short](../includes/prod_short.md)] definieren. Dies ist erforderlich, da beim Erstellen eines Verkaufsbelegs in [!INCLUDE[prod_short](../includes/prod_short.md)] das System Steuern berechnet, anstatt aus Shopify importierte wiederzuverwenden.
 
-Länder-/regionsspezifische Einstellungen werden im Fenster **Shopify Debitorenvorlage** ausgewählt.
-<!--Should this be "window" or "page"? I haven't been seeing "window" is use elsewhere, but I don't know what the interface looks like for this action.--> Dort können Sie **Standarddebitorennr.** definieren oder **Debitorenvorlagennr.** Stellen Sie in jedem Fall sicher, dass für den ausgewählten Debitoren oder die ausgewählte Vorlage die folgenden Felder definiert sind:
+Länder-/regionsspezifische Einstellungen werden im Fenster **Shopify Debitorenvorlage** ausgewählt. Dort können Sie **Standarddebitorennr.** definieren oder **Debitorenvorlagennr.** Stellen Sie in jedem Fall sicher, dass für den ausgewählten Debitoren oder die ausgewählte Vorlage die folgenden Felder definiert sind:
 
 1. **Allgemeine Geschäftsbuchungsgruppe** (für ausländische Debitoren verwendet).
 2. **MwSt.-Geschäftsbuchungsgrp.** (für ausländische Debitoren verwendet).
@@ -144,8 +142,7 @@ Länder-/regionsspezifische Einstellungen werden im Fenster **Shopify Debitorenv
 * Wählen Sie *Nein* aus, wenn **Alle Preise verstehen sich inklusive Mehrwertsteuer** deaktiviert ist und **Steuern basierend auf dem Land Ihres Debitoren einschließen oder ausschließen** deaktiviert ist.
 * Wählen Sie *Ja* aus, wenn **Steuern basierend auf dem Land Ihres Debitoren einschließen oder ausschließen** aktiviert ist und das Land oder die Region in [Steuerpflichtige Länder](https://help.shopify.com/en/manual/markets/pricing/dynamic-tax-inclusive-pricing#tax-inclusive-versus-tax-exclusive-countries-and-regions) aufgeführt ist.
 * Wählen Sie *Nein* aus, wenn **Steuern basierend auf dem Land Ihres Debitoren einschließen oder ausschließen** aktiviert ist und das Land oder die Region nicht in [Steuerpflichtige Länder](https://help.shopify.com/en/manual/markets/pricing/dynamic-tax-inclusive-pricing#tax-inclusive-versus-tax-exclusive-countries-and-regions) aufgeführt ist.
-<!--I changed "Set" to "Choose" since "Set" really isn't an instruction we use. if they're toggling, we then would say "Toggle" as in "Toggle *No* if...."-->
-> 
+
 [!Note]
 > Die Einstellung des Feldes **Preise inkl. MwSt** stammt aus der Vorlage, nicht aus dem konkreten Debitoren. Deshalb ist es wichtig, dass die Debitorenvorlage definiert ist.
 

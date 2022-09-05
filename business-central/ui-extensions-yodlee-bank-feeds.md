@@ -6,15 +6,16 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms. search.keywords: app, add-in, manifest, customize, stream, bank account link
+ms.search.keywords: app, add-in, manifest, customize, stream, bank account link
+ms.search.form: 1450, 1451, 1452, 1453, 1454, 1458, 1460,
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 54871f5a9aac3fe84e769d278fc21138a118ebb0
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 1e2c1b1b9030033ec35c79e478d0d5bd5246b3d6
+ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511467"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "9361994"
 ---
 # <a name="the-envestnet-yodlee-bank-feeds-extension"></a>Die Envestnet Yodlee Bank Feeds-Erweiterung
 
@@ -40,14 +41,15 @@ Der Envestnet Yodlee Bank Feeds Service bietet die folgenden Vorteile:
 * Aktiviert das Outsourcing der Zahlungsabstimmung zu einem Buchhalter, indem das Bieten des Lagerzugang zu den Bankkontoauszügen bereitgestellt wird.
 
 ## <a name="available-bank-feeds"></a>Verfügbare Bankfeeds
+
 Sie können prüfen, ob eine Bank unterstützt wird, indem Sie den Dienst Envestnet Yodlee Bank Feeds einrichten und sich mit ihm verbinden. Die Bank wird in der Liste angezeigt, wenn sie von Envestnet Yodlee unterstützt wird.
 
 Weitere Informationen finden Sie unter [Den Envestnet Yodlee Bank Feeds Service einrichten](bank-how-setup-bank-statement-service.md).
 
 ## <a name="see-also"></a>Siehe auch
-[Anpassen [!INCLUDE[prod_short](includes/prod_short.md)] Erweiterungen nutzen](ui-extensions.md)    
-[Zahlungen automatisch vornehmen und Bankkonten abstimmen](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
-[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
+[Anpassen von [!INCLUDE[prod_short](includes/prod_short.md)] mit Erweiterungen](ui-extensions.md)  
+[Zahlungen automatisch vornehmen und Bankkonten abstimmen](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

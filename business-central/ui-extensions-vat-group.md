@@ -7,15 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, value added tax, report
-ms.search.forms: ''
+ms.search.form: 4700, 4701, 4703, 4704, 4705, 4706, 4707, 4708, 4709,
 ms.date: 07/08/2022
 ms.author: bholtorf
-ms.openlocfilehash: 2620b485a0b75995a5f002610477880adbfd64a4
-ms.sourcegitcommit: 7b422fa4907270da802d1318cce0ee3fc9769643
+ms.openlocfilehash: b428973ab64d22b2e336a8067979bc7257af173b
+ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/03/2022
-ms.locfileid: "9224086"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "9361528"
 ---
 # <a name="the-vat-group-management-extension-for-the-united-kingdom"></a>Die MwSt.-Gruppenverwaltungserweiterung für das Vereinigte Königreich
 

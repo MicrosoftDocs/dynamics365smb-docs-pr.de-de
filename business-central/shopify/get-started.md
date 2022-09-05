@@ -5,14 +5,15 @@ ms.date: 05/27/2022
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.reviewer: solsen
+ms.search.form: 30100, 30101, 30102, 30103, 30104, 30135,
 author: AndreiPanko
 ms.author: andreipa
-ms.openlocfilehash: 64fae9efdda832f14593564b9a19101d120c9712
-ms.sourcegitcommit: fb43bc843be4ea9c0c674a14945df727974d9bb9
+ms.openlocfilehash: e59dd0dcf757fbcf76d4068756adfe7bc9475f54
+ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "8808933"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "9361555"
 ---
 # <a name="get-started-with-the-shopify-connector"></a>Erste Schritte mit dem Shopify-Konnektor
 
@@ -26,26 +27,26 @@ Der Shopify-Konnektor umfasst die folgenden Funktionen:
 - Bidirektionale Synchronisierung von Artikeln oder Produkten  
 
   - Der Konnektor synchronisiert Bilder, Artikelvarianten, Barcodes, Kreditorenartikelnummer, erweiterte Texte und Tags.  
-  - Exportieren Sie Artikelattribute nach Shopify.  
-  - Verwenden Sie ausgewählte Debitorenpreisgruppen und Rabatte, um die nach Shopify exportierten Preise zu definieren.  
-  - Entscheiden Sie, ob Artikel automatisch erstellt werden können, oder lassen Sie nur Aktualisierungen bestehender Produkte zu.  
+  -    Exportieren Sie Artikelattribute nach Shopify.  
+  -    Verwenden Sie ausgewählte Debitorenpreisgruppen und Rabatte, um die nach Shopify exportierten Preise zu definieren.  
+  -    Entscheiden Sie, ob Artikel automatisch erstellt werden können, oder lassen Sie nur Aktualisierungen bestehender Produkte zu.  
 - Synchronisierung von Lagerbeständen  
 
-  - Wählen Sie einige oder alle verfügbaren Standorte in [!INCLUDE [prod_short](../includes/prod_short.md)] aus.  
-  - Aktualisieren Sie die Lagerbestände an mehreren Standorten in Shopify.  
+  -    Wählen Sie einige oder alle verfügbaren Standorte in [!INCLUDE [prod_short](../includes/prod_short.md)] aus.  
+  -    Aktualisieren Sie die Lagerbestände an mehreren Standorten in Shopify.  
 - Bidirektionale Synchronisierung von Debitoren  
 
-  - Ordnen Sie Debitoren intelligent per Telefon und E-Mail zu.  
-  - Verwenden Sie beim Erstellen von Debitoren länderspezifische Vorlagen, um sicherzustellen, dass die Steuereinstellungen korrekt sind.  
+  -    Ordnen Sie Debitoren intelligent per Telefon und E-Mail zu.  
+  -    Verwenden Sie beim Erstellen von Debitoren länderspezifische Vorlagen, um sicherzustellen, dass die Steuereinstellungen korrekt sind.  
 - Aufträge aus Shopify importieren  
 
-  - Während des Imports können Sie Debitoren automatisch in [!INCLUDE [prod_short](../includes/prod_short.md)] erstellen oder sich dazu entscheiden, diese in Shopify zu verwalten.  
-  - Schließen Sie Bestellungen ein, die in anderen Kanälen wie Shopify POS oder Amazon erstellt wurde.  
-  - Versandkosten, Geschenkgutscheine, Tipps, Versand- und Zahlungsmethoden, Transaktionen und Betrugsrisiko.  
+  -    Während des Imports können Sie Debitoren automatisch in [!INCLUDE [prod_short](../includes/prod_short.md)] erstellen oder sich dazu entscheiden, diese in Shopify zu verwalten.  
+  -    Schließen Sie Bestellungen ein, die in anderen Kanälen wie Shopify POS oder Amazon erstellt wurde.  
+  -    Versandkosten, Geschenkgutscheine, Tipps, Versand- und Zahlungsmethoden, Transaktionen und Betrugsrisiko.  
   - Erhalten Sie Auszahlungsinformationen von Shopify Payments.  
 - Einfache Verfolgung von Auftragserfüllungsinformationen  
 
-  - Wählen Sie optional aus, Artikelverfolgungsinformationen aus [!INCLUDE [prod_short](../includes/prod_short.md)] in Shopify zu schreiben.  
+  -    Wählen Sie optional aus, Artikelverfolgungsinformationen aus [!INCLUDE [prod_short](../includes/prod_short.md)] in Shopify zu schreiben.  
 
 Um Shopify mit [!INCLUDE [prod_short](../includes/prod_short.md)] zu verwenden, müssen Sie zuerst ein paar Schritte ausführen. Dieser Artikel dient als Leitfaden für die vollständige Integration Ihres Shopify-Shops in [!INCLUDE [prod_short](../includes/prod_short.md)].
 

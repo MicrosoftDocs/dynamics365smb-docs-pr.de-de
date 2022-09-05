@@ -1,24 +1,24 @@
 ---
 title: Tabelleninformationen anzeigen
-description: Erfahren Sie, wie Sie Informationen über die Datenbanktabellen direkt von der Client-Oberfläche in Business Central aus anzeigen können.
+description: Erfahren Sie, wie Sie Informationen über Datenbanktabellen in Business Central anzeigen können.
 author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 8700
-ms.date: 06/14/2021
+ms.date: 08/23/2022
 ms.author: jswymer
-ms.openlocfilehash: db1a5ef84d4174b960de6f3e20f7d4e29c8c44c8
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 990a8f56108bacfe82e6fe591858d238396f16be
+ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133096"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "9362162"
 ---
 # <a name="viewing-table-information"></a>Tabelleninformationen anzeigen
 
-Die Seite **8700 Tabelleninformationen** enthält Informationen zu allen System- und Geschäftstabellen in einer Business Central-Lösung. Auf der Seite werden insbesondere Informationen zur Datenmenge angezeigt, die die Tabellen enthalten.
+Auf der Seite **8700 Tabelleninformationen** erhalten Sie Informationen über die Anzahl der Datensätze in allen System- und Geschäftstabellen in [!INCLUDE[prod_short](includes/prod_short.md)], und wie viele Daten jede Tabelle enthält.
 
 Diese Informationen sind hilfreich bei der Behebung von Leistungsproblemen, da Sie die Verteilung der Datengröße auf Tabellen anzeigen können.
 
@@ -33,8 +33,15 @@ In der folgenden Tabelle werden die für jede Tabelle bereitgestellten Informati
 |Unternehmensname|Name des Unternehmens (sofern zutreffend), zu dem die Tabelle gehört.|
 |Tabellenname|Der Name der Tabelle.|
 |Tabellennr.|Die ID der Tabelle.|
-|Anzahl der Datensätze|Die Gesamtzahl der in der Tabelle gespeicherten Datensätze.|
+|Anz. der Datensätze|Die Gesamtzahl der in der Tabelle gespeicherten Datensätze.|
 |Datensatzgröße|Die durchschnittliche Datensatzgröße in KB/Datensatz. Der Wert wird nach folgender Formel berechnet: 1024 (Größe)/(Anzahl der Datensätze). |
+|Größe (KB)|Wie viel Platz ingesamt die Tabelle in der Datenbank belegt. Dieser Wert stammt aus der Summe der Werte in den Feldern Datengröße und Indexgröße.|
+|Datengröße (KB)|Wie viel Platz die Daten in der Tabelle in der Datenbank belegen.|
+|Indexgröße (KB)|Wie viel Platz die Tabellenindizes (Schlüssel) in der Datenbank belegen.|
+|Komprimierung|Die Art der Komprimierung, **Zeile**, **Seite** oder **Keine**, die auf die Tabelle in der Datenbank angewendet wird. Weitere Informationen finden Sie unter [Datenkomprimierung](/sql/relational-databases/data-compression/data-compression?).|
+
+> [!NOTE]
+> Wenn Sie Daten in einer Tabelle löschen, startet [!INCLUDE[prod_short](includes/prod_short.md)] mehrere Prozesse im Hintergrund, um sicherzustellen, dass alles in Ihrer Datenbank bereinigt wird. Die Werte auf der Seite Tabelleninformationen werden erst aktualisiert, wenn diese Prozesse abgeschlossen sind, was eine Weile dauern kann. Die Wartezeit kann je nach Größe Ihrer Datenbank variieren.
 
 ## <a name="see-also"></a>Siehe auch
 

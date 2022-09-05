@@ -7,14 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 11016, 11017, 11019, 11025, 11026, 11027, 11028
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f28aeb03321c8cf2c357ee57c2d01b3305a727d2
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 982baa7d162701b176eebde442676c31e83fea5c
+ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142674"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "9362044"
 ---
 # <a name="vat-reporting-in-the-german-version"></a>MwSt.-Berichterstattung in der deutschen Version
 
@@ -28,11 +29,11 @@ Folgende lokale MwSt.-Erklärungen können gedruckt werden:
 |**UVA Kontennachweis**|Bestätigt, dass Posten im MwSt.-Abrechnungsformular auch in Finanzbuchhaltungskonten gebucht werden.<br /><br /> Wählen Sie zur Überprüfung der MwSt. im Fenster Umsatzsteuervoranmeldung für das MwSt.-Abrechnungsformular und die Umsatzsteuervoranmeldung die gleichen Einstellungen aus.|  
 |**MwSt.-Abrechnung Schema**|Diese Erklärung kann auf der Seite **MwSt.-Abrechnung** abgerufen werden.<br /><br /> Druckt die Einstellungen in der MwSt.-Abrechnung. Druckt die Einstellungen in der MwSt.-Abrechnung. Mithilfe des Berichts können die Merkmale von **MwSt Kontennachweis** gedruckt werden.|  
 
-## <a name="see-also"></a>Siehe auch  
+## <a name="see-also"></a>Siehe auch
+
 [Umsatzsteuervoranmeldungen](how-to-set-up-and-export-sales-vat-advance-notifications.md)  
 [Melden von MwSt. an die Steuerbehörden](../../finance-how-report-vat.md)  
 [Arbeiten mit MwSt im Verkauf und Einkauf](../../finance-work-with-vat.md)  
-[Richten Sie Berichte für MwSt ein](how-to-set-up-reports-for-vat-and-intrastat.md)
-
+[Richten Sie Berichte für MwSt ein](how-to-set-up-reports-for-vat-and-intrastat.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

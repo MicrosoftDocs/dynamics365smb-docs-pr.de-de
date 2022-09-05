@@ -4,14 +4,15 @@ description: Übersicht über Szenarien dazu, wie Sie mithilfe von Contoso Coffe
 ms.date: 04/01/2022
 ms.topic: article
 ms.service: dynamics365-business-central
+ms.search.form: 4760
 author: edupont04
 ms.author: andreipa
-ms.openlocfilehash: 782e8258bb04ac09ee0596fff34fccdca592e26e
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 23ae8513cf14aa99f8ae1a437b0544c66bf5360e
+ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8525078"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "9362093"
 ---
 # <a name="introduction-to-contoso-coffee-demo-data"></a>Einführung in die Demodaten für Contoso Coffee
 

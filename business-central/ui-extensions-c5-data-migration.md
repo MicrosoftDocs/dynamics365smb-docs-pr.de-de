@@ -6,24 +6,26 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms. search.keywords: extension, migrate, data, C5, import
+ms.search.keywords: extension, migrate, data, C5, import
+ms.search.form: 1860, 1861, 1862, 1863, 1864, 1867, 1868, 1869, 1874, 1882, 1883, 1884, 1885, 1886, 1888, 1890, 1891, 1892, 1893, 1894, 1898, 1899, 1900, 1901, 1902, 1903, 1904, 1905, 1906
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 6f8c90eeb5b99f5591db7847e9d48124c910e328
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 0def51f435cf836d681a56a75f3ac5fece4d87ea
+ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381114"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "9361690"
 ---
 # <a name="the-c5-data-migration-extension"></a>Die C5-Datenmigrations-Erweiterung
 
 Verwenden Sie diese Erweiterung, um Debitoren, Kreditoren, Artikel und Sachkonten von Microsoft Dynamics C5 2012 zu [!INCLUDE[prod_short](includes/prod_short.md)] zu migrieren. Sie können historische Posten für Sachkonten auch migrieren.
 
-> [!Note]
+> [!NOTE]
 > Der Mandant darf in [!INCLUDE[prod_short](includes/prod_short.md)] keine Daten in enthalten. Nachdem Sie mit der Migration begonnen haben, erstellen Sie keine Debitoren, Kreditoren, Artikel oder Konten, bis die Migration beendet wurde.
 
-## <a name="what-data-is-migrated"></a>Welche Daten migriert?
+## <a name="what-data-is-migrated"></a>Welche Daten werden migriert?
+
 Die folgenden Daten werden für jede Einheit migriert:
 
 ### <a name="customers"></a>Debitoren
@@ -86,7 +88,7 @@ Wenn Sie Konten migrieren, werden auch die folgenden Daten migriert:
 * Artikel Buch.-Blattname
 * Öffnen Sie das Fenster Transaktionen (Artikel Kreditorenposten)
 
-> [!Note]
+> [!NOTE]
 > Wenn es offene Transaktionen gibt, die Fremdwährungen verwenden, werden die Wechselkurse für alle Währungen auch migriert. Andere Wechselkurse werden nicht migriert.
 
 ### <a name="chart-of-accounts"></a>Kontenplan
@@ -94,7 +96,7 @@ Wenn Sie Konten migrieren, werden auch die folgenden Daten migriert:
 * Standard-Dimensionen (Abteilung, Kostenträger, Kostenstelle)  
 * Historische Transaktionen  
 
-> [!Note]
+> [!NOTE]
 > Historische Transaktionen werden so gut unterschiedlich behandelt. Wenn Sie Daten migrieren, setzen Sie einen **Aktuelle Periode** Parameter. Dieser Parameter gibt an, wie Ihre Transaktionen verarbeitet werden. Transaktionen nach diesem Datum werden einzeln migriert. Transaktionen vor diesem Zeitpunkt werden pro Konto aggregiert und migriert als einzelner Betrag. Nehmen wir an, es gibt Transaktionen 2015, 2016, 2017 und 2018 und Sie definieren 1. Januar 2017 im aktuellen Periodenfeld. Für jedes Konto sind Beträge für Transaktionen an oder vor dem 31. Dezember 2106, in einer eigenen Fibu Buch.-Blattzeile für jedes Sachkonto aggregiert. Alle Transaktionen nach diesem Datum werden einzeln migriert.
 
 ## <a name="file-size-requirements"></a>Dateigrößen-Anforderungen
@@ -107,13 +109,13 @@ Es gibt nur einige wenige Schritte, um die Daten aus C5 zu exportieren und sie i
 
 1. In C5 verwenden Sie die Funktion **Datenbank exportieren**, um die Daten zu exportieren. Senden Sie dann den Exportordner an einen komprimierten (gezippten) Ordner.  
 2. Wählen Sie in [!INCLUDE[prod_short](includes/prod_short.md)] die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Datenmigration** ein, und wählen Sie dann **Datenmigration**.  
-3. Schliessen Sie die Schritte im unterstützten Setup ab. Stellen Sie sicher, dass Sie **Importieren aus Microsoft Dynamcis C5 2012** als die Datenquelle auswählen.  
+3. Schliessen Sie die Schritte im unterstützten Setup ab. Stellen Sie sicher, dass Sie **Importieren aus Microsoft Dynamics C5 2012** als die Datenquelle auswählen.  
 
-## <a name="viewing-the-status-of-the-migration"></a>Zeigt den Status der Datenmigration an
+## <a name="viewing-the-status-of-the-migration"></a>Status der Migration anzeigen
 
 Verwenden Sie die Seite **Datenmigrations-Übersicht**, um den Erfolg der Migration zu überwachen. Die Seite zeigt Informationen wie die Anzahl von Einheiten, die migriert wurde, den Status der Migration und die Anzahl von Artikeln an, die migriert wurden und ob sie erfolgreich war. Sie zeigt auch die Anzahl von Fehlern, Sie können überprüfen, was schief ging und macht es wenn möglich einfach, zur Einheit zu gehen und das Problem zu lösen. Weitere Informationen finden Sie im nächsten Abschnitt dieses Themas.  
 
-> [!Note]
+> [!NOTE]
 > Während Sie auf die Ergebnisse der Migration warten, müssen Sie die Seite aktualisieren, um die Ergebnisse anzuzeigen.
 
 ## <a name="how-to-avoid-double-posting"></a>Wie Sie Doppel-Buchung vermeiden
@@ -135,10 +137,10 @@ Um auf der Seite **Datenmigrations-Fehler** einen Fehler zu korrigieren, können
 
 Nachdem Sie eines oder mehrere Fehler korrigiert haben, können Sie **Migrieren von** wählen, um nur die Einheiten zu migrieren, die Sie korrigierten, ohne die Migration vollständig erneut durchführen zu müssen.  
 
-> [!Tip]
+> [!TIP]
 > Wenn Sie mehr als einen Fehler korrigiert haben, können Sie die Funktion **Weitere auswählen** verwenden, um mehrere Zeilen auszuwählen, um diese zu migrieren. Wenn es Fehler gibt, die nicht zur Korrektur wichtig sind, können Sie diese auswählen und dann **Auswahl überspringen** auswählen.
 
-> [!Note]
+> [!NOTE]
 > Wenn Sie Artikel haben, die in der Stückliste enthalten sind, müssen Sie diese mehrmals migrieren, wenn der ursprüngliche Artikel nicht vor den Varianten erstellt wird, auf die sie verweist. Wenn eine Artikelvariante zuerst erzeugt wird, kann die Referenz zum ursprünglichen Artikel eine Fehlermeldung verursachen.  
 
 ## <a name="verifying-data-after-migrating"></a>Prüfen von Daten nach dem Migrieren
@@ -158,8 +160,7 @@ Sie können Datenmigration unterbrechen, indem Sie **Automatisches Beenden alle 
 
 ## <a name="see-also"></a>Siehe auch
 
-[Anpassen von [!INCLUDE[prod_short](includes/prod_short.md)] über Erweiterungen](ui-extensions.md)  
-[Vorbereitung für die Geschäftstätigkeit](ui-get-ready-business.md)  
-
+[Anpassen von [!INCLUDE[prod_short](includes/prod_short.md)] mithilfe von Erweiterungen](ui-extensions.md)  
+[Bereitschaft für die Geschäftsabwicklung](ui-get-ready-business.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -8,16 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: BI, add-in, insight, headline, data
+ms.search.form: 1439,
 ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: 3980b900a1fe261ae45c2eb1dc6e5395a01cb02d
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: f703448f15c7284f51a2876ccd2b83b9a2351b9d
+ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384020"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "9361745"
 ---
 # <a name="the-essential-business-insights-extension"></a>Die wesentliche Business Insights-Erweiterung
+
 Die Essential Business Insights Erweiterung findet interessante Geschäftsfakten in Ihren Unternehmensdaten und zeigt sie als zeitungsähnliche Titel in Rollencenters an. Abhängig davon, was die Erweiterung findet, sind die Einblicke der letzten Woche, des letzten Monats oder der letzten drei Monate ab dem aktuellen Datum. Die Einblicke aktualisieren alle 10 Minuten.  
 
 Wenn Sie eine genauere Betrachtung auf Einblick werfen möchten, können Sie wählen, zum Ursprung  umzurüsten. Wenn Sie Details über die größte Verkaufsrechnung möchten, die letzte Woche gebucht wurde, können Sie Insights wählen, um die Rechnung in Insights anzuzeigen.
@@ -36,7 +38,7 @@ Die folgende Tabelle beschreibt die Einblicke, die diese Erweiterung für jedes 
 |Administrator| Zeigt eine Anrede und Verbindung zur Produktinformationen an.|
 
 ## <a name="see-also"></a>Siehe auch
-[Anpassen [!INCLUDE[prod_short](includes/prod_short.md)] Erweiterungen nutzen](ui-extensions.md)
 
+[Anpassen von [!INCLUDE[prod_short](includes/prod_short.md)] mithilfe von Erweiterungen](ui-extensions.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

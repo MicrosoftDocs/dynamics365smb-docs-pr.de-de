@@ -7,14 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer, payment, invoice, sales, invoice, quote
+ms.search.form: 1950, 1951,
 ms.date: 12/20/2021
 ms.author: bholtorf
-ms.openlocfilehash: 528267086ddb8ceefe0b8d09e6704bf79273c928
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 5c62b50867383ffb4aa9b3bff375d9c36a1e194c
+ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383241"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "9361501"
 ---
 # <a name="the-late-payment-prediction-extension"></a>Die Erweiterung "Vorhersage verspäteter Zahlungen"
 
@@ -29,43 +30,49 @@ Führen Sie folgende Schritte aus, um die Erweiterung manuell zu aktivieren:
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Einrichtung der Vorhersage verspäteter Zahlungen** ein, und wählen Sie dann den zugehörigen Link.  
 2. Füllen Sie die Felder nach Bedarf aus.
 
-> [!Note]
+> [!NOTE]
 > Wenn Sie sich entscheiden, die Erweiterung manuell zu aktivieren, beachten Sie, dass [!INCLUDE[prod_short](includes/prod_short.md)] Ihnen dies nicht erlaubt, wenn die Qualität des Modells gering ist. Die Qualität des Modells zeigt an, wie genau die Vorhersagen des Modells wahrscheinlich sind. Einige Faktoren können sich auf die Qualität eines Modells auswirken. Es könnten z.B. nicht genügend Daten vorhanden gewesen sein oder die Daten enthielten nicht genügend Variationen. Sie können die Qualität des Modells, das Sie aktuell verwenden auf der Seite **Einrichtung der Vorhersage verspäteter Zahlungen** anzeigen. Sie können auch einen Mindestschwellenwert für die Modellqualität angeben.   
 
 ## <a name="viewing-all-payment-predictions"></a>Anzeigen aller Zahlungsvorhersagen
+
 Wenn Sie die Erweiterung aktivieren wird die Kachel **Voraussichtlich verspätete Zahlungen** im **Geschäftsführer**-Rollencenter verfügbar. Die Kachel zeigt die Anzahl der Zahlungen, die voraussichtlich verspätet sind und lässt Sie die Seite **Debitorenposten** öffnen, in dem Sie die gebuchten Rechnungen genauer ansehen können. Sie sollten drei Spalten beachten:  
 
 * **Zahlungsverzug** - Gibt an, ob die Zahlung für die Rechnung voraussichtlich verspätet sein wird.
 * **Vorhersagegenauigkeit** - Zeigt an, wie zuverlässig die Vorhersage ist. **Hoch** bedeutet, dass die Vorhersage zu mindestens 90 % sicher ist. **Mittel** liegt zwischen 80 und 90 %, und **Niedrig** liegt unter 80 %.
 * **Vorhersagegenauigkeit %** - Zeigt den tatsächlichen Prozentsatz auf dem die Genauigkeitsbewertung basiert. Standardmäßig wird die Spalte nicht angezeigt. Sie kann jedoch auf Wunsch hinzugefügt werden. Weitere Informationen finden Sie unter [Personalisieren Sie Ihren Arbeitsbereich](ui-personalization-user.md).
 
-> [!Tip]
+> [!TIP]
 > Die Seite "Debitorenposten" zeigt zudem rechts eine Infobox. Die Information im Abschnitt **Debitorendetails** kann bei der Prüfung von Vorhersagen nützlich sein. Wenn Sie die Rechnung in der Liste auswählen, werden im Abschnitt Informationen zum Debitor angezeigt. Außerdem können Sie damit sofort Maßnahmen ergreifen. Wenn ein Debitor häufig die Geldbörse verlegt, können Sie die Debitorenkarte aus der Infobox heraus öffnen und den Debitor für künftige Verkäufe sperren.  
 
 ## <a name="viewing-a-payment-prediction-for-a-specific-sales-document"></a>Anzeigen einer Zahlungsvorhersage für einen bestimmten Verkaufsbeleg
+
 Sie können auch verspätete Zahlungen vorhersagen. Auf den Seiten **Verkaufsangebote**, **Verkaufsaufträge** und **Verkaufsrechnungen** können Sie die Aktion **Zahlung vorhersagen** verwenden, um eine Vorhersage für einen Verkaufsbeleg zu erstellen, den Sie anzeigen.
 
 <!--## Scheduling Payment Predictions
 On the **Late Payment Prediction Setup** page you can schedule updates to payment predictions for a time that is convenient for you. -->
 
 ## <a name="design-details"></a>Einzelheiten zum Entwurf
-Microsoft bietet und betreibt eine Reihe von prädiktiven Webdiensten in allen Regionen, in denen [!INCLUDE[prod_short](includes/prod_short.md)] verfügbar ist. Der Zugang zu diesen Webdiensten ist in Ihrem [!INCLUDE[prod_short](includes/prod_short.md)]-Abonnement enthalten. Weitere Informationen finden Sie im Microsoft Dynamics 365 Business Central-Lizenzierungshandbuch. Der Leitfaden steht auf der Website [Business Central](https://dynamics.microsoft.com/en-us/business-central/overview/) zum Herunterladen zur Verfügung.
+
+Microsoft bietet und betreibt eine Reihe von prädiktiven Webdiensten in allen Regionen, in denen [!INCLUDE[prod_short](includes/prod_short.md)] verfügbar ist. Der Zugang zu diesen Webdiensten ist in Ihrem [!INCLUDE[prod_short](includes/prod_short.md)]-Abonnement enthalten. Weitere Informationen finden Sie im Microsoft Dynamics 365 Business Central-Lizenzierungshandbuch. Der Leitfaden steht auf der Website [Business Central](https://dynamics.microsoft.com/business-central/overview/) zum Herunterladen zur Verfügung.
 
 Die Web-Dienste arbeiten in drei Modi:
-- Trainingsmodell. Der Webdienst trainiert das Modell auf der Grundlage des bereitgestellten Datensatzes.
-- Modell evaluieren. Der Webdienst prüft, ob das Modell zuverlässige Daten für den bereitgestellten Datensatz liefert.
-- Vorhersagen. Der Web-Service wendet das Modell auf den bereitgestellten Datensatz an, um eine Vorhersage zu treffen.
+
+* Trainingsmodell. Der Webdienst trainiert das Modell auf der Grundlage des bereitgestellten Datensatzes.
+* Modell evaluieren. Der Webdienst prüft, ob das Modell zuverlässige Daten für den bereitgestellten Datensatz liefert.
+* Vorhersagen. Der Web-Service wendet das Modell auf den bereitgestellten Datensatz an, um eine Vorhersage zu treffen.
 
 Diese Web-Dienste sind zustandslos, d.h. sie verwenden Daten nur zur Berechnung von Vorhersagen bei Bedarf. Sie speichern keine Daten. 
 
 > [!NOTE]  
->   Sie können anstelle unseres eigenen Prognose-Webdienstes Ihren eigenen Prognose-Webdienst verwenden. Weitere Informationen finden Sie unter [Erstellen und verwenden Sie Ihren eigenen Prognose-Webservice für Zahlungsverzugsprognosen](#AnchorText). 
+> Sie können anstelle unseres eigenen Prognose-Webdienstes Ihren eigenen Prognose-Webdienst verwenden. Weitere Informationen finden Sie unter [Erstellen und verwenden Sie Ihren eigenen Prognose-Webservice für Zahlungsverzugsprognosen](#AnchorText).
 
-### <a name="data-required-to-train-and-evaluate-the-model"></a>Daten, die zum Trainieren und Auswerten des Modells erforderlich sind 
+### <a name="data-required-to-train-and-evaluate-the-model"></a>Daten, die zum Trainieren und Auswerten des Modells erforderlich sind
+
 Für jede **Debitorenposten**, zu der eine zugehörige **gebuchte Verkaufsrechnung** vorliegt:
-- Betrag (MW) einschließlich Steuer
-- Die Zahlungsfrist in Tagen wird berechnet als **Zahlungsdatum** minus **Buchungsdatum**.
-- Ob es eine beantragte Gutschrift gibt. 
+
+* Betrag (MW) einschließlich Steuer
+* Die Zahlungsfrist in Tagen wird berechnet als **Zahlungsdatum** minus **Buchungsdatum**.
+* Ob es eine beantragte Gutschrift gibt. 
 
 Zusätzlich wird der Datensatz mit aggregierten Daten aus anderen Rechnungen angereichert, die sich auf denselben Kunden beziehen. Dazu gehören die folgenden Schritte:
 
@@ -78,24 +85,28 @@ Zusätzlich wird der Datensatz mit aggregierten Daten aus anderen Rechnungen ang
 - Verhältnis: Verspätet gezahlter Betrag/bezahlte Rechnungen
 - Verhältnis: Anzahl Ausstehende verspätete/ausstehende Rechnungen
 - Verhältnis: Ausstehender Betrag Verspätete/ausstehende Rechnungen
-> [!Note]
+
+> [!NOTE]
 > Die Informationen über den Debitor sind nicht im Datenbestand enthalten.
 
 ### <a name="standard-model-and-my-model"></a>Standardmodell und Mein Modell
+
 Die Erweiterung Vorhersage des Zahlungsverzugs enthält ein Vorhersagemodell, das anhand von Daten trainiert wird, die repräsentativ für eine Reihe von kleinen bis mittleren Unternehmen sind. Wenn Sie anfangen, Rechnungen zu buchen und Zahlungen zu erhalten, wird [!INCLUDE[prod_short](includes/prod_short.md)] bewerten, ob das Standardmodell zu Ihrem Geschäftsablauf passt. 
 
 Wenn es den Anschein hat, dass Ihre Prozesse nicht mit dem Standardmodell übereinstimmen, können Sie immer noch die Erweiterung verwenden, aber Sie werden mehr Daten erhalten müssen. Verwenden Sie einfach weiterhin [!INCLUDE[prod_short](includes/prod_short.md)].
-> [!Note]
+> [!NOTE]
 > Wir verwenden jede Woche einen Teil Ihrer Rechenzeit, wenn wir das Modell bewerten und neu trainieren. 
 
 [!INCLUDE[prod_short](includes/prod_short.md)] führt die Schulung und Auswertung automatisch durch, wenn genügend bezahlte und verspätete Rechnungen vorliegen, Sie können sie aber auch manuell durchführen, wann immer Sie wollen.
 
 #### <a name="to-train-and-use-your-model"></a>So trainieren und verwenden Sie Ihr Modell
+
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Einrichtung der Vorhersage verspäteter Zahlungen** ein, und wählen Sie dann den zugehörigen Link.  
 2. Geben Sie im Feld **Ausgewähltes Modell** die Option **Mein Modell** aus.
 3. Wählen Sie die Aktion **Mein Modell erstellen**, um das Modell anhand Ihrer Daten zu trainieren.  
 
 ## <a name="create-and-use-your-own-predictive-web-service-for-late-payment-prediction"></a><a name="AnchorText"> </a>Erstellen und verwenden Sie Ihren eigenen Prognose-Webdienst zur Vorhersage von Zahlungsverzug
+
 Sie können auch Ihren eigenen Vorhersage-Webdienst auf der Grundlage eines öffentlichen Modells mit dem Namen **Vorhersage-Experiment für Dynamics 365 Business Central** erstellen. Dieses vorhersagende Modell ist online im Azure AI Katalog verfügbar. Um das Modell zu verwenden, gehen folgendermaßen vor:  
 
 1. Öffnen Sie einem Browser und gehen Sie zum [Azure AI Katalog](https://go.microsoft.com/fwlink/?linkid=2086310)  
@@ -107,9 +118,9 @@ Sie können auch Ihren eigenen Vorhersage-Webdienst auf der Grundlage eines öff
 7. Wählen Sie das Kontrollkästchen **Mein Azure-Abonnement verwenden**.
 8. Im Inforegister **Anmeldeinformationen für mein Modell** geben Sie die API-URL und den API-Schlüssel für Ihr Modell ein.  .  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Siehe Verwandte Schulungen unter [Microsoft Learn](/learn/modules/predict-late-payments-sales-documents/)
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/predict-late-payments-sales-documents/)
 
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-also"></a>Siehe auch
 
 [Azure Machine Learning Studio-Dokumentation](/azure/machine-learning/classic/)  
 [Anpassen von Business Central über Erweiterungen](ui-extensions.md)  

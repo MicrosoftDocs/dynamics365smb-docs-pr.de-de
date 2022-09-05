@@ -4,15 +4,16 @@ description: Nehmen Sie die Einrichtung und Ausführung des Imports under der Ve
 ms.date: 05/27/2022
 ms.topic: article
 ms.service: dynamics365-business-central
+ms.search.form: 30110, 30111, 30112, 30113, 30114, 30115, 30121, 30122, 30123, 30124, 30125, 30128, 30129, 30130, 30131, 30132, 30133, 30134,
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: bef02c5fcbc2b6174e8a3f746a97f0e11564dcf6
-ms.sourcegitcommit: 902da19b0ab7a3fbc051cd69ab2802f30d0f378f
+ms.openlocfilehash: 3a8f6b2188c2a315bbed1ef99e23b6bbfafae40f
+ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/01/2022
-ms.locfileid: "9213689"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "9361392"
 ---
 # <a name="synchronize-and-fulfill-sales-orders"></a>Verkaufsaufträge synchronisieren und erfüllen
 

@@ -296,6 +296,7 @@
 #### [Debitoren sperren](receivables-how-block-customers.md)
 #### [Arbeiten mit Zahlungstoleranzen und Zahlungsrabatt-Toleranzen](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [Die Erweiterung zur Vorhersage verspäteter Zahlungen](ui-extensions-late-payment-prediction.md)
+#### [Mehrwertsteuer in der Standardversion von Business Central](sales-tax-concept.md)
 
 ### Verbindlichkeiten verwalten
 #### [Verbindlichkeiten – Übersicht](payables-manage-payables.md)
