@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.form: HelpAndSupport
 ms.author: edupont
 ms.date: 03/21/2022
-ms.openlocfilehash: d97911cd7c3556e8ee447102e22b3764548b6f13
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 33cd44d4aab7f22dd8ea2cbad7fd21a4955142a0
+ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516926"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9460621"
 ---
 # <a name="resources-for-help-and-support"></a>Ressourcen für Hilfe und Support
 
@@ -138,7 +138,7 @@ Ihr [!INCLUDE[prod_short](includes/prod_short.md)] Einzelhandelspartner soll Ihn
 Weitere Informationen finden Sie unter [Unterstützungsprobleme zu Microsoft eskalieren](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#escalating-support-issues-to-microsoft) im Verwaltungsinhalt.  
 
 > [!NOTE]
-> Bei der Onlineversion von [!INCLUDE[prod_short](includes/prod_short.md)] ist der Abschnitt **Problem melden** nur dann verfügbar, wenn Sie für ein [!INCLUDE[prod_short](includes/prod_short.md)]-Abonnement bezahlt haben. Wenn Sie sich für eine Testversion angemeldet haben und [!INCLUDE[prod_short](includes/prod_short.md)] noch nicht gekauft haben, , haben Sie keinen Wiederverkaufspartner und Sie können das Microsoft-Support- Team nicht direkt kontaktieren. Sie finden einen [!INCLUDE[prod_short](includes/prod_short.md)]-Partner auf der Seite [Ich suche nach einem Lösungsanbieter](https://go.microsoft.com/fwlink/?linkid=2038145). Weitere Informationen finden Sie unter [Wie finde ich einen Vertriebspartner?](/dynamics365/business-central/across-faq#findpartner).  
+> Bei der Onlineversion von [!INCLUDE[prod_short](includes/prod_short.md)] ist der Abschnitt **Problem melden** nur dann verfügbar, wenn Sie für ein [!INCLUDE[prod_short](includes/prod_short.md)]-Abonnement bezahlt haben. Wenn Sie sich für eine Testversion angemeldet haben und [!INCLUDE[prod_short](includes/prod_short.md)] noch nicht gekauft haben, , haben Sie keinen Wiederverkaufspartner und Sie können das Microsoft-Support- Team nicht direkt kontaktieren. Sie finden einen [!INCLUDE[prod_short](includes/prod_short.md)]-Partner auf der Seite [Ich suche nach einem Lösungsanbieter](https://go.microsoft.com/fwlink/?linkid=2038145). Weitere Informationen finden Sie unter [Wie finde ich einen Weiterverkaufspartner?](/dynamics365/business-central/across-faq#how-do-i-find-a-reselling-partner).  
 >
 > Bei der lokalen Version von [!INCLUDE[prod_short](includes/prod_short.md)] ist dieser Abschnitt nur im 2. Veröffentlichungszyklus 2020 (Version 18) und höher verfügbar.
 
@@ -232,7 +232,7 @@ Gleiches gilt bei Verwendung von [!INCLUDE [prod_short](includes/prod_short.md)]
 
 [Business Central Lernkatalog](readiness/readiness-learning-catalog.md)  
 [Business Central Schnellstarts](quick-start-business-central.md)  
-[Wie finde ich einen Vertriebspartner?](/dynamics365/business-central/across-faq#findpartner)  
+[Wie finde ich einen Vertriebspartner?](/dynamics365/business-central/across-faq#how-do-i-find-a-reselling-partner)  
 [Hilfesystem (nur in englischer Sprache verfügbar)](/dynamics365/business-central/dev-itpro/user-assistance?toc=/dynamics365/business-central/toc.json)  
 [Blogbeitrag: Die richtige Ressource finden und Feedback geben](https://community.dynamics.com/business/b/financials/posts/find-the-right-resources-and-provide-feedback)  
 [Business Central-Entwickler- und -Verwaltungsdokumente](/dynamics365/business-central/dev-itpro/)  

@@ -3,12 +3,12 @@ author: edupont04
 ms.topic: include
 ms.date: 04/05/2022
 ms.author: edupont
-ms.openlocfilehash: 0f6ce66b4bb534d1cc2c66414fe08254f68253b2
-ms.sourcegitcommit: 55f42d2407e109b4924218cb22129467b53deb08
+ms.openlocfilehash: 8dcebacabc62e9744fb0c70e535f9fdd498047e6
+ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/08/2022
-ms.locfileid: "8557484"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9461048"
 ---
 1. Navigieren Sie zur [Testwebsite](https://go.microsoft.com/fwlink/?linkid=847861), wählen Sie *Finanzen und Betrieb* und dann auf der Karte **Dynamics 365 Business Central** die Taste **Kostenlos testen** aus.  
 2. Geben Sie Ihre Arbeits- oder Schul-E-Mail-Adresse sowie andere Details ein. Sie werden zu Ihrer Testversion unter [https://businesscentral.dynamics.com/](https://businesscentral.dynamics.com/) weitergeleitet.  
@@ -24,4 +24,4 @@ Wenn Sie sich entscheiden, [!INCLUDE [prod_short](prod_short.md)] nicht zu verwe
 
 [!INCLUDE [admin-viral-trial-expiry](admin-viral-trial-expiry.md)]
 
-Sollten Sie Probleme ausführen, finden Sie in den Artikeln [Test-FAQ](../trial-faq.md) oder [Häufig gestellte Fragen](../across-faq.yml) Antworten auf einige Ihrer Fragen. Wenn Sie sich nicht für den Test anmelden können, finden Sie im Artikel [Problembehandlung bei der Self-Service-Anmeldung](../ui-troubleshoot-self-signup.md) Tipps. Sie können auch einen [Partner](/dynamics365/business-central/across-faq#findpartner) kontaktieren und ihn bitten, einen kostenlosen Test oder eine andere Art von Vorschau von [!INCLUDE[prod_short](prod_short.md)] für Sie zu erstellen.  
+Sollten Sie Probleme ausführen, finden Sie in den Artikeln [Test-FAQ](../trial-faq.md) oder [Häufig gestellte Fragen](../across-faq.yml) Antworten auf einige Ihrer Fragen. Wenn Sie sich nicht für den Test anmelden können, finden Sie im Artikel [Problembehandlung bei der Self-Service-Anmeldung](../ui-troubleshoot-self-signup.md) Tipps. Sie können auch einen [Partner](/dynamics365/business-central/across-faq#how-do-i-find-a-reselling-partner) kontaktieren und ihn bitten, einen kostenlosen Test oder eine andere Art von Vorschau von [!INCLUDE[prod_short](prod_short.md)] für Sie zu erstellen.  

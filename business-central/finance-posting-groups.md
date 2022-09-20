@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: posting setup, initialize
 ms.search.form: 312, 313
-ms.date: 03/24/2022
+ms.date: 08/26/2022
 ms.author: bholtorf
-ms.openlocfilehash: a3ce9d938994f6300e0a1f2c26511b3c0702c124
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: e3cb6fd841dc4d6e0f9b00d2966ca00bab577b15
+ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9076565"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9460778"
 ---
 # <a name="set-up-posting-groups"></a>Buchungsgruppen einrichten
 
@@ -59,9 +59,11 @@ In der folgenden Tabelle werden die Buchungsgruppen beschrieben, die sich auf be
 
 ### <a name="allowing-substitute-customer-or-vendor-posting-groups-on-documents"></a>Zulassen von Ersatzbuchungsgruppen für Debitoren oder Kreditoren in Belegen
 
+[!INCLUDE [preview](includes/preview.md)]
+
 Sie können Benutzern ermöglichen, andere Debitoren- und Kreditorenbuchungsgruppen als die Standardgruppen auszuwählen, wenn sie mit Verkaufs- oder Einkaufsdokumenten und Erfassungen arbeiten.
 
-Um Änderungen an Kundenbuchungsgruppen zuzulassen, wählen Sie **Änderung der Buchungsgruppe zulassen** auf den **Einrichtung von Verkäufen und Forderungen**- und **Service Einrichtung**-Seiten und die **Kreditoren & Einkauf Einr.**-Seite für Kreditorenbuchungsgruppenänderungen.
+Um Änderungen an Kundenbuchungsgruppen zuzulassen, wählen Sie **Mehrere Buchungsgruppen zulassen** auf den **Einrichtung von Verkäufen und Forderungen**- und **Service Einrichtung**-Seiten und die **Kreditoren & Einkauf Einr.**-Seite für Kreditorenbuchungsgruppenänderungen.
 
 Auf den Seiten **Debitorenbuchungsgruppen** oder **Kreditorenbuchungsgruppen** können Sie die Buchungsgruppen angeben, die als Stellvertreter zugelassen werden sollen, indem Sie **Ersatzartikel** auswählen. Ersatzbuchungsgruppen können die standardmäßigen Debitoren- oder Kreditorenbuchungsgruppen ersetzen, die für einen Debitor oder Kreditor angegeben sind.
 

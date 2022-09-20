@@ -10,32 +10,32 @@ ms.search.keywords: supplier
 ms.search.form: 26, 27, 34, 461, 786, 1379, 1385, 1386, 1628
 ms.date: 07/04/2022
 ms.author: edupont
-ms.openlocfilehash: 00ce5d3014d0154f877b9d58fc4e0fd0585f13ac
-ms.sourcegitcommit: 5560a49ca4ce85fa12e50ed9e14de6d5cba5f5c3
+ms.openlocfilehash: 88b6c57fb93b5ef3e2a4cf02ce7a802e4d8aef22
+ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/13/2022
-ms.locfileid: "9144328"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9460746"
 ---
 # <a name="register-new-vendors"></a>Registriert einen neuen Kreditor
 
-Kreditoren stellen die Produkte bereit, die Sie verkaufen. Jeder Kreditor, von dem Sie kaufen, muss als Kreditorenkarte erfasst werden.
+Kreditoren stellen die Produkte bereit, die Sie verkaufen. Jeder Kreditor, von dem Sie kaufen, muss mit einer Kreditorenkarte erfasst werden.
 
-Bevor Sie neue Kreditoren erfassen können, müssen Sie verschiedene Einkaufscodes einrichten, aus denen Sie auswählen können, wenn Sie Kreditorenkarten ausfüllen. Nach der Erstellung aller erforderlichen Masterdaten können weitere Konfigurationsschritte für den Mandanten – wie das Priorisieren des Kreditors zu Zahlungszwecken oder das Aufführen von Artikeln, die von diesem und anderen Kreditoren geliefert werden – ausgeführt werden. Eine weitere Gruppe von Einrichtungsaufgaben bildet die Erfassung von Vereinbarungen zu Rabatten, Preisen und Zahlungsformen. Weitere Informationen finden Sie unter [Einrichten des Einkaufs](purchasing-setup-purchasing.md).
+Bevor Sie neue Kreditoren erfassen können, müssen Sie verschiedene Einkaufscodes einrichten, aus denen Sie auswählen können, wenn Sie Kreditorenkarten ausfüllen. Nach der Erstellung aller erforderlichen Masterdaten können eindeutige Merkmale für den Kreditor – wie das Priorisieren des Kreditors zu Zahlungszwecken oder das Aufführen von Artikeln, die von diesem und anderen Kreditoren geliefert werden – hinzugefügt werden. Eine weitere Gruppe von Einrichtungsaufgaben bildet die Erfassung von Vereinbarungen zu Rabatten, Preisen und Zahlungsformen. Erfahren Sie mehr unter [Einkauf einrichten](purchasing-setup-purchasing.md).
 
-Kreditorenkarten verwahren die Informationen, die benötigt werden, um Produkte vom Kreditor einzukaufen. Weitere Informationen finden Sie unter [Erfassen eines Einkaufs](purchasing-how-record-purchases.md) und [Neue Artikel registrieren](inventory-how-register-new-items.md).
+Kreditorenkarten verwahren die Informationen, die benötigt werden, um Produkte von jedem Kreditor einzukaufen. Weitere Informationen finden Sie unter [Erfassen eines Einkaufs](purchasing-how-record-purchases.md) und [Neue Artikel registrieren](inventory-how-register-new-items.md).
 <br /><br />  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3PZtd?rel=0]
 
 ## <a name="adding-new-vendors"></a>Hinzufügen neuer Kreditoren
 
-Sie können neue Kreditoren manuell hinzufügen, indem Sie die Felder auf der Seite **Kreditorkarte** ausfüllen, oder Sie können Vorlagen verwenden, die vordefinierte Informationen enthalten. Sie können zum Beispiel eine Vorlage für verschiedene Arten von Lieferantenprofilen erstellen. Die Verwendung von Vorlagen spart Zeit beim Hinzufügen neuer Kreditor und hilft sicherzustellen, dass die Informationen jedes Mal korrekt sind.
+Sie können neue Kreditoren manuell hinzufügen, indem Sie die Seite **Kreditorkarte** ausfüllen, oder Sie können Vorlagen verwenden, die vordefinierte Informationen enthalten. Sie können zum Beispiel Vorlagen für verschiedene Arten von Lieferantenprofilen erstellen. Die Verwendung von Vorlagen spart Zeit beim Hinzufügen neuer Kreditor und hilft sicherzustellen, dass die Informationen jedes Mal korrekt sind.
 
 > [!NOTE]  
 > Wenn es Kreditorenvorlagen für verschiedene Kreditorenarten gibt, dann erscheint eine Seite automatisch, wenn Sie eine neue Kreditorenkarte erstellen, von der aus Sie eine entsprechende Kreditorenvorlage auswählen können. Wenn nur eine Kreditorenvorlage vorhanden ist, verwenden neue Kreditorenkarten immer diese Vorlage.
 
-Nachdem Sie eine Vorlage erstellt haben, können Sie die Aktion **Vorlage anwenden** verwenden, um sie auf einen oder mehrere ausgewählte Kreditoren anzuwenden. Um eine Vorlage zu erstellen, geben Sie die Informationen, die Sie wiederverwenden möchten, auf der Seite Lieferantenkarte ein und speichern sie dann als Vorlage. Weitere Informationen finden Sie unter [Speichern der Kreditor Card Seite als Vorlage](purchasing-how-register-new-vendors.md#to-save-the-vendor-card-as-a-template).
+Nachdem Sie eine Vorlage erstellt haben, können Sie die Aktion **Vorlage anwenden** verwenden, um sie auf einen oder mehrere ausgewählte Kreditoren anzuwenden. Um eine Vorlage zu erstellen, geben Sie die Informationen, die Sie wiederverwenden möchten, auf der Seite **Kreditorenkarte** ein und speichern sie dann als Vorlage. Weitere Informationen finden Sie unter [Speichern der Kreditorenkartenseite als Vorlage](purchasing-how-register-new-vendors.md#to-save-the-vendor-card-as-a-template).
 
 > [!TIP]
 > Es kann hilfreich sein, die Seite **Lieferantenvorlage** zu personalisieren, wenn Sie eine Vorlage erstellen. So können Sie beispielsweise ein Feld hinzufügen, das auf der Seite noch nicht angezeigt wird. Weitere Informationen finden Sie unter [Personalisieren Sie Ihren Arbeitsbereich](/dynamics365/business-central/ui-personalization-user#to-start-personalizing-a-page-through-the-personalizing-banner).
@@ -51,14 +51,14 @@ Sie können einen Kreditor auch aus einem Kontakt erstellen. Weitere Information
 
 Der Kreditor ist nun erfasst und die Kreditorenkarte ist bereit, in Einkaufsbeleg verwendet zu werden, in denen Sie mit dem Kreditor handeln.
 
-Wenn Sie diese Kreditorenkarte als Vorlage verwenden möchten, wenn Sie neue Kreditorenkarten erstellen, dann fahren sie fort, um sie als Kreditorenvorlage zu speichern. Weitere Informationen finden Sie im Abschnitt [So speichern Sie die Kreditorenkarte als Vorlage](#to-save-the-vendor-card-as-a-template).
+Wenn Sie diese Kreditorenkarte als Vorlage verwenden möchten, wenn Sie neue Kreditorenkarten erstellen, dann fahren sie fort, um sie als Kreditorenvorlage zu speichern. Weitere Informationen finden Sie unter [Speichern der Kreditorenkarte als Vorlage](#to-save-the-vendor-card-as-a-template).
 
 ### <a name="deleting-and-editing-vendor-information"></a>Löschen und Bearbeiten von Kreditor-Informationen
 
 Sie können die Informationen auf Kreditorenkarten jederzeit bearbeiten. Wenn Sie jedoch eine Transaktion für einen Kreditor gebucht haben, können Sie die Karte nicht löschen, da die Posten für die Buchprüfung benötigt werden könnten. Zum Löschen von Kreditorkarten wenden Sie sich an Ihren Microsoft-Partner, um dies über einen Code durchzuführen.
 
 > [!TIP]
-> Sie können die IBAN eines Kreditor-Bankkontos ändern, ohne dass sich die Änderung auf Ihre historischen Überweisungsregistereinträge auswirkt. Überweisungsregistereinträge speichern die Empfänger-IBAN und die Empfänger-Bankkontonummer, die beim Erstellen der Einträge in den Feldern Kreditor Bankkonto und Empfängername auf der Seite Kreditor-Karte angegeben wurden.
+> Sie können die IBAN eines Kreditor-Bankkontos ändern, ohne dass sich die Änderung auf Ihre historischen Überweisungsregistereinträge auswirkt. Überweisungsregistereinträge speichern die *Empfänger-IBAN* und die *Empfänger-Bankkontonummer*, die beim Erstellen der Einträge in den Feldern **Kreditor Bankkonto** und **Empfängername** auf der Seite **Kreditorkarte** angegeben wurden.
 
 > [!TIP]
 > Sie können alternative Adressen auf Kreditorenkarten hinzufügen, indem Sie die Aktion **Bestelladressen** auswählen.
@@ -72,7 +72,7 @@ Sie können die Informationen auf Kreditorenkarten jederzeit bearbeiten. Wenn Si
 5. Wenn Sie die neue Kreditorvorlage abgeschlossen haben, klicken Sie auf die Schaltfläche **OK**.  
    Die Kreditorvorlage wird der Liste von Kreditorvorlagen hinzugefügt, damit Sie diese verwenden können, um neue Kreditorenkarten zu erstellen.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/trade-master-data-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe verwandte Schulungen unter [Microsoft Learn](/learn/modules/trade-master-data-dynamics-365-business-central/).
 
 ## <a name="see-also"></a>Siehe auch
 
@@ -82,6 +82,7 @@ Sie können die Informationen auf Kreditorenkarten jederzeit bearbeiten. Wenn Si
 [Einkäufer einrichten](purchasing-how-setup-purchasers.md)  
 [Einkauf](purchasing-manage-purchasing.md)  
 [Erfassen eines Einkaufs](purchasing-how-record-purchases.md)  
+[Verwenden Sie Online-Karten, um Standorte und Wegbeschreibungen zu finden](across-online-maps.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

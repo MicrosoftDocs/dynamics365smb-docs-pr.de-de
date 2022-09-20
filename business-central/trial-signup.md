@@ -6,12 +6,12 @@ ms.topic: get-started
 ms.custom: template-trial-setup
 ms.author: edupont
 ms.date: 05/25/2022
-ms.openlocfilehash: 71f1e81982b649a12604f4d5fa77db3ddec5d9bf
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 7c57b608800bdd67d633698d984b34c3143418b3
+ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077502"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9461021"
 ---
 # <a name="sign-up-for-a-free-dynamics-365-business-central-trial"></a>Für eine kostenlose Dynamics 365 Business Central-Testversion registrieren
 
@@ -32,7 +32,7 @@ Ihre Testumgebung enthält die gleichen Funktionen wie die kostenpflichtige Vers
 
 ## <a name="get-started-with-a-subscription"></a>Erste Schritte mit einem Abonnement
 
-Jedes Mal, wenn Sie sich während des Testzeitraums anmelden, erscheint eine Benachrichtigung in einer blauen Leiste oben und zeigt die verbleibende Zeit an. Wenn Sie sich entscheiden, zu abonnieren, suchen Sie einen [!INCLUDE[prod_short](includes/prod_short.md)]-Partner. Weitere Informationen finden Sie unter [Wie finde ich einen Vertriebspartner?](/dynamics365/business-central/across-faq#findpartner). Der Wiederverkaufspartner kann Ihnen helfen, [!INCLUDE[prod_short](includes/prod_short.md)] so einzurichten, dass es zu Ihrem Unternehmen passt, einschließlich des Imports Ihrer Daten aus Ihrem früheren System. Sie können [!INCLUDE[prod_short](includes/prod_short.md)] auch anpassen, indem Sie Apps aus dem [Microsoft Marktplatz](https://go.microsoft.com/fwlink/?linkid=2081646) hinzufügen.  
+Jedes Mal, wenn Sie sich während des Testzeitraums anmelden, erscheint eine Benachrichtigung in einer blauen Leiste oben und zeigt die verbleibende Zeit an. Wenn Sie sich entscheiden, zu abonnieren, suchen Sie einen [!INCLUDE[prod_short](includes/prod_short.md)]-Partner. Weitere Informationen finden Sie unter [Wie finde ich einen Weiterverkaufspartner?](/dynamics365/business-central/across-faq#how-do-i-find-a-reselling-partner). Der Wiederverkaufspartner kann Ihnen helfen, [!INCLUDE[prod_short](includes/prod_short.md)] so einzurichten, dass es zu Ihrem Unternehmen passt, einschließlich des Imports Ihrer Daten aus Ihrem früheren System. Sie können [!INCLUDE[prod_short](includes/prod_short.md)] auch anpassen, indem Sie Apps aus dem [Microsoft Marktplatz](https://go.microsoft.com/fwlink/?linkid=2081646) hinzufügen.  
 
 [!INCLUDE[prod_short](includes/prod_short.md)] online verwendet Microsoft 365. Wenn Ihr Unternehmen eine andere Art der E-Mail-Einrichtung verwendet, kann der Weiterverkaufspartner Ihnen bei der Entscheidung helfen, wie Sie migrieren möchten oder ob Sie [!INCLUDE[prod_short](includes/prod_short.md)] lokal verwenden sollten.  
 

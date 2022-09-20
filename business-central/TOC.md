@@ -1,4 +1,4 @@
-# [Willkommen zu Business Central](index.md)
+# [Willkommen zu Business Central](index.md)  
 # [Neu und geplant](product-news.md)
 # Erste Schritte
 ## [Überblick über Geschäfts-Funktionalität](across-business-functionality.md)
@@ -225,6 +225,7 @@
 ### [Arbeiten mit Fibu Buch.-Blättern](ui-work-general-journals.md)
 ### [Verwenden von Aufgabenwarteschlangen für die Aufgabenplanung](admin-job-queues-schedule-tasks.md)
 ### [Von Business Central Werte vorschlagen lassen](ui-let-system-suggest-values.md)
+### [Verwenden Sie Online-Karten, um Standorte und Wegbeschreibungen zu finden](across-online-maps.md)
 
 ### Eingehende Belege
 #### [Eingehende Belege – Übersicht](across-income-documents.md)
@@ -442,6 +443,7 @@
 ### [Kommissionierliste drucken](sales-how-print-picking-list.md)
 ### [Verkauf buchen](ui-post-sales.md)
 ### [Wiederkehrende Verkaufszeilen erstellen](sales-how-work-standard-lines.md)
+### [Verarbeiten Sie Teillieferungen mit Lieferavis](sales-how-send-partial-shipments.md)
 ### [Direktlieferungen machen](sales-how-drop-shipment.md)
 ### [Spezialaufträge erstellen:](sales-how-to-create-special-orders.md)
 ### [Verarbeiten einer Verkaufsrücklieferung oder von Stornierungen](sales-how-process-sales-returns-cancellations.md)
@@ -1635,6 +1637,7 @@
 ### [Erstellen von Nummernkreisen](ui-create-number-series.md)
 ### [Basiskalender einrichten](across-how-to-assign-base-calendars.md)
 ### [Drucker einrichten](ui-specify-printer-selection-reports.md)
+### [So richten Sie Online Maps ein](across-online-maps-setup.md)
 ### [Abrufen von Business Central auf meinem mobilen Gerät](install-mobile-app.md)
 ### [Business Central auf Ihrem Desktop abrufen](install-desktop-app.md)
 <!--Reporting landing page-->
@@ -1838,6 +1841,7 @@
 ### [Synchronisieren Sie Tabellenzuordnungen manuell](admin-manual-synchronization-of-table-mappings.md)
 ### [Planen einer Synchronisierung](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
 ### [Synchronisationsfehler beheben](admin-troubleshoot-sales-synchronization.md)
+### [Verwenden einen Power Automate Flow für Warnungen zu Dataverse Entitätsänderungen](admin-power-automate-flow-dataverse.md)
 ## Designdetails
 ### [Anwendungsdesigndetails – Übersicht](design-details-application-design.md)
 ### Designdetails: Vorratsplanung
