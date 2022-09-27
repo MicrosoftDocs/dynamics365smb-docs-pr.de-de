@@ -6,12 +6,12 @@ ms.topic: get-started
 ms.custom: template-trial-setup
 ms.author: edupont
 ms.date: 05/25/2022
-ms.openlocfilehash: 7c57b608800bdd67d633698d984b34c3143418b3
-ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
+ms.openlocfilehash: 9a91c2a2b93eccc465501c2f6f9213e80d00df87
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2022
-ms.locfileid: "9461021"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530486"
 ---
 # <a name="sign-up-for-a-free-dynamics-365-business-central-trial"></a>Für eine kostenlose Dynamics 365 Business Central-Testversion registrieren
 
@@ -43,7 +43,7 @@ Sie können sich auch an das [[!INCLUDE[prod_short](includes/prod_short.md)] Ver
 
 Weitere Informationen zur Verwendung von [!INCLUDE [prod_short](includes/prod_short.md)] finden Sie unter [Einrichten des Geschäftsbetriebs](ui-get-ready-business.md) und [Geschäftsfunktionen](across-business-functionality.md).  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/trial-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/trial-dynamics-365-business-central/)
 
 ## <a name="additional-resources"></a>Zusätzliche Ressourcen
 

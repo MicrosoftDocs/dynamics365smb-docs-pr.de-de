@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 1115, 1116, 1117, 1118, 1119, 1120, 1121, 1131, 1132, 1133
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 171e046e68cd3eaabbb10b0e1aeacb508cbc76b4
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 71ed144297e1f7b98b5fcb7252a216258719f68a
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9078126"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533643"
 ---
 # <a name="creating-cost-budgets"></a>Erstellen von Kostenbudgets
 
@@ -32,13 +32,13 @@ Sie verwenden die folgenden Seiten, um Kostenbudgets zu erstellen und zu analysi
 |Sehen Sie sich die Kostenbudgeterfassungen und Kostenbudgetposten an.|**<Kostenbudgeterfassungen**|  
 |Drucken Sie Kostenbudgetvergleiche unter Verwendung der verschiedenen Berichte.|Bericht **Kostenrechnungsbilanz/Budget**<br /><br /> Bericht **Kostenrechnungsauszug/Budget**<br /><br /> Bericht **Kostenbudget nach Kostenstelle**<br /><br /> Bericht **Kostenbudget nach Kostenträger**|  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/cost-accounting-reports-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/cost-accounting-reports-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Siehe auch
 
 [Kostenrechnung](finance-manage-cost-accounting.md)  
 [Sachkontenbudgets erstellen](finance-how-create-budgets.md)  
-[Terminologie der Kostenrechnung](finance-terminology-in-cost-accounting.md)  
+[Terminologie in der Kostenrechnung](finance-terminology-in-cost-accounting.md)  
 [Definieren und Zuweisen von Kosten](finance-define-and-allocate-costs.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

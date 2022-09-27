@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/30/2021
 ms.author: edupont
-ms.openlocfilehash: 301856bcf246f7546992de588472459e1bbec378
-ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
+ms.openlocfilehash: 7f3db5df7c4ea03969eff2efe1a8d019f006ad40
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9130091"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9531809"
 ---
 # <a name="create-workflows-to-connect-business-process-tasks"></a>Workflows erstellen, um Geschäftsprozess-Aufgaben zu verbinden
 
@@ -182,7 +182,7 @@ Die folgende Abbildung gibt einen Überblick über das Ergebnis dieses Vorgangs.
 
 Testen Sie als nächstes den Workflow, indem Sie eine vorhandene Kreditorkarte öffnen und ihren Namen ändern. Überprüfen Sie, ob nach der Änderung des Kreditorennamens ein Genehmigungsantrag gesendet wird.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/create-workflows/)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/create-workflows/)
 
 ## <a name="see-also"></a>Siehe auch
 

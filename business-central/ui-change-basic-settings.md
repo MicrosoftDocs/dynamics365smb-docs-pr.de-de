@@ -10,12 +10,12 @@ ms.search.keywords: change Role Center, notification, change company, change wor
 ms.search.form: 9022, 9019, 9027, 9020, 9026, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 10/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 683d70d7f01d35bd31c1a8e37f735e9a847cf863
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: 36bf0ca4de4fb7caef9c26ae60ed6013387adca4
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655644"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528652"
 ---
 # <a name="change-basic-settings"></a>Ändern von grundlegenden Einstellungen
 
@@ -106,9 +106,9 @@ Wählen Sie den Link *Ändern, wann ich Benachrichtigungen erhalte*, um Benachri
 
 [!INCLUDE [ua-teachingtips](includes/ua-teachingtips.md)]
 
-## <a name="see-related-training-at-microsoft-learn"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/modules/personalize-ui-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/personalize-ui-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-also"></a>Siehe auch
 
 [Neue Unternehmen anlegen](about-new-company.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

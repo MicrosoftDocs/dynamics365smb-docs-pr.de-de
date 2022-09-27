@@ -10,12 +10,12 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.search.form: 103, 104, 197, 196, 195, 198, 490, 764, 765, 766
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8984d007f2082c6a21a3d2226a20f2ad585b131a
-ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
+ms.openlocfilehash: 780034b8c53e7bb1704e13d0b1a00158583c11db
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9129732"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9531728"
 ---
 # <a name="prepare-financial-reporting-with-account-schedules-and-account-categories"></a>Bereiten Sie Finanzberichte mit Kontenschemata und Kontengruppen vor
 
@@ -164,9 +164,9 @@ Sie können Kontenschemata als RapidStart-Konfigurationspakete importieren und e
 > [!NOTE]
 > Beim Importieren von Kontenplänen werden vorhandene Datensätze mit demselben Namen wie die importierten Datensätze gelöscht.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/modules/configure-financial-reports-dynamics-365-business-central/index).
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/configure-financial-reports-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-also"></a>Siehe auch
 
 [Business Intelligence](bi.md)  
 [Finanzen](finance.md)  

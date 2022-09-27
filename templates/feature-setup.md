@@ -6,18 +6,18 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.date: 10/01/2021
 ms.author: MyMSFTAlias (if I work for Microsoft; otherwise edupont)
-ms.openlocfilehash: 837dc686f3a926683a736e2f4f3108d752bb791b
-ms.sourcegitcommit: 67006b090a7bd70446414a19cc82e531190637dc
+ms.openlocfilehash: 66327ff91c22111e288bcb6b15d7b510cf498688
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8311177"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9535370"
 ---
 # <a name="set-up-this-feature-in-max-100-characters"></a>Diese Funktion festlegen in Max. 100 Zeichen
 
 Verwenden Sie [!INCLUDE [prod_short](includes/prod_short.md)] für den Produktnamen und schreiben Sie in aktiven Sätzen, wie z.B. „Erledigen Sie Aufträge schneller“ und „Mit dieser Funktionalität können Sie bla machen“.  
 
-Tipps zu MarkDown und Stil finden Sie unter [Autorenanleitung für Dynamics 365 Business Central](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/help/writing-guide).  
+Tipps zu MarkDown und Stil finden Sie unter [Autorenanleitung für Dynamics 365 Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/help/writing-guide).  
 
 Denken Sie daran, Links hinzuzufügen, weitere Informationen auch unter neuen Artikel zur Datei TOC.md hinzuzufügen.  
 

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: b51aa003aa37ed95545d4f9d94e3c34d25d02270
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: b594ebf1cebd1fbec7302777b5233ffd3eec198b
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8510922"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9535317"
 ---
 # <a name="work-with-power-bi-reports-in-prod_short"></a>Mit Power BI-Berichten in [!INCLUDE [prod_short](includes/prod_short.md)] arbeiten
 
@@ -127,7 +127,7 @@ Diese Meldung wird angezeigt, wenn der Standardbericht nicht in Ihrem Power BI-A
 
 Vermutlich enthält der Name des Berichts nicht den Namen der Listenseite. Löschen Sie den Filter, um die vollständige Liste der verfügbaren Power BI-Berichte anzuzeigen.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Siehe auch
 

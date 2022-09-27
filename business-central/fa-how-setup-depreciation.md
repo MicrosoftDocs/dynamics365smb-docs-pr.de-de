@@ -6,12 +6,12 @@ ms.topic: conceptual
 ms.search.keywords: write down
 ms.date: 06/28/2021
 ms.author: edupont
-ms.openlocfilehash: 887a8f94db8f289769c2fba7a1938d7b7960e400
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: c1912cf6c6e755949e8aa32b749145efc8b70783
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9079194"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9534669"
 ---
 # <a name="set-up-fixed-asset-depreciation"></a>Richten Sie eine neue Anlagenkarte ein
 
@@ -95,7 +95,7 @@ Wenn der Batchauftrag AfA berechnen die Abschreibungen berechnet, verwendet der 
 
 Wenn Sie dieses Feld markieren, verwendet der Batchauftrag „AfA berechnen“ stattdessen das Kalenderjahr mit 365 Tagen, wobei jeder Monat mit der gleichen Anzahl von Tagen wie im Kalender berechnet wird. Die einzige Ausnahme ist der Februar in Schaltjahren, den der Batchauftrag so behandelt, als hätte er 28 Tage und nicht 29. Aus diesem Grund besitzen alle Jahre (auch Schaltjahre) 365 Tage.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/configure-depreciation-books/)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/configure-depreciation-books/)
 
 ## <a name="see-also"></a>Siehe auch
 

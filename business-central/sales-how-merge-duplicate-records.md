@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: client
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 412dd6ae2842c408ac0a4be7be369c01019a814b
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: a50d15ad62459b78b2d18d8167df319669a56ec7
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9074484"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9529163"
 ---
 # <a name="merge-duplicate-records"></a>Doppelt Datensätze zusammenführen
 
@@ -28,7 +28,7 @@ Wenn unterschiedliche Benutzer im Laufe der Zeit neue Debitoren-, Kreditoren- od
 
 Das folgende Verfahren basiert auf einer Debitorenkarte. Die Schritte sind für Debitor- und Kontaktkarten ähnlich.
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Debitor** ein und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Debitor** ein und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie den Debitor, von dem Sie wissen oder vermuten, dass ein doppelter Datensatz für ihn existiert, und wählen Sie die dann die Aktion **Bearbeiten** aus.
 3. Wählen Sie auf der Seite **Debitorenkarte** die Aktion **Zusammenführen mit** aus.
 4. Wählen Sie auf der Seite **Doppelte Datensätze zusammenführen** im Feld **Zusammenführen mit** den Kunden aus, von dem Sie der Meinung sind, dass dies ein Duplikat des von Ihnen geöffneten Datensatzes ist, der im Feld **Aktuell** angezeigt wird.
@@ -62,7 +62,7 @@ Das folgende Verfahren basiert auf einer Debitorenkarte. Die Schritte sind für 
 > [!NOTE]
 > Für Kontakte können Sie Funktionen zum Auffinden von doppelten Kontakten nutzen, bevor Sie die Seite **Doppelt Datensätze zusammenführen** verwenden. Weitere Informationen finden Sie unter [Suchen nach doppelten Kontakten](marketing-setup-contacts.md#searching-for-duplicate-contacts).
 
-## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/trade-master-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/trade-master-data-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Siehe auch
 

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: b8ff6bebf418a5473e2a53bfc8021d8f47d71abf
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: bb39763e80acc25604f3a1528f5c6db286a5c1dc
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9079454"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9535489"
 ---
 # <a name="overview-of-tasks-to-close-accounting-periods"></a>Überblick zu Aufgaben, Buchhaltungsperioden zu schließen
 
@@ -63,7 +63,7 @@ ms.locfileid: "9079454"
 
 * Schließen Sie Steuer-Abrechnungen ab.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/close-fiscal-year-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/close-fiscal-year-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Siehe auch
 

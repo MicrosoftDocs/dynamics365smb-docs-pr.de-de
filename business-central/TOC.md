@@ -5,7 +5,7 @@
 <!--### [Get Ready for Doing Business](ui-get-ready-business.md)-->
 ## Informationen
 ### [Business Central Lernkatalog](readiness/readiness-learning-catalog.md)
-### [Business Central in Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
+### [Business Central Schulung](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
 ### Exemplarische Vorgehensweisen für Geschäftsprozesse
 #### [Verfügbare exemplarische Vorgehensweisen](walkthrough-business-process-walkthroughs.md)
 #### [Exemplarische Vorgehensweise: Durchführen einer Verkaufskampagne](walkthrough-conducting-a-sales-campaign.md)

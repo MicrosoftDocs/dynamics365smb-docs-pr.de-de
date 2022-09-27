@@ -10,12 +10,12 @@ ms.search.keywords: forecast
 ms.search.form: 5610, 5611
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c23881a80761a9c5ffe229b6299c320c39fc3f85
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: a39ff86ea1bc8b3a2e772b8b3b557cdf863f8d7f
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9079220"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528358"
 ---
 # <a name="manage-budgets-for-fixed-assets"></a>Budgets für Anlagen verwalten
 
@@ -60,7 +60,7 @@ Sie können den Bericht **Anlage - Vorschau** zur Kalkulation von zukünftigen A
 4. Lassen Sie das Inforegister **Anlage** leer, damit alle Anlagen einbezogen werden. Geben Sie im Feld **Plananlage** die Einstellung **Nein** an, um Plananlagen auszuschließen, oder geben Sie **Ja** an, um nur Plananlagen anzuzeigen.
 5. Wählen Sie die Schaltfläche **Drucken** oder **Vorschau**.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/budget-fixed-assets/)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/budget-fixed-assets/)
 
 ## <a name="see-also"></a>Siehe auch
 

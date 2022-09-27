@@ -10,12 +10,12 @@ ms.search.keywords: find
 ms.search.form: TellMe, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 05/23/2022
 ms.author: bholtorf
-ms.openlocfilehash: df2500afba5eb695680347a41169dafc78b0facd
-ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
+ms.openlocfilehash: 0e1f394be1503c76bbf071ca188612b06231e107
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2022
-ms.locfileid: "8799430"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9532295"
 ---
 # <a name="finding-pages-and-information-with-tell-me"></a>Suchen von Seiten und Informationen mit Wie möchten Sie weiter verfahren  
 In diesem Thema wird beschrieben, wie Sie mit „Wie möchten Sie weiter verfahren“ schnell zu Aktionen, Seiten oder Berichten navigieren, Informationen zum Abschluss einer bestimmten Aufgabe finden und zusätzliche Apps und Beratungsdienste für [!INCLUDE[prod_short](includes/prod_short.md)] zu ermitteln.  
@@ -67,9 +67,9 @@ Die Funktion **Wie möchten Sie weiter verfahren** sucht nicht nach Daten wie De
 ## <a name="questions"></a>Fragen?
 Wir haben „Wie möchten Sie weiter verfahren“ einer Reihe von Projektbeteiligten präsentiert, deren gemeinsame Fragen notiert und aus unseren Notizen eine Liste der häufig gestellten Fragen erstellt. Bei Interesse finden Sie sie unter [„Wie möchten Sie weiter verfahren“-FAQ](ui-search-faq.md).
 
-## <a name="see-related-training-at-microsoft-learn"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/modules/user-interface-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/user-interface-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-also"></a>Siehe auch
 [Arbeiten mit Business Central](ui-work-product.md)  
 [Fügen Sie Ihrem Rollencenter eine Seitenaktion hinzu](ui-bookmarks.md)
 

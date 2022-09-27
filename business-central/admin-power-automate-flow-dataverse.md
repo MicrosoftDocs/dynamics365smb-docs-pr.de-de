@@ -11,12 +11,12 @@ ms.search.form: ''
 ms.date: 09/05/2022
 ms.author: bholtorf
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: fb5b2fa88289ff3d9d491f9b8ee7d73706740020
-ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
+ms.openlocfilehash: dc1601caac73dc7c58862938ddc612a9536e84e9
+ms.sourcegitcommit: 2396dd27e7886918d59c5e8e13b8f7a39a97075d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2022
-ms.locfileid: "9461267"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "9524505"
 ---
 # <a name="use-a-power-automate-flow-for-alerts-to-dataverse-entity-changes"></a>Verwenden einen Power Automate Flow für Warnungen zu Dataverse Entitätsänderungen
 
@@ -28,13 +28,24 @@ Administratoren können einen automatisierten Flow in Power Automate erstellen, 
 > [!NOTE]
 > Dieser Artikel geht davon aus, dass Sie Ihre Online-Version von [!INCLUDE[prod_short](includes/prod_short.md)] mit [!INCLUDE [cds_long_md](includes/cds_long_md.md)] verbunden haben und eine  Synchronisierung zwischen den beiden Anwendungen geplant haben.
 
+## <a name="import-the-flow-template"></a>Flow-Vorlage importieren
+
+> [!TIP]
+> Um das Einrichten des Flows zu vereinfachen, haben wir eine Vorlage erstellt, die den Flow-Trigger und die Flow-Bedingung für Sie definiert. Um die Vorlage zu verwenden, befolgen Sie die Schritte in diesem Abschnitt. Um den Flow selbst zu erstellen, überspringen Sie diesen Abschnitt und beginnen Sie mit den Schritten unter [Definieren Sie den Flow-Trigger](#define-the-flow-trigger).
+
+1. Anmelden bei [Power Automate](https://powerautomate.microsoft.com).
+2. Wählen Sie sie **Vorlagen** und suchen Sie nach **Business Central benachrichtigen**.
+
+:::image type="content" source="media/power-automate-import-template.png" alt-text="Schlüsselwörter zum Suchen der Flow-Vorlage.":::
+3. Wählen Sie **Business Central Benachrichtigen, wenn sich ein Konto ändert** Vorlage aus.
+4. Fahren Sie mit den Schritten unter [Business Central über eine Änderung benachrichtigen](#notify-business-central-about-a-change).
+
 ## <a name="define-the-flow-trigger"></a>Flowtrigger definieren
 
 1. Anmelden bei [Power Automate](https://flow.microsoft.com).
 2. Erstellen Sie einen automatisierten Cloud-Flow, der startet, wenn eine Zeile für eine[!INCLUDE [cds_long_md](includes/cds_long_md.md)] Entität hinzugefügt, geändert oder gelöscht wird. Weitere Informationen finden Sie unter [Lösen Sie Flows aus, wenn eine Zeile hinzugefügt, geändert oder gelöscht wird](/power-automate/dataverse/create-update-delete-trigger). Dieses Beispiel verwendet die Entität **Konten**. Die folgende Abbildung zeigt die Einstellungen für den ersten Schritt beim Definieren eines Flow-Triggers.
 
 :::image type="content" source="media/power-automate-flow-dataverse-trigger.png" alt-text="Einstellungen für den Trigger des Flows":::
-
 3. Verwenden Sie **AssistEdit (...)** in der oberen rechten Ecke, um die Verbindung zu Ihrer Umgebung [!INCLUDE [cds_long_md](includes/cds_long_md.md)] hinzuzufügen.
 4. Wählen Sie **Erweiterte Optionen anzeigen**, und geben Sie im Feld **Zeilen filtern** **customertypecode eq 3** oder **customertypecode eq 11** und **statecode eq 0** ein. Diese Werte bedeuten, dass der Trigger nur reagiert, wenn Änderungen an aktiven Konten des Typs **Debitor** oder **Kreditor** vorgenommen werden.
 
@@ -46,11 +57,11 @@ Daten werden zwischen [!INCLUDE[prod_short](includes/prod_short.md)] und [!INCLU
     1. Wählen Sie im Feld **Tabellenname** die Option **Benutzer** aus.
     2. Wählen Sie im Feld **Zeilen-ID** wählen Sie **Geändert von (Wert)** vom Flow-Trigger aus.  
 2. Fügen Sie einen Bedingungsschritt wie mit den folgenden **oder** Einstellungen zum Identifizieren des Integrationsbenutzerkontos hinzu.
-    1. Die **Haupt-Email-Adresse** des Benutzers enthält **contoso.com** 
-    2. Der **Vollständige Name** des Benutzers enthält **[!INCLUDE[prod_short](includes/prod_short.md)]**. 
-3. Fügen Sie ein Terminate-Steuerelement hinzu, um den Flow zu stoppen, wenn die Bedingung erfüllt ist. Das heißt, wenn die Bedingung erfüllt ist und eine Entität durch das Integrationsbenutzerkonto geändert wurde.
+    1. Die **Haupt-Email-Adresse** des Benutzers enthält **contoso.com**
+    2. Der **Vollständige Name** des Benutzers enthält **[!INCLUDE[prod_short](includes/prod_short.md)]**.
+3. Fügen Sie ein Beenden-Steuerelement hinzu, um den Flow zu stoppen, wenn die Entität vom Integrationsbenutzerkonto geändert wurde.
 
-Die folgende Abbildung zeigt die Informationen, die hinzugefügt werden müssen, um den Flow-Trigger und die Flow-Bedingung zu definieren.
+Die folgende Abbildung zeigt, wie der Flow-Trigger und die Flow-Bedingung definiert werden.
 
 :::image type="content" source="media/power-automate-flow-dataverse.png" alt-text="Übersicht über Flow-Trigger und Bedingungseinstellungen":::
 
@@ -58,11 +69,10 @@ Die folgende Abbildung zeigt die Informationen, die hinzugefügt werden müssen,
 
 Wenn der Flow nicht durch die Bedingung gestoppt wird, müssen Sie [!INCLUDE[prod_short](includes/prod_short.md)] benachrichtigen, dass eine Änderung eingetreten ist. Verwenden Sie dazu den Connector [!INCLUDE[prod_short](includes/prod_short.md)].
 
-1. In der Verzweigung **Nein** des Bedingungsschritts, fügen Sie eine Aktion hinzu und suchen Sie nach **Dynamics 365[!INCLUDE[prod_short](includes/prod_short.md)]**. Wählen Sie das Connector-Symbol in der Liste. 
+1. In der Verzweigung **Nein** des Bedingungsschritts, fügen Sie eine Aktion hinzu und suchen Sie nach **Dynamics 365[!INCLUDE[prod_short](includes/prod_short.md)]**. Wählen Sie das Connector-Symbol in der Liste.
 2. Wählen Sie die Aktion **Datensatz erstellen (V3)** aus.
 
 :::image type="content" source="media/power-automate-flow-dataverse-connector.png" alt-text="Einstellungen für den [!INCLUDE[prod_short](includes/prod_short.md)]-Konnektor":::
-
 3. Verwenden Sie **AssistEdit (...)** in der oberen rechten Ecke, um die Verbindung zu Ihrer [!INCLUDE[prod_short](includes/prod_short.md)] hinzuzufügen.
 4. Wenn Sie verbunden sind, füllen Sie **Umgebungsname** und **Unternehmensname** aus.
 5. Geben Sie im Feld **API-Kategorie** **microsoft/dataverse/v1.0** ein.
@@ -76,7 +86,7 @@ Ihr Workflow sollte nun wie im Bild unten aussehen.
 
 Wenn Sie ein Konto in Ihrer [!INCLUDE [cds_long_md](includes/cds_long_md.md)] Umgebung hinzufügen, löschen oder ändern, führt dieser Flow die folgenden Aktionen aus:
 
-1. Rufen Sie die [!INCLUDE[prod_short](includes/prod_short.md)] Umgebung auf, die Sie im Connector [!INCLUDE[prod_short](includes/prod_short.md)] angegeben haben. 
+1. Rufen Sie die [!INCLUDE[prod_short](includes/prod_short.md)] Umgebung auf, die Sie im Connector [!INCLUDE[prod_short](includes/prod_short.md)] angegeben haben.
 2. Verwenden Sie die [!INCLUDE[prod_short](includes/prod_short.md)] API zum Einfügen eines Datensatzes mit **Entitätsname** gesetzt auf **Konto** in der Tabelle **Dataverse-Eintragsänderung** Tisch. 3. [!INCLUDE[prod_short](includes/prod_short.md)] startet den Auftragswarteschlangeneintrag, der Debitoren mit Konten synchronisiert.
 
 ## <a name="see-also"></a>Siehe auch

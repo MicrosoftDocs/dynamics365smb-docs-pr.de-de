@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 08/31/2021
 ms.author: edupont
-ms.openlocfilehash: be30d89ca6ad6c80b27b0cc8f5e619b6ad5c7782
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: c298903d62da4cfd346a46ff1978ab91644fb13f
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9078022"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533267"
 ---
 # <a name="set-up-item-tracking-with-serial-lot-and-package-numbers"></a>Artikelverfolgung mit Serien-, Chargen- und Paketnummern einrichten
 
@@ -85,7 +85,7 @@ Um die Artikelverfolgung zu aktivieren, müssen Sie einem Artikel zunächst die 
 3. Weisen Sie im Inforegister **Artikelverfolgung** die entsprechenden Artikelverfolgungscodes zu, und wählen Sie den **Artikelverfolgungscode**, die **Seriennummern** und die **Chargennummern** aus.
     1. Alternativ können Sie auch einen neuen Artikelverfolgungscode erstellen, indem Sie die Aktion **Neu** auswählen.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/prepare-item-tracking/)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/prepare-item-tracking/)
 
 ## <a name="see-also"></a>Siehe auch
 

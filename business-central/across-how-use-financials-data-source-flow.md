@@ -9,12 +9,12 @@ ms.search.keywords: workflow, OData, Power App, SOAP, Entity set not found, work
 ms.date: 05/12/2022
 ms.author: edupont
 author: jswymer
-ms.openlocfilehash: f1128a9fb4e9643286e4305695e1d40719d86301
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 056fe537df2fba23e02cb4e70675937cde724fbf
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9079324"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533024"
 ---
 # <a name="use-prod_short-in-power-automate-flows"></a>[!INCLUDE[prod_short](includes/prod_short.md)] in Power Automate-Flows verwenden
 
@@ -51,7 +51,7 @@ Sie können Flows auf der Website [powerautomate.microsoft.com](https://poweraut
 
 Sie erhalten eine Übersicht aller Workflows, auf die Sie Zugriff haben, indem Sie auf die Aktion **Workflows verwalten** im Menü **Power Automate** klicken. Die Liste wird in einer neuen Browserregisterkarte geöffnet, und Sie werden automatisch bei Power Automate angemeldet. Dort können Sie sehen, wann jeder Flow zuletzt ausgeführt wurde.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/use-power-automate/)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/use-power-automate/)
 
 ## <a name="see-also"></a>Siehe auch
 

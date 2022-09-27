@@ -10,12 +10,12 @@ ms.reviewer: edupont
 ms.search.form: ''
 ms.date: 08/08/2022
 ms.author: edupont
-ms.openlocfilehash: 2f306fee236fda2bae4863e0e793239c2168f125
-ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
+ms.openlocfilehash: 1bae22c83f1e7138fbfe16bb39aea3ad9d65d788
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2022
-ms.locfileid: "9461102"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530999"
 ---
 # <a name="posting-purchases"></a>Einkäufe buchen
 
@@ -58,7 +58,7 @@ In den meisten Fällen können Sie Posten von der betroffenen Karte oder dem bet
 
 Sie können bestimmte Felder in gebuchten Einkaufsbelegen bearbeiten, z. B. das Feld **Zahlungsreferenz**. Erfahren Sie mehr unter [Gebuchte Belege bearbeiten](across-edit-posted-document.md). Bei kritischeren Feldern, die sich auf den Überwachungspfad auswirken, müssen Sie die Buchung stornieren oder rückgängig machen. Erfahren Sie mehr unter [Buch.-Blatt-Buchungen stornieren und Rückgängigmachung von Eingängen/Versendungen](finance-how-reverse-journal-posting.md).
 
-## <a name="see-related-training-at-microsoft-learn"></a>Siehe verwandte Schulungen unter [Microsoft Learn](/learn/modules/receive-invoice-dynamics-d365-business-central/index).
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/receive-invoice-dynamics-d365-business-central/index)
 
 ## <a name="see-also"></a>Siehe auch
 

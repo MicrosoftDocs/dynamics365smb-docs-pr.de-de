@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
 ms.date: 05/23/2022
 ms.author: jswymer
-ms.openlocfilehash: 0e5ad41e6109d53a998f1c3ad8280b92a602a50e
-ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
+ms.openlocfilehash: 3fe47ef19e9a8dbc66c13461aa1255bc21490421
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2022
-ms.locfileid: "8799690"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9531134"
 ---
 # <a name="keyboard-shortcuts"></a>Tastenkombinationen
 

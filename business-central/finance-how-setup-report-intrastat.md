@@ -10,12 +10,12 @@ ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
 ms.search.form: 308, 309, 310, 311, 325, 326, 327, 328, 405, 406, 8451, 12202, 31077
 ms.date: 05/23/2022
 ms.author: bholtorf
-ms.openlocfilehash: 2ea3d93e1dac041848dc650fc8137e824e0fd4c2
-ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
+ms.openlocfilehash: 01b48fad86c805da2120477fc9f6d5f0f5bcdb94
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2022
-ms.locfileid: "8799745"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533886"
 ---
 # <a name="set-up-and-report-intrastat"></a>Einrichten und Berichten von Intrastat
 
@@ -59,7 +59,7 @@ Sie können die Positionen in eine Datei exportieren, die Sie an Ihre Intrastat-
 > [!Note]
 > Es empfiehlt sich, für jeden Monat einen Intrastat Buch.-Blattnamen zu erstellen.  
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Intrastat Buch.-Blattvorlagen** ein und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Intrastat Buch.-Blattvorlagen** ein und wählen Sie dann den zugehörigen Link.  
 2. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]. Erstellen Sie eine Vorlage für jedes verwendete Intrastat-Formular.  
 3. Um Chargen zu erstellen, wählen Sie die Aktion **Stapel**.  
 4. Füllen Sie die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]. Erstellen Sie eine Vorlage für jedes verwendete Intrastat-Formular. 
@@ -69,7 +69,7 @@ Sie können die Positionen in eine Datei exportieren, die Sie an Ihre Intrastat-
 
 ### <a name="to-set-up-transport-methods"></a>Einrichten von Transportmethoden
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Verkehrszweige** ein und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Verkehrszweige** ein und wählen Sie dann den zugehörigen Link.  
 2. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ### <a name="to-set-up-which-intrastat-report-fields-are-mandatory"></a>Um einzurichten die Intrastat-Berichte erforderlich sein sollte Sie unter
@@ -173,7 +173,7 @@ In vielen Ländern werden von den Zoll- und Steuerbehörden achtstellige Artikel
 
 Auf der Seite **Zollpositionen** fügen Sie alle Codes hinzu, die Sie verwenden. Sie müssen die Codes auf der Artikelkarte eingeben, bevor Sie mit dem Buchen beginnen. Wenn Sie die Codes eingerichtet haben, geben Sie diese ein im **Zollposition** -Feld auf der Artikelkarte. Darüber hinaus müssen Sie das Feld **Nettogewicht** auf der Artikelkarte ausfüllen.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/process-intrastat-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Siehe auch
 

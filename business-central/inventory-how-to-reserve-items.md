@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.forms: 498, 497
 ms.date: 08/11/2022
 ms.author: edupont
-ms.openlocfilehash: d727242c772d1eba2959747c2fcd151a7a330009
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
+ms.openlocfilehash: e68a85cfb15841f45b048cabaad2e279de19b73b
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9361663"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9534885"
 ---
 # <a name="reserve-items"></a>Artikel reservieren
 
@@ -107,7 +107,7 @@ Das folgende Verfahren basiert auf einer Auftragsabwicklung.
 7. Wählen Sie die Schaltfläche **OK**, um die Seite **Reservationen** zu öffnen, in dem nur der Bedarf angezeigt wird, der mit der angegebenen Artikelverfolgungsnummer verbunden ist. Bei nicht-spezifischen Reservierungen für eine der Artikelverfolgungsnummern, die Sie in dieser Zeile angegeben haben, werden Sie über die Menge informiert, die bereits reserviert wurde.  
 8. Klicken Sie auf die Aktionen **Automatisch Reservieren** oder **Aus aktueller Zeile reservieren**, um die Reservierung für die speziellen Artikelverfolgungsnummern zu erstellen.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/manage-outbound-serial-lot-numbers/)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/manage-outbound-serial-lot-numbers/)
 
 ## <a name="see-also"></a>Siehe auch
 

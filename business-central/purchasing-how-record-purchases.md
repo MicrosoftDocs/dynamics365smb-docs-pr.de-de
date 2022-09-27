@@ -10,12 +10,12 @@ ms.search.keywords: procurement
 ms.search.form: 50 ,51, 53, 56, 146, 147, 9307, 9309, 9306, 9308, 9310
 ms.date: 09/01/2022
 ms.author: edupont
-ms.openlocfilehash: e6f918a33b81ab7986fd0f2ec6bddb9dcc62fcc3
-ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
+ms.openlocfilehash: daedfacb3e496fa668095916b07caa7488765a83
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2022
-ms.locfileid: "9460832"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9535477"
 ---
 # <a name="record-purchases-with-purchase-invoices"></a>Käufe mit Einkaufsrechnungen erfassen
 
@@ -103,7 +103,7 @@ Sie können eine gebuchte Einkaufsrechnung einfach korrigieren oder stornieren, 
 
 [!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
-## <a name="see-related-training-at-microsoft-learn"></a>Siehe verwandte Schulungen unter [Microsoft Learn](/learn/modules/processing-invoices-dynamics-365-business-central/index).
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/processing-invoices-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Siehe auch
 

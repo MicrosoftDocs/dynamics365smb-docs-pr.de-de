@@ -10,12 +10,12 @@ ms.search.keywords: analysis, reporting, financial report, business intelligence
 ms.search.form: 9901
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 02493bee3940bf1416c2485b0b45016edbca9baa
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: adfb0a98f79f3e32656e6e9f6b95172e6a83dd39
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655176"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9529946"
 ---
 # <a name="export-your-business-data-to-excel"></a>Geschäftsdaten nach Excel exportieren
 
@@ -78,11 +78,11 @@ Es ist empfehlenswert, dass Sie auch erwägen, Daten von den nächsten Seiten zu
 
 Weitere Informationen finden Sie unter [So erhalten Sie eine Übersicht der Benutzerberechtigungen](ui-define-granular-permissions.md#to-get-an-overview-of-a-users-permissions).
 
-## <a name="see-related-training-at-microsoft-learn"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Siehe auch
 [Abbrechen des Abonnements für [!INCLUDE[prod_short](includes/prod_short.md)]](admin-cancel.md)  
-[Geschäftsdaten aus anderen Finanzsystemen importieren](across-import-data-configuration-packages.md)  
+[Importieren von Geschäftsdaten aus anderen Finance-Systemen](across-import-data-configuration-packages.md)  
 [Analysieren von Finanzberichten in Microsoft Excel](finance-analyze-excel.md)  
 [Finanzen](finance.md)  
 [Allgemeine Geschäftsfunktionen](ui-across-business-areas.md)  

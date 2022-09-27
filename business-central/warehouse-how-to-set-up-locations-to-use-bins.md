@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 88fa36a84b88ccb44df3c1412ac217461febc883
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: eef49d2ad6d1f52e8b85b1c3e06695668d19fd4f
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9078258"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530081"
 ---
 # <a name="set-up-locations-to-use-bins"></a>Lagerorte für die Verwendung von Lagerplätzen einrichten
 
@@ -45,7 +45,7 @@ Dieses Flow-Diagramm zeigt, wie das Feld **Lagerplatzcode** auf den Zeilen der P
 
 ![Flowdiagramm Lagerplatz.](media/binflow.png "BinFlow")  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/configure-bins-location/)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/configure-bins-location/)
 
 ## <a name="see-also"></a>Siehe auch
 

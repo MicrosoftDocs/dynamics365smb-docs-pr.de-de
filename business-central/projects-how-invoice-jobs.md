@@ -10,12 +10,12 @@ ms.search.keywords: project invoice
 ms.search.form: 1002, 1007,
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 06be08bce312cfcdd0bc6eef0e50890244734dba
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 027a79180dbc8a1a9ea53da9548d2b39a1852cdc
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9074640"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533535"
 ---
 # <a name="invoice-jobs"></a>Fakturieren von Projekten
 
@@ -66,7 +66,7 @@ Sie können eine Rechnung aus Projektplanungszeilen erstellen, und dabei die Men
 > [!NOTE]  
 >   Das obige Verfahren dient zum Erstellen, Prüfen und Buchen einer projektbezogenen Verkaufsgutschrift.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/paths/post-job-usage-sales/)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/paths/post-job-usage-sales/)
 
 ## <a name="see-also"></a>Siehe auch
 

@@ -10,12 +10,12 @@ ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
 ms.search.form: 6, 25, 440, 443, 448, 452
 ms.date: 02/09/2022
 ms.author: edupont
-ms.openlocfilehash: 271b9f032df685b5eac1c3bddca037326ea4c1d6
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: fb3616fdffc340ec8d4a327cfc2fefd577b78af1
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520734"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528114"
 ---
 # <a name="collect-outstanding-balances"></a>Einziehen von Restbeträgen
 
@@ -113,7 +113,7 @@ Wenn Sie eine Mahnung registrieren, wird für jede Mahnungszeile, die einen Debi
 
 [!INCLUDE [multiple-interest-rates-def](includes/multiple-interest-rates-def.md)] Weitere Informationen finden Sie unter [Mehrere Zinssätze einrichten](finance-how-to-set-up-multiple-interest-rates.md).  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/paths/process-financial-periodic-activities-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/paths/process-financial-periodic-activities-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Siehe auch
 

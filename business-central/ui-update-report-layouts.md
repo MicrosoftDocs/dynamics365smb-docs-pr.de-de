@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 9652, 9650
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 76e4b2351e3df740871b5f79e6086c1a70079023
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: ce20cf835cee31c752224bd96b6bd6f202998aae
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517212"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530756"
 ---
 # <a name="legacy-update-custom-report-layouts"></a>(Legacy) Benutzerdefinierte Berichtslayouts aktualisieren
 
@@ -64,9 +64,9 @@ Wenn keine Fehler auftreten, wird die Aktualisierung für die Berichtslayouts ü
 
 Nachdem Sie das Layout ändern, versuchen Sie, das Layout erneut zu aktualisieren.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/change-documents-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Weitere Informationen  
+## <a name="see-also"></a>Siehe auch  
  [Verwalten von Berichtslayouts](ui-manage-report-layouts.md)  
  [Arbeiten mit Berichten, Batchaufträgen und XMLports](ui-work-report.md)  
 

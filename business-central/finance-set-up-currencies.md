@@ -7,12 +7,12 @@ ms.search.keywords: multiple currencies
 ms.search.form: 5, 118
 ms.date: 03/15/2022
 ms.author: edupont
-ms.openlocfilehash: e501f61f61aec9d9ffc4acd9607ee6b9cf22e74f
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 5ea475ca6f01cc953d4feb8ea1b4135d384b8ec0
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9074900"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528250"
 ---
 # <a name="set-up-currencies"></a>Einrichten von Währungen
 
@@ -117,7 +117,7 @@ Sie können einen Währungscode in eine Fibu Buch.-Blattzeile eingeben und die Z
 
 [!INCLUDE [finance-currencies-example](includes/finance-currencies-example.md)]
 
-## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/currencies-exchange-rates-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/currencies-exchange-rates-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Siehe auch
 

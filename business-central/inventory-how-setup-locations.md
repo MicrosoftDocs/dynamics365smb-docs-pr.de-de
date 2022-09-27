@@ -10,12 +10,12 @@ ms.search.keywords: warehouse, distribution center
 ms.search.forms: 5703, 15
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 9ed3bc15f8f8b94e842d8c01415b04018e4fc6ec
-ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
+ms.openlocfilehash: 0888a0a47f3a5ae58dcf7712218f801cde1711c5
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9129676"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528303"
 ---
 # <a name="set-up-locations"></a>Einrichten von Lagerorten
 
@@ -48,7 +48,7 @@ Wählen Sie die Aktionen **Zonen** oder **Lagerplätze**, um Informationen über
 
 Sie können die Konfiguration eines Lagerorts später ändern, die Einrichtung von Lagerorten mit Artikel-Ledger-Einträgen jedoch nicht bearbeiten.  
 
-Wenn Sie mehrere Standorte haben, können Sie Umlagerungsrouten zwischen den Standorten definieren. Weitere Informationen finden Sie unter [Sie erstellen eine Umlagerungsroute](inventory-how-setup-locations.md#to-create-a-transfer-route). 
+Wenn Sie mehrere Standorte haben, können Sie Umlagerungsrouten zwischen den Standorten definieren. Weitere Informationen finden Sie unter [Sie erstellen eine Umlagerungsroute](inventory-how-setup-locations.md#to-create-a-transfer-route).
 
 ### <a name="to-create-a-transfer-route"></a>So erstellen Sie eine Umlagerungsroute
 
@@ -79,7 +79,7 @@ Sie können jedoch auch nur eine Zone einrichten und Ihr Lager einfach auf Lager
 ## <a name="default-dimensions-for-locations"></a>Standarddimensionen für Standorte
 Sie legen Standarddimensionen für einen Standort auf der Seite **Standortkarte** fest, indem Sie **Dimensionen** auswählen. Anschließend werden Dokumenten die Standardabmessungen des Standorts zugewiesen, wenn Sie den Standort in einer Zeile auswählen. Bei Bedarf können Sie die Dimensionen in der Zeile löschen oder ändern. Im Feld **Wertbuchung** können Sie verlangen, dass Personen Dimensionen für bestimmte Standorte angeben, bevor sie einen Eintrag veröffentlichen können. Wenn Sie Personen erlauben möchten, nur bestimmte Dimensionswerte auszuwählen, können Sie diese im Feld **Zulässige Wertefilter** angeben. Sie können auch Standortdimensionswerte auf der Seite **Standarddimensionsprioritäten** und für Kombinationen aus Prioritäts- und Dimensionsregeln auf der Seite **Dimensionskombinationen** einbeziehen.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/trade-set-up-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/trade-set-up-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Siehe auch
 
@@ -91,6 +91,5 @@ Sie legen Standarddimensionen für einen Standort auf der Seite **Standortkarte*
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Ändern, welche Funktionen angezeigt werden](ui-experiences.md)  
 [Allgemeine Geschäftsfunktionen](ui-across-business-areas.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

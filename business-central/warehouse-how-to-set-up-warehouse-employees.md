@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 7328, 7348
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f0018b5ad58644783b24d2c3b3fd82ae83d132fb
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: a3d851ff0f44fdae3880aea841d1145fc83e7e13
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9075161"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530106"
 ---
 # <a name="set-up-warehouse-employees"></a>Lagermitarbeiter einrichten
 
@@ -29,7 +29,7 @@ Jeder Benutzer, von dem Lageraktivitäten ausgeführt werden, muss als Lagermita
 5. Aktivieren Sie das Kontrollkästchen **Standard**, um den Lagerort als einzigen Lagerort zu definieren, an dem der Mitarbeiter Lageraktivitäten ausführen kann.  
 6. Wiederholen Sie diese Schritte, um Lagerorten weitere Mitarbeiter zuzuordnen oder um nicht standardmäßige Lagerorte bestehenden Lagermitarbeitern zuzuordnen.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/get-started-warehouse-management/)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/get-started-warehouse-management/)
 
 ## <a name="see-also"></a>Siehe auch
 

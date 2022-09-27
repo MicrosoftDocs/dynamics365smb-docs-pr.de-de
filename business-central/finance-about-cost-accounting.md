@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 1101, 1103, 1105, 1108, 1111, 1112, 1124, 1123
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: b2e1b0971d6fe8c9c48ba2e0ca03271429c9841d
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 213e7abb6dbfeacb5d095399932be5b6849b3c6b
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9076617"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528384"
 ---
 # <a name="about-cost-accounting"></a>Informationen zur Kostenrechnung
 
@@ -74,7 +74,7 @@ Sie können beliebig viele Kostenbudgets erstellen. Sie können das Kostenbudget
 
 Die meisten Berichte und Statistiken basieren auf den gebuchten Kostenposten. Sie können die Sortierung der Ergebnisse einrichten und Filter verwenden, um zu definieren, welche Daten angezeigt werden müssen. Sie können Berichte für eine Kostenaufteilungsanalyse erstellen. Darüber hinaus können Sie die Standard-Kontenschemata verwenden, um festzulegen, wie die Berichte für den Kostenartenplan angezeigt werden sollen.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/paths/use-cost-accounting-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/paths/use-cost-accounting-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Siehe auch
 

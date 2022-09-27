@@ -7,12 +7,12 @@ ms.custom: na
 ms.reviewer: na
 ms.topic: conceptual
 ms.date: 06/14/2021
-ms.openlocfilehash: 251376700e140043705ce05fcf47f7ebbb0dcd4b
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 422466c83d3f86f9afa611f5ef578482eadaf275
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9079610"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9531755"
 ---
 # <a name="integrating-with-microsoft-dataverse"></a>Integrieren in Microsoft Dataverse
 
@@ -31,7 +31,7 @@ Die folgenden Schritte bieten einen Überblick über die Schritte für die Integ
 
 ## <a name="getting-started-with-prod_short"></a>Erste Schritte mit [!INCLUDE[prod_short](includes/cds_long_md.md)]
 
-Um mit [!INCLUDE[prod_short](includes/cds_long_md.md)] zu beginnen, benötigen Sie ein Microsoft Power Apps-Konto. Wenn Sie noch nicht über ein Power Apps-Konto verfügen, können Sie ein kostenloses Konto erhalten, indem Sie [powerapps.com](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) besuchen und den Link **Kostenlos einsteigen** wählen. Weitere Informationen zu den ersten Schritten mit [!INCLUDE[prod_short](includes/cds_long_md.md)] finden Sie im Modul [Erste Schritte mit Dataverse](/learn/modules/get-started-with-powerapps-common-data-service/) von Microsoft Learn.
+Um mit [!INCLUDE[prod_short](includes/cds_long_md.md)] zu beginnen, benötigen Sie ein Microsoft Power Apps-Konto. Wenn Sie noch nicht über ein Power Apps-Konto verfügen, können Sie ein kostenloses Konto erhalten, indem Sie [powerapps.com](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) besuchen und den Link **Kostenlos einsteigen** wählen. Weitere Informationen zu den ersten Schritten mit [!INCLUDE[prod_short](includes/cds_long_md.md)] finden Sie im Modul [Erste Schritte mit Dataverse](/training/modules/get-started-with-powerapps-common-data-service/) von Microsoft Schulung.
 
 ## <a name="bi-directional-or-uni-directional-data-synchronization"></a>Bidirektionale oder unidirektionale Datensynchronisation
 
@@ -62,7 +62,7 @@ Weitere Informationen zu den einzelnen Rollen, z. B. zu Berechtigungen und Zugri
 
 Während des Verbindungsaufbaus werden Integrationstabellenzuordnungen erstellt, die zur Datensynchronisation benötigt werden. Entitäten in [!INCLUDE[prod_short](includes/cds_long_md.md)] werden Tabellen und Tabellenfeldern in Business Central durch Integrationstabellen zugeordnet. Weitere Informationen finden Sie unter [Standard Entitätszuordnung für die Synchronisation](admin-synchronizing-business-central-and-sales.md#standard-table-mapping-for-synchronization).
 
-## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/use-model-driven-apps-common-data-service/)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/use-model-driven-apps-common-data-service/)
 
 ## <a name="see-also"></a>Siehe auch
 

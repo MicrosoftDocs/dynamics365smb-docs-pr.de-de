@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: phone, tablet
 ms.date: 01/11/2022
 ms.author: jswymer
-ms.openlocfilehash: 3e04e348c55fa487f8a7776c0f197210c3cacb49
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: b188268feeb483a62ee82990ba3cf92b5afa1606
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519752"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528974"
 ---
 # <a name="get-business-central-desktop-app"></a>Business Central-App auf den Desktop holen
 
@@ -72,12 +72,12 @@ Der Unterschied besteht, wenn Sie mehrere Mandanten haben. Im Gegensatz zu [!INC
 > [!IMPORTANT]
 > Wenn Sie Business Central 2021 Release Wave 1 (Version 18) oder früher verwenden, können Sie die App nicht wie in diesem Artikel beschrieben installieren. Installieren Sie stattdessen die App aus dem [Microsoft Store](https://go.microsoft.com/fwlink/?LinkId=734848). Weitere Informationen und Hilfe zur Installation dieser veralteten App finden Sie unter [Vorbereiten und Installieren der Business Central-App](/dynamics365/business-central/dev-itpro/deployment/install-business-central-app).
 
-## <a name="see-related-training-at-microsoft-learn"></a>Siehe Verwandte Schulungen unter [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-also"></a>Siehe auch
 
 [Mobile Apps FAQ](ui-mobile-faq.yml)  
-[Vorbereiten auf die Geschäftsabwicklung](ui-get-ready-business.md)  
+[Bereitschaft für die Geschäftsabwicklung](ui-get-ready-business.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

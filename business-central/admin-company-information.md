@@ -6,12 +6,12 @@ ms.topic: conceptual
 ms.search.form: 1
 ms.date: 04/20/2022
 ms.author: edupont
-ms.openlocfilehash: 5de13d4f6e625db0d0871a3f7a94f62d726abc8f
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 791d2b5c91014b2b9ce836854285ea8f0f32df37
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077710"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533940"
 ---
 # <a name="company-information-overview"></a>Übersicht über Unternehmensdaten
 
@@ -33,9 +33,9 @@ Wenn [!INCLUDE [prod_short](includes/prod_short.md)] mehrere Unternehmen umfasst
 
 ## <a name="experience"></a>Erfahrung
 
-Die standardmäßige Benutzererfahrung in a[!INCLUDE [prod_short](includes/prod_short.md)]-Testversion zeigt nicht alle Funktionen an. Sie können die vollständige Benutzererfahrung auf der Seite **Unternehmensdaten** aktivieren. Weitere Informationen finden Sie unter [Ändern Sie, welche Funktionen angezeigt werden](ui-experiences.md).  
+Die standardmäßige Benutzererfahrung in a[!INCLUDE [prod_short](includes/prod_short.md)]-Testversion zeigt nicht alle Funktionen an. Sie können die vollständige Benutzererfahrung auf der Seite **Unternehmensdaten** aktivieren. Weitere Informationen finden Sie unter [Ändern, welche Funktionen angezeigt werden](ui-experiences.md).  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/create-new-companies-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/create-new-companies-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Siehe auch
 

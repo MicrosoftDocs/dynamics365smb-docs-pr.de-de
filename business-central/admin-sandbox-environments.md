@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sandbox, demo, develop
 ms.date: 12/20/2021
 ms.author: solsen
-ms.openlocfilehash: c1e576d24e9a9ca3b81e58e534449729776c6fa1
-ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
+ms.openlocfilehash: f921660e82bb288b64a0ab559290c7645f1e9007
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9130173"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9529730"
 ---
 # <a name="sandbox-environments-in-prod_short"></a>Sandbox-Umgebungen in [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -28,7 +28,7 @@ Ihr Administrator verwaltet Sandbox-Umgebungen im [Administration Center](/dynam
 
 Wenn Sie beispielsweise eine Sandbox für das Benchmarking erstellen möchten, kann Ihr Administrator im Admin Center eine dedizierte Umgebung erstellen. Weitere Informationen finden Sie in den Entwickler- und Verwaltungsinhalten unter [Produktions- und Sandbox-Umgebungen](/dynamics365/business-central/dev-itpro/administration/environment-types).  
 
-Sie können Sandboxes auch sicher für Schulungen verwenden, z. B. um einem Lernpfad von [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs) zu folgen, weil es eine sichere Umgebung zum Experimentieren ist. Wenn etwas schief geht, löschen Sie einfach die Sandbox und beginnen von vorne.  
+Sie können Sandboxes auch sicher für Schulungen verwenden, z. B. um einem Lernpfad von [Microsoft Schulung](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs) zu folgen, weil es eine sichere Umgebung zum Experimentieren ist. Wenn etwas schief geht, löschen Sie einfach die Sandbox und beginnen von vorne.  
 
 Sobald Sie fertig sind, können Sie die Sandbox über das Admin Center entfernen.  
 
@@ -70,7 +70,7 @@ Weitere Informationen finden Sie in den Entwickler- und Verwaltungsinhalten unte
 
 <!-- ![In-client Designer.](./media/across-sandbox/sandbox-inclient-designer.png) -->
 
-## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/admin-online-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/admin-online-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Siehe auch
 

@@ -10,12 +10,12 @@ ms.search.keywords: extension, migrate, data, QuickBooks, import
 ms.search.form: 1830,
 ms.date: 06/24/2021
 ms.author: bholtorf
-ms.openlocfilehash: f2e7c3243a2633534dc36dd37aef5d096a7d1f28
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
+ms.openlocfilehash: 4c0e9a89b81e9d967482d79e91b4aa05619fc658
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9361367"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528571"
 ---
 # <a name="the-quickbooks-online-data-migration-extension"></a>Die QuickBooks Online-Datenmigrations-Erweiterung
 
@@ -67,7 +67,7 @@ Es gibt mehrere Dinge, die Sie durchführen sollten:
 * Wenn Sie MwSt verwenden, können Sie eine Geschäftsbuchungsgruppe und eine Produktbuchungsgruppe "Buchungsmatrix Einrichtung" hinzufügen, sodass Sie MwSt.-Beträge buchen können.
 * Prüfen Sie die Startkapitale für Konten in der Finanzbuchhaltung. QuickBooks Online speichert nicht den aktuellen Saldo für alle Konten, daher müssen Sie möglicherweise Startkapitale korrigieren.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/migrate-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/migrate-data-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Siehe auch
 

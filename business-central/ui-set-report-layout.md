@@ -10,12 +10,12 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9652, 9650
 ms.date: 03/07/2022
 ms.author: jswymer
-ms.openlocfilehash: 9cc827630c5acfeba2efc860d8baf67cd31bb404
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: e59a57e6cac21f4909088defc42da795e5550562
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8525093"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9535853"
 ---
 # <a name="setting-the-layout-used-by-a-report"></a>Festlegen des von einem Bericht verwendeten Layouts
 
@@ -47,7 +47,7 @@ Es gibt zwei Möglichkeiten festzulegen, welches Layout ein Bericht verwendet. E
 
 ## <a name="set-the-layout-from-report-layout-selection-page"></a>Das Layout aus der Auswahl des Berichtslayouts-Seite festlegen
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"). Symbol. Geben Sie **Auswahl des Berichtslayouts** ein und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?"). Symbol. Geben Sie **Auswahl des Berichtslayouts** ein und wählen Sie dann den entsprechenden Link.
   
    Auf der Seite sind alle Berichte aufgelistet, die für das Unternehmen verfügbar sind, das im Feld **Unternehmen** oben auf der Seite verfügbar ist. Das Feld **Layoutbeschreibung** gibt das Layout an, das in dem Bericht aktuell verwendet wird.
 2. Legen Sie das Feld **Unternehmen** oben auf das Unternehmen fest, das den Bericht umfasst.
@@ -62,9 +62,9 @@ Es gibt zwei Möglichkeiten festzulegen, welches Layout ein Bericht verwendet. E
 
 Berichte sind so konzipiert, dass sie standardmäßig ein Layout verwenden. Sie können auf der **Auswahl des Berichtslayouts**-Seite wieder zum ursprünglichen Standardlayout wechseln. Wählen Sie einfach den Bericht und dann die **Standardauswahl wiederherstellen**-Aktion oben auf der Seite aus.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/change-documents-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-also"></a>Siehe auch
 
 [Verwalten von Berichtslayouts](ui-manage-report-layouts.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

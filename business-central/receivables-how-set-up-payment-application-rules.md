@@ -10,12 +10,12 @@ ms.search.keywords: payment process, direct payment posting, reconcile payment, 
 ms.search.form: 1290, 1294, 1287
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 4d910826249f7a5e799a02c229bbb7875020df51
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: e942adc661b31dbb181624ff66ebd33a2d50b255
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514803"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9531080"
 ---
 # <a name="set-up-rules-for-automatic-application-of-payments"></a>Einrichten von Regeln für die automatische Anwendung von Zahlungen
 
@@ -80,7 +80,7 @@ In der folgenden Tabelle werden die Standardregeln für Zahlungsanwendungen in [
 | Gering              | 4        | Nein                    | Nein                             | Eine Übereinstimmung                      |
 | Gering              | 5        | Nein                    | Nein                             | Mehrere Übereinstimmungen               |
 
-## <a name="see-related-training-at-microsoft-learn"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/modules/reconciliation-journals-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/reconciliation-journals-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Siehe auch
 [Zahlungen mit automatischem Ausgleich abstimmen](receivables-how-reconcile-payments-auto-application.md)  

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: dd7914ba66eef12cb092e716836ef44276f2128d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b7054dcdedbb86edad111297b59347a6aa60fc2a
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130072"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9535772"
 ---
 # <a name="send-electronic-documents"></a>Elektronische Belege senden
 
@@ -49,13 +49,13 @@ Die allgemeine Version von [!INCLUDE[prod_short](includes/prod_short.md)] unters
     > [!NOTE]  
     >  Sie können auch eine gebuchte Verkaufsrechnung als elektronischen Beleg senden. Dieser Vorgang ist derselbe wie im Thema für nicht gebuchte Verkaufsbelege beschrieben. Wählen Sie auf der Seite **gebuchte Verkaufsrechnung** die Aktion **Aktivitätsprotokoll**, um den Status des elektronischen Dokuments anzuzeigen.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/modules/electronic-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/electronic-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Siehe auch
 
 [Fakturieren eines Verkaufs](sales-how-invoice-sales.md)  
 [Belegsendeprofile einrichten](sales-how-setup-document-send-profiles.md)  
-[Einrichten des Senden und Empfangen von elektronischen Belegen](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
+[Einrichten von Senden und Empfangen von elektronischen Belegen](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
 [So richten Sie einen Belegaustauschdienst ein](across-how-to-set-up-a-document-exchange-service.md)  
 [Richten Sie Datenaustauschdefinitionen ein](across-how-to-set-up-data-exchange-definitions.md)  
 [Daten elektronisch austauschen](across-data-exchange.md)  

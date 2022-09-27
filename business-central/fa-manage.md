@@ -10,12 +10,12 @@ ms.search.keywords: machinery, buildings
 ms.search.form: 5604, 5606, 5664, 5601, 5602, 5658, 5603, 5671, 5641, 5629, 5633, 5634, 5649, 5622, 5650
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 0346150f53006cc5ae34bf9ad8fcb19c8bbcb271
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 5bd6ff8d27b17e413c418de64bea7ded8428e892
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9079168"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9529298"
 ---
 # <a name="managing-fixed-assets"></a>Verwalten von Anlagen
 
@@ -53,7 +53,7 @@ Das folgende Video behandelt die Grundlagen des Anlagevermögens.
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS?rel=0]
 
-## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/paths/manage-fixed-assets-transactions/)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/paths/manage-fixed-assets-transactions/)
 
 ## <a name="see-also"></a>Siehe auch
 

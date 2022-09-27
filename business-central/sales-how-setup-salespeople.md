@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: sales rep
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 99f23e497c969e9a9461928d1e550605f6db1eae
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 6a1254cb18546556b977eb009a819806e62ee2ca
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9076357"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9531647"
 ---
 # <a name="set-up-salespeople"></a>Verkäufer einrichten
 
@@ -26,12 +26,12 @@ Wenn Sie auf der Seite **Verkäufer** einen Verkäufer eingerichtet haben, könn
 
 ## <a name="to-set-up-a-salesperson-code"></a>So richten Sie einen Verkäufercode ein
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Verkäufer** ein und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Verkäufer** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie auf der Seite **Verkäufercode** die Aktion **Neu** aus.
 
 Sie können Verkäufer in verschiedenen Beziehungsverwaltung und Marketings-Arbeit verwenden. So können Sie z. B. Aufgaben Verkäufern zuweisen, sodass die Aufgaben in Verkaufschancen integriert sind, die Verkäufern zugeordnet werden. Weitere Informationen finden Sie unter [Einrichten von Verkaufschancen für Verkaufsprozesse und Prozess-Stufen](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
-## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/trade-master-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/trade-master-data-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Siehe auch
 

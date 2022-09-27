@@ -10,12 +10,12 @@ ms.search.keywords: bill, sale, invoice, order
 ms.search.form: 43, 48, 9301
 ms.date: 09/01/2022
 ms.author: edupont
-ms.openlocfilehash: d9c62e76239880b65237319a809d251ae71e8bb7
-ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
+ms.openlocfilehash: 1a59356653c01ab9c1493bba0e6be80367f21217
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2022
-ms.locfileid: "9461183"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9529623"
 ---
 # <a name="invoice-sales"></a>Fakturieren eines Verkaufs
 
@@ -125,7 +125,7 @@ Sie können direkt gezahlte Rechnungen für nicht-registrierte Debitoren auch er
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## <a name="see-related-training-at-microsoft-learn"></a>Siehe verwandte Schulungen unter [Microsoft Learn](/learn/modules/invoicing-customers-dynamics-365-business-central/index).
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/invoicing-customers-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Siehe auch
 

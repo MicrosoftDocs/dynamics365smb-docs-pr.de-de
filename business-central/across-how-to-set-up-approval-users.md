@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 663
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: e4bb6345a55eedabdf433dbb84a7bf0c7f64d215
-ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
+ms.openlocfilehash: 464212d90ba43648bcb5d2852f5d3fec0c23ca41
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9129794"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530783"
 ---
 # <a name="set-up-approval-users"></a>Genehmigungsbenutzer einrichten
 
@@ -54,7 +54,7 @@ Bevor Sie Workflows erstellen können, die Genehmigungsschritte betreffen, müss
 3. Wählen Sie zum Testen der Genehmigungsbenutzereinrichtung die Aktion **Genehmigungsbenutzereinrichtung - Test** aus.  
 4. Wiederholen Sie die Schritte 2 und 3 für jeden Benutzer, den Sie als Genehmigungsbenutzer einrichten möchten.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/create-workflows/)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/create-workflows/)
 
 ## <a name="see-also"></a>Siehe auch
 

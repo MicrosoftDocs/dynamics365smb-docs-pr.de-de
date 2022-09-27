@@ -10,12 +10,12 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 21, 9650
 ms.date: 04/07/2022
 ms.author: edupont
-ms.openlocfilehash: 722d457705b80787aa60c49ff02e4ba36ff6f250
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 809e29160e45bed28a5d79a7af32c3e98b19a490
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9076851"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9531593"
 ---
 # <a name="define-document-layouts-for-customers-and-vendors"></a>Beleglayouts für Debitoren und Kreditoren definieren
 
@@ -51,7 +51,7 @@ Um Zeit zu sparen, wenn Sie Belege per E-Mail an Debitor- und Kreditor-Kontakte 
 1. Auf der Seite **Beleglayouts** in der Zeile für ein Berichtslayout, das Sie an einen bestimmten Kontakt für den Debitor senden möchten, wählen Sie die Aktion **E-Mail aus Kontakten auswählen** aus.
 2. Wählen Sie auf der Seite **Kontakte** einen oder mehrere Kontakte aus, und wählen Sie dann **OK**.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/change-documents-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Siehe auch
 

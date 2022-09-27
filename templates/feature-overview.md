@@ -6,18 +6,18 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.date: 10/05/2021
 ms.author: MyMSFTAlias (if I work for Microsoft; otherwise edupont)
-ms.openlocfilehash: 5ff9d51f0f1b05436aff60b870915a5410baaef3
-ms.sourcegitcommit: 67006b090a7bd70446414a19cc82e531190637dc
+ms.openlocfilehash: ccb4d451841c6f9dc41e7837ea768f0d77f7895f
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8311287"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533455"
 ---
 # <a name="achieve-some-task-or-get-the-overview-in-max-100-characters"></a>Erledigen Sie eine Aufgabe oder verschaffen Sie sich einen Überblick in Max. 100 Zeichen
 
 Schicke Einführung der Fähigkeit mit vielen Schlagworten. Verwenden Sie [!INCLUDE [prod_short](includes/prod_short.md)] für den Produktnamen und schreiben Sie in aktiven Sätzen, wie z.B. „Erledigen Sie Aufträge schneller“ und „Mit dieser Funktionalität können Sie bla machen“.  
 
-Tipps zu MarkDown und Stil finden Sie unter [Autorenanleitung für Dynamics 365 Business Central](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/help/writing-guide).  
+Tipps zu MarkDown und Stil finden Sie unter [Autorenanleitung für Dynamics 365 Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/help/writing-guide).  
 
 Denken Sie daran, Links zum Thema Siehe auch hinzuzufügen und den neuen Artikel in die Datei TOC.md aufzunehmen.  
 

@@ -10,12 +10,12 @@ ms.search.keywords: payment journal, print check, vendor payment, creditor, debt
 ms.search.form: 256, 404,
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f9b819205fe3292e7a3de5e8de232616a511ca24
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 81d8ae51a9d9046f30afdf9ca365b3284c8eed53
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077190"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9532619"
 ---
 # <a name="make-check-payments"></a>Zahlung per Scheck machen
 
@@ -81,7 +81,7 @@ Wenn Sie gebuchte Schecks überprüfen möchten, zum Beispiel, um Mehrfachverbin
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Bankkonto – Scheckdetails** ein, und wählen Sie dann den zugehörigen Link.
 2. Legen Sie Filter fest und wählen Sie dann die Schaltfläche **Vorschau** aus.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/use-checks-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/use-checks-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Siehe auch
 

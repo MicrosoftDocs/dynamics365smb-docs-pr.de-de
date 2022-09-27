@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 118, 314, 395
 ms.date: 10/29/2021
 ms.author: edupont
-ms.openlocfilehash: 3d7162b3035188539fba92a677659dd7803c340f
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
+ms.openlocfilehash: 3933aa279b31b40fa2c222a9516c654cb6cfce7f
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9362021"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533859"
 ---
 # <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Mit Zahlungstoleranzen und Skontotoleranzen arbeiten
 
@@ -278,7 +278,7 @@ Normale Ausgleichsvorschriften
 
 (2) Fällt die Zahlung in diesen Bereich, können nicht alle Posten geschlossen werden, auch nicht mit Toleranz.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Siehe entsprechende Schulung unter [Microsoft Learn](/learn/modules/enter-payments-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/enter-payments-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Siehe auch
 

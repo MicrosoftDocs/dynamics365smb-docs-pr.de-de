@@ -10,12 +10,12 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ba
 ms.search.form: 100
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 019dce4811470ef4c0d75ee3f69732e7f9af27f1
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 832e0d2d606549f51c9f16884dd8d760c0f81a79
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519388"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9535450"
 ---
 # <a name="closing-years-and-periods"></a>Beenden von Jahresabschluss und Perioden
 
@@ -35,9 +35,9 @@ Die folgende Tabelle enthält einen Überblick über die Aufgaben, die Sie übli
 | Abschließen der Buchhaltungsperioden, Übertragen der GuV-Salden auf Bilanzkonten und Buchen des .Jahresabschlusspostens. |[Schließen der Bücher](year-close-books.md) |
 | Drucken von Berichten zur Unterstützung beim Erstellen von Finanzauswertungen |[Abschlussberichte vorbereiten](year-prepare-close-statement.md) |
 
-## <a name="see-related-training-at-microsoft-learn"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/modules/close-fiscal-year-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/close-fiscal-year-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-also"></a>Siehe auch
 
 [Mit Buchhaltungsperioden und Geschäftsjahren arbeiten](finance-accounting-periods-and-fiscal-years.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

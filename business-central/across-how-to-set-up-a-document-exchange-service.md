@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 4a502dc56f45673c0a052b0081518ae0ec888a14
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 611f3ac405c66996ed5ec1e1f275ccb5eaccd3d5
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9076019"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530729"
 ---
 # <a name="set-up-a-document-exchange-service"></a>So richten Sie einen Belegaustauschdienst ein
 
@@ -67,7 +67,7 @@ Um Business Central on-premises zu verbinden, müssen Sie eine App im Tradeshift
 
 Wenn Sie die App-ID und den geheimen Schlüssel lieber an einem anderen Ort speichern möchten, können Sie die Felder „Client-ID“ und „Geheimer Clientschlüssel“ leer lassen und eine Erweiterung schreiben, um die ID und den geheimen Schlüssel von diesem Speicherort abzurufen. Sie können das Geheimnis zur Laufzeit bereitstellen, indem Sie die Ereignisse OnGetClientId und OnGetClientSecret in der Codeunit 1410 „Doc. Exch. Service Mgt.“
 
-## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/electronic-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/electronic-documents-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Siehe auch
 

@@ -8,12 +8,12 @@ ms.search.keywords: SMTP, mail, Microsoft 365, cover, body, PayPal, layout
 ms.search.form: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 632591160ab5cfad7d33fc26bf3f9a9b4877176a
-ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
+ms.openlocfilehash: adfb0f44e35f0efea1f4081be3277f83e10dfd00
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/12/2022
-ms.locfileid: "8950490"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9532349"
 ---
 # <a name="send-documents-and-emails"></a>Senden von Belegen und E-Mails
 
@@ -69,9 +69,9 @@ Einige Belege in [!INCLUDE[prod_short](includes/prod_short.md)] verfügen über 
 
 Im **E-Mail-Postausgang** finden Sie die E-Mails, die Sie als Entwürfe gespeichert haben, und E-Mails, die nicht gesendet werden konnten, z. B. wenn die E-Mail-Adresse ungültig war. Für Nachrichten, die nicht gesendet werden konnten, können Sie **Fehler anzeigen** oder **Fehler untersuchen** anzeigen, um das Problem beheben.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Siehe Verwandte Schulung unter [Microsoft Learn](/learn/modules/set-up-email/)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/set-up-email/)
 
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-also"></a>Siehe auch
 
 [Verwaltung von Berichts- und Dokumentlayouts](ui-manage-report-layouts.md)  
 [E-Mail einrichten](admin-how-setup-email.md)  

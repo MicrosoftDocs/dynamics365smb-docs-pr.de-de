@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: direct shipment
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9a5ec7fb14adc453eb29c49474109b17d35d177b
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: f04f49c301b38236be1dda3334e8560584a4e6b4
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9076903"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528893"
 ---
 # <a name="make-drop-shipments"></a>Direktlieferungen machen
 
@@ -78,7 +78,7 @@ Wenn der Kreditor die Artikel geliefert hat, können Sie den Verkaufsauftrag als
 4. Wählen Sie die Aktion **Buchen** oder **Buchen und Senden** aus.
 5. Wählen Sie dann entweder die Option **Liefern**, um zu einem späteren Zeitpunkt zu fakturieren oder **Liefern und Fakturieren**, um sofort zu fakturieren.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/create-sales-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/create-sales-documents-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Siehe auch
 

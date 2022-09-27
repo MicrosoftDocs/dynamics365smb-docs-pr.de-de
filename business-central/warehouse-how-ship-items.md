@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 7335, 7337, 7339, 7340, 7341, 7362, 9008
 ms.date: 09/02/2022
 ms.author: edupont
-ms.openlocfilehash: e31dc7a25ea4bb81019163b057b2f1e4e4a1c1d9
-ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
+ms.openlocfilehash: b66a0a0a4cad12c4f41c53569b0007c51e846de7
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2022
-ms.locfileid: "9461156"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9531215"
 ---
 # <a name="ship-items"></a>Versenden von Artikeln
 
@@ -106,7 +106,7 @@ Sie können den Kommissioniervorschlag auch verwenden, um mehrere Anweisungen in
 > [!NOTE]
 > Wenn Sie auf den Empfang bestimmter Artikel warten, die im Lager ankommen sollen, und wenn Sie die Zuordnungsfunktionalität verwenden, berechnet [!INCLUDE[prod_short](includes/prod_short.md)] in jeder Warenausgangs- oder Kommissionierarbeitsblattszeile die Menge des Artikels, die sich im Zuordnungslagerplatz befindet. Sie aktualisiert dieses Feld jedes Mal, wenn Sie den Warenausgangsbeleg oder das Arbeitsblatt verlassen und öffnen. Erfahren Sie mehr unter [Zuordnungselemente](warehouse-how-to-cross-dock-items.md).
 
-## <a name="see-related-training-at-microsoft-learn"></a>Siehe verwandte Schulungen unter [Microsoft Learn](/learn/modules/ship-invoice-items-dynamics-365-business-central/).
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/ship-invoice-items-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Siehe auch
 

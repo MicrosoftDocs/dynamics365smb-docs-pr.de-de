@@ -10,12 +10,12 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9650, 9652
 ms.date: 03/14/2022
 ms.author: jswymer
-ms.openlocfilehash: 0ad639f620bd938494ed4a7e75526af64fe23312
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 0d3a1ce19b094fa77ae332a8dc90f1e8b3712cbf
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8525135"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9532484"
 ---
 # <a name="working-with-rdlc-layouts"></a>Arbeiten mit RDLC-Layouts
 
@@ -47,9 +47,9 @@ hinter RDL/RDLC und wie man Report Builder verwendet.
 > [!NOTE]
 > Report Builder erkennt nur den Dateityp .rdl, nicht .rdlc. Aus Business Central exportierte Layoutdateien haben den Dateityp .rdlc. Um dieses Layout in Report Builder zu ändern, benennen Sie den Dateityp also in .rdl um.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/change-documents-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-also"></a>Siehe auch
 
 [Verwalten von Berichtslayouts](ui-manage-report-layouts.md)  
 [Die von einem Bericht verwendeten Layouts festlegen](ui-set-report-layout.md)  

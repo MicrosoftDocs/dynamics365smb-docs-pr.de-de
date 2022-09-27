@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: bcc706a221c40019792167b4b75cb8826216457d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 49280683e865e1c86f50532999dfa182e15015a2
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147216"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530297"
 ---
 # <a name="set-up-electronic-document-sending-and-receiving"></a>Einrichten des Senden und Empfangen von elektronischen Belegen
 
@@ -142,7 +142,7 @@ In diesem Thema werden die folgenden Prozeduren beschrieben:
     |---------------------------------|---------------------------------------|  
     |**Standardsollkonto für Nicht-Artikel-Positionen**|Gibt das Sachkonto an, das automatisch in Verkaufszeilen eingefügt wird, die aus elektronischen Dokumenten erstellt werden, wenn die Zeile des eingehenden Beleges keinen identifizierbaren Artikel enthält. Irgendeine Zeile des eingehenden Beleges, die kein GTIN hat, oder die Artikelnummer des Kreditors auf eine Einkaufszeile des Typs **Sachkonto** und **Nr.** Feld der Einkaufsbestellzeile enthält das Konto, das Sie in dem Feld **Sachkonto für Nicht-Artikel-Zeilen** auswählen.<br /><br /> Wenn Sie das **Sachkonteo für Nicht-Artikel-Positionen**-Feld leer lassen und der eingehende Beleg Zeilen ohne identifizierbare Artikel hat, wird der Einkaufsbeleg nicht erstellt. Eine Fehlermeldung weist Sie an, das **Sachkonto Nicht-Artikel-Zeilen**-Feld auszufüllen, bevor Sie die Aufgabe ausführen können.|  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/modules/electronic-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/electronic-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Siehe auch  
 [Daten elektronisch austauschen](across-data-exchange.md)   

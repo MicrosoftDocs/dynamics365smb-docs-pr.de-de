@@ -7,12 +7,12 @@ ms.search.keywords: profiles, users
 ms.search.form: 9171
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: a44338ca10dee37bba6d78ec1c73cb7b156bd2b3
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 98f20082b6519412c5f860e9cfd0b52a9fdb57fa
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9079272"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9529352"
 ---
 # <a name="manage-user-profiles"></a>Verwalten von Benutzerprofilen
 
@@ -145,7 +145,7 @@ Als Administrator von [!INCLUDE[prod_short](includes/prod_short.md)] Online kön
 
 Für [!INCLUDE[prod_short](includes/prod_short.md)] (lokal) können Sie Sitzungen beispielsweise mit SQL Server Management Studio verwalten. Weitere Informationen finden Sie unter [Technische Dokumentation zu SQL Server](/sql/sql-server).  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/users-security-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/users-security-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Siehe auch
 
