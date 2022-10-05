@@ -113,8 +113,11 @@
 ## Schnelleinstieg
 ### [Business Central Schnellstarts](quick-start-business-central.md)
 ### [Unternehmensdaten festlegen](quick-start-company-information.md)
+### [Finanzinformationen eingeben](quick-start-financial-information.md)
 ### [Produkte und Dienstleistungen verkaufen](quick-start-sell-products-and-services.md)
 ### [Produkte und Dienstleistungen kaufen](quick-start-procurement.md)
+### [Berichte und Dokumente anpassen und drucken](quick-start-reports-and-documents.md)
+### [Gewinnen Sie Einblicke mit Business Intelligence](quick-start-business-intelligence.md)
 
 <!--use-->
 ## In Business Central produktiv werden
@@ -239,13 +242,13 @@
 ### Workflows
 #### [Workflowübersicht](across-workflow.md)
 #### [Business Central in Power Automate-Flows verwenden](across-how-use-financials-data-source-flow.md)
-#### Workflows verwenden
-##### [Verwenden von Workflows](across-use-workflows.md)
-##### [Aktivieren von Workflows](across-how-to-enable-workflows.md)
-##### [Artikelgenehmigungsworkflow verwenden](across-how-use-approval-workflows.md)
+#### Artikelgenehmigungsworkflow verwenden
+##### [Artikelgenehmigungsworkflow verwenden](across-use-workflows.md)
+##### [Genehmigungsworkflow aktivieren](across-how-to-enable-workflows.md)
+##### [So verwenden Sie Genehmigungsworkflows](across-how-use-approval-workflows.md)
 ##### [Zulassen und Einschränken des Verbrauchs eines Datensatzes](across-how-to-restrict-and-allow-usage-of-a-record.md)
-##### [Anzeigen von archivierten Workflowschritt-Instanzen](across-how-to-view-archived-workflow-step-instances.md)
-##### [Löschen eines Workflows](across-how-to-delete-workflows.md)
+##### [Archivierte Workflowschritt-Instanzen anzeigen](across-how-to-view-archived-workflow-step-instances.md)
+##### [Artikelgenehmigungsworkflow löschen](across-how-to-delete-workflows.md)
 <!--data exchange-->
 ### Daten elektronisch austauschen
 #### [OData-Austausch – Übersicht](across-data-exchange.md)
@@ -1584,12 +1587,12 @@
 ### Genehmigungsworkflows basierend auf Vorlagen einrichten
 #### [Genehmigungsworkflows einrichten](across-set-up-workflows.md)
 #### [Einrichten von Workflowbenutzern](across-how-to-set-up-workflow-users.md)
-#### [Genehmigungsbenutzer einrichten](across-how-to-set-up-approval-users.md)
-#### [Workflow-Benachrichtigungen](across-setting-up-workflow-notifications.md)
+#### [Einrichten von Genehmigungsbenutzern](across-how-to-set-up-approval-users.md)
+#### [Genehmigungsworkflow-Benachrichtigungen](across-setting-up-workflow-notifications.md)
 #### [Festlegen, wann und wie Sie Workflow-Benachrichtigungen erhalten möchten](across-how-to-specify-when-and-how-to-receive-notifications.md)
-#### [Erstellen eines Workflows](across-how-to-create-workflows.md)
+#### [Genehmigungsworkflows erstellen](across-how-to-create-workflows.md)
 #### [Erstellen von Workflows aus Workflowvorlagen](across-how-to-create-workflows-from-workflow-templates.md)
-#### [Exportieren und Importieren von Workflows](across-how-to-export-and-import-workflows.md)
+#### [Exportieren und Importieren von Genehmigungsworkflows](across-how-to-export-and-import-workflows.md)
 #### [Exemplarische Vorgehensweise: Einen Einkaufsanfrage-Genehmigungsworkflow einrichten und verwenden](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
 <!--Connectors-->
 ### Verbindungen einrichten
@@ -1626,7 +1629,7 @@
 ###### [Business Central-Apps in Power BI verwenden](across-powerbi-business-central-apps.md)
 ##### [FAQ](power-bi-faq.md)
 #### Power Automate mit Business Central verwenden
-##### [Business Central in Power Automate-Flows verwenden](across-how-use-financials-data-source-flow.md)
+##### [Power Automate-Flows in Business Central verwenden](across-how-use-financials-data-source-flow.md)
 ##### [Problembehandlung für automatisierte Workflows](across-flow-troubleshoot.md)  
 #### Power Apps mit Business Central verwenden
 ##### [Verknüpfung mit Business Central daten, um eine Geschäfts-App mithilfe von Power Apps zu erstellen](across-how-use-financials-data-source-powerapps.md)

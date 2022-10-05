@@ -1,5 +1,5 @@
 ---
-title: 'Vorgehensweise: Exportieren und Importieren von Workflows | Microsoft Docs'
+title: Vorgehensweise beim Exportieren und Importieren von Genehmigungsworkflows
 description: Um Workflows auf andere Business Central-Datenbanken zu übertragen, beispielsweise um Zeit zu sparen, wenn Sie neue Workflows erstellen, können Workflows exportiert und importiert werden.
 author: SorenGP
 ms.topic: conceptual
@@ -7,47 +7,46 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 09/08/2022
 ms.author: edupont
-ms.openlocfilehash: 1a52d4b4bff0f96023b6206e6cb8cad3d9e59276
-ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
+ms.openlocfilehash: 873f168bf8a707519af9a6429658e8383ab1f41e
+ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9129929"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "9585417"
 ---
-# <a name="export-and-import-workflows"></a>Exportieren und Importieren von Workflows
+# <a name="export-and-import-approval-workflows"></a>Exportieren und Importieren von Genehmigungsworkflows
 
 Um Workflows auf andere [!INCLUDE[prod_short](includes/prod_short.md)]-Datenbanken zu übertragen, beispielsweise um Zeit zu sparen, wenn Sie neue Workflows erstellen, können Workflows exportiert und importiert werden.  
 
-Eine andere Art, Workflows schnell zu erstellen, besteht darin, Workflows aus Workflow-Vorlagen zu erstellen. Weitere Informationen finden Sie unter [Workflows von Workflow-Vorlagen erstellen](across-how-to-create-workflows-from-workflow-templates.md).  
+Eine andere Art, Workflows schnell zu erstellen, besteht darin, Workflow-Vorlagen zu verwenden. Weitere Informationen unter [Erstellen von Workflows aus Workflowvorlagen](across-how-to-create-workflows-from-workflow-templates.md).  
 
-Auf der Seite **Workflow** können Sie einen Workflow erstellen, indem Sie die entsprechenden Schritte in den Zeilen auflisten. Jeder Schritt besteht aus einem durch Ereignisbedingungen moderiertem Workflowereignis und einer durch Antwortoptionen moderierten Workflowantwort. Sie definieren Workflowschritte, indem Sie die Felder in Workflowzeilen mit Ereignis- und Antwortwerten aus festen Listen ausfüllen, die die Workflowszenarien darstellen, die durch den Anwendungscode unterstützt werden. Weitere Informationen finden Sie unter [Workflows erstellen](across-how-to-create-workflows.md).  
+Auf der Seite **Workflow** können Sie einen Workflow erstellen, indem Sie die entsprechenden Schritte in den Zeilen auflisten. Jeder Schritt besteht aus einem durch Ereignisbedingungen moderiertem Workflowereignis und einer durch Antwortoptionen moderierten Workflowantwort. Sie definieren Workflowschritte, indem Sie die Felder in Workflowzeilen mit Ereignis- und Antwortwerten aus festen Listen ausfüllen, die die Workflowszenarien darstellen, die durch den Anwendungscode unterstützt werden. Erfahren Sie mehr unter [Workflows erstellen](across-how-to-create-workflows.md).  
 
-## <a name="to-export-a-workflow"></a>So exportieren Sie ein Workflow
+## <a name="export-a-workflow"></a>Workflow exportieren
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Workflows** ein, und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie das Symbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Workflows** ein, und wählen Sie dann den entsprechenden Link.  
 2. Wählen Sie einen Workflow, und wählen die **In Datei exportieren** Aktion aus.  
 
-## <a name="to-import-a-workflow"></a>So importieren Sie einen Workflow
+## <a name="import-a-workflow"></a>Workflow importieren
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Workflows** ein, und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Workflows** ein, und wählen Sie dann den entsprechenden Link.  
 2. Wählen Sie die Aktion **Importieren aus Datei** aus.  
-3. Wählen Sie auf der Seite **Importieren** die Schaltfläche **Auswählen** und dann die XML-Datei aus, die den Workflow enthält, und wählen Sie dann die Schaltfläche **Öffnen** aus.  
+3. Wählen Sie auf der Seite **Importieren** die Option **Wählen** aus und wählen Sie die XML-Datei aus, die den Workflow enthält, und wählen Sie dann **Öffnen**.  
 
 > [!CAUTION]  
 > Wenn der Workflowcode bereits in der Datenbank vorhanden ist, werden die Workflowschritte mit den Schritten im importierten Workflow überschrieben.  
 
 ## <a name="see-also"></a>Siehe auch
 
-[Erstellen eines Workflows](across-how-to-create-workflows.md)  
+[Genehmigungsworkflows erstellen](across-how-to-create-workflows.md)  
 [Erstellen von Workflows aus Workflowvorlagen](across-how-to-create-workflows-from-workflow-templates.md)  
 [Archivierte Workflowschritt-Instanzen anzeigen](across-how-to-view-archived-workflow-step-instances.md)  
-[Löschen eines Workflows](across-how-to-delete-workflows.md)  
+[Artikelgenehmigungsworkflow löschen](across-how-to-delete-workflows.md)  
 [Beispielhafte Vorgehensweise: Einrichten und Verwenden eines Workflows zur Genehmigung von Käufen](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
-[Einrichten von Workflows](across-set-up-workflows.md)  
-[Verwenden von Workflows](across-use-workflows.md)  
+[Genehmigungsworkflows einrichten](across-set-up-workflows.md)  
+[Artikelgenehmigungsworkflow verwenden](across-use-workflows.md)  
 [Workflow](across-workflow.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

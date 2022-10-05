@@ -11,12 +11,12 @@ ms.search.form: ''
 ms.date: 09/05/2022
 ms.author: bholtorf
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: dc1601caac73dc7c58862938ddc612a9536e84e9
-ms.sourcegitcommit: 2396dd27e7886918d59c5e8e13b8f7a39a97075d
+ms.openlocfilehash: 542514d1f8fc8f0bfa6a0bd3c8cacbaf25cab651
+ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/16/2022
-ms.locfileid: "9524505"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "9585891"
 ---
 # <a name="use-a-power-automate-flow-for-alerts-to-dataverse-entity-changes"></a>Verwenden einen Power Automate Flow für Warnungen zu Dataverse Entitätsänderungen
 
@@ -54,11 +54,14 @@ Administratoren können einen automatisierten Flow in Power Automate erstellen, 
 Daten werden zwischen [!INCLUDE[prod_short](includes/prod_short.md)] und [!INCLUDE [cds_long_md](includes/cds_long_md.md)] über ein Integrationsbenutzerkonto synchronisiert. Um die durch die Synchronisierung vorgenommenen Änderungen zu ignorieren, erstellen Sie einen Bedingungsschritt in Ihrem Schema, der Änderungen ausschließt, die vom Integrationsbenutzerkonto vorgenommen wurden.  
 
 1. Fügen Sie den Schritt **Zeile aus Dataverse nach ID abrufen** nach dem Flow-Trigger mit den folgenden Einstellungen hinzu. Weitere Informationen finden Sie unter [Zeile aus Dataverse nach ID abrufen](/power-automate/dataverse/get-row-id).
+
     1. Wählen Sie im Feld **Tabellenname** die Option **Benutzer** aus.
     2. Wählen Sie im Feld **Zeilen-ID** wählen Sie **Geändert von (Wert)** vom Flow-Trigger aus.  
+
 2. Fügen Sie einen Bedingungsschritt wie mit den folgenden **oder** Einstellungen zum Identifizieren des Integrationsbenutzerkontos hinzu.
     1. Die **Haupt-Email-Adresse** des Benutzers enthält **contoso.com**
     2. Der **Vollständige Name** des Benutzers enthält **[!INCLUDE[prod_short](includes/prod_short.md)]**.
+
 3. Fügen Sie ein Beenden-Steuerelement hinzu, um den Flow zu stoppen, wenn die Entität vom Integrationsbenutzerkonto geändert wurde.
 
 Die folgende Abbildung zeigt, wie der Flow-Trigger und die Flow-Bedingung definiert werden.
@@ -73,6 +76,7 @@ Wenn der Flow nicht durch die Bedingung gestoppt wird, müssen Sie [!INCLUDE[pro
 2. Wählen Sie die Aktion **Datensatz erstellen (V3)** aus.
 
 :::image type="content" source="media/power-automate-flow-dataverse-connector.png" alt-text="Einstellungen für den [!INCLUDE[prod_short](includes/prod_short.md)]-Konnektor":::
+
 3. Verwenden Sie **AssistEdit (...)** in der oberen rechten Ecke, um die Verbindung zu Ihrer [!INCLUDE[prod_short](includes/prod_short.md)] hinzuzufügen.
 4. Wenn Sie verbunden sind, füllen Sie **Umgebungsname** und **Unternehmensname** aus.
 5. Geben Sie im Feld **API-Kategorie** **microsoft/dataverse/v1.0** ein.
@@ -87,7 +91,8 @@ Ihr Workflow sollte nun wie im Bild unten aussehen.
 Wenn Sie ein Konto in Ihrer [!INCLUDE [cds_long_md](includes/cds_long_md.md)] Umgebung hinzufügen, löschen oder ändern, führt dieser Flow die folgenden Aktionen aus:
 
 1. Rufen Sie die [!INCLUDE[prod_short](includes/prod_short.md)] Umgebung auf, die Sie im Connector [!INCLUDE[prod_short](includes/prod_short.md)] angegeben haben.
-2. Verwenden Sie die [!INCLUDE[prod_short](includes/prod_short.md)] API zum Einfügen eines Datensatzes mit **Entitätsname** gesetzt auf **Konto** in der Tabelle **Dataverse-Eintragsänderung** Tisch. 3. [!INCLUDE[prod_short](includes/prod_short.md)] startet den Auftragswarteschlangeneintrag, der Debitoren mit Konten synchronisiert.
+2. Verwenden Sie die [!INCLUDE[prod_short](includes/prod_short.md)] API zum Einfügen eines Datensatzes mit **entityName** gesetzt auf **account** in der Tabelle **Dataverse-Eintragsänderung**. Dieser Parameter ist der genaue Name der Dataverse-Entität, für die Sie den Flow erstellen.
+3. [!INCLUDE[prod_short](includes/prod_short.md)] startet den Auftragswarteschlangeneintrag, der Debitoren mit Konten synchronisiert.
 
 ## <a name="see-also"></a>Siehe auch
 

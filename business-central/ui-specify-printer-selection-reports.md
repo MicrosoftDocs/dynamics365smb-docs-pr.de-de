@@ -10,12 +10,12 @@ ms.search.keywords: online printing, email printing, cloud printing, Universal P
 ms.search.form: 2650, 2750, 2752, 2753, 2754, 8900,
 ms.date: 06/24/2021
 ms.author: jswymer
-ms.openlocfilehash: 8915015f015642a85439fbdd5511271b06a8358f
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: c1b55f213ad738deb03a5f13afccbc8f4bac10b2
+ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9531296"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "9585702"
 ---
 # <a name="set-up-printers"></a>Einrichten von Druckern
 
@@ -135,7 +135,7 @@ Ausführliche Anweisungen zum Einrichten finden Sie unter [Erste Schritte: Unive
 
 Jetzt können Sie die Drucker [!INCLUDE[prod_short](includes/prod_short.md)] hinzufügen, Standarddrucker für Berichte einrichten und drucken.  
 
-### <a name="add-universal-printer-printers-to-business-central"></a>Universal Print-Drucker zu Business Central hinzufügen
+### <a name="add-universal-print-printers-to-business-central"></a>Universal Print-Drucker zu Business Central hinzufügen
 
 Nachdem die Drucker in Universal Print eingerichtet und freigegeben wurden, können Sie sie in Business Central verwenden. Es gibt zwei Möglichkeiten, Universal Print-Drucker hinzuzufügen. Sie können die Drucker auf einmal oder einzeln hinzufügen.
 

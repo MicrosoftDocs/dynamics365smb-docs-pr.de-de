@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: integration, synchronize, map, Sales
 ms.search.forms: 9980, 5341, 5349, 5330, 1817, 5342, 5337, 5336, 5331, 5343, 5334, 5346, 5348, 5329, 5380, 5353, 5381, 5351, 5333, 5360, 5373, 5371, 5340, 5345, 5362, 1313, 5361, 1876, 5339, 5338, 5335, 5332, 6250
-ms.date: 04/01/2021
+ms.date: 09/16/2022
 ms.author: bholtorf
-ms.openlocfilehash: a25fdcf9760d5677885c3927cb07d20cfa7e8387
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 46055056fc17b4997b5e49ccefe8cd104bef0a6d
+ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520994"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "9585864"
 ---
 # <a name="use-dynamics-365-sales-from-business-central"></a>Verwenden von Dynamics 365 Sales von Business Central
 Wenn Sie Dynamics 365 Sales for Customer Engagement verwenden, können Sie nahtlose Integration in den Interessent-zu-Geld-Prozess nutzen, indem Sie [!INCLUDE[prod_short](includes/prod_short.md)] für Backend-Aktivitäten wie Auftragsverarbeitung, Lagerbestandsverwaltung und Finanzbearbeitung verwenden.
@@ -76,7 +76,7 @@ Dies kann auch gehen, wenn der ursprüngliche Verkaufsauftrag geschriebene Produ
 
 Wenn die Artikelbeschreibung des ursprünglichen Verkaufsauftrags lang ist, wird eine zusätzliche Verkaufsauftragszeile der Art **Bemerkung** erstellt, um den Text in dem Verkaufsauftrag in [!INCLUDE[prod_short](includes/prod_short.md)]festzuhalten.
 
-Aktualisierungen von Feldern auf Verkaufsauftragsköpfen, wie z. B. die Felder „Letztes Lieferdatum“ oder „Gewünschtes Lieferdatum“, die in der Integrationstabellenzuordnung **VERKAUFSAUFTRAG-AUFTRAG** zugeordnet sind, werden periodisch mit [!INCLUDE[crm_md](includes/crm_md.md)] synchronisiert. Arbeitsgänge wie das Freigeben eines Verkaufsauftrags und die Lieferung oder Fakturierung eines Verkaufsauftrags werden auf der Verkaufsauftragszeitachse in [!INCLUDE[crm_md](includes/crm_md.md)] gebucht. Weitere Informationen finden Sie unter [Einführung in die Aktivitätsfeeds](/dynamics365/sales-enterprise/manage-activities). <!--The /dynamics365/sales-enterprise/developer/introduction-activity-feeds link was broken. Should this actually point to /dynamics365/sales-enterprise/manage-activities-->
+Aktualisierungen von Feldern auf Verkaufsauftragsköpfen, wie z. B. die Felder „Letztes Lieferdatum“ oder „Gewünschtes Lieferdatum“, die in der Integrationstabellenzuordnung **VERKAUFSAUFTRAG-AUFTRAG** zugeordnet sind, werden periodisch mit [!INCLUDE[crm_md](includes/crm_md.md)] synchronisiert. Prozesse wie das Freigeben, Lieferung oder Fakturierung eines Verkaufsauftrags werden auf der Verkaufsauftragszeitachse in [!INCLUDE[crm_md](includes/crm_md.md)] gebucht. Weitere Informationen finden Sie unter [Einführung in die Aktivitätsfeeds](/dynamics365/sales-enterprise/manage-activities). Informationen zum Aktivieren von Buchungen und Aktivitäten für Bestellungen in [!INCLUDE[crm_md](includes/crm_md.md)] finden Sie unter [Richten Sie das Notizsteuerelement ein, um auf Informationen über Beiträge für eine benutzerdefinierte Entität zuzugreifen](/dynamics365/customerengagement/on-premises/customize/notes-control-legacy) in der Customer Engagement-Dokumentation. Der Artikel bezieht sich auf Customer Engagement On-Premises, aber die Schritte sind für die Online-Version identisch. <!--The /dynamics365/sales-enterprise/developer/introduction-activity-feeds link was broken. Should this actually point to /dynamics365/sales-enterprise/manage-activities-->
 
 > [!NOTE]  
 > Periodische Synchronisierung basierend auf der Integrationstabellenzuordnung **VERKAUFSAUFTRAG-AUFTRAG** funktioniert nur, wenn die Verkaufsauftragsintegration aktiviert ist. Weitere Informationen finden Sie unter [Verbindungseinstellungen auf der Einrichtungsseite für die Sales Verbindung](admin-prepare-dynamics-365-for-sales-for-integration.md). Nur Verkaufsaufträge, die aus übermittelten Verkaufsaufträgen in [!INCLUDE[crm_md](includes/crm_md.md)] erstellt wurden, werden synchronisiert. Weitere Informationen finden Sie unter [Integration für Vertriebsauftragsverarbeitung aktivieren](/dynamics365/sales-enterprise/developer/enable-sales-order-processing-integration).

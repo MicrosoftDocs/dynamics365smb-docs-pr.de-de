@@ -1,23 +1,24 @@
 ---
 title: Problembehandlung für automatisierte Workflows
 description: Erfahren Sie, wie Sie Probleme mit der Verbindung zwischen Business Central und Power Automate beheben, wenn Sie einen automatisierten Workflow erstellen.
+author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 05/12/2022
+ms.search.keywords: workflow, OData, Power App, SOAP, Entity set not found, workflowWebhookSubscriptions, Power Automate,
+ms.date: 08/04/2022
 ms.author: edupont
-author: jswymer
-ms.openlocfilehash: b8fff95ced93e7ee2a3112969f45525532b19445
-ms.sourcegitcommit: e86f0bd15604c2fb327e3182929c44a4172790c7
+ms.openlocfilehash: 42b9a61f40afda0a50d6c6ec86d9984e53ae9ffb
+ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2022
-ms.locfileid: "8786196"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "9585918"
 ---
 # <a name="troubleshoot-your-prod_short-automated-workflows"></a>Problembehandlung für automatisierte [!INCLUDE[prod_short](includes/prod_short.md)]-Workflows
 
-Wenn Sie [!INCLUDE [prod_short](includes/prod_short.md)] mit Power Automate verbinden, um automatisierte Workflows zu erstellen, werden möglicherweise Fehlermeldungen angezeigt. Dieser Artikel enthält Lösungsvorschläge für häufig auftretende Probleme.
+Wenn Sie [!INCLUDE [prod_short](includes/prod_short.md)] mit Power Automate verbinden, um automatisierte Workflows zu erstellen, werden möglicherweise Fehlermeldungen angezeigt. Dieser Artikel enthält Lösungsvorschläge für auftretende Probleme.
 
 ## <a name="flow-doesnt-run-on-all-records-created-or-changed"></a>Flow wird nicht für alle erstellten oder geänderten Datensätze ausgeführt
 
@@ -44,35 +45,39 @@ Der Platzhalter `\<name\>` ist der Dienstname des fehlenden Webdienstes, z. B. 
 
 ### <a name="possible-cause"></a>Mögliche Ursache
 
-Die Verwendung von Power Automate für Ihre Genehmigungen erfordert, dass bestimmte Seiten- und Codeunit-Objekte als Webdienste veröffentlicht werden. Standardmäßig werden die meisten erforderlichen Objekte als Webdienste für Sie veröffentlicht. In einigen Fällen wurde Ihre Umgebung jedoch möglicherweise so angepasst, dass diese Objekte nicht mehr veröffentlicht werden.
+Die Verwendung von Power Automate für Ihre Genehmigungen erfordert, dass bestimmte Seiten- und Codeunit-Objekte als Webdienste veröffentlicht werden. Standardmäßig werden die meisten erforderlichen Objekte als Webdienste veröffentlicht. In einigen Fällen wurde Ihre Umgebung jedoch möglicherweise so angepasst, dass diese Objekte nicht mehr veröffentlicht werden.
 
-### <a name="fix"></a>Fix
+### <a name="fix"></a>Beheben
 
 Gehen Sie zur Seite **Webdienste**, und stellen Sie sicher, dass die folgenden Objekte als Webdienste veröffentlicht sind. Für jedes Objekt sollte ein Eintrag in der Liste vorhanden sein, mit aktiviertem Kontrollkästchen **Veröffentlicht**.  
 
-|Objekttyp|Objekt-ID|Objektname|Dienstname|
-|-----------|---------|-----------|------------|
-|Codeunit|  1544    |WorkflowWebhookSubscription|WorkflowActionResponse|
-|Seite|  6408|   workflowCustomers|  workflowCustomers|
-|Seite   |6406   |workflowGenJournalBatches| workflowGenJournalBatches|
-|Seite   |6407   |workflowGenJournalLines|workflowGenJournalLines|
-|Seite   |6409   |workflowItems| workflowItems|
-|Seite   |6405   |Entität „EK-Belegzeilen“|workflowPurchaseDocumentLines|
-|Seite|  6404    |workflowPurchaseDocuments| workflowPurchaseDocuments|
-|Seite|  6403    |Entität „VK-Belegzeilen“ |workflowSalesDocumentLines|
-|Seite|  6402|   workflowSalesDocuments| workflowSalesDocuments|
-|Seite|  6410    |workflowVendors|   workflowVendors|
-|Seite|  831 |workflowWebhookSubscriptions|  workflowWebhookSubscriptions|
+| Objekttyp | Objekt-ID | Objektname | Dienstname |
+|--|--|--|--|
+| Codeunit | 1544 | WorkflowWebhookSubscription | WorkflowActionResponse |
+| Seite | 6408 | workflowCustomers | workflowCustomers |
+| Seite | 6406 | workflowGenJournalBatches | workflowGenJournalBatches |
+| Seite | 6407 | workflowGenJournalLines | workflowGenJournalLines |
+| Seite | 6409 | workflowItems | workflowItems |
+| Seite | 6405 | Entität „EK-Belegzeilen“ | workflowPurchaseDocumentLines |
+| Seite | 6404 | workflowPurchaseDocuments | workflowPurchaseDocuments |
+| Seite | 6403 | Entität „VK-Belegzeilen“ | workflowSalesDocumentLines |
+| Seite | 6402 | workflowSalesDocuments | workflowSalesDocuments |
+| Seite | 6410 | workflowVendors | workflowVendors |
+| Seite | 831 | workflowWebhookSubscriptions | workflowWebhookSubscriptions |
 
 > [!NOTE]
 > Der Wert **Dienstname** muss genau wie in der Tabelle angegeben sein. Ändern oder übersetzen Sie den Dienstnamen nicht.
 
 Weitere Informationen zum Veröffentlichen von Webdiensten finden Sie unter [Webdienst veröffentlichen](across-how-publish-web-service.md).
 
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe verwandte Schulungen unter [Microsoft Learn](/learn/modules/use-power-automate/).
+
 ## <a name="see-also"></a>Siehe auch
 
-[[!INCLUDE[prod_short](includes/prod_short.md)] in einem automatisierten Workflow verwenden](across-how-use-financials-data-source-flow.md)  
+[Power Automate-Flows in [!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-financials-data-source-flow.md)verwenden  
 [Workflow](across-workflow.md)  
-
+[Automatisierte Workflows einrichten](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows)  
+[Schalten Sie Direktflows ein](/dynamics365/business-central/dev-itpro/powerplatform/instant-flows)  
+[Power Automate-Flows verwalten](/dynamics365/business-central/dev-itpro/powerplatform/manage-power-automate-flows)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
