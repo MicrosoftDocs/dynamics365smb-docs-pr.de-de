@@ -2,15 +2,15 @@
 title: Lernkatalog für Geschäftsanwender
 description: Hier finden Sie alle verfügbaren Informationen für Business Central.
 author: loreleishannonmsft
-ms.date: 04/01/2021
+ms.date: 08/29/2022
 ms.topic: conceptual
 ms.author: margoc
-ms.openlocfilehash: 21c87640e09966a705b59905da9d126b5c8b604e
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 5b977ba37c4bd827fd44e6cd897010eaadd64ec1
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9528760"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607796"
 ---
 # <a name="business-users-learning-catalog"></a>Lernkatalog für Geschäftsanwender
 
@@ -18,7 +18,7 @@ Haben Sie gerade eine neue Anwendung zur Nutzung erhalten?
 
 Der folgende Katalog ist vom Kernwissen bis zu spezifischen Bereichen organisiert, von grundlegend bis fortgeschritten. Wenn Inhalte in mehreren Formaten vorliegen, werden wir Sie darüber informieren, so dass Sie das für Ihre Bedürfnisse am besten geeignete Trainingsformat auswählen können.  
 
-## <a name="getting-started"></a>Erste Schritte<a name="get-started"></a>
+## <a name="getting-started"></a>Erste Schritte
 
 | Inhalt                                                                                                                               | Beschreibung                                                                                                                                                                                                                                                                                      | Format                                | Länge             |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|--------------------|
@@ -26,7 +26,7 @@ Der folgende Katalog ist vom Kernwissen bis zu spezifischen Bereichen organisier
 | [Arbeiten Sie mit der Microsoft Dynamics 365 Business Central Benutzeroberfläche](/training/paths/work-with-user-interface-dynamics-365-business-central/) | Möchten Sie mehr über die Benutzeroberfläche von Business Central erfahren? Dieser Lernpfad zeigt Ihnen die Benutzeroberfläche und auch, wie Sie sie personalisieren können. Es werden auch alternative Schnittstellen wie ein Smartphone diskutiert.                                                                               | Kostenloser, selbstbestimmter Online-Lernpfad mit eigenem Tempo | 2 Stunden 27 Minuten |
 | [Arbeiten Sie wie ein Profi mit Daten in Business Central](/training/paths/work-pro-data-dynamics-365-business-central)                                    | Haben Sie gerade erst mit Business Central begonnen? Dieser Lernpfad soll Ihnen helfen, sich auf die Datentypen in Business Central vorzubereiten und Informationen zu finden, die Sie in der Anwendung benötigen.                                                                                                  | Kostenloser, selbstbestimmter Online-Lernpfad mit eigenem Tempo | 2 Stunden 27 Minuten |
 
-## <a name="financials"></a>Finanzen<a name="financials"></a>
+## <a name="financials"></a>Finanzen
 | Inhalt                                                                                                                                                         | Beschreibung                                                                                                                                                                                                                                                                                            | Format                                | Länge             |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|--------------------|
 | [Einrichtung des Finanzmanagements in Microsoft Dynamics 365 Business Central](/training/paths/set-up-financial-management-dynamics-365-business-central/)                     | Möchten Sie Business Central für das Finanzmanagement nutzen? Dann ist dieser Lernpfad genau das Richtige für Sie. Es wird die Einrichtung von Nummernkreisen, Audit-Trail-Codes, Buchungsgruppen, Dimensionen und des Kontenplans behandelt.                                                                                   | Kostenloser, selbstbestimmter Online-Lernpfad mit eigenem Tempo | 3 Stunden 13 Minuten |

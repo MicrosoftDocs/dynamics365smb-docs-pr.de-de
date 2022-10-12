@@ -10,12 +10,12 @@ ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
 ms.search.form: 605, 620, 602, 603, 601, 600, 652, 653, 606, 607, 609, 608, 621
 ms.date: 03/09/2022
 ms.author: edupont
-ms.openlocfilehash: 7add9cf10ff90ff978c67cf691b2f7e5c6b87bdd
-ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
+ms.openlocfilehash: 32a0005f2ebbc6bfc87c21fed8469c86535e15de
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2022
-ms.locfileid: "9460859"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607283"
 ---
 # <a name="set-up-intercompany-transaction-posting"></a>Buchung von Intercompany-Transaktionen festlegen
 
@@ -56,6 +56,10 @@ Diese Felder unterscheiden sich je nachdem, ob Ihr Administrator das Feature-Upd
 
 > [!NOTE]
 > In [!INCLUDE[prod_short](includes/prod_short.md)] online können Sie keine Dateispeicherorte verwenden, um Transaktionen an Ihre Partner zu übertragen, da [!INCLUDE[prod_short](includes/prod_short.md)] keinen Zugriff auf Ihr lokales Netzwerk hat. Daher ist bei Auswahl von **Dateispeicherort** im Feld **Transfertyp** das Feld **Ordnerpfad** nicht verfügbar. Stattdessen wird die Datei in den Ordner „Downloads“ auf Ihrem Computer heruntergeladen. Anschließend senden Sie die Datei per E-Mail an eine Person in der Partnerfirma. Für einen direkteren Prozess empfehlen wir stattdessen die Auswahl von **E-Mail**.
+
+> [!NOTE]
+> Für Intercompany-Buchungen, wenn Sie **Transaktion automatisch akzeptieren** einschalten auf der Seite **Intercompany-Partnerkarte**, unterdrückt [!INCLUDE[prod_short](includes/prod_short.md)] Meldungen, die vor Einkaufsrechnungen warnen, die die ursprüngliche Bestellung duplizieren. Daher ist es wichtig, einen Geschäftsprozess für die Verwaltung von Duplikaten zu haben. Zum Beispiel durch Löschen solcher Bestellungen, wenn die Einkaufsrechnung vom Intercompany-Partner eingegangen ist.
+
 
 ## <a name="to-set-up-intercompany-vendors-and-intercompany-customers"></a>Einrichten von Intercompanykreditoren und Intercompanydebitoren
 

@@ -11,17 +11,17 @@ ms.search.keywords: special price, alternate price, pricing
 ms.search.form: 7022, 7024
 ms.date: 06/03/2022
 ms.author: bholtorf
-ms.openlocfilehash: 7705acac2b2c53bea96fee0431cb83702e46b0c6
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: ed59e73dce1847e2edb02def981abdf869a275d9
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9529595"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606143"
 ---
 # <a name="record-special-sales-prices-and-discounts"></a>Spezielle Verkaufspreise und Rabatte aufzeichnen
 
 > [!NOTE]
-> Im 2. Veröffentlichungszyklus 2020 wurden neue, optimierte Prozesse zum Einrichten und Verwalten von Preisen und Rabatten eingeführt. Wenn Sie ein neuer Kunde sind, der die aktuelle Version verwendet, nutzen Sie die neue Umgebung. Wenn Sie bereits Kunde sind, hängt es davon ab, ob Sie die neue Erfahrung verwenden, ob Ihr Administrator die Funktionsaktualisierung **Neues Verkaufspreiserlebnis** in **Funktionsverwaltung** akualisiert hat. Weitere Informationen finden Sie unter [Bevorstehende Funktionen im Voraus aktivieren](/dynamics365/business-central/dev-itpro/administration/feature-management).
+> Im 2. Veröffentlichungszyklus 2020 wurden neue, optimierte Prozesse zum Einrichten und Verwalten von Preisen und Rabatten eingeführt. Wenn Sie ein neuer Kunde sind, der die aktuelle Version verwendet, nutzen Sie die neue Umgebung. Wenn Sie bereits Kunde sind, hängt es davon ab, ob Sie die neue Erfahrung verwenden, ob Ihr Administrator die Funktionsaktualisierung **Neues Verkaufspreiserlebnis** in **Funktionsverwaltung** akualisiert hat. Erfahren Sie mehr unter [Bevorstehende Funktionen vorzeitig aktivieren](/dynamics365/business-central/dev-itpro/administration/feature-management) im Verwaltungsinhalt.
 
 [!INCLUDE[prod_short](includes/prod_short.md)] unterstützt verschiedene Preisstrategien, wie zum Beispiel:
 
@@ -37,7 +37,7 @@ Um ein einfaches Preismodell zu verwenden, müssen Sie nur einen Stückpreis ang
 * Mindestmenge
 * Daten, die den Zeitraum definieren, für den die Preise gültig sind.
 
-Nachdem Sie Sonderpreise eingerichtet haben, kann [!INCLUDE[prod_short](includes/prod_short.md)] den besten Preis für Verkaufs- und Einkaufsbelege sowie für Auftrags- und Artikelerfassungszeilen berechnen. Weitere Informationen finden Sie unter [Beste Preisberechnung](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
+Nachdem Sie Sonderpreise eingerichtet haben, kann [!INCLUDE[prod_short](includes/prod_short.md)] den besten Preis für Verkaufs- und Einkaufsbelege sowie für Auftrags- und Artikelerfassungszeilen berechnen. Erfahren Sie mehr unter [Bestpreisberechnung](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
 
 Für Verkaufsrabatte können Sie zwei Arten einrichten:
 
@@ -61,7 +61,7 @@ Diese Schritte unterscheiden sich je nachdem, ob Ihr Administrator das Feature-U
 
 #### <a name="new-experience"></a>[Neue Erfahrung](#tab/new-experience/)  
 
-Standardmäßig lautet der Status neuer Preislisten Entwurf. Preislistenentwürfe gehen nicht in die Preiskalkulation ein. Wenn Sie mit dem Hinzufügen von Zeilen fertig sind und die Preise verwenden möchten, können Sie den Status in Aktiv ändern.
+Standardmäßig lautet der Status neuer Preislisten **Entwurf**. Preislistenentwürfe gehen nicht in die Preiskalkulation ein. Wenn Sie mit dem Hinzufügen von Zeilen fertig sind und die Preise verwenden möchten, können Sie den Status in **Aktiv** ändern.
 
 1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?"), geben Sie **Debitoren** ein, und wählen Sie dann den entsprechenden Link aus.
 2. Wählen Sie den Debitor und wählen Sie dann die Aktion **Verkaufspreislisten**. 
@@ -76,14 +76,16 @@ Standardmäßig lautet der Status neuer Preislisten Entwurf. Preislistenentwürf
 ---
 
 ## <a name="using-sales-and-purchase-price-lists"></a>Verwenden von Verkaufs- und Einkaufspreislisten
+
 > [!NOTE]
-> Die Verwendung von Preislisten erfordert, dass Ihr Administrator das Funktionsupdate **Neue Verkaufspreis-Erfahrung** in der **Funktionsverwaltung** aktiviert. Weitere Informationen finden Sie unter [Bevorstehende Funktionen im Voraus aktivieren](/dynamics365/business-central/dev-itpro/administration/feature-management).
+> Die Verwendung von Preislisten erfordert, dass Ihr Administrator das Funktionsupdate **Neue Verkaufspreis-Erfahrung** in der **Funktionsverwaltung** aktiviert. Erfahren Sie mehr unter [Bevorstehende Funktionen vorzeitig aktivieren](/dynamics365/business-central/dev-itpro/administration/feature-management) im Verwaltungsinhalt.
 
 Die meisten der neuen Erfahrungen mit Verkaufspreisen ähneln der aktuellen Erfahrung, es gibt jedoch einige Unterschiede. In den folgenden Abschnitten werden diese Unterschiede erläutert.
 
 Die **Ausgleich mit Typ** und **Ausgleich mit Nummer** In den Feldern können Sie auswählen, für was eine Preisliste gelten soll, z. B. Debitor oder Debitorenpreisgruppe. Mit **Spalten anzeigen für** können Sie Spalten ein- oder ausblenden, die für das Festlegen von Preisen, Rabatten oder Preisen und Rabatten relevant sind.
 
 ### <a name="converting-existing-prices-when-you-turn-on-the-pricing-feature-update"></a>Konvertieren vorhandener Preise, wenn Sie die Aktualisierung der Preisfunktion aktivieren
+
 Wenn Sie das Funktionsupdate **Neue Verkaufspreis-Erfahrung** auf der Seite **Funktionsverwaltung** aktivieren, wird die Anleitung **Funktionsdatenupdate** geöffnet. Verwenden Sie den Umschalter **Standardpreise verwenden** wie folgt:
 
 * Wenn Sie mit allen Preisen auf einer einzigen Seite arbeiten möchten, aktivieren Sie sie. Bestehende Preise werden in eine Standardpreisliste für jedes der folgenden Dokumente umgewandelt:
@@ -96,7 +98,7 @@ Wenn Sie das Funktionsupdate **Neue Verkaufspreis-Erfahrung** auf der Seite **Fu
     Sie können alle Preise für diese Bereiche auf der Seite **Preise Arbeitsblatt** bearbeiten. Die Standardpreislisten werden auf den Seiten **Einrichtung von Verkäufen und Forderungen**, **Einrichtung von Käufen und Verbindlichkeiten** und **Projekteinrichtung** festgelegt. 
 
 > [!NOTE]
-> Wenn Preise nur für Artikel- oder Ressourcenkarten festgelegt sind, werden die Standardpreislisten während der Datenaktualisierung nicht mit diesen Preisen ausgefüllt. Sie können jedoch jede der Standardpreislisten oder die Seite Preisarbeitsblatt öffnen und die Aktion **Zeilen vorschlagen** nutzen, um die auf Artikel- oder Ressourcenkarten festgelegten Preise hinzuzufügen. 
+> Wenn Preise nur für Artikel- oder Ressourcenkarten festgelegt sind, werden die Standardpreislisten während der Datenaktualisierung nicht mit diesen Preisen ausgefüllt. Sie können jedoch jede der Standardpreislisten oder die Seite **Preisarbeitsblatt** öffnen und die Aktion **Zeilen vorschlagen** nutzen, um die auf Artikel- oder Ressourcenkarten festgelegten Preise hinzuzufügen.
 
 * Um Verkaufspreislisten zu verwenden, deaktivieren Sie sie. Bestehende Preise werden in eine neue Preisliste für jede Kombination von Folgendem umgewandelt: 
 
@@ -110,18 +112,47 @@ Wenn Sie viele Kombinationen haben, haben Sie viele Preislisten.
 Wenn Sie die neue Preisgestaltung bereits aktiviert haben, können Sie Standardpreislisten manuell erstellen oder eine vorhandene Preisliste als Standard angeben. Um eine vorhandene Preisliste als Standard festzulegen, aktivieren Sie den Schalter **Aktualisieren von Standardeinstellungen zulassen** auf der Preisliste. Setzen Sie dann auf den Seiten **Einrichtung von Verkäufen und Forderungen**, **Einrichtung von Käufen und Verbindlichkeiten** und **Projekteinrichtung** die Preisliste als standardmäßig.
 
 ### <a name="editing-active-price-lists"></a>Bearbeiten der aktiven Preislisten
-Damit Bearbeiter Preise in aktiven Preislisten für Artikel, Ressourcen, Debitoren, Kreditoren und andere Entitäten, die Preise verwenden, bearbeiten können, aktivieren Sie den Umschalter **Bearbeiten des aktiven Preises zulassen** auf den Seiten **Einrichtung von Verkäufen und Forderungen** und **Einrichtung von Käufen und Verbindlichkeiten**.   
+
+Damit Bearbeiter Preise in aktiven Preislisten für Artikel, Ressourcen, Debitoren, Kreditoren und andere Entitäten, die Preise verwenden, bearbeiten können, aktivieren Sie den Umschalter **Bearbeiten des aktiven Preises zulassen** auf den Seiten **Einrichtung von Verkäufen und Forderungen** und **Einrichtung von Käufen und Verbindlichkeiten**.
 
 Wenn der Umschalter **Bearbeiten des aktiven Preises zulassen** deaktiviert ist, müssen Sie, um Preise in einer Preisliste zu aktualisieren, den Status der Preisliste in **Entwurf** ändern, Ihre Änderung vornehmen und die Preisliste erneut aktivieren.
 
-Die **Preisübersicht** Seite bietet eine Übersicht über alle Preise in Preislisten. Sie können Filter setzen, um die Preisliste einzugrenzen, die Sie ändern oder ergänzen möchten. Nachdem Sie die Preise geändert haben, verwenden Sie die Aktion **Zeilen überprüfen**, um die Preise mit anderen Preislistenzeilen zu vergleichen. Die Überprüfung von Preisen hilft, Duplikate und Mehrdeutigkeiten bei der Preisberechnung zu vermeiden. 
+Die **Preisübersicht** Seite bietet eine Übersicht über alle Preise in Preislisten. Sie können Filter setzen, um die Preisliste einzugrenzen, die Sie ändern oder ergänzen möchten. Nachdem Sie die Preise geändert haben, verwenden Sie die Aktion **Zeilen überprüfen**, um die Preise mit anderen Preislistenzeilen zu vergleichen. Die Überprüfung von Preisen hilft, Duplikate und Mehrdeutigkeiten bei der Preisberechnung zu vermeiden.
 
 > [!NOTE]
-> Wenn Sie eine Zeile in einer aktiven Preisliste bearbeiten, wird der Status der Zeile auf „Entwurf“ gesetzt, und die Zeile wird bei der Preisberechnung erst berücksichtigt, wenn Sie die Aktion **Zeilen überprüfen** verwenden. Nachdem Sie den Preis überprüft haben, wird der Status der Position Aktiv und in Preisberechnungen berücksichtigt.
+> Wenn Sie eine Zeile in einer aktiven Preisliste bearbeiten, wird der Status der Zeile auf **Entwurf** gesetzt, und die Zeile wird bei der Preisberechnung erst berücksichtigt, wenn Sie die Aktion **Zeilen überprüfen** verwenden. Nachdem Sie den Preis überprüft haben, wird der Status der Position **Aktiv** und in Preisberechnungen berücksichtigt.
 
 Um neue Preise hinzuzufügen, verwenden Sie auf der Seite **Preisübersicht** die Aktion **Neue Zeilen hinzufügen**. Die Seite **Arbeitsblatt Preise** öffnet sich und Sie können Preiszeilen hinzufügen, indem Sie sie entweder anhand von Kriterien vorschlagen, aus anderen Preislisten kopieren oder manuell eingeben. Anschließend können Sie mit der Aktion **Preisvorschlag übernehmen** die neuen Preise mit anderen Preislisten vergleichen, um Duplikate und Unklarheiten bei der Preisberechnung zu vermeiden.
 
+#### <a name="create-sales-price-lines-based-on-the-unit-price"></a>Erstellen Sie Verkaufspreiszeilen basierend auf dem Stückpreis
+
+1. Auf der Seite **Preisarbeitsblatt** wählen Sie die Aktion **Vorgeschlagene Zeilen** aus.
+2. Füllen Sie auf der Seite **Preiszeilen - Neu erstellen** die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Legen Sie im Feld **Produktfilter** die Filter für den ausgewählten **Produkttyp** fest.
+4. Wählen Sie das Feld **Standardwerte** zum Festlegen von Einstellungen wie:
+   * Welchen Entitäten die Preisliste zugeordnet wird.
+   * Daten, an denen der Preis gültig ist.
+   * Der Währungscode.
+   * Der Betragstypfilter an, der die in den Preislistenzeilen angezeigten Spalten definiert.
+5. Wählen Sie **OK** aus. Neue Zeilen werden auf der Seite **Preis Arbeitsblatt** mit den gewählten Einstellungen und den Stückpreisen aus den Artikelkarten hinzugefügt.
+6. Bearbeiten Sie die erstellten Zeilen mit den neuen Stückpreisen oder Rabatten. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+#### <a name="create-sales-price-lines-based-on-existing-price-lists"></a>Erstellen Sie Verkaufspreiszeilen basierend auf vorhandenen Preislisten
+
+1. Wählen Sie auf der Seite **Preisarbeitsblatt** die Aktion **Zeilen kopieren** aus.
+2. Auf der Seite **Preiszeilen – Vorhandene kopieren** wählen Sie eine vorhandene Preisliste im Feld **Aus Preisliste** aus.
+3. Im Feld **Preiszeilenfilter** definieren Sie Filter für die Produkte in der ausgewählten Preisliste.
+4. Wählen Sie das Feld **Standardwerte** zum Festlegen von Einstellungen wie:
+   * Welchen Entitäten die Preisliste zugeordnet wird.
+   * Daten, an denen der Preis gültig ist.
+   * Der Währungscode.
+   * Der Betragstypfilter an, der die in den Preislistenzeilen angezeigten Spalten definiert.
+5. Füllen Sie die anderen Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+6. Wählen Sie **OK** aus. Neue Zeilen werden der Seite **Preis Arbeitsblatt** mit den gewählten Einstellungen hinzugefügt.
+7. Bearbeiten Sie die erstellten Zeilen mit den neuen Stückpreisen oder Rabatten. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
 ## <a name="to-copy-sales-prices"></a>Verkaufspreise kopieren
+
 Diese Schritte unterscheiden sich je nachdem, ob Ihr Administrator das Feature-Update **Neues Verkaufspreiserlebnis** aktiviert hat. Wenn das Funktionsupdate nicht aktiviert ist, befolgen Sie die Schritte auf der Registerkarte „Aktuelle Erfahrung“.
 
 #### <a name="current-experience"></a>[Aktuelle Erfahrung](#tab/current-experience/)  
@@ -139,6 +170,7 @@ Falls Sie Verkaufspreise kopieren möchten, wie z. B. den Preis eines einzelnen 
    > Die Stapelverarbeitung erzeugt nur Vorschläge, implementiert die vorgeschlagenen Änderungen aber nicht. Falls Sie die Vorschläge annehmen möchten, d. h. sie auf die Seite **VK-Preise** übernehmen möchten, können Sie die Aktion **Preisvorschlag übernehmen** verwenden, die Sie …auf der Seite **VK-Preisarbeitsblatt** finden.
 
 #### <a name="new-experience"></a>[Neue Erfahrung](#tab/new-experience/)  
+
 Sie können festlegen, ob die neue Preisliste die Einstellungen aus der Kopfzeile der Liste, die Sie kopieren, oder die Einstellungen der neuen Liste, in die Sie kopieren, verwenden soll. Um die Einstellungen aus der Preisliste zu verwenden, in die Sie Preise kopieren, aktivieren Sie den Umschalter **Standardwerte aus Ziel verwenden** verwenden.
 
 1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Verkaufspreislisten** ein, und wählen Sie dann den zugehörigen Link. 
@@ -151,6 +183,7 @@ Sie können festlegen, ob die neue Preisliste die Einstellungen aus der Kopfzeil
 ---
 
 ## <a name="to-bulk-update-item-prices"></a>So aktualisieren Sie Debitorenartikelpreise auf einmal
+
 Diese Schritte unterscheiden sich je nachdem, ob Ihr Administrator das Feature-Update **Neues Verkaufspreiserlebnis** aktiviert hat. Wenn das Funktionsupdate nicht aktiviert ist, befolgen Sie die Schritte auf der Registerkarte „Aktuelle Erfahrung“.
 
 #### <a name="current-experience"></a>[Aktuelle Erfahrung](#tab/current-experience/)
@@ -164,7 +197,7 @@ Wenn Sie Artikelpreise, wie alle Lagerzugangs-Artikelpreise durch einen Prozents
 2. Wählen Sie die Aktion **Artikelpreis auf dem Arbeitsblatt vorschlagen** aus.  
 3. Füllen Sie im Inforegister **Artikel** die **Nr.** oder **Bestand-Buchungsgruppe** oder andere Felder mit den ursprünglichen Artikelpreisen aus, die Sie aktualisieren möchten ein.  
 4. Füllen Sie im oberen Bereich der Anforderungsseite die Felder **Verkaufsart** und **Verkaufscode** mit der Art und dem Namen aus, in die Sie die Verkaufspreise kopieren möchten.
-5. Wenn Sie möchten, dass die Stapelverarbeitung automatisch eingegeben wird, geben Sie Anpassung ein im Feld **Korrekturfaktor**. Beispielsweise geben Sie entsprechend 1.15 unter **Korrekturfaktor** für die Preiserhöhung für den Artikelpreis um 15% ein.  
+5. Wenn Sie möchten, dass die Stapelverarbeitung automatisch eingegeben wird, geben Sie Anpassung ein im Feld **Korrekturfaktor**. Beispielsweise geben Sie entsprechend 1.15 unter **Korrekturfaktor** für die Preiserhöhung für den Artikelpreis um 15 % ein.  
 6. Wenn Sie mit dem Batchauftrag neue Preise erstellen wollen, aktivieren Sie den Schalter **Neue Preise generieren**.  
 7. Wählen Sie die Schaltfläche **OK**, um die Zeilen auf der Seite **Verkaufspreisarbeitsblatt** mit den vorgeschlagenen neuen Preisen auszufüllen.
 8. Um die Vorschläge umzusetzen, verwenden Sie die Aktion **Preisänderungen implementieren**. Der Batch-Job erstellt Vorschläge, setzt diese jedoch nicht um. 
@@ -178,7 +211,7 @@ Um die Preise für mehrere Artikel zu aktualisieren, müssen Sie eine neue Preis
 
 ---
 
-## <a name="best-price-calculation"></a>Beste Preisberechnung
+## <a name="best-price-calculation"></a>Berechnung des besten Preises
 
 Nachdem Sie Sonderpreise und Zeilenrabatte für Verkäufe und Käufe erfasst haben,, berechnet [!INCLUDE[prod_short](includes/prod_short.md)] den besten Preis für Verkaufs- und Einkaufsbelege sowie für Auftrags- und Artikelerfassungszeilen berechnen.
 
@@ -228,6 +261,7 @@ Weitere Informationen zur Schulung für Rabatte bei Verkäufen finden Sie unter 
 [!INCLUDE [sales-invoice-discounts](includes/sales-invoice-discounts.md)]
 
 ## <a name="to-set-up-a-sales-line-discount-for-a-customer"></a>So erstellen Sie Verkaufszeilenrabatte für einen Debitor:
+
 Diese Schritte unterscheiden sich je nachdem, ob Ihr Administrator das Feature-Update **Neues Verkaufspreiserlebnis** aktiviert hat. Wenn das Funktionsupdate nicht aktiviert ist, befolgen Sie die Schritte auf der Registerkarte „Aktuelle Erfahrung“.
 
 #### <a name="current-experience"></a>[Aktuelle Erfahrung](#tab/current-experience/)  
@@ -259,11 +293,12 @@ Diese Schritte unterscheiden sich je nachdem, ob Ihr Administrator das Feature-U
 ---
 
 ## <a name="to-set-up-an-invoice-discount-for-a-customer"></a>Um Rechnungsrabattkonditionen für Einkäufe einzurichten
+
 Nachdem Sie entschieden haben, welche Kunden für Rechnungsrabatte in Frage kommen, geben Sie den Rechnungsrabattcode auf den Debitorenkartenseiten ein. Legen Sie dann die Bedingungen für jeden Code fest.
 
 1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Debitoren** ein, und wählen Sie dann den zugehörigen Link.
 2. Öffnen Sie die Debitorenseite für einen Debitor, der für Rechnungsrabatte in Frage kommt.
-3. Geben Sie im Feld **Rechnungsrabattcode** einen Code für das jeweilige Rechnungsrabattfenster ein, das die Anwendung verwenden soll, um Rechnungsrabatte für den Debitor zu berechnen. <!--Looks like I can only choose customers in this list-->
+3. Geben Sie im Feld **Rechnungsrabattcode** einen Code für das jeweilige Rechnungsrabattfenster ein, das die Anwendung verwenden soll, um Rechnungsrabatte für den Debitor zu berechnen.
 
 > [!NOTE]  
 > Rechnungsrabattcodes werden durch BestandsDebitorenkarten dargestellt. Dies ermöglicht es Ihnen, Rechnungsrabattbedingungen schnell einem Debitor zuzuweisen, indem es den Namen eines anderen Debitors mit den selben Konditionen auswählt.
@@ -284,7 +319,6 @@ Fahren Sie fort, um neue Verkaufsrechnungsrabatt-Bedingungen einzurichten.
 [Verkauf](sales-manage-sales.md)  
 [Einrichten von Debitorenpreisgruppen](sales-how-to-set-up-customer-price-groups.md)  
 [Einrichten von Debitorenrabattgruppen](sales-how-to-set-up-customer-discount-groups.md)  
-[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

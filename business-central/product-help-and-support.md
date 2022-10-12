@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.form: HelpAndSupport
 ms.author: edupont
 ms.date: 03/21/2022
-ms.openlocfilehash: d006df90aa6eba3b1970db971cdb14700a3bbd6b
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 9e20cf4862f841e96a83b129a27b7db34494f57c
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9531701"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607715"
 ---
 # <a name="resources-for-help-and-support"></a>Ressourcen für Hilfe und Support
 
@@ -51,7 +51,7 @@ Die folgende Liste beschreibt, wie Sie auf das Hilfefenster zugreifen können un
 Verwenden Sie das Suchfeld oben im Hilfefenster, um nach Anleitungen zur Verwendung des Produkts, integrierten Funktionalitäten und verfügbaren Schulungsmodulen zu suchen. Abhängig von Ihren Suchbegriffen werden im Fenster mindestens fünf Links mit einer kurzen Beschreibung angezeigt. Wählen Sie einen Link aus, oder verfeinern Sie Ihre Suchbegriffe. Wenn Sie einen Link auswählen, wird der Zielartikel in einer neuen Browser-Registerkarte geöffnet. Sie können dann die Browser-Registerkarte abdocken, um die relevanten Informationen Seite an Seite mit [!INCLUDE [prod_short](includes/prod_short.md)] zu sehen. Das Fenster bleibt geöffnet, während Sie durch [!INCLUDE [prod_short](includes/prod_short.md)] navigieren, sodass der von Ihnen gesuchte Inhalt sichtbar bleibt.  
 
 > [!NOTE]
-> In der aktuellen Version von [!INCLUDE [prod_short](includes/prod_short.md)] gilt das Suchfeld im Hilfebereich nur für Inhalte, die auf der Website [Docs.microsoft.com](/dynamics365/business-central) veröffentlicht sind.
+> In der aktuellen Version von [!INCLUDE [prod_short](includes/prod_short.md)] gilt das Suchfeld im Hilfebereich nur für Inhalte, die auf der Website [Dynamics 365 Business Central-Dokumentation](/dynamics365/business-central) in Microsoft Learn veröffentlicht sind.
 
 ## <a name="help--support-page"></a>Hilfe & Support Seite
 
@@ -83,7 +83,7 @@ Der Abschnitt **Suchen** umfasst zwei Links zur Produkthilfe:
 
 - Hilfe über die Seite, die Sie soeben in [!INCLUDE[prod_short](includes/prod_short.md)] angezeigt haben  
 
-  Dieser Link wird automatisch generiert. Wenn [!INCLUDE[prod_short](includes/prod_short.md)] den entsprechenden Link nicht finden kann, wird die Produktseite auf [Docs.microsoft.com](index.md) als Standardversion von [!INCLUDE[prod_short](includes/prod_short.md)] angezeigt. Zum Beispiel, wenn die Seite Teil einer App war, der keine kontextsensitive Hilfe hinzugefügt wurde, die [!INCLUDE[prod_short](includes/prod_short.md)] zugeordnet ist, leitet der *Lernlink* standardmäßig zur Zielseite weiter.  
+  Dieser Link wird automatisch generiert. Wenn [!INCLUDE[prod_short](includes/prod_short.md)] den entsprechenden Link nicht finden kann, wird die [Produktseite auf Microsoft Learn](index.md) als Standardversion von [!INCLUDE[prod_short](includes/prod_short.md)] angezeigt. Zum Beispiel, wenn die Seite Teil einer App war, der keine kontextsensitive Hilfe hinzugefügt wurde, die [!INCLUDE[prod_short](includes/prod_short.md)] zugeordnet ist, leitet der *Lernlink* standardmäßig zur Zielseite weiter.  
   
 - Hilfeproduktseite für [!INCLUDE[prod_short](includes/prod_short.md)]  
 

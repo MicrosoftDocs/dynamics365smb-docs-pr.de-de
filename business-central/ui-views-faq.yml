@@ -8,14 +8,14 @@ metadata:
   ms.tgt_pltfrm: na
   ms.workload: na
   ms.search.keywords: list, filter, pane, views
-  ms.date: 06/24/2021
+  ms.date: 08/09/2022
   ms.author: mikebc
-  ms.openlocfilehash: 6140dd6e114a8967a4e20196feb88e25fbd06bb1
-  ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+  ms.openlocfilehash: ff5b79e1aeb7954712dc624cef9a6bbaf486279f
+  ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
   ms.translationtype: HT
   ms.contentlocale: de-DE
-  ms.lasthandoff: 02/15/2022
-  ms.locfileid: "8144593"
+  ms.lasthandoff: 09/30/2022
+  ms.locfileid: "9607634"
 title: FAQ zu Listenansichten
 summary: In diesem Artikel werden Fragen beantwortet, die unsere erfahrenen Benutzer häufig zum Arbeiten mit Listenansichten und zum Speichern von Filtern stellen.
 sections:
@@ -41,13 +41,13 @@ sections:
     answer: >
       Ansichten sind nur auf Listen- und Arbeitsblattseiten verfügbar.
   - question: >
-      Woher weiß ich, ob ich auf der Seite mit dem Listentyp bin
+      Woher weiß ich, ob ich auf der Seite mit dem Listentyp bin?
     answer: >
       Seitenüberprüfung verwenden. Drücken Sie zum Öffnen der Seitenprüfung Strg + ALT+F1. Dann im Feld **Seite** suchen Sie nach dem Wort **Liste** in der Klammer am Ende.
   - question: >
       Sind Ansichten auch für andere Formfaktoren verfügbar?
     answer: >
-      Ja. Alle Ansichten, die Sie in Ihrem Desktop-Browser oder Ihrer Desktop-App speichern, sind auch auf Ihrem Tablet oder Smartphone verfügbar. Sie können Ansichten auf Mobilgeräten nicht ändern oder personalisieren.
+      Ja. Alle Ansichten, die Sie in Ihrem Desktop-Browser oder Ihrer Desktop-App speichern, sind auch auf Ihrem Tablet oder Smartphone oder in Microsoft Teams eingebettet verfügbar. Sie können Ansichten auf Mobilgeräten nicht ändern oder personalisieren.
   - question: >
       Sind meine persönlichen Ansichten immer zugänglich?
     answer: >
@@ -63,7 +63,7 @@ sections:
   - question: >
       Wie kann ich meine Ansichten mit anderen teilen?
     answer: >
-      [!INCLUDE[prod_short](includes/prod_short.md)] bietet keine Möglichkeit, die genaue Listenansicht freizugeben. Sie können jedoch Ihre aktuellen Filter freigeben, damit andere Benutzer eine ähnliche Liste von Datensätzen sehen können. Kopieren Sie in Ihrem Desktop-Browser einfach die URL und geben Sie sie dann an Ihre Kollegen weiter. Bei der Freigabe von Filtern kann nicht garantiert werden, dass der Empfänger die gleichen Filter erhält, die auch in Ihrem Browser angezeigt werden.
+      [!INCLUDE[prod_short](includes/prod_short.md)] bietet keine Möglichkeit, die genaue Listenansicht freizugeben. Sie können jedoch Ihre aktuellen Filter freigeben, damit andere Benutzer eine ähnliche Liste von Datensätzen sehen können. Wählen Sie im Business Central-Webclient eine Ansicht aus und verwenden Sie dann die Funktion **Link kopieren** zum Kopieren der URL in Ihre Zwischenablage. kopieren Sie einfach die URL und geben Sie sie dann an Ihre Kollegen weiter. Bei der Freigabe von Filtern kann nicht garantiert werden, dass der Empfänger die gleichen Filter erhält, die auch in Ihrem Browser angezeigt werden.
   - question: >
       Kann ich im Tell Me-Fenster nach Ansichten suchen?
     answer: >
@@ -88,17 +88,9 @@ sections:
       Die in einer Liste angezeigten Ansichten sind eine Kombination aus Ihren persönlichen Ansichten und Systemansichten. Systemansichten können von der Geschäftsanwendung oder von Erweiterungen stammen oder rollenabhängig sein, wenn die Liste für Ihre Rolle angepasst wurde.
   - question: >
       Warum bieten einige Ansichten weniger Optionen?
-    answer: >
-      Einige Ansichten bieten nur die Möglichkeit, eine Kopie der Ansicht zu speichern, während andere das Speichern von Änderungen an der Ansicht hingegen nicht zulassen. Wie die Ansicht erstellt wurde, bestimmt die verfügbaren Optionen für diese Ansicht. Ansichten können auf verschiedene Arten erstellt werden:
-
-
-      - Persönliche Ansichten, die Sie gespeichert haben
-
-      - Systemansichten, die ein Standardbestandteil der Geschäftsanwendung sind oder durch Erweiterungen oder rollenspezifische Ansichten hinzugefügt werden. Im Gegensatz zu persönlichen Ansichten können Sie Änderungen an Filtern nicht in dieser Systemansicht speichern.
-
-      - Ältere Systemansichten, die ein Standardbestandteil der Geschäftsanwendung sind, jedoch mit älteren Versionen von [!INCLUDE[prod_short](includes/prod_short.md)] erstellt wurden. Diese Ansichten bieten Ihnen deutlich weniger Optionen. Sie können sie nur als neue Ansicht speichern aber nicht ausblenden oder neu anordnen. Beachten Sie, dass ältere Systemansichten in einem zukünftigen Update von [!INCLUDE[prod_short](includes/prod_short.md)] nicht weiter unterstützt werden.
+    answer: "Einige Ansichten bieten nur die Möglichkeit, eine Kopie der Ansicht zu speichern, während andere das Speichern von Änderungen an der Ansicht hingegen nicht zulassen. Wie die Ansicht erstellt wurde, bestimmt die verfügbaren Optionen für diese Ansicht. Ansichten können auf verschiedene Arten erstellt werden:\n\n- Persönliche Ansichten, die Sie gespeichert haben\n- Systemansichten, die ein Standardbestandteil der Geschäftsanwendung sind oder durch Erweiterungen oder rollenspezifische Ansichten hinzugefügt werden. Im Gegensatz zu persönlichen Ansichten können Sie Änderungen an Filtern nicht in dieser Systemansicht speichern.\n- Ältere Systemansichten, die ein Standardbestandteil der Geschäftsanwendung sind, jedoch mit älteren Versionen von [!INCLUDE[prod_short](includes/prod_short.md)] erstellt wurden. Diese Ansichten bieten Ihnen deutlich weniger Optionen. Sie können sie nur als neue Ansicht speichern aber nicht ausblenden oder neu anordnen. Beachten Sie, dass ältere Systemansichten in einem zukünftigen Update von [!INCLUDE[prod_short](includes/prod_short.md)] nicht weiter unterstützt werden.\n\n> [!NOTE]\n> Beginnend mit dem 2. Veröffentlichungszyklus von Business Central 2023 werden Legacy-Ansichten nicht mehr unterstützt und nicht mehr auf der Listenseite angezeigt. Erfahren Sie technische Details darüber, wie Entwickler zu modernen Listenansichten migrieren können, unter [Migrieren von Legacy-Ansichten zu modernen Ansichten ](/dynamics365/business-central/dev-itpro/developer/devenv-views-legacy). \n"
   - question: >
-      Wie konvertiere ich ältere Systemansichten?
+      Wie überwinde ich die Beschränkungen von Legacy-Systemansichten?
     answer: >
       Ältere Systemansichten sind Listenansichten, die von Entwicklern in älteren Versionen von [!INCLUDE[prod_short](includes/prod_short.md)] erstellt wurden, indem Sie sie auf der Seite Rollencenter platzieren. Diese Ansichten werden jetzt direkt auf der Listenseite angezeigt, bieten jedoch eine beeinträchtigte Erfahrung und deutlich weniger Optionen. Sie können eine alte Systemansicht in eine vollständig anpassbare persönliche Ansicht umwandeln, indem Sie diese alte Ansicht einfach als neue Ansicht speichern. Ebenso können Administratoren die rollenabhängigen älteren Systemansichten konvertieren, indem sie die Benutzerrolle anpassen und die ältere Ansicht als neue rollenabhängige Ansicht speichern.
 

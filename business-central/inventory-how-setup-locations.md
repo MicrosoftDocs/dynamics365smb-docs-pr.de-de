@@ -1,21 +1,21 @@
 ---
 title: Eine Standortkarte festlegen und Umlagerungsrouten definieren (enthält ein Video)
-description: Wenn Sie Artikel an mehreren Orten oder Lagern kaufen, lagern oder verkaufen, müssen Sie für jeden Lagerort eine Standortkarte festlegen und Umlagerungsrouten definieren.
-author: SorenGP
+description: Wenn Sie Artikel an mehr als einem Ort kaufen, lagern oder verkaufen, können Sie jeden Ort als Standort einrichten.
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, distribution center
 ms.search.forms: 5703, 15
-ms.date: 06/16/2021
-ms.author: edupont
-ms.openlocfilehash: 0888a0a47f3a5ae58dcf7712218f801cde1711c5
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.date: 07/05/2022
+ms.author: bholtorf
+ms.openlocfilehash: 882c7c0506439aba55d5b1c2d0cc23bd79db9d6e
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9528303"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9605806"
 ---
 # <a name="set-up-locations"></a>Einrichten von Lagerorten
 
@@ -30,7 +30,7 @@ Sie können dann Belegzeilen für einen bestimmten Lagerplatz erstellen, Verfüg
 
 Auf der Seite **Standortkarte** geben Sie Informationen über einen Standort an, z.B. ein Lager oder ein Vertriebszentrum. Sie vergeben für jeden Lagerort einen Namen und einen Code, der den Lagerort darstellt. Sie können dann den Lagerortcode auch in anderen Bereichen des Programms angeben, wenn Sie die Transaktionen für einen bestimmten Lagerort speichern möchten.  
 
-Sie können Informationen zu Lagerplätzen und Lagerrichtlinien für jeden Lagerort eingeben. Basierend auf den von Ihnen ausgewählten Lagerrichtlinien können Sie die Optionen des Inforegisters **Lagerplätze** verwenden, um die Lagerplätze zu definieren, die bei bestimmten Transaktionen als Standardlagerplätze verwendet werden. Wenn Sie die gesteuerte Einlagerung und Kommissionierung verwenden, verwenden Sie die meisten Optionen im Inforegister **Lagerplatzprüfung**, um festzulegen, wie Sie die zahlreichen erweiterten Logistikfunktionen verwenden möchten.  
+Sie können Informationen zu Lagerplätzen und Lagerrichtlinien für jeden Lagerort eingeben. Basierend auf Ihren Lagerrichtlinien können Sie die Optionen im Inforegister **Lagerplätze** zum Angeben der standardmäßig für Transaktionen zu verwendenden Lagerplätze verwenden. Wenn Sie die gesteuerte Einlagerung und Kommissionierung verwenden, verwenden Sie die meisten Optionen im Inforegister **Lagerplatzrichtlinien**, um festzulegen, wie Sie die zahlreichen erweiterten Logistikfunktionen verwenden möchten.  
 
 Einige Optionsfelder hängen von den Einstellungen auf der Seite **Standortkarte** ab, um nicht unterstützte Einrichtungskombinationen einzuschränken.  
 
@@ -46,40 +46,36 @@ Wählen Sie die Aktionen **Zonen** oder **Lagerplätze**, um Informationen über
 > [!NOTE]  
 > Viele Felder auf der Seite Standortkarte stehen im Zusammenhang mit der Verarbeitung von Artikeln in eingehenden und ausgehenden Lagerprozessen. Diese Felder sind für Firmen, die keine komplexen Lagerfunktionen benötigen, nicht relevant. Weitere Informationen finden Sie unter [Lagerortverwaltung einrichten](warehouse-setup-warehouse.md).
 
-Sie können die Konfiguration eines Lagerorts später ändern, die Einrichtung von Lagerorten mit Artikel-Ledger-Einträgen jedoch nicht bearbeiten.  
+Sie können die Konfiguration eines Standorts ändern, solange er keine Artikelposten enthält.  
 
 Wenn Sie mehrere Standorte haben, können Sie Umlagerungsrouten zwischen den Standorten definieren. Weitere Informationen finden Sie unter [Sie erstellen eine Umlagerungsroute](inventory-how-setup-locations.md#to-create-a-transfer-route).
 
 ### <a name="to-create-a-transfer-route"></a>So erstellen Sie eine Umlagerungsroute
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Umlagerungsrouten** ein und wählen Sie dann den zugehörigen Link.
-2. Wählen Sie von jedem beliebigen Fenster **Standortkarten** die Aktion **Umlagerungsrouten** aus.
-3. Wählen Sie die Aktion **Neu** aus.
+2. Wählen Sie die Aktion **Neu**.
 4. Füllen Sie auf der Seite **Lagerortkarte** die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Sie können jetzt die Lagerartikel zwischen zwei Lagerplätzen umlagern. Weitere Informationen finden Sie unter [Lagerbestand zwischen Lagerplätzen umlagern](inventory-how-transfer-between-locations.md).    
 
 ## <a name="bins"></a>Lagerplätze
 
-Lagerplätze stellen die grundlegende Lagerstruktur dar und werden verwendet, um Vorschläge zur Einlagerung von Artikeln zu erstellen. Wenn Sie Ihre Lagerplätze erstellt haben, können Sie deren Inhalt definieren, oder sie können als schwebende Lagerplätze ohne festgelegten Inhalt fungieren. Lagerplätze werden überwiegend in grundlegenden und erweiterten Lagervorgängen eingesetzt. Wenn Sie das Lager in einer einfacheren Einrichtung verwalten, benötigen Sie wahrscheinlich keine Lagerplätze.
+Lagerplätze stellen die grundlegende Lagerstruktur dar und können vorschlagen, wo Artikel abgelegt werden sollen. Ihre Lagerplätze können Inhalt haben oder schwimmende Lagerplätze ohne bestimmten Inhalt sein. 
 
-Um die Lagerplatz-Funktionalität an einem Standort zu nutzen, aktivieren Sie die Funktionalität zunächst auf der Seite **Standortkarte**, indem Sie das Feld **Lagerplätze obligatorisch** auf dem Inforegister **Lager** auswählen. Dann entwerfen Sie den Warenfluss am Lagerort, indem Sie Lagerplatzcodes in den Einrichtungsfeldern angeben, die für die verschiedenen Ströme stehen.
+Um die Lagerplatz-Funktionalität an einem Standort zu nutzen, aktivieren Sie die Funktionalität auf der Seite **Standortkarte**, indem Sie das Feld **Lagerplätze obligatorisch** auf dem Inforegister **Lager** auswählen. Sie können den Artikelfluss am Standort gestalten, indem Sie in den Feldern für die Lagerprozesse auf der Lagerplatzcodes in den Inforegistern **Lagerplätze** und **Lagerplatzrichtlinien** angeben.
 
 > [!NOTE]
 > Bevor Sie Lagerplätze auf einem Platz angeben können, müssen Sie Lagerplatzcodes erstellen. Weitere Informationen finden Sie unter [Erstellen von Lagerplätzen](warehouse-how-to-create-individual-bins.md) und [Lagerplatzarten einrichten](warehouse-how-to-set-up-bin-types.md).  
 
 ## <a name="zones"></a>Zonen
 
-Wenn Sie Ihre Lagerplätze nach Zonen strukturieren möchten, haben Sie auf der Seite **Zonen** dazu die Möglichkeit.
-
-[!INCLUDE [prod_short](includes/prod_short.md)] kopiert die Felder, die Sie für jede Zone einrichten, in alle zugehörigen Lagerplätze. Auf diese Weise können Sie eine Zone einem Lagerplatz oder einer Lagerplatzvorlage zuweisen (Filter für Lagerplatzerstellung), und verschiedene andere Felder werden dann automatisch gefüllt.
-
-Sie können jedoch auch nur eine Zone einrichten und Ihr Lager einfach auf Lagerplatzebene verwalten. Weitere Informationen finden Sie unter [Lagerortverwaltung einrichten](warehouse-setup-warehouse.md).  
+Wenn Sie Ihre Lagerplätze nach Zonen strukturieren möchten, haben Sie auf der Seite **Zonen** dazu die Möglichkeit. Wenn Sie Lagerplätzen eine Zone zuweisen, kopiert [!INCLUDE [prod_short](includes/prod_short.md)] Informationen aus der Zone in die Lagerplätze. Sie können sich auch dafür entscheiden, eine Zone einzurichten und nur Lagerplätze zu verwenden, um Ihr Lager zu organisieren. Weitere Informationen finden Sie unter [Lagerortverwaltung einrichten](warehouse-setup-warehouse.md).  
 
 ## <a name="default-dimensions-for-locations"></a>Standarddimensionen für Standorte
+
 Sie legen Standarddimensionen für einen Standort auf der Seite **Standortkarte** fest, indem Sie **Dimensionen** auswählen. Anschließend werden Dokumenten die Standardabmessungen des Standorts zugewiesen, wenn Sie den Standort in einer Zeile auswählen. Bei Bedarf können Sie die Dimensionen in der Zeile löschen oder ändern. Im Feld **Wertbuchung** können Sie verlangen, dass Personen Dimensionen für bestimmte Standorte angeben, bevor sie einen Eintrag veröffentlichen können. Wenn Sie Personen erlauben möchten, nur bestimmte Dimensionswerte auszuwählen, können Sie diese im Feld **Zulässige Wertefilter** angeben. Sie können auch Standortdimensionswerte auf der Seite **Standarddimensionsprioritäten** und für Kombinationen aus Prioritäts- und Dimensionsregeln auf der Seite **Dimensionskombinationen** einbeziehen.
 
-## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/trade-set-up-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/trade-set-up-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Siehe auch
 
@@ -90,6 +86,6 @@ Sie legen Standarddimensionen für einen Standort auf der Seite **Standortkarte*
 [Warehouse Management einrichten](warehouse-setup-warehouse.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Ändern, welche Funktionen angezeigt werden](ui-experiences.md)  
-[Allgemeine Geschäftsfunktionen](ui-across-business-areas.md)
+[Allgemeine Geschäftsfunktionen](ui-across-business-areas.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

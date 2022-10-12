@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments
-ms.date: 04/01/2021
+ms.date: 08/29/2022
 ms.author: jswymer
-ms.openlocfilehash: bb39763e80acc25604f3a1528f5c6db286a5c1dc
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: ace24899aa3c872cd5ac0609dfc3ecbf63608330
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9535489"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607661"
 ---
 # <a name="overview-of-tasks-to-close-accounting-periods"></a>Überblick zu Aufgaben, Buchhaltungsperioden zu schließen
 
@@ -24,12 +24,12 @@ ms.locfileid: "9535489"
 
 * Geben Sie systemweite und benutzerspezifische Buchungsperioden an.  
 
-    Dies gibt die Daten an, zwischen denen Buchungen zulässig sind. Je nach Geschäftsanforderungen empfiehlt es sich, die Buchungsdatumsbereiche für Benutzer zu Beginn des Periodenabschlusses einzugrenzen. Weitere Informationen finden Sie unter [Abschließen von Buchhaltungsperioden](finance-how-specify-posting-periods.md).  
+    Dies gibt die Daten an, zwischen denen Buchungen zulässig sind. Je nach Geschäftsanforderungen empfiehlt es sich, die Buchungsdatumsbereiche für Benutzer zu Beginn des Periodenabschlusses einzugrenzen. Erfahren Sie mehr unter [Buchungsperioden angeben](finance-how-specify-posting-periods.md).  
 * Führen Sie alle notwendigen Sachpostenregulierungen durch.  
 * Aktualisieren und buchen Sie wiederkehrende Buch.-Blätter.  
   <!--* Process Consolidations-->
-* Führen Sie Kontenschemata wie folgt aus:  
-  * Öffnen Sie die Seite **Kontenschema** und klicken Sie auf **Drucken**.  
+* Führen Sie Finanzberichte wie folgt aus:  
+  * Öffnen Sie die Seite **Finanzberichte** und klicken Sie auf **Drucken**.  
 
 ## <a name="sales-and-receivables"></a>Debitoren und Verkauf
 
@@ -43,7 +43,7 @@ ms.locfileid: "9535489"
 
 * Alle Aufträge, Rechnungen, Gutschriften und Reklamationen für Kreditoren werden gebucht.  
 * Buchen Sie das Zahlungsausgangs Buch.-Blatt.  
-* Aktualisieren und buchen Sie wiederkehrende Buch.-Blätter, die sich auf Kreditoren und Einkäufe beziehen.  
+* Aktualisieren und buchen Sie wiederkehrende Buch.-Blätter, die sich auf Kreditoren und Einkauf beziehen.  
 * Führen Sie den Bericht **Kreditor - Saldenrückblick** aus, und stimmen Sie die Kreditoren mit der Finanzbuchhaltung ab.  
 * Führen Sie die Stapelverarbeitung **Erledigte fakturierte Bestellungen löschen** aus.  
 
@@ -57,7 +57,7 @@ ms.locfileid: "9535489"
 
 ## <a name="intercompany"></a>Intercompany
 
-* Verarbeiten von Intercompanytransaktionen
+* Verarbeiten von Intercompanytransaktionen.
 
 ## <a name="calculate-and-process-sales-tax"></a>Berechnen und erfassen Sie die MwSt.
 
@@ -70,6 +70,5 @@ ms.locfileid: "9535489"
 [Jahre und Perioden abschließen](year-close-years-periods.md)  
 [Schließen der Bücher](year-close-books.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

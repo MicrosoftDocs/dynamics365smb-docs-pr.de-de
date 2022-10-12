@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9652, 9650
-ms.date: 03/07/2022
+ms.date: 08/12/2022
 ms.author: jswymer
-ms.openlocfilehash: e59a57e6cac21f4909088defc42da795e5550562
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: d63bfb699932261e0e9b74ef3aebcbd52bc53604
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9535853"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606883"
 ---
 # <a name="setting-the-layout-used-by-a-report"></a>Festlegen des von einem Bericht verwendeten Layouts
 
@@ -27,15 +27,17 @@ Wenn die Anwendung mehrere Unternehmen enthält, werden die Layouts pro Unterneh
 
 ## <a name="get-started"></a>Erste Schritte
 
-Es gibt zwei Möglichkeiten festzulegen, welches Layout ein Bericht verwendet. Eine Möglichkeit ist auf der Seite **Berichtslayout-Auswahl**. Die andere Möglichkeit ist auf der Seite **Berichtslayouts**. Jede Seite hat Vorteile, zum Beispiel: 
+Es gibt einige Möglichkeiten festzulegen, welches Layout ein Bericht verwendet. Jeder Weg hat Vorteile, je nachdem, was Sie tun möchten: 
 
-- Die Seite **Auswahl des Berichtslayouts** zeigt eine Liste aller Berichte an.
+- Von der Berichtsanforderungsseite
 
-  Diese Seite zeigt das aktuelle Layout für einen Bericht an. Außerdem können Sie Layouts in verschiedenen Unternehmen festlegen, ohne das Unternehmen wechseln zu müssen, mit dem Sie arbeiten.
+  Beim Einrichten eines auszuführenden Berichts enthält die Berichtsanforderungsseite das Feld **Berichtslayout**, das das aktuelle Standardlayout anzeigt, das vom Bericht verwendet wird. Sie können dieses Feld verwenden, um vorübergehend zu einem anderen verfügbaren Layout des von Ihnen ausgeführten Berichts zu wechseln. Nachdem Sie den Bericht ausgeführt haben, wird das Layout wieder auf das Standardlayout zurückgesetzt. Weitere Informationen finden Sie unter [Berichte ausführen und drucken](ui-work-report.md#switching-the-report-layout).
 
-- Die **Berichtslayouts**-Seite zeigt alle verfügbaren Layouts für jeden Bericht im aktuellen Unternehmen an.
+- Von der Seite **Berichtslayout-Auswahl**
 
-  Es ist einfach, ein bestimmtes Layout zu finden, indem Sie die Liste sortieren oder filtern. Sobald Sie das Layout gefunden haben, können Sie es mit einer einzigen Auswahl für einen Bericht festlegen.
+  Die Seite **Auswahl des Berichtslayouts** zeigt eine Liste aller Berichte an. Diese Seite zeigt das aktuelle Standardlayout für einen Bericht an. Damit können Sie Layouts in verschiedenen Unternehmen festlegen, ohne das Unternehmen wechseln zu müssen, mit dem Sie arbeiten.
+
+- Die **Berichtslayout**-Seite zeigt alle verfügbaren **Berichtslayouts** für jeden Bericht im aktuellen Unternehmen an. Es wird auch verwendet, um das Standardlayout für Berichte anzugeben. Es ist einfach, ein bestimmtes Layout zu finden, indem Sie die Liste sortieren oder filtern. Sobald Sie das Layout gefunden haben, können Sie es mit einer einzigen Auswahl für einen Bericht festlegen.
 
   > [!NOTE]
   > Sie können die Seite **Berichtslayouts** nicht für Word- und RDLC-Layouts verwenden, die mit der der **Benutzerdefinierte Layouts**-Funktion einer Vorgängerversion erstellt wurden. Tatsächlich werden diese benutzerdefinierten Layouts nicht einmal auf der Seite **Berichtslayouts** aufgelistet. Sie können diese Layouts nur über die **Auswahl des Berichtslayouts**-Seite festlegen.

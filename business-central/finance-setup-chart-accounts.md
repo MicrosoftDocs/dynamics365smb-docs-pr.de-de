@@ -1,5 +1,5 @@
 ---
-title: Den Kontenplan festlegen (enthält ein Video)
+title: Den Kontenplan einrichten oder ändern (enthält ein Video)
 description: Der Kontenplan zeigt die Sachkonten an, die Finanzdaten speichern. Sie können die Standardkonten im COA ändern und neue Konten hinzufügen.
 author: edupont04
 ms.topic: conceptual
@@ -10,26 +10,25 @@ ms.search.keywords: COA, cha of acc
 ms.search.form: 16, 17, 18, 118, 386, 391
 ms.date: 01/21/2022
 ms.author: edupont
-ms.openlocfilehash: 57dadabe2e96654a919127f17fcc6391786eb90f
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 15eca1f6bc4a75ca6758e5be351d4a459226ac5b
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9533616"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606694"
 ---
 # <a name="set-up-or-change-the-chart-of-accounts"></a>Einrichten oder Ändern des Kontenplans
 
-Der Kontenplan zeigt die Sachkonten an, die Finanzdaten speichern. [!INCLUDE[prod_short](includes/prod_short.md)] umfasst einen Standardkontenplan, der zur Unterstützung Ihres Unternehmens bereit steht.
-Sie können jedoch die Standardkonten ändern und neue Konten hinzufügen.
+Der Kontenplan zeigt die Sachkonten an, die Finanzdaten speichern. [!INCLUDE[prod_short](includes/prod_short.md)] umfasst einen Standardkontenplan, der zur Unterstützung Ihres Unternehmens bereit steht. Sie können jedoch die Standardkonten ändern und neue Konten hinzufügen.
 <br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE43KO9?rel=0]
 
 ## <a name="add-or-change-accounts"></a>Hinzufügen oder Ändern von Konten
 
-Im Kontenplan können Sie jedes Sachkonto öffnen und Einstellungen hinzufügen oder ändern. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
+Im Kontenplan können Sie jedes Sachkonto öffnen und Einstellungen hinzufügen oder ändern. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] 
 
-Falls erforderlich, können Sie mehr als eine Zeile für den Namen eines Sachkontos im Hauptbuch verwenden. Wählen Sie auf der Seite **Sachkontoausweis** in der Gruppe **Konto** die Option **Erweiterte Texte**, und füllen Sie dann eine oder mehrere Zeilen mit dem zu kopierenden Text und dem Kontonamen aus.  
+Falls erforderlich, können Sie mehr als eine Zeile für den Namen eines Sachkontos im Hauptbuch verwenden. Wählen Sie auf der Seite **Sachkontoausweis** in der Gruppe **Konto** die Option **Erweiterte Texte**, und füllen Sie dann eine oder mehrere Zeilen mit dem kopierten Text und dem Kontonamen aus.  
 
 Für Konten des Kontotyps **Summe** müssen Sie das Feld **Summe** ausfüllen. Bei Konten vom Typ **Endsumme** wird dieses Feld automatisch von der Funktion Einrücken ausgefüllt. Nachdem Sie alle Konten festgelegt haben, wählen Sie die Aktion **Verarbeiten**, und wählen Sie dann **Kontenplan einrücken**.  
 
@@ -52,11 +51,9 @@ Sie können ein Sachkonto löschen. Bevor es gelöscht wird, müssen allerdings 
 
 Der 2. Veröffentlichungszyklus 2022 führt einen zusätzlichen Schutz gegen das versehentliche Löschen von Sachkonten ein, selbst in den Szenarien, in denen die Kriterien erfüllt sind.  
 
-Ein neues Feld, **Löschen von Sachkonten blockieren**, wird zur **Finanzbuchhaltungs-Einrichtung**-Seite hinzugefügt. Das Feld fungiert als zusätzliche Validierung, wenn ein Benutzer versucht, ein Konto zu löschen, bei dem es nach dem in der angegebenen Datum Einträge im Feld **Sachkontolöschung prüfen nach** gibt.
+Ein neues Feld **Löschen von Sachkonten blockieren** wird zur **Finanzbuchhaltungs-Einrichtung**-Seite hinzugefügt. Wenn das Feld auf *Ja* gesetzt ist, agiert es als eine extra Prüfügung, das bedeutet, Sie können keine Sachkonten löschen, deren Hauptbucheinträge nach dem Datum im Feld **Sachkontolöschung prüfen nach** liegen. Um ein solches Konto zu löschen, muss ein Benutzer mit Zugriff auf die **Finanzbuchhaltungs-Einrichtung**-Seite dieses Feld zuerst auf *Nein* setzen.  
 
-Wenn das Feld **Löschen von Sachkonten blockieren** auf *Ja* gesetzt ist, können Sie keine Sachkonten löschen, deren Hauptbucheinträge nach dem Datum im Feld **Sachkontolöschung prüfen nach** liegen. Um ein solches Konto zu löschen, muss ein Benutzer mit Zugriff auf die **Finanzbuchhaltungs-Einrichtung**-Seite dieses Feld zuerst auf *Nein* setzen. Dann kann das Konto gelöscht werden.  
-
-Wir empfehlen, die Einstellung **Löschen von Sachkonten blockieren** auf *Ja* einzustellen. Wir empfehlen außerdem, dass Sie immer ein Datum im Feld **Sachkontolöschung prüfen nach** eingestellt haben, wie z. B. die Zeit, die Sie zum Speichern Ihrer Finanzdaten benötigen.  
+Das Setzen des Feldes **Löschung von Sachkonten sperren** auf *Ja* kann als bewährte Methode angesehen werden, ebenso wie das Festlegen des Datums im Feld **Sachkontolöschung prüfen nach**, zum Beispiel bis zu dem Datum, bis zu dem Sie Ihre Finanzdaten speichern müssen.  
 
 ## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/chart-accounts-dynamics-365-business-central/index)
 
@@ -66,7 +63,7 @@ Wir empfehlen, die Einstellung **Löschen von Sachkonten blockieren** auf *Ja* e
 [Abstimmen von Bankkonten](bank-manage-bank-accounts.md)  
 [Arbeiten mit Dimensionen](finance-dimensions.md)  
 [Daten aus anderen Finanzsystemen importieren](across-import-data-configuration-packages.md)  
-[Arbeiten mit Kontenschemata](bi-how-work-account-schedule.md)  
+[Mit Finanzberichten arbeiten](bi-how-work-account-schedule.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [GuV-Konten Nullstellung in der französischen Version](LocalFunctionality/France/how-to-close-income-statement-accounts.md)  
 [Gewinn- und Verlustrechnungen drucken in der australischen Version](LocalFunctionality/Australia/how-to-print-income-statements.md)  
@@ -75,6 +72,5 @@ Wir empfehlen, die Einstellung **Löschen von Sachkonten blockieren** auf *Ja* e
 [Einrücken und Validieren des Kontenplans in der spanischen Version](LocalFunctionality/Spain/how-to-indent-and-validate-chart-of-accounts.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

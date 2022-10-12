@@ -1,20 +1,20 @@
 ---
 title: Info zu Planungsfunktionen
-description: Das Planungssystem in Dynamics 365 Business Central berücksichtigt sämtliche Bedarfs- und Vorratsdaten, saldiert die Ergebnisse und erstellt Vorschläge zum Ausgleichen des Vorrats, damit der Bedarf erfüllt werden kann.
-author: SorenGP
+description: Die Planung berücksichtigt sämtliche Bedarfs- und Vorratsdaten, saldiert die Ergebnisse und erstellt Vorschläge zum Ausgleichen des Vorrats, damit der Bedarf erfüllt werden kann.
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 5430
-ms.date: 07/16/2021
-ms.author: edupont
-ms.openlocfilehash: 029666cdfd0ad75d62eb21f6e719295c67d88ed1
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.date: 08/30/2022
+ms.author: bholtorf
+ms.openlocfilehash: df67568094e76dccbc62b9dbf6d78dc9c0e58caf
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9535423"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606964"
 ---
 # <a name="about-planning-functionality"></a>Info zu Planungsfunktionen
 
@@ -30,7 +30,7 @@ Weitere Informationen finden Sie unter [Designdetails: Beschaffungsplanung](desi
 Planung besteht aus zwei Elementen: Bedarf und Vorrat. Dieses beiden Elemente müssen einander angepasst werden, damit sichergestellt ist, dass der Bedarf rechtzeitig und kostengünstig erfüllt werden kann.  
 
 - Bedarf ist der Oberbegriff für jede Art von Bruttobedarf: beispielsweise Verkaufsauftrag, Serviceauftrag, Komponentenbedarf aus einem Montage- oder Fertigungsauftrag, ausgehende Umlagerung, Rahmenbestellung oder Absatzplanung. Darüber hinaus erlaubt die Anwendung einige technische Arten von Bedarf, - z. B. negative Fertigungsaufträge oder Einkaufsbestellungen, negative Lagerbestände und Einkaufsreklamationen.  
-- Vorrat ist der Oberbegriff für jede Art von Beschaffung: beispielsweise Einkaufsbestellung, Montageauftrag, Fertigungsauftrag oder eingehende Umlagerung. Entsprechend kann es negative Verkaufs- oder Serviceaufträge, negativen Komponentenbedarf oder negative Verkaufsreklamationen geben – alle diese Elemente entsprechen in gewisser Weise ebenfalls einem Vorrat.  
+- Vorrat bezieht sich auf jede Art von Beschaffung: beispielsweise Einkaufsbestellung, Montageauftrag, Fertigungsauftrag oder eingehende Umlagerung. Entsprechend kann es negative Verkaufs- oder Serviceaufträge, negativen Komponentenbedarf oder negative Verkaufsreklamationen geben – alle diese Elemente entsprechen ebenfalls einem Vorrat.  
 
 Außerdem hat das Planungssystem die Aufgabe sicherzustellen, dass der Lagerbestand nicht unnötig wächst. Im Fall eines abnehmenden Bedarfs wird das Planungssystem vorschlagen, dass vorhandene Ersatzaufträge zurückgestellt, mengenmäßig verringert oder storniert werden sollten.  
 
@@ -158,9 +158,12 @@ Auf der Seite **Anforderungsarbeitsblatt** sind die Artikel aufgelistet, die Sie
 
 - Sie können die Aktion **Spezialauftrag** verwenden, um die Anforderungsarbeitsblattszeilen zu füllen. Diese Aktion verwendet die Stapelverarbeitung **Aufträge holen**, um die Verkaufsauftragszeilen zu ermitteln, die für einen Spezialauftrag vorgesehen sind.
 
-Bestellvorschlagszeilen enthalten detaillierte Informationen über die Artikel, die wiederbestellt werden müssen. Sie können die Zeilen bearbeiten und löschen, um Ihren Bestellarbeitsblatt anzupassen, und Sie können die Zeilen auch mit der Stapelverarbeitung **Ereignismeldung durchführen** weiterverarbeiten.
+Bestellvorschlagszeilen enthalten detaillierte Informationen über die Artikel, die wiederbestellt werden müssen. Sie können die Zeilen bearbeiten und löschen, um Ihren Bestellarbeitsblatt anzupassen, und Sie können die Zeilen auch mit der Stapelverarbeitung **Ereignismeldung durchführen** weiterverarbeiten. 
 
 Einzelheiten zur Planung mit Standorten und Transfers finden Sie unter [Planen mit oder ohne Standorte](production-planning-with-without-locations.md).
+
+> [!TIP]
+> Auf den Seiten **Anforderungsarbeitsblatt** oder **Planungsarbeitsblatt** können Sie die Zeilen organisieren, indem Sie nach einem Spaltennamen sortieren. Dies ist auf der Seite Planungsarbeitsblatt besonders nützlich, da sie für mehrstufige Produktionsaufträge verwendet werden kann. Standardmäßig werden Zeilen nach **Art.-Nr.** sortiert. Um Positionen für einen mehrstufigen Auftrag zu gruppieren, sortieren Sie nach **Ref. Best.-Nr.** Feld Auch **MPS-Bestellung** und **Planungsebene** können dabei helfen, die Hierarchie der Zeilen anzuzeigen.
 
 ## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/plan-items-dynamics-365-business-central/)
 

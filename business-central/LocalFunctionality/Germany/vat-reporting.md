@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 11016, 11017, 11019, 11025, 11026, 11027, 11028
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 982baa7d162701b176eebde442676c31e83fea5c
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
+ms.openlocfilehash: a5a00250584b55f6ce55de8bd7a64fc9cfa491da
+ms.sourcegitcommit: b4da421c19c3aa3031b0344ec2829d2038be6642
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9362044"
+ms.lasthandoff: 10/03/2022
+ms.locfileid: "9617842"
 ---
 # <a name="vat-reporting-in-the-german-version"></a>MwSt.-Berichterstattung in der deutschen Version
 
@@ -25,7 +25,7 @@ Folgende lokale MwSt.-Erklärungen können gedruckt werden:
 
 |Bericht|Beschreibung|  
 |------------|---------------------------------------|  
-|**MwSt.-Abrechnung Meldung**|Eine einfache MwSt.-Erklärung. Die MwSt.-Abrechnung erfolgt mithilfe der ELSTER-Funktion. Die Beträge werden nach steuerpflichtiger Basis und steuerpflichtigem Betrag aufgeteilt.<br /><br /> Dient als Basis für die MwSt.-Erfassung für einen ausgewählten Zeitraum und wird gemäß der MwSt.-Abrechnung in der Tabelle MwSt.-Abrechnungszeile gedruckt.<br /><br /> Verwenden Sie diese Erklärung in Verbindung mit der MwSt.-Korrektur.|  
+|**MwSt.-Abrechnung Meldung**|Eine einfache MwSt.-Erklärung. Die MwSt.-Abrechnung erfolgt mithilfe der ELSTER-Funktion. Die Beträge werden nach steuerpflichtiger Basis und steuerpflichtigem Betrag aufgeteilt.<br /><br /> Dient als Basis für die MwSt.-Erfassung für einen ausgewählten Zeitraum und wird gemäß der MwSt.-Abrechnung in der Tabelle MwSt.-Abrechnungszeile gedruckt. Verwenden Sie **Datumstyp der Periode**, um den Datumstyp der Periode anzugeben, ab der MwSt.-Posten in der Stapelverarbeitung erfasst werden. Basierend auf Ihrer Auswahl kann die Aussage basieren auf **Buchungsdatum**, **Belegdatum** oder **MwSt.-Datum**.<br /><br /> Verwenden Sie diesen Bericht in Verbindung mit der MwSt.-Korrekturen.|  
 |**UVA Kontennachweis**|Bestätigt, dass Posten im MwSt.-Abrechnungsformular auch in Finanzbuchhaltungskonten gebucht werden.<br /><br /> Wählen Sie zur Überprüfung der MwSt. im Fenster Umsatzsteuervoranmeldung für das MwSt.-Abrechnungsformular und die Umsatzsteuervoranmeldung die gleichen Einstellungen aus.|  
 |**MwSt.-Abrechnung Schema**|Diese Erklärung kann auf der Seite **MwSt.-Abrechnung** abgerufen werden.<br /><br /> Druckt die Einstellungen in der MwSt.-Abrechnung. Druckt die Einstellungen in der MwSt.-Abrechnung. Mithilfe des Berichts können die Merkmale von **MwSt Kontennachweis** gedruckt werden.|  
 

@@ -1,6 +1,6 @@
 ---
 title: Einrichten von Druckern
-description: Informieren Sie sich über die Einrichtung von Druckern, die Sie für Berichte und Belege verwenden können, und über die verschiedenen Druckfunktionen, die Ihnen in Business Central zur Verfügung stehen.
+description: Informieren Sie sich über die Einrichtung von Druckern für Berichte und Belege und über die verschiedenen Druckfunktionen, die Ihnen in Business Central zur Verfügung stehen.
 author: jswymer
 ms.topic: conceptual
 ms.devlang: na
@@ -8,18 +8,18 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: online printing, email printing, cloud printing, Universal Print
 ms.search.form: 2650, 2750, 2752, 2753, 2754, 8900,
-ms.date: 06/24/2021
+ms.date: 09/22/2022
 ms.author: jswymer
-ms.openlocfilehash: c1b55f213ad738deb03a5f13afccbc8f4bac10b2
-ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
+ms.openlocfilehash: 07cda9c796a08436dc48d623f64fcc1252305a14
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "9585702"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607742"
 ---
 # <a name="set-up-printers"></a>Einrichten von Druckern
 
-Das Drucken von Dokumenten und Berichten aus [!INCLUDE[prod_short](includes/prod_short.md)] ist eine wichtige Aufgabe für Geschäftsanwender. Benutzer möchten normalerweise Druckaufträge direkt an einen der Drucker Ihres Unternehmens senden, egal welchen [!INCLUDE[prod_short](includes/prod_short.md)] Client oder welche App sie verwenden. Da [!INCLUDE[prod_short](includes/prod_short.md)] Online ein Cloud-Dienst ist, kann er lokale Drucker, die mit den Geräten der Benutzer verbunden sind, nicht direkt erreichen, aber eine Verbindung zu Cloud-fähigen Druckern herstellen.
+Das Drucken von Dokumenten und Berichten aus [!INCLUDE[prod_short](includes/prod_short.md)] ist eine wichtige Aufgabe für Geschäftsanwender. Sie möchten normalerweise Druckaufträge direkt an einen der Drucker Ihres Unternehmens senden, egal welchen [!INCLUDE[prod_short](includes/prod_short.md)] Client oder welche App Sie verwenden. Da [!INCLUDE[prod_short](includes/prod_short.md)] Online ein Cloud-Dienst ist, kann er lokale Drucker, die mit den Geräten der Benutzer verbunden sind, nicht direkt erreichen, aber eine Verbindung zu Cloud-fähigen Druckern herstellen.
 
 Um Ihre Druckanforderungen zu erfüllen, bietet [!INCLUDE[prod_short](includes/prod_short.md)] folgende Funktionen:
 
@@ -30,7 +30,7 @@ Um Ihre Druckanforderungen zu erfüllen, bietet [!INCLUDE[prod_short](includes/p
 |Browserdruck|Druckaufträge werden von der Druckfunktion des Browsers des Benutzers verarbeitet. Wenn ein Cloud-Drucker nicht installiert und eingerichtet ist oder wenn ein installierter Drucker ausfällt, werden beim Drucken standardmäßig die Druckoptionen des Browsers verwendet. Das Feld **Drucker** auf der Berichtsanforderungsseite zeigt *(Vom Browser gehandhabt)* an.|![Funktioniert online](media/check.png)|||
 
 > [!NOTE]
-> [!INCLUDE[prod_short](includes/prod_short.md)] unterstützt auch benutzerdefinierte Druckererweiterungen, die noch mehr Druckfunktionen hinzufügen. Wenn also benutzerdefinierte Druckererweiterungen installiert sind, enthält Ihre Anwendung möglicherweise Druckfunktionen, die in diesem Artikel nicht beschrieben werden. 
+> [!INCLUDE[prod_short](includes/prod_short.md)] unterstützt andere benutzerdefinierte Druckererweiterungen, die noch mehr Druckfunktionen hinzufügen. Wenn Sie also benutzerdefinierte Druckererweiterungen installiert haben, enthält Ihre Anwendung möglicherweise Druckfunktionen, die in diesem Artikel nicht beschrieben werden. 
 
 ## <a name="set-up-universal-print"></a>Universal Print einrichten
 
@@ -50,15 +50,16 @@ Für die vollständige Einrichtung müssen Sie in Microsoft Azure über das [Azu
 
 **Für [!INCLUDE[prod_short](includes/prod_short.md)]**
 
-- [!INCLUDE[prod_short](includes/prod_short.md)] 2021 Veröffentlichungszyklus 1 oder höher
-- Die Erweiterung **Universal Print-Integration** ist installiert
+- [!INCLUDE[prod_short](includes/prod_short.md)] 2021 Veröffentlichungszyklus 1 oder später.
+- Die Erweiterung **Universal Print-Integration** ist installiert.
 
-    Diese Erweiterung wird standardmäßig als Teil von [!INCLUDE[prod_short](includes/prod_short.md)] online und vor Ort veröffentlicht und installiert.  Sie können überprüfen, ob es auf der Seite **Erweiterungsverwaltung** installiert ist. Weitere Informationen finden Sie unter [Installieren und Deinstallieren von Erweiterungen in Business Central](ui-extensions-install-uninstall.md).
+    Diese Erweiterung wird standardmäßig als Teil von [!INCLUDE[prod_short](includes/prod_short.md)] online und vor Ort veröffentlicht und installiert. Sie können überprüfen, ob es auf der Seite **Erweiterungsverwaltung** installiert ist. Weitere Informationen erhalten Sie unter [Installieren und Deinstallieren von Erweiterungen in Business Central](ui-extensions-install-uninstall.md).
+
 - [!INCLUDE[prod_short](includes/prod_short.md)]-On-premises
-  - Azure Active Directory (AD) oder NavUserPassword-Authentifizierung ist konfiguriert
-  - Eine Anwendung für Business Central ist in Ihrem Azure AD-Mandanten und [!INCLUDE[prod_short](includes/prod_short.md)] registriert
+  - Azure Active Directory (AD) oder NavUserPassword-Authentifizierung ist konfiguriert.
+  - Eine Anwendung für Business Central ist in Ihrem Azure AD-Mandanten und [!INCLUDE[prod_short](includes/prod_short.md)] registriert.
 
-      Wie andere Azure-Dienste, mit denen [!INCLUDE[prod_short](includes/prod_short.md)] arbeitet, benötigt Universal Print eine App-Registrierung für [!INCLUDE[prod_short](includes/prod_short.md)] in Azure Active Directory (Azure AD). Die App-Registrierung bietet Authentifizierungs- und Autorisierungsdienste zwischen [!INCLUDE[prod_short](includes/prod_short.md)] und Universal Print.
+      Wie andere Azure-Dienste, mit denen [!INCLUDE[prod_short](includes/prod_short.md)] arbeitet, benötigt Universal Print eine App-Registrierung für [!INCLUDE[prod_short](includes/prod_short.md)] in Azure AD. Die App-Registrierung bietet Authentifizierungs- und Autorisierungsdienste zwischen [!INCLUDE[prod_short](includes/prod_short.md)] und Universal Print.
 
       Ihre Bereitstellung verwendet möglicherweise bereits eine App-Registrierung für andere Azure-Dienste, z. B. Power BI. Wenn ja, verwenden Sie auch die vorhandene App-Registrierung für Universal Print, anstatt eine neue hinzuzufügen. In diesem Fall müssen Sie lediglich die App-Registrierung so ändern, dass sie die relevanten Druckberechtigungen für die Microsoft Graph-API enthält.
 
@@ -68,7 +69,7 @@ Für die vollständige Einrichtung müssen Sie in Microsoft Azure über das [Azu
 
 - Ein Universal Print-Abonnement/eine Lizenz für Ihre Organisation
 
-    Weitere Informationen finden Sie unter [Universal Print lizenzieren](/universal-print/fundamentals/universal-print-license).
+    Erfahren Sie mehr unter [Universal Print lizenzieren](/universal-print/fundamentals/universal-print-license).
 
 - Sie verfügen über die Rollen **Druckerverwaltung** und **Globaler Administrator** in Azure.
 
@@ -94,7 +95,7 @@ Ausführliche Anweisungen zum Einrichten finden Sie unter [Erste Schritte: Unive
 
 2. Installieren Sie den Universal Print-Konnektor zum Registrieren von Druckern, die nicht direkt mit Universal Print kommunizieren können.
 
-    Die meisten marktüblichen Drucker können nicht direkt mit Universal Print kommunizieren. Sie müssen den Universal Print-Konnektor für diese Drucker installieren. Weitere Informationen finden Sie unter [Installieren des Universal Print-Konnektors](/universal-print/fundamentals/universal-print-connector-installation).
+    Die meisten Drucker auf dem Markt können nicht nicht direkt mit Universal Print kommunizieren, deshalb müssen Sie den Universal Print-Konnektor installieren. Weitere Informationen finden Sie unter [Installieren des Universal Print-Konnektors](/universal-print/fundamentals/universal-print-connector-installation).
 
 3. Registrieren Sie Ihre Drucker in Universal Print.
 
@@ -116,13 +117,13 @@ Ausführliche Anweisungen zum Einrichten finden Sie unter [Erste Schritte: Unive
 
     Jeder Drucker, in dem Sie [!INCLUDE[prod_short](includes/prod_short.md)] verwenden möchten, muss in Universal Print geteilt werden.
 
-    <!--For more information, see [Share a Printer](/universal-print/fundamentals/universal-print-printer-permissions#share-a-printer). -->
+    <!--Learn more at [Share a Printer](/universal-print/fundamentals/universal-print-printer-permissions#share-a-printer). -->
 
     Weitere Informationen finden Sie unter [Drucker freigeben](/universal-print/portal/share-printers).
 
 6. Geben Sie den Benutzern die Berechtigung für freigegebene Drucker.
 
-    <!--For more information, see [Printer Permissions](/universal-print/fundamentals/universal-print-printer-permissions#printer-permissions).-->
+    <!--Learn more at [Printer Permissions](/universal-print/fundamentals/universal-print-printer-permissions#printer-permissions).-->
 
     Weitere Informationen finden Sie unter [Druckerberechtigungen](/universal-print/portal/share-printers#configure-user-permissions-for-a-printer-share).
 
@@ -131,7 +132,7 @@ Ausführliche Anweisungen zum Einrichten finden Sie unter [Erste Schritte: Unive
 
     Universal Print rendert Inhalte für den Druck im XPS-Format. Einige ältere marktübliche Drucker unterstützen das Rendern von XPS-Inhalten in vielen Fällen nicht &mdash;, sondern nur das PDF-Format. Das Drucken auf diesen Druckern schlägt fehl, es sei denn, Universal Print ist so eingerichtet, dass Dokumente in das vom Drucker unterstützte Format konvertiert werden.
 
-    Weitere Informationen finden Sie unter [Dokumentkonvertierung – Übersicht](/universal-print/portal/document-conversion).
+    Erfahren Sie mehr unter[ Übersicht über die Dokumentkonvertierung ](/universal-print/portal/document-conversion).
 
 Jetzt können Sie die Drucker [!INCLUDE[prod_short](includes/prod_short.md)] hinzufügen, Standarddrucker für Berichte einrichten und drucken.  
 
@@ -143,7 +144,7 @@ Wenn Sie Drucker einzeln hinzufügen, können Sie denselben Universal Print-Druc
   
 <!-- To Do Adding printers individually lets you duplicate printers with custom , like different paper trays and paper size and orientation.  To add printers individually, you'll need to know printer's share name in Universal Print. -->
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Druckerverwaltung** ein, und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie das Symbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Druckerverwaltung** ein, und wählen Sie dann den entsprechenden Link.
 2. Klicken Sie auf **Universal Print**, und wählen Sie dann eine der folgenden Optionen aus:
 
     - **Alle Universal Print-Drucker hinzufügen**, um alle Drucker hinzuzufügen, die noch nicht hinzugefügt wurden. Sie können diese Option auch dann verwenden, wenn bereits Drucker hinzugefügt wurden. 
@@ -183,9 +184,9 @@ There is a technical problem withe the printer. Unsupported document-format: app
 
 ## You don't have access to the printer
 
-- You have not been assigned a Up license
+- You have not been assigned an UP license
 - You have not been given access to the printer in UP.
-- (On-prem) The app registration has been broken
+- (On-premises) The app registration has been broken.
 -->
 ## <a name="set-up-email-print"></a>E-Mail-Druck einrichten
 
@@ -194,14 +195,14 @@ There is a technical problem withe the printer. Unsupported document-format: app
 - [!INCLUDE[prod_short](includes/prod_short.md)] 2020 Veröffentlichungszyklus 1 oder höher
 - Erweiterung **E-Mail an Drucker senden** ist installiert
 
-    Diese Erweiterung wird standardmäßig eingerichtet. Informationen zum Installieren von Erweiterungen finden Sie unter 
+    Diese Erweiterung wird standardmäßig eingerichtet. Informationen zum Installieren von Erweiterungen finden Sie unter<!--see what?--> 
 - Die E-Mail-Funktionalität ist eingerichtet.
 
-   Weitere Informationen finden Sie unter [E-Mail einrichten](admin-how-setup-email.md).
+   Erfahren Sie mehr unter [E-Mail einrichten](admin-how-setup-email.md).
 
 ### <a name="add-an-email-printer"></a>Einen E-Mail-Drucker hinzufügen
 
-Die Seite **Druckerverwaltung** zeigt Drucker an, die eingerichtet sind. Die Seite gibt Ihnen auch Zugriff auf die Seite **Einstellungen** für jeden Drucker, um eine vorhandene Einrichtung zu bearbeiten oder einen neuen Drucker einzurichten.
+Die Seite **Druckerverwaltung** zeigt Drucker an, die derzeit eingerichtet sind. Die Seite gibt Ihnen auch Zugriff auf die Seite **Einstellungen** für jeden Drucker, um eine vorhandene Einrichtung zu bearbeiten oder einen neuen Drucker einzurichten.
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Druckerverwaltung** ein, und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie **E-Mail-Druck** und dann **Einen E-Mail-Drucker hinzufügen** aus.
@@ -216,8 +217,7 @@ Die Seite **Druckerverwaltung** zeigt Drucker an, die eingerichtet sind. Die Sei
 
 Wenn Sie die E-Mail-Drucker-Erweiterung verwenden, dann werden alle oder einige Druckaufträge an die E-Mail-Adresse gesendet wie bei der Konfiguration des Druckers angegeben. Wir empfehlen dringend, dass eine eindeutige E-Mail-ID an ein Druckergerät gebunden wird, das nur die offiziellen Dienste des Hardware-Herstellers nutzt, wie z.B. HP ePrint, KonicaMinolta EveryonePrint oder Epson E-Mail-Druck.
 
-Treffen Sie alle erforderlichen Datenschutzvorkehrungen, einschließlich der Sicherstellung, dass die E-Mail-Drucklösung über ordnungsgemäß konfigurierte Berechtigungen, Datenschutzeinstellungen und Aufbewahrungsrichtlinien verfügt. Es liegt in Ihrer Verantwortung, eine korrekte, verifizierte und funktionsfähige E-Mail-Adresse anzugeben. Weitere Informationen finden Sie unter [Microsoft-Datenschutzbestimmungen](https://privacy.microsoft.com/privacystatement).
-
+Treffen Sie alle erforderlichen Datenschutzvorkehrungen, einschließlich der Sicherstellung, dass die E-Mail-Drucklösung über ordnungsgemäß konfigurierte Berechtigungen, Datenschutzeinstellungen und Aufbewahrungsrichtlinien verfügt. Es liegt in Ihrer Verantwortung, eine korrekte, verifizierte und funktionsfähige E-Mail-Adresse anzugeben. Erfahren Sie mehr unter [Microsoft-Datenschutzbestimmungen](https://privacy.microsoft.com/privacystatement).
 
 ## <a name="set-up-default-printers"></a><a name="default"></a>Standarddrucker einrichten
 
@@ -250,14 +250,14 @@ Auf der Seite **Druckerauswahl** können Sie den Drucker angeben, den ein Berich
 Der angegebene Bericht ist jetzt so eingerichtet, dass er standardmäßig auf dem ausgewählten Drucker gedruckt wird.
 
 > [!NOTE]
-> Wenn Sie den betreffenden Bericht drucken, können Sie mit dem Feld **Drucken** auf der Anforderungsseite einen anderen auswählen.
+> Wenn Sie den betreffenden Bericht drucken, können Sie mit dem Feld **Drucken** auf der Berichtsanforderungsseite einen anderen auswählen.
 
 > [!NOTE]
 > Wenn Sie auf der Seite **Druckerauswahl** keinen Bericht für einen bestimmten Drucker einrichten, wird er auf dem Standarddrucker der Firma gedruckt, wie er auf der Seite **Druckerverwaltung** definiert ist.
 
-Sie oder der Administrator können auch die Seite **Druckerauswahl** verwenden, um andere Varianten des Druckens für Benutzer und Berichte zu definieren. Die folgende Tabelle beschreibt die Kombination von Werten zur Angabe verschiedener Druckeinstellungen für einen Bericht.
+Sie oder der Administrator können auch die Seite **Druckerauswahl** verwenden, um andere Varianten des Druckens für Benutzer und Berichte zu definieren. Die folgende Tabelle beschreibt die Kombination von Werten zur Angabe verschiedener Druckeinstellungensetups für einen Bericht.
 
-|Aktion                                                 |Stellen Sie die folgenden Werte ein                                             |
+|Bis                                                 |Stellen Sie die folgenden Werte ein                                             |
 |---------------------------------------------------|---------------------------------------------------------------------|
 |Einen Bericht für alle Benutzer auf einem bestimmten Drucker ausdrucken |Geben Sie Werte in den Feldern **Berichts-ID** und **Druckername** an und lassen Sie das Feld **Benutzer-ID** leer.|
 |Drucken aller Berichte auf einem bestimmten Drucker für einen bestimmten Benutzer|Geben Sie Werte in die Felder **Benutzer-ID** und **Druckername** ein und lassen Sie das Feld **Berichts-ID** leer. Dieser Eintrag macht dasselbe wie die Aktion **Als mein Standarddrucker festlegen** auf der Seite **Druckverwaltung**.|
@@ -270,7 +270,7 @@ Sie oder der Administrator können auch die Seite **Druckerauswahl** verwenden, 
 
 ### <a name="choosing-the-printer-when-running-a-report"></a>Auswählen des Druckers beim Ausführen eines Berichts
 
-Anstatt den Standarddrucker zu verwenden, wenn Sie einen Bericht ausführen, können Sie diese Einstellung auf der Anforderungsseite außer Kraft setzen. Wählen Sie einfach im Dropdown-Menü **Drucker** den Drucker aus, den Sie für diesen Berichtsaufruf verwenden möchten.
+Anstatt den Standarddrucker zu verwenden, wenn Sie einen Bericht ausführen, können Sie diese Einstellung auf der Anforderungsseite außer Kraft setzen. Wählen Sie einfach im Dropdown-Menü **Drucker** den Drucker aus, den Sie für diese Berichtsgenerierung verwenden möchten.
 
 ### <a name="sizing-print-jobs"></a>Größe von Druckaufträgen anpassen
 
@@ -284,6 +284,5 @@ Das Drucken in der Cloud ist für Dokumente mit einer angemessenen Größe vorge
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Ausführen von Stapelverarbeitungen](ui-how-run-batch-jobs.md)  
 [Dokumente per E-Mail versenden](ui-how-send-documents-email.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -3,21 +3,25 @@ title: Fertigungsauftrag erstellen
 description: Erfahren Sie, wie Sie eine Fertigungsstückliste erstellen, wie Sie neue Versionen einer Fertigungsstückliste erstellen und wie Sie die Mengenberechnungsformel verwenden.
 author: bholtorf
 ms.topic: conceptual
-ms.search.form: 9287, 99000786, 99000787, 99000788, 99000789, 99000795, 99000797, 99000800, 99000809, 99000811, 99000812, 99000818
+ms.search.keywords: production bom, bills of material,
+ms.search.form: 911, 912, 917, 9287, 99000786, 99000787, 99000788, 99000789, 99000795, 99000797, 99000800, 99000809, 99000811, 99000812, 99000818
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 07563e285e6806a1a2010446d4da65fd52c9ed16
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: ec8d20ac3f6e6e02471a9f86f35aee8c551df801
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516900"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607823"
 ---
 # <a name="create-production-boms"></a>Fertigungsauftrag erstellen
 
 In einer Fertigungsstückliste sind Stammdaten enthalten, mit denen die Komponenten und Unterbaugruppen beschrieben werden, die bei der Fertigung eines übergeordneten Artikels verwendet werden. Sobald ein Fertigungsauftrag für diesen übergeordneten Artikel erstellt wurde, wird über die entsprechende Fertigungsstückliste die Berechnung des Materialbedarfs gesteuert, die auf der Seite **Prod. Bestellkomponenten** dargestellt wird.
 
 [!INCLUDE[prod_short](includes/prod_short.md)] unterstützt auch Montagestücklisten. Montageaufträge werden für die Produktion von Endartikeln aus Komponenten in einem einfachen Prozess verwendet, der mit einer oder mehreren grundlegenden Ressourcen, die keine Maschinen oder Arbeitsplatzgruppen sind, oder ganz ohne Ressourcen durchgeführt werden kann. Beispielsweise könnte ein Montagevorgang lauten, zwei Weinflaschen und ein Paket Kaffee zu kommissionieren und sie als Geschenkartikel zu verpacken. Weitere Informationen finden Sie unter [Montagestücklisten oder Fertigungsstücklisten](inventory-how-work-boms.md#assembly-boms-or-production-boms).  
+
+> [!TIP]
+> Die App **Contoso Coffee Demodaten** enthält Demonstrationsprodukte für eine Vielzahl von Produktionsstücklistenszenarien, die in einer Testumgebung verwendet werden können, auch während einer Testversion. Erfahren Sie, wie Sie die Contoso Coffee Data  einrichten, und finden Sie exemplarische Vorgehensweisen für verschiedene Szenarien unter [Einführung in die Demodaten von Contoso Coffee](/contoso-coffee/contoso-coffee-intro.md).
 
 Bevor Sie einen Arbeitsplan erstellen können, muss Folgendes verfügbar sein:  
 
@@ -26,15 +30,15 @@ Bevor Sie einen Arbeitsplan erstellen können, muss Folgendes verfügbar sein:
 
 ## <a name="to-create-a-production-bom"></a>Erstellen Sie eine neue Fertigungsstückliste.
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Produktionsstückliste** ein und wählen Sie dann den zugehörigen Link.  
-2. Wählen Sie die Aktion **Neu** aus.  
-3. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+1. Wählen Sie das Symbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Produktionsstückliste** ein und wählen Sie dann den zugehörigen Link.  
+2. Wählen Sie die Aktion **Neu**.  
+3. Füllen Sie die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Wenn Sie die Fertigungsstückliste bearbeiten möchten, setzen Sie das Feld **Status** auf **Neu** oder **In Entwicklung**. Um den Arbeitsplan zu aktivieren, setzen Sie das Feld **Status** auf **Zertifiziert**.  
 
     So füllen Sie die Fertigungsstücklistenzeilen aus
 5. Wählen Sie im Feld **Art** aus, ob es sich bei dem Artikel in der Fertigungsstücklistenzeile um einen normalen Artikel oder um eine Fertigungsstückliste handelt. In diesem Fall muss die Fertigungsstückliste bereits als zertifizierte Fertigungsstückliste vorhanden sein.  
 6. Geben Sie im Feld **Nr.** den zu verwendenden Artikel bzw. die zu verwendende Fertigungsstückliste, und wählen Sie sie aus (bzw. geben Sie sie im Feld ein).  
-7. Geben Sie im Feld **Komponentenmenge** ein, wie viele Einheiten des Artikels zum übergeordneten Artikel gehören, z. B. 4 Räder für 1 Auto.  
+7. Geben Sie im Feld **Menge pro** ein, wie viele Einheiten des Artikels zum übergeordneten Artikel gehören, z. B. 4 Räder für 1 Auto.  
 8. Im Feld **Ausschuss %** können Sie einen festen Prozentsatz für die Komponenten eingeben, die im Fertigungsvorgang voraussichtlich als Ausschuss anfallen. Sobald die Komponenten in einem freigegebenen Fertigungsauftrag verbraucht werden können, wird dieser Prozentsatz auf einem Produktionsprotokoll im Feld **Verbrauchsmenge** zur erwarteten Menge addiert. Weitere Informationen finden Sie unter [Verbrauch und Ausgabe](production-how-to-register-consumption-and-output.md).  
 
     > [!NOTE]  
@@ -48,16 +52,16 @@ Bevor Sie einen Arbeitsplan erstellen können, muss Folgendes verfügbar sein:
 > [!NOTE]  
 > [!INCLUDE [bom-standard-cost](includes/bom-standard-cost.md)] Um den Einstandspreis für den Artikel über die Artikelkarte neu zu berechnen, wählen Sie die Aktion **Produktion** und wählen Sie dann **Stückl. Einst.-Preis berechnen** aus.  
 
-## <a name="to-create-a-new-versions-of-a-production-bom"></a>Neue Versionen von Fertigungsstücklisten erzeugen
+## <a name="to-create-a-new-version-of-a-production-bom"></a>Neue Versionen von Fertigungsstücklisten erzeugen
 
 Neue Versionen von Fertigungsstücklisten werden verwendet, wenn zum Beispiel ein Artikel durch einen anderen Artikel ersetzt wird oder wenn ein Debitor eine spezielle Version des Produkts anfordert. Das Versionsprinzip ermöglicht die Verwaltung verschiedener Versionen einer Fertigungsstückliste. Die Struktur der Fertigungsstücklistenversion entspricht der Struktur der Fertigungsstückliste. Der grundsätzliche Unterschied besteht in der zeitlichen Gültigkeit der Versionen. Die Gültigkeit wird durch das Startdatum definiert.  
 
 Das Startdatum bestimmt den Start der Periode, in welcher die Version gültig ist. In allen anderen Fällen ist das Startdatum ein Filterkriterium für Berechnungen und Prüfungen. Die Fertigungsstücklistenversion ist gültig, bis die nächste Version aufgrund ihres Startdatums gültig wird.  
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Produktionsstückliste** ein und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Produktionsstückliste** ein und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die zu kopierende Fertigungsstückliste, und wählen Sie die **Versionen** Aktion aus.  
-3. Wählen Sie die Aktion **Neu** aus.  
-4. Füllen Sie die Felder je nach Bedarf aus.
+3. Wählen Sie die Aktion **Neu**.  
+4. Füllen Sie die Felder nach Bedarf aus.
 5. Geben Sie im Feld **Versionscode** eine eindeutige Kennung der Version ein. Beliebige Kombinationen von Ziffern und Buchstaben können verwendet werden.  
 
     Die neu erstellte Version erhält automatisch den Status **Neu**.
@@ -72,7 +76,7 @@ Die zeitliche Gültigkeit der Version wird durch das **Startdatum** bestimmt.
 >
 > Phantomstücklisten ermöglichen die Strukturierung des Produkts. Diese Fertigungsstückliste führt niemals zu einem Fertigprodukt, sondern wird ausschließlich zur Ermittlung des abhängigen Bedarfs verwendet. Phantomstücklisten haben keinen Eintrag in den Artikelstammdaten.
 
-## <a name="quantity-calculation-formula-on-production-boms"></a>Mengen-Formel in Fertigungsstücklisten
+## <a name="quantity-calculation-formula-on-production-boms"></a>Mengenberechnungsformel in Fertigungsstücklisten
 
 Die Menge wird unter Berücksichtigung unterschiedlicher Dimensionen, die ebenfalls in die Zeilen Fertigungsstücklisten eingegeben werden, berechnet. Die Dimensionen beziehen sich auf eine Bestelleinheit des entsprechenden Artikels. Die Länge, Breite, Tiefe und das Gewicht können als Dimensionen eingegeben werden.  
 
@@ -96,13 +100,16 @@ In einer Fertigungsstückliste werden siebzig Metallteile mit den Abmessungen L�
 
 ## <a name="see-also"></a>Siehe auch
 
-[Routings erstellen](production-how-to-create-routings.md)   
+[Routings erstellen](production-how-to-create-routings.md)  
+[Produktvarianten verwalten](inventory-item-variants.md)  
+[Exemplarische Vorgehensweise: Varianten](/contoso-coffee/variants.md)  
 [Produktion einrichten](production-configure-production-processes.md)  
-[Produktion](production-manage-manufacturing.md)    
-[Planung](production-planning.md)   
+[Produktion](production-manage-manufacturing.md)  
+[Planung](production-planning.md)  
+[Arbeiten mit Stücklisten](inventory-how-work-BOMs.md)  
+[Arbeiten mit Montagestücklisten](assembly-how-work-assembly-boms.md)  
 [Bestand](inventory-manage-inventory.md)  
 [Einkauf](purchasing-manage-purchasing.md)  
-[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

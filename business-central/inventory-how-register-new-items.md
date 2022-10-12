@@ -1,6 +1,6 @@
 ---
 title: Erstellen von Elementkarten für Waren oder Dienstleistungen (enthält Video)
-description: Sie erstellen Artikelkarten für Dienstleistungen, die Sie als Stunden verkaufen, und für physische Produkte, wie Montage-Artikel, fertige Waren, die Sie aus Ihrem Bestand verkaufen.
+description: Sie erstellen Artikelkarten für Dienstleistungen, die Sie als Stunden verkaufen, und für physische Produkte. Beispiele hierfür sind Montageartikel und fertige Waren, die Sie aus Ihrem Bestand verkaufen.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item, item substitution
 ms.search.form: 30, 5717, 31, 32, 346, 9091, 5718, 5716, 5720, 1384, 1383, 35, 5404, 1378, 5719
-ms.date: 09/24/2021
+ms.date: 09/26/2022
 ms.author: edupont
-ms.openlocfilehash: 7af83072b6b20ba9b56c06c0fb7321707a425776
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 945197681e32f6d77ede2f1b0e727892a64d8277
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532916"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9604948"
 ---
 # <a name="register-new-items"></a>Neue Artikel registrieren
 
@@ -25,17 +25,18 @@ Artikelkarten verwahren die Informationen, die benötigt werden, um Artikel einz
 
 Gibt an, ob die Artikelkarte einen **Bestand**, **Service** oder **Nicht-Bestand** ist, wenn die Einheit eine physische Einheit ist, die nicht im Lagerbestand verfolgt wird. Weitere Informationen zu diesen Arten finden Sie unter [über Einheitstypen](inventory-about-item-types.md)
 
-Ein Artikel kann als übergeordneter Artikel mit zugrunde liegenden untergeordneten Elementen in Stücklisten (BOM) strukturiert werden. In [!INCLUDE[prod_short](includes/prod_short.md)] kann eine Stückliste entweder eine Montagestückliste oder eine Fertigungsstückliste sein, abhängig von dessen Verwendung. Weitere Informationen finden Sie unter [Mit Stücklisten arbeiten](inventory-how-work-BOMs.md).
+Ein Artikel kann als übergeordneter Artikel mit zugrunde liegenden untergeordneten Elementen in Stücklisten (BOM) strukturiert werden. Erfahren Sie mehr über Montagestücklisten und Produktionsstücklisten unter [Arbeiten mit Stücklisten ](inventory-how-work-BOMs.md).
 
 Wenn Sie den gleichen Artikel von mehr als einem Kreditoren einkaufen, können Sie die Kreditoren mit der Artikelkarte anschließen. Die Kreditoren erscheinen dann auf der Seite **Artikel/Kreditoren Katalog**, damit Sie einen alternativen Kreditor einfach auswählen können.
 
-Sie können Ihren Debitoren bestimmte Artikel als Dienstleistung anbieten, die Sie nicht im Lager verwalten möchten, bis Sie den Verkauf sie starten. Katalogelemente sollen nicht mit regulären Artikel der Art **Nicht-Lager** verwechselt werden. Weitere Informationen finden Sie unter [Arbeiten mit Katalogelementen](inventory-how-work-nonstock-items.md).  
+*Katalogartikel* sind Artikel, die Sie Ihren Debitoren anbieten, die Sie nicht in Ihrem System verwalten möchten, bis Sie den Verkauf starten. Katalogelemente sind keine regulären Artikel der Art **Nicht-Lager**. Erfahren Sie mehr unter [Mit Katalogelementen arbeiten ](inventory-how-work-nonstock-items.md).  
 
 > [!NOTE]  
 > Wenn für verschiedene Artikelarten Artikelvorlagen existieren, öffnet sich eine Seite, aus dem Sie eine entsprechende Artikelvorlage auswählen können, sobald eine neue Artikelkarte erstellt wird . Wenn nur eine Artikelvorlage vorhanden ist, verwenden neue Artikelkarten immer diese Vorlage.
 
 Im folgenden Verfahren wird erläutert, wie Sie eine Objektkarte von Grund auf neu erstellen. Sie können auch neue Objektkarten erstellen, indem Sie vorhandene kopieren. Weitere Informationen finden Sie unter [Kopieren Sie vorhandene Elemente, um neue Elemente zu erstellen](inventory-how-copy-items.md).  
 
+<br />
 > [!Video https://www.microsoft.com/videoplayer/embed/RE47eLx?rel=0]
 
 ## <a name="to-create-a-new-item-card"></a>So erstellen Sie eine neue Artikelkarte
@@ -86,11 +87,11 @@ Sie können Artikel so einrichten, dass sie über Ersatzartikel verfügen, z. B
 
 ### <a name="to-make-an-item-substitution"></a>So legen Sie einen Ersatzartikel für einen Artikel fest
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Elemente** ein, und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol einrichten möchten, geben Sie **Artikel** ein und wählen dann den entsprechenden Link.  
 2. Suchen Sie den entsprechenden Artikel, und klicken Sie dann auf die **Artikelnr.**, um die Artikelkarte zu öffnen.  
-3. Wählen Sie die Aktion **Zugehörig**, dann den **Artikel** und anschließend die Option **Ersatzartikel** aus, um die Seite „Ersatzartikel“ zu öffnen.  
+3. Wählen Sie die Aktion **Zugehörig**, dann den **Artikel** und anschließend die Option **Ersatzartikel** aus, um die Seite **Ersatzartikel** zu öffnen.  
 4. Wählen Sie das Feld **Ersatzartikelnr.** und dann den Ersatzartikel aus der Liste aus.
-5. Fahren Sie fort, um Felder auf der Seite bei Bedarf auszufüllen oder zu ändern.
+5. Füllen Sie die Felder auf der Seite bei Bedarf aus oder ändern Sie sie.
 
 Wenn die angeforderte Menge, beispielsweise in einer Verkaufszeile, die Menge überschreitet, die am Lager verfügbar ist, dann wird eine Meldung darüber angezeigt, dass Ersatzartikel vorhanden sind.
 
@@ -101,6 +102,8 @@ Wenn die angeforderte Menge, beispielsweise in einer Verkaufszeile, die Menge ü
 
 [!INCLUDE[inventory_variant](includes/inventory_variant.md)]
 
+Erfahren Sie mehr über Varianten unter [Produktvarianten verwalten](inventory-item-variants.md).  
+
 ## <a name="deleting-item-cards"></a>Löschen von Artikelkarten
 
 Wenn Sie eine Transaktion für einen Artikel gebucht haben, können Sie die Karte nicht löschen, da die Posten möglicherweise für die Bestandsbewertung oder die Prüfung erforderlich sind. Um Artikelkarten mit Posten zu löschen, wenden Sie sich an einen Microsoft-Partner, um dies über einen Code durchzuführen.  
@@ -109,7 +112,7 @@ Wenn Sie eine Transaktion für einen Artikel gebucht haben, können Sie die Kart
 
 Wenn Sie einen neuen Artikel erfassen, werden Felder angezeigt, die sich auf die Lagerverwaltung beziehen, insbesondere im Inforegister **Lager**. Wenn Ihre Organisation die Lagerverwaltungsfunktionen in [!INCLUDE [prod_short](includes/prod_short.md)] nicht verwendet, können Sie diese Felder ignorieren.  
 
-Wenn Ihre Organisation später die Lagerverwaltung einrichtet, müssen Sie in den meisten Fällen zu jedem vorhandenen Artikel zurückkehren, um sicherzustellen, dass zu diesem die richtigen Informationen in den verschiedenen Feldern vorhanden sind, damit die Lagerprozesse wie erwartet ausgeführt werden können. Diese Informationen können Felder wie **Lagerklassencode** oder **Einlagerungsvorlagencode** umfassen. Weitere Informationen finden Sie unter [Designdetails: Lagerhaus einrichten](design-details-warehouse-setup.md).  
+Wenn Ihre Organisation später eine Lagerverwaltung einrichtet, empfehlen wir Ihnen sicherzustellen, dass jeder vorhandene Artikel die richtigen Informationen in den verschiedenen Feldern enthält. Auf diese Weise können die Lagerprozesse wie erwartet ablaufen. Die Informationen können Felder wie **Lagerklassencode** oder **Einlagerungsvorlagencode** umfassen. Weitere Informationen finden Sie unter [Designdetails: Lagerhaus einrichten](design-details-warehouse-setup.md).  
 
 ## <a name="planning"></a>Planung
 
@@ -123,7 +126,8 @@ Beispiele für die Verwendung der Felder auf der Inforegisterkarte **Planung** f
 
 [Bestand](inventory-manage-inventory.md)  
 [Einheiten einrichten](inventory-how-setup-units-of-measure.md)  
-[Zollpositionen](finance-how-setup-report-intrastat.md#tariff-numbers)  
+[Produktvarianten verwalten](inventory-item-variants.md)  
+[Intrastat-Berichte einrichten](finance-how-setup-report-intrastat.md#other-intrastat-configurations)  
 [Abstimmen der Lagerkosten mit der Finanzbuchhaltung](finance-how-to-post-inventory-costs-to-the-general-ledger.md)  
 [Erstellen von Nummernkreisen](ui-create-number-series.md)  
 [Buchungsgruppen einrichten](finance-posting-groups.md)  

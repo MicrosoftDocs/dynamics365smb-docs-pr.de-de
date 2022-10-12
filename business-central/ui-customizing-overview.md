@@ -10,12 +10,12 @@ ms.search.keywords: personalize, add-in, extend, customize
 ms.search.form: 2500, 2502
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 877e4bf26b0af7675fe71f791e0bfe53159b9d70
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 1feffa480e3bdf6236801e666646ea5aaddd8876
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9533078"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606089"
 ---
 # <a name="customize-business-central"></a>Anpassen von Business Central
 
@@ -29,7 +29,8 @@ Es gibt unterschiedliche Arten, die Anwendung anzupassen, um Ihnen und Ihren Kol
 |Ändern Sie den Arbeitsbereich der Benutzer, indem Sie die zugewiesene Rolle anpassen.|Erfahren Sie, wie Sie die Benutzeroberfläche für ein Profil (eine Rolle) ändern, sodass allen Benutzern, die diese Rolle zugewiesen haben, ein benutzerdefinierter Arbeitsbereich angezeigt wird. Steuern und verwalten Sie Benutzeranpassungen, indem Sie die Möglichkeit deaktivieren, dass Benutzer Seiten anpassen und sämtliche Seitenanpassungen mit Personalisierungen löschen.|Alle Benutzer in einem bestimmten Unternehmen.|[Seiten für Profile anpassen](ui-personalization-manage.md)|
 |Ändern, welche Benutzeroberflächenelementen sichtbar sind.|Die Einstellung **Erfahrung** bestimmt, wie viel der Funktionen der Benutzeroberfläche angezeigt wird. Wählen Sie zwischen Essential und Premium aus.|Alle Benutzer in einem bestimmten Unternehmen.|[Funktionen, die angezeigt werden ändern](ui-experiences.md)|
 |Aktiveren Sie Farben in Rollencentern, um die Bedeutung zu signalisieren.|Richten Sie Stapel ein, die in den Rollencentern des Benutzers mit einem Indikator angezeigt werden, dessen Farbe sich basierend auf den Werten in den Stapeln ändert.|Alle Benutzer in einem bestimmten Unternehmen.|[Einrichten eines farbigen Indikators auf Stapeln des Rollencenters](admin-how-set-up-colored-indicator-on-cues.md)|
-|Erweiterung installieren|Erweiterung sind wie kleine Anwendungen, die Funktionalität hinzufügen, Verhalten ändern, Zugriff auf neuen Onlinediensten bereitstellen und vieles mehr. Beispielsweise bietet Microsoft eine Erweiterung an, die die Integration mit PayPal Payments Standard ermöglicht.|Alle Benutzer in allen Mandanten.|[Erweiterungen nutzen anpassen](ui-extensions.md)|
+|Installieren einer App|Installieren Sie Apps, die Funktionalität hinzufügen, Verhalten ändern, Zugriff auf neuen Onlinediensten bereitstellen und vieles mehr. Beispielsweise bietet Microsoft eine App an, die die Integration mit PayPal Payments Standard ermöglicht.|Alle Benutzer in allen Mandanten.|[Anpassen mit Apps](ui-extensions.md)|
+
 > [!NOTE]
 > Alle Funktionsbeschreibungen in der Dokumentation behandeln [!INCLUDE[prod_short](includes/prod_short.md)] die **Premium**-Umgebung, decken also den gesamten Umfang der Benutzeroberflächenelemente ab. Daher können Benutzer mit der **Essential**-Umgebung in einigen Themen Informationen zu Funktionen und Benutzeroberflächenelementen finden, die in der Benutzeroberfläche nicht sichtbar sind. Weitere Informationen finden Sie unter [Ändern, welche Funktionen angezeigt werden](ui-experiences.md).
 

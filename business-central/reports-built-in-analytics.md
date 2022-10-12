@@ -9,29 +9,28 @@ ms.workload: na
 ms.search.keywords: feature overview
 ms.date: 02/03/2022
 ms.author: edupont
-ms.openlocfilehash: a56d6f2846abc934f611cd1c918cd5a3cc56b5fb
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 8968c050701871f610c051432229f88f73804f32
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137094"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607769"
 ---
 # <a name="built-in-analytics"></a>Integrierte Analysen
 
-[!INCLUDE[prod_short](includes/prod_short.md)] enthält eine Reihe von Funktionen, die es Ihnen erlauben, Daten in einem aggregierten Formular zu analysieren. Vielleicht möchten Sie finanzielle KPIs verfolgen oder Finanzberichte in Excel analysieren.
+[!INCLUDE[prod_short](includes/prod_short.md)] enthält einige Funktionen, die es Ihnen erlauben, Daten in einem aggregierten Formular zu analysieren. Diese Funktionalität ist nützlich, wenn Sie beispielsweise finanzielle Leistungskennzahlen (KPIs) verfolgen oder Finanzberichte in Microsoft Excel analysieren möchten. Unten finden Sie Links, die Ihnen helfen, zu lernen, wie man es verwendet.
 
-| Aktion | Siehe |
+| Bis | Siehe |
 | --- | --- |
 |Verschaffen Sie sich einen Überblick über KPIs wie Bargeldverfügbarkeit, Umsatzrentabilität, Nettoeinkommen oder Bestandswert | [Intelligente Einblicke](about-intelligent-cloud.md) |
 |Analysieren Sie Daten mit integrierten Power BI-Berichten. | [Arbeiten mit Power BI Berichten](across-working-with-powerbi.md) |
-|Analysieren Sie Finanzdaten in Echtzeit mit Kontenschemata und Analyseansichten.| [Finanzielle Analysen](bi.md) |
+|Analysieren Sie Finanzdaten in Echtzeit mit Finanzberichten und Analyseansichten.| [Finanzielle Analysen](bi.md) |
 |Analysieren Sie Finanzberichte mit Excel | [Analysieren von Finanzauszügen mit Excel](finance-analyze-excel.md) |
 |Analysieren Sie Finanzdaten über mehrere Firmen hinweg | [Finanzdaten von mehreren Firmen konsolidieren](finance-consolidated-company-reporting.md) |
 |Erhalten Sie Insights darüber, welche Berichte die Benutzer verwenden| [Telemetrie der Berichtsnutzung](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)|
 
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-also"></a>Siehe auch
 
 [Übersicht über Business Intelligence und Reporting](reports-use-reports.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: version
-ms.date: 06/08/2022
+ms.date: 08/23/2022
 ms.author: jswymer
-ms.openlocfilehash: 05ff8b9acb0c69f42c8ad36ab8a588c9b597424a
-ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
+ms.openlocfilehash: 34fc581e0140826e957b50b649d3b72573403552
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/12/2022
-ms.locfileid: "8950436"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607688"
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Mindestanforderungen für die Nutzung von Business Central
 
@@ -41,9 +41,6 @@ Bevor Sie auf [!INCLUDE[prod_short](includes/prod_short.md)] online zugreifen, e
 
 **Outlook-Anwendungen:** Um [!INCLUDE[prod_short](includes/prod_short.md)] online als Ihren Unternehmensposteingang in Outlook zu verwenden, benötigen Sie Outlook 2019 oder höher, Outlook im Web, Outlook für iOs oder Outlook Android. Ihre Organisation muss auch Microsoft 365 verwenden. Sie können [!INCLUDE[prod_short](includes/prod_short.md)] online nicht als Ihr Geschäftseingang in Outlook verwenden, wenn Ihre Organisation Exchange Server lokal verwendet. 
 
-> [!IMPORTANT]
-> Ab Business Central 2021, Veröffentlichungszyklus 2, können Sie sich nicht mehr über Outlook-Versionen vor 2012 beim Business Central-Add-In anmelden.
-  
 **Browser:** Wenn Sie [!INCLUDE[prod_short](includes/prod_short.md)] als Ihren geschäftlichen Posteingang in Outlook in einem Browser verwenden, erfordert das Add-In, dass auf Ihrem Computer einer der aufgeführten unterstützten Browser ausgeführt wird, die zuvor in diesem Artikel aufgeführt wurden.
 
 **Plattformen:** Wenn Sie das [!INCLUDE[prod_short](includes/prod_short.md)] Outlook-Add-In in Outlook für iOs oder Outlook für Android verwenden, setzt das Add-In voraus, dass auf Ihrem mobilen Gerät eines der aufgeführten unterstützten mobilen Geräte für [!INCLUDE[prod_short](includes/prod_short.md)] läuft.  
@@ -61,9 +58,6 @@ Bevor Sie auf [!INCLUDE[prod_short](includes/prod_short.md)] online zugreifen, e
 ## <a name="excel"></a>Excel
 
 **Bearbeiten in Excel:** Um Excel-Add-Ins zu verwenden, um Änderungen in Excel vorzunehmen und die Änderungen zurück zu ändern in [!INCLUDE[prod_short](includes/prod_short.md)]benötigen Sie Excel 2019 oder später. Weitere Informationen finden Sie unter [Finanzauswertungen analysieren Microsoft Excel](finance-analyze-excel.md).  
-
-> [!IMPORTANT]
-> Ab Business Central 2021, Veröffentlichungszyklus 2, unterstützt die Excel-Add-In-Funktion nur die Excel-Version 2012 oder höher.
 
 ## <a name="using-the-business-central-administration-center"></a><a name="TAC"></a> Business Central Admin Center verwenden
 

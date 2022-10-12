@@ -1,21 +1,21 @@
 ---
 title: Eine Lieferantenkarte erstellen, um einen neuen Lieferanten zu registrieren (enthält ein Video)
 description: Erfahren Sie, wie Sie eine Kreditorenkarte erstellen, um einen neuen Kreditor oder Lieferanten zu registrieren und Kreditorenkarten als Vorlage zu speichern.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: supplier
 ms.search.form: 26, 27, 34, 461, 786, 1379, 1385, 1386, 1628
-ms.date: 07/04/2022
-ms.author: edupont
-ms.openlocfilehash: e5fac9d278d289f6526d544324adcc8f5ce3185a
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.date: 09/05/2022
+ms.author: bholtorf
+ms.openlocfilehash: ca4cca577b8105ddbf2625715a1585df2bb7b20d
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532039"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606640"
 ---
 # <a name="register-new-vendors"></a>Registriert einen neuen Kreditor
 
@@ -41,6 +41,10 @@ Nachdem Sie eine Vorlage erstellt haben, können Sie die Aktion **Vorlage anwend
 > Es kann hilfreich sein, die Seite **Lieferantenvorlage** zu personalisieren, wenn Sie eine Vorlage erstellen. So können Sie beispielsweise ein Feld hinzufügen, das auf der Seite noch nicht angezeigt wird. Weitere Informationen finden Sie unter [Personalisieren Sie Ihren Arbeitsbereich](/dynamics365/business-central/ui-personalization-user#to-start-personalizing-a-page-through-the-personalizing-banner).
 
 Sie können einen Kreditor auch aus einem Kontakt erstellen. Weitere Informationen finden Sie unter [Erstellen eines Kunden, Kreditors, Mitarbeiters oder Bankkontos über einen Kontakt](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).
+
+Überweisungsadressen werden verwendet, wenn Sie Schecks drucken, um Ihre Lieferanten zu bezahlen, und Lieferanten können mehrere Überweisungsadressen für Zahlungen haben. Beispielsweise könnte ein Lieferant einen Artikel von einer Tochtergesellschaft liefern, möchte aber die Zahlung in deren Hauptsitz erhalten. Mit [!INCLUDE [prod_short](includes/prod_short.md)] können Sie mehrere Postanschriften für jeden Anbieter einrichten und den richtigen Ort auswählen, an den Zahlungen Rechnung für Rechnung gesendet werden sollen.
+
+Sie geben Empfängeradressen auf den Seiten der Lieferantenkarte und auf dem Inforegister Versand und Zahlungen für Bestellungen und Rechnungen an. Wenn Sie Zahlungserfassungszeilen mit den Aktionen „Kreditor bezahlen“ oder „Zahlung erstellen“ auf der Seite „Kreditorenliste“ oder der Seite „Kreditorenkarte“ oder mit der Aktion „Posten anwenden“ in einer Zahlungserfassung erstellen, wird der Überweisungscode im Kreditorenbucheintrag zugewiesen. Sie können diesen Wert überschreiben.
 
 ### <a name="to-create-a-new-vendor"></a>So erstellen Sie einen neuen Kreditor
 

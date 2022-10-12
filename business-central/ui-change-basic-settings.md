@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date, decimal separator
 ms.search.form: 9022, 9019, 9027, 9020, 9026, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
-ms.date: 10/01/2021
+ms.date: 08/31/2022
 ms.author: jswymer
-ms.openlocfilehash: 36bf0ca4de4fb7caef9c26ae60ed6013387adca4
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: de393807ae00efb5bc01a5f6c1fb0be8e98fdf36
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9528652"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606062"
 ---
 # <a name="change-basic-settings"></a>Ändern von grundlegenden Einstellungen
 
@@ -29,42 +29,49 @@ Die Rolle bestimmt die Homepage, eine Startseite, die für die Anforderungen der
 
 * Oben erlaubt es Ihnen die Navigation, zwischen Debitoren, Kreditoren, Artikeln sowie anderen wichtigen Listen von Informationen zu wechseln. Ebenso können Sie Aufgaben einleiten, wie eine neue Verkaufsrechnung direkt auf der Homepage zu erstellen.
 
-* In der Mitte finden Sie die **Aktivitäten** Bereich, in dem aktuelle Daten angezeigt werden und auf den Sie klicken oder tippen können, um detailliertere Informationen anzuzeigen. Die zentralen Leistungs-Indikatoren können eingerichtet werden, um ein ausgewähltes Diagramm für eine visuelle Darstellung anzuzeigen, zum Beispiel, Cashflow oder Einnahmen und Ausgaben. Sie können eine Liste von Lieblingsdebitoren auf der Homepage auch für Geschäftskonten einrichten, mit denen Sie häufig Geschäfte tätigen oder besondere Aufmerksamkeit geben müssen.
+* In der Mitte finden Sie die **Aktivitäten** Bereich, in dem aktuelle Daten angezeigt und ausgewählt werden können, um detailliertere Informationen anzuzeigen. Die zentralen Leistungs-Indikatoren können eingerichtet werden, um ein ausgewähltes Diagramm für eine visuelle Darstellung anzuzeigen, zum Beispiel, Cashflow oder Einnahmen und Ausgaben. Sie können eine Liste von Lieblingsdebitoren auf der Homepage auch für Geschäftskonten einrichten, mit denen Sie häufig Geschäfte tätigen oder besondere Aufmerksamkeit geben müssen.
 
-### <a name="to-change-the-role"></a>So ändern Sie die Rolle
+### <a name="change-the-role"></a>Die Rolle ändern
 
 Das Standardrollencenter ist der **Geschäftsführer**, aber Sie können eine andere Rolle auswählen, um das Rollencenter zu nutzen, dass besser mit Ihren Anforderungen übereinstimmt.  
 
 1. Wählen Sie in der oberen rechten Ecke das Symbol **Einstellungen** ![Einstellungen.](media/ui-experience/settings_icon_small.png "Einstellungssymbol für Rollenzentrum") und dann die Aktion **Meine Einstellungen**.
 2. Wählen Sie auf der Seite **Meine Einstellungen** im Feld **Rollencenter** das Rollencenter aus, das Sie als den Standard festlegen möchten. Wählen Sie beispielsweise **Buchhalter/in** aus.
-3. Wählen Sie die Schaltfläche **OK** aus.
+3. Wählen Sie **OK** aus.
 
 ## <a name="company"></a><a name="company"></a>Unternehmen
 
-Ein Unternehmen dient als Container für Daten im Project [!INCLUDE[prod_short](includes/prod_short.md)] Es kann mehrere Unternehmen in einer Datenbank geben, aber nur eine kann gleichzeitig ausgewählt werden.
+Ein Unternehmen dient als Container für Daten im Project [!INCLUDE[prod_short](includes/prod_short.md)] Es kann mehrere Unternehmen in einer Datenbank geben, aber nur eine kann gleichzeitig ausgewählt werden. Der Standardmandant wird CRONUS bezeichnet und enthält nur Demodaten enthält.
+
+Das Feld **Unternehmen** zeigt das Unternehmen, in dem Sie derzeit arbeiten, und Sie können es verwenden, um zu einem anderen Unternehmen zu wechseln. Der Firmenname wird immer in der oberen linken Ecke angezeigt und fungiert als Aktion, die Sie auswählen können, um zum Rollencenter zurückzukehren.
+
+> [!TIP]
+> Sie können die Firma auch ändern, indem Sie den Firmenumschalter (Strg+O) verwenden. Weitere Informationen zu dieser Funktion und anderen Möglichkeiten zum Ändern des Unternehmens oder der Umgebung finden Sie unter [Wechsel zu einem anderen Unternehmen oder einer anderen Umgebung](ui-organization-switch.md).
 
 Der Standardmandant wird CRONUS bezeichnet und enthält nur Demodaten enthält. Sie können eine neue Firma mit benutzerdefinierten Daten erstellen. Weitere Informationen finden Sie unter [Neue Mandanten erstellen](about-new-company.md).
 
-### <a name="to-change-the-company-name"></a>Um den Firmennamen zu ändern
+<!--
+### To change the company name
 
-Der Firmenname wird immer in der oberen linken Ecke angezeigt und fungiert als Aktion, die Sie auswählen können, um zum Rollencenter zurückzukehren. Diesen Namen können Sie auf der Seite **Firmeninformation** ändern.
+The company name is always displayed at the top left corner and works as an action that you can choose to go back to the Role Center. You can change this name on the **Company Information** page.
 
-1. Wählen Sie das Symbol ![, um das Menü „Einstellungen“ zu öffnen.](media/ui-experience/settings_icon_small.png) Symbol, und wählen Sie dann die Aktion **Unternehmensdaten**.
-2. Geben Sie im Feld **Namen** den neuen Namen des Unternehmens ein.
-3. Verlassen Sie die Seite. Das System startet neu und zeigt die neue Firma in der oberen linken Ecke an.
+1. Choose the ![Sprocket icon to open the Settings menu.](media/ui-experience/settings_icon_small.png) icon, and then choose the **Company Information** action.
+2. In the **Name** field, enter the new company name.
+3. Leave the page. The system restarts and displays the new company in the top-left corner.
 
-### <a name="to-display-a-company-badge-for-quick-access-to-company-information"></a><a name="badge"></a>Anzeigen eines Firmenausweises für den schnellen Zugriff auf Unternehmensinformationen
+### <a name="badge"></a>To display a company badge for quick access to company information
 
-In der oberen rechten Ecke können Sie ein benutzerdefiniertes Abzeichen hinzufügen, mit dem Sie schnell Informationen zu Firmennamen und Mandanten in einem Popup-Fenster anzeigen können. Das Firmenabzeichen ist auch nützlich, wenn [!INCLUDE[prod_short](includes/prod_short.md)] in eine andere Anwendung eingebettet ist, wie Microsoft Teams oder in einer anderen Webanwendung. In diesen Fällen dient, weil die [!INCLUDE[web_client](includes/web_client.md)] weniger umgebende Kontextinformationen anzeigt, das Firmenabzeichen als einzige Möglichkeit, um festzustellen, zu welchem Unternehmen oder welcher Umgebung ein Datensatz gehört.
+You can add a customized badge in the top-right corner, which you can choose to quickly view company name and tenant information in a pop-up box. The company badge is also useful when [!INCLUDE[prod_short](includes/prod_short.md)] is embedded in another application, like Microsoft Teams or in some other web application. In these cases, because the [!INCLUDE[web_client](includes/web_client.md)] displays less surrounding contextual information, the company badge serves as the only way to determine which company or environment a record belongs to.
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen") Symbol. Geben Sie **Unternehmensdaten** ein, und wählen Sie dann den zugehörigen Link.
-2. Füllen Sie im Inforegister **Unternehmenskennkarte** die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information**, and then choose the related link.
+2. On the **Company Badge** FastTab, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
 
 > [!NOTE]
-> Wenn ein Firmenausweis definiert ist, können Sie den Firmennamen nicht wie beschrieben in [Um Firmennamen zu ändern](ui-change-basic-settings.md#to-change-the-company-name) ändern
+> If a company badge is defined, then you cannot change the company name as described in [To change the company name](ui-change-basic-settings.md#to-change-the-company-name)-->
 
 ## <a name="work-date"></a><a name="work-date"></a>Arbeitsdatum
-Das am häufigsten verwendete Arbeitsdatum ist das heutige Datum. Um Aufgaben wie das Abschließen von Transaktionen für ein Datum auszuführen, das nicht das aktuelle Datum ist, müssen Sie vielleicht vorübergehend das Arbeitsdatum ändern.
+
+Das am häufigsten verwendete Arbeitsdatum ist das heutige Datum. Um Aufgaben wie das Abschließen von Transaktionen für ein Datum auszuführen, das nicht das aktuelle Datum ist, müssen Sie vielleicht vorübergehend das Datum ändern.
 
 > [!TIP]  
 > Geben Sie in alle Datumsfelder Folgendes ein **t** ein, um das heutige Datum schnell einzugeben, geben Sie Folgendes ein **w** um schnell das Arbeitsdatum einzugeben, das der Wert im Feld **Arbeitsdatum** auf der Seite **Meine Einstellungen** ist.
@@ -84,7 +91,7 @@ Wenn das Arbeitsdatum nicht auf den aktuellen Tag (heute) festgelegt ist, wird d
 
 ## <a name="region"></a><a name="region"></a> Region
 
-Die Einstellung **Region** bestimmt, wie Daten, Uhrzeiten, Ziffern und Währungen angezeigt oder formatiert werden. Sie legt auch fest, welches Zeichen als Dezimaltrennzeichen verwendet wird, wenn Sie eine numerische Tastatur zur Eingabe von Daten verwenden. Weitere Informationen finden Sie unter [Eingabe von Daten](ui-enter-data.md#decimal).
+Die Einstellung **Region** bestimmt, wie Daten, Uhrzeiten, Ziffern und Währungen angezeigt oder formatiert werden. Sie legt auch fest, welches Zeichen als Dezimaltrennzeichen verwendet wird, wenn Sie eine numerische Tastatur zur Eingabe von Daten verwenden. Erfahren Sie mehr unter [Daten eingeben](ui-enter-data.md#decimal).
 
 ## <a name="language"></a><a name="language"></a> Sprache
 
@@ -100,7 +107,7 @@ Definiert die Zeitzone, in der Sie sich befinden. Wenn Sie sich zum ersten Mal b
 
 ## <a name="notifications"></a>Benachrichtigungen
 
-Wählen Sie den Link *Ändern, wann ich Benachrichtigungen erhalte*, um Benachrichtigungen zu ändern oder anzuzeigen, die Sie zu bestimmten Ereignissen oder Veränderungen im Status erhalten, wie wenn Sie einen Debitoren fakturieren wollen, der einen überfälligen Saldo hat oder der verfügbare Lagerbestand geringer ist als die Menge, die Sie verkaufen wollen. Weitere Informationen finden Sie unter [Benachrichtigungen verwalten](ui-smart-notifications.md).
+Wählen Sie den Link *Ändern, wann ich Benachrichtigungen erhalte*, um Benachrichtigungen zu ändern oder anzuzeigen, die Sie zu bestimmten Ereignissen oder Veränderungen im Status erhalten, wie wenn Sie einen Debitoren fakturieren wollen, der einen überfälligen Saldo hat oder der verfügbare Lagerbestand geringer ist als die Menge, die Sie verkaufen wollen. Erfahren Sie mehr unter [Verwalten von Benachrichtigungen](ui-smart-notifications.md).
 
 ## <a name="teaching-tips"></a>Unterrichtstipps
 
@@ -110,8 +117,8 @@ Wählen Sie den Link *Ändern, wann ich Benachrichtigungen erhalte*, um Benachri
 
 ## <a name="see-also"></a>Siehe auch
 
-[Neue Unternehmen anlegen](about-new-company.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Ändern, welche Funktionen angezeigt werden](ui-experiences.md)  
+[Neue Unternehmen anlegen](about-new-company.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -6,12 +6,12 @@ ms.topic: conceptual
 ms.search.form: 4
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2ad055bef260d732c9f7732c094f660704f6acdf
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: e6b242bc3da6a2845c457cfbfcfaf80e6c71d31d
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135984"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9605110"
 ---
 # <a name="set-up-payment-terms"></a>Zahlungsbedingungen einrichten
 
@@ -35,7 +35,7 @@ Weisen Sie die Zahlungsbedingungen den Debitoren und Kreditoren zu, nachdem Sie 
 > [!TIP]
 > In der Basisversion von [!INCLUDE [prod_short](includes/prod_short.md)] werden Zahlungsbedingungen mit Teilzahlungen nicht unterstützt. Stattdessen müssen Sie die Vorauszahlungsfunktion verwenden. Weitere Informationen finden Sie unter [Einrichten von Vorauszahlungen](finance-set-up-prepayments.md).
 >
-> In bestimmten Ländern *können* Sie Zahlungsbedingungen mit Teilzahlungen einrichten. Informationen dazu, ob diese Funktion in Ihrem Land unterstützt wird, finden Sie im Abschnitt **Lokale Funktionalität** im Navigationsbereich auf der linken Seite auf der Seite [Docs.microsoft.com](about-localization.md).
+> In bestimmten Ländern *können* Sie Zahlungsbedingungen mit Teilzahlungen einrichten. Informationen dazu, ob diese Funktion in Ihrem Land unterstützt wird, finden Sie im Abschnitt **Lokale Funktionalität** im Navigationsbereich auf der linken Seite auf der Seite [Microsoft Learn](about-localization.md).
 
 ## <a name="see-also"></a>Siehe auch
 

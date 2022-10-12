@@ -8,38 +8,35 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview
 ms.reviewer: edupont
-ms.date: 02/03/2022
+ms.date: 09/22/2022
 ms.author: kepontop
-ms.openlocfilehash: 7da9d24f805c273c67cf856e6a1a835e18686b83
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 4ae58b37d42d501142ebfa617da79266d5d8a9b1
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9528679"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607860"
 ---
 # <a name="business-intelligence-and-reporting-overview"></a>Überblick über Business Intelligence und Berichte
 
-Kleine und mittelständische Unternehmen setzen auf integrierte Analyse- und Berichtsfunktionen, die sie sofort nutzen können, um den Überblick über ihr Geschäft zu behalten. [!INCLUDE[prod_short](includes/prod_short.md)] unterstützt allgemeine Geschäftsprozesse und komplexere Prozesse für solche Organisationen. Für jeden dieser Prozesse gibt es Berichte und Analysetools, und Sie können auch Ad-hoc-Analysen direkt von Ihrer Startseite aus durchführen.  
+Kleine und mittelständische Unternehmen setzen auf integrierte Analyse- und Berichtsfunktionen, die sie sofort nutzen können, um den Überblick über ihr Geschäft zu behalten. [!INCLUDE[prod_short](includes/prod_short.md)] unterstützt allgemeine Geschäftsprozesse und komplexere Prozesse für solche Organisationen. Jeder dieser Prozesse umfasst Berichte und Analysetools. Sie können auch Ad-hoc-Analysen direkt von Ihrer Homepage aus durchführen.  
 
-| Aktion | Siehe |
+Die folgende Tabelle behandelt die wichtigsten Business Intelligence- und Berichtsfunktionen in [!INCLUDE[prod_short](includes/prod_short.md)].
+
+| Bis | Siehe |
 | --- | --- |
-| Lernen Sie, wie Sie mit Standardberichten arbeiten (Lesezeichen setzen, ausführen, drucken, planen und das Layout ändern). | [Berichte in der täglichen Arbeit verwenden](reports-use-reports.md) |
+| Mit Standardberichten arbeiten (Lesezeichen setzen, ausführen, drucken, planen und das Layout ändern). | [Berichte in der täglichen Arbeit verwenden](reports-use-reports.md) |
 | Erfahren Sie mehr über die integrierten Berichte in [!INCLUDE[prod_short](includes/prod_short.md)]. |[Bericht Übersicht](reports-available-reports.md)|
-| Lernen Sie, wie Sie Ad-hoc-Datenanalysen mithilfe von Funktionen im Client oder in Excel durchführen können. | [Ad-hoc-Datenanalyse](reports-adhoc-analysis.md) |
-| Lernen Sie, wie Sie mit den integrierten Analyse-Tools in [!INCLUDE[prod_short](includes/prod_short.md)] arbeiten können.| [Integrierte Analysen](reports-built-in-analytics.md) |
-| Lernen Sie, wie Sie externe Business Intelligence Tools mit [!INCLUDE[prod_short](includes/prod_short.md)] integrieren können.| [Externe Business Intelligence Tools](reports-external-analysis.md) |
-|Lernen Sie, wie Sie Berichtslayouts ändern oder sogar Ihre eigenen Berichte von Grund auf neu entwickeln können. |[Entwickeln von Berichten](reports-develop-reports.md)|
+| Durchführen Sie Ad-hoc-Datenanalysen mithilfe von Funktionen im Client oder in Microsoft Excel. | [Ad-hoc-Datenanalyse](reports-adhoc-analysis.md) |
+| Arbeiten Sie mit den integrierten Analyse-Tools in [!INCLUDE[prod_short](includes/prod_short.md)].| [Integrierte Analysen](reports-built-in-analytics.md) |
+| Integrieren Sie externe Business Intelligence Tools mit [!INCLUDE[prod_short](includes/prod_short.md)].| [Externe Business Intelligence Tools](reports-external-analysis.md) |
+|Ändern Sie Berichtslayouts oder entwickeln Sie sogar Ihre eigenen Berichte von Grund auf neu. |[Entwickeln von Berichten](reports-develop-reports.md)|
 
 ## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/paths/setup-reporting-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Siehe auch
 
-[Berichte in der täglichen Arbeit verwenden](reports-use-reports.md)  
-[Bericht Übersicht](reports-available-reports.md)  
-[Ad-hoc-Datenanalyse](reports-adhoc-analysis.md)  
-[Integrierte Analysen](reports-built-in-analytics.md)  
-[Externe Business Intelligence Tools](reports-external-analysis.md)  
-[Entwickeln von Berichten](reports-develop-reports.md)  
-
+[Financial Business Intelligence](bi.md)  
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 05/23/2022
+ms.date: 08/16/2022
 ms.author: jswymer
-ms.openlocfilehash: 3fe47ef19e9a8dbc66c13461aa1255bc21490421
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 38dec472417e49fe974ed72f6eac2fdf4dffde3c
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9531134"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606667"
 ---
 # <a name="keyboard-shortcuts"></a>Tastenkombinationen
 
@@ -56,15 +56,16 @@ Die folgende Tabelle beschreibt Tastenkombinationen, um in verschiedenen Element
 |ALT+UMSCHALT+N |Schließen Sie eine neu erstellte Seite und öffnen Sie eine neue, um einen neuen Datensatz zu erstellen. Ebenso bucht Alt+F9 ein Dokument und erstellt ein neues.|
 |ALT+T|Öffnen der Seite **Meine Einstellungen**.|
 |Alt+Nach-rechts-Taste|Nachschlagen zusätzlicher Informationen oder zugrunde liegender Werte für ein Feld, das die ![Bearbeitungshilfe.](media/assist-edit-icon.png "AssistEdit-Schaltfläche") Schaltfläche enthält. Wird verwendet, wenn die übliche Dropdown-Schaltfläche (Alt + Abwärtspfeil) im selben Feld für einen anderen Zweck verwendet wird.|
-|Ctrl+Alt+Shift+C|Informationen in der Unternehmenskennzeichnung anzeigen.|
-|STRG+ALT+F1|Öffnen und schließen Sie den Seitenüberprüfungsbereich. Der Seitenüberprüfungsbereich zeigt Informationen zur Seite, wie deren Herkunftstabelle, Felder, Filter, Erweiterungen und mehr.<br /><br />Weitere Informationen finden Sie unter [Überprüfen von Seiten](across-inspect-page.md).|
+|Ctrl+Alt+Shift+C|Informationen in der Unternehmenskennzeichnung anzeigen. Diese Verknüpfung wurde in Business Central 2022 Veröffentlichungszyklus 2 (Version 21) eingestellt und durch Strg+O ersetzt. |
+|Ctrl+Alt+F1|Öffnen und schließen Sie den Seitenüberprüfungsbereich. Der Seitenüberprüfungsbereich zeigt Informationen zur Seite, wie deren Herkunftstabelle, Felder, Filter, Erweiterungen und mehr.<br /><br />Weitere Informationen finden Sie unter [Überprüfen von Seiten](across-inspect-page.md).|
 |Strg+C |Den Wert des Felds kopieren. Wenn das Feld im Fokus liegt und Sie keinen Text in diesem Feld ausgewählt haben, wird hierdurch der gesamten Wert kopiert. Wenn Sie Text in diesem Feld ausgewählt haben, wird nur der markierte Text kopiert.|
-|Ctrl+F1|Öffnet je nach Business Central-Version den [Hilfebereich](product-help-and-support.md#help-pane) oder einen Business Central-Hilfeartikel zu [Microsoft-Docs](/dynamics365/business-central/).|
+|Ctrl+F1|Öffnet je nach Business Central-Version den [Hilfebereich](product-help-and-support.md#help-pane) oder einen Business Central-Hilfeartikel zu [Microsoft Learn](/dynamics365/business-central/), je nach Business Central-Version.|
 |Strg+F12|Wechseln Sie zwischen der breiten und schmalen Layout-Ansicht.|
 |Ctrl+Click|Navigieren Sie während der Personalisierung oder Anpassung, wenn die Aktion mit einer Pfeilspitze markiert ist. Weitere Informationen finden Sie unter [Personalisieren Sie Ihren Arbeitsbereich](ui-personalization-user.md).|  
 |Ctrl+F5|[!INCLUDE[prod_short](includes/prod_short.md)] Anwendung neu laden. (Dies ist gleich, wie Browser aktualisieren/neu laden.)|
 |F5|Aktualisieren Sie die Daten der aktuellen Seite.<br /><br />Verwenden Sie diesen Schlüssel, um sicherzustellen, dass sich die Daten aus der Seite mit sämtlichen Änderungen auf dem neuesten Stand befinden, die andere vorgenommen haben, während Sie arbeiten.|
-|Eingabe|Das Element aktivieren oder darauf zugreifen oder steuern, das im Fokus liegt.|
+|Ctrl+O|Öffnen Sie **Verfügbare Unternehmen** zum Wechseln zu einem anderen Unternehmen oder einer anderen Umgebung. Weitere Informationen finden Sie unter [Wechseln zu einem anderen Unternehmen oder einer anderen Umgebung ](ui-organization-switch.md).|
+|EINGABE|Das Element aktivieren oder darauf zugreifen oder steuern, das im Fokus liegt.|
 |Esc|Schließen Sie die aktuelle Seite oder die Dropdownliste.|
 |Register|Verschieben Sie den Fokus auf die folgende oder vorherige Steuerung oder das Element auf einer Seite wie Schaltflächen, Felder oder Artikel in einer Liste.|
 |UMSCHALT+TAB|Verschieben Sie den Fokus auf die folgende oder vorherige Steuerung oder das Element auf einer Seite wie Schaltflächen, Felder oder Artikel in einer Liste.|
