@@ -5,18 +5,18 @@ author: jswymer
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 02/28/2022
+ms.date: 08/03/2022
 ms.author: jswymer
-ms.openlocfilehash: 2e1cc04d265541c87244dcd6c13b14327f07cc2f
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 99077273617613a2bd5fd949ead836605432b9aa
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516421"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607445"
 ---
-# <a name="opening-and-sharing-business-central-files-in-onedrive"></a>Öffnen und Freigeben von Business Central-Dateien in OneDrive
+# <a name="opening-and-sharing-business-central-files-in-microsoft-onedrive"></a>Öffnen und Freigeben von Business Central Dateien in Microsoft OneDrive
 
-[!INCLUDE[prod_short](includes/prod_short.md)] macht es Ihnen leicht, Dateien zu speichern, zu verwalten und mit anderen Personen über OneDrive for Business zu teilen. Auf den meisten Seiten, auf denen Dateien verfügbar sind, wie z. B. dem Berichtseingang oder Dateien, die an Datensätze angehängt sind, befindet sich die Aktion **In OneDrive öffnen** und **Freigeben**.
+[!INCLUDE[prod_short](includes/prod_short.md)] macht es Ihnen leicht, Dateien zu speichern, zu verwalten und mit anderen Personen über Microsoft OneDrive for Business auszutauschen. Auf den meisten Seiten mit verfügbaren Dateien, wie z.B. dem Posteingang für Berichte oder wenn Dateien an Datensätze angehängt sind, finden Sie die Aktionen **Öffnen in OneDrive** und **Freigeben**.
 
 
 :::image type="content" source="media/onedrive-overview-report-inbox-w-outline.png" alt-text="Die Aktionen „In OneDrive öffnen“ und „Freigeben“ für Berichte":::
@@ -24,38 +24,37 @@ ms.locfileid: "8516421"
 
 :::image type="content" source="media/one-drive-attachments-w-outline.png" alt-text="Die Aktionen „In OneDrive öffnen“ und „Freigeben“ für Anhänge":::
 
-<!--
-:::image type="content" source="media/Open in OneDrive.PNG" alt-text="The Open in OneDrive action":::
-
- 
-:::image type="content" source="media/OneDrive attachment.PNG" alt-text="Share file attachments in OneDrive":::
--->
 
 ## <a name="open-in-onedrive"></a>In OneDrive öffnen
 
-Mit der Aktion **In OneDrive öffnen** wird die Datei in OneDrive kopiert und in Onlineanwendungen wie Excel Online, Word Online und PowerPoint Online geöffnet. 
+Die Aktion **Öffnen in OneDrive** kopiert die Datei in Ihr OneDrive und öffnet die Datei dann in einer Anwendung wie Microsoft Excel online, Microsoft Word online oder Microsoft PowerPoint online. 
 
-<!--## Working with Different Types of Files-->
+<!--## Working with different types of files-->
 
-Wenn Sie **Öffnen in OneDrive** wählen, identifiziert [!INCLUDE[prod_short](includes/prod_short.md)] Excel-, Word- und PowerPoint-Dateien und öffnet sie in den jeweiligen Online-Anwendungen, d.h. Excel online, Word online und PowerPoint online. Sie können Anmerkungen machen, bearbeiten und mit anderen zusammenarbeiten, ohne den Browser zu verlassen.
+Wenn Sie **Öffnen in OneDrive** wählen, identifiziert [!INCLUDE[prod_short](includes/prod_short.md)] Excel-, Word- und PowerPoint-Dateien und öffnet sie in den jeweiligen Online-Anwendungen, d.h. Excel online, Word online und PowerPoint online. 
+
+Mit den Online-Versionen dieser Anwendungen können Sie Anmerkungen machen, bearbeiten und mit anderen zusammenarbeiten, ohne den Browser zu verlassen.
 
 Für andere gängige Dateitypen wie PDFs, Textdateien und Bilder bietet OneDrive Dateibetrachter, die Funktionen zum Drucken, Teilen und mehr bieten. Wenn eine Datei nicht in OneDrive angezeigt werden kann, werden Sie möglicherweise aufgefordert, sie herunterzuladen.
 
-## <a name="share"></a>Anteil
+## <a name="share"></a>Freigeben
 
-Mit der Aktion **Freigeben** wird die Datei in OneDrive kopiert und Sie können sie für andere Personen freigeben und anzeigen, für wen Sie sie bereits freigegeben haben. Wenn Sie die Aktion **Freigeben** auswählen, wird die folgende Seite geöffnet.
+Die Aktion **Freigeben** kopiert die Datei in Ihr OneDrive, so dass Sie sehen können, mit wem Sie sie bereits geteilt haben, und die Datei mit anderen Personen teilen können. Wenn Sie die Aktion **Freigeben** auswählen, wird die folgende Seite geöffnet.
 
-:::image type="content" source="media/share-to-onedrive-dialog.PNG" alt-text="In OneDrive freigeben":::
+:::image type="content" source="media/share-to-onedrive-dialog-v2.PNG" alt-text="Datei in OneDrive teilen":::
 
-Wenn Sie mit OneDrive vertraut sind, erkennen Sie die Seite möglicherweise. Sie haben zwei Möglichkeiten, die Datei freizugeben: **Link senden** und **Link kopieren**.
+Wenn Sie mit OneDrive vertraut sind, erkennen Sie die oben erwähnte Seite vielleicht wieder. Sie sehen, dass Sie zwei Optionen zum Teilen der Datei haben: **Link senden** und **Link kopieren**.
 
-- Mit **Link senden** können Sie die Dateien für bestimmte Personen freigeben. Die Personen, für die Sie die Datei freigeben, erhalten eine E-Mail mit einem Link zur Datei. Die Datei wird auch im Abschnitt **Freigegeben** von OneDrive angezeigt. Geben Sie zunächst die E-Mail-Adressen oder Kontaktnamen in das Feld **Name, Gruppe oder E-Mail** ein.
+- Mit **Link senden** können Sie die Dateien für bestimmte Personen freigeben. Die Personen, für die Sie die Datei freigeben, erhalten eine E-Mail mit einem Link zur Datei. Die Datei wird auch im Abschnitt **Freigegeben** von OneDrive angezeigt. Geben Sie zunächst die E-Mail-Adressen oder Kontaktnamen in das Feld **Name, Gruppe oder E-Mail** ein. Fügen Sie eine Nachricht unter dem Feld **Name, Gruppe oder E-Mail** ein, wenn Sie möchten.
 
-- Mit **Link kopieren** wird ein Link zur Datei in OneDrive kopiert, sodass Sie den Link auch an anderen Orten wie Facebook, Twitter oder E-Mails verwenden können. 
+  > [!TIP]
+  > Wenn Sie Ihre Nachricht in Outlook verfassen möchten, wählen Sie die Schaltfläche **Outlook**. Der Link wird in einen E-Mail-Entwurf eingefügt und alle Personen, die Sie zum Teilen eingegeben haben, werden in der Liste **An** aufgeführt. Mit dieser Option können Sie E-Mails mit allen Funktionen von Outlook verfassen, z.B. Text formatieren, andere Anhänge hinzufügen, Bilder oder Tabellen einfügen und CC- oder BCC-Empfänger hinzufügen.
 
-Bevor Sie den Link senden oder kopieren, legen Sie die Berechtigung für die Datei fest, die Personen zugewiesen werden sollen. Die aktuelle Einstellung wird unter **Link senden** und **Link kopieren** angezeigt. In den meisten Fällen ist es **Jeder, der über den Link verfügt, kann Änderungen vornehmen, um den Link zu öffnen**, abhängig von den Einstellungen Ihres Administrators. Um die Berechtigungen zu ändern, wählen Sie den Link aus, und nehmen Sie Änderungen auf der Seite **Link-Einstellungen** vor.
+- **Link kopieren** kopiert einen Dateilink, den Sie verwenden können, um die Datei über Anwendungen wie Facebook, Twitter oder E-Mail weiterzugeben. 
 
-Die Freigabefunktion in Business Central basiert auf OneDrive. Weitere Informationen zur Freigabefunktion und zu Berechtigungen finden Sie unter [OneDrive-Dateien und -Ordner freigeben](https://support.microsoft.com/en-us/office/share-onedrive-files-and-folders-9fcc2f7d-de0c-4cec-93b0-a82024800c07).
+Bevor Sie einen Dateilink senden oder kopieren, legen Sie die Berechtigungsstufe fest, die andere Personen haben sollen. Sie können die aktuelle Einstellung unter **Link senden** oder **Link kopieren** sehen. In den meisten Fällen wird es **Jeder, der den Link hat, kann ihn bearbeiten** sein, je nachdem, was Ihr Administrator festgelegt hat. Um die Berechtigungen zu ändern, wählen Sie den Link aus, und nehmen Sie Änderungen auf der Seite **Link-Einstellungen** vor.
+
+Die Freigabefunktion in Business Central basiert auf OneDrive. Mehr über OneDrive Freigaben und Berechtigungen erfahren Sie unter [Freigeben von OneDrive Dateien und Ordnern](https://support.microsoft.com/en-us/office/share-onedrive-files-and-folders-9fcc2f7d-de0c-4cec-93b0-a82024800c07).
 
 > [!NOTE]
 > Die Aktion **Freigeben** ist in der Business Central-App für mobile Geräte nicht verfügbar.
@@ -65,29 +64,44 @@ Die Freigabefunktion in Business Central basiert auf OneDrive. Weitere Informati
 Wenn Sie die Aktion **In OneDrive öffnen** oder **Freigeben** zum ersten Mal verwenden, führt [!INCLUDE[prod_short](includes/prod_short.md)] die folgenden Schritte aus:
 
 1. Öffnet die Seite **Allgemeine Geschäftsbedingungen lesen**. Lesen Sie die Seite, und wählen Sie, wenn Sie mit den Nutzungsbedingungen einverstanden sind, **Zustimmen** aus, um den Vorgang fortzusetzen.
-2. Öffnet die Seite **Konto auswählen**. Wählen Sie Ihr Konto oder die Option **anderes Konto verwenden** aus, wenn Ihr eigenes nicht angezeigt wird, und geben Sie dann den Benutzernamen und das Kennwort ein, wenn Sie dazu aufgefordert werden.
+2. Öffnet die Seite **Wählen Sie ein Konto**. Wählen Sie Ihr Konto aus oder **Verwenden Sie ein anderes Konto**, wenn Sie Ihr eigenes nicht sehen, und geben Sie dann den entsprechenden Benutzernamen und das Kennwort ein, wenn Sie dazu aufgefordert werden.
 3. Erstellt einen Ordner mit dem Namen [!INCLUDE[prod_short](includes/prod_short.md)] in OneDrive. 
-4. In dem Ordner [!INCLUDE[prod_short](includes/prod_short.md)] erstellt es einen weiteren Ordner mit dem Namen der Firma, in der Sie arbeiten. Wenn Sie in mehreren Unternehmen beschäftigt sind, wird ein Ordner des Unternehmens erstellt, in dem Sie arbeiten, wenn Sie die Aktionen **In OneDrive öffnen** und **Freigeben** verwenden. 
-5. Legt eine Kopie der von Ihnen ausgewählten Datei in dem Ordner ab und öffnet dann die Datei. Wenn Sie die Aktion das nächste Mal verwenden, wird die Datei nur kopiert und geöffnet. 
+4. Innerhalb des Ordners [!INCLUDE[prod_short](includes/prod_short.md)] erstellt es einen Ordner mit dem Namen der Firma, in der Sie arbeiten. Wenn Sie in mehr als einer Firma arbeiten, erstellt [!INCLUDE[prod_short](includes/prod_short.md)] einen Ordner für jede Firma, in der Sie arbeiten, wenn Sie die Aktion **Öffnen in OneDrive** oder **Freigeben** verwenden. 
+5. Legt eine Kopie der von Ihnen ausgewählten Datei im Ordner mit dem Namen der Firma ab und öffnet die Datei dann. 
+
+Wenn Sie dann das nächste Mal die Aktion **Öffnen in OneDrive** oder **Freigeben** verwenden, kopiert und öffnet [!INCLUDE[prod_short](includes/prod_short.md)] die Datei nur. 
 
 ## <a name="managing-multiple-copies-of-a-file"></a>Verwalten mehrerer Kopien einer Datei
 
-Wenn Sie **In OneDrive öffnen** oder **Freigeben** auswählen, wird die Datei von [!INCLUDE[prod_short](includes/prod_short.md)] in Ihren Ordner in OneDrive kopiert. Wenn Sie die Datei in OneDrive bearbeiten, werden die Kopien der Datei unterschiedlich sein. Um [!INCLUDE[prod_short](includes/prod_short.md)] mit der neuesten Datei zu aktualisieren, entfernen Sie die vorhandene Datei aus [!INCLUDE[prod_short](includes/prod_short.md)] und laden dann die neueste Kopie hoch.
+Wenn Sie **In OneDrive öffnen** oder **Freigeben** auswählen, wird die Datei von [!INCLUDE[prod_short](includes/prod_short.md)] in Ihren Ordner in OneDrive kopiert. Wenn Sie die Datei in OneDrive bearbeiten, unterscheidet sich diese Datei von der Datei in [!INCLUDE[prod_short](includes/prod_short.md)]. Um [!INCLUDE[prod_short](includes/prod_short.md)] mit der neuesten Dateiversion zu aktualisieren, entfernen Sie die vorhandene Datei aus [!INCLUDE[prod_short](includes/prod_short.md)] und laden Sie die neueste Kopie hoch.
 
-Wenn eine Datei mit demselben Namen bereits in OneDrive vorhanden ist, bietet Ihnen [!INCLUDE[prod_short](includes/prod_short.md)] außerdem die Möglichkeit, die Datei zu ersetzen oder beide Dateien zu behalten. Wenn Sie beide Dateien behalten möchten, wird die neue Datei in OneDrive kopiert und erhält einen Dateinamen mit einer Suffixnummer, z. B. „Artikel (2).xlsx“. Die ursprügnliche Datei wird nicht verändert. 
+Wenn in OneDrive bereits eine Datei mit demselben Namen existiert, haben Sie die folgenden Möglichkeiten:
 
-Wenn Sie sich dafür entscheiden, die Datei zu ersetzen, wird die neue Datei dem Versionsverlauf für diese Datei hinzugefügt. Die Originaldatei geht dabei nicht verloren und Sie können frühere Versionen der Datei anzeigen oder wiederherstellen. 
+- **Vorhandenes verwenden**
+
+  Mit dieser Option wird die Datei, die bereits in OneDrive gespeichert ist, geöffnet oder freigegeben, anstatt die Datei aus Business Central zu kopieren.
+  
+- **Ersetzen**
+  
+  Mit dieser Option wird die vorhandene Datei in OneDrive durch die Datei ersetzt, die Sie in Business Central ausgewählt haben. Die ursprüngliche Datei geht dabei nicht verloren &mdash;Sie können sie mit Hilfe des Versionsverlaufs in OneDrive sehen und wiederherstellen. Erfahren Sie mehr unter [Wiederherstellen einer früheren Version einer in OneDrive gespeicherten Datei“](https://support.microsoft.com/office/restore-a-previous-version-of-a-file-stored-in-onedrive).
+
+- **Beides beibehalten**
+ 
+  Mit dieser Option behalten Sie die vorhandene Datei bei und speichern die Datei, die Sie in Business Central ausgewählt haben, unter einem anderen Namen. Der neue Name ähnelt dem vorhandenen Namen, nur mit einer Zusatznummer wie „Elemente (2).xlsx“.
 
 ## <a name="about-your-business-central-folder-on-onedrive"></a>Informationen zu Ihrem Business Central-Ordner auf OneDrive
 
-Der Ordner und sein Inhalt sind privat, bis Sie sich entscheiden, sie mit anderen zu teilen. Sie könnten beispielsweise beschließen, Inhalte mit einem oder mehreren Ihrer Mitarbeiter oder sogar mit Personen außerhalb Ihres Unternehmens zu teilen. Sie können auf Ihre OneDrive von der Seite **Meine Einstellungen** aus zugreifen, indem Sie den Link im Feld **Cloud-Speicher** wählen. Weitere Informationen finden Sie unter [Freigeben von OneDrive Dateien und Ordnern](https://support.microsoft.com/en-us/office/share-onedrive-files-and-folders-9fcc2f7d-de0c-4cec-93b0-a82024800c07).
+Der Ordner und sein Inhalt sind privat, bis Sie sich entscheiden, sie mit anderen zu teilen. Sie könnten also beschließen, Inhalte mit einem oder mehreren Ihrer Mitarbeiter oder sogar mit Personen außerhalb Ihres Unternehmens zu teilen. 
+
+Sie können auf Ihre OneDrive von der Seite **Meine Einstellungen** aus zugreifen, indem Sie den Link im Feld **Cloud-Speicher** wählen. Erfahren Sie mehr unter [Freigeben von OneDrive Dateien und Ordnern](https://support.microsoft.com/en-us/office/share-onedrive-files-and-folders-9fcc2f7d-de0c-4cec-93b0-a82024800c07).
 
 :::image type="content" source="media/my-settings-cloud-storage.PNG" alt-text="Das Feld Cloud-Speicher in Meine Einstellungen":::
 
 <!--## Extending the Connection to OneDrive
 You can create an extension and connect it to... For more information, see...-->
 
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-also"></a>Siehe auch
+
 [Business Central und OneDrive Integration](across-onedrive-overview.md)  
 [Verwaltung der OneDrive Integration mit Business Central](admin-onedrive-integration.md)  
 [OneDrive FAQ](admin-onedrive-faq.md)

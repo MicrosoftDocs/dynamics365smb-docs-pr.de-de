@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
-ms.date: 03/04/2022
+ms.date: 09/22/2022
 ms.author: jswymer
-ms.openlocfilehash: 5252d3e595b3ae0246646fe7eafe910cdf4da2f0
-ms.sourcegitcommit: 0bb9473a2563211bc0c02ebfd837bba1b2e9ad3f
+ms.openlocfilehash: fbedf23a65940b73e521d06d17abbbaef77fd512
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "8805048"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607424"
 ---
 # <a name="business-central-and-microsoft-teams-integration"></a>Integration von Business Central und Microsoft Teams
 
@@ -52,7 +52,7 @@ Weitere Informationen finden Sie unter [Datensätze in Microsoft Teams](across-w
 
 ### <a name="share-links-from-pages-in-business-central-to-teams"></a>Links von Seiten in Business Central für Teams freigeben
 
-Direkt von den meisten Sammlungs- und Detailseiten in Business Central können Sie die Aktion **Für Teams freigeben** über das Symbol ![!Das Teilen-Menü auf Seiten.](media/share-icon.png "Das Menü Teilen, das auf einer Karte angezeigt wird.") Symbol eine Nachricht eingeben, Empfänger auswählen, z.B. Teammitglieder, Gruppen oder Kanäle, und die Nachricht mit einem Link zu der Business Central Seite versenden.
+Direkt von den meisten Sammlungs- und Detailseiten in Business Central können Sie die Aktion **Für Teams freigeben** über das Symbol ![!Das Teilen-Menü auf Seiten.](media/share-icon.png "Das Menü Teilen, das auf einer Karte angezeigt wird.") Symbol, um eine Nachricht zu verfassen, Empfänger auszuwählen, z.B. Teammitglieder, Gruppen oder Kanäle, und die Nachricht mit einem Link und zur Seite Business Central zu senden.
 
 ![!Das Menü Teilen, das auf einer Karte angezeigt wird.](media/teams-share-link.png "Das Menü Teilen, das auf einer Karte angezeigt wird.")
 

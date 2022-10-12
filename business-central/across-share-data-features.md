@@ -5,14 +5,14 @@ author: jswymer
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2022
+ms.date: 09/21/2022
 ms.author: jswymer
-ms.openlocfilehash: 8fd3d76ed8affd506ad4cd1838a182e595ecb0bf
-ms.sourcegitcommit: d6af3155bb818430f22d5caca78df322a8d9b178
+ms.openlocfilehash: e54cabd331253a40b160a6cc89b4ab170bd1db89
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2022
-ms.locfileid: "8528505"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607472"
 ---
 # <a name="sharing-business-data-from-business-central"></a>Freigeben von Geschäftsdaten aus Business Central
 
@@ -42,7 +42,7 @@ Weitere Informationen finden Sie unter [Sortieren, Durchsuchen und Filtern](ui-e
 
 ![Unterstützt](media/check.png) Business Central Online ![Nicht unterstützt](media/x-icon.png) Business Central On-Premises
 
-Von den meisten Sammlungsseiten und Detailseiten aus können Sie direkt einen Link zur Seite an Personen, Gruppenchats oder Kanäle senden. Geben Sie beispielsweise einen Link zu einer gefilterten Ansicht Ihrer Datensätze frei. Die Empfänger können dann den Link auswählen, um die Seite in Business Central zu öffnen.
+Von den meisten Sammlungsseiten und Detailseiten aus können Sie direkt einen Link zur Seite an Personen, Gruppenchats oder Kanäle senden. Geben Sie beispielsweise einen Link zu einer gefilterten Ansicht Ihrer Datensätze frei. Wenn Sie die [!INCLUDE[prod_short](includes/prod_short.md)] App für Teams installiert haben, wird der Link automatisch zu einer kompakten Karte erweitert, die Sie Ihrer Nachricht beifügen können. Die Empfänger wählen dann den Link oder die Karte aus, um die Seite in Business Central zu öffnen.
 
 Weitere Informationen finden Sie unter [Freigeben von Datensätzen und Seitenlinks teilen in Teams](across-working-with-teams.md).
 

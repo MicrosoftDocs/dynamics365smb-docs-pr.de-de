@@ -10,15 +10,14 @@ ms.search.keywords: kit, kitting
 ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 3b9955ece6a5f76269915b18ecfe22c722d2e59d
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: e43a8bbfb663a7207afd01360ba3600cd60d5076
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532970"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607018"
 ---
 # <a name="selling-inventory-items-in-assemble-to-order-flows"></a>Verkauf von Lagerartikeln in Programmfertigungen (Flows)
-
 
 Wenn das Feld **Montagerichtlinie** auf der Artikelkarte eines Montageartikels **Auftragsmontage** enthält, dann nimmt der Standard-Verkaufsauftragsprozess an, dass der Artikel nicht auf Lager ist und für den jeweiligen Verkaufsauftrag montiert werden muss. Daher wird ein Montageauftrag automatisch erstellt, wenn Sie den Artikel einer Verkaufsauftragszeile hinzufügen. Weitere Informationen finden Sie unter [Verkaufen von Auftragsmontageartikeln](assembly-how-to-sell-items-assembled-to-order.md). Wenn jedoch ein Teil der Verkaufsauftragsmenge bereits im Lagerbestand verfügbar ist, können Sie die Menge des Montageauftrags verringern, indem Sie das Feld **Menge für Auftragsmontage** auf der Verkaufsauftragszeile ändern.  
 
@@ -57,9 +56,9 @@ Bei diesem Verfahren ersetzen Sie Auftragsmontagemengen durch Lagerbestandsmenge
 
 [Montageverwaltung](assembly-assemble-items.md)  
 [Artikel reservieren](inventory-how-to-reserve-items.md)  
-[Arbeiten mit Stücklisten](inventory-how-work-BOMs.md)  
+[Arbeiten mit Stücklisten für die Montage](assembly-how-work-assembly-boms.md)  
 [Bestand](inventory-manage-inventory.md)  
-[Designdetails: Warehouse Management](design-details-warehouse-management.md)  
+[Design Details: Lagerort Management](design-details-warehouse-management.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

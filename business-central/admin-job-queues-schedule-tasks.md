@@ -9,25 +9,26 @@ ms.workload: na
 ms.search.form: 672, 673, 674, 671
 ms.date: 10/01/2021
 ms.author: edupont
-ms.openlocfilehash: 081f900836f97d6630608aade4251272ee1a1ff1
-ms.sourcegitcommit: b353f06e0c91aa6e725d59600f90329774847ece
+ms.openlocfilehash: cfbfffdf52e072133451e968e872c7f66a733069
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/19/2022
-ms.locfileid: "9317434"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607099"
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Verwenden von Aufgabenwarteschlangen für die Aufgabenplanung
 
-Die Aufgabenwarteschlangen ermöglichen es Benutzern, bestimmte Berichte und Codeunits zu planen und auszuführen. Die Projekte können entweder einmalig oder wiederholt ausgeführt werden. So kann es beispielsweise empfehlenswert sein, den Bericht **Verkäufer – Verkäuferstatistik** wöchentlich auszuführen, um die Verkaufserfolge eines Verkäufers zu beobachten, oder die Codeunit **Genehmigungsanforderungen delegieren** täglich auszuführen, um zu verhindern, dass sich Belege ansammeln.
+Die Seite Aufgabenwarteschlangenposten ermöglicht es Benutzern, bestimmte Berichte und Codeunits zu planen und auszuführen. Die Projekte können entweder einmalig oder wiederholt ausgeführt werden. So kann es beispielsweise empfehlenswert sein, den Bericht **Verkäufer * Verkäuferstatistik** wöchentlich auszuführen, um die Verkaufserfolge eines Verkäufers zu beobachten, oder die Codeunit **Genehmigungsanforderungen delegieren** täglich auszuführen, um zu verhindern, dass sich Belege ansammeln.
 
 Im Fenster **Projektwarteschlangeneinträge** sind alle aktuellen Aufgabenwarteschlangenposten aufgelistet. Wenn Sie eine neue Aufgabenwarteschlangeneintrag hinzufügen, den Sie planen möchten, müssen Sie einige Informationen bereitstellen. Beispiel:
+
 * Der Objekttyp, den Sie ausführen möchten, z. B. ein Bericht oder eine Codeunit. Sie müssen über die Berechtigung zum Ausführen des jeweiligen Berichts oder der Codeunit verfügen.
 * Der Name und die Objekt-ID des Objekts. 
 * Parameter, um das Verhalten des Aufgabenwarteschlangenpostens festzulegen. So können Sie beispielsweise einen Parameter hinzufügen, um nur gebuchte Verkaufsaufträge zu senden. 
 * Wann und wie oft wird der Jobwarteschlangenposten ausgeführt.
 
 > [!IMPORTANT]  
-> Wenn Sie den SUPER-Zugriffsrechtsatz der Demolizenz für [!INCLUDE[prod_short](includes/prod_short.md)] verwenden, sind Sie und Ihre Benutzer zum Ausführen aller Objekte innerhalb der Lizenz berechtigt. Dies ist immer noch nicht genug für delegierte Administratoren oder Benutzer mit Gerätelizenz, die keine Projektwarteschlangen erstellen können.
+> Wenn Sie den SUPER Berechtigungs-Satz mit dem Wert [!INCLUDE[prod_short](includes/prod_short.md)] festgelegt haben, sind Sie berechtigt, alle in Ihrer Lizenz enthaltenen Objekte auszuführen. Wenn Sie die Rolle Delegierter Admin haben, können Sie Einträge für die Aufgabenwarteschlange erstellen und planen, aber nur Administratoren und lizenzierte Benutzer können sie ausführen. Benutzer mit der Gerätelizenz können keine Aufträge erstellen oder ausführen.
 
 Nachdem Projektwarteschlangen eingerichtet sind und ausgeführt werden, kann sich der Status innerhalb jedes wiederkehrenden Zeitraums folgendermaßen ändern:
 
@@ -73,7 +74,7 @@ Die Seite **Geplante Aufgaben** in [!INCLUDE [prod_short](includes/prod_short.md
 Wenn sich das aktuelle Unternehmen beispielsweise in einer Umgebung befindet, die eine Kopie einer anderen Umgebung ist, werden alle geplanten Aufgaben beendet. Verwenden Sie die Seite **Geplante Aufgaben**, um Aufgaben als bereit zum Ausführen in der Auftragswarteschlange festzulegen.  
 
 > [!NOTE]
-> Interne Administratoren und Benutzer können Aufgaben zum Ausführen planen. Delegierte Administratoren können dies nicht.
+> Interne Administratoren und lizenzierte Benutzer können Aufgaben zum Ausführen planen. Delegierte Administratoren können Aufgaben festlegen und deren Ausführung planen, aber nur lizenzierte Benutzer können sie ausführen.
 
 ## <a name="the-my-job-queue-part"></a>Der „Mein Projektwarteschlangenteil“
 

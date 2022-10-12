@@ -10,12 +10,12 @@ ms.search.keywords: language, locale, localization, culture, region, regional se
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: cdac371269e523f30712d4cb0be1087e07e70d5e
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: 23cb50952e1fda9a8dc46398aaf5054e7e03e3ed
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655514"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606829"
 ---
 # <a name="changing-language-and-region"></a>Ändern der Sprache und der Region
 
@@ -58,14 +58,14 @@ Auf der Seite **Hilfe und Support** sehen Sie die Version von [!INCLUDE[prod_sho
 
 ## <a name="languages-of-the-prod_short-help"></a>Sprachen der [!INCLUDE[prod_short](includes/prod_short.md)]-Hilfe
 
-Der Hilfeinhalt für die Standardversion von [!INCLUDE[prod_short](includes/prod_short.md)] wird auf der Microsoft Dokumentenseite veröffentlicht. Die Inhalte sind in verschiedenen Sprachen verfügbar. Wenn Sie die Dokumente in [!INCLUDE[prod_short](includes/prod_short.md)] öffnen, wird der Inhalt in Ihrer Sprache angezeigt. Wenn eine bestimmte Seite noch nicht in der Sprache verfügbar ist, wird sie standardmäßig in Englisch angezeigt.
+Der Inhalt der Hilfe für die Standardversion von [!INCLUDE[prod_short](includes/prod_short.md)] wird auf Microsoft Learn veröffentlicht. Die Inhalte sind in verschiedenen Sprachen verfügbar. Wenn Sie von [!INCLUDE[prod_short](includes/prod_short.md)] aus auf die Dokumentation zugreifen, wird der Inhalt in Ihrer Sprache angezeigt. Wenn eine bestimmte Seite noch nicht in der Sprache verfügbar ist, wird sie standardmäßig in Englisch angezeigt.
 
-### <a name="how-do-i-change-the-language-of-the-microsoft-docs-site"></a>Wie ändere ich die Sprache der Microsoft Dokumentenseite?
+### <a name="how-do-i-change-the-language-of-the-microsoft-learn-site"></a>Wie kann ich die Sprache der Microsoft Learn-Seite ändern?
 
 Ganz einfach - einen Bildlauf zum unteren Rand der Browserseite ausführen und das Kugelsymbol in der unteren linken Ecke auswählen.
 
 > [!NOTE]  
-> Die Liste zeigt alle Sprachen an, die von der Microsoft Dokumentenseite unterstützt werden. [!INCLUDE[prod_short](includes/prod_short.md)] ist in einer begrenzten Anzahl von Ländern/Regionen verfügbar, und die [!INCLUDE [prod_short](includes/prod_short.md)]-Hilfeinhalte sind nicht in allen Sprachen verfügbar, die von der Microsoft Dokumentenseite unterstützt werden.
+> Die Liste zeigt alle Sprachen an, die von der Microsoft Learn-Seite unterstützt werden. [!INCLUDE[prod_short](includes/prod_short.md)] ist in einer begrenzten Anzahl von Ländern/Regionen verfügbar, und der Inhalt der [!INCLUDE [prod_short](includes/prod_short.md)]-Hilfe ist nicht in allen Sprachen verfügbar, die die Microsoft Learn-Seite unterstützt.
 
 ## <a name="see-also"></a>Siehe auch
 

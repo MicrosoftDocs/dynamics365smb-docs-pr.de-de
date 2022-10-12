@@ -10,12 +10,12 @@ ms.search.keywords: workflow, OData, Power App, SOAP, Power Automate,
 ms.search.form: 1500,
 ms.date: 09/13/2022
 ms.author: edupont
-ms.openlocfilehash: 369ee2b4aded272a8a3a21fe810b4b6c62dd1de0
-ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
+ms.openlocfilehash: 5fe089c0330a8d2b7a71f4907212665722d27d38
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "9585429"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606521"
 ---
 # <a name="use-power-automate-flows-in-prod_short"></a>Power Automate-Flows in [!INCLUDE[prod_short](includes/prod_short.md)] verwenden
 
@@ -43,9 +43,7 @@ Mit Power Automate können Sie Geschäftsabläufe direkt intern erstellen und si
 
 ## <a name="instant-flows"></a>Direktflows
 
-Ab dem Veröffentlichungszyklus 1, 2022 (Mai 2022) können Online-Administratoren von [!INCLUDE [prod_short](includes/prod_short.md)] kann [eine Funktion einschalten](admin-feature-management.md), um die Ausführung eines Power Automate-Flows von den meisten Listen-, Karten- und Dokumentseiten aus zu ermöglichen. Weitere Informationen finden Sie unter [Automatisierte Workflows einrichten](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows) im Verwaltungsinhalt.
-
-Sobald der Administrator [!INCLUDE [prod_short](includes/prod_short.md)] mit Power Automate verbunden hat, werden alle von Ihrer Organisation hinzugefügten Flows angezeigt, wenn Sie die Aktion **Automatisieren** auf den entsprechenden Seiten auswählen. Direktflows werden ausgeführt, ohne [!INCLUDE [prod_short](includes/prod_short.md)] zu verlassen.
+[!INCLUDE [prod_short](includes/prod_short.md)] kann einen Power Automate Flow von den meisten Listen-, Karten- und Dokumentenseiten aus ausführen. Sobald der Administrator [!INCLUDE [prod_short](includes/prod_short.md)] mit Power Automate verbunden hat, werden alle von Ihrer Organisation hinzugefügten Flows angezeigt, wenn Sie die Aktion **Automatisieren** auf den entsprechenden Seiten auswählen. Direktflows werden ausgeführt, ohne [!INCLUDE [prod_short](includes/prod_short.md)] zu verlassen. Weitere Informationen finden Sie unter [Automatisierte Workflows einrichten](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows) im Verwaltungsinhalt.
 
 Diese Direkt-Workflows werden auf einer Seite in [!INCLUDE [prod_short](includes/prod_short.md)] Online geöffnet, damit Sie im Kontext des Geschäftsprozesses bleiben, in dem Sie sich gerade befanden. Wählen Sie die Aktion **Automatisieren**, die auf einigen Seiten unter dem Menü **Weitere Optionen** zu finden ist. Suchen Sie sie, wählen Sie den Menüpunkt **Power Automate** und dann den entsprechenden Link aus, um den Workflow auszulösen. Die Verknüpfung zu Power Automate ist bereits eingerichtet.
 
@@ -62,7 +60,7 @@ Sie können Mustervorlagen finden, die Sie an Ihr Unternehmen und alle verfügba
 
 ## <a name="manage-automated-workflows"></a>Automatisierte Workflows verwalten
 
-Sie können neue Flows erstellen oder vorhandene Power Automate-Flows in [!INCLUDE [prod_short](includes/prod_short.md)] auf der Seite **Power Automate-Flows verwalten** verwalten. Weitere Informationen finden Sie unter [Power Automate-Flows verwalten](/dynamics365/business-central/dev-itpro/powerplatform/manage-power-automate-flows.md) im Verwaltungsinhalt.
+Sie können neue Flows erstellen oder vorhandene Power Automate-Flows in [!INCLUDE [prod_short](includes/prod_short.md)] auf der Seite **Power Automate-Flows verwalten** verwalten. Erfahren Sie mehr im Artikel [Verwalten von Power Automate Flows](/dynamics365/business-central/dev-itpro/powerplatform/manage-power-automate-flows) im Inhalt der Administration.
 
 Sie können auf der Seite **Workflows** in [!INCLUDE[prod_short](includes/prod_short.md)] die verfügbaren Power Automate-Workflows verwalten. Die Seite listet sowohl die integrierte Genehmigung und Power Automate-Workflows, mit Optionen für letztere zum Aktivieren/Deaktivieren, Löschen und Anzeigen des Workflows auf der Power Automate-Website.
 

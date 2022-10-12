@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, email, Office 365, connector
 ms.search.form: 1805, 9813, 9814, 1262, 1263
-ms.date: 02/06/2022
+ms.date: 08/16/2022
 ms.author: bholtorf
-ms.openlocfilehash: 22bd7fcf0eff9b3f7c41975a32127d9d482c42cc
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 44a590997d7c0ddaa342861068b818bf905f9c5b
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9534291"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606386"
 ---
 # <a name="set-up-email"></a>E-Mail einrichten
 Menschen in Unternehmen senden täglich Informationen und Dokumente wie Verkaufsdokumente und Bestellungen sowie Rechnungen per E-Mail. Administratoren können ein oder mehrere E-Mail-Konten mit [!INCLUDE[prod_short](includes/prod_short.md)] verbinden. So können Sie Dokumente senden, ohne eine E-Mail-App öffnen zu müssen. Sie können jede Nachricht einzeln mit grundlegenden Formatierungswerkzeugen wie Schriftarten, Stilen, Farben usw. zusammenstellen und Anhänge mit bis zu 100 MB hinzufügen. Mit Berichtslayouts können Administratoren außerdem die wichtigsten Informationen aus Belegen einbeziehen. Weitere Informationen finden Sie unter [Dokumente per E-Mail versenden](ui-how-send-documents-email.md).
@@ -73,7 +73,9 @@ Die unterstützte Einrichtungsanleitung für das **Einrichten von E-Mails** kann
 is this still true?-->
 ## <a name="assign-email-scenarios-to-email-accounts"></a>Weisen Sie E-Mail-Konten E-Mail-Szenarien zu
 E-Mail-Szenarien sind Prozesse, bei denen ein Dokument gesendet wird. Beispielsweise eine Einkaufsbestellung oder ein Verkaufsauftrag oder eine Benachrichtigung wie eine Einladung an einen externen Buchhalter. Bestimmte E-Mail-Konten können für bestimmte Szenarien verwendet werden. Beispielsweise können Sie festlegen, dass alle Benutzer Verkaufsdokumente immer von einem Konto senden, Dokumente von einem anderen kaufen und Lager- oder Produktionsdokumente von einem dritten Konto aus senden. Sie können Szenarien jederzeit zuweisen, neu zuweisen und entfernen. Ein Szenario kann jeweils nur einem E-Mail-Konto zugewiesen werden. Das Standard-E-Mail-Konto wird für alle Szenarien verwendet, die keinem Konto zugewiesen sind.
- 
+
+Auf der Seite **Zuordnung von E-Mail-Szenarien** können Sie die Aktion **Anhänge festlegen** wählen, um Anhänge zu E-Mail-Szenarien hinzuzufügen. Die Anhänge sind dann immer verfügbar, wenn Sie eine E-Mail für ein Dokument verfassen, das mit dem Szenario in Verbindung steht. Jedes E-Mail-Szenario kann einen oder mehrere Standardanhänge haben. Die Standardanhänge werden automatisch zu den E-Mails für das E-Mail-Szenario hinzugefügt. Wenn Sie zum Beispiel einen Verkaufsauftrag per E-Mail versenden, wird der für das Szenario Verkaufsauftrag angegebene Standardanhang hinzugefügt. Standardanhänge werden im Abschnitt **Anhänge** unten auf der Seite **E-Mail verfassen** angezeigt. Sie können der E-Mail manuell Anhänge hinzufügen, die nicht zum Standard gehören.
+
 <!--
 ## To set up email
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **SMTP Email Setup**, and then choose the related link.
@@ -101,12 +103,12 @@ Wählen Sie unter **Benutzer-E-Mail-Ansichtsrichtlinien** einen Benutzer und dan
 >  Wenn Sie das Feld **Benutzer-ID** leer lassen und dann die Aktion „E-Mail-Anzeigerichtlinie“ auswählen, gilt die von Ihnen definierte Richtlinie für alle Benutzer.
 
 ## <a name="set-up-reusable-email-texts-and-layouts"></a>Wiederverwendbare E-Mail-Texte und -Layouts einrichten
-Sie können Berichte verwenden, um wichtige Informationen aus Verkaufs- und Kaufdokumenten in Texte für E-Mails aufzunehmen. In diesem Verfahren wird beschrieben, wie Sie den Bericht **Verkaufsrechnung** für gebuchte Verkaufsrechnungen einrichten, aber der Prozess ist für andere Berichte ähnlich.
+Sie können Berichte verwenden, um wichtige Informationen aus Verkaufs-, Kauf- und Service-Dokumenten in Texte für E-Mails einzubinden. In diesem Verfahren wird beschrieben, wie Sie den Bericht **Verkaufsrechnung** für gebuchte Verkaufsrechnungen einrichten, aber der Prozess ist für andere Berichte ähnlich.
 
 > [!NOTE]
 > Um das Layout zum Erstellen von Inhalten für E-Mail-Nachrichten zu verwenden, müssen Sie den Word-Dateityp für Ihr Layout verwenden.
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Berichtsauswahl Verkauf** ein, und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol, geben Sie **Berichtsauswahlen - Verkäufe** ein und wählen Sie dann den entsprechenden Link.
 2. Auf der Seite **Berichts-Auswahl - Verkauf** unter **Verwendung** wählen Sie **Rechnung**.
 3. In einer neuen Zeile im Feld **Berichts-ID** wählen Sie beispielsweise Standardbericht 1306.
 4. Wählen Sie das Kontrollkästchen **Für E-Mail-Text verwenden**.
@@ -128,7 +130,7 @@ Alternativ können Sie **Aktueller Benutzer** auswählen, um Benutzern das Sende
 
 Im Folgenden finden Sie Beispiele für die Verwendung von Senden als und Senden im Namen von [!INCLUDE[prod_short](includes/prod_short.md)]:
 
- * Wenn Sie Dokumente wie Kauf- oder Verkaufsaufträge an Lieferanten und Kunden senden, möchten Sie möglicherweise, dass sie von einer _noreply@yourcompanyname.com_-Adresse stammen.
+ * Vielleicht möchten Sie, dass die Kauf- oder Verkaufsaufträge, die Sie an Lieferanten und Kunden senden, so aussehen, als kämen sie von einer _noreply@yourcompanyname.com_ Adresse.
  * Wenn Ihr Workflow eine Genehmigungsanfrage per E-Mail unter Verwendung der E-Mail-Adresse des Antragstellers sendet.
 
 > [!Note]

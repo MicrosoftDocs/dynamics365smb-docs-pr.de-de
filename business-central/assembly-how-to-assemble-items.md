@@ -10,23 +10,23 @@ ms.search.keywords: kit, kitting
 ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 07cccf188ed476a3dba4fa71ec7de20620cbd6f1
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: e9d53a6369e2955e0e097471e70cb83438540539
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9534696"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607045"
 ---
 # <a name="assemble-items"></a>Artikel montieren
 
 Wenn das Feld **Beschaffungsmethode** auf der Artikelkarte **Montage** enthält, besteht die Standardmethode zur Bereitstellung des Artikels darin, es aus definierten Komponenten und eventuell mit einer definierten Ressource zu montieren.  
 
-Die Komponenten und Ressourcen, die in diese Art eines Montageartikels gehören, müssen in einer Montagestückliste definiert werden. Weitere Informationen finden Sie unter [Mit Stücklisten arbeiten](inventory-how-work-BOMs.md).  
+Die Komponenten und Ressourcen, die in diese Art eines Montageartikels gehören, müssen in einer Montagestückliste definiert werden. Weitere Informationen finden Sie unter [Arbeiten mit Montagestücklisten](assembly-how-work-assembly-boms.md).
 
 Montageartikel können für zwei unterschiedliche Montagevorgänge eingerichtet werden:  
 
--   Lagermontage  
--   Auftragsmontage  
+- Lagermontage  
+- Auftragsmontage  
 
 In der Regel nutzen Sie die **Lagerfertigung** für Artikel, die Sie vor dem Verkauf montieren möchten - wie zur Vorbereitung einer Kit-Kampagne - und auf Lager zu halten, bis sie bestellt werden. Diese Artikel sind normalerweise Standardartikel, wie gepackte Kits, die Sie nicht an Debitorenanfragen anpassen.  
 
@@ -69,15 +69,14 @@ In diesem Verfahren erstellen und verarbeiten Sie einen Montageauftrag für Arti
 
 Nach erfolgreicher Buchung wird der Montageartikel als Ausstoß für den Lagerortcode und den potenziellen Lagerplatzcode gebucht, die im Montageauftrag definiert sind. Für manuell erstellte Montageaufträge wird der Lagerplatz möglicherweise aus dem Einrichtungsfeld **Standardlagerort für Aufträge** kopiert. Für Auftragsmontageflüsse wird der Lagerortcode möglicherweise aus der Verkaufsauftragszeile kopiert.  
 
-## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/paths/assemble-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Siehe zugehörige [Microsoft Schulungen](/training/paths/assemble-items-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Siehe auch
 
 [Montageverwaltung](assembly-assemble-items.md)  
-[Arbeiten mit Stücklisten](inventory-how-work-BOMs.md)  
+[Arbeiten mit Stücklisten für die Montage](assembly-how-work-assembly-boms.md)  
 [Bestand](inventory-manage-inventory.md)  
-[Designdetails: Warehouse Management](design-details-warehouse-management.md)  
-[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
+[Design Details: Lagerort Management](design-details-warehouse-management.md)  
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

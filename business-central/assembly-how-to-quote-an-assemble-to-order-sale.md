@@ -1,6 +1,6 @@
 ---
 title: Angebot eines Auftragsmontageverkaufs
-description: Sie können Montageverwaltung verwenden, um einen Montageartikel auf Anforderung eines Debitors während des Vertriebsprozesses anzupassen.
+description: Sie können die Montageverwaltung verwenden, um ein Montageelement während des Verkaufsprozesses an die Wünsche eines Kunden anzupassen.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -10,16 +10,16 @@ ms.search.keywords: kit, kitting
 ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 79d7e9ac5e3a71002af168ee02feef1a76671fce
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 7ba67db5f2ba0e01dc2b3b13dca162de714b3127
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9528411"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607310"
 ---
 # <a name="quote-an-assemble-to-order-sale"></a>Angebot eines Auftragsmontageverkaufs
 
-Sie können Montageverwaltung verwenden, um einen Montageartikel auf Anforderung eines Debitors während des Vertriebsprozesses anzupassen. Weitere Informationen finden Sie unter [Verkaufen von Auftragsmontageartikeln](assembly-how-to-sell-items-assembled-to-order.md).  
+Sie können die Montageverwaltung verwenden, um ein Montageelement während des Verkaufsprozesses an die Wünsche eines Kunden anzupassen. Weitere Informationen finden Sie unter [Verkaufen Sie auf Bestellung montierte Elemente](assembly-how-to-sell-items-assembled-to-order.md).  
 
 Wie beim Verkauf beliebiger Artikel können Sie auch eine Verkaufsangebot für einen angepassten Montageartikel erstellen, bevor Sie dieses in einen Verkaufsauftrag umwandeln. Dieser Prozess beinhaltet einige zusätzliche Schritte, wenn Sie ihn mit dem Erstellen eines regulären Verkaufsangebots vergleichen; er verwendet eine Variation eines verknüpften Montageauftrags, ein Montageangebot.
 
@@ -40,14 +40,14 @@ Wie beim Verkauf beliebiger Artikel können Sie auch eine Verkaufsangebot für e
 6.  Wenn Sie die Montageauftragszeilen entsprechend dem Angebot angepasst haben, schließen Sie die Seite **Auftragsmontagezeilen**, um zur Seite **Verkaufsangebot** zurückzukehren.  
 7.  Wenn der Debitor das Angebot annimmt, erstellen Sie einen Verkaufsauftrag für den angebotenen Montageartikel. Weitere Informationen finden Sie unter [Verkaufsangebote machen](sales-how-make-offers.md). Das verknüpfte Montageangebot und alle eventuellen Anpassungen werden mit dem neuen Verkaufsauftrag verknüpft, um die Montage des/der zu verkaufenden Artikel vorzubereiten.  
 
-## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/assemble-to-order-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Siehe zugehörige [Microsoft Schulungen](/training/modules/assemble-to-order-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Siehe auch
 
 [Montageverwaltung](assembly-assemble-items.md)  
-[Arbeiten mit Stücklisten](inventory-how-work-BOMs.md)  
+[Arbeiten mit Stücklisten für die Montage](assembly-how-work-assembly-boms.md)  
 [Bestand](inventory-manage-inventory.md)  
-[Designdetails: Warehouse Management](design-details-warehouse-management.md)  
+[Design Details: Lagerort Management](design-details-warehouse-management.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

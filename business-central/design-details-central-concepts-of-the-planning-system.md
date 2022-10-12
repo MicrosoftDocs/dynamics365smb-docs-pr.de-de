@@ -9,16 +9,16 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: bce2c42900b67c24801098d2bacae3a0f0aee14a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: a9218bf8d8fa2c7f84b08380742df17bd7be7afe
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148668"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9605164"
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Designdetails: Zentrale Konzepte des Planungssystems
 
-Die Planungsfunktionen sind in einer Stapelverarbeitung enthalten, die zuerst die entsprechenden Artikel und die Periode für die Planung auswählt. Dann ruft die Stapelverarbeitung entsprechend der Stücklistenebene jedes Artikels (Stücklistenposition), eine Codeeinheit ab, die einen Beschaffungsplan erstellt, indem Angebot-Nachfrage-Sätze abgegeglichen und dem Benutzer mögliche Aktionen vorgeschlagen werden. Die vorgeschlagenen Aktionen erscheinen als Zeilen im Planungsarbeitsblatt oder Bestellarbeitsblatt.  
+Die Planungsfunktionen sind in einer Stapelverarbeitung enthalten, die zuerst die entsprechenden Artikel und die Periode für die Planung auswählt. Dann ruft der Batch-Auftrag entsprechend dem wenig Code (Stücklistenposition) der einzelnen Elemente eine Einheit auf, die einen Vorrat berechnet, indem sie einen Ausgleich zwischen Angebot und Bedarf herstellt und dem Benutzer mögliche Aktionen vorschlägt. Die vorgeschlagenen Aktionen erscheinen als Zeilen im Planungsarbeitsblatt oder Bestellarbeitsblatt.  
 
 ![Inhalt der Seite Planungsarbeitsblätter.](media/design_details_central_concepts_of_the_planning_system_planning_worksheets.png "Inhalt der Seite „Planungsarbeitsblätter“")  
 
@@ -40,7 +40,7 @@ Planungsparameter können für jede mögliche Kombination aus Artikel, Variante 
 
 Weitere Informationen finden Sie unter [Designdetails: Wiederbeschaffungsverfahren behandeln](design-details-handling-reordering-policies.md) und [Designdetails: Planungsparameter](design-details-planning-parameters.md).  
 
-## <a name="planning-starting-date"></a>Planungsdatum ändern
+## <a name="planning-starting-date"></a>Startdatum der Planung
 
 Um einen Beschaffungsplan zu vermeiden, der offene Aufträge in der Vergangenheit enthält und möglicherweise unmögliche Aktionen vorschlägt, behandelt das Planungssystem alle Daten vor dem Startdatum als fixierte Zone, in der die folgende Sonderregelung gilt:  
 
@@ -50,7 +50,7 @@ Mit anderen Worten: Es nimmt an, dass der Plan für die Vergangenheit gemäß de
 
 Weitere Informationen finden Sie unter [Umgang mit Aufträgen vor dem Planungs-Startdatum](design-details-balancing-demand-and-supply.md#dealing-with-orders-before-the-planning-starting-date).  
 
-## <a name="dynamic-order-tracking-pegging"></a>Dynamische Auftragsnachverfolgung (Pegging)
+## <a name="dynamic-order-tracking-pegging"></a>Dynamische Auftragsverfolgung (Bedarfsverursacher)
 
 Die dynamische Auftragsnachverfolgung, die eine simultane Erstellung von Ereignismeldungen im Planungsarbeitsblatt ermöglicht, ist kein Teil des Beschaffungsplanungssystems in [!INCLUDE[prod_short](includes/prod_short.md)]. Dieses Funktion verknüpft in der Echtzeit den Bedarf und die Mengen, die ihn abdecken können, sobald ein neuer Bedarf oder eine Bedarfssicherung erstellt oder geändert wird.  
 
@@ -64,7 +64,7 @@ Weiter Informationen finden Sie unter [Designdetails: Reservierung, Auftragsnach
 
 In Unternehmen mit geringem Warenfluss und weniger fortschrittlichen Produktstrukturen kann es angemessen sein, die dynamische Auftragsnachverfolgung als Haupthilfsmittel der Vorratsplanung zu verwenden. In ausgelasteteren Umgebungen sollte jedoch das Planungssystem verwendet werden, um jederzeit einen korrekt saldierten Beschaffungsplan sicherzustellen.  
 
-### <a name="dynamic-order-tracking-versus-the-planning-system"></a>Dynamische Auftragsnachverfolgung vs. Planungssystem
+### <a name="dynamic-order-tracking-versus-the-planning-system"></a>Dynamische Auftragsverfolgung gegenüber dem Planungssystem
 
 Auf den ersten Blick kann es schwierig sein, zwischen dem Planungssystem und der dynamischen Auftragsnachverfolgung zu unterscheiden. Beide Funktionen zeigen die Ausgabe im Planungsarbeitsblatt an, wobei sie Aktionen vorschlagen, die der Planer ausführen soll. Diese Ausgabe wird jedoch auf andere Weise erstellt.  
 
@@ -82,13 +82,13 @@ Nach der Planung bleiben keine Ereignismeldungen in der Ereignismeldungstabelle,
 
 Weitere Informationen finden Sie unter [Auftragsnachverfolgungslinks in der Planung](design-details-balancing-demand-and-supply.md#seriallot-numbers-are-loaded-by-specification-level).  
 
-## <a name="sequence-and-priority-in-planning"></a>Reihenfolge und Priorität in der Planung
+## <a name="sequence-and-priority-in-planning"></a>Sequenz und Priorität in der Planung
 
 Wenn ein Plan eingerichtet wird, ist die Reihenfolge der Berechnungen wichtig, um die Arbeit innerhalb eines angemessenen Zeitrahmens zu erledigen. Zusätzlich spielt die Priorisierung von Anforderungen und Ressourcen eine wichtige Rolle bei der Erlangung bester Ergebnisse.  
 
 Das Planungssystem in [!INCLUDE[prod_short](includes/prod_short.md)] ist bedarfsgesteuert. Artikel auf hoher Ebene sollten vor Artikeln auf niedriger Ebene geplant werden, der Plan für Artikel auf hoher Ebene weiteren Bedarf für Artikel auf niedriger Ebene generieren könnte. das bedeutet zu, Beispiel, dass die Einzelhandelsstandorte geplant werden sollten, bevor Vertriebsstellen geplant werden, da der Plan für einen Einzelhandelsstandort zusätzlichen Bedarf aus der Vertriebsstelle umfassen kann. Auf einer detaillierten Abschlussebene bedeutet dies auch, dass ein Verkaufsauftrag keinen neuen Vorrat auslösen sollte, wenn ein bereits freigegebener Vorrat den Verkaufsauftrag abdecken kann. Ebenso sollte ein Lagerartikel mit einer bestimmten Chargennummer nicht zugewiesen werden, um einen generischen Bedarf zu decken, wenn ein anderer Bedarf diese bestimmte Charge benötigt.  
 
-### <a name="item-priority--low-level-code"></a>Artikelpriorität Stücklistenebene
+### <a name="item-priority--low-level-code"></a>Element-Priorität / Low-Level Code
 
 In einer Produktionsumgebung wird der Bedarf für einen fertigen, verkäuflichen Artikel zu einem abgeleiteten Bedarf für Komponenten, die den produzierten fertigen Artikel enthalten, führen. Die Stücklistenstruktur steuert die Komponentenstruktur und kann mehrere Ebenen von halbfertigen Artikel enthalten. Die Absatzplanung eines Artikels in einer Ebene verursacht abgeleiteten Bedarf für Komponenten auf der nächsten Stufe, und so weiter. Schließlich führt dies zu abgeleitetem Bedarf für Einkaufsartikel. Deshalb plant das Planungssystem für Artikel nach ihrer Rangfolge in der gesamten Stücklistenhierarchie, beginnend mit den fertig gestellten absatzfähigen Artikeln oben und dann abwärts durch die Produktstruktur bis zu den Artikeln unterer Ebenen (nach dem Low-level-Code).  
 
@@ -98,7 +98,7 @@ Die Abbildungen illustrieren, in welcher Reihenfolge das System Vorschläge für
 
 Weitere Informationen zu Überlegungen für die Fertigung finden Sie unter [Auslastung der Lagerprofile](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles).  
 
-#### <a name="optimizing-performance-for-low-level-calculations"></a>Optimieren der Leistung für Low-Level-Berechnungen
+#### <a name="optimizing-performance-for-low-level-calculations"></a>Optimierung der Leistung für Low-Level-Berechnungen
 
 Low-Level-Codeberechnungen können sich auf die Systemleistung auswirken. Um die Auswirkungen zu verringern, können Sie **Dynamische Low-Level-Codeberechnung** auf der Seite **Produktionseinrichtung** deaktivieren. Wenn Sie das tun, schlägt [!INCLUDE[prod_short](includes/prod_short.md)] vor, dass Sie einen wiederkehrenden Projektwarteschlangenposten erstellen, der die Low-Level-Codes täglich aktualisiert. Sie können sicherstellen, dass das Projekt außerhalb der Arbeitszeit ausgeführt wird, indem Sie eine Startzeit im Feld **Frühestes Startdatum/früheste Startzeit** angeben.
 
@@ -107,13 +107,13 @@ Sie können auch Logik aktivieren, die Low-Level-Codeberechnungen beschleunigt, 
 > [!IMPORTANT]
 > Wenn Sie wählen, die Leistung zu optimieren, wird [!INCLUDE[prod_short](includes/prod_short.md)] neue Berechnungsmethoden verwenden, um Low-Level-Codes zu bestimmen. Wenn Sie eine Erweiterung haben, die sich auf die Ereignisse stützt, die von den alten Berechnungen verwendet wurden, funktioniert die Erweiterung möglicherweise nicht mehr.   
 
-### <a name="locations--transfer-level-priority"></a>Lagerorte / Übertragung-Ebenen-Priorität
+### <a name="locations--transfer-level-priority"></a>Orte / Priorität auf Übertragungsebene
 
-Unternehmen, die an mehr als einem Standort arbeiten, müssen möglicherweise für jeden Standort einzeln planen. Beispielsweise können sich der Sicherheitsbestand eines Artikels und dessen Wiederbeschaffungsrichtlinien sich von einem Lagerort zu einem anderen unterscheiden. In diesem Fall müssen die Planungsparameter pro Artikel und auch pro Lagerort angegeben werden.  
+Unternehmen, die an mehr als einem Standort arbeiten, müssen möglicherweise für jeden Standort einzeln planen. Der Sicherheitsbestand eines Elements und seine Richtlinien für die Nachbestellung können sich beispielsweise von einem Standort zum anderen unterscheiden. In diesem Fall müssen die Planungsparameter pro Artikel und auch pro Lagerort angegeben werden.  
 
 Dies wird durch die Verwendung von Lagerhaltungsdaten unterstützt, in denen einzelne Planungsparameter auf der Lagerhaltungsdatenebene angegeben werden können. Eine SKU kann als ein Artikel an einem bestimmten Lagerort betrachtet werden. Wenn der Benutzer keine SKU für diesen Lagerort definiert hat, verwendet die Anwendung die Parameter, die auf der Artikelkarte eingerichtet wurden. Die Anwendung berechnet einen Plan nur für aktive Lagerorte, d.h., wo sich der bestehende Bedarf oder Vorrat für den jeweiligen Artikel befindet.  
 
-Generell kann jeder Artikel an einem Lagerort bearbeitet werden, der Ansatz der Anwendung zum Lagerortkonzept ist aber sehr streng. Beispielsweise kann ein Verkaufsauftrag an einem Lagerort nicht durch eine vorrätige Menge an einem anderen Lagerort erfüllt werden. Die Menge im Lager muss dem zuerst zu dem Lagerort übertragen werden, der auf dem Verkaufsauftrag angegeben ist.  
+Im Prinzip kann jedes Element an jedem Standort bearbeitet werden, aber die Anwendung geht recht streng mit dem Standortkonzept um. Beispielsweise kann ein Verkaufsauftrag an einem Lagerort nicht durch eine vorrätige Menge an einem anderen Lagerort erfüllt werden. Die Menge im Lager muss dem zuerst zu dem Lagerort übertragen werden, der auf dem Verkaufsauftrag angegeben ist.  
 
 ![Planung für Lagerhaltungseinheiten.](media/NAV_APP_supply_planning_1_SKU_planning.png "Planung für Lagerhaltungseinheiten")  
 
@@ -125,15 +125,15 @@ In bestimmten Lagerhaltungsdaten zeigt das angeforderte oder verfügbare Datum d
 
 Weitere Informationen finden Sie unter [Priorisieren von Aufträgen](design-details-balancing-demand-and-supply.md#prioritizing-orders).  
 
-## <a name="demand-forecasts-and-blanket-orders"></a>Absatzplanungen und Rahmenaufträge Nachfrage
+## <a name="demand-forecasts-and-blanket-orders"></a>Bedarfsplanung und Rahmenaufträge
 
-Planungen und Absatzplanungen stellen den voraussichtlichen Bedarf dar. Der Rahmenauftrag, der die geplanten Einkäufe eines Debitoren über einen bestimmten Zeitraum hinweg umfasst, dient dazu, die Unsicherheiten des allgemeinen Plans zu reduzieren. Der Rahmenauftrag ist eine benutzerdefinierte Planung , zusätzlich zur nicht-spezifischen Planung, wie nachfolgend erläutert.  
+Planungen und Absatzplanungen stellen den voraussichtlichen Bedarf dar. Die Rahmenbestellung, die die beabsichtigten Käufe eines Kunden über einen bestimmten Zeitraum abdeckt, dient dazu, die Unsicherheit der Gesamtplanung zu verringern. Der Rahmenauftrag ist eine benutzerdefinierte Planung , zusätzlich zur nicht-spezifischen Planung, wie nachfolgend erläutert.  
 
 ![Planung mit Prognosen.](media/NAV_APP_supply_planning_1_forecast_and_blanket.png "Planen mit Prognosen")  
 
 Weitere Informationen finden Sie im Abschnitt [Planungsbedarf wird durch Verkaufsaufträge reduziert](design-details-balancing-demand-and-supply.md#forecast-demand-is-reduced-by-sales-orders).  
 
-## <a name="planning-assignment"></a>Planungszuweisung
+## <a name="planning-assignment"></a>Planungszuordnung
 
 Alle Artikel sollten eingeplant werden, es gibt jedoch keinen Grund, einen Plan für einen Artikel zu berechnen, es sei denn, es gab eine Änderung im Bedarfs- oder Vorratsmuster seit der letzten Berechnung des Plans.  
 
@@ -143,7 +143,7 @@ Das Planungssystem überwacht solche Ereignisse und ordnet die entsprechenden Ar
 
 Für mehrere Lagerorte findet die Zuweisung auf Artikelebene pro Lagerortkombination statt. Wenn beispielsweise ein Auftrag an nur einem Lagerplatz erstellt wurde, ordnet die Anwendung den Artikel an diesem bestimmten Lagerort der Planung zu.  
 
-Der Grund für die Auswahl von Artikeln für die Planung hat mit der Systemleistung zu tun. Wenn keine Änderung des Bedarf-Vorrat-Musters eines Artikels eingetreten ist, schlägt das Planungssystem keine Aktionen vor. Ohne die Planungs-Zuweisung müsste das System die Berechnungen für alle Artikel ausführen, um herauszufinden, was zu planen ist, wodurch die Systemressourcen belastet würden.  
+Der Grund für die Auswahl von Artikeln für die Planung hat mit der Systemleistung zu tun. Wenn sich das Verhältnis zwischen Bedarf und Angebot eines Artikels nicht geändert hat, schlägt das Planungssystem keine Maßnahmen vor. Ohne die Planungs-Zuweisung müsste das System die Berechnungen für alle Artikel ausführen, um herauszufinden, was zu planen ist, wodurch die Systemressourcen belastet würden.  
 
 Die vollständige Liste der Gründe für das Zuweisen eines Artikels für die Planung wird in [Designdetails: Planung von Zuweisungstabellen](design-details-planning-assignment-table.md) bereitgestellt.  
 
@@ -158,7 +158,7 @@ Zusätzlich zu diesen Fällen plant das Planungssystem nur Artikel, die der Benu
 
 Weitere Informationen über die die automatischen Planungsverfahren finden Sie unter [Designdetails: Ausgleich von Bedarf und Vorrat](design-details-balancing-demand-and-supply.md)  
 
-## <a name="item-dimensions"></a>Artikeldimensionen
+## <a name="item-dimensions"></a>Dimensionen der Elemente
 
 Bedarf und Vorrat können Variantencodes und Lagerortcodes aufweisen, die berücksichtigt werden müssen, wenn das Planungssystem Bedarf und Vorrat ausgleicht.  
 
@@ -174,7 +174,7 @@ Abgesehen von allgemeinen Artikeldimensionen, wie Artikelnummer, Variantencode, 
 
 Eine Auftrag-zu-Auftrag-Verknüpfung zwischen Bedarf und Vorrat ist eine weitere Art von Attribut, die sich auf das Planungssystem auswirkt.  
 
-### <a name="specific-attributes"></a>Spezifische Attribute.
+### <a name="specific-attributes"></a>Spezifische Attribute
 
 Bestimmte On Demand-Attribute sind spezifisch und müssen exakt an einen entsprechenden Vorrat angepasst sein. Die folgenden beiden spezifischen Attribute sind verfügbar:  
 
@@ -188,7 +188,7 @@ Für diese Attribute wendet das Planungssystem die folgenden Regeln an:
 
 Entsprechend gilt: Wenn einen Bedarf für bestimmte Attribute nicht durch Lagerbestand oder geplanten Vorrat gedeckt werden kann, wird vom Planungssystem ein neuer Beschaffungsauftrag vorgeschlagen, um diesen speziellen Bedarf ohne Berücksichtigung von Planungsparametern zu decken.  
 
-### <a name="non-specific-attributes"></a>Unpezifische Attribute
+### <a name="non-specific-attributes"></a>Unspezifische Attribute
 
 Serien-/Chargen-nummerierte Artikel ohne bestimmtes Artikelverfolgungssetup können Serien-/Chargennummern tragen, die nicht auf exakt dieselbe Serien-/Chargennummer angewendet werden müssen, sondern auf beliebige Serien-/Chargennummern angewendet werden können. dies gibt dem Planungssystem mehr Freiheit, um beispielsweise einen serialiserten Bedarf einem Vorrat zuzuordnen, üblicherweise im Lagerbestand.  
 
@@ -198,7 +198,7 @@ Weitere Informationen finden Sie im Abschnitt [Serien-/Chargennummern werden nac
 
 Weitere Informationen darüber, wie das Planungssystem Attribute ausgleicht, finden Sie unter [Serien-/Chargennummern und Auftrag-zu-Auftrag-Links sind von der fixierten Zone ausgenommen](design-details-balancing-demand-and-supply.md#seriallot-numbers-and-order-to-order-links-are-exempt-from-the-frozen-zone).  
 
-## <a name="order-to-order-links"></a>Auftrag-zu-Auftrag-Verknüpfungen
+## <a name="order-to-order-links"></a>Order-to-Order-Verbindungen
 
 In einer Auftragsfertigungsumgebung wird ein Artikel bezogen, montiert oder gefertigt, um einen speziellen Bedarf zu decken. Normalerweise bezieht sich dies auf A-Artikel, und die Motivation für die Auswahl dieser Methode kann es sein, dass der Bedarf selten ist, die Vorbereitungszeit unbedeutend ist, oder die erforderlichen Attribute variieren können.  
 
@@ -250,7 +250,7 @@ Die Warnung für einen Notfall wird in zwei Situationen angezeigt:
 -   Der Lagerbestand ist am geplanten Startdatum negativ.  
 -   Vorgehensweise bei rückdatierten Beschaffungs- oder Bedarfsereignissen.  
 
-Wenn der Lagerbestand eines Artikels am geplanten Startdatum negativ ist, wird vom Planungssystem ein Notfallbeschaffungsauftrag für den negativen Bestand vorgeschlagen, der am geplanten Startdatum eingeht. Im Warnungstext werden das Startdatum und die Menge der Notfallbestellung angegeben. Weitere Informationen finden Sie unter [Umgang mit voraussichtlichem negativem Lagerbestand](design-details-handling-reordering-policies.md#handling-projected-negative-inventory).  
+Wenn der Bestand eines Elements zum Planungsstartdatum negativ ist, schlägt das Planungssystem einen Vorrat für die negative Menge vor, der zum Planungsstartdatum eintreffen soll. Im Warnungstext werden das Startdatum und die Menge der Notfallbestellung angegeben. Weitere Informationen finden Sie unter [Umgang mit voraussichtlichem negativem Lagerbestand](design-details-handling-reordering-policies.md#handling-projected-negative-inventory).  
 
 Belegzeilen mit Fälligkeitsdaten vor dem geplanten Startdatum werden in einem Notfallbeschaffungsauftrag für den Artikel zusammengefasst, der am geplanten Startdatum eingehen soll.  
 
@@ -284,7 +284,7 @@ Wenn das Feld nicht aktiviert ist, wird die Stapelverarbeitung „Planung berech
 
 ![Fehlermeldungen im Planungsarbeitsblatt.](media/NAV_APP_supply_planning_1_error_log.png "Fehlermeldungen im Planungsarbeitsblatt")  
 
-## <a name="planning-flexibility"></a>Planungsflexibilität
+## <a name="planning-flexibility"></a>Flexibilität bei der Planung
 
 Es ist jedoch nicht immer nützlich, einen vorhandenen Beschaffungsauftrag zu planen, z.B. wenn die Produktion gestartet hat oder zusätzliche Personen an einem bestimmten Tag zur Ausführung der Arbeit abgestellt werden. Um anzugeben ob ein bestehender Auftrag vom Planungssystem geändert werden kann, verfügen alle Beschaffungsauftragszeilen über ein Feld mit zwei Optionen: Unbegrenzt oder Keine. Wenn das Feld auf Keine festgelegt wurde, versucht das Planungssystem nicht, die Beschaffungsauftragszeile zu ändern.  
 
@@ -299,7 +299,7 @@ Das grundlegende Tool für die Beschaffungsplanung, das durch die Seite **Auftra
 > [!NOTE]  
 >  Es wird nicht empfohlen, Auftragsplanung zu verwenden, wenn das Unternehmen bereits Planungs- oder Bestellarbeitsblätter verwendet. Die über die Seite erstellten Beschaffungsaufträge **Auftragsplanung** können während der automatisierten Planungsläufe geändert oder gelöscht werden. Dies liegt daran, dass der automatisierte Planungslauf Planungsparameter verwendet und diese möglicherweise vom Benutzer nicht berücksichtigt werden, der den manuellen Plan auf der Seite "Auftragsplanung" erzeugt hat.  
 
-##  <a name="finite-loading"></a>Begrenzte Auslastung
+## <a name="finite-loading"></a>Begrenzte Ladung
 
 [!INCLUDE[prod_short](includes/prod_short.md)] ist ein Standard-ERP-System, kein Dispatching- oder Fertigungssteuerungssystem. Planung einer durchführbaren Nutzung von Ressourcen durch Bereitstellung eines Rohschnittzeitplans, jedoch keine automatische Erstellung und Verwaltung von detaillierten Plänen, die auf Prioritäten oder Optimierungsregeln basieren.  
 
@@ -308,7 +308,7 @@ Die vorgesehene Verwendungsweise der Funktion „Begrenzte Kapazität“ ist 1):
 Beim Planen mit eingeschränkter Kapazität stellt sicher das System sicher, dass keine Ressourcen oberhalb der definierten Kapazität (Grenzbelastung) geladen werden. Dies geschieht, indem jeder Arbeitsgang dem nächsten verfügbaren Zeitfenster zugewiesen wird. Wenn das Zeitfenster nicht ausreicht, um den gesamten Arbeitsgang abzuschließen, wird der Arbeitsgang in zwei Teile aufgeteilt, die in die nächsten verfügbaren Zeitfenster gesetzt werden.  
 
 > [!NOTE]  
->  Im Falle der Teilung des Arbeitsgangs wird die Rüstzeit nur einmal zugeordnet, da davon ausgegangen wird, dass einige manuelle Ausgleiche vorgenommen werden, um den Plan zu optimieren.  
+> Im Falle der Teilung des Arbeitsgangs wird die Rüstzeit nur einmal zugeordnet, da davon ausgegangen wird, dass einige manuelle Ausgleiche vorgenommen werden, um den Plan zu optimieren.  
 
 Die Toleranzzeit kann zu Ressourcen hinzugefügt werden, um die Aufteilung von Arbeitsgängen zu minimieren. Dies ermöglicht dem System, Auslastung am letzten möglichen Tag zu planen, indem es den kritischen Auslastungsprozentsatz etwas überschreitet, wenn dies die Anzahl der Arbeitsgänge verringern kann, die aufgeteilt werden.  
 
@@ -316,11 +316,10 @@ Damit ist die Vorstellung der zentralen Konzept in Bezug auf die Beschaffungspla
 
 ## <a name="see-also"></a>Siehe auch
 
-[Designdetails: Umlagerungen in Planung](design-details-transfers-in-planning.md)   
-[Designdetails: Planungsparameter](design-details-planning-parameters.md)   
-[Designdetails: Planungs-Zuordnungstabelle](design-details-planning-assignment-table.md)   
-[Designdetails: Umgang mit Wiederbeschaffungsverfahren](design-details-handling-reordering-policies.md)   
-[Designdetails: Ausgleich von Bedarf und Vorrat](design-details-balancing-demand-and-supply.md)
-
+[Designdetails: Umlagerungen in Planung](design-details-transfers-in-planning.md)  
+[Designdetails: Planungsparameter](design-details-planning-parameters.md)  
+[Designdetails: Planungs-Zuordnungstabelle](design-details-planning-assignment-table.md)  
+[Designdetails: Umgang mit Wiederbeschaffungsverfahren](design-details-handling-reordering-policies.md)  
+[Designdetails: Ausgleich von Bedarf und Vorrat](design-details-balancing-demand-and-supply.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

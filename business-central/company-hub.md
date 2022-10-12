@@ -7,18 +7,20 @@ ms.search.keywords: accountant, accounting, financial report
 ms.search.form: 1151, 1154, 1165, 1166
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 410e3166674354499e76b9bc5483d66c037c4969
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3fdc84068220e16ac82d97ec005d69ec3496d902
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132055"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606170"
 ---
 # <a name="manage-work-across-multiple-companies-in-the-company-hub"></a>Arbeit über mehrere Unternehmen hinweg im Unternehmens-Hub verwalten
 
-Einige Personen arbeiten in mehreren Unternehmen in [!INCLUDE [prod_short](includes/prod_short.md)], und einige arbeiten auch in mehr als einer Organisation, beispielsweise externe Buchhalter oder Mitarbeiter und Manager von Unternehmen mit mehreren Tochterunternehmen. Für diese und viele andere Benutzer dient der Unternehmens-Hub als Landing Page, um die Arbeit in den verschiedenen Umgebungen, in denen sie arbeiten, über Unternehmen, Umgebungen und Regionen hinweg zu verwalten.  
+Einige Personen arbeiten in mehreren Unternehmen in [!INCLUDE [prod_short](includes/prod_short.md)], und einige arbeiten auch in mehr als einer Organisation, beispielsweise externe Buchhalter oder Mitarbeiter und Manager von Unternehmen mit mehreren Tochterunternehmen. Für diese und viele andere Benutzer dient der Hub der Firma als Landing Page, die einen finanziellen Überblick über Unternehmen und Umgebungen bietet. Es bietet den Benutzern ein Tool zur Verwaltung der Arbeit in den verschiedenen Umgebungen, in denen sie arbeiten, über Firmen, Umgebungen und Regionen hinweg.  
 
 Sie können auf den Unternehmens-Hub zugreifen, indem Sie zur Rolle **Unternehmens-Hub** in „Meine Einstellungen“ wechseln. Alternativ können Sie die Seite **Unternehmens-Hub** direkt öffnen. Sie können an beiden Stellen dieselbe Arbeit ausführen, die Aktionen in den Menüs sind jedoch etwas anders angeordnet.  
+
+[![Zeigt die Hub-Seite für Unternehmen, auf der alle Firmen aufgelistet sind.](media/company-hub.png)](media/company-hub.png#lightbox)  
 
 > [!NOTE]
 > Sie können den Unternehmens-Hub mit so vielen Unternehmen verbinden, wie Sie benötigen. Sie können den Unternehmens-Hub jedoch nur mit Unternehmen verbinden, die in [!INCLUDE [prod_short](includes/prod_short.md)] online gehostet werden.
@@ -63,9 +65,9 @@ Die Liste **Meine Benutzeraufgaben** hilft Ihnen dabei, Ihren Tag zu priorisiere
 
 Sie können z. B. nach Fälligkeitsdatum, oder einem beliebigen anderen Datentyp sortieren, der dabei hilft, den Tag zu priorisieren. Standardmäßig zeigt die Liste alle Aufgaben an, die Ihnen zugeordnet wurden, aber Sie können Filter setzen, um z.B. nur Aufgaben anzuzeigen, die mit hoher Priorität markiert wurden.  
 
-Um eine Aufgabe aufzunehmen, wählen Sie sie einfach aus der Liste der ausstehenden Benutzeraufgaben aus. Im Menüband öffnet der Link **Zu Aufgabenelement wechseln** die Seite, in dem Sie die Arbeit ausführen können.  
+Um eine Aufgabe zu kommissionieren, wählen Sie sie aus der Liste der ausstehenden Benutzeraufgaben aus. Im Menüband öffnet der Link **Zu Aufgabenelement wechseln** die Seite, in dem Sie die Arbeit ausführen können.  
 
-Wenn Sie eine Aufgabe abgeschlossen haben, kennzeichnen Sie sie einfach als abgeschlossen.  
+Wenn Sie eine Aufgabe erledigt haben, markieren Sie sie als erledigt.  
 
 Weitere Informationen zu Unternehmen und Umgebungen finden Sie unter [Umgebungslinks](company-hub-add-company.md#environment-links).  
 

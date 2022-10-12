@@ -1,6 +1,6 @@
 ---
 title: Geschäftsfunktionen unterstützt durch Business Central
-description: Stellt eine Funktion für alle Abteilungen und Geschäftsfunktionen bereit, die durch Anwendungsbereichen wie z. B. Finanzen, Lager und Projektmanagement unterstützt werden.
+description: Bietet einen Funktionsüberblick über alle von den Anwendungsbereichen unterstützten Geschäftsfunktionen und Abteilungen, wie z.B. Finanzen, Bestand und Projektmanagement.
 author: SorenGP
 ms.topic: get-started-article
 ms.devlang: na
@@ -8,50 +8,49 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
-ms.date: 04/01/2021
+ms.date: 09/13/2022
 ms.author: edupont
-ms.openlocfilehash: e413f75356af244dafe7e887207db370b942db7b
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: 3e174ae2218dfe4b5b83a8a567deaba91987d2ea
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8654891"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606802"
 ---
 # <a name="business-functionality"></a>Geschäftsfunktionen
 
-[!INCLUDE[prod_short](includes/prod_short.md)] enthält Funktionalität für allgemeine Geschäftsvorgänge in kleinen und mittelständischen Unternehmen, vor allem im Bereich Großhandel und die Dienstleistungen. Sie unterstützen auch komplexere Prozesse wie Montage, Produktion, Service, und referenzierte Logistik. [Erfahren Sie, wie Sie eine kostenlose Testversion erhalten](trial-signup.md).  
+[!INCLUDE[prod_short](includes/prod_short.md)] bietet Funktionen für allgemeine Geschäftsprozesse in kleinen und mittleren Firmen, vor allem im Bereich Großhandel und professionelle Dienstleistungen. Sie unterstützen auch komplexere Prozesse wie Montage, Produktion, Service, und referenzierte Logistik. [Erfahren Sie, wie Sie eine kostenlose Testversion erhalten](trial-signup.md).  
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-[!INCLUDE[prod_short](includes/prod_short.md)] umfasst Standardkonfigurationen für die meisten Geschäftsvorgänge, aber Sie können die Konfiguration ändern, um Sie für die Anforderungen Ihrer Unternehmen anzupassen. Von Ihrem Rollencenter aus können Sie auf unterstützte Einrichtungsleitfäden zugreifen, die Ihnen dabei helfen, bestimmte Szenarien zu konfigurieren und Funktionen zu [!INCLUDE[prod_short](includes/prod_short.md)] hinzuzufügen. Einige Bereiche für Geschäftsfunktionalitäten müssen manuell eingegeben werden. Die [Business Central Schnellstart](quick-start-business-central.md) Artikel können Ihnen helfen, die ersten Schritte zu unternehmen, um [!INCLUDE [prod_short](includes/prod_short.md)] zu Ihrem eigenen zu machen. Weitere Informationen finden Sie unter [Einrichten von [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).
+[!INCLUDE[prod_short](includes/prod_short.md)] enthält Standardkonfigurationen für die meisten Geschäftsprozesse, aber Sie können die Konfiguration ändern, um sie Ihren geschäftlichen Anforderungen anzupassen. Von Ihrem Rollencenter aus können Sie auf unterstützte Einrichtungsleitfäden zugreifen, die Ihnen dabei helfen, bestimmte Szenarien zu konfigurieren und Funktionen zu [!INCLUDE[prod_short](includes/prod_short.md)] hinzuzufügen. Einige Bereiche für Geschäftsfunktionalitäten müssen manuell eingegeben werden. Der [Business Central Schnellstart](quick-start-business-central.md) Artikel hilft Ihnen bei den ersten Schritten, sich [!INCLUDE [prod_short](includes/prod_short.md)] zu eigen zu machen. Erfahren Sie mehr unter [Einrichten von [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).
 
-| Aktion | Siehe |
+| Bis | Siehe |
 | --- | --- |
 |Erstellen und Einziehen von Zahlungen, Cashflow verwalten, Einnahmen zurückstellen, Vorbereiten des Jahresabschlusses, Verwalten von Anlagen.|[Finanzen](finance.md)|
-|Erhalten Sie Einblick an die Leistung Ihrer Geschäftsaktivitäten, Kontenschemata und Budgets von Analyseansichten.|[Business Intelligence](bi.md)|
+|Erhalten Sie Einblick an die Leistung Ihrer Geschäftsaktivitäten, Kontenschemata und Budgets von Analyseansichten.|[Financial Business Intelligence](bi.md)|
 |Verwalten Sie Verkaufsprozesse und -Informationen, beispielsweise Angebote, Aufträge und Rücklieferungen, Debitorenkonten und erstellen Sie Direktlieferungen.|[Verkauf](sales-manage-sales.md)|
 |Verwaltet Einkaufsprozesse und Informationen wie Aufträge, Rechnungen, Reklamationen und Kreditorenkonten und Einkaufsprodukte von Verkaufsbelegen. |[Einkauf](purchasing-manage-purchasing.md)|
-|Erfassen Sie neue Mitarbeiter des Lagers oder Serviceartikel für eine einfache Suche, passen Sie die Lagerstufen an und führen Sie allgemeine Lagerkostenberechnungsaufgaben aus.|[Lagerbest](inventory-manage-inventory.md)|
-|Dann können Sie Projekte und Planressourcen für Projekte erstellen, Projektbudgets verwalten, Fortschritte überwachen sowie Budget- und Titelmaschinen und Mitarbeiterstunden verwalten.|[Projektmanagement](projects-manage-projects.md)|
+|Erfassen Sie neue Mitarbeiter des Lagers oder Serviceartikel für eine einfache Suche, passen Sie die Lagerstufen an und führen Sie allgemeine Lagerkostenberechnungsaufgaben aus.|[Bestand](inventory-manage-inventory.md)|
+|Erstellen Sie Aufträge und planen Sie Ressourcen für Projekte, verwalten Sie Auftragsbudgets, überwachen Sie den Fortschritt und verfolgen Sie Maschinen- und Mitarbeiterstunden.|[Projektmanagement](projects-manage-projects.md)|
 |Organisieren Sie Ihre Anlagen, stellen Sie die korrekten periodischen Abschreibungen sicher und Verwalten Sie Wartungskosten.|[Anlagen](fa-manage.md)|
 |Verwalten und unterstützen Sie Ihr Verkaufsanstrengungen und konzentrieren Sie sich auf Ihre bevorzugten Kunden und Kontakte.|[Marketing & Vertrieb](marketing-relationship-management.md)|
-|Führen Sie ausführliche Datensätze über Ihre Mitarbeiter und erfassen Sie Abwesenheiten zu Analysezwecken. |[Personalwesen](hr-manage-human-resources.md)|
-|Planen der erforderlichen Fertigungsabläufe, mit denen aus Eingängen Fertigerzeugnisse erstellt werden|[Planung](production-planning.md)|
-|Setzen Sie verkäufliche Artikel in einfachen Schritte zusammen, um einen neuen Artikel, wie ein Kit, zu erstellen.|[Montageverwaltung](assembly-assemble-items.md)|
+|Führen Sie detaillierte Datensätze über Ihre Mitarbeiter, und registrieren Sie Abwesenheiten zu Analysezwecken. |[Personalwesen](hr-manage-human-resources.md)|
+|Planen der Produktionsarbeitsgänge, die zur Herstellung von Fertigwaren mithilfe von Ausgangsmaterial erforderlich sind.|[Planung](production-planning.md)|
+|Stellen Sie verkaufsfähige Elemente in einfachen Schritten zu einem neuen Element zusammen, z.B. zu einem Bausatz.|[Montageverwaltung](assembly-assemble-items.md)|
 |Definieren der Produktionsressourcen und ihrer Kapazität, Planen von Abläufen, Produktionsplanung von Fertigungskomponenten und Ausführen von Fertigungsabläufen|[Produktion](production-manage-manufacturing.md)|
-|Gewährleisten eines effektiven Verarbeitungsflusses eingehender und gelieferter Waren.|[Logistik](warehouse-manage-warehouse.md)|
+|Sorgen Sie für einen effektiven Flow der eingegangenen und versendeten Waren.|[Logistik](warehouse-manage-warehouse.md)|
 |Planen von Serviceanrufen und Einrichten von Serviceaufträgen und Nachverfolgen von Reparaturteilen und Zubehör.|[Service](service-service.md)|
 |Konfigurieren und verwenden Sie Workflows, die Aufgaben verbinden, welche von verschiedenen Benutzern oder vom System ausgeführt werden, z. B. die automatische Buchung. Die Anforderung oder Bewilligung von Genehmigungen zum Erstellen oder Buchen von Belegen sind typische Workflowschritte.|[Workflow](across-workflow.md)|
 |Ermöglichen Sie Benutzern den Datenaustausch über externe Quellen im Rahmen von täglichen Aufgaben, wie dem Senden/Empfangen von elektronischen Belegen, Importieren/Exportieren von Bankdateien und dem Aktualisieren von Wechselkursen.|[Daten elektronisch austauschen](across-data-exchange.md)|
-|Erfassen Sie externe Belege in [!INCLUDE[prod_short](includes/prod_short.md)], einschließlich Dateianhängen, und erstellen Sie dann manuell die zugehörigen Belege oder wandeln Sie die Dateien automatisch in elektronische Belege um.|[Eingehende Belege](across-income-documents.md)|
+|Erfassen Sie externe Dokumente in [!INCLUDE[prod_short](includes/prod_short.md)], einschließlich ihrer Dateianhänge, und erstellen Sie dann manuell die zugehörigen Belege oder wandeln Sie die Dateien automatisch in elektronische Belege um.|[Eingehende Belege](across-income-documents.md)|
 
 ## <a name="see-also"></a>Siehe auch
 
+[Verwaltung](admin-setup-and-administration.md)    
 [Erforschen Sie die Dynamics 365 Business Central-Fähigkeiten](https://dynamics.microsoft.com/business-central/capabilities/)  
-[Verwaltung](admin-setup-and-administration.md)  
-[Einrichten [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
-[Vorbereiten auf die Geschäftsabwicklung](ui-get-ready-business.md)  
-[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
+[Bereitschaft für die Geschäftsabwicklung](ui-get-ready-business.md)  
+[Einrichten [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)   
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)   
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

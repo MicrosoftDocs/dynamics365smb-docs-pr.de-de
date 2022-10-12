@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: b594ebf1cebd1fbec7302777b5233ffd3eec198b
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 70bcc50bd419a73e242390d5a21e41360ae8d8cf
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9535317"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606440"
 ---
 # <a name="work-with-power-bi-reports-in-prod_short"></a>Mit Power BI-Berichten in [!INCLUDE [prod_short](includes/prod_short.md)] arbeiten
 
@@ -49,10 +49,10 @@ Wenn Sie sich zum ersten Mal bei [!INCLUDE [prod_short](includes/prod_short.md)]
 2. Das unterstützte Setup **Power BI-Berichte in Business Central einrichten** wird gestartet. Wählen Sie **Weiter** aus, um fortzufahren.
 3. Auf der Seite **Ihre Power BI-Lizenz überprüfen**. Führen Sie einen der folgenden Schritte aus:
 
-    - Wenn Sie sich noch nicht bei Power BI angemeldet haben, wählen Sie [Zur Power BI-Homepage wechseln](https://powerbi.microsoft.com) aus. Eröffnen Sie ein Konto, kehren Sie dann zu [!INCLUDE[prod_short](includes/prod_short.md)] zurück und beenden Sie die Einrichtung.
+    - Wenn Sie sich noch nicht bei Power BI angemeldet haben, wählen Sie [Zur Power BI-Homepage wechseln](https://powerbi.microsoft.com) aus. Melden Sie sich für ein Konto an, kehren Sie dann zu [!INCLUDE[prod_short](includes/prod_short.md)] zurück und schließen Sie die Einrichtung ab.
 
     - Wenn Sie bereits eine Lizenz haben, wählen Sie **Weiter** aus.
-4. Auf der nächsten Seite [!INCLUDE[prod_short](includes/prod_short.md)] lädt jetzt einen Demo-Bericht auf Power BI hoch. Dies dauert einige Minuten, daher erfolgt dies im Hintergrund. Um das Setup abzuschließen, wählen Sie **Weiter** und dann **Fertig** aus.
+4. Auf der nächsten Seite [!INCLUDE[prod_short](includes/prod_short.md)] lädt jetzt einen Demo-Bericht auf Power BI hoch. Dieser Schritt dauert ein paar Minuten und wird im Hintergrund ausgeführt. Um das Setup abzuschließen, wählen Sie **Weiter** und dann **Fertig** aus.
 
 Der Verbindungsvorgang beginnt. Während des Vorgangs kommuniziert [!INCLUDE [prod_short](includes/prod_short.md)] mit dem Power BI-Dienst, um festzustellen, ob Sie über ein gültiges Konto und eine gültige Lizenz für Power BI verfügen. Sobald Ihre Lizenz überprüft wurde, wird der Power BI-Standardbericht auf der Seite angezeigt. Wenn dort kein Bericht angezeigt wird, können Sie einen Bericht aus dem Teil auswählen.
 
@@ -69,9 +69,14 @@ Sobald die Verbindung hergestellt ist, können Sie auf den Seiten einen Bericht 
 
 ### <a name="show-reports-on-list-pages"></a>Berichte auf Listenseiten anzeigen
 
-[!INCLUDE[prod_long](includes/prod_long.md)] umfasst eine Power BI-Infobox auf mehreren Schlüssellistenseiten. Diese Infobox bietet zusätzliche Einblicke in die Daten in der Liste. Während Sie sich zwischen den Zeilen in der Liste bewegen, wird der Bericht für den Eintrag gefiltert und aktualisiert. Wenn Sie diesen Teil nicht sehen, wählen Sie in der Aktionsleiste **Aktionen** > **Anzeigen** > **Power BI-Berichte anzeigen/ausblenden** aus.
+[!INCLUDE[prod_long](includes/prod_long.md)] umfasst eine Power BI-Infobox auf mehreren Schlüssellistenseiten. Diese FactBox bietet zusätzliche Einblicke in die Daten in der Liste. Während Sie sich zwischen den Zeilen in der Liste bewegen, wird der Bericht für den Eintrag gefiltert und aktualisiert.
 
 Informationen zum Erstellen von Berichten für Listenseiten finden Sie unter [Erstellen von Power BI-Berichten zum Anzeigen von Listendaten in [!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-powerbi-reports-factbox.md).
+
+> [!TIP]
+> Wenn Sie die FactBox Power BI nicht sehen, ist sie möglicherweise in Ihrem Arbeitsbereich durch Personalisierung ausgeblendet. Wählen Sie das Symbol ![Einstellungen.](media/ui-experience/settings_icon_small.png "Einstellungssymbol für Rollenzentrum") Symbol und wählen Sie dann die Aktion **Personalisieren**. Weitere Informationen finden Sie unter [Personalisieren Sie Ihren Arbeitsbereich](ui-personalization-user.md).
+>
+> Oder wenn Sie eine ältere Version von Business Central haben, gehen Sie zur Aktionsleiste und wählen Sie **Aktionen** > **Anzeigen** > **Anzeigen/Ausblenden Power BI Berichte**.
 
 ### <a name="switch-reports"></a>Berichte wechseln
 
@@ -121,7 +126,7 @@ Es wurde kein Power BI-Konto eingerichtet. Für ein gültiges Power BI-Konto ben
 
 ### <a name="message-there-are-no-enabled-reports-choose-select-report-to-see-a-list-of-reports-that-you-can-display"></a>Nachricht: Es sind keine Berichte aktiviert. Wählen Sie „Bericht auswählen“ aus, um eine Liste der anzeigbaren Berichte anzuzeigen.
 
-Diese Meldung wird angezeigt, wenn der Standardbericht nicht in Ihrem Power BI-Arbeitsbereich bereitgestellt werden konnte. Oder er wurde bereitgestellt, aber nicht erfolgreich aktualisiert. Navigieren Sie zum Bericht in Ihrem Power BI-Arbeitsbereich, wählen Sie **Datensatz**, **Einstellungen** aus und aktualisieren Sie die Anmeldedaten manuell. Wenn der Datensatz erfolgreich aktualisiert wurde, navigieren Sie zurück zu [!INCLUDE[prod_short](includes/prod_short.md)] und wählen Sie den Bericht auf der Seite **Berichte auswählen** manuell aus.
+Diese Meldung wird angezeigt, wenn der Standardbericht nicht in Ihrem Power BI-Arbeitsbereich bereitgestellt werden konnte. Oder er wurde bereitgestellt, aber nicht erfolgreich aktualisiert. Navigieren Sie zum Bericht in Ihrem Power BI-Arbeitsbereich, wählen Sie **Datensatz**, **Einstellungen** aus und aktualisieren Sie die Anmeldedaten manuell. Sobald das Dataset erfolgreich aktualisiert wurde, navigieren Sie zurück zu [!INCLUDE[prod_short](includes/prod_short.md)] und wählen den Bericht manuell auf der Seite **Berichte auswählen** aus.
 
 #### <a name="you-cant-see-a-report-on-the-select-report-page-on-a-list-page"></a>Auf der Seite „Bericht auswählen“ auf einer Listenseite wird kein Bericht angezeigt
 
@@ -132,7 +137,7 @@ Vermutlich enthält der Name des Berichts nicht den Namen der Listenseite. Lösc
 ## <a name="see-also"></a>Siehe auch
 
 [Business Central und Power BI](admin-powerbi.md)  
-[Power BI-Berichte erstellenl zur Anzeige von [!INCLUDE [prod_long](includes/prod_long.md)]-Daten](across-how-use-financials-data-source-powerbi.md)  
+[Power BI-Berichte erstellen zur Anzeige von [!INCLUDE [prod_long](includes/prod_long.md)]-Daten](across-how-use-financials-data-source-powerbi.md)  
 [Übersicht über die Power BI-Integrationskomponente und -Architektur für [!INCLUDE[prod_short](includes/prod_short.md)]](admin-powerbi-overview.md)  
 [Mit [!INCLUDE [prod_short](includes/prod_short.md)]-Daten in Power BI arbeiten](across-working-with-business-central-in-powerbi.md)  
 [Power BI für Verbraucher](/power-bi/consumer/end-user-consumer)  
@@ -141,9 +146,8 @@ Vermutlich enthält der Name des Berichts nicht den Namen der Listenseite. Lösc
 [Power BI Dokumentation](/power-bi/)  
 [Business Intelligence](bi.md)  
 [Vorbereitung für die Geschäftstätigkeit](ui-get-ready-business.md)  
-[Importieren von Geschäftsdaten aus anderen Finanzsystemen](across-import-data-configuration-packages.md)  
+[Importieren von Geschäftsdaten aus anderen Finance-Systemen](across-import-data-configuration-packages.md)  
 [Einrichten [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
-[[!INCLUDE[prod_short](includes/prod_short.md)] als Power BI-Datenquelle verwenden](across-how-use-financials-data-source-powerbi.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] als Power Apps-Datenquelle verwenden](across-how-use-financials-data-source-powerapps.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] in Power Automate verwenden](across-how-use-financials-data-source-flow.md)  
 

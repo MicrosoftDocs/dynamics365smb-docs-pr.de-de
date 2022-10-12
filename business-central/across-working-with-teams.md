@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, share records
-ms.date: 05/19/2021
+ms.date: 09/22/2022
 ms.author: jswymer
-ms.openlocfilehash: d663f3099f90f5eccff3ab5acefc97f8b27629b2
-ms.sourcegitcommit: d6af3155bb818430f22d5caca78df322a8d9b178
+ms.openlocfilehash: 17be576dad0eaf31918951e4e11a73acdd0ae70e
+ms.sourcegitcommit: b4da421c19c3aa3031b0344ec2829d2038be6642
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2022
-ms.locfileid: "8528449"
+ms.lasthandoff: 10/03/2022
+ms.locfileid: "9617793"
 ---
 # <a name="sharing-business-central-records-and-page-links-in-microsoft-teams"></a>Gemeinsame Nutzung von Business Central Datensätzen und Seitenlinks in Microsoft Teams
 
@@ -102,21 +102,27 @@ Weitere Informationen zum Arbeiten mit Karten und Kartendetails finden Sie unter
 
 Direkt von den meisten Sammlungsseiten, wie der Seite **Elemente**, und Detailseiten, wie der Karte **Elemente**, können Sie einen Link zu der Seite an bestimmte Empfänger in einer Unterhaltung in Teams senden. So können Sie beispielsweise einen Link zu einer gefilterten Ansicht Ihrer Datensätze freigeben. Die Empfänger können dann den Link auswählen, um die Seite in [!INCLUDE [prod_short](includes/prod_short.md)]\. zu öffnen.
 
- ![!Das Menü Teilen, das auf einer Karte angezeigt wird.](media/teams-share-link.png "Das Menü Teilen, das auf einer Karte angezeigt wird.")
+[![!Das Menü Teilen, das auf einer Karte angezeigt wird.](media/teams-share-link-v2.png "Das Menü Teilen, das auf einer Karte angezeigt wird.")](media/teams-share-link-v2.png#lightbox)
 
 ### <a name="prerequisites"></a>Voraussetzungen
-Sie haben Zugriff auf Microsoft Teams.
+
+- Sie haben Zugriff auf Microsoft Teams.
+- (Optional) Sie haben die App [!INCLUDE [prod_short](includes/prod_short.md)] in Teams installiert. 
+
+  Wenn die App installiert ist, enthalten Nachrichten, die Sie mit dem Link versenden, auch eine kompakte Karte für die Seite. Weitere Informationen zum Installieren der App finden Sie unter [Installieren Sie die [!INCLUDE [prod_short](includes/prod_short.md)] App für Microsoft Teams](across-install-app-for-teams.md).
 
 ### <a name="share-a-link"></a>Einen Link freigeben
 
 1. Öffnen Sie in [!INCLUDE [prod_short](includes/prod_short.md)]\, die Seite, die Sie teilen möchten.
 2. Wählen Sie oben auf der Seite die Aktion ![!Für andere Apps freigeben auf Seiten.](media/share-icon.png) Symbol und dann **Für Teams freigeben**.
 3. Falls Sie dazu aufgefordert werden, melden Sie sich bei Teams mit Ihrem Benutzernamen und Kennwort an.
-4. Geben Sie auf der Seite **Für Teams freigeben** den Namen einer Person, einer Gruppe oder eines Kanals ein, an den Sie die Nachricht senden möchten. 
-5. Das Nachrichtenfeld enthält einen Link zu dieser Seite. Fügen Sie weitere Informationen hinzu, wenn Sie möchten, und wählen Sie dann **Freigeben**.
+4. Geben Sie auf der Seite **Für Teams freigeben** den Namen einer Person, einer Gruppe oder eines Kanals ein, an den Sie die Nachricht senden möchten.
+5. Das Nachrichtenfeld enthält einen Link zu dieser Seite. Wenn die App [!INCLUDE [prod_short](includes/prod_short.md)] für Teams installiert ist, wird im Nachrichtenfeld auch eine Karte für den verlinkten Datensatz oder die verlinkte Seite angezeigt.
+
+   Fügen Sie weitere Informationen hinzu, wenn Sie möchten, und wählen Sie dann **Freigeben**.
 6. Der Link wurde nun geteilt. Wenn Sie zu der Unterhaltung gehen möchten, wählen Sie **Zu Teams gehen**.
 
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-also"></a>Siehe auch
 
 [Übersicht über die Integration von Business Central und Microsoft Teams](across-teams-overview.md)  
 [Installieren Sie die [!INCLUDE [prod_short](includes/prod_short.md)] App für Microsoft Teams](across-install-app-for-teams.md)  
@@ -127,6 +133,5 @@ Sie haben Zugriff auf Microsoft Teams.
 [Entwickeln für Teams Integration](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

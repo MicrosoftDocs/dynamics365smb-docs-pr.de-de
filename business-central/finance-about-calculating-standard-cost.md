@@ -8,14 +8,15 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 5841
 ms.author: edupont
-ms.openlocfilehash: c7be7f69c2b5d2c71b54ac3046900474e0c86f5f
-ms.sourcegitcommit: 2fa712d0aabe4287ebd4454c28d142d6baf045a0
+ms.openlocfilehash: 966baa1d1adb25c811f8b9518abe0d79f5839cac
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/09/2022
-ms.locfileid: "8729911"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606775"
 ---
 # <a name="about-calculating-standard-cost"></a>Informationen zur Berechnung von festen Einstandspreisen
+
 Viele Produktionsbetriebe verwenden feste Einstandspreise als Bewertungsbasis. Dies gilt auch für Unternehmen, die Leichtproduktion ausführen, wie Montage und Kitting. Ein Einstandspreissystem bestimmt die Kosten einer Lagerbestandseinheit anhand fundierter früherer oder erwarteter Kosten. Untersuchungen der früheren oder der erwarteten zukünftigen Kosten können dann die Basis für feste Einstandspreise bereitstellen. Diese Kosten bleiben unverändert, bis entschieden wird, sie zu ändern. Die Ist-Produktionskosten eines Produkts können von den erwarteten festen Einstandspreisen abweichen. Damit das Management steuernd eingreifen kann, werden die Ist-Kosten eines bestimmten Artikels mit dessen festem Einstandspreis verglichen. Dabei entdeckte Unterschiede oder *Abweichungen* werden gekennzeichnet und analysiert.  
 
 Feste Einstandspreise können für Artikel verwaltet werden, die durch Einkauf, Montage und Produktion beschafft werden. Für jede Beschaffungsmethode können feste Einstandspreise aus den folgenden Elementen bestehen.  
@@ -26,7 +27,8 @@ Feste Einstandspreise können für Artikel verwaltet werden, die durch Einkauf, 
 |**Montage**|Direkte Materialkosten, direkte oder feste Arbeitskosten und Gemeinkosten.|  
 |**Fertigungsauftrag**|Direkte Materialkosten, Arbeitskosten, Subunternehmerkosten und Gemeinkosten.|  
 
-## <a name="setting-up-standard-costs"></a>Einstandspreise einrichten  
+## <a name="setting-up-standard-costs"></a>Festlegen von Standardkalkulationen
+
 Da der Einstandspreis eines produzierten oder montierten Artikels aus mehreren Kostenelementen - Material-, Kapzitäts- und Fremdarbeitskosten (EK-Preise und Gemeinkosten) - besteht, muss der Einstandspreis für jedes dieser Elemente festgelegt werden.  
 
 Die Kalkulationsaufgabe für einen Artikelproduktionsbetrieb, in dem Einstandspreise verwendet werden, besteht aus:  
@@ -42,7 +44,7 @@ Die folgenden wesentlichen Kostenelemente bilden die direkten Kosten eines ferti
 - Kapazitätskosten.  
 - Fremdarbeitskosten nur für gefertigte Artikel.  
 
-### <a name="material-costs"></a>Materialkosten
+### <a name="material-costs"></a>Stoffkosten
 
 Materialkosten sind Kosten, die Halbfabrikaten und gekauftem Rohmaterial zugeordnet sind. Materialeinstandspreise können aus direkten und indirekten Kostenelementen bestehen.  
 
@@ -60,7 +62,8 @@ Die Materialkosten eines Produktionsartikels können auf zwei Arten dargestellt 
 |Einstufig|Der gefertigte Artikel entspricht den Gesamtkosten aller gekauften oder als Unterbaugruppen verbauten Artikel in der Fertigungsstückliste dieses Artikels.|  
 |Mehrstufige Ebene oder mehrstufig|"Gefertigter Artikel" ist die Summe der Materialkosten aller Halbfabrikate in der Stückliste dieses Artikels und der Kosten aller Einkaufsartikel in der Fertigungsstückliste dieses Artikels.|  
 
-### <a name="capacity-costs"></a>Kapazitätskosten  
+### <a name="capacity-costs"></a>Kalkulation von Kapazitäten
+
 Kapazitätskosten entsprechen den internen Bearbeitungs- und den Maschinenkosten. Sie müssen diese Kosten für jede Ressource (in der Montageverwaltung) und jeden Arbeitsplatz bzw. jede Arbeitsplatzgruppe im Arbeitsgang (in der Fertigung) einrichten. Wie bei den Materialien können Sie sowohl direkte als auch indirekte Elemente für die Kapazitätskosten angeben. Beispielsweise können die direkten Kosten für eine Arbeitsplatzgruppe gleich dem "Werkstattsatz" sein, der für das Ausführen einer bestimmten Funktion anfällt. Die indirekten Kosten für eine Arbeitsplatzgruppe entsprechen üblicherweise allgemeinen Unternehmensausgaben wie Beleuchtung, Heizung usw. Analog zu Materialkosten können Kapazitätsgemeinkosten als Prozentsatz indirekter Kosten und/oder als feststehender Gemeinkostenbetrag ausgedrückt werden.  
 
 Die Einrichtung der Kapazitätskosten für montierte Artikel besteht aus den folgenden Elementen:  
@@ -84,26 +87,30 @@ Um Rüstzeiten im Arbeitsgang für die Planung anzugeben, jedoch nicht bei der E
 
 Auf einer einstufigen Grundlage sind dies die Bearbeitungskosten, die erforderlich sind, um den fertigen Produktionsartikel herzustellen, und die im Arbeitsplan des Produktionsartikels angegeben werden. Auf einer mehrstufigen Grundlage, sind dies die Kapazitätskosten, die für jeden einzeln gefertigten Artikel, der in der Stückliste des übergeordneten Artikels enthalten ist, angegeben werden.  
 
-### <a name="subcontractor-costs"></a>Fremdarbeitskosten  
+### <a name="subcontractor-costs"></a>Kosten für Subunternehmer
+
 Fremdarbeitskosten sind die Kosten, die Serviceleistungen zugeordnet sind, die von externen Kreditoren oder von Subunternehmern bereitgestellt werden. Ähnlich wie Material- und Kapazitätskosten können Fremdarbeitskosten sowohl aus direkten Kosten (Einstandspreise) als auch aus Gemeinkosten bestehen. Direkte Subunternehmerkosten entsprechen den tatsächlichen Kosten, pro bereitgestellter Serviceeinheit anfallen. Subunternehmergemeinkosten können z. B. den Fracht- und/oder Transportkosten entsprechen, die das Unternehmen im Zusammenhang mit einem Auftrag übernimmt, der einem Subunternehmer erteilt wurde.  
 
 Da Fremdarbeit im Wesentlichen eine ausgelagerte Kapazität ist, werden die Kosten der Fremdarbeitsservices (sowohl direkte als auch indirekte Kosten) auf der Subunternehmer-Arbeitsplatzkarte eingerichtet.  
 
-## <a name="updating-standard-costs"></a>Feste Einstandspreise aktualisieren  
+## <a name="updating-standard-costs"></a>Aktualisieren von Standardkalkulationen
+
 Um den festen Einstandspreis von Montageartikeln zu aktualisieren oder zu berechnen, verwenden Sie die Funktion auf der Artikelkarte.  
 
 Die Aktualisierung oder Berechnung von festen Einstandspreisen umfasst üblicherweise die folgenden Aufgaben:  
 
 1.  Aktualisieren von Kosten auf der Komponenten- und Kapazitätsebene. Weitere Informationen finden Sie unter Stapelverarbeitungen **Artikel Einst.-Preis vorschlagen** und **Einstandspreis für Kapazität vorschlagen**.  
-2.  Konsolidieren und mehrstufiges Berechnen der Komponenten- und Kapazitätskosten, um die Gesamtproduktionskosten der Artikel zu berechnen. Weitere Informationen finden Sie unter [So berechnen Sie die Standardkosten eines Montageartikels](inventory-how-work-boms.md#to-calculate-the-standard-cost-of-an-assembly-item).  
+2.  Konsolidieren und mehrstufiges Berechnen der Komponenten- und Kapazitätskosten, um die Gesamtproduktionskosten der Artikel zu berechnen. Weitere Informationen finden Sie unter Weitere Informationen finden Sie unter [So berechnen Sie die Standardkosten für ein Montage-Element](assembly-how-work-assembly-boms.md#to-calculate-the-standard-cost-of-an-assembly-item).  
 3.  Implementieren der festen Einstandspreise, die bei der Ausführung der vorherigen Batchaufträge eingegeben werden. Die festen Einstandspreise treten erst in Kraft, wenn Sie implementiert werden. Verwenden Sie den Stapelverarbeitungsauftrag **Einst.-Preis (fest) Vorschlag übernehmen**, der die Änderungen der Standardkosten für Artikel mit denen aus der Tabelle „Einst.-Preis (fest) Arbeitsblatt“ aktualisiert.  
 4.  Implementieren der Änderungen, um das Feld **Einstandspreis** auf der Artikelkarte zu aktualisieren und eine Lagerneubewertung durchzuführen. Weitere Informationen finden Sie unter [Neubewerten von Lagerbestand](inventory-how-revalue-inventory.md).
 
-## <a name="see-also"></a>Siehe auch  
- [Designdetails: Kostenberechnungsmethoden](design-details-costing-methods.md)   
- [Mit Fertigungsstücklisten arbeiten](inventory-how-work-BOMs.md)   
- [Standardkosten aktualisieren](finance-how-to-update-standard-costs.md)   
- [Designdetails: Lagerkostenberechnung](design-details-inventory-costing.md)
+## <a name="see-also"></a>Siehe auch
 
+[Designdetails: Kostenberechnungsmethoden](design-details-costing-methods.md)  
+[Standardkosten aktualisieren](finance-how-to-update-standard-costs.md)  
+[Design Details: Kalkulation des Bestandes](design-details-inventory-costing.md)  
+[Arbeiten mit Stücklisten für die Montage](assembly-how-work-assembly-boms.md)  
+[Fertigungsauftrag erstellen](production-how-to-create-production-boms.md)  
+[Arbeiten mit Stücklisten](inventory-how-work-BOMs.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

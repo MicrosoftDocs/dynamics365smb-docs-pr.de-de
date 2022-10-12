@@ -1,6 +1,6 @@
 ---
 title: Tatsächlichen Beträge mit den budgetierten Beträgen analysieren
-description: In diesem Thema wird beschrieben, wie Sie Ist-Beträge gegenüber Plan-Beträgen analysieren können, um Daten Ihrer Firma zu erfassen, zu analysieren und weiterzugeben.
+description: In diesem Artikel wird beschrieben, wie Sie die tatsächlichen Beträge im Vergleich zu den geplanten Beträgen analysieren können, um Daten Ihrer Firma zu erfassen, zu analysieren und weiterzugeben.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -8,69 +8,73 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.search.form: 120, 121, 422
-ms.date: 06/15/2021
+ms.date: 09/14/2022
 ms.author: edupont
-ms.openlocfilehash: 8be263821e288d314f0c5b91415ca204e767a98e
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 927622bf51f4474d995cd2e35f72ec3111844886
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9535101"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9605272"
 ---
 # <a name="analyze-actual-amounts-versus-budgeted-amounts"></a>Tatsächlichen Beträge mit den budgetierten Beträgen analysieren
+
 Als Teil des Zusammentragen, Analysieren und Teilen der Firmendaten sehen Sie aktuelle Beträge verglichen mit den budgetierten Beträgen für alle Konten sowie für mehrere Perioden.
 
-Um budgetierte Beträge zu analysieren, müssen Sie zunächst Sachkontenbudgets erstellen. Weitere Informationen finden Sie unter [Sachkonto-Budgets erstellen](finance-how-create-budgets.md).
+Um die budgetierten Beträge zu analysieren, müssen Sie zunächst Sachkontenbudgets erstellen. Erfahren Sie mehr unter [Sachkontenbudgets erstellen](finance-how-create-budgets.md).
 
-## <a name="to-view-a-gl-budget"></a>Einsehen eines Sachkonto-Budgets
+## <a name="view-a-gl-budget"></a>Ein Sachkontenbudget anzeigen
+
 In einem Budget mit Dimensionen können Sie die Posten filtern und somit bestimmte Budgets einsehen.
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Sachkontenbudgets** ein, und wählen Sie dann den entsprechenden Link.
-2. Öffnen Sie auf der Seite **G/L Budgets** das Budget, das Sie anzeigen möchten.  
-3. Auf der Seite oben füllen Sie die Felder aus, um anzuzeigen, was gezeigt werden soll. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol, geben Sie **Sachkontenbudgets** ein und wählen Sie dann den entsprechenden Link.
+2. Öffnen Sie auf der Seite **Sachkontenbudgets** das Budget, das Sie sich ansehen möchten.  
+3. Füllen Sie oben auf der Seite die erforderlichen Felder aus, um festzulegen, was angezeigt werden soll. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
->   Wenn Sie **Periode** entweder im Feld **Als Zeile anzeigen** oder im Feld **Als Spalte anzeigen** ausgewählt haben, müssen Sie das Feld **Anzeigen nach** ausfüllen. Wenn Sie **Periode** weder im Feld **Zeilenansicht** noch im Feld **Spaltenansicht** ausgewählt haben, dann geben Sie die entsprechende Periode im Feld **Datenfilter** ein.  
+> Wenn Sie **Periode** entweder im Feld **Als Zeilen anzeigen** oder **Als Spalten anzeigen** ausgewählt haben, müssen Sie das Feld **Anzeigen nach** ausfüllen. Wenn Sie in keinem dieser Felder **Periode** ausgewählt haben, geben Sie die entsprechende Periode in das Feld **Datumsfilter** ein.  
 
 > [!NOTE]  
->   In der Berechnung werden nur Finnanzbudgetposten mit den Filtercodes berücksichtigt, die Sie im Inforegister **Filter** eingeben. Budgetposten mit anderen Filtercodes oder ohne Filtercodes werden nicht berücksichtigt. Solange der Filter auf der Seite verbleibt, zeigt das Budget nur die Budgetposten mit diesen Filtercodes an.  
+> Nur Einträge aus dem Sachkonto mit den Filtercodes, die Sie auf dem Inforegister **Filter** eingeben, werden bei der Berechnung berücksichtigt. Budgetbuchungen ohne oder mit anderen Filtercodes werden nicht berücksichtigt. Solange der Filter auf der Seite bleibt, werden im Budget nur Einträge mit diesen Filtercodes angezeigt.  
 
 > [!TIP]  
->   Ist eine Änderung des Budgets erforderlich, können Sie die einzelnen Budgetposten bearbeiten. Wählen Sie einen Betrag aus, um die zugrunde liegenden Finanzbudgetposten anzuzeigen.
+> Verwenden Sie die Aktion **Budget bearbeiten**, um das Budget zu ändern. Wählen Sie auf der Budgetseite einen Betrag aus, um die zugrundeliegenden Sachkonto-Budgeteinträge anzuzeigen.
 
-## <a name="to-view-actual-and-budgeted-amounts-for-all-accounts"></a>Aktuelle und budgetierte Beträge für alle Konten anzeigen:  
+## <a name="view-actual-and-budgeted-amounts-for-all-accounts"></a>Anzeigen der tatsächlichen und budgetierten Beträge für alle Konten
+
 Sie können Finanzbudgets anzeigen und sie mit tatsächlichen Werten in verschiedenen Bereichen von [!INCLUDE[prod_short](includes/prod_short.md)] vergleichen.
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Kontenplan** ein, und wählen Sie dann den zugehörigen Link.  
 2. Auf der Seite **Kontenplan** wählen Sie die **Saldo/Budget** Aktion aus.
-3. Auf der Seite oben füllen Sie die Felder aus, um anzuzeigen, was gezeigt werden soll.  
-4. Um die Spezifikation eines angezeigten Betrags anzuzeigen, aktivieren Sie das Feld.  
+3. Füllen Sie auf dem Inforegister **Optionen** die erforderlichen Felder aus, um festzulegen, was in der Tabelle angezeigt werden soll.  
+4. Bewegen Sie den Mauszeiger über ein Feld in der Tabelle, um eine kurze Beschreibung des angezeigten Betrags zu lesen.
 
 > [!NOTE]  
->   Die Filter, die Sie im Kopf auf der Seite setzen, werden sowohl auf die Sachposten als auch auf die Budgetposten angewendet.
+> Die Filter, die Sie auf dem Seitenkopf festgelegt haben, werden sowohl auf die Hauptbuch- als auch auf die Haushaltsbucheinträge angewendet.
 
 Die Spalten auf der linken Seite enthalten den Kontenplan. Von den fünf Spalten auf der rechten Seite enthalten die ersten vier aktuelle und budgetierte Soll- und Habenbeträge für jedes Konto. Die fünfte Spalte zeigt die Relation zwischen den aktuellen und den budgetierten Beträgen des Sachkontos.  
 
 > [!TIP]  
->   Wählen Sie auf der Seite **Saldo/Budget** mithilfe des Felds **Anzeigen nach** die gewünschte Periodenlänge aus. Wählen Sie mithilfe des Felds **Anzeigen als** aus, wie die Beträge berechnet werden sollen (**Bewegung** oder **Saldo bis Datum**). Klicken Sie auf der Registerkarte Aktionen auf **Vorperiode** oder F **olgeperiode**, um die Periode zu ändern.  
+> Wählen Sie auf der Seite **Saldo/Budget** mithilfe des Felds **Anzeigen nach** die gewünschte Periodenlänge aus. Verwenden Sie das Feld **Ansicht als**, um auszuwählen, wie die Beträge berechnet werden sollen, entweder **Nettoänderung** oder **Saldo zum Datum**. Klicken Sie auf der Registerkarte Aktionen auf **Vorperiode** oder F **olgeperiode**, um die Periode zu ändern.  
 
 ## <a name="to-view-actual-and-budgeted-amounts-for-several-periods"></a>Aktuelle und budgetierte Beträge für mehrere Perioden anzeigen:  
+
 Anstatt die aktuellen und budgetierten Beträge für alle Konten für eine einzige Periode einzusehen, können Sie eine Anzahl von Perioden für ein einziges Konto einsehen.  
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Kontenplan** ein, und wählen Sie dann den zugehörigen Link.  
-2. Auf der Seite **Kontenplan** wählen Sie das entsprechende Sachkonto aus, und wählen Sie die **Sachkontensaldo/Budget** Aktion aus.  
-3. Auf der Seite oben füllen Sie die Felder aus, um anzuzeigen, was gezeigt werden soll.   
-4. Um die Spezifikation eines angezeigten Betrags anzuzeigen, aktivieren Sie das Feld.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol, geben Sie **Kontenplan** ein und wählen Sie dann den entsprechenden Link.  
+2. Wählen Sie auf der Seite **Kontenplan** das entsprechende Sachkonto aus und wählen Sie dann die Aktion **Sachkonto Saldo/Budget**.  
+3. Füllen Sie auf dem Inforegister **Optionen** die erforderlichen Felder aus, um festzulegen, was in der Tabelle angezeigt werden soll.  
+4. Fahren Sie auf der Seite **Zeilen** Inforegister mit dem Mauszeiger über ein Feld in der Tabelle, um eine kurze Beschreibung des angezeigten Betrags zu lesen.  
 
-## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/budgets-exchange-rates-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe dazu die Schulung unter [Microsoft Learn](/learn/modules/budgets-exchange-rates-dynamics-365-business-central/index).
 
 ## <a name="see-also"></a>Siehe auch
-[Business Intelligence](bi.md)  
-[Arbeiten mit Kontenschemata](bi-how-work-account-schedule.md)  
+
+[Financial Business Intelligence](bi.md)  
+[Arbeiten mit Financial Reports](bi-how-work-account-schedule.md)  
 [Finanzen](finance.md)  
 [Finanzen einrichten](finance-setup-finance.md)  
 [Die Finanzbuchhaltung und der Kontenplan](finance-general-ledger.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
