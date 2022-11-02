@@ -10,12 +10,12 @@ ms.search.keywords: customize, personalize, personalization, hide columns, remov
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 10/11/2022
 ms.author: bholtorf
-ms.openlocfilehash: ccc0d6612b3d2416263ed26089fc176f4fcbb2d2
-ms.sourcegitcommit: a9c778b65925435a4099fad45b3611f310e0b203
+ms.openlocfilehash: 436adf8dcfd9d5825530a1a51f5ed0efad7d9b7c
+ms.sourcegitcommit: 902834e76460d751a345485c66fd2831066b396b
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "9652164"
+ms.lasthandoff: 10/25/2022
+ms.locfileid: "9716570"
 ---
 # <a name="personalize-your-workspace"></a>Ihren Arbeitsbereich personalisieren
 
@@ -155,6 +155,12 @@ Um die Personalisierung besser zu verstehen, finden Sie hier einige Hinweise.
 - Änderungen, die Sie machen, treten in allen Ihren Rollencenter in Kraft. Wenn Sie beispielsweise eine Änderung auf der Seite **Debitoren** ändern, wenn das Rollencenter auf Geschäftsführer festgelegt ist, finden Sie auch die Änderung in der Debitorenübersicht, wenn das Rollencenter auf Verkaufsauftragsprozess festgelegt wurde.
 - Änderungen an einer Seite in einem Bereich treten auf der Seite in Kraft, in der sie angezeigt werden.  
 - Sie können Felder und Spalten von einer vordefinierten nur Liste hinzufügen, die auf der Seite sind. Sie können keine neuen Referenzen erstellen.
+- Das **Power Automate** Element in der Aktionsleiste
+  - Sie können das Element **Automatisieren** oder das Unterelement **Power Automate** und seine Aktionen **Erstellen eines Flows** und **Verwalten von Flows** nicht ausblenden oder verschieben.
+  - Sie können Flows, die unter dem Element **Automatisieren** enthalten sind, verschieben, aber Sie können sie nicht über die Personalisierung ausblenden. Durch das Verschieben des Flows wird der Flow an den Zielort kopiert, er wird jedoch nicht aus dem Element **Automatisieren** entfernt.
+
+   > [!TIP]
+   > Als Administrator können Sie das Element **Automatisierung** vor den Benutzern verbergen. Mehr dazu erfahren Sie unter [Einrichten der Power Automate Integration](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup).
 
 ## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/personalize-ui-dynamics-365-business-central/index)
 
