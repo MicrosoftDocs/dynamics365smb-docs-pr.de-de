@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.form: HelpAndSupport
 ms.author: edupont
 ms.date: 03/21/2022
-ms.openlocfilehash: 9e20cf4862f841e96a83b129a27b7db34494f57c
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
+ms.openlocfilehash: 0df97fbafd160e932700b5f66de455d50ff8f645
+ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9607715"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "9728572"
 ---
 # <a name="resources-for-help-and-support"></a>Ressourcen für Hilfe und Support
 
@@ -114,9 +114,13 @@ Dieser Abschnitt bietet Shortcuts zu, Microsoft AppSource, wo Sie Lösungen und 
 
 ### <a name="give-feedback"></a>Feedback abgeben
 
-Auf der [Ideensite von Dynamics 365](https://aka.ms/bcideas) können Sie Vorschläge für neue Funktionen zur Verfügung stellen. Ihre Anregungen werden dann zur Untersuchung und Priorisierung direkt an das Technikteam von Business Central weitergeleitet.  
+Ungefähr einmal pro Quartal sammelt das [!INCLUDE [prod_short](includes/prod_short.md)]-Team Feedback von unseren Benutzern darüber, wie zufrieden sie mit dem Produkt sind. Zusätzlich zu den Bewertungen können Sie auch einen schriftlichen Kommentar abgeben. Indem Sie uns spezifische und umsetzbare Kommentare geben, helfen Sie unseren technischen Teams dabei, die Produktverbesserungen, in die wir investieren, zu priorisieren. Sie können auch zustimmen, dass wir Sie wegen Ihres Kommentars kontaktieren dürfen. Wenn Sie dies tun, werden Sie zu einem für Sie passenden Zeitpunkt zu einem Teams-Meeting eingeladen. Sie können jederzeit Produktvorschläge auf unserer [Dynamics 365 Ideen](https://aka.ms/bcideas) Website machen.  
 
-Stellen Sie sicher, dass Sie die Liste nach eingereichten Vorschlägen durchsuchen. Es ist möglich, dass etwas Ähnliches bereits eingereicht wurde und dieser Vorschlag bereits Stimmen erhalten hat. Stimmen Sie ab, wenn eine bereits eingereicht wurde, damit sie vom Technikteam priorisiert wird.  
+### <a name="product-suggestions"></a>Produktvorschläge
+
+Auf der [Dynamics 365 Ideen-Website](https://aka.ms/bcideas) können Sie Vorschläge für neue Funktionen und Funktionalitäten machen. Ihre Anregungen fließen direkt in das technische Backlog von Business Central ein, wo sie untersucht und nach Prioritäten geordnet werden.  
+
+Stellen Sie sicher, dass Sie die Liste nach eingereichten Vorschlägen durchsuchen. Es besteht die Möglichkeit, dass bereits jemand etwas Ähnliches gesendet hat, und dass dieser Beitrag bereits eine Abstimmung erhalten hat. Stimmen Sie ab, wenn eine bereits eingereicht wurde, damit sie vom Technikteam priorisiert wird.  
 
 ### <a name="troubleshooting"></a>Problembehebung
 

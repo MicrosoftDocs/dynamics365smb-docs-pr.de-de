@@ -8,35 +8,19 @@ ms.search.form: 30105, 30106, 30107, 30108, 30109,
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: d4ff86179fa5b82bcc398ee58cf92fc121c486d8
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
+ms.openlocfilehash: 1a796d1094401cd2ebc0efd54f752211d22bfb12
+ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9361421"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "9728653"
 ---
 # <a name="synchronize-customers"></a>Debitoren synchronisieren
 
-Wenn ein Auftrag aus Shopify importiert wird, sind die Informationen über den Kunden für die weitere Verarbeitung des Dokuments in [!INCLUDE[prod_short](../includes/prod_short.md)] unerlässlich. Dazu sind zwei Hauptoptionen und deren Kombinationen verfügbar:
+Wenn ein Auftrag aus Shopify importiert wird, sind die Informationen über den Kunden für die weitere Verarbeitung des Dokuments in [!INCLUDE[prod_short](../includes/prod_short.md)] unerlässlich. Dies sind die beiden wichtigsten Optionen und ihre Kombinationen:
 
 * Verwenden Sie einen speziellen Kunden für alle Bestellungen.
 * Importieren Sie die tatsächlichen Kundeninformationen aus Shopify. Diese Option steht auch zur Verfügung, wenn Sie Kunden zuerst nach Shopify von [!INCLUDE[prod_short](../includes/prod_short.md)] exportieren.
-
-## <a name="how-the-connector-chooses-which-customer-to-use"></a>Wie der Konnektor auswählt, welcher Kunde verwendet werden soll
-
-Die Funktion *Bestellung aus Shopify importieren* versucht, die Debitoren in der folgenden Reihenfolge auszuwählen:
-
-1. Wenn das Feld **Standarddebitorennr.** Feld in der **Shopify Kundenvorlage** für das entsprechende Land definiert ist, dann wird die **Standardkunden-Nr.** wird verwendet, unabhängig von den Einstellungen in den Feldern **Kundenimport von Shopify** und **Kundenzuordnungstyp**. Weitere Informationen unter [Debitorenvorlage pro Land](synchronize-customers.md#customer-template-per-country).
-2. Wenn der **Kundenimport von Shopify** auf *Keine* festgelegt ist und die **Standardkunden-Nr.** auf der Seite **Shopify-Shop-Karte** definiert sind, wird die **Standarddebitorennr.** verwendet.
-
-Die nächsten Schritte hängen von der **Kundenzuordnung Typ** ab.
-
-* Wenn dies **Nehmen Sie immer den Standardkunden** ist, dann verwendet der Konnektor den in der **Standarddebitorennr.** definierten Debitor Feld auf der Seite **Shopify Shop-Karte**.
-* **Nach E-Mail/Telefon**, der Konnektor versucht, den bestehenden Kunden zuerst nach der ID, dann nach der E-Mail und dann nach der Telefonnummer zu finden. Wenn der Debitor nicht gefunden wird, erstellt der Konnektor einen neuen Debitor.
-* **Nach Rechnungsinformationen** versucht der Konnektor, den bestehenden Kunden zunächst über die ID und dann über die Rechnungsadressinformationen zu finden. Wenn der Debitor nicht gefunden wird, erstellt der Konnektor einen neuen Debitor.
-
-> [!NOTE]  
-> Der Konnektor verwendet die Informationen aus der Rechnungsadresse und erstellt den Rechnungsempfänger in [!INCLUDE[prod_short](../includes/prod_short.md)]. Der Verk. an Debitor ist derselbe wie Rechnung an Debitor.
 
 ## <a name="important-settings-when-importing-customers-from-shopify"></a>Wichtige Einstellungen beim Import von Debitoren aus Shopify
 
@@ -47,12 +31,12 @@ Ob Siee Debitoren aus Shopify in großen Mengen oder zusammen mit dem Import von
 |**Debitorenimport aus Shopify**|Wählen Sie **Alle Kunden**, wenn Sie Kunden aus Shopify in großen Mengen importieren möchten; entweder manuell mit der Aktion **Kunden synchronisieren** oder über die Auftragswarteschlange für wiederkehrende Aktualisierungen. Unabhängig von der Auswahl werden die Kundeninformationen immer zusammen mit der Bestellung importiert. Die Verwendung dieser Information hängt jedoch von den **Shopify Kundenvorlagen** und den Einstellungen im Feld **Kundenzuordnungstyp** ab.|
 |**Kundenzuordnungstyp**|Legen Sie fest, wie der Konnektor die Zuordnung vornehmen soll.<br>- **Nach E-Mail/Telefon**, wenn Sie möchten, dass der Konnektor den importierten Shopify-Kunden anhand von E-Mail und Telefon einem bestehenden Kunden in [!INCLUDE[prod_short](../includes/prod_short.md)] zuordnet.</br>- **Nach Rechnungsinformationen**, wenn Sie möchten, dass der Konnektor die Adresse des Rechnungsempfängers verwenden, um den importierten Shopify-Debitor einem bestehenden Debitor in [!INCLUDE[prod_short](../includes/prod_short.md)] zuzuordnen und dabei die Adressinformationen der Partei verwendet, die die Rechnung erhält.</br>- Wählen Sie **Immer den Standarddebitoren nehmen**, wenn Sie möchten, dass das System einen Debitoren aus der **Standarddebitorennr.** verwendet Feld |
 |**Shopify Kann Debitoren aktualisieren**| Wählen Sie dieses Feld, ob der Konnektor gefundene Debitoren aktualisieren soll, wenn die Optionen **Nach E-Mail/Telefon** oder **Nach Rechnungsinformationen** im Feld **Debitorzuordnungstyp** ausgewählt sind.|
-|**Unbekannte Debitoren automatisch erstellen**| Wählen Sie dieses Feld, ob der Konnektor fehlende Debitoren erstellen soll, wenn die Optionen **Nach E-Mail/Telefon** oder **Nach Rechnungsinformationen** im Feld **Debitorzuordnungstyp** ausgewählt sind. Ein neuer Kunde wird anhand der importierten Daten und des **Kundenvorlagencodes** erstellt, der auf den Seiten **Shopify Shop-Karte** oder **Shopify Kundenvorlage** definiert ist. Beachten Sie, dass der Shopify-Debitor über mindestens eine Adresse verfügen muss. Wenn diese Option nicht aktiviert ist, müssen Sie einen Debitoren manuell erstellen und mit dem Debitor Shopify verknüpfen. Sie können die Erstellung eines Debitors jederzeit manuell auf der Seite **Shopify-Bestellung** initiieren.|
-|**Debitorenvorlagencode**|Dieses Feld wird zusammen mit **Unbekannte Debitoren automatisch erstellen** verwendet.<br>- Wählen Sie die Standardvorlage aus, die für automatisch erstellte Debitoren verwendet werden soll. Stellen Sie sicher, dass die ausgewählte Vorlage die obligatorischen Felder enthält, wie z.B. **Gen. Geschäftsbuchungsgruppe**, **Debitorbuchungsgruppe**, MwSt.- oder steuerbezogene Felder.<br>- Auf der Seite **Shopify Debitorenvorlagen** können Sie Vorlagen pro Land/Region definieren, was für eine korrekte Steuerberechnung nützlich ist. <br>- Erfahren Sie mehr unter [Steuern einrichten](setup-taxes.md).|
+|**Unbekannte Debitoren automatisch erstellen**| Wählen Sie dieses Feld, ob der Konnektor fehlende Debitoren erstellen soll, wenn die Optionen **Nach E-Mail/Telefon** oder **Nach Rechnungsinformationen** im Feld **Debitorzuordnungstyp** ausgewählt sind. Ein neuer Kunde wird anhand der importierten Daten und des **Kundenvorlagencodes** erstellt, der auf den Seiten **Shopify Shop-Karte** oder **Shopify Kundenvorlage** definiert ist. Beachten Sie, dass der Shopify-Debitor über mindestens eine Adresse verfügen muss. Wenn diese Option nicht aktiviert ist, müssen Sie einen Debitoren manuell erstellen und mit dem Debitor Shopify verknüpfen. Sie können die Erstellung eines Debitors jederzeit manuell über die Seite **Shopify Auftrag** anstoßen.|
+|**Debitorenvorlagencode**|Dieses Feld wird zusammen mit **Unbekannte Debitoren automatisch erstellen** verwendet.<br>- Wählen Sie die Standardvorlage aus, die für automatisch erstellte Debitoren verwendet werden soll. Stellen Sie sicher, dass die ausgewählte Vorlage die obligatorischen Felder enthält, wie z.B. **Gen. Geschäftsbuchungsgruppe**, **Debitorbuchungsgruppe**, MwSt.- oder steuerbezogene Felder.<br>- Auf der Seite **Shopify Debitorenvorlagen** können Sie Vorlagen pro Land/Region definieren, was für eine korrekte Steuerberechnung nützlich ist. <br>- Erfahren Sie mehr unter [Steuern festlegen](setup-taxes.md).|
 
 ### <a name="customer-template-per-country"></a>Debitorenvorlage pro Land
 
-Einige Einstellungen können auf Länder-/Regionalebene oder auf der Ebene eines Staates/Provinz festgelegt werden. Die Einstellungen können unter [Versand und Lieferung](https://www.shopify.com/admin/settings/shipping) in Shopify konfiguriert werden.
+Einige Einstellungen können auf der Ebene eines Landes/Region oder eines Staates/Provinz festgelegt werden. Die Einstellungen können unter [Versand und Lieferung](https://www.shopify.com/admin/settings/shipping) in Shopify festgelegt werden.
 
 Mit der **Shopify-Debitorenvorlage** können Sie die folgenden Schritte für jeden Debitor ausführen:
 
@@ -66,29 +50,39 @@ Mit der **Shopify-Debitorenvorlage** können Sie die folgenden Schritte für jed
 
 ## <a name="export-customers-to-shopify"></a>Debitoren nach Shopify exportieren
 
-Vorhandene Debitoren können in großen Mengen nach Shopify exportiert werden. In jedem Fall werden ein Debitor und eine Standardadresse erstellt. Der Prozess kann mit den folgenden Einstellungen verwaltet werden:
+Sie können bestehende Debitoren in Shopify in großen Mengen exportieren. In jedem Fall werden ein Debitor und eine Standardadresse erstellt. Der Prozess kann mit den folgenden Einstellungen verwaltet werden:
 
 |Feld|Description|
 |------|-----------|
-|**Debitoren nach Shopify** exportieren|Wählen Sie aus, ob Sie alle Debitoren mit einer gültigen E-Mail-Adresse von [!INCLUDE[prod_short](../includes/prod_short.md)] nach Shopify exportieren möchten. Sie können dies entweder manuell tun, indem Sie die Aktion **Debitoren synchronisieren** oder automatisch mithilfe einer Auftragswarteschlange für wiederkehrende Aktualisierungen verwenden.<br> Stellen Sie sicher, wenn Sie Debitoren mit Adressen, die Provinzen/Staaten beinhalten exportieren, dass der **ISO-Code** für Länder/Regionen ausgefüllt ist.|
+|**Debitoren nach Shopify** exportieren|Wählen Sie diese Option, wenn Sie alle Debitor von [!INCLUDE[prod_short](../includes/prod_short.md)] nach Shopify in großen Mengen exportieren möchten. Sie können dies entweder manuell tun, indem Sie die Aktion **Debitoren synchronisieren** oder automatisch mithilfe einer Auftragswarteschlange für wiederkehrende Aktualisierungen verwenden.<br> Stellen Sie sicher, wenn Sie Debitoren mit Adressen, die Provinzen/Staaten beinhalten exportieren, dass der **ISO-Code** für Länder/Regionen ausgefüllt ist.|
 |**Kann Shopify-Debitoren aktualisieren**|Dies wird zusammen mit der Einstellung **Debitor exportieren nach Shopify** verwendet. Aktivieren Sie es, wenn Sie später Aktualisierungen aus [!INCLUDE[prod_short](../includes/prod_short.md)] für Kunden erstellen möchten, die bereits in Shopify vorhanden sind.|
 
-> [!NOTE]  
-> Sobald Sie die Debitoren in Shopify erstellt haben, können Sie ihnen direkte Einladungen senden, die sie auffordern, ihre Konten zu aktivieren.
+Für den Export eines Debitors gelten die folgenden Voraussetzungen:
+
+* Der Debitor muss eine gültige E-Mail-Adresse haben.
+* Auf der Karte des Debitors ist ein Land/Region ausgewählt, bei lokalen Kunden mit leerem Land/Region muss für das auf der Seite **Unternehmensdaten** angegebene Land/Region ein ISO-Code definiert sein.
+* Wenn der Debitor eine Telefonnummer hat, muss die Nummer eindeutig sein, denn Shopify akzeptiert keinen zweiten Debitor mit derselben Telefonnummer.
+* Wenn der Debitor eine Telefonnummer hat, muss diese im E.164-Format vorliegen. Andere Formate werden unterstützt, wenn sie eine Nummer darstellen, die von überall auf der Welt gewählt werden kann. Die folgenden Formate sind gültig:
+  * xxxxxxxxxx
+  * +xxxxxxxxxxx
+  * (xxx)xxx-xxxx
+  * +x xxx-xxx-xxxx
+
+Nachdem Sie die Debitor in Shopify erstellt haben, können Sie ihnen direkte Einladungen schicken, um sie zur Aktivierung ihrer Konten zu bewegen.
 
 ### <a name="populate-customer-information-in-shopify"></a>Debitoreninformationen in Shopify ausfüllen
 
-Ein Debitor in Shopify hat einen Vornamen, einen Nachnamen, eine E-Mail-Adresse und/oder eine Telefonnummer. Sie können den Vor- und Nachnamen über die Debitorenkarte in [!INCLUDE[prod_short](../includes/prod_short.md)] ausfüllen.
+Ein Debitor in Shopify hat einen Vornamen, einen Nachnamen, eine E-Mail-Adresse und/oder eine Telefonnummer. Sie können die Vor- und Nachnamen aus der Kundenkarte in [!INCLUDE[prod_short](../includes/prod_short.md)] eingeben.
 
-|Priorität|Feld in Debitorenkarte|Description|
+|Priorität|Feld in der Kundenkarte|Description|
 |------|------|-----------|
 |0|**Kontaktname**|Höchste Priorität, wenn das Feld **Kontaktname** ausgefüllt und das Feld **Kontaktquelle** auf der **Shopify-Shop-Karte** entweder die Optionen *Vorname und Nachname* oder *Nachname und Vorname* enthält, die festlegen, wie die Werte getrennt werden sollen.|
 |2|**Name 2**|Wenn das Feld **Name 2** ausgefüllt und das Feld **Quelle von Name 2** auf der **Shopify-Shop-Karte** die Optionen *Vorname und Nachname* oder *Nachname und Vorname* enthält, die festlegen, wie die Werte getrennt werden sollen.|
 |3|**Name**|Niedrigste Priorität, wenn das Feld **Name** ausgefüllt und das Feld **Namensquelle** auf der **Shopify-Shop-Karte** die Optionen *Vorname und Nachname* oder *Nachname und Vorname* enthält, die festlegen, wie die Werte getrennt werden sollen.|
 
-Ein Debitor in Shopify verfügt auch über eine Standardadresse, die neben Vorname, Nachname, E-Mail und/oder Telefon auch Angaben wie Unternehmen und Adresse enthalten kann. Sie können das Feld **Unternehmen** basierend auf Daten aus der Debitorenkarte in [!INCLUDE[prod_short](../includes/prod_short.md)] ausfüllen.
+Ein Debitor in Shopify hat auch eine Standardadresse, die zusätzlich zu Vorname, Nachname, E-Mail und/oder Telefon eine Firma und eine Adresse enthalten kann. Sie können das Feld **Firma** auf der Grundlage der Daten aus der Kundenkarte in [!INCLUDE[prod_short](../includes/prod_short.md)] ausfüllen.
 
-|Priorität|Feld in Debitorenkarte|Description|
+|Priorität|Feld in der Kundenkarte|Description|
 |------|------|-----------|
 |0|**Name**|Höchste Priorität, wenn das Feld **Namensquelle** auf der **Shopify-Shop-Karte** die Option *Unternehmensname* enthält.|
 |2|**Name 2**|Niedrigste Priorität, wenn das Feld **Quelle von Name 2** auf der **Shopify-Shop-Karte** die Option *Unternehmensname* enthält.|

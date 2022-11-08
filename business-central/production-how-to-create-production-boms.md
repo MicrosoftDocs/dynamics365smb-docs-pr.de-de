@@ -1,18 +1,18 @@
 ---
 title: Fertigungsauftrag erstellen
 description: Erfahren Sie, wie Sie eine Fertigungsstückliste erstellen, wie Sie neue Versionen einer Fertigungsstückliste erstellen und wie Sie die Mengenberechnungsformel verwenden.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords: production bom, bills of material,
 ms.search.form: 911, 912, 917, 9287, 99000786, 99000787, 99000788, 99000789, 99000795, 99000797, 99000800, 99000809, 99000811, 99000812, 99000818
 ms.date: 06/22/2021
-ms.author: edupont
-ms.openlocfilehash: ec8d20ac3f6e6e02471a9f86f35aee8c551df801
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
+ms.author: bholtorf
+ms.openlocfilehash: 06d1b507e4414b3d77bbeb6a500342e5269438e3
+ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9607823"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "9728545"
 ---
 # <a name="create-production-boms"></a>Fertigungsauftrag erstellen
 
@@ -21,7 +21,7 @@ In einer Fertigungsstückliste sind Stammdaten enthalten, mit denen die Komponen
 [!INCLUDE[prod_short](includes/prod_short.md)] unterstützt auch Montagestücklisten. Montageaufträge werden für die Produktion von Endartikeln aus Komponenten in einem einfachen Prozess verwendet, der mit einer oder mehreren grundlegenden Ressourcen, die keine Maschinen oder Arbeitsplatzgruppen sind, oder ganz ohne Ressourcen durchgeführt werden kann. Beispielsweise könnte ein Montagevorgang lauten, zwei Weinflaschen und ein Paket Kaffee zu kommissionieren und sie als Geschenkartikel zu verpacken. Weitere Informationen finden Sie unter [Montagestücklisten oder Fertigungsstücklisten](inventory-how-work-boms.md#assembly-boms-or-production-boms).  
 
 > [!TIP]
-> Die App **Contoso Coffee Demodaten** enthält Demonstrationsprodukte für eine Vielzahl von Produktionsstücklistenszenarien, die in einer Testumgebung verwendet werden können, auch während einer Testversion. Erfahren Sie, wie Sie die Contoso Coffee Data  einrichten, und finden Sie exemplarische Vorgehensweisen für verschiedene Szenarien unter [Einführung in die Demodaten von Contoso Coffee](/contoso-coffee/contoso-coffee-intro.md).
+> Die App **Contoso Coffee Demodaten** enthält Demonstrationsprodukte für eine Vielzahl von Produktionsstücklistenszenarien, die in einer Testumgebung verwendet werden können, auch während einer Testversion. Erfahren Sie, wie Sie Contoso Coffee Data festlegen und finden Sie exemplarische Vorgehensweisen für verschiedene Szenarien unter [Einführung in Contoso Coffee Demo Data](contoso-coffee/contoso-coffee-intro.md).
 
 Bevor Sie einen Arbeitsplan erstellen können, muss Folgendes verfügbar sein:  
 
@@ -96,13 +96,13 @@ Die Beziehung der einzelnen Komponenten wird durch die Formel festgelegt. Folgen
 
 ### <a name="example"></a>Beispiel
 
-In einer Fertigungsstückliste werden siebzig Metallteile mit den Abmessungen Länge = 0,20 m und Breite = 0,15 m benötigt. Die Werte werden folgendermaßen eingegeben: Formel = Länge * Breite, Länge = 20, Breite = 15, Komponentenmenge = 70. Die Menge ergibt sich aus: Komponentenmenge pro Länge x Breite, dies ergibt, Menge = 70 x 0,20 m x 0,15 m = 2,1 m2.  
+Eine Fertigungsstückliste erfordert 70 Metallteile mit den Dimensionen Länge = 0,20 m und Breite = 0,15 m. Die Werte werden folgendermaßen eingegeben: Formel = Länge * Breite, Länge = 20, Breite = 15, Komponentenmenge = 70. Die Menge ergibt sich aus: Komponentenmenge pro Länge x Breite, dies ergibt, Menge = 70 x 0,20 m x 0,15 m = 2,1 m2.  
 
 ## <a name="see-also"></a>Siehe auch
 
 [Routings erstellen](production-how-to-create-routings.md)  
 [Produktvarianten verwalten](inventory-item-variants.md)  
-[Exemplarische Vorgehensweise: Varianten](/contoso-coffee/variants.md)  
+[Exemplarische Vorgehensweise: Varianten](contoso-coffee/variants.md)  
 [Produktion einrichten](production-configure-production-processes.md)  
 [Produktion](production-manage-manufacturing.md)  
 [Planung](production-planning.md)  

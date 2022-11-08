@@ -1,5 +1,5 @@
 ---
-title: Aufgaben im Hintergrund ausführen
+title: Aufgaben im Hintergrund und wiederkehrend ausführen
 description: Konfigurieren Sie die Synchronisierung von Daten zwischen Business Central und Shopify im Hintergrund.
 ms.date: 05/11/2022
 ms.topic: article
@@ -7,31 +7,31 @@ ms.service: dynamics365-business-central
 ms.reviewer: solsen
 author: edupont04
 ms.author: andreipa
-ms.openlocfilehash: f353edb4c505fd7b3eb498392abca3ce481b6009
-ms.sourcegitcommit: f071aef3660cc3202006e00f2f790faff849a240
+ms.openlocfilehash: 4a67f6fc58fb8b158563ce58baab55e7fda2ccb1
+ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8768120"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "9728599"
 ---
 # <a name="run-tasks-in-the-background"></a>Aufgaben im Hintergrund ausführen
 
 Es ist effizient, einige Aufgaben gleichzeitig und automatisiert auszuführen. Sie können solche Aufgaben im Hintergrund ausführen und auch einen Zeitplan festlegen, wann diese Aufgaben automatisch ausgeführt werden sollen. Um Aufgaben im Hintergrund auszuführen, werden zwei Modi unterstützt:
 
-- Manuell ausgelöste Aufgaben werden sofort über **Warteschlangeneinträge** geplant.
-- Wiederkehrende Aufgaben werden in **Warteschlangeneinträge** geplant.
+- Manuell ausgelöste Aufgaben werden sofort über **Aufgabenwarteschlangenposten** geplant.
+- Wiederkehrende Aufgaben werden in **Aufgabenwarteschlangenposten** eingeplant.
 
 ## <a name="run-tasks-in-the-background-for-a-specific-shop"></a>Aufgaben im Hintergrund für einen bestimmten Shop ausführen
 
-1. Wechseln Sie zum Suchsymbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](../media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") , geben Sie den Namen für den **Shopify-Shop** ein, und wählen Sie den Namen des Shops aus der Liste aus.
-2. Wählen Sie den Shop aus, für den Sie Artikel synchronisieren möchten, um die Seite **Shopify-Shop-Karte** zu öffnen.
-3. Aktivieren Sie den Umschalte **Hintergrundsynchronisierungen zulassen**.
+1. Wählen Sie die ![Glühbirne, die die “Wie möchten Sie weiter verfahren“-Funktion öffnet.](../media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") , geben Sie den Namen für den **Shopify-Shop** ein, und wählen Sie den Namen des Shops aus der Liste aus.
+2. Wählen Sie den Shop, für den Sie Artikel synchronisieren möchten, um die Seite **Shopify Shop Card** zu öffnen.
+3. Aktivieren Sie das Kontrollkästchen **Hintergrundsynchronisationen zulassen**.
 
-Wenn die Synchronisierungsaktion ausgelöst wird, wird nun nicht mehr eine Aufgabe im Vordergrund ausgeführt, sondern Sie werden aufgefordert zu warten. Wenn dieser abgeschlossen ist, können Sie mit der nächsten Aktion fortfahren. Die Aufgabe wird als **Warteschlangenposten** erstellt und startet sofort und ohne Blockierung.
+Wenn die Synchronisierungsaktion ausgelöst wird, wird nun nicht mehr eine Aufgabe im Vordergrund ausgeführt, sondern Sie werden aufgefordert zu warten. Wenn dieser abgeschlossen ist, können Sie mit der nächsten Aktion fortfahren. Die Aufgabe wird als **Aufgabenwarteschlangenposten** erstellt und startet sofort, ohne zu blockieren.
 
 ## <a name="to-schedule-recurring-tasks"></a>So planen Sie wiederkehrende Aufgaben
 
-Sie können die folgenden wiederkehrenden Aktivitäten so planen, dass sie automatisiert ausgeführt werden. Weitere Informationen zum Planen von Aufgaben finden Sie unter [Aufgabenwarteschlange](../admin-job-queues-schedule-tasks.md).
+Sie können die folgenden wiederkehrenden Aktivitäten so planen, dass sie automatisiert ausgeführt werden. Erfahren Sie mehr über die Planung von Aufgaben unter [Auftragswarteschlange](../admin-job-queues-schedule-tasks.md).
 
 |Aufgabe|Objekt|
 |------|------------|
@@ -44,6 +44,9 @@ Sie können die folgenden wiederkehrenden Aktivitäten so planen, dass sie autom
 |**Debitoren synchronisieren**|Bericht 30100 Shopify – Debiroten synchronisieren|
 |**Zahlungen synchronisieren**|Bericht 30105 Shopify – Zahlungen synchronisieren|
 
+> [!NOTE]
+> Einige Elemente können durch mehrere Aufgaben aktualisiert werden, z.B. wenn Sie Bestellungen importieren. Je nach Einstellung in der **Shopify Shop Card** importiert und aktualisiert das System auch Debitor- und/oder Produktdaten. Denken Sie daran, die gleiche Kategorie der Auftragswarteschlange zu verwenden, um Konflikte zu vermeiden.
+
 ## <a name="see-also"></a>Siehe auch
 
-[Erste Schritte mit dem Konnektor für Shopify](get-started.md)  
+[Einstieg in den Konnektor für Shopify](get-started.md)  

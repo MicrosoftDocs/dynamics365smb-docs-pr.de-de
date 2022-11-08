@@ -8,14 +8,14 @@ ms.search.form: 30118, 30119, 30120,
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: 47b0d72283b4d017bb522c3e71f6c61501b59d5b
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
+ms.openlocfilehash: 37fb8069f6149cc89c1c53f671eafe3788f54ccf
+ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9361941"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "9728356"
 ---
-# <a name="troubleshooting-shopify-and-business-central-synchronization"></a>Fehlerbehebung bei der Synchronisierung zwischen Shopify und Business Central
+# <a name="troubleshooting-the-shopify-and-business-central-synchronization"></a>Fehlerbehebung bei der Synchronisierung zwischen Shopify und Business Central
 
 Es kann vorkommen, dass Sie bei der Synchronisierung von Daten zwischen Shopify und [!INCLUDE[prod_short](../includes/prod_short.md)] Probleme ausführen müssen. Auf dieser Seite werden Schritte zur Fehlerbehebung bei einigen häufig auftretenden Szenarien definiert.
 
@@ -27,7 +27,7 @@ Wenn eine Synchronisierungsaufgabe fehlschlägt, können Sie die Protokollierung
 2. Wählen Sie den zugehörigen Protokolleintrag aus, und öffnen Sie die Seite **Shopify-Protokolleintrag**.
 3. Überprüfen Sie die Anfrage, den Statuscode und die Beschreibung sowie die Antwortwerte.
 
-Denken Sie später daran, die Protokollierung später abzuschalten, um negative Auswirkungen auf die Leistung und eine Vergrößerung der Datenbank zu vermeiden.
+Denken Sie später daran, die Protokollierung auszuschalten, um negative Auswirkungen auf die Leistung und eine Vergrößerung der Datenbank zu vermeiden.
 
 Auf der Seite **Shopify-Protokolleinträge** können Sie die Löschung aller Protokolleinträge oder solcher, die älter als sieben Tage sind, auslösen.
 
@@ -35,7 +35,7 @@ Auf der Seite **Shopify-Protokolleinträge** können Sie die Löschung aller Pro
 
 Unabhängig von den Einstellungen für **Protokoll aktiviert** werden einige Antworten von Shopify immer protokolliert. Diese können auf der Seite **Datenerfassungsliste** überprüft oder heruntergeladen werden.
 
-Wählen Sie die Aktion **Abgerufene Shopify-Daten** auf einer der folgenden Seiten aus:
+Wählen Sie auf einer der folgenden Seiten die Aktion **Abgerufene Shopify Daten**:
 
 - **Shopify-Auftrag**
 - **Shopify-Auftragserfüllungen**
@@ -67,7 +67,7 @@ Der Schalter **Hat AccessKey** wird aktiviert.
 Damit die Shopify Konnektor-Erweiterung korrekt funktioniert, benötigt sie die Berechtigung, Http-Anfragen zu stellen. Beim Testen in Sandboxen sind die Http-Anforderungen für alle Erweiterungen verboten.
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion 1.](../media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") öffnet. Symbol, geben Sie **Erweiterungsverwaltung** ein und wählen Sie dann den zugehörigen Link.
-2. Wählen Sie die Erweiterung *Shopify Konnektor*.
+2. Wählen Sie die Erweiterung **Shopify Konnektor**.
 3. Wählen Sie die Aktion **Konfigurieren**, um die Seite **Erweiterungseinstellungen** zu öffnen.
 4. Stellen Sie sicher, dass der Schalter **HTTPClient-Anfragen zulassen** aktiviert ist.
 
@@ -90,13 +90,17 @@ Die folgenden Prozeduren beschreiben, wie Sie den Access Token, der vom Shopify-
 
 ## <a name="known-issues"></a>Bekannte Probleme
 
-*General Bus. Buchungsgruppe* darf nicht null oder leer sein; Das Debitorenfeld muss einen Wert enthalten. Korrigieren:
+### <a name="the-gen-bus-posting-group-cannot-be-zero-or-empty-there-must-be-a-value-in-the-customer-field"></a>Die *Gen. Bus. Buchungsgruppe* kann nicht Null oder leer sein; es muss ein Wert im Feld Debitor vorhanden sein.
 
-Füllen Sie das Feld **Kundenvorlagencode** im Fenster **Shopify Shop-Karte** mit der Vorlage aus, in der **Geschäftsbuchungsgruppe** ausgefüllt ist. Die Debitorenvorlage wird nicht nur für die Erstellung von Debitoren, sondern auch für die Berechnung des Verkaufspreises und bei der Erstellung von Verkaufsdokumenten verwendet.
+Füllen Sie das Feld **Kundenvorlagencode** im Fenster **Shopify Shop-Karte** mit der Vorlage aus, in der **Geschäftsbuchungsgruppe** ausgefüllt ist. Die Kundenvorlage wird nicht nur für die Erstellung von Debitoren verwendet, sondern auch für die Berechnung des Verkaufspreises und bei der Erstellung von Belegen.
 
 ### <a name="importing-data-to-your-shopify-shop-isnt-enabled-go-to-the-shop-card-to-enable-it"></a>Importieren von Daten in Ihren Shopify Shop ist nicht aktiviert. Gehen Sie zur Shop-Karte, um sie zu aktivieren
 
-Aktivieren Sie im Fenster **Shopify Shop-Karte** **Datensynchronisierung mit Shopify zulassen**.  Dieser Umschalter soll den Online-Shop davor schützen, Demo-Daten aus [!INCLUDE[prod_short](../includes/prod_short.md)] abzurufen.
+Aktivieren Sie im Fenster **Shopify Shop-Karte** **Datensynchronisierung mit Shopify zulassen**. Dieser Umschalter soll den Online-Shop davor schützen, Demo-Daten aus [!INCLUDE[prod_short](../includes/prod_short.md)] abzurufen.
+
+### <a name="oauth-error-invalid_request-could-not-find-shopify-api-application-with-api_key"></a>Oauth Fehler invalid_request: Konnte keine Shopify API-Anwendung mit api_key finden
+
+Es scheint, dass Sie die [Embed App](/dynamics365/business-central/dev-itpro/deployment/embed-app-overview) verwenden, bei der die Client URL das Format hat: `https://[application name].bc.dynamics.com`. Der Konnektor Shopify funktioniert nicht für Embed Apps. Weitere Informationen finden Sie unter [Für welche Microsoft Produkte ist der Konnektor Shopify verfügbar](shopify-faq.md#what-microsoft-products-is-the-shopify-connector-available-for).
 
 ## <a name="see-also"></a>Siehe auch
 

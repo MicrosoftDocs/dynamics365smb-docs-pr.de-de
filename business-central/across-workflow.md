@@ -8,12 +8,12 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.date: 10/10/2022
 ms.custom: bap-template
-ms.openlocfilehash: c8cd251a2e82cd1a721f070f14986dd78c6f1730
-ms.sourcegitcommit: 902834e76460d751a345485c66fd2831066b396b
+ms.openlocfilehash: fd43becad8bd2272c4d1babf2ed2cfce40edfd2d
+ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/25/2022
-ms.locfileid: "9716529"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "9728467"
 ---
 # <a name="workflows-in-dynamics-365-business-central"></a>Workflows in Dynamics 365 Business Central
 
@@ -24,7 +24,7 @@ Die Standardversion von [!INCLUDE [prod_short](includes/prod_short.md)] unterst�
 * Power Automate-Flows
 
   * Automatisierte Flows, die durch Ereignisse (z.B. Erstellung, Änderung oder Löschung von Datensätzen oder Dokumenten) in [!INCLUDE[prod_short](includes/prod_short.md)] ausgelöst werden. Dazu gehören auch in Power Automate erstellte Genehmigungs Flows, die ausgelöst werden, wenn eine Genehmigung in [!INCLUDE[prod_short](includes/prod_short.md)] beantragt wird.
-  * Instant Flows, die manuell durch die Aktion **Automatisieren** von Listen, Karten und Dokumentenseiten ausgelöst werden. 
+  * Instant Flows, die manuell durch die Aktion **Automatisieren** von Listen, Karten und Dokumentenseiten ausgelöst werden.
 
     Erstellen und lösen Sie Power Automate-Flows in einem [!INCLUDE[prod_short](includes/prod_short.md)] Datensatz manuell aus, wie z. B. ein Kunde, ein Artikel oder ein Verkaufsauftrag, mit Optionen zur internen und externen Bearbeitung von Informationen (unter Verwendung integrierter Tools).
 
@@ -44,11 +44,12 @@ Mit [!INCLUDE [prod_short](includes/prod_short.md)] Online können Sie sich für
 
 ## <a name="approval-workflows"></a>Genehmigungsworkflows
 
-Sie können einen Genehmigungsworkflow erstellen, indem Sie die entsprechenden Schritte in den Zeilen auflisten. Jeder Schritt besteht aus:
-- Einem Workflow Ereignis, das durch Ereignisbedingungen moderiert wird
-- Einer Workflow-Antwort, die durch Antwortoptionen moderiert wird.
+Erstellen Sie einen Genehmigungs-Workflow, indem Sie festlegen, wodurch der Workflow erstellt wird und was als Nächstes geschieht, wie folgt:
 
-Um Workflow-Schritte zu definieren, füllen Sie Felder in Workflow-Zeilen mit festen Listen von Ereignis- und Antwortwerten aus, die vom Anwendungscode unterstützte Szenarien darstellen.<!--What are the "values"? Can we give an example?-->
+* Ein Workflow-Ereignis, das durch Ereignisbedingungen moderiert wird.
+* Einer Workflow-Antwort, die durch Antwortoptionen moderiert wird.
+
+Um Workflow-Schritte zu definieren, füllen Sie Felder in Workflow-Zeilen mit den Ereignis- und Antwortwerten aus, die unterstützte Szenarien darstellen.
 
 Beispiele für Ereignisse in Genehmigungs-Workflows sind die Erstellung von Verkaufs- oder Kaufaufträgen/Angeboten/Rechnungen, Preisänderungen, Lieferanten- oder Kundenbearbeitungen und mehr.
 

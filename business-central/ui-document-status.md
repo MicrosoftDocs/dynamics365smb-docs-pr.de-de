@@ -1,61 +1,61 @@
 ---
 title: Feld "Status" in Belegen
 description: Informieren Sie sich über den Status „Offen“ und „Freigegeben“ in Angebots-, Auftrags- oder Gutschriftdokumenten.
-author: rubenseishima
+author: brentholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: document, status, quote, order, credit memo, released, open, pending approval, pending prepayment,
 ms.search.form: ''
 ms.date: 09/19/2022
-ms.author: a-reishima
-ms.openlocfilehash: c96909b4ee37673ee7b0c752224478a144ad853e
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
+ms.author: bholtorf
+ms.openlocfilehash: f48f499277155aaf60ae0992199d7895225f1ef5
+ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9608164"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "9728626"
 ---
 # <a name="status-field-on-documents"></a>Feld "Status" in Belegen
 
 Wenn Sie ein Angebot/eine Anfrage, einen Verkaufsauftrag/eine Bestellung oder eine Gutschrift erstellen, enthält das Feld **Status** im Belegkopf als Vorgabewert den Status **Offen**.
 
-Nachdem Sie den Beleg ausgefüllt haben, können Sie ihn freigeben und [!INCLUDE[prod_short](includes/prod_short.md)] ändert den Wert im Feld **Status** in **Freigegeben**. Dieser Status zeigt an, dass der Auftrag für den nächsten Bearbeitungsschritt bereit ist, bevor er dann gebucht wird.
+Nachdem Sie den Beleg ausgefüllt haben, können Sie ihn freigeben. Mit [!INCLUDE[prod_short](includes/prod_short.md)] ändert sich der Wert im Feld **Status** auf **Freigegeben**. Dieser Status zeigt an, dass der Auftrag für die nächste Verarbeitungsstufe bereit ist, bevor er gebucht wird.
 
 | Status | Description |
 | ------ | ----------- |
 | Öffnen   | Sie können Änderungen an dem Beleg vornehmen. |
-| Freigegeben | Der Beleg wurde für den nächsten Verarbeitungsschritt freigegeben, und Sie können keine Änderungen an Zeilen der Art *Artikel* und *Anlage* mehr vornehmen.<br /><br />Sie können einen freigegebenen Beleg wieder öffnen, wenn Sie Änderungen an seinem Inhalt vornehmen möchten. Um den überarbeiteten Beleg zum nächsten Verarbeitungsschritt weiterzuleiten, muss dieser erneut freigegeben werden. |
+| Freigegeben | Der Beleg wurde für die nächste Verarbeitungsstufe freigegeben, und Sie können keine Änderungen an Zeilen des Typs *Artikel* und *Anlage* vornehmen.<br /><br />Sie können einen freigegebenen Beleg wieder öffnen, wenn Sie Änderungen an seinem Inhalt vornehmen möchten. Um den überarbeiteten Beleg zum nächsten Verarbeitungsschritt weiterzuleiten, muss dieser erneut freigegeben werden. |
 | Genehmigung ausstehend   | Der Beleg muss noch genehmigt werden. |
 | Ausstehende Vorauszahlung | Eine Vorauszahlungsrechnung wurde für den Beleg gebucht. |
 
-## <a name="releasing"></a>Freigeben
+## <a name="release-process"></a>Freigabe-Prozess
 
-Sie können den Vorgang des Freigebens auf verschiedene Arten nutzen, so dass er gut in Ihren normalen Arbeitsablauf passt, z. B. um unternehmensüblichen Abläufen bezüglich Genehmigungen oder Logistikaktivitäten zu folgen.
+Sie können das Freigabeverfahren auf verschiedene Weise nutzen, um Ihren normalen Arbeitsablauf zu erleichtern, z.B. um die Verfahren der Firma für Genehmigungen zu befolgen oder um Lagerort-Aktivitäten zu starten.
 
 ### <a name="approval-procedures"></a>Genehmigungsverfahren
 
-Ihr Unternehmen kann das Genehmigungsverfahren nutzen, um anzuzeigen, dass ein anderer Anwender das Dokument genehmigt hat oder dass eine externe Kontaktperson die Anforderungen im Beleg erfüllen kann, wie in folgenden Beispielen dargestellt:
+Ihre Firma kann das Freigabeverfahren verwenden, um anzuzeigen, dass ein anderer Benutzer den Beleg genehmigt hat oder dass ein externer Kontakt die Spezifikationen des Belegs erfüllen kann, wie in diesen Beispielen gezeigt:
 
-* Sie können nur dann eine Bestellung freigeben, wenn Ihr Lieferant Ihnen mitgeteilt hat, dass er bereit ist, die bestellten Mengen auszuliefern.
-* Sie legen eine Bestellung an und ein zweiter Anwender muss diese genehmigen, z. B. aus Sicherheitsgründen, bevor Sie sie freigeben dürfen.
-* Eine Gutschrift, die Sie angelegt haben, muss von dem für alle Erstattungen verantwortlichen Manager freigegeben werden.
+* Sie können eine Bestellung erst freigeben, wenn Ihr Kreditor angegeben hat, dass er bereit ist, die Bestellung auszuführen.
+* Sie erstellen eine Bestellung und ein zweiter Benutzer muss sie genehmigen, vielleicht aus Sicherheitsgründen, bevor Sie sie freigeben dürfen.
+* Der Manager, der für die Genehmigung aller Rückerstattungen zuständig ist, muss eine Gutschrift freigeben, die Sie erstellt haben.
 
 Erfahren Sie mehr über Genehmigungsworkflows unter [Verwenden Sie Arbeitsabläufe](across-use-workflows.md).
 
 ### <a name="warehouse-activities"></a>Lageraktivitäten
 
-Wenn der Auftragsstatus **Offen** ist, beginnt das Lagerhaus nicht mit der Auslieferung und erwartet keinen Wareneingang von Artikeln in Bestellungen. Wenn Sie den Auftrag/die Bestellung freigeben, geben Sie zu verstehen, dass der Auftrag/die Bestellung vollständig ist und dass er/sie in den Aktivitäten des Lagerhauses berücksichtigt werden kann.
+Wenn der Bestellstatus **Offen** ist, beginnt der Lagerort nicht mit der Vorbereitung der Lieferung und erwartet nicht, dass die Artikel einer Bestellung eingehen. Wenn Sie die Bestellung freigeben, geben Sie an, dass die Bestellung abgeschlossen ist und dass der Lagerort sie in seine Aktivitäten aufnehmen kann.
 
-## <a name="reopening-a-released-order"></a>Eine freigegebene Bestellung wieder öffnen
+## <a name="reopen-a-released-order"></a>Eine freigegebene Bestellung wieder öffnen
 
 Sie können Änderungen an einem freigegebenen Auftrag/einer freigegebenen Bestellung vornehmen, indem Sie ihn/sie wieder öffnen. Sie können jedoch die Mengen in Zeilen, die bereits vom Lagerhaus verarbeitet wurden, nur noch erhöhen.
 
-Wenn Sie Ihre Änderungen vorgenommen haben und den Auftrag/die Bestellung wieder freigeben, werden die Mehrwertsteuer und den Rechnungsrabatt neu berechnet.
+Wenn Sie die Änderungen vornehmen und die Bestellung erneut freigeben, berechnet [!INCLUDE [prod_short](includes/prod_short.md)] die Mehrwertsteuer (VAT) und den Rechnungsrabatt neu.
 
 Wenn Sie Änderungen an einem freigegebenen Auftrag/einer freigegebenen Bestellung vornehmen, müssen Sie das Lagerhaus darüber in Kenntnis setzen.
 
 > [!NOTE]
-> Wenn Sie einen einzelnen offenen Auftrag oder eine einzelne offene Bestellung oder Gutschrift buchen möchten, ohne ihn/sie vorher freizugeben, gibt die Anwendung den Beleg automatisch beim Buchen frei. Wenn Sie Ihre Aufträge/Bestellungen oder Gutschriften buchen, indem Sie die **Stapelverarbeitung** verwenden, können Sie wählen, dass Sie nur die Aufträge/Bestellungen oder Gutschriften buchen möchten, die Sie freigegeben haben.
+> Wenn Sie eine einzelne offene Bestellung oder Gutschrift buchen möchten, ohne sie vorher freizugeben, gibt [!INCLUDE [prod_short](includes/prod_short.md)] den Beleg automatisch frei, wenn Sie ihn buchen. Wenn Sie Ihre Bestellungen oder Gutschriften mit der Funktion **Batch buchen** buchen, können Sie wählen, ob Sie nur die freigegebenen Bestellungen oder Gutschriften buchen möchten.
 
 ## <a name="see-also"></a>Siehe auch
 
