@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: d2b4ac035f3c6336a5bc5646cbc0145bb671788a
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 2cabd68e2ec22aaef4ad1f0b34305a95a2e93a5e
+ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9529433"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9744923"
 ---
 # <a name="setting-up-data-exchange"></a>Einrichten eines Datenaustauschs
 
@@ -35,6 +35,7 @@ Bevor Sie elektronische Belege senden und empfangen oder Bankdateien importieren
 |Richten sie die Benutzerauthentifizierung und die URL der AMC Banking 365 Fundamentals-Erweiterung ein, die erforderlich sind, um Bankdateien in das Format Ihrer Bank zu konvertieren.|[AMC Banking 365 Fundamentals-Erweiterung verwenden](ui-extensions-amc-banking.md)|  
 |Richten Sie einen externen Dienst ein, der es Ihnen ermöglicht, Bankauszüge als Bankfeeds für Zahlungsausgleich und Bankabstimmung zu importieren.|[Einrichten des Bankauszugservice](bank-how-setup-bank-statement-service.md)|  
 |Nachdem der Bankkontoauszugsdienst aktiviert ist, verknüpfen Sie Bankkonten in [!INCLUDE[prod_short](includes/prod_short.md)]|[Bankkonten einrichten](bank-how-setup-bank-accounts.md)|  
+|Richten Sie Datenexport für Intrastat-Berichte in [!INCLUDE[prod_short](includes/prod_short.md)] ein.|[Intrastat-Berichte festlegen](finance-how-setup-report-intrastat.md)|
 |Bereiten Sie die Einrichtung einer neuen Datenaustauschdefinition für Datendateien oder Datenströme vor, indem Sie das Inforegister **Spaltendefinitionen** auf der Seite **Exchange-Definitinen buchen** mit dem XML-Schema der Datei vorab ausfüllen.|[Verwenden von XML-Schemata zur Vorbereitung der Datenaustauschdefinitionen](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)|  
 |Richten Sie das Datenaustauschframework so ein, dass Benutzer ein neues Einkaufsbelegformat empfangen, ein neues Verkaufsbelegformat senden, eine neue Bankdatei importieren oder andere Daten austauschen können.|[Richten Sie Datenaustauschdefinitionen ein](across-how-to-set-up-data-exchange-definitions.md)|  
 

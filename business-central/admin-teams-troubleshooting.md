@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, troubleshooting, errors
 ms.date: 10/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 9d6d5ca853d11a08c2933dd6abcbc82d0ff4dbc4
-ms.sourcegitcommit: d6af3155bb818430f22d5caca78df322a8d9b178
+ms.openlocfilehash: 064780473eb98f4fde4d170f0aa5c16a998799af
+ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2022
-ms.locfileid: "8528475"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9744761"
 ---
 # <a name="troubleshooting-microsoft-teams-integration-with-prod_short"></a>Problembehandlung bei der Microsoft Teams Integration mit [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -160,7 +160,24 @@ Dieses Problem kann verschiedene Ursachen haben. Zum Beispiel muss die Identitä
 
 Ab April 2022 enthalten Links, die in Teams als kompakte Karte angezeigt werden, keine **Popout**-Schaltfläche mehr. Um diese Karte in einem eigenen Fenster zu öffnen, wählen Sie die Schaltfläche **Details** aus, und wählen Sie dann aus dem Ellipsenmenü (**...**) in der oberen rechten Ecke des Fensters die Option **Im Browser öffnen** aus.
 
-## <a name="see-also"></a>Weitere Informationen
+## <a name="cant-pin-a-card-to-tab"></a>Eine Karte kann nicht an den Tab angeheftet werden
+
+Für dieses Problem gibt es einige Gründe.
+
+- Wenn die Karte von Search ME geteilt wurde, kann sie nicht an eine Registerkarte angeheftet werden. 
+
+- Kann erst angeheftet werden, wenn Sie Ihre erste Business Central-Registerkarte hinzugefügt haben. Dieses Problem ist in Teams bekannt. 
+
+## <a name="someone-added-a-tab-but-the-tab-doesnt-show-up-for-me"></a>Jemand hat einen Tab hinzugefügt, aber die Registerkarte wird mir nicht angezeigt
+
+Dieses Problem besteht, weil Sie die BC-App für Teams nicht installiert haben. Nur diejenigen, die die App installiert haben, sehen Business Central-Registerkarten.
+
+## <a name="others-see-different-sorting-or-column-layout-than-what-the-tab-author-sees"></a>Andere sehen eine andere Sortierung oder ein anderes Spaltenlayout als das, was der Registerkartenautor sieht
+
+Dieses Problem liegt wahrscheinlich daran, dass Sie eine Listenansicht freigegeben haben, die eine persönliche Ansicht ist. Arbeiten Sie in diesem Fall mit Ihrem Administrator zusammen, um entweder rollenspezifische Listenansichten zu erstellen, die die verschiedenen Rollen im Kanal/Chat abdecken, oder erstellen Sie diese Ansicht für die gesamte Organisation, damit alle eine einheitliche Ansicht erhalten.
+
+
+## <a name="see-also"></a>Siehe auch
 
 [[!INCLUDE [prod_short](includes/prod_short.md)] und Microsoft Teams Integration Übersicht](across-teams-overview.md)  
 [Installieren Sie die [!INCLUDE [prod_short](includes/prod_short.md)] App für Microsoft Teams](across-install-app-for-teams.md)  

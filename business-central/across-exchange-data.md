@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: exchange data, external files, electronic documents, AMC Banking, OCT, SEPA
 ms.date: 06/10/2021
 ms.author: edupont
-ms.openlocfilehash: 00bac7c92cf6b29cbd79f5b3f04eaa9dfab1ee2d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: bb5886d46e780a32f0d0e58d0f62c58cacdc91a7
+ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133434"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9744734"
 ---
 # <a name="exchanging-data"></a>Austausch von Daten
 Sie können Daten zwischen [!INCLUDE[prod_short](includes/prod_short.md)] und externen Dateien oder Streams in Bezug auf allgemeine Geschäftsaufgaben (z. B. Senden und Empfangen von elektronischen Belegen und Importieren und Exportieren von Bankdateien) austauschen.  
@@ -34,6 +34,7 @@ Bevor Sie elektronische Dokumente senden und empfangen oder Bankdateien importie
 |Weisen Sie Ihre Bank an, Zahlungsbeträge von den Bankkonten Ihrer Kunden auf das Konto Ihres Unternehmens gemäß Ihrer SEPA-Lastschrift-Einstellung zu überweisen.|[SEPA-Lastschrifteinzugsposten erstellen und in eine Bankdatei exportieren](finance-collect-payments-with-sepa-direct-debit.md#creating-sepa-direct-debit-collection-entries-and-export-to-a-bank-file)|  
 |Verwenden Sie einen Dienstanbieter für Währungswechselkursen, um die Seite **Währungen** zu aktualisieren.|[Währungswechselkurse aktualisieren](finance-how-update-currencies.md)|  
 |Zeigen Sie an, welche Dateielemente mit Feldern in [!INCLUDE[prod_short](includes/prod_short.md)] verknüpft sind, wenn Sie SEPA CAMT-Bankkontoauszugsdateien importieren.|[Feld-Zuordnung beim Importieren von SEPA CAMT-Dateien](across-field-mapping-when-importing-sepa-camt-files.md)|  
+|Exportieren Sie Daten für Intrastat-Berichte in [!INCLUDE[prod_short](includes/prod_short.md)].|[Intrastat-Berichte festlegen](finance-how-setup-report-intrastat.md)|
 |Zeigen Sie an, welche Felder in [!INCLUDE[prod_short](includes/prod_short.md)] beim Export von Zahlungsdateien mit der AMC Banking 365 Fundamentals-Erweiterung auf Dateielemente abgebildet werden.|[Feldzuordnung beim Export von Zahlungsdateien mit der AMC Banking 365 Fundamentals-Erweiterung](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)|  
 
 ## <a name="see-also"></a>Siehe auch  

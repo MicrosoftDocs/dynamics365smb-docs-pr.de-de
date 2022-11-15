@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: purchase order, purchase, date, receipt, delivery, lead time
 ms.search.forms: ''
-ms.date: 02/06/2022
+ms.date: 10/28/2022
 ms.author: bholtorf
-ms.openlocfilehash: 515f95506bfae97ba0c66389d219751ea5b6896e
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 54d3ce9c571973482fe1ba0fdb8cad76a87752c2
+ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9530540"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9744950"
 ---
 # <a name="calculate-dates-for-purchases"></a>Daten für Einkäufe berechnen
 
@@ -44,9 +44,9 @@ Wenn Sie ein angefordertes Wareneingangsdatum in einer Bestellposition angeben, 
 > [!NOTE]
 > Wenn Ihr Prozess auf einer Rückwärtsberechnung basiert, wenn Sie beispielsweise das angeforderte Wareneingangsdatum verwenden, um das geplante Auftragsdatum zu erhalten, empfehlen wir, Datumsformeln mit fester Dauer zu verwenden, z. B. 5D für fünf Tage oder 1W für eine Woche. Datumsformeln ohne feste Dauer, wie „CW“ für die aktuelle Woche oder CM für den aktuellen Monat, können zu falschen Datumsberechnungen führen. Weitere Informationen zu Datumsformeln finden Sie unter [Arbeiten mit Kalenderdaten und -zeiten](ui-enter-date-ranges.md).
 
-## <a name="calculating-without-a-requested-delivery-date"></a>Berechnung ohne ein gewünschtes Wareneingangsdatum
+## <a name="calculating-without-a-requested-receipt-date"></a>Berechnung ohne ein gewünschtes Wareneingangsdatum
 
-Wenn Sie eine Bestellzeile ohne ein gewünschtes Lieferdatum eingeben, zeigt das Feld **Bestelldatum** in der Zeile das Datum im Feld **Bestelldatum** im Bestellkopf an. Dieses Datum ist entweder das von Ihnen eingegebene Datum oder das Arbeitsdatum. Die Daten werden dann wie folgt für die Bestellzeile berechnet, wobei das Bestelldatum als Ausgangspunkt dient:  
+Wenn Sie eine Bestellzeile ohne ein gewünschtes Wareneingangsdatum eingeben, zeigt das Feld **Bestelldatum** in der Zeile das Datum im Feld **Bestelldatum** im Bestellkopf an. Dieses Datum ist entweder das von Ihnen eingegebene Datum oder das Arbeitsdatum. Die Daten werden dann wie folgt für die Bestellzeile berechnet, wobei das Bestelldatum als Ausgangspunkt dient:  
 
 - Bestelldatum + Beschaffungszeit = Geplantes Wareneingangsdatum  
 - Geplantes Wareneingangsdatum + Eingeh. Lagerdurchlaufzeit + Beschaffungszeit = Erwartetes Wareneingangsdatum  
