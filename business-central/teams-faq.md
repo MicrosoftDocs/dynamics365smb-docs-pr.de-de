@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, faq, errors
 ms.date: 09/28/2022
 ms.author: jswymer
-ms.openlocfilehash: d9dfc380b1b8a76fc06363740b256f28b162a85a
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
+ms.openlocfilehash: aac91da92b51831951bd890248d7f80f8bc5104d
+ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9606116"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9744704"
 ---
 # <a name="teams-faq"></a>Teams FAQ
 
@@ -145,6 +145,92 @@ Wenn Sie an der Verbesserung der App für Teams teilnehmen möchten oder eine Id
 
 Funktionen im Web Client, die mit Teams verknüpft sind, finden Sie unter [Datensätze und Seitenverknüpfungen teilen](across-working-with-teams.md#share-link) in Microsoft Teams.
 
+## <a name="business-central-tabs"></a>[Business Central-Registerkarten](#tab/tabs)
+
+### <a name="who-can-see-the-content-of-a-tab"></a><a name="who-can-view"></a>Wer kann den Inhalt einer Registerkarte sehen?
+
+Jede Person in Ihrem Chat oder Kanal, die Folgendes hat:
+
+1. Die installierte Business Central-App für Teams.
+2. Entweder eine Business Central-Lizenz, oder es wurde ihr Zugriff auf Business Central mit ihrer Microsoft 365-Lizenz gewährt.
+3. Berechtigungen zum Anzeigen der Daten auf der Seite.
+
+### <a name="where-does-the-recommended-content-come-from"></a><a name=#recommended-content></a>Woher kommen die empfohlenen Inhalte?
+
+Die empfohlenen Inhalte, aus denen Sie in der **Registerkarteninhalte**-Option auf einer Registerkarte auswählen können, basiert auf Ihrem Rollencenter. Der empfohlene Inhalt umfasst nur Listenseiten wie Debitoren, Verkaufsaufträge und Kreditoren – nicht einzelne Kartenseiten wie einen bestimmten Debitor oder Kreditor.
+
+Zu den empfohlenen Inhalten gehören insbesondere:
+
+- Aktionen im oberen Navigationsmenü des Rollencenters
+- Alle Listenseiten, die Sie mit einem Lesezeichen versehen haben.
+- Wenn eine Listenseite verschiedene Ansichten anbietet, einschließlich aller Ansichten, die Sie erstellt haben, können Sie auch aus diesen Ansichten auswählen
+
+Sie können den empfohlenen Inhalten Listenseiten hinzufügen, indem Sie Lesezeichen hinzufügen. Sie können empfohlene Inhalte auch entfernen, indem Sie Lesezeichen löschen. Informationen zum Hinzufügen oder Löschen von Lesezeichen finden Sie unter [Erstellen eines Lesezeichens für eine Seite oder einen Bericht im Rollencenter](ui-bookmarks.md).
+
+Wenn Sie die Umgebung oder das Unternehmen auf der Registerkartenoption wechseln, ändert sich der empfohlene Inhalt basierend auf dem Rollencenter und den Lesezeichen für die Umgebung und das Unternehmen, zu dem Sie wechseln.
+
+
+
+### <a name="when-i-create-a-tab-does-it-grant-permissions-to-the-people-in-the-channel-or-chat"></a>Wenn ich eine Registerkarte erstelle, werden den Personen im Kanal oder Chat Berechtigungen erteilt?
+
+Anz. Das Erstellen von Registerkarten wirkt sich nicht auf die Berechtigungen aus, und Benutzer müssen bereits über die Berechtigung für diese Daten verfügen, wenn sie auf die Registerkarte zugreifen.
+
+### <a name="can-i-chat-alongside-a-tab"></a>Kann ich neben einer Registerkarte chatten?
+
+Ja. Verwenden Sie das Chat-Symbol, um das Gespräch zu beginnen. Dieser Chat-Thread wird dann der Registerkarte zugeordnet. 
+
+### <a name="if-i-remove-a-tab-from-a-chat-or-channel-is-any-business-central-data-deleted"></a>Wenn ich eine Registerkarte aus einem Chat oder Kanal entferne, werden dann alle Business Central-Daten gelöscht?
+
+Anz.
+
+### <a name="can-i-safely-rename-a-tab"></a>Kann ich eine Registerkarte sicher umbenennen?
+
+Ja. Der Inhalt der Registerkarte steht in keinem Zusammenhang mit dem tatsächlichen Namen der Registerkarte. Beliebig umbenennen! 
+
+### <a name="i-need-to-work-across-tasks-in-different-windows-can-i-do-this"></a>Ich muss aufgabenübergreifend in verschiedenen Fenstern arbeiten. Kann ich das tun?
+
+Ja. Sie können die Registerkarte in einem eigenen Browserfenster öffnen, um den Business Central-Webclient anzuzeigen. 
+
+### <a name="can-i-add-or-pin-tab-in-team-meetings"></a>Kann ich in Teambesprechungen Registerkarten hinzufügen oder anheften?
+
+Anz. Die Business Central-App für Teams unterstützt keine Registerkarten in Besprechungen.
+
+### <a name="cant-add-a-tab-if-using-isv-urls-like-bcdynamicscom-but-can-pin"></a>Kann keine Registerkarte hinzufügen, wenn ISV-URLs wie „*.bc.dynamics.com“ verwendet werden (kann aber angeheftet werden)
+
+Nicht unterstützt.
+
+### <a name="when-i-do-things-in-the-tab-like-navigate-resort-apply-a-filter-or-search-do-others-see-my-changes"></a>Sehen andere meine Änderungen, wenn ich in der Registerkarte z. B. navigiere, sortiere, einen Filter anwende oder suche?
+
+Anz. Nur Feldänderungen oder laufende Aktionen wirken sich darauf aus, wie andere den Inhalt der Registerkarte sehen.
+
+### <a name="does-the-tab-content-refresh-automatically-if-not-how-do-i-refresh-it"></a>Wird der Registerkarteninhalt automatisch aktualisiert? Wenn nicht, wie aktualisiere ich ihn?
+
+Der Inhalt wird nicht automatisch aktualisiert, und es gibt derzeit keine Aktualisierungsschaltfläche. Am besten aktualisieren Sie den Inhalt, um sicherzustellen, dass er den Daten entspricht, indem Sie die Registerkarte verlassen und dann zurückkehren. 
+
+### <a name="does-this-show-lists-and-records-from-my-customizations-and-add-ons"></a>Zeigt dies Listen und Datensätze von meinen Anpassungen und Add-Ons an?
+
+Ja. 
+
+### <a name="when-i-add-a-tab-will-people-see-it-in-my-language"></a>Wenn ich eine Registerkarte hinzufüge, sehen die Leute sie in meiner Sprache?
+
+Anz. Jeder Benutzer zeigt die Registerkarteninhalte in den Sprach-, Regions- und Zeitzoneneinstellungen von Business Central an. 
+
+### <a name="can-i-have-multiple-tabs-pointing-to-different-content"></a>Kann ich mehrere Registerkarten haben, die auf unterschiedliche Inhalte verweisen?
+
+Ja.
+
+### <a name="can-i-also-add-tabs-to-chat-with-a-single-person"></a>Kann ich auch Registerkarten hinzufügen, um mit einer einzelnen Person zu chatten?
+
+Ja, solange der Chat kein Entwurf ist (d. h. es wurde keine Nachricht gesendet, um diesen Chat zu initiieren) und die andere Person die Business Central-App ebenfalls installiert hat.
+
+### <a name="can-i-switch-companies-within-a-tab"></a>Kann ich das Unternehmen innerhalb einer Registerkarte wechseln?
+
+Anz. 
+
+### <a name="is-this-different-than-using-teams-generic-ability-to-create-a-tab-that-hosts-a-website"></a>Unterscheidet sich dies von der Verwendung der allgemeinen Fähigkeit von Teams, eine Registerkarte zu erstellen, die eine Website hostet?
+
+Ja. Wir empfehlen nicht, den Ansatz zu verwenden. In vielen Fällen funktioniert es für Business Central nicht.
+
 ## <a name="search-for-contacts"></a>[Suchen Sie nach Kontakten](#tab/contacts)
 
 ### <a name="which-tables-does-the-app-search-in"></a>In welchen Tabellen sucht die App?
@@ -156,6 +242,7 @@ Bei der Suche nach Kontakten aus der [!INCLUDE [prod_short.md](includes/prod_sho
 Während Sie Ihre Suchbegriffe in das Suchfeld eingeben, werden die Begriffe mit den meisten Feldern in der Tabelle **Kontakte** abgeglichen. Zu den Feldern gehören beispielsweise **Nr.**, **Name**, **Adresse**, **Telefonnr.** oder **Handynummer** und **E-Mail**. 
 
 Suchbegriffe werden nicht mit benutzerdefinierten Feldern abgeglichen, die der Tabelle **Kontakte** durch Apps und Erweiterungen hinzugefügt werden.
+
 ### <a name="do-search-results-include-companies-and-persons"></a>Enthalten die Suchergebnisse Unternehmen und Personen?
 
 Ja. Unter [!INCLUDE [prod_short.md](includes/prod_short.md)] können Kontakte vom Typ **Unternehmen** oder **Person** sein, wenn eine oder mehrere Personen mit einem Unternehmen verbunden sein können. In den Suchergebnissen haben Unternehmen und Personen unterschiedliche Symbole.
