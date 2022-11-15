@@ -1,19 +1,19 @@
 ---
 title: Definieren Sie, wie die Daten elektronisch ausgetauscht werden
 description: Definieren Sie, wie Business Central Daten mit externen Dateien wie elektronischen Belegen, Bankdaten, Artikelkatalogen und mehr austauscht.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: ''
 ms.search.form: 1210, 1211, 1213, 1214, 1215, 1216, 1217
-ms.date: 09/15/2022
-ms.author: edupont
-ms.openlocfilehash: 53cb2bc92b4d56f767944593a5f5300510c2a944
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
+ms.date: 11/03/2022
+ms.author: bholtorf
+ms.openlocfilehash: 324fa2e1576deb3f9cb4b082f065218d1576fd78
+ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9607526"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9744869"
 ---
 # <a name="set-up-data-exchange-definitions"></a>Richten Sie Datenaustauschdefinitionen ein.
 
@@ -129,6 +129,7 @@ Ab der Veröffentlichungswelle 2 2022 können Sie auch nach einem beliebigen Fel
     |**Tabellen-ID**|Geben Sie die Tabelle an, die die Felder enthält, zu oder aus denen Daten entsprechend der Zuordnung ausgetauscht werden.|  
     |**Als Zwischentabelle verwenden**|Gibt an, dass die im Feld **Tabellen-ID** ausgewählte Tabelle eine Zwischentabelle ist, in der die importierten Daten vor der Zuordnung zur Zieltabelle gespeichert werden.<br /><br /> In der Regel verwenden Sie eine vorläufige Tabelle, wenn die Datenaustauschdefinition verwendet wird, um elektronische Belege zu importieren und umwandeln, wie Kreditorenrechnungen in Einkaufsrechnungen in [!INCLUDE[prod_short](includes/prod_short.md)]. Erfahren Sie mehr unter [Elektronischer Datenaustausch](across-data-exchange.md).|  
     |**Name**|Geben Sie einen Namen für den Zuordnungssetup ein.|  
+    |**Schlüsselindex**|Geben Sie den Schlüsselindex an, um die Quelldatensätze vor dem Exportieren zu sortieren.|
     |**Vorabzuordnungs-Codeunit**|Geben Sie die Codeunit an, die die Zuordnung zwischen Feldern in [!INCLUDE[prod_short](includes/prod_short.md)] und externen Daten vorbereitet.|  
     |**Zuordnungs-Codeunit**|Geben Sie die Codeunit an, die verwendet wird, um die angegebenen Spalten oder XML-Datenelemente den Feldern in [!INCLUDE[prod_short](includes/prod_short.md)] zuzuordnen.|  
     |**Codeunit für die Zuordnung im Nachhinein**|Geben Sie die Codeunit an, die die Zuordnung zwischen Feldern in [!INCLUDE[prod_short](includes/prod_short.md)] und externen Daten vervollständigt. **Hinweis**: Bei Verwendung der Funktion der AMC Banking 365 Fundamentals-Erweiterung wandelt codeunit exportierte Daten aus [!INCLUDE[prod_short](includes/prod_short.md)] in ein für den Export bereitstehendes generisches Format um. Für den Import konvertiert die Codeunit externe Daten zu einem für den Import zu [!INCLUDE[prod_short](includes/prod_short.md)] geeigneten Format.|
@@ -137,7 +138,7 @@ Ab der Veröffentlichungswelle 2 2022 können Sie auch nach einem beliebigen Fel
 
      |Feld|Description|  
      |--------------------------------- |---------------------------------------|  
-     |**Spaltennr.**|Geben Sie an, für welche Spalte in der Datendatei Sie eine Zuordnung definieren möchten.<br /><br /> Sie können nur Spalten auswählen, die im Inforegister **Spaltendefinitionen** auf der Seite **Datenaustauschdefintion** durch Zeilen angezeigt werden.|
+     |**Spaltennr.**|Geben Sie an, für welche Spalte in der Datendatei Sie eine Zuordnung definieren möchten.<br /><br /> Sie können nur Spalten auswählen, die auf dem Inforegister **Spaltendefinitionen** auf der Seite **Datenaustauschdefinitionen** durch Zeilen dargestellt werden.|
      |**Spaltenbeschriftung**|Geben Sie die Beschriftung der Spalte in der externen Datei an, die dem Feld im Feld **Zieltabellen-ID** zugeordnet wird, wenn Sie eine Zwischentabelle für den Datenimport verwenden.|
      |**Feld-ID**|Geben Sie an, welchem Feld die Spalte im Feld **Spaltennr.** zugeordnet ist. Feldkarten zu.<br /><br /> Sie können nur aus Feldern auswählen, die in der Tabelle existieren, die Sie im Feld **Tabellen-ID** auf der Registerkarte **Allgemein** angegeben haben.|
      |**Feldbeschriftung**|Geben Sie die Beschriftung des Feldes in der externen Datei an, das dem Feld im Feld **Zieltabellen-ID** zugeordnet ist, wenn Sie eine Zwischentabelle für den Datenimport verwenden.|
@@ -161,6 +162,13 @@ Ab der Veröffentlichungswelle 2 2022 können Sie auch nach einem beliebigen Fel
      |**Transformations-Regel**|Geben Sie die Regel an, die importierten Text in einen unterstützten Wert umwandelt, bevor er einem bestimmten Feld zugeordnet werden kann. Wenn Sie in diesem Feld einen Wert auswählen, wird derselbe Wert in das Feld **Transformationsregel** im Feld **Datenexch. Feld Zuordnung Buf.** Tabelle und umgekehrt. Im nächsten Abschnitt finden Sie weitere Informationen zu den verfügbaren Transformationsregeln, die angewendet werden können.|
      |**Priorität**|Geben Sie die Reihenfolge an, in der die Zuordnungen der Felder verarbeitet werden müssen. Die Zuordnung des Feldes mit der höchsten Prioritätsnummer wird zuerst verarbeitet.|
 
+4. Geben Sie im Inforegister **Feldgruppierung** Regeln an, die Sie zum Gruppieren Ihrer Felder verwenden möchten, wenn Sie die Datei erstellen, indem Sie die Felder wie in der folgenden Tabelle beschrieben ausfüllen.  
+
+     |Feld|Description|  
+     |--------------------------------- |---------------------------------------|  
+     |**Feld-ID**|Geben Sie die Nummer des Felds in der externen Datei an, das für die Gruppierung verwendet wird und dieses Feld muss nach Benutzer festgelegt werden.|
+     |**Feldbeschriftung**|Geben Sie die Beschriftung des Felds in der externen Datei an, das für die Gruppierung verwendet wird.|
+
 ## <a name="transformation-rules"></a>Transformationsregeln
 
 Wenn die Werte in den Feldern, die Sie zuordnen, unterschiedlich sind, müssen Sie Transformationsregeln für Datenaustauschdefinitionen verwenden, um sie anzugleichen. Sie definieren Transformationsregeln für Datenaustauschdefinitionen, indem Sie eine vorhandene Definition öffnen oder eine neue Definition erstellen, dann auf dem Inforegister **Zeilendefinitionen** die Option **Verwalten**, und dann **Feldzuordnung** wählen. Vordefinierte Regeln werden bereitgestellt, aber Sie können auch eigene Regeln erstellen. In der folgenden Tabelle werden die Transformationstypen beschrieben, die Sie ausführen können.
@@ -180,6 +188,8 @@ Wenn die Werte in den Feldern, die Sie zuordnen, unterschiedlich sind, müssen S
 |**Regulärer Ausdruck - Übereinstimmen**|Verwenden Sie einen regulären Ausdruck, um einen oder mehrere Werte zu finden. Diese Regel ist vergleichbar mit den Optionen **Substring** und **Regelmäßiger Ausdruck - Ersetzen**.|
 |**Benutzerdefiniert**|Diese Transformationsregel ist eine erweiterte Option, die die Unterstützung eines Entwicklers erfordert. Sie aktiviert ein Integrationsereignis, das Sie abonnieren können, wenn Sie Ihren eigenen Transformationscode verwenden möchten. Wenn Sie ein Entwickler sind und diese Option verwenden möchten, lesen Sie den folgenden Abschnitt.|
 |**Datum/Uhrzeit-Formatierung**|Legen Sie fest, wie das aktuelle Datum und die Tageszeit angezeigt werden sollen.|
+|**Feldsuche**|Verwenden Sie Felder aus verschiedenen Tabellen. Um sie verwenden zu können, müssen Sie einige Regeln befolgen. Verwenden Sie zunächst **Tabellen-ID**, um die ID der Tabelle anzugeben, die den Datensatz für die Feldsuche enthält. Geben Sie dann im Feld **Quellfeld-ID** die ID des Felds an, das den Datensatz für die Feldsuche enthält. Geben Sie schließlich im Feld **Zielfeld-ID** die ID des Felds an, um den Datensatz für die Feldsuche zu finden. Verwenden Sie optional das Feld **Feldsuchregel**, um den Typ der Feldsuche anzugeben. Für das **Ziel**-Feld wird der Wert aus der **Zielfeld-ID** verwendet, auch wenn sie leer ist. Für das Feld **Ursprung, wenn Ziel leer ist** wird der ursprüngliche Wert verwendet, wenn das Ziel leer ist.|
+|**Runden**|Runden Sie den Wert in diesem Feld nach einigen zusätzlichen Regeln. Geben Sie zunächst im Feld **Präzision** eine Rundungsgenauigkeit an. Dann im Feld **Richtung** geben Sie die Rundungsrichtung an.|
 
 > [!NOTE]  
 > Erfahren Sie mehr über die Formatierung von Datum und Uhrzeit unter [Standard-Strings für die Formatierung von Datum und Uhrzeit](/dotnet/standard/base-types/standard-date-and-time-format-strings).
