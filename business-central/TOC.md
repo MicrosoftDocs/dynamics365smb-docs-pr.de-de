@@ -1610,6 +1610,7 @@
 ##### [Teams-Integration verwalten](admin-teams-integration.md)
 ##### [Business Central-App für Teams installieren](across-install-app-for-teams.md)
 ##### [Nach Debitoren, Kreditoren und Kontakten suchen](across-search-contacts-teams.md)
+##### [Business Central-Registerkarte in Kanal oder Chat hinzufügen](across-teams-tab.md)
 ##### [Datensätze und Seitenlinks in Teams freigeben](across-working-with-teams.md)
 ##### [Firma und andere Einstellungen ändern](across-teams-settings.md)
 ##### [Teams FAQ](teams-faq.md)
@@ -1784,6 +1785,12 @@
 ### [Verwaltungsaufgaben](admin-setup-and-administration.md)
 ### [Benutzer nach Lizenzen anlegen](ui-how-users-permissions.md)
 ### [Berechtigungen an Benutzer und Gruppen zuweisen](ui-define-granular-permissions.md)
+### Zugriff mit Microsoft 365-Lizenzen
+#### [Übersicht](admin-access-with-m365-license.md)
+#### [Zugriff mit Microsoft 365-Lizenzen einrichten](admin-access-with-m365-license-setup.md)
+#### [Benutzerzugriffsflow](admin-access-with-m365-license-flow.md)
+<!--#### [FAQ](admin-access-with-m365-license-faq.md) file temporarily moved to archive folder-->
+#### [Problembehebung](admin-access-with-m365-license-troubleshooting.md) 
 ### [Profile verwalten](admin-users-profiles-roles.md)
 ### [Benutzereinstellungen und Präferenzen verwalten](admin-manage-user-settings-preferences.md)
 ### [Drucker einrichten](ui-specify-printer-selection-reports.md)
