@@ -1,24 +1,25 @@
 ---
 title: Legen Sie fest, wann und wie Sie Workflow-Benachrichtigungen erhalten möchten
 description: Wenn Sie Benutzer in Workflows für Genehmigungen einrichten, können Sie angeben, wie und wann jeder Genehmigungsbenutzer benachrichtigt wird.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 663, 1500, 1512, 1513,
 ms.date: 09/09/2022
-ms.author: edupont
-ms.openlocfilehash: 7b70da08a4fb8ffdb7ff16544b511576f9af0f86
-ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
+ms.author: bholtorf
+ms.openlocfilehash: 74387ee5cb8581d8b8e1cce5c1d1c8850cd6c842
+ms.sourcegitcommit: 9bba11d474e21711cc8e2afefee8efb473170707
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "9585509"
+ms.lasthandoff: 11/14/2022
+ms.locfileid: "9763262"
 ---
 # <a name="specify-when-and-how-to-receive-workflow-notifications"></a>Legen Sie fest, wann und wie Sie Workflow-Benachrichtigungen erhalten möchten
 
-Wenn Sie Genehmigungsbenutzer in Workflows festlegen, in denen jemand Änderungen genehmigen soll, z.B. wenn neue Datensätze erstellt werden oder wenn jemand eine Genehmigung beantragt, müssen Sie angeben, wie und wann der Genehmigungsbenutzer benachrichtigt wird. Sie können z.B. festlegen, dass ein Genehmigter sofort eine E-Mail erhält, wenn jemand einen neuen Debitor erstellt. Alternativ können Sie die Zustellung der Benachrichtigungen auch so planen, dass sie zurückgehalten und zusammen zugestellt werden, z.B. auf wöchentlicher oder monatlicher Basis.
+Wenn Sie Genehmigungsbenutzer in Workflows festlegen, in denen jemand Änderungen genehmigen soll, z. B. wenn neue Datensätze erstellt werden oder wenn jemand eine Genehmigung anfordert, müssen Sie angeben, wie und wann der Genehmigungsbenutzer benachrichtigt werden soll. Sie können z.B. festlegen, dass ein Genehmigter sofort eine E-Mail erhält, wenn jemand einen neuen Debitor erstellt. Alternativ können Sie die Zustellung der Benachrichtigungen auch so planen, dass sie zurückgehalten und zusammen zugestellt werden, z.B. auf wöchentlicher oder monatlicher Basis.
 
 Sie können auch Ihre Benachrichtigungseinstellungen ändern, indem Sie **Benachrichtigungseinstellungen ändern** auf einer beliebigen Benachrichtigung wählen.  
 
@@ -38,10 +39,10 @@ Mit vielen Workflowschritten zur Genehmigung werden Benutzer darüber benachrich
 
 1. Wählen Sie das Symbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Genehmigungsbenutzereinrichtung** ein, und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die Zeile für den Benutzer aus, für den Sie Benachrichtigungseinstellungen festlegen möchten, und wählen Sie dann die Aktion **Benachrichtigungseinrichtung** aus.  
-3. Füllen Sie auf der Seite **Benachrichtigung einrichten** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
+3. Füllen Sie auf der Seite **Workflow-Benachrichtigungseinrichtung** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 
    > [!NOTE]
-   > Wenn Sie die Seite **Benachrichtigungseinrichtung** von der Seite **Genehmigungsbenutzereinrichtung** aus öffnen, ist die Einrichtung der Benachrichtigung mit dem Genehmigungsbenutzer verknüpft. Der Genehmiger erhält immer Workflow-Benachrichtigungen entsprechend der Einrichtung dieser Benachrichtigung. Wenn Sie mit *Tell Me* die Seite **Einrichtung von Benachrichtigungen** öffnen, gilt die Einrichtung von Benachrichtigungen für alle Benutzer.
+   > Wenn Sie die Seite **Workflow-Benachrichtigungseinrichtung** von der Seite **Genehmigungsbenutzereinrichtung** aus öffnen, ist die Einrichtung der Benachrichtigung mit dem Genehmigungsbenutzer verknüpft. Der Genehmiger erhält immer Workflow-Benachrichtigungen entsprechend der Einrichtung dieser Benachrichtigung. Wenn Sie mit der *Tell Me*-Funktion die Seite **Workflow-Benachrichtigungseinrichtung** öffnen, gilt die Einrichtung von Benachrichtigungen für alle Benutzer.
 
    |Feld|Description|
    |-----|-----------|
@@ -66,7 +67,7 @@ Mit vielen Workflowschritten zur Genehmigung werden Benutzer darüber benachrich
 ## <a name="change-when-and-how-you-receive-notifications"></a>Ändern des Zeitpunkts und der Art des Empfangs von Benachrichtigungen
 
 1. Wählen Sie in einer der Benachrichtigungen, die Sie entweder als E-Mail oder Hinweis erhalten haben, **Benachrichtigungseinstellungen ändern** aus.  
-2. Ändern Sie auf der Seite **Benachrichtigungseinstellungen** Ihre Benachrichtigungseinstellungen wie in den Schritten 3-5 beschrieben.
+2. Ändern Sie auf der Seite **Workflow-Benachrichtigungseinrichtung** Ihre Benachrichtigungseinstellungen wie in den Schritten 3-5 beschrieben.
    1. Bestätigen Sie, dass die richtige Benachrichtigung unter **Benachrichtigungstyp** ausgewählt ist.
    2. Wählen Sie unten aus, ob Sie eine E-Mail- oder Notizbenachrichtigung erhalten möchten unter dem Feld **Benachrichtigungsmethode**.
    3. Wählen Sie **Benachrichtigungsplan** aus, um die Häufigkeit und Wiederholung zu ändern, in der Benachrichtigungen gesendet werden.

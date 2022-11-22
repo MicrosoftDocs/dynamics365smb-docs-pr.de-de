@@ -1,24 +1,24 @@
 ---
 title: Erstellen von Genehmigungs-Workflows zur Verbindung von Aufgaben
-description: Sie können Workflows erstellen, die Geschäftsprozess-Aufgaben verbinden, die von verschiedenen Benutzern ausgeführt werden, und Systemaufgaben, wie z.B. automatische Buchungen, als Workflow-Schritte einschließen.
-author: SorenGP
+description: Erfahren Sie, wie Sie Workflows erstellen, die Aufgaben verbinden, die von verschiedenen Benutzern in Geschäftsprozessen ausgeführt werden.
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 09/08/2022
-ms.author: edupont
-ms.openlocfilehash: d2d9f3f91210b2a4d8d67890d01018565d8ef087
-ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
+ms.date: 11/11/2022
+ms.author: bholtorf
+ms.openlocfilehash: 0d84da534c754ba7b0f6d1de97b61634ff743ddc
+ms.sourcegitcommit: 9bba11d474e21711cc8e2afefee8efb473170707
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "9585999"
+ms.lasthandoff: 11/14/2022
+ms.locfileid: "9763256"
 ---
-# <a name="create-workflows-to-connect-business-process-tasks"></a>Workflows erstellen, um Geschäftsprozess-Aufgaben zu verbinden
+# <a name="create-workflows-to-connect-tasks-in-business-processes"></a>Workflows erstellen, um Aufgaben in Geschäftsprozessen zu verbinden
 
-Sie können Workflows einrichten, die Geschäftsprozessaufgaben von verschiedenen Benutzern verbinden. Systemaufgaben, wie automatische Buchung, können als Schritte in Workflows berücksichtigt werden, vor oder nach Benutzeraufgaben. Die Anforderung oder Bewilligung von Genehmigungen zum Erstellen neuer Datensätze sind typische Workflowschritte.  
+Sie können Workflows erstellen, die Aufgaben in Geschäftsprozessen verbinden, die von verschiedenen Benutzern ausgeführt werden. Systemaufgaben, wie automatische Buchung, können als Schritte in Workflows berücksichtigt werden, vor oder nach Benutzeraufgaben. Die Anforderung oder Bewilligung von Genehmigungen zum Erstellen neuer Datensätze sind typische Workflowschritte.  
 
 Auf der Seite **Workflow** können Sie einen Workflow erstellen, indem Sie die entsprechenden Schritte in den Zeilen auflisten. Jeder Schritt besteht aus einem durch Ereignisbedingungen moderiertem Workflowereignis und einer Workflowantwort mit Antwortoptionen. Sie definieren Workflowschritte, indem Sie die Felder in Workflowzeilen mit Ereignis- und Antwortwerten aus festen Listen ausfüllen, die die Workflowszenarien darstellen, die durch den Anwendungscode unterstützt werden.  
 
@@ -73,7 +73,10 @@ Für Ereignisse und Antworten gilt, dass die Optionen systemdefiniert sind. Neue
 
     1. Um Optionen für eine Workflowantwort inkl. des Sendens einer Benachrichtigung festzulegen, füllen Sie die Felder wie in der folgenden Tabelle beschrieben aus.  
 
-       |Feld|Beschreibung|
+    > [!NOTE]
+    > Diese Felder variieren je nach ausgewählter Antwort.
+
+       |Feld|Description|
        |-----|-----------|
        |**Absender benachrichtigen**|Geben Sie an, ob der Genehmigungsanforderer anstatt des Genehmigungsanforderungsempfängers benachrichtigt wird. Wenn Sie das Kontrollkästchen aktivieren, wird das Feld **Benutzer-ID des Empfängers** deaktiviert, da stattdessen der Anforderer der Genehmigung, der Absender, benachrichtigt wird. Der Name der Workflowreaktion ändert sich entsprechend zu **Benachrichtigung erstellen für &lt;Absender&gt;**. Wenn das Kontrollkästchen nicht aktiviert ist, lautet der Name der Workflowreaktion **Benachrichtigung erstellen für &lt;Benutzer&gt;**.|
        |**Benutzer-ID des Empfängers**|Geben Sie den Benutzer an, an den Benachrichtigung gesendet werden muss. **Hinweis**: Diese Option ist nur für Workflow-Antworten mit einem Platzhalter für einen bestimmten Benutzer verfügbar. Für Workflowantworten ohne Platzhalter für Benutzer, wird der Benachrichtigungsempfänger in der Regel von der **Genehmigungsbenutzereinrichtung** definiert.|
@@ -83,19 +86,19 @@ Für Ereignisse und Antworten gilt, dass die Optionen systemdefiniert sind. Neue
 
     2. Um Optionen für eine Workflowantwort inkl. des Erstellens von einer Genehmigungsanforderung festzulegen, füllen Sie die Felder wie in der folgenden Tabelle beschrieben aus.  
 
-        |Feld|Description|  
-        |-----|-----------|  
-        |**Fälligkeitsdatumsformel**|Geben Sie an, in wievielen Tagen eine die Genehmigungsanforderung ab dem Datum, an dem sie gesendet wurde, abgeschlossen werden muss.|
-        |**Delegieren nach**|Geben Sie an, ob und wann eine Anforderung für fällige Genehmigung automatisch an den relevanten Stellvertreter delegiert wird. Sie können eine automatische Delegierung ein, zwei oder fünf Tage nach der Anforderung der Genehmigung auswählen.|
-        |**Genehmigertyp**|Geben Sie an, wer gemäß der Einrichtung von Genehmigungsbenutzern und von Workflowbenutzern der Genehmiger ist. Wenn das Feld auf **Verkäufer/Einkäufer** festgelegt ist, bestimmt der Benutzer, der im Feld **Verk.-/Einkäufercode** auf der Seite **Genehmigungsbenutzereinrichtung** den Genehmiger. Es werden dann entsprechend des Werts im Feld **Einschränkungsart Genehmiger** Genehmigungsanforderungsposten erstellt. Erfahren Sie mehr unter [Genehmigungsbenutzer einrichten](across-how-to-set-up-workflow-users.md).|
-        |**Bestätigungsmeldung anzeigen**|Geben Sie an, ob Benutzern eine Bestätigungsmeldung angezeigt wird, nachdem sie eine Genehmigung angefordert haben.|
-        |**Einschränkungsart Genehmiger**|Geben Sie an, wie sich die Genehmigungsgrenzen des Genehmigers darauf auswirken, wann Genehmigungsanforderungseinträge für sie erstellt werden. Ein qualifizierter Genehmiger ist ein Genehmiger, dessen Genehmigungsgrenzwert über dem Wert der Genehmigungsanforderung liegt. Folgende Optionen sind verfügbar: <ol><li>**Genehmigerkette** legt fest, dass Genehmigungsanforderungseinträge für alle Genehmigenden des Antragstellers bis einschließlich des ersten qualifizierten Genehmigers erstellt werden</li><li>**Direkter Genehmiger** legt fest, dass ein Genehmigungsanforderungseintrag nur für den unmittelbaren Genehmiger des Anforderers erstellt wird, unabhängig vom Genehmigungslimit des Genehmigers.</li><li>**Erster qualifizierter Genehmiger** gibt an, dass ein Eintrag für eine Genehmigungsanfrage nur für den ersten qualifizierten Genehmiger des Antragstellers erstellt wird.</li></ol>|
+       |Feld|Description|  
+       |-----|-----------|  
+       |**Fälligkeitsdatumsformel**|Geben Sie an, in wievielen Tagen eine die Genehmigungsanforderung ab dem Datum, an dem sie gesendet wurde, abgeschlossen werden muss.|
+       |**Delegieren nach**|Geben Sie an, ob und wann eine Anforderung für fällige Genehmigung automatisch an den relevanten Stellvertreter delegiert wird. Sie können eine automatische Delegierung ein, zwei oder fünf Tage nach der Anforderung der Genehmigung auswählen.|
+       |**Genehmigertyp**|Geben Sie an, wer gemäß der Einrichtung von Genehmigungsbenutzern und von Workflowbenutzern der Genehmiger ist. Wenn das Feld auf **Verkäufer/Einkäufer** festgelegt ist, bestimmt der Benutzer, der im Feld **Verk.-/Einkäufercode** auf der Seite **Genehmigungsbenutzereinrichtung** den Genehmiger. Es werden dann entsprechend des Werts im Feld **Einschränkungsart Genehmiger** Genehmigungsanforderungsposten erstellt. Erfahren Sie mehr unter [Genehmigungsbenutzer einrichten](across-how-to-set-up-workflow-users.md).|
+       |**Bestätigungsmeldung anzeigen**|Geben Sie an, ob Benutzern eine Bestätigungsmeldung angezeigt wird, nachdem sie eine Genehmigung angefordert haben.|
+       |**Einschränkungsart Genehmiger**|Geben Sie an, wie sich die Genehmigungsgrenzen des Genehmigers darauf auswirken, wann Genehmigungsanforderungseinträge für sie erstellt werden. Ein qualifizierter Genehmiger ist ein Genehmiger, dessen Genehmigungsgrenzwert über dem Wert der Genehmigungsanforderung liegt. Folgende Optionen sind verfügbar: <ol><li>**Genehmigerkette** legt fest, dass Genehmigungsanforderungseinträge für alle Genehmigenden des Antragstellers bis einschließlich des ersten qualifizierten Genehmigers erstellt werden</li><li>**Direkter Genehmiger** legt fest, dass ein Genehmigungsanforderungseintrag nur für den unmittelbaren Genehmiger des Anforderers erstellt wird, unabhängig vom Genehmigungslimit des Genehmigers.</li><li>**Erster qualifizierter Genehmiger** gibt an, dass ein Eintrag für eine Genehmigungsanfrage nur für den ersten qualifizierten Genehmiger des Antragstellers erstellt wird.</li><li>**Bestimmter Genehmiger** gibt an, dass Sie den im Feld **Genehmiger-ID** ausgewählten Benutzer benachrichtigen.</li></ol>|
     3. Um Optionen für eine Workflowantwort inkl. des Erstellens von Buch.-Blattzeilen festzulegen, füllen Sie die Felder wie in der folgenden Tabelle beschrieben aus.  
 
-        |Feld|Description|  
-        |-----|-----------|  
-        |**Fibu Buch.-Blattvorlagenname**|Geben Sie den Namen der Buch.-Blattvorlage an, in der die angegebenen Buch.-Blattzeilen erstellt werden.|  
-        |**Fibu Buch.-Blattname**|Geben Sie den Namen des Buch.-Blattname an, in den die angegebenen Buch.-Blattzeilen erstellt werden.|  
+       |Feld|Description|  
+       |-----|-----------|  
+       |**Fibu Buch.-Blattvorlagenname**|Geben Sie den Namen der Buch.-Blattvorlage an, in der die angegebenen Buch.-Blattzeilen erstellt werden.|  
+       |**Fibu Buch.-Blattname**|Geben Sie den Namen des Buch.-Blattname an, in den die angegebenen Buch.-Blattzeilen erstellt werden.|  
 
 11. Wählen Sie die Schaltflächen **Einrückung vergrößern** und **Einrückung verkleinern**, um den Namen des Ereignisses im Feld **Wann** einzurücken, um die Position des Schritts im Workflow zu definieren.  
 
