@@ -1,71 +1,69 @@
 ---
 title: Artikel montieren
-description: Wenn das Feld Wiederbeschaffungssystem auf der Artikelkarte Montage enthält, besteht die Standardmethode zur Vorratsbeschaffung darin, den Artikel aus definierten Komponenten zusammenzubauen.
-author: SorenGP
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+description: Erfahren Sie mehr über Programmfertigung und Lagerfertigung in Business Central.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: andreipa
+ms.service: dynamics365-business-central
+ms.topic: how-to
+ms.date: 11/23/2022
 ms.search.keywords: kit, kitting
 ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
-ms.date: 06/14/2021
-ms.author: edupont
-ms.openlocfilehash: e9d53a6369e2955e0e097471e70cb83438540539
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
+ms.custom: bap-template
+ms.openlocfilehash: 35d75808f0d2a0212396151dd2a7a2438dfc7fe5
+ms.sourcegitcommit: 61f22aeede684f0ae772353ede6530ff03ff2f90
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9607045"
+ms.lasthandoff: 11/24/2022
+ms.locfileid: "9804499"
 ---
 # <a name="assemble-items"></a>Artikel montieren
 
-Wenn das Feld **Beschaffungsmethode** auf der Artikelkarte **Montage** enthält, besteht die Standardmethode zur Bereitstellung des Artikels darin, es aus definierten Komponenten und eventuell mit einer definierten Ressource zu montieren.  
+Wenn das Feld **Wiederbeschaffungssystem** auf der Artikelkarte den Wert **Montage** enthält, wird der Artikel standardmäßig gemäß einer Stückliste für die Montage und möglicherweise durch eine bestimmte Ressource bereitgestellt. Erfahren Sie mehr unter [Arbeiten mit Stücklisten für die Montage](assembly-how-work-assembly-boms.md). Erfahren Sie mehr darüber, wie Sie ein Element für die Montage festlegen unter [Montage auf Bestellung und Montage auf Lager](assembly-assemble-to-order-or-assemble-to-stock.md).
 
-Die Komponenten und Ressourcen, die in diese Art eines Montageartikels gehören, müssen in einer Montagestückliste definiert werden. Weitere Informationen finden Sie unter [Arbeiten mit Montagestücklisten](assembly-how-work-assembly-boms.md).
+Sie können Montageelemente für zwei Montageprozesse festlegen.
 
-Montageartikel können für zwei unterschiedliche Montagevorgänge eingerichtet werden:  
-
-- Lagermontage  
-- Auftragsmontage  
-
-In der Regel nutzen Sie die **Lagerfertigung** für Artikel, die Sie vor dem Verkauf montieren möchten - wie zur Vorbereitung einer Kit-Kampagne - und auf Lager zu halten, bis sie bestellt werden. Diese Artikel sind normalerweise Standardartikel, wie gepackte Kits, die Sie nicht an Debitorenanfragen anpassen.  
-
-In der Regel nutzen Sie die **Auftragsmontage** für Artikel, die Sie nicht auf Lager haben möchten, da Sie erwarten, dass diese für Debitorenanfragen angepasst werden müssen, oder weil Sie die Lagerkosten minimieren möchten, indem Sie diese Just-In-Time bereitstellen. Weitere Informationen finden Sie unter [Verkaufen von Auftragsmontageartikeln](assembly-how-to-sell-items-assembled-to-order.md).  
-
-Weitere Informationen darüber, wie Sie einen Montageartikel einrichten finden Sie unter [Auftragsmontage oder Lagermontage verstehen](assembly-assemble-to-order-or-assemble-to-stock.md).  
-
-Diese Einrichtungsoptionen sind Standardeinstellungen, die verwalten, wie Verkaufs- und Montageauftragszeilen anfangs verarbeitet werden. Sie können diese Vorgaben anpassen und den Montageartikel bei der Verarbeitung eines Verkaufs auf die optimalste Art bereitstellen. Weitere Informationen finden Sie unter [Verkaufen von Lagerartikel in der Montage-zu-Auftrags-Fluss](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md) und [Montage-zu-Beschaffungsartikel und Lagerartikel zusammen verkaufen](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md).
+|Prozess  |Description  |
+|---------|---------|
+|Auf Lager montieren     | Elemente, die Sie für zukünftige Verkäufe montieren und auf Lager halten. Zum Beispiel Bausätze für eine bevorstehende Verkaufskampagne. Die Elemente sind nicht mit einem Verkaufsauftrag verknüpft, zumindest noch nicht. In der Regel sind diese Elemente nicht an Kundenwünsche angepasst.        |
+|Montage auf Bestellung     | Elemente, die Sie nicht auf Lager haben möchten. Zum Beispiel, weil sie auf der Grundlage von Kundenbestellungen angepasst werden oder um die Kalkulation des Lagerbestands zu reduzieren. |
+  
+Dieser Artikel beschreibt die Standardeinstellungen für die Montage auf Lager. Vielleicht gibt es aber auch andere Möglichkeiten, die für Ihr Unternehmen besser geeignet sind. Erfahren Sie mehr unter [Verkauf von Lagerartikeln in Programmfertigungs Flows](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md) und [Verkauf von Programmfertigungs- und Bestandsartikeln zusammen](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md).
 
 > [!NOTE]  
-> Montagekomponenten werden auf eine spezielle Art in den Basislagerkonfigurationen behandelt. Weitere Informationen finden Sie im Abschnitt „Verwenden von Auftragsmontageartikeln in Lagerkommissionierungen“ in [Artikel mit Lagerkommissionierungen auswählen](warehouse-how-to-pick-items-with-inventory-picks.md).   
+> Montagekomponenten werden auf eine spezielle Art in den Basislagerkonfigurationen behandelt. Erfahren Sie mehr unter [Verarbeitung von Programmfertigung mit kommissionierten Bestandsartikeln](warehouse-how-to-pick-items-with-inventory-picks.md#handling-assemble-to-order-items-with-inventory-picks).
 
-In diesem Verfahren erstellen und verarbeiten Sie einen Montageauftrag für Artikel, die für das Lager montiert werden, d. h. ohne einen verknüpften Verkaufsauftrag. Die Schritte enthalten das Initiieren des Montageauftrags, die Behandlung potenzieller Komponentenverfügbarkeitsprobleme und die Teilbuchung des Montageartikelausstoßes.
+## <a name="to-assemble-an-item-to-stock"></a>So montieren Sie ein Element für den Bestand
 
-## <a name="to-assemble-an-item"></a>Um einen Artikel zu montieren
+Folgen Sie den Schritten in diesem Verfahren, um ein Element auf Lager zu montieren. Weitere Informationen zur Programmfertigung finden Sie unter [Verkauf von Elementen, die auf Bestellung gefertigt wurden](assembly-how-to-sell-items-assembled-to-order.md).
 
-1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Montageaufträge** ein, und wählen Sie dann den entsprechenden Link.  
-2.  Wählen Sie die Aktion **Neu** aus. Die Seite **Neuer Montageauftrag** wird geöffnet.  
-3.  Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4.  Wählen Sie im Feld **Artikelnr.** den Montageartikel aus, den Sie verarbeiten möchten. Das Feld wird gefiltert, um nur Artikel angezeigt, die für die Montage eingerichtet sind, d.h., denen Montagestücklisten zugeordnet sind.  
-5.  Geben Sie im Feld **Menge** ein wie viele Einheiten des Artikels Sie montieren möchten.  
-
-    > [!NOTE]  
-    >  Wenn eine oder mehrere Komponenten nicht verfügbar sind, um die eingegebene Menge des Montageartikels zum definierten Fälligkeitsdatum herzustellen, dann wird automatisch die Seite **Montageverfügbarkeit** geöffnet, um detaillierte Informationen darüber anzuzeigen, wie viele Montageartikel basierend auf der Komponentenverfügbarkeit montiert werden können. Weitere Informationen finden Sie unter [Die Verfügbarkeit von Artikeln anzeigen](inventory-how-availability-overview.md) Wenn Sie die Seite schließen, wird der Montageauftrag mit Verfügbarkeitswarnungen in den betroffenen Komponentenzeilen erstellt.  
-
-    Die Montageauftragszeilen werden automatisch mit dem Inhalt der Montagestückliste und mit Zeilenmengen entsprechend dem Montageauftragskopf gefüllt.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Montageaufträge** ein, und wählen Sie dann den entsprechenden Link.  
+2. Wählen Sie die Aktion **Neu** aus. Die Seite **Neuer Montageauftrag** wird geöffnet.  
+3. Füllen Sie die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+4. Wählen Sie im Feld **Element-Nr.** den Artikel aus, den Sie montieren möchten. Sie können Elemente auswählen, die für die Montage festgelegt sind und über eine Stückliste für die Montage verfügen, oder Elemente ohne eine Stückliste für die Montage. Letzteres ist nützlich für ungeplante Montagen oder Szenarien, in denen Sie die Umgliederung von Elementen verwenden und die Kosten verfolgen möchten.  
+5. Geben Sie im Feld **Menge** ein wie viele Einheiten des Artikels Sie montieren möchten.  
 
     > [!NOTE]  
-    >  Wenn die Seite **Montageverfügbarkeit** beim Ausfüllen des Montageauftragskopfs geöffnet wurde, dann enthalten alle betroffenen Montageauftragszeilen **Ja** im Feld **Verfügbarkeitswarnung** und eine Verknüpfung zu den detaillierten Verfügbarkeitsinformationen. Weitere Informationen finden Sie unter Verfügbarkeit prüfen. Sie können ein Komponentenverfügbarkeitsproblem lösen, indem Sie das Startdatum verschieben, die Komponente durch einen anderen Artikel ersetzen oder einen verfügbaren Ersatzartikel auswählen, sofern ein solcher definiert ist.  
+    >  Wenn eine oder mehrere Komponenten nicht verfügbar sind, um die Menge zum Fälligkeitsdatum zu erfüllen, öffnet sich die Seite **Montageverfügbarkeit**. Die Seite zeigt an, wie viele Montageelemente je nach Verfügbarkeit der Komponenten montiert werden können. Weitere Informationen finden Sie unter [Ansicht der Verfügbarkeit von Elementen](inventory-how-availability-overview.md). Wenn Sie die Seite schließen, wird der Montageauftrag erstellt, mit Verfügbarkeitswarnungen in den Zeilen für die betroffenen Komponenten.  
 
-6.  Geben Sie im Feld **Menge für Montage** ein, wie viele Einheiten des Montageartikels Sie als Ausstoß buchen möchten, wenn Sie den Montageauftrag das nächste Mal buchen. Diese Menge kann unter dem Wert im Feld **Menge** liegen, um eine Teilbuchung anzuzeigen.  
+    Die Zeilen enthalten den Inhalt der Stückliste der Montage und die angegebenen Mengen.  
+
+    > [!NOTE]  
+    >  Wenn die Seite **Verfügbarkeit von Baugruppen** geöffnet wurde, als Sie den Kopf des Montageauftrags ausfüllten, enthält jede betroffene Zeile des Montageauftrags eine **Ja** im Feld **Verfügbar. Warnung** mit einem Link zu detaillierten Verfügbarkeitsinformationen. <!--check whether this field help is useful For more information, see Check Availability.--> Sie können ein Problem mit der Komponentenverfügbarkeit beheben, indem Sie:
+
+    > * Verschieben Sie das Startdatum.
+    > * Ersetzen Sie die Komponente durch ein anderes Element.
+    > * Eine verfügbare Substitution auswählen, wenn eine solche definiert ist.  
+
+6. Geben Sie in das Feld **Zu montierende Menge** ein, wie viele Einheiten des Montageartikels Sie beim nächsten POST des Montageauftrags als Ausgabe buchen möchten. Diese Menge kann unter dem Wert im Feld **Menge** liegen, um eine Teilbuchung anzuzeigen.  
 
     > [!NOTE]  
     >  Um sicherzustellen, dass die Buchung des Komponentenverbrauchs der Istmeldungsbuchung des Montageartikels entspricht, werden die Mengenfelder in den Montageauftragszeilen automatisch an den Wert angepasst, den Sie im Feld **Menge für Montage** eingeben.  
-7.  Geben Sie in Montageauftragszeilen vom Typ **Artikel** oder **Ressource** im Feld **Verbrauchsmenge** ein, wie viele Einheiten Sie als Verbrauch buchen möchten, wenn Sie den Montageauftrag das nächste Mal buchen.
-8.  Wenn Sie bereit sind, die Teil- oder die vollständige Buchung durchzuführen, wählen Sie die Aktion **Buchen**.  
+7. Geben Sie in Montageauftragszeilen vom Typ **Artikel** oder **Ressource** im Feld **Verbrauchsmenge** ein, wie viele Einheiten Sie als Verbrauch buchen möchten, wenn Sie den Montageauftrag das nächste Mal buchen.
+8. Wenn Sie bereit sind, die Teil- oder die vollständige Buchung durchzuführen, wählen Sie die Aktion **Buchen**.  
 
     > [!NOTE]  
-    >  Falls in den einzelnen Montageauftragszeilen noch Warnungen vorhanden sind, wird die Buchungen gesperrt. Eine Meldung über die Komponenten, die nicht im Lager sind, wird angezeigt.  
+    >  Wenn in den Zeilen des Montageauftrags noch Warnungen vorhanden sind, können Sie den Auftrag nicht buchen. Eine Nachricht zeigt die Komponente(n) an, die sich nicht im Bestand befinden.  
 
 Nach erfolgreicher Buchung wird der Montageartikel als Ausstoß für den Lagerortcode und den potenziellen Lagerplatzcode gebucht, die im Montageauftrag definiert sind. Für manuell erstellte Montageaufträge wird der Lagerplatz möglicherweise aus dem Einrichtungsfeld **Standardlagerort für Aufträge** kopiert. Für Auftragsmontageflüsse wird der Lagerortcode möglicherweise aus der Verkaufsauftragszeile kopiert.  
 

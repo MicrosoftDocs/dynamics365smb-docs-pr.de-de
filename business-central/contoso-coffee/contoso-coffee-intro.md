@@ -7,12 +7,12 @@ ms.service: dynamics365-business-central
 ms.search.form: 4760
 author: edupont04
 ms.author: andreipa
-ms.openlocfilehash: 23ae8513cf14aa99f8ae1a437b0544c66bf5360e
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
+ms.openlocfilehash: 41dac60578399e09b9a67ac5747d48648a872f9c
+ms.sourcegitcommit: 9bba11d474e21711cc8e2afefee8efb473170707
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9362093"
+ms.lasthandoff: 11/18/2022
+ms.locfileid: "9788224"
 ---
 # <a name="introduction-to-contoso-coffee-demo-data"></a>Einführung in die Demodaten für Contoso Coffee
 
@@ -26,13 +26,13 @@ Die App bietet vier Produkte, die für unterschiedliche Szenarien optimiert sind
 
 - **SP-SCM1011 Airpot Duo**  
 
-  Dieses Produkt erfordert eine Artikelverfolgung und verfügt über eine Komponente, die ebenfalls eine Artikelverfolgung voraussetzt. Die Kostenmethode ist *Spezial*.  
+  Dieses Produkt erfordert eine Artikelverfolgung und verfügt über eine Komponente, die ebenfalls eine Artikelverfolgung voraussetzt. Die Methode der Kalkulation ist *Spezifisch*.  
 
 - **SP-SCM1004 Autodrip**  
 
   Dieses Produkt ist eine Stückliste mit einer Unterkomponente, **Arbeitsplan**. Wir empfehlen es, um die verschiedenen Buchungsmethoden für Komponenten und für den Betrieb zu demonstrieren. Die Kostenmethode ist *Standard*.
 
-- **SP-SCM1008 AutoDripLite**
+- **SP-SCM1006 AutoDripLite**
 
   Dieses Produkt hat drei Varianten und drei Stücklisten, die Lagerhaltungsdaten zugeordnet werden können. Das Produkt verwendet das Konzept der Phantomstückliste. Die Kostenmethode ist *Standard*.
 

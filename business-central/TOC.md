@@ -21,6 +21,7 @@
 #### [Exemplarische Vorgehensweise: Kommissionierung und Lieferung in Basis-Lagerkonfigurationen](walkthrough-picking-and-shipping-in-basic-warehousing.md)
 <!-- #### [Walkthrough: Tracing Serial/Lot Numbers](walkthrough-tracing-serial-lot-numbers.md) -->
 #### [Walkthrough: Erstellen Sie Cashflow-Prognosen mithilfe von Finanzberichten](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
+#### [Beispielhafte Vorgehensweise: Den Shopify Konnektor festlegen und verwenden](shopify/walkthrough-setting-up-and-using-shopify.md)
 <!-- Contoso-->
 ### Contoso Coffee-Demodaten für die Produktion
 #### [Einführung in Contoso Coffee-Demodaten](contoso-coffee/contoso-coffee-intro.md)
@@ -671,6 +672,7 @@
 <!--Shopify-->
 ## Onlineshop mit Shopify
 ### [Erste Schritte mit dem Shopify-Konnektor](shopify/get-started.md)
+#### [Erstellen und Festlegen eines Shopify-Kontos](shopify/shopify-account.md)
 ### [Artikel mit Shopify synchronisieren](shopify/synchronize-items.md)
 ### [Debitoren mit Shopify synchronisieren](shopify/synchronize-customers.md)
 ### [Verkaufsaufträge mit Shopify synchronisieren und erfüllen](shopify/synchronize-orders.md)
@@ -679,6 +681,7 @@
 ### [Aufgaben im Hintergrund ausführen](shopify/background.md)
 ### [Problembehandlung des Shopify-Konnektors](shopify/troubleshoot.md)
 ### [FAQ für den Shopify-Konnektor](shopify/shopify-faq.md)
+### [Beispielhafte Vorgehensweise: Den Shopify Konnektor festlegen und verwenden](shopify/walkthrough-setting-up-and-using-shopify.md)
 
 <!--Company Hub-->
 ## Unternehmens-Hub
@@ -1789,7 +1792,7 @@
 #### [Übersicht](admin-access-with-m365-license.md)
 #### [Zugriff mit Microsoft 365-Lizenzen einrichten](admin-access-with-m365-license-setup.md)
 #### [Benutzerzugriffsflow](admin-access-with-m365-license-flow.md)
-<!--#### [FAQ](admin-access-with-m365-license-faq.md) file temporarily moved to archive folder-->
+#### [FAQ](admin-access-with-m365-license-faq.md)
 #### [Problembehebung](admin-access-with-m365-license-troubleshooting.md) 
 ### [Profile verwalten](admin-users-profiles-roles.md)
 ### [Benutzereinstellungen und Präferenzen verwalten](admin-manage-user-settings-preferences.md)

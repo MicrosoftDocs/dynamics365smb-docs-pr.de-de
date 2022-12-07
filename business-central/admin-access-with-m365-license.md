@@ -6,15 +6,15 @@ ms.author: mikebc
 ms.reviewer: jswymer
 ms.service: dynamics365-business-central
 ms.topic: overview
-ms.date: 11/03/2022
+ms.date: 11/22/2022
 ms.custom: bap-template
 ms.search.keywords: License, access, Microsoft 365, collaborate, collaboration, Teams, Microsoft Teams
-ms.openlocfilehash: 84cd78b2e87f51dead2ce8a2d0340da76eb59e38
-ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
+ms.openlocfilehash: 8fcef5dca8698d0241e5fc6d37574b3c80b833da
+ms.sourcegitcommit: 61f22aeede684f0ae772353ede6530ff03ff2f90
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2022
-ms.locfileid: "9744989"
+ms.lasthandoff: 11/24/2022
+ms.locfileid: "9804445"
 ---
 # <a name="business-central-access-with-microsoft-365-licenses"></a>Business Central-Zugriff mit Microsoft 365-Lizenzen
 
@@ -123,13 +123,14 @@ In diesem Abschnitt werden die Mindestanforderungen beschrieben, die Ihre Organi
   |Microsoft 365 F1|50f60901-3181-4b75-8a2c-4c8e4c1d5a72|
   |Microsoft 365 F3|66b55226-6b4f-492c-910c-a3b7a3c9d993|
   |Office 365 E1|18181a46-0d4e-45cd-891e-60aabd171b4e|
+  |Office 365 E2 |6634e0ce-1a9f-428c-a498-f84ec7b8aa2e|
   |Office 365 E3|6fd2c87f-b296-42f0-b197-1e91e994b900|
   |Office 365 E5|c7df2760-2c81-4ef7-b578-5b5392b571df|
+  |Office 365 F2|131fd665-5752-4995-a628-bcba5c889745|
   |Office 365 F3|4b585984-651b-448a-9e53-3b10f069cf7f|
-  |<!--??--> Office 365 F2|131fd665-5752-4995-a628-bcba5c889745|
-  |<!--??--> Office 365 E2 |6634e0ce-1a9f-428c-a498-f84ec7b8aa2e|
   |Microsoft Teams Essentials (Azure AD-Identität) |3ab6abff-666f-4424-bfb7-f0bc274ec7bc|
-  |<!--??--> Microsoft 365 E1 ||
+  
+  Die meisten Angebote, die auf diesen Plänen basieren, werden ebenfalls unterstützt. Wenn Sie z.B. Microsoft 365 Business Premium (Nonprofit Staff Pricing) abonnieren, handelt es sich um ein spezielles Angebot für gemeinnützige Organisationen, das auf dem Plan Microsoft 365 Business Premium basiert und daher unterstützt wird.
 
   > [!NOTE]
   > Sie können Ihren Plan nicht in der Liste finden? Microsoft ist ständig auf der Suche nach Feedback dazu, wie wir unseren Service verbessern und unser Angebot erweitern können, damit mehr Kunden diese Funktion nutzen können. Teilen Sie uns Ihre Idee mit, welche Pläne wir als nächstes unterstützen sollten, unter [https://aka.ms/bcIdeas](https://aka.ms/bcIdeas).
