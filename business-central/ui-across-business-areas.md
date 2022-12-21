@@ -1,21 +1,19 @@
 ---
 title: Allgemeinen Funktionen über Geschäftsbereiche hinweg nutzen
 description: Weitere Informationen über Funktionalitäten und Funktionen, die über Geschäftsbereiche hinweg in Business Central verwendet werden.
-author: SorenGP
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: jswymer
+ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: feature overview, functionality
-ms.search.form: 9020, 9022, 9027, 9024
-ms.date: 09/19/2022
-ms.author: edupont
-ms.openlocfilehash: ce1550e658b881aa81a98c6c7e19c0d5b7011d19
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
+ms.date: 12/01/2022
+ms.custom: bap-template
+ms.openlocfilehash: c9f17c81e3cb2fcd57fef536e9c910416bdb1643
+ms.sourcegitcommit: 12ff9dcbefb47f2280479cceb656ea7e6ac2cfa1
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605900"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "9822478"
 ---
 # <a name="general-business-functionality"></a>Allgemeine Geschäftsfunktionen
 
@@ -43,7 +41,8 @@ Die folgende Tabelle enthält die unterstützten Geschäftsbereiche und Links zu
 |Buchen Sie mehrere Kauf- oder Verkaufsbelege gleichzeitig, sofort oder wie geplant.|[Mehrere Dokumente gleichzeitig buchen](ui-batch-posting.md)|  
 |Überprüfen Sie das Ergebnis der Buchung bevor Sie buchen.|[Vorschau-Buchungs-Ergebnisse](ui-how-preview-post-results.md)|
 |Bearbeiten Sie ausgewählte Felder in gebuchten Verkaufs- oder Einkaufsbelegen.|[Gebuchte Belege bearbeiten](across-edit-posted-document.md)|
-| Informieren Sie sich über den verfügbaren Status für Angebote, Bestellungen und Gutschriftdokumente, wie **Offen** und **Freigegeben** | [Feld "Status" in Belegen](ui-document-status.md) |
+|Erfahren Sie, wie Sie Belege und Posten finden, die miteinander verwandt sind, basierend auf einem Teil eines Belegs, Kontakt- oder Artikelinformationen. | [Suchen verwandter Posten für Belege](ui-find-entries.md) |
+|Informieren Sie sich über den verfügbaren Status für Angebote, Bestellungen und Gutschriftdokumente, wie **Offen** und **Freigegeben** | [Feld "Status" in Belegen](ui-document-status.md) |
 |Informationen zum Arbeiten mit Fibu Buch.-Blättern, die zum Buchen auf Sachkonten sowie auf andere Konten wie Bank-, Debitoren-, Kreditoren- oder Anlagekonten verwendet werden. |[Arbeiten mit Fibu Buch.-Blättern](ui-work-general-journals.md) |
 | Sie können einen Bericht planen, sodass er an einem bestimmten Datum und zu einer festgelegten Uhrzeit ausgeführt wird. |[Planen der Ausführung eines Berichts](ui-work-report.md#ScheduleReport) |
 |Das System kann Ihnen dabei helfen, Aufgaben schneller und korrekter zu erledigen, indem es Felder oder Zeilen mit Daten ergänzt, die Sie sonst berechnen und manuell eingeben müssten.|[Business Central Werte vorschlagen lassen](ui-let-system-suggest-values.md)|
