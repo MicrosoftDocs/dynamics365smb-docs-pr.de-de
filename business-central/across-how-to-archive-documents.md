@@ -1,29 +1,23 @@
 ---
 title: Archivieren von Einkaufs- und Kaufbelegen
-description: Sie können Verkaufs- und Einkaufsaufträge, Angebote, Rücklieferungen und Rahmenaufträge archivieren und bei Bedarf die Originale wiederherstellen.
+description: 'Sie können Verkaufs- und Einkaufsaufträge, Angebote, Rücklieferungen und Rahmenaufträge archivieren und bei Bedarf die Originale wiederherstellen.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 42, 49, 50, 459, 460, 5159, 5162, 5164, 5167, 6627, 6630, 6644, 9305, 9306, 9346, 9347, 9348, 9349
+ms.search.form: '42, 49, 50, 459, 460, 5159, 5162, 5164, 5167, 6627, 6630, 6644, 9305, 9306, 9346, 9347, 9348, 9349'
 ms.date: 03/06/2022
 ms.author: bholtorf
-ms.openlocfilehash: c81248844f603f80304822c0ce089c666f9be9bc
-ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 06/12/2022
-ms.locfileid: "8950329"
 ---
-# <a name="archive-documents"></a>Beleg archivieren
+# Beleg archivieren
 Sie können Verkaufs- und Einkaufsaufträge, Angebote, Rücklieferungen und Rahmenaufträge archivieren. Durch das Archivieren von Belegen können Sie das Original bei Bedarf wiederherstellen. Sie können ein Verkaufs- oder Einkaufsbeleg mehrmals archivieren, wobei Sie jedes Mal eine andere archivierte Version speichern.
 
 Für archivierte Verkaufsbelege, deren Original noch vorhanden und das nicht gebucht ist, können Sie die Aktion **Wiederherstellen** verwenden, um den aktuellen Beleg durch eine archivierte Version überschreiben. 
 
 Bei archivierten Belegen, deren Original gelöscht ist, können Sie den Inhalt nur durch Kopieren der Daten wiederverwenden, z. B. mit der Aktion **Aus Beleg kopieren**.  
 
-## <a name="to-set-up-automatic-document-archiving"></a>So richten Sie die automatische Archivierung von Belegen ein
+## So richten Sie die automatische Archivierung von Belegen ein
 
 Sie können die automatische Archivierung von Verkaufsaufträgen und Einkaufsbestellungen, Angeboten, Rahmenbestellungen und Verkaufsreklamationen einrichten. Wenn die automatische Archivierung aktiviert ist, wird eine neue Version des archivierten Dokuments erstellt, wenn ein Benutzer die folgenden Aktionen ausführt:
 
@@ -45,7 +39,7 @@ In der folgenden Tabelle werden die Optionen für das Feld **Angebote archiviere
 |**Frage**|Fordern Sie den Benutzer dazu auf, festzulegen, ob Verkaufsangebote archiviert werden sollen, wenn sie gelöscht werden.|
 |**Immer**|Archivieren Sie Verkaufsangebote automatisch, wenn sie gelöscht werden.|
 
-## <a name="to-archive-a-sales-order"></a>Verkaufsauftrag archivieren
+## Verkaufsauftrag archivieren
 
 Nachfolgend wird beschrieben, wie Sie einen Auftrag archivieren Die Schritte für alle Aufträge, Rahmenaufträge, Reklamationen und Angebote sind ähnlich.
 
@@ -55,7 +49,7 @@ Nachfolgend wird beschrieben, wie Sie einen Auftrag archivieren Die Schritte fü
 
 Der Auftrag ist archiviert. Sie können sie auf der Seite **Archivierte Verkaufsaufträge** anzeigen.
 
-## <a name="to-restore-a-non-posted-sales-order-from-the-archive"></a>So stellen Sie einen nicht gebuchten Verkaufsauftrag aus dem Archiv wieder her
+## So stellen Sie einen nicht gebuchten Verkaufsauftrag aus dem Archiv wieder her
 
 Die folgende Vorgehensweise beschreibt, wie Sie aus einem archivierten Verkaufsauftrag den ursprünglichen Verkaufsauftrag wiederherstellen. Das Wiederherstellen eines Belegs ist nur möglich, wenn der Originalbeleg nicht gebucht wurde. Die Schritte sind für alle Aufträge, Rahmenaufträge, Rücklieferungen und Angebote ähnlich.
 
@@ -64,7 +58,7 @@ Die folgende Vorgehensweise beschreibt, wie Sie aus einem archivierten Verkaufsa
 
 Die Inhalte des ursprünglichen Verkaufsauftrags werden durch die archivierte Version ersetzt.
 
-## <a name="to-delete-archived-sales-orders"></a>Archivierte Auftragsversionen löschen
+## Archivierte Auftragsversionen löschen
 
 Nachfolgend wird beschrieben, wie Sie einen archivierten Auftrag löschen. Die Schritte sind für alle anderen archivierten Einkaufs- und Verkaufsbelege ähnlich.
 
@@ -72,7 +66,7 @@ Nachfolgend wird beschrieben, wie Sie einen archivierten Auftrag löschen. Die S
 2. Wählen Sie die Aktion **Ältere Versionen löschen** und dann auf der Seite **Archivierte Verkaufsauftragsversionen löschen** die entsprechenden Filter aus.  
 3. Wählen Sie die Schaltfläche **OK** aus.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Nachverfolgen von Belegzeilen](across-how-to-track-document-lines.md)  
 [Verkauf](sales-manage-sales.md)  

@@ -1,30 +1,24 @@
 ---
 title: Erste Schritte beim Erstellen von Layouts
-description: Erfahren Sie, wie Sie Layouts erstellen, um das Erscheinungsbild eines Berichts beim Anzeigen, Drucken oder Speichern zu personalisieren.
+description: 'Erfahren Sie, wie Sie Layouts erstellen, um das Erscheinungsbild eines Berichts beim Anzeigen, Drucken oder Speichern zu personalisieren.'
 author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: customized report, document layout, logo, personalize
-ms.search.form: 9650, 9652
+ms.search.keywords: 'customized report, document layout, logo, personalize'
+ms.search.form: '9650, 9652'
 ms.date: 03/23/2022
 ms.author: jswymer
-ms.openlocfilehash: 0b9c74b7bdd81151b2b290db6cae6bed791d5a23
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9534399"
 ---
-# <a name="get-started-creating-report-layouts"></a>Erste Schritte beim Erstellen von Berichtslayouts
+# Erste Schritte beim Erstellen von Berichtslayouts
 
 Business Central enthält viele integrierte Layouts, die Sie für Ihre Berichte verwenden können. Andere Layouts wurden möglicherweise als Teil anderer Erweiterungen hinzugefügt. Es ist aber auch möglich, eigene Berichte entweder von Grund auf neu oder basierend auf einem bestehenden Layout zu erstellen.
 
 > [!IMPORTANT]
 > Sie können auchBerichtslayouts verwenden, um E-Mail-Nachrichten Inhalte hinzuzufügen. Berichtslayouts können beispielsweise Zeit sparen und zur Konsistenz beitragen, indem dieselben Inhalte wiederverwendet werden, wenn Sie mit Ihren Debitoren kommunizieren. Um benutzerdefinierte Berichtslayouts mit E-Mail verwenden zu können, muss der Dateityp für das Layout „Word“ sein. Der Dateityp „RDLC“ kann nicht verwendet werden. Weitere Informationen finden Sie unter [Wiederverwendbare E-Mail-Texte und -Layouts einrichten](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts). 
 
-## <a name="overview"></a>Übersicht
+## Übersicht
 
 Beim Arbeiten mit Berichtslayouts ist es hilfreich, sich das Layout als eine Datei vorzustellen, die importiert und einem Bericht zugewiesen wird. Unabhängig vom Layouttyp ist die Verwaötung von Layouts in Business Central grundsätzlich gleich. Normalerweise arbeiten Sie auf der Seite **Berichtslayouts**. Der Hauptunterschied besteht darin, wie Sie das Layout entwerfen. Das erfolgt mit der Anwendungssoftware, auf der das Layout aufbaut, wie Word, Excel oder SQL Server Report Builder.
 
@@ -40,7 +34,7 @@ Mit diesem Konzept im Hinterkopf müssen im Wesentlichen drei oder vier Aufgaben
 >
 > Informationen zum Unterschied zwischen Erweiterungslayouts und benutzerdefinierten Layouts finden Sie unter [Layoutquelle](ui-manage-report-layouts.md#layout-sources).
 
-## <a name="get-started"></a>Erste Schritte
+## Erste Schritte
 
 Je nach Ihrer Situation unterschieden sich die tatsächlichen Aufgaben. Verwenden Sie die folgende Tabelle, um Ihnen den Einstieg zu erleichtern.
 
@@ -53,7 +47,7 @@ Je nach Ihrer Situation unterschieden sich die tatsächlichen Aufgaben. Verwende
 |Vom aktuellen Layout, das von einem Bericht verwendet wird, zu einem anderen Layout wechseln|[Festlegen des von einem Bericht verwendeten Layouts](ui-set-report-layout.md)|
 |Den Namen und die Beschreibung eines Layouts ändern|[Ein Layout umbennen](#rename)|
 
-## <a name="decide-what-type-of-layout-you-want"></a><a name="decide"></a>Entscheiden Sie, welche Art von Layout Sie möchten
+## <a name="decide"></a>Entscheiden Sie, welche Art von Layout Sie möchten
 
 Als erstes müssen Sie beim Erstellen eines Layouts entscheiden, welchen [Layouttyp](ui-manage-report-layouts.md#layout-types) Sie wollen. Sie können entweder Word, Excel oder RDLC auswählen. Der Layouttyp hängt davon ab, wie der generierte Bericht aussehen soll. Außerdem hängt er von Ihren Kenntnissen der Anwendungssoftware zum Erstellen der Layouts ab, z. B. Word, Excel und SQL Server Report Builder.
 
@@ -72,11 +66,11 @@ Als erstes müssen Sie beim Erstellen eines Layouts entscheiden, welchen [Layout
 
 * Die allgemeinen Entwurfskonzepte für Word- und RDLC-Layouts sind ähnlich. Jedoch hat jede Art bestimmte Design-Funktionalitäten, die beeinflussen, wie der generierte Bericht im [!INCLUDE[prod_short](includes/prod_short.md)]erscheint. Derselbe Bericht sieht möglicherweise bei Verwendung eines Word-Layout anders aus als bei einem RDLC-Berichtslayout.
 
-## <a name="create-a-new-layout"></a><a name="create"></a>Ein neues Layout erstellen
+## <a name="create"></a>Ein neues Layout erstellen
 
 Es gibt zwei Möglichkeiten, ein neues Layout aus einem bestehenden Layout zu erstellen. Eine Möglichkeit besteht darin, das vorhandene Layout in einer Kopie zu speichern. Die andere Möglichkeit besteht darin, das vorhandene Layout zu exportieren.
 
-## <a name="copying"></a>[Kopieren](#tab/copy)
+## [Kopieren](#tab/copy)
 
 Kopieren ist eine schnelle Möglichkeit, ein neues Layout zu erstellen, das mit einem vorhandenen Layout identisch ist. Sobald Sie die Kopie haben, nehmen Sie Änderungen vor, indem Sie das Layout exportieren. 
 
@@ -93,7 +87,7 @@ Kopieren ist eine schnelle Möglichkeit, ein neues Layout zu erstellen, das mit 
    Das neue Layout wird auf der Seite **Berichtslayouts** angezeigt.
 5. Informationen zum Vornehmen von Änderungen am neuen Layout finden Sie unter [Ändern eines vorhandenen Layouts](#modify).
 
-### <a name="exportingimporting"></a>[Exportieren/Importieren](#tab/export)
+### [Exportieren/Importieren](#tab/export)
 
 [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
 2. Wählen Sie das Layout aus, das Sie für Ihr neues Layout kopieren möchten, und wählen Sie dann die Aktion **Layout exportieren** aus.
@@ -132,7 +126,7 @@ Wenn Sie sehen möchten, wie der Bericht mit dem neuen Layout aussieht, wählen 
 
 ---
 
-## <a name="modify-a-layout"></a><a name="modify"></a>Ändern eines Layouts
+## <a name="modify"></a>Ändern eines Layouts
 
 Führen Sie diese Schritte aus, um ein vorhandenes benutzerdefiniertes Layout zu ändern.
 
@@ -161,7 +155,7 @@ Führen Sie diese Schritte aus, um ein vorhandenes benutzerdefiniertes Layout zu
    Die ausgewählte Datei wird in das Layout hochgeladen und Sie kehren zur **Berichtslayouts**-Seite zurück.
 7. Wenn Sie sehen möchten, wie der Bericht mit dem neuen Layout aussieht, wählen Sie das Layout in der Liste und dann **Bericht ausführen** aus.
 
-## <a name="replace-a-layout"></a><a name="replace"></a>Ein Layout ersetzen
+## <a name="replace"></a>Ein Layout ersetzen
 
 Führen Sie diese Schritte aus, um die vorhandene benutzerdefinierte Layoutdatei durch eine neue Datei zu ersetzen.
 
@@ -173,7 +167,7 @@ Führen Sie diese Schritte aus, um die vorhandene benutzerdefinierte Layoutdatei
    Die ausgewählte Datei wird in das Layout hochgeladen und Sie kehren zur **Berichtslayouts**-Seite zurück.
 5. Wenn Sie sehen möchten, wie der Bericht mit dem neuen Layout aussieht, wählen Sie das Layout in der Liste und dann **Bericht ausführen** aus.
 
-## <a name="rename-a-layout"></a><a name="rename"></a>Ein Layout umbennen
+## <a name="rename"></a>Ein Layout umbennen
 
 Befolgen Sie diese Schritte, wenn Sie den Namen und die Beschreibung eines benutzerdefinierten Layouts ändern möchten.
 
@@ -184,9 +178,9 @@ Befolgen Sie diese Schritte, wenn Sie den Namen und die Beschreibung eines benut
     > Um Ihnen das Auffinden des Layouts zu erleichtern, verwenden Sie das Feld **Suchen**, den Bereich **Filtern** und die Spaltensortierung.
 3. Ändern Sie den **Layout-Namen** und wählen Sie dann **OK** aus.
 
-## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/change-documents-dynamics-365-business-central/index)
+## Siehe verwandte [Microsoft Schulungen](/training/modules/change-documents-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Verwalten von Berichtslayouts](ui-manage-report-layouts.md)  
 [Arbeiten mit Word Layouts](ui-how-add-fields-word-report-layout.md)  

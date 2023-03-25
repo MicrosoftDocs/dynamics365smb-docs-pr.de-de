@@ -1,22 +1,16 @@
 ---
 title: Erstellen von Genehmigungs-Workflows zur Verbindung von Aufgaben
-description: Erfahren Sie, wie Sie Workflows erstellen, die Aufgaben verbinden, die von verschiedenen Benutzern in Geschäftsprozessen ausgeführt werden.
+description: 'Erfahren Sie, wie Sie Workflows erstellen, die Aufgaben verbinden, die von verschiedenen Benutzern in Geschäftsprozessen ausgeführt werden.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 11/11/2022
 ms.author: bholtorf
-ms.openlocfilehash: 0d84da534c754ba7b0f6d1de97b61634ff743ddc
-ms.sourcegitcommit: 9bba11d474e21711cc8e2afefee8efb473170707
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/14/2022
-ms.locfileid: "9763256"
 ---
-# <a name="create-workflows-to-connect-tasks-in-business-processes"></a>Workflows erstellen, um Aufgaben in Geschäftsprozessen zu verbinden
+# Workflows erstellen, um Aufgaben in Geschäftsprozessen zu verbinden
 
 Sie können Workflows erstellen, die Aufgaben in Geschäftsprozessen verbinden, die von verschiedenen Benutzern ausgeführt werden. Systemaufgaben, wie automatische Buchung, können als Schritte in Workflows berücksichtigt werden, vor oder nach Benutzeraufgaben. Die Anforderung oder Bewilligung von Genehmigungen zum Erstellen neuer Datensätze sind typische Workflowschritte.  
 
@@ -47,7 +41,7 @@ Der Workflow ist in drei Abschnitte unterteilt:
 
 Für Ereignisse und Antworten gilt, dass die Optionen systemdefiniert sind. Neue Ereignisse müssen durch die Entwicklung einer Erweiterung hinzugefügt werden.
 
-## <a name="to-create-a-workflow"></a>So erstellen Sie einen Workflow
+## So erstellen Sie einen Workflow
 
 1. Wählen Sie das Symbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Workflows** ein, und wählen Sie dann den entsprechenden Link.  
 2. Wählen Sie die Aktion **Neu**. Die Seite **Workflow** wird geöffnet.  
@@ -117,7 +111,7 @@ Für Ereignisse und Antworten gilt, dass die Optionen systemdefiniert sind. Neue
 > [!TIP]  
 > Um Beziehungen zwischen Tabellen zu sehen, die in Workflows verwendet werden, wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol, und geben Sie dann **Workflow – Tabellenbeziehungen** ein.  
 
-## <a name="example-of-creating-a-new-workflow-using-existing-events"></a>Beispiel für das Erstellen eines neuen Workflows unter Verwendung vorhandener Ereignisse
+## Beispiel für das Erstellen eines neuen Workflows unter Verwendung vorhandener Ereignisse
 
 Im folgenden Beispiel wird ein neuer Workflow erstellt, um Änderungen am Namen eines bestehenden Kreditors zu genehmigen:
 
@@ -176,9 +170,9 @@ Die folgende Abbildung gibt einen Überblick über das Ergebnis dieses Vorgangs.
 
 Testen Sie als nächstes den Workflow, indem Sie eine vorhandene Kreditorkarte öffnen und ihren Namen ändern. Überprüfen Sie, ob nach der Änderung des Kreditorennamens ein Genehmigungsantrag gesendet wird.
 
-## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/create-workflows/)
+## Siehe verwandte [Microsoft Schulungen](/training/modules/create-workflows/)
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Erstellen von Workflows aus Workflowvorlagen](across-how-to-create-workflows-from-workflow-templates.md)  
 [Einrichten von Genehmigungsbenutzern](across-how-to-set-up-approval-users.md)  

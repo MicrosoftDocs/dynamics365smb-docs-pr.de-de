@@ -1,27 +1,22 @@
 ---
 title: Auftragsplanung zum Erstellen und Reservieren von Lieferungen verwenden
-description: Exemplarische Vorgehensweise, um zu erfahren, wie Sie die Auftragsplanung verwenden, um den erforderlichen Produktionsauftrag für die Lieferung in Business Central zu erstellen.
+description: 'Exemplarische Vorgehensweise, um zu erfahren, wie Sie die Auftragsplanung verwenden, um den erforderlichen Produktionsauftrag für die Lieferung in Business Central zu erstellen.'
 ms.date: 04/01/2022
 ms.topic: article
 ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
-ms.openlocfilehash: 496eaa1fd1aa8828125018a554c701743bccd5db
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8525105"
 ---
-# <a name="walkthrough-use-order-planning-to-create-and-reserve-supply"></a>Exemplarische Vorgehensweise: Auftragsplanung zum Erstellen und Reservieren von Lieferungen verwenden
+
+# Exemplarische Vorgehensweise: Auftragsplanung zum Erstellen und Reservieren von Lieferungen verwenden
 
 In diesem Artikel führen wir Sie durch die Schritte zur Verwendung der Demodaten von Contoso Coffee für Auftragsplanung.
 
-## <a name="scenario"></a>Szenario
+## Szenario
 
 Sie sind der Produktionsplaner bei Contoso Coffee. Sie haben einen Produktionsauftrag für 100 Einheiten des Artikels **SP-SCM1009, Airpot** erstellt, und Sie möchten Unterbaugruppen für diesen Auftrag planen. Mit der Auftragsplanung legen Sie den erforderlichen Fertigungsauftrag für die Versorgung an. Da Sie den Produktionsauftrag erstellen, um die Anforderungen eines bestimmten Auftrags zu erfüllen, entscheiden Sie sich, die Ausgabe des Produktionsauftrags zu reservieren.  
 
-## <a name="steps"></a>Schritte
+## Schritte
 
 1. Erstellen Sie einen neuen freigegebenen Produktionsauftrag für 100 Einheiten des Artikels **SP-SCM1009, Airpot**.
 
@@ -64,7 +59,7 @@ Sie sind der Produktionsplaner bei Contoso Coffee. Sie haben einen Produktionsau
 
 Das war's für die Auftragsplanung in [!INCLUDE [prod_short](../includes/prod_short.md)].  
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Einführung in Contoso Coffee Demo Data](contoso-coffee-intro.md)  
 [Info zu Fertigungsaufträgen](../production-about-production-orders.md)  

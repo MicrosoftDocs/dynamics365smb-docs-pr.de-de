@@ -3,13 +3,8 @@ author: edupont04
 ms.topic: include
 ms.date: 03/01/2022
 ms.author: edupont
-ms.openlocfilehash: 5a3e15669bfc590d663b7774fba84017ae842521
-ms.sourcegitcommit: 865b390b5571b08084bde93b539ec9898e201933
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8372021"
 ---
+
 In der folgenden Tabelle werden einige der wichtigsten Berichte in der Produktionsberichterstattung beschrieben.
 
 | Bericht | Beschreibung | Id | 

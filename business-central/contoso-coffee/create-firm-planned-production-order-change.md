@@ -1,29 +1,24 @@
 ---
 title: Neuen fest geplanten Produktionsauftrag erstellen und ändern
-description: Exemplarische Vorgehensweise für einen Produktionsplaner bei Contoso Coffee, der einen fest geplanten Produktionsauftrag erstellen und ihn dann ändern möchte.
+description: 'Exemplarische Vorgehensweise für einen Produktionsplaner bei Contoso Coffee, der einen fest geplanten Produktionsauftrag erstellen und ihn dann ändern möchte.'
 ms.date: 04/01/2022
 ms.topic: article
 ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
-ms.openlocfilehash: 7a057e144ed6825435c62f565eeaaa73974fedf9
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8525130"
 ---
-# <a name="walkthrough-create-a-firm-planned-production-order-and-change-it"></a>Exemplarische Vorgehensweise: Neuen fest geplanten Produktionsauftrag erstellen und ändern
+
+# Exemplarische Vorgehensweise: Neuen fest geplanten Produktionsauftrag erstellen und ändern
 
 In diesem Artikel führen wir Sie durch die Schritte zur Verwendung der Demodaten von Contoso Coffee, um mit Fertigungsaufträgen zu arbeiten.  
 
-## <a name="scenario"></a>Szenario
+## Szenario
 
 Eduardo, der Produktionsplaner bei Contoso Coffee, muss einen neuen Produktionsauftrag für 10 Einheiten des Artikels **SP-SCM1009, Flughafen** erstellen, der am 28. April fällig ist. Er plant diesen rückwärts und überprüft, ob er den Auftrag am 27. April starten kann.  
 
 Kurz nachdem er diese Aufgabe erledigt hat, wird er gebeten, die Bestellung auf 50 Einheiten zu erhöhen. Wenn er dies tut, verschiebt die Rückwärtsterminierungsfunktion das Startdatum des Auftrags auf einen zu frühen Zeitpunkt. Also plant er den Auftrag für den 23. April voraus, um ein realistischeres Fertigstellungsdatum zu ermitteln.  
 
-## <a name="steps"></a>Schritte
+## Schritte
 
 1. Erstellen Sie den ersten Fertigungsauftrag für 10 Einheiten des Artikels **SP-SCM1009, Airpot**.
 
@@ -63,6 +58,6 @@ Kurz nachdem er diese Aufgabe erledigt hat, wird er gebeten, die Bestellung auf 
 
 Der neue Fertigungsauftrag ist nun eingerichtet und Eduardos Anforderungen sind erfüllt.  
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Einführung in Contoso Coffee Demo Data](contoso-coffee-intro.md)  

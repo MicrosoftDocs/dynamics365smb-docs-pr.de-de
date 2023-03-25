@@ -6,17 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: d8be2d8c3b9602c1a3e78f6cc4ba495af93730d3
-ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 06/12/2022
-ms.locfileid: "8950173"
 ---
-# <a name="setup-best-practices-planning-parameters"></a>Bewährte Einrichtungsmethoden: Planungsparameter
+# Bewährte Einrichtungsmethoden: Planungsparameter
+
 Das Inforegister **Planung** auf der Artikelkarte ist Mittelpunkt der gesamten Lieferkette des Unternehmens. Das Einstellen eines richtigen Planungsparameters ist für die kosteneffektive Bestandskontrolle und einen sehr guten Debitorenservice sehr wichtig.  
 
  Die folgende Tabelle enthält bewährte Methoden zum Einrichten von ausgewählten Planungsparameterfeldern. Für weitere Informationen zu einem Feld klicken Sie auf den Link in der Spalte **Feldeinstellungen**.  
@@ -35,16 +30,16 @@ Das Inforegister **Planung** auf der Artikelkarte ist Mittelpunkt der gesamten L
 |Rundungspräzision|In der teuren Produktion auf 0,00001 festgelegt.|Große Rundungsmengen an Ausschuss oder Materialverbrauch können zu sehr hohen Lagerkosten führen. Es kann daher von Bedeutung sein, die kleinste Rundungspräzision festzulegen, um diese potenziellen Kosten zu minimieren.|  
 
 > [!NOTE]  
->  Die bewährten Methoden zu Planungsparametern auf Artikelkarten gelten auch für dieselben Felder auf Lagerhaltungsdatenkarten.  
->   
->  Wenn Unternehmen den Bedarf an verschiedenen Lagerorten planen, empfiehlt es sich, für jeden Standort Lagerhaltungsdaten festzulegen und den gesamten Bedarf mit einem Wert im Feld **Lagerortcode** zu erstellen. Weitere Informationen finden Sie unter [Designdetails: Bedarf an leerem Lagerort](design-details-demand-at-blank-location.md)  
+> Die bewährten Methoden zu Planungsparametern auf Artikelkarten gelten auch für dieselben Felder auf Lagerhaltungsdatenkarten.  
+>
+> Wenn Unternehmen den Bedarf an verschiedenen Lagerorten planen, empfiehlt es sich, für jeden Standort Lagerhaltungsdaten festzulegen und den gesamten Bedarf mit einem Wert im Feld **Lagerortcode** zu erstellen. Weitere Informationen finden Sie unter [Designdetails: Planung mit/ohne Lagerortcodes](production-planning-with-without-locations.md).  
 
-## <a name="see-also"></a>Siehe auch  
- [Bewährte Einrichtungsmethoden: Beschaffungsplanung](setup-best-practices-supply-planning.md)   
- [Designdetails: Beschaffungsplanung](design-details-supply-planning.md)   
- [Richten Sie komplexe Anwendungsbereiche mithilfe bewährter Methoden ein](set-up-complex-application-areas-using-best-practices.md)  
- [Designdetails: Bedarf an leerem Lagerort](design-details-demand-at-blank-location.md)  
- [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+## Weitere Informationen  
+[Bewährte Einrichtungsmethoden: Beschaffungsplanung](setup-best-practices-supply-planning.md)  
+[Entwurfsdetails: Vorratsplanung](design-details-supply-planning.md)  
+[Richten Sie komplexe Anwendungsbereiche mithilfe bewährter Methoden ein](set-up-complex-application-areas-using-best-practices.md)  
+[Designdetails: Planung mit oder ohne Lagerortcodes](production-planning-with-without-locations.md)  
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

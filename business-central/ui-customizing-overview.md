@@ -1,23 +1,17 @@
 ---
 title: Business Central anpassen
-description: Lesen Sie mehr über die verschiedenen Möglichkeiten, Business Central anzupassen, um den Zugriff auf die Funktionen zu verbessern, die Sie für Ihre tägliche Arbeit am meisten benötigen.
+description: 'Lesen Sie mehr über die verschiedenen Möglichkeiten, Business Central anzupassen, um den Zugriff auf die Funktionen zu verbessern, die Sie für Ihre tägliche Arbeit am meisten benötigen.'
 author: SorenGP
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: personalize, add-in, extend, customize
-ms.search.form: 2500, 2502
+ms.search.keywords: 'personalize, add-in, extend, customize'
+ms.search.form: '2500, 2502'
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 1feffa480e3bdf6236801e666646ea5aaddd8876
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9606089"
 ---
-# <a name="customize-business-central"></a>Anpassen von Business Central
+# Anpassen von Business Central
 
 Es gibt unterschiedliche Arten, die Anwendung anzupassen, um Ihnen und Ihren Kollegen Zugriff auf die Funktionen, die Funktionalität und die Daten zu geben, die Sie am häufigsten brauchen, uns so, dass es am besten in Ihre tägliche Arbeit passt. Diejenigen, die Änderungen sehen, verlassen sich auf das, was Sie tun in der Tabelle.
 
@@ -34,9 +28,9 @@ Es gibt unterschiedliche Arten, die Anwendung anzupassen, um Ihnen und Ihren Kol
 > [!NOTE]
 > Alle Funktionsbeschreibungen in der Dokumentation behandeln [!INCLUDE[prod_short](includes/prod_short.md)] die **Premium**-Umgebung, decken also den gesamten Umfang der Benutzeroberflächenelemente ab. Daher können Benutzer mit der **Essential**-Umgebung in einigen Themen Informationen zu Funktionen und Benutzeroberflächenelementen finden, die in der Benutzeroberfläche nicht sichtbar sind. Weitere Informationen finden Sie unter [Ändern, welche Funktionen angezeigt werden](ui-experiences.md).
 
-## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/paths/tailor-roles-design-ui/)
+## Siehe verwandte [Microsoft Schulungen](/training/paths/tailor-roles-design-ui/)
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

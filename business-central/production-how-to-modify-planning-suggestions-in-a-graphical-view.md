@@ -1,22 +1,16 @@
 ---
 title: Ändern von Planungsvorschlägen in der grafischen Ansicht
-description: Typische Planungsaktivität – ändern oder fügen Sie Zeilen im Planungsarbeitsblatt hinzu, um die vorgeschlagenen Vorräte zu modifizieren, bevor Sie die Funktion „Aktion ausführen“ Nachricht ausführen.
+description: 'Typische Planungsaktivität – ändern oder fügen Sie Zeilen im Planungsarbeitsblatt hinzu, um die vorgeschlagenen Vorräte zu modifizieren, bevor Sie die Funktion „Aktion ausführen“ Nachricht ausführen.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 90201c5aa134eb0c4c9c01c4c692f3f253b5f56c
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8515407"
 ---
-# <a name="modify-planning-suggestions-in-a-graphical-view"></a>Ändern von Planungsvorschlägen in einer grafischen Ansicht
+# Ändern von Planungsvorschlägen in einer grafischen Ansicht
 
 Eine typische Planungsaktivität besteht darin, Planungsarbeitsblattszeilen zu ändern oder hinzuzufügen, um die vorgeschlagenen Beschaffungsaufträge zu ändern, bevor Sie diese kommissionieren, indem Sie die Funktion **Ereignismeldung durchführen** ausführen. Eine Alternative zur Durchführung im Planungsarbeitsblatt ist die Verwendung einer grafischen Ansicht. Dies wird derzeit in [!INCLUDE[prod_short](includes/prod_short.md)] jedoch nicht unterstützt.  
 
@@ -92,7 +86,7 @@ To implement the supply plan changes, you must follow the resulting action messa
  |While moving an element, press Esc.|Cancels the move. **Note:**  Does not work if you have released the mouse button.|
 -->
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Planung](production-planning.md)  
 [Produktion einrichten](production-configure-production-processes.md)  

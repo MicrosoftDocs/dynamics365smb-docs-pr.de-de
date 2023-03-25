@@ -1,6 +1,6 @@
 ---
 title: Allgemeinen Funktionen über Geschäftsbereiche hinweg nutzen
-description: Weitere Informationen über Funktionalitäten und Funktionen, die über Geschäftsbereiche hinweg in Business Central verwendet werden.
+description: 'Weitere Informationen über Funktionalitäten und Funktionen, die über Geschäftsbereiche hinweg in Business Central verwendet werden.'
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: jswymer
@@ -8,14 +8,8 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.date: 12/01/2022
 ms.custom: bap-template
-ms.openlocfilehash: c9f17c81e3cb2fcd57fef536e9c910416bdb1643
-ms.sourcegitcommit: 12ff9dcbefb47f2280479cceb656ea7e6ac2cfa1
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 12/02/2022
-ms.locfileid: "9822478"
 ---
-# <a name="general-business-functionality"></a>Allgemeine Geschäftsfunktionen
+# Allgemeine Geschäftsfunktionen
 
 [!INCLUDE[prod_short](includes/prod_short.md)] stellt dedizierte Funktionen für typische Geschäftsbereiche, wie Finanzen und Personalwesen, bereit. Weitere Informationen finden Sie unter [Business-Funktionalität](across-business-functionality.md).
 
@@ -51,7 +45,7 @@ Die folgende Tabelle enthält die unterstützten Geschäftsbereiche und Links zu
 | Richten Sie Datenaustauschdefinitionen ein, damit Sie elektronische Belege versenden und erhalten können. |[Daten elektronisch austauschen](across-data-exchange.md) |
 | Verwenden Sie Online-Karten, um Standorte und Wegbeschreibungen zu Kunden, Lieferanten und Adressen im Allgemeinen zu finden. | [Verwenden Sie Online-Karten, um Standorte und Wegbeschreibungen zu finden](across-online-maps.md) |
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Verwaltung](admin-setup-and-administration.md)  

@@ -1,6 +1,6 @@
 ---
 title: Zugriff mit Microsoft 365-Lizenzen einrichten
-description: Eine Anleitung, wie Administratoren den Zugriff auf Business Central mit Microsoft 365-Lizenzen konfigurieren können.
+description: 'Eine Anleitung, wie Administratoren den Zugriff auf Business Central mit Microsoft 365-Lizenzen konfigurieren können.'
 author: mikebc
 ms.author: mikebc
 ms.reviewer: jswymer
@@ -8,20 +8,14 @@ ms.service: dynamics365-business-central
 ms.topic: how-to
 ms.date: 11/03/2022
 ms.custom: bap-template
-ms.search.keywords: License, access, Microsoft 365, collaborate, collaboration, Teams, Microsoft Teams
-ms.search.forms: 9061
-ms.openlocfilehash: 3b3e7d42e077749bd4443506f7423dce03e9e82f
-ms.sourcegitcommit: 61f22aeede684f0ae772353ede6530ff03ff2f90
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/24/2022
-ms.locfileid: "9804418"
+ms.search.keywords: 'License, access, Microsoft 365, collaborate, collaboration, Teams, Microsoft Teams'
+ms.search.form: 9061
 ---
-# <a name="set-up-business-central-access-in-teams-with-microsoft-365-licenses"></a>Zugriff auf Business Central in Teams mit Microsoft 365-Lizenzen festlegen
+# Zugriff auf Business Central in Teams mit Microsoft 365-Lizenzen festlegen
 
 Administratoren müssen mehrere Aktivitäten abschließen, bevor Benutzer mit ihrer Microsoft 365-Lizenz auf Business Central zugreifen können. Die folgenden Schritte stellen die Mindesteinrichtung dar, die für den Einstieg erforderlich ist. Um mehr über den Zugriff mit Microsoft 365-Lizenzen zu erfahren, gehen Sie zu [Business Central Zugriff mit Microsoft 365-Lizenzen](admin-access-with-m365-license.md).
 
-## <a name="deploy-the-business-central-app-for-teams"></a>Business Central-App für Teams bereitstellen
+## Business Central-App für Teams bereitstellen
 
 Für Business Central-Lizenzinhaber zum Teilen von Daten in Teams und für Microsoft 365-Lizenzinhaber, um auf diese Daten zugreifen zu können, muss die Business Central-App für Teams installiert sein. Obwohl Benutzer die App selbst installieren können, wird empfohlen, dass Administratoren die zentrale Bereitstellung verwenden. Durch die zentrale Bereitstellung können Sie die App einem breiteren Publikum in der gesamten Organisation zur Verfügung stellen und den Aufwand einzelner Benutzer minimieren. 
 
@@ -33,7 +27,7 @@ Informationen zum zentralen Bereitstellen der Business Central-App für Teams fi
 > [!TIP]
 > Suchen Sie nach einer schnelleren Möglichkeit, diese Funktion auszuprobieren? Testnutzer können die App installieren unter [aka.ms/BCgetTeamsApp](https://aka.ms/BCgetTeamsApp).
 
-## <a name="configure-permissions"></a>Berechtigungen konfigurieren
+## Berechtigungen konfigurieren
 
 Business Central ist von Haus aus sicher und minimiert das Risiko, indem keine Berechtigungen für Microsoft 365-Benutzer standardmäßig gewährt werden. Administratoren müssen Objektberechtigungen konfigurieren, die festlegen, auf welche Tabellen, Seiten und Berichte in Teams nur mit einer Microsoft 365-Lizenz zugegriffen werden kann. Diese Berechtigungen sind die Startberechtigungen, die zugewiesen werden, wenn sich ein Benutzer zum ersten Mal mit seiner Microsoft 365-Lizenz anmeldet. 
 
@@ -56,7 +50,7 @@ Beim Arbeiten mit mehreren Umgebungen muss die Lizenzkonfiguration auf jede Umge
 
 Weitere Informationen finden Sie unter [Zuweisen von Berechtigungen zu Benutzern und Gruppen](ui-define-granular-permissions.md) und [Zusammenstellen von Berechtigungssätzen](/dynamics365/business-central/dev-itpro/developer/devenv-permissionset-composing).
 
-## <a name="turn-on-access-with-microsoft-365-licenses"></a>Zugriff mit Microsoft 365-Lizenzen aktivieren
+## Zugriff mit Microsoft 365-Lizenzen aktivieren
 
 Der Zugriff mit Microsoft 365-Lizenzen ist standardmäßig deaktiviert. Der Zugriff muss für jede Umgebung separat aktiviert werden, sodass Administratoren die Kontrolle erhalten und eine gestaffelte Einführung in der gesamten Organisation möglich ist. Sie aktivieren den Zugriff über das Business Central Admin Center: 
 
@@ -66,7 +60,7 @@ Der Zugriff mit Microsoft 365-Lizenzen ist standardmäßig deaktiviert. Der Zugr
 4. In dem Bereich **Microsoft 365-Lizenzen** schalten Sie den Schalter ein. 
 5. Wählen Sie **Speichern** aus, wenn Sie fertig sind, und akzeptieren Sie die Bestätigung. Die Änderung tritt sofort in Kraft.
 
-## <a name="test-your-setup"></a>Ihre Einrichtung testen
+## Ihre Einrichtung testen
 
 Um zu überprüfen, ob Ihr Setup für die Produktion bereit ist, helfen Ihnen die folgenden Schritte, das Vertrauen aufzubauen, dass alles so funktioniert, wie es sollte. 
 
@@ -90,7 +84,7 @@ Um zu überprüfen, ob Ihr Setup für die Produktion bereit ist, helfen Ihnen di
 > [!TIP]
 > Ist ein Fehler aufgetreten? Überprüfen Sie [Fehlerbehebung beim Zugriff mit Microsoft 365-Lizenzen](admin-access-with-m365-license-troubleshooting.md).
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Übersicht über den Business Central Access mit Microsoft 365-Lizenzen](admin-access-with-m365-license.md#minimum-requirements)  
 [Fehlerbehebung beim Zugriff mit Microsoft 365-Lizenzen](admin-access-with-m365-license-troubleshooting.md)  

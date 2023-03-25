@@ -1,6 +1,6 @@
 ---
 title: Tabelleninformationen anzeigen
-description: Erfahren Sie, wie Sie Informationen über Datenbanktabellen in Business Central anzeigen können.
+description: 'Erfahren Sie, wie Sie Informationen über Datenbanktabellen in Business Central anzeigen können.'
 author: jswymer
 ms.topic: conceptual
 ms.devlang: na
@@ -9,20 +9,15 @@ ms.workload: na
 ms.search.form: 8700
 ms.date: 08/23/2022
 ms.author: jswymer
-ms.openlocfilehash: 990a8f56108bacfe82e6fe591858d238396f16be
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9362162"
 ---
-# <a name="viewing-table-information"></a>Tabelleninformationen anzeigen
+
+# Tabelleninformationen anzeigen
 
 Auf der Seite **8700 Tabelleninformationen** erhalten Sie Informationen über die Anzahl der Datensätze in allen System- und Geschäftstabellen in [!INCLUDE[prod_short](includes/prod_short.md)], und wie viele Daten jede Tabelle enthält.
 
 Diese Informationen sind hilfreich bei der Behebung von Leistungsproblemen, da Sie die Verteilung der Datengröße auf Tabellen anzeigen können.
 
-## <a name="viewing-table-information"></a>Tabelleninformationen anzeigen
+## Tabelleninformationen anzeigen
 
 Um diese Seite zu öffnen, wählen Sie das ![Suche nach Seite oder Bericht.](media/ui-search/search_small.png "Suchen Sie nach dem Symbol Seite oder Bericht") Symbol. Geben Sie **Tabelleninformationen** ein und wählen Sie dann den entsprechenden Link.
 
@@ -43,7 +38,7 @@ In der folgenden Tabelle werden die für jede Tabelle bereitgestellten Informati
 > [!NOTE]
 > Wenn Sie Daten in einer Tabelle löschen, startet [!INCLUDE[prod_short](includes/prod_short.md)] mehrere Prozesse im Hintergrund, um sicherzustellen, dass alles in Ihrer Datenbank bereinigt wird. Die Werte auf der Seite Tabelleninformationen werden erst aktualisiert, wenn diese Prozesse abgeschlossen sind, was eine Weile dauern kann. Die Wartezeit kann je nach Größe Ihrer Datenbank variieren.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Überprüfen von Seiten](across-inspect-page.md)  
 [Artikel zur Leistung für Entwickler](/dynamics365/business-central/dev-itpro/performance/performance-developer)  

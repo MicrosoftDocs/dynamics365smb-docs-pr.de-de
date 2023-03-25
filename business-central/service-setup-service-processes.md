@@ -1,22 +1,16 @@
 ---
 title: Einrichten von Servicevorgängen | Microsoft Docs
-description: Erfahren Sie, wie Sie Vorgänge einrichten, die vollständige Zufriedenheit Ihrer Debitoren mit Ihrem Debitorendienst sicherzustellen.
+description: 'Erfahren Sie, wie Sie Vorgänge einrichten, die vollständige Zufriedenheit Ihrer Debitoren mit Ihrem Debitorendienst sicherzustellen.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: service, number sequences, setup, warnings, fee, contracts, warranties
+ms.search.keywords: 'service, number sequences, setup, warnings, fee, contracts, warranties'
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 2a65c34f8fa59cd72c2df9e78343da03c67d8721
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8380932"
 ---
-# <a name="configure-service-processes"></a>Konfigurieren von Serviceprozessen
+# Konfigurieren von Serviceprozessen
 Es folgen einige Beispiele für Einstellungen, die Sie bei Servicevorgängen anwenden können:  
   
 * Einige allgemeine Einstellungen für mehrere Vorgänge, wie Warnungen, Berechnung des nächsten Service für Serviceartikel, die zu ermittelnde Grundgebühr, die zu verwendende Ebene des Problemberichtswesens und so weiter.  
@@ -25,11 +19,11 @@ Es folgen einige Beispiele für Einstellungen, die Sie bei Servicevorgängen anw
 * Einstellungen für Verträge, wie die maximale Anzahl der Tage, die Sie für Vertragsserviceaufträge verwenden können, ob Ursachencodes verwendet werden, wenn ein Vertrag gekündigt wird, Standardtexte für Vertragsbeschreibungen und Vertragswerte.  
 * Die Anzahl der zu verwendenden Reihenfolgen bei dienstbezogenen Belegen und Artikeln.  
 
-## <a name="to-enter-general-and-mandatory-settings"></a>So geben Sie allgemeine und obligatorische Einstellungen ein
+## So geben Sie allgemeine und obligatorische Einstellungen ein
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Service Einrichtung** ein, und wählen Sie dann den entsprechenden Link.
 2. Füllen Sie die Felder bei Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-## <a name="see-also"></a>Siehe auch  
+## Siehe auch  
 [Fehlerberichte einrichten](service-how-setup-fault-reporting.md)  
 [Ressourcenzuweisung einrichten](service-how-setup-resource-allocation.md)  
 [Einrichten von Codes für Standardservices](service-how-setup-service-coding.md)  

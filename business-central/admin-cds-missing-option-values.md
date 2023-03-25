@@ -1,20 +1,15 @@
 ---
 title: Behandlung fehlender Optionswerte
-description: Erfahren Sie, wie Sie verhindern können, dass die vollständige Synchronisierung fehlschlägt, weil sich die Optionen in den zugeordneten Feldern unterscheiden. Dieser Prozess erfordert die Hilfe eines Entwicklers.
+description: 'Erfahren Sie, wie Sie verhindern können, dass die vollständige Synchronisierung fehlschlägt, weil sich die Optionen in den zugeordneten Feldern unterscheiden. Dieser Prozess erfordert die Hilfe eines Entwicklers.'
 author: brentholtorf
 ms.author: bholtorf
 ms.custom: na
 ms.reviewer: na
 ms.topic: conceptual
 ms.date: 03/23/2022
-ms.openlocfilehash: a726d182babca26525e2931ea2b487171b470bcc
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8512490"
 ---
-# <a name="handling-missing-option-values"></a>Behandlung fehlender Optionswerte
+
+# Behandlung fehlender Optionswerte
 > [!NOTE]
 > Im 1. Veröffentlichungszyklus 2022 können Sie Ihre eigenen Optionszuordnungen erstellen. Weitere Informationen finden Sie unter [Anpassen von Optionszuordnungen mit Microsoft Dataverse](/dynamics365/business-central/dev-itpro/administration/administration-custom-option-mapping). Für die neuen Funktionen muss Ihr Administrator die Option **Funktionsupdate: Zuordnung zu Optionssätzen in Dataverse ohne Code** auf der Seite **Funktionsverwaltung** aktivieren. Weitere Informationen finden Sie unter [Bevorstehende Funktionen im Voraus aktivieren](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
@@ -87,7 +82,7 @@ enum 5334 "CDS Payment Terms Code"
 
 Alle obigen [!INCLUDE[prod_short](includes/prod_short.md)] Enums werden den Optionssätzen in [!INCLUDE[prod_short](includes/cds_long_md.md)] zugeordnet.
 
-### <a name="extending-option-sets-in-prod_short"></a>Optionssätze in [!INCLUDE[prod_short](includes/prod_short.md)] erweitern
+### Optionssätze in [!INCLUDE[prod_short](includes/prod_short.md)] erweitern
 1. Erstellen Sie eine neue AL-Erweiterung.
 
 2. Fügen Sie eine Enum-Erweiterung für die Optionen hinzu, die Sie erweitern möchten. Achten Sie darauf, dass Sie den gleichen Wert verwenden. 
@@ -109,7 +104,7 @@ enumextension 50100 "CDS Payment Terms Code Extension" extends "CDS Payment Term
 > [!NOTE]
 > Die ersten zehn Zeichen der neuen Optionswertnamen und Beschriftungen müssen eindeutig sein. Beispielsweise führen zwei Optionen mit den Namen „Übertragung 20 Arbeitstage“ und „Übertragung 20 Kalendertage“ zu einem Fehler, da beide die gleichen ersten 10 Zeichen, „Übertragung 2“, haben. Nennen Sie sie z.B. „TRF20 WD“ und „TRF20 CD“.
 
-### <a name="update-prod_short-option-mapping"></a>Update [!INCLUDE[prod_short](includes/cds_long_md.md)] Optionszuordnung
+### Update [!INCLUDE[prod_short](includes/cds_long_md.md)] Optionszuordnung
 Jetzt können Sie die Zuordnung zwischen [!INCLUDE[prod_short](includes/cds_long_md.md)]-Optionen und [!INCLUDE[prod_short](includes/prod_short.md)]-Einträgen neu erstellen.
 
 Wählen Sie auf der Seite **Integration Tabellenzuordnung** die Zeile für die Karte **Zahlungsbedingungen** und wählen Sie dann die Aktion **Modifizierte Datensätze synchronisieren**. Die Seite **Dataverse Optionszuordnung** wird mit den zusätzlichen Datensätzen unten aktualisiert.
@@ -145,7 +140,7 @@ Die Tabelle **Zahlungsbedingungen** in [!INCLUDE[prod_short](includes/prod_short
 | *NET60*      |                      |                           | 0.         | FALSCH                         |                   |
 | ***ÜBERTRAGUNG*** |                      |                           | 0.         | FALSCH                         |                   |
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 [Zu synchronisierende Tabellen und Felder zuordnen](admin-how-to-modify-table-mappings-for-synchronization.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

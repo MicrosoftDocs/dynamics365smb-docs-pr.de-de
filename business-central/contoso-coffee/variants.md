@@ -1,27 +1,22 @@
 ---
 title: Varianten
-description: Exemplarische Vorgehensweise, um zu erfahren, wie die Bedarfsplanung für jede Variante eines Produkts in Business Central aktualisiert wird.
+description: 'Exemplarische Vorgehensweise, um zu erfahren, wie die Bedarfsplanung für jede Variante eines Produkts in Business Central aktualisiert wird.'
 ms.date: 04/01/2022
 ms.topic: article
 ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
-ms.openlocfilehash: 86b70b3caf1896804ffdc3c76610ffe10ae73c5c
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8525100"
 ---
-# <a name="walkthrough-variants"></a>Exemplarische Vorgehensweise: Varianten
+
+# Exemplarische Vorgehensweise: Varianten
 
 In diesem Artikel führen wir Sie durch die Schritte zur Verwendung der Demodaten von Contoso Coffee, um mehr über Varianten zu erfahren.
 
-## <a name="scenario"></a>Szenario
+## Szenario
 
 Sie sind der Produktionsplaner bei Contoso Coffee. Sie müssen die Bedarfsplanung für jede Variante des Artikels SP-SCM1006, AutoDripLite aktualisieren. Da sie unterschiedliche Farben haben, müssen Sie darauf achten, dass für jede Variante die richtige Stückliste (BOM) verwendet wird. Führen Sie das Planungsarbeitsblatt aus, um den Vorrat zu berechnen.  
 
-## <a name="steps"></a>Schritte
+## Schritte
 
 1. Richten Sie die Lagerhaltungseinheiten für Artikel SP-SCM1006, AutoDripLite ein. Weisen Sie eine Stückliste für SKU mit den Varianten ROT und WEISS zu.
 
@@ -103,6 +98,6 @@ Sie sind der Produktionsplaner bei Contoso Coffee. Sie müssen die Bedarfsplanun
 
     9. Wählen Sie für jede erstellte Zeile die **Komponenten**-Aktion aus und überprüfen Sie, welche Farbe verwendet wird.  
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Einführung in Contoso Coffee Demo Data](contoso-coffee-intro.md)  

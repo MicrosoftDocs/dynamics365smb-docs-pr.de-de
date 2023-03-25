@@ -1,28 +1,22 @@
 ---
 title: Importieren vieler Artikelbilder über eine ZIP-Datei
-description: Um mehrere Artikelbilder zu importieren, geben Sie den Bilddateien Namen, die den Artikelnummern entsprechen, komprimieren Sie sie in eine ZIP-Datei und verwenden Sie die Seite Artikelbilder importieren.
+description: 'Um mehrere Artikelbilder zu importieren, geben Sie den Bilddateien Namen, die den Artikelnummern entsprechen, komprimieren Sie sie in eine ZIP-Datei und verwenden Sie die Seite Artikelbilder importieren.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: product, image
-ms.search.form: 30, 461
+ms.search.keywords: 'product, image'
+ms.search.form: '30, 461'
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 44a3689c59a25b6c0aca25f69896e86beb71ea6c
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8522066"
 ---
-# <a name="import-multiple-item-pictures"></a>Mehrere Artikelbilder importieren
+# Mehrere Artikelbilder importieren
 Sie können mehrere Artikelbilder in einem Durchgang importieren. Benennen Sie einfach Ihre Bilddateien mit Namen entsprechend zu Ihren Artikelnummern, komprimieren Sie sie in einer ZIP-Datei und verwenden Sie dann die Seite „Artikelbilder importieren”, um zu verwalten, welche Artikel importiert werden sollen.
 
 Alle gängigen Dateiformate werden unterstützt.
 
-## <a name="to-name-picture-files-by-the-item-names-and-prepare-the-zip-file"></a>So benennen Sie Bilddateien anhand des Artikelnamens und bereiten die ZIP-Datei vor:
+## So benennen Sie Bilddateien anhand des Artikelnamens und bereiten die ZIP-Datei vor:
 1. Gehen Sie zu dem Ort, an dem Ihre Artikelbilder gespeichert sind, und benennen Sie die einzelnen Dateien entsprechend der Nummer des zugehörigen Artikels. Beispiel:
 
     |Artikelnr.|Dateiname|
@@ -33,7 +27,7 @@ Alle gängigen Dateiformate werden unterstützt.
 
 2. Sammeln Sie alle Dateien in einer ZIP-Datei. Wählen Sie zum Beispiel in Windows Explorer die Dateien und dann **Senden an**, **Komprimierter (gezippter) Ordner** aus.     
 
-## <a name="to-import-item-pictures"></a>So importieren Sie Artikelbilder
+## So importieren Sie Artikelbilder
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Lagerbestandseinrichtung** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie die Aktion **Artikelbilder importieren** aus.
 3. Wählen Sie im Feld **ZIP-Datei auswählen** den relevanten ZIP-Ordner und dann die Schaltfläche **Öffnen** aus.
@@ -47,7 +41,7 @@ Alle gängigen Dateiformate werden unterstützt.
 
 Das Feld **Importstatus** wird aktualisiert, um anzuzeigen, ob der Bildimport übersprungen oder abgeschlossen wurde.       
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 [Neue Artikel registrieren](inventory-how-register-new-items.md)  
 [Erstellen von Nummernkreisen](ui-create-number-series.md)  
 [Bestand](inventory-manage-inventory.md)  

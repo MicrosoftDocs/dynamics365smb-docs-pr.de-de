@@ -1,27 +1,21 @@
 ---
 title: Erstellen Sie Neuwert-Posten für Artikel im Lagerbestand| Microsoft Docs
-description: Beschreibt, wie Sie die Werteinträge eines oder mehrerer Artikel im Bestand aufwerten oder abschreiben, indem Sie deren aktuellen, berechneten Wert buchen.
+description: 'Beschreibt, wie Sie die Werteinträge eines oder mehrerer Artikel im Bestand aufwerten oder abschreiben, indem Sie deren aktuellen, berechneten Wert buchen.'
 documentationcenter: ''
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: costing, inventory cost, value entries
-ms.search.forms: 5803,
+ms.search.keywords: 'costing, inventory cost, value entries'
+ms.search.forms: '5803,'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: edad8dcc23a204f4dcfabfa43a9c83918f63f416
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511546"
 ---
-# <a name="revalue-inventory"></a>Neubewerten von Lagerbestand
+# Neubewerten von Lagerbestand
 Wenn Sie den Lagerwert eines Artikels oder den eines bestimmten Artikelpostens nach oben oder unten verändern möchten, müssen Sie das Neubewertungs Buch.-Blatt verwenden.
 
-## <a name="to-revalue-inventory"></a>Neubewerten von Lagerbestand
+## Neubewerten von Lagerbestand
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Neubewertungs Buch.-Blatt** ein, und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie die Aktion **Lagerwert berechnen** aus.
 3. Füllen Sie auf der Seite **Lagerwert berechnen** die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -33,7 +27,7 @@ Wenn Sie den Lagerwert eines Artikels oder den eines bestimmten Artikelpostens n
 
 Neue Wertposten werden nun erstellt, um die Neubewertungen abzubilden, die Sie gebucht haben. Sie können die neuen Werte in der entsprechenden Artikelkarten sehen.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 [Designdetails: Neubewertung](design-details-revaluation.md)  
 [Bestand](inventory-manage-inventory.md)  
 [Verkauf](sales-manage-sales.md)  

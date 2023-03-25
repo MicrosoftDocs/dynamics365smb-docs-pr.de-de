@@ -1,21 +1,15 @@
 ---
 title: Feld "Status" in Belegen
-description: Informieren Sie sich über den Status „Offen“ und „Freigegeben“ in Angebots-, Auftrags- oder Gutschriftdokumenten.
+description: 'Informieren Sie sich über den Status „Offen“ und „Freigegeben“ in Angebots-, Auftrags- oder Gutschriftdokumenten.'
 author: brentholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.search.keywords: document, status, quote, order, credit memo, released, open, pending approval, pending prepayment,
-ms.search.form: ''
+ms.search.keywords: 'document, status, quote, order, credit memo, released, open, pending approval, pending prepayment,'
+ms.search.form: null
 ms.date: 09/19/2022
 ms.author: bholtorf
-ms.openlocfilehash: f48f499277155aaf60ae0992199d7895225f1ef5
-ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 10/28/2022
-ms.locfileid: "9728626"
 ---
-# <a name="status-field-on-documents"></a>Feld "Status" in Belegen
+# Feld "Status" in Belegen
 
 Wenn Sie ein Angebot/eine Anfrage, einen Verkaufsauftrag/eine Bestellung oder eine Gutschrift erstellen, enthält das Feld **Status** im Belegkopf als Vorgabewert den Status **Offen**.
 
@@ -28,11 +22,11 @@ Nachdem Sie den Beleg ausgefüllt haben, können Sie ihn freigeben. Mit [!INCLUD
 | Genehmigung ausstehend   | Der Beleg muss noch genehmigt werden. |
 | Ausstehende Vorauszahlung | Eine Vorauszahlungsrechnung wurde für den Beleg gebucht. |
 
-## <a name="release-process"></a>Freigabe-Prozess
+## Freigabe-Prozess
 
 Sie können das Freigabeverfahren auf verschiedene Weise nutzen, um Ihren normalen Arbeitsablauf zu erleichtern, z.B. um die Verfahren der Firma für Genehmigungen zu befolgen oder um Lagerort-Aktivitäten zu starten.
 
-### <a name="approval-procedures"></a>Genehmigungsverfahren
+### Genehmigungsverfahren
 
 Ihre Firma kann das Freigabeverfahren verwenden, um anzuzeigen, dass ein anderer Benutzer den Beleg genehmigt hat oder dass ein externer Kontakt die Spezifikationen des Belegs erfüllen kann, wie in diesen Beispielen gezeigt:
 
@@ -42,11 +36,11 @@ Ihre Firma kann das Freigabeverfahren verwenden, um anzuzeigen, dass ein anderer
 
 Erfahren Sie mehr über Genehmigungsworkflows unter [Verwenden Sie Arbeitsabläufe](across-use-workflows.md).
 
-### <a name="warehouse-activities"></a>Lageraktivitäten
+### Lageraktivitäten
 
 Wenn der Bestellstatus **Offen** ist, beginnt der Lagerort nicht mit der Vorbereitung der Lieferung und erwartet nicht, dass die Artikel einer Bestellung eingehen. Wenn Sie die Bestellung freigeben, geben Sie an, dass die Bestellung abgeschlossen ist und dass der Lagerort sie in seine Aktivitäten aufnehmen kann.
 
-## <a name="reopen-a-released-order"></a>Eine freigegebene Bestellung wieder öffnen
+## Eine freigegebene Bestellung wieder öffnen
 
 Sie können Änderungen an einem freigegebenen Auftrag/einer freigegebenen Bestellung vornehmen, indem Sie ihn/sie wieder öffnen. Sie können jedoch die Mengen in Zeilen, die bereits vom Lagerhaus verarbeitet wurden, nur noch erhöhen.
 
@@ -57,7 +51,7 @@ Wenn Sie Änderungen an einem freigegebenen Auftrag/einer freigegebenen Bestellu
 > [!NOTE]
 > Wenn Sie eine einzelne offene Bestellung oder Gutschrift buchen möchten, ohne sie vorher freizugeben, gibt [!INCLUDE [prod_short](includes/prod_short.md)] den Beleg automatisch frei, wenn Sie ihn buchen. Wenn Sie Ihre Bestellungen oder Gutschriften mit der Funktion **Batch buchen** buchen, können Sie wählen, ob Sie nur die freigegebenen Bestellungen oder Gutschriften buchen möchten.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Produkte mit einem Verkaufsauftrag des Debitors verkaufen](sales-how-sell-products.md)  
 [Einkäufe mit Einkaufsrechnungen erfassen](purchasing-how-record-purchases.md)  

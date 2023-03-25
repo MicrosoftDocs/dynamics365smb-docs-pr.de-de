@@ -1,114 +1,152 @@
 ---
 title: Design-Details – Inbound Warehouse Flow
-description: Der eingehende Warehouse Flow beginnt, wenn die Artikel am Lagerort der Firma ankommen. Artikel werden registriert und schließlich mit eingehenden Belegen abgeglichen.
-author: SorenGP
+description: 'Der eingehende Lagerfluss beginnt, wenn die Artikel im Firmenlager ankommen und registriert und mit eingehenden Herkunftsbelegen abgeglichen werden.'
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 06/15/2021
-ms.author: edupont
-ms.openlocfilehash: de7a468377f454c01d45742f4510cb9978340ae6
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132003"
+ms.search.keywords: null
+ms.date: 11/14/2022
+ms.author: bholtorf
 ---
-# <a name="design-details-inbound-warehouse-flow"></a>Designdetails: Eingehender Lagerfluss
-Der eingehende Fluss in ein Lager beginnt, wenn Artikel im Lager des Unternehmensstandorts ankommen, entweder aus externen Quellen oder von einem anderen Standort des Unternehmens. Ein Mitarbeiter registriert die Artikel, normalerweise, indem er einen Barcode scannt. Vom empfangenden Dock werden Lageraktivitäten auf verschiedene Komplexitätsebenen ausgeführt, um die Artikel in den Lagerbereich zu bringen.  
+# Designdetails: Eingehender Lagerfluss
 
- Jeder Artikel wird durch einen entsprechenden eingehenden Herkunftsbeleg gekennzeichnet und an diesen angepasst. Die folgenden eingehenden Herkunftsbelege sind verfügbar:  
+Der eingehende Fluss in ein Lager beginnt, wenn Artikel im Lager des Unternehmensstandorts ankommen, entweder aus externen Quellen oder von einem anderen Standort des Unternehmens. Grundsätzlich besteht der Prozess des Eingangs von eingehenden Aufträgen aus zwei Aktivitäten:
 
-- Einkaufsbestellung  
-- Ausgehende Umlagerungsaufträge  
-- Verkaufsreklamation  
+* Empfangen von Artikeln am Wareneingang des Lagers, wo Sie die Artikel identifizieren, sie einem Herkunftsbeleg zuordnen und die erhaltene Menge erfassen. 
+* Lagern Sie Artikel im Lager ein und notieren Sie den Platz, an dem Sie sie abgelegt haben.
 
-Darüber hinaus behandeln die folgenden internen Herkunftsbelege diese Funktion wie eingehende Quellen:  
+Die Herkunftsbelege für den eingehenden Lagerfluss sind:
 
-- Fertigungsauftrag mit Ausgabebuchung  
-- Montageauftrag mit Ausgabebuchung  
+* Bestellungen  
+* Eingehende Umlagerungsaufträge  
+* Verkaufsreklamationen  
 
-Die letzten beiden repräsentieren eingehende Ströme zum Lager aus internen Betriebsbereichen. Weitere Informationen über die Lagerverarbeitung für interne eingehende und ausgehende Prozesse finden Sie unter [Designdetails: Interner Lagerfluss](design-details-internal-warehouse-flows.md)  
+> [!NOTE]
+> Produktions- und Montage-Ausgabe stellen auch eingehende Herkunftsbelege dar. Weitere Informationen über die Verarbeitung von Fertigungs- und Montage-Ausgabe für interne Prozesse finden Sie unter [Designdetails: Interner Lagerfluss](design-details-internal-warehouse-flows.md).  
 
-Prozesse und UI-Belege in eingehenden Warenflüssen unterscheiden sich in grundlegenden und erweiterten Lagerfunktionen. Der wichtigste Unterschied besteht darin, dass Aktivitäten in der einfachen Logistik Auftrag für Auftrag durchgeführt werden, und in der erweiterten Logistik für mehrere Aufträge konsolidiert werden. Weitere Informationen über verschiedene Lagerkomplexitätsebenen finden Sie unter [Designdetails: Lager-Übersicht](design-details-warehouse-setup.md).  
+In [!INCLUDE[prod_short](includes/prod_short.md)] erhalten Sie Artikel und lagern sie, wie in der folgenden Tabelle beschrieben, mit einer von vier Methoden ein.
 
-In [!INCLUDE[prod_short](includes/prod_short.md)] können Sie die eingehenden Prozesse für das Empfangen und Einlagern auf vier Arten mit verschiedenen Funktionen, abhängig von der Lagerkomplexitätsebene, ausführen.  
+|Art|Eingangsprozess|Wareneingang erforderlich|Einlagerung erforderlich|Komplexitätsgrad (Weitere Informationen unter [Lagermanagementübersicht](design-details-warehouse-management.md))|  
+|------------|---------------------|--------------|----------------|------------|  
+|A|Posteinlieferungsschein und die Einlagerung der Auftragszeile|||Keine dedizierte Lageraktivität.|  
+|B|Posteinlieferungsschein und Einlagerung aus dem Beleg "Lagereinlagerung"||Aktiviert|Basis: Auftragsbezogene Logistik|  
+|U|Posteinlieferungsschein und Einlagerung aus einem Wareneingangsbeleg|Aktiviert||Basis: Konsolidierte Eingangs-/Versandbuchung für mehrere Bestellungen.|  
+|T|Posteinlieferungsschein aus einem Wareneingangsbeleg und Posteinlagerung aus einem Einlagerungsbeleg|Aktiviert|Aktiviert|Erweitert|  
 
-|Methode|Eingangsprozess|Lagerplätze|Geb. Umlag.-Eingänge|Einlagerungen|Komplexitätsebene anzeigen (siehe [Designdetails: Lagerhaus-Einrichtung](design-details-warehouse-setup.md))|  
-|------------|---------------------|----------|--------------|----------------|--------------------------------------------------------------------------------------------------------------------|  
-|A|Posteinlieferungsschein und die Einlagerung der Auftragszeile|X|||2|  
-|F|Posteinlieferungsschein und Einlagerung aus dem Beleg "Lagereinlagerung"|||X|3|  
-|L|Posteinlieferungsschein und Einlagerung aus einem Wareneingangsbeleg||X||4/5/6|  
-|T|Posteinlieferungsschein aus einem Wareneingangsbeleg und Posteinlagerung aus einem Einlagerungsbeleg||X|X|4/5/6|  
+Die Auswahl eines Ansatzes hängt von Ihren Methoden des Unternehmens und dem Niveau der Organisationskomplexität ab. Im Folgenden finden Sie einige Beispiele, die Ihnen bei der Entscheidung helfen könnten.
 
-Die Auswahl eines Ansatzes hängt von den akzeptierten Methoden des Unternehmens und seiner Komplexität ab. In einer Auftrag-für-Auftrag-Lagerumgebung, in der die meisten der Lagermitarbeiter direkt mit Auftragsbelegen arbeiten, entscheidet sich ein Unternehmen möglicherweise anschließend, Methode A zu verwenden. Ein Auftrag-für-Auftrag-Lager, das einen komplexeren Einlagerungsprozess hat, oder das dedizierte Lagermitarbeiter hat, um die Lagerverwaltung durchzuführen, könnte sich entscheiden, seine Einlagerungsfunktionen von der Auftragsdokumentmethode B zu trennen. Darüber hinaus kann es für Unternehmen, die die Verarbeitung mehrerer Aufträge planen müssen, nützlich sein, Lagereingangsdokumente, Methoden C und D, zu verwenden.  
+* In einer Lagerumgebung mit auftragsbezogener Logistik, in der die meisten Lagermitarbeiter direkt mit Auftragsdokumenten arbeiten, können Sie sich für Methode A entscheiden. 
+* Ein Lager mit auftragsbezogener Logistik mit einem komplexeren Einlagerungsprozess oder wo Lagermitarbeiter ihre Einlagerungsaktivitäten vom Auftragsdokument trennen, könnte Methode B verwenden.
+* Unternehmen, die die Abwicklung mehrerer Bestellungen planen müssen, finden es möglicherweise hilfreich, Wareneingangsbelege zu verwenden, Methoden C und D.  
 
-In den Methoden werden A, B und C werden die Aktionen des Eingangs und der Einlagerung in einem Schritt zusammengefasst, wenn der entsprechende Beleg als eingegangen gebucht wird. In Methode D wird der Eingang zuerst gebucht, um die Bestandszunahme zu erkennen sowie, dass Artikel zum Verkauf verfügbar sind. Der Lagermitarbeiter registriert die Einlagerung, um Artikel für die Kommissionierung bereitzustellen.  
+In den Methoden A, B und C werden der Eingang und die Einlagerung in einem Schritt zusammengefasst, wenn der Beleg als eingegangen gebucht wird. In Methode D wird der Eingang zuerst gebucht, um die Bestandszunahme zu erfassen sowie, dass Artikel zum Verkauf verfügbar sind. Der Lagermitarbeiter registriert die Einlagerung, um die Artikel für die Kommissionierung für ausgehende Aufträge bereitzustellen. 
 
-## <a name="basic-warehouse-configurations"></a>Grundlegende Lagerhauskonfigurationen  
+> [!NOTE]
+> Wareneinlagerungen und Lagereinlagerungen klingen zwar ähnlich, sind aber unterschiedliche Dokumente und werden in unterschiedlichen Prozessen verwendet.
+> * Die in Methode B verwendete Lagereinlagerung verbucht zusammen mit der Registrierung von Einlagerungsinformationen auch den Eingang des Herkunftsbelegs.
+> * Die in Methode D verwendete Lagereinlagerung kann nicht gebucht werden und registriert nur die Einlagerung. Die Registrierung stellt die Artikel für die weitere Bearbeitung zur Verfügung, bucht aber nicht den Beleg. Im Wareneingang erfordert die Lagereinlagerung einen Wareneingang.
+
+> [!NOTE]
+> Wareneinlagerungen und Lagereinlagerungen klingen zwar ähnlich, sind aber unterschiedliche Dokumente und werden in unterschiedlichen Prozessen verwendet.
+> * Die in Methode B verwendete Lagereinlagerung verbucht zusammen mit der Registrierung von Einlagerungsinformationen auch den Eingang des Herkunftsbelegs.
+> * Die in Methode D verwendete Lagereinlagerung kann nicht gebucht werden und registriert nur die Einlagerung. Die Registrierung stellt die Artikel für die weitere Bearbeitung zur Verfügung, bucht aber nicht den Beleg. Im Wareneingang erfordert die Lagereinlagerung einen Wareneingang.
+
+## Keine dedizierte Lageraktivität
+
+Die folgenden Artikel enthalten Informationen zum Verarbeiten von Wareneingängen für Herkunftsbelege, wenn Sie keine dedizierten Lageraktivitäten haben.
+
+* [Erfassen eines Einkaufs](purchasing-how-record-purchases.md)
+* [Umlagerungsaufträge](inventory-how-transfer-between-locations.md)
+* [Verkaufsaufträge für Rücklieferungen verarbeiten](sales-how-process-sales-returns-orders.md)
+
+## Grundlegende Lagerhauskonfigurationen  
+
+In einer Basislagerkonfiguration ist der Schalter **Einlagerung erforderlich** aktiviert, aber der Schalter **Wareneingang erforderlich** auf der Seite Lagerortkarte für den Lagerort ist deaktiviert.
+
 Das folgende Diagramm zeigt die eingehenden Lagerflüsse nach Belegtyp im Rahmen der einfachen Logistik an. Die Nummern im Diagramm entsprechen den Schritten in den Abschnitten, die dem Diagramm folgen.  
 
-![Inbound Flow in grundlegenden Lagerkonfigurationen.](media/design_details_warehouse_management_inbound_basic_flow.png "Eingehender Fluss bei einfachen Lagerkonfigurationen")  
+:::image type="content" source="media/design_details_warehouse_management_inbound_basic_flow.png" alt-text="Der eingehende Basisfluss in einem Lager.":::
 
-### <a name="1-release-source-document--create-inventory-put-away"></a>1. Freigeben des Herkunftsbelegs/Einlagerung erstellen  
-Wenn Artikel im Lager erhalten werden, gibt der Benutzer, der für die Lieferung verantwortlich ist, den Herkunftsbeleg frei, etwa eine Bestellung oder einen eingehender Umlagerungsauftrag, um dem Lagerpersonal zu signalisieren, dass die eingegangenen Artikel im Lager eingelagert werden können. Oder der Benutzer erstellt Einlagerungsbelege für einzelne Auftragszeilen, im Push-Verfahren, basierend auf angegebenen Lagerplätzen und Mengen, die verarbeitet werden sollen.  
+### 1: Geben Sie ein Herkunftsbeleg frei, um eine Anforderung für eine Lagereinlagerung zu erstellen  
 
-### <a name="2-create-inbound-request"></a>2: Eingehende erwartete Lagerbewegung erstellen  
-Wenn der eingehende Herkunftsbeleg freigegeben wird, wird eine Einlagerungsanforderung automatisch erstellt. Enthält Referenzen zur Herkunftsbelegart und -Nummer und kann nicht dem Benutzer angezeigt werden.  
+Wenn Sie Artikel erhalten, geben Sie den Herkunftsbeleg frei, z. B. eine Bestellung oder einen eingehenden Umlagerungsauftrag. Durch die Freigabe des Belegs werden die Artikel zum Einlagern verfügbar. Sie können auch Lagereinlagerungsbelege für einzelne Auftragszeilen, im Push-Verfahren, basierend auf angegebenen Lagerplätzen und Mengen erstellen, die verarbeitet werden sollen.  
 
-### <a name="3-create-inventory-put-away"></a>3: Erstellen Sie eine neue Lagereinlagerung  
-Auf der Seite **Lagereinlagerung** erhält der Lagermitarbeiter im Pull-Verfahren die offenen Herkunftsbelegzeilen basierend auf den eingehenden Lageranfragen. Oder die Einlagerungszeilen wurden bereits, im Push-Verfahren, von dem Benutzer erstellt, der für den Herkunftsbeleg verantwortlich ist.  
+### 2: Erstellen Sie eine Lagereinlagerung  
 
-### <a name="4-post-inventory-put-away"></a>4: Lagereinlagerungsübersicht  
-In jeder Zeile für Artikel, die kommissioniert oder umgelagert wurden, sei es teilweise oder vollständig, füllt der Lagermitarbeiter das Feld **Menge** aus und bucht dann die Lagereinlagerung. Herkunftsbelege, die mit der Einlagerung verknüpft sind, werden als eingegangen gebucht.  
+Auf der Seite **Lagereinlagerung** können Sie im Pull-Verfahren die offenen Herkunftsbelegzeilen basierend auf den eingehenden Lageranfragen abrufen. Im Push-Verfahren können Sie auch Lagereinlagerungszeilen erstellen, wenn Sie den Herkunftsbeleg erstellen.  
 
-Positive Bestandskommissionierungen sowie Lagerposten werden erstellt, und die Einlagerungsanforderung wird gelöscht, wenn sie vollständig bearbeitet ist. Beispielsweise wird das Feld **Menge empfangen** auf der Zeile des eingehenden Herkunftsbelegs aktualisiert. Ein Beleg des gebuchten Wareneingangs wird erstellt, der beispielsweise die Einkaufsbestellung und die eingegangenen Artikel angezeigt.  
+### 3: An Lagereinlagerung buchen  
 
-## <a name="advanced-warehouse-configurations"></a>Erweiterte Lagerhauskonfigurationen  
-Das folgende Diagramm zeigt die eingehenden Lagerflüsse nach Belegtyp im Rahmen der einfachen Logistik an. Die Nummern im Diagramm entsprechen den Schritten in den Abschnitten, die dem Diagramm folgen.  
+In jeder Zeile für Artikel, die kommissioniert oder umgelagert wurden, sei es teilweise oder vollständig, füllen Sie das Feld **Menge** aus und buchen Sie dann die Lagereinlagerung. Herkunftsbelege, die mit der Einlagerung verknüpft sind, werden als eingegangen gebucht.  
 
-![Inbound Flow in erweiterten Lagerkonfigurationen.](media/design_details_warehouse_management_inbound_advanced_flow.png "Eingehender Fluss bei erweiterten Lagerkonfigurationen")  
+* Positive Artikelposten werden erstellt
+* Lagerposten werden für Lagerplätze erstellt, die bei allen Artikeltransaktionen einen Lagerplatzcode erfordern.
+* Die Einlagerungsanforderung wird gelöscht, wenn sie vollständig bearbeitet wurde. Beispielsweise wird das Feld **Menge empfangen**auf der Zeile des eingehenden Herkunftsbelegs aktualisiert.
+* Ein Beleg des gebuchten Wareneingangs wird erstellt, der beispielsweise die Einkaufsbestellung und die eingegangenen Artikel angezeigt.  
 
-### <a name="1-release-source-document"></a>1: Freigeben des Herkunftsbelegs  
-Wenn Elemente im Lager eingehen, gibt der Benutzer, der für den Eingang verantwortlich ist, den Quellbeleg frei, z. B. eine Einkaufsbestellung oder einen Umlagerungsauftrag, um den Arbeitskräften im Lager zu signalisieren, dass die eingegangenen Artikel im Bestand eingelagert werden können.  
+## Erweiterte Lagerhauskonfigurationen  
 
-### <a name="2-create-inbound-request"></a>2: Eingehende erwartete Lagerbewegung erstellen  
-Wenn der eingehende Herkunftsbeleg freigegeben wird, wird eine Einlagerungsanforderung automatisch erstellt. Enthält Referenzen zur Herkunftsbelegart und -Nummer und kann nicht dem Benutzer angezeigt werden.  
+In einer erweiterten Lagerkonfiguration ist der Schalter **Wareneingang erforderlich** auf der Standortkartenseite für den Standort aktiviert. Der Schalter **Einlagerung erforderlich** ist optional.
 
-### <a name="3-create-warehouse-receipt"></a>3: Wareneingang erstellen  
-Auf der Seite **Wareneingang** erhält der Benutzer, der für den Wareneingang der Artikel verantwortlich ist, die offenen Herkunftsbelegzeilen basierend auf der eingehenden Lageranfrage. Einige Herkunftsbelegzeilen können zu einem Wareneingangsbeleg zusammengefasst werden.  
+Das folgende Diagramm zeigt den eingehenden Lagerfluss nach Belegtyp. Die Nummern im Diagramm entsprechen den Schritten in den Abschnitten, die dem Diagramm folgen.  
 
-Der Benutzer füllt das Feld **Verarbeitungsmenge** aus und wählt die empfangende Zone und den Lagerplatz nach Bedarf aus.  
+:::image type="content" source="media/design_details_warehouse_management_inbound_advanced_flow.png" alt-text="Der erweiterte eingehende Fluss in einem Lager.":::
 
-### <a name="4-post-warehouse-receipt"></a>4: Buchen Sie den Wareneingang.  
-Der Benutzer bucht den Wareneingang. Positive Artikelposten werden erstellt. Beispielsweise wird das Feld **Menge empfangen** auf der Zeile des eingehenden Herkunftsbelegs aktualisiert.  
+### 1: Den Herkunftsbeleg freigeben  
 
-### <a name="5-create-warehouse-internal-put-away"></a>5: Erstellen Sie eine neue interne Einlagerungsanforderung  
-Der Benutzer, der für die Einlagerung aus internen Vorgängen zuständig ist, erstellt eine interne Einlagerungsanforderung für Artikel, die im Lager eingelagert werden müssen Lager, wie Produktions- oder Montageausstoß. Der Benutzer gibt Menge, Zone und Lagerplatz an, aus denen Artikel eingelagert werden sollen, eventuell mit der Funktion **Lagerplatzinhalt holen**. Der Benutzer gibt die interne Einlagerungsanforderung frei, wodurch eine eingehende erwartete Lagerbewegung erstellt wird, sodass die Aufgabe in Einlagerungsbelegen oder im Einlagerungsarbeitsblatt abgerufen werden kann.  
+Wenn Sie Artikel erhalten, geben Sie den Herkunftsbeleg frei, z. B. die Bestellung oder einen eingehenden Umlagerungsauftrag. Durch die Freigabe des Belegs werden die Artikel zum Einlagern verfügbar. Die Einlagerung enthält Referenzen zur Herkunftsbelegart und -Nummer.
 
-### <a name="6-create-put-away-request"></a>6: Einlagerungsanforderung  
-Wenn der eingehende Herkunftsbeleg gebucht wird, wird eine Einlagerungsanforderung automatisch erstellt. Enthält Referenzen zur Herkunftsbelegart und -Nummer und kann nicht dem Benutzer angezeigt werden. Abhängig von den Einstellungen erstellt die Ausgabe eines Fertigungsauftrags auch eine Einlagerungsanforderung, um die fertigen Artikel im Lagerbestand einzulagern.  
+### 2: Einen Wareneingang erstellen  
 
-### <a name="7-generate-put-away-worksheet-lines-optional"></a>7: Einlagerungsarbeitsblattzeilen generieren (optional)  
-Der Benutzer, der für das Koordinieren von Einlagerungen zuständig ist, ruft **Einlagerungszeilen** in Einlagerungsarbeitsblatt basierend auf gebuchten Wareneinängen oder internen Arbeitsgängen mit Ausgabe ab. Der Benutzer wählt die einzulagernden Zeilen und bereitet die Einlagerungen vor, indem er angibt, aus welchen Lagerplätzen entnommen und in welche Lagerplätze eingelagert wird, und wie viele Einheiten bewegt werden. Die Lagerplätze können durch Einrichtung des Lagerorts oder der Arbeitsgangsressource vordefiniert werden.  
+Auf der Seite **Wareneingang** rufen Sie die eingehenden Herkunftsbelegzeilen ab. Sie können mehrere Herkunftsbelegzeilen zu einem Wareneingangsbeleg zusammenfassen. Füllen Sie das Feld **Verarbeitungsmenge** aus und wählen Sie die empfangende Zone und den Lagerplatz nach Bedarf aus.  
 
-Wenn alle Einlagerungen geplant und den Lagermitarbeitern zugeteilt sind, erstellt der Benutzer die Einlagerungsbelege. Vollständig zugeordnete Einlagerungszeilen werden aus dem **Einlagerungsarbeitsblatt** gelöscht.  
+### 3: Buchen Sie den Wareneingang  
+
+Buchen Sie den Wareneingang, um positive Artikel Buch.-Blattzeilen zu erstellen. Das Feld **Menge empfangen** wird auf der Zeile des eingehenden Herkunftsbelegs aktualisiert.  
+
+Wenn der Schalter **Einlagerung erforderlich** auf der Lagerortkarte nicht aktiviert ist, wird der Prozess hier beendet. Andernfalls werden die Artikel durch die Buchung des eingehenden Herkunftsbelegs zum Einlagern verfügbar gemacht. Die Einlagerung enthält Referenzen zur Herkunftsbelegart und -Nummer.  
+
+### 4: (Optional) Einlagerungsarbeitsblattzeilen generieren
+
+Rufen Sie Einlagerungszeilen im **Einlagerungsarbeitsblatt** basierend auf gebuchten Wareneingängen oder Vorgängen ab, die eine Ausgabe erzeugen. Wählen Sie die einzulagernden Zeilen aus und geben Sie die folgenden Informationen an:
+
+* Die Lagerplätze aus denen Artikel entnommen werden sollen.
+* Die Lagerplätze, in die Artikel eingelagert werden.
+* Wie viele Einheiten zu bearbeiten sind.
+
+Die Lagerplätze können durch Einrichtung des Lagerorts oder der Ressource vordefiniert werden, die den Vorgang durchgeführt hat.  
+
+Wenn alle Einlagerungen geplant und den Lagermitarbeitern zugeteilt sind, erstellen Sie die Einlagerungsbelege. Vollständig zugeordnete Einlagerungszeilen werden aus dem **Einlagerungsarbeitsblatt** gelöscht.  
 
 > [!NOTE]  
->  Wenn das Feld **Einlagerungsarbeitsblatt** auf der Artikelkarte nicht ausgewählt ist, werden Einlagerungsbelege direkt basierend auf den gebuchten Wareneingängen erstellt. In diesem Fall wird Schritt 7 weggelassen.  
+> Wenn der Schalter **Einlagerungsarbeitsblatt** auf der Artikelkarte nicht aktiviert ist, werden Einlagerungsbelege direkt basierend auf den gebuchten Wareneingängen erstellt. In diesem Fall ist dieser Schritt nicht erforderlich.  
 
-### <a name="8-create-warehouse-put-away-document"></a>8: Einlagerungsbeleg erstellen  
-Der Lagermitarbeiter, der Einlagerungen ausführt, erstellt im Pull-Verfahren einen Einlagerungsbeleg auf Grundlages des gebuchten Wareneingangs. Oder der Einlagerungsbeleg wird erstellt und dem Lagermitarbeiter im Push-Verfahren zugeteilt.  
+### 5: Einen Einlagerungsbeleg erstellen
 
-### <a name="9-register-warehouse-put-away"></a>9: Wareneingangsverzeichnis  
-In jeder Zeile für Artikel, die kommissioniert oder umgelagert wurden, sei es teilweise oder vollständig, füllt der Lagermitarbeiter das Feld **Menge** auf der Seite **Kommissionierarbeitsblatt** aus und erfasst dann die Lagerbestandsumlagerung.  
+Erstellen Sie auf der Grundlage des gebuchten Wareneingangs einen Lagereinlagerungsbeleg im Pull-Verfahren. Oder erstellen Sie das Wareneinlagerungsbeleg und weisen Sie es einem Lagermitarbeiter im Push-Verfahren zu.  
 
-Lagerplatzposten werden erstellt, und die Einlagerungszeilen werden gelöscht, wenn sie vollständig bearbeitet sind. Der Einlagerungsbeleg bleibt offen, bis die gesamte Menge des zugehörigen gebuchten Warenzugangs erfasst ist. Das Feld **Menge eingelagert** auf den Wareneingangsauftragszeilen wird aktualisiert.  
+### 6: Eine Wareneinlagerung registrieren
 
-## <a name="see-also"></a>Siehe auch  
-[Designdetails: Lagerverwaltung](design-details-warehouse-management.md)
+In jeder Zeile für Artikel, die kommissioniert oder umgelagert wurden, sei es teilweise oder vollständig, füllen Sie das Feld **Menge** auf der Seite **Kommissionierungsarbeitsblatt** aus und erfassen dann die Lagerbestandsumlagerung.  
 
+* Lagerposten werden für Lagerplätze erstellt, die bei allen Artikeltransaktionen einen Lagerplatzcode erfordern.
+* Die Wareneinlagerungszeilen wird gelöscht, wenn sie vollständig bearbeitet wurde.
+* Der Einlagerungsbeleg bleibt offen, bis die gesamte Menge des zugehörigen gebuchten Warenzugangs erfasst ist.
+* Das Feld **Menge eingelagert** auf den gebuchten Wareneingangsauftragszeilen wird aktualisiert.
+
+## Verwandte Tasks
+
+Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Themen, die sie beschreiben..
+
+|**Bis**|**Siehe**|  
+|------------|-------------|  
+|Erfassen Sie den Eingang von Artikeln an Lagerorten mit einem Wareneingang, im Falle von halb- oder vollautomatisierter Lagerverarbeitung am Lagerort.|[Empfangen von Artikeln](warehouse-how-receive-items.md)|
+|Lagern Sie Artikel auftragsweise ein, und buchen Sie bei Basis-Lagerkonfigurationen den Eingang in einer Aktivität.|[Artikel mit Lagereinlagerungen einlagern](warehouse-how-to-put-items-away-with-inventory-put-aways.md)|  
+|Lagern Sie Artikel ein, die bei mehreren Einkäufen, Verkaufsrücksendungen, Umlagerungsaufträgen in einer erweiterten Lagerkonfiguration ein.|[Einlagern von Artikeln mit Lagereinlagerungen](warehouse-how-to-put-items-away-with-warehouse-put-aways.md)|  
+
+
+## Weitere Informationen
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

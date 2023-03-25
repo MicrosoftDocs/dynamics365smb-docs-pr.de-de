@@ -1,22 +1,16 @@
 ---
 title: Betriebskalender einrichten
-description: Das Erstellen und Aktivieren eines Arbeitsplatzkalenders umfasst mehrere Aufgaben, einschließlich des Einrichtens von Betriebskalendern und des Erstellens von Arbeitsschichten.
+description: 'Das Erstellen und Aktivieren eines Arbeitsplatzkalenders umfasst mehrere Aufgaben, einschließlich des Einrichtens von Betriebskalendern und des Erstellens von Arbeitsschichten.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 9291, 9293, 9295, 99000750, 99000751, 99000752, 99000753, 99000759, 99000769, 99000770, 99000771, 99000772, 99000920
+ms.search.form: '9291, 9293, 9295, 99000750, 99000751, 99000752, 99000753, 99000759, 99000769, 99000770, 99000771, 99000772, 99000920'
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 4e8c950a402c8bbf650deec10eb7be2679c5eeab
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516796"
 ---
-# <a name="set-up-shop-calendars"></a>Betriebskalender einrichten
+# Betriebskalender einrichten
 
 In einem Arbeitsplatzgruppenkalender werden die Arbeitstage/-stunden, Schichten, Feiertage und Fehlzeiten angegeben, die die verfügbare Bruttokapazität der Arbeitsplatzgruppe (zeitlich gemessen) entsprechend ihren definierten Effektivitäts- und Kapazitätswerten bestimmen.
 
@@ -24,7 +18,7 @@ Ein grundlegender Schritt beim Berechnen eines spezifischen Arbeitsplatzgruppenk
 
 Nachfolgend ist beschrieben, wie ein alternativer Arbeitsplatzkalender eingerichtet wird. Die Schritte sind ähnlich, wenn Sie Arbeitsplatzkalender einrichten.  
 
-## <a name="to-create-work-shifts"></a>Arbeitsschichten erstellen  
+## Arbeitsschichten erstellen  
 1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Arbeitsschichten** ein und wählen Sie dann die entsprechende Verknüpfung.  
 2.  Geben Sie in einer leeren Zeile eine Zahl im Feld **Code** ein, um die Schicht zu bestimmen, z. B. **1**.  
 3.  Geben Sie im Feld **Beschreibung** eine Beschreibung der Schicht ein, z. B. **1. Schicht**.  
@@ -32,7 +26,7 @@ Nachfolgend ist beschrieben, wie ein alternativer Arbeitsplatzkalender eingerich
 
 Selbst wenn Ihre Arbeitsplatzgruppen nicht in verschiedenen Schichten arbeiten, geben Sie mindestens einen Schichtcode ein.  
 
-## <a name="to-set-up-a-shop-calendar"></a>Einen Betriebskalender einrichten  
+## Einen Betriebskalender einrichten  
 1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Betriebskalender** ein und wählen Sie dann den zugehörigen Link.  
 2.  Geben Sie in einer leeren Zeile eine Zahl im Feld **Code** ein, um den Betriebskalender zu bestimmen.  
 3.  Geben Sie im Feld **Beschreibung** eine Beschreibung für den Betriebskalender ein.  
@@ -66,7 +60,7 @@ Die definierten Feiertage weisen im Arbeitsgruppenkalender eine verfügbare Kapa
 
 Der Betriebskalender kann nun einer Arbeitsplatzgruppe zugewiesen werden, um einen Arbeitsplatzgruppenkalender zu berechnen, anhand dessen die gesamte Arbeitsgangplanung für die Zeit dieser Arbeitsplatzgruppe erfolgt.  
 
-## <a name="to-calculate-a-work-center-calendar"></a>Einen Arbeitsplatzgruppenkalender berechnen  
+## Einen Arbeitsplatzgruppenkalender berechnen  
 
 1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Arbeitsplatzgruppen** ein, und wählen Sie dann den zugehörigen Link.
 2. öffnen Sie den Arbeitsplatz, den Sie aktualisieren möchten.  
@@ -94,7 +88,7 @@ Kalenderposten werden nun erstellt bzw. aktualisiert und zeigen die verfügbare 
 
 Der berechneten Arbeitsplatzgruppenkalender legt jetzt fest, wann und wie viel Kapazität in dieser Arbeitsplatzgruppe verfügbar ist. Dieses steuert die detaillierte Planung von Arbeitsgängen, die in der Arbeitsplatzgruppe ausgeführt werden.  
 
-## <a name="to-record-work-center-absence"></a>Fehlzeiten für Arbeitsplatzgruppen erfassen  
+## Fehlzeiten für Arbeitsplatzgruppen erfassen  
 1.  Klicken Sie auf der Seite **Arbeitsplatzgruppenkalender** auf **Aktionen, Matrix anzeigen**.
 2. Wählen Sie auf der Seite **Arbeitsplatzgruppenkalendermatrix** die Arbeitsplatzgruppe und den Kalendertag aus, an dem die Fehlzeit aufgezeichnet werden soll, und klicken Sie anschließend auf **Verknüpfte Informationen, Planung, Fehlzeiten**.  
 3.  Legen Sie auf der Seite Fenster **Fehlzeiten** die Anfangs- und die Endzeit für die Fehlzeiten an diesem Tag fest, und geben Sie eine Begründung an. Beispiel:  
@@ -105,7 +99,7 @@ Der berechneten Arbeitsplatzgruppenkalender legt jetzt fest, wann und wie viel K
 
 Die Kapazität des ausgewählten Tages hat sich nun um die aufgezeichnete Fehlzeit verringert.  
 
-## <a name="see-also"></a>Siehe auch  
+## Siehe auch  
 [Basiskalender einrichten](across-how-to-assign-base-calendars.md)  
 [Arbeitsplätze und Arbeitsplatzgruppen einrichten](production-how-to-set-up-work-and-machine-centers.md)  
 [Produktion einrichten](production-configure-production-processes.md)  

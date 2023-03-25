@@ -1,22 +1,16 @@
 ---
-title: Arbeiten mit intelligenten Benachrichtigungen und festlegen, wann sie angezeigt werden
-description: Sie können Benachrichtigungen erhalten, die Sie über Statusänderungen oder Ereignissen, beispielsweise, ein überfälliger Saldo oder ein Logistik Basis informieren.
+title: 'Arbeiten mit intelligenten Benachrichtigungen und festlegen, wann sie angezeigt werden'
+description: 'Sie können Benachrichtigungen erhalten, die Sie über Statusänderungen oder Ereignissen, beispielsweise, ein überfälliger Saldo oder ein Logistik Basis informieren.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2021
-ms.search.form: ''
+ms.search.form: null
 ms.author: bholtorf
-ms.openlocfilehash: ee3f03eb59df2c991cd0a87dd6e10c07000311cc
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8654838"
 ---
-# <a name="manage-notifications"></a>Verwalten von Benachrichtigungen
+# Verwalten von Benachrichtigungen
 
 [!INCLUDE[prod_short](includes/prod_short.md)] kann nützlich sein, um intelligenter zu arbeiten, indem es Sie beispielsweise informiert, wenn Sie einen Debitoren fakturieren wollen, der einen überfälligen Saldo hat oder der verfügbare Lagerbestand geringer ist als die Menge, die Sie verkaufen wollen. Diese Benachrichtigungen werden als diskrete Tipps im Kontext der Aufgabe angezeigt, die Sie durchführen, und Sie können wählen, ob Sie die Benachrichtigung ignorieren oder Details zu dem Problem anzeigen wollen.  
 
@@ -24,7 +18,7 @@ Wenn Sie das Anzeigen der Benachrichtigungsdetails auswählen, können Sie Maßn
 
 Die Benachrichtigungen helfen dem ungeübten Nutzer dabei, nicht vertraute Aufgaben abzuschließen und reduzieren nicht die Produktivität des geschulten Benutzer.  
 
-## <a name="to-turn-notifications-on-or-off-and-control-when-they-are-sent"></a>Schaltet Benachrichtigungen ein und aus und steuert, wann diese gesendet werden
+## Schaltet Benachrichtigungen ein und aus und steuert, wann diese gesendet werden
 
 Wenn Sie zuerst mit [!INCLUDE[prod_short](includes/prod_short.md)] Benachrichtigungen beginnen, werden alle ausgeführt, Sie können diese aber ein- oder ausschalten, beispielsweise, wenn Sie an einem bestimmten Ereignis oder an einen Status nicht interessiert sind.  
 
@@ -37,7 +31,7 @@ Aktivieren oder deaktivieren Sie bestimmte Benachrichtigungen, die auf Sie inter
 3. Auf der Seite, die angezeigt wird, aktivieren oder deaktivieren Sie eine Benachrichtigung, indem Sie das Kontrollkästchen **Aktiviert** aktivieren oder deaktivieren.  
 4. Um Bedingungen anzugeben, die eine Benachrichtigung auslösen, wählen Sie den Link **Filterdetails ansehen** und füllen Sie die Felder aus.  
 
-## <a name="see-also"></a>Weitere Informationen
+## Weitere Informationen
 
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

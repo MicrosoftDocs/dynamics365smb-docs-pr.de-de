@@ -1,22 +1,16 @@
 ---
 title: Finanzielle Prozesse festlegen
-description: Informieren Sie sich über die Aufgaben, die erforderlich sind, um die Finanzen in Ihrem Unternehmen so festzulegen, dass sie allen Anforderungen der Buchhaltung, der Rechnungsprüfung oder der Buchführung entsprechen.
+description: 'Informieren Sie sich über die Aufgaben, die erforderlich sind, um die Finanzen in Ihrem Unternehmen so festzulegen, dass sie allen Anforderungen der Buchhaltung, der Rechnungsprüfung oder der Buchführung entsprechen.'
 author: edupont04
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: accounting, auditing, bookkeeping
+ms.search.keywords: 'accounting, auditing, bookkeeping'
 ms.date: 08/19/2022
 ms.author: edupont
-ms.openlocfilehash: 64b6b3e3aa74d51b78a62bf2c89e630452c662bb
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605435"
 ---
-# <a name="setting-up-finance"></a>Finanzen einrichten
+# Finanzen einrichten
 
 Bevor Sie mit der Geschäftstätigkeit beginnen können, müssen Sie die Verwaltung der Finanzprozesse für dieses Unternehmen festlegen. Richten Sie zunächst den Kern der Buchhaltungsdatensätze des Mandanten ein, den Kontenplan. Anschließend werden Buchungsgruppen eingerichtet, um das Zuordnen von standardmäßigen Sachkontobuchungskonten zu Debitoren, Kreditoren und Artikeln effizienter zu gestalten.
 
@@ -57,9 +51,9 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 > [!TIP]
 > Abhängig von Ihrem geografischen Standort können einige Business Central-Seiten Felder enthalten, die in den hier aufgeführten Artikeln nicht beschrieben sind, da sie für lokale Funktionen oder Anpassungen gelten. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/paths/set-up-financial-management-dynamics-365-business-central/)
+## Siehe verwandte [Microsoft Schulungen](/training/paths/set-up-financial-management-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Finanzen](finance.md)  
 [Abstimmen von Bankkonten](bank-manage-bank-accounts.md)  

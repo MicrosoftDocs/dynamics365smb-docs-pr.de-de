@@ -1,21 +1,15 @@
 ---
-title: Test-Funktionen, die eine Verbindung zu anderen Microsoft-Diensten herstellen
-description: Übersicht der Microsoft-Dienste, mit denen Business Central in der Testversion verbunden ist.
+title: 'Test-Funktionen, die eine Verbindung zu anderen Microsoft-Diensten herstellen'
+description: 'Übersicht der Microsoft-Dienste, mit denen Business Central in der Testversion verbunden ist.'
 author: jswymer
 ms.topic: overview
 ms.service: dynamics365-business-central
-ms.search.keywords: privacy, trial, Microsoft services
+ms.search.keywords: 'privacy, trial, Microsoft services'
 ms.date: 10/28/2022
 ms.author: jswymer
 ms.reviewer: jswymer
-ms.openlocfilehash: baad6c682a744d87cd6e2d2c0536a06a7b349384
-ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 10/28/2022
-ms.locfileid: "9728720"
 ---
-# <a name="trial-features-that-connect-to-other-microsoft-services"></a>Funktionen der Testversion, die sich mit anderen Microsoft-Diensten verbinden 
+# Funktionen der Testversion, die sich mit anderen Microsoft-Diensten verbinden 
 
 [!INCLUDE[prod_long](includes/prod_long.md)] ist eine umfassende Lösung für die Unternehmensverwaltung, die tief in die Microsoft 365 und Power Platform Produktivitäts-Apps integriert ist. Ihr kostenloser Test von Business Central kann sich mit vielen verschiedenen Microsoft-Diensten verbinden, die Sie zunächst konfigurieren und aktivieren müssen. Um Ihre kostenlose Testversion optimal nutzen zu können, wurden einige dieser Funktionen automatisch für Sie aktiviert. Auch wenn die Verbindung ab [!INCLUDE[prod_short](includes/prod_short.md)] aktiviert ist, sind diese Dienste nicht in Ihrem Test enthalten und müssen separat gekauft werden, sofern Sie sie nicht bereits besitzen.
 

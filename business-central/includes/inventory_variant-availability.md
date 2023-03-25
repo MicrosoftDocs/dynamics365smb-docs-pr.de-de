@@ -3,12 +3,6 @@ author: edupont04
 ms.topic: include
 ms.date: 09/21/2022
 ms.author: edupont
-ms.openlocfilehash: 1ed4346dbdcbd6fc4eb5b3cde677498c9f3b5ea6
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9608174"
 ---
 Wenn Sie die Seite **Artikelverfüg. nach Variante** aus einer Belegzeile öffnen, dann können Sie eine Variante in die Belegzeile einfügen, indem Sie die Zeile mit der hinzuzufügenden Variante auswählen und dann auf OK klicken. Wenn Sie die Seite nur verwendet haben, um die Verfügbarkeit anzuzeigen und keine Variante einfügen möchten, müssen Sie das Fenster schließen, ohne auf OK zu klicken.
 

@@ -1,37 +1,31 @@
 ---
 title: Breaking Bulk mit gerichteter Einlagerung und Kommissionierung
-description: Erfahren Sie, wie Sie das automatische Teilen von Gebindeeinheiten mit gerichteter Einlagerung und Kommissionierung sowie den Gebindeanbruch beim Kommissionieren, Einlagern, Lagerplatzumlagern und mehr aktivieren.
+description: 'Erfahren Sie, wie Sie das automatische Teilen von Gebindeeinheiten mit gerichteter Einlagerung und Kommissionierung sowie den Gebindeanbruch beim Kommissionieren, Einlagern, Lagerplatzumlagern und mehr aktivieren.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.search.form: 5703, 7352
+ms.search.keywords: null
+ms.search.form: '5703, 7352'
 ms.date: 11/04/2022
 ms.author: bholtorf
-ms.openlocfilehash: d5e8ab6f0e60ab8874669c7e5127411acc58957b
-ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2022
-ms.locfileid: "9744677"
 ---
-# <a name="enable-automatic-breaking-bulk-with-directed-put-away-and-pick"></a>Automatisches Teilen von Gebindeeinheiten mit gesteuerter Einlagerung und Kommissionierung aktivieren
+# Automatisches Teilen von Gebindeeinheiten mit gesteuerter Einlagerung und Kommissionierung aktivieren
 
 Bei Lagerorten, die die gesteuerte Einlagerung und Kommissionierung verwenden, kann [!INCLUDE[prod_short](includes/prod_short.md)] größere Einheiten in kleinere Einheiten aufteilen, wenn es Logistikanweisungen für Herkunftsbelege, Fertigungsaufträge oder interne Einlagerungen und Kommissionierungen erstellt. Einen Gebindeanbruch durchzuführen, kann auch bedeuten, Artikel in kleineren Einheiten zu sammeln, um der Menge einer größeren Einheit in einem Herkunftsbeleg oder Fertigungsauftrag zu entsprechen.
 
-## <a name="breakbulk-in-picks"></a>Gebindeanbruch beim Kommissionieren  
+## Gebindeanbruch beim Kommissionieren  
 
 Wenn Sie Artikel in mehreren unterschiedlichen Einheiten an einem Lagerort lagern möchten und erlauben, diese beim Kommissionieren automatisch zu kombinieren, aktivieren Sie den Umschalter **Gebindeanbruch zulassen** auf der Lagerortseite. Danach, um eine Aufgabe auszuführen, sucht [!INCLUDE [prod_short](includes/prod_short.md)] nach einem Artikel in der gleichen Einheit. Wenn es keinen findet, wird [!INCLUDE [prod_short](includes/prod_short.md)] vorschlagen, dass Sie eine größere Einheit in die benötigte Einheit zerlegen.  
 
 Wenn nur kleinere Einheiten verfügbar sind, schlägt [!INCLUDE [prod_short](includes/prod_short.md)] vor, dass Sie Artikel zusammenfassen, um die Menge im Warenausgang oder Fertigungsauftrag zu erfüllen. Das Ergebnis ist, dass sie größere Einheiten im Herkunftsbeleg für die Kommissionierung in kleinere Einheiten aufbricht.  
 
-## <a name="breakbulk-in-put-aways"></a>Gebindeanbruch beim Einlagern  
+## Gebindeanbruch beim Einlagern  
 
 Bei Lagereinlagerungen schlägt [!INCLUDE [prod_short](includes/prod_short.md)] Zeilen mit der Aktionsart „Einlagerung“ in der Einlagerungseinheit vor. Beispielsweise kann es Stücke vorschlagen, obwohl die Artikel in einer anderen Einheit ankommen.  
 
-## <a name="breakbulk-in-movements"></a>Gebindeanbruch bei Lagerplatzumlagerungen  
+## Gebindeanbruch bei Lagerplatzumlagerungen  
 
 [!INCLUDE [prod_short](includes/prod_short.md)] kann auch einen Gebindeanbruch in Auffüllumlagerungen durchführen, wenn der Umschalter **Gebindeanbruch zulassen** auf der Seite **Lagerplatzauffüllung berechnen** eingeschaltet ist.  
 
@@ -46,14 +40,13 @@ Sie können sich das Ergebnis der Konvertierung von einer Einheit in eine andere
 > - Richten Sie die Einheit eines Artikels als die kleinste Einheit ein, von der Sie erwarten, dass Sie sie in Ihren Logistikprozessen verarbeiten müssen.  
 > - Richten Sie Ihre alternativen Einheiten für diesen Artikel als Vielfache der Basiseinheit ein.  
 
-## <a name="see-also"></a>Siehe auch  
+## Weitere Informationen  
 
-[Logistik](warehouse-manage-warehouse.md)  
-[Lagerbest](inventory-manage-inventory.md)  
-[Warehouse Management einrichten](warehouse-setup-warehouse.md) 
+[Lagerverwaltung – Übersicht](design-details-warehouse-management.md)
+[Bestand](inventory-manage-inventory.md)  
+[Einrichten der Lagerverwaltung](warehouse-setup-warehouse.md) 
 [Montageverwaltung](assembly-assemble-items.md)
-[Designdetails: Warehouse Management](design-details-warehouse-management.md)  
-[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbeiten Sie mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

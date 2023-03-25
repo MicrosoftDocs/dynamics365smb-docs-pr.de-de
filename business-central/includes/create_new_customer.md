@@ -3,13 +3,8 @@ author: jill-kotel-andersson
 ms.topic: include
 ms.date: 09/24/2021
 ms.author: edupont
-ms.openlocfilehash: 6e3a37322f10dd58581322bf057590edc853830f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135581"
 ---
+
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet 11.](../media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Debitoren** ein und wählen Sie dann den entsprechenden Link.  
 2. Wählen Sie auf der Seite **Debitoren** die Aktion **Neu** aus.
 

@@ -6,23 +6,17 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 58cb2222f2533e2ba952727243a5fdb830b34e75
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145888"
 ---
-# <a name="design-details-integration-with-inventory"></a>Designdetails: Integration mit dem Lagerbestand
+# Designdetails: Integration mit dem Lagerbestand
 Der Logistik-Anwendungsbereich und der Lager-Anwendungsbereich interagieren miteinander im physischen Bestand und in der Bestands- und Lageranpassung.  
   
-## <a name="physical-inventory"></a>Inventur  
+## Inventur  
  Die **Logistik-Inventur-Buch.-Blatt**-Seite wird mit der **Inventur Buch.-Blatt**-Seite für alle erweiterten Lagerorte verwendet. Der Bestand auf Lagerplatzebene wird berechnet, und eine gedruckte Liste wird für den Lagermitarbeiter bereitgestellt. Die Liste zeigt, welche Artikel an welchen Lagerplätzen gezählt werden müssen.  
   
- Der Lagermitarbeiter gibt die gezählte Menge auf der **Logistik-Inventur-Buch.-Blatt** Seite ein und bucht das Buch.-Blatt.  
+ Der Lagermitarbeiter gibt die gezählte Menge auf der**Logistik-Inventur-Buch.-Blatt** Seite ein und bucht das Buch.-Blatt.  
   
  Wenn die gezählte Menge größer als die Menge auf der Buch.-Blattzeile ist, wird eine Umlagerung für diese Differenz aus dem Standard-Ausgleichslagerplatz zum gezählten Lagerplatz gebucht. Dieses erhöht die Menge im gezählten Lagerplatz und vermindert die Menge im Standard-Ausgleichslagerplatz.  
   
@@ -32,7 +26,7 @@ Der Logistik-Anwendungsbereich und der Lager-Anwendungsbereich interagieren mite
   
  Wenn Sie das Inventur Buch.-Blatt buchen, werden der Lagerbestand und der Ausgleichslagerplatz aktualisiert.  
   
-### <a name="warehouse-adjustments-to-the-item-ledger"></a>Lagerplatz-Ausgleich mit dem Artikelposten  
+## Lagerplatz-Ausgleich mit dem Artikelposten  
  Sie verwenden die Seite **Artikel Buch.-Blatt** und die Funktion **Ausgleich berechnen**, um den Lagerbestand im Artikelposten in Übereinstimmung mit einem Ausgleich anzupassen, der für die Artikelmenge in einem Lagerplatz vorgenommen wurde. Um eine Verbindung zwischen den Lagerbestand und der Logistik zu erstellen, müssen Sie einen Vorgabe-Ausgleichslagerplatz pro Lagerort festlegen.  
   
  Der Standard-Regulierungslagerplatz registriert Artikel im Lager, wenn Sie einen Zugang für den Bestand buchen. Wenn Sie jedoch einen Lagerabgang buchen, wird die Menge am Lagerplatz ebenfalls verringert. In beiden Fällen werden Artikelposten und Lagerposten erstellt.  
@@ -44,8 +38,8 @@ Der Logistik-Anwendungsbereich und der Lager-Anwendungsbereich interagieren mite
   
  Wenn Sie eine positive Menge eingeben und die Zeile buchen, wird der Bestand an dem Lagerplatz erhöht, und die Menge des Standard-Ausgleichslagerplatzes wird entsprechend vermindert.  
   
-## <a name="see-also"></a>Siehe auch  
- [Designdetails: Logistik](design-details-warehouse-management.md)   
- [Designdetails: Verfügbarkeit im Lager](design-details-availability-in-the-warehouse.md)
+## Weitere Informationen  
+[Lagerverwaltung – Übersicht](design-details-warehouse-management.md)
+[Designdetails: Verfügbarkeit im Lager](design-details-availability-in-the-warehouse.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

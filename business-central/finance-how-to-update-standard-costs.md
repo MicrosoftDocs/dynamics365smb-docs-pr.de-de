@@ -9,14 +9,8 @@ ms.workload: na
 ms.search.form: 5841
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4bada4ee28df77cc9700d5957ef8fb8b1a64535b
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517446"
 ---
-# <a name="update-standard-costs"></a>Standardkosten aktualisieren
+# Standardkosten aktualisieren
 Sie müssen die festen Einstandspreise von Komponenten in regelmäßigen Abständen aktualisieren und die neuen Einstandspreise auf den übergeordneten Artikel übertragen. Der Prozess besteht in der Regel aus den folgenden vier Schritten:  
 
 1.  Aktualisieren von Kosten auf der Komponenten- und Kapazitätsebene. Weitere Informationen finden Sie unter dem Stapelverarbeitungsauftrag **Artikel Einst.-Preis (fest) vorschlagen**.  
@@ -26,7 +20,7 @@ Sie müssen die festen Einstandspreise von Komponenten in regelmäßigen Abstän
 
 Weitere Informationen finden Sie unter [Über das Berechnen von festen Einstandspreisen](finance-about-calculating-standard-cost.md).
   
-## <a name="to-update-standard-costs"></a>Einstandspreise aktualisieren
+## Einstandspreise aktualisieren
 
 1.  Führen Sie die Stapelverarbeitung **Lagerreg. fakt. Einst. Preise** aus.  
 2.  Aufruf der Stapelverarbeitung **Lagerregulierung buchen**.  
@@ -34,14 +28,14 @@ Weitere Informationen finden Sie unter [Über das Berechnen von festen Einstands
 
     1.  Führen Sie die Stapelverarbeitung **Art. Einst.-Pr. (fest) vorschlagen** aus.  
     2.  Sehen Sie sich die Ergebnisse an, und nehmen Sie ggf. Änderungen vor.  
-    3.  Führen Sie die Stapelverarbeitung **Einstandspreis (fest) für Kapazität vors&chlagen** aus.  
+    3.  Führen Sie die Stapelverarbeitung **Einstandspreis (fest) für Kapazität vorschlagen** aus.  
     4.  Sehen Sie sich die Ergebnisse an, und nehmen Sie ggf. Änderungen vor.
     5. Führen Sie die Stapelverarbeitung **Mehrstufigen Einstandspreis berechnen** aus.
     6.  Sehen Sie sich die Ergebnisse an, und nehmen Sie ggf. Änderungen vor.
     7.  Führen Sie die Stapelverarbeitung **Einst.-Preis (fest) Vorschlag übernehmen** aus.  
 4.  Sehen Sie sich das  **Neubewertungs Buch.-Blatt** an, das mit Posten aus vorherigen Schritten in diesem Verfahren gefüllt wurde, und buchen Sie es.  
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
  [Informationen zur Berechnung von festen Einstandspreisen](finance-about-calculating-standard-cost.md)   
  [Verwalten der Lagerregulierung](finance-manage-inventory-costs.md)   

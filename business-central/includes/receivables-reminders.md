@@ -3,12 +3,6 @@ author: edupont04
 ms.topic: include
 ms.date: 02/09/2022
 ms.author: edupont
-ms.openlocfilehash: fc1788acfb1b11a90327ac72ce83d7fa4981e602
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143348"
 ---
 Mithilfe von Mahnungen können Debitoren auf überfällige Beträge aufmerksam gemacht werden. Sie können auch Mahnungen verwenden, um finanzielle Belastungen wie Zinsen oder Gebühren zu berechnen und sie in die Mahnung aufzunehmen.
 
@@ -22,7 +16,7 @@ Durch Debitorenposten, bei denen das Feld **Abwarten** ausgefüllt ist, wird kei
 
 Nach dem Erstellen von Mahnungen und dem Vornehmen von möglicherweise erforderlichen Änderungen können Sie entweder Testberichte drucken oder die Mahnungen registrieren.
 
-### <a name="to-create-a-reminder-automatically"></a>So erstellen Sie Mahnungen automatisch:
+### So erstellen Sie Mahnungen automatisch:
 
 Eine Mahnung ähnelt einer Rechnung. Beim Erstellen einer Lieferanmahnung müssen sowohl der Lieferanmahnungskopf als auch eine oder mehrere Lieferanmahnungszeilen ausgefüllt werden. Sie können eine Funktion verwenden, um Mahnungen für alle Debitoren automatisch zu erstellen.
 
@@ -31,7 +25,7 @@ Eine Mahnung ähnelt einer Rechnung. Beim Erstellen einer Lieferanmahnung müsse
 3. Auf der Seite **Mahnungen erstellen** füllen Sie die Felder aus, um festzulegen wie und an Mahnungen erstellt werden.
 4. Wählen Sie die Schaltfläche **OK** aus.
 
-### <a name="to-create-a-reminder-manually"></a>So werden Mahnungen manuell erstellt:
+### So werden Mahnungen manuell erstellt:
 
 Auf der Seite **Mahnung** können Sie das Inforegister **Allgemein** manuell ausfüllen und dann die Zeilen automatisch ausfüllen dann lassen.
 
@@ -48,7 +42,7 @@ Auf der Seite **Mahnung** können Sie das Inforegister **Allgemein** manuell aus
 
 8. Wählen Sie die Schaltfläche **OK** aus.
 
-### <a name="to-replace-reminder-texts"></a>So ersetzen Sie Mahnungstexte:
+### So ersetzen Sie Mahnungstexte:
 
 Es gibt verschiedene Arten, wie Sie den Text, der auf der ausgedruckten Mahnung erscheinen soll, festlegen können. In manchen Fällen möchten Sie möglicherweise die Vor- und Nachtexte, die für die aktuelle Stufe festgelegt wurden, durch die einer anderen Stufe ersetzen.
 
@@ -57,7 +51,7 @@ Es gibt verschiedene Arten, wie Sie den Text, der auf der ausgedruckten Mahnung 
 3. Geben Sie auf der Seite **Mahnungstext aktualisieren** im Feld **Mahnstufe** die gewünschte Stufe ein.
 4. Wählen Sie die Schaltfläche **OK**, um den Vortext und den Nachtext zu aktualisieren.
 
-### <a name="to-issue-a-reminder"></a>Um eine Mahnung auszugeben
+### Um eine Mahnung auszugeben
 
 Nach dem Erstellen von Mahnungen und dem Vornehmen von möglicherweise erforderlichen Änderungen können Sie entweder Testberichte drucken oder die Mahnungen registrieren.
 
@@ -82,7 +76,7 @@ Zusätzlich kann das Registrieren der Mahnung zu MwSt.-Posten führen.
 
 Die Mahnung wird entweder gedruckt oder an eine festgelegte E-Mail als PDF-Dateianhang gesendet.
 
-### <a name="to-cancel-an-issued-reminder"></a>Zum Stornieren der registrierten Mahnung.
+### Zum Stornieren der registrierten Mahnung.
 
 Wenn fälschlicherweise Erinnerungen ausgegeben wurden, können Sie diese vor dem Versenden stornieren. Sie können dies entweder einzeln oder als Stapel ausführen.
 

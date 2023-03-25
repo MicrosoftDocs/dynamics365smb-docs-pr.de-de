@@ -1,29 +1,24 @@
 ---
 title: Fremdarbeitsvorgang einrichten und verarbeiten
-description: Exemplarische Vorgehensweise, um zu erfahren, wie Sie einen Unterauftragsvorgang in Business Central einrichten und verarbeiten.
+description: 'Exemplarische Vorgehensweise, um zu erfahren, wie Sie einen Unterauftragsvorgang in Business Central einrichten und verarbeiten.'
 ms.date: 04/01/2022
 ms.topic: article
 ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
-ms.openlocfilehash: 9227abbfe25ca5a1b3c6775865712f22b31f721b
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8525112"
 ---
-# <a name="set-up-and-process-a-subcontracting-operation"></a>Fremdarbeitsvorgang einrichten und verarbeiten
+
+# Fremdarbeitsvorgang einrichten und verarbeiten
 
 In diesem Artikel führen wir Sie durch die Schritte zur Verwendung der Demodaten von Contoso Coffee für Fremdarbeiten.
 
-## <a name="scenario"></a>Szenario
+## Szenario
 
 Sie sind der Produktionsplaner bei Contoso Coffee. Aufgrund von Kapazitätsengpässen planen Sie, einen Subunternehmer mit der Produktion des Artikels **SP-SCM1009, Airpot** zu beauftragen.
 
 Hier erstellen Sie mit Arbeitsplan – SP-SCM1009-SUB-2 einen neuen freigegebenen Produktionsauftrag für 12 Einheiten des Artikels SP-SCM1009, Airpot. Verwenden Sie das Unterauftragsarbeitsblatt, um eine Bestellung für die Produktion zu generieren, und schließen Sie dann den Vorgang ab, indem Sie die Bestellung erhalten und in Rechnung stellen.
 
-## <a name="steps"></a>Schritte
+## Schritte
 
 1. Erstellen Sie einen neuen freigegebenen Produktionsauftrag für 12 Einheiten des Artikels SP-SCM1009, Airpot.
 
@@ -78,6 +73,6 @@ Hier erstellen Sie mit Arbeitsplan – SP-SCM1009-SUB-2 einen neuen freigegebene
 
 Die Ausgabe des Artikels SP-SCM1009 Airpot ist jetzt registriert.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Einführung in Contoso Coffee Demo Data](contoso-coffee-intro.md)  

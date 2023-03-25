@@ -1,22 +1,16 @@
 ---
 title: Service
-description: Lernen Sie die Funktionen in Business Central kennen, die für die Verwaltung und Nachverfolgung von Dienstleistungen zur Unterstützung von Werkstatt- und Außendienstvorgängen entwickelt wurden.
+description: 'Lernen Sie die Funktionen in Business Central kennen, die für die Verwaltung und Nachverfolgung von Dienstleistungen zur Unterstützung von Werkstatt- und Außendienstvorgängen entwickelt wurden.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 9b579b2b91d9699800b5fbf550c58c2e7caaa77d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142906"
 ---
-# <a name="service-management"></a>Service
+# Service
 > [!NOTE]
 > Die Funktionalität, die in diesem Thema und in Vorthemen beschrieben, handelt in der Benutzeroberfläche nur angezeigt, wenn Sie die **Premium** haben. Weitere Informationen finden Sie unter [Ändern Sie, welche Funktionen angezeigt werden](ui-experiences.md).
 
@@ -42,7 +36,7 @@ Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Themen,
 |Erstellen und Verwalten vertragliche Vereinbarungen zwischen Ihnen und den Debitoren bestehen.|[Erfüllen von Serviceverträgen](service-fulfill-service-contracts.md)|  
 |Bereitstellen von Service, Debitoren und Fakturieren von Serviceaufträgen.|[Bereitstellen von Service](service-deliver-service.md)|  
 
-## <a name="see-also"></a>Siehe auch  
+## Siehe auch  
 [Debitoren verwalten](receivables-manage-receivables.md)   
 [Projekte](projects-how-create-jobs.md)   
 [Willkommen bei [!INCLUDE[prod_long](includes/prod_long.md)]](index.md)

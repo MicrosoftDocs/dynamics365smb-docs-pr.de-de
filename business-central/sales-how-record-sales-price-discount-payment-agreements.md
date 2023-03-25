@@ -1,24 +1,19 @@
 ---
 title: Spezielle Verkaufspreise und Rabatte aufzeichnen
-description: Beschreibt, wie Sie Preis- und Rabattvereinbarungen für Verkaufsbelege definieren.
+description: 'Beschreibt, wie Sie Preis- und Rabattvereinbarungen für Verkaufsbelege definieren.'
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: special price, alternate price, pricing
-ms.search.form: 7022, 7024
+ms.search.keywords: 'special price, alternate price, pricing'
+ms.search.form: '7022, 7024'
 ms.date: 06/03/2022
 ms.author: bholtorf
-ms.openlocfilehash: 5560a9a1b5c5eb031136a7c1320019eac75239e0
-ms.sourcegitcommit: a9c778b65925435a4099fad45b3611f310e0b203
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "9652191"
 ---
-# <a name="record-special-sales-prices-and-discounts"></a>Spezielle Verkaufspreise und Rabatte aufzeichnen
+
+# Spezielle Verkaufspreise und Rabatte aufzeichnen
 
 > [!NOTE]
 > Im 2. Veröffentlichungszyklus 2020 wurden neue, optimierte Prozesse zum Einrichten und Verwalten von Preisen und Rabatten eingeführt. Wenn Sie ein neuer Kunde sind, der die aktuelle Version verwendet, nutzen Sie die neue Umgebung. Wenn Sie bereits Kunde sind, hängt es davon ab, ob Sie die neue Erfahrung verwenden, ob Ihr Administrator die Funktionsaktualisierung **Neues Verkaufspreiserlebnis** in **Funktionsverwaltung** akualisiert hat. Erfahren Sie mehr unter [Bevorstehende Funktionen vorzeitig aktivieren](/dynamics365/business-central/dev-itpro/administration/feature-management) im Verwaltungsinhalt.
@@ -49,17 +44,17 @@ Für Verkaufsrabatte können Sie zwei Arten einrichten:
 > [!TIP]  
 > Wenn ein Artikel nie mit einem Rabatt verkauft werden sollte, lassen Sie die Skontofelder auf der Artikelseite leer und schließen Sie den Artikel nicht in einer Zeilenrabatteinrichtung ein.
 
-## <a name="to-set-up-a-sales-price-for-a-customer"></a>Um Verkaufspreise für einen Debitor zu erstellen:
+## Um Verkaufspreise für einen Debitor zu erstellen:
 
 Diese Schritte unterscheiden sich je nachdem, ob Ihr Administrator das Feature-Update **Neues Verkaufspreiserlebnis** aktiviert hat. Wenn das Funktionsupdate nicht aktiviert ist, befolgen Sie die Schritte auf der Registerkarte „Aktuelle Erfahrung“. 
 
-#### <a name="current-experience"></a>[Aktuelle Erfahrung](#tab/current-experience/)
+#### [Aktuelle Erfahrung](#tab/current-experience/)
 
 1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Debitoren** ein, und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie den Kunden und klicken dann auf die Aktion **Preise**.
 3. Füllen Sie die Felder in der Zeile wie erforderlich aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Füllen Sie eine Zeile für jede Kombination aus, die dem Debitor einen besonderen Preis gewährt.
 
-#### <a name="new-experience"></a>[Neue Erfahrung](#tab/new-experience/)  
+#### [Neue Erfahrung](#tab/new-experience/)  
 
 Standardmäßig lautet der Status neuer Preislisten **Entwurf**. Preislistenentwürfe gehen nicht in die Preiskalkulation ein. Wenn Sie mit dem Hinzufügen von Zeilen fertig sind und die Preise verwenden möchten, können Sie den Status in **Aktiv** ändern.
 
@@ -75,7 +70,7 @@ Standardmäßig lautet der Status neuer Preislisten **Entwurf**. Preislistenentw
 
 ---
 
-## <a name="using-sales-and-purchase-price-lists"></a>Verwenden von Verkaufs- und Einkaufspreislisten
+## Verwenden von Verkaufs- und Einkaufspreislisten
 
 > [!NOTE]
 > Die Verwendung von Preislisten erfordert, dass Ihr Administrator das Funktionsupdate **Neue Verkaufspreis-Erfahrung** in der **Funktionsverwaltung** aktiviert. Erfahren Sie mehr unter [Bevorstehende Funktionen vorzeitig aktivieren](/dynamics365/business-central/dev-itpro/administration/feature-management) im Verwaltungsinhalt.
@@ -84,7 +79,7 @@ Die meisten der neuen Erfahrungen mit Verkaufspreisen ähneln der aktuellen Erfa
 
 Die **Ausgleich mit Typ** und **Ausgleich mit Nummer** In den Feldern können Sie auswählen, für was eine Preisliste gelten soll, z. B. Debitor oder Debitorenpreisgruppe. Mit **Spalten anzeigen für** können Sie Spalten ein- oder ausblenden, die für das Festlegen von Preisen, Rabatten oder Preisen und Rabatten relevant sind.
 
-### <a name="converting-existing-prices-when-you-turn-on-the-pricing-feature-update"></a>Konvertieren vorhandener Preise, wenn Sie die Aktualisierung der Preisfunktion aktivieren
+### Konvertieren vorhandener Preise, wenn Sie die Aktualisierung der Preisfunktion aktivieren
 
 Wenn Sie das Funktionsupdate **Neue Verkaufspreis-Erfahrung** auf der Seite **Funktionsverwaltung** aktivieren, wird die Anleitung **Funktionsdatenupdate** geöffnet. Verwenden Sie den Umschalter **Standardpreise verwenden** wie folgt:
 
@@ -111,7 +106,7 @@ Wenn Sie viele Kombinationen haben, haben Sie viele Preislisten.
 
 Wenn Sie die neue Preisgestaltung bereits aktiviert haben, können Sie Standardpreislisten manuell erstellen oder eine vorhandene Preisliste als Standard angeben. Um eine vorhandene Preisliste als Standard festzulegen, aktivieren Sie den Schalter **Aktualisieren von Standardeinstellungen zulassen** auf der Preisliste. Setzen Sie dann auf den Seiten **Einrichtung von Verkäufen und Forderungen**, **Einrichtung von Käufen und Verbindlichkeiten** und **Projekteinrichtung** die Preisliste als standardmäßig.
 
-### <a name="editing-active-price-lists"></a>Bearbeiten der aktiven Preislisten
+### Bearbeiten der aktiven Preislisten
 
 Damit Bearbeiter Preise in aktiven Preislisten für Artikel, Ressourcen, Debitoren, Kreditoren und andere Entitäten, die Preise verwenden, bearbeiten können, aktivieren Sie den Umschalter **Bearbeiten des aktiven Preises zulassen** auf den Seiten **Einrichtung von Verkäufen und Forderungen** und **Einrichtung von Käufen und Verbindlichkeiten**.
 
@@ -124,7 +119,7 @@ Die **Preisübersicht** Seite bietet eine Übersicht über alle Preise in Preisl
 
 Um neue Preise hinzuzufügen, verwenden Sie auf der Seite **Preisübersicht** die Aktion **Neue Zeilen hinzufügen**. Die Seite **Arbeitsblatt Preise** öffnet sich und Sie können Preiszeilen hinzufügen, indem Sie sie entweder anhand von Kriterien vorschlagen, aus anderen Preislisten kopieren oder manuell eingeben. Anschließend können Sie mit der Aktion **Preisvorschlag übernehmen** die neuen Preise mit anderen Preislisten vergleichen, um Duplikate und Unklarheiten bei der Preisberechnung zu vermeiden.
 
-#### <a name="create-sales-price-lines-based-on-the-unit-price"></a>Erstellen Sie Verkaufspreiszeilen basierend auf dem Stückpreis
+#### Erstellen Sie Verkaufspreiszeilen basierend auf dem Stückpreis
 
 1. Auf der Seite **Preisarbeitsblatt** wählen Sie die Aktion **Vorgeschlagene Zeilen** aus.
 2. Füllen Sie auf der Seite **Preiszeilen - Neu erstellen** die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -137,7 +132,7 @@ Um neue Preise hinzuzufügen, verwenden Sie auf der Seite **Preisübersicht** di
 5. Wählen Sie **OK** aus. Neue Zeilen werden auf der Seite **Preis Arbeitsblatt** mit den gewählten Einstellungen und den Stückpreisen aus den Artikelkarten hinzugefügt.
 6. Bearbeiten Sie die erstellten Zeilen mit den neuen Stückpreisen oder Rabatten. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-#### <a name="create-sales-price-lines-based-on-existing-price-lists"></a>Erstellen Sie Verkaufspreiszeilen basierend auf vorhandenen Preislisten
+#### Erstellen Sie Verkaufspreiszeilen basierend auf vorhandenen Preislisten
 
 1. Wählen Sie auf der Seite **Preisarbeitsblatt** die Aktion **Zeilen kopieren** aus.
 2. Auf der Seite **Preiszeilen – Vorhandene kopieren** wählen Sie eine vorhandene Preisliste im Feld **Aus Preisliste** aus.
@@ -151,11 +146,11 @@ Um neue Preise hinzuzufügen, verwenden Sie auf der Seite **Preisübersicht** di
 6. Wählen Sie **OK** aus. Neue Zeilen werden der Seite **Preis Arbeitsblatt** mit den gewählten Einstellungen hinzugefügt.
 7. Bearbeiten Sie die erstellten Zeilen mit den neuen Stückpreisen oder Rabatten. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="to-copy-sales-prices"></a>Verkaufspreise kopieren
+## Verkaufspreise kopieren
 
 Diese Schritte unterscheiden sich je nachdem, ob Ihr Administrator das Feature-Update **Neues Verkaufspreiserlebnis** aktiviert hat. Wenn das Funktionsupdate nicht aktiviert ist, befolgen Sie die Schritte auf der Registerkarte „Aktuelle Erfahrung“.
 
-#### <a name="current-experience"></a>[Aktuelle Erfahrung](#tab/current-experience/)  
+#### [Aktuelle Erfahrung](#tab/current-experience/)  
 
 Falls Sie Verkaufspreise kopieren möchten, wie z. B. den Preis eines einzelnen Debitors, um ihn in einer Debitorengruppe zu verwenden, müssen Sie die Stapelverarbeitung **VK-Preis vorschlagen** ausführen. Stapelverarbeitung auf der Seite **VK-Preisarbeitsblatt**.  
 
@@ -169,7 +164,7 @@ Falls Sie Verkaufspreise kopieren möchten, wie z. B. den Preis eines einzelnen 
    > [!NOTE]  
    > Die Stapelverarbeitung erzeugt nur Vorschläge, implementiert die vorgeschlagenen Änderungen aber nicht. Falls Sie die Vorschläge annehmen möchten, d. h. sie auf die Seite **VK-Preise** übernehmen möchten, können Sie die Aktion **Preisvorschlag übernehmen** verwenden, die Sie …auf der Seite **VK-Preisarbeitsblatt** finden.
 
-#### <a name="new-experience"></a>[Neue Erfahrung](#tab/new-experience/)  
+#### [Neue Erfahrung](#tab/new-experience/)  
 
 Sie können festlegen, ob die neue Preisliste die Einstellungen aus der Kopfzeile der Liste, die Sie kopieren, oder die Einstellungen der neuen Liste, in die Sie kopieren, verwenden soll. Um die Einstellungen aus der Preisliste zu verwenden, in die Sie Preise kopieren, aktivieren Sie den Umschalter **Standardwerte aus Ziel verwenden** verwenden.
 
@@ -182,11 +177,11 @@ Sie können festlegen, ob die neue Preisliste die Einstellungen aus der Kopfzeil
   
 ---
 
-## <a name="to-bulk-update-item-prices"></a>So aktualisieren Sie Debitorenartikelpreise auf einmal
+## So aktualisieren Sie Debitorenartikelpreise auf einmal
 
 Diese Schritte unterscheiden sich je nachdem, ob Ihr Administrator das Feature-Update **Neues Verkaufspreiserlebnis** aktiviert hat. Wenn das Funktionsupdate nicht aktiviert ist, befolgen Sie die Schritte auf der Registerkarte „Aktuelle Erfahrung“.
 
-#### <a name="current-experience"></a>[Aktuelle Erfahrung](#tab/current-experience/)
+#### [Aktuelle Erfahrung](#tab/current-experience/)
 
 Wenn Sie Artikelpreise, wie alle Lagerzugangs-Artikelpreise durch einen Prozentsatz auf einmal aktualisieren möchten, müssen Sie Verkaufspreisarbeitsblatt mithilfe der folgenden Batchvorgänge ausfüllen:
 
@@ -202,7 +197,7 @@ Wenn Sie Artikelpreise, wie alle Lagerzugangs-Artikelpreise durch einen Prozents
 7. Wählen Sie die Schaltfläche **OK**, um die Zeilen auf der Seite **Verkaufspreisarbeitsblatt** mit den vorgeschlagenen neuen Preisen auszufüllen.
 8. Um die Vorschläge umzusetzen, verwenden Sie die Aktion **Preisänderungen implementieren**. Der Batch-Job erstellt Vorschläge, setzt diese jedoch nicht um. 
 
-#### <a name="new-experience"></a>[Neue Erfahrung](#tab/new-experience/)
+#### [Neue Erfahrung](#tab/new-experience/)
 
 Um die Preise für mehrere Artikel zu aktualisieren, müssen Sie eine neue Preisliste erstellen und dann die Zeilen aus einer vorhandenen Preisliste kopieren. Wenn Sie die Zeilen kopieren, können Sie mithilfe von Filtern angeben, was kopiert werden soll, und Sie können eine Ganzzahl oder eine Dezimalzahl im Feld **Anpassungsfaktor** zum Erhöhen oder Verringern der Preise angeben. Die Preisliste muss sich im Status **Entwurf** befinden. Bei Bedarf können Sie dann die alte Preisliste deaktivieren.
 
@@ -211,7 +206,7 @@ Um die Preise für mehrere Artikel zu aktualisieren, müssen Sie eine neue Preis
 
 ---
 
-## <a name="best-price-calculation"></a>Berechnung des besten Preises
+## Berechnung des besten Preises
 
 Nachdem Sie Sonderpreise und Zeilenrabatte für Verkäufe und Käufe erfasst haben,, berechnet [!INCLUDE[prod_short](includes/prod_short.md)] den besten Preis für Verkaufs- und Einkaufsbelege sowie für Auftrags- und Artikelerfassungszeilen berechnen.
 
@@ -234,7 +229,7 @@ Der beste Preis ist der niedrigste Preis mit dem höchsten Zeilenrabatt an einem
 
 Wenn keine Spezialpreise für die Artikel in der Zeile gefunden werden, werden entweder die letzten direkten Kosten oder der VK-Preis von der Artikelkarte oder der Lagerhaltungsdatenkarte verwendet.
 
-## <a name="sales-invoice-discounts-and-service-charges"></a>Verkaufsrechnungsrabatte und Servicegebühren
+## Verkaufsrechnungsrabatte und Servicegebühren
 
 Wenn Sie Rechnungsrabatte verwenden, bestimmt der Gesamtbetrag des Rechnungsbetrages die Höhe des Rabattes, der gewährt wird. Auf der Seite **Debitorenrechnungsrabatte** können Sie eine Servicegebühr für Rechnungen über einem bestimmten Betrag einrichten.  
 
@@ -256,15 +251,15 @@ Zusätzlich (oder anstatt) eines Rabattprozentsatzes können Sie eine Servicegeb
 
 Weitere Informationen zur Schulung für Rabatte bei Verkäufen finden Sie unter [Einrichten von Rabatten für Ihre Debitoren unter ](/training/modules/customer-discounts-dynamics-365-business-central/index).
 
-### <a name="calculating-invoice-discounts-on-sales"></a>Rechnungsrabatte bei Verkäufen berechnen
+### Rechnungsrabatte bei Verkäufen berechnen
 
 [!INCLUDE [sales-invoice-discounts](includes/sales-invoice-discounts.md)]
 
-## <a name="to-set-up-a-sales-line-discount-for-a-customer"></a>So erstellen Sie Verkaufszeilenrabatte für einen Debitor:
+## So erstellen Sie Verkaufszeilenrabatte für einen Debitor:
 
 Diese Schritte unterscheiden sich je nachdem, ob Ihr Administrator das Feature-Update **Neues Verkaufspreiserlebnis** aktiviert hat. Wenn das Funktionsupdate nicht aktiviert ist, befolgen Sie die Schritte auf der Registerkarte „Aktuelle Erfahrung“.
 
-#### <a name="current-experience"></a>[Aktuelle Erfahrung](#tab/current-experience/)  
+#### [Aktuelle Erfahrung](#tab/current-experience/)  
 
 1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Debitoren** ein, und wählen Sie dann den zugehörigen Link.
 2. Öffnen Sie die entsprechende Debitorenkarte und klicken dann auf **Zeilenrabatte**.
@@ -275,7 +270,7 @@ Diese Schritte unterscheiden sich je nachdem, ob Ihr Administrator das Feature-U
 >
 > Um Preise oder Zeilenrabatte für alle Debitoren, eine Debitorenpreisgruppe oder Kampagne einzurichten, müssen Sie die Seiten von einer Artikelkarte aus öffnen. Verwenden Sie alternativ für Verkaufspreise die Seite **VK-Preisarbeitsblatt**. Weitere Informationen finden Sie unter [So führen Sie eine Sammelaktualisierung von Artikelpreisen durch](sales-how-record-sales-price-discount-payment-agreements.md#to-bulk-update-item-prices).  
 
-#### <a name="new-experience"></a>[Neue Erfahrung](#tab/new-experience/)  
+#### [Neue Erfahrung](#tab/new-experience/)  
 
 1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Debitoren** ein, und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie den Debitor und dann die Aktion **Verkaufspreislisten**.
@@ -292,7 +287,7 @@ Diese Schritte unterscheiden sich je nachdem, ob Ihr Administrator das Feature-U
 
 ---
 
-## <a name="to-set-up-an-invoice-discount-for-a-customer"></a>Um Rechnungsrabattkonditionen für Einkäufe einzurichten
+## Um Rechnungsrabattkonditionen für Einkäufe einzurichten
 
 Nachdem Sie entschieden haben, welche Kunden für Rechnungsrabatte in Frage kommen, geben Sie den Rechnungsrabattcode auf den Debitorenkartenseiten ein. Legen Sie dann die Bedingungen für jeden Code fest.
 
@@ -311,9 +306,9 @@ Fahren Sie fort, um neue Verkaufsrechnungsrabatt-Bedingungen einzurichten.
 4. Geben Sie im Feld **Rabatt** den Rechnungsrabatt als Prozentsatz des Rechnungsbetrages ein.
 5. Wiederholen Sie die Schritte 5 bis 7 für jede Währung, für die der Debitor einen Rechnungsrabatt erhält.
 
-## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/manage-sales-prices-dynamics-365-business-central/index)
+## Siehe verwandte [Microsoft Schulungen](/training/modules/manage-sales-prices-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Einrichten von Verkäufen](sales-setup-sales.md)  
 [Verkauf](sales-manage-sales.md)  

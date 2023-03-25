@@ -6,17 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: service, service items, repairs, maintenance, fix
+ms.search.keywords: 'service, service items, repairs, maintenance, fix'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 062e74b422f2190feb15d54cea47af90db468d3b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140553"
 ---
-# <a name="setting-up-service-management"></a>Einrichten der Serviceverwaltung
+
+# Einrichten der Serviceverwaltung
 Bevor Sie mit den Servicemanagement-Funktionen in [!INCLUDE[prod_short](includes/prod_short.md)] beginnen können, müssen einige Dinge eingerichtet werden. Beispielsweise können Sie Codierung für Standardservices, Symptome und Fehlercodes festlegen und die Serviceartikel und Serviceartikeltypen einrichten, die vom Kundendienst des Unternehmens benötigt werden.  
 
 Beim Einrichten des Servicemanagements muss festgelegt werden, welche Services Debitoren angeboten werden und ein entsprechender Zeitplan entworfen werden. Bei einem Service handelt es sich um eine Arbeit, die von mindestens einer Ressource ausgeführt und einem Debitor zur Verfügung gestellt wird. Ein Beispiel für einen Service ist die Reparatur eines Computers. Ein Serviceartikel ist das Gerät oder der Artikel, für den ein Service zu erbringen ist, beispielsweise ein reparaturbedürftiger Computer, der bei einem bestimmten Debitor installiert ist. Sie können Services als Teil einer Gruppe zugehöriger zu reparierender oder zu wartender Artikel einrichten.  
@@ -40,7 +35,7 @@ Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Themen,
 | Richten Sie Serviceartikel und Serviceartikelkomponenten ein. |[Serviceverträge einrichten](service-how-setup-service-items.md) |
 | Legen Sie die Grundlagen für das Erstellen von Serviceverträgen und Vertragsangeboten. |[Serviceverträge einzurichten:](service-how-setup-service-contracts.md) |
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 [Service](service-service.md)  
 [Vorbereitung für die Geschäftstätigkeit](ui-get-ready-business.md)  
 

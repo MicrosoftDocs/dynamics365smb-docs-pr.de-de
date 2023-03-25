@@ -1,113 +1,119 @@
 ### YamlMime:FAQ
 metadata:
-  title: Häufig gestellte Fragen zu Listenansichten
-  description: Dieser Artikel beantwortet Ihre FAQ zu Listenansichten und bietet detaillierte Informationen zum Speichern und Arbeiten mit Filtern als Listenansichten.
+  title: Frequently Asked Questions about List Views
+  description: This article answers your FAQ about List Views and offers detailed information about saving and working with filters as List Views.
   author: mikebcMSFT
   ms.topic: faq
   ms.devlang: na
   ms.tgt_pltfrm: na
   ms.workload: na
-  ms.search.keywords: list, filter, pane, views
+  ms.search.keywords: 'list, filter, pane, views'
   ms.date: 08/09/2022
   ms.author: mikebc
-  ms.openlocfilehash: ff5b79e1aeb7954712dc624cef9a6bbaf486279f
-  ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-  ms.translationtype: HT
-  ms.contentlocale: de-DE
-  ms.lasthandoff: 09/30/2022
-  ms.locfileid: "9607634"
-title: FAQ zu Listenansichten
-summary: In diesem Artikel werden Fragen beantwortet, die unsere erfahrenen Benutzer häufig zum Arbeiten mit Listenansichten und zum Speichern von Filtern stellen.
+title: List Views FAQ
+summary: This article answers questions that our advanced users often ask about working with list views and saving filters.
 sections:
-- name: Ignoriert
-  questions:
-  - question: >
-      Wie behandeln Ansichten Ausdrücke?
-    answer: >
-      Beim Speichern einer Ansicht, die Filter mit Ausdrücken wie Datumsbereichen, Operatoren, Schlüsselwörtern oder Filtertoken enthält, wird der Ausdruck und nicht die resultierenden Werte gespeichert&mdash;. Speichern Sie beispielsweise eine Ansicht, die nach dem Filter **Erstellungsdatum** Feld mit dem Ausdruck `-1W..today` filtert, werden immer Datensätze zum aktuellen Datum gefunden, auch wenn im nächsten Monat auf die Ansicht zugegriffen wird.
-  - question: >
-      Wo werden Listenansichten gespeichert?
-    answer: >
-      Ähnlich wie das Ausblenden eines Felds oder das Umordnen Ihres Navigationsmenüs sind Listenansichten Teil der Benutzerpersonalisierung und werden in der Datenbank gespeichert. Wenn Sie alle Personalisierungen in einer Liste löschen, werden auch Ihre persönlichen Ansichten dauerhaft entfernt und zusätzliche Personalisierungen, z. B. das Neuordnen von Ansichten, werden ebenfalls deaktiviert. Weitere Informationen finden Sie unter [Personalisieren Sie Ihren Arbeitsplatz](ui-personalization-user.md).
-  - question: >
-      Warum habe ich kein Speichern-Symbol?
-    answer: >
-      Es gibt einige Gründe, warum das Symbol und das Optionsmenü Speichern neben den Ansichten im Filterbereich möglicherweise nicht angezeigt werden.
+  - name: Ignored
+    questions:
+      - question: |
+          How do views handle expressions?
+        answer: |
+          When you save a view that includes filters with expressions (like date ranges, operators, keywords, or filter tokens), only the expression gets saved<ph id="ph1">&amp;mdash;</ph>not the resulting values. For example, saving a view that filters on the <bpt id="p1">**</bpt>Created Date<ept id="p1">**</ept> field with the expression <ph id="ph1">`-1W..today`</ph> will always find records related to the current date, even when the view is accessed next month.
+      - question: |
+          Where are list views saved?
+        answer: |
+          Similarly to hiding a field or reordering your navigation menu, list views are a part of user personalization and are stored in the database. Clearing all personalization on a list will also permanently remove your personal views and clear other personalization such as reordering of views. For more information, see <bpt id="p1">[</bpt>Personalize your workspace<ept id="p1">](ui-personalization-user.md)</ept>.
+      - question: |
+          Why don't I have a Save icon?
+        answer: |
+          There's a couple reasons why you might not see the Save icon and options menu alongside views in the filter pane.
 
+          One reason could be that personalization isn't enabled for your user role. In this case, you still have access to system views that are a standard part of the pages. You can modify these views, like changing or adding filters. You just can't save the changes. Another reason could be that the page you're looking at is a <bpt id="p1">*</bpt>worksheet<ept id="p1">*</ept> type page<ph id="ph1">&amp;mdash;</ph>not a list.
+      - question: |
+          On which page types can I use list views?
+        answer: |
+          Views are only available on list pages.
+      - question: |
+          How do I know whether I'm on a list type page?
+        answer: |
+          Use page inspection. To open page inspection, select <bpt id="p1">&lt;kbd&gt;</bpt>Ctrl<ept id="p1">&lt;/kbd&gt;</ept><ph id="ph1">+</ph><bpt id="p2">&lt;kbd&gt;</bpt>Alt<ept id="p2">&lt;/kbd&gt;</ept><ph id="ph2">+</ph><bpt id="p3">&lt;kbd&gt;</bpt>F1<ept id="p3">&lt;/kbd&gt;</ept>. Then, in the <bpt id="p1">**</bpt>Page<ept id="p1">**</ept> field, look for the word <bpt id="p2">**</bpt>List<ept id="p2">**</ept> in the parenthesis at the end.
+      - question: |
+          Are views also available on other form factors?
+        answer: |
+          Yes. Any views you save on your desktop browser or desktop app will also be available on your tablet, smartphone, or when embedded in Microsoft Teams. You can't modify or personalize views on mobile devices.
+      - question: |
+          Are my personal views always accessible?
+        answer: |
+          Your views are available on a list page whether you access it from the navigation menu, using the <bpt id="p1">**</bpt>Tell Me<ept id="p1">**</ept> window, or through a URL link. Views aren't available in list parts, lookups or whenever a list page is displayed as a dialog.
+      - question: |
+          How do I return a view to its original filters after modifying them?
+        answer: |
+          At the bottom of the filter pane, choose the <bpt id="p1">**</bpt>Reset filters<ept id="p1">**</ept> action to clear filter changes you have made to the view and return to its original filtered fields and filter criteria.
+      - question: |
+          What is the difference between hiding and removing views?
+        answer: |
+          Removing a view will permanently delete that view. Hiding a view allows you to temporarily hide it from the filter pane, but you can unhide it again later by choosing the <bpt id="p1">**</bpt>Show<ept id="p1">**</ept> action.
+      - question: |
+          How can I share my views with others?
+        answer: |
+          <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph> doesn't provide a way to share the precise list view. But you can share your current filters so that other users can see a similar list of records. In the Business Central Web client, choose a view then use the <bpt id="p1">**</bpt>Copy link<ept id="p1">**</ept> feature to copy the URL to your clipboard. just copy the URL and share it with your colleagues. Sharing filters isn't guaranteed to give the recipient an identical set of filters that you see in your browser.
+      - question: |
+          Can I search for views in the Tell Me window?
+        answer: |
+          No. The <bpt id="p1">**</bpt>Tell Me<ept id="p1">**</ept> window only displays search results for the page, but you're only a step away from getting to your favorite view once you navigate to the page.
+      - question: |
+          What is shared layout?
+        answer: |
+          All views on a list page share a common column layout. The layout includes which columns are displayed, their sequence, width, freeze pane, and quick entry settings. Personalizing any column layout will also affect other views sharing the same layout on the list page.
 
-      Ein Grund könnte sein, dass die Personalisierung für Ihre Benutzerrolle nicht aktiviert ist. In diesem Fall haben Sie weiterhin Zugriff auf Systemansichten, die ein Standardbestandteil der Seiten sind. Sie können diese Ansichten ändern, z. B. Filter ändern oder hinzufügen. Sie können die Änderungen einfach nicht speichern. Ein weiterer Grund könnte sein, dass die Seite, die Sie betrachten, eine *Arbeitsblatt* Typ Seite&mdash;ist und keine Liste.
-  - question: >
-      Auf welchen Seitentypen kann ich Listenansichten verwenden?
-    answer: >
-      Ansichten sind nur auf Listen- und Arbeitsblattseiten verfügbar.
-  - question: >
-      Woher weiß ich, ob ich auf der Seite mit dem Listentyp bin?
-    answer: >
-      Seitenüberprüfung verwenden. Drücken Sie zum Öffnen der Seitenprüfung Strg + ALT+F1. Dann im Feld **Seite** suchen Sie nach dem Wort **Liste** in der Klammer am Ende.
-  - question: >
-      Sind Ansichten auch für andere Formfaktoren verfügbar?
-    answer: >
-      Ja. Alle Ansichten, die Sie in Ihrem Desktop-Browser oder Ihrer Desktop-App speichern, sind auch auf Ihrem Tablet oder Smartphone oder in Microsoft Teams eingebettet verfügbar. Sie können Ansichten auf Mobilgeräten nicht ändern oder personalisieren.
-  - question: >
-      Sind meine persönlichen Ansichten immer zugänglich?
-    answer: >
-      Ihre Ansichten sind auf einer Listenseite verfügbar, wenn Sie über das Navigationsmenü über das Fenster **Sag mir** oder über einen URL-Link zur Listenseite darauf zugreifen. Ansichten sind in Listenteilen, Suchen oder immer dann nicht verfügbar, wenn eine Listenseite als Dialogfeld angezeigt wird.
-  - question: >
-      Wie kann ich eine Ansicht nach dem Ändern auf die ursprünglichen Filter zurücksetzen?
-    answer: >
-      Wählen Sie unten im Filterbereich die Option **Filter zurücksetzen** Aktion zum Löschen von Filteränderungen, die Sie an der Ansicht vorgenommen haben, und kehren Sie zu den ursprünglich gefilterten Feldern und Filterkriterien zurück.
-  - question: >
-      Was ist der Unterschied zwischen dem Ausblenden und Entfernen von Ansichten?
-    answer: >
-      Durch das Entfernen einer Ansicht wird diese Ansicht dauerhaft gelöscht. Wenn Sie eine Ansicht ausblenden, können Sie sie vorübergehend im Filterbereich ausblenden. Sie können sie jedoch später wieder einblenden, indem Sie auf die Schaltfläche klicken **Anzeigen** Aktion.
-  - question: >
-      Wie kann ich meine Ansichten mit anderen teilen?
-    answer: >
-      [!INCLUDE[prod_short](includes/prod_short.md)] bietet keine Möglichkeit, die genaue Listenansicht freizugeben. Sie können jedoch Ihre aktuellen Filter freigeben, damit andere Benutzer eine ähnliche Liste von Datensätzen sehen können. Wählen Sie im Business Central-Webclient eine Ansicht aus und verwenden Sie dann die Funktion **Link kopieren** zum Kopieren der URL in Ihre Zwischenablage. kopieren Sie einfach die URL und geben Sie sie dann an Ihre Kollegen weiter. Bei der Freigabe von Filtern kann nicht garantiert werden, dass der Empfänger die gleichen Filter erhält, die auch in Ihrem Browser angezeigt werden.
-  - question: >
-      Kann ich im Tell Me-Fenster nach Ansichten suchen?
-    answer: >
-      Nr. Das **Sag mir** Fenster zeigt nur Suchergebnisse für die Seite an, aber Sie sind nur einen Schritt davon entfernt, zu Ihrer Lieblingsansicht zu gelangen, sobald Sie zur Seite navigieren.
-  - question: >
-      Was ist ein geteiltes Layout?
-    answer: >
-      Alle Ansichten auf einer Listenseite haben ein gemeinsames Spaltenlayout. Das Layout enthält die angezeigten Spalten, deren Reihenfolge, Breite, Einfrierbereich und Einstellungen für die Schnelleingabe. Das Personalisieren eines beliebigen Spaltenlayouts wirkt sich auch auf andere Ansichten aus, die das gleiche Layout auf der Listenseite haben.
+          Some system views can have unique layouts of the columns in the list. For example, they could rearrange columns to display only the columns most relevant to that view. You can identify which views have unique layouts by choosing the <bpt id="p1">![</bpt>Show more options<ept id="p1">](media/show-more-options-icon.png "|::ref1::|")</ept> icon and observing that the <bpt id="p2">**</bpt>Shared layout<ept id="p2">**</ept> check box isn't selected. As a user, you can personalize the column layout for a view with unique layout without it affecting any of the other views on the list page. Only developers can define a unique column layout for a view that initially has a shared layout.
+      - question: |
+          What does the Show System Filters link do?
+        answer: |
+          On some list pages, the filter pane displays <bpt id="p1">**</bpt>Show system filters<ept id="p1">**</ept> at the bottom, specifically when the page includes filters specified by the system. These special filters are typically used to display records based on the current context. An example would be when an orders list has to be filtered for a specific customer.
 
+          System filters are set by application developers, which they set using filter group 0. For more information about system filters, see <bpt id="p1">[</bpt>FilterGroup Method<ept id="p1">](/dynamics365/business-central/dev-itpro/developer/methods-auto/record/record-filtergroup-method)</ept>.
+      - question: |
+          I see multiple views on my page, but I didn't create them. Where did they come from?
+        answer: |
+          The views you see on any list are a combination of your personal views together with system views. System views may originate from the business application, from extensions, or may be role-specific if the list was customized for your role.
+      - question: |
+          Why do some views provide fewer options?
+        answer: |
+          Some views only provide the option to save a copy of the view, while others don't allow saving changes to the view. How the view was created determines the options available to that view. Views can be created in multiple ways:
 
-      Einige Systemansichten können eindeutige Layouts der Spalten in der Liste haben. Beispielsweise könnten sie die Spalten neu anordnen, um nur die Spalten anzuzeigen, die für diese Ansicht am relevantesten sind. Sie können feststellen, welche Ansichten eindeutige Layouts haben, indem Sie das Symbol ![Weitere Optionen anzeigen](media/show-more-options-icon.png "Weitere Optionen anzeigen") auswählen und beobachten, dass das Kontrollkästchen **Gemeinsames Layout** nicht aktiviert ist. Als Benutzer können Sie das Spaltenlayout für eine Ansicht mit einem eindeutigen Layout personalisieren, ohne dass die anderen Ansichten auf der Listenseite davon betroffen sind. Nur Entwickler können ein eindeutiges Spaltenlayout für eine Ansicht definieren, die ursprünglich ein gemeinsames Layout hat.
-  - question: >
-      Was bewirkt der Link Systemfilter anzeigen?
-    answer: >
-      Auf einigen Listenseiten wird der Filterbereich **Systemfilter anzeigen** am unteren Rand des Filterbereichs angezeigt, wenn die Seite vom System festgelegte Filter enthält. Diese speziellen Filter werden normalerweise verwendet, um Datensätze basierend auf dem aktuellen Kontext anzuzeigen. Ein Beispiel wäre, wenn eine Auftragsliste für einen bestimmten Kunden gefiltert werden muss.
+          - Personal views that you saved
+          - System views that are a standard part of the business application, or added by extensions or role-specific views. Unlike personal views, you can't save changes to filters back to that system view.
+          - Legacy system views that are a standard part of the business application but were created using older versions of <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph>. These views offer fewer options. You can only save them as a new view and can't hide or reorder them either. Legacy system views will be discontinued in a future update to <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph>.
 
+          > [!NOTE]
+          > Starting with Business Central 2023 release wave 2, legacy views will no longer be supported, and won't be displayed in the list page. Learn technical details about how developers can migrate to modern list views at <bpt id="p1">[</bpt>Migrating from Legacy Views to Modern Views<ept id="p1">](/dynamics365/business-central/dev-itpro/developer/devenv-views-legacy)</ept>. 
+      - question: |
+          How do I get past limitations of legacy system views?
+        answer: |
+          Legacy system views are list views that were created by developers in older versions of <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph> by placing them on the Role Center page. These views are now displayed directly on the list page but offer a degraded experience and fewer options. You can convert a legacy system view to a personal view that is fully customizable, simply by saving that legacy view as a new view. Similarly, administrators can choose to convert role-specific legacy system views by customizing the user role and saving the legacy view as a new role-specific view.
 
-      Systemfilter werden von Anwendungsentwicklern mithilfe der Filtergruppe 0 festgelegt. Weitere Informationen zu Systemfiltern finden Sie unter [Filtergruppenmethode](/dynamics365/business-central/dev-itpro/developer/methods-auto/record/record-filtergroup-method).
-  - question: >
-      Auf meiner Seite werden mehrere Ansichten angezeigt, die ich aber nicht erstellt habe. Wo kamen Sie her?
-    answer: >
-      Die in einer Liste angezeigten Ansichten sind eine Kombination aus Ihren persönlichen Ansichten und Systemansichten. Systemansichten können von der Geschäftsanwendung oder von Erweiterungen stammen oder rollenabhängig sein, wenn die Liste für Ihre Rolle angepasst wurde.
-  - question: >
-      Warum bieten einige Ansichten weniger Optionen?
-    answer: "Einige Ansichten bieten nur die Möglichkeit, eine Kopie der Ansicht zu speichern, während andere das Speichern von Änderungen an der Ansicht hingegen nicht zulassen. Wie die Ansicht erstellt wurde, bestimmt die verfügbaren Optionen für diese Ansicht. Ansichten können auf verschiedene Arten erstellt werden:\n\n- Persönliche Ansichten, die Sie gespeichert haben\n- Systemansichten, die ein Standardbestandteil der Geschäftsanwendung sind oder durch Erweiterungen oder rollenspezifische Ansichten hinzugefügt werden. Im Gegensatz zu persönlichen Ansichten können Sie Änderungen an Filtern nicht in dieser Systemansicht speichern.\n- Ältere Systemansichten, die ein Standardbestandteil der Geschäftsanwendung sind, jedoch mit älteren Versionen von [!INCLUDE[prod_short](includes/prod_short.md)] erstellt wurden. Diese Ansichten bieten Ihnen deutlich weniger Optionen. Sie können sie nur als neue Ansicht speichern aber nicht ausblenden oder neu anordnen. Beachten Sie, dass ältere Systemansichten in einem zukünftigen Update von [!INCLUDE[prod_short](includes/prod_short.md)] nicht weiter unterstützt werden.\n\n> [!NOTE]\n> Beginnend mit dem 2. Veröffentlichungszyklus von Business Central 2023 werden Legacy-Ansichten nicht mehr unterstützt und nicht mehr auf der Listenseite angezeigt. Erfahren Sie technische Details darüber, wie Entwickler zu modernen Listenansichten migrieren können, unter [Migrieren von Legacy-Ansichten zu modernen Ansichten ](/dynamics365/business-central/dev-itpro/developer/devenv-views-legacy). \n"
-  - question: >
-      Wie überwinde ich die Beschränkungen von Legacy-Systemansichten?
-    answer: >
-      Ältere Systemansichten sind Listenansichten, die von Entwicklern in älteren Versionen von [!INCLUDE[prod_short](includes/prod_short.md)] erstellt wurden, indem Sie sie auf der Seite Rollencenter platzieren. Diese Ansichten werden jetzt direkt auf der Listenseite angezeigt, bieten jedoch eine beeinträchtigte Erfahrung und deutlich weniger Optionen. Sie können eine alte Systemansicht in eine vollständig anpassbare persönliche Ansicht umwandeln, indem Sie diese alte Ansicht einfach als neue Ansicht speichern. Ebenso können Administratoren die rollenabhängigen älteren Systemansichten konvertieren, indem sie die Benutzerrolle anpassen und die ältere Ansicht als neue rollenabhängige Ansicht speichern.
+          Legacy system views will be discontinued in a future update to <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph>.
+      - question: |
+          Others in my organization need similar list views as standard. What can I do?
+        answer: |
+          Working with personal views is quick and effective, but <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph> provides other tools to define list views needed by specific user roles or all users in the organization.
+           - Developers can customize the environment and create list views in extensions for all users in the organization.
+           - Non-coders such as administrators or department managers, can create role-specific list views when customizing a role from the <bpt id="p1">**</bpt>Profiles (Roles)<ept id="p1">**</ept> page.
+      - question: |
+          I work with multiple languages: how do I translate the name of the view?
+        answer: |
+          When saving a new view or renaming an existing view, you must enter a recognizable and meaningful name for that view. The name is saved for your current language and will be displayed also when you or other users work with <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph> in different languages. To provide translated view names, switch the language by using the <bpt id="p1">**</bpt>My Settings<ept id="p1">**</ept> page. Then rename the view, which will store the translated name in the new language.
+      - question: |
+          Do views with expressions work in all languages?
+        answer: |
+          Expressions that only use symbols, such as <ph id="ph1">`|`</ph> or <ph id="ph2">`..`</ph> are considered safe for users to access in any language. Any views with expressions that include letters, keywords, or filter tokens will only work for the language in which they were authored.
+additionalContent: |
 
-
-      Beachten Sie, dass ältere Systemansichten in einem zukünftigen Update von [!INCLUDE[prod_short](includes/prod_short.md)] nicht weiter unterstützt werden.
-  - question: >
-      Andere in meiner Organisation benötigen standardmäßig ähnliche Listenansichten. Was kann ich tun?
-    answer: >
-      Das Arbeiten mit persönlichen Ansichten ist jedoch schnell und effektiv aber [!INCLUDE[prod_short](includes/prod_short.md)] bietet weitere Tools zum Definieren von Listenansichten, die von bestimmten Benutzerrollen oder allen Benutzern in der Organisation benötigt werden.
-       - Entwickler können die Umgebung anpassen und Listenansichten in Erweiterungen für alle Benutzer in der Organisation erstellen.
-       - Nicht-Programmierer wie Administratoren oder Abteilungsleiter können rollenbezogene Listenansichten erstellen, wenn Sie eine Rolle auf der Seite **Profile (Rollen)** anpassen.
-  - question: >
-      Ich arbeite mit mehreren Sprachen: Wie übersetze ich den Namen der Ansicht?
-    answer: >
-      Wenn Sie eine neue Ansicht speichern oder eine vorhandene Ansicht umbenennen, müssen Sie einen erkennbaren und aussagekräftigen Namen für diese Ansicht eingeben. Der Name wird für Ihre aktuelle Sprache gespeichert und auch angezeigt, wenn Sie oder andere Benutzer damit in [!INCLUDE[prod_short](includes/prod_short.md)] in verschiedenen Sprachen arbeiten. Um übersetzte Ansichtsnamen bereitzustellen, wechseln Sie die Sprache mithilfe der Seite **Meine Einstellungen**. Benennen Sie dann die Ansicht um, in der der übersetzte Name in der neuen Sprache gespeichert wird.
-  - question: >
-      Arbeiten Ansichten mit Ausdrücken in allen Sprachen?
-    answer: >
-      Ausdrücke, die nur Symbole verwenden, z. B. `|` oder `..` gelten als sicher für Benutzer, auf die in jeder Sprache zugegriffen werden kann. Alle Ansichten mit Ausdrücken, die Buchstaben, Schlüsselwörter oder Filtertoken enthalten, funktionieren nur für die Sprache, in der sie auch verfasst wurden.
-additionalContent: "\n## <a name=\"see-also\"></a>Siehe auch\n   [Speichern und personalisieren Sie Listenansichten](ui-views.md)  \n   [Suchen von Funktionen und Informationen](ui-search.md)  \n   [Sortieren, Suchen und Filtern](ui-enter-criteria-filters.md)  \n        \n        \n   [!INCLUDE[footer-include](includes/footer-banner.md)]"
+  ## See Also
+     <bpt id="p1">[</bpt>Save and Personalize List Views<ept id="p1">](ui-views.md)</ept>  
+     <bpt id="p1">[</bpt>Finding Features and Information<ept id="p1">](ui-search.md)</ept>  
+     <bpt id="p1">[</bpt>Sorting, Searching, and Filtering<ept id="p1">](ui-enter-criteria-filters.md)</ept>  
+          
+          
+     [!INCLUDE[footer-include](includes/footer-banner.md)]

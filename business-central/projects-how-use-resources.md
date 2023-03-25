@@ -1,23 +1,17 @@
 ---
 title: Ressourcenverbrauch und Preise aufzeichnen und anpassen
-description: Beschreibt, wie Sie den Ressourcenverbrauch oder den Verbrauch erfassen können, die einem Projekt zugeordnet sind, um Kosten, Preisen und Arbeitstypen zu verwalten.
+description: 'Beschreibt, wie Sie den Ressourcenverbrauch oder den Verbrauch erfassen können, die einem Projekt zugeordnet sind, um Kosten, Preisen und Arbeitstypen zu verwalten.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: project management, capacity, staff
-ms.search.form: 201,206, 207, 271, 493
+ms.search.keywords: 'project management, capacity, staff'
+ms.search.form: '201,206, 207, 271, 493'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9e2d8b51381e3fd89f9fab423485fc52cee46071
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517368"
 ---
-# <a name="use-resources-for-jobs"></a>Verwenden von Ressourcen für Projekte
+# Verwenden von Ressourcen für Projekte
 
 Wenn Sie den Verbrauch von Ressourcen im Projekt Buch.-Blatt buchen, können Sie die Einstands- und Verkaufspreise, die Arbeitstypen und die damit verknüpften Projekte verfolgen. Weitere Informationen finden Sie unter [Verwendung von Datensätzen für Projekte](projects-how-record-job-usage.md).
 
@@ -26,17 +20,17 @@ Wenn Sie den Verbrauch von Ressourcen im Projekt Buch.-Blatt buchen, können Sie
 
 Sie können auch den Verbrauch einer Ressource in einem Ressourcen Buch.-Blatt buchen. Posten, die in einem Ressourcen Buch.-Blatt gebucht werden, haben keinen Einfluss auf die Finanzbuchhaltung.
 
-## <a name="to-assign-resources-to-jobs"></a>So weisen Sie Projekten Ressourcen zu
+## So weisen Sie Projekten Ressourcen zu
 
 Sie weisen Projekten Ressourcen zu, indem Sie Projektplanungszeilen für das Projekt erstellen. Weitere Informationen finden Sie unter  [Projekte erstellen](projects-how-create-jobs.md).
 
-## <a name="to-record-resource-usage-for-a-job"></a>Um Ressourcenverbrauch für ein Projekt buchen
+## Um Ressourcenverbrauch für ein Projekt buchen
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Projekt Buch.-Blätter** ein und wählen Sie dann den zugehörigen Link.
 2. Öffnen Sie das relevante Projekt-Buch.-Blatt und füllen Sie die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Wenn der Verkaufsauftrag ausgeführt wurde, wählen Sie die Aktion **Buchen** aus.
 
-## <a name="to-adjust-resource-prices"></a>Um Ressourcenpreise zu justieren:
+## Um Ressourcenpreise zu justieren:
 
 Wenn Sie die Einstands- und Verkaufspreise für eine große Anzahl von Ressourcen ändern möchten, können Sie den Batchauftrag verwenden.  
 
@@ -46,7 +40,7 @@ Wenn Sie die Einstands- und Verkaufspreise für eine große Anzahl von Ressource
 > [!NOTE]  
 > Diese Stapelverarbeitung erzeugt oder aktualisiert keine alternativen Einkaufs- oder Verkaufspreise für Ressourcen. Sie ändert lediglich den Inhalt des Feldes auf der Ressourcenkarte für das Feld **Feld korrigieren**, das Sie in der Stapelverarbeitung ausgewählt haben. Die Änderung tritt für die Ressourcen sofort in Kraft, überprüfen Sie daher Ihre Korrekturfaktoren, bevor Sie die Stapelverarbeitung ausführen.
 
-## <a name="to-get-resource-price-change-suggestions-based-on-existing-alternate-prices"></a>Um Ressourcen-Preisänderungsvorschläge auf Basis bestehender alternativer Preise zu erstellen:
+## Um Ressourcen-Preisänderungsvorschläge auf Basis bestehender alternativer Preise zu erstellen:
 
 Wenn Sie bereits einen alternativen Ressourcenpreis für einige Ressourcen eingerichtet haben, können Sie einen Batch-Job verwenden, um mehrere alternative Ressourcenpreise einzurichten.
 
@@ -55,7 +49,7 @@ Wenn Sie bereits einen alternativen Ressourcenpreis für einige Ressourcen einge
 3. Wählen Sie die Schaltfläche **OK** aus.  
 4. Wenn die Stapelverarbeitung beendet ist, öffnen Sie die Seite **Ressourcen-Preisänderungen**, um die Ergebnisse der Stapelverarbeitung anzuzeigen.
 
-## <a name="to-get-resource-price-change-suggestions-based-on-standard-prices"></a>So erstellen Sie Ressourcenpreisvorschläge auf Basis bestehender Standard-VK-Preise
+## So erstellen Sie Ressourcenpreisvorschläge auf Basis bestehender Standard-VK-Preise
 
 Wenn Sie einen oder mehrere alternative Ressourcenpreise basierend auf den Standardpreisen auf den Ressourcenkarten festlegen möchten, dann können Sie den Batchauftrag verwenden.  
 
@@ -64,7 +58,7 @@ Wenn Sie einen oder mehrere alternative Ressourcenpreise basierend auf den Stand
 3. Wählen Sie die Schaltfläche **OK** aus.  
 4. Wenn die Stapelverarbeitung beendet ist, öffnen Sie die Seite **Ressourcen-VK-Preisarbeitsblätter**, um die Ergebnisse der Stapelverarbeitung anzuzeigen.
 
-## <a name="to-get-resource-price-change-suggestions-based-on-alternate-prices"></a>Um Ressourcenpreisvorschläge auf Basis alternierender Preise zu erhalten
+## Um Ressourcenpreisvorschläge auf Basis alternierender Preise zu erhalten
 
 Wenn Sie bereits alternative Ressourcenpreise für einige Ressourcen festgelegt haben, können Sie einen Batchauftrag verwenden, um mehrere alternative Ressourcenpreise festzulegen.
 
@@ -73,7 +67,7 @@ Wenn Sie bereits alternative Ressourcenpreise für einige Ressourcen festgelegt 
 3. Wählen Sie die Schaltfläche **OK** aus.  
 4. Wenn die Stapelverarbeitung beendet ist, öffnen Sie die Seite **Ressourcen-VK-Preisarbeitsblätter**, um die Ergebnisse der Stapelverarbeitung anzuzeigen.
 
-## <a name="see-also"></a>Weitere Informationen
+## Weitere Informationen
 
 [Projektmanagement](projects-manage-projects.md)  
 [Finanzen](finance.md)  

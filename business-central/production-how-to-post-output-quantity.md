@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 99000773, 99000778, 99000823, 99000827
+ms.search.form: '99000773, 99000778, 99000823, 99000827'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7a1c30340efabed66e4ce359fc7680945e0db1de
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8522746"
 ---
-# <a name="batch-post-output-and-run-times"></a>Ausgabe über Stapelverarbeitung buchen und Bearbeitungszeiten prüfen
+# Ausgabe über Stapelverarbeitung buchen und Bearbeitungszeiten prüfen
 Die fertig gestellte Menge repräsentiert den Arbeitsfortschritt in Form der fertigen Menge und der genutzten Kapazität der Arbeit oder des Arbeitsplatzes.
 
 Sie können das Ausgabejournal für Folgendes verwenden:
@@ -30,7 +24,7 @@ Sie können das Ausgabejournal für Folgendes verwenden:
 
 Im Fenster **Produktions Buch.-Blatt** können Sie die gleichen Aufgaben wie im Fenster **FA-Istmeldungs Buch.-Blatt** ausführen und gleichzeitig die entsprechenden Verbrauchsbuchungsaufgaben ausführen. Weitere Informationen finden Sie unter [Gemeinsames Erfassen und Buchen von Verbrauch und Istmeldungen für eine einzelne freigegebene Fertigungsauftragszeile](production-how-to-register-consumption-and-output.md).
 
-## <a name="to-post-output-quantities-andor-register-run-times-for-one-or-more-production-order-lines"></a>Die fertig gestellte Mengen und/oder Erfassungslaufzeiten für eine oder mehrere Fertigungsauftragszeilen buchen
+## Die fertig gestellte Mengen und/oder Erfassungslaufzeiten für eine oder mehrere Fertigungsauftragszeilen buchen
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Erfassung Buch.-Blatt** ein und wählen Sie dann den zugehörigen Link.  
 2. Füllen Sie die Felder mit den Daten des Fertigungsauftrags und den Ausgabedaten und/oder der Laufzeit aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -44,7 +38,7 @@ Kapazitätsposten werden für die verwendeten Arbeitsplätze mit Informationen z
 
 Wenn Sie den letzten Vorgang gebucht haben, wird der Artikel dem Lager hinzugefügt.  
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Ausschuss manuell buchen](production-how-to-post-scrap.md)
 [Gebuchte fertig gestellte Menge stornieren](production-how-to-reverse-output-posting.md)

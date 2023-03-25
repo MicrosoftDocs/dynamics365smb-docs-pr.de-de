@@ -1,27 +1,22 @@
 ---
 title: Neue Kapazität einrichten
-description: Exemplarische Vorgehensweise, um zu erfahren, wie Sie einen neuen Arbeitsplatz mit einem Kapazitätskalender für eine einzelne Schicht in Business Central einrichten.
+description: 'Exemplarische Vorgehensweise, um zu erfahren, wie Sie einen neuen Arbeitsplatz mit einem Kapazitätskalender für eine einzelne Schicht in Business Central einrichten.'
 ms.date: 04/01/2022
 ms.topic: article
 ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
-ms.openlocfilehash: e47832b34778f1340000a87f9ac148a2ab230bcf
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8525124"
 ---
-# <a name="walkthrough-set-up-new-capacity"></a>Exemplarische Vorgehensweise: Neue Kapazität einrichten
+
+# Exemplarische Vorgehensweise: Neue Kapazität einrichten
 
 In diesem Artikel führen wir Sie durch die Schritte zur Verwendung der Demodaten von Contoso Coffee bei der Kapazitätsverwaltung.  
 
-## <a name="scenario"></a>Szenario
+## Szenario
 
 Sie sind der Produktionsplaner bei Contoso Coffee. Als Reaktion auf Änderungen im Fertigungsbereich müssen Sie einen neuen Arbeitsplatz „Testabteilung“ einrichten. Das neue Arbeitszentrum hat ein Maschinenzentrum, „Test“. Die neuen Zentren müssen über einen Kapazitätskalender für eine Schicht von Montag bis Freitag von 08:00 Uhr bis 16:00 Uhr verfügen.  
 
-## <a name="steps"></a>Schritte
+## Schritte
 
 1. Richten Sie die Arbeitsplatzgruppe ein.
 
@@ -89,6 +84,6 @@ Sie sind der Produktionsplaner bei Contoso Coffee. Als Reaktion auf Änderungen 
 
 Auf der **Kalendereinträge**-Seite sind die Tageskapazitätseinträge im **Kapazität (Gesamt)**-Feld 480 Minuten. Dies entspricht einer Acht-Stunden-Schicht für jeden Arbeitstag. Auch das **Kapazität (effektiv)**-Feld zeigt 432 Minuten. Dies spiegelt den 90-prozentigen Wirkungsgrad wider, den Sie dem Maschinenzentrum zugeschrieben haben.  
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Einführung in Contoso Coffee Demo Data](contoso-coffee-intro.md)  

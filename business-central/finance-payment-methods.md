@@ -1,23 +1,17 @@
 ---
 title: Zahlungsformen festlegen (enthält Video)
-description: Sie können Zahlungsformen nutzen, z.B. Banküberweisung, Kasse oder PayPal, um festzulegen, wie eine Rechnung bezahlt wird.
+description: 'Sie können Zahlungsformen nutzen, z.B. Banküberweisung, Kasse oder PayPal, um festzulegen, wie eine Rechnung bezahlt wird.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: check, bank transfer, cash, PayPal
+ms.search.keywords: 'check, bank transfer, cash, PayPal'
 ms.search.form: 427
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: ef92b2ade7c18a57438a6a87a939070cb42a9fb1
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9530621"
 ---
-# <a name="set-up-payment-methods"></a>Einrichten von Zahlungsformen
+# Einrichten von Zahlungsformen
 
 Zahlungsformen definieren die Art, wie Sie es vorziehen, dass Debitoren Sie zahlen und wie Sie den Kreditoren bezahlen können. Die Methode kann für jeden Debitor oder Kreditor variieren. Beispiele für typische Zahlungsformen sind **Bankkonten**, **Bargeld**, **Check** oder **Konto**.
 
@@ -29,7 +23,7 @@ Gutschriften für Reklamationen sind jedoch Ausnahmen, da Geld entgegengesetzt f
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE476Ys?rel=0]
 
-## <a name="to-set-up-a-payment-method"></a>So richten Sie eine Zahlungsform ein
+## So richten Sie eine Zahlungsform ein
 
 [!INCLUDE[prod_short](includes/prod_short.md)] enthält mehrere Zahlungsformen, die Geschäfte häufig verwenden. Sie können so viele Zeilen hinzufügen, wie Sie benötigen.
 
@@ -38,14 +32,14 @@ Gutschriften für Reklamationen sind jedoch Ausnahmen, da Geld entgegengesetzt f
 
 Fügen Sie Ihren Zahlungsbedingungen optional Ihre Zahlungsform hinzu. Weitere Informationen finden Sie unter [Einrichten von Zahlungbedingungen](finance-payment-terms.md).  
 
-## <a name="to-assign-a-payment-method-to-a-customer-or-vendor"></a>So weisen Sie einem Kreditor eine Zahlungsform zu
+## So weisen Sie einem Kreditor eine Zahlungsform zu
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Kunde** oder **Kreditor** ein und wählen Sie dann den zugehörigen Link.
 2. Im **Zahlungsformcode** Feld wählen Sie die Methode, die Sie für den Debitor oder Kreditor standardmäßig verwenden möchten.
 
-## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/cash-management-dynamics-365-business-central/)
+## Siehe verwandte [Microsoft Schulungen](/training/modules/cash-management-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Registriert einen neuen Debitor](sales-how-register-new-customers.md)  
 [Zahlungsbedingungen einrichten](finance-payment-terms.md)  

@@ -1,33 +1,27 @@
 ---
 title: Standardaufgaben für Vorgänge einrichten
-description: Erfahren Sie, wie Sie Standardaufgaben festlegen und Standardaufgaben zu Vorgängen hinzufügen können, um die Wartung von Arbeitsplänen zu vereinfachen.
+description: 'Erfahren Sie, wie Sie Standardaufgaben festlegen und Standardaufgaben zu Vorgängen hinzufügen können, um die Wartung von Arbeitsplänen zu vereinfachen.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 99000799, 99000803, 99000804, 99000805, 99000807
+ms.search.form: '99000799, 99000803, 99000804, 99000805, 99000807'
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: c58d361a9b3d9732d4e29b4fea70e9f101c5e71f
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520204"
 ---
-# <a name="set-up-standard-routing-lines"></a>Einrichten von Aufgabenzeilen
+# Einrichten von Aufgabenzeilen
 
 Die Verwendung von Standardkatalogen vereinfacht das Erstellen und Pflegen von Arbeitsplänen. Sie bieten umfangreiche Funktionalität, um schnell zusätzliche Informationen zu wiederkehrende Arbeitsgänge hinzuzufügen.
 
-## <a name="to-set-up-a-standard-task"></a>So richten Sie Standardaufgaben ein
+## So richten Sie Standardaufgaben ein
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Standardaufgaben** ein, und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie die Aktion **Neu** aus.
 3. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Wählen Sie **Werkzeuge**, **Personal**, **Beschreibung** oder die Aktion **Werkzeuge** aus, und fügen Sie dann auf der Seite, die geöffnet wird, den entsprechenden Eintrag hinzu.
 
-## <a name="to-add-a-standard-task-to-an-operation"></a>Eine Standardaufgabe einem Arbeitsgang hinzufügen
+## Eine Standardaufgabe einem Arbeitsgang hinzufügen
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Arbeitspläne** ein und wählen Sie dann den zugehörigen Link.
 2. Öffnen Sie das relevante Routing.
@@ -35,7 +29,7 @@ Die Verwendung von Standardkatalogen vereinfacht das Erstellen und Pflegen von A
 
 Wenn Sie den Lagerplatzumlagerungsarbeitsblatt drucken, können Sie die Elemente aus dem Standardkatalog einschließen, die Sie dem Arbeitsgang hinzugefügt haben.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Routings erstellen](production-how-to-create-routings.md)  
 [Fertigungsauftrag erstellen](production-how-to-create-production-boms.md)  

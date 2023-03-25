@@ -6,17 +6,11 @@ ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 283, 5629
+ms.search.form: '283, 5629'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 91741eea4d2ba780e7493e6aff256238bd542769
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511364"
 ---
-# <a name="allocate-costs-and-income"></a>Kosten und Einkünfte zuteilen
+# Kosten und Einkünfte zuteilen
 
 Die Posten einer Fibu Buch.-Blattzeile lassen sich beim Buchen des Buch.-Blatts auf verschiedene Konten verteilen. Für die Verteilung stehen drei unterschiedliche Methoden zur Verfügung:
 
@@ -29,7 +23,7 @@ Die Verteilungsfeatures können sowohl in wiederkehrenden Buch.-Blättern als au
 
 Die folgenden Verfahren beschreiben, was bereitgestellt werden muss, um Kosten in einem wiederkehrenden Buch.-Blatt zuzuordnen, indem Verteilungsschlüssel eingerichtet werden. Wenn Verteilungsschlüssel definiert werden, beenden und buchen Sie das Buch.-Blatt wie alle anderen wiederkehrenden Fibu Buch.-Blätter. Weitere Informationen finden Sie unter [Arbeiten mit Allgemeinen Buch.-Blättern](ui-work-general-journals.md).
 
-## <a name="to-set-up-allocation-keys"></a>Einrichten von Verteilungsschlüsseln
+## Einrichten von Verteilungsschlüsseln
 
 Die Posten einer Fibu Buch.-Blattzeile lassen sich beim Buchen des Buch.-Blatts auf verschiedene Konten verteilen. Die Verteilung kann nach Anzahl, Prozent oder Betrag vorgenommen werden.  
 
@@ -47,13 +41,13 @@ Die Posten einer Fibu Buch.-Blattzeile lassen sich beim Buchen des Buch.-Blatts 
 10. Nachdem Sie die Zuteilungszeilen eingegeben haben, wählen Sie **OK** aus, um zur Seite **Wiederk. Fibu Buch.-Blätter** zurückzukehren. Das Feld **Zugewiesener Betrag (USD)** ist ausgefüllt und entspricht dem Feld **Betrag**.
 11. Buchen Sie die Buch.-Blattzeile.
 
-## <a name="to-change-an-allocation-key-that-has-already-been-set-up"></a>So ändern Sie einen bereits eingerichteten Zuordnungsschlüssel
+## So ändern Sie einen bereits eingerichteten Zuordnungsschlüssel
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Wiederk. Fibu Buch.-Blatt** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie auf der Seite **Wiederk. Fibu Buch.-Blatt** das Buch.-Blatt mit der Verteilung aus.
 3. Wählen Sie die Zeile mit der Verteilung, und wählen Sie dann die Aktion **Zuweisungen** aus.
 4. Ändern Sie die relevanten Felder und wählen Sie dann die Schaltfläche **OK** aus.
 
-## <a name="see-also"></a>Weitere Informationen
+## Weitere Informationen
 [Jahre und Perioden abschließen](year-close-years-periods.md)  
 [Mit Fibu Buch.-Blättern arbeiten](ui-work-general-journals.md)    
 [Journale und Dokumente buchen](ui-post-documents-journals.md)    

@@ -1,6 +1,6 @@
 ---
 title: Einen Verkäufer festlegen (enthält ein Video) | Microsoft Dokumente
-description: Sie können eine Kennung für jeden Ihrer Vertriebsmitarbeiter einrichten, so dass Sie die Leistung eines Einzelnen verfolgen oder einem Kontakt einen Vertriebsmitarbeiter zuweisen können.
+description: 'Sie können eine Kennung für jeden Ihrer Vertriebsmitarbeiter einrichten, so dass Sie die Leistung eines Einzelnen verfolgen oder einem Kontakt einen Vertriebsmitarbeiter zuweisen können.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -9,14 +9,8 @@ ms.workload: na
 ms.search.keywords: sales rep
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6a1254cb18546556b977eb009a819806e62ee2ca
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9531647"
 ---
-# <a name="set-up-salespeople"></a>Verkäufer einrichten
+# Verkäufer einrichten
 
 Viele Unternehmen möchten die Leistungen der einzelnen Angestellten bei der Berechnung von Verkaufsprovisionen oder Prämien berücksichtigen. Sehen Sie beispielsweise den **Verkäufer-Kommissionsbericht**. Ein Unternehmen möchte möglicherweise auch jeder Kontaktperson einen Verkäufer zuordnen.
 
@@ -24,16 +18,16 @@ Wenn Sie auf der Seite **Verkäufer** einen Verkäufer eingerichtet haben, könn
 <br><br>  
 > [!Video https://www.microsoft.com/videoplayer/embed/RE43Vhm?rel=0]
 
-## <a name="to-set-up-a-salesperson-code"></a>So richten Sie einen Verkäufercode ein
+## So richten Sie einen Verkäufercode ein
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Verkäufer** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie auf der Seite **Verkäufercode** die Aktion **Neu** aus.
 
 Sie können Verkäufer in verschiedenen Beziehungsverwaltung und Marketings-Arbeit verwenden. So können Sie z. B. Aufgaben Verkäufern zuweisen, sodass die Aufgaben in Verkaufschancen integriert sind, die Verkäufern zugeordnet werden. Weitere Informationen finden Sie unter [Einrichten von Verkaufschancen für Verkaufsprozesse und Prozess-Stufen](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
-## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/trade-master-data-dynamics-365-business-central/)
+## Siehe verwandte [Microsoft Schulungen](/training/modules/trade-master-data-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Einrichten von Verkäufen](sales-setup-sales.md)  
 [Verkauf](sales-manage-sales.md)  

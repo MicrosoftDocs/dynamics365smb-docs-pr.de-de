@@ -1,22 +1,16 @@
 ---
 title: Übersicht über Vorab-Abschlussberichte zur Überprüfung der Kontengenauigkeit
-description: Ihnen stehen eine Vielzahl von Standardberichten zur Verfügung, um die Fehlerfreiheit der Konten zu prüfen, bevor die Bücher am Jahres- oder Periodenende abgeschlossen werden.
+description: 'Ihnen stehen eine Vielzahl von Standardberichten zur Verfügung, um die Fehlerfreiheit der Konten zu prüfen, bevor die Bücher am Jahres- oder Periodenende abgeschlossen werden.'
 author: jswymer
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 1393, 1394
+ms.search.form: '1393, 1394'
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: af522d05f007959552f59922c52e2526a1a7e2b1
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517713"
 ---
-# <a name="use-pre-closing-reports"></a>Vorabschlussberichte verwenden
+# Vorabschlussberichte verwenden
 
 Ihnen stehen eine Vielzahl von Standardberichten zur Verfügung, um die Fehlerfreiheit der Konten zu prüfen, bevor die Bücher am Jahres- oder Periodenende abgeschlossen werden. So können Sie sich beispielsweise mithilfe des Berichts **Debitor - Saldenliste** vergewissern, dass an einem bestimmten Datum der Saldo einer Debitorenbuchungsgruppe dem Saldo des zugehörigen Sachkontos entspricht.
 
@@ -36,7 +30,7 @@ Die nachfolgende Tabelle beschreibt eine Reihe von Berichten, die in diesem Proz
 
 Um einen Bericht zu sehen, wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol, geben Sie den Namen ein, wie er in der Tabelle erscheint, und wählen Sie dann den zugehörigen Link.
 
-## <a name="see-also"></a>Weitere Informationen
+## Weitere Informationen
 
 [Jahre und Perioden abschließen](year-close-years-periods.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -1,128 +1,132 @@
 ---
 title: So kommissionieren Sie Artikel mit Lagerkommissionierungen
-description: Wenn ein eingerichteter Lagerort die Verarbeitung von Kommissionierungen, aber nicht den Versand erfordert, verwenden Sie Lagerkommissionierungs-Belege, um die Kommissionierungs- und Versandinformationen für Quellbelege festzulegen und zu buchen.
-author: SorenGP
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: ''
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: 79b373ec522d2cd8f99c6b0a98db0df7f9d1793f
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9533697"
+description: 'Erfahren Sie, wie Sie Lagerkommissionierungen verwenden, um Kommissionierungs- und Versandinformationen für Herkunftsbelege aufzuzeichnen und zu buchen.'
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: andreipa
+ms.service: dynamics365-business-central
+ms.topic: how-to
+ms.date: 01/25/2023
+ms.custom: bap-template
+ms.search.forms: '931, 7377'
 ---
-# <a name="pick-items-with-inventory-picks"></a>Artikel mit der Lagerkommissionierung kommissionieren
+# Artikel mit der Lagerkommissionierung kommissionieren
 
-Wenn Ihr Lagerort so eingerichtet wurde, dass Kommissionierung erforderlich ist, jedoch Warenausgang nicht erforderlich ist, verwenden Sie die Seite **Lagerkommissionierung**, um Kommissionier- und Warenausgangsinformationen für Ihre Herkunftsbelege zu erfassen und zu buchen. Der ausgehende Herkunftsbeleg kann ein Verkaufsauftrag, eine Einkaufsreklamation, ein ausgehender Umlagerungsauftrag oder ein Fertigungsauftrag sein, dessen Komponenten zum Kommissionieren bereitstehen.
+In [!INCLUDE[prod_short](includes/prod_short.md)] kommissionieren und versenden Sie Artikel wie in der folgenden Tabelle beschrieben, mit einer von vier Methoden.
 
-> [!NOTE]  
-> Komponenten für Montageaufträge können nicht mit Lagerkommissionierungen kommissioniert oder gebucht werden. Verwenden Sie stattdessen die Seite **Lagerbestandsumlagerung**. Weitere Informationen finden Sie in [Umlagern von Komponenten in einen Arbeitsgangbereich in den grundlegenden Lagerfunktionen](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)
+|Art|Ausgangsprozess|Kommissionierung erforderlich|Warenausgang erforderlich|Komplexitätsgrad (Weitere Informationen unter [Lagermanagementübersicht](design-details-warehouse-management.md))|  
+|------|----------------|-----|---------|-------------------------------------------------------------------------------------|  
+|A|Die Kommissionierung und den Versand aus der Auftragszeile buchen|||Keine dedizierte Lageraktivität.|  
+|B|Die Kommissionierung und den Warenausgang aus einem Lagerkommissionierungsbeleg buchen|Aktiviert||Basis: Auftragsbezogene Logistik|  
+|U|Die Kommissionierung und den Warenausgang aus einem Warenausgangsbeleg buchen||Aktiviert|Basis: Konsolidierte Eingangs-/Versandbuchung für mehrere Bestellungen.|  
+|T|Die Kommissionierung von einem Kommissionierbeleg und buchen Sie den Warenausgang aus einem Warenausgangsbeleg buchen|Aktiviert|Aktiviert|Erweitert|  
+
+Weitere Informationen finden Sie unter [Ausgehender Lagerfluss](design-details-outbound-warehouse-flow.md).
+
+Dieser Artikel bezieht sich auf die Methode B in der Tabelle.
+
+Wenn Ihr Lagerort so eingerichtet wurde, dass Kommissionierung erforderlich ist, jedoch Warenausgang nicht erforderlich ist, verwenden Sie die Seite **Lagerkommissionierung**, um Kommissionier- und Warenausgangsinformationen für Ihre Herkunftsbelege zu erfassen und zu buchen. Ausgehende Herkunftsbelege können Verkaufsaufträge, Einkaufsreklamationen und ausgehende Umlagerungsaufträge umfassen.
+
+> [!NOTE]
+> Produktions- und Montageauftragskomponentenbedarf stellt ebenfalls ausgehende Herkunftsbelege dar. Weitere Informationen über die Verarbeitung von Fertigungs- und Montageaufträge für interne Prozesse finden Sie unter [Designdetails: Interner Lagerfluss](design-details-internal-warehouse-flows.md).
 >
-> Bei der Kommissionierung und Lieferung von Verkaufszeilenmengen, die auftragsbezogen montiert werden, müssen Sie bestimmte Regeln einhalten, wenn sie die Lagerkommissionierzeilen erstellen. Weitere Informationen finden Sie im Abschnitt [Verarbeiten von Auftragsmontageartikeln mit Lagerkommissionierungen](#handling-assemble-to-order-items-with-inventory-picks).  
+> Obwohl Serviceaufträge auch ausgehende Herkunftsbelege sind, unterstützen sie nicht die grundlegende, auftragsbezogene Komplexitätsstufe.
+>
+> Bei der Kommissionierung und Lieferung von Verkaufszeilenmengen, die auftragsbezogen montiert werden, gibt es Regeln, die Sie einhalten müssen, wenn sie die Lagerkommissionierzeilen erstellen. Erfahren Sie mehr unter [Verarbeitung von Programmfertigung mit kommissionierten Bestandsartikeln](#handling-assemble-to-order-items-with-inventory-picks).  
 
-Sie können eine Lagerkommissionierung auf drei Arten erstellen:  
+Sie können eine Lagerkommissionierung auf drei Arten erstellen:
 
-- Erstellen Sie die Kommissionierung in zwei Schritten, indem Sie zuerst eine Lagerkommissionierung anfordern, indem Sie den Herkunftsbeleg freigeben. Dies signalisiert dem Lager, dass der Herkunftsbeleg für die Kommissionierung bereit ist. Die Lagereinkommissionierung kann dann auf der Seite **Lagereinlagerung** erstellt werden, die auf dem Herkunftsbeleg basiert.  
-- Erstellen Sie die Lagerkommissionierung direkt vom Herkunftsbeleg aus.  
-- Sie können für mehrere Herkunftsbelege gleichzeitig Lagerkommissionierungen erstellen, indem Sie einen Batchauftrag verwenden.  
+* Erstellen Sie die Lagerkommissionierung direkt vom Herkunftsbeleg aus.  
+* Erstellen Sie Lagerkommissionierungen für mehrere Herkunftsbelege gleichzeitig, indem Sie einen Batchauftrag verwenden.
+* Fordern Sie die Kommissionierung in zwei Schritten an, indem Sie zuerst den Herkunftsbeleg freigeben, die für die Logistik als ein Signal dient, dass der Herkunftsbeleg zum Kommissionieren bereitsteht.
 
-## <a name="to-request-an-inventory-pick-by-releasing-the-source-document"></a>So fordern Sie eine Lagerkommissionierung durch Freigabe des Herkunftsbelegs an
+Die Lagereinkommissionierung kann dann auf der Seite **Lagereinlagerung** erstellt werden, die auf dem Herkunftsbeleg basiert.  
 
-Bei Verkaufsaufträgen, Einkaufsreklamationen und ausgehenden Umlagerungsaufträgen erstellen Sie die erwartete Lagerbewegung, indem Sie den Auftrag freigeben. Nachfolgend wird erläutert, wie dies mit einem Verkaufsauftrag erreicht wird.
+## Eine Lagerkommissionierung vom Herkunftsbeleg aus erstellen
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Verkaufsaufträge** ein, und wählen Sie dann den zugehörigen Link.
+1. Im Herkunftsbeleg, der ein Verkaufsauftrag, eine Einkaufsreklamation oder ein ausgehender Umlagerungsauftrag sein kann, klicken Sie auf die Aktion **Lagereinlagerung/Kommissionierung erstellen**.
+2. Aktivieren Sie das Kontrollkästchen **Lagerkomm. erst.**.  
+3. Wählen Sie die Schaltfläche **OK** aus. Eine neue Lagerkommissionierung wird erstellt.
+
+## Mehrere Lagerkommissionierungen mit einem Batchauftrag erstellen
+
+1. Wählen Sie das Symbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Erstelle Invt. Einlagern/Kommissionieren/Umlagern** ein, und wählen Sie dann den zugehörigen Link.  
+2. Verwenden Sie im Inforegister **Erwartete Lagerbewegung** die Felder **Herkunftsbeleg** und **Herkunftsnr.**, um Filter auf bestimmte Arten von Belegen oder Bereiche von Belegnummern zu setzen. Beispielsweise können Sie Kommissionierungen nur für Verkaufsaufträge erstellen.  
+3. Aktivieren Sie im Inforegister **Optionen** das Kontrollkästchen **Lagerkomm. erst.** aus.
+4. Wählen Sie die Schaltfläche **OK**.
+
+## So erstellen Sie die Kommissionierung in zwei Schritten
+
+### So fordern Sie eine Lagerkommissionierung durch Freigabe des Herkunftsbelegs an
+
+Bei Verkaufsaufträgen, Einkaufsreklamationen und ausgehenden Umlagerungsaufträgen erstellen Sie die erwartete Lagerbewegung, indem Sie den Auftrag freigeben. Durch die Freigabe des Auftrags werden die Artikel für die Kommissionierung verfügbar.
+
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Verkaufsaufträge** ein, und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie den Verkaufsauftrag, den Sie freigeben möchten, und wählen Sie die **Freigeben** Aktion aus.
 
-Bei Fertigungsaufträgen erzeugen Sie die erwartete Lagerbewegung für das Kommissionieren der Komponenten automatisch (dies wird *Vorwärtsbuchen* genannt), wenn der Status des Fertigungsauftrags in **Freigegeben** geändert wird oder wenn der freigegebene Fertigungsauftrag erstellt wird. Weitere Informationen finden Sie unter [Kommissionierung für die Produktion oder Montage](warehouse-how-to-pick-for-production.md).
+### So erstellen Sie eine Lagerkommissionierung auf Grundlage des Herkunftsbelegs
 
-Nachdem die erwartete Lagerbewegung erzeugt wurde, kann ein Lagermitarbeiter, der der Kommissionierung von Artikeln zugewiesen wurde, sehen, dass der Herkunftsbeleg zur Kommissionierung bereitsteht, und einen neuen Kommissionierbeleg auf Grundlage der erwarteten Lagerbewegung aus erstellen.  
-
-## <a name="to-create-an-inventory-pick-based-on-the-source-document"></a>So erstellen Sie eine Lagerkommissionierung auf Grundlage des Herkunftsbelegs
-
-Nachdem die Anforderung erstellt wurde, kann der Lagermitarbeiter eine neue Lagerkommissionierung auf Grundlage des freigegebenen Herkunftsbelegs erstellen.
+Nachdem Sie einen Auftrag freigegeben haben, kann der Lagermitarbeiter eine Bestandskommissionierung erstellen.
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Lagerkommissionierungen** ein und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die Aktion **Neu**.  
-    Stellen Sie sicher, dass das Feld **Nr.** auf dem Inforegister **Allgemein** ausgefüllt ist.
-3. Wählen Sie im Feld **Herkunftsbeleg** die Art des Herkunftsbelegs aus, auf dem die Kommissionierung basiert.  
+3. Wählen Sie im Feld **Herkunftsbeleg** die Art des Belegs aus, auf dem die Kommissionierung basiert.  
 4. Wählen Sie im Feld **Herkunftsnr.** den Herkunftsbeleg aus.  
-5. Oder wählen Sie die Aktion **Herkunftsbeleg holen** aus, um den Beleg aus einer Liste von ausgehenden Herkunftsbelegen auszuwählen, die zur Kommissionierung am Lagerort bereit sind.  
-6. Wählen Sie die Schaltfläche **OK**, um die Kommissionierungszeilen gemäß dem ausgewählten Herkunftsbeleg auszufüllen.  
+5. Oder wählen Sie die Aktion **Herkunftsbeleg holen** aus, um eine Liste aller ausgehenden Herkunftsbelege zu erstellen, die zur Kommissionierung am Lagerort bereit sind.  
+6. Wählen Sie die Schaltfläche **OK**, um die Kommissionierungszeilen gemäß den ausgewählten Herkunftsbelegen auszufüllen.  
 
-## <a name="to-create-an-inventory-pick-from-the-source-document"></a>Eine Lagerkommissionierung vom Herkunftsbeleg aus erstellen
-
-1. Im Herkunftsbeleg, der ein Auftrag, eine Einkaufsreklamation, ein ausgehender Umlagerungsauftrag oder ein Fertigungsauftrag sein kann, klicken Sie auf die Aktion **Lagerbelege erstellen**.
-2. Aktivieren Sie das Kontrollkästchen **Lagerkomm. erst.**  
-3. Wählen Sie die Schaltfläche **OK** aus. Eine neue Lagerkommissionierung wird erstellt.
-
-## <a name="to-create-multiple-inventory-picks-with-a-batch-job"></a>Mehrere Lagerkommissionierungen mit einem Batchauftrag erstellen
-
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Erstelle Invt. Einlagern/Kommissionieren** ein, und wählen Sie dann den zugehörigen Link.  
-2. Verwenden Sie im Inforegister **Erwartete Lagerbewegung** die Felder **Herkunftsbeleg** und **Herkunftsnr.**, um Filter auf bestimmte Arten von Belegen oder Bereiche von Belegnummern zu setzen. Beispielsweise können Sie Kommissionierungen nur für Verkaufsaufträge erstellen.  
-3. Aktivieren Sie im Inforegister **Optionen** das Kontrollkästchen **Lagerkomm. erst.** aus.
-4. Wählen Sie die Schaltfläche **OK** aus. Die angegebenen Lagerkommissionierungen werden erstellt.
-
-> [!NOTE]  
-> Bei der Kommissionierung und Lieferung von Verkaufszeilenmengen, die auftragsbezogen montiert werden, sollten Sie bestimmte Regeln einhalten, wenn sie die Lagerkommissionierzeilen erstellen. Weitere Informationen finden Sie im Abschnitt [Verarbeiten von Auftragsmontageartikeln mit Lagerkommissionierungen](#handling-assemble-to-order-items-with-inventory-picks).  
->
-> In den Basis-Lagerkonfigurationen werden Artikel, die nach Verkaufsauftrag montiert werden, aus dem entsprechenden Verkaufsauftrag kommissioniert, wie in diesem Thema erläutert. Weitere Informationen finden Sie im Abschnitt [Verarbeiten von Auftragsmontageartikeln mit Lagerkommissionierungen](#handling-assemble-to-order-items-with-inventory-picks).  
-
-## <a name="to-record-the-inventory-picks"></a>So erfassen Sie die Lagerkommissionierungen
+## So erfassen Sie Lagerkommissionierungen
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Lagerkommissionierungen** ein und wählen Sie dann den entsprechenden Link.  
 2. Geben Sie im Feld **Lagerplatzcode** auf den Kommissionierungszeilen wird der Lagerplatz der Kommissionierung entsprechend des Standardlagerplatzes des Artikels vorgeschlagen. Sie können – falls erforderlich – auf dieser Seite den Lagerplatz ändern.  
-3. Führen Sie die Kommissionierung durch und geben Sie die Informationen über die tatsächlich eingelagerte Menge in das Feld **Bewegungsmenge** ein.
+3. Führen Sie die Kommissionierung durch und geben Sie dann die Menge in das Feld **Bewegungsmenge** ein.
 
-    Wenn es erforderlich ist, die Artikel einer Zeile aus mehr als einem Lagerplatz zu kommissionieren, beispielsweise, da sie im designierte Lagerplatz nicht verfügbar sind, verwenden Sie die Funktion **Zeile aufteilen** im Inforegister **Zeilen**. Weitere Informationen über das Aufteilen von Zeilen finden Sie unter [Aufteilen von Lageraktivitätszeilen](warehouse-how-to-split-warehouse-activity-lines.md).  
-4. Wenn Sie die Kommissionierung durchgeführt haben, wählen Sie die **Buchen** Aktion aus.  
+    Wenn Sie die Artikel für eine Zeile aus mehr als einem Lagerplatz kommissionieren müssen, beispielsweise, da sich die gesamte Menge nicht in dem Lagerplatz befindet, verwenden Sie die Aktion **Zeile aufteilen** im Inforegister **Zeilen**. Die Aktion erstellt eine Zeile für die zu bearbeitende Restmenge.
 
-Der Buchungsvorgang bucht die Lieferung der Herkunftsbelegzeilen, die kommissioniert wurden. Bei Fertigungsaufträgen wird durch den Buchungsvorgang der Verbrauch gebucht. Wenn der Lagerort Lagerplätze verwendet, erzeugt der Buchungsvorgang darüber hinaus Lagerplatzposten, um die Mengenänderungen in den Lagerplätzen zu buchen.  
+4. Wählen Sie die Aktion **Buchen**.  
 
-## <a name="to-delete-inventory-pick-lines"></a>Lagerkommissionierzeilen löschen
+    * Buchen Sie den Versand der kommissionierten Herkunftsbelegzeilen.
+    * Wenn der Lagerort Lagerplätze verwendet, erzeugt der Buchungsvorgang darüber hinaus Lagerplatzposten, um die Änderungen der Lagerplatzmenge zu buchen.  
 
-Wenn Artikel in der Lagerkommissionierung nicht verfügbar sind, können Sie die Lagerkommissionierzeilen normalerweise löschen, nachdem Sie sie gebucht haben, und dann den Lagerkommissionierungsbeleg löschen. Der Herkunftsbeleg, beispielsweise ein Verkaufsauftrag oder ein Fertigungsauftrag, enthält dann restliche Artikel zum Kommissionieren, die später durch eine neue Lagerkommissionierung erhalten werden können, wenn die Artikel verfügbar werden.  
+## Verarbeiten von Auftragsmontageartikeln mit Lagerkommissionierungen
 
-> [!WARNING]  
-> Dieser Prozess ist nicht möglich, wenn Serien-/Chargennummern im Herkunftsbeleg angegeben werden. Wenn beispielsweise eine Verkaufsauftragszeile eine Serien-/Chargennummer enthält, wird diese Artikelverfolgungsspezifikationen gelöscht, wenn eine Lagerkommissionierungszeile für die Serien-/Chargennummer gelöscht wird.  
->
-> Wenn Lagerkommissionierzeilen Serien-/Chargennummern haben, die nicht verfügbar sind, dürfen Sie die entsprechenden Zeilen nicht löschen. Stattdessen müssen Sie das Feld **Qualitätshandhabung** in null ändern, die tatsächlichen Kommissionierungen buchen und den Lagerkommissionierungsbeleg dann löschen. Dadurch ist sichergestellt, dass die Lagerkommissionierzeilen für diese Serien-/Chargennummern später aus dem Verkaufsauftrag wiederhergestellt werden können.  
+Sie können auch die Seite **Lagerkommissionierung** verwendet, um für Verkäufe zu kommissionieren und zu liefern, in denen Artikel montiert werden müssen, bevor sie geliefert werden können. Weitere Informationen finden Sie unter [Verkaufen von Auftragsmontageartikeln](assembly-how-to-sell-items-assembled-to-order.md).
 
-## <a name="handling-assemble-to-order-items-with-inventory-picks"></a>Verarbeiten von Auftragsmontageartikel mit Lagerkommissionierungen
+Auftragsmontageartikel sind erst dann tatsächlich in einem Lagerplatz vorhanden, wenn sie montiert und als Ausgabe für einen Lagerplatz gebucht wurden. Das Kommissionieren von Auftragsmontageartikeln aus einem Lagerplatz für Versand folgt einem speziellen Ablauf.
 
-Die Seite **Lagerkommissionierung** wird auch verwendet, um für Verkäufe zu kommissionieren und zu liefern, in denen Artikel montiert werden müssen, bevor sie geliefert werden können. Weitere Informationen finden Sie unter [Verkaufen von Auftragsmontageartikeln](assembly-how-to-sell-items-assembled-to-order.md).
+1. Von einem Lagerplatz bringen Lagermitarbeiter die Montageartikel zur Versandstelle und buchen dann die Lagerkommissionierung.
+2. Die gebuchte Lagerkommissionierung bucht den Montageausstoß, den Komponentenverbrauch und die Verkaufslieferung.
 
-Die zu liefernden Artikel sind an einem Lagerplatz erst dann tatsächlich vorhanden, wenn sie zusammengestellt und als Ausstoß für einen Lagerplatz im Montagebereich gebucht wurden. Das bedeutet, dass das Kommissionieren von Auftragsmontageartikeln zur Lieferung einem speziellen Ablauf folgt. Von einem Lagerplatz bringen Lagermitarbeiter die Montageartikel zur Versandstelle und buchen dann die Lagerkommissionierung. Die gebuchte Lagerkommissionierung bucht dann den Montageausstoß, den Komponentenverbrauch und die Verkaufslieferung.
+Sie können [!INCLUDE[prod_short](includes/prod_short.md)] einrichten, um eine automatische Lagerbestandsumlagerung zu erstellen, wenn die Lagerkommissionierung für die Montageartikel erstellt wird. Wählen Sie das Feld **Umlagerungen automatisch erstellen** auf der Seite **Montageeinrichtung** aus. Weitere Informationen finden Sie unter [Vorgehensweise: Einrichten von Basislagern mit Vorgangsbereichen](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md).
 
-Sie können [!INCLUDE[prod_short](includes/prod_short.md)] einrichten, um eine automatische Lagerbestandsumlagerung zu erstellen, wenn die Lagerkommissionierung für die Montageartikel erstellt wird. Um dies zu aktivieren, müssen Sie das Feld **Umlagerungen automatisch erstellen** auf der Seite **Montageeinrichtung** auswählen. Weitere Informationen finden Sie in [Umlagern von Komponenten in einen Arbeitsgangbereich in den grundlegenden Lagerfunktionen](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)
+Lagerkommissionierzeilen für Verkaufsartikel werden je nachdem, ob keine, einige oder alle Verkaufspositionsmengen auf Bestellung gefertigt werden, auf unterschiedliche Weise erstellt. In Szenarien in denen ein Teil der Menge montiert und ein anderer Teil aus dem Lager kommissioniert wird, werden mindestens zwei Lagerkommissionierzeilen erstellt.
 
-Lagerkommissionierzeilen für Verkaufsartikel werden je nachdem, ob keine, einige oder alle Verkaufspositionsmengen auf Bestellung gefertigt werden, auf unterschiedliche Weise erstellt.
+Bei Verkäufen, bei denen die gesamte Menge aus der Verkaufsauftragszeile montiert wird, wird eine Lagerkommissionierzeile für diese Menge erstellt. Der Wert im Feld **Menge für Montage** gleicht dem Wert im Feld **Zu liefern**. Das Feld **Auftragsmontage** wird in der Zeile ausgewählt.
 
-Bei regulären Verkäufen, wo Sie Lagerkommissionierungen verwenden, um Liefer- und Lagermengen zu buchen, wird eine Verkaufsauftragszeile, oder mehre, wenn der Artikel in verschiedenen Lagerplätzen platziert ist, erstellt für jede Verkaufszeile. Diese Kommissionierzeile basiert auf der Menge im Feld **Zu liefern**.
+Wenn ein Montageausgabefluss für den Lagerort eingerichtet ist, enthält das Feld **Lagerplatzcode** in der Lagerkommissionierzeile den Wert aus den folgenden Feldern in folgender Reihenfolge.
 
-In Auftragsmontageverkäufen, bei denen die gesamte Menge aus der Verkaufsauftragszeile montiert wird, wird eine Lagerkommissionierzeile für diese Menge erstellt. Das bedeutet, dass der Wert im Feld "Menge für Montage" dem Wert im Feld **Zu liefern** entspricht. Das Feld **Auftragsmontage** wird in der Zeile ausgewählt.
-
-Wenn ein Montageausgabefluss für den Lagerort eingerichtet wird, wird der Wert im Feld **LP-Code f. Prog.fert.lief.** oder der Wert im Feld **Montage-Ausgangslagerplatzcode** in dieser Reihenfolge in das Feld **Lagerplatzcode** in der Lagerkommissionierzeile eingefügt.
+* ***LP-Code f. Prog.fert.lief.** <!-- not applicable for inv pick-->
+* **Montage-Ausgangslagerplatzcode**
 
 Wenn kein Lagerplatzcode in der Verkaufsauftragszeile angegeben wird und kein Montageausgabefluss für den Lagerort eingerichtet wird, bleibt das Feld **Lagerplatzcode** in der Lagerkommissionierzeile leer. Der Lagermitarbeiter muss die Seite **Lagerplatzinhalte** öffnen und den Lagerort auswählen, in dem die Montageartikel montiert werden.
 
-In Kombinationsszenarien in denen ein Teil der Menge zunächst montiert werden muss und andere aus dem Lager kommissioniert werden müssen, werden mindestens zwei Lagerkommissionierzeilen erstellt. Eine Kommissionierzeile ist für die Programmfertigungsmenge. Die andere Kommissionierzeile hängt davon ab, welche Lagerplätze die Restmenge aus dem Lagerbestand erfüllen können. Lagerplatzcodes in den beiden Zeilen werden auf verschiedene Weise ausgefüllt, wie für die beiden verschiedenen Verkaufsarten beschrieben. Weitere Informationen finden Sie im Abschnitt "Kombinationsszenarien" in [Auftragsmontage und Lagermontage verstehen](assembly-assemble-to-order-or-assemble-to-stock.md).
+In Szenarien in denen ein Teil der Menge zunächst montiert wird und ein anderer Teil aus dem Lager kommissioniert werden muss, werden mindestens zwei Kommissionierzeilen erstellt.
 
-## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/paths/pick-ship-items-business-central/)
+* Eine Kommissionierungszeile für die Auftragsmontagesmenge. [!INCLUDE [prod_short](includes/prod_short.md)] verwendet die folgenden Felder in dieser Reihenfolge, um den Lagerplatzcode zu ermitteln: **Lagerplatzcode**, **Komp. Bin Code** und dann **Von-Assembly Bin Code**. Wenn diese Felder leer sind, muss der Lagermitarbeiter die Seite **Lagerplatzinhalte** öffnen und den Lagerort auswählen, in dem die Artikel montiert werden.  
+* Die andere Kommissionierungszeile hängt davon ab, welche Lagerplätze die Restmenge erfüllen können. Wenn der Artikel in mehreren Lagerplätzen aufbewahrt wird, werden mehrere Zeilen erstellt. Die Entnahmezeile basiert auf der Menge im Feld **Zu liefern**.
 
-## <a name="see-also"></a>Siehe auch
+> [!NOTE]  
+> Wenn Artikel auf Bestellung montiert werden, führt die Lagerbestandskommissionierung für den verknüpften Verkaufsauftrag zu einer Lagerbestandsumlagerung für alle Montagekomponenten.  
 
-[Logistik](warehouse-manage-warehouse.md)  
+## Siehe verwandte [Microsoft Schulungen](/training/paths/pick-ship-items-business-central/)
+
+## Siehe auch
+
+[Lagerverwaltung – Übersicht](design-details-warehouse-management.md)
 [Bestand](inventory-manage-inventory.md)  
 [Einrichten von Warehouse Management](warehouse-setup-warehouse.md)  
 [Montageverwaltung](assembly-assemble-items.md)  
 [Exemplarische Vorgehensweise: Kommissionierung und Lieferung in Basis-Lagerkonfigurationen](walkthrough-picking-and-shipping-in-basic-warehousing.md)  
-[Designdetails: Warehouse Management](design-details-warehouse-management.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

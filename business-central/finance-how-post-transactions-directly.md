@@ -1,23 +1,17 @@
 ---
 title: Datensätze für Ausgaben oder Einnahmen direkt im Hauptbuch erfassen
-description: Für Aktivitäten, die nicht durch einen Beleg repräsentiert werden, können Sie die zugehörigen Transaktionen erstellen, indem Sie Buchungsblattzeilen im Fibu Buch.-Blatt buchen.
+description: 'Für Aktivitäten, die nicht durch einen Beleg repräsentiert werden, können Sie die zugehörigen Transaktionen erstellen, indem Sie Buchungsblattzeilen im Fibu Buch.-Blatt buchen.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: direct posting, general ledger
-ms.search.form: 39, 251
+ms.search.keywords: 'direct posting, general ledger'
+ms.search.form: '39, 251'
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: cf61b53db298f4c133a3e733e4bb95d3506af05a
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517524"
 ---
-# <a name="post-transactions-directly-to-the-general-ledger"></a>Buchen von Transaktionen direkt in der Finanzbuchhaltung
+# Buchen von Transaktionen direkt in der Finanzbuchhaltung
 
 Fibu Buch.-Blätter dienen zum Buchen auf Sachkonten sowie auf andere Konten wie Bank-, Debitoren-, Debitoren- oder Mitarbeiterkonten.  
 
@@ -27,7 +21,7 @@ Fibu Buch.-Blätter dienen zum Buchen auf Sachkonten sowie auf andere Konten wie
 
 Anders als für Posten, die mit Belegen gebucht werden, die einen Gutschriftsvorgang benötigen, können Sie Posten ordnungsgemäß stornieren, die mit dem Buch.-Blatt gebucht werden. Weitere Informationen finden Sie unter [Buchungen stornieren und Belege/Lieferungen rückgängig machen](finance-how-reverse-journal-posting.md).
 
-## <a name="to-post-a-transaction-directly-to-a-general-ledger-account"></a>Transaktionen direkt in die Finanzbuchhaltung buchen
+## Transaktionen direkt in die Finanzbuchhaltung buchen
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Allgemeine Erfassungen** ein, und wählen Sie dann den entsprechenden Link.
 2. Öffnet das entsprechende Fibu Buch.-Blatt. Weitere Informationen finden Sie unter [Arbeiten mit Allgemeinen Buch.-Blättern](ui-work-general-journals.md).
@@ -41,7 +35,7 @@ Anders als für Posten, die mit Belegen gebucht werden, die einen Gutschriftsvor
     > Wenn Sie Zeilen mit mehreren Transaktion über eine Gegenkontozeile, beispielsweise für das Bankkonto eingeben möchten, wählen Sie das Kontrollkästchen **Ausgleichsbetrag vorschlagen** in der Zeile für Ihren Stapel im **Fibu Buch.-Blattnamen** aus. Dann werden das Feld **Betrag** auf der Gegenkontozeile automatisch mit dem Wert ausgefüllt, der erforderlich ist, um Transaktionen auszugleichen.
 5. Wählen Sie die **Buchen** Aktion aus, um die Transaktionen in den angegebenen Sachkonten zu erfassen.
 
-## <a name="see-also"></a>Weitere Informationen
+## Weitere Informationen
 
 [Arbeiten mit Fibu Buch.-Blättern](ui-work-general-journals.md)  
 [Geschäftsverwandte Ausgaben der Beschäftigten aufzeichnen und zurückzahlen](finance-how-record-reimburse-employee-expenses.md)  

@@ -1,6 +1,6 @@
 ---
 title: Workflows in Dynamics 365 Business Central
-description: Verwenden Sie zum Einrichten von Genehmigungs-Workflows integrierte Workflow-Funktionen, um automatisierte Workflows basierend auf Power Automate zu ergänzen. Sie können Schritte einrichten, um Aufgaben als Teil der verschiedenen Geschäftsprozessaufgaben verschiedenen Personen zuzuweisen.
+description: 'Verwenden Sie zum Einrichten von Genehmigungs-Workflows integrierte Workflow-Funktionen, um automatisierte Workflows basierend auf Power Automate zu ergänzen. Sie können Schritte einrichten, um Aufgaben als Teil der verschiedenen Geschäftsprozessaufgaben verschiedenen Personen zuzuweisen.'
 author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
@@ -8,14 +8,8 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.date: 10/10/2022
 ms.custom: bap-template
-ms.openlocfilehash: fd43becad8bd2272c4d1babf2ed2cfce40edfd2d
-ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 10/28/2022
-ms.locfileid: "9728467"
 ---
-# <a name="workflows-in-dynamics-365-business-central"></a>Workflows in Dynamics 365 Business Central
+# Workflows in Dynamics 365 Business Central
 
 Sie können Workflows festlegen und verwenden, die von verschiedenen Benutzern ausgeführte Geschäftsprozessaufgaben miteinander verbinden. Systemaufgaben, wie z.B. automatische Buchungen, können als Schritte in Workflows eingebunden werden. Den Systemaufgaben können Benutzeraufgaben vorausgehen oder folgen. Die Anforderung oder Bewilligung von Genehmigungen zum Erstellen neuer Datensätze sind typische Workflowschritte.
 
@@ -32,7 +26,7 @@ Die Standardversion von [!INCLUDE [prod_short](includes/prod_short.md)] unterst�
 
   Auf der Seite **Workflow-Vorlagen** können Sie alle verfügbaren Workflows anzeigen. Die Testversion von [!INCLUDE[prod_short](includes/prod_short.md)] umfasst viele vorkonfigurierte Workflows, für die Workflowvorlagen vorliegen. Diese können Sie kopieren, um neue zu erstellen. Wenn Sie eine Workflow-Vorlage auf der Seite **Workflow-Vorlagen** öffnen und der Name des Workflows mit *MS-* beginnt, wurde die Workflowvorlage von Microsoft hinzugefügt.
 
-## <a name="power-automate-flows"></a>Power Automate-Flows
+## Power Automate-Flows
 
 Mit [!INCLUDE [prod_short](includes/prod_short.md)] Online können Sie sich für Power Automate anmelden, um leistungsstarke automatisierte Workflows zu erstellen. Sie führen diese Workflows von [!INCLUDE [prod_short](includes/prod_short.md)] aus. Die Flows können interne und externe Datenquellen und Tools miteinander verbinden, ohne dass Sie Programmierkenntnisse benötigen.
 
@@ -42,7 +36,7 @@ Mit [!INCLUDE [prod_short](includes/prod_short.md)] Online können Sie sich für
 |Erfahren Sie mehr darüber, wie Sie Flows erstellen, bearbeiten und verwalten können|[Automatisierte Flows festlegen](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows) und [Instant Flows einrichten](/dynamics365/business-central/dev-itpro/powerplatform/instant-flows)|
 |Festlegen von Power Automate Integration mit [!INCLUDE[prod_short](includes/prod_short.md)] für Benutzer als Admin|[Einrichten der Power Automate-Integration](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup)|
 
-## <a name="approval-workflows"></a>Genehmigungsworkflows
+## Genehmigungsworkflows
 
 Erstellen Sie einen Genehmigungs-Workflow, indem Sie festlegen, wodurch der Workflow erstellt wird und was als Nächstes geschieht, wie folgt:
 
@@ -63,9 +57,9 @@ Beispiele für Ereignisse in Genehmigungs-Workflows sind die Erstellung von Verk
 <!--
 | Integrate company data with Power Automate workflows, using both internal and external sources and events to create and automate tasks or workflows. | [Use Power Automate Flows in [!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-financials-data-source-flow.md) |-->
 
-## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/create-workflows/)
+## Siehe verwandte [Microsoft Schulungen](/training/modules/create-workflows/)
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Verkauf](sales-manage-sales.md)  
 [Einkauf](purchasing-manage-purchasing.md)  

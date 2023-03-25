@@ -1,27 +1,21 @@
 ---
 title: Ihre Buchungen in Business Central in Rechnung stellen
-description: In diesem Thema lernen Sie, wie Sie in Microsoft Bookings Business Central Massenfakturierung durchführen können.
+description: 'In diesem Thema lernen Sie, wie Sie in Microsoft Bookings Business Central Massenfakturierung durchführen können.'
 author: edupont04
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: invoicing, bookings
-ms.search.form: 1638, 6702, 6704
+ms.search.keywords: 'invoicing, bookings'
+ms.search.form: '1638, 6702, 6704'
 ms.date: 05/20/2022
 ms.author: edupont
-ms.openlocfilehash: 4423b51e7cac952bb2abcf41f9e9364d7bc098c0
-ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2022
-ms.locfileid: "8799716"
 ---
-# <a name="bulk-invoicing-for-microsoft-bookings-in-prod_short"></a>Massenrechnungsstellung für Microsoft Bookings in [!INCLUDE[prod_short](includes/prod_short.md)]
+# Massenrechnungsstellung für Microsoft Bookings in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Wenn Ihr Unternehmen die Anmeldungs-App in Microsoft 365 verwendet, können Sie Massenrechnungsstellung für Termine vornehmen. Die Seite **Nicht fakturierte Buchungen** in [!INCLUDE[prod_short](includes/prod_short.md)] stellt eine Liste der abgeschlossenen Buchungen des Unternehmens bereit. Auf dieser Seite können Sie schnell die Termine auswählen, die Sie verrechnen wollen und Entwurfsrechnungen für die erbrachten Services erstellen.  
 
-## <a name="connect-to-bookings"></a>Mit Anmeldungen verbinden
+## Mit Anmeldungen verbinden
 
 Um Ihr [!INCLUDE[prod_short](includes/prod_short.md)] mit Anmeldungen zu verbinden, müssen Sie Ihren Anmeldungsmandanten angeben, was mit Anmeldungen zu synchronisieren ist, und wie oft Sie synchronisieren möchten und welche Vorlage zu verwenden ist. Sie richten diese Daten auf der Seite **Anmeldungs-Synchronisierung einrichten** ein, die Sie auf der Seite **Exchange-Synchronisierungs-Einrichtung** starten können, die Sie unter [Suchen](ui-search.md) finden.  
 
@@ -35,7 +29,7 @@ Wenn Sie beispielsweise Debitoren zwischen Anmeldungen und [!INCLUDE[prod_short]
 > [!NOTE]
 > Nur Artikel des Typs *Service* werden wischen Buchung und [!INCLUDE[prod_short](includes/prod_short.md)]synchronisiert. Die Vorlage, die Sie auf der Seite **Konfigurationsvorlagen** einrichten, sodass Sie diese Seite für die Artikelsynchronisierung verwenden können, muss die Art *Service* haben.
 
-## <a name="invoice-appointments"></a>Termin fakturieren
+## Termin fakturieren
 
 Wenn es an der Zeit ist, die Rechnungen über die abgeschlossenen Buchungen zu senden, wechseln Sie zur Seite **Nicht fakturierte Buchungen**. Abhängig davon, wie oft die Daten synchronisiert werden, ist die Liste lang oder kurz. Sie können Rechnungen für alle Windows-Anmeldungen in der Liste oder für eine Anmeldung nach der anderen erstellen. Sie können eine oder mehrere Posten in der Liste auswählen und nur jene fakturieren.  
 
@@ -44,7 +38,7 @@ Die Unterstützung für die Fakturierung von Terminen von Anmeldungen ist schnel
 > [!NOTE]
 > Im Mai 2022 wurde ein Problem bei der Integration in Buchungen erkannt. Derzeit erfordert die Synchronisierung von Buchungen mit [!INCLUDE [prod_short](includes/prod_short.md)] die manuelle Verknüpfung der Rechnungen mit Debitoren in [!INCLUDE [prod_short](includes/prod_short.md)].
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Finanzen](finance.md)  
 [Fakturieren eines Verkaufs](sales-how-invoice-sales.md)  

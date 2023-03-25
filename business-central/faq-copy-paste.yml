@@ -1,79 +1,70 @@
 ### YamlMime:FAQ
 metadata:
-  title: FAQ zum Kopieren und Einfügen von Daten
-  description: Erhalten Sie Antworten auf häufig gestellte Fragen zum Kopieren und Einfügen von Daten aus Feldern und Zeilen von Business Central-Seiten.
+  title: Copy and paste data FAQ
+  description: Get answers to frequently asked questions about copying and pasting data from fields and rows from Business Central pages.
   ms.topic: faq
-  ms.openlocfilehash: d2fa68425d164e47b0618a4c00e8e685afba6647
-  ms.sourcegitcommit: d6af3155bb818430f22d5caca78df322a8d9b178
-  ms.translationtype: HT
-  ms.contentlocale: de-DE
-  ms.lasthandoff: 04/01/2022
-  ms.locfileid: "8528423"
-title: Kopieren und einfügen FAQ
-summary: "Sie können eine oder mehrere Zeilen (Datensätze) aus einer Liste oder einem einzelnen Feld auf einer Seite kopieren und die kopierten Daten dann auf der gleichen Seite, einer andere Seite oder einem externen Dokument (wie Microsoft Excel und Outlook-E-Mail) einfügen.  \n\nKurz gesagt, zum Kopieren drücken Sie STRG+C (cmd+C in Mac Os) auf Ihrer Tastatur. Zum Einfügen drücken Sie STRG+V (cmd+V in Mac Os). Es gibt mehrere andere Tastenkombinationen zum Kopieren und Einfügen, mit denen Sie Zeit sparen, wenn Sie Daten eingeben. Weitere Informationen dazu finden Sie unter [Tastenkombinationen](keyboard-shortcuts.md#CopyRows). In diesem Artikel finden Sie Antworten auf allgemeine Fragen, die Sie möglicherweise über das Kopieren und Einfügen haben.  \n"
+title: Copy and Paste FAQ
+summary: |
+  You can copy one or more rows (records) from a list or a single field on a page, and then paste what you copied into the same page, another page, or an external document (like Microsoft Excel and Outlook email).  
+
+  In short, to copy, you select <bpt id="p1">&lt;kbd&gt;</bpt>Ctrl<ept id="p1">&lt;/kbd&gt;</ept><ph id="ph1">+</ph><bpt id="p2">&lt;kbd&gt;</bpt>C<ept id="p2">&lt;/kbd&gt;</ept> (cmd+C in macOS) on your keyboard. To paste, you select <bpt id="p1">&lt;kbd&gt;</bpt>Ctrl<ept id="p1">&lt;/kbd&gt;</ept><ph id="ph1">+</ph><bpt id="p2">&lt;kbd&gt;</bpt>V<ept id="p2">&lt;/kbd&gt;</ept> (<bpt id="p3">&lt;kbd&gt;</bpt>Cmd<ept id="p3">&lt;/kbd&gt;</ept><ph id="ph2">+</ph><bpt id="p4">&lt;kbd&gt;</bpt>V<ept id="p4">&lt;/kbd&gt;</ept> in macOS). There are several other keyboard shortcuts for copying and pasting that help you save time when entering data. For more information about these, see <bpt id="p1">[</bpt>Keyboard Shortcuts<ept id="p1">](keyboard-shortcuts.md#CopyRows)</ept>. This article answers common questions you might have about copying and pasting.  
 sections:
-- name: Allgemein
-  questions:
-  - question: Was kann ich kopieren und einfügen?
-    answer: >
-      Sie können diese Art von Daten kopieren und einfügen:
+  - name: General
+    questions:
+      - question: What can I copy and paste?
+        answer: |
+          You can copy and paste this type of data:
+          - Copy one or more rows in <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph> to the same list, or to any list with identical columns.
+          - Copy one or more rows in <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph> and paste into Excel or other applications.
+          - Copy one or more rows in Excel and paste into a <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph> list.
+          - Copy the value of an individual field in <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph> and paste it anywhere.
+      - question: Does copy and paste work with tiles?
+        answer: |
+          Yes, but only for a single selected tile.
+      - question: How do I copy a row?
+        answer: |
+          To copy a single row, select it, and then select <bpt id="p1">&lt;kbd&gt;</bpt>Ctrl<ept id="p1">&lt;/kbd&gt;</ept><ph id="ph1">+</ph><bpt id="p2">&lt;kbd&gt;</bpt>C<ept id="p2">&lt;/kbd&gt;</ept>.
 
-      - Kopieren Sie mindestens eine Zeile in [!INCLUDE[prod_short](includes/prod_short.md)] in die gleiche Liste oder in eine Liste mit identischen Spalten.
+          If you want to copy more rows, you can:
+          - select <bpt id="p1">&lt;kbd&gt;</bpt>Ctrl<ept id="p1">&lt;/kbd&gt;</ept>+Click on another row or select <bpt id="p2">&lt;kbd&gt;</bpt>Shift<ept id="p2">&lt;/kbd&gt;</ept>+Click to select the row and all rows in between. See <bpt id="p1">[</bpt>Keyboard Shortcuts<ept id="p1">](keyboard-shortcuts.md#CopyRows)</ept> for more mouse and keyboard combinations for selecting rows.
+          - Select <bpt id="p1">![</bpt>Show more options<ept id="p1">](media/show-more-options-icon.png "|::ref1::|")</ept> in the first column, choose <bpt id="p2">**</bpt>Select More<ept id="p2">**</ept>, select the check box next to each row that you want to copy, and then select <bpt id="p3">&lt;kbd&gt;</bpt>Ctrl<ept id="p3">&lt;/kbd&gt;</ept><ph id="ph1">+</ph><bpt id="p4">&lt;kbd&gt;</bpt>C<ept id="p4">&lt;/kbd&gt;</ept>.
+      - question: How do I paste rows?
+        answer: |
+          Select an empty row, with focus in any cell, and then select <bpt id="p1">&lt;kbd&gt;</bpt>Ctrl<ept id="p1">&lt;/kbd&gt;</ept><ph id="ph1">+</ph><bpt id="p2">&lt;kbd&gt;</bpt>V<ept id="p2">&lt;/kbd&gt;</ept>.
 
-      - Kopieren Sie mindestens eine Zeile in [!INCLUDE[prod_short](includes/prod_short.md)] und fügen Sie sie in Excel oder in anderen Programmen ein.
+          If you want to replace existing rows, select the rows, and then select <bpt id="p1">&lt;kbd&gt;</bpt>Ctrl<ept id="p1">&lt;/kbd&gt;</ept><ph id="ph1">+</ph><bpt id="p2">&lt;kbd&gt;</bpt>V<ept id="p2">&lt;/kbd&gt;</ept>. In this case, you can only paste the same number of rows that you selected.
 
-      - Kopieren Sie mindestens eine Zeile in Excel und fügen Sie sie in eine [!INCLUDE[prod_short](includes/prod_short.md)]-Liste ein.
+          > [!NOTE]
+          > The list that you are pasting into must be editable.
 
-      - Kopieren Sie den Wert eines individuellen Felds in [!INCLUDE[prod_short](includes/prod_short.md)] und fügen Sie ihn überall ein.
-  - question: Funktioniert Kopieren und Einfügen bei Kacheln?
-    answer: >
-      Ja, aber nur für eine einzelne ausgewählte Kachel.
-  - question: Wie kopiere ich eine Zeile?
-    answer: >
-      Um eine einzelne Zeile zu kopieren, wählen Sie diese aus und drücken Sie STRG+C.
+          <!-- Rows are pasted directly where your cursor is located. If you paste into an empty line, any existing subsequent lines will be moved after the pasted lines. If you paste into an existing line or lines, this will be overwritten.-->
+      - question: Can I paste rows into an Outlook email?
+        answer: |
+          Yes. This is pasted as a nicely-formatted table that preserves indentation, numeric alignment and coloring, just as you would see in <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph>.
+      - question: In which lists can I copy and paste rows?
+        answer: |
+          You can copy rows in any kind of list, including worksheets, FactBoxes, or list that are embedded on a page (like lines of a sales order). However, to paste rows, the list must be editable.
 
-
-      Wenn Sie weitere Zeilen kopieren möchten, können Sie Folgendes tun:
-
-      - Drücken Sie STRG und klicken Sie auf eine andere Zeile oder drücken Sie UMSCHALT und Klicken Sie, um die Zeile und alle dazwischen zu markieren. Weitere Informationen zu Maus- und Tastenkombinationen zur Auswahl von Zeilen finden Sie unter [Tastenkombinationen](keyboard-shortcuts.md#CopyRows).
-
-      - Wählen Sie ![Weitere Optionen anzeigen](media/show-more-options-icon.png "Symbol „Weitere Optionen anzeigen“") in der ersten Spalte einer Zeile, wählen Sie **Weitere auswählen** aus, aktivieren Sie das Kontrollkästchen neben jeder Zeile, die Sie kopieren möchten, und drücken dann STRG+C.
-  - question: Wie füge ich Zeilen ein?
-    answer: >
-      Wählen Sie eine leere Zeile mit Fokus in einer beliebigen Zelle aus und drücken Sie STRG+V.
-
-
-      Wenn Sie vorhandene Zeilen ersetzen möchten, wählen Sie die Zeilen aus und drücken dann STRG+V. In diesem Fall können Sie nur dieselbe Anzahl an Zeilen einfügen, die Sie ausgewählt haben.
-
-
-      > [!NOTE]
-
-      > Die Liste, in die Sie einfügen, muss bearbeitbar sein.
-
-
-      <!-- Rows are pasted directly where your cursor is located. If you paste into an empty line, any existing subsequent lines will be moved after the pasted lines. If you paste into an existing line or lines, this will be overwritten.-->
-  - question: Kann ich Zeilen in eine Outlook-E-Mail einfügen?
-    answer: >
-      Ja. Dies wird als eine formatierte Tabelle eingefügt, bei der die Einrückung, die numerische Ausrichtung und die Farben so erhalten bleiben, wie sie in [!INCLUDE[prod_short](includes/prod_short.md)] angezeigt werden würden.
-  - question: In welche Listen kann ich Zeilen kopieren und einfügen?
-    answer: >
-      Sie können Zeilen in jede Art von Liste kopieren, einschließlich Arbeitsblättern, Infoboxen oder Liste, die auf einer Seite eingebettet sind (z. B. Zeilen eines Verkaufsauftrags). Zum Einfügen müssen Zeilen jedoch editierbar sein.
-
-
-      Auf einigen Seiten kann der Anwendungsentwurf verhindern, dass Sie Zeilen einfügen. Wenden Sie sich an Ihren Administrator oder an den Anwendungsentwickler, um die [Eigenschaft "Editierbar"](/dynamics365/business-central/dev-itpro/developer/properties/devenv-editable-property) auf der Seite oder die [Eigenschaft "PasteIsValid"](/dynamics365/business-central/dev-itpro/developer/properties/devenv-pasteisvalid-property) in der Quelltabelle zu ändern.
-  - question: Auf welchen Clients ist das Kopieren und Einfügen verfügbar?
-    answer: >
-      Kopieren und Einfügen sind im Browser oder der [!INCLUDE[prod_short](includes/prod_short.md)]-App für Windows 10 verfügbar.
-  - question: Was ist die maximale Anzahl an Zeilen, die kopiert werden können?
-    answer: >
-      Sie können so viele Zeilen kopieren, wie auf dem Bildschirm angezeigt werden. Wenn Sie beispielsweise alle 1000 Zeilen auf einer Seite kopieren möchten, müssen Sie zunächst zum unteren Rand scrollen und warten, bis die Zeilen angezeigt werden, bevor Sie diese kopieren. Die maximale Anzahl der Zeilen, die Sie kopieren können, ist nur durch den Speicherplatz Ihres Geräts begrenzt.
-  - question: Muss ich die exakte Anzahl an Spalten haben, wenn ich Zeilen einfüge?
-    answer: >
-      Ja. Egal, ob Sie aus [!INCLUDE[prod_short](includes/prod_short.md)], aus Excel oder aus einer anderen Tabellenquelle kopieren, die Zeilen, die Sie in [!INCLUDE[prod_short](includes/prod_short.md)] einfügen, müssen genau die entsprechenden Spalten haben, nicht mehr, nicht weniger.
-  - question: Warum erhalte ich Fehler, wenn ich Zeilen einfüge?
-    answer: >
-      Beim Einfügen in [!INCLUDE[prod_short](includes/prod_short.md)] wird jede Zeile geprüft, um sicherzustellen, dass die Werte in jeder Spalte gültig sind. Wenn eine Spalte einen ungültigen Wert enthält, wird das Einfügen beendet, und eine Fehlermeldung wird angezeigt. Um dies zu verhindern, überprüfen Sie, dass die Spalten über gültige Werte verfügen, bevor Sie sie einfügen.
-  - question: Kann ich auch Links zu Seiten und Datensätzen kopieren?
-    answer: >
-      Ja. Weitere Informationen finden Sie unter [Freigeben von Geschäftsdaten aus Business Central](across-share-data-features.md).
-additionalContent: "## <a name=\"next-steps\"></a>Nächste Schritte\nHier finden Sie Informationen zum Thema: \n  - [Assistive Funktionen](ui-accessibility.md)  \n  - [Vorbereiten auf die Geschäftsabwicklung](ui-get-ready-business.md)  \n  - [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  \n  - [Häufig gestellte Fragen](across-faq.yml)"
+          On some pages, the application design may prevent you from pasting rows. Contact your administrator or application developer to change the <bpt id="p1">[</bpt>Editable property<ept id="p1">](/dynamics365/business-central/dev-itpro/developer/properties/devenv-editable-property)</ept> on the page or <bpt id="p2">[</bpt>PasteIsValid property<ept id="p2">](/dynamics365/business-central/dev-itpro/developer/properties/devenv-pasteisvalid-property)</ept> on the source table.
+      - question: On which clients is copy and paste available?
+        answer: |
+          Copy and paste are available in the browser or the <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph> app for Windows 10.
+      - question: What is the maximum number of rows that can be copied?
+        answer: |
+          You can copy as many rows as you have scrolled into view. For example, to copy all 1000 rows on a page, you must first scroll to the bottom of the page and wait for the rows to appear before copying. The maximum number of rows you can copy is only limited by the memory of your device.
+      - question: Must I have the exact same number of columns when pasting rows?
+        answer: |
+          Yes. Whether you are copying from <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph>, from Excel, or from some other table source, the rows that you paste into <ph id="ph2">[!INCLUDE[prod_short](includes/prod_short.md)]</ph> must have the exact matching columns - no more no less.
+      - question: Why do I get errors when pasting rows?
+        answer: |
+          When pasting into <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph>, each row is checked to make sure that values in each column are valid. If a column contains a value that is not valid, the pasting is stopped, and an error message is displayed. To avoid this, make sure that the columns have valid values before you paste them.
+      - question: Can I also copy links to pages and records?
+        answer: |
+          Yes. For more information, see <bpt id="p1">[</bpt>Sharing Business Data from Business Central<ept id="p1">](across-share-data-features.md)</ept>.
+additionalContent: |
+  ## Next steps
+  Find related information here: 
+    - <bpt id="p1">[</bpt>Assistive Features<ept id="p1">](ui-accessibility.md)</ept>  
+    - <bpt id="p1">[</bpt>Getting Ready for Doing Business<ept id="p1">](ui-get-ready-business.md)</ept>  
+    - <bpt id="p1">[</bpt>Work with <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph><ept id="p1">](ui-work-product.md)</ept>  
+    - <bpt id="p1">[</bpt>Frequently Asked Questions<ept id="p1">](across-faq.yml)</ept>

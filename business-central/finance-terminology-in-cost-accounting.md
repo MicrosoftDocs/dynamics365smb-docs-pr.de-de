@@ -1,27 +1,21 @@
 ---
 title: Terminologie der Kostenrechnung
-description: Dieses Thema definiert die wichtigsten Begriffe, die in der Kalkulation verwendet werden, wie z.B. Verrechnungsschlüssel und Verrechnungsquelle.
+description: 'Dieses Thema definiert die wichtigsten Begriffe, die in der Kalkulation verwendet werden, wie z.B. Verrechnungsschlüssel und Verrechnungsquelle.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.search.form: 1123
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: cee2ced8b51de66de847c0132e8ce35a08b7b229
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532160"
 ---
-# <a name="terminology-in-cost-accounting"></a>Terminologie der Kostenrechnung
+# Terminologie der Kostenrechnung
 
 Dieses Thema definiert die Schlüsselbegriffe, die in der Kostenrechnung verwendet werden.  
 
-## <a name="key-terms"></a>Schlüsselbegriffe
+## Schlüsselbegriffe
 
  In der folgenden Tabelle werden Definitionen der Schlüsselbegriffe in der Kostenrechnung gezeigt.  
 
@@ -49,9 +43,9 @@ Dieses Thema definiert die Schlüsselbegriffe, die in der Kostenrechnung verwend
 |Variable Kosten|Variable Kosten sind Ausgaben, die sich abhängig von der Aktivität eines Geschäftes ändern. Variable Kosten sind die Summe der Grenzkosten über alle erzeugten Einheiten hinweg. Fixkosten und variable Kosten ergeben die beiden Komponenten der Gesamtkosten.|  
 |Variante|Eine Variante wird als optionale benutzerdefinierte Beschriftung für Zuordnungen verwendet. Der Zweck der Beschriftung ist es, Gruppen nach Zuordnung zu filtern.|  
 
-## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/paths/use-cost-accounting-dynamics-365-business-central/)
+## Siehe verwandte [Microsoft Schulungen](/training/paths/use-cost-accounting-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
  [Informationen zur Kostenrechnung](finance-about-cost-accounting.md)  
  [Kostenrechnung](finance-manage-cost-accounting.md)  

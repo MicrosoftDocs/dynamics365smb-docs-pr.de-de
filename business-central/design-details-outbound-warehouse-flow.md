@@ -1,138 +1,115 @@
 ---
-title: Design-Details – Outbound Warehouse Flow
-description: In diesem Thema geht es um die Sequenz des ausgehenden Warehouse Flows von freigegebenen Belegen zu versandfertigen Artikeln.
-author: SorenGP
+title: Überblick über ausgehende Lagerprozesse
+description: Dieser Artikel beschreibt den ausgehenden Lager-Workflow.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: andreipa
+ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: ''
-ms.date: 06/15/2021
-ms.author: edupont
-ms.openlocfilehash: 282c6533d7ac8b769c1ec74c42d4808ebc5da380
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8139703"
+ms.date: 11/25/2022
+ms.custom: bap-template
 ---
-# <a name="design-details-outbound-warehouse-flow"></a>Designdetails: Ausgehender Lagerfluss
+# Ausgehende Lagerprozesse
 
-Der ausgehende Fluss aus dem Lager beginnt mit einer Anforderung der freigegebenen Herkunftsbelege, die Artikel aus dem Lagerort B zu bringen, entweder, um an eine externe Partei oder an einen anderen Unternehmensstandort geliefert zu werden. Vom Lagerbereich werden Lageraktivitäten auf verschiedene Komplexitätsebenen ausgeführt, um die Artikel zu den Lieferdocks zu bringen.  
+Ausgehende Prozesse in Lagern starten, wenn Sie einen Herkunftsbeleg freigeben, um Artikel aus einem Lagerort zu entnehmen. Zum Beispiel, um die Artikel entweder irgendwohin zu versenden oder sie an einen anderen Firmenlagerort zu bringen. Grundsätzlich besteht der Prozess des Ausgangs von ausgehenden Aufträgen aus zwei Aktivitäten:
 
- Jeder Artikel wird durch einen entsprechenden eingehenden Herkunftsbeleg gekennzeichnet und an diesen angepasst. Die folgenden ausgehenden Herkunftsbelege sind verfügbar:  
+* Kommissionieren von Artikeln aus den Regalen.
+* Versand von Artikeln aus dem Lager.
 
-- Verkaufsauftrag  
-- Ausgehender Umlagerungsauftrag.  
-- Einkaufsreklamation  
-- Serviceauftrag  
+Die Herkunftsbelege für den ausgehenden Lagerfluss sind:  
 
-Darüber hinaus behandeln die folgenden internen Herkunftsbelege diese Funktion wie ausgehende Quellen:  
+* Verkaufsauftrag  
+* Ausgehender Umlagerungsauftrag.  
+* Einkaufsreklamation  
+* Serviceauftrag  
 
-- Fertigungsauftrag mit Komponentenbedarf  
-- Montageauftrag mit Komponentenbedarf  
+> [!NOTE]
+> Produktions- und Montageaufträge mit Komponentenbedarf stellen ebenfalls ausgehende Herkunftsbelege dar. Produktions- und Montageaufträge sind etwas anders, da es sich in der Regel um interne Prozesse handelt, die keinen Versand beinhalten. Stattdessen werden sie verwendet, um produzierte Artikel einzulagern oder die für die Montage eines Artikels erforderlichen Komponenten zu einem Montagebereich zu transportieren. Erfahren Sie mehr über diese Prozesse unter [Designdetails: Interne Lagerflüsse](design-details-internal-warehouse-flows.md).  
 
- Die letzten beiden Belege repräsentieren ausgehende Ströme aus dem Lager in interne Betriebsbereiche. Weitere Informationen über die Lagerverarbeitung für interne eingehende und ausgehende Prozesse finden Sie unter [Designdetails: Interner Lagerfluss](design-details-internal-warehouse-flows.md)  
+In [!INCLUDE[prod_short](includes/prod_short.md)] kommissionieren und versenden Sie Artikel wie in der folgenden Tabelle beschrieben, mit einer von vier Methoden.
 
- Prozesse und UI-Belege in ausgehenden Warenflüssen unterscheiden sich in grundlegenden und erweiterten Lagerfunktionen. Der wichtigste Unterschied besteht darin, dass Aktivitäten in der einfachen Logistik Auftrag für Auftrag durchgeführt werden, und in der erweiterten Logistik für mehrere Aufträge konsolidiert werden. Weitere Informationen über verschiedene Lagerkomplexitätsebenen finden Sie unter [Designdetails: Lager-Übersicht](design-details-warehouse-setup.md).  
+|Art|Ausgangsprozess|Kommissionierung erforderlich|Warenausgang erforderlich|Komplexitätsgrad (Weitere Informationen unter [Lagermanagementübersicht](design-details-warehouse-management.md))|  
+|------|----------------|-----|---------|-------------------------------------------------------------------------------------|  
+|A|Die Kommissionierung und den Versand aus der Auftragszeile buchen|||Keine dedizierte Lageraktivität.|  
+|B|Die Kommissionierung und den Warenausgang aus einem Lagerkommissionierungsbeleg buchen|Aktiviert||Basis: Auftragsbezogene Logistik|  
+|U|Die Kommissionierung und den Warenausgang aus einem Warenausgangsbeleg buchen||Aktiviert|Basis: Konsolidierte Eingangs-/Versandbuchung für mehrere Bestellungen.|  
+|T|Die Kommissionierung von einem Kommissionierbeleg und buchen Sie den Warenausgang aus einem Warenausgangsbeleg buchen|Aktiviert|Aktiviert|Erweitert|  
 
- In [!INCLUDE[prod_short](includes/prod_short.md)] können die ausgehenden Prozesse für die Komissionierung und Lieferung auf vier Arten, mit den verschiedenen Funktionen, abhängig von der Lagerkomplexitätsebene, ausgeführt werden.  
+Der zu wählende Ansatz hängt von Ihren Lagermethoden und dem Niveau seiner Organisationskomplexität ab. Im Folgenden finden Sie einige Beispiele, die Ihnen bei der Entscheidung helfen könnten.
 
-|Art|Ausgangsprozess|Lagerplätze|Kommissionierungen|Lieferungen|Komplexitätsebene anzeigen (siehe [Designdetails: Lagerhaus-Einrichtung](design-details-warehouse-setup.md))|  
-|------|----------------|----|-----|---------|-------------------------------------------------------------------------------------|  
-|A|Beitragsentnahme und -Lieferung aus der Auftragszeile|X|||2|  
-|F|Buchen Sie die Kommissionierung und den Warenausgang aus einem Lagerkommissionierungsbeleg||X||3|  
-|L|Buchen Sie die Kommissionierung und den Warenausgang aus einem Warenausgangsbeleg|||X|4/5/6|  
-|T|Buchen Sie die Kommissionierung von einem Kommissionierbeleg und buchen Sie den Warenausgang aus einem Warenausgangsbeleg||X|X|4/5/6|  
+* In einer Auftrag-für-Auftrag-Umgebung mit einfachen Prozessen und einer einfachen Lagerplatzstruktur eignet sich Methode A, Kommissionierung und Versand von der Auftragszeile.
+* Wenn Artikel für eine Auftragsposition aus mehr als einem Lagerplatz stammen oder Lagerarbeiter nicht mit Auftragsbelegen arbeiten können, ist die Verwendung separater Kommissionierungsbelege angemessen, Methode B.
+* Wenn Ihre Kommissionierungs- und Versandprozesse mehrere Bestellungen umfassen und mehr Kontrolle und Übersicht erfordern, können Sie einen Lagerversandbeleg und einen Lagerkommissionierungsbeleg verwenden, um die Kommissionierungs- und Versandaufgaben zu trennen, Methoden C und D.  
 
- Die Auswahl eines Ansatzes hängt von den akzeptierten Methoden des Unternehmens und seiner Komplexität ab. In einer Auftrag-für-Auftrag-Umgebung mit einfachen Prozessen und einfacher Lagerplatzstruktur eignet sich Methode A, Kommissionierung und Versand von der Auftragszeile. In anderen Auftrag-für-Auftrag-Unternehmen,, in denen Artikel für einen Auftrag aus mehr als einem Lagerplatz stammen können, oder wo Lagerarbeiter nicht mit Auftragsbelegen arbeiten können, ist die Verwendung separater Kommissionierbelege sinnvoll, Methode B. Wenn der Kommissionier- und Lieferungsprozess eines Unternehmens mehrere Auftragsprozesse und daher mehr Kontrolle erfordert, könnte sich das Unternehmen entscheiden, ein Lagerlieferungsdokument und ein Lagerkommissionierdokument zu verwenden, um die Kommissionierung und die Lieferung voneinander zu trennen, Methoden C und D.  
+In den Methoden werden A, B und C werden die Aktivitäten für Kommissionierung und Lieferung in einem Schritt zusammengefasst, wenn der Beleg als geliefert gebucht wird. In Methode D erfassen Sie zuerst die Kommissionierung, dann buchen Sie die Lieferung später aus einem anderen Beleg.
 
- In den Methoden werden A, B und C werden die Aktionen der Kommissionierung und der Lieferung in einem Schritt zusammengefasst, wenn der entsprechende Beleg als geliefert gebucht wird. In Methode D wird zuerst die Kommissionierung erfasst, dann wird die Lieferung zu einem späteren Zeitpunkt aus einem anderen Beleg gebucht.  
+> [!NOTE]
+> Lagerkommissionierungen und Lagerbestandskommissionierungen klingen zwar ähnlich, sind aber unterschiedliche Dokumente und werden in unterschiedlichen Prozessen verwendet.
+> * Die in Methode B verwendete Lagerbestandskommissionierung verbucht zusammen mit der Registrierung von Kommissionierungsinformationen auch den Versand des Herkunftsbelegs.
+> * Die in Methode D verwendete Lagerkommissionierung kann nicht gebucht werden und erfasst nur die Kommissionierung. Die Erfassung macht die Artikel für Warenausgabe verfügbar bucht den Versand aber nicht. Im ausgehenden Fluss erfordert die Lagerkommissionierung einen Warenausgang.
 
-## <a name="basic-warehouse-configurations"></a>Grundlegende Lagerhauskonfigurationen
+## Keine dedizierte Lageraktivität
 
- Das folgende Diagramm zeigt die ausgehenden Lagerflüsse nach Belegtyp im Rahmen der einfachen Logistik an. Die Nummern im Diagramm entsprechen den Schritten in den Abschnitten, die dem Diagramm folgen.  
+Die folgenden Artikel enthalten Informationen zum Verarbeiten von Wareneingängen für Herkunftsbelege, wenn Sie keine dedizierten Lageraktivitäten haben.
 
- ![Outbound Flow in grundlegenden Lagerkonfigurationen.](media/design_details_warehouse_management_outbound_basic_flow.png "Ausgehender Fluss bei einfachen Lagerkonfigurationen")  
+* [Produkt verkaufen](sales-how-sell-products.md)
+* [Umlagerungsaufträge](inventory-how-transfer-between-locations.md)
+* [Verarbeiten einer Einkaufsrücklieferung oder von Stornierungen](purchasing-how-process-purchase-returns-cancellations.md)
+* [Erstellen von Serviceaufträgen](service-how-to-create-service-orders.md)
 
-### <a name="1-release-source-document--create-inventory-pick-or-movement"></a>1: Freigeben des Herkunftsbelegs:/Kommissionierung oder Umlagerung erstellen
+## Grundlegende Lagerhauskonfigurationen
 
- Wenn ein Benutzer, der für Herkunftsbelege zuständig ist, etwa einen Verkaufsauftragsbearbeiter oder ein Produktionsplaner, für die ausgehende Lageraktivität bereit ist, gibt er den Herkunftsbeleg frei, um den Lagermitarbeitern zu signalisieren, dass verkaufte Artikel oder Komponenten kommissioniert und in die angegebenen Lagerplätze eingelagert werden können. Alternativ erstellt der Benutzer im Push-Verfahren Lagerkommissionierungs- oder Umlagerungsdokumente für die einzelnen Auftragszeilen, basierend auf angegebenen Lagerplätzen und zu verarbeitenden Mengen.  
+Das folgende Diagramm zeigt die ausgehenden Lagerprozesse für verschiedene Belegtypen bei der Basislagerkonfiguration an. Die Nummern im Diagramm entsprechen den Schritten in den Abschnitten, die dem Diagramm folgen.  
 
-> [!NOTE]  
-> Lagerbestandsumlagerungen werden verwendet, um Artikel in der einfachen Logistik in interne Vorgangsbereiche zu verschieben, basierend auf Herkunftsbelegen oder ad hoc.  
+:::image type="content" source="media/design-details-warehouse-management-outbound-basic-flow.png" alt-text="Zeigt die Schritte in einem grundlegenden ausgehenden Fluss in einem Lager.":::
 
-### <a name="2-create-outbound-request"></a>2: Eingehende erwartete Lagerbewegung erstellen
+### 1: Ein Herkunftsbeleg freigeben
 
- Wenn der ausgehende Herkunftsbeleg freigegeben wird, wird eine ausgehende erwartete Lagerbewegung automatisch erstellt. Enthält Referenzen zur Herkunftsbelegart und -Nummer und kann nicht dem Benutzer angezeigt werden.  
+Wenn Sie die Aktion **Freigeben** für einen Herkunftsbeleg verwenden, z. B. einen Verkaufs- oder Umlagerungsauftrag, sind die Artikel auf dem Beleg bereit, im Lager bearbeitet zu werden. Zum Beispiel kommissionieren und in den auf dem Beleg angegebenen Lagerplatz legen. Alternativ können Sie Belege für Lagerbestandskommissionierung für einzelne Auftragszeilen, im Push-Verfahren, basierend auf angegebenen Lagerplätzen und Mengen, die verarbeitet werden sollen, erstellen.  
 
-### <a name="3-create-inventory-pick-or-movement"></a>3: Lagerbestandskommissionierung oder Umlagerung erstellen
+### 2: Eine Lagerbestandkommissionierung erstellen
 
- Auf der Seite **Lagerkommissionierung** oder **Lagerbestandsumlagerung** erhält der Lagermitarbeiter, im Pull-Verfahren, die offenen Herkunftsbelegzeilen basierend auf den eingehenden Lageranfragen. Oder die Kommissionierzeilen wurden bereits, im Push-Verfahren, von dem Benutzer erstellt, der für den Herkunftsbeleg verantwortlich ist.  
+Auf der Seite **Lagerbestandskommissionierung** ruft der Lagermitarbeiter die Herkunftsbelegzeilen im Pull-Verfahren ab. Oder die Kommissionierzeilen wurden bereits, im Push-Verfahren, von dem Benutzer erstellt, der für den Herkunftsbeleg verantwortlich ist.  
 
-### <a name="4-post-inventory-pick-or-register-inventory-movement"></a>4: Kommissionierung buchen oder Lagerbestandsumlagerung registrieren
+### 3: Eine Lagerbestandskommissionierung buchen
 
- In jeder Zeile für Artikel, die kommissioniert oder umgelagert wurden, sei es teilweise oder vollständig, füllt der Lagermitarbeiter das Feld **Menge** aus und bucht die Lagerkommissionierung oder registriert die Lagerbestandsumlagerung. Herkunftsbelege, die mit der Kommissionierung verknüpft sind, werden als geliefert oder verbraucht gebucht. Herkunftsbelege, die mit Lagerbestandsumlagerungen verknüpft sind, werden nicht gebucht.  
+In jeder Zeile für Artikel, die kommissioniert oder umgelagert wurden, sei es teilweise oder vollständig, füllen Sie das Feld **Menge** aus und buchen Sie dann die Lagerbestandskommissionierung. Herkunftsbelege, die mit der Kommissionierung verknüpft sind, werden als geliefert oder verbraucht gebucht.  
 
- Für Bestandskommissionierungen werden negative Artikelposten erstellt, es werden Lagerposten erstellt, und die Kommissionieranforderung wird gelöscht, wenn sie vollständig bearbeitet ist. Beispielsweise wird das Feld **Menge versendet** auf der Zeile des ausgehenden Herkunftsbelegs aktualisiert. Ein Beleg der gebuchten Lieferung wird erstellt, der beispielsweise den Verkaufsauftrag und die gelieferten Artikel angezeigt.  
+Für Bestandskommissionierungen werden negative Artikelposten erstellt, es werden Lagerposten erstellt, und die Kommissionieranforderung wird gelöscht, wenn sie vollständig bearbeitet ist. Beispielsweise wird das Feld **Menge versendet** auf der Zeile des ausgehenden Herkunftsbelegs aktualisiert. Ein Beleg der gebuchten Lieferung wird erstellt, der beispielsweise den Verkaufsauftrag und die gelieferten Artikel angezeigt.  
 
-## <a name="advanced-warehouse-configurations"></a>Erweiterte Lagerhauskonfigurationen
+## Erweiterte Lagerhauskonfigurationen
 
- Das folgende Diagramm zeigt die ausgehenden Lagerflüsse nach Belegtyp im Rahmen der einfachen Logistik an. Die Nummern im Diagramm entsprechen den Schritten in den Abschnitten, die dem Diagramm folgen.  
+Das folgende Diagramm zeigt die ausgehenden Lagerprozesse für verschiedene Belegtypen bei der erweiterten Lagerkonfiguration an. Die Nummern im Diagramm entsprechen den Schritten in den Abschnitten, die dem Diagramm folgen.  
 
- ![Outbound Flow in erweiterten Lagerkonfigurationen.](media/design_details_warehouse_management_outbound_advanced_flow.png "Ausgehender Fluss bei erweiterten Lagerkonfigurationen")  
+:::image type="content" source="media/design_details_warehouse_management_outbound_advanced_flow.png" alt-text="Zeigt die Schritte in einem erweiterten ausgehenden Lagerfluss.":::
 
-### <a name="1-release-source-document"></a>1: Quellbeleg freigeben
+### 1: Ein Herkunftsbeleg freigeben
 
- Wenn ein Benutzer, der für Herkunftsbelege verantwortlich ist, etwa ein Verkaufsauftragsbearbeiter oder ein Produktionsplaner, für eine ausgehende Lageraktivität bereit ist, gibt er den Herkunftsbeleg frei, um den Lagermitarbeitern zu signalisieren, das verkaufte Artikel oder Komponenten kommissiooniert und in die angegebenen Lagerplätze eingelagert werden können.  
+Das Freigeben eines Herkunftsbelegs in erweiterten Konfigurationen bewirkt dasselbe wie bei Basiskonfigurationen. Die Artikel werden für die Bewegung im Lager verfügbar. Sie können beispielsweise einer Sendung beigelegt werden.  
 
-### <a name="2-create-outbound-request-2"></a>2: Ausgehende erwartete Lagerbewegung erstellen (2)
+### 2: Erstellen Sie einen Warenausgang
 
- Wenn der ausgehende Herkunftsbeleg freigegeben wird, wird eine ausgehende erwartete Lagerbewegung automatisch erstellt. Enthält Referenzen zur Herkunftsbelegart und -Nummer und kann nicht dem Benutzer angezeigt werden.  
+Rufen Sie auf der Seite **Warenausgang** die Zeilen aus dem veröffentlichten Herkunftsbeleg ab. Sie können Zeilen aus mehreren Herkunftsbelegen in einer Warenausgabe zusammenfassen.  
 
-### <a name="3-create-warehouse-shipment"></a>3: Erstellen Sie einen neuen Warenausgang
+### 3: Erstellen Sie eine Lagerkommissionierung
 
- Auf der Seite **Lagerhaus Versand** erhält der Lieferungsmitarbeiter, der verantwortlich ist, die offenen Herkunftsbelegzeilen basierend auf der ausgehenden Lageranfrage. Einige Herkunftsbelegzeilen können zu einem Lieferungsbeleg zusammengefasst werden.  
+Erstellen Sie auf der Seite **Warenausgang** Lagerkommissionierungsaktivitäten für Warenausgänge auf eine von zwei Arten:
 
-### <a name="4-release-shipment--create-warehouse-pick"></a>4: Lieferung freigeben/Kommissionierung erstellen
+- Im Push-Verfahren, bei dem Sie die Aktion **Kommissionierung erstellen** verwenden. Wählen Sie die zu kommissionierenden Zeilen und bereiten Sie die Kommissionierungen vor, indem sie beispielsweise angeben, aus welchen Lagerplätzen entnommen und in welche Lagerplätze eingelagert wird, und wie viele Einheiten bewegt werden. Die Lagerplätze können für den Lagerort oder die Ressource vordefiniert werden.
+- Im Pull-Verfahren, bei dem Sie die Aktion **Freigeben** verwenden. Auf der Seite **Kommissionierungsarbeitsblatt** können Lagermitarbeiter die Aktion **Lagerdokumente abrufen** verwenden, um ihre zugewiesenen Kommissionierungen abzurufen. Wenn die Kommissionierungen vollständig erfasst sind, werden die Zeilen im **Kommissionierarbeitsblatt** gelöscht.
 
- Der Versandarbeiter, der verantwortlich ist, gibt den Warenausgang frei, so dass die Lagerarbeiter Kommissionierungen für die jeweilige Lieferung erstellen oder koordinieren können.  
+### 4: Eine Lagerkommissionierung erfassen
 
- Oder der Benutzer erstellt Kommissionierungsbelege für einzelne Lieferungszeilen, im Push-Verfahren, basierend auf angegebenen Lagerplätzen und Mengen, die verarbeitet werden sollen.  
+Auf der Seite **Lagerkommissionierung** füllt ein Lagermitarbeiter das Feld **Menge** für jede Zeile aus, die sie vollständig oder teilweise kommissioniert haben, und erfasst dann die Kommissionierung.
 
-### <a name="5-release-internal-operation--create-warehouse-pick"></a>5: Internen Vorgang freigeben/Kommissionierung erstellen
+Lagerplatzposten werden erstellt, und die Kommissionierungszeilen werden gelöscht, wenn die vollständige Menge kommissioniert wurde. Der Kommissionierungsbeleg bleibt offen, bis die gesamte Menge des Warenausgangs erfasst ist. Das Feld **Abgerufene Menge** auf den Warenausgangszeilen wird entsprechend aktualisiert.  
 
- Der Benutzer, der für interne Arbeitsgänge zuständig ist, gibt einen internen Herkunftsbeleg frei, wie einen Produktions- und Montageauftrag, dodass die Lagermitarbeiter Kommissionierungen für den fraglichen internen Vorgang erstellen oder koordinieren können.  
+### 5: Den Warenausgang buchen
 
- Oder der Benutzer erstellt Kommissionierungsbelege für einzelne Fertigungs- oder Montageaufträge, im Push-Verfahren, basierend auf angegebenen Lagerplätzen und Mengen, die verarbeitet werden sollen.  
+Wenn alle Artikel in dem Warenausgangsbeleg als kommissioniert erfasst sind, bucht der Lagermitarbeiter den Ausgang. Durch das Buchen werden die Artikelposten aktualisiert, um die Verringerung des Lagerbestands widerzuspiegeln. Beispielsweise wird das Feld **Menge versendet** auf der Zeile des ausgehenden Herkunftsbelegs aktualisiert.  
 
-### <a name="6-create-pick-request"></a>6: Kommissionieranforderung erstellen
+## Weitere Informationen
 
- Wenn der ausgehende Herkunftsbeleg freigegeben wird, wird eine Kommissionieranforderung automatisch erstellt. Enthält Referenzen zur Herkunftsbelegart und -Nummer und kann nicht dem Benutzer angezeigt werden. Abhängig von den Einstellungen erstellt der Verbrauch von einem Fertigungs- oder Montageauftrag auch eine eine Kommissionieranforderung, um die erforderlichen Komponenten aus dem Bestand zu kommissionieren.  
-
-### <a name="7-generate-pick-worksheet-lines"></a>7: Kommissionierarbeitsblattszeilen generieren
-
- Der Benutzer, der für das Koordinieren von Kommissionierungen zuständig ist, ruft Kommissionierzeilen im **Kommissionierarbeitsblatt** basierend auf Entnahmeanforderungen von Warenausgängen oder internen Arbeitsgänge mit Komponentenverbrauch ab. Der Benutzer wählt die zu kommissionierenden Zeilen und bereitet die Kommissionierungen vor, indem er angibt, aus welchen Lagerplätzen entnommen und in welche Lagerplätze eingelagert wird, und wie viele Einheiten bewegt werden. Die Lagerplätze können durch Einrichtung des Lagerorts oder der Arbeitsgangsressource vordefiniert werden.  
-
- Der Benutzer gibt Entnahmemethoden für optimierte Lagerdurchlaufzeit an und verwendet dann eine Funktion, um die entsprechenden Kommissionierungsbelege zu erstellen, die verschiedenen Lagermitarbeitern zugeordnet werden, die Kommissionierungen ausführen. Wenn die Kommissionierungen vollständig zugeordnet sind, werden die Zeilen im **Kommissionierarbeitsblatt** gelöscht.  
-
-### <a name="8-create-warehouse-pick-documents"></a>8: Kommissionierungsbelege erstellen
-
- Der Lagermitarbeiter, der die Kommissionierungen ausführt, erstellt im Pull-Verfahren einen Kommissionierungsbeleg auf Grundlages des freigegebenen Herkunftsbelegs. Oder der Kommissionierbeleg wird erstellt und dem Lagermitarbeiter im Push-Verfahren zugeteilt.  
-
-### <a name="9-register-warehouse-pick"></a>9: Kommissionierung registrieren
-
- In jeder Zeile für Artikel, die kommissioniert oder umgelagert wurden, sei es teilweise oder vollständig, füllt der Lagermitarbeiter das Feld **Menge** auf der Seite **Kommissionierarbeitsblatt** aus und erfasst dann die Lagerbestandsumlagerung.  
-
- Lagerplatzposten werden erstellt, und die Kommissionierzeilen werden gelöscht, wenn sie vollständig bearbeitet sind. Der Kommissionierbeleg bleibt offen, bis die gesamte Menge des zugehörigen Warenausgangs erfasst ist. Das Feld **Abgerufene Menge** auf den Warenausgangszeilen wird entsprechend aktualisiert.  
-
-### <a name="10-post-warehouse-shipment"></a>10: Warenausgangsübersicht
-
- Wenn alle Artikel in dem Warenausgangsbeleg als für die angegebenen Lieferungslagerplätze kommissioniert erfasst sind, bucht der zuständige Versandarbeiter den Warenausgang. Negative Artikelposten werden erstellt. Beispielsweise wird das Feld **Menge versendet** auf der Zeile des ausgehenden Herkunftsbelegs aktualisiert.  
-
-## <a name="see-also"></a>Siehe auch
-
-[Designdetails: Lagerverwaltung](design-details-warehouse-management.md)  
-
+[Logistik](design-details-warehouse-management.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

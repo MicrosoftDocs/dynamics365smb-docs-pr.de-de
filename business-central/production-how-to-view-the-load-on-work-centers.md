@@ -6,28 +6,22 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 99000887, 99000888, 99000889, 99000890, 99000891, 99000892, 99000915, 99000916
+ms.search.form: '99000887, 99000888, 99000889, 99000890, 99000891, 99000892, 99000915, 99000916'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5e1963bb8978e67b98ff3e85d09e6294e084034b
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8515329"
 ---
-# <a name="view-load-on-work-and-machine-centers"></a>Anzeigen der Auslastung der Arbeit und Arbeitsplätze
+# Anzeigen der Auslastung der Arbeit und Arbeitsplätze
 
 Auf den Seiten **Arbeitsplatzgruppenkarte** und **Arbeitsplatzkarte** können Sie gebuchte Kapazität aufgrund der Informationen zu geplanten und freigegebenen Fertigungsaufträgen anzeigen.  
 
-## <a name="to-view-the-load-on-work-centers"></a>Um sich die Auslastung von Arbeitsplatzgruppen anzeigen zu lassen:
+## Um sich die Auslastung von Arbeitsplatzgruppen anzeigen zu lassen:
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Arbeitsplatzgruppen** ein, und wählen Sie dann den zugehörigen Link.  
 2. Öffnen Sie die relevante Karte **Arbeitsplatzgruppe** aus der Liste, und wählen Sie die **Laden** Aktion aus.  
 
 Verwenden Sie die Felder **Anzeigen nach** und **Anzeigen als** auf dem Inforegister **Optionen**, um den gewünschten Zeitraum auszuwählen.  
 
-## <a name="see-also"></a>Siehe auch  
+## Siehe auch  
 [Produktion](production-manage-manufacturing.md)
 [Produktion einrichten](production-configure-production-processes.md)  
 [Planung](production-planning.md)  

@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 49cc2e9c461974dcdb6fa0612aa9abc11629bd9b
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8523423"
 ---
-# <a name="managing-inventory-costs"></a>Verwalten der Lagerregulierung
+# Verwalten der Lagerregulierung
 Die Kostenverwaltung, die auch als "Lagerabgang" bezeichnet wird, dient zum Erfassen und Melden der Betriebskosten eines Unternehmens. Sie umfasst das Melden von Fertigungskosten und Lagerkosten (also den Wert von Artikeln).   
 
 Wichtige Prinzipien: Mithilfe von Lagerabgangsmethoden werden die Bewertung von Artikeln sowie der Zeitpunkt definiert, zu dem sie das Lager verlassen. Durch eine Lagerregulierung werden die Kosten für verkaufte Waren mit zugehörigen, nach dem Verkauf gebuchten Einkaufskosten aktualisiert. Lagerwerte müssen in regelmäßigen Abständen auf dedizierte Sachkonten gebucht werden.
@@ -39,7 +33,7 @@ Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Themen,
 |Ausführen von Kontroll- und Berichterstellungsaufgaben am Periodenende – beispielsweise Berechnen des Werts von Lagerbestand und Buchen von Kosten in die Finanzbuchhaltung|[Melden von Kosten und Abstimmen mit der Finanzbuchhaltung](/dynamics365/business-central/finance-how-to-post-inventory-costs-to-the-general-ledger)|
 |Erfahren Sie, wie Sie die Aufgabenwarteschlange verwenden können, um die Aufgaben zum Anpassen der Lagerkosten oder zum Abstimmen der Kosten mit dem Hauptbuch in den Hintergrund zu verlagern.|[Anpassen von Lagerkosten und Abstimmen der Kosten mit dem Hauptbuch mithilfe der Aufgabenwarteschlange](finance-manage-inventory-costs.md)|
 
-## <a name="see-also"></a>Weitere Informationen  
+## Weitere Informationen  
  [Finanzen](finance.md)  
  [Lagerbest](inventory-manage-inventory.md)   
  [Verkauf](sales-manage-sales.md)   

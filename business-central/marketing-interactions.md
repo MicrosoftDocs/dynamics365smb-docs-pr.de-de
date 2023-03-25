@@ -1,43 +1,37 @@
 ---
 title: Verwalten Sie Interaktionen mit Ihren Kontakten
-description: Sie können Aktivitäten alle Arten der Kommunikation zwischen Ihrem Unternehmen und Ihren Kontakten aufzeichnen, uum Beispiel Briefe, Fax, E-Mail, Telefon, Besprechungen usw.
+description: 'Sie können Aktivitäten alle Arten der Kommunikation zwischen Ihrem Unternehmen und Ihren Kontakten aufzeichnen, uum Beispiel Briefe, Fax, E-Mail, Telefon, Besprechungen usw.'
 documentationcenter: ''
 author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: relationship, prospect
-ms.search.forms: 5082,
+ms.search.keywords: 'relationship, prospect'
+ms.search.forms: '5082,'
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: ea1460810e24d2e78a7d4791aaaaf8a09a4c056c
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517947"
 ---
-# <a name="record-interactions-with-contacts"></a>Aktivitäten mit Kontakten aufzeichnen
+# Aktivitäten mit Kontakten aufzeichnen
 Die Einrichtung der Anwendung zur Aufzeichnung von Aktivitäten besteht aus diesen Aufgaben:
 
 * Einrichten von Aktivitätenvorlagen  
 * Erstellen von Aktivitäten zu Kontakten oder Segmenten  
 * Anzeigen und Verwalten von aufgezeichneten Aktivitäten  
 
-##  <a name="setting-up-interaction-templates"></a>Einrichten von Aktivitätenvorlagen
+##  Einrichten von Aktivitätenvorlagen
 Bevor Sie Aktivitäten erstellen und speichern können, müssen Sie Aktivitätenvorlagen einrichten. Wenn Sie Aktivitäten erstellen, müssen Sie die Aktivitätenvorlagen angeben, auf denen diese basieren. Eine Aktivitätsvorlage ist eine Vorlage, die die grundlegenden Charakteristiken einer Aktivität bestimmt.
 Sie richten Aktivitätenvorlagen auf der Seite **Aktivitätenvorlagen** ein.
 
 Nachdem Sie die Informationen über die Aktivitätenvorlage eingegeben haben, können Sie einen Dateianhang erstellen (z. B. Microsoft Word-Dokument). Wiederholen Sie diese Schritte, um weitere Aktivitätenvorlagen einzurichten.  
 
-## <a name="creating-interactions"></a>Aktivitäten erstellen
+## Aktivitäten erstellen
 Es gibt zwei verschiedene Arten, Aktivitäten zu speichern.
 
 * Sie können Aktivitäten manuell erstellen, die mit einem einzelnen Kontakt oder Segment verknüpft sind. Weitere Informationen finden Sie unter [Erstellen von Aktivitäten auf Kontakten und Segmenten](marketing-how-create-interactions.md).  
 * Die Anwendung kann Aktivitäten automatisch speichern, wenn Sie Aktionen in der Anwendung durchführen, z. B., wenn Sie eine Rechnung oder ein Angebot drucken. Weitere Informationen finden Sie unter [Aktivitäten mit Kontakten automatisch aufzeichnen](marketing-auto-record-interactions.md).
 
-## <a name="viewing-and-managing-recorded-interactions"></a>Anzeigen und Verwalten von aufgezeichneten Aktivitäten
+## Anzeigen und Verwalten von aufgezeichneten Aktivitäten
 Auf der Seite **Aktivitätenprotokollposten** können Sie alle gespeicherten Aktivitäten sehen, die nicht gelöscht wurden. Sie können diese Seite folgendermaßen öffnen:
 
 * Mithilfe des Symbols **Nach Seite oder Bericht suchen** zur suche in **Aktivitätenprotokollposten**.
@@ -51,7 +45,7 @@ Auf dieser Seite können Sie folgende Aktivitäten durchführen:
 
 Sie können Aktivitätenprotokollposten löschen, die storniert wurden. Um Interaktionsprotokolleinträge zu löschen, wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Stornierte Aktivitätenprotokollposten löschen** ein und wählen Sie dann den zugehörigen Link und füllen Sie die Informationen aus.
 
-## <a name="see-also"></a>Weitere Informationen
+## Weitere Informationen
 [Kontakte verwalten](marketing-contacts.md)  
 [Verkaufschancen verwalten](marketing-manage-sales-opportunities.md)  
 [Arbeiten mit Business Central](ui-work-product.md)  

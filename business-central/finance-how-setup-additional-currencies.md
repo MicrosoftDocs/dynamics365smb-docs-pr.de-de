@@ -1,23 +1,17 @@
 ---
 title: Zusätzliche Währungen festlegen
-description: Ihre Finanzbuchhaltung wird in der lokalen Wählrung (LW) eingerichtet. Sie können eine weitere Währung einrichten, der Sie einen aktuellen Wechselkurs zuweisen.
+description: 'Ihre Finanzbuchhaltung wird in der lokalen Wählrung (LW) eingerichtet. Sie können eine weitere Währung einrichten, der Sie einen aktuellen Wechselkurs zuweisen.'
 author: edupont04
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: multiple currencies, foreign exchange rates
-ms.search.form: 5, 16,118, 483, 495
+ms.search.keywords: 'multiple currencies, foreign exchange rates'
+ms.search.form: '5, 16,118, 483, 495'
 ms.date: 07/23/2021
 ms.author: edupont
-ms.openlocfilehash: 12441e9c34f443835dfaccc1a2a8ddedadd7d3c6
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532646"
 ---
-# <a name="set-up-an-additional-reporting-currency"></a>Einrichten einer zusätzlichen Berichtswährung
+# Einrichten einer zusätzlichen Berichtswährung
 
 Da die Anzahl der Länder, in denen Unternehmen Geschäftsbeziehungen unterhalten, ständig wächst, wird es immer wichtiger, dass Finanzdaten in mehreren Währungen erfasst und angezeigt werden können.
 
@@ -32,7 +26,7 @@ In der Anwendung wird die Finanzbuchhaltung in der Mandantenwährung (MW) einger
 >
 > Sie haben z.B. eine große Menge an Debitoren in Britischen Pfund (GBP) und Sie haben Ihre zusätzliche Berichtswährung (ACY) auf GBP festgelegt. In diesem Szenario werden die Beträge in den Debitoren, die GBP verwenden, nicht um Wechselkursgewinne/-verluste im ACY bereinigt, sondern nur die Beträge in den Debitoren, die in anderen Währungen sind. Das bedeutet, dass, wenn Sie ACY verwenden, um Ihren Jahresabschluss zu erstellen, dies zu unter- oder überbewerteten ausstehenden Salden der Debitoren führen kann.
 
-## <a name="displaying-reports-and-amounts-in-the-additional-reporting-currency"></a>Anzeigen von Berichten und Beträgen in der Berichtswährung
+## Anzeigen von Berichten und Beträgen in der Berichtswährung
 Eine Berichtswährung kann in folgenden Fällen für das Berichtswesen eines Unternehmens hilfreich sein:
 
 - Unternehmen in nicht-EU-Ländern/-Regionen mit einem hohen Anteil von Transaktionen mit Unternehmen in EU-Ländern/-Regionen. In diesem Fall möchte das nicht-EU-Unternehmen seine Berichte möglicherweise ebenfalls in Euro erstellen, damit diese für die Handelspartner in der EU besser nutzbar sind.
@@ -40,11 +34,11 @@ Eine Berichtswährung kann in folgenden Fällen für das Berichtswesen eines Unt
 
 Einige Finanzberichte basieren auf Sachposten. Um die Finanzdaten in dem Bericht in der zusätzlichen Berichtswährung anzuzeigen, aktivieren Sie einfach das Feld **In Zusatzwährung anzeigen** im Inforegister **Optionen** für den entsprechenden Sachkontobericht.
 
-## <a name="adjusting-exchange-rates"></a>Regulieren von Wechselkursen
+## Regulieren von Wechselkursen
 
 Da sich Wechselkurse ständig ändern, müssen weitere Währungsentsprechungen im System in regelmäßigen Abständen reguliert werden. Werden diese Regulierungen nicht durchgeführt, sind Beträge, die aus fremden (oder zusätzlichen) Währungen umgerechnet und in der Mandantenwährung in der Finanzbuchhaltung gebucht wurden, möglicherweise irreführend. Darüber hinaus müssen Tagesposten, die vor der Eingabe eines Tageswechelkurses in der Anwendung gebucht werden, aktualisiert werden, nachdem der Tageswechselkurs eingegeben wurde. Die Stapelverarbeitung  **Wechselkurse** regulieren dient zur Regulierung der Wechselkurse gebuchter Kreditoren-, Debitoren- und Bankkontoposten. Berichtswährungsbeträge in Sachposten können hiermit ebenfalls aktualisiert werden. Weitere Informationen finden Sie unter [Stapelverarbeitungsauftrag "Wechselkurse regulieren"](finance-how-update-currencies.md).
 
-## <a name="setting-up-an-additional-reporting-currency"></a>Einrichten einer Berichtswährung
+## Einrichten einer Berichtswährung
 
 Folgen Sie diesen Schritten, um die zusätzliche Berichtswährung einzurichten:
 
@@ -53,7 +47,7 @@ Folgen Sie diesen Schritten, um die zusätzliche Berichtswährung einzurichten:
 - Legen Sie die Kursregulierungsmethode für MwSt.-Posten fest.  
 - Aktivieren Sie die Berichtswährung.  
 
-### <a name="to-specify-general-ledger-accounts-for-posting-exchange-rate-adjustments"></a>Sachkonten für die Buchung von Kursregulierungen festlegen:  
+### Sachkonten für die Buchung von Kursregulierungen festlegen:  
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Währungen** ein, und wählen Sie dann den entsprechenden Link.  
 2. Auf der Seite **Währungen** geben Sie die folgenden Felder für die zusätzliche Berichtswährung an.  
@@ -70,7 +64,7 @@ Folgen Sie diesen Schritten, um die zusätzliche Berichtswährung einzurichten:
 
 Für jedes Sachkonto müssen Sie angeben, wie Beträge für dieses Konto hinsichtlich der Wechselkursschwankungen zwischen der Mandantenwährung und der Berichtswährung reguliert werden.  
 
-### <a name="to-specify-the-exchange-rate-adjustment-method-for-all-general-ledger-accounts"></a>So geben Sie die Kursregulierungsmethode für alle Sachkonten an
+### So geben Sie die Kursregulierungsmethode für alle Sachkonten an
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Kontenplan** ein, und wählen Sie dann den zugehörigen Link.  
 2. Auf der Seite **Kontenplan** wählen Sie das gewünschte Konto aus, und wählen Sie die **Bearbeiten** Aktion aus.  
@@ -88,7 +82,7 @@ Für jedes Sachkonto müssen Sie angeben, wie Beträge für dieses Konto hinsich
 
 4.  Schließen Sie die Seite **Sachkontokarte**.  
 
-### <a name="to-specify-exchange-rate-adjustment-method-for-vat-entries"></a>Die Kursregulierungsmethode für MwSt.-Posten festlegen:
+### Die Kursregulierungsmethode für MwSt.-Posten festlegen:
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Hauptbuchhaltung Einrichtung** ein und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie auf der Seite **Berichtswesen einrichten** die richtige Methode im Feld **Kursregulierung** aus.  
@@ -104,7 +98,7 @@ Für jedes Sachkonto müssen Sie angeben, wie Beträge für dieses Konto hinsich
     |**Betrag regulieren**|Der MW-Betrag wird gemäß der Wechselkursgewinne oder -verluste reguliert. Wechselkursgewinne oder -verluste werden auf das Sachkonto im Feld **Betrag** gebucht und auf die Konten, die Sie für Gewinne oder Verluste in den Feldern **Sachkto. Kursgewinn real. Kto.** und **Sachkto. Kursverlust real. Kto.** im Fenster **Währungen** festgelegt haben.|  
     |**Betrag (BW) regulieren**|Die zusätzliche Berichtswährung wird gemäß der Wechselkursgewinne oder -verluste reguliert. Wechselkursgewinne oder -verluste werden auf das Sachkonto im Feld **Betrag (BW)** gebucht und auf die Konten, die Sie für Gewinne oder Verluste in den Feldern **Sachkto. Kursgewinn real. Kto.** und **Sachkto. Kursverlust real. Kto.** im Fenster **Währungen** festgelegt haben.|  
 
-### <a name="to-activate-the-additional-reporting-currency"></a>Berichtswährung aktivieren:  
+### Berichtswährung aktivieren:  
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Hauptbuchhaltung Einrichtung** ein und wählen Sie dann den zugehörigen Link.  
 2. Auf der Seite **Finanzbuchhaltung Einrichtung** wählen Sie das Feld **zusätzliche Berichtswährung**, um die zusätzliche Berichtswährung auszuwählen, in der Sie Daten erfassen möchten.  
 3. Beim Verlassen des Felds zeigt [!INCLUDE[prod_short](includes/prod_short.md)] eine Bestätigungsmeldung an, die Sie über die Auswirkungen der Aktivierung der Berichtswährung informiert.  
@@ -130,9 +124,9 @@ Darüber hinaus werden die Beträge für alle zukünftigen Posten desselben Typs
 > [!NOTE]  
 > Das Feld **Berichtswährung** wird erst aktiviert, nachdem Sie im Batchauftrag **Berichtswährung regulieren** die Schaltfläche **OK** gewählt haben.  
 
-## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/paths/use-multiple-currencies-dynamics-365-business-central/)
+## Siehe verwandte [Microsoft Schulungen](/training/paths/use-multiple-currencies-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Währungswechselkurse aktualisieren](finance-how-update-currencies.md)  
 [Jahre und Perioden abschließen](year-close-years-periods.md)  

@@ -3,13 +3,8 @@ author: edupont04
 ms.topic: include
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2520fcfb3b4faa49e89feae0f11a719bbfdb810a
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2022
-ms.locfileid: "8349004"
 ---
+
 In der folgenden Tabelle werden einige der wichtigsten Berichte in der Verkaufsberichterstattung beschrieben.
 
 | Bericht | Beschreibung | Id | 

@@ -1,29 +1,23 @@
 ---
 title: Designdetails – Rundung
-description: Rundungsreste können auftreten, wenn Sie die Kosten einer Bestandsminderung, die in einer anderen Menge gemessen wurde, als die entsprechende Bestandszunahme bewerten.
+description: 'Rundungsreste können auftreten, wenn Sie die Kosten einer Bestandsminderung, die in einer anderen Menge gemessen wurde, als die entsprechende Bestandszunahme bewerten.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 864b7854593fe0b0d8ecb739f580daa7bd035c58
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519277"
 ---
-# <a name="design-details-rounding"></a>Designdetails: Rundung
+# Designdetails: Rundung
 Rundungsreste können auftreten, wenn Sie die Kosten einer Bestandsminderung bewerten, die in einer anderen Menge als die entsprechende Bestandszunahme registriert wurde. Rundungsreste werden für alle Kostenberechnungsmethoden berechnet, wenn Sie die **Kosten anpassen - Artikeleintrag**-Stapelverarbeitung ausführen.  
 
  Wenn Sie die Lagerabgangsmethode "Durchschnitt" verwenn, wird der Rundungsfunktionen Rückstand in einer kumulierten Posten-durch-Posten-Basis berechnet und erfasst.  
 
  Wenn Sie eine andere Lagerabgangsmethode als die Lagerabgangsmethode "Durchschnitt" verwenden, wird der Rundungsfunktionen Rückstand berechnet, wenn der Lagerzugang vollständig ausgeglichen wurde, d.h. wenn die Restmenge für den Lagerzugang gleich Null ist. Dann wird ein separater Posten für den ein Rundungsrest, und das Buchungsdatum dieses Rundungspostens ist das Buchungsdatum des zuletzt fakturierten Werts.  
 
-## <a name="example"></a>Beispiel  
+## Beispiel  
  Im folgenden Beispiel wird veranschaulicht, wie unterschiedliche Rundungsreste für die Durchschnittskostenbewertung und die Nicht-Durchschnittskostenbewertung behandelt werden. In beiden Fällen ist die **Kosten anpassen Artikeleingänge**-Stapelverarbeitung durchgeführt worden.  
 
  Die folgende Tabelle zeigt die Artikelposten, auf denen das Beispiel basiert.  
@@ -58,7 +52,7 @@ Rundungsreste können auftreten, wenn Sie die Kosten einer Bestandsminderung bew
 |04-01-20|-1|-3.33|4|4|  
 |01-01-20|0|-0.01|1|5|  
 
-## <a name="see-also"></a>Siehe auch  
+## Siehe auch  
  [Designdetails: Lagerkostenberechnung](design-details-inventory-costing.md)   
  [Designdetails: Kostenregulierung](design-details-cost-adjustment.md)   
  [Designdetails: Kostenmethoden](design-details-costing-methods.md) [Verwalten der Lagerregulierung](finance-manage-inventory-costs.md)  

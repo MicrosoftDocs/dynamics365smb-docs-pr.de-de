@@ -1,22 +1,16 @@
 ---
 title: XML-Schemata zum Vorbereiten von Data Exchange-Definitionen
-description: Verwenden Sie XML-Schemata, um das Framework für den Datenaustausch festzulegen, um zu definieren, mit welchen Datenelementen Sie austauschen wollen.
+description: 'Verwenden Sie XML-Schemata, um das Framework für den Datenaustausch festzulegen, um zu definieren, mit welchen Datenelementen Sie austauschen wollen.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: cbaa75f196f75b79e83becb80006f6b4dc2aa291
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130948"
 ---
-# <a name="use-xml-schemas-to-prepare-data-exchange-definitions"></a>Verwenden von XML-Schemata zur Vorbereitung der Datenaustauschdefinitionen
+# Verwenden von XML-Schemata zur Vorbereitung der Datenaustauschdefinitionen
 
 Um das Importieren/Exportieren von Daten in XML-Dateien durch das Datenaustauschframework in [!INCLUDE[prod_short](includes/prod_short.md)], können Sie das XML-Schema der Datei verwenden, um zu definieren, welche Datenelemente Sie mit [!INCLUDE[prod_short](includes/prod_short.md)] austauschen möchten. Sie führen diese Arbeit auf der Seite **XML-Schema-Ansicht** aus, indem Sie die XML-Schemadatei laden, die entsprechenden Datenelemente auswählen und dann eine Datenaustauschdefinition initialisieren.  
 
@@ -30,7 +24,7 @@ Um das Importieren/Exportieren von Daten in XML-Dateien durch das Datenaustausch
 
 - So generieren Sie eine Datenaustauschdefinition, die auf einem XML-Schema basiert  
 
-## <a name="to-load-an-xml-schema-file"></a>So laden Sie eine XML-Schemadatei
+## So laden Sie eine XML-Schemadatei
 
 1. Vergewissern Sie sich, dass die relevante XML-Schemadatei verfügbar ist. Die Dateierweiterung lautet „.xsd“.  
 
@@ -54,7 +48,7 @@ Um das Importieren/Exportieren von Daten in XML-Dateien durch das Datenaustausch
     > [!NOTE]  
     >  Die Struktur des geladenen XML-Schemas wird standardmäßig reduziert angezeigt. Sie erweitern die einzelnen Knoten über die Schaltfläche **+** für den Knoten. Um alle Knoten zu erweitern, wählen Sie **Alle aufklappen** auf dem Menüband aus.  
 
-### <a name="to-select-or-clear-nodes-in-an-xml-schema"></a>So wählen oder löschen Sie Knoten in XML-Schema  
+### So wählen oder löschen Sie Knoten in XML-Schema  
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **XML-Schema-Viewer** ein und wählen Sie dann den zugehörigen Link.  
 
@@ -92,7 +86,7 @@ Um das Importieren/Exportieren von Daten in XML-Dateien durch das Datenaustausch
 
      Das Feld **Wahl** gibt an, dass der Knoten zwei oder mehr gleichgeordnete Knoten hat, die als Optionen fungieren.  
 
-### <a name="to-generate-a-data-exchange-definition-that-is-based-on-an-xml-schema"></a>So generieren Sie eine Datenaustauschdefinition, die auf einem XML-Schema basiert  
+### So generieren Sie eine Datenaustauschdefinition, die auf einem XML-Schema basiert  
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **XML-Schemata** ein und wählen Sie dann den zugehörigen Link.  
 
@@ -110,7 +104,7 @@ Um das Importieren/Exportieren von Daten in XML-Dateien durch das Datenaustausch
 > [!NOTE]
 > In der Veröffentlichungswelle 1 von 2019 und früheren Versionen konnten Sie einen auf dem Schema basierenden XMLport generieren und diesen anschließend in Ihre Lösung importieren. Dies wird nicht mehr unterstützt.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Richten Sie Datenaustauschdefinitionen ein](across-how-to-set-up-data-exchange-definitions.md)  
 [Zahlungen in eine Bankdatei exportieren](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)  

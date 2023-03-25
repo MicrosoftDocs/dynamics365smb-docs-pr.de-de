@@ -1,23 +1,17 @@
 ---
 title: Problembehandlung der Konnektivität
-description: Beschreibt, wie Sie die Seite Problembehandlung der Konnektivität verwenden, um Probleme bei der Online-Verbindung zu Business Central zu identifizieren und zu beheben.
+description: 'Beschreibt, wie Sie die Seite Problembehandlung der Konnektivität verwenden, um Probleme bei der Online-Verbindung zu Business Central zu identifizieren und zu beheben.'
 author: jswymer
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: connectivity, troubleshooting, connection problems
+ms.search.keywords: 'connectivity, troubleshooting, connection problems'
 ms.date: 06/17/2021
 ms.author: jswymer
 ROBOTS: NOINDEX
-ms.openlocfilehash: 6719a46bdb86be63bd4ffe1b3ff916911a645bc5
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8522222"
 ---
-# <a name="troubleshoot-connectivity-for-business-central"></a>Problembehandlung der Konnektivität für Business Central
+# Problembehandlung der Konnektivität für Business Central
 
 > **Geltet für:** [!INCLUDE[prod_short](includes/prod_short.md)] Online
 >
@@ -28,7 +22,7 @@ ms.locfileid: "8522222"
 > [!NOTE]
 > Die Seite **Problembehandlung der Konnektivität** testet nicht die Leistung oder Zuverlässigkeit des Netzwerks, wie z. B. die Geschwindigkeit Ihrer Verbindung. Sie prüft nur die Konnektivität zu verschiedenen Ressourcen.
 
-## <a name="start-the-connectivity-check"></a>Starten Sie die Konnektivitätsprüfung 
+## Starten Sie die Konnektivitätsprüfung 
 
 1. Öffnen Sie einen Internetbrowser.
 2. Geben Sie in der Adresse die URL ein, die Sie verwenden, um Business Central zu öffnen und fügen Sie am Ende `/connectivity` hinzu. 
@@ -57,7 +51,7 @@ ms.locfileid: "8522222"
 
 In den folgenden Abschnitten werden die ausgeführten Prüfungen erläutert und es werden einige Tipps zur Behebung von Problemen gegeben.
 
-## <a name="basic-internet-connectivity"></a>Grundlegende Internet-Konnektivität
+## Grundlegende Internet-Konnektivität
 
 Überprüft, ob Sie eine Verbindung zum Internet haben, indem es prüft, ob Sie auf eine bekannte öffentliche Domäne zugreifen können, wie www.bing.com.
 
@@ -66,7 +60,7 @@ In den folgenden Abschnitten werden die ausgeführten Prüfungen erläutert und 
 |Ihr Browser unterstützt diese Prüfung nicht|Öffnen Sie die Seite in einem unterstützten Browser, und versuchen Sie es erneut. Eine Liste der unterstützten Browser finden Sie unter [Mindestanforderungen für die Verwendung von Business Central – Browser](product-requirements.md#browsers)|
 |Der Server mit der folgenden URL konnte nicht angefunkt werden: {url}|Überprüfen Sie die Firewall-Einstellungen.|
 
-## <a name="cdn-content-delivery-network-resources-loading"></a>CDN (Content Delivery Network)-Ressourcen werden geladen
+## CDN (Content Delivery Network)-Ressourcen werden geladen
 
 [!INCLUDE[prod_short](includes/prod_short.md)] verwendet Azure Content Delivery Network (CDN), um Ressourcen bereitzustellen, die zum Ausführen des Business Central Web-Clients erforderlich sind. Dieser Check prüft, ob die erforderlichen Ressourcen verfügbar und zugänglich sind, indem er die Business Central-Instanz im CDN anpingt.
 
@@ -75,7 +69,7 @@ In den folgenden Abschnitten werden die ausgeführten Prüfungen erläutert und 
 |Ihr Browser unterstützt diese Prüfung nicht|Siehe **Prüfung der grundlegenden Internet-Konnektivität**.|
 |Der Server mit der folgenden URL konnte nicht angefunkt werden: {url}|Überprüfen Sie die Firewall-Einstellungen.|
 
-## <a name="user-authentication"></a>Benutzer-Authentifizierung
+## Benutzer-Authentifizierung
 
 Überprüft, ob sich der aktuelle Benutzer mit einem gültigen Business Central-Konto angemeldet hat.
 
@@ -83,7 +77,7 @@ In den folgenden Abschnitten werden die ausgeführten Prüfungen erläutert und 
 |-------|-------------|
 |Kein Benutzer ist derzeit authentifiziert|Melden Sie sich bei Business Central mit einem gültigen Benutzernamen und Kennwort an.|
 
-## <a name="business-central-environments-discovery"></a>Erkennung von Business Central-Umgebungen
+## Erkennung von Business Central-Umgebungen
 
 Prüft, ob Business Central-Umgebungen für einen authentifizierten Benutzer verfügbar sind, und überprüft dann, ob der Benutzer in der Umgebung authentifiziert werden kann.
 <!-- example: Your user name or password is incorrect, or you do not have a valid account.. Request duration: 332 milliseconds)-->
@@ -94,7 +88,7 @@ Prüft, ob Business Central-Umgebungen für einen authentifizierten Benutzer ver
 |Es konnten keine verfügbaren Umgebungen für Ihr Konto abgerufen werden.|Überprüfen Sie die Liste der verfügbaren Umgebungen im Business Central Admin Center.|
 |Ihr Benutzername oder Kennwort ist falsch, oder Sie haben kein gültiges Konto.| Überprüfen Sie, ob Sie sich mit dem richtigen Benutzernamen und Kennwort angemeldet haben.|
 
-## <a name="application-service-connectivity"></a>Konnektivität der Anwendungsdienste
+## Konnektivität der Anwendungsdienste
 
 Überprüft, ob der authentifizierte Benutzer eine Verbindung zu einer ermittelten Umgebung herstellen kann, normalerweise beginnend mit der Produktionsumgebung.
 
@@ -105,7 +99,7 @@ Prüft, ob Business Central-Umgebungen für einen authentifizierten Benutzer ver
 |Keine Cluster-Adresse, für die diese Prüfung durchgeführt werden soll|Überprüfen Sie die Liste der verfügbaren Umgebungen im Business Central Admin Center.|
 |Versionsendpunkt existiert nicht|Überprüfen Sie die Liste der verfügbaren Umgebungen im Business Central Admin Center.|
 
-## <a name="see-also"></a>Weitere Informationen
+## Weitere Informationen
 
 [Ressourcen für Hilfe und Support](product-help-and-support.md)  
 [Übersicht der Aufgaben zum Festlegen von Business Central](setup.md)  

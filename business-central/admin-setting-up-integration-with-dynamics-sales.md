@@ -1,26 +1,20 @@
 ---
 title: Einrichten des Benutzerkontos für die Integration in Microsoft Dataverse | Microsoft Docs
-description: Erfahren Sie, wie die Benutzerkonten eingerichtet werden, die die Apps zum Austausch von Daten verwenden, und die Mitarbeiter nutzen, um auf Daten in den Apps zuzugreifen und diese Daten zu synchronisieren.
+description: 'Erfahren Sie, wie die Benutzerkonten eingerichtet werden, die die Apps zum Austausch von Daten verwenden, und die Mitarbeiter nutzen, um auf Daten in den Apps zuzugreifen und diese Daten zu synchronisieren.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 7683c301131fa5729d74e1c6ef70880db7f3327d
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9607337"
 ---
-# <a name="setting-up-user-accounts-for-integrating-with-microsoft-dataverse"></a>Einrichten des Benutzerkontos für die Integration in Microsoft Dataverse
+# Einrichten des Benutzerkontos für die Integration in Microsoft Dataverse
 
 Dieser Artikel bietet eine Übersicht darüber, wie die Benutzerkonten eingerichtet werden, die erforderlich sind, um [!INCLUDE[prod_short](includes/prod_short.md)] in [!INCLUDE[prod_short](includes/cds_long_md.md)] zu integrieren.
 
-## <a name="set-up-the-administrator-user-account"></a>Das Administrator-Benutzerkonto festlegen
+## Das Administrator-Benutzerkonto festlegen
 
 Sie müssen Ihr Administrator-Benutzerkonto für [!INCLUDE[prod_short](includes/prod_short.md)] als Benutzer in [!INCLUDE[cds_long](includes/cds_long_md.md)] hinzufügen. Wenn Sie die Verbindung zwischen [!INCLUDE[prod_short](includes/prod_short.md)] und [!INCLUDE[prod_short](includes/cds_long_md.md)] festlegen, werden wir dieses Konto einmalig für die Installation und Konfiguration einiger erforderlicher Komponenten verwenden.
 
@@ -29,7 +23,7 @@ Sie müssen Ihr Administrator-Benutzerkonto für [!INCLUDE[prod_short](includes/
 >
 > Nachdem die Einrichtung der Verbindung abgeschlossen ist, kann dieser [!INCLUDE[prod_short](includes/cds_long_md.md)]-Benutzer entfernt werden. Die Integration wird mit dem Benutzerkonto fortgesetzt, das automatisch speziell für die Integration erstellt wird.
 
-## <a name="permissions-and-security-roles-for-user-accounts-in-prod_short"></a>Berechtigungen und Sicherheitsrollen für Benutzerkonten in [!INCLUDE[prod_short](includes/cds_long_md.md)]
+## Berechtigungen und Sicherheitsrollen für Benutzerkonten in [!INCLUDE[prod_short](includes/cds_long_md.md)]
 
 Die Basis-Integrationslösung erstellt die folgenden Rollen in [!INCLUDE[cds_long](includes/cds_long_md.md)] für die Integration:
 
@@ -135,7 +129,7 @@ You can allow sales people to view inventory levels for the items they sell by g
 
 -->
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Integrieren in Microsoft Dataverse](admin-common-data-service.md)  
 [Integration mit Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  

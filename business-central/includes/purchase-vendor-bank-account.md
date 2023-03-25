@@ -3,13 +3,8 @@ author: rubenseishima
 ms.topic: include
 ms.date: 06/30/2022
 ms.author: a-reishima
-ms.openlocfilehash: c77d21222c7ac2fe2ddcfe4cfa129c6959afa441
-ms.sourcegitcommit: 5560a49ca4ce85fa12e50ed9e14de6d5cba5f5c3
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 07/13/2022
-ms.locfileid: "9144401"
 ---
+
 1. Wählen Sie das Symbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](../media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Kreditoren** ein und wählen Sie dann den zugehörigen Link.
 2. Öffnen Sie die Karte für den Kreditor.
 3. Wählen Sie die **Bankkonten** Aktion aus.

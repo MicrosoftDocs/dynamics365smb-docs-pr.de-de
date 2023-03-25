@@ -3,12 +3,6 @@ author: edupont04
 ms.topic: include
 ms.date: 05/09/2022
 ms.author: edupont
-ms.openlocfilehash: f002086780e694ad80f2b5c80e942ab411de1948
-ms.sourcegitcommit: 2fa712d0aabe4287ebd4454c28d142d6baf045a0
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 05/09/2022
-ms.locfileid: "8732964"
 ---
 Möglicherweise werden in der Liste **Benutzer** andere Benutzer als die Ihres eigenen Unternehmens angezeigt. Wenn sich ein delegierter Administrator eines Wiederverkaufspartnerunternehmens in einer [!INCLUDE [prod_short](prod_short.md)]-Umgebung im Auftrag seines Debitors anmeldet, wird dieser automatisch als Benutzer in [!INCLUDE [prod_short](prod_short.md)] erstellt. Auf diese Weise werden die von einem delegierten Administrator ausgeführten Aktionen in [!INCLUDE [prod_short](prod_short.md)] protokolliert, z. B. Buchungsbelege, und mit ihrer Benutzer-ID verknüpft.  
 

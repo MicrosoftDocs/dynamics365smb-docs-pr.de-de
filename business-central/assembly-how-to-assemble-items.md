@@ -7,17 +7,11 @@ ms.reviewer: andreipa
 ms.service: dynamics365-business-central
 ms.topic: how-to
 ms.date: 11/23/2022
-ms.search.keywords: kit, kitting
-ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
+ms.search.keywords: 'kit, kitting'
+ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905'
 ms.custom: bap-template
-ms.openlocfilehash: 35d75808f0d2a0212396151dd2a7a2438dfc7fe5
-ms.sourcegitcommit: 61f22aeede684f0ae772353ede6530ff03ff2f90
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/24/2022
-ms.locfileid: "9804499"
 ---
-# <a name="assemble-items"></a>Artikel montieren
+# Artikel montieren
 
 Wenn das Feld **Wiederbeschaffungssystem** auf der Artikelkarte den Wert **Montage** enthält, wird der Artikel standardmäßig gemäß einer Stückliste für die Montage und möglicherweise durch eine bestimmte Ressource bereitgestellt. Erfahren Sie mehr unter [Arbeiten mit Stücklisten für die Montage](assembly-how-work-assembly-boms.md). Erfahren Sie mehr darüber, wie Sie ein Element für die Montage festlegen unter [Montage auf Bestellung und Montage auf Lager](assembly-assemble-to-order-or-assemble-to-stock.md).
 
@@ -33,11 +27,11 @@ Dieser Artikel beschreibt die Standardeinstellungen für die Montage auf Lager. 
 > [!NOTE]  
 > Montagekomponenten werden auf eine spezielle Art in den Basislagerkonfigurationen behandelt. Erfahren Sie mehr unter [Verarbeitung von Programmfertigung mit kommissionierten Bestandsartikeln](warehouse-how-to-pick-items-with-inventory-picks.md#handling-assemble-to-order-items-with-inventory-picks).
 
-## <a name="to-assemble-an-item-to-stock"></a>So montieren Sie ein Element für den Bestand
+## So montieren Sie ein Element für den Bestand
 
 Folgen Sie den Schritten in diesem Verfahren, um ein Element auf Lager zu montieren. Weitere Informationen zur Programmfertigung finden Sie unter [Verkauf von Elementen, die auf Bestellung gefertigt wurden](assembly-how-to-sell-items-assembled-to-order.md).
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Montageaufträge** ein, und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Montageaufträge** ein, und wählen Sie dann den entsprechenden Link.  
 2. Wählen Sie die Aktion **Neu** aus. Die Seite **Neuer Montageauftrag** wird geöffnet.  
 3. Füllen Sie die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Wählen Sie im Feld **Element-Nr.** den Artikel aus, den Sie montieren möchten. Sie können Elemente auswählen, die für die Montage festgelegt sind und über eine Stückliste für die Montage verfügen, oder Elemente ohne eine Stückliste für die Montage. Letzteres ist nützlich für ungeplante Montagen oder Szenarien, in denen Sie die Umgliederung von Elementen verwenden und die Kosten verfolgen möchten.  
@@ -67,14 +61,14 @@ Folgen Sie den Schritten in diesem Verfahren, um ein Element auf Lager zu montie
 
 Nach erfolgreicher Buchung wird der Montageartikel als Ausstoß für den Lagerortcode und den potenziellen Lagerplatzcode gebucht, die im Montageauftrag definiert sind. Für manuell erstellte Montageaufträge wird der Lagerplatz möglicherweise aus dem Einrichtungsfeld **Standardlagerort für Aufträge** kopiert. Für Auftragsmontageflüsse wird der Lagerortcode möglicherweise aus der Verkaufsauftragszeile kopiert.  
 
-## <a name="see-related-microsoft-training"></a>Siehe zugehörige [Microsoft Schulungen](/training/paths/assemble-items-dynamics-365-business-central/)
+## Siehe zugehörige [Microsoft Schulungen](/training/paths/assemble-items-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Montageverwaltung](assembly-assemble-items.md)  
 [Arbeiten mit Stücklisten für die Montage](assembly-how-work-assembly-boms.md)  
 [Bestand](inventory-manage-inventory.md)  
-[Design Details: Lagerort Management](design-details-warehouse-management.md)  
+[Lagerverwaltung – Übersicht](design-details-warehouse-management.md)
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

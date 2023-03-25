@@ -1,29 +1,24 @@
 ---
 title: Eine neue Produktionsstücklisten- und Stücklistenversion erstellen
-description: Exemplarische Vorgehensweise, um zu erfahren, wie Sie der Produktlinie von Contoso Coffee in Business Central eine weitere Kaffeemaschine hinzufügen.
+description: 'Exemplarische Vorgehensweise, um zu erfahren, wie Sie der Produktlinie von Contoso Coffee in Business Central eine weitere Kaffeemaschine hinzufügen.'
 ms.date: 04/01/2022
 ms.topic: article
 ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
-ms.openlocfilehash: 3c631e0285e0fdc6db5bf70cd0f5167741f602f9
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8525077"
 ---
-# <a name="walkthrough-create-a-new-production-bom-and-bom-version"></a>Exemplarische Vorgehensweise: Eine neue Produktionsstücklisten- und Stücklistenversion erstellen
+
+# Exemplarische Vorgehensweise: Eine neue Produktionsstücklisten- und Stücklistenversion erstellen
 
 In diesem Artikel führen wir Sie durch die Schritte zur Verwendung der Demodaten von Contoso Coffee für die Arbeit mit Stücklisten (BOM) in Produktionsprozessen.  
 
-## <a name="scenario"></a>Szenario
+## Szenario
 
 Contoso Coffee hat beschlossen, seiner Produktlinie eine weitere Kaffeemaschine hinzuzufügen: **SP-SCM1008 Airpot Lite**. Diese Kaffeemaschine ist baugleich mit dem vorhandenen Artikel **SP-SCM1009 Airpot**, außer dass die Warmhalteplatte **SP-BOM1104** nicht enthalten ist. In einem separaten Schritt wird das Ein/Aus-Licht **SP-BOM1106** für eine Version des Airpot Lite BOM entfernt.
 
 Oscar, Verfahrenstechniker bei Contoso Coffee, muss eine neue Produktionsstückliste erstellen, um die anfänglichen Komponentenanforderungen für den Airpot Lite zu definieren. Er muss dann eine neue BOM-Version mit einem Startdatum am 1. Juli einrichten, um sie mit weiteren Plänen zur Veröffentlichung einer weiteren Edition in Einklang zu bringen.
 
-## <a name="steps"></a>Schritte
+## Schritte
 
 1. Erstellen Sie eine neue Produktionsstückliste für den Airpot Lite.
 
@@ -78,6 +73,6 @@ Oscar, Verfahrenstechniker bei Contoso Coffee, muss eine neue Produktionsstückl
 
 Die neue Kaffeemaschine ist nun als Produktionsstückliste mit einer Version angelegt.  
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Einführung in Contoso Coffee Demo Data](contoso-coffee-intro.md)  

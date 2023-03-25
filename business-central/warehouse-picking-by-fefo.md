@@ -1,22 +1,16 @@
 ---
 title: So aktivieren Sie die Kommissionierung nach FEFO | Microsoft Docs
-description: FEFO (First-Expired-First-Out) ist eine Sortiermethode, durch die sichergestellt ist, dass die ältesten Artikel mit den frühesten Ablaufdatumsangaben zuerst kommissioniert werden.
+description: 'FEFO (First-Expired-First-Out) ist eine Sortiermethode, durch die sichergestellt ist, dass die ältesten Artikel mit den frühesten Ablaufdatumsangaben zuerst kommissioniert werden.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b4018d5ad18317cf5b62a99346c360d744b26939
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520022"
 ---
-# <a name="enable-picking-items-by-fefo"></a>Aktiveren der Kommissionierung von Artikeln nach FEFO
+# Aktiveren der Kommissionierung von Artikeln nach FEFO
 FEFO (First-Expired-First-Out) ist eine Sortiermethode, durch die sichergestellt ist, dass die ältesten Artikel mit den frühesten Ablaufdatumsangaben zuerst kommissioniert werden.  
 
  Diese Funktionen arbeiten nur, wenn die folgenden Kriterien erfüllt sein:  
@@ -37,13 +31,12 @@ Werden Artikel mit Serien- oder Chargennummer an Lagerorten kommissioniert, die 
 <br /><br />
 Die Aktivierung der Umlagerungen nach FEFO erfolgt entweder auf dem Feld **Von Lagerplatz** auf der Seite **Lagerbestandsumlagerung** oder der Seite **Lagerplatzumlagerungsarbeitsblatt**.  
 <br /><br />
-Wenn das Feld **Fixes Ablaufdatum** auf der **Artikelnachverfolgungscodekarte** ausgewählt, werden nur Artikel, die nicht abgelaufen sind, in die Auswahl aufgenommen, und die Zeilen werden nach dem FEFO-Prinzip sortiert.
+Wenn das Feld **Fixes Ablaufdatum** auf der **Artikelnachverfolgungscodekarte**ausgewählt, werden nur Artikel, die nicht abgelaufen sind, in die Auswahl aufgenommen, und die Zeilen werden nach dem FEFO-Prinzip sortiert.
 
-## <a name="see-also"></a>Siehe auch  
-[Kommissionieren von Artikeln](warehouse-pick-items.md)   
+## Weitere Informationen  
 [Um Artikel für den Warenausgang zu kommissionieren](warehouse-how-to-pick-items-for-warehouse-shipment.md)   
 [Artikel mit der Lagerkommissionierung kommissionieren](warehouse-how-to-pick-items-with-inventory-picks.md)   
-[Designdetails: Warehouse Management](design-details-warehouse-management.md)  
+[Lagerverwaltung – Übersicht](design-details-warehouse-management.md)
 [Bestand](inventory-manage-inventory.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

@@ -1,21 +1,15 @@
 ---
 title: Projektmanagement
-description: Dieses Thema beschreibt, wie Sie Ressourcen, Arbeitszeittabellen und Aufträge verwenden, um Projekte und deren Budgets zu verwalten.
+description: 'Dieses Thema beschreibt, wie Sie Ressourcen, Arbeitszeittabellen und Aufträge verwenden, um Projekte und deren Budgets zu verwalten.'
 author: edupont04
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: projects
-ms.search.form: 89, 200, 289, 290, 376, 462, 463, 1029, 1615, 8904, 9014, 9015
+ms.search.form: '89, 200, 289, 290, 376, 462, 463, 1029, 1615, 8904, 9014, 9015'
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: ad87e0db86cb32b80aa14e80042264977605348a
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517817"
 ---
-# <a name="project-management"></a>Projektmanagement
+# Projektmanagement
 
 In [!INCLUDE[prod_short](includes/prod_short.md)] können Sie allgemeine Projektmanagement-Verwaltungsaufgaben ausführen, wie Konfigurieren eines Projekts und Planen einer Ressource sowie Bereitstellung der Informationen, die benötigt werden, um Budgets zu verwalten und den Status zu überwachen. Sie können Computer- und Mitarbeiterstunden für das Projekt verfolgen, indem Sie Arbeitszeittabellen verwenden. Als Projektmanager haben Sie einen guten Überblick, nicht nur über einzelnen Projekte, sondern auch über die Verteilung der Mitarbeiter, der Maschinen und anderer Ressourcen, die in allen Projekten verwendet werden.
 
@@ -35,11 +29,11 @@ Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Themen,
 | Buchen Sie den Materialverbrauch, Ressourcen und andere Aufwendungen im Umlaufbestand (WIP), um den Finanzwert zu überwachen und die richtige Finanzauswertungen beizubehalten, wenn Sie Projektausgaben buchen. |[Überwachen des Status und der Leistung](projects-how-monitor-progress-performance.md) |
 | Erfassen von Projektkosten für den Ressourcenverbrauch, Material oder projektbezogene Einkäufe auf laufender Basis und Rechnungsstellung an den Kunden, entweder wenn das Projekt beendet ist oder entsprechend dem Fakturierungsplan. |[Fakturieren von Projekten](projects-how-invoice-jobs.md) |
 
-## <a name="get-started-with-projects"></a>Erste Schritte mit Projekten
+## Erste Schritte mit Projekten
 
 Projektmanagement ist allein ist schon kompliziert genug, und zu Lernen, wie Projekte erstellt und Umlaufbestand in einem neuen Tool verwaltet werden, kann eine zusätzliche Komplikation sein. Als Hilfe beim Projektmanagement in [!INCLUDE[prod_short](includes/prod_short.md)] können Sie sich [ein Video zum Erstellen von Aufträgen](https://www.youtube.com/watch?v=VqaPWr7BWmw) im [!INCLUDE[prod_short](includes/prod_short.md)] YouTube-Kanal ansehen.  
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Projektmanagement einrichten](projects-setup-projects.md)  
 [Video: So erstellen Sie ein Projekt in Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  

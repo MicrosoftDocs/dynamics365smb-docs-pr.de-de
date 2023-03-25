@@ -1,23 +1,17 @@
 ---
 title: Verwendung der PayPal-Zahlungen-Standarderweiterung
-description: In diesem Thema wird beschrieben, wie Sie die Standard-Erweiterung verwenden, damit Debitoren Zahlungen mit PayPal vornehmen können.
+description: 'In diesem Thema wird beschrieben, wie Sie die Standard-Erweiterung verwenden, damit Debitoren Zahlungen mit PayPal vornehmen können.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: app, add-in, manifest, customize
-ms.search.form: 1070, 1071, 1073, 1074
+ms.search.keywords: 'app, add-in, manifest, customize'
+ms.search.form: '1070, 1071, 1073, 1074'
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 19e44bf675e02df3494338fb729f9d28081ca6bd
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9361839"
 ---
-# <a name="the-paypal-payments-standard-extension"></a>Die PayPal Payments Standard-Erweiterung
+# Die PayPal Payments Standard-Erweiterung
 
 Debitoren erfordern regelmäßig höheren Debitorenservice, sowohl in Bezug auf Produktqualität wie auch in Bezug auf Lieferungs- und Zahlungsoptionen. Mit dem PayPal Payments Standard-Service erhöhen Sie Ihren Debitorenservice.
 
@@ -35,7 +29,7 @@ Der PayPal Payments Standard-Service hat folgende Vorteile:
 
 Weitere Informationen finden Sie unter [Aktivieren Sie Debitoren-Zahlung durch PayPal](sales-how-enable-payment-service-extensions.md)
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Anpassen von [!INCLUDE[prod_short](includes/prod_short.md)] mithilfe von Erweiterungen](ui-extensions.md)  
 [Einrichten von Verkäufen](sales-setup-sales.md)  

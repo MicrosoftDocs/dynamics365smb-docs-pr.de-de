@@ -1,23 +1,17 @@
 ---
 title: Verkaufen von Auftragsmontageartikeln
-description: Erfahren Sie, wie Sie ein Element verkaufen, das auf Bestellung montiert wird.
+description: 'Erfahren Sie, wie Sie ein Element verkaufen, das auf Bestellung montiert wird.'
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: andreipa
 ms.service: dynamics365-business-central
 ms.topic: how-to
 ms.date: 11/23/2022
-ms.search.keywords: kit, kitting, substitute items
-ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
+ms.search.keywords: 'kit, kitting, substitute items'
+ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905'
 ms.custom: bap-template
-ms.openlocfilehash: a9c686531a813e9eaf849d30fbcb41fc4f31c696
-ms.sourcegitcommit: 61f22aeede684f0ae772353ede6530ff03ff2f90
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/24/2022
-ms.locfileid: "9804472"
 ---
-# <a name="sell-items-assembled-to-order"></a>Verkaufen von Auftragsmontageartikeln
+# Verkaufen von Auftragsmontageartikeln
 
 Elemente, die für die Programmfertigung festgelegt sind, müssen nicht im Bestand sein und werden erst montiert, wenn sie in einem Verkaufsauftrag enthalten sind. Ein Artikel ist für die Programmfertigung festgelegt, wenn das Feld **Richtlinie zur Programmfertigung** auf der Artikelkarte **Montage auf Bestellung** enthält. Wenn Sie den Artikel in eine Kundenauftragszeile eingeben, wird automatisch ein Montageauftrag erstellt und mit dem Kundenauftrag verknüpft.  
 
@@ -34,9 +28,9 @@ Bei diesem Verfahren verarbeiten Sie den verkauf eines Artikels, der gemäß den
 > [!NOTE]  
 > Die folgende Vorgehensweise umfasst nicht die Schritte zum Erstellen eines Standard-Kundenauftrags, die vor dem Schritt erfolgen, in dem Sie die Montageposition in eine Verkaufsauftragszeile eingeben. Weitere Informationen zum Erstellen von Verkaufsaufträgen finden Sie unter [Produkte mit einem Kundenverkaufsauftrag erstellen](sales-how-sell-products.md).  
 
-## <a name="to-sell-an-item-that-is-assembled-to-order"></a>So verkaufen Sie einen Auftragsmontageartikel:
+## So verkaufen Sie einen Auftragsmontageartikel:
 
-1. Wählen Sie das Symbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Verkaufsaufträge** ein, und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie das Symbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Verkaufsaufträge** ein, und wählen Sie dann den zugehörigen Link.  
 2. Erstellen Sie einen Auftrag. 
 3. Geben Sie im Feld **Nr.** Geben Sie im Feld Nr. einen Artikel ein, der als Auftragsmontageartikel eingerichtet ist.  
 4. Geben Sie im Feld **Lagerortcode** den Lagerort an, von dem aus der Artikel verkauft werden wird. Der Montageprozess wird an diesem Lagerort durchgeführt.  
@@ -66,15 +60,15 @@ Bei diesem Verfahren verarbeiten Sie den verkauf eines Artikels, der gemäß den
 > [!NOTE]  
 > Bei der Ersetzung von Elementen wird ein Element nicht automatisch durch ein anderes ersetzt, z.B. wenn Sie einen Verkaufsauftrag oder eine Stückliste erstellen. Stattdessen werden Sie gewarnt, dass eine Ersetzung verfügbar ist.
 
-## <a name="see-related-microsoft-training"></a>Siehe zugehörige [Microsoft Schulungen](/training/modules/assemble-to-order-dynamics-365-business-central/)
+## Siehe zugehörige [Microsoft Schulungen](/training/modules/assemble-to-order-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Montageverwaltung](assembly-assemble-items.md)  
 [Arbeiten mit Stücklisten für die Montage](assembly-how-work-assembly-boms.md)  
 [Neue Artikel registrieren](inventory-how-register-new-items.md)  
 [Bestand](inventory-manage-inventory.md)  
-[Design Details: Lagerort Management](design-details-warehouse-management.md)  
+[Lagerverwaltung – Übersicht](design-details-warehouse-management.md)
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

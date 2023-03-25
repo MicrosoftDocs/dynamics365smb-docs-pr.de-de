@@ -1,22 +1,17 @@
 ---
 title: Touch- und Stiftgesten
-description: Erfahren Sie mehr über Touch- und Stiftgesten, die Ihnen helfen, effizient mit Ihren Daten von Tablets und Telefonen zu arbeiten.
+description: 'Erfahren Sie mehr über Touch- und Stiftgesten, die Ihnen helfen, effizient mit Ihren Daten von Tablets und Telefonen zu arbeiten.'
 author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: accessibility, shortcuts, charts, tiles
+ms.search.keywords: 'accessibility, shortcuts, charts, tiles'
 ms.date: 04/29/2021
 ms.author: jswymer
-ms.openlocfilehash: b186ef113a356b7f3444755ef73712bdcfd7095a
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8366542"
 ---
-# <a name="touch-and-pen-gestures-for-tablet-and-phones"></a>Berührungs- und Stiftgesten für Tablets und Telefone 
+
+# Berührungs- und Stiftgesten für Tablets und Telefone 
 
 In diesem Artikel finden Sie einige spezielle Gesten, die Sie bei der Arbeit mit [!INCLUDE[prod_short](includes/prod_short.md)] von einem Tablet oder Telefon aus verwenden können.
 
@@ -35,7 +30,7 @@ Business Central built-in charts display useful information about business data 
 
 -->
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Nur PC-Tastenkombinationskurzübersicht](keyboard-shortcuts-cheatsheet.md)  
 [Assistive Funktionen](ui-accessibility.md)  

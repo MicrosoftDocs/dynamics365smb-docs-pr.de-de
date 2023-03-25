@@ -1,22 +1,16 @@
 ---
 title: Neugestaltungs- oder direkt Aktualisierung von Fertigungsaufträgen
-description: In diesem Thema wird beschrieben, wie Sie Produktionsaufträge neu planen und Produktionsaufträge direkt aktualisieren können.
+description: 'In diesem Thema wird beschrieben, wie Sie Produktionsaufträge neu planen und Produktionsaufträge direkt aktualisieren können.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 99000842, 99000843, 99000861, 99000862, 99000863
+ms.search.form: '99000842, 99000843, 99000861, 99000862, 99000863'
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 3554fc674732c68e47bfd28c033534d1686e1421
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8515381"
 ---
-# <a name="replan-or-refresh-production-orders-directly"></a>Produktionsaufträge direkt umplanen oder auffrischen
+# Produktionsaufträge direkt umplanen oder auffrischen
 
 Die Funkion **Neu Planen** wird in der Regel nach dem Hinzufügen bzw. Ändern von Komponenten ausgeführt, aus denen sich zugrunde liegende Fertigungsaufträge zusammensetzen. Mit dieser Planungsfunktion werden Änderungen berechnet, die an Komponenten und Arbeitsgängen vorgenommen werden. Dabei werden Artikel auf niedrigeren Ebenen der Fertigungsstückliste berücksichtigt, für die ggf. neue Fertigungsaufträge erstellt werden.  
 
@@ -34,7 +28,7 @@ Sie können die FA-Zeilen entweder manuell eintragen oder Sie verwenden die Funk
 > [!NOTE]
 > Wenn Sie die Funktion Aktualisieren zur Berechnung der FA-Zeilen aus dem Fertigungsauftragskopf verwenden, werden die bestehenden FA-Zeilen gelöscht und neue Zeilen berechnet.  
 
-## <a name="to-replan-a-production-order"></a>Einen Fertigungsauftrag neu planen
+## Einen Fertigungsauftrag neu planen
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten"). Symbol. Geben Sie **Geplante Prod. Aufträge** ein und wählen Sie dann den zugehörigen Link.  
 2. Öffnen Sie den Fertigungsauftrag, den Sie neu planen wollen.  
@@ -63,7 +57,7 @@ Sie können die FA-Zeilen entweder manuell eintragen oder Sie verwenden die Funk
 > [!NOTE]  
 > Mithilfe der Funktion **Neu planen** implementierte Änderungen wirken sich mit hoher Wahrscheinlichkeit auf den Kapazitätsbedarf des Fertigungsauftrags aus, sodass Sie die Arbeitsgänge anschließend ggf. neu planen müssen.  
 
-## <a name="to-refresh-a-production-order"></a>Einen Fertigungsauftrag aktualisieren
+## Einen Fertigungsauftrag aktualisieren
 
 Wenn Sie FA-Zeilen geändert haben, dann müssen Sie die Komponenten des Fertigungsauftrags aktualisieren. Im weiteren Vorgang werden die Komponenten für einen fest geplanten Fertigungsauftrag berechnet. Die Schritte sind für eine Arbeitsplanzeile ähnlich.
 
@@ -86,7 +80,7 @@ Wenn Sie FA-Zeilen geändert haben, dann müssen Sie die Komponenten des Fertigu
 > [!NOTE]  
 > Die Berechnung der FA-Komponenten löscht die bisherigen Änderungen in den Komponenten.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Planung](production-planning.md)  
 [Produktion einrichten](production-configure-production-processes.md)  

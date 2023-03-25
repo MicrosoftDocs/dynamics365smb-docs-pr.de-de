@@ -1,23 +1,17 @@
 ---
 title: FA entsorgen oder ausmustern
-description: Wenn Sie eine Anlage verkaufen oder anderweitig entfernen, muss der Verkaufswert gebucht werden, um den Gewinn oder Verlust zu berechnen und zu erfassen.
+description: 'Wenn Sie eine Anlage verkaufen oder anderweitig entfernen, muss der Verkaufswert gebucht werden, um den Gewinn oder Verlust zu berechnen und zu erfassen.'
 author: edupont04
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: scrap
-ms.search.form: 5628, 5610, 5611, 5629, 5633
+ms.search.form: '5628, 5610, 5611, 5629, 5633'
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 47faf0bbc342500898d3a0df9d50afda37eb38a3
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9533159"
 ---
-# <a name="dispose-of-or-retire-fixed-assets"></a>Anlagen entsorgen oder außer Dienst stellen
+# Anlagen entsorgen oder außer Dienst stellen
 
 Wenn Sie eine Anlage verkaufen oder anderweitig veräußern, muss der Veräußerungswert gebucht werden, um den Gewinn oder Verlust zu berechnen und zu erfassen. Ein Verkaufsposten muss der letzte gebuchte Posten einer Anlage sein. Für teilweise verkaufte Anlagen können Sie mehrere Verkaufsposten buchen. Die Summe aller gebuchten Verkaufsbeträge muss ein Habenposten sein.  
 
@@ -26,7 +20,7 @@ Wenn Sie eine Anlage verkaufen oder anderweitig veräußern, muss der Veräußer
 
 Bei den folgenden Schritten wird davon ausgegangen, dass Sie die entsprechenden Buchungsgruppen auf der Seite **Anlagen-Buchungsgruppen** bereits eingerichtet haben. Weitere Informationen finden Sie unter [So richten Sie Anlagenbuchungsgruppen ein](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).  
 
-## <a name="to-post-a-disposal-from-the-fixed-asset-gl-journal"></a>So buchen Sie einen Verkauf aus dem Anlagen Fibu Buch.-Blatt
+## So buchen Sie einen Verkauf aus dem Anlagen Fibu Buch.-Blatt
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Anlagen-Fibu Buch.-Blätter** ein, und wählen Sie dann den zugehörigen Link.  
 2. Erstellen Sie eine ursprüngliche Buch.-Blattzeile und füllen Sie die notwendigen Felder aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -39,7 +33,7 @@ Bei den folgenden Schritten wird davon ausgegangen, dass Sie die entsprechenden 
 
 Wenn Sie eine Anlage zum Teil verkaufen, müssen Sie die Anlage aufteilen, bevor Sie die Verkaufstransaktion buchen können. Weitere Informationen finden Sie unter [Übertragen, Teilen oder Kombinieren von Anlagen](fa-how-trans-split-combine.md).  
 
-## <a name="to-view-disposal-ledger-entries"></a>So zeigen Sie Verkaufsposten an
+## So zeigen Sie Verkaufsposten an
 
 Wenn Sie eine Anlage verkaufen, wird der Verkaufswert in den Sachposten gebucht, wo Sie die Ergebnisse anzeigen können.  
 
@@ -51,9 +45,9 @@ Wenn Sie eine Anlage verkaufen, wird der Verkaufswert in den Sachposten gebucht,
 
 Die Seite **Sachposten** wird geöffnet, in dem Sie die Posten sehen können, die aus der Verkaufsbuchung resultieren.  
 
-## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/dispose-fixed-assets/)
+## Siehe verwandte [Microsoft Schulungen](/training/modules/dispose-fixed-assets/)
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Anlagen](fa-manage.md)  
 [Einrichten von Anlagen](fa-setup.md)  

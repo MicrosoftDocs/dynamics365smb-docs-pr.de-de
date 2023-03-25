@@ -1,24 +1,18 @@
 ---
 title: Compliance-Übersicht
-description: Überblick darüber, wie die Funktionalität von Business Central auf einer Plattform aufgebaut ist, die es den Debitoren leicht macht, Compliance und gesetzliche Vorschriften einzuhalten.
+description: 'Überblick darüber, wie die Funktionalität von Business Central auf einer Plattform aufgebaut ist, die es den Debitoren leicht macht, Compliance und gesetzliche Vorschriften einzuhalten.'
 author: sorenfriisalexandersen
 documentationcenter: ''
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.reviewer: edupont
 ms.date: 06/14/2021
 ms.author: soalex
-ms.openlocfilehash: c771776965a1535d3a16a07f008a017a4a4c8a33
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146826"
 ---
-# <a name="compliance-overview"></a>Compliance-Übersicht
+# Compliance-Übersicht
 
 Dieser Inhalt enthält Informationen über Dienstkompatibilität in Bezug auf [!INCLUDE[prod_short](../includes/prod_short.md)].  
 

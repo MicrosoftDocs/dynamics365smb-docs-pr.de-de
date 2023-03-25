@@ -1,6 +1,6 @@
 ---
-title: Schließen Sie Artikelbucheinträge, die aus einer festen Anwendung stammen
-description: Erfahren Sie, wie Sie einen festen Ausgleich zwischen einer eingehenden Transaktion und der ursprünglichen ausgehenden Transaktion im Artikel-Buch erstellen.
+title: 'Schließen Sie Artikelbucheinträge, die aus einer festen Anwendung stammen'
+description: 'Erfahren Sie, wie Sie einen festen Ausgleich zwischen einer eingehenden Transaktion und der ursprünglichen ausgehenden Transaktion im Artikel-Buch erstellen.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -9,14 +9,8 @@ ms.workload: na
 ms.search.form: 40
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: dfcab14c585873aca8b9f65d2ebd6d188771b4dc
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138570"
 ---
-# <a name="close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal"></a>Schließen von offenen Artikelposten aus einem festen Ausgleich im Artikel Buch.-Blatt
+# Schließen von offenen Artikelposten aus einem festen Ausgleich im Artikel Buch.-Blatt
 
 Sie können das Feld **Ausgegl. von Posten** auf der Seite **Artikel Buch.-Blatt** verwenden, um einen festen Ausgleich zwischen einer eingehenden Transaktion und der ursprünglichen ausgehenden Transaktion zu erstellen. Beispielsweise um die ausgehende Transaktion zu korrigieren oder ihre Rückgabe zu verarbeiten.  
 
@@ -29,7 +23,7 @@ Sie können Ausgleichsposten unter bestimmten Bedingungen ändern und erneut anw
 
 Der folgende Ablauf zeigt, wie solche Posten durch Ausführen von zwei korrigierenden Buchungen im Artikel Buch.-Blatt geschlossen werden.  
 
-## <a name="to-close-open-item-ledger-entries-that-result-from-a-fixed-application-in-the-item-journal"></a>So schließen Sie offene Artikelposten, die aus einem festen Ausgleich im Artikel Buch.-Blatt entstanden sind  
+## So schließen Sie offene Artikelposten, die aus einem festen Ausgleich im Artikel Buch.-Blatt entstanden sind  
 
 1. Verwenden Sie das Feld **Ausgegl. von Posten**, um einen Zugang mit der entsprechenden Menge zu buchen. Dadurch wird der ursprüngliche negative Posten mit einem festen Ausgleich geschlossen.  
 
@@ -38,7 +32,7 @@ Der folgende Ablauf zeigt, wie solche Posten durch Ausführen von zwei korrigier
 
     Das Feld **Ausgegl.-von-Posten** gibt an, ob die Menge in der Artikel Buch.-Blattzeile mit einem bereits gebuchten Beleg ausgeglichen werden soll. Ist dies der Fall, geben Sie die Postennummer des Artikelpostens ein, der mit der Artikel Buch.-Blattzeile ausgeglichen werden soll.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Artikelposten entfernen und erneut ausgleichen](finance-how-to-remove-and-reapply-item-entries.md)  
 [Verarbeiten von Verkaufsrücklieferung und Stornierungen](sales-how-process-sales-returns-cancellations.md)  

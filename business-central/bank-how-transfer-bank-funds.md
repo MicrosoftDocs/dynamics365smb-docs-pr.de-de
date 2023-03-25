@@ -1,27 +1,21 @@
 ---
 title: Bank-Geldmittel überweisen
-description: Sie können Überweisungsbeträge von einem Bankkonto auf ein anders übertragen, einschließlich verschiedene Währungen, indem Sie die Transaktion im Fibu Buch.-Blatt buchen.
+description: 'Sie können Überweisungsbeträge von einem Bankkonto auf ein anders übertragen, einschließlich verschiedene Währungen, indem Sie die Transaktion im Fibu Buch.-Blatt buchen.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: bank account transfer, multiple currencies
+ms.search.keywords: 'bank account transfer, multiple currencies'
 ms.search.form: 39
 ms.date: 04/29/2021
 ms.author: edupont
-ms.openlocfilehash: 632f802678de33e7c00fa95dab38530a1364ff3b
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511727"
 ---
-# <a name="transfer-bank-funds"></a>Bank-Geldmittel überweisen
+# Bank-Geldmittel überweisen
 
 Manchmal ist es erforderlich, einen Betrag von einem Bankkonto in [!INCLUDE[prod_short](includes/prod_short.md)] auf ein anderes Bankkonto zu überweisen. Dazu müssen Sie die Transaktion auf der Seite **Allgemeines Journal** buchen. Die Aufgabe variiert abhängig davon, ob die Bankkonten dieselbe Währung oder unterschiedlichen Währungen verwenden.
 
-## <a name="to-post-a-transfer-between-bank-accounts-with-the-same-currency-code"></a>So buchen Sie Überweisungen zwischen Bankkonten mit demselben Währungscode:
+## So buchen Sie Überweisungen zwischen Bankkonten mit demselben Währungscode:
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Fibu Buch.-Blatt** ein und wählen Sie dann den zugehörigen Link.
 2. Füllen Sie in einer Buch.-Blattzeile die Felder **Buchungsdatum** und **Belegnr.** aus.
@@ -34,7 +28,7 @@ Manchmal ist es erforderlich, einen Betrag von einem Bankkonto in [!INCLUDE[prod
 7. Im Feld **Gegenkontonr.** wählen Sie das Bankkonto aus, auf das Sie die Beträge überweisen möchten.
 8. Buchen Sie das Buch.-Blatt.
 
-## <a name="to-post-a-transfer-between-bank-accounts-with-different-currency-codes"></a>Überweisungen zwischen Bankkonten mit verschiedenen Währungscodes buchen:
+## Überweisungen zwischen Bankkonten mit verschiedenen Währungscodes buchen:
 
 Um Beträge zwischen Bankkonten zu transferieren, die unterschiedliche Währungen verwenden, müssen Sie zwei Fibu Buch.-Blattzeilen buchen.
 
@@ -71,7 +65,7 @@ Um Beträge zwischen Bankkonten zu transferieren, die unterschiedliche Währunge
     > Ein Betrag ohne Vorzeichen ist eine Belastung, ein Betrag mit Minuszeichen ist eine Gutschrift.
 10. Buchen Sie das Buch.-Blatt.
 
-## <a name="see-also"></a>Weitere Informationen
+## Weitere Informationen
 
 [Abstimmen von Bankkonten](bank-manage-bank-accounts.md)  
 [Einrichten von Banken](bank-setup-banking.md)  

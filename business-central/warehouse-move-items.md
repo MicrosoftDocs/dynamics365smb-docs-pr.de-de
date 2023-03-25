@@ -1,53 +1,48 @@
 ---
 title: Artikel verschieben
-description: Im Lagerbestand müssen Artikel möglicherweise zwischen Lagerplätzen umgelagert werden, um die täglichen Lageraktivitäten zu unterstützen, die für einen optimalen Lagerdurchlauf der Artikel verantwortlich sind.
-author: SorenGP
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.form: 7315, 7349, 7351, 7382, 7384, 7386, 7387, 7399, 7400, 9314, 9330, 9345
-ms.date: 06/25/2021
-ms.author: edupont
-ms.openlocfilehash: c74a14711fc6bd682a4a1675925690b7aabdf8d3
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9530837"
+description: Erfahren Sie mehr über das Umlagern von Artikeln zwischen Lagerplätzen in Ihrem Lager.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: andreipa
+ms.service: dynamics365-business-central
+ms.topic: Conceptual
+ms.date: 01/25/2023
+ms.custom: bap-template
+ms.search.form: '7315, 7349, 7351, 7382, 7384, 7386, 7387, 7399, 7400, 9314, 9330, 9345'
 ---
-# <a name="moving-items"></a>Umlagern von Artikeln
+# Umlagern von Artikeln
 
-Die Lageraktivität des Umlagerns von Artikeln innerhalb des Lagers erfolgt je nach Konfiguration der Logistikfunktionen auf unterschiedliche Arten. Die Komplexität reicht von keinen Lagerfunktionen über Basis-Lagerkonfigurationen für die individuelle Abwicklung einzelner Aufträge in einer Aktivität oder mehreren Aktivitäten bis hin zu erweiterten Konfigurationen, bei denen alle Lageraktivitäten in einem gesteuerten Workflow durchgeführt werden müssen. Weitere Informationen finden Sie unter [Lagerortverwaltung einrichten](warehouse-setup-warehouse.md).
+Sie können Artikel in Ihrem Lager auf unterschiedliche Weise umlagern, je nachdem, wie Sie Ihr Lager konfiguriert haben. Die Komplexität kann variieren:
 
-An einem Lagerort müssen Artikel möglicherweise zwischen Lagerplätzen umgelagert werden, um die täglichen Lageraktivitäten zu unterstützen, die für einen optimalen Lagerdurchlauf der Artikel verantwortlich sind. Einige Lagerplatzumlagerungen geschehen in der direkten Verknüpfung mit internen Vorgängen, wie einem Fertigungsauftrag, der die Lieferung von Komponenten benötigt, oder Endartikel, die eingelagert müssen. Andere Umlagerungen geschehen aus Gründen der Lagerplatzoptimierung oder als Ad-hoc-Lagerplatzumlagerungen zu und von Arbeitsgängen.
+* Kleine Lager verwenden möglicherweise Basislagerkonfigurationen, um Bestellungen einzeln in einem oder mehreren Schritten zu bearbeiten.
+* Große Lager verwenden möglicherweise erweiterte Konfigurationen, bei denen alle Lageraktivitäten durch einen gerichteten Workflow koordiniert werden. Weitere Informationen finden Sie unter [Einrichten von Warehouse Management](warehouse-setup-warehouse.md).
 
-Zusätzliche Umlagerungsaufgaben dienen der regelmäßigen Auffüllung von Kommissionierungslagerplätzen oder Fertigungsbereitstellungslagerplätzen und der Bearbeitung von Lagerplatzinhaltsinformationen.
+Artikel müssen möglicherweise zwischen Lagerplätzen bewegt werden, z. B. aufgrund interner Vorgänge:
 
-Das Umlagern von Artikeln an andere Lagerorte wirkt sich auf die Artikelposten aus und muss daher anhand eines Umlagerungsauftrags erfolgen. Weitere Informationen finden Sie unter [Lagerbestand zwischen Lagerplätzen umlagern](inventory-how-transfer-between-locations.md).  
+* Für einen Produktionsauftrag müssen Komponenten geliefert oder fertige Artikel eingelagert werden.
+* Ein Lagerleiter möchte den Platz optimieren.
+* Ungeplante Umlagerungen zu und von Operationen.
+* Kommissionierungslagerplätze oder Lagerplätze im Fertigungsbereich auffüllen.
+* Lagerplatzinhalte aktualisieren.
 
-Die lagerbezogenen Aufgaben der Zählung, Anpassung und Umbuchung von Artikeln beinhaltet möglicherweise Lageraufgaben, die für Lagerplatzposten ausgeführt werden müssen, bevor sie mit den zugehörigen Artikelposten synchronisiert werden können. Weitere Informationen finden Sie unter [Erfassen, Regulieren und Umbuchen von Lagerbestand](inventory-how-count-adjust-reclassify.md)  
+Die Zählung, Anpassung und Umbuchung von Artikeln kann Lageraufgaben beinhalten, die für Lagerplatzposten ausgeführt werden müssen, bevor sie mit den Artikelposten synchronisiert werden können. Weitere Informationen finden Sie unter [Erfassen, Regulieren und Umbuchen von Lagerbestand](inventory-how-count-adjust-reclassify.md).  
 
- Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Themen, die sie beschreiben..   
+ Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Artikeln, die sie beschreiben.
 
-|**Aufgabe**|**Siehe**|  
+|**Bis**|**Siehe**|  
 |------------|-------------|  
+|Umlagern von Artikeln zwischen Standorten|[Lagerbestand zwischen Lagerplätzen umlagern](inventory-how-transfer-between-locations.md)|
 |Lagern Sie Artikel in den Basislagerkonfigurationen jederzeit und ohne Herkunftsbelege zwischen Lagerplätzen um.|[Umlagern von Artikeln in Basis-Lagerkonfigurationen](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)|
-|Verwenden Sie den Lagerplatzumlagerungsarbeitsblatt, um Artikel für Herkunftsbelege und Ad-hoc in erweiterte Lagerkonfigurationen zu verschieben.|[Umlagerung von Artikeln in erweiterten Lagerkonfigurationen](warehouse-how-to-move-items-in-advanced-warehousing.md)|  
-|Bringen Sie in den Basislagerkonfigurationen Komponenten zu den internen Vorgängen, wie von Herkunftsbelegen für diese Arbeitsgänge angefordert.|[So verschieben Sie Komponenten in einen Arbeitsgangbereich in Basis-Lagerkonfigurationen](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)|
-|Planen Sie, welche Lagerplätze gefüllt oder geleert werden sollen, um einen effizienten Ablauf zu gewährleisten, wie z. B. das Leeren eines Palettenlagerplatzes vor einem großen Wareneingang.|[Planen von Umlagerungen in Arbeitsblättern](warehouse-how-to-plan-warehouse-movements-in-worksheets.md)|
-|Aktualisieren Sie aufgrund von Nachfrageschwankungen die Häufigkeit, mit der Lagerplätze, z. B. Kommissionierungslagerplätze, aufgefüllt werden müssen.|[Lagerplatzauffüllung berechnen](warehouse-how-to-calculate-bin-replenishment.md)|
+|Verwenden Sie das Lagerplatzumlagerungsarbeitsblatt, interne Kommissionierung und Einlagerung, um Artikel in erweiterter Lagerkonfigurationen mit gesteuerter Kommissionierung und Entnahme umzulagern.|[Umlagerung von Artikeln in erweiterten Lagerkonfigurationen](warehouse-how-to-move-items-in-advanced-warehousing.md)|  
 |Strukturieren Sie Ihr Lager mit neuen Lagerplatzcodes und neuen Lagerplatzeigenschaften neu und lagern Sie sie ggf. um.|[Lager umstrukturieren](warehouse-how-to-restructure-warehouses.md)|  
 
-## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/manage-internal-warehouse-processes/)
+## Siehe verwandte [Microsoft Schulungen](/training/modules/manage-internal-warehouse-processes/)
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
-[Logistik](warehouse-manage-warehouse.md)  
+[Lagerverwaltung – Übersicht](design-details-warehouse-management.md)  
 [Bestand](inventory-manage-inventory.md)  
 [Einrichten von Warehouse Management](warehouse-setup-warehouse.md)  
-[Montageverwaltung](assembly-assemble-items.md)  
-[Designdetails: Warehouse Management](design-details-warehouse-management.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

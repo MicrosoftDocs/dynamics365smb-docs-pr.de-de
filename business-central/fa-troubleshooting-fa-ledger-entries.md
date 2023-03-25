@@ -1,31 +1,25 @@
 ---
 title: Die Erweiterung zur Problembehebung bei Anlagenposten
-description: Es ist einfacher, mit ganzen Zahlen zu arbeiten. Verwenden Sie diese Erweiterung, um Beträge für Anlagen im Anlagenposten zu runden.
+description: 'Es ist einfacher, mit ganzen Zahlen zu arbeiten. Verwenden Sie diese Erweiterung, um Beträge für Anlagen im Anlagenposten zu runden.'
 documentationcenter: ''
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: machinery, buildings
+ms.search.keywords: 'machinery, buildings'
 ms.date: 10/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 8ce484583ef5eddc8e6aee675715487c3bd4e974
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382471"
 ---
-# <a name="the-troubleshooting-fa-ledger-entries-extension"></a>Die Erweiterung zur Problembehebung bei Anlagenposten
+# Die Erweiterung zur Problembehebung bei Anlagenposten
 Verwenden Sie die Erweiterung zur Problembehebung bei Anlagenposten, um Abschreibungs- und Anschaffungsbeträge in Anlagenposten auf ganze Zahlen zu runden. Beispielsweise zum Runden eines Betrags von 30.000,44 auf 30.000. Typische Ursachen für Rundungsprobleme sind Datenmigration, plötzliche Buchungen von Beträgen im Sachposten oder Anpassungen, die Sie an Ihrem [!INCLUDE[prod_short](includes/prod_short.md)] vorgenommen haben.
 
 Die Erweiterung zur Problembehebung bei Anlagenposten ist vorinstalliert und kann verwendet werden. Wenn Sie die Erweiterung entfernen, sie jedoch erneut installieren möchten, finden Sie sie unter AppSource.
 
-## <a name="troubleshooting-fixed-asset-ledger-entries"></a>Problembehebung bei Anlagenposten
+## Problembehebung bei Anlagenposten
 Wenn Sie die Seite **Anlagenkarte** zum ersten Mal öffnen, wird die Aufgabenwarteschlange **Anlagenpostenüberprüfung** so geplant, dass die Beträge jeden Sonntag überwacht werden. Wenn Beträge gefunden werden, die Sie möglicherweise runden möchten, wird beim nächsten Öffnen der Seite „Anlagenkarte“ eine Benachrichtigung angezeigt. Die Benachrichtigung stellt die Option **Weitere Informationen** zum Öffnen der Seite **Anlagenposten mit Rundungsproblemen** bereit, auf der die Posten aufgelistet sind, die Sie möglicherweise runden möchten. Wählen Sie zum Runden der Beträge die entsprechenden Posten und dann die Aktion **Auswahl akzeptieren** aus. Mit der Aktion **Posten mit Problemen suchen** können Sie die Liste mit neuen Problemen aktualisieren, die aufgetreten sind, nachdem der Aufgabenwarteschlangenposten am vorherigen Sonntag ausgeführt wurde.
 
-## <a name="see-also"></a>Weitere Informationen
+## Weitere Informationen
 [Anlagen](fa-manage.md)  
 [Verwaltung von Anlagen](fa-manage.md)  
 [Anlagen verwalten](fa-how-maintain.md)  

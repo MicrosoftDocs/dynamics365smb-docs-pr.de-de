@@ -1,27 +1,22 @@
 ---
 title: Business Intelligence-Schnellstart
-description: Erfahren Sie, wie Business Central Ihnen hilft, Unternehmensdaten mithilfe von Business Intelligence-Berichten und Dashboards in umsetzbare Erkenntnisse umzuwandeln.
+description: 'Erfahren Sie, wie Business Central Ihnen hilft, Unternehmensdaten mithilfe von Business Intelligence-Berichten und Dashboards in umsetzbare Erkenntnisse umzuwandeln.'
 author: rubenseishima
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: quickstart
-ms.search.form: ''
+ms.search.form: null
 ms.date: 08/17/2022
 ms.author: a-reishima
-ms.openlocfilehash: 7fddf26a712dc4f6f225de8fd20024fb755c63ee
-ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "9586051"
 ---
-# <a name="business-intelligence-quick-start"></a>Business Intelligence-Schnellstart
+
+# Business Intelligence-Schnellstart
 
 In der Lage zu sein, die ständig wachsenden Datenmengen auf umsetzbare Weise zu sammeln und zu analysieren, ist heutzutage ein unschätzbarer Teil der Geschäftstätigkeit. [!INCLUDE[prod_short](includes/prod_short.md)] bietet viele Business Intelligence (BI)-Tools&mdash; sowohl integriert als auch integriert mit anderen Diensten&mdash;um Ihr Unternehmen bei der Entscheidungsfindung zu unterstützen.
 
-## <a name="get-insights-on-your-key-points-of-interest"></a>Erhalten Sie Einblicke in Ihre wichtigsten Points of Interest
+## Erhalten Sie Einblicke in Ihre wichtigsten Points of Interest
 
 [!INCLUDE[prod_short](includes/prod_short.md)] enthält integrierte Diagramme, die im Bereich **Einblicke** auf Ihrer Homepage angezeigt werden können, darunter *Einnahmen & Ausgaben*, *Cashflow*, *Verkaufstrends* und andere Berichte. Weitere Key Performance Indicators (KPIs) finden Sie auf der Seite **Einblicke aus der intelligenten Cloud**, die umsetzbare Informationen aus Finanzen, Inventar, Verkauf und Beschaffung anzeigt:
 
@@ -29,7 +24,7 @@ In der Lage zu sein, die ständig wachsenden Datenmengen auf umsetzbare Weise zu
 
 Die verfügbaren Datenkarten und Einblicke können ausgewählt werden, um die zugehörige Ledger-Seite zu öffnen. Die Seite **Einblicke aus der intelligenten Cloud** verwendet auch eine Verbindung mit bestehenden Power BI- und Azure Machine Learning-Abonnements zum Anzeigen von Analyse- und Prognose-Dashboards.
 
-## <a name="set-up-power-bi-integration"></a>Power BI-Integration einrichten
+## Power BI-Integration einrichten
 
 Sie können [!INCLUDE[prod_short](includes/prod_short.md)] mit Power BI verbinden, um durchdringende Berichte und leistungsstarke Dashboards erstellen. Power BI-Integration bietet viele Optionen, um Einblicke auf der Grundlage Ihrer Unternehmensdaten zu geben, einschließlich einer Vielzahl von visuellen, Filter- und Anzeigeanpassungen.
 
@@ -45,9 +40,9 @@ Die Power BI-Integration mit [!INCLUDE[prod_short](includes/prod_short.md)] enth
 
 Sie können auch visuelle Berichte basierend auf [!INCLUDE[prod_short](includes/prod_short.md)] erstellen, indem Sie die Dateitypoption **Microsoft Excel Dokument (nur Daten)** auf Berichtsanforderungsseiten verwenden. Erfahren Sie mehr unter [Berichte ausführen und drucken](ui-work-report.md).
 
-## <a name="see-related-training-at-microsoft-learn"></a>Siehe verwandte Schulungen unter [Microsoft Learn](/learn/paths/use-power-bi).
+## Siehe verwandte Schulungen unter [Microsoft Learn](/learn/paths/use-power-bi).
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Business Analyse und Financial Reporting](bi.md)  
 [Business Central Schnellstarts](quick-start-business-central.md)  

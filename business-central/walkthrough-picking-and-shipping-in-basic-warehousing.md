@@ -1,39 +1,30 @@
 ---
-title: Kommissionieren und Versand in Basic Warehouse Config
-description: In Business Central können die ausgehenden Prozesse zum Kommissionieren und Versenden je nach Komplexitätsgrad des Lagers auf die folgenden vier Arten durchgeführt werden.
-author: jill-kotel-andersson
+title: Kommissionierung und Lieferung in Basis-Lagerkonfigurationen
+description: Dieser Artikel beschreibt verschiedene Komplexitätsstufen in Kommissionier- und Versandprozessen.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: andreipa
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: ''
-ms.date: 06/24/2021
-ms.author: edupont
-ms.openlocfilehash: baa47a48cf7813a704666cb130eddc0adc6f4923
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9531944"
+ms.date: 02/27/2023
+ms.custom: bap-template
+ms.search.form: '7335, 7337, 7339, 7340, 7341, 7362, 9008'
 ---
-# <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations"></a>Exemplarische Vorgehensweise: Kommissionierung und Lieferung in Basis-Lagerkonfigurationen
+# Exemplarische Vorgehensweise: Kommissionierung und Lieferung in Basis-Lagerkonfigurationen
 
-<!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)] -->
+In [!INCLUDE[prod_short](includes/prod_short.md)] kommissionieren und versenden Sie Artikel wie in der folgenden Tabelle beschrieben, mit einer von vier Methoden.
 
-In [!INCLUDE[prod_short](includes/prod_short.md)] können die ausgehenden Prozesse für die Komissionierung und Lieferung auf vier Arten, mit den verschiedenen Funktionen, abhängig von der Lagerkomplexitätsebene, ausgeführt werden.  
+|Art|Ausgangsprozess|Kommissionierung erforderlich|Warenausgang erforderlich|Komplexitätsgrad (Weitere Informationen unter [Lagermanagementübersicht](design-details-warehouse-management.md))|  
+|------|----------------|-----|---------|-------------------------------------------------------------------------------------|  
+|A|Die Kommissionierung und den Versand aus der Auftragszeile buchen|||Keine dedizierte Lageraktivität.|  
+|B|Die Kommissionierung und den Warenausgang aus einem Lagerkommissionierungsbeleg buchen|Aktiviert||Basis: Auftragsbezogene Logistik|  
+|U|Die Kommissionierung und den Warenausgang aus einem Warenausgangsbeleg buchen||Aktiviert|Basis: Konsolidierte Eingangs-/Versandbuchung für mehrere Bestellungen.|  
+|T|Die Kommissionierung von einem Kommissionierbeleg und buchen Sie den Warenausgang aus einem Warenausgangsbeleg buchen|Aktiviert|Aktiviert|Erweitert|  
 
-|Art|Eingangsprozess|Lagerplätze|Kommissionierungen|Lieferungen|Komplexitätsebene anzeigen (siehe [Designdetails: Lagerhaus-Einrichtung](design-details-warehouse-setup.md))|  
-|------------|---------------------|----------|-----------|---------------|--------------------------------------------------------------------------------------------------------------------|  
-|A|Beitragsentnahme und -Lieferung aus der Auftragszeile|X|||2|  
-|F|Buchen Sie die Kommissionierung und den Warenausgang aus einem Lagerkommissionierungsbeleg||X||3|  
-|L|Buchen Sie die Kommissionierung und den Warenausgang aus einem Warenausgangsbeleg|||X|4/5/6|  
-|T|Buchen Sie die Kommissionierung von einem Kommissionierbeleg und buchen Sie den Warenausgang aus einem Warenausgangsbeleg||X|X|4/5/6|  
-
-Weitere Informationen finden Sie unter [Designdetails: Ausgehender Lagerfluss](design-details-outbound-warehouse-flow.md).  
+Weitere Informationen finden Sie unter [Ausgehender Lagerfluss](design-details-outbound-warehouse-flow.md).
 
 In der folgenden Vorgehensweise wird Methode B in der vorhergegangenen Tabelle beschrieben.  
 
-## <a name="about-this-walkthrough"></a>Informationen zu dieser exemplarischen Vorgehensweise
+## Informationen zu dieser exemplarischen Vorgehensweise
 
 Bei Basis-Lagerkonfigurationen gilt Folgendes: Wenn ein Lagerort so eingerichtet wurde, dass Kommissionierung erforderlich ist, jedoch Warenausgang nicht erforderlich ist, verwenden Sie die Seite **Lagerkommissionierung**, um Kommissionier- und Warenausgangsinformationen für Ihre Herkunftsbelege zu erfassen und zu buchen. Der ausgehende Herkunftsbeleg kann ein Verkaufsauftrag, eine Einkaufsreklamation, ein ausgehender Umlagerungsauftrag, ein Fertigungsauftrag oder ein Komponentenbedarf sein.  
 
@@ -45,7 +36,7 @@ In dieser exemplarischen Vorgehensweise werden folgende Aufgaben erläutert:
 - Erstellen einer Lagerkommissionierung basierend auf einem freigegebenen Herkunftsbeleg.  
 - Erfassen der Lagerplatzumlagerung aus dem Lager und gleichzeitig Buchen der Verkaufslieferung für den ursprünglichen Verkaufsauftrag.  
 
-## <a name="roles"></a>Rollen
+## Rollen
 
 Die Aufgaben in dieser Demonstration werden von den folgenden Benutzerrollen ausgeführt:  
 
@@ -60,33 +51,33 @@ To complete this walkthrough, you will need:
 - For [!INCLUDE[prod_short](includes/prod_short.md)] online, a company based on the **Advanced Evaluation - Complete Sample Data** option in a sandbox environment. For [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, CRONUS installed.
  -->
 
-## <a name="story"></a>Hintergrund
+## Hintergrund
 
 Ellen, die Lagermanagerin bei CRONUS, richtet das SÜD-Lager für grundlegende Komissionierungshandlung ein, in dem Lagermitarbeiter ausgehende Aufträge einzeln verarbeiten. Martha, die Verkaufsauftragsbearbeiterin, erstellt einen Verkaufsauftrag für 30 Einheiten des Artikels 1928-S, die dem Debitor 10000 aus dem SÜD-Lager geliefert werden. John, der Lagermitarbeiter muss sicherstellen, dass die Lieferung an den Debitor vorbereitet und geliefert wird. John verwaltet alle beteiligten Aufgaben auf der Seite **Lagerkommissionierung**, das automatisch auf die Lagerplätze verweist, in denen 1928-S gespeichert wird.
 
 [!INCLUDE[set_up_location.md](includes/set_up_location.md)]
 
-### <a name="setting-up-the-bin-codes"></a>Einrichten der Lagerplatzcodes
+### Einrichten der Lagerplatzcodes
 
 Nachdem Sie den Standort eingerichtet haben, müssen Sie zwei Lagerplätze hinzufügen.
 
-#### <a name="to-setup-the-bin-codes"></a>So richten Sie die Lagerplatzcodes ein
+#### So richten Sie die Lagerplatzcodes ein
 
 1. Wählen Sie die Aktion **Lagerplätze** aus.
 2. Erstellen Sie zwei Lagerplätze mit den Codes *S-01-0001* und *S-01-0002*.
 
-### <a name="making-yourself-a-warehouse-employee-at-location-south"></a>Machen Sie sich selbst zum Lagermitarbeiter am Standort SÜD
+### Machen Sie sich selbst zum Lagermitarbeiter am Standort SÜD
 
 Um diese Funktion nutzen zu können, müssen Sie sich selbst dem Lagerort als Lagermitarbeiter hinzufügen. 
 
-#### <a name="to-make-yourself-a-warehouse-employee"></a>So machen Sie sich selbst zum Lagermitarbeiter
+#### So machen Sie sich selbst zum Lagermitarbeiter
 
   1. Wählen Sie die ![Glühbirne, die zuerst die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Lagermitarbeiter** ein, und wählen Sie dann den zugehörigen Link.  
   2. Wählen Sie das Feld **Benutzer-ID** und dann Ihr eigenes Benutzerkonto auf der Seite **Lagermitarbeiter** aus.
   3. Wählen Sie im Feld **Lagerortcode** „SÜD“ aus.  
   4. Wählen Sie das Feld **Standard** und dann die Schaltfläche **Ja** aus.  
 
-### <a name="making-item-1928-s-available"></a>Artikel 1928-S verfügbar machen
+### Artikel 1928-S verfügbar machen
 
 Führen Sie die folgenden Schritte aus, um den Artikel LS-1928 SÜD-Standort verfügbar zu machen:  
 
@@ -103,11 +94,11 @@ Führen Sie die folgenden Schritte aus, um den Artikel LS-1928 SÜD-Standort ver
   3. Wählen Sie **Aktionen**, dann **Buchung** und anschließend die Option **Buchen** aus.  
   4. Wählen Sie die Schaltfläche **Ja** aus.  
 
-## <a name="creating-the-sales-order"></a>Erstellen des Verkaufsauftrags
+## Erstellen des Verkaufsauftrags
 
 Verkaufsaufträge sind die häufigste Art des ausgehenden Herkunftsbelegs.  
 
-### <a name="to-create-the-sales-order"></a>Den Verkaufsauftrag erstellen
+### Den Verkaufsauftrag erstellen
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion als dritte öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Verkaufsaufträge** ein, und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die Aktion **Neu** aus.  
@@ -123,11 +114,11 @@ Verkaufsaufträge sind die häufigste Art des ausgehenden Herkunftsbelegs.
 
     John fährt fort, die Verkaufsartikel zu kommissionieren und zu liefern.  
 
-## <a name="picking-and-shipping-items"></a>Kommissionierung und Versand von Artikeln
+## Kommissionierung und Versand von Artikeln
 
 Auf der Seite **Lagerkommissionierung** können Sie alle ausgehenden Lageraktivitäten für einen bestimmten Herkunftsbeleg, wie einen Verkauf, verwalten. [!INCLUDE[tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 
-### <a name="to-pick-and-ship-items"></a>So kommissionieren Sie Artikel und liefern diese aus
+### So kommissionieren Sie Artikel und liefern diese aus
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet viertens.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Lagerkommissionierungen** ein und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die Aktion **Neu**.  
@@ -144,14 +135,13 @@ Auf der Seite **Lagerkommissionierung** können Sie alle ausgehenden Lageraktivi
 
     Die 30 Lautsprecher werden nun erfasst, wie von den Lagerplätzen S-01-0001 und S-01-0002 kommissioniert, und es wird ein negativer Artikelposten erstellt, der gebuchte Verkaufslieferung anzeigt.  
 
-## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/paths/pick-ship-items-business-central/)
+## Siehe verwandte [Microsoft Schulungen](/training/paths/pick-ship-items-business-central/)
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Artikel mit der Lagerkommissionierung kommissionieren](warehouse-how-to-pick-items-with-inventory-picks.md)  
 [Um Artikel für den Warenausgang zu kommissionieren](warehouse-how-to-pick-items-for-warehouse-shipment.md)  
 [Einrichten von Basislagern mit Vorgangsbereichen](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md)  
-[So verschieben Sie Komponenten in einen Arbeitsgangbereich in Basis-Lagerkonfigurationen](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)  
 [Kommissionierung für die Produktion oder Montage](warehouse-how-to-pick-for-production.md)  
 [Ad-hoc-Umlagerung von Artikeln in Basis-Lagerkonfigurationen](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)  
 [Designdetails: Ausgehender Lagerfluss](design-details-outbound-warehouse-flow.md)  

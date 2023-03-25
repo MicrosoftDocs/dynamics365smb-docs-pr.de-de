@@ -1,20 +1,15 @@
 ---
 title: Bevorstehende Funktionen im Voraus aktivieren
-description: Erfahren Sie, wie Sie ausgewählte optionale Funktionen aktivieren, bevor sie obligatorisch werden.
+description: 'Erfahren Sie, wie Sie ausgewählte optionale Funktionen aktivieren, bevor sie obligatorisch werden.'
 author: mikebcMSFT
 ms.topic: conceptual
-ms.search.keywords: administration, admin, key, optional, feature management, early access, preview
+ms.search.keywords: 'administration, admin, key, optional, feature management, early access, preview'
 ms.search.form: 2610
 ms.date: 06/14/2021
 ms.author: mikebc
-ms.openlocfilehash: 0ff7ee2a56b762609e2b15f101c1e4abc9bd46cd
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9533348"
 ---
-# <a name="enabling-new-and-upcoming-features-ahead-of-time"></a>Neue und künftige Funktionen im Voraus aktivieren
+
+# Neue und künftige Funktionen im Voraus aktivieren
 
 Einige neue Funktionen können im Voraus aktiviert werden, sodass Sie sie so früh wie möglich nutzen können. Durch das frühzeitige Aktivieren von Funktionen haben Sie Zeit, Ihre Organisation zu testen und auf Änderungen vorzubereiten.
 
@@ -22,9 +17,9 @@ Wenn Microsoft im Rahmen kleinerer Updates Funktionen oder Verbesserungen des Fu
 
 Weitere Informationen finden Sie unter [Funktionsverwaltung](/dynamics365/business-central/dev-itpro/administration/feature-management).  
 
-## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/admin-online-dynamics-365-business-central/)
+## Siehe verwandte [Microsoft Schulungen](/training/modules/admin-online-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Neue und geplante Funktionen](/dynamics365-release-plan/2021wave1/)  
 

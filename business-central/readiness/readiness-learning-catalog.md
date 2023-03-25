@@ -5,14 +5,9 @@ author: loreleishannonmsft
 ms.date: 04/01/2021
 ms.topic: conceptual
 ms.author: margoc
-ms.openlocfilehash: 511c7c616e94458cc2eb8489831d528968400903
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9530189"
 ---
-# <a name="business-central-learning-catalog"></a>Business Central Lernkatalog
+
+# Business Central Lernkatalog
 
 Finden Sie das richtige Online-Schulung, persönliche Workshops und Veranstaltungen für Ihre Rolle als Business Central-Anwender oder -Partner.
 
@@ -20,7 +15,7 @@ Finden Sie das richtige Online-Schulung, persönliche Workshops und Veranstaltun
 
     :::column:::
 
-    ### <a name="business-decision-maker"></a>Geschäftsentscheider
+    ### Geschäftsentscheider
 
     Entscheiden Sie sich, ob Sie in neue Technologien investieren wollen? 
 
@@ -36,7 +31,7 @@ Finden Sie das richtige Online-Schulung, persönliche Workshops und Veranstaltun
 
     :::column:::
 
-    ### <a name="business-user"></a>Geschäftsbenutzer
+    ### Geschäftsbenutzer
 
     Haben Sie gerade eine neue Anwendung zur Nutzung erhalten? 
 
@@ -54,7 +49,7 @@ Finden Sie das richtige Online-Schulung, persönliche Workshops und Veranstaltun
 
     :::column:::
 
-    ### <a name="developer"></a>Entwickler
+    ### Entwickler
 
     Müssen Sie Code schreiben, um sich mit anderen Datenquellen zu integrieren, die Funktionalität des Kernsystems zu erweitern oder eine komplexe Anwendung zu erstellen?
 
@@ -66,7 +61,7 @@ Finden Sie das richtige Online-Schulung, persönliche Workshops und Veranstaltun
 
     :::column:::
 
-    ### <a name="functional-consultant"></a>Funktionsberater
+    ### Funktionsberater
     
     Sind Sie ein Implementierungsexperte für einen Geschäftsbereich? 
 

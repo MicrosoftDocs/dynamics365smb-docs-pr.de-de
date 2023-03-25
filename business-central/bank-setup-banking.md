@@ -1,23 +1,17 @@
 ---
 title: Banking festlegen
-description: Sie verwenden Bankkontokarten, um Ihre Bankkonten und Einrichtungsbankfeeds, wie Yodlee, um Daten auszutauschen.
+description: 'Sie verwenden Bankkontokarten, um Ihre Bankkonten und Einrichtungsbankfeeds, wie Yodlee, um Daten auszutauschen.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, link
+ms.search.keywords: 'Yodlee, feed, stream, data exchange, AMC, link'
 ms.search.form: 1200
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 95455b4100aa2628fe6f1e2eefdce8c8117f1166
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516395"
 ---
-# <a name="setting-up-banking"></a>Einrichten von Banken
+# Einrichten von Banken
 
 Bankkontokarten dienen zum Nachverfolgen aller Bankkonten in beliebiger Währung. Sobald Bankkonten eingerichtet wurden, können auch Schecks gedruckt werden.
 
@@ -31,7 +25,7 @@ Um elektronische Bankdienstleistungen zum Importieren von Bankkontoauszügen und
 
 [!INCLUDE [local-functionality](includes/local-functionality.md)]
 
-## <a name="see-also"></a>Weitere Informationen
+## Weitere Informationen
 
 [Abstimmen von Bankkonten](bank-manage-bank-accounts.md)  
 [Verwalten von Forderungen](receivables-manage-receivables.md)  

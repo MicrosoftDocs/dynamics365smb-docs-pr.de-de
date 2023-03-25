@@ -6,18 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.reviewer: edupont
 ms.date: 06/14/2021
 ms.author: soalex
-ms.openlocfilehash: 272fbb7b10b3852cbf8ca013ca06d8011bd53836
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8128870"
 ---
-# <a name="service-compliance"></a>Dienst-Kompatibilität
+# Dienst-Kompatibilität
 
 Dieser Inhalt enthält Informationen über Dienstkompatibilität in Bezug auf [!INCLUDE[prod_short](../includes/prod_short.md)] online  
 
@@ -27,11 +21,11 @@ Hier finden Sie die detaillierten [Cloudkompatibilitätsanforderungen für Busin
 
 Wenn Sie an der vollständigen Liste der Kompatibilitätsanforderungen von Microsoft interessiert sind, gehen Sie zum [Microsoft Trust Center](https://www.microsoft.com/trustcenter/compliance/complianceofferings).
 
-## <a name="service-terms"></a>Servicebedingungen
+## Servicebedingungen
 
 [!INCLUDE [service-terms](../includes/service-terms.md)]
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Kompatibilität](compliance-overview.md)  
 [Anwendungs-Kompatibilität](compliance-application-compliance.md)  

@@ -1,33 +1,29 @@
 ---
 title: Ein Shopify-Konto erstellen und festlegen
-description: Erfahren Sie, wie Sie ein Shopify-Konto erhalten, damit Sie den Workflow für die Integration von Shopify und Business Central demonstrieren können.
+description: 'Erfahren Sie, wie Sie ein Shopify-Konto erhalten, damit Sie den Workflow für die Integration von Shopify und Business Central demonstrieren können.'
 ms.date: 06/21/2022
 ms.topic: article
 ms.service: dynamics365-business-central
+ms.search.form: '30101, 30102'
 ms.reviewer: solsen
 author: AndreiPanko
 ms.author: andreipa
-ms.openlocfilehash: b4449b573307582595ee9949dcb53d5d553ce0f2
-ms.sourcegitcommit: bb6ecb20cbd82fdb5235e3cb426fc73c29c0a7ae
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/23/2022
-ms.locfileid: "9803043"
 ---
-# <a name="create-and-set-up-a-shopify-account"></a>Ein Shopify-Konto erstellen und festlegen
+
+# Ein Shopify-Konto erstellen und festlegen
 
 Wenn Sie überlegen, ob Sie Shopify als Ihre E-Commerce-Lösung verwenden sollen und ein Shopify-Konto benötigen, um den integrierten Workflow zu validieren, haben Sie folgende Möglichkeiten:
 
 - Holen Sie sich eine Testversion. Dies ist der typische Ausgangspunkt für Endbenutzer.  
 - Erstellen Sie Entwicklungs-Stores. Dieser Ansatz ist für Partner gedacht, die wiederkehrende Demos und Schulungen durchführen und Support anbieten.
 
-## <a name="trial-end-user"></a>Testversion (Endbenutzer)
+## Testversion (Endbenutzer)
 
 Rufen Sie die [Shopify-Website](https://www.shopify.com) auf und verwenden Sie Ihr E-Mail-Konto für das Administratorkonto, um sich für einen kostenlosen Test zu registrieren. Erfahren Sie im [Shopify Help Center](https://help.shopify.com/) mehr darüber, wie Sie Ihren Online Store erstellen und personalisieren können.
 
 Im **Shopify Admin** des erstellten Shops wenden Sie die folgenden **Einstellungen** an:
 
-- Deaktivieren Sie **Bestellung automatisch archivieren** im Abschnitt **Auftragsabwicklung** in den Einstellungen für die [**Kasse**](https://www.shopify.com/admin/settings/checkout) in Ihrer **Shopify-Verwaltung**.
+- Deaktivieren Sie **Die Bestellung automatisch archivieren** im Abschnitt **Bestellverarbeitung** der [**Kasse**](https://www.shopify.com/admin/settings/checkout)-Einstellungen in Ihrem **Shopify Admin**.
 - Aktivieren Sie die Option *Anmeldelink im Schaufenster und in der Kasse anzeigen* im Abschnitt **Kundenkontoeinstellungen** der Kasseneinstellungen.
 - Erwägen Sie die Auswahl der Option *Firmenname - Optional* im Abschnitt **Kundeninformationen** der Kasseneinstellungen.
 - Aktivieren Sie die Option **Trinkgeldoptionen an der Kasse anzeigen** im Abschnitt **Trinkgeld** der Kasseneinstellungen, wenn Sie planen, Trinkgeld zu demonstrieren.
@@ -40,7 +36,7 @@ Im **Shopify Admin** des erstellten Shops wenden Sie die folgenden **Einstellung
 > [!Important]  
 > Um Zahlungen zu vermeiden, denken Sie daran, Ihren Shopify-Test zu kündigen.
 
-## <a name="development-store"></a>Entwicklung des Stores
+## Entwicklung des Stores
 
 Beginnen Sie damit, dem [Shopify Partnerprogramm](https://help.shopify.com/partners/about) beizutreten. Anschließend erstellen Sie über das **Partner Dashboard** den Entwicklungs-Store. Erfahren Sie mehr unter [Erstellen von Development Stores](https://help.shopify.com/partners/dashboard/managing-stores/development-stores).
 
@@ -54,7 +50,7 @@ Nachdem Sie den Store erstellt haben, wenden Sie im **Shopify Admin** des erstel
   1. *(zum Testen) Bogus Gateway*. Weitere Informationen finden Sie unter [Aktivieren Sie Bogus Gateway für Tests](https://help.shopify.com/en/manual/checkout-settings/test-orders#place-a-test-order-by-simulating-a-transaction).
   2. *Shopify Payments* im Testmodus. Erfahren Sie mehr unter [Testen von Shopify Payments](https://help.shopify.com/en/manual/payments/shopify-payments/testing-shopify-payments).
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Einstieg in den Konnektor Shopify](get-started.md)  
 [Beispielhafte Vorgehensweise: Einrichten und Verwenden des Shopify Konnektors](walkthrough-setting-up-and-using-shopify.md)

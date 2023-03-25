@@ -1,22 +1,16 @@
 ---
-title: Designdetails – Artikelverfolgungsdesign
-description: In diesem Thema wird das Design der Artikelverfolgung in Business Central beschrieben, wenn diese über Produktversionen hinweg ausgereift ist.
+title: "Designdetails\_– Artikelverfolgungsdesign"
+description: 'In diesem Thema wird das Design der Artikelverfolgung in Business Central beschrieben, wenn diese über Produktversionen hinweg ausgereift ist.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: design, item, tracking, tracing
+ms.search.keywords: 'design, item, tracking, tracing'
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 626d22b4a45035698862c727547b332c898508af
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141333"
 ---
-# <a name="design-details-item-tracking-design"></a>Designdetails: Artikelverfolgungsdesign
+# Designdetails: Artikelverfolgungsdesign
 
 Artikelverfolgung in [!INCLUDE[prod_short](includes/prod_short.md)] begann mit [!INCLUDE [navnow_md](includes/navnow_md.md)]. Die Artikelverfolgungsfunktion befindet sich in einer separaten Objektstruktur mit komplexen Links zu gebuchten Dokumenten und Artikelposten und ist in das Reservierungssystem integriert, das Reservierung, Auftragsverfolgung und Aktionsnachrichten verwaltet. Weitere Informationen finden Sie unter [Designdetails: Reservierung, Auftragsnachverfolgung und Aktionsmeldungen](design-details-reservation-order-tracking-and-action-messaging.md) in den Beschaffungsplanungsdetails.  
 
@@ -39,7 +33,7 @@ Codeunit 22, **Artikelposten – Zeile buchen** teilt jetzt die Buchung nach Art
 
 Weitere Informationen finden Sie unter [Designdetails: Artikelbuchungsstruktur nachverfolgen](design-details-item-tracking-posting-structure.md).  
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Designdetails: Artikelnachverfolgung](design-details-item-tracking.md)
 

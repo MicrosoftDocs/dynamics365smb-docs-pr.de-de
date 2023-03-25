@@ -1,22 +1,16 @@
 ---
 title: Komponenten entsprechend dem Arbeitsgangs-Ausstoß leeren
-description: In diesem Thema wird beschrieben, wie Sie Komponenten nach dem Ausgang des Vorgangs bündeln und welche anderen Bündelungsmethoden es gibt.
+description: 'In diesem Thema wird beschrieben, wie Sie Komponenten nach dem Ausgang des Vorgangs bündeln und welche anderen Bündelungsmethoden es gibt.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 3e86bf736bb25a9270bec93fcabfa683a6f4ae5f
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516058"
 ---
-# <a name="flush-components-according-to-operation-output"></a>Komponenten nach Vorgangsausgabe bündeln
+# Komponenten nach Vorgangsausgabe bündeln
 Sie können verschiedene Buchungsmethoden definieren, um die Registrierung des Verbrauchs von Komponenten zu automatisieren. 
 
 Diese Funktionalität ist aus folgenden Ursachen nützlich:  
@@ -35,14 +29,14 @@ Diese Funktionalität ist aus folgenden Ursachen nützlich:
 
     Durch die Möglichkeit, einen Arbeitsgang automatisch zu buchen, kann der gesamte Erfassungsprozess für Verbrauch und fertige Artikel automatisiert werden. Der Nachteil des automatischen Buchens besteht darin, dass Ausschuss möglicherweise nicht richtig oder sogar gar nicht erfasst wird.
 
-## <a name="automatic-consumption-posting-flushing-methods"></a>Methoden für das automatische Buchen des Verbrauchs  
+## Methoden für das automatische Buchen des Verbrauchs  
 
 - "Vorwärts"-Buchen des gesamten Auftrags  
 - "Vorwärts"-Buchen pro Arbeitsgang  
 - "Rückwärts"-Buchen pro Arbeitsgang  
 - "Rückwärts"-Buchen des gesamten Auftrags  
 
-### <a name="automatic-reporting---forward-flush-the-entire-order"></a>Automatisches Berichtswesen - "Vorwärts"-Buchen des gesamten Auftrags  
+### Automatisches Berichtswesen - "Vorwärts"-Buchen des gesamten Auftrags  
 Wenn Sie den Fertigungsauftrag zu Beginn des Projekts mit der Methode "Vorwärts" buchen, verhält sich die Anwendung ähnlich wie bei einem manuellen Verbrauch. Der Hauptunterschied besteht darin, dass der Verbrauch automatisch auftritt.  
 
 - Der gesamte Inhalt der Fertigungsstückliste wird zu dem Zeitpunkt verbraucht und dem Lagerbestand entnommen, zu dem der freigegebene Fertigungsauftrag aktualisiert wird.  
@@ -57,7 +51,7 @@ Das "Vorwärts"-Buchen eines gesamten Auftrags ist für Fertigungsumgebungen mit
 -   Es gibt nur wenige Arbeitsgänge.  
 -   Es gibt einen hohen Komponentenverbrauch in frühen Arbeitsgängen.  
 
-### <a name="automatic-reporting---forward-flushing-by-operation"></a>Automatisches Berichtswesen - "Vorwärts"-Buchen pro Arbeitsgang  
+### Automatisches Berichtswesen - "Vorwärts"-Buchen pro Arbeitsgang  
 Buchen pro Arbeitsgang versetzt Sie in die Lage, den Lagerbestand zu aktualisieren, während ein bestimmter Arbeitsgang aus dem Arbeitsplan des übergeordneten Artikels ausgeführt wird. Die Materialien sind mit dem Arbeitsplan über Verbindungscodes verknüpft, die den Verbindungscodes entsprechen, die auf Komponenten in der Fertigungsstückliste angewendet werden.  
 
 Die Buchung erfolgt, wenn der Arbeitsgang gestartet wurde, der denselben Verbindungscode hat. Gestartet bedeutet, dass mindestens eine Aktivität im FA-Istmeldungs Buch.-Blatt des Arbeitsgangs erfasst wurde. Diese Aktivität kann z. B. lediglich darin bestehen, dass eine Rüstzeit eingegeben wird.  
@@ -68,7 +62,7 @@ Diese Methode ist am besten geeignet, wenn es viele Arbeitsgänge gibt und besti
 
 Materialien können im Verlauf von Arbeitsgängen verbraucht werden, indem Verbindungscodes verwendet werden. Einige Komponenten werden möglicherweise erst bei den Endmontagearbeitsgängen benötigt und sollten bis dahin nicht aus dem Lager entnommen werden.  
 
-### <a name="automatic-reporting---back-flushing-by-operation"></a>Automatisches Berichtswesen - "Rückwärts"-Buchen pro Arbeitsgang  
+### Automatisches Berichtswesen - "Rückwärts"-Buchen pro Arbeitsgang  
 Beim "Rückwärts"-Buchen pro Arbeitsgang wird der Verbrauch erfasst, nachdem der Arbeitsgang im FA-Istmeldungs Buch.-Blatt gebucht wurde.  
 
 Der Vorteil dieser Methode liegt darin, dass die Anzahl der übergeordneten Teile, die im Arbeitsgang fertig gestellt wurden, bekannt ist.  
@@ -77,7 +71,7 @@ Material in der Fertigungsstückliste ist über Verbindungscodes mit den Arbeits
 
 Die Mengenangabe für die Buchung ergibt sich aus der Menge pro Stück, die in der Fertigungsstückliste angegeben ist, multipliziert mit der Zahl der übergeordneten Artikel, die für diesen Arbeitsgang als fertig gestellte Menge gebucht wurden. Diese Mengenangabe kann von der erwarteten Menge unterscheiden.  
 
-### <a name="automatic-reporting---back-flushing-the-entire-order"></a>Automatisches Berichtswesen - "Rückwärts"-Buchen des gesamten Auftrags  
+### Automatisches Berichtswesen - "Rückwärts"-Buchen des gesamten Auftrags  
 Bei dieser Berichterstellungsmethode werden keine Verbindungscodes berücksichtigt.  
 
 Komponenten werden erst entnommen, wenn sich der Status des freigegebenen Fertigungsauftrags in *Beendet* geändert hat. Die Mengenangabe für die Buchung ergibt sich aus der Menge pro Stück, die in der Fertigungsstückliste angegeben ist, multipliziert mit der Zahl der übergeordneten Artikel, die fertig gestellt und in den Lagerbestand übernommen wurden.  
@@ -88,7 +82,7 @@ Soll ein gesamter Fertigungsauftrag nach der Methode "Rückwärts" gebucht werde
 
 Wenn beispielsweise ein Fertigungsauftrag, 800 Meter zu produzieren, 8 Kilogramm einer Komponente benötigt, dann werden, wenn Sie 200 Meter buchen, wie ausgegeben, 2 Kilogramm automatisch als Verbrauch gebucht. Sie können dies durch Kombination der Rückwärtsbuchen und der Verbindungscodes erreichen, sodass die Menge, die je Arbeitsgang geleert wird, zur aktuellen Isteffektivität des abgeschlossenen Arbeitsgangs proportional ist. Für Artikel, die mit der Rückwärtsbuchungsmethode erstellt wurden, ist das Standardverhalten, Komponentenverbrauch zu berechnen und zu buchen, wenn Sie den Status eines freigegebenen Fertigungsauftrags in **Erledigt** ändern. Wenn Sie auch Verbindungscodes definieren, dann erfolgt die Berechnung und Buchung, wenn jeder Arbeitsgang beendet ist, und die Menge, die tatsächlich im Arbeitsgang verbraucht wurde, wird gebucht. Weitere Informationen finden Sie unter [Arbeitspläne erstellen](production-how-to-create-routings.md).  
 
-## <a name="to-flush-components-according-to-operation-output"></a>Komponenten entsprechend dem Arbeitsgangs-Ausstoß leeren
+## Komponenten entsprechend dem Arbeitsgangs-Ausstoß leeren
 
 1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Elemente** ein, und wählen Sie dann den zugehörigen Link.  
 2.  Wählen Sie die Aktion **Bearbeiten** aus.  
@@ -106,7 +100,7 @@ Wenn beispielsweise ein Fertigungsauftrag, 800 Meter zu produzieren, 8 Kilogramm
 
 Der Verbrauch wird automatisch gebucht, wenn Sie die Ausgabe registrieren. Weitere Informationen finden Sie unter [Ausgabe über Stapelverarbeitung buchen und Bearbeitungszeiten prüfen](production-how-to-post-output-quantity.md)
 
-## <a name="flushing-methods"></a>Buchungsmethode
+## Buchungsmethode
 
 In der folgenden Tabelle werden die verfügbaren Optionen für die Buchungsmethode beschrieben, die Sie auf **Artikel**-Karten und **Lagerhaltungsdaten**-Karten festlegen.
 
@@ -115,10 +109,10 @@ In der folgenden Tabelle werden die verfügbaren Optionen für die Buchungsmetho
 |Manuell|Erfordert, dass Sie den Verbrauch manuell im FA-Verbrauchs Buch eingeben und buchen.|
 |Vorwärts|Bucht Verbräuche automatisch entsprechend den Fertigungsauftragskomponentenzeilen. <br><br>Standardmäßig tritt die Buchung des Komponentenverbrauchs auf, wenn Sie den Status eines Fertigungsauftrags auf **Freigegeben** ändern. Wenn Sie jedoch das Feld **Verbindungscode** in den Fertigungsauftragskomponentenzeilen verwenden, dann erfolgt das Buchen pro Arbeitsgang, wenn der Arbeitsgang beginnt. Weitere Informationen finden Sie unter [Gewusst wie: Arbeitspläne erstellen](production-how-to-create-routings.md#to-create-routing-links). <br><br> **Hinweis**<br>Für Vorausbuchung basiert die entsprechende Buchung, die Sie mit Verbindungscodes erhalten, auf der erwarteten Menge, die in der Komponentenzeile definiert ist. Informationen zu Arbeitsgang-spezifischen Buchungen basierend auf der Isteffektivität finden Sie in der Beschreibung für **Rückwärts** in diesem Thema.<br><br>Wenn der Lagerort oder die Ressourcen, für die diese Komponente verbraucht werden, mit einer Standardlagerplatzstruktur eingerichtet werden, wird der Artikel vom **Off. Fert.-Ber.-Lagerpl.-Code** verbraucht. Weitere Informationen finden Sie unter [Vorgehensweise: Einrichten von Basislagern mit Vorgangsbereichen](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md). <br><br> **Wichtig** <br>Vorausbuchung tritt auch auf, wenn Sie auf **Aktualisieren** auf einem freigegebenen Fertigungsauftrag klicken, der von Grund auf neu erstellt wurde. In diesen direkt erstellten und freigegebenen Fertigungsaufträgen können Sie keine Lagerplatzinformationen ändern, da die Fertigungsauftragskomponentenzeilen generiert werden, wenn Sie den Auftrag aktualisieren, der Komponenten gleichzeitig vorwärts bucht. Wenn Sie Lagerplatzinformationen über Fertigungsauftragskomponentenzeilen ändern möchten, bevor die Vorausbuchung auftritt, muss dieser Auftrag mit dem *geplanten* oder *fest geplanten* Status erstellt werden.|
 |Rückwärts|Berechnet und bucht Verbräuche automatisch entsprechend den Fertigungsauftragskomponentenzeilen.<br><br> Standardmäßig tritt die Berechnung und Buchung des Komponentenverbrauchs auf, wenn Sie den Status eines freigegebenen Fertigungsauftrags auf **Beendet** ändern. Wenn Sie jedoch das Feld **Verbindungscode** in den Fertigungsauftragskomponentenzeilen verwenden, dann erfolgt das Berechnen und Buchen beim Beenden jedes Arbeitsgangs.<br><br> **Hinweis** <br>Das Rückwärtsbuchen und die Verbindungscodes können zusammengefasst werden, sodass die Menge, die je Arbeitsgang geleert wird, zur aktuellen Isteffektivität dieses Arbeitsgangs proportional ist. Weitere Informationen finden Sie unter [Vorgehensweise: Komponenten entsprechend dem Arbeitsgangs-Ausstoß leeren](#to-flush-components-according-to-operation-output).<br><br> Wenn der Lagerort oder der Arbeitsplatz, für die diese Komponente verbraucht werden, mit einer Standardlagerplatzstruktur eingerichtet werden, wird der Artikel vom **Off. Fert.-Ber.-Lagerpl.-Code** verbraucht.|
-|Kommiss. + Vorwärts|Das gleiche gilt für die Vorausbuchungsmethode, mit der Ausnahme, dass dies nur für Lagerorte funktioniert, die gesteuerte Einlagerung und Kommissionierung verwenden.<br><br> Verbrauch wird aus dem Lagerort berechnet und gebucht, der im Feld **Fert.-Bereitst.-Lagerplatzcode** im Lagerplatz oder dem Arbeitsplatz definiert wird, nachdem die Komponente aus dem Lager kommissioniert wurde.<br><br> **Hinweis** <br>Wenn eine Komponente mit der Kommissionierungs- + Vorausbuchungsmethode eingerichtet wird, kann sie keinen Verbindungscode für einen Arbeitsgang haben, der mit der Vorausbuchungsmethode eingerichtet wurde. Die Komponente wird dann automatisch geleert, wenn der Arbeitsgang beginnt, was das Anfordern der Kommissionierungsaktivität unmöglich macht.|
-|Kommiss. + Rückwärts|Das gleiche gilt für die Rückwärtsbuchungsmethode, mit der Ausnahme, dass dies nur für Lagerorte funktioniert, die gesteuerte Einlagerung und Kommissionierung verwenden.<br><br> Verbrauch wird aus dem Lagerort berechnet und gebucht, der im Feld **Fert.-Bereitst.-Lagerplatzcode** im Lagerplatz oder dem Arbeitsplatz definiert wird, nachdem die Komponente aus dem Lager kommissioniert wurde.|
+|Kommiss. + Vorwärts|Dasselbe wie für die Vorwärtsbuchungsmethode, außer dass es nur für Standorte funktioniert, die entweder eine erweiterte Lagerkonfiguration oder eine Basislagerkonfiguration mit obligatorischen Lagerplätzen verwenden.<br><br> Verbrauch wird aus dem Lagerort berechnet und gebucht, der im Feld **Fert.-Bereitst.-Lagerplatzcode** im Lagerplatz oder dem Arbeitsplatz definiert wird, nachdem die Komponente aus dem Lager kommissioniert wurde.<br><br> **Hinweis** <br>Wenn eine Komponente mit der Kommissionierungs- + Vorausbuchungsmethode eingerichtet wird, kann sie keinen Verbindungscode für einen Arbeitsgang haben, der mit der Vorausbuchungsmethode eingerichtet wurde. Die Komponente wird dann automatisch geleert, wenn der Arbeitsgang beginnt, was das Anfordern der Kommissionierungsaktivität unmöglich macht.|
+|Kommiss. + Rückwärts|Dasselbe wie für die Rückwärtsbuchungsmethode, außer dass es nur für Standorte funktioniert, die entweder eine erweiterte Lagerkonfiguration oder eine Basislagerkonfiguration mit obligatorischen Lagerplätzen verwenden.<br><br> Verbrauch wird aus dem Lagerort berechnet und gebucht, der im Feld **Fert.-Bereitst.-Lagerplatzcode** im Lagerplatz oder dem Arbeitsplatz definiert wird, nachdem die Komponente aus dem Lager kommissioniert wurde.|
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Fertigungsauftrag erstellen](production-how-to-create-production-boms.md)  
 [Produktion einrichten](production-configure-production-processes.md)  

@@ -1,89 +1,124 @@
 ---
 title: Um Artikel für den Warenausgang zu kommissionieren
-description: Erfahren Sie, wie Sie die Belege der Lager-Kommissionierungen verwenden, um Kommissionierinformationen zu erstellen und zu verarbeiten, bevor Sie den Warenausgang buchen.
-author: SorenGP
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: ''
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: 23a730f79e3b5969243a1b176152496b6e20bdd2
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9534723"
+description: 'Erfahren Sie, wie Sie die Belege der Lager-Kommissionierungen verwenden, um Kommissionierinformationen zu erstellen und zu verarbeiten, bevor Sie einen Warenausgang buchen.'
+author: bholtorf
+ms.author: bholtorf
+ms.reviewer: andreipa
+ms.service: dynamics365-business-central
+ms.topic: how-to
+ms.date: 01/25/2023
+ms.custom: bap-template
+ms.search.forms: '7335, 7339, 7345,'
 ---
-# <a name="pick-items-for-warehouse-shipment"></a>Um Artikel für den Warenausgang zu kommissionieren
+# Um Artikel für den Warenausgang zu kommissionieren
 
-Wenn Ihr Lagerort so eingerichtet wurde, dass die Bearbeitung der Kommissionierung und des Warenausgangs erforderlich ist, verwenden Sie die Kommissionierbelege, um Kommissionierinformationen vor dem Buchen des Warenausgangs zu erstellen und zu bearbeiten.  
+In [!INCLUDE[prod_short](includes/prod_short.md)] kommissionieren und versenden Sie Artikel wie in der folgenden Tabelle beschrieben, mit einer von vier Methoden.
 
-Sie können einen Kommissionierungsbeleg nicht von Grund auf neu erstellen, da eine Kommissionierungsaktivität immer Teil eines Workflows ist, entweder in einem Abruf- oder Push-Szenario.  
+|Art|Ausgangsprozess|Kommissionierung erforderlich|Warenausgang erforderlich|Komplexitätsgrad (Weitere Informationen unter [Lagermanagementübersicht](design-details-warehouse-management.md))|  
+|------|----------------|-----|---------|-------------------------------------------------------------------------------------|  
+|A|Die Kommissionierung und den Versand aus der Auftragszeile buchen|||Keine dedizierte Lageraktivität.|  
+|B|Die Kommissionierung und den Warenausgang aus einem Lagerkommissionierungsbeleg buchen|Aktiviert||Basis: Auftragsbezogene Logistik|  
+|U|Die Kommissionierung und den Warenausgang aus einem Warenausgangsbeleg buchen||Aktiviert|Basis: Konsolidierte Eingangs-/Versandbuchung für mehrere Bestellungen.|  
+|T|Die Kommissionierung von einem Kommissionierbeleg und buchen Sie den Warenausgang aus einem Warenausgangsbeleg buchen|Aktiviert|Aktiviert|Erweitert|  
 
-Sie können Kommissionierungsbelege in einem Abrufverfahren erstellen, indem Sie einen leeren Warenausgangsbeleg öffnen, Herkunftsbelege ermitteln, die für die Lieferung freigegeben wurden, und dann für diese Lieferungen Kommissionierzeilen erstellen. Sie können die Funktionen **Herkunftsbelege holen** oder **Filter zum Holen von Herk.-Belegen verwenden** verwenden, um Herkunftsbelege zu ermitteln, die für den Warenausgang bereit sind.
+Weitere Informationen finden Sie unter [Ausgehender Lagerfluss](design-details-outbound-warehouse-flow.md).
 
-Alternativ können Sie die Seite **Kommissionierarbeitsblatt** verwenden, um Kommissionierzeilen im Stapelbetrieb zu holen und zu erstellen. Weitere Informationen finden Sie unter [Kommissionierungen im Arbeitsblatt bearbeiten](warehouse-how-to-plan-picks-in-worksheets.md).  
+Dieser Artikel bezieht sich auf die Methode D in der Tabelle. Weitere Informationen zu Versandartikeln finden Sie unter [Versandartikel](warehouse-how-ship-items.md).
 
-Sie können Kommissionierungsbelege auch Push-artig im Fenster **Warenausgang** erstellen, indem Sie die Seite **Kommissionierung erstellen** auswählen.  
+Wenn ein Lagerort so eingerichtet wurde, dass die Bearbeitung der Kommissionierung und des Warenausgangs erforderlich ist, verwenden Sie die Kommissionierbelege, um Kommissionierinformationen vor dem Buchen des Warenausgangs zu erstellen und zu bearbeiten.  
+
+Sie können keine Lagerkommissionierbelege von Grund auf erstellen. Kommissionierungen sind Teil eines Workflows, bei dem eine Person, die einen Auftrag bearbeitet, sie im Push-Verfahren erstellt, oder der Lagermitarbeiter sie im Pull-Verfahren erstellt:
+
+- Im Push-Verfahren, bei dem Sie die Aktion **Kommissionierung erstellen** auf der Seite **Warenausgang** verwenden. Wählen Sie die zu kommissionierenden Zeilen und bereiten Sie die Kommissionierungen vor, indem sie beispielsweise angeben, aus welchen Lagerplätzen entnommen und in welche Lagerplätze eingelagert wird, und wie viele Einheiten bewegt werden. Lagerplätze können für den Lagerort oder die Ressource vordefiniert werden.
+- In einem Pull-Verfahren, bei der Sie die Aktion **Freigeben** auf der Seite **Warenausgang** verwenden, um die Artikel für die Kommissionierung verfügbar zu machen. Anschließend können Lagermitarbeiter auf der Seite **Kommissionierungsarbeitsblatt** die Aktion **Lagerdokumente abrufen** verwenden, um ihre zugewiesenen Kommissionierungen vorzunehmen.
 
 > [!NOTE]  
->  Die Kommissionierung für den Warenausgang von Artikeln, die mit dem betreffenden Verkaufsauftrag montiert werden, folgt denselben Schritten wie die reguläre Kommissionierung für den Warenausgang, die in diesem Thema beschrieben ist. Jedoch kann die Anzahl der Kommissionierzeilen pro zu liefernder Menge n:1 sein, da die Kommissionierung für die Komponenten, nicht für den Montageartikel erfolgt.  
->   
->  Die Kommissionierzeilen werden für den Wert im Feld **Restmenge** in den Zeilen des Montageauftrags erstellt, der mit der Verkaufsauftragszeile verknüpft ist, die geliefert wird. Dadurch ist sichergestellt, dass alle Komponenten in einer Aktion kommissioniert werden.  
->   
->  Weitere Informationen finden Sie im Abschnitt "Verwenden von Auftragsmontageartikeln in Warenausgängen".  
->   
->  Allgemeine Informationen über das Kommissionieren von Komponenten für Montageaufträge, einschließlich von Situationen, in denen der Montageartikel nicht mit einer Verkaufslieferung fällig ist, finden Sie unter [Vorgehensweise: Kommissionierung für die Produktion oder Montage](warehouse-how-to-pick-for-production.md).  
+> Die Kommissionierung für einen Warenausgang von Artikeln, die für einen Verkaufsauftrag montiert werden, folgt denselben Schritten wie die reguläre Kommissionierung für Warenausgänge, die in diesem Artikel beschrieben ist. Jedoch kann die Anzahl der Kommissionierzeilen für die zu liefernde Menge n:1 sein, da die Kommissionierung für die Komponenten, nicht für den montierten Artikel erfolgt.  
+>
+> Lagerkommissionierungszeilen werden für den Wert im Feld **Restmenge** in den Zeilen des Montageauftrags erstellt, der mit der Verkaufsauftragszeile verknüpft ist, die geliefert wird. Alle Komponenten werden in einer Aktion kommissioniert. Weitere Informationen finden Sie unter [Verwenden von Auftragsmontageartikeln in Warenausgängen](warehouse-how-ship-items.md#handling-assemble-to-order-items-in-warehouse-shipments).  
+>  
+> Weitere Informationen über das Kommissionieren von Komponenten für Montageaufträge, einschließlich von Situationen, in denen Montageartikel nicht mit einer Verkaufslieferung fällig sind, finden Sie unter [Kommissionierung für Fertigung, Montage oder Projekte in erweiterten Lagerkonfigurationen](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md).  
 
-## <a name="to-pick-items-for-warehouse-shipment"></a>Um Artikel für den Warenausgang zu kommissionieren
+## So erstellen Sie Kommissionierungsdokumente mit dem Kommissionierungsarbeitsblatt in Masse
 
-1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Kommissionierungen** ein und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie das Symbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Kommissionierarbeitsblatt** ein, und wählen Sie dann den zugehörigen Link.  
+
+2. Wählen Sie die **Logistikbeleg holen** Aktion aus.  
+
+    Die Liste enthält alle Ausgänge, die zur Kommissionierung freigegeben wurden, einschließlich der Ausgänge, für die bereits Kommissionieranweisungen erstellt wurden. Belege mit Kommissionierungszeilen, die bereits vollständig kommissioniert und registriert wurden, werden in dieser Übersicht nicht angezeigt.  
+3. Wählen Sie die Warenausgänge, für die Sie eine Kommissionierung vorbereiten möchten.
+
+    > [!NOTE]  
+    >  Sollten Sie versuchen, einen Beleg auszuwählen (Warenausgang oder interne Kommissionierung), für den Sie bereits Anweisungen für alle Zeilen erzeugt haben, erhalten Sie eine Meldung, wie die folgende: „es gibt keine Mengen zu bewegen“. Um Lagerkommissionieranweisungen, die Sie bereits erstellt haben, zu einer Kommissionieranweisung zu kombinieren, müssen Sie die einzelnen Kommissionierungen zuerst löschen.
+
+4. Füllen Sie das Feld **Sortiermethode** aus, um die Zeilen zu sortieren.  
+
+    > [!NOTE]  
+    >  Die Art und Weise, wie die Zeilen im Arbeitsblatt sortiert sind, überträgt sich nicht automatisch auf die Entnahmeanweisung. Es bestehen jedoch die gleichen Sortier- und Priorisierungsmöglichkeiten der Lagerplätze. Sie können die Zeilenreihenfolge, die Sie im Arbeitsblatt erstellen, leicht neu erstellen, wenn Sie die Kommissionierungsanweisungen erstellen oder indem Sie die Kommissionierungsanweisungen sortieren.
+
+5. Füllen Sie das Feld **Bewegungsmge** entweder manuell oder mithilfe der Aktion **Bewegungsmenge autom. ausfüllen**.  
+
+    Die Seite zeigt die in Cross-Docking-Lagern verfügbaren Mengen an. Diese Informationen sind für die Planung von Arbeitseinsätzen in Cross-Docking-Situationen nützlich ist. [!INCLUDE[prod_short](includes/prod_short.md)] wird immer zuerst eine Entnahme aus einem Cross-Dock-Behälter vorschlagen.
+6. Bearbeiten Sie diese Positionen bei Bedarf. Sie können auch Zeilen löschen, um die Kommissionierung effektiverer zu machen. Wenn es z. B. mehrere Zeilen mit Artikeln in Zuordnungslagerplätzen gibt, möchten Sie möglicherweise eine Kommissionierung für alle Zeilen erzeugen, die mit all diesen Zeilen zusammenhängen. Die zugeordneten Artikel werden ausgeliefert (mit anderen Artikeln im Warenausgang) und die Zuordnungslagerplätze haben wieder Platz für neue ankommende Artikel.  
+
+    > [!NOTE]  
+    >  Wenn Sie Zeilen löschen, werden sie nur aus dem Arbeitsblatt gelöscht. Sie werden nicht aus der Kommissionierungsauswahlliste gelöscht.  
+
+7. Wählen Sie die Aktion **Kommissionierung erstellen** aus. Die Seite **Kommissionierung erstellen** wird geöffnet, auf der Sie der von Ihnen erstellten Kommissionierung weitere Informationen hinzufügen können. Geben Sie an, wie Kommissionierungszeilen in den Kommissionierungsbelegen kombiniert werden sollen, indem Sie eine der folgenden Optionen auswählen.  
+
+    |Option|Beschreibung|
+    |-|-|
+    |Nach Lager. Beleg|Erstellt separate Kommissionierungsbelege für Arbeitsblattzeilen mit demselben Lagerherkunftsbeleg.|
+    |Nach Deb./Kred./Lagerort|Erstellen Sie separate Kommissionierungsbelege für jeden Debitor (Verkaufsaufträge), Kreditor (Einkaufsreklamationen) und Lagerort (Umlagerungsaufträge).|
+    |Nach Artikel|Erstellen Sie separate Kommissionierungsbelege für jeden Artikel im Kommissionierungs-Arbeitsblatt.|
+    |Nach Zone|Erstellen Sie separate Kommissionierungsbelege für jede Zone, aus der Sie Artikel entnehmen werden.|
+    |Nach Lagerplatznr.|Erstellen Sie separate Kommissionierungsbelege für jeden Lagerplatz, aus der Sie Artikel entnehmen werden.|
+    |Nach Fälligkeitsdatum|Erstellen Sie separate Kommissionierungsbelege für Herkunftsbelege, die das gleiche Fälligkeitsdatum haben.|
+
+    Geben Sie an, wie Kommissionierbelege erstellt werden sollen, indem Sie aus den folgenden Optionen auswählen.
+
+    |Option|Beschreibung|
+    |-|-|
+    |Max. Anz. der Kommissionierungszeilen|Erstellt Kommissionierbelege, die in jedem Beleg nicht mehr als die angegebene Anzahl von Zeilen haben.|
+    |Max. Anz. der Kommissionierungsherkunftsbelege|Erstellt Kommissionierungsbelege, von denen jeder nicht mehr als die angegebene Anzahl von Herkunftsbelegen einschließt.|
+    |Zugewiesene Benutzer-ID|Erstellt Kommissionierungsbelege nur für Arbeitsblattzeilen, die dem ausgewählten Lagermitarbeiter zugeordnet sind.|
+    |Sortiermethode für Kommissionierzeilen|Wählen Sie aus den verfügbaren Optionen aus, um Zeilen im erstellten Kommissionierungsbeleg zu sortieren.|
+    |Gebindeanbruchsfilter verw.|Blendet Gebindeanbruch-Kommissionierungs-Zwischenzeilen aus, wenn eine größeren Maßeinheit in eine kleinere Maßeinheit umgewandelt und vollständig Kommissioniert wird.|
+    |Bewegungsmenge nicht ausfüllen|Lässt das Feld Bewegungsmge in den erstellten Kommissionierungszeilen leer.|
+    |Kommissionierschein drucken|Druckt die Kommissionierbelege, wenn diese erstellt werden. Sie können auch aus den erstellten Kommissionierungsbelegen drucken.|
+
+8. Wählen Sie **OK** aus. [!INCLUDE [prod_short](includes/prod_short.md)] erstellt die Kommissionierung gemäß Ihrer Auswahl.  
+
+## So kommissionieren Sie Artikel für einen Warenausgang
+
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Lager-Kommissionierungen** ein und wählen Sie dann den zugehörigen Link.  
 
     Wenn Sie an einer bestimmten Kommissionierung arbeiten möchten, wählen Sie die Kommissionierung in der Liste aus, oder filtern Sie die Liste, um die Kommissionierungen zu finden, die speziell Ihnen zugeordnet wurden. Öffnen Sie die Kommissionierungskarte.  
-2.  Wenn das Feld **Zugewiesene Benutzer-ID** leer ist, geben Sie gegebenenfalls Ihre ID ein, um sich zu identifizieren.  
-3.  Führen Sie die tatsächliche Kommissionierung der Artikel aus.  
+2. Wenn das Feld **Zugewiesene Benutzer-ID** leer ist, geben Sie gegebenenfalls Ihre ID ein, um sich zu identifizieren.  
+3. Kommissionieren Sie die Artikel.  
 
-    Wenn das Lager für die Verwendung von Lagerplätzen eingerichtet wurde, werden die Vorgabelagerplätze der Artikel als Vorschlag für den Entnahmeort verwendet. Die Anweisungen erscheinen als zwei Zeilen, mindestens eine für jede Aktivitätenart, "Entnahme" und "Einlagerung".  
+    Wenn das Lager für die Verwendung von Lagerplätzen eingerichtet wurde, werden die Vorgabelagerplätze der Artikel als Vorschlag für den Entnahmeort verwendet. Die Anweisungen enthalten mindestens zwei separate Zeilen für jede der Aktionen Entnahme und Einlagerung.  
 
-    Wenn das Lager mit gesteuerter Einlagerung und Kommissionierung eingerichtet wurde, wird die Lagerplatzpriorität verwendet, um die besten Lagerplätze für die Kommissionierung zu berechnen und in den Kommissionierzeilen vorzuschlagen. Die Anweisungen erscheinen als zwei Zeilen, mindestens eine für jede Aktivitätenart, "Entnahme" und "Einlagerung".  
+    Wenn das Lager mit gesteuerter Einlagerung und Kommissionierung eingerichtet wurde, werden die Lagerplatzränge verwendet, um die besten Lagerplätze für die Kommissionierung zu berechnen. Diese Lagerplätze werden in den Kommissionierungszeilen vorgeschlagen. Die Anweisungen enthalten mindestens zwei separate Zeilen für jede der Aktionen Entnahme und Einlagerung.  
 
-4.  Wenn Sie die Kommissionierung ausgeführt und die Artikel in den Ausgangsbereich oder den Ausgangslagerplatz eingelagert haben, wählen Sie die Aktionen **Kommissionierung registrieren** aus.  
+    * Die erste Zeile mit dem Feld **Entnahme** im Feld **Aktionsart** zeigt an, wo sich die Artikel im Kommissionierungsbereich befinden. Wenn Sie eine große Menge an Artikeln in einer Lieferzeile liefern, müssen Sie möglicherweise die Artikel in mehrere Lagerplätze kommissionieren, damit es eine Zeile der Art Auslagerung für jeden Lagerplatz gibt.
+    * Die nächste Zeile, mit **Einlagerung** in der **Aktionsart** zeigt an, wo Sie die Artikel im Lager einlagern müssen. Sie können die Zone und den Lagerplatz in dieser Zeile nicht ändern.
 
-Die für Lieferung verantwortliche Person kann die Artikel in den Warenausgang bringen und den Warenausgang, einschließlich dem zugehörigen Herkunftsbeleg, auf der Seite **Warenausgang** buchen. Weitere Informationen finden Sie unter [Artikel versenden](warehouse-how-ship-items.md).   
+    > [!NOTE]
+    > Wenn Sie die Artikel für eine Zeile in mehr als einem Lagerplatz kommissionieren oder platzieren müssen, beispielsweise, da der freie Lagerplatz voll ist, verwenden Sie die Aktion **Zeile aufteilen** im Inforegister **Zeilen**. Die Aktion erstellt eine Zeile für die zu bearbeitende Restmenge.
 
-Zusätzlich zur Kommissionierung für Herkunftsbelege, die in diesem Thema beschrieben wird, können Sie Artikel ohne Bezug zu Herkunftsbelegen an Lagerorten entnehmen und einlagern. Weitere Informationen finden Sie unter [Kommissionieren und Einlagern ohne Herkunftsbeleg](warehouse-how-to-create-put-aways-from-internal-put-aways.md).  
+4. Nachdem Sie die Kommissionierung ausgeführt und die Artikel in den Ausgangsbereich oder den Ausgangslagerplatz eingelagert haben, wählen Sie die Aktionen **Kommissionierung registrieren** aus.  
 
-## <a name="handling-assemble-to-order-items-in-warehouse-shipments"></a>Verwenden von Auftragsmontageartikeln in Warenausgängen
+Sie können die Artikel in den Warenausgang bringen und den Warenausgang, einschließlich dem zugehörigen Herkunftsbeleg, auf der Seite **Warenausgang** buchen. Erfahren Sie mehr unter [Elemente versenden](warehouse-how-ship-items.md).
 
-In den Auftragsmontageszenarien wird das Feld **Zu liefern** in Warenausgangszeilen verwendet, um zu erfassen, wie viele Einheiten montiert werden. Die angegebene Menge wird dann als Montageausstoß gebucht, wenn der Warenausgang gebucht wird.
+## Siehe verwandte [Microsoft Schulungen](/training/modules/pick-ship-items-warehouse/)
 
-Für andere Warenausgangszeilen ist der Wert im Feld **Zu liefern** von Anfang an Null.
+## Siehe auch
 
-Wenn Arbeiter für montagefertige Teile oder für die gesamte Auftragsmontagemenge zuständig sind, erfassen sie diese im Feld **Vesandmenge** in der Warenausgangszeile und wählen dann die Aktion **Warenausgang buchen**. Das Ergebnis ist, dass der entsprechende Montageausstoß gebucht wird, einschließlich des Komponentenverbrauchs. Eine Verkaufslieferung für die Menge wird für den Verkaufsauftrag gebucht.
-
-Vom Montageauftrag aus können Sie **Warenausgangszeile für Programmfertigung** wählen, um auf die Warenausgangszeile zuzugreifen. Dies ist für Arbeiter hilfreich, die die Seite **Warenausgang** üblicherweise nicht verwenden.
-
-Nachdem der Warenausgang gebucht ist, werden verschiedene Felder in der Verkaufsauftragszeile aktualisiert, um den Status im Lager anzuzeigen. Die folgenden Felder werden auch aktualisiert, um anzuzeigen, wie viele Auftragsmontagemengen noch nicht montiert und geliefert wurden:
-
-- **Auftragsmontage - Lagerrestbestellmenge**
-- **Auftragsmontage - Lagerrestbestellmenge (Basis)**
-
-> [!NOTE]
-> In Kombinationsszenarien, in denen ein Teil der Menge zunächst montiert und ein anderer aus dem Lager geliefert werden muss, werden mindestens zwei Warenausgangszeilen erstellt. Eine für die Auftragsmontagemenge, und eine für die Lagermenge.
-
-> In diesem Fall wird die Auftragsmontagemenge wie in diesem Thema beschrieben behandelt, und die Lagermenge wird wie jede andere reguläre Warenausgangszeile verarbeitet. Weitere Informationen finden Sie im Abschnitt "Kombinationsszenarien" in [Auftragsmontage und Lagermontage verstehen](assembly-assemble-to-order-or-assemble-to-stock.md).
-
-## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/pick-ship-items-warehouse/)
-
-## <a name="see-also"></a>Siehe auch
-
-[Logistik](warehouse-manage-warehouse.md)  
+[Lagerverwaltung – Übersicht](design-details-warehouse-management.md)
 [Bestand](inventory-manage-inventory.md)  
 [Einrichten von Warehouse Management](warehouse-setup-warehouse.md)     
 [Montageverwaltung](assembly-assemble-items.md)    
-[Designdetails: Warehouse Management](design-details-warehouse-management.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

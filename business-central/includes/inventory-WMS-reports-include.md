@@ -3,13 +3,8 @@ author: edupont04
 ms.topic: include
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5c99520c40098f568df543ccda2996639e22dcb8
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8334740"
 ---
+
 In der folgenden Tabelle werden einige der wichtigsten Berichte in der Bestands- und Lagerberichterstattung beschrieben.
 
 | Bericht | Beschreibung | Id | 

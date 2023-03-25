@@ -3,13 +3,8 @@ author: edupont04
 ms.topic: include
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: dbec2d1003935abe6c3651243c1b7050951e355c
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8334798"
 ---
+
 In der folgenden Tabelle werden einige der wichtigsten Berichte in der Einkaufsberichterstattung beschrieben.
 
 

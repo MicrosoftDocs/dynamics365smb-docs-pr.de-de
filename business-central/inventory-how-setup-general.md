@@ -1,27 +1,21 @@
 ---
 title: So richten Sie allgemeine Lagerbestandsinformationen ein
-description: Beschreibt, wie Sie die allgemeine Lagereinrichtung definieren, damit Sie Ihr Lager und Ihren Lagerbestand verwalten können.
+description: 'Beschreibt, wie Sie die allgemeine Lagereinrichtung definieren, damit Sie Ihr Lager und Ihren Lagerbestand verwalten können.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: warehouse, stock
-ms.search.form: 30, 456, 461
+ms.search.keywords: 'warehouse, stock'
+ms.search.form: '30, 456, 461'
 ms.date: 07/28/2021
 ms.author: edupont
-ms.openlocfilehash: 0cf56049c5c7d5b31cb75185bb26f9619317d9e1
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8522014"
 ---
-# <a name="set-up-general-inventory-information"></a>So richten Sie allgemeine Lagerbestandsinformationen ein
+# So richten Sie allgemeine Lagerbestandsinformationen ein
 
 Sie geben Ihre allgemeine Lagerbestandseinrichtung auf der Seite **Lager Einrichtung** an.
 
-## <a name="to-set-up-general-inventory-information"></a>So richten Sie allgemeine Lagerbestandsinformationen ein
+## So richten Sie allgemeine Lagerbestandsinformationen ein
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Lagerbestandseinrichtung** ein und wählen Sie dann den zugehörigen Link.
 2. Füllen Sie auf der Seite **Lager Einrichtung** die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -37,7 +31,7 @@ Wenn Sie möchten, dass die Anwendung die Lagerdurchlaufzeit bei der Berechnung 
 >
 > Alternativ können Sie die Kosten in regelmäßigen Abständen manuell mit dem Stapelverarbeitungsauftrag „Kosten ausgleichen – Artikelposten“ ausgleichen. Sie können auch die automatische Kostenbuchung deaktivieren oder das Feld **Automatische Lagerregulierung** auf *Nie* setzen. In beiden Fällen wird eine Benachrichtigung angezeigt, über die Sie einen Leitfaden zur unterstützten Einrichtung starten können, der Sie beim Planen von Aufgaben für die Aufgabenwarteschlange unterstützt. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-## <a name="see-also"></a>Weitere Informationen
+## Weitere Informationen
 
 [Lager einrichten](inventory-setup-inventory.md)  
 [Designdetails: Kostenberechnungsmethoden](design-details-costing-methods.md)  

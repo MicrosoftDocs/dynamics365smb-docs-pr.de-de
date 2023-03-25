@@ -1,6 +1,6 @@
 ---
 title: Lagerplatzarten einrichten
-description: Weisen Sie den Lagerplätzen Typen und grundlegende Flow-Aktivitäten zu und definieren Sie damit die Art und Weise, wie die Lagerplätze für bestimmte Lageraktivitäten verwendet werden.
+description: 'Weisen Sie den Lagerplätzen Typen und grundlegende Flow-Aktivitäten zu und definieren Sie damit die Art und Weise, wie die Lagerplätze für bestimmte Lageraktivitäten verwendet werden.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -9,22 +9,16 @@ ms.workload: na
 ms.search.form: 7367
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 2bec10341df30f451e05289573c48132cf20b00a
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9533994"
 ---
-# <a name="set-up-bin-types"></a>Lagerplatzarten einrichten
+# Lagerplatzarten einrichten
 
 Sie können den Warenfluss durch die Lagerplätze steuern, die Sie für bestimmte Logistikaktivitäten definiert haben. Sie weisen jedem Lagerplatz eine Lagerplatzart zu und ordnen dadurch dem Lagerplatz seine grundlegenden Warenflussaktivitäten zu, und definieren hiermit auf welche ein Lagerplatz verwendet wird.  
 
 Es gibt sechs Arten. Sie können Ihr Lager mit allen möglichen sechs Lagerplatzarten betreiben oder Sie entscheiden sich, nur die Lagerplatzarten EING, EINLAGKOMM, AUSG und QK zu verwenden. Diese vier Lagerplatzarten ermöglichen der Anwendung, Vorschläge zu machen, um den Warenfluss zu unterstützen, und sie geben Ihnen die Möglichkeit, Abweichungen im Lagerbestand zu erfassen.  
 
-## <a name="to-set-up-the-bin-types-you-want-to-use"></a>So richten die Lagerplatzarten ein, die Sie verwenden möchten:
+## So richten die Lagerplatzarten ein, die Sie verwenden möchten:
 
-1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Lagerplatzarten** ein und wählen Sie dann den zugehörigen Link.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Lagerplatzarten** ein und wählen Sie dann den zugehörigen Link.  
 2.  Erzeugen Sie auf der Seite **Lagerplatzarten** einen Code mit 10 Zeichen für eine Lagerplatzart.  
 3.  Wählen Sie die Aktivitäten aus, die mit den einzelnen Lagerplatzarten durchgeführt werden können.  
 
@@ -44,15 +38,14 @@ Die Lagerplatzarten, die Sie erzeugen können, werden weiter unten aufgelistet.
 |EINLAGKOMM|Artikel an Lagerplätzen, die für Einlagerungs- und Kommissionierungsfunktionen vorgeschlagen werden. Lagerplätze dieser Art haben wahrscheinlich unterschiedliche Lagerplatzprioritäten. Sie können Ihre Palettenlagerplätze mit dieser Lagerplatzart und mit Prioritäten einrichten, die niedriger sind als die Ihrer normalen Kommissionierungslagerplätze oder der besonders bevorzugten Kommissionierungslagerplätze.|  
 |QK|Dieser Lagerplatz wird für einen Ausgleich von Lagerbestand verwendet, wenn Sie diesen Lagerplatz auf der Lagerortkarte im Feld **Ausgleichlagerplatzcode** angeben. Sie können Lagerplätze dieser Art auch für beschädigte Artikel und Artikel, die für Qualitätskontrollen verwendet werden, einrichten. Sie können Artikel in diese Art von Lagerplätzen umlagern, wenn Sie möchten, dass diese für den normalen Warenfluss nicht zugänglich sein sollen.<br /><br /> **HINWEIS:** Anders als alle anderen Lagerplatzarten hat die Lagerplatzart **QK** keine standardmäßig aktivierten der Kontrollkästchen für die Behandlung. Dies bedeutet, dass jeder Inhalt, den Sie an einem QC-Lagerplatz platzieren, aus den Artikelströmen ausgeschlossen ist.|  
 
-## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/set-up-zones-bins/)
+## Siehe verwandte [Microsoft Schulungen](/training/modules/set-up-zones-bins/)
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
-[Logistik](warehouse-manage-warehouse.md)  
+[Lagerverwaltung – Übersicht](design-details-warehouse-management.md)
 [Bestand](inventory-manage-inventory.md)  
 [Einrichten von Warehouse Management](warehouse-setup-warehouse.md)  
 [Montageverwaltung](assembly-assemble-items.md)  
-[Designdetails: Warehouse Management](design-details-warehouse-management.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

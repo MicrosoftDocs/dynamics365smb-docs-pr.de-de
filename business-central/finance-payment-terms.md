@@ -1,19 +1,13 @@
 ---
 title: Zahlungsbedingungen einrichten
-description: Verwenden Sie in der Basisversion von Business Central Zahlungsbedingungen, um Fälligkeitstermine und Zahlungsrabatte zu verwalten.
+description: 'Verwenden Sie in der Basisversion von Business Central Zahlungsbedingungen, um Fälligkeitstermine und Zahlungsrabatte zu verwalten.'
 author: edupont04
 ms.topic: conceptual
 ms.search.form: 4
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e6b242bc3da6a2845c457cfbfcfaf80e6c71d31d
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605110"
 ---
-# <a name="set-up-payment-terms"></a>Zahlungsbedingungen einrichten
+# Zahlungsbedingungen einrichten
 
 Die Zahlungsbedingungen bestimmen, wie Sie Fälligkeitstermine und Zahlungsrabatte verwalten. Sie können eine beliebige Anzahl von Zahlungsbedingungscodes einrichten. Hierbei können Sie Datumsformeln verwenden, um die Zahlungsbedingungen zu definieren. Wenn Sie sich zum ersten Mal anmelden für [!INCLUDE [prod_short](includes/prod_short.md)] stellt das Demounternehmen einige Zahlungsmethoden bereit, die Unternehmen häufig verwenden. Sie können so viele Zeilen hinzufügen, wie Sie benötigen.  
 
@@ -25,7 +19,7 @@ Wenn Sie einen Habenbetrag buchen, berechnet [!INCLUDE [prod_short](includes/pro
 
 Wenn Sie Ihren Kunden Erinnerungen an überfällige Zahlungen senden möchten, müssen Sie Erinnerungsstufen und -bedingungen einrichten. Weitere Informationen finden Sie unter [Einrichten von Betimmungen und Ebenen](finance-setup-reminders.md).  
 
-## <a name="to-set-up-payment-terms"></a>So richten Sie Zahlungsbedingungen ein
+## So richten Sie Zahlungsbedingungen ein
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun") Symbol. Geben Sie **Zahlungsbedingungen** ein, und wählen Sie dann den zugehörigen Link.  
 2. Füllen Sie die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -37,7 +31,7 @@ Weisen Sie die Zahlungsbedingungen den Debitoren und Kreditoren zu, nachdem Sie 
 >
 > In bestimmten Ländern *können* Sie Zahlungsbedingungen mit Teilzahlungen einrichten. Informationen dazu, ob diese Funktion in Ihrem Land unterstützt wird, finden Sie im Abschnitt **Lokale Funktionalität** im Navigationsbereich auf der linken Seite auf der Seite [Microsoft Learn](about-localization.md).
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Einrichten von Zahlungsformen](finance-payment-methods.md)  
 [Vorauszahlungen einrichten](finance-set-up-prepayments.md)  

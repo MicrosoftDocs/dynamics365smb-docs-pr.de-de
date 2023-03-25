@@ -1,42 +1,38 @@
 ---
 title: Datensatz-Verbrauch oder -Verwendung von Job-Ressourcen und Elementen
-description: Beschreibt, wie der Verbrauch oder die Verwendung von Artikeln oder Ressourcen erfasst wird, um das Projektmanagement zu vereinfachen.
-author: SorenGP
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: project management, consumption
-ms.search.form: 89, 92, 201, 1007, 1014
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: c948845c535474ccd5fb8c3d6e031e5467c9de2f
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532079"
+description: 'Dieser Artikel beschreibt, wie der Verbrauch oder die Verwendung von Artikeln oder Ressourcen für Projekte in Projektmanagement erfasst werden.'
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.service: dynamics365-business-central
+ms.topic: how-to
+ms.date: 12/20/2022
+ms.custom: bap-template
 ---
-# <a name="record-consumption-or-usage-for-jobs"></a>Datensatz-Verbrauch oder -Verwendung für Jobs aufzeichnen
+# Datensatz-Verbrauch oder -Verwendung für Jobs aufzeichnen
 
-Auf der Seite **Projektplanzeilen** können Sie Verbrauch für verschiedene Teile des Projekts überprüfen und erfassen; dieser wird automatisch aktualisiert, wenn Sie Informationen zu Projekten und Projektbuchungsblättern oder Projektrechnungen ändern und übertragen. Dies setzt voraus, dass Sie einen Job so festgelegt haben, dass die **Verbrauchsverknüpfung anwenden** eingeschaltet ist. Weitere Informationen finden Sie unter [Einrichten von Stellen](projects-how-setup-jobs.md).  
+Auf der Seite **Auftragskarte** können Sie die Seite **Projektplanzeilen** öffnen, um die Nutzung verschiedener Teile Ihres Projekts zu überprüfen und zu erfassen. Diese Informationen werden automatisch aktualisiert, wenn Sie Informationen zwischen Projekten und Projekt-Buch.-Blättern oder Projektrechnungen ändern und übertragen. Dazu ist es erforderlich, dass Sie den Schalter **Link Verbrauch standardmäßig anwenden** auf der Seite **Projekteinrichtung** aktiviert ist. Erfahren Sie mehr unter [Projekte einrichten](projects-how-setup-jobs.md).  
 
-Zum Beispiel können Sie für Planungszeilen der Art **Plan** die Menge einer Ressource eingeben und festlegen, welche Menge in das Projektbuchungsblatt umgelagert wird. Wenn die Art der Planungszeile **Fakturierbar** ist, können Sie die Menge einer Ressource eingeben und festlegen, welche Menge in das Projektbuchungsblatt umgelagert wird. Weitere Informationen zur Rechnungsstellung an den Debitor finden Sie unter [Jobs fakturieren](projects-how-invoice-jobs.md). Durch den Vergleich der ursprünglichen Menge, der verbleibenden Menge oder der gebuchten Menge können Sie die Verbrauchsinformationen schnell überprüfen. Informationen zur Einschätzung der geplante Werte bei der Planung, siehe [Verwalten von Projektbudgets](projects-how-manage-budgets.md)  
+<!-- Not really sure what this paragraph is saying, or why we start with it. Why do you transfer information between jobs and job journals or job invoices? I get the use of resources and items, but what about G/L account and Text?
 
-Die folgenden Verfahren beschreiben, wie Sie tatsächliche (budgetierte) Mengen und Kosten mit dem Job-Journal erfassen. Alternativ können Sie auch Kaufbelege verwenden, um den Kauf für einen Job zu erfassen. Weitere Informationen finden Sie unter [Verwalten von Auftragsvorräten](projects-how-manage-project-supplies.md).
+On the Jobs Setup page there's an Apply Usage Link by Default toggle. Guessing that's what we're referring to -->
 
-## <a name="to-record-usage-for-a-job-planning-line-of-type-budget"></a>Den Verbrauch in einer Projektplanungszeile der Art "Plan"erfassen
+Zum Beispiel können Sie für Planungszeilen der Art **Plan** die Menge einer Ressource eingeben und dann die Menge angeben, die in das Projektbuchungsblatt umgelagert wird. Wenn die Art der Planungszeile **Fakturierbar** ist, können Sie die Menge einer Ressource eingeben und dann die Menge angeben, die in das Projektbuchungsblatt umgelagert wird. Weitere Informationen zur Rechnungsstellung an den Debitor finden Sie unter [Projekte fakturieren](projects-how-invoice-jobs.md). Durch den Vergleich der ursprünglichen Menge, der verbleibenden Menge oder der gebuchten Menge können Sie die Verbrauchsinformationen schnell überprüfen. Weitere Informationen zur Einschätzung der geplante Werte bei der Planung, finden Sie unter [Verwalten von Projektbudgets](projects-how-manage-budgets.md)  
+
+Die folgenden Verfahren beschreiben, wie Sie tatsächliche (budgetierte) Mengen und Kosten mit eiem Projekt-Buch.-Blatt erfassen. Alternativ können Sie auch Einkaufsbelege verwenden, um Einkäufe für eine Projekt zu erfassen. Weitere Informationen finden Sie unter [Verwalten von Projektlieferungen](projects-how-manage-project-supplies.md).
+
+## Den Verbrauch in einer Projektplanungszeile der Art "Plan"erfassen
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Aufträge** ein, und wählen Sie dann den zugehörigen Link.  
-2. Markieren Sie den entsprechenden Job und wählen Sie dann die Aktion **Job-Einplanungszeilen**.
-3. Wählen Sie eine Projektplanungszeile der Art **Plan** aus oder geben Sie **Plan und Fakturierbar** ein, für die Sie den Verbrauch buchen möchten.  
+2. Markieren Sie das Projekt und wählen Sie dann die Aktion **Projektplanzeilen**. 
+3. Wählen Sie eine Projektplanungszeile der Art **Plan** aus oder geben Sie **Plan und Fakturierbar** ein, für die Sie den Verbrauch buchen möchten.   
 
     > [!NOTE]
-    > Sie können den Datensatz auch für eine Auftragsplanungszeile vom Typ **Abrechnungsfähig** verwenden. Normalerweise verwenden Sie diese Zeile, um Rechnungen zu erstellen, aber Sie können sie auch in eine Erfassung übertragen. Weitere Informationen finden Sie unter [Rechnungsaufträge](projects-how-invoice-jobs.md) <!--However, when you do that, a job planning line of type **Budget** is created to match the billable line. For more information, see [Manage Job Budgets](projects-how-manage-budgets.md).-->
+    > Sie können den Datensatz auch für eine Auftragsplanungszeile vom Typ **Abrechnungsfähig** verwenden. Normalerweise verwenden Sie diese Zeile, um Rechnungen zu erstellen, aber Sie können die Informationen auch in eine Erfassung übertragen. Erfahren Sie mehr unter [Fakturieren von Projekten](projects-how-invoice-jobs.md) <!--However, when you do that, a job planning line of type **Budget** is created to match the billable line. For more information, see [Manage Job Budgets](projects-how-manage-budgets.md).-->
 
-4. Geben Sie im Feld **In das Journal zu übertragende Menge** die Anzahl ein, die Sie auf die Rechnung transferieren wollen. Der Standardwert ist der Wert, den Sie im Feld **Menge** angegeben haben.
+4. Geben Sie im Feld **In das Journal zu übertragende Menge** die zu umzulagernde Menge ein. Der Standardwert ist der Wert, den Sie im Feld **Menge** angegeben haben.
 
-    Das Feld **Restmenge** zeigt die Menge an, die verbleibt, um das Projekt abzuschließen und in das Buch.-Blatt zu übertragen.  
+    Das Feld **Restmenge** zeigt die Menge an, die verbleibt, um das Projekt abzuschließen und in das Buch.-Blatt umzulagern. <!--Should we mention that this field is not shown by default, and that if they want to use it they must add it?--> 
 5. Wählen Sie die Aktion **Buch.-Blattzeilen erstellen** aus.
 
     > [!TIP]
@@ -47,21 +43,21 @@ Die folgenden Verfahren beschreiben, wie Sie tatsächliche (budgetierte) Mengen 
 9. Auf der Seite **Projektplanungszeilen** überprüfen Sie den erfassten Verbrauch, indem Sie die Felder **Menge**, **Restmenge** und **Auf Buch.-Blatt zu übertragende Menge** kontrollieren.  
 10. Um zusätzlichen Verbrauch zu erfassen, wiederholen Sie die Schritte 3 bis 8.  
 
-## <a name="to-create-job-journal-lines-manually"></a>Projekt-Buchungsblattzeilen manuell erstellen
+## Projekt-Buchungsblattzeilen manuell erstellen
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Projekt Buch.-Blätter** ein und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie im Feld **Stapelverarbeitungsname** einen entsprechenden Projekt-Buchungsblattnamen aus.  
 3. Geben Sie in einer neuen Zeile die Belegnummer, Projektnummer, Projektaufgabennummer und die Art und Menge des verbrauchten Typs ein.  
 4. Wenn die Projekt-Buch.-Blattzeilen vollständig sind, wählen Sie die Aktion **Buchen** aus.  
 
-## <a name="to-view-job-usage-estimates-and-post-updates"></a>So zeigen Sie Projektverbrauchschätzungen und Buchungsaktualisierungen an.
+## So zeigen Sie Projektverbrauchschätzungen und Buchungsaktualisierungen an.
 
 Der Projektverbrauch kann bis zum Projektabschluss in einem einzigen Schritt angezeigt werden. Verwenden Sie hierzu die Stapelverarbeitung **Restverbrauch für Projekt berechnen** für alle Aufgaben bis zum Projektende (einschließlich).  
 
 Auf diese Weise können Sie die ursprüngliche Planung mit den tatsächlichen Ergebnissen vergleichen und ggf. Änderungen vornehmen oder neue Posten hinzufügen. Beispiel: Sie haben für ein Projekt eine Dauer von zehn Stunden geplant, aktueller Stand sind jedoch 15 Stunden. Sie können die fünf zusätzlichen Stunden entweder der bestehenden Buch.-Blattzeile hinzufügen oder eine neue Buch.-Blattzeile erstellen, um die fünf Stunden als Überstunden (anderer Arbeitstyp) zu melden. Die angemessenen Kosten und der Preis werden berechnet und dann können Sie sie in das Protokoll buchen.  
 
 > [!NOTE]  
->   Artikeleinträge erstellen Artikelposten und reduzieren die Lagerbestandmenge. Durch die Stapelverarbeitung **Lagerregulierung buchen** werden die Kosten aus dem Lagerbestand in die Finanzbuchhaltung gebucht. Aus Posten für Ressourcen werden Ressourcenposten erstellt.  
+> Artikeleinträge erstellen Artikelposten und reduzieren die Lagerbestandmenge. Durch die Stapelverarbeitung **Lagerregulierung buchen** werden die Kosten aus dem Lagerbestand in die Finanzbuchhaltung gebucht. Aus Posten für Ressourcen werden Ressourcenposten erstellt.  
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Projekt Buch.-Blätter** ein und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie ein Buch.-Blatt des entsprechenden Projekts, und wählen Sie dann die Aktion **Verbleibender Verbrauch berechnen** aus.  
@@ -69,13 +65,14 @@ Auf diese Weise können Sie die ursprüngliche Planung mit den tatsächlichen Er
 4. Aktualisieren Sie das Buch.-Blatt mit sämtlichen Änderungen, die möglicherweise erforderlich sind.  
 5. Wählen Sie die Aktion **Buchen** aus.
 
-## <a name="create-inventory-and-warehouse-pick-documents-for-a-job"></a>Belege für Bestand und Lagerkommissionierungen für einen Auftrag erstellen
+## Belege für Bestand und Lagerkommissionierungen für einen Auftrag erstellen
 
 Um Bestands- und Lagerkommissionierungsbelege für Aufträge zu erstellen, muss Ihr Administrator die Funktion **Funktion Aktualisieren: Lagerbestand und Lagerkommissionierungen von Aufträgen aus aktivieren** auf der Seite **Funktionsverwaltung** aktivieren.
 
-Die Funktion erstellt die Aktionen **Lagerkommissionierung erstellen** und **Lagerkommissionierungen erstellen** auf der **Jobkarte**. Um einen Beleg für eine Kommissionierung zu erstellen oder zu registrieren, verwenden Sie die Aktionen **Kommissionierlinien/Bewegungslinien** oder **Registrierte Kommissionierlinien**. Weitere Informationen zu Kommissionierungen finden Sie unter [Entnahme von Artikeln](warehouse-pick-items.md)
+Die Funktion erstellt die Aktionen **Lagerkommissionierung erstellen** und **Lagerkommissionierungen erstellen** auf der **Jobkarte**. Um einen Beleg für eine Kommissionierung zu erstellen oder zu registrieren, verwenden Sie die Aktionen **Kommissionierlinien/Bewegungslinien** oder **Registrierte Kommissionierlinien**. Weitere Informationen finden Sie unter [Designdetails – Abläufe für Fertigung, Montage und Aufträge](design-details-internal-warehouse-flows.md).
 
 Sie können die Aktionen unter den folgenden Bedingungen verwenden:
+
 * Der **Status** des Auftrags ist **Offen**.
 * Die **Zeilenart** der Auftragsplanungszeile ist **Budget** oder **Budget und abrechenbar**.
 * Der **Typ** der Auftragsplanungszeile ist **Artikel**.
@@ -87,8 +84,7 @@ Sie können die Aktionen unter den folgenden Bedingungen verwenden:
 > 
 > Wenn Ihr Standort so festgelegt ist, dass sowohl die Kommissionierung als auch die Verarbeitung von Sendungen erforderlich ist, d.h. wenn Sie auf der Seite **Standortkarte** sowohl das Feld **Kommissionierung anfordern** als auch das Feld **Sendung anfordern** ausgewählt haben, verwenden Sie die Seite **Lager-Kommissionierung**, um die Kommissionierung zu bearbeiten. Lagerkommissionierungen sind ähnlich wie Bestandskommissionierungen. Der Unterschied besteht darin, dass Sie die Kommissionierung registrieren, anstatt die Kommissionierungsinformationen zu buchen. Mit dieser Registrierung wird kein Verbrauch gebucht, sondern die Artikel werden lediglich für die Buchung verfügbar gemacht. Als Manager eines Lagers können Sie ein Kommissionierarbeitsblatt verwenden, um die Kommissionierinformationen zu organisieren, bevor Sie die einzelnen Anweisungen für die Kommissionierung im Lager erstellen.
 
-
-## <a name="to-review-planning-lines-for-a-job-ledger-entry"></a>Um Planungszeilen für einen Projektposten zu überprüfen
+## Um Planungszeilen für einen Projektposten zu überprüfen
 
 Nachdem Sie die Projekt-Planungszeilen gebucht haben, können Sie die gebuchten Projekt-Buchungszeilen sehen, die dem Projekt-Buchungsblatt zugeordnet sind.
 
@@ -99,14 +95,14 @@ Nachdem Sie die Projekt-Planungszeilen gebucht haben, können Sie die gebuchten 
 2. Wählen Sie ein Buch.-Blatt des entsprechenden Projekts aus, und wählen Sie dann die Aktion **Projektposten** aus.  
 3. Auf der Seite **Projektposteneinträge** wählen Sie die Aktion **Anzeigen verknüpfter Projektplanungszeilen** aus.
 
-## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/paths/post-job-usage-sales/)
+## Siehe verwandte [Microsoft Schulungen](/training/paths/post-job-usage-sales/)
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Projektmanagement](projects-manage-projects.md)  
 [Finanzen](finance.md)  
-[Einkauf](purchasing-manage-purchasing.md)         
-[Verkauf](sales-manage-sales.md)      
+[Einkauf](purchasing-manage-purchasing.md)  
+[Verkauf](sales-manage-sales.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

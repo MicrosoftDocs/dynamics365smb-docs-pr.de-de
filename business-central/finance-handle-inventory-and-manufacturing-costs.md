@@ -1,22 +1,16 @@
 ---
 title: Umgang mit Bestand und Kalkulationen
-description: Hier erfahren Sie, wie sich eine Reihe von Feldern, Seiten und Berichten an Benutzer richtet, die direkt oder indirekt die Kosten von Artikeln oder Vorgängen verwalten.
+description: 'Hier erfahren Sie, wie sich eine Reihe von Feldern, Seiten und Berichten an Benutzer richtet, die direkt oder indirekt die Kosten von Artikeln oder Vorgängen verwalten.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: b911692aa899eac88b74322e21454c87659a75a8
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605569"
 ---
-# <a name="handling-inventory-and-manufacturing-costs"></a>Verarbeiten von Lager- und Fertigungskosten
+# Verarbeiten von Lager- und Fertigungskosten
 
 Obgleich viele der Kostenberechnungsfunktionen in untergeordneten Prozessen ohne Benutzereingriff ausgedrückt werden (beispielsweise Postenausgleich und automatische Lagerregulierung), sind eine Reihe von Feldern, Seiten und Berichten für Benutzer konzipiert, die die Kosten von Artikeln oder Arbeitsgängen direkt oder indirekt verwalten.  
 
@@ -35,7 +29,7 @@ Obgleich viele der Kostenberechnungsfunktionen in untergeordneten Prozessen ohne
 |Manuelles Rückgängigmachen eines Artikelausgleichs oder erneutes Ausgleichen von Artikelposten, die durch die Anwendung erstellt wurden|[Artikelposten entfernen und erneut ausgleichen](finance-how-to-remove-and-reapply-item-entries.md)|  
 |Sie können das Feld **Eintrag anwenden** im Buch.-Blatt verwenden, um manuell einen festen Ausgleich zwischen einer eingehenden Transaktion und der ursprünglichen ausgehenden Transaktion zu erstellen.|[Schließen von offenen Artikelposten aus einem festen Ausgleich im Artikel Buch.-Blatt](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)|  
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Lagerkosten Verwalten](finance-manage-inventory-costs.md)
 [Designdetails: Lagerkosten](design-details-inventory-costing.md)

@@ -1,88 +1,162 @@
 ### YamlMime:FAQ
 metadata:
-  title: FAQ zur Nutzung von Business Central
-  description: Beantwortet allgemeine Fragen darüber, wie Sie sich für Business Central registrieren oder es kaufen, wie Sie eine Testversion oder Support erhalten, eine Testversion verlängern, ein Abonnement kündigen sowie Schulungen und anderweitige Unterstützung erhalten.
+  title: FAQ About Using Business Central
+  description: 'Answers common questions about how to sign up for or buy Business Central, extend a trial, cancel a subscription, and find training and other support.'
   author: edupont04
   ms.topic: faq
-  ms.search.keywords: FAQ, email, Microsoft 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
+  ms.search.keywords: 'FAQ, email, Microsoft 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend'
   ms.date: 09/07/2022
   ms.author: edupont
-  ms.openlocfilehash: 186731bff985900492a7353556f97862984b60cc
-  ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-  ms.translationtype: HT
-  ms.contentlocale: de-DE
-  ms.lasthandoff: 09/19/2022
-  ms.locfileid: "9535344"
-title: Häufig gestellte Fragen zur Verwendung von Business Central
-summary: "Dieser Abschnitt enthält Antworten auf häufig gestellte Fragen zur Registrierung für eine Testversion, zum Kauf eines Abonnements und zur Verwendung von [!INCLUDE[prod_short](includes/prod_short.md)]. Sie können auch erfahren, wie Sie technischen Support erhalten.  \n"
+title: Frequently Asked Questions about Using Business Central
+summary: |
+  This section contains answers to frequently asked questions about signing up for a trial, buying a subscription, and using <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph>. You can also learn how to get technical support.  
 sections:
-- name: Ignoriert
-  questions:
-  - question: >
-      Ist Business Central in meinem Land/meiner Region verfügbar?
-    answer: "[!INCLUDE[prod_short](includes/prod_short.md)] ist in einer begrenzten Anzahl von Märkten verfügbar. Neue Länder werden über eine von Microsoft geführte Lokalisation oder durch partnergeführte Lokalisation quartalsweise hinzugefügt. Weitere Informationen finden Sie unter [Verfügbarkeit nach Ländern/Regionen und unterstützte Übersetzungen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json) (nur in Englisch verfügbar).  \n"
-  - question: >
-      Wie erhalte ich Business Central?
-    answer: "Sie können sich für eine kostenlose Testversion registrieren, um [!INCLUDE[prod_short](includes/prod_short.md)] zu erkunden. [!INCLUDE[free_trial_md](includes/free_trial_md.md)] Wenn Sie mehr Zeit zur Erkundung möchten, [können Sie Ihre Testperiode verlängern](#can-i-extend-my-30-day--new-company--trial-period-).  \n\nUm sich leichter auf Geschäftstätigkeiten mit [!INCLUDE[prod_short](includes/prod_short.md)] vorzubereiten, können Sie Leitfäden für unterstütztes Setup, Videos oder Hilfethemen für ausgewählte Setupaufgaben starten. Weitere Informationen unter [Bereitschaft für die Geschäftsabwicklung](ui-get-ready-business.md).  \n\nWenn Sie bereit sind, [!INCLUDE[prod_short](includes/prod_short.md)] zu kaufen, finden Sie einen [!INCLUDE[prod_short](includes/prod_short.md)] Partner auf der Seite [Ich suche einen Lösungsanbieter](https://go.microsoft.com/fwlink/?linkid=2038145). Weitere Informationen finden Sie unter [Wie finde ich einen Vertriebspartner?](#how-do-i-find-a-reselling-partner).  \n"
-  - question: >
-      Wohin wende ich mich bei Fragen?
-    answer: "Wenn Sie Fragen zum [!INCLUDE[prod_short](includes/prod_short.md)] haben, und keine Antwort in dieser Dokumentation finden, können Sie dieBusiness Central-Community fragen. Weitere Informationen unter [Dynamics 365 Business Central Community](https://community.dynamics.com/business).  \n\nVon der Communityhomepage aus finden Sie auch Verknüpfungen mit unseren Blogs, in denen Sie Tipps und Tricks finden. Weitere Informationen finden Sie unter [Microsoft Dynamics 365 Business Central auf dem Dynamics 365 Blog](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/) und den älteren [Dynamics 365 Business Central Blog](https://community.dynamics.com/business/b/financials).  \n\nSchließlich können Sie Ihren [!INCLUDE[prod_short](includes/prod_short.md)] Wiederverkaufspartner kontaktieren. Weitere Informationen finden Sie in den Abschnitten [Wie erhalte ich technischen Support?](/dynamics365/business-central/across-faq#how-do-i-get-technical-support-for-business-central) und [Wie finde ich einen Vertriebspartner?](#how-do-i-find-a-reselling-partner).  \n"
-  - question: >
-      Warum finde ich diese Funktion nicht in Business Central?
-    answer: "Haben Sie vor kurzem über eine neue Funktion im Veröffentlichungsplan in unserem Blog gelesen? In diesem Fall wurde Ihr [!INCLUDE[prod_short](includes/prod_short.md)] möglicherweise noch nicht auf die neueste Version aktualisiert. Sie können überprüfen, auf welcher Version Ihre [!INCLUDE[prod_short](includes/prod_short.md)] basiert auf der Seite [Hilfe und Unterstützung](product-help-and-support.md).  \n\nDies gilt für [!INCLUDE [prod_short](includes/prod_short.md)] für online und on-premises.  \n\nAlso wenn die Funktion in AppSource als Erweiterung veröffentlicht wird, gibt es eine Verzögerung zwischen der angekündigten Erweiterung und ihrer Verfügbarkeit in AppSource. Dies gilt nur für [!INCLUDE [prod_short](includes/prod_short.md)] online.  \n"
-  - question: >
-      Gibt es Unterschiede zwischen einer lokalen Bereitstellung und Business Central Online?
-    answer: >
-      Ja. [!INCLUDE [prod_short](includes/prod_short.md)] ist für die Online-Bereitstellung optimiert und einige Funktionen werden möglicherweise nur unter bestimmten Umständen vor Ort ausgeführt, während andere überhaupt nicht unterstützt werden. Weitere Informationen finden Sie unter [Funktionen, die in lokalen Bereitstellungen von Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises) nicht implementiert sind (nur in englischer Sprache verfügbar).
-  - question: >
-      Kann ich unter Business Central das Training aufrufen?
-    answer: "Ja, das können Sie! Kostenlose eLearning-Inhalte finden Sie auf der [Microsoft Schulungen-Seite](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs). Sie können auch Ihren Vertriebspartner um zusätzliche Schulungen bitten. Wenn Sie nicht wissen, wer das ist, lesen Sie den Abschnitt [Wie finde ich einen Vertriebspartner?](#how-do-i-find-a-reselling-partner).  \n\nWeitere Informationen über das von Microsoft bereitgestellte Training für Dynamics 365 finden Sie auf der Seite [Microsoft Dynamics 365 Training](/dynamics365/get-started/training/index#dynamics-365-customers).  \n\nZusätzliche Inhalte werden von der [!INCLUDE[prod_short](includes/prod_short.md)]-Community bereitgestellt, wie z.B. der [Microsoft Dynamics 365 Business Central Field Leitfaden](https://leanpub.com/dynamics), der von einem Partner geschrieben wird.  \n"
-  - question: Wie erhalte ich technischen Support für Business Central?
-    answer: "[!INCLUDE[prod_short](includes/prod_short.md)] wird durch Partner verkauft und Sie sollten Ihren Wiederverkaufspartner kontaktieren, um Hilfe mit technischen Problemen zu erhalten. Wenn Ihr [!INCLUDE[prod_short](includes/prod_short.md)]-Partner das jeweilige Problem nicht lösen kann, wird er ein Support-Ticket bei Microsoft eröffnen.  \n\nWeitere Informationen finden Sie unter [Hilfe und Support](product-help-and-support.md) und unter [Wie finde ich einen Vertriebspartner?](#how-do-i-find-a-reselling-partner).  \n"
-  - question: >
-      Wo ist die Speichern-Schaltfläche?
-    answer: "es gibt keine *Speichern*-Schaltfläche auf Seiten wie in anderen Programmen, mit denen Sie möglicherweise vertraut sind. In [!INCLUDE[prod_short](includes/prod_short.md)] werden Änderungen, die Sie in einem Feld vornehmen, automatisch gespeichert, sobald Sie zum nächsten Feld wechseln oder die Seite schließen, sofern keine Fehler vorliegen. Wenn Sie Änderungen an einem Feld vornehmen und zu einem anderen Feld wechseln, wird der Text **Wird gespeichert** in der oberen rechten Ecke der Seite angezeigt. Er wechselt schnell zu **Gespeichert**, wenn keine Fehler auftreten. Wenn ein Fehler auftritt, wird der Text in **Nicht gespeichert** geändert.  \n"
-  - question: >
-      Wo finde ich diese Zeilennummer?
-    answer: "Dokumente wie Kundenaufträge oder Eingangsrechnungen bestehen aus Kopfzeilen und Zeilen. Jede Zeile hat eine Nummer, die [!INCLUDE [prod_short](includes/prod_short.md)] verwendet, um diese bestimmte Zeile zu identifizieren. Infolgedessen wird möglicherweise eine Warnung oder eine Fehlermeldung angezeigt, dass beispielsweise in Zeile 1000 etwas nicht stimmt. In der Standardversion von [!INCLUDE [prod_short](includes/prod_short.md)] sind Zeilennummern ausgeblendet. Wenn Sie die Zeilennummern sehen möchten, müssen Sie die aktuelle Seite personalisieren und die **Zeilennr.** hinzufügen. Feld Weitere Informationen unter [Ihren Arbeitsbereich personalisieren](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).  \n"
-  - question: >
-      Warum beschreibt Hilfe Funktionalität, auf die ich nicht zugreifen kann?
-    answer: "Wenn Ihre Benutzeroberfläche, die auf der Seite **Firmendaten** festgelegt, auf **Wesentlich** festgelegt ist, dann sind Benutzeroberflächenelemente für die Fertigung und Dienstleistungs-Verwaltungsfunktionen für Sie nicht sichtbar, da sie die Benutzeroberfläche **Premium** erfordern. Ein Text-Hinweis wird in den obersten Hilfethemenebenen für diese Funktionsbereiche eingefügt. Weitere Informationen unter [Ändern, welche Funktionen angezeigt werden](ui-experiences.md).  \n"
-  - question: >
-      Warum sind neue Informationen in meiner Sprache nicht verfügbar?
-    answer: "Microsoft Learn Inhalte zur Geschäftsfunktionalität werden in verschiedenen Sprachen veröffentlicht. Der Inhalt ist in englischer Sprache verfasst und wird unter URLs mit *en-us* als Sprachcode veröffentlicht. Wenn neue Informationen auf Englisch veröffentlicht werden, werden sie zur Übersetzung in die unterstützten Sprachen gesendet. Dies bedeutet, dass Sie diesen neuen Inhalt bis zu 4 Wochen lang nicht in Ihrer eigenen Sprache lesen können.  \n\nWir verstehen die Probleme, die dies verursachen kann, und empfehlen Benutzern, gesuchte Inhalte in Englisch zu suchen, wenn sie diese nicht in ihrer eigenen Sprache finden können.  \n"
-  - question: Welche E-Mail-Adresse kann ich mit Business Central online verwenden?
-    answer: "[!INCLUDE[prod_short](includes/prod_short.md)] online erfordert eine Arbeits- oder Schul-E-Mail-Adresse, um sich anzumelden. [!INCLUDE[prod_short](includes/prod_short.md)] online unterstützt keine E-Mail-Adressen, die von E-Mail-Diensten für Endverbraucher oder Telekommunikationsanbietern bereitgestellt werden. Dieses schließt outlook.com, hotmail.com, gmail.com und andere ein.  \n\nWenn Sie versuchen, sich mit einer persönlichen E-Mail-Adresse anzumelden, erhalten Sie eine Nachricht, in der Sie aufgefordert werden, eine Arbeits- oder Schul-E-Mail-Adresse zu verwenden. Weitere Informationen finden Sie unter [Problembehandlung zur Self-Service-Registrierung](ui-troubleshoot-self-signup.md).  \n\nWenn Sie [!INCLUDE[prod_short](includes/prod_short.md)] lokal bereitstellen möchten, können Sie weitere Authentifizierungsmethoden verwenden. Erfahren Sie mehr unter [Bereitstellung von Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/deployment).  \n"
-  - question: >
-      Muss ich Microsoft 365 kaufen?
-    answer: "Anz. Wenn Sie allerdings möchten, dass [!INCLUDE[prod_short](includes/prod_short.md)] vollständig in Microsoft 365 integriert wird, können Sie sich für eine 1-monatige kostenlose Testversion von Microsoft 365 [hier](https://products.office.com/try) anmelden.  \n\nWenn das Konto, bei dem Sie sich anmelden, kein Microsoft 365-Arbeitskonto ist (wie z. B. joe@mysolution.com) und Sie ein Microsoft 365-Abonnement haben, können Sie Ihre Domäne (*mysolution.com*) dem Microsoft 365-Abonnement zuordnen. Erfahren Sie mehr unter [Was ist eine Domäne?](/microsoft-365/admin/get-help-with-domains/what-is-a-domain?view=o365-worldwide&preserve-view=true) im Microsoft 365-Inhalt.  \n\nWenn Sie kein Microsoft 365-Abonnement haben und Sie keines kaufen möchten, dann stellen wir bei der Registrierung einen neuen Azure Active Directory-Mandanten für Sie bereit, sodass Sie Zugriff auf die erweiterten Verwaltungstools im Azure-Portal haben.  \n"
-  - question: >
-      Worum geht's bei der Integration in Microsoft 365?
-    answer: "[!INCLUDE[prod_short](includes/prod_short.md)] online ist vollständig in Microsoft 365 integriert, sodass Sie mit dem App-Startfeld frei zwischen Microsoft 365-Apps und [!INCLUDE[prod_short](includes/prod_short.md)] navigieren können. Im [!INCLUDE[prod_short](includes/prod_short.md)] können Sie beispielsweise Daten in Excel öffnen, Berichte unter Verwendung Word drucken und mit Ihren [!INCLUDE[prod_short](includes/prod_short.md)] Daten in Outlook arbeiten. Weitere Informationen unter [Benutzen Sie [!INCLUDE[prod_short](includes/prod_short.md)] als Ihr Business Central-Posteingang in Outlook](admin-outlook.md).  \n"
-  - question: >
-      Kann ich meine 30-tägige Testzeit „Neues Unternehmen“ verlängern?
-    answer: "Ja. Wenn das Ablaufdatum Ihres Testzeitraums näher rückt, wird eine Benachrichtigung angezeigt, um Sie darauf hinzuweisen, wenn Sie sich anmelden. Die Benachrichtigung enthält einen Link zum Leitfaden **Testzeitraum verlängern**, womit Sie Ihren Testzeitraum verlängern können. Die zusätzlichen 30 Tage starten in dem Moment, wenn Sie im Leitfaden **Testversion verlängern** auswählen. Sie können den Testversionszeitraum einmalig selbst verlängern. Danach kann ein Microsoft-Partner ihn um weiterer 30 Tage verlängern. Weitere Informationen unter [Verlängern Ihrer Testversion](admin-extend-trial.md).\n\n> [!NOTE]\n> Es kann bis zu zwei Arbeitstage dauern, um die Testphase zu verlängern.  \n\nWeitere Informationen zur Partnersuche finden Sie unter [Wie finde ich einen Vertriebspartner?](#how-do-i-find-a-reselling-partner).  \n"
-  - question: >
-      Was sind die Service Level Agreements für die Cloud?
-    answer: >
-      [!INCLUDE [service-terms](includes/service-terms.md)]
-  - question: >
-      Wie oft wird Business Central Online aktualisiert?
-    answer: >
-      [!INCLUDE[prod_short](includes/prod_short.md)] Online ist ein Dienst, der aus einer von Microsoft verwalteten Plattform und aus Geschäftsfunktionen besteht. Viele Microsoft-Partner stellen zusätzliche Geschäftsfunktionen bereit, z. B. um spezifische Branchen- oder Lokalisierungsanforderungen zu erfüllen. Sowohl die Geschäftsfunktionen als auch die Servicekomponenten werden kontinuierlich überwacht und gegebenenfalls aktualisiert. Sie können sich jederzeit den [Versionsplan](/dynamics365/release-plans/) ansehen, um einen Überblick über neue und kommende Funktionen zu erhalten. Weitere Informationen finden Sie unter [Serviceübersicht für Business Central Online](/dynamics365/business-central/dev-itpro/service-overview) (nur in Englisch) und unter [Neu und geplant](product-news.md).
-  - question: >
-      Der Administrator hat mich auf einen anderen Plan gelegt und mir eine andere Rolle zugewiesen, es wird jedoch weiterhin die gleiche Startseite in Business Central angezeigt.
-    answer: "Dies ist ein wenig komplizierter, aber es sieht so aus, als ob Ihr Administrator im Rollencenter Ihre zugewiesene Rolle nicht geändert hat und Benutzergruppen zugeordnet hat, die mit der neuen Lizenz übereinstimmen. Im Wesentlichen wird Ihr Zugang zu [!INCLUDE[prod_short](includes/prod_short.md)] vom Plantyp (Lizenz) bestimmt, den Sie haben - dieser legt Ihre Zugriffsrechte, Ihre zugewiesene Rolle und die Standard-Startseite fest. Sie können Ihre aktuelle Rolle manuell in Meine Einstellungen ändern. Wenn Sie aber auf einen Plan anderen wechseln, und vom Unternehmensplan auf einen Team-Members-Plan wechseln, könnten Sie die alte Startseite sehen, weil Ihre Berechtigungen nicht geändert wurden.  \n"
-  - question: >
-      Kann ich mein Abonnement beenden?
-    answer: "Ja, aber abhängig davon, wie Sie sich für [!INCLUDE[prod_short](includes/prod_short.md)] registriert haben, können Ihre Daten gelöscht oder beibehalten werden. Erfahren Sie mehr unter [Stornierung [!INCLUDE[prod_short](includes/prod_short.md)]](admin-cancel.md).  \n"
-  - question: >
-      Kann ich eine mehrstufige Authentifizierung verwenden?
-    answer: "Natürlich. In diesem Fall benötigen Sie möglicherweise ein App-Kennwort, um E-Mail-Nachrichten zu senden. App-Kennwörter ermöglichen einer App oder einem Gerät den Zugriff auf Ihr E-Mail-Konto. Die Schritte zum Erhalten eines App-Kennworts variieren, abhängig von Ihren E-Mail-Anbieter. Weitere Informationen finden Sie in der Hilfe von Ihrem Anbieter. Wenn Sie beispielsweise Outlook verwenden, finden Sie Informationen unter [Multifaktor-Authentifizierung für Microsoft 365](/microsoft-365/admin/security-and-compliance/multi-factor-authentication-microsoft-365).  \n"
-  - question: Wie finde ich einen Vertriebspartner?
-    answer: "[!INCLUDE[prod_short](includes/prod_short.md)] wird über ein globales Netzwerk von Dynamics 365 Partnern mit Branchenexpertise verkauft und implementiert. Wenden Sie sich an einen Partner, um eine detaillierte Bewertung, Beratungsleistungen und weitere Services zu erhalten. Weitere Informationen finden Sie im Abschnitt **Preisgestaltung** auf der [Dynamics 365 Business Central Seite auf microsoft.com](https://dynamics.microsoft.com/business-central/overview/).  \n\nWenn Sie bereit sind, [!INCLUDE[prod_short](includes/prod_short.md)] zu kaufen, finden Sie einen [!INCLUDE[prod_short](includes/prod_short.md)] Partner auf der Seite [Ich suche einen Lösungsanbieter](https://go.microsoft.com/fwlink/?linkid=2038145). Lösungen und Dienstleistungen von Partnern finden Sie auch unter [Microsoft AppSource](https://go.microsoft.com/fwlink/?linkid=845998).  \n\nWenn Sie Unterstützung von Microsoft wünschen, wenden Sie sich an das [Microsoft Sales Team](https://go.microsoft.com/fwlink/?linkid=828707).  \n\nIhr Reselling-Partner übernimmt auch den technischen Support für Sie. Erfahren Sie mehr unter [Ressourcen für Hilfe und Support](product-help-and-support.md).  \n"
-  - question: >
-      Wird der Windows-Client unterstützt?
-    answer: >
-      Die ersten Releases von [!INCLUDE[prod_short](includes/prod_short.md)] lokal umfassten einen installierbaren Client, der von Microsoft Dynamics NAV abgeleitet war. Ab der Veröffentlichungswelle 2 von 2019 ist diese als „Windows-Client“ bezeichnete veraltete Komponente für [!INCLUDE[prod_short](includes/prod_short.md)] nicht mehr verfügbar. Weitere Informationen finden Sie unter [FAQ zu Windows-Client und Business Central](/dynamics365/business-central/dev-itpro/faq-win-cli).
-additionalContent: "\n## <a name=\"see-also\"></a>Siehe auch\n\n[Vorbereitung für die Geschäftstätigkeit](ui-get-ready-business.md)  \n[Häufig gestellte Fragen zu „Wie möchten Sie weiter verfahren“](ui-search-faq.md)  \n[Suchen und Filtern FAQ](ui-search-filter-faq.yml)  \n[Listenansichten FAQ](ui-views-faq.yml)  \n[Sprache und Gebiet ändern](about-locale-language.md)  \n[[!INCLUDE[prod_short](includes/prod_short.md)] als Ihr Unternehmenspostfach in Outlook verwenden](admin-outlook.md)  \n[[!INCLUDE[prod_short](includes/prod_short.md)] ohne Outlook verwenden](admin-no-outlook.md)  \n[Ändern von grundlegenden Einstellungen](ui-change-basic-settings.md)  \n[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  \n[Abrufen von Antworten zu den Fragen](/dynamics365/business-central/ui-get-ready-business#getting-answers-to-questions)  \n[Ressourcen für Hilfe und Support](product-help-and-support.md)  \n[Business Central Lernkatalog](readiness/readiness-learning-catalog.md)  \n[Berechtigungen an Benutzer und Gruppen zuweisen](ui-define-granular-permissions.md)  \n[Verfügbarkeit in Ländern/Regionen und unterstützte Übersetzungen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  \n[Servicebedingungen](compliance/compliance-service-compliance.md#service-terms)  \n[FAQ zu Entwickler- und Administratorerfahrungen](/dynamics365/business-central/dev-itpro/faq)\n[Migrieren von lokalen Daten zu Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data)\n## [!INCLUDE[prod_short](includes/free_trial_md.md)]  \n[!INCLUDE[footer-include](includes/footer-banner.md)]"
+  - name: Ignored
+    questions:
+      - question: |
+          Is Business Central available in my country/region?
+        answer: |
+          <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph> is available in a limited number of markets, but new countries are added through Microsoft-led localization or through partner-led localization on a quarterly basis. Learn more at <bpt id="p1">[</bpt>Country/Regional Availability and Supported Translations<ept id="p1">](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)</ept> (available in English only).  
+      - question: |
+          How do I get Business Central?
+        answer: |
+          You can sign up for a free trial to explore <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph>. <ph id="ph1">[!INCLUDE[free_trial_md](includes/free_trial_md.md)]</ph> If you want more time to explore, <bpt id="p1">[</bpt>you can extend your trial period<ept id="p1">](#can-i-extend-my-30-day--new-company--trial-period-)</ept>.  
+
+          To help you get ready for doing business in <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph>, you can launch assisted setup guides, videos, or help topics for selected setup tasks. Learn more at <bpt id="p1">[</bpt>Getting Ready for Doing Business<ept id="p1">](ui-get-ready-business.md)</ept>.  
+
+          When you're ready to buy <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph>, you can find a <ph id="ph2">[!INCLUDE[prod_short](includes/prod_short.md)]</ph> partner on the <bpt id="p1">[</bpt>I'm looking for a solution provider<ept id="p1">](https://go.microsoft.com/fwlink/?linkid=2038145)</ept> page. Learn more at <bpt id="p1">[</bpt>How do I find a reselling partner?<ept id="p1">](#how-do-i-find-a-reselling-partner)</ept>.  
+      - question: |
+          Where do I go if I have questions?
+        answer: |
+          If you have questions about <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph> that you can't find an answer for in this documentation, you can ask the Business Central community. Learn more at <bpt id="p1">[</bpt>Dynamics 365 Business Central community<ept id="p1">](https://community.dynamics.com/business)</ept>.  
+
+          From the community home page, you can also find links to our blogs where you can also find tips and tricks. Learn more at <bpt id="p1">[</bpt>Microsoft Dynamics 365 Business Central on the Dynamics 365 blog<ept id="p1">](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/)</ept> and the older <bpt id="p2">[</bpt>Dynamics 365 Business Central Blog<ept id="p2">](https://community.dynamics.com/business/b/financials)</ept>.  
+
+          Finally, you can contact your <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph> reselling partner. Learn more at the <bpt id="p1">[</bpt>How do I get technical support?<ept id="p1">](/dynamics365/business-central/across-faq#how-do-i-get-technical-support-for-business-central)</ept> and <bpt id="p2">[</bpt>How do I find a reselling partner?<ept id="p2">](#how-do-i-find-a-reselling-partner)</ept> sections.  
+      - question: |
+          Why can't I find that capability in my Business Central?
+        answer: |
+          Did you read about a new capability in the release plan or on our blog recently? In that case, your <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph> might not have been upgraded to the latest version yet. You can check which version your <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph> is based on in the <bpt id="p1">[</bpt>Help and Support<ept id="p1">](product-help-and-support.md)</ept> page.  
+
+          This applies to <ph id="ph1">[!INCLUDE [prod_short](includes/prod_short.md)]</ph> online and on-premises.  
+
+          Also, if the capability is published as an extension in AppSource, then there's a delay between the extension being announced and its availability in AppSource. This applies to <ph id="ph1">[!INCLUDE [prod_short](includes/prod_short.md)]</ph> online only.  
+      - question: |
+          Are there any differences between an on-premises deployment and Business Central online?
+        answer: |
+          Yes. <ph id="ph1">[!INCLUDE [prod_short](includes/prod_short.md)]</ph> is optimized for online deployment, and some capabilities may run on premises only under certain circumstances, while others aren't supported at all. Learn more at <bpt id="p1">[</bpt>Features not implemented in on-premises deployments of Dynamics 365 Business Central<ept id="p1">](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises)</ept> (available in English only).
+      - question: |
+          Can I get training in Business Central?
+        answer: |
+          Yes, you can! You can find free eLearning content on the <bpt id="p1">[</bpt>Microsoft training site<ept id="p1">](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)</ept>. You can also ask your reselling partner for more training. If you don't know who that is, see the <bpt id="p1">[</bpt>How do I find a reselling partner?<ept id="p1">](#how-do-i-find-a-reselling-partner)</ept> section.  
+
+          For more information about training across Dynamics 365 that is provided by Microsoft, see the <bpt id="p1">[</bpt>Microsoft Dynamics 365 training<ept id="p1">](/dynamics365/get-started/training/index#dynamics-365-customers)</ept> page.  
+
+          More content is provided by the <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph> community, such as the <bpt id="p1">[</bpt>Microsoft Dynamics 365 Business Central Field Guide<ept id="p1">](https://leanpub.com/dynamics)</ept> that is written by a partner.  
+      - question: How do I get technical support for Business Central?
+        answer: |
+          <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph> is sold through partners, and you should contact your reselling partner to get help with technical problems. If your <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph> partner then can't resolve the problem, they'll raise a support ticket with Microsoft.  
+
+          Learn more at <bpt id="p1">[</bpt>Help and Support<ept id="p1">](product-help-and-support.md)</ept> and the <bpt id="p2">[</bpt>How do I find a reselling partner?<ept id="p2">](#how-do-i-find-a-reselling-partner)</ept> section.  
+      - question: |
+          Where is the save button?
+        answer: |
+          there's no <bpt id="p1">*</bpt>save<ept id="p1">*</ept> button on pages like in other programs that you might be familiar with. In <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph>, changes that you make to a field are automatically saved as soon as you move to the next field or close the page, as long as there are no errors. When you make changes to a field and move to another field, you'll see the text <bpt id="p1">**</bpt>Saving<ept id="p1">**</ept> in the top-right corner of the page. It changes to <bpt id="p1">**</bpt>Saved<ept id="p1">**</ept> quickly if no errors occur. If an error occurs, the text will change to <bpt id="p1">**</bpt>Not Saved<ept id="p1">**</ept>.  
+      - question: |
+          Where do I find that line number?
+        answer: |
+          Documents such as sales order or purchase invoices consist of headers and lines. Each line has a number that <ph id="ph1">[!INCLUDE [prod_short](includes/prod_short.md)]</ph> uses to identify this particular line. As a result, you might see a warning or an error message that something is wrong in line number 1000, for example. In the default version of <ph id="ph1">[!INCLUDE [prod_short](includes/prod_short.md)]</ph>, line numbers are hidden. If you want to see the line numbers, you must personalize the current page and add the <bpt id="p1">**</bpt>Line No.<ept id="p1">**</ept> field. Learn more at <bpt id="p1">[</bpt>Personalize Your Workspace<ept id="p1">](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner)</ept>.  
+      - question: |
+          Why does Help describe functionality that I can't access?
+        answer: |
+          If your Experience setting on the <bpt id="p1">**</bpt>Company Information<ept id="p1">**</ept> page is set to <bpt id="p2">**</bpt>Essential<ept id="p2">**</ept>, then UI elements for the Manufacturing and Service Management features aren't visible to you because they require the <bpt id="p3">**</bpt>Premium<ept id="p3">**</ept> experience. A text note is inserted in high-level help topics for these feature areas. Learn more at <bpt id="p1">[</bpt>Change Which Features are Displayed<ept id="p1">](ui-experiences.md)</ept>.  
+      - question: |
+          Why is new information not available in my language?
+        answer: |
+          Microsoft Learn content about business functionality is published in several languages. The content is authored in English and published to URLs with <bpt id="p1">*</bpt>en-us<ept id="p1">*</ept> as the language code. When new information is published in English, it's then sent off for translation into the supported languages. This means that you'll not be able to read this new content in your own language for up to four weeks.  
+
+          We understand the problems this can cause, and we encourage users to search for what they're looking for in English if they can't find it in their own language.  
+      - question: What email address can I use with Business Central online?
+        answer: |
+          <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph> online requires that you use a work, or school, email address to sign up. <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph> online doesn't support email addresses provided by consumer email services or telecommunication providers. This includes outlook.com, hotmail.com, gmail.com, and others.  
+
+          If you try to sign up with a personal email address, you'll get a message indicating to use a work or school email address. Learn more at <bpt id="p1">[</bpt>Troubleshooting Self-Service Sign-Up<ept id="p1">](ui-troubleshoot-self-signup.md)</ept>.  
+
+          If you want to deploy <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph> on-premises, then you can use other authentication methods. Learn more at <bpt id="p1">[</bpt>Deployment of Dynamics 365 Business Central<ept id="p1">](/dynamics365/business-central/dev-itpro/deployment/deployment)</ept>.  
+      - question: |
+          Do I have to buy Microsoft 365?
+        answer: |
+          No. But if you want to experience <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph> as fully integrated with Microsoft 365, you can sign up for a 1-month free trial of Microsoft 365 <bpt id="p1">[</bpt>here<ept id="p1">](https://products.office.com/try)</ept>.  
+
+          If you sign up with a non-Microsoft 365 work account (such as <ph id="ph1">joe@mysolution.com</ph>), and you have a Microsoft 365 subscription, then you can associate your domain (<bpt id="p1">*</bpt>mysolution.com<ept id="p1">*</ept>) with the Microsoft 365 subscription. Learn more at <bpt id="p1">[</bpt>What is a domain?<ept id="p1">](/microsoft-365/admin/get-help-with-domains/what-is-a-domain?view=o365-worldwide&amp;preserve-view=true)</ept> in the Microsoft 365 content.  
+
+          If you don't have a Microsoft 365 subscription, and you don't want to buy one, then we provision a new Azure Active Directory tenant for you when you sign up so that you have access to the advanced administration tools in the Azure portal.  
+      - question: |
+          What is the integration with Microsoft 365 about?
+        answer: |
+          <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph> online is fully integrated with Microsoft 365 so that you can navigate freely between Microsoft 365 apps and <ph id="ph2">[!INCLUDE[prod_short](includes/prod_short.md)]</ph> using the app launcher. In <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph>, you can open data in Excel, print reports using Word, and you can work with your <ph id="ph2">[!INCLUDE[prod_short](includes/prod_short.md)]</ph> data in Outlook, for example. Learn more at <bpt id="p1">[</bpt>Use <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph> as your Business Inbox in Outlook<ept id="p1">](admin-outlook.md)</ept>.  
+      - question: |
+          Can I extend my 30-day "New Company" trial period?
+        answer: |
+          Yes. When the expiration date for your trial period is approaching, we'll display a notification to alert you when you sign in. The notification contains a link to the <bpt id="p1">**</bpt>Extend Trial Period<ept id="p1">**</ept> guide that you can use to extend your trial period. The extra 30 days start the moment you choose <bpt id="p1">**</bpt>Extend Trial<ept id="p1">**</ept> in the guide. You can extend the trial period one time yourself. After that, a Microsoft partner can extend it for another 30 days. Learn more at <bpt id="p1">[</bpt>Extend Your Trial Version<ept id="p1">](admin-extend-trial.md)</ept>.
+
+          > [!NOTE]
+          > It may take up to two business days to complete the trial extension process.  
+
+          For more information about finding a partner, see <bpt id="p1">[</bpt>How do I find a reselling partner?<ept id="p1">](#how-do-i-find-a-reselling-partner)</ept>.  
+      - question: |
+          What are the service level agreements for the cloud?
+        answer: |
+          [!INCLUDE [service-terms](includes/service-terms.md)]
+      - question: |
+          How often does Business Central online get updated?
+        answer: |
+          <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph> online is a service that consists of a Microsoft-maintained platform and business functionality. Many Microsoft partners provide extra business functionality, such as to address specific industry or localization needs. Both business functionality and service components are monitored continuously and updated as appropriate. You can always refer to the <bpt id="p1">[</bpt>release plan<ept id="p1">](/dynamics365/release-plans/)</ept> for an overview of new and upcoming functionality. Learn more at <bpt id="p1">[</bpt>Service Overview for Business Central Online<ept id="p1">](/dynamics365/business-central/dev-itpro/service-overview)</ept> (in English only) and <bpt id="p2">[</bpt>New and Planned<ept id="p2">](product-news.md)</ept>.
+      - question: |
+          Our administrator has moved me to another plan to give me another role, but I still see the same Home screen in Business Central?
+        answer: |
+          It's a bit complicated, but it looks like your administrator didn't change your assigned role and assign user groups that match the new license. Essentially, your access to <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph> is determined by the type of plan (license) that you have - this sets permissions, your assigned role and your default Home screen. You can change your current role manually in My Settings. But if you're moved to another plan, such as moving you from the Business plan to the Team Members plan, you might see the old Home screen because your permissions weren't changed.  
+      - question: |
+          Can I cancel my subscription?
+        answer: |
+          Yes, but depending on how you signed up to <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph>, your data can be deleted or preserved. Learn more at <bpt id="p1">[</bpt>Canceling <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph><ept id="p1">](admin-cancel.md)</ept>.  
+      - question: |
+          Can I use multi-factor authentication?
+        answer: |
+          Sure. If you do, you might need an app password in order to send email messages. App passwords give an app or a device access to your email account. The steps for getting an app password vary, depending on your email provider. Learn more at the help from your provider. For example, if you're using Outlook, see <bpt id="p1">[</bpt>Multi-factor authentication for Microsoft 365<ept id="p1">](/microsoft-365/admin/security-and-compliance/multi-factor-authentication-microsoft-365)</ept>.  
+      - question: How do I find a reselling partner?
+        answer: |
+          <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph> is sold and implemented through a global network of Dynamics 365 partners with industry expertise. Contact a partner for a detailed assessment, consulting services, and other services. Learn more at the <bpt id="p1">**</bpt>Pricing<ept id="p1">**</ept> section on the <bpt id="p2">[</bpt>Dynamics 365 Business Central page on microsoft.com<ept id="p2">](https://dynamics.microsoft.com/business-central/overview/)</ept>.  
+
+          When you're ready to buy <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph>, you can find a <ph id="ph2">[!INCLUDE[prod_short](includes/prod_short.md)]</ph> partner on the <bpt id="p1">[</bpt>I'm looking for a solution provider<ept id="p1">](https://go.microsoft.com/fwlink/?linkid=2038145)</ept> page. You can also find solutions and services from partners in <bpt id="p1">[</bpt>Microsoft AppSource<ept id="p1">](https://go.microsoft.com/fwlink/?linkid=845998)</ept>.  
+
+          If you want guidance from Microsoft, contact the <bpt id="p1">[</bpt>Microsoft Sales team<ept id="p1">](https://go.microsoft.com/fwlink/?linkid=828707)</ept>.  
+
+          Your reselling partner will also handle technical support for you. Learn more at <bpt id="p1">[</bpt>Resources for Help and Support<ept id="p1">](product-help-and-support.md)</ept>.  
+      - question: |
+          Is the Windows client supported?
+        answer: |
+          The first releases of <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph> on premises included an installable client derived from Microsoft Dynamics NAV. Starting with 2019 release wave 2, this legacy component, referred to as "the Windows client", is no longer available for <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph>. Learn more at <bpt id="p1">[</bpt>FAQ About the Windows Client and Business Central<ept id="p1">](/dynamics365/business-central/dev-itpro/faq-win-cli)</ept>.
+additionalContent: |
+
+  ## See Also
+
+  <bpt id="p1">[</bpt>Getting Ready for Doing Business<ept id="p1">](ui-get-ready-business.md)</ept>  
+  <bpt id="p1">[</bpt>Tell Me FAQ<ept id="p1">](ui-search-faq.md)</ept>  
+  <bpt id="p1">[</bpt>Searching and Filtering FAQ<ept id="p1">](ui-search-filter-faq.yml)</ept>  
+  <bpt id="p1">[</bpt>List Views FAQ<ept id="p1">](ui-views-faq.yml)</ept>  
+  <bpt id="p1">[</bpt>Changing Language and Locale<ept id="p1">](about-locale-language.md)</ept>  
+  <bpt id="p1">[</bpt>Use <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph> as Your Business Inbox in Outlook<ept id="p1">](admin-outlook.md)</ept>  
+  <bpt id="p1">[</bpt>Use <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph> without Outlook<ept id="p1">](admin-no-outlook.md)</ept>  
+  <bpt id="p1">[</bpt>Change Basic Settings<ept id="p1">](ui-change-basic-settings.md)</ept>  
+  <bpt id="p1">[</bpt>Working with <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph><ept id="p1">](ui-work-product.md)</ept>  
+  <bpt id="p1">[</bpt>Getting answers to questions<ept id="p1">](/dynamics365/business-central/ui-get-ready-business#getting-answers-to-questions)</ept>  
+  <bpt id="p1">[</bpt>Resources for Help and Support<ept id="p1">](product-help-and-support.md)</ept>  
+  <bpt id="p1">[</bpt>Business Central Learning Catalog<ept id="p1">](readiness/readiness-learning-catalog.md)</ept>  
+  <bpt id="p1">[</bpt>Assign Permissions to Users and Groups<ept id="p1">](ui-define-granular-permissions.md)</ept>  
+  <bpt id="p1">[</bpt>Country/Regional Availability and Supported Translations<ept id="p1">](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)</ept>  
+  <bpt id="p1">[</bpt>Service Terms<ept id="p1">](compliance/compliance-service-compliance.md#service-terms)</ept>  
+  <bpt id="p1">[</bpt>FAQ About Developer and Admin Experiences<ept id="p1">](/dynamics365/business-central/dev-itpro/faq)</ept><ph id="ph1">
+  </ph><bpt id="p2">[</bpt>Migrate On-Premises Data to Business Central Online<ept id="p2">](/dynamics365/business-central/dev-itpro/administration/migrate-data)</ept>
+  ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+  [!INCLUDE[footer-include](includes/footer-banner.md)]

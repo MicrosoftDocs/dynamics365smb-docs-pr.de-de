@@ -1,21 +1,15 @@
 ---
 title: Senden von Belegen und E-Mails
-description: Sie können Inhalt definieren, um in den Text eine E-Mail beispielsweise ein PayPal-Link einzufügen. Bestellanforderungen können auch Dokumente an eine E-Mail-Nachricht angehängt werden.
+description: 'Sie können Inhalt definieren, um in den Text eine E-Mail beispielsweise ein PayPal-Link einzufügen. Bestellanforderungen können auch Dokumente an eine E-Mail-Nachricht angehängt werden.'
 author: edupont04
 ms.topic: conceptual
 ms.workload: na
-ms.search.keywords: SMTP, mail, Microsoft 365, cover, body, PayPal, layout
-ms.search.form: ''
+ms.search.keywords: 'SMTP, mail, Microsoft 365, cover, body, PayPal, layout'
+ms.search.form: null
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5757cbd314d6e8af5a049b8d0dbe626b3eb83057
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9607202"
 ---
-# <a name="send-documents-and-emails"></a>Senden von Belegen und E-Mails
+# Senden von Belegen und E-Mails
 
 Sie können Informationen und Belege, wie z.B. Bestellungen, Verkaufsaufträge und Rechnungen, ganz einfach per E-Mail direkt von [!INCLUDE[prod_short](includes/prod_short.md)] aus weitergeben, ohne eine E-Mail App öffnen zu müssen.  
 
@@ -28,7 +22,7 @@ Um E-Mails aus [!INCLUDE[prod_short](includes/prod_short.md)] zu aktivieren star
 > [!NOTE]
 > [!INCLUDE[prod_short](includes/prod_short.md)] unterstützt nur ausgehende E-Mail-Kommunikation. Sie können auch keine Antworten aus der App erhalten.
 
-## <a name="to-send-documents-by-email"></a>Senden von Belegen über E-Mail
+## Senden von Belegen über E-Mail
 
 In diesem Verfahren wird beschrieben, wie Sie eine gebuchte Verkaufsrechnung als PDF-Datei und mit dokumentenspezifischem E-Mail-Text an eine E-Mail anhängen. <!--update this-->
 
@@ -50,7 +44,7 @@ In diesem Verfahren wird beschrieben, wie Sie eine gebuchte Verkaufsrechnung als
 > [!NOTE]  
 > Wenn Sie die E-Mail-Einstellungen nicht jedes Mal ändern wollen, wenn Sie ein Dokument per E-Mail senden, können Sie die Option **Ja** (Standardeinstellungen verwenden) im Feld **E-Mail** auf der Seite **Dokument senden** an auswählen. In diesem Fall wird die Seite **E-Mail senden** nicht geöffnet. Siehe dazu auch Schritt 4. Weitere Informationen finden Sie unter [Einrichten von Belegsendeprofilen](sales-how-setup-document-send-profiles.md).  
 
-## <a name="to-compose-and-send-an-email"></a>Zum Verfassen und Senden einer E-Mail
+## Zum Verfassen und Senden einer E-Mail
 
 Sie können E-Mails für Kontakte, Kunden, Lieferanten, Verkäufer/Einkäufer und Bankkonten direkt von den Seiten für diese Entitäten aus verfassen. Wählen Sie einfach **Verarbeiten** und dann **E-Mail senden**, um den E-Mail-Editor zu öffnen. Für Bankkonten finden Sie die Aktion **E-Mail senden** unter **Aktionen**.
 
@@ -59,11 +53,11 @@ Sie können E-Mails für Kontakte, Kunden, Lieferanten, Verkäufer/Einkäufer un
 
 Wenn Sie einem E-Mail-Szenario zugewiesen sind, das sich auf die Entität bezieht, an die Sie die E-Mail senden, oder auf das Dokument, das Sie senden, wird Ihrer Nachricht möglicherweise automatisch ein Anhang hinzugefügt. Das liegt daran, dass dem E-Mail-Szenario ein Standardanhang zugewiesen wurde. Sie können den Anhang löschen, wenn Sie ihn nicht mit Ihrer Nachricht senden möchten. Weitere Informationen finden Sie unter [Weisen Sie E-Mail-Konten E-Mail-Szenarien zu](admin-how-setup-email.md#assign-email-scenarios-to-email-accounts). 
 
-## <a name="documents-marked-as-printed-when-they-are-sent"></a>Belege, die beim Senden als gedruckt markiert sind
+## Belege, die beim Senden als gedruckt markiert sind
 
 Einige Belege in [!INCLUDE[prod_short](includes/prod_short.md)] verfügen über ein Feld, das angibt, wie oft der Beleg gedruckt worden ist. Die Nummer in diesem Feld <!--"that field?" need a name...--> wird auch aktualisiert, wenn Sie das Dokument per E-Mail senden, da eine PDF-Datei dafür generiert wird. Die Nummer wird aktualisiert, auch wenn Sie die E-Mail nicht senden. <!--guessing this is because emails are technically reports, so the counter bumps up whenever someone creates an email. Need to verify.-->
 
-## <a name="sent-emails-and-your-email-outbox"></a>Gesendete E-Mails und Ihr E-Mail-Postausgang
+## Gesendete E-Mails und Ihr E-Mail-Postausgang
 
 [!INCLUDE[prod_short](includes/prod_short.md)] speichert die E-Mails, die Sie auf der Seite **Gesendete Objekte** senden. Damit können Sie E-Mails erneut senden oder an eine andere Person weiterleiten. Wenn Sie in Ihren gesendeten Artikeln keine E-Mail finden können, suchen Sie diese auf der Seite **E-Mail-Postausgang**. 
 
@@ -72,9 +66,9 @@ Einige Belege in [!INCLUDE[prod_short](includes/prod_short.md)] verfügen über 
 
 Im **E-Mail-Postausgang** finden Sie die E-Mails, die Sie als Entwürfe gespeichert haben, und E-Mails, die nicht gesendet werden konnten, z. B. wenn die E-Mail-Adresse ungültig war. Für Nachrichten, die nicht gesendet werden konnten, können Sie **Fehler anzeigen** oder **Fehler untersuchen** anzeigen, um das Problem beheben.  
 
-## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/set-up-email/)
+## Siehe verwandte [Microsoft Schulungen](/training/modules/set-up-email/)
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Verwaltung von Berichts- und Dokumentlayouts](ui-manage-report-layouts.md)  
 [E-Mail einrichten](admin-how-setup-email.md)  

@@ -1,22 +1,16 @@
 ---
-title: Artikelverfolgung mit Serien-, Chargen- und Paketnummern einrichten
-description: Artikelverfolgung mit Seriennummern, Chargennummern und Paketnummern einrichten
+title: 'Artikelverfolgung mit Serien-, Chargen- und Paketnummern einrichten'
+description: 'Artikelverfolgung mit Seriennummern, Chargennummern und Paketnummern einrichten'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 08/31/2021
 ms.author: edupont
-ms.openlocfilehash: c298903d62da4cfd346a46ff1978ab91644fb13f
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9533267"
 ---
-# <a name="set-up-item-tracking-with-serial-lot-and-package-numbers"></a>Artikelverfolgung mit Serien-, Chargen- und Paketnummern einrichten
+# Artikelverfolgung mit Serien-, Chargen- und Paketnummern einrichten
 
 Behalten Sie den Überblick über Lagerartikel auch in komplexen Lagerkonfigurationen mit Nummern, die für jeden Artikel spezifisch sind, entweder als einzelnes Objekt, als Charge oder als Paket. Mit der Artikelverfolgung können Sie Artikel über interne Lagerbewegungen sowie ausgehende und eingehende Dokumente verfolgen.
 
@@ -25,13 +19,13 @@ Gibt gebuchte Serien- und Chargennummern an, die in einer Lieferkette vorwärts 
 > [!TIP]
 > Schalten Sie im 1. Veröffentlichungszyklus 2021 und später die Funktionsaktualisierung *Verwenden Sie die Nachverfolgung nach Paketnummer im Reservierungs‑ und Nachverfolgungssystem* ein, wenn Sie mit Paketnummern sowie Serien‑ und Chargennummern arbeiten möchten. Weitere Informationen finden Sie unter [Bevorstehende Funktionen im Voraus aktivieren](admin-feature-management.md). Sobald die Funktion aktiviert ist, können Sie ausgehenden und eingehenden Dokumenten Paketnummern zuweisen, ähnlich wie Sie mit Chargennummern arbeiten können.  
 
-## <a name="numbers-and-item-tracking"></a>Zahlen‑ und Artikelverfolgung
+## Zahlen‑ und Artikelverfolgung
 
 Im Rahmen Ihrer Lagerprozesse können Sie Ihren Lagerbestand in Paketen, Kartons, Containern usw. bündeln. Um den Überblick über die Artikel zu behalten, weisen Sie eindeutige Nummern als Identifikation zu. Sie stellen beispielsweise einen Stuhl mit der Artikelnummer *1900-S* her und verkaufen ihn. Jeder einzelne Stuhl hat eine Seriennummer, *1001*, aber Sie bündeln auch vier Stühle zu einer Charge, *LOT0001*, und Sie versenden die Stühle in einem Container mit der Paketnummer *CONTAINER010*. Das schließt auch andere Elemente ein, wie z. B. *LOT0100* mit Beistelltischen und *LOT200* mit Lampen.  
 
 Abhängig von Ihrer Konfiguration verwenden Sie diese unterschiedlichen Nummern, um den Lagerbestand in [!INCLUDE [prod_short](includes/prod_short.md)] in den verschiedenen Phasen des Einkaufs, Verkaufs, Lagerbetriebs usw. zu verfolgen.
 
-## <a name="to-set-up-item-tracking-codes"></a>Um Artikelverfolgungscodes einzurichten
+## Um Artikelverfolgungscodes einzurichten
 
 Ein Artikelverfolgungscode spiegelt die unterschiedlichen Betrachtungen wider, die ein Unternehmen bezüglich der Verwendung von Serien- und Chargennummern von Artikeln anstellt, die sich durch das Lager bewegen.  
 
@@ -48,7 +42,7 @@ Da dieses Einrichtungsfeld alle möglichen Transaktionen für den Artikel abdeck
 > [!NOTE]  
 >  Um Artikelverfolgungsnummern bei Lageraktivitäten zuzuordnen, müssen die Felder **Seriennr.-Verf. Lager** und **Chargennr.-Verf. Lager** auf der Karte des Artikels ausgewählt werden.  
 
-## <a name="to-set-up-expiration-rules-for-serial-or-lot-numbers"></a>Regeln für den Ablauf von Serien- oder Chargennummern einrichten:
+## Regeln für den Ablauf von Serien- oder Chargennummern einrichten:
 
 Für einige Artikel möchten Sie möglicherweise spezielle Ablaufdaten und Regeln in dem Artikelverfolgungscode festlegen. Diese Funktionalität ermöglicht Ihnen nachzuvollziehen, wann bestimmte Serien- und Chargennummern ablaufen.
 
@@ -62,7 +56,7 @@ Für einige Artikel möchten Sie möglicherweise spezielle Ablaufdaten und Regel
     |**Ablaufdatumseintrag anfordern**|Gibt an, dass Sie in der Artikelverfolgungszeile ein Ablaufdatum eingeben müssen.|  
     |**Ablaufdatumsangaben verwenden**|Gibt an, dass Sie keine Ablaufdatumsangaben berechnen möchten. |  
 
-## <a name="to-set-up-warranties-for-serial-or-lot-numbers"></a>Garantien für Serien- oder Chargennummern einrichten:
+## Garantien für Serien- oder Chargennummern einrichten:
 
 Für einige Artikel möchten Sie möglicherweise spezielle Garantievereinbarungen in dem Artikelverfolgungscode festlegen. Diese Funktionalität ermöglicht Ihnen nachzuvollziehen, wann die Garantien auf spezielle Serien- oder Chargennummern in Ihrem Lager auslaufen.  
 
@@ -76,7 +70,7 @@ Für einige Artikel möchten Sie möglicherweise spezielle Garantievereinbarunge
     |**Garantiedatumseintrag anfordern**|Zeigt an, dass Sie in der Artikelverfolgungszeile manuell ein Garantiedatum eingeben müssen.|  
 
 
-## <a name="to-set-up-items-for-tracking-with-the-correct-item-tracking-codes"></a>So richten Sie Artikel für die Verfolgung mit den richtigen Artikelverfolgungscodes ein
+## So richten Sie Artikel für die Verfolgung mit den richtigen Artikelverfolgungscodes ein
 
 Um die Artikelverfolgung zu aktivieren, müssen Sie einem Artikel zunächst die Artikelverfolgungscodes zuweisen. Es gibt zwei Möglichkeiten, Artikelverfolgungscodes hinzuzufügen, indem Sie den Code aus einer vordefinierten Liste auswählen oder einen neuen eindeutigen Code zuweisen. Zeigen Sie mit der Maus auf die Felder, um eine Kurzbeschreibung zu lesen.
 
@@ -85,9 +79,9 @@ Um die Artikelverfolgung zu aktivieren, müssen Sie einem Artikel zunächst die 
 3. Weisen Sie im Inforegister **Artikelverfolgung** die entsprechenden Artikelverfolgungscodes zu, und wählen Sie den **Artikelverfolgungscode**, die **Seriennummern** und die **Chargennummern** aus.
     1. Alternativ können Sie auch einen neuen Artikelverfolgungscode erstellen, indem Sie die Aktion **Neu** auswählen.
 
-## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/prepare-item-tracking/)
+## Siehe verwandte [Microsoft Schulungen](/training/modules/prepare-item-tracking/)
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Arbeiten mit Seriennummern und Chargennummern](inventory-how-work-item-tracking.md)  
 [Verfolgen von Artikeln mit Artikelverfolgung](inventory-how-to-trace-item-tracked-items.md)  

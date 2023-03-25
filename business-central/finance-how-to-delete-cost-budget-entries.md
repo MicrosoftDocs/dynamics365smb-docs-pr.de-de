@@ -1,6 +1,6 @@
 ---
 title: Kostenbudgetposten löschen
-description: Sie verwenden den Batchauftrag Kostenbudgeteinträge löschen , um Kostenbudgetposten in der Kostenbudgeterfassung zu stornieren.
+description: 'Sie verwenden den Batchauftrag Kostenbudgeteinträge löschen , um Kostenbudgetposten in der Kostenbudgeterfassung zu stornieren.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -9,20 +9,14 @@ ms.workload: na
 ms.search.form: 1115
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a97185820c9b28e297c8e30ad0c3f921860b8267
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517472"
 ---
-# <a name="delete-cost-budget-entries"></a>Kostenbudgetposten löschen
+# Kostenbudgetposten löschen
 
 Sie verwenden den Batchauftrag **Kostenbudgeteinträge löschen** , um Kostenbudgetposten in der Kostenbudgeterfassung zu stornieren.  
 
 Um keine Lücken in den Kostenbudgetposten und den Kostenjournalposten entstehen zu lassen, können Sie einen einzelnen Posten oder eine Gruppe von Posten nicht mitten in der Liste der Journalposten löschen.  
 
-## <a name="to-delete-a-cost-budget-entry"></a>Kostenbudgetposten löschen:  
+## Kostenbudgetposten löschen:  
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Kostenbudgetposten löschen** ein, und wählen Sie dann den entsprechenden Link.  
 
@@ -34,7 +28,7 @@ Um keine Lücken in den Kostenbudgetposten und den Kostenjournalposten entstehen
 > [!NOTE]  
 > Um ein versehentliches Löschen von Kostenbudgetposten zu vermeiden, können Sie Journalposten schließen, indem Sie die Zeilen als **Abgeschlossen** im Feld **Abgeschlossen** auf der Seite **Kostenbudget-Register** markieren.  
 
-## <a name="see-also"></a>Weitere Informationen
+## Weitere Informationen
 
 [Kostenrechnung](finance-manage-cost-accounting.md)
 [Erstellen von Kostenbudgets](finance-create-cost-budgets.md)  

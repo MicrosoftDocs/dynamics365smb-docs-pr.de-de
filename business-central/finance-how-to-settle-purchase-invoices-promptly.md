@@ -1,26 +1,20 @@
 ---
 title: Einkaufsrechnungen sofort ausgleichen
-description: Wenn Sie den Kreditor bar oder per Scheck bezahlen, können Sie die notwendigen Buchungen gleichzeitig bei der Buchung der Rechnung vornehmen.
+description: 'Wenn Sie den Kreditor bar oder per Scheck bezahlen, können Sie die notwendigen Buchungen gleichzeitig bei der Buchung der Rechnung vornehmen.'
 author: brentholtorf
 ms.topic: conceptual
-ms.search.form: 51, 9308
+ms.search.form: '51, 9308'
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 8386d5e52086f1a291529d828b66163c5d2851d3
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516291"
 ---
-# <a name="settle-purchase-invoices-promptly"></a>Einkaufsrechnungen sofort ausgleichen
+# Einkaufsrechnungen sofort ausgleichen
 
 Wenn Sie den Kreditor bar oder per Scheck bezahlen, können Sie die notwendigen Buchungen gleichzeitig bei der Buchung der Rechnung vornehmen.  
 
 > [!NOTE]  
 > Wenn Sie häufig Einkaufsrechnungen bar, per Scheck oder Banküberweisung bezahlen, ist es sinnvoll, eine bestimmte Zahlungsform mit einem Gegenkonto einzurichten und diese Methode im Feld **Zahlungsform** auf der Kreditorenkarte einzugeben. Die entsprechende Gegenkontonummer wird automatisch auf dem Rechnungskopf eingefügt, wenn Sie eine neue Rechnung erstellen. Weitere Informationen finden Sie unter [Zahlungsformen definieren](finance-payment-methods.md).  
 
-## <a name="to-settle-purchase-invoices-promptly"></a>So gleichen Sie Einkaufsrechnungen sofort aus
+## So gleichen Sie Einkaufsrechnungen sofort aus
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Einkaufsrechnungen** ein, und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die Aktion **Neu**.  
@@ -31,7 +25,7 @@ Wenn Sie den Kreditor bar oder per Scheck bezahlen, können Sie die notwendigen 
 >
 > Diese Anpassung ist nur erforderlich, wenn Sie keine Gegenkonten zu den Zahlungsformen, wie oben beschrieben, angeben.
 
-## <a name="see-also"></a>Weitere Informationen
+## Weitere Informationen
 
 [Verwalten von Verbindlichkeiten](payables-manage-payables.md)  
 [Einkauf](purchasing-manage-purchasing.md)  

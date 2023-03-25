@@ -3,12 +3,6 @@ author: edupont04
 ms.topic: include
 ms.date: 03/14/2022
 ms.author: edupont
-ms.openlocfilehash: b8b3df6cc84852b8725f6b04320363a2b4e5efca
-ms.sourcegitcommit: 3ca91139035b34cfe0b0303e4caff7c6d02d0d14
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 03/14/2022
-ms.locfileid: "8417822"
 ---
 |Feld|Beschreibung|  
 |-------------|---------------------------------------|  

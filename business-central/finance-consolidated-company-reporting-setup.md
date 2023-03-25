@@ -1,23 +1,18 @@
 ---
 title: Unternehmenskonsolidierung einrichten
-description: Erfahren Sie, wie Sie konfigurieren können, wie Daten von verschiedenen Unternehmen in Business Central an ein Konsolidierungsunternehmen gemeldet werden.
+description: 'Erfahren Sie, wie Sie konfigurieren können, wie Daten von verschiedenen Unternehmen in Business Central an ein Konsolidierungsunternehmen gemeldet werden.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: consolidation, subsidiaries, consolidate
-ms.search.form: 1826, 1827
+ms.search.keywords: 'consolidation, subsidiaries, consolidate'
+ms.search.form: '1826, 1827'
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 453cebcddb1fdfd2f3127fd08548deccc8fe1876
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8512204"
 ---
-# <a name="set-up-company-consolidation"></a>Unternehmenskonsolidierung einrichten
+
+# Unternehmenskonsolidierung einrichten
 
 Bevor Sie die Sachposten von zwei oder mehr getrennten Unternehmen (Niederlassungen) in ein konsolidiertes Unternehmen zusammenführen können, müssen Sie die Kontenpläne und das Konsolidierungsunternehmen vorbereiten.  
 
@@ -28,7 +23,7 @@ Je nach Komplexität Ihrer Unternehmen, gibt es zwei Arten, die Konsolidierung e
   * In jedem Konzernmandanten geben Sie an, welche Sachkonten in die Konsolidierung einzubeziehen sind und geben Sie die Konsolidierungsumrechnungsmethode für jedes Konto an.
   * Richten Sie im Konsolidierungsunternehmen eine Konzernmandantenkarte für jedes Unternehmen ein, das in die Konsolidierung einbezogen werden soll. Auf der Konzernmandantenkarte befinden sich Informationen wie Datumswerte für das Geschäftsjahr des Konzernmandanten und der Prozentsatz jedes Kontos, das in die Konsolidierung einbezogen werden muss.
 
-## <a name="simple-consolidation-setup"></a>Einfache Konsolidierungseinrichtung
+## Einfache Konsolidierungseinrichtung
 
 [!INCLUDE [2021_releasewave1](includes/2021_releasewave1.md)]
 Wenn die Konsolidierung einfach ist, weil Sie beispielsweise die Geschäftseinheit als Ganzes besitzen, führt Sie der unterstützte Setup **Mandanten-Konsolidierung** durch die folgenden Schritte:
@@ -41,11 +36,11 @@ Um die unterstützte Einrichtung zu starten, gehen Sie folgendermaßen vor:
 1. Im Feld **Buchhalter** wählen Sie Rollencenter **Unterstützte Einrichtung** Aktion aus.
 2. Wählen Sie **Einrichten Konsolidierungsberichterstellung** und schließen Sie dann jeden Schritt im unterstützten Setup ab.
 
-## <a name="advanced-consolidation-setup"></a>Erweiterte Konsolidierungseinrichtung
+## Erweiterte Konsolidierungseinrichtung
 
 Wenn Sie erweitertere Einstellungen für die Konsolidierung benötigen, können Sie die Konsolidierung manuell einrichten. Wenn Sie Unternehmen haben, die Sie nur teilweise besitzen, oder Sie haben Mandanten, die nicht in der Konsolidierung enthalten sein soll.  
 
-### <a name="set-up-the-consolidated-company"></a>Das konsolidierte Unternehmen einrichten
+### Das konsolidierte Unternehmen einrichten
 
 Zuerst müssen Sie das konsolidierte Unternehmen einrichten. Die Einrichtung des konsolidierten Unternehmens erfolgt auf die gleiche Weise wie die Einrichtung anderer Unternehmen. Weitere Informationen finden Sie unter [Vorbereitungen für das Ausführen von Geschäften](ui-get-ready-business.md).  
 
@@ -69,7 +64,7 @@ Die folgende Liste veranschaulicht wichtige Aspekte des konsolidierten Unternehm
 
     Weitere Informationen finden Sie im Abschnitt [Dimensionen ein- oder ausschließen](#dim).
 
-### <a name="add-business-units"></a><a name="busunit"></a>Konzernmandanten hinzufügen
+### <a name="busunit"></a>Konzernmandanten hinzufügen
 
 [!INCLUDE[prod_short](includes/prod_short.md)] ermöglicht es Ihnen, eine Liste zu konsolidierender Konzernmandanten einzurichten, die Buchhaltungsdaten zu überprüfen, bevor Sie diese konsolidieren, Dateien zu importieren und Konsolidierungsberichte zu generieren.  
 
@@ -83,7 +78,7 @@ Die folgende Liste veranschaulicht wichtige Aspekte des konsolidierten Unternehm
 
 Wenn der Konzernmandant eine Fremdwährung verwendet, müssen Sie den Wechselkurs angeben, der in der Konsolidierung verwendet werden soll. Sie müssen auch Konsolidierungdaten über die Sachkonten der Konzernmandanten angeben. In den folgenden Abschnitten werden diese Prozesse erläutert.
 
-### <a name="prepare-general-ledger-accounts-for-consolidation"></a><a name="glacc"></a>Sachkonten für die Konsolidierung vorbereiten
+### <a name="glacc"></a>Sachkonten für die Konsolidierung vorbereiten
 
 Der Kontenplan eines Unternehmens, das konsolidiert wird, muss Konten für die Konsolidierung angeben. Für jedes Buchungssachkonto in jedem Unternehmen müssen Sie das Sachkonto in dem konsolidierten Unternehmen angeben, auf das der Saldo bei der Konsolidierung übertragen wird. Mit dieser Zuordnung können Unternehmen mit unterschiedlichen Kontenplänen zusammen konsolidiert werden.
 
@@ -92,7 +87,7 @@ Wenn der Kontenplan des Konzernmandanten aus dem Konsolidierungsmandanten abweic
 1. Wählen Sie in der [!INCLUDE [prod_short](includes/prod_short.md)] jeder Einheit die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Kontenplan** ein, und wählen Sie dann den zugehörigen Link.  
 2. Öffnen Sie die Karte für das Konto, und füllen Sie dann die Felder im Inforegister **Konsolidierung** aus. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-### <a name="specify-exchange-rates-for-consolidations"></a><a name="exchrates"></a>Wechselkurse für Konsolidierungen angeben
+### <a name="exchrates"></a>Wechselkurse für Konsolidierungen angeben
 
 Richten Sie Wechselkurse für die Konsolidierung ein, wenn für die Finanzauswertungen eines Konzernmandanten nicht die Währung des konsolidierten Mandanten verwendet wird. Für jedes Konto bestimmt der Inhalt des Feldes **Konsol. Umrechnungsmethode** den Wechselkurses. Im konsolidierten Unternehmen auf jeder Konzernmandantenkarte im Feld **Währungswechselkurstabelle** geben Sie an, ob bei der Konsolidierung Wechselkurse des Konzernmandanten oder des konsolidierten Unternehmens verwendet werden. Bei Verwendung von Wechselkursen des konsolidierten Mandanten können die Wechselkurse für einen Konzernmandanten geändert werden. Enthält bei einer Geschäftseinheit das Feld **Wechselkurstabelle** (auf der Konzernmandantenkarte) den Wert **Lokal**, kann der Wechselkurs auf der Konzernmandantenkarte geändert werden. Zwar werden die Wechselkurse aus der Tabelle **Währungswechselkurs** kopiert, Sie haben jedoch die Möglichkeit, diese Wechselkurse vor der Konsolidierung zu ändern.
 
@@ -115,7 +110,7 @@ Um Wechselkurse für Konzernmandanten anzugeben, gehen Sie folgendermaßen vor:
 4. Wählen Sie die **Ultimokurs**-Aktion aus.  
 5. In dem Feld **Relationaler Wechselkursbetrag** geben Sie den Wechselkurs ein.
 
-### <a name="include-or-exclude-dimensions"></a><a name="dim"></a>Dimensionen ein- oder ausschließen
+### <a name="dim"></a>Dimensionen ein- oder ausschließen
 
 Sie können Dimensionsinformationen und Sachkonten konsolidieren.
 
@@ -125,15 +120,15 @@ Sie können Dimensionsinformationen und Sachkonten konsolidieren.
   * Um den Dimensionswertcode im Konzernmandanten mit einem anderen Dimensionswertcode im konsolidierten Unternehmen zu konsolidieren, füllen Sie das Feld **Konsolidierungscode** bei den relevanten Dimensionen aus.  
 * Fügen Sie die relevanten Dimensionen zu den relevanten Sachkonten hinzu
 
-### <a name="exclude-a-company-from-consolidation"></a><a name="exclude"></a>Ein Unternehmen aus der Konsolidierung ausschließen
+### <a name="exclude"></a>Ein Unternehmen aus der Konsolidierung ausschließen
 
 Wenn Sie keinen Konzernmandanten in die Konsolidierung einbeziehen, können Sie sie ausschließen. Um das zu tun, wechseln Sie zur Konzernmandantenkarte, und löschen Sie das Kontrollkästchen **Konsolidieren**.
 
-### <a name="include-a-partially-owned-company-in-consolidation"></a><a name="include"></a>Schließen Sie Unternehmen in die Konsolidierung ein, das teilweise im Besitz ist
+### <a name="include"></a>Schließen Sie Unternehmen in die Konsolidierung ein, das teilweise im Besitz ist
 
 Wenn Sie nur einen Teil des Unternehmen anlegen, können Sie einen Prozentsatz jeder Transaktion einschließen, der dem Prozentsatz des Mandanten entspricht, den Sie besitzen. Wenn beispielsweise 70% des Unternehmen anlegen, enthält $70 Konsolidierung einer Rechnung für $100. Um den Prozentsatz des Unternehmens anzugeben, den Sie anlegen, wechseln Sie zur Konzernmandantenkarte, und geben Sie den Prozentsatz im Feld **Konsolidierung %** ein.  
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Konsolidieren von Finanzdaten aus mehreren Unternehmen](finance-consolidated-company-reporting.md)  
 [Intercompanytransaktionen verwalten](intercompany-manage.md)  

@@ -1,22 +1,16 @@
 ---
 title: So legen Sie Lagerorte für die Verwendung von Lagerplätzen fest
-description: Lagerplätze stellen die Grundstruktur des Lagers dar und werden verwendet, um Vorschläge für die Platzierung und den Lagerort von Artikeln zu machen.
+description: 'Lagerplätze stellen die Grundstruktur des Lagers dar und werden verwendet, um Vorschläge für die Platzierung und den Lagerort von Artikeln zu machen.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: eef49d2ad6d1f52e8b85b1c3e06695668d19fd4f
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9530081"
 ---
-# <a name="set-up-locations-to-use-bins"></a>Lagerorte für die Verwendung von Lagerplätzen einrichten
+# Lagerorte für die Verwendung von Lagerplätzen einrichten
 
 Lagerplätze stellen die grundlegende Lagerstruktur dar und werden verwendet, um Vorschläge zur Einlagerung von Artikeln zu erstellen. Wenn Sie Ihre Lagerplätze erzeugt haben, können Sie sehr genau festlegen, welche Inhalte in jeden Lagerplatz eingelagert werden soll, oder der Lagerplatz kann als freier Lagerplatz fungieren, dem kein bestimmter Inhalt zugewiesen wurde.  
 
@@ -25,9 +19,9 @@ Um die Funktionalität der Lagerplätze zu nutzen, müssen Sie diese auf der Kar
 > [!NOTE]  
 >  Bevor Sie Lagerplatzcodes auf der Lagerortkarte festlegen können, müssen die Lagerplatzcodes erstellt werden. Weitere Informationen finden Sie unter  [Lagerplätze erstellen](warehouse-how-to-create-individual-bins.md).  
 
-## <a name="to-set-up-a-location-to-use-bins"></a>Um einen Lagerort für die Verwendung von Lagerplätzen einzurichten
+## Um einen Lagerort für die Verwendung von Lagerplätzen einzurichten
 
-1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Lagerorte** ein, und wählen Sie dann den entsprechenden Link.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Lagerorte** ein, und wählen Sie dann den entsprechenden Link.  
 2.  Wählen Sie den Lagerort aus, an dem Sie Lagerplätze verwenden möchten.  
 3.  Wählen Sie die Aktion **Bearbeiten** aus.  
 4.  Aktivieren Sie im Inforegister **Lager** das Kontrollkästchen **Lagerplatz notwendig**.  
@@ -39,21 +33,20 @@ Um die Funktionalität der Lagerplätze zu nutzen, müssen Sie diese auf der Kar
 10. Füllen Sie die Felder im Inforegister **Lagerplatzprüfung** aus, wenn sie für Ihr Lager relevant sind. Die wichtigsten Felder sind **Lagerkapazitätsprüfung**, **Gebindeanbruch zulassen** und **Einlagerungsvorlagencode**.  
 11. Tragen Sie im Inforegister **Logistik** die Felder **Ausgeh. Lagerdurchlaufzeit**, **Eingeh. Lagerdurchlaufzeit** und **Basiskalendercode** ein. Weitere Informationen finden Sie unter [Einrichten von Grundkalendern](across-how-to-assign-base-calendars.md).
 
-## <a name="filling-the-consumption-bin"></a>Auffüllen des Verbrauchslagerplatzes
+## Auffüllen des Verbrauchslagerplatzes
 
 Dieses Flow-Diagramm zeigt, wie das Feld **Lagerplatzcode** auf den Zeilen der Produktionsauftragskomponenten entsprechend der Einrichtung Ihres Standorts gefüllt wird.
 
 ![Flowdiagramm Lagerplatz.](media/binflow.png "BinFlow")  
 
-## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/configure-bins-location/)
+## Siehe verwandte [Microsoft Schulungen](/training/modules/configure-bins-location/)
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
-[Logistik](warehouse-manage-warehouse.md)  
+[Lagerverwaltung – Übersicht](design-details-warehouse-management.md)
 [Bestand](inventory-manage-inventory.md)  
 [Einrichten von Warehouse Management](warehouse-setup-warehouse.md)     
 [Montageverwaltung](assembly-assemble-items.md)    
-[Designdetails: Warehouse Management](design-details-warehouse-management.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

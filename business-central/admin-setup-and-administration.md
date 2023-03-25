@@ -1,22 +1,15 @@
 ---
 title: Verwaltungsaufgaben in Business Central
-description: Einige Aufgaben in Business Central erfordern eine zentrale Administration und Einrichtung. Erfahren, welche das sind und was zu tun ist.
-author: SorenGP
+description: 'Einige Aufgaben in Business Central erfordern eine zentrale Administration und Einrichtung. Erfahren, welche das sind und was zu tun ist.'
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: ''
-ms.date: 07/23/2021
-ms.author: edupont
-ms.openlocfilehash: 8d961c1d54dda71651eb81c6dfab05733d0207fc
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9533240"
+ms.date: 01/11/2023
+ms.custom: bap-template
 ---
-# <a name="administration-tasks"></a>Verwaltungsaufgaben
+# Verwaltungsaufgaben
 
 Zentrale Verwaltungsaufgaben werden in der Regel von einer Rolle im Unternehmen ausgeführt. Der Bereich dieser Aufgaben kann von der Größe des Unternehmens und der Verantwortlichkeiten des Administrators abhängig sein. Diese Aufgaben können die Verwaltung von Datenbanksynchronisierung von Projekt- und E-Mail-Warteschlangen, das Einrichten von Benutzern, das Anpassen der Benutzeroberfläche und Verwalten von Verschlüsselungsschlüsseln enthalten.  
 
@@ -50,7 +43,7 @@ Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Artikel
 |Dynamics 365 Sales mit [!INCLUDE[prod_short](includes/prod_short.md)] verbinden, um nahtlose Integration zwischen den Kundschaftsbeziehungen und der Auftragsabwicklung zu erhalten.|[Integrieren in Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)|
 |Ändern Sie, welche Felder und Aktionen in der Benutzeroberfläche angezeigt werden, um den Geschäftsprozessen des Unternehmens zu entsprechen, und erweitern Sie die Lösung mit Apps.|[[!INCLUDE[prod_short](includes/prod_short.md)] anpassen](ui-customizing-overview.md)|
 
-## <a name="administration-in-the-admin-center"></a>Verwaltung im Admin Center
+## Verwaltung im Admin Center
 
 Interne und stellvertretende Administratoren haben Zugriff auf das [!INCLUDE [prod_short](includes/prod_short.md)] Admin Center, wo sie [!INCLUDE [prod_short](includes/prod_short.md)]-Umgebungen konfigurieren, überwachen und Fehler beheben können. Die folgende Tabelle beschreibt einige wichtige Aufgaben mit Links zu den Artikeln, die sie beschreiben..  
 
@@ -58,12 +51,12 @@ Interne und stellvertretende Administratoren haben Zugriff auf das [!INCLUDE [pr
 |------------|-------------|
 |Informieren Sie sich über die Tools, die Ihnen zur Fehlerbehebung zur Verfügung stehen.|[Technischer Support](/dynamics365/business-central/dev-itpro/technical-support)|
 |Überwachen der Nutzung und Beheben von Fehlern in Sitzungen|[Umgebungstelemetrie im Business Central Admin Center](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-telemetry)|
-|Verwalten Sie Benutzersitzungen, einschließlich des Abbrechens einer Sitzung, wenn der Benutzer blockiert ist.|[Sitzungen verwalten](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#managing-sessions)|
+|Verwalten Sie Benutzersitzungen, einschließlich des Abbrechens einer Sitzung, wenn der Benutzer blockiert ist.|[Sitzungen verwalten](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-sessions)|
 |Konfigurieren Sie den Mandanten zum Senden von Telemetriedaten an Azure Application Insights zur besseren Analyse und Fehlerbehebung.|[Senden von Telemetrie an Application Insights aktivieren](/dynamics365/business-central/dev-itpro/administration/telemetry-enable-application-insights)|
 
-## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/paths/deploy-configure-dynamics-365-business-central/)
+## Siehe verwandte [Microsoft Schulungen](/training/paths/deploy-configure-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Geschäftsfunktionen](across-business-functionality.md)  
 [Allgemeine Geschäftsfunktionen](ui-across-business-areas.md)  

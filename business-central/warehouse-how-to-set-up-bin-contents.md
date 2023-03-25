@@ -1,6 +1,6 @@
 ---
 title: Lagerplatzinhalt erstellen
-description: Nachdem Sie Ihre Lagerplätze eingerichtet haben, können Sie die Artikel angeben, die Sie darin speichern möchten, und Regeln einrichten, die steuern, wie oft Lagerplätze nachgefüllt werden.
+description: 'Nachdem Sie Ihre Lagerplätze eingerichtet haben, können Sie die Artikel angeben, die Sie darin speichern möchten, und Regeln einrichten, die steuern, wie oft Lagerplätze nachgefüllt werden.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -9,20 +9,14 @@ ms.workload: na
 ms.search.form: 7374
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 86d5d8410a884fa2a8357490c92658582fc9b9f5
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9530432"
 ---
-# <a name="create-bin-contents"></a>Lagerplatzinhalt erstellen
+# Lagerplatzinhalt erstellen
 
 Nachdem Sie Ihre Lagerplätze eingerichtet haben, können Sie die Lagerplatzinhalte einrichten. Mit anderen Worten: Sie können die Artikel einrichten, die Sie in jedem beliebigen Lagerplatz lagern möchten, und Sie können die Regeln festlegen, die befolgt werden sollen, wenn sie den Lagerplatz mit einem bestimmten Artikel füllt. Sie können dies auf der Seite **Lagerplatzinhalt** oder automatisch mit der Seite **Erstellen Sie Lagerplatzinhalt-Arbeitsblatt erstellen** manuell tun.
 
-## <a name="to-create-bin-content-manually"></a>So erstellen Sie Lagerplatzinhalt manuell
+## So erstellen Sie Lagerplatzinhalt manuell
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Lagerorte** ein, und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Lagerorte** ein, und wählen Sie dann den entsprechenden Link.  
 2. Wählen Sie den Lagerort aus, an dem Sie Lagerplatzinhalte einrichten möchten, und wählen Sie dann die Aktion **Lagerplätze** aus.  
 3. Wählen Sie den Lagerplatz aus, an dem Sie Lagerplatzinhalte einrichten möchten, und wählen Sie dann die Aktion **Inhalte** aus.  
 4. Füllen Sie für jeden Artikel, den Sie in dem Lagerplatz lagern möchten, eine Zeile auf der Seite **Lagerplatzinhalt** mit den relevanten Informationen aus. Einige der Felder sind bereits mit Informationen über den Lagerplatz ausgefüllt.  
@@ -37,11 +31,11 @@ Wenn Sie das Feld **Fest** wählen, legen Sie diesen Lagerplatz für diesen Arti
 > [!NOTE]  
 > Auf der Seite **Lagerplatzinh. Erst.-Arbeitsblatt** können Sie mehrere Lagerplatzinhalte gleichzeitig einrichten.  
 
-## <a name="to-create-bin-content-with-a-worksheet"></a>So erstellen Sie Lagerplatzinhalt in einem Arbeitsblatt
+## So erstellen Sie Lagerplatzinhalt in einem Arbeitsblatt
 
 Wenn Sie Ihre Lagerplätze erzeugt haben, können Sie den Lagerplatzinhalt, den Sie in jedem Lagerplatz haben möchten, im Lagerplatzinhalt Erstellungsarbeitsblatt generieren.
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Lagerplatzinhalt Erst.-Arbeitsblatt** ein und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Lagerplatzinhalt Erst.-Arbeitsblatt** ein und wählen Sie dann den zugehörigen Link.  
 2. Klicken Sie im Kopf des Arbeitsblatts in das Feld **Name** und wählen Sie das Arbeitsblatt des Lagerortes, für den Sie Lagerplatzinhalte erstellen möchten.  
 3. Wählen Sie im Feld **Lagerplatzcode** den Code des Lagerplatzes, für den Sie den Lagerplatzinhalt definieren möchten.  
 
@@ -55,17 +49,14 @@ Wenn Sie Ihre Lagerplätze erzeugt haben, können Sie den Lagerplatzinhalt, den 
 
 In diesem Arbeitsblatt können Sie mit einer Anzahl Lagerplatzinhaltszeilen für mehrere Lagerplätze arbeiten und dadurch einen guten Überblick darüber erhalten, was Sie in die verschiedenen Lagerplätze in einer vorgegebenen Zone, einem Gang oder Regal einlagern.  
 
-## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/set-up-zones-bins/)
+## Siehe verwandte [Microsoft Schulungen](/training/modules/set-up-zones-bins/)
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
-[Lagerplatzauffüllung berechnen](warehouse-how-to-calculate-bin-replenishment.md)  
-[Logistik](warehouse-manage-warehouse.md)  
+[Lagerverwaltung – Übersicht](design-details-warehouse-management.md)
 [Bestand](inventory-manage-inventory.md)  
-[Lagerortverwaltung einrichten](warehouse-setup-warehouse.md)  
+[Einrichten von Warehouse Management](warehouse-setup-warehouse.md)  
 [Montageverwaltung](assembly-assemble-items.md)  
-[Designdetails: Warehouse Management](design-details-warehouse-management.md)  
-[Designdetails: Lagereinrichtung](design-details-warehouse-setup.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

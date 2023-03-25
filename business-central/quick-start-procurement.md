@@ -1,27 +1,22 @@
 ---
 title: Beschaffung Schnellstart (enthält Video)
-description: Erfahren Sie, wie Sie die ersten wichtigen Felder über Kreditor in Business Central ausfüllen, damit Sie mit dem Kauf von Produkten und Dienstleistungen beginnen können.
+description: 'Erfahren Sie, wie Sie die ersten wichtigen Felder über Kreditor in Business Central ausfüllen, damit Sie mit dem Kauf von Produkten und Dienstleistungen beginnen können.'
 author: jill-kotel-andersson
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: quickstart
-ms.search.form: 26, 27, 50, 56
+ms.search.form: '26, 27, 50, 56'
 ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: d5ec92099a7439bfb9a059105b0f1ce377534117
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8128739"
 ---
-# <a name="procurement-quick-start"></a>Schnellstart Beschaffung
+
+# Schnellstart Beschaffung
 
 Um Produkte und Dienstleistungen kaufen zu können, müssen Sie zunächst Lieferanten festlegen. Sobald dies geschehen ist, können Sie mit der Registrierung von Bestellungen und dem Erhalt von Rechnungen beginnen.  
 
-## <a name="set-up-vendors"></a>Kreditor festlegen
+## Kreditor festlegen
 
 Das folgende Video zeigt Ihnen, wie Sie unter [!INCLUDE[prod_short](includes/prod_short.md)] einen Kreditor festlegen.
 
@@ -29,13 +24,13 @@ Das folgende Video zeigt Ihnen, wie Sie unter [!INCLUDE[prod_short](includes/pro
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3PZtd?rel=0]
 
-### <a name="set-up-a-new-vendor"></a>Einrichten eines neuen Kreditors
+### Einrichten eines neuen Kreditors
 
 [!INCLUDE[create_new_vendor](includes/create_new_vendor.md)]
 
 Weitere Informationen und zusätzliche Dinge, die Sie bei der Registrierung von Kreditoren tun können, finden Sie unter [Neue Kreditoren registrieren](purchasing-how-register-new-vendors.md).  
 
-## <a name="create-new-purchase-orders"></a>Neue Bestellungen erstellen
+## Neue Bestellungen erstellen
 
 Wenn Sie etwas von einem Kreditor kaufen, haben Sie zwei Möglichkeiten. Die erste und einfachste ist, einfach eine Einkaufsrechnung zu erstellen. Sie müssen jedoch Bestellungen verwenden, wenn Ihr Einkaufsprozess erfordert, dass Sie einen teilweisen Eingang einer Bestellmenge erfassen, z.B. weil die volle Menge beim Einkäufer nicht verfügbar war.
 
@@ -45,7 +40,7 @@ Das folgende Video zeigt Ihnen, wie Sie eine Bestellung in [!INCLUDE[prod_short]
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4b3tt?rel=0]
 
-### <a name="to-create-a-purchase-order"></a>So erstellen Sie eine Bestellung  
+### So erstellen Sie eine Bestellung  
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten"). Symbol. Geben Sie **Einkaufsbestellungen** ein, und wählen Sie dann den zugehörigen Link.  
 
@@ -71,11 +66,11 @@ Das folgende Video zeigt Ihnen, wie Sie eine Bestellung in [!INCLUDE[prod_short]
 
 Weitere Informationen und zusätzliche Möglichkeiten, die Sie beim Erstellen einer Bestellung haben, finden Sie unter [Einkauf](purchasing-manage-purchasing.md).  
 
-## <a name="create-a-purchase-invoice"></a>Erstellen Sie eine Einkaufsrechnung  
+## Erstellen Sie eine Einkaufsrechnung  
 
 Sie erstellen eine Einkaufsrechnung, um die Kosten der Käufe zu erfassen und die Verbindlichkeiten a. LL zu verfolgen. Das Erstellen einer Einkaufsrechnung ist ähnlich wie das Erstellen einer Bestellung.
 
-### <a name="how-to-create-and-post-a-purchase-invoice"></a>So erstellen und buchen Sie eine Einkaufsrechnung  
+### So erstellen und buchen Sie eine Einkaufsrechnung  
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet 3.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Einkaufsrechnungen** ein, und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie auf der Seite **Einkaufsrechnung** die Aktion **Neu**, um eine neue Einkaufsrechnung zu erstellen.
@@ -100,7 +95,7 @@ Der Kauf wird nun im Bestand, in den Ressourcen-Sachkonten und in den Finanzdoku
 
 Weitere Informationen und zusätzliche Möglichkeiten beim Erstellen einer Einkaufsrechnung finden Sie unter [Einkäufe mit Einkaufsrechnungen erstellen](purchasing-how-record-purchases.md).
 
-## <a name="see-also"></a>Weitere Informationen
+## Weitere Informationen
 
 [Business Central Schnellstarts](quick-start-business-central.md)  
 [Einkaufsübersicht](Purchasing-manage-purchasing.md)  

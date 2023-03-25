@@ -1,22 +1,16 @@
 ---
 title: Design-Details – Planungszuordnungstabelle
-description: Dieses Thema bietet einen Einblick in das, was passiert, wenn eine Änderung des Bedarfs oder der Vorräte erfordert, dass Sie berechnen, wie Sie für ein Element planen.
+description: 'Dieses Thema bietet einen Einblick in das, was passiert, wenn eine Änderung des Bedarfs oder der Vorräte erfordert, dass Sie berechnen, wie Sie für ein Element planen.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 878f301db5b7b887201fd2e803fd299dc3894dbf
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146592"
 ---
-# <a name="design-details-planning-assignment-table"></a>Designdetails: Planungszuweisungstabelle
+# Designdetails: Planungszuweisungstabelle
 Alle Artikel sollten eingeplant werden, es gibt jedoch keinen Grund, einen Plan für einen Artikel zu berechnen, es sei denn, es gab eine Änderung im Bedarfs- oder Vorratsmuster seit der letzten Berechnung des Plans.  
 
 Wenn der Benutzer einen neuen Verkaufsauftrag eingegeben oder einen vorhandenen geändert hat, gibt es Gründe zur Neuberechnung des Plans. Andere Ursachen beinhalten eine Änderung in der Planung oder im gewünschten Sicherheitsbestand. Das Ändern einer Stückliste durch Hinzufügen oder Entfernen einer Komponente führt wahrscheinlich zur Anzeige einer Änderung, jedoch nur für den Komponentenartikel.  
@@ -61,7 +55,7 @@ Wenn sie eine Prod.-Programmplanung oder einen Nettobedarf berechnen, gelten die
 * Prod.-Programmplanung: Die Planungssystemprüfungen prüft, ob der Artikel eine Absatzplanung oder einen Verkaufsauftrag führt. Wenn nicht, ist der Artikel nicht im Plan enthalten.  
 * Nettobedarf: Wenn das Planungssystem erkennt, dass der Artikel durch eine Prod.-Programmplanungs-Planungszeile oder einen Prod.-Programmplanungs-Beschaffungsauftrag aufgefüllt wird, wird der Artikel aus der Planung genommen. Jedoch ist jeder Bedarf aus den entsprechenden Komponenten enthalten.  
 
-## <a name="see-also"></a>Siehe auch  
+## Siehe auch  
 [Designdetails: Ausgleich von Bedarf und Vorrat](design-details-balancing-demand-and-supply.md)   
 [Designdetails: Umgang mit Wiederbeschaffungsverfahren](design-details-handling-reordering-policies.md)   
 [Designdetails: Umlagerungen in Planung](design-details-transfers-in-planning.md)   

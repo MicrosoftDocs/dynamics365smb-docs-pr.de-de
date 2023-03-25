@@ -1,22 +1,16 @@
 ---
 title: Produktionsprozesse konfigurieren
-description: Damit Material zu Fertigerzeugnissen verarbeitet werden kann, müssen im System Fertigungsressourcen wie Maschinisten und Maschinen eingerichtet werden.
+description: 'Damit Material zu Fertigerzeugnissen verarbeitet werden kann, müssen im System Fertigungsressourcen wie Maschinisten und Maschinen eingerichtet werden.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 99000768, 99000779, 99000780, 99000866
+ms.search.form: '99000768, 99000779, 99000780, 99000866'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0ae567c2ac44c1b8b272b7a7f2ed1e9ba4826b60
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605765"
 ---
-# <a name="setting-up-manufacturing"></a>Produktion einrichten
+# Produktion einrichten
 
 Damit Material zu Fertigerzeugnissen verarbeitet werden kann, müssen im System Fertigungsressourcen wie Maschinisten und Maschinen eingerichtet werden.
 
@@ -39,7 +33,7 @@ Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Themen,
 |Verwenden Sie einen Standardkatalog, die Erstellung von Arbeitsplänen zu vereinfachen, indem Sie weitere Informationen schnell wiederkehrende Arbeitsgänge zu verknüpfen.|[Einrichten von Aufgabenzeilen](production-how-set-up-standard-routing-lines.md)|  
 |Vorbereiten von Arbeitsplatzgruppen und Arbeitspläne vor, zum Steuern vergebener Produktionsschritte darzustellen.|[Fertigung durch Fremdarbeitsvertrag](production-how-to-subcontract-manufacturing.md)|  
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Produktion](production-manage-manufacturing.md)  
 [Planung](production-planning.md)  

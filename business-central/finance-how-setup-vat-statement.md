@@ -1,27 +1,21 @@
 ---
 title: Eine MwSt.-Abrechnung einrichten
-description: In diesem Thema erfahren Sie, wie Sie eine MwSt.-Abrechnungsvorlage und die Namen der MwSt.-Abrechnungen festlegen, um den sich ändernden Anforderungen der Steuerbehörden gerecht zu werden.
+description: 'In diesem Thema erfahren Sie, wie Sie eine MwSt.-Abrechnungsvorlage und die Namen der MwSt.-Abrechnungen festlegen, um den sich ändernden Anforderungen der Steuerbehörden gerecht zu werden.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: VAT, posting, tax, value-added tax
-ms.search.form: 317, 318, 320, 474
+ms.search.keywords: 'VAT, posting, tax, value-added tax'
+ms.search.form: '317, 318, 320, 474'
 ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: 12b51af89894c428120ddd6c4639a397bd8a4d97
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9529244"
 ---
-# <a name="set-up-vat-statement-templates-and-vat-statement-names"></a>Vorlagen für Umsatzsteuerabrechnungen und Namen von Umsatzsteuerabrechnungen einrichten
+# Vorlagen für Umsatzsteuerabrechnungen und Namen von Umsatzsteuerabrechnungen einrichten
 
 Steuerbehörden kann Anforderungen für die Buchung der MwSt ändern und ändert diese auch. Vorlagen für Umsatzsteuerbescheinigungen und Namen von Umsatzsteuerbescheinigungen können Ihnen helfen, sich auf bevorstehende Änderungen vorzubereiten und einen reibungslosen Übergang zu den neuen Anforderungen zu schaffen. Sie können MwSt.-Abrechnungsvorlagen verwenden, um verschiedene Berichte einzurichten, wenn Sie die Abrechnung drucken möchten. Jede MwSt.-Abrechnungsvorlage kann mehrere MwSt.-Abrechnungsnamen haben, die wiederum die Berechnungen definieren, und Sie können einen neuen MwSt.-Abrechnungsnamen erstellen, wenn sich die Anforderungen ändern. Beispielsweise kann ein Name die MwSt für dieses Jahr basierend auf dem aktuellen Bedarf berechnen, und ein anderer Name kann die MwSt basierend auf Anforderungen für das nächste Jahr berechnen. Namen sind auch eine Art, Aufzeichnungen von MwSt.-Abrechnungsformaten zu behalten, beispielsweise damit Sie prüfen können, wie Sie die MwSt in vorherigen Jahren berechnet haben.
 
-## <a name="to-define-a-vat-statement"></a>So definieren Sie eine Umsatzsteuerabrechnung
+## So definieren Sie eine Umsatzsteuerabrechnung
 
 MwSt.-Abrechnungen lassen Sie den MwSt.-Abrechnungsbetrag für eine bestimmte Periode berechnen (zum Beispiel ein Quartal).
 
@@ -33,7 +27,7 @@ MwSt.-Abrechnungen lassen Sie den MwSt.-Abrechnungsbetrag für eine bestimmte Pe
 > Sie können die Informationen setzen, die in der Abrechnung enthalten sind, je nachdem, was Sie im Feld **Art** auswählen. **Kontosumme** ist hilfreich, wenn Sie die MwSt von einem bestimmten Konto möchten.
 **MwSt.-Summe** ruft die MwSt der Konten ab, die zur Auswahl auf **Buchungsart**, **VAT Bus. Buchungsgruppe** und/oder den Feldern **VAT Prod. Buchungsgruppe** zugeordnet werden. **Rubrikensumme** ermöglicht Ihnen die Eingabe von einem schnellen Filterkriterium oder Wert im Feld **Rubrikensumme**. Weitere Informationen finden Sie unter [Suchen, filtern und sortieren von Daten](ui-enter-criteria-filters.md). **Beschreibung** ist oft verwendet, um eine Benachrichtigung der Abrechnung hinzuzufügen. Sie könnten sie beispielsweise als Überschrift verwenden, wenn Sie Zeilenzusammenzählung verwendet haben.
 
-## <a name="to-preview-the-vat-statement"></a>So zeigen Sie eine Vorschau der Mehrwertsteuerabrechnung an
+## So zeigen Sie eine Vorschau der Mehrwertsteuerabrechnung an
 
 Nachdem Sie eine MwSt.-Abrechnung eingeben haben, können Sie diese in der Vorschau anzeigen, um sicherzustellen, dass sie die Anforderungen erfüllt.
 > [!Tip]
@@ -45,9 +39,9 @@ Nachdem Sie eine MwSt.-Abrechnung eingeben haben, können Sie diese in der Vorsc
 4. Für die Zeilen, für die im Feld **Art** der Eintrag **MwSt.-Summe** angezeigt wird, kann eine Übersicht der MwSt.-Posten angezeigt werden, wenn Sie im Feld **Spaltenbetrag** den Betrag auswählen.
 5. Sie können Personalisierung verwenden, um weitere Felder in den Posten anzuzeigen. Zum Beispiel die Unrealisierte Bemessungsgrundlage und Unrealisierter MwSt.-Betrag, wenn Sie unrealisierte MwSt. verwenden.
 
-## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/paths/process-vat-dynamics-365-business-central/)
+## Siehe verwandte [Microsoft Schulungen](/training/paths/process-vat-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Mehrwertsteuer einrichten](finance-setup-vat.md)  
 [Einrichten von unrealisierter Mehrwertsteuer](finance-setup-unrealized-vat.md)  

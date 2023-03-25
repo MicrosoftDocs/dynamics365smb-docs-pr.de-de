@@ -1,6 +1,6 @@
 ---
 title: Suchen verwandter Posten für Belege
-description: Erfahren Sie, wie Sie Dokumente, Geschäftskontakte und Artikeleinträge finden, die miteinander in Beziehung stehen.
+description: 'Erfahren Sie, wie Sie Dokumente, Geschäftskontakte und Artikeleinträge finden, die miteinander in Beziehung stehen.'
 author: jswymer
 ms.topic: conceptual
 ms.devlang: na
@@ -10,14 +10,8 @@ ms.search.keywords: find
 ms.search.form: 344
 ms.date: 05/23/2022
 ms.author: jswymer
-ms.openlocfilehash: ae1ae9293530a36a635af48e1711f502b64add4d
-ms.sourcegitcommit: 12ff9dcbefb47f2280479cceb656ea7e6ac2cfa1
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 12/02/2022
-ms.locfileid: "9822453"
 ---
-# <a name="finding-related-entries-for-documents"></a>Suchen verwandter Posten für Belege
+# Suchen verwandter Posten für Belege
 
 Erfahren Sie, wie Sie Belege und Posten finden, die miteinander in Beziehung stehen, basierend auf einer gemeinsamen Information, wie z. B.:
 
@@ -27,9 +21,9 @@ Erfahren Sie, wie Sie Belege und Posten finden, die miteinander in Beziehung ste
 
 Diese Funktion ist nützlich, wenn Sie Posten finden möchten, die aus bestimmten Transaktionen resultierten. Wenn Sie anhand von einer Belegnummer suchen, können Sie die Zusammenfassung über den Bericht **Belegposten** ausdrucken.
 
-## <a name="get-started"></a>Erste Schritte
+## Erste Schritte
 
-Die Funktion zum Suchen von Posten ist auf fast jeder Seite über die Tastenkombination STRG+ALT+Q verfügbar. Von Seiten, die speziell gebuchte Belege oder gebuchte Belegposten anzeigen&mdash;sowohl für Listen als auch für Karten&mdash;können Sie die Funktion auch durch Auswahl der Aktion **Posten suchen** öffnen.
+Die Funktion zum Suchen von Posten ist auf fast jeder Seite über die Tastenkombination <kbd>STRG</kbd>+<kbd>ALT</kbd>+<kbd>Q</kbd> verfügbar. Von Seiten, die speziell gebuchte Belege oder gebuchte Belegposten anzeigen&mdash;sowohl für Listen als auch für Karten&mdash;können Sie die Funktion auch durch Auswahl der Aktion **Posten suchen** öffnen.
 
 Die Seite **Posten suchen** enthält alle verknüpften Belege und Posten basierend auf der Belegnr. und dem Buchungsdatum. Die Seite ist in drei Abschnitte unterteilt:
 
@@ -37,7 +31,7 @@ Die Seite **Posten suchen** enthält alle verknüpften Belege und Posten basiere
 - Im mittleren Bereich werden verwandte Belege basierend auf der Suche angezeigt.
 - Im unteren Abschnitt werden Informationen über den Herkunftsbeleg angezeigt, der durch die Suche gefunden wurde.
 
-## <a name="search-for-entries"></a>Suche nach Posten
+## Suche nach Posten
 
 Sie können nach Posten suchen, basierend auf Informationen entweder über den Beleg, den Geschäftskontakt oder die Artikelreferenz. Wählen Sie im oberen Abschnitt eine der folgenden Optionen basierend auf der Art Ihrer Informationen aus:
 
@@ -52,9 +46,9 @@ Nachdem Sie eine Auswahl getroffen haben, geben Sie die relevanten Suchinformati
 > [!TIP]
 > Ein paar Beispiele zur Verwendung von **Posten suchen** sehen Sie hier: [Artikel mit Artikelverfolgung nachverfolgen](inventory-how-to-trace-item-tracked-items.md) und [Exemplarische Vorgehensweise: Nachverfolgen von Serienchargennummern](walkthrough-tracing-serial-lot-numbers.md).
 
-## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/user-interface-dynamics-365-business-central/index)
+## Siehe verwandte [Microsoft Schulungen](/training/modules/user-interface-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Verfolgen von Artikeln mit Artikelverfolgung](inventory-how-to-trace-item-tracked-items.md)  
 [So finden Sie gebuchte Belege ohne zugehörige eingehende Belege](across-how-find-posted-documents-without-income-document-records.md)  

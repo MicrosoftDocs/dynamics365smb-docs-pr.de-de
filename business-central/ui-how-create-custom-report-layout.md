@@ -1,23 +1,17 @@
 ---
 title: Erstellen und Ändern von angepassten Layouts für Berichte und Belege
-description: Erfahren Sie, wie Sie angepasste Layouts erstellen, um das Erscheinungsbild eines Berichts beim Anzeigen, Drucken oder Speichern zu personalisieren.
+description: 'Erfahren Sie, wie Sie angepasste Layouts erstellen, um das Erscheinungsbild eines Berichts beim Anzeigen, Drucken oder Speichern zu personalisieren.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: customized report, document layout, logo, personalize
-ms.search.form: 9650, 9652
+ms.search.keywords: 'customized report, document layout, logo, personalize'
+ms.search.form: '9650, 9652'
 ms.date: 03/06/2022
 ms.author: edupont
-ms.openlocfilehash: 465954e6549ee7ffd0822438a0ad004686d5b424
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9604777"
 ---
-# <a name="legacy-create-and-modify-custom-report-layouts"></a>(Legacy) Erstellen und Ändern benutzerdefinierter Berichtslayouts
+# (Legacy) Erstellen und Ändern benutzerdefinierter Berichtslayouts
 
 [!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
@@ -35,7 +29,7 @@ Nachdem Sie Ihre benutzerdefinierte Berichtslayouts definiert haben, können Sie
 
 Sie können auch benutzerdefinierte Berichtslayouts verwenden, um E-Mail-Nachrichten Inhalte hinzuzufügen. Berichtslayouts können Zeit sparen und zur Konsistenz beitragen, indem dieselben Inhalte wiederverwendet werden, wenn Sie mit Ihren Debitoren kommunizieren. Um benutzerdefinierte Berichtslayouts mit E-Mail verwenden zu können, muss der Dateityp für das Layout „Word“ sein. RDLC-Dateityp kann nicht verwendet werden. Erfahren Sie mehr unter [Wiederverwendbare E-Mail-Texte und -Layouts einrichten](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts).
 
-## <a name="create-a-custom-layout"></a>Benutzerdefiniertes Layout erstellen
+## Benutzerdefiniertes Layout erstellen
 
 1. Wählen Sie das Symbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Auswahl des Berichtslayouts** ein und wählen Sie dann den entsprechenden Link.
 
@@ -60,11 +54,11 @@ Das benutzerdefinierte Layout wurde erstellt und Sie können es nach Belieben ä
 > [!TIP]
 > Sie können die Berichtsergebnisse in eine Microsoft Excel-Datei exportieren, um das komplette Dataset einschließlich aller Spalten, aber ohne das Layout, zu betrachten. Die Excel-Datei kann Ihnen helfen, zu überprüfen, ob der Bericht die erwarteten Daten liefert, oder Probleme zu diagnostizieren. Weitere Informationen finden Sie unter [Analysieren von Berichtsdaten mit Excel](report-analyze-excel.md).
 
-## <a name="modifying-a-custom-layout"></a><a name="ModifyCustomLayout"></a>Ändern eines benutzerdefinierten Layouts
+## <a name="ModifyCustomLayout"></a>Ändern eines benutzerdefinierten Layouts
 
 Um ein benutzerdefiniertes Berichtslayout zu ändern, müssen Sie das Berichtslayout zunächst als Datei an einen Lagerort auf Ihrem Computer oder im Netzwerk exportieren. Öffnen Sie dann den exportierten Beleg und nehmen Sie die Änderungen vor. Wenn Sie mit den Änderungen fertig sind, importieren Sie das Berichtslayout.
 
-### <a name="modify-a-custom-layout"></a>Ändern eines benutzerdefinierten Layouts
+### Ändern eines benutzerdefinierten Layouts
 
 1. Sie exportieren ein benutzerdefiniertes Layout aus der Seite **Benutzerdefinierte Berichtslayouts**. Wenn diese Seite nicht bereits geöffnet ist, suchen und öffnen Sie die Seite **Auswahl des Berichtslayouts**, wählen Sie den Bericht mit dem Layout, das Sie ändern möchten, und wählen Sie dann die Aktion **Angepasste Layouts**.  
 2. Auf der Seite **Benutzerdefinierte Berichtslayouts** wählen Sie das Layout, das Sie ändern möchten, wählen Sie die **Layout exportieren** Aktion und wählen Sie dann **Speichern** oder **Speichern unter**, um den Berichtslayoutbeleg an einen Speicherort auf Ihrem Computer oder Netzwerk zu speichern aus.  
@@ -117,9 +111,9 @@ To ensure that reports always display and print with the intended fonts, whereve
 
 Adding data fields from a report dataset is more advanced and requires some knowledge of the report dataset. Learn more about adding fields for data, labels, and images at [Add Fields to a Word Report Layout](ui-how-add-fields-word-report-layout.md).  -->
 
-## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/change-documents-dynamics-365-business-central/index)
+## Siehe verwandte [Microsoft Schulungen](/training/modules/change-documents-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Verwalten von Berichtslayouts](ui-manage-report-layouts.md)  
 [Ändern Sie das aktuelle Berichtslayout](ui-how-change-layout-currently-used-report.md)  

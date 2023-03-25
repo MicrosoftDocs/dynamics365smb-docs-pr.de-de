@@ -1,19 +1,13 @@
 ---
 title: Bestandsbewertung und Kalkulation festlegen
-description: Um sicherzustellen, dass Lagerregulierungen ordnungsgemäß aufgezeichnet werden, müssen Sie verschiedene Felder und Seiten einrichten, bevor Sie Artikeltransaktionen durchführen können.
+description: 'Um sicherzustellen, dass Lagerregulierungen ordnungsgemäß aufgezeichnet werden, müssen Sie verschiedene Felder und Seiten einrichten, bevor Sie Artikeltransaktionen durchführen können.'
 author: SorenGP
 ms.topic: conceptual
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 6b7289aff7d111804806bb1afbdfb822c9922492
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520308"
 ---
-# <a name="setting-up-inventory-valuation-and-costing"></a>Einrichten der Lagerwertberechnung und der Kostenrechnung
+# Einrichten der Lagerwertberechnung und der Kostenrechnung
 
 Um sicherzustellen, dass Lagerregulierungen ordnungsgemäß aufgezeichnet werden, müssen Sie verschiedene Felder und Seiten einrichten, bevor Sie Artikeltransaktionen durchführen können. In der Regel wählen Unternehmen eine bestimmte Lagerabgangsmethode und wenden diese auf Lagerartikel an, beispielsweise um den Wert von auf Lager befindlichen Artikel besser nachzuverfolgen.  
 
@@ -36,7 +30,7 @@ Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Themen,
 |Sicherstellen, dass Einkaufsreklamationen mit der ursprünglichen eingehenden Transaktion ausgeglichen werden, um den Lagerwert zu erhalten.|Das Feld **Exakte Einstandspreisstornierung notwendig** auf der Seite **Kreditoren und Einkauf**|
 |Einrichten der Rundungsregeln, die beim Regulieren oder Vorschlagen von Artikelpreisen sowie beim Regulieren oder Vorschlagen von Einstandspreisen angewendet werden|**Rundungsmethode**|  
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Verwalten der Lagerregulierung](finance-manage-inventory-costs.md)  
 [So richten Sie allgemeine Lagerbestandsinformationen ein](inventory-how-setup-general.md)  

@@ -7,17 +7,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.search.form: 130, 142, 1350
+ms.search.form: '130, 142, 1350'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 91744dd58d68c6b732c9abe794f33b0c9a11211a
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9535675"
 ---
-# <a name="posting-sales"></a>Verkäufe buchen
+# Verkäufe buchen
 
 Unter dem Menü **Buchen** in einem Verkaufsbeleg auswählen können Sie zwischen den folgenden Buchungsfunktionen auswählen:
 
@@ -43,19 +37,19 @@ Für jede Zeile des Verkaufsauftrags wird ein Artikelposten in der Tabelle **Art
 
 Sie können entweder buchen oder buchen und senden. Wenn Sie die Option wählen, zu buchen und zu senden, wird eine PDF-Datei generiert, die Sie dann senden können. Sie können auch die Funktion **Stapelbuchen** wählen, mit der Sie mehrere Aufträge gleichzeitig buchen können. Weitere Informationen finden Sie unter [Mehrere Belege gleichzeitig buchen](ui-batch-posting.md).
 
-## <a name="viewing-ledger-entries"></a>Anzeigen von Posten
+## Anzeigen von Posten
 
 Wenn die Buchung vollständig ist, werden die gebuchten Verkaufszeilen aus der Bestellung entfernt. Eine Meldung erscheint, die Ihnen mitteilt, dass die Buchung vollständig ist. Im Anschluss können Sie die gebuchten Posten auf den verschiedenen Seiten einsehen, die gebuchte Posten enthalten, einschließlich **Debitorenposten**, **Sachposten**, **Artikelposten**, **Lagerplatzposten**, **Geb. Verkaufsrechnung**.  
 
 In den meisten Fällen können Sie Posten von der betroffenen Karte oder dem betroffenen Beleg aus öffnen. Auf der Seite **Debitorenkarte** wählen Sie beispielsweise die Aktion **Posten** aus.
 
-## <a name="editing-ledger-entries"></a>Bearbeiten von Posten
+## Bearbeiten von Posten
 
 Sie können bestimmte Felder in gebuchten Einkaufsbelegen bearbeiten, z. B. die **Paketverfolgungsnr.** Feld eingetragen. Weitere Informationen finden Sie unter [Gebuchte Belege bearbeiten](across-edit-posted-document.md). Bei kritischeren Feldern, die sich auf den Überwachungspfad auswirken, müssen Sie die Buchung stornieren oder rückgängig machen. Weitere Informationen finden Sie unter [Erfassungsbuchungen stornieren und Belege/Lieferungen rückgängig machen](finance-how-reverse-journal-posting.md).
 
-## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/ship-invoice-items-dynamics-365-business-central/index)
+## Siehe verwandte [Microsoft Schulungen](/training/modules/ship-invoice-items-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Verkauf](sales-manage-sales.md)  
 [Mehrere Dokumente gleichzeitig buchen](ui-batch-posting.md)  

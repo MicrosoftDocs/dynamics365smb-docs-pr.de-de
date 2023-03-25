@@ -1,6 +1,6 @@
 ---
 title: Business Central-Zugriff mit Microsoft 365-Lizenzen
-description: Erfahren Sie, wie Benutzer Zugriff auf Business Central-Daten erhalten können, beispielsweise in Microsoft Teams-Chats und -Kanälen, mit nur einer Microsoft 365-Lizenz, aber keiner Business Central-Lizenz.
+description: 'Erfahren Sie, wie Benutzer Zugriff auf Business Central-Daten erhalten können, beispielsweise in Microsoft Teams-Chats und -Kanälen, mit nur einer Microsoft 365-Lizenz, aber keiner Business Central-Lizenz.'
 author: mikebc
 ms.author: mikebc
 ms.reviewer: jswymer
@@ -8,21 +8,16 @@ ms.service: dynamics365-business-central
 ms.topic: overview
 ms.date: 11/22/2022
 ms.custom: bap-template
-ms.search.keywords: License, access, Microsoft 365, collaborate, collaboration, Teams, Microsoft Teams
-ms.openlocfilehash: 8fcef5dca8698d0241e5fc6d37574b3c80b833da
-ms.sourcegitcommit: 61f22aeede684f0ae772353ede6530ff03ff2f90
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/24/2022
-ms.locfileid: "9804445"
+ms.search.keywords: 'License, access, Microsoft 365, collaborate, collaboration, Teams, Microsoft Teams'
 ---
-# <a name="business-central-access-with-microsoft-365-licenses"></a>Business Central-Zugriff mit Microsoft 365-Lizenzen
+
+# Business Central-Zugriff mit Microsoft 365-Lizenzen
 
 Business Central-Benutzern wird eine Dynamics 365 Business Central-Lizenz zugewiesen, die es ihnen ermöglicht, ihre Geschäftsdaten von jeder Benutzeroberfläche aus anzuzeigen, zu ändern und zu bearbeiten. Für alle anderen Mitarbeiter in der gesamten Organisation, die nur gelegentlich Daten anzeigen müssen, bietet Business Central einen Zugriff durch Microsoft 365.  
 
 Wenn eine Organisation sowohl ein Dynamics 365 Business Central- und Microsoft 365-Abonnement hat, können Administratoren Umgebungen konfigurieren, um den Zugriff mit Microsoft 365-Lizenzen zu ermöglichen und genau zu wählen, auf welche Tabellen und andere Objekte diese Benutzerkategorie Zugriff haben soll. Wenn konfiguriert, können Mitarbeiter, die über eine Microsoft 365-Lizenz, aber keine Business Central-Lizenz verfügen, Business Central-Datensätze anzeigen, die für sie in Microsoft Teams-Chat und -Kanälen freigegeben wurden.
 
-## <a name="why-enable-access-with-microsoft-365-licenses"></a>Warum Zugriff mit Microsoft 365-Lizenzen ermöglichen  
+## Warum Zugriff mit Microsoft 365-Lizenzen ermöglichen  
 
 - Schalten Sie Stammdaten frei, auf die jeder Mitarbeiter in der gesamten Organisation Zugriff haben sollte.
 
@@ -36,11 +31,11 @@ Wenn eine Organisation sowohl ein Dynamics 365 Business Central- und Microsoft 3
 
 - Verbessern Sie die Datensicherheit, indem Sie die Notwendigkeit verringern, Bildschirmausschnitte von Geschäftsdaten außerhalb der Data-Governance-Grenzen einzufügen.
 
-## <a name="use-rights"></a>Nutzungsrechte
+## Nutzungsrechte
 
 Wenn eine Person mit einer Microsoft 365-Lizenz auf Business Central zugreift, berechtigt diese Lizenz den Benutzer, Business Central-Daten über eine vereinfachte Benutzeroberfläche in Microsoft Teams zu lesen (aber nicht zu schreiben). In diesem Abschnitt werden diese Nutzungsrechte und Einschränkungen erläutert, die Ihnen bei der Planung der Konfiguration und optimalen Nutzung dieser Funktion helfen. Weitere Informationen zu diesem Lizenztyp im Vergleich zu anderen Business Central-Lizenzen finden Sie im [Dynamics 365-Lizenzierungshandbuch](https://go.microsoft.com/fwlink/?LinkId=866544).
- 
-### <a name="client-access"></a>Clientzugriff
+ 
+### Clientzugriff
 
 Benutzer sind berechtigt, auf Business Central-Daten in Microsoft Teams zuzugreifen. Die folgende Tabelle fasst zusammen, welche der unterschiedlichen Methoden des Zugriffs auf den Business Central-Dienst mit dieser Lizenz erlaubt sind. 
 
@@ -53,15 +48,15 @@ Benutzer sind berechtigt, auf Business Central-Daten in Microsoft Teams zuzugrei
 |Business Central-Integrationen mit anderen Office-Anwendungen|![Nein](media/x-icon.png )|
 |Business Central ist in andere Anwendungen eingebettet |![Nein](media/x-icon.png )|
 
-### <a name="data-access"></a>Datenzugriff 
+### Datenzugriff 
 
 Benutzer sind berechtigt, Tabellendaten zu lesen, können jedoch keine Datensätze ändern, erstellen oder löschen. Die Business Central-Plattform verhindert automatisch das Schreiben in Datentabellen.  
 
-### <a name="use-of-objects"></a>Verwendung von Objekten 
+### Verwendung von Objekten 
 
 Zugriff mit Microsoft 365-Lizenzen schränken nicht ein, auf welche Business Central-Objekte oder -Objektbereiche zugegriffen werden kann. Benutzer sind berechtigt, auf die Microsoft-Basisanwendung und alle Erweiterungen wie Anpassungen und Add-On-Apps zuzugreifen. 
 
-## <a name="simplified-ui"></a>Vereinfachte Benutzeroberfläche 
+## Vereinfachte Benutzeroberfläche 
 
 Benutzer haben Anspruch auf einen reduzierten Satz von Features und Funktionen, die von Business Central in Microsoft Teams bereitgestellt werden. Die folgenden Tabellen zeigen bemerkenswerte Funktionen. Dies ist keine vollständige Liste und kann sich ändern.
 
@@ -95,17 +90,17 @@ Funktionen des in Teams eingebetteten Business Central-Clients:
 |Inline-Benutzerhilfe|![Ja](media/check.png) |Tooltips, Links zur Dokumentation|
 |Erweiterte Benutzerunterstützung |![Nein](media/x-icon.png )|Seiten- und Feldunterrichtstipps, Hilfebereich|
 
-## <a name="minimum-requirements"></a>Mindestanforderungen
+## Mindestanforderungen
 
 In diesem Abschnitt werden die Mindestanforderungen beschrieben, die Ihre Organisation erfüllen muss, um den Zugriff mit Microsoft 365-Lizenzen zu ermöglichen, und für einzelne Microsoft Teams-Benutzer, um auf Business Central-Daten ohne eine Business Central-Lizenz zugreifen zu können.
 
-### <a name="requirements-to-enable-access"></a>Anforderungen für den Zugriff
+### Anforderungen für den Zugriff
 
 - Business Central Online (SaaS).
 
 - Umgebungen müssen die Plattformversion 21.1 oder höher aufweisen.
 
-### <a name="requirements-for-individual-users-to-access-data-in-teams"></a>Anforderungen für einzelne Benutzer für den Zugriff auf Daten in Teams
+### Anforderungen für einzelne Benutzer für den Zugriff auf Daten in Teams
 
 - Der Zugriff auf die Daten muss über die Business Central-App für Teams erfolgen. Benutzer müssen die Business Central-App für Teams installiert haben und einen der unterstützten Teams-Clients verwenden. Eine Liste der von Business Central unterstützten Teams-Clients finden Sie unter [Mindestanforderungen für die Verwendung von Business Central](product-requirements.md#teams).
 
@@ -143,11 +138,11 @@ In diesem Abschnitt werden die Mindestanforderungen beschrieben, die Ihre Organi
 
 - Die Organisation muss mindestens einen anderen Benutzer haben, dem eine Dynamics 365 Business Central-Lizenz zugewiesen ist.
 
-## <a name="next-steps"></a>Nächste Schritte
+## Nächste Schritte
 
 - Machen Sie sich mit dem Benutzerzugriffsflow vertraut, um Ihren Ansatz und Ihre Konfiguration von Business Central so zu planen, dass sie den Geschäftsanforderungen entsprechen. Siehe [Benutzerzugriffsflow](admin-access-with-m365-license-flow.md).
 - Richten Sie Ihre Umgebung und Benutzer für den Zugriff mit Microsoft 365-Lizenzen ein. Siehe [Zugriff mit Microsoft 365-Lizenzen einrichten](admin-access-with-m365-license-setup.md).
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Integration von Business Central und Microsoft Teams](across-teams-overview.md)  

@@ -1,29 +1,23 @@
 ---
 title: Lokale Funktionalität und Lokalisierungsstrategie
-description: Erfahren Sie mehr über die lokale Verfügbarkeit und die Einhaltung von Vorschriften in Business Central für die Länder, in denen Microsoft die lokale Funktionalität bereitstellt.
+description: 'Erfahren Sie mehr über die lokale Verfügbarkeit und die Einhaltung von Vorschriften in Business Central für die Länder, in denen Microsoft die lokale Funktionalität bereitstellt.'
 author: edupont04
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: availability, localization
-ms.search.form: ''
+ms.search.keywords: 'availability, localization'
+ms.search.form: null
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: a0468ce2d5c58fae7fc8298b4f4bf320ba3540ce
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655722"
 ---
-# <a name="local-functionality-in-prod_long"></a>Lokale Funktion in [!INCLUDE[prod_long](includes/prod_long.md)]
+# Lokale Funktion in [!INCLUDE[prod_long](includes/prod_long.md)]
 
 [!INCLUDE[prod_short](includes/prod_short.md)] verfügt über eine kombinierte Lokalisierungsstrategie, inklusive von Microsoft geführter und partnergeführter Modelle. In diesem Abschnitt können Sie Beschreibungen der Funktionen anzeigen, die für die Länder gelten, in denen Microsoft die regulatorische Kompatibilität und andere Funktionen bereitstellt.  
 
 Eine Liste der derzeit unterstützten Märkte finden Sie unter [Verfügbarkeit nach Ländern/Regionen und unterstützte Übersetzungen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json).  
 
-## <a name="local-functionality"></a>Lokale Funktionalität
+## Lokale Funktionalität
 
 Wählen Sie den entsprechenden Link, um mehr über die lokalen Funktionen für jedes Land/jede Region zu erfahren:
 
@@ -54,11 +48,11 @@ Wählen Sie den entsprechenden Link, um mehr über die lokalen Funktionen für j
 |        | Indien | [Indien Lokale Funktionalität](LocalFunctionality/India/india-local-functionality.md) |
 |        | Neuseeland | [Lokale Funktion (Neuseeland)](localfunctionality/newzealand/new-zealand-local-functionality.md) |
 
-### <a name="other-countries"></a>Andere Länder
+### Andere Länder
 
 [!INCLUDE[prod_short](includes/prod_short.md)] ist über Lokalisierungs-Apps auch in anderen Märkten verfügbar. Wenn ein Microsoft-Partner eine Lokalisierungs-App für Ihr Land/Ihre Region entwickelt hat, finden Sie diese in [AppSource](https://go.microsoft.com/fwlink/?linkid=2081646).
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Vorbereitung für die Geschäftstätigkeit](ui-get-ready-business.md)  
 [Kompatibilität](compliance/compliance-overview.md)  

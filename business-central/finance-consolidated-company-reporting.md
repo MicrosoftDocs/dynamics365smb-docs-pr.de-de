@@ -1,23 +1,18 @@
 ---
 title: Daten von mehreren Firmen konsolidieren
-description: In diesem Thema wird erklärt, wie Sie die Hauptbuchhaltungsposten von zwei oder mehr separaten Firmen (Tochtergesellschaften) zu einer konsolidierten Firma konsolidieren können.
+description: 'In diesem Thema wird erklärt, wie Sie die Hauptbuchhaltungsposten von zwei oder mehr separaten Firmen (Tochtergesellschaften) zu einer konsolidierten Firma konsolidieren können.'
 author: edupont04
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: consolidation, subsidiaries, consolidate
-ms.search.form: 1826, 1827
+ms.search.keywords: 'consolidation, subsidiaries, consolidate'
+ms.search.form: '1826, 1827'
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 5e6e633155131c7a397a4214d9d22d9464b0847d
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518155"
 ---
-# <a name="consolidating-financial-data-from-multiple-companies"></a>Konsolidieren von Finanzdaten aus mehreren Unternehmen
+
+# Konsolidieren von Finanzdaten aus mehreren Unternehmen
 
 Einige Organisationen verwenden [!INCLUDE [prod_short](includes/prod_short.md)] in mehreren Konzernmandanten oder juristischen Personen. Andere verwenden [!INCLUDE [prod_short](includes/prod_short.md)] in Niederlassungen, die den übergeordneten Organisationen Bericht erstatten müssen. In beiden Fällen verwenden die Buchhalter integrierte Tools, um die Finanzdaten leichter zu konsolidieren.  
 
@@ -40,17 +35,17 @@ Die Einrichtung des konsolidierten Unternehmens erfolgt auf die gleiche Weise wi
 > [!TIP]
 > Die Konsolidierung von Finanzdaten kann insbesondere in Verbindung mit Intergesellschaftsvorgängen relevant sein. Weitere Informationen finden Sie unter [Verwaltung von Intercompany-Transaktionen](intercompany-manage.md).
 
-## <a name="trial-balance"></a>Rohbilanz
+## Rohbilanz
 
 Wenn Sie mehr als ein Unternehmen in [!INCLUDE[prod_short](includes/prod_short.md)] haben , kann der **konsolidierte Rohbilanz**-Bericht Ihnen einen Überblick über die Finanzstärke Ihres Gesamtunternehmens geben.  
 
 Der Bericht Sachposten (Fibu) kombiniert aus jedem Ihrer Mandanten in einem neuen Mandanten, den erstellen, um die konsolidierten Daten zu berücksichtigen. Dieses Unternehmen wird in der Regel als "konsolidiertes Unternehmen" bezeichnet. Der Konsolidierungsmandant ist einfach ein Container für die konsolidierten Daten und hat keine Verbindung zu den aktuellen Geschäftsdaten. Die Unternehmen, die Sie im konsolidierten Unternehmen einschließen, wird zur **Geschäftseinheit** im Bericht. Weitere Informationen finden Sie unter [Unternehmenskonsolidierung einrichten](finance-consolidated-company-reporting-setup.md).  
 
-## <a name="consolidate-data"></a>Daten konsolidieren
+## Daten konsolidieren
 
 Der Prozess der Übertragung der Zahlen aus den Konzernmandanten in das konsolidierte Unternehmen ist die tatsächliche *Konsolidierung*. Bevor Sie das tun, sollten Sie prüfen, ob es Unterschiede zwischen den grundlegenden Informationen in den Konzernmandanten und im konsolidierten Unternehmen gibt. Es gibt zwei Berichte, die Sie verwenden können, um die Datenbank und die Datei zu testen.
 
-### <a name="to-test-the-data-before-you-consolidate"></a>Prüfen von Datenbanken vor der Konsolidierung
+### Prüfen von Datenbanken vor der Konsolidierung
 
 Sie können Ihre Daten testen, bevor Sie sie an den Konsolidierungsmandanten übertragen. [!INCLUDE[prod_short](includes/prod_short.md)] So überprüfen Sie Unterschiede zwischen den Informationen in den Konzernmandanten und dem Konsolidierungsmandanten Beispielsweise ob Kontonummern oder Dimensionscodes abweichen. Sie müssen Fehler korrigieren, bevor Sie den Bericht ausführen können. Sie können prüfen, die Datenbank oder, wenn Sie Daten einer XML-Datei importiert, können Sie testen die Datei.  
 
@@ -61,7 +56,7 @@ Sie können Ihre Daten testen, bevor Sie sie an den Konsolidierungsmandanten üb
     * Um eine Datei zu testen, wählen Sie die **Datei prüfen** Aktion, geben Sie den Namen der Datei an zum Testen ein, und wählen Sie dann **Drucken** aus.  
     * Um die Datenbank zu testen, wählen Sie **Datenbank prüfen**.  
 
-### <a name="run-the-consolidation"></a>Die Konsolidierung ausführen
+### Die Konsolidierung ausführen
 
 Nachdem Sie Ihre Daten geteste haben, können Sie diese an den Konsolidierungsmandanten übertragen.  
 
@@ -71,7 +66,7 @@ Nachdem Sie Ihre Daten geteste haben, können Sie diese an den Konsolidierungsma
 4. Legen Sie im Abschnitt Filter einen Filter für den jeweiligen Konzernmandanten oder Unternehmensnamen fest.  
 5. Optional planen Sie den Bericht so, dass er zu einer günstigen Zeit ausgeführt wird.  
 
-## <a name="eliminate-repeated-transactions"></a>Wiederholte Transaktionen verhindern
+## Wiederholte Transaktionen verhindern
 
 Nachdem sämtliche Mandanten konsolidiert wurden, müssen Sie alle Transaktionen suchen, die in mehreren Mandanten einmal aufgezeichnet wurden, und dann Eliminierungsposten buchen, um sie zu entfernen.
 
@@ -98,7 +93,7 @@ Jedes Konto erscheint in einer eigenen Zeile entsprechend der Struktur im Konten
 * Der aus dem Fibu Buch.-Blatt kopierte Buchungstext.
 * Die Endsumme für den Konsolidierungsmandanten nach Durchführung der Eliminierungen, soweit diese gebucht wurden.
 
-## <a name="export-and-import-consolidated-data-between-databases"></a>Konsolidierte Daten zwischen Datenbanken exportieren und importieren
+## Konsolidierte Daten zwischen Datenbanken exportieren und importieren
 
 Wenn sich ein Konzernmandant in einer anderen Datenbank befindet, müssen Sie die Konsolidierungsdaten in eine Datei exportieren, bevor diese konsolidiert werden können. Jeder Mandant muss separat konsolidiert werden. Zu diesem Zweck wird in der Anwendung die Stapelverarbeitung **Konsolidierung exportieren** verwendet.  
 
@@ -114,7 +109,7 @@ Die exportierten Posten enthalten die folgenden Felder: **Kontonr.**, **Buchungs
 3. Bei dem für den Posten exportierten Dimensionswert handelt es sich um den Dimensionswert des Konsolidierungsmandanten, der im Feld **Konsolidierungscode** für diesen Dimensionswert eingerichtet ist. Wurde im Feld **Konsolidierungscode** für diesen Dimensionswert kein Dimensionswert des Konsolidierungsmandanten eingerichtet, wird der Dimensionswert selbst in die Zeile exportiert.  
 4. Die XML-Dateien enthalten auch die Währungswechselkurse innerhalb der Konsolidierungsperiode. Diese Wechselkurse sind in einem eigenen Abschnitt zu Beginn der Datei aufgeführt.  
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Unternehmenskonsolidierung einrichten](finance-consolidated-company-reporting-setup.md)  
 [Intercompanytransaktionen verwalten](intercompany-manage.md)  

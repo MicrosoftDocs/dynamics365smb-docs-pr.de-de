@@ -1,91 +1,93 @@
 ---
 title: Wie Sie Artikel mit Lagereinlagerungen einlagern
-description: Lesen Sie, wie Sie den Beleg Lagereinlagerungen verwenden, um Datensätze und Eingangsinformationen für Ihre Quellbelege zu erfassen und zu buchen.
-author: SorenGP
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: ''
-ms.date: 06/25/2021
-ms.author: edupont
-ms.openlocfilehash: ce664efeb299072e73c2b25ea87ed28596164015
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9528490"
+description: 'Erfahren Sie, wie Sie Lagereinlagerungsbelege verwenden, um Datensätze und Eingangsinformationen zu erfassen und zu buchen.'
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.service: dynamics365-business-central
+ms.topic: how-to
+ms.date: 12/20/2022
+ms.custom: bap-template
+ms.search.forms: '7375,'
 ---
-# <a name="put-items-away-with-inventory-put-aways"></a>Artikel mit Lagereinlagerungen einlagern
+# Artikel mit Lagereinlagerungen einlagern
 
-Wenn Ihr Lagerort so eingerichtet wurde, dass er Einlagerung erfordert, jedoch keinen Wareneingang, verwenden Sie den Beleg **Lagereinlagerung**, um die Wareneingangs- und Einlagerungsinformationen für Ihre Herkunftsbelege zu erfassen. Der eingehende Herkunftsbeleg kann eine Einkaufsbestellung, eine Verkaufsreklamation, ein eingehender Umlagerungsauftrag oder ein Montage- bzw. Fertigungsauftrag sein, dessen Endprodukt zur Einlagerung bereitsteht.  
+In [!INCLUDE[prod_short](includes/prod_short.md)] erhalten Sie Artikel und lagern sie, wie in der folgenden Tabelle beschrieben, mit einer von vier Methoden ein.
+
+|Art|Eingangsprozess|Wareneingang erforderlich|Einlagerung erforderlich|Komplexitätsgrad (Weitere Informationen unter [Lagermanagementübersicht](design-details-warehouse-management.md))|  
+|------------|---------------------|--------------|----------------|------------|  
+|A|Posteinlieferungsschein und die Einlagerung der Auftragszeile|||Keine dedizierte Lageraktivität.|  
+|B|Posteinlieferungsschein und Einlagerung aus dem Beleg "Lagereinlagerung"||Aktiviert|Basis: Auftragsbezogene Logistik|  
+|U|Posteinlieferungsschein und Einlagerung aus einem Wareneingangsbeleg|Aktiviert||Basis: Konsolidierte Eingangs-/Versandbuchung für mehrere Bestellungen.|  
+|T|Posteinlieferungsschein aus einem Wareneingangsbeleg und Posteinlagerung aus einem Einlagerungsbeleg|Aktiviert|Aktiviert|Erweitert|  
+
+Weitere Informationen finden Sie unter [Eingehender Lagerfluss](design-details-inbound-warehouse-flow.md).
+
+Dieser Artikel bezieht sich auf die Methode B in der Tabelle.
+
+Wenn Ihr Lagerort so eingerichtet wurde, dass er Einlagerung erfordert, jedoch keinen Wareneingang, verwenden Sie den Beleg **Lagereinlagerung**, um die Wareneingangs- und Einlagerungsinformationen für Ihre Herkunftsbelege zu erfassen. Eingehende Herkunftsbelege können Einkaufsaufträge, Verkaufsreklamationen und eingehende Umlagerungsaufträge umfassen.
+
+> [!NOTE]
+> Produktions- und Montage-Ausgabe stellen auch eingehende Herkunftsbelege dar. Weitere Informationen über die Verarbeitung von Fertigungs- und Montage-Ausgabe für interne Prozesse finden Sie unter [Designdetails: Interner Lagerfluss](design-details-internal-warehouse-flows.md).
 
 Sie können eine Lagereinlagerung auf drei Arten erstellen:  
 
-- Erstellen Sie die Einlagerung in zwei Schritten, indem Sie zuerst vom Herkunftsbeleg aus eine Erwartete Lagerbewegung erstellen, die für die Logistik als ein Signal dient, dass der Herkunftsbeleg zum Einlagern bereitsteht. Die Lagereinlagerung kann dann von der Seite **Lagereinlagerung** aus erstellt werden, die auf dem Herkunftsbeleg basiert.  
 - Erstellen Sie die Lagereinlagerung direkt vom Herkunftsbeleg aus.  
-- Erstellen Sie Lagereinlagerungen für mehrere Herkunftsbelege gleichzeitig, indem Sie eine Stapelverarbeitung verwenden.  
+- Erstellen Sie für mehrere Herkunftsbelege gleichzeitig Lagereinlagerungen, indem Sie die eine Stapelverarbeitung verwenden.  
+- Legen Sie die Einlagerung in zwei Schritten an, indem Sie zunächst den Herkunftsbeleg freigeben, um die Artikel für die Einlagerung verfügbar zu machen. Sie können die Lagereinlagerung basierend auf dem Herkunftsbeleg erstellen, indem Sie die Seite **Lagereinlagerung** verwenden.  
 
-## <a name="to-request-an-inventory-put-away-by-releasing-the-source-document"></a>So fordern Sie eine Lagereinlagerung durch Freigabe des Herkunftsbelegs an
+## Eine Lagereinlagerung vom Herkunftsbeleg aus erstellen
 
-Bei Bestellungen, Verkaufsreklamationen, eingehenden Umlagerungsaufträgen und Montageaufträgen erstellen Sie die erwartete Lagerbewegung, indem Sie den Auftrag freigeben. Nachfolgend wird erläutert, wie dies mit einer Einkaufsbestellung erreicht wird.  
+1. Im Herkunftsbeleg, der ein Einkaufsbestellung, eine Verkaufsreklamation oder ein eingehender Umlagerungsauftrag sein kann, klicken Sie auf die Aktion **Lagerbelege erstellen**.  
+2. Aktivieren Sie das Kontrollkästchen **Lagerbelege erstellen**
+3. Wählen Sie die Schaltfläche **OK** aus. Eine neue Lagereinlagerung wird erstellt.
 
-1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Einkaufsbestellungen** ein, und wählen Sie dann den zugehörigen Link.
+## So erstellen Sie mehrere Lagereinlagerungen mit einer Stapelverarbeitung
+
+1. Wählen Sie das Symbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Erstelle Invt. Einlagern/Kommissionieren/Umlagern** ein, und wählen Sie dann den zugehörigen Link. 
+2. Verwenden Sie im Inforegister **Erwartete Lagerbewegung** die Felder **Herkunftsbeleg** und **Herkunftsnr.**, um Filter auf bestimmte Arten von Belegen oder Bereiche von Belegnummern zu setzen. Beispielsweise können Sie Einlagerungen nur für Einkaufsaufträge erstellen.
+3. Aktivieren Sie im Inforegister **Optionen** das Kontrollkästchen **Lagereinlag. erst.** aus.
+4. Wählen Sie die Schaltfläche **OK**. Die angegebenen Lagereinlagerungen werden erstellt.
+
+## So erstellen Sie die Einlagerung in zwei Schritten
+
+### So fordern Sie eine Lagereinlagerung durch Freigabe des Herkunftsbelegs an
+
+Wenn Sie Bestellungen, Verkaufsreklamationen und eingehende Umlagerungsaufträge freigeben, werden die Artikel auf den Bestellungen zum Einlagern verfügbar. In den folgenden Schritten wird beschrieben, wie Sie die Artikel einer Bestellung für die Einlagerung vorbereiten.  
+
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Einkaufsbestellungen** ein, und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie die Einkaufsbestellung, den Sie freigeben möchten, und wählen Sie die **Freigeben** Aktion aus.  
 
-    Bei Fertigungsaufträgen erzeugen Sie die Lagerbewegung, indem Sie eine Einlagerungsanforderung aus dem freigegebenen Fertigungsauftrag erstellen.  
-3.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Freigegebene Fertigungsaufträge** ein, und wählen Sie dann den zugehörigen Link.  
-4. Wählen Sie die **Lagereinlag.-Anforderung erstellen** Aktion aus.  
+### Eine Lagereinlagerung vom Herkunftsbeleg aus erstellen
 
-> [!NOTE]  
->  Sie können die Einlagerungsanforderung auch erstellen, indem Sie das Kontrollkästchen **Lagereinlag.-Anford. erstellen** aktivieren, wenn Sie den Fertigungsauftrag aktualisieren. Weitere Informationen finden Sie unter [Aktualisieren oder Ersetzen von Fertigungsaufträgen](production-how-to-replan-refresh-production-orders.md).  
+Ein Lagermitarbeiter kann basierend auf dem freigegebenen Herkunftsbeleg eine neue Lagereinlagerung erstellen.
 
-Sobald die erwartete Lagerbewegung erzeugt wurde, kann eine Lagermitarbeiter, der der Einlagerungen zugeiwesen wurde, sehen, dass der Herkunftsbeleg zum Einlagern bereitsteht, und einen neuen Einlagerungsbeleg erstellen.  
-
-## <a name="to-create-an-inventory-put-away-based-on-the-source-document"></a>Eine Lagereinlagerung vom Herkunftsbeleg aus erstellen
-
-Nachdem die Anforderung erstellt wurde, kann der Lagermitarbeiter eine neue Lagereinlagerungen auf Grundlage des freigegebenen Herkunftsbelegs erstellen.
-
-1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Lagereinlagerungen** ein, und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Lagereinlagerungen** ein, und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die Aktion **Neu** aus.  
 3. Wählen Sie im Feld **Herkunftsbeleg** die Art des Herkunftsbelegs aus, auf dem die Einlagerung basiert.  
 4. Wählen Sie im Feld **Herkunftsnr.** den Herkunftsbeleg aus.  
 5. Oder wählen Sie die Aktion **Herkunftsbeleg holen** aus, um den Beleg aus einer Liste von eingehenden Herkunftsbelegen auszuwählen, die zur Einlagerung am Lagerort bereit sind.  
 6. Wählen Sie die Schaltfläche **OK**, um die Einlagerungszeilen gemäß dem ausgewählten Herkunftsbeleg auszufüllen.  
 
-## <a name="to-create-an-inventory-put-away-from-the-source-document"></a>Eine Lagereinlagerung vom Herkunftsbeleg aus erstellen
+## So erfassen Sie die Lagereinlagerung
 
-1.  Im Herkunftsbeleg, der ein Einkaufsbestellung, eine Verkaufsreklamation, ein eingehender Umlagerungsauftrag oder ein Fertigungsauftrag sein kann, klicken Sie auf die Aktion **Lagerbelege erstellen**.  
-2. Aktivieren Sie das Kontrollkästchen **Lagerbelege erstellen**
-3. Wählen Sie die Schaltfläche **OK** aus. Eine neue Lagereinlagerung wird erstellt.
+1. Öffnen Sie auf der Seite **Lagereinlagerungen** einen zuvor erstellten Einlagerungsbeleg.  
+2. Im Feld **Lagerplatzcode** auf den Einlagerungszeilen werden der Lagerplätze, in die die Arikel eingelagert werden müssen, bnasiernd auf dem Standardlagerplatzes des Artikels vorgeschlagen. Sie können den Lagerplatz bei Bedarf ändern.  
+3. Führen Sie die Einlagerung durch und geben Sie dann im Feld **Bewegungsmenge** die tatsächlich eingelagerte Menge ein.
 
-## <a name="to-create-multiple-inventory-put-aways-with-a-batch-job"></a>So erstellen Sie mehrere Lagereinlagerungen mit einer Stapelverarbeitung
+    Wenn Sie die Artikel für eine Zeile in mehr als einem Lagerplatz platzieren müssen, beispielsweise, da der freie Lagerplatz voll ist, verwenden Sie die Aktion **Zeile aufteilen** im Inforegister **Zeilen**. Die Aktion erstellt eine Zeile für die zu bearbeitende Restmenge.  
+4. Nachdem Sie die Artikel eingelagert haben, wählen Sie die **Buchen**-Aktion aus.  
 
-1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Erstelle Invt. Einlagern/Kommissionieren** ein, und wählen Sie dann den zugehörigen Link.  
-2.  Im Inforegister **Erwartete Lagerbewegung** der Anforderungsseite können Sie die Felder **Herkunftsbeleg** und **Herkunftsnr.** verwenden, um Filter auf bestimmte Arten von Belegen oder auf Bereiche von Belegnummern zu setzen.  
-3.  Aktivieren Sie im Inforegister **Optionen** das Kontrollkästchen **Lagereinlag. erst.** aus.
-4.  Wählen Sie die Schaltfläche **OK** aus. Die angegebenen Lagereinlagerungen werden erstellt.
+    * Buchen Sie den Wareneingang der eingelagerten Herkunftsbelegen
+    * Wenn der Lagerort Lagerplätze verwendet, erzeugt der Buchungsvorgang darüber hinaus Lagerplatzposten, um die Mengenänderungen in den Lagerplätzen zu buchen.
 
-## <a name="to-record-the-inventory-put-away"></a>So erfassen Sie die Lagereinlagerung
+## Siehe verwandte [Microsoft Schulungen](/training/modules/receive-put-away-items/)
 
-1. Öffnen Sie einen zuvor erstellten Einlagerungsbeleg, indem Sie diesen auf der Seite **Lagereinlagerungen** auswählen.  
-2. Geben Sie im Feld **Lagerplatzcode** auf den Einlagerungszeilen wird der Lagerplatz entsprechend des Standardlagerplatzes des Artikels vorgeschlagen. Sie können – falls erforderlich – auf dieser Seite den Lagerplatz ändern.  
-3. Führen Sie die Einlagerung durch und geben Sie die Informationen über die tatsächlich eingelagerte Menge in das Feld **Bewegungsmenge** ein.
+## Siehe auch
 
-    Wenn es erforderlich ist, die Artikel einer Zeile in mehr als einem Lagerplatz einzulagern, beispielsweise, da der freie Lagerplatz voll ist, verwenden Sie die Funktion **Zeile aufteilen** im Inforegister **Zeilen**. Weitere Informationen über das Aufteilen von Zeilen finden Sie unter [Aufteilen von Lageraktivitätszeilen](warehouse-how-to-split-warehouse-activity-lines.md).  
-4. Wenn Sie die Einlagerung durchgeführt haben, wählen Sie die **Buchen** Aktion aus.  
-
-Der Buchungsprozess bucht den Wareneingang, oder für Fertigungsaufträge die Istmeldung, der Herkunftsbelegzeilen, die eingelagert wurden, und wenn der Lagerort Lagerplätze verwendet, erzeugt der Buchungsvorgang darüber hinaus Lagerplatzposten über die Mengenänderungen in den Lagerplätzen.
-
-## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/receive-put-away-items/)
-
-## <a name="see-also"></a>Siehe auch
-
-[Logistik](warehouse-manage-warehouse.md)  
+[Lagerverwaltung – Übersicht](design-details-warehouse-management.md)
 [Bestand](inventory-manage-inventory.md)  
 [Einrichten von Warehouse Management](warehouse-setup-warehouse.md)  
-[Montageverwaltung](assembly-assemble-items.md)  
-[Designdetails: Warehouse Management](design-details-warehouse-management.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

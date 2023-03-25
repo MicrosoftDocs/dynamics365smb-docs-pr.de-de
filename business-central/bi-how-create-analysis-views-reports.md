@@ -1,23 +1,17 @@
 ---
 title: Analyseberichte erstellen
-description: Beschreibt, wie neue Analyseberichte für Verkauf, Einkauf und Lager erstellt und Analysevorlagen eingerichtet werden.
+description: 'Beschreibt, wie neue Analyseberichte für Verkauf, Einkauf und Lager erstellt und Analysevorlagen eingerichtet werden.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: bi, power BI, analysis, KPI
-ms.search.form: 555, 556, 557, 558, 9372, 9370, 9371
+ms.search.keywords: 'bi, power BI, analysis, KPI'
+ms.search.form: '555, 556, 557, 558, 9372, 9370, 9371'
 ms.date: 09/22/2022
 ms.author: edupont
-ms.openlocfilehash: 0e49f50f04087a56e119d2f50cc1e9e6a1aedbf0
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9606197"
 ---
-# <a name="create-analysis-reports"></a>Analyseberichte erstellen
+# Analyseberichte erstellen
 
 Vertriebsmanager müssen regelmäßig den Umsatz, den Bruttogewinn und andere wichtige Vertriebskennzahlen analysieren. Einkäufer interessieren sich eher für die Dynamik des Kaufvolumens, die Leistung der Lieferanten und die Einkaufspreise. Demgegenüber benötigen Logistik- und Lagerbestandsmanager Informationen zu Lagerumsatz, eine Analyse der Lagerbestandsumlagerung und Statistiken zum Lagerwert. Es gibt also keinen Analysebericht, der für alle passt.
 
@@ -29,7 +23,7 @@ Der Analysebericht besteht aus den Objekten, die Sie analysieren möchten (z.B. 
 
 Zusätzlich zu den Analyseberichten können Sie ähnliche Informationen in Analyseansichten (auf der Grundlage von Dimensionen) erstellen und anzeigen. Erfahren Sie mehr unter [Daten nach Dimensionen analysieren](bi-how-analyze-data-dimension.md).
 
-## <a name="example"></a>Beispiel
+## Beispiel
 
 Sie können diese Zeilen festlegen (Objekte, die Sie analysieren möchten):  
 
@@ -43,7 +37,7 @@ Dann können Sie diese Spalten festlegen (wie Sie die Objekte analysiert haben m
 - Verkäufe letzter Monat  
 - Verkäufe in Prozent zum letzten Monat  
 
-## <a name="setting-up-line-and-column-layouts"></a>Festlegen von Zeilen- und Spaltenlayouts
+## Festlegen von Zeilen- und Spaltenlayouts
 
 Auf der Seite **Analysebericht** können Sie verschiedene Zeilen- und Spalten-Layouts sehen, die Sie auf der Seite festgelegt haben:
 
@@ -63,7 +57,7 @@ Basierend auf den Zeilen und Spalten, die Sie festgelegt haben, fasst [!INCLUDE[
 
 Sie können z.B. eine Gruppe von Zeilen und mehrere Gruppen von Spaltenlayouts festlegen, um Monats- bzw. Jahresberichte anzuzeigen.
 
-## <a name="set-up-analysis-column-templates"></a>Analysespaltenvorlagen festlegen
+## Analysespaltenvorlagen festlegen
 
 Das folgende Verfahren basiert auf den Verkaufsanalyse-Ansichten. Die Schritte sind gleich für Einkaufs- und Bestandsanalyseansichten.
 
@@ -80,7 +74,7 @@ Eine Analysespaltenvorlage enthält eine Reihe von Zeilen, die jeweils eine Anal
     Wenn Sie zudem im Feld **Postenart** die Option **Artikelposten** auswählen, werden die aktuellen Zahlen aus dem Artikelposten kopiert. Wenn Sie **Artikelbudgetposten** auswählen, werden die budgetierten Zahlen aus dem Budget kopiert.  
 5. Wählen Sie **OK**, um Ihre Änderungen zu speichern.  
 
-## <a name="set-up-analysis-line-templates"></a>Vorlagen für Analysezeilen festlegen
+## Vorlagen für Analysezeilen festlegen
 
 Das folgende Verfahren basiert auf Analyseberichten für Aufträge. Die Schritte sind gleich für Einkaufs- und Bestandsanalyseansichten.
 
@@ -94,7 +88,7 @@ Eine Analysezeilenvorlage enthält eine Reihe von Zeilen, die jeweils eine von I
 > [!NOTE]  
 > Wenn Sie viele einzelne Zeilen für jeden Artikel, Kunden usw. erstellen möchten, können Sie alternativ die entsprechende Einfügeoption wählen, um alle relevanten Felder in der Zeile auszufüllen. Wenn es erforderlich ist, können Sie dann die Zeilen manuell bearbeiten. Um Zeilen einzufügen, wählen Sie die Aktion **Elemente einfügen** oder **Elementgruppen einfügen**.  
 
-## <a name="create-a-new-sales-analysis-report"></a>Einen neuen Verkaufsanalysebericht erstellen
+## Einen neuen Verkaufsanalysebericht erstellen
 
 Die folgende Vorgehensweise bezieht sich auf Analyseberichte für den Verkauf. Die Schritte sind für Kauf- und Bestandsanalyseberichte ähnlich.
 
@@ -109,7 +103,7 @@ Mit Analyseberichten können Sie die Dynamik Ihrer Verkäufe anhand von wichtige
 > [!NOTE]  
 > Das Einrichten von Kombinationen aus Zeilen- und Spaltenvorlagen für das Erstellen von Berichten und das Zuweisen von eindeutigen Namen zu diesen sind nicht erforderlich. Wenn Sie dies tun, müssen Sie auf der Seite **Verkaufsanalyseberichte** keine Zeilen- und Spaltenvorlagen auswählen. Nach dem Auswählen eines Berichtsnamens können Sie die Zeilen- und Spaltenvorlagen unabhängig voneinander ändern und später den Berichtsnamen erneut auswählen, um die ursprüngliche Kombination wiederherzustellen.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Financial Business Intelligence](bi.md)  
 [Finanzen](finance.md)  

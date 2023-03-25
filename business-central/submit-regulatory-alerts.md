@@ -1,24 +1,18 @@
 ---
 title: Regulatorische Warnungen senden
-description: Wenn Sie von neuen Gesetzen wissen, die die Unterstützung von Funktionen in Business Central erfordern, können Sie diese Anleitung befolgen, um eine regulatorische Warnung an das Produktteam zu senden.
+description: 'Wenn Sie von neuen Gesetzen wissen, die die Unterstützung von Funktionen in Business Central erfordern, können Sie diese Anleitung befolgen, um eine regulatorische Warnung an das Produktteam zu senden.'
 author: sorenfriisalexandersen
 ms.topic: conceptual
 ms.reviewer: edupont
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/25/2021
 ms.author: soalex
-ms.openlocfilehash: 7601f1bef58ed914385957ef70ad8b924c4499a0
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335110"
 ---
-# <a name="submit-alerts-about-countryregion-specific-regulatory-features"></a>Warnungen zu landes-/regionsspezifischen gesetzliche Funktionen übermitteln
+# Warnungen zu landes-/regionsspezifischen gesetzliche Funktionen übermitteln
 
 Wir laden Sie ein, Microsoft Dynamics Lifecycle Services (LCS) zu verwenden, um gesetzliche Warnungen über den Dynamics-Übermittlungsdienst für Gesetzeswarnungen zu senden.  
 
-## <a name="to-submit-a-regulatory-alert-in-lcs"></a>So übermitteln Sie regulatorische Warnungen in LCS
+## So übermitteln Sie regulatorische Warnungen in LCS
 
 1. Wechseln Sie zu [https://lcs.dynamics.com](https://lcs.dynamics.com), und melden Sie sich an.  
 
@@ -71,7 +65,7 @@ Wir laden Sie ein, Microsoft Dynamics Lifecycle Services (LCS) zu verwenden, um 
 
       Nachdem Sie die Warnung gesendet haben, erhalten Sie eine Bestätigung, dass die Warnung erfolgreich an Microsoft gesendet wurde.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Lokale Funktion in [!INCLUDE[prod_long](includes/prod_long.md)]](about-localization.md)  
 [Sprache und Gebiet ändern](about-locale-language.md)  

@@ -1,22 +1,16 @@
 ---
 title: Designdetails - Abweichungen | Microsoft Docs
-description: Abweichung wird als Differenz zwischen den Ist-Kosten und Einstandspreis (fest) definiert, wie in der folgenden Formel beschrieben.
+description: 'Abweichung wird als Differenz zwischen den Ist-Kosten und Einstandspreis (fest) definiert, wie in der folgenden Formel beschrieben.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: db015f330a89a164b7636b4f44a265f528e9cc3f
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8513044"
 ---
-# <a name="design-details-variance"></a>Designdetails: Abweichung
+# Designdetails: Abweichung
 Abweichung wird als Differenz zwischen den Ist-Kosten und Einstandspreis (fest) definiert, wie in der folgenden Formel beschrieben.  
 
  tatsächliche Kosten – Standardkosten = Abweichung  
@@ -26,7 +20,7 @@ Abweichung wird als Differenz zwischen den Ist-Kosten und Einstandspreis (fest) 
 > [!NOTE]  
 >  Die Neubewertung hat keinen Einfluss auf die Abweichungsberechnung, da die Neubewertung nur den Bestandswert ändert.  
 
-## <a name="example"></a>Beispiel  
+## Beispiel  
  Im folgenden Beispiel wird veranschaulicht, wie die Abweichung für Einkaufsartikel berechnet wird. Die basiert auf dem folgenden Szenario:  
 
 1.  Der Benutzer kauft einen Artikel zu MW 90,00 ein, aber der Standardpreis ist MW 100,00. Entsprechend ist die Einkaufsabweichung MW -10,00.  
@@ -39,7 +33,7 @@ Abweichung wird als Differenz zwischen den Ist-Kosten und Einstandspreis (fest) 
 
  ![Abweichungsberechnung beim Kauf.](media/design_details_inventory_costing_11_purchase_variance.png "Einkaufsabweichungsberechnung")  
 
-## <a name="determining-the-standard-cost"></a>Bestimmen der Standardkosten  
+## Bestimmen der Standardkosten  
  Die Standardkosten werden verwendet, wenn die Abweichung und der zu nutzende Betrag berechnet werden. Da sich die Standardkosten aufgrund manueller Aktualisierungsberechnungen ändern können, benötigen Sie einen Zeitpunkt, an dem die Standardkosten für die Abweichungsberechnung fest sind. An diesem Punkt wird der Lagerzugang fakturiert. Für gefertigt oder montierte Artikel, ist der Zeitpunkt, an dem die Standardkosten bestimmt werden, der der Kostenanpassung.  
 
  Die nachstehende Tabelle zeigt, wie verschiedene Kostenanteile für produzierte und montierte Artikel berechnet werden, wenn Sie die Funktion zur Berechnung der Standardkosten verwenden.  
@@ -58,7 +52,7 @@ Abweichung wird als Differenz zwischen den Ist-Kosten und Einstandspreis (fest) 
 |**Mehrstufige Kapazitätsgemeinkosten**|Nicht anwendbar|![Gleichung 8.](media/design_details_inventory_costing_11_equation_8.png "Gleichung 8")|  
 |**Mehrstufige Prod.-Gemeinkosten**|Nicht anwendbar|![Gleichung 9.](media/design_details_inventory_costing_11_equation_9.png "Gleichung 9")|  
 
-## <a name="see-also"></a>Weitere Informationen  
+## Weitere Informationen  
  [Designdetails: Lagerkostenberechnung](design-details-inventory-costing.md)   
  [Designdetails: Kostenmethoden](design-details-costing-methods.md) [Verwalten der Lagerregulierung](finance-manage-inventory-costs.md)  
  [Finanzen](finance.md)  

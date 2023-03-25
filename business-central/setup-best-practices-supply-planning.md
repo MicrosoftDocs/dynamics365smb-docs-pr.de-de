@@ -1,22 +1,16 @@
 ---
 title: Bewährte Verfahren zur Einrichtung – Lieferplanung
-description: Eingerichtet und korrekt eingesetzt hilft die Beschaffungsplanung einem Unternehmen, fehlende Lagerbestände zu vermeiden sowie Bestellungs- und Lagerkosten zu verringern.
+description: 'Eingerichtet und korrekt eingesetzt hilft die Beschaffungsplanung einem Unternehmen, fehlende Lagerbestände zu vermeiden sowie Bestellungs- und Lagerkosten zu verringern.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: cb54a1baee3a6b7fc63a1f9db15bb79cddb0c108
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516536"
 ---
-# <a name="setup-best-practices-supply-planning"></a>Bewährte Einrichtungsmethoden: Beschaffungsplanung
+# Bewährte Einrichtungsmethoden: Beschaffungsplanung
 Die Beschaffungsplanung ist ein wichtiger Geschäftsbereich. Eingerichtet und korrekt eingesetzt hilft die Beschaffungsplanung einem Unternehmen, fehlende Lagerbestände zu vermeiden sowie Bestellungs- und Lagerkosten zu verringern.  
 
  Es ist nicht möglich, eine optimale Konfiguration aller Planungsfelder vorzugeben, da dies von Unternehmen zu Unternehmen aufgrund von Geschäftsvariablen, wie Marktlage und Geschäftsstrategie, variiert. Jedoch gibt es bewährte Methoden für die Auswahl von Optionen in Artikelkarten und globalen Einrichtungsfelder, um das Unternehmen dabei zu unterstützen, mit fristgerechten und kostengünstigen Lagerbewegungen zu beginnen.  
@@ -29,7 +23,7 @@ Die Beschaffungsplanung ist ein wichtiger Geschäftsbereich. Eingerichtet und ko
 |Lernen Sie die bewährten Methoden zum Angeben von ausgewählten Planungsparametern gemäß dem definierten Wiederbeschaffungsverfahren kennen, um für einen Artikel effizient und wirtschaftlich im Hinblick auf drei kritische Elemente, wie Beschaffungszeit, Frachtkosten und Saisonabhängigkeit, planen zu können.|[Bewährte Einrichtungsmethoden: Planungsparameter](setup-best-practices-planning-parameters.md)|  
 |Lernen Sie die bewährten Methoden zum Anwenden einer allgemeinen Versorgungsstrategie für alle Artikelkarten kennen, beispielsweise den Empfang von Artikeln einen Tag bevor sie benötigt werden oder Toleranzbereiche für die Systemreaktion auf kleine Nachfrageschwankungen.|[Bewährte Einrichtungsmethoden: Globale Planungseinrichtung](setup-best-practices-global-planning-setup.md)|  
 
-## <a name="see-also"></a>Siehe auch  
+## Siehe auch  
  [Designdetails: Vorratsplanung](design-details-supply-planning.md)   
  [Designdetails: Planungsparameter](design-details-planning-parameters.md)   
  [Richten Sie komplexe Anwendungsbereiche mithilfe bewährter Methoden ein](set-up-complex-application-areas-using-best-practices.md)  

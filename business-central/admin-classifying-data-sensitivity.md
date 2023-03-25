@@ -1,6 +1,6 @@
 ---
 title: Datensensitivität klassieren
-description: Sie müssen festlegen, welche Art von Daten Sie über Mitarbeiter speichern, sodass Sie sich auf Datensubjektanforderungen reagieren können.
+description: 'Sie müssen festlegen, welche Art von Daten Sie über Mitarbeiter speichern, sodass Sie sich auf Datensubjektanforderungen reagieren können.'
 author: brentholtorf
 ms.author: bholtorf
 ms.custom: na
@@ -8,14 +8,9 @@ ms.reviewer: na
 ms.topic: conceptual
 ms.search.form: 1752
 ms.date: 06/14/2021
-ms.openlocfilehash: ba629a40bee4f73c3d2a68395b138893265d7b0f
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382363"
 ---
-# <a name="classifying-data-sensitivity-fields"></a>Klassifizieren von Datensensitivitätsfeldern
+
+# Klassifizieren von Datensensitivitätsfeldern
 Um die Felder zu klassifizieren, die vertrauliche oder Personendaten enthalten, kann ein Microsoft Partner die Eigenschaft ```DataClassification``` auf Felder setzen. Dazu müssen Zugriff auf die Datenbanktabellen haben, entweder über die Entwicklungsumgebung oder indem ein Windows PowerShell-Skript ausgeführt wird. Weitere Informationen finden Sie unter [Daten klassieren](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data).  
 
 Als Debitor können Sie eine zweite Ebene der Klassierung hinzufügen, indem Sie die Empfindlichkeitsebenen für die Daten festlegen, die Sie in den Feldern Standard und Benutzerdefiniert speichern. Datenempfindlichkeit klassifizieren hilft sicherzustellen, dass Sie wissen, wo Sie Personendaten im System erfasst haben und macht es einfacher, auf Anforderungen von Datensubjekten zu reagieren. Wenn ein Kontakt oder Debitor Sie auffordert, die Personendaten zu exportieren. Weitere Informationen finden Sie unter [Antworten auf Anforderungen zu Personendaten](admin-responding-to-requests-about-personal-data.md).
@@ -32,7 +27,7 @@ Die folgende Tabelle beschreibt Datenempfindlichkeitsebenen, die Sie zuweisen k�
 |Vertraulich | Kommerzielle Daten, die Sie für Buchhaltungs- oder andere Geschäftszwecke nutzen und nicht mit anderen Einheiten teilen möchten. Beispielsweise können dies Verkaufsposten sein.|
 |Normal | Allgemeine Daten, die keine andere Klassifizierung haben.|
 
-## <a name="how-do-i-classify-my-data"></a>Wie klassiere ich meine Daten?
+## Wie klassiere ich meine Daten?
 Das Klassifizieren der Empfindlichkeit vieler Feler kann lange dauern. Um den Vorgang zu beschleunigen, stellen wir Werkzeuge bereit, die Sie verwenden können, um die sensiblen Felder aufeinmal zu klassieren. Sie können danach bestimmte Felder noch weiter abstimmen. bestimmte Felder. Sie können Werkzeuge im Feld Daten-Klassifizierungsarbeitsblatt suchen, die für die Verwaltung von Benutzern, Benutzergruppen und Rollencenter-Berechtigungen verfügbar sind. Zur Ausführung dieser Aktivität benötigen Sie Administratorrechte oder müssen das Arbeitsblatt nutzen.
 
 > [!Important]
@@ -47,7 +42,7 @@ Beispielsweise können Sie mit dem Arbeitsblatt Datenklassifizierung folgendes t
 > [!Tip]
 > Wir haben Beispielempfindlichkeitsklassifizierungen für die Tabellen und Felder im Cronus-Demomandanten definiert. Sie können diese Klassifizierungen als Inspiration verwenden, wenn Sie Ihre eigenen Tabellen und Felder klassifizieren.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Klassifizieren von Daten](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data)  
 

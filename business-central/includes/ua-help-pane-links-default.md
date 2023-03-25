@@ -4,12 +4,6 @@ ms.service: dynamics365-business-central
 ms.topic: include
 ms.date: 03/22/2022
 ms.author: edupont
-ms.openlocfilehash: 83453858afb9cbaa893252e712fa408b27483b45
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9607607"
 ---
 - Ein Link über die aktuelle Seite
 

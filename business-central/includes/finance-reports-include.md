@@ -3,13 +3,8 @@ author: edupont04
 ms.topic: include
 ms.date: 09/22/2022
 ms.author: edupont
-ms.openlocfilehash: 443428518f8eb0f74a79409f18b7b9a07a5f0c70
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605137"
 ---
+
 In der folgenden Tabelle werden einige der wichtigsten Finanzberichte beschrieben.
 
 | Bericht | Description | ID | 

@@ -1,23 +1,17 @@
 ---
 title: Intrastat-Berichterstattung festlegen
-description: Erfahren Sie, wie Sie die Funktionen zur Intrastat-Meldung festlegen, um den Handel mit Firmen in anderen EU-Ländern zu melden.
+description: 'Erfahren Sie, wie Sie die Funktionen zur Intrastat-Meldung festlegen, um den Handel mit Firmen in anderen EU-Ländern zu melden.'
 author: altotovi
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
-ms.search.form: 308, 309, 310, 311, 325, 326, 327, 328, 405, 406, 4810, 4811, 8451, 12202, 31077
-ms.date: 09/02/2022
 ms.author: altotovi
-ms.openlocfilehash: b6adddb338af36f07abe4c6cb67c8113657ccb7c
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605488"
+ms.reviewer: bholtorf
+ms.service: dynamics365-business-central
+ms.topic: how-to
+ms.date: 12/20/2022
+ms.custom: bap-template
+ms.search.keywords: 'electronic document, Intrastat, trade, EU, European Union'
+ms.search.form: '308, 309, 310, 311, 325, 326, 327, 328, 405, 406, 4810, 4811, 8451, 12202, 31077'
 ---
-# <a name="set-up-intrastat-reporting"></a>Intrastat-Berichterstattung festlegen
+# Intrastat-Berichterstattung festlegen
 
 Alle Firmen in der Europäischen Union (EU) müssen ihren Handel mit anderen EU-Ländern/Regionen melden. Unternehmen müssen die Bewegung von Waren jeden Monat an die Statistikbehörden in ihrem Land/ihrer Region melden, und der Bericht muss an die Steuerbehörden geliefert werden. Intrastat ist das System zur Erfassung von Handelsstatistiken für Waren innerhalb dieser Länder/Regionen. Sie verwenden **Intrastat-Bericht**, um die periodische Intrastat-Meldung (in der Regel monatlich) zu vervollständigen und den Handel mit Waren gemäß der lokalen Gesetzgebung zu erfassen, aufzuzeichnen und zu melden.
 
@@ -33,7 +27,7 @@ Die Intrastat-Meldungen basieren auf den grundlegenden EU-Vorschriften, die für
 >
 > Lesen Sie den Artikel zur Einrichtung und Verwendung von Intrastat in der Vorgängerversion unter [Intrastat einrichten und melden](finance-how-setup-report-intrastat-v20.md).
 
-## <a name="enable-the-new-intrastat-experience"></a>Aktivieren Sie das neue Intrastat-Erlebnis
+## Aktivieren Sie das neue Intrastat-Erlebnis
 
 In der Veröffentlichungswelle 2 von 2022 enthält [!INCLUDE[prod_short](includes/prod_short.md)] ein neu gestaltetes Intrastat-Erlebnis mit erweiterten Funktionen. Wenn die neue Intrastat-Funktion in Ihrer Umgebung nicht aktiviert ist, kann sie von einem Administrator auf der Seite **Funktionsverwaltung** manuell aktiviert werden.
 
@@ -50,11 +44,11 @@ In der Veröffentlichungswelle 2 von 2022 enthält [!INCLUDE[prod_short](include
 > [!NOTE]
 > Je nach Standort Ihrer Firma genügt es, die oben beschriebene Funktion zu aktivieren. Für Länder mit speziellen Funktionen für das Intrastat-Reporting sollten Sie zusätzlich zur Haupterweiterung die länderspezifische Intrastat App aktivieren.
 
-## <a name="intrastat-configuration"></a>Intrastat-Konfiguration
+## Intrastat-Konfiguration
 
 Bevor Sie Intrastat-Berichte verwenden können, müssen Sie mehrere Konfigurationen festlegen.
 
-### <a name="intrastat-reporting-setup"></a>Einrichtung der Intrastat-Berichte
+### Einrichtung der Intrastat-Berichte
 
 Auf der Seite **Einrichtung der Intrastat-Berichterstattung** können Sie die Intrastat-Berichterstattung aktivieren und die Standardeinstellungen dafür festlegen. Sie können angeben, ob Sie Intrastat aus Sendungen (Versendungen), Eingängen (Ankünften) oder beidem melden müssen, je nach den Schwellenwerten, die in Ihren lokalen Vorschriften festgelegt sind. Sie können auch Standardtransaktionsarten für reguläre und Retourenbelege festlegen, die für die Art der Meldung von Transaktionen verwendet werden.
 
@@ -94,7 +88,7 @@ Um das Intrastat-Reporting festzulegen:
    | **Daten Aust. Def. Code - Sendung** | Gibt den Datenaustausch-Definitionscode an, um die Intrastat-Datei für versandte Waren zu erzeugen. Funktioniert nur, wenn das Feld **Eingangs-/Sendungsdateien aufteilen** als **Ja** festgelegt ist. |
 5. Öffnen Sie das Inforegister **Nummerierung**, um die **Intrastat-Nummern** festzulegen.
 
-### <a name="set-up-a-reporting-file"></a>Legen Sie eine Berichtsdatei fest
+### Legen Sie eine Berichtsdatei fest
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol, geben Sie **Data Exchange Definitions** ein und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie die Aktion **Neu**.
@@ -113,7 +107,7 @@ Um das Intrastat-Reporting festzulegen:
 > [!NOTE]
 > [!INCLUDE[prod_long](includes/prod_long.md)] wird mit der vorkonfigurierten Data Exchange Definition für Intrastat für alle lokalisierten Länder geliefert. Erfahren Sie mehr über das Erstellen einer neuen Datenaustausch-Definition in dem Artikel [Datenaustausch-Definitionen einrichten](across-how-to-set-up-data-exchange-definitions.md).
 
-### <a name="set-mandatory-fields-with-the-intrastat-report-checklist"></a>Pflichtfelder mit der Checkliste für den Intrastat-Bericht festlegen
+### Pflichtfelder mit der Checkliste für den Intrastat-Bericht festlegen
 
 In einigen Ländern verlangen die Behörden, dass Intrastat-Berichte z.B. die Versandmethode für Einkäufe oder andere Werte enthalten, wenn die Verkäufe einen bestimmten Schwellenwert überschreiten.
 
@@ -133,9 +127,9 @@ So legen Sie Pflichtfelder und/oder Werte auf der Seite **Intrastat-Bericht** fe
 > [!NOTE]
 > Wenn Sie die **Filterseite** über die Zeile **Filterausdruck** öffnen, können Sie alle Standardfilterausdrücke verwenden, die sich auf das spezifische Feld beziehen, das Sie filtern möchten.
 >
-> Seien Sie vorsichtig bei der Festlegung von Validierungsregeln, da diese von Land zu Land unterschiedlich sein können.
+> Gehen Sie beim Einrichten von Validierungsregeln sorgfältig vor. Sie können von Land zu Land unterschiedlich sein.
 
-## <a name="use-custom-codeunits-in-intrastat-reporting"></a>Angepasste Codeunits in Intrastat-Berichten verwenden
+## Angepasste Codeunits in Intrastat-Berichten verwenden
 
 Wenn Sie die Funktionsweise von Intrastat ändern möchten und die Standardkonfiguration nicht ausreicht, können Sie das System anpassen, indem Sie die Standardfunktionen erweitern. Wenn Sie das Verhalten von Intrastat weiter verändern möchten, können Sie Ihre eigenen Codeunits entwickeln. Wenn Sie Codeunits erstellen, müssen Sie jedoch zusätzliche Änderungen vornehmen, um sie verwenden zu können. Um das System für die Verwendung Ihrer eigenen Objekte zu konfigurieren:
 
@@ -143,15 +137,15 @@ Wenn Sie die Funktionsweise von Intrastat ändern möchten und die Standardkonfi
 2. Fügen Sie auf der Seite **Konfiguration MwSt.-Berichte** eine neue Zeile hinzu.
 3. Wählen Sie im Feld **Typ des MwSt.-Berichts** die Option **Intrastat-Bericht**.
 4. Geben Sie im Feld **VAT Report Version** die Version des Berichts an.
-5. Danach können Sie Ihre Codeunits für die folgenden Optionen hinzufügen: a. Geben Sie im Feld **Zeilen vorschlagen Codeunit ID** die neue Codeunit für das Vorschlagen von Zeilen in den Zeilen des Intrastat-Berichts an.
-   b. Geben Sie im Feld **Inhalt Codeunit ID** die neue Codeunit für den Export von Daten als Datei über eine Data Exchange Definition an.
-   c. Geben Sie im Feld **Codeunit ID validieren** die neuen Codeunits für die Validierung von Ergebnissen in Intrastat-Berichtszeilen an.
+5. Danach können Sie Ihre Codeunits für die folgenden Optionen hinzufügen: a. Geben Sie im Feld **Zeilen vorschlagen codeunit-ID** die neue codeunit für das Vorschlagen von Zeilen in den Zeilen des Intrastat-Berichts an.
+   b. Geben Sie im Feld **Inhalt codeunit-ID** die neue codeunit für den Export von Daten als Datei über eine Datenaustauschdefinition an.
+   c. Geben Sie im Feld **codeunit-ID validieren** die neuen codeunits für die Validierung von Ergebnissen in Intrastat-Berichtszeilen an.
 
 > [!IMPORTANT]
 >
 > Diese Zeile muss leer sein, wenn Sie die Standard Codeunits verwenden. Sie sollten nur dann eine Zeile erstellen und konfigurieren, wenn Sie angepasste Codeunits entwickelt haben.
 
-## <a name="other-intrastat-configurations"></a>Andere Intrastat-Konfigurationen
+## Andere Intrastat-Konfigurationen
 
 > [!IMPORTANT]
 > Kunden- und Lieferantenkarten enthalten ein Feld, **Intrastat-Partnertyp**, das die gleichen Optionswerte wie das Feld **Partnertyp** hat: „“ (leer), *Firma*, und *Person*. Das Feld **Intrastat-Partnertyp** hat das Feld **Partnertyp** im Intrastat-Reporting ersetzt. Das Feld **Partnertyp** wird im einheitlichen Euro-Zahlungsverkehrsraum (SEPA) zur Definition des SEPA-Lastschriftverfahrens (Core oder B2B) verwendet. Das Feld **Intrastat-Partnertyp** wird nur für Intrastat-Meldungen verwendet. Auf diese Weise können Sie bei Bedarf unterschiedliche Werte für die beiden Felder angeben.
@@ -183,86 +177,134 @@ Optional können Sie auch Folgendes angeben:
 * **Eingangs-/Ausgangsorte**: Geben Sie die Orte an, an denen Sie Artikel in andere Länder versenden oder aus anderen Ländern empfangen. Ein Flughafen ist ein Beispiel für einen Eingangs- oder Ausgangspunkt. Sie geben Häfen auf Verkaufs- und Einkaufsbelegen des Inforegisters **Außenhandel** ein. Diese Daten werden auch aus den Artikelposten kopiert, wenn Sie das Intrastat-Buch.-Blatt erstellen.
 * **Zusätzliche Maßeinheit**: Die Menge der Waren für die Intrastat-Meldung kann entweder das Nettogewicht (in Kilogramm) oder eine zusätzliche Einheit sein. Wenn zusätzliche Einheiten erforderlich sind, müssen Sie diese für Elemente und Anlagen konfigurieren.
 
-#### <a name="set-up-transport-methods"></a>Verkehrszweige festlegen
+#### Verkehrszweige festlegen
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol, geben Sie **Verkehrszweige** ein, und wählen Sie dann den entsprechenden Link.
 2. Füllen Sie die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-#### <a name="set-up-transaction-nature-codes"></a>Transaktionsnatur-Codes festlegen
+#### Transaktionsnatur-Codes festlegen
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol, geben Sie **Transaktionsarten** ein, und wählen Sie den entsprechenden Link.
 2. Füllen Sie die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-### <a name="other-related-configurations"></a>Andere verwandte Konfigurationen
+### Andere verwandte Konfigurationen
 
 Bevor Sie die Funktion Intrastat-Berichtswesen verwenden, müssen Sie einige Felder auf den Artikel-, Anlage-, Kunden- und Lieferantenkarten konfigurieren.
 
-#### <a name="item-cards"></a>Element-Karten
+#### Element-Karten
 
 So legen Sie alle erforderlichen Informationen zu Intrastat auf den Artikelkarten fest:
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol einrichten möchten, geben Sie **Artikel** ein und wählen dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol, geben Sie **Posten** ein und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie das Element, das Sie konfigurieren möchten.
-3. Erweitern Sie das Inforegister **Kosten & Buchung** und füllen Sie die Felder **Zollsatz-Nr.**, **Zusätzliche Maßeinheit** und **Herkunftsland/Region Code**.
-4. Erweitern Sie das **Inforegister** und geben Sie den Dezimalwert in das Feld **Nettogewicht** ein.
+3. Füllen Sie im Inforegister **Kosten & Buchung** die Felder **Zollsatz-Nr.**, **Zusätzliche Maßeinheit** und **Herkunftsland/Regionscode** aus.
+4. Geben Sie im Inforegister **Bestand** den Dezimalwert in das Feld **Nettogewicht** ein.
 
 > [!NOTE]
 > Sie können verschiedene Maßeinheiten als zusätzliche Maßeinheit verwenden. Wenn diese nicht mit der **Basis Maßeinheit** übereinstimmt, müssen Sie diese Maßeinheit auf der Seite **Maßeinheiten** konfigurieren.
 
-#### <a name="fixed-asset-cards"></a>Karten für Anlagen
+#### Karten für Anlagen
 
 So legen Sie alle erforderlichen Informationen zu Intrastat auf den Karten für Anlagen fest:
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol, geben Sie **Anlagen** ein, und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie die Anlage, die Sie konfigurieren möchten.
-3. Erweitern Sie das Inforegister **Intrastat** und füllen Sie die Felder **Zollsatz-Nr.**, **Nettogewicht** und **Zusätzliche Maßeinheit**.
+3. Füllen Sie im Inforegister **Intrastat** die Felder **Zollsatz-Nr.**, **Nettogewicht** und **Zusätzliche Maßeinheit** aus.
 
 > [!NOTE]
 > Sie können verschiedene Maßeinheiten als zusätzliche Maßeinheit verwenden. Aber egal, welchen **Maßeinheiten-Code** Sie wählen, seine **Menge** in den Intrastat-Berichten wird immer 1 sein.
 
-#### <a name="vendor-cards"></a>Lieferantenkarten
+#### Lieferantenkarten
 
 Bevor Sie einen Lieferanten in Intrastat-Berichten verwenden können, müssen Sie für jeden dieser Lieferanten einen eigenen **Länder/Regionen Code** und eine **Mehrwertsteuer-Registrierungsnummer** haben, zusätzlich zu weiteren Informationen auf der Seite **Lieferantenkarte**:
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol, geben Sie **Lieferanten** ein und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie den Anbieter, den Sie konfigurieren möchten.
 3. Auf dem Inforegister **Intrastat** können Sie Standardwerte für die **Vorgabe Trans. Type**, **Standard Trans. Typ - Retouren** und **Standard-Transportmethode** festlegen.
-4. Erweitern Sie das Inforegister **Zahlungen** und wählen Sie die Option im Feld **Intrastat-Partnertyp**, um festzulegen, ob der Lieferant eine Person oder eine Firma im Intrastat-Reporting ist.
+4. Geben Sie im Inforegister **Zahlungen** im Feld **Intrastat-Partnertyp** an, ob der Kreditor eine Person oder ein Unternehmen ist.
 
-#### <a name="customer-cards"></a>Kundenkarten
+#### Kundenkarten
 
 Bevor Sie einen Kunden im Intrastat-Reporting verwenden können, müssen Sie für jeden dieser Kunden einen eigenen **Länder/Regionen Code** und eine **Mehrwertsteuer-Registrierungsnummer** haben, zusätzlich zu weiteren Informationen auf der Seite **Kundenkarte**:
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol, geben Sie **Kunden** ein, und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie den Kunden aus, den Sie konfigurieren möchten.
 3. Auf dem Inforegister **Intrastat** können Sie Standardwerte für die **Vorgabe Trans. Type**, **Standard Trans. Typ - Retouren** und **Standard-Transportmethode** festlegen.
-4. Erweitern Sie das Inforegister **Zahlungen** und wählen Sie die Option im Feld **Intrastat-Partnertyp**, um festzulegen, ob der Lieferant eine Person oder eine Firma im Intrastat-Reporting ist.
+4. Geben Sie im Inforegister **Zahlungen** im Feld **Intrastat-Partnertyp** an, ob der Kreditor eine Person oder ein Unternehmen ist.
 
-#### <a name="exclude-items-and-fixed-assets-from-intrastat-reporting"></a>Elemente und Anlagen von Intrastat-Berichten ausschließen
+#### Elemente und Anlagen von Intrastat-Berichten ausschließen
 
 Wenn es einen Grund gibt, warum ein bestimmtes Element oder eine Anlage von der Intrastat-Berichterstattung ausgeschlossen werden soll, müssen Sie eine Option auf der Karte ändern.
 
-##### <a name="exclude-an-item-from-intrastat-reporting"></a>Ein Element von der Intrastat-Berichterstattung ausschließen
+##### Ein Element von der Intrastat-Berichterstattung ausschließen
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol, geben Sie **Posten** ein und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie das Element, das Sie konfigurieren möchten.
-3. Erweitern Sie das Inforegister **Kalkulation & Buchung**, und wählen Sie dann das Feld **Aus Intrastat-Bericht ausschließen**.
+3. Wählen Sie im Inforegister **Kalkulation & Buchung** das Feld **Aus Intrastat-Bericht ausschließen** aus.
 
-##### <a name="exclude-a-fixed-asset-from-intrastat-reporting"></a>Eine Anlage aus dem Intrastat-Bericht ausschließen
+##### Eine Anlage aus dem Intrastat-Bericht ausschließen
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol, geben Sie **Anlagen** ein, und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie die Anlage, die Sie konfigurieren möchten.
-3. Erweitern Sie die Registerkarte **Intrastat** und markieren Sie dann das Feld **Aus Intrastat-Bericht ausschließen**.
+3. Wählen Sie im Inforegister **Intrastat** das Feld **Aus Intrastat-Bericht ausschließen** aus.
 
-## <a name="country-specific-intrastat-setup"></a>Länderspezifische Intrastat-Einrichtung
+## Länderspezifische Intrastat-Einrichtung
 
-<!-- PM's note: Currently, we will add only the 'Overview' topic; the topic 'Manage Intrastat Country Specifics' and country details will wait until 21.1 when I update with all country-based details -->
+Die Intrastat-Anforderungen sind in allen Mitgliedsstaaten der EU ähnlich, obwohl es wichtige Ausnahmen gibt. Theoretisch sollten die Regeln in allen Mitgliedsstaaten einheitlich angewendet werden. Es gibt jedoch Unterschiede bei der Implementierung, da einige Mitgliedstaaten Leitlinien zur Verfügung stellen, wie die allgemeinen Grundsätze der Verordnung in bestimmten Situationen angewendet werden sollen. Beispielsweise Handelsmuster, Warenrücksendungen und so weiter. Diese Leitlinien können für verschiedene Situationen in den EU-Mitgliedstaaten zu unterschiedlichen Ergebnissen führen. Aus diesem Grund haben einige Länder zusätzliche spezifische Informationen, die sich von denen anderer Länder unterscheiden. Sie verwenden auch ein anderes Dateiformat für die Berichterstellung.
 
-Die Intrastat-Anforderungen sind in allen Mitgliedsstaaten der EU ähnlich, obwohl es wichtige Ausnahmen gibt. Theoretisch sollten die Regeln in allen Mitgliedsstaaten einheitlich angewendet werden. Es gibt jedoch Unterschiede bei der Implementierung, da einige Mitgliedstaaten Leitlinien zur Verfügung stellen, wie die allgemeinen Grundsätze der Verordnung in bestimmten Situationen (z.B. Handelsmuster, Rücksendung von Waren usw.) angewendet werden sollten. Diese Leitlinien können für verschiedene Situationen in den EU-Mitgliedstaaten zu unterschiedlichen Ergebnissen führen. Aus diesem Grund haben einige Länder einige zusätzliche spezifische Informationen, die sich von denen anderer Länder unterscheiden, und sie haben auch ein anderes Dateiformat für die Berichterstattung.
+### Österreich
 
-## <a name="see-related-training-at-microsoft-learn"></a>Siehe die entsprechende Schulung unter [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
+Die Intrastat-Berichterstellung in Österreich erfordert zwei unterschiedliche Dateien für Eingänge und Lieferungen. Gehen Sie folgendermaßen vor, um zu überprüfen, ob Ihre Einrichtung korrekt ist:
 
-## <a name="see-also"></a>Siehe auch
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol, geben Sie **Intrastat-Einrichtung** ein und wählen Sie dann den entsprechenden Link.  
+2. Überprüfen Sie im Inferegister **Berichterstellung**, ob **Eingangs-/Sendungsdateien aufteilen** ausgewählt ist. Damit zusammenhängend wurden zwei separate **Datenaustauschdef. Codes** konfiguriert. Das Feld **.zip-Datei(en)** wird ebenfalls ausgewählt, um sicherzustellen, dass Berichtsdateien zur .zip-Datei hinzugefügt werden.
+
+Der Vorgang, mit Intrastat-Berichten zu arbeiten, entspricht dem von globalen Funktionen.
+
+<!-- ### Belgium-->
+
+### Tschechische Republik
+
+Die neue Intrastat-Berichtsumgebung für die Tschechische Republik wird ab der 1. Veröffentlichungszyklus 2023 verfügbar sein. In der Zwischenzeit können Sie die Funktion **Intrastat-Buch.-Blatt** weiter verwenden.
+
+### Finnland
+
+In Finnland sind einige zusätzliche Schritte zur Einrichtung von Intrastat erforderlich. Die Intrastat-Berichterstellung in Finnland erfordert zwei unterschiedliche Dateien für Eingänge und Lieferungen. Damit zusammenhängend wurden zwei separate **Datenaustauschdef. Codes** konfiguriert.
+
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol, geben Sie **Intrastat-Einrichtung** ein und wählen Sie dann den entsprechenden Link.  
+2. Füllen Sie auf der Seite **Intrastat-Berichtseinrichtung** im Inforegister **Dateieinrichtung** die erforderlichen Felder gemäß der Beschreibung in der folgenden Tabelle aus:
+
+    |Feld|Beschreibung|  
+    |------------------------------------|---------------------------------------|
+    | **Benutzerdefinierter Code**|Gibt einen benutzerdefinierten Code für die Einrichtungsinformationen der Intrastat-Datei an. |
+    | **Seriennummer des Unternehmens**|Gibt eine Seriennummer des Unternehmens die Einrichtungsinformationen der Intrastat-Datei an. |
+
+3. Überprüfen Sie im Inforegister **Berichterstellung**, ob **Eingangs-/Sendungsdateien aufteilen** ausgewählt ist.
+
+Der Vorgang, mit Intrastat-Berichten zu arbeiten, entspricht dem von globalen Funktionen.
+
+<!-- ### Germany-->
+
+### Italien
+
+Die neue Intrastat-Berichtsumgebung für Italien ist ab Februar 2023 verfügbar. In der Zwischenzeit können Sie die Funktion **Intrastat-Buch.-Blatt** weiter verwenden.
+
+<!-- ### France-->
+
+### Schweden
+
+Die Intrastat-Berichterstellung in Schweden erfordert zwei unterschiedliche Dateien für Eingänge und Lieferungen. Gehen Sie folgendermaßen vor, um zu überprüfen, ob Ihre Einrichtung korrekt ist:
+
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol, geben Sie **Intrastat-Einrichtung** ein und wählen Sie dann den entsprechenden Link.  
+2. Überprüfen Sie im Inforegister **Berichterstellung**, ob **Eingangs-/Sendungsdateien aufteilen** ausgewählt ist. Damit zusammenhängend wurden zwei separate **Datenaustauschdef. Codes** konfiguriert.
+
+Der Vorgang, mit Intrastat-Berichten zu arbeiten, entspricht dem von globalen Funktionen.
+
+<!-- ### United Kingdom-->
+
+## Siehe die entsprechende Schulung unter [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
+
+## Siehe auch
 
 [Intrastat-Berichterstattung in Business Central](finance-how-report-intrastat.md)  
 [Finanzmanagement](finance.md)  

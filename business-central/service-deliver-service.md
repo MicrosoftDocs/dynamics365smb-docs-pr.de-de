@@ -1,22 +1,16 @@
 ---
 title: Überblick zu Aufgaben für Lieferservice | Microsoft Docs
-description: Gliedert Arbeiten, um sicherstellen, dass Sie Qualitätsdienst liefern und Verträgen mit Debitoren gerecht werden.
+description: 'Gliedert Arbeiten, um sicherstellen, dass Sie Qualitätsdienst liefern und Verträgen mit Debitoren gerecht werden.'
 author: SorenGP
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: service, service items, respond, response
+ms.search.keywords: 'service, service items, respond, response'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e44033b067ab51e17925330618f954294252177b
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077814"
 ---
-# <a name="delivering-service"></a>Bereitstellen von Service
+# Bereitstellen von Service
 [!INCLUDE[prod_short](includes/prod_short.md)] bietet Funktionen, die Ihnen die Bereitstellung von Service gemäß den von Ihnen erstellten Verträgen und die Erfüllung der Serviceaufträge entsprechend Ihren Zusagen ermöglichen. Die Servicetechniker oder Dispatcher können ausstehende Serviceaufträge mithilfe der **Einsatzplanung** problemlos ausfindig machen. Die **Einsatzplanung** zeigt auf einen Blick, welche Aufträge noch bearbeitet werden und welche bereits abgeschlossen wurden.  
   
 Ausstehende Serviceaufträge können auch auf der Seite **Serviceaufgaben** geprüft werden. In dieser Ansicht der Serviceverpflichtungen wird angezeigt, an welcher Stelle des Serviceworkflows sich der Auftrag befindet, und der Status kann so geändert werden, dass die Interaktionen mit dem Debitor dargestellt werden.  
@@ -39,7 +33,7 @@ Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Themen,
 |Erstellen und buchen Sie Rechnungen für Services, die Sie geliefert haben.|[Erstellen Sie eine Servicerechnung oder eine Servicegutschrift](service-how-create-invoices.md)|  
 |Debitoren zufriedenstellen, indem Sie ihnen ein Artikel verleihen, während Sie an ihren arbeiten.| [Leihen und Zurücknehmen von Leihgeräten](service-how-to-lend-receive-loaners.md)|
   
-## <a name="see-also"></a>Siehe auch  
+## Siehe auch  
 [Planungsservice](service-plan-service.md)  
 [Erfüllen von Serviceverträgen](service-fulfill-service-contracts.md)  
 [Projekte verwalten](projects-manage-projects.md)  

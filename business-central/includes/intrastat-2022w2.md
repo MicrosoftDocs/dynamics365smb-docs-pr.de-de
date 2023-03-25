@@ -3,12 +3,6 @@ author: altotovi
 ms.topic: include
 ms.date: 09/01/2022
 ms.author: atotovic
-ms.openlocfilehash: 095fb2aaca138291cf253f32e3d3c3bdac3193c7
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9608168"
 ---
 > [!NOTE]
 > Im Veröffentlichungszyklus 2 2022 enthält Business Central eine neu gestaltete Intrastat-Erfahrung mit erweiterten Funktionen. Wenn Sie ein neuer Kunde mit Version 21 oder neuer sind, nutzen Sie die neue Erfahrung. Für Kunden, die ein Upgrade von früheren Versionen durchgeführt haben, hängt die Verwendung der neuen Erfahrung davon ab, ob Ihr Administrator die Option **Funktionsupdate: Ersetzen der bestehenden Intrastat-Funktionalität durch die neue Intrastat-Erweiterung** auf der **Funktionsverwaltung** Seite aktiviert hat. Erfahren Sie mehr unter [Richten Sie Intrastat-Berichte ein](../finance-how-setup-report-intrastat.md). Dieser Artikel beschreibt die vorherige Funktionalität.

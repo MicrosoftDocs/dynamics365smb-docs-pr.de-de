@@ -1,23 +1,17 @@
 ---
 title: Financial Business Intelligence
-description: Business Central enthält viele Funktionen, mit denen Sie wertvolle Firmendaten für Business Intelligence und Entscheidungsfindung sammeln, analysieren und gemeinsam nutzen können.
+description: 'Business Central enthält viele Funktionen, mit denen Sie wertvolle Firmendaten für Business Intelligence und Entscheidungsfindung sammeln, analysieren und gemeinsam nutzen können.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: bi, power BI, analysis, KPI
-ms.search.form: 103, 108, 198, 490
+ms.search.keywords: 'bi, power BI, analysis, KPI'
+ms.search.form: '103, 108, 198, 490'
 ms.date: 09/22/2022
 ms.author: edupont
-ms.openlocfilehash: 5f706773b90d799ad4643b05d04085f0dfa4db7b
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605218"
 ---
-# <a name="financial-business-intelligence"></a>Financial Business Intelligence
+# Financial Business Intelligence
 
 Unternehmen erfassen im Rahmen ihrer täglichen Aktivitäten eine enorme Menge an Daten. Diese Daten, die z.B. die Verkaufszahlen des Unternehmens, Einkäufe, Betriebsausgaben, Mitarbeitergehälter und Budgets widerspiegeln, stellen für Ersteller von Entscheidungen wertvolle Informationen dar, die so genannte Business Intelligence (BI). [!INCLUDE[prod_short](includes/prod_short.md)] enthält viele Funktionen, die Ihnen helfen, Daten Ihrer Firma zu sammeln, zu analysieren und weiterzugeben.
 
@@ -38,7 +32,7 @@ Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Artikel
 |Ermöglichen Sie eine globale Finanzberichterstattung an internationale Buchhaltungsorganisationen unter Verwendung des Standards eXtensible Business Reporting Language (XBRL).|[Berichte mit XBRL erstellen](bi-create-reports-with-xbrl.md)|
 |Ändern Sie die Absicht des Datenbankzugriffs auf Berichte, Seiten vom Typ API und Abfragen, um die Ladung zu verringern und die Leistung zu verbessern.|[Absicht auf Datenbankzugriff verwalten](admin-data-access-intent.md)|
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Finanzen](finance.md)  
 [Business Central als Power BI-Datenquelle verwenden](across-how-use-financials-data-source-powerbi.md)  
