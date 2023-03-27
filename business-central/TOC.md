@@ -106,6 +106,13 @@
 ### [Probleme bei der Self-Service-Registrierung beheben](ui-troubleshoot-self-signup.md)
 ### [Ihre Testversion verlängern](admin-extend-trial.md)
 ### [Business Central kündigen oder entfernen](admin-cancel.md)
+### KI-gestützter Marketingtext für Artikel mit Copilot
+#### [Übersicht](ai-overview.md)
+#### [Jetzt Vorschauversion holen – Copilot-Edition](ai-preview-getstarted.md)
+#### [KI-gestützten Marketingtext für Artikel mit Copilot konfigurieren](enable-ai.md)
+#### [KI-gestützten Marketingtext für Artikel mit Copilot erstellen](item-marketing-text.md)
+#### [FAQ](ai-faq.md)
+
 ## Kaufen
 ### [Erste Schritte mit einem Abonnement](trial-signup.md#get-started-with-a-subscription)
 ### [Bereiten Sie sich auf das Geschäft vor](ui-get-ready-business.md)
@@ -492,6 +499,7 @@
 ### [Produktvarianten verwalten](inventory-item-variants.md)  
 ### [Mit Artikelattributen arbeiten](inventory-how-work-item-attributes.md)
 ### [Mit Katalogartikeln arbeiten](inventory-how-work-nonstock-items.md)
+### [Marketingtext für Artikel hinzufügen](item-marketing-text.md)
 ### [Lagerbestand mithilfe von Belegen erfassen und regulieren](inventory-how-count-inventory-with-documents.md)
 ### [Lagerbestand mithilfe von Buch.-Blättern erfassen, regulieren und umbuchen](inventory-how-count-adjust-reclassify.md)
 ### [Artikelverfügbarkeit anzeigen](inventory-how-availability-overview.md)
@@ -1523,6 +1531,7 @@
 #### [Lagerhaltungseinheiten einrichten](inventory-how-to-set-up-stockkeeping-units.md)
 #### [Artikel kategorisieren](inventory-how-categorize-items.md)
 #### [Mehrere Artikelbilder importieren](inventory-how-import-item-pictures.md)
+#### [KI-gestützten Marketingtext für Artikel mit Copilot konfigurieren](enable-ai.md)
 ### Projektmanagement einrichten
 #### [Projekte einrichten](projects-setup-projects.md)
 #### [Ressourcen einrichten](projects-how-setup-resources.md)
@@ -1594,6 +1603,7 @@
 ##### [Das Business Central-Add-in für Outlook abrufen](admin-outlook.md)
 ##### [Business Central als Posteingang für Ihr Unternehmen in Outlook verwenden](work-outlook-addin.md)
 ##### [Mit Kontakten in Outlook synchronisieren](admin-synchronize-outlook-contacts.md)
+###### [Lokale Kontaktsynchronisierung einrichten](admin-contact-sync-setup-onprem.md)
 ##### [Outlook optimieren](admin-outlook-optimize.md)
 ##### [Business Central ohne Outlook verwenden](admin-no-outlook.md)
 ##### [FAQ](ui-outlook-addin-faq.yml)
@@ -1615,6 +1625,7 @@
 #### Business Central als Posteingang für Ihr Unternehmen in Outlook verwenden 
 ##### [Übersicht](admin-outlook.md)
 ##### [Mit Kontakten in Microsoft Outlook synchronisieren](admin-synchronize-outlook-contacts.md)
+###### [Lokale Kontaktsynchronisierung einrichten](admin-contact-sync-setup-onprem.md)
 ##### [Business Central ohne Outlook verwenden](admin-no-outlook.md)
 #### Microsoft Teams mit Business Central verwenden
 ##### [Übersicht](across-teams-overview.md)
