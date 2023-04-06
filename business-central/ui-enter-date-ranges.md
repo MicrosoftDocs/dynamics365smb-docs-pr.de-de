@@ -1,29 +1,24 @@
 ---
 title: Eingeben von Daten und Zeiten in Business Central
-description: Erfahren Sie, wie Sie Datumsangaben und Uhrzeiten einschließlich verschiedener Produktivitätstipps wie Stenografie, Ausdrücke und Bereiche eingegeben.
+description: 'Erfahren Sie, wie Sie Datumsangaben und Uhrzeiten einschließlich verschiedener Produktivitätstipps wie Stenografie, Ausdrücke und Bereiche eingegeben.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
+ms.search.keywords: 'dates, reporting, filter, calendar, shorthand, range'
+ms.search.form: '9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017'
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: d3e060d5a6d3632dcade331cef7f2c9f0ecb4027
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9534750"
 ---
-# <a name="work-with-calendar-dates-and-times"></a>Mit Datumsangaben und Uhrzeiten in Kalendern arbeiten
+
+# Mit Datumsangaben und Uhrzeiten in Kalendern arbeiten
 
 Sie können Daten und Zeiten auf mehrere Arten eingeben. [!INCLUDE[prod_short](includes/prod_long.md)] enthält leistungsstarke Funktionen, die die Dateneingabe beschleunigen oder Ihnen helfen, komplexe Kalenderausdrücke zu schreiben. Es gibt verschiedene Bereiche in der Anwendung, in denen Sie Daten und Uhrzeiten in die Felder eingeben können. So können Sie beispielsweise das Warenausgangsdatum für einen Auftrag festlegen. Wenn Sie Listen oder Berichtsdaten filtern, können Sie Datumswerten und Uhrzeiten eingeben, um genau die Daten zu finden, an denen Sie interessiert sind.
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="check-your-region-and-language-settings"></a>Überprüfen Ihrer Bereichs- und Spracheneinstellungen
+## Überprüfen Ihrer Bereichs- und Spracheneinstellungen
 
 Die Seite **Meine Einstellungen** gibt die **Region** und **Sprache** an, die Sie in der Anwendung verwenden. Diese Einstellungen beeinflussen, wie Sie Datumswerte und Uhrzeiten eingeben.
 
@@ -38,7 +33,7 @@ Die Seite **Meine Einstellungen** gibt die **Region** und **Sprache** an, die Si
 The following sections describe how you can enter dates, times, datetimes, durations, date ranges, and how you use date formulas.
 -->
 
-## <a name="entering-dates"></a>Eingeben von Datumswerten
+## Eingeben von Datumswerten
 
 In einem Datumsfeld können Sie unter Verwendung des Standardformats ein Datum für Ihre Bereichseinstellung eingeben. Verschiedene Regionen können verschiedene Trennzeichen zwischen Tagen, Monaten und Jahren verwenden. Beispielsweise werden in einigen Regionen Bindestriche verwendet (mm-tt-jjjj) und in anderen werden Schrägstriche verwenden (mm/tt/jjjj).  
 
@@ -50,15 +45,15 @@ In einem Datumsfeld können Sie unter Verwendung des Standardformats ein Datum f
 
 Um produktiver mit Datumswerten und Uhrzeiten zu arbeiten, können Sie alle Methoden oder Formate verwenden, die in den folgenden Abschnitten beschrieben werden.
 
-### <a name="picking-dates-from-the-calendar"></a>Datumsangaben aus dem Kalender auswählen
+### Datumsangaben aus dem Kalender auswählen
 
-Alle Felder, die ein Kalendersymbol anzeigen, können mithilfe der Kalendertagauswahl festgelegt werden. Um die Kalendertagauswahl anzuzeigen, aktivieren Sie das Kalendersymbol oder drücken Sie die Tastenkombination STRG+POS1 im Feld.
+Alle Felder, die ein Kalendersymbol anzeigen, können mithilfe der Kalendertagauswahl festgelegt werden. Um die Kalendertagauswahl anzuzeigen, aktivieren Sie das Kalendersymbol oder wählen Sie die Tastenkombination <kbd>Strg</kbd>+<kbd>Pos1</kbd> im Feld aus.
 
 ![Datumsfelder.](media/ui-date-field.png "Beispiel für ein Datumsfeld")
 
 Weitere Informationen unter [Tastenkombinationen in der Kalenderdatumsauswahl](keyboard-shortcuts.md#calendarshortcuts).
 
-### <a name="day-week-year-pattern"></a>Tag\-Woche\-Jahr-Muster
+### Tag\-Woche\-Jahr-Muster
 
 Sie können ein Datum als Wochentag gefolgt von einer Wochennummer und optional einem Jahr eingeben. Beispielsweise bedeutet Mo25 oder mo25 Montag in der 25. Woche Wenn Sie kein Jahr eingeben, wird das Jahr des Arbeitsdatums verwendet.
 
@@ -66,7 +61,7 @@ Anstatt das gesamte Wort für den Wochentag einzugeben, können Sie vom Anfang a
 
 Das Kalenderwocheschema folgt immer ISO 8601. Dabei ist Woche 1, in die der 4. Januar fällt, oder die Woche mit dem ersten Donnerstag des Jahres.
 
-### <a name="digit-patterns"></a>Ziffernmuster
+### Ziffernmuster
 
 In einem Datumsfeld können zwei-, vier-, sechs- oder achtstellige Werte eingegeben werden:
 
@@ -79,17 +74,17 @@ In einem Datumsfeld können zwei-, vier-, sechs- oder achtstellige Werte eingege
   > [!NOTE]
   > Wenn Sie [!INCLUDE[prod_short](includes/prod_short.md)] lokal verwenden, kann der zweistellige Jahresbereich abweichen. Administratoren können den Bereich ändern, indem sie die **CalendarTwoDigitYearMax**-Einstellung des [!INCLUDE[prod_short](includes/prod_short.md)]-Servers ändern. Weitere Informationen finden Sie unter [Konfigurieren von Business Central Server](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#General).
  
-### <a name="today"></a>Heute
+### Heute
 
 Geben Sie das Wort für _Heute_ in der Sprache ein, die auf der Seite **Meine Einstellungen** angegeben ist, um das Datum eines Datensatzes auf das heutige Datum festzulegen. Anstatt das ganze Wort einzugeben, können Sie auch einen Teil des Wortes eingeben, beginnend mit dem Anfang. Im Englischen können Sie z.B. _t_ oder _tod_ eingeben, solange es nicht gleichzeitig der Anfang eines anderen Wortes ist.
 
-### <a name="period"></a>Periode
+### Periode
 
 Wenn Sie eine bestimmte Buchhaltungsperiode filtern möchten, geben Sie in einem Datumsfeld den Buchstaben P oder das Wort Periode ein, gefolgt von einer Nummer, die die Buchhaltungsperiode identifiziert, z. B. P2 oder Periode 4. Die Buchhaltungsperiode ist relativ zum Geschäftsjahr des aktuellen Arbeitsdatums, das von Ihrem Rollencenter festgelegt wurde. Wenn das Arbeitsdatum beispielsweise **21.03.2022** lautet, filtert _p1_ oder einfach _p_ die erste Buchhaltungsperiode des Geschäftsjahres 2022 (wie 01.01.2022..31.01.2022). _p15_ filtert den Fünfzehnten der Buchhaltungsperiode ab dem Anfang des Geschäftsjahres 2022 (wie 01.03.2023..31.03.2023).
 
 Die Buchhaltungsperioden werden auf der Seite **Buchhaltungsperiode** definiert. Um die Buchhaltungsperioden anzuzeigen oder zu ändern, öffnen Sie [hier](https://businesscentral.dynamics.com/?page=100) die Seite.
 
-### <a name="work-date"></a>Arbeitsdatum
+### Arbeitsdatum
 
 Verwenden Sie ein Arbeitsdatum, um ein Datum anzugeben, das in Datensätzen nicht das heutige Datum ist. Ein Arbeitsdatum ist zum Beispiel nützlich, wenn Sie ein bestimmtes Datum für mehrere Datensätze festlegen müssen. Sie legen das Arbeitsdatum auf der Seite **Meine Einstellungen** fest. 
 
@@ -97,13 +92,13 @@ Eine schnelle Möglichkeit, das Arbeitsdatum auf Datensätzen einzugeben, ist di
 
 Wenn Sie kein Arbeitsdatum angegeben haben, wird das heutige Datum verwendet. Weitere Informationen finden Sie unter [Grundlegende Einstellungen, wie das Arbeitsdatum festlegen](ui-change-basic-settings.md#work-date).
 
-### <a name="closing-date"></a>Ultimodatum
+### Ultimodatum
 
 Wenn Sie ein Geschäftsjahr abschließen, können Sie mithilfe des Ultimodatums angeben, dass es sich bei einem Posten um einen Abschlussposten handelt. Technisch gesehen liegt ein Ultimodatum zwischen zwei Datumswerten, beispielsweise zwischen dem 31. Dezember und dem 1. Januar.
 
 Um zu definieren, dass eine Datumsangabe ein Abschlussdatum ist, setzen Sie ein A um anzugeben, dass es sich bei diesem Datum um ein Abschlussdatum handelt, z. B. A31.12.01. Verwenden Sie dieses Format in Verbindung mit allen Datumsmustern.
 
-### <a name="examples"></a>Beispiele
+### Beispiele
 
 Die folgende Tabelle enthält Beispiele von Datumsangaben, die alle diese Formate verwenden. Es werden Regionseinstellungen angenommen, mit der die Uhrzeit wie folgt formatiert wird: **Tag.Monat.Jahr.**, eine Woche, die mit Montag beginnt und die englische Sprache.
 
@@ -128,7 +123,7 @@ Die folgende Tabelle enthält Beispiele von Datumsangaben, die alle diese Format
 |d 23|Dienstag von Woche 23 des Arbeitsjahres|
 |d-1|Dienstag von Woche 1 des Arbeitsjahres|
 
-##  <a name="setting-ranges"></a><a name="BKMK_SettingDateRanges"></a> Festlegen von Breichen
+##  <a name="BKMK_SettingDateRanges"></a> Festlegen von Breichen
 
 In Listen, Summen und Berichten können Sie Filter für Datumsangaben, Uhrzeiten, Datums-/Uhrzeitangaben einrichten, die einen Startwert und optional einen Endwert haben, um nur die Datumsangaben anzuzeigen, die in diesem Bereich enthalten sind. Die Standardregeln gelten für die Methode, auf die Sie Datumsbereiche festlegen.
 
@@ -140,7 +135,7 @@ In Listen, Summen und Berichten können Sie Filter für Datumsangaben, Uhrzeiten
 
 Sie können jedes der gültigen Formate in den Datumsbereichsfiltern verwenden. Beispielsweise ergibt Mo 14.3..h 4P bei einem Datums-/Zeitangabenfeld einen Filter von 3 Uhr morgens am Montag in der Woche 14 des Jahr des aktuellen Arbeitsdatums bis heute um 4 Uhr nachmittags.
 
-## <a name="use-date-formulas"></a>Datenformeln verwenden
+## Datenformeln verwenden
 
 Bei einer Datumsformel handelt es sich um eine verkürzte Kombination aus Buchstaben und Zahlen, die zum Berechnen von Datumswerten verwendet wird. Sie können Datumsformeln in verschiedenen Datumsberechnungsfeldern oder -filtern eingeben.
 
@@ -292,7 +287,7 @@ The following example shows how you can use a minus sign to indicate a date in t
 
 -->
 
-## <a name="entering-times"></a>Eingeben von Uhrzeiten
+## Eingeben von Uhrzeiten
 
 Bei der Eingabe von Uhrzeiten können Sie alle Trennzeichen außer Leerzeichen einfügen, die zwischen den Einheiten angegeben werden sollen. Bei der Verwendung von zweistelligen Zahlen für jede Einheit bis zu MilliseDebitoren ist dies nicht erforderlich.
 
@@ -325,11 +320,11 @@ In der folgenden Tabelle finden Sie eine Übersicht über die Möglichkeiten zum
 
 Das für Wort für "Zeit" in der Sprache, die von [!INCLUDE[prod_short](includes/prod_long.md)] verwendet wird, wird in die aktuelle Uhrzeit auf Ihrem Computer oder mobilen Gerät umgerechnet. Sie können vom Anfang einem Teil des Begriffs eingeben, z. B. h oder TIM.
 
-## <a name="entering-combined-dates-and-times"></a>Eingeben kombinierter Datums‑ und Zeitangaben
+## Eingeben kombinierter Datums‑ und Zeitangaben
 
 [!INCLUDE [datetimes](includes/datetimes.md)]
 
-## <a name="entering-duration"></a>Eingeben von Terminen
+## Eingeben von Terminen
 
 Einige Felder in der Anwendung stellen eine Dauer oder Betrag der verstrichenen Uhrzeit, anstatt einer bestimmten Datums- oder Uhrzeitangabe dar. Zeiträume können als Zahl gefolgt von der entsprechenden Einheit eingegeben werden.
 
@@ -350,9 +345,9 @@ Geben Sie eine Zahl ein, um ermitteln, welche Einheit in einem Dauerfeld verwend
 
 Wenn die Einheit beispielsweise Stunden ist, wird die Zahl 5 in 5 Std. konvertiert.
 
-## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/explore-modify-info-dynamics-365-business-central/)
+## Siehe verwandte [Microsoft Schulungen](/training/modules/explore-modify-info-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_long.md)]](ui-work-product.md)  
 [Datumsberechnung für Einkäufe](purchasing-date-calculation-for-purchases.md)  

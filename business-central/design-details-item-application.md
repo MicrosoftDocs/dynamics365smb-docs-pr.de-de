@@ -171,7 +171,7 @@ Die folgende Tabelle enthält den Wertposten,der aus Szenarioschritt 4, Buchung 
 
 |Buchungsdatum|Artikelpostenart|Bewertete Menge|Einstandsbetrag (tatsächl.)|Ausgegl. von Artikelposten|Artikelposten Lfd. Nr.|Postennr.|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|------------------------------------------------|-----------------------------------------------|----------------------------------|  
-|04-01-20|(Artikel-Zu-/Abschlag)|1|100.00||1|4|  
+|04-01-20|(Artikel Zu-/Abschlag)|1|100.00||1|4|  
 
 Die folgende Tabelle zeigt die Auswirkung der exakten Kostenumkehrung der Wertposten des Artikels an.  
 
@@ -180,7 +180,7 @@ Die folgende Tabelle zeigt die Auswirkung der exakten Kostenumkehrung der Wertpo
 |01-01-20|Einkauf|1|1000.00||1|1|  
 |02-01-20|Verkauf|-1|1100.00||2|2|  
 |03-01-20|Verkauf (Gutschrift)|1|1100.00|2|3|3|  
-|04-01-20|(Artikel-Zu-/Abschlag)|1|100.00||1|4|  
+|04-01-20|(Artikel Zu-/Abschlag)|1|100.00||1|4|  
 
 Wenn Sie die Stapelverarbeitung **Kostenanpassung Artikeleinträge** ausführen, werden die erhöhten Kosten des Einkaufspostens aufgrund des Zu-/Abschlags (Artikelnummer) zum Verkaufsposten weitergeleitet (Postennummer 2). Der Verkaufsposten übergibt dann diese erhöhten Kosten an den Verkaufsgutschriftposten weiter (Postennummer 3). Das Endergebnis ist, dass die Kosten korrekt umgekehrt werden.  
 

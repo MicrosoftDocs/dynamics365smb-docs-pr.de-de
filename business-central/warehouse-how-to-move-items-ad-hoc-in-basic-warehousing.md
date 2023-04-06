@@ -87,6 +87,8 @@ Statt Umlagerungsbelege zu verwenden, können Sie Umlagerungen von Artikeln erfa
 3. Füllen Sie die übrigen Felder jeder Buch.-Blattzeile aus.
 4. Buchen Sie das Umbuch.-Blatt.  
 
+    [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
+
 ## Siehe verwandte [Microsoft Schulungen](/training/modules/manage-internal-warehouse-processes/)
 
 ## Siehe auch

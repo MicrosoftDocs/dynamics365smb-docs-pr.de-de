@@ -1,25 +1,19 @@
 ---
 title: Info über die Einstandspreisberechnung
-description: Erfahren Sie, wie die Kalkulationsmethode und andere Faktoren das Feld Stückkosten auf der Artikelkarte beeinflussen.
+description: 'Erfahren Sie, wie die Kalkulationsmethode und andere Faktoren das Feld Stückkosten auf der Artikelkarte beeinflussen.'
 author: rubenseishima
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.date: 03/06/2022
 ms.author: a-reishima
-ms.openlocfilehash: ac5878185f8ed65a2242c5e82b3d3b8a84936289
-ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 06/12/2022
-ms.locfileid: "8950519"
 ---
-# <a name="about-unit-cost-calculation"></a>Info über die Einstandspreisberechnung
+# Info über die Einstandspreisberechnung
 
 Jeder Artikel hat einen Einheitspreis, der basierend auf der Kostenmethode des Unternehmens und anderen Faktoren berechnet wird. Bei der Lagerabgangsmethode *Standard* basiert der Wert im Feld **Einstandspreis** grundsätzlich auf den Standardkosten für den Artikel. Bei allen anderen Lagerabgangsmethoden (*FIFO*, *LIFO*, *Spezifisch* und *Durchschnitt*) wird der Einstandspreis basierend auf dem durchschnittlichen Einstandspreis über einen bestimmten Zeitraum berechnet.  
 
 Weitere Informationen finden Sie unter [Lagerbestandkosten verwalten](finance-manage-inventory-costs.md).  
 
-## <a name="when-is-the-unit-cost-field-updated"></a>Wann wird das Feld „Einstandspreis“ aktualisiert
+## Wann wird das Feld „Einstandspreis“ aktualisiert
 
 Die ausgewählte Lagerabgangsmethode beeinflusst den Zeitpunkt der Aktualisierung im Feld **Einstandspreis**.
 
@@ -39,35 +33,35 @@ Wenn eine dieser Bedingungen zutrifft, wird das Feld **Einstandspreis** mit dem 
 
 Im Feld **Einstandspreis** auf der Artikelkarte können Sie einen Drilldown durchführen, um den Verlauf von Transaktionen anzuzeigen, aus denen der verfügbare durchschnittliche Einstandspreis im Fenster **Einst.-Pr. (durchschn.)-Ber., Übersicht** berechnet wird.
 
-## <a name="unit-cost-calculation-for-purchases"></a>Einstandspreisberechnung bei Einkäufen
+## Einstandspreisberechnung bei Einkäufen
 
 Wenn Sie Artikel einkaufen, wird der Wert im Feld **EK-Preis (neuester)** auf der Artikelkarte in das Feld **EK-Preis** einer Einkaufszeile oder in die Zeile **Stückpreis** einer Artikel Buch.-Blattzeile kopiert.
 
 Ihre Auswahl im Feld **Kostenermittlungsmethode** hat Einfluss darauf, wie [!INCLUDE[prod_short](includes/prod_short.md)] den Inhalt des Feldes **Einstandspreis** in den Zeilen berechnet.
 
-### <a name="costing-method-fifo-lifo-specific-or-average"></a>Lagerabgangsmethode „FIFO“, „LIFO“, „Ausgewählt“ oder „Durchschnitt“
+### Lagerabgangsmethode „FIFO“, „LIFO“, „Ausgewählt“ oder „Durchschnitt“
 
 [!INCLUDE[prod_short](includes/prod_short.md)] berechnet den Inhalt des Feldes **Einstandspreis NW** in der Einkaufszeile oder den Inhalt des Feldes **Einstandspreis** in der Artikel Buch.-Blattzeile entsprechend dieser Formel:
 
 *Einstandspreis (MW) = (EK-Preis - (Rabattbetrag / Menge)) x (1 + Indirekte Kosten % / 100) + Gemeinkostensatz*
 
-### <a name="costing-method-standard"></a>Lagerabgangsmethode „Standard“
+### Lagerabgangsmethode „Standard“
 
 Die Anwendung füllt das Feld **Einstandspreis (MW)** in einer Einkaufszeile oder das Feld **Einstandspreis** in einer Artikel Buch.-Blattzeile, indem sie den Wert des Felds **Einstandspreis** von der Artikelkarte kopiert. Wenn die Lagerabgangsmethode *Standard* ist, basiert dieser Wert auf dem Einstandspreis.
 
 Wenn Sie den Einkauf buchen, verwendet [!INCLUDE[prod_short](includes/prod_short.md)] den Einstandspreis aus der Einkaufszeile bzw. der Artikel Buch.-Blattzeile in den Rechnungsposten des eingekauften Artikels kopiert. Sie können ihn in der Postenübersicht des Artikels einsehen.
 
-### <a name="all-costing-methods"></a>Alle Lagerabgangsmethoden
+### Alle Lagerabgangsmethoden
 
 Die Anwendung verwendet immer den Einstandspreis aus der Herkunftsbelegzeile, um den Inhalt des Feldes **Einstandsbetrag (tatsächl.)** oder, falls anwendbar, des Feldes **Einstandsbetrag (erwartet)** zu berechnen, das zu diesem Artikelposten gehört, unabhängig von der Lagerabgangsmethode des Artikels.
 
-## <a name="unit-cost-calculation-for-sales"></a>Einstandspreisberechnung für Verkäufe
+## Einstandspreisberechnung für Verkäufe
 
 Wenn Sie Artikel verkaufen, kopiert die Anwendung den Einstandspreis immer aus dem Feld **Einstandspreis** der Artikelkarte in die Verkaufszeile oder die Artikel Buch.-Blattzeile.
 
 Beim Buchen wird später der Einstandspreis in den Artikelposten der Verkaufsrechnung übernommen; er wird darüber hinaus in den Artikelposten des jeweiligen Artikels angezeigt. [!INCLUDE[prod_short](includes/prod_short.md)] verwendet den Einstandspreis aus der Herkunftsbelegzeile, um den Inhalt des Feldes **Einstandsbetrag (tatsächl.)** oder, falls anwendbar, des Feldes **Einstandsbetrag (erwartet)** in dem Wertposten zu berechnen, der mit diesem Artikelposten verknüpft ist.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Verwalten der Bestandsregulierung](finance-manage-inventory-costs.md)  
 [Registrieren neuer Artikel](inventory-how-register-new-items.md)  

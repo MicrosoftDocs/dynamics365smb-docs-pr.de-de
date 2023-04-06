@@ -1,22 +1,17 @@
 ---
 title: Ändern der Firma und anderer Einstellungen in Teams
-description: Erfahren Sie, wie Sie die Business Central-Verbindungseinstellungen von Microsoft Teams ändern.
+description: 'Erfahren Sie, wie Sie die Business Central-Verbindungseinstellungen von Microsoft Teams ändern.'
 author: jswymer
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, settings, search
+ms.search.keywords: 'Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, settings, search'
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 21edfebd4507c383d9af217fa0617d22867e204d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133226"
 ---
-# <a name="changing-company-and-other-settings-in-teams"></a>Ändern der Firma und anderer Einstellungen in Teams
+
+# Ändern der Firma und anderer Einstellungen in Teams
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
@@ -28,11 +23,11 @@ Es gibt zwei Möglichkeiten, die Seite **Einstellungen** zu öffnen: 1) Vom Feld
 
     ![Einstellungen für Business Central aus dem Befehlsfeld.](media/teams-settings-message-box.png)
 
-2. Suchen Sie im Befehlsfeld oben nach **@ Business Central**, wählen Sie **... (Mehr Optionen)** und dann **Einstellungen** aus.
+2. Suchen Sie im Befehlsfeld oben nach **@Business Central**, wählen Sie **... (Mehr Optionen)** und dann **Einstellungen** aus.
 
    ![Einstellungen für Business Central aus dem Nachrichtenfeld festlegen.](media/teams-settings-command-box.png)
 
-## <a name="see-also"></a>Weitere Informationen
+## Weitere Informationen
 
 [Übersicht über die Integration von Business Central und Microsoft Teams](across-teams-overview.md)  
 [Installieren Sie die [!INCLUDE [prod_short](includes/prod_short.md)] App für Microsoft Teams](across-install-app-for-teams.md)  

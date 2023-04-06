@@ -1,24 +1,23 @@
 ---
 title: Projekte für die automatische Ausführung planen
-description: Geplante Aufgaben sind von der Aufgabenwarteschlange verwaltet. Diese Projektausführungsberichte und Codeunits. Die Projekte können entweder einmalig oder wiederholt ausgeführt werden.
-author: edupont04
+description: 'Erfahren Sie, wie Sie Aufgabenwarteschlangenposten verwenden, um Berichte und Codeunits auszuführen.'
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.date: 03/20/2023
+ms.custom: bap-template
 ms.search.form: '672, 673, 674, 671'
-ms.date: 10/01/2021
-ms.author: edupont
 ---
 # Verwenden von Aufgabenwarteschlangen für die Aufgabenplanung
 
-Die Seite Aufgabenwarteschlangenposten ermöglicht es Benutzern, bestimmte Berichte und Codeunits zu planen und auszuführen. Die Projekte können entweder einmalig oder wiederholt ausgeführt werden. So kann es beispielsweise empfehlenswert sein, den Bericht **Verkäufer * Verkäuferstatistik** wöchentlich auszuführen, um die Verkaufserfolge eines Verkäufers zu beobachten, oder die Codeunit **Genehmigungsanforderungen delegieren** täglich auszuführen, um zu verhindern, dass sich Belege ansammeln.
+Verwenden Sie die Seite **Aufgabenwarteschlangenposten** um bestimmte Berichte und Codeunits zu planen und auszuführen. Die Projekte können entweder einmalig oder wiederholt ausgeführt werden. So kann es beispielsweise empfehlenswert sein, den Bericht **Verkäufer * Verkäuferstatistik** wöchentlich auszuführen, um die Verkaufserfolge eines Verkäufers zu beobachten, oder die Codeunit **Genehmigungsanforderungen delegieren** täglich auszuführen, um zu verhindern, dass sich Belege ansammeln.
 
-Im Fenster **Projektwarteschlangeneinträge** sind alle aktuellen Aufgabenwarteschlangenposten aufgelistet. Wenn Sie eine neue Aufgabenwarteschlangeneintrag hinzufügen, den Sie planen möchten, müssen Sie einige Informationen bereitstellen. Beispiel:
+Im Fenster Projektwarteschlangeneinträge sind alle aktuellen Aufgabenwarteschlangenposten aufgelistet. Wenn Sie eine neue Aufgabenwarteschlangenposten hinzufügen, der nach einem Zeitplan ausgeführt wird, müssen Sie einige Informationen bereitstellen. Beispiel:
 
-* Der Objekttyp, den Sie ausführen möchten, z. B. ein Bericht oder eine Codeunit. Sie müssen über die Berechtigung zum Ausführen des jeweiligen Berichts oder der Codeunit verfügen.
-* Der Name und die Objekt-ID des Objekts. 
-* Parameter, um das Verhalten des Aufgabenwarteschlangenpostens festzulegen. So können Sie beispielsweise einen Parameter hinzufügen, um nur gebuchte Verkaufsaufträge zu senden. 
+* Der Objekttyp, der ausgeführt werden soll, z. B. ein Bericht oder eine Codeunit. Sie müssen über die Berechtigung zum Ausführen des jeweiligen Berichts oder der Codeunit verfügen.
+* Der Name und die Objekt-ID des Objekts.
+* Parameter, um das Verhalten des Aufgabenwarteschlangenpostens festzulegen. So können Sie beispielsweise einen Parameter hinzufügen, um nur gebuchte Verkaufsaufträge zu senden.
 * Wann und wie oft wird der Jobwarteschlangenposten ausgeführt.
 
 > [!IMPORTANT]  
@@ -32,11 +31,11 @@ Nachdem Projektwarteschlangen eingerichtet sind und ausgeführt werden, kann sic
 * **Fehler**  
 * **Erledigt**  
 
-Nachdem eine Aufgabe erfolgreich abgeschlossen wurde, wird sie aus der Liste der Aufgabenwarteschlangenposten entfernt, es sei denn, es handelt sich um ein wiederkehrendes Projekt. Bei mehrfach ausführbaren Einzelvorgängen wird das Feld **Früheste Startzeit** angepasst, um anzuzeigen, wann der Einzelvorgang erwartungsgemäß das nächste Mal ausgeführt wird.  
+Nachdem eine Aufgabe erfolgreich abgeschlossen wurde, wird sie aus der Liste der Aufgabenwarteschlangenposten entfernt, es sei denn, es handelt sich um ein wiederkehrendes Projekt. Bei mehrfach ausführbaren Einzelvorgängen wird das Feld **Früheste Startzeit** angepasst, um anzuzeigen, wann die Aufgabe das nächste Mal ausgeführt wird.  
 
 ## Überwachen von Status oder Fehlern in der Projektwarteschlange
 
-Von der Aufgabenwarteschlange generierte Daten werden in der Datenbank gespeichert, sodass Sie Fehler der Aufgabenwarteschlange beheben können.  
+Von der Aufgabenwarteschlange generierte Daten werden gespeichert, sodass Sie Fehler beheben können.  
 
 Für jeden Projektwarteschlangeneintrag können Sie den Status anzeigen und ändern. Wenn Sie eine Projektwarteschlangenposten erstellen, wird der zugehörige Status auf **Warten** festgelegt. Sie können den Status beispielsweise auf **Bereit** und wieder auf **Warten** setzen. Andernfalls werden die Statusinformationen in diesem Feld automatisch aktualisiert.
 
@@ -55,11 +54,11 @@ Die folgende Tabelle beschreibt die Werte im Feld **Status**.
 
 ### So wird der Status für jedes beliebige Projekt angezeigt
 
-1. Wählen Sie das Symbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun") Symbol. Geben Sie **Auftragswarteschlangenposten** ein und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie das Symbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Auftragswarteschlangenposten** ein und wählen Sie dann den zugehörigen Link.
 2. Auf der Seite **Projektwarteschlangeneinträge** wählen Sie einen Projektwarteschlangeneintrag aus, und wählen die dann die Aktion **Protokolleinträge** aus.  
 
 > [!TIP]
-> Sie können den Status von Projektwarteschlangeneinträgen auch anzeigen, indem Sie Application Insights in Microsoft Azure für tiefergehende Analysen basierend auf Telemetrie verwenden. Weitere Informationen finden Sie unter [Überwachung und Analyse der Telemetrie](/dynamics365/business-central/dev-itpro/administration/telemetry-overview) und [Analysieren der Projektwarteschlangen-Lebenszyklus-Nachverfolgungs-Telemetrie](/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace) in den Entwickler- und Verwaltungsinhalten von [!INCLUDE [prod_short](includes/prod_short.md)].
+> Um tiefergehende Analysen basierend Telemetrie zu erhalten, können Sie Application Insights in Microsoft Azure verwenden, um den Status von Augabenwarteschlangenposten zu erhalten. Weitere Informationen zur Telemetrie finden Sie unter [Überwachung und Analyse der Telemetrie](/dynamics365/business-central/dev-itpro/administration/telemetry-overview) und [Analysieren der Projektwarteschlangen-Lebenszyklus-Nachverfolgungs-Telemetrie](/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace).
 
 ## Geplante Aufgaben anzeigen
 
@@ -70,9 +69,9 @@ Wenn sich das aktuelle Unternehmen beispielsweise in einer Umgebung befindet, di
 > [!NOTE]
 > Interne Administratoren und lizenzierte Benutzer können Aufgaben zum Ausführen planen. Delegierte Administratoren können Aufgaben festlegen und deren Ausführung planen, aber nur lizenzierte Benutzer können sie ausführen.
 
-## Der „Mein Projektwarteschlangenteil“
+## Der „Meine Aufgabenwarteschlangen“-Teil
 
-Der Teil **Meine Projektwarteschlange** in Ihrem Rollencenter zeigt die Projektwarteschlangeneinträge an, die Sie gestartet haben, die jedoch nicht abgeschlossen sind. Dieser Teil wird standardmäßig nicht angezeigt, Sie können ihn jedoch Ihrem Rollencenter hinzufügen. Weitere Informationen finden Sie unter [Personalisieren Sie Ihren Arbeitsbereich](ui-personalization-user.md).  
+Der Teil **Meine Projektwarteschlange** in Ihrem Rollencenter zeigt die Projektwarteschlangeneinträge an, die Sie gestartet haben, die jedoch nicht abgeschlossen sind. Dieser Teil wird standardmäßig nicht angezeigt, Sie können ihn jedoch Ihrem Rollencenter hinzufügen. Weitere Informationen zur Personalisierung finden Sie unter [Ihren Arbeitsbereich personalisieren](ui-personalization-user.md).  
 
 Der Teil zeigt die folgenden Informationen an:
 
@@ -86,25 +85,45 @@ Im Teil „Meine Aufgabenwarteschlange“ können Sie eine Belegbuchung auch sto
 1. Bei einem Eintrag mit dem Status **Fehler** wählen Sie die Aktion **Fehler anzeigen** aus.
 2. Überprüfen Sie die Fehlermeldung und korrigieren Sie das Problem.
 
-## Beispiele dafür, was mithilfe der Projektwarteschlange geplant werden kann
+## Beispiele dafür, was Sie mithilfe von Projektwarteschlangenposten planen können
 
 ### Berichte planen
 
 Sie können einen Bericht oder einen Stapelverarbeitungsauftrag planen, sodass er an einem bestimmten Datum und zu einer festgelegten Uhrzeit ausgeführt wird. Geplante Berichte und Stapelverarbeitungsaufträge werden in der Projektwarteschlange eingegeben und zu der geplanten Zeit verarbeitet, wie vergleichbare andere Aufträge auch. Sie wählen die **Zeitplan** Option aus, nachdem Sie die Schaltfläche **Senden an** gewählt haben und geben Sie dann Informationen wie den Drucker sowie Uhrzeit und Datum und Serienmuster ein.  
 
-Weitere Informationen finden Sie unter [Bericht für die Ausführung planen](ui-work-report.md#ScheduleReport)
+Weitere Informationen zum Planen finden Sie unter [Bericht für die Ausführung planen](ui-work-report.md#ScheduleReport)
 
 ### Die Synchronisierung planen zwischen [!INCLUDE[prod_short](includes/prod_short.md)] und [!INCLUDE[prod_short](includes/cds_long_md.md)]
 
-Wenn Sie [!INCLUDE[prod_short](includes/prod_short.md)] in [!INCLUDE[prod_short](includes/cds_long_md.md)] integriert haben, können Sie über die Aufgabenwarteschlange planen, wann Daten synchronisiert werden sollen. Je nach Richtung und Regeln, die Sie definiert haben, kann der Auftgabenwarteschlangenposten Datensätze in einer Anwendung erstellen, die mit Datensätzen in der anderen Anwendung übereinstimmen. Wenn Sie beispielsweise einen Kontakt in [!INCLUDE[crm_md](includes/crm_md.md)] registrieren, kann der Aufgabenwarteschlangenposten diesen Kontakt für Sie in [!INCLUDE[prod_short](includes/prod_short.md)] einrichten. Weitere Informationen finden Sie unter [Planen einer Synchronisierung zwischen Business Central und Dynamics 365 Sales](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md).
+Wenn Sie [!INCLUDE[prod_short](includes/prod_short.md)] in [!INCLUDE[prod_short](includes/cds_long_md.md)] integriert haben, können Sie über die Aufgabenwarteschlange planen, wann Daten synchronisiert werden sollen. Je nach Richtung und Regeln, die Sie definiert haben, kann der Auftgabenwarteschlangenposten Datensätze in einer Anwendung erstellen, die mit Datensätzen in der anderen Anwendung übereinstimmen. Wenn Sie beispielsweise einen Kontakt in [!INCLUDE[crm_md](includes/crm_md.md)] registrieren, kann der Aufgabenwarteschlangenposten diesen Kontakt für Sie in [!INCLUDE[prod_short](includes/prod_short.md)] einrichten. Mehr über die Zeitplanung erfahren Sie unter [Planen einer Synchronisierung zwischen Business Central und Dynamics 365 Sales](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md).
 
-### Planen Sie die Buchung von Verkaufsaufträgen und Einkaufsbestellungen
+### Planen, wann Verkaufsaufträgen und Bestellungen gebucht werden sollen
 
-Anhand von Aufgabenwarteschlangenposten können Sie die Ausführung von Geschäftsprozessen im Hintergrund planen. Hintergrundaufgaben sind beispielsweise hilfreich, wenn mehrere Benutzer Verkaufsaufträge gleichzeitig buchen, aber nur ein Auftrag gleichzeitig verarbeitet werden kann. Weitere Informationen finden Sie unter [Hintergrund-Buchung mit Aufgabenwarteschlangen](ui-batch-posting.md#to-set-up-background-posting-with-job-queues)
+Anhand von Aufgabenwarteschlangenposten können Sie die Ausführung von Geschäftsprozessen im Hintergrund planen. Hintergrundaufgaben sind beispielsweise hilfreich, wenn mehrere Benutzer Verkaufsaufträge gleichzeitig buchen, aber nur ein Auftrag gleichzeitig verarbeitet werden kann. Mehr über die Buchung im Hintergrund erfahren Sie unter [So richten Sie Hintergrundbuchungen mit Aufgabenwarteschlangen ein](ui-batch-posting.md#to-set-up-background-posting-with-job-queues).
+
+## Probleme mit Aufgabenwarteschlangenposten beheben
+
+Wenn ein Aufgabenwarteschlangenposten einen Fehler anzeigt, versuchen Sie als Erstes, den Aufgabenwarteschlangenposten neu zu starten. Sie können den Status des Aufgabenwarteschlangenposten auf **Angehalten** und dann auf **Bereit** setzen oder ihn einfach neu starten.
+
+Wenn ein Neustart nicht hilft, liegt das Problem möglicherweise im Code. Sie finden den Besitzer (auch *Herausgeber* genannt) des Codes in der AL-Stapelüberwachung im Aufgabenwarteschlangenprotokoll. Wenn der Fehler von einer App/Erweiterung stammt, wenden Sie sich an Ihren Microsoft-Partner. Wenn der Fehler von einer Microsoft-Anwendung stammt, öffnen Sie eine Supportanfrage bei Microsoft.
+
+Wenn Sie sich wegen Unterstützung an Ihren Microsoft-Partner oder an Microsoft wenden, geben Sie bitte die folgenden Informationen an:
+
+* Die ID des Aufgabenwarteschlangenpostens, in dem der Fehler auftritt
+* Der Zeitstempel, wann der Fehler aufgetreten ist
+* Ihre Zeitzone
+
+> [!TIP]
+> Erfassen Sie die Informationen, je nachdem, ob Ihre [!INCLUDE [prod_short](includes/prod_short.md)] Version älter oder höher als 22.1 ist, auf folgende Weise:
+>
+> * Stellen Sie für frühere Versionen einen Screenshot der Seite **Auftragswarteschlangenprotokollposten** bereit.
+> * Verwenden Sie für neuere Versionen die Aktion **Details kopieren** auf der Seite „Auftragswarteschlangenprotokollposten“, um die Informationen (Auftragswarteschlangen-ID, Zeitstempel und Ihre Zeitzone) zu kopieren.
 
 ## Überwachen der Projektwarteschlange mit Telemetrie
 
-Als Administrator können Sie [Application Insights](/azure/azure-monitor/app/app-insights-overview) zum Sammeln und Analysieren von Telemetriedaten verwenden, mit denen Sie Probleme identifizieren können. Weitere Informationen finden Sie in den Entwickler- und Verwaltungsinhalten unter [Überwachung und Analyse der Telemetrie](/dynamics365/business-central/dev-itpro/administration/telemetry-overview).  
+Administratoren können [Azure Application Insights](/azure/azure-monitor/app/app-insights-overview) verwenden, um Telemetrie zu erfassen und zu analysieren, die hilft, Probleme zu identifizieren. Weitere Informationen zur Telemetrie finden Sie unter [Überwachung und Analyse der Telemetrie](/dynamics365/business-central/dev-itpro/administration/telemetry-overview) und [Analysieren der Projektwarteschlangen-Lebenszyklus-Nachverfolgungs-Telemetrie](/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace).
+
+Mit Telemetrie können Administratoren Warnungen zu Problemen mit der Auftragswarteschlange einrichten, die eine SMS, E-Mail oder eine Nachricht in Teams senden, wenn etwas nicht stimmt. Weitere Informationen zu diesen Warnungen finden Sie unter [Warnung zu Telemetrie](/dynamics365/business-central/dev-itpro/administration/telemetry-alert).
 
 ## Weitere Informationen
 
@@ -112,6 +131,6 @@ Als Administrator können Sie [Application Insights](/azure/azure-monitor/app/ap
 [Einrichten von Business Central](setup.md)  
 [Ändern von grundlegenden Einstellungen](ui-change-basic-settings.md)  
 [Analysieren der Projektwarteschlangen-Lebenszyklus-Nachverfolgungs-Telemetrie](/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace)  
-
+[Wartung zu Telemetrie](/dynamics365/business-central/dev-itpro/administration/telemetry-alert)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

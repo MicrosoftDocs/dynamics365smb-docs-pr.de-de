@@ -1,24 +1,19 @@
 ---
 title: Wechseln zu einem anderen Unternehmen oder einer anderen Umgebung
-description: Wenn Sie für mehrere Organisationen arbeiten, können Sie schnell zwischen den Umgebungen und Unternehmen wechseln.
+description: 'Wenn Sie für mehrere Organisationen arbeiten, können Sie schnell zwischen den Umgebungen und Unternehmen wechseln.'
 author: brentholtorf
 ms.topic: conceptual
-ms.search.keywords: environments, companies, tenants, organization
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
+ms.search.keywords: 'environments, companies, tenants, organization'
+ms.search.form: '9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017'
 ms.date: 08/16/2022
 ms.author: bholtorf
-ms.openlocfilehash: 0cc18a4a84e24ce58d486275442ba686ed559047
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605954"
 ---
-# <a name="switching-to-another-company-or-environment"></a>Wechseln zu einem anderen Unternehmen oder einer anderen Umgebung
+
+# Wechseln zu einem anderen Unternehmen oder einer anderen Umgebung
 
 [!INCLUDE [prod_short](includes/prod_short.md)] ist in vielen verschiedenen Ländern verfügbar und unterstützt viele verschiedene Arten von Organisationen. Ihre Organisation kann sich dafür entscheiden, die Arbeit in [!INCLUDE [prod_short](includes/prod_short.md)] in mehrere *Firmen* und *Umgebungen* zu organisieren. Dieser Artikel hilft Ihnen, die Hauptunterschiede zu verstehen und zu verstehen, wie Sie mit ihnen umgehen können.
 
-## <a name="about-companies-and-environments"></a>Unternehmen und Umgebungen
+## Unternehmen und Umgebungen
 
 [!INCLUDE [company_environment](includes/company_environment.md)]
 
@@ -30,7 +25,7 @@ ms.locfileid: "9605954"
 <!--
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]-->
 
-## <a name="features-for-switching-company-or-environment"></a>Funktionen zum Wechseln zu einem anderen Unternehmen oder einer anderen Umgebung
+## Funktionen zum Wechseln zu einem anderen Unternehmen oder einer anderen Umgebung
 
 Es gibt einige Funktionen, mit denen Sie während der Arbeit das Unternehmen oder die Umgebung wechseln können. In der folgenden Tabelle werden die Funktionen der Funktion verglichen, die in den folgenden Abschnitten ausführlicher erläutert werden.
 
@@ -41,16 +36,16 @@ Es gibt einige Funktionen, mit denen Sie während der Arbeit das Unternehmen ode
 |[Meine Einstellungen](#use-my-settings)|![Häkchen](media/check.png "Aktivieren")|||![Häkchen](media/check.png "Aktivieren")|
 |[Unternehmens-Hub](#use-company-hub)|![Häkchen](media/check.png "Aktivieren")|![Häkchen](media/check.png "Aktivieren")|![Häkchen](media/check.png "Aktivieren")||
 
-## <a name="use-the-company-switcher"></a>Verwenden Sie den Firmenumschalter
+## Verwenden Sie den Firmenumschalter
 
 Die Verwendung des Firmenumschalter ist wahrscheinlich die schnellste und vielseitigste Art, die Firma zu wechseln. Der Firmenumschalter ist ein Bereich, der von jeder Seite aus leicht zugänglich ist. Der Bereich gibt einen Überblick über alle Unternehmen in allen Umgebungen, auf die Sie Zugriff haben, und ermöglicht Ihnen, direkt zu einem von ihnen zu wechseln&mdash; entweder im selben Browser-Tab oder einem neuen. Dies ist besonders nützlich, wenn Sie in vielen Unternehmen in unterschiedlichen Umgebungen arbeiten.
 
 1. In der oberen rechten Ecke neben dem Suchsymbol sehen Sie entweder das Standard-Unternehmenssymbol, wie ![das Startprogramm für Firmen](media/ui-experience/company-icon.png "Zeigt das Symbol des Firmenumschalters an, das verwendet wird, wenn eine einzelne Umgebung vorhanden ist") und ![company-icon-multi-env](media/ui-experience/company-icon-multi-env.png "Zeigt das Symbol des Firmenumschalters an, das verwendet wird, wenn mehrere Umgebungen vorhanden sind"), oder ein [benutzerdefiniertes Abzeichen](admin-company-information.md#badge) für das Unternehmen, für das Sie derzeit arbeiten. Wählen Sie das Symbol aus, um das Firmenumschaltfenster zu öffnen.
 
-   :::image type="content" source="media/ui-experience/company-switch-2.png" alt-text="Zeigt das Firmenwechsler-Symbol in der Kopfzeile des Business Central-Clients an.":::  
+   :::image type="content" source="media/ui-experience/company-switch-2.png" alt-text="Zeigt das Symbol für den Firmenwechsler in der Überschrift des Business Central Clients an.":::  
 
    > [!TIP]
-   > Sie können auch die Tastenkombination Strg+O verwenden, um den Bereich zu öffnen.
+   > Sie können auch die Tastenkombination <kbd>Strg</kbd>+<kbd>O</kbd> verwenden, um den Bereich zu öffnen.
 2. Wählen Sie im Bereich **Verfügbare Unternehmen** das Unternehmen aus, zu dem Sie wechseln möchten, und wählen Sie den Pfeil **Umschalten**, und wählen Sie dann eine der folgenden Optionen aus:
 
    |Option|Description|
@@ -60,9 +55,9 @@ Die Verwendung des Firmenumschalter ist wahrscheinlich die schnellste und vielse
    |In neuer Registerkarte öffnen und zu derselben Seite wechseln|Diese Option ist nur auf Listenseiten wie Kunden, Verkaufsaufträgen oder Artikeln aktiv. Es öffnet dieselbe Liste, jedoch für das ausgewählte Unternehmen, in einem neuen Browser-Tab. |
 
 > [!TIP]
-> Drücken Sie F5, um die Liste der Umgebungen und Unternehmen zu aktualisieren.
+> Wählen Sie <kbd>F5</kbd>, um die Liste der Umgebungen und Unternehmen zu aktualisieren.
 
-## <a name="use-the-app-launcher"></a>App-Startfeld verwenden
+## App-Startfeld verwenden
 
 Wenn Sie mit [!INCLUDE[prod_short](includes/prod_short.md)] angemeldet sind, stehen Ihnen die Umgebungen, auf die Sie zugreifen können, auf Office.com zur Verfügung.  
 
@@ -78,14 +73,14 @@ The following image shows tiles for accessing production and sandbox environment
 
 :::image type="content" source="media/app-picker-environments.png" alt-text="The Dynamics 365 Home page showing production and sandbox environments.":::
 -->
-## <a name="use-my-settings"></a>Meine Einstellungen verwenden
+## Meine Einstellungen verwenden
 
 Wenn Sie bei [!INCLUDE[prod_short](includes/prod_short.md)] angemeldet sind, können Sie schnell zu einem anderen Unternehmen in derselben Umgebung wechseln. Nachdem Sie den Wechsel vorgenommen haben, wird das von Ihnen ausgewählte Unternehmen zu Ihrem Standardunternehmen und bei Ihrer nächsten Anmeldung geöffnet.
 
 1. Wählen Sie in der oberen rechten Ecke das Symbol **Einstellungen** ![Einstellungen.](media/ui-experience/settings_icon_small.png "Einstellungssymbol für Rollenzentrum") und dann die Aktion **Meine Einstellungen**.
 
     > [!TIP]
-    > Sie können auch die Tastenkombination ALT+T verwenden, um die Seite „Meine Einstellungen“ schnell zu öffnen.
+    > Sie können auch die Tastenkombination <kbd>Alt</kbd>+<kbd>T</kbd> verwenden, um die Seite „Meine Einstellungen“ schnell zu öffnen.
 
 2. Wählen Sie auf der Seite **Meine Einstellungen** im Feld **Unternehmen** das Unternehmen aus.  
 3. Wählen Sie die Schaltfläche **OK** aus.
@@ -93,13 +88,13 @@ Wenn Sie bei [!INCLUDE[prod_short](includes/prod_short.md)] angemeldet sind, kö
 > [!TIP]
 > Eine gute Möglichkeit, beim Anmelden direkt zu Ihrem Standardunternehmen zu gelangen und keine Umgebung angeben zu müssen, besteht darin, die URL nach der Anmeldung Ihrer Favoritenliste hinzuzufügen.
 
-## <a name="use-company-hub"></a>Unternehmens-Hub verwenden
+## Unternehmens-Hub verwenden
 
 *Unternehmens-Hub* ist ein hochspezialisiertes Rollencenter, das einen finanziellen Überblick über Unternehmen und Umgebungen gibt. Erhältlich als [Erweiterung](ui-extensions-company-hub.md) stellt Unternehmens-Hub ein Dashboard mit zusammenfassenden Daten für jedes Unternehmen bereit, auf das Sie Zugriff haben. Auf der Homepage werden finanzielle KPIs und ein direkter Link zu den einzelnen Umgebungen und Unternehmen angezeigt, um Benutzern dies zu ermöglichen. Weitere Informationen finden Sie unter [Arbeit über mehrere Unternehmen hinweg im Unternehmens-Hub verwalten](company-hub.md).
 
 [![Zeigt die Unternehmens-Hub-Seite an, die alle Unternehmen auflistet.](media/company-hub.png)](media/company-hub.png#lightbox)  
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Neue Unternehmen anlegen in [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md)  
 [Ändern von grundlegenden Einstellungen](ui-change-basic-settings.md)  

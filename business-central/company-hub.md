@@ -68,6 +68,8 @@ Weitere Informationen zu Unternehmen und Umgebungen finden Sie unter [Umgebungsl
 
 ## Auf den Unternehmens-Hub zugreifen
 
+[!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
+
 Um auf den Unternehmens-Hub zugreifen zu können, müssen Sie entweder über die *D365-UNTERNEHMENS-HUB*-Benutzergruppe oder über den *D365-UNTERNEHMENS-HUB*-Berechtigungssatz Zugriff haben. Sie müssen auch Zugriff auf die Unternehmen haben, die in Ihrem Unternehmens-Hub aufgeführt sind. Dies bedeutet, dass Sie ein Benutzer in diesen Unternehmen sein müssen. Weitere Informationen finden Sie unter [Benutzer nach Lizenzen anlegen](ui-how-users-permissions.md).  
 
 > [!IMPORTANT]

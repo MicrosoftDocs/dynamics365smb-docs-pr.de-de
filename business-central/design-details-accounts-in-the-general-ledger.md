@@ -19,42 +19,42 @@ Die folgende Tabelle zeigt die Beziehung zwischen den verschiedenen Arten von Be
 |**Artikelpostenart**|**Wertpostenart**|**Abweichungsart**|**Soll-Kosten**|**Konto**|**Gegenkonto**|  
 |--------------------------------|--------------------------|-----------------------|-----------------------|-----------------|---------------------------|  
 |Einkauf|Direkte Kosten||Ja|Lager (Interim)|Lagerzugangskonto (Interim)|  
-|Einkauf|Direkte Kosten||Nr.|Lagerbest|Direkte Kosten verrechnet|  
-|Einkauf|Indirekte Kosten||Nr.|Lagerbest|Gemeinkosten verrechnet|  
-|Einkauf|Abweichung|Einkauf|Nr.|Lagerbest|Einkaufsabweichung|  
-|Einkauf|Neubewertung||Nr.|Lagerbest|Lagerkorrektur|  
-|Einkauf|Runden||Nr.|Lagerbest|Lagerkorrektur|  
+|Einkauf|Direkte Kosten||Nein|Lagerbest|Direkte Kosten verrechnet|  
+|Einkauf|Indirekte Kosten||Nein|Lagerbest|Gemeinkosten verrechnet|  
+|Einkauf|Abweichung|Einkauf|Nein|Lagerbest|Einkaufsabweichung|  
+|Einkauf|Neubewertung||Nein|Lagerbest|Lagerkorrektur|  
+|Einkauf|Runden||Nein|Lagerbest|Lagerkorrektur|  
 |Verkauf|Direkte Kosten||Ja|Lager (Interim)|LAGERVERBR (Interim)|  
-|Verkauf|Direkte Kosten||Nr.|Lagerbest|LAGERVERBR|  
-|Verkauf|Neubewertung||Nr.|Lagerbest|Lagerkorrektur|  
-|Verkauf|Runden||Nr.|Lagerbest|Lagerkorrektur|  
-|Zugang,Abgang,Lagerplatzumlagerung|Direkte Kosten||Nr.|Lagerbest|Lagerkorrektur|  
-|Zugang,Abgang,Lagerplatzumlagerung|Neubewertung||Nr.|Lagerbest|Lagerkorrektur|  
-|Zugang,Abgang,Lagerplatzumlagerung|Runden||Nr.|Lagerbest|Lagerkorrektur|  
-|(Produktions-) Verbrauch|Direkte Kosten||Nr.|Lagerbest|WIP|  
-|(Produktions-) Verbrauch|Neubewertung||Nr.|Lagerbest|Lagerkorrektur|  
-|(Produktions-) Verbrauch|Runden||Nr.|Lagerbest|Lagerkorrektur|  
-|Verbrauch für Montage|Direkte Kosten||Nr.|Lagerbest|Lagerkorrektur|  
-|Verbrauch für Montage|Direkte Kosten||Nr.|Direkte Kosten verrechnet|Lagerkorrektur|  
-|Verbrauch für Montage|Indirekte Kosten||Nr.|Gemeinkosten verrechnet|Lagerkorrektur|  
+|Verkauf|Direkte Kosten||Nein|Lagerbest|LAGERVERBR|  
+|Verkauf|Neubewertung||Nein|Lagerbest|Lagerkorrektur|  
+|Verkauf|Runden||Nein|Lagerbest|Lagerkorrektur|  
+|Zugang,Abgang,Lagerplatzumlagerung|Direkte Kosten||Nein|Lagerbest|Lagerkorrektur|  
+|Zugang,Abgang,Lagerplatzumlagerung|Neubewertung||Nein|Lagerbest|Lagerkorrektur|  
+|Zugang,Abgang,Lagerplatzumlagerung|Runden||Nein|Lagerbest|Lagerkorrektur|  
+|(Produktions-) Verbrauch|Direkte Kosten||Nein|Lagerbest|WIP|  
+|(Produktions-) Verbrauch|Neubewertung||Nein|Lagerbest|Lagerkorrektur|  
+|(Produktions-) Verbrauch|Runden||Nein|Lagerbest|Lagerkorrektur|  
+|Verbrauch für Montage|Direkte Kosten||Nein|Lagerbest|Lagerkorrektur|  
+|Verbrauch für Montage|Direkte Kosten||Nein|Direkte Kosten verrechnet|Lagerkorrektur|  
+|Verbrauch für Montage|Indirekte Kosten||Nein|Gemeinkosten verrechnet|Lagerkorrektur|  
 |(Fertig produzierte Artikel; Istmeldungen)|Direkte Kosten||Ja|Lager (Interim)|WIP|  
-|(Fertig produzierte Artikel; Istmeldungen)|Direkte Kosten||Nr.|Lagerbest|WIP|  
-|(Fertig produzierte Artikel; Istmeldungen)|Indirekte Kosten||Nr.|Lagerbest|Gemeinkosten verrechnet|  
-|(Fertig produzierte Artikel; Istmeldungen)|Abweichung|Material|Nr.|Lagerbest|Materialabweichung|  
-|(Fertig produzierte Artikel; Istmeldungen)|Abweichung|Kapazität|Nr.|Lagerbest|Kapazitätsabweichung|  
-|(Fertig produzierte Artikel; Istmeldungen)|Abweichung|Fremdarbeit|Nr.|Lagerbest|Fremdarbeitskostenabweichung|  
-|(Fertig produzierte Artikel; Istmeldungen)|Abweichung|Kapazitätsgemeinkosten|Nr.|Lagerbest|Kap.-Gemeinkostenabweichung|  
-|(Fertig produzierte Artikel; Istmeldungen)|Abweichung|Produktionsgemeinkosten|Nr.|Lagerbest|Prod.-Gemeinkostenabweichung|  
-|(Fertig produzierte Artikel; Istmeldungen)|Neubewertung||Nr.|Lagerbest|Lagerkorrektur|  
-|(Fertig produzierte Artikel; Istmeldungen)|Runden||Nr.|Lagerbest|Lagerkorrektur|  
-|Montageausstoß|Direkte Kosten||Nr.|Lagerbest|Lagerkorrektur|  
-|Montageausstoß|Neubewertung||Nr.|Lagerbest|Lagerkorrektur|  
-|Montageausstoß|Indirekte Kosten||Nr.|Lagerbest|Gemeinkosten verrechnet|  
-|Montageausstoß|Abweichung|Material|Nr.|Lagerbest|Materialabweichung|  
-|Montageausstoß|Abweichung|Kapazität|Nr.|Lagerbest|Kapazitätsabweichung|  
-|Montageausstoß|Abweichung|Kapazitätsgemeinkosten|Nr.|Lagerbest|Kap.-Gemeinkostenabweichung|  
-|Montageausstoß|Abweichung|Produktionsgemeinkosten|Nr.|Lagerbest|Prod.-Gemeinkostenabweichung|  
-|Montageausstoß|Runden||Nr.|Lagerbest|Lagerkorrektur|  
+|(Fertig produzierte Artikel; Istmeldungen)|Direkte Kosten||Nein|Lagerbest|WIP|  
+|(Fertig produzierte Artikel; Istmeldungen)|Indirekte Kosten||Nein|Lagerbest|Gemeinkosten verrechnet|  
+|(Fertig produzierte Artikel; Istmeldungen)|Abweichung|Material|Nein|Lagerbest|Materialabweichung|  
+|(Fertig produzierte Artikel; Istmeldungen)|Abweichung|Kapazität|Nein|Lagerbest|Kapazitätsabweichung|  
+|(Fertig produzierte Artikel; Istmeldungen)|Abweichung|Fremdarbeit|Nein|Lagerbest|Fremdarbeitskostenabweichung|  
+|(Fertig produzierte Artikel; Istmeldungen)|Abweichung|Kapazitätsgemeinkosten|Nein|Lagerbest|Kap.-Gemeinkostenabweichung|  
+|(Fertig produzierte Artikel; Istmeldungen)|Abweichung|Produktionsgemeinkosten|Nein|Lagerbest|Prod.-Gemeinkostenabweichung|  
+|(Fertig produzierte Artikel; Istmeldungen)|Neubewertung||Nein|Lagerbest|Lagerkorrektur|  
+|(Fertig produzierte Artikel; Istmeldungen)|Runden||Nein|Lagerbest|Lagerkorrektur|  
+|Montageausstoß|Direkte Kosten||Nein|Lagerbest|Lagerkorrektur|  
+|Montageausstoß|Neubewertung||Nein|Lagerbest|Lagerkorrektur|  
+|Montageausstoß|Indirekte Kosten||Nein|Lagerbest|Gemeinkosten verrechnet|  
+|Montageausstoß|Abweichung|Material|Nein|Lagerbest|Materialabweichung|  
+|Montageausstoß|Abweichung|Kapazität|Nein|Lagerbest|Kapazitätsabweichung|  
+|Montageausstoß|Abweichung|Kapazitätsgemeinkosten|Nein|Lagerbest|Kap.-Gemeinkostenabweichung|  
+|Montageausstoß|Abweichung|Produktionsgemeinkosten|Nein|Lagerbest|Prod.-Gemeinkostenabweichung|  
+|Montageausstoß|Runden||Nein|Lagerbest|Lagerkorrektur|  
 
 ## Vom Kapazitätsposten  
  Die folgende Tabelle zeigt die Beziehung zwischen den verschiedenen Arten von Kapazitätswertposten und die Konten und Gegenkonten im Sachkonto an. Kapazitätsposten stellen die Arbeitszeit dar, die bei Montage- oder Produktionsarbeiten verbraucht wird.  

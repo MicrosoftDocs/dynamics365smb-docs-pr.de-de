@@ -1,98 +1,93 @@
 ---
 title: PC-Tastenkombinationskurzübersicht Referenz
-description: Ein druckerfreundliches Bezugsblatt für PC-Benutzer, das die gängigsten Tastenkombinationen enthält.
+description: 'Ein druckerfreundliches Bezugsblatt für PC-Benutzer, das die gängigsten Tastenkombinationen enthält.'
 author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: accessibility, shortcuts, keyboarding
+ms.search.keywords: 'accessibility, shortcuts, keyboarding'
 ms.date: 08/19/2022
 ms.author: jswymer
-ms.openlocfilehash: ddcee165f275b3e7ad757b5a8a448c9a65a7d33c
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605796"
 ---
-# <a name="keyboard-quick-reference---pc-only"></a>Nur PC-Tastenkombinationskurzübersicht
 
-#### <a name="general"></a>Allgemein
+# Nur PC-Tastenkombinationskurzübersicht
 
-|Drücken Sie diese Tasten|Vorgehensweise|  
+#### Allgemein
+
+|Wählen Sie diese Tasten aus|Vorgehensweise|  
 |-|-|
-|Alt+F2|Infoboxbereich anzeigen und ausblenden.|
-|ALT+N|Erstellen eines neuen Datensatzes|
-|ALT+UMSCHALT+N|Schließen Sie einen neu erstellten Datensatz und erstellen Sie einen neuen Datensatz.|
-|ALT+O|Fügen Sie eine neue Notiz für den ausgewählten Datensatz hinzu|
-|ALT+Q|Öffnen Sie **Mitteilen**|
-|STRG+ALT+Q|**Posten suchen** öffnen|
-|ALT+OBEN|Öffnen Sie QuickInfo oder Überprüfungsfehler|
-|ALT + NACH-UNTEN-TASTE|Dropdown oder Lookup für Anzeige|
-|ALT+T|Öffnen der Seite **Meine Einstellungen**.|
-|ALT+UMSCHALT+W|Öffnen Sie die aktuelle Karte oder das Dokument in einem neuen Fenster|
-|Strg+Einfügen|Fügen Sie eine neue Zeile in einem Dokument hinzu|
-|STRG-ENTF|Löschen Sie die Zeile in einem Dokumenten, Journal oder Arbeitsblatt|
-|Ctrl+Shift+F12|Maximieren Sie den Werbebuchungsteil auf einer Dokumentseite|
-|Ctrl+F1|Hilfebereich oder Hilfeartikel öffnen|
-|Ctrl+Click|Navigieren Sie beim Personalisieren und Anpassen|
-|Ctrl+O|Unternehmen oder Umgebung wechseln|
-|Umschalt+F12|Öffnen Sie den Rollen-Explorer, eine Funktionsübersicht.|
-|F5/Ctrl+F5|Die Seite aktualisieren/neu laden.|
-|TAB/UMSCHALT+TAB|Fokus auf das nächste/vorherige Element richten|
-|F6/Umschalt+F6|Weiter zum nächsten Inforegister/Teil|
+|<kbd>Alt</kbd>+<kbd>F2</kbd>|Infoboxbereich anzeigen und ausblenden.|
+|<kbd>Alt</kbd>+<kbd>N</kbd>|Erstellen eines neuen Datensatzes|
+|<kbd>Alt</kbd>+<kbd>Umschalt</kbd>+<kbd>N</kbd>|Schließen Sie einen neu erstellten Datensatz und erstellen Sie einen neuen Datensatz.|
+|<kbd>Alt</kbd>+<kbd>O</kbd>|Fügen Sie eine neue Notiz für den ausgewählten Datensatz hinzu|
+|<kbd>Alt</kbd>+<kbd>Q</kbd>|Öffnen Sie **Mitteilen**|
+|<kbd>Strg</kbd>+<kbd>Alt</kbd>+<kbd>Q</kbd>|**Posten suchen** öffnen|
+|<kbd>Alt</kbd>+<kbd>Nach oben</kbd>|Öffnen Sie QuickInfo oder Überprüfungsfehler|
+|<kbd>ALT</kbd>+<kbd>NACH-UNTEN-TASTE</kbd>|Dropdown oder Lookup für Anzeige|
+|<kbd>Alt</kbd>+<kbd>T</kbd>|Öffnen der Seite **Meine Einstellungen**.|
+|<kbd>Alt</kbd>+<kbd>Umschalt</kbd>+<kbd>W</kbd>|Öffnen Sie die aktuelle Karte oder das Dokument in einem neuen Fenster|
+|<kbd>Strg</kbd>+<kbd>Einfügen</kbd>|Fügen Sie eine neue Zeile in einem Dokument hinzu|
+|<kbd>STRG</kbd>-<kbd>ENTF</kbd>|Löschen Sie die Zeile in einem Dokumenten, Journal oder Arbeitsblatt|
+|<kbd>Strg</kbd>+<kbd>Umschalt</kbd>+<kbd>F12</kbd>|Maximieren Sie den Werbebuchungsteil auf einer Dokumentseite|
+|<kbd>Strg</kbd>+<kbd>F1</kbd>|Hilfebereich oder Hilfeartikel öffnen|
+|<kbd>Strg</kbd>+Klick|Navigieren Sie beim Personalisieren und Anpassen|
+|<kbd>Strg</kbd>+<kbd>O</kbd>|Unternehmen oder Umgebung wechseln|
+|<kbd>Umschalt</kbd>+<kbd>F12</kbd>|Öffnen Sie den Rollen-Explorer, eine Funktionsübersicht.|
+|<kbd>F5</kbd>/<kbd>Strg</kbd>+<kbd>F5</kbd>|Die Seite aktualisieren/neu laden.|
+|<kbd>Tab</kbd>/<kbd>Umschalt</kbd>+<kbd>Tab</kbd>|Fokus auf das nächste/vorherige Element richten|
+|<kbd>F6</kbd>/<kbd>Umschalt</kbd>+<kbd>F6</kbd>|Weiter zum nächsten Inforegister/Teil|
 
-#### <a name="navigate--select-rows"></a>Navigieren und Zeilen auswählen
+#### Navigieren und Zeilen auswählen
 
-|Drücken Sie diese Tasten|Vorgehensweise|
+|Wählen Sie diese Tasten aus|Vorgehensweise|
 |-|-|
-|Start/Ende|Zum ersten/letzten Feld gehen.|
-|Strg+Start/Ende |Zur ersten/letzten Zeile.|
-|Strg+nach unten/nach oben|Navigieren Sie ohne die Auswahl zu verlieren|
-|Strg+A |Alles auswählen|
-|STRG+LEERTASTE|Toggle-Zeilen-Auswahl|
-|Ctrl/Shift+Click|Fügen Sie die Zeile/Zeilen der Angaben hinzu|
-|Strg+nach oben/unten|Fügen Sie Zeilen über/unter der Auswahl hinzu|
-|Umschalttaste +Seite nach Unten/Oben|Sichtbare Zeilen darüber/darunter auswählen|
-|Ctrl+Enter|Fokussieren Sie auf die Liste|
+|<kbd>Start/Ende|Zum ersten/letzten Feld gehen.|
+|<kbd>Strg</kbd>+<kbd>Pos1</kbd>/<kbd>Ende</kbd>|Zur ersten/letzten Zeile.|
+|<kbd>Strg</kbd>+<kbd>Nach oben</kbd>/<kbd>Nach unten</kbd>|Navigieren Sie ohne die Auswahl zu verlieren|
+|<kbd>Strg</kbd>+<kbd>A</kbd>|Alles auswählen|
+|<kbd>STRG</kbd>+<kbd>LEERTASTE</kbd>|Toggle-Zeilen-Auswahl|
+|<kbd>Strg</kbd>/<kbd>Umschalt</kbd>+Klick|Fügen Sie die Zeile/Zeilen der Angaben hinzu|
+|<kbd>Umschalt</kbd>+<kbd>Nach oben</kbd>/<kbd>Nach unten</kbd>|Fügen Sie Zeilen über/unter der Auswahl hinzu|
+|<kbd>Umschalttaste</kbd>+<kbd>Bild auf</kbd>/<kbd>Bild ab</kbd>|Sichtbare Zeilen darüber/darunter auswählen|
+|<kbd>Strg</kbd>+<kbd>Eingabetaste</kbd>|Fokussieren Sie auf die Liste|
 
-#### <a name="copy--paste"></a>Kopieren und einfügen
+#### Kopieren und einfügen
 
-|Drücken Sie diese Tasten|Vorgehensweise|
+|Wählen Sie diese Tasten aus|Vorgehensweise|
 |-|-|
-|Strg+C/V|Zeilen kopieren/einfügen|
-|F8|Kopiere Feld in aktuellen Zeile|
+|<kbd>Strg</kbd>+<kbd>C</kbd>/<kbd>V</kbd>|Zeilen kopieren/einfügen|
+|<kbd>F8</kbd>|Kopiere Feld in aktuellen Zeile|
 
-#### <a name="search-filter--sort"></a>Suchen, filtern und sortieren
+#### Suchen, filtern und sortieren
 
-|Drücken Sie diese Tasten|Vorgehensweise|
+|Wählen Sie diese Tasten aus|Vorgehensweise|
 |-|-|
-|Alt+F7|Sortieren Sie die ausgewählte Spalte in aufsteigender/absteigender Reihenfolge.|
-|F3|Toggle-Suche|
-|Shift+F3|Wechselt zwischen Filterbereich; Fokus auf Feldfilter|
-|Alt+F3|Filtern Sie ausgewählte Zellwerte|
-|Shift+Alt+F3|Filter auf ausgewählten Felder hinzufügen|
-|Ctrl+Alt+Shift+F3|Filter zurücksetzen|
+|<kbd>Alt</kbd>+<kbd>F7</kbd>|Sortieren Sie die ausgewählte Spalte in aufsteigender/absteigender Reihenfolge.|
+|<kbd>F3</kbd>|Toggle-Suche|
+|<kbd>Umschalt</kbd>+<kbd>F3</kbd>|Wechselt zwischen Filterbereich; Fokus auf Feldfilter|
+|<kbd>Alt</kbd>+<kbd>F3</kbd>|Filtern Sie ausgewählte Zellwerte|
+|<kbd>Umschalt</kbd>+<kbd>Alt</kbd>+<kbd>F3</kbd>|Filter auf ausgewählten Felder hinzufügen|
+|<kbd>Strg</kbd>+<kbd>Alt</kbd>+<kbd>Umschalttaste</kbd>+<kbd>F3</kbd>|Filter zurücksetzen|
 
-#### <a name="quick-entry"></a>Schnelleingabe
+#### Schnelleingabe
 
-|Drücken Sie diese Tasten|Vorgehensweise|
+|Wählen Sie diese Tasten aus|Vorgehensweise|
 |-|-|
-|STRG+UMSCHALT+EINGABE|Zum nächsten Schnelleingabefeld außerhalb einer Liste navigieren|
-|EINGABETASTE/UMSCHALTTASTE+EINGABETASTE|Zum nächsten/vorherigen Schnelleingabefeld navigieren|
+|<kbd>Strg</kbd>+<kbd>Umschalt</kbd>+<kbd>Eingabetaste</kbd>|Zum nächsten Schnelleingabefeld außerhalb einer Liste navigieren|
+|<kbd>EINGABETASTE</kbd>/<kbd>UMSCHALTTASTE</kbd>+<kbd>EINGABETASTE</kbd>|Zum nächsten/vorherigen Schnelleingabefeld navigieren|
 
-##### <a name="report-preview"></a>Berichtvorschau
+##### Berichtvorschau
 
-|Drücken Sie diese Tasten|Vorgehensweise|
+|Wählen Sie diese Tasten aus|Vorgehensweise|
 |-|-|
-|Strg+Start/Ende|Zur ersten/letzten Seite.|
+|<kbd>Strg</kbd>+<kbd>Pos1</kbd>/<kbd>Ende</kbd>|Zur ersten/letzten Seite.|
 
-#### <a name="numeric-keypad"></a>Numerische Tastatur
+#### Numerische Tastatur
 
-|Drücken Sie diese Tasten|Vorgehensweise|  
+|Wählen Sie diese Tasten aus|Vorgehensweise|  
 |-|-|
-|ALT+Dezimaltrennzeichen|Schaltet die Ausgabe des Dezimaltrennzeichens auf der Zehnertastatur um|
+|<kbd>ALT</kbd>+<kbd>Dezimaltrennzeichen</kbd>|Schaltet die Ausgabe des Dezimaltrennzeichens auf der Zehnertastatur um|
 
 > [!TIP]
 > Für eine grafische, druckfreundliche Version wählen Sie das folgende Bild und laden Sie die PDF-Datei herunter.

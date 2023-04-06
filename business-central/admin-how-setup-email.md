@@ -1,23 +1,18 @@
 ---
 title: E-Mail in Business Central festlegen (enthält ein Video)
-description: Beschreibt, wie E-Mail-Konten mit Business Central verbunden werden, damit Sie ausgehende Nachrichten senden können, ohne eine andere App öffnen zu müssen.
+description: 'Beschreibt, wie E-Mail-Konten mit Business Central verbunden werden, damit Sie ausgehende Nachrichten senden können, ohne eine andere App öffnen zu müssen.'
 author: brentholtorf
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: SMTP, email, Office 365, connector
-ms.search.form: 1805, 9813, 9814, 1262, 1263
+ms.search.keywords: 'SMTP, email, Office 365, connector'
+ms.search.form: '1805, 9813, 9814, 1262, 1263'
 ms.date: 11/22/2022
 ms.author: bholtorf
-ms.openlocfilehash: 20246e01fab861a3d4af7d6a1778531f17e97987
-ms.sourcegitcommit: 12ff9dcbefb47f2280479cceb656ea7e6ac2cfa1
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 12/02/2022
-ms.locfileid: "9822435"
 ---
-# <a name="set-up-email"></a>E-Mail einrichten
+
+# E-Mail einrichten
 
 Menschen in Unternehmen senden täglich Informationen und Dokumente wie Verkaufsdokumente und Bestellungen sowie Rechnungen per E-Mail. Administratoren können ein oder mehrere E-Mail-Konten mit [!INCLUDE[prod_short](includes/prod_short.md)] verbinden. So können Sie Dokumente senden, ohne eine E-Mail-App öffnen zu müssen. Sie können jede Nachricht einzeln mit grundlegenden Formatierungswerkzeugen wie Schriftarten, Stilen, Farben usw. zusammenstellen und Anhänge mit bis zu 100 MB hinzufügen. Mit Berichtslayouts können Administratoren außerdem die wichtigsten Informationen aus Belegen einbeziehen. Erfahren Sie mehr unter [Artikel versenden und Dokumente per E-Mail versenden](ui-how-send-documents-email.md).
 
@@ -28,14 +23,14 @@ E-Mail-Funktionen in [!INCLUDE[prod_short](includes/prod_short.md)] sind nur fü
 >
 > Wenn Sie [!INCLUDE[prod_short](includes/prod_short.md)] lokal verwenden, bevor Sie eine E-Mail einrichten können, müssen Sie vor Ort eine App-Registrierung für [!INCLUDE[prod_short](includes/prod_short.md)] im Azure-Portal erstellen. Die App-Registrierung wird [!INCLUDE[prod_short](includes/prod_short.md)] aktiviert, um mit Ihrem E-Mail-Anbieter zu authentifizieren und zu autorisieren. Weitere Informationen finden Sie unter [E-Mail für Business Central lokal einrichten](admin-how-setup-email.md#setting-up-email-for-business-central-on-premises). In [!INCLUDE[prod_short](includes/prod_short.md)] online erledigen wir das für Sie.
 
-## <a name="requirements"></a>Anforderungen
+## Anforderungen
 
 Für die Einrichtung und Verwendung der E-Mail-Funktionen gibt es einige Anforderungen.
 
 * Um E-Mails einzurichten, müssen Sie den **E-MAIL-EINRICHTEN** Berechtigungssatz haben. Weitere Informationen finden Sie unter [Berechtigungen an Benutzer und Gruppen zuweisen](ui-define-granular-permissions.md).
 * Jeder, der die E-Mail-Funktionen verwenden möchte, muss über eine umfassende Lizenz verfügen [!INCLUDE [prod_short](includes/prod_short.md)]. Delegierte Administratoren und Gastbenutzer können zum Beispiel das E-Mail-Konto des Mandanten nicht verwenden.
 
-## <a name="adding-email-accounts"></a>E-Mail-Konten hinzufügen
+## E-Mail-Konten hinzufügen
 
 Sie fügen E-Mail-Konten über Erweiterungen hinzu, mit denen Konten verschiedener Anbieter eine Verbindung herstellen können in [!INCLUDE[prod_short](includes/prod_short.md)]. Mit den Standarderweiterungen können Sie Konten von Microsoft Exchange Online verwenden. Möglicherweise sind jedoch andere Erweiterungen verfügbar, mit denen Sie Konten von anderen Anbietern verbinden können, z. B. Gmail.
 
@@ -56,16 +51,16 @@ In der folgenden Tabelle werden die standardmäßig verfügbaren E-Mail-Erweiter
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4JsUk]
 
-## <a name="using-smtp"></a>Verwendung von SMTP
+## Verwendung von SMTP
 
 Wenn Sie das SMTP-Protokoll zum Senden von E-Mails über [!INCLUDE[prod_short](includes/prod_short.md)] verwenden möchten, können Sie die SMTP Connector-Erweiterung verwenden. Wenn Sie ein Konto einrichten, das SMTP verwendet, ist das Feld **Absendertyp** wichtig. Wenn Sie **Bestimmter Benutzer** auswählen, werden E-Mails mit dem Namen und anderen Informationen des Kontos gesendet, das Sie einrichten. Wenn Sie jedoch **Aktueller Benutzer** auswählen, werden E-Mails von dem E-Mail-Konto gesendet, das für das Konto jedes Benutzers angegeben ist. „Aktueller Benutzer“ ähnelt der Funktion „Senden als“. Weitere Informationen finden Sie unter [Eine Ersatz-Absenderadresse für ausgehende E-Mail-Nachrichten verwenden](admin-how-setup-email.md#use-a-substitute-sender-address-on-outbound-email-messages). 
 
 > [!IMPORTANT]
-> Wenn Sie [!INCLUDE[prod_short](includes/prod_short.md)]-On-Premises verwenden, können Sie das OAuth 2.0-Protokoll für die Authentifizierung nicht verwenden. Sie müssen eine Anwendungsregistrierung im Azure-Portal erstellen und dann die Anleitung **Azure Active Directory einrichten** zur unterstützten Einrichtung in [!INCLUDE[prod_short](includes/prod_short.md)] ausführen, um eine Verbindung mit Azure AD herzustellen. Weitere Informationen finden Sie unter [Eine App-Registrierung für Business Central im Azure-Portal erstellen](admin-how-setup-email.md#create-an-app-registration-for-business-central-in-azure-portal).
+> Wenn Sie [!INCLUDE[prod_short](includes/prod_short.md)] lokal verwenden, können Sie das OAuth-2.0-Protokoll für die Authentifizierung nicht verwenden. Sie müssen eine Anwendungsregistrierung im Azure-Portal erstellen und dann die Anleitung **Azure Active Directory einrichten** zur unterstützten Einrichtung in [!INCLUDE[prod_short](includes/prod_short.md)] ausführen, um eine Verbindung mit Azure AD herzustellen. Weitere Informationen finden Sie unter [Eine App-Registrierung für Business Central im Azure-Portal erstellen](admin-how-setup-email.md#create-an-app-registration-for-business-central-in-azure-portal).
 >
 > Exchange Online unterstützt nicht länger die Verwendung der Standardauthentifizierung für SMTP. Mandanten, die derzeit SMTP AUTH verwenden, sind von dieser Änderung nicht betroffen. Wir empfehlen jedoch dringend, die neueste Version von [!INCLUDE [prod_short](includes/prod_short.md)] zu verwenden und die OAuth 2.0-Authentifizierung für SMTP einzurichten. Wir werden keine zertifikatbasierte Authentifizierung für frühere Versionen von [!INCLUDE [prod_short](includes/prod_short.md)]wie z. B. Version 14, hinzufügen. Wenn Sie die OAuth 2.0-Authentifizierung nicht einrichten können, empfehlen wir Ihnen, Alternativen von Drittanbietern zu prüfen, wenn Sie SMTP-E-Mail in früheren Versionen verwenden möchten.
 
-## <a name="add-email-accounts"></a>E-Mail-Konten hinzufügen
+## E-Mail-Konten hinzufügen
 
 Die unterstützte Einrichtungsanleitung für das **Einrichten von E-Mails** kann Ihnen helfen, rasch mit dem Senden von E-Mails zu beginnen.
 
@@ -81,7 +76,7 @@ Die unterstützte Einrichtungsanleitung für das **Einrichten von E-Mails** kann
 > If you choose **Other (SMTP)** and are using an account that requires two-factor authentication, the password that you enter in the **Password** field must be the same that you use for your Microsoft 365 subscription, and it must be of type **App Password**. For more information, see [Manage app passwords for two-step verification](/azure/active-directory/user-help/multi-factor-authentication-end-user-app-passwords). 
 
 is this still true?-->
-## <a name="assign-email-scenarios-to-email-accounts"></a>E-Mail-Szenarien zu E-Mail-Konten zuweisen
+## E-Mail-Szenarien zu E-Mail-Konten zuweisen
 
 E-Mail-Szenarien sind Prozesse, bei denen ein Dokument gesendet wird. Beispielsweise eine Einkaufsbestellung oder ein Verkaufsauftrag oder eine Benachrichtigung wie eine Einladung an einen externen Buchhalter. Bestimmte E-Mail-Konten können für bestimmte Szenarien verwendet werden. Beispielsweise können Sie festlegen, dass alle Benutzer Verkaufsdokumente immer von einem Konto senden, Dokumente von einem anderen kaufen und Lager- oder Produktionsdokumente von einem dritten Konto aus senden. Sie können Szenarien jederzeit zuweisen, neu zuweisen und entfernen. Ein Szenario kann jeweils nur einem E-Mail-Konto zugewiesen werden. Das Standard-E-Mail-Konto wird für alle Szenarien verwendet, die keinem Konto zugewiesen sind.
 
@@ -100,7 +95,7 @@ Auf der Seite **Zuordnung von E-Mail-Szenarien** können Sie die Aktion **Standa
 
 -->
 
-## <a name="set-up-view-policies"></a>Anzeigerichtlinien einrichten
+## Anzeigerichtlinien einrichten
 
 Sie können die E-Mail-Nachrichten steuern, auf die ein Benutzer auf den Seiten „E-Mail-Ausgang“ und „Gesendete E-Mails“ zugreifen kann.
 
@@ -114,7 +109,7 @@ Wählen Sie unter **Benutzer-E-Mail-Ansichtsrichtlinien** einen Benutzer und dan
 > [!NOTE]
 > Wenn Sie das Feld **Benutzer-ID** leer lassen und dann die Aktion **E-Mail-Anzeigerichtlinie** auswählen, gilt die Anzeigerichtlinie für alle Benutzer.
 
-## <a name="specify-how-many-messages-an-account-can-send-per-minute"></a>Geben Sie an, wie viele Nachrichten ein Konto pro Minute senden kann
+## Geben Sie an, wie viele Nachrichten ein Konto pro Minute senden kann
 
 Einige E-Mail-Anbieter (ISP) begrenzen die Anzahl der E-Mail-Nachrichten, die ein E-Mail-Konto auf einmal oder innerhalb eines bestimmten Zeitraums (oder beides) senden kann. Diese als *E-Mail-Drosselung* bekannte Praxis hilft ISP dabei, den Datenverkehr auf ihren Servern zu kontrollieren und Spam zu verhindern. Wenn ein E-Mail-Konto die Obergrenze überschreitet, kann der ISP die Nachrichten blockieren. Um sicherzustellen, dass die Anzahl der Nachrichten, die Sie von [!INCLUDE [prod_short](includes/prod_short.md)] versenden, die Obergrenze Ihres ISP einhält, geben Sie für jedes Ihrer E-Mail-Konten die Obergrenze an.
 
@@ -125,11 +120,9 @@ Es gibt zwei Möglichkeiten, die Obergrenze anzugeben:
 * Wenn Sie bei der Erstellung eines neuen Kontos den Leitfaden für die unterstützte Einrichtung von E-Mails verwenden, geben Sie die Obergrenze im Feld **Ratenbegrenzung pro Minute** an.
 * Für bereits bestehende E-Mail-Konten geben Sie die Obergrenze im Feld **E-Mail-Ratenbegrenzung** an.
 
+## Wiederverwendbare E-Mail-Texte und -Layouts einrichten
 
-
-## <a name="set-up-reusable-email-texts-and-layouts"></a>Wiederverwendbare E-Mail-Texte und -Layouts einrichten
-
-Sie können Berichte verwenden, um wichtige Informationen aus Verkaufs-, Kauf- und Service-Dokumenten in Texte für E-Mails einzubinden. In diesem Verfahren wird beschrieben, wie Sie den Bericht **Verkaufsrechnung** für gebuchte Verkaufsrechnungen einrichten, aber der Prozess ist für andere Berichte ähnlich.
+Sie können Berichte verwenden, um wichtige Informationen aus Verkaufs-, Kauf- und Service-Dokumenten in Texte für E-Mails einzubinden. Berichtslayouts definieren den Stil und den Inhalt des Textes in der E-Mail. Der Inhalt kann Texte wie eine Begrüßung oder Anweisungen enthalten, die den Dokumenteninformationen vorangestellt sind. In diesem Verfahren wird beschrieben, wie Sie den Bericht **Verkaufsrechnung** für gebuchte Verkaufsrechnungen einrichten, aber der Prozess ist für andere Berichte ähnlich.
 
 > [!NOTE]
 > Um das Layout zum Erstellen von Inhalten für E-Mail-Nachrichten zu verwenden, müssen Sie den Word-Dateityp für Ihr Layout verwenden.
@@ -137,17 +130,17 @@ Sie können Berichte verwenden, um wichtige Informationen aus Verkaufs-, Kauf- u
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol, geben Sie **Berichtsauswahlen - Verkäufe** ein und wählen Sie dann den entsprechenden Link.
 2. Auf der Seite **Berichts-Auswahl - Verkauf** unter **Verwendung** wählen Sie **Rechnung**.
 3. In einer neuen Zeile im Feld **Berichts-ID** wählen Sie beispielsweise Standardbericht 1306.
-4. Wählen Sie das Kontrollkästchen **Für E-Mail-Text verwenden**.
+4. Wählen Sie das Kontrollkästchen **Für E-Mail-Text verwenden** aus.
 5. Wählen Sie das Feld **E-Mail-Text-Layout-Beschreibung** und ein Layout aus der Liste aus.
-
-    Berichtslayouts definieren den Stil und den Inhalt des Textes in der E-Mail. Der Inhalt kann Texte wie eine Begrüßung oder Anweisungen enthalten, die den Dokumenteninformationen vorangestellt sind. Wenn Ihre Organisation verschiedene Layouts hat, können Sie **Aus vollständiger Liste auswählen** auswählen, um auf alle verfügbaren Berichtslayouts zuzugreifen.
-6. Um das Layout anzusehen oder zu bearbeiten, auf dem der E-Mail-Text basiert, gehen Sie zur Seite **Benutzerdefinierte Berichtslayouts** und wählen die Aktion **Layout aktualisieren** aus.
+6. Wählen Sie das Layout auf der Seite **Benutzerdefinierte Berichtslayouts** und anschließend die Aktion **Layout exportieren** aus, um das Layout, auf dem der E-Mail-Text basiert, anzuzeigen oder zu bearbeiten. Wenn Sie das Layout anpassen, verwenden Sie die Aktion **Layout importieren**, um das neue Layout hochzuladen.
+    > [!NOTE]
+    > Erstellen Sie zum Anpassen eines Standardberichtslayouts – wie 1306 – eine Kopie des Berichts. [!INCLUDE [prod_short](includes/prod_short.md)] hilft Ihnen beim Erstellen einer Kopie, wenn Sie ein benutzerdefiniertes Layout für einen Standardbericht importieren. Dem Namen Ihres neuen benutzerdefinierten Berichtslayouts wird das Präfix „Kopie von“ vorangestellt.
 7. Wenn Sie Kunden die Verwendung eines Zahlungsdienstes wie PayPal ermöglichen möchten, müssen Sie den Dienst einrichten. Anschließend werden die PayPal-Informationen und der Link in den E-Mail-Text eingefügt. Weitere Informationen finden Sie unter [Aktivieren Sie Debitoren-Zahlung durch PayPal](sales-how-enable-payment-service-extensions.md)
 8. Wählen Sie die Schaltfläche **OK** aus.
 
 Wenn Sie jetzt beispielsweise die Aktion **Senden** auf der Seite **Gebuchte Verkaufsrechnung** auswählen, enthält der E-Mail-Text die Beleginformationen 1306 des Berichts, der vom formatierten Standardtext entsprechend dem Berichtslayout stammt, das Sie in Schritt 5 ausgewählt haben.
 
-## <a name="use-a-substitute-sender-address-on-outbound-email-messages"></a>Eine Ersatz-Absenderadresse für ausgehende E-Mail-Nachrichten verwenden
+## Eine Ersatz-Absenderadresse für ausgehende E-Mail-Nachrichten verwenden
 
 Wenn Sie die SMTP Connector-Erweiterung verwenden, können Sie jedoch die **Senden Als** oder **Senden im Auftrag von** Funktionen von Microsoft Exchange zum Ändern der Absenderadresse für ausgehende Nachrichten verwenden. [!INCLUDE[prod_short](includes/prod_short.md)] verwendet das SMTP- Konto zur Authentifizierung bei Exchange, ersetzt jedoch entweder die Absenderadresse durch die von Ihnen angegebene oder ändert sie durch „Im Namen von“.
 
@@ -157,8 +150,8 @@ Alternativ können Sie **Aktueller Benutzer** auswählen, um Benutzern das Sende
 
 Im Folgenden finden Sie Beispiele für die Verwendung von Senden als und Senden im Namen von [!INCLUDE[prod_short](includes/prod_short.md)]:
 
-* Vielleicht möchten Sie, dass die Kauf- oder Verkaufsaufträge, die Sie an Lieferanten und Kunden senden, so aussehen, als kämen sie von einer _noreply@yourcompanyname.com_ Adresse.
-* Wenn Ihr Workflow eine Genehmigungsanfrage per E-Mail unter Verwendung der E-Mail-Adresse des Antragstellers sendet.
+* Vielleicht möchten Sie, dass die Bestellungen oder Verkaufsaufträge, die Sie an Kreditoren oder Debitoren senden, so aussehen, als kämen sie von einer _noreply@yourcompanyname.com_-Adresse.
+* Wenn Ihr Workflow eine Genehmigungsanfrage per E-Mail unter Verwendung der E-Mail-Adresse des Antragstellenden sendet.
 
 > [!Note]
 > Sie können nur ein Konto verwenden, um Absenderadressen zu ersetzen. Das heißt, Sie können nicht eine Ersatzadresse für Einkaufsprozesse und eine andere für Verkaufsprozesse haben.
@@ -182,11 +175,11 @@ Im Folgenden finden Sie Beispiele für die Verwendung von Senden als und Senden 
 > [!Note]
 > [!INCLUDE[prod_short](includes/prod_short.md)] will determine which address to display in the following order: <br><br> 1. The address specified in the **E-Mail** field on the **Approval User Setup** page for messages in a workflow. <br> 2. The address specified in the **Send As** field in the **SMTP Email Setup** page. <br> 3. The address specified in the **User ID** field in the **SMTP Email Setup** page. -->
 
-## <a name="set-up-document-sending-profiles"></a>Belegsendeprofile einrichten
+## Belegsendeprofile einrichten
 
 Sie können Zeit sparen, indem Sie für jeden Ihrer Kunden eine bevorzugte Methode zum Senden von Verkaufsbelegen einrichten. Sie müssen nicht jedes Mal, wenn Sie ein Dokument senden, eine Sendeoption auswählen, z. B. ob das Dokument per E-Mail oder als elektronisches Dokument gesendet werden soll. Weitere Informationen finden Sie unter [Einrichten von Belegsendeprofilen](sales-how-setup-document-send-profiles.md).
 
-## <a name="optional-set-up-email-logging-in-exchange-online"></a>Optional: E-Mail-Protokollierung in Exchange Online einrichten
+## Optional: E-Mail-Protokollierung in Exchange Online einrichten
 
 Nutzen Sie die Kommunikation zwischen Vertriebsmitarbeitern und Ihren bestehenden oder potenziellen Kunden optimal. Sie können den E-Mail-Austausch verfolgen und ihn dann in umsetzbare Verkaufsmöglichkeiten verwandeln. Erfahren Sie mehr unter [Austausch von E-Mail-Nachrichten zwischen Verkäufern und Kontakten nachverfolgen](marketing-set-up-email-logging.md).  
 <!--
@@ -194,13 +187,18 @@ Nutzen Sie die Kommunikation zwischen Vertriebsmitarbeitern und Ihren bestehende
 
 Next, you connect [!INCLUDE[prod_short](includes/prod_short.md)] with Exchange Online. For more information, see [Track Email Message Exchanges Between Salespeople and Contacts](marketing-set-up-email-logging.md).  -->
 
-## <a name="setting-up-email-for-business-central-on-premises"></a>Einrichten von E-Mails für Business Central lokal
+## Einrichten von E-Mails für Business Central lokal
 
 [!INCLUDE[prod_short](includes/prod_short.md)] lokal kann mit Services integriert werden, die auf Microsoft Azure basieren. Zum Beispiel können Sie Cortana Intelligence für intelligentere Cashflow-Prognosen verwenden, Power BI, um Ihr Geschäft zu visualisieren und Exchange Online zum Versenden von E-Mails. Die Integration mit diesen Diensten basiert auf einer App-Registrierung in Azure Active Directory. Die App-Registrierung bietet Authentifizierungs- und Autorisierungsdienste für die Kommunikation. So verwenden Sie die E-Mail-Funktionen in [!INCLUDE[prod_short](includes/prod_short.md)] lokal, Sie müssen Sie [!INCLUDE[prod_short](includes/prod_short.md)] als App im Azure-Portal registrieren und dann [!INCLUDE[prod_short](includes/prod_short.md)] mit der App-Registrierung verwenden. In den folgenden Abschnitten werden diese Schritte beschrieben.
 
-### <a name="create-an-app-registration-for-business-central-in-azure-portal"></a>Eine App-Registrierung für Business Central im Azure-Portal erstellen
+### Eine App-Registrierung für Business Central im Azure-Portal erstellen
 
-Die Schritte zur Registrierung von [!INCLUDE[prod_short](includes/prod_short.md)] im Azure-Portal werden in [Registrieren Sie eine Bewerbung in Azure Active Directory](/dynamics365/business-central/dev-itpro/administration/register-app-azure#register-an-application-in-azure-active-directory) beschrieben. Die Einstellungen, die für die E-Mail-Funktionen spezifisch sind, sind die delegierten Berechtigungen, die Sie Ihrer App-Registrierung erteilen. In der folgenden Tabelle sind die Mindestberechtigungen aufgeführt.
+Die Schritte zur Registrierung von [!INCLUDE[prod_short](includes/prod_short.md)] im Azure-Portal werden in [Registrieren Sie eine Bewerbung in Azure Active Directory](/dynamics365/business-central/dev-itpro/administration/register-app-azure#register-an-application-in-azure-active-directory) beschrieben.
+
+> [!NOTE]
+> Damit die E-Mail-Funktionen verwendet werden können, muss Ihre App-Registrierung eine mehrinstanzenfähige Konfiguration verwenden.
+
+Die Einstellungen, die für die E-Mail-Funktionen spezifisch sind, sind die delegierten Berechtigungen, die Sie Ihrer App-Registrierung erteilen. In der folgenden Tabelle sind die Mindestberechtigungen aufgeführt.
 
 |API/Berechtigungsname  |Typ  |Beschreibung  |
 |---------|---------|---------|
@@ -217,7 +215,7 @@ Wenn Sie SMTP Connector verwenden oder OAuth 2.0 zur Authentifizierung verwenden
 |Microsoft Graph / openid|Stellvertretend|Melden Sie Benutzer an.|
 |Microsoft Graph/User.Read |Stellvertretend|Melden Sie sich an und lesen Sie das Benutzerprofil.         |
 |Microsoft Graph / SMTP.Send|Stellvertretend|Senden Sie E-Mails aus Postfächern mit SMTP AUTH.         |
-|Office 365Exchange Online / User.Read |Stellvertretend|Melden Sie sich an und lesen Sie das Benutzerprofil.         |
+|Office 365 Exchange Online / User.Read |Stellvertretend|Melden Sie sich an und lesen Sie das Benutzerprofil.         |
 
 Wenn Sie Ihre App-Registrierung erstellen, müssen Sie folgende Informationen angeben. Sie benötigen sie, um eine Verbindung mit [!INCLUDE[prod_short](includes/prod_short.md)] herzustellen, um Ihre App zu registrieren.
  
@@ -230,7 +228,7 @@ Allgemeine Informationen zum Registrieren einer Anwendung erhalten Sie unter [Sc
 > [!NOTE]
 Wenn Sie Probleme haben, das SMTP-Protokoll zum Senden von E-Mails zu verwenden, nachdem Sie eine Verbindung zu [!INCLUDE[prod_short](includes/prod_short.md)] hergestellt haben, kann daran liegen, dass SMTP AUTH für Ihren Mandanten nicht aktiviert ist. Wir empfehlen, stattdessen die E-Mail-Konnektoren Microsoft 365 und aktuelle Benutzer zu verwenden, da diese Microsoft Graph Mail-APIs verwenden. Wenn Sie jedoch das SMTP-Protokoll verwenden müssen, können Sie SMTP AUTH aktivieren. Weitere Informationen finden Sie unter [Aktivieren oder deaktivieren Sie die SMTP-Übermittlung für authentifizierte Clients (SMTP AUTH) in Exchange Online](/exchange/clients-and-mobile-in-exchange-online/authenticated-client-smtp-submission#disable-smtp-auth-in-your-organization).
 
-### <a name="connect-prod_short-to-your-app-registration"></a>[!INCLUDE[prod_short](includes/prod_short.md)] mit Ihrer App-Anmeldung verbinden
+### [!INCLUDE[prod_short](includes/prod_short.md)] mit Ihrer App-Anmeldung verbinden
 
 Nachdem Sie Ihre Anwendung im Azure-Portal registriert haben, klicken Sie auf [!INCLUDE[prod_short](includes/prod_short.md)], benutzen Sie die **E-Mail-Anwendung AAD-Registrierung** unterstützte Einrichtung, um die Verbindung [!INCLUDE[prod_short](includes/prod_short.md)] herzustellen.
 
@@ -263,9 +261,9 @@ Nachdem Sie Ihre Anwendung im Azure-Portal registriert haben, klicken Sie auf [!
 
 -->
 
-## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/set-up-email/)
+## Siehe verwandte [Microsoft Schulungen](/training/modules/set-up-email/)
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Freigegebene Postfächer in Exchange Online](/exchange/collaboration-exo/shared-mailboxes)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

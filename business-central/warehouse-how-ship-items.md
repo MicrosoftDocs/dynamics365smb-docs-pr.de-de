@@ -59,8 +59,8 @@ Sie können einen Warenausgang auf eine von zwei Arten erstellen:
     * Im Push-Verfahren, bei dem Sie die Aktion **Kommissionierung erstellen** verwenden. Wählen Sie die zu entnehmenden Zeilen aus und geben Sie Informationen zu den Kommissionierungen an. Zum Beispiel, aus welchen Lagerplätzen entnommen und eingelagert werden soll und wie viele Einheiten bewegt werden sollen. Die Lagerplätze können für den Lagerort oder die Ressource vordefiniert werden.
     * Im Pull-Verfahren, bei dem Sie die Aktion **Freigeben** verwenden. Verwenden Sie auf der Seite **Kommissionierungsarbeitsblatt** die Aktion **Lagerdokumente abrufen**, um ihre zugewiesenen Kommissionierungen abzurufen. Wenn die Kommissionierungen vollständig erfasst sind, werden die Zeilen im **Kommissionierarbeitsblatt** gelöscht. Weitere Informationen finden Sie unter [Artikel für den Warenausgang kommissionieren](warehouse-how-to-pick-items-for-warehouse-shipment.md)
 
-> [!TIP]
-> Für einen Lagerort, an dem keine Kommissionierung erforderlich ist, können Sie den Warenausgang ausdrucken und als Kommissionierungsliste verwenden.
+    > [!TIP]
+    > Für einen Lagerort, an dem keine Kommissionierung erforderlich ist, können Sie den Warenausgang ausdrucken und als Kommissionierungsliste verwenden.
 
 8. Geben Sie die zu liefernde Menge an.  
 
@@ -71,6 +71,8 @@ Sie können einen Warenausgang auf eine von zwei Arten erstellen:
     Um den Wert im Feld **Zu liefern** in allen Zeilen auf Null festzulegen, wählen Sie die Aktion **Menge zu liefern löschen** aus. Beispielsweise ist es hilfreich, die Mengen auf Null zu setzen, wenn Sie einen Barcode-Scanner verwenden, um die Versandmengen zu aktualisieren. Um die für den Versand verfügbare Menge hinzuzufügen, wählen Sie die Aktion **Menge zu liefern autom. ausfüllen**.
 
 9. Buchen Sie die Lieferung.
+
+    [!INCLUDE [preview-posting-shipment](includes/preview-posting-shipment.md)]
 
 ## So verwenden Sie Filter zum Abrufen von Herkunftsbelegen
 

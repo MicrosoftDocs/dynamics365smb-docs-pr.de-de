@@ -1,39 +1,33 @@
 ---
 title: Wareneingang und Einlagerung in der erweiterten Lagerhaltung
-description: Die eingehenden Prozesse für den Empfang und die Einlagerung können auf vier Arten mit unterschiedlichen Funktionalitäten durchgeführt werden, je nach Komplexitätsgrad des Lagers.
+description: 'Die eingehenden Prozesse für den Empfang und die Einlagerung können auf vier Arten mit unterschiedlichen Funktionalitäten durchgeführt werden, je nach Komplexitätsgrad des Lagers.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 35ba60e75b78d043f0e17272dd18084846dfa30e
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148122"
 ---
-# <a name="walkthrough-receiving-and-putting-away-in-advanced-warehouse-configurations"></a>Exemplarische Vorgehensweise: Eingang und Einlagerung bei erweiterten Lagerkonfigurationen
+# Exemplarische Vorgehensweise: Eingang und Einlagerung bei erweiterten Lagerkonfigurationen
 
 <!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
-In [!INCLUDE[prod_short](includes/prod_short.md)] können die eingehenden Prozesse für das Empfangen und Einlagern auf vier Arten, mit den verschiedenen Funktionen, abhängig von der Lagerkomplexitätsebene, ausgeführt werden.  
+In [!INCLUDE[prod_short](includes/prod_short.md)] tritt der Eingang und das Einlagern mit einer der vier in der folgenden Tabelle beschriebenen Methoden auf.
 
-|Art|Eingangsprozess|Lagerplätze|Geb. Umlag.-Eingänge|Einlagerungen|Komplexitätsebene anzeigen (siehe [Designdetails: Lagerhaus-Einrichtung](design-details-warehouse-setup.md))|  
-|------------|---------------------|----------|--------------|----------------|--------------------------------------------------------------------------------------------------------------------|  
-|A|Posteinlieferungsschein und die Einlagerung der Auftragszeile|X|||2|  
-|F|Posteinlieferungsschein und Einlagerung aus dem Beleg "Lagereinlagerung"|||X|3|  
-|L|Posteinlieferungsschein und Einlagerung aus einem Wareneingangsbeleg||X||4/5/6|  
-|T|Posteinlieferungsschein aus einem Wareneingangsbeleg und Posteinlagerung aus einem Einlagerungsbeleg||X|X|4/5/6|  
+|Art|Eingangsprozess|Wareneingang erforderlich|Einlagerung erforderlich|Komplexitätsgrad (Weitere Informationen unter [Lagermanagementübersicht](design-details-warehouse-management.md))|  
+|------------|---------------------|--------------|----------------|------------|  
+|A|Posteinlieferungsschein und die Einlagerung der Auftragszeile|||Keine dedizierte Lageraktivität.|  
+|B|Posteinlieferungsschein und Einlagerung aus dem Beleg "Lagereinlagerung"||Aktiviert|Basis: Auftragsbezogene Logistik|  
+|U|Posteinlieferungsschein und Einlagerung aus einem Wareneingangsbeleg|Aktiviert||Basis: Konsolidierte Eingangs-/Versandbuchung für mehrere Bestellungen.|  
+|T|Posteinlieferungsschein aus einem Wareneingangsbeleg und Posteinlagerung aus einem Einlagerungsbeleg|Aktiviert|Aktiviert|Erweitert|  
 
-Weitere Informationen finden Sie unter [Designdetails: Eingehender Lagerfluss](design-details-inbound-warehouse-flow.md).  
+Weitere Informationen finden Sie unter [Eingehender Lagerfluss](design-details-inbound-warehouse-flow.md).
 
 In der folgenden Vorgehensweise wird Methode D in der vorhergegangenen Tabelle beschrieben.  
 
-## <a name="about-this-walkthrough"></a>Informationen zu dieser exemplarischen Vorgehensweise
+## Informationen zu dieser exemplarischen Vorgehensweise
 
 In der erweiterten Lagerkonfiguration verwenden Sie dann, wenn Ihr Standort so eingerichtet ist, dass er Eingangs- und Einlagerungsverarbeitung durchführen muss, die Seite **Lagerort-Eingang** zur Aufzeichnung und Buchung des Eingangs von Artikeln zu mehreren eingehenden Aufträgen. Wenn der Lagereingang gebucht wird, werden ein oder mehrere Belege für die Einlagerung erstellt, um die Arbeitskräfte im Lager anzuweisen, die empfangenen Artikel zu nehmen und sie an den vorgesehenen Plätzen gemäß der Einrichtung der Lagerplätze oder in anderen Lagerplätzen zu platzieren. Die spezifische Platzierung der Artikel wird bei der Registrierung der Lager-Einlagerung im Datensatz festgehalten. Der eingehende Herkunftsbeleg kann eine Einkaufsbestellung, eine Verkaufsreklamation, ein eingehender Umlagerungsauftrag oder Montage oder ein Fertigungsauftrag sein, dessen Endprodukt zur Einlagerung bereitsteht. Wenn der Wareneingang aus einem eingehenden Auftrag erstellt wird, kann mehr als ein eingehender Herkunftsbeleg für den Wareneingang abgerufen werden. Wenn Sie diese Methode verwenden, können Sie viele Artikel erfassen, die von unterschiedlichen eingehenden Bestellungen mit einem Wareneingang ankommen.  
 
@@ -44,7 +38,7 @@ In dieser exemplarischen Vorgehensweise werden folgende Aufgaben erläutert:
 -   Erstellen und Buchen eines Wareneingangsbelegs für mehrere Einkaufszeilen von bestimmten Kreditoren.  
 -   Erfassen einer Einlagerungszeile für die eingegangenen Artikel.  
 
-## <a name="roles"></a>Rollen
+## Rollen
 
 Die Aufgaben in dieser Demonstration werden von den folgenden Benutzerrollen ausgeführt:  
 
@@ -53,7 +47,7 @@ Die Aufgaben in dieser Demonstration werden von den folgenden Benutzerrollen aus
 -   Eingangsmitarbeiter  
 -   Lagermitarbeiter  
 
-## <a name="prerequisites"></a>Voraussetzungen
+## Voraussetzungen
 
 Für diese exemplarische Vorgehensweise gelten folgende Voraussetzungen:  
 
@@ -65,15 +59,15 @@ Für diese exemplarische Vorgehensweise gelten folgende Voraussetzungen:
 3.  Geben Sie im Feld **Lagerortcode** WHITE ein.  
 4.  Wählen Sie das Feld **Standard** aus.  
 
-## <a name="story"></a>Hintergrund
+## Hintergrund
 
 Ellen, der Lager-Manager bei CRONUS, erstellt zwei Einkaufsbestellungen für Zubehörartikel von den Kreditoren 10000 und 20000, die an das WHITE-Lager geliefert werden sollen. Wenn die Lieferungen im Lagerankommen, verwendet, Sammy, der für das Empfangen von Artikeln der Kreditoren 10000 und 20000 zuständig ist, einen Filter, um Wareneingangszeilen für die Bestellungen zu erstellen, die von den beiden Kreditoren ankommen. Sammy bucht die Artikel als in den Lagerbestand im Wareneingang eingegangen und stellt die Artikel für Verkauf oder anderen Bedarf bereit. John, der Lagermitarbeiter, nimmt die Artikel vom Wareneingangslagerplatz und lagert sie ein. Er lagert alle Einheiten in ihren Standardlagerplätze ein, mit Ausnahme von 40 der 100 eingegangenen Scharniere, die er in der Montageabteilung einlagert, indem er die Einlagerungsanforderungszeile aufteilt. Wenn John die Einlagerung registriert, werden die Lagerplatzinhalte aktualisiert, und die Artikel werden für die Kommissionierung aus dem Lager bereitgestellt.  
 
-## <a name="reviewing-the-white-location-setup"></a>Überprüfung des Setup des WEISSEN Lagerorts
+## Überprüfung des Setup des WEISSEN Lagerorts
 
 Das Einrichten der Seite **Lagerortkarte** definiert die Warenflüsse des Unternehmens.  
 
-### <a name="to-review-the-location-setup"></a>So prüfen Sie die Lagerorteinrichtung  
+### So prüfen Sie die Lagerorteinrichtung  
 
 1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Lagerorte** ein, und wählen Sie dann den entsprechenden Link.  
 2.  Öffnen Sie die WHITE Lagerortkarte.  
@@ -85,11 +79,11 @@ Das Einrichten der Seite **Lagerortkarte** definiert die Warenflüsse des Untern
 
 Das bedeutet, dass beim Erstellen eines Wareneingangs dieser Lagerplatzcode standardmäßig zum Kopf des Wareneingangsbelegs und zu den Zeilen der resultierenden Einlagerung kopiert wird.  
 
-## <a name="creating-the-purchase-orders"></a>Erstellen der Bestellungen
+## Erstellen der Bestellungen
 
 Bestellungen sind die häufigste Art des eingehenden Herkunftsbelegs.  
 
-### <a name="to-create-the-purchase-orders"></a>So erstellt man Bestellungen  
+### So erstellt man Bestellungen  
 
 1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Einkaufsbestellungen** ein, und wählen Sie dann den zugehörigen Link.  
 2.  Wählen Sie die Aktion **Neu** aus.  
@@ -118,11 +112,11 @@ Bestellungen sind die häufigste Art des eingehenden Herkunftsbelegs.
 
     Die Lieferungen von Artikeln der Kreditoren 10000 und 20000 sind im WHITE-Lager eingegangen, und Sammy beginnt mit der Verarbeitung der Einkaufslieferungen.  
 
-## <a name="receiving-the-items"></a>Eingang der Artikel
+## Eingang der Artikel
 
 Auf der Seite **Wareneingang** können Sie mehrere eingehende Aufträge für Herkunftsbelege, wie eine Bestellung, verwalten.  
 
-### <a name="to-receive-the-items"></a>So erhalten Sie die Artikel  
+### So erhalten Sie die Artikel  
 1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Wareneingänge** ein, und wählen Sie dann den entsprechenden Link.  
 2.  Wählen Sie die Aktion **Neu**.  
 3.  Geben Sie im Feld **Lagerortcode** WHITE ein.  
@@ -137,12 +131,12 @@ Auf der Seite **Wareneingang** können Sie mehrere eingehende Aufträge für Her
 
     Die positiven Artikelposten spiegeln die gebuchten Zubehör-Einkaufslieferungen der Kreditoren 10000 und 20000 wieder, und die Artikel können im Lager aus dem Wareneingangslagerplatz eingelagert werden.  
 
-## <a name="putting-the-items-away"></a>Einlagerung von den Artikeln
+## Einlagerung von den Artikeln
 
 Auf der Seite **Lagereinlagerung** können Sie Einlagerungen für einen spezifischen Wareneingangsbeleg, der sich auf mehrere Herkunftsbelege bezieht, verwalten. Wie alle Lageraktivitätsbelege wird jeder Artikel in der Einlagerung durch eine Entnahme- und eine Einlagerungszeile dargestellt. Im folgenden Verfahren ist der Lagerplatzcode in den Entnahmezeilen der Standardplatz für Wareneingänge am WEISSEN Lagerort, W-08-0001.  
 
 
-### <a name="to-put-the-items-away"></a>So lagern Sie die Artikel ein  
+### So lagern Sie die Artikel ein  
 1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Einlagerungen** ein, und wählen Sie dann den zugehörigen Link.  
 2.  Wählen Sie den einzigen Lager-Einlagerungsbeleg in der Liste aus und wählen Sie dann die Aktion **Bearbeiten**.  
 
@@ -163,7 +157,7 @@ Auf der Seite **Lagereinlagerung** können Sie Einlagerungen für einen spezifis
 
     Das erhaltene Zubehör wird jetzt in den Standardlagerplätzen der Artikel eingelagert, und 40 Scharniere werden in die Montageabteilung gebracht. Die eingegangenen Artikel sind jetzt für die Kommissionierung zum internen Bedarf, wie etwa für Montageaufträge, oder zum externen Bedarf, wie etwa für Verkaufslieferungen, verfügbar.  
 
-## <a name="see-also"></a>Siehe auch  
+## Siehe auch  
  [Einlagern von Artikeln mit Lagereinlagerungen](warehouse-how-to-put-items-away-with-warehouse-put-aways.md)   
  [Umlagerung von Artikeln in erweiterten Lagerkonfigurationen](warehouse-how-to-move-items-in-advanced-warehousing.md)   
  [Designdetails: Eingehender Lagerfluss](design-details-inbound-warehouse-flow.md)   

@@ -1,29 +1,23 @@
 ---
 title: Verkaufsaufträge Rücklieferung verarbeiten
-description: Beschreibt, wie Sie einen Verkaufsauftrag erstellen, um eine Rückgabe, Stornierung oder Rückerstattung für Artikel oder Dienstleistungen zu verarbeiten, für die Sie eine Zahlung erhalten haben.
+description: 'Beschreibt, wie Sie einen Verkaufsauftrag erstellen, um eine Rückgabe, Stornierung oder Rückerstattung für Artikel oder Dienstleistungen zu verarbeiten, für die Sie eine Zahlung erhalten haben.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: undo, credit memo, return, order
-ms.search.form: 44, 134, 144, 6629, 6630, 6633, 6662, 9302, 9304, Report_6646
+ms.search.keywords: 'undo, credit memo, return, order'
+ms.search.form: '44, 134, 144, 6629, 6630, 6633, 6662, 9302, 9304, Report_6646'
 ms.date: 09/08/2021
 ms.author: edupont
-ms.openlocfilehash: 78b4c6412b24721b52a5c271c0e1c5a4c7ba8775
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9529082"
 ---
-# <a name="process-sales-return-orders"></a>Verkaufsaufträge Rücklieferung verarbeiten  
+# Verkaufsaufträge Rücklieferung verarbeiten  
 
 Wenn Sie mehr Steuerelemente für den Rücklieferungsprozess benötigen, z.B. Lagerbelege für die Artikelabwicklung oder eine bessere Übersicht beim Empfang von Artikeln aus mehreren Verkaufsbelegen mit einer Rücklieferung, dann können Sie Verkaufsreklamationen erstellen. Ein Rücklieferungsauftrag gibt automatisch die zugehörige Verkaufsgutschrift und andere rücklieferungsbezogene Belege aus, wie z.B. einen Ersatzverkaufsauftrag, falls erforderlich.
 
 Zusätzlich zur ursprünglich gebuchten Verkaufsrechnung können Sie die Verkaufsgutschrift für andere Verkaufsbelege übernehmen, beispielsweise einer anderen gebuchten Verkaufsrechnung, da der Debitor auch die Artikel zurücksendet, die mit dieser Rechnung geliefert werden.
 
-## <a name="create-a-sales-return-order-based-on-one-or-more-posted-sales-documents"></a>Erstellen Sie einen Verkaufsauftrag für eine Rücklieferung auf der Grundlage eines oder mehrerer gebuchter Belege  
+## Erstellen Sie einen Verkaufsauftrag für eine Rücklieferung auf der Grundlage eines oder mehrerer gebuchter Belege  
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Verkaufsreklamationen** ein und wählen Sie den zugehörigen Link.
 2. Wählen Sie die Aktion **Neu** aus.  
@@ -31,7 +25,7 @@ Zusätzlich zur ursprünglich gebuchten Verkaufsrechnung können Sie die Verkauf
 4. Im Inforegister **Zeilen** können Sie die Zeilen manuell ausfüllen, oder kopieren Sie Informationen aus anderen Belegen, um die Zeilen automatisch auszufüllen:
 
     - Die Funktion **Zu stornierende gebuchte Belegzeilen abrufen** können Sie verwenden, um eine oder mehrere gebuchte Belegzeilen aus einem oder mehreren gebuchten Belegen zu kopieren. Diese Funktion ermöglicht Ihnen die exakte Stornierung der Einstandspreise aus der gebuchten Belegzeile. Diese Funktion wird in den folgenden Schritten beschrieben.    
-    - Verwenden Sie die Funktion **Aus Dokument kopieren**, um ein vorhandenes Dokument in den Rückgabeauftrag zu kopieren. Verwenden Sie diese Funktion zum Kopieren des gesamten Belegs. Dies kann entweder ein bereits gebuchter oder ein noch nicht gebuchter Beleg sein. Diese Funktion ermöglicht die Einstandspreisrückverfolgung nur dann, wenn die **Einstandspreisrückverfolgung als obligatorisch** auf der Seite **Debitoren & Verkauf Einr.** eingerichtet ist.  
+    - Verwenden Sie die Funktion **Aus Dokument kopieren**, um ein vorhandenes Dokument in den Rückgabeauftrag zu kopieren. Verwenden Sie diese Funktion zum Kopieren des gesamten Belegs. Dies kann entweder ein bereits gebuchter oder ein noch nicht gebuchter Beleg sein. Diese Funktion ermöglicht die Einstandspreisrückverfolgung nur dann, wenn die **Einstandspreisrückverfolgung** als obligatorisch auf der Seite **Debitoren & Verkauf Einr.** eingerichtet ist.  
 
 5. Wählen Sie die Aktion **Verarbeiten** und dann die Aktion **Getragene Belegzeilen zum Stornieren**.
 6. Wählen Sie oben auf der Seite **Gebuchte Verkaufsbelegzeilen** das Feld **Nur stornierbare Zeilen anzeigen aus,** wenn Sie nur Zeilen mit Mengen anzeigen möchten, die noch nicht zurückgesendet oder, im Falle von Einkaufszeilen, verkauft oder verbraucht wurden. Wenn eine gebuchte Verkaufsrechnungsmenge beispielsweise bereits zurückgesendet wurde, möchten Sie diese Menge möglicherweise nicht mit einem neuen Verkaufsreklamationsbeleg zurücksenden.
@@ -45,7 +39,7 @@ Zusätzlich zur ursprünglich gebuchten Verkaufsrechnung können Sie die Verkauf
 8. Wählen Sie die Zeilen aus, die Sie in den neuen Beleg kopieren möchten.  
 
     > [!NOTE]  
-    >  Wenn Sie zum Auswählen aller Zeilen STRG+A verwenden, werden alle Zeilen in dem von Ihnen festgelegten Filter kopiert, jedoch wird der Filter **Nur stornierbare Mengen anzeigen** ignoriert. Angenommen, Sie haben die Zeilen nach einem bestimmten Beleg mit zwei Zeilen gefiltert, von denen eine bereits auf "Zurückgesendet" gesetzt wurde. Auch wenn das Feld **Nur stornierbare Mengen anzeigen** ausgewählt wird, werden beim Drücken von STRG+A zum Kopieren aller Zeilen beide Zeilen kopiert und nicht nur die eine, die noch nicht storniert wurde.  
+    >  Wenn Sie zum Auswählen aller Zeilen <kbd>STRG</kbd>+<kbd>A</kbd> verwenden, werden alle Zeilen in dem von Ihnen festgelegten Filter kopiert, jedoch wird der Filter **Nur stornierbare Mengen anzeigen** ignoriert. Angenommen, Sie haben die Zeilen nach einem bestimmten Beleg mit zwei Zeilen gefiltert, von denen eine bereits auf "Zurückgesendet" gesetzt wurde. Auch wenn das Feld **Nur stornierbare Mengen** anzeigen ausgewählt wird, werden beim Drücken von <kbd>STRG</kbd>+<kbd>A</kbd> zum Kopieren aller Zeilen beide Zeilen kopiert und nicht nur die eine, die noch nicht storniert wurde.  
 
 9. Klicken Sie auf die Schaltfläche **OK**, um die Zeilen in den neuen Beleg zu kopieren.  
 
@@ -73,7 +67,7 @@ Zusätzlich zur ursprünglich gebuchten Verkaufsrechnung können Sie die Verkauf
 10. Auf der Seite **Verkaufsreklamation** im Feld **Reklamationsgrundcode** auf jeder Zeile wählen Sie den Grund für die Reklamation aus.
 11. Wählen Sie die Aktion **Buchen** aus.
 
-## <a name="to-create-a-replacement-sales-order-from-a-sales-return-order"></a>So erstellen Sie einen Austauschverkaufsauftrag von einer Verkaufsreklamation aus:
+## So erstellen Sie einen Austauschverkaufsauftrag von einer Verkaufsreklamation aus:
 Möglicherweise entscheiden Sie, einen Debitoren für einen Artikel, den Sie ihm verkauft haben, zu entschädigen, indem Sie ihm den Artikel ersetzen. Sie können diesen Austausch mit demselben oder einem anderen Artikel vornehmen. Diese Situation könnte eintreten, wenn Sie dem Kunden z. B. versehentlich einen falschen Artikel geliefert haben.  
 
 1. Auf der Seite **Einkaufsreklamation** für einen aktiven Rückgabevorgang in einer leeren Zeile, erzeugen Sie einen negativen Eintrag für den Austauschartikel, indem Sie einen negativen Betrag in das Feld **Menge** eingeben.  
@@ -81,7 +75,7 @@ Möglicherweise entscheiden Sie, einen Debitoren für einen Artikel, den Sie ihm
 3. Füllen Sie auf der Seite **Negative Verkaufszeile verschieben** die Felder nach Bedarf aus.
 4. Wählen Sie die Schaltfläche **OK** aus. Wenn Sie diese Stapelverarbeitung ausführen, wird die negative Zeile (für den Austauschartikel) aus der Verkaufsreklamation gelöscht und auf einer neuen **Verkaufsauftrag**-Seite eingefügt. Weitere Informationen finden Sie unter [Produkte verkaufen](sales-how-sell-products.md)
 
-## <a name="to-create-return-related-documents-from-a-sales-return-order"></a>So erstellen Sie reklamationsbezogene Belege aus einer Verkaufsreklamation
+## So erstellen Sie reklamationsbezogene Belege aus einer Verkaufsreklamation
 Lassen Sie alle relevanten Verkaufsreklamationsbelege automatisch erstellen, z. B. eine Einkaufsreklamation, eine Ersatzbestellung oder einen neuen Verkaufsauftrag. Dies ist beispielsweise in Fällen nützlich, in denen Sie Artikel mit den Garantien bearbeiten möchten, die von Kreditoren bereitgestellt werden.
 
 1. Auf der Seite **Verkaufsreklamation** für einen aktiven Rückgabevorgang wählen Sie die Aktion **Reklamationsbez. Belege erstellen** aus.
@@ -90,7 +84,7 @@ Lassen Sie alle relevanten Verkaufsreklamationsbelege automatisch erstellen, z. 
 4. Wenn ein Artikel beim Kreditor bestellt werden muss, aktivieren Sie das Kontrollkästchen **Bestellung erstellen**.
 5. Wenn ein Auftrag für eine Ersatzlieferung erstellt werden muss, aktivieren Sie das Kontrollkästchen **Verkaufsauftrag erstellen**.
 
-## <a name="to-create-a-restock-charge"></a>So legen Sie eine Wiedereinlagerungsgebühr an
+## So legen Sie eine Wiedereinlagerungsgebühr an
 Möglicherweise entscheiden Sie sich dazu, Ihren Debitoren mit einer Wiedereinlagerungsgebühr zu belasten, um die Bearbeitungskosten für die Rücksendung des Artikels abzudecken. Diese Situation könnte z. B. eintreten, wenn der Debitor aus Versehen den falschen Artikel bestellt hatte oder seine Meinung geändert hat, nachdem er den Artikel erhalten hat.
 
 Sie können diesen herabgesetzten Preis als Zu-/Abschlag (Artikel) in einer Gutschrift oder einer Reklamation buchen und ihn der gebuchten Lieferung zuordnen. Im Folgenden wird dies für einen Verkaufsreklamationsauftrag beschrieben, aber die gleichen Schritte gelten auch für eine Verkaufsgutschrift.
@@ -101,9 +95,9 @@ Sie können diesen herabgesetzten Preis als Zu-/Abschlag (Artikel) in einer Guts
 
 Wenn Sie die Verkaufsreklamation buchen, wird die Wiedereinlagerungsgebühr zu dem entsprechenden Betrag des Verkaufspostens addiert. Auf diese Art können Sie genaue Bestandbewertung führen.  
 
-## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/paths/return-items-dynamics-365-business-central/)
+## Siehe verwandte [Microsoft Schulungen](/training/paths/return-items-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Verkauf](sales-manage-sales.md)  
 [Einrichten von Verkäufen](sales-setup-sales.md)  

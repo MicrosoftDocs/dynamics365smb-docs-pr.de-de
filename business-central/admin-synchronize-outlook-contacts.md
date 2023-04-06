@@ -1,30 +1,32 @@
 ---
 title: Teilen Sie Kontakte zwischen Business Central und Outlook
-description: Der Service ist in Microsoft 365 integriert, damit Sie Kontakte zwischen Outlook und Business Central freigeben können.
+description: 'Der Service ist in Microsoft 365 integriert, damit Sie Kontakte zwischen Outlook und Business Central freigeben können.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: contacts, Microsoft 365
-ms.search.form: 6700, 5320, 5300, 5301, 5302, 5303, 5304, 5305, 5306, 5307, 5308, 5309, 5310, 5311
-ms.date: 04/01/2021
+ms.search.keywords: 'contacts, Microsoft 365'
+ms.search.form: '6700, 5320, 5300, 5301, 5302, 5303, 5304, 5305, 5306, 5307, 5308, 5309, 5310, 5311'
+ms.date: 03/17/2023
 ms.author: bholtorf
-ms.openlocfilehash: 571dce9d79532cb3659ec952a585764af78c5161
-ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2022
-ms.locfileid: "8799878"
 ---
-# <a name="synchronize-contacts-in-business-central-with-contacts-in-microsoft-outlook"></a>Synchronisieren Sie Kontakte in Business Central mit Kontakten in Microsoft Outlook
+# Synchronisieren Sie Kontakte in Business Central mit Kontakten in Microsoft Outlook
 
 Sie können die Kontaktsynchronisierung einrichten, damit Ihre Kontakte in [!INCLUDE[prod_short](includes/prod_short.md)] dieselben Informationen aufweisen wie Ihre Kontakte in Microsoft Outlook. Wenn Sie beispielsweise ein Vertriebsmitarbeiter sind, arbeiten Sie möglicherweise in Outlook und [!INCLUDE[prod_short](includes/prod_short.md)] gleichzeitig. Wenn die Kontakte an beiden Stellen identisch sind, wird die Arbeit einfacher.  
 
 Standardmäßig werden die Kontakte, die Sie synchronisieren, in einem **Business Central**-Ordner in Ihren Favoriten im Ordnerbereich in Outlook gespeichert. Über den Business Central-Ordners können Sie einfacher ermitteln, welche Kontakte Sie synchronisieren. Sie können Filter festlegen, um nur bestimmte Kontakte von [!INCLUDE[prod_short](includes/prod_short.md)] nach Outlook zu synchronisieren. Nachdem Sie die Synchronisierung eingerichtet haben, können Sie die Synchronisierung manuell durchführen oder den Vorgang automatisieren, um die Synchronisierung auf geplanter Basis durchzuführen.  
 
-## <a name="set-up-synchronization"></a>Synchronisierung einrichten
-Sie geben an, wie Sie die Synchronisierung der Kontakte mit Outlook einrichten möchten auf der Seite **Exchange Synchronisierung einrichten** in [!INCLUDE[prod_short](includes/prod_short.md)]. Als Voraussetzung muss Ihr Benutzerprofil in [!INCLUDE[prod_short](includes/prod_short.md)] Ihr E-Mail-Konto in Microsoft 365 angeben. Sie können diese Einstellung im Abschnitt **Microsoft 365-Authentifizierung** Ihres Benutzerprofils in der Liste **Benutzer** überprüfen. 
+## Voraussetzungen
+
+- Auf Ihrem Benutzerprofil in [!INCLUDE[prod_short](includes/prod_short.md)] muss Ihr Microsoft 365 E-Mail angegeben sein.
+
+  Sie können diese Einstellung im Abschnitt **Microsoft 365-Authentifizierung** Ihres Benutzerprofils in der Liste **Benutzer** überprüfen.
+- Sie haben mit [!INCLUDE[prod_short](includes/prod_short.md)] die Kontaktsynchronisierung wie unter [Die Kontaktsynchronisierung mit Outlook für das lokale Business Central einrichten](admin-contact-sync-setup-onprem.md) beschrieben eingerichtet
+
+## Synchronisierung einrichten
+
+Sie geben an, wie Sie die Synchronisierung der Kontakte mit Outlook einrichten möchten auf der Seite **Exchange Synchronisierung einrichten** in [!INCLUDE[prod_short](includes/prod_short.md)]. 
 
 Auf der Seite **Exchange Synchronisierung einrichten** können Sie die Verbindung mit Exchange überprüfen und die Synchronisierung von Kontakten festlegen. Auf der Seite **Exchange Synchronisierung einrichten** können Sie die Seite **Kontaktsynchronisierung einrichten** öffnen und die Synchronisierung starten. Legen Sie optional einen Filter fest, um anzugeben, welche Kontakte synchronisiert werden sollen. Sie können beispielsweise nach Name, Typ, Unternehmen usw. filtern. Sie können auch den Standardnamen des Ordners in Outlook ändern, mit dem die Kontakte synchronisiert werden sollen.  
 
@@ -32,7 +34,8 @@ Jeder Ihrer Mitarbeiter kann die eigene Exchange-Synchronisierung einrichten und
 
 Nachdem Sie die Synchronisierung eingerichtet haben, können Sie Änderungen am Kontakt manuell synchronisieren oder den Vorgang automatisieren, indem Sie einen Projektwarteschlangenposten einrichten. Weitere Informationen zur Automatisierung finden Sie im nächsten Abschnitt dieses Artikels.
 
-### <a name="automate-synchronization"></a>Synchronisierung automatisieren
+### Synchronisierung automatisieren
+
 Sie können einen Projektwarteschlangenposten erstellen, der Kontakte gemäß einem von Ihnen definierten Zeitplan synchronisiert. Weitere Informationen finden Sie unter [Job-Warteschlangen zur Einplanung von Aufgaben verwenden](admin-job-queues-schedule-tasks.md). 
 
 In der folgenden Tabelle sind die Einstellungen auf der Seite **Karte für Aufgabenwarteschlangenposten** aufgelistet, die für die Synchronisierung vorgesehen sind:
@@ -42,7 +45,8 @@ In der folgenden Tabelle sind die Einstellungen auf der Seite **Karte für Aufga
 |Art des auszuführenden Objekts|Codeunit|
 |ID des auszuführenden Objekts|6700|
 
-## <a name="synchronize-contacts"></a>Kontakte synchronisieren
+## Kontakte synchronisieren
+
 Wenn Sie es gewohnt sind, in [!INCLUDE[prod_short](includes/prod_short.md)] mit Kontakten zu arbeiten, ist es für Sie einfach, die Synchronisierung manuell über die Liste **Kontakte** durchzuführen, falls Sie dies wünschen. Es gibt zwei Möglichkeiten, Kontakte zu synchronisieren:
 
 * **Mit Microsoft 365 synchronisieren**
@@ -58,7 +62,8 @@ In beiden Fällen werden nur Kontakte von Outlook synchronisiert, wenn die erfor
 > [!NOTE]
 > Wenn Sie einen Kontakt in Outlook löschen, ihn in [!INCLUDE[prod_short](includes/prod_short.md)] jedoch beibehalten, wird der Kontakt bei der nächsten Synchronisierung in Outlook neu erstellt. 
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
+
 [Vorbereiten auf die Geschäftsabwicklung](ui-get-ready-business.md)  
 [Finanzen](finance.md)  
 [Verkauf](sales-manage-sales.md)  

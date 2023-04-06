@@ -1,27 +1,21 @@
 ---
 title: Vorgehensweise beim Kopieren von vorhandenen Artikeln in neue Artikel
-description: Wenn Sie einen neuen Artikel hinzufügen, können Sie zur Zeitersparnis mit der Option Artikel kopieren einen vorhandenen Artikel als Vorlage für einen neuen Artikel verwenden.
+description: 'Wenn Sie einen neuen Artikel hinzufügen, können Sie zur Zeitersparnis mit der Option Artikel kopieren einen vorhandenen Artikel als Vorlage für einen neuen Artikel verwenden.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.search.forms: 729
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3e31f64136f09c1623236f976f70fea088a4106c
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130296"
 ---
-# <a name="copy-existing-items-to-create-new-items"></a>Kopieren von vorhandenen Artikeln um neue Artikel zu erstellen
+# Kopieren von vorhandenen Artikeln um neue Artikel zu erstellen
 
 Wenn Sie einen neuen Artikel hinzufügen, können Sie zur Zeitersparnis mit der Option **Artikel kopieren** einen vorhandenen Artikel als Vorlage für einen neuen Artikel verwenden.  
 
-## <a name="to-copy-an-existing-item-to-a-new-item"></a>So kopieren Sie vorhandene Elemente in neue Elemente
+## So kopieren Sie vorhandene Elemente in neue Elemente
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Elemente** ein, und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie den Artikel, den Sie kopieren möchten, und wählen Sie dann die Aktion **Artikel kopieren** aus.  
@@ -35,7 +29,7 @@ Wenn Sie einen neuen Artikel hinzufügen, können Sie zur Zeitersparnis mit der 
 
 4. Wählen Sie zum Kopieren Ihrer Auswahlen in den neuen Artikel die Schaltfläche **OK**.  
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Neue Artikel registrieren](inventory-how-register-new-items.md)  
 [Bestand einrichten](inventory-setup-inventory.md)  

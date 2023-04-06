@@ -6,21 +6,15 @@ ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments
+ms.search.keywords: 'year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments'
 ms.date: 08/29/2022
 ms.author: jswymer
-ms.openlocfilehash: ace24899aa3c872cd5ac0609dfc3ecbf63608330
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9607661"
 ---
-# <a name="overview-of-tasks-to-close-accounting-periods"></a>Überblick zu Aufgaben, Buchhaltungsperioden zu schließen
+# Überblick zu Aufgaben, Buchhaltungsperioden zu schließen
 
 [!INCLUDE[prod_short](includes/prod_short.md)] zwingt Sie nicht, Perioden zu schließen, aber es gibt viele Aktivitäten am Periodenende (Monatsende), die Sie ausführen können. Dieses Thema zeigt eine Übersicht von optionalen Vorgängen und Aktivitäten für Perioden, die bereitstehen.  
 
-## <a name="general-ledger"></a>Sachposten
+## Sachposten
 
 * Geben Sie systemweite und benutzerspezifische Buchungsperioden an.  
 
@@ -31,7 +25,7 @@ ms.locfileid: "9607661"
 * Führen Sie Finanzberichte wie folgt aus:  
   * Öffnen Sie die Seite **Finanzberichte** und klicken Sie auf **Drucken**.  
 
-## <a name="sales-and-receivables"></a>Debitoren und Verkauf
+## Debitoren und Verkauf
 
 * Alle Aufträge, Rechnungen, Gutschriften und Reklamationen werden gebucht.  
 * Buchen Sie alle Barzahlungseingangs-Buch.-Blätter.  
@@ -39,7 +33,7 @@ ms.locfileid: "9607661"
 * Stimmen Sie die Debitoren mit der Finanzbuchhaltung ab.  
 * Führen Sie die Stapelverarbeitung **Fakturierte Aufträge löschen** aus.  
 
-## <a name="purchases-and-payables"></a>Kreditoren und Einkauf
+## Kreditoren und Einkauf
 
 * Alle Aufträge, Rechnungen, Gutschriften und Reklamationen für Kreditoren werden gebucht.  
 * Buchen Sie das Zahlungsausgangs Buch.-Blatt.  
@@ -47,7 +41,7 @@ ms.locfileid: "9607661"
 * Führen Sie den Bericht **Kreditor - Saldenrückblick** aus, und stimmen Sie die Kreditoren mit der Finanzbuchhaltung ab.  
 * Führen Sie die Stapelverarbeitung **Erledigte fakturierte Bestellungen löschen** aus.  
 
-## <a name="fixed-assets"></a>Anlagen
+## Anlagen
 
 * Alle Wartungskosten wurden über die Anlagen-Buch.-Blätter oder Rechnungen gebucht.
 * Buchen Sie Regulierungen.
@@ -55,17 +49,17 @@ ms.locfileid: "9607661"
 * Buchen Sie die Abschreibung.
 * Aktualisieren und buchen Sie das Buch.-Blatt für wiederkehrende Anlagen
 
-## <a name="intercompany"></a>Intercompany
+## Intercompany
 
 * Verarbeiten von Intercompanytransaktionen.
 
-## <a name="calculate-and-process-sales-tax"></a>Berechnen und erfassen Sie die MwSt.
+## Berechnen und erfassen Sie die MwSt.
 
 * Schließen Sie Steuer-Abrechnungen ab.  
 
-## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/close-fiscal-year-dynamics-365-business-central/)
+## Siehe verwandte [Microsoft Schulungen](/training/modules/close-fiscal-year-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Jahre und Perioden abschließen](year-close-years-periods.md)  
 [Schließen der Bücher](year-close-books.md)  

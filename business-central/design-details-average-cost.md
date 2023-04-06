@@ -143,7 +143,7 @@ Die Durchschnittskosten eines Artikels werden mit einem periodischen gewichteten
 |Szenario|Buchungsdatum|Artikelpostenart|Bewertungsdatum|Bewertete Menge|Einstandsbetrag (tatsächl.)|Artikelposten Lfd. Nr.|Postennr.|  
 |--------------|-------------------------------------|-----------------------------------------------|-----------------------------------------|-----------------------------------------|------------------------------------------------|-----------------------------------------------|----------------------------------|  
 |1|01-01-20|Einkauf|01-01-20|2|20.00|1|1|  
-|2|01-15-20|(Artikel-Zu-/Abschlag)|01-01-20|2|8.00|1|2|  
+|2|01-15-20|(Artikel Zu-/Abschlag)|01-01-20|2|8.00|1|2|  
 |3|02-01-20|Verkauf|02-01-20|-1|-14.00|2|3|  
 |4|03-01-20|(Neubewertung)|03-01-20|1|-.4.00|1|4|  
 |5|02-01-20|Verkauf|03-01-20|-1|-10.00|3|5|  

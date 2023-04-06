@@ -14,6 +14,8 @@ Sie können [!INCLUDE[prod_short](includes/prod_short.md)] online ändern, indem
 
 ## Apps verwalten
 
+[!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
+
 Wenn Sie das [!INCLUDE[prod_short](includes/prod_short.md)] zuerst starten, werden bestimmte Apps bereits eingerichtet. Im Zeitverlauf werden mehr Apps für Sie zugänglich und Sie können auswählen, ob Sie die App verwenden möchten oder nicht.
 
 Beispielsweise bietet Microsoft eine App an, die die Integration mit PayPal Payments Standard ermöglicht. Diese Erweiterung wird standardmäßig eingerichtet. Wenn aber keine andere Erweiterung bereitgestellt wird, die die Integration mit einem anderen Zahlungsservice anbietet, können Sie die neue Erweiterung einrichten und dann auswählen, welcher der beiden Services verwendet werden soll.  

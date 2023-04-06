@@ -41,6 +41,8 @@ Der erste Schritt zur Einlagerung von Ausgabe ist das Erstellen der Lagereinlage
 4. Füllen Sie die Einlagerungszeilen nach Bedarf aus.
 5. Wenn die Zeilen zum Buchen bereit sind, wählen Sie die Aktion **Buchen** aus. Buchen erzeugt die Lagerplatzposten und bucht die Ausgabe der Artikel.  
 
+    [!INCLUDE [preview-posting-warehouse](includes/preview-posting-warehouse.md)]
+
 Sie können eine **Lagereinlagerung** auch direkt aus dem freigegebenen Fertigungsauftrag erstellen. Weitere Informationen finden Sie unter [Artikel mit Lagereinlagerungen einlagern](warehouse-how-to-put-items-away-with-inventory-put-aways.md).  
 
 Wenn Sie eine Lagereinlagerung buchen, wird davon ausgegangen, dass alle Arbeitsgänge entsprechend dem Standardarbeitsplan gebucht werden. Das heißt, die Ausbringungsmenge wird entsprechend dem letzten Vorgang gebucht. Sie können das FA-Istmeldungs Buch verwenden, um Abweichungen der fertiggestellten Menge zu buchen und Einstellungen der Bearbeitungszeiten vorzunehmen. Wenn Sie Teilbuchungen vorzunehmen müssen, nachdem Sie die Lagereinlagerung erstellt haben, ist dies für Rüstzeiten und Mengen für alle Arbeitsgänge mit Ausnahme des letzten Arbeitsgangs möglich. Der letzten Arbeitsgang wird durch die Lagereinlagerung gesteuert.  

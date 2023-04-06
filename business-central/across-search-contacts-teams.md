@@ -1,22 +1,17 @@
 ---
 title: Suchen nach Kontakten von Microsoft Teams
-description: Erfahren Sie, wie Sie nach Business Central-Debitoren, ‑Kreditoren und anderen Kontakten von Microsoft Teams suchen.
+description: 'Erfahren Sie, wie Sie nach Business Central-Debitoren, ‑Kreditoren und anderen Kontakten von Microsoft Teams suchen.'
 author: jswymer
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, contacts, search, messaging extensions
+ms.search.keywords: 'Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, contacts, search, messaging extensions'
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 5d6da7bb6f515fa7b65597c944694eba8dd7755c
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138742"
 ---
-# <a name="searching-for-customers-vendors-and-other-contacts-from-microsoft-teams"></a>Suche nach Debitoren, Kreditoren und anderen Kontakten von Microsoft Teams
+
+# Suche nach Debitoren, Kreditoren und anderen Kontakten von Microsoft Teams
 
 [!INCLUDE [online_only](includes/online_only.md)]. Eingeführt im Jahr 2021 Veröffentlichungszyklus 1.
 
@@ -26,7 +21,7 @@ ms.locfileid: "8138742"
 - Teilen Sie einen Kontakt als Karte in einem Teamgespräch.
 - Zeigen Sie Details zum Kontakt, den Interaktionsverlauf und andere Insights wie ausstehende Zahlungen oder offene Dokumente an.
 
-## <a name="prerequisites"></a>Voraussetzungen
+## Voraussetzungen
 
 - Sie haben Zugriff auf Microsoft Teams.
 - Sie haben die [!INCLUDE [prod_short](includes/prod_short.md)]-App in Teams installiert. Weitere Informationen finden Sie unter [Die [!INCLUDE [prod_short](includes/prod_short.md)]-App für Microsoft Teams installieren](across-install-app-for-teams.md).
@@ -35,7 +30,7 @@ ms.locfileid: "8138742"
 > [!NOTE]
 > Unabhängig davon, ob Sie über das Befehlsfeld oder das Nachrichtenerstellungsfeld suchen, werden Sie möglicherweise aufgefordert, sich beim ersten Mal anzumelden oder die App einzurichten. Dieser Schritt ist erforderlich, um nach Kontakten im richtigen Business Central-Unternehmen zu suchen. Informationen zum Einrichten der App zur Auswahl Ihres Unternehmens finden Sie unter [Ändern der Unternehmens und anderen Einstellungen in Teams](across-teams-settings.md).
 
-## <a name="look-up-contacts-from-the-command-box"></a>Vom Befehlsfeld nach Kontakten suchen
+## Vom Befehlsfeld nach Kontakten suchen
 
 Das Befehlsfeld befindet sich in Teams oben auf jedem Bildschirm. Sie können damit suchen, schnelle Aktionen ausführen oder Apps wie die [!INCLUDE [prod_short](includes/prod_short.md)]-App starten. Die Suche über das Befehlsfeld ist ideal, um schnell nach Kontakten und den zugehörigen Daten für Ihren eigenen Gebrauch zu suchen. Angenommen, Sie möchten eine E-Mail-Adresse eines Kreditors nachschlagen, um eine Kalenderbesprechung einzurichten. Oder Sie möchten den Interaktionsverlauf während eines Meetings mit einem Debitor nachschlagen.
 
@@ -56,7 +51,7 @@ Das Befehlsfeld befindet sich in Teams oben auf jedem Bildschirm. Sie können da
 
 Weitere allgemeine Informationen zum Befehlsfeld in Teams finden Sie unter [Teams – Das Befehlsfeld verwenden](https://support.microsoft.com/en-us/office/use-the-command-box-13c4e429-7324-4886-b377-5dbed539193b).
 
-## <a name="look-up-contacts-from-the-message-compose-box"></a>Vom Feld zum Erstellen einer Nachricht nach Kontakten suchen
+## Vom Feld zum Erstellen einer Nachricht nach Kontakten suchen
 
 Der Vorteil der Verwendung des Felds zum Erstellen von Nachrichten besteht darin, dass Sie einer Konversation eine Kontaktkarte direkt hinzufügen können, damit andere sie sehen können.
 
@@ -78,13 +73,13 @@ Der Vorteil der Verwendung des Felds zum Erstellen von Nachrichten besteht darin
     > [!NOTE]
     > Die Kontaktkarte wird nicht sofort an das Gespräch gesendet, damit andere sie sehen können. Sie haben die Möglichkeit, den Inhalt der Karte zu überprüfen und nach Belieben Text davor oder danach hinzuzufügen. Senden Sie dann Ihre Nachricht an den Chat, wenn Sie bereit sind.
 
-### <a name="heres-another-way"></a>Hier ist eine andere Möglichkeit
+### Hier ist eine andere Möglichkeit
 
-1. Anstatt das Symbol **Business Central** zu verwenden, geben Sie **@ Business Central** direkt im Feld zum Verfassen von Nachrichten ein.
+1. Anstatt das Symbol **Business Central** zu verwenden, geben Sie **@Business Central** direkt im Feld zum Verfassen von Nachrichten ein.
 2. Geben Sie Ihre Suchbegriffe in dem Feld ein.
-3. Verwenden Sie die Aufwärts‑ und Abwärtspfeiltasten auf der Tastatur, um einen Kontakt auszuwählen, und drücken Sie die Eingabetaste, um ihn auszuwählen.
+3. Verwenden Sie die Aufwärts‑ und Abwärtspfeiltasten auf der Tastatur, um einen Kontakt auszuwählen, und drücken Sie die <kbd>Eingabetaste</kbd>, um ihn auszuwählen.
 
-## <a name="viewing-contact-card-details"></a>Kontaktkartendetails anzeigen
+## Kontaktkartendetails anzeigen
 
 Die Kontaktkarte in Teams gibt Ihnen einen schnellen Überblick über den Debitor, Kreditor oder Kontakt. Die Karte ist interaktiv&mdash;, das heißt, Sie können weitere Informationen anzeigen oder sogar einen Kontakt ändern, indem Sie die Schaltflächen **Details** oder **Pop-out** verwenden.
 
@@ -95,7 +90,7 @@ Die Kontaktkarte funktioniert genau wie Karten für Aufzeichnungen, z. B. Artik
 > [!NOTE]
 > Alle Teilnehmer einer Teams-Unterhaltung können Karten für Business Central-Kontakte anzeigen, die Sie an die Unterhaltung senden. Um weitere Details zu Datensätzen anzuzeigen (durch Verwenden der Schaltflächen **Details** oder **Pop-out** auf einer Karte), benötigen diese jedoch Zugriff auf [!INCLUDE [prod_short](includes/prod_short.md)]. Weitere Informationen finden Sie unter [Verwalten der Microsoft Teams-Integration](admin-teams-integration.md#minimum-requirements-1).
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Übersicht über die Integration von Business Central und Microsoft Teams](across-teams-overview.md)  
 [Installieren Sie die [!INCLUDE [prod_short](includes/prod_short.md)] App für Microsoft Teams](across-install-app-for-teams.md)  

@@ -52,7 +52,7 @@ In den folgenden Abschnitten finden Sie wichtige Artikel, mit denen Sie sich ver
   - [Lagerbestand](inventory-manage-inventory.md)
   - [Projektmanagement](projects-manage-projects.md)
   - [Anlagen – Übersicht](fa-manage.md)
-  - [Marketing und Vertrieb](marketing-relationship-management.md)
+  - [Marketing & Vertrieb](marketing-relationship-management.md)
   - [Personalwesen](hr-manage-human-resources.md)
   - [Fertigungsplanung](production-planning.md)
   - [Montageverwaltung](assembly-assemble-items.md)

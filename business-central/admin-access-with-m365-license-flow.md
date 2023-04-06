@@ -12,6 +12,8 @@ ms.search.keywords: 'License, access, Microsoft 365, collaborate, collaboration,
 ---
 # Benutzerzugriffsflow für Microsoft 365-Lizenzen
 
+[!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
+
 Dieser Artikel beschreibt, was passiert, wenn ein Benutzer mit seiner Microsoft 365-Lizenz zum ersten Mal auf Business Central-Daten zugreift. Das Verständnis dieses Flows ermöglicht es Administratoren, ihren Ansatz zu planen und Business Central so zu konfigurieren, dass es ihren Geschäftsanforderungen entspricht.
 
 1. Zuerst wird die Identität des Benutzers authentifiziert 

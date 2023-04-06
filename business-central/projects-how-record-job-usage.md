@@ -6,16 +6,12 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: how-to
-ms.date: 12/20/2022
+ms.date: 03/08/2023
 ms.custom: bap-template
 ---
 # Datensatz-Verbrauch oder -Verwendung für Jobs aufzeichnen
 
 Auf der Seite **Auftragskarte** können Sie die Seite **Projektplanzeilen** öffnen, um die Nutzung verschiedener Teile Ihres Projekts zu überprüfen und zu erfassen. Diese Informationen werden automatisch aktualisiert, wenn Sie Informationen zwischen Projekten und Projekt-Buch.-Blättern oder Projektrechnungen ändern und übertragen. Dazu ist es erforderlich, dass Sie den Schalter **Link Verbrauch standardmäßig anwenden** auf der Seite **Projekteinrichtung** aktiviert ist. Erfahren Sie mehr unter [Projekte einrichten](projects-how-setup-jobs.md).  
-
-<!-- Not really sure what this paragraph is saying, or why we start with it. Why do you transfer information between jobs and job journals or job invoices? I get the use of resources and items, but what about G/L account and Text?
-
-On the Jobs Setup page there's an Apply Usage Link by Default toggle. Guessing that's what we're referring to -->
 
 Zum Beispiel können Sie für Planungszeilen der Art **Plan** die Menge einer Ressource eingeben und dann die Menge angeben, die in das Projektbuchungsblatt umgelagert wird. Wenn die Art der Planungszeile **Fakturierbar** ist, können Sie die Menge einer Ressource eingeben und dann die Menge angeben, die in das Projektbuchungsblatt umgelagert wird. Weitere Informationen zur Rechnungsstellung an den Debitor finden Sie unter [Projekte fakturieren](projects-how-invoice-jobs.md). Durch den Vergleich der ursprünglichen Menge, der verbleibenden Menge oder der gebuchten Menge können Sie die Verbrauchsinformationen schnell überprüfen. Weitere Informationen zur Einschätzung der geplante Werte bei der Planung, finden Sie unter [Verwalten von Projektbudgets](projects-how-manage-budgets.md)  
 
@@ -28,11 +24,11 @@ Die folgenden Verfahren beschreiben, wie Sie tatsächliche (budgetierte) Mengen 
 3. Wählen Sie eine Projektplanungszeile der Art **Plan** aus oder geben Sie **Plan und Fakturierbar** ein, für die Sie den Verbrauch buchen möchten.   
 
     > [!NOTE]
-    > Sie können den Datensatz auch für eine Auftragsplanungszeile vom Typ **Abrechnungsfähig** verwenden. Normalerweise verwenden Sie diese Zeile, um Rechnungen zu erstellen, aber Sie können die Informationen auch in eine Erfassung übertragen. Erfahren Sie mehr unter [Fakturieren von Projekten](projects-how-invoice-jobs.md) <!--However, when you do that, a job planning line of type **Budget** is created to match the billable line. For more information, see [Manage Job Budgets](projects-how-manage-budgets.md).-->
+    > Sie können den Datensatz auch für eine Auftragsplanungszeile vom Typ **Abrechnungsfähig** verwenden. Normalerweise verwenden Sie diese Zeile, um Rechnungen zu erstellen, aber Sie können die Informationen auch in eine Erfassung übertragen. Erfahren Sie mehr unter [Fakturieren von Projekten](projects-how-invoice-jobs.md) 
 
 4. Geben Sie im Feld **In das Journal zu übertragende Menge** die zu umzulagernde Menge ein. Der Standardwert ist der Wert, den Sie im Feld **Menge** angegeben haben.
 
-    Das Feld **Restmenge** zeigt die Menge an, die verbleibt, um das Projekt abzuschließen und in das Buch.-Blatt umzulagern. <!--Should we mention that this field is not shown by default, and that if they want to use it they must add it?--> 
+    Das Feld **Restmenge** zeigt die Menge an, die verbleibt, um das Projekt abzuschließen und in das Buch.-Blatt umzulagern.
 5. Wählen Sie die Aktion **Buch.-Blattzeilen erstellen** aus.
 
     > [!TIP]
@@ -40,6 +36,9 @@ Die folgenden Verfahren beschreiben, wie Sie tatsächliche (budgetierte) Mengen 
 6. Auf der Seite **Projekt auf Projektplanung übertragen** geben Sie die Felder wie nötig ein, und wählen Sie dann die Schaltfläche **OK**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 7. Wählen Sie die Aktion **Buch.-Blatt öffnen** aus.  
 8. Auf der Seite **Projekt Buch,-Blatt** wählen Sie die entsprechende Zeile und wählen die Aktion **Buchen** aus.
+
+    [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
+
 9. Auf der Seite **Projektplanungszeilen** überprüfen Sie den erfassten Verbrauch, indem Sie die Felder **Menge**, **Restmenge** und **Auf Buch.-Blatt zu übertragende Menge** kontrollieren.  
 10. Um zusätzlichen Verbrauch zu erfassen, wiederholen Sie die Schritte 3 bis 8.  
 
@@ -49,6 +48,8 @@ Die folgenden Verfahren beschreiben, wie Sie tatsächliche (budgetierte) Mengen 
 2. Wählen Sie im Feld **Stapelverarbeitungsname** einen entsprechenden Projekt-Buchungsblattnamen aus.  
 3. Geben Sie in einer neuen Zeile die Belegnummer, Projektnummer, Projektaufgabennummer und die Art und Menge des verbrauchten Typs ein.  
 4. Wenn die Projekt-Buch.-Blattzeilen vollständig sind, wählen Sie die Aktion **Buchen** aus.  
+
+    [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
 ## So zeigen Sie Projektverbrauchschätzungen und Buchungsaktualisierungen an.
 

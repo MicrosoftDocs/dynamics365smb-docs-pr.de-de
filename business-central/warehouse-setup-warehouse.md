@@ -1,22 +1,16 @@
 ---
 title: Konfigurieren von Lager-Prozessen
-description: Die Vertriebsstrategie einer Firma spiegelt sich in der Konfiguration ihrer Lagerprozesse wider, zum Beispiel in den Lagerorten.
+description: 'Die Vertriebsstrategie einer Firma spiegelt sich in der Konfiguration ihrer Lagerprozesse wider, zum Beispiel in den Lagerorten.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 5775, 7300, 7301, 7302, 7303, 7304, 7305, 7306, 7307, 7308, 7325, 7344, 7346, 7347, 7353, 7366
+ms.search.form: '5775, 7300, 7301, 7302, 7303, 7304, 7305, 7306, 7307, 7308, 7325, 7344, 7346, 7347, 7353, 7366'
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: d2d7e2f3f71cd0791df27eb378bfa4bf66338afa
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532322"
 ---
-# <a name="setting-up-warehouse-management"></a>Lagerortverwaltung einrichten
+# Lagerortverwaltung einrichten
 
 Die Logistikstrategie eines Mandanten spiegelt sich in der Konfiguration seiner Lagerprozesse wider. Dazu gehört die Definition der Bearbeitung unterschiedlicher Artikel an verschiedenen Lagerorten, wie z. B. der Grad der Lagerplatzkontrolle und das Ausmaß des erforderlichen Workflows zwischen Lageraktivitäten.  
 
@@ -24,7 +18,7 @@ Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Themen,
 
 |**Aufgabe**|**Siehe**|  
 |------------|-------------|  
-|Verschaffen Sie sich einen Überblick über die Kapazitäten der grundlegenden und erweiterten Lagerfunktionalität.|[Designdetails: Lagerübersicht](design-details-warehouse-overview.md)|  
+|Verschaffen Sie sich einen Überblick über die Kapazitäten der grundlegenden und erweiterten Lagerfunktionalität.|[Lagerverwaltung – Übersicht](design-details-warehouse-management.md)|  
 |Richten Sie acht verschiedene Lagerplatzarten ein, wie z. B. Kommissionierungslagerplatz, um die Workflowaktivitäten zu definieren, die sich auf die einzelnen Lagerplatzarten beziehen.|[Lagerplatzarten einrichten](warehouse-how-to-set-up-bin-types.md)|  
 |Erstellen Sie Lagerplätze entweder manuell oder automatisch mit Informationen wie Name, Nummernserie und Kategorie entsprechend einer Lagerplatzvorlage.|[Lagerplätze erstellen](warehouse-how-to-create-individual-bins.md)|  
 |Definieren Sie die Artikel, die Sie an einem bestimmten Lagerplatz aufbewahren möchten, und legen Sie die Regeln dafür fest, wann der Lagerplatz mit einem bestimmten Artikel aufgefüllt werden soll.|[Lagerplatzinhalt erstellen](warehouse-how-to-set-up-bin-contents.md)|  
@@ -39,17 +33,14 @@ Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Themen,
 |Ermöglichen Sie es Lagermitarbeitern, eine größere Einheit in kleinere Einheiten aufzubrechen, um die Anforderungen von Herkunftsbelegen zu erfüllen.|[Automatisches Teilen von Gebindeeinheiten mit gesteuerter Einlagerung und Kommissionierung aktivieren](warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md)|  
 |Richten Sie ein, dass das Lager automatisch Artikel für die Kommissionierung vorschlägt, die zuerst ablaufen.|[Aktiveren der Kommissionierung nach FEFO](warehouse-picking-by-fefo.md)|
 |Sie erhalten Tipps zur Neuorganisation von Lagerorten, Lagerplätzen oder Zonen, um weitere effiziente Lageraktivitäten zu erhalten.|[Lager umstrukturieren](warehouse-how-to-restructure-warehouses.md)|
-|Integrieren Sie Barcodeleser in Ihrer Logistiklösung. Nur für lokale Bereitstellung.|[Automatisierte Datenerfassung (MDE) verwenden](warehouse-use-automated-data-capture-systems-adcs.md)|
 |Geben Sie Standardberichte an, die für verschiedene Dokumenttypen verwendet werden sollen.|[Berichtsauswahl in Business Central](across-report-selections.md)|
 
-## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/paths/set-up-warehouse-management/)
+## Siehe verwandte [Microsoft Schulungen](/training/paths/set-up-warehouse-management/)
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
-[Logistik](warehouse-manage-warehouse.md)  
 [Bestand](inventory-manage-inventory.md)  
 [Montageverwaltung](assembly-assemble-items.md)  
-[Designdetails: Warehouse Management](design-details-warehouse-management.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

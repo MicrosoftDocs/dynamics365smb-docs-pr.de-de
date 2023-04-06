@@ -51,7 +51,7 @@ Wenn Sie vorhandene Debitoren, Kreditoren und Bankkonten haben, für die Sie Kon
 2. Legen Sie auf der geöffneten Anforderungsseite in den Abschnitten **Debitor**, **Kreditor** oder **Bankkonto** die Filter fest, wenn Sie Kontakte aus bestimmten Debitoren, Kreditoren oder Bankkonten erstellen möchten.
 3. Klicken Sie auf **OK**, um mit der Erstellung der Kontakte zu beginnen.
 
-Den neuen Kontakten werden die nächsten Kontaktnummern aus der Nummernserie zugewiesen. Den neu erstellten Kontakten wird automatisch der Geschäftsbeziehungscode zugewiesen, der auf der Seite **Marketing und Vertrieb Einr.** festgelegt wurde.
+Den neuen Kontakten werden die nächsten Kontaktnummern aus der Nummernserie zugewiesen. Den neu erstellten Kontakten wird automatisch der Geschäftsbeziehungscode zugewiesen, der auf der Seite **Marketing & Vertrieb Einr.** festgelegt wurde.
 
 > [!TIP]  
 > Sie können dies auch andersherum tun, z. B. indem Sie einen Debitor, einen Kreditor, einen Mitarbeiter oder ein Bankkonto aus einem Kontakt erstellen. Weitere Informationen finden Sie unter [Erstellen eines Kunden, Kreditors, Mitarbeiters oder Bankkontos über einen Kontakt](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).

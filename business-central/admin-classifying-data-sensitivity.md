@@ -28,6 +28,7 @@ Die folgende Tabelle beschreibt Datenempfindlichkeitsebenen, die Sie zuweisen k�
 |Normal | Allgemeine Daten, die keine andere Klassifizierung haben.|
 
 ## Wie klassiere ich meine Daten?
+
 Das Klassifizieren der Empfindlichkeit vieler Feler kann lange dauern. Um den Vorgang zu beschleunigen, stellen wir Werkzeuge bereit, die Sie verwenden können, um die sensiblen Felder aufeinmal zu klassieren. Sie können danach bestimmte Felder noch weiter abstimmen. bestimmte Felder. Sie können Werkzeuge im Feld Daten-Klassifizierungsarbeitsblatt suchen, die für die Verwaltung von Benutzern, Benutzergruppen und Rollencenter-Berechtigungen verfügbar sind. Zur Ausführung dieser Aktivität benötigen Sie Administratorrechte oder müssen das Arbeitsblatt nutzen.
 
 > [!Important]

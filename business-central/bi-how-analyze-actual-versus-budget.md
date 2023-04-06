@@ -1,29 +1,23 @@
 ---
 title: Tatsächlichen Beträge mit den budgetierten Beträgen analysieren
-description: In diesem Artikel wird beschrieben, wie Sie die tatsächlichen Beträge im Vergleich zu den geplanten Beträgen analysieren können, um Daten Ihrer Firma zu erfassen, zu analysieren und weiterzugeben.
+description: 'In diesem Artikel wird beschrieben, wie Sie die tatsächlichen Beträge im Vergleich zu den geplanten Beträgen analysieren können, um Daten Ihrer Firma zu erfassen, zu analysieren und weiterzugeben.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: bi, power BI, analysis, KPI
-ms.search.form: 120, 121, 422
+ms.search.keywords: 'bi, power BI, analysis, KPI'
+ms.search.form: '120, 121, 422'
 ms.date: 09/14/2022
 ms.author: edupont
-ms.openlocfilehash: 927622bf51f4474d995cd2e35f72ec3111844886
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605272"
 ---
-# <a name="analyze-actual-amounts-versus-budgeted-amounts"></a>Tatsächlichen Beträge mit den budgetierten Beträgen analysieren
+# Tatsächlichen Beträge mit den budgetierten Beträgen analysieren
 
 Als Teil des Zusammentragen, Analysieren und Teilen der Firmendaten sehen Sie aktuelle Beträge verglichen mit den budgetierten Beträgen für alle Konten sowie für mehrere Perioden.
 
 Um die budgetierten Beträge zu analysieren, müssen Sie zunächst Sachkontenbudgets erstellen. Erfahren Sie mehr unter [Sachkontenbudgets erstellen](finance-how-create-budgets.md).
 
-## <a name="view-a-gl-budget"></a>Ein Sachkontenbudget anzeigen
+## Ein Sachkontenbudget anzeigen
 
 In einem Budget mit Dimensionen können Sie die Posten filtern und somit bestimmte Budgets einsehen.
 
@@ -40,7 +34,7 @@ In einem Budget mit Dimensionen können Sie die Posten filtern und somit bestimm
 > [!TIP]  
 > Verwenden Sie die Aktion **Budget bearbeiten**, um das Budget zu ändern. Wählen Sie auf der Budgetseite einen Betrag aus, um die zugrundeliegenden Sachkonto-Budgeteinträge anzuzeigen.
 
-## <a name="view-actual-and-budgeted-amounts-for-all-accounts"></a>Anzeigen der tatsächlichen und budgetierten Beträge für alle Konten
+## Anzeigen der tatsächlichen und budgetierten Beträge für alle Konten
 
 Sie können Finanzbudgets anzeigen und sie mit tatsächlichen Werten in verschiedenen Bereichen von [!INCLUDE[prod_short](includes/prod_short.md)] vergleichen.
 
@@ -57,7 +51,7 @@ Die Spalten auf der linken Seite enthalten den Kontenplan. Von den fünf Spalten
 > [!TIP]  
 > Wählen Sie auf der Seite **Saldo/Budget** mithilfe des Felds **Anzeigen nach** die gewünschte Periodenlänge aus. Verwenden Sie das Feld **Ansicht als**, um auszuwählen, wie die Beträge berechnet werden sollen, entweder **Nettoänderung** oder **Saldo zum Datum**. Klicken Sie auf der Registerkarte Aktionen auf **Vorperiode** oder F **olgeperiode**, um die Periode zu ändern.  
 
-## <a name="to-view-actual-and-budgeted-amounts-for-several-periods"></a>Aktuelle und budgetierte Beträge für mehrere Perioden anzeigen:  
+## Aktuelle und budgetierte Beträge für mehrere Perioden anzeigen:  
 
 Anstatt die aktuellen und budgetierten Beträge für alle Konten für eine einzige Periode einzusehen, können Sie eine Anzahl von Perioden für ein einziges Konto einsehen.  
 
@@ -66,9 +60,9 @@ Anstatt die aktuellen und budgetierten Beträge für alle Konten für eine einzi
 3. Füllen Sie auf dem Inforegister **Optionen** die erforderlichen Felder aus, um festzulegen, was in der Tabelle angezeigt werden soll.  
 4. Fahren Sie auf der Seite **Zeilen** Inforegister mit dem Mauszeiger über ein Feld in der Tabelle, um eine kurze Beschreibung des angezeigten Betrags zu lesen.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Siehe dazu die Schulung unter [Microsoft Learn](/learn/modules/budgets-exchange-rates-dynamics-365-business-central/index).
+## Siehe dazu die Schulung unter [Microsoft Learn](/learn/modules/budgets-exchange-rates-dynamics-365-business-central/index).
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Financial Business Intelligence](bi.md)  
 [Arbeiten mit Financial Reports](bi-how-work-account-schedule.md)  

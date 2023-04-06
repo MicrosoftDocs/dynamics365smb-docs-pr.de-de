@@ -1,23 +1,17 @@
 ---
 title: Übersicht über die Aufgaben zum Verwalten von Kreditorenkonten
-description: Gliedert Aufgaben, um Debitoren zu verwalten, beispielsweise zahlende Gläubiger oder ausgehende Zahlungen an Buch-Posten, um Rechnungen oder Gutschriften zu schließen.
+description: 'Gliedert Aufgaben, um Debitoren zu verwalten, beispielsweise zahlende Gläubiger oder ausgehende Zahlungen an Buch-Posten, um Rechnungen oder Gutschriften zu schließen.'
 author: edupont04
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: vendor payment, creditor, debt, balance due, AP
-ms.search.form: 161, 254, 256, 347, 574, 599, 9002
+ms.search.keywords: 'vendor payment, creditor, debt, balance due, AP'
+ms.search.form: '161, 254, 256, 347, 574, 599, 9002'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c3049cc4dd488a7ff7648d2a11d0371ac463daa6
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9531441"
 ---
-# <a name="managing-payables"></a>Verwalten von Verbindlichkeiten
+# Verwalten von Verbindlichkeiten
 
 Ein Teil der Verwaltung großer aus das Wareneinkaufskonto zahlt Ihre Kreditoren oder erstattet Mitarbeiter für Ausgaben zurück. Sie können Funktionalität verwenden, um die Seite **Zahlung Buch.-Blatt** automatisch mit Zahlungszeilen für fällige Einkaufsrechnungen auszufüllen. Um die entsprechenden Banktransaktionen schnell auszuführen, können Sie mehrere Zahlungsausgangs Buch.-Blattzeilen in eine Datei exportieren, die Sie dann für Ihre Bank für die Verarbeitung hochladen. Sie können Zahlungen auch mit Scheck leisten inkl. der Möglichkeit, Schecks als elektronisches Zahlungsmittel zu senden.
 
@@ -35,9 +29,9 @@ Die folgende Tabelle enthält eine Abfolge von Aufgaben sowie Links zu den Kredi
 |Um eine korrekte Bewertung sicherzustellen, müssen Ihre Lagerartikel Kosten wie Fracht, Versicherung, Umlagerung und Transport enthalten, die beim Kauf oder Verkauf entstehen.|[Verwenden von Artikelzuschlägen für zusätzliche Kosten](payables-how-assign-item-charges.md)|
 |Erstatten Sie Mitarbeitern persönliche Ausgaben für die Geschäftsaktivitäten zurück, indem Sie Zahlung zu dem Bankkonto vornehmen.|[Geschäftsverwandte Ausgaben der Beschäftigten aufzeichnen und zurückzahlen](finance-how-record-reimburse-employee-expenses.md)|
 
-## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/paths/process-customer-vendor-payments-dynamics-365-business-central/)
+## Siehe verwandte [Microsoft Schulungen](/training/paths/process-customer-vendor-payments-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 [Einkauf](purchasing-manage-purchasing.md)  
 [Verwalten von Forderungen](receivables-manage-receivables.md)  
 [Verwenden von Artikelzuschlägen für zusätzliche Kosten](payables-how-assign-item-charges.md)  
