@@ -32,12 +32,12 @@ Wenn Artikel bei einem Lager ankommen, das für die Bearbeitung von Wareneingän
 Sie können einen Wareneingang auf eine von zwei Arten erstellen:
 
 * Im Push-Verfahren, wenn die Arbeit auftragsbezogen erledigt wird. Wählen Sie die Aktion **Wareneingang erstellen** im Herkunftsbeleg, z. B. Bestellung, Verkaufsreklamation oder Umlagerungsauftrag, um den Wareneingang für einen Herkunftsbeleg zu erstellen.
-*-* In einem Pull-Verfahren, bei dem Sie die Aktion **Freigeben** im Herkunftsbeleg verwenden, z. B. in einer Bestellung, einer Verkaufsreklamation oder einem Umlagerungsauftrag, um den Beleg an das Lager freizugeben. Ein Lagermitarbeiter erstellt einen **Wareneingang** für einen oder mehrere freigegebene Herkunftsbelege. Das folgende Verfahren beschreibt, wie Sie einen Wareneingang in einem Pull-Verfahren erstellen. Das folgende Verfahren beschreibt, wie Sie einen Wareneingang in einem Pull-Verfahren erstellen. 
+* In einem Pull-Verfahren, bei dem Sie die Aktion **Freigeben** im Herkunftsbeleg verwenden, z. B. in einer Bestellung, einer Verkaufsreklamation oder einem Umlagerungsauftrag, um den Beleg an das Lager freizugeben. Ein Lagermitarbeiter erstellt einen **Wareneingang** für einen oder mehrere freigegebene Herkunftsbelege. Das folgende Verfahren beschreibt, wie Sie einen Wareneingang in einem Pull-Verfahren erstellen. Das folgende Verfahren beschreibt, wie Sie einen Wareneingang in einem Pull-Verfahren erstellen.
 
 1. Wählen Sie das Symbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Wareneingänge** ein, und wählen Sie dann den entsprechenden Link.  
 2. Wählen Sie die Aktion **Neu**.  
 
-    Füllen Sie das Feld **Lagerplatzcode** im Inforegister **Allgemein** aus. Beim Abrufen der Herkunftsbelegzeilen werden einige der Informationen in jede Zeile kopiert. 
+    Füllen Sie das Feld **Lagerplatzcode** im Inforegister **Allgemein** aus. Beim Abrufen der Herkunftsbelegzeilen werden einige der Informationen in jede Zeile kopiert.
 
     Für einen Lagerort, der Lagerplätze erfordert, füllen Sie das Feld **Lagerplatzcode** aus. Je nach Einrichtung kann [!INCLUDE[prod_short](includes/prod_short.md)] den Lagerplatzcode für Sie hinzufügen. Erfahren Sie mehr unter [Zone und Lagerplatzcodes](warehouse-how-receive-items.md#zone-and-bin-codes).  
 
@@ -56,13 +56,15 @@ Sie können einen Wareneingang auf eine von zwei Arten erstellen:
 
 5. Buchen Sie den Wareneingang. Die Mengenfelder in den Herkunftsbelegen werden aktualisiert und die Artikel werden dem Lagerbestand hinzugefügt.  
 
+    [!INCLUDE [preview-posting-shipment](includes/preview-posting-shipment.md)]
+
     > [!TIP]
-    > Wenn Sie die Lagereinlagerung verwenden, die sich auf Methode D in der Tabelle am Anfang dieses Artikels bezieht, werden die Artikel empfangen, können aber erst kommissioniert werden, wenn sie eingelagert wurden. Weitere Informationen zum Einlagern von Artikeln finden Sie unter [Einlagern von Artikeln mit Lagereinlagerungen](warehouse-how-to-put-items-away-with-warehouse-put-aways.md). 
-    > 
+    > Wenn Sie die Lagereinlagerung verwenden, die sich auf Methode D in der Tabelle am Anfang dieses Artikels bezieht, werden die Artikel empfangen, können aber erst kommissioniert werden, wenn sie eingelagert wurden. Weitere Informationen zum Einlagern von Artikeln finden Sie unter [Einlagern von Artikeln mit Lagereinlagerungen](warehouse-how-to-put-items-away-with-warehouse-put-aways.md).
+    >
     > Ziehen Sie andernfalls die Aktion **Buchen und drucken** in Betracht. Die Aktion bucht den Beleg und druckt ihn als Einlagerungsanweisung, die zeigt, wo der Artikel eingelagert werden soll.
 
-> [!NOTE]  
-> Wenn Ihr Lager Cross-Docking verwendet, können Sie prüfen, ob Sie Artikel Cross-Dock-fähig sind, ohne sie einzulagern. Weitere Informationen zum Cross-Docking finden Sie unter [Cross-Docking von Artikeln](warehouse-how-to-cross-dock-items.md).
+    > [!NOTE]  
+    > Wenn Ihr Lager Cross-Docking verwendet, können Sie prüfen, ob Sie Artikel Cross-Dock-fähig sind, ohne sie einzulagern. Weitere Informationen zum Cross-Docking finden Sie unter [Cross-Docking von Artikeln](warehouse-how-to-cross-dock-items.md).
 
 ## So verwenden Sie Filter zum Abrufen von Herkunftsbelegen
 

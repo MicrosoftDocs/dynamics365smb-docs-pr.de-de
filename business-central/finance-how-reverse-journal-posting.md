@@ -1,15 +1,12 @@
 ---
 title: Rückgängigmachen einer Buchung durch Buchung einer Umkehrbuchung
-description: 'Wenn Sie fehlerhafte Buchungen im Fibu Buch.-Blatt vorgenommen haben, können Sie die Funktion verwenden, um die korrekte Buchung mit einem Protokoll zu stornieren.'
+description: 'Wenn Sie fehlerhafte Buchungen im Fibu Buch.-Blatt finden, können Sie die Aktion Transaktion zurückbuchen verwenden, um die korrekte Buchung mit einem Protokoll zu stornieren.'
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: reimbursement
-ms.search.form: '20, 25, 29, 38, 202, 5912,'
-ms.date: 07/22/2021
 ms.author: bholtorf
+ms.reviewer: bnielse
+ms.topic: how-to
+ms.date: 03/28/2023
+ms.custom: bap-template
 ---
 # Buchungen stornieren und Belege/Lieferungen rückgängig machen
 
@@ -93,6 +90,5 @@ Die Schritte sind denen der gebuchten Rücksendungen ähnlich.
 [Arbeiten mit Fibu Buch.-Blättern](ui-work-general-journals.md)  
 [Finanzen](finance.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

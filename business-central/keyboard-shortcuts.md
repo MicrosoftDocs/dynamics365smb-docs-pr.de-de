@@ -3,12 +3,12 @@ title: Tastenkombinationen
 description: 'Die gesamte Übersicht der Tastenkombinationskombinationen, um mit den Daten effizient zu arbeiten.'
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: 'accessibility, shortcuts, keyboarding, keys'
-ms.date: 08/16/2022
+ms.date: 02/09/2023
 ms.author: jswymer
+ms.review: jswymer
+ms.service: dynamics365-business-central
+ms.custom: bap-template
 ---
 
 # Tastenkombinationen
@@ -39,6 +39,7 @@ Die folgende Tabelle beschreibt Tastenkombinationen, um in verschiedenen Element
 
 |Wählen Sie diese Tasten aus<br />(in Mac Os)|Vorgehensweise|
 |--------------------------------|----------|
+|<kbd>Alt</kbd>|Zugriffsschlüssel zum Auswählen von Aktionen in der Aktionsleiste und im Navigationsmenü auf der Seite anzeigen. Weitere Informationen finden Sie unter [Zugriffsschlüssel](#access-keys-for-action-bar-and-navigation-menu).|
 |<kbd>Alt</kbd>+<kbd>Nach oben Pfeil</kbd>|Öffnen einer Dropdownliste, um einen Wert für ein Feld suchen.|
 |<kbd>Alt</kbd>+<kbd>Nach oben Pfeil</kbd>|Anzeigen von QuickInfo für ein Feld oder eine Spaltenüberschrift einer Tabelle. Wenn das Feld Überprüfungsfehler hat, wählen Sie <kbd>ALT</kbd>+<kbd>NACH-OBEN</kbd>, um den Überprüfungsfehler anzuzeigen. Wählen Sie <kbd>Esc</kbd> oder <kbd>ALT</kbd>+<kbd>NACH-OBEN</kbd>, um die QuickInfo zu schließen.|
 |<kbd>F2</kbd>|Schalten Sie zwischen der Auswahl des gesamten Feldwerts oder der Platzierung des Cursors am Ende des Feldwerts um.|
@@ -51,7 +52,7 @@ Die folgende Tabelle beschreibt Tastenkombinationen, um in verschiedenen Element
 |<kbd>Alt</kbd>+<kbd>Umschalt</kbd>+<kbd>N</kbd> |Schließen Sie eine neu erstellte Seite und öffnen Sie eine neue, um einen neuen Datensatz zu erstellen. Ebenso bucht <kbd>Alt</kbd>+<kbd>F9</kbd> einen Beleg und erstellt ein neues.|
 |<kbd>Alt</kbd>+<kbd>T</kbd>|Öffnen der Seite **Meine Einstellungen**.|
 |<kbd>Alt</kbd>+<kbd>Nach-rechts-Taste</kbd>|Nachschlagen zusätzlicher Informationen oder zugrunde liegender Werte für ein Feld, das die ![Bearbeitungshilfe.](media/assist-edit-icon.png "AssistEdit-Schaltfläche") Schaltfläche enthält. Wird verwendet, wenn die übliche Dropdown-Schaltfläche (<kbd>Alt</kbd>+<kbd>Aufwärtspfeil</kbd>) im selben Feld für einen anderen Zweck verwendet wird.|
-|<kbd>Strg</kbd>+<kbd>Alt</kbd>+<kbd>Umschalttaste</kbd>+<kbd>C</kbd>|Informationen in der Unternehmenskennzeichnung anzeigen. Diese Verknüpfung wurde in Business Central 2022 Veröffentlichungszyklus 2 (Version 21) eingestellt und durch <kbd>Strg</kbd>+<kbd>O</kbd> ersetzt. |
+|<kbd>Strg</kbd>+<kbd>Alt</kbd>+<kbd>Umschalttaste</kbd>+<kbd>C</kbd>|Informationen in der Unternehmenskennzeichnung anzeigen. Diese Verknüpfung wurde in Business Central 2022 Veröffentlichungszyklus 2 (Version 21) eingestellt und wird nicht mehr unterstützt. Sie wurde durch <kbd>Strg</kbd>+<kbd>O</kbd> ersetzt. |
 |<kbd>Strg</kbd>+<kbd>Alt</kbd>+<kbd>F1</kbd>|Öffnen und schließen Sie den Seitenüberprüfungsbereich. Der Seitenüberprüfungsbereich zeigt Informationen zur Seite, wie deren Herkunftstabelle, Felder, Filter, Erweiterungen und mehr.<br /><br />Weitere Informationen finden Sie unter [Überprüfen von Seiten](across-inspect-page.md).|
 |<kbd>Strg</kbd>+<kbd>C</kbd> |Den Wert des Felds kopieren. Wenn das Feld im Fokus liegt und Sie keinen Text in diesem Feld ausgewählt haben, wird hierdurch der gesamten Wert kopiert. Wenn Sie Text in diesem Feld ausgewählt haben, wird nur der markierte Text kopiert.|
 |<kbd>Strg</kbd>+<kbd>F1</kbd>|Öffnet je nach Business Central-Version den [Hilfebereich](product-help-and-support.md#help-pane) oder einen Business Central-Hilfeartikel zu [Microsoft Learn](/dynamics365/business-central/), je nach Business Central-Version.|
@@ -245,6 +246,19 @@ In der folgenden Tabelle werden die Tastenkombinationen auf einem numerischen Ta
 |--------------------------------|----------|
 |<kbd>ALT</kbd>+<kbd>Dezimaltrennzeichen</kbd>|Schalten Sie die Ausgabe der Dezimaltrenntaste entweder auf einen Punkt (.) oder das durch die festgelegte **Region**-Einstellung der **Meine Einstellungen** Seite Zeichen um. Weitere Informationen finden Sie unter [Festlegen des Dezimaltrennzeichens, das von numerischen Tastaturen verwendet wird](ui-enter-data.md#decimal).|
 
+
+## Zugriffstasten für Aktionsleiste und Navigationsmenü
+
+Zugriffstasten sind Tastenkombinationen, die bestimmte Aktionen in der Aktionsleiste und im Navigationsmenü auswählen, sodass Sie durch Aktionen navigieren können, um zur gewünschten Seite zu gelangen. Zugriffsschlüssel sind im Business Central-Webclient verfügbar und ähneln den Zugriffsschlüsseln in Excel und Word Online.  
+
+Um Zugriffstasten auf einer Seite zu verwenden, drücken Sie zuerst die <kbd>Alt</kbd> Taste, um *Tastentipps* anzuzeigen, die aus Buchstaben in kleinen Kästchen neben den Aktionen in der Aktionsleiste und im Navigationsmenü bestehen. 
+
+![Bild, das Zugriffsschlüssel auf der Kundenlistenseite zeigt.](media/access-keys.png) 
+
+Um eine Aktion auszuwählen, wählen Sie die im Tastentipp angezeigte Tastenkombination aus, z. B. <kbd>H</kbd> oder <kbd>J</kbd>+<kbd>F</kbd>.
+- Wenn die Aktion ein Untermenü mit anderen Aktionen öffnet, werden die Tastentipps für das Untermenü angezeigt, sodass Sie die Zugriffstasten weiterhin verwenden können, wenn Sie möchten.
+- Wenn die Aktion eine andere Seite öffnet, sind wichtige Tipps deaktiviert. Um sie wieder anzuzeigen, drücken Sie die <kbd>Alt</kbd> Taste. 
+ 
 ## Siehe auch
 
 [Tastatur-Kurzreferenz - nur PC](keyboard-shortcuts-cheatsheet.md)  

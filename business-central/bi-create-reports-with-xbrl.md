@@ -90,8 +90,12 @@ Der erste Schritt bei der Arbeit mit der XBRL-Funktionalität besteht darin, ein
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol, geben Sie **XBRL-Taxonomies** ein und wählen Sie dann den entsprechenden Link.  
 2. Erstellen Sie auf der Seite **XBRL Taxonomie** eine neue Zeile, und geben Sie Name und Beschreibung der Taxonomie ein.  
 3. Wählen Sie die Aktion **Schemas** und fügen Sie dann die Beschreibung des Schemas ein.  
-4. Um das Schema zu importieren, wählen Sie auf der Seite **XBRL-Schemata** die Aktion **Importieren** und wählen dann einen Ordner und eine XSD-Datei aus. Wählen Sie **Öffnen**.  
-5. Um die Linkbase zu importieren, wählen Sie auf der Seite **XBRL-Schemata** die Aktion **Linkbases** und wählen dann einen Ordner und eine XML-Datei aus. Wählen Sie **Öffnen**.  
+4. Wählen Sie zum Importieren des Schemas auf der Seite **XBRL-Schemas** die Aktion **Importieren** aus und führen Sie dann einen der folgenden Schritte aus Schritte zum Hochladen der Datei:
+
+   [!INCLUDE[file-upload](includes/file-upload.md)]
+5. Wählen Sie zum Importieren der Linkbase auf der Seite **XBRL-Schemas** die Aktion **Linkbase** aus und führen Sie dann einen der folgenden Schritte aus Schritte zum Hochladen der Datei:
+
+   [!INCLUDE[file-upload](includes/file-upload.md)] 
 6. Jetzt können Sie die Linkbase auf das Schema anwenden. Wiederholen Sie den Vorgang, bis Sie alle Linkbases importiert haben.  
 7. Wählen Sie die **Auf Taxonomie anwenden** Aktion aus, um die Linkbase auf das Schema anzuwenden.  
 

@@ -44,7 +44,7 @@ Eine Kampagne ist eine Aktivität, die mehrere Kontakte umfasst. Ein wichtiger S
 
 ## Hintergrund
 
- Der Marketingmanager in der Verkaufsabteilung der CRONUS ist für die Planung und Durchführung von Kampagnen verantwortlich. Er entscheidet auch, an welchen Messen das Unternehmen teilnimmt, und bewertet den Fortschritt von Kampagnen.  
+ Der Marketingmanager in der Verkaufsabteilung der CRONUS ist für die Planung und Durchführung von Kampagnen verantwortlich. Der Marketingmanager entscheidet auch, an welchen Messen das Unternehmen teilnimmt, und bewertet den Fortschritt von Kampagnen.  
 
  Der Marketingmitarbeiter in der Marketingabteilung ist für die Herstellung, Verteilung und Platzierung von Marketingmaterial zuständig.  
 
@@ -96,7 +96,7 @@ Die Seite **Segment** enthält jetzt eine auf dem eingegebenen Filter beruhende 
 
 ## Data Mining
 
- Der Marketingmanager untersucht die segmentierte Kontaktliste genauer und stellt fest, dass die Liste viel zu umfangreich ist. Er entscheidet, die Liste basierend auf tatsächlichen Interessenten einzuschränken, um sicherzustellen, dass er sich auf die richtige Zielgruppe konzentriert. Dieser Prozess der Neudefinition und Reduktion der Daten wird als Data Mining bezeichnet.  
+ Der Marketingmanager untersucht die segmentierte Kontaktliste genauer und stellt fest, dass die Liste viel zu umfangreich ist. Der Manager entscheidet, die Liste basierend auf tatsächlichen Interessenten einzuschränken, um sicherzustellen, dass er sich auf die richtige Zielgruppe konzentriert. Dieser Prozess der Neudefinition und Reduktion der Daten wird als Data Mining bezeichnet.  
 
 ### So entfernen Sie Kontakte aus dem Segment  
 
@@ -194,7 +194,7 @@ Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Fu
 8. Deaktivieren Sie auf der Seite **Segment protokollieren** das Kontrollkästchen **Anhänge senden**. Wählen Sie dann die Schaltfläche **OK** aus, um die Meldung, dass das Segment protokolliert wurde, zu bestätigen.  
   
 ## Siehe auch  
-[Marketing & Vertrieb](marketing-relationship-management.md)  
+[Beziehungsmanagement](marketing-relationship-management.md)  
  [Exemplarische Vorgehensweisen für Geschäftsprozesse](walkthrough-business-process-walkthroughs.md)  
  [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

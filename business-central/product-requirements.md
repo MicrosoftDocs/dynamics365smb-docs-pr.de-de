@@ -2,13 +2,13 @@
 title: Mindestanforderungen bei der Verwendung von Business Central
 description: 'Informieren Sie sich über die minimalen System- und Versionsanforderungen für die Verwendung von Business Central online, die im Folgenden beschrieben werden.'
 author: jswymer
-ms.topic: get-started-article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: overview
+ms.custom: bap-template
 ms.search.keywords: version
-ms.date: 08/23/2022
+ms.date: 02/28/2023
+ms.review: jswymer
 ms.author: jswymer
+ms.service: dynamics365-business-central
 ---
 # Mindestanforderungen für die Nutzung von Business Central
 
@@ -64,7 +64,7 @@ Das Admin Center funktioniert mit der aktuellen Version der folgenden Browser:
 
 ## Business Central lokal verwenden
 
-Wenn Sie Business Central lokal bereitstellen möchten, sollten Sie die Systemanforderungen überprüfen. Weitere Informationen finden Sie unter [Systemvoraussetzungen für Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirements-business-central-v20)und [Bereitstellungsübersicht](/dynamics365/business-central/dev-itpro/deployment/deployment).  
+Wenn Sie Business Central lokal bereitstellen möchten, sollten Sie die Systemanforderungen überprüfen. Weitere Informationen finden Sie unter [Systemvoraussetzungen für Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirements-business-central-v22)und [Bereitstellungsübersicht](/dynamics365/business-central/dev-itpro/deployment/deployment).  
 
 ## Siehe auch
 

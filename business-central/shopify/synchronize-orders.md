@@ -28,7 +28,9 @@ Eine reguläre Shopify-Bestellung kann zusätzlich zur Zwischensumme Kosten enth
 
 Aktivieren Sie **Aufträge automatisch erstellen**, um automatisch Verkaufsaufträge in [!INCLUDE[prod_short](../includes/prod_short.md)] zu erstellen, sobald der Shopify-Auftrag importiert ist.
 
-Der Verkaufsbeleg in [!INCLUDE[prod_short](../includes/prod_short.md)] enthält einen Link zur Shopify- Bestellung. Wenn Sie das Feld **Shopify-Auftragsnummer in Belegzeile** auswählen, werden diese Informationen in den Verkaufszeilen vom Typ *Kommentar* wiederholt.
+Wenn Sie einen Verkaufsbeleg automatisch freigeben möchten, aktivieren Sie die Umschaltung **Kundenauftrag automatisch freigeben**.
+
+Der Verkaufsbeleg in [!INCLUDE[prod_short](../includes/prod_short.md)] stellt eine Verknüpfung zu der Shopify-Reihenfolge her, und Sie können ein Feld hinzufügen, das noch nicht auf der Seite angezeigt wird. Um mehr über das Hinzufügen eines Felds zu erfahren, gehen Sie zu [Um mit der Personalisierung einer Seite über das Banner **Personalisierung** zu beginnen](../ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner). Wenn Sie das Feld **Shopify-Auftragsnummer in Belegzeile** auswählen, werden diese Informationen in den Verkaufszeilen vom Typ **Kommentar** wiederholt.
 
 Im Feld **Steuergebietsquelle** können Sie die Priorität für die Auswahl des Steuergebietscodes oder der MwSt.-Geschäftsbuchungsgruppe basierend auf der Adresse festlegen. Die importierte Shopify Bestellung enthält Informationen zu Steuern, aber die Steuern werden neu berechnet, wenn Sie den Verkaufsbeleg erstellen, daher ist es wichtig, dass die Mehrwertsteuer-/Steuereinstellungen korrekt sind [!INCLUDE[prod_short](../includes/prod_short.md)]. Weitere Informationen über Steuern finden Sie unter [Steuern für die Shopify-Verbindung festlegen](setup-taxes.md).
 
@@ -75,11 +77,11 @@ Nachfolgend wird beschrieben, wie Sie die Verkaufsaufträge importieren und aktu
 > [!NOTE]  
 > Beim Filtern nach Tag sollten Sie die Filtertoken `@` und `*` verwenden. Wenn Sie beispielsweise Bestellungen importieren möchten, die *tag1* enthalten, verwenden Sie `@*tag1*`. `@` stellt sicher, dass das Ergebnis die Groß-/Kleinschreibung berücksichtigt, während `*` Aufträge mit mehreren Tags findet.
 
-7. Wählen Sie die Schaltfläche **OK**.
+6. Wählen Sie die Schaltfläche **OK**.
 
 Alternativ können Sie nach dem Batchauftrag **Aufträge synchronisieren von Shopify** suchen.
 
-Sie können die Aufgabe für eine automatische Ausführung planen. Erfahren Sie mehr unter [Planen Sie wiederkehrende Aufgaben](background.md#to-schedule-recurring-tasks).
+Sie können planen, dass die Aufgabe automatisch ausgeführt wird. Erfahren Sie mehr unter [Planen Sie wiederkehrende Aufgaben](background.md#to-schedule-recurring-tasks).
 
 ## Importierte Bestellungen überprüfen
 
@@ -90,7 +92,7 @@ Sobald der Import abgeschlossen ist, können Sie die Shopify-Bestellung durchsuc
 
 ## Verkaufsbelege in Business Central erstellen
 
-Wenn die Option **Automatische Erstellung von Aufträgen** auf der **Shopify Shop Card** aktiviert ist, versucht [!INCLUDE[prod_short](../includes/prod_short.md)] einen Verkaufsbeleg zu erstellen, sobald der Auftrag importiert wurde. Wenn Probleme wie ein fehlender Debitor oder ein fehlendes Produkt auftreten, müssen Sie die Probleme beheben und dann den Verkaufsauftrag erneut erstellen.
+Wenn die Option **Automatische Erstellung von Aufträgen** auf der **Shopify Shop Card** aktiviert ist, versucht [!INCLUDE[prod_short](../includes/prod_short.md)] einen Verkaufsbeleg zu erstellen, nachdem der Auftrag importiert wurde. Wenn Probleme wie ein fehlender Debitor oder ein fehlendes Produkt auftreten, müssen Sie die Probleme beheben und dann den Verkaufsauftrag erneut erstellen.
 
 ### So erstellen Sie Verkaufsbelege
 
@@ -132,20 +134,24 @@ Die nächsten Schritte hängen von der **Kundenzuordnung Typ** ab.
 
 In Shopify:
 
-|Bearbeiten|Auswirkungen|
-|------|-----------|
-|Den Erfüllungsort ändern | Der ursprüngliche Standort wird mit [!INCLUDE[prod_short](../includes/prod_short.md)] synchronisiert. |
-|Ändern Sie den Erfüllungsort und registrieren Sie die Auftragserfüllung in Shopify.| Wenn die Bestellung bereits importiert wurde, werden die Zeilen nicht aktualisiert. Andernfalls wird für den importierten Auftrag der Erfüllungsort verwendet. |
-|Bearbeiten Sie eine Bestellung und ändern Sie die Menge| Der Auftragskopf und die Zusatztabellen werden in [!INCLUDE[prod_short](../includes/prod_short.md)] aktualisiert, die Zeilen nicht. |
-|Bearbeiten Sie eine Bestellung und fügen Sie einen neuen Artikel hinzu | Der Auftragskopf wird aktualisiert, die Zeilen nicht. |
+|Bearbeiten|Auswirkung auf bereits importierte Bestellung|Auswirkungen auf Bestellungen, die zum ersten Mal importiert werden|
+|------|-----------|-----------|
+|Den Erfüllungsort ändern | Ursprünglicher Standort ist in Linien | Der Fulfillment-Standort ist synchronisiert [!INCLUDE[prod_short](../includes/prod_short.md)].|
+|Bearbeiten Sie eine Bestellung und erhöhen Sie die Menge| Der Auftragskopf und die Zusatztabellen werden in [!INCLUDE[prod_short](../includes/prod_short.md)] aktualisiert, die Zeilen nicht.| Die importierte Bestellung verwendet eine neue Menge|
+|Bearbeiten Sie eine Bestellung und verringern Sie die Menge| Der Auftragskopf und die Zusatztabellen werden in [!INCLUDE[prod_short](../includes/prod_short.md)] aktualisiert, die Zeilen nicht.| Die importierte Bestellung verwendet die ursprüngliche Menge, das Feld „Erfüllbare Menge“ enthält einen neuen Wert.|
+|Bearbeiten Sie eine Bestellung und entfernen Sie einen bestehenden Artikel | Der Auftragskopf und die Zusatztabellen werden in [!INCLUDE[prod_short](../includes/prod_short.md)] aktualisiert, die Zeilen nicht.| Entfernte Artikel werden weiterhin importiert, das Feld Erfüllbare Menge Null enthält. |
+|Bearbeiten Sie eine Bestellung und fügen Sie einen neuen Artikel hinzu | Der Auftragskopf wird aktualisiert, die Zeilen nicht. | Ursprüngliche und hinzugefügte Elemente werden importiert. |
+|Bestellung bearbeiten: ausführen, Zahlungsinformationen aktualisieren | Der Auftragskopf wird aktualisiert, aber die Zeilen nicht. |Die Änderung hat keinen Einfluss darauf, wie die Bestellung importiert wird.|
+|Auftrag stornieren | Der Auftragskopf wird aktualisiert, aber die Zeilen nicht. |Stornierte Bestellung wird nicht importiert |
 
 In [!INCLUDE[prod_short](../includes/prod_short.md)]:
 
 |Bearbeiten|Auswirkungen|
 |------|-----------|
-|Ändern Sie den Standort in einen anderen Standort, der den Shopify Orten zugeordnet ist. Sendung buchen. | Nach der Synchronisierung der Erfüllung wird der Lagerplatz in Shopify aktualisiert. |
+|Ändern Sie den Standort in einen anderen Standort, der den Shopify Orten zugeordnet ist. Sendung buchen. | Der Auftrag wird als erfüllt markiert. Der ursprüngliche Standort wird verwendet. |
 |Ändern Sie den Ort in einen anderen Ort, der nicht den Shopify Orten zugeordnet ist. Sendung buchen. | Die Erfüllung wird nicht mit Shopify synchronisiert. |
-|Ändern der Abnahmemenge. Sendung buchen. | Die Reihenfolge Shopify wird als teilweise erfüllt gekennzeichnet. |
+|Menge verkleinern Sendung buchen. | Die Reihenfolge Shopify wird als teilweise erfüllt gekennzeichnet. |
+|Menge erhöhen. Sendung buchen. | Die Erfüllung wird nicht mit Shopify synchronisiert. |
 |Ein neues Element hinzufügen. Sendung buchen. | Die Reihenfolge Shopify wird als erfüllt markiert. Die Zeilen werden nicht aktualisiert. |
 
 ## Lieferungen mit Shopify synchronisieren
@@ -162,7 +168,8 @@ Alternativ können Sie die Aktion **Sync Sendungen** auf den Seiten Shopify Verk
 
 Sie können die Aufgabe für eine automatische Ausführung planen. Erfahren Sie mehr unter [Planen Sie wiederkehrende Aufgaben](background.md#to-schedule-recurring-tasks).
 
->[Wichtig] Der Lagerplatz, einschließlich des leeren Lagerplatzes, der in der Zeile “Gebuchte Sendung„ definiert ist, muss einen passenden Datensatz in der Shopify Location haben. Andernfalls wird diese Zeile nicht an Shopify zurückgeschickt. Erfahren Sie mehr unter [Zuordnung von Lagerplätzen](synchronize-orders.md#location-mapping).
+>[!Important]
+>Der Lagerplatz, einschließlich des leeren Lagerplatzes, der in der Zeile Gebuchte Sendung definiert ist, muss einen passenden Datensatz im Shopify Standort haben. Andernfalls wird diese Zeile nicht an Shopify zurückgeschickt. Erfahren Sie mehr unter [Zuordnung von Lagerplätzen](synchronize-orders.md#location-mapping).
 
 Denken Sie daran, **Bestellungen aus Shopify** auszuführen, um den Erfüllungsstatus der Bestellung in [!INCLUDE[prod_short](../includes/prod_short.md)] zu aktualisieren. Die Konnektor-Funktionalität archiviert auch vollständig bezahlte und erfüllte Bestellungen sowohl in Shopify als auch in [!INCLUDE[prod_short](../includes/prod_short.md)], sofern die Bedingungen erfüllt sind.
 

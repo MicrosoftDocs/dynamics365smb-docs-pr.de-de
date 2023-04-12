@@ -48,18 +48,18 @@ In diesem Abschnitt werden die aktuellen Einschränkungen der von Copilot bereit
 
 - Die KI-generierte Textvorschläge stehen nur auf Englisch zur Verfügung.
 - Wenn vage oder allgemeine Produktnamen verwendet werden und Einzelheiten zu einem Artikel fehlen (zum Beispiel wichtige Attribute oder eien Kategorie) werden eventuell schlechte Vorschläge ausgegeben.
-- Copilot wird nur in Test- und Sandbox-Umgebungen von Business Central Online unterstützt, nicht aber in Produktionsumgebungen, privaten Cloud-Umgebungen oder lokalen Business Central-Umgebungen.
+- Copilot wird nur in Business Central Online unterstützt, nicht aber in privaten Cloud-Umgebungen oder lokalen Business Central-Umgebungen.
 - Copilot wird nicht über Verbindungen zu Ihrer eigenen Azure OpenAI-Dienstressource in Ihrem Azure-Abonnement unterstützt.
 - Die Partnererweiterbarkeit der KI-Funktion durch die Verwendung von AL-Code wird nicht unterstützt.
 
 ## Nächste Schritte
 
-Um loszulegen, benötigen Sie eine dedizierte Business Central-Vorschauversion, für die Copilot aktiviert ist.
+Um loszulegen, benötigen Sie eine Business Central Version 22 Umgebung, die für Copilot aktiviert ist.
 
-- Wenn Sie bereits Business Central haben, muss Ihr Business Central-Administrator die Vorschauversion in einer Sandbox-Umgebung für Sie einrichten.
+- Wenn Sie bereits Business Central haben, muss Ihr Business Central-Administrator eine Version 22 Umgebung für Sie einrichten.
 - Wenn Sie Business Central noch nicht verwenden, es aber ausprobieren möchten, können Sie sich für eine kostenlose Testversion anmelden.
 
-Weitere Informationen finden Sie unter [Die Vorschauversion von Business Central – Copilot Edition erhalten](ai-preview-getstarted.md).  
+Weitere Informationen finden Sie unter [Vorschauversion von Business Central erhalten](ai-preview-getstarted.md).  
 
 ## Siehe auch
 

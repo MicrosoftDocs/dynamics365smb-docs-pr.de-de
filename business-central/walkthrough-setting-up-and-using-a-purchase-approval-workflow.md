@@ -33,9 +33,9 @@ Diese exemplarische Vorgehensweise ist ein Szenario, das die folgenden Aufgaben 
 
 ## Hintergrund
 
-Stephan ist ein Superuser bei CRONUS. Er erstellt zwei Genehmigungsbenutzer. Der eine ist Christine, die einen Einkäufer darstellt. Der andere ist er selbst. Er ist der Genehmiger für Alicia. Stephan gibt sich selbst unbegrenzten Rechte zur Genehmigung und legt fest, dass er Benachrichtigungen über eine interne Notiz bei einem entsprechendes Ereignis erhält. Als letztes erstellt erstellt Stephan den erforderlichen Genehmigungsworkflow als Kopie der vorhandenen Workflow-Vorlage *Workflow Einkaufsbestellungsgenehmigung*. Er übernimmt alle Ereignisbedingungen unverändert und aktiviert dann den Workflow.  
+Sean ist Superuser bei CRONUS und erstellt zwei Genehmigungsbenutzer. Der eine ist Christine, die einen Einkäufer darstellt. Der andere ist Sean selbst. Er ist der Genehmiger für Alicia. Sean gibt sich selbst unbegrenzten Rechte zur Genehmigung und legt fest, dass er Benachrichtigungen über eine interne Notiz bei einem entsprechendes Ereignis erhält. Als letztes erstellt erstellt Stephan den erforderlichen Genehmigungsworkflow als Kopie der vorhandenen Workflow-Vorlage *Workflow Einkaufsbestellungsgenehmigung*. Er übernimmt alle Ereignisbedingungen unverändert und aktiviert dann den Workflow.  
 
-Um den Genehmigungsworkflow zu testen, meldet sich Stefan zunächst bei [!INCLUDE[prod_short](includes/prod_short.md)] als Christine an und beantragt dann die Genehmigung einer Bestellung. Stefan meldet sich dann selbst an, sieht die Notiz auf seinem Rollencenter, folgt dem Link zur Genehmigungsanforderung für die Bestellung und genehmigt die Anforderung.  
+Um den Genehmigungsworkflow zu testen, meldet sich Stefan zunächst bei [!INCLUDE[prod_short](includes/prod_short.md)] als Christine an und beantragt dann die Genehmigung einer Bestellung. Sean meldet sich dann selbst an, sieht die Notiz auf seinem Rollencenter, folgt dem Link zur Genehmigungsanforderung für die Bestellung und genehmigt die Anforderung.  
 
 ## Benutzer
 

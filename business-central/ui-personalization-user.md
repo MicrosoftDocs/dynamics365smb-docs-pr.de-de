@@ -13,7 +13,7 @@ ms.author: bholtorf
 ---
 # Ihren Arbeitsbereich personalisieren
 
-Sie können ihren Arbeitsbereich an Ihre Arbeit und Ihre Bedürfnisse anpassen. Ändern Sie die Seiten so, dass sie nur die Informationen anzeigen, die Sie benötigen, wo Sie sie benötigen. Die Personalisierungsänderungen beeinflussen nur das, was *Sie* sehen, nicht das, was andere Benutzer sehen.
+Sie können ihren Arbeitsbereich an Ihre Arbeit und Ihre Bedürfnisse anpassen. Ändern Sie die Seiten so, dass sie nur die Informationen anzeigen, die Sie benötigen, wo Sie sie benötigen. Personalisierung wirkt sich nur auf den Arbeitsbereich aus. Es ändert nichts daran, wie andere arbeiten.
 
 Sie können alle Arten von Seiten personalisieren, einschließlich der Seite Rollencenter. Weitere Informationen zu Rollencentern finden Sie unter [Rollencenter](ui-change-basic-settings.md#role-center).  
 
@@ -22,10 +22,11 @@ Sie können alle Arten von Seiten personalisieren, einschließlich der Seite Rol
 Sie können verschiedene Änderungen vornehmen, z. B. Verschieben und Ausblenden von Feldern, Spalten,Aktionen oder Verschieben und Ausblendern ganzer Teile und mehr. Die meisten Personalisierungen müssen vorgenommen werden, indem zuerst das Banner **Personalisierung** aktiviert wird. Einfache Anpassungen, wie z. B. die Spaltenbreite, können Sie sofort an jeder Liste vornehmen.
 
 > [!NOTE]
-> Administratoren können dieselben Layoutänderungen wie Benutzer durchführen, indem sie den Arbeitsbereich für ein Profil anpassen, dem mehrere Benutzer zugewiesen sind. Weitere Informationen finden Sie unter [Seiten für Profile anpassen](ui-personalization-manage.md)<br /><br />
+> Administratoren können dieselben Layoutänderungen wie Benutzer durchführen, indem sie den Arbeitsbereich für ein Profil anpassen, dem mehrere Benutzer zugewiesen sind. Um mehr über Seiten für Rollen zu erfahren, gehen Sie zu [Seiten für Rollen anpassen](ui-personalization-manage.md)<br /><br />
 Administratoren können auch Personalisierungen der Benutzer überschreiben und definieren, welche Funktionen in allen oder bestimmten Unternehmen zugänglich sind. Weitere Informationen finden Sie unter [Anpassen von Business Central](ui-customizing-overview.md).
 
-## Videoübersicht
+## Video
+
 Das folgende Video zeigt einige Möglichkeiten, wie Sie Ihr Rollencenter personalisieren können.
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4ArUB?rel=0]
@@ -52,7 +53,7 @@ Wie bei anderen Personalisierungen werden die Änderungen, die Sie an der Spalte
     Wenn Sie im Banner ein ![Personalisieren sperren](media/personalization-lock-icon.png "Personalisieren sperren") oder ![Personalisieren blockiert](media/personalization-blocked-icon.png "Personalisierung blockiert") auf dem Banner sehen, können Sie die Seite nicht personalisieren. Weitere Informationen finden Sie unter [Warum eine Seite für die Personalisierung gesperrt ist](ui-personalization-locked.md).
 
 3. Um ein Feld hinzuzufügen, wählen Sie die **+ Feld** Aktion.
-4. Von dem Bereich **Feld zu Seite hinzufügen** ziehen Sie ein Feld per Drag & Drop an die gewünschte Position auf der Seite.
+4. Von dem Bereich **Feld zu Seite hinzufügen** ziehen Sie ein Feld per Drag und Drop an die gewünschte Position auf der Seite.
 5. Zeigen Sie zum Ändern eines Oberflächenelements auf das Element, z. B. eine Aktion, ein Feld oder einen Teil. Das Element wird sofort mit einer Pfeilspitze oder einem Rand hervorgehoben.
 6. Wählen Sie das Element aus und wählen Sie dann eine der beiden Optionen **Bewegung**, **Entfernen**, **Verbergen, verstecken**, **Anzeigen**, **Anzeigen unter mehr anzeigen**, **Anzeigen, wenn alle verborgen**, **Immer anzeigen**, **Einfrierfenster einstellen/löschen**, oder **Schnelleingabe einschließen/ausschließen**, abhängig vom T und Status des Oberflächenelements. Weitere Informationen finden Sie unter [Was Sie personalisieren können](#What).
 7. Wenn Sie das Layout einer oder mehrerer Seiten geändert haben, wählen Sie die Schaltfläche **Fertig** im Banner **Personalisierung**.
@@ -77,7 +78,7 @@ Wie bei anderen Personalisierungen werden die Änderungen, die Sie an der Spalte
 
 Mit der Personalisierung können Sie entscheiden, welche Aktionen auf den Navigations- und Aktionsleisten und in den Rollenzentren angezeigt werden sollen und wo sie angezeigt werden sollen. Sie können einzelne Aktionen oder Aktionsgruppen ausblenden, anzeigen oder verschieben.
 
-Im zweiten Veröffentlichungszyklus 2022 haben wir Ihnen mehr Möglichkeiten geboten, Business Central zu Ihrem eigenen zu machen. Das folgende Video zeigt, wie Sie Aktionen auf Seiten und Rollencentern personalisieren können.
+Das folgende Video zeigt, wie Sie Aktionen auf Seiten und Rollencentern personalisieren können.
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE594m2]
 
@@ -119,13 +120,14 @@ Stellen, an denen Sie Aktionen oder Aktionsgruppen ablegen können, wird durch e
 
 Teile sind Bereiche auf einer Seite, die in der Regel aus mehreren Feldern, Diagrammen oder anderen Inhalten bestehen. Ein Teil zeigt einen farbigen Rahmen, wenn Sie den Fokus auf den Teil legen. Beispielsweise besteht ein Startbildschirm des Rollenzentrums aus mehreren Teilen. Aufgrund ihrer klar definierten Grenzen können Sie den gesamten Teil und dessen Inhalt personalisieren.
 
-- Um ein Teil zu verschieben, ziehen Sie es mit Drag & Drop an die gewünschte Position. Eine farbige Linie zeigt gültige Positionen auf dem Bildschirm an. Beispielsweise können Infofelder nur neben andere Infofelder im Infofelder-Fensterbereich verschoben werden.
+- Um ein Teil zu verschieben, ziehen Sie es mit Drag und Drop an die gewünschte Position. Eine farbige Linie zeigt gültige Positionen auf dem Bildschirm an. Beispielsweise können Infofelder nur neben andere Infofelder im Infofelder-Fensterbereich verschoben werden.
 - Sie können einen Teil ausblenden, indem Sie die Option **Ausblenden** unter dem Pfeil wählen.
 - Wenn Sie mit der Personalisierung beginnen oder zu einer neuen Seite navigieren, werden alle Teile, die derzeit verborgen sind, auf der Seite mit einem unverwechselbaren Bildmaterial angezeigt, um darauf hinzuweisen, dass sie verborgen sind. Sie können diesen Teil einblenden, indem Sie die Option **Anzeigen** unter der Pfeilspitze wählen.
 
 Sie können alle Personalisierungsänderungen, die Sie innerhalb eines einzelnen Teils vorgenommen haben, löschen, indem Sie die Aktion **Personalisierung löschen** unter der Pfeilspitze des Teils wählen. Die Freigabe der Personalisierung eines Teils wirkt sich nur auf Änderungen des Inhalts des Teils aus, nicht auf die Platzierung oder Sichtbarkeit des Teils auf der Seite.  
 
 ## So wird eine Personalisierung gelöscht
+
 Deaktivieren Sie einige oder alle an dieser Seite im Lauf der Zeit vorgenommenen Personalisierungsänderungen.
 
 1. Auf dem Banner **Personalisierung** wählen Sie die **Klare Personalisierung** Aktion.
@@ -138,7 +140,7 @@ Deaktivieren Sie einige oder alle an dieser Seite im Lauf der Zeit vorgenommenen
 |------|------------
 |**Nur Navigationsmenü**|Löscht alle Personalisierungsänderungen, die Sie am Navigationsmenü vorgenommen haben, das im Rollencenter und auf anderen Seiten freigegeben ist. Zu diesen Änderungen zählen alle neuen Aktionen, die als Lesezeichen hinzugefügt wurden, sowie alle Änderungen an Links und Gruppen im Menü.|  
 |**Nur Aktionen**|Löscht alle Personalisierungsänderungen, die Sie jemals an der Navigation oder den Aktionsleisten auf der Seite vorgenommen haben.|
-|**Nur Felder, Spalten und Teile**|Löscht alle Personalisierungsänderungen, die Sie jemals an der Seite vorgenommen haben, mit Ausnahme der Änderungen an der Navigations- oder Aktionsleiste. Hierzu zählen beispielsweise Änderungen an Feldern, Spalten, Teilen und Kacheln. |
+|**Nur Felder und Spalten**|Löscht alle Personalisierungsänderungen, die Sie jemals an der Seite vorgenommen haben, mit Ausnahme der Änderungen an der Navigations- oder Aktionsleiste. Hierzu zählen beispielsweise Änderungen an Feldern, Spalten, Teilen und Kacheln. |
 |**Alle**|Löscht alle an dieser Seite vorgenommenen Personalisierungsänderungen, sodass die Seite wieder wie zuvor aussieht. Hierzu zählen beispielsweise Änderungen an Navigations- und Aktionsleisten, Feldern, Spalten, Teilen und Kacheln.|
 
 ## Andere Punkte von Interesse

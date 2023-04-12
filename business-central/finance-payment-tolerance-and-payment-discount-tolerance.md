@@ -1,13 +1,13 @@
 ---
 title: Zahlungstoleranz und Skontotoleranz
-description: 'Sie können Zahlungstoleranz einrichten, um eine Rechnung zu schließen, wenn die Zahlung nicht vollständig den Betrag der Rechnung umfasst.'
+description: 'Dieser Artikel erklärt, wie Sie Zahlungstoleranz einrichten können, um eine Rechnung zu schließen, wenn die Zahlung nicht vollständig den Betrag der Rechnung umfasst.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: '118, 314, 395'
-ms.date: 10/29/2021
+ms.date: 04/03/2023
 ms.author: edupont
 ---
 # Mit Zahlungstoleranzen und Skontotoleranzen arbeiten
@@ -66,6 +66,9 @@ Um diese Toleranz einzurichten, müssen Sie verschiedene Toleranzkonten einricht
 > Um die Toleranz für einen Debitor oder Kreditor zu deaktivieren, müssen Sie auf der Debitoren- oder Kreditorenkarte Toleranzen blockieren. Weitere Informationen finden unter [Zahlungstoleranz für Debitoren sperren](finance-payment-tolerance-and-payment-discount-tolerance.md#to-block-payment-tolerance-for-customers).  
 >   
 > Wenn Sie eine Toleranz einrichten, prüft [!INCLUDE[prod_short](includes/prod_short.md)] auch, ob es offene Posten gibt, und berechnet die Toleranz für diese Posten.
+
+> [!IMPORTANT]  
+> Wenn Sie das Feld **An Zahlungsrabatt anpassen** auf der Seite **Einrichtung der MwSt.-Buchung** aktivieren, gilt der MwSt.-Betrag als es bezieht sich auf die Beträge **Zahlungstoleranzen** und **Zahlungsrabatte** , und die Mehrwertsteuer wird für beide Transaktionsbeträge reduziert, wenn Sie existieren. Das System kann nicht so konfiguriert werden, dass es die Mehrwertsteuersenkung nur für eine Transaktionsart verwendet.  
 
 ## So aktivieren oder deaktivieren Sie die Zahlungstoleranzwarnungen
 

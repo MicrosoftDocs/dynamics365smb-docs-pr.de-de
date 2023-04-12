@@ -53,7 +53,7 @@ Andreas, der Qualitätskontrolleur, bearbeitet eine Verkaufsreklamation für Art
 - Welche Rahmencharge war fehlerhaft?  
 - In welche Bestellung ist die fehlerhafte Charge eingegangen?  
 
-Von der Verkaufsabteilung weiß der Qualitätskontrolleur, dass das reklamierte Rennrad, Artikel 1002, die Seriennummer SN1 besitzt. Wenn er diese grundlegenden Informationen verwendet, muss er festlegen, wo das fertige Rennrad zuletzt verwendet wurde, und dann muss er es bis zum Ursprung zurückverfolgen, um festzustellen, aus welcher Chargennummer die fehlerhafte Komponente, der Rahmen, stammte.  
+Von der Verkaufsabteilung weiß der Qualitätskontrolleur, dass das reklamierte Rennrad, Artikel 1002, die Seriennummer SN1 besitzt. Wenn sie diese grundlegenden Informationen verwenden, müssen Sie festlegen, wo das fertige Rennrad zuletzt verwendet wurde, und dann müssen sie es bis zum Ursprung zurückverfolgen, um festzustellen, aus welcher Chargennummer die fehlerhafte Komponente, der Rahmen, stammte.  
 
 Diese erste Aufgabe der Artikelverfolgung ergibt, welche Rennradrahmen defekt waren und von welchem Kreditor sie stammen. Danach muss der Qualitätskontrolleur im Rahmen desselben Verfolgungsprozesses alle verkauften Rennräder ermitteln, die Rennradrahmen aus der fehlerhaften Charge enthalten, sodass diese Aufträge gestoppt oder zurückgerufen werden können. Zum Schluss muss er alle offenen Belege finden, in denen die fehlerhafte Charge verwendet wurde, um zusätzliche Transaktionen zu verhindern.  
 
@@ -225,7 +225,7 @@ Anschließend müssen Sie erstellen mit den beiden Artikeln verschiedene Einkauf
 
 ## Verfolgung vom Verbrauch zum Ursprung
 
- Von der Verkaufsabteilung weiß der Qualitätskontrolleur, dass das reklamierte Rennrad, Artikel 1002, die Seriennummer SN1 besitzt. Anhand dieser Basisinformation kann er feststellen, wo das fertige Rennrad zuletzt verwendet wurde, in diesem Fall in der Verkaufslieferung an die Blütenhaus GmbH. Anschließend muss der Qualitätskontrolleur das Rennrad zum frühesten Ursprung zurückverfolgen, um festzustellen, aus welcher Charge und von welchem Kreditor der fehlerhafte Rennradrahmen stammt.  
+ Von der Verkaufsabteilung weiß der Qualitätskontrolleur, dass das reklamierte Rennrad, Artikel 1002, die Seriennummer SN1 besitzt. Anhand dieser Basisinformation können sie feststellen, wo das fertige Rennrad zuletzt verwendet wurde, in diesem Fall in der Verkaufslieferung an die Blütenhaus GmbH. Anschließend muss der Qualitätskontrolleur das Rennrad zum frühesten Ursprung zurückverfolgen, um festzustellen, aus welcher Charge und von welchem Kreditor der fehlerhafte Rennradrahmen stammt.  
 
 ### So stellen Sie fest, aus welcher Charge und von welchem Lieferanten der fehlerhafte Rahmen stammt
 
@@ -274,13 +274,13 @@ Anschließend müssen Sie erstellen mit den beiden Artikeln verschiedene Einkauf
 
     Der Qualitätskontrolleur informiert umgehend die Verkaufsabteilung, sodass ein Rückruf des defekten Rennrads vom Debitoren Möbel-Meller KG eingeleitet werden kann.  
 
-    Gleichzeitig kann er den letzten drei Verfolgungszeilen entnehmen, dass zwei weitere Artikel, SN3 und SN4, mit Rennradrahmen aus CHARGE1 produziert wurden. Er unternimmt die entsprechenden Schritte, um diese Endartikel im Lagerbestand zu sperren.  
+    Gleichzeitig können sier den letzten drei Verfolgungszeilen entnehmen, dass zwei weitere Artikel, SN3 und SN4, mit Rennradrahmen aus CHARGE1 produziert wurden. Sie unternehmen die entsprechenden Schritte, um diese Endartikel im Lagerbestand zu sperren.  
 
     Damit ist die zweite Aufgabe der Defektverwaltung auf der Seite für **Artikelnachverfolgung** abgeschlossen. Da die Seite **Artikelablaufverfolgung** nur auf gebuchten Posten basiert, muss der Qualitätscontroller zur Seite **Posten suchen** wechseln, um sicherzustellen, dass CHARGE1 nicht in nicht-gebuchten Belegen verwendet wird.  
 
 ## Alle Datensätze einer Serien-/Chargennummer finden
 
- Aus der Seite **Artikelnachverfolgung** erfuhr der Qualitätskontrolleur, dass CHARGE1 die fehlerhaften Rennradrahmen enthielt, von welchem Kreditor sie stammen, und in welcher gebuchten Transaktion sie verwendet wurden. Er muss nun feststellen, ob CHARGE1 in irgendwelchen offenen Belegen enthalten ist, indem er eine Integration aus den Ablaufverfolgungsergebnissen auf die Seite **Posten suchen** durchführt, wo er eine Suche durch alle Datenbankdatensätze durchführen kann.  
+ Aus der Seite **Artikelnachverfolgung** erfuhr der Qualitätskontrolleur, dass CHARGE1 die fehlerhaften Rennradrahmen enthielt, von welchem Kreditor sie stammen, und in welcher gebuchten Transaktion sie verwendet wurden. Sie müssen nun feststellen, ob LOT1 in irgendwelchen offenen Belegen enthalten ist, indem eine Integration aus den Ablaufverfolgungsergebnissen auf die Seite **Posten suchen** durchgeführt wird, wobei eine Suche durch alle Datenbankdatensätze durchgeführt werden kann.  
 
 ### So suchen Sie nach allen Vorkommen von CHARGE1 in nicht gebuchten Datensätzen (z. B. offenen Aufträgen)  
 
@@ -293,7 +293,7 @@ Anschließend müssen Sie erstellen mit den beiden Artikeln verschiedene Einkauf
 
 3.  Wählen Sie zum Öffnen des Verkaufszeilendatensatzes die zweite „Posten suchen“-Zeile aus, wählen Sie die Aktion **Anzeigen** aus. Alternativ können Sie den Wert im Feld **Anzahl Datensätze** wählen.  
 
-    Hier sieht der Qualitätskontrolleur eine offene Verkaufszeile für die fehlerhaften Rennradrahmen. Er empfiehlt der Verkaufsabteilung umgehend, diesen Auftrag zu stornieren und einen neuen Fertigungsauftrag mit fehlerfreien Rennradrahmen zu initiieren.  
+    Hier sieht der Qualitätskontrolleur eine offene Verkaufszeile für die fehlerhaften Rennradrahmen. Sie empfehlen der Verkaufsabteilung umgehend, diesen Auftrag zu stornieren und einen neuen Fertigungsauftrag mit fehlerfreien Rennradrahmen zu initiieren.  
 
  Damit ist die exemplarische Vorgehensweise zur Verwendung der Seite **Posten suchen** zur Defektverwaltung in Integration mit der Seite **Artikelablaufverfolgung** abgeschlossen.  
 

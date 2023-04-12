@@ -47,11 +47,11 @@ Die Begriffe Planung ausführen oder Nettobedarf ausführen beziehen sich auf di
 ## Hintergrund  
  Der Debitor, Cannon Group PLC, bestellt fünf Rennräder mit Liefertermin am 05.02.2021 (5. Februar).  
 
- Jürgen, der Produktionsplaner, führt die routinemäßige Beschaffungsplanung für die erste Woche im Februar 2021 aus. Er filtert nach seinem eigenen Standort, OST, und gibt als Planungsintervall 23.01.2021 bis 07.02.2021 ein, bevor er den ersten Beschaffungsplan berechnet.  
+ Jürgen, der Produktionsplaner, führt die routinemäßige Beschaffungsplanung für die erste Woche im Februar 2021 aus. Eduardo filtert nach seinem eigenen Standort, OST, und gibt als Planungsintervall 23.01.2021 bis 07.02.2021 ein, bevor er den ersten Beschaffungsplan berechnet.  
 
- In dieser Woche ist nur für den Verkaufsauftrag der Möbel-Meller KG ein Bedarf vorhanden. Jürgen sieht, dass für keine der Planungszeilen Warnungen vorliegen, und fährt mit der Erstellung von Beschaffungsaufträgen für die vorgeschlagenen Planungszeilen ohne Änderungen fort.  
+ In dieser Woche ist nur für den Verkaufsauftrag der Möbel-Meller KG ein Bedarf vorhanden. Eduardo sieht, dass für keine der Planungszeilen Warnungen vorliegen, und fährt mit der Erstellung von Beschaffungsaufträgen für die vorgeschlagenen Planungszeilen ohne Änderungen fort.  
 
- Am nächsten Tag (noch bevor die anfänglichen Beschaffungsaufträge gestartet oder gebucht wurden) wird Jürgen benachrichtigt, dass ein anderer Debitor zehn Rennräder mit Liefertermin am 12.02.2021 bestellt hat. Er führt eine Neuberechnung aus, um den Beschaffungsplan entsprechend dem geänderten Bedarf anzupassen. Die Neuberechnung ergibt eine Änderungsplanung, in der Änderungen der Zeit und Menge einiger Beschaffungsaufträge aus dem ersten Berechnungslauf vorgeschlagen werden.  
+ Am nächsten Tag (noch bevor die anfänglichen Beschaffungsaufträge gestartet oder gebucht wurden) wird Jürgen benachrichtigt, dass ein anderer Debitor zehn Rennräder mit Liefertermin am 12.02.2021 bestellt hat. Eduardo führt eine Neuberechnung aus, um den Beschaffungsplan entsprechend dem geänderten Bedarf anzupassen. Die Neuberechnung ergibt eine Änderungsplanung, in der Änderungen der Zeit und Menge einiger Beschaffungsaufträge aus dem ersten Berechnungslauf vorgeschlagen werden.  
 
  Während der verschiedenen Planungsschritte überprüft Jürgen die relevanten Aufträge. Er verwendet die Funktion "Bedarfsverursacher", um festzustellen, welcher Bedarf von welchem Bestand abgedeckt wird.  
 
@@ -80,7 +80,7 @@ Die Begriffe Planung ausführen oder Nettobedarf ausführen beziehen sich auf di
  Damit ist die Vorbereitung der Beispieldaten für die exemplarische Vorgehensweise abgeschlossen.  
 
 ## Erstellen einer Beschaffungsneuplanung  
- Als Antworten auf einen neuen Verkaufsauftrag für fünf Rennräder, beginnt Andreas mit dem Planungsprozess, indem er Optionen und Filter setzt und das Planungsintervall festlegt, um jeden anderen Bedarf auszuschließen, mit Ausnahme des Bedarfs der ersten Woche vom Februar am Standort OST. Er berechnet als Erstes eine Produktions-Programmplanung (MPS) und berechnet dann einen vollständigen Beschaffungsplan für den gesamten Bedarf auf untergeordneter Ebene (Materialbedarfsplan).  
+ Als Antworten auf einen neuen Verkaufsauftrag für fünf Rennräder, beginnt Andreas mit dem Planungsprozess, indem er Optionen und Filter setzt und das Planungsintervall festlegt, um jeden anderen Bedarf auszuschließen, mit Ausnahme des Bedarfs der ersten Woche vom Februar am Standort OST. Ricardo berechnet als Erstes eine Produktions-Programmplanung (MPS) und berechnet dann einen vollständigen Beschaffungsplan für den gesamten Bedarf auf untergeordneter Ebene (Materialbedarfsplan).  
 
 ### So erstellen Sie den Verkaufsauftrag  
 
@@ -198,7 +198,7 @@ Die Begriffe Planung ausführen oder Nettobedarf ausführen beziehen sich auf di
  Damit ist die erste Berechnung, Analyse und Erstellung eines Beschaffungsplans für den Bedarf am Standort OST in der ersten Februarwoche abgeschlossen. Im folgenden Abschnitt bestellt ein weiterer Debitor zehn Rennräder und Jürgen muss neu planen.  
 
 ## Erstellen eines Änderungsplans  
- Am nächsten Tag (noch bevor Beschaffungsaufträge gestartet oder gebucht wurden) geht ein neuer Verkaufsauftrag von Libros S.A. für zehn Rennräder mit Liefertermin am 12.02.2021 ein. Jürgen wird über den neuen Bedarf benachrichtigt und beginnt mit der Neuplanung, um den aktuellen Beschaffungsplan anzupassen. Jürgen verwendet die Funktion "Änderungsplanung", um nur die Änderungen zu berechnen, die seit dem letzten Planungslauf am Bedarf oder Bestand vorgenommen wurden. Zudem verlängert er den Planungszeitraum bis zum 14.02.2021, um das zweite Bedarfsdatum (12.02.2014) einzuschließen.  
+ Am nächsten Tag (noch bevor Beschaffungsaufträge gestartet oder gebucht wurden) geht ein neuer Verkaufsauftrag von Libros S.A. für zehn Rennräder mit Liefertermin am 12.02.2021 ein. Eduardo wird über den neuen Bedarf benachrichtigt und beginnt mit der Neuplanung, um den aktuellen Beschaffungsplan anzupassen. Jürgen verwendet die Funktion "Änderungsplanung", um nur die Änderungen zu berechnen, die seit dem letzten Planungslauf am Bedarf oder Bestand vorgenommen wurden. Zudem verlängert Eduardo den Planungszeitraum bis zum 14.02.2021, um das zweite Bedarfsdatum (12.02.2014) einzuschließen.  
 
  Das Planungssystem berechnet, wie der Bedarf für diese beiden identischen Produkte am besten gedeckt werden kann. Zu diesem Zweck werden einige Bestellungen und Fertigungsaufträge konsolidiert, andere Aufträge neu geplant und bei Bedarf neue Aufträge erstellt.  
 

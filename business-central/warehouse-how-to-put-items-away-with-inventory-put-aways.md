@@ -32,9 +32,9 @@ Wenn Ihr Lagerort so eingerichtet wurde, dass er Einlagerung erfordert, jedoch k
 
 Sie können eine Lagereinlagerung auf drei Arten erstellen:  
 
-- Erstellen Sie die Lagereinlagerung direkt vom Herkunftsbeleg aus.  
-- Erstellen Sie für mehrere Herkunftsbelege gleichzeitig Lagereinlagerungen, indem Sie die eine Stapelverarbeitung verwenden.  
-- Legen Sie die Einlagerung in zwei Schritten an, indem Sie zunächst den Herkunftsbeleg freigeben, um die Artikel für die Einlagerung verfügbar zu machen. Sie können die Lagereinlagerung basierend auf dem Herkunftsbeleg erstellen, indem Sie die Seite **Lagereinlagerung** verwenden.  
+* Erstellen Sie die Lagereinlagerung direkt vom Herkunftsbeleg aus.  
+* Erstellen Sie für mehrere Herkunftsbelege gleichzeitig Lagereinlagerungen, indem Sie die eine Stapelverarbeitung verwenden.  
+* Legen Sie die Einlagerung in zwei Schritten an, indem Sie zunächst den Herkunftsbeleg freigeben, um die Artikel für die Einlagerung verfügbar zu machen. Sie können die Lagereinlagerung basierend auf dem Herkunftsbeleg erstellen, indem Sie die Seite **Lagereinlagerung** verwenden.  
 
 ## Eine Lagereinlagerung vom Herkunftsbeleg aus erstellen
 
@@ -80,6 +80,8 @@ Ein Lagermitarbeiter kann basierend auf dem freigegebenen Herkunftsbeleg eine ne
 
     * Buchen Sie den Wareneingang der eingelagerten Herkunftsbelegen
     * Wenn der Lagerort Lagerplätze verwendet, erzeugt der Buchungsvorgang darüber hinaus Lagerplatzposten, um die Mengenänderungen in den Lagerplätzen zu buchen.
+
+    [!INCLUDE [preview-posting-warehouse](includes/preview-posting-warehouse.md)]
 
 ## Siehe verwandte [Microsoft Schulungen](/training/modules/receive-put-away-items/)
 

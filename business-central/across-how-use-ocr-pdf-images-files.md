@@ -44,7 +44,7 @@ Von Ihrer E-Mail-Anwendung aus können Sie eine E-Mail mit der angehängten PDF-
 Da für die Datei kein Datensatz für Eingehende Belege existiert, wird auf der Seite **Eingehende Belege** automatisch ein neuer Datensatz erstellt, wenn der OCR-Dienst das resultierende elektronische Dokument sendet. Weitere Informationen finden Sie unter [Erstellen von Datensätzen für eingehende Dokumente](across-how-create-income-document-records.md).
 
 > [!NOTE]  
-> Wenn Sie an einem Tablet oder einem Telefon arbeiten, können Sie die Datei zum OCR-Dienst senden, sobald Sie ein Foto des Dokuments aufgenommen haben, oder Sie können einen eingehenden Beleg direkt erstellen. Weitere Informationen finden Sie unter [Erstellen eines Datensatzes für ein eingehendes Dokument durch Aufnahme eines Fotos](across-how-create-income-document-records.md#to-create-an-incoming-document-record-by-taking-a-photo).
+> Wenn Sie an einem Tablet oder einem Telefon arbeiten, können Sie die Datei zum OCR-Dienst senden, sobald Sie ein Foto des Dokuments aufgenommen haben, oder Sie können einen eingehenden Beleg direkt erstellen. Weitere Informationen finden Sie unter [Erstellen eines Datensatzes für ein eingehendes Dokument durch Aufnahme eines Fotos](across-how-create-income-document-records.md#create-an-incoming-document-record-by-taking-a-photo).
 
 ## So erhalten Sie den resultierenden elektronischen Beleg vom OCR-Dienst
 

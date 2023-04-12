@@ -2,17 +2,17 @@
 title: Granulare Berechtigungen definieren
 description: 'In diesem Artikel wird beschrieben, wie Sie granulare Berechtigungen definieren und jedem Benutzer die Berechtigungssätze zuweisen, die er für seine Aufgaben benötigt.'
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: 'access, right, security'
 ms.search.form: '1, 119, 8930, 9800, 9807, 9808, 9830, 9831, 9802, 9855, 9862'
-ms.date: 11/29/2022
-ms.author: bholtorf
+ms.date: 02/08/2023
 ---
 
 # Zuweisen von Berechtigungen zu Benutzern und Gruppen
+
+[!INCLUDE [2023rw1-sec-group-long](includes/2023rw1-sec-group-long.md)]
 
 Das [!INCLUDE[prod_short](includes/prod_short.md)]-Sicherheitssystem steuert, auf welche Objekte ein Benutzer in jeder Datenbank oder Umgebung in Kombination mit den Lizenzen des Benutzers zugreifen kann. Sie können für jeden Benutzer festlegen, ob er Daten in den Datenbankobjekten lesen, ändern oder eingeben darf. Weitere Informationen finden Sie unter [Datensicherheit](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level) in der Hilfe für Entwickler und Verwaltungsinhalt für [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -26,16 +26,16 @@ In [!INCLUDE[prod_short](includes/prod_short.md)] gibt es zwei Ebenen von Berech
 
 - Detaillierte Berechtigungen, die Sie in [!INCLUDE[prod_short](includes/prod_short.md)] zuweisen.
 
-  Dieser Artikel beschreibt, wie Sie in [!INCLUDE [prod_short](includes/prod_short.md)] Berechtigungen definieren, verwenden und anwenden können, um die Standardkonfiguration zu ändern.  
+Dieser Artikel beschreibt, wie Sie in [!INCLUDE [prod_short](includes/prod_short.md)] Berechtigungen definieren, verwenden und anwenden können, um die Standardkonfiguration zu ändern.  
 
 [!INCLUDE [admin-gdap-users](includes/admin-gdap-users.md)]  
 Weitere Informationen finden Sie unter [Delegierter Administratorzugriff auf Business Central Online](/dynamics365/business-central/dev-itpro/administration/delegated-admin).  
 
-[!INCLUDE [prod_short](includes/prod_short.md)]-Online enthält Standardbenutzergruppen, die Benutzern automatisch basierend auf ihrer Lizenz zugewiesen werden. Sie können die Standardkonfiguration ändern, indem Sie Benutzergruppen, Berechtigungssätze und Berechtigungen ändern oder hinzufügen. In der folgenden Tabelle sind wichtige Szenarien zum Ändern der Standardberechtigungen aufgeführt.  
+[!INCLUDE [prod_short](includes/prod_short.md)]-Online enthält Standardbenutzergruppen, die Benutzern automatisch basierend auf ihrer Lizenz zugewiesen werden. Sie können die Standardkonfiguration ändern, indem Sie Sicherheitsgruppen, Berechtigungssätze und Berechtigungen ändern oder hinzufügen. In der folgenden Tabelle sind wichtige Szenarien zum Ändern der Standardberechtigungen aufgeführt.  
 
 |Aktion  |Siehe  |
 |---------|---------|
-|Um die Verwaltung von Berechtigungen für mehrere Benutzer zu erleichtern, können Sie diese in Benutzergruppen organisieren und dann ein Berechtigungsset für mehrere Benutzer in einer Aktion zuordnen oder ändern.| [So verwalten Sie Berechtigungen über Benutzergruppen](#to-manage-permissions-through-user-groups) |
+|Um die Verwaltung von Berechtigungen für mehrere Benutzer zu erleichtern, können Sie diese in Sicherheitsgruppen organisieren und dann ein Berechtigungsset für mehrere Benutzer in einer Aktion zuordnen oder ändern.| [So verwalten Sie Berechtigungen über Benutzergruppen](#to-manage-permissions-through-user-groups) |
 |So verwalten Sie Berechtigungssätze für bestimmte Benutzer | [So weisen Sie Benutzern Berechtigungen zu](#to-assign-permission-sets-to-users) |
 |Erfahren Sie, wie Sie einen Berechtigungssatz definieren|[Erstellen eines Berechtigungssatzes](#to-create-a-permission-set)|
 |So zeigen Sie Berechtigungen eines Benutzers an oder bearbeiten sie|[So erhalten Sie eine Übersicht der Benutzerberechtigungen](#to-get-an-overview-of-a-users-permissions)|
@@ -51,7 +51,7 @@ Weitere Informationen finden Sie unter [Delegierter Administratorzugriff auf Bus
 > [!NOTE]
 > Im Veröffentlichungszyklus 2, 2022 haben wir das Hinzufügen von Berechtigungen zu Berechtigungssätzen vereinfacht. Anstatt Berechtigungen einzeln hinzuzufügen, können Sie ganze Berechtigungssätze hinzufügen. Bei Bedarf können Sie dann einzelne Berechtigungen darin ausschließen. Weitere Informationen finden Sie unter [WeitereBerechtigungssätze hinzufügen](#to-add-other-permission-sets). Um dies zu ermöglichen, haben wir die Seite „Berechtigungssatz“ durch eine neue ersetzt. Die wichtigsten Unterschiede sind die neuen Bereiche **Berechtigungssätze** und **Ergebnisse** und die Infobox **Enthaltene Berechtigungen**. Um die ersetzte Seite „Berechtigungen“ weiterhin zu verwenden, klicken Sie auf der Seite **Berechtigungssätze** auf **Berechtigungen (alt)**.
 
-Die Wartung ist auch einfacher. Wenn Sie Systemberechtigungen hinzufügen, wird Ihr benutzerdefinierter Berechtigungssatz automatisch mit allen Änderungen aktualisiert, die Microsoft an diesen Berechtigungen vornimmt.
+Die Wartung ist auch einfacher. Wenn Sie eine Systemberechtigungen hinzufügen, wird Ihr benutzerdefinierter Berechtigungssatz automatisch mit allen Änderungen aktualisiert, die Microsoft an diesen Berechtigungen vornimmt.
 
 1. Wählen Sie das Symbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Befugnissätze** ein und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie die Aktion **Neu**.
@@ -76,11 +76,11 @@ Die Wartung ist auch einfacher. Wenn Sie Systemberechtigungen hinzufügen, wird 
   |**Auf indirekt reduzieren**|Ändern Sie die Zugriffsebene in Indirekt, wenn Berechtigungssätze direkten Zugriff auf das Objekt gewähren. Wählen Sie diese Option beispielsweise aus, wenn der Berechtigungssatz direkten Zugriff auf Sachkonteneinträge gewährt, Sie aber nicht möchten, dass Benutzer vollen Zugriff auf die Einträge haben.|
   
   > [!NOTE]
-  > Der höchste Berechtigungssatz in der Hierarchie bestimmt, ob die Berechtigung eingeschlossen oder ausgeschlossen wird. Wenn sich zwei Sätze in der Hierarchie auf derselben Ebene befinden und eine Berechtigung in einem Satz enthalten, aber im anderen ausgeschlossen ist, wird die Berechtigung ausgeschlossen.
+  > Wenn eine Berechtigung sowohl eingeschlossen als auch ausgeschlossen ist, wird die Berechtigung ausgeschlossen.
 
 6. Verwenden Sie die Felder **Objekttyp** und **Objekt-ID**, um das Objekt anzugeben, auf das Sie Zugriff gewähren.
 
-> [!TIP]
+  > [!TIP]
   > Neue Zeilen zeigen Standardwerte an. Zum Beispiel enthält das Feld **Objekttyp** **Tabellendaten**, und das Feld **Objekt-ID** enthält **0**. Die Standardwerte sind nur Platzhalter und werden nicht verwendet. Sie müssen einen Objekttyp und ein Objekt im Feld **Objekt-ID** auswählen, bevor Sie eine weitere neue Zeile erstellen können.
 
 7. Optional: Wenn Sie Berechtigungen für einen Tabellendaten-Objekttyp definieren, können Sie im Feld **Sicherheitsfilter** die Daten filtern, auf die ein Benutzer in Feldern in der ausgewählten Tabelle zugreifen kann. Sie können z. B. angeben, dass ein Benutzer nur auf die Datensätze zugreifen kann, die Informationen über einen bestimmten Debitor enthalten. Weitere Informationen finden Sie unter [Sicherheitsfilter beschränken den Zugriff eines Benutzers auf bestimmte Datensätze in einer Tabelle](#security-filters-limit-a-users-access-to-specific-records-in-a-table) und [Verwenden von Sicherheitsfiltern](/dynamics365/business-central/dev-itpro/security/security-filters).
@@ -105,9 +105,16 @@ Verwenden Sie im Bereich **Ergebnis** das Feld **Inklusionsstatus**, um die Bere
 
 Wählen Sie für eine Gesamtansicht der Berechtigungen im Berechtigungssatz die Aktion **Alle Berechtigungen anzeigen** aus. Die Seite **Erweiterte Berechtigungen** zeigt alle Berechtigungen, die dem Berechtigungssatz bereits zugewiesen wurden, und die Berechtigungen in den hinzugefügten Berechtigungssätzen.
 
-Um einen von Ihnen hinzugefügten Berechtigungssatz vollständig auszuschließen, wählen Sie im Bereich **Ergebnis** die Option **Weitere Optionen anzeigen**, und wählen Sie dann **Ausschließen**. Wenn Sie einen Berechtigungssatz ausschließen, wird eine Zeile im Bereich **Berechtigungssätze** vom Typ Ausgeschlossen erstellt. Wenn Sie einen Berechtigungssatz ausgeschlossen haben, ihn aber wieder einschließen möchten, löschen Sie die Zeile im Feld **Berechtigungssätze**.
+Um einen Berechtigungssatz vollständig auszuschließen, wählen Sie im Bereich **Ergebnis** die Option **Weitere Optionen anzeigen**, und wählen Sie dann **Ausschließen**. Wenn Sie einen Berechtigungssatz ausschließen, wird eine Zeile im Bereich **Berechtigungssätze** vom Typ Ausgeschlossen erstellt. Wenn Sie einen Berechtigungssatz ausgeschlossen haben, ihn aber wieder einschließen möchten, löschen Sie die Zeile im Feld **Berechtigungssätze**.
 
-Um eine bestimmte Berechtigung in einem von Ihnen hinzugefügten Satz vollständig oder teilweise auszuschließen, erstellen Sie eine Zeile für das Objekt unter **Berechtigungen**. Die Felder für die Zugriffsebene, Berechtigung einfügen, Berechtigung ändern usw. enthalten alle Ausschließen. Wählen Sie die entsprechende Option, um eine bestimmte Zugriffsebene zuzulassen.
+Um eine bestimmte Berechtigung in einem von Ihnen hinzugefügten Satz vollständig oder teilweise auszuschließen, erstellen Sie eine Zeile für das Objekt unter **Berechtigungen**. Die Felder für die Zugriffsebene, Berechtigung einfügen, Berechtigung ändern usw. enthalten alle **Ausschließen**. Wählen Sie die entsprechende Option, um eine bestimmte Zugriffsebene zuzulassen.
+
+> [!NOTE]
+> Durch das Ausschließen eines Berechtigungssatzes werden alle Berechtigungen im Satz ausgeschlossen. [!INCLUDE [prod_short](includes/prod_short.md)] berechnet Berechtigungen wie folgt:
+
+> 1. Berechnen Sie die vollständige Liste der enthaltenen Berechtigungen
+> 2. Berechnen Sie die vollständige Liste der ausgeschlossenen Berechtigungen
+> 3. Ausgeschlossene Berechtigungen aus der Liste der enthaltenen Berechtigungen entfernen (das Entfernen einer indirekten Berechtigung entspricht dem Reduzieren auf indirekt)
 
 ## Kopieren eines Berechtigungssatzes
 
@@ -135,7 +142,7 @@ Erstellen Sie einen neuen Berechtigungssatz, indem Sie einen anderen kopieren. D
 2. Wählen Sie auf der Seite **Benutzer** die Aktion **Neu** aus.
 3. Füllen Sie die Felder in einer neuen Zeile wie erforderlich aus.
 4. Wählen Sie die Aktion **Berechtigungen** aus.
-1. Auf der Seite **Berechtigungen** wählen Sie die Aktion **Berechtigungen aufzeichnen** aus, und wählen Sie dann die Aktion **Starten** aus.  
+5. Auf der Seite **Berechtigungen** wählen Sie die Aktion **Berechtigungen aufzeichnen** aus, und wählen Sie dann die Aktion **Starten** aus.  
     Die Aufzeichnung muss entweder über die Funktion **Diese Seite in einem neuen Fenster öffnen** (Pop-Out) erfolgen, um das Aufzeichnungsfenster **Berechtigungen** nebeneinander zu haben, oder Sie arbeiten innerhalb derselben Registerkarte.  
     Jetzt wird ein Aufzeichnungsprozess gestartet, der alle Ihre Aktionen auf der Benutzeroberfläche erfasst.
 6. Wechseln Sie zu den verschiedenen Seiten und Aktivitäten in [!INCLUDE[prod_short](includes/prod_short.md)] für die Benutzer mit diesem Berechtigungssatz, die darauf zugreifen sollen. Sie müssen die Aufgaben ausführen, für die Sie Berechtigungen erfassen möchten.
@@ -166,9 +173,9 @@ Die Berechtigungssätze werden importiert.
 
 ## So entfernen Sie veraltete Berechtigungen aus allen Berechtigungssätzen
 
-1. Wählen Sie auf der Seite **Berechtigungssätze** die Aktion **Veraltete Berechtigungssätze entfernen** aus.
+Wählen Sie auf der Seite **Berechtigungssätze** die Aktion **Veraltete Berechtigungssätze entfernen** aus.
 
-## So richten Sie Zeiteinschränkungen ein
+## So richten Sie Zeiteinschränkungen für Benutzer ein
 
 Administratoren können Zeiträume definieren, in denen bestimmte Benutzer Beiträge veröffentlichen können. Administratoren können auch angeben, ob das System protokolliert, wie lange Benutzer angemeldet sind. Entsprechend können Administratoren Benutzern Zuständigkeitseinheiten zuordnen. Weitere Informationen finden Sie unter [Arbeiten mit Zuständigkeitseinheiten](inventory-responsibility-centers.md).
 

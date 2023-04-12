@@ -340,6 +340,10 @@ Durch das Löschen einer Nachricht, die eine Karte enthält, werden keine Daten 
 
 Anzahl Die Feldwerte auf einer Karte in Teams, einschließlich aller Bilder, basieren auf den Daten, die verfügbar waren, als diese Karte an den Chat gesendet wurde. [!INCLUDE [prod_short.md](includes/prod_short.md)] Karten werden in Teams nicht automatisch aktualisiert. 
 
+### Warum zeigen Karten keine weiteren Informationen an statt nur den Seitennamen und die Detailschaltfläche?
+
+Ein Administrator hat möglicherweise die Teams-Integration so konfiguriert, dass Karten keine Daten zu Datensätzen anzeigen. Weitere Informationen finden Sie unter [Aufzeichnungsdaten auf Karten anzeigen oder ausblenden](admin-teams-integration.md#show-or-hide-record-data-on-cards).
+
 ### Werden andere meine Karte sehen, wenn sie [!INCLUDE [prod_short.md](includes/prod_short.md)] App für Teams nicht installiert haben? 
 
 Wenn Sie eine Nachricht verfassen und an den Chat senden, die eine Karte enthält, sehen alle Benutzer die Karte,&mdash;auch wenn sie die [!INCLUDE [prod_short.md](includes/prod_short.md)]-App für Teams nicht installiert haben.

@@ -7,10 +7,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: '99000773, 99000778, 99000823, 99000827'
-ms.date: 04/01/2021
+ms.date: 03/08/2023
 ms.author: edupont
 ---
 # Ausgabe über Stapelverarbeitung buchen und Bearbeitungszeiten prüfen
+
 Die fertig gestellte Menge repräsentiert den Arbeitsfortschritt in Form der fertigen Menge und der genutzten Kapazität der Arbeit oder des Arbeitsplatzes.
 
 Sie können das Ausgabejournal für Folgendes verwenden:
@@ -22,7 +23,7 @@ Sie können das Ausgabejournal für Folgendes verwenden:
 > [!NOTE]
 > Wenn der Fertigungsarbeitsgang verwendet wird, aktualisiert die Anwendung automatisch den Lagerbestand nur wenn Sie die fertig gestellte Menge für den letzten Arbeitsgang buchen.
 
-Im Fenster **Produktions Buch.-Blatt** können Sie die gleichen Aufgaben wie im Fenster **FA-Istmeldungs Buch.-Blatt** ausführen und gleichzeitig die entsprechenden Verbrauchsbuchungsaufgaben ausführen. Weitere Informationen finden Sie unter [Gemeinsames Erfassen und Buchen von Verbrauch und Istmeldungen für eine einzelne freigegebene Fertigungsauftragszeile](production-how-to-register-consumption-and-output.md).
+Auf der Seite **Produktionsjournal** können Sie die gleichen Aufgaben ausführen wie auf der Seite **Ausgangsjournal** und auch Verbrauchsbuchungs-Aufgaben vornehmen. Weitere Informationen finden Sie unter [Gemeinsames Erfassen und Buchen von Verbrauch und Istmeldungen für eine einzelne freigegebene Fertigungsauftragszeile](production-how-to-register-consumption-and-output.md).
 
 ## Die fertig gestellte Mengen und/oder Erfassungslaufzeiten für eine oder mehrere Fertigungsauftragszeilen buchen
 
@@ -32,11 +33,11 @@ Im Fenster **Produktions Buch.-Blatt** können Sie die gleichen Aufgaben wie im 
     Sie können die Funktion **Arbeitsplan auflösen** Generieren von Journalzeilen aus Fertigungsaufträgen verwenden.
   
 3. Wenn der Arbeitsgang beendet ist, wählen Sie das Feld **Beendet** aus.  
-4. Um die Vorgänge zu buchen, wählen Sie die Aktion **Buchen** aus. 
+4. Um die Vorgänge zu buchen, wählen Sie die Aktion **Buchen** aus.
 
-Kapazitätsposten werden für die verwendeten Arbeitsplätze mit Informationen zu Zeit und Menge der Ausgabe und des Ausschusses aktualisiert.  
+    Kapazitätsposten werden für die verwendeten Arbeitsplätze mit Informationen zu Zeit und Menge der Ausgabe und des Ausschusses aktualisiert. Wenn Sie den letzten Vorgang gebucht haben, wird der Artikel dem Lager hinzugefügt.
 
-Wenn Sie den letzten Vorgang gebucht haben, wird der Artikel dem Lager hinzugefügt.  
+    [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
 ## Siehe auch
 

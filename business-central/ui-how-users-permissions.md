@@ -5,11 +5,13 @@ author: jswymer
 ms.topic: conceptual
 ms.search.keywords: 'access, right, security'
 ms.search.form: '119, 6300, 6301, 6302, 8930, 9800, 9807, 9808, 9830, 9831, 9838, 9818, 9062, 9061, 9069, 9173'
-ms.date: 05/09/2022
+ms.date: 03/24/2023
 ms.author: jswymer
 ms.reviewer: jswymer
 ---
 # Benutzer nach Lizenzen anlegen
+
+[!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
 
 Dieser Artikel beschreibt, wie Administratoren Benutzer erstellen und festlegen, wer sich anmelden kann bei [!INCLUDE[prod_short](includes/prod_short.md)]. Sie erfahren auch, wie Sie den verschiedenen Benutzern je nach Ihren Produktlizenzen Berechtigungen zuweisen können.
 
@@ -90,8 +92,11 @@ Nachdem Sie Benutzer hinzugefügt oder Benutzerinformationen im Microsoft 365 Ad
 2. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Benutzer** ein, und wählen Sie dann den entsprechenden Link.  
 3. Wählen Sie **Benuzter von Microsoft 365** aktualisieren.
 
+> [!IMPORTANT]  
+> Das Ausführen der Synchronisierung von Benutzern von Microsoft 365 unter Verwendung der Anleitung **Benutzer aktualisieren von Microsoft 365** erfordert den SUPER-Berechtigungssatz.
+
 > [!NOTE]
-> Die Aktion **Benutzende von Microsoft 365 aktualisieren** aktualisiert keine Benutzende, denen keine Lizenz zugewiesen ist, wie z. B. jemand, der globaler Administrator und Dynamics 365-Administrator ist. Diese Benutzende werden aktualisiert, wenn sie sich das nächste Mal bei der Umgebung anmelden.
+> Die Anleitung **Benutzende von Microsoft 365 aktualisieren** aktualisiert keine Benutzende, denen keine Lizenz zugewiesen ist, wie z. B. jemand, der globaler Administrator und Dynamics 365-Administrator ist. Diese Benutzende werden aktualisiert, wenn sie sich das nächste Mal bei der Umgebung anmelden.
 
 Der nächste Schritt für neu erstellte Benutzer ist die Zuweisung von Benutzergruppen und Berechtigungen. Informationen hierzu finden Sie unter [Benutzern und Gruppen Berechtigungen zuweisen](ui-define-granular-permissions.md). Wenn Sie einen Benutzer aktualisieren und die Aktualisierung eine Lizenzänderung beinhaltet, werden die Benutzer der entsprechenden Benutzergruppe zugewiesen und ihre Berechtigungssätze werden aktualisiert. Weitere Informationen finden Sie unter [Berechtigungen über Benutzergruppen verwalten](ui-define-granular-permissions.md).  
 
@@ -101,7 +106,7 @@ Der nächste Schritt für neu erstellte Benutzer ist die Zuweisung von Benutzerg
 Weitere Informationen zur Synchronisierung von Benutzerinformationen mit Microsoft 365 finden Sie im Abschnitt [Synchronisierung mit Microsoft 365](#m365).
 
 > [!NOTE]
-> Wenn Sie einen externen Buchhalter verwenden, um Ihre Bücher und Finanzberichterstattung zu verwalten, können Sie ihn/sie in Ihr Business Central einladen, damit er/sie mit Ihnen an Ihren Steuerdaten zu arbeiten. Weitere Informationen finden Sie unter [Ihren externen Buchhalter in Ihr Business Central einladen](finance-accounting.md#inviteaccountant).
+> Wenn Sie eines externen Buchhalter verwenden, um Ihre Buch und Berichte zu verwalten, können Sie sie für Ihr [!INCLUDE[prod_short](includes/prod_short.md)] einladen, damit sie mit Ihnen an Ihren steuerlichen Daten arbeiten. Weitere Informationen finden Sie unter [Ihren externen Buchhalter in Ihr Business Central einladen](finance-accounting.md#inviteaccountant).
 
 ### So entfernen Sie den Zugriff eines Benutzers auf das System
 
@@ -134,9 +139,9 @@ Wenn Sie die Benutzerinformationen in Microsoft 365 ändern, können Sie [!INCLU
 
 Benutzer können auf [!INCLUDE[prod_short](includes/prod_short.md)]-Datensätze in Teams nur mit ihrer Microsoft 365-Lizenz zugreifen. Wenn der Zugriff für eine Umgebung aktiviert ist, werden bei der Synchronisierung mit der Aktion **Benutzer von Microsoft 365 aktualisieren** Benutzer, die nur eine Microsoft 365-Lizenz haben, nicht berücksichtigt. Um diese Benutzer in die Synchronisierung einzubeziehen, müssen Sie zunächst die Umgebungseinstellungen aktualisieren, indem Sie eine Sicherheitsgruppe zuweisen, die Benutzer mit einer [!INCLUDE[prod_short](includes/prod_short.md)]-Lizenz und Benutzer mit nur einer Microsoft 365-Lizenz enthält.
 
-Erfahren Sie mehr über die Sicherung des Zugriffs auf Umgebungen mithilfe von Sicherheitsgruppen unter [Verwalten des Zugriffs mithilfe von Azure Active Directory-Gruppen](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-access#manage-access-using-azure-active-directory-groups). 
+Erfahren Sie mehr über die Sicherung des Zugriffs auf Umgebungen mithilfe von Sicherheitsgruppen unter [Verwalten des Zugriffs mithilfe von Azure Active Directory-Gruppen](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-access#manage-access-using-azure-active-directory-groups).
 
-Einen Überblick über den Zugriff auf Business Central in Teams mit Microsoft 365-Lizenzen finden Sie unter [admin-access-with-m365-license](admin-access-with-m365-license.md).
+Einen Überblick über den Zugriff auf [!INCLUDE[prod_short](includes/prod_short.md)] in Teams mit Microsoft 365-Lizenzen finden Sie unter [admin-access-with-m365-license](admin-access-with-m365-license.md).
 
 ## Benutzer und Lizenzen in lokalen Bereitstellungen verwalten
 

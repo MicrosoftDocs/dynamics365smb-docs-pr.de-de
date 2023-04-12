@@ -36,13 +36,14 @@ Die Einstellung **Erfahrung** gilt für alle Benutzer in einem Unternehmen, aber
 Benutzer werden Plänen in Microsoft 365 Admin Center in Verbindung mit allgemeiner Arbeit zugewiesen, um Business Central Benutzer zu erstellen. Weitere Informationen finden Sie unter [Fügen Sie Benutzer hinzu und weisen Sie gleichzeitig Lizenzen zu](/microsoft-365/admin/add-users/add-users?view=o365-worldwide&preserve-view=true).
 
 ### Um Planänderungen der Benutzergruppen zu aktualisieren
-Wenn Sie eine Änderung in den Benutzerplänen in Microsoft 365 Admin Center gemacht haben, wie mehr Benutzer dem Premium Plan hinzuzufügen, muss die Änderung in [!INCLUDE[prod_short](includes/prod_short.md)] vorgenommen werden.
+
+[!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
+
+Wenn Sie eine Änderung in den Benutzerplänen im Microsoft 365 Admin Center gemacht haben, wie mehr Benutzer dem Premium Plan hinzuzufügen, muss die Änderung in [!INCLUDE[prod_short](includes/prod_short.md)] aktualisiert werden.
 
 1. Als Administrator anmelden.
-2. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Benutzer** ein, und wählen Sie dann den entsprechenden Link.
-3. Wählen Sie auf der Seite **Benutzer** die Aktion **Alle Benutzergruppen neu einrichten**.
-
-Alle neuen Informationen über die Schemata der Benutzer zusammen mit den zugeordneten Benutzergruppen werden jetzt entsprechend den Planänderungen aktualisiert.
+2. Wählen Sie das Symbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Benutzer** ein, und wählen Sie dann den entsprechenden Link.
+3. Wählen Sie auf der Seite **Benutzer** die Aktion **Benutzer aus Microsoft 365 aktualisieren** aus.
 
 ### Die Premium-Umgebung auswählen
 Sie können jetzt fortfahren, die neuen Benutzeroberfläche auszuwählen.

@@ -83,10 +83,10 @@ Wenn die Mitarbeiter die Lagerbestandsmengen gezählt haben, müssen Sie die Erf
 4. Aktivieren Sie in jeder Zeile das Kontrollkästchen **Erfasst**.
 5. Wenn Sie alle Daten für eine Inventurerfassung eingegeben haben, wählen Sie die Aktion **Fertig stellen** aus. Beachten Sie, dass bei allen Zeilen das Kontrollkästchen **Erfasst** ausgewählt sein muss.
 
-> [!NOTE]
-> Wenn Sie eine Inventurerfassung abschließen, wird jede Zeile in die Zeile des zugehörigen Inventurauftrags übertragen, mit der sie genau übereinstimmt. Damit sie übereinstimmen, müssen die Werte in den Feldern **Artikelnr.**, **Variantencode**, **Lagerortcode** und **Lagerplatzcode** mit der Erfassung und den Auftragszeilen übereinstimmen.<br /><br />
-> Wenn keine übereinstimmende Inventurauftragszeile vorhanden ist und das Kontrollkästchen **Erfassung ohne Auftrag erlauben** aktiviert ist, wird automatisch eine neue Zeile eingefügt und das Kontrollkästchen **Ohne Auftrag erfasst** in der entsprechenden Inventurauftragszeile aktiviert. Andernfalls wird eine Fehlermeldung angezeigt, und der Prozess wird abgebrochen.<br /><br />
-> Wenn mehr als eine Zeile einer Inventurerfassung mit einer Zeile eines Inventurauftrags übereinstimmt, wird eine Meldung angezeigt und der Vorgang abgebrochen. Wenn aus irgendwelchen Gründen zwei identische Inventurerfassungszeilen im Inventurauftrag landen, können Sie eine Funktion verwenden, um das Problem zu lösen. Weitere Informationen finden Sie im Abschnitt [So finden Sie doppelte Inventurauftragszeilen](#to-find-duplicate-physical-inventory-order-lines).
+    > [!NOTE]
+    > Wenn Sie eine Inventurerfassung abschließen, wird jede Zeile in die Zeile des zugehörigen Inventurauftrags übertragen, mit der sie genau übereinstimmt. Damit sie übereinstimmen, müssen die Werte in den Feldern **Artikelnr.**, **Variantencode**, **Lagerortcode** und **Lagerplatzcode** mit der Erfassung und den Auftragszeilen übereinstimmen.<br /><br />
+    > Wenn keine übereinstimmende Inventurauftragszeile vorhanden ist und das Kontrollkästchen **Erfassung ohne Auftrag erlauben** aktiviert ist, wird automatisch eine neue Zeile eingefügt und das Kontrollkästchen **Ohne Auftrag erfasst** in der entsprechenden Inventurauftragszeile aktiviert. Andernfalls wird eine Fehlermeldung angezeigt, und der Prozess wird abgebrochen.<br /><br />
+    > Wenn mehr als eine Zeile einer Inventurerfassung mit einer Zeile eines Inventurauftrags übereinstimmt, wird eine Meldung angezeigt und der Vorgang abgebrochen. Wenn aus irgendwelchen Gründen zwei identische Inventurerfassungszeilen im Inventurauftrag landen, können Sie eine Funktion verwenden, um das Problem zu lösen. Weitere Informationen finden Sie im Abschnitt [So finden Sie doppelte Inventurauftragszeilen](#to-find-duplicate-physical-inventory-order-lines).
 
 ## So schließen Sie einen Inventurauftrag ab
 
@@ -102,7 +102,7 @@ Sie können auch die **Phys. Inventory Order Diff.** Aktion auswählen, um Unter
 2. Öffnen Sie den Inventurauftrag, für den Sie doppelte Zeilen anzeigen möchten.
 3. Wählen Sie die **Doppelte Zeilen anzeigen** Aktion aus.
 
-Es werden alle doppelten Inventurauftragszeilen angezeigt, sodass Sie sie löschen und nur eine Zeile mit eindeutigem Satz von Werten in den Feldern **Artikelnr.**, **Variantencode**, **Lagerortcode** und **Lagerplatzcode** behalten können.
+Doppelte physische Lagerauftragszeilen anzeigen, sodass Sie sie löschen und nur eine Zeile mit eindeutigem Satz von Werten in den Feldern **Artikelnr.**, **Variantencode**, **Lagerortcode** und **Lagerplatzcode** behalten können.
 
 ### So buchen Sie einen Inventurauftrag
 
@@ -118,10 +118,12 @@ Nach Fertigstellen eines Inventurauftrags und Ändern des Status in **Beendet** 
     Auf der Seite **Inventurauftrag** kann die Menge angezeigt werden, die im Feld **Erfasste Menge (Basis)** erfasst wurde.
 3. Wählen Sie die Schaltfläche **Fertigstellung** aus.
 
-    Der Wert im Feld **Status** wird auf **Erledigt** geändert, und Sie können den Auftrag jetzt nur ändern, indem Sie zuerst die Aktion **Erneut öffnen**.
+    Der Wert im Feld **Status** wird auf **Fertig** geändert, und Sie können den Auftrag jetzt nur ändern, indem Sie zuerst die Aktion **Erneut öffnen** auswählen.
 4. Um den Auftrag zu buchen, wählen Sie dann die Aktion **Buchen** und dann die Schaltfläche **OK** aus.
 
-Die betreffenden Artikelposten werden zusammen mit allen verknüpften Artikelverfolgungsposten aktualisiert.
+    Die betreffenden Artikelposten werden zusammen mit allen verknüpften Artikelverfolgungsposten aktualisiert.
+
+    [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
 ### So zeigen Sie gebuchte Inventuraufträge an
 
@@ -141,9 +143,9 @@ Das Kontrollkästchen **Artikelverfolgung verwenden** in Inventurauftragszeilen 
 
 Berücksichtigen Sie eine Inventur für Artikel A, der im Lagerbestand unter zehn verschiedene Seriennummern gespeichert wird.
 1. Wählen Sie in der Erfassungszeile für den Artikel das Kontrollkästchen **Artikelverfolgung verwenden** aus.
-2.  Wählen Sie das Feld **Seriennr.** aus, die erste Seriennummer, die im Lagerbestand für den Artikel existiert, und wählen Sie dann die Schaltfläche **OK** aus.
+2. Wählen Sie das Feld **Seriennr.** aus, die erste Seriennummer, die im Lagerbestand für den Artikel existiert, und wählen Sie dann die Schaltfläche **OK** aus.
 
-    Fahren Sie fort und kopieren Sie die Zeile für den ersten Artikel mit Artikelverfolgung, um zusätzliche Zeilen entsprechend der Anzahl von Seriennummern einzufügen, die im Bestand gespeichert sind.
+    Kopieren Sie die Zeile für den ersten Artikel mit Artikelverfolgung, um zusätzliche Zeilen entsprechend der Anzahl von Seriennummern einzufügen, die im Bestand gespeichert sind.
 
 3. Wählen Sie die Aktion **Funktionen** und dann die Aktion **Zeile kopieren** aus.
 4. Geben Sie auf der Seite **Inventurerfassungszeile kopieren** 9 in das Feld **Anzahl Kopien** ein und wählen Sie dann die Schaltfläche **OK** aus.
@@ -192,8 +194,8 @@ Auf der Seite **Inventurauftrag** enthält das Feld **Negative Menge (Basis)** d
 
 Die folgenden Arten von Dokumenten sind nützlich für die Verwaltung Ihres Lagers:
 
-- Benutzen Sie **Inventarbelege**, um positive Anpassungen von Artikeln basierend auf Qualität, Quantität und Kosten zu registrieren.
-- Benutzen Sie **Inventursendungen**, um fehlende oder beschädigte Waren abzuschreiben.
+* Benutzen Sie **Inventarbelege**, um positive Anpassungen von Artikeln basierend auf Qualität, Quantität und Kosten zu registrieren.
+* Benutzen Sie **Inventursendungen**, um fehlende oder beschädigte Waren abzuschreiben.
 
 Sie können diese Dokumente jederzeit drucken, freigeben und erneut öffnen sowie in der Kopfzeile allgemeine Werte, einschließlich Abmessungen, zuweisen. Wenn Sie die Dokumente nach dem Posten erneut drucken möchten, können Sie dies auf den Websites **Gebuchte Lagereingänge** und **Gebuchte Lagerausgänge** tun.
 
@@ -206,10 +208,11 @@ Der folgende Ablauf zeigt, wie die Nummerierung von Inventurbelegen eingerichtet
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Lagerbestandseinrichtung** ein und wählen Sie dann den zugehörigen Link.
 2. Im Inforegister **Nummerierung** geben Sie in den folgenden Feldern die Zahlenreihe für Dokumente an:
-   - **Lagereingangsnr.**  
-   - **Gebuchter Lagereingang Nr.**  
-   - **Warenausgangsnr.**  
-   - **Geb. Warenausgang Nr.**  
+
+   * **Lagereingangsnr.**  
+   * **Gebuchter Lagereingang Nr.**  
+   * **Warenausgangsnr.**  
+   * **Geb. Warenausgang Nr.**  
 
 ### Erstellen und Buchen eines Inventurbelegs
 
@@ -222,17 +225,19 @@ Das folgende Verfahren zeigt, wie Sie einen Inventarbeleg erstellen, drucken und
 
 Die folgenden Funktionen stehen auf der Seite **Lagereingang** zur Verfügung:
 
-- Wählen Sie die Aktionen **Veröffentlichen** oder **Wieder öffnen** zum Festlegen des Status für die nächste Verarbeitungsstufe aus  
-- Wählen Sie die Aktion **Buchen** aus, um den Lagereingang zu buchen, oder wählen Sie **Veröffentlichen und drucken** aus, um den Beleg zu buchen und den Testbericht auszudrucken  
+* Wählen Sie die Aktionen **Veröffentlichen** oder **Wieder öffnen** zum Festlegen des Status für die nächste Verarbeitungsstufe aus  
+* Wählen Sie die Aktion **Buchen** aus, um den Lagereingang zu buchen, oder wählen Sie **Veröffentlichen und drucken** aus, um den Beleg zu buchen und den Testbericht auszudrucken  
+
+    [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
 ## Drucken von Inventurbelegen
 
 Sie können die Berichte angeben, die in verschiedenen Phasen gedruckt werden müssen, indem Sie eine der folgenden Optionen im Feld **Verbrauch** für die Seite **Berichtsauswahl – Lagerbestand** auswählen:
 
-- Lagereingang
-- Warenausgang
-- Geb. Lagereingang
-- Geb. Warenausgang
+* Lagereingang
+* Warenausgang
+* Geb. Lagereingang
+* Geb. Warenausgang
 
 > [!NOTE]
 > Die verfügbaren Berichte können je nach Lokalisierung Ihres Landes variieren. Die Basisanwendung enthält keine Layouts.

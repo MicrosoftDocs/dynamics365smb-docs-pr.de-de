@@ -3,9 +3,6 @@ title: Berichte ausführen und drucken
 description: Erfahren Sie mehr zum Eingeben eines Berichts in eine Aufgabenwarteschlange und das Planen seiner Verarbeitung an einem bestimmten Datum und Uhrzeit.
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: 'task, process, report, print, schedule, save, Excel, PDF, Word, dataset'
 ms.search.form: null
 ms.date: 09/09/2022
@@ -102,7 +99,7 @@ Auf der Seite **Einträge in der Auftragswarteschlange** können Sie auch einige
 3. Wählen Sie die **Auf „Abwarten“ setzen**-Aktion aus.
 4. Öffnen und bearbeiten Sie den geplanten Bericht, indem Sie seinen Status auswählen (*Abwarten*).
 
-Wiederholen Sie nach dem Bearbeiten der Berichtsoptionen die ersten beiden Schritte und wählen Sie dann **Status auf 'Bereit' festlegen**, um die Generierung des Berichts fortzusetzen.
+Wiederholen Sie nach dem Bearbeiten der Berichtsoptionen die ersten beiden Schritte und wählen Sie dann **Status auf Bereit festlegen**, um die Generierung des Berichts fortzusetzen.
 
 Erfahren Sie mehr über die Verwaltung von Auftragswarteschlangen unter [Verwenden Sie Auftragswarteschlangen, um Aufgaben zu planen](admin-job-queues-schedule-tasks.md).  
 
@@ -136,6 +133,12 @@ Ein Berichtslayout steuert, was in einem Bericht angezeigt wird, wie er angeordn
 - Um das von einem Bericht verwendete Standardlayout zu ändern, gehen Sie entweder zu **Berichtslayouts** oder **Auswahl des Berichtslayouts**.
 
 Weitere Informationen finden Sie unter [Die von einem Bericht verwendeten Layouts festlegen](ui-set-report-layout.md). Wenn Sie Ihr eigenes Berichtslayout anpassen möchten, gehen Sie zu [Erste Schritte bei der Erstellung von Layouts](ui-get-started-layouts.md).
+
+## Ändern Sie die Sprache und das Format von Zahlen, Daten und Uhrzeiten
+
+Standardmäßig basieren die Textsprache und das Zahlen-, Datums- und Uhrzeitformat in einem Bericht auf Ihrer Arbeitssprache und Ihren Regionseinstellungen, die auf der Seite **Meine Einstellungen** definiert sind. Sie können jedoch die Sprache und den Formatbereich von Fall zu Fall ändern, wenn Sie einen Bericht in der Vorschau anzeigen, drucken oder senden. Wählen Sie auf der Anforderungsseite **Erweitert** aus und legen Sie dann die Optionen **Sprache** und **Formatbereich fest** nach Belieben fest.
+
+Weitere Informationen zu **Meine Einstellungen** finden Sie unter [Grundeinstellungen ändern](ui-change-basic-settings.md#region).
 
 ## Erweiterte Optionen
 

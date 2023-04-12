@@ -39,7 +39,7 @@ Die Aufgaben in dieser exemplarischen Vorgehensweise werden von den folgenden Be
 
 ## Hintergrund
 
-Ken ist ein Controller bei CRONUS , der Monatscashflowplanungen erstellt. Es schließt Finanzen, Verkauf, Einkauf und Anlagen in die Planungen ein und zeigt sie dann CFO Sara für den Geschäfteseinblick.  
+Ken ist ein Controller bei CRONUS , der Monatscashflowplanungen erstellt. Ken schließt Finanzen, Verkauf, Einkauf und Anlagen in die Planungen ein und zeigt sie dann CFO Sara für den Geschäfteseinblick.  
 
 ## Einrichten eines neuen Finanzberichtnamens
 
@@ -95,12 +95,12 @@ Nachdem ein Finanzberichtsname eingerichtet wurde, definiert Ken jede Zeile im C
 
 ## Einrichten einer neuen Spaltendefinition
 
-Bevor Ken die Cashflowplanungen drucken kann, muss er die Spaltendefinition für die numerischen Informationen erstellen. In den Spalten definiert er genau die Informationen, die er aus den Zeilen verwenden möchte.
+Vor dem Druzcken der Cashflowplanungen muss Ken die Spaltendefinition für die numerischen Informationen erstellen. In den Spalten definiert Ken die benötigten Informationen, die er in den Zeilen nutzen möchte.
 
 - Die erste Spalte hat die Nummer *C10* mit dem Titel **Betrag** und enthält die Bewegung.  
 - Die zweite Spalte die die Nummer *C20* mit dem Titel **Saldo bis Datum** und enthält die Transaktionen für die Periode.  
 - Die dritte Spalte die die Nummer *C30* mit dem Titel **Gesamtes Jahr** und enthält die Bewegung in den Salden während des gesamten Geschäftsjahres.  
-- Schließlich weist er die Spaltendefiniton als Standardoption für den Finanzbericht **Planung** zu.  
+- Dann weist Ken die Spaltendefinition als Standardoption im **Planungs**-Finanzbericht zu.  
 
 ### Eine neue Spaltendefinition einrichten
 

@@ -86,8 +86,9 @@ Sobald Sie die Excel-Layoutdatei haben, besteht die nächste Aufgabe darin, sie 
 3. Legen Sie die **Berichts-ID** auf *Bericht* fest.
 4. Geben Sie einen Namen in **Layout-Name** ein.
 5. Legen Sie **Formatoptionen** auf **Excel** fest.
-6. Wählen Sie **OK** > **Auswählen** fest, um den Datei-Explorer auf Ihrem Gerät zu öffnen.
-7. Suchen Sie die Excel-Datei und wählen Sie sie aus. Wählen Sie dann **Öffnen** aus.
+6. Wählen Sie **OK** aus. Führen Sie dann einen der folgenden Schritte aus, um die Layoutdatei für den Bericht zu erstellen:
+
+   [!INCLUDE[file-upload](includes/file-upload.md)]
 
    Die ausgewählte Datei wird in das Layout hochgeladen und die Seite **Berichtslayouts** wird geöffnet.
 8. Wenn Sie sehen möchten, wie der Bericht mit dem neuen Layout aussieht, wählen Sie das Layout in der Liste und dann **Bericht ausführen** aus.

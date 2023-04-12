@@ -39,15 +39,15 @@ Diese exemplarische Vorgehensweise umfasst Aufgaben für folgende Rollen:
 
 ## Hintergrund
 
- Heike ist eine Debitorenbetreuerin. In dieser wird festgelegt, welche Debitoren eine Anzahlung leisten müssen, bevor Artikel hergestellt oder geliefert werden. Heike hat [!INCLUDE[prod_short](includes/prod_short.md)] eingerichtet, um Vorauszahlungen automatisch zu berechnen.  
+ Phyllis ist ein Buchhaltungsmanager und entschweidet, welche Debitoren eine Anzahlung leisten müssen, bevor Artikel hergestellt oder geliefert werden. Heike hat [!INCLUDE[prod_short](includes/prod_short.md)] eingerichtet, um Vorauszahlungen automatisch zu berechnen.  
 
- Marta ist eine Verkaufsauftragsbearbeiterin. Wenn ein Debitor eine telefonische Bestellung tätigt, gibt sie die Auftragsdaten in das System ein, während sie mit dem Debitoren telefoniert. Auf diese Weise lassen sich Preise und Zahlungsbedingungen sofort absprechen, und sie hat die Möglichkeit, den Auftrag noch während des Gesprächs mit dem Debitoren anzupassen.  
+ Marta ist eine Verkaufsauftragsbearbeiterin. Wenn ein Debitor eine telefonische Bestellung tätigt, gibt Susan die Auftragsdaten in das System ein, während sie mit dem Debitoren telefoniert. Auf diese Weise kann Susan Preise und Zahlungsbedingungen sofort absprechen, und sie hat die Möglichkeit, den Auftrag noch während des Gesprächs mit dem Debitoren anzupassen.  
 
- Peter arbeitet in der Debitorenabteilung, wo er Rechnungen und Zahlungen bucht.  
+ Arnie arbeitet in der Debitorenabteilung, wo er Rechnungen und Zahlungen bucht.  
 
  In diesem Szenario richtet Heike basierend auf der Kreditgeschichte Vorauszahlungsanforderungen für den Debitoren Blütenhaus GmbH ein. Sie informiert Martha, wie Aufträge dieses Debitoren gehandhabt werden sollen.  
 
- Wenn der Debitor anruft, verhandelt Martha mit ihm, bis sie eine Vereinbarung erreichen. Sie kann dann wählen, die Vorauszahlung auf mehrere unterschiedliche Arten zu berechnen.  
+ Wenn der Kunde anruft, verhandelt Susan mit ihm, bis sie zu einer Einigung kommen. Im System stehen ihr unterschiedliche Methoden zur Verfügung, um die Vorauszahlung zu berechnen.  
 
  Nachdem Martha die Vorauszahlungsrechnung gesendet hat, bestellt der Debitor einen weiteren Artikel. Martha aktualisiert den Auftrag und erstellt eine zweite Vorauszahlungsrechnung.  
 
@@ -75,9 +75,9 @@ In den folgenden Verfahren wird beschrieben, wie Sie Heikes Aufgaben ausführen:
 
 Jetzt können Sie einen Auftrag mit nicht bezahltem Vorauszahlungsbetrag nicht liefern oder in Rechnung stellen.  
 
-Heike legt standardmäßig fest, dass für den Debitoren 20000 eine Anzahlung in Höhe von 30 % für alle Aufträge fakturiert werden muss. Daher gibt sie einen Standardvorauszahlungsprozentsatz in der Debitorenkarte ein.  
+Heike legt standardmäßig fest, dass für den Debitoren 20000 eine Anzahlung in Höhe von 30 % für alle Aufträge fakturiert werden muss. Daher gibt Phyllis einen Standardvorauszahlungsprozentsatz in der Debitorenkarte ein.  
 
-Heike legt fest, dass für alle Debitoren eine Anzahlung in Höhe von 20 % für den Artikel 1896-S fakturiert werden muss. Aufgrund der schlechten Zahlungshistorie des Kunden 20000 verlangt sie vom Kunden 20000 eine Vorauszahlung in Höhe von 40 % für Artikel 1896-S. Im folgenden Beispiel wird gezeigt, wie Sie standardmäßige Vorauszahlungsprozentsätze einrichten.  
+Heike legt fest, dass für alle Debitoren eine Anzahlung in Höhe von 20 % für den Artikel 1896-S fakturiert werden muss. Aufgrund der schlechten Zahlungshistorie des Kunden 20000 verlangt Phyllis vom Kunden 20000 eine Vorauszahlung in Höhe von 40 % für Artikel 1896-S. Im folgenden Beispiel wird gezeigt, wie Sie standardmäßige Vorauszahlungsprozentsätze einrichten.  
 
 ### So weisen Sie Debitoren und Artikeln Standardvorauszahlungsprozentsätze zu
 
@@ -110,7 +110,7 @@ Heike legt fest, dass für alle Debitoren eine Anzahlung in Höhe von 20 % für
 
  Im folgenden Szenario erstellt Susan aus der Auftragsabwicklung einen Auftrag, während sie mit einem Debitoren spricht. Die Artikel, die der Debitor bestellt, erfordern eine Vorauszahlung. Außerdem hat der Debitor in der Vergangenheit einige verspätete Zahlungen geleistet. Daher wurde Martha angewiesen, einen festen Betrag von **800** als Vorauszahlung auf dem Auftrag zu benötigen.  
 
-Der Debitor bittet, nur 35 % anzahlen zu müssen. Da Martha dem zustimmen kann, ändert sie den Auftrag entsprechend.  
+Der Debitor bittet, nur 35 % anzahlen zu müssen. Da Susan dem zustimmen kann, ändert sie den Auftrag entsprechend.  
 
 Martha erstellt die Vorauszahlungsrechnung und sendet sie an den Kunden.  
 
@@ -165,7 +165,7 @@ Nachdem sie die korrekten Vorauszahlungswerte im Auftrag eingegeben hat, erstell
 
 ## Erstellen einer weitere Vorauszahlungsrechnung
 
-Am folgenden Tag, ruft der Debitor Martha an, und nimmt Änderungen am Auftrag vor. Der Debitor möchte zwei Exemplare des Artikels 1896-S. Martha öffnet die Bestellung erneut und aktualisiert sie. Martha erstellt dann die zweite Vorauszahlungsrechnung und sendet sie an den Debitoren.  
+Am folgenden Tag, ruft der Debitor Martha an, und nimmt Änderungen am Auftrag vor. Der Debitor möchte zwei Exemplare des Artikels 1896-S. Susan öffnet und aktualisiert den auftrag, und dann erstellt sie eine zweite Vorauszahlungsrechnung auf dem Auftrag und sendet sie an den Debitoren.  
 
 ### So erstellen Sie eine weitere Vorauszahlungsrechnung
 

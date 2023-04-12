@@ -8,7 +8,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 'warehouse, distribution center'
 ms.search.forms: '5703, 15'
-ms.date: 07/05/2022
+ms.date: 03/25/2023
 ms.author: bholtorf
 ---
 # Einrichten von Lagerorten
@@ -38,11 +38,11 @@ Wählen Sie die Aktionen **Zonen** oder **Lagerplätze**, um Informationen über
 4. Wiederholen Sie die Schritte 2 und 3 für jeden Lagerplatz, an dem Sie Lagerbestand aufbewahren möchten.
 
 > [!NOTE]  
-> Viele Felder auf der Seite Standortkarte stehen im Zusammenhang mit der Verarbeitung von Artikeln in eingehenden und ausgehenden Lagerprozessen. Diese Felder sind für Firmen, die keine komplexen Lagerfunktionen benötigen, nicht relevant. Weitere Informationen finden Sie unter [Lagerortverwaltung einrichten](warehouse-setup-warehouse.md).
+> Viele Felder auf der Seite Standortkarte stehen im Zusammenhang mit der Verarbeitung von Artikeln in eingehenden und ausgehenden Lagerprozessen. Diese Felder sind für Firmen, die keine komplexen Lagerfunktionen benötigen, nicht relevant. Weitere Informationen unter [Einrichten von Warehouse Management](warehouse-setup-warehouse.md).
 
 Sie können die Konfiguration eines Standorts ändern, solange er keine Artikelposten enthält.  
 
-Wenn Sie mehrere Standorte haben, können Sie Umlagerungsrouten zwischen den Standorten definieren. Weitere Informationen finden Sie unter [Sie erstellen eine Umlagerungsroute](inventory-how-setup-locations.md#to-create-a-transfer-route).
+Wenn Sie mehrere Standorte haben, können Sie Umlagerungsrouten zwischen den Standorten definieren. Weitere Informationen zu Übertragungsrouten finden Sie unter [So erstellen Sie eine Übertragungsroute](inventory-how-setup-locations.md#to-create-a-transfer-route).
 
 ### So erstellen Sie eine Umlagerungsroute
 
@@ -50,24 +50,59 @@ Wenn Sie mehrere Standorte haben, können Sie Umlagerungsrouten zwischen den Sta
 2. Wählen Sie die Aktion **Neu**.
 4. Füllen Sie auf der Seite **Lagerortkarte** die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-Sie können jetzt die Lagerartikel zwischen zwei Lagerplätzen umlagern. Weitere Informationen finden Sie unter [Lagerbestand zwischen Lagerplätzen umlagern](inventory-how-transfer-between-locations.md).    
+Sie können jetzt die Lagerartikel zwischen zwei Lagerplätzen umlagern. Um mehr über Übertragungen zu erfahren, gehen Sie zu [Inventar zwischen Standorten übertragen](inventory-how-transfer-between-locations.md).
 
 ## Lagerplätze
 
-Lagerplätze stellen die grundlegende Lagerstruktur dar und können vorschlagen, wo Artikel abgelegt werden sollen. Ihre Lagerplätze können Inhalt haben oder schwimmende Lagerplätze ohne bestimmten Inhalt sein. 
+Lagerplätze stellen die grundlegende Lagerstruktur dar und können vorschlagen, wo Artikel abgelegt werden sollen. Ihre Lagerplätze können Inhalt haben oder schwimmende Lagerplätze ohne bestimmten Inhalt sein.
 
 Um die Lagerplatz-Funktionalität an einem Standort zu nutzen, aktivieren Sie die Funktionalität auf der Seite **Standortkarte**, indem Sie das Feld **Lagerplätze obligatorisch** auf dem Inforegister **Lager** auswählen. Sie können den Artikelfluss am Standort gestalten, indem Sie in den Feldern für die Lagerprozesse auf der Lagerplatzcodes in den Inforegistern **Lagerplätze** und**Lagerplatzrichtlinien** angeben.
 
 > [!NOTE]
-> Bevor Sie Lagerplätze auf einem Platz angeben können, müssen Sie Lagerplatzcodes erstellen. Weitere Informationen finden Sie unter [Erstellen von Lagerplätzen](warehouse-how-to-create-individual-bins.md) und [Lagerplatzarten einrichten](warehouse-how-to-set-up-bin-types.md).  
+> Bevor Sie Lagerplätze auf einem Platz angeben können, müssen Sie Lagerplatzcodes erstellen. Weitere Informationen zu Behältern finden Sie unter [Behälter erstellen](warehouse-how-to-create-individual-bins.md) und [Ablagetypen einrichten](warehouse-how-to-set-up-bin-types.md).  
 
 ## Zonen
 
-Wenn Sie Ihre Lagerplätze nach Zonen strukturieren möchten, haben Sie auf der Seite **Zonen** dazu die Möglichkeit. Wenn Sie Lagerplätzen eine Zone zuweisen, kopiert [!INCLUDE [prod_short](includes/prod_short.md)] Informationen aus der Zone in die Lagerplätze. Sie können sich auch dafür entscheiden, eine Zone einzurichten und nur Lagerplätze zu verwenden, um Ihr Lager zu organisieren. Weitere Informationen finden Sie unter [Lagerortverwaltung einrichten](warehouse-setup-warehouse.md).  
+Wenn Sie Ihre Lagerplätze nach Zonen strukturieren möchten, haben Sie auf der Seite **Zonen** dazu die Möglichkeit. Wenn Sie Lagerplätzen eine Zone zuweisen, kopiert [!INCLUDE [prod_short](includes/prod_short.md)] Informationen aus der Zone in die Lagerplätze. Sie können sich auch dafür entscheiden, eine Zone einzurichten und nur Lagerplätze zu verwenden, um Ihr Lager zu organisieren. Weitere Informationen zu Zonen finden Sie unter [Einrichten von Warehouse Management](warehouse-setup-warehouse.md).  
 
 ## Standarddimensionen für Standorte
 
-Sie legen Standarddimensionen für einen Standort auf der Seite **Standortkarte** fest, indem Sie **Dimensionen** auswählen. Anschließend werden Dokumenten die Standardabmessungen des Standorts zugewiesen, wenn Sie den Standort in einer Zeile auswählen. Bei Bedarf können Sie die Dimensionen in der Zeile löschen oder ändern. Im Feld **Wertbuchung** können Sie verlangen, dass Personen Dimensionen für bestimmte Standorte angeben, bevor sie einen Eintrag veröffentlichen können. Wenn Sie Personen erlauben möchten, nur bestimmte Dimensionswerte auszuwählen, können Sie diese im Feld **Zulässige Wertefilter** angeben. Sie können auch Standortdimensionswerte auf der Seite **Standarddimensionsprioritäten** und für Kombinationen aus Prioritäts- und Dimensionsregeln auf der Seite **Dimensionskombinationen** einbeziehen.
+Dimensionen sind Attribute und Werte, die Posten kategorisieren, sodass Sie sie mit verschiedenen Berichterstattungstools verfolgen und analysieren können. Dimensionen können beispielsweise angegeben, aus welcher Abteilung oder aus welchem Projekt ein Eintrag kommt. Die Verwendung von Standardabmessungen hilft Menschen, Fehler zu vermeiden und Abmessungen auf Transaktionsebene manuell eingeben zu müssen, wenn alle Waren von einem einzigen Standort und einer einzigen Abteilung stammen.
+
+Sie legen Standarddimensionen für einen Standort auf der Seite **Standortkarte** fest, indem Sie **Dimensionen** auswählen. Anschließend werden den folgenden Dokumenten die Standardabmessungen des Standorts zugewiesen, wenn Sie den Standort in einer Zeile auswählen.
+
+* Umlagerungsaufträge
+* Physische Lageraufträge
+* Lagerabgänge
+* Lagerzugänge
+* Artikel-Blätter
+
+Bei Bedarf können Sie die Dimensionen in der Zeile löschen oder ändern. Im Feld **Wertbuchung** können Sie verlangen, dass Personen Dimensionen für bestimmte Standorte angeben, bevor sie einen Eintrag veröffentlichen können. Wenn Sie Personen erlauben möchten, nur bestimmte Dimensionswerte auszuwählen, können Sie diese im Feld **Zulässige Wertefilter** angeben. Sie können auch Standortdimensionswerte auf der Seite **Standarddimensionsprioritäten** und für Kombinationen aus Prioritäts- und Dimensionsregeln auf der Seite **Dimensionskombinationen** einbeziehen.
+
+Da sich Transportauftragsbelege und Umgliederungserfassungen auf mehr als einen Standort beziehen, ist die Reihenfolge der Dateneingabe wichtig. Standardabmessungen werden aus dem letzten Standortfeld kopiert (der Transitstandort wird ignoriert).
+
+### Beispiel einer Standarddimensionen für Standorte
+
+Die folgenden Beispiele veranschaulichen, wie die Standarddimension verwendet wird.
+
+Sie haben ein Szenario mit den folgenden Dimensionseinstellungen:
+
+* Lagerort OST. Abteilungsdimension ist ADM
+* Lagerort WEST. Abteilungsdimension ist PROD
+
+Sie geben den Standort auf einem Transportauftrag wie folgt an:
+
+1. Von Standort = OST
+2. Nach Lagerort = WEST
+
+Die PROD-Dimension wird vom Standort WEST kopiert.
+
+Füllen Sie die Felder in der umgekehrten Reihenfolge wie folgt aus:
+
+1. Nach Lagerort = WEST
+2. Von Standort = OST
+
+Die ADM-Dimension wird vom Standort EAST kopiert.
 
 ## Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/trade-set-up-dynamics-365-business-central/)
 

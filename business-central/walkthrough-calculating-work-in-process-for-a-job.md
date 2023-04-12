@@ -44,7 +44,7 @@ Mit Projekten können Sie den Verbrauch der Ressourcen Ihres Unternehmens planen
 
  CRONUS hat ein Projekt mit langer Laufzeit übernommen, das sich nun über mehrere Berichtszeiträume erstreckt. Katrin, ein Projektteammitglied, berechnet die unfertige (WIP) Arbeit, um sicherzustellen, dass die Finanzaufstellung des Unternehmens korrekt ist.  
 
- Bei diesem Verfahren wählt Katrin eine bestimmte Gruppe von Aufgaben aus, die in die WIP-Berechnung einbezogen werden. Sie kann diese Zeilen auf der Seite **Projektaufgabenzeilen** in der Spalte **WIP-Summe** angeben.  
+ Bei diesem Verfahren wählt Katrin eine bestimmte Gruppe von Aufgaben aus, die in die WIP-Berechnung einbezogen werden. Tricia kann diese Zeilen auf der Seite **Auftragsaufgabenzeilen** in der Spalte **WIP-Summe** angeben.  
 
  Die drei Optionen werden in der folgenden Tabelle beschrieben.  
 
@@ -54,7 +54,7 @@ Mit Projekten können Sie den Verbrauch der Ressourcen Ihres Unternehmens planen
 |**Summe**|Definiert den Bereich oder die Gruppe von Aufgaben, die in der WIP- und Umsatzrealisierungsberechnung berücksichtigt sind. Innerhalb der Gruppe ist jede Projektaufgabe, deren **Projektaufgabenart** auf **Buchen** festgelegt ist, in der WIP-Summe enthalten, es sei denn, das Feld **WIP-Summe** ist auf **Ausschließlich** festgelegt.|  
 |**Ausschließlich**|Gilt nur für eine Aufgabe der **Projektaufgabenart** **Buchen**. Die Aufgabe wird nicht eingeschlossen, wenn WIP und Umsatzrealisierung berechnet werden.|  
 
- In der folgenden exemplarischen Vorgehensweise wendet Katrin das Einstandswertverfahren, die Unternehmensnorm an, um die WIP zu berechnen. Sie gibt an, welcher Teil des Projekts in die WIP-Berechnung einbezogen werden soll, indem Sie dWIP-Summenwerte den verschiedenen Projektaufgabenzeilen zuweist.  
+ In der folgenden exemplarischen Vorgehensweise wendet Tricia das Einstandswertverfahren, die Unternehmensnorm an, um die WIP zu berechnen. Tricia gibt an, welcher Teil des Projekts in die WIP-Berechnung einbezogen werden soll, indem Sie die WIP-Summenwerte den verschiedenen Projektaufgabenzeilen zuweist.  
 
 ### So berechnen Sie die WIP  
 
@@ -110,7 +110,7 @@ Mit Projekten können Sie den Verbrauch der Ressourcen Ihres Unternehmens planen
 
 ## Buchen der WIP auf das Sachkonto
 
- Nachdem Katrin die WIP für dieses Projekt berechnet hat, kann sie sie auf das Sachkonto buchen.  
+ Nachdem Tricia die WIP für dieses Projekt berechnet hat, kann sie sie auf das Sachkonto buchen.  
 
 ### So buchen Sie die WIP auf das Sachkonto  
 
@@ -134,7 +134,7 @@ Mit Projekten können Sie den Verbrauch der Ressourcen Ihres Unternehmens planen
 
 ## Stornieren einer WIP-Buchung
 
- Katrin stellt fest, dass die Projektaufgaben, die aus der WIP-Berechnung ausgeschlossen wurden, in WIP berechnet worden sein sollten. Sie kann die falschen Buchungen stornieren, ohne neue WIP-Posten buchen zu müssen.  
+ Katrin stellt fest, dass die Projektaufgaben, die aus der WIP-Berechnung ausgeschlossen wurden, in WIP berechnet worden sein sollten. Tricia kann die falschen Buchungen stornieren, ohne neue WIP-Posten buchen zu müssen.  
 
 ### So stornieren Sie eine WIP-Buchung  
 
@@ -153,7 +153,7 @@ Mit Projekten können Sie den Verbrauch der Ressourcen Ihres Unternehmens planen
 13. Öffnen Sie **Projektaufgabenzeilen** für das Projekt, schließen Sie die in die WIP-Berechnung einzubeziehenden Teile des Projekts ein, und berechnen und buchen Sie dann den neuen Wert auf das Sachkonto.  
 
     > [!NOTE]  
-    >  Gesetzt den Fall, Katrin hat WIP für ein Projekt mit falschen Datumsangaben berechnet und gebucht. Nach der zuvor erläuterten Methode kann sie die falschen Buchungen stornieren, die Datumsangaben korrigieren und erneut auf das Sachkonto buchen.  
+    >  Gesetzt den Fall, Katrin hat WIP für ein Projekt mit falschen Datumsangaben berechnet und gebucht. Nach der zuvor erläuterten Methode kann Tricia die falschen Buchungen stornieren, die Datumsangaben korrigieren und erneut auf das Sachkonto buchen.  
 
 ## Nächste Schritte
 

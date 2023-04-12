@@ -117,8 +117,9 @@ Kopieren ist eine schnelle Möglichkeit, ein neues Layout zu erstellen, das mit 
    |Beschreibung| Geben Sie detailliertere Informationen zum Layout ein. |keine|
    |Format-Optionen|Legen Sie dieses Feld so fest, dass es dem Typ des Layouts entspricht, z. B. Word, Excel oder RDLC.|ja|
 
-6. Wählen Sie **OK** > **Auswählen** fest, um den Datei-Explorer auf Ihrem Gerät zu öffnen.
-7. Suchen Sie die Excel-Datei und wählen Sie sie aus. Wählen Sie dann **Öffnen** aus.
+6. Wählen Sie **OK** aus. Führen Sie dann einen der folgenden Schritte aus, um die Layoutdatei für den Bericht zu erstellen:
+
+   [!INCLUDE[file-upload](includes/file-upload.md)]
 
    Die ausgewählte Datei wird in das Layout hochgeladen und Sie kehren zur **Berichtslayouts**-Seite zurück.
 

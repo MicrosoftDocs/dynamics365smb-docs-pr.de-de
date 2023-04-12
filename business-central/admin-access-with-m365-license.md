@@ -13,31 +13,31 @@ ms.search.keywords: 'License, access, Microsoft 365, collaborate, collaboration,
 
 # Business Central-Zugriff mit Microsoft 365-Lizenzen
 
-Business Central-Benutzern wird eine Dynamics 365 Business Central-Lizenz zugewiesen, die es ihnen ermöglicht, ihre Geschäftsdaten von jeder Benutzeroberfläche aus anzuzeigen, zu ändern und zu bearbeiten. Für alle anderen Mitarbeiter in der gesamten Organisation, die nur gelegentlich Daten anzeigen müssen, bietet Business Central einen Zugriff durch Microsoft 365.  
+[!INCLUDE[prod_short](includes/prod_short.md)]-Benutzern wird eine Dynamics 365 Business Central-Lizenz zugewiesen, die es ihnen ermöglicht, ihre Geschäftsdaten von jeder Benutzeroberfläche aus anzuzeigen, zu ändern und zu bearbeiten. Für alle anderen Mitarbeiter in der gesamten Organisation, die nur gelegentlich Daten anzeigen müssen, bietet Business Central einen Zugriff durch Microsoft 365.  
 
-Wenn eine Organisation sowohl ein Dynamics 365 Business Central- und Microsoft 365-Abonnement hat, können Administratoren Umgebungen konfigurieren, um den Zugriff mit Microsoft 365-Lizenzen zu ermöglichen und genau zu wählen, auf welche Tabellen und andere Objekte diese Benutzerkategorie Zugriff haben soll. Wenn konfiguriert, können Mitarbeiter, die über eine Microsoft 365-Lizenz, aber keine Business Central-Lizenz verfügen, Business Central-Datensätze anzeigen, die für sie in Microsoft Teams-Chat und -Kanälen freigegeben wurden.
+Wenn eine Organisation sowohl ein Dynamics 365 Business Central- und Microsoft 365-Abonnement hat, können Administratoren Umgebungen konfigurieren, um den Zugriff mit Microsoft 365-Lizenzen zu ermöglichen und genau zu wählen, auf welche Tabellen und andere Objekte diese Benutzerkategorie Zugriff haben soll. Wenn konfiguriert, können Mitarbeiter, die über eine Microsoft 365 Lizenz, aber keine [!INCLUDE [prod_short](includes/prod_short.md)]-Lizenz verfügen, [!INCLUDE [prod_short](includes/prod_short.md)]-Datensätze anzeigen, die für sie in Microsoft Teams-Chat und -Kanälen freigegeben wurden.
 
 ## Warum Zugriff mit Microsoft 365-Lizenzen ermöglichen  
 
 - Schalten Sie Stammdaten frei, auf die jeder Mitarbeiter in der gesamten Organisation Zugriff haben sollte.
 
-- Ermöglichen Sie Abteilungen, die nicht auf Business Central laufen, die Selbstbedienung, indem sie auf Schlüsseldaten zugreifen, die für die erfolgreiche Ausführung ihrer Aufgaben erforderlich sind, wodurch die Notwendigkeit entfällt, ständig Daten von anderen anzufordern. 
+- Ermöglichen Sie Abteilungen, die nicht auf [!INCLUDE [prod_short](includes/prod_short.md)] laufen, die Selbstbedienung, indem sie auf Schlüsseldaten zugreifen, die für die erfolgreiche Ausführung ihrer Aufgaben erforderlich sind, wodurch die Notwendigkeit entfällt, ständig Daten von anderen anzufordern.
 
-- Erhöhen Sie die Effizienz der Zusammenarbeit, damit Aufgaben und Projekte, die sich über Abteilungen erstrecken, rechtzeitig abgeschlossen werden, indem Sie die Reibung beseitigen, die normalerweise mit Fehlern aufgrund von Zugriffsverweigerungen aufgrund von Lizenzen verbunden ist. 
+- Erhöhen Sie die Effizienz der Zusammenarbeit, damit Aufgaben und Projekte, die sich über Abteilungen erstrecken, rechtzeitig abgeschlossen werden, indem Sie die Reibung beseitigen, die normalerweise mit Fehlern aufgrund von Zugriffsverweigerungen aufgrund von Lizenzen verbunden ist.
 
-- Erhöhen Sie die Teamleistung, damit Mitarbeiter datengesteuerte Entscheidungen treffen können, die alle in der Gruppe einbeziehen, auch wenn sie nicht in Business Central arbeiten. 
+- Erhöhen Sie die Teamleistung, damit Mitarbeiter datengesteuerte Entscheidungen treffen können, die alle in der Gruppe einbeziehen, auch wenn sie nicht in [!INCLUDE [prod_short](includes/prod_short.md)] arbeiten.
 
-- Erfüllen Sie die Budgetziele für die Lizenzierung, indem Sie Lizenzen zuweisen, die den Anforderungen der Mitarbeiter nach und nach entsprechen, mit Microsoft 365-Lizenzen für Nur-Lese-Zugriff, Dynamics 365 Business Central Team Member-Lizenzen für eingeschränkten Schreibzugriff und Dynamics 365 Business Central Essentials oder Premium für vollen Schreibzugriff.
+- Erfüllen Sie die Budgetziele für die Lizenzierung, indem Sie Lizenzen zuweisen, die den Anforderungen der Mitarbeiter nach und nach entsprechen, mit Microsoft 365-Lizenzen für Nur-Lese-Zugriff, Dynamics 365 Business Central Team Mitglieder-Lizenzen für eingeschränkten Schreibzugriff und Dynamics 365 Business Central Essentials oder Premium für vollen Schreibzugriff.
 
 - Verbessern Sie die Datensicherheit, indem Sie die Notwendigkeit verringern, Bildschirmausschnitte von Geschäftsdaten außerhalb der Data-Governance-Grenzen einzufügen.
 
 ## Nutzungsrechte
 
-Wenn eine Person mit einer Microsoft 365-Lizenz auf Business Central zugreift, berechtigt diese Lizenz den Benutzer, Business Central-Daten über eine vereinfachte Benutzeroberfläche in Microsoft Teams zu lesen (aber nicht zu schreiben). In diesem Abschnitt werden diese Nutzungsrechte und Einschränkungen erläutert, die Ihnen bei der Planung der Konfiguration und optimalen Nutzung dieser Funktion helfen. Weitere Informationen zu diesem Lizenztyp im Vergleich zu anderen Business Central-Lizenzen finden Sie im [Dynamics 365-Lizenzierungshandbuch](https://go.microsoft.com/fwlink/?LinkId=866544).
+Wenn eine Person mit einer Microsoft 365-Lizenz auf [!INCLUDE [prod_short](includes/prod_short.md)] zugreift, berechtigt diese Lizenz den Benutzer, Business Central-Daten über eine vereinfachte Microsoft Teams Benutzeroberfläche in [!INCLUDE [prod_short](includes/prod_short.md)] zu lesen (aber nicht zu schreiben). In diesem Abschnitt werden diese Nutzungsrechte und Einschränkungen erläutert, die Ihnen bei der Planung der Konfiguration und optimalen Nutzung dieser Funktion helfen. Weitere Informationen zu diesem Lizenztyp im Vergleich zu anderen [!INCLUDE [prod_short](includes/prod_short.md)]-Lizenzen finden Sie im [Dynamics 365-Lizenzierungshandbuch](https://go.microsoft.com/fwlink/?LinkId=866544).
  
 ### Clientzugriff
 
-Benutzer sind berechtigt, auf Business Central-Daten in Microsoft Teams zuzugreifen. Die folgende Tabelle fasst zusammen, welche der unterschiedlichen Methoden des Zugriffs auf den Business Central-Dienst mit dieser Lizenz erlaubt sind. 
+Benutzer sind berechtigt, auf [!INCLUDE [prod_short](includes/prod_short.md)]-Daten in Microsoft Teams zuzugreifen. Die folgende Tabelle fasst zusammen, welche der unterschiedlichen Methoden des Zugriffs auf den [!INCLUDE [prod_short](includes/prod_short.md)] mit dieser Lizenz erlaubt sind.
 
 |Client, der auf den Business Central-Dienst zugreift |Zugriff|
 |-|-|
@@ -48,31 +48,31 @@ Benutzer sind berechtigt, auf Business Central-Daten in Microsoft Teams zuzugrei
 |Business Central-Integrationen mit anderen Office-Anwendungen|![Nein](media/x-icon.png )|
 |Business Central ist in andere Anwendungen eingebettet |![Nein](media/x-icon.png )|
 
-### Datenzugriff 
+### Datenzugriff
 
-Benutzer sind berechtigt, Tabellendaten zu lesen, können jedoch keine Datensätze ändern, erstellen oder löschen. Die Business Central-Plattform verhindert automatisch das Schreiben in Datentabellen.  
+Benutzer sind berechtigt, Tabellendaten zu lesen, können jedoch keine Datensätze ändern, erstellen oder löschen. Die [!INCLUDE [prod_short](includes/prod_short.md)]-Plattform verhindert automatisch das Schreiben in Datentabellen.  
 
-### Verwendung von Objekten 
+### Verwendung von Objekten
 
-Zugriff mit Microsoft 365-Lizenzen schränken nicht ein, auf welche Business Central-Objekte oder -Objektbereiche zugegriffen werden kann. Benutzer sind berechtigt, auf die Microsoft-Basisanwendung und alle Erweiterungen wie Anpassungen und Add-On-Apps zuzugreifen. 
+Zugriff mit Microsoft 365-Lizenzen schränken nicht ein, auf welche Business Central-Objekte oder -Objektbereiche zugegriffen werden kann. Benutzer sind berechtigt, auf die Microsoft-Basisanwendung und alle Erweiterungen wie Anpassungen und Add-On-Apps zuzugreifen.
 
-## Vereinfachte Benutzeroberfläche 
+## Vereinfachte Benutzeroberfläche
 
-Benutzer haben Anspruch auf einen reduzierten Satz von Features und Funktionen, die von Business Central in Microsoft Teams bereitgestellt werden. Die folgenden Tabellen zeigen bemerkenswerte Funktionen. Dies ist keine vollständige Liste und kann sich ändern.
+Benutzer haben Anspruch auf einen reduzierten Satz von Features und Funktionen, die von [!INCLUDE [prod_short](includes/prod_short.md)] in Microsoft Teams bereitgestellt werden. Die folgenden Tabellen zeigen bemerkenswerte Funktionen. Dies ist keine vollständige Liste und kann sich ändern.
 
-Funktionen der Business Central-App für Teams:
+Funktionen der [!INCLUDE [prod_short](includes/prod_short.md)]-App für Teams:
 
 |Funktion  |Verfügbar|
 |-|-|
-|Business Central-Karten anzeigen|![Ja](media/check.png)|
+|[!INCLUDE [prod_short](includes/prod_short.md)] Karten ansehen|![Ja](media/check.png)|
 |Kartendetails anzeigen |![Ja](media/check.png) |
 |Kartendetails als Registerkarte anheften |![Ja](media/check.png)|
-|Business Central-Registerkarten anzeigen|![Ja](media/check.png)|
-|Eine Business Central-Registerkarte hinzufügen|![Nein_](media/x-icon.png )|
+|[!INCLUDE [prod_short](includes/prod_short.md)] Registerkarten anzeigen|![Ja](media/check.png)|
+|Eine [!INCLUDE [prod_short](includes/prod_short.md)] Registerkarte hinzufügen|![Nein_](media/x-icon.png )|
 |Nach Geschäftskontakten suchen |![Nein](media/x-icon.png )|
 |Eine Linkvorschau als Karte einfügen und teilen|![Nein](media/x-icon.png )|
 
-Funktionen des in Teams eingebetteten Business Central-Clients:
+Funktionen des [!INCLUDE [prod_short](includes/prod_short.md)] Client, der in Teams eingebettet ist:
 
 |Funktion |Verfügbar|Beispielfunktionen|
 |-|-|-|
@@ -92,19 +92,19 @@ Funktionen des in Teams eingebetteten Business Central-Clients:
 
 ## Mindestanforderungen
 
-In diesem Abschnitt werden die Mindestanforderungen beschrieben, die Ihre Organisation erfüllen muss, um den Zugriff mit Microsoft 365-Lizenzen zu ermöglichen, und für einzelne Microsoft Teams-Benutzer, um auf Business Central-Daten ohne eine Business Central-Lizenz zugreifen zu können.
+In diesem Abschnitt werden die Mindestanforderungen beschrieben, die Ihre Organisation erfüllen muss, um den Zugriff mit Microsoft 365-Lizenzen zu ermöglichen, und für einzelne Microsoft Teams-Benutzer den Zugriff auf [!INCLUDE [prod_short](includes/prod_short.md)] Daten ohne eine [!INCLUDE [prod_short](includes/prod_short.md)] Lizenz.
 
 ### Anforderungen für den Zugriff
 
-- Business Central Online (SaaS).
+- [!INCLUDE [prod_short](includes/prod_short.md)] Online (SaaS).
 
 - Umgebungen müssen die Plattformversion 21.1 oder höher aufweisen.
 
 ### Anforderungen für einzelne Benutzer für den Zugriff auf Daten in Teams
 
-- Der Zugriff auf die Daten muss über die Business Central-App für Teams erfolgen. Benutzer müssen die Business Central-App für Teams installiert haben und einen der unterstützten Teams-Clients verwenden. Eine Liste der von Business Central unterstützten Teams-Clients finden Sie unter [Mindestanforderungen für die Verwendung von Business Central](product-requirements.md#teams).
+- Der Zugriff auf die Daten muss über die [!INCLUDE [prod_short](includes/prod_short.md)] App für Teams erfolgen. Benutzer müssen die [!INCLUDE [prod_short](includes/prod_short.md)]-App für Teams installiert haben und einen der unterstützten Teams-Clients verwenden. Eine Liste der von [!INCLUDE [prod_short](includes/prod_short.md)] unterstützten Teams Clients finden Sie unter [Mindestanforderungen für die Verwendung von Business Central](product-requirements.md#teams).
 
-- Benutzer müssen organisationsintern sein, was bedeutet, dass eine Benutzeridentität von demselben Home-Mandanten stammt, auf dem Business Central bereitgestellt wird und auf dem der Zugriff aktiviert ist. Externe Identitäten werden nicht unterstützt. Business Central verhindert automatisch den Zugriff für Gäste.
+- Benutzer müssen organisationsintern sein, was bedeutet, dass eine Benutzeridentität von demselben Home-Mandanten stammt, auf dem [!INCLUDE [prod_short](includes/prod_short.md)] bereitgestellt wird und auf dem der Zugriff aktiviert ist. Externe Identitäten werden nicht unterstützt. [!INCLUDE [prod_short](includes/prod_short.md)] verhindert automatisch den Zugriff für Gäste.
 
 - Benutzern muss eine Microsoft 365-Lizenz aus einem der folgenden Pläne zugewiesen werden.
   
@@ -130,7 +130,7 @@ In diesem Abschnitt werden die Mindestanforderungen beschrieben, die Ihre Organi
   > [!NOTE]
   > Sie können Ihren Plan nicht in der Liste finden? Microsoft ist ständig auf der Suche nach Feedback dazu, wie wir unseren Service verbessern und unser Angebot erweitern können, damit mehr Kunden diese Funktion nutzen können. Teilen Sie uns Ihre Idee mit, welche Pläne wir als nächstes unterstützen sollten, unter [https://aka.ms/bcIdeas](https://aka.ms/bcIdeas).
 
-- Benutzern muss eine Microsoft 365-Lizenz zugewiesen werden, die die Microsoft Teams-App in der Liste der Apps für diese Lizenz aktiviert hat. 
+- Benutzern muss eine Microsoft 365-Lizenz zugewiesen werden, die die Microsoft Teams-App in der Liste der Apps für diese Lizenz aktiviert hat.
 
   |Unterstützte Apps|Serviceplan-ID|
   |-|-|

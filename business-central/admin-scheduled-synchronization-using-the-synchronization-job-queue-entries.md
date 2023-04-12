@@ -2,19 +2,17 @@
 title: Business Central und Dataverse synchronisieren
 description: Erfahren Sie mehr über die Synchronisierung von Daten zwischen Business Central und Dataverse.
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: 'sales, crm, integration, sync, synchronize'
-ms.date: 06/14/2021
 ms.author: bholtorf
+ms.reviewer: ivkoleti
+ms.topic: conceptual
+ms.date: 03/31/2023
+ms.custom: bap-template
+ms.search.keywords: 'sales, crm, integration, sync, synchronize'
 ---
 
 # Planen einer Synchronisierung zwischen Business Central und Dataverse
 
-
-Sie können [!INCLUDE[prod_short](includes/prod_short.md)] mit [!INCLUDE[cds_long_md](includes/cds_long_md.md)] in geplanten Intervallen synchronisieren, indem Sie Projekte in der Projektwarteschlange einrichten. Die Synchronisierungsprojekte synchronisieren Daten in [!INCLUDE[prod_short](includes/prod_short.md)]-Datensätzen und [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-Datensätzen, die zuvor gekoppelt wurden. Für Datensätze, die nicht bereits gekoppelt sind, können die Synchronisierungsprojekte entsprechend der Synchronisierungsrichtung und -regeln neue Datensätze im Zielsystem erstellen und koppeln. 
+Sie können [!INCLUDE[prod_short](includes/prod_short.md)] mit [!INCLUDE[cds_long_md](includes/cds_long_md.md)] in geplanten Intervallen synchronisieren, indem Sie Projekte in der Projektwarteschlange einrichten. Die Synchronisierungsprojekte synchronisieren Daten in [!INCLUDE[prod_short](includes/prod_short.md)]-Datensätzen und [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-Datensätzen, die gekoppelt wurden. Für Datensätze, die nicht bereits gekoppelt sind, können die Synchronisierungsprojekte entsprechend der Synchronisierungsrichtung und -regeln neue Datensätze im Zielsystem erstellen und koppeln.
 
 Es gibt mehrere Synchronisierungsprojekte, die standardmäßig verfügbar sind. Die Jobs werden in der folgenden Reihenfolge ausgeführt, um Kopplungsabhängigkeiten zwischen Tabellen zu vermeiden. Weitere Informationen finden Sie unter [Job-Warteschlangen zur Einplanung von Aufgaben verwenden](admin-job-queues-schedule-tasks.md).
 
@@ -26,7 +24,7 @@ Es gibt mehrere Synchronisierungsprojekte, die standardmäßig verfügbar sind. 
 
 Sie können die Stellen auf der Seite **Projektwarteschlangeneinträge** ansehen. Weitere Informationen finden Sie unter [Job-Warteschlangen zur Einplanung von Aufgaben verwenden](admin-job-queues-schedule-tasks.md).
 
-## Standard-Synchronisations-Job-Warteschlangeneinträge
+## Standard-Synchronisations-Projektwarteschlangeneinträge
 
 Die folgende Tabelle beschreibt die Standard-Synchronisierungsaufträge für [!INCLUDE[cds_long_md](includes/cds_long_md.md)].  
 
@@ -38,13 +36,13 @@ Die folgende Tabelle beschreibt die Standard-Synchronisierungsaufträge für [!I
 | VENDOR - Common Data Service Synchronisierungsauftrag | Synchronisiert [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-Konten mit [!INCLUDE[prod_short](includes/prod_short.md)] Debitoren. | Bidirektional | VENDOR | 30 | 720<br> (12 Std.) |
 | VERKÄUFER – Common Data Service-Synchronisierungsprojekt | Synchronisiert [!INCLUDE[prod_short](includes/prod_short.md)]-Verkäufer mit [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-Benutzern. | Von [!INCLUDE[cds_long_md](includes/cds_long_md.md)] nach [!INCLUDE[prod_short](includes/prod_short.md)] | VERKÄUFER | 30 | 1440<br> (24 Std.) |
 
-## Synchronisierungsvorgang
+## Synchronisierungsprozess
 
 Jeder Synchronisierungsprojektwarteschlangenposten verwendet eine bestimmte Integrationstabellenzuordnung, die angibt, welche [!INCLUDE[prod_short](includes/prod_short.md)]-Tabelle und [!INCLUDE[cds_long_md](includes/cds_long_md.md)] Tabelle synchronisiert werden sollen. Die Tabellenzuordnungen umfassen auch einige Einstellungen, die steuern, welche Datensätze in der [!INCLUDE[prod_short](includes/prod_short.md)]-Tabelle und [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-Tabelle synchronisiert werden sollen.  
 
 Um Daten zu synchronisieren, müssen [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-Tabellenatensätze an [!INCLUDE[prod_short](includes/prod_short.md)]-Datensätze gekoppelt werden. Beispielsweise muss ein [!INCLUDE[prod_short](includes/prod_short.md)]-Debitor an ein [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-Konto gekoppelt werden. Sie können Kopplungen manuell einrichten, bevor Sie die Synchronisierungsprojekte ausführen, oder Sie können die Kopplungen automatisch durch die Synchronisierungsprojekte erstellen lassen. Die folgende Liste zeigt, wie Daten zwischen [!INCLUDE[cds_long_md](includes/cds_long_md.md)] und [!INCLUDE[prod_short](includes/prod_short.md)] synchronisiert werden, wenn Sie die Synchronisierungsprojektwarteschlangenposten verwenden. Weitere Informationen finden Sie unter [Datensätze manuell koppeln und synchronisieren](admin-how-to-couple-and-synchronize-records-manually.md).
 
-- Das Kontrollkästchen **Nur gekoppelte Datensätze synchronisieren** steuert, ob neue Datensätze erstellt werden, wenn Sie synchronisieren. Standardmäßig ist das Kontrollkästchen aktiviert. Dies bedeutet, dass nur gekoppelte Datensätze synchronisiert werden. In der Integrationstabellenzuordnung können Sie die Tabellenzuordnung zwischen einer [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-Tabelle und einer [!INCLUDE[prod_short](includes/prod_short.md)]-Tabelle ändern, sodass die Integrationssynchronisierungsaufträge neue Datensätze in der Zieldatenbank für jede Zeile in der Quelldatenbank erstellen, der nicht gekoppelt ist. Weitere Informationen finden Sie unter [Neue Datensätze erstellen](admin-how-to-modify-table-mappings-for-synchronization.md#creating-new-records).
+- Das Kontrollkästchen **Nur gekoppelte Datensätze synchronisieren** steuert, ob neue Datensätze erstellt werden, wenn Sie synchronisieren. Standardmäßig ist das Kontrollkästchen aktiviert. Dies bedeutet, dass nur gekoppelte Datensätze synchronisiert werden. In der Integrationstabellenzuordnung können Sie die Tabellenzuordnung zwischen einer [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-Tabelle und einer [!INCLUDE[prod_short](includes/prod_short.md)]-Tabelle ändern, sodass die Integrationssynchronisierungsaufträge neue Datensätze in der Zieldatenbank für jede Zeile in der Quelldatenbank erstellen, der nicht gekoppelt ist. Weitere Informationen finden Sie unter [Neue Datensätze erstellen](admin-how-to-modify-table-mappings-for-synchronization.md#create-new-records).
 
     **Beispiel** Wenn Sie das Kontrollkästchen **Nur gekoppelte Datensätze synchronisieren** deaktivieren, wenn Sie Kunden synchronisieren in [!INCLUDE[prod_short](includes/prod_short.md)] mit Konten in [!INCLUDE[cds_long_md](includes/cds_long_md.md)], wird für jeden Debitor in [!INCLUDE[prod_short](includes/prod_short.md)] ein neues Konto erstellt und automatisch gekoppelt. Da darüberhinaus die Synchronisierung in diesem Fall bidirektional verläuft, wird ein neuer Debitor für jedes [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-Konto erstellt und gekoppelt, das nicht bereits gekoppelt ist.  
 
@@ -59,7 +57,8 @@ Um Daten zu synchronisieren, müssen [!INCLUDE[cds_long_md](includes/cds_long_md
 
 - Bei bidirektionaler Synchronisierung synchronisiert das Projekt von [!INCLUDE[prod_short](includes/prod_short.md)] nach [!INCLUDE[cds_long_md](includes/cds_long_md.md)], und anschließend von [!INCLUDE[cds_long_md](includes/cds_long_md.md)] nach [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## Über Inaktivitätszeitlimits
+## Über Inaktivitätszeitüberschreitungen
+
 Einige Projektwarteschlangeneinträge, z. B. diejenigen, die die Synchronisierung zwischen [!INCLUDE[prod_short](includes/prod_short.md)] und [!INCLUDE[cds_long_md](includes/cds_long_md.md)] planen, verwenden das Feld **Inaktivitätszeitlimit** auf der Seite Projektwarteschlangeneintrag, um zu verhindern, dass der Projektwarteschlangeneintrag unnötig ausgeführt wird.  
 
 :::image type="content" source="media/on-hold-with-inactivity-timeout.png" alt-text="Flussdiagramm für den Fall, dass Aufgabenwarteschlangeneinträge aufgrund von Inaktivität gesperrt werden.":::

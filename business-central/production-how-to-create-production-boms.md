@@ -96,7 +96,7 @@ Eine Fertigungsstückliste erfordert 70 Metallteile mit den Dimensionen Länge =
 
 [Routings erstellen](production-how-to-create-routings.md)  
 [Produktvarianten verwalten](inventory-item-variants.md)  
-[Exemplarische Vorgehensweise: Varianten](contoso-coffee/variants.md)  
+[Exemplarische Vorgehensweise: Varianten](contoso-coffee/manufacturing/variants.md)  
 [Produktion einrichten](production-configure-production-processes.md)  
 [Produktion](production-manage-manufacturing.md)  
 [Planung](production-planning.md)  

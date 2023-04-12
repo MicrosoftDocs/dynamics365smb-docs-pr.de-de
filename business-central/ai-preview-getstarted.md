@@ -1,5 +1,5 @@
 ---
-title: "So erhalten Sie Zugriff auf die Vorschauversion von Business Central\_– Copilot Edition"
+title: Erste Schritte mit einer Business Central-Vorschauversion für Copilot
 description: 'Erläutert, wie Sie eine Business Central-Umgebung mit der neuen KI-Funktion zum Generieren von Textvorschlägen für Artikel-/Produktbeschreibungen erhalten.'
 author: jswymer
 ms.author: jswymer
@@ -9,38 +9,35 @@ ms.date: 03/16/2023
 ms.custom: bap-template
 ---
 
-# Erste Schritte mit einer Business Central-Vorschauversion – Copilot Edition
+# Erste Schritte mit einer Business Central-Vorschauversion für Copilot
 
 [!INCLUDE[ai-preview](includes/ai-preview.md)]
 
-Sie können die KI-gestützten Artikelmarketingtexte mit Copilot ausprobieren, unabhängig davon, ob Sie bereits Business Central-Kunde oder ein potenzieller Kunde sind, also jemand, der nur daran interessiert ist, Business Central kennenzulernen und die neue Funktion auszuprobieren. Um loszulegen, benötigen Sie Zugriff auf eine Vorschauversion von Business Central, die die neue Funktion unterstützt. Füllen Sie den auf Sie zutreffenden Abschnitt unten aus.
+Sie können die KI-gestützten Artikelmarketingtexte mit Copilot ausprobieren, unabhängig davon, ob Sie bereits Business Central-Kunde oder ein potenzieller Kunde sind, also jemand, der nur daran interessiert ist, Business Central kennenzulernen und die neue Funktion auszuprobieren. Um loszulegen, benötigen Sie Zugriff auf eine Vorschauversion von Business Central Online, die die neue Funktion unterstützt. Füllen Sie den auf Sie zutreffenden Abschnitt unten aus.
 
 ## Ihre Organisation verwendet Business Central bereits
 
-Als bestehender Kunde oder Partner benötigen Sie einen Administrator mit Zugriff auf das Business Central Admin Center, um eine *Sandbox*-Umgebung einzurichten, die die Vorschauversion mit Copilot ausführt. Sobald die Sandbox-Umgebung eingerichtet ist und läuft, können Benutzende die neue Funktion ausprobieren.
+Als bestehender Kunde oder Partner benötigen Sie einen Administrator mit Zugriff auf das Business Central Admin Center, um eine Umgebung einzurichten, die die Vorschauversion mit Copilot ausführt. Sobald die Umgebung eingerichtet ist und läuft, können Benutzende die neue Funktion ausprobieren.
 
 Wenn Sie ein Umgebungsadministrator sind, führen Sie die folgenden Schritte aus:
 
 1. Melden Sie sich beim Business Central Admin Center an.
 2. Wählen Sie **Umgebungen** > **Neu** aus.
 3. Geben Sie im Bereich **Umgebung erstellen** einen Namen für die neue Umgebung im Feld **Umgebungsname** ein.
-4. Legen Sie den **Umgebungstyp** auf **Sandbox** fest.
-5. Legen Sie **Land** auf **USA** fest.
+4. Legen Sie den **Umgebungstyp** auf **Sandbox** oder **Produktion** est.
+5. Legen Sie **Land** auf ein beliebiges Land/eine beliebige Region in der Liste fest, aber beachten Sie, dass der KI-generierte Marketingtext von Copilot in der Vorschau nur auf Englisch ist.
+6. Wählen Sie im Feld **Version** eine Version 22 oder höher aus der Liste aus.
 
+   <!--
    > [!IMPORTANT]
-   > Die Vorschauversion ist nur für die USA verfügbar. Organisationen in anderen Ländern oder Regionen können trotzdem eine Sandbox-Vorschauversion für die USA erstellen, um Copilot kennenzulernen.
-
-6. Wählen Sie im Feld **Version** eine Version **22.0.54157.54311 (Vorschauversion – Copilot Edition)** aus.
-
-   > [!IMPORTANT]
-   > Sie müssen **22.0.54157.54311 (Vorschauversion – Copilot Edition)** verwenden, um Copilot nutzen zu können.
-
+   > You must use **22.0.54157.54311 (Preview - Copilot edition)** to experience Copilot.
+   -->
 7. Wählen Sie **Erstellen** aus.  
 
-Weitere Informationen zum Erstellen von Sandbox-Umgebungen finden Sie unter [Umgebung erstellen](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-new-environment).
+Weitere Informationen zum Erstellen von Umgebungen finden Sie unter [Umgebung erstellen](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-new-environment).
 
 > [!IMPORTANT]
-> Die Vorschauversions-Sandboxen sind nur bis zum 01. Mai 2023 verfügbar. Nach diesem Datum müssen Sie eine neue Umgebung bereitstellen oder eine Ihrer anderen Umgebungen auf Version 22.0 oder höher aktualisieren, um die Vorschauversion von KI-gestützten Marketingtexten von Artikeln weiterhin auszuprobieren.
+> Wenn Sie Vorschau-Sandboxen haben, die auf **22.0.54157.54311 (Vorschauversion – Copilot-Edition)** ausgeführt werden, beachten Sie, dass diese Umgebungen nur bis zum 1. Mai 2023 verfügbar sind. Nach diesem Datum müssen Sie eine neue Umgebung bereitstellen oder eine Ihrer anderen Umgebungen auf Version 22.0 oder höher aktualisieren, um die Vorschauversion von KI-gestützten Marketingtexten von Artikeln weiterhin auszuprobieren.
 
 ## Ihre Organisation verwendet Business Central nicht
 
@@ -49,13 +46,12 @@ Wenn Sie Business Central noch nicht verwenden, melden Sie sich für eine kosten
 1. Gehen Sie zu [dieser Testversionsseite](https://go.microsoft.com/fwlink/?linkid=2227167), um mit der Anmeldung zu beginnen.
 2. Folgen Sie den Anweisungen auf dem Bildschirm.
 
-   Sie werden gebeten, Informationen wie Ihre E-Mail-Adresse, Ihren Namen und Ihre Telefonnummer anzugeben. Die genaue Erfahrung kann je nach den von Ihnen bereitgestellten Informationen variieren. Aber hier sind ein paar wichtige Punkte, die Sie während der Anmeldung beachten sollten:
-
-   - Verwenden Sie als E-Mail-Adresse Ihre Geschäfts-, Schul- oder Uni-E-Mail-Adresse. Wir richten Ihre Testversion auf dem Konto Ihrer Organisation ein. Sie können keine E-Mail-Adressen verwenden, die von E-Mail-Diensten für Endverbraucher oder Telekommunikationsanbietern wie outlook.com, hotmail.com, gmail.com und anderen bereitgestellt werden.
-   - Wenn Sie zur Option **Land oder Region** kommen, stellen Sie sicher, dass Sie **USA** festlegen.
+   Sie werden gebeten, Informationen wie Ihre E-Mail-Adresse, Ihren Namen und Ihre Telefonnummer anzugeben. Die genaue Erfahrung kann je nach den von Ihnen bereitgestellten Informationen variieren. <!--But here are a couple important points to be aware of as you run through the sign-up process:--> Verwenden Sie als E-Mail-Adresse Ihre Geschäfts-, Schul- oder Uni-E-Mail-Adresse. Wir richten Ihre Testversion auf dem Konto Ihrer Organisation ein. Sie können keine E-Mail-Adressen verwenden, die von E-Mail-Diensten für Endverbraucher oder Telekommunikationsanbietern wie outlook.com, hotmail.com, gmail.com und anderen bereitgestellt werden.
+   
+   <!-- When you get to the option for **Country or region** be sure to set this **United States**.
 
       > [!IMPORTANT]
-      > Sie müssen **Land oder Region** auf **USA** festlegen. Andernfalls ist der KI-gestützte Marketingtext für Artikel mit Copilot nicht in Business Central verfügbar.  
+      > You must set **Country or region** to **United States**; otherwise the AI-powered item marketing text with Copilot won't be available in Business Central.  -->
 3. Wenn Sie zum Schritt **Bestätigungsdetails** gelangen, können Sie mit der Testversion beginnen.
 
    - Um direkt zu Business Central zu gehen, wählen Sie **Überspringen und weiter zu Dynamics 365 Business Central** > **Erste Schritte**.
