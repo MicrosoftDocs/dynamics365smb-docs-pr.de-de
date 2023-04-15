@@ -2,7 +2,6 @@
 title: Cloud-Migrationsbasiserweiterung
 description: 'Verwenden Sie die Cloud-Migrationsbasiserweiterung, um Ihre lokale Lösung mit Business Central Online zu verbinden.'
 author: edupont04
-manager: edupont
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

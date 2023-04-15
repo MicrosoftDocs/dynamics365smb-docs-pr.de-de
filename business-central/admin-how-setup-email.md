@@ -60,6 +60,8 @@ Wenn Sie das SMTP-Protokoll zum Senden von E-Mails über [!INCLUDE[prod_short](i
 >
 > Exchange Online unterstützt nicht länger die Verwendung der Standardauthentifizierung für SMTP. Mandanten, die derzeit SMTP AUTH verwenden, sind von dieser Änderung nicht betroffen. Wir empfehlen jedoch dringend, die neueste Version von [!INCLUDE [prod_short](includes/prod_short.md)] zu verwenden und die OAuth 2.0-Authentifizierung für SMTP einzurichten. Wir werden keine zertifikatbasierte Authentifizierung für frühere Versionen von [!INCLUDE [prod_short](includes/prod_short.md)]wie z. B. Version 14, hinzufügen. Wenn Sie die OAuth 2.0-Authentifizierung nicht einrichten können, empfehlen wir Ihnen, Alternativen von Drittanbietern zu prüfen, wenn Sie SMTP-E-Mail in früheren Versionen verwenden möchten.
 
+[!INCLUDE [email-copy-company](includes/email-copy-company.md)]
+
 ## E-Mail-Konten hinzufügen
 
 Die unterstützte Einrichtungsanleitung für das **Einrichten von E-Mails** kann Ihnen helfen, rasch mit dem Senden von E-Mails zu beginnen.
