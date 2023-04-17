@@ -1,27 +1,21 @@
 ---
-title: Lieferanmahnungsbestimmungen, -stufen und -text einrichten [DE]
-description: Um Lieferanmahnungen zu erstellen, müssen Sie bestimmte Einrichtungen in der deutschen Version festlegen.
+title: 'Lieferanmahnungsbestimmungen, -stufen und -text einrichten [DE]'
+description: 'Um Lieferanmahnungen zu erstellen, müssen Sie bestimmte Einrichtungen in der deutschen Version festlegen.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.search.form: 5005279, 5005280, 5005281, 5005282, 5005283
+ms.search.keywords: null
+ms.search.form: '5005279, 5005280, 5005281, 5005282, 5005283'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1cf2ebbc4d4e8c4ff573c22770fb72315209687b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145105"
 ---
-# <a name="set-up-delivery-reminder-terms-levels-and-text-in-the-german-version"></a>Lieferanmahnungsbestimmungen, -stufen und -text in der deutschen Version einrichten
+# Lieferanmahnungsbestimmungen, -stufen und -text in der deutschen Version einrichten
 
 [!INCLUDE [delivery-reminder-terms-levels-text-setup](../includes/ATCHDE/delivery-reminder-terms-levels-text-setup.md)]
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Lieferbenachrichtigungen](delivery-reminders.md)  
 [Lieferanmahnungen erstellen](how-to-set-up-delivery-reminders.md)  

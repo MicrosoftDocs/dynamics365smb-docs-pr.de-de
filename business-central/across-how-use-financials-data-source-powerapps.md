@@ -12,18 +12,22 @@ ms.author: jswymer
 
 Sie können die [!INCLUDE[prod_short](includes/prod_short.md)] Daten als Datenquelle in Power Apps bereitstellen.  
 
-> [!NOTE]  
-> Sie müssen ein gültiges Konto bei [!INCLUDE[prod_short](includes/prod_short.md)] und Power Apps haben.  
+> [!TIP]  
+> Die zusätzliche Power Apps Dokumentation und unsere Power App-Beispiele, die während der [!INCLUDE[prod_short](includes/prod_short.md)] Einführungsveranstaltung vorgestellt wurden, werden später im Jahr 2023, Zyklus 1, hier veröffentlicht. Lesen Sie mehr unter [Erste Schritte mit weiteren Power Automate Beispielvorlagen und Power Apps](/dynamics365/release-plan/2023wave1/smb/dynamics365-business-central/get-started-more-sample-power-automate-templates-power-apps).
 
-## So fügen Sie [!INCLUDE[prod_short](includes/prod_short.md)] als Datenquelle in Power Apps hinzu
+## Voraussetzungen
+
+Sie müssen ein gültiges Konto bei [!INCLUDE[prod_short](includes/prod_short.md)] und Power Apps haben.  
+
+## [!INCLUDE[prod_short](includes/prod_short.md)] als Datenquelle in Power Apps hinzufügen
 
 1. In Ihrem Browser navigieren und zu [powerapps.microsoft.com](https://powerapps.microsoft.com/) gehen und sich dann anmelden.
 2. Wählen Sie auf der Homepage im Abschnitt **Beginn von Daten** die Kachel **Andere Datenquellen** aus.  
 
-    Dadurch wird Power Apps Studio geöffnet. Bei der ersten Anmeldung müssen Sie das Land/die Region angeben.  
+    Dieser Schritt öffnet Power Apps Studio. Bei der ersten Anmeldung müssen Sie das Land/die Region angeben.  
 3. In der Liste der verfügbaren Verbindungscodes wählen Sie **Business Central** und dann die Schaltfläche **Erstellen** aus.
 
-    Power Apps PowerApps verbinden sich mit Ihrem [!INCLUDE[prod_short](includes/prod_short.md)] mithilfe der Anmeldeinformationen, mit denen Sie sich anmelden. Wenn Sie KEIN Administrator Ihrer [!INCLUDE[prod_short](includes/prod_short.md)] sind, müssen Sie sich möglicherweise bei einem anderen Konto anmelden.  
+    Power Apps verbinden sich mit Ihrem [!INCLUDE[prod_short](includes/prod_short.md)] mithilfe der Anmeldeinformationen, mit denen Sie sich anmelden. Wenn Sie kein Administrator Ihrer [!INCLUDE[prod_short](includes/prod_short.md)] sind, müssen Sie sich möglicherweise bei einem anderen Konto anmelden.  
 
 4. Power Apps zeigt eine Liste der *Umgebungen und Unternehmungen* an, die in [!INCLUDE[prod_short](includes/prod_short.md)] verfügbar sind. Wählen Sie die Umgebung und das Unternehmen aus, in der sich die Daten befinden, zu denen Sie eine Verbindung herstellen möchten, z. B. *PRODUKTION - Mein Unternehmen*.  
 
@@ -34,7 +38,7 @@ Diese sogenannten Tabellen werden von [!INCLUDE[prod_short](includes/prod_short.
 > [!NOTE]
 > Wenn Sie Daten aus anderen Tabellen in [!INCLUDE[prod_short](includes/prod_short.md)] in Ihre Anwendung aufnehmen möchten, müssen Sie mit einem Entwickler zusammenarbeiten, um eine benutzerdefinierte API in [!INCLUDE[prod_short](includes/prod_short.md)] zu definieren.  
 
-Zu diesem Zeitpunkt haben Sie erfolgreich Ihre [!INCLUDE[prod_short](includes/prod_short.md)]-Daten verbunden und sind bereit, Ihre Power App zu erstellen. Sie können zusätzliche Bildschirme hinzufügen und an weitere Daten von Ihrem [!INCLUDE[prod_short](includes/prod_short.md)] anschließen. Weitere Informationen finden Sie unter [Erstellen einer Canvas-App aus einem Beispiel in Power Apps](/powerapps/maker/canvas-apps/open-and-run-a-sample-app).  
+Zu diesem Zeitpunkt haben Sie erfolgreich Ihre [!INCLUDE[prod_short](includes/prod_short.md)]-Daten verbunden und sind bereit, Ihre Power App zu erstellen. Sie können weitere Bildschirme hinzufügen und an weitere Daten von Ihrem [!INCLUDE[prod_short](includes/prod_short.md)] anschließen. Weitere Informationen finden Sie unter [Erstellen einer Canvas-App aus einem Beispiel in Power Apps](/powerapps/maker/canvas-apps/open-and-run-a-sample-app).  
 
 Wenn Sie Ihre App entworfen und erstellt haben, können Sie diese mit Ihre Kollegen teilen. Weitere Informationen finden Sie unter [Speichern und veröffentlichen Sie eine Canvas-App in Power Apps](/powerapps/maker/canvas-apps/save-publish-app).  
 

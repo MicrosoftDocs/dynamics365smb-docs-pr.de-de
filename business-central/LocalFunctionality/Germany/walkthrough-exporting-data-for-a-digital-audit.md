@@ -1,28 +1,22 @@
 ---
-title: Datenexport für eine digitale Prüfung [DE]
-description: Sie können Unternehmensdaten exportieren entsprechend dem Prozess für Datenzugriff und Testbarkeit von digitalen Dokumenten (GDPdU), der auf deutschen Steuergesetzen basiert.
+title: 'Datenexport für eine digitale Prüfung [DE]'
+description: 'Sie können Unternehmensdaten exportieren entsprechend dem Prozess für Datenzugriff und Testbarkeit von digitalen Dokumenten (GDPdU), der auf deutschen Steuergesetzen basiert.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: c4d9ce42c406c7a652146f44ebe535669e8f2315
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146031"
 ---
-# <a name="walkthrough-exporting-data-for-a-digital-audit-in-the-german-version"></a>Exemplarische Vorgehensweise: Datenexport für eine digitale Betriebsprüfung in der deutschen Version
+# Exemplarische Vorgehensweise: Datenexport für eine digitale Betriebsprüfung in der deutschen Version
 
 Sie können Geschäftsdaten für Überwachungszwecke exportieren. Die Einrichtung des Datenexportes unterscheidet sich von anderen Unternehmen und Sie sollten Ihren Steuerberater und den Steuerprüfer um Rat fragen. In der folgenden exemplarischen Vorgehensweise wird der durchgängige Prozess beschrieben, dies ist jedoch nur ein Beispiel.  
 
 Die Beispielimplementierung illustriert ein Szenario, in dem der Prüfer Sie auffordert, Daten aus der Finanzbuchhaltung zu exportieren, und Informationen über Ihre Debitoren und Kreditoren bereitzustellen. Dies ist kein Beispiel, das auf tatsächlichen Anforderungen von Steuerprüfern basiert, aber es dient zur Veranschaulichung, wie Sie Daten entsprechend dem Prozess für Datenzugriff und Testbarkeit von digitalen Dokumenten (GDPdU) in [!INCLUDE[prod_short](../../includes/prod_short.md)] exportieren.  
 
-## <a name="about-this-walkthrough"></a>Informationen zu dieser exemplarischen Vorgehensweise
+## Informationen zu dieser exemplarischen Vorgehensweise
 
 In dieser exemplarischen Vorgehensweise werden folgende Aufgaben erläutert:  
 
@@ -30,24 +24,24 @@ In dieser exemplarischen Vorgehensweise werden folgende Aufgaben erläutert:
 - Einrichten von Quellen für den Datenexport.  
 - Exportieren von Daten für die Steuerprüfer.  
 
-## <a name="prerequisites"></a>Voraussetzungen
+## Voraussetzungen
 
 Für diese exemplarische Vorgehensweise gelten folgende Voraussetzungen:  
 
 - Die deutsche Version von [!INCLUDE[prod_short](../../includes/prod_short.md)] mit dem Demounternehmen CRONUS AG.
 - Die .DTD-Datei, die gemäß GDPdU erforderlich ist. In diesem Szenario **gdpdu-01-08-2002.dtd**.  
 
-## <a name="story"></a>Hintergrund
+## Hintergrund
 
-Cassie ist Buchhalterin bei der CRONUS AG. Sie wurde vom Steuerprüfer des Unternehmens benachrichtigt, dass dieser eine Liste der Einkaufs- und Verkaufstransaktionen im ersten Quartal des Kalenderjahres 2013 einsehen möchte. Cassie kennt die Art der Finanzdaten, die der Prüfer möchte, aber sie benötigt die Hilfe von Sean, um den Export einzurichten.  
+Cassie, eine Buchhalterin bei der CRONUS AG, wurde vom Steuerprüfer des Unternehmens benachrichtigt, dass dieser eine Liste der Einkaufs- und Verkaufstransaktionen im ersten Quartal des Kalenderjahres 2013 einsehen möchte. Cassie kennt die Art der Finanzdaten, die der Prüfer möchte, braucht aber Hilfe von Sean, um den Export einzurichten.  
 
-Sean ist ein Hauptbenutzer der CRONUS AG. Er versteht, wie die Daten technisch mit Tabellen und Feldern eingerichtet werden. Daher unterstützt er normalerweise Cassie, die Datenexporte für die Prüfer einzurichten. Von anderen Datenexporten weiß er, dass das Werkzeug, das die Prüfer verwenden, einige Anforderungen hat, was die exportierten Dateien enthalten müssen, aber er braucht die Hilfe von Cassie, um genau festzulegen, welche Daten benötigt werden.  
+Sean ist ein Hauptbenutzer der CRONUS AG und weiß, wie die Daten technisch mit Tabellen und Feldern eingerichtet werden. Daher unterstützt Sean normalerweise Cassie, die Datenexporte für die Prüfer einzurichten. Von anderen Datenexporten weiß Sean, dass das Tool, das die Prüfer verwenden, einige Anforderungen hat, was die exportierten Dateien enthalten müssen, aber er braucht die Hilfe von Cassie, um genau festzulegen, welche Daten benötigt werden.  
 
-## <a name="defining-the-requirements"></a>Festlegen der Anforderungen
+## Festlegen der Anforderungen
 
-Cassis richtet die anforderungen für den Datenexport ein. Die Prüfer haben sie um Einsicht in Transaktionen mit Debitoren und Kreditoren gebeten. Daher weiß sie, dass sie Daten aus der Debitoren-, Kreditoren- und der Finanzbuchhaltung benötigt.  
+Cassis richtet die anforderungen für den Datenexport ein. Die Prüfer haben um Einsicht in Transaktionen mit Debitoren und Kreditoren gebeten. Daher weiß Cassie, dass Daten aus der Debitoren-, Kreditoren- und der Finanzbuchhaltung benötigt werden.  
 
-### <a name="to-set-up-the-requirements-for-a-data-export"></a>Einrichten von Anforderungen für den Datenexport  
+### Einrichten von Anforderungen für den Datenexport  
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](../../media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Datenexport** ein und wählen Sie dann den entsprechenden Link.  
 2. Wählen Sie die Aktion **Neu**.  
@@ -60,7 +54,7 @@ Cassis richtet die anforderungen für den Datenexport ein. Die Prüfer haben sie
 
     Der eindeutige Identifikationscode **AUDIT-Q113** ist ein Container für den Datenexport  
 
-    Als Nächstes fügt Cassie Beschreibungen der Art der Daten hinzu, die sie im Export benötigt.  
+    Als Nächstes fügt Cassie Beschreibungen der Art der Daten hinzu, die im Export enthalten sein müssen.  
 
 4. Wählen Sie auf der Seite **Datenexport** in der Gruppe Start die Option **Definitionen aufzeigen** aus.  
 5. Auf der Seite **Datenexport - Datensatzdefinitionen** wählen Sie das Feld **Datensatzcode**, und wählen Sie dann in dem Fenster, das erscheint **Neu** aus.  
@@ -82,13 +76,13 @@ Cassis richtet die anforderungen für den Datenexport ein. Die Prüfer haben sie
 
     Wenn der angegebene Ordner vorhanden ist, wählen Sie die Schaltfläche **Ja**, um sie zu erstellen.  
 
-Danach definiert Cassie die Quelle für die zu exportierenden Daten. Sie weiß von früheren Exporten, dass sie Daten aus den folgenden Tabellen benötigt:  
+Danach definiert Cassie die Quelle für die zu exportierenden Daten. Cassie weiß von früheren Exporten, dass Daten aus den folgenden Tabellen benötigt werden:  
 
 - **Sachkonto**  
 - **Debitor**  
 - **Kreditor**  
 
-### <a name="to-specify-requirements-for-the-source-for-the-data-export"></a>Um Anforderungen für die Quelle für den Datenexport festzulegen  
+### Um Anforderungen für die Quelle für den Datenexport festzulegen  
 
 1.  Wählen Sie auf der Seite **Datenexport-Definitionen aufzeichnen** in der Gruppe Start die Option **Quelle aufzeigen** aus.  
 2.  Im **Datenexport - Datensatzherkunft** auf der Seite **Tabellennr.** Feld geben Sie **15** ein.  
@@ -101,26 +95,26 @@ Danach definiert Cassie die Quelle für die zu exportierenden Daten. Sie weiß v
 
 4.  Wiederholen Sie die beiden vorherigen Schritte, um die Tabellen 18, **Debitor** und 23 **Kreditor** der Datenexport Datensatzquelle hinzuzufügen.  
 
-    Für diese Tabellen bittet Cassie um Daten für alle Debitoren und Kreditoren sowie um ausführliche Informationen zu jeder Transaktion basierend auf den Debitorenposten und den Kreditorenposten. Sie bittet auch um die Bewegungen am Anfang des Zeitraums, während des Zeitraums und nach dem Zeitraum, für den der Datenexport bestimmt ist.  
+    Für diese Tabellen bittet Cassie um Daten für alle Debitoren und Kreditoren sowie um ausführliche Informationen zu jeder Transaktion basierend auf den Debitorenposten und den Kreditorenposten. Cassie bittet auch um die Bewegungen am Anfang des Zeitraums, während des Zeitraums und nach dem Zeitraum, für den der Datenexport bestimmt ist.  
 
-5.  Wählen Sie die Schaltfläche **OK** aus.  
+5.  Wählen Sie die Schaltfläche **OK**.  
 
-Cassie hat die Art der Daten beschrieben, die sie benötigt, und informiert Sean, dass sie dessen Hilfe beim Einrichten des Datenexport benötigt.  
+Cassie hat die Art der benötigten Daten beschrieben und bittet Sean um Hilfe beim Einrichten des Datenexports.  
 
-## <a name="setting-up-the-source-for-the-data-export"></a>Einrichten von Quellen für den Datenexport  
-Cassie und Sean haben über die Anforderungen gesprochen. Cassie hat erklärt, was die Bemerkungen bedeuten, die sie für die ersten drei Tabellen in den Datensatzquellen erstellt hat. Am nächsten Tag kann Sean die Einrichtung der Quelle für den Datenexport abschließen.  
+## Einrichten von Quellen für den Datenexport  
+Cassie und Sean haben über die Anforderungen gesprochen. Cassie hat die Bemerkungen für die ersten drei Tabellen in den Datensatzquellen erklärt. Am nächsten Tag kann Sean die Einrichtung der Quelle für den Datenexport abschließen.  
 
 Zuerst fügt Stephan die erforderliche .dtd-Datei der Datensatzdefinition des Datenexports hinzu.  
 
-### <a name="to-add-a-dtd-file-to-a-record-definition"></a>So fügen Sie eine .dtd-Datei einer zugehörigen Berichtsdefinirion hinzu  
+### So fügen Sie eine .dtd-Datei einer zugehörigen Berichtsdefinirion hinzu  
 
 1.  Auf der Seite **Datenexporte** wählen Sie den Datenexport **AUDIT-Q113** und wählen die Aktion **Datensatzdefinitionen**.  
 2.  Auf der Seite **Datenexport - Datensatzdefinitionen** wählen Sie die Zeile, in der das Feld **Datenexport - Datensatz-Typcode** auf **GLCUSTVEND** gesetzt ist und wählen dann **Importieren** aus.  
 3.  Wählen Sie auf der Seite **Importieren** die DTD-Datei aus, die den Workflow enthält, und wählen Sie dann die Schaltfläche **Öffnen**.  
 
-Als Nächstes fügt Sean der Quelle die Tabelle **Sachposten** hinzu. Dann fügt er Felder aus dieser Tabelle und aus der Tabelle **Sachkonto** hinzu.  
+Als Nächstes fügt Sean die Tabelle **Sachkontoeintrag** hinzu und fügt dann Felder aus der Tabelle und der Tabelle **Sachkonto** hinzu.  
 
-### <a name="to-add-the-gl-entry-table-to-the-data-export-record-source"></a>Um die Sachkontotabelle der Datenexportherkunft hinzuzufügen  
+### Um die Sachkontotabelle der Datenexportherkunft hinzuzufügen  
 
 1.  auf der Seite **Datenexport - Datensatzdefinitionen** wählen Sie die Zeile, in der das Feld **Datenexport - Datensatz-Typcode** auf **GLCUSTVEND** gesetzt ist und wählen dann **Datenquelle aufzeichnen** aus.  
 2.  auf der Seite **Datenexport - Datensatzherkunft** wählen Sie die Zeile unter der Zeile für die Tabelle **Sachkonto** und wählen dann die Aktion **Neu** aus.  
@@ -142,7 +136,7 @@ Als Nächstes fügt Sean der Quelle die Tabelle **Sachposten** hinzu. Dann fügt
 
 7.  Wählen Sie die Schaltfläche **OK** aus.  
 
-### <a name="to-add-fields-from-the-gl-account-and-gl-entry-tables-to-the-data-export-record-source"></a>So fügen Sie Felder aus den Sachkonten und Sachpostentabellen der Datenexport-Datensatzquelle hinzu.  
+### So fügen Sie Felder aus den Sachkonten und Sachpostentabellen der Datenexport-Datensatzquelle hinzu.  
 
 1.  Auf der Seite **Datenexport - Datensatzherkunft** wählen Sie die Zeile unter der Zeile für die Tabelle **Sachkonto** und wählen dann die Aktion **Hinzufügen** aus.  
 2.  Füllen Sie die relevanten Felder aus, und wählen Sie dann die Schaltfläche **OK** aus.  
@@ -166,7 +160,7 @@ Als Nächstes fügt Sean der Quelle die Tabelle **Sachposten** hinzu. Dann fügt
 
 Sean hat das Feld **Buchungsdatum** aus der Tabelle **Sachposten** hinzugefügt, da Cassie die Daten anhand dem Buchungsdatum gefiltert benötigt. Jetzt verwendet Stephan das Feld, um das Feld in der Tabelle **Sachposten** anzugeben, das verwendet wird, um den Zeitraum für den Datenexport zu berechnen.  
 
-### <a name="to-add-a-period-filter-to-a-table-in-a-data-export-source"></a>Um einen Periodenfilter einer Tabelle in einer Datenexportquelle hinzuzufügen  
+### Um einen Periodenfilter einer Tabelle in einer Datenexportquelle hinzuzufügen  
 
 1.  Auf der Seite **Datenexport - Datensatzherkunft** wählen Sie die Zeile unter der Zeile für die Tabelle **Sachkonto** und dann auf der Registerkarte Felder wählen Sie **Periodenfeld-Nr.** aus.  
 2.  Auf der Seite **Datenexport Felderübersicht** wählen Sie das Feld **Buchungsdatum**, und wählen Sie dann die Schaltfläche **OK** aus.  
@@ -177,7 +171,7 @@ Das bedeutet, dass, wenn Cassie die Daten exportiert und dem Startdatum und dem 
 
 Als Nächstes fügt Stephan die Tabellen **Debitor** und **Kreditor** hinzu.  
 
-### <a name="to-add-the-customer-table"></a>Um die Kundentabelle hinzuzufügen  
+### Um die Kundentabelle hinzuzufügen  
 
 1.  Füllen Sie auf der Seite **Datenexport - Berichtsquelle** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 
@@ -219,7 +213,7 @@ Als Nächstes fügt Stephan die Tabellen **Debitor** und **Kreditor** hinzu.
 
 Stephan hat die Tabelle **Debitor** der Datenexportquelle hinzugefügt. Nun fügt er die Tabelle **Kreditor** hinzu.  
 
-### <a name="to-add-the-vendor-table"></a>Um die Kundentabelle hinzuzufügen  
+### Um die Kundentabelle hinzuzufügen  
 
 1.  Füllen Sie auf der Seite **Datenexport - Berichtsquelle** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 
@@ -242,18 +236,18 @@ Stephan hat die Tabelle **Debitor** der Datenexportquelle hinzugefügt. Nun füg
     |59|**Saldo (MW)**|**FlowFields**|**..Enddatum**|**EndBalanceLCY**|  
     |61|**Bewegung (MW)**|**FlowFields**|**Anfangsdatum..Enddatum**|**NetChangeLCYPeriod**|  
 
-Sean hat die Einrichtung fast abgeschlossen, jedoch möchte er überprüfen, ob die Datenexportquelle die technischen Anforderungen des Prüftools erfüllt.  
+Sean hat die Einrichtung fast abgeschlossen, möchte jedoch überprüfen, ob die Datenexportquelle die technischen Anforderungen des Prüftools erfüllt.  
 
-### <a name="to-validate-the-data-export-source"></a>Um die Datenexportquelle zu überprüfen  
+### Um die Datenexportquelle zu überprüfen  
 
 Wählen Sie die Aktion **Überprüfen** aus.  
 
-Sean hat nun die Einrichtung des Datenexports basierend auf den Anforderungen von Cassie abgeschlossen. Er benachrichtigt sie, sodass sie mit dem Exportieren von Daten für die Steuerprüfer beginnen kann.  
+Sean hat nun die Einrichtung des Datenexports basierend auf den Anforderungen von Cassie abgeschlossen. Sean benachrichtigt Casse, sodass mit dem Exportieren von Daten für die Steuerprüfer begonnen werden kann.  
 
-## <a name="exporting-data-for-the-tax-auditors"></a>Exportieren von Daten für die Steuerprüfer.  
-Cassie möchte Daten exportieren, die sie anschließend den Steuerprüfern senden kann.  
+## Exportieren von Daten für die Steuerprüfer.  
+Cassie möchte Daten exportieren, die anschließend den Steuerprüfern gesendet werden können.  
 
-### <a name="to-export-data"></a>Daten exportieren  
+### Daten exportieren  
 
 1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](../../media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Geschäftsdaten exportieren** ein, und wählen Sie dann den entsprechenden Link.  
 2.  Füllen Sie auf der Seite **Geschäftsdaten exportieren** im Inforegister **Optionen** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
@@ -272,15 +266,15 @@ Cassie möchte Daten exportieren, die sie anschließend den Steuerprüfern sende
 
 4.  Um Daten zu exportieren, wählen Sie die Schaltfläche **OK**, um den Export zu starten.  
 
-Wenn der Export abgeschlossen ist, wird Cassie benachrichtigt. Nun kann sie die exportierten Dateien den Steuerprüfern senden. Zuerst überprüft sie die Dateien im Ordner C: Exports auf ihrem Computer. Es gibt eine Datei für jede Tabelle, und die Dateien haben die Namen, die Sean in der Datenexportquelle angegeben hat. Es gibt auch eine INDEX.XML-Datei, die die Struktur des Datenexports mit den Namen der Tabellen und Felder beschreibt, die Sean angegeben hat.  
+Wenn der Export abgeschlossen ist, wird Cassie benachrichtigt und kann nun die exportierten Dateien an die Steuerprüfer übermitteln. Zuerst überprüft Casse die Dateien im Ordner C:Exports auf dem Computer. Es gibt eine Datei für jede Tabelle, und die Dateien haben die Namen, die Sean in der Datenexportquelle angegeben hat. Es gibt auch eine INDEX.XML-Datei, die die Struktur des Datenexports mit den Namen der Tabellen und Felder beschreibt, die Sean angegeben hat.  
 
-## <a name="next-steps"></a>Nächste Schritte
+## Nächste Schritte
 
-Wenn die Steuerprüfer Cassies Dateien in ihre Software importieren, können sie die Daten lesen, die sie exportiert hat. Wenn die Auditoren eine neue Version des gleichen Datenexports benötigen, kann Cassie den Export erneut ausführen.  
+Wenn die Steuerprüfer Cassies Dateien in ihre Software importieren, können sie die Daten lesen, die exportiert wurden. Wenn die Auditoren eine neue Version des gleichen Datenexports benötigen, kann Cassie den Export erneut ausführen.  
 
 Wenn die Steuerprüfer das nächste Mal neue Daten anfordern, können Cassie und Sean zusammenarbeiten, um einen neuen Datenexport zu erstellen.  
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Prozess für Digital-Überwachung (GoBD/GDPdU)](process-for-digital-audits.md)  
 [Datenexporte für eine digitale Prüfung (GoBD/GDPdU) einrichten](how-to-set-up-data-exports-for-digital-audits.md)  

@@ -1,26 +1,20 @@
 ---
 title: Lokale Funktion (Deutschland)
-description: Die folgenden Themen beschreiben die lokale Funktionalität, die in der deutschen Version von Business Central verfügbar ist.
+description: 'Die folgenden Themen beschreiben die lokale Funktionalität, die in der deutschen Version von Business Central verfügbar ist.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/18/2021
 ms.author: edupont
-ms.openlocfilehash: 1cf2e52d08f1174a72c53bd75b43ba6e4e2bd063
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521408"
 ---
-# <a name="germany-local-functionality"></a>Lokale Funktion (Deutschland)
+# Lokale Funktion (Deutschland)
 
 Die folgenden Themen beschreiben die lokale Funktionalität, die nur in der deutschen Version von [!INCLUDE[prod_short](../../includes/prod_short.md)] vorhanden ist.  
 
-## <a name="feature-availability"></a>Verfügbarkeit von Funktionen
+## Verfügbarkeit von Funktionen
 
 * MwSt.
     * [Einrichten von Berichten für MwSt. und Intrastat](how-to-set-up-reports-for-vat-and-intrastat.md) **Jetzt verfügbar**
@@ -59,9 +53,16 @@ Die folgenden Themen beschreiben die lokale Funktionalität, die nur in der deut
     * [Währungswechselkurse](currency-exchange-rates.md) **Jetzt verfügbar**
     * [Einbeziehen von Steuernummern von Unternehmen in Verkaufs- und Einkaufsberichte](how-to-include-company-registration-numbers-on-sales-reports-and-purchase-reports.md) **Jetzt verfügbar**
     * [Drucken von Finanzbuchhaltungs-Setupinformationen](how-to-print-general-ledger-setup-information.md) **Jetzt verfügbar**
-## <a name="see-also"></a>Siehe auch
 
-[Zertifizierung von Business Central für deutschen Zielmarkt (Beleg ist in Deutsch)](https://go.microsoft.com/fwlink/?linkid=875256)  
+## Zukünftige gesetzliche Anforderungen werden untersucht
+
+* GDPdU-/GoDB-Update **2024 Veröffentlichungszyklus 2**
+
+Derzeit gibt es keine bevorstehenden gesetzlich angeforderten Funktionen oder Anforderungen. Wenn Ihnen bevorstehende gesetzlich vorgeschriebenen Features bekannt sind, reichen Sie bitte eine [Warnung wegen gesetzlicher Funktionen](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u) ein.
+
+## Siehe auch
+
+[Zertifizierung von Business Central für deutschen Markt (Dokument in deutscher Sprache)](https://go.microsoft.com/fwlink/?linkid=875256)  
 [Arbeiten mit [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Verfügbarkeit nach Ländern/Regionen und unterstützte Sprachen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 

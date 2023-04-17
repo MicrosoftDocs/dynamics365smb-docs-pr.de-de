@@ -1,26 +1,20 @@
 ---
-title: Finanzbuchhaltungseinrichtungs-Informationen drucken [DE]
-description: Bevor Sie die deutsche Version von Business Central verwenden, können Sie den Bericht Fibu Einr.-Informationen ausführen, um die Stammdaten anzuzeigen, die Sie festgelegt haben.
+title: 'Finanzbuchhaltungseinrichtungs-Informationen drucken [DE]'
+description: 'Bevor Sie die deutsche Version von Business Central verwenden, können Sie den Bericht Fibu Einr.-Informationen ausführen, um die Stammdaten anzuzeigen, die Sie festgelegt haben.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: dfebaf2d85d2ea90fb9a8d8fe0aba2ec03693e6b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146033"
 ---
-# <a name="print-general-ledger-setup-information-in-the-german-version"></a>Finanzbuchhaltungseinrichtungs-Informationen in der deutschen Version drucken
+# Finanzbuchhaltungseinrichtungs-Informationen in der deutschen Version drucken
 
 Bevor Sie [!INCLUDE[prod_short](../../includes/prod_short.md)] im täglichen Geschäft verwenden können, können Sie **Finanzbuchhaltungseinrichtungs-Informationen** ausführen, um die Stammdaten anzuzeigen, die Sie eingerichtet haben. Sie können diese Stammdaten durchgehen, sodass Sie eine Grundlage für den Vergleich haben und dann überprüfen können, ob Sie die Buchungsgruppen korrekt eingerichtet haben.  
 
-## <a name="to-print-general-ledger-setup-information"></a>Gewusst wie: Drucken von Finanzbuchhaltungs-Setupinformationen  
+## Gewusst wie: Drucken von Finanzbuchhaltungs-Setupinformationen  
 
 1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](../../media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen") Symbol. Geben Sie **Fibu Einr.-Informationen** ein, und wählen Sie dann den entsprechenden Link.  
 2.  Füllen Sie im Stapelverarbeitungsauftrag **Optionen** im Inforegister **Einrichtdungsinformationen** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
@@ -36,7 +30,7 @@ Bevor Sie [!INCLUDE[prod_short](../../includes/prod_short.md)] im täglichen Ges
 
 3.  Wählen Sie die Schaltfläche **Drucken** aus, um den Bericht zu drucken, oder die Schaltfläche **Vorschau**, um den Bericht auf dem Bildschirm anzuzeigen.  
 
-## <a name="see-also"></a>Siehe auch  
+## Siehe auch  
 [Finance einrichten](../../finance-setup-finance.md)
 
 

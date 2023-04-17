@@ -3,18 +3,12 @@ author: edupont04
 ms.topic: include
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 67161f4a1cfc016ea4161778b455e9a8340cde27
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132241"
 ---
 Nachdem Sie Lieferbenachrichtigungen erstellt haben, müssen Sie sie registrieren und ausdrucken, sodass Sie Mahnungen an Kreditoren verschicken können. Vor dem Ausstellen von Lieferanmahnnungen können Sie einen Testbericht drucken.  
 
 Beim Registrieren der Lieferantenbenachrichtigungen erzeugt die Anwendung Lieferantenbenachrichtigungsposten. Die erstellten Posten können Sie dann auf der Seite **Registrierten Lieferbenachrichtigungskopfes** anzeigen.  
 
-## <a name="to-issue-delivery-reminders"></a>So registrieren Sie Lieferbenachrichtigungen  
+## So registrieren Sie Lieferbenachrichtigungen  
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](../../../media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie **Lieferanmahnung** ein, und wählen Sie dann den zugehörigen Link.  
 2. Auf der Seite **Lieferbenachrichtigungen** wählen Sie die Lieferbenachrichtigungen aus, die Sie registrieren möchten, und wählen die **Bearbeiten** Aktion aus.  
@@ -36,7 +30,7 @@ Beim Registrieren der Lieferantenbenachrichtigungen erzeugt die Anwendung Liefer
 
 Sie können das Fenster registrierte Mahnungen anzeigen auf der Seite **Registrierte Lieferbenachrichtigungen**. Optional können Sie jetzt eine Lieferbenachrichtigung drucken.  
 
-## <a name="to-view-delivery-reminder-ledger-entries"></a>Um sich detaillierte Lieferbenachrichtigungen anzeigen zu lassen:  
+## Um sich detaillierte Lieferbenachrichtigungen anzeigen zu lassen:  
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](../../../media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie **Einkaufsbestellungen** ein, und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die Bestellung, für die Sie den Mahnungsstatus anzeigen möchten, und wählen die Aktion **Bearbeiten**.  
