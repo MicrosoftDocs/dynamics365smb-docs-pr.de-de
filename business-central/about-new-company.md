@@ -1,15 +1,14 @@
 ---
 title: Neue Unternehmen mithilfe der Anleitung für die unterstützte Einrichtung erstellen
-description: 'Es ist einfach, ein neues, leeres Unternehmen in Business Central. zu erstellen. Ein unterstütztes Einrichtungshandbuch hilft Ihnen Schritte für Schritt und Sie können Ihre vorhandenen Geschäftsdaten importieren.'
-author: edupont04
+description: 'Es ist einfach, ein neues, leeres Unternehmen in Business Central. zu erstellen. Eine Anleitung für unterstützte Einrichtung hilft Ihnen Schritt für Schritt und Sie können Ihre Geschäftsdaten importieren.'
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.date: 04/14/2023
+ms.custom: bap-template
 ms.search.keywords: 'company, setup wizard'
 ms.search.form: '1803, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017'
-ms.date: 04/01/2021
-ms.author: edupont
 ---
 # Neue Unternehmen in [!INCLUDE[prod_short](includes/prod_short.md)] erstellen
 
@@ -46,7 +45,9 @@ Während Ihrer 30-Tage-Testphase können Sie eine beliebige Anzahl neuer Unterne
 Auf der Seite **Firmen** können Sie mit der Aktion **Kopieren** eine zweite Firma basierend auf den Inhalten einer bestehenden Firma anlegen. Dies ist z.B. nützlich, wenn Sie ein Unternehmen testen möchten, ohne die Produktionsdaten zu stören.
 
 > [!Important]
-> Diese Funktion kann nicht verwendet werden, um ein Backup eines Unternehmens zu erstellen. Die Erstellung eines Firmen-Backups beginnt mit dem Export der Datenbank als .bacpac-Datei. Weitere Informationen finden Sie unter [Datenbanken exportieren](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-database-export) in der Hilfe zu Entwicklung und Verwaltung.
+> Verwenden Sie die Aktion „Kopieren“ nicht, um ein Backup eines Unternehmens zu erstellen. Zum Erstellen eines Backups beginnen Sie mit dem Export der Datenbank als .bacpac-Datei. Weitere Informationen finden Sie unter [Datenbanken exportieren](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-database-export) in der Hilfe zu Entwicklung und Verwaltung.
+
+[!INCLUDE [email-copy-company](includes/email-copy-company.md)]
 
 ## Unternehmen einrichten
 

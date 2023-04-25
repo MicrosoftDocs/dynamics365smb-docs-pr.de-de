@@ -28,9 +28,9 @@ Implementieren Sie diese Funktionen in verschiedenen Kombinationen, um Ihre Lage
 
 ## Übersicht über verschiedene Konfigurationsmöglichkeiten
 
-Sie können Lagerfunktionen auf verschiedene Weise konfigurieren. Es ist wichtig, dass die von Ihnen gewählten Optionen Ihre Prozesse verbessern, ohne Gemeinkosten zu verursachen. Die folgende Tabelle gibt einen Überblick über typische Konfigurationen, die beim Umgang mit physischen Gütern verwendet werden.
+Sie können Lagerfunktionen auf verschiedene Weise konfigurieren. Es ist wichtig, Optionen zu wählen, die Ihre Prozesse verbessern, ohne Gemeinkosten zu verursachen. Die folgende Tabelle gibt einen Überblick über typische Konfigurationen für den Umgang mit physischen Gütern.
 
-|Komplexitätsebene|Beschreibung|Einstellungen|Lagerplatzcode|Beispiel für eingehenden Fluss|Beispiel für den ausgehenden Fluss|Beispiel für internen Fluss|  
+|Komplexitätsebene|Description|Einstellungen|Lagerplatzcode|Beispiel für eingehenden Fluss|Beispiel für den ausgehenden Fluss|Beispiel für internen Fluss|  
 |---|----------------|----------|---------|------------------|------------------|------------------|
 |Keine dedizierte Lageraktivität.|Buchung von Aufträgen und Journalen.||Optional. Gesteuert durch den Schalter **Lagerplatzcode obligatorisch**.|Einkaufsbestellung|Verkaufsauftrag| Produktionsauftrag -> FA-Verb. Buch.-Blatt|  
 |Standard|Konsolidierte Eingangs-/Versandbuchung für mehrere Bestellungen.|**Wareneingang erforderlich**<br>**Warenausgang erforderlich**.|Optional. Gesteuert durch den Schalter Lagerplatzcode obligatorisch|Bestellung(en) -> Wareneingang|Verkaufsauftrag -> Warenausgangskopf|Wie oben.|
@@ -61,7 +61,7 @@ Um physische Waren zu handhaben, müssen Sie mindestens einen Standort haben. Si
 Standorte sind in der Regel die bevorzugte Methode für die Organisation von Vorgängen, die über geografische Gebiete verteilt sind. In einigen Fällen möchten Sie jedoch möglicherweise mehrere Standorte erstellen, die sich am selben Ort befinden. Die Verwendung von Standorten hat folgende Vorteile:
 
 * Gewähren Sie Zugriff über die Seiten **Lagermitarbeiter** und **Verantwortungszentren**.
-* Definieren Sie Kalender, Arbeitspläne sowie eingehende und ausgehende Bearbeitungszeiten für die Datumsberechnung und -planung. [Info zu Planungsfunktionen](production-about-planning-functionality.md).
+* Definieren Sie Kalender, Arbeitspläne sowie eingehende und ausgehende Bearbeitungszeiten für die Datumsberechnung und -planung. Weitere Informationen unter [Info zu Planungsfunktionen](production-about-planning-functionality.md).
 * Geben Sie Standarddimensionen an und verwenden Sie unterschiedliche Lagerbuchungseinstellungen.
 * Richten Sie Planungsparameter ein. Erfahren Sie mehr unter [Planungsparameter](production-about-planning-functionality.md#planning-parameters).  
 * Verwenden Sie für jeden Standort unterschiedliche Lagerfunktionen.

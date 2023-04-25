@@ -28,6 +28,7 @@ Power Automate-Flows werden durch Ereignisse ausgelöst, z.B. wenn ein Datensatz
 ## Über Power Automate Flows
 
 Power Automate ist ein Dienst, mit dem Sie automatisierte Workflows (oder Flows) zwischen Apps und Diensten erstellen können, wie [!INCLUDE[prod_short](includes/prod_short.md)]. Power Automate Flows erfordern wenig oder gar keine Programmierkenntnisse. Sie können mit einer Vielzahl von Ereignissen und Reaktionen verknüpft werden, z.B:
+
 - Änderungen eines Datensatzes
 - Aktualisierungen externer Dateien
 - Eingestellte Dokumente
@@ -41,10 +42,13 @@ Es gibt drei verschiedene Cloud-Flow-Typen, mit denen Sie arbeiten können:
 |Terminiert|Diese Art von Flows wird ebenfalls automatisch ausgeführt, allerdings periodisch zu einem bestimmten Datum und einer bestimmten Uhrzeit. |
 |Sofort |Dieser Flow-Typ wird bei Bedarf ausgeführt, d.h. der Benutzer muss ihn manuell über eine Schaltfläche oder Aktion in einer anderen App oder einem anderen Gerät, in diesem Fall dem [!INCLUDE[prod_short](includes/prod_short.md)]-Client, ausführen. Instant Flows funktionieren ähnlich wie Batch-Verknüpfungen, führen mehrere langwierige Schritte mit ein paar Tastendrücken aus und werden von bestimmten Seiten oder Tabellen aus gestartet. Beispielsweise kann ein Flow eine Schaltfläche zum Aktionsmenü auf der Seite **Anbieter** hinzufügen, um Zahlungen an einen Lieferanten zu blockieren und gleichzeitig anpassbare E-Mails an den Kontakt des Lieferanten und die Einkäufer Ihres Unternehmens zu senden sowie den Kontakt in Outlook zu aktualisieren. |
 
-## Power Automate-Features in [!INCLUDE[prod_short](includes/prod_short.md)]
+## Power Automate-Funktionen
 
-Sie können sich alle Power Automate Flows ansehen, die Ihnen derzeit zur Verfügung stehen, indem Sie sich bei [Power Automate](https://powerautomate.com) anmelden und **Meine Flows** aus der Navigationsleiste auf der linken Seite auswählen. Hier finden Sie alle Flows, die Sie bereits selbst erstellt haben, sowie Flows, die Ihnen von einem Admin oder einem Mitarbeiter zur Verfügung gestellt wurden. Diese Flows sind auch innerhalb von [!INCLUDE [prod_short](includes/prod_short.md)] von verschiedenen Seiten aus verfügbar. Bei automatisierten Flows in [!INCLUDE[prod_short](includes/prod_short.md)] müssen Sie nichts tun, es sei denn, Sie möchten sie ändern oder deaktivieren. Andernfalls funktionieren sie einfach, wenn sie ausgelöst werden. Was die sofortigen Flows für [!INCLUDE[prod_short](includes/prod_short.md)]-Daten betrifft, so können Sie diese von den meisten Listen-, Karten- und Dokumentenseiten aus ausführen, indem Sie sie über das Element **Automatisieren** in der Aktion auswählen. Mehr dazu erfahren Sie in den folgenden Abschnitten.
+Sie können sich alle Power Automate Flows ansehen, die Ihnen derzeit zur Verfügung stehen, indem Sie sich bei [Power Automate](https://powerautomate.com) anmelden und **Meine Flows** aus der Navigationsleiste auf der linken Seite auswählen. Hier finden Sie alle Flows, die Sie bereits selbst erstellt haben, sowie Flows, die Ihnen von einem Admin oder einem Mitarbeiter zur Verfügung gestellt wurden.
 
+- Direktflows werden auch für die direkte Ausführung von den meisten Listen-, Karten- und Dokumentseiten in [!INCLUDE[prod_short](includes/prod_short.md)] zur Verfügung gestellt. Sie finden die Direktflows in der Aktionsgruppe **Automatisieren** in der Aktionsleiste der Seiten. Um einen Flow auszuführen, wählen Sie ihn aus und befolgen Sie die angezeigten Anweisungen. Mehr dazu erfahren Sie in den folgenden Abschnitten.
+ 
+- Bei automatisierten Flows in [!INCLUDE[prod_short](includes/prod_short.md)] müssen Sie nichts tun, es sei denn, Sie möchten sie ändern oder deaktivieren. Andernfalls funktionieren sie einfach, wenn sie ausgelöst werden. 
 <!--
 
 ## Automated flows
@@ -55,7 +59,7 @@ With Power Automate, you can create business flows directly in-house and rely on
 
 ## Sofortige Flows ausführen
 
-Instant Flows öffnen sich innerhalb von [!INCLUDE [prod_short](includes/prod_short.md)] online, so dass Sie im Kontext des Geschäftsprozesses bleiben können, in dem Sie sich gerade befinden. Sie können einen Instant Flow aus den meisten Listen, Karten oder Dokumenten ausführen.
+Direktflows öffnen sich innerhalb von [!INCLUDE [prod_short](includes/prod_short.md)] online, so dass Sie im Kontext des Geschäftsprozesses bleiben können, in dem Sie sich gerade befinden. Sie können einen Instant Flow aus den meisten Listen, Karten oder Dokumenten ausführen.
 
 1. Wählen Sie in der Aktionsleiste **Automatisieren** und wählen Sie dann einen Flow aus der Liste der verfügbaren Flows unter der Aktion **Power Automate**.
 
@@ -86,9 +90,9 @@ Das Erstellen neuer Flows, das Ändern und Verwalten bestehender Flows (wie das 
 
 - Um einen sofortigen Flow aus einer Liste, einer Karte oder einer Dokumentseite zu erstellen, wählen Sie **Automatisieren** > **Flow erstellen**.
 - Um Power Automate von einer Liste, Karte oder Dokumentenseite aus zu öffnen, wählen Sie **Automatisieren** > **Flows verwalten**.
-- Um neue Flows zu erstellen oder bestehende Flows von [!INCLUDE[prod_short](includes/prod_short.md)] aus zu verwalten, gehen Sie auf die Seite **Verwalten von Power Automate Flows**.
+<!--- To create new flows or manage existing flows from inside [!INCLUDE[prod_short](includes/prod_short.md)], got to the **Manage Power Automate Flows** page.-->
 
-Diese Aufgaben werden normalerweise von einem Admin oder Superuser erledigt. Die Aufgaben erfordern ein breiteres Wissen über die Geschäftsprozesse in [!INCLUDE[prod_short](includes/prod_short.md)]. Weitere Informationen finden Sie unter [Automatisierte Flows festlegen](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows), [Instant Flows einrichten](/dynamics365/business-central/dev-itpro/powerplatform/instant-flows) und [Verwalten von Power Automate Flows](/dynamics365/business-central/dev-itpro/powerplatform/manage-power-automate-flows).
+Diese Aufgaben werden normalerweise von einem Admin oder Superuser erledigt. Die Aufgaben erfordern ein breiteres Wissen über die Geschäftsprozesse in [!INCLUDE[prod_short](includes/prod_short.md)]. Weitere Informationen finden Sie unter [Power Automate-Integration](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-overview), [Direktflows einrichten](/dynamics365/business-central/dev-itpro/powerplatform/instant-flows) und [Power Automate-Flows verwalten](/dynamics365/business-central/dev-itpro/powerplatform/manage-power-automate-flows).
 <!-- 
 
 ## Add more automated flows and instant flows

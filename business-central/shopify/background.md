@@ -44,8 +44,8 @@ Sie können die folgenden wiederkehrenden Aktivitäten so planen, dass sie autom
 
 Weitere Aufgaben, die hilfreich sein können, um die Weiterverarbeitung von Verkaufsbelegen zu automatisieren:
 
-- Bericht 497 Eink. Rechnungen stapelbuchen
-- Bericht 496 Aufträge stapelbuchen
+- Bericht 297 Verk. Rechnungen stapelbuchen
+- Bericht 296 Aufträge stapelbuchen
 
 Sie können **Shopify Bestellnr.** verwenden Feld zum Identifizieren von Verkaufsdokumenten, die aus Shopify importiert wurden.
 
