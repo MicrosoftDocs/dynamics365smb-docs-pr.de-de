@@ -2,13 +2,13 @@
 title: Verwalten der Microsoft Teams-Integration in Business Central | Microsoft Docs
 description: Verwalten Sie die Business Central-Integration in Microsoft Teams.
 author: jswymer
-ms.topic: get-started-article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: overview
 ms.search.keywords: 'Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork'
-ms.date: 11/03/2022
+ms.date: 02/03/2023
 ms.author: jswymer
+ms.reviewer: jswymer
+ms.custom: bap-template
+ms.service: dynamics365-business-central
 ---
 
 # Verwalten der Microsoft Teams-Integration mit [!INCLUDE [prod_short](includes/prod_short.md)]
@@ -91,10 +91,10 @@ Im Admin Center Microsoft Teams konfigurieren Sie die Richtlinien für die Einri
     4. Wählen Sie **Hinzufügen**.
 
        Business Central sollte nun unter **Installierte Apps** für die Richtlinie erscheinen.
-    5. Konfigurieren Sie alle zusätzlichen Einstellungen und wählen Sie dann **Speichern**.
+    5. Konfigurieren Sie weitere Einstellungen und wählen Sie dann **Speichern**.
 
     Weitere Informationen über Richtlinien zur Einrichtung von Apps in Teams finden Sie unter [Verwalten von Richtlinien zur Einrichtung von Apps in Microsoft Teams](/MicrosoftTeams/teams-app-setup-policies) in der Dokumentation zu Teams.
-4. Gehen Sie zurück zu **Teams App Zentrale Bereitstellung** in Business Central und wählen Sie **Erledigt**.
+4. Gehen Sie zurück zu **Teams App Zentrale Bereitstellung** in Business Central und wählen Sie **Fertig**.
 
 > [!IMPORTANT]
 > Es kann bis zu 24 Stunden dauern, bis die Richtlinie für die Einrichtung der App festgelegt ist und die App den Benutzern bereitgestellt wird.
@@ -126,9 +126,29 @@ Inhaltssuche und eDiscovery Compliance-Funktionen im Microsoft 365 Security & Co
 
 Weil Kartendaten in Teams eine Kopie der Daten in [!INCLUDE [prod_short](includes/prod_short.md)] sind, können Sie auch [!INCLUDE [prod_short](includes/prod_short.md)] Funktionen zum Exportieren der Kundendaten sofern erforderlich verwenden. Weitere Informationen zum Datenschutz in [!INCLUDE [prod_short](includes/prod_short.md)] finden Sie unter [FAQ zu Datenschutz für Business Central Debitoren](/dynamics365/business-central/dev-itpro/security/privacyfaq).
 
-## Siehe auch
+## Datensatzdaten auf Karten ein- oder ausblenden
+
+Wenn ein Datensatz mit anderen in einem Teams-Chat oder -Kanal geteilt wird, wird eine Karte mit Feldern angezeigt, die Daten über den Datensatz enthalten. Alle Empfänger können diese Daten (oder die Datensatzzusammenfassung) standardmäßig anzeigen, unabhängig von ihrer Lizenz oder ihren Berechtigungen in Business Central. Wenn Sie ein Administrator sind, können Sie die **Karteneinstellungen** unterstützte Einrichtungsanleitung verwenden, um zu verhindern, dass die Datensatzzusammenfassung auf Karten in Teams angezeigt wird. Durch das Ausblenden der Datensatzzusammenfassung werden alle Felder und Bilder entfernt, die Schaltfläche **Details** und andere Nicht-Datensatzinformationen werden jedoch weiterhin auf der Karte angezeigt.
+
+|Zusammenfassung aktivieren|Zusammenfassung deaktivieren|
+|-|-|
+|![Bild, das eine Karte in Teams zeigt, wenn die Datensatzzusammenfassung aktiviert ist.](media/card-settings-example-on.png)|![Bild, das eine Karte in Teams zeigt, wenn die Datensatzzusammenfassung deaktiviert ist.](media/card-settings-example-off.png)|
+
+Sie konfigurieren die Einstellung pro Umgebung. Wenn Sie also die Datensatzzusammenfassung ein- oder ausschalten, wirkt sich dies auf alle Unternehmen in der Umgebung aus.
+
+1. Öffnen Sie in Business Central die Umgebung, die Sie ändern möchten.
+
+   > [!TIP]
+   > Wählen Sie zum Wechseln der Umgebung <kbd>Strg</kbd>+<kbd>O</kbd>.
+2. Wählen Sie die ![Lupe, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol, geben Sie **Karteneinstellungen** ein, und wählen Sie dann den entsprechenden Link. <!--Or, select [here](https://businesscentral.dynamics.com/?page=1833) to open the page directly.-->
+3. Lesen Sie die Informationen zu den **Karteneinstellungen** und wählen Sie dann **Weiter**, wenn Sie fertig sind.
+4. Auf der **Datensichtbarkeit**-Seite, schalten Sie die **Datensatzzusammenfassung anzeigen** an, um Daten auf den Karten anzuzeigen, oder aus, um die Daten auszublenden.
+5. Wählen Sie **Nächste** und befolgen Sie die Anweisungen, um die Einrichtungsanleitung abzuschließen.
+
+## Weitere Informationen
+
 [[!INCLUDE [prod_short](includes/prod_short.md)] und Microsoft Teams Integration Übersicht](across-teams-overview.md)  
-[Die [!INCLUDE [prod_short](includes/prod_short.md)]-App für Microsoft Teams installieren](across-install-app-for-teams.md)  
+[Die App [!INCLUDE [prod_short](includes/prod_short.md)] für Microsoft Teams installieren](across-install-app-for-teams.md)  
 [Teams FAQ](teams-faq.md)  
 [Teams Problembehebung](admin-teams-troubleshooting.md)  
 [Entwickeln für Teams Integration](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  

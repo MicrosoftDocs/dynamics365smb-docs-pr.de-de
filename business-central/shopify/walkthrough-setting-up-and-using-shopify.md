@@ -29,7 +29,7 @@ Erfahren Sie mehr darüber, wie Sie Shopify-Tests erstellen, und über die empfo
 
 Sie müssen ein [!INCLUDE[prod_short](../includes/prod_short.md)]-Konto haben. 
 
-Sie können zum Beispiel ein Demokonto erstellen oder einen Test starten. Weitere Informationen finden Sie unter [Vorbereitung von Demonstrationen für [!INCLUDE[prod_short](../includes/prod_short.md)]](/dynamics365/business-central/dev-itpro/administration/demo-environment.md) und [Anmelden für den Test](../trial-signup.md). 
+Sie können zum Beispiel ein Demokonto erstellen oder einen Test starten. Weitere Informationen finden Sie unter [Demonstrationsumgebung vorbereiten für Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/administration/demo-environment) und [Anmelden für den Test](../trial-signup.md). 
 
 ## Verbinden Sie Business Central mit dem Shopify-Laden
 
@@ -100,7 +100,7 @@ Wählen Sie die Schaltfläche **Jetzt kaufen** und gehen Sie zur Kasse.
 5. Wählen Sie die Schaltfläche **Weiter zum Versand**.
 6. Behalten Sie `Standard` als Versandart bei und wählen Sie dann die Schaltfläche **Weiter zur Zahlung**.
 7. Wählen Sie `10%` Tipp.
-8. Geben Sie im Feld **Kreditkarte** eine `1` ein, wenn Sie *(zu Testzwecken) Bogus Gateway* verwenden, wenn Sie *Shopify Payments* im Testmodus verwenden, geben Sie im Feld **Kreditkarte** eine `5555 5555 5555 4444` ein.
+8. Geben Sie im Feld **Kreditkarte** eine `1` ein, wenn Sie *(zu Testzwecken) Bogus Gateway* verwenden oder geben Sie `5555 5555 5555 4444` ein, wenn Sie *Shopify Payments* im Testmodus verwenden.
 9. Füllen Sie das Feld **Name auf der Karte** aus.
 10. Geben Sie in das Feld **Ablaufdatum** den aktuellen Monat/Jahr ein.
 11. In das Feld **Sicherheitscode** geben Sie `111` ein.
@@ -162,18 +162,20 @@ Bereiten Sie die Daten vor.
 2. Fügen Sie eine neue Preisgruppe hinzu. Geben Sie in das Feld **Code** `SHOPIFY` ein.
 3. Schließen Sie das Fenster **Kundenpreisgruppe**.
 4. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](../media/ui-search/search_small.png "Was möchten Sie tun?") Symbol, geben Sie **Elemente** ein und wählen Sie den zugehörigen Link.
-5. Wählen Sie das Element **1896-S, Athener Schreibtisch**.
-6. Wählen Sie die Aktion **Varianten** und fügen Sie dann zwei Varianten `PREMIUM, Athens Desk, Premium edition` und `ESSENTIAL, Athens Desk, Essential edition` hinzu.
-7. Wählen Sie **Erweiterter Text**, erstellen Sie einen neuen erweiterten Text, der für alle Sprachcodes gilt. Geben Sie in das Feld **Beschreibung** `Shopify` ein. 
-8. Fügen Sie die folgende Beschreibung mit HTML-Tags hinzu: `<b>Simple stylish design</b> blends with any ensemble. <i>Available in two editions.</i>`.
-9. Wählen Sie **Verkaufspreise**, und fügen Sie neue Preise hinzu, wie in der folgenden Tabelle gezeigt:
+
+Wählen Sie Artikel **1896-S, Athens Desk** aus und führen Sie die folgenden Schritte aus.
+
+1. Wählen Sie die Aktion **Varianten** und fügen Sie dann zwei Varianten `PREMIUM, Athens Desk, Premium edition` und `ESSENTIAL, Athens Desk, Essential edition` hinzu.
+2. Wählen Sie die Aktion **Erweiterter Text**, erstellen Sie einen neuen erweiterten Text, der für alle Sprachcodes gilt. Geben Sie in das Feld **Beschreibung** `Shopify` ein. 
+3. Fügen Sie den folgenden Text mit HTML-Tags hinzu: `<b>Simple stylish design</b> blends with any ensemble. <i>Available in two editions.</i>`.
+4. Wählen Sie die Aktion **Verkaufspreise** und fügen Sie neue Preise hinzu, wie in der folgenden Tabelle gezeigt:
 
   |Auftrag|**Verkaufsart**|**Verkaufscode**|Typ|Code|Variantencode<br>(fügen Sie das Feld über die Personalisierung hinzu)|VK-Preis|
   |------|------------|------------|------------|------------|------------|------------|
   |0|Debitorenpreisgruppe|SHOPIFY|Option|1896-S|ESSENTIAL|700|
-  |2|Debitorenpreisgruppe|SHOPIFY|Option|1896-S|PREMIUM|1000|
+  |2|Debitorenpreisgruppe|SHOPIFY|Artikel|1896-S|PREMIUM|1000|
 
-10. Wählen Sie **Verkaufsrabatte**, und fügen Sie einen neuen Rabatt hinzu:
+5. Wählen Sie die Aktion **Verkaufsrabatte** und fügen Sie einen neuen Rabatt hinzu:
 
 * **Verkaufstyp** *Kundenrab. Gruppe*
 * **Verkaufscode** *RETAIL*
@@ -182,18 +184,18 @@ Bereiten Sie die Daten vor.
 * **Code der Maßeinheit** *STK*
 * **Zeilenrabatt %** *10*
 
-11. Wählen Sie **Element Referenzen** und fügen Sie die folgenden Zeilen hinzu:
+6. Wählen Sie die Aktion **Element Referenzen** und fügen Sie die folgenden Zeilen hinzu:
 
   |Auftrag|**Referenztyp**|**Referenz Nr.**|Variantencode|
   |------|------------|------------|------------|
   |0|Strichcode|77777777|ESSENTIAL|
   |2|Strichcode|11111111|PREMIUM|
 
-12. Schließen Sie die **Artikelkarte**.
-13. Markieren Sie das Element **1920-S, ANTWERP Konferenztisch**.
-14. Wählen Sie **Bestand anpassen** und geben Sie im Feld **Neuer Bestand** `100` für die Standorte *Ost* und *West* ein. 
-1. Wählen Sie **OK** aus.
-1. Schließen Sie die **Artikelkarte**.
+
+Wählen Sie das Element **1920-S, Konferenztisch ANTWERPEN** und führen Sie die folgenden Schritte aus.
+
+1. Wählen Sie **Bestand anpassen** und geben Sie im Feld **Neuer Bestand** `100` für die Standorte *Ost* und *West* ein. 
+2. Wählen Sie **OK** aus.
 
 Passen Sie die Synchronisationseinstellungen an.
 

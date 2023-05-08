@@ -1,14 +1,14 @@
 ---
-title: PC-Tastenkombinationskurzübersicht Referenz
+title: Nur PC-Tastenkombinationskurzübersicht
 description: 'Ein druckerfreundliches Bezugsblatt für PC-Benutzer, das die gängigsten Tastenkombinationen enthält.'
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: 'accessibility, shortcuts, keyboarding'
-ms.date: 08/19/2022
+ms.search.keywords: 'accessibility, shortcuts, keyboarding, keys'
+ms.date: 02/09/2023
 ms.author: jswymer
+ms.review: jswymer
+ms.service: dynamics365-business-central
+ms.custom: bap-template
 ---
 
 # Nur PC-Tastenkombinationskurzübersicht
@@ -17,6 +17,7 @@ ms.author: jswymer
 
 |Wählen Sie diese Tasten aus|Vorgehensweise|  
 |-|-|
+|<kbd>Alt</kbd>|Zugriffstasten anzeigen, um in der Aktionsleiste oder im Navigationsmenü zu navigieren|
 |<kbd>Alt</kbd>+<kbd>F2</kbd>|Infoboxbereich anzeigen und ausblenden.|
 |<kbd>Alt</kbd>+<kbd>N</kbd>|Erstellen eines neuen Datensatzes|
 |<kbd>Alt</kbd>+<kbd>Umschalt</kbd>+<kbd>N</kbd>|Schließen Sie einen neu erstellten Datensatz und erstellen Sie einen neuen Datensatz.|
