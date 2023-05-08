@@ -40,7 +40,7 @@ Ein Artikelverfolgungscode spiegelt die unterschiedlichen Betrachtungen wider, d
 Da dieses Einrichtungsfeld alle möglichen Transaktionen für den Artikel abdeckt, werden die einzelnen Felder für Eingang und Ausgang ebenfalls mit Häkchen versehen. Die einzelnen Eingangs- und Ausgangsfelder haben aber nichts mit dem Ausgleich innerhalb des Lagers zu tun – sondern sie haben lediglich die Aufgabe, den Arbeitsablauf eines Unternehmens bezüglich der Zuweisung von Artikelverfolgungsnummern abzubilden.  
 
 > [!NOTE]  
->  Um Artikelverfolgungsnummern bei Lageraktivitäten zuzuordnen, müssen die Felder **Seriennr.-Verf. Lager** und **Chargennr.-Verf. Lager** auf der Karte des Artikels ausgewählt werden.  
+> Um Artikelverfolgungsnummern bei Lageraktivitäten zuzuordnen, müssen die Felder **Seriennr.-Verf. Lager** und **Chargennr.-Verf. Lager** auf der Karte des Artikels ausgewählt werden.  
 
 ## Regeln für den Ablauf von Serien- oder Chargennummern einrichten:
 
@@ -78,6 +78,36 @@ Um die Artikelverfolgung zu aktivieren, müssen Sie einem Artikel zunächst die 
 2. Wählen Sie einen vorhandenen Artikel aus der Liste aus, und öffnen Sie die Seite **Artikelkarte**.  
 3. Weisen Sie im Inforegister **Artikelverfolgung** die entsprechenden Artikelverfolgungscodes zu, und wählen Sie den **Artikelverfolgungscode**, die **Seriennummern** und die **Chargennummern** aus.
     1. Alternativ können Sie auch einen neuen Artikelverfolgungscode erstellen, indem Sie die Aktion **Neu** auswählen.
+
+## Um Anfangssalden für die von Ihnen verfolgten Artikel anzugeben
+
+Sie können Anfangssalden für die von Ihnen verfolgten Artikel erstellen. Da Sie verschiedene Lagerkonfigurationen wählen können, gibt es zwei Möglichkeiten:
+
+* Aktivieren Sie bestimmte Stapel auf der Seite **Artikel Buch.-Blatt**, auf der Serien-, Chargen- und Verpackungsdaten direkt in Buchungsblattzeilen eingeben können.
+* Für Standorte, an denen der Umschalter **Gezieltes Einlagern und Kommissionieren** eingeschaltet ist, verwenden Sie die Seite **Logistik Inventur Buch.-Blatt** , um alle Artikelverfolgungsfelder verfügbar zu machen. Zu den verfügbaren Feldern gehören die Felder **Garantiedatum** und **Ablaufdatum**.
+
+### Artikel-Blätter 
+
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Element Buch.-Blätter** ein und wählen Sie dann den zugehörigen Link.
+2. Wählen Sie das Feld **Name** aus, um eine Liste der Artikel Buch.-Blattnamen zu öffnen.
+3. Wählen Sie **Neu**, um einen neuen Stapel zu erstellen, und schalten Sie dann den Umschalter **Artikelverfolgung auf Positionen** ein.
+4. Wählen Sie **OK**, um den von Ihnen erstellten Stapel auszuwählen.
+5. Füllen Sie die Felder auf der Artikel Buch.-Blattzeile wie erforderlich aus. Beachten Sie, dass die Felder **Chargennr.**, **Seriennr.**, **Ablaufdatum**, **Garantiedatum** und **Paketnr.** zur Verfügung stehen, (wenn das Feature aktiviert ist).
+6. Wählen Sie die Aktion **Buchen** aus, um das Lager zu regulieren.
+
+> [!NOTE] 
+> [!INCLUDE [prod_short](includes/prod_short.md)] führt einige kleinere Überprüfungen durch, wenn Sie Daten eingeben oder importieren. Eine umfassendere Prüfung findet statt, wenn Sie Daten aus Buchuchungsblattzeilen auf das **Artikelverfolgungsfenster** buchen oder übertragen. Letzteres geschieht automatisch, wenn Sie die Seite **Artikelverfolgungsfenster** aus der Artikel Buch.-Blattzeile öffnen oder Sie die Aktion **Artikel Buch.-Blattzeilen aktualisieren**.
+
+### Logistik Inventur Buch.-Blatt für Standorte, für welche dir direkte Kommissionierung und Einlagerung aktiviert ist  
+
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Geben Sie **Logistik Inventur Buch.-Blatt** ein und wählen Sie dann den zugehörigen Link.
+2. Füllen Sie die Felder auf der Artikel Buch.-Blattzeile wie erforderlich aus. Beachten Sie, dass die Felder **Chargennr.**, **Seriennr.**, **Ablaufdatum**, **Garantiedatum** und **Paketnr.** zur Verfügung stehen, (wenn das Feature aktiviert ist).
+3. Wählen Sie die Aktion **Journal** aus, die Lagerregulierungen vorzunehmen. Denken Sie daran, dass die korrigierten Lagerplatzposten mit den entsprechenden Artikelposten synchronisieren müssen. Um mehr zu erfahren, gehen Sie zu [Die korrigierten Lagerplatzeinträge synchronisieren](/dynamics365/business-central/inventory-how-count-adjust-reclassify#to-synchronize-the-adjusted-warehouse-entries-with-the-related-item-ledger-entries).
+
+Verwenden Sie für Massenimporte Konfigurationspakete, um Daten in die Blätter zu importieren.
+
+> [!NOTE]
+> Sie können **In Excel bearbeiten** nicht verwenden, um Buchungsblattzeilen mit Nachverfolgungsinformationen zu erstellen.
 
 ## Siehe verwandte [Microsoft Schulungen](/training/modules/prepare-item-tracking/)
 

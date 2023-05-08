@@ -6,14 +6,12 @@ ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: null
 ms.search.forms: '7200, 7201'
-ms.date: 09/30/2021
+ms.date: 03/22/2023
 ms.author: bholtorf
 ---
 # Mit Microsoft Dataverse verbinden
 
-
-
-In diesem Thema wird beschrieben, wie Sie eine Verbindung zwischen [!INCLUDE[prod_short](includes/prod_short.md)]und [!INCLUDE[cds_long_md](includes/cds_long_md.md)] einrichten. Typischerweise stellen Unternehmen die Verbindung her, um Daten mit einer anderen Dynamics 365-Geschäftsanwendung, z. B. [!INCLUDE[crm_md](includes/crm_md.md)], zu integrieren und zu synchronisieren.  
+In diesem Artikel wird beschrieben, wie Sie eine Verbindung zwischen [!INCLUDE[prod_short](includes/prod_short.md)] und [!INCLUDE[cds_long_md](includes/cds_long_md.md)] einrichten. Typischerweise stellen Unternehmen die Verbindung her, um Daten mit einer anderen Dynamics 365-Geschäftsanwendung, z. B. [!INCLUDE[crm_md](includes/crm_md.md)], zu integrieren und zu synchronisieren.  
 
 ## Bevor Sie beginnen
 
@@ -31,7 +29,7 @@ Sie müssen einige Informationen bereithalten, bevor Sie die Verbindung herstell
 > Diese Schritte beschreiben das Verfahren in [!INCLUDE[prod_short](includes/prod_short.md)] online.
 > Wenn Sie [!INCLUDE[prod_short](includes/prod_short.md)] lokal verwenden und nicht das Azure Active Directory Konto verwenden, um die Verbindung mit [!INCLUDE [cds_long_md](includes/cds_long_md.md)] herzustellen, müssen Sie außerdem einen Benutzernamen und ein Kennwort eines Benutzerkontos für die Integration angeben. Dieses Konto wird als „Integrationsbenutzer“-Konto bezeichnet. Wenn Sie ein Azure Active Directory-Konto verwenden, ist das Integrationsbenutzerkonto weder erforderlich noch wird es angezeigt. Der Integrationsbenutzer wird automatisch eingerichtet und benötigt keine Lizenz.
 
-## Eine Verbindung mit [!INCLUDE[cds_long_md](includes/cds_long_md.md)] einrichten
+## Verbindung zu [!INCLUDE[cds_long_md](includes/cds_long_md.md)] einrichten
 
 Für alle anderen Authentifizierungsarten als die Microsoft 365-Authentifizierung legen Sie Ihre Verbindung auf der Seite **Dataverse Verbindungseinrichtung** auf [!INCLUDE[cds_long_md](includes/cds_long_md.md)] fest. Für die Microsoft 365-Authentifizierung empfehlen wir Ihnen, die Anleitung **Dataverse Verbindungseinrichtung** zur unterstützten Einrichtung zu verwenden. Der Leitfaden erleichtert die Einrichtung der Verbindung und die Festlegung erweiterter Funktionen, wie z. B. Personenbesitz und Erstsynchronisierung.  
 
@@ -45,6 +43,7 @@ Für alle anderen Authentifizierungsarten als die Microsoft 365-Authentifizierun
 > Durch die Einwilligung im Namen der Organisation berechtigt der Administrator die registrierte Azure-Anwendung mit dem Namen [!INCLUDE[prod_short](includes/prod_short.md)] Integration für [!INCLUDE[cds_long_md](includes/cds_long_md.md)], Daten mit automatisch erstellten Anmeldeinformationen des Benutzers der Anwendung [!INCLUDE[prod_short](includes/prod_short.md)] zu synchronisieren.
 
 ### So verwenden Sie die Dataverse Anleitung zur unterstützten Einrichtung
+
 Die Anleitung zur unterstützten Einrichtung für die Verbindung von Dataverse kann Ihnen helfen, die Verbindung einfacher herzustelle und Sie kann Ihnen sogar beim Ausführen einer ersten Synchronisierung helfen. Wenn Sie die anfängliche Synchronisierung ausführen möchten, überprüft [!INCLUDE[prod_short](includes/prod_short.md)] die Daten in beiden Anwendungen und gibt Empfehlungen für die anfängliche Synchronisierung. Die folgende Tabelle beschreibt die Empfehlungen.
 
 |Empfehlung  |Beschreibung  |
@@ -99,7 +98,7 @@ The following video shows the steps to connect [!INCLUDE[prod_short](includes/pr
 
 -->
 
-## Anpassen der abgleichsbasierten Kopplung
+## Kopplung basierend auf Übereinstimmung anpassen
 
 Ab dem Veröffentlichungszyklus 2 im Jahr 2021 kann ein Administrtator Kriterien zum Koppeln von Datensätzen auf der Grundlage von Übereinstimmungen eingeben. Sie können den Algorithmus für den Abgleich von Datensätzen an den folgenden Stellen in [!INCLUDE [prod_short](includes/prod_short.md)] starten:
 
@@ -158,7 +157,8 @@ Die Kopplung schlägt in der Regel aus folgenden Gründen fehl:
 > [!TIP]
 > Damit Sie sich einen Überblick über den Fortschritt der Kopplung verschaffen können, zeigt das Feld **Gekoppelt mit Dataverse** an, ob ein Datensatz mit einer [!INCLUDE [cds_long_md](includes/cds_long_md.md)]-Entität gekoppelt ist. Sie können die Liste der zu synchronisierenden Datensätze mit dem Feld **Gekoppelt mit Dataverse** filtern.
 
-## Aktualisieren von Verbindungen von Business Central Online zur Verwendung der zertifikatsbasierten Authentifizierung
+## Verbindungen von Business Central Online zur Verwendung der zertifikatsbasierten Authentifizierung upgraden
+
 > [!NOTE]
 > Dieser Abschnitt ist nur für [!INCLUDE[prod_short](includes/prod_short.md)] Online-Mandanten relevant, die von Microsoft gehostet werden. Online-Mandanten, die von ISVs gehostet werden, und lokale Installationen sind davon nicht betroffen.
 
@@ -177,22 +177,11 @@ Um eine Unterbrechung der Integrationen zu vermeiden, _müssen Sie die Verbindun
 > [!NOTE]
 > Sie müssen diese Schritte in jeder [!INCLUDE[prod_short](includes/prod_short.md)]-Umgebung wiederholen, einschließlich der Produktions- und Sandbox-Umgebungen, und in jeder Firma, in der Sie eine Verbindung zu [!INCLUDE[cds_long_md](includes/cds_long_md.md)] haben.
 
-## Verbinden von Vor-Ort-Versionen
+## Verbinden von lokalen Versionen
 
 Sie müssen einige Informationen auf der Seite **Dataverse-Verbindungseinrichtung** eingeben, um [!INCLUDE[prod_short](includes/prod_short.md)] vor Ort mit [!INCLUDE[cds_long_md](includes/cds_long_md.md)] zu verbinden.
 
-Um eine Verbindung mit einem Azure Active Directory (Azure AD)-Konto herzustellen, müssen Sie eine Anwendung in Azure AD registrieren. Sie müssen die Anwendungs-ID, das Geheimnis des Schlüsseltresors und die Umleitungs-URL angeben. Die Umleitungs-URL ist bereits ausgefüllt und sollte für die meisten Installationen funktionieren. Sie müssen Ihre Installation für die Verwendung von HTTPS einrichten. Weitere Informationen finden Sie unter [Konfigurieren von SSL zum Sichern der Business Central Web Client-Verbindung ](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection). Wenn Sie Ihren Server für eine andere Homepage einrichten, können Sie die URL jederzeit ändern. Der geheime Clientschlüssel wird als verschlüsselte Zeichenfolge in Ihrer Datenbank gespeichert. 
-
-### Voraussetzungen
-
-Dataverse muss eines der folgenden Authentifizierungstypen verwenden:
-
-* Office365 (Legacy)
-
-  > [!IMPORTANT]
-  > Ab April 2022 wird Office365 (Legacy) nicht mehr unterstützt. Weitere Informationen finden Sie unter [Wichtige Änderungen (Abschreibungen) über Power Apps, Power Automate und Customer Engagement-Apps](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse).
-* Office365 (modern, OAuth2-basierender geheimer Clientschlüssel)
-* OAuth
+Um eine Verbindung mit einem Azure Active Directory (Azure AD)-Konto herzustellen, müssen Sie eine Anwendung in Azure AD registrieren. Sie müssen die Anwendungs-ID, das Geheimnis des Schlüsseltresors und die Umleitungs-URL angeben. Die Umleitungs-URL ist bereits ausgefüllt und sollte für die meisten Installationen funktionieren. Sie müssen Ihre Installation für die Verwendung von HTTPS einrichten. Weitere Informationen finden Sie unter [Konfigurieren von SSL zum Sichern der Business Central Web Client-Verbindung](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection). Wenn Sie Ihren Server für eine andere Homepage einrichten, können Sie die URL jederzeit ändern. Der geheime Clientschlüssel wird als verschlüsselte Zeichenfolge in Ihrer Datenbank gespeichert. 
 
 ### So registrieren Sie eine Anwendung in Azure AD, um eine Verbindung mit Dataverse über Business Central herzustellen
 
