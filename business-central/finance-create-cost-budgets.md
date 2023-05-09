@@ -23,7 +23,7 @@ Sie verwenden die folgenden Seiten, um Kostenbudgets zu erstellen und zu analysi
 |Übertragen Sie Budgets aus dem Sachkonto.|Stapelverarbeitung **Finanzbudget in Kostenrechnung kopieren**|  
 |Kostenbudgets kopieren.|Stapelverarbeitung **Kostenbudget kopieren**|  
 |Budgets zuteilen.|**Kostenzuteilung**|  
-|Sehen Sie sich die Kostenbudgeterfassungen und Kostenbudgetposten an.|**Kostenbudgeterfassungen**-Seite|  
+|Sehen Sie sich die Kostenbudgeterfassungen und Kostenbudgetposten an.|Seite **Kostenbudgeterfassungen**|  
 |Drucken Sie Kostenbudgetvergleiche unter Verwendung der verschiedenen Berichte.|Bericht **Kostenrechnungsbilanz/Budget**<br /><br /> Bericht **Kostenrechnungsauszug/Budget**<br /><br /> Bericht **Kostenbudget nach Kostenstelle**<br /><br /> Bericht **Kostenbudget nach Kostenträger**|  
 
 ## Siehe verwandte [Microsoft Schulungen](/training/modules/cost-accounting-reports-dynamics-365-business-central/)

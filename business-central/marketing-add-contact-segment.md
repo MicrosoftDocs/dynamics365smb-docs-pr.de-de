@@ -1,26 +1,20 @@
 ---
 title: Kontakte zu Segementen hinzuzufügen
-description: Nachdem Sie ein Segment erstellt haben, können Sie dem Segment Kontakte zum Beispiel als Teil der bestimmte Debitoren oder der Clients einer Werbekampagnezielgruppenadressierung hinzufügen.
+description: 'Nachdem Sie ein Segment erstellt haben, können Sie dem Segment Kontakte zum Beispiel als Teil der bestimmte Debitoren oder der Clients einer Werbekampagnezielgruppenadressierung hinzufügen.'
 author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: marketing, campaign, promo, prospect, contact, client, customer
-ms.search.form: 5091, 5093
+ms.search.keywords: 'marketing, campaign, promo, prospect, contact, client, customer'
+ms.search.form: '5091, 5093'
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: d285e384ceef9e78fca764fdffaabb3ff439ea02
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519069"
 ---
-# <a name="add-contacts-to-segments"></a>Kontakte zu Segementen hinzuzufügen
+# Kontakte zu Segementen hinzuzufügen
 Nachdem Sie ein Segment erstellt haben und Basisinformationen darüber eingegeben haben, können Sie dem Segment Kontakte hinzufügen. Sie können dies manuell in den Zeilen auf der Seite **Segment** tun, aber es ist schneller und einfacher, die Aktion **Kontakte hinzufügen** zu verwenden.
 
-## <a name="to-add-a-contact-to-a-segment"></a>Um einem Segment einen Kontakt hinzuzufügen:
+## Um einem Segment einen Kontakt hinzuzufügen:
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Segmente** ein, und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie das Segment, und wählen Sie die Aktion **Kontakte hinzufügen** aus. Die Batchauftragsseite **Kontakte hinzufügen** wird geöffnet.
 3. Geben Sie im Abschnitt **Kontakt** durch Setzen von Filtern die Informationen an, nach denen Kontakte ausgewählt werden sollen.
@@ -29,7 +23,7 @@ Um weitere Filter einzugeben, wiederholen Sie dieses Verfahren in jedem der übr
 
 Wenn Sie irrtümlich Kontakte hinzugefügt haben und einen Schritt zurück gehen wollen, wählen Sie die Aktion **Zurück**.
 
-## <a name="to-refine-the-number-of-contacts"></a>Um die Anzahl der Kontakte neu zu definieren
+## Um die Anzahl der Kontakte neu zu definieren
 Nachdem Sie die Kontakte eines Segments ausgewählt haben, können Sie einige von ihnen löschen, aber andere behalten. Sie können Kontakte manuell aus den Zeilen auf der Seite **Segment** entfernen, aber es ist schneller und einfacher, die Aktion unter **Kontakte neu definieren** zu verwenden.
 
 1. Öffnet Sie das Segment.
@@ -41,7 +35,7 @@ Sie können ein Segment beliebig oft neu definieren. Klicken Sie auf **Zurück**
 
 Um eine Liste der im Abschnitt **Allgemein** verwendeten Segmentkriterien zu sehen, wählen Sie das Feld **Anzahl Kriterienaktionen**.
 
-## <a name="to-reduce-the-number-of-contacts"></a>Um die Anzahl der Kontakte zu reduzieren
+## Um die Anzahl der Kontakte zu reduzieren
 Nachdem Sie die Kontakte eines Segments ausgewählt haben, können Sie einige von ihnen löschen. Sie können sie manuell aus den Zeilen auf der Seite Segment entfernen, aber es ist schneller und einfacher, mit der Funktion unter Kontakte teilweise entfernen anzugeben, welche Kontakte gelöscht werden sollen, und mit der Funktion Kontakte neu definieren festzulegen, welche Kontakte beibehalten werden sollen.
 
 1. Öffnet Sie das Segment.
@@ -51,7 +45,7 @@ Nachdem Sie die Kontakte eines Segments ausgewählt haben, können Sie einige vo
 
 Sie können ein Segment beliebig oft neu definieren. Klicken Sie auf die Aktion **Zurück**, wenn Sie ein Segment aus Versehen neu definiert haben und dies rückgängig machen möchten.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 [So erstellen Sie ein Segment](marketing-how-create-segment.md)   
 [Verwalten von Segmenten](marketing-segments.md)  
 [Verkaufschancen verwalten](marketing-manage-sales-opportunities.md)  
