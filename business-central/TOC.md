@@ -350,9 +350,11 @@
 #### VAT einrichten
 ##### [Mehrwertsteuer einrichten](finance-setup-vat.md)
 ##### [Einrichtung der Buchungsgruppe](finance-posting-groups.md#tax-posting-groups)
+##### [Nicht absetzbare MwSt. einrichten](finance-setup-nondeductible-vat.md)
 ##### [Nicht realisierte Mehrwertsteuer einrichten](finance-setup-unrealized-vat.md)
 ##### [MwSt.-Abrechnung einrichten](finance-how-setup-vat-statement.md)
 #### [Mit MwSt.im Verkauf und Einkauf arbeiten](finance-work-with-vat.md)
+#### [Nicht absetzbare MwSt. verwenden](finance-how-use-non-deductible-vat.md)
 #### [MwSt.-Berichte an die Steuerbehörden übermitteln](finance-how-report-vat.md)
 #### [Änderungen des Mehrwertsteuersatzes verwalten](finance-how-use-vat-rate-change-tool.md)
 #### [USt-IdNr validieren](finance-how-validate-vat-registration-number.md)
