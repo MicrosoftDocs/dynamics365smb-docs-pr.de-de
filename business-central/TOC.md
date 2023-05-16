@@ -1,4 +1,5 @@
-# [Willkommen bei Business Central](index.md)  
+
+# [Willkommen bei Business Central](index.md)
 # [Neu und geplant](product-news.md)
 # Erste Schritte
 ## [Überblick über Unternehmensfunktionen](across-business-functionality.md)
