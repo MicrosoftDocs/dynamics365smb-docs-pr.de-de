@@ -99,7 +99,27 @@ Prüft, ob Business Central-Umgebungen für einen authentifizierten Benutzer ver
 |Keine Cluster-Adresse, für die diese Prüfung durchgeführt werden soll|Überprüfen Sie die Liste der verfügbaren Umgebungen im Business Central Admin Center.|
 |Versionsendpunkt existiert nicht|Überprüfen Sie die Liste der verfügbaren Umgebungen im Business Central Admin Center.|
 
-## Weitere Informationen
+## Webserver-Konnektivität
+
+Überprüft, ob der authentifizierte Benutzer erfolgreich Verbindungen mit dem Webserver herstellen kann.
+
+|Problem|Was Sie versuchen sollten|
+|-------|-------------|
+|Kein authentifizierter Benutzer, für den diese Überprüfung durchgeführt werden soll|Siehe **Benutzerauthentifizierung prüfen**.|
+|Es konnten keine verfügbaren Umgebungen für Ihr Konto abgerufen werden.|Siehe **Ermittlung von Business Central Umgebungen**.|
+|Keine Cluster-Adresse, für die diese Prüfung durchgeführt werden soll|Überprüfen Sie die Liste der verfügbaren Umgebungen im Business Central Admin Center.|
+|Fehler beim Herstellen einer Verbindung mit dem Webserver|Leeren Sie den Cache und laden Sie die Seite neu.|
+
+## Dienststatus
+
+Meldet den Dienstzustand von Business Central, indem nach gemeldeten Ausfällen gesucht wird.
+
+|Problem|Was Sie versuchen sollten|
+|-------|-------------|
+|Kein authentifizierter Benutzer, für den diese Überprüfung durchgeführt werden soll|Siehe **Benutzerauthentifizierung prüfen**.|
+|Leider ist Business Central vorübergehend nicht verfügbar. Bitte versuchen Sie es später erneut.|Versuchen Sie es später noch einmal.|
+
+## Siehe auch
 
 [Ressourcen für Hilfe und Support](product-help-and-support.md)  
 [Übersicht der Aufgaben zum Festlegen von Business Central](setup.md)  

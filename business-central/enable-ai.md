@@ -1,6 +1,6 @@
 ---
 title: KI-gestützten Marketingtext für Artikel (Vorschauversion) mit Copilot konfigurieren
-description: 'In diesem Artikel wird erläutert, wie Sie eine Copilot-Testversion von Business Central erhalten und Copilot in einer Umgebung aktivieren'
+description: 'In diesem Artikel wird erläutert, wie Sie eine Copilot-Testversion von Business Central erhalten und Copilot in einer Umgebung aktivieren.'
 author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
@@ -24,10 +24,10 @@ Wenn eine dieser Anforderungen nicht erfüllt ist, steht das Feature nicht zur V
 
 Sie verwenden eine [Vorschauversion](ai-preview-getstarted.md) von Business Central, die für Copilot aktiviert ist. Die Aktivierung von Copilot erfolgt durch einen Administrator. Weitere Informationen finden Sie unter [KI-gestützten Marketingtext für Artikel mit Copilot konfigurieren](enable-ai.md).
 
-## Das Feature „Erstellen Sie KI-unterstützte Produktbeschreibungen mit Copilot“ aktivieren oder deaktivieren
+## Aktivieren oder deaktivieren Sie das Erstellen von KI-unterstützten Produktbeschreibungen mit Copilot
 
 1. Suchen und öffnen Sie in Business Central die Seite **Funktionsverwaltung**.
-2. Legen Sie die Spalte **Aktiviert für** für das Feature **Feature-Vorschauversion: Erstellen Sie KI-unterstützte Produktbeschreibungen mit Copilot** auf **Alle Benutzende** fest, um das Feature zu aktivieren, oder auf **Keiner**, um es zu deaktivieren.
+2. Legen Sie die Spalte **Aktiviert für** für **Feature-Vorschauversion: Erstellen Sie KI-unterstützte Produktbeschreibungen mit Copilot** auf **Alle Benutzer** fest, um das Feature zu aktivieren, oder auf **Keiner**, um es zu deaktivieren.
 
    Weitere Informationen zur Funktionsverwaltung im Allgemeinen finden Sie unter [Funktionsverwaltung](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
@@ -39,7 +39,7 @@ Sie verwenden eine [Vorschauversion](ai-preview-getstarted.md) von Business Cent
 
 ## Nächste Schritte
 
-Sobald Sie über eine Sandbox- oder Testumgebung verfügen, können Sie Copilot für Elemente in Business Central ausprobieren. Gehen Sie zu [Marketingtext zu Artikeln hinzufügen](item-marketing-text.md).  
+Nachdem Sie die Funktion aktiviert und verfügbar gemacht haben, können Sie Copilot für Elemente in Business Central ausprobieren. Gehen Sie zu [Marketingtext zu Artikeln hinzufügen](item-marketing-text.md).  
 
 ## Siehe auch
 

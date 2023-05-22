@@ -232,13 +232,13 @@ Wenn Sie Probleme haben, das SMTP-Protokoll zum Senden von E-Mails zu verwenden,
 
 ### [!INCLUDE[prod_short](includes/prod_short.md)] mit Ihrer App-Anmeldung verbinden
 
-Nachdem Sie Ihre Anwendung im Azure-Portal registriert haben, klicken Sie auf [!INCLUDE[prod_short](includes/prod_short.md)], benutzen Sie die **E-Mail-Anwendung AAD-Registrierung** unterstützte Einrichtung, um die Verbindung [!INCLUDE[prod_short](includes/prod_short.md)] herzustellen.
+Nachdem Sie Ihre Anwendung im Azure-Portal registriert haben, verwenden Sie in [!INCLUDE[prod_short](includes/prod_short.md)] die Seite **E-Mail-Anwendung AAD-Registrierung**, um die Verbindung mit [!INCLUDE[prod_short](includes/prod_short.md)] herzustellen.
 
 1. Wählen Sie in [!INCLUDE[prod_short](includes/prod_short.md)] das Symbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun") aus, geben Sie **AAD-Registrierung der E-Mail-Anwendung** ein, und wählen Sie dann den zugehörigen Link aus.
 2. Füllen Sie die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!TIP]
-> Wenn Sie zum ersten Mal eine Verbindung herstellen, können Sie alternativ die unterstützte Einrichtung **E-Mail einrichten** verwenden. Der Leitfaden benötigt die Informationen, um eine Verbindung zu Ihrer App-Registrierung herzustellen. <!--Need to verify this too. Ask John to clear the aad settings, delete the email accounts, and then run the guide.-->
+> Wenn Sie zum ersten Mal eine Verbindung herstellen, können Sie alternativ die unterstützte Einrichtung **E-Mail einrichten** verwenden. In diesem Fall enthält die Anleitung auch die Seite „AAD-Registrierung per E-Mail-Anwendung“, auf der Sie die Informationen für die Verbindung mit Ihrer App-Registrierung hinzufügen können. <!--Need to verify this too. Ask John to clear the aad settings, delete the email accounts, and then run the guide.-->
 
 <!--
 

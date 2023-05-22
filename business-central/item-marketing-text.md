@@ -21,7 +21,7 @@ Es gibt zwei Möglichkeiten, Marketingtext zu erstellen. Am einfachsten gelingt 
 
 Copilot bietet Ihnen schnell einen Textvorschlag an, der automatisch für Sie generiert wird. Der KI-generierte Text ist auf den Artikel zugeschnitten und bietet einen guten Ausgangspunkt. Der Text basiert zum Teil auf den folgenden Informationen:
 
-- Für den Artikel festgelegte Attribute, z. B. Beschreibung, Farbe, Abmessungen, Material usw.
+- Für den Artikel festgelegte Attribute, z. B. Beschreibung, Farbe, Dimensionen, Material usw.
 - Auswählbare Einstellungen zum Stil wie Tonfall, Format und Länge.
 
 Copilot soll Ihnen Zeit sparen und Ihnen dabei helfen, kreative und ansprechende Texte zu schreiben, die Ihre Marke widerspiegeln und über Ihre gesamte Produktlinie hinweg konsistent sind. Erstellen Sie zunächst einen Vorschlag und ändern Sie ihn dann nach Bedarf.
@@ -50,14 +50,14 @@ Copilot soll Ihnen Zeit sparen und Ihnen dabei helfen, kreative und ansprechende
 
 2. Von der Artikelkarte aus gibt es zwei Möglichkeiten, mit Copilot mit dem Schreiben von Marketingtexten zu beginnen:
 
-   - Eine Möglichkeit ist, den Bereich **Marketingtext** in der Infobox rechts auf der Seite zu verwenden. Führen Sie die folgenden Schritte aus:
+   - Verwenden Sie den Bereich **Marketingtext** in der Infobox rechts auf der Seite. Führen Sie die folgenden Schritte aus:
 
-      1. Wählen Sie im Bereich **Marketingtext** **Mit Copilot erstellen** aus.
+     1. Wählen Sie im Bereich **Marketingtext** **Mit Copilot erstellen** aus.
 
-         Der vorgeschlagene Text wird im Bereich angezeigt.
-      2. Wenn Sie einen weiteren Vorschlag erhalten möchten, wählen Sie erneut **Mit Copilot erstellen** aus. Wenn Ihnen ein Vorschlag nicht gefällt, wählen Sie **Verwerfen**, um den Bereich zu leeren.
+        Der vorgeschlagene Text wird im Bereich angezeigt.
+     2. Wenn Sie einen weiteren Vorschlag erhalten möchten, wählen Sie erneut **Mit Copilot erstellen** aus. Wenn Ihnen ein Vorschlag nicht gefällt, wählen Sie **Verwerfen**, um den Bereich zu leeren.
 
-         Sie können diesen Schritt so lange wiederholen, bis Sie einen Vorschlag erhalten, der Ihrer Meinung nach ein ausreichend guter Ausgangspunkt ist. Beachten Sie jedoch, dass der aktuelle Vorschlag überschrieben wird und Sie ihn vielleicht nicht wiederherstellen können. Wenn Ihnen der aktuelle Vorschlag also gefällt, gehen Sie zum nächsten Schritt. Sie können immer noch weitere Vorschläge abrufen und die Vorschläge später sogar verbessern, wenn Sie möchten.
+        Sie können diesen Schritt so lange wiederholen, bis Sie einen Vorschlag erhalten, der ein guter Ausgangspunkt ist. Beachten Sie jedoch, dass der aktuelle Vorschlag überschrieben wird und Sie ihn nicht wiederherstellen können. Wenn Ihnen der aktuelle Vorschlag also gefällt, gehen Sie zum nächsten Schritt. Sie können zu einem späteren Zeitpunkt immer noch weitere Vorschläge abrufen und die Vorschläge später sogar verbessern, wenn Sie möchten.
       3. Wählen Sie **Diesen Vorschlag überprüfen und speichern** oder **Bearbeiten** aus, um den Text zu überprüfen, zu bearbeiten und zu speichern.
 
          Mit diesem Schritt gelangen Sie zur Seite **Mit Copilot erstellen**. Gehen Sie zum nächsten Abschnitt.
@@ -65,7 +65,7 @@ Copilot soll Ihnen Zeit sparen und Ihnen dabei helfen, kreative und ansprechende
          > [!NOTE]
          > Der Text wird erst gespeichert, wenn Sie diesen Schritt ausführen.
 
-   - Eine weitere Möglichkeit ist, die Aktion **Marketingtext** oben auf der Seite „Artikelkarte“ auszuwählen und direkt zur Seite **Mit Copilot erstellen** zu springen.
+   - Wählen Sie die Aktion **Marketingtext** oben auf der Seite „Artikelkarte“ aus und gehen Sie direkt zur Seite **Mit Copilot erstellen**.
 
      Wählen Sie auf der Seite **Mit Copilot erstellen** die Option **Mit Copilot erstellen** aus, um den ersten Vorschlag zu erhalten. Sie können dann weitere Vorschläge erhalten, die erhaltenen Vorschläge verbessern, Text bearbeiten und vieles mehr. Weitere Informationen finden Sie unter [Überprüfen, bearbeiten und speichern](#review-edit-and-save-text).
 
@@ -104,7 +104,7 @@ Sie können einige Schritte unternehmen, um Textvorschläge zu verbessern und si
    |-|-|
    |Einzuschließende Attribute|Verwenden Sie diese Option, wenn die Vorschläge teilweise auf den dem Artikel zugewiesenen Attribute basieren sollen. Wählen Sie die Attribute aus, die am besten zu den Eigenschaften passen, die Sie hervorheben möchten. Je mehr relevante Attribute Sie einbeziehen, desto aussagekräftiger wird das Ergebnis. Wenn Sie das Gefühl haben, dass Ihnen einige entscheidende Attribute fehlen, fügen Sie weitere hinzu. Weitere Informationen über Attribute finden Sie unter [Mit Artikelattributen arbeiten](inventory-how-work-item-attributes.md) |
    |Qualität betonen|Verwenden Sie diese Option, um aus einer Liste vordefinierter Eigenschaften auszuwählen, die Sie im Text hervorheben möchten. Wählen Sie eine Qualität, die am besten zu der Art des Artikels passt, über den Sie schreiben. Die Eigenschaften entsprechen nicht direkt den Attributen, der Beschreibung oder der Kategorie des Artikels. Zum Beispiel könnte **Qualität** sowohl für ein Fahrrad als auch für einen Schreibtisch eine gute Wahl sein, während **Geschwindigkeit** für ein Fahrrad geeignet wäre, aber nicht für einen Schreibtisch.|
-   |Ton der Stimme|Verwenden Sie diese Option, um zu beeinflussen, welche Art von Wörtern, Phrasen und Satzzeichen verwendet werden, um die Zielgruppe anzusprechen. Sie haben die Wahl aus mehreren vordefinierten Tonfällen von **Formell** (dabei handelt es sich um den am stärksten geschäftlich klingenden Tonfall) bis zu **Kreativ** (der zu den lässigsten Texten führt). |
+   |Ton der Stimme|Verwenden Sie diese Option, um zu beeinflussen, welche Art von Wörtern, Phrasen und Satzzeichen verwendet werden, um die Zielgruppe anzusprechen. Sie haben die Wahl aus mehreren vordefinierten Tonfällen von **Formell** (dabei handelt es sich um einen geschäftlich klingenden Tonfall) bis zu **Kreativ** (der zu einem lässigen Text führt). |
    |Format und Länge|Verwenden Sie diese Option, um die allgemeine Struktur des Textes zu steuern, die aus drei Teilen besteht, die von vier verschiedenen Optionen abgedeckt werden: <ul><li>**Slogan**: Eine einprägsamer Formulierung oder ein kurzer Satz, der den Artikel oder die Marke identifiziert.</li><li>**Absatz**: Ein einzelner Absatz mit fließendem und ausführlichem Text, der aus mehreren vollständigen Sätzen besteht.</li><li>**Slogan + Absatz**: Ein Slogan gefolgt von einem Absatz</li><li>**Kurzfassung**: Ein einleitender Satz, ähnlich einem Slogan, gefolgt von einer Aufzählung der wichtigsten interessanten Punkte.</li></ul> |
 
 2. Verbessern Sie das Feld **Beschreibung** auf der Artikelkarte.
@@ -120,7 +120,7 @@ Sie können einige Schritte unternehmen, um Textvorschläge zu verbessern und si
 1. Öffnen Sie in Business Central den Artikel, den Sie ändern möchten, wie folgt:
 
     1. Wählen Sie in der oberen rechten Ecke die ![Glühbirne aus, die die „Sie wünschen ...“-Funktion 22 öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Artikel** ein und wählen Sie dann den dazugehörigen Link aus, um eine Liste der verfügbaren Artikel aufzurufen.
-    2. Um den Artikel zu öffnen, machen Sie einen Doppelklick darauf oder wählen Sie im Feld **Nr.** .
+    2. Um den Artikel zu öffnen, machen Sie einen Doppelklick darauf oder wählen Sie im Feld **Nr.** Feld
 
 2. Führen Sie einen der folgenden Schritte aus:
 

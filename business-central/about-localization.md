@@ -53,9 +53,9 @@ Wählen Sie den entsprechenden Link, um mehr über die lokalen Funktionen für j
 [!INCLUDE[prod_short](includes/prod_short.md)] ist über Lokalisierungs-Apps auch in anderen Märkten verfügbar. Wenn ein Microsoft-Partner eine Lokalisierungs-App für Ihr Land/Ihre Region entwickelt hat, finden Sie diese in [AppSource](https://go.microsoft.com/fwlink/?linkid=2081646).
 
 ## Siehe auch
-
-[Vorbereitung für die Geschäftstätigkeit](ui-get-ready-business.md)  
-[Kompatibilität](compliance/compliance-overview.md)  
+[Umgebungen erstellen](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments)  
+[Bereitschaft für die Geschäftsabwicklung](ui-get-ready-business.md)  
+[Compliance](compliance/compliance-overview.md)  
 [Verfügbarkeit in Ländern/Regionen und unterstützte Übersetzungen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
 [Internationale Verfügbarkeit von Microsoft Dynamics 365](/dynamics365/get-started/availability)  
 [Entwicklung einer Lokalisierungslösung](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-localization)  
