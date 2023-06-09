@@ -14,17 +14,20 @@ ms.search.form: '1803, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 902
 
 In [!INCLUDE[prod_short](includes/prod_short.md)] wird der Container für Geschäftsdaten, die zu einem Konzernmandanten oder einer juristischen Person gehören, als *Unternehmen* bezeichnet. Wenn Sie sich für [!INCLUDE[prod_short](includes/prod_short.md)] registrieren, erhalten Sie ein Demounternehmen und ein leeres Unternehmen, *Mein Unternehmen*. Der Wechsel zwischen den Unternehmen ist einfach: Gehen Sie einfach zu **Meine Einstellungen** und wechseln Sie zu dem anderen Unternehmen. Sie können aber auch neue Unternehmen in [!INCLUDE[prod_short](includes/prod_short.md)] gründen, je nach Ihren Geschäftsanforderungen.  
 
+> [!NOTE]
+> Um ein neues Unternehmen zu erstellen, müssen Sie dem Berechtigungssatz **Super** zugewiesen sein.
+
 Wenn Sie einen neuen Mandanten erstellen, hilft Ihnen ein unterstütztes Einrichtungshandbuch, die Grundlagen einzurichten. Dann können Sie relevante Daten aus dem Legacysystem oder einem anderen Mandanten in [!INCLUDE[prod_short](includes/prod_short.md)] importieren.  
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
 ## Die richtige Vorlage auswählen
 
-Wenn Sie sich entscheiden, einen Mandanten Ihrem [!INCLUDE[prod_short](includes/prod_short.md)] hinzuzufügen, können Sie den Leitfaden für das unterstützte Setup für **Neues Unternehmen erstellen** verwenden. Der Einrichtungsassistent ist auf der Seite **Firmen** und über die Suche im Feld **Firma** auf der Seite **Meine Einstellungen** verfügbar.  
+Wenn Sie sich entscheiden, Ihrem [!INCLUDE[prod_short](includes/prod_short.md)] ein Unternehmen hinzuzufügen, können Sie den Leitfaden für die unterstützte Einrichtung für **Neues Unternehmen erstellen** verwenden. Die Einrichtungsanleitung ist auf der Seite **Unternehmen** und über die Suche im Feld **Unternehmen** auf der Seite **Meine Einstellungen** verfügbar.  
 
-Der Setup-Assistent stellt zwei Vorlagen und eine leere Option zur Verfügung:
+Die Einrichtungsanleitung bietet zwei Vorlagen und eine leere Option:
 
-- **Bewertung - Beispieldatei**  
+- **Auswertung – Beispieldaten**  
     Dies erstellt einen Mandanten, der gleich ist wie das Demounternehmen mit Beispieldaten und Einrichtungsdaten. Dieser Unternehmenstyp steht Ihnen im Gegensatz zu den anderen Typen ohne Wechsel zu einem 30-tägigen Testzeitraum zur Verfügung.  
 - **Produktion - nur Einrichtungsdaten**  
     Dies erstellt einen Mandanten, der gleich ist wie **Mein Unternehmen** mit Einrichtungsdaten aber ohne Beispieldaten. Sie können dieses Unternehmen für einen 30-tägigen Testzeitraum verwenden.  
@@ -61,7 +64,7 @@ Sobald Sie die Grundlagen bereit haben, können Sie die übrigen Kernbereiche ei
 
 [!INCLUDE [company_environment](includes/company_environment.md)]
 
-Weitere Informationen finden Sie unter [Wechseln zu einem anderen Unternehmen oder einer anderen Umgebung ](ui-organization-switch.md). Weitere Informationen zu Umgebungen finden Sie unter [Grundlegendes zur Infrastruktur von Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-environment-topology) (nur in englischer Sprache).  
+Weitere Informationen finden Sie unter [Wechseln zu einem anderen Unternehmen oder einer anderen Umgebung](ui-organization-switch.md). Weitere Informationen zu Umgebungen finden Sie unter [Grundlegendes zur Infrastruktur von Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-environment-topology) (nur in englischer Sprache).  
 
 ## Ändern des Namens eines Unternehmens
 

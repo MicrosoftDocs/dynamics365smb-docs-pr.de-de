@@ -1,28 +1,25 @@
 ---
 title: So legen Sie Workflow-Benutzer fest
-description: 'Bevor Sie Workflows erstellen können, müssen Sie die Benutzer, die daran teilnehmen, auf der Seite Workflow-Benutzergruppen festlegen.'
-author: SorenGP
-ms.topic: conceptual
+description: 'Bevor Sie Workflows erstellen können, müssen Sie die Benutzer, die daran teilnehmen, auf der Einrichtungsseite für Benutzergenehmigungen einrichten.'
+author: brentholtorf
+ms.topic: how-to
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 'reject, delegate, request'
-ms.search.form: 1533
-ms.date: 09/09/2022
-ms.author: edupont
+ms.search.form: '1533,'
+ms.date: 05/31/2023
+ms.author: bholtorf
 ---
-# Einrichten von Workflowbenutzern
+# Sequenz von Workflow-Benutzern einrichten
 
-Bevor Sie Genehmigungsworkflows erstellen können, müssen Sie die Benutzer einrichten, die an Workflows teilnehmen. Dies ist notwendig, um beispielsweise festzulegen, wer eine Benachrichtigung empfangen soll, um auf einen Workflowschritt zu reagieren.  
+Bevor Sie Genehmigungsworkflows erstellen können, müssen Sie die Benutzer einrichten, die Anforderungen und ihre Genehmiger übermitteln. Beispielsweise können Sie festlegen, wer eine Benachrichtigung empfangen soll, um auf einen Workflowschritt zu reagieren. Sie richten Teilnehmer an Genehmigungsworkflows auf der Seite **Genehmigungsbenutzereinrichtung** ein. Erfahren Sie mehr unter [Genehmigungsbenutzer einrichten](across-how-to-set-up-approval-users.md).
 
-Auf der Seite  **Workflow Benutzergruppen** richten Sie Benutzer unter Workflowbenutzergruppen ein und legen die Nummer des Benutzers in einer Prozessfolge fest, zum Beispiel in einer Genehmigerkette. 
+Sie können auf der Seite **Workflow-Benutzergruppen** angeben, wo ein Teilnehmer an einem Genehmigungsworkflow beteiligt ist, indem Sie im Feld **Sequenznummer** eine Zahl eingeben Feld Sie können beispielsweise festlegen, dass Benutzer in einer sequenziellen Reihenfolge interagieren, beispielsweise in einer Genehmigerkette. Sie können auch eine flache Liste von Genehmigern angeben, indem Sie dieselbe Nummer eingeben. Im letzteren Fall muss nur einer der Genehmiger eine Anforderung genehmigen.
 
-Workflowbenutzer, die als Genehmigungsbenutzer agieren (sowohl Genehmigungsanforderer als auch Genehmiger) müssen auch als Workflowbenutzer auf der Seite **Genehmigungsbenutzuer einrichten** eingerichtet werden. Erfahren Sie mehr unter [Genehmigungsbenutzer einrichten](across-how-to-set-up-approval-users.md).  
+[!INCLUDE [workflow-requestor-approver](includes/workflow-requestor-approver.md)]
 
-> [!NOTE]  
-> Um zu definieren, dass eine Genehmigungsanforderung nicht genehmigt wird bevor mehrere Benutzer diese genehmigt haben, richten Sie Genehmiger in einer Hierarchie ein. Für Genehmigungstypen **Genehmiger** richten Sie auf der Seite **Genehmigungsbenutzereinrichtung** einen Genehmiger ein. Legen Sie für den Genehmigertyp **Workflowbenutzergruppe** die Genehmiger oben im **Workflow-Benutzergruppen**-Fenster fest, und definiert Sie die Hierarchie, indem Sie ansteigende Nummern zu jedem Genehmiger im Feld **Sequenznummer** zuweisen. Feld Erfahren Sie mehr unter [Genehmigungsworkflowbenutzer einrichten](across-how-to-set-up-approval-users.md). 
-
-## So richten Sie Workflowbenutzer ein
+## So richten Sie eine Workflow-Benutzergruppe ein
 
 1. Wählen Sie das Symbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Workflow-Benutzergruppen** ein, und wählen Sie dann den entsprechenden Link.  
 2. Wählen Sie die Aktion **Neu**. Die Seite **Workflow-Genehmigungsgruppe** öffnet sich.  
@@ -32,20 +29,16 @@ Workflowbenutzer, die als Genehmigungsbenutzer agieren (sowohl Genehmigungsanfor
 
    |Feld|Description|
    |-----|-----------|
-   |**Benutzername**|Geben Sie den Benutzer an, der in Workflows einbezogen werden soll.<br /><br /> Der Benutzer muss auf der Seite **Benutzereinrichtung** enthalten sein. Weitere Informationen erhalten Sie unter [Berechtigungen an Benutzer und Gruppen zuweisen](ui-define-granular-permissions.md).|
+   |**Benutzername**|Geben Sie den Benutzer an, der in einem Workflow einbezogen werden soll.<br /><br /> Der Benutzer muss auf der Seite **Benutzereinrichtung** enthalten sein. Weitere Informationen erhalten Sie unter [Berechtigungen an Benutzer und Gruppen zuweisen](ui-define-granular-permissions.md).|
    |**Reihenfolge**|Geben Sie die Reihenfolge an, in der Workflowbenutzer im Verhältnis zu anderen Benutzern in einen Workflow eingebunden werden. Mit diesem Feld können Sie beispielsweise angeben, wann ein Benutzer relativ zu anderen Genehmigern genehmigen kann, indem Sie die Option **Workflow-Benutzergruppe** im Feld **Genehmigungsart** der entsprechenden Workflowreaktion verwenden.| 
 
-   > [!TIP]
-   > Um zu definieren, dass eine Genehmigungsanforderung unabhängig von einer Hierarchie von mehreren gleichen Benutzern genehmigt werden muss, richten Sie eine flache Workflowbenutzergruppe ein, indem Sie allen betreffenden Genehmigern die gleiche laufende Nummer zuweisen.
-
 6. Wiederholen Sie Schritt 5, um weitere Workflowbenutzer zur Workflowbenutzergruppe hinzuzufügen.  
-7. Wiederholen Sie die Schritte 2 bis 6, um weitere Workflowbenutzergruppen hinzuzufügen.  
 
 ## Siehe verwandte [Microsoft Schulungen](/training/modules/create-workflows/)
 
 ## Siehe auch
 
-[Einrichten von Genehmigungsbenutzern](across-how-to-set-up-approval-users.md)  
+[Genehmigungsbenutzer einrichten](across-how-to-set-up-approval-users.md)  
 [Genehmigungsworkflows einrichten](across-set-up-workflows.md)  
 [Artikelgenehmigungsworkflow verwenden](across-use-workflows.md)  
 [Beispielhafte Vorgehensweise: Einrichten und Verwenden eines Workflows zur Genehmigung von Käufen](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
