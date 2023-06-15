@@ -1,5 +1,6 @@
 
-# [Willkommen bei Business Central](index.md)
+# [Business Central-Dokumentation](index.yml)
+# [Willkommen bei Business Central](welcome.md)
 # [Neu und geplant](product-news.md)
 # Erste Schritte
 ## [Überblick über Unternehmensfunktionen](across-business-functionality.md)
@@ -155,8 +156,9 @@
 ### [Word-Vorlagen für die Massenkommunikation verwenden](ui-mail-merge.md)
 ### [Grundlegende Einstellungen ändern](ui-change-basic-settings.md)
 ### [Zu einem anderen Unternehmen oder einer anderen Umgebung wechseln](ui-organization-switch.md)
-### [Manage Notifications](ui-smart-notifications.md)
+### [Benachrichtigungen verwalten](ui-smart-notifications.md)
 ### [Leistungstipps für im geschäftlichen Bereich tätige Personen](/dynamics365/business-central/dev-itpro/performance/performance-users?toc=/dynamics365/business-central/toc.json)
+### [Leistung analysieren](/dynamics365/business-central/dev-itpro/administration/performance-profiler-overview?toc=/dynamics365/business-central/toc.json)
 ### [Warnungen und Fehlermeldungen](product-error-messages.md)
 ### Business Central personalisieren
 #### [Ihren Arbeitsbereich personalisieren](ui-personalization-user.md)
@@ -1844,6 +1846,7 @@
 ### [Verwaltungsaufgaben](admin-setup-and-administration.md)
 ### Zugriff auf Business Central verwalten
 #### [Übersicht](admin-access-overview.md)
+#### [Den Zugriff auf Business Central mithilfe von Sicherheitsgruppen kontrollieren](ui-security-groups.md)
 #### Zugriff mit Microsoft 365-Lizenzen
 ##### [Übersicht](admin-access-with-m365-license.md)
 ##### [Zugriff mit Microsoft 365-Lizenzen einrichten](admin-access-with-m365-license-setup.md)
