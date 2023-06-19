@@ -1,13 +1,13 @@
 ---
 title: Synchronisieren und Transaktionen und Auszahlungen
 description: Legen Sie den Import von Transaktionen und Auszahlungen aus Shopify fest und führen Sie ihn aus.
-ms.date: 05/27/2022
+ms.date: 06/06/2023
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.search.form: '30124, 30125, 30130, 30131, 30132, 30133, 30134,'
-author: edupont04
+author: andreipa
 ms.author: andreipa
-ms.reviewer: solsen
+ms.reviewer: bholtorf
 ---
 
 # Transaktionen und Auszahlungen
@@ -21,6 +21,8 @@ Wenn Sie Shopify Zahlung als Zahlungsanbieter verwenden, dann können Sie neben 
 Die Zahlungstransaktionen, die in Shopify stattfinden, werden mit den Aufträgen synchronisiert und können auf der Seite **Shopify Aufträge** eingesehen werden.
 
 Um alle Transaktionen zu überprüfen, wählen Sie die ![Glühbirne, die die “Wie möchten Sie weiter verfahren“-Funktion 1 öffnet.](../media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") aus, geben Sie **Transaktionen** ein, und wählen Sie den entsprechenden Link aus.
+
+Das Feld **Gebuchte Rechnungsnummern** kann im Abstimmungsprozess hilfreich sein.
 
 Wenn Sie eine Zuordnung von Zahlungsformen konfiguriert haben, wird dem erstellten Beleg ein Zahlungsformen-Code zugewiesen. Erfahren Sie mehr unter [Zuordnung von Zahlungsmethoden](#payment-method-mapping).
 

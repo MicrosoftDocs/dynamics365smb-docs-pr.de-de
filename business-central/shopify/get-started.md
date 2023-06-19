@@ -58,9 +58,9 @@ Wiederholen Sie die Schritte 2–6 für alle Onlineshops, die Sie verbinden möc
 
 ### Bekannte Probleme
 
-- Der Browser blockiert das Popup-Fenster. Wenn Sie den Schalter **Aktiviert** aktivieren, öffnet das System die Seite [!INCLUDE [prod_short](../includes/prod_short.md)]**Warte auf Antwort - diese Seite nicht schließen**, die auf einen Zugriffstoken von Shopify wartet. Wenn diese Seite geschlossen oder blockiert ist, können Sie keine Verbindung zu Shopify herstellen. Erfahren Sie mehr unter [Anforderung des Zugriffstokens](troubleshoot.md#request-the-access-token)
+- Der Browser blockiert das Popup-Fenster. Wenn Sie den Schalter **Aktiviert** aktivieren, öffnet [!INCLUDE [prod_short](../includes/prod_short.md)] die Seite **Warte auf Antwort - diese Seite nicht schließen**, die auf einen Zugriffstoken von Shopify wartet. Wenn diese Seite geschlossen oder blockiert ist, können Sie keine Verbindung zu Shopify herstellen. Erfahren Sie mehr unter [Anforderung des Zugriffstokens](troubleshoot.md#request-the-access-token)
 - [Fehler: Oauth Fehler invalid_request: Konnte Shopify API-Anwendung mit api_key nicht finden](troubleshoot.md#error-oauth-error-invalid_request-could-not-find-shopify-api-application-with-api_key)
-- [Kann keine Verbindung von der Sandbox aus herstellen](troubleshoot.md#verify-and-enable-permissions-to-make-http-requests-when-running-in-a-non-production-environment)
+- [Kann keine Verbindung von der Sandbox aus herstellen](troubleshoot.md#verify-and-enable-permissions-to-make-http-requests-in-a-non-production-environment)
 
 ## Nächste Schritte
 
@@ -96,7 +96,11 @@ Wenn Sie diese Konfiguration verwenden müssen, empfehlen wir Ihnen, die folgend
 * **Shopify kann Kunden aktualisieren**, um bestehende Kunden nicht zu aktualisieren
 * **Verkaufsauftrag automatisch erstellen**, um keine Verkaufsaufträge und Ausgangsrechnungen zu erstellen
 
+Weitere Informationen finden Sie unter [Wiederherstellen einer Umgebung](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-backup-restore).
+
 ### Shopify Produktion und Business Central-Sandbox
+
+Es ist vielleicht eine gute Idee, Ihre Daten zu sichern. Exportieren Sie beispielsweise Ihre Produkte und Kunden. Weitere Informationen finden Sie unter [CSV-Dateien zum Sichern von Shopinformationen verwenden](https://help.shopify.com/en/manual/shopify-admin/duplicate-store#using-csv-files-to-back-up-store-information).
 
 Deaktivieren Sie den Schalter **Datensynchronisierung zulassen auf Shopify**, sodass [!INCLUDE[prod_short](../includes/prod_short.md)] nicht auf Shopify schreibt. In diesem Fall können Sie Produkte, Bilder, Kunden und Bestellungen aus Shopify importieren. Sie können jedoch keine Artikel, Preise, Lagerbestände, Kunden und Erfüllungsinformationen an Shopify senden.
 

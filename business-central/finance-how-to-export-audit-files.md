@@ -11,7 +11,7 @@ ms.search.keywords: 'audit, export, SIE, SAF-T, FAC, GDPdU, file export'
 ms.search.form: '5260, 5261, 5264, 5266, 5267, 5270'
 ms.date: 04/04/2023
 ms.author: altotovi
-ms.reviewer: null
+ms.reviewer: kfend
 ---
 
 # Export der Protokolldatei
@@ -50,7 +50,7 @@ Für die meisten von Behörden angeforderten Formate für Sachkonten ist ein bes
 
 Gehen Sie wie folgt vor, um die Sachkontenzuordnung für den Prüfdateiexport anzugeben.
 
-1. Wählen Sie die Suchschaltfläche ![Lupenschaltfläche aus, welche das „Sie wünschen ...“-Feature öffnet](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten"), geben Sie **Sachkontozuordnung** ein und wählen Sie dann den entsprechenden Link aus.
+1. Wählen Sie die Suchschaltfläche ![Lupenschaltfläche aus, welche das „Sie wünschen ...“-Feature öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Sachkontozuordnung** ein und wählen Sie dann den entsprechenden Link aus.
 2. Wählen Sie auf der Seite **Sachkontozuordnung** **Neu**, um eine Zuordnung zu erstellen.
 3. Geben Sie im Feld **Code** den Zuordnungscode an, der für den Berichtszeitraum steht.
 4. Wählen Sie im Feld **Standardkontotyp** den Typ des Standardsachkontos aus.
@@ -98,10 +98,9 @@ Gehen Sie wie folgt vor, um die Sachkontenzuordnung für den Prüfdateiexport an
 > Wenn Sie mehrere Einträge exportieren möchten, empfehlen wir, diese aufgrund möglicher Leistungsprobleme nicht in der aktuellen Sitzung zu exportieren. Sie sollten die Parallelverarbeitung stattdessen an arbeitsfreien Tagen oder Stunden verwenden.
 
 ## Siehe auch
-
 [Finanzmanagement](finance.md)  
 [Das Hauptbuch und den Kontenplan verstehen](finance-general-ledger.md)  
 [Arbeiten mit Dimensionen](finance-dimensions.md)  
-[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbeiten mit Business Central](ui-work-product.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

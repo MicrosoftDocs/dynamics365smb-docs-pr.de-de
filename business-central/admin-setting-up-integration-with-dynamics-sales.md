@@ -16,12 +16,12 @@ Dieser Artikel bietet eine Übersicht darüber, wie die Benutzerkonten eingerich
 
 ## Das Administrator-Benutzerkonto festlegen
 
-Sie müssen Ihr Administrator-Benutzerkonto für [!INCLUDE[prod_short](includes/prod_short.md)] als Benutzer in [!INCLUDE[cds_long](includes/cds_long_md.md)] hinzufügen. Wenn Sie die Verbindung zwischen [!INCLUDE[prod_short](includes/prod_short.md)] und [!INCLUDE[prod_short](includes/cds_long_md.md)] festlegen, werden wir dieses Konto einmalig für die Installation und Konfiguration einiger erforderlicher Komponenten verwenden.
+Um die Verbindung zwischen [!INCLUDE[prod_short](includes/prod_short.md)] und [!INCLUDE[prod_short](includes/cds_long_md.md)] einzurichten, müssen Sie sich bei [!INCLUDE[prod_short](includes/prod_short.md)] mit einem Benutzerkonto anmelden, das der [!INCLUDE[prod_short](includes/prod_short.md)] Essential- oder [!INCLUDE[prod_short](includes/prod_short.md)] Premium-Lizenz zugeordnet ist. Wir werden dieses Konto einmal verwenden, um einige erforderliche Komponenten zu installieren und zu konfigurieren.
 
 > [!IMPORTANT]
-> Das Administrator-Benutzerkonto muss ein lizenzierter Benutzer mit der Sicherheitsrolle **Systemadministrator** in der Umgebung [!INCLUDE[prod_short](includes/cds_long_md.md)] und Globaler Administrator in dem Mandant sein, zu dem die Umgebung gehört. Dieses Konto benötigt keine Lizenz für [!INCLUDE[prod_short](includes/prod_short.md)], da es nur für die Bereitstellung des Dienstes im Mandant [!INCLUDE[prod_short](includes/cds_long_md.md)] und für Einrichtungsaufgaben verwendet wird.
+> Während der Einrichtung werden Sie aufgefordert, Anmeldeinformationen für die [!INCLUDE[prod_short](includes/cds_long_md.md)] Umgebung anzugeben. Geben Sie die Anmeldeinformationen für ein Konto an, bei dem es sich um einen lizenzierten Benutzenden handelt und das der Sicherheitsrolle **Systemadministrator** in der [!INCLUDE[prod_short](includes/cds_long_md.md)] Umgebung und globaler Administrierender in dem Mandant zugeordnet ist, zu dem die Umgebung gehört. Dieses Konto benötigt keine Lizenz für [!INCLUDE[prod_short](includes/prod_short.md)], da es nur für die Einrichtung von Aufgaben in der [!INCLUDE[prod_short](includes/cds_long_md.md)] Umgebung verwendet wird.
 >
-> Nachdem die Einrichtung der Verbindung abgeschlossen ist, kann dieser [!INCLUDE[prod_short](includes/cds_long_md.md)]-Benutzer entfernt werden. Die Integration wird mit dem Benutzerkonto fortgesetzt, das automatisch speziell für die Integration erstellt wird.
+> Nachdem die Einrichtung der Verbindung abgeschlossen ist, können Sie diesen [!INCLUDE[prod_short](includes/cds_long_md.md)]-Benutzenden entfernen. Die Integration wird mit dem Benutzerkonto fortgesetzt, das automatisch speziell für die Integration erstellt wird.
 
 ## Berechtigungen und Sicherheitsrollen für Benutzerkonten in [!INCLUDE[prod_short](includes/cds_long_md.md)]
 

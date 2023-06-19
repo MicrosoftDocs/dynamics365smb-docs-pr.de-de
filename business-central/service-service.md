@@ -39,7 +39,7 @@ Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Themen,
 ## Siehe auch  
 [Debitoren verwalten](receivables-manage-receivables.md)   
 [Projekte](projects-how-create-jobs.md)   
-[Willkommen bei [!INCLUDE[prod_long](includes/prod_long.md)]](index.md)
+[Willkommen bei [!INCLUDE[prod_long](includes/prod_long.md)]](welcome.md)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

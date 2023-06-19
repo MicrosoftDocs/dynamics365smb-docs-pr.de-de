@@ -78,7 +78,7 @@ Der Abschnitt **Suchen** umfasst zwei Links zur Produkthilfe:
 
 - Hilfe über die Seite, die Sie soeben in [!INCLUDE[prod_short](includes/prod_short.md)] angezeigt haben  
 
-  Dieser Link wird automatisch generiert. Wenn [!INCLUDE[prod_short](includes/prod_short.md)] den entsprechenden Link nicht finden kann, wird die [Produktseite auf Microsoft Learn](index.md) als Standardversion von [!INCLUDE[prod_short](includes/prod_short.md)] angezeigt. Zum Beispiel, wenn die Seite Teil einer App war, der keine kontextsensitive Hilfe hinzugefügt wurde, die [!INCLUDE[prod_short](includes/prod_short.md)] zugeordnet ist, leitet der *Lernlink* standardmäßig zur Zielseite weiter.  
+  Dieser Link wird automatisch generiert. Wenn [!INCLUDE[prod_short](includes/prod_short.md)] den entsprechenden Link nicht finden kann, wird die [Produktseite auf Microsoft Learn](index.yml) als Standardversion von [!INCLUDE[prod_short](includes/prod_short.md)] angezeigt. Zum Beispiel, wenn die Seite Teil einer App war, der keine kontextsensitive Hilfe hinzugefügt wurde, die [!INCLUDE[prod_short](includes/prod_short.md)] zugeordnet ist, leitet der *Lernlink* standardmäßig zur Zielseite weiter.  
   
 - Hilfeproduktseite für [!INCLUDE[prod_short](includes/prod_short.md)]  
 
@@ -152,9 +152,9 @@ Um Ihren Partner auf ein Problem aufmerksam zu machen, wählen Sie den Link, um 
 
 ## Weitere Informationen finden Sie in der Produktdokumentation
 
-Die Basisversion von [!INCLUDE [prod_short](includes/prod_short.md)] wird von einer großen Community von Partnern erweitert und angepasst. Jeder Partner und viele Kunden stellen ihre eigene Hilfe auf ihrer eigenen Website bereit. In der [Dynamics 365 Business Central-Dokumentation](index.md) können Sie immer mehr erfahren. Auf der Website werden verschiedene Arten von Inhalten gehostet, z. B. die folgenden:
+Die Basisversion von [!INCLUDE [prod_short](includes/prod_short.md)] wird von einer großen Community von Partnern erweitert und angepasst. Jeder Partner und viele Kunden stellen ihre eigene Hilfe auf ihrer eigenen Website bereit. In der [Dynamics 365 Business Central-Dokumentation](index.yml) können Sie immer mehr erfahren. Auf der Website werden verschiedene Arten von Inhalten gehostet, z. B. die folgenden:
 
-- [Konzeptionelle Inhalte zu Geschäftsfunktionen](index.md)  
+- [Konzeptionelle Inhalte zu Geschäftsfunktionen](welcome.md)  
 - [Dokumentation für Entwickler](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview)  
 - [Kostenlose Lernpfade und E-Learning-Module über mehrere Benutzerprofile](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 
@@ -164,7 +164,7 @@ In diesem Abschnitt erfahren Sie, wie Sie in Inhalten zu Geschäftsfunktionen na
 
 ### Inhalt auf der Website
 
-[Dieser Abschnitt](index.md) von Microsoft Learn hostet Inhalte von Microsoft, die die Säule *Mehr erfahren* im Benutzerhilfemodell repräsentieren. Zum Teil beabsichtigt der Inhalt *Mehr erfahren*, die Fragen zu beantworten, die die Benutzeroberfläche nicht beantworten kann, z. B. die folgenden:
+[Dieser Abschnitt](welcome.md) von Microsoft Learn hostet Inhalte von Microsoft, die die Säule *Mehr erfahren* im Benutzerhilfemodell repräsentieren. Zum Teil beabsichtigt der Inhalt *Mehr erfahren*, die Fragen zu beantworten, die die Benutzeroberfläche nicht beantworten kann, z. B. die folgenden:
 
 - Wo passt diese Seite in den größeren Workflow?  
 - Was kommt als Nächstes?  

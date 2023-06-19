@@ -118,7 +118,7 @@ Sie können auch Ihren eigenen Vorhersage-Webdienst auf der Grundlage eines öff
 
 [Azure Machine Learning Studio-Dokumentation](/azure/machine-learning/classic/)  
 [Anpassen von Business Central über Erweiterungen](ui-extensions.md)  
-[Willkommen bei [!INCLUDE[prod_long](includes/prod_long.md)]](index.md)  
+[Willkommen bei [!INCLUDE[prod_long](includes/prod_long.md)]](welcome.md)  
 [Nutzen Sie künstliche Intelligenz in Microsoft Dynamics 365 Business Central](/training/paths/use-artificial-intelligence/)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

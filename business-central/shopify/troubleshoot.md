@@ -64,7 +64,7 @@ Diese Funktion gilt nur für Synchronisierungen von Shopify auf [!INCLUDE[prod_s
 
 ## Fordern Sie das Access-Token an
 
-Wenn [!INCLUDE[prod_short](../includes/prod_short.md)] keine Verbindung zu Ihrem Shopify-Konto herstellen kann, versuchen Sie, den Zugriffs-Token von Shopify anzufordern. Möglicherweise benötigen Sie das Token, wenn Änderungen an den Sicherheitsschlüsseln oder erforderlichen Berechtigungen (Bereichen) vorgenommen wurden.
+Wenn [!INCLUDE[prod_short](../includes/prod_short.md)] keine Verbindung zu Ihrem Shopify-Konto herstellen kann, versuchen Sie, den Zugriffs-Token von Shopify anzufordern. Möglicherweise müssen Sie ein neues Token beantragen, wenn Änderungen an den Sicherheitsschlüsseln oder erforderlichen Berechtigungen (Anwendungsbereichen) vorgenommen wurden.
 
 1. Wählen Sie die ![Glühbirne, die die “Wie möchten Sie weiter verfahren“-Funktion 1.](../media/ui-search/search_small.png "Was möchten Sie tun?") öffnet. , geben Sie **Shopify-Shops** ein, und wählen Sie den entsprechenden Link aus.
 2. Wählen Sie den Shop aus, für den Sie den Zugriffstoken abrufen möchten, um die Seite **Shopify-Shop-Karte** zu öffnen.
@@ -73,7 +73,7 @@ Wenn [!INCLUDE[prod_short](../includes/prod_short.md)] keine Verbindung zu Ihrem
 
 Der Schalter **Hat AccessKey** wird aktiviert.
 
-### Überprüfen und aktivieren Sie die Berechtigungen für HTTP-Anfragen in einer nicht produktiven Umgebung
+## Überprüfen und aktivieren Sie die Berechtigungen für HTTP-Anfragen in einer nicht produktiven Umgebung
 
 Damit die Shopify Connector-Erweiterung korrekt funktioniert, benötigt sie die Berechtigung, HTTP-Anfragen zu stellen. Beim Testen in Sandboxen sind die HTTP-Anforderungen für alle Erweiterungen verboten.
 
@@ -125,7 +125,7 @@ Denken Sie daran, die AL-Aufruflisten-Informationen mit dem Anbieter der Nebenst
 
 ### Fehler: Gen. Die Geschäftsbuchungsgruppe muss einen Wert in Debitor haben: „IHR SHOPIFY-GESCHÄFT“. Sie darf nicht leer sein
 
-Füllen Sie das Feld **Kundenvorlagencode** im Fenster **Shopify Shop-Karte** mit der Vorlage aus, in der **Geschäftsbuchungsgruppe** ausgefüllt ist. Die Debitorenvorlage wird zum Anlegen von Debitoren und zum Berechnen von Verkaufspreisen auf Verkaufsbelegen verwendet.
+Wählen Sie im Feld **Debitorenvorlagencode** im Fenster **Shopify Shop-Karte** die Vorlage aus, in der **Geschäftsbuchungsgruppe** ausgefüllt ist. Die Debitorenvorlage wird zum Anlegen von Debitoren und zum Berechnen von Verkaufspreisen auf Verkaufsbelegen verwendet.
 
 ### Fehler: Importieren von Daten in Ihren Shopify Shop ist nicht aktiviert. Gehen Sie zur Shop-Karte, um sie zu aktivieren
 
@@ -134,6 +134,10 @@ Aktivieren Sie die Seite **Shopify Shop-Karte** **Datensynchronisierung mit Shop
 ### Fehler: Oauth Fehler invalid_request: Konnte Shopify API-Anwendung mit api_key nicht finden
 
 Es scheint, dass Sie die [Embed App](/dynamics365/business-central/dev-itpro/deployment/embed-app-overview) verwenden, bei der die Client URL das Format hat: `https://[application name].bc.dynamics.com`. Der Konnektor Shopify funktioniert nicht für Embed Apps. Um mehr zu erfahren, gehen Sie zu [Für welche Microsoft-Produkte ist der Shopify Connector verfügbar?](shopify-faq.md#which-microsoft-products-are-the-shopify-connector-available-for).
+
+### Fehler: Interner Fehler. Anscheinend ist auf Ihrer Seite ein Fehler aufgetreten. Anforderungs-ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXX
+
+Bitte wenden Sie sich innerhalb von 7 Tagen nach Auftreten dieses Fehlers an den Shopify-Support und geben Sie die Anforderungs-ID an. Weitere Informationen finden Sie unter [Supportmöglichkeiten für Shopify](shopify-faq.md#shopify).
 
 ## Siehe auch
 

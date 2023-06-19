@@ -1,13 +1,13 @@
 ---
 title: Verkaufsaufträge synchronisieren und erfüllen
 description: Nehmen Sie die Einrichtung und Ausführung des Imports under der Verarbeitung von Verkaufsaufträgen über Shopify vor.
-ms.date: 05/27/2022
+ms.date: 06/06/2023
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.search.form: '30110, 30111, 30112, 30113, 30114, 30115, 30121, 30122, 30123, 30128, 30129,'
-author: edupont04
+author: andreipa
 ms.author: andreipa
-ms.reviewer: solsen
+ms.reviewer: bholtorf
 ---
 
 # Verkaufsaufträge synchronisieren und erfüllen
@@ -32,7 +32,20 @@ Wenn Sie einen Verkaufsbeleg automatisch freigeben möchten, aktivieren Sie die 
 
 Der Verkaufsbeleg in [!INCLUDE[prod_short](../includes/prod_short.md)] stellt eine Verknüpfung zu der Shopify-Reihenfolge her, und Sie können ein Feld hinzufügen, das noch nicht auf der Seite angezeigt wird. Um mehr über das Hinzufügen eines Felds zu erfahren, gehen Sie zu [Um mit der Personalisierung einer Seite über das Banner **Personalisierung** zu beginnen](../ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner). Wenn Sie das Feld **Shopify-Auftragsnummer in Belegzeile** auswählen, werden diese Informationen in den Verkaufszeilen vom Typ **Kommentar** wiederholt.
 
-Im Feld **Steuergebietsquelle** können Sie die Priorität für die Auswahl des Steuergebietscodes oder der MwSt.-Geschäftsbuchungsgruppe basierend auf der Adresse festlegen. Die importierte Shopify Bestellung enthält Informationen zu Steuern, aber die Steuern werden neu berechnet, wenn Sie den Verkaufsbeleg erstellen, daher ist es wichtig, dass die Mehrwertsteuer-/Steuereinstellungen korrekt sind [!INCLUDE[prod_short](../includes/prod_short.md)]. Weitere Informationen über Steuern finden Sie unter [Steuern für die Shopify-Verbindung festlegen](setup-taxes.md).
+Im Feld **Steuergebiet Priorität** können Sie die Priorität für die Auswahl des Steuergebietscodes auf Adressen in Aufträgen festlegen. Der importierte Shopify Auftrag enthält Informationen zu Steuern. Die Steuern werden neu berechnet, wenn Sie den Verkaufsbeleg erstellen. Daher ist es wichtig, dass die MwSt.-/Steuereinstellungen in [!INCLUDE[prod_short](../includes/prod_short.md)] korrekt sind. Weitere Informationen über Steuern finden Sie unter [Steuern für die Shopify-Verbindung festlegen](setup-taxes.md).
+
+Geben Sie an, wie Sie Rückgaben und Rückerstattungen bearbeiten:
+
+* **Leer** bedeutet, dass Sie keine Rückgaben und Rückerstattungen importieren und verarbeiten.
+* **Nur importieren** bedeutet, dass Sie Informationen importieren, die entsprechende Gutschrift jedoch manuell erstellen.
+* **Gutschrift automatisch erstellen** bedeutet, dass Sie Informationen importieren und [!INCLUDE[prod_short](../includes/prod_short.md)] die Gutschriften automatisch erstellt. Für diese Option müssen Sie den Umschalter **Verkaufsauftrag automatisch erstellen** aktivieren.
+
+Geben Sie einen Lagerort für Rückgaben und Sachkonten für Rückerstattungen für Waren und andere Rückerstattungen an.
+
+* **Erstattungskonto nicht wieder eingelagerter Artikel**: Gibt eine Sachkontonummer für Artikel an, für die keine Lagerkorrektur durchgeführt werden soll.
+* **Erstattungskonto**: Gibt ein Sachkonto für die Differenz zwischen dem Gesamtbetrag der Rückerstattung und dem Gesamtbetrag der Artikel an.
+
+Weitere Informationen finden Sie unter [Rückgaben und Rückerstattungen](synchronize-orders.md#returns-and-refunds)
 
 ### Zuordnung von Versandmethoden
 
@@ -75,7 +88,7 @@ Nachfolgend wird beschrieben, wie Sie die Verkaufsaufträge importieren und aktu
 5. Definieren Sie bei Bedarf Filter für Bestellungen. Sie können z.B. vollständig bezahlte Aufträge oder solche mit einem niedrigen Risikoniveau importieren.
 
 > [!NOTE]  
-> Beim Filtern nach Tag sollten Sie die Filtertoken `@` und `*` verwenden. Wenn Sie beispielsweise Bestellungen importieren möchten, die *tag1* enthalten, verwenden Sie `@*tag1*`. `@` stellt sicher, dass das Ergebnis die Groß-/Kleinschreibung berücksichtigt, während `*` Aufträge mit mehreren Tags findet.
+> Beim Filtern nach Tag sollten Sie die Filtertoken `@` und `*` verwenden. Wenn Sie beispielsweise Bestellungen importieren möchten, die *tag1* enthalten, verwenden Sie `@*tag1*`. `@` stellt sicher, dass das Ergebnis die Groß- und Kleinschreibung berücksichtigt, während `*` Aufträge mit mehreren Tags findet.
 
 6. Wählen Sie die Schaltfläche **OK**.
 
@@ -118,7 +131,7 @@ Wenn Ihre Einstellungen die automatische Erstellung eines Debitors verhindern un
 
 Die Funktion *Bestellung aus Shopify importieren* versucht, die Debitoren in der folgenden Reihenfolge auszuwählen:
 
-1. Wenn das Feld **Standarddebitorennr.** Feld in der **Shopify Kundenvorlage** für das entsprechende Land definiert ist, dann wird die **Standardkunden-Nr.** wird verwendet, unabhängig von den Einstellungen in den Feldern **Kundenimport von Shopify** und **Kundenzuordnungstyp**. Weitere Informationen unter [Debitorenvorlage pro Land](synchronize-customers.md#customer-template-per-country).
+1. Wenn das Feld **Standarddebitorennr.** in der **Shopify Debitorenvorlage** für **Lieferung an Länder-/Regionscode** definiert ist, dann wird die **Standarddebitorennr.** verwendet, unabhängig von den Einstellungen in den Feldern **Kundenimport von Shopify** und **Kundenzuordnungstyp**. Weitere Informationen unter [Debitorenvorlage pro Land](synchronize-customers.md#customer-template-per-country).
 2. Wenn der **Kundenimport von Shopify** auf *Keine* festgelegt ist und die **Standardkunden-Nr.** auf der Seite **Shopify-Shop-Karte** definiert sind, wird die **Standarddebitorennr.** verwendet.
 
 Die nächsten Schritte hängen von der **Kundenzuordnung Typ** ab.
@@ -129,6 +142,27 @@ Die nächsten Schritte hängen von der **Kundenzuordnung Typ** ab.
 
 > [!NOTE]  
 > Der Konnektor verwendet die Informationen aus der Rechnungsadresse und erstellt den Rechnungsempfänger in [!INCLUDE[prod_short](../includes/prod_short.md)]. Der Verk. an Debitor ist derselbe wie Rechnung an Debitor.
+
+### Unterschiedliche Bearbeitungsregeln für Aufträge
+
+Möglicherweise möchten Sie Aufträge anhand einer Regel anders verarbeiten. Beispielsweise sollte bei Aufträgen über einen bestimmten Vertriebskanal wie POS der Standarddebitor verwendet werden, Sie möchten jedoch, dass Ihr Onlineshop über echte Informationen über den Debitor verfügt.
+
+Eine Möglichkeit, dieser Anforderung gerecht zu werden, besteht darin, eine zusätzliche Shopify Shop-Karte zu erstellen und Filter auf der Anfrageseite **Aufträge von Shopify synchronisieren** zu verwenden.
+
+Beispiel: Sie haben einen Onlineshop und einen Shopify POS. Für Ihren POS möchten Sie einen festen Debitor verwenden, für Ihren Onlineshop möchten Sie jedoch Debitoren in [!INCLUDE[prod_short](../includes/prod_short.md)] erstellen. Das folgende Verfahren listet die allgemeinen Schritte auf. Weitere Informationen finden Sie in den entsprechenden Hilfeartikeln.
+
+1. Erstellen Sie einen Shopify Shop mit dem Namen *STORE* und verknüpfen Sie ihn mit Ihrem Shopify Konto.
+2. Konfigurieren Sie die Artikel-/Produktsynchronisierung, sodass dieser Shop Produktinformationen verwaltet.
+3. Geben Sie an, dass Debitoren mit Aufträgen importiert werden. Der Connector soll Debitoren finden, indem er nach deren E-Mail-Adresse sucht. Wenn keine Adresse gefunden wird, wird mithilfe der Debitorenvorlage ein neuer Debitor erstellt.
+4. Erstellen Sie einen Shopify Shop mit dem Namen *POS* und verknüpfen Sie ihn mit demselben Shopify Konto.
+6. Stellen Sie sicher, dass die Artikel-/Produktsynchronisierung deaktiviert ist.
+7. Wählen Sie den Connector aus, der den Standarddebitor verwendet.
+8. Erstellen Sie einen wiederkehrenden Auftragswarteschlangeneintrag für Bericht 30104 **Aufträge von Shopify synchronisieren**. Wählen Sie **STORE** im Feld **Shopify Shop-Code** aus und verwenden Sie Filter, um alle Aufträge außer denen zu erfassen, die der POS-Vertriebskanal erstellt. Zum Beispiel: **<>Verkaufsstelle**
+9. Erstellen Sie einen wiederkehrenden Auftragswarteschlangeneintrag für den Bericht 30104 **Aufträge von Shopify synchronisieren**. Wählen Sie **POS** im Feld **Shopify Shop-Code** aus und verwenden Sie Filter, um Aufträge zu erfassen, die vom POS-Vertriebskanal generiert wurden. Zum Beispiel: **<>Verkaufsstelle**.
+
+Jede Auftragswarteschlange importiert und verarbeitet Aufträge innerhalb der definierten Filter und verwendet die Regeln der entsprechenden Shopify Shop-Karte. Sie erstellen beispielsweise Verkaufsstellenaufträge für den Standarddebitor.
+
+>![Wichtig] Um Konflikte bei der Bearbeitung von Aufträgen zu vermeiden, denken Sie daran, für beide Auftragswarteschlangeneinträge dieselbe Auftragswarteschlangenkategorie zu verwenden.
 
 ### Auswirkung der Bearbeitung von Bestellungen
 
@@ -184,6 +218,27 @@ Die verfolgende Firma wird auf der Grundlage des Datensatzes des Zustellers mit 
 * **Code**
 
 Wenn das Feld **Paketverfolgungs-URL** für den Datensatz des Zustellers ausgefüllt ist, dann enthält die Versandbestätigung ebenfalls eine Verfolgungs-URL.
+
+## Rückgaben und Rückerstattungen
+
+Bei einer Integration zwischen Shopify und [!INCLUDE[prod_short](../includes/prod_short.md)] ist es wichtig, möglichst viele Geschäftsdaten synchronisieren zu können. Dadurch ist es einfacher, Ihre Finanzen und Lagerebenen in [!INCLUDE[prod_short](../includes/prod_short.md)] auf dem neuesten Stand zu halten. Zu den Daten, die Sie synchronisieren können, gehören Rückgaben und Rückerstattungen, die im Shopify Administrator oder Shopify POS erfasst wurden.
+
+Rückgaben und Rückerstattungen werden mit den zugehörigen Auftägen importiert, wenn Sie den Verarbeitungstyp auf der Shopify Shop-Karte aktiviert haben.
+
+Rückgaben werden nur zu Informationszwecken importiert. Ihnen ist keine Verarbeitungslogik zugeordnet.
+
+Finanz- und gegebenenfalls Lagerbuchungen werden über Rückerstattungen abgewickelt. Rückerstattungen können sich auf Produkte oder nur auf Beträge beziehen, beispielsweise wenn sich ein Händler entschieden hat, Versandkosten oder einen anderen Betrag zu erstatten.
+Sie können Verkaufsgutschriften für Rückerstattungen erstellen. Die Gutschriften können folgende Zeilentypen haben:
+
+|Typ|Anz.|Kommentar|
+|-|-|-|
+|Sachkonto|Konto für verkaufte Geschenkkarte| Für Rückerstattungen im Zusammenhang mit Geschenkkarten verwenden.|
+|Sachkonto|Erstattungskonto nicht eingelagert | Für Rückerstattungen im Zusammenhang mit Produkten verwenden, die nicht wieder eingelagert wurden. |
+|Option |Artikelnummer| Für Rückerstattungen im Zusammenhang mit Produkten verwenden, die wieder eingelagert wurden. Gültig für direkte Rückerstattungen oder für mit Rückerstattungen verbundene Rückerstattungen. Der Lagerortcode für die Gutschrift-Zeile wird basierend auf dem für den Rückgabelagerort ausgewählten Wert festgelegt.|
+|Sachkonto| Erstattungskonto | Für andere Rückerstattungsbeträge verwenden, die nichts mit Produkten oder Geschenkkarten zu tun haben. Zum Beispiel Trinkgelder oder wenn Sie in Shopify manuell einen zu erstattenden Betrag angegeben haben. |
+
+>[!Note]
+>Der unter **Shopify Shop-Karte** festgelegte Rückgabelagerort, einschließlich leerer Lagerorte, wird auf der erstellten Gutschrift verwendet. Das System ignoriert die ursprünglichen Lagerorte aus Aufträgen oder Lieferungen.
 
 ## Geschenkkarten
 

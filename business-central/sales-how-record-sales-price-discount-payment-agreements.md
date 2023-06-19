@@ -1,16 +1,14 @@
 ---
 title: Spezielle Verkaufspreise und Rabatte aufzeichnen
 description: 'Beschreibt, wie Sie Preis- und Rabattvereinbarungen für Verkaufsbelege definieren.'
-author: bholtorf
-ms.service: dynamics365-business-central
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: ivkoleti
+ms.topic: how-to
+ms.date: 06/13/2023
+ms.custom: bap-template
 ms.search.keywords: 'special price, alternate price, pricing'
 ms.search.form: '7022, 7024'
-ms.date: 06/03/2022
-ms.author: bholtorf
 ---
 
 # Spezielle Verkaufspreise und Rabatte aufzeichnen
@@ -22,7 +20,11 @@ ms.author: bholtorf
 
 * Ein-Preis-für-alle-Modelle, bei denen ein Artikel immer zum gleichen Preis verkauft wird.
 * Besondere Preisvereinbarungen mit bestimmten Kunden oder Kundengruppen.
-* Kampagnen, wenn ein Verkauf die Kriterien für ein Sonderangebot erfüllt. Kriterien können beispielsweise sein, wenn eine Bestellung eine Mindestmenge erfüllt, vor einem bestimmten Datum liegt oder eine bestimmte Art von Artikel enthält.  
+* Kampagnen, wenn ein Verkauf die Kriterien für ein Sonderangebot erfüllt. Beispielsweise könnten Sie die folgenden Kriterien für einen Auftrag haben:
+
+  * Er erfüllt eine Mindestmenge
+  * Er ist vor einem bestimmten Datum
+  * Er enthält eine bestimmte Art von Artikel  
 
 Um ein einfaches Preismodell zu verwenden, müssen Sie nur einen Stückpreis angeben, wenn Sie einen Artikel oder eine Ressource einrichten. Dieser Preis wird immer für Verkaufsbelege verwendet. Für fortgeschrittenere Modelle, z. B. wenn Sie Sonderpreise für eine Verkaufskampagne anbieten möchten, können Sie auf der Seite **Verkaufspreise** Kriterien angeben. Sie können Sonderpreise auf der Grundlage einer Kombination der folgenden Informationen anbieten:  
 
@@ -32,13 +34,13 @@ Um ein einfaches Preismodell zu verwenden, müssen Sie nur einen Stückpreis ang
 * Mindestmenge
 * Daten, die den Zeitraum definieren, für den die Preise gültig sind.
 
-Nachdem Sie Sonderpreise eingerichtet haben, kann [!INCLUDE[prod_short](includes/prod_short.md)] den besten Preis für Verkaufs- und Einkaufsbelege sowie für Auftrags- und Artikelerfassungszeilen berechnen. Erfahren Sie mehr unter [Bestpreisberechnung](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
+Nachdem Sie Sonderpreise eingerichtet haben, kann [!INCLUDE[prod_short](includes/prod_short.md)] den besten Preis für Verkaufs- und Einkaufsbelege sowie für Zeilen in der Auftrags- und Artikelerfassung berechnen. Erfahren Sie mehr unter [Bestpreisberechnung](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
 
 Für Verkaufsrabatte können Sie zwei Arten einrichten:
 
-| Rabattart | Beschreibung |
+| Rabatttyp | Description |
 | --- | --- |
-| **Verkaufszeilenrabatt** |Ein Betrag, der in Verkaufszeilen eingefügt wird, wenn sie eine bestimmte Kombination aus Kunde, Artikel, Mindestmenge, Mengeneinheit oder Anfangs-/Enddatum enthalten. Dieser Typ gilt auf gleiche Weise für Verkaufsbelege. |
+| **Verkaufszeilenrabatt** |Fügt einen Betrag auf den Verkaufszeilen hinzu, die eine bestimmte Kombination aus Debitor, Artikel, Mindestmenge, Einheit oder des Start- und Enddatum haben. Dieser Typ gilt auf gleiche Weise für Verkaufsbelege. |
 | **Rechnungsrabatt** |Ein Rabattprozentsatz, der von der Gesamtsumme des Verkaufsbelegs abgezogen wird, wenn die Summe aller Zeilen des Belegs einen bestimmten Mindestwert übersteigt. |
 
 > [!TIP]  
@@ -85,22 +87,22 @@ Wenn Sie das Funktionsupdate **Neue Verkaufspreis-Erfahrung** auf der Seite **Fu
 
 * Wenn Sie mit allen Preisen auf einer einzigen Seite arbeiten möchten, aktivieren Sie sie. Bestehende Preise werden in eine Standardpreisliste für jedes der folgenden Dokumente umgewandelt:
 
-    * Verkauf
-    * Einkauf
-    * Projektumsätze
-    * Projekteinkäufe
+  * Verkauf
+  * Einkauf
+  * Projektumsätze
+  * Projekteinkäufe
 
-    Sie können alle Preise für diese Bereiche auf der Seite **Preise Arbeitsblatt** bearbeiten. Die Standardpreislisten werden auf den Seiten **Einrichtung von Verkäufen und Forderungen**, **Einrichtung von Käufen und Verbindlichkeiten** und **Projekteinrichtung** festgelegt. 
+  Sie können alle Preise für diese Bereiche auf der Seite **Preise Arbeitsblatt** bearbeiten. Die Standardpreislisten werden auf den Seiten **Einrichtung von Verkäufen und Forderungen**, **Einrichtung von Käufen und Verbindlichkeiten** und **Projekteinrichtung** festgelegt.
 
 > [!NOTE]
 > Wenn Preise nur für Artikel- oder Ressourcenkarten festgelegt sind, werden die Standardpreislisten während der Datenaktualisierung nicht mit diesen Preisen ausgefüllt. Sie können jedoch jede der Standardpreislisten oder die Seite **Preisarbeitsblatt** öffnen und die Aktion **Zeilen vorschlagen** nutzen, um die auf Artikel- oder Ressourcenkarten festgelegten Preise hinzuzufügen.
 
-* Um Verkaufspreislisten zu verwenden, deaktivieren Sie sie. Bestehende Preise werden in eine neue Preisliste für jede Kombination von Folgendem umgewandelt: 
+* Um Verkaufspreislisten zu verwenden, deaktivieren Sie sie. Bestehende Preise werden in eine neue Preisliste für jede Kombination von Folgendem umgewandelt:
 
-* Debitor
-* Debitorengruppe oder Kampagne
-* Start- und Enddaten
-* Währungen 
+  * Debitor
+  * Debitorengruppe oder Kampagne
+  * Start- und Enddaten
+  * Währungen
 
 Wenn Sie viele Kombinationen haben, haben Sie viele Preislisten.
 
@@ -158,7 +160,7 @@ Falls Sie Verkaufspreise kopieren möchten, wie z. B. den Preis eines einzelnen 
 2. Wählen Sie den **Vorgeschlagenen Verkaufspreis auf dem Arbeitsblatt.** Aktion  
 3. Füllen Sie im Inforegister **Verkaufspreise** die Felder mit der **Verkaufsart** und dem **Verkaufscode** der ursprünglichen Preise aus, die Sie kopieren möchten.  
 4. Füllen Sie im oberen Bereich der Anforderungsseite die Felder **Verkaufsart** und **Verkaufscode** mit der Art und dem Namen aus, in die Sie die Verkaufspreise kopieren möchten.  
-5. Wenn Sie mit dem Batchauftrag neue Preise erstellen wollen, wählen Sie in das Feld **Neue Preise generieren**.  
+5. Wenn Sie mit dem Stapelverarbeitungsauftrag neue Preise erstellen wollen, wählen Sie in das Kästchen **Neue Preise generieren**.  
 6. Wählen Sie die Schaltfläche **OK**, um die Zeilen auf der Seite **VK-Preisarbeitsblatt** mit den neuen Preisvorschlägen auszufüllen, und geben Sie an, dass diese für die gewählte Verkaufsart gültig sind.  
 
    > [!NOTE]  
@@ -166,9 +168,12 @@ Falls Sie Verkaufspreise kopieren möchten, wie z. B. den Preis eines einzelnen 
 
 #### [Neue Erfahrung](#tab/new-experience/)  
 
-Sie können festlegen, ob die neue Preisliste die Einstellungen aus der Kopfzeile der Liste, die Sie kopieren, oder die Einstellungen der neuen Liste, in die Sie kopieren, verwenden soll. Um die Einstellungen aus der Preisliste zu verwenden, in die Sie Preise kopieren, aktivieren Sie den Umschalter **Standardwerte aus Ziel verwenden** verwenden.
+Sie können die Einstellungen festlegen, die die Preisliste verwenden soll:
 
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Verkaufspreislisten** ein, und wählen Sie dann den zugehörigen Link. 
+* Verwenden Sie die Einstellungen aus der Kopfzeile der Liste, die Sie kopieren.
+* Verwenden Sie die Einstellungen aus der Liste, in die Sie kopieren. Um die Einstellungen aus der Preisliste zu verwenden, in die Sie Preise kopieren, aktivieren Sie den Umschalter **Standardwerte aus Ziel verwenden** verwenden.
+
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Verkaufspreislisten** ein, und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie die zu kopierende Preisliste aus und wählen Sie dann **Zeilen kopieren**.
 3. Füllen Sie die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -185,8 +190,17 @@ Diese Schritte unterscheiden sich je nachdem, ob Ihr Administrator das Feature-U
 
 Wenn Sie Artikelpreise, wie alle Lagerzugangs-Artikelpreise durch einen Prozentsatz auf einmal aktualisieren möchten, müssen Sie Verkaufspreisarbeitsblatt mithilfe der folgenden Batchvorgänge ausfüllen:
 
-* **VK-Preis vorschlagen** schlägt Änderungen auf eine von zwei Arten vor. Indem ein Anpassungsfaktor auf vorhandene Verkaufspreise angewendet oder vorhandene Verkaufspreisvereinbarungen auf andere Debitoren, Debitorpreisgruppen oder Verkaufsaktionen kopiert werden.
-* **Artikelpreis auf dem Arbeitsblatt vorschlagen** schlägt Änderungen auf eine von zwei Arten vor. Indem ein Anpassungsfaktor auf vorhandene Einheitspreise auf Artikelkarten angewendet oder Preise für neue Kombinationen von Währungen, Einheiten usw. vorgeschlagen werden. Die Stückpreise für Artikel werden durch diesen Batch-Job nicht geändert.  
+* **VK-Preis vorschlagen** schlägt Änderungen auf eine von zwei Arten vor:
+
+  * Durch Anwendung eines Korrekturfaktors auf bestehende Verkaufspreise.
+  * Durch Kopieren bestehender Verkaufspreisvereinbarungen auf andere Debitoren, Debitorenpreisgruppen oder Verkaufsaktionen.
+
+* **Artikelpreis vorschlagen** schlägt Änderungen auf eine von zwei Arten vor:
+
+  * Durch Anwendung eines Korrekturfaktors auf bestehende Einheitspreise auf Artikelkarten.
+  * Indem Sie Preise für neue Kombinationen aus Währung, Maßeinheiten usw. vorschlagen.
+
+  Dieser Stapelverarbeitungsauftrag ändert die Einheitspreise für Artikel nicht.  
 
 1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Verkaufspreisarbeitsblatt** ein, und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die Aktion **Artikelpreis auf dem Arbeitsblatt vorschlagen** aus.  
@@ -219,7 +233,7 @@ Der beste Preis ist der niedrigste Preis mit dem höchsten Zeilenrabatt an einem
 
     * Hat dieser Debitor eine spezielle Vereinbarung für Preise oder Zeilenrabatte oder gehört der Debitor zu einer Gruppe, die solche Vereinbarungen hat?
     * Ist der Artikel oder die Artikelrabattgruppe in der Zeile in einer dieser Prei-/Rabattvereinbarungen enthalten?
-    * Liegt das Auftragsdatum (oder das Buchungsdatum für die Rechnung und Gutschrift) innerhalb des Start- und Enddatums der Preis-/Zeilenrabatt-Vereinbarung?
+    * Liegt das Datum innerhalb des Start- und Enddatums der Preis-/Rabattvereinbarung? Bei Rechnungen und Gutschriften handelt es sich um das Datum im Feld **Buchungsdatum** in der Dokumentkopfzeile. Bei allen anderen Dokumenten handelt es sich um das Datum im Feld **Auftragsdatum** in ihren Kopfzeilen.
     * Wurde ein Einheitencode angegeben? Falls dies der Fall ist, prüft [!INCLUDE[prod_short](includes/prod_short.md)] Preise/Rabatte mit dem gleichen Einheitencode und die Preise und Rabatte, bei denen kein Einheitencode angegeben wurde.
 
 2. [!INCLUDE[prod_short](includes/prod_short.md)] prüft, ob Preis-/Rabattvereinbarungen für Informationen auf der Beleg- oder Journalzeile gelten. Anschließend fügt es den anwendbaren Einheitspreis und den Zeilenrabattprozentsatz unter Verwendung der folgenden Kriterien ein:
@@ -249,7 +263,7 @@ Zusätzlich (oder anstatt) eines Rabattprozentsatzes können Sie eine Servicegeb
 > [!TIP]  
 > Bevor Sie diese Informationen eingeben, ist es sinnvoll, eine Skizze der Rabattstruktur vorzubereiten, die Sie verwenden möchten. Die Struktur erleichtert es Ihnent, zu bestimmen, welche Debitoren mit derselben Rechnungsrabattseite verknüpft werden können. Wenn Sie weniger Seiten einrichten müssen, können Sie die Basisinformationen schneller eingeben.
 
-Weitere Informationen zur Schulung für Rabatte bei Verkäufen finden Sie unter [Einrichten von Rabatten für Ihre Debitoren unter ](/training/modules/customer-discounts-dynamics-365-business-central/index).
+Weitere Informationen zur Schulung für Rabatte bei Verkäufen finden Sie unter [Einrichten von Rabatten für Ihre Debitoren](/training/modules/customer-discounts-dynamics-365-business-central/index).
 
 ### Rechnungsrabatte bei Verkäufen berechnen
 
@@ -303,7 +317,7 @@ Fahren Sie fort, um neue Verkaufsrechnungsrabatt-Bedingungen einzurichten.
 1. Auf der Seite **Debitoren** wählen Sie die Aktion **Rechnungsrabatt** aus. Die Seite **Debitorenrechnungsrabatte** wird geöffnet.
 2. Geben Sie in dem Feld **Währungscode** den Code für die Währung ein, für die die Rechnungsrabattkonditionen gelten sollen. Wenn Sie Rechnungsrabattbedingungen in EUR einrichten möchten, dann lassen Sie das Feld leer.
 3. Geben Sie im Feld **Minimalbetrag** den Mindestbetrag ein, den eine Rechnung aufweisen muss, um für einen Rabatt in Frage zu kommen.
-4. Geben Sie im Feld **Rabatt** den Rechnungsrabatt als Prozentsatz des Rechnungsbetrages ein.
+4. Geben Sie im Feld **Rabatt %** den Rechnungsrabatt als Prozentsatz des Rechnungsbetrages ein.
 5. Wiederholen Sie die Schritte 5 bis 7 für jede Währung, für die der Debitor einen Rechnungsrabatt erhält.
 
 ## Siehe verwandte [Microsoft Schulungen](/training/modules/manage-sales-prices-dynamics-365-business-central/index)

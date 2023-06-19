@@ -12,37 +12,37 @@ ms.date: 02/08/2023
 
 # Kontrollieren Sie den Zugriff auf Business Central mithilfe von Sicherheitsgruppen
 
-[!INCLUDE [2023rw1-sec-group-long](includes/2023rw1-sec-group-long.md)]
+Sicherheitsgruppen erleichtern Administrierenden die Verwaltung von Benutzerberechtigungen. Beispielsweise sind sie für [!INCLUDE [prod_short](includes/prod_short.md)] online in allen Dynamics 365-Anwendungen wie SharePoint Online, CRM Online und [!INCLUDE [prod_short](includes/prod_short.md)] wiederverwendbar. Administrierende fügen ihren [!INCLUDE [prod_short](includes/prod_short.md)] Sicherheitsgruppen Berechtigungen hinzu, und wenn sie der Gruppe Benutzende hinzufügen, gelten die Berechtigungen für alle Mitglieder. Beispielsweise können Administrierende eine [!INCLUDE [prod_short](includes/prod_short.md)] Sicherheitsgruppe erstellen, die Verkaufsmitarbeitenden die Möglichkeit gibt, Verkaufsaufträge zu erstellen und zu buchen. Oder lassen Sie Käufer dasselbe für Bestellungen tun.
 
-Sicherheitsgruppen erleichtern Administratoren die Verwaltung von Benutzerberechtigungen in ihren Dynamics 365-Anwendungen, wie SharePoint Online, CRM Online und die Online-Version von [!INCLUDE [prod_short](includes/prod_short.md)]. Administratoren fügen ihren Sicherheitsgruppen Berechtigungen hinzu, und wenn sie der Gruppe Benutzer hinzufügen, gelten die Berechtigungen für alle Mitglieder. Beispielsweise kann ein Administrator eine Sicherheitsgruppe erstellen, die Verkäufern die Möglichkeit gibt, Verkaufsaufträge zu erstellen und zu buchen. Oder lassen Sie Käufer dasselbe für Bestellungen tun.
+## Business Central Online und lokal
 
-Erstellen Sie Ihre Sicherheitsgruppen in Ihrem Microsoft 365 Admin Center oder Azure Active Directory. Dieser Artikel beschreibt die Schritte im Microsoft 365 Admin Center, aber die Schritte sind in beiden ähnlich.
+Sie können Sicherheitsgruppen für die Online- und lokalen Versionen von [!INCLUDE [prod_short](includes/prod_short.md)] verwenden. Erstellen Sie je nach Ihrer Version auf eine der folgenden Arten Gruppen:
 
-## Fügen Sie im Microsoft 365 Admin Center eine Sicherheitsgruppe hinzu
+* Verwenden Sie für die Onlineversion Azure Active Directory Sicherheitsgruppen. Weitere Informationen zum Erstellen der Gruppe finden Sie unter [Eine Sicherheitsgruppe im Microsoft 365 Admin Center erstellen, bearbeiten und löschen](/microsoft-365/admin/email/create-edit-or-delete-a-security-group).
+* Verwenden Sie für lokale Standorte Windows Active Directory-Gruppen. Weitere Informationen finden Sie unter [Gruppenkonto in Active Directory erstellen](/windows/security/operating-system-security/network-security/windows-firewall/create-a-group-account-in-active-directory).
 
-1. Wechseln Sie im Microsoft 365 Admin Center zur Seite **Aktive Teams & Gruppen**.
-2. Wählen Sie **Eine Gruppe hinzufügen**.
-3. Wählen Sie den Gruppentyp **Sicherheit** und wählen sie **Weiter**.
-4. Legen Sie die Grundlagen für Ihre Gruppe fest.
-5. Optional: Machen Sie die Mitglieder der Gruppe für die Rollenzuweisung verfügbar. Um mehr über die Zuweisungen zu erfahren, gehen Sie zu [Azure AD Gruppen zum Verwalten von Rollenzuweisungen verwenden](/azure/active-directory/roles/groups-concept).
-6. Öffnen Sie die Gruppe und verwenden Sie dann die Registerkarte **Mitglieder hinzufügen**, um Personen in die Gruppe aufzunehmen.
+Erstellen Sie danach in [!INCLUDE [prod_short](includes/prod_short.md)] eine entsprechende Sicherheitsgruppe und verknüpfen Sie sie dann mit der Sicherheitsgruppe, die Sie erstellt haben. Um mehr zu erfahren, gehen Sie zu [Eine Sicherheitsgruppe in Business Central hinzufügen](#add-a-security-group-in-business-central).
+
+> [!NOTE]
+> Wenn Sie einen speziellen Benutzertyp mit einem Windows-Gruppenlizenztyp in einer lokalen Version von [!INCLUDE [prod_short](includes/prod_short.md)] eingerichtet haben, die vor den 1. Veröffentlichungszyklus 2023 liegt, konvertiert [!INCLUDE [prod_short](includes/prod_short.md)] beim Upgrade Benutzende zu einer Sicherheitsgruppe. Die neue Sicherheitsgruppe hat denselben Namen wie der Windows-Gruppenname. Die Sicherheitsgruppe gibt Ihnen einen besseren Überblick über die Gruppenmitglieder und deren wirksame Berechtigungen.
 
 ## Eine Sicherheitsgruppe in Business Central hinzufügen
 
-Erstellen Sie in [!INCLUDE [prod_short](includes/prod_short.md)] eine Sicherheitsgruppe und verknüpfen Sie sie dann mit der Sicherheitsgruppe im Microsoft 365 Admin Center. Ihre neue Gruppe enthält die Mitglieder, die Sie im Microsoft 365 Admin Center hinzugefügt haben.
-
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion 1.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") öffnet. Symbol, geben Sie **Sicherheitsgruppen** ein und wählen Sie dann die zugehörige Verknüpfung.
-2. Wählen Sie **Neu**, um eine Gruppe zu erstellen.
-3. Geben Sie im Feld **Namen** einen Namen für die Gruppe ein.
-4. Geben Sie im Feld **Name der AAD-Sicherheitsgruppe** den Namen der Sicherheitsgruppe genau so ein, wie er im Microsoft 365 Admin Center angezeigt wird. [!INCLUDE [prod_short](includes/prod_short.md)] findet diese Gruppe und verknüpft sie mit dieser Gruppe.
+1. Wählen Sie **Neu**, um eine Gruppe zu erstellen.
+1. Erstellen Sie den Link zu Ihrer Gruppe wie folgt:
+
+    * Wählen Sie für [!INCLUDE [prod_short](includes/prod_short.md)] online die Gruppe im Feld **AAD-Sicherheitsgruppenname** aus.
+    * Wählen Sie für lokale [!INCLUDE [prod_short](includes/prod_short.md)] Umgebungen die Gruppe im Feld **Windows-Gruppenname** aus.
 
 > [!NOTE]
-> Die Benutzer, die auf der Karte **Mitglieder** in der Infobox oder auf der Seite **Mitglieder der Sicherheitsgruppe** nur angezeigt werden, wenn sie als Benutzer in [!INCLUDE [prod_short](includes/prod_short.md)] hinzugefügt wurden. Mehr über das hinzufügen von Benutzern erfahren unter [Um Benutzer hinzuzufügen oder Benutzerinformationen und Lizenzzuweisungen in Business Central zu aktualisieren](ui-how-users-permissions.md#adduser).  
+> Die Benutzenden werden auf der Karte **Mitglieder** in der Infobox oder auf der Seite **Mitglieder der Sicherheitsgruppe** nur angezeigt, wenn sie als Benutzende in [!INCLUDE [prod_short](includes/prod_short.md)] hinzugefügt wurden. Mehr über das hinzufügen von Benutzern erfahren unter [Um Benutzer hinzuzufügen oder Benutzerinformationen und Lizenzzuweisungen in Business Central zu aktualisieren](ui-how-users-permissions.md#adduser).  
 
-### Der Gruppe Berechtigungen zuweisen
+### Einer Sicherheitsgruppe Berechtigungen zuweisen
 
 1. Wählen Sie auf der Seite **Sicherheitsgruppe** die Gruppe aus und wählen Sie die Aktion **Berechtigungen**.
 1. Weisen Sie Berechtigungen folgendermaßen zu:
+
     * Um Berechtigungssätze einzeln zuzuweisen, wählen Sie im Feld **Berechtigungssatz** die zuzuweisenden Berechtigungen aus.
     * Um mehrere Berechtigungssätze zuzuweisen, wählen Sie die Aktion **Berechtigungssätze auswählen** und dann die zuzuweisenden Sätze aus.
 
@@ -54,7 +54,19 @@ Berechtigungen sind auch auf der Seite **Benutzer** verfügbar. Der Infoboxberei
 
 ## Sicherheitsgruppen und Benutzergruppen
 
-Wenn Sie Benutzergruppen haben, können Sie die Gruppen in Berechtigungssätze in Ihrem Mandanten umwandeln, indem Sie die Anleitung zur unterstützten Einrichtung **Benutzergruppenmigration** verwenden. Um die Anleitung zu starten, suchen Sie auf der Seite **Funktionsverwaltung** **Funktion: Benutzergruppenberechtigungen konvertieren** und wählen Sie dann aus **Alle Benutzer** im Feld **Aktiviert für** aus. Die unterstützte Einrichtungsanleitung bietet die folgenden Optionen für die Konvertierung.
+> [!NOTE]
+> Benutzergruppen werden in einer zukünftigen Version nicht mehr verfügbar sein.
+
+Sicherheitsgruppen ähneln sehr den derzeit verfügbaren Benutzergruppen. Benutzergruppen sind jedoch nur für [!INCLUDE [prod_short](includes/prod_short.md)] relevant. Sicherheitsgruppen basieren auf Gruppen in Azure Active Directory oder Windows Active Directory, je nachdem, ob Sie [!INCLUDE [prod_short](includes/prod_short.md)] online oder lokal verwenden. Administrierende profitieren von Gruppen, da sie sie mit anderen Dynamics 365-Apps verwenden können. Wenn Vertriebsmitarbeiter beispielsweise [!INCLUDE [prod_short](includes/prod_short.md)] und SharePoint verwenden, müssen Administratoren die Gruppe und ihre Mitglieder nicht neu erstellen.
+
+### Optional: Benutzergruppen in Berechtigungssätze konvertieren
+
+Im 1. Veröffentlichungszyklus 2023 und höher können Sie Benutzergruppen in Berechtigungssätze in Ihrem Mandanten konvertieren. Die Berechtigungssätze bieten die gleiche Funktionalität wie Benutzergruppen. Beispiele:
+
+* Sie können die Infobox **Benutzende** zum Verwalten von Berechtigungen für Benutzende verwenden.
+* Sie können einen Drilldown zum Namen des Berechtigungssatzes durchführen, um dem Satz, an dem Sie arbeiten, weitere Berechtigungssätze hinzuzufügen. Um mehr zu erfahren, gehen Sie zu [Weitere Berechtigungssätze hinzufügen](ui-define-granular-permissions.md#to-add-other-permission-sets).
+
+Benutzen Sie die Anleitung zur unterstützten Einrichtung der **Benutzergruppenmigration**, um ihre Gruppen zu konvertieren. Um die Anleitung zu starten, suchen Sie auf der Seite **Funktionsverwaltung** **Funktion: Benutzergruppenberechtigungen konvertieren** und wählen Sie dann aus **Alle Benutzer** im Feld **Aktiviert für** aus. Die unterstützte Einrichtungsanleitung bietet die folgenden Optionen für die Konvertierung.
 
 |Option  |Beschreibung  |
 |---------|---------|

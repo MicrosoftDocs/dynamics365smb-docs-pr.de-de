@@ -11,11 +11,11 @@ ms.custom: bap-template
 ms.search.form: '7230, 7233, 5338, 7236, 672, 7234'
 ---
 
-# Machen Sie sich bereit, Stammdaten zu synchronisieren
+# Vorbereitung der Synchronisierung der Masterdaten
 
-Wenn Sie zwei oder mehr Unternehmen haben, die zumindest teilweise die gleichen Stammdaten verwenden, können Sie Zeit bei der Dateneingabe sparen, indem Sie sie in den Unternehmen synchronisieren. Die Synchronisierung der Daten ist besonders nützlich, wenn Sie neue Tochterunternehmen gründen.
+Wenn zwei oder mehr Unternehmen teilweise dieselben Stammdaten verwenden, können Sie die Daten synchronisieren, anstatt sie manuell in jedem Unternehmen hinzuzufügen. Die Synchronisierung der Daten ist zum Beispiel besonders nützlich, wenn Sie neue Tochterunternehmen gründen.
 
-Stammdaten umfassen Einstellungen und nicht transaktionale Informationen über Geschäftseinheiten wie Kunden, Lieferanten, Artikel und Mitarbeiter. Die Daten bieten Kontext für Geschäftstransaktionen. Nachfolgend einige Beispiele für Stammdaten eines Kunden:
+Stammdaten umfassen Einstellungen und nicht transaktionale Informationen über Geschäftseinheiten. Zum Beispiel Debitoren, Kreditoren, Artikel und Mitarbeitende. Die Daten bieten Kontext für Geschäftstransaktionen. Nachfolgend einige Beispiele für Stammdaten eines Kunden:
 
 * Name
 * Identifikationsnummer
@@ -23,7 +23,7 @@ Stammdaten umfassen Einstellungen und nicht transaktionale Informationen über G
 * Zahlungsbedingungen
 * Kreditgrenze
 
-In diesem Fenster richten Sie die Synchronisierung untergeordneter Unternehmen ein. Unter Verwendung eines Pull-Modells ziehen Tochtergesellschaften die Daten aus dem Quellunternehmen, die sie für die Geschäftsabwicklung benötigen. Nachdem Sie die Synchronisierung eingerichtet und zum ersten Mal Daten synchronisiert haben, sind Sie fertig. Die Datensätze in den Tabellen sind gekoppelt, und die Einträge in der Auftragswarteschlange beginnen sofort mit der Aktualisierung der Daten in den Niederlassungen, wenn jemand eine Änderung im Quellunternehmen vornimmt.
+In diesem Fenster richten Sie die Synchronisierung untergeordneter Unternehmen ein. Unter Verwendung eines Pull-Modells ziehen Tochtergesellschaften die Daten aus dem Quellunternehmen, die sie für die Geschäftsabwicklung benötigen. Nachdem Sie die Synchronisierung eingerichtet und zum ersten Mal Daten synchronisiert haben, sind Sie fertig. Auftragswarteschlangeneinträge aktualisiert gekoppelte Datensätze in den Tochtergesellschaften, wenn jemand Daten im Quellunternehmen ändert.
 
 ## Nur eindirektionale Synchronisierung
 
@@ -34,10 +34,13 @@ Sie können Daten nur vom Quellunternehmen mit den Tochterunternehmen im Pullver
 
 ## Bevor Sie beginnen
 
-Dies sind die Voraussetzungen für die Einrichtung der Synchronisierung.
+Im Folgenden finden Sie Voraussetzungen für die Einrichtung der Synchronisierung.
 
 * Alle Unternehmen müssen in der selben Umgebung sein.
-* Der Benutzer, der die Tochtergesellschaft einrichtet, muss über die **Stammdatenverwaltung verfügen. –  Berechtigungssatz anzeigen**. Der Berechtigungssatz ist in den Lizenzen Premium und Essential verfügbar. Mit der Team Member-Lizenz kann jemand auf Datensätze zugreifen, sie jedoch nicht ändern, sodass sie nicht zum Einrichten der Synchronisierung verwendet werden kann.
+* Der Benutzende, der die Tochtergesellschaft einrichtet, muss über die Lizenz **Essential**, **Premium** oder **Basic ISV** verfügen.
+
+> [!NOTE]
+> Mit den Lizenzen für Teammitglieder und interne Administrierende können man auf Datensätze zugreifen, sie jedoch nicht ändern, sodass sie nicht zum Einrichten der Synchronisierung verwendet werden können. Mit der Lizenz für delegierte Administrierende können Sie keine Hintergrundaufgaben planen, sodass Sie die Einrichtung nicht abschließen können.
 
 ## Quellunternehmen definieren
 
@@ -52,7 +55,7 @@ Der nächste Schritt besteht darin, Tabellen und Felder für die Synchronisierun
 
 ## Aktivieren oder deaktivieren Sie Tabellen und Felder
 
-Um Zeit zu sparen, stellt [!INCLUDE [prod_short](includes/prod_short.md)] eine Liste von Tabellen bereit, die Unternehmen häufig synchronisieren. Standardmäßig sind diese Tabellen für die Synchronisierung aktiviert, aber Sie können sie nach Belieben ändern, deaktivieren oder löschen. Als zusätzliche Zeitersparnis sind einige Felder in den Tabellen bereits deaktiviert, da sie für die Tochtergesellschaft wahrscheinlich nicht relevant sind.
+Um Zeit zu sparen, stellt [!INCLUDE [prod_short](includes/prod_short.md)] eine Liste von Tabellen bereit, die Unternehmen häufig synchronisieren. Diese Tabellen sind standardmäßig für die Synchronisierung aktiviert. Sie können sie nach Belieben ändern, deaktivieren oder löschen. Zur zusätzlichen Zeitersparnis sind einige Felder in den Tabellen bereits deaktiviert, da sie für die Tochtergesellschaft wahrscheinlich nicht relevant sind.
 
 > [!NOTE]
 > Wenn im Quellunternehmen eine oder mehrere Erweiterungen installiert sind und eine Tochtergesellschaft die Synchronisierung einrichtet, enthält die Seite **Synchronisierungstabellen** Tabellen aus den Erweiterungen, und Sie können auf deren Felder zugreifen. Wenn das Quellunternehmen jedoch eine Erweiterung hinzufügt, nachdem die Synchronisierung eingerichtet wurde, muss jede Tochtergesellschaft die Tabellen manuell hinzufügen. Weitere Informationen zum Hinzufügen von Tabellen finden Sie unter [Tabellen zur Synchronisierungstabellenliste hinzufügen oder löschen](#add-or-delete-tables-from-the-synchronization-tables-list). Weitere Informationen zum Erweitern von [!INCLUDE [prod_short](includes/prod_short.md)] finden Sie unter [Entwicklung von Erweiterungen in Visual Studio Code](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview#developing-extensions-in-visual-studio-code).
@@ -62,7 +65,7 @@ Um Zeit zu sparen, stellt [!INCLUDE [prod_short](includes/prod_short.md)] eine L
 1. Füllen Sie die Felder nach Bedarf aus. [!INCLUDE [tooltip-inline-tip_md](../archive/SetupAndAdministration/includes/tooltip-inline-tip_md.md)]
 
 > [!TIP]
-> Das Feld **Tabellenfilter**ist hilfreich, um zu steuern, was für eine Tabelle synchronisiert werden soll. Sie können Filter so einrichten, dass sie nur dann synchronisiert werden, wenn bestimmte Bedingungen erfüllt sind. Beispielsweise können Sie Filter hinzufügen, die angeben, dass Sie nur Anbieter in einer bestimmten Region synchronisieren. Oder Kunden, die eine bestimmte Währung verwenden.
+> Das Feld **Tabellenfilter** ist hilfreich, um zu steuern, was für eine Tabelle synchronisiert werden soll. Sie können Filter so einrichten, dass sie nur dann synchronisiert werden, wenn bestimmte Bedingungen erfüllt sind. Beispielsweise können Sie Filter hinzufügen, die angeben, dass Sie nur Anbieter in einer bestimmten Region synchronisieren. Oder Kunden, die eine bestimmte Währung verwenden.
 >
 > Wenn die Tochtergesellschaft bereits Daten in ihren Tabellen hat, besteht eine weitere gute Möglichkeit zum Festlegen von Kriterien für die Synchronisierung darin, eine trefferbasierte Kopplung einzurichten. Weitere Informationen zum Abgleich finden Sie unter [Kopplung basierend auf Übereinstimmung verwenden](#use-match-based-coupling).
 
@@ -85,8 +88,11 @@ Sie können die für eine Tabelle zu synchronisierenden Daten angeben, indem Sie
 
 Wenn Sie fertig sind, wählen Sie auf der Seite **Masterdaten-Verwaltung einrichten** die Aktion **Erste Synchronisierung starten** aus. Wählen Sie auf der Seite **Erste Synchronisierung der Masterdaten** den Synchronisierungstyp aus, den Sie für jede Tabelle verwenden möchten.
 
-* Wenn Sie bereits Datensätze sowohl in der Quell- als auch in den Tochterunternehmen haben und vorhandene Datensätze abgleichen möchten, wählen Sie die Aktion **Übereinstimmungsbasierte Kopplung verwenden**aus. [!INCLUDE [prod_short](includes/prod_short.md)] stimmt Datensätze in der untergeordneten Gesellschaft mit Datensätzen in der Quellunternehmung basierend auf den von Ihnen zugeordneten Kriterien ab. Für mehrere Standardtabellen hat [!INCLUDE [prod_short](includes/prod_short.md)] bereits vorhandene Datensätze anhand ihres Primärschlüssels abgeglichen, aber Sie können dies ändern, wenn Sie möchten. Sie können die Synchronisierung auch neue Datensätze in der Tochtergesellschaft für Datensätze in der Quellfirma erstellen lassen, die die Tochtergesellschaft nicht hat. Weitere Informationen zum Abgleich finden Sie unter [Kopplung basierend auf Übereinstimmung verwenden](#use-match-based-coupling).
-* Wenn Sie **Vollständige Synchronisierung ausführen** auswählen, erstellt die Synchronisierung neue Datensätze für alle Datensätze in der Quellunternehmung, die noch nicht gekoppelt sind. Diese Option ist in der Regel nützlich, wenn die Tochtergesellschaft keine Daten in der Tabelle hat oder wenn Sie nur Datensätze aus dem Quellunternehmen ohne Übereinstimmung hinzufügen möchten.  
+* Wenn Sie bereits Datensätze sowohl in der Quell- als auch in den Tochterunternehmen haben und vorhandene Datensätze abgleichen möchten, wählen Sie die Aktion **Übereinstimmungsbasierte Kopplung verwenden** aus. [!INCLUDE [prod_short](includes/prod_short.md)] gleicht Datensätze in der Tochtergesellschaft mit Datensätzen im Quellunternehmen ab. Die Übereinstimmungen basieren auf von Ihnen festgelegten Übereinstimmungskriterien. Für mehrere Standardtabellen hat [!INCLUDE [prod_short](includes/prod_short.md)] bereits vorhandene Datensätze anhand ihres Primärschlüssels abgeglichen, aber Sie können dies ändern, wenn Sie möchten. Sie können die Synchronisierung auch neue Datensätze in der Tochtergesellschaft für Datensätze in der Quellfirma erstellen lassen, die die Tochtergesellschaft nicht hat. Weitere Informationen zum Abgleich finden Sie unter [Kopplung basierend auf Übereinstimmung verwenden](#use-match-based-coupling).
+* Wenn Sie **Vollständige Synchronisierung ausführen** auswählen, erstellt die Synchronisierung neue Datensätze für alle Datensätze im Quellunternehmen, die noch nicht gekoppelt sind. Diese Option ist beispielsweise in den folgenden Szenarien hilfreich:
+
+    * Die Tochtergesellschaft verfügt über keine Daten in der Tabelle.
+    * Sie möchten Datensätze des Quellunternehmens hinzufügen, ohne sie abzugleichen.  
 
 Nachdem Sie die zu verwendende Option ausgewählt haben, wählen Sie die Aktion **Alle starten**, um die Synchronisierung zu starten.
 
@@ -95,7 +101,7 @@ Während die Synchronisierung ausgeführt wird, zeigt die Spalte **Auftragsstatu
 > [!TIP]
 > Tabellen werden in einer vordefinierten Reihenfolge synchronisiert. Wenn die Synchronisierung bei einer Tabelle hängen bleibt, wählen Sie die Tabelle aus und wählen Sie dann die Aktion **Neu starten**, um sie wieder in Gang zu bringen.
 
-Um auf Details wie die Anzahl der eingefügten oder geänderten Datensätze zuzugreifen, wählen Sie den Wert in der Spalte **Auftragsstatus** aus, um die **Ansicht – Integrationssynchronisierungsjobs** zu öffnen. Bei eingefügten Datensätzen können Sie die Nummer in der Spalte  **Eingefügt** auswählen, um auf weitere Details der neuen Datensätzen zuzugreifen.
+Um auf Details wie die Anzahl der eingefügten oder geänderten Datensätze zuzugreifen, wählen Sie den Wert in der Spalte **Auftragsstatus** aus, um die **Ansicht – Integrationssynchronisierungsjobs** zu öffnen. Bei eingefügten Datensätzen können Sie die Nummer in der Spalte **Eingefügt** auswählen, um auf weitere Details der neuen Datensätzen zuzugreifen.
 
 ## Hinzufügen oder Löschen von Tabellen aus der Synchronisierungstabellenliste
 
@@ -118,7 +124,7 @@ Um auf Details wie die Anzahl der eingefügten oder geänderten Datensätze zuzu
 
 ## Verwenden Sie Export und Import, um ein Synchronisierungseinrichtung gemeinsam zu nutzen
 
-Wenn Sie mehrere Tochterunternehmen einrichten, die dieselben oder ähnliche Synchronisierungseinstellungen verwenden, können Sie Zeit sparen, indem Sie ein Tochterunternehmen einrichten und dessen Einrichtung dann in eine XML-Datei exportieren. Die Datei enthält die gesamte Einrichtung, einschließlich Tabellen- und Feldzuordnungen und Filterkriterien. Anschließend können Sie die Datei in die nächste Tochtergesellschaft importieren. Um eine Einrichtung zu importieren oder zu exportieren, verwenden Sie auf der Seite **Stammdatenverwaltungseinrichtung** die Schaltfläche **Importieren** oder **Export** Aktionen.
+Wenn Sie mehrere Tochtergesellschaften einrichten, die dieselben oder ähnliche Synchronisierungseinstellungen verwenden, können Sie Zeit sparen. Richten Sie eine Tochtergesellschaft ein und exportieren Sie deren Einstellungen dann in eine XML-Datei. Die Datei enthält die gesamte Einrichtung, einschließlich Tabellen- und Feldzuordnungen und Filterkriterien. Anschließend können Sie die Datei in die nächste Tochtergesellschaft importieren. Um eine Einrichtung zu importieren oder zu exportieren, verwenden Sie auf der Seite **Stammdatenverwaltungseinrichtung** die Schaltfläche **Importieren** oder **Export** Aktionen.
 
 ## Weitere Informationen
 

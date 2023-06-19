@@ -39,7 +39,7 @@ Eine Übersicht der aktuell unterstützten Märkte für Dynamics 365 insgesamt, 
 
 [Für eine kostenlose Dynamics 365 Business Central-Testversion registrieren](trial-signup.md)  
 [Häufig gestellte Fragen zur Dynamics 365 Business Central-Testversion](trial-faq.md)  
-[Willkommen bei [!INCLUDE[prod_short](includes/prod_long.md)]](index.md)  
+[Willkommen bei [!INCLUDE[prod_short](includes/prod_long.md)]](welcome.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Lokale Funktionalität](about-localization.md)  
 [Verfügbarkeit in Ländern/Regionen und unterstützte Übersetzungen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  

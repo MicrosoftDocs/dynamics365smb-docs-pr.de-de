@@ -7,7 +7,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: null
-ms.date: 03/24/2022
+ms.date: 05/12/2023
 ms.author: bholtorf
 ---
 # Designdetails: Kostenberechnungsmethoden
@@ -32,13 +32,22 @@ Die folgenden Bild zeigt, wie Kosten für jede Kostenbewertungsmethode den Besta
 ![Kalkulationsmethoden visualisiert.](media/design_details_inventory_costing_7_costing_methods.png "Kalkulationsmethoden visualisiert")  
 
 Kostenberechnungsmethoden unterscheiden sich in der Art, wie sie Lagerabgänge bewerten und dahingehend, ob sie Ist-Kosten oder Standardkosten als Bewertungsbasis verwenden. Die verschiedenen Eigenschaften werden in der folgenden Tabelle beschrieben. (Die LIFO-Methode ist ausgeschlossen, da diese der FIFO-Methode sehr ähnlich ist)  
-
-|Kategorie|FIFO|Durchschnitt|Standard|Ausgewählt|  
+<!--Old  table
+|Category|FIFO|Average|Standard|Specific|  
 |-|----------|-------------|--------------|--------------|  
-|Allgemeine Eigenschaft|Einfach zu verstehen|Basierend auf Periodenoptionen: **Tag**/**Woche**/**Monat**/**Quartal**/**Buchhaltungsperiode**.<br /><br /> Kann pro Artikel oder pro Artikel/Lagerort/Variante berechnet werden.|Bedienungsfreundlich, benötigt jedoch qualifizierte Wartung.|Erfordert Artikelverfolgung auf der eingehenden und ausgehenden Transaktion.<br /><br /> Normalerweise verwendet für serialisierte Artikel.|  
-|Anwendung/Regulierung|Anwendung verfolgt **die Restmenge**.<br /><br /> Die Regulierung überträgt Kosten je nach Mengenanwendung vorwärts.|Anwendung verfolgt die **Restmenge**.<br /><br /> Kosten werden nach **Bewertungsdatum** berechnet und weitergeleitet.|Anwendung verfolgt die **Restmenge**.<br /><br /> Anwendung basiert auf "FIFO".|Alle Augleiche sind fest.|  
-|Neubewertung|Bewertet nur die fakturierte Menge neu.<br /><br /> Kann pro Artikel oder pro Artikelposten durchgeführt werden.<br /><br /> Kann rückwirkend geschehen.|Bewertet nur die fakturierte Menge neu.<br /><br /> Kann nur pro Artikel durchgeführt werden.<br /><br /> Kann rückwirkend geschehen.|Bewertet fakturierte und nicht fakturierte Mengen neu.<br /><br /> Kann pro Artikel oder pro Artikelposten durchgeführt werden.<br /><br /> Kann rückwirkend geschehen.|Bewertet nur die fakturierte Menge neu.<br /><br /> Kann pro Artikel oder pro Artikelposten durchgeführt werden.<br /><br /> Kann rückwirkend geschehen.|  
-|Sonstiges|Wenn Sie eine Bestandsminderung zurückdatieren, werden bestehende Posten NICHT erneut ausgeglichen, um einen korrekten FIFO-Kostenfluss bereitzustellen.|Wenn Sie eine Bestandserhöhung oder -minderung zurückdatieren, werden die Durchschnittskosten erneut berechnet, und alle betroffenen Posten werden angepasst.<br /><br /> Wenn Sie die Periode oder Berechnungsart ändern, müssen alle betroffenen Posten reguliert werden.|Verwenden Sie das **Standardarbeitsblatt**-Fenster, um Einstandspreise (fest) in regelmäßigen Abständen zu aktualisieren und der zu ermitteln.<br /><br /> Wird NICHT pro SKU unterstützt.<br /><br /> Keine historischen Datensätze für Einstandspreise vorhanden.|Sie können eine bestimmte Artikelverfolgung verwenden, ohne die bestimmte Lagerabgangsmethode zu verwenden. Dann folgen die Kosten NICHT der Chargennummer, sondern der Kosten-Annahme der ausgewählten Bewertungsmethode.|  
+|General characteristic|Easy to understand|Based on period options: **Day**/**Week**/**Month**/**Quarter**/**Accounting Period**.<br /><br /> Can be calculated per item or per item/location/variant.|Easy to use, but requires qualified maintenance.|Requires item tracking on both inbound and outbound transaction.<br /><br /> Typically used for serialized items.|  
+|Application/Adjustment|Application keeps track of **the remaining quantity**.<br /><br /> Adjustment forwards costs according to quantity application.|Application keeps track of the **remaining quantity**.<br /><br /> Costs are calculated and forwarded per the **valuation date**.|Application keeps track of the **remaining quantity**.<br /><br /> Application is based on FIFO.|All applications are fixed.|  
+|Revaluation|Revalues invoiced quantity only.<br /><br /> Can be done per item or per item ledger entry.<br /><br /> Can be done backward in time.|Revalues invoiced quantity only.<br /><br /> Can be done per item only.<br /><br /> Can be done backward in time.|Revalues invoiced and un-invoiced quantities.<br /><br /> Can be done per item or per item ledger entry.<br /><br /> Can be done backward in time.|Revalues invoiced quantity only.<br /><br /> Can be done per item or per item ledger entry.<br /><br /> Can be done backward in time.|  
+|Miscellaneous|If you back-date an inventory decrease, then existing entries are NOT reapplied to provide a correct FIFO cost flow.|If you back-date an inventory increase or decrease, then the average cost is recalculated, and all affected entries are adjusted.<br /><br /> If you change the period or calculation type, then all affected entries must be adjusted.|Use the **Standard Worksheet** page to periodically update and roll up standard costs.<br /><br /> Is NOT supported per SKU.<br /><br /> No historic records exist for standard costs.|You can use specific item tracking without using the Specific costing method. Then the cost will NOT follow the lot number, but the cost assumption of the selected costing method.|  
+-->
+<!--Table flipped for slightly better readability -->
+
+||Allgemeine Eigenschaft|Anwendung/Regulierung |Neubewertung|Sonstiges |
+|-|---------|---------|---------|---------|
+|**FIFO**     |Einfach zu verstehen|Anwendung verfolgt **die Restmenge**.<br /><br /> Die Regulierung überträgt Kosten je nach Mengenanwendung vorwärts. |Bewertet nur die fakturierte Menge neu.<br /><br /> Kann pro Artikel oder pro Artikelposten durchgeführt werden.<br /><br /> Kann rückwirkend geschehen.|Wenn Sie eine Bestandsminderung zurückdatieren, werden bestehende Posten NICHT erneut ausgeglichen, um einen korrekten FIFO-Kostenfluss bereitzustellen.|
+|**Durchschnitt**     |Basierend auf Periodenoptionen: **Tag**/**Woche**/**Monat**/**Quartal**/**Buchhaltungsperiode**.<br /><br /> Kann pro Artikel oder pro Artikel/Lagerort/Variante berechnet werden.|Anwendung verfolgt die **Restmenge**.<br /><br /> Kosten werden nach **Bewertungsdatum** berechnet und weitergeleitet. |Bewertet nur die fakturierte Menge neu.<br /><br /> Kann nur pro Artikel durchgeführt werden.<br /><br /> Kann rückwirkend geschehen. |Wenn Sie eine Bestandserhöhung oder -minderung zurückdatieren, werden die Durchschnittskosten erneut berechnet, und alle betroffenen Posten werden angepasst.<br /><br /> Wenn Sie die Periode oder Berechnungsart ändern, müssen alle betroffenen Posten reguliert werden.|
+|**Standard**     |Bedienungsfreundlich, benötigt jedoch qualifizierte Wartung.|Anwendung verfolgt die **Restmenge**.<br /><br /> Anwendung basiert auf "FIFO".|Bewertet fakturierte und nicht fakturierte Mengen neu.<br /><br /> Kann pro Artikel oder pro Artikelposten durchgeführt werden.<br /><br /> Kann rückwirkend geschehen.|Verwenden Sie das **Standardarbeitsblatt**-Fenster, um Einstandspreise (fest) in regelmäßigen Abständen zu aktualisieren und der zu ermitteln.<br /><br /> Wird NICHT pro SKU unterstützt.<br /><br /> Keine historischen Datensätze für Einstandspreise vorhanden.|
+|**Spezifisch**     |Erfordert Artikelverfolgung auf der eingehenden und ausgehenden Transaktion.<br /><br /> Normalerweise verwendet für serialisierte Artikel.|Alle Augleiche sind fest.|Bewertet nur die fakturierte Menge neu.<br /><br /> Kann pro Artikel oder pro Artikelposten durchgeführt werden.<br /><br /> Kann rückwirkend geschehen.|Sie können eine bestimmte Artikelverfolgung verwenden, ohne die bestimmte Lagerabgangsmethode zu verwenden. Dann folgen die Kosten NICHT der Chargennummer, sondern der Kosten-Annahme der ausgewählten Bewertungsmethode.|
 
 ## Beispiel
 
@@ -140,13 +149,14 @@ Bei der Lagerabgangsmethode **Standard** werden Lagerzugänge mit den aktuellen 
 
 ## Siehe auch
 
- [Designdetails: Lagerkostenberechnung](design-details-inventory-costing.md)   
- [Designdetails: Abweichung](design-details-variance.md)   
- [Designdetails: Durchschnittskosten](design-details-average-cost.md)   
- [Gestaltungsdetails: Element Anwendung](design-details-item-application.md)  
- [Verwalten der Bestandsregulierung](finance-manage-inventory-costs.md)  
- [Finanzen](finance.md)  
- [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
+[Designdetails: Lagerbewertung](design-details-inventory-costing.md)  
+[Designdetails: Abweichung](design-details-variance.md)  
+[Designdetails: Einstandspreis](design-details-average-cost.md)  
+[Designdetails: Artikelausgleich](design-details-item-application.md)  
+[Verwalten der Bestandsregulierung](finance-manage-inventory-costs.md)  
+[Finanzen](finance.md)  
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Glossar der Begriffe in Dynamics 365-Geschäftsprozessen](/dynamics365/guidance/business-processes/glossary)  
+[Einen Überblick Nachkalkulation für Produkte und Dienstleistungen festlegen](/dynamics365/guidance/business-processes/product-service-define-cost-overview)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
