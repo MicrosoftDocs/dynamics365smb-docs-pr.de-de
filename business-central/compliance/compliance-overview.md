@@ -12,7 +12,7 @@ ms.reviewer: edupont
 ms.date: 06/14/2021
 ms.author: soalex
 ---
-# Compliance-Übersicht
+# <a name="compliance-overview" />Compliance-Übersicht
 
 Dieser Inhalt enthält Informationen über Dienstkompatibilität in Bezug auf [!INCLUDE[prod_short](../includes/prod_short.md)].  
 
@@ -27,7 +27,7 @@ In diesem Abschnitt können Sie mehr über den Ansatz unserer Compliance in Bezu
 |Sehen Sie Informationen über die verschiedenen Zertifizierungen, die mit Business Central verknüpft werden. Hier finden Sie allgemeine Informationen über Zertifizierungen und länderspezifische Besonderheiten.|[Bescheinigungen](compliance-certifications.md)|  
 |Mehr über die Service Level Agreement Bestimmungen und andere Bestimmungen für den Service erfahren.|[Servicebedingungen](compliance-service-compliance.md#service-terms)|  
 
-## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  
+## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](../includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -11,7 +11,7 @@ ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# Erstellen von Montagerahmenaufträgen
+# <a name="create-blanket-assembly-orders" />Erstellen von Montagerahmenaufträgen
 
 Sie können die Montageverwaltung verwenden, um ein Montageelement während des Verkaufsprozesses an die Wünsche eines Kunden anzupassen. Weitere Informationen finden Sie unter [Verkaufen von Auftragsmontageartikeln](assembly-how-to-sell-items-assembled-to-order.md).  
 
@@ -20,7 +20,7 @@ Sie können die Montageverwaltung verwenden, um ein Montageelement während des 
 > [!NOTE]  
 >  Wie bei allen Rahmenaufträgen werden Mengen in Montagerahmenaufträgen nur prognostiziert und sind nicht operativ, bis sie in tatsächliche Montageaufträge umgewandelt werden. Daher sind die Bestellungsfunktionen, wie Verfügbarkeitsberechnung, Reservierung, Artikelverfolgung auf Montagerahmenaufträgen nicht aktiv.  
 
-## So erstellen Sie einen Montagerahmenauftrag\-für\-einen Auftragsmontageartikel  
+## <a name="to-create-a-blanket-assembly-order-for-an-assemble-to-order-item" />So erstellen Sie einen Montagerahmenauftrag\-für\-einen Auftragsmontageartikel
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Verkaufsrahmenaufträge** ein und wählen Sie dann den zugehörigen Link.  
 2. Erstellen Sie einen neune Rahmenauftrag mit einer Zeile für einen Montageartikel. Weitere Informationen hierzu finden Sie unter [Rahmenaufträge erstellen](sales-how-to-create-blanket-sales-orders.md).  
@@ -36,7 +36,7 @@ Sie können die Montageverwaltung verwenden, um ein Montageelement während des 
 
 Der verknüpfte Montagerahmenauftrag und alle eventuellen Anpassungen werden mit dem neuen Verkaufsauftrag verknüpft, um die Montage des/der zu verkaufenden Artikel vorzubereiten.  
 
-## Siehe auch
+## <a name="see-also" />Siehe auch
 
 [Erstellen von Rahmenaufträgen](sales-how-to-create-blanket-sales-orders.md)  
 [Montageverwaltung](assembly-assemble-items.md)  

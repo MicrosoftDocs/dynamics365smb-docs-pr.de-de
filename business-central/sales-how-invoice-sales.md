@@ -11,7 +11,7 @@ ms.search.form: '43, 48, 9301'
 ms.date: 09/01/2022
 ms.author: edupont
 ---
-# Fakturieren eines Verkaufs
+# <a name="invoice-sales" />Fakturieren eines Verkaufs
 
 Sie erstellen entweder eine Verkaufsrechnung oder eine Bestellung, um Ihre Vereinbarung mit dem Debitoren zu erfassen, um bestimmte Produkte unter speziellen Liefer- und Zahlungsbedingungen zu verkaufen.  
 
@@ -25,7 +25,7 @@ In allen anderen Situationen ist das Vorgehen bei Verkaufsaufträgen gleich wie 
 
 Sie können mit dem Debitor verhandeln, indem Sie zuerst ein Verkaufsangebot erstellen, das Sie in eine Verkaufsrechnung oder einen Verkaufsauftrag umwandeln können, wenn Sie dem Verkauf zustimmen. Weitere Informationen unter [Verkaufsangebote erstellen](sales-how-make-offers.md)
 
-## Verkaufsrechnung erstellen
+## <a name="create-sales-invoices" />Verkaufsrechnung erstellen
 
 Wenn der Debitor entscheidet zu kaufen, senden Sie die Verkaufsrechnung, um die entsprechende Menge und die Wertposten zu erstellen. Wenn Sie die Verkaufsrechnung buchen, können Sie sie als PDF-Dateianhang auch senden. Sie können den E-Mail-Text haben, der mit einer Zusammenfassung der Rechnung und der Zahlungsinformationen, wie ein Link zu PayPal, vorab ausgefüllt wurde. Erfahren Sie mehr unter [Artikel versenden und Dokumente per E-Mail versenden](ui-how-send-documents-email.md). Wenn der Debitor die Rechnung gezahlt hat, können Sie die Zahlung auf verschiedene Arten ausführen, abhängig von der Größe und dem gewünschten Workflow der Organisation. Erfahren Sie mehr unter [Registrierung von Zahlungen](#registering-payments) Sektion.  
 
@@ -33,7 +33,7 @@ Artikelkarten können einen **Bestand**, **Service** und **Nicht-Bestand** haben
 
 Sie können die oberen Infoboxen des Verkaufsangebotes auf zwei Arten ausfüllen, abhängig davon, ob der Debitor bereits registriert ist. Siehe Schritt 2 im folgenden Verfahren.
 
-### So erstellen Sie eine Verkaufsrechnung
+### <a name="to-create-a-sales-invoice" />So erstellen Sie eine Verkaufsrechnung
 
 1. Wählen Sie das Symbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Verkaufsrechnungen** ein und wählen Sie dann den zugehörigen Link.  
 2. Geben Sie im Feld **Debitor** den Namen eines vorhandenen Debitors ein. Wenn der Kunde jedoch neu und daher nicht registriert ist, befolgen Sie diese Schritte, um die Standardkundeninformationen auf der Seote **Verkaufsrechnung** auszufüllen:
@@ -88,11 +88,11 @@ Das Dialogfeld **Buchungs- und Sendebestätigung** zeigt die gewünschte Methode
 
 Der zugehörige Artikel und die Debitorenposten werden nun im System erfasst erstellt, und die Verkaufsrechnung wird als PDF-Dokument ausgegeben. Die Verkaufsrechnung wird in der Liste der gebuchten Verkaufsrechnungen entfernt und durch einen neuen Beleg in der Liste der gebuchten Verkaufsrechnungen ersetzt.  
 
-### Rechnungsrabatte bei Verkäufen berechnen
+### <a name="calculating-invoice-discounts-on-sales" />Rechnungsrabatte bei Verkäufen berechnen
 
 [!INCLUDE [sales-invoice-discounts](includes/sales-invoice-discounts.md)]
 
-## Gebuchte Rechnungen
+## <a name="posted-invoices" />Gebuchte Rechnungen
 
 [!INCLUDE [posted-invoices](includes/posted-invoices.md)]
 
@@ -100,7 +100,7 @@ Sie können eine gebuchte Verkaufsrechnung einfach korrigieren oder stornieren, 
 
 [Die Liste **Gebuchte Verkaufsrechnungen** öffnen](https://businesscentral.dynamics.com/?page=143) in [!INCLUDE [prod_short](includes/prod_short.md)].
 
-## Zahlungen registrieren
+## <a name="registering-payments" />Zahlungen registrieren
 
 Abhängig von den Unternehmensanforderungen können Sie bezahlt werden und die Zahlung auf unterschiedliche Arten erfassen: automatisch und durch Zahlungsverkehr.  
 
@@ -115,13 +115,13 @@ Sie können direkt gezahlte Rechnungen für nicht-registrierte Debitoren auch er
 > [!TIP]
 > Wenn Sie Ihren Kunden Erinnerungen an überfällige Zahlungen senden möchten, müssen Sie Erinnerungsstufen und -bedingungen einrichten. Weitere Informationen finden Sie unter [Einrichten von Mahnmethoden, Bestimmungen und Mahntext](finance-setup-reminders.md)  
 
-## Externe Belegnummern
+## <a name="external-document-numbers" />Externe Belegnummern
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/invoicing-customers-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulesinvoicing-customers-dynamics--business-centralindex" />Siehe verwandte [Microsoft Schulungen](/training/modules/invoicing-customers-dynamics-365-business-central/index)
 
-## Siehe auch
+## <a name="see-also" />Siehe auch
 
 [Verkauf](sales-manage-sales.md)  
 [Einrichten von Verkäufen](sales-setup-sales.md)  

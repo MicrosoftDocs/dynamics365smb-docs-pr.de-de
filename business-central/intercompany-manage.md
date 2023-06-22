@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.keywords: 'IC, group, consolidation, affiliate, subsidiary'
 ms.search.form: '605,'
 ---
-# Intercompanytransaktionen verwalten
+# <a name="managing-intercompany-transactions" />Intercompanytransaktionen verwalten
 
 Unternehmen mit mehr als einer juristischen Person mit getrennten Buchhaltungsfunktionen können von konzerninternen Transaktionen profitieren. Es ist beispielsweise nützlich für Unternehmen, die Niederlassungen in mehreren internationalen Märkten oder Regionen haben. Oder Ihre Organisation besteht aus mehreren Unternehmen, verfügt jedoch nicht über die entsprechende Anzahl von Buchungs- und Verwaltungsteams. Mithilfe von Intercompanytransaktionen können Sie die Geschäftsvorgänge und -transaktionen zwischen diesen Unternehmen in der Intercompanypartnerschaft vereinfachen und rationalisieren.
 
@@ -23,7 +23,7 @@ Intercompanyfunktionen bieten die folgenden vier wichtigsten Vorteile:
 * Vollständiger Überwachungspfad und volle Einsehbarkeit von Geschäftsaktivitäten und des Transaktionsverlaufs  
 * Effiziente und kosteneffektive Transaktionen mit Konzernunternehmen und Tochtergesellschaften  
 
-## Flow von Geschäftsaktivitäten optimieren  
+## <a name="streamline-the-flow-of-business-activities" />Flow von Geschäftsaktivitäten optimieren
 
 Mithilfe von Intercompanytransaktionen können Sie innerhalb der Anwendung Verkaufs- und Einkaufsbelege und Fibu-Buch.-Blattposten auf alle Außenstellen, Verkaufsbüros oder Tochtergesellschaften verteilen. Die Verteilung von Transaktionen spart Zeit und steigert die Effizienz im gesamten Unternehmen, indem die Dateneingabe reduziert wird. Es reduziert die Notwendigkeit, Verkaufs- und Einkaufsdokumente zu senden, zu empfangen, zu drucken und zu archivieren.  
 
@@ -68,14 +68,14 @@ Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Artikel
 |Organisieren Sie und verarbeiten Sie die eingehenden und ausgehenden Transaktionen, die Sie zwischen Intercompanypartnern austauschen.|[Intercompany-Ein- und -Ausgangstransaktionen verwalten](intercompany-how-manage-intercompany-inbox.md)|
 |Verwenden Sie konzerninterne Transaktionen, um die Kosten zwischen Partnerunternehmen zu verteilen.|[Kosten den Intercompanypartnern zuordnen](intercompany-allocate-costs.md)|
 
-## Weitere Informationen
+## <a name="see-also" />Weitere Informationen
 
 [Finanzen](finance.md)  
 [Finanzen einrichten](finance-setup-finance.md)  
 [Arbeiten mit Fibu Buch.-Blättern](ui-work-general-journals.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

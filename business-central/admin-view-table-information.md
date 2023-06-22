@@ -11,13 +11,13 @@ ms.date: 08/23/2022
 ms.author: jswymer
 ---
 
-# Tabelleninformationen anzeigen
+# <a name="viewing-table-information" />Tabelleninformationen anzeigen
 
 Auf der Seite **8700 Tabelleninformationen** erhalten Sie Informationen über die Anzahl der Datensätze in allen System- und Geschäftstabellen in [!INCLUDE[prod_short](includes/prod_short.md)], und wie viele Daten jede Tabelle enthält.
 
 Diese Informationen sind hilfreich bei der Behebung von Leistungsproblemen, da Sie die Verteilung der Datengröße auf Tabellen anzeigen können.
 
-## Tabelleninformationen anzeigen
+## <a name="viewing-table-information" />Tabelleninformationen anzeigen
 
 Um diese Seite zu öffnen, wählen Sie das ![Suche nach Seite oder Bericht.](media/ui-search/search_small.png "Suchen Sie nach dem Symbol Seite oder Bericht") Symbol. Geben Sie **Tabelleninformationen** ein und wählen Sie dann den entsprechenden Link.
 
@@ -38,7 +38,7 @@ In der folgenden Tabelle werden die für jede Tabelle bereitgestellten Informati
 > [!NOTE]
 > Wenn Sie Daten in einer Tabelle löschen, startet [!INCLUDE[prod_short](includes/prod_short.md)] mehrere Prozesse im Hintergrund, um sicherzustellen, dass alles in Ihrer Datenbank bereinigt wird. Die Werte auf der Seite Tabelleninformationen werden erst aktualisiert, wenn diese Prozesse abgeschlossen sind, was eine Weile dauern kann. Die Wartezeit kann je nach Größe Ihrer Datenbank variieren.
 
-## Siehe auch
+## <a name="see-also" />Siehe auch
 
 [Überprüfen von Seiten](across-inspect-page.md)  
 [Artikel zur Leistung für Entwickler](/dynamics365/business-central/dev-itpro/performance/performance-developer)  

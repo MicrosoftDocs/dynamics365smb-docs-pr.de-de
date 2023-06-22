@@ -10,7 +10,7 @@ ms.search.keywords: 'marketing, relationship, prospect, contact, client, custome
 ms.date: 04/01/2021
 ms.author: jswymer
 ---
-# Aktivitäten mit Kontakten automatisch aufzeichnen
+# <a name="recording-interactions-with-contacts-automatically" />Aktivitäten mit Kontakten automatisch aufzeichnen
 Sie können Anwendung für die Automatische Aufzeichnung von Aktivitäten für Verkaufs-, Einkaufs- und Servicebelege, Deckblätter, E-Mails und Telefonanrufe konfigurieren:
 
 * Drucken von Verkaufs- und Einkaufsanfragen, Bestellungen, Rechnungen, Gutschriften, Deckblätter.
@@ -22,7 +22,7 @@ Sie können Anwendung für die Automatische Aufzeichnung von Aktivitäten für V
 Um die automatische Aufzeichnung dieser Aktivitäten einzurichten, geben Sie Aktivitätenvorlagen für diese Dokumente und Aktionen Aktivitätenvorlagen an, indem Sie die Seite **Aktivitätenvorlage eingerichtet** verwenden.  
 Um die Seite **Interaktionsvorlage Einrichtung** zu öffnen, wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Interaktionsvorlage Einrichtung** ein und wählen Sie dann den entsprechenden Link.
 
-## Weitere Informationen
+## <a name="see-also" />Weitere Informationen
 [Aufzeichnen von Aktivitäten mit Kontakten](marketing-interactions.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

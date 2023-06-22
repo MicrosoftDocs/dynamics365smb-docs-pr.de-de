@@ -11,13 +11,13 @@ ms.search.form: '257, 259, 279'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# Herkunftscodes und Ursachencodes für Audit Trails einrichten
+# <a name="setting-up-source-codes-and-reason-codes-for-audit-trails" />Herkunftscodes und Ursachencodes für Audit Trails einrichten
 
 Allen gebuchten Posten werden automatisch einem Herkunftscode zugewiesen, sodass Transaktionen bis zu ihrem Ursprung nachverfolgt werden können. Wenn Sie Posten einen zusätzlichen Herkunftscode zuordnen möchten, können Sie Ursachencodes verwenden. Ursachencodes werden verwendet, um den Grund für eine Buchung anzugeben. Ursachencodes können gesamten Buch.-Blattvorlagen und Buch.-Blattnamen oder auch einzelnen Buch.-Blattzeilen und Belegen zugeordnet werden.  
 
 Verwenden Sie als Herkunfstcodes und Ursachencodes aussagekräftige Codes, an die Sie sich leicht erinnern können. Der Code muss eindeutig sein, und Sie können beliebig viele Codes einrichten.
 
-## Herkunftscodes definieren
+## <a name="define-source-codes" />Herkunftscodes definieren
 
 Gelegentlich möchten Sie nachvollziehen, wie ein bestimmter Posten entstanden ist, ob er z. B. beim Buchen eines Buch.-Blattes oder einer Einkaufsrechnung erzeugt wurde. Ein Herkunftscode gibt an, wo ein Posten erstellt wurde. Posten werden erstellt, wenn Buch.-Blätter und Rechnungen gebucht und bestimmte Stapelverarbeitungen ausgeführt werden. Jede Buchungsart hat einen bestimmten Herkunftscode, der zugewiesen wird, wenn Posten erstellt werden.  
 
@@ -25,7 +25,7 @@ Beim Buchen von Buch.-Blättern, Aufträgen, Rechnungen oder Gutschriften sowie 
 
 Beim Buchen oder Ausführen einer Stapelverarbeitung wird dem Posten automatisch der richtige Herkunftscode zugeordnet. Wenn Sie z. B. von einem Fibu Buch.-Blatt aus buchen, erhält der Posten den Code *FIBUBUCHBL*. Sie können dann die Seite **Sachposten** filtern, um anzuzeigen, welche Einträge beispielsweise aus dem Fibu Buch.-Blatt oder aus Verkaufsbelegen gebucht wurden.
 
-### So definieren Sie Herkunftscodes
+### <a name="to-define-source-codes" />So definieren Sie Herkunftscodes
 
 1. Wählen Sie das ![Suchen Sie nach Seite oder Bericht.](media/ui-search/search_small.png "Nach dem Symbol für „Seite“ oder „Bericht“ suchen") Symbol. Geben Sie **Herkunftscode Einrichtung** ein, und wählen Sie dann den entsprechenden Link.  
 
@@ -33,11 +33,11 @@ Beim Buchen oder Ausführen einer Stapelverarbeitung wird dem Posten automatisch
 
 Sie können den Inhalt eines Felds später ändern. Diese Änderung wirkt sich dann auf zukünftige Buchungen aus.
 
-## Herkunftscodes ändern
+## <a name="change-source-codes" />Herkunftscodes ändern
 
 Sie können einen Herkunftscode ändern. Sie können den Herkunftscode *FIBUBUCHBL* beispielsweise in *FIBUBL* ändern.
 
-### So ändern Sie Herkunftscodes
+### <a name="to-change-source-codes" />So ändern Sie Herkunftscodes
 
 1. Wählen Sie die ![Suche nach Seite oder Bericht.](media/ui-search/search_small.png "Nach dem Symbol für „Seite“ oder „Bericht“ suchen") Symbol. Geben Sie **Herkunftscodes** ein und wählen Sie dann den zugehörigen Link.
 
@@ -47,11 +47,11 @@ Sie können einen Herkunftscode ändern. Sie können den Herkunftscode *FIBUBUCH
 
 Alle neuen Posten, die über das Fibu Buch.-Blatt gebucht werden, weisen den neuen Herkunftscode auf.
 
-## Ursachencodes definieren
+## <a name="define-reason-codes" />Ursachencodes definieren
 
 Ursachencodes ergänzen die Herkunftcodes und geben an, warum ein Eintrag erstellt wurde. Sie können Ursachencodes für einzelne Posten und permanente Codes bestimmten Buch.-Blattvorlagen und Buch.-Blattnamen zuweisen. Wenn ein Ursachencodes mit einer Buch.-Blattzeile bzw. einem Einkaufs- oder Verkaufskopf verknüpft ist, werden beim Buchen alle Posten mit dem entsprechenden Ursachencode markiert.  
 
-### So richten Sie Ursachencodes ein
+### <a name="to-set-up-reason-codes" />So richten Sie Ursachencodes ein
 
 1. Wählen Sie das ![Suchen Sie nach Seite oder Bericht.](media/ui-search/search_small.png "Symbol „Suche nach Seite oder Bericht“")  Symbol. Geben Sie **Ursachencodes** ein und wählen Sie dann den zugehörigen Link.
 
@@ -61,7 +61,7 @@ Wiederholen Sie den Ablauf für jeden Code, den Sie verwenden möchten. Sie kön
 
 Nachfolgend wird beschrieben, wie Sie einer Buch.-Blattvorlage einen Ursachencodes hinzufügen. Ähnliche Schritte gelten jedoch für das Hinzufügen eines Ursachencodes zu einer Buch.-Blattzeile oder einer Stapelverarbeitung.  
 
-### So weisen Sie Buch.-Blattvorlagen Ursachencodes zu
+### <a name="to-assign-reason-codes-to-journal-templates" />So weisen Sie Buch.-Blattvorlagen Ursachencodes zu
 
 1. Wählen Sie das ![Suchen Sie nach Seite oder Bericht.](media/ui-search/search_small.png "Symbol „Suche nach Seite oder Bericht“")  Symbol. Geben Sie **Allgemeine Fibu Buch.-Blattvorlagen** ein, und wählen Sie dann den zugehörigen Link.
 
@@ -71,7 +71,7 @@ Nachfolgend wird beschrieben, wie Sie einer Buch.-Blattvorlage einen Ursachencod
 
 Der ausgewählte Ursachencode wird in neue Buch.-Blätter eingefügt, die unter dieser Buch.-Blattvorlage erstellt werden. In anderen Anwendungsbereichen weisen Sie auf dieselbe Art und Weise Buch.-Blattvorlagen Ursachencodes zu.
 
-### So verwenden Sie Ursachencodes in Verkaufs- und Einkaufsbelegen
+### <a name="to-use-reason-codes-on-sales-and-purchase-documents" />So verwenden Sie Ursachencodes in Verkaufs- und Einkaufsbelegen
 
 1. Öffnen Sie den gewünschten Verkaufs- oder Einkaufsbeleg.
 
@@ -79,9 +79,9 @@ Der ausgewählte Ursachencode wird in neue Buch.-Blätter eingefügt, die unter 
 
 Wenn die Rechnung gebucht wird, wird der Ursachencode in jeden Sach-, Debitor- und Kreditorposten kopiert. Sie können einzelnen Einkaufs- oder Verkaufszeilen nicht unterschiedliche Ursachencodes zuordnen, da alle Zeilen als ein Posten gebucht werden.
 
-## Siehe verwandte [Microsoft Schulungen](/training/paths/set-up-financial-management-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathsset-up-financial-management-dynamics--business-central" />Siehe verwandte [Microsoft Schulungen](/training/paths/set-up-financial-management-dynamics-365-business-central/)
 
-## Siehe auch
+## <a name="see-also" />Siehe auch
 
 [Finanzen](finance.md)  
 [Abstimmen von Bankkonten](bank-manage-bank-accounts.md)  
@@ -90,7 +90,7 @@ Wenn die Rechnung gebucht wird, wird der Ursachencode in jeden Sach-, Debitor- u
 [Analysieren von Cashflow in Ihren Mandanten](finance-analyze-cash-flow.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

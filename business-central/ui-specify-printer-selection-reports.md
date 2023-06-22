@@ -11,14 +11,14 @@ ms.search.form: '2650, 2750, 2752, 2753, 2754, 8900,'
 ms.date: 02/09/2023
 ms.author: jswymer
 ---
-# <a name="default"></a>Standarddrucker festlegen  
+# <a name="a-namedefaultaspecify-a-default-printer" /><a name="default"></a>Standarddrucker festlegen
 
 Nachdem Drucker in Business Central eingerichtet wurden, können Sie festlegen, welchen Drucker Sie standardmäßig verwenden möchten. Es gibt verschiedene Möglichkeiten, Drucker als Standarddrucker für Berichte und andere Druckaufträge festzulegen. Ein Standarddrucker ist nützlich, wenn Sie mit verschiedenen Berichten arbeiten, die aufgrund ihrer Platzierung in der Firma oder ihrer Ausgabemöglichkeiten unterschiedliche Drucker erfordern.
 
 > [!IMPORTANT]
 > Die einzigen Drucker, die Sie als Standarddrucker angeben können, sind **Microsoft-Druckausgabe in PDF** und Clouddrucker, die bereits für die Verwendung in Business Central eingerichtet wurden, wie E-Mail-Drucker und Drucker für universelles Drucken. Clouddrucker werden normalerweise von einem Administrator eingerichtet. Weitere Informationen finden Sie unter [Druckereinrichtung und -verwaltung](admin-printer-setup-overview.md).   
 
-## Einen Drucker als Standarddrucker für alle Druckaufträge festlegen
+## <a name="set-a-printer-as-a-default-printer-for-all-print-jobs" />Einen Drucker als Standarddrucker für alle Druckaufträge festlegen
 
 Auf der Seite **Druckerverwaltung** können Sie einen Drucker als Standarddrucker für alle Druckaufträge einrichten. Sie können den Drucker nur für Sie oder für alle Benutzer als Standard festlegen.
 
@@ -31,7 +31,7 @@ Auf der Seite **Druckerverwaltung** können Sie einen Drucker als Standarddrucke
 > [!NOTE]
 > Das Festlegen eines Standarddruckers über die **Druckerverwaltung** fügt einen Eintrag in die **Druckerauswahl** hinzu.
 
-## Den Standarddrucker für bestimmte Berichte festlegen
+## <a name="set-a-default-printer-for-specific-reports" />Den Standarddrucker für bestimmte Berichte festlegen
 
 Auf der Seite **Druckerauswahl** können Sie den Drucker angeben, den ein Bericht standardmäßig verwendet. Standarddrucker werden auf Benutzerkontenbasis festgelegt. Sie können einen Standarddrucker nur für sich selbst, einen anderen Benutzer oder alle Benutzer festlegen.
 
@@ -60,17 +60,17 @@ Sie oder der Administrator können auch die Seite **Druckerauswahl** verwenden, 
 > [!NOTE]
 > Spezifischere Druckerauswahlen haben Vorrang vor einer allgemeineren Druckerauswahl. Zum Beispiel hat eine Druckerauswahl, die Werte in den Feldern **Benutzer-ID**, **Berichts-ID** und **Druckername** hat, Vorrang vor einer Druckerauswahl, die leere Einträge in den Feldern **Benutzer-ID** oder **Berichts-ID** hat.
 
-## Auswählen des Druckers beim Ausführen eines Berichts
+## <a name="choosing-the-printer-when-running-a-report" />Auswählen des Druckers beim Ausführen eines Berichts
 
 Anstatt den Standarddrucker zu verwenden, wenn Sie einen Bericht ausführen, können Sie diese Einstellung auf der Anforderungsseite außer Kraft setzen. Wählen Sie einfach im Dropdown-Menü **Drucker** den Drucker aus, den Sie für diese Berichtsgenerierung verwenden möchten.
 
-## Größe von Druckaufträgen anpassen
+## <a name="sizing-print-jobs" />Größe von Druckaufträgen anpassen
 
 Das Drucken in der Cloud ist für Dokumente mit einer angemessenen Größe vorgesehen. Die meisten Clouddienste, einschließlich PrintNode und HP ePrint, sind auf 10 MB pro Auftrag begrenzt. Wenn Sie größere Berichte drucken müssen, müssen Sie diese möglicherweise in mehrere Ausdrucke aufteilen.
 
 [Microsoft-Schulung](/training/modules/change-documents-dynamics-365-business-central/)
 
-## Siehe auch
+## <a name="see-also" />Siehe auch
 
 [Druckerverwaltung](admin-printer-setup-overview.md)  
 [Drucker für Universal Print einrichten](admin-printer-setup-universal-print.md)  

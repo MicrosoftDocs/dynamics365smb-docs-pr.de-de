@@ -11,11 +11,11 @@ ms.reviewer: edupont
 ms.date: 06/25/2021
 ms.author: edupont
 ---
-# Mehrere Belege gleichzeitig buchen
+# <a name="post-multiple-documents-at-the-same-time" />Mehrere Belege gleichzeitig buchen
 
 Anstatt einzelne Belege einzeln zu buchen, können Sie mehrere nicht gebuchte Belege in einer Liste für die Stapelbuchung auswählen, entweder für die sofortige Buchung oder für die geplante Buchung zum Beispiel am Tagesende. Dies kann hilfreich sein, wenn nur ein Supervisor Dokumente veröffentlichen kann, die von anderen Benutzern erstellt wurden, oder um zu vermeiden, dass Systemleistungsprobleme während der Arbeitszeit veröffentlicht werden.
 
-## Mehrere Einkaufsbestellungen sofort buchen
+## <a name="to-post-multiple-purchase-orders-immediately" />Mehrere Einkaufsbestellungen sofort buchen
 
 Das folgende Verfahren erläutert, wie Sie mehrere Einkaufsbestellungen sofort buchen. Die Schritte sind für alle Einkaufs- und Verkaufsbelege ähnlich.
 
@@ -26,7 +26,7 @@ Das folgende Verfahren erläutert, wie Sie mehrere Einkaufsbestellungen sofort b
 5. Wählen Sie die zu **buchende** Aktion aus, und wählen Sie dann die Aktion **Buchen** aus.
 6. Klicken Sie auf die Schaltfläche **Ja** auf der Bestätigungsnachricht.
 
-## Um mehrere Einkaufsbestellungen sofort zu buchen
+## <a name="to-batch-post-multiple-purchase-orders" />Um mehrere Einkaufsbestellungen sofort zu buchen
 
 Das folgende Verfahren erläutert, wie Sie mehrere Einkaufsbestellungen buchen. Die Schritte sind für alle Kauf- und Verkaufsbelege gleich, bei denen die Aktion **Stapelbuchung** verfügbar ist.
 
@@ -42,7 +42,7 @@ Das folgende Verfahren erläutert, wie Sie mehrere Einkaufsbestellungen buchen. 
 > [!NOTE]
 > Das Buchen mehrerer Dokumente kann einige Zeit dauern und andere Benutzer blockieren. Erwägen Sie die Aktivierung der Hintergrundbuchung. Weitere Informationen finden Sie unter [Job-Warteschlangen zur Einplanung von Aufgaben verwenden](admin-job-queues-schedule-tasks.md).
 
-## So richten Sie Hintergrundbuchung mit Projektwarteschlangen ein
+## <a name="to-set-up-background-posting-with-job-queues" />So richten Sie Hintergrundbuchung mit Projektwarteschlangen ein
 Projektwarteschlangen sind ein effektives Werkzeug, um die Ausführung von Geschäftsprozessen im Hintergrund zu planen, z. B. wenn mehrere Benutzer versuchen, Verkaufsaufträge zu buchen, aber nur ein Auftrag gleichzeitig verarbeitet werden kann.  
 
 Nachfolgend wird erklärt, wie die Hintergrundbuchung von Verkaufsaufträgen eingerichtet wird. Die Schritte sind für den Kauf ähnlich.  
@@ -67,14 +67,14 @@ Nachfolgend wird erklärt, wie die Hintergrundbuchung von Verkaufsaufträgen ein
 4. Um sicherzustellen, dass die Aufgabenwarteschlange wie erwartet arbeitet, buchen Sie einen Verkaufsauftrag. Weitere Informationen finden Sie unter [Produkte verkaufen](sales-how-sell-products.md)
     Die Verkaufsaufträge werden nun zu einem dedizierten Auftragswarteschlangeneintrag hinzugefügt, der festlegt, wann die Belege gebucht werden. 
 
-### So wird der Status aus einem Verkaufs- oder Einkaufsbeleg angezeigt
+### <a name="to-view-status-from-a-sales-or-purchase-document" />So wird der Status aus einem Verkaufs- oder Einkaufsbeleg angezeigt
 Wenn die Projektwarteschlange den Verkaufsauftrag nicht buchen kann, wird der Status auf **Fehler** geändert, und der Verkaufsauftrag wird der Liste von Verkaufsaufträgen hinzugefügt, die der Benutzer manuell verarbeiten muss.
 1. Vom Beleg, den Sie versucht haben, mit einer Hintergrundbuchung zu buchen, wählen Sie das Feld **Projektwarteschlangenstatus** aus, das **Fehler** enthält.
 2. Überprüfen Sie die Fehlermeldung und korrigieren Sie das Problem.
 
 Alternativ können Sie auf der Seite **Projektwarteschlangen-Protokolleinträge** prüfen, ob der Verkaufsauftrag erfolgreich gebucht wurde. Weitere Informationen finden Sie im Abschnitt [Überwachen der Projektwarteschlange](#monitor-the-job-queue).
 
-## So wird ein Projektwarteschlangeneintrag für die Stapelbuchung von Verkaufsaufträgen erstellt
+## <a name="to-create-a-job-queue-entry-for-batch-posting-of-sales-orders" />So wird ein Projektwarteschlangeneintrag für die Stapelbuchung von Verkaufsaufträgen erstellt
 
 Alternativ können Sie Buchungen verschieben, wenn es für Ihre Organisation hilfreich ist. Beispielsweise kann es in Ihrem Unternehmen sinnvoll sein, bestimmte Routinen dann auszuführen, wenn ein Großteil der Dateneingaben für einen Arbeitstag abgeschlossen wurde. Sie können dies erreichen, indem Sie die Projektwarteschlange so einrichten, dass verschiedene Stapelbuchungsberichte ausgeführt werden, wie beispielsweise **Stapelbuchung von Verkaufsaufträgen**, **Stapelbuchungsverkaufsrechnungen** und ähnliche Berichte. [!INCLUDE[prod_short](includes/prod_short.md)] unterstützt die Hintergrundbuchung für alle Verkaufs-, Einkaufs- und Servicebelege.
 
@@ -111,13 +111,13 @@ Der folgende Ablauf zeigt, wie Sie den Bericht **Stapelbuchung von Verkaufsauftr
 
 Verkaufsaufträge, die unter definierte Filter fallen, werden jetzt an jedem Wochentag um 16:00 Uhr gebucht.
 
-## Überwachen der Projektwarteschlange
+## <a name="monitor-the-job-queue" />Überwachen der Projektwarteschlange
 
 Wenn Sie die Hintergrundbuchung mit Projektwarteschlangen einrichten, sollten Sie die Projektwarteschlange regelmäßig überwachen, um Probleme zu erkennen. Sie können den Status auf der Seite **Projektwarteschlangeneinträge** nachverfolgen. Weitere Informationen finden Sie unter [Vorgehensweise: Projektwarteschlangen nutzen, um Aufgaben zu planen](admin-job-queues-schedule-tasks.md)  
 
 Als Administrator können Sie [Application Insights](/azure/azure-monitor/app/app-insights-overview) zum Sammeln und Analysieren von Telemetriedaten verwenden, mit denen Sie Probleme identifizieren können. Weitere Informationen finden Sie in den Entwickler- und Verwaltungsinhalten unter [Überwachung und Analyse der Telemetrie](/dynamics365/business-central/dev-itpro/administration/telemetry-overview).  
 
-## Weitere Informationen
+## <a name="see-also" />Weitere Informationen
 
 [Dokumente und Buch.-Blatt verbuchen](ui-post-documents-journals.md)  
 [Verwenden von Aufgabenwarteschlangen für die Aufgabenplanung](admin-job-queues-schedule-tasks.md)  

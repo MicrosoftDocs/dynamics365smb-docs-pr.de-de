@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 12/03/2021
 ms.author: edupont
 ---
-# Exemplarische Vorgehensweise: Einrichten und Fakturieren von Verkaufsvorauszahlungen
+# <a name="walkthrough-setting-up-and-invoicing-sales-prepayments" />Exemplarische Vorgehensweise: Einrichten und Fakturieren von Verkaufsvorauszahlungen
 
 Diese exemplarische Vorgehensweise führt Sie durch den Prozess der Einrichtung und die Verwendung von Vorauszahlungen in [!INCLUDE [prod_short](includes/prod_short.md)]. [!INCLUDE [prepayment_def](includes/prepayment_def.md)]
 
@@ -18,7 +18,7 @@ Diese exemplarische Vorgehensweise führt Sie durch den Prozess der Einrichtung 
 
 Sie haben zum Beispiel auch die Möglichkeit zum Senden mehrerer Vorauszahlungsrechnungen, für den Fall, dass dem Auftrag weitere Artikel hinzugefügt wurden.  
 
-## Informationen zu dieser exemplarischen Vorgehensweise  
+## <a name="about-this-walkthrough" />Informationen zu dieser exemplarischen Vorgehensweise
 
 In dieser exemplarischen Vorgehensweise werden folgende Szenarios behandelt:  
 
@@ -29,7 +29,7 @@ In dieser exemplarischen Vorgehensweise werden folgende Szenarios behandelt:
 - Ausgleichen von Vorauszahlungen für einen Auftrag  
 - Fakturieren des Endbetrags für einen Auftrag mit Vorauszahlung  
 
-### Rollen
+### <a name="roles" />Rollen
 
 Diese exemplarische Vorgehensweise umfasst Aufgaben für folgende Rollen:  
 
@@ -37,7 +37,7 @@ Diese exemplarische Vorgehensweise umfasst Aufgaben für folgende Rollen:
 - Auftragsbearbeiterin (Martha)  
 - Debitorenadministrator (Peter)  
 
-## Hintergrund
+## <a name="story" />Hintergrund
 
  Phyllis ist ein Buchhaltungsmanager und entschweidet, welche Debitoren eine Anzahlung leisten müssen, bevor Artikel hergestellt oder geliefert werden. Heike hat [!INCLUDE[prod_short](includes/prod_short.md)] eingerichtet, um Vorauszahlungen automatisch zu berechnen.  
 
@@ -53,7 +53,7 @@ Diese exemplarische Vorgehensweise umfasst Aufgaben für folgende Rollen:
 
  Peter erfasst die Zahlung des Kunden und gleicht sie mit den Rechnungen aus. Anschließend sendet er die endgültige Rechnung.  
 
-## Vorauszahlungen einrichten
+## <a name="set-up-prepayments" />Vorauszahlungen einrichten
 
 Die Debitorenbetreuerin Heike richtet das System zur Verarbeitung von Vorauszahlungen für Debitoren ein.  
 
@@ -63,13 +63,13 @@ Die Debitorenbetreuerin Heike richtet das System zur Verarbeitung von Vorauszahl
 
 In den folgenden Verfahren wird beschrieben, wie Sie Heikes Aufgaben ausführen:  
 
-### So richten Sie Nummernserien für Vorauszahlungen ein
+### <a name="to-set-up-number-series-for-prepayments" />So richten Sie Nummernserien für Vorauszahlungen ein
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Einrichtung Debitoren & Verkauf** ein und wählen Sie dann den entsprechenden Link.  
 2. Erweitern Sie auf der Seite **Debitoren Verkauf Einr.** das Inforegister **Nummernserie**.  
 3. Vergewissern Sie sich, dass die Nummernserien für gebuchte Vorauszahlungsrechnungen im Feld **Geb. Vorauszahlungs-Rechnungsnr.** und gebuchte Verkaufsrechnungen (**Gebuchte Rechnungsnummern**) sowie die Nummernserien für gebuchte Vorauszahlungsgutschriften (**Geb. Vorauszahlungs-Gutschriftennr.**) und gebuchte Gutschriften (**Gebuchte Gutschriftennr.**) übereinstimmen.  
 
-### Lieferungen für nicht geleistete Vorauszahlung sperren
+### <a name="to-block-shipments-for-unpaid-prepayment" />Lieferungen für nicht geleistete Vorauszahlung sperren
 
 1. Aktivieren Sie auf der Seite **Debitoren & Verkauf Einr.** auf dem Inforegister **Allgemein** die Option **Vorauszahlung beim Buchen prüfen**.
 
@@ -79,7 +79,7 @@ Heike legt standardmäßig fest, dass für den Debitoren 20000 eine Anzahlung in
 
 Heike legt fest, dass für alle Debitoren eine Anzahlung in Höhe von 20 % für den Artikel 1896-S fakturiert werden muss. Aufgrund der schlechten Zahlungshistorie des Kunden 20000 verlangt Phyllis vom Kunden 20000 eine Vorauszahlung in Höhe von 40 % für Artikel 1896-S. Im folgenden Beispiel wird gezeigt, wie Sie standardmäßige Vorauszahlungsprozentsätze einrichten.  
 
-### So weisen Sie Debitoren und Artikeln Standardvorauszahlungsprozentsätze zu
+### <a name="to-assign-default-prepayment-percentages-to-customers-and-items" />So weisen Sie Debitoren und Artikeln Standardvorauszahlungsprozentsätze zu
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Debitoren** ein und wählen Sie dann den entsprechenden Link.  
 2. Öffnen Sie das Kartenfenster für Debitor 20000 (Trey Research).
@@ -97,7 +97,7 @@ Heike legt fest, dass für alle Debitoren eine Anzahlung in Höhe von 20 % für
 
 6. Schließen Sie alle Seiten.  
 
-### Ein Konto für Verkaufsvorauszahlung in der allgemeinen Buchungsmatrix angeben
+### <a name="to-specify-an-account-for-sales-prepayments-in-general-posting-setup" />Ein Konto für Verkaufsvorauszahlung in der allgemeinen Buchungsmatrix angeben
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Allgemeine Buchungsmatrixeinrichtung** ein, und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die Zeile aus, in der das Feld **Geschäftsbuchungsgruppe** auf **INLAND** und das Feld **Produktbuchungsgruppe** auf **EINZELHANDEL** festgelegt wurde.  
@@ -106,7 +106,7 @@ Heike legt fest, dass für alle Debitoren eine Anzahlung in Höhe von 20 % für
 > [!TIP]
 > Wenn das Feld auf der Seite **Buchungsmatrix einrichten** nicht angezeigt wird, verwenden Sie die horizontale Bildlaufleiste am unteren Rand der Seite, um nach rechts zu scrollen.  
 
-## Erstellen eines Auftrags, der eine Vorauszahlung erfordert
+## <a name="create-an-order-that-requires-a-prepayment" />Erstellen eines Auftrags, der eine Vorauszahlung erfordert
 
  Im folgenden Szenario erstellt Susan aus der Auftragsabwicklung einen Auftrag, während sie mit einem Debitoren spricht. Die Artikel, die der Debitor bestellt, erfordern eine Vorauszahlung. Außerdem hat der Debitor in der Vergangenheit einige verspätete Zahlungen geleistet. Daher wurde Martha angewiesen, einen festen Betrag von **800** als Vorauszahlung auf dem Auftrag zu benötigen.  
 
@@ -114,7 +114,7 @@ Der Debitor bittet, nur 35 % anzahlen zu müssen. Da Susan dem zustimmen kann, 
 
 Martha erstellt die Vorauszahlungsrechnung und sendet sie an den Kunden.  
 
-### So erstellen Sie einen Verkaufsauftrag mit einer Vorauszahlung
+### <a name="to-create-a-sales-order-with-a-prepayment" />So erstellen Sie einen Verkaufsauftrag mit einer Vorauszahlung
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Verkaufsaufträge** ein, und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die Aktion **Neu**.  
@@ -151,11 +151,11 @@ Martha erstellt die Vorauszahlungsrechnung und sendet sie an den Kunden.
 12. In der Warnung, die erscheint, wählen Sie die Schaltfläche **Ja**. Eine Rate von 35 % wird als Vorauszahlungsprozentsatz für den gesamten Auftrag angewendet.  
 13. Überprüfen Sie dann, ob die Zeilen korrekt aktualisiert wurden.  
 
-## Erstellen einer Vorauszahlungsrechnung
+## <a name="create-a-prepayment-invoice" />Erstellen einer Vorauszahlungsrechnung
 
 Nachdem sie die korrekten Vorauszahlungswerte im Auftrag eingegeben hat, erstellt Martha die Vorauszahlungsrechnung und sendet sie an den Kunden.  
 
-### So erstellen Sie eine Vorauszahlungsrechnung
+### <a name="to-create-a-prepayment-invoice" />So erstellen Sie eine Vorauszahlungsrechnung
 
 1. Wählen Sie auf der Seite **Verkaufsauftrag** nacheinander die Optionen **Aktionen**, **Buchung**, **Vorauszahlung** und dann **Vorauszahlungsrechnung buchen und drucken** aus.
 2. Klicken Sie auf die Schaltfläche **Ja**, um die Rechnung zu buchen.  
@@ -163,11 +163,11 @@ Nachdem sie die korrekten Vorauszahlungswerte im Auftrag eingegeben hat, erstell
 > [!NOTE]  
 > Susan würde nun die Rechnung an den Kunden senden.  
 
-## Erstellen einer weitere Vorauszahlungsrechnung
+## <a name="create-an-additional-prepayment-invoice" />Erstellen einer weitere Vorauszahlungsrechnung
 
 Am folgenden Tag, ruft der Debitor Martha an, und nimmt Änderungen am Auftrag vor. Der Debitor möchte zwei Exemplare des Artikels 1896-S. Susan öffnet und aktualisiert den auftrag, und dann erstellt sie eine zweite Vorauszahlungsrechnung auf dem Auftrag und sendet sie an den Debitoren.  
 
-### So erstellen Sie eine weitere Vorauszahlungsrechnung
+### <a name="to-create-an-additional-prepayment-invoice" />So erstellen Sie eine weitere Vorauszahlungsrechnung
 
 1. Wählen Sie auf der Seite **Verkaufsauftrag** die Aktion **Freigeben** und dann **Erneut öffnen** aus.  
 2. Geben Sie in der Zeile für den Artikel **1896-S** im Feld **Menge** den Wert **2** ein.  
@@ -176,11 +176,11 @@ Am folgenden Tag, ruft der Debitor Martha an, und nimmt Änderungen am Auftrag v
 3. Wählen Sie nacheinander die Optionen **Aktionen**, **Buchen**, **Vorauszahlung** und dann **Vorauszahlungsrechnung buchen und drucken** aus, um eine Rechnung für den zusätzlichen Vorauszahlungsbetrag zu buchen.
 4. Klicken Sie auf die Schaltfläche **Ja**, um die Rechnung zu buchen.  
 
-## Ausgleichen der Vorauszahlungen
+## <a name="apply-the-prepayments" />Ausgleichen der Vorauszahlungen
 
 Der Debitor zahlt den Vorauszahlungsbetrag. Peter aus der Buchhaltung registriert die Zahlung und wendet sie auf die Vorauszahlungsrechnungen an.  
 
-### So gleichen Sie eine Zahlung mit den Vorauszahlungsrechnungen aus
+### <a name="to-apply-a-payment-to-the-prepayment-invoices" />So gleichen Sie eine Zahlung mit den Vorauszahlungsrechnungen aus
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Zahlungseingangs Buch.-Blätter** ein und wählen Sie dann den entsprechenden Link.  
 2. Füllen Sie ein Buchhaltungsprotokoll mit den folgenden Informationen aus.  
@@ -200,11 +200,11 @@ Der Debitor zahlt den Vorauszahlungsbetrag. Peter aus der Buchhaltung registrier
 7. Wählen Sie zum Veröffentlichen des Journals die Aktion **Buchen/Drucken** und dann **Buchen** aus.
 8. Wählen Sie die Schaltfläche **Ja** aus.
 
-## Fakturieren des Restbetrags
+## <a name="invoice-the-remaining-amount" />Fakturieren des Restbetrags
 
 Peter wurde darüber informiert, dass die Artikel im Auftrag geliefert wurden und der Auftrag fakturiert werden kann. Peter erstellt die Rechnung für den Auftrag.  
 
-### So fakturieren Sie den Restbetrag
+### <a name="to-invoice-the-remaining-amount" />So fakturieren Sie den Restbetrag
 
 1. Öffnen Sie den Verkaufsauftrag.
 2. Wählen Sie die Aktion **Buchung** und dann **Buchen** aus.
@@ -218,11 +218,11 @@ Peter wurde darüber informiert, dass die Artikel im Auftrag geliefert wurden un
 
 5. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol, geben Sie **Gebuchte Verkaufsrechnungen** ein und wählen Sie dann den entsprechenden Link.  
 
-## Aktualisieren Sie den Status von vorausbezahlten Bestellungen und Rechnungen automatisch
+## <a name="update-the-status-of-prepaid-orders-and-invoices-automatically" />Aktualisieren Sie den Status von vorausbezahlten Bestellungen und Rechnungen automatisch
 
 Sie können die Auftrags- und Rechnungsverarbeitung beschleunigen, indem Sie Auftragswarteschlangeneinträge einrichten, die den Status dieser Dokumente automatisch aktualisieren. Wenn eine Vorauszahlungsrechnung bezahlt wird, können die Auftragswarteschlangeneinträge den Dokumentstatus automatisch von **Ausstehende Vorauszahlung** zu **Freigegeben** ändern. Wenn Sie die Jobwarteschlangeneinträge einrichten, müssen Sie folgende Codeunits verwenden: **383 Ausstehende Vorauszahlungsverkäufe aktualisieren** und **383 Ausstehende Vorauszahlungsbestellungen aktualisieren**. Wir empfehlen, die Einträge häufig auszuführen, z. B. jede Minute. Weitere Informationen finden Sie unter [Job-Warteschlangen zur Einplanung von Aufgaben verwenden](admin-job-queues-schedule-tasks.md).
 
-## Nächste Schritte
+## <a name="next-steps" />Nächste Schritte
 
 In dieser Demonstration wurde beschrieben, wie Sie [!INCLUDE[prod_short](includes/prod_short.md)] zur Verarbeitung von Vorauszahlungen einrichten. 
 
@@ -235,9 +235,9 @@ Zudem wurden das Buchen einer Vorauszahlungsrechnung, Erstellen einer zweiten Vo
 
 Die Vorauszahlungsfunktionen erleichtern die Einrichtung und Durchsetzung von Vorauszahlungsregeln für Kunden und Artikel. Außerdem können Sie jede Zahlung gegen eine Rechnung buchen.  
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/prepayment-invoices-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesprepayment-invoices-dynamics--business-central" />Siehe verwandte [Microsoft Schulungen](/training/modules/prepayment-invoices-dynamics-365-business-central/)
 
-## Siehe auch
+## <a name="see-also" />Siehe auch
 
 [Fakturieren von Vorauszahlungen](finance-invoice-prepayments.md)  
 [Finanzen](finance.md)  

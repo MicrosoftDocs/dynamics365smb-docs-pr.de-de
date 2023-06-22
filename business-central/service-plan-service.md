@@ -10,7 +10,7 @@ ms.search.keywords: 'service, work hours, configure, price, pricing'
 ms.date: 06/23/2021
 ms.author: bholtorf
 ---
-# Planungsservices
+# <a name="planning-services" />Planungsservices
 Mit [!INCLUDE[prod_short](includes/prod_short.md)] können Sie die Standardaufgaben für die Erfüllung der Kundenserviceanforderungen einrichten. Dazu muss bestimmt werden, welche Serviceangebote von der Serviceorganisation unterstützt werden und zu welchem Preis.   
 
 [!INCLUDE[prod_short](includes/prod_short.md)] stellt auch mehrere Statistiktools her, die Sie verwenden können, um zu bestimmen wie diese Elemente laufen und um zu bestimmen welche Bereiche Sie verbessern können.
@@ -25,7 +25,7 @@ Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Themen,
 |Verstehen Sie die Beziehung zwischen den Status einer Reparatur und deren Auswirkung auf zugewiesene Ressourcen und umgekehrt.|[Zuordnungsstatus und Reparaturstatus](service-allocation-status-and-repair-status.md)|  
 |Statistik verwenden, um Ihre Servicearbeiten zu analysieren. | [So zeigen Sie die Servicestatistik an](service-service-statistics.md) |
 
-## Siehe auch
+## <a name="see-also" />Siehe auch
 [Erfüllen von Serviceverträgen](service-fulfill-service-contracts.md)  
 [Bereitstellen von Service](service-deliver-service.md)  
 [Einrichten von Preisen und zusätzlichen Kosten für Services](service-how-setup-service-costs-pricing.md)  

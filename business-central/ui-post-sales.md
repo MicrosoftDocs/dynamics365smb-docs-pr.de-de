@@ -11,7 +11,7 @@ ms.search.form: '130, 142, 1350'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# Verkäufe buchen
+# <a name="posting-sales" />Verkäufe buchen
 
 Unter dem Menü **Buchen** in einem Verkaufsbeleg auswählen können Sie zwischen den folgenden Buchungsfunktionen auswählen:
 
@@ -37,19 +37,19 @@ Für jede Zeile des Verkaufsauftrags wird ein Artikelposten in der Tabelle **Art
 
 Sie können entweder buchen oder buchen und senden. Wenn Sie die Option wählen, zu buchen und zu senden, wird eine PDF-Datei generiert, die Sie dann senden können. Sie können auch die Funktion **Stapelbuchen** wählen, mit der Sie mehrere Aufträge gleichzeitig buchen können. Weitere Informationen finden Sie unter [Mehrere Belege gleichzeitig buchen](ui-batch-posting.md).
 
-## Anzeigen von Posten
+## <a name="viewing-ledger-entries" />Anzeigen von Posten
 
 Wenn die Buchung vollständig ist, werden die gebuchten Verkaufszeilen aus der Bestellung entfernt. Eine Meldung erscheint, die Ihnen mitteilt, dass die Buchung vollständig ist. Im Anschluss können Sie die gebuchten Posten auf den verschiedenen Seiten einsehen, die gebuchte Posten enthalten, einschließlich **Debitorenposten**, **Sachposten**, **Artikelposten**, **Lagerplatzposten**, **Geb. Verkaufsrechnung**.  
 
 In den meisten Fällen können Sie Posten von der betroffenen Karte oder dem betroffenen Beleg aus öffnen. Auf der Seite **Debitorenkarte** wählen Sie beispielsweise die Aktion **Posten** aus.
 
-## Bearbeiten von Posten
+## <a name="editing-ledger-entries" />Bearbeiten von Posten
 
 Sie können bestimmte Felder in gebuchten Einkaufsbelegen bearbeiten, z. B. die **Paketverfolgungsnr.** Feld eingetragen. Weitere Informationen finden Sie unter [Gebuchte Belege bearbeiten](across-edit-posted-document.md). Bei kritischeren Feldern, die sich auf den Überwachungspfad auswirken, müssen Sie die Buchung stornieren oder rückgängig machen. Weitere Informationen finden Sie unter [Erfassungsbuchungen stornieren und Belege/Lieferungen rückgängig machen](finance-how-reverse-journal-posting.md).
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/ship-invoice-items-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulesship-invoice-items-dynamics--business-centralindex" />Siehe verwandte [Microsoft Schulungen](/training/modules/ship-invoice-items-dynamics-365-business-central/index)
 
-## Siehe auch
+## <a name="see-also" />Siehe auch
 
 [Verkauf](sales-manage-sales.md)  
 [Mehrere Dokumente gleichzeitig buchen](ui-batch-posting.md)  

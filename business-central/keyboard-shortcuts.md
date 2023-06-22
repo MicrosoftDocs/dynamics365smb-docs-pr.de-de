@@ -11,7 +11,7 @@ ms.service: dynamics365-business-central
 ms.custom: bap-template
 ---
 
-# Tastenkombinationen
+# <a name="keyboard-shortcuts" />Tastenkombinationen
 
 Dieser Artikel gibt einen Überblick über einige der Tastenkombinationen, die Sie nutzen können, wenn Sie mit [!INCLUDE[prod_short](includes/prod_short.md)] arbeiten.
 
@@ -21,7 +21,7 @@ Einen Überblick über die gängigsten Tastenkombinationen finden Sie unter [Tas
 > Für eine grafische Darstellung der am häufigsten verwendeten Tastenkombinationen wählen Sie das folgende Bild und laden Sie die PDF-Datei herunter.  
 > [ ![Symbol für die PDF-Datei.](media/keyboard_shortcut_inline.png) ](media/keyboard_shortcuts.pdf "Symbol zum Öffnen einer PDF")
 
-## Matrix
+## <a name="overview" />Matrix
 
 Die Tastenkombinationseingabehilfe kann es effizienter und einfacher machen, um zu verschiedenen Bereichen und Elementen auf einer Seite zu navigieren. Sie werden von den meisten Webbrowsern unterstützt; jedoch unterscheiden sich einige davon im Verhalten.
 
@@ -33,7 +33,7 @@ Die meisten Verknüpfungen sind gleich, unabhängig davon, ob das Betriebssystem
 > [!NOTE]
 > Zusätzlich zu den in diesem Artikel beschriebenen globalen Tastenkombinationen stehen eine Reihe von geschäftsspezifischen Tastenkombinationen zur Verfügung. In der generischen Version von [!INCLUDE[prod_short](includes/prod_short.md)] Zum Beispiel, bucht <kbd>F9</kbd> einen Beleg und <kbd>STRG</kbd>+<kbd>F7</kbd> zeigt die Finanzbuchungen für einen Datensatz wenn Sie den Datensatz in der Karte öffnen. Dieser Artikel enthält einige der gängigeren geschäftsspezifischen Tastenkombinationen, die in Kursivschrift angezeigt werden. Beachten Sie, dass die tatsächlichen Verknüpfungen in Ihrer Lösung unterschiedlich sein können. In der Benutzeroberfläche wird die Tastenkombination in der QuickInfo für die betreffende Aktion angezeigt.
 
-##  <a name="Keyboard"></a> Allgemeine Tastenkombinationen
+## <a name="a-namekeyboarda-general-keyboard-shortcuts" /><a name="Keyboard"></a> Allgemeine Tastenkombinationen
 
 Die folgende Tabelle beschreibt Tastenkombinationen, um in verschiedenen Elementen zu navigieren und diese aufzurufen. Zu den Elementen gehören Aktionen, Dropdownlisten, Suchvorgänge usw. Details über die Tastenkombinationen zum Navigieren von Datensätzen, wenn Sie innerhalb einer Liste abrufen, finden Sie im nächsten Abschnitt.
 
@@ -67,14 +67,14 @@ Die folgende Tabelle beschreibt Tastenkombinationen, um in verschiedenen Element
 |<kbd>UMSCHALT</kbd>+<kbd>TAB</kbd>|Verschieben Sie den Fokus auf die folgende oder vorherige Steuerung oder das Element auf einer Seite wie Schaltflächen, Felder oder Artikel in einer Liste.|
 |<kbd>J</kbd> und <kbd>N</kbd>|Aktivieren Sie **Ja**- und **Nein**-Schaltflächen in Dialogfeldern. Die tatsächlichen Schlüssel variieren je nachdem, welche aktuelle Sprache unter **Meine Einstellungen** festgelegt ist. Wählen Sie beispielsweise <kbd>J</kbd>, um die Schaltfläche **Ja** zu aktivieren, wenn Sie die deutsche Sprache verwenden.|
 
-## Tastenkombinationen in der Liste
+## <a name="keyboard-shortcuts-in-lists" />Tastenkombinationen in der Liste
 
 Die folgende Tabelle beschreibt Tastenkombinationen, die Sie auf einer Listenseite verwenden können. Die Verknüpfungsaktion ist abhängig davon, ob die Seite in der Listenansicht oder der Kachelansicht mit nebeneinander angeordnet Fenstern angezeigt wird.
 <!--
 > [!Note]
 > In the table that follows, the term *actionable field* refers to a field on which you can do something, like change a value or link to another page. In general, the shortcuts will skip over fields that display information that you cannot change from the list (in other words, fields that are read-only).
 -->
-### Allgemein
+### <a name="general" />Allgemein
 
 |Wählen Sie diese Tasten aus<br />(in Mac Os)|Um dies in einer Listenansicht zu tun|Um dies in einer Kachelansicht zu tun |
 |--------------------------------|-------------------------|--------------------------|
@@ -90,7 +90,7 @@ Die folgende Tabelle beschreibt Tastenkombinationen, die Sie auf einer Listensei
 |*<kbd>Umschalttaste</kbd>+<kbd>Strg</kbd>+<kbd>F</kbd>*|Senden Sie vorgeschlagene Zeilen an die Seite „Cashflow-Arbeitsblatt“.|Nicht anwendbar.|
 |*<kbd>Umschalttaste</kbd>+<kbd>Strg</kbd>+<kbd>I</kbd>*|Zeigen Sie dem Positionsartikel im Beleg oder Buch.-Blatt zugewiesene Seriennummern und Chargennummern an, oder bearbeitet diese.|Nicht anwendbar.|
 
-### <a name="navigateshortcuts"></a>Navigieren zwischen Zeilen und Spalten
+### <a name="a-namenavigateshortcutsanavigating-between-rows-and-columns" /><a name="navigateshortcuts"></a>Navigieren zwischen Zeilen und Spalten
 
 Raster mit Zeilen und Spalten existieren auf vielen Seitentypen in [!INCLUDE[prod_short](includes/prod_short.md)], wie z.B. Listenseiten und **Zeilen** Teilen auf Dokumenten. Die Bewegung von einer Zelle zur anderen über ein Raster ist vollständig über die Tastatur möglich.
 
@@ -111,7 +111,7 @@ Raster mit Zeilen und Spalten existieren auf vielen Seitentypen in [!INCLUDE[pro
 | <kbd>Tab</kbd> | Navigieren Sie in einer schreibgeschützten Liste in derselben Zeile zum nächsten Feld rechts. | Nicht anwendbar. | 
 | <kbd>UMSCHALT</kbd>+<kbd>TAB</kbd> | Navigieren zur gleichen Zeile im vorherigen bearbeitbaren Feld links. | Nicht anwendbar. |
 
-### <a name="CopyRows"></a>Auswählen, Kopieren und Einfügen
+### <a name="a-namecopyrowsaselecting-copying-and-pasting" /><a name="CopyRows"></a>Auswählen, Kopieren und Einfügen
 
 |Wählen Sie diese Tasten aus<br />(in Mac Os)|Um dies in einer Listenansicht zu tun |Um dies in einer Kachelansicht zu tun |
 |--------------------------------|--------------------------|--------------------------|
@@ -129,7 +129,7 @@ Raster mit Zeilen und Spalten existieren auf vielen Seitentypen in [!INCLUDE[pro
 |<kbd>Umschalttaste</kbd>+<kbd>Seite nach Unten</kbd><br /><br />(<kbd>UMSCHALTTASTE</kbd>+<kbd>Fn</kbd>+<kbd>NACH-OBEN-TASTE</kbd>)|Erweitern Sie die Auswahl von Zeilen, um sichtbare Zeilen unter der aktuellen Auswahl von Zeilen zu berücksichtigen.|Nicht anwendbar.|
 |<kbd>F8</kbd>|Kopieren Sie das Feld in der gleichen Spalte der Zeile oben, und fügen Sie es in die aktuelle Zeile ein. Sie können dies nur in bearbeitbaren Listen tun. Mit dieser Tastenkombination, gefolgt von <kbd>TAB</kbd>, können Sie schnell Felder in Zeilenartikeln füllen, die denselben Wert haben wie die Reihe darüber.|Nicht anwendbar.|
 
-### <a name="KeyboardFilter"></a>Sortieren und Filtern von Listen
+### <a name="a-namekeyboardfilterasearching-and-filtering-lists" /><a name="KeyboardFilter"></a>Sortieren und Filtern von Listen
 
 |Wählen Sie diese Tasten aus<br />(in Mac Os)|Vorgehensweise|
 |--------------------------------|----------|
@@ -141,7 +141,7 @@ Raster mit Zeilen und Spalten existieren auf vielen Seitentypen in [!INCLUDE[pro
 |<kbd>Strg</kbd>+<kbd>Umschalt</kbd>+<kbd>Alt</kbd>+<kbd>F3</kbd>|Filter zurücksetzen. Dieses ist identisch mit, **Rücksetzungsfilter** im Filterbereich ", und es trifft auf Feld und Gesamtfilter zu.<br /><br /> Filter kehren zu den Standardfiltern für die geltende Ansicht zurück. Wenn **Alle** die aktuelle Ansicht, gleicht der Rückkehr zu einer ungefilterten Ansicht mit allen Datensätzen. |
 |<kbd>Strg</kbd>+<kbd>Eingabetaste</kbd>|Ändern Sie den Fokus des Filterbereichs zurück zur Liste.|
 
-## Tastenkombinationen in den Karten und Belegen
+## <a name="keyboard-shortcuts-in-cards-and-documents" />Tastenkombinationen in den Karten und Belegen
 
 Folgende Tastenkombinationen sind auf Kartenseiten wie **Debitorenkarte** und Belegseiten wie **Verkaufsauftrag** zum Anzeigen und Änderungen von Datensätzen verfügbar.
 
@@ -169,7 +169,7 @@ Folgende Tastenkombinationen sind auf Kartenseiten wie **Debitorenkarte** und Be
 |<kbd>Shift</kbd>+<kbd>F6</kbd>|Navigieren Sie zum vorherigen Fast<kbd>Tab</kbd> oder Teil (Unterseite).|
 |*<kbd>Umschalt</kbd>+<kbd>F9</kbd>*|Veröffentlichen und drucken Sie ein Dokument.|
 
-## <a name="QuickEntry"></a>Schnelleingabeverknüpfungen für Felder
+## <a name="a-namequickentryaquick-entry-shortcuts-for-fields" /><a name="QuickEntry"></a>Schnelleingabeverknüpfungen für Felder
 
 Folgende Verknüpfungen gehören zur Schnelleingabefunktion auf Karten, Belegen und Listenseiten. Auf Listen können die Verknüpfungen nicht verwendet werden, wenn die Liste in der Kachelansicht angezeigt werden. Weitere Informationen über Schnelleingabe finden Sie unter [Beschleunigende der Dateneingabe mithilfe von Schnelleingabe](ui-enter-data.md#QuickEntry) schnellen Posten.
 
@@ -179,7 +179,7 @@ Folgende Verknüpfungen gehören zur Schnelleingabefunktion auf Karten, Belegen 
 |<kbd>Umschalt</kbd>+<kbd>Eingabe</kbd>|Bestätigen Sie den Wert im aktuellen Feld und wechseln Sie zum vorherigen Schnelleingabefeld.||
 |<kbd>Strg</kbd>+<kbd>Umschalt</kbd>+<kbd>Eingabetaste</kbd>|Bestätigen Sie den Wert in der aktuellen Spalte und wechseln Sie zum nächsten Schnelleingabefeld außerhalb der Liste.<br /><br />Dieses Tastenkürzel gilt für eingebettete Listen auf einer Seite wie Positionsartikel in einem Verkaufsauftrags. Damit gelangen Sie schnell aus Listen und können die Dateneingabe in anderen Feldern der Seite fortsetzen.|
 
-## <a name="calendarshortcuts"></a> Tastenkombinationen im Kalender (Datumsauswahl)
+## <a name="a-namecalendarshortcutsa-keyboard-shortcuts-in-the-calendar-date-picker" /><a name="calendarshortcuts"></a> Tastenkombinationen im Kalender (Datumsauswahl)
 
 Wenn Sie ein Datumsfeld festlegen, können Sie entweder das Datum manuell eingeben oder festlegen oder einen Kalender (Datumsauswahl) öffnen, in dem Sie das Datum auswählen können Sie, das Sie möchten. Die folgende Tabelle beschreibt die Tastenkombinationen für den Kalender.
 
@@ -197,14 +197,14 @@ Wenn Sie ein Datumsfeld festlegen, können Sie entweder das Datum manuell eingeb
 |<kbd>Seite nach unten</kbd>|Navigieren zum nächsten Monat.|
 |<kbd>Seite nach oben</kbd>|Navigieren zum vorherigen Monat.|  
 
-## Tastenkombinationen in Datumsfeldern
+## <a name="keyboard-shortcuts-in-date-fields" />Tastenkombinationen in Datumsfeldern
 
 |Wählen Sie diese Tasten aus<br />(in Mac Os)|Vorgehensweise|
 |--------------------------------|----------|
 |<kbd>h</kbd>|Geben Sie das aktuelle Datum ein. „T“ bedeutet „heute“.|
 |<kbd>a</kbd>|Geben Sie das Arbeitsdatum ein. Weitere Informationen finden Sie unter [Arbeitsdatum](ui-change-basic-settings.md#work-date)|
 
-## <a name="reportpreviewshortcuts"></a>Tastenkombinationen in der Berichtsvorschau
+## <a name="a-namereportpreviewshortcutsakeyboard-shortcuts-in-the-report-preview" /><a name="reportpreviewshortcuts"></a>Tastenkombinationen in der Berichtsvorschau
 
 |Wählen Sie diese Tasten aus<br />(in Mac Os)|Vorgehensweise|
 |--------------------------------|----------|
@@ -218,7 +218,7 @@ Wenn Sie ein Datumsfeld festlegen, können Sie entweder das Datum manuell eingeb
 |<kbd>Seite nach unten</kbd><br /><br />(<kbd>Fn</kbd>+<kbd>NACH-OBEN-TASTE</kbd>)|Zur nächsten Seite des Berichts wechseln.|
 |<kbd>Seite nach oben</kbd><br /><br />(<kbd>Fn</kbd>+<kbd>NACH-OBEN-TASTE</kbd>)|Zur vorherigen Seite des Berichts wechseln.|
 
-## <a name="zoomshortcuts"></a>Tastaturkürzel zum Vergrößern und Verkleinern
+## <a name="a-namezoomshortcutsakeyboard-shortcuts-for-zooming-in-and-out" /><a name="zoomshortcuts"></a>Tastaturkürzel zum Vergrößern und Verkleinern
 
 |Wählen Sie diese Tasten aus|Vorgehensweise|
 |--------------------------------|----------|
@@ -226,7 +226,7 @@ Wenn Sie ein Datumsfeld festlegen, können Sie entweder das Datum manuell eingeb
 |<kbd>Strg</kbd>+<kbd>-</kbd>|Verkleinern Sie die aktuelle Seite.|  
 |<kbd>Strg</kbd>+<kbd>0</kbd>|Vergrößern Sie die aktuelle Seite auf 100 %.|  
 
-## <a name="roleexplorer"></a>Tastaturkürzel für den Rollen-Explorer
+## <a name="a-nameroleexplorerakeyboard-shortcuts-for-role-explorer" /><a name="roleexplorer"></a>Tastaturkürzel für den Rollen-Explorer
 
 Der Rollen-Explorer bietet Ihnen einen Überblick und schnellen Zugriff auf alle Geschäftsfunktionen, die für Ihre Rolle verfügbar sind. Weitere Informationen finden Sie unter [Suchen von Seiten mit dem Rollen-Explorer](ui-role-explorer.md).
 
@@ -238,7 +238,7 @@ Der Rollen-Explorer bietet Ihnen einen Überblick und schnellen Zugriff auf alle
 |<kbd>Umschalttaste</kbd> <kbd>F3</kbd> oder <kbd>Strg</kbd>+<kbd>Aufwärtspfeil</kbd>|Verschiebt den Fokus auf das vorherige gefundene Feature im Rollen-Explorer.|
 |<kbd>Strg</kbd>+<kbd>Umschalt</kbd>|Erweitern oder reduzieren Sie alle Unterknoten zusätzlich zu den Knoten der obersten Ebene, wenn Sie die Aktion **Erweitern** oder **Reduzieren** auswählen.|
 
-##  <a name="keypad"></a> Tastenkombinationen für den Ziffernblock
+## <a name="a-namekeypada-numeric-keypad-shortcuts" /><a name="keypad"></a> Tastenkombinationen für den Ziffernblock
 
 In der folgenden Tabelle werden die Tastenkombinationen auf einem numerischen Tastenfeld beschrieben.
 
@@ -247,7 +247,7 @@ In der folgenden Tabelle werden die Tastenkombinationen auf einem numerischen Ta
 |<kbd>ALT</kbd>+<kbd>Dezimaltrennzeichen</kbd>|Schalten Sie die Ausgabe der Dezimaltrenntaste entweder auf einen Punkt (.) oder das durch die festgelegte **Region**-Einstellung der **Meine Einstellungen** Seite Zeichen um. Weitere Informationen finden Sie unter [Festlegen des Dezimaltrennzeichens, das von numerischen Tastaturen verwendet wird](ui-enter-data.md#decimal).|
 
 
-## Zugriffstasten für Aktionsleiste und Navigationsmenü
+## <a name="access-keys-for-action-bar-and-navigation-menu" />Zugriffstasten für Aktionsleiste und Navigationsmenü
 
 Zugriffstasten sind Tastenkombinationen, die bestimmte Aktionen in der Aktionsleiste und im Navigationsmenü auswählen, sodass Sie durch Aktionen navigieren können, um zur gewünschten Seite zu gelangen. Zugriffsschlüssel sind im Business Central-Webclient verfügbar und ähneln den Zugriffsschlüsseln in Excel und Word Online.  
 
@@ -259,7 +259,7 @@ Um eine Aktion auszuwählen, wählen Sie die im Tastentipp angezeigte Tastenkomb
 - Wenn die Aktion ein Untermenü mit anderen Aktionen öffnet, werden die Tastentipps für das Untermenü angezeigt, sodass Sie die Zugriffstasten weiterhin verwenden können, wenn Sie möchten.
 - Wenn die Aktion eine andere Seite öffnet, sind wichtige Tipps deaktiviert. Um sie wieder anzuzeigen, drücken Sie die <kbd>Alt</kbd> Taste. 
  
-## Siehe auch
+## <a name="see-also" />Siehe auch
 
 [Tastatur-Kurzreferenz - nur PC](keyboard-shortcuts-cheatsheet.md)  
 [Assistive Funktionen](ui-accessibility.md)  

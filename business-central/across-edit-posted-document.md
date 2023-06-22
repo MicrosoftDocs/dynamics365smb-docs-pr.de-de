@@ -12,7 +12,7 @@ ms.search.form: '130, 138, 142, 146, 6660, 6662, 6650, 6652'
 ms.date: 06/10/2021
 ms.author: edupont
 ---
-# Gebuchte Belege bearbeiten
+# <a name="edit-posted-documents" />Gebuchte Belege bearbeiten
 
 Manchmal müssen Sie einen gebuchten Beleg aktualisieren, da sich die für das Dokument relevanten Informationen geändert haben. Bei einem gebuchten Verkaufsbeleg kann dies beispielsweise die Paketverfolgungsnummer des Zustellers sein. Bei einem gebuchten Einkaufsbeleg kann es sich um einen Zahlungsreferenztext handeln.
 
@@ -32,7 +32,7 @@ Die folgenden zusätzlichen Dokumente können in den angegebenen Ländern oder R
 - RU: Geb. Verkaufsgutschrift
 - IT: Geb. Umlag.-Ausgang, Gebuchte Servicelieferung
 
-## So bearbeiten Sie eine gebuchte Verkaufslieferung
+## <a name="to-edit-a-posted-sales-shipment" />So bearbeiten Sie eine gebuchte Verkaufslieferung
 
 Im Folgenden wird erläutert, wie Sie eine gebuchte Verkaufslieferung bearbeiten. Die Schritte sind für die anderen unterstützten Dokumente ähnlich.
 
@@ -43,7 +43,7 @@ Im Folgenden wird erläutert, wie Sie eine gebuchte Verkaufslieferung bearbeiten
 
 Die gebuchte Verkaufslieferung wird aktualisiert.
 
-## Siehe auch
+## <a name="see-also" />Siehe auch
 
 [Dokumente und Buch.-Blatt verbuchen](ui-post-documents-journals.md)  
 [Suchen verwandter Posten für Belege](ui-find-entries.md)  

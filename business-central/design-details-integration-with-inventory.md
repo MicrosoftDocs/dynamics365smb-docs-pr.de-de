@@ -10,11 +10,11 @@ ms.search.keywords: null
 ms.date: 06/15/2021
 ms.author: edupont
 ---
-# Designdetails: Integration mit dem Lagerbestand
+# <a name="design-details-integration-with-inventory" />Designdetails: Integration mit dem Lagerbestand
 
 Die Funktionen Warehouse Management und Lager interagieren bei der physischen Inventur und beim Inventur- oder Lagerabgleich miteinander.  
 
-## Physisches Lager  
+## <a name="physical-inventory" />Physisches Lager
 
 Die **Logistik-Inventur-Buch.-Blatt**-Seite wird mit der **Inventur Buch.-Blatt**-Seite für alle erweiterten Lagerorte verwendet. Der Bestand auf Lagerplatzebene wird berechnet, und eine gedruckte Liste wird für den Lagermitarbeiter bereitgestellt. Die Liste zeigt, welche Artikel an welchen Lagerplätzen gezählt werden müssen.  
   
@@ -30,7 +30,7 @@ Wenn Sie das Inventur Buch.-Blatt buchen, werden der Lagerbestand und der Ausgle
 
 [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
   
-## Lagerplatz-Anpassungen mit dem Artikelposten  
+## <a name="warehouse-adjustments-to-the-item-ledger" />Lagerplatz-Anpassungen mit dem Artikelposten
 
 Sie verwenden die Seite **Artikel Buch.-Blatt** und die Funktion **Ausgleich berechnen**, um den Lagerbestand im Artikelposten in Übereinstimmung mit einem Ausgleich anzupassen, der für die Artikelmenge in einem Lagerplatz vorgenommen wurde. Um eine Verbindung zwischen den Lagerbestand und der Logistik zu erstellen, müssen Sie einen Vorgabe-Ausgleichslagerplatz pro Lagerort festlegen.  
   
@@ -43,7 +43,7 @@ Wenn Sie den Lagerplatzinhalt anpassen wollen, können Sie ein Logistik Artikel-
   
 Wenn Sie eine positive Menge eingeben und die Zeile buchen, wird der Bestand an dem Lagerplatz erhöht, und die Menge des Standard-Ausgleichslagerplatzes wird entsprechend vermindert.  
   
-## Weitere Informationen  
+## <a name="see-also" />Weitere Informationen
 
 [Lagerverwaltung – Übersicht](design-details-warehouse-management.md)  
 [Designdetails: Verfügbarkeit im Lager](design-details-availability-in-the-warehouse.md)  

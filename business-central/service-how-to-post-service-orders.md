@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/23/2021
 ms.author: edupont
 ---
-# Buchen von Serviceaufträgen und Gutschriften
+# <a name="post-service-orders-and-credit-memos" />Buchen von Serviceaufträgen und Gutschriften
 Wenn Sie einen Serviceauftrag erstellt, alle erforderlichen Informationen eingegeben und alle Änderungen vorgenommen haben, können Sie den Serviceauftrag buchen. Der Serviceauftrag muss mindestens eine Serviceartikelzeile und eine Servicezeile enthalten, bevor Sie den Auftrag buchen können. Sollte der Auftrag mehr als eine Serviceauftragszeile umfassen, bucht die Anwendung alle Zeilen in einem Durchgang.  
 
 Wenn Sie eine große Anzahl an Serviceaufträgen haben, können Sie Zeit sparen, wenn Sie diese mit einer Stapelverarbeitung buchen. Sie können diese Stapelverarbeitung aus jedem Serviceauftrag ausführen.
@@ -18,7 +18,7 @@ Wenn Sie eine große Anzahl an Serviceaufträgen haben, können Sie Zeit sparen,
 > [!Tip]
 > Bevor Sie einen Servicebeleg buchen, ist es vorteilhaft, die **Bericht testen** Aktion zu nutzen, um jeden Fehler oder fehlende Informationen zu prüfen. Wenn es Fehler gibt, müssen Sie das jeweilige Problem lösen. Sie können einen neuen Testbericht ausdrucken, um die Behebung zu bestätigen, und den Beleg dann buchen.
 
-## So buchen Sie einen Serviceauftrag    
+## <a name="to-post-a-service-order" />So buchen Sie einen Serviceauftrag
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Serviceaufträge** ein und wählen Sie dann den zugehörigen Link.  
 2. Öffnen Sie den relevanten Serviceauftrag.  
 3. Auf der Seite **Serviceauftrag** wählen Sie eine der folgenden Aktionen aus.  
@@ -43,13 +43,13 @@ Sie können den Verbrauch nur buchen, wenn die Zeile eine Menge enthält, die ge
 
 Beim Buchen des Auftrags werden die entsprechenden Posten und gebuchten Belege erstellt. Die relevanten Felder werden im Serviceauftragsbeleg aktualisiert.  
 
-## So buchen Sie Serviceaufträge per Batchauftrag
+## <a name="to-batch-post-service-orders" />So buchen Sie Serviceaufträge per Batchauftrag
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Serviceaufträge** ein und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die Aktion **Stapelbuchen** aus.  
 3.  Sie können einen Filter setzen, um bestimmte Serviceauftragsnummern oder ein Intervall von Auftragsnummern auszuwählen.  
 4.  Klicken Sie zum Starten des Batchauftrags auf **OK**.  
 
-## So buchen Sie Servicegutschriften  
+## <a name="to-post-a-service-credit-memo" />So buchen Sie Servicegutschriften
 Wenn Sie eine Servicegutschrift erstellt und ausgefüllt haben, können Sie diese Gutschrift buchen. Wenn beim Buchen Fehler oder fehlende Informationen in der Gutschrift vorhanden sind, wird der Vorgang durch eine Fehlermeldung unterbrochen.  
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Servicegutschriften** ein und wählen Sie dann den zugehörigen Link.  
@@ -62,7 +62,7 @@ Wenn Sie eine Servicegutschrift erstellt und ausgefüllt haben, können Sie dies
 > [!NOTE]  
 >  Es ist wichtig, dass alle erforderlichen Informationen für die Gutschriften vor dem Stapelbuchen eingegeben werden. Anderenfalls kann es geschehen, dass sie nicht gebucht werden. Sind die Buchungen durch den Batchauftrag abgeschlossen, zeigt eine Meldung an, wie viele der Servicegutschriften gebucht worden sind.  
 
-## So buchen Sie den Verbrauch von Serviceaufträgen aus  
+## <a name="to-post-consumption-from-a-service-order" />So buchen Sie den Verbrauch von Serviceaufträgen aus
 Im folgenden Verfahren wird beschrieben, wie die Artikel, Ressourcenzeiten und/oder Kosten für eine bestimmte Servicearbeit gebucht werden, die Sie dem Debitor nicht in Rechnung stellen. Der Verbrauch von Artikeln, Stunden oder Kosten kann nur für eine gebuchte Lieferung gebucht werden, für die keine Rechnungen und kein Verbrauch gebucht wurde.  
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Serviceaufträge** ein und wählen Sie dann den zugehörigen Link.  
@@ -77,7 +77,7 @@ Im folgenden Verfahren wird beschrieben, wie die Artikel, Ressourcenzeiten und/o
 
 Der Service wird als teilweise oder vollständig verbraucht gebucht (abhängig vom Wert im Feld **Mge. zu verbrauchen**) und die entsprechenden Posten werden erstellt. Darüber hinaus aktualisiert die Anwendung die zuvor gebuchten Servicelieferungsbelege chronologisch mit den verbrauchten Mengen. Die entsprechenden Mengen werden in den Servicezeilen des Auftrags aktualisiert.  
 
-## So buchen Sie Lieferungen von Serviceaufträgen aus  
+## <a name="to-post-shipments-from-service-orders" />So buchen Sie Lieferungen von Serviceaufträgen aus
 Nachdem Sie die Details eines Service angegeben haben, können Sie die Mengen für verwendete Artikel, Zeitaufwand und angefallene Kosten anpassen und buchen. Daraufhin werden die erforderlichen Änderungen durch [!INCLUDE[prod_short](includes/prod_short.md)] vorgenommen, sodass der neue Lagerbestand und der aktuelle Status der jeweiligen Auftragsabwicklung widergespiegelt werden.  
 
 Der folgende Ablauf zeigt, wie man Lieferung der Servicezeilenartikel in Lagerplätzen bucht, die nicht so eingerichtet wurden, dass ein Lagerdurchlauf erforderlich ist.  
@@ -96,7 +96,7 @@ Wenn der Lagerort so eingerichtet wurde, dass ein Lagerdurchlauf erforderlich is
 
 Um mehr über Versandservice-Einzelposten in erweiterten Lagerkonfigurationen zu erfahren, gehen Sie zu Artikel für Lagerversand kommissionieren](warehouse-how-to-pick-items-for-warehouse-shipment.md).  
 
-## So machen Sie einen gebuchten Verbrauch rückgängig  
+## <a name="to-undo-posted-consumption" />So machen Sie einen gebuchten Verbrauch rückgängig
 Sie können den Verbrauch der Serviceaufträge kündigen. Beispielsweise, da er versehentlich gebucht wurde.  
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Gebuchte Servicelieferungen** ein und wählen Sie dann den zugehörigen Link.  
@@ -112,7 +112,7 @@ Sie können den Verbrauch der Serviceaufträge kündigen. Beispielsweise, da er 
 >    * Der Serviceauftrag geschlossen wurde.  
 >    * Er für im Modul "Projekte" gebucht wurde und Projektposten zugeordnet sind.  
 
-## So buchen Sie Servicezeilen  
+## <a name="to-post-service-lines" />So buchen Sie Servicezeilen
 Wenn Sie für längere Zeit mit einem Serviceauftrag arbeiten müssen, ohne diesen zu buchen, möchten Sie ggf. schon einige der Zeilen buchen, die damit verknüpft sind, z. B. um das Lager auf dem aktuellen Stand zu halten. Sie können buchen, indem Sie die relevanten Mengen in den zu buchenden Zeilen angeben. Sie können die Zeilen einzeln oder mehrere Zeilen gleichzeitig buchen.  
 
 Die folgende Vorgehensweise beschreibt, wie die Lieferungsbuchung direkt aus einem Serviceauftrag heraus für Lagerorte ohne Lagerkosteneinrichtung erfolgt. Wenn der Lagerort so eingerichtet wurde, dass ein Lagerdurchlauf erforderlich ist, dann erfolgt die Lieferungsbuchung in einem anderen Logistikbeleg, abhängig von der Einrichtung des Lagerorts.
@@ -122,7 +122,7 @@ Die folgende Vorgehensweise beschreibt, wie die Lieferungsbuchung direkt aus ein
 4. Füllen Sie in den Zeilen, die Sie buchen möchten, die Felder **Zu liefern**, **Zu fakturieren** und **Mge. zu verbrauchen** aus, je nachdem, wie Sie die Zeilen buchen möchten.  
 5. Wählen Sie die Aktion **Buchen** aus.
 
-## Siehe auch  
+## <a name="see-also" />Siehe auch
 [Buchen in der Serviceverwaltung](service-service-posting.md)  
 [Erstellen eines Serviceauftrags](service-how-to-create-service-orders.md)  
 

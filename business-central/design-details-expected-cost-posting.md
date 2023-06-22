@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 07/20/2021
 ms.author: edupont
 ---
-# Designdetails: Soll-Kosten-Buchen
+# <a name="design-details-expected-cost-posting" />Designdetails: Soll-Kosten-Buchen
 Soll-Kosten repräsentieren die Schätzung der Kosten, z. B. für die Kosten eines Einkaufsartikels, die Sie registrieren, bevor Sie die Rechnung für den Artikel erhalten.  
 
  Sie können Soll-Kosten buchen, um sowie Fibu-Posten in den Lagerbestand zurückgeführt. Wenn Sie eine Menge buchen, die nur erhalten oder geliefert, aber nicht fakturiert wurde, kann ein Wertposten mit den Soll-Kosten erstellt werden. Diese Soll-Kosten beeinflussen den Lagerwert, werden aber nicht in der Finanzbuchhaltung gebucht, es sei denn, das System wird entsprechend eingerichtet.  
@@ -22,7 +22,7 @@ Soll-Kosten repräsentieren die Schätzung der Kosten, z. B. für die Kosten ein
 
  Um Abstimmung und Verfolgbarkeit zu unterstützen, zeigt der fakturierte Wertposten den Soll-Kostenbetrag, der zum Ausgleichen der Interimskonten gebucht wurde.  
 
-## Voraussetzungen für die Buchung der erwarteten Kosten
+## <a name="prerequisites-for-posting-expected-costs" />Voraussetzungen für die Buchung der erwarteten Kosten
 
 Um die erwarteten Kosten buchen zu können, müssen Sie Folgendes tun:
 1. Aktivieren Sie auf der Seite **Lager-Einrichtung** das Kontrollkästchen **Automatische Kostenbuchung** und das Kontrollkästchen **Soll-Kosten buchen**.
@@ -32,7 +32,7 @@ Um die erwarteten Kosten buchen zu können, müssen Sie Folgendes tun:
 3. Überprüfen Sie auf der Seite **Buchungsmatrix Einrichtung** das Feld **Lagerzugangskonto (Interim)** auf die **Geschäftsbuchungsgruppe** und die **Produktbuchungsgruppe**, die Sie verwenden.
 4. Wenn Sie eine Bestellung erstellen, ist die Standardeinstellung, dass das Feld **Kred.-Rechnungsnr.** erforderlich ist. Sie müsse dies auf der Seite **Kreditoren & Einkauf Einr.** deaktivieren, indem Sie das Feld **Ext. Belegnr. erforderlich** deaktivieren.
 
-## Beispiel  
+## <a name="example" />Beispiel
 
 > [!NOTE]  
 > Die in diesem Beispiel verwendeten Kontonummern dienen nur als Referenz und unterscheiden sich in Ihrem System. Richten Sie sie wie in den Voraussetzungen oben beschrieben ein.
@@ -85,7 +85,7 @@ Sie buchen eine Einkaufsbestellung als erhalten. Die erwarteten Kosten sind MW 
 |01-15-20|Direkte Kosten Verrech.-Konto|7291|-100|6|  
 |01-15-20|Lagerkonto|2130|100|5|  
 
-## Siehe auch
+## <a name="see-also" />Siehe auch
  [Designdetails: Lagerkostenberechnung](design-details-inventory-costing.md)   
  [Designdetails: Kostenregulierung](design-details-cost-adjustment.md)   
  [Designdetails: Abgleich mit der Finanzbuchhaltung](design-details-reconciliation-with-the-general-ledger.md)   

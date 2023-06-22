@@ -11,11 +11,11 @@ ms.custom: bap-template
 ms.search.keywords: 'electronic document, Intrastat, trade, EU, service, declaration,'
 ms.search.form: '30, 76, 5010, 5022, 5023, 5024, 5800'
 ---
-# Die Erweiterung für die Service-Deklaration
+# <a name="the-service-declaration-extension" />Die Erweiterung für die Service-Deklaration
 
 In einigen EU-Ländern verlangen die Behörden, dass Unternehmen den Export von Dienstleistungen in andere EU-Länder melden. Mit der Erweiterung **Service Declaration** können Sie Informationen über den Handel mit Dienstleistungen in der EU sammeln und an die Behörden melden. Obwohl sie **Service-Deklaration** heißt, können Sie sie auch als **Intrastat für Dienstleistungen** verwenden. Diese Erweiterung ist für alle EU-Länder als W1-Version verfügbar und kann in Belgien unverändert verwendet werden. Für andere Länder wird eine länderspezifische Erweiterung benötigt. Wenn ein Land nur ein anderes Format benötigt, können Sie die Berichtskonfiguration im **Data Exchange Framework** verwenden, um das Format zu ändern.
 
-## Aktivieren Sie die Service-Erweiterung
+## <a name="enable-the-service-declaration-extension" />Aktivieren Sie die Service-Erweiterung
 
 Nachdem Sie die Erweiterung in Ihrer Umgebung installiert haben, müssen Sie sie aktivieren.
 
@@ -26,11 +26,11 @@ Nachdem Sie die Erweiterung in Ihrer Umgebung installiert haben, müssen Sie sie
 5. Bevor Sie beginnen, überprüfen Sie die **Gesamtzahl der Codes**, um festzustellen, wie viele Service-Transaktionsarten bereits angegeben wurden.
 6. Wählen Sie **Abschließen** im letzten Schritt, um die Konfiguration abzuschließen.
 
-## Die Erweiterung Service-Deklaration festlegen
+## <a name="set-up-the-service-declaration-extension" />Die Erweiterung Service-Deklaration festlegen
 
 Sie können die Erweiterung manuell festlegen oder eine Berichtsdatei in Data Exchange Definitions verwenden.
 
-### Um die Service-Deklaration manuell festzulegen
+### <a name="to-set-up-service-declaration-manually" />Um die Service-Deklaration manuell festzulegen
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Wählen Sie im Symbol **Service Einrichtung** und dann den entsprechenden Link aus.
 2. Konfigurieren Sie auf der Registerkarte **Allgemein** die in der folgenden Tabelle beschriebenen Felder:
@@ -47,7 +47,7 @@ Sie können die Erweiterung manuell festlegen oder eine Berichtsdatei in Data Ex
 3. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Geben Sie im Symbol **Service Transaktionsarten** ein und wählen Sie dann den entsprechenden Link.
 4. Geben Sie in den Zeilen **Codes** und **Beschreibungen** für die von Ihnen verwendeten Arten von Transaktionen für Dienstleistungen ein.
 
-### Legen Sie eine Berichtsdatei fest
+### <a name="set-up-a-reporting-file" />Legen Sie eine Berichtsdatei fest
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Geben Sie im Symbol **Data Exchange Definitions** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie die Aktion **Neu** aus.
@@ -66,11 +66,11 @@ Sie können die Erweiterung manuell festlegen oder eine Berichtsdatei in Data Ex
 > [!NOTE]
 > [!INCLUDE[prod_long](includes/prod_long.md)] wird mit einer vorkonfigurierten Datenaustauschdefinition für **Service-Deklaration** für alle lokalisierten Länder geliefert. Erfahren Sie mehr über das Erstellen einer neuen Datenaustauschdefinition unter [Datenaustauschdefinitionen einrichten](across-how-to-set-up-data-exchange-definitions.md).
 
-## Andere verwandte Konfigurationen
+## <a name="other-related-configurations" />Andere verwandte Konfigurationen
 
 Bevor Sie die Erweiterung Service-Deklaration verwenden, konfigurieren Sie einige Felder für Artikel, Ressourcen und Artikelzu-/abschläge.
 
-### Artikel
+### <a name="items" />Artikel
 
 Legen Sie die Informationen zur Service-Deklaration auf den Seiten der Artikelkarte fest:
 
@@ -81,7 +81,7 @@ Legen Sie die Informationen zur Service-Deklaration auf den Seiten der Artikelka
    2. Geben Sie im Feld **Code der Service-Transaktionsart** den Code für eine **Service-Transaktionsart** an.
    3. Wenn Sie dieses Element nicht in Service-Deklarationen aufnehmen möchten, wählen Sie das Feld **Aus Service-Deklaration ausschließen**.
 
-### Ressourcen
+### <a name="resources" />Ressourcen
 
 Legen Sie auf den Ressourcenkartenseiten Informationen zur Service-Deklaration fest:
 
@@ -91,7 +91,7 @@ Legen Sie auf den Ressourcenkartenseiten Informationen zur Service-Deklaration f
    1. Geben Sie im Feld **Code der Service-Transaktionsart** den Code für eine **Service-Transaktionsart** an.
    2. Wenn Sie diese Ressource nicht in Service-Deklarationen einbeziehen möchten, wählen Sie das Feld **Aus Service-Deklaration ausschließen**.
 
-### Artikelzu-/abschläge
+### <a name="item-charges" />Artikelzu-/abschläge
 
 Legen Sie Informationen zur Service-Deklaration für Artikel Zu-/Abschläge fest:
 
@@ -100,7 +100,7 @@ Legen Sie Informationen zur Service-Deklaration für Artikel Zu-/Abschläge fest
 3. Geben Sie im Feld **Code der Service-Transaktionsart** den Code für eine **Service-Transaktionsart** an.
 4. Wenn Sie diesen Artikel Zu-/Abschlag nicht in Service-Deklarationen aufnehmen möchten, markieren Sie das Feld **Aus Service-Deklaration ausschließen**.
 
-## Neue Servicemeldung erstellen
+## <a name="create-new-service-declaration" />Neue Servicemeldung erstellen
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol, geben Sie **Service-Deklarationen** ein und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie die Aktion **Neu**.
@@ -111,7 +111,7 @@ Legen Sie Informationen zur Service-Deklaration für Artikel Zu-/Abschläge fest
 
 Der Batchauftrag ruft alle Einträge aus den entsprechenden Kauf- und Verkaufsbelegen im gewünschten Zeitraum ab und fügt sie in die Zeilen der Service-Deklaration ein. Bewegen Sie den Mauszeiger über die Felder in den Zeilen, um eine kurze Beschreibung zu lesen.
 
-## Ändern einer Servicemeldung
+## <a name="modify-a-service-declaration" />Ändern einer Servicemeldung
 
 Bei Bedarf können Sie die Zeilen ändern oder neue Zeilen hinzufügen.
 
@@ -120,11 +120,11 @@ Bei Bedarf können Sie die Zeilen ändern oder neue Zeilen hinzufügen.
 3. Füllen Sie auf der Grundlage des **Dokumententyps** das Feld **Dokument-Nr.** aus.
 4. Füllen Sie die restlichen Felder aus.
 
-## Übersicht über die Service-Deklarationszeilen
+## <a name="overview-the-service-declaration-lines" />Übersicht über die Service-Deklarationszeilen
 
 Nachdem Sie eine Service-Deklaration erstellt haben, verwenden Sie die Aktion **Übersicht**, um sich einen Überblick über die Zeilen der Service-Deklaration zu verschaffen. Sie können die Zeilen auf die gleiche Weise gruppieren und zusammenfassen wie die exportierte Datei. Sie können die Zeilen auch in Excel öffnen.
 
-## Servicemeldung in einer Datei melden
+## <a name="report-service-declaration-in-a-file" />Servicemeldung in einer Datei melden
 
 Sie können die Servicemeldung als Datei senden, je nach den Anforderungen der verschiedenen lokalen Behörden. So erstellen Sie eine Datei:
 
@@ -134,17 +134,17 @@ Sie können die Servicemeldung als Datei senden, je nach den Anforderungen der v
 4. Wählen Sie die Aktion **Aus Datei erstellen** aus.
 5. Die Servicemeldung wird in dem gewünschten Format gespeichert.
 
-## Andere Überlegungen
+## <a name="other-considerations" />Andere Überlegungen
 
 Wenn Sie die Erweiterung **Service-Deklaration** verwenden, gibt es noch ein paar weitere Dinge zu beachten. Zum Beispiel ist es wichtig, dass Ihre Gruppen den Anforderungen der Behörden entsprechen. Es ist auch wichtig, dass die Dienstleistungen in den Verkaufs- und Kaufbelegen korrekt angegeben werden.
 
-### Zeilen gruppieren
+### <a name="grouping-lines" />Zeilen gruppieren
 
 In den Zeilen der Service-Deklaration gibt es keine Gruppierung nach einem Feld. Alle Einträge werden aus dem Originaldokument als Quelle kopiert.
 
 Die von den Behörden benötigte Gruppierung wird in der exportierten Datei bereitgestellt. Sie müssen die Gruppen in der **Data Exchange Definition** konfigurieren, die vollständig konfigurierbar ist. Weitere Informationen finden Sie unter [Definitionen für den Datenaustausch festlegen](across-how-to-set-up-data-exchange-definitions.md).
 
-### Dienste in Belegzeilen verwenden
+### <a name="using-services-in-document-lines" />Dienste in Belegzeilen verwenden
 
 Wenn Sie eine Einkaufs-, Verkaufs- oder Dienstleistungsrechnung erstellen, finden Sie in deren Zeilen zwei Felder, die sich auf Servicerechnungen beziehen. Beide Felder sind mit den Standardwerten aus Ihren Artikel-, Ressourcen- oder Artikelzu-/Abschlag-Einstellungen ausgefüllt.
 
@@ -155,9 +155,9 @@ Sie können die Werte in diesen Feldern ändern, aber wenn Sie das Feld **Anwend
 
 Wenn Sie im Feld **Dienstleistung Transaktionsart Code** einen Wert angeben, aber das Feld **Anwendbar für Dienstleistungsdeklaration** nicht markieren, können Sie den Beleg zwar buchen, aber die Zeile wird dabei nicht berechnet.
 
-## Siehe die entsprechende Schulung unter [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
+## <a name="see-related-training-at-microsoft-learnlearnmodulesprocess-intrastat-dynamics--business-centralindex" />Siehe die entsprechende Schulung unter [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
 
-## Siehe auch
+## <a name="see-also" />Siehe auch
 
 [Intrastat Reporting festlegen](finance-how-setup-report-intrastat.md)
 [Intrastat Reporting in Business Central](finance-how-report-intrastat.md)  

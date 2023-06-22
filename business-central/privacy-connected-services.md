@@ -9,7 +9,7 @@ ms.date: 10/28/2022
 ms.author: jswymer
 ms.reviewer: jswymer
 ---
-# Test-Funktionen, die eine Verbindung zu anderen Microsoft-Diensten herstellen 
+# <a name="trial-features-that-connect-to-other-microsoft-services" />Test-Funktionen, die eine Verbindung zu anderen Microsoft-Diensten herstellen
 
 [!INCLUDE[prod_long](includes/prod_long.md)] ist eine umfassende Lösung für die Unternehmensverwaltung, die tief in die Microsoft 365-Produktivitäts-Apps und Power Platform integriert ist. Ihr kostenloser Test von Business Central kann sich mit vielen verschiedenen Microsoft-Diensten verbinden, die Sie zunächst konfigurieren und aktivieren müssen. Um Ihre kostenlose Testversion optimal nutzen zu können, wurden einige dieser Funktionen automatisch für Sie aktiviert. Auch wenn die Verbindung ab [!INCLUDE[prod_short](includes/prod_short.md)] aktiviert ist, sind diese Dienste nicht in Ihrem Test enthalten und müssen separat gekauft werden, sofern Sie sie nicht bereits besitzen.
 
@@ -32,6 +32,6 @@ In der folgenden Tabelle finden Sie die Verbindungen zu Microsoft-Diensten, die 
 
 Ihre Privatsphäre ist uns wichtig. Um mehr darüber zu erfahren, wie Microsoft Ihre Daten verarbeitet, lesen Sie die [Microsoft Datenschutzerklärung](https://go.microsoft.com/fwlink/?linkid=521839).
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

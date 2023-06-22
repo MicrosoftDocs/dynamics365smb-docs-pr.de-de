@@ -8,7 +8,7 @@ ms.topic: how-to
 ms.date: 02/24/2023
 ms.custom: bap-template
 ---
-# Verwalten von Anhängen, Links und Notizen zu Karten und Dokumenten
+# <a name="manage-attachments-links-and-notes-on-cards-and-documents" />Verwalten von Anhängen, Links und Notizen zu Karten und Dokumenten
 
 Auf den meisten Listenseinten, karten und Belegen können Sie auf der Registerkarte **Anhänge** im Bereich **Infobox** Dateien anhängen, Links hinzufügen und Notizen schreiben. Die Zahl im Titel der Registerkarte gibt an, wie viele angehängte Dateien, Links oder Notizen für die Karte oder der Beleg vorhanden sind.
 
@@ -23,7 +23,7 @@ Sie können den E-Mails, die Sie von [!INCLUDE [prod_short](includes/prod_short.
 >
 > Wenn Sie eine Bestellung löschen, bevor sie in Rechnung gestellt wird, wird auch der Anhang entfernt. Wenn Sie Bestellungen mit der Aktion „Belegzeilen abrufen“ von einer Kaufrechnung abrechnen, wird der Anhang zu den Bestellungen nicht zur Kaufrechnung hinzugefügt.
 
-## So hängen Sie eine Datei an eine Eikaufsrechnung an
+## <a name="to-attach-a-file-to-a-purchase-invoice" />So hängen Sie eine Datei an eine Eikaufsrechnung an
 
 Sie können jede Art von Datei, z. B. Text-, Bild- oder Videodateien, an eine Karte, einen Beleg oder die Zeile eines Belegs anhängen. Dies ist beispielsweise nützlich, wenn Sie eine Lieferantenrechnung als PDF-Datei auf der zugehörigen Einkaufsrechnung in [!INCLUDE[prod_short](includes/prod_short.md)] speichern möchten.
 
@@ -44,14 +44,14 @@ Das folgende Verfahren basiert auf einer Einkaufsrechnung. Die Schritte sind fü
 
 Die Datei wird nun der Einkaufsrechnung zugeordnet.
 
-## So zeigen Sie eine angehängte Datei an
+## <a name="to-view-an-attached-file" />So zeigen Sie eine angehängte Datei an
 
 1. Öffnen Sie im Bereich **Infobox** die Registerkarte **Anhänge**.
 2. Wählen Sie den Wert hinter dem Feld **Belege** z. B. "1".
 3. Wählen Sie auf der Seite **Angefügte Dokumente** die Aktion **Vorschau** aus.
 4. Öffnen Sie die heruntergeladene Datei.
 
-## So speichern Sie ein Dokument als PDF-Anhang
+## <a name="to-save-a-document-as-a-pdf-attachment" />So speichern Sie ein Dokument als PDF-Anhang
 
 Wann immer Sie ein Dokument als Datei speichern müssen, können Sie die Aktion **Anhängen als PDF** verwenden, um den aktuellen Dokumentinhalt als PDF-Datei zu erfassen, die an die FactBox des Dokuments angehängt wird. Dies ist z.B. nützlich, wenn Dokumente mehreren Schritten in einem Prozess folgen, wie z.B. einem Verkaufsprozess oder einem Genehmigungs-Workflow, und Sie sich auf einen Ausdruck des vorherigen Schritts beziehen möchten.
 
@@ -62,7 +62,7 @@ Das folgende Verfahren basiert auf einer Auftragsabwicklung. Die Schritte sind f
 
 Eine PDF-Datei mit dem aktuellen Inhalt des Kundenauftrags wird der Registerkarte **Anlagen** im Infoboxbereich hinzugefügt.
 
-## Um einen Link von einer Artikelkarte hinzuzufügen
+## <a name="to-add-a-link-from-an-item-card" />Um einen Link von einer Artikelkarte hinzuzufügen
 
 Sie können einen Link von einer Karte oder einem Beleg zu einer beliebigen URL hinzufügen. Dies ist beispielsweise hilfreich, wenn Sie eine Artikelkarte mit dem Artikelkatalog des Lieferanten verknüpfen möchten.
 
@@ -80,7 +80,7 @@ Das folgende Verfahren basiert auf einer Elementkarte. Die Schritte sind für al
 
 Der Link ist jetzt an die Artikel-Karte angehängt.  
 
-## So schreiben Sie eine Notiz zu einem Verkaufsauftrag
+## <a name="to-write-a-note-on-a-sales-order" />So schreiben Sie eine Notiz zu einem Verkaufsauftrag
 
 Sie können eine Notiz auf ein Dokument oder eine Karte schreiben, um beispielsweise anderen Benutzern des Dokuments oder der Karte spezielle Anweisungen zu übermitteln. Sie können Dateilinks und URLs in Notizen einfügen.
 
@@ -97,7 +97,7 @@ Das folgende Verfahren basiert auf einer Auftragsabwicklung. Die Schritte sind f
 
 Der Hinweis ist jetzt dem Verkaufsauftrag beigefügt.
 
-## Weitere Informationen  
+## <a name="see-also" />Weitere Informationen
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Eingehende Belege](across-income-documents.md)  
 [Einrichten von Workflowbenachrichtigungen](across-setting-up-workflow-notifications.md)  

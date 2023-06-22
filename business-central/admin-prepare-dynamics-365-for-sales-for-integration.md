@@ -10,14 +10,14 @@ ms.search.keywords: 'sales, crm, integration, integrating'
 ms.date: 06/14/2021
 ms.author: bholtorf
 ---
-# Integration mit Dynamics 365 Sales
+# <a name="integrating-with-dynamics--sales" />Integration mit Dynamics 365 Sales
 
 Die Rolle des Verkäufers wird häufig als eine der am meisten nach außen gerichteten Tätigkeiten in einem Unternehmen angesehen. Es kann jedoch für Verkäufer hilfreich sein, einen Blick in das Innere des Unternehmens zu werfen und zu erfahren, was am anderen Ende passiert. Durch die Integration von [!INCLUDE[prod_short](includes/prod_short.md)] und [!INCLUDE[crm_md](includes/crm_md.md)] können Sie Ihren Vertriebsmitarbeitern diesen Einblick geben. Durch die Integration können die Mitarbeiter Informationen in [!INCLUDE[prod_short](includes/prod_short.md)] einsehen, während sie in [!INCLUDE[crm_md](includes/crm_md.md)] arbeiten. Bei der Vorbereitung eines Verkaufsangebots kann es zum Beispiel hilfreich sein, zu wissen, ob ausreichend Lagerbestand vorhanden ist, um die Bestellung zu erfüllen. Weitere Informationen finden Sie unter [Dynamics 365 Sales von Business Central verwenden](marketing-integrate-dynamicscrm.md).
 
 > [!NOTE]
 > Dieses Thema beschreibt den Prozess der Integration der Online-Versionen von [!INCLUDE[crm_md](includes/crm_md.md)] und [!INCLUDE[prod_short](includes/prod_short.md)] bis [!INCLUDE[prod_short](includes/cds_long_md.md)]. Informationen zur lokalen Konfiguration finden Sie unter [Dynamics 365 Sales für die lokale Integration vorbereiten](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration).
 
-## Integrieren über Dataverse
+## <a name="integrating-through-dataverse" />Integrieren über Dataverse
 Um die Verbindung und Synchronisierung von Daten mit anderen Dynamics 365-Anwendungen zu erleichtern, lässt sich [!INCLUDE[prod_short](includes/prod_short.md)] auch mit [!INCLUDE[prod_short](includes/cds_long_md.md)] integrieren. Sie können zum Beispiel eine Verbindung zu [!INCLUDE[crm_md](includes/crm_md.md)] herstellen, oder sogar zu Apps, die Sie selbst erstellen. Wenn Sie die Integration zum ersten Mal vornehmen, müssen Sie dies über [!INCLUDE[prod_short](includes/cds_long_md.md)] tun. Weitere Informationen finden Sie unter [Integration mit Dataverse](admin-common-data-service.md).
 
 Wenn Sie [!INCLUDE[crm_md](includes/crm_md.md)] bereits mit [!INCLUDE[prod_short](includes/prod_short.md)] integriert haben, können Sie Ihre Daten weiterhin über Ihre Einrichtung synchronisieren. Wenn Sie jedoch Ihre [!INCLUDE[crm_md](includes/crm_md.md)]-Integration aktualisieren oder ausschalten, müssen Sie, um sie wieder einzuschalten, eine Verbindung über [!INCLUDE[prod_short](includes/cds_long_md.md)] herstellen. Weitere Informationen finden Sie unter [Aktualisierung einer Integration mit Dynamics 365 Sales](admin-upgrade-sales-to-cds.md).
@@ -25,17 +25,17 @@ Wenn Sie [!INCLUDE[crm_md](includes/crm_md.md)] bereits mit [!INCLUDE[prod_short
 > [!NOTE]
 > Eine erneute Verbindung über [!INCLUDE[prod_short](includes/cds_long_md.md)] wendet die Standard-Synchronisationseinstellungen an und überschreibt alle Ihre Konfigurationen. Es werden zum Beispiel die Standard-Tabellenzuordnungen angewendet.
 
-## Integrationseinstellungen, die spezifisch für eine [!INCLUDE[crm_md](includes/crm_md.md)]-Integration sind
+## <a name="integration-settings-that-are-specific-to-a-includecrmmdincludescrmmdmd-integration" />Integrationseinstellungen, die spezifisch für eine [!INCLUDE[crm_md](includes/crm_md.md)]-Integration sind
 Die Integration mit [!INCLUDE[prod_short](includes/prod_short.md)] erfolgt über [!INCLUDE[prod_short](includes/cds_long_md.md)], und es werden viele Standardeinstellungen und Tabellen bereitgestellt. Zusätzlich zu den Standardeinstellungen gibt es einige, die spezifisch für [!INCLUDE[crm_md](includes/crm_md.md)] sind. In den folgenden Abschnitten sind diese Einstellungen aufgeführt.
 
-## Berechtigungen und Sicherheitsrollen für Benutzerkonten im Vertrieb
+## <a name="permissions-and-security-roles-for-user-accounts-in-sales" />Berechtigungen und Sicherheitsrollen für Benutzerkonten im Vertrieb
 Wenn Sie die Integrationslösung installieren, werden die Berechtigungen für das Integrationsbenutzerkonto konfiguriert. Wenn diese Berechtigungen geändert werden, müssen Sie sie möglicherweise zurücksetzen. Sie können dies tun, indem Sie die Integrationslösung neu installieren, indem Sie **Integrationslösung neu installieren** auf der Seite **Dynamics 365 Verbindungseinrichtung** wählen. Die folgenden Sicherheitsrollen werden eingesetzt:
 
 * Dynamics 365 Business Central Integrations-Administrator
 * Dynamics 365 Business Central Integration Benutzer
 * Dynamics 365 Business Central Benutzer der Produktverfügbarkeit
 
-### Verbindungseinstellungen im Einrichtungshandbuch
+### <a name="connection-settings-in-the-setup-guide" />Verbindungseinstellungen im Einrichtungshandbuch
 Sie können eine unterstützte Setup-Anleitung verwenden, um die Verbindung schnell einzurichten und erweiterte Funktionen wie die Kopplung zwischen Datensätzen festzulegen.
 
 1. Wählen Sie **Einrichtung und Erweiterungen** und dann **Unterstütztes Setup** aus.
@@ -51,7 +51,7 @@ Sie können eine unterstützte Setup-Anleitung verwenden, um die Verbindung schn
 |**Dynamics 365 Sales-Verbindung aktivieren** | Aktivieren Sie die Verbindung mit [!INCLUDE[crm_md](includes/crm_md.md)]. |
 | **Dynamics 365 SDK Version** | Dies ist nur relevant, wenn Sie eine Integration mit einer lokalen Version von [!INCLUDE[crm_md](includes/crm_md.md)] vornehmen. Dieses SDK ist das Dynamics 365 Software Development Kit (auch als Xrm bezeichnet), das Sie für die Verbindung von [!INCLUDE[prod_short](includes/prod_short.md)] mit [!INCLUDE[crm_md](includes/crm_md.md)] verwenden. Die Version muss mit der SDK-Version kompatibel sein, die von [!INCLUDE[crm_md](includes/crm_md.md)] verwendet wird, und der Version von [!INCLUDE[crm_md](includes/crm_md.md)] entsprechen oder neuer sein. |
 
-### Verbindungseinstellungen auf der Seite Microsoft Dynamics 365 Verbindungsaufbau
+### <a name="connection-settings-on-the-microsoft-dynamics--connection-setup-page" />Verbindungseinstellungen auf der Seite Microsoft Dynamics 365 Verbindungsaufbau
 
 Geben Sie die folgenden Informationen über die Verbindung von [!INCLUDE[crm_md](includes/crm_md.md)] mit [!INCLUDE[prod_short](includes/prod_short.md)] ein.
 
@@ -71,10 +71,10 @@ Zusätzlich zu den oben genannten Einstellungen geben Sie folgende Einstellungen
 |**Bidirektionale Synchronisierung von Verkaufsaufträgen**|Synchronisieren Sie Verkaufsaufträge in beide Richtungen. Ändert ein Debitor beispielsweise seine Meinung über das Produkt oder die Menge, die er in [!INCLUDE[crm_md](includes/crm_md.md)] bestellt hat, können Sie den Verkaufsauftrag archivieren und einen neuen in [!INCLUDE[prod_short](includes/prod_short.md)] erstellen. Dasselbe gilt für Änderungen in [!INCLUDE[prod_short](includes/prod_short.md)]. Wenn sich beispielsweise Preise, Steuerbeträge oder voraussichtliche Warenausgangsdaten ändern, werden die Änderungen automatisch mit [!INCLUDE[crm_md](includes/crm_md.md)] synchronisiert. Die bidirektionale Synchronisierung hilft Ihren Verkäufern, über die neuesten Änderungen und den Status von Angeboten und Bestellungen auf dem Laufenden zu bleiben.|
 
 <!--
-### User Account Settings
+### <a name="user-account-settings" />User Account Settings
 Integration with Business Central through Dataverse requires an administrator user account and an account that is used only for the connection between the apps. This account is called the "integration user." When you install the CDS Base Integration Solution, permissions for the integration user account are configured in [!INCLUDE[crm_md](includes/crm_md.md)]. If those permissions are changed you might need to reset them. You can do that by reinstalling the Integration Solution or by manually resetting them. The following tables list the minimum permissions for the user accounts in [!INCLUDE[crm_md](includes/crm_md.md)].  -->
 
-### Standard-Sales-Entitätszuordnungen für die Synchronisierung
+### <a name="standard-sales-entity-mapping-for-synchronization" />Standard-Sales-Entitätszuordnungen für die Synchronisierung
 
 Entitäten in [!INCLUDE[crm_md](includes/crm_md.md)], wie z.B. Bestellungen, werden mit äquivalenten Typen von Tabellen in [!INCLUDE[prod_short](includes/prod_short.md)] integriert, wie z.B. Debitorenaufträge. Um mit [!INCLUDE[crm_md](includes/crm_md.md)]-Daten zu arbeiten, richten Sie Verknüpfungen, auch Kopplungen genannt, zwischen Tabellen in [!INCLUDE[crm_md](includes/crm_md.md)] und [!INCLUDE[prod_short](includes/prod_short.md)] ein.
 
@@ -99,7 +99,7 @@ Die folgende Tabelle zeigt die standardmäßige Zuordnung zwischen Tabellen in [
 > [!NOTE]
 > Die Zuordnungen für die Tabellen Artikeleinheit, Ressourceneinheit und Einheitengruppe sind nur verfügbar, wenn Ihr Administrator die Option **Funktionsupdate: Synchronisierung mehrerer Einheiten mit Dynamics 365 Sales** auf der Seite **Funktionsverwaltung** aktiviert hat. Weitere Informationen finden Sie unter [Synchronisieren von Artikeln und Ressourcen mit Produkten in verschiedenen Einheiten](admin-prepare-dynamics-365-for-sales-for-integration.md#synchronizing-items-and-resources-with-products-with-different-units-of-measure).
 
-## Weitere Informationen finden Sie unter Synchronisieren von Artikeln und Ressourcen mit Produkten in verschiedenen Einheiten.
+## <a name="synchronizing-items-and-resources-with-products-with-different-units-of-measure" />Weitere Informationen finden Sie unter Synchronisieren von Artikeln und Ressourcen mit Produkten in verschiedenen Einheiten.
 Unternehmen produzieren oder kaufen die Artikel oft in einer Einheit und verkaufen sie dann in einer anderen. Um Artikel zu synchronisieren, die mehrere Einheiten verwenden, müssen Sie den Funktionsschalter **Funktionsupdate: Synchronisierung mehrerer Einheiten mit Dynamics 365 Sales** auf der Seite **Funktionsverwaltung** aktivieren. 
 
 Wenn Sie die Funktion Update einschalten, wird eine neue Einheitentabelle erstellt und jedem Artikel und jeder Ressource in [!INCLUDE[prod_short](includes/prod_short.md)] zugewiesen. Über die Tabellen können Sie die Tabellen Einheitengruppe, Artikel Einheiten und Ressourcen Einheiten in [!INCLUDE[prod_short](includes/prod_short.md)] der Dynamics 365 Sales Einheitengruppe in [!INCLUDE[crm_md](includes/crm_md.md)] zuordnen. Das folgende Bild zeigt die Zuordnungen.
@@ -108,7 +108,7 @@ Wenn Sie die Funktion Update einschalten, wird eine neue Einheitentabelle erstel
 
 Sie können für jede Einheitengruppe mehrere Einheiten erstellen und die Gruppen den Produkten in [!INCLUDE[crm_md](includes/crm_md.md)] zuweisen. Danach können Sie die Produkte mit Artikeln und Ressourcen in [!INCLUDE[prod_short](includes/prod_short.md)] synchronisieren. Sie können Artikeleinheiten oder Ressourceneinheiten manuell mit einer Einheitengruppe koppeln. Wenn Sie dies tun und die Einheitengruppe für den Artikel oder die Ressource nicht mit einer Einheitengruppe in [!INCLUDE[crm_md](includes/crm_md.md)] gekoppelt ist, z.B. weil die Einheitengruppe nicht vorhanden war, erstellt [!INCLUDE[prod_short](includes/prod_short.md)] automatisch die Einheitengruppe in [!INCLUDE[crm_md](includes/crm_md.md)].
 
-### Zuordnen von Artikeln und Ressourcen zu Produkten
+### <a name="mapping-items-and-resources-to-products" />Zuordnen von Artikeln und Ressourcen zu Produkten
 Wenn Sie das **Funktionsupdate: Synchronisierung mehrerer Einheiten mit Dynamics 365 Sales** aktivieren, passiert Folgendes:
 
 * Für Elemente und Ressourcen werden neue Zuordnungen erstellt.
@@ -140,7 +140,7 @@ Die folgenden Schritte beschreiben die Schritte zum Starten der Zuordnung von Ei
 5. Wählen Sie die Zuordnung **ARTIKEL-PRODUKT** und dann **Neustarten**. Neustart erstellt neue Produkte aus den Artikeln in [!INCLUDE[crm_md](includes/crm_md.md)] und weist eine neue, für den Artikel spezifische Einheitsgruppe zu.
 6. Wählen Sie die Zuordnung **RESSOURCE-PRODUKT** und dann **Neustarten**. Neustart erstellt neue Produkte aus den Ressourcen in [!INCLUDE[crm_md](includes/crm_md.md)] und weist eine neue, ressourcenspezifische Einheitsgruppe zu.
 
-### Synchronisierungsregeln
+### <a name="synchronization-rules" />Synchronisierungsregeln
 
 Die folgende Tabelle listet die Regeln auf, die die Synchronisation zwischen [!INCLUDE[crm_md](includes/crm_md.md)] und [!INCLUDE[prod_short](includes/prod_short.md)] steuern. Diese Regeln gelten zusätzlich zu den für Dataverse definierten Regeln, die ebenfalls gelten. Weitere Informationen finden Sie unter [Standard-Entitätszuordnung für die Synchronisation](admin-synchronizing-business-central-and-sales.md#standard-table-mapping-for-synchronization).
 
@@ -158,7 +158,7 @@ Die folgende Tabelle listet die Regeln auf, die die Synchronisation zwischen [!I
 |Gebuchte Verkaufsrechnungen|Gebuchte Verkaufsrechnungen werden mit Verkaufsrechnungen synchronisiert. Bevor eine Rechnung synchronisiert werden kann, ist es besser, alle anderen Tabellen zu synchronisieren, die an der Rechnung beteiligt sein können, von Verkäufern bis zu Preislisten. Der Verkäufer-Codewert im Rechnungskopf definiert den Besitzer der gekoppelten Tabelle im Verkauf.|
 |Verkaufsaufträge|Wenn die Integration von Verkaufsaufträgen aktiviert ist, werden Verkaufsaufträge in [!INCLUDE[prod_short](includes/prod_short.md)], die aus gesendeten Verkaufsaufträgen in [!INCLUDE[crm_md](includes/crm_md.md)] erstellt wurden, mit Verkaufsaufträgen in [!INCLUDE[crm_md](includes/crm_md.md)] synchronisiert, wenn sie freigegeben werden. Vor dem Synchronisieren von Aufträgen wird empfohlen, zunächst alle an dem Auftrag beteiligten Tabellen zu synchronisieren, z. B. Verkäufer und Preislisten. Das Verkäufer-Codefeld im Auftragskopf definiert den Besitzer der gekoppelten Tabelle in [!INCLUDE[crm_md](includes/crm_md.md)].|
 
-### Synchronisierungsaufträge für eine Vertriebsintegration
+### <a name="synchronization-jobs-for-a-sales-integration" />Synchronisierungsaufträge für eine Vertriebsintegration
 
 Die Jobs werden in der folgenden Reihenfolge ausgeführt, um Kopplungsabhängigkeiten zwischen Tabellen zu vermeiden. Es sind mehr Aufträge aus Dataverse verfügbar. Weitere Informationen finden Sie unter [Vorgehensweise: Projektwarteschlangen nutzen, um Aufgaben zu planen](./admin-job-queues-schedule-tasks.md)
 
@@ -169,7 +169,7 @@ Die Jobs werden in der folgenden Reihenfolge ausgeführt, um Kopplungsabhängigk
 5. SALESPRC-PRODPRICE - Synchronisierungsauftrag „Dynamics 365 Sales“.
 6. POSTEDSALESINV-INV - Dynamics 365 Sales-Synchronisierungsauftrag.
 
-### Standardmäßige Synchronisierungsprojektwarteschlangenposten
+### <a name="default-synchronization-job-queue-entries" />Standardmäßige Synchronisierungsprojektwarteschlangenposten
 
 Die folgende Tabelle beschreibt die Standardsynchronisierungsjobs für Sales.  
 
@@ -183,13 +183,13 @@ Die folgende Tabelle beschreibt die Standardsynchronisierungsjobs für Sales.
 |POSTEDSALESINV-INV - Dynamics 365 Sales Synchronisierungsauftrag|Synchronisiert [!INCLUDE[crm_md](includes/crm_md.md)]-Rechnungen mit gebuchten [!INCLUDE[prod_short](includes/prod_short.md)]-Verkaufsrechnungen.|Von [!INCLUDE[prod_short](includes/prod_short.md)] nach [!INCLUDE[crm_md](includes/crm_md.md)]|RECHNUNGEN – GEBUCHTE VERKAUFSRECHNUNGEN|30|1440<br> (24 Std.)|
 |Debitorenstatistik - Dynamics 365 Sales Synchronisierungsauftrag|Aktualisiert [!INCLUDE[crm_md](includes/crm_md.md)]-Konten mit den neuesten [!INCLUDE[prod_short](includes/prod_short.md)]-Debitorendaten. In [!INCLUDE[crm_md](includes/crm_md.md)] erscheinen diese Informationen im **Business Central-Kontostatistik**-Schnellansichtsformular von Konten, die mit [!INCLUDE[prod_short](includes/prod_short.md)]-Debitoren gekoppelt werden.<br /><br /> Diese Daten können auch manuell für jeden Debitorendatensatz aktualisiert werden. Weitere Informationen finden Sie unter [Datensätze manuell koppeln und synchronisieren](admin-how-to-couple-and-synchronize-records-manually.md). </BR></BR>**Hinweis:** Dieser Projektwarteschlangeneintrag ist nur relevant, wenn die [!INCLUDE[prod_short](includes/prod_short.md)]-Integrationslösung in [!INCLUDE[crm_md](includes/crm_md.md)] installiert ist. |Nicht anwendbar|Nicht anwendbar|30|Nicht anwendbar| 
 
-## Verbinden mit Lokal-Versionen von Business Central 2019 Release-Welle 1 und Microsoft Dynamics NAV 2018
+## <a name="connecting-to-on-premises-versions-of-business-central--release-wave--and-microsoft-dynamics-nav-" />Verbinden mit Lokal-Versionen von Business Central 2019 Release-Welle 1 und Microsoft Dynamics NAV 2018
 Das Team Microsoft Power Platform hat [angekündigt](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse), dass es die Authentifizierungsart Office365 außer Betrieb nimmt. Wenn Sie lokal eine Version von [!INCLUDE[prod_short](includes/prod_short.md)] verwenden, die älter ist als Business Central 2019 Release Wave 1, müssen Sie den Authentifizierungstyp OAuth verwenden, um sich online mit [!INCLUDE[crm_md](includes/crm_md.md)] zu verbinden. Die Schritte in diesem Abschnitt beschreiben, wie Sie die folgenden Produktversionen verbinden:
 
 * Business Central 2019 Freigabewelle 1
 * Microsoft Dynamics NAV 2018
 
-### Voraussetzungen
+### <a name="prerequisites" />Voraussetzungen
 
 - Sie müssen ein Microsoft Azure Abonnement haben. Ein Testkonto funktioniert für die Registrierung von Anträgen.
 - [!INCLUDE[crm_md](includes/crm_md.md)] ist für die Verwendung eines der folgenden Authentifizierungstypen konfiguriert:
@@ -201,7 +201,7 @@ Das Team Microsoft Power Platform hat [angekündigt](/power-platform/important-c
 
    - OAuth
 
-### So verbinden Sie Business Central 2019 Freigabewelle 1 und Dynamics NAV 2018
+### <a name="to-connect-business-central--release-wave--and-dynamics-nav-" />So verbinden Sie Business Central 2019 Freigabewelle 1 und Dynamics NAV 2018
 
 1. Importieren Sie Microsoft Dynamics 365 Business Central Integrationslösung in Ihre [!INCLUDE[crm_md](includes/crm_md.md)] Umgebung. Die Integrationslösung ist im Ordner CrmCustomization auf Ihrer [!INCLUDE[prod_short](includes/prod_short.md)] oder Dynamics NAV 2018 Installations-DVD verfügbar. Abhängig von Ihrer Produktversion importieren Sie eine der folgenden Lösungen:
 
@@ -256,7 +256,7 @@ Das Team Microsoft Power Platform hat [angekündigt](/power-platform/important-c
 > [!Note]
 > Wenn Sie eine lokale Instanz mit [!INCLUDE[crm_md](includes/crm_md.md)] mit einem bestimmten Authentifizierungstyp konfigurieren möchten, füllen Sie die Felder im Inforegister **Authentifizierungstyp-Details** aus. Weitere Informationen finden Sie unter [Authentifizierung mit Microsoft Dataverse-Webdienste](/powerapps/developer/data-platform/authentication). Dieser Schritt ist nicht erforderlich, wenn sie eine Verbindung mit einer Onlineversion von [!INCLUDE[prod_short](includes/prod_short.md)] herstellen.
 
-## Siehe auch
+## <a name="see-also" />Siehe auch
 
 [Einrichten des Benutzerkontos für die Integration in [!INCLUDE[crm_md](includes/crm_md.md)]](admin-setting-up-integration-with-dynamics-sales.md)  
 [Richten Sie eine Verbindung mit [!INCLUDE[crm_md](includes/crm_md.md)]](admin-how-to-set-up-a-dynamics-crm-connection.md) ein  

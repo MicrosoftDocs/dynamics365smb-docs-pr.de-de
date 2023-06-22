@@ -8,31 +8,31 @@ ms.search.keywords: null
 ms.date: 09/21/2022
 ms.author: jswymer
 ---
-# Freigeben von Geschäftsdaten aus Business Central
+# <a name="sharing-business-data-from-business-central" />Freigeben von Geschäftsdaten aus Business Central
 
 Die Zusammenarbeit zwischen Personen innerhalb und außerhalb einer Organisation ist ein integraler Bestandteil der meisten Unternehmen. [!INCLUDE[prod_short](includes/prod_short.md)] bietet mehrere Funktionen zum Freigeben von Geschäftsdaten, wie eine Liste von Datensätzen, bestimmte Datensätze oder Dokumente. <!--, with others&mdash;even those people who don't have a Business Central license in some cases.-->
 
 Bei all diesen Funktionen ist der Zugriff auf Daten durch die Lizenz und Berechtigungen von Business Central geschützt.
 
-## Kopieren eines Links
+## <a name="copying-a-link" />Kopieren eines Links
 
 ![Unterstützt](media/check.png) Business Central Online ![Unterstützt](media/check.png) Business Central On-Premises
 
 Sie können die URL der Seite von jeder Seite aus kopieren, dann einfügen und in anderen Medienformen wie E-Mails, Teams-Chats oder Textnachrichten verteilen. Am einfachsten kopieren Sie einen Link, indem Sie oben auf der Seite **Freigeben** > **Link kopieren** auswählen. Eine andere Möglichkeit besteht darin, die URL direkt aus dem Adressfeld des Browsers zu kopieren.
 
-### Seitenlink ändern
+### <a name="modify-the-page-link" />Seitenlink ändern
 
 Nachdem Sie einen Link kopiert haben, können Sie vor dem Senden die URL ändern, um die Anzeige beim Öffnen der Seite zu ändern. Sie können beispielsweise Filter hinzufügen oder ein anderes Unternehmen angeben.
 
 Weitere Informationen finden Sie unter [Webclient-URL](/dynamics365/business-central/dev-itpro/developer/devenv-web-client-urls).
 
-### Informationen zu gefilterten Listen
+### <a name="about-filtered-lists" />Informationen zu gefilterten Listen
 
 Mithilfe des Filterbereichs auf Listenseiten können Sie Filter anwenden, um die in der Liste angezeigten Datensätze einzugrenzen. Wenn Sie die Aktion **Link kopieren** verwenden oder die URL aus dem Browser kopieren, enthält der Seitenlink Ihre Filteränderungen nicht. Benutzern, die den Link öffnen, wird die vollständige Sammlung angezeigt. Um die Filterung für einen Sammlungsseiten-Link beizubehalten, speichern Sie die gefilterte Seite zunächst als **Ansicht**. Dann öffnen Sie die Ansicht, und kopieren Sie den Link von dort.
 
 Weitere Informationen finden Sie unter [Sortieren, Durchsuchen und Filtern](ui-enter-criteria-filters.md).
 
-## Freigeben für Teams
+## <a name="sharing-to-teams" />Freigeben für Teams
 
 ![Unterstützt](media/check.png) Business Central Online ![Nicht unterstützt](media/x-icon.png) Business Central On-Premises
 
@@ -40,7 +40,7 @@ Von den meisten Sammlungsseiten und Detailseiten aus können Sie direkt einen Li
 
 Weitere Informationen finden Sie unter [Freigeben von Datensätzen und Seitenlinks teilen in Teams](across-working-with-teams.md).
 
-## Freigeben durch OneDrive
+## <a name="sharing-through-onedrive" />Freigeben durch OneDrive
 
 ![Unterstützt](media/check.png) Business Central Online ![Unterstützt](media/check.png) Business Central On-Premises
 
@@ -48,7 +48,7 @@ Business Central macht es Ihnen leicht, Dateien zu speichern, zu verwalten und f
 
 Weitere Informationen finden Sie unter [Freigeben von Dateien in OneDrive](across-share-onedrive.md).
 
-## Öffnen in Excel
+## <a name="opening-in-excel" />Öffnen in Excel
 
 ![Unterstützt](media/check.png) Business Central Online ![Unterstützt](media/check.png) Business Central On-Premises
 
@@ -56,7 +56,7 @@ Für Listenseiten und Listen, die in eine Seite eingebettet sind, können Sie di
 
 Weitere Informationen finden Sie unter [Anzeigen und Bearbeiten in Excel](across-work-with-excel.md).
 
-## Freigeben von Zeilen oder Tabellen
+## <a name="sharing-rows-or-tables" />Freigeben von Zeilen oder Tabellen
 
 ![Unterstützt](media/check.png) Business Central Online ![Unterstützt](media/check.png) Business Central On-Premises
 
@@ -64,7 +64,7 @@ Sie können einen oder mehrere Datensätze in einer Liste freigeben. Wählen Sie
 
 Weitere Informationen finden Sie unter [FAQ zum Kopieren und Einfügen](faq-copy-paste.yml).
 
-## Weitere Informationen
+## <a name="see-also" />Weitere Informationen
 
 [Business Central und OneDrive Integration](across-onedrive-overview.md)  
 [Verwaltung der OneDrive Integration mit Business Central](admin-onedrive-integration.md)  

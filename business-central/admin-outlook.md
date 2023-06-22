@@ -11,7 +11,7 @@ ms.search.form: '1831, 1832'
 ms.date: 04/27/2022
 ms.author: jswymer
 ---
-# Holen Sie sich das Business Central-Add-in für Outlook
+# <a name="get-the-business-central-add-in-for-outlook" />Holen Sie sich das Business Central-Add-in für Outlook
 
 Mit [!INCLUDE[prod_short](includes/prod_short.md)] können Sie geschäftliche Interaktionen mit Ihren Kunden und Kreditoren direkt in Microsoft Outlook verwalten. Mit dem Outlook-Add-in [!INCLUDE[prod_short](includes/prod_short.md)] können Sie Finanzdaten zu Kunden und Kreditoren einsehen. Sie können auch finanzielle Belege erstellen und versenden, z.B. Angebote und Rechnungen.  
 
@@ -21,7 +21,7 @@ Es gibt zwei Möglichkeiten, das Business Central-Add-in für Outlook zu install
 
 - Als beliebiger Benutzer installieren Sie das Add-in für sich selbst, wenn Ihr Admin es nicht bereits für Sie bereitgestellt hat.
 
-## Über das Business Central-Add-in für Outlook
+## <a name="about-the-business-central-add-in-for-outlook" />Über das Business Central-Add-in für Outlook
 
 Das Business Central-Add-in für Outlook besteht aus zwei kleineren Add-ins:
 
@@ -40,20 +40,20 @@ Jedes Add-In wird in Form einer XML-Datei bereitgestellt, die als *Manifest* bez
 > [!IMPORTANT]
 > Sie arbeiten mit verschiedenen Umgebungen? Das Business Central-Add-in für Outlook ist für das Arbeiten mit einer einzelnen Business Central-Umgebung ausgelegt. Wenn das Add-In installiert ist, wird der Name der Umgebung in das Manifest des Add-Ins aufgenommen. Diese Konfiguration bedeutet, dass das Add-In nur eine Verbindung mit der Umgebung herstellt, über die es installiert wurde. Um das Add-In mit einer anderen Umgebung zu verwenden, öffnen Sie die Umgebung und installieren das Add-In erneut.
 
-## Bereitstellen des Add-Ins über die zentrale Bereitstellung als Admin
+## <a name="deploy-the-add-in-by-using-centralized-deployment-as-an-admin" />Bereitstellen des Add-Ins über die zentrale Bereitstellung als Admin
 
 Die zentrale Bereitstellung ist eine Funktion im Microsoft 365 Admin Center, mit der Sie Add-Ins automatisch in den Office-Apps der Benutzer, z. B. Outlook, bereitstellen können. Es ist die empfohlene Methode für Admins, Office Add-ins für Benutzer und Gruppen innerhalb Ihres Unternehmens bereitzustellen.
 
 > [!NOTE]
 > Für Business Central on-premises, siehe [Einrichten des Add-Ins für Outlook Integration mit Business Central On-Premises](/dynamics365/business-central/dev-itpro/administration/setting-up-office-add-ins-outlook-inbox) im Administrationsinhalt (nur auf Englisch).
 
-### Voraussetzungen
+### <a name="prerequisites" />Voraussetzungen
 
 - Ein Microsoft 365-Abonnement  
 - Benutzern wird eine Microsoft 365-Lizenz zugewiesen  
 - Ihr Microsoft 365-Konto hat die Rolle *Global Administrator* oder *Exchange Administrator*.
 
-### Bereitstellen des Add-Ins
+### <a name="deploy-the-add-in" />Bereitstellen des Add-Ins
 
 1. Wählen Sie in Business Central die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Unterstützte Einrichtung** ein, und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie **Outlook Add-in Zentrale Bereitstellung**, um die Anleitung zur unterstützten Einrichtung zu starten.
@@ -83,7 +83,7 @@ Die zentrale Bereitstellung ist eine Funktion im Microsoft 365 Admin Center, mit
 
 Wenn Sie fertig sind, können Sie die Bereitstellung im Microsoft 365 Admin Center jederzeit ändern, z. B. weitere Benutzer zuweisen. Weitere Informationen zur Bereitstellung von Add-Ins im Admin Center finden Sie unter [Add-Ins im Admin Center bereitstellen](/microsoft-365/admin/manage/centralized-deployment-faq?view=o365-worldwide#how-do-you-target-add-in-user-assignments-with-centralized-deployment-&preserve-view=true).
 
-## <a name="install"></a>Installieren Sie das Add-In für Ihren eigenen Gebrauch
+## <a name="a-nameinstallainstall-the-add-in-for-your-own-use" /><a name="install"></a>Installieren Sie das Add-In für Ihren eigenen Gebrauch
 
 Wenn Ihr Unternehmen es zulässt, können Sie das Business Central Add-In auch für sich selbst installieren. Wenden Sie sich an Ihren Administrator, wenn Sie sich nicht sicher sind.
 
@@ -94,7 +94,7 @@ Wenn Ihr Unternehmen es zulässt, können Sie das Business Central Add-In auch f
 
 Business Central wird eine Verbindung zu Ihrem E-Mail-Server herstellen und das Add-in in Ihrem Outlook installieren. Dies wird nicht lange dauern. Jetzt können Sie das Add-In in Outlook verwenden.
 
-### <a name="onprem"></a>Für Business Central On-Premises
+### <a name="a-nameonpremafor-business-central-on-premises" /><a name="onprem"></a>Für Business Central On-Premises
 
 Wenn Sie Business Central on-premises verwenden, kann die Installation des Add-Ins etwas anders ablaufen.
 
@@ -116,9 +116,9 @@ Wenn Sie Business Central on-premises verwenden, kann die Installation des Add-I
 
 Jetzt können Sie das Add-In in Outlook verwenden.
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulesalternative-interfaces-dynamics--business-centralindex" />Siehe verwandte [Microsoft Schulungen](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
 
-## Siehe auch
+## <a name="see-also" />Siehe auch
 
 [Bereitschaft für die Geschäftsabwicklung](ui-get-ready-business.md)  
 [Abrufen von Business Central auf meinem mobilen Gerät](install-mobile-app.md)  

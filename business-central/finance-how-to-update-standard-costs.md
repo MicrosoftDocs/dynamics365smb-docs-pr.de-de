@@ -10,7 +10,7 @@ ms.search.form: 5841
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# Standardkosten aktualisieren
+# <a name="update-standard-costs" />Standardkosten aktualisieren
 Sie müssen die festen Einstandspreise von Komponenten in regelmäßigen Abständen aktualisieren und die neuen Einstandspreise auf den übergeordneten Artikel übertragen. Der Prozess besteht in der Regel aus den folgenden vier Schritten:  
 
 1.  Aktualisieren von Kosten auf der Komponenten- und Kapazitätsebene. Weitere Informationen finden Sie unter dem Stapelverarbeitungsauftrag **Artikel Einst.-Preis (fest) vorschlagen**.  
@@ -20,7 +20,7 @@ Sie müssen die festen Einstandspreise von Komponenten in regelmäßigen Abstän
 
 Weitere Informationen finden Sie unter [Über das Berechnen von festen Einstandspreisen](finance-about-calculating-standard-cost.md).
   
-## Einstandspreise aktualisieren
+## <a name="to-update-standard-costs" />Einstandspreise aktualisieren
 
 1.  Führen Sie die Stapelverarbeitung **Lagerreg. fakt. Einst. Preise** aus.  
 2.  Aufruf der Stapelverarbeitung **Lagerregulierung buchen**.  
@@ -35,7 +35,7 @@ Weitere Informationen finden Sie unter [Über das Berechnen von festen Einstands
     7.  Führen Sie die Stapelverarbeitung **Einst.-Preis (fest) Vorschlag übernehmen** aus.  
 4.  Sehen Sie sich das  **Neubewertungs Buch.-Blatt** an, das mit Posten aus vorherigen Schritten in diesem Verfahren gefüllt wurde, und buchen Sie es.  
 
-## Siehe auch
+## <a name="see-also" />Siehe auch
 
  [Informationen zur Berechnung von festen Einstandspreisen](finance-about-calculating-standard-cost.md)   
  [Verwalten der Lagerregulierung](finance-manage-inventory-costs.md)   

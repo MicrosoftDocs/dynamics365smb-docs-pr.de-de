@@ -11,7 +11,7 @@ ms.search.form: '148, 460, 25'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# Anwendung von Kreditorenposten in unterschiedlichen Währungen aktivieren
+# <a name="enable-application-of-ledger-entries-in-different-currencies" />Anwendung von Kreditorenposten in unterschiedlichen Währungen aktivieren
 
 Falls Sie Einkäufe von einem Kreditor in einer Währung tätigen und die Zahlung in einer anderen Währung leisten, können Sie die Zahlung mit dem Einkauf ausgleichen.
 
@@ -19,7 +19,7 @@ Wenn Sie entsprechend an einen Debitor in einer Währung verkaufen und die Zahlu
 
 Im Folgenden wird beschrieben, wie dies für Kreditorenposten auf der Seite **Kreditoren & Einkauf Einrichtung** eingerichtet wird. Die Einrichtung für Debitorenposten auf der Seite **Debitoren & Verkauf Einrichtung** ist ähnlich.
 
-## So aktivieren Sie den Ausgleich von Kreditorenposten in unterschiedlichen Währungen
+## <a name="to-enable-application-of-vendor-ledger-entries-in-different-currencies" />So aktivieren Sie den Ausgleich von Kreditorenposten in unterschiedlichen Währungen
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Kredite und Einkauf Einr. ein** und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie im Feld **Währungsausgleich** eine der folgenden Optionen.
@@ -30,7 +30,7 @@ Im Folgenden wird beschrieben, wie dies für Kreditorenposten auf der Seite **Kr
 | EWU |Ausgleich zwischen EWU-Währungen ist zugelassen. |
 | Alle |Ausgleich zwischen allen Währungen ist zugelassen. |
 
-## So richten Sie Sachkonten für Rundungsdifferenzen beim Währungsausgleich ein
+## <a name="to-set-up-gl-accounts-for-currency-application-rounding-differences" />So richten Sie Sachkonten für Rundungsdifferenzen beim Währungsausgleich ein
 
 Wenn Sie Posten in unterschiedlichen Währungen ausgleichen, müssen Sie die Sachkonten einrichten, auf die Sie die Rundungsdifferenzen buchen möchten.  
 
@@ -42,9 +42,9 @@ Wenn Sie Posten in unterschiedlichen Währungen ausgleichen, müssen Sie die Sac
 3. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Kreditorenbuchungsgruppen** ein und wählen Sie dann den zugehörigen Link.  
 4. Geben Sie in die Felder **Währungsausgl. Rund.-Sollkto.** und **Währungsausgl. Rund.-Habenkto.** die entsprechenden Sachkonten ein, um Rundungsdifferenzen zu buchen.  
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/process-foreign-currency-payments-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesprocess-foreign-currency-payments-dynamics--business-central" />Siehe verwandte [Microsoft Schulungen](/training/modules/process-foreign-currency-payments-dynamics-365-business-central/)
 
-## Siehe auch
+## <a name="see-also" />Siehe auch
 
 [Verwalten von Verbindlichkeiten](payables-manage-payables.md)  
 [Verwalten von Forderungen](receivables-manage-receivables.md)  

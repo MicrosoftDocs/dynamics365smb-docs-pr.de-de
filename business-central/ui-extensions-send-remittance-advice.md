@@ -10,7 +10,7 @@ ms.search.keywords: 'app, add-in, manifest, customize, stream, remittance, advic
 ms.date: 07/06/2021
 ms.author: edupont
 ---
-# Rimesseavis senden
+# <a name="send-remittance-advice" />Rimesseavis senden
 
 Wenn Zahlungsanzeigen verwendet werden, um Kreditoren über die Zahlungen zu benachrichtigen, die erstellt werden, können Sie Zahlungsanzeige als Massenvorgang aus dem Zahlungsausgangs Buch.-Blatt buchen und erneut senden, nachdem die Zahlungen von Kreditorenposten getätigt werden, indem Sie Belegsendeprofile verwenden….
 
@@ -22,7 +22,7 @@ Sie können Zahlungsanzeigen auf zwei verschiedene Arten senden:
 * Auf der Seite **Zahlungsausgangs Buch.-Blatt** wählen Sie **Zugehörig**, **Zahlungen**, **Überweisungsbescheid senden**, um den Überweisungsbescheid für eine oder mehrere Zahlungsausgangs Buch.-Blattzeilen per E-Mail zu senden.
 * Wählen Sie auf der Seite **Kreditorenposten** **Aktionen**, **Funktionen**, **Überweisungsbescheid senden** aus, um einen Überweisungsbescheid per E-Mail zu senden, nachdem die Kreditorenzahlungen für einen von mehreren Kreditorenposten gebucht wurden.
 
-## Siehe auch
+## <a name="see-also" />Siehe auch
 
 [Zahlungsvorschlag](payables-how-suggest-vendor-payments.md)  
 [Anpassen von [!INCLUDE[prod_short](includes/prod_short.md)] mit Erweiterungen](ui-extensions.md)  

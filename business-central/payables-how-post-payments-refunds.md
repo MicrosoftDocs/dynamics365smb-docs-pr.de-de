@@ -11,7 +11,7 @@ ms.search.form: '256, 233, 624, 1228'
 ms.date: 07/09/2021
 ms.author: edupont
 ---
-# Erfassen von Zahlungen und Erstattungen im Zahlungsausgangs Buch.-Blatt
+# <a name="record-payments-and-refunds-in-the-payment-journal" />Erfassen von Zahlungen und Erstattungen im Zahlungsausgangs Buch.-Blatt
 
 Auf der Seite **Zahlungsjournal** erfassen Sie Zahlungen and Kreditoren und Erstattungen an Debitoren. Wenn Sie eine Zlg Buch.-Blattzeile buchen, wird der zahlende Betrag angegebenen Systembankkonto erfasst. Sie müssen dann die Schritte unternehmen, um die tatsächliche Geldüberweisung aus dem entsprechenden Bankkonto vorzunehmen.  
 
@@ -29,7 +29,7 @@ Das Buch.-Blatt ist ein Fibu Buch.-Blatt, das zum Anwenden von Zahlungen optimie
 
     Zusätzlich zur Erfassung für die Leistung der Zahlung können Sie auch die Seite **Zahlungsausgangs Buch.-Blatt** verwenden, um die Zahlung für die weitere Verarbeitung von Ihrer Bank zu registrieren. Weitere Informationen finden Sie unter [Anwenden von Zahlungen](payables-how-work-checks.md) und [Debitoren-Zahlungen manuell ausgleichen](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).  
 
-## Um Zahlungen im Zahlungsausgangs Buch.-Blatt vornehmen
+## <a name="to-make-payments-in-the-payment-journal" />Um Zahlungen im Zahlungsausgangs Buch.-Blatt vornehmen
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Zahlungsausgangs Buch.-Blätter** ein und wählen Sie dann den zugehörigen Link.
 2. Öffnen Sie den Buch.-Blattnamen, der mit den Zahlungen dediziert ist.
@@ -43,7 +43,7 @@ Das Buch.-Blatt ist ein Fibu Buch.-Blatt, das zum Anwenden von Zahlungen optimie
 6. Wenn die Projekt-Buch.-Blattzeilen vollständig sind, wählen Sie die Aktion **Buchen** aus.
 
 
-## So stellen Sie einen Scheck zur Rückerstattung aus
+## <a name="to-issue-a-refund-check" />So stellen Sie einen Scheck zur Rückerstattung aus
 
 1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten"), geben Sie **Zahlungsjournale** ein, und wählen Sie dann den entsprechenden Link aus.
 2. Wählen Sie im Feld **Belegart** die Option **Rückerstattung**.  
@@ -57,7 +57,7 @@ Das Buch.-Blatt ist ein Fibu Buch.-Blatt, das zum Anwenden von Zahlungen optimie
 10. Wenn alle Zeilen des Zahlungsausgangs Buch.-Blatt abgeschlossen sind, wählen Sie die Aktion **Buchen/Drucken**, dann die Aktion **Buchen und Drucken** und wählen **Ja**.  
   
 
-## Weitere Informationen
+## <a name="see-also" />Weitere Informationen
 [Zahlung per Scheck machen](payables-how-work-checks.md)  
 [Elektronische Zahlungen vornehmen](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)  
 [Verwalten von Verbindlichkeiten](payables-manage-payables.md)  

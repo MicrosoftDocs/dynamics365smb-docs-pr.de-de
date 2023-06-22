@@ -12,26 +12,26 @@ ms.search.forms: '5082,'
 ms.date: 04/01/2021
 ms.author: jswymer
 ---
-# Aktivitäten mit Kontakten aufzeichnen
+# <a name="record-interactions-with-contacts" />Aktivitäten mit Kontakten aufzeichnen
 Die Einrichtung der Anwendung zur Aufzeichnung von Aktivitäten besteht aus diesen Aufgaben:
 
 * Einrichten von Aktivitätenvorlagen  
 * Erstellen von Aktivitäten zu Kontakten oder Segmenten  
 * Anzeigen und Verwalten von aufgezeichneten Aktivitäten  
 
-##  Einrichten von Aktivitätenvorlagen
+## <a name="setting-up-interaction-templates" />Einrichten von Aktivitätenvorlagen
 Bevor Sie Aktivitäten erstellen und speichern können, müssen Sie Aktivitätenvorlagen einrichten. Wenn Sie Aktivitäten erstellen, müssen Sie die Aktivitätenvorlagen angeben, auf denen diese basieren. Eine Aktivitätsvorlage ist eine Vorlage, die die grundlegenden Charakteristiken einer Aktivität bestimmt.
 Sie richten Aktivitätenvorlagen auf der Seite **Aktivitätenvorlagen** ein.
 
 Nachdem Sie die Informationen über die Aktivitätenvorlage eingegeben haben, können Sie einen Dateianhang erstellen (z. B. Microsoft Word-Dokument). Wiederholen Sie diese Schritte, um weitere Aktivitätenvorlagen einzurichten.  
 
-## Aktivitäten erstellen
+## <a name="creating-interactions" />Aktivitäten erstellen
 Es gibt zwei verschiedene Arten, Aktivitäten zu speichern.
 
 * Sie können Aktivitäten manuell erstellen, die mit einem einzelnen Kontakt oder Segment verknüpft sind. Weitere Informationen finden Sie unter [Erstellen von Aktivitäten auf Kontakten und Segmenten](marketing-how-create-interactions.md).  
 * Die Anwendung kann Aktivitäten automatisch speichern, wenn Sie Aktionen in der Anwendung durchführen, z. B., wenn Sie eine Rechnung oder ein Angebot drucken. Weitere Informationen finden Sie unter [Aktivitäten mit Kontakten automatisch aufzeichnen](marketing-auto-record-interactions.md).
 
-## Anzeigen und Verwalten von aufgezeichneten Aktivitäten
+## <a name="viewing-and-managing-recorded-interactions" />Anzeigen und Verwalten von aufgezeichneten Aktivitäten
 Auf der Seite **Aktivitätenprotokollposten** können Sie alle gespeicherten Aktivitäten sehen, die nicht gelöscht wurden. Sie können diese Seite folgendermaßen öffnen:
 
 * Mithilfe des Symbols **Nach Seite oder Bericht suchen** zur suche in **Aktivitätenprotokollposten**.
@@ -45,7 +45,7 @@ Auf dieser Seite können Sie folgende Aktivitäten durchführen:
 
 Sie können Aktivitätenprotokollposten löschen, die storniert wurden. Um Interaktionsprotokolleinträge zu löschen, wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Stornierte Aktivitätenprotokollposten löschen** ein und wählen Sie dann den zugehörigen Link und füllen Sie die Informationen aus.
 
-## Weitere Informationen
+## <a name="see-also" />Weitere Informationen
 [Kontakte verwalten](marketing-contacts.md)  
 [Verkaufschancen verwalten](marketing-manage-sales-opportunities.md)  
 [Arbeiten mit Business Central](ui-work-product.md)  

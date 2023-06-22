@@ -10,7 +10,7 @@ ms.search.form: '5775, 7300, 7301, 7302, 7303, 7304, 7305, 7306, 7307, 7308, 732
 ms.date: 06/25/2021
 ms.author: edupont
 ---
-# Lagerortverwaltung einrichten
+# <a name="setting-up-warehouse-management" />Lagerortverwaltung einrichten
 
 Die Logistikstrategie eines Mandanten spiegelt sich in der Konfiguration seiner Lagerprozesse wider. Dazu gehört die Definition der Bearbeitung unterschiedlicher Artikel an verschiedenen Lagerorten, wie z. B. der Grad der Lagerplatzkontrolle und das Ausmaß des erforderlichen Workflows zwischen Lageraktivitäten.  
 
@@ -35,9 +35,9 @@ Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Themen,
 |Sie erhalten Tipps zur Neuorganisation von Lagerorten, Lagerplätzen oder Zonen, um weitere effiziente Lageraktivitäten zu erhalten.|[Lager umstrukturieren](warehouse-how-to-restructure-warehouses.md)|
 |Geben Sie Standardberichte an, die für verschiedene Dokumenttypen verwendet werden sollen.|[Berichtsauswahl in Business Central](across-report-selections.md)|
 
-## Siehe verwandte [Microsoft Schulungen](/training/paths/set-up-warehouse-management/)
+## <a name="see-related-microsoft-trainingtrainingpathsset-up-warehouse-management" />Siehe verwandte [Microsoft Schulungen](/training/paths/set-up-warehouse-management/)
 
-## Siehe auch
+## <a name="see-also" />Siehe auch
 
 [Bestand](inventory-manage-inventory.md)  
 [Montageverwaltung](assembly-assemble-items.md)  

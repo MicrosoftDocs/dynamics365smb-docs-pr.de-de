@@ -11,7 +11,7 @@ ms.search.form: '545, 555, 556, 557, 558, 9372, 9370, 9371'
 ms.date: 09/22/2022
 ms.author: edupont
 ---
-# Analysieren von Daten nach Dimensionen
+# <a name="analyze-data-by-dimensions" />Analysieren von Daten nach Dimensionen
 
 In der Finanzanalyse sind Dimensionen Daten, die Sie einem Eintrag als eine Art Markierung hinzufügen. Diese Daten dienen zum Gruppieren von Posten mit ähnlichen Merkmalen – beispielsweise Debitoren, Regionen, Produkte oder Verkäufer – sowie zum einfachen Abrufen dieser Gruppen zur Analyse. Dimensionen können für Posten in Buch.-Blättern, Belegen und Budgets verwendet werden. 
 
@@ -23,7 +23,7 @@ Jede „Dimension“ beschreibt den Schwerpunkt der Analyse. Eine zweidimensiona
 > [!NOTE]
 > Wenn Sie feststellen, dass bei gebuchten Sachkonten ein falscher Dimensionswert verwendet wurde, können Sie ihn korrigieren und Ihre Analyseansichten aktualisieren. Mehr dazu erfahren Sie im Abschnitt [Problembehandlung und Korrektur von Dimensionen](finance-troubleshooting-correcting-dimensions.md#changing-dimension-assignments-after-posting).
 
-## Eine Analysesicht festlegen
+## <a name="set-up-an-analysis-view" />Eine Analysesicht festlegen
 
 Eine Analyse nach Dimensionen verwendet eine ausgewählte Kombination von Dimensionen. Sie speichern, rufen diese Dimensionen-Kombination ab und aktualisieren sie, indem Sie eine **Analyseansicht**-Karte erstellen. 
 
@@ -33,7 +33,7 @@ Eine Analyse nach Dimensionen verwendet eine ausgewählte Kombination von Dimens
 4. Um zusätzlich zu den vier Codes auf dem Inforegister **Dimensionen** weitere Dimensionen hinzuzufügen, wählen Sie die Aktion **Filter**, füllen die Felder aus und wählen dann die Schaltfläche **OK**.  
 5. Um die Ansicht zu aktualisieren, wählen Sie die **Aktualisieren** Aktion.
 
-## Analysieren nach Dimensionen
+## <a name="analyze-by-dimensions" />Analysieren nach Dimensionen
 
 Verwenden Sie die Analyseansichten, die Sie bereits mit der **Analyse nach Dimensionen** Matrix festgelegt haben, um die Beträge in Ihrem Hauptbuch zu betrachten.   
 
@@ -55,7 +55,7 @@ Verwenden Sie die Analyseansichten, die Sie bereits mit der **Analyse nach Dimen
 > [!TIP]  
 > Sie können die Ansicht auch ändern, indem Sie den Inhalt der Felder **Als Zeilen anzeigen** und **Als Spalten anzeigen** ändern. Um eine Ansichtseinstellung auszutauschen, wählen Sie die **Zeilen- und Spaltenansicht vertauschen**.
 
-## Eine Analyseansicht aktualisieren
+## <a name="update-an-analysis-view" />Eine Analyseansicht aktualisieren
 
 Die auf der Seite **Analyse nach Dimensionen** angezeigten Beträge vermitteln Ihnen ein Bild vom Status der Firma zum Zeitpunkt der letzten Aktualisierung. Um einen Eindruck über den aktuellen Zustand zu erhalten, müssen Sie die Analyseansicht mit der Aktualisierungsfunktion aktualisieren.
 
@@ -73,9 +73,9 @@ Gehen Sie wie folgt vor, um eine Analyseansicht auf der Seite **Analyse nach Dim
 > [!NOTE]  
 > Um eine oder alle Analyseansichten gleichzeitig zu aktualisieren, müssen Sie die Stapelverarbeitung **Analyseansichten aktualisieren** verwenden.  
 
-## Siehe dazu die Schulung unter [Microsoft Learn](/learn/modules/dimensions-financial-reports-dynamics-365-business-central/index).
+## <a name="see-related-training-at-microsoft-learnlearnmodulesdimensions-financial-reports-dynamics--business-centralindex" />Siehe dazu die Schulung unter [Microsoft Learn](/learn/modules/dimensions-financial-reports-dynamics-365-business-central/index).
 
-## Siehe auch
+## <a name="see-also" />Siehe auch
 
 [Financial Business Intelligence](bi.md)  
 [Finanzen](finance.md)  

@@ -10,14 +10,14 @@ ms.search.form: 99000823
 ms.date: 03/08/2023
 ms.author: edupont
 ---
-# Ausschuss manuell buchen
+# <a name="post-scrap-manually" />Ausschuss manuell buchen
 
 Wenn während der Produktion Ausschuss angefallen ist, dann kann dieser im FA-Istmeldungsprotokoll eingegeben werden.  
 
 > [!NOTE]
 > Beachten Sie, dass die Ausschussmenge die fertig gestellte Menge nicht erhöht.  
 
-## Ausschuss manuell buchen
+## <a name="to-post-scrap-manually" />Ausschuss manuell buchen
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Erfassung Buch.-Blatt** ein und wählen Sie dann den zugehörigen Link.  
 2. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -27,7 +27,7 @@ Wenn während der Produktion Ausschuss angefallen ist, dann kann dieser im FA-Is
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]    
 
-## Siehe auch
+## <a name="see-also" />Siehe auch
 
 [Produktion](production-manage-manufacturing.md)
 [Produktion einrichten](production-configure-production-processes.md)  

@@ -7,17 +7,17 @@ ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
 ---
-# Exemplarische Vorgehensweise: Eine neue Produktionsstücklisten- und Stücklistenversion erstellen
+# <a name="walkthrough-create-a-new-production-bom-and-bom-version" />Exemplarische Vorgehensweise: Eine neue Produktionsstücklisten- und Stücklistenversion erstellen
 
 In diesem Artikel führen wir Sie durch die Schritte zur Verwendung der Demodaten von Contoso Coffee für die Arbeit mit Stücklisten (BOM) in Produktionsprozessen.  
 
-## Szenario
+## <a name="scenario" />Szenario
 
 Contoso Coffee hat beschlossen, seiner Produktlinie eine weitere Kaffeemaschine hinzuzufügen: **SP-SCM1008 Airpot Lite**. Diese Kaffeemaschine ist baugleich mit dem vorhandenen Artikel **SP-SCM1009 Airpot**, außer dass die Warmhalteplatte **SP-BOM1104** nicht enthalten ist. In einem separaten Schritt wird das Ein/Aus-Licht **SP-BOM1106** für eine Version des Airpot Lite BOM entfernt.
 
 Oscar, Verfahrenstechniker bei Contoso Coffee, muss eine neue Produktionsstückliste erstellen, um die anfänglichen Komponentenanforderungen für den Airpot Lite zu definieren. Oscar muss dann eine neue BOM-Version mit einem Startdatum am 1. Juli einrichten, um sie mit weiteren Plänen zur Veröffentlichung einer weiteren Edition in Einklang zu bringen.
 
-## Schritte
+## <a name="steps" />Schritte
 
 1. Erstellen Sie eine neue Produktionsstückliste für den Airpot Lite.
 
@@ -72,6 +72,6 @@ Oscar, Verfahrenstechniker bei Contoso Coffee, muss eine neue Produktionsstückl
 
 Die neue Kaffeemaschine ist nun als Produktionsstückliste mit einer Version angelegt.  
 
-## Siehe auch
+## <a name="see-also" />Siehe auch
 
 [Einführung in Contoso Coffee Demo Data](../contoso-coffee-intro.md)  

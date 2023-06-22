@@ -11,7 +11,7 @@ ms.search.form: '377, 378, 165, 1284'
 ms.date: 06/14/2021
 ms.author: edupont
 ---
-# Verwalten und Abstimmen Ihrer Bankkonten
+# <a name="manage-and-reconcile-your-bank-accounts" />Verwalten und Abstimmen Ihrer Bankkonten
 
 Eine Bankabstimmung sollte in regelmäßigen Abständen für alle Ihre Bankkonten durchgeführt werden, um sicherzustellen, dass die Kassenunterlagen des Unternehmens korrekt sind. Sie tun dies, indem Sie die Einträge in Ihren internen Bankkonten mit den Banktransaktionen in Ihrer Bank vergleichen und abgleichen und dann die Salden auf Ihre internen Bankkonten buchen, um den Finanzmanagern Gesamtsummen zur Verfügung zu stellen. Der Bankabgleich ist auch eine praktische Methode, um fehlende Zahlungen und Buchhaltungsfehler zu ermitteln und zu beheben.
 
@@ -32,9 +32,9 @@ Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Themen,
 > [!TIP]
 > Verwenden Sie die Bankabstimmung, um zu überprüfen, ob Ihre Bücher auf dem neuesten Stand sind, und veröffentlichen Sie die Abstimmung erst, wenn Sie mit der Abstimmung zufrieden sind.
 
-## Siehe verwandte [Microsoft Schulungen](/training/paths/reconcile-bank-accounts-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathsreconcile-bank-accounts-dynamics--business-central" />Siehe verwandte [Microsoft Schulungen](/training/paths/reconcile-bank-accounts-dynamics-365-business-central/)
 
-## Siehe auch
+## <a name="see-also" />Siehe auch
 
 [Einrichten von Banken](bank-setup-banking.md)  
 [Bankkonten abstimmen](bank-how-reconcile-bank-accounts-separately.md)  

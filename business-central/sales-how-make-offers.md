@@ -11,7 +11,7 @@ ms.search.form: '41, 9300'
 ms.date: 07/12/2021
 ms.author: edupont
 ---
-# Verkaufsangebote machen
+# <a name="make-sales-quotes" />Verkaufsangebote machen
 
 Sie erstellen ein Verkaufsangebot, um Ihren Datensatz an einen Debitor oder Interessenten zu erstellen, um bestimmte Produkte zu bestimmten Liefer- und Zahlungsbedingungen zu verkaufen. Sie können das Verkaufsangebot an den Debitor senden, um das Angebot mitzuteilen. Sie können den Beleg als PDF-Dateianhang senden. Sie können den E-Mail-Text auch, der mit einer Zusammenfassung des Angebots vorab ausgefüllt wurde. Weitere Informationen finden Sie unter [Senden von Dkumenten über E-Mail](ui-how-send-documents-email.md).
 
@@ -19,7 +19,7 @@ Während Sie mit dem Kunden oder Interessenten verhandeln, können Sie das Verka
 
 In den meisten Fällen senden Sie Verkaufsangebote an potenzielle Kunden. Sie haben oft einen Ansprechpartner, mit dem Sie verhandeln. Wenn dieser dann Ihr Angebot annimmt, wandeln Sie das Verkaufsangebot in einen Auftrag um und registrieren den Interessenten als Kunden in [!INCLUDE [prod_short](includes/prod_short.md)]. Im folgenden Verfahren konzentrieren wir uns auf Kontakte, aber Sie können auch Angebote an bestehende Kunden senden.  
 
-## So erstellen Sie Verkaufsangebote:
+## <a name="to-create-a-sales-quote" />So erstellen Sie Verkaufsangebote:
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Verkaufsangebote** ein, und wählen Sie dann den entsprechenden Link.
 2. Geben Sie den Kontakt oder Debitor an, an den Sie das Verkaufsangebot senden möchten.
@@ -88,13 +88,13 @@ In den meisten Fällen senden Sie Verkaufsangebote an potenzielle Kunden. Sie ha
 
 Durch die Umwandlung wird das Verkaufsangebot aus der Datenbank entfernt. Eine Verkaufsrechnung oder ein Verkaufsauftrag wird auf der Basis der Informationen im Verkaufsangebot erstellt, damit Sie den Verkauf verarbeiten können. In der erstellten Verkaufsrechnung gibt das Feld **Angebotsnr.** die Nummer des Verkaufsauftrags oder der Rechnung  n, aus dem sie erstellt wurde. Weitere Informationen finden Sie unter [Fakturieren eines Verkaufs](sales-how-invoice-sales.md) und [Neue Produkte verkaufen](sales-how-sell-products.md).  
 
-## Externe Belegnummer
+## <a name="external-document-number" />Externe Belegnummer
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/create-sales-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulescreate-sales-documents-dynamics--business-central" />Siehe verwandte [Microsoft Schulungen](/training/modules/create-sales-documents-dynamics-365-business-central/)
 
-## Siehe auch
+## <a name="see-also" />Siehe auch
 
 [Verkauf](sales-manage-sales.md)  
 [Einrichten von Verkäufen](sales-setup-sales.md)  

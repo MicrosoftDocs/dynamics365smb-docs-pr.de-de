@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/08/2021
 ms.author: edupont
 ---
-# Designdetails: Abweichung
+# <a name="design-details-variance" />Designdetails: Abweichung
 Abweichung wird als Differenz zwischen den Ist-Kosten und Einstandspreis (fest) definiert, wie in der folgenden Formel beschrieben.  
 
  tatsächliche Kosten – Standardkosten = Abweichung  
@@ -20,7 +20,7 @@ Abweichung wird als Differenz zwischen den Ist-Kosten und Einstandspreis (fest) 
 > [!NOTE]  
 >  Die Neubewertung hat keinen Einfluss auf die Abweichungsberechnung, da die Neubewertung nur den Bestandswert ändert.  
 
-## Beispiel  
+## <a name="example" />Beispiel
  Im folgenden Beispiel wird veranschaulicht, wie die Abweichung für Einkaufsartikel berechnet wird. Die basiert auf dem folgenden Szenario:  
 
 1.  Der Benutzer kauft einen Artikel zu MW 90,00 ein, aber der Standardpreis ist MW 100,00. Entsprechend ist die Einkaufsabweichung MW -10,00.  
@@ -33,7 +33,7 @@ Abweichung wird als Differenz zwischen den Ist-Kosten und Einstandspreis (fest) 
 
  ![Abweichungsberechnung beim Kauf.](media/design_details_inventory_costing_11_purchase_variance.png "Einkaufsabweichungsberechnung")  
 
-## Bestimmen der Standardkosten  
+## <a name="determining-the-standard-cost" />Bestimmen der Standardkosten
  Die Standardkosten werden verwendet, wenn die Abweichung und der zu nutzende Betrag berechnet werden. Da sich die Standardkosten aufgrund manueller Aktualisierungsberechnungen ändern können, benötigen Sie einen Zeitpunkt, an dem die Standardkosten für die Abweichungsberechnung fest sind. An diesem Punkt wird der Lagerzugang fakturiert. Für gefertigt oder montierte Artikel, ist der Zeitpunkt, an dem die Standardkosten bestimmt werden, der der Kostenanpassung.  
 
  Die nachstehende Tabelle zeigt, wie verschiedene Kostenanteile für produzierte und montierte Artikel berechnet werden, wenn Sie die Funktion zur Berechnung der Standardkosten verwenden.  
@@ -52,7 +52,7 @@ Abweichung wird als Differenz zwischen den Ist-Kosten und Einstandspreis (fest) 
 |**Mehrstufige Kapazitätsgemeinkosten**|Nicht anwendbar|![Gleichung 8.](media/design_details_inventory_costing_11_equation_8.png "Gleichung 8")|  
 |**Mehrstufige Prod.-Gemeinkosten**|Nicht anwendbar|![Gleichung 9.](media/design_details_inventory_costing_11_equation_9.png "Gleichung 9")|  
 
-## Weitere Informationen  
+## <a name="see-also" />Weitere Informationen
  [Designdetails: Lagerkostenberechnung](design-details-inventory-costing.md)   
  [Designdetails: Kostenmethoden](design-details-costing-methods.md) [Verwalten der Lagerregulierung](finance-manage-inventory-costs.md)  
  [Finanzen](finance.md)  

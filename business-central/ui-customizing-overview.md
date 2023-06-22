@@ -11,7 +11,7 @@ ms.search.form: '2500, 2502'
 ms.date: 06/23/2021
 ms.author: edupont
 ---
-# Anpassen von Business Central
+# <a name="customize-business-central" />Anpassen von Business Central
 
 Es gibt unterschiedliche Arten, die Anwendung anzupassen, um Ihnen und Ihren Kollegen Zugriff auf die Funktionen, die Funktionalität und die Daten zu geben, die Sie am häufigsten brauchen, uns so, dass es am besten in Ihre tägliche Arbeit passt. Diejenigen, die Änderungen sehen, verlassen sich auf das, was Sie tun in der Tabelle.
 
@@ -28,13 +28,13 @@ Es gibt unterschiedliche Arten, die Anwendung anzupassen, um Ihnen und Ihren Kol
 > [!NOTE]
 > Alle Funktionsbeschreibungen in der Dokumentation behandeln [!INCLUDE[prod_short](includes/prod_short.md)] die **Premium**-Umgebung, decken also den gesamten Umfang der Benutzeroberflächenelemente ab. Daher können Benutzer mit der **Essential**-Umgebung in einigen Themen Informationen zu Funktionen und Benutzeroberflächenelementen finden, die in der Benutzeroberfläche nicht sichtbar sind. Weitere Informationen finden Sie unter [Ändern, welche Funktionen angezeigt werden](ui-experiences.md).
 
-## Siehe verwandte [Microsoft Schulungen](/training/paths/tailor-roles-design-ui/)
+## <a name="see-related-microsoft-trainingtrainingpathstailor-roles-design-ui" />Siehe verwandte [Microsoft Schulungen](/training/paths/tailor-roles-design-ui/)
 
-## Siehe auch
+## <a name="see-also" />Siehe auch
 
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

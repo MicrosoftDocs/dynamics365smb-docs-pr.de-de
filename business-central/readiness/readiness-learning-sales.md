@@ -7,13 +7,13 @@ ms.topic: conceptual
 ms.author: margoc
 ---
 
-# Lernkatalog für Partnerverkauf und Marketing
+# <a name="partner-sales-and-marketing-learning-catalog" />Lernkatalog für Partnerverkauf und Marketing
 
 Sind Sie dafür verantwortlich, dass Ihre Kunden die richtige Lösung kaufen?
 
 Der folgende Katalog ist vom Kernwissen bis zu spezifischen Bereichen organisiert, von grundlegend bis fortgeschritten. Wenn Inhalte in mehreren Formaten vorliegen, werden wir Sie darüber informieren, so dass Sie das für Ihre Bedürfnisse am besten geeignete Trainingsformat auswählen können.  
 
-## Geschäftswert<a name="busvalue"></a>
+## <a name="business-valuea-namebusvaluea" />Geschäftswert<a name="busvalue"></a>
 
 | Inhalt     | Beschreibung    | Format                                | Länge              |
 |-------------|----------------|---------------------------------------|---------------------|
@@ -21,7 +21,7 @@ Der folgende Katalog ist vom Kernwissen bis zu spezifischen Bereichen organisier
 | [Erforschen Sie die Dynamics 365 Business Central-Funktionen](https://dynamics.microsoft.com/business-central/capabilities/) | Erkunden Sie die Dynamics 365 Business Central-Funktionen.    | Website    |                     |
 | [Dynamics 365 Business Central](/training/modules/dynamics-365-business-central/)            | Dieses Modul zeigt Anwendungsmerkmale, Vorteile und Beispiele für Dynamics 365 Business Central in Aktion.    | Kostenloser, selbstbestimmter Online-Lernpfad mit eigenem Tempo | 24 Minuten          |
 
-## Erste Schritte<a name="get-started"></a>
+## <a name="getting-starteda-nameget-starteda" />Erste Schritte<a name="get-started"></a>
 
 | Inhalt   | Beschreibung   | Format                                | Länge              |
 |-----------|---------------|---------------------------------------|---------------------|
@@ -30,7 +30,7 @@ Der folgende Katalog ist vom Kernwissen bis zu spezifischen Bereichen organisier
 | [Arbeiten Sie wie ein Profi mit Daten in Business Central](/training/paths/work-pro-data-dynamics-365-business-central) | Haben Sie gerade erst mit Business Central begonnen? Dieser Lernpfad soll Ihnen helfen, sich auf die Datentypen in Business Central vorzubereiten und Informationen zu finden, die Sie in der Anwendung benötigen.      | Kostenloser, selbstbestimmter Online-Lernpfad mit eigenem Tempo | 2 Stunden 27 Minuten  |
 | [Business Central YouTube Wiedergabeliste](https://www.youtube.com/playlist?list=PLcakwueIHoT-wVFPKUtmxlqcG1kJ0oqq4) | YouTube Landing Page für Dynamics 365 Business Central Videos  | YouTube Videos  |                     |
 
-## Erweitern Sie Ihr Unternehmen<a name="grow"></a>
+## <a name="grow-your-businessa-namegrowa" />Erweitern Sie Ihr Unternehmen<a name="grow"></a>
 
 | Inhalt   | Beschreibung        | Format                                | Länge                |
 |-----------|--------------------|---------------------------------------|-----------------------|

@@ -11,7 +11,7 @@ ms.search.form: '138, 140, 146'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# Ändern oder Löschen einer unbezahlten Einkaufsrechnung
+# <a name="correct-or-cancel-unpaid-purchase-invoices" />Ändern oder Löschen einer unbezahlten Einkaufsrechnung
 
 Sie können eine bezahlte Einkaufsrechnung korrigieren oder abbrechen. Dies ist nützlich, wenn Sie einen Tippfehler korrigieren möchten, oder wenn Sie den Kauf früh im Bestellvorgang ändern möchten.
 
@@ -21,7 +21,7 @@ Auf der Seite **Geb. Einkaufsrechnung** können Sie die Schaltfläche **Korrigie
 <br><br>
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4dhoc?rel=0]
 
-## Gebuchte Einkaufsrechnung korrigieren
+## <a name="to-correct-a-posted-purchase-invoice" />Gebuchte Einkaufsrechnung korrigieren
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Gebuchte Einkaufsrechnungen** ein und wählen Sie dann den entsprechenden Link.  
 2. Wählen Sie die gebuchte Einkaufsrechnung, die Sie korrigieren möchten.  
@@ -35,7 +35,7 @@ Auf der Seite **Geb. Einkaufsrechnung** können Sie die Schaltfläche **Korrigie
     Eine Korrekturverkaufsgutschrift wird automatisch erstellt und gebucht, um die ursprüngliche gebuchte Verkaufsrechnung zu stornieren.
 4. Wählen Sie die Registerkarte **Korrekturgutschrift anzeigen** aus, um die gebuchte Einkaufsgutschrift anzuzeigen, die die gebuchte Einkaufsrechnung storniert.
 
-## Gebuchte Einkaufsrechnung stornieren
+## <a name="to-cancel-a-posted-purchase-invoice" />Gebuchte Einkaufsrechnung stornieren
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Gebuchte Einkaufsrechnungen** ein und wählen Sie dann den entsprechenden Link.  
 2. Wählen Sie die gebuchte Einkaufsrechnung, die Sie stornieren möchten.
@@ -47,13 +47,13 @@ Auf der Seite **Geb. Einkaufsrechnung** können Sie die Schaltfläche **Korrigie
     Eine Korrekturverkaufsgutschrift wird automatisch erstellt und gebucht, um die ursprüngliche gebuchte Verkaufsrechnung zu stornieren. Das Feld **Storniert** am Anfang gebuchten Einkaufsrechnung wird auf **Ja** geändert.
 4. Wählen Sie die Registerkarte **Korrekturgutschrift anzeigen** aus, um die gebuchte Einkaufsgutschrift anzuzeigen, die die gebuchte Einkaufsrechnung storniert.
 
-### Rechnungsteilbuchung wird ebenfalls unterstützt
+### <a name="partial-invoice-posting-also-supported" />Rechnungsteilbuchung wird ebenfalls unterstützt
 
 Wenn sich die Stornierung auf eine Rechnungsteilbuchung bezieht, wird die ursprüngliche Einkaufsbestellzeile aktualisiert, um die stornierte fakturierte Menge widerzuspiegeln. Die Felder **Zu fakturierende Menge** und **Fakturierte Menge** zur zugehörigen Einkaufsbestellzeile werden auf die Werte vor der Teilbuchung zurückgesetzt.
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/receive-invoice-dynamics-d365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesreceive-invoice-dynamics-d-business-central" />Siehe verwandte [Microsoft Schulungen](/training/modules/receive-invoice-dynamics-d365-business-central/)
 
-## Siehe auch
+## <a name="see-also" />Siehe auch
 
 [Einkauf](purchasing-manage-purchasing.md)  
 [Erfassen eines Einkaufs](purchasing-how-record-purchases.md)  

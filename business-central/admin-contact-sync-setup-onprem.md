@@ -10,21 +10,21 @@ ms.date: 04/04/2023
 ms.custom: bap-template
 ---
 
-# Kontaktsynchronisierung mit Outlook für Business Central lokal einrichten
+# <a name="set-up-contact-sync-with-outlook-for-business-central-on-premises" />Kontaktsynchronisierung mit Outlook für Business Central lokal einrichten
 
 In diesem Artikel erfahren Sie, wie Sie [!INCLUDE[prod_short](includes/prod_short.md)] lokal einrichten, um Kontakte in [!INCLUDE[prod_short](includes/prod_short.md)] mit Kontakten in Outlook zu synchronisieren. Weitere Informationen zu diesem Feature finden Sie unter [Synchronisieren Sie Kontakte in Business Central mit Kontakten in Microsoft Outlook](admin-synchronize-outlook-contacts.md).
 
-## Einführung
+## <a name="introduction" />Einführung
 
 Die Kontaktsynchronisierung erfordert die Verwendung des OAuth-2.0-Protokolls für die Authentifizierung mit Exchange Online. Bisher wurde auch die Standardauthentifizierung unterstützt, sie ist jedoch veraltet und wird im Rahmen von Exchange Online nicht mehr unterstützt. Weitere Informationen zur Einstellung finden Sie unter [Einstellung der Standardauthentifizierung in Exchange Online](/exchange/clients-and-mobile-in-exchange-online/deprecation-of-basic-authentication-exchange-online). Diese Änderung bedeutet, dass die Kontaktsynchronisierung in Business Central in Ihrer lokalen Umgebung möglicherweise nicht mehr funktioniert. In diesem Artikel wird erklärt, wie Sie sie wieder zum Laufen bringen.
 
-## Voraussetzungen
+## <a name="prerequisites" />Voraussetzungen
 
 - Exchange Online, entweder als eigenständige Version oder über den Microsoft 365 Plan  
 - Zugriff auf den Azure Active Directory-Mandanten (Azure AD), der von Exchange Online verwendet wird
 - [!INCLUDE[prod_short](includes/prod_short.md)] Benutzende haben ein Microsoft 365- oder Exchange Online-E-Mail-Konto, das ihren Konten in [!INCLUDE[prod_short](includes/prod_short.md)] zugewiesen ist. Sie können diese Einstellung im Abschnitt **Microsoft 365-Authentifizierung** des Benutzerprofils in der Liste **Benutzende** überprüfen. 
 
-## Die Kontaktsynchronisierung einrichten
+## <a name="set-up-contact-sync" />Die Kontaktsynchronisierung einrichten
 
 Führen Sie die folgenden Schritte aus, um die Kontaktsynchronisierung einzurichten. Wenn Sie [!INCLUDE[prod_short](includes/prod_short.md)] Frühling 2019 (v.14) ausführen, müssen Sie einen zusätzlichen Schritt ausführen, der entweder den Anwendungscode ändert oder eine Verbindung zu Power BI herstellt.
 
@@ -59,6 +59,6 @@ Führen Sie die folgenden Schritte aus, um die Kontaktsynchronisierung einzurich
 
    Nachdem die von Ihnen gewählte Lösung vorhanden ist, bitten Sie die Benutzende, entweder die neue/geänderte Seite auszuführen oder [eine Verbindung zu Power BI](across-working-with-powerbi.md#connect) herzustellen. Sie müssen diesen Schritt nur einmal ausführen.
 
-## Nächste Schritte
+## <a name="next-steps" />Nächste Schritte
 
 [Synchronisieren Sie Kontakte in Business Central mit Kontakten in Microsoft Outlook](admin-synchronize-outlook-contacts.md)  

@@ -12,7 +12,7 @@ ms.search.forms: '9980, 5341, 5349, 5330, 1817, 5342, 5337, 5336, 5331, 5343, 53
 ms.date: 09/16/2022
 ms.author: bholtorf
 ---
-# Verwenden von Dynamics 365 Sales von Business Central
+# <a name="use-dynamics--sales-from-business-central" />Verwenden von Dynamics 365 Sales von Business Central
 Wenn Sie Dynamics 365 Sales for Customer Engagement verwenden, können Sie nahtlose Integration in den Interessent-zu-Geld-Prozess nutzen, indem Sie [!INCLUDE[prod_short](includes/prod_short.md)] für Backend-Aktivitäten wie Auftragsverarbeitung, Lagerbestandsverwaltung und Finanzbearbeitung verwenden.
 
 Bevor Sie die Integrationsfunktionen verwenden können, muss Ihr Systemadministrator die Verbindung einrichten und Benutzer in [!INCLUDE[crm_md](includes/crm_md.md)] definieren. Weitere Informationen finden Sie unter [Integrieren in Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).
@@ -29,7 +29,7 @@ Umgekehrt können Auftragsbearbeiter in [!INCLUDE[prod_short](includes/prod_shor
 > [!IMPORTANT]  
 > [!INCLUDE[prod_short](includes/prod_short.md)] kann nur in [!INCLUDE[crm_md](includes/crm_md.md)] integriert werden. Andere Dynamics 365-Anwendungen, die den Standard-Workflow oder das Datenmodell in [!INCLUDE[crm_md](includes/crm_md.md)] ändern, z.B. Project Service Automation, können die Integration zwischen [!INCLUDE[prod_short](includes/prod_short.md)] und [!INCLUDE[crm_md](includes/crm_md.md)] unterbrechen.
 
-## Kopplungsdatensätze
+## <a name="coupling-records" />Kopplungsdatensätze
 Mit dem Leitfaden für das unterstütze Setup können Sie die zu synchronisierenden Daten auswählen. Später können Sie die Synchronisierung für bestimmte Datensätze einrichten. Dies wird als *Kopplung* bezeichnet. Sie können z.B. ein bestimmtes Konto in [!INCLUDE[crm_md](includes/crm_md.md)] mit einem bestimmten Debitor in [!INCLUDE[prod_short](includes/prod_short.md)] koppeln. In diesem Abschnitt wird beschrieben, was berücksichtigt werden sollte, wenn Sie Datensätze koppeln.
 
 Wenn Sie z.B. Konten in [!INCLUDE[crm_md](includes/crm_md.md)] als Debitoren in [!INCLUDE[prod_short](includes/prod_short.md)] sehen wollen, müssen Sie die beiden Arten von Datensätzen koppeln. Dazu verwenden Sie auf der Listenseite **Debitoren** in [!INCLUDE[prod_short](includes/prod_short.md)] die **Kopplung einrichten**-Aktion. Dann geben Sie unter [!INCLUDE[crm_md](includes/crm_md.md)] an, welche [!INCLUDE[prod_short](includes/prod_short.md)]-Debitoren mit welchen Konten übereinstimmen sollen.
@@ -51,14 +51,14 @@ In einigen Fällen müssen Sie projektspezifische Datenbestände vor anderen Dat
 
 In [!INCLUDE[crm_md](includes/crm_md.md)] hängen Debitorenaufträge von Informationen wie Debitoren, Mengeneinheiten, Währungen, Debitorenpreisgruppen und Artikeln und/oder Ressourcen ab. Damit Verkaufsaufträge arbeiten, müssen Sie Debitoren, Einheiten, Währungen, Debitorenpreisgruppen, Artikel und/oder Ressourcen koppeln.
 
-## Datensätze vollständig synchronisieren
+## <a name="fully-synchronizing-records" />Datensätze vollständig synchronisieren
 Am Ende der Anleitung zur unterstützten Einrichtung können Sie die Aktion **Vollständige Synchronisierung ausführen** wählen, um die Synchronisierung aller [!INCLUDE[prod_short](includes/prod_short.md)]-Datensätze mit allen zugehörigen Datensätzen in [!INCLUDE[crm_md](includes/crm_md.md)] zu starten. Auf der Seite **Dynamics 365 Sales vollständige Synchronisierung prüfen** wählen Sie die Aktion **Starten** aus. Die vollständige Synchronisierung kann einige Zeit in Anspruch nehmen, aber Sie können die Arbeit in [!INCLUDE[prod_short](includes/prod_short.md)] fortsetzen, während sie im Hintergrund läuft.
 
 Um den Status aus einzelnen Projekte in einer vollständigen Synchronisierung zu prüfen, wählen Sie auf der Seite **Dynamics 365 Sales vollständigen Synchronisierung prüfen** einen Datensatz, um Details anzeigen. Um den Status der Synchronisierung zu aktualisieren, aktualisieren Sie die Seite.
 
 Auf der Seite **Microsoft Dynamics 365-Verbindungseinrichtung** können Sie Details über sämtliche Synchronisierungen sehen. Von hier können Sie die Seite **Integrationstabellenzuordnungen** auch öffnen, um Details über die Tabellen in [!INCLUDE[prod_short](includes/prod_short.md)] und Sales zu finden, die synchronisiert werden müssen.
 
-## Bearbeiten von Verkaufsauftragsdaten
+## <a name="handling-sales-order-data" />Bearbeiten von Verkaufsauftragsdaten
 Verkaufsaufträge, die Verkäufer in [!INCLUDE[crm_md](includes/crm_md.md)] einreichen, werden automatisch zu [!INCLUDE[prod_short](includes/prod_short.md)] übertragen, wenn Sie das Kontrollkästchen **Verkaufsaufträge automatisch erstellen** auf der Seite **Microsoft Dynamics 365-Verbindungseinrichtung** auswählen.
 Alternativ können Sie eingereichte Verkaufsaufträge aus [!INCLUDE[crm_md](includes/crm_md.md)] mithilfe der Aktion **Erstellen in [!INCLUDE[prod_short](includes/prod_short.md)]**, die auf der Seite **Verkaufsaufträge - Dynamics 365 for Sales** verfügbar ist, manuell konvertieren.
 In solchen Verkaufsaufträgen wird das **Name** Feld im ursprünglichen Auftrag dem Feld **Externe Belegnummer** im Verkaufsauftrag in [!INCLUDE[prod_short](includes/prod_short.md)] übertragen und zugeordnet.
@@ -77,7 +77,7 @@ Aktualisierungen von Feldern auf Verkaufsauftragsköpfen, wie z. B. die Felder �
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2098170]
 
-## Bearbeiten von Verkaufsangebotsdaten
+## <a name="handling-sales-quotes-data" />Bearbeiten von Verkaufsangebotsdaten
 Verkaufsangebote, die in [!INCLUDE[crm_md](includes/crm_md.md)] aktiviert werden, werden automatisch zu [!INCLUDE[prod_short](includes/prod_short.md)] übertragen, wenn Sie das Kontrollkästchen **Automatisches Verarbeiten von Angeboten** auf der Seite **Microsoft Dynamics 365-Verbindungseinrichtung** auswählen.
 Alternativ können Sie aktivierte Verkaufsangebote aus [!INCLUDE[crm_md](includes/crm_md.md)] mithilfe der Aktion **Prozess in [!INCLUDE[prod_short](includes/prod_short.md)]** auf der Seite **Verkaufsangebot - Dynamics 365 Sales** verwenden.
 In solchen Verkaufsangeboten wird das **Name**-Feld im ursprünglichen Angebot dem Feld **Externe Belegnummer** im Verkaufsauftrag in [!INCLUDE[prod_short](includes/prod_short.md)] übertragen und zugeordnet. Auch wird das Feld **Gültig bis** beim Angebot übertragen und dem Feld **Angebot gültig bis** auf dem Verkaufsangebot in [!INCLUDE[prod_short](includes/prod_short.md)] zugeordnet.  
@@ -86,12 +86,12 @@ Verkaufsangebote unterliegen vielen Überarbeitungen, bis sie abgeschlossen werd
 
 Wenn Sie **Verarbeiten** in [!INCLUDE[prod_short](includes/prod_short.md)] für ein Angebot wählen, das den Status **Gewonnen** hat, wird ein Verkaufsauftrag in [!INCLUDE[prod_short](includes/prod_short.md)] nur dann erstellt, wenn ein entsprechender Verkaufsauftrag in [!INCLUDE[crm_md](includes/crm_md.md)] eingereicht wird. Andernfalls wird das Angebot nur in [!INCLUDE[prod_short](includes/prod_short.md)] freigegeben. Wenn ein entsprechender Verkaufsauftrag später in [!INCLUDE[crm_md](includes/crm_md.md)] eingereicht wird und ein Verkaufsauftrag auf dessen Grundlage erstellt wird, wird die **Angebotsnummer** im Verkaufsauftrag aktualisiert und das Angebot wird archiviert.
 
-## Behandlung der gebuchten Verkaufsrechnungen, Debitoren-Zahlungen und Statistiken
+## <a name="handling-posted-sales-invoices-customer-payments-and-statistics" />Behandlung der gebuchten Verkaufsrechnungen, Debitoren-Zahlungen und Statistiken
 Nach der Erfüllung eines Verkaufsauftrags, werden dafür Rechnungen erstellt. Wenn Sie Aufträge fakturieren, können Sie gebuchte Verkaufsrechnung übertragen an [!INCLUDE[crm_md](includes/crm_md.md)], wenn Sie das Kontrollkästchen **Rechnung erstellen in [!INCLUDE[crm_md](includes/crm_md.md)]** auf der Seite **Gebuchte Verkaufsrechnungen** auswählen. Gebuchte Rechnungen werden an [!INCLUDE[crm_md](includes/crm_md.md)] mit dem Status **Fakturiert** übertragen.
 
 Sobald Sie die Zahlung des Debitors für die Verkaufsrechnung in [!INCLUDE[prod_short](includes/prod_short.md)] erhalten, wird der Verkaufsrechnungsstatus auf **Bezahlt** mit dem **Statusgrund** auf **Teilweise** festgelegt, wenn teilweise bezahlt oder auf **Komplett** festgelegt, wenn vollständig bezahlt, wenn Sie die Aktion **Kontostatistik aktualisieren** auf der Debitorenseite in [!INCLUDE[prod_short](includes/prod_short.md)] auswählen. Die Funktion **Kontostatistik aktualisieren** aktualisiert auch Werte wie **Saldo** und **Gesamtverkäufe** in der **Infobox [!INCLUDE[prod_short](includes/prod_short.md)] Kontostatistik** in [!INCLUDE[crm_md](includes/crm_md.md)]. Alternativ können Sie geplante Aufträge (Debitoren-Statistik und POSTEDSALESINV-INV) automatisch für beide Vorgänge im Hintergrund ausführen. 
 
-## Handhabung von Verkaufspreisen
+## <a name="handling-sales-prices" />Handhabung von Verkaufspreisen
 > [!NOTE]
 > In Veröffentlichungszyklus 2 von 2020 haben wir optimierte Prozesse zum Einrichten und Verwalten von Preisen und Rabatten veröffentlicht. Wenn Sie ein neuer Kunde mit dieser Version sind, nutzen Sie die neue Erfahrung. Wenn Sie bereits Kunde sind, hängt es davon ab, ob Sie die neue Erfahrung verwenden, ob Ihr Administrator die Funktionsaktualisierung **Neues Verkaufspreiserlebnis** in **Funktionsverwaltung** akualisiert hat. Weitere Informationen finden Sie unter [Bevorstehende Funktionen im Voraus aktivieren](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
@@ -130,7 +130,7 @@ Um Preislisten zu synchronisieren, wählen Sie auf der Seite **Verkaufspreislist
 ---
 
 
-## Weitere Informationen
+## <a name="see-also" />Weitere Informationen
 [Integration mit Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  
 [Marketing & Vertrieb](marketing-relationship-management.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
@@ -138,7 +138,7 @@ Um Preislisten zu synchronisieren, wählen Sie auf der Seite **Verkaufspreislist
 [Berechtigungen an Benutzer und Gruppen zuweisen](ui-define-granular-permissions.md)    
 [Überblick über Sales und Verkaufs-Hub](/dynamics365/customer-engagement/sales-enterprise/overview)  
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
