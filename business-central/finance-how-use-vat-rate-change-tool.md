@@ -100,7 +100,7 @@ Sie verwenden das MwSt.-Satz-Änderungstool, um Änderungen im Standard-MwSt.-Sa
 > [!IMPORTANT]  
 > Nachdem die Umrechnung abgeschlossen ist, wird das Feld **Konvertiert** in der Tabelle **Protokollposten für MwSt.-Satzänderung** ausgewählt und das Feld **Konvertierungsdatum** in der Tabelle **Protokollposten für MwSt.-Satzänderung** wird mit dem Umrechnungsdatum ausgefüllt.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesrate-change-dynamics--business-central" />Siehe verwandte [Microsoft Schulungen](/training/modules/rate-change-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesrate-change-dynamics-365-business-central" />Siehe verwandte [Microsoft Schulungen](/training/modules/rate-change-dynamics-365-business-central/)
 
 ## <a name="see-also" />Siehe auch
 

@@ -138,7 +138,7 @@ Die Begriffe Planung ausführen oder Nettobedarf ausführen beziehen sich auf di
 
  In der Planungszeile für den Artikel 1300 (Kette komplett) werden zehn Stück vorgeschlagen. Dies weicht von den vorgeschlagenen fünf Stück ab, von denen wir erwarten, dass sie erforderlich sind, um den Verkaufsauftrag zu erfüllen. Fahren Sie fort, um die Bedarfsverursacherposten anzuzeigen.  
 
-### <a name="to-view-order-tracking-entries-for-item-" />So zeigen Sie Bedarfsverursacher für Artikel 1300 an
+### <a name="to-view-order-tracking-entries-for-item-1300" />So zeigen Sie Bedarfsverursacher für Artikel 1300 an
 
 1.  Wählen Sie die Planungszeile für den Artikel 1300 aus, und klicken Sie dann auf **Auftragsnachverfolgung**.  
 
@@ -234,7 +234,7 @@ Die Begriffe Planung ausführen oder Nettobedarf ausführen beziehen sich auf di
 
  Einige Planungszeilen werden einfach mit drei multipliziert, um 15 Rennräder anstelle 5 bereitzustellen, und die Fälligkeitsdaten sind rückdatiert, um die erhöhten Mengen bis zum Lieferdatum des Verkaufsauftrags für Möbel-Meller KG bereitzustellen. Für diese Planungszeilen können alle Mengen zurückverfolgt werden. Die verbleibenden Planungszeilen werden durch zehn Stück, sowie durch das Verschieben ihrer Fälligkeitsdaten erhöht. Für diese Planungszeilen sind ein Teil der Mengen, aufgrund von verschiedenen Planungsparametern, ohne Bedarfsverursacher. Fahren Sie fort, um einige dieser Bedarfsverursacherposten anzuzeigen.  
 
-### <a name="to-view-order-tracking-entries-for-item-" />So zeigen Sie Bedarfsverursacher für Artikel 1250 an
+### <a name="to-view-order-tracking-entries-for-item-1250" />So zeigen Sie Bedarfsverursacher für Artikel 1250 an
 
 1.  Wählen Sie die Planungszeile für den Artikel 1250 aus, und klicken Sie dann auf **Auftragsnachverfolgung**.  
 

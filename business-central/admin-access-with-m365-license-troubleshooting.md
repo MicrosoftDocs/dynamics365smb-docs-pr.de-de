@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.keywords: 'License, access, Microsoft 365, collaborate, collaboration, Teams, Microsoft Teams'
 ---
 
-# <a name="troubleshoot-access-with-microsoft--licenses" />Fehlerbehebung beim Zugriff mit Microsoft 365-Lizenzen
+# <a name="troubleshoot-access-with-microsoft-365-licenses" />Fehlerbehebung beim Zugriff mit Microsoft 365-Lizenzen
 
 ## <a name="this-page-uses-data-from-related-tables-that-you-do-not-have-access-to-error-message" />Diese Seite verwendet Daten aus verwandten Tabellen, auf die Sie keinen Zugriff haben, Fehlermeldung
 
@@ -24,7 +24,7 @@ Diese Seite verwendet Daten aus verwandten Tabellen, auf die Sie keinen Zugriff 
 
 Höchstwahrscheinlich fehlen Ihnen Objektberechtigungen für Tabellen, auf die die aktuelle Seite oder der aktuelle Datensatz verweist.
 
-## <a name="microsoft--access-has-been-enabled-but-users-get-a-permission-error" />Microsoft 365 Zugriff wurde aktiviert, aber Benutzer erhalten beim Zugriff auf einen Datensatz einen Berechtigungsfehler
+## <a name="microsoft-365-access-has-been-enabled-but-users-get-a-permission-error" />Microsoft 365 Zugriff wurde aktiviert, aber Benutzer erhalten beim Zugriff auf einen Datensatz einen Berechtigungsfehler
 
 ### <a name="symptoms" />Symptome
 

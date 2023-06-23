@@ -140,7 +140,7 @@ Um exakte Einstandspreisstornierung manuell zuzuordnen, müssen Sie das Feld **A
 
 Weitere Informationen finden Sie unter [Designdetails: Bestandskosten](design-details-inventory-costing.md).
 
-## <a name="see-related-microsoft-trainingtrainingpathsreturn-items-dynamics--business-central" />Siehe verwandte [Microsoft Schulungen](/training/paths/return-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathsreturn-items-dynamics-365-business-central" />Siehe verwandte [Microsoft Schulungen](/training/paths/return-items-dynamics-365-business-central/)
 
 ## <a name="see-also" />Siehe auch
 

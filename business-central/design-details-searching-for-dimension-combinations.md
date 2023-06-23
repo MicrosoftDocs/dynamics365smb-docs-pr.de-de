@@ -16,7 +16,7 @@ Wenn Sie eine Seite schließen, nachdem Sie einen Satz von Dimensionen bearbeite
 ## <a name="building-search-tree" />Erstellungs-Suchstruktur
  Tabelle 481 **Dimensionssatz-Strukturknoten** wird verwendet, wenn [!INCLUDE[prod_short](includes/prod_short.md)] prüft, ob ein Satz von Dimensionen bereits in Tabelle 480 **Dimensionssatzposten** existiert. Die Auswertung wird ausgeführt, indem die Suchstruktur rekursiv verläuft, beginnend bei der oben ausgerichteten numerierte 0. Die oberste Ebene 0 stellt einen Dimensionssatz ohne Dimensionssatzposten dar. Die untergeordneten Elemente dieses Dimensionssatzes stellen Dimensionssätze mit nur einem Dimensionssatzposten dar. Die untergeordneten Elemente dieser Dimensionssätze stellen Dimensionssätze mit zwei untergeordneten Elementen dar usw.  
 
-### <a name="example-" />Beispiel 1
+### <a name="example-1" />Beispiel 1
  Das folgende Diagramm stellt eine Suchstruktur mit sechs Dimensionssätzen dar. Nur der unterscheidene Dimensionssatzposten wird im Diagramm angezeigt.  
 
  ![Beispiel für die Struktur eines Dimensionsbaums.](media/nav2013_dimension_tree.png "Beispiel einer Dimensionsbaumstruktur")  
@@ -33,7 +33,7 @@ Wenn Sie eine Seite schließen, nachdem Sie einen Satz von Dimensionen bearbeite
 |5 Ausgewählt|AREA 40|  
 |6 Ausgewählt|AREA 40, PROJ VW|  
 
-### <a name="example-" />Beispiel 2
+### <a name="example-2" />Beispiel 2
  In diesem Beispiel wird gezeigt, wie [!INCLUDE[prod_short](includes/prod_short.md)] bestimmt, ob ein Dimensionssatz, der aus den Dimensionssatzposten AREA 40, DEPT PROD besteht, vorhanden ist.  
 
  Außerdem aktualisiert [!INCLUDE[prod_short](includes/prod_short.md)] die Tabelle **Dimensionssatz-Strukturknoten**, um sicherzustellen, dass die Suchstruktur wie das folgende Diagramm aussieht. Daher wird Dimensionssatz 7 zu einem untergeordneten Element des Dimensionssatzes 5.  

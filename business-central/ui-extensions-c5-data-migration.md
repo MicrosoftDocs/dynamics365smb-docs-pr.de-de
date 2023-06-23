@@ -12,7 +12,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ---
 
-# <a name="the-c-data-migration-extension" />Die C5-Datenmigrations-Erweiterung
+# <a name="the-c5-data-migration-extension" />Die C5-Datenmigrations-Erweiterung
 
 Verwenden Sie diese Erweiterung, um Debitoren, Kreditoren, Artikel und Sachkonten von Microsoft Dynamics C5 2012 zu [!INCLUDE[prod_short](includes/prod_short.md)] zu migrieren. Sie können historische Posten für Sachkonten auch migrieren.
 

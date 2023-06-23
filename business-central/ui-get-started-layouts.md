@@ -179,7 +179,7 @@ Befolgen Sie diese Schritte, wenn Sie den Namen und die Beschreibung eines benut
     > Um Ihnen das Auffinden des Layouts zu erleichtern, verwenden Sie das Feld **Suchen**, den Bereich **Filtern** und die Spaltensortierung.
 3. Ändern Sie den **Layout-Namen** und wählen Sie dann **OK** aus.
 
-## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics--business-centralindex" />Siehe verwandte [Microsoft Schulungen](/training/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics-365-business-centralindex" />Siehe verwandte [Microsoft Schulungen](/training/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Siehe auch
 

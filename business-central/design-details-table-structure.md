@@ -13,7 +13,7 @@ ms.author: edupont
 # <a name="design-details-table-structure" />Designdetails: Tabellenstruktur
 Um zu erkennen, wie die Dimensionsposten gespeichert und gebucht werden, ist es wichtig, die Tabellenstruktur zu kennen.  
 
-## <a name="table--dimension-set-entry" />Tabelle 480, Dimensionssatzposten
+## <a name="table-480-dimension-set-entry" />Tabelle 480, Dimensionssatzposten
 Sie können den Inhalt dieser Tabelle nicht ändern. Nachdem Daten in die Tabelle geschrieben wurden, können Sie sie nicht löschen oder bearbeiten.
 
 |Feldnr.|Feldname|Datentyp|Bemerkung|  
@@ -25,7 +25,7 @@ Sie können den Inhalt dieser Tabelle nicht ändern. Nachdem Daten in die Tabell
 |5|**Dimensionsname**|Text 30|CalcField. Lookup zu Tabelle 348.|  
 |6|**Dimensionswertname**|Text 30|CalcField. Lookup zu Tabelle 349.|  
 
-## <a name="table--dimension-set-tree-node" />Tabelle 481, Dimensionssatz-Strukturknoten
+## <a name="table-481-dimension-set-tree-node" />Tabelle 481, Dimensionssatz-Strukturknoten
 Sie können den Inhalt dieser Tabelle nicht ändern. Sie wird verwendet, um nach einen Dimensionssatz zu suchen. Wenn der Dimensionssatz nicht gefunden wird, wird ein neuer Satz erstellt.  
 
 |Feldnr.|Feldname|Datentyp|Bemerkung|  
@@ -35,7 +35,7 @@ Sie können den Inhalt dieser Tabelle nicht ändern. Sie wird verwendet, um nach
 |3|**Dimensionssatz-ID**|Ganzzahl|AutoIncrement. Verwendet in Feld 1 in Tabelle 480.|  
 |4|**In Benutzung**|Boolescher Wert|False, wenn nicht verwendet.|  
 
-## <a name="table--reclas-dimension-set-buffer" />Tabelle 482 Umlag.-Dimensionssatzpuffer
+## <a name="table-482-reclas-dimension-set-buffer" />Tabelle 482 Umlag.-Dimensionssatzpuffer
 Diese Tabelle wird verwendet, wenn Sie einen Dimensionswertcode, beispielsweise zu einem Artikeleintrag ändern, indem Sie die Seite **Artikel Umlag. Buch.-Blatt** verwenden.  
 
 |Feldnr.|Feldname|Datentyp|Bemerkung|  
@@ -56,7 +56,7 @@ Zusätzlich zu anderen Dimensionsfeldern in der Tabelle ist dieses Feld wichtig:
 |---------------|----------------|---------------|-------------|  
 |480|**Dimensionssatz-ID**|Ganzzahl|Referenzfeld 1 in Tabelle 480.|  
 
-### <a name="table--item-journal-line" />Tabelle 83, Artikel Buch.-Blattzeile
+### <a name="table-83-item-journal-line" />Tabelle 83, Artikel Buch.-Blattzeile
 Zusätzlich zu anderen Dimensionsfeldern in der Tabelle sind diese Felder wichtig.  
 
 |Feldnr.|Feldname|Datentyp|Bemerkung|  
@@ -64,7 +64,7 @@ Zusätzlich zu anderen Dimensionsfeldern in der Tabelle sind diese Felder wichti
 |480|**Dimensionssatz-ID**|Ganzzahl|Referenzfeld 1 in Tabelle 480.|  
 |481|**Neue Dimensionssatz-ID**|Ganzzahl|Referenzfeld 1 in Tabelle 480.|  
 
-### <a name="table--dimension-value" />Tabelle 349, Dimensionswert
+### <a name="table-349-dimension-value" />Tabelle 349, Dimensionswert
 Zusätzlich zu anderen Dimensionsfeldern in der Tabelle sind diese Felder wichtig.  
 
 |Feldnr.|Feldname|Datentyp|Bemerkung|  

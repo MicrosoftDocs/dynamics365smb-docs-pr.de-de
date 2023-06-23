@@ -39,7 +39,7 @@ Es müssen im Wesentlichen zwei Aufgaben erledigt werden, um ein Excel-Layout in
 1. Erstellen Sie die neue Excel-Layoutdatei.
 2. Fügen Sie dem Bericht das neue Layout hinzu.
 
-## <a name="task--create-the-excel-layout-file" />Aufgabe 1: Erstellen der Excel-Layoutdatei
+## <a name="task-1-create-the-excel-layout-file" />Aufgabe 1: Erstellen der Excel-Layoutdatei
 
 Es gibt drei Möglichkeiten, eine Excel-Layoutdatei für einen Bericht zu erstellen.
 
@@ -58,13 +58,13 @@ Befolgen Sie die folgenden Schritte, um ein Excel-Layout aus einem beliebigen Be
 
 Wenn für einen Bericht bereits ein Excel-Layout vorhanden ist, verwenden Sie das vorhandene Layout als Ausgangspunkt. Es gibt zwei Ansätze, um eine Kopie des Layouts zu erhalten. Sie können entweder das vorhandene Layout aus der **Berichtslayouts**-Seite exportieren oder laden das Layout von der Anforderungsseite des Berichts herunterladen. Bei beiden Möglichkeiten wird eine Excel-Layoutdatei heruntergeladen, die alle Blätter der vorhandenen Datei enthält. Der Unterschied besteht darin, dass wenn Sie es von der Anforderungsseite herunterladen, das Layout tatsächliche Daten enthält. (Die Daten sind nicht erforderlich, aber sie helfen bei der Gestaltung des Layouts.)
 
-#### <a name="approach--export-the-layout-from-the-report-layouts-page" />Ansatz 1: Exportieren des Layouts aus der **Berichtslayouts**-Seite
+#### <a name="approach-1-export-the-layout-from-the-report-layouts-page" />Ansatz 1: Exportieren des Layouts aus der **Berichtslayouts**-Seite
 
 [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
 2. Wählen Sie das Excel-Layout aus der Liste und dann die **Layout exportieren**-Aktion oben auf der Seite aus.
 3. Öffnen Sie die Datei in Excel, nehmen Sie die Änderungen vor und speichern Sie die Datei.
 
-#### <a name="approach--download-the-layout-from-the-reports-request-page" />Ansatz 2: Das Layout von der Anforderungsseite des Berichts herunterladen
+#### <a name="approach-2-download-the-layout-from-the-reports-request-page" />Ansatz 2: Das Layout von der Anforderungsseite des Berichts herunterladen
 
 [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
 2. Wählen Sie auf der Seite **Berichtslayouts** wählen Sie ein beliebiges Layout für den Bericht und dann die **Bericht ausführen**-Aktion aus.
@@ -77,7 +77,7 @@ Dies ist die fortschrittlichste Methode zum Erstellen eines Excel-Berichtslayout
 
 ---
 
-## <a name="task--add-the-excel-layout-to-the-report" />Aufgabe 2: Den Excel-Layout dem Bericht hinzufügen
+## <a name="task-2-add-the-excel-layout-to-the-report" />Aufgabe 2: Den Excel-Layout dem Bericht hinzufügen
 
 Sobald Sie die Excel-Layoutdatei haben, besteht die nächste Aufgabe darin, sie als neues Layout für den Bericht hinzuzufügen.
 

@@ -144,7 +144,7 @@ Die Power BI App zeigt nur Daten vom [!INCLUDE[prod_short](includes/prod_short.m
 - [Wählen Sie eine Kachel aus](/power-bi/service-dashboard-tiles), um den zu Grunde liegenden Bericht zu öffnen.  
 - Standardmäßig ist für Ihren Datenbestand keine Aktualisierung geplant. Sie können den Aktualisierungszeitplan ändern oder versuchen, ihn bei Bedarf mithilfe von **Jetzt aktualisieren** zu aktualisieren. Weitere Informationen finden Sie unter [Konfigurieren der geplanten Aktualisierung](/power-bi/refresh-scheduled-refresh).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics--business-centralindex" />Siehe verwandte [Microsoft Schulungen](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" />Siehe verwandte [Microsoft Schulungen](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Siehe auch
 

@@ -56,7 +56,7 @@ Das folgende Verfahren basiert auf einer Debitorenkarte. Die Schritte sind für 
 > [!NOTE]
 > Für Kontakte können Sie Funktionen zum Auffinden von doppelten Kontakten nutzen, bevor Sie die Seite **Doppelt Datensätze zusammenführen** verwenden. Weitere Informationen finden Sie unter [Suchen nach doppelten Kontakten](marketing-setup-contacts.md#searching-for-duplicate-contacts).
 
-## <a name="see-related-microsoft-trainingtrainingmodulestrade-master-data-dynamics--business-central" />Siehe verwandte [Microsoft Schulungen](/training/modules/trade-master-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulestrade-master-data-dynamics-365-business-central" />Siehe verwandte [Microsoft Schulungen](/training/modules/trade-master-data-dynamics-365-business-central/)
 
 ## <a name="see-also" />Siehe auch
 

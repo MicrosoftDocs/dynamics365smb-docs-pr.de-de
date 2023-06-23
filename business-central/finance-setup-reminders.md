@@ -92,7 +92,7 @@ Werden mehr Mahnungen erstellt als definierte Stufen vorhanden sind, werden die 
 
 Geben Sie nach der Einrichtung der Mahnmethoden (mit zusätzlichen Stufen und Text) auf jeder Debitorenkarte einen der Codes ein. Weitere Informationen finden Sie unter [Neue Debitoren registrieren](sales-how-register-new-customers.md).  
 
-## <a name="see-related-microsoft-trainingtrainingmodulessend-reminders-dynamics--business-central" />Siehe verwandte [Microsoft Schulungen](/training/modules/send-reminders-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulessend-reminders-dynamics-365-business-central" />Siehe verwandte [Microsoft Schulungen](/training/modules/send-reminders-dynamics-365-business-central/)
 
 ## <a name="see-also" />Siehe auch
 

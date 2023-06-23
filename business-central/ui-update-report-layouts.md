@@ -58,7 +58,7 @@ Wenn keine Fehler auftreten, wird die Aktualisierung für die Berichtslayouts ü
 
 Nachdem Sie das Layout ändern, versuchen Sie, das Layout erneut zu aktualisieren.  
 
-## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics--business-centralindex" />Siehe verwandte [Microsoft Schulungen](/training/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics-365-business-centralindex" />Siehe verwandte [Microsoft Schulungen](/training/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Siehe auch
  [Verwalten von Berichtslayouts](ui-manage-report-layouts.md)  

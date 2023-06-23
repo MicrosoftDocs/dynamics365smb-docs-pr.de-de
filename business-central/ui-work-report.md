@@ -153,7 +153,7 @@ Die Felder unter dem Inforegister **Erweitert** legen Einschränkungen für den 
 > [!NOTE]
 > Die Maximalwerte können sich für [!INCLUDE[prod_short](includes/prod_short.md)] lokal unterscheiden, und ein Administrator kann sie ändern. Weitere Informationen finden Sie unter [Konfigurieren von Business Central Server – Berichte](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#Reports). Für eine Übersicht über Berichtseinschränkungen [!INCLUDE[prod_short](includes/prod_short.md)] online sehen Sie [Einschränkungen im Betrieb](/dynamics365/business-central/dev-itpro/administration/operational-limits-online).
 
-## <a name="see-related-microsoft-trainingtrainingpathssetup-reporting-dynamics--business-central" />Siehe verwandte [Microsoft Schulungen](/training/paths/setup-reporting-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathssetup-reporting-dynamics-365-business-central" />Siehe verwandte [Microsoft Schulungen](/training/paths/setup-reporting-dynamics-365-business-central/)
 
 ## <a name="see-also" />Siehe auch
 

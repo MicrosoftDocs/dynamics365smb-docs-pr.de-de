@@ -58,7 +58,7 @@ Sie können die Datumsformel manuell in Zeilen angeben. Andernfalls verwendet [!
 3. Lagerhaltungsdatenkarte
 4. Kreditorenkarte
 
-## <a name="see-related-microsoft-trainingtrainingmodulesestimate-receipt-dates-dynamics--business-central" />Siehe verwandte [Microsoft Schulungen](/training/modules/estimate-receipt-dates-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesestimate-receipt-dates-dynamics-365-business-central" />Siehe verwandte [Microsoft Schulungen](/training/modules/estimate-receipt-dates-dynamics-365-business-central/)
 
 ## <a name="see-also" />Siehe auch
 

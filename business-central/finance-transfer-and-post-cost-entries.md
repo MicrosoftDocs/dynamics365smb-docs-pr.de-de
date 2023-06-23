@@ -98,7 +98,7 @@ Für einzelne Kostenposten überträgt [!INCLUDE[prod_short](includes/prod_short
 
 In der Tabelle **Kostenregister** erstellt [!INCLUDE[prod_short](includes/prod_short.md)] einen Posten mit der Quellenübertragung aus dem Sachkonto. Der Posten erfasst die erste und letzte Postennummer der übertragenen Sachposten sowie die erste und letzte Nummer der erstellten Kostenposten.
 
-## <a name="see-related-microsoft-trainingtrainingmodulestransfer-gl-entries-dynamics--business-central" />Siehe verwandte [Microsoft Schulungen](/training/modules/transfer-gl-entries-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulestransfer-gl-entries-dynamics-365-business-central" />Siehe verwandte [Microsoft Schulungen](/training/modules/transfer-gl-entries-dynamics-365-business-central/)
 
 ## <a name="see-also" />Siehe auch
 

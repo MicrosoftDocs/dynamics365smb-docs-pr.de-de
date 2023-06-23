@@ -43,7 +43,7 @@ Die allgemeine Version von [!INCLUDE[prod_short](includes/prod_short.md)] unters
     > [!NOTE]  
     >  Sie können auch eine gebuchte Verkaufsrechnung als elektronischen Beleg senden. Dieser Vorgang ist derselbe wie im Thema für nicht gebuchte Verkaufsbelege beschrieben. Wählen Sie auf der Seite **gebuchte Verkaufsrechnung** die Aktion **Aktivitätsprotokoll**, um den Status des elektronischen Dokuments anzuzeigen.  
 
-## <a name="see-related-microsoft-trainingtrainingmoduleselectronic-documents-dynamics--business-centralindex" />Siehe verwandte [Microsoft Schulungen](/training/modules/electronic-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmoduleselectronic-documents-dynamics-365-business-centralindex" />Siehe verwandte [Microsoft Schulungen](/training/modules/electronic-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Siehe auch
 

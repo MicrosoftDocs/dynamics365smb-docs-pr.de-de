@@ -53,7 +53,7 @@ Wenn Sie [!INCLUDE[prod_short](includes/prod_short.md)] lokal verwenden, können
 > [!NOTE]
 > Wenn Sie Probleme haben, die App ordnungsgemäß zu starten, wenden Sie sich an Ihren Administrator. Dies kann eine fehlende Voraussetzung oder eine unvollständige Konfiguration sein. Weitere Informationen finden Sie unter [Vorbereiten der Umgebung für die mobile App](/dynamics365/business-central/dev-itpro/deployment/install-business-central-app#prereqs) oder [Fehlerbehebung bei der Business Central Mobile App vor Ort](/dynamics365/business-central/dev-itpro/developer/devenv-troubleshooting-the-mobile-app).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesalternative-interfaces-dynamics--business-centralindex" />Siehe verwandte [Microsoft Schulungen](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulesalternative-interfaces-dynamics-365-business-centralindex" />Siehe verwandte [Microsoft Schulungen](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Siehe auch
 

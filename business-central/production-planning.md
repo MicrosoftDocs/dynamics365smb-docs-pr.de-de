@@ -39,7 +39,7 @@ Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Themen,
 |Anzeigen des voraussichtlich verfügbaren Lagerbestands eines Artikels in verschiedenen Ansichten und Anzeigen des beeinflussenden Bruttobedarfs sowie der beeinflussenden geplanten Auftragseingänge und anderer Ereignisse im Laufe der Zeit|[Artikelverfügbarkeit anzeigen](inventory-how-availability-overview.md)|  
 <!--|Wählen Sie Planungsaktivitäten wie ändern oder hinzufügen von Planungsarbeitsblattszeilen, in einer grafischen Ansicht des Beschaffungsplans aus.|[Ändern von Planungsvorschlägen in einer grafischen Ansicht](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)|-->
 
-## <a name="see-related-microsoft-trainingtrainingmodulesplan-items-dynamics--business-central" />Siehe verwandte [Microsoft Schulungen](/training/modules/plan-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesplan-items-dynamics-365-business-central" />Siehe verwandte [Microsoft Schulungen](/training/modules/plan-items-dynamics-365-business-central/)
 
 ## <a name="see-also" />Siehe auch
 

@@ -50,7 +50,7 @@ Im Datenanalysemodus ist die Seite in zwei Bereiche unterteilt:
 - Der Hauptbereich, bestehend aus dem Datenbereich (1), der Übersichtsleiste (2) und der Registerkartenleiste (5)
 - Der Datenbearbeitungsbereich, der aus zwei Bereichen besteht: Spalten (3) und Analysefilter (4).
 
-### <a name="data-area-" />Datenbereich (1)
+### <a name="data-area-1" />Datenbereich (1)
 
 Im Datenbereich werden die Zeilen und Spalten der Listenseite angezeigt und die Daten zusammengefasst. Der Datenbereich bietet eine vielseitige Möglichkeit, das Layout der Spalten zu steuern und eine schnelle Möglichkeit, eine Zusammenfassung der Daten zu erhalten. Bei Spalten, die numerische Werte enthalten, wird die Summe aller Werte in der Spalte in einer letzten Zeile angezeigt, es sei denn, Sie haben Zeilengruppen definiert. In diesem Fall erscheinen die Summen als Zwischensumme für die Gruppen.  
 
@@ -64,7 +64,7 @@ Im Datenbereich werden die Zeilen und Spalten der Listenseite angezeigt und die 
 - Verwenden Sie den Datenbereich, um mit den Daten zu interagieren. Für Spalten, die numerische, summierbare Werte enthalten, können Sie deskriptive Statistiken zu einer Gruppe von Feldern erhalten, indem Sie sie markieren. Die Statistiken erscheinen in der Statusleiste (2) unten auf der Seite.
 - Exportieren Sie Daten im Excel- oder CSV-Format. Klicken Sie einfach mit der rechten Maustaste auf den Datenbereich oder eine Auswahl von Zellen, um sie zu exportieren.
 
-### <a name="summary-bar-" />Zusammenfassungsleiste (2)
+### <a name="summary-bar-2" />Zusammenfassungsleiste (2)
 
 Die Zusammenfassungsleiste befindet sich unten auf der Seite und zeigt Statistiken zu den Daten in der Liste an. Wenn Sie mit Spalten interagieren, deren Werte summiert werden können, z. B. mehrere Zeilen in einer Spalte auswählen, die Beträge anzeigt, werden die Daten aktualisiert.
 
@@ -83,7 +83,7 @@ Die folgende Tabelle beschreibt die verschiedenen Zahlen, die im Summenbereich a
 |Max.|Der maximale Wert in allen ausgewählten summierbaren Feldern.|
 |Summe|Die Gesamtsumme aller Werte in den ausgewählten summierbaren Feldern.|
 
-### <a name="columns-" />Spalten (3)
+### <a name="columns-3" />Spalten (3)
 
 Die **Spalten** sind einen von zwei Bereichen, die zusammenarbeiten, um Ihre Analyse zu definieren. Der andere Bereich ist der **Analysefilter**. Der **Spalten**-Bereich wird verwendet, um die Daten zusammenzufassen. Verwenden Sie den Bereich **Spalten**, um festzulegen, welche Spalten in die Analyse einbezogen werden sollen.
 
@@ -98,7 +98,7 @@ Die **Spalten** sind einen von zwei Bereichen, die zusammenarbeiten, um Ihre Ana
 
 Um ein Feld von einem Bereich in einen anderen zu verschieben, wählen Sie das Greifsymbol ![Zeigt eine Übersicht einer Seite zum Datenanalysemodus](media/column-grab-icon.png) neben der Spalte in der obigen Liste an; ziehen Sie sie in den Zielbereich. Sie werden daran gehindert, ein Feld in einen Bereich zu verschieben, in dem es nicht erlaubt ist.
 
-### <a name="analysis-filters-" />Analysefilter (4)
+### <a name="analysis-filters-4" />Analysefilter (4)
 
 Im Bereich **Analysefilter** können Sie weitere Datenfilter für Spalten festlegen, um die Einträge in der Liste einzuschränken. Legen Sie Filter für Spalten fest, um die Einträge in der Liste und die nachfolgenden Summen basierend auf einem von Ihnen definierten Kriterium auf nur die Einträge zu beschränken, an denen Sie interessiert sind. Angenommen, Sie sind nur an Daten für einen bestimmten Kunden oder Verkaufsaufträge interessiert, die einen bestimmten Betrag überschreiten. Um einen Filter festzulegen, wählen Sie die Spalte aus und wählen Sie die Vergleichsoperation aus der Liste aus (z. B. **Gleich** oder **Beginnt mit**), geben Sie dann den Wert ein.
 
@@ -107,7 +107,7 @@ Im Bereich **Analysefilter** können Sie weitere Datenfilter für Spalten festle
 > [!NOTE]
 > Die zusätzlichen Filter gelten nur für die aktuelle Analyse-Registerkarte. Auf diese Weise können Sie genau die zusätzlichen Datenfilter definieren, die für eine bestimmte Analyse benötigt werden.
 
-### <a name="tabs-" />Registerkarten (5)
+### <a name="tabs-5" />Registerkarten (5)
 
 Im Registerkartenbereich oben können Sie verschiedene Konfigurationen (Spalten und Analysefilter) auf separaten Registerkarten erstellen, wobei Sie Daten auf den Registerkarten unabhängig voneinander bearbeiten können. Es gibt immer mindestens eine Registerkarte, die standardmäßig **Analyse 1** heißt. Das Hinzufügen weiterer Registerkarten ist vorteilhaft, um häufig verwendete Analysekonfigurationen für einen Datensatz zu speichern. Sie haben beispielsweise Registerkarten zum Analysieren von Daten im Pivot-Modus und andere Registerkarten, die nach einer Teilmenge von Zeilen filtern. Einige Registerkarten zeigen möglicherweise eine detaillierte Ansicht mit vielen Spalten an, und andere zeigen nur einige Schlüsselspalten an.
 

@@ -84,7 +84,7 @@ Sie können für jedes AfA-Buch Vorgaben für Vorlagen und Buch.-Blätter defini
 3. Falls Sie eine Standardeinrichtung für jeden einzelnen Benutzer definieren möchten, wählen Sie die Seite **Benutzer-ID** aus, um über das Fenster **Benutzer** auszuwählen.  
 4. Wählen Sie in den anderen Feldern die Buch.-Blattvorlage oder den Buch.-Blattnamen, die standardmäßig verwendet werden müssen.  
 
-## <a name="fiscal-year--days-field-depreciation" />Geschäftsjahr 365 Tage Feld Abschreibung
+## <a name="fiscal-year-365-days-field-depreciation" />Geschäftsjahr 365 Tage Feld Abschreibung
 
 Wenn der Batchauftrag AfA berechnen die Abschreibungen berechnet, verwendet der Batchauftrag normalerweise ein standardisiertes Jahr mit 360 Tagen, wobei jeder der 12 Monate 30 Tage hat.
 

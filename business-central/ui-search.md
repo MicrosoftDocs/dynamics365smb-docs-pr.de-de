@@ -70,7 +70,7 @@ Die Funktion **Wie möchten Sie weiter verfahren** sucht nicht nach Daten wie De
 
 Wir haben „Wie möchten Sie weiter verfahren“ einer Reihe von Projektbeteiligten präsentiert, deren gemeinsame Fragen notiert und aus unseren Notizen eine Liste der häufig gestellten Fragen erstellt. Bei Interesse finden Sie sie unter [„Wie möchten Sie weiter verfahren“-FAQ](ui-search-faq.md).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesuser-interface-dynamics--business-centralindex" />Siehe verwandte [Microsoft Schulungen](/training/modules/user-interface-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulesuser-interface-dynamics-365-business-centralindex" />Siehe verwandte [Microsoft Schulungen](/training/modules/user-interface-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Siehe auch
 

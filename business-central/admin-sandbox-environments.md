@@ -64,7 +64,7 @@ Weitere Informationen finden Sie in den Entwickler- und Verwaltungsinhalten unte
 
 <!-- ![In-client Designer.](./media/across-sandbox/sandbox-inclient-designer.png) -->
 
-## <a name="see-related-microsoft-trainingtrainingmodulesadmin-online-dynamics--business-central" />Siehe verwandte [Microsoft Schulungen](/training/modules/admin-online-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesadmin-online-dynamics-365-business-central" />Siehe verwandte [Microsoft Schulungen](/training/modules/admin-online-dynamics-365-business-central/)
 
 ## <a name="see-also" />Siehe auch
 

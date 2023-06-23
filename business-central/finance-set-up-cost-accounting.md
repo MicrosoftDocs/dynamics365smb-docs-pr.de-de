@@ -189,7 +189,7 @@ Für jedes Sachkonto können Sie Standarddimensionswerte in der Tabelle **Standa
 > [!NOTE]  
 >  Um sicherzustellen, dass die vordefinierte Kostenstelle und der vordefinierte Kostenträger, die bzw. den Sie im Sachkonto eingerichtet haben, automatisch in die Kostenrechnung übertragen werden, aktivieren Sie das Kontrollkästchen **Fibu-Buchung prüfen** auf der Seite Kosenbuchungseinrichtung.
 
-## <a name="see-related-microsoft-trainingtrainingmodulescost-accounting-dynamics--business-central" />Siehe verwandte [Microsoft Schulungen](/training/modules/cost-accounting-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulescost-accounting-dynamics-365-business-central" />Siehe verwandte [Microsoft Schulungen](/training/modules/cost-accounting-dynamics-365-business-central/)
 
 ## <a name="see-also" />Siehe auch
 

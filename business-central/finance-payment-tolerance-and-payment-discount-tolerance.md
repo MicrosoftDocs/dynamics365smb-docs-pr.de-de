@@ -89,7 +89,7 @@ Die Standardeinrichtung für die Zahlungstoleranz ist zulässig. Um eine Zahlung
 > [!NOTE]  
 > Sind für einen Debitor oder Kreditor offene Posten vorhanden, müssen Sie zuerst die Zahlungstoleranz aus den offenen Posten entfernen.
 
-## <a name="example----tolerance-calculations-for-a-single-document" />Beispiel 1 – Toleranzberechnungen für einen einzelnen Beleg
+## <a name="example-1---tolerance-calculations-for-a-single-document" />Beispiel 1 – Toleranzberechnungen für einen einzelnen Beleg
 
 Im Folgenden wird anhand von Beispielszenarien gezeigt, welche Toleranzberechnungen und Buchungen sich in verschiedenen Situationen ergeben.  
 
@@ -127,7 +127,7 @@ Szenarien mit Alternative A oder B bedeuten Folgendes:
 
 Bezugnehmend auf das o. g. Szenario, sind die Zahlungszeiträume wie folgt:  
 
-#### <a name="-payment-date--scenarios--" />(1) Zahlungsdatum <=15.01.03 (Szenarien 1-3)
+#### <a name="1-payment-date-011503-scenarios-1-3" />(1) Zahlungsdatum <=15.01.03 (Szenarien 1-3)
 
 Restbetrag gemäß  
 
@@ -139,7 +139,7 @@ Normale Ausgleichsvorschriften
 
 (2) Fällt die Zahlung in diesen Bereich, können nicht alle Posten geschlossen werden, auch nicht mit Toleranz.  
 
-#### <a name="-payment-date-is-between--and--scenarios--" />(2) Zahlung zwischen dem 16.01.2003 und 20.01.2003 (Szenarien 4-9)
+#### <a name="2-payment-date-is-between-011603-and-012003-scenarios-4-9" />(2) Zahlung zwischen dem 16.01.2003 und 20.01.2003 (Szenarien 4-9)
 
 Restbetrag gemäß  
 
@@ -151,7 +151,7 @@ Normale Ausgleichsvorschriften
 
 (2) Fällt die Zahlung in diesen Bereich, können nicht alle Posten geschlossen werden, auch nicht mit Toleranz.  
 
-#### <a name="-payment-date-is-after--scenarios--" />(3) Zahlungsdatum liegt nach dem 20.01.03 (Szenarien 10-15)
+#### <a name="3-payment-date-is-after-012003-scenarios-10-15" />(3) Zahlungsdatum liegt nach dem 20.01.03 (Szenarien 10-15)
 
 Restbetrag gemäß  
 
@@ -163,7 +163,7 @@ Normale Ausgleichsvorschriften
 
 (2) Fällt die Zahlung in diesen Zeitraum, können nicht alle Posten geschlossen werden, auch nicht mit Toleranz.  
 
-## <a name="example----tolerance-calculations-for-multiple-documents" />Beispiel 2 – Toleranzberechnungen für mehrere Belege
+## <a name="example-2---tolerance-calculations-for-multiple-documents" />Beispiel 2 – Toleranzberechnungen für mehrere Belege
 
 Im Folgenden wird anhand von Beispielszenarien gezeigt, welche Toleranzberechnungen und Buchungen sich in verschiedenen Situationen ergeben. Die Beispiele beschränken sich auf die Szenarien, die dazu führen, dass alle Posten geschlossen werden.  
 
@@ -215,7 +215,7 @@ Szenarien mit Alternative A, B, C oder D bedeuten Folgendes:
 
 Bezugnehmend auf das o. g. Szenario, sind die Zahlungszeiträume wie folgt:  
 
-#### <a name="-payment-date--scenarios--" />(1) Zahlungsdatum <=15.01.03 (Szenarien 1-3)
+#### <a name="1-payment-date-011503-scenarios-1-3" />(1) Zahlungsdatum <=15.01.03 (Szenarien 1-3)
 
 Restbetrag gemäß  
 
@@ -227,7 +227,7 @@ Normale Ausgleichsvorschriften
 
 (2) Fällt die Zahlung in diesen Bereich, können nicht alle Posten geschlossen werden, auch nicht mit Toleranz.  
 
-#### <a name="-payment-date-is-between--and--scenarios--" />(2) Zahlung zwischen dem 16.01.2003 und 17.01.2003 (Szenarien 4-9)
+#### <a name="2-payment-date-is-between-011603-and-011703-scenarios-4-9" />(2) Zahlung zwischen dem 16.01.2003 und 17.01.2003 (Szenarien 4-9)
 
 Restbetrag gemäß  
 
@@ -239,7 +239,7 @@ Normale Ausgleichsvorschriften
 
 (2) Fällt die Zahlung in diesen Bereich, können nicht alle Posten geschlossen werden, auch nicht mit Toleranz.  
 
-#### <a name="-payment-date-is-between--and--scenarios--" />(3) Zahlung zwischen dem 18.01.2003 und 20.01.2003 (Szenarien 10-21)
+#### <a name="3-payment-date-is-between-011803-and-012003-scenarios-10-21" />(3) Zahlung zwischen dem 18.01.2003 und 20.01.2003 (Szenarien 10-21)
 
 Restbetrag gemäß  
 
@@ -251,7 +251,7 @@ Normale Ausgleichsvorschriften
 
 (2) Fällt die Zahlung in diesen Bereich, können nicht alle Posten geschlossen werden, auch nicht mit Toleranz.  
 
-#### <a name="-payment-date-is-between--and--scenarios--" />(4) Zahlung zwischen dem 21.01.03 und 22.01.03 (Szenarien 22-27)
+#### <a name="4-payment-date-is-between-012103-and-012203-scenarios-22-27" />(4) Zahlung zwischen dem 21.01.03 und 22.01.03 (Szenarien 22-27)
 
 Restbetrag gemäß  
 
@@ -263,7 +263,7 @@ Normale Ausgleichsvorschriften
 
 (2) Fällt die Zahlung in diesen Bereich, können nicht alle Posten geschlossen werden, auch nicht mit Toleranz.  
 
-#### <a name="-payment-date-is-after--scenarios--" />(5) Zahlungsdatum liegt nach dem 22.01.2003 (Szenarien 28-30)
+#### <a name="5-payment-date-is-after-012203-scenarios-28-30" />(5) Zahlungsdatum liegt nach dem 22.01.2003 (Szenarien 28-30)
 
 Restbetrag gemäß  
 
@@ -275,7 +275,7 @@ Normale Ausgleichsvorschriften
 
 (2) Fällt die Zahlung in diesen Bereich, können nicht alle Posten geschlossen werden, auch nicht mit Toleranz.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesenter-payments-dynamics--business-central" />Siehe verwandte [Microsoft Schulungen](/training/modules/enter-payments-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesenter-payments-dynamics-365-business-central" />Siehe verwandte [Microsoft Schulungen](/training/modules/enter-payments-dynamics-365-business-central/)
 
 ## <a name="see-also" />Siehe auch
 

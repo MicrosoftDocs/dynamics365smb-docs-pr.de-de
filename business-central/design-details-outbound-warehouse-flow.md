@@ -63,15 +63,15 @@ Das folgende Diagramm zeigt die ausgehenden Lagerprozesse für verschiedene Bele
 
 :::image type="content" source="media/design-details-warehouse-management-outbound-basic-flow.png" alt-text="Zeigt die Schritte in einem grundlegenden ausgehenden Fluss in einem Lager.":::
 
-### <a name="-release-a-source-document" />1: Ein Herkunftsbeleg freigeben
+### <a name="1-release-a-source-document" />1: Ein Herkunftsbeleg freigeben
 
 Wenn Sie die Aktion **Freigeben** für einen Herkunftsbeleg verwenden, z. B. einen Verkaufs- oder Umlagerungsauftrag, sind die Artikel auf dem Beleg bereit, im Lager bearbeitet zu werden. Zum Beispiel kommissionieren und in den auf dem Beleg angegebenen Lagerplatz legen. Alternativ können Sie Belege für Lagerbestandskommissionierung für einzelne Auftragszeilen, im Push-Verfahren, basierend auf angegebenen Lagerplätzen und Mengen, die verarbeitet werden sollen, erstellen.  
 
-### <a name="-create-an-inventory-pick" />2: Eine Lagerbestandkommissionierung erstellen
+### <a name="2-create-an-inventory-pick" />2: Eine Lagerbestandkommissionierung erstellen
 
 Auf der Seite **Lagerbestandskommissionierung** ruft der Lagermitarbeiter die Herkunftsbelegzeilen im Pull-Verfahren ab. Oder die Kommissionierzeilen wurden bereits, im Push-Verfahren, von dem Benutzer erstellt, der für den Herkunftsbeleg verantwortlich ist.  
 
-### <a name="-post-an-inventory-pick" />3: Eine Lagerbestandskommissionierung buchen
+### <a name="3-post-an-inventory-pick" />3: Eine Lagerbestandskommissionierung buchen
 
 In jeder Zeile für Artikel, die kommissioniert oder umgelagert wurden, sei es teilweise oder vollständig, füllen Sie das Feld **Menge** aus und buchen Sie dann die Lagerbestandskommissionierung. Herkunftsbelege, die mit der Kommissionierung verknüpft sind, werden als geliefert oder verbraucht gebucht.  
 
@@ -83,28 +83,28 @@ Das folgende Diagramm zeigt die ausgehenden Lagerprozesse für verschiedene Bele
 
 :::image type="content" source="media/design_details_warehouse_management_outbound_advanced_flow.png" alt-text="Zeigt die Schritte in einem erweiterten ausgehenden Lagerfluss.":::
 
-### <a name="-release-a-source-document" />1: Ein Herkunftsbeleg freigeben
+### <a name="1-release-a-source-document" />1: Ein Herkunftsbeleg freigeben
 
 Das Freigeben eines Herkunftsbelegs in erweiterten Konfigurationen bewirkt dasselbe wie bei Basiskonfigurationen. Die Artikel werden für die Bewegung im Lager verfügbar. Sie können beispielsweise einer Sendung beigelegt werden.  
 
-### <a name="-create-a-warehouse-shipment" />2: Erstellen Sie einen Warenausgang
+### <a name="2-create-a-warehouse-shipment" />2: Erstellen Sie einen Warenausgang
 
 Rufen Sie auf der Seite **Warenausgang** die Zeilen aus dem veröffentlichten Herkunftsbeleg ab. Sie können Zeilen aus mehreren Herkunftsbelegen in einer Warenausgabe zusammenfassen.  
 
-### <a name="-create-a-warehouse-pick" />3: Erstellen Sie eine Lagerkommissionierung
+### <a name="3-create-a-warehouse-pick" />3: Erstellen Sie eine Lagerkommissionierung
 
 Erstellen Sie auf der Seite **Warenausgang** Lagerkommissionierungsaktivitäten für Warenausgänge auf eine von zwei Arten:
 
 - Im Push-Verfahren, bei dem Sie die Aktion **Kommissionierung erstellen** verwenden. Wählen Sie die zu kommissionierenden Zeilen und bereiten Sie die Kommissionierungen vor, indem sie beispielsweise angeben, aus welchen Lagerplätzen entnommen und in welche Lagerplätze eingelagert wird, und wie viele Einheiten bewegt werden. Die Lagerplätze können für den Lagerort oder die Ressource vordefiniert werden.
 - Im Pull-Verfahren, bei dem Sie die Aktion **Freigeben** verwenden. Auf der Seite **Kommissionierungsarbeitsblatt** können Lagermitarbeiter die Aktion **Lagerdokumente abrufen** verwenden, um ihre zugewiesenen Kommissionierungen abzurufen. Wenn die Kommissionierungen vollständig erfasst sind, werden die Zeilen im **Kommissionierarbeitsblatt** gelöscht.
 
-### <a name="-register-a-warehouse-pick" />4: Eine Lagerkommissionierung erfassen
+### <a name="4-register-a-warehouse-pick" />4: Eine Lagerkommissionierung erfassen
 
 Auf der Seite **Lagerkommissionierung** füllt ein Lagermitarbeiter das Feld **Menge** für jede Zeile aus, die sie vollständig oder teilweise kommissioniert haben, und erfasst dann die Kommissionierung.
 
 Lagerplatzposten werden erstellt, und die Kommissionierungszeilen werden gelöscht, wenn die vollständige Menge kommissioniert wurde. Der Kommissionierungsbeleg bleibt offen, bis die gesamte Menge des Warenausgangs erfasst ist. Das Feld **Abgerufene Menge** auf den Warenausgangszeilen wird entsprechend aktualisiert.  
 
-### <a name="-post-the-warehouse-shipment" />5: Den Warenausgang buchen
+### <a name="5-post-the-warehouse-shipment" />5: Den Warenausgang buchen
 
 Wenn alle Artikel in dem Warenausgangsbeleg als kommissioniert erfasst sind, bucht der Lagermitarbeiter den Ausgang. Durch das Buchen werden die Artikelposten aktualisiert, um die Verringerung des Lagerbestands widerzuspiegeln. Beispielsweise wird das Feld **Menge versendet** auf der Zeile des ausgehenden Herkunftsbelegs aktualisiert.  
 

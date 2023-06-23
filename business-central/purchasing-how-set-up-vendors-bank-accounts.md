@@ -26,7 +26,7 @@ Wenn ein Kreditor über ein oder mehrere Bankkonten verfügt und Sie eine bevorz
 2. Öffnen Sie die Karte für den Kreditor.
 3. Wählen Sie im Inforegister **Zahlungen** das standardmäßige Bankkonto des Kreditors im Feld **Bevorzugter Bankkontocode** aus.
 
-## <a name="see-related-microsoft-trainingtrainingmodulescash-management-dynamics--business-central" />Siehe verwandte [Microsoft Schulungen](/training/modules/cash-management-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulescash-management-dynamics-365-business-central" />Siehe verwandte [Microsoft Schulungen](/training/modules/cash-management-dynamics-365-business-central/)
 
 ## <a name="see-also" />Siehe auch
 

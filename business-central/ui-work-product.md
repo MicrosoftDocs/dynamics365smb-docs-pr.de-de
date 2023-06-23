@@ -80,7 +80,7 @@ Wenn Sie eine Listenseite suchen und öffnen, z. B. die Liste **Verkaufsaufträg
 
 Wenn Sie aber dieselbe Listenseite von Ihrer Startseite aus öffnen, ist die Aktion **Verwalten** nicht vorhanden. Um einen einzelnen Verkaufsauftrag zu öffnen, wählen Sie stattdessen einfach das Feld **Nummer**. In dieser Ansicht können Sie die Aktionsleiste nicht anheften.  
 
-## <a name="see-related-microsoft-trainingtrainingpathswork-pro-data-dynamics--business-central" />Siehe verwandte [Microsoft Schulungen](/training/paths/work-pro-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathswork-pro-data-dynamics-365-business-central" />Siehe verwandte [Microsoft Schulungen](/training/paths/work-pro-data-dynamics-365-business-central/)
 
 ## <a name="see-also" />Siehe auch
 

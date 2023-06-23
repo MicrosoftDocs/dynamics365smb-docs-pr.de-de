@@ -147,7 +147,7 @@ Diese Funktionalität wird in Kürze verfügbar sein. Ab Februar 2022 werden neu
 
 Wenn Sie alte Berichte haben, die auf Business Central-Daten basieren, können diese nicht mit der schreibgeschützten Datenbankreplik verbunden werden.
 
-### <a name="a-namedatabasemodsaive-tried-the-preview-of-the-new-connector-for-the-february--update-when-i-connect-to-my-custom-business-central-api-page-i-get-the-error-cannot-insert-a-record-current-connection-intent-is-read-only-how-can-i-fix-it" /><a name="databasemods"></a>Ich habe die Vorschau des neuen Konnektors für das Update vom Februar 2022 ausprobiert. Wenn ich eine Verbindung zu meiner angepassten Business Central API-Seite herstelle, erhalte ich die Fehlermeldung „Es kann kein Datensatz eingefügt werden. Die aktuelle Verbindung ist schreibgeschützt.“. Wie kann ich das Problem beheben?
+### <a name="a-namedatabasemodsaive-tried-the-preview-of-the-new-connector-for-the-february-2022-update-when-i-connect-to-my-custom-business-central-api-page-i-get-the-error-cannot-insert-a-record-current-connection-intent-is-read-only-how-can-i-fix-it" /><a name="databasemods"></a>Ich habe die Vorschau des neuen Konnektors für das Update vom Februar 2022 ausprobiert. Wenn ich eine Verbindung zu meiner angepassten Business Central API-Seite herstelle, erhalte ich die Fehlermeldung „Es kann kein Datensatz eingefügt werden. Die aktuelle Verbindung ist schreibgeschützt.“. Wie kann ich das Problem beheben?
 
 Mit dem neuen Konnektor werden neue Berichte, die Business Central-Daten verwenden, standardmäßig mit einer schreibgeschützten Replik der Business Central-Datenbank verbunden. Diese Änderung bringt eine Leistungsverbesserung mit sich. In seltenen Fällen kann dies jedoch den Fehler verursachen. Dieser Fehler tritt in der Regel auf, weil Ihre angepasste API Änderungen an den Datensätzen von Business Central vornimmt, während Power BI versucht, die Daten abzurufen. Insbesondere geschieht dies im Rahmen der AL-Auslöser: OnInit, OnOpenPage, OnFindRecord, OnNextRecord, OnAfterGetRecord und OnAfterGetCurrRecord.
 
@@ -237,14 +237,14 @@ Ja. Dieses erweiterte Szenario wird Business Central helfen, performant zu bleib
 
 Wir schauen uns diese Funktion an. Power BI bietet reichhaltige APIs, um das Bereitstellen von Berichten zu steuern. Weitere Informationen finden Sie unter [Einführung in Bereitstellungs-Pipelines](/power-bi/create-reports/deployment-pipelines-overview).
 
-### <a name="when-i-get-data-from-business-central-to-use-in-my-power-bi-reports-i-see-some-values-like-x-what-are-these-values" />Wenn ich Daten von Business Central abrufe, um sie in meinen Power BI-Berichten zu verwenden, sehe ich einige Werte wie „_x0020_“. Was sind diese Werte?
+### <a name="when-i-get-data-from-business-central-to-use-in-my-power-bi-reports-i-see-some-values-like-x0020-what-are-these-values" />Wenn ich Daten von Business Central abrufe, um sie in meinen Power BI-Berichten zu verwenden, sehe ich einige Werte wie „_x0020_“. Was sind diese Werte?
 
 Einige API-Seiten, einschließlich der meisten API v2.0-Seiten, haben Felder, die auf [AL Enum-Objekten](/dynamics365/business-central/dev-itpro/developer/devenv-extensible-enums) basieren. Felder, die auf AL enum-Objekten basieren, müssen konsistente und immer gleiche Namen haben, damit Filter im Bericht immer funktionieren &mdash;unabhängig von der Sprache oder dem Betriebssystem, das Sie verwenden. Aus diesem Grund werden die Felder, die auf AL-Enums basieren, nicht übersetzt und so kodiert, dass alle Sonderzeichen, einschließlich des Leerzeichens, vermieden werden. Insbesondere wird jedes Mal, wenn es eine leere Option im AL Enum-Objekt gibt, diese in „_x0020_“ kodiert. Sie können immer eine Transformation auf Power BI anwenden, wenn Sie einen anderen Wert für diese Felder anzeigen möchten, z. B. „Leer“.
 
 
 ---
 
-## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics--business-central" />Siehe verwandte [Microsoft Schulungen](/training/modules/change-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics-365-business-central" />Siehe verwandte [Microsoft Schulungen](/training/modules/change-documents-dynamics-365-business-central/)
 
 ## <a name="see-also" />Siehe auch
 

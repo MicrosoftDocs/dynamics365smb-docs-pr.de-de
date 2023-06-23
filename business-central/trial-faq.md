@@ -8,7 +8,7 @@ ms.author: edupont
 ms.date: 02/23/2022
 ---
 
-# <a name="dynamics--business-central-trial-faq" />Häufig gestellte Fragen zur Dynamics 365 Business Central-Testversion
+# <a name="dynamics-365-business-central-trial-faq" />Häufig gestellte Fragen zur Dynamics 365 Business Central-Testversion
 
 [!INCLUDE [beethoven-trial](includes/beethoven-trial.md)]
 
@@ -44,7 +44,7 @@ Wechseln Sie zur 30-Tage-Testversion, und fügen Sie dann Ihre eigenen Daten hin
 
 Dies ist nicht möglich. Wenn Sie Beispieldaten versehentlich löschen, bitten Sie Ihren Administrator, eine neue Sandbox-Umgebung zu erstellen. Weitere Informationen finden Sie unter [Produktions- und Sandbox-Umgebungen](/dynamics365/business-central/dev-itpro/administration/environment-types) im Administratorinhalt (nur in englischer Sprache).  
 
-## <a name="see-related-microsoft-trainingtrainingmodulestrial-dynamics--business-central" />Siehe verwandte [Microsoft Schulungen](/training/modules/trial-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulestrial-dynamics-365-business-central" />Siehe verwandte [Microsoft Schulungen](/training/modules/trial-dynamics-365-business-central/)
 
 ## <a name="see-also" />Siehe auch
 

@@ -69,15 +69,15 @@ Das folgende Diagramm zeigt die eingehenden Lagerflüsse nach Belegtyp im Rahmen
 
 :::image type="content" source="media/design_details_warehouse_management_inbound_basic_flow.png" alt-text="Der eingehende Basisfluss in einem Lager.":::
 
-### <a name="-release-a-source-document-to-create-a-request-for-an-inventory-put-away" />1: Geben Sie ein Herkunftsbeleg frei, um eine Anforderung für eine Lagereinlagerung zu erstellen
+### <a name="1-release-a-source-document-to-create-a-request-for-an-inventory-put-away" />1: Geben Sie ein Herkunftsbeleg frei, um eine Anforderung für eine Lagereinlagerung zu erstellen
 
 Wenn Sie Artikel erhalten, geben Sie den Herkunftsbeleg frei, z. B. eine Bestellung oder einen eingehenden Umlagerungsauftrag. Durch die Freigabe des Belegs werden die Artikel zum Einlagern verfügbar. Sie können auch Lagereinlagerungsbelege für einzelne Auftragszeilen, im Push-Verfahren, basierend auf angegebenen Lagerplätzen und Mengen erstellen, die verarbeitet werden sollen.  
 
-### <a name="-create-an-inventory-put-away" />2: Erstellen Sie eine Lagereinlagerung
+### <a name="2-create-an-inventory-put-away" />2: Erstellen Sie eine Lagereinlagerung
 
 Auf der Seite **Lagereinlagerung** können Sie im Pull-Verfahren die offenen Herkunftsbelegzeilen basierend auf den eingehenden Lageranfragen abrufen. Im Push-Verfahren können Sie auch Lagereinlagerungszeilen erstellen, wenn Sie den Herkunftsbeleg erstellen.  
 
-### <a name="-post-an-inventory-put-away" />3: An Lagereinlagerung buchen
+### <a name="3-post-an-inventory-put-away" />3: An Lagereinlagerung buchen
 
 In jeder Zeile für Artikel, die kommissioniert oder umgelagert wurden, sei es teilweise oder vollständig, füllen Sie das Feld **Menge** aus und buchen Sie dann die Lagereinlagerung. Herkunftsbelege, die mit der Einlagerung verknüpft sind, werden als eingegangen gebucht.  
 
@@ -94,21 +94,21 @@ Das folgende Diagramm zeigt den eingehenden Lagerfluss nach Belegtyp. Die Nummer
 
 :::image type="content" source="media/design_details_warehouse_management_inbound_advanced_flow.png" alt-text="Der erweiterte eingehende Fluss in einem Lager.":::
 
-### <a name="-release-the-source-document" />1: Den Herkunftsbeleg freigeben
+### <a name="1-release-the-source-document" />1: Den Herkunftsbeleg freigeben
 
 Wenn Sie Artikel erhalten, geben Sie den Herkunftsbeleg frei, z. B. die Bestellung oder einen eingehenden Umlagerungsauftrag. Durch die Freigabe des Belegs werden die Artikel zum Einlagern verfügbar. Die Einlagerung enthält Referenzen zur Herkunftsbelegart und -Nummer.
 
-### <a name="-create-a-warehouse-receipt" />2: Einen Wareneingang erstellen
+### <a name="2-create-a-warehouse-receipt" />2: Einen Wareneingang erstellen
 
 Auf der Seite **Wareneingang** rufen Sie die eingehenden Herkunftsbelegzeilen ab. Sie können mehrere Herkunftsbelegzeilen zu einem Wareneingangsbeleg zusammenfassen. Füllen Sie das Feld **Verarbeitungsmenge** aus und wählen Sie die empfangende Zone und den Lagerplatz nach Bedarf aus.  
 
-### <a name="-post-the-warehouse-receipt" />3: Buchen Sie den Wareneingang
+### <a name="3-post-the-warehouse-receipt" />3: Buchen Sie den Wareneingang
 
 Buchen Sie den Wareneingang, um positive Artikel Buch.-Blattzeilen zu erstellen. Das Feld **Menge empfangen** wird auf der Zeile des eingehenden Herkunftsbelegs aktualisiert.  
 
 Wenn der Schalter **Einlagerung erforderlich** auf der Lagerortkarte nicht aktiviert ist, wird der Prozess hier beendet. Andernfalls werden die Artikel durch die Buchung des eingehenden Herkunftsbelegs zum Einlagern verfügbar gemacht. Die Einlagerung enthält Referenzen zur Herkunftsbelegart und -Nummer.  
 
-### <a name="-optional-generate-put-away-worksheet-lines" />4: (Optional) Einlagerungsarbeitsblattzeilen generieren
+### <a name="4-optional-generate-put-away-worksheet-lines" />4: (Optional) Einlagerungsarbeitsblattzeilen generieren
 
 Rufen Sie Einlagerungszeilen im **Einlagerungsarbeitsblatt** basierend auf gebuchten Wareneingängen oder Vorgängen ab, die eine Ausgabe erzeugen. Wählen Sie die einzulagernden Zeilen aus und geben Sie die folgenden Informationen an:
 
@@ -123,11 +123,11 @@ Wenn alle Einlagerungen geplant und den Lagermitarbeitern zugeteilt sind, erstel
 > [!NOTE]  
 > Wenn der Schalter **Einlagerungsarbeitsblatt** auf der Artikelkarte nicht aktiviert ist, werden Einlagerungsbelege direkt basierend auf den gebuchten Wareneingängen erstellt. In diesem Fall ist dieser Schritt nicht erforderlich.  
 
-### <a name="-create-a-warehouse-put-away-document" />5: Einen Einlagerungsbeleg erstellen
+### <a name="5-create-a-warehouse-put-away-document" />5: Einen Einlagerungsbeleg erstellen
 
 Erstellen Sie auf der Grundlage des gebuchten Wareneingangs einen Lagereinlagerungsbeleg im Pull-Verfahren. Oder erstellen Sie das Wareneinlagerungsbeleg und weisen Sie es einem Lagermitarbeiter im Push-Verfahren zu.  
 
-### <a name="-register-a-warehouse-put-away" />6: Eine Wareneinlagerung registrieren
+### <a name="6-register-a-warehouse-put-away" />6: Eine Wareneinlagerung registrieren
 
 In jeder Zeile für Artikel, die kommissioniert oder umgelagert wurden, sei es teilweise oder vollständig, füllen Sie das Feld **Menge** auf der Seite **Kommissionierungsarbeitsblatt** aus und erfassen dann die Lagerbestandsumlagerung.  
 

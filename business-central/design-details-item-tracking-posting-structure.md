@@ -25,13 +25,13 @@ Die Tabelle **Artikelpostenverbindung**, die verwendet wird, um eine gebuchte Be
   
 Die Funktionen des vorhandenen **Lfd. Nr.**- Feldes, das einen Artikelposten mit einer gebuchten Belegzeile verknüpft, bearbeitet die typische Eins-zu-eins-Verknüpfung, wenn keine Artikelverfolgungsnummern auf der gebuchten Belegzeile vorhanden sind. Wenn Artikelverfolgungsnummern vorhanden sind, bleibt das Feld **Lfd. Nr.** leer, und die Eins-zu-viele-Relation wird durch die Tabelle **Artikelpostenverbindung** verarbeitet. Wenn die gebuchte Belegzeile Artikelverfolgungsnummern enthält, sich jedoch nur auf einem einzelnen Artikelposten bezieht, verarbeitet das Feld **Lfd. Nr.** die Verknüpfung, und es wird kein Datensatz in der Tabelle **Artikelpostenverbindung** erstellt.  
   
-## <a name="codeunits--and-" />Codeunit 80 und 90
+## <a name="codeunits-80-and-90" />Codeunit 80 und 90
 Um die Artikelposten für die Buchung zu teilen, ist der Code in Codeunit 80 und in Codeunit 90 durch Schleifen eingekreist, die durch globale temporäre Datensatzvariablen laufen. Dieser Code ruft Codeeinnheit 22 mit einer Artikel Buch.-Blattzeile auf. Diese Variablen werden initialisiert, wenn Artikelverfolgungsnummern für die Belegzeile vorhanden sind. Um den Code einfach zu halten, wird diese Schleifenstruktur immer verwendet. Wenn keine Artikelverfolgungsnummern für die Belegzeile vorhanden, wird ein einzelner Datensatz eingefügt, und die Schleife wird einmal ausgeführt.  
   
 ## <a name="posting-the-item-journal" />Buchen des Artikel Buch.-Blatts.
 Artikelverfolgungsnummern werden über die Reservierungsposten übertragen, die mit dem Artikelposten verknüpft sind, und der Kreis durch die Artikelverfolgungsnummern erfolgt in Codeunit 22. Das Konzept arbeitet gleich wie wenn eine Artikel Buch.-Blattzeile indirekt verwendet wird, um einen Einkauf oder eine Einkaufsbestellung beispielsweise zu buchen, wenn die Artikel Buch.-Blattzeile direkt verwendet wird. Wenn das Artikel Buch.-Blatt direkt verwendet wird, auf das Feld **Quellzeile ID** der Artikel Buch.-Blattzeile selbst.  
   
-## <a name="code-unit-" />Code Unit 22
+## <a name="code-unit-22" />Code Unit 22
 Codeunit 80 und 90 durchlaufen den Aufruf von Codeunit 22 während der Rechnungsbuchung von Artikelverfolgungsnummern und während der Fakturierung der vorhandenen Lieferungen oder Wareneingänge.  
   
 Während der Mengenbuchung von Artikelverfolgungsnummern ruft Codeunit 22 Artikelverfolgungsnummern aus den Posten in T337 ab, die sich auf die Buchung beziehen. Diese Posten werden direkt in die Artikel Buch.-Blattzeile gesetzt.  

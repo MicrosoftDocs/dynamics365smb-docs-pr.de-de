@@ -96,7 +96,7 @@ Basierend auf diesem Beispiel können Sie das Feld **Menge für Montage** wie fo
 * Die Mindestmenge, die Sie eingeben können, ist 1. Sie müssen mindestens eine Einheit montieren, damit Sie die vier Einheiten verkaufen können, wenn davon ausgegangen wird, dass die verbleibenden drei im Lager verfügbar sind.  
 * Die Höchstmenge, die Sie eingeben können, ist 4. Dieses Limit stellt sicher, dass Sie nicht mehr von dem Artikel montieren, als Sie für den Verkauf benötigen.  
 
-## <a name="see-related-microsoft-trainingtrainingpathsassemble-items-dynamics--business-central" />Siehe zugehörige [Microsoft Schulungen](/training/paths/assemble-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathsassemble-items-dynamics-365-business-central" />Siehe zugehörige [Microsoft Schulungen](/training/paths/assemble-items-dynamics-365-business-central/)
 
 ## <a name="see-also" />Siehe auch
 

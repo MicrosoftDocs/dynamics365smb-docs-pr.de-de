@@ -122,7 +122,7 @@ Wenn Sie mit dem **Intrastat Bericht** arbeiten, sehen Sie ein **Status** Feld i
 * *Freigegeben*: [!INCLUDE[prod_short](includes/prod_short.md)] ändert den Status automatisch auf *Freigegeben*, wenn Sie eine Datei erstellen. Von diesem Moment an können Sie Ihren **Intrastat Bericht** nicht mehr ändern. Wenn Sie etwas ändern und erneut berichten müssen, können Sie die Aktion **Wieder öffnen** verwenden, um den Intrastat-Bericht erneut zu öffnen. Sobald das Dokument wieder geöffnet ist, können Sie die Aktion **Freigeben** verwenden, um das Dokument wieder freizugeben.
 * **Gemeldet**: Gibt an, ob der Eintrag bereits an die Steuerbehörden gemeldet wurde. Dies ist kein regulärer Status, sondern ein unabhängiges Feld. Selbst wenn Sie den Intrastat-Bericht erneut öffnen würden, würde er anzeigen, dass die Datei für diesen Bericht bereits erstellt wurde.
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesprocess-intrastat-dynamics--business-centralindex" /><a name="see-related-training-at-microsoft-learn"></a>Siehe die entsprechende Schulung unter [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
+## <a name="see-related-training-at-microsoft-learnlearnmodulesprocess-intrastat-dynamics-365-business-centralindex" /><a name="see-related-training-at-microsoft-learn"></a>Siehe die entsprechende Schulung unter [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
 
 ## <a name="see-also" /><a name="see-also"></a>Siehe auch
 

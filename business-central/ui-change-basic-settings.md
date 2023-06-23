@@ -107,7 +107,7 @@ Wählen Sie den Link *Ändern, wann ich Benachrichtigungen erhalte*, um Benachri
 
 [!INCLUDE [ua-teachingtips](includes/ua-teachingtips.md)]
 
-## <a name="see-related-microsoft-trainingtrainingmodulespersonalize-ui-dynamics--business-centralindex" />Siehe verwandte [Microsoft Schulungen](/training/modules/personalize-ui-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulespersonalize-ui-dynamics-365-business-centralindex" />Siehe verwandte [Microsoft Schulungen](/training/modules/personalize-ui-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Siehe auch
 

@@ -33,7 +33,7 @@ Wenn Sie eine neue Buch.-Blattzeile, einen Belegkopf oder eine Belegzeile erstel
 
 Wenn Sie die Seite **Dimensionssatzeinträge bearbeiten**bearbeiten und schließen, wird eine Prüfung ausgeführt, um festzustellen, ob die Kombination aus Dimensionswerten als Dimensionssatz in der Tabelle existiert. Wenn die Kombination in der Tabelle auftritt, wird die entsprechende Dimensionssatz-ID der Buch.-Blattzeile, dem Belegkopf oder der Belegzeile zugeordnet. Andernfalls wird ein neuer Dimensionssatz der Tabelle hinzugefügt, und die neue Dimensionssatz-ID wird der Buch.-Blattzeile, dem Belegkopf oder der Belegzeile zugeordnet.
 
-## <a name="codeunit--dimension-management" />Codeunit 408 Dimension Management
+## <a name="codeunit-408-dimension-management" />Codeunit 408 Dimension Management
 Codeunit 408 Dimension Management ist eine Funktionsbibliothek, die häufige Aufgaben im Zusammenhang mit Dimensionen behandelt, wie etwa das Kopieren von einer Tabelle zu einer anderen oder von einem Beleg zu einem anderen.
 
 ## <a name="performance-improvement" />Leistungsverbesserung

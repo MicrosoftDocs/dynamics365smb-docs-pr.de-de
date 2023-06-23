@@ -54,7 +54,7 @@ Der Firmenname wird immer in der oberen linken Ecke angezeigt und fungiert als A
 
 Die Standardbenutzeroberfläche in einem [!INCLUDE [prod_short](includes/prod_short.md)]-Test zeigt nicht alle Funktionalitäten an. Sie können den vollen Funktionsumfang auf der Seite **Unternehmensdaten** einschalten. Weitere Informationen finden Sie unter [Ändern, welche Funktionen angezeigt werden](ui-experiences.md).  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-new-companies-dynamics--business-central" />Siehe verwandte [Microsoft Schulungen](/training/modules/create-new-companies-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulescreate-new-companies-dynamics-365-business-central" />Siehe verwandte [Microsoft Schulungen](/training/modules/create-new-companies-dynamics-365-business-central/)
 
 ## <a name="see-also" />Siehe auch
 

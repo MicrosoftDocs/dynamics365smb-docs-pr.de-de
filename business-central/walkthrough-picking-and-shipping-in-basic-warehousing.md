@@ -77,7 +77,7 @@ Um diese Funktion nutzen zu können, müssen Sie sich selbst dem Lagerort als La
   3. Wählen Sie im Feld **Lagerortcode** „SÜD“ aus.  
   4. Wählen Sie das Feld **Standard** und dann die Schaltfläche **Ja** aus.  
 
-### <a name="making-item--s-available" />Artikel 1928-S verfügbar machen
+### <a name="making-item-1928-s-available" />Artikel 1928-S verfügbar machen
 
 Führen Sie die folgenden Schritte aus, um den Artikel LS-1928 SÜD-Standort verfügbar zu machen:  
 

@@ -61,7 +61,7 @@ Sie sollten mehrere Dinge tun: wenn die Transaktionen in QuickBooks einen Aufsch
 Wenn Sie MwSt verwenden, können Sie eine Geschäftsbuchungsgruppe und eine Produktbuchungsgruppe "Buchungsmatrix Einrichtung" hinzufügen, sodass Sie MwSt.-Beträge buchen können.
 Prüfen Sie die Startkapitale für Konten in der Finanzbuchhaltung. QuickBooks speichert nicht den aktuellen Saldo für alle Konten, daher müssen Sie möglicherweise Startkapitale korrigieren.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesmigrate-data-dynamics--business-central" />Siehe verwandte [Microsoft Schulungen](/training/modules/migrate-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesmigrate-data-dynamics-365-business-central" />Siehe verwandte [Microsoft Schulungen](/training/modules/migrate-data-dynamics-365-business-central/)
 
 ## <a name="see-also" />Siehe auch
 

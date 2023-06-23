@@ -49,7 +49,7 @@ Beachten Sie bei der Registrierung der Anwendung die folgenden Punkte:
 
 [!INCLUDE[onedrive-url](includes/onedrive-url.md)]
 
-## <a name="set-up-the-onedrive-connection-in-version--and-later" />Legen Sie die OneDrive-Verbindung in Version 21 und höher fest
+## <a name="set-up-the-onedrive-connection-in-version-21-and-later" />Legen Sie die OneDrive-Verbindung in Version 21 und höher fest
 
 Verwenden Sie dieses Verfahren, wenn Sie Business Central 2022 Veröffentlichungswelle 2 (Version 21) oder höher verwenden.
 
@@ -74,7 +74,7 @@ Verwenden Sie dieses Verfahren, wenn Sie Business Central 2022 Veröffentlichung
    - Wenn Sie die Azure AD registrierte App noch nicht festgelegt haben, öffnet sich die Anleitung **Einrichten Azure Active Directory**.
 6. Nach Fertigstellung wird der Datenschutzhinweis für die OneDrive-Integration für alle Benutzer vereinbart. Wenn Sie es so ändern möchten, dass die Benutzer selbst zustimmen oder ablehnen müssen, gehen Sie auf die Seite **Status der Datenschutzhinweise** und wählen Sie **Benutzer entscheiden lassen** für die OneDrive-Integration. Die Benutzer werden dann aufgefordert, den Datenschutzhinweisen zuzustimmen oder sie abzulehnen, wenn sie die OneDrive-Funktionen zum ersten Mal verwenden. Weitere Informationen finden Sie unter [Datenschutzerklärungen](privacy-notices-status.md).
 
-## <a name="set-up-the-connection-in-includeprodshortincludesprodshortmd-version--and-" />Einrichten der Verbindung in [!INCLUDE[prod_short](includes/prod_short.md)] Version 19 und 20
+## <a name="set-up-the-connection-in-includeprodshortincludesprodshortmd-version-19-and-20" />Einrichten der Verbindung in [!INCLUDE[prod_short](includes/prod_short.md)] Version 19 und 20
 
 Verwenden Sie dieses Verfahren, wenn Sie Business Central 2022 Veröffentlichungswelle 1 (Version 20) oder 2021 Veröffentlichungswelle 2 (Version 19) verwenden.
 > [!IMPORTANT]
@@ -96,7 +96,7 @@ Verwenden Sie dieses Verfahren, wenn Sie Business Central 2022 Veröffentlichung
 > [!IMPORTANT]
 > Die Seite **SharePoint Einrichtung der Verbindung** wird verwendet, um mehrere veraltete Funktionen zu konfigurieren. Der Abschnitt **Allgemein** konfiguriert die Verbindung zu OneDrive, und der Abschnitt **Gemeinsame Dokumente** leitet die Dateien stattdessen zu SharePoint um. Die **SharePoint Einrichtung von Verbindungen** wurde außer Betrieb genommen und wird in der nächsten Version entfernt. Wir empfehlen Ihnen, den Bereich **Gemeinsame Belege** nicht zu konfigurieren. Weitere Informationen finden Sie unter [Veraltete Funktionen in der Base App](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1#microsoft-sharepoint-connection-setup).
 
-## <a name="after-upgrade-to-version-" />Nach dem Upgrade auf Version 21
+## <a name="after-upgrade-to-version-21" />Nach dem Upgrade auf Version 21
 
 Wenn Sie ein Upgrade auf Version 21 oder höher durchführen, funktioniert die bestehende Verbindung zu OneDrive, die auf der Seite **SharePoint Verbindungseinrichtung** konfiguriert wurde, weiterhin. Da aber die Seite **SharePoint Einrichtung** in Version 23 entfernt wird, empfehlen wir Ihnen, auf die neue OneDrive Integration umzusteigen, wie im nächsten Abschnitt beschrieben. Wenn Sie diese Umstellung jetzt vornehmen, wird es einfacher, wenn die **SharePoint Einrichtung** irgendwann entfernt wird. Außerdem können Sie dann die Anleitung zur unterstützten Einrichtung der **OneDrive Einrichtung** verwenden, um die OneDrive Funktionen zu verwalten, auf die die Benutzer Zugriff haben.
 

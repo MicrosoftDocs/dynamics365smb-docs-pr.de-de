@@ -134,7 +134,7 @@ Sie können Ihren eigenen vorhersagenden Webdienst auf einem öffentliches Model
 7. Erweitern Sie das Inforegister **Azure AI**, und füllen Sie dann die Felder aus, einschließlich der API-URL und des API-Schlüssels, die von Azure Machine Learning Studio bereitgestellt werden. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 8. Im Buchhalterrollencenter unter **Cashflow-Planung** wählen Sie die Aktion **Planung neu berechnen** aus.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesforecast-cash-flow-dynamics--business-centralindex" />Siehe verwandte [Microsoft Schulungen](/training/modules/forecast-cash-flow-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulesforecast-cash-flow-dynamics-365-business-centralindex" />Siehe verwandte [Microsoft Schulungen](/training/modules/forecast-cash-flow-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Siehe auch
 

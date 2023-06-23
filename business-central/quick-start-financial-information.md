@@ -79,7 +79,7 @@ Bankkonten in [!INCLUDE[prod_short](includes/prod_short.md)] registrieren Bankge
    Das Feld unterscheidet sich vom Feld **Bankkonto Nr.**, das auch im **Allgemein** Inforegister verfügbar ist.
 4. Füllen Sie auf der Seite **Bankkontokarte** die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="see-related-training-at-microsoft-learnlearnpathsset-up-financial-management-dynamics--business-central" />Siehe verwandte Schulungen unter [Microsoft Learn](/learn/paths/set-up-financial-management-dynamics-365-business-central/).
+## <a name="see-related-training-at-microsoft-learnlearnpathsset-up-financial-management-dynamics-365-business-central" />Siehe verwandte Schulungen unter [Microsoft Learn](/learn/paths/set-up-financial-management-dynamics-365-business-central/).
 
 ## <a name="see-also" />Siehe auch
 

@@ -45,7 +45,7 @@ In der neuesten Version von machen wir es Ihnen ganz einfach, Ihren externen Buc
 >
 > Diese Aufgabe erfordert den Zugriff auf die Verwaltung von Benutzern und Lizenzen in Azure Active Directory. Dem Benutzer, der diese Einladung sendet, muss die Rolle **Globaler Administrator** oder **Benutzeradministrator** im Microsoft 365 Admin Center zugewiesen werden. Weitere Informationen finden Sie unter [Informationen zu Administratorrollen](/microsoft-365/admin/add-users/about-admin-roles) im Microsoft 365-Administratorinhalt.  
 
-### <a name="adding-your-accountant-to-your-microsoft--in-the-azure-portal" />Hinzufügen Ihres Buchhalters zu Ihrem Microsoft 365 im Azure-Portal
+### <a name="adding-your-accountant-to-your-microsoft-365-in-the-azure-portal" />Hinzufügen Ihres Buchhalters zu Ihrem Microsoft 365 im Azure-Portal
 
 Wenn Ihr Administrator oder Wiederverkäufer die Anleitung **Externen Buchhalter einladen** nicht verwenden möchten, können sie im Azure-Portal einen externen Benutzer hinzufügen und diesem Benutzer die Lizenz *Externer Buchhalter* zuweisen. Weitere Informationen finden Sie unter [Schnellstart: Ihrem Verzeichnis im Azure-Portal Gastbenutzer hinzufügen](/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal).
 

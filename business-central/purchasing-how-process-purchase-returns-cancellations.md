@@ -181,7 +181,7 @@ Wenn Rücklieferungen in einer Gutschrift zusammengefasst und gebucht werden, wi
 2. Füllen Sie die anderen relevanten Felder wie erforderlich aus, und wählen Sie dann die Schaltfläche **OK** aus.  
 3. Sie können die einzelnen Einkaufsreklamtionen auch manuell löschen.
 
-## <a name="see-related-microsoft-trainingtrainingpathsreturn-items-dynamics--business-central" />Siehe verwandte [Microsoft Schulungen](/training/paths/return-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathsreturn-items-dynamics-365-business-central" />Siehe verwandte [Microsoft Schulungen](/training/paths/return-items-dynamics-365-business-central/)
 
 ## <a name="see-also" />Siehe auch
 [Einkauf](purchasing-manage-purchasing.md)  

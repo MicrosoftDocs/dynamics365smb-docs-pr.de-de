@@ -11,13 +11,13 @@ ms.custom: bap-template
 ms.search.keywords: 'License, access, Microsoft 365, collaborate, collaboration, Teams, Microsoft Teams'
 ---
 
-# <a name="business-central-access-with-microsoft--licenses" />Business Central-Zugriff mit Microsoft 365-Lizenzen
+# <a name="business-central-access-with-microsoft-365-licenses" />Business Central-Zugriff mit Microsoft 365-Lizenzen
 
 [!INCLUDE[prod_short](includes/prod_short.md)]-Benutzern wird eine Dynamics 365 Business Central-Lizenz zugewiesen, die es ihnen ermöglicht, ihre Geschäftsdaten von jeder Benutzeroberfläche aus anzuzeigen, zu ändern und zu bearbeiten. Für alle anderen Mitarbeiter in der gesamten Organisation, die nur gelegentlich Daten anzeigen müssen, bietet Business Central einen Zugriff durch Microsoft 365.  
 
 Wenn eine Organisation sowohl ein Dynamics 365 Business Central- und Microsoft 365-Abonnement hat, können Administratoren Umgebungen konfigurieren, um den Zugriff mit Microsoft 365-Lizenzen zu ermöglichen und genau zu wählen, auf welche Tabellen und andere Objekte diese Benutzerkategorie Zugriff haben soll. Wenn konfiguriert, können Mitarbeiter, die über eine Microsoft 365 Lizenz, aber keine [!INCLUDE [prod_short](includes/prod_short.md)]-Lizenz verfügen, [!INCLUDE [prod_short](includes/prod_short.md)]-Datensätze anzeigen, die für sie in Microsoft Teams-Chat und -Kanälen freigegeben wurden.
 
-## <a name="why-enable-access-with-microsoft--licenses" />Warum Zugriff mit Microsoft 365-Lizenzen ermöglichen
+## <a name="why-enable-access-with-microsoft-365-licenses" />Warum Zugriff mit Microsoft 365-Lizenzen ermöglichen
 
 - Schalten Sie Stammdaten frei, auf die jeder Mitarbeiter in der gesamten Organisation Zugriff haben sollte.
 

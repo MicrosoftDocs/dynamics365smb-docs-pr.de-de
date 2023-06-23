@@ -52,7 +52,7 @@ Die folgenden Schritte zeigen, wie Sie eine Kreditorenrechnungen empfangen und i
 
     Überprüfungsfehler, die üblicherweise mit falschen oder fehlenden Stammdaten in [!INCLUDE[prod_short](includes/prod_short.md)] zusammenhängen, werden im Inforegister **Fehlermeldungen** angezeigt.  
 
-## <a name="see-related-microsoft-trainingtrainingmoduleselectronic-documents-dynamics--business-centralindex" />Siehe verwandte [Microsoft Schulungen](/training/modules/electronic-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmoduleselectronic-documents-dynamics-365-business-centralindex" />Siehe verwandte [Microsoft Schulungen](/training/modules/electronic-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Siehe auch
 

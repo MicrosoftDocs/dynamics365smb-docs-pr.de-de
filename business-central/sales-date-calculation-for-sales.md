@@ -36,7 +36,7 @@ Wenn Sie kein angefordertes Lieferdatum auf der Verkaufsauftragszeile angeben od
 - *Warenausgangsdatum + Ausgeh. Lagerdurchlaufzeit = Geplantes Warenausgangsdatum*
 - *geplantes Warenausgangsdatum + Transportzeit = Geplantes Lieferdatum*
 
-## <a name="see-related-microsoft-trainingtrainingmodulespromising-sales-order-delivery-dynamics--business-central" />Siehe verwandte [Microsoft Schulungen](/training/modules/promising-sales-order-delivery-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulespromising-sales-order-delivery-dynamics-365-business-central" />Siehe verwandte [Microsoft Schulungen](/training/modules/promising-sales-order-delivery-dynamics-365-business-central/)
 
 ## <a name="see-also" />Siehe auch
 

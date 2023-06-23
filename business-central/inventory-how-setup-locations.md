@@ -104,7 +104,7 @@ Füllen Sie die Felder in der umgekehrten Reihenfolge wie folgt aus:
 
 Die ADM-Dimension wird vom Standort EAST kopiert.
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulestrade-set-up-dynamics--business-central" />Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/trade-set-up-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learnlearnmodulestrade-set-up-dynamics-365-business-central" />Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/trade-set-up-dynamics-365-business-central/)
 
 ## <a name="see-also" />Siehe auch
 

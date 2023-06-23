@@ -60,7 +60,7 @@ Bei diesem Verfahren verarbeiten Sie den verkauf eines Artikels, der gemäß den
 > [!NOTE]  
 > Bei der Ersetzung von Elementen wird ein Element nicht automatisch durch ein anderes ersetzt, z.B. wenn Sie einen Verkaufsauftrag oder eine Stückliste erstellen. Stattdessen werden Sie gewarnt, dass eine Ersetzung verfügbar ist.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesassemble-to-order-dynamics--business-central" />Siehe zugehörige [Microsoft Schulungen](/training/modules/assemble-to-order-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesassemble-to-order-dynamics-365-business-central" />Siehe zugehörige [Microsoft Schulungen](/training/modules/assemble-to-order-dynamics-365-business-central/)
 
 ## <a name="see-also" />Siehe auch
 

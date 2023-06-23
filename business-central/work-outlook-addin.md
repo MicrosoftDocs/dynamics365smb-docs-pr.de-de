@@ -122,7 +122,7 @@ Wenn Sie die Outlook App verwenden, wählen Sie einfach **Dokumentenlink** am An
 > Ab dem 1. Veröffentlichungszyklus 2022 werden Dokumente in einem neuen Browserfenster mit allen Funktionen geöffnet, die Sie von [!INCLUDE [prod_short](includes/prod_short.md)] kennen. Sie können von einem Dokument zu einer Liste und wieder zurück navigieren, Listen in Excel öffnen, Dokumente zum Drucken senden und verwandte Berichte ausführen oder in der Vorschau anzeigen. Es stehen auch alle vertrauten Tastenkombinationen direkt dort zur Verfügung, wenn Sie Dokumente aus Outlook öffnen.  
 
 
-## <a name="see-related-microsoft-trainingtrainingmodulesalternative-interfaces-dynamics--business-centralindex" />Siehe verwandte [Microsoft Schulungen](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulesalternative-interfaces-dynamics-365-business-centralindex" />Siehe verwandte [Microsoft Schulungen](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Siehe auch
 

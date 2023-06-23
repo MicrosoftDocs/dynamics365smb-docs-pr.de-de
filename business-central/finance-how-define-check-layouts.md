@@ -45,7 +45,7 @@ In Update 15.3 und höher sind MICR-Schriftarten (Magnetic Ink Character Recogni
 > [!NOTE]
 > Aus Sicherheits- und rechtlichen Gründen können Sie keine benutzerdefinierten Schriftarten in die [!INCLUDE[prod_short](includes/prod_short.md)]-Umgebung hochladen.
 
-### <a name="micr-e-b-specifications" />MICR E-13B-Spezifikationen
+### <a name="micr-e-13b-specifications" />MICR E-13B-Spezifikationen
 
 Im Folgenden werden die Spezifikationen für die MICR E-13B-Schriftarten zusammengefasst, die beim Kalibrieren von Schriftarten für Schecklayouts mit bestimmten MICR-Druckern hilfreich sein können.
 
@@ -57,7 +57,7 @@ Im Folgenden werden die Spezifikationen für die MICR E-13B-Schriftarten zusamme
 
 Die vollständige Spezifikation der MICR E-13B-Schriftarten finden Sie in der Dokumentation des Lieferanten auf dieser Website: (https://www.idautomation.com/micr-fonts/e13b/).
 
-### <a name="micr-cmc--specifications" />MICR CMC-7-Spezifikationen
+### <a name="micr-cmc-7-specifications" />MICR CMC-7-Spezifikationen
 
 Die folgenden CMC-7-Schriftarten sind in [!INCLUDE[prod_short](includes/prod_short.md)] online verfügbar:
 

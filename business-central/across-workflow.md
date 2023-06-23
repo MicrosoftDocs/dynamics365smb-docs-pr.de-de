@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.date: 10/10/2022
 ms.custom: bap-template
 ---
-# <a name="workflows-in-dynamics--business-central" />Workflows in Dynamics 365 Business Central
+# <a name="workflows-in-dynamics-365-business-central" />Workflows in Dynamics 365 Business Central
 
 Sie können Workflows festlegen und verwenden, die von verschiedenen Benutzern ausgeführte Geschäftsprozessaufgaben miteinander verbinden. Systemaufgaben, wie z.B. automatische Buchungen, können als Schritte in Workflows eingebunden werden. Den Systemaufgaben können Benutzeraufgaben vorausgehen oder folgen. Die Anforderung oder Bewilligung von Genehmigungen zum Erstellen neuer Datensätze sind typische Workflowschritte.
 

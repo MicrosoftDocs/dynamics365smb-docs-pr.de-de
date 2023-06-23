@@ -47,7 +47,7 @@ Alternativ können Sie Zahlungspositionen mithilfe des Fälligkeitsdatums manuel
 > [!NOTE]  
 >   Wenn die Einkaufsrechnung überfällig ist, wird das Buchungsdatum auf das Arbeitsdatum festgelegt, und die Schrift auf der Zeile wird in roter Farbe angezeigt.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulessuggest-vendor-payments-dynamics--business-central" />Siehe verwandte [Microsoft Schulungen](/training/modules/suggest-vendor-payments-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulessuggest-vendor-payments-dynamics-365-business-central" />Siehe verwandte [Microsoft Schulungen](/training/modules/suggest-vendor-payments-dynamics-365-business-central/)
 
 ## <a name="see-also" />Siehe auch
 

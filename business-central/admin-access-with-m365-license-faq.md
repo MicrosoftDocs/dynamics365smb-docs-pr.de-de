@@ -9,7 +9,7 @@ ms.topic: faq
 ms.date: 11/22/2022
 ms.custom: bap-template
 ---
-# <a name="access-with-microsoft--licenses-faq" />Zugriff mit Microsoft 365-Lizenzen FAQ
+# <a name="access-with-microsoft-365-licenses-faq" />Zugriff mit Microsoft 365-Lizenzen FAQ
 
 [!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
 
@@ -57,7 +57,7 @@ Auch wenn Business Central diesen Schutz bietet, empfehlen wir Ihnen dennoch, Be
 
 Die Aktivierung der Barrierefreiheit mit Microsoft 365-Lizenzen ist nur für Business Central Umgebungen der Plattformversion 21.1 oder höher verfügbar. Wenn Ihre Umgebung auf diese Mindestversion aktualisiert wird, wird die Einstellung automatisch verfügbar. Um die Version Ihrer Umgebung zu überprüfen, gehen Sie im Admin-Center von Business Central auf die Seite mit den Umgebungsdetails für die Umgebung. Oder melden Sie sich bei der Umgebung an und rufen Sie die Seite **Hilfe & Support** im Menü **Hilfe** auf.
 
-### <a name="can-i-access-business-central-on-premises-with-microsoft--licenses" />Kann ich mit Microsoft 365-Lizenzen auf Business Central vor Ort zugreifen?
+### <a name="can-i-access-business-central-on-premises-with-microsoft-365-licenses" />Kann ich mit Microsoft 365-Lizenzen auf Business Central vor Ort zugreifen?
 
 Nein, das wird nicht unterstützt. Business Central zeigt eine Fehlermeldung an, wenn Benutzer versuchen, in Teams auf die Datensätze von Business Central on premises zuzugreifen.
 
@@ -69,7 +69,7 @@ Das Profil **Mitarbeiter**, das auf der Listenseite **Profile (Rollen)** angezei
 
 Die Gruppe **Microsoft Teams Interne Benutzer**, die auf der Seite **Benutzergruppen** angezeigt wird, wurde mit Update 21.1 eingeführt. Diese Gruppe ist die Standardbenutzergruppe für Benutzer, die mit ihrer Microsoft 365-Lizenz auf Business Central zugreifen. Die Benutzergruppe ist für Personen gedacht, die innerhalb der gleichen Organisation, in der Business Central gehostet wird, mit Microsoft Teams zusammenarbeiten.  
 
-### <a name="do-users-that-only-have-a-microsoft--license-show-up-in-the-users-list-in-business-central" />Werden Benutzer, die nur eine Microsoft 365-Lizenz haben, in der Liste Benutzer in Business Central angezeigt?
+### <a name="do-users-that-only-have-a-microsoft-365-license-show-up-in-the-users-list-in-business-central" />Werden Benutzer, die nur eine Microsoft 365-Lizenz haben, in der Liste Benutzer in Business Central angezeigt?
 
 Ja. Wenn Sie Sicherheitsgruppen auf Umgebungen anwenden, werden diese Benutzer in der Liste Benutzer angezeigt, nachdem Sie die Aktion Benutzer von Microsoft 365 aktualisieren aus der Liste **Benutzer** verwendet haben. Wenn Sie keine Sicherheitsgruppen anwenden, erscheinen die Datensätze der Benutzer in der Liste Benutzer, nachdem sie das erste Mal auf einen Business Central-Datensatz zugegriffen haben.
 
@@ -91,31 +91,31 @@ Um die Produktivität zu maximieren und ihre Vorgänge zu rationalisieren, kaufe
 - Benutzer, die einen eingeschränkten Schreibzugriff benötigen, erhalten in der Regel eine Business Central Team Member-Lizenz.
 - Alle anderen Mitarbeiter im Unternehmen, die nur gelegentlich Geschäftsdaten lesen müssen, die mit ihnen geteilt werden, können dies tun, wenn sie eine Microsoft 365-Lizenz haben. Ihnen muss keine Team Member-Lizenz zugewiesen werden. Andere Lizenzierungsoptionen sind verfügbar. Weitere Informationen finden Sie in der Anleitung [Dynamics 365 Lizenzierung](https://go.microsoft.com/fwlink/?LinkId=866544).
 
-### <a name="is-this--free-of-charge" />Ist dies zu 100% kostenlos?
+### <a name="is-this-100-free-of-charge" />Ist dies zu 100% kostenlos?
  
 Anz. Der Zugriff auf die Daten von Business Central in Microsoft Teams setzt voraus, dass jeder Benutzer entweder eine Business Central-Lizenz oder eine Microsoft 365-Lizenz aus der Liste der unterstützten Pläne besitzt.
 
-### <a name="does-this-work-with-microsoft--trials-and-business-central-trials" />Funktioniert dies mit Microsoft 365-Tests und Business Central-Tests?
+### <a name="does-this-work-with-microsoft-365-trials-and-business-central-trials" />Funktioniert dies mit Microsoft 365-Tests und Business Central-Tests?
 
 Ja. Wenn einem Benutzer eine Microsoft 365-Lizenz aus einem Test eines unterstützten Plans zugewiesen wird, kann er auch in Teams auf Business Central Datensätze zugreifen. Kunden können dann ausprobieren, wie Microsoft-Produktivitäts- und Business-Apps zusammenarbeiten, und Verkäufer und Berater von Partnern können diese Funktion einfach demonstrieren. Zum Beispiel können Partner ihre eigenen Azure AD-Mandanten aus [https://aka.ms/CDX](https://aka.ms/CDX) bereitstellen, die Microsoft 365-Tests und Business Central-Tests zur Demonstration von Business Central enthalten.
 
-### <a name="the-list-of-licenses-in-business-central-shows-a-microsoft--license-whats-that" />In der Liste der Lizenzen in Business Central wird eine Microsoft 365-Lizenz angezeigt. Was ist das?
+### <a name="the-list-of-licenses-in-business-central-shows-a-microsoft-365-license-whats-that" />In der Liste der Lizenzen in Business Central wird eine Microsoft 365-Lizenz angezeigt. Was ist das?
 
 Die Seite **Lizenzkonfiguration** in Business Central zeigt die verschiedenen Arten von Lizenzen an, die den Zugriff auf den Business Central-Dienst ermöglichen. In Version 21 hat Microsoft diese Liste um Microsoft 365 erweitert, um den Zugriff auf Business Central zu ermöglichen. Diese Liste von Lizenzen bedeutet nicht, dass Ihr Unternehmen Abonnements für eine dieser Lizenzen gekauft hat oder dass Ihr Unternehmen den Zugriff über diese Lizenzen aktiviert hat.
 
-### <a name="do-i-need-to-acquire-a-new-type-of-microsoft--license-for-this-feature-to-work" />Muss ich eine neue Art von Microsoft 365-Lizenz erwerben, damit diese Funktion funktioniert?
+### <a name="do-i-need-to-acquire-a-new-type-of-microsoft-365-license-for-this-feature-to-work" />Muss ich eine neue Art von Microsoft 365-Lizenz erwerben, damit diese Funktion funktioniert?
 
 Microsoft hat keine neuen Lizenzen oder Pläne erstellt, um diese Funktion zu ermöglichen. Diese Funktion basiert vollständig auf den bestehenden Microsoft 365-Tarifen und -Lizenzen. Wenn Sie bereits einen der unterstützten Microsoft 365-Tarife abonniert haben, verfügen Sie bereits über dieses neue Nutzungsrecht. Andernfalls, wenn Sie heute kein Microsoft 365-Abonnement haben, können Sie sich hier für Microsoft 365 Business Premium oder ähnliche Pläne anmelden. 
 
-### <a name="how-do-i-find-out-which-users-have-only-a-microsoft--license" />Wie kann ich herausfinden, welche Benutzer nur eine Microsoft 365-Lizenz haben?
+### <a name="how-do-i-find-out-which-users-have-only-a-microsoft-365-license" />Wie kann ich herausfinden, welche Benutzer nur eine Microsoft 365-Lizenz haben?
 
 Es gibt mehrere Möglichkeiten. Gehen Sie im Admin-Center Microsoft 365 zur Liste **Aktive Benutzer** und sehen Sie in der Spalte **Lizenzen** nach. Gehen Sie in Business Central zur Liste **Benutzer**, wählen Sie einen der Benutzer aus und sehen Sie sich die FactBox **Lizenzen** an.  
 
-### <a name="how-do-i-filter-the-users-list-in-business-central-to-see-users-that-only-have-a-microsoft--license" />Wie kann ich die Liste Benutzer in Business Central filtern, um Benutzer zu sehen, die nur eine Microsoft 365 Lizenz haben?
+### <a name="how-do-i-filter-the-users-list-in-business-central-to-see-users-that-only-have-a-microsoft-365-license" />Wie kann ich die Liste Benutzer in Business Central filtern, um Benutzer zu sehen, die nur eine Microsoft 365 Lizenz haben?
 
 Diese Aufgabe ist derzeit nicht über einen Filter oder eine Listenansicht möglich. Sie können jedoch einen Benutzer in der Liste auswählen und die FactBox Lizenzen anzeigen, die nur Microsoft 365 enthält, wenn der Benutzer nur eine Microsoft 365-Lizenz besitzt.
 
-### <a name="what-about-users-that-have-both-a-microsoft--license-and-a-business-central-license" />Was ist mit Benutzern, die sowohl eine Microsoft 365-Lizenz als auch eine Business Central-Lizenz haben?
+### <a name="what-about-users-that-have-both-a-microsoft-365-license-and-a-business-central-license" />Was ist mit Benutzern, die sowohl eine Microsoft 365-Lizenz als auch eine Business Central-Lizenz haben?
 
 Wenn einem Benutzer mehrere Lizenzen zugewiesen sind, haben die höheren Lizenznutzungsrechte beim Zugriff auf Business Central Vorrang vor den niedrigeren Lizenznutzungsrechten. In diesem Fall berechtigt die Business Central-Lizenz den Benutzer zu mehr Benutzerrechten. So können Benutzer Datensätze von Business Central in Teams lesen und schreiben und auf den Business Central Web Client im Browser zugreifen, genau wie jeder andere Business Central-Lizenzinhaber. Wenn für die Microsoft 365-Lizenz bestimmte Berechtigungssätze festgelegt wurden, erhält der Benutzer die konfigurierten Berechtigungssätze in Kombination mit den Berechtigungssätzen aus der Business Central-Lizenz oder denjenigen, die dem Benutzer bereits zugewiesen wurden.
 
@@ -149,7 +149,7 @@ Aktionsfähige Links auf den Seiten von Business Central werden oft als fettgedr
 
 Kontextbezogene Benachrichtigungen, die auf Seiten angezeigt werden, werden oft von aktivierbaren Links begleitet. Wenn Benutzer mit ihrer Microsoft 365-Lizenz auf Seiten von Business Central zugreifen, werden diese Links angezeigt, können aber nicht aktiviert werden, da diese Lizenz keine Nutzungsrechte zum Ausführen von Aktionen bietet. Auf technischer Ebene sind diese Links als Aktionen implementiert.
 
-### <a name="can-microsoft--users-remove-tabs" />Können Microsoft 365-Benutzer Registerkarten entfernen?
+### <a name="can-microsoft-365-users-remove-tabs" />Können Microsoft 365-Benutzer Registerkarten entfernen?
 
 Ja. Jeder im Chat oder Kanal kann von anderen erstellte Registerkarten entfernen. Das Entfernen einer Registerkarte hat keine Auswirkungen auf die Daten in Business Central, aber die Registerkarte wird für alle Benutzer im Chat oder Channel entfernt.
 

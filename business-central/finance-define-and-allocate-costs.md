@@ -70,7 +70,7 @@ Die nachstehende Tabelle zeigt, welche Filter für verschiedene Zuteilungsgrundl
 |Verkaufte Artikel (Betrag)|Artikelnr.|Ja|Ja|Ja|Lagerbuchungsgruppe|  
 |Erworbene Artikel (Betrag)|Artikelnummer|Ja|Ja|Ja|Lagerbuchungsgruppe|
 
-## <a name="scenario--defining-static-allocations-based-on-allocation-ratio" />Szenario 1: Definieren von statischen Verteilungen basierend auf dem Verteilungsverhältnis
+## <a name="scenario-1-defining-static-allocations-based-on-allocation-ratio" />Szenario 1: Definieren von statischen Verteilungen basierend auf dem Verteilungsverhältnis
 
 Die statische Verteilungsmethode basiert auf einem definierten Wert, zum Beispiel die verwendeten Quadratmeter oder ein eingerichtetes Verteilungsverhältnis, wie 5:2:4.  
 
@@ -110,7 +110,7 @@ In diesem Thema wird beschrieben, wie drei neue Verteilungsziel-Kostenträger f�
 > [!IMPORTANT]  
 > [!INCLUDE[prod_short](includes/prod_short.md)] berechnet automatisch das Feld unter Verwendung eines **Prozentsatzes**, der von allen drei Zuteilungsverhältnissen abhängt, die im Feld **Aktie** für alle drei Zeilen eingegeben werden.
 
-## <a name="scenario--defining-dynamic-allocations-based-on-items-sold" />Szenario 2: Definieren von dynamischen Zuteilungen auf der Basis der verkauften Artikel
+## <a name="scenario-2-defining-dynamic-allocations-based-on-items-sold" />Szenario 2: Definieren von dynamischen Zuteilungen auf der Basis der verkauften Artikel
 
 Dieses Thema zeigt ein Beispiel für das Definieren von Zuordnungen mithilfe der Methode der dynamischen Verteilung. In dem Beispiel ändern Sie die dynamische Verteilung der Kosten für die VERKAUF-Kostenstelle, sodass der neue Kostenträger COMPUTERAUSSTATTUNG unterstützt wird. COMPUTERAUSSTATTUNG-Pakete haben Artikelnummern im Bereich von 8904-W bis 8924-W. Sie verwenden die Verkaufszahlen des Vorjahres, um den Anteil zu berechnen. Die Verteilung wird auf die helfende Kostenart 9903 gebucht.  
 
@@ -137,7 +137,7 @@ Dieses Thema zeigt ein Beispiel für das Definieren von Zuordnungen mithilfe der
 > [!IMPORTANT]  
 > [!INCLUDE[prod_short](includes/prod_short.md)] verwendet die Verkaufszahlen der Vorjahre, um einen Anteil von 1596,50 MW mit 100 Prozent für die COMPUTERAUSSTATTUNG-Pakete zu berechnen. Das bedeutet, dass alle Artikel, die letztes Jahr verkauft wurden, dem Kostenträger COMPUTERAUSSTATTUNG zugeordnet werden.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesallocate-costs-dynamics--business-central" />Siehe verwandte [Microsoft Schulungen](/training/modules/allocate-costs-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesallocate-costs-dynamics-365-business-central" />Siehe verwandte [Microsoft Schulungen](/training/modules/allocate-costs-dynamics-365-business-central/)
 
 ## <a name="see-also" />Siehe auch
 

@@ -90,14 +90,14 @@ Wenn Sie die Stapelverarbeitung **Kostenanpassung Artikeleinträge anpassen**, h
 
 Im folgenden Beispiel wird veranschaulicht, wie Sie einen Artikel als am 01-01-20 empfangen und fakturiert buchen. Sie buchen den verkauften Artikel später als geliefert und am 01-15-20 fakturiert. Anschließend müssen Sie die Batchaufträge **Einstandspreisregulierung  Artikelposten** und **Lagerregulierung zu GL** ausführen. Die folgenden Einträge werden folgendermaßen erzeugt:  
 
-#### <a name="value-entries-" />Wertposten (1)
+#### <a name="value-entries-1" />Wertposten (1)
 
 |Buchungsdatum|Artikelpostenart|Einstandsbetrag (tatsächl.)|Gebuchte Lagerregulierung an G/L|Fakturierte Menge|Lfd. Nr.|  
 |------------|----------------------|--------------------|------------------|-----------------|---------|  
 |01-01-20|Einkauf|10,00|10,00|1|1|  
 |01-15-20|Verkauf|-10.00|-10.00|-1|2|  
 
-#### <a name="relation-entries-in-the-gl--item-ledger-relation-table-" />Relationsposten im Sachkonto – Tabelle Artikelpostenrelation (1)
+#### <a name="relation-entries-in-the-gl--item-ledger-relation-table-1" />Relationsposten im Sachkonto – Tabelle Artikelpostenrelation (1)
 
 |Sachposten Lfd. Nr.|Wertposten Lfd. Nr.|Fibujournalnr.|  
 |-------------|---------------|----------------|  
@@ -106,7 +106,7 @@ Im folgenden Beispiel wird veranschaulicht, wie Sie einen Artikel als am 01-01-2
 |3|2|1|  
 |4|2|1|  
 
-#### <a name="general-ledger-entries-" />Sachposten (1)
+#### <a name="general-ledger-entries-1" />Sachposten (1)
 
 |Buchungsdatum|Sachkonto|Kontonr. (En-US-Demo)|Betrag|Eingabenr.|  
 |------------------|------------------|---------------------------------|------------|---------------|  
@@ -117,14 +117,14 @@ Im folgenden Beispiel wird veranschaulicht, wie Sie einen Artikel als am 01-01-2
 
 Später buchen Sie einen zugehörigen Einkaufsartikelzuschlag für 2,00 MW fakturiert auf 02-10-20. Anschließend müssen Sie die Batchaufträge **Einstandspreisregulierung Artikelposten** und **Lagerregulierung zu GL buchen** ausführen. Die Stapelverarbeitung zur Kostenregulierung passt die Kosten des Verkaufs entsprechend um -2,00 MW an, und die Stapelverarbeitung **Bestandkosten an Sachkonto buchen** bucht die neuen Wertposten in die Finanzbuchhaltung. Das Ergebnis ist wie folgt definiert:  
 
-#### <a name="value-entries-" />Wertposten (2)
+#### <a name="value-entries-2" />Wertposten (2)
 
 |Buchungsdatum|Artikelpostenart|Einstandsbetrag (tatsächl.)|Gebuchte Lagerregulierung an G/L|Fakturierte Menge|Ausgleich|Lfd. Nr.|  
 |------------|----------------------|--------------------|------------------|-----------------|----------|---------|  
 |02-10-20|Einkauf|2.00|2.00|0|Nein|3|  
 |01-15-20|Verkauf|-2.00|-2.00|0|Ja|4|  
 
-#### <a name="relation-entries-in-the-gl--item-ledger-relation-table-" />Relationsposten im Sachkonto – Tabelle Artikelpostenrelation (2)
+#### <a name="relation-entries-in-the-gl--item-ledger-relation-table-2" />Relationsposten im Sachkonto – Tabelle Artikelpostenrelation (2)
 
 |Sachposten Lfd. Nr.|Wertposten Lfd. Nr.|Fibujournalnr.|  
 |-------------|---------------|----------------|  
@@ -133,7 +133,7 @@ Später buchen Sie einen zugehörigen Einkaufsartikelzuschlag für 2,00 MW faktu
 |7|4|2|  
 |8|4|2|  
 
-#### <a name="general-ledger-entries-" />Sachposten (2)
+#### <a name="general-ledger-entries-2" />Sachposten (2)
 
 |Buchungsdatum|Sachkonto|Kontonr. (En-US-Demo)|Betrag|Eingabenr.|  
 |------------|-----------|------------------------|------|---------|  

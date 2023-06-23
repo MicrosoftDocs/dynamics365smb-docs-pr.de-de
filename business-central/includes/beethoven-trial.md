@@ -14,11 +14,11 @@ Verwenden Sie Ihre Arbeits- oder Schul-E-Mail-Adresse. Wir richten Ihre Testvers
 
 Bei dieser App handelt es sich um einen cloudbasierten Dienst, der außer einem aktuellen Webbrowser keine spezielle Software erfordert, wobei jedoch einige Einschränkungen gelten.  
 
-### <a name="how-do-i-sign-up-for-the-trial-without-a-microsoft--tenant" />Wie registriere ich mich ohne einen Microsoft 365-Mandanten für die Testversion?
+### <a name="how-do-i-sign-up-for-the-trial-without-a-microsoft-365-tenant" />Wie registriere ich mich ohne einen Microsoft 365-Mandanten für die Testversion?
 
 Dies ist nicht möglich. Verwenden Sie eine Arbeits- oder Schul-E-Mail-Adresse.
 
-### <a name="can-i-sign-up-for-other-dynamics--apps-such-as-sales-marketing-and-customer-service" />Kann ich mich für andere Dynamics 365-Apps wie Sales, Marketing und Customer Service anmelden?
+### <a name="can-i-sign-up-for-other-dynamics-365-apps-such-as-sales-marketing-and-customer-service" />Kann ich mich für andere Dynamics 365-Apps wie Sales, Marketing und Customer Service anmelden?
 
 Ja, das können Sie. Um alle verfügbaren Testversionen anzuzeigen, [besuchen Sie die Testversions-Hubseite](https://dynamics.microsoft.com/dynamics-365-free-trial). Sie können dasselbe E-Mail-Konto verwenden, um sich für verschiedene Testversionen anzumelden.<!-- However, it is not possible to have multiple apps on the same trial site. Each trial will be on a different org and URL. The trial data won’t be shared across apps.-->
 

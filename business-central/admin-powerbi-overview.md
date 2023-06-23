@@ -59,7 +59,7 @@ Das folgende Diagramm zeigt den grundlegenden Workflow für Benutzer beim Herste
 6. Der Benutzer erstellt einen Bericht in Power BI Desktop.
 7. Der Benutzer veröffentlicht den Bericht für den Power BI-Dienst. Die Berichte können dann in [!INCLUDE[prod_short](includes/prod_short.md)] ausgewählt werden.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics--business-centralindex" />Siehe verwandte [Microsoft Schulungen](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" />Siehe verwandte [Microsoft Schulungen](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Siehe auch
 

@@ -29,7 +29,7 @@ Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Themen,
 |Erstellen eines Auftrags, Anpassen der Vorauszahlungsbeträge und Erstellen einer Rechnung für Vorauszahlungsbeträge|[Vorauszahlungsrechnungen erstellen](finance-how-to-create-prepayment-invoices.md)|  
 |Erstellen einer weiteren Vorauszahlungsrechnung – entweder für weitere Artikel oder für eine zusätzliche Vorauszahlung für den ursprünglichen Auftrag – oder Erstellen einer Vorauszahlungsgutschrift|[So korrigieren Sie Vorauszahlungen](finance-how-to-correct-prepayments.md)|  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesprepayment-invoices-dynamics--business-centralindex" />Siehe verwandte [Microsoft Schulungen](/training/modules/prepayment-invoices-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulesprepayment-invoices-dynamics-365-business-centralindex" />Siehe verwandte [Microsoft Schulungen](/training/modules/prepayment-invoices-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Siehe auch
 

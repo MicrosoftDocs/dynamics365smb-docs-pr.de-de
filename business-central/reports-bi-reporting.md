@@ -26,7 +26,7 @@ Die folgende Tabelle behandelt die wichtigsten Business Intelligence- und Berich
 | Integrieren Sie externe Business Intelligence Tools mit [!INCLUDE[prod_short](includes/prod_short.md)].| [Externe Business Intelligence Tools](reports-external-analysis.md) |
 |Ändern Sie Berichtslayouts oder entwickeln Sie sogar Ihre eigenen Berichte von Grund auf neu. |[Entwickeln von Berichten](reports-develop-reports.md)|
 
-## <a name="see-related-microsoft-trainingtrainingpathssetup-reporting-dynamics--business-central" />Siehe verwandte [Microsoft Schulungen](/training/paths/setup-reporting-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathssetup-reporting-dynamics-365-business-central" />Siehe verwandte [Microsoft Schulungen](/training/paths/setup-reporting-dynamics-365-business-central/)
 
 ## <a name="see-also" />Siehe auch
 

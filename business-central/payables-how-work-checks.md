@@ -75,7 +75,7 @@ Wenn Sie gebuchte Schecks überprüfen möchten, zum Beispiel, um Mehrfachverbin
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Bankkonto – Scheckdetails** ein, und wählen Sie dann den zugehörigen Link.
 2. Legen Sie Filter fest und wählen Sie dann die Schaltfläche **Vorschau** aus.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesuse-checks-dynamics--business-central" />Siehe verwandte [Microsoft Schulungen](/training/modules/use-checks-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesuse-checks-dynamics-365-business-central" />Siehe verwandte [Microsoft Schulungen](/training/modules/use-checks-dynamics-365-business-central/)
 
 ## <a name="see-also" />Siehe auch
 

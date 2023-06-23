@@ -95,7 +95,7 @@ Um die Artikelkosten für den Teilzugang zu bearbeiten, geben Sie auf der **Arti
 
 Wenn Sie bereit sind, das fehlende Element zu handhaben, aktualisieren Sie das Feld **Zu handhabende Menge** und buchen Sie die Bestellung.
 
-## <a name="see-related-microsoft-trainingtrainingmodulespost-purchase-item-charges-dynamics--business-central" />Siehe verwandte [Microsoft Schulungen](/training/modules/post-purchase-item-charges-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulespost-purchase-item-charges-dynamics-365-business-central" />Siehe verwandte [Microsoft Schulungen](/training/modules/post-purchase-item-charges-dynamics-365-business-central/)
 
 ## <a name="see-also" />Siehe auch
 

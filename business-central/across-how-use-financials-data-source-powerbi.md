@@ -180,7 +180,7 @@ Ab Februar 2022 werden neue Berichte, die Business Central-Daten verwenden, stan
 9. Wählen Sie **Erledigt**.
 10. Wählen Sie **Schließen & Anwenden** aus dem Menüband, um die Änderungen zu speichern und den Power Query-Editor zu schließen.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics--business-centralindex" />Siehe verwandte [Microsoft Schulungen](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" />Siehe verwandte [Microsoft Schulungen](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Siehe auch
 

@@ -282,7 +282,7 @@ Anschließend müssen Sie erstellen mit den beiden Artikeln verschiedene Einkauf
 
  Aus der Seite **Artikelnachverfolgung** erfuhr der Qualitätskontrolleur, dass CHARGE1 die fehlerhaften Rennradrahmen enthielt, von welchem Kreditor sie stammen, und in welcher gebuchten Transaktion sie verwendet wurden. Sie müssen nun feststellen, ob LOT1 in irgendwelchen offenen Belegen enthalten ist, indem eine Integration aus den Ablaufverfolgungsergebnissen auf die Seite **Posten suchen** durchgeführt wird, wobei eine Suche durch alle Datenbankdatensätze durchgeführt werden kann.  
 
-### <a name="to-find-all-occurrences-of-lot-in-non-posted-records-such-as-open-orders" />So suchen Sie nach allen Vorkommen von CHARGE1 in nicht gebuchten Datensätzen (z. B. offenen Aufträgen)
+### <a name="to-find-all-occurrences-of-lot1-in-non-posted-records-such-as-open-orders" />So suchen Sie nach allen Vorkommen von CHARGE1 in nicht gebuchten Datensätzen (z. B. offenen Aufträgen)
 
 1.  Wählen Sie auf der Seite **Artikelablaufverfolgung** den Verweis in der ersten Verfolgungszeile aus, der Einkaufslieferung von CHARGE1.  
 2.  Wählen Sie die Aktion **Posten suchen** aus.  

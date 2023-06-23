@@ -7,7 +7,7 @@ ms.search.keywords: 'news, release plan, roadmap, whats new'
 ms.date: 12/07/2022
 ms.author: edupont
 ---
-# <a name="new-and-planned-for-dynamics--business-central" />Neues und Geplantes für Dynamics 365 Business Central
+# <a name="new-and-planned-for-dynamics-365-business-central" />Neues und Geplantes für Dynamics 365 Business Central
 
 [!INCLUDE[release notes](includes/release-notes.md)]
 

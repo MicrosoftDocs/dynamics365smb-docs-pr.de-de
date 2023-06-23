@@ -24,7 +24,7 @@ Kostenrechnung wird verwendet, um Ihnen dabei zu helfen, die Kosten des Betriebs
 |Erlernen Sie die Prozesse beim Erstellen von Kostenbudgets.|[Erstellen von Kostenbudgets](finance-create-cost-budgets.md)|
 |Wenn Sie Kostenposten aus dem Kostenjournal stornieren.|[Kostenbudgetposten löschen](finance-how-to-delete-cost-budget-entries.md)|
 
-## <a name="see-related-microsoft-trainingtrainingpathsuse-cost-accounting-dynamics--business-central" />Siehe verwandte [Microsoft Schulungen](/training/paths/use-cost-accounting-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathsuse-cost-accounting-dynamics-365-business-central" />Siehe verwandte [Microsoft Schulungen](/training/paths/use-cost-accounting-dynamics-365-business-central/)
 
 ## <a name="see-also" />Siehe auch
 [Finanzen](finance.md)  

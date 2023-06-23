@@ -133,13 +133,13 @@ Auf der Seite **Produktion Einrichtung** wird das Feld **Komponenten von Lageror
 
  ![Erstes Beispiel für Auftragsverfolgungseinträge in der Tabelle Reservierungseintrag.](media/supply_planning_RTAM_1.png "supply_planning_RTAM_1")  
 
-### <a name="entry-numbers--and-" />Eintragsnummern 8 und 9
+### <a name="entry-numbers-8-and-9" />Eintragsnummern 8 und 9
  Für den Komponentenbedarf für LOTA und LOTB werden Auftragsnachverfolgungslinks aus dem Bedarf in Tabelle 5407, **Fert. Auftrags-Komponente**, für den Vorrat in Tabelle 32, **Artikelposten**, erstellt. Das Feld **Reservierungsstatus** enthält **Nachverfolgung**, um anzugeben, dass diese Posten dynamische Auftragsnachverfolgungslinks zwischen Vorrat und Bedarf sind.  
 
 > [!NOTE]  
 >  Das Feld **Chargennr.** ist auf den Bedarfszeilen leer, da die Chargennummern nicht auf den Komponentenzeilen des freigegebenen Fertigungsauftrags angegeben sind.  
 
-### <a name="entry-numbers-" />Postennummern 10
+### <a name="entry-numbers-10" />Postennummern 10
  Vom Verkaufsbedarf in Tabelle 37, **Verkaufszeile**, wird ein Auftragsnachverfolgungslink zum Vorrat in Tabelle 5406, **Fert. Auftragszeile**, erstellt. Das Feld **Reservierungsstatus** enthält **Reservierung**, und das Feld **Verknüpfung** enthält **Eins-zu-Eins**. Dies liegt daran, dass der freigegebene Fertigungsauftrag speziell für den Verkaufsauftrag generiert wurde und anders als Bedarfsverursacherverknüpfungen in einem Reservierungsstatus **Bedarfsverursacher** bleiben muss, der dynamisch erstellt und geändert wird. Weitere Informationen finden Sie im Abschnitt Automatische Reservierungen dieses Themas.  
 
  An diesem Punkt im Szenario werden die 100 Stück von LOTA und LOTB zum Lagerort OST durch einen Umlagerungsauftrag übertragen.  
@@ -151,12 +151,12 @@ Auf der Seite **Produktion Einrichtung** wird das Feld **Komponenten von Lageror
 
  ![Zweites Beispiel für Auftragsverfolgungseinträge in der Tabelle „Reservierungseingang“.](media/supply_planning_RTAM_2.png "supply_planning_RTAM_2")  
 
-### <a name="entry-numbers--and-" />Eintragsnummern 8 und 9
+### <a name="entry-numbers-8-and-9" />Eintragsnummern 8 und 9
  Bedarfsverursacherposten für die zwei Chargen der den Bedarf widerspiegelnden Komponente in Tabelle 5407 werden von einem Reservierungsstatus von **Bedarfsverursacher** zu **Überschuss** geändert. Der Grund besteht darin, dass Vorräte, mit denen vorher eine Verknüpfung hergestellt wurde (in Tabelle 32), von der Lieferung des Umlagerungsauftrags verwendet wurden.  
 
  Echter Überschuss, wie in diesem Fall, spiegelt überschüssigen Vorrat oder Bedarf wider, der nicht nachverfolgt wird. Dies zeigt eine Unausgeglichenheit im Auftragsnetzwerk an, durch die eine Aktionsmeldung vom Planungssystem generiert wird, sofern sie nicht dynamisch gelöst wird.  
 
-### <a name="entry-numbers--to-" />Postennummern 12 bis 16
+### <a name="entry-numbers-12-to-16" />Postennummern 12 bis 16
  Da die beiden Chargen der Komponente auf dem Umlagerungsauftrag als geliefert aber nicht empfangen gebucht werden, haben alle verknüpften positiven Auftragsnachverfolgungsposten den Reservierungstyp **Überschuss**, was angibt, dass sie nicht einem Bedarf zugeordnet sind. Für jede Chargennummer bezieht sich ein Posten auf Tabelle 5741, **Umlagerungszeile**, und ein Posten bezieht sich auf den Artikelposten am I-Transit-Lagerort, an dem sich die Artikel gerade befinden.  
 
  An diesem Punkt im Szenario wird der Umlagerungsauftrag der Komponenten vom Lagerort OST zu Lagerort WEST als erhalten gebucht.  
@@ -173,7 +173,7 @@ Auf der Seite **Produktion Einrichtung** wird das Feld **Komponenten von Lageror
 
  ![Viertes Beispiel für Einträge zur Auftragsverfolgung in der Tabelle „Reservierungseingang“.](media/supply_planning_RTAM_4.png "supply_planning_RTAM_4")  
 
-### <a name="entry-numbers--and-" />Postennummern 21 und 22
+### <a name="entry-numbers-21-and-22" />Postennummern 21 und 22
  Da der Komponentenbedarf zum Lagerort OST geändert wurde und der Vorrat als Artikelposten am Lagerort OST verfügbar ist, werden alle Auftragsnachverfolgungsposten für die beiden Chargennummern jetzt vollständig verfolgt, angezeigt durch den Reservierungsstatus von **Nachverfolgung**.  
 
  Das Feld **Chargennr.** ist jetzt auf dem Auftragsnachverfolgungsposten für Tabelle 5407 ausgefüllt, da die Chargennummern zu den Fertigungsauftragskomponentenzeilen zugeordnet wurden.  

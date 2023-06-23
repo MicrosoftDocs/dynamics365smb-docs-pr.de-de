@@ -37,7 +37,7 @@ Die Erweiterungen PayPal Payments Standard und WorldPay Payments Standard sind i
     > [!NOTE]  
     > Das Feld **Zahlungsverkehr** ist verfügbar, wenn Sie den Zahlungsservice aktiviert haben.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescash-management-dynamics--business-central" />Siehe verwandte [Microsoft Schulungen](/training/modules/cash-management-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulescash-management-dynamics-365-business-central" />Siehe verwandte [Microsoft Schulungen](/training/modules/cash-management-dynamics-365-business-central/)
 
 ## <a name="see-also" />Siehe auch
 

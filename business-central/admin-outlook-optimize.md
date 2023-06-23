@@ -33,11 +33,11 @@ Um Outlook auf die neueste Version zu aktualisieren, befolgen Sie diese Microsof
 
 [Office-Updates installieren](https://support.microsoft.com/office/install-office-updates-2ab296f3-7f03-43a2-8e50-46de917611c5)
 
-## <a name="install-microsoft-edge-webview" />Microsoft Edge WebView2 installieren
+## <a name="install-microsoft-edge-webview2" />Microsoft Edge WebView2 installieren
 
 Stellen Sie sicher, dass Microsoft Edge WebView2 auf Ihrem Gerät installiert ist.
 
-### <a name="how-to-check-if-microsoft-edge-webview-is-installed" />So überprüfen Sie, ob Microsoft Edge WebView2 installiert ist
+### <a name="how-to-check-if-microsoft-edge-webview2-is-installed" />So überprüfen Sie, ob Microsoft Edge WebView2 installiert ist
 
 Führen Sie die folgenden Schritte aus, um zu überprüfen, ob Microsoft Edge WebView2 auf einem Computer installiert ist:
 
@@ -52,7 +52,7 @@ Führen Sie die folgenden Schritte aus, um zu überprüfen, ob Microsoft Edge We
 2. Wählen Sie **Programme** > **Programme und Features** aus.
 3. Geben Sie **WebView2** in das Suchfeld ein. Wenn Microsoft Edge WebView2 installiert ist, wird der Eintrag **Microsoft Edge WebView2 Runtime** angezeigt.
 
-### <a name="how-to-install-microsoft-edge-webview" />So installieren Sie Microsoft Edge WebView2
+### <a name="how-to-install-microsoft-edge-webview2" />So installieren Sie Microsoft Edge WebView2
 
 1. Wechseln Sie über Ihren Browser zu [https://developer.microsoft.com/microsoft-edge/webview2/](https://developer.microsoft.com/microsoft-edge/webview2/).
 2. Wählen Sie **Herunterladen** aus.

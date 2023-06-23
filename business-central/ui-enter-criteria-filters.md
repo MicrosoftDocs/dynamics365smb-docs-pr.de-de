@@ -172,7 +172,7 @@ Beim Eingeben von Filterkriterien können alle Ziffern und Buchstaben verwendet 
 > [!TIP]
 > Wenn Sie einen Ziffernblock verwenden, gibt die Dezimaltrenntaste möglicherweise ein anderes Zeichen als einen Punkt (.) aus. Um zu einem Punkt zu wechseln, wählen Sie die Tasten <kbd>Alt</kbd>+<kbd>Dezimaltrennzeichen</kbd> auf dem Ziffernblock. Wenn Sie zurückwechseln möchten, wählen Sie <kbd>Alt</kbd>+<kbd>Dezimaltrennzeichen</kbd> erneut. Weitere Informationen finden Sie unter [Festlegen des Dezimaltrennzeichens, das von numerischen Tastaturen verwendet wird](ui-enter-data.md#decimal).
 
-#### <a name="-eitheror" />(&#124;) Entweder/oder
+#### <a name="124-eitheror" />(&#124;) Entweder/oder
 
 |Beispielausdruck|Angezeigte Datensätze|  
 |-----------------------|-----------------------|  
@@ -302,7 +302,7 @@ Verwenden Sie `%myvendors` im Feld Kreditoren-**Nr**, um alle Datensätze für K
 |-----------------------|-----------------------|  
 |`%myvendors`|Kreditoren in **Meine Kreditoren** in Ihrem Rollencenter. |  
 
-## <a name="see-related-microsoft-trainingtrainingmodulessearch-filter-sort-data-dynamics--business-central" />Siehe verwandte [Microsoft Schulungen](/training/modules/search-filter-sort-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulessearch-filter-sort-data-dynamics-365-business-central" />Siehe verwandte [Microsoft Schulungen](/training/modules/search-filter-sort-data-dynamics-365-business-central/)
 
 ## <a name="see-also" />Siehe auch
 
