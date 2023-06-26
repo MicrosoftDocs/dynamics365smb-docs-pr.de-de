@@ -3,12 +3,11 @@ title: Problembehandlung für automatisierte Workflows
 description: 'Erfahren Sie, wie Sie Probleme mit der Verbindung zwischen Business Central und Power Automate beheben, wenn Sie einen automatisierten Workflow erstellen.'
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: 'workflow, OData, Power App, SOAP, Entity set not found, workflowWebhookSubscriptions, Power Automate,'
-ms.date: 08/04/2022
-ms.author: edupont
+ms.date: 06/16/2023
+ms.author: jswymer
+ms.reviewer: jswymer
+ms.service: d365-business-central
 ---
 
 # Problembehandlung für automatisierte [!INCLUDE[prod_short](includes/prod_short.md)]-Workflows
@@ -27,6 +26,20 @@ Derzeit ist die Anzahl der Datensätze, die ein Flow verarbeiten kann, begrenzt.
 
 > [!NOTE]
 > Für Entwickler erfolgt die Flow-Auslösung über Webhook-Benachrichtigungen, und diese Einschränkung ist darauf zurückzuführen, wie der Business Central-Konnektor `collection`-Benachrichtigungen handhabt. Weitere Informationen finden Sie unter [Mit Webhooks in Dynamics 365 Business Central arbeiten](/dynamics365/business-central/dev-itpro/api-reference/v2.0/dynamics-subscriptions#notes-for-power-automate-flows) in der Hilfe für Entwickler und die Verwaltung.
+
+## Fehler „Die Antwort des Business Central-Diensts ist zu groß“
+
+### Problem
+
+Bei Verwendung einer Aktion, die mit Datensätzen interagiert (z. B. *Datensatz erstellen [V3]* und *Datensatz abrufen [V3]*) zeigt Power Automate möglicherweise einen Fehler ähnlich diesem an:
+
+`The response from the Business Central service is too large`
+
+### Mögliche Ursache
+
+Auch wenn in Business Central keine Beschränkung für die Größe der von APIs zurückgegebenen Datensätze festgelegt ist, kann der Dynamics 365 Business Central Connector für Power Automate nur Datensätze bis zu 8 MB verarbeiten.
+
+Alle von Microsoft bereitgestellten Business Central-APIs geben Datensätze unter diesem Grenzwert zurück, von Partnern bereitgestellte APIs jedoch möglicherweise nicht. Wenn die Fehlermeldung „Die Antwort des Business Central-Diensts ist zu groß“ angezeigt wird, wenden Sie sich an den Partner, der die von Ihnen verwendete API erstellt hat.
 
 ## Fehler „Entitätenmenge nicht gefunden“
 
