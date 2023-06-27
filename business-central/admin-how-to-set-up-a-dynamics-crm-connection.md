@@ -29,7 +29,7 @@ Sie müssen einige Informationen bereithalten, bevor Sie die Verbindung herstell
 > Diese Schritte beschreiben das Verfahren in [!INCLUDE[prod_short](includes/prod_short.md)] online.
 > Wenn Sie [!INCLUDE[prod_short](includes/prod_short.md)] lokal verwenden und nicht das Azure Active Directory Konto verwenden, um die Verbindung mit [!INCLUDE [cds_long_md](includes/cds_long_md.md)] herzustellen, müssen Sie außerdem einen Benutzernamen und ein Kennwort eines Benutzerkontos für die Integration angeben. Dieses Konto wird als „Integrationsbenutzer“-Konto bezeichnet. Wenn Sie ein Azure Active Directory-Konto verwenden, ist das Integrationsbenutzerkonto weder erforderlich noch wird es angezeigt. Der Integrationsbenutzer wird automatisch eingerichtet und benötigt keine Lizenz.
 
-## <a name="set-up-a-connection-to-includecdslongmdincludescdslongmdmd" />Verbindung zu [!INCLUDE[cds_long_md](includes/cds_long_md.md)] einrichten
+## <a name="set-up-a-connection-to-" />Verbindung zu [!INCLUDE[cds_long_md](includes/cds_long_md.md)] einrichten
 
 Für alle anderen Authentifizierungsarten als die Microsoft 365-Authentifizierung legen Sie Ihre Verbindung auf der Seite **Dataverse Verbindungseinrichtung** auf [!INCLUDE[cds_long_md](includes/cds_long_md.md)] fest. Für die Microsoft 365-Authentifizierung empfehlen wir Ihnen, die Anleitung **Dataverse Verbindungseinrichtung** zur unterstützten Einrichtung zu verwenden. Der Leitfaden erleichtert die Einrichtung der Verbindung und die Festlegung erweiterter Funktionen, wie z. B. Personenbesitz und Erstsynchronisierung.  
 
@@ -206,7 +206,7 @@ Bei den folgenden Schritten wird davon ausgegangen, dass Sie Azure AD verwenden,
    > [!NOTE]
    > Wenn Sie nicht aufgefordert werden, sich mit Ihrem Administratorkonto anzumelden, liegt dies wahrscheinlich daran, dass Popups blockiert sind. Erlauben Sie Popups von `https://login.microsoftonline.com`, um sich anzumelden.
 
-### <a name="to-disconnect-from-includecdslongmdincludescdslongmdmd" />So trennen Sie [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
+### <a name="to-disconnect-from-" />So trennen Sie [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Dataverse Einrichtung der Verbindung** ein und wählen Sie dann den zugehörigen Link.
 2. Schalten Sie auf der Seite **Dataverse Verbindungseinrichtung** die Umschaltung auf **Aktiviert**.  

@@ -90,7 +90,7 @@ Wenn der Batchauftrag AfA berechnen die Abschreibungen berechnet, verwendet der 
 
 Wenn Sie dieses Feld markieren, verwendet der Batchauftrag „AfA berechnen“ stattdessen das Kalenderjahr mit 365 Tagen, wobei jeder Monat mit der gleichen Anzahl von Tagen wie im Kalender berechnet wird. Die einzige Ausnahme ist der Februar in Schaltjahren, den der Batchauftrag so behandelt, als hätte er 28 Tage und nicht 29. Aus diesem Grund besitzen alle Jahre (auch Schaltjahre) 365 Tage.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-depreciation-books" />Siehe verwandte [Microsoft Schulungen](/training/modules/configure-depreciation-books/)
+## <a name="see-related-microsoft-training" />Siehe verwandte [Microsoft Schulungen](/training/modules/configure-depreciation-books/)
 
 ## <a name="see-also" />Siehe auch
 

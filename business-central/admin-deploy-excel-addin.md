@@ -35,7 +35,7 @@ Für den Endbenutzer stellt sich die Installation in den beiden Bereitstellungss
 
 Bei diesen beiden Bereitstellungsoptionen wird das Add-In automatisch so konfiguriert, dass es sich mit [!INCLUDE[prod_short](includes/prod_short.md)] verbindet. Eine dritte Bereitstellungsoption ist die manuelle Installation des Add-Ins direkt aus Excel. Bei dieser Option müssen die Benutzer das Add-In so konfigurieren, dass es eine Verbindung zu [!INCLUDE[prod_short](includes/prod_short.md)] herstellt.
 
-### <a name="a-nameswitchaswitching-from-individual-acquisition-to-centralized-deployment-or-the-other-way-around" /><a name="switch"></a>Wechsel von der individuellen Erfassung zur zentralen Bereitstellung oder andersherum
+### <a name="switching-from-individual-acquisition-to-centralized-deployment-or-the-other-way-around" /><a name="switch"></a>Wechsel von der individuellen Erfassung zur zentralen Bereitstellung oder andersherum
 
 Wenn Sie vom Einzelerwerb des Add-Ins zur zentralen Bereitstellung oder umgekehrt wechseln, sind Excel-Dateien betroffen, die Benutzer vor dem Übergang erstellt haben. Nach der Umstellung können Benutzer weiterhin alle Excel-Arbeitsblätter öffnen, die zuvor mit der Aktion **In Excel bearbeiten** erstellt wurden oder die manuell durch die Konfiguration des Excel-Add-Ins erstellt wurden. Aber sie können die Daten in der Datei nicht von Business Central aus aktualisieren oder Aktualisierungen an Business Central senden.
 
@@ -87,7 +87,7 @@ Wenn Sie fertig sind, können Sie die Bereitstellung im Microsoft 365 Admin Cent
 > [!NOTE]
 > Es kann bis zu 24 Stunden dauern, bis das Add-In automatisch in Excel von Benutzern bereitgestellt wird.
 
-## <a name="a-nameinstallaindividual-acquisition-install-the-add-in-manually-for-your-own-use" /><a name="install"></a>Individuelle Übernahme: Installieren Sie das Add-In manuell für Ihren eigenen Gebrauch
+## <a name="individual-acquisition-install-the-add-in-manually-for-your-own-use" /><a name="install"></a>Individuelle Übernahme: Installieren Sie das Add-In manuell für Ihren eigenen Gebrauch
 
 Wenn Sie Excel von Business Central aus öffnen, wird das Add-in in den meisten Fällen entweder automatisch für Sie installiert oder Sie werden aufgefordert, es zu installieren. Es kann jedoch Fälle geben, in denen Sie das Add-in manuell installieren müssen.
 
@@ -159,7 +159,7 @@ When the add-in is installed, it shows up as a panel in Excel. Next, you must co
 > [!NOTE]
 > In certain deployments, the administrator must configure network access to unblock the Excel add-in. For more information, see [Preparing Your Network for the Excel Add-In](configuring-network-for-addins.md).-->
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" />Siehe verwandte [Microsoft Schulungen](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Siehe verwandte [Microsoft Schulungen](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Siehe auch
 

@@ -34,4 +34,4 @@ Der Designdetailinhalt wendet sich an Implementierer, Entwickler und Superuser, 
 [Einrichten komplexer Anwendungsbereichte mithilfe von Best Practices](set-up-complex-application-areas-using-best-practices.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]

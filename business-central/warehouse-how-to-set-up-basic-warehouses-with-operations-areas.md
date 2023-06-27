@@ -136,7 +136,7 @@ Das Einrichten eines Fert.-Bereitst.-Lagerplatzes/Fert.-Ausgangslagerplatzes ste
 > [!NOTE]  
 >  Der Lagerplatz muss leer sein, damit das Feld **Dediziert** ausgewählt oder gelöscht werden kann.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesget-started-warehouse-management" />Siehe verwandte [Microsoft Schulungen](/training/modules/get-started-warehouse-management/)
+## <a name="see-related-microsoft-training" />Siehe verwandte [Microsoft Schulungen](/training/modules/get-started-warehouse-management/)
 
 ## <a name="see-also" />Siehe auch
 

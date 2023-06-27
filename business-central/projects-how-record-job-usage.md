@@ -96,7 +96,7 @@ Nachdem Sie die Projekt-Planungszeilen gebucht haben, können Sie die gebuchten 
 2. Wählen Sie ein Buch.-Blatt des entsprechenden Projekts aus, und wählen Sie dann die Aktion **Projektposten** aus.  
 3. Auf der Seite **Projektposteneinträge** wählen Sie die Aktion **Anzeigen verknüpfter Projektplanungszeilen** aus.
 
-## <a name="see-related-microsoft-trainingtrainingpathspost-job-usage-sales" />Siehe verwandte [Microsoft Schulungen](/training/paths/post-job-usage-sales/)
+## <a name="see-related-microsoft-training" />Siehe verwandte [Microsoft Schulungen](/training/paths/post-job-usage-sales/)
 
 ## <a name="see-also" />Siehe auch
 

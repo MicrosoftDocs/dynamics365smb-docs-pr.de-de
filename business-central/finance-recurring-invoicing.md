@@ -12,7 +12,7 @@ ms.reviewer: edupont
 ms.date: 04/01/2021
 ms.author: andreipa
 ---
-# <a name="work-with-recurring-revenue-in-includeprodshortincludesprodshortmd" />Arbeiten mit wiederkehrenden Umsätzen in [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="work-with-recurring-revenue-in-" />Arbeiten mit wiederkehrenden Umsätzen in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Viele Unternehmen wechseln von einem Geschäftsumsatzmodell, bei dem der Umsatz aus dem einmaligen Kauf eines Debitors erzielt wird, zu einem Abonnementmodell, bei dem der Umsatz durch die Bereitstellung eines dauerhaften Zugangs zu einer Ware oder Dienstleistung regelmäßig erzielt wird.
 [!INCLUDE[prod_short](includes/prod_short.md)] bietet folgende Optionen zur Automatisierung des Sendes von Abonnementrechnungen an Ihre Debitoren und zur Registrierung wiederkehrender Umsätze. 
@@ -35,7 +35,7 @@ Das wiederkehrende Projekt-Buch.-Blatt ist eine erweiterte Alternative zum Fibu 
 
 Nach dem Buchen eines wiederkehrenden Projekt-Buch.-Blatts können Sie mit der Aufgabe **Projektverkaufsrechnung erstellen** mehrere Rechnungen erstellen. Sie können erstellte Rechnungen auf der Seite **Verkaufsrechnungen** überprüfen und buchen.
 
-### <a name="why-use-this-option" />Warum sollten Sie diese Option verwenden?
+### <a name="why-use-this-option-1" />Warum sollten Sie diese Option verwenden?
 
 Mit dieser Option gehen Sie gemäß dem Standard-Fakturierungsverfahren mit allen seinen Vorteilen vor, Standard- und Debitorenlayouts für Kommunikationspräferenzen eingeschlossen. Sie können die Preise für jedes Projekt auch einzeln definieren.
 
@@ -47,7 +47,7 @@ Weitere Informationen finden Sie unter [Erstellen von Projekt-Buch.-Blattzeilen]
 
 Wenn Sie häufiger Verkaufs- und Einkaufszeilen mit ähnlichen Daten erstellen müssen, können Sie wiederkehrende Verkaufszeilen einrichten, die Sie anschließend in wiederkehrende Verkaufs- und Einkaufsbelege, z. B. in wiederkehrende Ersatzaufträge, einfügen können. Verwenden Sie den Batchauftrag **Wiederkehrende Verkaufsrechnungen erstellen**, um Verkaufsrechnungen gemäß wiederkehrenden Verkaufszeilen zu erstellen, die den Debitoren zugeordnet sind und Buchungsdaten enthalten, die innerhalb der Gültigkeitszeiträume liegen, die Sie in den wiederkehrenden Verkaufszeilen festgelegt haben.  
 
-### <a name="why-use-this-option" />Warum sollten Sie diese Option verwenden?
+### <a name="why-use-this-option-2" />Warum sollten Sie diese Option verwenden?
 
 Mit dieser Option können Sie mehreren Debitoren dieselben wiederkehrenden Zeilen zuweisen. Sie können die Gültigkeitsdauer für die wiederkehrenden Verkaufszeilen für einen bestimmten Debitor definieren. Sie können demselben Debitor mehrere wiederkehrende Zeilen zuweisen, die alle in der Rechnung enthalten sein werden.
 
@@ -62,7 +62,7 @@ Ein Servicevertrag enthält die Servicevertragsvereinbarungen zwischen den Debit
 Sie können das Startdatum des Vertrags festlegen, das Fakturierungsintervall, ob der Vertrag im Voraus bezahlt wird oder nicht, sowie Details zur Preisaktualisierung, falls Sie die Preise ändern möchten, während der Vertrag aktiv ist. Sie können sowohl Serviceartikel als auch Artikel in Servicevertragszeilen verwenden.
 Sie können Vertragsvorlagen erstellen, um die Erstellungsweise für verschiedene Vertragsarten zu definieren.  
 
-### <a name="why-use-this-option" />Warum sollten Sie diese Option verwenden?
+### <a name="why-use-this-option-3" />Warum sollten Sie diese Option verwenden?
 
 Mit dieser Option verwenden Sie einen Teil der erweiterten Serviceverwaltungsfunktionen, die nicht nur auf die Ausstellung wiederkehrender Rechnungen beschränkt sind, sondern auch die Abläufe in Werkstatt und Außendienst unterstützen.
 
@@ -78,7 +78,7 @@ Es gibt mehrere zugehörige Funktionen in [!INCLUDE[prod_short](includes/prod_sh
 Ein Verkauf Rahmenauftrag stellt ein Gerüst für eine langfristige Vereinbarung zwischen Ihrem Unternehmen und einem Debitor dar.
 Ein Rahmenauftrag wird in der Regel erstellt, wenn sich ein Debitor verpflichtet hat, größere Mengen abzunehmen, die über einen längeren Zeitraum in mehreren kleineren bereitgestellt werden. Häufig decken Rahmenaufträge nur einen bestimmten Artikel ab, für den bestimmte Liefertermine vorgegeben sind. Der Hauptgrund für die Verwendung eines Rahmenauftrags anstelle eines Verkaufsauftrags besteht darin, dass die bei einem Rahmenauftrag eingegebenen Mengen keinen Einfluss auf die Artikelverfügbarkeit haben, aber zu Planungszwecken verwendet werden können.
 
-#### <a name="why-use-this-option" />Warum sollten Sie diese Option verwenden?
+#### <a name="why-use-this-option-4" />Warum sollten Sie diese Option verwenden?
 
 Mit dieser Option verwenden Sie den voraussichtlichen Bedarf, sodass die Informationen während den normalen Planungsroutinen berücksichtigt werden. Weitere Informationen finden Sie unter [Absatzplanungen und Rahmenaufträge](design-details-central-concepts-of-the-planning-system.md#demand-forecasts-and-blanket-orders).  
 
@@ -91,7 +91,7 @@ Weitere Informationen finden Sie unter [Arbeiten mit Verkauf Rahmenaufträgen](s
 Sie können wiederkehrende Aufträge verwenden, um Vorlagen für Rahmenaufträge zu erstellen, sodass Verkaufsaufträge basierend auf von Ihnen festgelegten Datumsintervallen erstellt werden können. Wenn Sie beispielsweise alle zwei Wochen denselben Verkaufsauftrag liefern, können Sie einen Verkauf Rahmenauftrag verwenden und wiederkehrende Bestellungen erstellen.
 Sie können wiederkehrende Gruppen verwenden, um eine Reihe von Parametern zu definieren, die zeigen, wie Sie Bestellungen aufgeben. Diese Gruppen sind Rahmenaufträgen zugeordnet, die regelmäßig angelegt werden müssen. Um die wiederkehrenden Bestellungen zu erstellen, müssen Sie den Prozess zum Erstellen wiederkehrender Bestellungen regelmäßig ausführen. 
 
-#### <a name="why-use-this-option" />Warum sollten Sie diese Option verwenden?
+#### <a name="why-use-this-option-5" />Warum sollten Sie diese Option verwenden?
 
 Mit dieser Option können Sie zwischen festen und „besten“ Preisen wählen.
 

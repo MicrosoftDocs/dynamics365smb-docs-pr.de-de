@@ -58,7 +58,7 @@ Es gibt einige Möglichkeiten festzulegen, welches Layout ein Bericht verwendet.
 
 Berichte sind so konzipiert, dass sie standardmäßig ein Layout verwenden. Sie können auf der **Auswahl des Berichtslayouts**-Seite wieder zum ursprünglichen Standardlayout wechseln. Wählen Sie einfach den Bericht und dann die **Standardauswahl wiederherstellen**-Aktion oben auf der Seite aus.
 
-## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics-365-business-centralindex" />Siehe verwandte [Microsoft Schulungen](/training/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Siehe verwandte [Microsoft Schulungen](/training/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Siehe auch
 

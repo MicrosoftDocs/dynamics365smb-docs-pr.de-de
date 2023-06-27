@@ -11,7 +11,7 @@ ms.search.form: '100, 1156, 1157, 1314, 1315, 1316, 9027'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="accountant-experiences-in-includeprodlongincludesprodlongmd" />Buchhalter-Erfahrung in [!INCLUDE[prod_long](includes/prod_long.md)]
+# <a name="accountant-experiences-in-" />Buchhalter-Erfahrung in [!INCLUDE[prod_long](includes/prod_long.md)]
 
 Jedes Unternehmens muss seine Bücher führen und die Buchhaltung genehmigen. Einige Unternehmen verwenden einen externen Buchhalter, und andere haben einen Buchhalter als Mitarbeiter. Unabhängig von der Art des Buchhalters, den Sie sind, können sie das **Buchhalter**-Rollencenter als Startbildschirm in [!INCLUDE[prod_short](includes/prod_short.md)] verwenden. Von hier können Sie auf alle Seiten zugreifen, die Sie in Ihrer Arbeit benötigen.  
 
@@ -25,7 +25,7 @@ Wenn Sie neu sind bei [!INCLUDE[prod_short](includes/prod_short.md)] können Sie
 
 Wenn Sie in mehreren [!INCLUDE [prod_short](includes/prod_short.md)]-Unternehmen arbeiten, könnte es nützlich sein, die Seite **Unternehmens-Hub** zu verwenden, um den Überblick über die Arbeit zu behalten.  Weitere Informationen finden Sie unter [Arbeit über mehrere Unternehmen hinweg im Unternehmens-Hub verwalten](company-hub.md).  
 
-## <a name="a-nameinviteaccountantainviting-your-external-accountant-to-your-includeprodshortincludesprodshortmd" /><a name="inviteaccountant"></a>Ihren externen Buchhalter einladen zu Ihrem [!INCLUDE[prod_short](includes/prod_short.md)]
+## <a name="inviting-your-external-accountant-to-your-" /><a name="inviteaccountant"></a>Ihren externen Buchhalter einladen zu Ihrem [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Wenn Sie einen externen Buchhalter verwenden, um Ihre Bücher und Finanzberichterstattung zu verwalten, kann Ihr Administrator sie für Ihr [!INCLUDE[prod_short](includes/prod_short.md)] einladen, damit sie mit Ihnen an Ihren steuerlichen Daten arbeiten. [!INCLUDE[prod_short](includes/prod_short.md)] enthält drei Lizenzen des Typs „Externer Buchhalter“. Weitere Informationen über Lizenzierung finden Sie unter [Microsoft Dynamics 365 Business Central Lizenzleitfaden](https://go.microsoft.com/fwlink/?LinkId=871590).
 
@@ -64,7 +64,7 @@ Wenn Ihr Administrator oder Wiederverkäufer die Anleitung **Externen Buchhalter
 
 Als Nächstes müssen Sie dem neuen Gastbenutzer eine Lizenz für [!INCLUDE[prod_short](includes/prod_short.md)] zuweisen.
 
-#### <a name="to-give-your-accountant-access-to-your-includeprodshortincludesprodshortmd" />So geben Sie Ihrem Buchhalter Zugriff auf Ihre [!INCLUDE[prod_short](includes/prod_short.md)]
+#### <a name="to-give-your-accountant-access-to-your-" />So geben Sie Ihrem Buchhalter Zugriff auf Ihre [!INCLUDE[prod_short](includes/prod_short.md)]
 
 1. Wählen Sie im Azure-Portal für den neu hinzugefügten Benutzer **Profil** und dann Sie **Bearbeiten** aus
 2. Aktualisieren Sie die Feld **Verbrauchsort** auf das entsprechende Land, und wählen Sie dann **Speichern** aus.
@@ -78,7 +78,7 @@ Als Nächstes müssen Sie dem neuen Gastbenutzer eine Lizenz für [!INCLUDE[prod
 
 Bei Erfolg wird dem Gastbenutzer die Lizenz zugewiesen und das Gastkonto wird erstellt.
 
-### <a name="importing-the-new-user-into-includeprodshortincludesprodshortmd" />Importieren des neuen Benutzers in [!INCLUDE[prod_short](includes/prod_short.md)]
+### <a name="importing-the-new-user-into-" />Importieren des neuen Benutzers in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Der Buchhalter erhält eine E-Mail, in der er darüber informiert wird, dass er Zugriff auf Ihr Active Directory erhalten hat. Als Nächstes müssen Sie ihnen Zugriff auf das richtige Unternehmen in [!INCLUDE[prod_short](includes/prod_short.md)] gewähren.
 

@@ -50,7 +50,7 @@ Wenn der Browser keine Cookies zulässt, wird folgende Fehlermeldung angezeigt:
 1. In Microsoft Edge gehen Sie zu **Einstellungen** > **Cookies und Site-Berechtigungen** > **Cookies und Site-Daten**.
 2. Bewegen Sie die Umschaltung **Ermöglichen Sie Websites das Speichern und Lesen von Cookie-Daten** nach rechts (Ein).  
 
-## <a name="a-namepopupaallow-pop-ups-from-business-central" /><a name="popup"></a>Pup-Ups von Business Central zulassen
+## <a name="allow-pop-ups-from-business-central" /><a name="popup"></a>Pup-Ups von Business Central zulassen
 
 [!INCLUDE[prod_short](includes/prod_short.md)] lässt sich in mehrere Produkte integrieren. In einigen Fällen wird, wie bei Microsoft Teams, [!INCLUDE[prod_short](includes/prod_short.md)] oder Popups innerhalb des Produkts geöffnet. Diese Funktion erfordert, dass Ihr Browser Popups zulässt von [!INCLUDE[prod_short](includes/prod_short.md)].
 

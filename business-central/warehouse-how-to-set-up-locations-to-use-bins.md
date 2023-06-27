@@ -51,7 +51,7 @@ Das folgende Flow-Diagramm zeigt, wie das Feld **Lagerplatzcode** auf den Zeilen
 
 :::image type="content" source="media/binflow.png" alt-text="Lagercodefeld im Produktionsauftrag Komponentenzeilen.":::
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-bins-location" />Siehe verwandte [Microsoft Schulungen](/training/modules/configure-bins-location/)
+## <a name="see-related-microsoft-training" />Siehe verwandte [Microsoft Schulungen](/training/modules/configure-bins-location/)
 
 ## <a name="see-also" />Siehe auch
 

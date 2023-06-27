@@ -93,13 +93,13 @@ Hier sind einige Dinge zu beachten, wenn Sie mit den Kartendetails arbeiten:
 
 Weitere Informationen zum Arbeiten mit Karten und Kartendetails finden Sie unter [Teams FAQ](teams-faq.md).
 
-## <a name="a-nameshare-linkashare-a-link-to-page-from-business-central-to-teams" /><a name="share-link"></a>Einen Link zu einer Seite von Business Central an Teams weitergeben
+## <a name="share-a-link-to-page-from-business-central-to-teams" /><a name="share-link"></a>Einen Link zu einer Seite von Business Central an Teams weitergeben
 
 Direkt von den meisten Sammlungsseiten, wie der Seite **Elemente**, und Detailseiten, wie der Karte **Elemente**, können Sie einen Link zu der Seite an bestimmte Empfänger in einer Unterhaltung in Teams senden. So können Sie beispielsweise einen Link zu einer gefilterten Ansicht Ihrer Datensätze freigeben. Die Empfänger können dann den Link auswählen, um die Seite in [!INCLUDE [prod_short](includes/prod_short.md)]\. zu öffnen.
 
 [![!Das Menü Teilen, das auf einer Karte angezeigt wird.](media/teams-share-link-v2.png "Das Menü Teilen, das auf einer Karte angezeigt wird.")](media/teams-share-link-v2.png#lightbox)
 
-### <a name="prerequisites" />Voraussetzungen
+### <a name="prerequisites-1" />Voraussetzungen
 
 - Sie haben Zugriff auf Microsoft Teams.
 - (Optional) Sie haben die App [!INCLUDE [prod_short](includes/prod_short.md)] in Teams installiert. 
@@ -127,6 +127,6 @@ Direkt von den meisten Sammlungsseiten, wie der Seite **Elemente**, und Detailse
 [Teams Problembehebung](admin-teams-troubleshooting.md)  
 [Entwickeln für Teams Integration](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

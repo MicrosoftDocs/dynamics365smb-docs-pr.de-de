@@ -34,7 +34,7 @@ Um mehrere Lagerhaltungsdaten für einen Artikel anzulegen, verwenden Sie die St
 > Wenn die Lagerhaltungsdaten nach Produktion angegeben sind, wird dieses Feld **Standardkosten** nicht verwendet, wenn die Ist-Kosten des gefertigten Artikels fakturiert und reguliert werden. Stattdessen verwendet [!INCLUDE [prod_short](includes/prod_short.md)] den Wert im Feld **Standardkosten** in der zugrunde liegenden Artikelkarte, und auftretende Abweichungen werden anhand der Kostenanteile dieses Artikels berechnet.<br><br>
 > Obwohl Sie SKUs Fertigungsstücklisten und Arbeitsplänen zuweisen können, sind der Einstandspreis-Roll-up und die entsprechende Berechnung von Kosten für SKUs sind nicht verfügbar. Weitere Informationen zu den Standardkosten finden Sie unter [Informationen zur Berechnung der Standardkosten](finance-about-calculating-standard-cost.md)
 
-## <a name="see-related-microsoft-trainingtrainingmodulescontrol-inventory-multiple-locations" />Siehe verwandte [Microsoft Schulungen](/training/modules/control-inventory-multiple-locations/)
+## <a name="see-related-microsoft-training" />Siehe verwandte [Microsoft Schulungen](/training/modules/control-inventory-multiple-locations/)
 
 ## <a name="see-also" />Siehe auch
 

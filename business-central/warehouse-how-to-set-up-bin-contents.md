@@ -49,7 +49,7 @@ Wenn Sie Ihre Lagerplätze erzeugt haben, können Sie den Lagerplatzinhalt, den 
 
 In diesem Arbeitsblatt können Sie mit einer Anzahl Lagerplatzinhaltszeilen für mehrere Lagerplätze arbeiten und dadurch einen guten Überblick darüber erhalten, was Sie in die verschiedenen Lagerplätze in einer vorgegebenen Zone, einem Gang oder Regal einlagern.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesset-up-zones-bins" />Siehe verwandte [Microsoft Schulungen](/training/modules/set-up-zones-bins/)
+## <a name="see-related-microsoft-training" />Siehe verwandte [Microsoft Schulungen](/training/modules/set-up-zones-bins/)
 
 ## <a name="see-also" />Siehe auch
 

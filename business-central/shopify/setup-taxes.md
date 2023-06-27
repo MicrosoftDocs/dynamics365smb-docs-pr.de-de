@@ -89,7 +89,7 @@ Wählen Sie in Ihrem **Shopify Admin** **Steuern basierend auf dem Land Ihres De
 > [!NOTE]
 > Diese Einstellung wirkt sich nicht auf die Darstellung von Preisen auf Inlandsmärkten aus, die vom Umschalter **Alle Preise verstehen sich inklusive Mehrwertsteuer** gesteuert wird.
 
-### <a name="all-prices-include-tax-is-selected" />Alle Preise verstehen sich inklusive Mehrwertsteuer ist ausgewählt
+### <a name="all-prices-include-tax-is-selected-1" />Alle Preise verstehen sich inklusive Mehrwertsteuer ist ausgewählt
 
 |-|Inlandsverkäufe|Ausland, in dem die Steuer im Preis inbegriffen ist|Ausland, in dem die Steuer im Preis nicht inbegriffen ist|
 |------------------------|--------|--------|--------|
@@ -99,7 +99,7 @@ Wählen Sie in Ihrem **Shopify Admin** **Steuern basierend auf dem Land Ihres De
 
 Der Preis für jeden Kunden ändert sich je nach Standort.
 
-### <a name="all-prices-include-tax-is-not-selected" />Alle Preise verstehen sich inklusive Mehrwertsteuer ist nicht ausgewählt
+### <a name="all-prices-include-tax-is-not-selected-1" />Alle Preise verstehen sich inklusive Mehrwertsteuer ist nicht ausgewählt
 
 |-|Inlandsverkäufe|Ausland, in dem die Steuer im Preis inbegriffen ist|Ausland, in dem die Steuer im Preis nicht inbegriffen ist|
 |------------------------|--------|--------|--------|

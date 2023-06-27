@@ -220,7 +220,7 @@ Ein Umbuchen der Artikelverfolgung für einen Artikel bedeutet, dass eine Charge
 8. Wenn Sie die vorhandenen Informationen für eine Chargen- oder Seriennummer ändern möchten, können Sie die Chargen- oder Serieninformationen aufzeichnen.  
 9. Buchen Sie das Buch.-Blatt, um die neuen Artikelverfolgungsnummern oder Ablaufdatumsangaben mit den entsprechenden Artikelposten zu verknüpfen.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesprepare-item-tracking" />Siehe verwandte [Microsoft Schulungen](/training/modules/prepare-item-tracking/)
+## <a name="see-related-microsoft-training" />Siehe verwandte [Microsoft Schulungen](/training/modules/prepare-item-tracking/)
 
 ## <a name="see-also" />Siehe auch
 

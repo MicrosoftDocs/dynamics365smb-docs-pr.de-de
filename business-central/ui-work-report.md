@@ -21,7 +21,7 @@ Sie können Berichte im Menü **Berichte** auf ausgewählten Seiten, Listen und 
 
 Wenn Sie einen Bericht auswählen, wird in der Regel eine Seite&mdash;dargestellt, mit der Sie bestimmte Informationen definieren können,&mdash;die Sie im Bericht integrieren möchten. In den folgenden Abschnitten wird erläutert, wie Sie auf der Anforderungsseite einen Bericht erstellen, in der Vorschau anzeigen und drucken.
 
-## <a name="a-namesavedsettingsausing-default-valuesmdashpredefined-settings" /><a name="SavedSettings"></a>Standardwerte verwenden&mdash;– vordefinierte Einstellungen
+## <a name="using-default-valuesmdashpredefined-settings" /><a name="SavedSettings"></a>Standardwerte verwenden&mdash;– vordefinierte Einstellungen
 
 Die meisten Berichtsanforderungsseiten enthalten das Feld **Standardwerte verwenden von**. In diesem Feld können Sie vordefinierte Einstellungen für den Bericht auswählen, mit denen automatisch Optionen und Filter festgelegt werden. Wählen Sie einen Posten aus der Dropdownliste aus, und die Optionen und Filter auf der Berichtanforderungsseite ändern sich entsprechend.
 
@@ -80,7 +80,7 @@ Wenn Ihre Organisation OneDrive für Systemfeatures konfiguriert hat, werden Exc
 >
 > Sie können auch **Microsoft Excel-Dokument (nur Daten)** verwenden, um neue Excel-Layouts für einen bestimmten Bericht erstellen. Weitere Informationen finden Sie unter [Arbeiten mit Excel-Layouts](ui-excel-report-layouts.md).  
 
-## <a name="a-nameschedulereporta-scheduling-a-report-to-run-later-or-periodically" /><a name="ScheduleReport"></a> Planen der späteren oder regelmäßigen Ausführung eines Berichts
+## <a name="scheduling-a-report-to-run-later-or-periodically" /><a name="ScheduleReport"></a> Planen der späteren oder regelmäßigen Ausführung eines Berichts
 
 Sie können einen einzelnen oder Serienbericht planen, sodass er an einem bestimmten Datum und zu einer festgelegten Uhrzeit ausgeführt wird. Geplante Berichte werden in der Projektwarteschlange eingegeben und zu der geplanten Zeit verarbeitet, wie vergleichbare andere Aufträge auch. Sie wählen die **Zeitplan** Option, nachdem Sie **Senden an** gewählt haben und geben Sie dann Informationen wie den Drucker sowie Uhrzeit und Datum ein. Der Bericht wird der Aufgabenwarteschlange hinzugefügt und zum angegebenen Zeitpunkt ausgeführt. Wenn der Bericht verarbeitet ist, wird das Element aus der Aufgabenwarteschlange entfernt. Weitere Informationen finden Sie unter [Aufgabenwarteschlangen zum Planen von Aufgaben verwenden](admin-job-queues-schedule-tasks.md).  
 
@@ -103,13 +103,13 @@ Wiederholen Sie nach dem Bearbeiten der Berichtsoptionen die ersten beiden Schri
 
 Erfahren Sie mehr über die Verwaltung von Auftragswarteschlangen unter [Verwenden Sie Auftragswarteschlangen, um Aufgaben zu planen](admin-job-queues-schedule-tasks.md).  
 
-## <a name="a-nameprintreportaprinting-a-report" /><a name="PrintReport"></a>Berichte drucken
+## <a name="printing-a-report" /><a name="PrintReport"></a>Berichte drucken
 
 Um den Bericht zu drucken, wählen Sie **Drucken** auf der Berichtsanforderungsseite oder in der Menüleiste der Seite **Vorschau** aus.
 
 Wenn ein Bericht ein Excel-Layout verwendet, wird das Feld **Drucker**, die Schalftläche **Drucken** oder die Schalfläche **Vorschau** nicht angezeigt. Stattdessen gibt es eine **Herunterladen**-Option. Wählen Sie zum Drucken **Herunterladen** aus, öffnen Sie dann die heruntergeladene Datei in Excel und drucken Sie sie von dort aus.
 
-### <a name="a-nameprinteraprinter" /><a name="Printer"></a>Drucker
+### <a name="printer" /><a name="Printer"></a>Drucker
 
 Das Feld **Drucker** auf der Anforderungsseite zeigt den Name des Druckers an, zu dem der Bericht gesendet wird. Um einen Drucker zu wechseln, wählen Sie einfach den Drucker aus der Liste aus.
 
@@ -153,7 +153,7 @@ Die Felder unter dem Inforegister **Erweitert** legen Einschränkungen für den 
 > [!NOTE]
 > Die Maximalwerte können sich für [!INCLUDE[prod_short](includes/prod_short.md)] lokal unterscheiden, und ein Administrator kann sie ändern. Weitere Informationen finden Sie unter [Konfigurieren von Business Central Server – Berichte](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#Reports). Für eine Übersicht über Berichtseinschränkungen [!INCLUDE[prod_short](includes/prod_short.md)] online sehen Sie [Einschränkungen im Betrieb](/dynamics365/business-central/dev-itpro/administration/operational-limits-online).
 
-## <a name="see-related-microsoft-trainingtrainingpathssetup-reporting-dynamics-365-business-central" />Siehe verwandte [Microsoft Schulungen](/training/paths/setup-reporting-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Siehe verwandte [Microsoft Schulungen](/training/paths/setup-reporting-dynamics-365-business-central/)
 
 ## <a name="see-also" />Siehe auch
 

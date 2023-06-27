@@ -138,7 +138,7 @@ Wenn Sie die Tatsache registrieren müssen, dass Artikel bereits ohne Einlagerun
 2. Füllen Sie die Felder **Artikelnr.**, **Von Zonencode**, **Von Lagerplatzcode**, **Nach Zonencode** und **Nach Lagerplatzcode** aus.  
 3. Wählen Sie die Aktion **Registrieren** aus.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesmanage-internal-warehouse-processes" />Siehe verwandte [Microsoft Schulungen](/training/modules/manage-internal-warehouse-processes/)
+## <a name="see-related-microsoft-training" />Siehe verwandte [Microsoft Schulungen](/training/modules/manage-internal-warehouse-processes/)
 
 ## <a name="see-also" />Weitere Informationen
 

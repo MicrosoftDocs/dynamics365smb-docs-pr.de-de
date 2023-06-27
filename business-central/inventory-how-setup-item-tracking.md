@@ -109,7 +109,7 @@ Verwenden Sie für Massenimporte Konfigurationspakete, um Daten in die Blätter 
 > [!NOTE]
 > Sie können **In Excel bearbeiten** nicht verwenden, um Buchungsblattzeilen mit Nachverfolgungsinformationen zu erstellen.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesprepare-item-tracking" />Siehe verwandte [Microsoft Schulungen](/training/modules/prepare-item-tracking/)
+## <a name="see-related-microsoft-training" />Siehe verwandte [Microsoft Schulungen](/training/modules/prepare-item-tracking/)
 
 ## <a name="see-also" />Siehe auch
 

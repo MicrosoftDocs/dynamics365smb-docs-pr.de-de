@@ -11,7 +11,7 @@ ms.search.form: '1500,'
 ms.date: 10/10/2022
 ms.custom: bap-template
 ---
-# <a name="use-power-automate-flows-in-includeprodshortincludesprodshortmd" />Power Automate-Flows in [!INCLUDE[prod_short](includes/prod_short.md)] verwenden
+# <a name="use-power-automate-flows-in-" />Power Automate-Flows in [!INCLUDE[prod_short](includes/prod_short.md)] verwenden
 
 Mit [!INCLUDE[prod_short](includes/prod_short.md)] erhalten Sie eine Lizenz für Microsoft Power Automate. Mit dieser Lizenz können Sie Ihre [!INCLUDE[prod_short](includes/prod_short.md)]-Daten als Teil eines Workflows in Microsoft Power Automate verwenden. Sie erstellen Flows und stellen über den [!INCLUDE [prod_short](includes/prod_short.md)]-Konnektor eine Verbindung zu Ihren Daten aus internen und externen Quellen her.
 
@@ -108,7 +108,7 @@ You can create new flows or manage existing Power Automate flows in [!INCLUDE [p
 <!--
 You can also manage available Power Automate workflows on the **Workflows** page in [!INCLUDE[prod_short](includes/prod_short.md)]. The page lists both the built-in approval and Power Automate workflows, with options for the latter to enable/disable, delete, and view the workflow on the Power Automate website.-->
 
-## <a name="see-related-microsoft-trainingtrainingmodulesuse-power-automate" />Siehe verwandte [Microsoft Schulungen](/training/modules/use-power-automate/)
+## <a name="see-related-microsoft-training" />Siehe verwandte [Microsoft Schulungen](/training/modules/use-power-automate/)
 
 ## <a name="see-also" />Siehe auch
 

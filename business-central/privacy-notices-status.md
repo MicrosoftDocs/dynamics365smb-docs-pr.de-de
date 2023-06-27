@@ -11,7 +11,7 @@ ms.author: a-jaaamir
 ms.date: 07/21/2022
 ---
 
-# <a name="privacy-notices-status-in-includeprodlongincludesprodlongmd" />Status der Datenschutzhinweise in [!INCLUDE[prod_long](includes/prod_long.md)]
+# <a name="privacy-notices-status-in-" />Status der Datenschutzhinweise in [!INCLUDE[prod_long](includes/prod_long.md)]
 
 In diesem Artikel wird beschrieben, was ein Datenschutzhinweis ist, und welchen Zweck die Seite **Status der Datenschutzhinweise** in [!INCLUDE[prod_short](includes/prod_short.md)] erfüllt. Außerdem erfahren Sie, wie Administratoren diese Seite verwenden können.
 

@@ -11,7 +11,7 @@ ms.date: 04/12/2021
 ms.author: jswymer
 ---
 
-# <a name="install-the-include-prodshortincludesprodshortmd-app-for-microsoft-teams" />Die App [!INCLUDE [prod_short](includes/prod_short.md)] für Microsoft Teams installieren
+# <a name="install-the--app-for-microsoft-teams" />Die App [!INCLUDE [prod_short](includes/prod_short.md)] für Microsoft Teams installieren
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
@@ -80,7 +80,7 @@ Sie können die App jetzt in Teams verwenden, um nach Kontakten zu suchen oder B
 [Entwickeln für Teams Integration](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -83,7 +83,7 @@ Weitere Informationen finden Sie unter [Eine Business Central-Registerkarte in T
 [Ändern der Firma und anderer Einstellungen in Teams](across-teams-settings.md)  
 [Entwickeln für Teams Integration](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)
   
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -115,7 +115,7 @@ Sie können mit Hilfe der Stapelverarbeitung **AfA-Buch kopieren** Posten von ei
 
 Die kopierten Zeilen werden entweder in einem Anlagen Fibu Buch.-Blatt oder im Anlagen Buch.-Blatt erstellt. Dies hängt davon ab, ob das AfA-Buch, das Sie kopieren, in der Finanzbuchhaltung aktiviert wurde.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescalculate-post-depreciations" />Siehe verwandte [Microsoft Schulungen](/training/modules/calculate-post-depreciations/)
+## <a name="see-related-microsoft-training" />Siehe verwandte [Microsoft Schulungen](/training/modules/calculate-post-depreciations/)
 
 ## <a name="see-also" />Siehe auch
 

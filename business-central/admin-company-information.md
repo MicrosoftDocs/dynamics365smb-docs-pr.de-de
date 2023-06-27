@@ -28,7 +28,7 @@ Wenn Ihr [!INCLUDE [prod_short](includes/prod_short.md)] mehrere Firmen umfasst,
 
 Es gibt einige Funktionen, mit denen Sie während der Arbeit zwischen den Firmen wechseln können, z.B. den Firmenwechsler (<kbd>Strg</kbd>+<kbd>+O</kbd>). Erfahren Sie mehr unter [Zu einer anderen Firma oder Umgebung wechseln](ui-organization-switch.md).
 
-## <a name="a-namebadgeadisplay-a-company-badge" /><a name="badge"></a>Ein Abzeichen für eine Firma anzeigen
+## <a name="display-a-company-badge" /><a name="badge"></a>Ein Abzeichen für eine Firma anzeigen
 
 Wenn es mehr als eine Firma oder eine Umgebung gibt, sehen Sie den Firmenwechsler oben rechts in der App-Leiste, in der Nähe des Symbols für die Suche in der App-Leiste. Standardmäßig verwendet der Firmenwechsler ein standardmäßiges Symbol der Firma, wie ![Firmensymbol Launcher.](media/ui-experience/company-icon.png "Zeigt das Symbol für den Wechsel der Firma an, das verwendet wird, wenn es nur eine Umgebung gibt") und ![Firmen-Symbol-mult-env](media/ui-experience/company-icon-multi-env.png "Zeigt das Symbol für den Wechsler der Firma an, wenn es mehrere Umgebungen gibt").
 
@@ -54,7 +54,7 @@ Der Firmenname wird immer in der oberen linken Ecke angezeigt und fungiert als A
 
 Die Standardbenutzeroberfläche in einem [!INCLUDE [prod_short](includes/prod_short.md)]-Test zeigt nicht alle Funktionalitäten an. Sie können den vollen Funktionsumfang auf der Seite **Unternehmensdaten** einschalten. Weitere Informationen finden Sie unter [Ändern, welche Funktionen angezeigt werden](ui-experiences.md).  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-new-companies-dynamics-365-business-central" />Siehe verwandte [Microsoft Schulungen](/training/modules/create-new-companies-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Siehe verwandte [Microsoft Schulungen](/training/modules/create-new-companies-dynamics-365-business-central/)
 
 ## <a name="see-also" />Siehe auch
 

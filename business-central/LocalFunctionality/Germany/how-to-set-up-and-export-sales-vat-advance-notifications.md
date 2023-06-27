@@ -18,7 +18,7 @@ Eine Umsatzsteuervoranmeldung ist eine XML-Datei, die Sie verwenden können, um 
 > [!NOTE]
 > Der größte Teil der Funktionen ist in der Erweiterung **ELSTER VAT-Lokalisierung für Deutschland** enthalten. Stellen Sie sicher, dass dies in Ihrem [!INCLUDE[prod_short](../../includes/prod_short.md)] installiert ist. Weitere Informationen finden Sie unter [Anpassen von Business Central Online mithilfe der Erweiterungen](../../ui-extensions.md).
 
-## <a name="set-up-and-export-sales-vat-advance-notifications" />Umsatzsteuervoranmeldungen einrichten und exportieren
+## <a name="set-up-and-export-sales-vat-advance-notifications-1" />Umsatzsteuervoranmeldungen einrichten und exportieren
 
 Sie müssen die folgenden Informationen einrichten, um gültige Umsatzsteuervoranmeldungen zu erstellen:  
 

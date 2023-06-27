@@ -31,7 +31,7 @@ Wenn Sie an der vollständigen Liste der Kompatibilitätsanforderungen von Micro
 [Anwendungs-Kompatibilität](compliance-application-compliance.md)  
 [Bescheinigungen](compliance-certifications.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](../includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](../includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

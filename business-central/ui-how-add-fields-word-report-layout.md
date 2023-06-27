@@ -37,7 +37,7 @@ Ein Berichtsdataset kann aus Feldern bestehen, die Bezeichnungen, Daten und Bild
 > [!NOTE]  
 >  Sie können keine integrierten Berichtslayouts in ändern<!--Onprem. Built-in layouts can only be modified by using the development environment-->.  
 
-### <a name="a-nameopenxmlparta-to-open-the-custom-xml-part-for-the-report-in-word" /><a name="OpenXMLPart"></a> Um den benutzerdefinierten XML-Abschnitt für den Bericht in Word zu öffnen
+### <a name="to-open-the-custom-xml-part-for-the-report-in-word" /><a name="OpenXMLPart"></a> Um den benutzerdefinierten XML-Abschnitt für den Bericht in Word zu öffnen
   
 1. Wenn nicht bereits offen, öffnen Sie den Word-Berichtlayoutbeleg in Word.  
   
@@ -103,7 +103,7 @@ Bilder werden im linken oberen Teil des Inhaltssteuerelements ausgerichtet und �
   
 3. Um die Bildgröße zu erhöhen oder zu verringern, ziehen Sie einen der Ziehpunkte zur Mitte des Inhaltssteuerelements hin oder von der Mitte weg.  
 
-## <a name="a-nameremovefielda-removing-label-and-data-fields" /><a name="RemoveField"></a> Entfernen der Beschriftungs- und Datenfelder
+## <a name="removing-label-and-data-fields" /><a name="RemoveField"></a> Entfernen der Beschriftungs- und Datenfelder
 
 Beschriftung und Datenfelder eines Berichts sind in Inhaltssteuerelementen in Word enthalten. Die folgende Abbildung zeigt ein Steuerelement für Inhalte, wenn es im Word-Beleg ausgewählt ist.  
 

@@ -125,7 +125,7 @@ Wenn die Menge in einem Warenausgang geliefert wurde, wird eine Korrekturzeile i
 
 Um die Korrektur abzuschließen, öffnen Sie den Umlagerungsauftrag erneut, geben Sie die richtige Menge ein und buchen Sie dann den Auftrag. Wenn Sie Lagerversand verwenden, um den auftrag zu versenden, erstellen und buchen Sie einen neuen Warenausgang.
 
-## <a name="see-related-microsoft-trainingtrainingmodulestransfer-items" />Siehe verwandte [Microsoft Schulungen](/training/modules/transfer-items/)
+## <a name="see-related-microsoft-training" />Siehe verwandte [Microsoft Schulungen](/training/modules/transfer-items/)
 
 ## <a name="see-also" />Siehe auch
 

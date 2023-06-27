@@ -32,6 +32,6 @@ In der folgenden Tabelle finden Sie die Verbindungen zu Microsoft-Diensten, die 
 
 Ihre Privatsphäre ist uns wichtig. Um mehr darüber zu erfahren, wie Microsoft Ihre Daten verarbeitet, lesen Sie die [Microsoft Datenschutzerklärung](https://go.microsoft.com/fwlink/?linkid=521839).
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

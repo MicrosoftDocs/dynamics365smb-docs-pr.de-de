@@ -83,7 +83,7 @@ Die zentrale Bereitstellung ist eine Funktion im Microsoft 365 Admin Center, mit
 
 Wenn Sie fertig sind, können Sie die Bereitstellung im Microsoft 365 Admin Center jederzeit ändern, z. B. weitere Benutzer zuweisen. Weitere Informationen zur Bereitstellung von Add-Ins im Admin Center finden Sie unter [Add-Ins im Admin Center bereitstellen](/microsoft-365/admin/manage/centralized-deployment-faq?view=o365-worldwide#how-do-you-target-add-in-user-assignments-with-centralized-deployment-&preserve-view=true).
 
-## <a name="a-nameinstallainstall-the-add-in-for-your-own-use" /><a name="install"></a>Installieren Sie das Add-In für Ihren eigenen Gebrauch
+## <a name="install-the-add-in-for-your-own-use" /><a name="install"></a>Installieren Sie das Add-In für Ihren eigenen Gebrauch
 
 Wenn Ihr Unternehmen es zulässt, können Sie das Business Central Add-In auch für sich selbst installieren. Wenden Sie sich an Ihren Administrator, wenn Sie sich nicht sicher sind.
 
@@ -94,7 +94,7 @@ Wenn Ihr Unternehmen es zulässt, können Sie das Business Central Add-In auch f
 
 Business Central wird eine Verbindung zu Ihrem E-Mail-Server herstellen und das Add-in in Ihrem Outlook installieren. Dies wird nicht lange dauern. Jetzt können Sie das Add-In in Outlook verwenden.
 
-### <a name="a-nameonpremafor-business-central-on-premises" /><a name="onprem"></a>Für Business Central On-Premises
+### <a name="for-business-central-on-premises" /><a name="onprem"></a>Für Business Central On-Premises
 
 Wenn Sie Business Central on-premises verwenden, kann die Installation des Add-Ins etwas anders ablaufen.
 
@@ -116,7 +116,7 @@ Wenn Sie Business Central on-premises verwenden, kann die Installation des Add-I
 
 Jetzt können Sie das Add-In in Outlook verwenden.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesalternative-interfaces-dynamics-365-business-centralindex" />Siehe verwandte [Microsoft Schulungen](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Siehe verwandte [Microsoft Schulungen](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Siehe auch
 

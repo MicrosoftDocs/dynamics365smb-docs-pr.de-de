@@ -167,7 +167,7 @@ Die folgende Abbildung zeigt, wann das Feld **Lagerplatzcode** auf der Komponent
 
 :::image type="content" source="media/binflow.png" alt-text="Übersicht, wann und wie das Feld Lagerplatz ausgefüllt wird.":::
 
-## <a name="see-related-microsoft-trainingtrainingpathspick-ship-items-business-central" />Siehe verwandte [Microsoft Schulungen](/training/paths/pick-ship-items-business-central/)
+## <a name="see-related-microsoft-training" />Siehe verwandte [Microsoft Schulungen](/training/paths/pick-ship-items-business-central/)
 
 ## <a name="see-also" />Siehe auch
 

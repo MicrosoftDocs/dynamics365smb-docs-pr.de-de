@@ -24,7 +24,7 @@ Die folgenden Schritte bieten einen Überblick über die Schritte für die Integ
 
 3. Synchronisieren Sie die Daten zwischen den Apps. Weitere Informationen finden Sie unter [Synchronisieren von Business Central und Dataverse](admin-synchronizing-business-central-and-sales.md). 
 
-## <a name="getting-started-with-includeprodshortincludescdslongmdmd" />Erste Schritte mit [!INCLUDE[prod_short](includes/cds_long_md.md)]
+## <a name="getting-started-with-" />Erste Schritte mit [!INCLUDE[prod_short](includes/cds_long_md.md)]
 
 Um mit [!INCLUDE[prod_short](includes/cds_long_md.md)] zu beginnen, benötigen Sie ein Microsoft Power Apps-Konto. Wenn Sie noch nicht über ein Power Apps-Konto verfügen, können Sie ein kostenloses Konto erhalten, indem Sie [powerapps.com](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) besuchen und den Link **Kostenlos einsteigen** wählen. Weitere Informationen zu den ersten Schritten mit [!INCLUDE[prod_short](includes/cds_long_md.md)] finden Sie im Modul [Erste Schritte mit Dataverse](/training/modules/get-started-with-powerapps-common-data-service/) von Microsoft Schulung.
 
@@ -57,7 +57,7 @@ Weitere Informationen zu den einzelnen Rollen, z. B. zu Berechtigungen und Zugri
 
 Während des Verbindungsaufbaus werden Integrationstabellenzuordnungen erstellt, die zur Datensynchronisation benötigt werden. Entitäten in [!INCLUDE[prod_short](includes/cds_long_md.md)] werden Tabellen und Tabellenfeldern in Business Central durch Integrationstabellen zugeordnet. Weitere Informationen finden Sie unter [Standard Entitätszuordnung für die Synchronisation](admin-synchronizing-business-central-and-sales.md#standard-table-mapping-for-synchronization).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesuse-model-driven-apps-common-data-service" />Siehe verwandte [Microsoft Schulungen](/training/modules/use-model-driven-apps-common-data-service/)
+## <a name="see-related-microsoft-training" />Siehe verwandte [Microsoft Schulungen](/training/modules/use-model-driven-apps-common-data-service/)
 
 ## <a name="see-also" />Siehe auch
 

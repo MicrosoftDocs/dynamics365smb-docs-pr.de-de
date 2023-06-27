@@ -123,7 +123,7 @@ Falls Sie die Anlagen in [!INCLUDE[prod_short](includes/prod_short.md)] zum erst
 
 Falls die Anlagen nicht in die Fibu integriert sind, können Sie die Schritte 6 und 8 übergehen.
 
-## <a name="see-related-microsoft-trainingtrainingpathsset-up-fixed-assets-management" />Siehe verwandte [Microsoft Schulungen](/training/paths/set-up-fixed-assets-management/)
+## <a name="see-related-microsoft-training" />Siehe verwandte [Microsoft Schulungen](/training/paths/set-up-fixed-assets-management/)
 
 ## <a name="see-also" />Siehe auch
 

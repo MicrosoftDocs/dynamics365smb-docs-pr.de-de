@@ -26,7 +26,7 @@ In diesem Artikel finden Sie Informationen zu den Funktionen, die [!INCLUDE[prod
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="a-namenavigationa-navigation" /><a name="Navigation"></a> Navigation
+## <a name="navigation" /><a name="Navigation"></a> Navigation
   
 Sie können verschiedene Kombinationen der Tabulator-, Umschalt- und Pfeiltasten Ihrer Tastatur verwenden, um zwischen Elementen auf einer Seite zu wechseln. Zu den Elementen gehören Aktionen, Felder und Spalten, Teile und andere Steuerelemente. Wählen Sie die <kbd>Tabulatortaste</kbd> oder <kbd>Umschalt</kbd>+<kbd>Tabulatortaste</kbd>, um zum nächsten oder vorherigen Element zu wechseln.
 
@@ -34,19 +34,19 @@ Wenn Sie den Fokus auf einen Bereich legen, der Aktionen enthält, wie die Navig
 
 Mit Hilfe der Tabulatorreihenfolge können Sie auch zwischen der Hauptseite des Browsers und Dialogfeldern, die z. B. eine Bestätigung anfordern, oder der Anmeldeseite wechseln.  
 
-## <a name="a-nameheadingsa-headings-in-content" /><a name="Headings"></a> Überschriften in Content
+## <a name="headings-in-content" /><a name="Headings"></a> Überschriften in Content
 
 Die HTML-Quelle für den [!INCLUDE[prod_short](includes/prod_short.md)] Inhalt verwendet Tags, um Benutzern der assistive Technologie zu helfen, die Struktur und den Inhalt der Seite zu erkennen. So werden beispielsweise für Listenseiten die Spalten in den Spaltenüberschriften und die Kategorien festgelegt und werden mit TITEL-Aattribut innerhalb des Tags festgelegt. Caption für Elementen wie Felder, Infoboxen und Inforegister sind in den Überschriftstags enthalten (H1, H2, H3 und H4).  
 
-## <a name="a-nameimagesa-image-and-links" /><a name="Images"></a> Bild und Links
+## <a name="image-and-links" /><a name="Images"></a> Bild und Links
 
 Ein Text für Bilder wird mit dem ALT-Attribut innerhalb des IMG-Tags festgelegt. Ein beschreibender Text für Hyperlinks wird mit dem Titelattribut innerhalb des A-Tags festgelegt.  
 
-## <a name="a-nameassistivetecha-assistive-technologies" /><a name="AssistiveTech"></a> Assistive Technologien
+## <a name="assistive-technologies" /><a name="AssistiveTech"></a> Assistive Technologien
 
 [!INCLUDE[prod_short](includes/prod_short.md)] unterstützt verschiedene assistive Technologien, wie kontrastreiches, Sprachausgaben und Spracherkennungs-Software. Einige assistive Technologien funktionieren möglicherweise nicht mit bestimmten Elementen«» [!INCLUDE[prod_short](includes/prod_short.md)] in Seiten.  
 
-## <a name="a-namezooma-zoom" /><a name="zoom"></a> Zoom
+## <a name="zoom" /><a name="zoom"></a> Zoom
 
 Die meisten Browser verwenden Standardtastenkürzel, um die aktuelle Seite zu vergrößern und zu verkleinern. Diese Tastenkombinationen sind nicht spezifisch für [!INCLUDE [prod_short](includes/prod_short.md)], aber sie funktionieren, wenn Sie [!INCLUDE [prod_short](includes/prod_short.md)] in einem Browser verwenden. Eine Liste der unterstützten Tastaturkürzel finden Sie unter [Tastaturkürzel zum Vergrößern und Verkleinern](keyboard-shortcuts.md#zoomshortcuts).
 

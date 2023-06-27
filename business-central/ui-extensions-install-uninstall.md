@@ -22,7 +22,7 @@ Sie können [!INCLUDE[prod_short](includes/prod_short.md)] ändern, indem Sie Ap
 
 Um eine Erweiterung zu verwenden, müssen Ihnen die zugehörigen Berechtigungssätze zugewiesen werden.
 
-## <a name="a-nameinstallainstall-an-extension" /><a name="install"></a>Erweiterung installieren
+## <a name="install-an-extension" /><a name="install"></a>Erweiterung installieren
 
 Sie verwalten Apps und Erweiterungen auf der **Erweiterungsverwaltung**-Seite. Sie können vom Startbildschirm auf diese Seite zugreifen. Alternativ wählen Sie das Symbol **Seite oder Bericht suchen** ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") in der oberen rechten Ecke, geben Sie **Erweiterung** ein und wählen Sie dann den entsprechenden Link.  
 
@@ -103,7 +103,7 @@ Wenn Sie eine App deinstallieren, die Sie verwendet haben, werden Ihre Daten nic
 [[!INCLUDE[prod_short](includes/prod_short.md)] Erweiterungen für andere Anbieter](ui-extensions-other.md)  
 [Vorbereitung für die Geschäftstätigkeit](ui-get-ready-business.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

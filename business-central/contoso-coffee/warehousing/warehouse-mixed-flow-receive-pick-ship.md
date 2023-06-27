@@ -92,10 +92,10 @@ Weitere Informationen finden Sie unter [Designdetails: Ausgehender Lagerfluss](.
 
 In der folgenden Vorgehensweise wird Methode D in der vorhergegangenen Tabelle beschrieben.
 
-### <a name="scenario" />Szenario
+### <a name="scenario-1" />Szenario
 Susan, die Auftragsbearbeiterin, erstellt einen Verkaufsauftrag für verschiedene geröstete Bohnen und übergibt ihn an das Lager. Da alle Bestellungen vom selben Kunden kommen, beschließt die Lagerleiterin Ellen, sie zusammen zu versenden. John, der Lagermitarbeiter muss sicherstellen, dass die Lieferung an den Debitor vorbereitet und geliefert wird.
 
-### <a name="steps" />Schritte
+### <a name="steps-1" />Schritte
 Das ist eine Fortsetzung von [Eingeheder Flow: Eingang und Einlagerung in Basis-Lagerkonfigurationen](#inbound-flow-receiving-and-putting-away-in-basic-warehouse-configurations).
 
 1. Bestellung(en) für Wareneingang freigeben.  
@@ -137,7 +137,7 @@ Das ist eine Fortsetzung von [Eingeheder Flow: Eingang und Einlagerung in Basis-
     4. Wählen Sie dann die Aktion **Versand buchen** aus.
     5. Bestätigen Sie die Option **Versenden** .
 
-### <a name="results" />Ergebnisse
+### <a name="results-1" />Ergebnisse
  - die gerösteten Bohnen werden jetzt als aus bestimmten Behältern entnommen registriert 
  - die **Registrierte Lager-Kommissionierung** wird erstellt
  - die Seite **Gebuchter Lagerversand** wird geöffnet

@@ -11,7 +11,7 @@ ms.search.form: '2650, 2750, 2752, 2753, 2754, 8900,'
 ms.date: 02/09/2023
 ms.author: jswymer
 ---
-# <a name="a-namedefaultaspecify-a-default-printer" /><a name="default"></a>Standarddrucker festlegen
+# <a name="specify-a-default-printer" /><a name="default"></a>Standarddrucker festlegen
 
 Nachdem Drucker in Business Central eingerichtet wurden, können Sie festlegen, welchen Drucker Sie standardmäßig verwenden möchten. Es gibt verschiedene Möglichkeiten, Drucker als Standarddrucker für Berichte und andere Druckaufträge festzulegen. Ein Standarddrucker ist nützlich, wenn Sie mit verschiedenen Berichten arbeiten, die aufgrund ihrer Platzierung in der Firma oder ihrer Ausgabemöglichkeiten unterschiedliche Drucker erfordern.
 

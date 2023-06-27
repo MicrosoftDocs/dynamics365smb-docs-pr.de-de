@@ -31,7 +31,7 @@ Sie können eine Reihe von Einlagerungsmethoden einrichten und eine von diesen a
 
 Sie können verschiedene Einlagerungsmethoden erstellen und diese dann anwenden, wie Sie es für richtig halten. Als Erstes wird die Einlagerungsmethode berücksichtigt, die Sie für den Artikel oder die Lagerhaltungsdaten ausgewählt haben (falls Sie dies getan haben). Wenn diese Felder nicht ausgefüllt sind, wird die Einlagerungsmethode berücksichtigt, die Sie für das Lager im Inforegister **Lagerplatzprüfung** auf der Lagerortkarte ausgewählt haben.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesput-away-templates" />Siehe verwandte [Microsoft Schulungen](/training/modules/put-away-templates/)
+## <a name="see-related-microsoft-training" />Siehe verwandte [Microsoft Schulungen](/training/modules/put-away-templates/)
 
 ## <a name="see-also" />Siehe auch
 

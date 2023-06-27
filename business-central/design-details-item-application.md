@@ -69,7 +69,7 @@ Wenn Sie einen Lagerabgang buchen, wird ein Artikelausgleichsposten erfasst, der
 
 In der Tabelle **Artikelposten** enthält das Feld **Restmenge die Menge**, für die es noch keine Verknüpfung gibt. Wenn die Restmenge größer als 0 ist, wird das Kontrollkästchen **Offen** aktiviert.  
 
-### <a name="example" />Beispiel
+### <a name="example-1" />Beispiel
 Das folgende Beispiel zeigt einen Artikelausgleichsposten, der erstellt wird, wenn Sie eine Verkaufslieferung buchen, die 5 Einheiten der Artikel umfasst, die im vorherigen Beispiel eingegangen sind. Der erste Artikelausgleichsposten ist der Einkaufseingang. Der zweite Ausgleichsposten ist die Verkaufslieferung.  
 
 Die folgende Tabelle zeigt die beiden Artikelausgleichsposten, die aus der Bestandserhöhung und der Bestandsminderung resultieren.  

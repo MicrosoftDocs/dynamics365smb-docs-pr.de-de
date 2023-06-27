@@ -82,7 +82,7 @@ enum 5334 "CDS Payment Terms Code"
 
 Alle obigen [!INCLUDE[prod_short](includes/prod_short.md)] Enums werden den Optionssätzen in [!INCLUDE[prod_short](includes/cds_long_md.md)] zugeordnet.
 
-### <a name="extending-option-sets-in-includeprodshortincludesprodshortmd" />Optionssätze in [!INCLUDE[prod_short](includes/prod_short.md)] erweitern
+### <a name="extending-option-sets-in-" />Optionssätze in [!INCLUDE[prod_short](includes/prod_short.md)] erweitern
 1. Erstellen Sie eine neue AL-Erweiterung.
 
 2. Fügen Sie eine Enum-Erweiterung für die Optionen hinzu, die Sie erweitern möchten. Achten Sie darauf, dass Sie den gleichen Wert verwenden. 
@@ -104,7 +104,7 @@ enumextension 50100 "CDS Payment Terms Code Extension" extends "CDS Payment Term
 > [!NOTE]
 > Die ersten zehn Zeichen der neuen Optionswertnamen und Beschriftungen müssen eindeutig sein. Beispielsweise führen zwei Optionen mit den Namen „Übertragung 20 Arbeitstage“ und „Übertragung 20 Kalendertage“ zu einem Fehler, da beide die gleichen ersten 10 Zeichen, „Übertragung 2“, haben. Nennen Sie sie z.B. „TRF20 WD“ und „TRF20 CD“.
 
-### <a name="update-includeprodshortincludescdslongmdmd-option-mapping" />Update [!INCLUDE[prod_short](includes/cds_long_md.md)] Optionszuordnung
+### <a name="update--option-mapping" />Update [!INCLUDE[prod_short](includes/cds_long_md.md)] Optionszuordnung
 Jetzt können Sie die Zuordnung zwischen [!INCLUDE[prod_short](includes/cds_long_md.md)]-Optionen und [!INCLUDE[prod_short](includes/prod_short.md)]-Einträgen neu erstellen.
 
 Wählen Sie auf der Seite **Integration Tabellenzuordnung** die Zeile für die Karte **Zahlungsbedingungen** und wählen Sie dann die Aktion **Modifizierte Datensätze synchronisieren**. Die Seite **Dataverse Optionszuordnung** wird mit den zusätzlichen Datensätzen unten aktualisiert.

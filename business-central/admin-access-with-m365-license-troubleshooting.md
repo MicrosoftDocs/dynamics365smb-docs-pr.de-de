@@ -26,11 +26,11 @@ Höchstwahrscheinlich fehlen Ihnen Objektberechtigungen für Tabellen, auf die d
 
 ## <a name="microsoft-365-access-has-been-enabled-but-users-get-a-permission-error" />Microsoft 365 Zugriff wurde aktiviert, aber Benutzer erhalten beim Zugriff auf einen Datensatz einen Berechtigungsfehler
 
-### <a name="symptoms" />Symptome
+### <a name="symptoms-1" />Symptome
 
 Der Zugriff mit Microsoft 365 wurde im Business Central Admin Center aktiviert, aber Benutzer erhalten beim Zugriff auf einen Datensatz einen Berechtigungsfehler.
 
-### <a name="cause" />Grund
+### <a name="cause-1" />Grund
 
 Wenn Sie den Zugriff im Business Central Admin Center aktivieren, aber keine Berechtigungen auf der **Lizenzkonfigurationsseite** zuweisen, wird jedem, der versucht, auf Business Central-Datensätze in Teams zuzugreifen, sein Benutzerdatensatz ohne Berechtigung für Objekte bereitgestellt. Business Central ist von Natur aus sicher: Administratoren müssen zunächst konfigurieren, auf welche Daten in Teams zugegriffen werden kann. 
 
@@ -40,25 +40,25 @@ Das Anpassen von Berechtigungen auf der Lizenzkonfigurationsseite wirkt sich nur
 
 ## <a name="you-shared-a-link-in-teams-but-users-get-a-message-that-they-can-only-view-data" />Sie haben einen Link in Teams geteilt, aber Benutzer erhalten eine Meldung, dass sie nur Daten anzeigen können
 
-### <a name="symptoms" />Symptome
+### <a name="symptoms-2" />Symptome
 
 Wenn ich einen Link in Teams als Business Central Benutzer freigebe, erhalten andere die Fehlermeldung „Beim Zugriff auf Business Central mit einer Microsoft 365-Lizenz können Sie nur Daten in Microsoft Teams anzeigen“.
 
-### <a name="cause" />Grund
+### <a name="cause-2" />Grund
 
 Wenn Sie einen Business Central-Link für Teams-Chats oder -Kanäle freigeben, wird durch das Navigieren eines Links immer aus Microsoft Teams heraus navigiert, wo die Daten nicht mehr zugänglich für eine Person sind, die eine Microsoft 365-Lizenz hat.
 
-### <a name="resolution" />Lösung
+### <a name="resolution-1" />Lösung
 
 Fügen Sie beim Teilen von Seiten oder Datensätzen entweder die Linkvorschau als Karte hinzu oder teilen Sie Daten als Registerkarte im Chat oder Kanal.
 
 ## <a name="card-from-shared-link-is-minimal-and-doesnt-include-details-button" />Die Karte vom freigegebenen Link ist minimal und enthält keine Detail-Schaltfläche
 
-### <a name="symptoms" />Symptome
+### <a name="symptoms-3" />Symptome
 
 Wenn ein Microsoft 365 Lizenzinhaber ohne Business Central-Lizenz einen Business Central-Link in Teams teilt, wird dieser automatisch zu einer Karte erweitert, die keine nützlichen Informationen enthält und nur Business Central ohne die Schaltfläche **Details** anzeigt.
 
-### <a name="cause" />Grund
+### <a name="cause-3" />Grund
 
 Benutzer, die eine Microsoft 365 Lizenz, aber keine Business Central-Lizenz haben, dürfen Links nicht als Karten freigeben. Wenn der Benutzer die Business Central-App für Teams installiert hat und einen Link in den Erstellungsbereich einfügt, wird nur eine minimale Karte angezeigt. 
 

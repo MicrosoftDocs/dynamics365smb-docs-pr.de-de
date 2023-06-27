@@ -71,7 +71,7 @@ Wenn Benutzer in Microsoft 365 erstellt werden, können sie in die Seite **Benut
 
 [!INCLUDE [ua-get-help](includes/ua-get-help.md)] Weitere Informationen finden Sie unter [Ressourcen für Hilfe und Support](product-help-and-support.md).  
 
-### <a name="set-up-your-company-in-includeprodshortincludesprodshortmd" />Ihr Unternehmen in [!INCLUDE[prod_short](includes/prod_short.md)] einrichten
+### <a name="set-up-your-company-in-" />Ihr Unternehmen in [!INCLUDE[prod_short](includes/prod_short.md)] einrichten
 
 Die [Schnellstart](quick-start-business-central.md)-Artikel können Ihnen helfen, die ersten Schritte zur Festlegung von [!INCLUDE [prod_short](includes/prod_short.md)] für Ihr Unternehmen zu unternehmen. Innerhalb von [!INCLUDE [prod_short](includes/prod_short.md)] finden Sie auf der Seite **Unterstützte Einrichtung** die Anleitungen für die unterstützte Einrichtung, die Ihnen helfen können. Abhängig von Ihrer Rolle und Ihrem Land oder Ihrer Region zeigt die Seite verschiedene Assistenten für die Einrichtung, wie in der folgenden Tabelle dargestellt:
 
@@ -112,6 +112,6 @@ Auf Grundlage Ihre migrierten Daten können Sie jetzt fortfahren, um neue Verkä
 [Daten migrieren](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
 [Testversionen und Abonnements](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -25,7 +25,7 @@ Ein Bericht in [!INCLUDE[prod_short](includes/prod_short.md)] sammelt Informatio
 | So ändern Sie das Standardlayout für einen Bericht. | [Das Standard-Layout für Berichte ändern](ui-how-change-layout-currently-used-report.md) |
 | Anzeigen und Analysieren von Daten aus einem Dataset in Microsoft Excel. | [Berichts-Dataset über die Anforderungsseite in Excel speichern](/dynamics365-release-plan/2021wave1/smb/dynamics365-business-central/save-report-dataset-excel-request-page) |
 
-## <a name="see-related-microsoft-trainingtrainingpathssetup-reporting-dynamics-365-business-central" />Siehe verwandte [Microsoft Schulungen](/training/paths/setup-reporting-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Siehe verwandte [Microsoft Schulungen](/training/paths/setup-reporting-dynamics-365-business-central/)
 
 ## <a name="see-also" />Siehe auch
 

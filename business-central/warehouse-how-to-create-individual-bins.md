@@ -70,7 +70,7 @@ Um mit der **Lagerplatz Erst.-Arbeitsblatt**-Seite zu arbeiten, müssen Sie als 
 
 Wiederholen Sie diesen Vorgang für die nächste Serie von Lagerplätzen, bis Sie alle Lagerplätze in Ihrem Lager erstellt haben.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-new-bins" />Siehe verwandte [Microsoft Schulungen](/training/modules/create-new-bins/)
+## <a name="see-related-microsoft-training" />Siehe verwandte [Microsoft Schulungen](/training/modules/create-new-bins/)
 
 ## <a name="see-also" />Siehe auch
 

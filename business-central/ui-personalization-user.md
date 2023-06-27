@@ -58,7 +58,7 @@ Wie bei anderen Personalisierungen werden die Änderungen, die Sie an der Spalte
 6. Wählen Sie das Element aus und wählen Sie dann eine der beiden Optionen **Bewegung**, **Entfernen**, **Verbergen, verstecken**, **Anzeigen**, **Anzeigen unter mehr anzeigen**, **Anzeigen, wenn alle verborgen**, **Immer anzeigen**, **Einfrierfenster einstellen/löschen**, oder **Schnelleingabe einschließen/ausschließen**, abhängig vom T und Status des Oberflächenelements. Weitere Informationen finden Sie unter [Was Sie personalisieren können](#What).
 7. Wenn Sie das Layout einer oder mehrerer Seiten geändert haben, wählen Sie die Schaltfläche **Fertig** im Banner **Personalisierung**.
 
-## <a name="a-namewhatawhat-you-can-personalize" /><a name="What"></a>Was Sie personalisieren können
+## <a name="what-you-can-personalize" /><a name="What"></a>Was Sie personalisieren können
 
 |Was möchten Sie tun|So geht es|Bemerkungen|
 |----|------------|-------|
@@ -74,7 +74,7 @@ Wie bei anderen Personalisierungen werden die Änderungen, die Sie an der Spalte
 |Fügen Sie einer Seite oder einem Bericht in Ihrem Role Center eine neue Aktion hinzu.|Wählen Sie das Lesezeichensymbol auf der Zielseite, auf der Berichtsanforderungsseite oder im Fenster „Wie möchten Sie weiter verfahren“ aus.|Weitere Informationen finden Sie unter [Erstellen eines Lesezeichens für eine Seite oder einen Bericht im Rollencenter](ui-bookmarks.md)|
 |Listen immer erweitert oder reduziert anzeigen|Wählen Sie in der oberen linken Ecke der Liste die Schaltfläche **Alle erweitern** oder **Alle reduzieren** aus. Sie können auch die Aktion **Alle erweitern** oder **Alle reduzieren** im Menü der ersten Spalte auswählen. |Gilt für reduzierbare Hierarchielisten|
 
-## <a name="a-nameactionsapersonalizing-the-action-bar-and-menus" /><a name="Actions"></a>Personalisierung der Aktionsleiste und Menüs
+## <a name="personalizing-the-action-bar-and-menus" /><a name="Actions"></a>Personalisierung der Aktionsleiste und Menüs
 
 Mit der Personalisierung können Sie entscheiden, welche Aktionen auf den Navigations- und Aktionsleisten und in den Rollenzentren angezeigt werden sollen und wo sie angezeigt werden sollen. Sie können einzelne Aktionen oder Aktionsgruppen ausblenden, anzeigen oder verschieben.
 
@@ -116,7 +116,7 @@ Stellen, an denen Sie Aktionen oder Aktionsgruppen ablegen können, wird durch e
 1. Um eine Aktion oder eine Aktionsgruppe zu verschieben, ziehen Sie sie an die gewünschte Position, wie bei Feldern und Spalten.
 2. Um eine Aktion oder eine Aktionsgruppe in eine andere leere Aktionsgruppe zu verschieben, ziehen Sie Aktion oder Aktionsgruppe in die neue Gruppe und lassen Sie sie im Feld **Aktion hier ablegen** fallen.
 
-## <a name="a-namepartsapersonalizing-parts" /><a name="Parts"></a>Personalisierung von Teilen
+## <a name="personalizing-parts" /><a name="Parts"></a>Personalisierung von Teilen
 
 Teile sind Bereiche auf einer Seite, die in der Regel aus mehreren Feldern, Diagrammen oder anderen Inhalten bestehen. Ein Teil zeigt einen farbigen Rahmen, wenn Sie den Fokus auf den Teil legen. Beispielsweise besteht ein Startbildschirm des Rollenzentrums aus mehreren Teilen. Aufgrund ihrer klar definierten Grenzen können Sie den gesamten Teil und dessen Inhalt personalisieren.
 
@@ -158,7 +158,7 @@ Um die Personalisierung besser zu verstehen, finden Sie hier einige Hinweise.
    > [!TIP]
    > Als Administrator können Sie das Element **Automatisierung** vor den Benutzern verbergen. Mehr dazu erfahren Sie unter [Einrichten der Power Automate Integration](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup).
 
-## <a name="see-related-microsoft-trainingtrainingmodulespersonalize-ui-dynamics-365-business-centralindex" />Siehe verwandte [Microsoft Schulungen](/training/modules/personalize-ui-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Siehe verwandte [Microsoft Schulungen](/training/modules/personalize-ui-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Siehe auch
 [Seiten für Profile anpassen](ui-personalization-manage.md)  

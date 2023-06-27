@@ -32,7 +32,7 @@ Sie können alle relevanten Daten auf der Seite **Firmeninformationen** eingeben
 
 Sobald Sie die Informationen ausgefüllt haben, können Sie die Seite schließen.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-new-companies-dynamics-365-business-central" /><a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/create-new-companies-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" /><a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/create-new-companies-dynamics-365-business-central/)
 
 ## <a name="see-also" /><a name="see-also"></a>Siehe auch
 

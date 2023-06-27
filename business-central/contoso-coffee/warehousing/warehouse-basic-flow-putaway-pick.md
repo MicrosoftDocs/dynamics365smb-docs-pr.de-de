@@ -119,10 +119,10 @@ Weitere Informationen finden Sie unter [Designdetails: Ausgehender Lagerfluss](.
 
 In der folgenden Vorgehensweise wird Methode B in der vorhergegangenen Tabelle beschrieben.
 
-### <a name="scenario" />Szenario
+### <a name="scenario-1" />Szenario
 Susan, die Auftragsbearbeiterin, erstellt einen Verkaufsauftrag für verschiedene geröstete Bohnen und übergibt ihn an das Lager. John, der Lagermitarbeiter muss sicherstellen, dass die Lieferung an den Debitor vorbereitet und geliefert wird. John verwaltet alle beteiligten Aufgaben auf der Seite **Lagerkommissionierung**, das automatisch auf die Lagerplätze verweist, in denen geröstete Bohnen gespeichert wird.
 
-### <a name="steps" />Schritte
+### <a name="steps-1" />Schritte
 Das ist eine Fortsetzung von [Eingeheder Flow: Eingang und Einlagerung in Basis-Lagerkonfigurationen](#inbound-flow-receiving-and-putting-away-in-basic-warehouse-configurations).
 
 1. Einstellungen auf der Seite **Lagerortkarte**, um die eingehenden Warenflüsse des Unternehmens anzugeben.  
@@ -159,7 +159,7 @@ Das ist eine Fortsetzung von [Eingeheder Flow: Eingang und Einlagerung in Basis-
 
 5. Wählen Sie die Aktion **Buchen** und **Versand** und klicken Sie anschließend auf die Schaltfläche **OK**.  
 
-### <a name="results" />Ergebnisse
+### <a name="results-1" />Ergebnisse
  - Die gerösteten Bohnen werden jetzt als aus bestimmten Behältern entnommen registriert
  - die **Posted Invt. Entnahme** wird erstellt
  - die **Gebuchte Verkaufslieferung** wird erstellt

@@ -52,7 +52,7 @@ Um Ausgaben, die sich auf Gebühren einer bestimmten Bank, MyBank, beziehen, imm
 | --- | --- | --- | --- | --- |
 | MyBank |LEER |60400|Sachkonto |LEER |
 
-## <a name="see-related-microsoft-trainingtrainingmodulesuse-journals-dynamics-365-business-central" />Siehe verwandte [Microsoft Schulungen](/training/modules/use-journals-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Siehe verwandte [Microsoft Schulungen](/training/modules/use-journals-dynamics-365-business-central/)
 
 ## <a name="see-also" />Siehe auch
 

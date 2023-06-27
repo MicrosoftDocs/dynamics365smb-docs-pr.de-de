@@ -8,11 +8,11 @@ ms.search.keywords: null
 ms.date: 06/25/2021
 ms.author: soalex
 ---
-# Warnungen zu landes-/regionsspezifischen gesetzliche Funktionen übermitteln
+# <a name="submit-alerts-about-countryregion-specific-regulatory-features" />Warnungen zu landes-/regionsspezifischen gesetzliche Funktionen übermitteln
 
 Wir laden Sie ein, Microsoft Dynamics Lifecycle Services (LCS) zu verwenden, um gesetzliche Warnungen über den Dynamics-Übermittlungsdienst für Gesetzeswarnungen zu senden.  
 
-## So übermitteln Sie regulatorische Warnungen in LCS
+## <a name="to-submit-a-regulatory-alert-in-lcs" />So übermitteln Sie regulatorische Warnungen in LCS
 
 1. Wechseln Sie zu [https://lcs.dynamics.com](https://lcs.dynamics.com), und melden Sie sich an.  
 
@@ -65,7 +65,7 @@ Wir laden Sie ein, Microsoft Dynamics Lifecycle Services (LCS) zu verwenden, um 
 
       Nachdem Sie die Warnung gesendet haben, erhalten Sie eine Bestätigung, dass die Warnung erfolgreich an Microsoft gesendet wurde.
 
-## Siehe auch
+## <a name="see-also" />Siehe auch
 
 [Lokale Funktion in [!INCLUDE[prod_long](includes/prod_long.md)]](about-localization.md)  
 [Sprache und Gebiet ändern](about-locale-language.md)  

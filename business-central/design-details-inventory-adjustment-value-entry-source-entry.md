@@ -158,7 +158,7 @@ Die Benutzergruppen, die nicht erlaubt sind, um im Dezember gebucht zu werden, s
 
 ## <a name="item-charge-scenario" />Szenario Artikel Zu-/Abschläge
 
-### <a name="prerequisites" />Voraussetzungen
+### <a name="prerequisites-1" />Voraussetzungen
 
 Bitte geben Sie die folgenden Werte ein:
 
@@ -184,7 +184,7 @@ Bitte geben Sie die folgenden Werte ein:
 
 - Anlagenbuchungen zugel. bis = Leer  
 
-### <a name="to-test-the-scenario" />So testen Sie das Szenario
+### <a name="to-test-the-scenario-1" />So testen Sie das Szenario
 
 Testen Sie dieses Szenario, indem Sie die folgenden Schritte ausführen:
 

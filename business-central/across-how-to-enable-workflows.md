@@ -22,7 +22,7 @@ Auf der Seite **Workflow** können Sie einen Workflow erstellen, indem Sie die e
 2. Öffnen Sie den Workflow, den Sie aktivieren möchten.  
 3. Aktivieren Sie auf der Seite **Workflow** das Kontrollkästchen **Aktiviert**.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-workflows" />Siehe verwandte [Microsoft Schulungen](/training/modules/create-workflows/)
+## <a name="see-related-microsoft-training" />Siehe verwandte [Microsoft Schulungen](/training/modules/create-workflows/)
 
 ## <a name="see-also" />Siehe auch
 

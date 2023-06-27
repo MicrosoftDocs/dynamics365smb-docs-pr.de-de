@@ -17,7 +17,7 @@ Wenn Microsoft im Rahmen kleinerer Updates Funktionen oder Verbesserungen des Fu
 
 Weitere Informationen finden Sie unter [Funktionsverwaltung](/dynamics365/business-central/dev-itpro/administration/feature-management).  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesadmin-online-dynamics-365-business-central" />Siehe verwandte [Microsoft Schulungen](/training/modules/admin-online-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Siehe verwandte [Microsoft Schulungen](/training/modules/admin-online-dynamics-365-business-central/)
 
 ## <a name="see-also" />Siehe auch
 

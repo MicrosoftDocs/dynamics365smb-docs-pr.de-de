@@ -115,7 +115,7 @@ Nachdem Sie den Warenausgang gebucht haben, werden verschiedene Felder in der Ve
 >
 > Die Menge der Programmfertigung wird wie in diesem Artikel beschrieben gehandhabt. Die Lagerbestandsmenge wird als reguläre Warenausgangsposition gehandhabt. Weitere Informationen zu Kombinationsszenarien finden Sie unter [Auftragsmontage und Lagermontage verstehen](assembly-assemble-to-order-or-assemble-to-stock.md).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesship-invoice-items-dynamics-365-business-central" />Siehe verwandte [Microsoft Schulungen](/training/modules/ship-invoice-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Siehe verwandte [Microsoft Schulungen](/training/modules/ship-invoice-items-dynamics-365-business-central/)
 
 ## <a name="see-also" />Siehe auch
 

@@ -19,7 +19,7 @@ Nachdem Sie einen Zahlungsverkehr in [!INCLUDE[prod_short](includes/prod_short.m
 
 Die Erweiterungen PayPal Payments Standard und WorldPay Payments Standard sind in [!INCLUDE[prod_short](includes/prod_short.md)] installiert und können von Ihnen aktiviert werden.  
 
-## <a name="to-enable-a-payment-service-in-includeprodshortincludesprodshortmd" />Einen Zahlungsverkehr in [!INCLUDE[prod_short](includes/prod_short.md)] aktivieren
+## <a name="to-enable-a-payment-service-in-" />Einen Zahlungsverkehr in [!INCLUDE[prod_short](includes/prod_short.md)] aktivieren
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Zahlungsverkehr** ein, und wählen Sie dann den entsprechenden Link.  
 2. Wählen Sie auf der Seite **Zahlungsverkehr** die Aktion **Neu** aus.  
@@ -37,7 +37,7 @@ Die Erweiterungen PayPal Payments Standard und WorldPay Payments Standard sind i
     > [!NOTE]  
     > Das Feld **Zahlungsverkehr** ist verfügbar, wenn Sie den Zahlungsservice aktiviert haben.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescash-management-dynamics-365-business-central" />Siehe verwandte [Microsoft Schulungen](/training/modules/cash-management-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Siehe verwandte [Microsoft Schulungen](/training/modules/cash-management-dynamics-365-business-central/)
 
 ## <a name="see-also" />Siehe auch
 

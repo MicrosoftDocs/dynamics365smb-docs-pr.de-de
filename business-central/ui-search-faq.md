@@ -30,7 +30,7 @@ Aktionen, Seiten und Berichte, die aus Erweiterungen stammen, werden von „Wie 
 
 Die Seitensuche wurde zu „Wie möchten Sie weiter verfahren“ weiterentwickelt, damit Sie schneller arbeiten können. Die Seitensuche konnte Ihnen nur bei der Navigation in Seiten oder Berichten helfen. Auf technischer Ebene basiert „Wie möchten Sie weiter verfahren“ nicht mehr auf dem vorherigen MenuSuite-Konzept.
 
-### <a name="i-use-on-premises-includeprodshortincludesprodshortmd-does-that-include-tell-me" />Ich verwende [!INCLUDE[prod_short](includes/prod_short.md)] lokal. Schließt das „Wie möchten Sie weiter verfahren“ ein?
+### <a name="i-use-on-premises--does-that-include-tell-me" />Ich verwende [!INCLUDE[prod_short](includes/prod_short.md)] lokal. Schließt das „Wie möchten Sie weiter verfahren“ ein?
 
 Sie können „Wie möchten Sie weiter verfahren“ mit dem lokalen Webclient verwenden, um nach Aktionen, Seiten und Berichten zu suchen, aber nicht nach Apps und Beratungsdiensten auf AppSource.
 

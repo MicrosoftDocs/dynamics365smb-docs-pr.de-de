@@ -77,7 +77,7 @@ Die folgende Tabelle enthält einige Beispiele, um zu erläutern, wie Sie die Su
 |`@*man`|Alle Datensätze, die mit dem Text **man** enden, ungeachtet der Groß-/Kleinschreibung. Beispielsweise **Roman**, aber nicht **Mannheim** oder **manuell**.|
 
 
-## <a name="a-namefilteringafiltering" /><a name="filtering"></a>Filterung
+## <a name="filtering" /><a name="filtering"></a>Filterung
 
 Filterung bietet eine erweiterte und vielseitigere Art zum Steuern der in einer Liste, einem Bericht oder einem XMLport angezeigten Datensätze. Es gibt zwei wichtige Unterschiede zwischen Suchen und Filtern, wie in der folgenden Tabelle beschrieben wird.
 
@@ -249,7 +249,7 @@ Beim Eingeben von Filterkriterien können alle Ziffern und Buchstaben verwendet 
 |`..1299|1400..`|Alle Datensätze mit Nummern kleiner als bzw. gleich 1299 oder mit Nummern größer als bzw. gleich 1400, d. h. alle Datensatznummern außer 1300 bis 1399.|  
 |`>50&<100`|Alle Datensätze mit Nummern größer als 50 und kleiner als 100, d. h. mit Nummern zwischen 51 und 99.|  
 
-### <a name="a-namesymbolsafiltering-on-values-that-contain-symbols" /><a name="symbols"></a>Filtern nach Werten, die Symbole enthalten
+### <a name="filtering-on-values-that-contain-symbols" /><a name="symbols"></a>Filtern nach Werten, die Symbole enthalten
 
 Es kann Fälle geben, in denen Feldwerte eines der folgenden Symbole enthalten:
 
@@ -302,7 +302,7 @@ Verwenden Sie `%myvendors` im Feld Kreditoren-**Nr**, um alle Datensätze für K
 |-----------------------|-----------------------|  
 |`%myvendors`|Kreditoren in **Meine Kreditoren** in Ihrem Rollencenter. |  
 
-## <a name="see-related-microsoft-trainingtrainingmodulessearch-filter-sort-data-dynamics-365-business-central" />Siehe verwandte [Microsoft Schulungen](/training/modules/search-filter-sort-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Siehe verwandte [Microsoft Schulungen](/training/modules/search-filter-sort-data-dynamics-365-business-central/)
 
 ## <a name="see-also" />Siehe auch
 

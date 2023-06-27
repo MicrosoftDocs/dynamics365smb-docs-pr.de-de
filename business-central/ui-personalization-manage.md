@@ -62,7 +62,7 @@ Sie können auch alle individuellen Seitenanpassungen löschen, die Sie für ein
 
 Das Layout der ausgewählten Seiten wird an die von Ihnen vorgenommenen Änderungen angepasst.
 
-## <a name="see-related-microsoft-trainingtrainingpathstailor-roles-design-ui" />Siehe verwandte [Microsoft Schulungen](/training/paths/tailor-roles-design-ui/)
+## <a name="see-related-microsoft-training" />Siehe verwandte [Microsoft Schulungen](/training/paths/tailor-roles-design-ui/)
 
 ## <a name="see-also" />Siehe auch
 

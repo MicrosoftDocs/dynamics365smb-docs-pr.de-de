@@ -25,7 +25,7 @@ Wenn Sie [!INCLUDE[crm_md](includes/crm_md.md)] bereits mit [!INCLUDE[prod_short
 > [!NOTE]
 > Eine erneute Verbindung über [!INCLUDE[prod_short](includes/cds_long_md.md)] wendet die Standard-Synchronisationseinstellungen an und überschreibt alle Ihre Konfigurationen. Es werden zum Beispiel die Standard-Tabellenzuordnungen angewendet.
 
-## <a name="integration-settings-that-are-specific-to-a-includecrmmdincludescrmmdmd-integration" />Integrationseinstellungen, die spezifisch für eine [!INCLUDE[crm_md](includes/crm_md.md)]-Integration sind
+## <a name="integration-settings-that-are-specific-to-a--integration" />Integrationseinstellungen, die spezifisch für eine [!INCLUDE[crm_md](includes/crm_md.md)]-Integration sind
 Die Integration mit [!INCLUDE[prod_short](includes/prod_short.md)] erfolgt über [!INCLUDE[prod_short](includes/cds_long_md.md)], und es werden viele Standardeinstellungen und Tabellen bereitgestellt. Zusätzlich zu den Standardeinstellungen gibt es einige, die spezifisch für [!INCLUDE[crm_md](includes/crm_md.md)] sind. In den folgenden Abschnitten sind diese Einstellungen aufgeführt.
 
 ## <a name="permissions-and-security-roles-for-user-accounts-in-sales" />Berechtigungen und Sicherheitsrollen für Benutzerkonten im Vertrieb

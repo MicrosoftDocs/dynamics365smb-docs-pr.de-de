@@ -11,7 +11,7 @@ ms.custom: bap-template
 ms.service: dynamics365-business-central
 ---
 
-# <a name="managing-microsoft-teams-integration-with-include-prodshortincludesprodshortmd" />Verwalten der Microsoft Teams-Integration mit [!INCLUDE [prod_short](includes/prod_short.md)]
+# <a name="managing-microsoft-teams-integration-with-" />Verwalten der Microsoft Teams-Integration mit [!INCLUDE [prod_short](includes/prod_short.md)]
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
@@ -42,7 +42,7 @@ In diesem Abschnitt werden die Mindestanforderungen für die Verwendung der [!IN
 
     Die Richtlinieneinstellung **URL-Vorschau zulassen** muss aktiviert sein. Andernfalls kann keine Karte für [!INCLUDE [prod_short](includes/prod_short.md)] Links generiert werden, die in eine Teams-Unterhaltung eingefügt werden. Weitere Informationen zu dieser Einstellung finden Sie unter [Nachrichtenrichtlinien in Teams verwalten](/microsoftteams/messaging-policies-in-teams).
 
-### <a name="managing-the-include-prodshortincludesprodshortmd-app-optional" />Verwalten der [!INCLUDE [prod_short](includes/prod_short.md)] App (optional)
+### <a name="managing-the--app-optional" />Verwalten der [!INCLUDE [prod_short](includes/prod_short.md)] App (optional)
 
 Als Teams-Administrator können Sie alle Apps für Ihre Organisation verwalten, einschließlich der [!INCLUDE [prod_short](includes/prod_short.md)]-App. Sie können die [!INCLUDE [prod_short](includes/prod_short.md)]-App für Ihr Unternehmen genehmigen oder installieren, die Installation der App durch Benutzer blockieren und vieles mehr.
 
@@ -51,9 +51,9 @@ Weitere Informationen finden Sie in den folgenden Artikeln in der Microsoft Team
 - [Ihre Apps im Microsoft Teams Admin Center verwalten](/MicrosoftTeams/manage-apps)
 - [App-Einrichtungsrichtlinien in Microsoft Teams verwalten](/microsoftteams/teams-app-setup-policies)
 
-## <a name="in-include-prodshortincludesprodshortmd" />In [!INCLUDE [prod_short](includes/prod_short.md)]
+## <a name="in-" />In [!INCLUDE [prod_short](includes/prod_short.md)]
 
-### <a name="minimum-requirements" />Mindestanforderungen
+### <a name="minimum-requirements-1" />Mindestanforderungen
 
 - [!INCLUDE [prod_short](includes/prod_short.md)]-Version:
 
@@ -103,7 +103,7 @@ Im Admin Center Microsoft Teams konfigurieren Sie die Richtlinien für die Einri
 
 Microsoft Teams bietet umfassende Kontrollen für die Einhaltung und Verwaltung sensibler oder persönlich identifizierbarer Daten&mdash;einschließlich Daten, die von der [!INCLUDE [prod_short](includes/prod_short.md)] App zu Chats und Kanälen hinzugefügt wurde.
 
-### <a name="understanding-where-include-prodshortincludesprodshortmd-cards-are-stored" />Verstehen wo [!INCLUDE [prod_short](includes/prod_short.md)] Karten gespeichert werden
+### <a name="understanding-where--cards-are-stored" />Verstehen wo [!INCLUDE [prod_short](includes/prod_short.md)] Karten gespeichert werden
 
 Nachdem eine Karte an einen Chat gesendet wurde, werden die Karte und die auf der Karte angezeigten Felder in Teams kopiert. Diese Informationen unterliegen den Teamrichtlinien für Ihr Unternehmen, z. B. Richtlinien zur Aufbewahrung von Daten. Bei der Anzeige von Kartendetails werden keine Daten im Detailfenster in Teams gespeichert. Die Daten bleiben in [!INCLUDE [prod_short](includes/prod_short.md)] gespeichert und wird nur von Teams abgerufen, wenn der Benutzer die Details anzeigen möchte. 
 
@@ -153,7 +153,7 @@ Sie konfigurieren die Einstellung pro Umgebung. Wenn Sie also die Datensatzzusam
 [Teams Problembehebung](admin-teams-troubleshooting.md)  
 [Entwickeln für Teams Integration](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

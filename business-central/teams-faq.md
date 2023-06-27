@@ -16,15 +16,15 @@ Dieser Artikel beantwortet einige der Fragen, die Sie zur Arbeit mit Microsoft T
 
 ## [Allgemein](#tab/general)
 
-### <a name="how-do-i-sign-in-to-the-include-prodshortmdincludesprodshortmd-app-in-teams" />Wie melde ich mich bei der [!INCLUDE [prod_short.md](includes/prod_short.md)] App in Teams an?
+### <a name="how-do-i-sign-in-to-the--app-in-teams" />Wie melde ich mich bei der [!INCLUDE [prod_short.md](includes/prod_short.md)] App in Teams an?
 
 Nach der Installation der App werden Sie aufgefordert, sich beim ersten Benutzen der App beim Einfügen von einem [!INCLUDE [prod_short.md](includes/prod_short.md)] Link in den Team-Chat oder wenn Sie die Aktion **Einzelheiten** auf einer Karte in Teams auswählen, anzumelden. Abhängig von Ihrem Team-Client müssen Sie möglicherweise Ihre Anmeldeinformationen eingeben, um auf [!INCLUDE [prod_short.md](includes/prod_short.md)] zuzugreifen.
 
-### <a name="how-do-i-sign-out-of-the-include-prodshortmdincludesprodshortmd-app-in-teams" />Wie melde ich mich bei der [!INCLUDE [prod_short.md](includes/prod_short.md)] App in Teams ab?
+### <a name="how-do-i-sign-out-of-the--app-in-teams" />Wie melde ich mich bei der [!INCLUDE [prod_short.md](includes/prod_short.md)] App in Teams ab?
 
 So melden Sie sich mit Ihrer Teams-Identität an, mit der Sie eine Verbindung zu [!INCLUDE [prod_short.md](includes/prod_short.md)] hergestellt haben, ab. Gehen Sie zu einem beliebigen Chat-Erstellungsfeld und wählen Sie das [!INCLUDE [prod_short.md](includes/prod_short.md)] Symbol mit einem Rechtsklick und dann **Einstellungen** aus. Wenn das Fenster angezeigt wird, überprüfen Sie Ihre aktuell angemeldete Identität, und wählen Sie dann **Abmelden** aus.
 
-### <a name="does-the-app-for-teams-connect-to-include-prodshortmdincludesprodshortmd-on-premises" />Stellt die App für Teams eine Verbindung zu [!INCLUDE [prod_short.md](includes/prod_short.md)] lokal her?
+### <a name="does-the-app-for-teams-connect-to--on-premises" />Stellt die App für Teams eine Verbindung zu [!INCLUDE [prod_short.md](includes/prod_short.md)] lokal her?
 
 Anz. Die [!INCLUDE [prod_short.md](includes/prod_short.md)] App für Teams funktioniert nur mit [!INCLUDE [prod_short.md](includes/prod_short.md)] online. Es ist nicht geplant, [!INCLUDE [prod_short.md](includes/prod_short.md)] Bereitstellungsarten &mdash;wie on-premises, Hybrid Cloud oder Private Cloud &mdash;zu unterstützen, die Microsoft nicht direkt hostet oder verwaltet.
 
@@ -32,15 +32,15 @@ Anz. Die [!INCLUDE [prod_short.md](includes/prod_short.md)] App für Teams funkt
 
 Ja. Um nach Kontakten in einem anderen Unternehmen zu suchen, wechseln Sie zu [Einstellungen](across-teams-settings.md). Wenn die App [!INCLUDE [prod_short.md](includes/prod_short.md)] einen Link in eine Karte erweitert, muss der Link die Umgebung und den Firmennamen enthalten, damit die App mit dem Datensatz in der richtigen Firma übereinstimmt. Sie können Links zu allen Unternehmen und Umgebungen einfügen, auf die Sie innerhalb Ihres Unternehmens und über das Konto [!INCLUDE [prod_short.md](includes/prod_short.md)], mit dem Sie sich angemeldet haben, Zugriff haben. Teilnehmer des Chats sehen die Karte. Sie können die Kartendetails jedoch nur anzeigen, wenn sie über Berechtigungen für das Unternehmen oder die Umgebung verfügen, in der dieser Datensatz gespeichert ist.
 
-### <a name="in-which-countries-or-regions-is-the-include-prodshortmdincludesprodshortmd-app-available" />In welchen Ländern oder Regionen ist die [!INCLUDE [prod_short.md](includes/prod_short.md)] App verfügbar?
+### <a name="in-which-countries-or-regions-is-the--app-available" />In welchen Ländern oder Regionen ist die [!INCLUDE [prod_short.md](includes/prod_short.md)] App verfügbar?
 
 Die [!INCLUDE [prod_short.md](includes/prod_short.md)] App für Teams ist nicht auf ein Land oder Region beschränkt. Die App ist in allen Märkten verfügbar, die derzeit vom Teams Marktplatz unterstützt werden. 
 
-### <a name="does-the-include-prodshortmdincludesprodshortmd-app-work-with-any-localization-of-include-prodshortmdincludesprodshortmd" />Funktioniert die [!INCLUDE [prod_short.md](includes/prod_short.md)] App mit jeder Lokalisierung von [!INCLUDE [prod_short.md](includes/prod_short.md)]?
+### <a name="does-the--app-work-with-any-localization-of-include-prod_shortmd" />Funktioniert die [!INCLUDE [prod_short.md](includes/prod_short.md)] App mit jeder Lokalisierung von [!INCLUDE [prod_short.md](includes/prod_short.md)]?
 
 Ja. Die App soll mit jeder Lokalisierung von [!INCLUDE [prod_short.md](includes/prod_short.md)] funktionieren, unabhängig davon, ob diese Lokalisierung direkt von Microsoft oder über einen Partner angeboten wird. Erfahren Sie mehr unter [Verfügbarkeit nach Ländern/Regionen und unterstützte Sprachen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json).
 
-### <a name="a-namelanguageawhich-languages-does-the-include-prodshortmdincludesprodshortmd-app-support" /><a name="language"></a>Welche Sprachen [!INCLUDE [prod_short.md](includes/prod_short.md)] unterstützt die App?
+### <a name="which-languages-does-the--app-support" /><a name="language"></a>Welche Sprachen [!INCLUDE [prod_short.md](includes/prod_short.md)] unterstützt die App?
 
 Zwei Dinge bestimmen die Sprache für Karten und Kartendetails in Teams:
 
@@ -56,18 +56,18 @@ In der folgenden Tabelle wird erläutert, wie sich die Erfahrung für Nachrichte
 
 Für die Liste der unterstützten Sprachen für [!INCLUDE [prod_short.md](includes/prod_short.md)] gehen Sie zu [Unterstützte Sprachen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json#supported-languages).
 
-### <a name="does-the-include-prodshortmdincludesprodshortmd-app-work-with-industry-solutions" />Funktioniert die [!INCLUDE [prod_short.md](includes/prod_short.md)]-App mit Branchenlösungen?
+### <a name="does-the--app-work-with-industry-solutions" />Funktioniert die [!INCLUDE [prod_short.md](includes/prod_short.md)]-App mit Branchenlösungen?
 
 Ja. Es funktionieren jedoch nur einige Funktionen der App mit [Apps einbetten](/dynamics365/business-central/dev-itpro/deployment/embed-app-overview):
 
 - Die App arbeitet mit Links, die auf dem Muster **\*. bc.dynamics.com** basieren, das normalerweise mit „Apps einbetten“ verwendet wird.
 - Die Kontaktsuche ist für eingebettete Apps, die die Basisanwendung von Microsoft ersetzen, nicht verfügbar.
 
-### <a name="does-include-prodshortmdincludesprodshortmd-work-with-the-teams-mobile-app" />Funktioniert [!INCLUDE [prod_short.md](includes/prod_short.md)] mit der mobilen App von Teams?
+### <a name="does--work-with-the-teams-mobile-app" />Funktioniert [!INCLUDE [prod_short.md](includes/prod_short.md)] mit der mobilen App von Teams?
 
 Ja. Die [!INCLUDE [prod_short.md](includes/prod_short.md)] App kann über die Team-Desktop-App oder den Browser oder von einem Administrator für alle Benutzer installiert werden. Nach der Installation wird die [!INCLUDE [prod_short.md](includes/prod_short.md)]-App automatisch in Teams für iOS und Android verfügbar. Auf Mobilgeräten können Sie nur von anderen gesendete Karten anzeigen, auf Details zugreifen oder die Karte hervorheben, um die volle Erfahrung in der [!INCLUDE [prod_short.md](includes/prod_short.md)] App zur Verfügung zu haben. Sie können keine Links einfügen, die beim Verfassen von Nachrichten zu Karten erweitert werden oder nach Kontakten suchen. Mindestanforderungen für Mobiltelefone finden Sie unter [Mindestanforderungen für die Verwendung von Business Central](product-requirements.md).
 
-### <a name="is-the-include-prodshortmdincludesprodshortmd-app-for-teams-the-same-as-the-include-prodshortmdincludesprodshortmd-app-for-ios-and-android" />Ist die [!INCLUDE [prod_short.md](includes/prod_short.md)]-App für Teams gleich wie die [!INCLUDE [prod_short.md](includes/prod_short.md)]-App für iOS und Android?
+### <a name="is-the--app-for-teams-the-same-as-the-include-prod_shortmd-app-for-ios-and-android" />Ist die [!INCLUDE [prod_short.md](includes/prod_short.md)]-App für Teams gleich wie die [!INCLUDE [prod_short.md](includes/prod_short.md)]-App für iOS und Android?
 
 Anz. Die App für Teams ist ein Add-In zu Microsoft Teams und exklusiv für Zusammenarbeit in Teams konzipiert. Alternativ bietet die [!INCLUDE [prod_short.md](includes/prod_short.md)] mobile App Ihnen eine umfassende Erfahrung, mit der Sie arbeiten können mit [!INCLUDE [prod_short.md](includes/prod_short.md)] Daten auf Ihren Mobilgeräten.
 
@@ -76,7 +76,7 @@ Mobile Benutzer werden aufgefordert, sowohl die mobile App als auch die App zu i
 - [Abrufen von Business Central auf meinem mobilen Gerät](install-mobile-app.md)
 - [Holen Sie sich die mobile App von Teams ](https://support.microsoft.com/office/download-the-mobile-app-for-teams-5940ebdc-0082-4fb1-83c4-751edc23dcb5) unter Microsoft Support
 
-### <a name="does-the-include-prodshortmdincludesprodshortmd-app-work-in-all-teams-clients" />Funktioniert die [!INCLUDE [prod_short.md](includes/prod_short.md)] App in allen Teams Clients?
+### <a name="does-the--app-work-in-all-teams-clients" />Funktioniert die [!INCLUDE [prod_short.md](includes/prod_short.md)] App in allen Teams Clients?
 
 Anz. Die [!INCLUDE [prod_short.md](includes/prod_short.md)] App für Teams wird bei der Installation als Paket für MacOS oder Linux nicht unterstützt. Auf diesen Plattformen können Sie stattdessen über einen unterstützten Browser auf Teams zugreifen.
 
@@ -84,7 +84,7 @@ Mindestanforderungen für [!INCLUDE [prod_short.md](includes/prod_short.md)] fin
 
 Informationen zur Auswahl der Team-Clients und zu deren Installation finden Sie unter [Clients für Microsoft Teams abrufen](/microsoftteams/get-clients) in der Teamdokumentation.
 
-### <a name="which-teams-client-is-best-for-include-prodshortmdincludesprodshortmd" />Welches ist der beste Team-Client für [!INCLUDE [prod_short.md](includes/prod_short.md)]?
+### <a name="which-teams-client-is-best-for-" />Welches ist der beste Team-Client für [!INCLUDE [prod_short.md](includes/prod_short.md)]?
 
 Es gibt nur geringfügige Unterschiede und Einschränkungen zwischen Team-Clients, die sich auf Ihre Erfahrung mit der [!INCLUDE [prod_short.md](includes/prod_short.md)] App für Teams auswirken können. Berücksichtigen Sie bei der Auswahl eines Team-Clients Folgendes:
 
@@ -92,11 +92,11 @@ Es gibt nur geringfügige Unterschiede und Einschränkungen zwischen Team-Client
 - Telefonnummern können nicht über das Detailfenster in Teams für iOS, Android oder im Browser aktiviert werden.
 - Beim Verwenden von Microsoft Edge mit Teams im Browser können Sie problemlos über mehrere Identitäten und Konten hinweg arbeiten, indem Sie sich bei Teams aus verschiedenen Profilen anmelden. Erfahren Sie mehr über die Verwendung von Profilen in Microsoft Edge unter [Melden Sie sich an und erstellen Sie mehrere Profile in Microsoft Edge](https://support.microsoft.com/office/sign-in-and-create-multiple-profiles-in-microsoft-edge-df94e622-2061-49ae-ad1d-6f0e43ce6435) in Microsoft Support.
 
-### <a name="what-is-the-best-way-for-me-to-demonstrate-include-prodshortmdincludesprodshortmd-and-microsoft-teams-to-prospective-customers" />Was ist der beste Weg für mich, um [!INCLUDE [prod_short.md](includes/prod_short.md)] und Microsoft Teams potenziellen Kunden zu zeigen?
+### <a name="what-is-the-best-way-for-me-to-demonstrate--and-microsoft-teams-to-prospective-customers" />Was ist der beste Weg für mich, um [!INCLUDE [prod_short.md](includes/prod_short.md)] und Microsoft Teams potenziellen Kunden zu zeigen?
 
 Wenn Sie ein Wiederverkaufspartner sind, möchten Sie möglicherweise eine Umgebung, in der Sie potenzielle Kunden im Rahmen von Vorverkaufsdemonstrationen anzeigen können. Um Auswirkungen auf Microsoft Teams in Ihrer Organisation zu vermeiden, erhalten Sie ein Microsoft 365-Demokonto unter [https://aka.ms/CDX](https://aka.ms/CDX). Mit diesem Konto haben Sie die volle Kontrolle über eine unabhängige Azure-Organisation, die Microsoft Teams und [!INCLUDE [prod_short.md](includes/prod_short.md)] umfasst. Weitere Informationen finden Sie unter [Vorbereiten von Demonstrationsumgebungen von Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/administration/demo-environment).
 
-### <a name="does-the-include-prodshortmdincludesprodshortmd-app-for-teams-cater-to-my-customization-and-personalization" />Nimmt die [!INCLUDE [prod_short.md](includes/prod_short.md)] App für Teams meine Anpassung und Personalisierung vor?
+### <a name="does-the--app-for-teams-cater-to-my-customization-and-personalization" />Nimmt die [!INCLUDE [prod_short.md](includes/prod_short.md)] App für Teams meine Anpassung und Personalisierung vor?
 
 Die [!INCLUDE [prod_short.md](includes/prod_short.md)] App für Teams kann Karten für Links zu Kundenseiten und Tabellen in [!INCLUDE [prod_short.md](includes/prod_short.md)] anzeigen, wie Seiten und Tabellen, die von Ihren eigenen benutzerdefinierten Erweiterungen oder von AppSource stammen.
 
@@ -123,11 +123,11 @@ Informationen dazu, wie Microsoft mit Ihren Daten umgeht, finden Sie in der [Mic
 
 Wenden Sie sich an Ihren Administrator, um zu erfahren, wie Ihre Organisation mit dem Datenschutz Ihrer Daten umgeht.
 
-### <a name="how-do-i-uninstall-the-include-prodshortmdincludesprodshortmd-app-for-teams" />Wie deinstalliere ich die [!INCLUDE [prod_short.md](includes/prod_short.md)] App für Teams?
+### <a name="how-do-i-uninstall-the--app-for-teams" />Wie deinstalliere ich die [!INCLUDE [prod_short.md](includes/prod_short.md)] App für Teams?
 
 Um die App zu entfernen, die Sie für sich selbst installiert haben, gehen Sie zu einem beliebigen Chat-Erstellungskästchen und suchen Sie das Symbol [!INCLUDE [prod_short.md](includes/prod_short.md)]. Klicken Sie mit der rechten Maustaste auf das Symbol und wählen Sie **Deinstallieren** aus.  
 
-### <a name="will-microsoft-continue-to-improve-the-include-prodshortmdincludesprodshortmd-app-for-teams" />Wird Microsoft die [!INCLUDE [prod_short.md](includes/prod_short.md)] App für Teams weiter verbessern?
+### <a name="will-microsoft-continue-to-improve-the--app-for-teams" />Wird Microsoft die [!INCLUDE [prod_short.md](includes/prod_short.md)] App für Teams weiter verbessern?
 
 Bei Microsoft achten wir stets auf das Feedback aus unsere breitgefächerte Benutzer-Community und reagieren auf die häufigsten Vorschläge. Um zu erfahren, was als Nächstes für die [!INCLUDE [prod_short.md](includes/prod_short.md)] App für Teams geplant ist, gehen Sie zu [Dynamics 365-Release-Plan](/dynamics365-release-plan/2021wave1/).
 
@@ -139,7 +139,7 @@ Funktionen im Web Client, die mit Teams verknüpft sind, finden Sie unter [Daten
 
 ## [Business Central-Registerkarten](#tab/tabs)
 
-### <a name="a-namewho-can-viewawho-can-see-the-content-of-a-tab" /><a name="who-can-view"></a>Wer kann den Inhalt einer Registerkarte sehen?
+### <a name="who-can-see-the-content-of-a-tab" /><a name="who-can-view"></a>Wer kann den Inhalt einer Registerkarte sehen?
 
 Jede Person in Ihrem Chat oder Kanal, die Folgendes hat:
 
@@ -147,7 +147,7 @@ Jede Person in Ihrem Chat oder Kanal, die Folgendes hat:
 2. Entweder eine Business Central-Lizenz, oder es wurde ihr Zugriff auf Business Central mit ihrer Microsoft 365-Lizenz gewährt.
 3. Berechtigungen zum Anzeigen der Daten auf der Seite.
 
-### <a name="a-namerecommended-contentawhere-does-the-recommended-content-come-from" /><a name=#recommended-content></a>Woher kommen die empfohlenen Inhalte?
+### <a name="where-does-the-recommended-content-come-from" /><a name=#recommended-content></a>Woher kommen die empfohlenen Inhalte?
 
 Die empfohlenen Inhalte, aus denen Sie in der **Registerkarteninhalte**-Option auf einer Registerkarte auswählen können, basiert auf Ihrem Rollencenter. Der empfohlene Inhalt umfasst nur Listenseiten wie Debitoren, Verkaufsaufträge und Kreditoren – nicht einzelne Kartenseiten wie einen bestimmten Debitor oder Kreditor.
 
@@ -257,7 +257,7 @@ Damit Interaktionen angezeigt werden, muss [!INCLUDE [prod_short.md](includes/pr
 
 Suchen Sie im Detailfenster für einen Kontakt die Aktion **Interaktion erstellen**, und wählen Sie aus den eingehenden oder ausgehenden Anrufen als Interaktionsvorlagen. Sie können auch Ihre eigenen benutzerdefinierten Interaktionsvorlagen erstellen, die speziell für Teamkonversationen verwendet werden.
 
-### <a name="can-i-call-a-contact-from-the-include-prodshortmdincludesprodshortmd-app-for-teams" />Kann ich einen Kontakt von der [!INCLUDE [prod_short.md](includes/prod_short.md)]-App für Teams anrufen?
+### <a name="can-i-call-a-contact-from-the--app-for-teams" />Kann ich einen Kontakt von der [!INCLUDE [prod_short.md](includes/prod_short.md)]-App für Teams anrufen?
 
 [!INCLUDE [prod_short.md](includes/prod_short.md)] hat eine eingeschränkte Integration in Team-Anruffunktionen. Es ist nicht möglich, einen VOIP-Anruf sofort über die Kontaktkarte oder das Fenster mit den Kontaktdetails zu starten. Wenn Sie jedoch die Kontaktdetails in der Team-Desktop-App anzeigen, können Sie das Feld Telefonnummer auswählen, um diese Nummer zu wählen, wenn Teams als Standard-Wahl-App auf Ihrem Gerät eingerichtet ist. Um Festnetz- oder Mobiltelefonnummern mit PSTN, dem herkömmlichen Telefonsystem, zu wählen, benötigen Teams die Microsoft 365 Business Voice-App. Weitere Informationen finden Sie unter [Was ist Microsoft 365 Business Voice?](/MicrosoftTeams/business-voice/whats-business-voice).
 
@@ -274,16 +274,16 @@ Sie können Suchkriterien mit fast allen Unicode-Zeichen eingeben. Jedoch behäl
 Die [!INCLUDE [prod_short.md](includes/prod_short.md)]-App für Teams kann jeweils in einem Unternehmen nach Debitoren, Kreditoren und anderen Kontakten suchen.  
 Um nach Kontakten zu suchen, die in einem anderen [!INCLUDE [prod_short.md](includes/prod_short.md)]-Unternehmen gespeichert sind, öffnen Sie [Einstellungen](across-teams-settings.md), dann ändern Sie die Umgebung und das Unternehmen von dort.
 
-### <a name="are-include-prodshortmdincludesprodshortmd-contacts-different-than-the-ones-in-the-teams-contacts-screen" />Sind [!INCLUDE [prod_short.md](includes/prod_short.md)]-Kontakte anders als die auf dem Bildschirm „Teamkontakte“?
+### <a name="are--contacts-different-than-the-ones-in-the-teams-contacts-screen" />Sind [!INCLUDE [prod_short.md](includes/prod_short.md)]-Kontakte anders als die auf dem Bildschirm „Teamkontakte“?
 
 Ja. Kontakte, die in [!INCLUDE [prod_short.md](includes/prod_short.md)] gespeichert sind, stellen Geschäftskontakte dar, die Ihrer Organisation zur Verfügung stehen. Dies sind Kontakte, mit denen Sie eine etablierte und klar definierte Geschäftsbeziehung haben, oder Kontakte, die potenzielle Debitoren repräsentieren. Diese Kontakte sind normalerweise externe Kontakte. Im Vergleich dazu sind die in der Kontaktliste Team-Anrufkontakte Ihre eigenen Kontakte. Diese Kontakte werden nicht unbedingt mit anderen in Ihrer Organisation geteilt und repräsentieren normalerweise Kontakte innerhalb Ihrer Organisation.
 
-### <a name="does-include-prodshortmdincludesprodshortmd-synchronize-contacts-with-teams" />Synchronisiert [!INCLUDE [prod_short.md](includes/prod_short.md)] Kontakte mit Teams?
+### <a name="does--synchronize-contacts-with-teams" />Synchronisiert [!INCLUDE [prod_short.md](includes/prod_short.md)] Kontakte mit Teams?
 
 Anzahl Kontakte gespeichert in [!INCLUDE [prod_short.md](includes/prod_short.md)] bleiben getrennt von Ihren in Teams gespeicherten Kontakten.
 Derzeit ist nicht geplant, die beiden Listen miteinander zu synchronisieren.
 
-### <a name="what-is-the-minimum-version-of-include-prodshortmdincludesprodshortmd-for-contact-search" />Was ist die Mindestversion von [!INCLUDE [prod_short.md](includes/prod_short.md)] für die Kontaktsuche?
+### <a name="what-is-the-minimum-version-of--for-contact-search" />Was ist die Mindestversion von [!INCLUDE [prod_short.md](includes/prod_short.md)] für die Kontaktsuche?
 
 Für die Kontaktsuche müssen Sie [!INCLUDE [prod_short.md](includes/prod_short.md)] App für Teams Version 1.0.4 oder höher installiert haben, mit der Sie eine Verbindung zu [!INCLUDE [prod_short.md](includes/prod_short.md)]-Umgebungen ab Version 18 herstellen.
 
@@ -344,7 +344,7 @@ Anzahl Die Feldwerte auf einer Karte in Teams, einschließlich aller Bilder, bas
 
 Ein Administrator hat möglicherweise die Teams-Integration so konfiguriert, dass Karten keine Daten zu Datensätzen anzeigen. Weitere Informationen finden Sie unter [Aufzeichnungsdaten auf Karten anzeigen oder ausblenden](admin-teams-integration.md#show-or-hide-record-data-on-cards).
 
-### <a name="will-others-see-my-card-if-they-dont-have-the-include-prodshortmdincludesprodshortmd-app-for-teams" />Werden andere meine Karte sehen, wenn sie [!INCLUDE [prod_short.md](includes/prod_short.md)] App für Teams nicht installiert haben?
+### <a name="will-others-see-my-card-if-they-dont-have-the--app-for-teams" />Werden andere meine Karte sehen, wenn sie [!INCLUDE [prod_short.md](includes/prod_short.md)] App für Teams nicht installiert haben?
 
 Wenn Sie eine Nachricht verfassen und an den Chat senden, die eine Karte enthält, sehen alle Benutzer die Karte,&mdash;auch wenn sie die [!INCLUDE [prod_short.md](includes/prod_short.md)]-App für Teams nicht installiert haben.
 
@@ -378,7 +378,7 @@ Weitere Informationen zum Einrichten von Cloud-Druckern finden Sie unter [Drucke
 
 Ja. [!INCLUDE [prod_short.md](includes/prod_short.md)] Funktionen im Detailfenster, die die Kamera verwenden, sind auf allen Team-Clients verfügbar.
 
-### <a name="a-namelocationacan-i-access-my-location-from-the-details-window-in-teams" /><a name="location"></a>Kann ich über das Detailfenster in Teams auf meinen Standort zugreifen?
+### <a name="can-i-access-my-location-from-the-details-window-in-teams" /><a name="location"></a>Kann ich über das Detailfenster in Teams auf meinen Standort zugreifen?
 
 Wenn Sie Funktionalität in [!INCLUDE [prod_short.md](includes/prod_short.md)] verwenden, die auf Ihre aktuellen Standortkoordinaten zugreifen können, z. B. mit Karten, müssen Sie Teams im Browser oder in der mobilen Team-App verwenden. Der Standort ist bei Verwendung der Team-Desktop-App nicht verfügbar.
 
@@ -404,7 +404,7 @@ Wenn ein Gast eine Nachricht verfasst, werden Links zu Ihrer [!INCLUDE [prod_sho
 
 Weitere Informationen zu Ähnlichkeiten und Unterschieden zwischen Gästen und Teammitgliedern finden Sie unter [Gästeerfahrung in Teams](/MicrosoftTeams/guest-experience) in der Teamdokumentation.
 
-### <a name="how-does-a-guest-user-install-the-include-prodshortmdincludesprodshortmd-app" />Wie installiert ein Gastbenutzer die [!INCLUDE [prod_short.md](includes/prod_short.md)] App?
+### <a name="how-does-a-guest-user-install-the--app" />Wie installiert ein Gastbenutzer die [!INCLUDE [prod_short.md](includes/prod_short.md)] App?
 
 Gäste haben keinen Zugriff auf den App-Marktplatz, um Apps selbst zu installieren. Die App kann jedoch basierend auf den Richtlinien Ihres Unternehmens automatisch für sie installiert werden. Eine andere Möglichkeit für einen Gastbenutzer, die [!INCLUDE [prod_short.md](includes/prod_short.md)] App zu installieren ist, wenn sie eine Chat-Nachricht erhalten, die eine [!INCLUDE [prod_short.md](includes/prod_short.md)] Karte enthält. In diesem Fall wählt der Benutzer die Schaltfläche **Einzelheiten** oder das Menü auf der Karte und installiert dann die [!INCLUDE [prod_short.md](includes/prod_short.md)] App zur Verwendung mit Ihrer Organisation. Nach der Installation der App erhält ein Benutzer nicht automatisch die Berechtigung, auf Daten von Ihnen zuzugreifen [!INCLUDE [prod_short.md](includes/prod_short.md)].
 
@@ -449,7 +449,7 @@ Die Aktion **Für Teams freigeben** finden Sie im Menü **Freigeben** auf allen 
 [Ändern von Firmen- und anderen Einstellungen in Teams](across-teams-settings.md)  
 [Entwickeln für Teams Integration](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
-## <a name="included365finincludesfreetrialmdmd" />[!INCLUDE[d365fin](includes/free_trial_md.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

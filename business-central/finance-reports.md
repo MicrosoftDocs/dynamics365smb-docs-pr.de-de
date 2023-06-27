@@ -30,7 +30,7 @@ In den folgenden Artikeln werden einige der wichtigsten Aufgaben zur Analyse des
 * [Berichte mit XBRL erstellen](bi-create-reports-with-xbrl.md)  
 * [Absicht auf Datenbankzugriff verwalten](admin-data-access-intent.md)  
 
-## <a name="see-related-microsoft-trainingtrainingpathscreate-financial-reports-dynamics-365-business-central" />Siehe verwandte [Microsoft Schulungen](/training/paths/create-financial-reports-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Siehe verwandte [Microsoft Schulungen](/training/paths/create-financial-reports-dynamics-365-business-central/)
 
 ## <a name="see-also" />Siehe auch
 

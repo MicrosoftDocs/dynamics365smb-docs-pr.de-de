@@ -117,7 +117,7 @@ Sie definieren Workflowsvariationen, indem Sie die Felder in den Workflowzeilen 
 
 [!INCLUDE[workflow](includes/workflow.md)]
 
-## <a name="see-related-microsoft-trainingtrainingmodulesuse-approval-workflows" />Siehe verwandte [Microsoft Schulungen](/training/modules/use-approval-workflows/)
+## <a name="see-related-microsoft-training" />Siehe verwandte [Microsoft Schulungen](/training/modules/use-approval-workflows/)
 
 ## <a name="see-also" />Siehe auch
 

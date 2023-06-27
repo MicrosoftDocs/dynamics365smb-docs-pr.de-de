@@ -99,7 +99,7 @@ Sie können den Restwert zusammen mit den Anschaffungskosten aus einem Anlagen B
 > [!NOTE]
 > Wenn für eine Anlage ein Restwert vorhanden ist, wird dieser Wert bei der Abschreibungsbuchung anstelle des Wertes im Feld **Erinnerungswert** auf der Seite **Anlagenabschreibungsbücher** verwendet. Weitere Informationen finden Sie unter [Wie der Erinnerungswert verwaltet wird](fa-how-depreciate-amortize.md#to-manage-the-ending-book-value).
 
-## <a name="see-related-microsoft-trainingtrainingmodulespurchase-fixed-assets" />Siehe verwandte [Microsoft Schulungen](/training/modules/purchase-fixed-assets/)
+## <a name="see-related-microsoft-training" />Siehe verwandte [Microsoft Schulungen](/training/modules/purchase-fixed-assets/)
 
 ## <a name="see-also" />Siehe auch
 

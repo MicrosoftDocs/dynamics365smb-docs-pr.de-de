@@ -53,7 +53,7 @@ Bevor Sie auf [!INCLUDE[prod_short](includes/prod_short.md)] online zugreifen, e
 
 **Bearbeiten in Excel:** Um Excel-Add-Ins zu verwenden, um Änderungen in Excel vorzunehmen und die Änderungen zurück zu ändern in [!INCLUDE[prod_short](includes/prod_short.md)]benötigen Sie Excel 2019 oder später. Weitere Informationen finden Sie unter [Finanzauswertungen analysieren Microsoft Excel](finance-analyze-excel.md).  
 
-## <a name="a-nametaca-using-the-business-central-administration-center" /><a name="TAC"></a> Business Central Admin Center verwenden
+## <a name="using-the-business-central-administration-center" /><a name="TAC"></a> Business Central Admin Center verwenden
 
 Das Admin Center funktioniert mit der aktuellen Version der folgenden Browser:
 

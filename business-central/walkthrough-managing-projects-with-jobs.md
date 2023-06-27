@@ -112,7 +112,7 @@ Im folgenden Verfahren erstellen Sie eine Projektbuchungsblatt für Tricia, um d
 
 4.  Klicken Sie auf die Schaltfläche **OK**, um die Änderungen zu speichern.
 
-## <a name="setting-up-a-job" />Einrichten eines Projekts
+## <a name="setting-up-a-job-1" />Einrichten eines Projekts
 
  In diesem Szenario hat CRONUS einen Vertrag mit einem Kunden, Progressive Home Furnishings, für den Entwurf eines Konferenz- und Speisesaals abgeschlossen. Der Debitor hat seinen Sitz in den USA, und für das Projekt ist spezielle Software erforderlich. Der Projektmanager trifft eine Vereinbarung mit dem Debitoren und erstellt ein Projekt für den Vertrag.  
 
@@ -258,7 +258,7 @@ Die Zeilen werden gebucht.
 2.  Wählen Sie die Aktion **Statistik** aus. Sie können detaillierte Informationen über die Projektverkaufspreise, Kosten und Gewinne in lokalen und fremden Währungen anzeigen.  
 3.  Wählen Sie die Schaltfläche **Schließen**, um die Seite **Projektstatistik** zu schließen.  
 
-## <a name="handling-fixed-prices" />Verwenden von Festpreisen
+## <a name="handling-fixed-prices-1" />Verwenden von Festpreisen
 
  CRONUS wurde abgeschlossen, um Konferenzräume einrichten. Als Projekt-Manager benötigt Bernard einen umfassenden Überblick über die erforderlichen Aufgaben für das Projekt sowie die zugehörigen budgetierten und angefallenen Kosten für jede Aufgabe. Zudem möchte Prakash den vertraglich vereinbarten Verkaufsbetrag für das Projekt und den bisher fakturierten Betrag ermitteln. Sie haben mit dem Debitoren Festpreise für das Projekt vereinbart.  
 
@@ -454,7 +454,7 @@ In den folgenden Verfahren wird gezeigt, wie Sie ein neues Projekt erstellen, di
 
  In dieser exemplarischen Vorgehensweise wurden Sie durch mehrere der grundlegenden Schritte für die Arbeit mit Projekten in [!INCLUDE[prod_short](includes/prod_short.md)] geführt. Sie haben gelernt, wie ein neues Projekt erstellt, ein Projekt kopiert und Zahlungen verarbeitet werden. Sie haben auch eine Demonstration gesehen, wie Stunden verfolgt und Rechnungen erstellt werden.  
 
-## <a name="see-related-microsoft-trainingtrainingpathscreate-jobs" />Siehe verwandte [Microsoft Schulungen](/training/paths/create-jobs/)
+## <a name="see-related-microsoft-training" />Siehe verwandte [Microsoft Schulungen](/training/paths/create-jobs/)
 
 ## <a name="see-also" />Siehe auch
 

@@ -47,7 +47,7 @@ Bei diesem Verfahren ersetzen Sie Auftragsmontagemengen durch Lagerbestandsmenge
 > [!CAUTION]  
 > Das Feld **Lagerplatzcode** auf dem Verkaufsauftrag enthält möglicherweise den Wert aus den Feldern **P-Code f. Prog.fert.lief.** oder **Von Montagelagerplatzcode** auf der Lagerortkarte ausgefüllt sein. Wenn dem so ist, ist das Feld **Lagerplatzcode** auf der Verkaufsauftragszeile in dieser Kombination aus Auftragsmontage- und Lagermontageartikelmengen möglicherweise falsch. Es empfiehlt sich, den Lagerplatz im Feld **Lagerplatzcode** zu prüfen und sicherzustellen, dass die Platzierung für alle Mengen funktioniert. Alternativ können Sie die beiden verschiedenen Mengen auf separaten Verkaufsauftragszeilen eingeben.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesassemble-to-order-dynamics-365-business-central" />Siehe verwandte [Microsoft Schulungen](/training/modules/assemble-to-order-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Siehe verwandte [Microsoft Schulungen](/training/modules/assemble-to-order-dynamics-365-business-central/)
 
 ## <a name="see-also" />Siehe auch
 

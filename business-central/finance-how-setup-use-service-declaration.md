@@ -155,7 +155,7 @@ Sie können die Werte in diesen Feldern ändern, aber wenn Sie das Feld **Anwend
 
 Wenn Sie im Feld **Dienstleistung Transaktionsart Code** einen Wert angeben, aber das Feld **Anwendbar für Dienstleistungsdeklaration** nicht markieren, können Sie den Beleg zwar buchen, aber die Zeile wird dabei nicht berechnet.
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesprocess-intrastat-dynamics-365-business-centralindex" />Siehe die entsprechende Schulung unter [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
+## <a name="see-related-training-at-microsoft-learn" />Siehe die entsprechende Schulung unter [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
 
 ## <a name="see-also" />Siehe auch
 

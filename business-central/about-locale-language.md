@@ -50,7 +50,7 @@ Wenn Sie auf der Seite **Hauptbuchhaltungs-Einrichtung** den Schalter **Länder-
 
 Auf der Seite **Hilfe und Support** sehen Sie die Version von [!INCLUDE[prod_short](includes/prod_short.md)], auf der Ihr Unternehmen basiert. Wenn Sie ein Unternehmen auf einer anderen Version aufbauen möchten, kann Ihr Administrator eine neue Produktionsumgebung anlegen. Weitere Informationen finden Sie unter [Erstellen einer neuen Produktionsumgebung](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-new-production-environment) im Entwickler- und IT Pro-Inhalt.  
 
-## <a name="languages-of-the-includeprodshortincludesprodshortmd-help" />Sprachen der [!INCLUDE[prod_short](includes/prod_short.md)]-Hilfe
+## <a name="languages-of-the--help" />Sprachen der [!INCLUDE[prod_short](includes/prod_short.md)]-Hilfe
 
 Der Inhalt der Hilfe für die Standardversion von [!INCLUDE[prod_short](includes/prod_short.md)] wird auf Microsoft Learn veröffentlicht. Die Inhalte sind in verschiedenen Sprachen verfügbar. Wenn Sie von [!INCLUDE[prod_short](includes/prod_short.md)] aus auf die Dokumentation zugreifen, wird der Inhalt in Ihrer Sprache angezeigt. Wenn eine bestimmte Seite noch nicht in der Sprache verfügbar ist, wird sie standardmäßig in Englisch angezeigt.
 

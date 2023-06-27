@@ -10,7 +10,7 @@ audience: null
 ms.author: a-jaaamir
 ms.date: 06/09/2022
 ---
-# <a name="database-missing-indexes-in-includeprodlongincludesprodlongmd" />Fehlende Indizes für Datenbank in [!INCLUDE[prod_long](includes/prod_long.md)]
+# <a name="database-missing-indexes-in-" />Fehlende Indizes für Datenbank in [!INCLUDE[prod_long](includes/prod_long.md)]
 
 Administratoren und Entwickler können die Datenbank effizienter gestalten und letztendlich die Leistung der Anwendung verbessern, indem sie Informationen verwenden, die von **Fehlende Indizes für Datenbank** in [!INCLUDE[prod_short](includes/prod_short.md)] extrahiert wurden.
 

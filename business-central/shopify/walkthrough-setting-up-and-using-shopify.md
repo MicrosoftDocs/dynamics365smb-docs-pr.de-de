@@ -132,11 +132,11 @@ In **Shopify Admin** sehen Sie, dass die Bestellung jetzt als *Erfüllt* markier
 
 ## <a name="walkthrough-invite-your-customers-to-your-new-online-store" />Exemplarische Vorgehensweise: Laden Sie Ihre Kunden in Ihren neuen Online Store ein
 
-### <a name="scenario" />Szenario
+### <a name="scenario-1" />Szenario
 
 Nach einem erfolgreichen Schnellstart Ihres neuen Online Stores möchten Sie, dass Ihre derzeitigen Kunden ihn besuchen und Bestellungen aufgeben.
 
-### <a name="steps" />Schritte
+### <a name="steps-1" />Schritte
 
 Führen Sie in [!INCLUDE[prod_short](../includes/prod_short.md)] die folgenden Schritte aus:
 
@@ -148,11 +148,11 @@ In **Shopify Admin** sehen Sie, dass die Kunden importiert wurden. Öffnen Sie e
 
 ## <a name="walkthrough-fine-tuning-of-item-management" />Exemplarische Vorgehensweise: Feinabstimmung der Element-Verwaltung
 
-### <a name="scenario" />Szenario
+### <a name="scenario-2" />Szenario
 
 Sie möchten Ihren Prozessen rund um die Verwaltung von Elementen mehr Flexibilität und Steuerelemente hinzufügen. Sie möchten die Produktbeschreibungen verbessern und weitere Überprüfungsschritte hinzufügen, bevor die Produkte für den Endkunden verfügbar sind.
 
-### <a name="steps" />Schritte
+### <a name="steps-2" />Schritte
 
 Führen Sie in [!INCLUDE[prod_short](../includes/prod_short.md)] die folgenden Schritte aus:
 
@@ -241,11 +241,11 @@ Beachten Sie, dass der Bestand für ANTWERP Konferenztisch 100 beträgt, da wir 
 
 ## <a name="walkthrough-import-items-from-shopify" />Exemplarische Vorgehensweise: Elemente aus Shopify importieren
 
-### <a name="scenario" />Szenario
+### <a name="scenario-3" />Szenario
 
 Sie haben bereits einen erfolgreichen Online-Store und möchten [!INCLUDE[prod_short](../includes/prod_short.md)] als Software für die Unternehmensverwaltung einsetzen. Sie möchten so viele Daten wie möglich aus Shopify importieren. 
 
-### <a name="steps" />Schritte
+### <a name="steps-3" />Schritte
 
 Dies ist eine Fortsetzung von [Beispielhafte Vorgehensweise: Mit dem Online-Verkauf von Produkten beginnen](walkthrough-setting-up-and-using-shopify.md#walkthrough-start-selling-products-online). Sie können es auch mit Ihren eigenen Daten versuchen, zum Beispiel mit Ihrem Shopify Store oder Ihrer Sandbox.
 

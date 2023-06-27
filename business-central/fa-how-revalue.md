@@ -114,7 +114,7 @@ Falls Sie das Kontrollkästchen **AfA bis Anlagedatum** aktiviert haben, würde 
 
 *Gesamtsumme AfA = 100 + 15 + 55.54 = 170.54*
 
-## <a name="see-related-microsoft-trainingtrainingpathsmanage-advanced-fixed-assets-transactions" />Siehe verwandte [Microsoft Schulungen](/training/paths/manage-advanced-fixed-assets-transactions/)
+## <a name="see-related-microsoft-training" />Siehe verwandte [Microsoft Schulungen](/training/paths/manage-advanced-fixed-assets-transactions/)
 
 ## <a name="see-also" />Siehe auch
 

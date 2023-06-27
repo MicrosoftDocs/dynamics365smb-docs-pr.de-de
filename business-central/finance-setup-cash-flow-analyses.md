@@ -121,7 +121,7 @@ Vor der Verwendung des Prognose-Webdienstes komprimiert [!INCLUDE[prod_short](in
 
 Vor der Verwendung des prädiktiven Webdienstes komprimiert [!INCLUDE[prod_short](includes/prod_short.md)] Transaktionen nach **Dokumentdatum** basierend auf dem Wert im Feld **Periodentyp** auf der Seite **Cash Flow Einrichtung**.
 
-## <a name="a-nameanchortextacreate-and-use-your-own-predictive-web-service-for-cash-flow-forecasts" /><a name="AnchorText"></a> Erstellen und verwenden Sie Ihren eigenen vorhersagenden Webdienst für Cashflowplanungen.
+## <a name="create-and-use-your-own-predictive-web-service-for-cash-flow-forecasts" /><a name="AnchorText"></a> Erstellen und verwenden Sie Ihren eigenen vorhersagenden Webdienst für Cashflowplanungen.
 
 Sie können Ihren eigenen vorhersagenden Webdienst auf einem öffentliches Modell erzeugen, dem **Prognosemodell für Microsoft Business Central**. Dieses vorhersagende Modell ist online im Azure AI Katalog verfügbar. Um das Modell zu verwenden, gehen folgendermaßen vor:  
 
@@ -134,7 +134,7 @@ Sie können Ihren eigenen vorhersagenden Webdienst auf einem öffentliches Model
 7. Erweitern Sie das Inforegister **Azure AI**, und füllen Sie dann die Felder aus, einschließlich der API-URL und des API-Schlüssels, die von Azure Machine Learning Studio bereitgestellt werden. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 8. Im Buchhalterrollencenter unter **Cashflow-Planung** wählen Sie die Aktion **Planung neu berechnen** aus.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesforecast-cash-flow-dynamics-365-business-centralindex" />Siehe verwandte [Microsoft Schulungen](/training/modules/forecast-cash-flow-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Siehe verwandte [Microsoft Schulungen](/training/modules/forecast-cash-flow-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Siehe auch
 

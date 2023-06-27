@@ -230,7 +230,7 @@ Allgemeine Informationen zum Registrieren einer Anwendung erhalten Sie unter [Sc
 > [!NOTE]
 Wenn Sie Probleme haben, das SMTP-Protokoll zum Senden von E-Mails zu verwenden, nachdem Sie eine Verbindung zu [!INCLUDE[prod_short](includes/prod_short.md)] hergestellt haben, kann daran liegen, dass SMTP AUTH für Ihren Mandanten nicht aktiviert ist. Wir empfehlen, stattdessen die E-Mail-Konnektoren Microsoft 365 und aktuelle Benutzer zu verwenden, da diese Microsoft Graph Mail-APIs verwenden. Wenn Sie jedoch das SMTP-Protokoll verwenden müssen, können Sie SMTP AUTH aktivieren. Weitere Informationen finden Sie unter [Aktivieren oder deaktivieren Sie die SMTP-Übermittlung für authentifizierte Clients (SMTP AUTH) in Exchange Online](/exchange/clients-and-mobile-in-exchange-online/authenticated-client-smtp-submission#disable-smtp-auth-in-your-organization).
 
-### <a name="connect-includeprodshortincludesprodshortmd-to-your-app-registration" />[!INCLUDE[prod_short](includes/prod_short.md)] mit Ihrer App-Anmeldung verbinden
+### <a name="connect--to-your-app-registration" />[!INCLUDE[prod_short](includes/prod_short.md)] mit Ihrer App-Anmeldung verbinden
 
 Nachdem Sie Ihre Anwendung im Azure-Portal registriert haben, verwenden Sie in [!INCLUDE[prod_short](includes/prod_short.md)] die Seite **E-Mail-Anwendung AAD-Registrierung**, um die Verbindung mit [!INCLUDE[prod_short](includes/prod_short.md)] herzustellen.
 
@@ -263,7 +263,7 @@ Nachdem Sie Ihre Anwendung im Azure-Portal registriert haben, verwenden Sie in [
 
 -->
 
-## <a name="see-related-microsoft-trainingtrainingmodulesset-up-email" />Siehe verwandte [Microsoft Schulungen](/training/modules/set-up-email/)
+## <a name="see-related-microsoft-training" />Siehe verwandte [Microsoft Schulungen](/training/modules/set-up-email/)
 
 ## <a name="see-also" />Siehe auch
 

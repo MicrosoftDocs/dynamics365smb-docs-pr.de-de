@@ -158,7 +158,7 @@ Um einzurichten, dass Kostenregulierung automatisch ausgeführt wird, wenn Sie e
 
 Die Auswahl, die Sie im Feld **Automatische Kostenanpassung** vornehmen, ist wichtig für die Leistung und die Korrektheit Ihrer Kosten. Kürzere Perioden, wie etwa **Tag** oder **Woche**, beeinflussen die Systemleistung weniger, da sie die strengere Anforderung haben, dass nur am letzten tag oder in der letzten Woche gebuchte Kosten automatisch reguliert werden können. Dies bedeutet, dass die automatische Kostenregulierung nicht so häufig ausgeführt wird und daher die Systemleistung weniger beeinträchtigt wird. Dies bedeutet jedoch auch, dass VK-Preise möglicherweise weniger genau sind.  
 
-### <a name="example" />Beispiel
+### <a name="example-1" />Beispiel
 
 Das folgende Beispiel zeigt ein automatisches Kostenbewertungsszenario:  
 

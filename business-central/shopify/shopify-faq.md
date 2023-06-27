@@ -55,7 +55,7 @@ Der Shopify Konnektor funktioniert nicht für [App einbetten](/dynamics365/busin
 
 ## <a name="what-support-is-offered-for-the-shopify-connector" />Welche Unterstützung wird für den Shopify Konnektor angeboten?
 
-### <a name="includeprodshortincludesprodshortmd" />[!INCLUDE[prod_short](../includes/prod_short.md)]
+### [!INCLUDE[prod_short](../includes/prod_short.md)]
 
 Der Shopify-Konnektor wird durch das aktuelle Supportmodell abgedeckt. Erfahren Sie mehr unter [Technical Support](/dynamics365/business-central/dev-itpro/administration//manage-technical-support) (nur in englischer Sprache verfügbar).
 

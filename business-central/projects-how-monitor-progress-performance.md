@@ -139,7 +139,7 @@ Alle projektbezogenen Posten werden in Projektjournalen aufgezeichnet und fortla
 
 Auf der Seite **Projektposten** können Sie die Posten überprüfen, die einem Projekt zugeordnet sind.  
 
-## <a name="find-related-microsoft-trainingtrainingpathscalculate-post-job-wip" />Siehe verwandte [Microsoft Schulungen](/training/paths/calculate-post-job-wip/)
+## <a name="find-related-microsoft-training" />Siehe verwandte [Microsoft Schulungen](/training/paths/calculate-post-job-wip/)
 
 ## <a name="see-also" />Siehe auch
 

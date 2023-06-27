@@ -66,7 +66,7 @@ Der Unterschied besteht, wenn Sie mehrere Mandanten haben. Im Gegensatz zu [!INC
 > [!IMPORTANT]
 > Wenn Sie Business Central 2021 Release Wave 1 (Version 18) oder früher verwenden, können Sie die App nicht wie in diesem Artikel beschrieben installieren. Installieren Sie stattdessen die App aus dem [Microsoft Store](https://go.microsoft.com/fwlink/?LinkId=734848). Weitere Informationen und Hilfe zur Installation dieser veralteten App finden Sie unter [Vorbereiten und Installieren der Business Central-App](/dynamics365/business-central/dev-itpro/deployment/install-business-central-app).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesalternative-interfaces-dynamics-365-business-centralindex" />Siehe verwandte [Microsoft Schulungen](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Siehe verwandte [Microsoft Schulungen](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Siehe auch
 

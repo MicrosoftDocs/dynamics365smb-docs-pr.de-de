@@ -83,7 +83,7 @@ Das folgende Diagramm zeigt die ausgehenden Lagerprozesse für verschiedene Bele
 
 :::image type="content" source="media/design_details_warehouse_management_outbound_advanced_flow.png" alt-text="Zeigt die Schritte in einem erweiterten ausgehenden Lagerfluss.":::
 
-### <a name="1-release-a-source-document" />1: Ein Herkunftsbeleg freigeben
+### <a name="1-release-a-source-document-1" />1: Ein Herkunftsbeleg freigeben
 
 Das Freigeben eines Herkunftsbelegs in erweiterten Konfigurationen bewirkt dasselbe wie bei Basiskonfigurationen. Die Artikel werden für die Bewegung im Lager verfügbar. Sie können beispielsweise einer Sendung beigelegt werden.  
 

@@ -60,7 +60,7 @@ Anstatt die aktuellen und budgetierten Beträge für alle Konten für eine einzi
 3. Füllen Sie auf dem Inforegister **Optionen** die erforderlichen Felder aus, um festzulegen, was in der Tabelle angezeigt werden soll.  
 4. Fahren Sie auf der Seite **Zeilen** Inforegister mit dem Mauszeiger über ein Feld in der Tabelle, um eine kurze Beschreibung des angezeigten Betrags zu lesen.  
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesbudgets-exchange-rates-dynamics-365-business-centralindex" />Siehe dazu die Schulung unter [Microsoft Learn](/learn/modules/budgets-exchange-rates-dynamics-365-business-central/index).
+## <a name="see-related-training-at-microsoft-learn" />Siehe dazu die Schulung unter [Microsoft Learn](/learn/modules/budgets-exchange-rates-dynamics-365-business-central/index).
 
 ## <a name="see-also" />Siehe auch
 

@@ -70,7 +70,7 @@ Im Folgenden werden die Spezifikationen für die MICR CMC-7-Schriftarten zusamme
 
 ![MICR CMC-7 Spezifikationen.](media/font_MICR_CMC-7_Specifications.png "MICR CMC-7-Spezifikationen")
 
-### <a name="delimiter-characters" />Trennzeichen
+### <a name="delimiter-characters-1" />Trennzeichen
 
 ![Begrenzungszeichen für CMC-7.](media/font-cmc7-letters.png "Begrenzungszeichen für CMC-7.")
 

@@ -184,7 +184,7 @@ Sie können Finanzberichte als RapidStart-Konfigurationspakete importieren und e
 > [!NOTE]
 > Wenn Sie Finanzberichte importieren, werden bestehende Datensätze mit dem gleichen Namen wie die zu importierenden gelöscht.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-financial-reports-dynamics-365-business-centralindex" />Siehe dazu [Microsoft Schulung](/training/modules/configure-financial-reports-dynamics-365-business-central/index).
+## <a name="see-related-microsoft-training" />Siehe dazu [Microsoft Schulung](/training/modules/configure-financial-reports-dynamics-365-business-central/index).
 
 ## <a name="see-also" />Siehe auch
 

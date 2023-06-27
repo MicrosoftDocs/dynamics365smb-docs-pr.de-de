@@ -89,7 +89,7 @@ Statt Umlagerungsbelege zu verwenden, können Sie Umlagerungen von Artikeln erfa
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-## <a name="see-related-microsoft-trainingtrainingmodulesmanage-internal-warehouse-processes" />Siehe verwandte [Microsoft Schulungen](/training/modules/manage-internal-warehouse-processes/)
+## <a name="see-related-microsoft-training" />Siehe verwandte [Microsoft Schulungen](/training/modules/manage-internal-warehouse-processes/)
 
 ## <a name="see-also" />Siehe auch
 

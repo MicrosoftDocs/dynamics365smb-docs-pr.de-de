@@ -75,7 +75,7 @@ Wenn Sie den jährlichen Betrag für den Servicevertrag oder das Servicevertrags
 
 Die Schritte werden für jede Vertragszeile wiederholt.  
 
-#### <a name="example" />Beispiel
+#### <a name="example-1" />Beispiel
 Das Feld **Nicht ausgegl. Betr. zulassen** ist nicht im Servicevertrag aktiviert, wenn dieser drei Vertragszeilen mit folgenden Daten enthält.  
 
 |Artikel|Zeileneinstandspreis|Zeilenwert|Zeilenrabatt %|Zeilenrabattbetrag|Zeilenbetrag|DB|  
@@ -113,7 +113,7 @@ Wenn Sie den jährlichen Betrag für den Servicevertrag oder das Servicevertrags
     * Zeilenrabatt % = Zeilenrabattbetrag / Zeilenwert * 100  
     * DB = Zeilenbetrag - Zeileneinstandspreis  
 
-#### <a name="example" />Beispiel
+#### <a name="example-2" />Beispiel
 Das Feld **Nicht ausgegl. Betr. zulassen** ist nicht im Servicevertrag aktiviert, wenn dieser drei Vertragszeilen mit folgenden Daten enthält.  
 
 |Artikel|Zeileneinstandspreis|Zeilenwert|Zeilenrabatt %|Zeilenrabattbetrag|Zeilenbetrag|DB|  

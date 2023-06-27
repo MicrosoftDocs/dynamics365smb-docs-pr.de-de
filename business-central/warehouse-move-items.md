@@ -36,7 +36,7 @@ Die Zählung, Anpassung und Umbuchung von Artikeln kann Lageraufgaben beinhalten
 |Verwenden Sie das Lagerplatzumlagerungsarbeitsblatt, interne Kommissionierung und Einlagerung, um Artikel in erweiterter Lagerkonfigurationen mit gesteuerter Kommissionierung und Entnahme umzulagern.|[Umlagerung von Artikeln in erweiterten Lagerkonfigurationen](warehouse-how-to-move-items-in-advanced-warehousing.md)|  
 |Strukturieren Sie Ihr Lager mit neuen Lagerplatzcodes und neuen Lagerplatzeigenschaften neu und lagern Sie sie ggf. um.|[Lager umstrukturieren](warehouse-how-to-restructure-warehouses.md)|  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesmanage-internal-warehouse-processes" />Siehe verwandte [Microsoft Schulungen](/training/modules/manage-internal-warehouse-processes/)
+## <a name="see-related-microsoft-training" />Siehe verwandte [Microsoft Schulungen](/training/modules/manage-internal-warehouse-processes/)
 
 ## <a name="see-also" />Siehe auch
 

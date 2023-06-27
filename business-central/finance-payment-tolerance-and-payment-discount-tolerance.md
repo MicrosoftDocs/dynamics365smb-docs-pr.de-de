@@ -211,11 +211,11 @@ Szenarien mit Alternative A, B, C oder D bedeuten Folgendes:
 |**29**|**1,000** <br />**1,000**|**60** <br />**30**|**5** <br />**5**|**15.01.2003** <br />**01/17/03**|**01/20/03** <br />**01/22/03**|**>22.01.03**|**2000**|**Keine**|**Ja**|**0**|**0**|  
 |30|1.000 <br />1.000|60 <br />30|5 <br />5|15.01.2003 <br />17.01.2003|01/20/03 <br />01/22/03|>22.01.03|1990|PaymentTolerance|Ja|0|5|  
 
-### <a name="payment-range-diagrams" />Zahlungsbereichsdiagramme
+### <a name="payment-range-diagrams-1" />Zahlungsbereichsdiagramme
 
 Bezugnehmend auf das o. g. Szenario, sind die Zahlungszeiträume wie folgt:  
 
-#### <a name="1-payment-date-011503-scenarios-1-3" />(1) Zahlungsdatum <=15.01.03 (Szenarien 1-3)
+#### <a name="1-payment-date-011503-scenarios-1-3-1" />(1) Zahlungsdatum <=15.01.03 (Szenarien 1-3)
 
 Restbetrag gemäß  
 
@@ -275,7 +275,7 @@ Normale Ausgleichsvorschriften
 
 (2) Fällt die Zahlung in diesen Bereich, können nicht alle Posten geschlossen werden, auch nicht mit Toleranz.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesenter-payments-dynamics-365-business-central" />Siehe verwandte [Microsoft Schulungen](/training/modules/enter-payments-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Siehe verwandte [Microsoft Schulungen](/training/modules/enter-payments-dynamics-365-business-central/)
 
 ## <a name="see-also" />Siehe auch
 

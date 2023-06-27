@@ -63,7 +63,7 @@ Die **OneDrive-Einrichtung** wurde mit der Veröffentlichungswelle 2, Version 21
 
 Um zu wechseln, öffnen Sie einfach die **OneDrive Einrichtung** und führen Sie sie direkt aus, oder öffnen Sie die Seite **SharePoint Verbindungseinrichtung** und wählen Sie **Zur neuen OneDrive Einrichtung gehen** in der Benachrichtigung am oberen Rand der Seite. Folgen Sie der Anleitung zur Einrichtung wie im vorherigen Abschnitt beschrieben.
 
-## <a name="restoring-onedrive-and-includeprodshortincludesprodshortmd" />Wiederherstellung von OneDrive und [!INCLUDE[prod_short](includes/prod_short.md)]
+## <a name="restoring-onedrive-and-" />Wiederherstellung von OneDrive und [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Im Rahmen einer Disaster Recovery-Übung müssen Administratoren möglicherweise eine [!INCLUDE[prod_short](includes/prod_short.md)]-Online-Umgebung mit einem Backup aus der Vergangenheit wiederherstellen und den OneDrive-Speicher mit demselben Zeitpunkt synchronisieren. OneDrive bietet verschiedene Tools zur Wiederherstellung, z.B. die Wiederherstellung von OneDrive eines Benutzers zu einem früheren Zeitpunkt, die Wiederherstellung einer früheren Version einer einzelnen Datei oder die Wiederherstellung gelöschter Dateien. Weitere Informationen finden Sie in den folgenden Artikeln:
 

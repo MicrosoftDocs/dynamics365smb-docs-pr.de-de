@@ -70,7 +70,7 @@ Mit der aktivierten Funktion kann eine Rücksendung erst gebucht werden, wenn di
 | Geben Sie Standardberichte an, die für verschiedene Dokumenttypen verwendet werden sollen. |[Berichtsauswahl in Business Central](across-report-selections.md)|
 |Geben Sie an, ob Benutzer Einkaufsrechnungen buchen dürfen und ob sie diese zusammen mit einer Lieferung buchen müssen. |[Definieren Sie eine Rechnungsbuchungsrichtlinie für Benutzer](admin-setup-invoice-posting-policy.md)|
 
-## <a name="see-related-training-at-microsoft-learnlearnpathstrade-get-started-dynamics-365-business-central" />Siehe verwandte Schulungen unter [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/).
+## <a name="see-related-training-at-microsoft-learn" />Siehe verwandte Schulungen unter [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/).
 
 ## <a name="see-also" />Siehe auch
 

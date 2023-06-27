@@ -26,7 +26,7 @@ Die Eingabe der richtigen Einrichtungswerte ist entscheidend für den Erfolg jed
 [Designdetails: Kostenberechnungsmethoden](design-details-costing-methods.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
  
 
 

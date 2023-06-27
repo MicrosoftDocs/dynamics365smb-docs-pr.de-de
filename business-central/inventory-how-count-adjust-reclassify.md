@@ -202,7 +202,7 @@ Buchen Sie die Anpassungslagerplatzdatensätze im Artikelbuch für die von Ihnen
 5. Wählen Sie **OK** aus. Die positiven und negativen Anpassungen werden für alle Artikel summiert und im Artikel Buch.-Blatt werden Zeilen erstellt.  
 6. Buchen Sie die Buch.-Blattzeilen, um die Mengenabweichungen als Artikelposten zu buchen. Die Bestände an den Lagerplätzen und im Artikelbuch stimmen jetzt überein.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesadjust-inventory" />Siehe verwandte [Microsoft Schulungen](/training/modules/adjust-inventory/)
+## <a name="see-related-microsoft-training" />Siehe verwandte [Microsoft Schulungen](/training/modules/adjust-inventory/)
 
 ## <a name="see-also" />Siehe auch
 

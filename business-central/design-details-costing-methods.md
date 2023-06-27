@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 05/12/2023
 ms.author: bholtorf
 ---
-# Designdetails: Kostenberechnungsmethoden
+# <a name="design-details-costing-methods" />Designdetails: Kostenberechnungsmethoden
 
 Die Lagerabgangsmethode legt fest, ob ein tatsächlicher oder ein budgetierter Wert gebucht und in der Berechnung des Einstandspreises verwendet werden soll. Zusammen mit dem Buchungsdatum und der -reihenfolge beeinflusst die Lagerabgangsmethode auch, wie der Kostenfluss aufgezeichnet wird.
 
@@ -49,7 +49,7 @@ Kostenberechnungsmethoden unterscheiden sich in der Art, wie sie Lagerabgänge b
 |**Standard**     |Bedienungsfreundlich, benötigt jedoch qualifizierte Wartung.|Anwendung verfolgt die **Restmenge**.<br /><br /> Anwendung basiert auf "FIFO".|Bewertet fakturierte und nicht fakturierte Mengen neu.<br /><br /> Kann pro Artikel oder pro Artikelposten durchgeführt werden.<br /><br /> Kann rückwirkend geschehen.|Verwenden Sie das **Standardarbeitsblatt**-Fenster, um Einstandspreise (fest) in regelmäßigen Abständen zu aktualisieren und der zu ermitteln.<br /><br /> Wird NICHT pro SKU unterstützt.<br /><br /> Keine historischen Datensätze für Einstandspreise vorhanden.|
 |**Spezifisch**     |Erfordert Artikelverfolgung auf der eingehenden und ausgehenden Transaktion.<br /><br /> Normalerweise verwendet für serialisierte Artikel.|Alle Augleiche sind fest.|Bewertet nur die fakturierte Menge neu.<br /><br /> Kann pro Artikel oder pro Artikelposten durchgeführt werden.<br /><br /> Kann rückwirkend geschehen.|Sie können eine bestimmte Artikelverfolgung verwenden, ohne die bestimmte Lagerabgangsmethode zu verwenden. Dann folgen die Kosten NICHT der Chargennummer, sondern der Kosten-Annahme der ausgewählten Bewertungsmethode.|
 
-## Beispiel
+## <a name="example" />Beispiel
 
 Dieser Abschnitt nennt Beispiele, wie unterschiedliche Lagerabgangsmethoden sich auf den Lagerwert auswirken.  
 
@@ -67,7 +67,7 @@ Die folgende Tabelle zeigt die Bestandserhöhungen und -minderungen, auf denen d
 > [!NOTE]  
 > Die resultierende Menge im Bestand ist Null. Aus diesem Grund muss der Lagerwert, unabhängig von der Kostenberechnungsmethode, auch Null sein.  
 
-### Auswirkungen der Kostenbewertungsmethoden auf die Bewertung von Lagerzugängen  
+### <a name="effect-of-costing-methods-on-valuing-inventory-increases" />Auswirkungen der Kostenbewertungsmethoden auf die Bewertung von Lagerzugängen
 
 Für Artikel mit Kostenberechnungsmethoden, die die Ist-Kosten als Bewertungsbasis verwenden (**FIFO**, **LIFO**, **Durchschnitt** oder **Spezifisch**) werden Bestandserhöhungen anhand der Anschaffungskosten des Artikels bewertet.  
 
@@ -75,11 +75,11 @@ Für Artikel mit Kostenberechnungsmethoden, die die Ist-Kosten als Bewertungsbas
 
     Bei der Lagerabgangsmethode **Standard** werden Lagerzugänge mit den aktuellen Standardkosten des Artikels bewertet.  
 
-#### Standard  
+#### <a name="standard" />Standard
 
 Bei der Lagerabgangsmethode **Standard** werden Lagerzugänge mit den aktuellen Standardkosten des Artikels bewertet.  
 
-### Auswirkungen der Kostenbewertungsmethoden auf die Bewertung von Lagerabgängen
+### <a name="effect-of-costing-methods-on-valuing-inventory-decreases" />Auswirkungen der Kostenbewertungsmethoden auf die Bewertung von Lagerabgängen
 
 - **FIFO**  
 
@@ -147,7 +147,7 @@ Bei der Lagerabgangsmethode **Standard** werden Lagerzugänge mit den aktuellen 
     |03-01-20|-1|-10.00|**1**|5|  
     |04-01-20|-1|-30.00|**3**|6|  
 
-## Siehe auch
+## <a name="see-also" />Siehe auch
 
 [Designdetails: Lagerbewertung](design-details-inventory-costing.md)  
 [Designdetails: Abweichung](design-details-variance.md)  

@@ -37,7 +37,7 @@ Business Central als Clouddienst hat auch eine Zertifizierung wie ISO 27001 und 
 [Anwendungs-Kompatibilität](compliance-application-compliance.md)  
 [Dienst-Kompatibilität](compliance-service-compliance.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](../includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](../includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

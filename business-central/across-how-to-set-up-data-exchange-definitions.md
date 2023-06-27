@@ -33,7 +33,7 @@ Das Erstellen einer Datenaustauschdefinition beinhaltet zwei Aufgaben:
 1. Auf der Seite **Datenaustauschdefinition** beschreiben Sie die Formatierung aus Zeilen und Spalten in der Datei. Erfahren Sie mehr im Abschnitt [Sie beschreiben die Formatierung von Zeilen und Spalten in der Datei](#formatlinescolumns).  
 2. Auf der Seite **Wechselkurszuordnungs** ordnen Sie Spalten in der Datendatei Feldern in [!INCLUDE[prod_short](includes/prod_short.md)] zu. Erfahren Sie mehr im Abschnitt [So ordnen Sie Spalten in der Datendatei den Feldern im Abschnitt [!INCLUDE[prod_short](includes/prod_short.md)]](#mapfields) zu.  
 
-### <a name="a-nameformatlinescolumnsato-describe-the-formatting-of-lines-and-columns-in-the-file" /><a name=formatlinescolumns></a>Um die Formatierung von Zeilen und Spalten in der Datei zu beschreiben
+### <a name="to-describe-the-formatting-of-lines-and-columns-in-the-file" /><a name=formatlinescolumns></a>Um die Formatierung von Zeilen und Spalten in der Datei zu beschreiben
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion 1.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") öffnet. Symbol, geben Sie **Datenaustauschdefinitionen** ein und wählen Sie dann den entsprechenden Link.  
 2. Wählen Sie die Aktion **Neu**.  
@@ -108,7 +108,7 @@ Der nächste Schritt bei der Erstellung einer Datenaustauschdefinition besteht d
 > [!NOTE]  
 > Die spezielle Zuordnung hängt vom Geschäftszweck der Datendatei ab, die ausgetauscht werden soll, sowie von lokalen Variationen. Selbst der SEPA-Bankstandard verfügt über lokale Variationen. [!INCLUDE[prod_short](includes/prod_short.md)] Stützimport von SEPA Bankkontoauszug CAMT archiviert Out\-of\-the\-Box. Dies wird durch den **SEPA CAMT**-Datenaustausch-Definitionsdatensatzcode auf der Seite **Datenaustauschdefintion** angezeigt. Informationen über die bestimmte Feldzuordnung dieser SEPA CAMT Unterstützung, siehe. [Feld-Zuordnung, wenn sie SEPA CAMT Dateien importieren](across-field-mapping-when-importing-sepa-camt-files.md).  
 
-### <a name="a-namemapfieldsato-map-columns-in-the-data-file-to-fields-in-includeprodshortincludesprodshortmd" /><a name=mapfields></a>Zur Zuordnung von Spalten in der Datendatei zu Feldern in [!INCLUDE[prod_short](includes/prod_short.md)]
+### <a name="to-map-columns-in-the-data-file-to-fields-in-" /><a name=mapfields></a>Zur Zuordnung von Spalten in der Datendatei zu Feldern in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 > [!TIP]
 > Manchmal sind die Werte in den Feldern, die Sie zuordnen möchten, unterschiedlich. In einer App für Unternehmen lautet der Sprachcode für die Vereinigten Staaten zum Beispiel „U.S.“, in einer anderen jedoch „US.“ Das heißt, Sie müssen den Wert beim Datenaustausch umwandeln. Dies geschieht durch Transformationsregeln, die Sie für die Felder definieren. Erfahren Sie mehr unter [Transformationsregeln](across-how-to-set-up-data-exchange-definitions.md#transformation-rules).

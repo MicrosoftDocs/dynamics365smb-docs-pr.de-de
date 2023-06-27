@@ -10,7 +10,7 @@ ms.author: andreipa
 ms.reviewer: bholtorf
 ---
 
-# Artikel und Inventar synchronisieren
+# <a name="synchronize-items-and-inventory" />Artikel und Inventar synchronisieren
 
 Die **Artikel** in [!INCLUDE[prod_short](../includes/prod_short.md)] entsprechen den *Produkten* in Shopify und umfassen physische Waren, digitale Downloads, Dienstleistungen und Geschenkkarten, die Sie verkaufen. Es gibt zwei Hauptgründe für die Synchronisierung von Artikeln:
 
@@ -21,7 +21,7 @@ Die vorhergehenden Szenarien sind immer aktiviert.
 
 Ein drittes Szenario ist die Verwaltung von Daten in Shopify, importieren Sie diese Artikel jedoch in großen Mengen in [!INCLUDE[prod_short](../includes/prod_short.md)]. Dieses Szenario kann für Datenmigrationsereignisse hilfreich sein, wenn Sie einen bestehenden Onlineshop mit einer neuen [!INCLUDE[prod_short](../includes/prod_short.md)]-Umgebung verbinden möchten.
 
-## Artikelsynchronisierungen definieren
+## <a name="define-item-synchronizations" />Artikelsynchronisierungen definieren
 
 1. Wählen Sie das Suchsymbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](../media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus , und geben Sie **Shopify-Shop** ein. Öffnen Sie den Shop, für den Sie die Artikelsynchronisierung konfigurieren möchten.
 2. Wählen Sie im Feld **Artikel synchronisieren** die erforderliche Option aus.
@@ -37,7 +37,7 @@ Ein drittes Szenario ist die Verwaltung von Daten in Shopify, importieren Sie di
 > [!NOTE]
 > Die Änderung von **Artikel synchronisieren** von **Von Shopify** auf **Zu Shopify** hat keine Auswirkungen, es sei denn, Sie aktivieren **Kann Shopify Produkte aktualisieren**.
 
-## Artiekl aus Shopify importieren
+## <a name="import-items-from-shopify" />Artiekl aus Shopify importieren
 
 Zuerst importieren Sie Artikel aus Shopify in großen Mengen oder zusammen mit dem Import von Bestellungen. Diese Artikel werden den Tabellen **Shopify-Produkt** und **Shopify-Variante** hinzugefügt. Ordnen Sie dann importierte Produkte und Varianten den Artikeln und Varianten in [!INCLUDE[prod_short](../includes/prod_short.md)] zu. Verwalten Sie den Prozess mit den folgenden Einstellungen:
 
@@ -50,7 +50,7 @@ Zuerst importieren Sie Artikel aus Shopify in großen Mengen oder zusammen mit d
 |**Variantenpräfix**|Wird zusammen mit **SKU-Zuordnung** verwendet, die entweder auf die Option **Variantencode** oder **Artikelnr. und Variantencode** als Fallback-Strategie festgelegt ist, wenn die SKU aus Shopify leer ist.<br>Wenn Sie die Artikelvariante automatisch in [!INCLUDE[prod_short](../includes/prod_short.md)] erstellen möchten, müssen Sie einen Wert in **Code** eingeben. Standardmäßig wird der im SKU-Feld definierte Wert aus Shopify verwendet. Wenn die SKU jedoch leer ist, wird Code generiert, der mit dem definierten Variantenpräfix und „001“ beginnt.|
 |**Shopify Kann Artikel aktualisieren**|Wählen Sie diese Option aus, wenn Sie Artikel und/oder Varianten automatisch aktualisieren möchten.|
 
-### So wirken sich in SKU und Barcode definierte Shopify-Produkte auf die Zuordnung und Erstellung von Artikeln und Varianten in Business Central aus
+### <a name="effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central" />So wirken sich in SKU und Barcode definierte Shopify-Produkte auf die Zuordnung und Erstellung von Artikeln und Varianten in Business Central aus
 
 Wenn Produkte von Shopify in die Tabellen **Shopify-Produkte** und **Shopify-Varianten** importiert werden, versucht [!INCLUDE[prod_short](../includes/prod_short.md)] vorhandene Datensätze zu finden.
 
@@ -74,7 +74,7 @@ In der folgenden Tabelle werden die Auswirkungen des Felds **Strichcode** beschr
 > [!NOTE]  
 > Sie können die Zuordnung für die ausgewählten Produkte/Varianten auslösen, indem Sie **Zuordnung von Produkten suchen** auswählen oder alle importierten nicht zugeordneten Produkte auslösen über **Zuordnung suchen** auswählen.
 
-## Artikel nach Shopify exportieren
+## <a name="export-items-to-shopify" />Artikel nach Shopify exportieren
 
 Wählen Sie die Elemente aus Ihrer Artikelliste aus, die nach Shopify exportiert werden. Verwenden Sie die Aktion **Artikel hinzufügen** auf der Seite **Shopify-Produkte**, um der Shopify-Produktliste Artikel hinzuzufügen. 
 
@@ -95,7 +95,7 @@ Der Prozess des Artikelexports kann mit den folgenden Einstellungen verwaltet we
 |**Standardrichtlinie für Lagerbestand**|Wählen Sie *Verweigern* aus, um einen negativen Lagerbestand der Shopify-Seite zu vermeiden.|
 |**Kann Shopify-Produkte aktualisieren**|Definieren Sie dieses Feld, wenn [!INCLUDE[prod_short](../includes/prod_short.md)] Artikel nur erstellen oder auch aktualisieren kann. Wählen Sie diese Option aus, wenn Sie nach der ersten Synchronisierung, die durch die Aktion **Artikel hinzufügen** ausgelöst wurde, Produkte manuell mit der Aktion **Produkte synchronisieren** oder über eine Aufgabenwarteschlange für wiederkehrende Aktualisierungen aktualisieren möchten. Denken Sie daran, **Mit Shopify** im Feld **Artikelsynchronisierung** auszuwählen.<br>**Kann Shopify Produkte aktualisieren** hat keinen Einfluss auf die Synchronisierung von Preisen, Bildern oder Lagerebenen, die durch unabhängige Steuerelemente konfiguriert werden.<br>Wenn **Kann Shopify Produkte aktualisieren** aktiviert ist, werden die folgenden Felder auf der Shopify Seite auf Produkt- und bei Bedarf Variantenebene aktualisiert: **SKU**, **Barcode**, **Gewicht**. **Titel**, **Produkttyp**, **Kreditor** und **Beschreibung** des Produkts werden ebenfalls aktualisiert, wenn die exportierten Werte nicht leer sind. Für die Beschreibung bedeutet dies, dass Sie einen der folgenden Umschalter aktiviert haben: **Erweiterten Text für Artikel synchronisieren**, **Marketingtext für Artikel synchronisieren**, **Artikelattribute synchronisieren**. Attribute, erweiterter Text oder Marketingtext müssen Werte enthalten. Wenn das Produkt Varianten verwendet, wird die Variante bei Bedarf hinzugefügt oder entfernt.|
 
-### Übersicht über Feldzuordnungen
+### <a name="fields-mapping-overview" />Übersicht über Feldzuordnungen
 
 |Shopify|Quelle beim Export aus [!INCLUDE[prod_short](../includes/prod_short.md)]|Ziel beim Importier in [!INCLUDE[prod_short](../includes/prod_short.md)]|
 |------|-----------------|-----------------|
@@ -118,16 +118,16 @@ Der Prozess des Artikelexports kann mit den folgenden Einstellungen verwaltet we
 |Steuerpflichtig|Fester Wert: aktiviert.|Wird nicht verwendet.|
 |Steuercodes|**Steuergruppencode**. Nur für die Umsatzsteuer relevant. Erfahren Sie mehr unter [Steuern festlegen](setup-taxes.md).|Wird nicht verwendet.|
 
-### Tags
+### <a name="tags" />Tags
 
 Überprüfen Sie die importierten Tags in der Infobox **Tags** auf der Seite **Shopify-Produkt**. Wählen Sie zum Bearbeiten von Tags die Aktion **Tags** auf derselben Seite aus.
 Wenn die Option **Zu Shopify** im Feld **Artikel synchronisieren** ausgewählt ist, werden zugewiesene Tags bei der nächsten Synchronisation nach Shopify exportiert.
 
-## Artikelsynchronisierung ausführen
+## <a name="run-item-synchronization" />Artikelsynchronisierung ausführen
 
 Die vollständige oder teilweise Synchronisierung von Artikeln kann auf viele verschiedene Arten durchgeführt werden.
 
-### Anfängliche Synchronisierung von Artikeln aus Business Central mit Shopify
+### <a name="initial-sync-of-items-from-business-central-to-shopify" />Anfängliche Synchronisierung von Artikeln aus Business Central mit Shopify
 
 1. Wechseln Sie zum Suchsymbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](../media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol, geben Sie **Shopify Produkte** ein und wählen Sie den entsprechenden Link.
 2. Wählen Sie die Aktion **Artikel hinzufügen** aus.
@@ -138,7 +138,7 @@ Die vollständige oder teilweise Synchronisierung von Artikeln kann auf viele ve
 
 Die resultierenden Artikel werden automatisch Shopify mit Preisen erstellt. Abhängig von Ihrer Auswahl können Bilder und Lagerebenen enthalten sein. Der Vorgang kann einige Zeit in Anspruch nehmen, wenn eine große Anzahl von Artikeln hinzugefügt wird.
 
-### Produkte aus Shopify mit Business Central synchronisieren
+### <a name="sync-products-from-shopify-to-business-central" />Produkte aus Shopify mit Business Central synchronisieren
 
 1. Wechseln Sie zum Suchsymbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](../media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") , geben Sie **Shopify-Shop** ein, und wählen Sie den entsprechenden Link aus.
 2. Wählen Sie den Shop, für den Sie Artikel synchronisieren möchten, um die Seite **Shopify Shop Card** zu öffnen.
@@ -148,7 +148,7 @@ Verwenden Sie alternativ die Aktion **Produkte synchronisieren** auf der Seite *
 
 Sie können die Aufgabe für eine automatische Ausführung planen. Erfahren Sie mehr unter [Planen Sie wiederkehrende Aufgaben](background.md#to-schedule-recurring-tasks).
 
-### Ad-Hoc-Aktualisierungen von Shopify-Produkten
+### <a name="ad-hoc-updates-of-shopify-products" />Ad-Hoc-Aktualisierungen von Shopify-Produkten
 
 Beim Aktualisieren der Datensätze in der Tabelle **Shopify-Produkt** werden die folgenden Änderungen mit Shopify synchronisiert.
 
@@ -166,7 +166,7 @@ Basierend auf dem Wert in **Aktion für entfernte Produkte** auf der Seite **Sho
 * **Status auf Entwurf** – Der Status des Produkts in Shopify ist auf *Entwurf* festgelegt.
 * **Status auf Archiviert** – Das Produkt ist in Shopify archiviert.
 
-## Artikelbilder synchronisieren
+## <a name="sync-item-images" />Artikelbilder synchronisieren
 
 Die Synchronisierung von Bildern kann für synchronisierte Artikel konfiguriert werden. Folgende Optionen stehen zur Verfügung:
 
@@ -176,23 +176,23 @@ Die Synchronisierung von Bildern kann für synchronisierte Artikel konfiguriert 
 
 Die Bildsynchronisation kann auf zwei Arten initialisiert werden, die nachfolgend beschrieben werden.
 
-### Produktbilder über die Seite „Shopify-Shop“ synchronisieren
+### <a name="sync-product-images-from-the-shopify-shop-page" />Produktbilder über die Seite „Shopify-Shop“ synchronisieren
 
 1. Wechseln Sie zum Suchsymbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](../media/ui-search/search_small.png "Was möchten Sie tun?") Symbol, geben Sie **Shopify Shops** ein, und wählen Sie den entsprechenden Link.
 2. Wählen Sie den Shop, für den Sie Bilder synchronisieren möchten, um die Seite **Shopify Shop Card** zu öffnen.
 3. Wählen Sie die Aktion **Produktbilder synchronisieren** aus.
 
-### Produktbilder über die Seite „Shopify-Produkte“ synchronisieren
+### <a name="sync-product-images-from-the-shopify-products-page" />Produktbilder über die Seite „Shopify-Produkte“ synchronisieren
 
 1. Wechseln Sie zum Suchsymbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](../media/ui-search/search_small.png "Was möchten Sie tun?") Symbol, geben Sie **Shopify Produkte** ein und wählen Sie den entsprechenden Link.
 2. Wählen Sie die Aktion **Produktbilder synchronisieren**.
 
-### Anmerkungen zur Bildsynchronisation
+### <a name="image-synchronization-remarks" />Anmerkungen zur Bildsynchronisation
 
 * Beim Exportieren von Bildern von [!INCLUDE[prod_short](../includes/prod_short.md)] nach Shopify werden die neuen Bilder Shopify hinzugefügt und alte Bilder bleiben intakt. Wenn ein Bild in [!INCLUDE[prod_short](../includes/prod_short.md)] aktualisiert wird, müssen Sie die alten Bilder im **Shopify Admin** löschen.
 * Bilder, die nach Shopify exportiert werden und den von Shopify definierten Anforderungen nicht entsprechen, werden nicht importiert. Erfahren Sie mehr über [Produktmedientypen auf help.shopify.com](https://help.shopify.com/en/manual/products/product-media/product-media-types#images).
 
-## Preise mit Shopify synchronisieren
+## <a name="sync-prices-with-shopify" />Preise mit Shopify synchronisieren
 
 Der Prozess des Exportpreises kann mit den folgenden Einstellungen verwaltet werden:
 
@@ -207,24 +207,24 @@ Der Prozess des Exportpreises kann mit den folgenden Einstellungen verwaltet wer
 
 Preise können für synchronisierte Artikel auf die beiden, unten beschriebenen Arten exportiert werden.
 
-### Preise über die Seite „Shopify-Produkte“ synchronisieren
+### <a name="sync-prices-from-the-shopify-products-page" />Preise über die Seite „Shopify-Produkte“ synchronisieren
 
 1. Wechseln Sie zum Suchsymbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](../media/ui-search/search_small.png "Was möchten Sie tun?"). Symbol, geben Sie **Shopify Produkte** ein und wählen Sie den entsprechenden Link.
 2. Wählen Sie die Aktion **Preise mit Shopify synchronisieren** aus.
 
-### Anmerkungen zur Preisberechnung
+### <a name="price-calculation-remarks" />Anmerkungen zur Preisberechnung
 
 * Bei der Preisermittlung verwendet [!INCLUDE[prod_short](../includes/prod_short.md)] die Logik des “niedrigsten Preises“. Die Niedrigstpreislogik ignoriert jedoch den auf der Artikelkarte definierten Einzelpreis, wenn ein Preis in der Preisgruppe definiert ist. Dies gilt auch dann, wenn der Stückpreis vom Artikelkartenpreis niedriger ist.
 * Um Preise zu berechnen, erstellt der Konnektor ein temporäres Verkaufsangebot für den Artikel mit einer Menge von 1 und verwendet die standardmäßige Preisberechnungslogik. Es werden nur Preise und Rabatte verwendet, die für Menge 1 gelten. Sie können keine unterschiedlichen Preise oder Rabatte basierend auf der Menge exportieren.
 
-## Lagerbestand mit Shopify synchronisieren
+## <a name="sync-inventory-to-shopify" />Lagerbestand mit Shopify synchronisieren
 
 Die Synchronisierung des Lagerbestands kann für bereits synchronisierte Artikel konfiguriert werden. Dazu müssen zwei Bedingungen erfüllt sein:
 
 1. Die Nachverfolgung von Lagerbeständen muss für ein Produkt in Shopify aktiviert werden. Erwägen Sie beim Exportieren von Artikeln nach Shopify die Aktivierung von **Verfolgter Lagerbestand** auf der **Shopify-Shop**-Karte. Weitere Informationen finden Sie im Abschnitt [Artikel nach Shopify exportieren](synchronize-items.md#export-items-to-shopify).
 2. Die Synchronisierung des Lagerbestands muss für **Shopify-Standorte** aktiviert sein.
 
-### So aktivieren Sie die Synchronisierung des Lagerbestands
+### <a name="to-enable-inventory-sync" />So aktivieren Sie die Synchronisierung des Lagerbestands
 
 1. Wechseln Sie zum Suchsymbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](../media/ui-search/search_small.png "Was möchten Sie tun?") Symbol, geben Sie **Shopify Shop** ein, und wählen Sie den entsprechenden Link.
 2. Wählen Sie den Shop aus, für den Sie den Lagerbestand synchronisieren möchten, um die Seite **Shopify-Shop-Karte** zu öffnen.
@@ -235,18 +235,18 @@ Die Synchronisierung des Lagerbestands kann für bereits synchronisierte Artikel
 
 Die Synchronisierung des Lagerbestands auf zwei unten beschriebene Arten initialisieren.
 
-### Lagerbestand über die Seite „Shopify-Shop“ synchronisieren
+### <a name="sync-inventory-from-the-shopify-shop-page" />Lagerbestand über die Seite „Shopify-Shop“ synchronisieren
 
 1. Wechseln Sie zum Suchsymbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](../media/ui-search/search_small.png "Was möchten Sie tun?") Symbol, geben Sie **Shopify Shops** ein, und wählen Sie den entsprechenden Link.
 2. Wählen Sie den Shop, für den Sie den Bestand synchronisieren möchten, um die Seite **Shopify Shop Card** zu öffnen.
 3. Wählen Sie die Aktion **Lagerbestand synchronisieren** aus.
 
-### Lagerbestand über die Seite „Shopify-Produkte“ synchronisieren
+### <a name="sync-inventory-from-the-shopify-products-page" />Lagerbestand über die Seite „Shopify-Produkte“ synchronisieren
 
 1. Wechseln Sie zum Suchsymbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](../media/ui-search/search_small.png "Was möchten Sie tun?") Symbol, geben Sie **Shopify Produkte** ein und wählen Sie den entsprechenden Link.
 2. Wählen Sie die Aktion **Lagerbestand synchronisieren** aus.
 
-### Anmerkungen zum Lagerbestand
+### <a name="inventory-remarks" />Anmerkungen zum Lagerbestand
 
 * Die Standard-Bestandsberechnungsmethode ist **Prognostizierter verfügbarer Saldo zum Datum**. Mit der Erweiterbarkeit können Sie weitere Optionen hinzufügen. Weitere Informationen zur Erweiterbarkeit finden Sie unter [Beispiele](https://github.com/microsoft/ALAppExtensions/blob/main/Apps/W1/Shopify/extensibility_examples.md). 
 * Sie können die von Shopify empfangenen Bestandsinformationen auf der Seite **Infobox „Shopify-Bestand“** überprüfen. In dieser Infobox erhalten Sie einen Überblick über den Shopify-Bestand und den zuletzt berechneten Bestand in [!INCLUDE[prod_short](../includes/prod_short.md)]. Pro Standort ist ein Datensatz verfügbar.
@@ -254,7 +254,7 @@ Die Synchronisierung des Lagerbestands auf zwei unten beschriebene Arten initial
 * Wenn Sie einen neuen Standort hinzufügen in Shopify, müssen Sie auch Inventardatensätze dafür hinzufügen. Shopify tut dies nicht automatisch für vorhandene Produkte und Varianten, und der Konnektor synchronisiert nicht die Lagerbestände für solche Artikel am neuen Standort. Weitere Informationen finden Sie unter [Inventar zu Standorten zuweisen](https://help.shopify.com/manual/locations/assigning-inventory-to-locations).
 * Bestand und Versand werden bei **Business Central Auftragserfüllungsdienste** werden nicht unterstützt. Verwenden Sie stattdessen normale Lagerorte.
 
-#### Beispiel für die Berechnung des hochgerechneten verfügbaren Saldos
+#### <a name="example-of-calculation-of-projected-available-balance" />Beispiel für die Berechnung des hochgerechneten verfügbaren Saldos
 
 Es sind 10 Stück von Artikel A verfügbar und zwei ausstehende Verkaufsaufträge. –Einen für Montag mit der Menge *Eins* und einen für Donnerstag mit der Menge *Zwei*. Je nachdem, wann Sie den Lagerbestand synchronisieren, aktualisiert das System den Lagerbestand Shopify mit unterschiedlichen Mengen:
 
@@ -263,6 +263,6 @@ Es sind 10 Stück von Artikel A verfügbar und zwei ausstehende Verkaufsaufträg
 |Dienstag|9|Bestand 10 minus Kundenauftrag, der am Montag versendet werden soll|
 |Freitag|7|Bestand 10 minus beide Verkaufsaufträge|
 
-## Siehe auch
+## <a name="see-also" />Siehe auch
 
 [Einstieg in den Konnektor für Shopify](get-started.md)  

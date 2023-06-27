@@ -78,7 +78,7 @@ Die Funktion **Benachrichtigungen über überfällige Genehmigungsbenachrichtigu
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Überfällige Genehmigungsanfragen** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie auf der Seite **Überfällige Genehmigungsanfragen** die Aktion **Überfällige Genehmigungsbenachrichtigungen senden** aus.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesuse-approval-workflows" />Siehe verwandte [Microsoft Schulungen](/training/modules/use-approval-workflows/)
+## <a name="see-related-microsoft-training" />Siehe verwandte [Microsoft Schulungen](/training/modules/use-approval-workflows/)
 
 ## <a name="see-also" />Siehe auch
 

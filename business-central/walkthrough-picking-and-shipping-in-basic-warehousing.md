@@ -135,7 +135,7 @@ Auf der Seite **Lagerkommissionierung** können Sie alle ausgehenden Lageraktivi
 
     Die 30 Lautsprecher werden nun erfasst, wie von den Lagerplätzen S-01-0001 und S-01-0002 kommissioniert, und es wird ein negativer Artikelposten erstellt, der gebuchte Verkaufslieferung anzeigt.  
 
-## <a name="see-related-microsoft-trainingtrainingpathspick-ship-items-business-central" />Siehe verwandte [Microsoft Schulungen](/training/paths/pick-ship-items-business-central/)
+## <a name="see-related-microsoft-training" />Siehe verwandte [Microsoft Schulungen](/training/paths/pick-ship-items-business-central/)
 
 ## <a name="see-also" />Siehe auch
 

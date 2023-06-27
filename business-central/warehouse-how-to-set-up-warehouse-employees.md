@@ -22,7 +22,7 @@ Jeder Benutzer, von dem Lageraktivitäten ausgeführt werden, muss als Lagermita
 5. Aktivieren Sie die Umschaltung **Standard**, um den Lagerort als einzigen Lagerort zu definieren, an dem der Mitarbeiter Lageraktivitäten ausführen kann.  
 6. Wiederholen Sie diese Schritte, um Lagerorten weitere Mitarbeiter zuzuordnen oder um andere Lagerorte bestehenden Lagermitarbeitern zuzuordnen.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesget-started-warehouse-management" />Siehe verwandte [Microsoft Schulungen](/training/modules/get-started-warehouse-management/)
+## <a name="see-related-microsoft-training" />Siehe verwandte [Microsoft Schulungen](/training/modules/get-started-warehouse-management/)
 
 ## <a name="see-also" />Siehe auch
 

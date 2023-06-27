@@ -55,7 +55,7 @@ Nachrichtenflussregeln suchen nach bestimmten Bedingungen für Nachrichten und e
 > [!NOTE]
 > [!INCLUDE[prod_short](includes/prod_short.md)] verarbeitet nur Nachrichten im Posteingangsordner im freigegebenen Postfach. Wenn eine Regel Nachrichten aus dem Posteingang in einen anderen Ordner verschiebt, werden diese Nachrichten nicht verarbeitet. Außerdem werden Nachrichten im Junk-E-Mail-Ordner ebenfalls ignoriert.
 
-## <a name="set-up-includeprodshortincludesprodshortmd-to-log-email-messages" />[!INCLUDE[prod_short](includes/prod_short.md)] zum Protokollieren von E-Mail-Nachrichten einrichten
+## <a name="set-up--to-log-email-messages" />[!INCLUDE[prod_short](includes/prod_short.md)] zum Protokollieren von E-Mail-Nachrichten einrichten
 
 Beginnen Sie mit der E-Mail-Protokollierung in zwei einfachen Schritten:
 
@@ -145,14 +145,14 @@ Wenn Sie Azure Active Directory nicht verwenden, um Identitäten und den Zugriff
 
 ## <a name="to-change-the-user-account-used-for-email-logging" />Zum Ändern des für die E-Mail-Protokollierung verwendeten Benutzerkontos
 
-### <a name="includeprodshortincludesprodshortmd-online" />[!INCLUDE[prod_short](includes/prod_short.md)] Online
+### <a name="-online" />[!INCLUDE[prod_short](includes/prod_short.md)] Online
 
 1. Melden Sie sich mit dem [!INCLUDE[prod_short](includes/prod_short.md)]-Konto an, das der geplante Auftrag für die Verbindung mit dem freigegebenen Postfach und die Verarbeitung von E-Mails verwenden soll. Dieses Konto muss Zugriff auf [!INCLUDE[prod_short](includes/prod_short.md)] und Exchange Online haben.
 2. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **E-Mail-Protokollierung** ein und wählen Sie dann den zugehörigen Link. 
 3. Wählen Sie **Verwandt** und dann **Aufgabenwarteschlangenposten**.
 4. Starten Sie die **E-Mail-Protokollierung**-Aufgabe neu.
 
-### <a name="includeprodshortincludesprodshortmd-on-premises" />[!INCLUDE[prod_short](includes/prod_short.md)] On-Premises
+### <a name="-on-premises" />[!INCLUDE[prod_short](includes/prod_short.md)] On-Premises
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **E-Mail-Protokollierung** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie **Aktionen** und dann **Token erneuern**.

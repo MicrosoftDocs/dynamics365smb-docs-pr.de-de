@@ -59,7 +59,7 @@ Sie können Ihren eigenen vorhersagenden Webdienst auf einem öffentliches Model
 6. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Einrichtung von Umsatz- und Lagerbestandsplanung** ein, und wählen Sie dann den entsprechenden Link.  
 7. Erweitern Sie die Registerkarte **Allgemein** und füllen Sie dann die Felder API-URL und API-Schlüssel aus.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesuse-sales-inventory-forecast-extension" />Siehe verwandte [Microsoft Schulungen](/training/modules/use-sales-inventory-forecast-extension/)
+## <a name="see-related-microsoft-training" />Siehe verwandte [Microsoft Schulungen](/training/modules/use-sales-inventory-forecast-extension/)
 
 ## <a name="see-also" />Siehe auch
 

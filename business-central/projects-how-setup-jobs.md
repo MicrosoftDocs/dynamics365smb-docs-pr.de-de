@@ -99,7 +99,7 @@ Ein Aspekt der Projektenplanung besteht darin, zu entscheiden, welche Buchungsko
 | **Konto deklarierte Kosten** |Das Aufwandskonto, das die deklarierten Kosten für das Projekt enthält. Dabei handelt es sich normalerweise um ein Soll-Aufwandskonto. |
 | **Konto deklarierte Verkäufe** |Das Ertragskonto, das den deklarierten Umsatz für das Projekt enthält. Dabei handelt es sich normalerweise um ein Haben-Ertragskonto. |
 
-## <a name="see-related-microsoft-trainingtrainingpathsset-up-jobs-resources" />Siehe verwandte [Microsoft Schulungen](/training/paths/set-up-jobs-resources/)
+## <a name="see-related-microsoft-training" />Siehe verwandte [Microsoft Schulungen](/training/paths/set-up-jobs-resources/)
 
 ## <a name="see-also" />Siehe auch
 

@@ -138,7 +138,7 @@ Um Preislisten zu synchronisieren, wählen Sie auf der Seite **Verkaufspreislist
 [Berechtigungen an Benutzer und Gruppen zuweisen](ui-define-granular-permissions.md)    
 [Überblick über Sales und Verkaufs-Hub](/dynamics365/customer-engagement/sales-enterprise/overview)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -89,7 +89,7 @@ Wenn Sie die neu bewertbare Menge für Artikel mit der Lagerabgangsmethode Stand
 -   Ein Wertposten mit dem Postentyp **Abweichung**. Dieser Eintrag erfasst die Differenz zwischen den fakturierten Kosten und dem neu bewerteten Einstandspreis.  
 -   Ein Wertposten mit dem Postentyp **Neubewertung**. Dieser Posten erfasst die Stornierung der Neubewertung der Soll-Kosten.  
 
-### <a name="example" />Beispiel
+### <a name="example-1" />Beispiel
 Im folgenden Beispiel, das auf der Produktion der Kette im vorherigen Beispiel basiert, stellt dar, wie die drei Arten von Posten erstellt werden. Die basiert auf dem folgenden Szenario:  
 
 1.  Der Benutzer bucht die eingekauften Glieder als mit einem Einstandspreis von MW 2,00 erhalten.  
@@ -123,7 +123,7 @@ Die folgende Tabelle zeigt die Kriterien an, die für einen Artikel verwendet we
 |O|Später als die Neubewertungsposten-Nr.|Gleich Neubewertungsbuchungsdatum|Ja|  
 |W|Später als die Neubewertungsposten-Nr.|Später als das Neubewertungsbuchungsdatum|Ja|  
 
-### <a name="example" />Beispiel
+### <a name="example-2" />Beispiel
 Das folgende Beispiel, das die Neubewertung eines Artikels zeigt, der die FIFO-Kostenbewertungsmethode verwendet, basiert auf dem folgenden Szenario:  
 
 1.  In 01-01-20 bucht der Benutzer einen Einkauf von 6 Einheiten.  

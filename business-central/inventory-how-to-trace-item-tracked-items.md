@@ -59,7 +59,7 @@ Diese Funktionen können insbesondere in der Qualitätssicherung hilfreich sein,
 3. Geben Sie in den Feldern **Seriennr.** und **Chargennr.** die Artikelverfolgungsnummern ein, die Sie nachverfolgen möchten.  
 4. Wählen Sie auf der Registerkarte Aktionen in der Gruppe Seite die Option **Suchen** aus, um alle Instanzen der Serien- oder Chargennummer und in der Datenbank zu finden.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesprepare-item-tracking" />Siehe verwandte [Microsoft Schulungen](/training/modules/prepare-item-tracking/)
+## <a name="see-related-microsoft-training" />Siehe verwandte [Microsoft Schulungen](/training/modules/prepare-item-tracking/)
 
 ## <a name="see-also" />Siehe auch
 

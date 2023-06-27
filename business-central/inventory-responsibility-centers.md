@@ -49,7 +49,7 @@ Um dies einzurichten, weisen Sie Benutzern Zuständigkeitseinheiten in drei Basi
 > [!NOTE]  
 > Benutzer können nur die gebuchten Belege anzeigen, die sich auf ihr eigenes Verantwortungszentrum beziehen. Sie können jedoch alle Ledger-Einträge anzeigen und aus den Ledger-Einträgen zu anderen gebuchten Belegen navigieren.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesset-up-responsibility-centers" />Siehe verwandte [Microsoft Schulungen](/training/modules/set-up-responsibility-centers/)
+## <a name="see-related-microsoft-training" />Siehe verwandte [Microsoft Schulungen](/training/modules/set-up-responsibility-centers/)
 
 ## <a name="see-also" />Siehe auch
 

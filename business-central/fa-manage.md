@@ -47,7 +47,7 @@ Das folgende Video behandelt die Grundlagen des Anlagevermögens.
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS?rel=0]
 
-## <a name="see-related-microsoft-trainingtrainingpathsmanage-fixed-assets-transactions" />Siehe verwandte [Microsoft Schulungen](/training/paths/manage-fixed-assets-transactions/)
+## <a name="see-related-microsoft-training" />Siehe verwandte [Microsoft Schulungen](/training/paths/manage-fixed-assets-transactions/)
 
 ## <a name="see-also" />Siehe auch
 
@@ -57,7 +57,7 @@ Das folgende Video behandelt die Grundlagen des Anlagevermögens.
 [Vorbereiten auf die Geschäftsabwicklung](ui-get-ready-business.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
  
 
 

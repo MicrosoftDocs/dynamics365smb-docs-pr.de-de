@@ -10,7 +10,7 @@ ms.search.form: 'RoleExplorer, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9
 ms.date: 06/25/2021
 ms.author: edupont
 ---
-# <a name="work-with-includeprodshortincludesprodshortmd" />Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="work-with-" />Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Beim Ausführen von Geschäftsaufgaben entsteht auf verschiedene Art und Weise eine Interaktion mit Daten, beispielsweise durch das Erstellen von Datensätzen und die Eingabe von Daten, durch Sortieren und Filtern von Daten, durch Schreiben von Notizen und durch die Ausgabe von Daten in andere Anwendungen.
 
@@ -18,7 +18,7 @@ Sie können beispielsweise die Größe und die Position von Seiten anpassen, die
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="a-namecheatsheetatips-and-tricks" /><a name="cheatsheet"></a>Tipps und Tricks
+## <a name="tips-and-tricks" /><a name="cheatsheet"></a>Tipps und Tricks
 
 > [!TIP]
 > Für einen druckfreundlichen Überblick über die am häufigsten verwendeten Funktionen wählen Sie das folgende Bild und laden Sie die PDF-Datei herunter.
@@ -80,7 +80,7 @@ Wenn Sie eine Listenseite suchen und öffnen, z. B. die Liste **Verkaufsaufträg
 
 Wenn Sie aber dieselbe Listenseite von Ihrer Startseite aus öffnen, ist die Aktion **Verwalten** nicht vorhanden. Um einen einzelnen Verkaufsauftrag zu öffnen, wählen Sie stattdessen einfach das Feld **Nummer**. In dieser Ansicht können Sie die Aktionsleiste nicht anheften.  
 
-## <a name="see-related-microsoft-trainingtrainingpathswork-pro-data-dynamics-365-business-central" />Siehe verwandte [Microsoft Schulungen](/training/paths/work-pro-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Siehe verwandte [Microsoft Schulungen](/training/paths/work-pro-data-dynamics-365-business-central/)
 
 ## <a name="see-also" />Siehe auch
 
@@ -89,7 +89,7 @@ Wenn Sie aber dieselbe Listenseite von Ihrer Startseite aus öffnen, ist die Akt
 [Allgemeine Geschäftsfunktionen](ui-across-business-areas.md)  
 [Performance-Tipps für Geschäftsanwender](/dynamics365/business-central/dev-itpro/performance/performance-users?toc=/dynamics365/business-central/toc.json)
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -111,7 +111,7 @@ Sie können keine Lagerkommissionierbelege von Grund auf erstellen. Kommissionie
 
 Sie können die Artikel in den Warenausgang bringen und den Warenausgang, einschließlich dem zugehörigen Herkunftsbeleg, auf der Seite **Warenausgang** buchen. Erfahren Sie mehr unter [Elemente versenden](warehouse-how-ship-items.md).
 
-## <a name="see-related-microsoft-trainingtrainingmodulespick-ship-items-warehouse" />Siehe verwandte [Microsoft Schulungen](/training/modules/pick-ship-items-warehouse/)
+## <a name="see-related-microsoft-training" />Siehe verwandte [Microsoft Schulungen](/training/modules/pick-ship-items-warehouse/)
 
 ## <a name="see-also" />Siehe auch
 

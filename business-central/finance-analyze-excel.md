@@ -44,13 +44,13 @@ Die vordefinierten Excel-Berichte basieren auf den Daten im aktuellen Unternehme
 
 Andere Blätter im Excel-Arbeitsblatt zeigen die Daten hinter dem Bericht an. Um herauszufinden, was sich hinter den Gruppierungen in den Excel-Berichten verbirgt, müssen Sie möglicherweise die Listen in [!INCLUDE [prod_short](includes/prod_short.md)] filtern.  
 
-## <a name="the-include-prodshortincludesprodshortmd-excel-add-in" />Das [!INCLUDE [prod_short](includes/prod_short.md)]-Excel-Add-in
+## <a name="the--excel-add-in" />Das [!INCLUDE [prod_short](includes/prod_short.md)]-Excel-Add-in
 
 Ihre [!INCLUDE [prod_short](includes/prod_short.md)] Benutzeroberfläche umfasst das Add-In für Excel. Abhängig von Ihrem Abonnement werden Sie automatisch angemeldet, oder Sie müssen Ihre Anmeldedetails festlegen, die Sie für [!INCLUDE [prod_short](includes/prod_short.md)] verwenden. Weitere Informationen finden Sie unter [Anzeigen und Bearbeiten in Excel von Business Central](across-work-with-excel.md).  
 
 Mit dem Add-In können Sie neue Daten aus [!INCLUDE [prod_short](includes/prod_short.md)] abrufen, und Sie können Änderungen zurück in [!INCLUDE [prod_short](includes/prod_short.md)] importieren. Die Möglichkeit, ein Rückverfolgen der Daten zurück zur Datenbank ist nicht für Finanzberichte, die in Excel angezeigt werden können, verfügbar.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" />Siehe verwandte [Microsoft Schulungen](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Siehe verwandte [Microsoft Schulungen](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Siehe auch
 

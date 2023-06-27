@@ -112,7 +112,7 @@ Wenn für einen Lagerort die Bearbeitung der Einlagerung und des Wareneingangs e
 
 5. Wenn Sie alle Artikel so in die Lagerplätze eingelagert haben, wie es die Anweisungen vorsehen, wählen Sie die Aktion **Einlagerung registrieren** aus.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesreceive-put-away-items" />Siehe verwandte [Microsoft Schulungen](/training/modules/receive-put-away-items/)
+## <a name="see-related-microsoft-training" />Siehe verwandte [Microsoft Schulungen](/training/modules/receive-put-away-items/)
 
 ## <a name="see-also" />Siehe auch
 

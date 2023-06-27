@@ -118,7 +118,7 @@ In Szenarien in denen ein Teil der Menge zunächst montiert wird und ein anderer
 > [!NOTE]  
 > Wenn Artikel auf Bestellung montiert werden, führt die Lagerbestandskommissionierung für den verknüpften Verkaufsauftrag zu einer Lagerbestandsumlagerung für alle Montagekomponenten.  
 
-## <a name="see-related-microsoft-trainingtrainingpathspick-ship-items-business-central" />Siehe verwandte [Microsoft Schulungen](/training/paths/pick-ship-items-business-central/)
+## <a name="see-related-microsoft-training" />Siehe verwandte [Microsoft Schulungen](/training/paths/pick-ship-items-business-central/)
 
 ## <a name="see-also" />Siehe auch
 

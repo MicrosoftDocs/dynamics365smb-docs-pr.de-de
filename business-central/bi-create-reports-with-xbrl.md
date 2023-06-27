@@ -114,7 +114,7 @@ Wenn sich eine Taxonomie ändert, müssen Sie die aktuelle Taxonomie dementsprec
 6. Um die Linkbase zu importieren, wählen Sie die **Importieren** Aktion aus.  
 7. Wählen Sie **Ja**, um die Linkbase auf das Schema anzuwenden.  
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesxbrl-reports-dynamics-365-business-centralindex" />Siehe dazu die Schulung unter [Microsoft Learn](/learn/modules/xbrl-reports-dynamics-365-business-central/index).
+## <a name="see-related-training-at-microsoft-learn" />Siehe dazu die Schulung unter [Microsoft Learn](/learn/modules/xbrl-reports-dynamics-365-business-central/index).
 
 ## <a name="see-also" />Siehe auch
 

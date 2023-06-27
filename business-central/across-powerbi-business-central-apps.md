@@ -10,7 +10,7 @@ ms.search.keywords: 'account schedule, analysis, reporting, financial report, bu
 ms.date: 04/01/2021
 ms.author: jswymer
 ---
-# <a name="use-the-include-prodshortincludesprodshortmd-apps-in-power-bi" />[!INCLUDE [prod_short](includes/prod_short.md)]-Apps in Power BI verwenden
+# <a name="use-the--apps-in-power-bi" />[!INCLUDE [prod_short](includes/prod_short.md)]-Apps in Power BI verwenden
 
 > **GILT FÜR:** [!INCLUDE [prod_long](includes/prod_long.md)] online 
 
@@ -51,7 +51,7 @@ Power BI-Apps erfordern Berechtigungen für die Tabellen, aus denen Daten abgeru
 
 Registrieren Sie sich für den Power BI-Dienst. Wenn Sie sich noch nicht registriert haben, wechseln Sie zu [https://powerbi.microsoft.com](https://powerbi.microsoft.com). Verwenden Sie bei der Registrierung Ihre geschäftliche E-Mail-Adresse und Ihr Kennwort.
 
-## <a name="install-a-includeprodshortincludesprodshortmd-app-in-power-bi" />Eine [!INCLUDE[prod_short](includes/prod_short.md)]-App in Power BI installieren
+## <a name="install-a--app-in-power-bi" />Eine [!INCLUDE[prod_short](includes/prod_short.md)]-App in Power BI installieren
 
 1. Öffnen Sie Ihren Browser, navigieren Sie zu [https://powerbi.microsoft.com](https://powerbi.microsoft.com) und melden Sie sich bei Ihrem Konto an.
 2. Wählen Sie **Daten abrufen** am unteren Rand des linken Navigationsbereich aus.  
@@ -69,7 +69,7 @@ Registrieren Sie sich für den Power BI-Dienst. Wenn Sie sich noch nicht registr
 
     Anschließend ist die App unter **Apps** im Navigationsmenü von Power BI verfügbar.
 
-## <a name="connect-the-includeprodshortincludesprodshortmd-app-to-your-data" />[!INCLUDE[prod_short](includes/prod_short.md)]-App mit Ihren Daten verbinden
+## <a name="connect-the--app-to-your-data" />[!INCLUDE[prod_short](includes/prod_short.md)]-App mit Ihren Daten verbinden
 
 1. Wählen Sie unter **Apps** zuerst die Business Central-App und dann **Verbinden** aus.
 2. Wenn Sie dazu aufgefordert werden, geben Sie unter **Unternehmensname** und **Umgebung** Informationen zur [!INCLUDE[prod_short](includes/prod_short.md)]-Instanz ein, zu der Sie eine Verbindung herstellen möchten.
@@ -96,7 +96,7 @@ Es wurde kein Power BI-Konto eingerichtet. Für ein gültiges Power BI-Konto ben
 
 Diese Meldung wird angezeigt, wenn der Standardbericht nicht in Ihrem Power BI-Arbeitsbereich bereitgestellt werden konnte. Oder der Bericht wurde bereitgestellt, aber nicht erfolgreich aktualisiert. Bei diesem Problem navigieren Sie zum Bericht in Ihrem Power BI-Arbeitsbereich und wählen dort **Datensatz**, **Einstellungen** aus. Anschließend aktualisieren Sie die Anmeldedaten manuell. Wenn der Datensatz erfolgreich aktualisiert wurde, navigieren Sie zurück zu [!INCLUDE[prod_short](includes/prod_short.md)] und wählen Sie den Bericht auf der Seite **Berichte auswählen** manuell aus.
 
-### <a name="you-need-a-power-bi-pro-license-to-install-the-includeprodshortincludesprodshortmd-app-in-power-bi" />Sie brauchen eine Power BI Pro Lizenz zur Installation der [!INCLUDE[prod_short](includes/prod_short.md)] App in Power BI
+### <a name="you-need-a-power-bi-pro-license-to-install-the--app-in-power-bi" />Sie brauchen eine Power BI Pro Lizenz zur Installation der [!INCLUDE[prod_short](includes/prod_short.md)] App in Power BI
 
 Sie benötigen eine [Power BI Pro-Lizenz](/power-bi/service-features-license-type), um Ihre Inhalte teilen zu können. Selbiges gilt für die Personen, mit denen Sie Ihre Inhalte teilen möchten. Der Inhalt muss sich in einem Arbeitsbereich in einer [Premium-Kapazität](/power-bi/service-premium-what-is) befinden. Weitere Informationen finden Sie unter [Möglichkeiten zur gemeinsamen Nutzung Ihrer Arbeit in Power BI](/power-bi/service-how-to-collaborate-distribute-dashboards-reports).  
 
@@ -144,7 +144,7 @@ Die Power BI App zeigt nur Daten vom [!INCLUDE[prod_short](includes/prod_short.m
 - [Wählen Sie eine Kachel aus](/power-bi/service-dashboard-tiles), um den zu Grunde liegenden Bericht zu öffnen.  
 - Standardmäßig ist für Ihren Datenbestand keine Aktualisierung geplant. Sie können den Aktualisierungszeitplan ändern oder versuchen, ihn bei Bedarf mithilfe von **Jetzt aktualisieren** zu aktualisieren. Weitere Informationen finden Sie unter [Konfigurieren der geplanten Aktualisierung](/power-bi/refresh-scheduled-refresh).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" />Siehe verwandte [Microsoft Schulungen](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Siehe verwandte [Microsoft Schulungen](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Siehe auch
 

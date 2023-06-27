@@ -51,7 +51,7 @@ Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Artikel
 |Erfahren Sie, wie Sie mit Montagestücklisten arbeiten und wie sie sich von Fertigungsstücklisten unterscheiden.|[Arbeiten mit Stücklisten für die Montage](assembly-how-work-assembly-boms.md)|
 |Erfahren Sie mehr über das Buchen von Montageverbrauch und -ausgabe und wie [!INCLUDE [prod_short](includes/prod_short.md)] Artikel- und Ressourcenkosten auf das Hauptbuch verteilt.|[Designdetails: Montageauftragsbuchung](design-details-assembly-order-posting.md)|  
 
-## <a name="see-related-microsoft-trainingtrainingpathsassemble-items-dynamics-365-business-central" />Siehe zugehörige [Microsoft Schulungen](/training/paths/assemble-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Siehe zugehörige [Microsoft Schulungen](/training/paths/assemble-items-dynamics-365-business-central/)
 
 ## <a name="see-also" />Siehe auch
 
@@ -63,6 +63,6 @@ Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Artikel
 <!-- [Walkthrough: Selling, Assembling, and Shipping Kits](walkthrough-selling-assembling-and-shipping-kits.md)   -->
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

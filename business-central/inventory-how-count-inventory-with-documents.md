@@ -242,7 +242,7 @@ Sie können die Berichte angeben, die in verschiedenen Phasen gedruckt werden m�
 > [!NOTE]
 > Die verfügbaren Berichte können je nach Lokalisierung Ihres Landes variieren. Die Basisanwendung enthält keine Layouts.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesadjust-inventory" />Siehe verwandte [Microsoft Schulungen](/training/modules/adjust-inventory/)
+## <a name="see-related-microsoft-training" />Siehe verwandte [Microsoft Schulungen](/training/modules/adjust-inventory/)
 
 ## <a name="see-also" />Siehe auch
 

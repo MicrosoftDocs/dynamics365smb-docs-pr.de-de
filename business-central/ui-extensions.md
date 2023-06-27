@@ -87,7 +87,7 @@ Microsoft Partner und Wiederverkäufer können eine App erstellen, mit der sie L
 > [!NOTE]
 > Wenn Sie ein Microsoft-Partner oder -Wiederverkäufer sind und eine Liste empfohlener Apps bereitstellen möchten, lesen Sie [Empfohlene Apps von AppSource](/dynamics365/business-central/dev-itpro/administration/recommend-apps) im Verwaltungsinhalt.
 
-## <a name="see-related-microsoft-trainingtrainingmodulescustomize-dynamics-365-business-central" />Siehe verwandte [Microsoft Schulungen](/training/modules/customize-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Siehe verwandte [Microsoft Schulungen](/training/modules/customize-dynamics-365-business-central/)
 
 ## <a name="see-also" />Siehe auch
 
@@ -101,7 +101,7 @@ Microsoft Partner und Wiederverkäufer können eine App erstellen, mit der sie L
 [[!INCLUDE[prod_short](includes/prod_short.md)] Apps für andere Anbieter](ui-extensions-other.md)  
 [Bereitschaft für die Geschäftsabwicklung](ui-get-ready-business.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

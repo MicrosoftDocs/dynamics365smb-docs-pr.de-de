@@ -41,7 +41,7 @@ Sie können Dateianhänge von nicht-gebuchten Belegen jederzeit entfernen, indem
 
 Die Verbindung zum gebuchten Beleg wird entfernt. Sie können nun damit fortfahren, einen weiteren Datensatz für eingehende Dokumente mit dem gebuchten Dokument zu verbinden, wie in diesem Artikel beschrieben.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesincoming-documents-dynamics-365-business-central" />Siehe verwandte [Microsoft Schulungen](/training/modules/incoming-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Siehe verwandte [Microsoft Schulungen](/training/modules/incoming-documents-dynamics-365-business-central/)
 
 ## <a name="see-also" />Siehe auch
 

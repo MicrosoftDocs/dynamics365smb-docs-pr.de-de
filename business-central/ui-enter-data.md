@@ -69,7 +69,7 @@ Es gibt verschiedene Tastenkombinationen, mit denen Sie ohne Maus arbeiten und d
 
 Weitere Informationen zu diesen Tastenkombinationen finden Sie unter [Tastenkombinationen](keyboard-shortcuts.md). Einige der Tastenkombinationen werden in diesem Artikel erläutert.
 
-## <a name="a-namequickentryaaccelerating-data-entry-using-quick-entry" /><a name="accelerating-data-entry-using-quick-entry"></a><a name="QuickEntry"></a>Beschleunigende der Dateneingabe mithilfe der Schnelleingabe
+## <a name="accelerating-data-entry-using-quick-entry" /><a name="accelerating-data-entry-using-quick-entry"></a><a name="QuickEntry"></a>Beschleunigende der Dateneingabe mithilfe der Schnelleingabe
 
 Die Schnelleingabe ist eine Funktion für die Dateneingabe bei Verwendung der Tastatur. Schnelleingabe funktioniert bei Feldern (wie in Kartenseiten) und in Listen (Zeilen und Spalten). Dies ist hilfreich, wenn Sie sich wiederholende Eingabeaufgaben ausführen, bei denen mehrere Datensätze nacheinander erstellt werden müssen. Beispiele hierfür sind eine Gruppe von Kundenaufträgen oder die Registrierung neuer Artikel.
 
@@ -131,7 +131,7 @@ Um mit dem Filtern zu beginnen, wählen Sie ![Filterbereichssymbol](media/open-f
 
 Die Filterung ist besonders dann hilfreich, wenn längere Belege angezeigt und analysiert werden. Stellen Sie sich vor, Sie öffnen eine gebuchte Verkaufsrechnung. Anschließend filtern Sie die Positionen, um alle Positionen mit einem individuellen Rabatt von mehr als 5 % anzuzeigen. Oder Sie filtern die Positionen, sodass nur Fahrradzubehör, dessen Name „Pro“ enthält, angezeigt wird.
 
-## <a name="a-namefocusafocusing-on-line-items" /><a name="focusing-on-line-items"></a><a name="Focus"></a>Fokussieren auf Positionsartikel
+## <a name="focusing-on-line-items" /><a name="focusing-on-line-items"></a><a name="Focus"></a>Fokussieren auf Positionsartikel
 
 Wenn Sie an Dokumenten arbeiten, die einen Positionsartikelteil enthalten, können Sie die Ansicht so ändern, dass der Fokus nur auf die Positionsartikel gelegt wird. Beispieldokumente sind Verkaufsauftrags- oder Rechnungsseite. Der Positionsartikelteil wird erweitert, sodass er fast den gesamten Arbeitsbereich einnimmt. Es verdeckt andere Teile der Seite, mit Ausnahme des Aktionsbereichs am oberen Rand. Dieses Layout ermöglicht Ihnen einen besseren Überblick über die Positionsartikel und bietet mehr Platz, um daran zu arbeiten.
 
@@ -273,7 +273,7 @@ Hier folgen einige Beispiele.
 
  Die Zahl 5 wird in 5 Std. konvertiert, wenn Stunden als Einheit angegeben wurden.  
 
-## <a name="a-namedecimalasetting-the-decimal-separator-used-by-numeric-keyboards" /><a name="setting-the-decimal-separator-used-by-numeric-keyboards"></a><a name="decimal"></a>Festlegen des Dezimaltrennzeichens, das von numerischen Tastaturen verwendet wird
+## <a name="setting-the-decimal-separator-used-by-numeric-keyboards" /><a name="setting-the-decimal-separator-used-by-numeric-keyboards"></a><a name="decimal"></a>Festlegen des Dezimaltrennzeichens, das von numerischen Tastaturen verwendet wird
 
 Wenn Sie bei der Eingabe von Daten die Dezimaltrennzeichen-Taste auf einem Ziffernblock verwenden, wird das tatsächliche Dezimaltrennzeichen, das in das Feld eingegeben wird, durch die Regionseinstellung in Business Central bestimmt. Die meisten Regionen verwenden das Symbol Punkt (.) oder Komma (,) als Trennzeichen für Dezimalwerte, wie Sie es normalerweise in Währungsbeträgen sehen würden. Die Dezimaltaste auf Ihrer Tastatur passt sich Ihrer Region an. Sie unterscheidet sich oft von den Punkt- oder Kommatasten auf dem Rest Ihrer Tastatur. Sie legen die Region in Business Central auf der Seite **Meine Einstellungen** fest.
 
@@ -282,7 +282,7 @@ Nehmen wir zum Beispiel an, Sie verwenden eine numerische Tastatur, die einen Pu
 > [!TIP]
 > Es kann vorkommen, dass Sie das Dezimaltrennzeichen verwenden möchten, um einen Punkt (.) einzugeben. Angenommen, Sie geben einen Datumsbereich in einen Filter ein, z. B. `01/01/2022..04/01/2022` oder irgendetwas, das einen Punkt erfordert. Um diesen Fall zu berücksichtigen, drücken Sie die Tasten „Alt+Dezimaltrennzeichen“ auf der numerischen Tastatur. Diese Tastenkombination schaltet das Dezimaltrennzeichen zwischen der Ausgabe eines Punktes und dem durch die **Region**-Einstellung festgelegten Dezimaltrennzeichen um.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesexplore-modify-info-dynamics-365-business-central" /><a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/explore-modify-info-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" /><a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/explore-modify-info-dynamics-365-business-central/)
 
 ## <a name="see-also" /><a name="see-also"></a>Siehe auch
 
