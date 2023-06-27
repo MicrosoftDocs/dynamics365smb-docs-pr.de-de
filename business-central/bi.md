@@ -11,7 +11,7 @@ ms.search.form: '103, 108, 198, 490'
 ms.date: 09/22/2022
 ms.author: edupont
 ---
-# <a name="financial-business-intelligence" />Financial Business Intelligence
+# <a name="financial-business-intelligence"></a>Financial Business Intelligence
 
 Unternehmen erfassen im Rahmen ihrer täglichen Aktivitäten eine enorme Menge an Daten. Diese Daten, die z.B. die Verkaufszahlen des Unternehmens, Einkäufe, Betriebsausgaben, Mitarbeitergehälter und Budgets widerspiegeln, stellen für Ersteller von Entscheidungen wertvolle Informationen dar, die so genannte Business Intelligence (BI). [!INCLUDE[prod_short](includes/prod_short.md)] enthält viele Funktionen, die Ihnen helfen, Daten Ihrer Firma zu sammeln, zu analysieren und weiterzugeben.
 
@@ -32,7 +32,7 @@ Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Artikel
 |Ermöglichen Sie eine globale Finanzberichterstattung an internationale Buchhaltungsorganisationen unter Verwendung des Standards eXtensible Business Reporting Language (XBRL).|[Berichte mit XBRL erstellen](bi-create-reports-with-xbrl.md)|
 |Ändern Sie die Absicht des Datenbankzugriffs auf Berichte, Seiten vom Typ API und Abfragen, um die Ladung zu verringern und die Leistung zu verbessern.|[Absicht auf Datenbankzugriff verwalten](admin-data-access-intent.md)|
 
-## <a name="see-also" />Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Finanzen](finance.md)  
 [Business Central als Power BI-Datenquelle verwenden](across-how-use-financials-data-source-powerbi.md)  

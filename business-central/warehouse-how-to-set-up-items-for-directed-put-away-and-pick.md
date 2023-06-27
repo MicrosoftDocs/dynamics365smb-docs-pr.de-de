@@ -11,11 +11,11 @@ ms.search.form: null
 ms.date: 11/07/2022
 ms.author: bholtorf
 ---
-# <a name="set-up-items-and-locations-for-directed-put-away-and-pick" />Einrichten von Artikeln und Standorten für die gesteuerte Einlagerung und Kommissionierung
+# <a name="set-up-items-and-locations-for-directed-put-away-and-pick"></a>Einrichten von Artikeln und Standorten für die gesteuerte Einlagerung und Kommissionierung
 
 Wenn Sie einen Lagerort für die gesteuerte Einlagerung und Kommissionierung einrichten, steht Ihnen eine neue Funktionalität zur Verfügung, die Ihnen hilft, das Lager so effizient wie möglich zu betreiben. Um diese Funktionalität voll auszuschöpfen, liefern Sie der Anwendung zusätzliche Informationen zu den Artikeln, wodurch die Anwendung ihrerseits dabei unterstützt wird, die erforderlichen Berechnungen anzustellen, um die effizientesten und effektivsten Möglichkeiten zur Durchführung der Lageraktivitäten vorzuschlagen. 
 
-## <a name="to-set-up-an-item-for-directed-put-away-and-pick" />So richten Sie einen Artikel für die gesteuerte Einlagerung und Kommissionierung ein:
+## <a name="to-set-up-an-item-for-directed-put-away-and-pick"></a>So richten Sie einen Artikel für die gesteuerte Einlagerung und Kommissionierung ein:
 
 1. Wählen Sie das Symbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Elemente** ein, und wählen Sie dann den zugehörigen Link.  
 2. Öffnen Sie die Karte für den Artikel, den Sie für gesteuerte Einlagerung und Kommissionierung einrichten möchten.
@@ -25,7 +25,7 @@ Wenn Sie einen Lagerort für die gesteuerte Einlagerung und Kommissionierung ein
 6. Wählen Sie die **Lagerplatzinhalte** Aktion aus.
 7. Auf der Seite **Lagerplatzinhalte** können Sie den Lagerort und den Lagerplatz festlegen, mit denen der Artikel verknüpft sein soll. Das Feld **Vorgabewert** wird nicht verwendet, wenn der Lagerort für die gesteuerte Einlagerung und Kommissionierung eingerichtet wurde.  
 
-## <a name="to-start-using-directed-put-away-and-pick" />So beginnen Sie mit der Verwendung von gezieltem Einlagern und Kommissionieren
+## <a name="to-start-using-directed-put-away-and-pick"></a>So beginnen Sie mit der Verwendung von gezieltem Einlagern und Kommissionieren
 
 Die gesteuerte Einlagerung und Kommissionierung verschafft Ihnen Zugang zu erweiterten Lagerkonfigurationsfunktionalitäten, die Ihre Effizienz und Datenzuverlässigkeit stark erhöhen können. Um diese Funktionalität nutzen zu können, müssen Sie zuerst eine Reihe von Parametern in Ihrem Lagerort einrichten.  
 
@@ -46,7 +46,7 @@ Sie können auch Lagerklassen definieren, wenn im Lager Artikel geführt werden,
 
 Wenn Sie möchten, können Sie jetzt Zonen einrichten. Die Verwendung von Zonen reduziert die Anzahl der Felder, die Sie ausfüllen müssen, wenn Sie Ihre Lagerplätze einrichten, da Lagerplätze, die innerhalb einer Zone angelegt werden, einige Eigenschaften der Zone übernehmen. Zonen können es darüber hinaus neuen Mitarbeitern oder nur vorübergehend tätigen Mitarbeitern erleichtern, sich in Ihrem Lager zu orientieren. Beachten Sie, dass der Fluss nach Lagerplätzen gesteuert wird. Daher ist es möglich, mit Lagerplätzen und nur einer Zone zu arbeiten.  
 
-## <a name="to-set-up-a-zone-in-your-warehouse" />So richten Sie eine Zone in Ihrem Lager ein:
+## <a name="to-set-up-a-zone-in-your-warehouse"></a>So richten Sie eine Zone in Ihrem Lager ein:
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Lagerorte** ein, und wählen Sie dann den entsprechenden Link.  
 2. Wählen Sie den Lagerort aus, in dem Sie die Zone einrichten möchten, öffnen Sie die Lagerortkarte, und wählen Sie dann die Aktion **Zonen** aus.  
@@ -61,7 +61,7 @@ Der nächste Schritt ist die Definition von Lagerplätzen. Weitere Informationen
 
 Darüber hinaus müssen Sie Einlagerungsvorlagen und Inventurhäufigkeiten erstellen. Weitere Informationen finden Sie unter [Einrichten von Aktivitätvorlagen](warehouse-how-to-set-up-put-away-templates.md).  
 
-## <a name="see-also" />Weitere Informationen
+## <a name="see-also"></a>Weitere Informationen
 
 [Lagerverwaltung – Übersicht](design-details-warehouse-management.md)
 [Bestand](inventory-manage-inventory.md)  

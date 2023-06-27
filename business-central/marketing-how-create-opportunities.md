@@ -10,14 +10,14 @@ ms.search.keywords: 'relationship, prospect'
 ms.date: 06/22/2021
 ms.author: jswymer
 ---
-# <a name="create-sales-opportunities" />Verkaufschancen erstellen
+# <a name="create-sales-opportunities"></a>Verkaufschancen erstellen
 Sie können Chancen für die Verkaufschancen erstellen, die Sie bei Ihren Kontakten haben. Alle Verkaufschancen müssen einem Verkäufer oder Einkäufer zugeordnet sein und einen Kontakt haben.
 
 Auf der Seite **Verkaufschancenübersicht** können Sie Verkaufschancen erstellen. Üblicherweise erstellen Sie Verkaufschancen über bestimmte Kontakte oder Verkäufer.
 
 Bevor Sie Verkaufschancen erstellen können, müssen Sie Verkaufsprozesse erstellen. Weitere Informationen finden Sie unter [Einrichten von Verkaufschancen für Verkaufsprozesse und Prozess-Stufen](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
-## <a name="to-create-an-opportunity-from-a-salesperson" />So erstellen Sie ein Angebot für einen Verkäufer
+## <a name="to-create-an-opportunity-from-a-salesperson"></a>So erstellen Sie ein Angebot für einen Verkäufer
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Verkäufer** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie den Verkäufer aus, für den eine Verkaufschance erstellt werden soll.
 3. Wählen Sie die **Verkaufschancen**-Aktion aus, und wählen Sie dann **Übersicht**.
@@ -25,7 +25,7 @@ Bevor Sie Verkaufschancen erstellen können, müssen Sie Verkaufsprozesse erstel
 
 
 
-## <a name="to-create-an-opportunity-from-a-contact" />So erstellen Sie ein Angebot für einen Kontakt
+## <a name="to-create-an-opportunity-from-a-contact"></a>So erstellen Sie ein Angebot für einen Kontakt
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Kontakte** ein, und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie den Kontakt aus, für den eine Verkaufschance erstellt werden soll.
 3. Führen Sie einen der folgenden Schritte aus:
@@ -33,7 +33,7 @@ Bevor Sie Verkaufschancen erstellen können, müssen Sie Verkaufsprozesse erstel
    * Wählen Sie die **Verkaufschancen**-Aktion aus, und wählen Sie dann **Neu**.
 4. Füllen Sie die entsprechenden Felder aus.
 
-## <a name="see-also" />Weitere Informationen
+## <a name="see-also"></a>Weitere Informationen
 [Verkauf](sales-manage-sales.md)  
 [Erstellen und Verwalten von Kontakten](marketing-contacts.md)  
 [Arbeiten mit Business Central](ui-work-product.md)

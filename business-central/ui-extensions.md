@@ -8,11 +8,11 @@ ms.search.form: '2500, 2502, 20350, 20353'
 ms.date: 09/27/2022
 ms.author: edupont
 ---
-# <a name="customizing-business-central-online-with-apps" />Anpassen von Business Central Online mit Apps
+# <a name="customizing-business-central-online-with-apps"></a>Anpassen von Business Central Online mit Apps
 
 Sie können [!INCLUDE[prod_short](includes/prod_short.md)] online ändern, indem Sie beispielsweise Apps installieren, die Funktionalität hinzufügen, das Verhalten ändern oder Zugriff auf die neuen Onlinediensten geben. Diese Apps werden auch *Erweiterungen*, weil sie *erweitern* [!INCLUDE [prod_short](includes/prod_short.md)].
 
-## <a name="manage-apps" />Apps verwalten
+## <a name="manage-apps"></a>Apps verwalten
 
 [!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
 
@@ -49,7 +49,7 @@ Einige Apps werden von Microsoft bereitgestellt, und andere Apps werden von ande
 > [!NOTE]  
 > Sie können nach neuen Apps von Microsoft und anderen Anbietern unter [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1) Ausschau halten.
 
-## <a name="apps-and-data-transfer" />Apps und Datenübertragung
+## <a name="apps-and-data-transfer"></a>Apps und Datenübertragung
 
 Da die folgenden Apps mit anderen Diensten kommunizieren, übertragen sie möglicherweise Daten außerhalb der [!INCLUDE[prod_short](includes/prod_short.md)]-Umgebung:
 
@@ -69,7 +69,7 @@ Dies gilt auch für einige Funktionen in der Basisanwendung, z. B. die folgende
 * Online-Karte
 * EU VAT Reg.-Nr. Dienst
 
-## <a name="connect-your-business" />Verbinden Sie Ihr Unternehmen
+## <a name="connect-your-business"></a>Verbinden Sie Ihr Unternehmen
 
 Ab 2022 Veröffentlichungszyklus 2, [!INCLUDE [prod_short](includes/prod_short.md)] Online-Umgebungen können eine oder mehrere Apps auf der Seite **Konnektivitäts-Apps** und **Banking-Apps** auflisten. Diese Apps können Ihr Unternehmen mit externen Diensten verbinden, um die Produktivität durch die Automatisierung von Prozessen zu steigern. Beispielsweise können Sie sich mit Ihren Banken verbinden und Banktransaktionen automatisch importieren. Die Apps lassen sich einfach installieren und direkt von dieser Seite aus einrichten. Wählen Sie eine App aus, um mehr über Funktionen und Preise zu erfahren.  
 
@@ -80,16 +80,16 @@ Zeigen Sie die Liste der vorgeschlagenen Apps an, indem Sie die Aktion **Konnekt
 
 Dieser externe Dienst generiert basierend auf Ihrem Land oder Ihrer Region eine Liste relevanter Apps
 
-## <a name="recommended-apps" />Empfohlene Apps
+## <a name="recommended-apps"></a>Empfohlene Apps
 
 Microsoft Partner und Wiederverkäufer können eine App erstellen, mit der sie Listen von Apps zusammenstellen können, die sie ihren Kunden häufig empfehlen. Wenn sie dies tun und die App für Ihren Mandanten bereitstellen, sind die Apps auf der Seite **Empfohlene Apps** verfügbar. Dort können Sie sich über jede App informieren und entscheiden, ob Sie sie installieren möchten.
 
 > [!NOTE]
 > Wenn Sie ein Microsoft-Partner oder -Wiederverkäufer sind und eine Liste empfohlener Apps bereitstellen möchten, lesen Sie [Empfohlene Apps von AppSource](/dynamics365/business-central/dev-itpro/administration/recommend-apps) im Verwaltungsinhalt.
 
-## <a name="see-related-microsoft-training" />Siehe verwandte [Microsoft Schulungen](/training/modules/customize-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/customize-dynamics-365-business-central/)
 
-## <a name="see-also" />Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Apps installieren und deinstallieren](ui-extensions-install-uninstall.md)  
 [Anpassen von Business Central](ui-customizing-overview.md)  

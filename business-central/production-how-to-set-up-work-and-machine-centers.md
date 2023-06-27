@@ -10,7 +10,7 @@ ms.search.form: '99000754, 99000755, 99000756, 99000758, 99000760, 99000761, 990
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="set-up-work-centers-and-machine-centers" />Arbeitsplätze und Arbeitsplatzgruppen einrichten
+# <a name="set-up-work-centers-and-machine-centers"></a>Arbeitsplätze und Arbeitsplatzgruppen einrichten
 
 Die Anwendung unterscheidet zwischen drei verschiedenen Arten von Kapazitätseinheiten. Diese sind hierarchisch angeordnet. Jede Ebene enthält die untergeordneten Ebenen.  
 
@@ -25,7 +25,7 @@ Die Verfügbarkeit wird in Kalenderposten gespeichert.
 > [!IMPORTANT]
 > Bevor Sie anfangen oder Arbeitsplätze einrichten, müssen Sie Betriebskalender einrichten. Weitere Informationen finden Sie unter [Erstellen von Betriebskalendern](production-how-to-create-work-center-calendars.md).
 
-## <a name="to-set-up-a-work-center" />Um Arbeitsplatzgruppen einzurichten:
+## <a name="to-set-up-a-work-center"></a>Um Arbeitsplatzgruppen einzurichten:
 
 Nachfolgend ist beschrieben, wie ein alternativer Arbeitsplatzkalender eingerichtet wird. Die Schritte, um ein Arbeitsplatzkalenders einzurichten außer für das **Arbeitsplatz-Einrichtung** Inforegister.  
 
@@ -71,13 +71,13 @@ Nachfolgend ist beschrieben, wie ein alternativer Arbeitsplatzkalender eingerich
 > [!NOTE]
 > Verwenden Sie Warteschlangenzeiten, um einen Puffer zwischen dem Eintreffen einer Komponente auf einer Maschine oder einem Arbeitsplatz und dem tatsächlichen Start des Vorgangs bereitzustellen. Beispielsweise wird ein Teil um 10:00 Uhr an ein Maschinenzentrum geliefert, die Montage an der Maschine dauert jedoch eine Stunde, sodass der Vorgang erst um 11.00 Uhr beginnt. Um diese Stunde zu berücksichtigen, würde die Wartezeit eine Stunde betragen. Der Wert des Feldes **Warteschlangenzeit** der speziellen Arbeitsplatzkarte oder Arbeitsplatzgruppenkarte plus die Summe der Werte in den Feldern **Einrichtungszeit**, **Ausführungszeit**, **Wartezeit** und **Transportzeit** der Arbeitsgänge des Artikels ergeben zusammen die Produktionsdurchlaufzeit des Artikels. Dies trägt zu genauen Gesamtproduktionszeiten bei.  
 
-## <a name="considerations-about-capacity" />Überlegungen zur Kapazität
+## <a name="considerations-about-capacity"></a>Überlegungen zur Kapazität
 
 Die für ein Arbeits- und Maschinenzentrum vorgegebene Kapazität und Effizienz wirken sich nicht nur auf die verfügbare Kapazität aus. Sie wirken sich auch auf die Gesamtproduktionszeit aus, die sich aus der Rüstzeit und der Laufzeit zusammensetzt, die beide auf der Routinglinie definiert werden.  
 
 Wenn eine bestimmte Arbeitsplanlinie einem Arbeitsplatz oder einem Maschinenzentrum zugewiesen wird, berechnet das System, wie viel Kapazität benötigt wird und wie lange es dauert, bis der Vorgang abgeschlossen ist.  
 
-### <a name="run-time" />Bearbeitungszeit
+### <a name="run-time"></a>Bearbeitungszeit
 
 Zur Berechnung der Laufzeit vergibt das System genau die Zeit, die im Feld **Laufzeit** der Routinglinie angegeben ist. Weder Effizienz noch Kapazität wirken sich auf die zugewiesene Zeit aus. Wenn die Laufzeit beispielsweise auf 2 Stunden festgelegt ist, beträgt die zugewiesene Zeit 2 Stunden, unabhängig von den Werten in den Feldern Effizienz und Kapazität im Arbeitsplatz.  
 
@@ -93,7 +93,7 @@ Die *Dauer* einer Operation hingegen berücksichtigt sowohl die Effizienz als au
 
 Die fraktionale Kapazität ist knifflig, und wir werden sie später besprechen. 
 
-### <a name="setup-time" />Rüstzeit
+### <a name="setup-time"></a>Rüstzeit
 
 Die Zeitzuteilung für die Rüstzeit ist abhängig von der Kapazität und wird berechnet als *Einrichtungszeit * Kapazität*. Wenn die Kapazität beispielsweise auf *2* eingestellt ist, verdoppelt sich Ihre zugewiesene Rüstzeit, da Sie für den Betrieb zwei Maschinen einrichten müssen.  
 
@@ -104,7 +104,7 @@ Die Zeitzuteilung für die Rüstzeit ist abhängig von der Kapazität und wird b
 
 Die fraktale Kapazität ist nicht leicht zu erfassen und wird in sehr speziellen Fällen verwendet.
 
-### <a name="work-center-processing-multiple-orders-simultaneously" />Arbeitsplatz, der mehrere Aufträge gleichzeitig bearbeitet
+### <a name="work-center-processing-multiple-orders-simultaneously"></a>Arbeitsplatz, der mehrere Aufträge gleichzeitig bearbeitet
 
 Nehmen wir als Beispiel eine Lackierkabine. Sie hat die gleiche Einrichtung und Laufzeit für jedes verarbeitete Los. Jedes Los kann jedoch mehrere Einzelaufträge enthalten, die gleichzeitig bemalt werden.  
 
@@ -122,7 +122,7 @@ Die zugewiesene Rüstzeit für jeden einzelnen Auftrag erfolgt in umgekehrter Re
 In beiden Fällen beträgt die zugewiesene Gesamtzeit für alle Bestellungen zwei Stunden.
 
 
-### <a name="efficient-resource-can-dedicate-only-part-of-their-work-date-to-productive-work" />Effiziente Ressourcen können nur einen Teil ihrer Arbeitszeit der produktiven Arbeit widmen
+### <a name="efficient-resource-can-dedicate-only-part-of-their-work-date-to-productive-work"></a>Effiziente Ressourcen können nur einen Teil ihrer Arbeitszeit der produktiven Arbeit widmen
 
 > [!NOTE]
 > Dies ist kein empfohlenes Szenario. Wir empfehlen, stattdessen Effizienz zu verwenden. 
@@ -133,7 +133,7 @@ Die zugewiesene Laufzeit beträgt zwei Stunden und die Dauer beträgt vier Stund
 
 Verwenden Sie für solche Szenarien keine Rüstzeit, da das System nur 50 % der Zeit zuweist. Wenn die Einrichtungszeit auf *2* eingestellt ist, dann beträgt die zugewiesene Einrichtungszeit eine Stunde und die Dauer beträgt zwei Stunden.
 
-### <a name="consolidated-calendar" />Konsolidierter Kalender
+### <a name="consolidated-calendar"></a>Konsolidierter Kalender
 
 Wenn das Feld **Konsolidierter Kalender** ausgewählt ist, hat der Arbeitsplatz keine eigene Kapazität. Stattdessen entspricht seine Kapazität der Summe der Kapazitäten aller Bearbeitungszentren, die dem Arbeitsplatz zugeordnet sind.  
 
@@ -145,7 +145,7 @@ Wenn Sie beispielsweise zwei Bearbeitungszentren mit einer Effizienz von 80 bzw.
 > [!NOTE]
 >  Verwenden Sie das Feld **Konsolidierter Kalender**, wenn Sie Ihre Arbeitspläne so strukturieren, dass Produktionsvorgänge auf Maschinenzentrumsebene und nicht auf Arbeitsplatzebene geplant werden. Wenn Sie den Kalender konsolidieren, werden die Seite **Arbeitsplatzbelastung** und Berichte zu einer Übersicht über die Gesamtbelastung in allen Bearbeitungszentren, die dem Arbeitsplatz zugeordnet sind.
 
-### <a name="example---different-machine-centers-assigned-to-a-work-center" />Beispiel - unterschiedliche Arbeitsplätze, die einer Arbeitsplatzgruppe zugewiesen sind
+### <a name="example---different-machine-centers-assigned-to-a-work-center"></a>Beispiel - unterschiedliche Arbeitsplätze, die einer Arbeitsplatzgruppe zugewiesen sind
 
 Es ist wichtig zu planen, welche Kapazitätsarten die Gesamtkapazität ergeben, wenn Sie Arbeitsplatzgruppen und Arbeitsplätze einrichten.
 
@@ -155,7 +155,7 @@ Wenn jedoch identische Arbeitsplätze (wie zum Beispiel 210 Packtisch 1 und 220 
 
 Wenn die Kapazität von Arbeitsplätzen keinen Beitrag zur Gesamtkapazität leisten soll, können Sie dies mit der Effektivität = 0 erreichen.
 
-## <a name="to-set-up-a-capacity-constrained-machine-or-work-center" />So wird ein in der Kapazität eingeschränkter Arbeitsplatz oder Arbeitsplatzgruppe eingerichtet
+## <a name="to-set-up-a-capacity-constrained-machine-or-work-center"></a>So wird ein in der Kapazität eingeschränkter Arbeitsplatz oder Arbeitsplatzgruppe eingerichtet
 
 Sie müssen die Produktionsressourcen einrichten, die Sie als kritisch betrachten, damit diese nur eine Auslastung bis zu einer Kapazitätsgrenze annimmt, anstelle der Standardeinstellung ohne Kapazitätsgrenze, die andere Produktionsressourcen annehmen. Eine Ressource mit eingeschränkter Kapazität kann eine Arbeitsplatzgruppe oder ein Arbeitsplatz sein, den Sie als Flaschenhals erkannt haben und dessen Auslastung Sie deshalb begrenzen möchten.
 
@@ -174,7 +174,7 @@ Beim Planen mit eingeschränkter Kapazität stellt sicher das System sicher, das
 
 > Im Falle der Teilung des Arbeitsgangs wird die Rüstzeit nur einmal zugeordnet, da davon ausgegangen wird, dass einige manuelle Ausgleiche vorgenommen werden, um den Plan zu optimieren.
 
-## <a name="see-also" />Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Einkaufskalender einrichten](production-how-to-create-work-center-calendars.md)  
 [Produktion einrichten](production-configure-production-processes.md)  

@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="enable-picking-items-by-fefo" />Aktiveren der Kommissionierung von Artikeln nach FEFO
+# <a name="enable-picking-items-by-fefo"></a>Aktiveren der Kommissionierung von Artikeln nach FEFO
 FEFO (First-Expired-First-Out) ist eine Sortiermethode, durch die sichergestellt ist, dass die ältesten Artikel mit den frühesten Ablaufdatumsangaben zuerst kommissioniert werden.  
 
  Diese Funktionen arbeiten nur, wenn die folgenden Kriterien erfüllt sein:  
@@ -33,7 +33,7 @@ Die Aktivierung der Umlagerungen nach FEFO erfolgt entweder auf dem Feld **Von L
 <br /><br />
 Wenn das Feld **Fixes Ablaufdatum** auf der **Artikelnachverfolgungscodekarte**ausgewählt, werden nur Artikel, die nicht abgelaufen sind, in die Auswahl aufgenommen, und die Zeilen werden nach dem FEFO-Prinzip sortiert.
 
-## <a name="see-also" />Weitere Informationen
+## <a name="see-also"></a>Weitere Informationen
 [Um Artikel für den Warenausgang zu kommissionieren](warehouse-how-to-pick-items-for-warehouse-shipment.md)   
 [Artikel mit der Lagerkommissionierung kommissionieren](warehouse-how-to-pick-items-with-inventory-picks.md)   
 [Lagerverwaltung – Übersicht](design-details-warehouse-management.md)

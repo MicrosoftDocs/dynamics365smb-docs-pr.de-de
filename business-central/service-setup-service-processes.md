@@ -10,7 +10,7 @@ ms.search.keywords: 'service, number sequences, setup, warnings, fee, contracts,
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# <a name="configure-service-processes" />Konfigurieren von Serviceprozessen
+# <a name="configure-service-processes"></a>Konfigurieren von Serviceprozessen
 Es folgen einige Beispiele für Einstellungen, die Sie bei Servicevorgängen anwenden können:  
   
 * Einige allgemeine Einstellungen für mehrere Vorgänge, wie Warnungen, Berechnung des nächsten Service für Serviceartikel, die zu ermittelnde Grundgebühr, die zu verwendende Ebene des Problemberichtswesens und so weiter.  
@@ -19,11 +19,11 @@ Es folgen einige Beispiele für Einstellungen, die Sie bei Servicevorgängen anw
 * Einstellungen für Verträge, wie die maximale Anzahl der Tage, die Sie für Vertragsserviceaufträge verwenden können, ob Ursachencodes verwendet werden, wenn ein Vertrag gekündigt wird, Standardtexte für Vertragsbeschreibungen und Vertragswerte.  
 * Die Anzahl der zu verwendenden Reihenfolgen bei dienstbezogenen Belegen und Artikeln.  
 
-## <a name="to-enter-general-and-mandatory-settings" />So geben Sie allgemeine und obligatorische Einstellungen ein
+## <a name="to-enter-general-and-mandatory-settings"></a>So geben Sie allgemeine und obligatorische Einstellungen ein
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Service Einrichtung** ein, und wählen Sie dann den entsprechenden Link.
 2. Füllen Sie die Felder bei Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-## <a name="see-also" />Siehe auch
+## <a name="see-also"></a>Siehe auch
 [Fehlerberichte einrichten](service-how-setup-fault-reporting.md)  
 [Ressourcenzuweisung einrichten](service-how-setup-resource-allocation.md)  
 [Einrichten von Codes für Standardservices](service-how-setup-service-coding.md)  

@@ -10,7 +10,7 @@ ms.date: 01/24/2023
 ms.custom: bap-template
 ms.search.forms: '7352, 7333'
 ---
-# <a name="put-items-away-with-warehouse-put-aways" />Einlagern von Artikeln mit Lagereinlagerungen
+# <a name="put-items-away-with-warehouse-put-aways"></a>Einlagern von Artikeln mit Lagereinlagerungen
 
 In [!INCLUDE[prod_short](includes/prod_short.md)] erhalten Sie Artikel und lagern sie, wie in der folgenden Tabelle beschrieben, mit einer von vier Methoden ein.
 
@@ -31,7 +31,7 @@ Abhängig vom Wert im Feld **Einlagerungsarbeitsblatt verwenden** auf der **Lage
 
 Zusätzlich zu den Standardoptionen für das Erstellen von Lagereinlagerungen, die in diesem Artikel beschrieben werden, können Sie Einlagerungen im zugehörigen gebuchten Wareneingang erstellen. Dies ist nützlich, wenn Sie die Einlagerungszeilen gelöscht haben, oder wenn Sie sich entschließen, das Einlagerungsarbeitsblatt nicht zu verwenden, da Sie Einlagerungsanweisungen aus gebuchte Wareneingangszeilen folgendermaßen erstellen oder wiedererstellen können.
 
-## <a name="zone-and-bin-codes" />Zonen- und Lagerplatzcodes
+## <a name="zone-and-bin-codes"></a>Zonen- und Lagerplatzcodes
 
 An Lagerorten, die für die Verwendung der gesteuerten Einlagerung und Kommissionierung eingerichtet sind, sind die folgenden Einstellungen erforderlich, um den besten Ort für die Einlagerung dieser Artikel zu bestimmen.  
 
@@ -41,7 +41,7 @@ An Lagerorten, die für die Verwendung der gesteuerten Einlagerung und Kommissio
 
 Die Lagerplatzpriorität wird berücksichtigt, wenn mehr als ein Lagerplatz den Kriterien auf der Einlagerungsvorlage entspricht. Wenn für mehr als einen Lagerplatz die Kriterien der Einlagerungsvorlage und die Lagerplatzpriorität gleich sind, wird der Lagerplatz mit der höchsten Nummer ausgewählt.
 
-## <a name="to-create-put-away-documents-in-bulk-with-the-put-away-worksheet" />So erstellen Sie Einlagerungsbelege mit dem Einlagerungsarbeitsblatt in Masse
+## <a name="to-create-put-away-documents-in-bulk-with-the-put-away-worksheet"></a>So erstellen Sie Einlagerungsbelege mit dem Einlagerungsarbeitsblatt in Masse
 
 Auf der Seite **Einlagerungsarbeitsblatt** können Sie Einlagerungsbelege für mehrere Belege gleichzeitig erstellen.  
 
@@ -75,7 +75,7 @@ Auf der Seite **Einlagerungsarbeitsblatt** können Sie Einlagerungsbelege für m
 
 8. Wählen Sie **OK**, um die Einlagerung zu erstellen.  
 
-## <a name="to-create-a-put-away-from-a-posted-receipt" />Um eine Einlagerung aus dem gebuchten Wareneingang zu erstellen
+## <a name="to-create-a-put-away-from-a-posted-receipt"></a>Um eine Einlagerung aus dem gebuchten Wareneingang zu erstellen
 
 Wenn für einen Lagerort die Bearbeitung der Einlagerung und des Wareneingangs erforderlich ist und Sie die Einlagerungszeilen gelöscht haben, oder wenn Sie die gesteuerte Einlagerung und Kommissionierung verwenden und sich entschieden haben, den Einlagerungsvorschlag nicht zu verwenden, können Sie Einlagerungsanweisungen für gebuchte Wareneingangszeilen folgendermaßen erstellen oder wiedererstellen.
 
@@ -88,7 +88,7 @@ Wenn für einen Lagerort die Bearbeitung der Einlagerung und des Wareneingangs e
 4. Wenn der Wareneingang teilweise oder überhaupt nicht eingelagert wurde, wählen Sie die Aktion **Einlagerung erstellen** aus.  
 5. Füllen Sie die Felder wie erforderlich aus, und wählen Sie **OK** aus.  
 
-## <a name="to-put-items-away" />So lagern Sie Artikel ein
+## <a name="to-put-items-away"></a>So lagern Sie Artikel ein
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Geben Sie **Lagereinlagerungen** ein, und wählen Sie dann den zugehörigen Link.
 
@@ -112,9 +112,9 @@ Wenn für einen Lagerort die Bearbeitung der Einlagerung und des Wareneingangs e
 
 5. Wenn Sie alle Artikel so in die Lagerplätze eingelagert haben, wie es die Anweisungen vorsehen, wählen Sie die Aktion **Einlagerung registrieren** aus.  
 
-## <a name="see-related-microsoft-training" />Siehe verwandte [Microsoft Schulungen](/training/modules/receive-put-away-items/)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/receive-put-away-items/)
 
-## <a name="see-also" />Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Lagerverwaltung – Übersicht](design-details-warehouse-management.md)
 [Bestand](inventory-manage-inventory.md)  

@@ -10,13 +10,13 @@ ms.search.keywords: null
 ms.date: 05/27/2021
 ms.author: edupont
 ---
-# <a name="external-document-numbers-on-purchase-documents" />Externe Belegnummern auf Einkaufsbelegen
+# <a name="external-document-numbers-on-purchase-documents"></a>Externe Belegnummern auf Einkaufsbelegen
 
 [!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
 Sie können auf Verkaufsbelegen auch externe Belegnummern angeben. Weitere Informationen finden Sie unter [Externe Belegnummern](sales-how-invoice-sales.md#external-document-numbers).
 
-## <a name="see-also" />Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Externe Belegnummern eingeben](across-enter-external-document-numbers.md)  
 [Einkauf](purchasing-manage-purchasing.md)  

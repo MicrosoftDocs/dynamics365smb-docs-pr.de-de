@@ -10,7 +10,7 @@ ms.search.form: '5, 16, 118, 459, 460, 495'
 ms.date: 06/16/2021
 ms.author: bholtorf
 ---
-# <a name="set-up-invoice-rounding" />Rundung von Rechnungen festlegen
+# <a name="set-up-invoice-rounding"></a>Rundung von Rechnungen festlegen
 Wenn Sie beim Erstellen von Rechnungen Rechnungsbeträge runden müssen, können Sie die automatische Rundungsfunktion verwenden. Nach dem Runden einer Rechnung wird eine zusätzliche Zeile mit dem Rundungsbetrag eingefügt, die zusammen mit den anderen Rechnungszeilen gebucht wird.
 
 > [!NOTE]  
@@ -25,10 +25,10 @@ Zum Verwenden der automatischen Rechnungsrundung müssen folgende Aktionen ausge
 > [!NOTE]  
 >  Zusätzlich zu den Rechnungsrundungsfeatures besteht auch die Möglichkeit, Beträge in Rechnungen mithilfe der Stückpreisrundung und der Betragsrundung zu runden.  
 
-## <a name="set-up-general-ledger-accounts-for-invoice-rounding-differences" />Sachkonten für Rechnungsrundungsdifferenzen einrichten
+## <a name="set-up-general-ledger-accounts-for-invoice-rounding-differences"></a>Sachkonten für Rechnungsrundungsdifferenzen einrichten
 Um die automatische Rundungsfunktion zu nutzen, müssen Sie Sachkonten einrichten, auf die Rundungsdifferenzen gebucht werden. Bevor Sie dies tun können, müssen Sie die MwSt.-Produktbuchungsgruppen einrichten. Weitere Informationen finden Sie unter [MwSt. einrichten](finance-setup-vat.md).  
 
-### <a name="to-set-up-general-ledger-accounts-for-invoice-rounding-differences" />Sachkonten für Rechnungsrundungsdifferenzen einrichten:
+### <a name="to-set-up-general-ledger-accounts-for-invoice-rounding-differences"></a>Sachkonten für Rechnungsrundungsdifferenzen einrichten:
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Kontenplan** ein, und wählen Sie dann den zugehörigen Link.  
 2. Richten Sie das Konto im Fenster **Kontenplan** ein, und benennen Sie es mit **Rechnungsrundung** oder mit einem ähnlichen Namen. [!INCLUDE[prod_short](includes/prod_short.md)] Die Anwendung verwendet den Kontonamen als Text in gerundeten Rechnungen.  
 3. Abhängig davon, ob Sie Mehrwertsteuer oder Verkaufssteuer verwenden, wählen Sie in den Feldern **Steuer-Produktbuchungsgruppe** oder **MwSt.-Produktbuchungsgruppe** eine Buchungsgruppe für Rundungsbeträge aus. Es empfiehlt sich, eine neuen Gruppencode einzurichten, der für die Rechnungsrundung verwendet werden kann.
@@ -36,24 +36,24 @@ Um die automatische Rundungsfunktion zu nutzen, müssen Sie Sachkonten einrichte
 
 Jetzt können Sie das Rechnungsrundungskonto den Buchungsgruppen auf der Seite **Kreditorenbuchungsgruppen** zuordnen.  <!-- Why only the vendor posting groups? -->
 
-## <a name="set-up-rounding-for-foreign-and-local-currencies" />Rundungsregeln für Fremdwährungen und lokale Währungen einrichten
+## <a name="set-up-rounding-for-foreign-and-local-currencies"></a>Rundungsregeln für Fremdwährungen und lokale Währungen einrichten
 Damit Sie die automatische Rechnungsrundungsfunktion verwenden können, müssen Sie Rundungsregeln für Fremdwährungen und lokale Währungen einrichten.
 
-### <a name="to-set-up-rounding-for-foreign-currencies" />Einrichten von Rundungsregeln für Fremdwährungen
+### <a name="to-set-up-rounding-for-foreign-currencies"></a>Einrichten von Rundungsregeln für Fremdwährungen
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Währungen** ein, und wählen Sie dann den entsprechenden Link.  
 2. Füllen Sie auf der Seite **Währungen** die Fremdwährung aus, um die **Währungskarte** zu öffnen, und füllen Sie dann die Felder **Betragsrundungspräzision**, **Stückpreisrundungspräzision**, **Rechnungsrundungspräzision** und **Rechnungsrundungsmethode** aus.
 
-### <a name="to-set-up-rounding-for-your-local-currency" />Einrichten der Rundung für Ihre lokale Währung
+### <a name="to-set-up-rounding-for-your-local-currency"></a>Einrichten der Rundung für Ihre lokale Währung
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Hauptbuchhaltung Einrichtung** ein und wählen Sie dann den zugehörigen Link.  
 2. Füllen Sie auf der Seite **Finanzbuchhaltungs-Einrichtung:** auf dem Inforegister **Allgemein** die Felder **Rechnungsrundungspräz.** und **Rechnungsrundungsmethode** aus.  
 
-## <a name="activate-the-invoice-rounding-function" />Aktivieren der Rechnungsrundungsfunktion
+## <a name="activate-the-invoice-rounding-function"></a>Aktivieren der Rechnungsrundungsfunktion
 Damit die Anwendung Einkaufs- und Verkaufsrechnungen automatisch gerundet werden, müssen Sie die Rechnungsrundungsfunktion aktivieren. Beachten Sie, dass Sie die Rechnungsrundung einzeln für Verkaufsrechnungen und Einkaufsrechnungen aktivieren können.
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Einrichtung Debitoren & Verkauf Einr.** oder **Einrichtung Debitoren & Einkauf Einr.** ein und wählen Sie dann den entsprechenden Link.  
 2. Markieren Sie im Inforegister **Allgemein** das Kontrollkästchen **Rechnungsrundung**.  
 
-## <a name="see-also" />Siehe auch
+## <a name="see-also"></a>Siehe auch
 [Fakturieren eines Verkaufs](sales-how-invoice-sales.md)  
 [Erfassen eines Einkaufs](purchasing-how-record-purchases.md)
 

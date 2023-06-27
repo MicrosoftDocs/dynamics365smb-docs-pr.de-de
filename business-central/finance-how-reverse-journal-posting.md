@@ -8,7 +8,7 @@ ms.topic: how-to
 ms.date: 03/28/2023
 ms.custom: bap-template
 ---
-# <a name="reverse-journal-postings-and-undo-receiptsshipments" />Buchungen stornieren und Belege/Lieferungen rückgängig machen
+# <a name="reverse-journal-postings-and-undo-receiptsshipments"></a>Buchungen stornieren und Belege/Lieferungen rückgängig machen
 
 Stornierte Journalbuchungen sind z.B. nützlich, um Fehler zu korrigieren und eine alte Erfassung zu löschen, bevor Sie eine neue erfassen. Eine stornierte Buchung ist die gleiche wie die ursprüngliche Buchung, hat aber ein umgekehrtes Vorzeichen im Feld **Betrag**. Die stornierte Buchung muss die gleiche Belegnummer und das gleiche Buchungsdatum haben wie die ursprüngliche Buchung. Nachdem Sie eine Buchung storniert haben, müssen Sie die richtige Buchung vornehmen.
 
@@ -20,7 +20,7 @@ Wenn Sie eine falsche negative Menge, z.B. eine Bestellung mit der falschen Anza
 
 Wenn Sie eine falsche positive Menge gebucht haben, z.B. einen Verkaufslieferschein oder eine Gebuchte Rücklieferung mit der falschen Anzahl von Artikeln, als versandt, aber nicht in Rechnung gestellt, können Sie die Buchung rückgängig machen.
 
-## <a name="to-reverse-the-journal-posting-of-a-general-ledger-entry" />Um die Buch.-Blatt-Buchung eines Sachpostens zu stornieren
+## <a name="to-reverse-the-journal-posting-of-a-general-ledger-entry"></a>Um die Buch.-Blatt-Buchung eines Sachpostens zu stornieren
 
 Posten können in allen Seiten **Posten** storniert werden. Das folgende Verfahren basiert auf der Seite **Sachposten**.
 
@@ -34,7 +34,7 @@ Posten können in allen Seiten **Posten** storniert werden. Das folgende Verfahr
 3. Auf der Seite **Transaktionsposten stornieren** wählen Sie die Aktion **Stornieren** aus.
 4. Wählen Sie **Ja**, um die Stornierung zu bestätigen.
 
-## <a name="to-post-a-negative-entry" />So buchen Sie einen negativen Posten
+## <a name="to-post-a-negative-entry"></a>So buchen Sie einen negativen Posten
 
 Verwenden Sie das Feld **Korrektur**, um ein negatives Soll anstelle eines Guthabens zu buchen oder um ein negatives Haben anstelle eines Solls auf einem Konto zu buchen. Das Feld ist standardmäßig in allen Erfassungen verfügbar. Die Felder **Sollbetrag** und **Habenbetrag** enthalten jeweils den ursprünglichen und den stornierten Posten. Diese Felder haben keinen Einfluss auf den Kontensaldo.  
 
@@ -44,7 +44,7 @@ Verwenden Sie das Feld **Korrektur**, um ein negatives Soll anstelle eines Gutha
 4. Aktivieren Sie in der Buch.-Blattzeile, die Sie für negative Posten aktivieren möchten, das Kontrollkästchen **Storno**.  
 5. Prüfen Sie die erstellten Posten und wählen Sie dann die Aktion **Buchen** und dann **Ja** aus.
 
-## <a name="to-undo-a-quantity-on-a-posted-purchase-receipt" />So machen Sie eine Menge auf einem gebuchten Kauf-Eingang rückgängig
+## <a name="to-undo-a-quantity-on-a-posted-purchase-receipt"></a>So machen Sie eine Menge auf einem gebuchten Kauf-Eingang rückgängig
 
 Die folgenden Schritte beschreiben, wie Sie einen gebuchten Eingang von Artikeln oder Ressourcen rückgängig machen können. Die Schritte sind ähnlich wie für eine Einkaufsbestellung.
 
@@ -57,7 +57,7 @@ Unter der ausgewählten Eingangszeile wird eine korrigierende Zeile hinzugefügt
 
 Die Felder **Bereits gelief. Menge** und **Lief. nicht fakt. Menge** auf der zugehörigen Bestellung werden auf Null gesetzt.
 
-## <a name="to-undo-and-then-redo-a-quantity-posting-on-a-posted-return-shipment" />Eine Mengenbuchung einer gebuchter Rücklieferungen stornieren und wiederholen
+## <a name="to-undo-and-then-redo-a-quantity-posting-on-a-posted-return-shipment"></a>Eine Mengenbuchung einer gebuchter Rücklieferungen stornieren und wiederholen
 
 Die folgenden Schritte beschreiben, wie Sie vorgehen:
 
@@ -83,7 +83,7 @@ Die Schritte sind denen der gebuchten Rücksendungen ähnlich.
 
 [!INCLUDE [rev-general-journal](includes/rev-general-journal.md)]
 
-## <a name="see-also" />Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Montagesbuchungen rückgängig machen](assembly-how-to-undo-assembly-posting.md)  
 [Buchen von Transaktionen direkt in der Finanzbuchhaltung](finance-how-post-transactions-directly.md)  

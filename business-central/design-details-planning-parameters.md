@@ -8,7 +8,7 @@ ms.topic: conceptual
 ms.date: 04/26/2023
 ms.custom: bap-template
 ---
-# <a name="design-details-planning-parameters" />Designdetails: Planungsparameter
+# <a name="design-details-planning-parameters"></a>Designdetails: Planungsparameter
 
 Dieser Artikel beschreibt die Planungsparameter, die Sie in [!INCLUDE[prod_short](includes/prod_short.md)] verwenden können.  
 
@@ -23,11 +23,11 @@ Wie das Planungssystem Artikelzubehör steuert, wird durch verschiedene Einstell
 |Ändern Sie die Beschaffungsaufträge|Minimale Losgröße<br /><br /> Maximale Losgröße<br /><br /> Losgrößenrundungsfaktor|
 |Abgrenzen des geplanten Artikels|Produktionsart:<br /><br /> -  Lagerfertigung<br />- Auftragsfertigung|
 
-## <a name="define-whether-the-item-is-planned" />Festlegen, ob der Artikel geplant ist
+## <a name="define-whether-the-item-is-planned"></a>Festlegen, ob der Artikel geplant ist
 
 Um einen Artikel oder eine SKU in den Planungsprozess einzubeziehen, müssen Sie ihm ein Wiederbeschaffungsverfahren zuweisen. Andernfalls muss die Planung manuell erfolgen, beispielsweise mithilfe der Funktion „Auftragsplanung“.  
 
-## <a name="define-when-to-reorder" />Definieren Sie, wann neu bestellt werden soll
+## <a name="define-when-to-reorder"></a>Definieren Sie, wann neu bestellt werden soll
 
 Nachbestellungsvorschläge werden generell nur freigegeben, wenn die voraussichtliche verfügbare Menge unter eine bestimmten Menge gefallen ist. Die Menge hängt vom Meldebestand ab. Andernfalls ist sie Null. Null kann angepasst werden, indem ein Sicherheitsbestand eingegeben wird. Wenn Sie einen Sicherheitszuschlag zur Beschaffungszeit festlegen, wird der Vorschlag in der Periode vor dem erforderlichen Fälligkeitsdatum gemacht.  
 
@@ -40,7 +40,7 @@ Auf der Seite **Produktion Einrichtung** sollten Sie den Standardsicherheitszusc
 
 Die Felder **Neuplanungsperiode**, **Loskumulierungsperiode** und **Toleranzperiode** spielen auch beim Festlegen des Meldebestands eine Rolle. Weitere Informationen finden Sie unter [Optimieren des Zeitpunktes und der Menge bei einer Neubestellung](design-details-planning-parameters.md#optimize-when-and-how-much-to-reorder).  
 
-## <a name="define-how-much-to-reorder" />Definieren Sie, wie viel neu bestellt werden soll
+## <a name="define-how-much-to-reorder"></a>Definieren Sie, wie viel neu bestellt werden soll
 
 Wenn das Planungssystem die Notwendigkeit einer Neubestellung erkennt, bestimmt das Wiederbeschaffungsverfahren, wann und wie viel bestellt werden soll.  
 
@@ -52,7 +52,7 @@ Unabhängige vom Wiederbeschaffungsverfahrens folgt das Planungssystem normalerw
 4. Wenn mehr Bruttobedarf vor dem Fälligkeitsdatum des vorwärts geplanten Auftragsvorschlag besteht und dieser Bedarf den derzeit geplanten voraussichtlich verfügbaren Lagerbestand unter den Sicherheitsbestand bringt, wird die Auftragsmenge entsprechend erhöht. Die vorgeschlagene Beschaffungsauftrag wird dann vom Fälligkeitsdatum dieses Grobbedarfs, der den Sicherheitsbestand unterschritten hätte, rückwärts geplant.  
 5. Wenn das Feld **Zeitrahmen** nicht ausgefüllt ist, wird nur der Bruttobedarf am gleichen Fälligkeitsdatum hinzugefügt.  
 
-### <a name="reordering-policies" />Wiederbeschaffungsverfahren
+### <a name="reordering-policies"></a>Wiederbeschaffungsverfahren
 
 Die folgenden Wiederbeschaffungsverfahren beeinflussen die Menge, die nachbestellt wird. Weitere Informationen zu Wiederbeschaffungsverfahren finden Sie unter [Designdetails: Umgang mit Wiederbeschaffungsverfahren](design-details-handling-reordering-policies.md).  
 
@@ -63,7 +63,7 @@ Die folgenden Wiederbeschaffungsverfahren beeinflussen die Menge, die nachbestel
 |**Auftrag**|Die Auftragsmenge wird so berechnet, dass jedes Bedarfsereignis erfüllt wird, und der Bedarf-Vorrat-Satz bleibt bis zur Ausführung verknüpft. Planungsparameter werden nicht berücksichtigt.|  
 |**Los-für-Los**|Die Menge wird berechnet, um die Summe des Bedarfs abzudecken, der im Zeitrahmen fällig wird.|  
 
-## <a name="optimize-when-and-how-much-to-reorder" />Optimieren des Zeitpunktes und der Menge bei einer Neubestellung
+## <a name="optimize-when-and-how-much-to-reorder"></a>Optimieren des Zeitpunktes und der Menge bei einer Neubestellung
 
 Ein Planner kann Planungsparameter genau abstimmen, um Neuplanungsvorschläge einzuschränken, Bedarf zu akkumulieren (dynamische Bestellmenge), oder um unwichtige Planungsaktionen zu vermeiden. Die folgenden Felder helfen bei der Optimierung, wann und wie viel nachzubestellen ist.  
 
@@ -100,13 +100,13 @@ In den folgenden Beispielen stellen die schwarzen Pfeile vorhandenen Bedarf (auf
 
 **Vorgabewerte**: Der Vorgabewert des **Zeitrahmen**-Feldes und der drei Nachbestellungsperiodenfelder ist leer. Für alle Felder mit Ausnahme des Felds **Toleranzperiode** bedeutet dies 0D (Null Tage). Wenn das Feld **Toleranzperiode** leer ist, wird der Wert im Feld **Standardtoleranzperiode** auf der Seite **Produktion Einrichtung** verwendet.  
 
-## <a name="modify-the-supply-orders" />Ändern Sie die Beschaffungsaufträge
+## <a name="modify-the-supply-orders"></a>Ändern Sie die Beschaffungsaufträge
 
 Wenn die Menge des Bestellarbeitsblatts berechnet wurde, können eine oder mehrere der Auftragsmodifikationen ihn anpassen. Beispielsweise ist die maximale Auftragsgröße größer als oder gleich der minimale Auftragsgröße, die größer als oder gleich dem Auftragsvielfachen ist.  
 
 Die Menge wird verringert, wenn sie die maximale Auftragsmenge übersteigt. Dann wird sie erhöht, wenn sie unter der Mindestbestellgröße liegt. Schließlich wird sie aufgerundet, sodass sie einem angegebenen Auftragsvielfachen entspricht. Alle Restmengen verwenden die gleichen Regulierungen, bis der Gesamtbedarf in Bestellarbeitsblätter umgewandelt wurde.  
 
-## <a name="delimit-the-item" />Abgrenzen des Artikels
+## <a name="delimit-the-item"></a>Abgrenzen des Artikels
 
 Das Feld **Produktionsart** auf der Seite **Artikelkarte** legt fest, welche anderen Bestellungen die Nettobedarfberechnung vorschlägt.  
 
@@ -114,7 +114,7 @@ Wenn die Option **Lagerfertigung** verwendet wird, betreffen die Aufträge nur d
 
 Wenn die Option **Auftragsfertigung** verwendet wird, analysiert das Planungssystem die Fertigungsstückliste des Artikels und erstellt verknüpfte Vorschlagszeilen für diejenigen Artikel auf untergeordneter Ebene, die auch als Auftragsfertigung definiert werden. Dieses wird fortgesetzt, solange Auftragsfertigungsartikel in den absteigenden Stücklistenstrukturen vorhanden sind.
 
-## <a name="use-low-level-codes-to-manage-derived-demand" />Verwenden von Stücklistenebenen, um den abgeleiteten Bedarf zu verwalten
+## <a name="use-low-level-codes-to-manage-derived-demand"></a>Verwenden von Stücklistenebenen, um den abgeleiteten Bedarf zu verwalten
 
 Verwenden Sie Stücklistenebenen, um den abgeleiteten Bedarf an Komponenten bis zu den unteren Ebenen der Stückliste weiterzuführen. Weitere Informationen zu Stücklistenebenen finden Sie unter [Artikelpriorität/Stücklistenebene](design-details-central-concepts-of-the-planning-system.md#item-priority--low-level-code).
 
@@ -130,7 +130,7 @@ Als Alternative zur automatischen Berechnung, die bei aktiviertem Kontrollkästc
 > [!NOTE]
 > Auch wenn Sie das ausgewählte Feld **Dyn. Stückl.-Ebene berechnen** einschalten, werden die Stücklistenebenen nicht dynamisch geändert, wenn eine übergeordnete Stückliste gelöscht wird oder als nicht zertifiziert festgelegt wird. Dieser Fall macht das Hinzufügen neuer Artikel zum Ende der Produktstruktur eventuell schwierig, da unter Umständen die maximale Anzahl von Stücklistenebenen überschritten wird. Daher können Sie bei umfangreichen Produktstrukturen, bei denen das Limit für die Stücklistenebenen erreicht wird, häufig die Stapelverarbeitung **Stücklistenebene berechnen** auszuführen, um die Struktur beizubehalten.  
 
-## <a name="see-also" />Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Designdetails: Umgang mit Wiederbeschaffungsverfahren](design-details-handling-reordering-policies.md)  
 [Designdetails: Ausgleich von Nachfrage und Angebot](design-details-balancing-demand-and-supply.md)  

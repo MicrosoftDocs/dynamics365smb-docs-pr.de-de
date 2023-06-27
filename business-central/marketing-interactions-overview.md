@@ -10,7 +10,7 @@ ms.search.keywords: 'relationship, prospect'
 ms.date: 06/22/2021
 ms.author: edupont
 ---
-# <a name="managing-interactions-with-your-contacts" />Verwalten von Interaktionen mit Ihren Kontakten
+# <a name="managing-interactions-with-your-contacts"></a>Verwalten von Interaktionen mit Ihren Kontakten
 In [!INCLUDE[prod_short](includes/prod_short.md)] versteht man unter Aktivitäten alle Arten der Kommunikation zwischen Ihrem Unternehmen und Ihren Kontakten. Kommunikationen können zum Beispiel per Brief, E-Mail, Telefon, Besprechungen usw. erfolgen.
 
 Sie können alle Aktivitäten, die Sie mit Ihren Kontakten durchführen, speichern, um die Verkaufs- und Marketingmaßnahmen überblicken zu können, die Sie gegenüber Ihren Kontakten unternommen haben, um zukünftige Geschäftsaktivitäten mit ihnen zu verbessern.

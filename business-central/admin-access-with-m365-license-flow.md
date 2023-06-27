@@ -10,7 +10,7 @@ ms.date: 11/03/2022
 ms.custom: bap-template
 ms.search.keywords: 'License, access, Microsoft 365, collaborate, collaboration, Teams, Microsoft Teams'
 ---
-# <a name="user-access-flow-for-microsoft-365-licenses" />Benutzerzugriffsflow für Microsoft 365-Lizenzen
+# <a name="user-access-flow-for-microsoft-365-licenses"></a>Benutzerzugriffsflow für Microsoft 365-Lizenzen
 
 [!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
 
@@ -30,7 +30,7 @@ Das Benutzerkonto ist nun in Business Central registriert und kann wie jeder and
 > [!NOTE]
 > Die Schritte können je nach zusätzlicher Sicherheitskonfiguration, die Sie in Microsoft 365 oder Business Central angegeben haben, variieren.
 
-## <a name="see-also" />Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Business Central-Zugriff mit Microsoft 365-Lizenzen](admin-access-with-m365-license.md#minimum-requirements)  
 [Zugriff mit Microsoft 365-Lizenzen einrichten](admin-access-with-m365-license-setup.md)  

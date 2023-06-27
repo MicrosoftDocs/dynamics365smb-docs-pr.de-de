@@ -9,7 +9,7 @@ ms.date: 03/28/2023
 ms.custom: bap-template
 ---
 
-# <a name="set-up-locations-to-use-bins" />Lagerorte für die Verwendung von Lagerplätzen einrichten
+# <a name="set-up-locations-to-use-bins"></a>Lagerorte für die Verwendung von Lagerplätzen einrichten
 
 Lagerplätze stellen die grundlegende Lagerstruktur dar und Sie können diese verwenden, um vorzuschlagen, wo Artikel abgelegt werden sollen. Wenn Sie Ihre Lagerplätze erstellt haben, können Sie deren Inhalt definieren oder sie können als schwebende Lagerplätze ohne festgelegten Inhalt fungieren.
 
@@ -27,7 +27,7 @@ Im nächsten Schritt entwerfen Sie den Warenfluss am Lagerort, indem Sie Lagerpl
 > [!NOTE]  
 > Bevor Sie Lagerplätze auf einem Platz angeben können, müssen Sie diese für den Lagerort definieren. Weitere Informationen finden Sie unter [Lagerplätze erstellen](warehouse-how-to-create-individual-bins.md).  
 
-## <a name="to-set-up-a-location-to-use-bins" />Um einen Lagerort für die Verwendung von Lagerplätzen einzurichten
+## <a name="to-set-up-a-location-to-use-bins"></a>Um einen Lagerort für die Verwendung von Lagerplätzen einzurichten
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Lagerorte** ein, und wählen Sie dann den entsprechenden Link.  
 2. Wählen Sie den Lagerort aus, an dem Sie Lagerplätze verwenden möchten.  
@@ -45,15 +45,15 @@ Im nächsten Schritt entwerfen Sie den Warenfluss am Lagerort, indem Sie Lagerpl
 9. Optional: Füllen Sie die Felder im Inforegister **Lagerrichtlinien** aus. Die wichtigsten Felder sind **Lagerkapazitätsprüfung**, **Gebindeanbruch zulassen** und **Einlagerungsvorlagencode**.  
 10. Tragen Sie im Inforegister **Logistik** die Felder **Ausgeh. Lagerdurchlaufzeit**, **Eingeh. Lagerdurchlaufzeit** und **Basiskalendercode** ein. Um mehr zu erfahren, gehen Sie zu [Basiskalender einrichten](across-how-to-assign-base-calendars.md).
 
-## <a name="fill-in-the-consumption-bin" />Auffüllen des Verbrauchslagerplatzes
+## <a name="fill-in-the-consumption-bin"></a>Auffüllen des Verbrauchslagerplatzes
 
 Das folgende Flow-Diagramm zeigt, wie das Feld **Lagerplatzcode** auf den Zeilen der Produktionsauftragskomponenten entsprechend der Einrichtung Ihres Standorts gefüllt wird.
 
 :::image type="content" source="media/binflow.png" alt-text="Lagercodefeld im Produktionsauftrag Komponentenzeilen.":::
 
-## <a name="see-related-microsoft-training" />Siehe verwandte [Microsoft Schulungen](/training/modules/configure-bins-location/)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/configure-bins-location/)
 
-## <a name="see-also" />Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Lagerverwaltung – Übersicht](design-details-warehouse-management.md)
 [Bestand](inventory-manage-inventory.md)  

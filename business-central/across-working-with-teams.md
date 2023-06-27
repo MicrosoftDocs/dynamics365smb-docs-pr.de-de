@@ -11,14 +11,14 @@ ms.date: 09/22/2022
 ms.author: jswymer
 ---
 
-# <a name="sharing-business-central-records-and-page-links-in-microsoft-teams" />Gemeinsame Nutzung von Business Central Datensätzen und Seitenlinks in Microsoft Teams
+# <a name="sharing-business-central-records-and-page-links-in-microsoft-teams"></a>Gemeinsame Nutzung von Business Central Datensätzen und Seitenlinks in Microsoft Teams
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
 [!INCLUDE [prod_short](includes/prod_short.md)] bietet einige Möglichkeiten, Daten aus Business Central direkt in einer Microsoft Teams-Unterhaltung zu teilen:
 
 <!-- 
-## <a name="overview" />Overview
+## <a name="overview"></a>Overview
 In this article, you'll learn how to use the app to share [!INCLUDE [prod_short](includes/prod_short.md)] records, like a customer, sales order, or invoice, with coworkers in a Teams conversation.
 The [!INCLUDE [prod_short](includes/prod_short.md)] app lets you:
 [!INCLUDE [prod_short](includes/prod_short.md)] offers an app that connects Microsoft Teams to your business data in [!INCLUDE [prod_short](includes/prod_short.md)], so you can quickly share details across team members and respond faster to inquiries. In this article, you'll learn how to use the app to share [!INCLUDE [prod_short](includes/prod_short.md)] records, like a customer, sales order, or invoice, with coworkers in a Teams conversation.
@@ -36,13 +36,13 @@ The [!INCLUDE [prod_short](includes/prod_short.md)] app lets you:
 
 In den folgenden Abschnitten werden die verschiedenen Möglichkeiten im Detail beschrieben.
 
-## <a name="include-and-view-a-business-central-card-in-a-teams-conversation" />Einbinden und Anzeigen einer Business Central Karte in einer Teams Unterhaltung
+## <a name="include-and-view-a-business-central-card-in-a-teams-conversation"></a>Einbinden und Anzeigen einer Business Central Karte in einer Teams Unterhaltung
 
 Mit der Business Central-App für Teams können Sie einen Link aus einem beliebigen Business Central-Datensatz, z.B. einem Debitor oder Verkaufsauftrag, kopieren und in eine Teams-Unterhaltung einfügen. Die App verbindet Microsoft Teams mit Ihren Geschäftsdaten in [!INCLUDE [prod_short](includes/prod_short.md)]\. Anschließend erweitert sie den Link zu einer kompakten, interaktiven Karte, die Informationen über den Datensatz anzeigt. Wenn Sie sich in der Unterhaltung befinden, können Sie und Ihre Mitarbeiter weitere Details zum Datensatz anzeigen, Daten bearbeiten und Maßnahmen ergreifen&mdash;ohne Teams zu verlassen.
 
 [![Teams-Integration in Business Central](media/teams-intro-vBC20.png)](media/teams-intro-vBC20.png#lightbox)
 
-### <a name="prerequisites" />Voraussetzungen
+### <a name="prerequisites"></a>Voraussetzungen
 
 - Sie haben Zugriff auf Microsoft Teams.
 - Sie haben die [!INCLUDE [prod_short](includes/prod_short.md)]-App in Teams installiert. Weitere Informationen finden Sie unter [Die [!INCLUDE [prod_short](includes/prod_short.md)]-App für Microsoft Teams installieren](across-install-app-for-teams.md).
@@ -50,7 +50,7 @@ Mit der Business Central-App für Teams können Sie einen Link aus einem beliebi
 > [!NOTE]
 > Alle Teilnehmer einer Teams-Unterhaltung können Karten für Business Central-Datensätze anzeigen, die Sie an die Unterhaltung senden. Um weitere Details zu Datensätzen anzuzeigen (durch Verwenden der Schaltflächen **Details** oder **Pop-out** auf einer Karte), benötigen diese jedoch Zugriff auf [!INCLUDE [prod_short](includes/prod_short.md)]. Weitere Informationen finden Sie unter [Verwalten der Microsoft Teams-Integration](admin-teams-integration.md#minimum-requirements-1).
 
-### <a name="include-a-business-central-card-in-a-teams-conversation" />Eine Business Central-Karte in eine Teams-Unterhaltung einfügen
+### <a name="include-a-business-central-card-in-a-teams-conversation"></a>Eine Business Central-Karte in eine Teams-Unterhaltung einfügen
 
 1. Verwenden Sie Ihren Browser, um sich bei [!INCLUDE [prod_short](includes/prod_short.md)] anzumelden.
 2. Öffnen Sie den Datensatz, den Sie teilen möchten.
@@ -80,7 +80,7 @@ Mit der Business Central-App für Teams können Sie einen Link aus einem beliebi
     > Nachdem die Karte angezeigt wird und bevor Sie **Senden** auswählen, können Sie die eingefügte URL bei Bedarf löschen.
 10. Um weitere Details anzuzeigen oder Änderungen an der Karte vorzunehmen, wählen Sie **Details** aus. Weitere Informationen finden Sie im nächsten Abschnitt.
 
-### <a name="view-card-details" />Kartendetails anzeigen
+### <a name="view-card-details"></a>Kartendetails anzeigen
 
 Sobald eine Karte an ein Gespräch gesendet wurde, können alle Teilnehmer mit den [ordnungsgemäßen Berechtigungen](admin-teams-integration.md#permissions) **Einzelheiten** auswählen, um ein Fenster zu öffnen, in dem weitere Informationen zum Datensatz angezeigt werden&mdash; und möglicherweise Änderungen am Datensatz vornehmen. Es spielt keine Rolle, ob Sie die Karte senden oder die Karte empfangen. Die Funktion **Details** ist besonders für Empfänger nützlich, da sie ihnen schnell präzise und zielgerichtete Informationen über den Datensatz liefert.
 
@@ -93,20 +93,20 @@ Hier sind einige Dinge zu beachten, wenn Sie mit den Kartendetails arbeiten:
 
 Weitere Informationen zum Arbeiten mit Karten und Kartendetails finden Sie unter [Teams FAQ](teams-faq.md).
 
-## <a name="share-a-link-to-page-from-business-central-to-teams" /><a name="share-link"></a>Einen Link zu einer Seite von Business Central an Teams weitergeben
+## <a name="share-a-link-to-page-from-business-central-to-teams"></a><a name="share-link"></a>Einen Link zu einer Seite von Business Central an Teams weitergeben
 
 Direkt von den meisten Sammlungsseiten, wie der Seite **Elemente**, und Detailseiten, wie der Karte **Elemente**, können Sie einen Link zu der Seite an bestimmte Empfänger in einer Unterhaltung in Teams senden. So können Sie beispielsweise einen Link zu einer gefilterten Ansicht Ihrer Datensätze freigeben. Die Empfänger können dann den Link auswählen, um die Seite in [!INCLUDE [prod_short](includes/prod_short.md)]\. zu öffnen.
 
 [![!Das Menü Teilen, das auf einer Karte angezeigt wird.](media/teams-share-link-v2.png "Das Menü Teilen, das auf einer Karte angezeigt wird.")](media/teams-share-link-v2.png#lightbox)
 
-### <a name="prerequisites-1" />Voraussetzungen
+### <a name="prerequisites-1"></a>Voraussetzungen
 
 - Sie haben Zugriff auf Microsoft Teams.
 - (Optional) Sie haben die App [!INCLUDE [prod_short](includes/prod_short.md)] in Teams installiert. 
 
   Wenn die App installiert ist, enthalten Nachrichten, die Sie mit dem Link versenden, auch eine kompakte Karte für die Seite. Weitere Informationen zum Installieren der App finden Sie unter [Installieren Sie die [!INCLUDE [prod_short](includes/prod_short.md)] App für Microsoft Teams](across-install-app-for-teams.md).
 
-### <a name="share-a-link" />Einen Link freigeben
+### <a name="share-a-link"></a>Einen Link freigeben
 
 1. Öffnen Sie in [!INCLUDE [prod_short](includes/prod_short.md)]\, die Seite, die Sie teilen möchten.
 2. Wählen Sie oben auf der Seite die Aktion ![!Für andere Apps freigeben auf Seiten.](media/share-icon.png) Symbol und dann **Für Teams freigeben**.
@@ -117,7 +117,7 @@ Direkt von den meisten Sammlungsseiten, wie der Seite **Elemente**, und Detailse
    Fügen Sie weitere Informationen hinzu, wenn Sie möchten, und wählen Sie dann **Freigeben**.
 6. Der Link wurde nun geteilt. Wenn Sie zu der Unterhaltung gehen möchten, wählen Sie **Zu Teams gehen**.
 
-## <a name="see-also" />Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Übersicht über die Integration von Business Central und Microsoft Teams](across-teams-overview.md)  
 [Installieren Sie die [!INCLUDE [prod_short](includes/prod_short.md)] App für Microsoft Teams](across-install-app-for-teams.md)  

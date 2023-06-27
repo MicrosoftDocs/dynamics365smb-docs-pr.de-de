@@ -11,20 +11,20 @@ ms.search.form: '6700, 5320, 5300, 5301, 5302, 5303, 5304, 5305, 5306, 5307, 530
 ms.date: 03/17/2023
 ms.author: bholtorf
 ---
-# <a name="synchronize-contacts-in-business-central-with-contacts-in-microsoft-outlook" />Synchronisieren Sie Kontakte in Business Central mit Kontakten in Microsoft Outlook
+# <a name="synchronize-contacts-in-business-central-with-contacts-in-microsoft-outlook"></a>Synchronisieren Sie Kontakte in Business Central mit Kontakten in Microsoft Outlook
 
 Sie können die Kontaktsynchronisierung einrichten, damit Ihre Kontakte in [!INCLUDE[prod_short](includes/prod_short.md)] dieselben Informationen aufweisen wie Ihre Kontakte in Microsoft Outlook. Wenn Sie beispielsweise ein Vertriebsmitarbeiter sind, arbeiten Sie möglicherweise in Outlook und [!INCLUDE[prod_short](includes/prod_short.md)] gleichzeitig. Wenn die Kontakte an beiden Stellen identisch sind, wird die Arbeit einfacher.  
 
 Standardmäßig werden die Kontakte, die Sie synchronisieren, in einem **Business Central**-Ordner in Ihren Favoriten im Ordnerbereich in Outlook gespeichert. Über den Business Central-Ordners können Sie einfacher ermitteln, welche Kontakte Sie synchronisieren. Sie können Filter festlegen, um nur bestimmte Kontakte von [!INCLUDE[prod_short](includes/prod_short.md)] nach Outlook zu synchronisieren. Nachdem Sie die Synchronisierung eingerichtet haben, können Sie die Synchronisierung manuell durchführen oder den Vorgang automatisieren, um die Synchronisierung auf geplanter Basis durchzuführen.  
 
-## <a name="prerequisites" />Voraussetzungen
+## <a name="prerequisites"></a>Voraussetzungen
 
 - Auf Ihrem Benutzerprofil in [!INCLUDE[prod_short](includes/prod_short.md)] muss Ihr Microsoft 365 E-Mail angegeben sein.
 
   Sie können diese Einstellung im Abschnitt **Microsoft 365-Authentifizierung** Ihres Benutzerprofils in der Liste **Benutzer** überprüfen.
 - Sie haben mit [!INCLUDE[prod_short](includes/prod_short.md)] die Kontaktsynchronisierung wie unter [Die Kontaktsynchronisierung mit Outlook für das lokale Business Central einrichten](admin-contact-sync-setup-onprem.md) beschrieben eingerichtet
 
-## <a name="set-up-synchronization" />Synchronisierung einrichten
+## <a name="set-up-synchronization"></a>Synchronisierung einrichten
 
 Sie geben an, wie Sie die Synchronisierung der Kontakte mit Outlook einrichten möchten auf der Seite **Exchange Synchronisierung einrichten** in [!INCLUDE[prod_short](includes/prod_short.md)]. 
 
@@ -34,7 +34,7 @@ Jeder Ihrer Mitarbeiter kann die eigene Exchange-Synchronisierung einrichten und
 
 Nachdem Sie die Synchronisierung eingerichtet haben, können Sie Änderungen am Kontakt manuell synchronisieren oder den Vorgang automatisieren, indem Sie einen Projektwarteschlangenposten einrichten. Weitere Informationen zur Automatisierung finden Sie im nächsten Abschnitt dieses Artikels.
 
-### <a name="automate-synchronization" />Synchronisierung automatisieren
+### <a name="automate-synchronization"></a>Synchronisierung automatisieren
 
 Sie können einen Projektwarteschlangenposten erstellen, der Kontakte gemäß einem von Ihnen definierten Zeitplan synchronisiert. Weitere Informationen finden Sie unter [Job-Warteschlangen zur Einplanung von Aufgaben verwenden](admin-job-queues-schedule-tasks.md). 
 
@@ -45,7 +45,7 @@ In der folgenden Tabelle sind die Einstellungen auf der Seite **Karte für Aufga
 |Art des auszuführenden Objekts|Codeunit|
 |ID des auszuführenden Objekts|6700|
 
-## <a name="synchronize-contacts" />Kontakte synchronisieren
+## <a name="synchronize-contacts"></a>Kontakte synchronisieren
 
 Wenn Sie es gewohnt sind, in [!INCLUDE[prod_short](includes/prod_short.md)] mit Kontakten zu arbeiten, ist es für Sie einfach, die Synchronisierung manuell über die Liste **Kontakte** durchzuführen, falls Sie dies wünschen. Es gibt zwei Möglichkeiten, Kontakte zu synchronisieren:
 
@@ -62,7 +62,7 @@ In beiden Fällen werden nur Kontakte von Outlook synchronisiert, wenn die erfor
 > [!NOTE]
 > Wenn Sie einen Kontakt in Outlook löschen, ihn in [!INCLUDE[prod_short](includes/prod_short.md)] jedoch beibehalten, wird der Kontakt bei der nächsten Synchronisierung in Outlook neu erstellt. 
 
-## <a name="see-also" />Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Vorbereiten auf die Geschäftsabwicklung](ui-get-ready-business.md)  
 [Finanzen](finance.md)  

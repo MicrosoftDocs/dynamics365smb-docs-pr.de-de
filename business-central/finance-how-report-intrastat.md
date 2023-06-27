@@ -17,7 +17,7 @@ ms.contentlocale: de-DE
 ms.lasthandoff: 09/30/2022
 ms.locfileid: "9608169"
 ---
-# <a name="work-with-intrastat-reporting" /><a name="work-with-intrastat-reporting"></a>Arbeiten Sie mit Intrastat Reporting
+# <a name="work-with-intrastat-reporting"></a><a name="work-with-intrastat-reporting"></a>Arbeiten Sie mit Intrastat Reporting
 
 Alle Firmen in der Europäischen Union (EU) müssen ihren Handel mit anderen EU-Ländern/Regionen melden. Warenbewegungen müssen jeden Monat dem Statistischen Amt Ihres Landes/Ihrer Region mitgeteilt und die Berichte müssen an die Steuerbehörden übermittelt werden. Intrastat ist das System zur Erfassung von Handelsstatistiken für Waren innerhalb dieser Länder/Regionen. Sie verwenden **Intrastat-Bericht**, um periodische Intrastat-Berichte (in der Regel monatlich) zu erstellen, in denen der Handel mit Waren gemäß der lokalen Gesetzgebung erfasst, aufgezeichnet und gemeldet wird.
 
@@ -33,7 +33,7 @@ Die Intrastat-Meldungen basieren auf den grundlegenden EU-Vorschriften, die für
 >
 > Wir gehen derzeit davon aus, dass diese Funktion ab November 2022 als App unter [AppSource](https://go.microsoft.com/fwlink/?linkid=2081646) verfügbar sein wird. Um sie zu nutzen, müssen Sie sie zu diesem Zeitpunkt zunächst auf der Seite **Erweiterungsverwaltung** installieren.
 
-## <a name="fill-in-the-intrastat-report" /><a name="fill-in-the-intrastat-report"></a>Füllen Sie im Intrastat-Bericht
+## <a name="fill-in-the-intrastat-report"></a><a name="fill-in-the-intrastat-report"></a>Füllen Sie im Intrastat-Bericht
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol aus, geben Sie **Intrastat Liste** ein und wählen Sie den entsprechenden Link.
 2. Wählen Sie die Aktion **Neu**, um einen neuen **Intrastat-Bericht** zu erstellen.
@@ -50,7 +50,7 @@ Die Intrastat-Meldungen basieren auf den grundlegenden EU-Vorschriften, die für
 
 Der Batchauftrag ruft alle Elemente im Statistikzeitraum ab und fügt sie als Zeilen in den **Intrastat-Bericht** ein. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="modify-the-intrastat-report" /><a name="modify-the-intrastat-report"></a>Ändern des Intrastat-Berichts
+## <a name="modify-the-intrastat-report"></a><a name="modify-the-intrastat-report"></a>Ändern des Intrastat-Berichts
 
 Bei Bedarf können Sie die Zeilen ändern, aber immer wenn Sie einen Wert in der Zeile des Intrastat-Berichts ändern, wird das Feld **Korrektur** automatisch als **Ja** markiert. Schließlich können Sie auch manuell eine neue Zeile hinzufügen, wenn es dafür einen Grund gibt. Um eine neue Zeile manuell hinzuzufügen:
 
@@ -63,13 +63,13 @@ Bei Bedarf können Sie die Zeilen ändern, aber immer wenn Sie einen Wert in der
 > [!NOTE]
 > Wenn Sie dem Intrastat-Bericht manuell eine neue Zeile hinzufügen, muss das Feld **Datum** in der Zeile innerhalb des Bereichs **Statistischer Zeitraum** liegen, den Sie in der Kopfzeile hinzugefügt haben.
 
-## <a name="validate-intrastat-lines" /><a name="validate-intrastat-lines"></a>Intrastat-Zeilen validieren
+## <a name="validate-intrastat-lines"></a><a name="validate-intrastat-lines"></a>Intrastat-Zeilen validieren
 
 Nachdem Sie den **Intrastat-Bericht** ausgefüllt haben, können Sie die Aktion **Checkliste Bericht** ausführen, um sicherzustellen, dass alle Informationen im **Intrastat-Bericht** korrekt sind. Pflichtfelder, die Sie auf der Seite **Intrastat Bericht Checkliste** festgelegt haben und deren Werte fehlen, werden in der **Fehler und Warnung** FactBox auf der Seite **Intrastat Bericht** angezeigt.
 
 Führen Sie den Bericht **Prüfliste Intrastat-Bericht** aus, um die Intrastat-Zeilen zu prüfen, bevor sie in das gewünschte Format exportiert werden. Die Prüfung wird innerhalb des **Intrastat-Berichts** ausgeführt.
 
-## <a name="recalculating-weight-or-supplementary-unit-of-measure" /><a name="recalculating-weight-or-supplementary-unit-of-measure"></a>Neuberechnung von Gewicht oder zusätzlicher Maßeinheit
+## <a name="recalculating-weight-or-supplementary-unit-of-measure"></a><a name="recalculating-weight-or-supplementary-unit-of-measure"></a>Neuberechnung von Gewicht oder zusätzlicher Maßeinheit
 
 Wenn Sie die Fehlermeldung *'Gesamtgewicht' in der Intrastat Report Zeile darf nicht leer sein* erhalten, liegt das wahrscheinlich daran, dass Sie das Feld **Nettogewicht** nicht auf der verwendeten Quelle, dem Element oder der Anlage festgelegt haben. Suchen Sie in diesem Fall nach der Karteikarte für das Element oder die Anlage und fügen Sie den erforderlichen Wert hinzu. Danach müssen Sie nur den **Intrastat Bericht** erneut öffnen und die folgenden Schritte ausführen:
 
@@ -81,7 +81,7 @@ Wenn Sie die Fehlermeldung *'Gesamtgewicht' in der Intrastat Report Zeile darf n
     3. **Beides** - um sowohl **Gesamtgewicht** als auch **Zusatzmenge** neu zu berechnen, basierend auf den aktuellen Informationen auf den Karten der Elemente und Anlagen.
 3. Wählen Sie **OK**, um den Batchauftrag zu starten.
 
-## <a name="report-intrastat-in-a-file" /><a name="report-intrastat-in-a-file"></a>Intrastat Berichte in einer Datei
+## <a name="report-intrastat-in-a-file"></a><a name="report-intrastat-in-a-file"></a>Intrastat Berichte in einer Datei
 
 Sie können den Intrastat-Bericht als Datei senden, je nach den Anforderungen der verschiedenen lokalen Behörden. Bevor Sie die Datei erstellen, sollten Sie den **Checklistenbericht** ausführen, um zu prüfen, ob alle Zeilen alle notwendigen und gültigen Informationen enthalten. So erstellen Sie eine Datei:
 
@@ -99,22 +99,22 @@ Sobald Sie die Datei erstellt haben, füllt [!INCLUDE[prod_short](includes/prod_
 > [!NOTE]
 > Wenn Sie das nächste Mal eine Datei erstellen, werden in den Feldern **Exportdatum** und **Exportzeit** nur Informationen über die zuletzt erstellte Datei gespeichert.
 
-## <a name="intrastat-rules" /><a name="intrastat-rules"></a>Intrastat-Regeln
+## <a name="intrastat-rules"></a><a name="intrastat-rules"></a>Intrastat-Regeln
 
-### <a name="grouping-lines" /><a name="grouping-lines"></a>Zeilen gruppieren
+### <a name="grouping-lines"></a><a name="grouping-lines"></a>Zeilen gruppieren
 
 In **Intrastat Report** Zeilen gibt es keine Gruppierung nach Feldern. Alle Einträge werden aus der Originalquelle kopiert, so dass Sie sie anhand der Kombination von **Quellentyp** und **Quellennummer** schnell auffinden können.
 
 Die von den Behörden benötigte Gruppierung wird in der exportierten Datei bereitgestellt. Sie müssen dies in der **Data Exchange Definition** konfigurieren, die vollständig konfigurierbar ist. Weitere Informationen finden Sie unter [Definitionen für den Datenaustausch festlegen](across-how-to-set-up-data-exchange-definitions.md).
 
-### <a name="fixed-assets-reporting" /><a name="fixed-assets-reporting"></a>Berichterstattung über Anlagen
+### <a name="fixed-assets-reporting"></a><a name="fixed-assets-reporting"></a>Berichterstattung über Anlagen
 
 Anlagen werden in den Intrastat Zeilen nur angezeigt, wenn:
 
 * Die **FA-Buchungsart** im Feld **Sachkonto-Eintrag** ist **Anschaffungskosten** und wenn die **Belegart** im Falle von Einkäufen **Rechnung** ist und
 * Die **FA-Buchungsart** im Feld **Mehrwertsteuer-Sachkonto** ist **Verkaufserlös** und wenn die **Belegart** **Rechnung** ist, im Falle von Verkäufen.
 
-### <a name="intrastat-report-statuses" /><a name="intrastat-report-statuses"></a>Status der Intrastat-Berichte
+### <a name="intrastat-report-statuses"></a><a name="intrastat-report-statuses"></a>Status der Intrastat-Berichte
 
 Wenn Sie mit dem **Intrastat Bericht** arbeiten, sehen Sie ein **Status** Feld im Dokumentenkopf. Hier finden Sie die folgenden Status zusammen mit den dazugehörigen Regeln:
 
@@ -122,9 +122,9 @@ Wenn Sie mit dem **Intrastat Bericht** arbeiten, sehen Sie ein **Status** Feld i
 * *Freigegeben*: [!INCLUDE[prod_short](includes/prod_short.md)] ändert den Status automatisch auf *Freigegeben*, wenn Sie eine Datei erstellen. Von diesem Moment an können Sie Ihren **Intrastat Bericht** nicht mehr ändern. Wenn Sie etwas ändern und erneut berichten müssen, können Sie die Aktion **Wieder öffnen** verwenden, um den Intrastat-Bericht erneut zu öffnen. Sobald das Dokument wieder geöffnet ist, können Sie die Aktion **Freigeben** verwenden, um das Dokument wieder freizugeben.
 * **Gemeldet**: Gibt an, ob der Eintrag bereits an die Steuerbehörden gemeldet wurde. Dies ist kein regulärer Status, sondern ein unabhängiges Feld. Selbst wenn Sie den Intrastat-Bericht erneut öffnen würden, würde er anzeigen, dass die Datei für diesen Bericht bereits erstellt wurde.
 
-## <a name="see-related-training-at-microsoft-learn" /><a name="see-related-training-at-microsoft-learn"></a>Siehe die entsprechende Schulung unter [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
+## <a name="see-related-training-at-microsoft-learn"></a><a name="see-related-training-at-microsoft-learn"></a>Siehe die entsprechende Schulung unter [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
 
-## <a name="see-also" /><a name="see-also"></a>Siehe auch
+## <a name="see-also"></a><a name="see-also"></a>Siehe auch
 
 [Intrastat-Berichte festlegen](finance-how-setup-report-intrastat.md)  
 [Finanzmanagement](finance.md)  

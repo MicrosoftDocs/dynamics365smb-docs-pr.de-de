@@ -12,7 +12,7 @@ ms.search.form: '9297, 5845, 30,'
 ms.date: 06/16/2021
 ms.author: edupont
 ---
-# <a name="about-item-types" />Info zu Elementtypen
+# <a name="about-item-types"></a>Info zu Elementtypen
 Im Feld **Typ** auf der Seite **Artikelkarte** können Sie auswählen, wofür das Element in Ihrem Unternehmen verwendet wird, was sich auf den Grad auswirkt, in dem Sie das Element im Bestand verwalten können. In der folgenden Tabelle sind die drei verfügbaren Arten von Elementen aufgeführt und beschrieben.
 
 |Option|Typischer Zweck|
@@ -32,19 +32,19 @@ In der folgenden Tabelle sind die Funktionen aufgeführt, die die drei Artikelar
 |Kein Lagerbestand|Ja|Ja|Ja|Ja|Ja|Ja|Nein|Nein|Nein|Nein|Nein|Nein|Nein|Nein|Nein|Nein|Ja|
 |Dienst|Ja|Ja|Ja|Nein|Nein|Nein|Nein|Nein|Nein|Nein|Nein|Nein|Nein|Nein|Nein|Nein|Ja|
 
-## <a name="costing-methods-for-types-of-items" />Kalkulationsmethoden für Artikeltypen
+## <a name="costing-methods-for-types-of-items"></a>Kalkulationsmethoden für Artikeltypen
 Wenn Sie Lagerbuchungen vornehmen, werden die Mengen- und Wertänderungen des Bestands in den Artikelposten bzw. Wertposten erfasst. 
 
 Für Lagerartikel werden die Kosten im Feld **Einstandsbetrag (tatsächl.)** auf der Seite **Wertposten** erfasst und bei der Abstimmung mit der Finanzbuchhaltung werden die Kosten im Feld **Gebuchte Lagerregulierung** angezeigt. Weitere Informationen finden Sie unter [Designdetails: Bestandskosten](design-details-inventory-costing.md).
 
 Für Nicht-Bestands- und Serviceartikel werden die Kosten im Feld **Einst.-Betr. (lagerwertunabh.)** auf der Seite **Wertposten** erfasst. Für Nicht-Bestands- und Serviceartikel werden die Kosten in den Verkaufs-, Montage- und Produktionsbelegen und -buchungsblättern angegeben. Die Standardkosten können im Feld **Einstandspreis** auf den Seiten **Artikelkarte** und **Lagerhaltungsdaten** angegeben werden. Die Kosten für diese Arten von Artikeln werden nicht mit der Finanzbuchhaltung abgeglichen. 
 
-## <a name="catalog-and-service-items" />Katalog- und Serviceartikel
+## <a name="catalog-and-service-items"></a>Katalog- und Serviceartikel
 Sie können Ihren Debitoren bestimmte Artikel als Dienstleistung anbieten, die Sie nicht im Lager verwalten möchten, bis Sie den Verkauf sie starten. Katalogelemente sollen nicht mit regulären Artikel der Art Kein Bestand verwechselt werden. Weitere Informationen finden Sie unter [Arbeiten mit Katalogelementen](inventory-how-work-nonstock-items.md).
 
 Die Artikel der Debitoren, die Sie im Service, wie z. B Drucker anbieten, werden Serviceartikel genannt. Serviceartikel haben nichts mit regulärem oder Katalogelementen zu tun. Aber Servicekomponenten können normale Artikel sein. Weitere Informationen finden Sie unter [Serviceartikelkomponenten und Serviceartikel einrichten](service-how-setup-service-items.md).
 
-## <a name="see-also" />Siehe auch
+## <a name="see-also"></a>Siehe auch
 [Neue Artikel registrieren](inventory-how-register-new-items.md)  
 [Bestand einrichten](inventory-setup-inventory.md)  
 [Verwalten der Bestandsregulierung](finance-manage-inventory-costs.md)  

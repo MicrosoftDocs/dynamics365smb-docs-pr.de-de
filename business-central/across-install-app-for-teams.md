@@ -11,7 +11,7 @@ ms.date: 04/12/2021
 ms.author: jswymer
 ---
 
-# <a name="install-the--app-for-microsoft-teams" />Die App [!INCLUDE [prod_short](includes/prod_short.md)] für Microsoft Teams installieren
+# <a name="install-the--app-for-microsoft-teams"></a>Die App [!INCLUDE [prod_short](includes/prod_short.md)] für Microsoft Teams installieren
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
@@ -20,7 +20,7 @@ In diesem Artikel erfahren Sie, wie Sie die [!INCLUDE [prod_short](includes/prod
 > [!NOTE]
 > Möglicherweise hat Ihr Administrator festgelegt, dass die App automatisch für Sie installiert wird. Um zu überprüfen, ob die App installiert ist, öffnen Sie Teams und wählen Sie dann **Apps**. Suchen Sie nach **Business Central** und wählen Sie sie aus, wenn Sie sie finden. Wenn Sie **Öffnen** auf der Seite **Business Central** sehen, ist die App bereits installiert.  
 
-## <a name="prerequisites" />Voraussetzungen
+## <a name="prerequisites"></a>Voraussetzungen
 
 - Ein [!INCLUDE [prod_short](includes/prod_short.md)]-Online-Benutzerkonto ist erforderlich für [!INCLUDE [prod_short](includes/prod_short.md)]-App für Teams.
 
@@ -30,7 +30,7 @@ In diesem Artikel erfahren Sie, wie Sie die [!INCLUDE [prod_short](includes/prod
 
 - Die Richtlinien Ihres Unternehmens müssen es Ihnen ermöglichen, Apps in Microsoft Teams zu installieren.
 
-## <a name="add-the-business-central-app-to-teams" />Die Business Central-App zu Teams hinzufügen
+## <a name="add-the-business-central-app-to-teams"></a>Die Business Central-App zu Teams hinzufügen
 
 Es gibt drei Möglichkeiten, die Business Central-App zu installieren:
 
@@ -67,11 +67,11 @@ Diese Option ist der schnellste Weg zur Installation der App.
 > [!NOTE]
 > Bei beiden Optionen werden Sie möglicherweise aufgefordert, sich bei [!INCLUDE [prod_short](includes/prod_short.md)] anzumelden. Wählen Sie den Link **Anmelden** aus, klicken Sie auf den Link, und befolgen Sie die Anweisungen, um den Anmeldenamen und das Kennwort für [!INCLUDE [prod_short](includes/prod_short.md)] einzugeben.
 
-## <a name="next-step" />Nächster Schritt
+## <a name="next-step"></a>Nächster Schritt
 
 Sie können die App jetzt in Teams verwenden, um nach Kontakten zu suchen oder Business Central-Datensätze zu teilen. Weitere Informationen finden Sie unter [Suchen nach Debitoren, Kreditoren oder anderen Kontakten über Microsoft Teams](across-search-contacts-teams.md) und unter [Datensätze in Microsoft Teams teilen](across-working-with-teams.md).
 
-## <a name="see-also" />Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Übersicht über die Integration von Business Central und Microsoft Teams](across-teams-overview.md)  
 [Teams FAQ](teams-faq.md)  

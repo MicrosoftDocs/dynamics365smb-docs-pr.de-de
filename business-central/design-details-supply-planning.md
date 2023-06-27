@@ -9,7 +9,7 @@ ms.date: 02/23/2023
 ms.custom: bap-template
 ms.search.keywords: 'design, supply, planning, reordering, replenishment'
 ---
-# <a name="design-details-supply-planning" />Designdetails: Vorratsplanung
+# <a name="design-details-supply-planning"></a>Designdetails: Vorratsplanung
 
 Dieser Abschnitt stellt einen detaillierten technischen Einblick in die Konzepte und Prinzipien in den Beschaffungsplanungsfunktionen in [!INCLUDE[prod_short](includes/prod_short.md)] verwendet werden.  
 
@@ -20,7 +20,7 @@ Die Artikel erklären, wie das Planungssystem funktioniert:
 * Beschreibt die Logik des zentralen Mechanismus, des Angebotsausgleichs
 * Erläutern, wie Nachbestellungsrichtlinien bei der Bestandsplanung verwendet werden  
 
-## <a name="in-this-section" />In diesem Abschnitt
+## <a name="in-this-section"></a>In diesem Abschnitt
 
 [Designdetails: Zentrale Konzepte des Planungssystems](design-details-central-concepts-of-the-planning-system.md)  
 [Designdetails: Reservierung, Auftragsnachverfolgung und Aktionsmeldungen](design-details-reservation-order-tracking-and-action-messaging.md)  

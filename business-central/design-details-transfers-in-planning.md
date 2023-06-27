@@ -9,7 +9,7 @@ ms.date: 02/22/2023
 ms.custom: bap-template
 ms.search.keywords: 'design, transfer, sku, locations, warehouse'
 ---
-# <a name="design-details-transfers-in-planning" />Designdetails: Umlagerungen in der Planung
+# <a name="design-details-transfers-in-planning"></a>Designdetails: Umlagerungen in der Planung
 
 Umlagerungsaufträge sind ebenfalls eine Versorgungsquelle beim Arbeiten auf der Lagerhaltungsdatenebene. Wenn Sie "Mehrere Lagerorte (Lager)" verwenden, kann die Beschaffungsmethode auf Transfer festgelegt werden, damit der Lagerort aufgefüllt wird, indem Waren an einem anderen Lagerort übertragen werden. In einer Situation mit mehreren Lagern haben Sie möglicherweise eine Kette von Umlagerungen. Die Lieferung an den GRÜNEN Lagerort wird von GELB umgelagert, die Lieferung an den GELBEN Lagerort wird von ROT umgelagert und so weiter. Am Beginn der Kette steht ein Beschaffungssystem von **Fertigungsauftrag** oder **Einkauf**.  
 
@@ -27,7 +27,7 @@ Wenn sich die Nachfrage ändert, kann dies einen Welleneffekt in der Kette verur
 
 ![Beispiel für Vorrat/Nachfrage-Gleichgewicht bei Transfers.](media/nav_app_supply_planning_7_transfers2.png "Beispiel für den Saldo zwischen Angebot und Nachfrage bei Umlagerungen")  
 
-## <a name="why-is-a-transfer-a-special-case" />Warum ist eine Umlagerung ein spezieller Fall?
+## <a name="why-is-a-transfer-a-special-case"></a>Warum ist eine Umlagerung ein spezieller Fall?
 
 Umlagerungsaufträge ähneln anderen Aufträgen wie Einkaufs- und Fertigungsaufträge. Hinter den Kulissen sind sie jedoch vollkommen anders.  
 
@@ -37,7 +37,7 @@ Ein Unterschied besteht darin, dass eine Umlagerungszeile sowohl Nachfrage als a
 
 Wenn [!INCLUDE [prod_short](includes/prod_short.md)] die Zugangsseite der Umlagerung ändert, muss es eine ähnliche Änderung der Bedarfsseite vornehmen.  
 
-## <a name="transfers-are-dependent-demand" />Umlagerungen sind abhängiger Bedarf
+## <a name="transfers-are-dependent-demand"></a>Umlagerungen sind abhängiger Bedarf
 
 Die Bedarfs- und Angebotsbeziehung ähnelt Komponenten in Fertigungsauftragszeilen. Der Unterschied besteht darin, dass sich Komponenten in Fertigungsauftragszeilen auf der nächsten Planungsebene befinden und einen anderen Artikel haben. Die beiden Teile der Umlagerung befinden sich auf derselben Ebene für denselben Artikel.  
 
@@ -47,7 +47,7 @@ Außer wenn die Planungsflexibilität „Keine“ ist, sollte eine Umlagerungsze
 
 Im Planungsverfahren sollte der Umlagerungsbedarf nur berücksichtigt werden, nachdem das Planungssystem die Bedarfsseite verarbeitet hat. Vor dieser Verarbeitung ist der tatsächliche Bedarf nicht bekannt. Bei Umlagerungsaufträgen ist die Reihenfolge der Änderungen wichtig.  
 
-## <a name="planning-sequence" />Planungssequenz
+## <a name="planning-sequence"></a>Planungssequenz
 
 Die folgende Abbildung zeigt ein Beispiel für eine Umlagerungskette.  
 
@@ -59,7 +59,7 @@ In diesem Beispiel beginnt das Planungssystem mit dem Debitorenbedarf und arbeit
 
 ![Nachschubplanung mit Transfers.](media/nav_app_supply_planning_7_transfers5.png "Beschaffungsplanung mit Umlagerungen")  
 
-## <a name="transfer-level-code" />Umlagerungsebenencode
+## <a name="transfer-level-code"></a>Umlagerungsebenencode
 
 Der Code der Umlagerungsebene der SKU bestimmt die Sequenz, in der das Planungssystem die Lagerorte verarbeitet.  
 
@@ -71,7 +71,7 @@ Der Umlagerungsebenencode ist 0 für SKUs mit einer Beschaffungsmethode Einkaufs
 
 Bei der Aktualisierung einer SKU, erkennt das Planungssystem, ob Beschaffungsmethoden für SKUs Zirkelverweisen aufweisen.  
 
-## <a name="planning-transfers-without-sku" />Umlagerungen ohne SKU planen
+## <a name="planning-transfers-without-sku"></a>Umlagerungen ohne SKU planen
 
 Für weniger fortgeschrittene Lagereinrichtungen können Sie Lagerorte verwenden und manuelle Umlagerungen zwischen Lagerorten vornehmen, auch wenn Sie keine SKUs verwenden. Beispielsweise könnte die Umlagerung einen Kundenauftrag an diesem Lagerort abdecken. Das Planungssystem reagiert auf Änderungen im Bedarf.  
 
@@ -81,7 +81,7 @@ Bei manuellen Übertragungen analysiert das Planungssystem Umlagerungsaufträge 
 
 Bei mehreren Umlagerungen zu einem Lagerort definiert der erste Umlagerungsauftrag die Planungsrichtung. Umlagerungen, die in die entgegengesetzte Richtung werden storniert.  
 
-## <a name="changing-quantity-with-reservations" />Ändern der Menge mit Reservierungen
+## <a name="changing-quantity-with-reservations"></a>Ändern der Menge mit Reservierungen
 
 Beim Ändern der Mengen eines Vorrats berücksichtigt das Planungssystem Reservierungen. Die reservierte Menge stellt die untere Grenze dar, um wie viel das Angebot reduziert werden kann.  
 
@@ -96,7 +96,7 @@ Auch wenn auf der Eingangsseite möglicherweise ein Überschuss vorhanden ist, k
 
 ![Reservierungen in der Transferplanung.](media/nav_app_supply_planning_7_transfers8.png "Reservierungen in der Umlagerungsplanung")  
 
-## <a name="changing-quantity-in-a-transfer-chain" />Ändern der Menge in einer Umlagerungskette
+## <a name="changing-quantity-in-a-transfer-chain"></a>Ändern der Menge in einer Umlagerungskette
 
 Hier ist ein Beispiel dafür, was passiert, wenn Sie eine Menge in einer Umlagerung ändern.
 
@@ -118,7 +118,7 @@ Wenn das Planungssystem erneut ausgeführt wird, sollte es überschüssigen Vorr
 
 Die ROSA-ROTE Umlagerung wird auf 22 reduziert. Der eingehende Teil der BLUE-PINK-Umlagerung ist nicht reserviert, der ausgehende Teil jedoch. Die Reservierung bedeutet, dass Sie die Menge nicht unter 27 reduzieren können.  
 
-## <a name="lead-time-calculation" />Beschaffungszeit
+## <a name="lead-time-calculation"></a>Beschaffungszeit
 
 Wenn das Fälligkeitsdatum eines Umlagerungsauftrags berechnet wird, werden verschiedene Arten von Beschaffungszeit berücksichtigt.  
 
@@ -149,7 +149,7 @@ Das Beispiel zeigt die folgenden Berechnungen:
 * Startzeit + Transportzeit = Endzeit  
 * Enddatum + Eingehende Lagerdurchlaufzeit = Wareneingangsdatum  
 
-## <a name="safety-lead-time" />Sicherheitsdurchlaufzeit
+## <a name="safety-lead-time"></a>Sicherheitsdurchlaufzeit
 
 Das Feld **Vorg. Sich.-Zuschl. Besch.-Zt.** auf der Seite **Fertigungseinrichtung** und das zugehörige Feld **Sicherh.-Zuschl. Beschaff.-Zt.** auf der Seite **Artikelkarte** werden in der Berechnung eines Umlagerungsauftrags nicht berücksichtigt. Die Sicherheitsdurchlaufzeit beeinflusst jedoch den Gesamtplan. Die Sicherheitsdurchlaufzeit wirkt sich auf den Beschaffungsauftrag (Einkauf oder Produktion) am Anfang der Transportkette aus. Das ist der Punkt, an dem die Artikel an den Lagerort gebracht wurden, von dem sie umgelagert werden.  
 
@@ -159,7 +159,7 @@ In der FA-Zeile gilt: Enddatum + Sicherheitszuschlag Beschaffungszeit + Eingehen
 
 In der Bestellzeile gilt: Geplantes Wareneingangsdatum + Sicherheitszuschlag Beschaffungszeit + Eingehende Lagerdurchlaufzeit = Erwartetes Wareneingangsdatum.  
 
-## <a name="reschedule" />Neu planen
+## <a name="reschedule"></a>Neu planen
 
 Wenn Sie eine Umlagerungszeile neu planen, findet das Planungssystem den ausgehenden Teil und ändert das Datum/ die Zeit.
 
@@ -170,11 +170,11 @@ Wenn Sie eine Umlagerungszeile neu planen, findet das Planungssystem den ausgehe
 
 Wenn Sie das Fälligkeitsdatum auf einer Umlagerungszeile ändern, die Beschaffungszeit berechnet werden, um die ausgehende Seite der Übertragung zu aktualisieren.  
 
-## <a name="serial-and-lot-numbers-in-transfer-chains" />Serien und Chargennummern in Umlagerungsketten
+## <a name="serial-and-lot-numbers-in-transfer-chains"></a>Serien und Chargennummern in Umlagerungsketten
 
 Wenn der Bedarf Serien- oder Chargennummern verwendet und Sie das Planungsmodul ausführen, erstellt es Umlagerungsaufträge. Weitere Informationen zu diesem Konzept finden Sie unter Artikel-Attribute. Werden jedoch Serien- oder Chargennummern vom Bedarf entfernt, verwenden die Umlagerungsaufträge noch die Serien- oder Chargennummern und die Planung ignoriert sie (nicht gelöscht).  
 
-## <a name="order-to-order-links" />Order-to-Order-Verbindungen
+## <a name="order-to-order-links"></a>Order-to-Order-Verbindungen
 
 In diesem Beispiel wird die BLUE-SKU mit einem Wiederbeschaffungsverfahren **Bestellung** eingerichtet. Für die SKUs PINK und ROT gilt das **Charge-für-Charge**-Wiederbeschaffungsverfahren. Das Anlegen eines Kundenauftrags für 27 am Lagerort ROT führt zu einer Kette von Umbuchungen. Die letzte Umbuchung erfolgt am Lagerort BLAU und ist verbindlich reserviert. In diesem Beispiel sind die Reservierungen nicht harte Reservierungen, die vom Planer am PINK-Standort Lagerort erstellt wurden. Das Planungssystem erstellt die Bindungen. Die wichtige Unterschied besteht darin, dass das Planungssystem die letzteren ändern kann.  
 
@@ -182,7 +182,7 @@ In diesem Beispiel wird die BLUE-SKU mit einem Wiederbeschaffungsverfahren **Bes
 
 Wenn der Bedarf von 27 zu 22 geändert wird, senkt das Planungssystem die Menge durch die Kette hindurch. Auch die verbindliche Reservierung reduziert sich.  
 
-## <a name="see-also" />Weitere Informationen
+## <a name="see-also"></a>Weitere Informationen
 
 [Designdetails: Planungsparameter](design-details-planning-parameters.md)   
 [Designdetails: Planungs-Zuordnungstabelle](design-details-planning-assignment-table.md)   

@@ -11,13 +11,13 @@ ms.search.form: '436, 437, 442, 431, 432, 434'
 ms.date: 02/09/2022
 ms.author: edupont
 ---
-# <a name="send-reminders-of-outstanding-balances" />Senden Sie Mahnungen für ausstehende Salden
+# <a name="send-reminders-of-outstanding-balances"></a>Senden Sie Mahnungen für ausstehende Salden
 
 [!INCLUDE [receivables-reminders](includes/receivables-reminders.md)]
 
-## <a name="see-related-microsoft-training" />Siehe verwandte [Microsoft Schulungen](/training/paths/process-financial-periodic-activities-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/paths/process-financial-periodic-activities-dynamics-365-business-central/)
 
-## <a name="see-also" />Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Einziehen von Restbeträgen](receivables-collect-outstanding-balances.md)  
 [Mehrere Sätze für verzögerte Zahlung festlegen](finance-how-to-set-up-multiple-interest-rates.md)  

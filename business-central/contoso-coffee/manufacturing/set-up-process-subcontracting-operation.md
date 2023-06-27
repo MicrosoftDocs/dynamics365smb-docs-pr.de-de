@@ -8,17 +8,17 @@ author: edupont04
 ms.author: andreipa
 ---
 
-# <a name="set-up-and-process-a-subcontracting-operation" />Fremdarbeitsvorgang einrichten und verarbeiten
+# <a name="set-up-and-process-a-subcontracting-operation"></a>Fremdarbeitsvorgang einrichten und verarbeiten
 
 In diesem Artikel führen wir Sie durch die Schritte zur Verwendung der Demodaten von Contoso Coffee für Fremdarbeiten.
 
-## <a name="scenario" />Szenario
+## <a name="scenario"></a>Szenario
 
 Sie sind der Produktionsplaner bei Contoso Coffee. Aufgrund von Kapazitätsengpässen planen Sie, einen Subunternehmer mit der Produktion des Artikels **SP-SCM1009, Airpot** zu beauftragen.
 
 Hier erstellen Sie mit Arbeitsplan – SP-SCM1009-SUB-2 einen neuen freigegebenen Produktionsauftrag für 12 Einheiten des Artikels SP-SCM1009, Airpot. Verwenden Sie das Unterauftragsarbeitsblatt, um eine Bestellung für die Produktion zu generieren, und schließen Sie dann den Vorgang ab, indem Sie die Bestellung erhalten und in Rechnung stellen.
 
-## <a name="steps" />Schritte
+## <a name="steps"></a>Schritte
 
 1. Erstellen Sie einen neuen freigegebenen Produktionsauftrag für 12 Einheiten des Artikels SP-SCM1009, Airpot.
 
@@ -73,6 +73,6 @@ Hier erstellen Sie mit Arbeitsplan – SP-SCM1009-SUB-2 einen neuen freigegebene
 
 Die Ausgabe des Artikels SP-SCM1009 Airpot ist jetzt registriert.
 
-## <a name="see-also" />Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Einführung in Contoso Coffee Demo Data](../contoso-coffee-intro.md)  

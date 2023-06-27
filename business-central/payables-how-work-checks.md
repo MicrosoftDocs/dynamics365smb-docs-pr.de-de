@@ -11,7 +11,7 @@ ms.search.form: '256, 404,'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="make-check-payments" />Zahlung per Scheck machen
+# <a name="make-check-payments"></a>Zahlung per Scheck machen
 
 Sie können elektronischerund und manuelle Schecks ausgeben in [!INCLUDE[prod_short](includes/prod_short.md)]. Bei beiden Verfahren erfolgt die Ausstellung von Schecks an Kreditoren über das Zahlungsausgangs-Buch.-Blatt. Sie können auch Schecks annullieren und Scheckposten anzeigen.
 
@@ -30,7 +30,7 @@ Sie können mit zwei Arten von Schecks bezahlen Für beide Arten müssen **Bal. 
 
 Sie können bis 10 Rechnungen auf einer Seite für einen Scheckabschnitt drucken. Wenn ein Häkchen in mehr als 10 Rechnungen angewendet wird, wenn Sie den Abschnitt drucken, stornieren wir den Scheck auf der ersten Seite und drucken den Begriff UNGÜLTIG auf den Scheck. Wir drucken dann die restlichen Rechnungen und den gesamten Scheckbetrags auf der zweiten Seite.
 
-## <a name="to-pay-a-vendor-invoice-with-a-computer-check" />Um Kreditorenrechnungen mit einem Computer Scheck zu bezahlen
+## <a name="to-pay-a-vendor-invoice-with-a-computer-check"></a>Um Kreditorenrechnungen mit einem Computer Scheck zu bezahlen
 
 Nachfolgend wird erläutert, wie Sie einen Kreditor mit Schecks bezahlen. Die Schritte sind ähnlich wie bei der Rückerstattung eines Debitors per Scheck.
 
@@ -50,13 +50,13 @@ Völlig ausgeglichene Kreditorenposten und Bankposten werden erstellt.
 > [!NOTE]  
 > Wenn Sie Schecks in mehreren Währungen von mehreren Bankkonten aus ausdrucken und bezahlen möchten, muss die Stapelverarbeitung **Scheck drucken** für jede einzelne Währung ausgeführt und das entsprechende Bankkonto muss angegeben werden.
 
-## <a name="to-cancel-printed-checks-that-are-not-posted" />Um gedruckte Scheck die nicht gebucht wurden zu stornieren
+## <a name="to-cancel-printed-checks-that-are-not-posted"></a>Um gedruckte Scheck die nicht gebucht wurden zu stornieren
 
 Sie können nicht gebuchte Schecks stornieren, nachdem sie gedruckt wurden, indem Sie die Aktion **Scheck annullieren** auf der Seite **Zahlungsausgangs Buch.-Blatt** verwenden.
 
 1. Wählen Sie auf der Seite **Zahlungsausgangs Buch.-Blatt** **Scheck annullieren** aus, und wählen Sie aus, welche Prüfungen durchgeführt zum stornieren mit den Schecks durchgeführt werden.
 
-## <a name="to-void-checks" />Annullieren von Schecks
+## <a name="to-void-checks"></a>Annullieren von Schecks
 
 Wenn Scheckzahlung gebucht wurden, können Sie Schecks aus den resultierenden Bankposten nur stornieren (annulieren).
 
@@ -69,15 +69,15 @@ Wenn Scheckzahlung gebucht wurden, können Sie Schecks aus den resultierenden Ba
 4. Wählen das Kontrollkästchen **Scheck nur annullieren**.
 5. Wählen Sie die Schaltfläche **OK** aus.
 
-## <a name="to-view-a-summary-of-posted-checks" />Um eine Zusammenfassung der gebuchten Schecks anzuzeigen
+## <a name="to-view-a-summary-of-posted-checks"></a>Um eine Zusammenfassung der gebuchten Schecks anzuzeigen
 
 Wenn Sie gebuchte Schecks überprüfen möchten, zum Beispiel, um Mehrfachverbindungsschecks für einen Kreditor zu überprüfen, können Sie **Bankkonto - Scheckdetails** verwenden.
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Bankkonto – Scheckdetails** ein, und wählen Sie dann den zugehörigen Link.
 2. Legen Sie Filter fest und wählen Sie dann die Schaltfläche **Vorschau** aus.
 
-## <a name="see-related-microsoft-training" />Siehe verwandte [Microsoft Schulungen](/training/modules/use-checks-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/use-checks-dynamics-365-business-central/)
 
-## <a name="see-also" />Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Zahlungen vornehmen](payables-make-payments.md)  
 [Verwalten von Verbindlichkeiten](payables-manage-payables.md)  

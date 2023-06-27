@@ -11,7 +11,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ---
 
-# <a name="manually-synchronize-table-mappings" />Synchronisieren Sie Tabellenzuordnungen manuell
+# <a name="manually-synchronize-table-mappings"></a>Synchronisieren Sie Tabellenzuordnungen manuell
 
 
 Eine Integrationstabellenzuordnung ordnet eine [!INCLUDE[prod_short](includes/prod_short.md)]-Tabelle (Datensatztyp), beispielsweise Debitor, einer [!INCLUDE[prod_short](includes/cds_long_md.md)]-Tabelle wie einem Konto zu. Die Synchronisierung einer Integrationstabellenzuordnung ermöglicht es Ihnen, Daten in allen Datensätzen der [!INCLUDE[prod_short](includes/prod_short.md)]-Tabelle und der [!INCLUDE[prod_short](includes/cds_long_md.md)]-Tabelle, die gekoppelt sind, zu synchronisieren. Je nach Konfiguration der Tabellenzuordnung kann die Synchronisierung zudem neue Datensätze in der Ziellösung für ungekoppelte Datensätze in der Quelle erstellen und koppeln.  
@@ -20,7 +20,7 @@ Manuelle Synchronisation von Integrationstabellenzuordnungen kann bei der anfän
 
 Dieser Artikel beschreibt drei Methoden für manuelle Synchronisierung von Integrationstabellenzuordnungen. Jede Methode bietet eine andere Stufe der Synchronisierung.
 
-## <a name="run-a-full-synchronization" />Ausführen einer vollständigen Synchronisierung
+## <a name="run-a-full-synchronization"></a>Ausführen einer vollständigen Synchronisierung
 Eine vollständige Synchronisierung führt alle Standardintegrationssynchronisierungsprojekte für die Synchronisierung von [!INCLUDE[prod_short](includes/prod_short.md)]-Datensätzen und [!INCLUDE[prod_short](includes/cds_long_md.md)]-Tabellen aus, wie auf der Seite **Integrationstabellenzuordnungen** definiert. 
 
 Eine vollständige Synchronisierung führt die folgenden Arbeitsgänge für [!INCLUDE[prod_short](includes/prod_short.md)] oder [!INCLUDE[prod_short](includes/cds_long_md.md)]-Datensätze aus, und zwar:
@@ -36,7 +36,7 @@ Ob und wo eine Zeile erstellt wird, hängt von der Synchronisierungsrichtung ab.
 > [!IMPORTANT]  
 >  In der Regel nutzen Sie die vollständige Synchronisierung nur, wenn Sie erstmalig die Integration zwischen [!INCLUDE[prod_short](includes/prod_short.md)] und [!INCLUDE[prod_short](includes/cds_long_md.md)] einrichten und nur eine Lösung Daten enthält, die Sie zur anderen Lösung kopieren möchten. Eine vollständige Synchronisierung kann in einer Demonstrationsumgebung hilfreich sein. Da die vollständige Synchronisierung automatisch Datensätze zwischen den Lösungen erstellt, ist es schneller, zwischen Datensätzen mit der Synchronisierungsdatenarbeit zu beginnen. Andererseits sollten Sie nur dann eine vollständige Synchronisierung ausführen, wenn Sie eine Zeile in [!INCLUDE[prod_short](includes/prod_short.md)] für jede Zeile in [!INCLUDE[prod_short](includes/cds_long_md.md)] für eine bestimmte Tabellenzuordnungen wünschen. Andernfalls können Sie unerwünschte oder doppelten Datensätze in [!INCLUDE[prod_short](includes/cds_long_md.md)] oder [!INCLUDE[prod_short](includes/prod_short.md)] erhalten.  
 
-### <a name="to-run-a-full-synchronization" />So führen Sie eine vollständige Synchronisierung aus
+### <a name="to-run-a-full-synchronization"></a>So führen Sie eine vollständige Synchronisierung aus
 1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Dataverse Einrichtung der Verbindung** ein und wählen Sie dann den zugehörigen Link.
 
     > [!NOTE]
@@ -51,7 +51,7 @@ Ob und wo eine Zeile erstellt wird, hängt von der Synchronisierungsrichtung ab.
 
 Sie können die Ergebnisse der vollständigen Synchronisierung auf der Seite **Integrationssynchronisierungsprojekte** anzeigen. Weitere Informationen finden Sie unter [Den Status einer Synchronisierung anzeigen](admin-how-to-view-synchronization-status.md).  
 
-## <a name="synchronizing-all-modified-records" />Synchronisierung aller geänderten Datensätze
+## <a name="synchronizing-all-modified-records"></a>Synchronisierung aller geänderten Datensätze
 Sie können die Seite **Common Data Service-Verbindungseinrichtung** verwenden, um Änderungen an den Daten in allen Integrationstabellenzuordnungen zu synchronisieren. Dies ist einer vollständigen Synchronisierung ähnlich. Es werden Daten in allen gekoppelten Datensätzen in den [!INCLUDE[prod_short](includes/prod_short.md)]-Tabellen und [!INCLUDE[prod_short](includes/cds_long_md.md)]-Tabellen synchronisiert, die in den Tabellenzuordnungen definiert werden. Standardmäßig werden nur Daten synchronisiert, die seit der letzten Synchronisierung geändert wurden. Synchronisierungsjobs synchronisieren Tabellenzuordnungen in der folgenden Reihenfolge, um Kopplungsabhängigkeiten zwischen den Tabellen zu vermeiden:  
 
 1.  WÄHRUNG  
@@ -65,18 +65,18 @@ Sie können die Ergebnisse der Synchronisierung auf der Seite **Integrationssync
 > [!TIP]  
 >  Indem die Integrationstabelle im Voraus geändert wird, können Sie die Synchronisation mit Filtern erstellen, um zu steuern, welche Datensätze synchronisiert werden, oder sie so zuzuordnen, dass neue Datensätze in der Ziellösung für nicht gekoppelte Datensätze oder Zeilen in der Quelle erstellt werden. Weitere Informationen finden Sie unter [Tabellenzuordnungen für die Synchronisierung ändern](admin-how-to-modify-table-mappings-for-synchronization.md).
 
-### <a name="to-synchronize-data-for-all-tables" />So synchronisieren Sie Daten für alle Tabellen
+### <a name="to-synchronize-data-for-all-tables"></a>So synchronisieren Sie Daten für alle Tabellen
 1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Microsoft Dynamics 365 Sales Connection Einrichtung** ein und wählen Sie dann den zugehörigen Link.
 2.  Wählen Sie die Aktion **Bearbeitete Datensätze synchronisieren** und dann die Schaltfläche **Ja** aus.  
 
-## <a name="synchronize-individual-table-mappings" />Synchronisieren einzelner Tabellenzuordnungen
+## <a name="synchronize-individual-table-mappings"></a>Synchronisieren einzelner Tabellenzuordnungen
 Sie können die Seite **Integrationstabellenzuordnungen** verwenden, um das Synchronisationsprojekt für bestimmte Tabellenzuordnungen auszuführen. Dadurch werden Daten für alle gekoppelten Datensätze und Zeilen in der [!INCLUDE[prod_short](includes/prod_short.md)]-Tabelle und der [!INCLUDE[prod_short](includes/cds_long_md.md)]-Tabelle synchronisiert, die von der Tabellenzuordnung definiert werden. Standardmäßig werden nur Daten synchronisiert, die seit der letzten Synchronisierung geändert wurden.  
 
-### <a name="to-synchronize-records-of-an-integration-table-mapping" />So synchronisieren Sie Datensätze einer Integrationstabellenzuordnung
+### <a name="to-synchronize-records-of-an-integration-table-mapping"></a>So synchronisieren Sie Datensätze einer Integrationstabellenzuordnung
 1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Integrationstabellenzuordnungen** ein und wählen Sie dann den zugehörigen Link.
 2.  Wählen Sie die Aktion **Bearbeitete Datensätze synchronisieren** und dann die Schaltfläche **Ja** aus.  
 
-## <a name="see-also" />Siehe auch
+## <a name="see-also"></a>Siehe auch
 [Synchronisieren von Business Central und Dynamics 365 Sales](admin-synchronizing-business-central-and-sales.md)   
 [Einrichten von Benutzerkonten für die Integration mit Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md)   
 

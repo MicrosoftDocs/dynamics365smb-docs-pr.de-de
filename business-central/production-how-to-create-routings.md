@@ -10,7 +10,7 @@ ms.search.form: '99000764, 99000765, 99000766, 99000767, 99000794, 99000796, 990
 ms.date: 06/22/2021
 ms.author: edupont
 ---
-# <a name="create-routings" />Routings erstellen
+# <a name="create-routings"></a>Routings erstellen
 
 Produktionsbetriebe verwenden Arbeitspläne, um den Produktionsablauf zu definieren.
 
@@ -23,7 +23,7 @@ Bevor Sie einen Arbeitsplan erstellen können, muss Folgendes verfügbar sein:
 - Artikelkarten wurden für übergeordnete Artikel erstellt, die an der Fertigung teilnehmen. Weitere Informationen finden Sie unter [Neue Artikel registrieren](inventory-how-register-new-items.md).
 - Die Ressourcen sind eingerichtet. Weitere Informationen finden Sie unter [Einrichten von Arbeitsplatzgruppen und Arbeitsplätzen](production-how-to-set-up-work-and-machine-centers.md)
 
-## <a name="to-create-a-routing" />So erstellen Sie ein Routing
+## <a name="to-create-a-routing"></a>So erstellen Sie ein Routing
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Arbeitspläne** ein und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die Aktion **Neu**.  
@@ -51,7 +51,7 @@ Bevor Sie einen Arbeitsplan erstellen können, muss Folgendes verfügbar sein:
 > [!NOTE]  
 > Denken Sie auch daran, den Einstandspreis für den Artikel über die Registerkarte **Artikel** neu zu berechnen: Wählen Sie auf der Registerkarte Navigieren in der Gruppe Artikel die Option **Fertigung** und legen Sie dann Stückl. **Einst.-Preis berechnen** auf **Alle Ebenen** fest.  
 
-## <a name="to-create-routing-links" />So erstellen Sie einen Arbeitsplanlink
+## <a name="to-create-routing-links"></a>So erstellen Sie einen Arbeitsplanlink
 
 Sie können Arbeitsplanverbindungen von Komponenten mit speziellen Vorgängen erstellen, um deren Zuordnung auch dann beizubehalten, wenn die Fertigungsstückliste oder der Arbeitsplan geändert werden. Außerdem werden Buchungen von Komponenten zeitlich optimiert, und zwar zu Beginn des spezifischen verknüpften Arbeitsgangs und nicht bei Freigabe des Gesamtauftrags. Weitere Informationen finden Sie unter [Komponenten entsprechend dem Arbeitsgangs-Ausstoß leeren](production-how-to-flush-components-according-to-operation-output.md).  
 
@@ -85,7 +85,7 @@ Ein weiterer wichtiger Vorteil besteht darin, dass verknüpfte Komponenten und A
 
 Die ausgewählten Komponenten werden nun mit den ausgewählten Arbeitsgängen verknüpft, wenn ein Fertigungsauftrag anhand der betreffenden Fertigungsstückliste und des betreffenden Arbeitsplans erstellt oder aktualisiert wird. Dies wird auf der Seite **Herstellungsauftragskomponenten** unter im Herstellungsauftrag sichtbar, und von dort können Sie definierte Verbindungscodes jederzeit entfernen und hinzufügen.
 
-## <a name="to-assign-personnel-tools-and-quality-measures-to-routing-operations" />Personal, Werkzeug und Prüfmaßnahmen den Arbeitsplanvorgängen zuweisen
+## <a name="to-assign-personnel-tools-and-quality-measures-to-routing-operations"></a>Personal, Werkzeug und Prüfmaßnahmen den Arbeitsplanvorgängen zuweisen
 
 Wenn Sie Personal mit besonderen Fähigkeiten, speziellem Wissen oder speziellen Qualifikationen für diesen Arbeitsgang benötigen, können Sie dieses Personal hier zuordnen. Darüber hinaus können Sie Werkzeugen Qualitätsanforderungen dem Arbeitsgang zuweisen. Hier wird beschrieben, wie Personal zugewiesen wird. Die Schritte sind für andere Arten Arbeitsgangsinformationen ähnlich.
 
@@ -95,7 +95,7 @@ Wenn Sie Personal mit besonderen Fähigkeiten, speziellem Wissen oder speziellen
 4. Füllen Sie die Felder auf der Seite **Arbeitsgang Personal** aus.  
 5. Wählen Sie die Schaltfläche **OK**, um die Seite zu verlassen. Die eingegebenen Werte werden kopiert und dem Arbeitsgang zugeordnet.  
 
-## <a name="to-create-a-new-versions-of-a-routing" />Neue Arbeitsplanversionen erzeugen
+## <a name="to-create-a-new-versions-of-a-routing"></a>Neue Arbeitsplanversionen erzeugen
 
 Das Versionsprinzip ermöglicht Ihnen, mehrere Versionen eines Arbeitsplans zu verwalten. Die Struktur der Arbeitsplanversion entspricht der Struktur der Arbeitspläne, bestehend aus dem Arbeitsplanversionskopf und den Arbeitsgängen. Der Hauptunterschied wird durch das Startdatum definiert.  
 
@@ -114,7 +114,7 @@ Das Versionsprinzip ermöglicht Ihnen, mehrere Versionen eines Arbeitsplans zu v
 
 Die zeitliche Gültigkeit der Version wird durch das **Startdatum** bestimmt.  
 
-## <a name="see-also" />Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Fertigungsauftrag erstellen](production-how-to-create-production-boms.md)  
 [Produktion einrichten](production-configure-production-processes.md)  

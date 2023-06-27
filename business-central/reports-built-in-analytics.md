@@ -10,7 +10,7 @@ ms.search.keywords: feature overview
 ms.date: 02/03/2022
 ms.author: edupont
 ---
-# <a name="built-in-analytics" />Integrierte Analysen
+# <a name="built-in-analytics"></a>Integrierte Analysen
 
 [!INCLUDE[prod_short](includes/prod_short.md)] enthält einige Funktionen, die es Ihnen erlauben, Daten in einem aggregierten Formular zu analysieren. Diese Funktionalität ist nützlich, wenn Sie beispielsweise finanzielle Leistungskennzahlen (KPIs) verfolgen oder Finanzberichte in Microsoft Excel analysieren möchten. Unten finden Sie Links, die Ihnen helfen, zu lernen, wie man es verwendet.
 
@@ -23,7 +23,7 @@ ms.author: edupont
 |Analysieren Sie Finanzdaten über mehrere Firmen hinweg | [Finanzdaten von mehreren Firmen konsolidieren](finance-consolidated-company-reporting.md) |
 |Erhalten Sie Insights darüber, welche Berichte die Benutzer verwenden| [Telemetrie der Berichtsnutzung](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)|
 
-## <a name="see-also" />Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Übersicht über Business Intelligence und Reporting](reports-use-reports.md)
 

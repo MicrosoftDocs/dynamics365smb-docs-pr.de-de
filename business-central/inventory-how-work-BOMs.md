@@ -11,11 +11,11 @@ ms.search.form: null
 ms.date: 09/26/2022
 ms.author: a-reishima
 ---
-# <a name="work-with-bills-of-material" />Mit Fertigungsstücklisten arbeiten
+# <a name="work-with-bills-of-material"></a>Mit Fertigungsstücklisten arbeiten
 
 Verwenden Sie Stücklisten (BOMs), um beispielsweise Oberartikel zu strukturieren, die aus anderen Artikeln oder nach Ressourcen oder Arbeitsplätze aus Komponenten montiert oder gefertigt werden müssen.
 
-## <a name="assembly-boms-or-production-boms" />Montagestücklisten oder Fertigungsstücklisten
+## <a name="assembly-boms-or-production-boms"></a>Montagestücklisten oder Fertigungsstücklisten
 
 [!INCLUDE[prod_short](includes/prod_short.md)] unterstützt zwei verschiedene Arten von Stücklisten:
 
@@ -36,7 +36,7 @@ Das Ressourcenkonzept ist in der Produktion weitergehender als in der Montagever
 
 Montageaufträge und Fertigungsaufträge können direkt mit Verkaufsaufträgen verknüpft sein. Sie können jedoch nur Montageaufträge nutzen, um den Endartikel direkt für eine Debitorenanfrage im Verkaufsauftrag anzupassen.
 
-## <a name="see-also" />Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Arbeiten mit Montagestücklisten](assembly-how-work-assembly-boms.md)  
 [Fertigungsauftrag erstellen](production-how-to-create-production-boms.md)  

@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/14/2021
 ms.author: bholtorf
 ---
-# <a name="troubleshooting-synchronization-errors" />Fehlerbehebung bei Synchronisationsfehlern
+# <a name="troubleshooting-synchronization-errors"></a>Fehlerbehebung bei Synchronisationsfehlern
 
 
 Bei der Integration von [!INCLUDE[prod_short](includes/prod_short.md)] mit [!INCLUDE[prod_short](includes/cds_long_md.md)] sind viele bewegliche Teile beteiligt und manchmal laufen die Dinge schief. In diesem Thema werden einige der typischen Fehler aufgeführt, die auftreten, und es werden einige Hinweise zu deren Behebung gegeben.
@@ -32,7 +32,7 @@ Im Folgenden finden Sie einige Tools auf der Seite Fehler bei der Integrationssy
 * Die Aktion **Einträge löschen, die älter als 7 Tage sind** und die Aktion **Alle Einträge löschen** wird die Liste bereinigen. In der Regel verwenden Sie diese Aktionen, nachdem Sie die Ursache eines Fehlers behoben haben, der viele Datensätze betrifft. Vorsicht walten lassen. Durch diese Aktionen werden möglicherweise noch relevante Fehler gelöscht.
 * Die Aktion **Fehleraufrufstapel anzeigen** zeigt Informationen an, die helfen können, die Ursache des Fehlers zu identifizieren. Wenn Sie den Fehler nicht selbst beheben können und sich entscheiden, eine Supportanfrage zu stellen, fügen Sie die Informationen in die Supportanfrage ein.
 
-## <a name="see-also" />Weitere Informationen
+## <a name="see-also"></a>Weitere Informationen
 [Integration in Microsoft Dataverse](admin-prepare-dynamics-365-for-sales-for-integration.md)  
 [Einrichten des Benutzerkontos für die Integration in Microsoft Dataverse](admin-setting-up-integration-with-dynamics-sales.md)  
 [Richten Sie eine Verbindung mit Microsoft Dataverse ein](admin-how-to-set-up-a-dynamics-crm-connection.md)  

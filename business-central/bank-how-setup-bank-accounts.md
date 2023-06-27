@@ -11,7 +11,7 @@ ms.search.form: '370, 371, 372, 373, 375, 423, 424, 425, 426, 1240, 1280'
 ms.date: 01/24/2022
 ms.author: edupont
 ---
-# <a name="set-up-bank-accounts" />Bankkonten festlegen
+# <a name="set-up-bank-accounts"></a>Bankkonten festlegen
 
 Bankkonten in [!INCLUDE[prod_short](includes/prod_short.md)] verwenden Sie, um den Überblick über Ihre Bank-Transaktionen zu behalten. Konten können auf Ihre Mandantenwährung oder eine Fremdwährung lauten. Nachdem Sie Bankkonten eingerichtet haben, können Sie auch Schecks drucken. Die Bankkonten enthalten zusätzliche Funktionen für [Zahlungsabgleich](receivables-apply-payments-auto-reconcile-bank-accounts.md), [Bankabgleich](bank-how-reconcile-bank-accounts-separately.md) und den Import und Export von Bankdateien. Die Bankkonten können auch in Transaktionen in den Allgemeinen Erfassungen einbezogen werden. Jedes Bankkonto ist über die zugewiesene Buchungsgruppe für Bankkonten mit einem Konto im Kontenplan verknüpft. Die Verwendung eines Bankkontos in einer Zahlungstransaktion erstellt automatisch einen Eintrag sowohl auf dem Bankkonto als auch auf dem damit verbundenen Hauptbuch (Sachkonto).  
 
@@ -81,7 +81,7 @@ Sehen Sie im Video unten die grundlegenden Schritte zum Festlegen eines Bankkont
 > [!WARNING]
 > Einige Felder können sensible Daten enthalten, wie z.B. die Felder **BLZ**, **Bankkontonr.**, **SWIFT Code**, und **IBAN Code**. Erfahren Sie mehr unter [Überwachung sensibler Felder](across-log-changes.md#monitoring-sensitive-fields).
 
-## <a name="to-set-up-bank-accounts" />Bankkonten einrichten:
+## <a name="to-set-up-bank-accounts"></a>Bankkonten einrichten:
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?"). Symbol. Geben Sie **Bankkonten** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie auf der Seite **Bankkonten** die Aktion **Neu** aus.
@@ -151,7 +151,7 @@ The following table explains key fields.
 |Payment Export Format|Specifies the format of the bank file that is exported when you choose **Export Payments to File** on the **Payment Journal** page.|
 -->
 
-## <a name="to-enter-an-opening-balance" />So geben Sie einen Eröffnungssaldo ein
+## <a name="to-enter-an-opening-balance"></a>So geben Sie einen Eröffnungssaldo ein
 
 Um das Feld **Saldo** mit einem Eröffnungssaldo zu füllen, müssen Sie eine Sachkonto-Buchung mit dem betreffenden Betrag vornehmen. Sie können dies tun, indem Sie eine Bankkontoabstimmung durchführen. Erfahren Sie mehr unter [Bankkonten abstimmen](bank-how-reconcile-bank-accounts-separately.md).  
 >
@@ -160,7 +160,7 @@ Um das Feld **Saldo** mit einem Eröffnungssaldo zu füllen, müssen Sie eine Sa
 > [!IMPORTANT]
 > Buchen Sie den Eröffnungssaldo nicht direkt in das Hauptbuch. Direkt auf das Sachkonto gebuchte Einträge führen in der Regel dazu, dass Sie das Bankkonto nicht mehr abstimmen können. Bei Bankkonten in Fremdwährung führt eine solche Praxis dazu, dass sich die Differenzen häufen, wenn Sie mehr Bankabstimmungen buchen. Normalerweise buchen Sie den Eröffnungssaldo direkt auf das Bankkonto, und der Betrag landet auf dem Sachkonto. Alternativ können Sie ihn später aus dem Sachkonto stornieren, das Sie zum Ausgleich des Eröffnungssaldos des Hauptbuchs verwenden. In jedem Fall müssen Sie jede Direktbuchung auf das Sachkonto ausgleichen, bevor Sie mit der ersten Bankabstimmung beginnen &mdash;insbesondere wenn das Bankkonto auf eine Fremdwährung lautet.
 
-## <a name="to-set-up-your-bank-account-for-import-or-export-of-bank-files" />Um Ihre Bankkonten zum Importieren und Exportieren von Bankdateien einzurichten
+## <a name="to-set-up-your-bank-account-for-import-or-export-of-bank-files"></a>Um Ihre Bankkonten zum Importieren und Exportieren von Bankdateien einzurichten
 
 Die Felder, die sich auf den Import und den Export von Bankfeeds und Dateien beziehen, befinden sich im Inforegister **Transfer** im Fenster **Bankkontenkarte**. Erfahren Sie mehr unter [Verwendung der Erweiterung AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md) und [Einrichten des Dienstes Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md).
 
@@ -213,13 +213,13 @@ Die folgende Abbildung zeigt den Weg der ausgehenden Zahlungen (die Nummern in d
   :::column-end:::
 :::row-end:::
 
-## <a name="to-set-up-vendor-bank-accounts-for-export-of-bank-files" />Um Ihre Bankkonten zum Importieren und Exportieren von Bankdateien einzurichten
+## <a name="to-set-up-vendor-bank-accounts-for-export-of-bank-files"></a>Um Ihre Bankkonten zum Importieren und Exportieren von Bankdateien einzurichten
 
 Die Felder auf dem Inforegister **Überweisung** auf der Seite **Kreditoren Bankkontonummer** beziehen sich auf den Export von Bankfeeds und Dateien. Erfahren Sie mehr unter [Verwenden Sie die Erweiterung AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md) und [Zahlungen in eine Bankdatei exportieren](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).
 
 [!INCLUDE[purchase-vendor-bank-account](includes/purchase-vendor-bank-account.md)]
 
-## <a name="changing-your-bank-account" />Ändern Ihres Bankkontos
+## <a name="changing-your-bank-account"></a>Ändern Ihres Bankkontos
 
 Um ein anderes Bankkonto für Ihr Unternehmen zu verwenden, müssen Sie das neue Bankkonto in [!INCLUDE[prod_short](includes/prod_short.md)] erstellen. Wir empfehlen, dass Sie nicht einfach die Informationen über das derzeit verwendete Konto ersetzen, da dies zu falschen Daten führen kann. Zum Beispiel könnte Ihr Eröffnungssaldo falsch sein oder Ihr Bankfeed nicht mehr richtig funktionieren. Es ist wichtig, dass Sie das aktuelle und das neue Konto getrennt halten.
 
@@ -230,9 +230,9 @@ Nachdem Sie das neue Bankkonto erstellt haben, sollten Sie auch eine neue Bankbu
 
 Um eine komprimiertere Ansicht Ihrer Geldkonten in der Finanzberichterstattung zu erhalten, verwenden Sie die **Beginn-Summe** und **Ende-Summe** Konten in Ihrem Kontenplan, die **Summen** Zeilen in Finanzberichten oder Sachkonto-Kategorien. Erfahren Sie mehr im Abschnitt [Business Intelligence und Financial Reporting](bi.md).
 
-## <a name="see-related-microsoft-training" />Siehe verwandte [Microsoft Schulungen](/training/modules/cash-management-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/cash-management-dynamics-365-business-central/)
 
-## <a name="see-also" />Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Einrichten von Banken](bank-setup-banking.md)  
 [Einrichten von Buchungsgruppen](finance-posting-groups.md)  

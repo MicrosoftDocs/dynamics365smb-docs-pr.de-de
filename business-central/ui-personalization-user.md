@@ -11,7 +11,7 @@ ms.search.form: '9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 900
 ms.date: 10/11/2022
 ms.author: bholtorf
 ---
-# <a name="personalize-your-workspace" />Ihren Arbeitsbereich personalisieren
+# <a name="personalize-your-workspace"></a>Ihren Arbeitsbereich personalisieren
 
 Sie können ihren Arbeitsbereich an Ihre Arbeit und Ihre Bedürfnisse anpassen. Ändern Sie die Seiten so, dass sie nur die Informationen anzeigen, die Sie benötigen, wo Sie sie benötigen. Personalisierung wirkt sich nur auf den Arbeitsbereich aus. Es ändert nichts daran, wie andere arbeiten.
 
@@ -25,13 +25,13 @@ Sie können verschiedene Änderungen vornehmen, z. B. Verschieben und Ausblenden
 > Administratoren können dieselben Layoutänderungen wie Benutzer durchführen, indem sie den Arbeitsbereich für ein Profil anpassen, dem mehrere Benutzer zugewiesen sind. Um mehr über Seiten für Rollen zu erfahren, gehen Sie zu [Seiten für Rollen anpassen](ui-personalization-manage.md)<br /><br />
 Administratoren können auch Personalisierungen der Benutzer überschreiben und definieren, welche Funktionen in allen oder bestimmten Unternehmen zugänglich sind. Weitere Informationen finden Sie unter [Anpassen von Business Central](ui-customizing-overview.md).
 
-## <a name="video" />Video
+## <a name="video"></a>Video
 
 Das folgende Video zeigt einige Möglichkeiten, wie Sie Ihr Rollencenter personalisieren können.
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4ArUB?rel=0]
 
-## <a name="to-change-the-width-of-a-column" />Ändern der Breite einer Spalte
+## <a name="to-change-the-width-of-a-column"></a>Ändern der Breite einer Spalte
 
 Sie können die Größe der Spalten in jeder Liste einfach ändern. Ziehen Sie einfach die Grenze zwischen zwei Spalten nach links oder rechts.  
 
@@ -40,7 +40,7 @@ Sie können die Größe der Spalten in jeder Liste einfach ändern. Ziehen Sie e
 
 Wie bei anderen Personalisierungen werden die Änderungen, die Sie an der Spaltenbreite vornehmen, in Ihrem Konto gespeichert und folgen Ihnen, unabhängig davon, auf welchem Gerät Sie sich anmelden.
 
-## <a name="to-start-personalizing-a-page-through-the-personalizing-banner" />So beginnen Sie mit der Personalisierung einer Seite über das Banner **Personalisieren**
+## <a name="to-start-personalizing-a-page-through-the-personalizing-banner"></a>So beginnen Sie mit der Personalisierung einer Seite über das Banner **Personalisieren**
 
 1. Öffnen Sie eine beliebige Seite, die Sie personalisieren möchten.
 2. Wählen Sie in der oberen rechten Ecke das Symbol ![Einstellungen.](media/ui-experience/settings_icon_small.png "Einstellungssymbol für Rollencenter") Symbol, und wählen Sie dann die Aktion **Personalisieren**.
@@ -58,7 +58,7 @@ Wie bei anderen Personalisierungen werden die Änderungen, die Sie an der Spalte
 6. Wählen Sie das Element aus und wählen Sie dann eine der beiden Optionen **Bewegung**, **Entfernen**, **Verbergen, verstecken**, **Anzeigen**, **Anzeigen unter mehr anzeigen**, **Anzeigen, wenn alle verborgen**, **Immer anzeigen**, **Einfrierfenster einstellen/löschen**, oder **Schnelleingabe einschließen/ausschließen**, abhängig vom T und Status des Oberflächenelements. Weitere Informationen finden Sie unter [Was Sie personalisieren können](#What).
 7. Wenn Sie das Layout einer oder mehrerer Seiten geändert haben, wählen Sie die Schaltfläche **Fertig** im Banner **Personalisierung**.
 
-## <a name="what-you-can-personalize" /><a name="What"></a>Was Sie personalisieren können
+## <a name="what-you-can-personalize"></a><a name="What"></a>Was Sie personalisieren können
 
 |Was möchten Sie tun|So geht es|Bemerkungen|
 |----|------------|-------|
@@ -74,7 +74,7 @@ Wie bei anderen Personalisierungen werden die Änderungen, die Sie an der Spalte
 |Fügen Sie einer Seite oder einem Bericht in Ihrem Role Center eine neue Aktion hinzu.|Wählen Sie das Lesezeichensymbol auf der Zielseite, auf der Berichtsanforderungsseite oder im Fenster „Wie möchten Sie weiter verfahren“ aus.|Weitere Informationen finden Sie unter [Erstellen eines Lesezeichens für eine Seite oder einen Bericht im Rollencenter](ui-bookmarks.md)|
 |Listen immer erweitert oder reduziert anzeigen|Wählen Sie in der oberen linken Ecke der Liste die Schaltfläche **Alle erweitern** oder **Alle reduzieren** aus. Sie können auch die Aktion **Alle erweitern** oder **Alle reduzieren** im Menü der ersten Spalte auswählen. |Gilt für reduzierbare Hierarchielisten|
 
-## <a name="personalizing-the-action-bar-and-menus" /><a name="Actions"></a>Personalisierung der Aktionsleiste und Menüs
+## <a name="personalizing-the-action-bar-and-menus"></a><a name="Actions"></a>Personalisierung der Aktionsleiste und Menüs
 
 Mit der Personalisierung können Sie entscheiden, welche Aktionen auf den Navigations- und Aktionsleisten und in den Rollenzentren angezeigt werden sollen und wo sie angezeigt werden sollen. Sie können einzelne Aktionen oder Aktionsgruppen ausblenden, anzeigen oder verschieben.
 
@@ -93,7 +93,7 @@ Eine *Heraufgestufte Kategorie* ist eine Aktionsgruppe, die vor der senkrechten 
 > [!NOTE]  
 > Um die Personalisierung zu löschen, wählen Sie den Pfeil, der das Designermenü des Teils umgibt, und dann **Personalisierung löschen** aus.
 
-### <a name="to-remove-hide-and-show-actions-and-action-groups" />So werden Aktionen und Aktionsgruppen entfernt, ausgeblendet und angezeigt
+### <a name="to-remove-hide-and-show-actions-and-action-groups"></a>So werden Aktionen und Aktionsgruppen entfernt, ausgeblendet und angezeigt
 
 Wenn Sie eine Aktion ein- oder ausblenden möchten, definieren die Optionen unter der Pfeilspitze, was je nach Status der Aktion geschehen kann. 
 
@@ -106,7 +106,7 @@ Wenn Sie eine Aktion ein- oder ausblenden möchten, definieren die Optionen unte
 |**Ausblenden**|Diese Option wird angezeigt, wenn sich die Aktion oder Aktionsgruppe nicht an anderer Stelle in der Navigationsleiste oder Aktionsleiste befindet. Wie **Entfernen** führt die Auswahl dieser Option dazu, dass die Aktion oder Aktionsgruppe aus der Navigations- oder Aktionsleiste verschwindet. Im Personalisierungsmodus wird die Aktion oder die Aktionsgruppe allerdings noch an der aktuellen Stelle angezeigt, aber abgedunkelt.|
 |**Anzeigen**|Diese Option wird angezeigt, wenn die Aktion oder Aktionsgruppe zuvor ausgeblendet wurde (abgedunkelt). Wenn Sie diese Option wählen, erscheint die Aktion oder Aktionsgruppe in der Navigationsleiste oder der Aktionsleiste.|
 
-### <a name="to-move-actions-and-action-groups" />So werden Aktionen und Aktionsgruppen verschoben
+### <a name="to-move-actions-and-action-groups"></a>So werden Aktionen und Aktionsgruppen verschoben
 
 Stellen, an denen Sie Aktionen oder Aktionsgruppen ablegen können, wird durch eine horizontale Linie zwischen zwei Aktionen oder einem Rand um eine Aktionsgruppe angegeben. Folgende Beschränkungen gelten:
 
@@ -116,7 +116,7 @@ Stellen, an denen Sie Aktionen oder Aktionsgruppen ablegen können, wird durch e
 1. Um eine Aktion oder eine Aktionsgruppe zu verschieben, ziehen Sie sie an die gewünschte Position, wie bei Feldern und Spalten.
 2. Um eine Aktion oder eine Aktionsgruppe in eine andere leere Aktionsgruppe zu verschieben, ziehen Sie Aktion oder Aktionsgruppe in die neue Gruppe und lassen Sie sie im Feld **Aktion hier ablegen** fallen.
 
-## <a name="personalizing-parts" /><a name="Parts"></a>Personalisierung von Teilen
+## <a name="personalizing-parts"></a><a name="Parts"></a>Personalisierung von Teilen
 
 Teile sind Bereiche auf einer Seite, die in der Regel aus mehreren Feldern, Diagrammen oder anderen Inhalten bestehen. Ein Teil zeigt einen farbigen Rahmen, wenn Sie den Fokus auf den Teil legen. Beispielsweise besteht ein Startbildschirm des Rollenzentrums aus mehreren Teilen. Aufgrund ihrer klar definierten Grenzen können Sie den gesamten Teil und dessen Inhalt personalisieren.
 
@@ -126,7 +126,7 @@ Teile sind Bereiche auf einer Seite, die in der Regel aus mehreren Feldern, Diag
 
 Sie können alle Personalisierungsänderungen, die Sie innerhalb eines einzelnen Teils vorgenommen haben, löschen, indem Sie die Aktion **Personalisierung löschen** unter der Pfeilspitze des Teils wählen. Die Freigabe der Personalisierung eines Teils wirkt sich nur auf Änderungen des Inhalts des Teils aus, nicht auf die Platzierung oder Sichtbarkeit des Teils auf der Seite.  
 
-## <a name="to-clear-personalization" />So wird eine Personalisierung gelöscht
+## <a name="to-clear-personalization"></a>So wird eine Personalisierung gelöscht
 
 Deaktivieren Sie einige oder alle an dieser Seite im Lauf der Zeit vorgenommenen Personalisierungsänderungen.
 
@@ -143,7 +143,7 @@ Deaktivieren Sie einige oder alle an dieser Seite im Lauf der Zeit vorgenommenen
 |**Nur Felder und Spalten**|Löscht alle Personalisierungsänderungen, die Sie jemals an der Seite vorgenommen haben, mit Ausnahme der Änderungen an der Navigations- oder Aktionsleiste. Hierzu zählen beispielsweise Änderungen an Feldern, Spalten, Teilen und Kacheln. |
 |**Alle**|Löscht alle an dieser Seite vorgenommenen Personalisierungsänderungen, sodass die Seite wieder wie zuvor aussieht. Hierzu zählen beispielsweise Änderungen an Navigations- und Aktionsleisten, Feldern, Spalten, Teilen und Kacheln.|
 
-## <a name="other-points-of-interest" />Andere Punkte von Interesse
+## <a name="other-points-of-interest"></a>Andere Punkte von Interesse
 
 Um die Personalisierung besser zu verstehen, finden Sie hier einige Hinweise.
 
@@ -158,9 +158,9 @@ Um die Personalisierung besser zu verstehen, finden Sie hier einige Hinweise.
    > [!TIP]
    > Als Administrator können Sie das Element **Automatisierung** vor den Benutzern verbergen. Mehr dazu erfahren Sie unter [Einrichten der Power Automate Integration](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup).
 
-## <a name="see-related-microsoft-training" />Siehe verwandte [Microsoft Schulungen](/training/modules/personalize-ui-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/personalize-ui-dynamics-365-business-central/index)
 
-## <a name="see-also" />Siehe auch
+## <a name="see-also"></a>Siehe auch
 [Seiten für Profile anpassen](ui-personalization-manage.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Ändern von grundlegenden Einstellungen](ui-change-basic-settings.md)  

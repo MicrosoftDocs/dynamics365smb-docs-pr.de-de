@@ -11,7 +11,7 @@ ms.date: 06/24/2021
 ms.author: bholtorf
 ---
 
-# <a name="the-payments-and-reconciliations-dk-extension" />Die Zahlungs- und Abstimmungs-Erweiterung
+# <a name="the-payments-and-reconciliations-dk-extension"></a>Die Zahlungs- und Abstimmungs-Erweiterung
 
 Machen Sie schnelle, fehlerfreie Zahlungen, indem Sie Dateien exportieren, die speziell für den Austausch mit Ihrem Kreditor oder Ihrer Bank formatiert werden. Diese Dateien beschleunigen die Zahlung und die Aussöhnungsprozesse und eliminieren Fehler, die auftreten können, wenn Sie versuchen, die Informationen über eine Bankwebsite einzugeben.  
 
@@ -20,7 +20,7 @@ Diese Erweiterung unterstützt Dateiformate für mehrere dänische Banken. Wenn 
 > [!Note]
 > Um die Erweiterung zu verwenden, müssen Sie das Format kennen, das die Bank oder der Kreditor benötigt. Einige Banken oder Kreditoren können diese Information auf ihren Websites bereitstellen; Sie müssen möglicherweise die Serviceabteilung kontaktieren, um die Informationen zu erhalten.  
 
-## <a name="supported-bank-formats" />Unterstützte Bank-Formate
+## <a name="supported-bank-formats"></a>Unterstützte Bank-Formate
 Diese Erweiterung kann folgende Dateiformate-Zahlungsdateien anwenden:  
 
 * BANKDATA-V3  
@@ -36,7 +36,7 @@ Diese Erweiterung kann folgende Dateiformate-Zahlungsdateien anwenden:
 * SDC  
 * SDC-CSV  
 
-## <a name="to-set-up-the-extension" />Erweiterungen einrichten
+## <a name="to-set-up-the-extension"></a>Erweiterungen einrichten
 
 Es gibt mehrere Schritte, um beginnen zu können.  
 
@@ -47,13 +47,13 @@ Es gibt mehrere Schritte, um beginnen zu können.
 
 Darüber hinaus müssen Sie Kreditoren einer inländischen **Gen. Bus. Buchungsgruppe** und **Kreditorenbuchungsgruppe** zuweisen. Die Land/Regions-Einstellung für den Kreditor muss Dänemark (DK) sein. Weitere Informationen finden Sie unter [Einrichten von Buchungsgruppen](finance-posting-groups.md).  
 
-### <a name="to-allow--to-export-payment-data" />[!INCLUDE[prod_short](includes/prod_short.md)] erlauben, Zahlungsdaten zu exportieren
+### <a name="to-allow--to-export-payment-data"></a>[!INCLUDE[prod_short](includes/prod_short.md)] erlauben, Zahlungsdaten zu exportieren
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Zahlungsausgangs Buch.-Blatt** ein und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie auf der Seite **Projekt Buch.-Blatt bearbeiten** das Feld **Bank** Stapel aus.  
 3. Wählen Sie das Kontrollkästchen **Zahlungsexport erlauben**.  
 
-### <a name="to-specify-a-payment-method-for-a-vendor" />Gibt die Zahlungsform für jeden Kreditor an.
+### <a name="to-specify-a-payment-method-for-a-vendor"></a>Gibt die Zahlungsform für jeden Kreditor an.
 
 Die folgende Tabelle zeigt die FIK- und Kombinationen von GIRO-Zahlungsformen an, die [!INCLUDE[prod_short](includes/prod_short.md)] unterstützen.
 
@@ -67,13 +67,13 @@ Die folgende Tabelle zeigt die FIK- und Kombinationen von GIRO-Zahlungsformen an
 2. Öffnen Sie die Karte, erweitern Sie die Registerkarte **Zahlungen**, im Feld **Zahlungsform** und wählen Sie die Zahlungsform.  
 3. Abhängig von Ihrer Wahl müssen Sie weitere Felder ausfüllen. Siehe die Tabelle oben für eine Beschreibung der Kombinationen.  
 
-### <a name="to-specify-the-format-to-use-for-a-bank-account" />Das Adressformat definieren, um ein Bankkonto zu verwenden
+### <a name="to-specify-the-format-to-use-for-a-bank-account"></a>Das Adressformat definieren, um ein Bankkonto zu verwenden
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Bankkonten** ein und wählen Sie dann den zugehörigen Link.  
 2. Öffnen Sie die Karte für das Bankkonto.  
 3. Im Feld **Format Zahlungsexport** wählen Sie das Format für Ihre Exportdatei aus.  
 
-## <a name="choosing-the-fik-or-giro-payment-information-for-vendor-invoices" />Auswählen des FIK oder der Autogirozahlungsinformationen für Kreditorenrechnungen
+## <a name="choosing-the-fik-or-giro-payment-information-for-vendor-invoices"></a>Auswählen des FIK oder der Autogirozahlungsinformationen für Kreditorenrechnungen
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Einkaufsrechnungen** ein, und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie das Feld Debitor. Beachten Sie, dass dies ein dänischer Kreditor mit eine Adresse in Dänemark sein muss.
@@ -85,7 +85,7 @@ Die folgende Tabelle zeigt die FIK- und Kombinationen von GIRO-Zahlungsformen an
 
 5. Buchen Sie die Rechnung.
 
-## <a name="to-use-the-extension-to-export-payment-data" />Nutzung der Erweiterung, um Zahlungsdaten zu exportieren
+## <a name="to-use-the-extension-to-export-payment-data"></a>Nutzung der Erweiterung, um Zahlungsdaten zu exportieren
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Zahlungsausgangs Buch.-Blätter** ein und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die **Zahlungsvorschlag-Buch.-Blätter** Aktion aus.  
@@ -97,7 +97,7 @@ Die folgende Tabelle zeigt die FIK- und Kombinationen von GIRO-Zahlungsformen an
 4. Wählen Sie im Feld **Bankkontozahlungsart** die Option **Elektronische Zahlung** aus.  
 5. Wählen Sie die Aktion **Exportieren** aus.  
 
-## <a name="see-also" />Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Anpassen von Business Central für [!INCLUDE[prod_short](includes/prod_short.md)] mithilfe der Erweiterungen](ui-extensions.md)  
 [Erfassen von Zahlungen per Lastschriftverfahren SEPA](finance-collect-payments-with-sepa-direct-debit.md)  

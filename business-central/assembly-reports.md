@@ -8,21 +8,21 @@ ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940
 ms.date: 06/01/2021
 ms.author: andreipa
 ---
-# <a name="assembly-reports-and-analytics-in-business-central" />Montageberichte und Analysen in Business Central
+# <a name="assembly-reports-and-analytics-in-business-central"></a>Montageberichte und Analysen in Business Central
 
 Die Montageberichterstattung in [!INCLUDE [prod_short](includes/prod_short.md)] ermöglicht es Vertriebs- und Geschäftsfachleuten, Einblicke und Statistiken über aktuelle und vergangene Montageaktivitäten zu erhalten.  
 
-## <a name="reports" />Berichte
+## <a name="reports"></a>Berichte
 
 [!INCLUDE [assembly_reports](includes/assembly-reports-include.md)]
 
-## <a name="tasks" />Aufgaben
+## <a name="tasks"></a>Aufgaben
 
 In den folgenden Artikeln werden einige der wichtigsten Aufgaben zur Analyse des Status Ihres Unternehmens beschrieben:
 
 * [Artikelverfügbarkeit anzeigen](inventory-how-availability-overview.md)
 
-## <a name="see-also" />Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Montageverwaltung](assembly-assemble-items.md)  
 [Arbeiten mit Stücklisten für die Montage](assembly-how-work-assembly-boms.md)  

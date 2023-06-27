@@ -10,7 +10,7 @@ In [!INCLUDE[prod_short](../../../includes/prod_short.md)], können Sie Lieferan
 > [!NOTE]
 > Um Lieferanmahnungen zu erstellen, müssen Sie die Lieferanmahnungsbestimmungen, -stufen und -texte eingerichtet haben.
 
-## <a name="to-create-a-delivery-reminder-manually" />So erstellen Sie Lieferantenbenachrichtigungen manuell
+## <a name="to-create-a-delivery-reminder-manually"></a>So erstellen Sie Lieferantenbenachrichtigungen manuell
 
 1. Wählen Sie das ![Symbol der Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](../../../media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie **Lieferanmahnung** ein, und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die Aktion **Neu**.  
