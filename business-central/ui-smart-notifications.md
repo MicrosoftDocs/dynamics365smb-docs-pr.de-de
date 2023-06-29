@@ -10,7 +10,7 @@ ms.date: 04/01/2021
 ms.search.form: null
 ms.author: bholtorf
 ---
-# <a name="manage-notifications"></a>Verwalten von Benachrichtigungen
+# <a name="manage-notifications"></a><a name="manage-notifications"></a>Verwalten von Benachrichtigungen
 
 [!INCLUDE[prod_short](includes/prod_short.md)] kann nützlich sein, um intelligenter zu arbeiten, indem es Sie beispielsweise informiert, wenn Sie einen Debitoren fakturieren wollen, der einen überfälligen Saldo hat oder der verfügbare Lagerbestand geringer ist als die Menge, die Sie verkaufen wollen. Diese Benachrichtigungen werden als diskrete Tipps im Kontext der Aufgabe angezeigt, die Sie durchführen, und Sie können wählen, ob Sie die Benachrichtigung ignorieren oder Details zu dem Problem anzeigen wollen.  
 
@@ -18,7 +18,7 @@ Wenn Sie das Anzeigen der Benachrichtigungsdetails auswählen, können Sie Maßn
 
 Die Benachrichtigungen helfen dem ungeübten Nutzer dabei, nicht vertraute Aufgaben abzuschließen und reduzieren nicht die Produktivität des geschulten Benutzer.  
 
-## <a name="to-turn-notifications-on-or-off-and-control-when-they-are-sent"></a>Schaltet Benachrichtigungen ein und aus und steuert, wann diese gesendet werden
+## <a name="to-turn-notifications-on-or-off-and-control-when-they-are-sent"></a><a name="to-turn-notifications-on-or-off-and-control-when-they-are-sent"></a>Schaltet Benachrichtigungen ein und aus und steuert, wann diese gesendet werden
 
 Wenn Sie zuerst mit [!INCLUDE[prod_short](includes/prod_short.md)] Benachrichtigungen beginnen, werden alle ausgeführt, Sie können diese aber ein- oder ausschalten, beispielsweise, wenn Sie an einem bestimmten Ereignis oder an einen Status nicht interessiert sind.  
 
@@ -31,7 +31,7 @@ Aktivieren oder deaktivieren Sie bestimmte Benachrichtigungen, die auf Sie inter
 3. Auf der Seite, die angezeigt wird, aktivieren oder deaktivieren Sie eine Benachrichtigung, indem Sie das Kontrollkästchen **Aktiviert** aktivieren oder deaktivieren.  
 4. Um Bedingungen anzugeben, die eine Benachrichtigung auslösen, wählen Sie den Link **Filterdetails ansehen** und füllen Sie die Felder aus.  
 
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-also"></a><a name="see-also"></a>Weitere Informationen
 
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

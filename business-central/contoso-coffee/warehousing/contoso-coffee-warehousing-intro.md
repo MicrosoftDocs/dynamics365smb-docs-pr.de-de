@@ -9,7 +9,7 @@ author: edupont04
 ms.author: andreipa
 ---
 
-# <a name="introduction-to-contoso-coffee-warehousing"></a>Einführung in Contoso Coffee Lager
+# <a name="introduction-to-contoso-coffee-warehousing"></a><a name="introduction-to-contoso-coffee-warehousing"></a>Einführung in Contoso Coffee Lager
 
 Contoso Coffee ist ein fiktives Unternehmen, das Kaffeemaschinen für Verbraucher und gewerbliche Kunden herstellt. Die **Contoso Coffee**-Apps für Business Central fügen Demodaten hinzu, mit deren Hilfe Sie die Verwendung der Lagerfunktionen in Business Central erlernen können. Sie können Lagerfunktionen auf verschiedene Arten konfigurieren, siehe [Übersicht über verschiedene Konfigurationsmöglichkeiten](../../design-details-warehouse-management.md#overview-of-different-configuration-options).
 
@@ -27,7 +27,7 @@ Die App bietet drei Standorte, die für unterschiedliche Szenarien optimiert sin
 
   Dieser Standort verwendet die erweiterte Lagerkonfiguration mit gerichteten Einlagerungen und Entnahmen, die erweiterte Regeln für die Bewegung von Artikeln im gesamten Lager ermöglicht.
 
-## <a name="set-up-contoso-coffee-warehousing-data"></a>Lagerdaten für Contoso Coffee einrichten
+## <a name="set-up-contoso-coffee-warehousing-data"></a><a name="set-up-contoso-coffee-warehousing-data"></a>Lagerdaten für Contoso Coffee einrichten
 
 Um die Lagerdaten von Contoso Coffee nutzen zu können, müssen Sie zwei Apps im jeweiligen Unternehmen in [!INCLUDE [prod_short](../../includes/prod_short.md)] installieren:  
 
@@ -70,7 +70,7 @@ Wenn Sie fertig sind, wählen Sie die Aktion **Demodaten erstellen** aus. Es dau
 > [!IMPORTANT]
 > Wenn Sie die Szenarien ausführen, möchten Sie möglicherweise überprüfen, ob Ihr Benutzer wie für ausgewählte Standorte hinzugefügt wurde. Weitere Informationen finden Sie unter [Lagermitarbeiter einrichten](../../warehouse-how-to-set-up-warehouse-employees.md)
 
-## <a name="scenarios"></a>Szenarien
+## <a name="scenarios"></a><a name="scenarios"></a>Szenarien
 
 Die Lager-Demodaten von Contoso Coffee unterstützen derzeit die folgenden Lagerort-Szenarien für Tests und Schulungen:
 
@@ -80,7 +80,7 @@ Die Lager-Demodaten von Contoso Coffee unterstützen derzeit die folgenden Lager
 
 Lesen Sie die Schritte für jedes Szenario im entsprechenden Artikel.  
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a><a name="see-also"></a>Siehe auch
 
 [Lager einrichten](../../inventory-setup-inventory.md) 
 [So richten Sie Standorte ein](../../inventory-how-setup-locations.md) 

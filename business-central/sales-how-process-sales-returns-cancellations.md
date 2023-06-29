@@ -11,7 +11,7 @@ ms.search.form: '44, 134, 143, 6629, 6630, 6633, 6662, 9302, 9304, Report_6646'
 ms.date: 09/27/2021
 ms.author: edupont
 ---
-# <a name="process-sales-returns-or-cancellations"></a>Verarbeiten einer Verkaufsrücklieferung oder von Stornierungen
+# <a name="process-sales-returns-or-cancellations"></a><a name="process-sales-returns-or-cancellations"></a>Verarbeiten einer Verkaufsrücklieferung oder von Stornierungen
 
 Wenn Ihr Debitor Artikel zurückschicken oder Dienstleistungen löschen will, die Sie verkauft haben, können Sie eine Einkaufsgutschrift erstellen und buchen, die die angeforderte Änderung im Hinblick auf die ursprünglichen Einkaufsrechnung angibt. Um die korrekten Informationen der Verkaufsrechnungen einzubeziehen, können Sie Folgendes tun:  
 
@@ -30,7 +30,7 @@ Die Gutschriftsbuchung stellt auch jegliche Artikel Zu-/Abschläge wieder her, d
 > [!NOTE]
 > Die Buchhaltungsaspekte von Retouren, wie z. B. die Zahlungen an Debitoren als Rückerstattung, wird als Buchhaltungsarbeit betrachtet und hier nicht beschrieben. Weitere Informationen finden Sie unter [Kreditoren verwalten](payables-manage-payables.md).
 
-## <a name="to-create-a-sales-credit-memo-from-a-posted-sales-invoice"></a>Erstellt eine neue Verkaufsgutschrift, um eine gebuchte Verkaufsrechnung zurückzusetzen.
+## <a name="to-create-a-sales-credit-memo-from-a-posted-sales-invoice"></a><a name="to-create-a-sales-credit-memo-from-a-posted-sales-invoice"></a>Erstellt eine neue Verkaufsgutschrift, um eine gebuchte Verkaufsrechnung zurückzusetzen.
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Gebuchte Verkaufsrechnungen** ein und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie auf der Seite **Gebuchte Verkaufsrechnungen** die gebuchte Verkaufsrechnung aus, die Sie stornieren möchten, wählen Sie die Aktion **Stornieren** und wählen Sie dann die Aktion **Korrekturgutschrift erstellen**.
@@ -53,7 +53,7 @@ Das Dialogfeld **Buchungs- und Sendebestätigung** wird geöffnet und zeigt die 
 
 Die gebuchten Verkaufsdokumente für die entsprechende Gutschrift werden nun storniert und eine Erstattung der Zahlung kann für den Debitor erstellt werden. Die Verkaufsgutschrift wird entfernt und durch einen neuen Beleg in der Liste der gebuchten Verkaufsgutschriften ersetzt.
 
-## <a name="to-create-a-sales-credit-memo-by-copying-a-posted-sales-invoice"></a>Erstellt eine neue Verkaufsgutschrift, um eine gebuchte Verkaufsrechnung zurückzusetzen.
+## <a name="to-create-a-sales-credit-memo-by-copying-a-posted-sales-invoice"></a><a name="to-create-a-sales-credit-memo-by-copying-a-posted-sales-invoice"></a>Erstellt eine neue Verkaufsgutschrift, um eine gebuchte Verkaufsrechnung zurückzusetzen.
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Verkaufsgutschriften** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie **Neu**, um eine neue leere Verkaufsgutschrift zu öffnen.
@@ -65,7 +65,7 @@ Die gebuchten Verkaufsdokumente für die entsprechende Gutschrift werden nun sto
 8. Wählen Sie die Schaltfläche **OK** aus. Die kopierten Rechnungszeilen werden in die Verkaufsgutschrift eingefügt.
 9. Schließen Sie die Verkaufsgutschrift ab, so wie dies unter [Erstellt eine neue Verkaufsgutschrift, um eine gebuchte Verkaufsrechnung zurückzusetzen](sales-how-process-sales-returns-cancellations.md#to-create-a-sales-credit-memo-from-a-posted-sales-invoice) erklärt ist.
 
-## <a name="to-create-a-sales-allowance"></a>So erstellen Sie einen Verkaufsrabatt
+## <a name="to-create-a-sales-allowance"></a><a name="to-create-a-sales-allowance"></a>So erstellen Sie einen Verkaufsrabatt
 Sie können einem Debitoren eine Gutschrift mit einem Preisnachlass ausstellen, wenn der Debitor leicht beschädigte Artikel erhalten hat oder die Artikel zu spät geliefert wurden.  
 Sie können diesen herabgesetzten Preis als Zu-/Abschlag (Artikel) in einer Gutschrift oder einer Reklamation buchen und ihn der gebuchten Lieferung zuordnen. Nachfolgend wird es für eine Verkaufsreklamation erläutert, aber dieselben Schritte gelten für eine Verkaufsgutschrift.
 
@@ -81,7 +81,7 @@ Sie können diesen herabgesetzten Preis als Zu-/Abschlag (Artikel) in einer Guts
 
 Wenn Sie die Verkaufsreklamation buchen, wird die Wiedereinlagerungsgebühr zu dem entsprechenden Betrag des Verkaufspostens addiert. Auf diese Art können Sie genaue Bestandbewertung führen.
 
-## <a name="to-combine-return-receipts"></a>Sammelgutschrift für Reklamationen kombinieren
+## <a name="to-combine-return-receipts"></a><a name="to-combine-return-receipts"></a>Sammelgutschrift für Reklamationen kombinieren
 Sie können Rücksendungen zusammenfassen, wenn Ihr Debitor mehrere Artikel zurücksendet, die durch mehrere Verkaufsreklamationen abgedeckt werden.  
 
 Wenn Sie die Artikel in Ihrem Lager erhalten, buchen Sie die entsprechende Verkaufsreklamation als geliefert. Dadurch erzeugen Sie gebuchte Rücksendungen. Dies erstellt gebuchte Rücksendungen.  
@@ -90,7 +90,7 @@ Wenn Sie bereit sind, an den Debitoren zu fakturieren, können Sie eine Verkaufs
 
 Um Rücksendungen zusammenzufassen, muss das Kontrollkästchen **Sammelversand** auf der Seite **Debitorenkarte** aktiviert sein.  
 
-### <a name="to-manually-combine-return-receipts"></a>So werden Rücksendungen manuell zusammengefasst:
+### <a name="to-manually-combine-return-receipts"></a><a name="to-manually-combine-return-receipts"></a>So werden Rücksendungen manuell zusammengefasst:
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Verkaufsgutschriften** ein und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die Aktion **Neu**.
@@ -104,7 +104,7 @@ Um Rücksendungen zusammenzufassen, muss das Kontrollkästchen **Sammelversand**
 6.  Wenn Sie eine falsche Lieferzeile ausgewählt haben oder von vorn beginnen möchten, können Sie einfach die Zeilen in der Gutschrift löschen und die Funktion **Rücksendungszeilen holen** erneut ausführen.  
 7.  Buchen Sie die Rechnung.  
 
-### <a name="to-automatically-combine-return-receipts"></a>So werden Rücksendungen automatisch zusammengefasst
+### <a name="to-automatically-combine-return-receipts"></a><a name="to-automatically-combine-return-receipts"></a>So werden Rücksendungen automatisch zusammengefasst
 
 Sie können Rücksendungen automatisch zusammenfassen und haben zudem die Möglichkeit, Gutschriften automatisch zu buchen, indem Sie die Stapelverarbeitung **Sammelgutschrift für Rekl.** verwenden.  
 
@@ -113,7 +113,7 @@ Sie können Rücksendungen automatisch zusammenfassen und haben zudem die Mögli
 3. Wählen Sie das Feld **Gutschriften buchen** aus. Wenn nicht, müssen Sie die ausgefüllten Einkaufsgutschriften manuell buchen.
 4. Wählen Sie die Schaltfläche **OK** aus.  
 
-### <a name="to-remove-a-received-and-invoiced-return-order"></a>So werden eingegangene und fakturierte Reklamationen entfernt:
+### <a name="to-remove-a-received-and-invoiced-return-order"></a><a name="to-remove-a-received-and-invoiced-return-order"></a>So werden eingegangene und fakturierte Reklamationen entfernt:
 
 Wenn Rücksendungen auf diese Weise fakturiert werden, bleiben die Rücksendungsaufträge, von denen ausgehend die Rücksendungen gebucht werden, weiterhin bestehen, auch wenn sie vollständig geliefert und fakturiert wurden.  
 
@@ -125,7 +125,7 @@ Wenn Rücksendungen in einer Gutschrift zusammengefasst und gebucht werden, wird
 
 Sie können die einzelnen Verkaufsaufträge auch manuell löschen.  
 
-## <a name="inventory-costing"></a>Bestandskosten
+## <a name="inventory-costing"></a><a name="inventory-costing"></a>Bestandskosten
 
 Um die korrekte Lagerbewertung beizubehalten, möchten Sie üblicherweise zurückgegebene Artikel im Lager zum Einstandspreis, zum dem sie verkauft wurden und nicht mit dem aktuellen Einstandspreis einlagern. Dies wird als Einstandspreisrückverfolgung bezeichnet.
 
@@ -140,9 +140,9 @@ Um exakte Einstandspreisstornierung manuell zuzuordnen, müssen Sie das Feld **A
 
 Weitere Informationen finden Sie unter [Designdetails: Bestandskosten](design-details-inventory-costing.md).
 
-## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/paths/return-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/paths/return-items-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a><a name="see-also"></a>Siehe auch
 
 [Verkauf](sales-manage-sales.md)  
 [Einrichten von Verkäufen](sales-setup-sales.md)  

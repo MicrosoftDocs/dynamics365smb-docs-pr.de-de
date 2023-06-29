@@ -10,14 +10,14 @@ ms.search.keywords: null
 ms.date: 09/15/2022
 ms.author: edupont
 ---
-# <a name="planning-with-or-without-locations"></a>Siehe Planung mit/ohne Lagerortcodes.
+# <a name="planning-with-or-without-locations"></a><a name="planning-with-or-without-locations"></a>Siehe Planung mit/ohne Lagerortcodes.
 
 Bevor Sie mit der Verwendung des Planungsmoduls beginnen, empfehlen wir Ihnen zu entscheiden, ob Sie Standorte verwenden möchten oder nicht. Es gibt zwei einfache Hauptwege:
 
 * Die Bedarfszeilen enthalten immer Lagerortcodes, und das System verwendet in vollem Umfang Lagerhaltungsdaten, einschließlich der betreffenden Lagerorteinrichtung. Erfahren Sie mehr unter [Nachfrage vor Ort](#demand-at-location).  
 * Bedarfszeilen enthalten niemals Standortcodes und das System verwendet die Artikelkarte. Informationen dazu sehen Sie im Szenario [Nachfrage an einem "leeren Ort"](#demand-at-blank-location) unten.
 
-## <a name="demand-at-location"></a>Bedarf am Lagerort
+## <a name="demand-at-location"></a><a name="demand-at-location"></a>Bedarf am Lagerort
 
 Wenn das Planungssystem Bedarf an einem Lagerort (eine Zeile mit einem Lagerortcode) erkennt, verhält es sich in verschiedener Weise, abhängig von zwei kritischen Konfigurationswerten.  
 
@@ -53,7 +53,7 @@ Siehe Abweichungen in den [unten angeführten Szenarien](#scenarios).
 >
 > Sie können dies auch für bestimmte Lagerhaltungsdaten festlegen, indem Sie einen anderen Lagerortcode im Feld **Komponenten von Lagerort** auf der Lagerhaltungsdatenkarte auswählen. Beachten Sie jedoch, dass dies selten sinnvoll ist, da die Planungslogik möglicherweise beim Planen für die Lagerhaltungsdaten-Komponente verfälscht wird.
 
-## <a name="demand-at-blank-location"></a>Nachfrage am „leeren Lagerort“
+## <a name="demand-at-blank-location"></a><a name="demand-at-blank-location"></a>Nachfrage am „leeren Lagerort“
 
 Wenn das Planungssystem Bedarf an einem leeren Standort (einer Zeile ohne Standortcode) erkennt, wird der Artikel im Allgemeinen gemäß den Planungsparametern auf der Artikelkarte geplant.
 
@@ -63,75 +63,75 @@ Das Feld **Lagerort notwendig** auf der Seite **Lagerort Einrichtung** und das F
 * Eine Lagerhaltungseinheit ist für den geplannten Artikel vorhanden.
 * Das **Lagerort Obligatorisch** Feld ist ausgewählt.
 
-## <a name="scenarios"></a>Szenarien
+## <a name="scenarios"></a><a name="scenarios"></a>Szenarien
 
 Siehe Abweichungen in den unten angeführte Setup-Szenarien.
 
-### <a name="setup-1"></a>Konfiguration 1
+### <a name="setup-1"></a><a name="setup-1"></a>Konfiguration 1
 
 * Lagerort notwendig = *Ja*  
 * SKU ist für *WEST* eingerichtet  
 * Komponente an Lagerort =  *EAST*  
 
-#### <a name="case-11-demand-is-at-west-location"></a>Fall 1.1: Es besteht Bedarf am Lagerort *WEST*
+#### <a name="case-11-demand-is-at-west-location"></a><a name="case-11-demand-is-at-west-location"></a>Fall 1.1: Es besteht Bedarf am Lagerort *WEST*
 
 Der Artikel wird gemäß den Planungsparametern auf der Lagerhaltungsdatenkarte geplant (einschließlich möglicher Umlagerungen).
 
-#### <a name="case-12-demand-is-at-east-location"></a>Fall 1.2: Es besteht Bedarf am Lagerort *EAST*
+#### <a name="case-12-demand-is-at-east-location"></a><a name="case-12-demand-is-at-east-location"></a>Fall 1.2: Es besteht Bedarf am Lagerort *EAST*
 
 Der Artikel wird gemäß den Planungsparametern auf der Artikelkarte geplant.
 
-#### <a name="case-13-demand-is-at-north-location"></a>Fall 1.3: Es besteht Bedarf am Lagerort *NORTH*
+#### <a name="case-13-demand-is-at-north-location"></a><a name="case-13-demand-is-at-north-location"></a>Fall 1.3: Es besteht Bedarf am Lagerort *NORTH*
 
 Der Artikel wird anhand dieser Kriterien geplant: Wiederbeschaffungsverfahren = *Los-für-Los* ( *Bestellung* bleibt *Bestellung*), Lagerbestand berücksichtigen = *Ja*, alle anderen Planungsparameter = Leer.
 
-#### <a name="case-14-demand-is-at-blank-location"></a>Fall 1.4: Es besteht Bedarf am Lagerort *LEER*
+#### <a name="case-14-demand-is-at-blank-location"></a><a name="case-14-demand-is-at-blank-location"></a>Fall 1.4: Es besteht Bedarf am Lagerort *LEER*
 
 Der Artikel wird anhand dieser Kriterien geplant: Wiederbeschaffungsverfahren = *Los-für-Los* ( *Bestellung* bleibt *Bestellung*), Lagerbestand berücksichtigen = *Ja*, alle anderen Planungsparameter = Leer.
 
-### <a name="setup-2"></a>Konfiguration 2
+### <a name="setup-2"></a><a name="setup-2"></a>Konfiguration 2
 
 * Lagerort notwendig = *Ja*  
 * Es sind keine Lagerhaltungsdaten vorhanden.  
 * Komponente an Lagerort =  *EAST*  
 
-#### <a name="case-21-demand-is-at-west-location"></a>Fall 2.1: Es besteht Bedarf am Lagerort *WEST*
+#### <a name="case-21-demand-is-at-west-location"></a><a name="case-21-demand-is-at-west-location"></a>Fall 2.1: Es besteht Bedarf am Lagerort *WEST*
 
 Der Artikel wird anhand dieser Kriterien geplant: Wiederbeschaffungsverfahren = *Los-für-Los* ( *Bestellung* bleibt *Bestellung*), Lagerbestand berücksichtigen = *Ja*, alle anderen Planungsparameter = Leer.
 
-#### <a name="case-22-demand-is-at-east-location"></a>Fall 2.2: Es besteht Bedarf am Lagerort *EAST*
+#### <a name="case-22-demand-is-at-east-location"></a><a name="case-22-demand-is-at-east-location"></a>Fall 2.2: Es besteht Bedarf am Lagerort *EAST*
 
 Der Artikel wird gemäß den Planungsparametern auf der Artikelkarte geplant.  
 
-### <a name="setup-3"></a>Konfiguration 3
+### <a name="setup-3"></a><a name="setup-3"></a>Konfiguration 3
 
 * Lagerort notwendig = *Nein*  
 * Es sind keine Lagerhaltungsdaten vorhanden.  
 * Komponente an Lagerort =  *EAST*  
 
-#### <a name="case-31-demand-is-at-west-location"></a>Fall 3.1: Es besteht Bedarf am Lagerort *WEST*
+#### <a name="case-31-demand-is-at-west-location"></a><a name="case-31-demand-is-at-west-location"></a>Fall 3.1: Es besteht Bedarf am Lagerort *WEST*
 
 Der Artikel wird anhand dieser Kriterien geplant: Wiederbeschaffungsverfahren = *Los-für-Los* ( *Bestellung* bleibt *Bestellung*), Lagerbestand berücksichtigen = *Ja*, alle anderen Planungsparameter = Leer.
 
-#### <a name="case-32-demand-is-at-east-location"></a>Fall 3.2: Es besteht Bedarf am Lagerort *EAST*
+#### <a name="case-32-demand-is-at-east-location"></a><a name="case-32-demand-is-at-east-location"></a>Fall 3.2: Es besteht Bedarf am Lagerort *EAST*
 
 Der Artikel wird gemäß den Planungsparametern auf der Artikelkarte geplant.  
 
-#### <a name="case-33-demand-is-at-blank-location"></a>Fall 3.3: Es besteht Bedarf am Lagerort *LEER*
+#### <a name="case-33-demand-is-at-blank-location"></a><a name="case-33-demand-is-at-blank-location"></a>Fall 3.3: Es besteht Bedarf am Lagerort *LEER*
 
 Der Artikel wird anhand dieser Kriterien geplant: Wiederbeschaffungsverfahren = *Los-für-Los* ( *Bestellung* bleibt *Bestellung*), Lagerbestand berücksichtigen = *Ja*, alle anderen Planungsparameter = Leer.
 
-### <a name="setup-4"></a>Konfiguration 4
+### <a name="setup-4"></a><a name="setup-4"></a>Konfiguration 4
 
 * Lagerort notwendig = *Nein*  
 * Es sind keine Lagerhaltungsdaten vorhanden.  
 * Komponente an Lagerort =  *LEER*  
 
-#### <a name="case-41-demand-is-at-east-location"></a>Fall 4.1: Es besteht Bedarf am Lagerort *EAST*
+#### <a name="case-41-demand-is-at-east-location"></a><a name="case-41-demand-is-at-east-location"></a>Fall 4.1: Es besteht Bedarf am Lagerort *EAST*
 
 Der Artikel wird anhand dieser Kriterien geplant: Wiederbeschaffungsverfahren = *Los-für-Los* ( *Bestellung* bleibt *Bestellung*), Lagerbestand berücksichtigen = *Ja*, alle anderen Planungsparameter = Leer.
 
-#### <a name="case-42-demand-is-at-blank-location"></a>Fall 4.2: Es besteht Bedarf am Lagerort *LEER*
+#### <a name="case-42-demand-is-at-blank-location"></a><a name="case-42-demand-is-at-blank-location"></a>Fall 4.2: Es besteht Bedarf am Lagerort *LEER*
 
 Der Artikel wird gemäß den Planungsparametern auf der Artikelkarte geplant.
 
@@ -139,9 +139,9 @@ Wie aus dem letzten Szenario ersehen werden kann, besteht die einzige Möglichke
 
 Wenn Sie oft den Bedarf an Lagerorten planen, wird daher empfohlen, dass Sie die Funktion „Lagerhaltungsdaten“ verwenden.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Siehe verwandte Schulungen unter [Microsoft Learn](/training/paths/trade-get-started-dynamics-365-business-central/).
+## <a name="see-related-training-at-microsoft-learn"></a><a name="see-related-training-at-microsoft-learn"></a>Siehe verwandte Schulungen unter [Microsoft Learn](/training/paths/trade-get-started-dynamics-365-business-central/).
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a><a name="see-also"></a>Siehe auch
 
 [Planung](production-planning.md)  
 [Produktion einrichten](production-configure-production-processes.md)  

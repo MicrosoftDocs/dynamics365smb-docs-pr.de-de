@@ -9,13 +9,13 @@ ms.date: 03/22/2023
 ms.custom: bap-template
 ---
 
-# <a name="add-marketing-text-to-items"></a>Marketingtext zu Artikeln hinzufügen
+# <a name="add-marketing-text-to-items"></a><a name="add-marketing-text-to-items"></a>Marketingtext zu Artikeln hinzufügen
 
 Sie können für jeden in Business Central registrierten Artikel *Marketingtext* über den Artikel schreiben. Obwohl Marketingtext eine Art Beschreibung ist, unterscheidet er sich vom Feld **Beschreibung** des Artikels. Das Feld **Beschreibung** wird normalerweise als prägnanter Anzeigename verwendet, um das Produkt schnell identifizieren zu können. Der Marketingtext hingegen ist ein umfassenderer und detailreicherer Schritt. Durch ihn sollen Marketing- und Werbeinhalten, sogenanntes *Textmaterial*, hinzugefügt werden. Dieser Text kann dann mit dem Artikel veröffentlicht werden, wenn er in einem Webshop wie Shopify veröffentlicht wird.
 
 Es gibt zwei Möglichkeiten, Marketingtext zu erstellen. Am einfachsten gelingt der Einstieg mit Copilot, das Ihnen KI-generierten Text vorschlägt. Die andere Möglichkeit ist, den Text von Grund auf selbst zu verfassen. 
 
-## <a name="create-ai-generated-marketing-text-preview-with-copilot"></a><a name=copilot></a>KI-generierte Marketingtexte (Vorschauversion) mit Copilot erstellen
+## <a name="create-ai-generated-marketing-text-preview-with-copilot"></a><a name="create-ai-generated-marketing-text-preview-with-copilot"></a><a name=copilot></a>KI-generierte Marketingtexte (Vorschauversion) mit Copilot erstellen
 
 [!INCLUDE[ai-preview](includes/ai-preview.md)]
 
@@ -29,7 +29,7 @@ Copilot soll Ihnen Zeit sparen und Ihnen dabei helfen, kreative und ansprechende
 > [!NOTE]
 > In der Vorschauversion von Business Central ist KI-generierter Text nur auf Englisch.
 
-### <a name="prerequisites"></a>Voraussetzungen
+### <a name="prerequisites"></a><a name="prerequisites"></a>Voraussetzungen
 
 - Sie verwenden eine [Vorschauversion](ai-preview-getstarted.md) von Business Central, die für Copilot aktiviert ist. Die Aktivierung von Copilot erfolgt durch einen Administrator. Weitere Informationen finden Sie unter [KI-gestützten Marketingtext für Artikel mit Copilot konfigurieren](enable-ai.md).
 - Die Sprache, die Sie in Business Central verwenden, muss Englisch sein. Alle verfügbaren englischen Gebietsschemas funktionieren, wie z. B. Englisch (Vereinigte Staaten), Englisch (Vereinigtes Königreich) oder Englisch (Südafrika).
@@ -37,7 +37,7 @@ Copilot soll Ihnen Zeit sparen und Ihnen dabei helfen, kreative und ansprechende
    Um die Sprache zu ändern, wählen Sie in der oberen rechten Ecke das **Einstellungen**-Symbol ![Einstellungen.](media/ui-experience/settings_icon_small.png "Einstellungssymbol für Rollenzentrum") > **Meine Einstellungen** > **Sprache** aus. Weitere Informationen finden Sie unter [Grundeinstellungen ändern](ui-change-basic-settings.md#language).
 - In den [FAQ zu Copilot](ai-faq.md) erfahren Sie mehr über KI-generierte Textvorschläge von Copilot und deren Verwendung.
 
-### <a name="create-first-draft-with-copilot"></a>Einen ersten Entwurf mit Copilot erstellen
+### <a name="create-first-draft-with-copilot"></a><a name="create-first-draft-with-copilot"></a>Einen ersten Entwurf mit Copilot erstellen
 
 1. Öffnen Sie in Business Central den Artikel, den Sie ändern möchten. Öffnen Sie einen Artikel und gehen Sie wie folgt vor:
 
@@ -72,7 +72,7 @@ Copilot soll Ihnen Zeit sparen und Ihnen dabei helfen, kreative und ansprechende
    > [!TIP]
    > [Woher stammt der Vorschlag?](ai-faq.md#how-does-copilot-work-where-does-the-suggested-text-come-from)
 
-### <a name="review-edit-and-save-text"></a>Text überprüfen, bearbeiten und speichern
+### <a name="review-edit-and-save-text"></a><a name="review-edit-and-save-text"></a>Text überprüfen, bearbeiten und speichern
 
 Sobald Sie den ersten Entwurf haben, müssen Sie ihn überprüfen und ändern, um ihn für die Veröffentlichung vorzubereiten. Das geschieht auf der Seite **Mit Copilot erstellen**. Der aktuelle Text wird im Feld **Marketingtext** angezeigt. Auf der Seite können Sie weitere Vorschläge abrufen, Einstellungen ändern, um die Vorschläge zu beeinflussen, und den Text manuell ändern und formatieren.
 
@@ -94,7 +94,7 @@ Verwenden Sie die folgenden Richtlinien, um den Marketingtext fertigzustellen un
 4. Wenn Sie zum vorherigen Vorschlag zurückkehren möchten, wählen Sie **Rückgängig**.
 5. Überprüfen Sie den Text sorgfältig auf Genauigkeit und Angemessenheit und wählen Sie dann **OK**, um ihn zu speichern.
 
-### <a name="improve-and-tailor-text-suggestions"></a>Textvorschläge verbessern und anpassen
+### <a name="improve-and-tailor-text-suggestions"></a><a name="improve-and-tailor-text-suggestions"></a>Textvorschläge verbessern und anpassen
 
 Sie können einige Schritte unternehmen, um Textvorschläge zu verbessern und sie an Ihre persönlichen oder die Präferenzen Ihres Unternehmens anzupassen.
 
@@ -115,7 +115,7 @@ Sie können einige Schritte unternehmen, um Textvorschläge zu verbessern und si
 
    Copilot findet Wörter und Sätze, die sich auf die Kategorie beziehen, und arbeitet sie in den vorgeschlagenen Text ein.
 
-## <a name="create-marketing-text-from-scratch"></a>Marketingtexte von Grund auf neu erstellen
+## <a name="create-marketing-text-from-scratch"></a><a name="create-marketing-text-from-scratch"></a>Marketingtexte von Grund auf neu erstellen
 
 1. Öffnen Sie in Business Central den Artikel, den Sie ändern möchten, wie folgt:
 
@@ -129,7 +129,7 @@ Sie können einige Schritte unternehmen, um Textvorschläge zu verbessern und si
 3. Nehmen Sie Änderungen am Text direkt im Feld **Marketingtext** vor. Verwenden Sie die Symbolleiste am unteren Rand des Felds, um Text zu formatieren und zu gestalten, Links hinzuzufügen und mehr.
 4. Wählen Sie **OK** aus, wenn Sie soweit sind, den Text zu speichern.
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a><a name="see-also"></a>Siehe auch
 
 [Überblick über KI-gestützte Marketingtexte für Artikel mit Copilot](ai-overview.md)  
 [KI-gestützten Marketingtext für Artikel mit Copilot konfigurieren](enable-ai.md)  

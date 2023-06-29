@@ -7,13 +7,13 @@ ms.topic: conceptual
 ms.author: margoc
 ---
 
-# <a name="partner-pre-sales-learning-catalog"></a>Vorverkauf-Lernkatalog für Partner
+# <a name="partner-pre-sales-learning-catalog"></a><a name="partner-pre-sales-learning-catalog"></a>Vorverkauf-Lernkatalog für Partner
 
 Sind Sie dafür verantwortlich, den Kunden die wichtigsten Funktionen vorzuführen? 
 
 Der folgende Katalog ist vom Kernwissen bis zu spezifischen Bereichen organisiert, von grundlegend bis fortgeschritten. Wenn Inhalte in mehreren Formaten vorliegen, werden wir Sie darüber informieren, so dass Sie das für Ihre Bedürfnisse am besten geeignete Trainingsformat auswählen können. 
 
-## <a name="get-started"></a>Erste Schritte<a name="get-started"></a>
+## <a name="get-started"></a><a name="get-started"></a>Erste Schritte<a name="get-started"></a>
 
 | Inhalt                                                                                                                              | Beschreibung                                                                                                                                                                                                                                                                                      | Format                                | Länge             |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|--------------------|
@@ -23,21 +23,21 @@ Der folgende Katalog ist vom Kernwissen bis zu spezifischen Bereichen organisier
 | [Business Central YouTube Wiedergabeliste](https://www.youtube.com/playlist?list=PLcakwueIHoT-wVFPKUtmxlqcG1kJ0oqq4)                                                                | YouTube Landing Page für Dynamics 365 Business Central Videos | YouTube Videos |                    |
 | [Erforschen Sie die Dynamics 365 Business Central-Funktionen](https://dynamics.microsoft.com/business-central/capabilities/)                                                    | Erkunden Sie die Dynamics 365 Business Central-Funktionen.                                                                                                                                                                                                                                               | Website                               |                    |
 
-## <a name="grow-your-business"></a>Erweitern Sie Ihr Geschäft<a name="grow"></a>
+## <a name="grow-your-business"></a><a name="grow-your-business"></a>Erweitern Sie Ihr Geschäft<a name="grow"></a>
 
 | Inhalt                                                                                                                                | Beschreibung                                                                                                                                                                                                                                                                                      | Format                                | Länge                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------------------|
 | [Dynamics 365 Business Central - Überzeugende Bewerbergespräche (Blitz)](https://mbspartner.microsoft.com/D365/Videos/101761) | Errol Schoenfish, Director of Product Marketing, spricht darüber, wie man überzeugende Gespräche mit potenziellen Kunden über Microsoft Dynamics 365 Business Central führen kann. | Video | 11 Minuten 16 Sekunden |
 | [Dynamics 365 Business Central - Wie man es realisiert](https://mbspartner.microsoft.com/D365/Videos/101787) | Errol Schoenfish, Director of Product Marketing, spricht darüber, wie man mit der Aktivierung von Demos für Microsoft Dynamics 365 Business Central beginnt. | Video | 12 Minuten 29 Sekunden |
 
-## <a name="business-value"></a>Geschäftswert<a name="busvalue"></a>
+## <a name="business-value"></a><a name="business-value"></a>Geschäftswert<a name="busvalue"></a>
 
 | Inhalt                                                                                                                                | Beschreibung                                                                                                                                                                                                                                                                                      | Format                                | Länge                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------------------|
 | [Erforschen Sie die Dynamics 365 Business Central-Funktionen](https://dynamics.microsoft.com/business-central/capabilities/) | Erkunden Sie die Dynamics 365 Business Central-Funktionen. | Website |                     |
 | [Dynamics 365 Business Central](/training/modules/dynamics-365-business-central/) | Dieses Modul zeigt Anwendungsmerkmale, Vorteile und Beispiele für Dynamics 365 Business Central in Aktion. | Kostenloser, selbstbestimmter Online-Lernpfad mit eigenem Tempo | 24 Minuten          |
 
-## <a name="whats-new"></a>Was ist neu<a name="whatsnew"></a>
+## <a name="whats-new"></a><a name="whats-new"></a>Was ist neu<a name="whatsnew"></a>
 
 | Inhalt                                                                                                                                | Beschreibung                                 | Format                                | Länge                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------------------|

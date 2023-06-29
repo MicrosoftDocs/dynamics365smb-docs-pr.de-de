@@ -10,11 +10,11 @@ ms.search.form: 5510
 ms.date: 06/22/2021
 ms.author: edupont
 ---
-# <a name="reverse-output-posting"></a>Gebuchte fertig gestellte Menge stornieren
+# <a name="reverse-output-posting"></a><a name="reverse-output-posting"></a>Gebuchte fertig gestellte Menge stornieren
 
 Es gibt Fälle, in denen die Ausgabebuchung storniert werden muss. Dies ist z. B. der Fall, wenn eine fehlerhafte Dateneingabe passiert ist und eine falsche fertiggestellte Menge in einem Fertigungsauftrag gebucht wurde.  
 
-## <a name="to-reverse-an-output-posting"></a>Eine Ausgangsbuchung stornieren
+## <a name="to-reverse-an-output-posting"></a><a name="to-reverse-an-output-posting"></a>Eine Ausgangsbuchung stornieren
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Erfassung Buch.-Blatt** ein und wählen Sie dann den zugehörigen Link. Wählen Sie Ihren Stapel aus.  
 2. Füllen Sie die Felder je nach Bedarf aus. Weitere Informationen finden Sie unter [Produktionsausgabe und Laufzeiten über Stapelverarbeitung buchen](production-how-to-post-output-quantity.md)
@@ -23,7 +23,7 @@ Es gibt Fälle, in denen die Ausgabebuchung storniert werden muss. Dies ist z. B
 
 Die Posten im FA-Istmeldungsprotokoll werden im Hauptartikelposten als positiver Ausgleich gebucht.  
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a><a name="see-also"></a>Siehe auch
 
  [Produktion](production-manage-manufacturing.md) [Produktion einrichten](production-configure-production-processes.md)  
  [Planung](production-planning.md)  

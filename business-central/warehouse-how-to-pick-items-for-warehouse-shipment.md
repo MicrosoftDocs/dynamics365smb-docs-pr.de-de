@@ -10,7 +10,7 @@ ms.date: 01/25/2023
 ms.custom: bap-template
 ms.search.forms: '7335, 7339, 7345,'
 ---
-# <a name="pick-items-for-warehouse-shipment"></a>Um Artikel für den Warenausgang zu kommissionieren
+# <a name="pick-items-for-warehouse-shipment"></a><a name="pick-items-for-warehouse-shipment"></a>Um Artikel für den Warenausgang zu kommissionieren
 
 In [!INCLUDE[prod_short](includes/prod_short.md)] kommissionieren und versenden Sie Artikel wie in der folgenden Tabelle beschrieben, mit einer von vier Methoden.
 
@@ -39,7 +39,7 @@ Sie können keine Lagerkommissionierbelege von Grund auf erstellen. Kommissionie
 >  
 > Weitere Informationen über das Kommissionieren von Komponenten für Montageaufträge, einschließlich von Situationen, in denen Montageartikel nicht mit einer Verkaufslieferung fällig sind, finden Sie unter [Kommissionierung für Fertigung, Montage oder Projekte in erweiterten Lagerkonfigurationen](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md).  
 
-## <a name="to-create-pick-documents-in-bulk-with-the-pick-worksheet"></a>So erstellen Sie Kommissionierungsdokumente mit dem Kommissionierungsarbeitsblatt in Masse
+## <a name="to-create-pick-documents-in-bulk-with-the-pick-worksheet"></a><a name="to-create-pick-documents-in-bulk-with-the-pick-worksheet"></a>So erstellen Sie Kommissionierungsdokumente mit dem Kommissionierungsarbeitsblatt in Masse
 
 1. Wählen Sie das Symbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Kommissionierarbeitsblatt** ein, und wählen Sie dann den zugehörigen Link.  
 
@@ -89,7 +89,7 @@ Sie können keine Lagerkommissionierbelege von Grund auf erstellen. Kommissionie
 
 8. Wählen Sie **OK** aus. [!INCLUDE [prod_short](includes/prod_short.md)] erstellt die Kommissionierung gemäß Ihrer Auswahl.  
 
-## <a name="to-pick-items-for-a-warehouse-shipment"></a>So kommissionieren Sie Artikel für einen Warenausgang
+## <a name="to-pick-items-for-a-warehouse-shipment"></a><a name="to-pick-items-for-a-warehouse-shipment"></a>So kommissionieren Sie Artikel für einen Warenausgang
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Lager-Kommissionierungen** ein und wählen Sie dann den zugehörigen Link.  
 
@@ -111,9 +111,9 @@ Sie können keine Lagerkommissionierbelege von Grund auf erstellen. Kommissionie
 
 Sie können die Artikel in den Warenausgang bringen und den Warenausgang, einschließlich dem zugehörigen Herkunftsbeleg, auf der Seite **Warenausgang** buchen. Erfahren Sie mehr unter [Elemente versenden](warehouse-how-ship-items.md).
 
-## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/pick-ship-items-warehouse/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/pick-ship-items-warehouse/)
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a><a name="see-also"></a>Siehe auch
 
 [Lagerverwaltung – Übersicht](design-details-warehouse-management.md)
 [Bestand](inventory-manage-inventory.md)  

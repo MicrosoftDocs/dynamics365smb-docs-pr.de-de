@@ -7,17 +7,17 @@ ms.search.form: 810
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="publish-a-web-service"></a>Webdienst veröffentlichen
+# <a name="publish-a-web-service"></a><a name="publish-a-web-service"></a>Webdienst veröffentlichen
 
 Webdienste sind eine einfache Art, Anwendungsfunktionen für verschiedene externe Systeme und Benutzer zugänglich zu machen. Standardmäßig stellt [!INCLUDE[prod_short](includes/prod_short.md)] eine Reihe von Objekten als Webdienste bereit, um eine bessere Integration in andere Microsoft-Dienste zu ermöglichen. Sie können bei Bedarf weitere Webdienste hinzufügen.  
 
 Richten Sie einen Webdienst in [!INCLUDE[prod_short](includes/prod_short.md)] ein, und veröffentlichen Sie den Webdienst anschließend, damit er authentifizierten Benutzern zur Verfügung steht. Alle autorisierten Benutzer können auf Metadaten für Webdienste zugreifen, aber nur Benutzer mit ausreichenden -Berechtigungen können auf tatsächliche Daten zugreifen.  
 
-## <a name="creating-and-publishing-a-web-service"></a>Erstellen und Veröffentlichen eines Webdienstes
+## <a name="creating-and-publishing-a-web-service"></a><a name="creating-and-publishing-a-web-service"></a>Erstellen und Veröffentlichen eines Webdienstes
 
 Die folgenden Schritte erläutern, wie ein Webdienst erstellt und veröffentlicht wird.  
 
-### <a name="to-create-and-publish-a-web-service"></a>So erstellen und veröffentlichen Sie einen Webdienst
+### <a name="to-create-and-publish-a-web-service"></a><a name="to-create-and-publish-a-web-service"></a>So erstellen und veröffentlichen Sie einen Webdienst
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Webdienste** ein, und wählen Sie dann den entsprechenden Link.  
 2. Wählen Sie auf der Seite **Webdienste** **Neu** aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -37,7 +37,7 @@ Sie können den Webdienst sofort testen, indem Sie die Links in den **OData-URL*
 
 Nachdem Sie einen Webdienst veröffentlichen, ist er für externe Seiten verfügbar. Sie können die Verfügbarkeit dieses Webdiensts prüfen, indem Sie einen Browser verwenden, oder Sie können den Link in den Feldern **OData-URL** und **SOAP-URL** auf der Seite **Webdienste** auswählen. Im folgenden Verfahren wird gezeigt, wie Sie die Verfügbarkeit des Webdienstes für die spätere Verwendung prüfen können.  
 
-### <a name="to-verify-the-availability-of-a-web-service"></a>So prüfen Sie die Verfügbarkeit eines Webdienstes
+### <a name="to-verify-the-availability-of-a-web-service"></a><a name="to-verify-the-availability-of-a-web-service"></a>So prüfen Sie die Verfügbarkeit eines Webdienstes
 
 1. Geben Sie in Ihrem Browser die entsprechende URL ein. Die folgende Tabelle zeigt die Arten von URLs, die Sie für unterschiedliche Webservicearten eingeben können.  
 
@@ -59,7 +59,7 @@ https://api.businesscentral.dynamics.com/v1.0/OData/Company('CRONUS Internationa
 https://api.businesscentral.dynamics.com/v1.0/OData/Customer?company='CRONUS International Ltd.'  
 ```
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a><a name="see-also"></a>Siehe auch
 
 [Verwaltung](admin-setup-and-administration.md)  
 [Business Central-Web Services für Entwickler](/dynamics365/business-central/dev-itpro/webservices/web-services)  

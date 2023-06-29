@@ -11,7 +11,7 @@ ms.search.form: null
 ms.date: 04/01/2021
 ms.author: jswymer
 ---
-# <a name="sorting-searching-and-filtering"></a>Sortieren, Durchsuchen und Filtern
+# <a name="sorting-searching-and-filtering"></a><a name="sorting-searching-and-filtering"></a>Sortieren, Durchsuchen und Filtern
 
 Es gibt mehrere Möglichkeiten, wie Sie das tun können und die dabei helfen, Datensätze in einer Liste oder einem Bericht oder XMLport zu scannen, zu suchen und einzugrenzen. Diese umfassen Sortierung, Suche und Filterung. Sie können einige oder alle davon gleichzeitig anwenden, um die Daten schnell zu finden oder zu analysieren.
 
@@ -26,7 +26,7 @@ Für Berichte und XML-Ports können Sie, wie bei Listen, Filter setzen, um abzug
 When you want to search for data, such as customer names, addresses, or product groups, you enter criteria. In search criteria, you can use all the numbers and letters that you normally use in the specific field. In addition, you can use special symbols to further filter the results. There are two ways to search: using the Quick Filter or column filters.
 -->
 
-## <a name="sorting"></a>Sortieren
+## <a name="sorting"></a><a name="sorting"></a>Sortieren
 
 Dank der Sortierfunktion können Sie sich schnell und einfach einen Überblick über Ihre Daten verschaffen. Wenn Sie beispielsweise über zahlreiche Debitorenkontakte verfügen, könnten Sie diese nach folgenden Kriterien sortieren: **Debitorennummer**, **Währungscode** oder **Länder-/Regionencode** um die gewünschte Übersicht zu erhalten.
 
@@ -38,7 +38,7 @@ Um eine Liste zu sortieren, können Sie entweder:
 > [!NOTE]  
 > Sortierung wird nicht auf Bilder, BLOB-Felder und FlowFilter unterstützt, die keiner Tabelle angehören.  
 
-## <a name="searching"></a>Suchen
+## <a name="searching"></a><a name="searching"></a>Suchen
 
 <!--## Searching by using the Quick Filter -->
 Oben auf jeder Listenseite befindet sich ein ![Suchliste.](media/ui-search/search-list.png "Symbol für die Suchliste") **Suche**, die eine schnelle und einfache Möglichkeit bietet, die Datensätze in einer Liste zu reduzieren und nur die Datensätze anzuzeigen, die die Daten enthalten, an denen Sie interessiert sind.
@@ -54,7 +54,7 @@ Im Allgemeinen versucht die Suche, Text in allen Feldern abzugleichen. Dabei wir
 > Die Suche stimmt nicht mit Werten in Bildern, BLOB-Feldern, FlowFiltern, FlowFields und anderen Feldern überein, die nicht Teil einer Tabelle sind.
 
 
-### <a name="fine-tuning-the-search-with-filter-criteria"></a>Feinabstimmung der Suche mit Filterkriterien
+### <a name="fine-tuning-the-search-with-filter-criteria"></a><a name="fine-tuning-the-search-with-filter-criteria"></a>Feinabstimmung der Suche mit Filterkriterien
 
 Sie können eine genauere Suche durchführen, indem Sie Filteroperatoren, Ausdrücke und Filtertoken verwenden. Im Gegensatz zur Filterung werden diese bei Verwendung im Suchfeld auf alle Felder angewendet, wodurch sie weniger effizient sind als die Filterung.
 
@@ -77,7 +77,7 @@ Die folgende Tabelle enthält einige Beispiele, um zu erläutern, wie Sie die Su
 |`@*man`|Alle Datensätze, die mit dem Text **man** enden, ungeachtet der Groß-/Kleinschreibung. Beispielsweise **Roman**, aber nicht **Mannheim** oder **manuell**.|
 
 
-## <a name="filtering"></a><a name="filtering"></a>Filterung
+## <a name="filtering"></a><a name="filtering"></a><a name="filtering"></a>Filterung
 
 Filterung bietet eine erweiterte und vielseitigere Art zum Steuern der in einer Liste, einem Bericht oder einem XMLport angezeigten Datensätze. Es gibt zwei wichtige Unterschiede zwischen Suchen und Filtern, wie in der folgenden Tabelle beschrieben wird.
 
@@ -90,7 +90,7 @@ Filterung ermöglicht es Ihnen, Datensätze für bestimmte Konten oder Debitoren
 
 Bei Listen werden die Filter in einem Filterbereich angezeigt, der beim Aktivieren links von der Liste angezeigt wird. Für Berichte, Stapeljobs und XML-Ports sind die Filter direkt auf der Anforderungsseite sichtbar.
 
-### <a name="filtering-with-option-fields"></a>Filtern mit Optionsfeldern
+### <a name="filtering-with-option-fields"></a><a name="filtering-with-option-fields"></a>Filtern mit Optionsfeldern
 
 Für normale Felder, die Daten, Einrichtungsdatum oder Geschäftsdaten enthalten, können Sie Filter festlegen, indem Sie Daten auswählen und Filterwerte eingeben. Mithilfe von Symbolen können Sie erweiterte Filterkriterien definieren. Informationen erhalten Sie unter [Eingeben von Filterkriterien](ui-enter-criteria-filters.md#entering-filter-criteria)
 
@@ -99,7 +99,7 @@ Für Felder vom Typ **Möglichkeit** können Sie einen Filter jedoch nur festleg
 > [!NOTE]
 > Wenn Sie mehrere Optionen als Filterwert auswählen, wird die Beziehung zwischen den Optionen als *ODER* definiert. Zum Beispiel, wenn Sie das Kontrollkästchen **Öffnen** und **Freigegeben** im **Status** Filterfeld auf der Seite **Kundenaufträge** auswählen, bedeutet dies, dass offene oder freigegebene Kundenaufträge angezeigt werden.
 
-### <a name="setting-filters-on-lists"></a>Festlegen von Filtern in Listen
+### <a name="setting-filters-on-lists"></a><a name="setting-filters-on-lists"></a>Festlegen von Filtern in Listen
 
 In Listen legen Sie Filter mithilfe des Filterbereichs fest. Um den Filterbereich für eine Liste anzuzeigen, klicken Sie auf den Dropdown-Pfeil neben dem Namen der Seite und wählen Sie dann die **Filterbereich anzeigen** Aktion. Alternativ können Sie auch <kbd>UMSCHALT</kbd>+<kbd>F3</kbd> auswählen.
 
@@ -126,7 +126,7 @@ Der Filterbereich enthält die aktuellen Filter für eine Liste und ermöglicht 
 
 Sie können einen einfachen Filter direkt in einer Liste im Filterbereich festlegen, dh einen Filter, der nur Datensätze mit demselben Wert wie in der ausgewählten Zelle anzeigt. Um eine Zelle in einer Liste anzuzeigen, klicken Sie auf den Dropdown-Pfeil neben dem Namen der Seite und wählen Sie dann die **Filter für diesen Wert anzeigen** Aktion. Alternativ können Sie auch <kbd>Alt</kbd>+<kbd>F3</kbd> auswählen.
 
-### <a name="setting-filters-in-reports-batch-jobs-and-xmlports"></a>Festlegen von Filtern in Berichten, Stapeljobs und XML-Ports
+### <a name="setting-filters-in-reports-batch-jobs-and-xmlports"></a><a name="setting-filters-in-reports-batch-jobs-and-xmlports"></a>Festlegen von Filtern in Berichten, Stapeljobs und XML-Ports
 
 Für Berichte und XML-Ports sind die Filter direkt auf der Anforderungsseite sichtbar. Auf der Anforderungsseite werden die zuletzt verwendeten Filter entsprechend Ihrer Auswahl im Feld **Verwenden Sie die Standardwerte von** angezeigt. Weitere Informationen finden Sie unter [Gespeicherte Einstellungen verwenden](ui-work-report.md#SavedSettings).
 
@@ -134,7 +134,7 @@ Der Abschnitt wesentlicher **Filter** zeigt die Standardfilterfelder an, mit den
 
 In dem **Gesamtsummen filtern nach** Abschnitt können Sie verschiedene Dimensionen anpassen, die die Berechnungen im Bericht oder XMLport beeinflussen. Um einen Filter hinzuzufügen, wählen Sie die **+ Filter** Aktion. Geben Sie dann den Namen des Felds ein, nach dem Sie die Liste filtern möchten, oder wählen Sie ein Feld aus der Dropdown-Liste aus.
 
-## <a name="entering-filter-criteria"></a>Eingeben von Filterkriterien
+## <a name="entering-filter-criteria"></a><a name="entering-filter-criteria"></a>Eingeben von Filterkriterien
 
 Sowohl im Filterbereich als auch auf einer Anforderungsseite geben Sie Ihre Filterkriterien in das Feld unter dem Filterfeld ein.
 
@@ -145,7 +145,7 @@ Spalten, die bereits über Filter verfügen, werden durch das Symbol ![Filter.](
 > [!TIP]
 > Beschleunigen Sie die Suche und das Analysieren Ihrer Daten, indem Sie Kombinationen von Tastenkombinationen verwenden. Wählen Sie zum Beispiel ein Feld aus, verwenden Sie <kbd>UMSCHALT</kbd>+<kbd>ALT</kbd>+<kbd>F3</kbd>, um diesen Filter dem Filterbereich hinzuzufügen und verwenden Sie <kbd>STRG</kbd>+<kbd>EINGABETASTE</kbd>, um die Zeilen zurückzugeben, wählen Sie ein anderes Feld aus und verwenden Sie <kbd>ALT</kbd>+<kbd>F3</kbd>, um zu diesem Wert zu filtern. Weitere Informationen finden Sie unter [Einrichten von Tastenkombinationen](keyboard-shortcuts.md#KeyboardFilter).
 
-### <a name="a-namefiltercriteria-afilter-criteria-and-operators"></a><a name="FilterCriteria"> </a>Filterkriterien und Operatoren
+### <a name="a-namefiltercriteria-afilter-criteria-and-operators"></a><a name="a-namefiltercriteria-afilter-criteria-and-operators"></a><a name="FilterCriteria"> </a>Filterkriterien und Operatoren
 
 Beim Eingeben von Filterkriterien können alle Ziffern und Buchstaben verwendet werden, die auch normalerweise im Feld zulässig sind. Es gibt aber auch eine Reihe spezieller Symbole, die Sie als Operatoren verwenden können, um die Ergebnisse weiter zu filtern. In den folgenden Abschnitten werden diese Symbole und ihre Verwendung als Operatoren in Filtern beschrieben.
 
@@ -157,7 +157,7 @@ Beim Eingeben von Filterkriterien können alle Ziffern und Buchstaben verwendet 
 >
 > - Wenn ein Filter mehr als 200 Operatoren enthält, gruppiert das System einige Ausdrücke automatisch in Klammern `()` zum Zwecke der Verarbeitung. Dies hat keine Auswirkungen auf den Filter oder die Ergebnisse.  
 
-#### <a name="-interval"></a>(..) Intervall
+#### <a name="-interval"></a><a name="-interval"></a>(..) Intervall
 
 |Beispielausdruck|Angezeigte Datensätze|  
 |-----------------------|-----------------------|  
@@ -172,62 +172,62 @@ Beim Eingeben von Filterkriterien können alle Ziffern und Buchstaben verwendet 
 > [!TIP]
 > Wenn Sie einen Ziffernblock verwenden, gibt die Dezimaltrenntaste möglicherweise ein anderes Zeichen als einen Punkt (.) aus. Um zu einem Punkt zu wechseln, wählen Sie die Tasten <kbd>Alt</kbd>+<kbd>Dezimaltrennzeichen</kbd> auf dem Ziffernblock. Wenn Sie zurückwechseln möchten, wählen Sie <kbd>Alt</kbd>+<kbd>Dezimaltrennzeichen</kbd> erneut. Weitere Informationen finden Sie unter [Festlegen des Dezimaltrennzeichens, das von numerischen Tastaturen verwendet wird](ui-enter-data.md#decimal).
 
-#### <a name="124-eitheror"></a>(&#124;) Entweder/oder
+#### <a name="124-eitheror"></a><a name="124-eitheror"></a>(&#124;) Entweder/oder
 
 |Beispielausdruck|Angezeigte Datensätze|  
 |-----------------------|-----------------------|  
 |`1200|1300`|Nummern mit 1200 oder 1300|  
 
-#### <a name="-not-equal-to"></a>(<>) Ungleich
+#### <a name="-not-equal-to"></a><a name="-not-equal-to"></a>(<>) Ungleich
 
 |Beispielausdruck|Angezeigte Datensätze|  
 |-----------------------|-----------------------|  
 |`<>0`|Alle Datensätze außer der Nummer Null<br /><br /> Die SQL Server-Option ermöglicht es Ihnen, dieses Symbol mit einem Platzhalterausdruck zu kombinieren. So wird beispielsweise mit "<>A*" Text beschrieben, der nicht mit einem großen A beginnt.|  
 
-#### <a name="-greater-than"></a>(>) Größer als
+#### <a name="-greater-than"></a><a name="-greater-than"></a>(>) Größer als
 
 |Beispielausdruck|Angezeigte Datensätze|  
 |-----------------------|-----------------------|  
 |`>1200`|Datensatznummern größer als 1200|  
 
-#### <a name="-greater-than-or-equal-to"></a>(>=) Größer oder gleich
+#### <a name="-greater-than-or-equal-to"></a><a name="-greater-than-or-equal-to"></a>(>=) Größer oder gleich
 
 |Beispielausdruck|Angezeigte Datensätze|  
 |-----------------------|-----------------------|  
 |`>=1200`|Datensatznummern ab einschließlich 1200 aufwärts|  
 
-#### <a name="-less-than"></a>(<) Kleiner als
+#### <a name="-less-than"></a><a name="-less-than"></a>(<) Kleiner als
 
 |Beispielausdruck|Angezeigte Datensätze|  
 |-----------------------|-----------------------|  
 |`<1200`|Datensatznummern kleiner als 1200|  
 
-#### <a name="-less-than-or-equal-to"></a>(<=) Kleiner oder gleich
+#### <a name="-less-than-or-equal-to"></a><a name="-less-than-or-equal-to"></a>(<=) Kleiner oder gleich
 
 |Beispielausdruck|Angezeigte Datensätze|  
 |-----------------------|-----------------------|  
 |`<=1200`|Datensatznummern kleiner als oder gleich 1200|  
 
-#### <a name="-and"></a>(&) Und
+#### <a name="-and"></a><a name="-and"></a>(&) Und
 
 |Beispielausdruck|Angezeigte Datensätze|  
 |-----------------------|-----------------------|  
 |`>200&<1200`|Nummern größer 200 und Nummern kleiner 1200.|  
 
-#### <a name="-an-exact-character-match"></a>(") Eine genaue Zeichenübereinstimmung
+#### <a name="-an-exact-character-match"></a><a name="-an-exact-character-match"></a>(") Eine genaue Zeichenübereinstimmung
 
 |Beispielausdruck|Angezeigte Datensätze|  
 |-----------------------|-----------------------|  
 |`'man'`|Text, der genau mit **Mann** übereinstimmt und die Groß-/Kleinschreibung berücksichtigt.|  
 |`''`|Text, der leer ist.|  
 
-#### <a name="-case-insensitive"></a>(@) Groß-/Kleinschreibung beachten
+#### <a name="-case-insensitive"></a><a name="-case-insensitive"></a>(@) Groß-/Kleinschreibung beachten
 
 |Beispielausdruck|Angezeigte Datensätze|  
 |-----------------------|-----------------------|  
 |`@man*`|Text, der mit **Mann** beginnt und die Groß-/Kleinschreibung beachtet.|  
 
-#### <a name="-an-indefinite-number-of-unknown-characters"></a>(*) Beliebig viele unbekannte Zeichen
+#### <a name="-an-indefinite-number-of-unknown-characters"></a><a name="-an-indefinite-number-of-unknown-characters"></a>(*) Beliebig viele unbekannte Zeichen
 
 |Beispielausdruck|Angezeigte Datensätze|  
 |-----------------------|-----------------------|  
@@ -235,13 +235,13 @@ Beim Eingeben von Filterkriterien können alle Ziffern und Buchstaben verwendet 
 |`*Co`|Text, der mit **Co** endet und die Groß-/Kleinschreibung berücksichtigt.|  
 |`Co*`|Text, der mit **Co** beginnt und die Groß-/Kleinschreibung berücksichtigt.|  
 
-#### <a name="-one-unknown-character"></a>(?) Ein unbekannter Buchstabe
+#### <a name="-one-unknown-character"></a><a name="-one-unknown-character"></a>(?) Ein unbekannter Buchstabe
 
 |Beispielausdruck|Angezeigte Datensätze|  
 |-----------------------|-----------------------|  
 |`Hans?n`|Text wie **Hansen** oder **Hanson**|  
 
-#### <a name="combined-format-expressions"></a>Kombinierte Formatausdrücke
+#### <a name="combined-format-expressions"></a><a name="combined-format-expressions"></a>Kombinierte Formatausdrücke
 
 |Beispielausdruck|Angezeigte Datensätze|  
 |-----------------------|-----------------------|  
@@ -249,7 +249,7 @@ Beim Eingeben von Filterkriterien können alle Ziffern und Buchstaben verwendet 
 |`..1299|1400..`|Alle Datensätze mit Nummern kleiner als bzw. gleich 1299 oder mit Nummern größer als bzw. gleich 1400, d. h. alle Datensatznummern außer 1300 bis 1399.|  
 |`>50&<100`|Alle Datensätze mit Nummern größer als 50 und kleiner als 100, d. h. mit Nummern zwischen 51 und 99.|  
 
-### <a name="filtering-on-values-that-contain-symbols"></a><a name="symbols"></a>Filtern nach Werten, die Symbole enthalten
+### <a name="filtering-on-values-that-contain-symbols"></a><a name="filtering-on-values-that-contain-symbols"></a><a name="symbols"></a>Filtern nach Werten, die Symbole enthalten
 
 Es kann Fälle geben, in denen Feldwerte eines der folgenden Symbole enthalten:
 
@@ -263,14 +263,14 @@ Wenn Sie auf eines dieser Symbole filtern wollen, setzen Sie den Filterausdruck 
 
 Diese Anforderung ist für andere Symbole nicht erforderlich.
 
-### <a name="a-namefiltertokens-afilter-tokens"></a><a name="FilterTokens"> </a>Filtertoken
+### <a name="a-namefiltertokens-afilter-tokens"></a><a name="a-namefiltertokens-afilter-tokens"></a><a name="FilterTokens"> </a>Filtertoken
 
 Wenn Sie Filterkriterien eingeben, können Sie auch Begriffe mit besonderer Bedeutung eingeben, die Filtertoken genannt werden. Nachdem Sie das Token-Wort eingegeben haben, wird das Wort durch den Wert oder die Werte ersetzt, die es darstellt. Dadurch wird das Filtern einfacher, indem die Notwendigkeit verringert wird, auf andere Seiten zu navigieren, um dort Werte nachzuschlagen, die Sie Ihrem Filter hinzufügen möchten. In den folgenden Tabellen werden einige der Token beschreiben, die Sie als Filterkriterien eingeben können.
 
 > [!TIP]
 > Ihre Organisation verwendet möglicherweise benutzerdefinierte Token. Informationen zum verfügbaren kompletten Token-Satz, oder zum Hinzufügen weiterer benutzerdefinierter Token erhalten Sie von Ihren Administrator. Technischer Informationen finden Sie unter [Hinzufügen von Filter-Token](/dynamics365/business-central/dev-itpro/developer/devenv-adding-filter-tokens).
 
-#### <a name="me-or-userid-records-assigned-to-you"></a>(%me oder %userid) Ihnen zugewiesene Datensätze
+#### <a name="me-or-userid-records-assigned-to-you"></a><a name="me-or-userid-records-assigned-to-you"></a>(%me oder %userid) Ihnen zugewiesene Datensätze
 
 Verwenden Sie `%me` oder `%userid`, wenn Sie Felder filtern, die die Benutzer-ID, wie das Feld **Benutzer-ID zugewiesen**, enthalten, um alle Datensätze anzuzeigen, die Ihnen zugeordnet werden.
 
@@ -278,7 +278,7 @@ Verwenden Sie `%me` oder `%userid`, wenn Sie Felder filtern, die die Benutzer-ID
 |-----------------------|-----------------------|  
 |`%me`<br />oder<br />`%userid`|Datensätze, die Ihrem Benutzerkonto zugewiesen sind. |  
 
-#### <a name="mycustomers-customers-in-my-customers"></a>(%mycustomers) Debitoren in "Meine Debitoren"
+#### <a name="mycustomers-customers-in-my-customers"></a><a name="mycustomers-customers-in-my-customers"></a>(%mycustomers) Debitoren in "Meine Debitoren"
 
 Verwenden Sie `%mycustomers` im Feld Debitoren-**Nr**, um alle Datensätze für Debitoren anzuzeigen, die in der Liste **Meine Debitoren** in Ihrem Rollencenter enthalten sind.
 
@@ -286,7 +286,7 @@ Verwenden Sie `%mycustomers` im Feld Debitoren-**Nr**, um alle Datensätze für 
 |-----------------------|-----------------------|  
 |`%mycustomers`|Debitoren in **Meine Debitoren** in Ihrem Rollencenter. |  
 
-#### <a name="myitems-items-in-my-items"></a>(%myitems) Artikel in "Meine Artikel"
+#### <a name="myitems-items-in-my-items"></a><a name="myitems-items-in-my-items"></a>(%myitems) Artikel in "Meine Artikel"
 
 Verwenden Sie `%myitems` im Feld Artikel-**Nr**, um alle Datensätze für Artikel anzuzeigen, die in der Liste **Meine Artikel** in Ihrem Rollencenter enthalten sind.
 
@@ -294,7 +294,7 @@ Verwenden Sie `%myitems` im Feld Artikel-**Nr**, um alle Datensätze für Artike
 |-----------------------|-----------------------|  
 |`%myitems`|Artikel in **Meine Artikel** in Ihrem Rollencenter. |  
 
-#### <a name="myvendors-vendors-in-my-vendors"></a>(%myvendors) in "Meine Kreditoren"
+#### <a name="myvendors-vendors-in-my-vendors"></a><a name="myvendors-vendors-in-my-vendors"></a>(%myvendors) in "Meine Kreditoren"
 
 Verwenden Sie `%myvendors` im Feld Kreditoren-**Nr**, um alle Datensätze für Kreditoren anzuzeigen, die in der Liste **Meine Kreditoren** in Ihrem Rollencenter enthalten sind.
 
@@ -302,9 +302,9 @@ Verwenden Sie `%myvendors` im Feld Kreditoren-**Nr**, um alle Datensätze für K
 |-----------------------|-----------------------|  
 |`%myvendors`|Kreditoren in **Meine Kreditoren** in Ihrem Rollencenter. |  
 
-## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/search-filter-sort-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/search-filter-sort-data-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a><a name="see-also"></a>Siehe auch
 
 [Suchen und Filtern FAQ](ui-search-filter-faq.yml)  
 [Speichern und personalisieren Sie Listenansichten](ui-views.md)  

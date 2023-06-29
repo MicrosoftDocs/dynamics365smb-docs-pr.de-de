@@ -11,12 +11,12 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ---
 
-# <a name="data-ownership-models"></a>Modelle für Datenbesitz
+# <a name="data-ownership-models"></a><a name="data-ownership-models"></a>Modelle für Datenbesitz
 
 
 [!INCLUDE[prod_short](includes/cds_long_md.md)] erfordert, dass Sie einen Eigentümer für die von Ihnen gespeicherten Daten angeben. Weitere Informationen finden Sie unter [Arten von Tabellen](/powerapps/maker/data-platform/types-of-entities) in der Power Apps-Dokumentation. Wenn Sie die Integration zwischen [!INCLUDE[prod_short](includes/cds_long_md.md)] und [!INCLUDE[prod_short](includes/prod_short.md)] einrichten, müssen Sie **Benutzer oder Team**-Besitz für synchronisierte Datensätze auswählen. Aktionen, die mit diesen Datensätzen ausgeführt werden können, können auf Benutzerebene gesteuert werden. <!--We recommend the Team ownership model because it makes it easier to manage ownership for multiple people.NO LONGER TRUE IN DATAVERSE-->
 
-## <a name="team-ownership"></a>Team-Eigentum
+## <a name="team-ownership"></a><a name="team-ownership"></a>Team-Eigentum
 In [!INCLUDE[prod_short](includes/prod_short.md)] ist ein Unternehmen eine juristische und geschäftliche Tabelle, die Möglichkeiten zur Sicherung und Visualisierung von Geschäftsdaten bietet. Benutzer arbeiten immer im Kontext eines Unternehmens. Diesem Konzept kommt [!INCLUDE[prod_short](includes/cds_long_md.md)] am nächsten, da die Geschäftseinheitstabelle keine rechtlichen oder geschäftlichen Auswirkungen hat.
 
 Da Geschäftseinheiten keine rechtlichen und geschäftlichen Auswirkungen haben, können Sie keine eins-zu-eins (1:1)-Abbildung erzwingen, um Daten zwischen einem Unternehmen und einer Geschäftseinheit zu synchronisieren, weder einseitig noch bidirektional. Um die Synchronisierung zu ermöglichen, geschieht, wenn Sie die Synchronisierung für ein Unternehmen in [!INCLUDE[prod_short](includes/prod_short.md)] aktivieren, Folgendes in [!INCLUDE[prod_short](includes/cds_long_md.md)]:
@@ -50,21 +50,21 @@ Die Synchronisation bestimmt, welches Team Datensätze besitzen soll. Dies wird 
 > [!NOTE]
 > Die Aufzeichnungen werden schreibgeschützt, nachdem eine Firma hinzugefügt und gespeichert wurde, also achten Sie darauf, die richtige Firma zu wählen.
 
-## <a name="choosing-a-different-business-unit"></a>Auswahl einer anderen Geschäftseinheit
+## <a name="choosing-a-different-business-unit"></a><a name="choosing-a-different-business-unit"></a>Auswahl einer anderen Geschäftseinheit
 Sie können die Auswahl des Konzernmandanten ändern, wenn Sie das Modell „Team-Eigentum“ verwenden. Wenn Sie das Modell „Personenbesitz“ verwenden, wird immer der Standard-Konzernmandant ausgewählt. 
 
 Wenn Sie einen anderen Konzernmandanten auswählen, z. B. einen, den Sie zuvor in [!INCLUDE[prod_short](includes/cds_long_md.md)] angelegt haben, behält er seinen ursprünglichen Namen. Das heißt, es wird nicht mit dem Suffix der Firmen-ID versehen. Wir werden ein Team zusammenstellen, das die Namenskonvention anwendet.
 
 Beim Ändern eines Konzernmandanten können Sie nur die Konzernmandanten auswählen, die eine Ebene unter dem Stamm-Konzernmandanten liegen.
 
-## <a name="person-ownership"></a>Eigentum der Person
+## <a name="person-ownership"></a><a name="person-ownership"></a>Eigentum der Person
 Wenn Sie das Modell Personenbesitz wählen, müssen Sie jeden Verkäufer angeben, der neue Datensätze besitzen wird. Der Konzernmandant und das Team werden wie im vorherigen Abschnitt [Team-Besitz](admin-cds-company-concept.md#team-ownership) beschrieben angelegt.
 
 Der Standard-Konzernmandant wird verwendet, wenn das Modell „Personenbesitz“ ausgewählt ist, und Sie können keinen anderen Konzernmandanten auswählen. Das Team, das dem Standard-Konzernmandanten zugeordnet ist, besitzt Datensätze für allgemeine Tabellen, z. B. die Produkttabellen, die nicht mit bestimmten Verkäufern verknüpft sind.
 
 Wenn Sie Verkäufer in [!INCLUDE[prod_short](includes/prod_short.md)] mit Benutzern in [!INCLUDE[prod_short](includes/cds_long_md.md)] koppeln, fügt [!INCLUDE[prod_short](includes/prod_short.md)] den Benutzer dem Standardteam in [!INCLUDE[prod_short](includes/cds_long_md.md)] hinzu. Sie können überprüfen, ob Benutzer hinzugefügt wurden, indem Sie sich die Spalte **Standardteam-Mitglied** auf der Seite **Benutzer - Common Data Service** ansehen. Wenn der Benutzer nicht hinzugefügt wurde, können Sie ihn manuell mithilfe der Aktion **Gekoppelte Benutzer dem Team hinzufügen** hinzufügen. Weitere Informationen finden Sie unter [Synchronisieren von Daten in Business Central mit Dataverse](admin-synchronizing-business-central-and-sales.md).
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a><a name="see-also"></a>Siehe auch
 [Über [!INCLUDE[prod_short](includes/cds_long_md.md)]](admin-common-data-service.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -10,14 +10,14 @@ author: AndreiPanko
 ms.author: andreipa
 ---
 
-# Ein Shopify-Konto erstellen und festlegen
+# <a name="create-and-set-up-a-shopify-account"></a>Ein Shopify-Konto erstellen und festlegen
 
 Wenn Sie überlegen, ob Sie Shopify als Ihre E-Commerce-Lösung verwenden sollen und ein Shopify-Konto benötigen, um den integrierten Workflow zu validieren, haben Sie folgende Möglichkeiten:
 
 - Holen Sie sich eine Testversion. Dies ist der typische Ausgangspunkt für Endbenutzer.  
 - Erstellen Sie Entwicklungs-Stores. Dieser Ansatz ist für Partner gedacht, die wiederkehrende Demos und Schulungen durchführen und Support anbieten.
 
-## Testversion (Endbenutzer)
+## <a name="trial-end-user"></a>Testversion (Endbenutzer)
 
 Rufen Sie die [Shopify-Website](https://www.shopify.com) auf und verwenden Sie Ihr E-Mail-Konto für das Administratorkonto, um sich für einen kostenlosen Test zu registrieren. Erfahren Sie im [Shopify Help Center](https://help.shopify.com/) mehr darüber, wie Sie Ihren Online Store erstellen und personalisieren können.
 
@@ -36,7 +36,7 @@ Im **Shopify Admin** des erstellten Shops wenden Sie die folgenden **Einstellung
 > [!Important]  
 > Um Zahlungen zu vermeiden, denken Sie daran, Ihren Shopify-Test zu kündigen.
 
-## Entwicklung des Stores
+## <a name="development-store"></a>Entwicklung des Stores
 
 Beginnen Sie damit, dem [Shopify Partnerprogramm](https://help.shopify.com/partners/about) beizutreten. Anschließend erstellen Sie über das **Partner Dashboard** den Entwicklungs-Store. Erfahren Sie mehr unter [Erstellen von Development Stores](https://help.shopify.com/partners/dashboard/managing-stores/development-stores).
 
@@ -53,7 +53,7 @@ Nachdem Sie den Store erstellt haben, wenden Sie im **Shopify Admin** des erstel
 > [!Note]  
 > Entwicklungsshops sind normalerweise passwortgeschützt. Wenn Sie versuchen, eine bestimmte Seite in Ihrem Onlineshop von [!INCLUDE [prod_short](../includes/prod_short.md)] aus zu öffnen, zum Beispiel, um zu einem bestimmten Produkt oder Auftrag zu gelangen, müssen Sie Ihr Passwort eingeben. Um die Eingabe Ihres Passworts zu vermeiden, melden Sie sich während des Tests bei Ihrem Shopify Administrierenden an und öffnen Sie Ihrem Shop von dort aus. Sie müssen das Shop-Passwort erst eingeben, wenn Sie Ihren Browser schließen oder Ihre Sitzung abläuft.  
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Erste Schritte mit dem Shopify-Konnektor](get-started.md)  
 [Beispielhafte Vorgehensweise: Einrichten und Verwenden des Shopify Konnektors](walkthrough-setting-up-and-using-shopify.md)

@@ -11,7 +11,7 @@ ms.search.keywords: 'sandbox, demo, develop'
 ms.date: 12/20/2021
 ms.author: solsen
 ---
-# <a name="sandbox-environments-in-"></a>Sandbox-Umgebungen in [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="sandbox-environments-in-"></a><a name="sandbox-environments-in-"></a>Sandbox-Umgebungen in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Mit [!INCLUDE[prod_short](includes/prod_short.md)] Online können Sie auf einfache Weise eine sichere Umgebung schaffen, in der Sie testen, trainieren oder Fehler beheben können, ohne die Arbeitsprozesse oder Geschäftsdaten Ihres Unternehmens zu beeinträchtigen. Eine solche Nichtproduktionsumgebung heißt *Sandbox*. Isoliert von der Produktion ist eine Sandboxumgebung der Ort, um den Dienst sicher zu untersuchen, erfahren, testen und entwickeln, ohne das Risiko des Beeinflussens der Daten und Einstellungen Ihrer Fertigungsumgebungen zur riskieren.  
 
@@ -35,13 +35,13 @@ Die Sandboxumgebung ist nicht zuletzt deshalb nützlich, weil sie einige nützli
 <!--* [Complete sample data](#complete-sample-data)  -->
 * [Designer](#designer)  
 
-## <a name="advanced-user-experience"></a>Erweiterte Benutzeroberfläche
+## <a name="advanced-user-experience"></a><a name="advanced-user-experience"></a>Erweiterte Benutzeroberfläche
 
 Es ist möglich, die vollständige Funktion der Standardversion von [!INCLUDE[prod_short](includes/prod_short.md)] in einem Sandbox-Mandant zu aktivieren, indem Sie das Feld **Erfahrung** auf der Seite **Unternehmensinformationen** auf *Premium* festlegen. Suchen Sie die Seite **Unternehmensdaten** im Symbol :::image type="content" source="media/ui-experience/settings_icon_small.png" alt-text="Einstellungen."::: Menü.  
 
 Nachdem Sie die *Premium*-Benutzererfahrung aktiviert haben, erhalten Sie Zugriff auf alle Standardprofile (Rollen) und Rollencenter in der Standardversion. Wenden Sie sich zur Demonstration der Möglichkeiten alternativ an einen Wiederverkaufspartner. Weitere Informationen finden Sie unter [Wie finde ich einen Wiederverkaufspartner?](across-faq.yml#how-do-i-find-a-reselling-partner).  
 
-### <a name="complete-sample-data"></a>Vollständige Beispieldaten
+### <a name="complete-sample-data"></a><a name="complete-sample-data"></a>Vollständige Beispieldaten
 
 In Situationen, in denen Sie zusätzliche Beispieldaten benötigen, wenden Sie sich bitte an Ihren Vertriebspartner.
 <!-- In the sandbox environment, you can also create a new company with the **Advanced Evaluation - Complete Sample Data** option so that you can take training or step through walkthroughs that require additional sample data, such as [Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations](walkthrough-receiving-and-putting-away-in-basic-warehousing.md).   -->
@@ -56,7 +56,7 @@ In Situationen, in denen Sie zusätzliche Beispieldaten benötigen, wenden Sie s
 
 When the assisted setup guide completes, you can start exploring the new company with the complete sample data. For more information, see [Creating New Companies in [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md).  -->
 
-## <a name="designer"></a>Designerin
+## <a name="designer"></a><a name="designer"></a>Designerin
 
 In einer Sandboxumgebung finden Sie den **Designer** aktiviert. Sie können den Designer aktivieren, indem Sie das Symbol ![Designer](./media/across-sandbox/sandbox-inclient-design-icon.png) auf einer Seite oder durch Auswahl des Menüelements **Design** im Menü ![Einstellungen ](media/ui-experience/settings_icon_small.png) Einstellungen.  
 
@@ -64,9 +64,9 @@ Weitere Informationen finden Sie in den Entwickler- und Verwaltungsinhalten unte
 
 <!-- ![In-client Designer.](./media/across-sandbox/sandbox-inclient-designer.png) -->
 
-## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/admin-online-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/admin-online-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a><a name="see-also"></a>Siehe auch
 
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [[!INCLUDE[prod_long](includes/prod_long.md)]-Testversionen und -Abonnements](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)  

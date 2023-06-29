@@ -10,10 +10,10 @@ ms.search.form: '6560, 42, 50, 507, 509'
 ms.date: 06/11/2021
 ms.author: edupont
 ---
-# <a name="track-document-lines"></a>Nachverfolgen von Belegzeilen
+# <a name="track-document-lines"></a><a name="track-document-lines"></a>Nachverfolgen von Belegzeilen
 Mit der Belegverfolgung können Belege angezeigt werden, die sich auf Verkaufsauftrags- und Bestellzeilen für Aufträge und archivierte Aufträge beziehen. Zugehörige Belege, die Sie nachverfolgen können, enthalten Angebote, Lieferungen, Wareneingänge und Rahmenaufträge. Dadurch werden Belege zur Verarbeitung von Aufträgen identifiziert.  
 
-## <a name="to-track-documents-related-to-a-sales-order-line"></a>Zusammenhängenden Beleg mit einer Verkaufsauftragszeile verfolgen
+## <a name="to-track-documents-related-to-a-sales-order-line"></a><a name="to-track-documents-related-to-a-sales-order-line"></a>Zusammenhängenden Beleg mit einer Verkaufsauftragszeile verfolgen
 Nachfolgend wird beschrieben, wie Sie einen Verkaufsauftragszeile nachverfolgen. Die Schritte sind gleich für Einkaufs- und Bestandsanalyseansichten.
 
 1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Verkaufsaufträge** ein, und wählen Sie dann den zugehörigen Link.  
@@ -24,7 +24,7 @@ Nachfolgend wird beschrieben, wie Sie einen Verkaufsauftragszeile nachverfolgen.
 
 [!INCLUDE [line-no-info](includes/line-no-info.md)]
 
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-also"></a><a name="see-also"></a>Weitere Informationen
 [Verkauf](sales-manage-sales.md)  
 [Allgemeine Geschäftsfunktionen](ui-across-business-areas.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

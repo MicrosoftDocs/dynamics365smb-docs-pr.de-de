@@ -11,7 +11,7 @@ ms.search.form: '5604, 5606, 5664, 5601, 5602, 5658, 5603, 5671, 5641, 5629, 563
 ms.date: 06/15/2021
 ms.author: edupont
 ---
-# <a name="managing-fixed-assets"></a>Verwalten von Anlagen
+# <a name="managing-fixed-assets"></a><a name="managing-fixed-assets"></a>Verwalten von Anlagen
 
 Die Anlagenfunktion in [!INCLUDE[prod_short](includes/prod_short.md)] gibt Ihnen einen Überblick über Ihre Anlagen und stellt die korrekten periodischen Abschreibungen sicher. Außerdem erhalten Sie dort einen Überblick über die Wartungskosten, können die Versicherungen verwalten, Anlagentransaktionen buchen und verschiedene Berichte und Statistiken generieren.
 
@@ -41,15 +41,15 @@ Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Themen,
 | Buchen von Verkaufstransaktionen, Anzeigen von Verkaufsposten und Buchen von Teilverkäufen |[Anlagen entsorgen oder außer Dienst stellen](fa-how-dispose-retire.md) |
 | Verwalten von Anlagenbudgets, Budgetieren von Anschaffungskosten, Budgetieren von Anlagenverkäufen und Budgetieren der AfA. |[Budgets für Anlagen verwalten](fa-how-manage-budgets.md) |
 
-## <a name="video-overview"></a>Videoübersicht
+## <a name="video-overview"></a><a name="video-overview"></a>Videoübersicht
 
 Das folgende Video behandelt die Grundlagen des Anlagevermögens.
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS?rel=0]
 
-## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/paths/manage-fixed-assets-transactions/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/paths/manage-fixed-assets-transactions/)
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a><a name="see-also"></a>Siehe auch
 
 [Einrichten von Anlagen](fa-setup.md)  
 [Ändern, welche Funktionen angezeigt werden](ui-experiences.md)  

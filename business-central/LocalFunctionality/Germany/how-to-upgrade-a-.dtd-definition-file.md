@@ -10,18 +10,18 @@ ms.search.keywords: null
 ms.date: 06/18/2021
 ms.author: edupont
 ---
-# <a name="upgrade-a-dtd-definition-file-for-digital-audits-in-the-german-version"></a>Upgrade einer .DTD-Definitionsdatei für digitale Prüfungen in der deutschen Version
+# <a name="upgrade-a-dtd-definition-file-for-digital-audits-in-the-german-version"></a><a name="upgrade-a-dtd-definition-file-for-digital-audits-in-the-german-version"></a>Upgrade einer .DTD-Definitionsdatei für digitale Prüfungen in der deutschen Version
 
 Sie können eine .dtd-Datei explizit validieren, nachdem Sie eine importiert haben, um ein Upgradeproblem zu adressieren. Dies ist hilfreich, wenn Sie eine vorhandene Einrichtung haben, die aktualisiert werden muss, um der aktuellen Ausgabe von [!INCLUDE[prod_short](../../includes/prod_short.md)] zu entsprechen.  
 
-## <a name="to-upgrade-and-validate-a-dtd-file"></a>Um eine .dtd-Datei zu aktualisieren und zu überprüfen
+## <a name="to-upgrade-and-validate-a-dtd-file"></a><a name="to-upgrade-and-validate-a-dtd-file"></a>Um eine .dtd-Datei zu aktualisieren und zu überprüfen
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](../../media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie **Datenexporte** ein, und wählen Sie den entsprechenden Link.  
 2. Wählen Sie auf der Registerkarte Start die Option **Definitionen aufzeichnen** aus.  
 3. Richten Sie eine Datensatzdefinition ein und wählen Sie die **Importieren** Aktion aus.  
 4. Wählen Sie eine Datei zum Imporieren und wählen Sie dann die Aktion **Überprüfen** aus.  
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a><a name="see-also"></a>Siehe auch
 
 [Daten für eine digitale Prüfung (GoBD/GDPdU) einrichten](how-to-set-up-data-exports-for-digital-audits.md)  
 

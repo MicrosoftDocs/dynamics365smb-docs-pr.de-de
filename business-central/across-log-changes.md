@@ -11,11 +11,11 @@ ms.search.form: '592, 593, 594, 595, 710, 1366, 1367, 1368, 1369'
 ms.date: 03/24/2022
 ms.author: edupont
 ---
-# <a name="auditing-changes-in-business-central"></a>Protokollieren von Änderungen in Business Central
+# <a name="auditing-changes-in-business-central"></a><a name="auditing-changes-in-business-central"></a>Protokollieren von Änderungen in Business Central
 
 Eine häufige Herausforderung in vielen Anwendungen zur Unternehmensverwaltung ist die Vermeidung unerwünschter Datenänderungen. Es könnte alles sein – von einer falschen Debitorentelefonnummer bis hin zu einer falschen Buchung in der Finanzbuchhaltung. In diesem Thema werden die Funktionen beschrieben, mit denen Sie herausfinden können, was geändert wurde, wer es geändert hat und wann die Änderung vorgenommen wurde.
 
-## <a name="about-the-change-log"></a>Informationen zum Änderungsprotokoll
+## <a name="about-the-change-log"></a><a name="about-the-change-log"></a>Informationen zum Änderungsprotokoll
 
 Die Änderungsprotokollfunktion ermöglicht die Verfolgung aller direkten Änderungen, die von einem Benutzer an den Daten in der Datenbank vorgenommen werden. Sie geben jede Tabelle und jedes Feld an, die das System protokollieren soll, und aktivieren dann das Änderungsprotokoll. Das Änderungsprotokoll basiert auf Änderungen, die an den Daten in den von Ihnen verfolgten Tabellen vorgenommen werden. Auf der Seite **Änderungsprotokollposten** werden Posten chronologisch aufgeführt und alle Änderungen angezeigt, die an den Werten in den Feldern der von Ihnen angegebenen Tabellen vorgenommen wurden. 
 
@@ -34,7 +34,7 @@ Das Änderungsprotokoll wird auch aus Performance-Gründen während des Upgrades
 > * Der Benutzer hat ein anderes Unternehmen oder Rollencenter ausgewählt.
 > * Der Benutzer hat sich abgemeldet und erneut angemeldet.
 
-### <a name="work-with-the-change-log"></a>Mit dem Änderungsprotokoll arbeiten
+### <a name="work-with-the-change-log"></a><a name="work-with-the-change-log"></a>Mit dem Änderungsprotokoll arbeiten
 Sie verwenden die Seite **Änderungsprotokoll einrichten** zum Aktivieren bzw. Deaktivieren des Änderungsprotokolls. Wenn Sie das Änderungsprotokoll aktivieren bzw. deaktivieren, wird diese Aktivität protokolliert, sodass Sie immer sehen, welcher Anwender die Protokollierung an- bzw. abgeschaltet hat.
 
 Wenn Sie auf der Seite **Einrichtung des Änderungsprotokolls** die Aktion **Tabellen** wählen, können Sie angeben, für welche Tabellen Sie Änderungen verfolgen wollen und welche Änderungen verfolgt werden sollen. Mit [!INCLUDE[prod_short](includes/prod_short.md)] werden auch mehrere Systemtabellen verfolgt.
@@ -44,21 +44,21 @@ Wenn Sie auf der Seite **Einrichtung des Änderungsprotokolls** die Aktion **Tab
 
 Wenn Sie das Änderungsprotokoll eingerichtet und aktiviert haben und jemand Daten verändert hat, protokolliert die Anwendung die Änderung in einem **Änderungsprotokollposten**. Wenn Sie Posten löschen möchten, können Sie dies auf der Seite **Änderungsprotokollposten löschen** tun, an dem Sie Filter auf Basis Datum und Zeit festlegen können.  
 
-## <a name="about-activity-logs"></a>Informationen zu Aktivitätsprotokollen
+## <a name="about-activity-logs"></a><a name="about-activity-logs"></a>Informationen zu Aktivitätsprotokollen
 
 Von einigen Seiten in [!INCLUDE [prod_short](includes/prod_short.md)] können Sie ein Aktivitätsprotokoll anzeigen, in dem der Status und alle Fehler von Dateien angezeigt werden, aus denen Sie exportieren oder in die Sie importieren [!INCLUDE [prod_short](includes/prod_short.md)].  
 
-### <a name="work-with-activity-logs"></a>Mit Aktivitätsprotokollen arbeiten
+### <a name="work-with-activity-logs"></a><a name="work-with-activity-logs"></a>Mit Aktivitätsprotokollen arbeiten
 Die Informationen werden auf der Seite **Aktivitätsprotokoll** angezeigt, entsprechend dem Kontext, aus dem sie geöffnet wurden. Sie können die Seite beispielsweise über die Seiten **Belegaustauschdienst – Einrichtung**, **Eingehender Beleg**, **Gebuchte Verkaufsrechnung** und **Geb. Verkaufsgutschrift** öffnen. Sie können die Liste der Protokolleinträge leeren oder die Liste der Einträge löschen, die älter als sieben Tage sind.  
 
-## <a name="monitoring-sensitive-fields"></a>Überwachen sensibler Felder
+## <a name="monitoring-sensitive-fields"></a><a name="monitoring-sensitive-fields"></a>Überwachen sensibler Felder
 
 Der Schutz sensibler Daten ist für die meisten Unternehmen ein zentrales Anliegen. Um eine Sicherheitsebene hinzuzufügen, können Sie wichtige Felder überwachen und sich per E-Mail benachrichtigen lassen, wenn jemand einen Wert ändert. Sie können sich beispielsweise benachrichtigen lassen, wenn jemand die IBAN Ihres Unternehmens ändert.
 
 > [!NOTE]
 > Um den Versand von Benachrichtigungen per E-Mail zu ermöglichen, müssen Sie die E-Mail-Funktion in [!INCLUDE[prod_short](includes/prod_short.md)] einrichten. Weitere Informationen finden Sie unter [E-Mail einrichten](admin-how-setup-email.md).
 
-### <a name="setting-up-field-monitoring"></a>Einrichten der Feldüberwachung
+### <a name="setting-up-field-monitoring"></a><a name="setting-up-field-monitoring"></a>Einrichten der Feldüberwachung
 
 Sie können die Anleitung zum unterstützten Setup **Einrichtung der Überwachung von Feldänderungen** verwenden, um die Felder anzugeben, die Sie anhand von Filterkriterien überwachen möchten, z. B. die Klassifizierung der Datensensibilität für die Felder. Weitere Informationen finden Sie unter [Datensensitivität klassieren](admin-classifying-data-sensitivity.md). Mit dieser Anleitung können Sie auch die Person angeben, die bei einer Änderung eine E-Mail-Benachrichtigung erhalten soll, sowie das E-Mail-Konto, das die Benachrichtigungs-E-Mail sendet. Geben Sie sowohl den zu benachrichtigenden Benutzer als auch das Konto an, von dem aus die Benachrichtigung gesendet werden soll. Wenn Sie die Anleitung abgeschlossen haben, können Sie die Einstellungen für die Feldüberwachung auf der Seite **Feldüberwachungseinrichtung** verwalten. 
 
@@ -74,7 +74,7 @@ Sie können Einstellungen für die Feldüberwachung (z. B. ob eine E-Mail-Benac
 > [!NOTE]
 > Nachdem Sie ein oder mehrere Felder hinzugefügt und mit der Überwachung begonnen haben, müssen Sie sich bei [!INCLUDE[prod_short](includes/prod_short.md)] abmelden und erneut anmelden, damit Ihre Einstellungen übernommen werden.
 
-### <a name="work-with-field-monitoring"></a>Mit der Feldüberwachung arbeiten
+### <a name="work-with-field-monitoring"></a><a name="work-with-field-monitoring"></a>Mit der Feldüberwachung arbeiten
 
 Einträge für alle geänderten Werte für überwachte Felder sind auf der Seite **Protokolleinträge für überwachte Felder** verfügbar. Die Einträge enthalten zum Beispiel die folgenden Informationen:
 
@@ -84,18 +84,18 @@ Einträge für alle geänderten Werte für überwachte Felder sind auf der Seite
 
 Um eine Änderung genauer zu untersuchen, wählen Sie einen Wert aus, um die Seite zu öffnen, auf der die Änderung vorgenommen wurde. Um eine Liste aller Einträge anzuzeigen, wählen Sie **Feldänderungseinträge** aus.
 
-### <a name="viewing-field-monitoring-telemetry"></a>Anzeigen der Feldüberwachungstelemetrie
+### <a name="viewing-field-monitoring-telemetry"></a><a name="viewing-field-monitoring-telemetry"></a>Anzeigen der Feldüberwachungstelemetrie
 
 Sie können [!INCLUDE[prod_short](includes/prod_short.md)] einrichten, um eine Feldüberwachungsaktivität an eine Application Insights Ressource in Microsoft Azure zu senden. Anschließend erstellen Sie mit Azure Monitor Berichte und richten Warnungen für die erfassten Daten ein. Weitere Informationen finden Sie in den folgenden Artikeln in [!INCLUDE[prod_short](includes/prod_short.md)] Entwickler- und IT-Pro-Hilfe:
 
 - [Überwachung und Analyse der Telemetrie – Aktivieren Application Insights](/dynamics365/business-central/dev-itpro/administration/telemetry-overview#enable)
 - [Ananlysieren der Feldüberwachungstelemetrie](/dynamics365/business-central/dev-itpro/administration/telemetry-field-monitoring-trace)
 
-## <a name="defining-retention-policies"></a>Definieren von Aufbewahrungsrichtlinien
+## <a name="defining-retention-policies"></a><a name="defining-retention-policies"></a>Definieren von Aufbewahrungsrichtlinien
 
 Sie können Aufbewahrungsrichtlinien erstellen, um nicht benötigte Daten in Protokollen nach einem von Ihnen angegebenen Zeitraum zu löschen. Beispielsweise kann die Anzahl der Einträge in einem Protokoll im Laufe der Zeit stark zunehmen. Durch das Bereinigen alter Einträge können Sie sich leichter auf neuere und wahrscheinlich relevantere Einträge konzentrieren. Weitere Informationen finden Sie unter [Aufbewahrungsrichtlinien definieren](admin-data-retention-policies.md).
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a><a name="see-also"></a>Siehe auch
 
 [Ändern von grundlegenden Einstellungen](ui-change-basic-settings.md)  
 [Sortieren, Suchen und Filtern](ui-enter-criteria-filters.md)  

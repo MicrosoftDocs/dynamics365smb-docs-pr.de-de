@@ -11,7 +11,7 @@ ms.search.form: 26101
 ms.date: 06/18/2021
 ms.author: edupont
 ---
-# <a name="correct-vat-reports-in-the-german-version"></a>MwSt.-Berichte korrigieren in der deutschen Version
+# <a name="correct-vat-reports-in-the-german-version"></a><a name="correct-vat-reports-in-the-german-version"></a>MwSt.-Berichte korrigieren in der deutschen Version
 
 Wenn Sie einen Korrektur-MwSt-Bericht übermitteln müssen oder einen übermittelten MwSt-Bericht löschen müssen, müssen Sie einen neuen MwSt-Bericht erstellen. Entsprechend der Gesetzgebung muss ein Korrekturbericht innerhalb eines Monats nach dem ursprünglichen Bericht übermittelt werden.  
 
@@ -19,7 +19,7 @@ Wenn Sie einen Korrekturbericht erstellen, enthält die Erklärung zwei Zeilenar
 
 Bei der Aktion **Zeilen vorschlagen**, werden die zu meldenden Werte neu berechnet. Die Aktion **Zeilen korrigieren** wird verwendet, um manuelle Änderungen vorzunehmen. Sie können die Auswirkungen der zwei Aktionen kombinieren, um den Bericht zu korrigieren.  
 
-## <a name="example-corrections-scenarios"></a>Beispielszenarien für Korrekturen
+## <a name="example-corrections-scenarios"></a><a name="example-corrections-scenarios"></a>Beispielszenarien für Korrekturen
 
 1.  Wenn Sie zusätzliche MwSt-Posten buchen, nachdem Sie den Standardbericht im Berichtszeitraum übermitteln, wählen Sie **Zeilen vorschlagen** in der Gruppe **Verarbeiten** aus, um die aktualisierten Beträge zu erhalten.  
 
@@ -40,7 +40,7 @@ Bei der Aktion **Zeilen vorschlagen**, werden die zu meldenden Werte neu berechn
     > [!NOTE]  
     >  Wenn die aktualisierten Filter einen Debitor oder einen Kreditor ausschließen, erstellt [!INCLUDE[prod_short](../../includes/prod_short.md)] eine Stornierungszeile für den vorherigen berichteten Betrag und einen Korrekturposten mit Betrag 0.
 
-## <a name="to-correct-a-vat-report"></a>So wird ein MwSt-Bericht korrigiert
+## <a name="to-correct-a-vat-report"></a><a name="to-correct-a-vat-report"></a>So wird ein MwSt-Bericht korrigiert
 
 1.  Erstellen Sie einen neuen MwSt-Bericht. Weitere Informationen finden Sie unter [MwSt-Berichte erstellen](how-to-create-vat-reports.md).  
 2.  Füllen Sie die Felder im Inforegister **Allgemein** aus, und legen Sie das Feld **MwSt-Berichtstyp** auf „Korrigiert“ fest.  
@@ -54,7 +54,7 @@ Bei der Aktion **Zeilen vorschlagen**, werden die zu meldenden Werte neu berechn
 5.  Wenn die **Vorschlagszeilen** Aktion keine Vorschläge bietet, die Beträge zu korrigieren, die erforderlich sind, verwenden Sie die Aktion**Zeilen korrigieren**, um Stornierungs- und Korrekturzeilen für den Debitor oder Kreditor einzufügen.  
 6.  Fahren Sie mit dem MwSt-Berichterstellungsprozess fort und geben Sie den Bericht frei.  
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a><a name="see-also"></a>Siehe auch
  [Richten Sie die MwSt.-Berichte ein](how-to-set-up-vat-reports.md)
 
 

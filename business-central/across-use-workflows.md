@@ -11,7 +11,7 @@ ms.search.form: '1500, 1501, 1503, 1504, 1505'
 ms.date: 09/13/2022
 ms.author: edupont
 ---
-# <a name="use-approval-workflows"></a>Artikelgenehmigungsworkflow verwenden
+# <a name="use-approval-workflows"></a><a name="use-approval-workflows"></a>Artikelgenehmigungsworkflow verwenden
 
 Ein Workflow ist eine Sequenz von Aufgaben, die durch eine Aktion, eine Bedingung oder eine Regel ausgelöst wird. Workflows werden in der Regel implementiert, um Geschäftslogik in eine Organisation zu integrieren, wie z. B. die Trennung von Aufgaben, die Vereinheitlichung von Prozessen oder die Anwendung von bewährten Verfahren.
 
@@ -64,9 +64,9 @@ Bevor Sie beginnen können, Workflows zu verwenden, müssen Sie Workflowbenutzer
 | Zeigen Sie Workflowschrittinstanzen mit dem Status **Abgeschlossen** an. | [Archivierte Workflowschritt-Instanzen anzeigen](across-how-to-view-archived-workflow-step-instances.md) |
 | Löschen Sie einen Genehmigungsworkflow, den Sie mit Gewissheit nicht mehr verwenden werden. | [Artikelgenehmigungsworkflow löschen](across-how-to-delete-workflows.md) |
 
-## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/create-workflows/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/create-workflows/)
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a><a name="see-also"></a>Siehe auch
 
 [Genehmigungsworkflows einrichten](across-set-up-workflows.md)  
 [Workflow](across-workflow.md)  

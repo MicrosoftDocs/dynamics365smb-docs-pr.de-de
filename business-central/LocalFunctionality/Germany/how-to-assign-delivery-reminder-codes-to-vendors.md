@@ -11,11 +11,11 @@ ms.search.form: '5005270, 5005272'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="assign-delivery-reminder-codes-to-vendors-in-the-german-version"></a>Kreditoren Lieferanmahnungscodes in der deutschen Version zuweisen
+# <a name="assign-delivery-reminder-codes-to-vendors-in-the-german-version"></a><a name="assign-delivery-reminder-codes-to-vendors-in-the-german-version"></a>Kreditoren Lieferanmahnungscodes in der deutschen Version zuweisen
 
 [!INCLUDE [delivery-reminder-codes-vendors](../includes/ATCHDE/delivery-reminder-codes-vendors.md)]
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a><a name="see-also"></a>Siehe auch
 
 [Registriert einen neuen Kreditor](../../purchasing-how-register-new-vendors.md)  
 [Lieferbenachrichtigungen](delivery-reminders.md)  

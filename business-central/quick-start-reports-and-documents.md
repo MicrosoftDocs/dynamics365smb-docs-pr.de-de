@@ -12,11 +12,11 @@ ms.date: 08/15/2022
 ms.author: a-reishima
 ---
 
-# <a name="basic-reports-and-documents-output-quick-start"></a>Schnelleinstieg in die Ausgabe grundlegender Berichte und Dokumente
+# <a name="basic-reports-and-documents-output-quick-start"></a><a name="basic-reports-and-documents-output-quick-start"></a>Schnelleinstieg in die Ausgabe grundlegender Berichte und Dokumente
 
 Um [!INCLUDE[prod_short](includes/prod_short.md)] an die Anforderungen Ihres Unternehmens anzupassen, erstellen und verwenden Sie Berichte und benutzerdefinierte Dokumente, die an die Prozesse und die visuelle Identität Ihres Unternehmens angepasst sind.
 
-## <a name="add-your-company-logo-to-documents"></a>Ihr Unternehmenslogo den Dokumenten hinzufügen
+## <a name="add-your-company-logo-to-documents"></a><a name="add-your-company-logo-to-documents"></a>Ihr Unternehmenslogo den Dokumenten hinzufügen
 
 [!INCLUDE[prod_short](includes/prod_short.md)] verfügt über Vorlagen, die das Logo Ihres Unternehmens verwenden, um Zeit beim Anpassen von Dokumenten wie Rechnungen, Bestellungen und Kontoauszügen zu sparen.
 
@@ -26,7 +26,7 @@ Um [!INCLUDE[prod_short](includes/prod_short.md)] an die Anforderungen Ihres Unt
 
 Sie können die obigen Anweisungen in [diesem YouTube-Video](https://www.youtube.com/watch?v=AatXbKF1NGg) ansehen. Sobald das Bild im Feld **Bild** angezeigt sind, können Sie die Seite **Unternehmensinformationen** schließen.
 
-## <a name="run-reports"></a>Berichte ausführen
+## <a name="run-reports"></a><a name="run-reports"></a>Berichte ausführen
 
 Berichte organisieren Informationen aus verschiedenen Quellen in [!INCLUDE[prod_short](includes/prod_short.md)] und präsentieren sie in einer lesbaren Weise, die leicht gedruckt oder digital geteilt werden kann. Berichte können auf den Seiten gefunden werden, mit denen sie kontextuell verknüpft sind. Zum Beispiel listet die Seite **Artikel** Berichte zu Lagerbeständen, Käufen, Verkäufen und mehr auf.
 
@@ -38,7 +38,7 @@ Berichte organisieren Informationen aus verschiedenen Quellen in [!INCLUDE[prod_
 
 Erfahren Sie mehr über das Filtern von Daten, Planen von Berichten und mehr unter [Berichte ausführen und drucken](ui-work-report.md).
 
-## <a name="save-reports-as-pdf-excel-or-word-documents"></a>Speichern Sie Berichte als Excel-, PDF- oder Word-Dokumente
+## <a name="save-reports-as-pdf-excel-or-word-documents"></a><a name="save-reports-as-pdf-excel-or-word-documents"></a>Speichern Sie Berichte als Excel-, PDF- oder Word-Dokumente
 
 Um Berichte schnell zu teilen, können Sie [!INCLUDE[prod_short](includes/prod_short.md)]-Berichte direkt als PDF-, Microsoft Excel-, oderMicrosoft Word-Dokumente speichern.
 
@@ -47,7 +47,7 @@ Um Berichte schnell zu teilen, können Sie [!INCLUDE[prod_short](includes/prod_s
 3. Wählen Sie den Dateityp aus und wählen Sie dann **OK** aus.
 Die generierte Berichtsdatei wird automatisch im Download-Ordner Ihres Browsers gespeichert.
 
-### <a name="change-report-and-document-layouts"></a>Berichts- und Dokumentlayouts ändern
+### <a name="change-report-and-document-layouts"></a><a name="change-report-and-document-layouts"></a>Berichts- und Dokumentlayouts ändern
 
 [!INCLUDE[prod_short](includes/prod_short.md)] verfügt über viele integrierte Layouts für Ihre Berichte und andere generierte Dokumente, wie z. B. Verkaufsrechnungen. Sie können Anwendungen wie Microsoft Word oder Excel verwenden, um die Layoutvorlagen für Dokumente und Berichte zu bearbeiten, wie im folgenden Beispiel beschrieben:
 
@@ -64,9 +64,9 @@ Die generierte Berichtsdatei wird automatisch im Download-Ordner Ihres Browsers 
 
 Erfahren Sie mehr darüber, wie Sie Berichte und Dokumente an Ihre Geschäftsanforderungen anpassen können unter [Berichts- und Dokumentlayouts](ui-manage-report-layouts.md).
 
-## <a name="see-related-training-at-microsoft-learn"></a>Siehe verwandte Schulungen unter [Microsoft Learn](/learn/modules/work-with-reports/).
+## <a name="see-related-training-at-microsoft-learn"></a><a name="see-related-training-at-microsoft-learn"></a>Siehe verwandte Schulungen unter [Microsoft Learn](/learn/modules/work-with-reports/).
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a><a name="see-also"></a>Siehe auch
 
 [Berichte in der täglichen Arbeit verwenden](reports-use-reports.md)  
 [Verfügbare Berichte in [!INCLUDE[prod_short](includes/prod_short.md)]](reports-available-reports.md)  

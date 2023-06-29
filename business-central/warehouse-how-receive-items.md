@@ -10,7 +10,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: '5768, 7330, 7332, 7333, 7342, 7363, 8510, 9008'
 ---
-# <a name="receive-items-with-warehouse-receipts"></a>Empfangen Sie Artikel mit Wareneingängen
+# <a name="receive-items-with-warehouse-receipts"></a><a name="receive-items-with-warehouse-receipts"></a>Empfangen Sie Artikel mit Wareneingängen
 
 In [!INCLUDE[prod_short](includes/prod_short.md)] erhalten Sie Artikel und lagern sie, wie in der folgenden Tabelle beschrieben, mit einer von vier Methoden ein.
 
@@ -25,7 +25,7 @@ Weitere Informationen zum Umgang mit eingehenden Artikeln finden Sie unter [Eing
 
 Der folgende Artikel bezieht sich auf die Methoden C und D in der vorherigen Tabelle.
 
-## <a name="receive-items-with-a-warehouse-receipt"></a>Empfangen Sie Artikel mit einem Wareneingang
+## <a name="receive-items-with-a-warehouse-receipt"></a><a name="receive-items-with-a-warehouse-receipt"></a>Empfangen Sie Artikel mit einem Wareneingang
 
 Wenn Artikel bei einem Lager ankommen, das für die Bearbeitung von Wareneingängen eingerichtet wurde, müssen Sie die Zeilen des freigegebenen Herkunftsbelegs abrufen, der dem Wareneingang ausgelöst hat. Wenn Sie Lagerplätze verwenden, können Sie entweder den Standardlagerplatz akzeptieren oder den Lagerplatz angeben, in dem die Artikel abgelegt werden sollen. Letzteres kann erforderlich sein, wenn Sie einen Artikel zum ersten Mal erhalten. Geben Sie dann die Mengen der Artikel eingeben, die Sie erhalten haben, und den Wareneingang buchen.  
 
@@ -66,7 +66,7 @@ Sie können einen Wareneingang auf eine von zwei Arten erstellen:
     > [!NOTE]  
     > Wenn Ihr Lager Cross-Docking verwendet, können Sie prüfen, ob Sie Artikel Cross-Dock-fähig sind, ohne sie einzulagern. Weitere Informationen zum Cross-Docking finden Sie unter [Cross-Docking von Artikeln](warehouse-how-to-cross-dock-items.md).
 
-## <a name="how-to-use-filters-to-get-source-documents"></a>So verwenden Sie Filter zum Abrufen von Herkunftsbelegen
+## <a name="how-to-use-filters-to-get-source-documents"></a><a name="how-to-use-filters-to-get-source-documents"></a>So verwenden Sie Filter zum Abrufen von Herkunftsbelegen
 
 Aus einem Wareneingang können Sie die Seite **Filter z. Holen v. Herk.-Bel.** nutzen, um die Zeilen des freigegebenen Herkunftsbelegs zu erhalten, die die zu empfangenden Artikel angeben.
 
@@ -82,7 +82,7 @@ Alle Zeilen des freigegebenen Herkunftsbelegs, die die Filterkriterien erfüllen
 
 Sie können eine unbegrenzte Anzahl von Filterkombinationen erstellen. Filter werden auf der Seite **Filter z. Holen v. Herk.-Bel.** gespeichert und sind das nächste Mal verfügbar, wenn sie benötigt werden. Sie können die Kriterien jederzeit ändern, indem Sie die Aktion **Bearbeiten** auswählen.
 
-## <a name="zone-and-bin-codes"></a>Zonen- und Lagerplatzcodes
+## <a name="zone-and-bin-codes"></a><a name="zone-and-bin-codes"></a>Zonen- und Lagerplatzcodes
 
 Um Artikel mit Lagerklassen anzunehmen, die von den Lagerklassen der Lagerplätze im Feld **Lagerplatzcode** des Belegkopfes abweichen, löschen Sie das Feld **Lagerplatzcode** des Kopfes, bevor Sie die Herkunftsbelegzeilen der Artikel holen können.  
 <!-- TBD, table with comparison of various options-->
@@ -92,9 +92,9 @@ Wenn Lagerplätze für einen Lagerort obligatorisch sind, werden Zonen- und Lage
 * Für erweiterte Konfigurationen, die gezieltes Einlagern und Kommissionieren verwenden, verwendet [!INCLUDE [prod_short](includes/prod_short.md)] den Eingangslagerplatzcode auf der Seite **Lagerortkarte** für den Lagerort. Wenn kein Lagerplatzcode angegeben ist, ist kein Lagerplatz angegeben. Wenn die Lagerplätze für Artikel und Belege nicht übereinstimmen, ist der Lagerplatzcode für Belege leer.
 * Wenn in anderen Konfigurationen kein Eingangslagerplatzcode angegeben ist, verwendet [!INCLUDE [prod_short](includes/prod_short.md)] den Lagerplatzcode aus dem Herkunftsbeleg.
 
-## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/receive-invoice-dynamics-d365-business-central/index)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/receive-invoice-dynamics-d365-business-central/index)
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a><a name="see-also"></a>Siehe auch
 
 [Lagerverwaltung – Übersicht](design-details-warehouse-management.md)
 [Bestand](inventory-manage-inventory.md)  

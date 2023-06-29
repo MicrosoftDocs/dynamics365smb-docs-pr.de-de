@@ -8,17 +8,17 @@ ms.search.form: 'Report_4, Report_6, Report_7, Report_9, Report_25, Report_38'
 ms.date: 08/24/2022
 ms.author: edupont
 ---
-# <a name="financial-reports-and-analytics-in-business-central"></a>Finanzielle Berichte und Analysen in Business Central
+# <a name="financial-reports-and-analytics-in-business-central"></a><a name="financial-reports-and-analytics-in-business-central"></a>Finanzielle Berichte und Analysen in Business Central
 
 Finanzberichterstattung in [!INCLUDE [prod_short](includes/prod_short.md)] ermöglicht Finanz- und Geschäftsfachleuten das Erstellen, Verwalten, Bereitstellen und Anzeigen von Abschlüssen. Sie sprengt die Grenzen herkömmlicher Berichte und hilft Ihnen, verschiedene Arten von Berichten effizient zu gestalten. [!INCLUDE [prod_short](includes/prod_short.md)] enthält mehrere Berichte, Nachverfolgungsfunktionen und Tools, die Wirtschaftsprüfern oder Controllern helfen, die für die Berichterstattung an die Finanzabteilung verantwortlich sind. Die Finanzberichterstattung umfasst die Unterstützung von Dimensionen, sodass Kontosegmente oder Dimensionen sofort verfügbar sind. Keine anderen Tools oder Konfigurationsschritte sind erforderlich.  
 
 [!INCLUDE [tip_open_report_from_docs](includes/tip-open-report-from-docs.md)]
 
-## <a name="reports"></a>Berichte
+## <a name="reports"></a><a name="reports"></a>Berichte
 
 [!INCLUDE [finance_reports](includes/finance-reports-include.md)]
 
-## <a name="tasks"></a>Aufgaben
+## <a name="tasks"></a><a name="tasks"></a>Aufgaben
 
 In den folgenden Artikeln werden einige der wichtigsten Aufgaben zur Analyse des Status Ihres Unternehmens beschrieben:
 
@@ -30,9 +30,9 @@ In den folgenden Artikeln werden einige der wichtigsten Aufgaben zur Analyse des
 * [Berichte mit XBRL erstellen](bi-create-reports-with-xbrl.md)  
 * [Absicht auf Datenbankzugriff verwalten](admin-data-access-intent.md)  
 
-## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/paths/create-financial-reports-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/paths/create-financial-reports-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a><a name="see-also"></a>Siehe auch
 
 [Erstellen von Kostenbudgets](finance-create-cost-budgets.md)  
 [Melden von MwSt. an die Steuerbehörden](finance-how-report-vat.md)  

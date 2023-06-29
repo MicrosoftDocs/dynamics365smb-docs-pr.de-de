@@ -10,14 +10,14 @@ ms.search.keywords: null
 ms.date: 06/08/2021
 ms.author: edupont
 ---
-# <a name="design-details-rounding"></a>Designdetails: Rundung
+# <a name="design-details-rounding"></a><a name="design-details-rounding"></a>Designdetails: Rundung
 Rundungsreste können auftreten, wenn Sie die Kosten einer Bestandsminderung bewerten, die in einer anderen Menge als die entsprechende Bestandszunahme registriert wurde. Rundungsreste werden für alle Kostenberechnungsmethoden berechnet, wenn Sie die **Kosten anpassen - Artikeleintrag**-Stapelverarbeitung ausführen.  
 
  Wenn Sie die Lagerabgangsmethode "Durchschnitt" verwenn, wird der Rundungsfunktionen Rückstand in einer kumulierten Posten-durch-Posten-Basis berechnet und erfasst.  
 
  Wenn Sie eine andere Lagerabgangsmethode als die Lagerabgangsmethode "Durchschnitt" verwenden, wird der Rundungsfunktionen Rückstand berechnet, wenn der Lagerzugang vollständig ausgeglichen wurde, d.h. wenn die Restmenge für den Lagerzugang gleich Null ist. Dann wird ein separater Posten für den ein Rundungsrest, und das Buchungsdatum dieses Rundungspostens ist das Buchungsdatum des zuletzt fakturierten Werts.  
 
-## <a name="example"></a>Beispiel
+## <a name="example"></a><a name="example"></a>Beispiel
  Im folgenden Beispiel wird veranschaulicht, wie unterschiedliche Rundungsreste für die Durchschnittskostenbewertung und die Nicht-Durchschnittskostenbewertung behandelt werden. In beiden Fällen ist die **Kosten anpassen Artikeleingänge**-Stapelverarbeitung durchgeführt worden.  
 
  Die folgende Tabelle zeigt die Artikelposten, auf denen das Beispiel basiert.  
@@ -52,7 +52,7 @@ Rundungsreste können auftreten, wenn Sie die Kosten einer Bestandsminderung bew
 |04-01-20|-1|-3.33|4|4|  
 |01-01-20|0|-0.01|1|5|  
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a><a name="see-also"></a>Siehe auch
  [Designdetails: Lagerkostenberechnung](design-details-inventory-costing.md)   
  [Designdetails: Kostenregulierung](design-details-cost-adjustment.md)   
  [Designdetails: Kostenmethoden](design-details-costing-methods.md) [Verwalten der Lagerregulierung](finance-manage-inventory-costs.md)  

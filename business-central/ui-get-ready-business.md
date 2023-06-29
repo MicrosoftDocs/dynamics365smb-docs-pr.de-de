@@ -10,7 +10,7 @@ ms.search.keywords: 'SMTP, mail, Microsoft 365, setup, wizard, experience'
 ms.date: 05/25/2022
 ms.author: edupont
 ---
-# <a name="get-ready-for-doing-business"></a>Vorbereitungen zum Tätigen von Geschäften
+# <a name="get-ready-for-doing-business"></a><a name="get-ready-for-doing-business"></a>Vorbereitungen zum Tätigen von Geschäften
 
 Glückwünsche, Sie haben soeben Ihren ersten Mandanten in [!INCLUDE[prod_short](includes/prod_short.md)]  eingerichtet.
 
@@ -23,7 +23,7 @@ Sie finden die Liste der Anleitungen für die Unterstützte Einrichtung auch, we
 > [!TIP]
 > [!INCLUDE [ua-get-help](includes/ua-get-help.md)]
 
-## <a name="get-started"></a>Erste Schritte
+## <a name="get-started"></a><a name="get-started"></a>Erste Schritte
 
 Wenn Sie sich zum ersten Mal anmelden oder eine neue Firma gründen, führt Sie die Checkliste **Erste Schritte** durch die Schritte, die Sie zur Geschäftsfähigkeit führen. Die Schritte variieren je nach Land und branchenspezifischen Funktionen, die Sie Ihrem [!INCLUDE [prod_short](includes/prod_short.md)] hinzugefügt haben. Ab 2021 Veröffentlichungszyklus 2, wenn Sie sich zum ersten Mal bei der CRONUS Demonstrationsfirma anmelden, ist Ihre Startseite für Ihre ersten Erfahrungen optimiert. Wenn Sie lieber mehr Links zu mehr Seiten sehen möchten, wechseln Sie einfach in die Rolle des Business Managers. Weitere Informationen finden Sie unter [Grundeinstellungen ändern](ui-change-basic-settings.md).  
 
@@ -38,7 +38,7 @@ Wenn ein Bereich nicht durch eine unterstützte Einrichtung abgedeckt ist, wähl
 
 Wenn Sie einen Leitfaden für das unterstützte Setup ausgeführt haben, wird er als **Abgeschlossen** markiert.  
 
-## <a name="teaching-tips-and-tours"></a>Unterrichtstipps und Touren
+## <a name="teaching-tips-and-tours"></a><a name="teaching-tips-and-tours"></a>Unterrichtstipps und Touren
 
 [!INCLUDE [2021_releasewave1](includes/2021_releasewave1.md)]
 
@@ -46,7 +46,7 @@ Wenn Sie einen Leitfaden für das unterstützte Setup ausgeführt haben, wird er
 
 Unterrichtstipps sind Kurznachrichten, die Sie über wichtige und neue Funktionen informieren, daran erinnern oder unterrichten, die beim Öffnen einer Seite automatisch gestartet werden. Zum Beispiel, um den Unterrichtstipp für die Karte **Verkaufsrechnung** zu sehen, wählen Sie den Link in der oberen linken Ecke der Seite, wo es heißt *Verkaufsrechnung*. Dies startet ein Callout mit einer kurzen Beschreibung der Seite und was Sie dort tun können. Wenn für die Seite eine Tour vorhanden ist, werden Sie über einen Link zur Teilnahme an der Tour eingeladen. Der Link *Mehr erfahren* führt Sie zur Produkthilfe für die Seite.
 
-## <a name="role-specific-home-pages"></a>Rollenspezifische Homepages
+## <a name="role-specific-home-pages"></a><a name="role-specific-home-pages"></a>Rollenspezifische Homepages
 
 Abhängig von Ihrer Rolle bietet die Homepage einen Überblick über Ihr Unternehmen. Oben sehen Sie eine Navigationsleiste, die Ihnen einen einfachen Zugriff auf Debitoren, Kreditoren, Artikel usw. ermöglicht. Im Mittelpunkt finden Sie die Kacheln **Aktivitäten**. **Aktivitäten** zeigen Sie aktuelle Daten an und können für einen einfachen Zugriff auf ausgewählten Beleg angeklickt oder getippt werden.
 
@@ -57,21 +57,21 @@ Verwenden Sie die Pfeile, um einen Teil der Seite zu verkleinern und mehr Platz 
 > [!TIP]  
 > Sie können zurück zur Homepage gelangen, indem Sie den Unternehmensnamen in der linken Teil des Fensters auswählen.
 
-## <a name="company-information"></a>Unternehmensdaten
+## <a name="company-information"></a><a name="company-information"></a>Unternehmensdaten
 
 Unter **Mandanten-Einstellungen** können Sie Informationen über den aktuellen Mandanten anzeigen und einrichten. Vieles davon wurde bereits beim **Einrichten des Mandanten** ausgefüllt bei der Anmeldung zu Pro [!INCLUDE[prod_short](includes/prod_short.md)]. Wenn Sie das Firmenlogo, die Kontaktinformation, die Bankeinstellungen oder die Steuerdaten ändern möchten, können Sie dies auf der Seite tun.  
 
-## <a name="adding-users-and-permissions"></a>Hinzufügen von Benutzern und von Berechtigungen
+## <a name="adding-users-and-permissions"></a><a name="adding-users-and-permissions"></a>Hinzufügen von Benutzern und von Berechtigungen
 
 Wenn Sie mehrere Benutzer hinzufügen müssen, wird dieses vom Microsoft 365 Admin Center durchgeführt. Weitere Informationen finden Sie unter [Benutzer nach Lizenzen anlegen](ui-how-users-permissions.md).
 
 Wenn Benutzer in Microsoft 365 erstellt werden, können sie in die Seite **Benutzer** importiert werden, indem Sie die Aktion **Aktualisierungen von Office 365 abrufen** verwenden. Sie können dann fortfahren, Berechtigungen Benutzern und Benutzergruppen zuzuordnen. Weitere Informationen finden Sie unter [Berechtigungen an Benutzer und Gruppen zuweisen](ui-define-granular-permissions.md).  
 
-## <a name="product-help"></a>Produkthilfe
+## <a name="product-help"></a><a name="product-help"></a>Produkthilfe
 
 [!INCLUDE [ua-get-help](includes/ua-get-help.md)] Weitere Informationen finden Sie unter [Ressourcen für Hilfe und Support](product-help-and-support.md).  
 
-### <a name="set-up-your-company-in-"></a>Ihr Unternehmen in [!INCLUDE[prod_short](includes/prod_short.md)] einrichten
+### <a name="set-up-your-company-in-"></a><a name="set-up-your-company-in-"></a>Ihr Unternehmen in [!INCLUDE[prod_short](includes/prod_short.md)] einrichten
 
 Die [Schnellstart](quick-start-business-central.md)-Artikel können Ihnen helfen, die ersten Schritte zur Festlegung von [!INCLUDE [prod_short](includes/prod_short.md)] für Ihr Unternehmen zu unternehmen. Innerhalb von [!INCLUDE [prod_short](includes/prod_short.md)] finden Sie auf der Seite **Unterstützte Einrichtung** die Anleitungen für die unterstützte Einrichtung, die Ihnen helfen können. Abhängig von Ihrer Rolle und Ihrem Land oder Ihrer Region zeigt die Seite verschiedene Assistenten für die Einrichtung, wie in der folgenden Tabelle dargestellt:
 
@@ -93,11 +93,11 @@ Die [Schnellstart](quick-start-business-central.md)-Artikel können Ihnen helfen
 
 Die Seite **Unterstützte Einrichtung** enthält möglicherweise andere Einträge. Wenn Sie ein Setup durchlaufen, wird das Setup als **Abgeschlossen** markiert. Sie können andere Bereiche der Firma mit Hilfe der manuellen Einrichtung festlegen. Weitere Informationen finden Sie unter [Einrichten von [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).  
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a><a name="next-steps"></a>Nächste Schritte
 
 Auf Grundlage Ihre migrierten Daten können Sie jetzt fortfahren, um neue Verkäufe oder Einkaufsbelege zu erstellen. Verwenden Sie den Bereich **Aktionen** auf der Homepage, um rasch ein neues Verkaufsangebot, eine Verkaufsrechnung, einen Verkaufsauftrag, eine Einkaufsrechnung oder eine Zahlungsregistrierung zu erstellen. Schauen Sie sich die [Schnellstart](quick-start-business-central.md) Artikel an, die Ihnen bei den ersten Schritten helfen.  
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a><a name="see-also"></a>Siehe auch
 
 [Business Central Schnellstarts](quick-start-business-central.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

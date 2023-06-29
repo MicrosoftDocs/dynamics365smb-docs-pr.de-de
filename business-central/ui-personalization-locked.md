@@ -11,11 +11,11 @@ ms.search.form: null
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="why-a-page-is-locked-from-personalization"></a>Warum eine Seite für Personalisierungen gesperrt ist
+# <a name="why-a-page-is-locked-from-personalization"></a><a name="why-a-page-is-locked-from-personalization"></a>Warum eine Seite für Personalisierungen gesperrt ist
 
 Es gibt zwei Bedingungen, die Sie am Personalisieren einer Seite hindern. Entweder ist die Seite gesperrt (angezeigt durch das Symbol ![Personalisierungssperre.](media/personalization-lock-icon.png "Personalisieren sperren")) oder sie ist gesperrt (angezeigt durch das Symbol ![Personalisierung gesperrt.](media/personalization-blocked-icon.png "Personalisierung blockiert") Symbol).
 
-## <a name="locked-from-personalizing"></a>Für Personalisierung gesperrt
+## <a name="locked-from-personalizing"></a><a name="locked-from-personalizing"></a>Für Personalisierung gesperrt
 
 Wenn es ein ![Personalisierungssperre.](media/personalization-lock-icon.png "Personalisieren sperren") Symbol im **Personalisierung**-Banner angezeigt wird, wenn Sie eine Seite öffnen, können Sie derzeit keine weiteren Personalisierungsänderungen an der Seite vornehmen.
 
@@ -30,14 +30,14 @@ Hierfür gibt es zwei Gründe:
 
 2. Bis jetzt haben Sie nur den veralteten Bogen [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)] verwendet, um die Seite zu personalisieren.
 
-### <a name="unlocking-the-page"></a>Entsperren der Seite
+### <a name="unlocking-the-page"></a><a name="unlocking-the-page"></a>Entsperren der Seite
 
 Wenn Sie eine Seite entsperren und weiter personalisieren möchten, wählen Sie das Symbol ![Personalisieren Sperre](media/personalization-lock-icon.png "Personalisieren sperren") und dann die Aktion **Entsperren**.  
 
 > [!CAUTION]
 > Die aktuelle Personalisierung der Seite wird gelöscht. Die Seite kehrt zum ursprünglichen Layout zurück, und Sie müssen neu beginnen.  
 
-## <a name="blocked-from-personalizing"></a>Für Personalisierung blockiert
+## <a name="blocked-from-personalizing"></a><a name="blocked-from-personalizing"></a>Für Personalisierung blockiert
 
 Wenn das Symbol ![Personalisierung blockiert](media/personalization-blocked-icon.png "Personalisierung blockiert") im Banner **Personalisierung** angezeigt wird, können Sie keine Personalisierung der Seite vornehmen.
 
@@ -45,7 +45,7 @@ Wenn das Symbol ![Personalisierung blockiert](media/personalization-blocked-icon
 
 Der Grund dafür ist, dass das Rollencenter oder die Rolle, die derzeit mit dem Benutzerkonto verknüpft ist, diese Seite speziell für Ihre Rolle ändert. Wenden Sie sich an Ihren Administrator, um Unterstützung zu erhalten. Versuchen Sie alternativ, zu einem Rollencenter zu wechseln, das die Rollenanpassung für diese Seite enthält. Weitere Informationen finden Sie unter [Ändern der Grundeinstellungen](ui-change-basic-settings.md).
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a><a name="see-also"></a>Siehe auch
 
 [Ihren Arbeitsbereich personalisieren](ui-personalization-user.md)  
 [Seiten für Profile anpassen](ui-personalization-manage.md)  

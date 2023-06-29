@@ -11,7 +11,7 @@ ms.search.form: 427
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# <a name="set-up-payment-methods"></a>Einrichten von Zahlungsformen
+# <a name="set-up-payment-methods"></a><a name="set-up-payment-methods"></a>Einrichten von Zahlungsformen
 
 Zahlungsformen definieren die Art, wie Sie es vorziehen, dass Debitoren Sie zahlen und wie Sie den Kreditoren bezahlen können. Die Methode kann für jeden Debitor oder Kreditor variieren. Beispiele für typische Zahlungsformen sind **Bankkonten**, **Bargeld**, **Check** oder **Konto**.
 
@@ -23,7 +23,7 @@ Gutschriften für Reklamationen sind jedoch Ausnahmen, da Geld entgegengesetzt f
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE476Ys?rel=0]
 
-## <a name="to-set-up-a-payment-method"></a>So richten Sie eine Zahlungsform ein
+## <a name="to-set-up-a-payment-method"></a><a name="to-set-up-a-payment-method"></a>So richten Sie eine Zahlungsform ein
 
 [!INCLUDE[prod_short](includes/prod_short.md)] enthält mehrere Zahlungsformen, die Geschäfte häufig verwenden. Sie können so viele Zeilen hinzufügen, wie Sie benötigen.
 
@@ -32,14 +32,14 @@ Gutschriften für Reklamationen sind jedoch Ausnahmen, da Geld entgegengesetzt f
 
 Fügen Sie Ihren Zahlungsbedingungen optional Ihre Zahlungsform hinzu. Weitere Informationen finden Sie unter [Einrichten von Zahlungbedingungen](finance-payment-terms.md).  
 
-## <a name="to-assign-a-payment-method-to-a-customer-or-vendor"></a>So weisen Sie einem Kreditor eine Zahlungsform zu
+## <a name="to-assign-a-payment-method-to-a-customer-or-vendor"></a><a name="to-assign-a-payment-method-to-a-customer-or-vendor"></a>So weisen Sie einem Kreditor eine Zahlungsform zu
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Kunde** oder **Kreditor** ein und wählen Sie dann den zugehörigen Link.
 2. Im **Zahlungsformcode** Feld wählen Sie die Methode, die Sie für den Debitor oder Kreditor standardmäßig verwenden möchten.
 
-## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/cash-management-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/cash-management-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a><a name="see-also"></a>Siehe auch
 
 [Registriert einen neuen Debitor](sales-how-register-new-customers.md)  
 [Zahlungsbedingungen einrichten](finance-payment-terms.md)  

@@ -10,7 +10,7 @@ ms.search.keywords: 'configure, initialize'
 ms.date: 09/27/2022
 ms.author: edupont
 ---
-# <a name="overview-of-tasks-to-set-up-"></a>Überblick der Aufgaben zum Einrichten von [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="overview-of-tasks-to-set-up-"></a><a name="overview-of-tasks-to-set-up-"></a>Überblick der Aufgaben zum Einrichten von [!INCLUDE[prod_short](includes/prod_short.md)]
 
 [!INCLUDE[prod_short](includes/prod_short.md)] enthält Standardkonfigurationen für die meisten Geschäftsprozesse, aber Sie können die Konfiguration ändern, um sie an die Bedürfnisse Ihrer Organisation anzupassen. Die [Business Central Schnellstart](quick-start-business-central.md) Artikel können Ihnen helfen, die ersten Schritte zu unternehmen, um [!INCLUDE [prod_short](includes/prod_short.md)] zu Ihrem eigenen zu machen. Dieser Artikel bietet einen Überblick darüber, wie Sie [!INCLUDE [prod_short](includes/prod_short.md)] für Ihr Unternehmen konfigurieren können.
 
@@ -55,13 +55,13 @@ Einige Bereiche erfordern, dass Sie ein Administrator Ihres Abonnement [!INCLUDE
 > [!NOTE]
 > Als Administrator können Sie in [!INCLUDE[prod_short](includes/prod_short.md)] mit RapidStart Services ein neues Unternehmen einrichten. Dieses Tool wurde entwickelt, um die Bereitstellungszeiten zu verkürzen, die Qualität der Implementierung zu verbessern, einen wiederholbaren Ansatz für Implementierungen einzuführen und die Produktivität durch Automatisierung und Vereinfachung wiederkehrender Aufgaben zu steigern. Erhalten Sie weitere Informationen zum [Einrichten Ihres Unternehmens mit RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
 
-## <a name="set-up-apps"></a>Einrichten von Apps
+## <a name="set-up-apps"></a><a name="set-up-apps"></a>Einrichten von Apps
 
 Zusätzlich zu den Kernfunktionen in [!INCLUDE [prod_short](includes/prod_short.md)] fügt Microsoft einige Aps hinzu, die auf der [Seite **Erweiterungsverwaltung**](https://businesscentral.dynamics.com/?page=2500) aufgelistet sind. Ab Oktober 2022 bietet jede App einen Link zum Starten ihrer Einrichtungsseite – wählen Sie einfach die Aktion **Einrichten** aus.  
 
 Sie können [!INCLUDE [prod_short](includes/prod_short.md)] beim Hinzufügen von AppSource-Apps auch Funktionen hinzufügen. Erfahren Sie mehr unter [Anpassen von Business Central Online mithilfe der Erweiterungen](ui-extensions.md).  
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a><a name="see-also"></a>Siehe auch
 
 [Unternehmensdatenübersicht](admin-company-information.md)  
 [Verwaltung](admin-setup-and-administration.md)  

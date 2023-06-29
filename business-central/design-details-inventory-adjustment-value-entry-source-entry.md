@@ -11,15 +11,15 @@ ms.date: 09/17/2021
 ms.author: edupont
 ---
 
-# <a name="posting-date-on-adjustment-value-entry-compared-to-the-source-entry"></a>Buchungsdatum bei der Eingabe von Anpassungswerten im Vergleich zur Quelleingabe
+# <a name="posting-date-on-adjustment-value-entry-compared-to-the-source-entry"></a><a name="posting-date-on-adjustment-value-entry-compared-to-the-source-entry"></a>Buchungsdatum bei der Eingabe von Anpassungswerten im Vergleich zur Quelleingabe
 
 Dieser Artikel vergleicht das Buchungsdatum auf dem Anpassungswert-Eintrag mit dem Buchungsdatum auf dem Eintrag, der die Ausführung des Batchauftrags Lagerreg. fakt. fakt. Artikel Zu-/Abschläge verursacht, insbesondere ein Szenario mit Aufwertung und ein Szenario mit Artikelzu-/abschlägen.
 
 Der Batchauftrag **Kostenreg. fakt. Einst. Preise anpassen** verarbeitet Ihre Daten je nach Szenario und Konfiguration von [!INCLUDE[prod_short](includes/prod_short.md)]. In diesem Abschnitt beschreiben wir zwei separate Prozesse und zeigen für jeden die Art der Auswirkung, die der Batchauftrag Lagerreg. fakt. Einst. Preise auf die Daten hat.
 
-## <a name="revaluation-scenario"></a>Szenario Neubewertung
+## <a name="revaluation-scenario"></a><a name="revaluation-scenario"></a>Szenario Neubewertung
 
-### <a name="prerequisites"></a>Voraussetzungen
+### <a name="prerequisites"></a><a name="prerequisites"></a>Voraussetzungen
 
 Bitte geben Sie die folgenden Werte ein:
 
@@ -45,7 +45,7 @@ Bitte geben Sie die folgenden Werte ein:
 
 - Buchungen zugel. bis = Leer  
 
-### <a name="to-test-the-scenario"></a>So führen Sie ein Testszenario aus
+### <a name="to-test-the-scenario"></a><a name="to-test-the-scenario"></a>So führen Sie ein Testszenario aus
 
 Testen Sie dieses Szenario, indem Sie die folgenden Schritte ausführen.
 
@@ -150,15 +150,15 @@ Der Ausgleich, der für den Abgang in Schritt 3 geändert wird, verursacht Disku
 
 Um die Anpassung der Negativen Anpassung in Schritt 3 im Dezember zu erreichen, muss in der Finanzbuchhaltungs-Einrichtung im Feld Buchungen zugel. ab ein Datum im Dezember angegeben werden.  
 
-### <a name="conclusion"></a>Fazit
+### <a name="conclusion"></a><a name="conclusion"></a>Fazit
 
 Mit den in diesem Szenario gewonnenen Erfahrungen sollten Sie bei der Überlegung, welche Einrichtung für einen zulässigen Buchungsdatumsbereich für eine Firma am besten geeignet ist, Folgendes in Betracht ziehen. Solange Sie zulassen, dass Änderungen des Bestandswertes in einer Periode gebucht werden, wie in diesem Fall im Dezember, sollte die Einrichtung, die die Firma für zulässige Buchungsdatumsbereiche verwendet, mit dieser Entscheidung übereinstimmen. Buchung von zulassen in der Finanzbuchhaltungs-Einrichtung, in diesem Fall der 1. Dezember, würde die Neubewertung ermöglichen, die im Dezember erfolgte und an betroffene ausgehenden Posten in derselben Periode weitergeleitet werden.  
 
 Die Benutzergruppen, die nicht erlaubt sind, um im Dezember gebucht zu werden, sondern im Januar, sind wahrscheinlich durch die Finanzbuchhaltungseinrichtung in diesem Szenario beschränkt und sollten stattdessen über die Benutzereinrichtung adressiert werden.  
 
-## <a name="item-charge-scenario"></a>Szenario Artikel Zu-/Abschläge
+## <a name="item-charge-scenario"></a><a name="item-charge-scenario"></a>Szenario Artikel Zu-/Abschläge
 
-### <a name="prerequisites-1"></a>Voraussetzungen
+### <a name="prerequisites-1"></a><a name="prerequisites-1"></a>Voraussetzungen
 
 Bitte geben Sie die folgenden Werte ein:
 
@@ -184,7 +184,7 @@ Bitte geben Sie die folgenden Werte ein:
 
 - Anlagenbuchungen zugel. bis = Leer  
 
-### <a name="to-test-the-scenario-1"></a>So testen Sie das Szenario
+### <a name="to-test-the-scenario-1"></a><a name="to-test-the-scenario-1"></a>So testen Sie das Szenario
 
 Testen Sie dieses Szenario, indem Sie die folgenden Schritte ausführen:
 
@@ -350,7 +350,7 @@ Es ist eine Herausforderung, den Bestandsbewertungsbericht dazu zu bringen, Meng
 
 In diesem Szenario könnte eine Option sein, die Finanzbuchhaltung so einzurichten, dass das Feld Buchung zulassen von ein Datum im Dezember für einige Tage mehr definiert und die Buchung des Zuschlages des ersten Artikelpostens zurückgestellt wird, um die Kosten für die vorherige Periode/das vorherige Finanzjahr für die Periode zu ermöglichen, um alle Kosten dort zuzuweisen, wo sie zuerst erkannt wurden und dann die erlaubten Buchungsdaten in die neue Periode des \/ Steuerjahrs zu übertragen. Die Kosten des ersten Artikelpostens mit Buchungsdatum am 2. Januar dann gebucht werden.  
 
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-also"></a><a name="see-also"></a>Weitere Informationen
 
 [Design Details: Buchungsdatum bei der Eingabe von Anpassungswerten](design-details-inventory-adjustment-value-entry-posting-date.md)  
 [Design Details: Kalkulation des Bestandes](design-details-inventory-costing.md)  

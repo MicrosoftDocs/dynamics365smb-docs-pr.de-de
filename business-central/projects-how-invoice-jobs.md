@@ -11,7 +11,7 @@ ms.search.form: '1002, 1007,'
 ms.date: 06/22/2021
 ms.author: edupont
 ---
-# <a name="invoice-jobs"></a>Fakturieren von Projekten
+# <a name="invoice-jobs"></a><a name="invoice-jobs"></a>Fakturieren von Projekten
 
 Im Laufe des Projekts können Projektkosten wie Ressourcenverbrauch, Material oder projektbezogene Einkäufe anfallen. Diese Transaktionen werden im weiteren Verlauf des Projekts auf das Projekt Buch.-Blatt gebucht. Dabei ist es wichtig, dass alle Kosten im Projekt Buch.-Blatt erfasst werden, bevor die Rechnung an den Debitor erstellt wird.
 
@@ -25,7 +25,7 @@ Sie können das gesamte Projekt auf der Seite **Projektaufgabenzeilen** fakturie
 
 Sie können auch einem Unternehmen, das nicht der Endkunde ist, eine Rechnung stellen. Manchmal unterscheidet sich die Partei, für die ein Projekt ist, von der Partei, die die Rechnung bezahlt. Auf der **Projekte**-Seite können Sie den Debitor, der von dem Projekt profitieren wird, in den Feldern **Verk. an** angeben und den Rechnungssteller in den Feldern **Rech. an**. 
 
-## <a name="to-create-multiple-job-sales-invoices"></a>So erstellen Sie mehrere Projektverkaufsrechnungen
+## <a name="to-create-multiple-job-sales-invoices"></a><a name="to-create-multiple-job-sales-invoices"></a>So erstellen Sie mehrere Projektverkaufsrechnungen
 
 Sie können eine Rechnung für ein Projekt oder für eine oder mehrere Projektunteraktivitäten für einen Debitor erstellen, wenn entweder die zu fakturierende Arbeit abgeschlossen ist oder das Datum für die Fakturierung basierend auf einem Fakturierungsplan erreicht ist.
 
@@ -41,7 +41,7 @@ Sie können erstellte Rechnungen im Fenster **Verkaufsrechnungen** überprüfen 
 > [!NOTE]
 > Alternativ können Sie einen Debitor fakturieren, indem Sie das Projekt auswählen und anschließend die Aktion **Projektverkaufsrechnung erstellen** auswählen. 
 
-## <a name="to-create-and-post-job-sales-invoice-from-job-planning-lines"></a>So erstellen und buchen Sie eine Projektverkaufsrechnung aus Projektplanzeilen
+## <a name="to-create-and-post-job-sales-invoice-from-job-planning-lines"></a><a name="to-create-and-post-job-sales-invoice-from-job-planning-lines"></a>So erstellen und buchen Sie eine Projektverkaufsrechnung aus Projektplanzeilen
 
 Sie können eine Rechnung aus Projektplanungszeilen erstellen, und dabei die Menge des Artikels, der Ressource oder des Sachkontos angeben, die Sie fakturieren möchten.
 
@@ -60,9 +60,9 @@ Sie können eine Rechnung aus Projektplanungszeilen erstellen, und dabei die Men
 > [!NOTE]  
 >   Das obige Verfahren dient zum Erstellen, Prüfen und Buchen einer projektbezogenen Verkaufsgutschrift.
 
-## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/paths/post-job-usage-sales/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/paths/post-job-usage-sales/)
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a><a name="see-also"></a>Siehe auch
 
 [Projekte verwalten](projects-manage-projects.md)  
 [Finanzen](finance.md)  
