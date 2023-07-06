@@ -11,7 +11,7 @@ ms.search.form: '9650, 9652'
 ms.date: 11/10/2022
 ms.author: jswymer
 ---
-# <a name="working-with-microsoft-excel-layouts"></a><a name="working-with-microsoft-excel-layouts"></a>Arbeiten mit Microsoft Excel-Layouts
+# <a name="working-with-microsoft-excel-layouts"></a><a name="working-with-microsoft-excel-layouts"></a><a name="working-with-microsoft-excel-layouts"></a>Arbeiten mit Microsoft Excel-Layouts
 
 Microsoft Excel-Berichtslayouts basieren auf Excel-Arbeitsmappen (.xlsx-Dateien). Damit können Sie Berichte erstellen, die vertraute Excel-Funktionen zum Zusammenfassen, Analysieren und Präsentieren von Daten wie Formeln, PivotTables und PivotCharts verwenden.
 
@@ -19,7 +19,7 @@ Microsoft Excel-Berichtslayouts basieren auf Excel-Arbeitsmappen (.xlsx-Dateien)
 
 In diesem Artikel werden einige der wichtigsten Dinge erläutert, die Sie wissen müssen, um mit Excel-Layouts zu beginnen.
 
-## <a name="why-use-excel-layouts"></a><a name="why-use-excel-layouts"></a>Gründe für die Verwendung von Excel-Layouts
+## <a name="why-use-excel-layouts"></a><a name="why-use-excel-layouts"></a><a name="why-use-excel-layouts"></a>Gründe für die Verwendung von Excel-Layouts
 
 Vorteile der Verwendung von Excel-Layouts:
 
@@ -32,14 +32,14 @@ Vorteile der Verwendung von Excel-Layouts:
   - [Prognose und Analyse](https://support.microsoft.com/office/introduction-to-what-if-analysis-22bffa5f-e891-4acc-bf7a-e4645c446fb4)
 - Verwenden Sie installierte Add-Ins und App-Integrationen wie Power Automate-Flows oder OneDrive.
 
-## <a name="get-started"></a><a name="get-started"></a>Erste Schritte
+## <a name="get-started"></a><a name="get-started"></a><a name="get-started"></a>Erste Schritte
 
 Es müssen im Wesentlichen zwei Aufgaben erledigt werden, um ein Excel-Layout in einem Bericht einzurichten:
 
 1. Erstellen Sie die neue Excel-Layoutdatei.
 2. Fügen Sie dem Bericht das neue Layout hinzu.
 
-## <a name="task-1-create-the-excel-layout-file"></a><a name="task-1-create-the-excel-layout-file"></a>Aufgabe 1: Erstellen der Excel-Layoutdatei
+## <a name="task-1-create-the-excel-layout-file"></a><a name="task-1-create-the-excel-layout-file"></a><a name="task-1-create-the-excel-layout-file"></a>Aufgabe 1: Erstellen der Excel-Layoutdatei
 
 Es gibt drei Möglichkeiten, eine Excel-Layoutdatei für einen Bericht zu erstellen.
 
@@ -58,13 +58,13 @@ Befolgen Sie die folgenden Schritte, um ein Excel-Layout aus einem beliebigen Be
 
 Wenn für einen Bericht bereits ein Excel-Layout vorhanden ist, verwenden Sie das vorhandene Layout als Ausgangspunkt. Es gibt zwei Ansätze, um eine Kopie des Layouts zu erhalten. Sie können entweder das vorhandene Layout aus der **Berichtslayouts**-Seite exportieren oder laden das Layout von der Anforderungsseite des Berichts herunterladen. Bei beiden Möglichkeiten wird eine Excel-Layoutdatei heruntergeladen, die alle Blätter der vorhandenen Datei enthält. Der Unterschied besteht darin, dass wenn Sie es von der Anforderungsseite herunterladen, das Layout tatsächliche Daten enthält. (Die Daten sind nicht erforderlich, aber sie helfen bei der Gestaltung des Layouts.)
 
-#### <a name="approach-1-export-the-layout-from-the-report-layouts-page"></a><a name="approach-1-export-the-layout-from-the-report-layouts-page"></a>Ansatz 1: Exportieren des Layouts aus der **Berichtslayouts**-Seite
+#### <a name="approach-1-export-the-layout-from-the-report-layouts-page"></a><a name="approach-1-export-the-layout-from-the-report-layouts-page"></a><a name="approach-1-export-the-layout-from-the-report-layouts-page"></a>Ansatz 1: Exportieren des Layouts aus der **Berichtslayouts**-Seite
 
 [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
 2. Wählen Sie das Excel-Layout aus der Liste und dann die **Layout exportieren**-Aktion oben auf der Seite aus.
 3. Öffnen Sie die Datei in Excel, nehmen Sie die Änderungen vor und speichern Sie die Datei.
 
-#### <a name="approach-2-download-the-layout-from-the-reports-request-page"></a><a name="approach-2-download-the-layout-from-the-reports-request-page"></a>Ansatz 2: Das Layout von der Anforderungsseite des Berichts herunterladen
+#### <a name="approach-2-download-the-layout-from-the-reports-request-page"></a><a name="approach-2-download-the-layout-from-the-reports-request-page"></a><a name="approach-2-download-the-layout-from-the-reports-request-page"></a>Ansatz 2: Das Layout von der Anforderungsseite des Berichts herunterladen
 
 [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
 2. Wählen Sie auf der Seite **Berichtslayouts** wählen Sie ein beliebiges Layout für den Bericht und dann die **Bericht ausführen**-Aktion aus.
@@ -77,7 +77,7 @@ Dies ist die fortschrittlichste Methode zum Erstellen eines Excel-Berichtslayout
 
 ---
 
-## <a name="task-2-add-the-excel-layout-to-the-report"></a><a name="task-2-add-the-excel-layout-to-the-report"></a>Aufgabe 2: Den Excel-Layout dem Bericht hinzufügen
+## <a name="task-2-add-the-excel-layout-to-the-report"></a><a name="task-2-add-the-excel-layout-to-the-report"></a><a name="task-2-add-the-excel-layout-to-the-report"></a>Aufgabe 2: Den Excel-Layout dem Bericht hinzufügen
 
 Sobald Sie die Excel-Layoutdatei haben, besteht die nächste Aufgabe darin, sie als neues Layout für den Bericht hinzuzufügen.
 
@@ -107,7 +107,7 @@ Sobald Sie die Excel-Layoutdatei haben, besteht die nächste Aufgabe darin, sie 
 3. Report metadata 
 -->
 
-## <a name="understanding-excel-layouts"></a><a name="understanding-excel-layouts"></a>Grundlagen von Excel-Layouts
+## <a name="understanding-excel-layouts"></a><a name="understanding-excel-layouts"></a><a name="understanding-excel-layouts"></a>Grundlagen von Excel-Layouts
 
 Es gibt einige Dinge, die Sie wissen oder berücksichtigen sollten, wenn Sie mit dem Erstellen oder Ändern von Excel-Layouts beginnen. Jedes Excel-Layout muss zwei Elemente enthalten: ein **Daten**-Blatt und eine **Daten**-Tabelle. Diese Elemente bilden die Grundlage des Layouts, indem Sie die Geschäftsdaten aus Business Central definieren, mit denen Sie arbeiten können. Sie können sich das **Daten**-Blatt als eine Art Vertrag zwischen dem Layout und den Geschäftsdaten vorstellen. Sie verwenden diese Daten als Quelle für Berechnungen und Visualisierungen, die Sie auf anderen Blättern präsentieren möchten.
 
@@ -129,7 +129,7 @@ Zusammenfassend ist dies, was Sie auf dem **Daten**-Blatt tun sollten und was ni
 - Fügen Sie keine Spalten hinzu, es sei denn, sie sind im Berichtsdatensatz enthalten.
 - Sie können die Blätter in beliebiger Reihenfolge platzieren, wobei das **Daten**blatt zuerst oder zuletzt sein kann.
 
-## <a name="see-also"></a><a name="see-also"></a>Siehe auch
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Siehe auch
 
 [Verwalten von Berichtslayouts](ui-manage-report-layouts.md)  
 [Ändern Sie das aktuelle Berichtslayout](ui-how-change-layout-currently-used-report.md)  

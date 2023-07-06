@@ -10,7 +10,7 @@ ms.search.form: 5430
 ms.date: 08/30/2022
 ms.author: bholtorf
 ---
-# <a name="about-planning-functionality"></a><a name="about-planning-functionality"></a>Info zu Planungsfunktionen
+# <a name="about-planning-functionality"></a><a name="about-planning-functionality"></a><a name="about-planning-functionality"></a>Info zu Planungsfunktionen
 
 Das Planungssystem berücksichtigt sämtliche Bedarfs- und Vorratsdaten, saldiert die Ergebnisse und erstellt Vorschläge zum Ausgleichen des Vorrats, damit der Bedarf erfüllt werden kann.  
 
@@ -19,7 +19,7 @@ Weitere Informationen finden Sie unter [Designdetails: Beschaffungsplanung](desi
 > [!NOTE]  
 > Für alle Felder, die in diesem Thema genannt werden, Lesen Sie die QuickInfo, um die Funktion zu erkennen. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="demand-and-supply"></a><a name="demand-and-supply"></a>Bedarf und Vorrat
+## <a name="demand-and-supply"></a><a name="demand-and-supply"></a><a name="demand-and-supply"></a>Bedarf und Vorrat
 
 Planung besteht aus zwei Elementen: Bedarf und Vorrat. Dieses beiden Elemente müssen einander angepasst werden, damit sichergestellt ist, dass der Bedarf rechtzeitig und kostengünstig erfüllt werden kann.  
 
@@ -28,7 +28,7 @@ Planung besteht aus zwei Elementen: Bedarf und Vorrat. Dieses beiden Elemente m�
 
 Außerdem hat das Planungssystem die Aufgabe sicherzustellen, dass der Lagerbestand nicht unnötig wächst. Im Fall eines abnehmenden Bedarfs wird das Planungssystem vorschlagen, dass vorhandene Ersatzaufträge zurückgestellt, mengenmäßig verringert oder storniert werden sollten.  
 
-## <a name="planning-calculation"></a><a name="planning-calculation"></a>Planungsberechnung
+## <a name="planning-calculation"></a><a name="planning-calculation"></a><a name="planning-calculation"></a>Planungsberechnung
 
 Das Planungssystem wird durch den erwarteten und den tatsächlichen Debitorenbedarf sowie die Wiederbeschaffungsparameter gesteuert. Ein Ausführen der Planungsberechnung bewirkt, dass die Anwendung bestimmte Aktionen ([Ereignismeldungen](production-how-to-run-mps-and-mrp.md#action-messages)) vorschlägt, die sich auf mögliche Beschaffungen von Kreditoren, Umlagerungen zwischen Lagern oder die Fertigung beziehen. Wenn es bereits Ersatzaufträge gibt, könnten die vorgeschlagenen Aktionen so aussehen, dass die Aufträge vergrößert oder schneller erteilt werden sollen, damit den Bedarfsänderungen Rechnung getragen wird.  
 
@@ -37,7 +37,7 @@ Die Basis der Planungsroutine findet sich in der Brutto-Netto-Berechnung. Die Ne
 > [!TIP]
 > Das Planungssystem hängt davon ab, wie Ihre Organisation Standorte verwendet. Weitere Informationen finden Sie unter [Planung mit/ohne Lagerortcodes](production-planning-with-without-locations.md).
 
-## <a name="planning-with-manual-transfer-orders"></a><a name="planning-with-manual-transfer-orders"></a>Planung mit manuellen Umlagerungsaufträgen
+## <a name="planning-with-manual-transfer-orders"></a><a name="planning-with-manual-transfer-orders"></a><a name="planning-with-manual-transfer-orders"></a>Planung mit manuellen Umlagerungsaufträgen
 
 Wie aus dem Feld **Beschaffungsmethode** auf einer Lagerhaltungsdatenkarte zu ersehen ist, kann das Planungssystem für die Erstellung von Umlagerungsaufträgen zum standortübergreifenden Ausgleichen von Angebot und Nachfrage eingerichtet werden.  
 
@@ -45,7 +45,7 @@ Wie aus dem Feld **Beschaffungsmethode** auf einer Lagerhaltungsdatenkarte zu er
 
 Wenn hingegen das Planungssystem die Mengen und Daten für Umlagerungsaufträge an die vorhandene Nachfrage anpassen soll, müssen Sie das Feld **Planungsflexibilität** auf den Standardwert Unbeschränkt festlegen.
 
-## <a name="planning-parameters"></a><a name="planning-parameters"></a>Planungsparameter
+## <a name="planning-parameters"></a><a name="planning-parameters"></a><a name="planning-parameters"></a>Planungsparameter
 
 Die Planungsparameter steuern die Beschaffung (wann, wie viel und wie) anhand der verschiedenen Einstellungen auf den Artikelkarten (oder Lagerhaltungsdaten) sowie der Produktionseinrichtung.  
 
@@ -86,16 +86,16 @@ Zu den globalen Planungseinrichtungsfeldern auf der Seite **Produktion Einrichtu
 
 Weitere Informationen finden Sie unter [Designdetails: Planungsparameter](design-details-planning-parameters.md)  
 
-## <a name="other-important-planning-fields"></a><a name="other-important-planning-fields"></a>Andere wichtige Planungs-Felder
+## <a name="other-important-planning-fields"></a><a name="other-important-planning-fields"></a><a name="other-important-planning-fields"></a>Andere wichtige Planungs-Felder
 
-### <a name="planning-flexibility"></a><a name="planning-flexibility"></a>Planungsflexibilität
+### <a name="planning-flexibility"></a><a name="planning-flexibility"></a><a name="planning-flexibility"></a>Planungsflexibilität
 
 In den meisten Beschaffungsaufträgen wie Fertigungsaufträge, können Sie **Unbeschränkt** oder **Keine** im Feld **Planungsflexibilität** auf den Zeilen auswählen.
 
 Gibt an, ob die durch die Fertigungsauftragszeile dargestellte Lieferung bei der Berechnung von Ereignismeldungen vom Planungssystem berücksichtigt wird.
 Enthält das Feld die Option **Unbeschränkt**, wird die Zeile beim Berechnen von Ereignismeldungen berücksichtigt. Wenn das Feld die Option **Keine** enthält, ist die Zeile unveränderlich und wird bei der Berechnung von Aktionsmeldungen nicht berücksichtigt.
 
-### <a name="warning"></a><a name="warning"></a>Warnung
+### <a name="warning"></a><a name="warning"></a><a name="warning"></a>Warnung
 
 Das Feld **Warnung** auf der **Planungsarbeitsblatt** Seite informiert Sie über jede mögliche Planungszeile, die für eine ungewöhnliche Situation mit einen Text erstellt wird, den der Benutzer klicken kann, um weitere Informationen anzuzeigen. Folgende Arten von Warnungen sind verfügbar:
 
@@ -113,7 +113,7 @@ Wenn der Lagerbestand eines Artikels am geplanten Startdatum negativ ist, wird v
 
 Belegzeilen mit Fälligkeitsdaten vor dem geplanten Startdatum werden in einem Notfallbeschaffungsauftrag für den Artikel zusammengefasst, der am geplanten Startdatum eingehen soll.
 
-### <a name="exception"></a><a name="exception"></a>Ausnahme
+### <a name="exception"></a><a name="exception"></a><a name="exception"></a>Ausnahme
 
 Die Ausnahmewarnung wird angezeigt, wenn der voraussichtlich verfügbare Lagerbestand den Sicherheitsbestand unterschreitet.
 
@@ -124,7 +124,7 @@ Das Unterschreiten des Sicherheitsbestands gilt als Ausnahme, da dieser Zustand 
 > [!NOTE]
 > Der Vorrat in Planungszeilen mit Ausnahmewarnungen wird normalerweise nicht gemäß den Planungsparametern geändert. Stattdessen wird vom Planungssystem nur eine Beschaffung vorgeschlagen, um die genaue Bedarfsmenge zu decken. Sie können jedoch die Planung so festlegen, dass bestimmte Planungsparameter für Planungszeilen mit bestimmten Warnungen berücksichtigt werden können. Weitere Informationen finden Sie in der Beschreibung für das Feld **Beachten Sie die Planungsparameter für Ausnahmewarnungen** im Artikel [Führen Sie vollständige Planung, MPS oder MRP aus](production-how-to-run-mps-and-mrp.md).
 
-### <a name="attention"></a><a name="attention"></a>Achtung
+### <a name="attention"></a><a name="attention"></a><a name="attention"></a>Achtung
 
 Die Achtungswarnung wird in zwei Situationen angezeigt:
 
@@ -134,11 +134,11 @@ Die Achtungswarnung wird in zwei Situationen angezeigt:
 > [!NOTE]
 > In Planzeilen mit Warnungen ist das Kontrollkästchen **Ereignismeldung akzeptieren** nicht aktiviert, da diese Zeilen vom Planer genauer untersucht werden sollen, bevor der Plan umgesetzt wird.
 
-## <a name="planning-worksheets-and-requisition-worksheets"></a><a name="planning-worksheets-and-requisition-worksheets"></a>Planungs‑ und Anforderungsarbeitsblätter
+## <a name="planning-worksheets-and-requisition-worksheets"></a><a name="planning-worksheets-and-requisition-worksheets"></a><a name="planning-worksheets-and-requisition-worksheets"></a>Planungs‑ und Anforderungsarbeitsblätter
 
 Wie in [Planung](production-planning.md) beschrieben können Sie für die meisten Planungsaktivitäten zwischen zwei Arbeitsblättern wählen, dem Planungsarbeitsblatt und dem Anforderungsarbeitsblatt. Die meisten Prozesse werden anhand des Planungsarbeitsblatts beschrieben. Es gibt jedoch einige Szenarien, in denen das Anforderungsarbeitsblatt bevorzugt wird.
 
-### <a name="requisition-worksheet"></a><a name="requisition-worksheet"></a>Anforderungsarbeitsblatt
+### <a name="requisition-worksheet"></a><a name="requisition-worksheet"></a><a name="requisition-worksheet"></a>Anforderungsarbeitsblatt
 
 Auf der Seite **Anforderungsarbeitsblatt** sind die Artikel aufgelistet, die Sie bestellen möchten. Sie haben folgende Möglichkeiten, um die Artikel in das Arbeitsblatt einzugeben:
 
@@ -159,9 +159,9 @@ Einzelheiten zur Planung mit Standorten und Transfers finden Sie unter [Planen m
 > [!TIP]
 > Auf den Seiten **Anforderungsarbeitsblatt** oder **Planungsarbeitsblatt** können Sie die Zeilen organisieren, indem Sie nach einem Spaltennamen sortieren. Dies ist auf der Seite Planungsarbeitsblatt besonders nützlich, da sie für mehrstufige Produktionsaufträge verwendet werden kann. Standardmäßig werden Zeilen nach **Art.-Nr.** sortiert. Um Positionen für einen mehrstufigen Auftrag zu gruppieren, sortieren Sie nach **Ref. Best.-Nr.** Feld Auch **MPS-Bestellung** und **Planungsebene** können dabei helfen, die Hierarchie der Zeilen anzuzeigen.
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/plan-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/plan-items-dynamics-365-business-central/)
 
-## <a name="see-also"></a><a name="see-also"></a>Siehe auch
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Siehe auch
 
 [Entwurfsdetails: Vorratsplanung](design-details-supply-planning.md)  
 [Planung](production-planning.md)  

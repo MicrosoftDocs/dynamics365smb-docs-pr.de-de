@@ -12,7 +12,7 @@ ms.date: 06/08/2021
 ms.author: bholtorf
 ---
 
-# <a name="design-details-change-the-costing-method-for-items"></a><a name="design-details-change-the-costing-method-for-items"></a>Designdetails: Lagerabgangsmethode für Artikel ändern
+# <a name="design-details-change-the-costing-method-for-items"></a><a name="design-details-change-the-costing-method-for-items"></a><a name="design-details-change-the-costing-method-for-items"></a>Designdetails: Lagerabgangsmethode für Artikel ändern
 
 In [!INCLUDE[prod_short](includes/prod_short.md)] können Sie eine Lagerabgangsmethode für einen Artikel nicht ändern, nachdem Sie den Artikel in eine Transaktion aufgenommen haben. Zum Beispiel, nachdem Sie den Artikel gekauft oder verkauft haben. Wenn dem Artikel oder den Artikeln eine falsche Lagerabgangsmethode zugewiesen wurde, können Sie das Problem möglicherweise erst feststellen, wenn Sie Ihre Finanzberichterstattung durchführen.
 
@@ -24,7 +24,7 @@ In diesem Thema wird beschrieben, wie Sie diese Situation beheben können. Der e
 > [!TIP]
 > Um sich mit dem Prozess vertraut zu machen, empfehlen wir, den Konvertierungsprozess mit einem einzelnen Artikel oder einer kleinen Gruppe von Artikeln zu starten.
 
-## <a name="about-costing-methods"></a><a name="about-costing-methods"></a>Info zu Lagerabgangsmethoden
+## <a name="about-costing-methods"></a><a name="about-costing-methods"></a><a name="about-costing-methods"></a>Info zu Lagerabgangsmethoden
 
 Kalkulationsmethoden steuern die Kostenberechnung, wenn Waren gekauft, in den Lagerbestand übernommen und verkauft werden. Lagerabgangsmethoden beeinflussen den Zeitpunkt der im COGS (Wareneinsatz) erfassten Beträge, die sich auf den Bruttogewinn auswirken. Dieser Fluss berechnet den COGS. Die Kosten der verkauften Waren (COGS) und die Umsätze werden wie folgt zur Ermittlung des Bruttogewinns verwendet:
 
@@ -40,7 +40,7 @@ Wenn Sie Lagerartikel einrichten, müssen Sie eine Kalkulationsmethode zuweisen.
 
 Weitere Informationen finden Sie unter [Designdetails: Lagerabgangsmethoden](design-details-costing-methods.md).
 
-## <a name="use-assembly-orders-to-change-costing-method-assignments"></a><a name="use-assembly-orders-to-change-costing-method-assignments"></a>Verwenden von Montageaufträgen zum Ändern der Zuordnung von Lagerabgangsmethoden
+## <a name="use-assembly-orders-to-change-costing-method-assignments"></a><a name="use-assembly-orders-to-change-costing-method-assignments"></a><a name="use-assembly-orders-to-change-costing-method-assignments"></a>Verwenden von Montageaufträgen zum Ändern der Zuordnung von Lagerabgangsmethoden
 
 In diesem Abschnitt werden die folgenden Schritte zum Ändern der einem Artikel zugewiesenen Lagerabgangsmethode beschrieben:
 
@@ -53,21 +53,21 @@ In diesem Abschnitt werden die folgenden Schritte zum Ändern der einem Artikel 
 7. Behandeln Sie Bestandsmengen, die der Nachfrage zugeordnet sind.
 8. Blockieren Sie die weitere Verwendung des ursprünglichen Artikels.  
 
-### <a name="define-a-default-costing-method"></a><a name="define-a-default-costing-method"></a>Standardmäßige Lagerabgangsmethode definieren
+### <a name="define-a-default-costing-method"></a><a name="define-a-default-costing-method"></a><a name="define-a-default-costing-method"></a>Standardmäßige Lagerabgangsmethode definieren
 
 Um zukünftige Fehler zu vermeiden, können Sie eine standardmmäßige Lagerabgangsmethode für neue Artikel angeben. Wenn jemand einen neuen Artikel erstellt, schlägt [!INCLUDE[prod_short](includes/prod_short.md)] immer die standardmäßige Lagerabgangsmethode vor. Sie können die standardmäßige Lagerabgangsmethode im Feld **Standardmäßige Lagerabgangsmethode** auf der Seite **Lagereinrichtung** festlegen. 
 
-### <a name="identify-the-items-to-change-the-costing-method-for-and-renumber-them"></a><a name="identify-the-items-to-change-the-costing-method-for-and-renumber-them"></a>Identifizieren Sie die Artikel, für die die Lagerabgangsmethode geändert werden soll, und nummerieren Sie sie neu.
+### <a name="identify-the-items-to-change-the-costing-method-for-and-renumber-them"></a><a name="identify-the-items-to-change-the-costing-method-for-and-renumber-them"></a><a name="identify-the-items-to-change-the-costing-method-for-and-renumber-them"></a>Identifizieren Sie die Artikel, für die die Lagerabgangsmethode geändert werden soll, und nummerieren Sie sie neu.
 
 Möglicherweise möchten Sie Ihren neuen Artikeln die gleichen Nummern geben wie denen, die sie ersetzen. Ändern Sie dazu die Nummern der vorhandenen Elemente. Wenn die vorhandene Artikelnummer beispielsweise „P1000“ lautet, können Sie sie in „X-P1000“ ändern. Dies ist eine manuelle Änderung, die Sie für jeden Artikel vornehmen müssen.
 
-### <a name="create-new-items-with-the-old-numbering-scheme-and-copy-the-master-data-in-a-batch"></a><a name="create-new-items-with-the-old-numbering-scheme-and-copy-the-master-data-in-a-batch"></a>Erstellen Sie neue Artikel mit dem alten Nummerierungsschema, und kopieren Sie die Masterdaten in einem Stapel.
+### <a name="create-new-items-with-the-old-numbering-scheme-and-copy-the-master-data-in-a-batch"></a><a name="create-new-items-with-the-old-numbering-scheme-and-copy-the-master-data-in-a-batch"></a><a name="create-new-items-with-the-old-numbering-scheme-and-copy-the-master-data-in-a-batch"></a>Erstellen Sie neue Artikel mit dem alten Nummerierungsschema, und kopieren Sie die Masterdaten in einem Stapel.
 
 Erstellen Sie die neuen Artikel mit dem aktuellen Nummernschema. Mit Ausnahme des Felds **Lagerabgangsmethode** sollten die neuen Artikel sollten die gleichen Masterdaten enthalten wie die vorhandenen Elemente. Verwenden Sie die Aktion **Element kopieren** auf der Seite **Artikelkarte** Seite, um die Masterdaten für den Artikel und zugehörige Daten aus anderen Funktionen zu übertragen. Weitere Informationen finden Sie unter [Kopieren Sie vorhandene Elemente, um neue Elemente zu erstellen](inventory-how-copy-items.md).
 
 Nachdem Sie die neuen Artikel erstellt und die Masterdaten übertragen haben, weisen Sie die richtige Lagerabgangsmethode zu.
 
-### <a name="manually-copy-related-master-data-from-the-original-item-to-the-new-item"></a><a name="manually-copy-related-master-data-from-the-original-item-to-the-new-item"></a>Kopieren Sie zugehörige Masterdaten manuell aus dem ursprünglichen in den neuen Artikel.
+### <a name="manually-copy-related-master-data-from-the-original-item-to-the-new-item"></a><a name="manually-copy-related-master-data-from-the-original-item-to-the-new-item"></a><a name="manually-copy-related-master-data-from-the-original-item-to-the-new-item"></a>Kopieren Sie zugehörige Masterdaten manuell aus dem ursprünglichen in den neuen Artikel.
 
 Damit die neuen Artikel vollständig verwendet werden können, müssen Sie einige Stammdaten aus anderen Bereichen manuell kopieren, wie in der folgenden Tabelle beschrieben.
 
@@ -89,7 +89,7 @@ Damit die neuen Artikel vollständig verwendet werden können, müssen Sie einig
 > [!IMPORTANT]
 > Wenn die neue Lagerabgangsmethode „Standard“ lautet, sollten Sie einen Wert in das Feld eingeben **Einstandspreis (fest)** auf der Seite **Artikelkarte** eingeben. Auf der Seite **Einst.-Preis (fest) Arbeitsblatt** können Sie die Kostenanteile entsprechend festlegen. Weitere Informationen zum Erstellen von Erfassungen finden Sie unter [Standard-Buch.-Blätter aktualisieren](finance-how-to-update-standard-costs.md).
 
-### <a name="determine-the-inventory-quantity-to-convert-from-the-original-item-to-the-new-item"></a><a name="determine-the-inventory-quantity-to-convert-from-the-original-item-to-the-new-item"></a>Bestandsmenge bestimmen, die vom ursprünglichen Artikel in den neuen Artikel konvertiert werden soll
+### <a name="determine-the-inventory-quantity-to-convert-from-the-original-item-to-the-new-item"></a><a name="determine-the-inventory-quantity-to-convert-from-the-original-item-to-the-new-item"></a><a name="determine-the-inventory-quantity-to-convert-from-the-original-item-to-the-new-item"></a>Bestandsmenge bestimmen, die vom ursprünglichen Artikel in den neuen Artikel konvertiert werden soll
 
 > [!NOTE]
 > In diesem Schritt werden keine Mengen berücksichtigt, die in nicht versendeten Bestellungen enthalten sind. Weitere Informationen finden Sie unter [Bestandsmengen verarbeiten, die der Nachfrage zugeordnet sind](design-details-changing-costing-methods.md#handle-inventory-quantities-that-are-allocated-to-demand). 
@@ -101,13 +101,13 @@ Verwenden Sie ein Inventur-Buch.-Blatt , um eine Liste der Mengen im Mengen im L
 
 Beide Blätter können die Lagermenge des Artikels berechnen, einschließlich Standort, Variante, Lagerplatz und Lagerort. Weitere Informationen finden Sie unter [Erfassen, Regulieren und Umbuchen von Lagerbestand mithilfe von Buch.-Blättern](inventory-how-count-adjust-reclassify.md)
 
-### <a name="transfer-the-inventory-to-the-new-item"></a><a name="transfer-the-inventory-to-the-new-item"></a>Lagerbestand auf den neuen Artikel übertragen
+### <a name="transfer-the-inventory-to-the-new-item"></a><a name="transfer-the-inventory-to-the-new-item"></a><a name="transfer-the-inventory-to-the-new-item"></a>Lagerbestand auf den neuen Artikel übertragen
 
 Erstellen und buchen Sie Montageaufträge, um die Kosten und die Bestandsmenge vom ursprünglichen Artikel auf den neuen Artikel zu übertragen. Montageaufträge können einen Artikel in einen anderen umwandeln, wobei die Kosten erhalten bleiben. Auf diese Weise wird sichergestellt, dass die Nettosummen für das Bestandskonto und die COGS nicht betroffen sind (außer wenn die neue Lagerabgangsmethod auf „Standard“ festgelegt ist. In diesem Fall können die Kosten auf Abweichungskonten verteilt werden). Weitere Informationen finden Sie unter [Montageverwaltung](assembly-assemble-items.md).
 
 Verwenden Sie beim Erstellen von Montageaufträgen die Informationen aus dem Inventur Buch.-Blatt oder dem Logistik Inventur Buch.-Blatt. In den folgenden Tabellen werden die Informationen in den Berichten beschrieben, die in die Kopfzeile und die Zeilen des Montageauftrags eingegeben werden sollen.
 
-#### <a name="header"></a><a name="header"></a>Header
+#### <a name="header"></a><a name="header"></a><a name="header"></a>Header
 
 |Feld  |Einzugebender Wert  |
 |---------|---------|
@@ -118,7 +118,7 @@ Verwenden Sie beim Erstellen von Montageaufträgen die Informationen aus dem Inv
 |Einheitencode |Identisch mit dem Inventur-Buch.-Blatt. |
 |Lagerplatzcode |Identisch mit dem Inventur-Buch.-Blatt. |
 
-#### <a name="lines"></a><a name="lines"></a>Zeilen
+#### <a name="lines"></a><a name="lines"></a><a name="lines"></a>Zeilen
 
 |Feld  |Einzugebender Wert  |
 |---------|---------|
@@ -135,7 +135,7 @@ Verwenden Sie beim Erstellen von Montageaufträgen die Informationen aus dem Inv
 > [!NOTE]
 > Für einen Lagerort müssen Sie möglicherweise Kommissionierungen erstellen, bevor Sie den Montageauftrag buchen können. Überprüfen Sie die Einrichtung für Kommissionierungen auf der Seite **Standortkarte**, um dies zu untersuchen. Weitere Informationen finden Sie unter [Artikel und Standorte für die gesteuerte Einlagerung und Kommissionierung einrichten](warehouse-how-to-set-up-items-for-directed-put-away-and-pick.md)
 
-### <a name="handle-inventory-quantities-that-are-allocated-to-demand"></a><a name="handle-inventory-quantities-that-are-allocated-to-demand"></a>Bestandsmengen verarbeiten, die der Nachfrage zugeordnet sind
+### <a name="handle-inventory-quantities-that-are-allocated-to-demand"></a><a name="handle-inventory-quantities-that-are-allocated-to-demand"></a><a name="handle-inventory-quantities-that-are-allocated-to-demand"></a>Bestandsmengen verarbeiten, die der Nachfrage zugeordnet sind
 
 Im Idealfall sollte der Lagerbestand für den ursprünglichen Artikel nach der Übertragung der Bestandsmengen auf Null gehen. Es können jedoch ausstehende Bestellungen, Arbeitsblätter und Buchungsblätter (siehe Tabelle unten) vorhanden sein, für die noch eine Menge des ursprünglichen Artikels erforderlich ist. Die Menge kann auch durch eine Reservierung oder Artikelverfolgung blockiert werden.
 
@@ -158,11 +158,11 @@ In der folgenden Tabelle sind Funktionsbereiche aufgeführt, in denen möglicher
 |Service |Servicebelege und Serviceverträge |
 |Produktion |Fertigungsauftrag (geplant, fest geplant und freigegeben) |
 
-### <a name="block-the-original-item-from-further-use"></a><a name="block-the-original-item-from-further-use"></a>Verwendung des ursprünglichen Artikels blockieren
+### <a name="block-the-original-item-from-further-use"></a><a name="block-the-original-item-from-further-use"></a><a name="block-the-original-item-from-further-use"></a>Verwendung des ursprünglichen Artikels blockieren
 
 Wenn der Bestand für den ursprünglichen Artikel Null ist, können Sie den Artikel blockieren, um zu verhindern, dass er für neue Transaktionen verwendet wird. Wenn Sie den Artikel blockieren möchten, klicken Sie auf die Seite **Artikelkarte**, und aktivieren Sie das Kontrollkästchen **Blockiert**. Weitere Informationen finden Sie unter [Artikel aus Verkauf oder Einkauf sperren](inventory-how-block-items.md).
 
-## <a name="summary"></a><a name="summary"></a>Zusammenfassung
+## <a name="summary"></a><a name="summary"></a><a name="summary"></a>Zusammenfassung
 
 In [!INCLUDE[prod_short](includes/prod_short.md)] ist das Ändern der Lagerabgangsmethode für Artikel, die in Transaktionen verwendet wurden, ein Prozess und keine Standardaktion. Sie können die in diesem Thema beschriebenen Schritte als Vorlage für den Prozess verwenden.
 
@@ -173,7 +173,7 @@ Wir empfehlen Folgendes:
 1. Bewerten Sie die Durchführbarkeit des Prozesses, indem Sie einen oder mehrere repräsentative Artikel den gesamten Prozess durchlaufen lassen.
 2. Wenden Sie sich an einen erfahrenen Partner, der Ihnen bei diesem Prozess helfen kann.
 
-## <a name="see-also"></a><a name="see-also"></a>Siehe auch
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Siehe auch
 
 [Designdetails: Kostenberechnungsmethoden](design-details-costing-methods.md)  
 [Matrix](design-details-inventory-costing.md)

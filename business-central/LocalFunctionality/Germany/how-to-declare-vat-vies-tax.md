@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/18/2021
 ms.author: edupont
 ---
-# <a name="declare-vat-vies-tax-in-the-german-version"></a><a name="declare-vat-vies-tax-in-the-german-version"></a>MwSt-VIES-Steuererklärung in der deutschen Version
+# <a name="declare-vat-vies-tax-in-the-german-version"></a><a name="declare-vat-vies-tax-in-the-german-version"></a><a name="declare-vat-vies-tax-in-the-german-version"></a>MwSt-VIES-Steuererklärung in der deutschen Version
 
 [!INCLUDE[prod_short](../../includes/prod_short.md)] enthält den **EU-Verkaufsübersicht**-Bericht, mit dem Sie Informationen zu Verkaufstransaktionen mit anderen Ländern oder Regionen innerhalb der Europäischen Union (EU) an das System der Zoll- und Steuerbehördenlisten übermitteln können. Im Bericht werden Informationen in dem Format angezeigt, das auch in der Erklärungsliste der Zoll- und Steuerbehörden verwendet wird.  
 
@@ -18,7 +18,7 @@ Abhängig vom Volumen der verkauften Waren oder Dienstleistungen an andere EU-L�
 
 Der Bericht basiert auf Daten in der Tabelle "MwSt.-Posten".  
 
-## <a name="to-declare-vat-vies-tax"></a><a name="to-declare-vat-vies-tax"></a>So erstellen Sie eine zusammenfassende Meldung
+## <a name="to-declare-vat-vies-tax"></a><a name="to-declare-vat-vies-tax"></a><a name="to-declare-vat-vies-tax"></a>So erstellen Sie eine zusammenfassende Meldung
 
 1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](../../media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **VAT-VIES Zusammenf. Meldung – Formular – DE** ein und wählen Sie dann den entsprechenden Link.  
 2.  Füllen Sie auf der Seite **Zusammenf. Meldung MwSt-Vies-Formular** im Inforegister **Optionen** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
@@ -37,7 +37,7 @@ Der Bericht basiert auf Daten in der Tabelle "MwSt.-Posten".
     > [!NOTE]  
     >  Um diesen Bericht ausführen, müssen Sie das **Buchungsdatum** als Filter auswählen und den Wert des Buchungsdatums eingegeben.  
 
-## <a name="see-also"></a><a name="see-also"></a>Weitere Informationen
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Weitere Informationen
 
 [MwSt.-Abrechnung](vat-reporting.md)  
 [Melden von MwSt. an die Steuerbehörden](../../finance-how-report-vat.md)  

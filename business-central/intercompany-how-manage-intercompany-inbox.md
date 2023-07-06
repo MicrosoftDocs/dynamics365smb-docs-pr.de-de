@@ -10,17 +10,17 @@ ms.custom: bap-template
 ms.search.keywords: incoming document
 ms.search.form: '600, 605, 618, 650, 651, 648, 649, 617, 614, 642, 643, 640, 641, 613, 616, 646, 647, 644, 645, 615, 619, 612, 638, 639, 636, 637, 611'
 ---
-# <a name="manage-the-intercompany-inbox-and-outbox"></a><a name="manage-the-intercompany-inbox-and-outbox"></a>Intercompany-Ein- und -Ausgangstransaktionen verwalten
+# <a name="manage-the-intercompany-inbox-and-outbox"></a><a name="manage-the-intercompany-inbox-and-outbox"></a><a name="manage-the-intercompany-inbox-and-outbox"></a>Intercompany-Ein- und -Ausgangstransaktionen verwalten
 
 Die Intercompanytransaktionen, die Sie auf elektronischem Wege von Intercompanypartnern empfangen, werden im **Intercompanyeingang** aufgelistet. Um zu erfahren, wie Sie eingehende Intercompany-Transaktionen verarbeiten, gehen Sie zu [Eingehende Intercompany-Transaktionen verarbeiten](#process-incoming-intercompany-transactions). Die Intercompanytransaktionen, die Sie auf elektronischem Wege von Intercompanypartnern empfangen, werden auf der Seite **Intercompanyausgang** aufgelistet. Um zu erfahren, wie Sie ausgehende Intercompany-Transaktionen verarbeiten, gehen Sie zu [Ausgehende Intercompany-Transaktionen verarbeiten](#to-process-outgoing-intercompany-transactions).
 
 Abhängig von Ihrer Intercompany-Einrichtung werden einige Transaktionen jedoch automatisch verarbeitet. Sie können das Quellunternehmen und die Partnerunternehmen so einrichten, dass sie automatisch Belege und Journale erstellen, die Transaktionen entsprechen, die Partner über das Intercompany-Hauptbuch buchen. Um mehr über die Verwendung von Intercompany-Journalen zu erfahren, gehen Sie zu [Intercompany-Journal ausfüllen und buchen](intercompany-how-work-documents-journals.md#fill-in-and-post-an-intercompany-journal).  
 
-## <a name="organizing-the-inbox"></a><a name="organizing-the-inbox"></a>Strukturieren des Eingangs
+## <a name="organizing-the-inbox"></a><a name="organizing-the-inbox"></a><a name="organizing-the-inbox"></a>Strukturieren des Eingangs
 
 Mit Hilfe der Filterfelder im oberen Bereich der Seite Eingang können Sie festlegen, welche Transaktionen auf der Seite angezeigt werden. Wenn Sie beispielsweise nur die von einem bestimmten Partner erstellten Transaktionen anzeigen möchten, können Sie die entsprechenden Filterkriterien in den Feldern **Transaktionsursprung** und **Intercompanypartnercode** verwenden.  
 
-### <a name="transaction-source"></a><a name="transaction-source"></a>Transaktionsursprung
+### <a name="transaction-source"></a><a name="transaction-source"></a><a name="transaction-source"></a>Transaktionsursprung
 
 Welche Möglichkeiten Sie bei der Verwendung einer Transaktion haben, ist davon abhängig ob es sich dabei um eine Transaktion handelt, die:  
 
@@ -29,7 +29,7 @@ Welche Möglichkeiten Sie bei der Verwendung einer Transaktion haben, ist davon 
 
 Das Feld **Transaktionsursprung anzeigen** kann zum Filtern der Transaktionen im Fenster **Intercompany-Eingangstransaktionen** verwendet werden, damit auf dieser Seite nur Transaktionen des festgelegten Typs angezeigt werden. Darüber hinaus können Sie nach Intercompanypartner oder nach dem Inhalt des Feldes **Zeilenaktion** filtern.  
 
-#### <a name="created-by-intercompany-partner"></a><a name="created-by-intercompany-partner"></a>Vom Intercompanypartner erstellt
+#### <a name="created-by-intercompany-partner"></a><a name="created-by-intercompany-partner"></a><a name="created-by-intercompany-partner"></a>Vom Intercompanypartner erstellt
 
  Wenn Sie eine neue Transaktion empfangen, die vom Partner erstellt wurde, haben Sie folgende Möglichkeiten:
 
@@ -37,15 +37,15 @@ Das Feld **Transaktionsursprung anzeigen** kann zum Filtern der Transaktionen im
 * Transaktion ablehnen (an Partner zurücksenden)  
 * Transaktion abbrechen (löschen, ohne sie an den Partner zurückzusenden)  
 
-#### <a name="returned-from-intercompany-partner"></a><a name="returned-from-intercompany-partner"></a>Von Intercompanypartner zurückgesendet
+#### <a name="returned-from-intercompany-partner"></a><a name="returned-from-intercompany-partner"></a><a name="returned-from-intercompany-partner"></a>Von Intercompanypartner zurückgesendet
 
 Wenn Ihr Intercompanypartner eine Transaktion ablehnt, können Sie sie nur im Eingang abbrechen. Anschließend müssen Sie Korrekturzeilen erstellen oder das Buch.-Blatt oder den Beleg im Unternehmen stornieren.  
 
-## <a name="recreating-inbox-entries"></a><a name="recreating-inbox-entries"></a>Neuerstellen von Eingangsposten
+## <a name="recreating-inbox-entries"></a><a name="recreating-inbox-entries"></a><a name="recreating-inbox-entries"></a>Neuerstellen von Eingangsposten
 
 Wenn Sie eine Transaktion im Eingang akzeptiert, anschließend aber den Beleg oder das Buch.-Blatt gelöscht haben, statt diese zu buchen, können Sie den Eingangsposten neu erstellen und erneut akzeptieren.  
 
-## <a name="get-an-overview-of-intercompany-transactions-for-a-period"></a><a name="get-an-overview-of-intercompany-transactions-for-a-period"></a>Eine Übersicht über die Intercompanytransaktionen eines bestimmten Zeitraums erhalten
+## <a name="get-an-overview-of-intercompany-transactions-for-a-period"></a><a name="get-an-overview-of-intercompany-transactions-for-a-period"></a><a name="get-an-overview-of-intercompany-transactions-for-a-period"></a>Eine Übersicht über die Intercompanytransaktionen eines bestimmten Zeitraums erhalten
 
 Die Intercompanytransaktionen, die Sie in einem bestimmten Zeitraum empfangen oder versendet haben, können in einer Übersicht angezeigt werden. Im Bericht **Intercompanytransaktionen** werden alle Intercompanysachposten, Debitorenposten und Kreditorenposten aufgelistet.
 
@@ -55,7 +55,7 @@ Die Intercompanytransaktionen, die Sie in einem bestimmten Zeitraum empfangen od
 > * Aktivieren Sie für den Synchronisationspartner auf der Seite **Unternehmensübergreifende Einrichtung** die Umschaltung **Automatisch. Senden-Transaktionen**.
 > * Aktivieren Sie für Partnerunternehmen auf der Seite **Intercompany-Partner** die Umschaltung **Transaktionen automatisch annehmen**.  
 
-## <a name="import-intercompany-transactions-from-a-file"></a><a name="import-intercompany-transactions-from-a-file"></a>Intercompanytransaktionen aus einer Datei importieren
+## <a name="import-intercompany-transactions-from-a-file"></a><a name="import-intercompany-transactions-from-a-file"></a><a name="import-intercompany-transactions-from-a-file"></a>Intercompanytransaktionen aus einer Datei importieren
 
 [!INCLUDE [onprem_only_md](includes/onprem_only_md.md)]
 
@@ -68,7 +68,7 @@ Wenn einer der Intercompanypartner sich nicht in derselben Datenbank wie das eig
 
 Die Transaktionen werden in den Eingang importiert und können nun verarbeitet werden.
 
-## <a name="process-incoming-intercompany-transactions"></a><a name="process-incoming-intercompany-transactions"></a>Eingehende Intercompanytransaktionen verarbeiten
+## <a name="process-incoming-intercompany-transactions"></a><a name="process-incoming-intercompany-transactions"></a><a name="process-incoming-intercompany-transactions"></a>Eingehende Intercompanytransaktionen verarbeiten
 
 Wenn Intercompanypartner Intercompanytransaktionen an Sie senden, werden diese Transaktionen im Intercompanyeingang abgelegt. Sie müssen die einzelnen Transaktionen im Eingang bewerten und entsprechend verarbeiten.  
 
@@ -83,7 +83,7 @@ Positionen, die Sie ablehnen und an Ihren Partner zurücksenden, werden an Ihren
 
 Für Zeilen, die ein Partner zurückgewiesen und an Sie zurückgesendet hat, müssen Sie nun eine Korrektur in die ursprünglich in Ihrem Unternehmen gebuchte Transaktion buchen.
 
-## <a name="to-process-outgoing-intercompany-transactions"></a><a name="to-process-outgoing-intercompany-transactions"></a>So verarbeiten Sie ausgehende Intercompanytransaktionen
+## <a name="to-process-outgoing-intercompany-transactions"></a><a name="to-process-outgoing-intercompany-transactions"></a><a name="to-process-outgoing-intercompany-transactions"></a>So verarbeiten Sie ausgehende Intercompanytransaktionen
 
 Wenn Sie Intercompany-Buch.-Blätter oder -Belege buchen oder Intercompanybestellbestätigungen senden, werden die Transaktionen an den Intercompanyausgang gesendet. Damit sie an die Intercompanypartner gesendet werden, müssen Sie den Ausgang öffnen und die Transaktionen verarbeiten.  
 
@@ -96,7 +96,7 @@ Zeilen, die Sie mit der **Zurück in Eingang**-Aktion verarbeiten, werden in den
 
 Wenn Sie die Aktion **Abbrechen** verwenden, müssen Sie nun eine Korrektur für die ursprünglich in Ihrem Unternehmen gebuchte Transaktion buchen.  
 
-## <a name="recreate-intercompany-inbox-transactions"></a><a name="recreate-intercompany-inbox-transactions"></a>So erstellen Sie Intercompanyeingangstransaktionen neu
+## <a name="recreate-intercompany-inbox-transactions"></a><a name="recreate-intercompany-inbox-transactions"></a><a name="recreate-intercompany-inbox-transactions"></a>So erstellen Sie Intercompanyeingangstransaktionen neu
 
 Gelegentlich sollten Sie eine Transaktion im Ein- oder Ausgang neu erstellen. Wenn Sie z. B. eine Transaktion im Eingang akzeptiert, den Beleg oder das Buch.-Blatt anschließend jedoch statt zu buchen gelöscht haben, können Sie den Eingangsposten erneut erstellen und akzeptieren.  
 
@@ -105,7 +105,7 @@ In der folgenden Schrittfolge wird beschrieben, wie Eingangstransaktionen neu er
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Bearbeitete IC-Eingangstransaktionen** ein und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie auf der Seite **Bearbeitete IC-Eingangstrans.** die Zeile mit der Transaktion aus, die im Eingang neu erstellt werden soll, und wählen Sie dann die Aktion **Eingangstransaktion neu erstellen** aus.  
 
-## <a name="see-also"></a><a name="see-also"></a>Siehe auch
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Siehe auch
 
 [Intercompanytransaktionen verwalten](intercompany-manage.md)  
 [Finanzen](finance.md)  

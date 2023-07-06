@@ -11,7 +11,7 @@ ms.date: 11/25/2021
 ms.author: jswymer
 ---
 
-# <a name="work-with-word-layouts"></a><a name="work-with-word-layouts"></a>Mit Word-Layouts arbeiten
+# <a name="work-with-word-layouts"></a><a name="work-with-word-layouts"></a><a name="work-with-word-layouts"></a>Mit Word-Layouts arbeiten
 
 Ein Word-Berichtslayout bestimmt den Inhalt und das Format eines Berichts, wenn er in Business Central in der Vorschau angezeigt und gedruckt wird. Sie erstellen und ändern diese Layouts mit Microsoft Word.
 
@@ -26,18 +26,18 @@ Wenn Sie ein Word-Berichtslayout von Grund auf neu entwerfen oder neue Datenfeld
 > [!TIP]  
 > Zeigen Sie die Tabellenrasterlinien an, sodass Sie die Grenzen von Tabellenzellen sehen. Denken Sie daran, die Gitternetzlinien auszublenden, wenn Sie mit der Bearbeitung fertig sind. Um Tabellenrasterlinien ein- oder auszublenden, wählen Sie die Tabelle und wählen Sie anschließend unter **Layout** auf der Registerkarte **Tabelle** die Option **Rasterlinien anzeigen** aus.
 
-## <a name="embedding-fonts-in-word-layouts-for-consistency"></a><a name="embedding-fonts-in-word-layouts-for-consistency"></a>Schriftarten aus Gründen der Konsistenz in Word-Layouts einbetten
+## <a name="embedding-fonts-in-word-layouts-for-consistency"></a><a name="embedding-fonts-in-word-layouts-for-consistency"></a><a name="embedding-fonts-in-word-layouts-for-consistency"></a>Schriftarten aus Gründen der Konsistenz in Word-Layouts einbetten
 
 Um sicherzustellen, dass Berichte immer mit den vorgesehenen Schriftarten angezeigt und gedruckt werden, wo immer Benutzer die Berichte öffnen oder drucken, können Sie die Schriftarten in den Word-Beleg einbetten. Das Einbetten von Schriftarten kann jedoch die Größe der Word-Dateien erheblich erhöhen. Weitere Informationen zur Einbettung von Schriftarten in Word finden Sie unter [Einbetten von Schriftarten in Word, PowerPoint oder Excel](https://support.office.com/article/Embed-fonts-in-Word-PowerPoint-or-Excel-cb3982aa-ea76-4323-b008-86670f222dbc)
 
-## <a name="adding-data-fields"></a><a name="adding-data-fields"></a>Hinzufügen von Datenfeldern
+## <a name="adding-data-fields"></a><a name="adding-data-fields"></a><a name="adding-data-fields"></a>Hinzufügen von Datenfeldern
 
 Ein Berichtsdataset kann aus Feldern bestehen, die Bezeichnungen, Daten und Bilder anzeigen. In diesem Thema wird das Verfahren zum Hinzufügen von Feldern aus einem Berichtsdatasets in ein bestehendes Word-Berichtslayout für einen Bericht beschrieben. Fügen Sie Felder hinzu, indem Sie benutzerdefinierte XML-Abschnitt in Words für den Bericht verwenden und Inhaltssteuerelemente hinzufügen, die den Feldern des Berichtsdatasets zugeordnet sind. Beim Hinzufügen von Feldern ist es erforderlich, dass Sie einiges Wissen über das Dataset des Berichts haben, damit Sie die Felder identifizieren können, die Sie dem Layout hinzufügen möchten.  
   
 > [!NOTE]  
 >  Sie können keine integrierten Berichtslayouts in ändern<!--Onprem. Built-in layouts can only be modified by using the development environment-->.  
 
-### <a name="to-open-the-custom-xml-part-for-the-report-in-word"></a><a name="to-open-the-custom-xml-part-for-the-report-in-word"></a><a name="OpenXMLPart"></a> Um den benutzerdefinierten XML-Abschnitt für den Bericht in Word zu öffnen
+### <a name="to-open-the-custom-xml-part-for-the-report-in-word"></a><a name="to-open-the-custom-xml-part-for-the-report-in-word"></a><a name="to-open-the-custom-xml-part-for-the-report-in-word"></a><a name="OpenXMLPart"></a> Um den benutzerdefinierten XML-Abschnitt für den Bericht in Word zu öffnen
   
 1. Wenn nicht bereits offen, öffnen Sie den Word-Berichtlayoutbeleg in Word.  
   
@@ -59,7 +59,7 @@ Ein Berichtsdataset kann aus Feldern bestehen, die Bezeichnungen, Daten und Bild
   
      Nachdem Sie den benutzerdefinierten XML-Abschnitt auswählen, zeigt der XML-Zuordnungsbereich die Beschriftungen und die Feldsteuerelemente an, die für den Bericht verfügbar sind.  
   
-### <a name="to-add-a-label-or-data-field"></a><a name="to-add-a-label-or-data-field"></a>Um eine Beschriftung oder ein Datenfeld hinzufügen
+### <a name="to-add-a-label-or-data-field"></a><a name="to-add-a-label-or-data-field"></a><a name="to-add-a-label-or-data-field"></a>Um eine Beschriftung oder ein Datenfeld hinzufügen
   
 1. Setzen Sie den Cursor in dem Beleg an der Stelle ab, an dem Sie das Steuerelement hinzufügen möchten.  
   
@@ -68,7 +68,7 @@ Ein Berichtsdataset kann aus Feldern bestehen, die Bezeichnungen, Daten und Bild
     > [!NOTE]  
     >  Sie können kein Feld hinzufügen, indem Sie manuell den Datasetfeldnamen in das Inhaltssteuerelement eingeben. Sie müssen den **XML-Zuordnung**-Bereich verwenden, um die Felder zuzuordnen.  
   
-### <a name="to-add-repeating-rows-of-data-fields-to-create-a-list"></a><a name="to-add-repeating-rows-of-data-fields-to-create-a-list"></a>Um wiederholente Zeilen aus Datenfeldern hinzufügen, um eine Liste zu erstellen
+### <a name="to-add-repeating-rows-of-data-fields-to-create-a-list"></a><a name="to-add-repeating-rows-of-data-fields-to-create-a-list"></a><a name="to-add-repeating-rows-of-data-fields-to-create-a-list"></a>Um wiederholente Zeilen aus Datenfeldern hinzufügen, um eine Liste zu erstellen
   
 1. Fügen Sie in einer Tabelle eine Tabellenzeile hinzu, die eine Spalte für jedes Feld umfasst, das wiederholt werden soll.  
   
@@ -86,7 +86,7 @@ Ein Berichtsdataset kann aus Feldern bestehen, die Bezeichnungen, Daten und Bild
   
     3. Wiederholen Sie die Schritte a und b für jedes Feld.  
   
-## <a name="adding-image-fields"></a><a name="adding-image-fields"></a>Hinzufügen von Bildfeldern
+## <a name="adding-image-fields"></a><a name="adding-image-fields"></a><a name="adding-image-fields"></a>Hinzufügen von Bildfeldern
 
 Ein Berichtsdataset kann einen Feld enthalten, das ein Bild enthält, beispielsweise ein Firmenlogo oder ein Bild eines Artikels. Um ein Bild aus dem Berichtsdataset hinzuzufügen, fügen Sie ein **Bild**-Inhaltssteuerelement ein.  
   
@@ -95,7 +95,7 @@ Bilder werden im linken oberen Teil des Inhaltssteuerelements ausgerichtet und �
 > [!IMPORTANT]  
 > Außerdem können Sie Bilder nur hinzufügen, die in einem Format vorliegen, das von Word unterstützt wird, wie .bmp, .jpeg und PNG-Datei-Typen. Wenn Sie ein Bild hinzufügen, das ein Format hat, das nicht von Word unterstützt wird, erhalten Sie einen Fehler, wenn Sie den Bericht im Client [!INCLUDE[prod_short](includes/prod_short.md)] ausführen.  
   
-### <a name="to-add-an-image"></a><a name="to-add-an-image"></a>Um ein Bild hinzuzufügen
+### <a name="to-add-an-image"></a><a name="to-add-an-image"></a><a name="to-add-an-image"></a>Um ein Bild hinzuzufügen
   
 1. Setzen Sie den Zeiger in dem Beleg an der Stelle ab, an dem Sie das Steuerelement hinzufügen möchten.  
   
@@ -103,7 +103,7 @@ Bilder werden im linken oberen Teil des Inhaltssteuerelements ausgerichtet und �
   
 3. Um die Bildgröße zu erhöhen oder zu verringern, ziehen Sie einen der Ziehpunkte zur Mitte des Inhaltssteuerelements hin oder von der Mitte weg.  
 
-## <a name="removing-label-and-data-fields"></a><a name="removing-label-and-data-fields"></a><a name="RemoveField"></a> Entfernen der Beschriftungs- und Datenfelder
+## <a name="removing-label-and-data-fields"></a><a name="removing-label-and-data-fields"></a><a name="removing-label-and-data-fields"></a><a name="RemoveField"></a> Entfernen der Beschriftungs- und Datenfelder
 
 Beschriftung und Datenfelder eines Berichts sind in Inhaltssteuerelementen in Word enthalten. Die folgende Abbildung zeigt ein Steuerelement für Inhalte, wenn es im Word-Beleg ausgewählt ist.  
 
@@ -111,7 +111,7 @@ Beschriftung und Datenfelder eines Berichts sind in Inhaltssteuerelementen in Wo
 
 Der Name der Bezeichnung oder des Datenfeldes wird im Inhaltssteuerelement angezeigt. In dem Beispiel ist der Name "CompanyAddr1".  
 
-### <a name="to-remove-a-label-or-data-field"></a><a name="to-remove-a-label-or-data-field"></a>Um eine Beschriftung oder ein Datenfeld zu entfernen
+### <a name="to-remove-a-label-or-data-field"></a><a name="to-remove-a-label-or-data-field"></a><a name="to-remove-a-label-or-data-field"></a>Um eine Beschriftung oder ein Datenfeld zu entfernen
 
 1. Klicken Sie mit der rechten Maustaste auf das Feld, das Sie entfernen möchten, und wählen Sie **Inhalt des Steuerelements löschen**.  
 
@@ -119,11 +119,11 @@ Der Name der Bezeichnung oder des Datenfeldes wird im Inhaltssteuerelement angez
 
 2. Löschen Sie den verbleibenden Text nach Bedarf.
 
-## <a name="custom-xml-part-overview"></a><a name="custom-xml-part-overview"></a>Benutzerdefinierter XML-Teil, Übersicht
+## <a name="custom-xml-part-overview"></a><a name="custom-xml-part-overview"></a><a name="custom-xml-part-overview"></a>Benutzerdefinierter XML-Teil, Übersicht
 
 Word-Berichtlayouts werden anhand von *benutzerdefinierten XML-Abschnitten* erstellt. Ein Debitorenspezifischer XML-Abschnitt für einen Bericht besteht aus Elementen, die den Datenelementen, den Spalten und den Beschriftungen entsprechen, die das Dataset des Berichts enthalten, wie im Berichts-DataSet-Designer in definiert. <!--OnPrem The data as defined in the Report Dataset Designer in Microsoft Dynamics NAV Development Environment. -->Der benutzerdefinierte XML-Abschnitt wird verwendet, um die Daten in einem Bericht zuzuordnen, wenn der Bericht ausgeführt wird.
 
-### <a name="xml-structure-of-custom-xml-part"></a><a name="xml-structure-of-custom-xml-part"></a>XML-Struktur des benutzerdefinierten XML-Abschnitts
+### <a name="xml-structure-of-custom-xml-part"></a><a name="xml-structure-of-custom-xml-part"></a><a name="xml-structure-of-custom-xml-part"></a>XML-Struktur des benutzerdefinierten XML-Abschnitts
 
 Die folgende Tabelle enthält eine vereinfachte Übersicht der XML eines benutzerdefinierten XML-Abschnitts.  
   
@@ -136,7 +136,7 @@ Die folgende Tabelle enthält eine vereinfachte Übersicht der XML eines benutze
 |`....<DataItem2>`<br /><br /> `......<DataItem2Column1>DataItem2Column1</DataItem2Column1>`<br /><br /> `....</DataItem2>`<br /><br /> `....<DataItem3>`<br /><br /> `......<DataItem3Column1>DataItem3Column1</DataItem3Column1>`<br /><br /> `....</DataItem3>`|Datenelemente und Spalten, die im Dateneintrag auf oberster Ebene verschachtelt sind. Spalten werden in alphabetischer Reihenfolge unter dem entsprechenden Dateneintrag aufgelistet.|  
 |`..</DataItem1>`<br /><br /> `</WordReportXmlPart>`|Abschließendes Element.|  
   
-### <a name="custom-xml-part-in-word"></a><a name="custom-xml-part-in-word"></a>Benutzerdefinierter XML-Abschnitt in Word
+### <a name="custom-xml-part-in-word"></a><a name="custom-xml-part-in-word"></a><a name="custom-xml-part-in-word"></a>Benutzerdefinierter XML-Abschnitt in Word
 
  In Word öffnen Sie den benutzerdefinierten XML-Abschnitt im **XML-Zuordnung**-Bereich und verwenden anschließend diesen Bereich, um Elemente zu den Inhaltssteuerelementen im Word-Dokument zuzuordnen. Der Bereich **XML-Zuordnung** ist zugänglich von der Registerkarte **Entwickler** (weitere Informationen unter [Anzeigen der Entwickler-Registerkarte auf dem Menüband](/visualstudio/vsto/how-to-show-the-developer-tab-on-the-ribbon)).  
   
@@ -154,7 +154,7 @@ Die folgende Tabelle enthält eine vereinfachte Übersicht der XML eines benutze
   
 * Die Sprache der Beschriftung, die angezeigt wird, wenn Sie den Bericht ausführen, hängt von der Spracheneinstellung des Berichtsobjekts ab.  
   
-## <a name="see-also"></a><a name="see-also"></a>Weitere Informationen
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Weitere Informationen
 
 [Erstellen und bearbeiten Sie einen benutzerdefinierten Bericht](ui-how-create-custom-report-layout.md)   
 

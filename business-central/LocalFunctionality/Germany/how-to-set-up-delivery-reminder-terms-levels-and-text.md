@@ -11,11 +11,11 @@ ms.search.form: '5005279, 5005280, 5005281, 5005282, 5005283'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="set-up-delivery-reminder-terms-levels-and-text-in-the-german-version"></a><a name="set-up-delivery-reminder-terms-levels-and-text-in-the-german-version"></a>Lieferanmahnungsbestimmungen, -stufen und -text in der deutschen Version einrichten
+# <a name="set-up-delivery-reminder-terms-levels-and-text-in-the-german-version"></a><a name="set-up-delivery-reminder-terms-levels-and-text-in-the-german-version"></a><a name="set-up-delivery-reminder-terms-levels-and-text-in-the-german-version"></a>Lieferanmahnungsbestimmungen, -stufen und -text in der deutschen Version einrichten
 
 [!INCLUDE [delivery-reminder-terms-levels-text-setup](../includes/ATCHDE/delivery-reminder-terms-levels-text-setup.md)]
 
-## <a name="see-also"></a><a name="see-also"></a>Siehe auch
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Siehe auch
 
 [Lieferbenachrichtigungen](delivery-reminders.md)  
 [Lieferanmahnungen erstellen](how-to-set-up-delivery-reminders.md)  

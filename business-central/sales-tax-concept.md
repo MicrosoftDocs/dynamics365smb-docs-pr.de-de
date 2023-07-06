@@ -12,7 +12,7 @@ ms.date: 07/21/2022
 ms.author: altotovi
 ---
 
-# <a name="sales-tax-in-the-default-version-of-business-central"></a><a name="sales-tax-in-the-default-version-of-business-central"></a>Mehrwertsteuer in der Standardversion von Business Central
+# <a name="sales-tax-in-the-default-version-of-business-central"></a><a name="sales-tax-in-the-default-version-of-business-central"></a><a name="sales-tax-in-the-default-version-of-business-central"></a>Mehrwertsteuer in der Standardversion von Business Central
 
 Eine **Mehrwertsteuer** ist eine Steuer, die für den Kauf von Waren und Dienstleistungen für Verbraucher und für den Verkauf von Waren und Dienstleistungen für Unternehmen gilt. Die Umsatzsteuer sollte im Idealfall mit wenigen Ausnahmen für den gesamten Endverbrauch gelten. Befreiungen beim Endverbrauch hängen von den örtlichen Behörden ab, aber im Allgemeinen sollten Geschäfte zwischen Unternehmen von der Umsatzsteuer befreit werden.  
 
@@ -23,7 +23,7 @@ In der Regel fallen Umsatzsteuern für den Einzelhandelsverkauf von Waren und Di
 > [!IMPORTANT]
 > Obwohl die Mehrwertsteuer in der Standardversion verfügbar ist, unterstützt Microsoft die Verwendung der Mehrwertsteuer nur in den Vereinigten Staaten und Kanada.
 
-## <a name="see-also"></a><a name="see-also"></a>Siehe auch
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Siehe auch
 
 [MwSt in den USA melden](localfunctionality/UnitedStates/us-sales-tax.md)  
 [Verkaufssteuer in Kanada melden](localfunctionality/canada/ca-sales-tax.md)  

@@ -8,7 +8,7 @@ ms.search.keywords: null
 ms.date: 08/03/2022
 ms.author: jswymer
 ---
-# <a name="opening-and-sharing-business-central-files-in-microsoft-onedrive"></a><a name="opening-and-sharing-business-central-files-in-microsoft-onedrive"></a>Öffnen und Freigeben von Business Central Dateien in Microsoft OneDrive
+# <a name="opening-and-sharing-business-central-files-in-microsoft-onedrive"></a><a name="opening-and-sharing-business-central-files-in-microsoft-onedrive"></a><a name="opening-and-sharing-business-central-files-in-microsoft-onedrive"></a>Öffnen und Freigeben von Business Central Dateien in Microsoft OneDrive
 
 [!INCLUDE[prod_short](includes/prod_short.md)] macht es Ihnen leicht, Dateien zu speichern, zu verwalten und mit anderen Personen über Microsoft OneDrive for Business auszutauschen. Auf den meisten Seiten mit verfügbaren Dateien, wie z.B. dem Posteingang für Berichte oder wenn Dateien an Datensätze angehängt sind, finden Sie die Aktionen **Öffnen in OneDrive** und **Freigeben**.
 
@@ -19,7 +19,7 @@ ms.author: jswymer
 :::image type="content" source="media/one-drive-attachments-w-outline.png" alt-text="Die Aktionen „In OneDrive öffnen“ und „Freigeben“ für Anhänge":::
 
 
-## <a name="open-in-onedrive"></a><a name="open-in-onedrive"></a>In OneDrive öffnen
+## <a name="open-in-onedrive"></a><a name="open-in-onedrive"></a><a name="open-in-onedrive"></a>In OneDrive öffnen
 
 Die Aktion **Öffnen in OneDrive** kopiert die Datei in Ihr OneDrive und öffnet die Datei dann in einer Anwendung wie Microsoft Excel online, Microsoft Word online oder Microsoft PowerPoint online. 
 
@@ -31,7 +31,7 @@ Mit den Online-Versionen dieser Anwendungen können Sie Anmerkungen machen, bear
 
 Für andere gängige Dateitypen wie PDFs, Textdateien und Bilder bietet OneDrive Dateibetrachter, die Funktionen zum Drucken, Teilen und mehr bieten. Wenn eine Datei nicht in OneDrive angezeigt werden kann, werden Sie möglicherweise aufgefordert, sie herunterzuladen.
 
-## <a name="share"></a><a name="share"></a>Freigeben
+## <a name="share"></a><a name="share"></a><a name="share"></a>Freigeben
 
 Die Aktion **Freigeben** kopiert die Datei in Ihr OneDrive, so dass Sie sehen können, mit wem Sie sie bereits geteilt haben, und die Datei mit anderen Personen teilen können. Wenn Sie die Aktion **Freigeben** auswählen, wird die folgende Seite geöffnet.
 
@@ -53,7 +53,7 @@ Die Freigabefunktion in Business Central basiert auf OneDrive. Mehr über OneDri
 > [!NOTE]
 > Die Aktion **Freigeben** ist in der Business Central-App für mobile Geräte nicht verfügbar.
 
-## <a name="first-time-sign-in-from-business-central"></a><a name="first-time-sign-in-from-business-central"></a>Erstmalige Anmeldung über Business Central
+## <a name="first-time-sign-in-from-business-central"></a><a name="first-time-sign-in-from-business-central"></a><a name="first-time-sign-in-from-business-central"></a>Erstmalige Anmeldung über Business Central
 
 Wenn Sie die Aktion **In OneDrive öffnen** oder **Freigeben** zum ersten Mal verwenden, führt [!INCLUDE[prod_short](includes/prod_short.md)] die folgenden Schritte aus:
 
@@ -64,7 +64,7 @@ Wenn Sie die Aktion **In OneDrive öffnen** oder **Freigeben** zum ersten Mal ve
 
 Wenn Sie dann das nächste Mal die Aktion **Öffnen in OneDrive** oder **Freigeben** verwenden, kopiert und öffnet [!INCLUDE[prod_short](includes/prod_short.md)] die Datei nur. 
 
-## <a name="managing-multiple-copies-of-a-file"></a><a name="managing-multiple-copies-of-a-file"></a>Verwalten mehrerer Kopien einer Datei
+## <a name="managing-multiple-copies-of-a-file"></a><a name="managing-multiple-copies-of-a-file"></a><a name="managing-multiple-copies-of-a-file"></a>Verwalten mehrerer Kopien einer Datei
 
 Wenn Sie **In OneDrive öffnen** oder **Freigeben** auswählen, wird die Datei von [!INCLUDE[prod_short](includes/prod_short.md)] in Ihren Ordner in OneDrive kopiert. Wenn Sie die Datei in OneDrive bearbeiten, unterscheidet sich diese Datei von der Datei in [!INCLUDE[prod_short](includes/prod_short.md)]. Um [!INCLUDE[prod_short](includes/prod_short.md)] mit der neuesten Dateiversion zu aktualisieren, entfernen Sie die vorhandene Datei aus [!INCLUDE[prod_short](includes/prod_short.md)] und laden Sie die neueste Kopie hoch.
 
@@ -82,7 +82,7 @@ Wenn in OneDrive bereits eine Datei mit demselben Namen existiert, haben Sie die
  
   Mit dieser Option behalten Sie die vorhandene Datei bei und speichern die Datei, die Sie in Business Central ausgewählt haben, unter einem anderen Namen. Der neue Name ähnelt dem vorhandenen Namen, nur mit einer Zusatznummer wie „Elemente (2).xlsx“.
 
-## <a name="about-your-business-central-folder-on-onedrive"></a><a name="about-your-business-central-folder-on-onedrive"></a>Informationen zu Ihrem Business Central-Ordner auf OneDrive
+## <a name="about-your-business-central-folder-on-onedrive"></a><a name="about-your-business-central-folder-on-onedrive"></a><a name="about-your-business-central-folder-on-onedrive"></a>Informationen zu Ihrem Business Central-Ordner auf OneDrive
 
 Der Ordner und sein Inhalt sind privat, bis Sie sich entscheiden, sie mit anderen zu teilen. Sie könnten also beschließen, Inhalte mit einem oder mehreren Ihrer Mitarbeiter oder sogar mit Personen außerhalb Ihres Unternehmens zu teilen. 
 
@@ -93,7 +93,7 @@ Sie können auf Ihre OneDrive von der Seite **Meine Einstellungen** aus zugreife
 <!--## Extending the Connection to OneDrive
 You can create an extension and connect it to... For more information, see...-->
 
-## <a name="see-also"></a><a name="see-also"></a>Siehe auch
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Siehe auch
 
 [Business Central und OneDrive Integration](across-onedrive-overview.md)  
 [Verwaltung der OneDrive Integration mit Business Central](admin-onedrive-integration.md)  

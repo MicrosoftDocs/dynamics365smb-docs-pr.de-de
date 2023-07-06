@@ -10,7 +10,7 @@ ms.date: 01/25/2023
 ms.custom: bap-template
 ms.search.forms: '931, 7377'
 ---
-# <a name="pick-items-with-inventory-picks"></a><a name="pick-items-with-inventory-picks"></a>Artikel mit der Lagerkommissionierung kommissionieren
+# <a name="pick-items-with-inventory-picks"></a><a name="pick-items-with-inventory-picks"></a><a name="pick-items-with-inventory-picks"></a>Artikel mit der Lagerkommissionierung kommissionieren
 
 In [!INCLUDE[prod_short](includes/prod_short.md)] kommissionieren und versenden Sie Artikel wie in der folgenden Tabelle beschrieben, mit einer von vier Methoden.
 
@@ -42,29 +42,29 @@ Sie können eine Lagerkommissionierung auf drei Arten erstellen:
 
 Die Lagereinkommissionierung kann dann auf der Seite **Lagereinlagerung** erstellt werden, die auf dem Herkunftsbeleg basiert.  
 
-## <a name="to-create-an-inventory-pick-from-the-source-document"></a><a name="to-create-an-inventory-pick-from-the-source-document"></a>Eine Lagerkommissionierung vom Herkunftsbeleg aus erstellen
+## <a name="to-create-an-inventory-pick-from-the-source-document"></a><a name="to-create-an-inventory-pick-from-the-source-document"></a><a name="to-create-an-inventory-pick-from-the-source-document"></a>Eine Lagerkommissionierung vom Herkunftsbeleg aus erstellen
 
 1. Im Herkunftsbeleg, der ein Verkaufsauftrag, eine Einkaufsreklamation oder ein ausgehender Umlagerungsauftrag sein kann, klicken Sie auf die Aktion **Lagereinlagerung/Kommissionierung erstellen**.
 2. Aktivieren Sie das Kontrollkästchen **Lagerkomm. erst.**.  
 3. Wählen Sie die Schaltfläche **OK** aus. Eine neue Lagerkommissionierung wird erstellt.
 
-## <a name="to-create-multiple-inventory-picks-with-a-batch-job"></a><a name="to-create-multiple-inventory-picks-with-a-batch-job"></a>Mehrere Lagerkommissionierungen mit einem Batchauftrag erstellen
+## <a name="to-create-multiple-inventory-picks-with-a-batch-job"></a><a name="to-create-multiple-inventory-picks-with-a-batch-job"></a><a name="to-create-multiple-inventory-picks-with-a-batch-job"></a>Mehrere Lagerkommissionierungen mit einem Batchauftrag erstellen
 
 1. Wählen Sie das Symbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Erstelle Invt. Einlagern/Kommissionieren/Umlagern** ein, und wählen Sie dann den zugehörigen Link.  
 2. Verwenden Sie im Inforegister **Erwartete Lagerbewegung** die Felder **Herkunftsbeleg** und **Herkunftsnr.**, um Filter auf bestimmte Arten von Belegen oder Bereiche von Belegnummern zu setzen. Beispielsweise können Sie Kommissionierungen nur für Verkaufsaufträge erstellen.  
 3. Aktivieren Sie im Inforegister **Optionen** das Kontrollkästchen **Lagerkomm. erst.** aus.
 4. Wählen Sie die Schaltfläche **OK**.
 
-## <a name="to-create-the-pick-in-two-steps"></a><a name="to-create-the-pick-in-two-steps"></a>So erstellen Sie die Kommissionierung in zwei Schritten
+## <a name="to-create-the-pick-in-two-steps"></a><a name="to-create-the-pick-in-two-steps"></a><a name="to-create-the-pick-in-two-steps"></a>So erstellen Sie die Kommissionierung in zwei Schritten
 
-### <a name="to-request-an-inventory-pick-by-releasing-the-source-document"></a><a name="to-request-an-inventory-pick-by-releasing-the-source-document"></a>So fordern Sie eine Lagerkommissionierung durch Freigabe des Herkunftsbelegs an
+### <a name="to-request-an-inventory-pick-by-releasing-the-source-document"></a><a name="to-request-an-inventory-pick-by-releasing-the-source-document"></a><a name="to-request-an-inventory-pick-by-releasing-the-source-document"></a>So fordern Sie eine Lagerkommissionierung durch Freigabe des Herkunftsbelegs an
 
 Bei Verkaufsaufträgen, Einkaufsreklamationen und ausgehenden Umlagerungsaufträgen erstellen Sie die erwartete Lagerbewegung, indem Sie den Auftrag freigeben. Durch die Freigabe des Auftrags werden die Artikel für die Kommissionierung verfügbar.
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Verkaufsaufträge** ein, und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie den Verkaufsauftrag, den Sie freigeben möchten, und wählen Sie die **Freigeben** Aktion aus.
 
-### <a name="to-create-an-inventory-pick-based-on-the-source-document"></a><a name="to-create-an-inventory-pick-based-on-the-source-document"></a>So erstellen Sie eine Lagerkommissionierung auf Grundlage des Herkunftsbelegs
+### <a name="to-create-an-inventory-pick-based-on-the-source-document"></a><a name="to-create-an-inventory-pick-based-on-the-source-document"></a><a name="to-create-an-inventory-pick-based-on-the-source-document"></a>So erstellen Sie eine Lagerkommissionierung auf Grundlage des Herkunftsbelegs
 
 Nachdem Sie einen Auftrag freigegeben haben, kann der Lagermitarbeiter eine Bestandskommissionierung erstellen.
 
@@ -75,7 +75,7 @@ Nachdem Sie einen Auftrag freigegeben haben, kann der Lagermitarbeiter eine Best
 5. Oder wählen Sie die Aktion **Herkunftsbeleg holen** aus, um eine Liste aller ausgehenden Herkunftsbelege zu erstellen, die zur Kommissionierung am Lagerort bereit sind.  
 6. Wählen Sie die Schaltfläche **OK**, um die Kommissionierungszeilen gemäß den ausgewählten Herkunftsbelegen auszufüllen.  
 
-## <a name="to-record-inventory-picks"></a><a name="to-record-inventory-picks"></a>So erfassen Sie Lagerkommissionierungen
+## <a name="to-record-inventory-picks"></a><a name="to-record-inventory-picks"></a><a name="to-record-inventory-picks"></a>So erfassen Sie Lagerkommissionierungen
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Lagerkommissionierungen** ein und wählen Sie dann den entsprechenden Link.  
 2. Geben Sie im Feld **Lagerplatzcode** auf den Kommissionierungszeilen wird der Lagerplatz der Kommissionierung entsprechend des Standardlagerplatzes des Artikels vorgeschlagen. Sie können – falls erforderlich – auf dieser Seite den Lagerplatz ändern.  
@@ -88,7 +88,7 @@ Nachdem Sie einen Auftrag freigegeben haben, kann der Lagermitarbeiter eine Best
     * Buchen Sie den Versand der kommissionierten Herkunftsbelegzeilen.
     * Wenn der Lagerort Lagerplätze verwendet, erzeugt der Buchungsvorgang darüber hinaus Lagerplatzposten, um die Änderungen der Lagerplatzmenge zu buchen.  
 
-## <a name="handling-assemble-to-order-items-with-inventory-picks"></a><a name="handling-assemble-to-order-items-with-inventory-picks"></a>Verarbeiten von Auftragsmontageartikeln mit Lagerkommissionierungen
+## <a name="handling-assemble-to-order-items-with-inventory-picks"></a><a name="handling-assemble-to-order-items-with-inventory-picks"></a><a name="handling-assemble-to-order-items-with-inventory-picks"></a>Verarbeiten von Auftragsmontageartikeln mit Lagerkommissionierungen
 
 Sie können auch die Seite **Lagerkommissionierung** verwendet, um für Verkäufe zu kommissionieren und zu liefern, in denen Artikel montiert werden müssen, bevor sie geliefert werden können. Weitere Informationen finden Sie unter [Verkaufen von Auftragsmontageartikeln](assembly-how-to-sell-items-assembled-to-order.md).
 
@@ -118,9 +118,9 @@ In Szenarien in denen ein Teil der Menge zunächst montiert wird und ein anderer
 > [!NOTE]  
 > Wenn Artikel auf Bestellung montiert werden, führt die Lagerbestandskommissionierung für den verknüpften Verkaufsauftrag zu einer Lagerbestandsumlagerung für alle Montagekomponenten.  
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/paths/pick-ship-items-business-central/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/paths/pick-ship-items-business-central/)
 
-## <a name="see-also"></a><a name="see-also"></a>Siehe auch
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Siehe auch
 
 [Lagerverwaltung – Übersicht](design-details-warehouse-management.md)
 [Bestand](inventory-manage-inventory.md)  

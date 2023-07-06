@@ -7,19 +7,19 @@ ms.topic: conceptual
 ms.author: margoc
 ---
 
-# <a name="business-decision-makers-learning-catalog"></a><a name="business-decision-makers-learning-catalog"></a>Lernkatalog für Geschäftsentscheider
+# <a name="business-decision-makers-learning-catalog"></a><a name="business-decision-makers-learning-catalog"></a><a name="business-decision-makers-learning-catalog"></a>Lernkatalog für Geschäftsentscheider
 
 Entscheiden Sie sich, ob Sie in neue Technologien investieren wollen?
 
 Der folgende Katalog ist vom Kernwissen bis zu spezifischen Bereichen organisiert, von grundlegend bis fortgeschritten. Wenn Inhalte in mehreren Formaten vorliegen, werden wir Sie darüber informieren, so dass Sie das für Ihre Bedürfnisse am besten geeignete Trainingsformat auswählen können.  
 
-## <a name="business-value"></a><a name="business-value"></a>Geschäftswert<a name="busvalue"></a>
+## <a name="business-value"></a><a name="business-value"></a><a name="business-value"></a>Geschäftswert<a name="busvalue"></a>
 
 | Inhalt                                                                 | Beschreibung                                                                                                | Format                                | Länge     |
 |----------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|---------------------------------------|------------|
 | [Dynamics 365 Business Central](/training/modules/dynamics-365-business-central/) | Dieses Modul zeigt Anwendungsmerkmale, Vorteile und Beispiele für Dynamics 365 Business Central in Aktion. | Kostenloser, selbstbestimmter Online-Lernpfad mit eigenem Tempo | 24 Minuten |
 
-## <a name="getting-started"></a><a name="getting-started"></a>Erste Schritte<a name="get-started"></a>
+## <a name="getting-started"></a><a name="getting-started"></a><a name="getting-started"></a>Erste Schritte<a name="get-started"></a>
 
 | Inhalt                                                                                                                             | Beschreibung                                                                                                                                                                                                                                                                                      | Format                                | Länge             |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|--------------------|

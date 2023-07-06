@@ -10,13 +10,13 @@ ms.search.keywords: 'electronic document, e-invoice, incoming document, OCR, eco
 ms.date: 06/14/2022
 ms.author: edupont
 ---
-# <a name="incoming-documents"></a><a name="incoming-documents"></a>Eingehende Belege
+# <a name="incoming-documents"></a><a name="incoming-documents"></a><a name="incoming-documents"></a>Eingehende Belege
 
 Externe Geschäftsdokumente können als E-Mail-Anhang oder als Papierkopie, die Sie zur Ablage einscannen, in Ihre Firma kommen. Dieses Szenario ist typisch für Einkäufe, bei denen solche eingehenden Dokumentdateien Zahlungsbelege für Ausgaben oder kleine Einkäufe darstellen.
 
 Auf der Seite **Eingehende Belege** können Sie verschiedene Funktionen zum Überprüfen von Ausgabenbelegen, Verwalten von OCR-Aufgaben und Konvertieren eingehender Belege, manuell oder automatisch, in den entsprechenden Belegen oder Buch.-Blattzeilen verwenden. Die externen Dateien können jeder Prozessphase zugeordnet werden, auch gebuchten Belegen und den resultierenden Kreditoren-, Debitoren- und Sachposten.
 
-## <a name="usage-scenario"></a><a name="usage-scenario"></a>Anwendungsszenario
+## <a name="usage-scenario"></a><a name="usage-scenario"></a><a name="usage-scenario"></a>Anwendungsszenario
 
 Sie können Dateien oder Papierkopien, die Sie von Ihren Handelspartnern erhalten haben, in [!INCLUDE[prod_short](includes/prod_short.md)] registrieren und einen Datensatz für ein Dokument erstellen. Zum Beispiel eine Einkaufs- oder Verkaufsrechnung, eine Gutschrift oder eine Buchungsblattzeile.
 
@@ -30,7 +30,7 @@ Wenn Sie beispielsweise eine Rechnung in PDF-Format von Ihrem Kreditor erhalten,
 > [!TIP]
 > Erstellen Sie Datensätze für eingehende Dokumente in [!INCLUDE[prod_short](includes/prod_short.md)] direkt aus den von den Lieferanten gesendeten E-Mails mit Hilfe des Outlook Add-Ins. Weitere Informationen finden Sie unter [Benutzen Sie Business Central als Ihren Posteingang in Outlook](work-outlook-addin.md).
 
-## <a name="incoming-document-features"></a><a name="incoming-document-features"></a>Funktionen für Eingehende Belege
+## <a name="incoming-document-features"></a><a name="incoming-document-features"></a><a name="incoming-document-features"></a>Funktionen für Eingehende Belege
 
 Die Verarbeitung von eingehenden Belegen kann aus den folgenden Hauptaktivitäten bestehen:
 
@@ -57,9 +57,9 @@ Die Verarbeitung von eingehenden Belegen kann aus den folgenden Hauptaktivitäte
 | Auf den Seiten **Kontenplan** und **Hauptbucheinträge** können Sie mit Hilfe einer Suchfunktion Hauptbuchhaltungsposten für gebuchte Belege suchen, für die es keine Datensätze für eingehende Belege gibt, und diese dann zentral mit bestehenden Datensätzen verknüpfen oder neue Datensätze mit angehängten Belegdateien erstellen. |[So finden Sie gebuchte Belege ohne zugehörige eingehende Belege](across-how-find-posted-documents-without-income-document-records.md) |
 | Verschaffen Sie sich einen besseren Überblick, indem Sie die Datensätze für eingehende Dokumente auf *Verarbeitet* festlegen und aus der Standardansicht entfernen. |[Mehrere eingehende Belege verwalten](across-how-manage-many-income-document-records.md) |
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/incoming-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/incoming-documents-dynamics-365-business-central/)
 
-## <a name="see-also"></a><a name="see-also"></a>Siehe auch
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Siehe auch
 
 [Einkauf](purchasing-manage-purchasing.md)  
 [Bearbeiten von geposteten Dokumenten](across-edit-posted-document.md)  

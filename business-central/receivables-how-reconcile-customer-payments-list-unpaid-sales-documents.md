@@ -11,7 +11,7 @@ ms.search.form: '1290, 1294, 1287'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="reconcile-customer-payments-from-a-list-of-unpaid-sales-documents"></a><a name="reconcile-customer-payments-from-a-list-of-unpaid-sales-documents"></a>Debitoren-Zahlungen aus einer Liste mit unbezahlten Verkaufsbelegen abstimmen
+# <a name="reconcile-customer-payments-from-a-list-of-unpaid-sales-documents"></a><a name="reconcile-customer-payments-from-a-list-of-unpaid-sales-documents"></a><a name="reconcile-customer-payments-from-a-list-of-unpaid-sales-documents"></a>Debitoren-Zahlungen aus einer Liste mit unbezahlten Verkaufsbelegen abstimmen
 
 Nachdem Kunden elektronische Zahlungen auf Ihr Bankkonto getätigt haben, müssen Sie die folgenden Maßnahmen ergreifen:
 
@@ -27,7 +27,7 @@ Verwenden Sie die Seite **Registrieren Sie Kundenzahlungen**, um interne Konten 
 
 Zahlungen für verschiedene Debitoren, die verschiedene Fälligkeitsdaten haben, müssen als einzelne Zahlungen gebucht werden. Zahlungen für denselben Debitor, der das gleiche Fälligkeitsdatum hat, können als Pauschalzahlung gebucht werden. Pauschalzahlungen sind beispielsweise dann nützlich, wenn ein Debitor eine einzelne Zahlung getätigt hat, die mehrere Verkaufsrechnungen umfasst.
 
-## <a name="to-set-up-the-payment-registration-journal"></a><a name="to-set-up-the-payment-registration-journal"></a>Zahlungsregistrierungsbuch.-Blatt einrichten
+## <a name="to-set-up-the-payment-registration-journal"></a><a name="to-set-up-the-payment-registration-journal"></a><a name="to-set-up-the-payment-registration-journal"></a>Zahlungsregistrierungsbuch.-Blatt einrichten
 Da Sie verschiedene Zahlungsarten auf verschiedene Gegenkonten buchen können, müssen Sie ein Gegenkonto auf der Seite **Zahlungsanmeldungs-Einrichtung** auswählen, bevor Sie die Bearbeitung von Debitorenzahlungen starten. Wenn Sie immer auf das gleiche Gegenkonto buchen, können Sie dieses Konto als Standardwert festlegen und diesen Schritt jedes Mal vermeiden, wenn Sie die Seite **Debitorenzahlung erfassen** öffnen.  
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Einrichtung der Zahlungsregistrierung** ein und wählen Sie dann den zugehörigen Link. Sie können auch auf der Seite **Debitorenzahlung erfassen** die Aktion **Einrichten** auswählen.
@@ -36,7 +36,7 @@ Da Sie verschiedene Zahlungsarten auf verschiedene Gegenkonten buchen können, m
 > [!TIP]
 > Um später Buchungen, die über das Journal gebucht wurden, leichter identifizieren zu können, können Sie dem Journal eine bestimmte Nummernserie zuweisen. Dies ist hilfreich, wenn Sie Zahlungsabstimmungsjournale verwenden, um Zahlungen zu registrieren und anzuwenden.
 
-## <a name="to-register-customer-payments-individually"></a><a name="to-register-customer-payments-individually"></a>Um Debitorenzahlungen einzeln zu erfassen
+## <a name="to-register-customer-payments-individually"></a><a name="to-register-customer-payments-individually"></a><a name="to-register-customer-payments-individually"></a>Um Debitorenzahlungen einzeln zu erfassen
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Debitoren-Zahlungen registrieren** ein und wählen Sie dann den zugehörigen Link.  
 
@@ -55,7 +55,7 @@ Die eingegebene Zahlungsinformation ist für Belege gebucht, die durch Zeilen da
 
 Zahlungsposten werden in der Finanzbuchhaltung, Bank und in Debitorenkonten gebucht. Jede Zahlung wird für den entsprechenden gebuchten Verkaufsbeleg angewandt.  
 
-## <a name="to-reconcile-lump-sum-payments"></a><a name="to-reconcile-lump-sum-payments"></a>Pauschalzahlungen verarbeiten
+## <a name="to-reconcile-lump-sum-payments"></a><a name="to-reconcile-lump-sum-payments"></a><a name="to-reconcile-lump-sum-payments"></a>Pauschalzahlungen verarbeiten
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Zahlungsregistrierung** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie das Kontrollkästchen **Zahlung erfolgt** in der Zeile, die die gebuchten Belege für denselben Debitor darstellen, für den eine Pauschalzahlung gemacht wurde.  
 
@@ -80,7 +80,7 @@ Wenn eine Zahlung in der Bank nicht durch Zeile auf der Seite **Zahlungserfassun
 
 Wenn eine Zahlung in der Bank nicht durch einen Beleg in [!INCLUDE[prod_short](includes/prod_short.md)] angegeben wird, dann können Sie eine Fibu Buch.-Blattzeile aus der Seite **Zahlungserfassung** öffnen, um die Zahlung direkt auf das Hauptkonto zu buchen, ohne die Zahlung auf einen Beleg anzuwenden. Alternativ können Sie die Zahlung im Buch.-Blatt buchen, bis der Ursprung der Zahlung gelöst wurde. Weitere Informationen finden Sie im Abschnitt [Zahlung ohne zugehörigen Beleg erfassen oder buchen](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md#to-record-or-post-a-payment-without-a-related-document).  
 
-## <a name="to-process-customer-payments-with-discounts-manually"></a><a name="to-process-customer-payments-with-discounts-manually"></a>Vorgehensweise: Manuelle Verarbeitung von Zahlungen mit Rabatten
+## <a name="to-process-customer-payments-with-discounts-manually"></a><a name="to-process-customer-payments-with-discounts-manually"></a><a name="to-process-customer-payments-with-discounts-manually"></a>Vorgehensweise: Manuelle Verarbeitung von Zahlungen mit Rabatten
 Wenn Sie ein Skonto mit dem Debitor vereinbart haben, können die Zahlungsbeträge niedriger als die fakturierten Beträge sein, wenn die Zahlung vor dem vereinbarten Skontodatum auftritt.  
 
 Dieses Thema erläutert vier verschiedene Verfahren zum Buchen von verbilligten Zahlungen auf der Seite **Zahlungserfassung**.  
@@ -90,7 +90,7 @@ Dieses Thema erläutert vier verschiedene Verfahren zum Buchen von verbilligten 
 * Die Zahlungssumme ist niedriger als der verbleibende diskontierte Betrag. Sie buchen die Zahlung als Teilzahlung. Der Beleg bleibt offen, um den Restbetrag einzufordern/zu bezahlen.  
 * Die Zahlungssumme ist höher als der verbleibende diskontierte Betrag. Sie buchen die Zahlungen, wie sie sind. Nur der Restbetrag wird gebucht. Der extra Betrag wird dem Debitor gutgeschrieben.  
 
-### <a name="to-process-a-payment-amount-that-is-equal-to-the-discounted-amount-and-where-the-payment-date-is-before-the-discount-date"></a><a name="to-process-a-payment-amount-that-is-equal-to-the-discounted-amount-and-where-the-payment-date-is-before-the-discount-date"></a>Zahlungsbetrag verarbeiten, der dem diskontierten Betrag entspricht und dessen Zahlungsdatum vor dem Skontodatum liegt
+### <a name="to-process-a-payment-amount-that-is-equal-to-the-discounted-amount-and-where-the-payment-date-is-before-the-discount-date"></a><a name="to-process-a-payment-amount-that-is-equal-to-the-discounted-amount-and-where-the-payment-date-is-before-the-discount-date"></a><a name="to-process-a-payment-amount-that-is-equal-to-the-discounted-amount-and-where-the-payment-date-is-before-the-discount-date"></a>Zahlungsbetrag verarbeiten, der dem diskontierten Betrag entspricht und dessen Zahlungsdatum vor dem Skontodatum liegt
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Zahlungsregistrierung** ein und wählen Sie dann den zugehörigen Link.  
 2. Geben Sie den Zahlungsbetrag im Feld **Betrag erhalten** ein. Der Betrag ist gleich wie der Betrag im Feld **Restbetrag nach Rabatt**.
 
@@ -99,7 +99,7 @@ Dieses Thema erläutert vier verschiedene Verfahren zum Buchen von verbilligten 
 4. Vergewissern Sie sich, dass das Feld **Restbetrag** den Wert Null (0) enthält.  
 5. Wählen Sie auf der Registerkarte **Zahlung buchen**, um den Gesamtbetrag auf Sach-, Bank- und Debitorenkonten zu buchen.
 
-### <a name="to-process-a-payment-amount-that-is-equal-to-the-discounted-amount-but-where-the-payment-date-is-after-the-discount-date"></a><a name="to-process-a-payment-amount-that-is-equal-to-the-discounted-amount-but-where-the-payment-date-is-after-the-discount-date"></a>Zahlungsbetrag verarbeiten, der dem diskontierten Betrag entspricht, dessen Zahlungsdatum jedoch nach dem Skontodatum liegt
+### <a name="to-process-a-payment-amount-that-is-equal-to-the-discounted-amount-but-where-the-payment-date-is-after-the-discount-date"></a><a name="to-process-a-payment-amount-that-is-equal-to-the-discounted-amount-but-where-the-payment-date-is-after-the-discount-date"></a><a name="to-process-a-payment-amount-that-is-equal-to-the-discounted-amount-but-where-the-payment-date-is-after-the-discount-date"></a>Zahlungsbetrag verarbeiten, der dem diskontierten Betrag entspricht, dessen Zahlungsdatum jedoch nach dem Skontodatum liegt
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Zahlungsregistrierung** ein und wählen Sie dann den zugehörigen Link.  
 2. Geben Sie den Zahlungsbetrag im Feld **Betrag erhalten** ein. Der Betrag ist gleich wie der Betrag im Feld **Restbetrag nach Rabatt**.
 
@@ -117,7 +117,7 @@ Dieses Thema erläutert vier verschiedene Verfahren zum Buchen von verbilligten 
 
 Der zugehörige Beleg bleibt offen.
 
-### <a name="to-process-a-payment-that-is-lower-than-the-remaining-discounted-amount"></a><a name="to-process-a-payment-that-is-lower-than-the-remaining-discounted-amount"></a>Zahlung verarbeiten, die niedriger als der verbleibende diskontierte Betrag ist
+### <a name="to-process-a-payment-that-is-lower-than-the-remaining-discounted-amount"></a><a name="to-process-a-payment-that-is-lower-than-the-remaining-discounted-amount"></a><a name="to-process-a-payment-that-is-lower-than-the-remaining-discounted-amount"></a>Zahlung verarbeiten, die niedriger als der verbleibende diskontierte Betrag ist
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Zahlungsregistrierung** ein und wählen Sie dann den zugehörigen Link.  
 2. Geben Sie den Zahlungsbetrag im Feld **Betrag erhalten** ein. Der Betrag ist kleiner als der Betrag im Feld **Restbetrag nach Rabatt**.
 
@@ -128,7 +128,7 @@ Der zugehörige Beleg bleibt offen.
 
 Der zugehörige Beleg bleibt offen.
 
-### <a name="to-process-a-payment-that-is-more-than-the-remaining-discounted-amount"></a><a name="to-process-a-payment-that-is-more-than-the-remaining-discounted-amount"></a>Zahlung verarbeiten, die höher als der verbleibende diskontierte Betrag ist
+### <a name="to-process-a-payment-that-is-more-than-the-remaining-discounted-amount"></a><a name="to-process-a-payment-that-is-more-than-the-remaining-discounted-amount"></a><a name="to-process-a-payment-that-is-more-than-the-remaining-discounted-amount"></a>Zahlung verarbeiten, die höher als der verbleibende diskontierte Betrag ist
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Zahlungsregistrierung** ein und wählen Sie dann den zugehörigen Link.  
 2. Geben Sie den Zahlungsbetrag im Feld **Betrag erhalten** ein. Der Betrag ist grösser als der Betrag im Feld **Restbetrag nach Rabatt**.  
 
@@ -139,7 +139,7 @@ Der zugehörige Beleg bleibt offen.
 
 Der zugehörige Beleg ist abgeschlossen, und dem Debitor wird der Überzahlungsbetrag gutgeschrieben.  
 
-## <a name="to-find-a-specific-sales-document-that-isnt-fully-invoiced"></a><a name="to-find-a-specific-sales-document-that-isnt-fully-invoiced"></a>Bestimmten Verkaufsbeleg suchen, der nicht vollständig fakturiert wurde
+## <a name="to-find-a-specific-sales-document-that-isnt-fully-invoiced"></a><a name="to-find-a-specific-sales-document-that-isnt-fully-invoiced"></a><a name="to-find-a-specific-sales-document-that-isnt-fully-invoiced"></a>Bestimmten Verkaufsbeleg suchen, der nicht vollständig fakturiert wurde
 Die Seite **Zahlungserfassungs** unterstützt Sie bei Aufgaben, die interne Konten mit tatsächlichen Bargeldabbildungen ausgleichen müssen, um die effektive Sammlung von Debitoren sicher zu stellen. Es zeigt ausstehende eingehende Zahlungen als Zeilen an, welche Verkaufsbelege darstellen, in denen ein Betrag zur Zahlung fällig ist.  
 
 Wenn eine Zahlung erfolgt ist, auf der Bank oder anderweitig verzeichnet wurde, wird normalerweise der zugehörige Verkaufs- oder Einkaufsbeleg als Zeile auf der Seite **Zahlungserfassung** dargestellt, da für den betreffenden Beleg die Zahlung noch für den ausstehenden Betrag gebucht werden muss. Manchmal wird jedoch eine Zahlung, die geleistet wurde, nicht durch eine Zeile auf der Seite **Zahlungserfassung** dargestellt, da der jeweilige Beleg üblicherweise nicht vollständig fakturiert wurde.
@@ -169,7 +169,7 @@ Wenn einer oder mehrere Belege mit den Suchkriterien im Feld **Ergebnis Dokument
 
 Wenn eine Zahlung in der Bank nicht durch einen Beleg in [!INCLUDE[prod_short](includes/prod_short.md)] angegeben wird, dann können Sie eine Fibu Buch.-Blattzeile aus der Seite **Zahlungserfassung** öffnen, um die Zahlung direkt auf das Hauptkonto zu buchen, ohne die Zahlung auf einen Beleg anzuwenden. Alternativ können Sie die Zahlung im Buch.-Blatt buchen, bis der Ursprung der Zahlung gelöst wurde.  
 
-## <a name="to-record-or-post-a-payment-without-a-related-document"></a><a name="to-record-or-post-a-payment-without-a-related-document"></a>Zahlung ohne zugehörigen Beleg erfassen oder buchen
+## <a name="to-record-or-post-a-payment-without-a-related-document"></a><a name="to-record-or-post-a-payment-without-a-related-document"></a><a name="to-record-or-post-a-payment-without-a-related-document"></a>Zahlung ohne zugehörigen Beleg erfassen oder buchen
 Wenn eine Zahlung in der Bank nicht durch einen Beleg in [!INCLUDE[prod_short](includes/prod_short.md)] angegeben wird, dann können Sie eine Fibu Buch.-Blattzeile aus der Seite **Zahlungserfassung** öffnen, um die Zahlung direkt auf das Hauptkonto zu buchen, ohne die Zahlung auf einen Beleg anzuwenden. Alternativ können Sie die Zahlung im Buch.-Blatt buchen, bis der Ursprung der Zahlung geklärt wurde.  
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Zahlungsregistrierung** ein und wählen Sie dann den zugehörigen Link.
@@ -182,7 +182,7 @@ Sie können die Buch.-Blattzeile buchen, um die Summe in dem Gegenkonto zu aktua
 
 Wenn Sie die Buch.-Blattzeile nicht buchen lassen, wird der Wert im Feld **Ungebuchter Saldo** am unteren Rand der Seite **Zahlungserfassung** hinzugefügt.  
 
-## <a name="see-also"></a><a name="see-also"></a>Weitere Informationen
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Weitere Informationen
 [Verwalten von Forderungen](receivables-manage-receivables.md)  
 [Verkauf](sales-manage-sales.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

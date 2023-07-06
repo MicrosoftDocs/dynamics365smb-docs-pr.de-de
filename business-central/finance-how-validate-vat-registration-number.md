@@ -10,13 +10,13 @@ ms.date: 06/16/2021
 ms.author: andregu
 ---
 
-# <a name="validate-vat-registration-numbers"></a><a name="validate-vat-registration-numbers"></a>Umsatzsteuer-Identifikationsnummer überprüfen
+# <a name="validate-vat-registration-numbers"></a><a name="validate-vat-registration-numbers"></a><a name="validate-vat-registration-numbers"></a>Umsatzsteuer-Identifikationsnummer überprüfen
 
 Es ist wichtig, dass die MwSt-IdNr., die Sie für Debitoren, Kreditoren und Kontakte haben, gültig sind, wenn Sie [!INCLUDE [prod_short](includes/prod_short.md)] in Ländern verwenden, die MwSt. verwenden. Beispielsweise ändern Mandanten ihren Steuerschuldstatus, und in einigen Ländern verlangen die Steuerbehörde möglicherweise Berichte, wie der **EU-Verkaufsübersichts**-Bericht, der die MwsT-IdNr., aufführt, die Sie verwenden, wenn Sie Geschäftsbeziehungen unterhalten.
 
 Die Europäische Berechnung stellt den MwSt Nummern-Überprüfungsdienst auf der Website bereit, der öffentlich und frei ist. [!INCLUDE [prod_short](includes/prod_short.md)] kann Ihnen diesen Schritt ersparen und Sie können den VIES-Dienst nutzen, um MwSt. Nummern für Debitoren, Kreditoren und Kontakte und andere Unternehmensinformationen nachzuverfolgen. Der Service in [!INCLUDE [prod_short](includes/prod_short.md)] wird **EU MwSt Reg.Nr. Validierungsservice** genannt. Er ist auf der Seite **Dienstverbindungen** verfügbar, und Sie können ihn sofort nutzen. Der Service ist frei und eine zusätzliche Anmeldung ist nicht erforderlich.
 
-## <a name="configure-the-service-to-verify-vat-registration-numbers-automatically"></a><a name="configure-the-service-to-verify-vat-registration-numbers-automatically"></a>Konfigurieren Sie den Dienst so, dass die Umsatzsteuer-Identifikationsnummern automatisch überprüft werden
+## <a name="configure-the-service-to-verify-vat-registration-numbers-automatically"></a><a name="configure-the-service-to-verify-vat-registration-numbers-automatically"></a><a name="configure-the-service-to-verify-vat-registration-numbers-automatically"></a>Konfigurieren Sie den Dienst so, dass die Umsatzsteuer-Identifikationsnummern automatisch überprüft werden
 
 Um den **EU-USt-IdNr.-Überprüfungsdienst** zu aktivieren, öffnen Sie den Eintrag auf der Seite **Dienstverbindung**. Wenn das Feld **Dienstendpunkt** noch nicht ausgefüllt ist, verwenden Sie die Aktion **Standardendpunkt festlegen**. Legen Sie dann das Feld **Aktiviert** fest, und Sie sind startklar.  
 
@@ -37,7 +37,7 @@ Es gibt mehrere Dinge zu beachten bezüglich dem VIES MwSt Überprüfungsservice
 > [!IMPORTANT]
 > Es liegt in Ihrer Verantwortung, die Gültigkeit der Daten zu überprüfen. Gelegentlich werden fehlerhafte Daten vom VIES VAT Number Validation Service zurückgegeben. Wenn die Validierung fehlschlägt, validieren Sie die Umsatzsteuer-Identifikationsnummern auf der [Webseite ](https://ec.europa.eu/taxation_customs/vies/), drucken Sie das Ergebnis aus oder speichern Sie es an einem freigegebenen Speicherort. Fügen Sie dann den Link zum Datensatz für Ihren Debitoren, Kreditoren oder Kontakt hinzu. Weitere Informationen finden Sie unter [Verwalten von Anhängen, Links und Notizen zu Karten und Dokumenten](ui-how-add-link-to-record.md).
 
-## <a name="validation-templates"></a><a name="validation-templates"></a>Validierungsvorlagen
+## <a name="validation-templates"></a><a name="validation-templates"></a><a name="validation-templates"></a>Validierungsvorlagen
 
 Mit dem VIES-Service können Sie auch andere Unternehmensinformationen wie die Adresse sowie die Umsatzsteuer-Identifikationsnummer überprüfen. Erstellen Sie auf der Seite **USt-IdNr.-Validierungsvorlagen** einen Eintrag für jedes Land, für das Sie eine weitere Validierung erhalten möchten, und geben Sie dann die Informationen an, für die Sie eine automatische Validierung erhalten möchten.  
 
@@ -48,7 +48,7 @@ Fügen Sie beispielsweise einen Eintrag für Spanien hinzu, in dem Sie eine Vali
 
 Wenn Sie das nächste Mal eine Umsatzsteuer-Identifikationsnummer angeben, überprüft der Service die Nummer und alle zusätzlichen Daten, die in Ihren Validierungsvorlagen festgelegt sind. Wenn sich die angegebenen Werte von den vom Service zurückgegebenen Werten unterscheiden, werden die Details in der Liste **Validierungsdetails** angezeigt, auf der Sie die Werte akzeptieren oder zurücksetzen können.  
 
-## <a name="see-also"></a><a name="see-also"></a>Siehe auch
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Siehe auch
 
 [Mehrwertsteuer einrichten](finance-setup-vat.md)  
 [Einrichten von unrealisierter Mehrwertsteuer](finance-setup-unrealized-vat.md)  

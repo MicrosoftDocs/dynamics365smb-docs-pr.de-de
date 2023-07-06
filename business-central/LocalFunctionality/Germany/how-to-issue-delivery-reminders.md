@@ -11,11 +11,11 @@ ms.search.form: '5005272, 5005273, 5005274, 5005275, 5005276'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="issue-delivery-reminders-in-the-german-version"></a><a name="issue-delivery-reminders-in-the-german-version"></a>Lieferanmahnungen in der deutschen Version ausstellen
+# <a name="issue-delivery-reminders-in-the-german-version"></a><a name="issue-delivery-reminders-in-the-german-version"></a><a name="issue-delivery-reminders-in-the-german-version"></a>Lieferanmahnungen in der deutschen Version ausstellen
 
 [!INCLUDE [delivery-reminders-issue](../includes/ATCHDE/delivery-reminders-issue.md)] 
 
-## <a name="see-also"></a><a name="see-also"></a>Siehe auch
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Siehe auch
 
 [So drucken Sie Testberichte vor dem Registrieren von Lieferanmahnungen](how-to-print-test-reports-for-delivery-reminders.md)  
 [Lieferbenachrichtigungen](delivery-reminders.md)  

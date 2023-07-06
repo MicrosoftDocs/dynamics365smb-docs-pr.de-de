@@ -11,7 +11,7 @@ ms.search.form: 26100
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="export-and-print-intrastat-reports"></a><a name="export-and-print-intrastat-reports"></a>Exportieren und Drucken von Intrastat-Berichten
+# <a name="export-and-print-intrastat-reports"></a><a name="export-and-print-intrastat-reports"></a><a name="export-and-print-intrastat-reports"></a>Exportieren und Drucken von Intrastat-Berichten
 
 [!INCLUDE[intrastat-2022w2](../../includes/intrastat-2022w2.md)]
 
@@ -19,7 +19,7 @@ Intrastat-Berichterstattung ist in der gesamten Europäischen Union (EU) erforde
 
 Für Intrastat-Berichte müssen Sie Papierberichte und Dateien zur Verfügung stellen, die für Deutschland im ASCII-Format sein müssen. [!INCLUDE[prod_short](../../includes/prod_short.md)] schließt Berichte und Batchaufträgen ein, die alle Informationen generieren, die an die deutschen Steuerbehörden gesendet werden müssen. Diese Informationen umfasst automatisch alle gelieferten als auch alle erhaltenen Waren. Die Intrastat-Datei enthält die Daten, die in den Zeilen des **Intrastat**-Buchungsblatts eingetragen wurden.  
 
-## <a name="to-print-the-german-intrastat-checklist"></a><a name="to-print-the-german-intrastat-checklist"></a>So drucken Sie die Intrastat-Checkliste für Deutschland
+## <a name="to-print-the-german-intrastat-checklist"></a><a name="to-print-the-german-intrastat-checklist"></a><a name="to-print-the-german-intrastat-checklist"></a>So drucken Sie die Intrastat-Checkliste für Deutschland
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](../../media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Intrastat Buch.-Blatt** ein und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie im Feld **Buch.-Blattname** den erforderlichen Buch.-Blattnamen aus.
@@ -33,7 +33,7 @@ Für Intrastat-Berichte müssen Sie Papierberichte und Dateien zur Verfügung st
 6. Optional wählen Sie im Inforegister **Intrastat Buch.-Blattname** die entsprechenden Filter aus.  
 7. Wählen Sie die Schaltfläche **Drucken** aus, um die Intrastat-Checkliste zu drucken, oder die Schaltfläche **Vorschau**, um den Bericht auf dem Bildschirm anzuzeigen.  
 
-## <a name="to-print-the-german-intrastat-form"></a><a name="to-print-the-german-intrastat-form"></a>So drucken Sie das Intrastat-Formular für Deutschland
+## <a name="to-print-the-german-intrastat-form"></a><a name="to-print-the-german-intrastat-form"></a><a name="to-print-the-german-intrastat-form"></a>So drucken Sie das Intrastat-Formular für Deutschland
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](../../media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Intrastat Buch.-Blatt** ein und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie im Feld **Buch.-Blattname** den erforderlichen Buch.-Blattnamen aus.  
@@ -42,7 +42,7 @@ Für Intrastat-Berichte müssen Sie Papierberichte und Dateien zur Verfügung st
 5. Optional wählen Sie im Inforegister **Intrastat Buch.-Blattname** die entsprechenden Filter aus.  
 6. Wählen Sie die Schaltfläche **Drucken** aus, um die Intrastat-Checkliste zu drucken, oder die Schaltfläche **Vorschau**, um den Bericht auf dem Bildschirm anzuzeigen.  
 
-## <a name="to-export-intrastat-information-to-a-disk"></a><a name="to-export-intrastat-information-to-a-disk"></a>So exportieren Sie Intrastat-Informationen auf einen Datenträger
+## <a name="to-export-intrastat-information-to-a-disk"></a><a name="to-export-intrastat-information-to-a-disk"></a><a name="to-export-intrastat-information-to-a-disk"></a>So exportieren Sie Intrastat-Informationen auf einen Datenträger
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](../../media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Intrastat Buch.-Blatt** ein und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie im Feld **Buch.-Blattname** den erforderlichen Buch.-Blattnamen aus.  
@@ -57,7 +57,7 @@ Die Intrastat-Informationen werden exportiert, und Sie können entweder die Date
 
 Beim Exportieren der Datei wird das Kontrollkästchen **Ausgewertet** auf der Seite **Intrastat Jnl. Buch.-Blattnamen** ausgewählt und **Interne Referenznr.** Feld für jeden Posten im Buch.-Blatt ausgefüllt. Sie können manuellen Änderungen in diesem Feld vornehmen. Sie können den Inhalt dieses Feldes auch ändern, wenn beispielsweise eine wiederholte Berichterstattung erforderlich ist. Weitere Informationen finden Sie unter Intrastat Stapelverarbeitung.  
 
-## <a name="see-also"></a><a name="see-also"></a>Siehe auch
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Siehe auch
 
 [MwSt.-Abrechnung](vat-reporting.md)  
 [Melden Sie die Mehrwertsteuer an die Steuerbehörden](../../finance-how-report-vat.md)

@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.form: '7335, 7337, 7339, 7340, 7341, 7362, 9008'
 ---
 
-# <a name="ship-items-with-a-warehouse-shipment"></a><a name="ship-items-with-a-warehouse-shipment"></a>Liefern Sie Artikel mit einem Warenausgang
+# <a name="ship-items-with-a-warehouse-shipment"></a><a name="ship-items-with-a-warehouse-shipment"></a><a name="ship-items-with-a-warehouse-shipment"></a>Liefern Sie Artikel mit einem Warenausgang
 
 In [!INCLUDE[prod_short](includes/prod_short.md)] kommissionieren und versenden Sie Artikel wie in der folgenden Tabelle beschrieben, mit einer von vier Methoden.
 
@@ -37,7 +37,7 @@ Sie können einen Warenausgang auf eine von zwei Arten erstellen:
 * Im Push-Verfahren, wenn die Arbeit auftragsbezogen erledigt wird. Wählen Sie im Herkunftsbeleg die Aktion **Warenausgang erstellen** aus, um einen Warenausgang für den Beleg zu erstellen.
 * In einem Pull-Verfahren, bei dem Sie die Aktion **Freigeben** im Herkunftsbeleg verwenden, um es an das Lager freizugeben. Ein Lagermitarbeiter erstellt einen **Warenausgang** für einen oder mehrere freigegebene Herkunftsbelege. Das folgende Verfahren beschreibt, wie Sie Warenausgänge in einem Pull-Verfahren erstellen.
 
-## <a name="to-ship-items-using-a-warehouse-shipment-document"></a><a name="to-ship-items-using-a-warehouse-shipment-document"></a>So liefern Sie Artikel mit einem Warenausgangsbeleg
+## <a name="to-ship-items-using-a-warehouse-shipment-document"></a><a name="to-ship-items-using-a-warehouse-shipment-document"></a><a name="to-ship-items-using-a-warehouse-shipment-document"></a>So liefern Sie Artikel mit einem Warenausgangsbeleg
 
 1. Wählen Sie das Symbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Warenausgänge** ein und wählen Sie dann den entsprechenden Link.  
 2. Wählen Sie **Neu** aus.  
@@ -74,7 +74,7 @@ Sie können einen Warenausgang auf eine von zwei Arten erstellen:
 
     [!INCLUDE [preview-posting-shipment](includes/preview-posting-shipment.md)]
 
-## <a name="how-to-use-filters-to-get-source-documents"></a><a name="how-to-use-filters-to-get-source-documents"></a>So verwenden Sie Filter zum Abrufen von Herkunftsbelegen
+## <a name="how-to-use-filters-to-get-source-documents"></a><a name="how-to-use-filters-to-get-source-documents"></a><a name="how-to-use-filters-to-get-source-documents"></a>So verwenden Sie Filter zum Abrufen von Herkunftsbelegen
 
 Aus einem Warenausgang können Sie die Seite **Filter z. Holen v. Herk.-Bel.** nutzen, um die Zeilen des freigegebenen Herkunftsbelegs zu erhalten, die festlegen, welche Artikel geliefert werden sollen.
 
@@ -90,14 +90,14 @@ Alle Zeilen des freigegebenen Herkunftsbelegs, die die Filterkriterien erfüllen
 
 Sie können eine unbegrenzte Anzahl von Filterkombinationen erstellen. Filter werden auf der Seite **Filter z. Holen v. Herk.-Bel.** gespeichert und sind das nächste Mal verfügbar, wenn sie benötigt werden. Sie können die Kriterien jederzeit ändern, indem Sie die Aktion **Bearbeiten** auswählen.
 
-## <a name="zone-and-bin-codes"></a><a name="zone-and-bin-codes"></a>Zonen- und Lagerplatzcodes
+## <a name="zone-and-bin-codes"></a><a name="zone-and-bin-codes"></a><a name="zone-and-bin-codes"></a>Zonen- und Lagerplatzcodes
 
 Wenn Lagerplätze am Lagerort obligatorisch sind, schlägt [!INCLUDE [prod_short](includes/prod_short.md)] eine Zone und einen Lagerplatzcode auf dem Warenausgangsbeleg vor.
 
 * Bei erweiterten Konfigurationen, in denen ein Lagerort gezieltes Einlagern und Kommissionieren verwendet, verwendet [!INCLUDE [prod_short](includes/prod_short.md)] den Lagerplatz, der im Feld **Warenausgangslagerplatzcode** auf der **Lagerortkarte** angegeben ist. Wenn kein **Warenausgangslagerplatzcode** angegeben ist, ist das Feld leer. Wenn der Artikel und der Lagerplatz nicht übereinstimmen, lässt [!INCLUDE [prod_short](includes/prod_short.md)] den Lagerplatz leer.
 * In anderen Fällen verwendet [!INCLUDE [prod_short](includes/prod_short.md)] immer den Lagerplatz, der im Feld **Warenausgangslagerplatzcode** auf der **Lagerortkarte** zuerst angegeben ist. Wenn kein Warenausgangslagerplatzcode angegeben ist, verwendet [!INCLUDE [prod_short](includes/prod_short.md)] den Lagerplatzcode aus dem Herkunftsbeleg.
 
-## <a name="handling-assemble-to-order-items-in-warehouse-shipments"></a><a name="handling-assemble-to-order-items-in-warehouse-shipments"></a>Verwenden von Auftragsmontageartikeln in Warenausgängen
+## <a name="handling-assemble-to-order-items-in-warehouse-shipments"></a><a name="handling-assemble-to-order-items-in-warehouse-shipments"></a><a name="handling-assemble-to-order-items-in-warehouse-shipments"></a>Verwenden von Auftragsmontageartikeln in Warenausgängen
 
 Verwenden Sie in den Auftragsmontageszenarien das Feld **Zu liefern** in Warenausgangszeilen, um zu erfassen, wie viele Einheiten montiert werden. Die Menge wird als Montageausstoß gebucht, wenn Sie den Warenausgang buchen. Für andere Warenausgangszeilen ist der Wert im Feld **Zu liefern** Null.
 
@@ -115,9 +115,9 @@ Nachdem Sie den Warenausgang gebucht haben, werden verschiedene Felder in der Ve
 >
 > Die Menge der Programmfertigung wird wie in diesem Artikel beschrieben gehandhabt. Die Lagerbestandsmenge wird als reguläre Warenausgangsposition gehandhabt. Weitere Informationen zu Kombinationsszenarien finden Sie unter [Auftragsmontage und Lagermontage verstehen](assembly-assemble-to-order-or-assemble-to-stock.md).
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/ship-invoice-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/ship-invoice-items-dynamics-365-business-central/)
 
-## <a name="see-also"></a><a name="see-also"></a>Siehe auch
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Siehe auch
 
 [Bestand](inventory-manage-inventory.md)  
 [Einrichten von Warehouse Management](warehouse-setup-warehouse.md)  

@@ -11,17 +11,17 @@ ms.tgt_pltfrm: na
 ms.topic: conceptual
 ---
 
-# <a name="troubleshooting-accessing-camera-and-location"></a><a name="troubleshooting-accessing-camera-and-location"></a>Problembehebung: Auf Kamera und Standort zugreifen
+# <a name="troubleshooting-accessing-camera-and-location"></a><a name="troubleshooting-accessing-camera-and-location"></a><a name="troubleshooting-accessing-camera-and-location"></a>Problembehebung: Auf Kamera und Standort zugreifen
 
 Wenn Sie versuchen, die Kamera- und Standortinformationen eines Geräts über [!INCLUDE[prod_short](includes/prod_short.md)] aufzurufen, können Probleme auftreten. Nachfolgend sind die möglichen Ursachen für diese Probleme und deren Umgehung aufgeführt.
 
-## <a name="device-must-have-camera-and-location-capabilities"></a><a name="device-must-have-camera-and-location-capabilities"></a>Das Gerät muss über Kamera- und Standortfunktionen verfügen
+## <a name="device-must-have-camera-and-location-capabilities"></a><a name="device-must-have-camera-and-location-capabilities"></a><a name="device-must-have-camera-and-location-capabilities"></a>Das Gerät muss über Kamera- und Standortfunktionen verfügen
 
 Das Gerät muss über eine physische Kamera bzw. die Fähigkeit verfügen, Standortinformationen abzurufen, um von einem Gerät aus auf die Kamera oder den Standort eines Benutzers zugreifen zu können.
 
 Wenn Ihr Gerät über Kamera- und Standortfunktionen verfügt, jedoch weiterhin Probleme auftreten, müssen möglicherweise einige Treiber aktualisiert oder neu installiert werden. Auch wenn Sie nicht sicher sind, empfehlen wir immer, das Betriebssystem, die Treiber und den Browser Ihres Geräts auf die neueste Version zu aktualisieren, um eine optimale Nutzung zu erzielen.
 
-## <a name="access-permissions-not-enabled"></a><a name="access-permissions-not-enabled"></a>Zugriffsberechtigungen sind nicht aktiviert
+## <a name="access-permissions-not-enabled"></a><a name="access-permissions-not-enabled"></a><a name="access-permissions-not-enabled"></a>Zugriffsberechtigungen sind nicht aktiviert
 
 Sie müssen den allgemeinen Zugriff auf die Kamera und den Standort über die Datenschutzeinstellungen Ihres Geräts aktivieren und [!INCLUDE[prod_short](includes/prod_short.md)] ausdrücklich die Erlaubnis erteilen, darauf zuzugreifen. Wechseln Sie zu **Einstellungen**, und wählen Sie **Datenschutz** und dann **App-Berechtigungen** aus, wenn Sie beispielsweise die Berechtigungen für ein unter Windows ausgeführtes Gerät anzeigen oder ändern möchten. 
 
@@ -34,21 +34,21 @@ Das Gerät oder der Browser zeigt standardmäßig eine Anforderung für den Zugr
 > [!NOTE]  
 > Einige alte Browser gewähren keinen Zugriff auf die Kamera und den Standort. In Internet Explorer oder in der Vorversion des Edge-Browsers ist beispielsweise keine Kamerafunktion verfügbar.
 
-## <a name="web-client-connection-not-secure"></a><a name="web-client-connection-not-secure"></a>Webclient-Verbindung ist nicht sicher
+## <a name="web-client-connection-not-secure"></a><a name="web-client-connection-not-secure"></a><a name="web-client-connection-not-secure"></a>Webclient-Verbindung ist nicht sicher
 
 Die Kamera- und Standortfunktionen sind nur verfügbar, wenn der Zugriff auf den Webclient über SSL-gesicherte HTTP-Verbindungen unter Verwendung des `https://` URI-Schemas erfolgt. 
 
 Die einzige Ausnahme ist die Verbindung zu `http://localhost`, die für Entwicklungs- und Testzwecke verwendet wird.
 
 
-## <a name="work-with-virtualization-technologies"></a><a name="work-with-virtualization-technologies"></a>Mit Virtualisierungstechnologien arbeiten
+## <a name="work-with-virtualization-technologies"></a><a name="work-with-virtualization-technologies"></a><a name="work-with-virtualization-technologies"></a>Mit Virtualisierungstechnologien arbeiten
 
 Wenn eine Verbindung mit [!INCLUDE[prod_short](includes/prod_short.md)] über Remotedesktop oder eine andere Virtualisierung hergestellt wird, ist der Zugriff auf die Kamera oder den Standort möglicherweise nicht verfügbar. Verwenden Sie in diesem Fall stattdessen das physische System.
 
-## <a name="antivirus-software"></a><a name="antivirus-software"></a>Antivirensoftware
+## <a name="antivirus-software"></a><a name="antivirus-software"></a><a name="antivirus-software"></a>Antivirensoftware
 Es gibt Antivirensoftware, die den Zugriff auf die Kamera und den Standort standardmäßig blockiert. Denken Sie daran, die Einstellungen Ihrer Antivirensoftware zu überprüfen.
 
-## <a name="see-also"></a><a name="see-also"></a>Siehe auch
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Siehe auch
 [Kamera in AL implementieren](/dynamics365/business-central/dev-itpro/developer/devenv-implement-camera-al)  
 [Standort in AL implementieren](/dynamics365/business-central/dev-itpro/developer/devenv-implement-location-al)
 

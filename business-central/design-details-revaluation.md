@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/15/2021
 ms.author: edupont
 ---
-# <a name="design-details-revaluation"></a><a name="design-details-revaluation"></a>Designdetails: Neubewertung
+# <a name="design-details-revaluation"></a><a name="design-details-revaluation"></a><a name="design-details-revaluation"></a>Designdetails: Neubewertung
 Sie können den Lagerbestand basierend auf der Bewertungsbasis, die den Lagerwert am genauesten wiedergibt, neu bewerten. Sie können eine Neubewertung auch zurückdatieren, damit der Wareneinsatz (COGS) ordnungsgemäß für Artikel aktualisiert wird, die bereits verkauft wurden. Artikel mit der Lagerabgangsmethode "Standard", die noch nicht vollständig fakturiert wurden, können ebenfalls neu bewertet werden.  
 
 In [!INCLUDE[prod_short](includes/prod_short.md)] wird die folgende Flexibilität für die Neubewertung unterstützt:  
@@ -19,7 +19,7 @@ In [!INCLUDE[prod_short](includes/prod_short.md)] wird die folgende Flexibilitä
 -   Für Artikel mit der Kostenberechnungsmethode Standard sind Soll-Kosten-Posten in der Neubewertung enthalten.  
 -   Bestandsminderungen, die von der Neubewertung betroffen sind, werden erkannt.  
 
-## <a name="calculating-the-revaluable-quantity"></a><a name="calculating-the-revaluable-quantity"></a>Berechnung der neubewertbaren Menge
+## <a name="calculating-the-revaluable-quantity"></a><a name="calculating-the-revaluable-quantity"></a><a name="calculating-the-revaluable-quantity"></a>Berechnung der neubewertbaren Menge
  Die neu bewertbare Menge ist die Restmenge im Bestand, die für die Neubewertung an einem vorgegebenen Datum verfügbar ist. Sie wird als die Gesamtsumme der Mengen vollständig fakturierter Artikelposten berechnet, die ein Buchungsdatum gleich oder vor dem Neubewertungsbuchungsdatum haben.  
 
 > [!NOTE]  
@@ -29,7 +29,7 @@ Nachdem eine Neubewertung gebucht wurde, können Sie einen Lagerzugang oder eine
 
 Da die Neubewertung an jedem beliebigen Datum erstellt werden kann, müssen Sie Konventionen dafür haben, wann ein Artikel aus finanzieller Sicht als Teil des Lagerbestands gilt. Wenn beispielsweise der Artikel im Lager ist und der Artikel WIP (WIP) ist.  
 
-### <a name="example"></a><a name="example"></a>Beispiel
+### <a name="example"></a><a name="example"></a><a name="example"></a>Beispiel
 Im folgenden Beispiel wird gezeigt, wann ein WIP-Artikel Teil des Bestands wird. Das Beispiel basiert auf der Produktion einer Kette mit 150 Gliedern.  
 
 ![RIF-Bestand und Neubewertung.](media/design_details_inventory_costing_10_revaluation_wip.png "“RIF-Lagerbestand und Neubewertung")  
@@ -77,7 +77,7 @@ Das Bewertungsdatum wird auf das Datum der Verbrauchsbuchung (02-01-20) als rege
 |02-01-20|EK-Preis|02-01-20|-150.00|2|2|  
 |02-15-20|EK-Preis|02-15-20|150.00|3|3|  
 
-## <a name="expected-cost-in-revaluation"></a><a name="expected-cost-in-revaluation"></a>Soll-Kosten in der Neubewertung
+## <a name="expected-cost-in-revaluation"></a><a name="expected-cost-in-revaluation"></a><a name="expected-cost-in-revaluation"></a>Soll-Kosten in der Neubewertung
 Die neu bewertbare Menge wird als die Gesamtsumme der Mengen vollständig fakturierter Artikelposten berechnet, die ein Buchungsdatum gleich oder vor dem Neubewertungsbuchungsdatum haben. Das bedeutet, dass, wenn mehrere Artikel eingegangen/geliefert, aber noch nicht fakturiert sind, deren Lagerwert nicht berechnet werden kann. Artikel mit der Lagerabgangsmethode Standard werden nicht in dieser Hinsicht begrenzt.  
 
 > [!NOTE]  
@@ -89,7 +89,7 @@ Wenn Sie die neu bewertbare Menge für Artikel mit der Lagerabgangsmethode Stand
 -   Ein Wertposten mit dem Postentyp **Abweichung**. Dieser Eintrag erfasst die Differenz zwischen den fakturierten Kosten und dem neu bewerteten Einstandspreis.  
 -   Ein Wertposten mit dem Postentyp **Neubewertung**. Dieser Posten erfasst die Stornierung der Neubewertung der Soll-Kosten.  
 
-### <a name="example-1"></a><a name="example-1"></a>Beispiel
+### <a name="example-1"></a><a name="example-1"></a><a name="example-1"></a>Beispiel
 Im folgenden Beispiel, das auf der Produktion der Kette im vorherigen Beispiel basiert, stellt dar, wie die drei Arten von Posten erstellt werden. Die basiert auf dem folgenden Szenario:  
 
 1.  Der Benutzer bucht die eingekauften Glieder als mit einem Einstandspreis von MW 2,00 erhalten.  
@@ -109,7 +109,7 @@ Die folgende Tabelle zeigt die sich daraus ergebenden Wertposten.
 |3.b.|01-15-20|Neubewertung|01-20-20|-150.00|0.00|1|4|  
 |3.c.|01-15-20|Abweichung|01-15-20|0.00|450.00|1|5|  
 
-## <a name="determining-whether-an-inventory-decrease-is-affected-by-revaluation"></a><a name="determining-whether-an-inventory-decrease-is-affected-by-revaluation"></a>Bestimmen Sie, ob eine Bestandsreduzierung von der Neubewertung betroffen ist
+## <a name="determining-whether-an-inventory-decrease-is-affected-by-revaluation"></a><a name="determining-whether-an-inventory-decrease-is-affected-by-revaluation"></a><a name="determining-whether-an-inventory-decrease-is-affected-by-revaluation"></a>Bestimmen Sie, ob eine Bestandsreduzierung von der Neubewertung betroffen ist
 Das Datum der Buchung oder der Neubewertung wird verwendet, um zu ermitteln, ob eine Bestandsminderung von einer Neubewertung beeinflusst wird.  
 
 Die folgende Tabelle zeigt die Kriterien an, die für einen Artikel verwendet werden, der nicht das Durchschnittskostenbewertungsverfahren verwendet.  
@@ -123,7 +123,7 @@ Die folgende Tabelle zeigt die Kriterien an, die für einen Artikel verwendet we
 |O|Später als die Neubewertungsposten-Nr.|Gleich Neubewertungsbuchungsdatum|Ja|  
 |W|Später als die Neubewertungsposten-Nr.|Später als das Neubewertungsbuchungsdatum|Ja|  
 
-### <a name="example-2"></a><a name="example-2"></a>Beispiel
+### <a name="example-2"></a><a name="example-2"></a><a name="example-2"></a>Beispiel
 Das folgende Beispiel, das die Neubewertung eines Artikels zeigt, der die FIFO-Kostenbewertungsmethode verwendet, basiert auf dem folgenden Szenario:  
 
 1.  In 01-01-20 bucht der Benutzer einen Einkauf von 6 Einheiten.  
@@ -153,7 +153,7 @@ Die folgende Tabelle zeigt die sich daraus ergebenden Wertposten.
 |W|04-01-20|Verkauf|04-01-20|-1|-10.00|7|8|  
 ||04-01-20|Verkauf|04-01-20|-1|2.00|7|12|  
 
-## <a name="wip-inventory-revaluation"></a><a name="wip-inventory-revaluation"></a>"Lagerbewertung - Aktiviert"
+## <a name="wip-inventory-revaluation"></a><a name="wip-inventory-revaluation"></a><a name="wip-inventory-revaluation"></a>"Lagerbewertung - Aktiviert"
 Die Neubewertung des WIP-Bestands impliziert die Neubewertung von Komponenten, die als Teil des WIP-Bestands zum Zeitpunkt der Neubewertung erfasst sind.  
 
 In diesem Sinne ist es wichtig, Konventionen dahingehend zu schaffen, wenn ein Artikel als Teil des Produktionslagers aus finanzieller Sicht betrachtet wird. In [!INCLUDE[prod_short](includes/prod_short.md)] bestehen die folgenden Konventionen:  
@@ -169,7 +169,7 @@ Das Produktionslager kann neubewertet werden, solange das Neubewertungsdatum nic
 > [!CAUTION]  
 >  Der Bericht **Bestandsbewertung - WIP** zeigt den Wert der gebuchten Fertigungsauftragsposten und kann daher für WIP-Artikel, die neu bewertet wurden, etwas irreführend sein.  
 
-## <a name="see-also"></a><a name="see-also"></a>Siehe auch
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Siehe auch
  [Designdetails: Lagerkostenberechnung](design-details-inventory-costing.md)   
  [Designdetails: Kostenberechnungsmethoden](design-details-costing-methods.md)   
  [Designdetails: Lagerkosten Bewerten](design-details-inventory-valuation.md) [Verwalten der Lagerkosten](finance-manage-inventory-costs.md)  

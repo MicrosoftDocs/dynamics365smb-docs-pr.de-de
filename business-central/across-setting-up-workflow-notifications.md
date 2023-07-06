@@ -8,7 +8,7 @@ ms.search.keywords: null
 ms.date: 09/13/2022
 ms.author: edupont
 ---
-# <a name="approval-workflow-notifications"></a><a name="approval-workflow-notifications"></a>Genehmigungsworkflow-Benachrichtigungen
+# <a name="approval-workflow-notifications"></a><a name="approval-workflow-notifications"></a><a name="approval-workflow-notifications"></a>Genehmigungsworkflow-Benachrichtigungen
 
 Richten Sie Ihre Workflows so ein, dass Benutzer automatisch benachrichtigt werden, wenn ihre Aufmerksamkeit für einen Schritt in einem Workflow erforderlich ist. Mit vielen Workflowantworten werden Benutzer darüber benachrichtigt, dass ein Ereignis stattgefunden hat, auf das sie reagieren müssen.
 
@@ -20,7 +20,7 @@ Sie können beispielsweise festlegen, dass Benutzer 2, die genehmigende Person,
 > [!IMPORTANT]  
 > Alle Workflowbenachrichtigungen werden über eine Projektwarteschlange gesendet. Stellen Sie sicher, dass die Auftragswarteschlange in Ihrer Installation so eingerichtet ist, dass Workfolw-Benachrichtigungen behandelt werden können und dass Sie **Automatisch vom Server starten** ausgewählt haben ist. Weitere Informationen finden Sie unter [Aufgabenwarteschlangen zum Planen von Aufgaben verwenden](admin-job-queues-schedule-tasks.md).
 
-## <a name="set-up-notifications"></a><a name="set-up-notifications"></a>Benachrichtigungen einrichten
+## <a name="set-up-notifications"></a><a name="set-up-notifications"></a><a name="set-up-notifications"></a>Benachrichtigungen einrichten
 
 In den folgenden Bereichen können Sie verschiedene Aspekte von Workflowbenachrichtigungen einrichten:  
 
@@ -49,9 +49,9 @@ In den folgenden Bereichen können Sie verschiedene Aspekte von Workflowbenachri
 
   Fügen Sie für Genehmigungsworkflows einen Workflow-Antwortschritt hinzu, um den Absender zu benachrichtigen, wenn die Anforderung genehmigt oder abgelehnt wurde. Erfahren Sie mehr ab Schritt 9 unter [ Workflows erstellen](across-how-to-create-workflows.md#to-create-a-workflow).   
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/create-workflows/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/create-workflows/)
 
-## <a name="see-also"></a><a name="see-also"></a>Siehe auch
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Siehe auch
 
 [Einrichten von Genehmigten Benutzern](across-how-to-set-up-approval-users.md)  
 [Einrichten von Workflowbenutzern](across-how-to-set-up-workflow-users.md)  

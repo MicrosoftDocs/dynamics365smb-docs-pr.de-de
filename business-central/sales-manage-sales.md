@@ -11,7 +11,7 @@ ms.search.form: 253
 ms.date: 09/02/2022
 ms.author: edupont
 ---
-# <a name="sales"></a><a name="sales"></a>Verkauf
+# <a name="sales"></a><a name="sales"></a><a name="sales"></a>Verkauf
 
 Sie erstellen eine Verkaufsrechnung oder eine Bestellung, um Ihre Vereinbarung mit dem Debitoren zu erfassen, um bestimmte Produkte unter speziellen Liefer- und Zahlungsbedingungen zu verkaufen.
 
@@ -53,7 +53,7 @@ Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Artikel
 |Informieren Sie Ihre Debitoren über das Auftragslieferdatum, indem Sie entweder das Möglichkeitsdatum für Beschaffungszusage oder das Lieferzusageversprechen berechnen.|[Lieferterminzusagen-Daten berechnen](sales-how-to-calculate-order-promising-dates.md)|
 |Lösen Sie auf Verwirrung auf, wenn zwei oder mehr Datensätze für denselben Debitor vorhanden sind.|[Doppelt Datensätze zusammenführen](sales-how-merge-duplicate-records.md)|
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/paths/sell-items-services-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/paths/sell-items-services-dynamics-365-business-central/)
 
 [Einrichten von Verkäufen](sales-setup-sales.md)  
 [Registriert einen neuen Debitor](sales-how-register-new-customers.md)  

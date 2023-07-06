@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.keywords: 'kit, kitting'
 ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905'
 ---
-# <a name="undo-assembly-posting"></a><a name="undo-assembly-posting"></a>Montagesbuchungen rückgängig machen
+# <a name="undo-assembly-posting"></a><a name="undo-assembly-posting"></a><a name="undo-assembly-posting"></a>Montagesbuchungen rückgängig machen
 
 Machen Sie die Buchung eines Montageauftrags rückgängig, um einen Fehler zu korrigieren oder eine unerwünschte Buchung zu entfernen.
 
@@ -33,7 +33,7 @@ Montageaufträge können nur wiederhergestellt werden, wenn die Anzahl und die R
 
 Nachfolgend wird beschrieben, wie gebuchte Montageaufträge rückgängig gemacht, die Artikel enthalten, die für das Lager montiert werden. Um gebuchte Montageaufträge mit Artikeln rückgängig zu machen, die auf Bestellung montiert wurden, verwenden Sie die Aktion **Lieferung rückgängig machen** für die zugehörige gebuchte Lieferung. Um mehr über das Rückgängigmachen von Lieferungen zu erfahren, gehen Sie zu [Buch.-Blatt-Buchungen stornieren und Rückgängigmachung von Eingängen/Versendungen](finance-how-reverse-journal-posting.md). Stornieren des gebuchten Montageauftrags erfolgt auf die gleiche Art, wie in diesem Artikel beschrieben.  
 
-## <a name="to-undo-posting-of-an-assembly-order"></a><a name="to-undo-posting-of-an-assembly-order"></a>Um die Buchung eines Montageauftrags rückgängig zu machen
+## <a name="to-undo-posting-of-an-assembly-order"></a><a name="to-undo-posting-of-an-assembly-order"></a><a name="to-undo-posting-of-an-assembly-order"></a>Um die Buchung eines Montageauftrags rückgängig zu machen
 
 Sie können gebuchte Montageaufträge ganz oder teilweise rückgängig machen.
 
@@ -50,7 +50,7 @@ Das Feld **Reserviert** im Montageauftrag wird in **Ja** geändert. Die Montagea
 > [!NOTE]  
 > Um Mengen aus mehreren Teilbuchungen in einem Montageauftrag wiederherzustellen, müssen Sie alle gebuchten Montageaufträge oben rückgängig machen, indem Sie die nachfolgenden Schritte 1 bis 3 durchführen.  
 
-## <a name="see-also"></a><a name="see-also"></a>Siehe auch
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Siehe auch
 
 [Montageverwaltung](assembly-assemble-items.md)  
 [Buch.-Blatt-Buchungen stornieren und Rückgängigmachung von Eingängen/Versendungen](finance-how-reverse-journal-posting.md)  

@@ -11,12 +11,12 @@ ms.date: 06/25/2021
 ms.author: edupont
 ---
 
-# <a name="set-up-pricing-and-additional-costs-for-services"></a><a name="set-up-pricing-and-additional-costs-for-services"></a>Einrichten von Preisen und zusätzlichen Kosten für Services
+# <a name="set-up-pricing-and-additional-costs-for-services"></a><a name="set-up-pricing-and-additional-costs-for-services"></a><a name="set-up-pricing-and-additional-costs-for-services"></a>Einrichten von Preisen und zusätzlichen Kosten für Services
 Mithilfe der [!INCLUDE[prod_short](includes/prod_short.md)]-Preisfunktionen kann die Anwendung so eingerichtet und konfiguriert werden, dass Preise für Serviceartikel, Reparaturen und Aufträge übernommen und angepasst werden. Diese Preisentscheidungen werden anschließend problemlos an den Abrechnungsprozess übertragen.  
   
 Entsprechend den Implementierungsanforderungen können Sie Preisgruppen festlegen und sie bestimmten Zeiträumen, Debitoren oder Währungen zuordnen. Sie können feste, minimale oder maximale Preise abhängig von den Serviceverträgen einrichten, die mit Debitoren abgeschlossen wurden. Zuletzt können Sie beim Anpassen der Preise die Änderungen anzeigen und genehmigen, bevor Sie sie an das Hauptbuch übertragen.  
 
-## <a name="to-set-up-a-service-price-group"></a><a name="to-set-up-a-service-price-group"></a>So richten Sie eine Servicepreisgruppe ein
+## <a name="to-set-up-a-service-price-group"></a><a name="to-set-up-a-service-price-group"></a><a name="to-set-up-a-service-price-group"></a>So richten Sie eine Servicepreisgruppe ein
 Sie können Servicepreisgruppen einrichten, um Gruppen von Serviceartikeln zu bilden, die derselben Servicepreisgestaltung unterliegen. Sie verbinden die Servicepreisgruppen mit den Serviceartikeln in den Serviceartikelzeilen. Servicepreisgruppen können auch mit Serviceartikelgruppen verbunden werden.  
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Servicepreisgruppen** ein, und wählen Sie dann den zugehörigen Link.  
@@ -28,7 +28,7 @@ Sie können Servicepreisgruppen einrichten, um Gruppen von Serviceartikeln zu bi
  > [!Tip]
  > Die Felder **Anpassungstyp** und **Betrag** arbeiten zusammen, um zu definieren, ob diese Anpassung einen festen Betrag betrifft, oder ob sie nur gilt, wenn der gesamte Servicepreis den Betrag im Feld **Betrag** über- oder unterschreitet.  
 
-## <a name="to-set-up-a-service-price-adjustment-group"></a><a name="to-set-up-a-service-price-adjustment-group"></a>So richten Sie eine Servicepreiskorrekturgruppe ein
+## <a name="to-set-up-a-service-price-adjustment-group"></a><a name="to-set-up-a-service-price-adjustment-group"></a><a name="to-set-up-a-service-price-adjustment-group"></a>So richten Sie eine Servicepreiskorrekturgruppe ein
 Sie wählen für jede Art von Servicepreisgestaltung eine Servicepreiskorrekturgruppe. Beispielsweise können Sie Preiskorrekturgruppen einrichten, um die Preise für Fracht oder Ersatzteile anzupassen.  
   
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Service-Preiskorrekturgruppen** ein und wählen Sie dann den zugehörigen Link.  
@@ -45,18 +45,18 @@ Sie wählen für jede Art von Servicepreisgestaltung eine Servicepreiskorrekturg
 > [!Tip]
 > Sie können **Details** auswählen, um zusätzliche Informationen für die Anpassungsgruppe hinzufügen. Beispielsweise können Sie festlegen, welcher Artikel zur Servicepreiskorrekturgruppe gehört, und ob es sich um einen Artikel, eine Ressource, eine Ressourcengruppe oder eine Servicegebühr handelt.  
 
-## <a name="to-set-up-additional-costs-for-services"></a><a name="to-set-up-additional-costs-for-services"></a>Einrichten zusätzlicher Kosten für Services
+## <a name="to-set-up-additional-costs-for-services"></a><a name="to-set-up-additional-costs-for-services"></a><a name="to-set-up-additional-costs-for-services"></a>Einrichten zusätzlicher Kosten für Services
 Wenn Sie mit Serviceartikeln und Serviceaufträgen arbeiten, können Sie zusätzliche Kosten, wie Reisekosten in bestimmten Servicegebieten oder die Grundgebühren erfassen. Wenn Sie einen Serviceauftrag erstellen, können Sie diese Kosten einfügen und eine Zeile mit dem Typ **Kosten** wird dem Auftrag hinzugefügt. Wenn Sie die Kosten in alle Serviceaufträge übernehmen möchten, können Sie Standardkosten einrichten. Wenn Sie beispielsweise immer eine Grundgebühr anwenden möchten.
   
-### <a name="to-set-up-service-costs"></a><a name="to-set-up-service-costs"></a>Um Servicekosten einzurichten
+### <a name="to-set-up-service-costs"></a><a name="to-set-up-service-costs"></a><a name="to-set-up-service-costs"></a>Um Servicekosten einzurichten
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Servicekosten** ein und wählen Sie dann den zugehörigen Link. 
 2. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-### <a name="to-specify-a-default-cost-for-service-orders"></a><a name="to-specify-a-default-cost-for-service-orders"></a>Um Standardkosten für Serviceaufträge anzugeben
+### <a name="to-specify-a-default-cost-for-service-orders"></a><a name="to-specify-a-default-cost-for-service-orders"></a><a name="to-specify-a-default-cost-for-service-orders"></a>Um Standardkosten für Serviceaufträge anzugeben
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Service Einrichtung** ein und wählen Sie dann den zugehörigen Link. 
 2. Geben Sie im Feld **Serviceauftragsgrundgebühr** die entsprechenden Servicekosten aus.
 
-## <a name="see-also"></a><a name="see-also"></a>Siehe auch
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Siehe auch
 [Einrichten der Serviceverwaltung](service-setup-service.md)  
 [Service](service-service.md)  
 

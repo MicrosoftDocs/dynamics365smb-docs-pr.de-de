@@ -10,13 +10,13 @@ ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="walkthrough-calculating-work-in-process-for-a-job"></a><a name="walkthrough-calculating-work-in-process-for-a-job"></a>Exemplarische Vorgehensweise: Berechnen der WIP für ein Projekt
+# <a name="walkthrough-calculating-work-in-process-for-a-job"></a><a name="walkthrough-calculating-work-in-process-for-a-job"></a><a name="walkthrough-calculating-work-in-process-for-a-job"></a>Exemplarische Vorgehensweise: Berechnen der WIP für ein Projekt
 
 <!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
 Mit Projekten können Sie den Verbrauch der Ressourcen Ihres Unternehmens planen und die verschiedenen Kosten im Zusammenhang mit dem Verbrauch von Ressourcen für ein bestimmtes Projekt verfolgen. Projekte beinhalten den Verbrauch von Mitarbeiterstunden, Maschinenstunden, Bestandsposten und andere Verbrauchsarten, die während des Projekts verfolgt werden müssen. Wenn ein Projekt über einen langen Zeitraum läuft, müssen diese Kosten möglicherweise noch während des Projekts in ein Konto für unfertige Arbeit (WIP) in der Bilanz übertragen werden. So können Sie die Kosten und den Umsatz wie erforderlich in den GuV-Konten deklarieren.  
 
-## <a name="about-this-walkthrough"></a><a name="about-this-walkthrough"></a>Informationen zu dieser exemplarischen Vorgehensweise
+## <a name="about-this-walkthrough"></a><a name="about-this-walkthrough"></a><a name="about-this-walkthrough"></a>Informationen zu dieser exemplarischen Vorgehensweise
 
  In dieser exemplarischen Vorgehensweise werden folgende Aufgaben erläutert:  
 
@@ -28,19 +28,19 @@ Mit Projekten können Sie den Verbrauch der Ressourcen Ihres Unternehmens planen
 
  In jedem Schritt des Prozesses wird der Wert berechnet, und die Projekttransaktionen werden in das Sachkonto übertragen. Die Berechnungs- und Buchungsschritte erfolgen getrennt voneinander, sodass Sie die Daten überprüfen und vor dem Buchen auf das Sachkonto Änderungen vornehmen können. Sie müssen daher nach der Stapelverarbeitung für die Berechnung und vor der Stapelverarbeitung für die Buchung sicherstellen, dass alle Informationen korrekt sind.  
 
-## <a name="roles"></a><a name="roles"></a>Rollen
+## <a name="roles"></a><a name="roles"></a><a name="roles"></a>Rollen
 
  In dieser exemplarischen Vorgehensweise wird die Rolle eines Projektteammitglieds (Katrin) verwendet.  
 
-## <a name="prerequisites"></a><a name="prerequisites"></a>Voraussetzungen
+## <a name="prerequisites"></a><a name="prerequisites"></a><a name="prerequisites"></a>Voraussetzungen
 
  Bevor Sie die Aufgaben in dieser Demonstration ausführen, muss [!INCLUDE[prod_short](includes/prod_short.md)] auf dem Computer installiert sein.  
 
-## <a name="story"></a><a name="story"></a>Hintergrund
+## <a name="story"></a><a name="story"></a><a name="story"></a>Hintergrund
 
  Im Mittelpunkt dieser exemplarischen Vorgehensweise steht die CRONUS AG, ein Design- und Beratungsunternehmen, das neue Infrastrukturen schafft und anpasst, wie Konferenzräume und Büros mit Möbeln, Zubehör und Lagereinheiten. Ein Großteil der Arbeit bei CRONUS ist projektorientiert, und Katrin, ein Projektteammitglied, verwendet Aufträge, um einen Überblick über die einzelnen laufenden Aufträge zu erhalten, die CRONUS gestartet hat, und auch über die Aufträge, die abgeschlossen sind. Einige der Projekte können langfristig sein und sich über Monate erstrecken. Katrin kann ein Unf.-Arbeit-Konto verwenden, um die unfertige Arbeit zu erfassen und die Kosten während des Projekts zu verfolgen.  
 
-## <a name="calculating-wip"></a><a name="calculating-wip"></a>Berechnen der WIP
+## <a name="calculating-wip"></a><a name="calculating-wip"></a><a name="calculating-wip"></a>Berechnen der WIP
 
  CRONUS hat ein Projekt mit langer Laufzeit übernommen, das sich nun über mehrere Berichtszeiträume erstreckt. Katrin, ein Projektteammitglied, berechnet die unfertige (WIP) Arbeit, um sicherzustellen, dass die Finanzaufstellung des Unternehmens korrekt ist.  
 
@@ -56,7 +56,7 @@ Mit Projekten können Sie den Verbrauch der Ressourcen Ihres Unternehmens planen
 
  In der folgenden exemplarischen Vorgehensweise wendet Tricia das Einstandswertverfahren, die Unternehmensnorm an, um die WIP zu berechnen. Tricia gibt an, welcher Teil des Projekts in die WIP-Berechnung einbezogen werden soll, indem Sie die WIP-Summenwerte den verschiedenen Projektaufgabenzeilen zuweist.  
 
-### <a name="to-calculate-wip"></a><a name="to-calculate-wip"></a>So berechnen Sie die WIP
+### <a name="to-calculate-wip"></a><a name="to-calculate-wip"></a><a name="to-calculate-wip"></a>So berechnen Sie die WIP
 
 1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Aufträge** ein, und wählen Sie dann den zugehörigen Link.  
 2.  In der Liste **Projekte** wählen Sie das Projekt **Deerfield** aus, und wählen Sie die **Bearbeiten** Aktion aus. Die Projektkarte wird im Bearbeitungsmodus geöffnet.  
@@ -88,7 +88,7 @@ Mit Projekten können Sie den Verbrauch der Ressourcen Ihres Unternehmens planen
 
  Beachten Sie, dass der Wert für **Deaktivierter Einstandsbetrag** 215,60 in der Spalte **Zu buchen** ist. Dieses spiegelt die Gesamtkosten von zwei Artikeln in der Projektaufgabengruppe 1110 – 1130 wieder. Der dritte Artikel wurde auf **Ausschließlich** gesetzt und ist daher nicht in die WIP-Berechnung einbezogen.  
 
-### <a name="to-review-wip-warnings"></a><a name="to-review-wip-warnings"></a>WIP-Warnungen überprüfen
+### <a name="to-review-wip-warnings"></a><a name="to-review-wip-warnings"></a><a name="to-review-wip-warnings"></a>WIP-Warnungen überprüfen
 
 1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **WIP-Cockpit für Projekte** ein, und wählen Sie dann den entsprechenden Link.  
 2.  Wählen Sie die entsprechende Projekte **Deerfield** und wählen Sie dann die Aktion **Warnung anzeigen** aus.  
@@ -96,7 +96,7 @@ Mit Projekten können Sie den Verbrauch der Ressourcen Ihres Unternehmens planen
 
  Nach dem Ende der Buchhaltungsperiode muss Katrin die WIP erneut berechnen, um die bis zu diesem Zeitpunkt abgeschlossene Arbeit einzubeziehen.  
 
-### <a name="to-recalculate-wip"></a><a name="to-recalculate-wip"></a>So berechnen Sie die WIP neu
+### <a name="to-recalculate-wip"></a><a name="to-recalculate-wip"></a><a name="to-recalculate-wip"></a>So berechnen Sie die WIP neu
 
 1.  Wählen Sie auf der Karte **Projekt** aktivieren Sie die **WIP-Posten** Aktion aus, die WIP-Berechnung anzuzeigen.  
 
@@ -108,11 +108,11 @@ Mit Projekten können Sie den Verbrauch der Ressourcen Ihres Unternehmens planen
 > [!NOTE]  
 >  Nur WIP und Umsatzrealisierung wird berechnet. Er wird nicht auf das Sachkonto gebucht. Führen Sie nach der Berechnung von "WIP und Umsatzrealisierung" den Stapelverarbeitungsauftrag **WIP auf Sachkonten buchen** aus, um diese Werte zu buchen.
 
-## <a name="posting-wip-to-general-ledger"></a><a name="posting-wip-to-general-ledger"></a>Buchen der WIP auf das Sachkonto
+## <a name="posting-wip-to-general-ledger"></a><a name="posting-wip-to-general-ledger"></a><a name="posting-wip-to-general-ledger"></a>Buchen der WIP auf das Sachkonto
 
  Nachdem Tricia die WIP für dieses Projekt berechnet hat, kann sie sie auf das Sachkonto buchen.  
 
-### <a name="to-post-wip-to-general-ledger"></a><a name="to-post-wip-to-general-ledger"></a>So buchen Sie die WIP auf das Sachkonto
+### <a name="to-post-wip-to-general-ledger"></a><a name="to-post-wip-to-general-ledger"></a><a name="to-post-wip-to-general-ledger"></a>So buchen Sie die WIP auf das Sachkonto
 
 1.  Wählen Sie in der Liste **Projekte** das Projekt **Landsberg** aus.  
 2.  Wählen Sie die **RIF** Aktion aus, und wählen Sie die **WIP auf Sachkonto buchen** Aktion aus.  
@@ -132,11 +132,11 @@ Mit Projekten können Sie den Verbrauch der Ressourcen Ihres Unternehmens planen
 10. Beachten Sie, dass im Inforegister **WIP und Umsatzrealisierung** in der Spalte **Gebucht** das Feld **Deaktivierter Einstandsbetrag auf Sachkonten** jetzt ausgefüllt ist, was angibt, dass diese WIP in der Finanzbuchhaltung erfolgreich gebucht wurde.  
 11. Wählen Sie die Schaltfläche **OK**, um die Karte zu schließen.  
 
-## <a name="reversing-a-wip-posting"></a><a name="reversing-a-wip-posting"></a>Stornieren einer WIP-Buchung
+## <a name="reversing-a-wip-posting"></a><a name="reversing-a-wip-posting"></a><a name="reversing-a-wip-posting"></a>Stornieren einer WIP-Buchung
 
  Katrin stellt fest, dass die Projektaufgaben, die aus der WIP-Berechnung ausgeschlossen wurden, in WIP berechnet worden sein sollten. Tricia kann die falschen Buchungen stornieren, ohne neue WIP-Posten buchen zu müssen.  
 
-### <a name="to-reverse-a-wip-posting"></a><a name="to-reverse-a-wip-posting"></a>So stornieren Sie eine WIP-Buchung
+### <a name="to-reverse-a-wip-posting"></a><a name="to-reverse-a-wip-posting"></a><a name="to-reverse-a-wip-posting"></a>So stornieren Sie eine WIP-Buchung
 
 1.  Wählen Sie in der Liste **Projekte** das Projekt **Landsberg** aus.  
 2.  Wählen Sie die **RIF** Aktion aus, und wählen Sie die **WIP auf Sachkonto buchen** Aktion aus.  
@@ -155,13 +155,13 @@ Mit Projekten können Sie den Verbrauch der Ressourcen Ihres Unternehmens planen
     > [!NOTE]  
     >  Gesetzt den Fall, Katrin hat WIP für ein Projekt mit falschen Datumsangaben berechnet und gebucht. Nach der zuvor erläuterten Methode kann Tricia die falschen Buchungen stornieren, die Datumsangaben korrigieren und erneut auf das Sachkonto buchen.  
 
-## <a name="next-steps"></a><a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a><a name="next-steps"></a><a name="next-steps"></a>Nächste Schritte
 
  In dieser exemplarischen Vorgehensweise wurden die Schritte zum Berechnen der unfertigen Arbeit (WIP) in [!INCLUDE[prod_short](includes/prod_short.md)] erläutert. Bei größeren Projekten kann es hilfreich sein, die Kosten periodisch in ein Konto für unfertige Arbeit zu übertragen, während das Projekt fertig gestellt wird. In dieser exemplarischen Vorgehensweise wurde gezeigt, wie Sie Aufgabenzeilen von einer Berechnung ausschließen. Zudem wurden Fälle vorgestellt, in denen eine Neuberechnung erforderlich ist. Die und zum Schluss, zeigt dieser exemplarischen Vorgehensweise, wie die WIP auf das Sachkonto gebucht wird. Ein Beispiel zum Stornieren einer WIP-Buchung in der Finanzbuchhaltung wurde ebenfalls berücksichtigt.  
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/paths/calculate-post-job-wip/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/paths/calculate-post-job-wip/)
 
-## <a name="see-also"></a><a name="see-also"></a>Siehe auch
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Siehe auch
 
  [Exemplarische Vorgehensweisen für Geschäftsprozesse](walkthrough-business-process-walkthroughs.md)  
  [Exemplarische Vorgehensweise: Verwalten von Projekten](walkthrough-managing-projects-with-jobs.md)  

@@ -10,7 +10,7 @@ ms.date: 01/25/2023
 ms.custom: bap-template
 ms.search.form: '7315, 7349, 7351, 7382, 7384, 7386, 7387, 7399, 7400, 9314, 9330, 9345'
 ---
-# <a name="moving-items"></a><a name="moving-items"></a>Umlagern von Artikeln
+# <a name="moving-items"></a><a name="moving-items"></a><a name="moving-items"></a>Umlagern von Artikeln
 
 Sie können Artikel in Ihrem Lager auf unterschiedliche Weise umlagern, je nachdem, wie Sie Ihr Lager konfiguriert haben. Die Komplexität kann variieren:
 
@@ -36,9 +36,9 @@ Die Zählung, Anpassung und Umbuchung von Artikeln kann Lageraufgaben beinhalten
 |Verwenden Sie das Lagerplatzumlagerungsarbeitsblatt, interne Kommissionierung und Einlagerung, um Artikel in erweiterter Lagerkonfigurationen mit gesteuerter Kommissionierung und Entnahme umzulagern.|[Umlagerung von Artikeln in erweiterten Lagerkonfigurationen](warehouse-how-to-move-items-in-advanced-warehousing.md)|  
 |Strukturieren Sie Ihr Lager mit neuen Lagerplatzcodes und neuen Lagerplatzeigenschaften neu und lagern Sie sie ggf. um.|[Lager umstrukturieren](warehouse-how-to-restructure-warehouses.md)|  
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/manage-internal-warehouse-processes/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/manage-internal-warehouse-processes/)
 
-## <a name="see-also"></a><a name="see-also"></a>Siehe auch
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Siehe auch
 
 [Lagerverwaltung – Übersicht](design-details-warehouse-management.md)  
 [Bestand](inventory-manage-inventory.md)  

@@ -8,11 +8,11 @@ ms.search.form: '1992, 1993, 1994, 1995, 1990, 1997, 1801'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="onboard-users-with-checklists"></a><a name="onboard-users-with-checklists"></a>Onboarding von Benutzern mit Checklisten
+# <a name="onboard-users-with-checklists"></a><a name="onboard-users-with-checklists"></a><a name="onboard-users-with-checklists"></a>Onboarding von Benutzern mit Checklisten
 
 Das erste Mal, wenn sich ein Benutzer bei einem neuen [!INCLUDE [prod_short](includes/prod_short.md)]-Unternehmen anmeldet, können sie ein Banner sehen, das sie ermutigt, die Checkliste **Erste Schritte** zu starten, die ihnen hilft, wichtige Informationen einzurichten und sich auf das Geschäft vorzubereiten. Als Administrator oder Wiederverkaufspartner können Sie die vordefinierten Checklisten anpassen und Ihre eigenen Schritte einrichten.
 
-## <a name="to-add-an-item-to-the-checklist"></a><a name="to-add-an-item-to-the-checklist"></a>So fügen Sie der Checkliste ein Element hinzu
+## <a name="to-add-an-item-to-the-checklist"></a><a name="to-add-an-item-to-the-checklist"></a><a name="to-add-an-item-to-the-checklist"></a>So fügen Sie der Checkliste ein Element hinzu
 
 1. Melden Sie sich unter [https://businesscentral.dynamics.com/](https://businesscentral.dynamics.com/) bei [!INCLUDE[prod_short](includes/prod_short.md)] an.
 
@@ -25,7 +25,7 @@ Das erste Mal, wenn sich ein Benutzer bei einem neuen [!INCLUDE [prod_short](inc
     > [!TIP]
     > Wenn es sich bei dem Schritt um eine Installationsanleitung handelt, gibt das Feld **Aufgabe** die Installationsanleitung an. Wenn der Schritt darin besteht, mehr zu lernen, gibt das Feld **Aufgabe** den Link zum Artikel oder E-Learning-Modul an.
 
-## <a name="see-also"></a><a name="see-also"></a>Siehe auch
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Siehe auch
 
 [Vorbereitung für die Geschäftstätigkeit](ui-get-ready-business.md)  
 [Verwaltung](admin-setup-and-administration.md)  

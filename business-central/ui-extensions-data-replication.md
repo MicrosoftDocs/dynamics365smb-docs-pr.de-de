@@ -13,7 +13,7 @@ ms.date: 06/23/2021
 ms.author: edupont
 ---
 
-# <a name="cloud-migration-extensions-for-migrating-to-business-central-online"></a><a name="cloud-migration-extensions-for-migrating-to-business-central-online"></a>Cloud-Migrationserweiterungen für die Migration zu Business Central Online
+# <a name="cloud-migration-extensions-for-migrating-to-business-central-online"></a><a name="cloud-migration-extensions-for-migrating-to-business-central-online"></a><a name="cloud-migration-extensions-for-migrating-to-business-central-online"></a>Cloud-Migrationserweiterungen für die Migration zu Business Central Online
 
 Abhängig von Ihrer Lösung vor Ort müssen Sie verschiedene Erweiterungen verwenden, um Ihre Daten mit [!INCLUDE[prod_short](includes/prod_short.md)] online zu verbinden, um Ihre Lösung in die Cloud zu migrieren.  
 
@@ -21,22 +21,22 @@ Wenn Sie eines der unterstützten lokalen Produkte verwenden, können Sie Ihre C
 
 Weitere Informationen finden Sie unter [Migrieren lokaler Daten zu Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) im Verwaltungsinhalt für [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-## <a name="business-central-on-premises"></a><a name="business-central-on-premises"></a>Lokales Business Central
+## <a name="business-central-on-premises"></a><a name="business-central-on-premises"></a><a name="business-central-on-premises"></a>Lokales Business Central
 
 Wenn Sie eine lokale Bereitstellung von [!INCLUDE[prod_short](includes/prod_short.md)] verwenden, rufen Sie die Erweiterung **Intelligente Cloud Basis** und die Erweiterung **Business Central intelligente Cloud** ab, und führen Sie dann den Anleitung für die unterstützte Einrichtung von **Cloudmigrationseinrichtung** durch.  
 
-## <a name="dynamics-gp"></a><a name="dynamics-gp"></a>Dynamics GP
+## <a name="dynamics-gp"></a><a name="dynamics-gp"></a><a name="dynamics-gp"></a>Dynamics GP
 
 Wenn Sie Dynamics GP verwenden, holen Sie sich die Erweiterung **Intelligente Cloud Basis-Erweiterung** und die Erweiterung **Dynamics GP Intelligente Cloud**, und führen Sie dann die Anleitung für die unterstützte Einrichtung der **Cloudmigrationseinrichtung** aus.  
 
 > [!IMPORTANT]
 > Die Migration von Dynamics GP mit dem unterstützten Einrichtungsleitfaden **Cloudmigrationseinrichtung** wird derzeit nur für die folgenden Märkte unterstützt: USA, Kanada, Vereinigtes Königreich.
 
-## <a name="dynamics-sl"></a><a name="dynamics-sl"></a>Dynamics SL
+## <a name="dynamics-sl"></a><a name="dynamics-sl"></a><a name="dynamics-sl"></a>Dynamics SL
 
 Wenn Sie Dynamics SL verwenden, holen Sie sich die Erweiterung **Intelligente Cloud-Basis**-Erweiterung, die Erweiterung **Microsoft Dynamics SL Intelligente Cloud** und die Erweiterung **Microsoft Dynamics SL-Verlauf-SmartLists**, und führen Sie dann die Anleitung für die unterstützte Einrichtung der **Cloudmigrationseinrichtung** aus.  
 
-## <a name="see-also"></a><a name="see-also"></a>Siehe auch
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Siehe auch
 
 [Cloud-Migrationsbasiserweiterung](ui-extensions-intelligent-cloud.md)  
 [Migrieren lokaler Daten zu Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data)  

@@ -7,7 +7,7 @@ ms.search.keywords: null
 ms.date: 06/16/2021
 ms.author: edupont
 ---
-# <a name="setting-up-inventory-valuation-and-costing"></a><a name="setting-up-inventory-valuation-and-costing"></a>Einrichten der Lagerwertberechnung und der Kostenrechnung
+# <a name="setting-up-inventory-valuation-and-costing"></a><a name="setting-up-inventory-valuation-and-costing"></a><a name="setting-up-inventory-valuation-and-costing"></a>Einrichten der Lagerwertberechnung und der Kostenrechnung
 
 Um sicherzustellen, dass Lagerregulierungen ordnungsgemäß aufgezeichnet werden, müssen Sie verschiedene Felder und Seiten einrichten, bevor Sie Artikeltransaktionen durchführen können. In der Regel wählen Unternehmen eine bestimmte Lagerabgangsmethode und wenden diese auf Lagerartikel an, beispielsweise um den Wert von auf Lager befindlichen Artikel besser nachzuverfolgen.  
 
@@ -30,7 +30,7 @@ Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Themen,
 |Sicherstellen, dass Einkaufsreklamationen mit der ursprünglichen eingehenden Transaktion ausgeglichen werden, um den Lagerwert zu erhalten.|Das Feld **Exakte Einstandspreisstornierung notwendig** auf der Seite **Kreditoren und Einkauf**|
 |Einrichten der Rundungsregeln, die beim Regulieren oder Vorschlagen von Artikelpreisen sowie beim Regulieren oder Vorschlagen von Einstandspreisen angewendet werden|**Rundungsmethode**|  
 
-## <a name="see-also"></a><a name="see-also"></a>Siehe auch
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Siehe auch
 
 [Verwalten der Lagerregulierung](finance-manage-inventory-costs.md)  
 [So richten Sie allgemeine Lagerbestandsinformationen ein](inventory-how-setup-general.md)  

@@ -11,11 +11,11 @@ ms.search.form: '30, 456, 461'
 ms.date: 07/28/2021
 ms.author: edupont
 ---
-# <a name="set-up-general-inventory-information"></a><a name="set-up-general-inventory-information"></a>So richten Sie allgemeine Lagerbestandsinformationen ein
+# <a name="set-up-general-inventory-information"></a><a name="set-up-general-inventory-information"></a><a name="set-up-general-inventory-information"></a>So richten Sie allgemeine Lagerbestandsinformationen ein
 
 Sie geben Ihre allgemeine Lagerbestandseinrichtung auf der Seite **Lager Einrichtung** an.
 
-## <a name="to-set-up-general-inventory-information"></a><a name="to-set-up-general-inventory-information"></a>So richten Sie allgemeine Lagerbestandsinformationen ein
+## <a name="to-set-up-general-inventory-information"></a><a name="to-set-up-general-inventory-information"></a><a name="to-set-up-general-inventory-information"></a>So richten Sie allgemeine Lagerbestandsinformationen ein
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Lagerbestandseinrichtung** ein und wählen Sie dann den zugehörigen Link.
 2. Füllen Sie auf der Seite **Lager Einrichtung** die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -31,7 +31,7 @@ Wenn Sie möchten, dass die Anwendung die Lagerdurchlaufzeit bei der Berechnung 
 >
 > Alternativ können Sie die Kosten in regelmäßigen Abständen manuell mit dem Stapelverarbeitungsauftrag „Kosten ausgleichen – Artikelposten“ ausgleichen. Sie können auch die automatische Kostenbuchung deaktivieren oder das Feld **Automatische Lagerregulierung** auf *Nie* setzen. In beiden Fällen wird eine Benachrichtigung angezeigt, über die Sie einen Leitfaden zur unterstützten Einrichtung starten können, der Sie beim Planen von Aufgaben für die Aufgabenwarteschlange unterstützt. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-## <a name="see-also"></a><a name="see-also"></a>Weitere Informationen
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Weitere Informationen
 
 [Lager einrichten](inventory-setup-inventory.md)  
 [Designdetails: Kostenberechnungsmethoden](design-details-costing-methods.md)  

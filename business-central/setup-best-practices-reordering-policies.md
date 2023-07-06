@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="setup-best-practices-reordering-policies"></a><a name="setup-best-practices-reordering-policies"></a>Bewährte Einrichtungsmethoden: Wiederbeschaffungsverfahren
+# <a name="setup-best-practices-reordering-policies"></a><a name="setup-best-practices-reordering-policies"></a><a name="setup-best-practices-reordering-policies"></a>Bewährte Einrichtungsmethoden: Wiederbeschaffungsverfahren
 
 Das Feld **Nachbestellungs-Richtlinie** auf Artikelkarten umfasst vier verschiedene Planungsmethoden, die bestimmen, wie die einzelnen Planungsparameter interagieren.  
 
@@ -35,9 +35,9 @@ Die folgende Tabelle enthält bewährte Methoden für die Auswahl zwischen den v
 |**Feste Bestellmenge**|Verwendung für C-Artikel.<br /><br /> Zusammenfassen mit Minimalbestandparametern.<br /><br /> In der Produktion, Verwendung für Komponenten auf der niedrigsten Ebene.<br /><br /> Nicht verwenden, wenn der Artikel häufig reserviert wird.|C-Artikel wie Teetassen sind geringwertige Artikel mit hoher und regelmäßiger Auftragsgeschwindigkeit. Das beste Wiederbeschaffungsverfahren für C-Artikel ist deshalb eines, das konstante Verfügbarkeit sicherstellt, indem der Bestand immer über dem Minimalbestand liegt.<br /><br /> Wenn der Benutzer eine Menge für beliebigen, in der Zukunft liegenden Bedarf reserviert, wird die Planungsgrundlage gestört. Selbst wenn der voraussichtliche Lagerbestand im Hinblick auf den Minimalbestand akzeptabel ist, stehen die Mengen möglicherweise aufgrund der Reservierung nicht zur Verfügung.|  
 |**Auffüllen auf Maximalbestand**|Verwendung für C-Artikel mit hohen Frachtkosten oder Einschränkungen bei der Lagerhaltung.<br /><br /> Zusammenfassen mit einen oder mehreren Auftragsmodifikationen (minimale/maximale Losgröße oder Losgrößenrundungsfaktor).|C-Artikel wie Teetassen sind geringwertige Artikel mit hoher und regelmäßiger Auftragsgeschwindigkeit. Das beste Wiederbeschaffungsverfahren für C-Artikel ist deshalb eines, das konstante Verfügbarkeit sicherstellt, indem der Bestand immer über dem Minimalbestand, aber unter dem maximalen Lagerbestand liegt.<br /><br /> Um den vorgeschlagenen Auftrag zu ändern, sollten Sie die Bestellmenge auf eine festgelegte maximale Losgröße reduzieren, auf eine minimale Losgröße erhöhen oder aufrunden, werden um einem festgelegten Losgrößenrundungsfaktor zu entsprechen. **Hinweis**: Bei Verwendung mit einem Minimalbestand bleibt der Lagerbestand zwischen dem Minimalbestand und dem Maximalbestand.|  
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/paths/replenish-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/paths/replenish-items-dynamics-365-business-central/)
 
-## <a name="see-also"></a><a name="see-also"></a>Siehe auch
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Siehe auch
 
  [Bewährte Einrichtungsmethoden: Beschaffungsplanung](setup-best-practices-supply-planning.md)  
  [Designdetails: Umgang mit Wiederbeschaffungsverfahren](design-details-handling-reordering-policies.md)  

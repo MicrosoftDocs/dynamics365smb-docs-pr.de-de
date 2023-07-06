@@ -9,13 +9,13 @@ ms.search.form: '211, 463, 1012'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="set-up-jobs-prices-and-job-posting-groups"></a><a name="set-up-jobs-prices-and-job-posting-groups"></a>Jobs, Preise und Buchungsgruppen festlegen
+# <a name="set-up-jobs-prices-and-job-posting-groups"></a><a name="set-up-jobs-prices-and-job-posting-groups"></a><a name="set-up-jobs-prices-and-job-posting-groups"></a>Jobs, Preise und Buchungsgruppen festlegen
 
 Als Projekt-Manager können Sie Projekte einrichten, die jedes der Projekte definieren, das Sie in [!INCLUDE[prod_short](includes/prod_short.md)] verwalten. Auf der Seite **Projekteinrichtung** müssen Sie festlegen, wie Sie bestimmte Projektfunktionen verwenden möchten.
 
 Für jedes Projekt geben Sie dann die einzelnen Projektkarten mit Informationen zu Preisen für Projektressourcen Projektartikel, Projekt und Sachkonten an, und Sie müssen Projektbuchungsgruppen einrichten.
 
-## <a name="to-set-general-information-for-jobs"></a><a name="to-set-general-information-for-jobs"></a>Um allgemeine Informationen für Projekte einzurichten:
+## <a name="to-set-general-information-for-jobs"></a><a name="to-set-general-information-for-jobs"></a><a name="to-set-general-information-for-jobs"></a>Um allgemeine Informationen für Projekte einzurichten:
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Projekt Einrichtung** ein und wählen Sie den zugehörigen Link.
 2. Füllen Sie die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -23,7 +23,7 @@ Für jedes Projekt geben Sie dann die einzelnen Projektkarten mit Informationen 
 > [!NOTE]
 > Das Feld **Verwendung standardmäßig verknüpfen** zeigt an, ob Job-Sachkonto-Einträge standardmäßig mit Job-Planungszeilen verknüpft werden. Wählen Sie das Feld, wenn Sie diese Einstellung auf alle neu erstellten Jobs anwenden wollen. Sie können die Nachverfolgung der Job-Nutzung für einen bestimmten Job aktivieren oder deaktivieren, indem Sie den Wert des Feldes **Nutzungsverknüpfung anwenden** auf der individuellen Jobkarte ändern. Die Konsequenzen werden im folgenden Abschnitt erläutert.
 
-### <a name="to-set-up-job-usage-tracking"></a><a name="to-set-up-job-usage-tracking"></a>Projektverbrauch-Nachverfolgung einrichten
+### <a name="to-set-up-job-usage-tracking"></a><a name="to-set-up-job-usage-tracking"></a><a name="to-set-up-job-usage-tracking"></a>Projektverbrauch-Nachverfolgung einrichten
 
 Wenn Sie an einem Job arbeiten, möchten Sie vielleicht wissen, wie sich Ihre Nutzung im Vergleich zu Ihrem Plan verhält. Um diesen Vorgang zu vereinfachen, können Sie einen Link zwischen Ihren Projektplanungszeilen und dem tatsächlichen Verbrauch erstellen. So können Sie Ihre Kosten verfolgen und schnell sehen, wie viel Arbeit noch zu tun ist. Standardmäßig ist der Zeilentyp der Auftragsplanung *Budget*, aber die Verwendung des Zeilentyps **Budget und abrechenbar** hat ähnliche Auswirkungen.
 
@@ -43,7 +43,7 @@ If job usage tracking is not enabled and the **Line Type** field on the job jour
 -->
 
 
-## <a name="to-set-up-prices-for-resources-items-and-general-ledger-accounts-for-jobs"></a><a name="to-set-up-prices-for-resources-items-and-general-ledger-accounts-for-jobs"></a>Erstellen projektspezifischer Preise für Ressourcen, Artikel und Sachkonten für Projekte
+## <a name="to-set-up-prices-for-resources-items-and-general-ledger-accounts-for-jobs"></a><a name="to-set-up-prices-for-resources-items-and-general-ledger-accounts-for-jobs"></a><a name="to-set-up-prices-for-resources-items-and-general-ledger-accounts-for-jobs"></a>Erstellen projektspezifischer Preise für Ressourcen, Artikel und Sachkonten für Projekte
 
 > [!NOTE]
 > In der 2020er Release-Welle 2 haben wir neue Prozesse zum Einrichten und Verwalten von Preisen und Rabatten freigegeben. Wenn Sie ein neuer Kunde sind, nutzen Sie die neue Erfahrung. Wenn Sie bereits Kunde sind, hängt es davon ab, ob Sie die neue Erfahrung verwenden, ob Ihr Administrator die Funktionsaktualisierung **Neues Verkaufspreiserlebnis** in **Funktionsverwaltung** akualisiert hat. Weitere Informationen finden Sie unter [Bevorstehende Funktionen im Voraus aktivieren](/dynamics365/business-central/dev-itpro/administration/feature-management).
@@ -71,7 +71,7 @@ Die folgende Tabelle zeigt, wie die Informationen in den optionalen Feldern in J
 
 ---
 
-## <a name="to-set-up-job-posting-groups"></a><a name="to-set-up-job-posting-groups"></a>Projektbuchungsgruppen einrichten
+## <a name="to-set-up-job-posting-groups"></a><a name="to-set-up-job-posting-groups"></a><a name="to-set-up-job-posting-groups"></a>Projektbuchungsgruppen einrichten
 
 Ein Aspekt der Projektenplanung besteht darin, zu entscheiden, welche Buchungskonten für die Projektkalkulation verwendet werden. Damit Projekte gebucht werden können, müssen Sie Konten für die Buchung für jede Projektbuchungsgruppe einrichten. Eine Buchungsgruppe stellt eine Verknüpfung zwischen dem Projekt und der Art dar, wie es in der Finanzbuchhaltung zu behandeln ist. Wenn Sie ein Projekt erstellen, geben Sie eine Buchungsgruppe an, und standardmäßig wird jede Aufgabe, die Sie erstellen, dieser Buchungsgruppe zugeordnet. Wenn Sie Aufgaben erstellen, können Sie jedoch die Voreinstellung überschreiben und eine Buchungsgruppe auswählen, die geeigneter ist.  
 
@@ -99,9 +99,9 @@ Ein Aspekt der Projektenplanung besteht darin, zu entscheiden, welche Buchungsko
 | **Konto deklarierte Kosten** |Das Aufwandskonto, das die deklarierten Kosten für das Projekt enthält. Dabei handelt es sich normalerweise um ein Soll-Aufwandskonto. |
 | **Konto deklarierte Verkäufe** |Das Ertragskonto, das den deklarierten Umsatz für das Projekt enthält. Dabei handelt es sich normalerweise um ein Haben-Ertragskonto. |
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/paths/set-up-jobs-resources/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/paths/set-up-jobs-resources/)
 
-## <a name="see-also"></a><a name="see-also"></a>Siehe auch
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Siehe auch
 
 [Projektmanagement einrichten](projects-setup-projects.md)  
 [Video: Wie man einen Auftrag in Dynamics 365 Business Central erstellt](https://www.youtube.com/watch?v=VqaPWr7BWmw)  

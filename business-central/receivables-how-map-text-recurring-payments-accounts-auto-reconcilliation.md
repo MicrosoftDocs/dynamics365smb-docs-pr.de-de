@@ -11,7 +11,7 @@ ms.search.form: '1290, 1294, 1287'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a><a name="map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a>Zuordnen von Text auf sich wiederholenden Zahlungen an Konten für automatische Abstimmung
+# <a name="map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a><a name="map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a><a name="map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a>Zuordnen von Text auf sich wiederholenden Zahlungen an Konten für automatische Abstimmung
 
 Im Fenster **Zuordnung Text zu Konto**, das Sie auf der Seite **Zahlungsabstimmungsbuch.-Blatt** öffnen, können Sie schnell Zuordnungen zwischen Text in Zahlungen und bestimmten Soll-, Haben- und Gegenkonten eingeben, sodass solche Zahlungen auf die angegebenen Konten gebucht werden, wenn Sie Zahlungen im Zahlungsabstimmungsbuch.-Blatt buchen.
 
@@ -24,7 +24,7 @@ Die Zahlungen, die anhand der Text-zu-Kontenzuordnung gebucht wurden, werden nic
 
 In einer Zahlungsabstimmungsbuch.-Blattzeile, in der die Zahlung entsprechend der Text-zu-Kontenzuordnung zur Buchung festgelegt wurde, enthält das Feld **Übereinstimmungsgenauigkeit** **Hoch - Text-Kontozuordnung** und den **Kontenart** und die **Kontennummer**.
 
-## <a name="to-map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a><a name="to-map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a>Zuordnen von text auf sich wiederholenden Zahlungen an Konten für automatische Abstimmung
+## <a name="to-map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a><a name="to-map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a><a name="to-map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a>Zuordnen von text auf sich wiederholenden Zahlungen an Konten für automatische Abstimmung
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Zahlungsausgangs Buch.-Blätter** ein und wählen Sie dann den zugehörigen Link.
 2. Öffnen Sie ein Zahlungsabstimmungsbuch.-Blatt. Weitere Informationen finden Sie unter [Abstimmen von Zahlungen mithilfe der automatischen Anwendung](receivables-how-reconcile-payments-auto-application.md).
@@ -44,7 +44,7 @@ In einer Zahlungsabstimmungsbuch.-Blattzeile, in der die Zahlung entsprechend de
 
 Beim nächsten Mal, wenn Sie eine Bankkontoauszugsdatei importieren oder die Funktion **Automatisch anwenden** auf der Seite **Zahlungsabstimmungsbuch.-Blatt** wählen, enthalten die Buch.-Blattzeilen für die Zahlungen, die den angegebenen Zuordnungstext enthalten, die zugehörigen Konten im Feld **Kontoart** und **Kontonummer**. Das Feld **Übereinstimmungsgenauigkeit** enthält **Hoch - Text zu Konto Zuordnung**. Dies ist unter der Bedingung der Fall, dass die automatische Anwendungsfunktion nur ein Abgleichungsvertrauen von **Niedrig** oder **Normal** zur Verfügung stellen kann.
 
-## <a name="example-text-to-account-mapping-for-bank-fees"></a><a name="example-text-to-account-mapping-for-bank-fees"></a>Beispiel: Zuordnung Text zu Konto für Bankgebühren
+## <a name="example-text-to-account-mapping-for-bank-fees"></a><a name="example-text-to-account-mapping-for-bank-fees"></a><a name="example-text-to-account-mapping-for-bank-fees"></a>Beispiel: Zuordnung Text zu Konto für Bankgebühren
 
 Um Ausgaben, die sich auf Gebühren einer bestimmten Bank, MyBank, beziehen, immer auf das Sachkonto für Bankgebühren und Gebühren (Konto 60400) zu buchen, füllen Sie eine Zeile auf der Seite **Zuordnung Text zu Konto** wie folgt aus.
 
@@ -52,9 +52,9 @@ Um Ausgaben, die sich auf Gebühren einer bestimmten Bank, MyBank, beziehen, imm
 | --- | --- | --- | --- | --- |
 | MyBank |LEER |60400|Sachkonto |LEER |
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/use-journals-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/use-journals-dynamics-365-business-central/)
 
-## <a name="see-also"></a><a name="see-also"></a>Siehe auch
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Siehe auch
 
 [Verwalten von Forderungen](receivables-manage-receivables.md)  
 [Verkauf](sales-manage-sales.md)  

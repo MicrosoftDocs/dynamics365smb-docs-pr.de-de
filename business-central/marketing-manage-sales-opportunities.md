@@ -12,7 +12,7 @@ ms.search.forms: '5132, 5101, 5103, 5102, 5146, 5199, 5197, 5198, 5137, 5086, 50
 ms.date: 04/01/2021
 ms.author: jswymer
 ---
-# <a name="managing-sales-opportunities"></a><a name="managing-sales-opportunities"></a>Verkaufschancen verwalten
+# <a name="managing-sales-opportunities"></a><a name="managing-sales-opportunities"></a><a name="managing-sales-opportunities"></a>Verkaufschancen verwalten
 Alle eingehenden Informationen zu potenziellen Kunden können als Verkaufschance behandelt werden. Sie können Verkaufschancen erstellen und diese einem Verkäufer zuordnen, um potenziellen Verkäufe nachverfolgen zu können.
 
 Damit die Verkaufschancenverwaltung verwendet werden kann, müssen zunächst Verkaufsprozesse sowie Verkaufsprozess-Stufen eingerichtet werden. Beim Erstellen von Verkaufschancen empfiehlt es sich, neben Informationen zum Kontakt, zum Verkäufer und zum Verkaufsprozess auch Datumswerte sowie eine Schätzung des Verkaufswerts der Verkaufschance und eine Schätzung der Erfolgschancen anzugeben.
@@ -25,7 +25,7 @@ Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Themen,
 | Erstellen der von den Kontakten stammenden Verkaufschancen |[Verkaufschancen erstellen](marketing-how-create-opportunities.md) |
 | Verschieben einer Verkaufschance durch den Verkaufsprozess bis zum Abschluss. |[Verarbeiten von Verkaufschancen](marketing-processing-sales-opportunities.md) |
 
-## <a name="see-also"></a><a name="see-also"></a>Weitere Informationen
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Weitere Informationen
 [Verkauf](sales-manage-sales.md)  
 [Erstellen und Verwalten von Kontakten](marketing-contacts.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

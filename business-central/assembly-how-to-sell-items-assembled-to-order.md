@@ -11,7 +11,7 @@ ms.search.keywords: 'kit, kitting, substitute items'
 ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905'
 ms.custom: bap-template
 ---
-# <a name="sell-items-assembled-to-order"></a><a name="sell-items-assembled-to-order"></a>Verkaufen von Auftragsmontageartikeln
+# <a name="sell-items-assembled-to-order"></a><a name="sell-items-assembled-to-order"></a><a name="sell-items-assembled-to-order"></a>Verkaufen von Auftragsmontageartikeln
 
 Elemente, die für die Programmfertigung festgelegt sind, müssen nicht im Bestand sein und werden erst montiert, wenn sie in einem Verkaufsauftrag enthalten sind. Ein Artikel ist für die Programmfertigung festgelegt, wenn das Feld **Richtlinie zur Programmfertigung** auf der Artikelkarte **Montage auf Bestellung** enthält. Wenn Sie den Artikel in eine Kundenauftragszeile eingeben, wird automatisch ein Montageauftrag erstellt und mit dem Kundenauftrag verknüpft.  
 
@@ -28,7 +28,7 @@ Bei diesem Verfahren verarbeiten Sie den verkauf eines Artikels, der gemäß den
 > [!NOTE]  
 > Die folgende Vorgehensweise umfasst nicht die Schritte zum Erstellen eines Standard-Kundenauftrags, die vor dem Schritt erfolgen, in dem Sie die Montageposition in eine Verkaufsauftragszeile eingeben. Weitere Informationen zum Erstellen von Verkaufsaufträgen finden Sie unter [Produkte mit einem Kundenverkaufsauftrag erstellen](sales-how-sell-products.md).  
 
-## <a name="to-sell-an-item-that-is-assembled-to-order"></a><a name="to-sell-an-item-that-is-assembled-to-order"></a>So verkaufen Sie einen Auftragsmontageartikel:
+## <a name="to-sell-an-item-that-is-assembled-to-order"></a><a name="to-sell-an-item-that-is-assembled-to-order"></a><a name="to-sell-an-item-that-is-assembled-to-order"></a>So verkaufen Sie einen Auftragsmontageartikel:
 
 1. Wählen Sie das Symbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Verkaufsaufträge** ein, und wählen Sie dann den zugehörigen Link.  
 2. Erstellen Sie einen Auftrag. 
@@ -60,9 +60,9 @@ Bei diesem Verfahren verarbeiten Sie den verkauf eines Artikels, der gemäß den
 > [!NOTE]  
 > Bei der Ersetzung von Elementen wird ein Element nicht automatisch durch ein anderes ersetzt, z.B. wenn Sie einen Verkaufsauftrag oder eine Stückliste erstellen. Stattdessen werden Sie gewarnt, dass eine Ersetzung verfügbar ist.
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Siehe zugehörige [Microsoft Schulungen](/training/modules/assemble-to-order-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Siehe zugehörige [Microsoft Schulungen](/training/modules/assemble-to-order-dynamics-365-business-central/)
 
-## <a name="see-also"></a><a name="see-also"></a>Siehe auch
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Siehe auch
 
 [Montageverwaltung](assembly-assemble-items.md)  
 [Arbeiten mit Stücklisten für die Montage](assembly-how-work-assembly-boms.md)  

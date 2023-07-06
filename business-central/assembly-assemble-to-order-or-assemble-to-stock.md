@@ -10,14 +10,14 @@ ms.custom: bap-template
 ms.search.keywords: 'kit, kitting'
 ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905'
 ---
-# <a name="understanding-assemble-to-order-and-assemble-to-stock"></a><a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Auftragsmontage und Lagermontage verstehen
+# <a name="understanding-assemble-to-order-and-assemble-to-stock"></a><a name="understanding-assemble-to-order-and-assemble-to-stock"></a><a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Auftragsmontage und Lagermontage verstehen
 
 Mit [!INCLUDE [prod_short](includes/prod_short.md)] können Sie Montageartikel auf folgende Weisen ausgeben:
 
 * Montage auf Bestellung  
 * Auf Lager montieren  
 
-## <a name="assemble-to-order"></a><a name="assemble-to-order"></a>Montage auf Bestellung
+## <a name="assemble-to-order"></a><a name="assemble-to-order"></a><a name="assemble-to-order"></a>Montage auf Bestellung
 
 Verwenden Sie den Auftragsmontageprozess für Artikel, die Sie nicht auf Lager haben möchten. Zum Beispiel aus folgenden Gründen:
 
@@ -43,7 +43,7 @@ Wenn Sie eine Auftragsmontageartikel in eine Kundenauftragszeile eingeben, wird 
 
 Um anzugeben, dass ein Artikel im Auftrag montiert wird, wählen Sie im Feld **Montagerichtlinie** auf der Seite **Artikelkarte** für den Artikel **Auftragsmontage** aus.  
 
-## <a name="assemble-to-stock"></a><a name="assemble-to-stock"></a>Auf Lager montieren
+## <a name="assemble-to-stock"></a><a name="assemble-to-stock"></a><a name="assemble-to-stock"></a>Auf Lager montieren
 
 Verwenden Sie den Lagermontageprozess für Artikel, die Sie montieren und für zukünftige Verkäufe lagern. Lagermontageartikel sind Standardartikel, wie z. B. verpackte Bausätze, die Sie nicht anpassen. Sie können diese Artikel auch als Unterbaugruppenkomponenten verwenden. Die Artikel werden als einzelne Artikel kommissioniert und verarbeitet und wie ein fertiger Fertigungsartikel behandelt. Weitere Informationen zu Montageartikeln finden Sie unter [Montageartikel](assembly-how-to-assemble-items.md).  
 
@@ -54,7 +54,7 @@ Wenn Sie einen Lagermontageartikel in eine Verkaufszeile angeben, wird der Artik
 
 Um anzugeben, dass ein Artikel für das Lager montiert wird, wählen Sie im Feld **Montagerichtlinie** auf der Seite **Artikelkarte** für den Artikel **Lagermontage** aus.  
 
-## <a name="combination-scenarios"></a><a name="combination-scenarios"></a>Kombinierte Szenarien
+## <a name="combination-scenarios"></a><a name="combination-scenarios"></a><a name="combination-scenarios"></a>Kombinierte Szenarien
 
 Wenn die Auftragsmontage und Lagermengen auf einem Verkaufsauftrag kombiniert werden, müssen Auftragsmontagemengen zuerst ausgegeben werden.  
 
@@ -96,9 +96,9 @@ Basierend auf diesem Beispiel können Sie das Feld **Menge für Montage** wie fo
 * Die Mindestmenge, die Sie eingeben können, ist 1. Sie müssen mindestens eine Einheit montieren, damit Sie die vier Einheiten verkaufen können, wenn davon ausgegangen wird, dass die verbleibenden drei im Lager verfügbar sind.  
 * Die Höchstmenge, die Sie eingeben können, ist 4. Dieses Limit stellt sicher, dass Sie nicht mehr von dem Artikel montieren, als Sie für den Verkauf benötigen.  
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Siehe zugehörige [Microsoft Schulungen](/training/paths/assemble-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Siehe zugehörige [Microsoft Schulungen](/training/paths/assemble-items-dynamics-365-business-central/)
 
-## <a name="see-also"></a><a name="see-also"></a>Siehe auch
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Siehe auch
 
 [Montageverwaltung](assembly-assemble-items.md)  
 [Arbeiten mit Stücklisten für die Montage](assembly-how-work-assembly-boms.md)  
