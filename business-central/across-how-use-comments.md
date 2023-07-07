@@ -11,7 +11,7 @@ ms.search.form: '124, 30'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="add-comments-to-cards-and-documents"></a><a name="add-comments-to-cards-and-documents"></a><a name="add-comments-to-cards-and-documents"></a>Hinzufügen von Bemerkungen zu Karten und Belegen
+# <a name="add-comments-to-cards-and-documents"></a>Hinzufügen von Bemerkungen zu Karten und Belegen
 
 Fügen Sie zusätzlichen Informationen zu Konten, Debitorenkarten oder Verkaufsaufträgen, Verträge, wie eine Sonderpreis- oder Zustellungsmethode, mit anderen Benutzern mitzuteilen hinzu.
 Nahezu alle Karten und Beleg haben eine **Bemerkungen** Aktion, die die Seite **Bemerkungen** öffnen, in der Sie Bemerkungen verfassen oder lesen können. In Belege können Sie Bemerkungen einzelnen Zeilen hinzufügen.
@@ -25,14 +25,14 @@ Außerdem können Sie definieren, welche Bemerkungen von einer Art Beleg auf ein
 
 Nachfolgend wird erläutert, wie einer Bemerkung einer Artikelkarte hinzugefügt wird. Die Schritte sind für alle anderen Karten ähnlich und Dokumente, außer in Belegzeilen, die **Bemerkungen** Aktion wird auf ein Zeilenaktionsmenü platziert.
 
-## <a name="to-add-a-comments-to-an-item-card"></a><a name="to-add-a-comments-to-an-item-card"></a><a name="to-add-a-comments-to-an-item-card"></a>Um Bemerkungen einer Artikelkarte hinzuzufügen
+## <a name="to-add-a-comments-to-an-item-card"></a>Um Bemerkungen einer Artikelkarte hinzuzufügen
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Elemente** ein, und wählen Sie dann den zugehörigen Link.
 2. Öffnen Sie die entsprechende Artikelkarte.
 3. Wählen Sie die Aktion **Kommentare** aus.
 4. Auf der Seite **Bemerkungen** können Sie beliebigen Text in das Feld eingeben und dann **ok**klicken.
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Weitere Informationen
+## <a name="see-also"></a>Weitere Informationen
 
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Allgemeine Geschäftsfunktionen](ui-across-business-areas.md)

@@ -9,7 +9,7 @@ ms.date: 07/05/2021
 ms.author: edupont
 ---
 
-# <a name="set-up-fixed-assets-with-user-defined-depreciation-methods"></a><a name="set-up-fixed-assets-with-user-defined-depreciation-methods"></a><a name="set-up-fixed-assets-with-user-defined-depreciation-methods"></a>Festlegen von Anlagen mit benutzerdefinierten Abschreibungsmethoden
+# <a name="set-up-fixed-assets-with-user-defined-depreciation-methods"></a>Festlegen von Anlagen mit benutzerdefinierten Abschreibungsmethoden
 
 Sie können [!INCLUDE[prod_short](includes/prod_short.md)] verwenden, um die benutzerdefinierten Abschreibungsmethoden wie hier beschrieben festzulegen.
 
@@ -23,7 +23,7 @@ Die Formel zur Berechnung des AfA-Betrages ist:
 > [!NOTE]  
 > Während das Datum im Feld **Erstes benutzerdefiniertes Depr. Date** verwendet wird, um die Zeitintervalle zu bestimmen, ist es das **Abschreibungsstartdatum**, das zur Bestimmung der Anzahl der Abschreibungstage verwendet wird. Wenn das **Erste benutzerdefinierte Depr. Datum** vor dem **Abschreibungs-Startdatum** liegt, wird der Prozentsatz für die erste Periode in der Abschreibungstabelle nur teilweise verwendet, wenn das Programm die erste Abschreibung berechnet. Das bedeutet, dass die Anlage bis zum Ende der letzten Periode nicht vollständig abgeschrieben ist.
 
-## <a name="to-assign-a-depreciation-book-to-a-fixed-asset-with-a-user-defined-depreciation-method"></a><a name="to-assign-a-depreciation-book-to-a-fixed-asset-with-a-user-defined-depreciation-method"></a><a name="to-assign-a-depreciation-book-to-a-fixed-asset-with-a-user-defined-depreciation-method"></a>So ordnen Sie einer Anlage mit einer benutzerdefinierten Abschreibungsmethode ein Abschreibungsbuch zu
+## <a name="to-assign-a-depreciation-book-to-a-fixed-asset-with-a-user-defined-depreciation-method"></a>So ordnen Sie einer Anlage mit einer benutzerdefinierten Abschreibungsmethode ein Abschreibungsbuch zu
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Anlagen** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie die Anlage aus, für die Sie ein Anlagen-AfA-Buch einrichten möchten.
@@ -36,7 +36,7 @@ Die Formel zur Berechnung des AfA-Betrages ist:
 7. Wenn Sie eine benutzerdefinierte Methode verwenden, muss das Feld **Erstes benutzerdefiniertes Depr. Date** auf ein Datum festgelegt werden, das gleich oder früher als das Feld **Abschreibungsstartdatum** ist. Wenn Sie in der Abschreibungstabelle einen Wert im Feld **Periodenlänge** gewählt haben, muss das Datum im Feld **Erste benutzerdefinierte Abschreibung Datum** muss das Anfangsdatum einer Buchhaltungsperiode sein.
 8. Füllen Sie entweder das Feld **Anzahl Abschreibungsjahre** oder das Feld **Schreibungsenddatum** aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] 
 
-## <a name="to-set-up-user-defined-depreciation-methods"></a><a name="to-set-up-user-defined-depreciation-methods"></a><a name="to-set-up-user-defined-depreciation-methods"></a>So richten Sie benutzerdefinierte AfA-Methoden ein
+## <a name="to-set-up-user-defined-depreciation-methods"></a>So richten Sie benutzerdefinierte AfA-Methoden ein
 
 Auf der Seite **Abschreibungstabelle** können Sie benutzerdefinierte AfA-Methoden einrichten. Beispielsweise können Sie die Abschreibung basierend auf der Stückzahl einrichten.  
 
@@ -56,11 +56,11 @@ Quersumme = 1 + 2 + 3 + 4 = 10 Abschreibungen:
 * Jahr 3 = 2/10  
 * Jahr 4 = 1/10  
 
-### <a name="depreciation-based-on-number-of-units"></a><a name="depreciation-based-on-number-of-units"></a><a name="depreciation-based-on-number-of-units"></a>Abschreibung basierend auf der Stückzahl
+### <a name="depreciation-based-on-number-of-units"></a>Abschreibung basierend auf der Stückzahl
 
 Diese benutzerdefinierte Methode kann auch verwendet werden, um eine Abschreibung nach der produzierten Stückzahl durchzuführen, zum Beispiel für Produktionsmaschinen, die eine von der Stückzahl abhängige Lebensdauer haben. Auf der Seite **AfA-Tabellen** können Sie die Stückzahl eingeben, die innerhalb einer Periode (Monat, Quartal, Jahr oder Buchhaltungsperiode) produziert werden kann.  
 
-### <a name="example---user-defined-depreciation"></a><a name="example---user-defined-depreciation"></a><a name="example---user-defined-depreciation"></a>Beispiel - Benutzerdefinierte AfA
+### <a name="example---user-defined-depreciation"></a>Beispiel - Benutzerdefinierte AfA
 
 Sie verwenden eine Abschreibungsmethode, die es Ihnen erlaubt, Anlagen für steuerliche Zwecke schneller abzuschreiben.  
 
@@ -93,7 +93,7 @@ Im vorherigen Beispiel würden die beiden Felder **Startdatum Benutzerdef. AfA**
 | 12/31/24 |Abschreibungen |"Keine" |"Keine" |0 |
 
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Weitere Informationen
+## <a name="see-also"></a>Weitere Informationen
 [Anlagen einrichten](fa-setup.md)  
 [Anlagen](fa-manage.md)  
 [Richten Sie eine neue Anlagenkarte ein](fa-how-setup-depreciation.md)  

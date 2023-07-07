@@ -11,7 +11,7 @@ ms.date: 06/10/2021
 ms.author: edupont
 ---
 
-# <a name="exchanging-data-electronically"></a><a name="exchanging-data-electronically"></a><a name="exchanging-data-electronically"></a>Daten elektronisch austauschen
+# <a name="exchanging-data-electronically"></a>Daten elektronisch austauschen
 Sie können das Datenaustauschframework verwenden, um den Austausch von Geschäftsbelegen, Bankdateien, Währungswechselkursen und sämtlichen anderen Datendateien mit Ihren Geschäftspartnern zu verwalten.
 
 In der Standardversion [!INCLUDE[prod_short](includes/prod_short.md)] wird das Data Exchange Framework für Prozesse wie den Austausch elektronischer Belege, den Import und Export von Bankdateien und die Aktualisierung von Sätzen für Währungen verwendet. Weitere Informationen finden Sie unter [Informationen zum Datenaustauschframework](across-about-the-data-exchange-framework.md).
@@ -26,7 +26,7 @@ Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Themen,
 |Bereiten Sie den Datenaustausch per Datei vor, indem Sie das XML-Schema der Datei verwenden. Richten Sie Datenaustauschdefinitionen ein. Richten Sie Stammdaten für das Senden von elektronischen Belegen ein. Richten Sie verschiedene Felder für den Bankimport und -export ein.|[Einrichten eines Datenaustauschs](across-set-up-data-exchange.md)|  
 |Auf der Grundlage von Datenaustauschdefinitionen senden und empfangen Sie PEPPOL-Rechnungen, importieren Bankauszüge und exportieren Bankzahlungsdateien.|[Austausch von Daten](across-exchange-data.md)|  
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Siehe auch
 [Über das Datenaustauschframework](across-about-the-data-exchange-framework.md)  
 [Verwenden von XML-Schemata zur Vorbereitung der Datenaustauschdefinitionen](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
 [Einrichten eines Datenaustauschs](across-set-up-data-exchange.md)  

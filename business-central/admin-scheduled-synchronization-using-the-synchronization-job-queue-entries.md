@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.keywords: 'sales, crm, integration, sync, synchronize'
 ---
 
-# <a name="scheduling-a-synchronization-between-business-central-and-dataverse"></a><a name="scheduling-a-synchronization-between-business-central-and-dataverse"></a><a name="scheduling-a-synchronization-between-business-central-and-dataverse"></a>Planen einer Synchronisierung zwischen Business Central und Dataverse
+# <a name="scheduling-a-synchronization-between-business-central-and-dataverse"></a>Planen einer Synchronisierung zwischen Business Central und Dataverse
 
 Sie können [!INCLUDE[prod_short](includes/prod_short.md)] mit [!INCLUDE[cds_long_md](includes/cds_long_md.md)] in geplanten Intervallen synchronisieren, indem Sie Projekte in der Projektwarteschlange einrichten. Die Synchronisierungsprojekte synchronisieren Daten in [!INCLUDE[prod_short](includes/prod_short.md)]-Datensätzen und [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-Datensätzen, die gekoppelt wurden. Für Datensätze, die nicht bereits gekoppelt sind, können die Synchronisierungsprojekte entsprechend der Synchronisierungsrichtung und -regeln neue Datensätze im Zielsystem erstellen und koppeln.
 
@@ -24,7 +24,7 @@ Es gibt mehrere Synchronisierungsprojekte, die standardmäßig verfügbar sind. 
 
 Sie können die Stellen auf der Seite **Projektwarteschlangeneinträge** ansehen. Weitere Informationen finden Sie unter [Job-Warteschlangen zur Einplanung von Aufgaben verwenden](admin-job-queues-schedule-tasks.md).
 
-## <a name="default-synchronization-job-queue-entries"></a><a name="default-synchronization-job-queue-entries"></a><a name="default-synchronization-job-queue-entries"></a>Standard-Synchronisations-Projektwarteschlangeneinträge
+## <a name="default-synchronization-job-queue-entries"></a>Standard-Synchronisations-Projektwarteschlangeneinträge
 
 Die folgende Tabelle beschreibt die Standard-Synchronisierungsaufträge für [!INCLUDE[cds_long_md](includes/cds_long_md.md)].  
 
@@ -36,7 +36,7 @@ Die folgende Tabelle beschreibt die Standard-Synchronisierungsaufträge für [!I
 | VENDOR - Common Data Service Synchronisierungsauftrag | Synchronisiert [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-Konten mit [!INCLUDE[prod_short](includes/prod_short.md)] Debitoren. | Bidirektional | VENDOR | 30 | 720<br> (12 Std.) |
 | VERKÄUFER – Common Data Service-Synchronisierungsprojekt | Synchronisiert [!INCLUDE[prod_short](includes/prod_short.md)]-Verkäufer mit [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-Benutzern. | Von [!INCLUDE[cds_long_md](includes/cds_long_md.md)] nach [!INCLUDE[prod_short](includes/prod_short.md)] | VERKÄUFER | 30 | 1440<br> (24 Std.) |
 
-## <a name="synchronization-process"></a><a name="synchronization-process"></a><a name="synchronization-process"></a>Synchronisierungsprozess
+## <a name="synchronization-process"></a>Synchronisierungsprozess
 
 Jeder Synchronisierungsprojektwarteschlangenposten verwendet eine bestimmte Integrationstabellenzuordnung, die angibt, welche [!INCLUDE[prod_short](includes/prod_short.md)]-Tabelle und [!INCLUDE[cds_long_md](includes/cds_long_md.md)] Tabelle synchronisiert werden sollen. Die Tabellenzuordnungen umfassen auch einige Einstellungen, die steuern, welche Datensätze in der [!INCLUDE[prod_short](includes/prod_short.md)]-Tabelle und [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-Tabelle synchronisiert werden sollen.  
 
@@ -57,7 +57,7 @@ Um Daten zu synchronisieren, müssen [!INCLUDE[cds_long_md](includes/cds_long_md
 
 - Bei bidirektionaler Synchronisierung synchronisiert das Projekt von [!INCLUDE[prod_short](includes/prod_short.md)] nach [!INCLUDE[cds_long_md](includes/cds_long_md.md)], und anschließend von [!INCLUDE[cds_long_md](includes/cds_long_md.md)] nach [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## <a name="about-inactivity-timeouts"></a><a name="about-inactivity-timeouts"></a><a name="about-inactivity-timeouts"></a>Über Inaktivitätszeitüberschreitungen
+## <a name="about-inactivity-timeouts"></a>Über Inaktivitätszeitüberschreitungen
 
 Einige Projektwarteschlangeneinträge, z. B. diejenigen, die die Synchronisierung zwischen [!INCLUDE[prod_short](includes/prod_short.md)] und [!INCLUDE[cds_long_md](includes/cds_long_md.md)] planen, verwenden das Feld **Inaktivitätszeitlimit** auf der Seite Projektwarteschlangeneintrag, um zu verhindern, dass der Projektwarteschlangeneintrag unnötig ausgeführt wird.  
 
@@ -70,7 +70,7 @@ Beispiel: Standardmäßig sucht die Aufgabenwarteschlange WÄHRUNG, die Währung
 > [!Note]
 > [!INCLUDE[prod_short](includes/prod_short.md)] aktiviert automatisch Aufgabenwarteschlangeneinträge, die nur dann gesperrt werden, wenn Änderungen in [!INCLUDE[prod_short](includes/prod_short.md)] erfolgen. Änderungen in [!INCLUDE[cds_long_md](includes/cds_long_md.md)] aktivieren keine Aufgabenwarteschlangeneinträge.
 
-## <a name="to-view-the-synchronization-job-log"></a><a name="to-view-the-synchronization-job-log"></a><a name="to-view-the-synchronization-job-log"></a>So zeigen Sie das Synchronisierungsprojektprotokoll an:
+## <a name="to-view-the-synchronization-job-log"></a>So zeigen Sie das Synchronisierungsprojektprotokoll an:
 
 1. Wählen Sie das :::image type="icon" source="media/ui-search/search_small.png" border="false":::-Symbol, geben Sie **Integrationssynchronisationsprotokoll** ein, und wählen Sie dann den entsprechenden Link.
 2. Wenn Fehler bei einem Synchronisierungsprojekt aufgetreten sind, erscheint die Anzahl der Fehler in der Spalte **Fehler**. Um die Fehler für das Projekt anzuzeigen, wählen Sie die Zahl aus.  
@@ -78,16 +78,16 @@ Beispiel: Standardmäßig sucht die Aufgabenwarteschlange WÄHRUNG, die Währung
     > [!TIP]  
     > Sie können alle Synchronisierungsprojektfehler anzeigen, indem Sie das Protokoll mit den Synchronisierungsprojektfehlern direkt öffnen.
 
-## <a name="to-view-the-synchronization-job-log-from-the-table-mappings"></a><a name="to-view-the-synchronization-job-log-from-the-table-mappings"></a><a name="to-view-the-synchronization-job-log-from-the-table-mappings"></a>So zeigen Sie das Protokoll der Synchronisierungsprojekte über die Tabellenzuordnungen an:
+## <a name="to-view-the-synchronization-job-log-from-the-table-mappings"></a>So zeigen Sie das Protokoll der Synchronisierungsprojekte über die Tabellenzuordnungen an:
 
 1. Wählen Sie das :::image type="icon" source="media/ui-search/search_small.png" border="false":::-Symbol, geben Sie **Integrationstabellenzuordnungen** ein, und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie auf der Seite **Integrationstabellenzuordnungen** einen wählen Sie einen Posten aus und wählen Sie dann **Integrationssynchronisierungs-Auftragsprotokoll** aus.  
 
-## <a name="to-view-the-synchronization-error-log"></a><a name="to-view-the-synchronization-error-log"></a><a name="to-view-the-synchronization-error-log"></a>So zeigen Sie das Synchronisierungsfehlerprotokoll an:
+## <a name="to-view-the-synchronization-error-log"></a>So zeigen Sie das Synchronisierungsfehlerprotokoll an:
 
 - Wählen Sie das :::image type="icon" source="media/ui-search/search_small.png" border="false":::-Symbol, geben Sie **Integrationssynchronisationsfehler** ein, und wählen Sie dann den entsprechenden Link.
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Synchronisieren von Daten in Business Central und [!INCLUDE[cds_long_md](includes/cds_long_md.md)]](admin-synchronizing-business-central-and-sales.md)  
 [Synchronisieren Sie Tabellenzuordnungen manuell](admin-manual-synchronization-of-table-mappings.md)  

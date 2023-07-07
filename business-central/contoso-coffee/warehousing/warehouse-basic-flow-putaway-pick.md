@@ -12,17 +12,17 @@ ms.date: 04/01/2021
 ms.author: andreipa
 ---
 
-# <a name="walkthrough-of-inbound-and-outbound-flow-in-basic-warehouse-configurations"></a><a name="walkthrough-of-inbound-and-outbound-flow-in-basic-warehouse-configurations"></a><a name="walkthrough-of-inbound-and-outbound-flow-in-basic-warehouse-configurations"></a>Exemplarische Vorgehensweise für ein- und ausgehende Flows in Basis-Lagerkonfigurationen
+# <a name="walkthrough-of-inbound-and-outbound-flow-in-basic-warehouse-configurations"></a>Exemplarische Vorgehensweise für ein- und ausgehende Flows in Basis-Lagerkonfigurationen
 
 Diese exemplarische Vorgehensweise zeigt, wie eingehende und ausgehende Flows in der Basis-Auftrag-für-Auftrag-Konfiguration abgeschlossen werden. Weitere Informationen finden Sie unter [Übersicht über verschiedene Konfigurationsoptionen](../../design-details-warehouse-management.md#overview-of-different-configuration-options).
 
-## <a name="prerequisites"></a><a name="prerequisites"></a><a name="prerequisites"></a>Voraussetzungen
+## <a name="prerequisites"></a>Voraussetzungen
 Um diese exemplarische Vorgehensweise zu beenden, müssen Sie selber einen Lagermitarbeiter am Standort *SILBER* mit folgenden Schritten erstellen:  
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet 1.](../../media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Lagermitarbeiter** ein, und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie das Feld **Benutzer-ID** aus, und wählen Sie Ihr eigenes Benutzerkonto auf der Seite **Benutzer** aus.  
 3. Geben Sie im Feld **Lagerortcode** *SILBER* ein.  
 
-## <a name="inbound-flow-receiving-and-putting-away-in-basic-warehouse-configurations"></a><a name="inbound-flow-receiving-and-putting-away-in-basic-warehouse-configurations"></a><a name="inbound-flow-receiving-and-putting-away-in-basic-warehouse-configurations"></a>Eingeheder Flow: Eingang und Einlagerung in Basis-Lagerkonfigurationen
+## <a name="inbound-flow-receiving-and-putting-away-in-basic-warehouse-configurations"></a>Eingeheder Flow: Eingang und Einlagerung in Basis-Lagerkonfigurationen
 
 In [!INCLUDE[prod_short](../../includes/prod_short.md)] können die eingehenden Prozesse für das Empfangen und Einlagern auf vier Arten, mit den verschiedenen Funktionen, abhängig von der Lagerkomplexitätsebene, ausgeführt werden.  
 
@@ -37,10 +37,10 @@ Weitere Informationen finden Sie unter [Designdetails: Eingehender Lagerfluss](.
 
 In der folgenden Vorgehensweise wird Methode B in der vorhergegangenen Tabelle beschrieben.  
 
-### <a name="scenario"></a><a name="scenario"></a><a name="scenario"></a>Szenario
+### <a name="scenario"></a>Szenario
 Alicia, die Einkäuferin, erstellt eine Bestellung für verschiedene geröstete Bohnen. Wenn die Lieferung im Lager ankommt, räumt John, der Lagerarbeiter, die Artikel in geeignete Behälter. Wenn John die Einlagerung bucht, werden die Artikel wie erhalten in den Bestand gebucht und stehen zum Verkauf oder für andere Nachfrage zur Verfügung.  
 
-### <a name="steps"></a><a name="steps"></a><a name="steps"></a>Schritte
+### <a name="steps"></a>Schritte
 1. Einstellungen auf der Seite **Lagerortkarte**, um die eingehenden Warenflüsse des Unternehmens anzugeben.  
 
     1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion 2.](../../media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") öffnet. Symbol. Geben Sie **Lagerorte** ein, und wählen Sie dann den entsprechenden Link.  
@@ -96,7 +96,7 @@ Alicia, die Einkäuferin, erstellt eine Bestellung für verschiedene geröstete 
 
     5.  Wählen Sie die Aktion **Buchen** aus, wählen Sie die Option **Lieferung und Rechnung**, und wählen Sie dann die Schaltfläche **OK** aus.  
 
-### <a name="results"></a><a name="results"></a><a name="results"></a>Ergebnisse
+### <a name="results"></a>Ergebnisse
  - Die gerösteten Bohnen werden jetzt als in bestimmten Behältern eingelagert registriert
  - die **Posted Invt. Einlagerung** wird erstellt
  - die Seite **Gebuchte Eingangsbelege** wird geöffnet
@@ -104,7 +104,7 @@ Alicia, die Einkäuferin, erstellt eine Bestellung für verschiedene geröstete 
  - Der Artikel **Inventar** wird um die gewählte Menge erhöht
     
 
-## <a name="outbound-flow-picking-and-shipping-in-basic-warehouse-configurations"></a><a name="outbound-flow-picking-and-shipping-in-basic-warehouse-configurations"></a><a name="outbound-flow-picking-and-shipping-in-basic-warehouse-configurations"></a>Ausgehender Flow: Komissionierung und Lieferung in Basis-Lagerkonfigurationen
+## <a name="outbound-flow-picking-and-shipping-in-basic-warehouse-configurations"></a>Ausgehender Flow: Komissionierung und Lieferung in Basis-Lagerkonfigurationen
 
 In [!INCLUDE[prod_short](../../includes/prod_short.md)] können die ausgehenden Prozesse für die Komissionierung und Lieferung auf vier Arten, mit den verschiedenen Funktionen, abhängig von der Lagerkomplexitätsebene, ausgeführt werden.  
 
@@ -119,10 +119,10 @@ Weitere Informationen finden Sie unter [Designdetails: Ausgehender Lagerfluss](.
 
 In der folgenden Vorgehensweise wird Methode B in der vorhergegangenen Tabelle beschrieben.
 
-### <a name="scenario-1"></a><a name="scenario-1"></a><a name="scenario-1"></a>Szenario
+### <a name="scenario-1"></a>Szenario
 Susan, die Auftragsbearbeiterin, erstellt einen Verkaufsauftrag für verschiedene geröstete Bohnen und übergibt ihn an das Lager. John, der Lagermitarbeiter muss sicherstellen, dass die Lieferung an den Debitor vorbereitet und geliefert wird. John verwaltet alle beteiligten Aufgaben auf der Seite **Lagerkommissionierung**, das automatisch auf die Lagerplätze verweist, in denen geröstete Bohnen gespeichert wird.
 
-### <a name="steps-1"></a><a name="steps-1"></a><a name="steps-1"></a>Schritte
+### <a name="steps-1"></a>Schritte
 Das ist eine Fortsetzung von [Eingeheder Flow: Eingang und Einlagerung in Basis-Lagerkonfigurationen](#inbound-flow-receiving-and-putting-away-in-basic-warehouse-configurations).
 
 1. Einstellungen auf der Seite **Lagerortkarte**, um die eingehenden Warenflüsse des Unternehmens anzugeben.  
@@ -159,7 +159,7 @@ Das ist eine Fortsetzung von [Eingeheder Flow: Eingang und Einlagerung in Basis-
 
 5. Wählen Sie die Aktion **Buchen** und **Versand** und klicken Sie anschließend auf die Schaltfläche **OK**.  
 
-### <a name="results-1"></a><a name="results-1"></a><a name="results-1"></a>Ergebnisse
+### <a name="results-1"></a>Ergebnisse
  - Die gerösteten Bohnen werden jetzt als aus bestimmten Behältern entnommen registriert
  - die **Posted Invt. Entnahme** wird erstellt
  - die **Gebuchte Verkaufslieferung** wird erstellt
@@ -167,7 +167,7 @@ Das ist eine Fortsetzung von [Eingeheder Flow: Eingang und Einlagerung in Basis-
  - Der Artikel **Bestand** wird um die gewählte Menge reduziert
 
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Weitere Informationen
+## <a name="see-also"></a>Weitere Informationen
 [Eingelagerte Artikel mit Bestandeinlagerung](../../warehouse-how-to-put-items-away-with-inventory-put-aways.md) 
 [Grundlager mit Verarbeitungsbereich](../../warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md) 
 [Details gestalten: Eingehender Lagerflow](../../design-details-inbound-warehouse-flow.md) 

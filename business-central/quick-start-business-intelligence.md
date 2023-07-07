@@ -12,11 +12,11 @@ ms.date: 08/17/2022
 ms.author: a-reishima
 ---
 
-# <a name="business-intelligence-quick-start"></a><a name="business-intelligence-quick-start"></a><a name="business-intelligence-quick-start"></a>Business Intelligence-Schnellstart
+# <a name="business-intelligence-quick-start"></a>Business Intelligence-Schnellstart
 
 In der Lage zu sein, die ständig wachsenden Datenmengen auf umsetzbare Weise zu sammeln und zu analysieren, ist heutzutage ein unschätzbarer Teil der Geschäftstätigkeit. [!INCLUDE[prod_short](includes/prod_short.md)] bietet viele Business Intelligence (BI)-Tools&mdash; sowohl integriert als auch integriert mit anderen Diensten&mdash;um Ihr Unternehmen bei der Entscheidungsfindung zu unterstützen.
 
-## <a name="get-insights-on-your-key-points-of-interest"></a><a name="get-insights-on-your-key-points-of-interest"></a><a name="get-insights-on-your-key-points-of-interest"></a>Erhalten Sie Einblicke in Ihre wichtigsten Points of Interest
+## <a name="get-insights-on-your-key-points-of-interest"></a>Erhalten Sie Einblicke in Ihre wichtigsten Points of Interest
 
 [!INCLUDE[prod_short](includes/prod_short.md)] enthält integrierte Diagramme, die im Bereich **Einblicke** auf Ihrer Homepage angezeigt werden können, darunter *Einnahmen & Ausgaben*, *Cashflow*, *Verkaufstrends* und andere Berichte. Weitere Key Performance Indicators (KPIs) finden Sie auf der Seite **Einblicke aus der intelligenten Cloud**, die umsetzbare Informationen aus Finanzen, Inventar, Verkauf und Beschaffung anzeigt:
 
@@ -24,7 +24,7 @@ In der Lage zu sein, die ständig wachsenden Datenmengen auf umsetzbare Weise zu
 
 Die verfügbaren Datenkarten und Einblicke können ausgewählt werden, um die zugehörige Ledger-Seite zu öffnen. Die Seite **Einblicke aus der intelligenten Cloud** verwendet auch eine Verbindung mit bestehenden Power BI- und Azure Machine Learning-Abonnements zum Anzeigen von Analyse- und Prognose-Dashboards.
 
-## <a name="set-up-power-bi-integration"></a><a name="set-up-power-bi-integration"></a><a name="set-up-power-bi-integration"></a>Power BI-Integration einrichten
+## <a name="set-up-power-bi-integration"></a>Power BI-Integration einrichten
 
 Sie können [!INCLUDE[prod_short](includes/prod_short.md)] mit Power BI verbinden, um durchdringende Berichte und leistungsstarke Dashboards erstellen. Power BI-Integration bietet viele Optionen, um Einblicke auf der Grundlage Ihrer Unternehmensdaten zu geben, einschließlich einer Vielzahl von visuellen, Filter- und Anzeigeanpassungen.
 
@@ -40,9 +40,9 @@ Die Power BI-Integration mit [!INCLUDE[prod_short](includes/prod_short.md)] enth
 
 Sie können auch visuelle Berichte basierend auf [!INCLUDE[prod_short](includes/prod_short.md)] erstellen, indem Sie die Dateitypoption **Microsoft Excel Dokument (nur Daten)** auf Berichtsanforderungsseiten verwenden. Erfahren Sie mehr unter [Berichte ausführen und drucken](ui-work-report.md).
 
-## <a name="see-related-training-at-microsoft-learn"></a><a name="see-related-training-at-microsoft-learn"></a><a name="see-related-training-at-microsoft-learn"></a>Siehe verwandte Schulungen unter [Microsoft Learn](/learn/paths/use-power-bi).
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe verwandte Schulungen unter [Microsoft Learn](/learn/paths/use-power-bi).
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Business Analyse und Financial Reporting](bi.md)  
 [Business Central Schnellstarts](quick-start-business-central.md)  

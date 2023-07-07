@@ -10,7 +10,7 @@ ms.search.form: '1100, 1103, 1104, 1108, 1113, 1135'
 ms.date: 06/16/2021
 ms.author: edupont
 ---
-# <a name="transferring-and-posting-cost-entries"></a><a name="transferring-and-posting-cost-entries"></a><a name="transferring-and-posting-cost-entries"></a>Übertragen und Buchen von Kalkulationen
+# <a name="transferring-and-posting-cost-entries"></a>Übertragen und Buchen von Kalkulationen
 
 Bevor Sie Kostenzuteilungen definieren, müssen Sie verstehen, wie Kostenposten aus den folgenden Quellen stammen:  
 
@@ -19,7 +19,7 @@ Bevor Sie Kostenzuteilungen definieren, müssen Sie verstehen, wie Kostenposten 
 - Automatische Verteilungsbuchungen für tatsächliche Kosten.  
 - Übertragung von Budgetposten zu tatsächlichen Posten.
 
-## <a name="criteria-for-transferring-general-ledger-entries-to-cost-entries"></a><a name="criteria-for-transferring-general-ledger-entries-to-cost-entries"></a><a name="criteria-for-transferring-general-ledger-entries-to-cost-entries"></a>Kriterien für die Übertragung von Sachposten in Kostenposten
+## <a name="criteria-for-transferring-general-ledger-entries-to-cost-entries"></a>Kriterien für die Übertragung von Sachposten in Kostenposten
 
 Es ist wichtig, die Kriterien für den Transfer von Sachposten in Kostenposten zu kennen. Während des Transfers verwendet der Batchauftrag **Sachposten in Kostenrechnung übertragen** die folgenden Kriterien, um zu ermitteln, ob und wie die Sachposten transferiert werden sollen.  
 
@@ -40,13 +40,13 @@ Sachposten werden nicht transferiert, wenn Folgendes zutrifft:
 - Die Posten haben ein Buchungsdatum vor **Startdatum für Sachkontenübertragung**.  
 - Die Posten wurden mit einem Abschlussdatum gebucht. Dies sind typische Posten, die den Saldo der GuV am Ende des Geschäftsjahres zurücksetzen.
 
-## <a name="transferring-general-ledger-entries-to-cost-entries"></a><a name="transferring-general-ledger-entries-to-cost-entries"></a><a name="transferring-general-ledger-entries-to-cost-entries"></a>Übertragung von Sachposten in Kostenposten
+## <a name="transferring-general-ledger-entries-to-cost-entries"></a>Übertragung von Sachposten in Kostenposten
 
 Sie können Sachposten in Kostenposten übertragen.  
 
 Bevor Sie den Vorgang für das Übertragen von Sachposten in Kostenposten durchführen, müssen Sie die Übertragung vorbereiten, um manuelle Korrekturbuchungen zu vermeiden.  
 
-### <a name="to-prepare-the-transfer"></a><a name="to-prepare-the-transfer"></a><a name="to-prepare-the-transfer"></a>So bereiten Sie die Übertragung vor
+### <a name="to-prepare-the-transfer"></a>So bereiten Sie die Übertragung vor
 
 1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Kostenrechnungseinrichtung** ein und wählen Sie dann den entsprechenden Link.  
 2.  Stellen Sie auf der Seite **Kostenrechnungseinrichtung** sicher, dass im Feld **Startdatum für Sachkontenübertragung** der richtige Wert eingetragen ist.  
@@ -56,14 +56,14 @@ Bevor Sie den Vorgang für das Übertragen von Sachposten in Kostenposten durchf
 6.  Überprüfen Sie für jedes Sachkonto auf der Seite **Sachkontokarte**, ob die **Kostenartnr.** Feld wird korrekt zu einer Kostenart verknüpft. Weitere Informationen finden Sie unter [Einrichten von Kostenrechnung](finance-set-up-cost-accounting.md).  
 7.  Vergewissern Sie sich, dass alle entsprechenden Sachposten Dimensionswerte haben, die einer Kostenstelle und zu einem Kostenträger entsprechen.  
 
-### <a name="to-transfer-general-ledger-entries-to-cost-entries"></a><a name="to-transfer-general-ledger-entries-to-cost-entries"></a><a name="to-transfer-general-ledger-entries-to-cost-entries"></a>So übertragen Sie Sachposten in Kostenposten
+### <a name="to-transfer-general-ledger-entries-to-cost-entries"></a>So übertragen Sie Sachposten in Kostenposten
 
 1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Sachposten in Kostenrechnung übertragen** ein und wählen Sie dann den zugehörigen Link.  
 2.  Wählen Sie auf Schaltfläche **OK**, um die Umlagerung zu starten. Der Prozess überträgt alle Sachposten, die nicht bereits übertragen wurden.  
 
 Während der Übertragung erstellt der Vorgang Verknüpfungen in den Posten **Posteneintrag** und **Kostentabelle**. Dies ermöglicht es Ihnen, die Herkunft von Kostenposten nachzuverfolgen.
 
-## <a name="automatic-transfer-and-combined-entries"></a><a name="automatic-transfer-and-combined-entries"></a><a name="automatic-transfer-and-combined-entries"></a>Automatische Übertragung und kombinierte Posten
+## <a name="automatic-transfer-and-combined-entries"></a>Automatische Übertragung und kombinierte Posten
 
 In der Kostenrechnung können Sie Sachposten in eine Kostenart transferieren, indem Sie eine zusammengefasste Buchung verwenden. Sie können angeben, ob eine Kostenart kombinierte Posten im Feld **Kombinierte Einträge** in der Kostenartdefinition erhalten soll. Die drei Optionen werden in der folgenden Tabelle beschrieben.  
 
@@ -76,15 +76,15 @@ In der Kostenrechnung können Sie Sachposten in eine Kostenart transferieren, in
 > [!IMPORTANT]  
 >  Wenn Sie das Kontrollkästchen **Automatischer Übertrag vom Buch-Blatt** auf der Seite **Kostenrechnung einrichten** aktiviert haben, wird [!INCLUDE[prod_short](includes/prod_short.md)] die Kostenrechnung nach jeder Buchung in der Finanzbuchhaltung aktualisiert. Kombinierte Posten sind nicht möglich.
 
-## <a name="results-of-transferring-general-ledger-entries-to-cost-entries"></a><a name="results-of-transferring-general-ledger-entries-to-cost-entries"></a><a name="results-of-transferring-general-ledger-entries-to-cost-entries"></a>Kriterien für die Übertragung von Sachposten in Kostenposten
+## <a name="results-of-transferring-general-ledger-entries-to-cost-entries"></a>Kriterien für die Übertragung von Sachposten in Kostenposten
 
 Während der Übertragung der Sachposten zu den Kostenposten erstellt [!INCLUDE[prod_short](includes/prod_short.md)] Verknüpfungen in den Posten in der Tabelle **Sachposten**, der Tabelle **Kostenposten** und der Tabelle **Kostenjournal**, damit es möglich ist, Verbindungen zwischen Kostenposten und Sachposten zu verfolgen.  
 
-### <a name="general-ledger-entries"></a><a name="general-ledger-entries"></a><a name="general-ledger-entries"></a>Sachposten
+### <a name="general-ledger-entries"></a>Sachposten
 
 Für jeden Sachposten, der zur Kostenrechnung übertragen wird, füllt [!INCLUDE[prod_short](includes/prod_short.md)] das Kostenfeld **Postennr.** aus.  
 
-### <a name="cost-entries"></a><a name="cost-entries"></a><a name="cost-entries"></a>Kostenposten
+### <a name="cost-entries"></a>Kostenposten
 
 Für jeden Kostenposten speichert [!INCLUDE[prod_short](includes/prod_short.md)] die Postennummer des entsprechenden Sachpostens im Feld **Sachposten Lfd. Nr.** in der Tabelle **Kostenposten**.  
 
@@ -94,13 +94,13 @@ Das Feld **Sachkonto** in der Tabelle **Kostenposten** enthält die Nummer des S
 
 Für einzelne Kostenposten überträgt [!INCLUDE[prod_short](includes/prod_short.md)] den Buchungstext aus dem Sachposten in das Textfeld **Beschreibung**. Für kombinierte Posten zeigt das Textfeld, dass diese Posten als kombinierte Posten übertragen werden. Zum Beispiel kann für einen kombinierten Posten für den Monat Oktober 2013 der Text lauten: **Kombinierte Posten, Oktober 2013**.  
 
-### <a name="cost-register"></a><a name="cost-register"></a><a name="cost-register"></a>Kostenjournal
+### <a name="cost-register"></a>Kostenjournal
 
 In der Tabelle **Kostenregister** erstellt [!INCLUDE[prod_short](includes/prod_short.md)] einen Posten mit der Quellenübertragung aus dem Sachkonto. Der Posten erfasst die erste und letzte Postennummer der übertragenen Sachposten sowie die erste und letzte Nummer der erstellten Kostenposten.
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/transfer-gl-entries-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/transfer-gl-entries-dynamics-365-business-central/)
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Siehe auch
 
  [Informationen zur Kostenrechnung](finance-about-cost-accounting.md)  
  [Einrichten der Kostenrechnung](finance-set-up-cost-accounting.md)  

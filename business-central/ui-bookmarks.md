@@ -12,31 +12,31 @@ ms.date: 06/23/2021
 ms.author: edupont
 ---
 
-# <a name="bookmark-a-page-or-report-on-your-role-center"></a><a name="bookmark-a-page-or-report-on-your-role-center"></a><a name="bookmark-a-page-or-report-on-your-role-center"></a>Erstellen eines Lesezeichens für eine Seite oder einen Bericht im Rollencenter
+# <a name="bookmark-a-page-or-report-on-your-role-center"></a>Erstellen eines Lesezeichens für eine Seite oder einen Bericht im Rollencenter
 Mit dem Symbol für ein Lesezeichen können Sie eine Aktion hinzufügen, die eine Seite oder einen Bericht aus dem Navigationsmenü Ihres Role Centers öffnet. Lesezeichen lassen zu, dass Sie schnell zu Ihren bevorzugten Inhalten oder Geschäftsaufgaben gelangen. Sie fügen das Lesezeichen von der Zielseite oder dem Zielbericht aus hinzu, d. h. von dem Bildschirm, der durch den Link im Rollenzentrum geöffnet werden soll.
 
 Das Lesezeichen-Symbol wird in der oberen rechten Ecke einer Seite angezeigt und auch im **Tell Me**-Fenster, in dem Sie effizient mehrere Seiten oder Berichte mit Lesezeichen versehen können. Wenn für die Seite bereits ein Lesezeichen vorhanden ist, ist das Symbol dunkel und in der QuickInfo wird "Mit Lesezeichen versehen" angezeigt.
 
-## <a name="to-bookmark-the-target-page"></a><a name="to-bookmark-the-target-page"></a><a name="to-bookmark-the-target-page"></a>So erstellen Sie ein Lesezeichen für die Zielseite
+## <a name="to-bookmark-the-target-page"></a>So erstellen Sie ein Lesezeichen für die Zielseite
 1. Öffnen Sie in Ihrem Rollencenter eine beliebige Seite, für die Sie einen Link im Rollencenter erstellen möchten.
 2. Wählen Sie das ![Lesezeichen.](media/ui_bookmark_icon.png "Lesezeichen") Symbol.
 
 Eine nach der Seite benannte Aktion wird jetzt dem Navigationsmenü in Ihrem Rollencenter hinzugefügt.
 
-## <a name="to-bookmark-the-target-report"></a><a name="to-bookmark-the-target-report"></a><a name="to-bookmark-the-target-report"></a>So erstellen Sie ein Lesezeichen für den Zielbericht
+## <a name="to-bookmark-the-target-report"></a>So erstellen Sie ein Lesezeichen für den Zielbericht
 1. Öffnen Sie eine beliebige Berichtsanforderungsseite, für die Sie in Ihrem Rollencenter einen Link erstellen möchten.
 2. Wählen Sie das ![Lesezeichen.](media/ui_bookmark_icon.png "Lesezeichen") Symbol.
 
 Eine nach dem Bericht benannte Aktion wird jetzt dem Navigationsmenü in Ihrem Rollencenter hinzugefügt.
 
-## <a name="to-bookmark-a-page-or-report-from-the-tell-me-window"></a><a name="to-bookmark-a-page-or-report-from-the-tell-me-window"></a><a name="to-bookmark-a-page-or-report-from-the-tell-me-window"></a>So erstellen Sie ein Lesezeichen für eine Seite oder einen Bericht über das Fenster „Wie möchten Sie weiter verfahren“
+## <a name="to-bookmark-a-page-or-report-from-the-tell-me-window"></a>So erstellen Sie ein Lesezeichen für eine Seite oder einen Bericht über das Fenster „Wie möchten Sie weiter verfahren“
 1. Öffne das **Wie möchten Sie weiter verfahren** Fenster und geben Sie zum Beispiel **Kundenaufträge** ein.
 2. Bewegen Sie den Mauszeiger über das Suchergebnis für die Seite oder den Bericht **Verkaufsaufträge**, und wählen Sie dann das ![Lesezeichen.](media/ui_bookmark_icon.png "Lesezeichen") Symbol.
 
 Eine nach der Seite oder dem Bericht benannte Aktion wird jetzt dem Navigationsmenü in Ihrem Rollencenter hinzugefügt.
 
 
-## <a name="frequently-asked-questions"></a><a name="frequently-asked-questions"></a><a name="frequently-asked-questions"></a>Häufig gestellte Fragen
+## <a name="frequently-asked-questions"></a>Häufig gestellte Fragen
 
 - **Kann ich meine Lesezeichen neu organisieren?**  
 Ja. Sie können Ihr Rollencenter personalisieren und Aktionen in eine bessere Reihenfolge oder in vorhandene Gruppen oder Untergruppen verschieben.  
@@ -76,7 +76,7 @@ Wenn Sie ein neues Lesezeichen hinzufügen, wird jeder übersetzte Text, der zu 
 - **Warum kann ich keinen Text in eine Seite einfügen, nachdem ich sie mit dem Lesezeichen geöffnet habe?**<br> Wenn eine Seite mit einem Lesezeichen versehen wird, wird die Seite immer im Ansichtsmodus vom Lesezeichen aus geöffnet &mdash; auch wenn sie sich beim Setzen des Lesezeichens im Bearbeitungsmodus befand. Die Auswahl des Symbols **Änderungen auf der Seite vornehmen**![Zeigt das Bleistift-Symbol zum Bearbeiten der Seite an.](media/edit-pencil.png) lässt Sie Text in die bearbeitbaren Felder einfügen.
 
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Weitere Informationen
+## <a name="see-also"></a>Weitere Informationen
 [Ihren Arbeitsbereich personalisieren](ui-personalization-user.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Ändern von grundlegenden Einstellungen](ui-change-basic-settings.md)  

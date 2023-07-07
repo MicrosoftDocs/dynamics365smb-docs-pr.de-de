@@ -12,7 +12,7 @@ ms.reviewer: edupont
 ms.date: 06/14/2021
 ms.author: soalex
 ---
-# <a name="compliance-overview"></a><a name="compliance-overview"></a><a name="compliance-overview"></a>Compliance-Übersicht
+# <a name="compliance-overview"></a>Compliance-Übersicht
 
 Dieser Inhalt enthält Informationen über Dienstkompatibilität in Bezug auf [!INCLUDE[prod_short](../includes/prod_short.md)].  
 

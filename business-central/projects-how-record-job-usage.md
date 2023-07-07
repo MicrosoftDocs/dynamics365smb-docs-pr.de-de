@@ -9,7 +9,7 @@ ms.topic: how-to
 ms.date: 03/08/2023
 ms.custom: bap-template
 ---
-# <a name="record-consumption-or-usage-for-jobs"></a><a name="record-consumption-or-usage-for-jobs"></a><a name="record-consumption-or-usage-for-jobs"></a>Datensatz-Verbrauch oder -Verwendung für Jobs aufzeichnen
+# <a name="record-consumption-or-usage-for-jobs"></a>Datensatz-Verbrauch oder -Verwendung für Jobs aufzeichnen
 
 Auf der Seite **Auftragskarte** können Sie die Seite **Projektplanzeilen** öffnen, um die Nutzung verschiedener Teile Ihres Projekts zu überprüfen und zu erfassen. Diese Informationen werden automatisch aktualisiert, wenn Sie Informationen zwischen Projekten und Projekt-Buch.-Blättern oder Projektrechnungen ändern und übertragen. Dazu ist es erforderlich, dass Sie den Schalter **Link Verbrauch standardmäßig anwenden** auf der Seite **Projekteinrichtung** aktiviert ist. Erfahren Sie mehr unter [Projekte einrichten](projects-how-setup-jobs.md).  
 
@@ -17,7 +17,7 @@ Zum Beispiel können Sie für Planungszeilen der Art **Plan** die Menge einer Re
 
 Die folgenden Verfahren beschreiben, wie Sie tatsächliche (budgetierte) Mengen und Kosten mit eiem Projekt-Buch.-Blatt erfassen. Alternativ können Sie auch Einkaufsbelege verwenden, um Einkäufe für eine Projekt zu erfassen. Weitere Informationen finden Sie unter [Verwalten von Projektlieferungen](projects-how-manage-project-supplies.md).
 
-## <a name="to-record-usage-for-a-job-planning-line-of-type-budget"></a><a name="to-record-usage-for-a-job-planning-line-of-type-budget"></a><a name="to-record-usage-for-a-job-planning-line-of-type-budget"></a>Den Verbrauch in einer Projektplanungszeile der Art "Plan"erfassen
+## <a name="to-record-usage-for-a-job-planning-line-of-type-budget"></a>Den Verbrauch in einer Projektplanungszeile der Art "Plan"erfassen
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Aufträge** ein, und wählen Sie dann den zugehörigen Link.  
 2. Markieren Sie das Projekt und wählen Sie dann die Aktion **Projektplanzeilen**. 
@@ -42,7 +42,7 @@ Die folgenden Verfahren beschreiben, wie Sie tatsächliche (budgetierte) Mengen 
 9. Auf der Seite **Projektplanungszeilen** überprüfen Sie den erfassten Verbrauch, indem Sie die Felder **Menge**, **Restmenge** und **Auf Buch.-Blatt zu übertragende Menge** kontrollieren.  
 10. Um zusätzlichen Verbrauch zu erfassen, wiederholen Sie die Schritte 3 bis 8.  
 
-## <a name="to-create-job-journal-lines-manually"></a><a name="to-create-job-journal-lines-manually"></a><a name="to-create-job-journal-lines-manually"></a>Projekt-Buchungsblattzeilen manuell erstellen
+## <a name="to-create-job-journal-lines-manually"></a>Projekt-Buchungsblattzeilen manuell erstellen
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Projekt Buch.-Blätter** ein und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie im Feld **Stapelverarbeitungsname** einen entsprechenden Projekt-Buchungsblattnamen aus.  
@@ -51,7 +51,7 @@ Die folgenden Verfahren beschreiben, wie Sie tatsächliche (budgetierte) Mengen 
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-## <a name="to-view-job-usage-estimates-and-post-updates"></a><a name="to-view-job-usage-estimates-and-post-updates"></a><a name="to-view-job-usage-estimates-and-post-updates"></a>So zeigen Sie Projektverbrauchschätzungen und Buchungsaktualisierungen an.
+## <a name="to-view-job-usage-estimates-and-post-updates"></a>So zeigen Sie Projektverbrauchschätzungen und Buchungsaktualisierungen an.
 
 Der Projektverbrauch kann bis zum Projektabschluss in einem einzigen Schritt angezeigt werden. Verwenden Sie hierzu die Stapelverarbeitung **Restverbrauch für Projekt berechnen** für alle Aufgaben bis zum Projektende (einschließlich).  
 
@@ -66,7 +66,7 @@ Auf diese Weise können Sie die ursprüngliche Planung mit den tatsächlichen Er
 4. Aktualisieren Sie das Buch.-Blatt mit sämtlichen Änderungen, die möglicherweise erforderlich sind.  
 5. Wählen Sie die Aktion **Buchen** aus.
 
-## <a name="create-inventory-and-warehouse-pick-documents-for-a-job"></a><a name="create-inventory-and-warehouse-pick-documents-for-a-job"></a><a name="create-inventory-and-warehouse-pick-documents-for-a-job"></a>Belege für Bestand und Lagerkommissionierungen für einen Auftrag erstellen
+## <a name="create-inventory-and-warehouse-pick-documents-for-a-job"></a>Belege für Bestand und Lagerkommissionierungen für einen Auftrag erstellen
 
 Um Bestands- und Lagerkommissionierungsbelege für Aufträge zu erstellen, muss Ihr Administrator die Funktion **Funktion Aktualisieren: Lagerbestand und Lagerkommissionierungen von Aufträgen aus aktivieren** auf der Seite **Funktionsverwaltung** aktivieren.
 
@@ -85,7 +85,7 @@ Sie können die Aktionen unter den folgenden Bedingungen verwenden:
 > 
 > Wenn Ihr Standort so festgelegt ist, dass sowohl die Kommissionierung als auch die Verarbeitung von Sendungen erforderlich ist, d.h. wenn Sie auf der Seite **Standortkarte** sowohl das Feld **Kommissionierung anfordern** als auch das Feld **Sendung anfordern** ausgewählt haben, verwenden Sie die Seite **Lager-Kommissionierung**, um die Kommissionierung zu bearbeiten. Lagerkommissionierungen sind ähnlich wie Bestandskommissionierungen. Der Unterschied besteht darin, dass Sie die Kommissionierung registrieren, anstatt die Kommissionierungsinformationen zu buchen. Mit dieser Registrierung wird kein Verbrauch gebucht, sondern die Artikel werden lediglich für die Buchung verfügbar gemacht. Als Manager eines Lagers können Sie ein Kommissionierarbeitsblatt verwenden, um die Kommissionierinformationen zu organisieren, bevor Sie die einzelnen Anweisungen für die Kommissionierung im Lager erstellen.
 
-## <a name="to-review-planning-lines-for-a-job-ledger-entry"></a><a name="to-review-planning-lines-for-a-job-ledger-entry"></a><a name="to-review-planning-lines-for-a-job-ledger-entry"></a>Um Planungszeilen für einen Projektposten zu überprüfen
+## <a name="to-review-planning-lines-for-a-job-ledger-entry"></a>Um Planungszeilen für einen Projektposten zu überprüfen
 
 Nachdem Sie die Projekt-Planungszeilen gebucht haben, können Sie die gebuchten Projekt-Buchungszeilen sehen, die dem Projekt-Buchungsblatt zugeordnet sind.
 
@@ -96,9 +96,9 @@ Nachdem Sie die Projekt-Planungszeilen gebucht haben, können Sie die gebuchten 
 2. Wählen Sie ein Buch.-Blatt des entsprechenden Projekts aus, und wählen Sie dann die Aktion **Projektposten** aus.  
 3. Auf der Seite **Projektposteneinträge** wählen Sie die Aktion **Anzeigen verknüpfter Projektplanungszeilen** aus.
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/paths/post-job-usage-sales/)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/paths/post-job-usage-sales/)
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Projektmanagement](projects-manage-projects.md)  
 [Finanzen](finance.md)  

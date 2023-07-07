@@ -11,7 +11,7 @@ ms.custom: bap-template
 ms.search.keywords: 'journals, recurring, accrual, renumber, bulk-post'
 ms.search.form: '39, 101, 102, 182, 184, 185, 201, 207, 250, 251, 253, 255, 256, 261, 262, 283, 519, 750, 751, 752, 753, 754, 755, 12409, 12410, 12411, 1290, 10101, 11400, 11402, 11403, 11405, 11300, 2000000, 2000001, 2000003, 2000020, 2000021, 2000022'
 ---
-# <a name="work-with-general-journals"></a><a name="work-with-general-journals"></a><a name="work-with-general-journals"></a>Mit Fibu Buch.-Blättern arbeiten
+# <a name="work-with-general-journals"></a>Mit Fibu Buch.-Blättern arbeiten
 
 Die meisten finanziellen Transaktionen werden über Belege wie Einkaufsrechnungen und Verkaufsaufträge im Hauptbuch verbucht. Sie können jedoch auch geschäftliche Aktivitäten verarbeiten, wie z.B.:
 
@@ -33,7 +33,7 @@ Die in ein Buch.-Blatt eingegebenen Informationen sind temporär und können ge�
 > [!NOTE]
 > [!INCLUDE[journal-showhide-columns-inline-tip](includes/journal-showhide-columns-inline-tip.md)]  
 
-## <a name="use-journal-templates-and-batches"></a><a name="use-journal-templates-and-batches"></a><a name="use-journal-templates-and-batches"></a>Buch-Blattvorlagen und -namen verwenden
+## <a name="use-journal-templates-and-batches"></a>Buch-Blattvorlagen und -namen verwenden
 
 Es gibt mehrere Fibu Buch.-Blattvorlagen. Jede Buch.-Blattvorlage wird durch eine spezifisches Seite mit bestimmten Funktionen und den Feldern dargestellt, die benötigt werden, um diese Funktionen zu unterstützen, wie die Seite **Zahlungs-Abstimmungs-Buch.-Blatt**, um Bankzahlungen zu verarbeiten, und die Seite **Zahlungsausgangs Buch.-Blatt**, um Ihre Mitarbeiter zu bezahlen. Weitere Informationen finden Sie unter [Zahlungen vornehmen](payables-make-payments.md) und [Abstimmen von Debitoren-Zahlungen mit dem Zahlungseingangs Buch.-Blatt oder von Debitorenposten](receivables-how-apply-sales-transactions-manually.md).
 
@@ -45,7 +45,7 @@ Sie können zu jeder Buch.-Blattvorlage mehrere Buch.-Blattnamen als Buch-Stapel
 > [!TIP]
 > Sie können Felder in Buchungsblättern hinzufügen oder entfernen, indem Sie sie personalisieren. Erfahren Sie mehr unter [Personalisieren Sie Ihren Arbeitsbereich](ui-personalization-user.md).
 
-### <a name="validating-general-journal-batches"></a><a name="validating-general-journal-batches"></a><a name="validating-general-journal-batches"></a>Fibu Buch.-Blatt-Stapelverarbeitungen überprüfen
+### <a name="validating-general-journal-batches"></a>Fibu Buch.-Blatt-Stapelverarbeitungen überprüfen
 
 Sie können eine Hintergrundprüfung einschalten, um Verzögerungen beim Buchen zu vermeiden. Die Prüfung benachrichtigt Sie, wenn ein Fehler in dem Finanzjournal, an dem Sie gerade arbeiten, das Buchen des Journals verhindert. Auf der Seite **Fibu Buch.-Blatt** können Sie **Hintergrundfehlerprüfung** wählen, damit [!INCLUDE[prod_short](includes/prod_short.md)] Finanzbuch.-Blätter überprüft, wie z. B. Fibu Buch.Blätter oder Zahlungsausgangs Buch.-Blätter, während Sie an ihnen arbeiten.
 
@@ -55,20 +55,20 @@ Mit den Aktionen **Zeilen mit Erfassungen anzeigen** und **Alle Zeilen anzeigen*
 
 [!INCLUDE [background_doc_journal_check](includes/background_doc_journal_check.md)]  
 
-## <a name="understanding-main-accounts-and-balancing-accounts"></a><a name="understanding-main-accounts-and-balancing-accounts"></a><a name="understanding-main-accounts-and-balancing-accounts"></a>Hauptkonten und Gegenkonten und Saldokonten verstehen
+## <a name="understanding-main-accounts-and-balancing-accounts"></a>Hauptkonten und Gegenkonten und Saldokonten verstehen
 
 Wurden auf der Seite **Fibu Buch.-Blätter** Standardgegenkonten für die Buch.-Blattnamen eingerichtet, wird das Gegenkonto beim Ausfüllen des Felds **Kontonr.** automatisch ausgefüllt. Andernfalls müssen die Felder **Kontonr.** und **Gegenkontonr.** manuell ausgefüllt werden. Bei einem positiven Betrag im Feld **Betrag** wird das Hauptkonto belastet, und auf dem Gegenkonto erfolgt eine Gutschrift. Bei einem negativen Betrag erfolgt eine Gutschrift auf dem Hauptkonto, und das Gegenkonto wird entsprechend belastet.
 
 > [!NOTE]  
 > Die MwSt. für Haupt- und Gegenkonto wird getrennt berechnet, damit für die Konten unterschiedliche MwSt.-Prozentsätze verwendet werden können.
 
-## <a name="work-with-recurring-journals"></a><a name="work-with-recurring-journals"></a><a name="work-with-recurring-journals"></a>Mit wiederkehrenden Buchblättern arbeiten
+## <a name="work-with-recurring-journals"></a>Mit wiederkehrenden Buchblättern arbeiten
 
 Ein Wiederk. Fibu Buch.-Blatt ist ein allgemeines Journal mit spezifischen Feldern zur Verwaltung von Transaktionen, die Sie häufig mit wenigen oder gar keinen Änderungen buchen. Zum Beispiel Transaktionen für Ausgaben wie Miete, Abonnements, Strom und Heizung. Mit wiederkehrenden Erfassungen können Sie feste und variable Beträge buchen und automatische Stornobuchungen für den Tag nach dem Buchungsdatum festlegen. Mit Zuweisungsschlüsseln können Sie die wiederkehrenden Buchungen auf verschiedene Konten aufteilen. Weitere Informationen finden Sie unter [Zuordnung von Beträgen des wiederkehrenden Buch.-Blatts auf mehrere Konten](#allocating-recurring-journal-amounts-to-several-accounts).
 
 Mit einem wiederkehrenden Journal erstellen Sie die Erfassungen, die regelmäßig nur einmal gebucht werden sollen. So bleiben beispielsweise die Konten, Dimensionen, Dimensionswerte usw. nach der Buchung im Journal erhalten. Falls Änderungen erforderlich sind, können Sie diese bei jeder Buchung vornehmen.
 
-### <a name="recurring-method-field"></a><a name="recurring-method-field"></a><a name="recurring-method-field"></a>Feld Wiederholungsmethode
+### <a name="recurring-method-field"></a>Feld Wiederholungsmethode
 
 Das Feld **Wiederkehrende Methode** ist wichtig. Es bestimmt, wie der Betrag in der Buchungsblattzeile nach der Buchung behandelt werden soll. Wenn Sie z.B. bei jeder Buchung der Zeile den gleichen Betrag verwenden, können Sie den Betrag beibehalten. Wenn Sie dieselben Konten und denselben Text in der Zeile verwenden, der Betrag aber bei jeder Buchung variiert, können Sie den Betrag nach der Buchung löschen.
 
@@ -86,11 +86,11 @@ Das Feld **Wiederkehrende Methode** ist wichtig. Es bestimmt, wie der Betrag in 
 > [!NOTE]  
 > Die MwSt.-Felder können entweder in der Wiederk. Buch.-Blattzeile oder in der Verteilungs Buch.-Blattzeile ausgefüllt werden, aber nicht in beiden. Das heißt, sie können auf der Seite **Zuweisungen** nur passende Zeilen eintragen, wenn die entsprechenden Zeilen nicht im wiederkehrenden Buch.-Blatt eingetragen werden.
 
-### <a name="recurring-frequency-field"></a><a name="recurring-frequency-field"></a><a name="recurring-frequency-field"></a>Feld Wiederholungsrate
+### <a name="recurring-frequency-field"></a>Feld Wiederholungsrate
 
 Dieses Feld für die Datumsformel bestimmt, wie oft der Eintrag in der Buchungsblattzeile gebucht werden soll, und muss ausgefüllt werden. Mehr dazu erfahren Sie unter [Verwenden von Datumsformeln](ui-enter-date-ranges.md#use-date-formulas).
 
-#### <a name="examples"></a><a name="examples"></a><a name="examples"></a>Beispiele
+#### <a name="examples"></a>Beispiele
 
 Wenn das Buch.-Blatt z. B. monatlich gebucht werden soll, geben Sie "1M" ein. Nach jeder Buchung wird dann das Datum im Feld **Buchungsdatum** auf dasselbe Datum im nächsten Monat aktualisiert.
 
@@ -100,7 +100,7 @@ Wenn Sie immer am Letzten des Monats buchen möchten, können Sie nach einem der
 
 * Buchen Sie den ersten Eintrag an einem beliebigen Tag des Monats, indem Sie 1M+CM eingeben. Diese Formel addiert einen ganzen Monat plus die verbleibenden Tage bis zum Letzten des Monats.
 
-### <a name="expiration-date-field"></a><a name="expiration-date-field"></a><a name="expiration-date-field"></a>Ablaufdatumsfeld
+### <a name="expiration-date-field"></a>Ablaufdatumsfeld
 
 Das Feld bestimmt das Datum, an dem die Zeile letztmalig gebucht werden soll. Die Zeile wird nach diesem Datum nicht mehr gebucht.
 
@@ -108,7 +108,7 @@ Die Verwendung des Feldes Verfallsdatum hat den Vorteil, dass die Zeile nicht so
 
 Wenn das Feld leer ist, wird die Zeile jedes Mal gebucht, bis sie aus dem Journal gelöscht wird.
 
-### <a name="allocating-recurring-journal-amounts-to-several-accounts"></a><a name="allocating-recurring-journal-amounts-to-several-accounts"></a><a name="allocating-recurring-journal-amounts-to-several-accounts"></a>Zuordnung von Beträgen des wiederkehrenden Buch.-Blatts auf mehrere Konten
+### <a name="allocating-recurring-journal-amounts-to-several-accounts"></a>Zuordnung von Beträgen des wiederkehrenden Buch.-Blatts auf mehrere Konten
 
 Auf der Seite **Wiederk. Fibu Buch.-Blatt** können Sie die **Verteilungen** Aktion auswählen und bestimmen, wie Beträge der Zeile des wiederkehrenden Buch.-Blatts auf mehrere Konten und Dimensionen zugeordnet werden. Die Zuordnung dient als Ausgleichskontozeile für die Buchungsblattzeile.
 
@@ -126,7 +126,7 @@ Ihr Unternehmen verfügt beispielsweise über einige Geschäftsbereiche und eine
 > [!NOTE]
 > Bemaßungen, die Sie in Zuordnungszeilen festlegen, werden nicht automatisch berechnet, und Sie müssen angeben, welche Bemaßungswerte in den Zuordnungskonten festgelegt werden müssen. Wenn Sie die Verknüpfung zwischen der Quellkontodimension und der Zuordnungskontodimension beibehalten möchten, empfehlen wir die Verwendung der Funktionen [Kostenrechnung](finance-about-cost-accounting.md).
 
-#### <a name="example-allocating-rent-payments-to-different-departments"></a><a name="example-allocating-rent-payments-to-different-departments"></a><a name="example-allocating-rent-payments-to-different-departments"></a>Beispiel: Zuordnen von Mietzahlungen auf verschiedene Abteilungen
+#### <a name="example-allocating-rent-payments-to-different-departments"></a>Beispiel: Zuordnen von Mietzahlungen auf verschiedene Abteilungen
 
 Sie zahlen monatlich Miete, also haben Sie den Betrag auf dem Kassenkonto in einer wiederkehrenden Buchungsblattzeile erfasst. Auf der Seite **Zuweisungen** können Sie die Dimension Abteilung verwenden, um die Ausgaben auf mehrere Abteilungen aufzuteilen. Zum Beispiel nach der Anzahl der Quadratmeter, die jede Abteilung belegt. Die Berechnung erfolgt aufgrund der Verteilungsprozente für jede Verteilungs-Buch.-Blattzeile. Sie können die Aufteilung auf verschiedene Arten vornehmen:
 
@@ -135,11 +135,11 @@ Sie zahlen monatlich Miete, also haben Sie den Betrag auf dem Kassenkonto in ein
 
 [!INCLUDE [rev-general-journal](includes/rev-general-journal.md)]
 
-### <a name="calculate-the-reversal-date"></a><a name="calculate-the-reversal-date"></a><a name="calculate-the-reversal-date"></a>Stornierungsdatum berechnen
+### <a name="calculate-the-reversal-date"></a>Stornierungsdatum berechnen
 
 Wenn Sie wiederkehrende Fibu Buch.-Blätter verwenden, um Abgrenzungen am Ende einer Periode zu buchen, ist es wichtig, die volle Kontrolle über Stornierungsposten zu haben. Auf der Seite **Wiederkehrende Fibu Buch.-Blätter** können Sie mithilfe des Felds **Stornierungsdatumsberechnung** das Datum steuern, an dem Stornierungsposten gebucht werden, wenn wiederkehrende Stornierungsmethoden verwendet werden.
 
-#### <a name="example"></a><a name="example"></a><a name="example"></a>Beispiel
+#### <a name="example"></a>Beispiel
 
 Abgrenzungen werden in der Regel mit den wiederkehrenden Methoden **Fest**, **Variabel** oder **Saldo** in der Buchungsblattzeile gebucht. Das Buchungsdatum des gebuchten Betrags auf dem Konto in der Buch.-Blattzeile wird anhand der wiederkehrenden Häufigkeit berechnet. Das Buchungsdatum für die Gegenposten wird mithilfe des Felds **Stornierungsdatumsberechnung** wie folgt berechnet:
 
@@ -149,7 +149,7 @@ Abgrenzungen werden in der Regel mit den wiederkehrenden Methoden **Fest**, **Va
 > [!NOTE]
 > Standardmäßig ist das Feld **Stornierungsdatumsberchnung** auf der Seite **Wiederkehrende Fibu Buch.-Blätter** nicht verfügbar. Um das Feld zu verwenden, müssen Sie es hinzufügen, indem Sie die Seite personalisieren. Weitere Informationen finden Sie unter [Personalisieren Sie Ihren Arbeitsbereich](ui-personalization-user.md).
 
-## <a name="work-with-standard-journals"></a><a name="work-with-standard-journals"></a><a name="work-with-standard-journals"></a>Mit Standard-Buchblättern arbeiten
+## <a name="work-with-standard-journals"></a>Mit Standard-Buchblättern arbeiten
 
 Wenn Sie Buchungsblattzeilen erstellt haben, von denen Sie wissen, dass Sie sie wahrscheinlich später noch einmal erstellen werden, können Sie sie als Standardjournal speichern, bevor Sie das Journal buchen. Dasselbe gilt für Artikel Buch.-Blätter und Allgemeine Journale.
 
@@ -159,7 +159,7 @@ Wenn Sie Buchungsblattzeilen erstellt haben, von denen Sie wissen, dass Sie sie 
 > [!NOTE]  
 > Das folgende Verfahren bezieht sich auf das Artikel Buch.-Blatt, die Informationen betreffen jedoch auch das Standard Buch.-Blatt.
 
-### <a name="to-save-a-standard-journal"></a><a name="to-save-a-standard-journal"></a><a name="to-save-a-standard-journal"></a>Ein Standard-Buch.-Blatt speichern:
+### <a name="to-save-a-standard-journal"></a>Ein Standard-Buch.-Blatt speichern:
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Element Buch.-Blätter** ein und wählen Sie dann den zugehörigen Link.
 2. Geben Sie in mindestens eine Buch.-Blattzeile ein.
@@ -175,7 +175,7 @@ Wenn Sie Buchungsblattzeilen erstellt haben, von denen Sie wissen, dass Sie sie 
 
 Wenn Sie das Standard-Artikel Buch.-Blatt speichern, wird die Seite Artikel Buch.-Blatt angezeigt, auf der Sie die Erfassung vornehmen können.
 
-### <a name="to-reuse-a-standard-journal"></a><a name="to-reuse-a-standard-journal"></a><a name="to-reuse-a-standard-journal"></a>Standard-Protokolle wieder nutzen
+### <a name="to-reuse-a-standard-journal"></a>Standard-Protokolle wieder nutzen
 
 > [!NOTE]
 > Standardbuchblätter haben nicht immer die gleichen Felder wie allgemeine Buchblätter. Wenn Sie die Aktion „Standardbuchblätter abrufen“ verwenden, um die Felder in das allgemeine Buchblatt zu kopieren, enthält das allgemeine Buchblatt möglicherweise weniger Informationen, als bei der manuellen Erstellung. 
@@ -199,7 +199,7 @@ Wenn Sie das Standard-Artikel Buch.-Blatt speichern, wird die Seite Artikel Buch
 5. Wählen Sie den Artikel, für den Sie den Lagerbestand anpassen möchten, und wählen Sie dann die Aktion **Einheitsbetrag neu berechnen** aus. Durch diese Aktion wird das Feld Betrag pro Einheit mit den aktuellen Kosten pro Einheit des Artikels aktualisiert.
 6. Wählen Sie die Aktion **Buchen**.
 
-## <a name="to-renumber-document-numbers-in-journals"></a><a name="to-renumber-document-numbers-in-journals"></a><a name="to-renumber-document-numbers-in-journals"></a>Belegnummern in Buch.-Blättern neu nummerieren
+## <a name="to-renumber-document-numbers-in-journals"></a>Belegnummern in Buch.-Blättern neu nummerieren
 
 Um durch die Belegnummer verursachte Buchungsfehler zu vermeiden, können Sie die Aktion **Belegnummern neu nummerieren** verwenden, bevor Sie ein Journal buchen.
 
@@ -211,7 +211,7 @@ Diese Funktion funktioniert auch bei gefilterten Ansichten.
 
 Bei einer Neunummerierung der Belegnummern werden zusammenhängende Anwendungen berücksichtigt, z.B. ein Zahlungsantrag, der von dem Beleg in der Buchungsblattzeile auf ein Kreditorenkonto gestellt wurde. Dementsprechend werden die Felder **Antrags-ID** und **Antrags-Dok. Nr.** in den Sachkontoeinträgen aktualisiert werden.
 
-### <a name="to-renumber-documents-in-journals"></a><a name="to-renumber-documents-in-journals"></a><a name="to-renumber-documents-in-journals"></a>Belege in Buch.-Blättern neu nummerieren
+### <a name="to-renumber-documents-in-journals"></a>Belege in Buch.-Blättern neu nummerieren
 
 Die folgende Prozedur basiert auf der Seite **Fibu Buch.-Blatt**, gilt aber für alle anderen Buch.-Blätter, die auf dem Hauptbuch basieren, wie etwa die Seite **Zahlungs Buch.-Blatt**.
 
@@ -220,9 +220,9 @@ Die folgende Prozedur basiert auf der Seite **Fibu Buch.-Blatt**, gilt aber für
 
 Werte im Feld **Dokumentennr.** werden geändert, wo erforderlich, sodass die Belegnummern auf einzelnen oder gruppierten Buch.-Blattzeilen in sequenzieller Reihenfolge stehen. Nachdem die Belege neu nummeriert wurden, können Sie das Journal buchen.
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/paths/use-journals-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/paths/use-journals-dynamics-365-business-central/)
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Buchen von Transaktionen direkt in der Finanzbuchhaltung](finance-how-post-transactions-directly.md)  
 [Buch.-Blatt-Buchungen stornieren und Rückgängigmachung von Eingängen/Versendungen](finance-how-reverse-journal-posting.md)  

@@ -11,7 +11,7 @@ ms.search.keywords: 'kit, kitting'
 ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905'
 ms.custom: bap-template
 ---
-# <a name="assemble-items"></a><a name="assemble-items"></a><a name="assemble-items"></a>Artikel montieren
+# <a name="assemble-items"></a>Artikel montieren
 
 Wenn das Feld **Wiederbeschaffungssystem** auf der Artikelkarte den Wert **Montage** enthält, wird der Artikel standardmäßig gemäß einer Stückliste für die Montage und möglicherweise durch eine bestimmte Ressource bereitgestellt. Erfahren Sie mehr unter [Arbeiten mit Stücklisten für die Montage](assembly-how-work-assembly-boms.md). Erfahren Sie mehr darüber, wie Sie ein Element für die Montage festlegen unter [Montage auf Bestellung und Montage auf Lager](assembly-assemble-to-order-or-assemble-to-stock.md).
 
@@ -27,7 +27,7 @@ Dieser Artikel beschreibt die Standardeinstellungen für die Montage auf Lager. 
 > [!NOTE]  
 > Montagekomponenten werden auf eine spezielle Art in den Basislagerkonfigurationen behandelt. Erfahren Sie mehr unter [Verarbeitung von Programmfertigung mit kommissionierten Bestandsartikeln](warehouse-how-to-pick-items-with-inventory-picks.md#handling-assemble-to-order-items-with-inventory-picks).
 
-## <a name="to-assemble-an-item-to-stock"></a><a name="to-assemble-an-item-to-stock"></a><a name="to-assemble-an-item-to-stock"></a>So montieren Sie ein Element für den Bestand
+## <a name="to-assemble-an-item-to-stock"></a>So montieren Sie ein Element für den Bestand
 
 Folgen Sie den Schritten in diesem Verfahren, um ein Element auf Lager zu montieren. Weitere Informationen zur Programmfertigung finden Sie unter [Verkauf von Elementen, die auf Bestellung gefertigt wurden](assembly-how-to-sell-items-assembled-to-order.md).
 
@@ -61,9 +61,9 @@ Folgen Sie den Schritten in diesem Verfahren, um ein Element auf Lager zu montie
 
 Nach erfolgreicher Buchung wird der Montageartikel als Ausstoß für den Lagerortcode und den potenziellen Lagerplatzcode gebucht, die im Montageauftrag definiert sind. Für manuell erstellte Montageaufträge wird der Lagerplatz möglicherweise aus dem Einrichtungsfeld **Standardlagerort für Aufträge** kopiert. Für Auftragsmontageflüsse wird der Lagerortcode möglicherweise aus der Verkaufsauftragszeile kopiert.  
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Siehe zugehörige [Microsoft Schulungen](/training/paths/assemble-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Siehe zugehörige [Microsoft Schulungen](/training/paths/assemble-items-dynamics-365-business-central/)
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Montageverwaltung](assembly-assemble-items.md)  
 [Arbeiten mit Stücklisten für die Montage](assembly-how-work-assembly-boms.md)  

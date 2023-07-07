@@ -11,7 +11,7 @@ ms.search.form: '26, 27'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="prioritize-vendors"></a><a name="prioritize-vendors"></a><a name="prioritize-vendors"></a>Kreditoren priorisieren
+# <a name="prioritize-vendors"></a>Kreditoren priorisieren
 
 [!INCLUDE[prod_short](includes/prod_short.md)] kann verschiedene Zahlungen an Kreditoren vorschlagen. Dies können z. B. Zahlungen sein, die in Kürze fällig sind, oder Zahlungen, bei denen Sie einen Rabatt erhalten können. Weitere Informationen finden Sie unter [Erstellen von Zahlungsvorschlägen für Kreditoren](payables-how-suggest-vendor-payments.md).
 
@@ -19,7 +19,7 @@ Zuerst müssen Sie den Kreditoren priorisieren, indem Sie ihm Nummern zuweisen.
 <br><br>
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3PRGa?rel=0]
 
-## <a name="to-prioritize-vendors"></a><a name="to-prioritize-vendors"></a><a name="to-prioritize-vendors"></a>So priorisieren Sie Kreditoren
+## <a name="to-prioritize-vendors"></a>So priorisieren Sie Kreditoren
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Kreditoren** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie die entsprechende Kreditor, und klicken Sie dann auf **Bearbeiten**.
@@ -29,7 +29,7 @@ Zuerst müssen Sie den Kreditoren priorisieren, indem Sie ihm Nummern zuweisen.
 
 Falls Sie einem Kreditor keine Priorität zuweisen wollen, lassen Sie das Feld **Priorität** leer. Wenn Sie dann die Funktion "Zahlungsvorschlag" verwenden, wird dieser Kreditor nach den Kreditoren aufgeführt, die eine Priorität haben. Sie können so viele Prioritäten einrichten wie Sie benötigen.
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Registriert einen neuen Kreditor](purchasing-how-register-new-vendors.md)  
 [Einkaufeinrichten](purchasing-setup-purchasing.md)  

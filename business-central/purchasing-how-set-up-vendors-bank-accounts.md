@@ -7,18 +7,18 @@ ms.topic: article
 ms.date: 07/04/2022
 ms.author: a-reishima
 ---
-# <a name="set-up-vendor-bank-accounts"></a><a name="set-up-vendor-bank-accounts"></a><a name="set-up-vendor-bank-accounts"></a>Kreditorenbankkonten einrichten
+# <a name="set-up-vendor-bank-accounts"></a>Kreditorenbankkonten einrichten
 
 Genauso wie Sie Bankkontoinformationen in [!INCLUDE [prod_short](includes/prod_short.md)] verwenden können, um die Banktransaktionen Ihres Unternehmens zu verfolgen, können Sie auch Bankdaten für Kreditoren festlegen. Bankkontodaten von Kreditoren können Zahlungen an Lieferanten vereinfachen, wenn sie beispielsweise mit der [AMC Banking 365 Fundamentals-Erweiterung](ui-extensions-amc-banking.md) oder der Funktion [Zahlungen in eine Bankdatei exportieren](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md) kombiniert werden.
 
-## <a name="add-or-edit-a-vendor-bank-account"></a><a name="add-or-edit-a-vendor-bank-account"></a><a name="add-or-edit-a-vendor-bank-account"></a>Kreditorenbankkonto hinzufügen oder bearbeiten
+## <a name="add-or-edit-a-vendor-bank-account"></a>Kreditorenbankkonto hinzufügen oder bearbeiten
 
 [!INCLUDE [purchase-vendor-bank-account](includes/purchase-vendor-bank-account.md)]
 
 > [!TIP]
 > Sie können zusätzliche Kreditorenbankkonten auf der Seite **Kreditor Bankkontenübersicht** festlegen.
 
-## <a name="set-up-a-preferred-vendor-bank-account"></a><a name="set-up-a-preferred-vendor-bank-account"></a><a name="set-up-a-preferred-vendor-bank-account"></a>Bevorzugtes Kreditor-Bankkonto einrichten
+## <a name="set-up-a-preferred-vendor-bank-account"></a>Bevorzugtes Kreditor-Bankkonto einrichten
 
 Wenn ein Kreditor über ein oder mehrere Bankkonten verfügt und Sie eine bevorzugte Option für die Zahlungserfassungspositionen festlegen möchten, führen Sie die folgenden Schritte aus:
 
@@ -26,9 +26,9 @@ Wenn ein Kreditor über ein oder mehrere Bankkonten verfügt und Sie eine bevorz
 2. Öffnen Sie die Karte für den Kreditor.
 3. Wählen Sie im Inforegister **Zahlungen** das standardmäßige Bankkonto des Kreditors im Feld **Bevorzugter Bankkontocode** aus.
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/cash-management-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/cash-management-dynamics-365-business-central/)
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Einkaufeinrichten](purchasing-setup-purchasing.md)  
 [Registriert einen neuen Kreditor](purchasing-how-register-new-vendors.md)  

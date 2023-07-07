@@ -11,13 +11,13 @@ ms.author: jswymer
 ms.date: 04/01/2021
 ---
 
-# <a name="inspecting-pages-in-business-central"></a><a name="inspecting-pages-in-business-central"></a><a name="inspecting-pages-in-business-central"></a>Überprüfen von Seiten in Business Central
+# <a name="inspecting-pages-in-business-central"></a>Überprüfen von Seiten in Business Central
 
 Die Überprüfungsfunktion der Seite ermöglicht es Ihnen, Details zu einer Seite abzurufen und bietet Einblick in den Seitenentwurf, die verschiedenen Elemente, aus denen die Seite besteht und die Quelle hinter den angezeigten Daten. Seitenüberprüfung ist besonders für Administratoren und Superuser, Support-Mitarbeiter und Entwickler gedacht. Es eignet sich ideal, um mehr über das Datenmodells hinter einer Seite zu erfahren, und für die Fehlerbehebung. Wenn Sie beispielsweise ein Problem mit einer Seite haben, können Sie mit der Seitenüberprüfung Informationen erhalten, die Sie an den Systemadministrator oder den Supportmitarbeiter weitergeben.
 
 [!INCLUDE [send-report-excel](includes/send-report-excel.md)]
 
-## <a name="work-with-page-inspection"></a><a name="work-with-page-inspection"></a><a name="work-with-page-inspection"></a>Arbeiten mit der Seiteninspektion
+## <a name="work-with-page-inspection"></a>Arbeiten mit der Seiteninspektion
 
 Starten Sie die Seitenüberprüfung über die Seite **Hilfe und Support**. Wählen Sie ein Fragezeichen in der oberen rechten Ecke aus, wählen Sie **Hilfe und Support** und dann **Seiten und Daten prüfen** aus. Zudem besteht die Möglichkeit, die Tastenkombination <kbd>Strg</kbd>+<kbd>Alt</kbd>+<kbd>F1</kbd> zu verwenden.
 
@@ -29,13 +29,13 @@ Weitere Informationen darüber, was in der Seitenüberprüfung angezeigt wird, f
 
 Wenn die erwarteten Details im Bereich **Seitenüberprüfung** nicht angezeigt werden, verfügen Sie möglicherweise nicht über die erforderlichen Berechtigungen, wie im nächsten Abschnitt erläutert.
 
-## <a name="controlling-access-to-page-inspection-details"></a><a name="controlling-access-to-page-inspection-details"></a><a name="controlling-access-to-page-inspection-details"></a>Steuerung des Zugriffs auf die Details der Seiteninspektion
+## <a name="controlling-access-to-page-inspection-details"></a>Steuerung des Zugriffs auf die Details der Seiteninspektion
 
 Als ein Administrator können Sie den Zugriff auf die gesamten Details steuern, die im Bereich **Seitenüberprüfung** angezeigt werden, indem Sie die Berechtigungen konfigurieren, die Benutzer haben. Um einem Benutzer Berechtigung für alle Details zu gewähren, geben Sie Benutzern die Berechtigung **Ausführen** im **System**-Objekt **5330**. Sie können diese Berechtigungen gewähren, indem Sie einen Berechtigungssatz (beispielsweise **D365 Troubleshoot**) oder eine Benutzergruppe (beispielsweise **D365 Troubleshoot**) verwenden. Weitere Informationen zu Berechtigungen finden Sie unter [Zuweisen von Berechtigungen für Benutzer und Gruppen](ui-define-granular-permissions.md).
 
 Benutzer, die keine Berechtigungen in **Systemobjekt 5330** haben, können dennoch auf den Bereich **Seitenüberprüfung** zugreifen, sehen allerdings nur die Felder **Seite** und **Tabelle**, die grundlegende Details anzeigen, die sie an ihr Support Team weitergeben können.
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

@@ -10,7 +10,7 @@ ms.search.form: '9701, 9702'
 ms.date: 04/01/2021
 ms.author: jswymer
 ---
-# <a name="set-up-a-colored-indicator-on-cues-for-the-company-or-individual-users"></a><a name="set-up-a-colored-indicator-on-cues-for-the-company-or-individual-users"></a><a name="set-up-a-colored-indicator-on-cues-for-the-company-or-individual-users"></a>Einrichten eines farbigen Indikators auf Stapeln für das ganze Unternehmen oder einzelne Benutzer
+# <a name="set-up-a-colored-indicator-on-cues-for-the-company-or-individual-users"></a>Einrichten eines farbigen Indikators auf Stapeln für das ganze Unternehmen oder einzelne Benutzer
 
 Als Administrator können Sie Stapel einrichten, die in den Rollencentern des Benutzers mit einem Indikator angezeigt werden, dessen Farbe sich basierend auf den Datenwerten in den Stapeln ändert.  
 
@@ -20,7 +20,7 @@ Auf der Seite **Stapel einrichten** können Sie Indikatoren für alle Stapel ein
 
 Um den Indikator einzurichten, geben Sie bis zu zwei Schwellenwerte an, die drei Bereiche von Datenwerten definieren (niedrig, mittel und hoch), die Sie jeweils mit einer anderen Farbe (oder einem anderen Format) anzeigen können.  
 
-### <a name="to-set-up-colored-indicators-on-cues"></a><a name="to-set-up-colored-indicators-on-cues"></a><a name="to-set-up-colored-indicators-on-cues"></a>So richten Sie farbige Indikatoren auf Stapeln ein.
+### <a name="to-set-up-colored-indicators-on-cues"></a>So richten Sie farbige Indikatoren auf Stapeln ein.
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Stapeleinrichtung** ein und wählen Sie dann den zugehörigen Link.  
 
      Die Seite **Stapel einrichten** wird angezeigt. Auf der Seite sind die Indikatoren aufgelistet, die derzeit in Stapeln eingerichtet sind. Indikatoren, die für alle Benutzer im Unternehmen gelten, haben ein leeres **Benutzername**-Feld. Indikatoren, die für einen bestimmten Benutzer gelten, enthalten den **Benutzernamen** im -Feld.  
@@ -57,7 +57,7 @@ Um den Indikator einzurichten, geben Sie bis zu zwei Schwellenwerte an, die drei
     |**Mehrdeutig**|Gelb|  
     |**Untergeordnet**|Grau|  
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

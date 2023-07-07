@@ -10,7 +10,7 @@ ms.search.form: '30, 31'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="setup-best-practices-costing-method"></a><a name="setup-best-practices-costing-method"></a><a name="setup-best-practices-costing-method"></a>Bewährte Einrichtungsmethoden – Lagerabgangsmethode
+# <a name="setup-best-practices-costing-method"></a>Bewährte Einrichtungsmethoden – Lagerabgangsmethode
 
 Die **Lagerabgangsmethode** auf der Artikelkarte definiert, ob der Kostenfluss eines Artikels erfasst wird und ob ein tatsächlicher oder budgetierter Wert aktiviert wird und in der Kostenberechnung verwendet wird.  
 
@@ -26,7 +26,7 @@ Die folgende Tabelle enthält bewährte Methoden zum Einrichten des **Kostenmeth
 |Ausgewählt|Verwendung in der Produktion oder Handel von einfach identifizierbaren Artikeln mit sehr hohen Einstandspreis.<br /><br /> Verwendung für Artikel, die ZU-/Abschlägen unterliegen.<br /><br /> Verwendung für Artikel mit Seriennummern.|Der Einstandspreis eines Artikels sind die exakten Kosten, zu denen die bestimmte Einheit empfangen wurden.|
 |Standard|Wird verwendet, wo Kostenkontrolle kritisch ist.<br /><br /> Verwendung in der wiederholenden Produktion, die Kosten des Fertigungsmaterials, direkte Arbeit und Produktionsgemeinkosten zu bewerten.<br /><br /> Wird verwendet, wo es Kategorie und Mitarbeiter gibt, um die Vorgaben beizubehalten.|Der Einstandspreis eines Artikels ist voreingestellt basierend auf vorkalkulierten Kosten.<br /><br /> Wenn die Ist-Kosten später realisiert werden, muss der Einstandspreis (fest) auf die Ist-Kosten durch Abweichungswerte reguliert werden.|  
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Designdetails: Kostenberechnungsmethoden](design-details-costing-methods.md)  
 [Design Details: Kalkulation des Bestandes](design-details-inventory-costing.md)  

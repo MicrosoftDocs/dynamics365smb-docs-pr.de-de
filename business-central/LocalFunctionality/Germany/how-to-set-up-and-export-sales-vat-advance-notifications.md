@@ -11,14 +11,14 @@ ms.date: 01/21/2022
 ms.author: soalex
 ---
 
-# <a name="set-up-and-export-sales-vat-advance-notifications"></a><a name="set-up-and-export-sales-vat-advance-notifications"></a><a name="set-up-and-export-sales-vat-advance-notifications"></a>Einrichten und Exportieren von Umsatzsteuervoranmeldungen
+# <a name="set-up-and-export-sales-vat-advance-notifications"></a>Einrichten und Exportieren von Umsatzsteuervoranmeldungen
 
 Eine Umsatzsteuervoranmeldung ist eine XML-Datei, die Sie verwenden können, um MwSt die deutsche Steuerbehörden an dem das Elektronische Steuererklärungen (ELSTER) - Onlineportal zu melden. [!INCLUDE [prod_short](../../includes/prod_short.md)] generiert eine XML-Datei mit Steuerbeträgen und Bemessungsgrundlagen sowie Informationen zu Ihrem Unternehmen im Format und im Layout, die deutsche Finanzämter benötigen.
 
 > [!NOTE]
 > Der größte Teil der Funktionen ist in der Erweiterung **ELSTER VAT-Lokalisierung für Deutschland** enthalten. Stellen Sie sicher, dass dies in Ihrem [!INCLUDE[prod_short](../../includes/prod_short.md)] installiert ist. Weitere Informationen finden Sie unter [Anpassen von Business Central Online mithilfe der Erweiterungen](../../ui-extensions.md).
 
-## <a name="set-up-and-export-sales-vat-advance-notifications-1"></a><a name="set-up-and-export-sales-vat-advance-notifications-1"></a><a name="set-up-and-export-sales-vat-advance-notifications-1"></a>Umsatzsteuervoranmeldungen einrichten und exportieren
+## <a name="set-up-and-export-sales-vat-advance-notifications-1"></a>Umsatzsteuervoranmeldungen einrichten und exportieren
 
 Sie müssen die folgenden Informationen einrichten, um gültige Umsatzsteuervoranmeldungen zu erstellen:  
 
@@ -26,7 +26,7 @@ Sie müssen die folgenden Informationen einrichten, um gültige Umsatzsteuervora
 - Grundlegende Umsatzsteuervoranmeldung auf der Seite **Elektronische Mehrwertsteuerdeklaration einrichten**.
 - MwSt.-Abrechnung  
 
-### <a name="to-set-up-company-information"></a><a name="to-set-up-company-information"></a><a name="to-set-up-company-information"></a>Um Unternehmensinformationen einzurichten:
+### <a name="to-set-up-company-information"></a>Um Unternehmensinformationen einzurichten:
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](../../media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen") Symbol. Geben Sie **Unternehmensdaten** ein, und wählen Sie dann den zugehörigen Link.  
 2. Füllen Sie die Felder auf der Seite **Firmeninformationen** aus. [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)]
@@ -34,7 +34,7 @@ Sie müssen die folgenden Informationen einrichten, um gültige Umsatzsteuervora
     Geben Sie speziell für Umsatzsteuervoranmeldungen im Feld **Steuerbevollmächtigter** die Kontaktperson für MwSt.-bezogene Informationen ein.  
 3. Wählen Sie die Schaltfläche **OK**.  
 
-### <a name="to-set-up-the-electronic-vat-declaration"></a><a name="to-set-up-the-electronic-vat-declaration"></a><a name="to-set-up-the-electronic-vat-declaration"></a>So richten Sie die elektronischen MwSt.-Anmeldung ein
+### <a name="to-set-up-the-electronic-vat-declaration"></a>So richten Sie die elektronischen MwSt.-Anmeldung ein
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](../../media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen") Symbol. Geben Sie **Elektronische Umsatzsteuererklärung Einr.** ein und wählen Sie dann den zugehörigen Link.
 2. Füllen Sie die Felder gemäß der Beschreibung in der folgenden Tabelle aus.
@@ -45,7 +45,7 @@ Sie müssen die folgenden Informationen einrichten, um gültige Umsatzsteuervora
 |**USt.-Voranmeldungspfad**|Gibt den Pfad und den Namen des Ordners an, in dem Sie die XML-Dateien speichern möchten.|
 |**Standardname der XML-Datei**|Geben Sie den Namen der Datei ein.|
 
-### <a name="to-set-up-a-vat-statement-for-sales-vat-advance-notifications"></a><a name="to-set-up-a-vat-statement-for-sales-vat-advance-notifications"></a><a name="to-set-up-a-vat-statement-for-sales-vat-advance-notifications"></a>Um MwSt-Berichte für Umsatzsteuervoranmeldungs-Benachrichtigungen einzurichten
+### <a name="to-set-up-a-vat-statement-for-sales-vat-advance-notifications"></a>Um MwSt-Berichte für Umsatzsteuervoranmeldungs-Benachrichtigungen einzurichten
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](../../media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen") Symbol. Geben Sie **MwSt.-Abrechnung** ein und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie auf der Seite **MwSt-Bericht** im Feld **Name**, den Drop-Down-Pfeil.  
@@ -56,7 +56,7 @@ Sie müssen die folgenden Informationen einrichten, um gültige Umsatzsteuervora
 
 4. Wählen Sie die Schaltfläche **OK** aus.  
 
-## <a name="to-create-an-xml-document-for-sales-vat-advance-notification"></a><a name="to-create-an-xml-document-for-sales-vat-advance-notification"></a><a name="to-create-an-xml-document-for-sales-vat-advance-notification"></a>So erstellen Sie ein XML-Dokument für Umsatzsteuervoranmeldung
+## <a name="to-create-an-xml-document-for-sales-vat-advance-notification"></a>So erstellen Sie ein XML-Dokument für Umsatzsteuervoranmeldung
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](../../media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Umsatzsteuervoranmeldung** ein und wählen Sie dann den zugehörigen Link.  
 2. Auf der Seite **Umsatzsteuervoranmeldungsliste** auf der Registerkarte Aktionen, wählen Sie **Neu** aus.  
@@ -78,7 +78,7 @@ Sie müssen die folgenden Informationen einrichten, um gültige Umsatzsteuervora
 
 Nachdem das Dokument für die Umsatzsteuervoranmeldung erstellt wurde, können, mit Ausnahme des Felds **Beschreibung**, die Felder auf der Seite **USt.-Voranmeldungskarte** nicht mehr geändert werden, da sie den Inhalt des XML-Dokuments definieren. Wenn Sie ein XML-Dokument erstellt haben und für denselben Zeitraum ein neues XML-Dokument erstellen möchten, ohne das vorhandene Dokument an das Finanzamt zu übermitteln, müssen Sie die vorhandene XML-Datei löschen und anschließend das neue Dokument erstellen.
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Weitere Informationen
+## <a name="see-also"></a>Weitere Informationen
 
 [MwSt.-Abrechnung](vat-reporting.md)  
 [Lokale Funktion (Deutschland)](germany-local-functionality.md)  

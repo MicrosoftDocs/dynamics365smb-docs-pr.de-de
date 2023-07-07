@@ -10,11 +10,11 @@ ms.search.keywords: null
 ms.date: 09/17/2021
 ms.author: edupont
 ---
-# <a name="design-details-posting-date-on-adjustment-value-entry"></a><a name="design-details-posting-date-on-adjustment-value-entry"></a><a name="design-details-posting-date-on-adjustment-value-entry"></a>Designdetails: Buchungsdatum auf Ausgleichs-Wertposten
+# <a name="design-details-posting-date-on-adjustment-value-entry"></a>Designdetails: Buchungsdatum auf Ausgleichs-Wertposten
 
 Dieser Artikel enthält Anleitungen für Benutzer der Funktionalität der Bestandskalkulation in [!INCLUDE[prod_short](includes/prod_short.md)] und insbesondere für die Art und Weise, wie der Batchauftrag **Kosten kalkulieren – Element-Einträge** die Wert-Einträge, die der Batchauftrag erstellen soll, identifiziert und ihnen ein Buchungsdatum zuweist.
 
-## <a name="how-posting-dates-are-assigned"></a><a name="how-posting-dates-are-assigned"></a><a name="how-posting-dates-are-assigned"></a>Wie Buchungsdaten zugewiesen werden
+## <a name="how-posting-dates-are-assigned"></a>Wie Buchungsdaten zugewiesen werden
 
 Die Stapelverarbeitung **Lagerreg. fakt. Einst. Preise** weist ein Buchungsdatum dem Wertposten zu, den sie im Begriffe ist, in den nachfolgenden Schritten zu erstellen:  
 
@@ -26,7 +26,7 @@ Die Stapelverarbeitung **Lagerreg. fakt. Einst. Preise** weist ein Buchungsdatum
 
 Lassen Sie uns dieses Verfahren in der Praxis überprüfen. Angenommen, wir haben einen Artikelposten zum Verkauf. Der Artikel wurde am 5. September 2020 geliefert und er wurde am darauffolgenden Tag fakturiert.  
 
-#### <a name="item-ledger-entry"></a><a name="item-ledger-entry"></a><a name="item-ledger-entry"></a>Artikelposten
+#### <a name="item-ledger-entry"></a>Artikelposten
 
 |Eingabenr.  |Artikelnr.  |Buchungsdatum  |Postenart   | Belegnummer |Lagerortcode  |Menge  |Einstandsbetrag (tatsächl.)  |Fakturierte Menge  |Restmenge  |
 |---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|
@@ -52,7 +52,7 @@ Um das Buchungsdatum für **Eintrag Nr. 391** zuzuweisen, wurden die folgenden S
 
 Wir überprüfen den oben erwähnten Verkauf, indem wir die zugelassenen Buchungszeiträume hinzufügen.  
   
-#### <a name="inventory-periods"></a><a name="inventory-periods"></a><a name="inventory-periods"></a>Lagerbuchungsperioden
+#### <a name="inventory-periods"></a>Lagerbuchungsperioden
 
 |Enddatum  |Name  |Geschlossen  |
 |---------|---------|---------|
@@ -71,7 +71,7 @@ Wir überprüfen den oben erwähnten Verkauf, indem wir die zugelassenen Buchung
 
 Das erste zugelassene Buchungsdatum ist der erste Tag der ersten offenen Periode, also der 1. September 2020.  
 
-#### <a name="general-ledger-setup"></a><a name="general-ledger-setup"></a><a name="general-ledger-setup"></a>Finanzbuchhaltung Einrichtung
+#### <a name="general-ledger-setup"></a>Finanzbuchhaltung Einrichtung
 
 |Feld|Wert  |
 |---------|---------|
@@ -93,19 +93,19 @@ Das zugewiesene Buchungsdatum war 6. September, wie in Schritt 1 veranschaulicht
 |381     |  A       |    2020-09-06     |    Verkauf     | Direkte Kosten   | 103022        |319     | Blau        |  0       |-1        |-10       |    10     | Nein  |0      |       Verkauf   |
 |391     |  A       |    **2020-09-10**     |    Verkauf     | Direkte Kosten   | 103022        |319     | Blau        |  0       |0         |-1        |    0     |Ja   |    181   | LAGERREGUL   |
 
-## <a name="common-problems-with-the-adjust-cost---item-entries-batch-job"></a><a name="common-problems-with-the-adjust-cost---item-entries-batch-job"></a><a name="common-problems-with-the-adjust-cost---item-entries-batch-job"></a>Allgemeine Probleme mit dem „Lagerreg. fakt. Einst. Preise“-Batchauftrag
+## <a name="common-problems-with-the-adjust-cost---item-entries-batch-job"></a>Allgemeine Probleme mit dem „Lagerreg. fakt. Einst. Preise“-Batchauftrag
 
 Es gibt zwei Szenarien, die dem Support-Team so häufig begegnen, dass sie einen eigenen Artikel zur Problemlösung rechtfertigen.
 
-### <a name="error-message-posting-date-is-not-within-your-range-of-allowed-posting-dates"></a><a name="error-message-posting-date-is-not-within-your-range-of-allowed-posting-dates"></a><a name="error-message-posting-date-is-not-within-your-range-of-allowed-posting-dates"></a>Fehlermeldung: „Das Buchungsdatum liegt nicht in Ihrem Bereich der zulässigen Buchungsdaten...“
+### <a name="error-message-posting-date-is-not-within-your-range-of-allowed-posting-dates"></a>Fehlermeldung: „Das Buchungsdatum liegt nicht in Ihrem Bereich der zulässigen Buchungsdaten...“
 
 Wenn Sie auf diesen Fehler stoßen, müssen Sie die Daten anpassen, für die der Benutzer Buchungen zulassen darf. Weitere Informationen finden Sie unter [Fehlermeldung „Das Buchungsdatum liegt nicht in Ihrem Bereich der zulässigen Buchungsdaten“](design-details-inventory-adjustment-value-entry-allowed-posting-dates.md).
 
-### <a name="posting-date-on-adjustment-value-entry-versus-posting-date-on-entry-causing-the-adjustment-such-as-revaluation-or-item-charge"></a><a name="posting-date-on-adjustment-value-entry-versus-posting-date-on-entry-causing-the-adjustment-such-as-revaluation-or-item-charge"></a><a name="posting-date-on-adjustment-value-entry-versus-posting-date-on-entry-causing-the-adjustment-such-as-revaluation-or-item-charge"></a>Buchungsdatum der Korrekturwerteingabe gegenüber dem Buchungsdatum der Buchung, die die Korrektur verursacht, wie z.B. Neubewertung oder Artikel Zu-/Abschlag
+### <a name="posting-date-on-adjustment-value-entry-versus-posting-date-on-entry-causing-the-adjustment-such-as-revaluation-or-item-charge"></a>Buchungsdatum der Korrekturwerteingabe gegenüber dem Buchungsdatum der Buchung, die die Korrektur verursacht, wie z.B. Neubewertung oder Artikel Zu-/Abschlag
 
 Weitere Informationen finden Sie unter [Buchungsdatum der Korrekturwerteingabe im Vergleich zur Quellbuchung](design-details-inventory-adjustment-value-entry-source-entry.md).
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Weitere Informationen
+## <a name="see-also"></a>Weitere Informationen
 
 [Design Details: Kalkulation des Bestandes](design-details-inventory-costing.md)  
 [Gestaltungsdetails: Element Anwendung](design-details-item-application.md)  

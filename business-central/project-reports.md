@@ -8,21 +8,21 @@ ms.search.form: 'Report_1006, Report_1007, Report_1008, Report_1009, Report_1010
 ms.date: 06/01/2021
 ms.author: andreipa
 ---
-# <a name="project-reports-and-analytics-in-business-central"></a><a name="project-reports-and-analytics-in-business-central"></a><a name="project-reports-and-analytics-in-business-central"></a>Projektberichte und Analysen in Business Central
+# <a name="project-reports-and-analytics-in-business-central"></a>Projektberichte und Analysen in Business Central
 
 Die Projektberichterstattung in [!INCLUDE [prod_short](includes/prod_short.md)] ermöglicht es Projekt- und Geschäftsfachleuten, Einblicke und Statistiken über aktuelle und vergangene Projektaktivitäten zu erhalten.  
 
-## <a name="reports"></a><a name="reports"></a><a name="reports"></a>Berichte
+## <a name="reports"></a>Berichte
 [!INCLUDE [project_reports](includes/project-reports-include.md)]
 
-## <a name="tasks"></a><a name="tasks"></a><a name="tasks"></a>Aufgaben
+## <a name="tasks"></a>Aufgaben
 
 In den folgenden Artikeln werden einige der wichtigsten Aufgaben zur Analyse des Status Ihres Unternehmens beschrieben:
 
 * [Überwachen des Status und der Leistung](projects-how-monitor-progress-performance.md)  
 
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Projektmanagement einrichten](projects-setup-projects.md)  
 [Projektmanagement](projects-manage-projects.md)  

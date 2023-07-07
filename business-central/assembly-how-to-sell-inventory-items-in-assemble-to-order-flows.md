@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.keywords: 'kit, kitting'
 ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905'
 ---
-# <a name="selling-inventory-items-in-assemble-to-order-flows"></a><a name="selling-inventory-items-in-assemble-to-order-flows"></a><a name="selling-inventory-items-in-assemble-to-order-flows"></a>Verkauf von Lagerartikeln in Programmfertigungen (Flows)
+# <a name="selling-inventory-items-in-assemble-to-order-flows"></a>Verkauf von Lagerartikeln in Programmfertigungen (Flows)
 
 Wenn das Feld **Montagerichtlinie** auf der Artikelkarte eines Montageartikels **Auftragsmontage** enthält, dann nimmt der Verkaufsauftragsprozess an, dass der Artikel nicht auf Lager ist und für Verkaufsaufträge montiert werden muss. Wenn Sie den Artikel in eine Zeile oder einen Verkaufsauftrag hinzufügen, erstellt [!INCLUDE [prod_short](includes/prod_short.md)] einen Montageauftrag, der mit dem Kundenauftrag verknüpft ist. Weitere Informationen dazu, wie Auftragsmontageartikel verkauft werden, finden Sie unter [Verkauf von Elementen, die auf Bestellung gefertigt wurden](assembly-how-to-sell-items-assembled-to-order.md). Wenn jedoch ein Teil der Verkaufsauftragsmenge bereits im Lagerbestand verfügbar ist, können Sie die Menge des Montageauftrags verringern, indem Sie das Feld **Menge für Auftragsmontage** auf der Verkaufsauftragszeile ändern.  
 
@@ -30,7 +30,7 @@ Bei diesem Verfahren ersetzen Sie Auftragsmontagemengen durch Lagerbestandsmenge
 2. Reduzieren dieser Menge aus dem verknüpften Montageauftrag.
 3. Reservieren Sie die Bestandsmenge, um sicherzustellen, dass sie für die Bestellung kommissioniert und versendet wird.  
 
-## <a name="to-sell-inventory-items-in-assemble-to-order-flows"></a><a name="to-sell-inventory-items-in-assemble-to-order-flows"></a><a name="to-sell-inventory-items-in-assemble-to-order-flows"></a>So verkaufen Sie Lagerartikel in Programmfertigungs-Flüssen
+## <a name="to-sell-inventory-items-in-assemble-to-order-flows"></a>So verkaufen Sie Lagerartikel in Programmfertigungs-Flüssen
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Verkaufsaufträge** ein, und wählen Sie dann den zugehörigen Link.  
 2. Erstellen Sie einen Auftrag. Weitere Informationen zum Erstellen von Verkaufsaufträgen finden Sie unter [Produkte verkaufen](sales-how-sell-products.md).  
@@ -47,9 +47,9 @@ Bei diesem Verfahren ersetzen Sie Auftragsmontagemengen durch Lagerbestandsmenge
 > [!CAUTION]  
 > Das Feld **Lagerplatzcode** auf dem Verkaufsauftrag enthält möglicherweise den Wert aus den Feldern **P-Code f. Prog.fert.lief.** oder **Von Montagelagerplatzcode** auf der Lagerortkarte ausgefüllt sein. Wenn dem so ist, ist das Feld **Lagerplatzcode** auf der Verkaufsauftragszeile in dieser Kombination aus Auftragsmontage- und Lagermontageartikelmengen möglicherweise falsch. Es empfiehlt sich, den Lagerplatz im Feld **Lagerplatzcode** zu prüfen und sicherzustellen, dass die Platzierung für alle Mengen funktioniert. Alternativ können Sie die beiden verschiedenen Mengen auf separaten Verkaufsauftragszeilen eingeben.  
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/assemble-to-order-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/assemble-to-order-dynamics-365-business-central/)
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Montageverwaltung](assembly-assemble-items.md)  
 [Artikel reservieren](inventory-how-to-reserve-items.md)  
