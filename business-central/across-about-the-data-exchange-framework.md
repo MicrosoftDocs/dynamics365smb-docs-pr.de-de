@@ -11,7 +11,7 @@ ms.search.form: '189,'
 ms.date: 06/10/2021
 ms.author: edupont
 ---
-# <a name="about-the-data-exchange-framework"></a>Über das Datenaustauschframework
+# Über das Datenaustauschframework
 
 Sie können das Datenaustauschframework verwenden, um den Austausch von Geschäftsbelegen, Bankdateien, Währungswechselkursen und sämtlichen anderen Datendateien mit Ihren Geschäftspartnern oder Behörden zu verwalten.
 
@@ -23,7 +23,7 @@ Als Administrator oder Microsoft-Partner können Sie das Framework in neuen Inte
 
  ![Datenaustausch-Framework &#45; Export.](media/across-data-exchange/dataexchangeframework_export.png)  
 
-## <a name="electronic-documents"></a>Elektronische Belege
+## Elektronische Belege
 
 Als Alternative zum Versand von geschäftlichen Belegen als Dateianhang per E-Mail können Sie diese auch elektronisch versenden und empfangen. Ein „elektronischer Beleg“ ist eine standardkonforme Datei, die ein Geschäftsdokument darstellt, z.B. eine Rechnung eines Kreditors, die Sie empfangen und in eine Einkaufsrechnung in [!INCLUDE[prod_short](includes/prod_short.md)] umwandeln können. Handelspartner tauschen elektronische Belege über externe Document Exchange Services aus. Standardmäßig unterstützt [!INCLUDE[prod_short](includes/prod_short.md)] den Versand und Empfang elektronischer Rechnungen und Gutschriften im PEPPOL-Format, das von den größten Anbietern von Dokumentenaustauschdiensten unterstützt wird. Ein großer Anbieter von Document Exchange Services, Tradeshift, ist bereits vorkonfiguriert und kann für Ihre Firma eingerichtet werden. Um die Unterstützung anderer elektronischer Belege zu ermöglichen, müssen Sie neue Datenaustauschdefinitionen erstellen.  
 
@@ -35,7 +35,7 @@ Um beispielsweise eine Rechnung von einem Kreditor in Form eines elektronischen 
 
   Um zum Beispiel eine Rechnung als elektronischer OCR-Beleg zu empfangen, verarbeiten Sie diese genauso wie beim Empfang eines elektronischen PEPPOL-Belegs. Der Empfang und die Konvertierung von elektronischen Belegen von OCR wird über das Datenaustauschframework durchgeführt, das durch die Datenaustauschdefinition **OCR - Rechnung** dargestellt wird.  
 
-## <a name="bank-files"></a>Bankdateien
+## Bankdateien
 
 Die Formate der Dateien für den Austausch von Bankdaten mit betriebswirtschaftlichen Anwendungen variieren je nach Anbieter der Datei und Land oder Region. [!INCLUDE[prod_short](includes/prod_short.md)] unterstützt den Import und Export von Bankdateien für den einheitlichen Euro-Zahlungsverkehrsraum (SEPA). Außerdem können Sie mit der Erweiterung AMC Banking 365 Fundamentals eine Verbindung zu einer Erweiterung AMC Banking 365 Fundamentals herstellen, die von einem externen Anbieter, AMC Consult, bereitgestellt wird. Weitere Informationen finden Sie unter [Zahlungen mit der AMC Banking 365 Fundamentals-Erweiterung oder SEPA-Überweisung vornehmen](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md). Um Unterstützung für andere elektronische Belegformate zu bieten, verwenden Sie das Datenaustauschframework.  
 
@@ -47,17 +47,17 @@ Um SEPA-Gutschriftübertragungen zu exportieren, wählen Sie die Schaltfläche *
 
  Darüber hinaus unterstützen die lokalen Versionen von [!INCLUDE[prod_short](includes/prod_short.md)] verschiedene andere Dateiformate für den Import und Export von Bankdaten, Lohnabrechnungen und anderen Daten. Weitere Informationen finden Sie auf der Landing Page [Lokale Funktionalität](about-localization.md) für Ihr Land/Ihre Region in der Hilfe.  
 
-## <a name="currency-exchange-rates"></a>Währungswechselkurse
+## Währungswechselkurse
 
 Sie können einen externen Service einrichten, um Ihre Währungswechselkurses auf dem neuesten Stand zu halten. Der Service, der aktualisierte Währungswechselkurses bereitstellt, wird durch eine Datenaustauschdefinition aktiviert. Entsprechend wird die **Wechselkursaktualisierungskarte einrichten** Seite eine verkürzte Darstellungsform des Fensters **Datenaustauschdefinition** für die entsprechenden Datenaustauschdefinition.  
 
 Für den gesamten Austausch von Daten in XML-Dateien können Sie die Einrichtung des Datenaustausches vorbereiten, indem Sie die zugehörige **XML-Schemadatei** auf die Seite laden. Hier wählen Sie die Datenelemente aus, die Sie mit [!INCLUDE[prod_short](includes/prod_short.md)] austauschen möchten, und dann initialisieren Sie entweder eine Datenaustauschdefinition oder generieren einen XMLport.
 
-## <a name="intrastat"></a>Intrastat
+## Intrastat
 
-[!INCLUDE[prod_short](includes/prod_short.md)] verwendet das Datenaustausch-Framework für Intrastat-Berichte, wo Sie auf einfache Weise Zeitstempeldateien in verschiedenen Formaten für den Export erstellen können. [!INCLUDE[prod_short](includes/prod_short.md)] enthält vorbereitete Formate für lokalisierte Länder sowie für die Standardversion. Sie können den Standardbericht jedoch ändern oder einen eigenen erstellen.
+[!INCLUDE[prod_short](includes/prod_short.md)] verwendet das Datenaustausch-Framework für Intrastat-Berichte, wo Sie auf einfache Weise Zeitstempeldateien in verschiedenen Formaten für den Export erstellen können. [!INCLUDE[prod_short](includes/prod_short.md)] enthält vorbereitete Formate für lokalisierte Länder/Regionen sowie für die Standardversion. Sie können den Standardbericht jedoch ändern oder einen eigenen erstellen.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Daten elektronisch austauschen](across-data-exchange.md)  
 [XML-Schemas verwenden, um Datenaustauschdefinitionen vorzubereiten](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  

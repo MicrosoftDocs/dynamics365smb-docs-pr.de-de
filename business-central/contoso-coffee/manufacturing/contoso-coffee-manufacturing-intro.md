@@ -9,7 +9,7 @@ author: edupont04
 ms.author: andreipa
 ---
 
-# <a name="introduction-to-contoso-coffee-manufacturing"></a>Einführung in Contoso Coffee Produktion
+# Einführung in Contoso Coffee Produktion
 
 Contoso Coffee ist ein fiktives Unternehmen, das Kaffeemaschinen für Verbraucher und gewerbliche Kunden herstellt. Die **Contoso Coffee**-Apps für Business Central fügen Demodaten hinzu, mit deren Hilfe Sie die Verwendung der Produktionsfunktionen in Business Central erlernen können.  
 
@@ -36,7 +36,7 @@ Die Fertigungsaktivitäten für alle Szenarien verwenden den Standort *NORD*.
 > [!IMPORTANT]
 > Bevor Sie eines der Szenarien für Contoso Coffee ausführen, buchen Sie alle Buchungsblattzeilen mit Anfangssalden. Weitere Anforderungen finden Sie im Abschnitt [Contoso Coffee-Daten einrichten](#set-up-contoso-coffee-manufacturing-data).
 
-## <a name="set-up-contoso-coffee-manufacturing-data"></a>Contoso Coffee-Produktionsdaten
+## Contoso Coffee-Produktionsdaten
 
 Um die Produktionsdaten von Contoso Coffee nutzen zu können, müssen Sie zwei Apps im jeweiligen Unternehmen in [!INCLUDE [prod_short](../../includes/prod_short.md)] installieren:  
 
@@ -45,7 +45,7 @@ Um die Produktionsdaten von Contoso Coffee nutzen zu können, müssen Sie zwei A
     Diese App stellt Demodaten für die Basisanwendung bereit.  
 - **Demo-Dataset für Contoso Coffee (Länderkennung)**  
 
-    Diese App fügt länderspezifische Inhalte zusätzlich zur Basisanwendung hinzu.
+    Diese App fügt länder-/regionsspezifische Inhalte zusätzlich zur Basisanwendung hinzu.
 
 Fügen Sie die Apps einem leeren Unternehmen in einem kostenpflichtigen Abonnement oder als Teil einer Testversion hinzu. Erstellen Sie beispielsweise ein neues Unternehmen ohne Beispieldaten über das unterstützte Setup **Neues Unternehmen erstellen**, das Sie über die Liste **Unternehmen** öffnen können. Fügen Sie dann die Apps über den [Marktplatz](../../ui-extensions-install-uninstall.md#install) hinzu, wenn sie nicht bereits auf der Seite **Erweiterungsverwaltung** aufgelistet sind.  
 
@@ -67,13 +67,13 @@ Sobald die relevanten Apps installiert sind, wechseln Sie zur Seite [Contoso Cof
 
 Wenn Sie fertig sind, wählen Sie die Aktion **Demodaten erstellen** aus. Es dauert einige Minuten, der zugrunde liegenden Datenbank die Daten hinzuzufügen, anschließend können Sie die verschiedenen Szenarien jedoch ausführen.  
 
-## <a name="scenarios"></a>Szenarien
+## Szenarien
 
 Die Produktions-Demodaten von Contoso Coffee unterstützen derzeit die folgenden Szenarien für Tests und Schulungen:
 
 1. [Neue Versionen von Fertigungsstücklisten und Stücklisten erstellen](create-new-production-bom-version.md)  
 2. [Neuen Arbeitsplan erstellen](create-new-routing.md)  
-3. [Neuen fest geplanten Fertigungsauftrag erstellen und ändern](create-firm-planned-production-order-change.md)  
+3. [Erstellen und Ändern fest geplanter Fertigungsaufträge](create-firm-planned-production-order-change.md)  
 4. [Automatisches und manuelles Buchen kombinieren](combine-automatic-manual-flushing.md)  
 5. [Auftragsplanung zum Erstellen und Reservieren von Lieferungen verwenden](order-planning-create-reserve-supply.md)  
 6. [Fremdarbeitsvorgang einrichten und verarbeiten](set-up-process-subcontracting-operation.md)  
@@ -85,7 +85,7 @@ Lesen Sie die Schritte für jedes Szenario im entsprechenden Artikel.
 > [!IMPORTANT]
 > Diese exemplarischen Vorgehensweisen erfordern, dass die Benutzererfahrung auf der Seite **Unternehmensdaten** auf *Premium* festgelegt ist.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Produktion](../../production-manage-manufacturing.md)  
 [Produktionsberichte und Analysen in Business Central](../../production-reports.md)  

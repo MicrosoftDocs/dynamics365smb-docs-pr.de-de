@@ -16,7 +16,7 @@ sections:
       - question: |
           Ist Business Central in meinem Land/meiner Region verfügbar?
         answer: |
-          [!INCLUDE[prod_short](includes/prod_short.md)] ist in einer begrenzten Anzahl von Märkten verfügbar. Neue Länder werden über eine von Microsoft geführte Lokalisation oder durch partnergeführte Lokalisation quartalsweise hinzugefügt. Weitere Informationen finden Sie unter [Verfügbarkeit nach Ländern/Regionen und unterstützte Übersetzungen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json) (nur in Englisch verfügbar).  
+          [!INCLUDE[prod_short](includes/prod_short.md)] ist in einer begrenzten Anzahl von Märkten verfügbar. Neue Länder/Regionen werden über eine von Microsoft geführte Lokalisation oder durch partnergeführte Lokalisation quartalsweise hinzugefügt. Weitere Informationen finden Sie unter [Verfügbarkeit nach Ländern/Regionen und unterstützte Übersetzungen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json) (nur in Englisch verfügbar).  
       - question: |
           Wie erhalte ich Business Central?
         answer: |
@@ -61,7 +61,7 @@ sections:
       - question: |
           Wo ist die Speichern-Schaltfläche?
         answer: |
-          es gibt keine *Speichern*-Schaltfläche auf Seiten wie in anderen Programmen, mit denen Sie möglicherweise vertraut sind. In [!INCLUDE[prod_short](includes/prod_short.md)] werden Änderungen, die Sie in einem Feld vornehmen, automatisch gespeichert, sobald Sie zum nächsten Feld wechseln oder die Seite schließen, sofern keine Fehler vorliegen. Wenn Sie Änderungen an einem Feld vornehmen und zu einem anderen Feld wechseln, wird der Text **Wird gespeichert** in der oberen rechten Ecke der Seite angezeigt. Er wechselt schnell zu**Gespeichert**, wenn keine Fehler auftreten. Wenn ein Fehler auftritt, wird der Text in **Nicht gespeichert** geändert.  
+          es gibt keine *Speichern*-Schaltfläche auf Seiten wie in anderen Programmen, mit denen Sie möglicherweise vertraut sind. In [!INCLUDE[prod_short](includes/prod_short.md)] werden Änderungen, die Sie in einem Feld vornehmen, automatisch gespeichert, sobald Sie zum nächsten Feld wechseln oder die Seite schließen, sofern keine Fehler vorliegen. Wenn Sie Änderungen an einem Feld vornehmen und zu einem anderen Feld wechseln, wird der Text **Wird gespeichert** in der oberen rechten Ecke der Seite angezeigt. Er wechselt schnell zu **Gespeichert**, wenn keine Fehler auftreten. Wenn ein Fehler auftritt, wird der Text in **Nicht gespeichert** geändert.  
       - question: |
           Wo finde ich diese Zeilennummer?
         answer: |

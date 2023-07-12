@@ -4,7 +4,7 @@ description: 'Erfahren Sie, wie Sie Probleme mit der Verbindung zwischen Busines
 author: jswymer
 ms.topic: conceptual
 ms.search.keywords: 'workflow, OData, Power App, SOAP, Entity set not found, workflowWebhookSubscriptions, Power Automate,'
-ms.date: 06/16/2023
+ms.date: 07/03/2023
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.service: d365-business-central
@@ -22,7 +22,7 @@ Wenn ein Ereignis viele Datensätze erstellt oder ändert, wird der Flow für ei
 
 ### Mögliche Ursache
 
-Derzeit ist die Anzahl der Datensätze, die ein Flow verarbeiten kann, begrenzt. Wenn mehr als 100 Datensätze innerhalb von 30 Sekunden erstellt oder geändert werden, wird der Flow nicht ausgelöst.
+Derzeit ist die Anzahl der Datensätze, die ein Flow verarbeiten kann, begrenzt. Wenn mehr als 1000 Datensätze innerhalb von 30 Sekunden erstellt oder geändert werden, wird der Flow nicht ausgelöst.
 
 > [!NOTE]
 > Für Entwickler erfolgt die Flow-Auslösung über Webhook-Benachrichtigungen, und diese Einschränkung ist darauf zurückzuführen, wie der Business Central-Konnektor `collection`-Benachrichtigungen handhabt. Weitere Informationen finden Sie unter [Mit Webhooks in Dynamics 365 Business Central arbeiten](/dynamics365/business-central/dev-itpro/api-reference/v2.0/dynamics-subscriptions#notes-for-power-automate-flows) in der Hilfe für Entwickler und die Verwaltung.

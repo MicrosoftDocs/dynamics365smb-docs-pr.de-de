@@ -45,7 +45,7 @@ Wir laden Sie ein, Microsoft Dynamics Lifecycle Services (LCS) zu verwenden, um 
         |Description  | Geben Sie eine kurze Übersicht des Gesetzes ein. Die Beschreibung sollte sich auf Probleme konzentrieren, die für die Unternehmensressourcenplanung (ERP) relevant sind, damit Benutzer die Anforderungen auf hoher Ebene erkennen können, ohne erst die Gesetzestexte lesen zu müssen.|
         |Land  | Geben Sie das Land bzw. die Region des Gesetzes an.|
         |Branche| Geben Sie der Branche an, wenn die Anforderung nur für bestimmte Branchen gilt. Wählen Sie beispielsweise **Öffentlicher Sektor**, **Einzelhandel** oder **Produktion** aus.|
-        |Funktionsreferenz  | Dies ist nicht für Dynamics 365 Business Central relevant, aber Sie können eine Funktionsreferenz eingeben, wenn Sie sie kennen. Die Liste der Funktionen für das bestimmte Land finden Sie im [Lokalisierungsportal](/dynamics/s-e/) auf der CustomerSource Seite. |
+        |Funktionsreferenz  | Dies ist nicht für Dynamics 365 Business Central relevant, aber Sie können eine Funktionsreferenz eingeben, wenn Sie sie kennen. Die Liste der Funktionen für das bestimmte Land bzw. die Region finden Sie im [Lokalisierungsportal](/dynamics/s-e/) auf der CustomerSource Seite. |
         |Strafverfolgungsdatum  | Geben Sie das Datum an, wenn betroffene Debitoren starten müssen, das Gesetz einzuhalten.|
         |Regierungsankündigungsdatum  | Geben Sie das Datum an, an dem die Behörde die Änderung angekündigt hat.|
         |Letztes Archivierungsdatum  | Wählen Sie den Stichtag für die erste Übermittlung des neuen oder geänderten Berichts aus.|

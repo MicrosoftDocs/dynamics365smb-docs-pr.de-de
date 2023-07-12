@@ -11,10 +11,10 @@ ms.search.form: '3903, 3901'
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# <a name="define-retention-policies"></a>Aufbewahrungsrichtlinien definieren
+# Aufbewahrungsrichtlinien definieren
 Administratoren können Aufbewahrungsrichtlinien definieren, um festzulegen, wie häufig [!INCLUDE[prod_short](includes/prod_short.md)] veraltete Daten in Tabellen löschen soll, die Protokolleinträge und archivierte Datensätze enthalten. Das Bereinigen von Protokolleinträgen kann beispielsweise das Arbeiten mit tatsächlich relevanten Daten erleichtern. Richtlinien können alle Daten in den Tabellen beinhalten, die nach dem Ablaufdatum liegen, oder Sie können Filterkriterien hinzufügen, die nur bestimmte abgelaufene Daten in die Richtlinie aufnehmen. 
 
-## <a name="required-setups-and-permissions"></a>Erforderliche Einrichtungen und Berechtigungen
+## Erforderliche Einrichtungen und Berechtigungen
 Bevor Sie Aufbewahrungsrichtlinien erstellen können, müssen Sie Folgendes einrichten:
 
 |Einrichtung  |Beschreibung  |
@@ -25,15 +25,15 @@ Bevor Sie Aufbewahrungsrichtlinien erstellen können, müssen Sie Folgendes einr
 Darüber hinaus müssen Sie über die SUPERUSER-Berechtigungen oder den Berechtigungssatz zum Einrichten von Aufbewahrungsrichtlinien verfügen. Benutzer, denen der Berechtigungssatz zum Einrichten von Aufbewahrungsrichtlinien erteilt wurde, können Aufbewahrungsrichtlinien für Tabellen definieren, auch wenn sie keine Lese- und Löschberechtigungen für diese Tabellen haben. Der Aufgabewarteschlangenposten muss als Benutzer mit Berechtigungen zum Lesen und Löschen der Daten ausgeführt werden. Wir empfehlen, den Berechtigungssatz zum Einrichten von Aufbewahrungsrichtlinien nur den Benutzern zu erteilen, die zum Löschen von Daten berechtigt sein sollen.
 
 > [!NOTE]
-> Wenn Sie [!INCLUDE[prod_short](includes/prod_short.md)] On-Premises verwenden und Aufbewahrungsrichtlinien in der Cronus-Demodatenbank ausprobieren möchten, müssen Sie einige Vorbereitungen treffen. Das Demounternehmen enthält keine Tabellen, die Sie mit Aufbewahrungsrichtlinien verwenden können. Sie müssen diese daher hinzufügen. Erstellen Sie hierzu ein neues, leeres Unternehmen in der Demodatenbank. Importieren Sie im neuen Unternehmen das RapidStart-Konfigurationspaket für Ihr Land, das dem standardmäßigen NAV17.0.W1.ENU.STANDARD.rapidstart-Paket entspricht. Die Einrichtungsdaten für Aufbewahrungsrichtlinien sind im neuen Unternehmen verfügbar.
+> Wenn Sie [!INCLUDE[prod_short](includes/prod_short.md)] On-Premises verwenden und Aufbewahrungsrichtlinien in der Cronus-Demodatenbank ausprobieren möchten, müssen Sie einige Vorbereitungen treffen. Das Demounternehmen enthält keine Tabellen, die Sie mit Aufbewahrungsrichtlinien verwenden können. Sie müssen diese daher hinzufügen. Erstellen Sie hierzu ein neues, leeres Unternehmen in der Demodatenbank. Importieren Sie im neuen Unternehmen das RapidStart-Konfigurationspaket für Ihr Land/Ihre Region, das dem standardmäßigen NAV17.0.W1.ENU.STANDARD.rapidstart-Paket entspricht. Die Einrichtungsdaten für Aufbewahrungsrichtlinien sind im neuen Unternehmen verfügbar.
 
-### <a name="to-create-retention-periods"></a>So erstellen Sie Aufbewahrungszeiträume
+### So erstellen Sie Aufbewahrungszeiträume
 Die Aufbewahrungszeiträume können beliebig lang oder kurz sein. Um Aufbewahrungszeiträume zu erstellen, verwenden Sie auf der Seite **Aufbewahrungsrichtlinien** die Aktion **Aufbewahrungszeitraum**. Die von Ihnen definierten Zeiträume sind für alle Richtlinien verfügbar.
 
 > [!NOTE]
 > Aus Kompatibilitätsgründen haben wir für einige Tabellen einen Mindestaufbewahrungszeitraum festgelegt. Wenn Sie einen Aufbewahrungszeitraum festlegen, der die Mindestdauer unterschreitet, wird in einer Meldung der obligatorische Mindestaufbewahrungszeitraum angezeigt.
 
-### <a name="set-up-a-retention-policy"></a>Aufbewahrungsrichtlinie einrichten
+### Aufbewahrungsrichtlinie einrichten
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Aufbewahrungsrichtlinien** ein und wählen Sie den zugehörigen Link.
 2. Geben Sie im Feld **Tabellen-ID** die Tabelle ein, die in der Richtlinie berücksichtigt werden soll.
 3. Geben Sie im Feld **Aufbewahrungszeitraum** an, wie lange die Daten in der Tabelle verbleiben sollen.
@@ -42,24 +42,24 @@ Die Aufbewahrungszeiträume können beliebig lang oder kurz sein. Um Aufbewahrun
    > [!NOTE]
    > Jede Zeile hat ihren eigenen Aufbewahrungszeitraum. Wenn Sie für dieselben Daten unterschiedliche Aufbewahrungszeiträume angeben, wird der längste Zeitraum verwendet. Einige Tabellen enthalten auch Filter, die Sie nicht ändern oder entfernen können. Um Ihnen die Identifizierung dieser Filter zu erleichtern, werden sie in einer helleren Schrift angezeigt.
 
-## <a name="applying-retention-policies"></a>Anwenden von Aufbewahrungsrichtlinien
+## Anwenden von Aufbewahrungsrichtlinien
 Sie können einen Aufgabenwarteschlangenposten zum Anwenden von Aufbewahrungsrichtlinien verwenden, um Daten automatisch zu löschen, oder Sie können Richtlinien manuell anwenden.
 
 Um eine Aufbewahrungsrichtlinie automatisch anzuwenden, erstellen und aktivieren Sie einfach eine Richtlinie. Wenn Sie eine Richtlinie aktivieren, erstellen wir einen Aufgabenwarteschlangenposten, der Aufbewahrungsrichtlinien entsprechend dem von Ihnen angegebenen Aufbewahrungszeitraum anwendet. Alle Aufbewahrungsrichtlinien verwenden denselben Aufgabenwarteschlangenposten. Standardmäßig wendet der Aufgabenwarteschlangenposten die Richtlinie jeden Tag um 02:00 Uhr an. Sie können die Standardeinstellung ändern. Wir empfehlen Ihnen jedoch, die Ausführung außerhalb der Geschäftszeiten zu legen. Weitere Informationen finden Sie unter [Job-Warteschlangen zur Einplanung von Aufgaben verwenden](admin-job-queues-schedule-tasks.md). 
 
 Sie können eine Richtlinie manuell anwenden, indem Sie die Aktion **Manuell anwenden** auf der Seite **Aufbewahrungsrichtlinien** verwenden. Wenn Sie eine Richtlinie immer manuell anwenden möchten, aktivieren Sie die Option **Manuell**. Der Aufgabenwarteschlangenposten ignoriert die Richtlinie, wenn er ausgeführt wird.
 
-## <a name="viewing-retention-policy-log-entries"></a>Anzeigen von Protokolleinträgen für Aufbewahrungsrichtlinien
+## Anzeigen von Protokolleinträgen für Aufbewahrungsrichtlinien
 Sie können Aktivitäten im Zusammenhang mit Aufbewahrungsrichtlinien auf der Seite **Aufbewahrungsrichtlinienprotokoll** anzeigen. Beispielsweise werden Einträge erstellt, wenn eine Richtlinie angewendet wird oder wenn dabei Fehler aufgetreten sind. 
 
-## <a name="including-your-extension-in-a-retention-policy-requires-help-from-a-developer"></a>Ihre Erweiterung in eine Aufbewahrungsrichtlinie einbeziehen (erfordert die Unterstützung eines Entwicklers)
+## Ihre Erweiterung in eine Aufbewahrungsrichtlinie einbeziehen (erfordert die Unterstützung eines Entwicklers)
 Standardmäßig decken Aufbewahrungsrichtlinien nur Tabellen ab, die in der Liste der von uns bereitgestellten [!INCLUDE[prod_short](includes/prod_short.md)]-Tabellen enthalten sind. Sie können Standardtabellen aus der Liste entfernen und eigene Tabellen hinzufügen. Das heißt, Sie können keine Tabelle hinzufügen, die Sie nicht selbst erstellt haben. Sie können beispielsweise keine anderen Tabellen von [!INCLUDE[prod_short](includes/prod_short.md)] oder von einer Erweiterung, die Sie gekauft haben, hinzufügen.
 
 Um Ihre Tabellen zur Liste der zulässigen Tabellen hinzuzufügen, muss ein Entwickler Code hinzufügen, z. B. zur Installer-Codeunit für die Erweiterung (eine Codeunit mit dem Untertyp *install*). 
 
 Wenn ein Entwickler eine Tabelle hinzufügt, kann er obligatorische Filter und Standardfilter angeben. Obligatorische Filter können später nicht entfernt oder geändert werden, wenn Sie Tabellen hinzufügen, um eine Aufbewahrungsrichtlinie zu definieren. Standardfilter sind lediglich Vorschläge.
 
-Im Folgenden finden Sie Beispiele zum Hinzufügen einer Tabelle zur Liste der zulässigen Tabellen mit und ohne obligatorische Filter oder Standardfilter. Ein komplexeres Beispiel finden Sie in der Codeunit 3999 „Aufb. -Richtl.  install. – Basis-App“. 
+Im Folgenden finden Sie Beispiele zum Hinzufügen einer Tabelle zur Liste der zulässigen Tabellen mit und ohne obligatorische Filter oder Standardfilter. Ein komplexeres Beispiel finden Sie in der Codeunit 3999 „Aufb. -Richtl. install. – Basis-App“. 
 
 ```al
  trigger OnInstallAppPerCompany()
@@ -95,7 +95,7 @@ Das folgende Beispiel enthält einen obligatorischen Filter.
 
 Nachdem ein Entwickler der Liste Tabellen hinzugefügt hat, kann ein Administrator diese in eine Aufbewahrungsrichtlinie aufnehmen. 
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Analysieren der Trace-Telemetrie von Aufbewahrungsrichtlinien](/dynamics365/business-central/dev-itpro/administration/telemetry-retention-policy-trace)  
 [Protokollieren von Änderungen in Business Central](across-log-changes.md)  

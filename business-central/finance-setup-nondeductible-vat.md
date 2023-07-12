@@ -14,14 +14,14 @@ ms.custom: bap-template
 
 # Nicht abzugsfähige MwSt. einrichten
 
-Bei der nicht abzugsfähigen Mehrwertsteuer (MwSt.) handelt es sich um die Mehrwertsteuer, die von einem Käufer zu zahlen ist, aber nicht von seiner eigenen Mehrwertsteuerschuld des Käufers abgezogen werden kann. Unternehmen können in der Regel die MwSt. beim Kauf von Waren und Dienstleistungen im Zusammenhang mit ihrer Geschäftstätigkeit zurückfordern. In manchen Situationen fällt einem Unternehmen jedoch MwSt. an, die nicht abzugsfähig ist. Diese Situationen hängen typischerweise mit den örtlichen Vorschriften zusammen und können sich von Land zu Land unterscheiden. Das Modell der Verwendung der nicht abzugsfähigen oder teilweise abzugsfähigen MwSt. ist jedoch ähnlich. Sie können die anteilige MwSt. verwenden, um die MwSt. zu berechnen, wenn es abzugsfähige und nicht abzugsfähige MwSt. gibt.
+Bei der nicht abzugsfähigen Mehrwertsteuer (MwSt.) handelt es sich um die Mehrwertsteuer, die von einem Käufer zu zahlen ist, aber nicht von seiner eigenen Mehrwertsteuerschuld des Käufers abgezogen werden kann. Unternehmen können in der Regel die MwSt. beim Kauf von Waren und Dienstleistungen im Zusammenhang mit ihrer Geschäftstätigkeit zurückfordern. In manchen Situationen fällt einem Unternehmen jedoch MwSt. an, die nicht abzugsfähig ist. Diese Situationen hängen typischerweise mit den örtlichen Vorschriften zusammen und können sich von Land zu Land sowie Region zu Region unterscheiden. Das Modell der Verwendung der nicht abzugsfähigen oder teilweise abzugsfähigen MwSt. ist jedoch ähnlich. Sie können die anteilige MwSt. verwenden, um die MwSt. zu berechnen, wenn es abzugsfähige und nicht abzugsfähige MwSt. gibt.
 
 Im Allgemeinen kann die MwSt. für einige Käufe aufgrund der folgenden Faktoren nicht abgezogen werden:
 
 - **Die Art der gekauften Waren oder Dienstleistungen**: Die MwSt. ist aufgrund einer gesetzlichen Bestimmung über Waren wie Autos, Mobiltelefone und Lebensmittel, die in Restaurants gekauft werden, ganz oder teilweise nicht abzugsfähig.
 - **Teilweise abzugsfähige anteilige MwSt.**: Die MwSt. wird entsprechend dem Verhältnis zwischen den Verkaufsvorgängen, für die die MwSt. geschuldet wird, und allen durchgeführten Vorgängen anteilig berechnet. MwSt., die dieses Verhältnis übersteigt, kann nicht abgezogen werden.
 
-Da es schwierig sein kann, zu wissen, wo und wie ein Artikel verwendet wird, müssen Sie sich an die örtlichen Steuerbehörden in Ihrem Land wenden, um herauszufinden, ob ein bestimmter Prozentsatz der MwSt. auf der Grundlage historischer Daten abzugsfähig ist. 
+Da es schwierig sein kann, zu wissen, wo und wie ein Artikel verwendet wird, müssen Sie sich an die örtlichen Steuerbehörden in Ihrem Land/Ihrer Region wenden, um herauszufinden, ob ein bestimmter Prozentsatz der MwSt. auf der Grundlage historischer Daten abzugsfähig ist. 
 
 > [!IMPORTANT]
 > Dieses globale Feature ist **außer in Belgien, Italien, Norwegen und Spanien** in allen Ländern mit aktivierter MwSt. verfügbar. Diese Lokalisierungen verfügen bereits über lokale Features und werden in Zukunft aktualisiert. Führen Sie dieses Feature in diesen Ländern nicht aus, da es kein Upgrade-Verfahren gibt.
