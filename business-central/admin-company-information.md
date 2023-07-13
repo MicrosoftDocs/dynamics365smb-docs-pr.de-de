@@ -8,7 +8,7 @@ ms.date: 08/31/2022
 ms.author: edupont
 ---
 
-# <a name="company-information-overview"></a>Übersicht über Unternehmensdaten
+# Übersicht über Unternehmensdaten
 
 [!INCLUDE[prod_short](includes/prod_short.md)] organisiert Geschäftseinheiten in *Unternehmen*. Für jede Firma müssen Sie einige grundlegende Unternehmensdaten und relevante Informationen auf der Seite **Unternehmensdaten** ausfüllen. Die Informationen auf der Seite [**Unternehmensdaten**](https://businesscentral.dynamics.com/?page=1) werden in Dokumenten verwendet, z.B. in den Kopfzeilen von Rechnungen. Sie können mehrere Unternehmen einrichten, z. B. eine Muttergesellschaft und eine Tochtergesellschaft.  
 
@@ -22,13 +22,13 @@ Die Seite **Unternehmensdaten** enthält je nach Land/Region unterschiedliche Fe
 
 Sobald Sie die Informationen ausgefüllt haben, können Sie die Seite schließen.  
 
-## <a name="working-with-multiple-companies"></a>Arbeiten mit mehreren Firmen
+## Arbeiten mit mehreren Firmen
 
 Wenn Ihr [!INCLUDE [prod_short](includes/prod_short.md)] mehrere Firmen umfasst, möchten Ihre Benutzer vielleicht *Firmen-Badges* verwenden, damit sie schnell erkennen und im Auge behalten können, in welcher Firma sie gerade arbeiten. Weitere Informationen finden Sie unter [Anzeigen eines Firmen-Badges](#badge).
 
 Es gibt einige Funktionen, mit denen Sie während der Arbeit zwischen den Firmen wechseln können, z.B. den Firmenwechsler (<kbd>Strg</kbd>+<kbd>+O</kbd>). Erfahren Sie mehr unter [Zu einer anderen Firma oder Umgebung wechseln](ui-organization-switch.md).
 
-## <a name="display-a-company-badge"></a><a name="badge"></a>Ein Abzeichen für eine Firma anzeigen
+## <a name="badge"></a>Ein Abzeichen für eine Firma anzeigen
 
 Wenn es mehr als eine Firma oder eine Umgebung gibt, sehen Sie den Firmenwechsler oben rechts in der App-Leiste, in der Nähe des Symbols für die Suche in der App-Leiste. Standardmäßig verwendet der Firmenwechsler ein standardmäßiges Symbol der Firma, wie ![Firmensymbol Launcher.](media/ui-experience/company-icon.png "Zeigt das Symbol für den Wechsel der Firma an, das verwendet wird, wenn es nur eine Umgebung gibt") und ![Firmen-Symbol-mult-env](media/ui-experience/company-icon-multi-env.png "Zeigt das Symbol für den Wechsler der Firma an, wenn es mehrere Umgebungen gibt").
 
@@ -42,7 +42,7 @@ Auf der Seite **Unternehmensdaten** können Sie das standardmäßige Symbol für
 > [!NOTE]
 > Der Wechsel der Firma wurde mit der Veröffentlichungswelle 2022, Version 21, eingeführt. In früheren Versionen wird das Firmenabzeichen nicht für den Wechsel der Firma verwendet. Es wird in der oberen rechten Ecke der meisten Seiten angezeigt, auch wenn es nur eine Firma gibt. Wenn Sie es auswählen, werden der vollständige Name der Firma und der Name der Umgebung angezeigt.
 
-## <a name="change-company-display-name"></a>Anzeigename der Firma ändern
+## Anzeigename der Firma ändern
 
 Der Firmenname wird immer in der oberen linken Ecke angezeigt und fungiert als Aktion, die Sie auswählen können, um zum Rollencenter zurückzukehren. Diesen Namen können Sie auf der Seite **Firmeninformation** ändern.
 
@@ -50,13 +50,13 @@ Der Firmenname wird immer in der oberen linken Ecke angezeigt und fungiert als A
 2. Geben Sie im Feld **Namen** den neuen Namen des Unternehmens ein.
 3. Verlassen Sie die Seite. Das System startet neu und zeigt die neue Firma in der oberen linken Ecke an.
 
-## <a name="experience"></a>Erfahrung
+## Erfahrung
 
 Die Standardbenutzeroberfläche in einem [!INCLUDE [prod_short](includes/prod_short.md)]-Test zeigt nicht alle Funktionalitäten an. Sie können den vollen Funktionsumfang auf der Seite **Unternehmensdaten** einschalten. Weitere Informationen finden Sie unter [Ändern, welche Funktionen angezeigt werden](ui-experiences.md).  
 
-## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/create-new-companies-dynamics-365-business-central/)
+## Siehe verwandte [Microsoft Schulungen](/training/modules/create-new-companies-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Übersicht über die Aufgaben zum Einrichten von [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Unternehmensdaten-Schnellstart](quick-start-company-information.md)  
