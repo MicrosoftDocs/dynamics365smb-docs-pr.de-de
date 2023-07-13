@@ -1,519 +1,351 @@
 ### YamlMime:Hub
-title:  Microsoft Dynamics 365 Business Central-Dokumentation
-summary: Entdecken Sie, wie Sie mit Online-Schulungen und Dokumentationen zu den Produktfunktionen das Beste aus Dynamics 365 Business Central herausholen können. Erfahren Sie, wie Sie mit Business Central Abläufe wie Finanzen, Produktion, Vertrieb und vieles mehr in Ihrem kleinen oder mittleren Unternehmen verwalten, anpassen und optimieren können.
+title: Microsoft Dynamics 365 Business Central-Dokumentation
+summary: 'Entdecken Sie, wie Sie mit Online-Schulungen und Dokumentationen zu den Produktfunktionen das Beste aus Dynamics 365 Business Central herausholen können. Erfahren Sie, wie Sie mit Business Central Abläufe wie Finanzen, Produktion, Vertrieb und vieles mehr in Ihrem kleinen oder mittleren Unternehmen verwalten, anpassen und optimieren können.'
 brand: dynamics
-
 metadata:
   title: Microsoft Dynamics 365 Business Central-Dokumentation
-  description: Business Central ist eine Unternehmensverwaltungslösung für kleine und mittelständische Organisationen. Sie verbindet Vertrieb, Service, Finanzen und Betrieb und ermöglicht ein intelligenteres Arbeiten, eine schnellere Anpassung und eine bessere Leistung. Business Central automatisiert und optimiert Geschäftsprozesse und unterstützt Sie bei der Verwaltung Ihres Unternehmens.  
+  description: 'Business Central ist eine Unternehmensverwaltungslösung für kleine und mittelständische Organisationen. Sie verbindet Vertrieb, Service, Finanzen und Betrieb und ermöglicht ein intelligenteres Arbeiten, eine schnellere Anpassung und eine bessere Leistung. Business Central automatisiert und optimiert Geschäftsprozesse und unterstützt Sie bei der Verwaltung Ihres Unternehmens.'
   ms.topic: hub-page
   ms.service: dynamics365-business-central
   author: jswymer
   ms.author: jswymer
   ms.date: 06/16/2023
   hide_bc: true
-
 highlightedContent:
-# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
-
-# Do not change the following cards. You should only need to update the URLs to provide the correct links to your product documentation.
-
   items:
-    # Card
     - title: Willkommen bei Business Central
       itemType: get-started
       url: /dynamics365/business-central/welcome
-    # Card
     - title: Neuigkeiten
       itemType: whats-new
       url: /dynamics365/business-central/product-news
-    # Card
     - title: Schulungen
       itemType: training
       url: /training/dynamics365/business-central
-    # Card
     - title: Problembehandlung
       itemType: concept
       url: /dynamics365/business-central/across-faq
-      
-additionalContent: 
+additionalContent:
   sections:
-  - title: Umsetzung
-# Guidance should be the first card under implement. On this card, include links for Security and Compliance, Implementation, Adoption frameworks, and Best practices. 
-# Each card should have at least three and no more than five links. Do not include a "See also" link.
-    items:
-    - title: Anleitungen 
-      links: 
-      - text: Sicherheit, Compliance und Datenschutz
-        url: /dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json
-    #  - text: Compliance
-    #    url: /dynamics365/business-central/compliance/compliance-overview    
-    #  - text: Datenschutz
-    #    url: /dynamics365/business-central/privacy-connected-services
-    #  - text: Leistung für Administratoren
-    #    url: /dynamics365/business-central/dev-itpro/performance/performance-overview
-    #  - text: Leistung für Benutzer
-    #    url: /dynamics365/business-central/dev-itpro/performance/performance-users
-      - text: Die Infrastruktur von Business Central Online verstehen
-        url: /dynamics365/business-central/dev-itpro/administration/tenant-environment-topology 
-      - text: Von lokal auf online umsteigen
-        url: /dynamics365/business-central/dev-itpro/administration/migrate-data
-    #  - text: Anwendungsdesigndetails
-    #    url: /dynamics365/business-central/design-details-application-design
-      - text: Leistung
-        url: /dynamics365/business-central/dev-itpro/performance/performance-overview
-    - title: Ausprobieren/Kaufen
-      links: 
-      - text: Business Central Online kostenlos testen
-        url: /dynamics365/business-central/trial-signup
-      - text: Business Central Online kaufen
-        url: /dynamics365/business-central/trial-signup#get-started-with-a-subscription
-    #  - text: Lokale Installation von Business Central kaufen (PDF)
-    #    url: https://assetsprod.microsoft.com/mpn/en-us/business-central-dynamics-licensing-guide.pdf
-      - text: Erweiterungen für mehr Funktionen hinzufügen
-        url: /dynamics365/business-central/ui-extensions-install-uninstall
-    #  - text: Lokale Installation von Business Central bereitstellen
-    #    url: /dynamics365/business-central/dev-itpro/deployment/deployment-scenarios
-    #  - text: Mobile App und Desktop-App installieren
-    #    url: /dynamics365/business-central/install-mobile-app
-    #  - text: Von lokal auf online umsteigen
-    #    url: /dynamics365/business-central/dev-itpro/administration/migrate-data
-    - title: Einrichten
-      links:
-      - text: Unternehmen
-        url: /dynamics365/business-central/about-new-company      
-#      - text: Unternehmensinformationen hinzufügen
-#        url: /dynamics365/business-central/admin-company-information
-#      - text: Nummernserie erstellen
-#        url: /dynamics365/business-central/ui-create-number-series
-#      - text: Basiskalender einrichten
-#        url: /dynamics365/business-central/across-how-to-assign-base-calendars
-#      - text: Über mehrere Unternehmen hinweg mit dem Unternehmens-Hub arbeiten
-#        url: /dynamics365/business-central/company-hub 
-#    - title: Geschäft einrichten
-#      links: 
-      - text: Geschäftsfunktionen
-        url: /dynamics365/business-central/setup
-    #  - text: Finanzen
-    #    url: /dynamics365/business-central/finance-setup-finance
-    #  - text: Banking
-    #    url: /dynamics365/business-central/bank-setup-banking        
-    #  - text: Verkauf
-    #    url: /dynamics365/business-central/sales-setup-sales
-    #  - text: Einkauf
-    #    url: /dynamics365/business-central/purchasing-setup-purchasing  
-    #  - text: E-Mail
-    #    url: /dynamics365/business-central/admin-how-setup-email
-    #  - url: /dynamics365/business-central/inventory-setup-inventory
-    ##    text: Inventar
-    #- title: Weitere Einrichtungsmöglichkeiten
-    #  links:
-    #  - url: /dynamics365/business-central/warehouse-setup-warehouse
-    #    text: Lager
-    #  - url: /dynamics365/business-central/production-configure-production-processes
-    #    text: Fertigung
-    #  - url: /dynamics365/business-central/service-setup-service
-    #    text: Serviceverwaltung
-      - text: Aufgabenwarteschlangen
-        url: /dynamics365/business-central/admin-job-queues-schedule-tasks      
-      - text: Workflows
-        url: /dynamics365/business-central/across-set-up-workflows
-    #  - text: Drucker
-    #    url: /dynamics365/business-central/ui-specify-printer-selection-reports
-    #  - text: In Excel bearbeiten
-    #    url: /dynamics365/business-central/admin-deploy-excel-addin
-    - title: In andere Produkte integrieren
-      links:     
-      - text: Teams
-        url: /dynamics365/business-central/across-teams-overview
-      - text: Dataverse
-        url: /dynamics365/business-central/admin-common-data-service 
-      - text: Power Automate 
-        url: /dynamics365/business-central/dev-itpro/powerplatform/power-automate-overview
-      - text: Power BI
-        url: /dynamics365/business-central/admin-powerbi
-      - text: OneDrive
-        url: /dynamics365/business-central/across-onedrive-overview  
-  - title: Verwalten und entwickeln
-    items:
-    - title: Benutzerzugriff verwalten
-      links:
-      - text: Benutzer erstellen
-        url: /dynamics365/business-central/ui-how-users-permissions
-      - text: Benutzern und Gruppen Berechtigungen zuweisen
-        url: /dynamics365/business-central/ui-define-granular-permissions
-      - text: Profile verwalten
-        url: /dynamics365/business-central/admin-users-profiles-roles  
-      - text: Zugriff mit Microsoft 365-Lizenzen
-        url: /dynamics365/business-central/admin-access-with-m365-license
-    - title: Umgebungen verwalten
-      links:
-      - text: Übersicht
-        url: /dynamics365/business-central/dev-itpro/administration/tenant-administration
-      - text: Umgebungen erstellen
-        url: /dynamics365/business-central/dev-itpro/administration/tenant-administration  
-#      - text: Kapazität verwalten
-#        url: /dynamics365/business-central/dev-itpro/administration/tenant-admin-center-capacity  
-      - text: Aktualisierungen verwalten
-        url: /dynamics365/business-central/dev-itpro/administration/tenant-admin-center-update-management
-#      - text: Admin Center-API
-#        url: /dynamics365/business-central/dev-itpro/administration/administration-center-api
-#      - text: Lokale Installation verwalten
-#        url: /dynamics365/business-central/dev-itpro/administration/administration
-    - title: Datenspeicher verwalten
-      links: 
-      - text: Daten komprimieren oder Dokumente löschen
-        url: /dynamics365/business-central/admin-manage-documents
-      - text: Daten archivieren
-        url: /dynamics365/business-central/admin-archive-data
-      - text: Gespeicherten Daten in Datenbanken reduzieren
-        url: /dynamics365/business-central/dev-itpro/administration/database-reduce-data
-      - text: Kapazität verwalten
-        url: /dynamics365/business-central/dev-itpro/administration/tenant-admin-center-capacity  
-#    - title: Lokale Installation verwalten 
-#      links:
-#      - text: Übersicht
-#        url: /dynamics365/business-central/dev-itpro/administration/administration
-#      - text: Business Central Server konfigurieren
-#        url: /dynamics365/business-central/dev-itpro/administration/configure-server-instance  
-#      - text: Business Central Web Server konfigurieren
-#        url: /dynamics365/business-central/dev-itpro/administration/configure-web-server
-#      - text: Leistung der Business Central-Datenbank optimieren
-#        url: /dynamics365/business-central/dev-itpro/administration/optimize-sql-server-performance
-#      - text: PowerShell-Module für Business Central-Administratoren
-#        url: /powershell/business-central/overview      
-    - title: Vorgänge und Änderungen überwachen
-      links: 
-      - text: Änderungen protokollieren
-        url: /dynamics365/business-central/across-log-changes
-      - text: Übersicht über die Telemetrie
-        url: /dynamics365/business-central/dev-itpro/administration/telemetry-overview       
-      - text: Telemetrie aktivieren
-        url: /dynamics365/business-central/dev-itpro/administration/telemetry-enable-application-insights 
-#      - text: Mit Power BI
-#        url: /dynamics365/business-central/dev-itpro/administration/telemetry-power-bi-app
-#      - text: Mit KQL
-#        url: /dynamics365/business-central/dev-itpro/administration/telemetry-analyze-with-kql
-    - title: Anpassen und erweitern (Administrator)
-      links:
-      - text: Übersicht
-        url: /dynamics365/business-central/ui-customizing-overview
-#      - text: Erweiterungen installieren und deinstallieren
-#        url: /dynamics365/business-central/dev-itpro/ui-extensions-install-uninstall
-      - text: Seiten für Profile anpassen
-        url: /dynamics365/business-central/ui-personalization-manage
-#      - text: Umgebung ändern
-#        url: /dynamics365/business-central/ui-experiences
-      - text: Funktionen vorab aktivieren
-        url: /dynamics365/business-central/admin-feature-management 
-    - title: In AL entwickeln
-      links:
-      - text: Übersicht
-        url: /dynamics365/business-central/dev-itpro/developer/devenv-landing?branch=dev-landing
-#      - text: Eigene AL-Umgebung einrichten
-#        url: /dynamics365/business-central/dev-itpro/developer/devenv-get-started
-#      - text: Erste App entwickeln
-#        url: /dynamics365/business-central/dev-itpro/developer/devenv-extension-example
-      - text: Für AppSource entwickeln
-        url: /dynamics365/business-central/dev-itpro/developer/readiness/opportunity-app-publisher
-      - text: AL-Sprachreferenz
-        url: /dynamics365/business-central/dev-itpro/developer/
-    #  - text: System- und Basisanwendung
-    #    url: /dynamics365/business-central/application/    
-    - title: Für die Integration entwickeln
-      links:
-      - text: Webdienste (OData, SOAP)
-        url: /dynamics365/business-central/dev-itpro/webservices/web-services
-      - text: Connect Apps 
-        url: /dynamics365/business-central/dev-itpro/developer/devenv-develop-connect-apps 
-      - text: Business Central-API  
-        url: /dynamics365/business-central/dev-itpro/api-reference/v2.0/       
- #     - text: Teams
- #       url: /dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams 
- #     - text: Dataverse
- #       url: /dynamics365/business-central/dev-itpro/administration/administration-custom-cds-integration 
-
-  - title: Produktiv sein
-    items:
-      - title: Arbeitsbereichseinstellungen
-        links:
-          - text: Sprache, Region, Arbeitsdatum, Zeitzone und mehr
-            url: /dynamics365/business-central/ui-change-basic-settings
-          - text: Umgebung oder Unternehmen wechseln
-            url: /dynamics365/business-central/ui-organization-switch
-          - text: Benutzeroberfläche personalisieren
-            url: /dynamics365/business-central/ui-personalization-user
-          - text: Benachrichtigungen verwalten
-            url: /dynamics365/business-central/ui-smart-notifications
-      - title: Zusammenarbeit und Austausch 
-        links:
-          - text: Übersicht
-            url: /dynamics365/business-central/across-share-data-features
-          - text: Daten in Teams-Chats und -Kanälen teilen
-            url: /dynamics365/business-central/across-teams-overview
-          - text: Dateien in OneDrive teilen
-            url: /dynamics365/business-central/across-share-onedrive
-          - text: In Excel zusammenarbeiten
-            url: /dynamics365/business-central/across-work-with-excel
-      - title: Business Intelligence, Reporting und Datenanalyse
-        links:
-          - text: Übersicht
-            url: /dynamics365/business-central/reports-bi-reporting
-          - text: Berichte ausführen, planen und drucken
-            url: /dynamics365/business-central/ui-work-report
-          - text: Mit Power BI-Berichten in Business Central arbeiten
-            url: /dynamics365/business-central/across-working-with-powerbi
-        # - text: Layout ändern
-        #    url: /dynamics365/business-central/ui-set-report-layout                                                   
-          - text: Listendaten mit dem Analysemodus analysieren
-            url: /dynamics365/business-central/across-working-with-powerbi            
-          - text: Berichtsdaten mit Excel analysieren
-            url: /dynamics365/business-central/report-analyze-excel                                                                                
-      - title: Allgemeine Unternehmensfunktionen
-        links:
-          - text: Fibu Buch.-Blätter
-            url: /dynamics365/business-central/ui-work-general-journals
-          - text: Buch.-Blätter und Dokumente buchen
-            url: /dynamics365/business-central/ui-post-documents-journals
-          - text: Aufgabenwarteschlangen
-            url: /dynamics365/business-central/admin-job-queues-schedule-tasks
-          - text: Eingehende Belege
-            url: /dynamics365/business-central/across-income-documents
-#          - text: Lokale Funktionen
-#            url: /dynamics365/business-central/about-localization
-  - title: Geschäfte machen
-    items:
-#      - title: Arbeitsbereichseinstellungen
-#        links:
-#          - text: Sprache, Region, Arbeitsdatum, Zeitzone und mehr
-#            url: /dynamics365/business-central/ui-change-basic-settings
-#          - text: Umgebung oder Unternehmen wechseln
-#            url: /dynamics365/business-central/ui-organization-switch
-#           - text: Benutzeroberfläche personalisieren
-#             url: /dynamics365/business-central/ui-personalization-user
-#           - text: Benachrichtigungen verwalten
-#             url: /dynamics365/business-central/ui-smart-notifications
-#      - title: Zusammenarbeit und Austausch 
-#          links:
-#            - text: Übersicht
-#              url: /dynamics365/business-central/across-share-data-features
-#            - text: Daten in Teams-Chats und -Kanälen teilen
-#              url: /dynamics365/business-central/across-teams-overview
-#            - text: Dateien in OneDrive teilen
-#              url: /dynamics365/business-central/across-share-onedrive
-#            - text: In Excel zusammenarbeiten
-#              url: /dynamics365/business-central/across-work-with-excel
-#        - title: Business Intelligence, Reporting und Datenanalyse
-#          links:
-#            - text: Übersicht
-#              url: /dynamics365/business-central/reports-bi-reporting
-#            - text: Berichte ausführen, planen und drucken
-#              url: /dynamics365/business-central/ui-work-report
-#            - text: Mit Power BI-Berichten in Business Central arbeiten
-#              url: /dynamics365/business-central/across-working-with-powerbi
-#          # - text: Layout ändern
-#          #    url: /dynamics365/business-central/ui-set-report-layout                                                   
-#            - text: Listendaten mit dem Analysemodus analysieren
-#              url: /dynamics365/business-central/across-working-with-powerbi            
-#            - text: Berichtsdaten mit Excel analysieren
-#              url: /dynamics365/business-central/report-analyze-excel                                                                                
-#        - title: Allgemeine geschäftliche und lokale Funktionen
- #         links:
-#            - text: Fibu Buch.-Blätter
-#              url: /dynamics365/business-central/ui-work-general-journals
-#            - text: Buch.-Blätter und Dokumente buchen
-#             url: /dynamics365/business-central/ui-post-documents-journals
-#            - text: Aufgabenwarteschlangen
-#              url: /dynamics365/business-central/admin-job-queues-schedule-tasks
-#            - text: Eingehende Belege
-#              url: /dynamics365/business-central/across-income-documents
-#            - text: Lokale Funktionen
-#              url: /dynamics365/business-central/about-localization
-      - title: Finanzen
-        links:
-          - text: Übersicht
-            url: /dynamics365/business-central/finance
-          - text: Finanzberichte
-            url: /dynamics365/business-central/finance-reports
-          - text: Forderungen verwalten
-            url: /dynamics365/business-central/receivables-manage-receivables
-          - text: Verbindlichkeiten verwalten
-            url: /dynamics365/business-central/payables-manage-payables   
-      #    - text: Vorauszahlungen fakturieren
-      #      url: /dynamics365/business-central/finance-invoice-prepayments
-          - text: Bankkonten abstimmen
-            url: /dynamics365/business-central/bank-manage-bank-accounts
-      - title: Verkauf
-        links:
-          - text: Übersicht
-            url: /dynamics365/business-central/sales-manage-sales
-          - text: Verkaufsberichte
-            url: /dynamics365/business-central/sales-reports
-          - text: Neue Debitoren registrieren 
-            url: /dynamics365/business-central/sales-how-register-new-customers   
-          - text: Verkaufsangebote erstellen
-            url: /dynamics365/business-central/sales-how-make-offers
-          - text: Verkäufe fakturieren
-            url: /dynamics365/business-central/sales-how-invoice-sales
-      - title: Einkauf
-        links:
-          - text: Übersicht
-            url: /dynamics365/business-central/purchasing-manage-purchasing
-          - text: Einkaufsberichte
-            url: /dynamics365/business-central/purchase-reports
-          - text: Einkäufe erfassen 
-            url: /dynamics365/business-central/purchasing-how-record-purchases   
-          - text: Angebote anfordern
-            url: /dynamics365/business-central/purchasing-how-request-quotes
-          - text: Artikel für einen Verkauf einkaufen
-            url: /dynamics365/business-central/purchasing-how-purchase-products-sale           
-      - title: Inventar
-        links:
-          - text: Übersicht
-            url: /dynamics365/business-central/inventory-manage-inventory
-          - text: Bestands- und Lagerberichte
-            url: /dynamics365/business-central/inventory-WMS-reports
-          - text: Artikel registrieren
-            url: /dynamics365/business-central/inventory-how-register-new-items
-          - text: Mit Stücklisten arbeiten
-            url: /dynamics365/business-central/inventory-how-work-boms
-          - text: Artikel kategorisieren
-            url: /dynamics365/business-central/inventory-how-categorize-items
-      - title: Projektmanagement
-        links:
-          - text: Übersicht
-            url: /dynamics365/business-central/projects-manage-projects
-          - text: Projektberichte
-            url: /dynamics365/business-central/project-reports
-          - text: Projekte erstellen
-            url: /dynamics365/business-central/projects-how-create-jobs
-          - text: Ressourcen für Projekte verwenden
-            url: /dynamics365/business-central/projects-how-use-resources
-          - text: Arbeitszeittabellen verwenden
-            url: /dynamics365/business-central/projects-how-use-time-sheets
-      - title: Anlagen
-        links:
-          - text: Übersicht
-            url: /dynamics365/business-central/fa-manage
-          - text: Anlagenberichte
-            url: /dynamics365/business-central/fa-reports
-          - text: Anlagen erwerben
-            url: /dynamics365/business-central/fa-how-acquire
-          - text: Anlagen verwalten
-            url: /dynamics365/business-central/fa-how-maintain
-          - text: Anlagen versichern
-            url: /dynamics365/business-central/fa-how-insure
-      - title: Marketing und Vertrieb
-        links:
-          - text: Übersicht
-            url: /dynamics365/business-central/marketing-relationship-management
-          - text: Kontakte
-            url: /dynamics365/business-central/marketing-contacts
-          - text: Segmente
-            url: /dynamics365/business-central/marketing-segments
-          - text: Aktivitäten
-            url: /dynamics365/business-central/marketing-interactions-overview
-          - text: Verkaufschancen
-            url: /dynamics365/business-central/marketing-manage-sales-opportunities
-
-      - title: Personalwesen
-        links:
-          - text: Übersicht
-            url: /dynamics365/business-central/hr-manage-human-resources
-          - text: Mitarbeiter registrieren
-            url: /dynamics365/business-central/hr-how-register-employees
-          - text: Fehlzeiten der Mitarbeiter verwalten
-            url: /dynamics365/business-central/hr-how-manage-absence
-      - title: Planung
-        links:
-          - text: Übersicht
-            url: /dynamics365/business-central/production-planning
-          - text: Mit/ohne Lagerortcodes planen
-            url: /dynamics365/business-central/production-planning-with-without-locations
-          - text: Absatzplanung erstellen
-            url: /dynamics365/business-central/production-how-to-create-a-forecast
-          - text: Fertigungsaufträge aus Verkaufsaufträgen erstellen
-            url: /dynamics365/business-central/production-how-to-create-production-orders-from-sales-orders
-          - text: Neuen Bedarfsauftrag nach Auftrag planen
-            url: /dynamics365/business-central/production-how-to-plan-for-new-demand 
-      - title: Montageverwaltung
-        links:
-          - text: Übersicht
-            url: /dynamics365/business-central/assembly-assemble-items
-          - text: Montageberichte
-            url: /dynamics365/business-central/assembly-reports
-          - text: Angebot für einen Programmfertigungsverkauf
-            url: /dynamics365/business-central/assembly-how-to-quote-an-assemble-to-order-sale
-          - text: Artikel montieren
-            url: /dynamics365/business-central/assembly-how-to-assemble-items
-          - text: Programmfertigungsartikel verkaufen
-            url: /dynamics365/business-central/assembly-how-to-sell-items-assembled-to-order
-      - title: Fertigung
-        links:
-          - text: Übersicht
-            url: /dynamics365/business-central/production-manage-manufacturing
-          - text: Fertigungsberichte
-            url: /dynamics365/business-central/production-reports
-          - text: Fertigungsaufträge erstellen
-            url: /dynamics365/business-central/production-about-production-orders
-          - text: Fertigung in Fremdarbeit
-            url: /dynamics365/business-central/production-how-to-subcontract-manufacturing
-          - text: Verbrauch und Istmeldungen buchen
-            url: /dynamics365/business-central/production-how-to-register-consumption-and-output
-      - title: Lagerverwaltung
-        links:
-          - text: Übersicht
-            url: /dynamics365/business-central/warehouse-manage-warehouse
-          - text: Lagerberichte
-            url: /dynamics365/business-central/inventory-WMS-reports
-          - text: Artikel einlagern
-            url: /dynamics365/business-central/warehouse-how-to-put-items-away-with-inventory-put-aways
-          - text: Artikel umlagern
-            url: /dynamics365/business-central/warehouse-move-items
-          - text: Artikel entnehmen
-            url: /dynamics365/business-central/warehouse-how-to-pick-items-with-inventory-picks
-      - title: Serviceverwaltung
-        links:
-          - text: Übersicht
-            url: /dynamics365/business-central/service-service
-          - text: Planung
-            url: /dynamics365/business-central/service-plan-service
-          - text: Dienstleistungsverträge erfüllen
-            url: /dynamics365/business-central/service-fulfill-service-contracts
-          - text: Service bereitstellen
-            url: /dynamics365/business-central/service-deliver-service
-          - text: Serviceangebote erstellen
-            url: /dynamics365/business-central/service-how-to-create-service-quotes
-      - title: Onlineshop mit Shopify
-        links:
-          - text: Erste Schritte
-            url: /dynamics365/business-central/shopify/get-started
-          - text: Debitoren mit Shopify synchronisieren
-            url: /dynamics365/business-central/shopify/synchronize-customers
-          - text: Verkaufsaufträge mit Shopify synchronisieren und erfüllen
-            url: /dynamics365/business-central/shopify/synchronize-orders
-          - text: Transaktionen und Auszahlungen synchronisieren
-            url: /dynamics365/business-central/shopify/transactions-and-payouts
-          - text: Steuern für die Shopify-Verbindung einrichten
-            url: /dynamics365/business-central/shopify/setup-taxes
-      - title: Lokale Funktionen
-        links:
-          - text: Übersicht
-            url: /dynamics365/business-central/about-localization
-          - text: Internationale Verfügbarkeit von Dynamics 365
-            url: /dynamics365/get-started/availability
-          - text: Entwicklung für die Lokalisierung
-            url: /dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-localization
-#  - title: Zugehörige Produkte
-#    items:
-        # Card
-        
-#        - title: Dynamics 365
-#          summary: „Erfahren Sie, wie Sie andere Microsoft Dynamics 365-Dienste und -Anwendungen bereitstellen, anpassen, verwalten und nutzen. Erhalten Sie Dokumentation, Beispielcode, Tutorials und mehr.“
-#          url: /dynamics365/index
-#        - title: Microsoft Power Platform
-#          summary: „Daten analysieren, Lösungen erstellen, Prozesse automatisieren und virtuelle Agenten erstellen“
-#          url: /power-platform/index
-#        - title: Dynamics 365 App for Outlook
-#          summary: Dynamics 365-Apps in Microsoft Outlook verwenden
-#          url: /dynamics365/outlook-app/overview                                                                                                                            3
+    - title: Umsetzung
+      items:
+        - title: Anleitungen
+          links:
+            - text: 'Security, compliance, and privacy'
+              url: /dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json
+            - text: Understand Business Central online infrastructure
+              url: /dynamics365/business-central/dev-itpro/administration/tenant-environment-topology
+            - text: Migrate from on-premises to online
+              url: /dynamics365/business-central/dev-itpro/administration/migrate-data
+            - text: Performance
+              url: /dynamics365/business-central/dev-itpro/performance/performance-overview
+        - title: Ausprobieren/Kaufen
+          links:
+            - text: Try Business Central online for free
+              url: /dynamics365/business-central/trial-signup
+            - text: Buy Business Central online
+              url: /dynamics365/business-central/trial-signup#get-started-with-a-subscription
+            - text: Add extensions for more functionality
+              url: /dynamics365/business-central/ui-extensions-install-uninstall
+        - title: Einrichten
+          links:
+            - text: Companies
+              url: /dynamics365/business-central/about-new-company
+            - text: Business functionality
+              url: /dynamics365/business-central/setup
+            - text: Job queues
+              url: /dynamics365/business-central/admin-job-queues-schedule-tasks
+            - text: Workflows
+              url: /dynamics365/business-central/across-set-up-workflows
+        - title: In andere Produkte integrieren
+          links:
+            - text: Teams
+              url: /dynamics365/business-central/across-teams-overview
+            - text: Dataverse
+              url: /dynamics365/business-central/admin-common-data-service
+            - text: Power Automate
+              url: /dynamics365/business-central/dev-itpro/powerplatform/power-automate-overview
+            - text: Power BI
+              url: /dynamics365/business-central/admin-powerbi
+            - text: OneDrive
+              url: /dynamics365/business-central/across-onedrive-overview
+    - title: Verwalten und entwickeln
+      items:
+        - title: Benutzerzugriff verwalten
+          links:
+            - text: Create users
+              url: /dynamics365/business-central/ui-how-users-permissions
+            - text: Assign permissions to users and groups
+              url: /dynamics365/business-central/ui-define-granular-permissions
+            - text: Manage profiles
+              url: /dynamics365/business-central/admin-users-profiles-roles
+            - text: Access with Microsoft 365 licenses
+              url: /dynamics365/business-central/admin-access-with-m365-license
+        - title: Umgebungen verwalten
+          links:
+            - text: Overview
+              url: /dynamics365/business-central/dev-itpro/administration/tenant-administration
+            - text: Create environments
+              url: /dynamics365/business-central/dev-itpro/administration/tenant-administration
+            - text: Manage updates
+              url: /dynamics365/business-central/dev-itpro/administration/tenant-admin-center-update-management
+        - title: Datenspeicher verwalten
+          links:
+            - text: Compress data or delete documents
+              url: /dynamics365/business-central/admin-manage-documents
+            - text: Archive data
+              url: /dynamics365/business-central/admin-archive-data
+            - text: Reduce stored data in databases
+              url: /dynamics365/business-central/dev-itpro/administration/database-reduce-data
+            - text: Manage capacity
+              url: /dynamics365/business-central/dev-itpro/administration/tenant-admin-center-capacity
+        - title: Vorgänge und Änderungen überwachen
+          links:
+            - text: Audit changes
+              url: /dynamics365/business-central/across-log-changes
+            - text: Telemetry overview
+              url: /dynamics365/business-central/dev-itpro/administration/telemetry-overview
+            - text: Enable telemetry
+              url: /dynamics365/business-central/dev-itpro/administration/telemetry-enable-application-insights
+        - title: Anpassen und erweitern (Administrator)
+          links:
+            - text: Overview
+              url: /dynamics365/business-central/ui-customizing-overview
+            - text: Customize pages for profiles
+              url: /dynamics365/business-central/ui-personalization-manage
+            - text: Enable features ahead of time
+              url: /dynamics365/business-central/admin-feature-management
+        - title: In AL entwickeln
+          links:
+            - text: Overview
+              url: /dynamics365/business-central/dev-itpro/developer/devenv-landing?branch=dev-landing
+            - text: Develop for AppSource
+              url: /dynamics365/business-central/dev-itpro/developer/readiness/opportunity-app-publisher
+            - text: AL language reference
+              url: /dynamics365/business-central/dev-itpro/developer/
+        - title: Für die Integration entwickeln
+          links:
+            - text: 'Web services (OData, SOAP)'
+              url: /dynamics365/business-central/dev-itpro/webservices/web-services
+            - text: Connect apps
+              url: /dynamics365/business-central/dev-itpro/developer/devenv-develop-connect-apps
+            - text: Business Central API
+              url: /dynamics365/business-central/dev-itpro/api-reference/v2.0/
+    - title: Produktiv sein
+      items:
+        - title: Arbeitsbereichseinstellungen
+          links:
+            - text: 'Language, region, work date, time zone, and more'
+              url: /dynamics365/business-central/ui-change-basic-settings
+            - text: Switch environment or company
+              url: /dynamics365/business-central/ui-organization-switch
+            - text: Personalize UI
+              url: /dynamics365/business-central/ui-personalization-user
+            - text: Manage notifications
+              url: /dynamics365/business-central/ui-smart-notifications
+        - title: Zusammenarbeit und Austausch
+          links:
+            - text: Overview
+              url: /dynamics365/business-central/across-share-data-features
+            - text: Share data in Teams chats and channels
+              url: /dynamics365/business-central/across-teams-overview
+            - text: Share files in OneDrive
+              url: /dynamics365/business-central/across-share-onedrive
+            - text: Collaborate in Excel
+              url: /dynamics365/business-central/across-work-with-excel
+        - title: 'Business Intelligence, Reporting und Datenanalyse'
+          links:
+            - text: Overview
+              url: /dynamics365/business-central/reports-bi-reporting
+            - text: 'Run, schedule, and print reports'
+              url: /dynamics365/business-central/ui-work-report
+            - text: Work with Power BI reports in Business Central
+              url: /dynamics365/business-central/across-working-with-powerbi
+            - text: Analyze list data with analysis mode
+              url: /dynamics365/business-central/across-working-with-powerbi
+            - text: Analyze report data with Excel
+              url: /dynamics365/business-central/report-analyze-excel
+        - title: Allgemeine Unternehmensfunktionen
+          links:
+            - text: General journals
+              url: /dynamics365/business-central/ui-work-general-journals
+            - text: Post documents and journals
+              url: /dynamics365/business-central/ui-post-documents-journals
+            - text: Job queues
+              url: /dynamics365/business-central/admin-job-queues-schedule-tasks
+            - text: Incoming documents
+              url: /dynamics365/business-central/across-income-documents
+    - title: Geschäfte machen
+      items:
+        - title: Finanzen
+          links:
+            - text: Overview
+              url: /dynamics365/business-central/finance
+            - text: Finance reports
+              url: /dynamics365/business-central/finance-reports
+            - text: Manage receivables
+              url: /dynamics365/business-central/receivables-manage-receivables
+            - text: Manage payables
+              url: /dynamics365/business-central/payables-manage-payables
+            - text: Reconcile bank accounts
+              url: /dynamics365/business-central/bank-manage-bank-accounts
+        - title: Verkauf
+          links:
+            - text: Overview
+              url: /dynamics365/business-central/sales-manage-sales
+            - text: Sales reports
+              url: /dynamics365/business-central/sales-reports
+            - text: Register new customers
+              url: /dynamics365/business-central/sales-how-register-new-customers
+            - text: Make Sales Quotes
+              url: /dynamics365/business-central/sales-how-make-offers
+            - text: Invoice sales
+              url: /dynamics365/business-central/sales-how-invoice-sales
+        - title: Einkauf
+          links:
+            - text: Overview
+              url: /dynamics365/business-central/purchasing-manage-purchasing
+            - text: Purchase reports
+              url: /dynamics365/business-central/purchase-reports
+            - text: Record purchases
+              url: /dynamics365/business-central/purchasing-how-record-purchases
+            - text: Request quotes
+              url: /dynamics365/business-central/purchasing-how-request-quotes
+            - text: Purchase items for a sale
+              url: /dynamics365/business-central/purchasing-how-purchase-products-sale
+        - title: Lagerbestand
+          links:
+            - text: Overview
+              url: /dynamics365/business-central/inventory-manage-inventory
+            - text: Inventory and Warehouse Reports
+              url: /dynamics365/business-central/inventory-WMS-reports
+            - text: Register items
+              url: /dynamics365/business-central/inventory-how-register-new-items
+            - text: Work with BOMs
+              url: /dynamics365/business-central/inventory-how-work-boms
+            - text: Categorize items
+              url: /dynamics365/business-central/inventory-how-categorize-items
+        - title: Projektmanagement
+          links:
+            - text: Overview
+              url: /dynamics365/business-central/projects-manage-projects
+            - text: Project reports
+              url: /dynamics365/business-central/project-reports
+            - text: Create jobs
+              url: /dynamics365/business-central/projects-how-create-jobs
+            - text: Use resources for projects
+              url: /dynamics365/business-central/projects-how-use-resources
+            - text: Use time sheets
+              url: /dynamics365/business-central/projects-how-use-time-sheets
+        - title: Anlagen
+          links:
+            - text: Overview
+              url: /dynamics365/business-central/fa-manage
+            - text: Fixed asset reports
+              url: /dynamics365/business-central/fa-reports
+            - text: Acquire fixed assets
+              url: /dynamics365/business-central/fa-how-acquire
+            - text: Maintain fixed assets
+              url: /dynamics365/business-central/fa-how-maintain
+            - text: Insure fixed assets
+              url: /dynamics365/business-central/fa-how-insure
+        - title: Marketing und Vertrieb
+          links:
+            - text: Overview
+              url: /dynamics365/business-central/marketing-relationship-management
+            - text: Contacts
+              url: /dynamics365/business-central/marketing-contacts
+            - text: Segments
+              url: /dynamics365/business-central/marketing-segments
+            - text: Interactions
+              url: /dynamics365/business-central/marketing-interactions-overview
+            - text: Opportunities
+              url: /dynamics365/business-central/marketing-manage-sales-opportunities
+        - title: Personalwesen
+          links:
+            - text: Overview
+              url: /dynamics365/business-central/hr-manage-human-resources
+            - text: Register employees
+              url: /dynamics365/business-central/hr-how-register-employees
+            - text: Manage employee absence
+              url: /dynamics365/business-central/hr-how-manage-absence
+        - title: Planung
+          links:
+            - text: Overview
+              url: /dynamics365/business-central/production-planning
+            - text: Plan with or without locations
+              url: /dynamics365/business-central/production-planning-with-without-locations
+            - text: Create a forecast
+              url: /dynamics365/business-central/production-how-to-create-a-forecast
+            - text: Create production orders from sales order
+              url: /dynamics365/business-central/production-how-to-create-production-orders-from-sales-orders
+            - text: Plan for new demand order by order
+              url: /dynamics365/business-central/production-how-to-plan-for-new-demand
+        - title: Montageverwaltung
+          links:
+            - text: Overview
+              url: /dynamics365/business-central/assembly-assemble-items
+            - text: Assembly reports
+              url: /dynamics365/business-central/assembly-reports
+            - text: Quote an assemble-to-order sale
+              url: /dynamics365/business-central/assembly-how-to-quote-an-assemble-to-order-sale
+            - text: Assemble items
+              url: /dynamics365/business-central/assembly-how-to-assemble-items
+            - text: Sell items assembled to order
+              url: /dynamics365/business-central/assembly-how-to-sell-items-assembled-to-order
+        - title: Produktion
+          links:
+            - text: Overview
+              url: /dynamics365/business-central/production-manage-manufacturing
+            - text: Production reports
+              url: /dynamics365/business-central/production-reports
+            - text: Create production orders
+              url: /dynamics365/business-central/production-about-production-orders
+            - text: Subcontract manufacturing
+              url: /dynamics365/business-central/production-how-to-subcontract-manufacturing
+            - text: Post consumption and output
+              url: /dynamics365/business-central/production-how-to-register-consumption-and-output
+        - title: Lagerverwaltung
+          links:
+            - text: Overview
+              url: /dynamics365/business-central/warehouse-manage-warehouse
+            - text: Warehouse reports
+              url: /dynamics365/business-central/inventory-WMS-reports
+            - text: Put items
+              url: /dynamics365/business-central/warehouse-how-to-put-items-away-with-inventory-put-aways
+            - text: Move items
+              url: /dynamics365/business-central/warehouse-move-items
+            - text: Pick items
+              url: /dynamics365/business-central/warehouse-how-to-pick-items-with-inventory-picks
+        - title: Serviceverwaltung
+          links:
+            - text: Overview
+              url: /dynamics365/business-central/service-service
+            - text: Planning
+              url: /dynamics365/business-central/service-plan-service
+            - text: Fulfill service contracts
+              url: /dynamics365/business-central/service-fulfill-service-contracts
+            - text: Deliver service
+              url: /dynamics365/business-central/service-deliver-service
+            - text: Create service quotes
+              url: /dynamics365/business-central/service-how-to-create-service-quotes
+        - title: Onlineshop mit Shopify
+          links:
+            - text: Get started
+              url: /dynamics365/business-central/shopify/get-started
+            - text: Synchronize Customers with Shopify
+              url: /dynamics365/business-central/shopify/synchronize-customers
+            - text: Synchronize and fulfill sales orders with Shopify
+              url: /dynamics365/business-central/shopify/synchronize-orders
+            - text: Synchronize Transactions and payouts
+              url: /dynamics365/business-central/shopify/transactions-and-payouts
+            - text: Set up taxes for the Shopify connection
+              url: /dynamics365/business-central/shopify/setup-taxes
+        - title: Lokale Funktionen
+          links:
+            - text: Overview
+              url: /dynamics365/business-central/about-localization
+            - text: International availability of Dynamics 365
+              url: /dynamics365/get-started/availability
+            - text: Development for localization
+              url: /dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-localization
