@@ -18,7 +18,7 @@ Dieser Artikel beschreibt die notwendigen Einstellungen und Schritte, die Sie du
 
 Geben Sie einen **Währungscode** ein, wenn Ihr Onlineshop eine andere Währung als die lokale Währung (MW) verwendet. Für die angegebene Währung müssen Wechselkurse konfiguriert sein. Wenn Ihr Onlineshop dieselbe Währung verwendet wie [!INCLUDE[prod_short](../includes/prod_short.md)], lassen Sie das Feld leer. 
 
-Sie können die Store-Währung in den [Store-Details](https://www.shopify.com/admin/settings/general) Einstellungen in Ihrem Shopify Admin sehen. Shopify kann so konfiguriert werden, dass verschiedene Währungen akzeptiert werden, aber importierte Bestellungen in [!INCLUDE[prod_short](../includes/prod_short.md)] verwenden die Store-Währung.
+Sie können auf die Store-Währung in den [Store-Details](https://www.shopify.com/admin/settings/general) Einstellungen in Ihrem Shopify Admin zugreifen. Shopify kann so konfiguriert werden, dass verschiedene Währungen akzeptiert werden, aber importierte Bestellungen in [!INCLUDE[prod_short](../includes/prod_short.md)] verwenden die Store-Währung.
 
 Eine reguläre Shopify-Bestellung kann zusätzlich zur Zwischensumme Kosten enthalten, z.B. Versandkosten oder, falls aktiviert, Trinkgelder. Diese Beträge werden direkt auf das Sachkonto gebucht, das Sie für bestimmte Vorgangsarten verwenden möchten:
 
@@ -96,6 +96,31 @@ Alternativ können Sie nach dem Batchauftrag **Aufträge synchronisieren von Sho
 
 Sie können planen, dass die Aufgabe automatisch ausgeführt wird. Erfahren Sie mehr unter [Planen Sie wiederkehrende Aufgaben](background.md#to-schedule-recurring-tasks).
 
+### Unter der Haube
+
+Der Shopify Connector importiert Aufträge in zwei Schritten:
+
+1.  Er importiert Auftragsheader in die Tabelle **Zu importierende Shopify-Aufträge**, wenn sie bestimmte Bedingungen erfüllen:
+    
+* Sie werden nicht archiviert.
+* Sie wurden nach der letzten Synchronisierung erstellt oder geändert.
+
+2.  Er importiert Shopify Aufträge und zusätzliche Informationen.
+* Der Shopify Connector verarbeitet alle Datensätze in der Tabelle **Zu importierende Shopify-Aufträge**, die den Filterkriterien entsprechen, die Sie in der Anforderungsseite **Aufträge von Shopify synchronisieren** festgelegt haben. Zum Beispiel Tags, Kanal oder der Auftragserfüllungsstatus. Wenn Sie keine Filter angegeben haben, werden alle Datensätze verarbeitet.
+* Beim Importieren eines Shopify-Auftrags fordert der Shopify Connector zusätzliche Informationen von Shopify an:
+
+    * Auftragsheader
+    * Auftragspositionen
+    * Versand- und Auftragserfüllungsinformationen
+    * Transaktionen
+    * Rückgaben und Rückerstattungen, sofern konfiguriert
+
+Die Seite **Zu importierender Shopify Auftrag** hilft bei der Behebung von Problemen beim Importieren von Aufträgen. Sie können die verfügbaren Aufträge bewerten und die nächsten Schritte planen:
+
+* Überprüfen Sie, ob ein Fehler den Import eines bestimmten Auftrags blockiert hat, und erkunden Sie die Details des Fehlers. Überprüfen Sie das Feld **Fehler**.
+* Bearbeiten Sie nur bestimmte Aufträge. Sie müssen das Feld **Shop-Code** ausfüllen, einen oder mehrere Aufträge ausfüllen und dann die Aktion **Ausgewählte Aufträge importieren** auswählen.
+* Löschen Sie Aufträge von der Seite **Zu importierender Shopify Auftrag**, um sie von der Synchronisierung auszuschließen.
+
 ## Importierte Bestellungen überprüfen
 
 Sobald der Import abgeschlossen ist, können Sie die Shopify-Bestellung durchsuchen und alle zugehörigen Informationen finden, wie z.B. die Transaktionen, die Versandkosten, die Risikostufe, die Bestellattribute und Tags oder die Erfüllungen, wenn die Bestellung bereits in Shopify erfüllt wurde. Sie können auch alle an den Debitor gesendeten Auftragsbestätigungen anzeigen, indem Sie die Aktion **Shopify-Statusseite** auswählen.
@@ -131,7 +156,7 @@ Wenn Ihre Einstellungen die automatische Erstellung eines Debitors verhindern un
 
 Die Funktion *Bestellung aus Shopify importieren* versucht, die Debitoren in der folgenden Reihenfolge auszuwählen:
 
-1. Wenn das Feld **Standarddebitorennr.** in der **Shopify Debitorenvorlage** für **Lieferung an Länder-/Regionscode** definiert ist, dann wird die **Standarddebitorennr.** verwendet, unabhängig von den Einstellungen in den Feldern **Kundenimport von Shopify** und **Kundenzuordnungstyp**. Weitere Informationen unter [Debitorenvorlage pro Land](synchronize-customers.md#customer-template-per-country).
+1. Wenn das Feld **Standarddebitorennr.** in der **Shopify Debitorenvorlage** für **Lieferung an Länder-/Regionscode** definiert ist, dann wird die **Standarddebitorennr.** verwendet, unabhängig von den Einstellungen in den Feldern **Kundenimport von Shopify** und **Kundenzuordnungstyp**. Weitere Informationen unter [Debitorenvorlage pro Land](synchronize-customers.md#customer-template-per-countryregion).
 2. Wenn der **Kundenimport von Shopify** auf *Keine* festgelegt ist und die **Standardkunden-Nr.** auf der Seite **Shopify-Shop-Karte** definiert sind, wird die **Standarddebitorennr.** verwendet.
 
 Die nächsten Schritte hängen von der **Kundenzuordnung Typ** ab.
