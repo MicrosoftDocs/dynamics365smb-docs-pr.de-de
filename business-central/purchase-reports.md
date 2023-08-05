@@ -8,21 +8,21 @@ ms.search.form: 'Report_311, Report_312, Report_313, Report_320, Report_709, Rep
 ms.date: 06/01/2021
 ms.author: andreipa
 ---
-# <a name="purchase-reports-and-analytics-in-business-central"></a>Einkaufsberichte und Analysen in Business Central
+# Einkaufsberichte und Analysen in Business Central
 
 Die Einkaufsberichterstattung in [!INCLUDE [prod_short](includes/prod_short.md)] ermöglicht es Prokuristen und Experten, Einblicke in und Statistiken über aktuelle und vergangene Einkaufsaktivitäten zu erhalten.  
 
-## <a name="reports"></a>Berichte
+## Berichte
 [!INCLUDE [purchase_reports](includes/purchase-reports-include.md)]
 
-## <a name="tasks"></a>Aufgaben
+## Aufgaben
 In den folgenden Artikeln werden einige der wichtigsten Aufgaben zur Analyse des Status Ihres Unternehmens beschrieben:
 
 * [Analyseberichte erstellen](bi-how-create-analysis-views-reports.md)  
 * [Artikelverfügbarkeit anzeigen](inventory-how-availability-overview.md)  
 
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 [Einrichten des Einkaufs](purchasing-setup-purchasing.md)  
 [Einkauf](purchasing-manage-purchasing.md)  
 

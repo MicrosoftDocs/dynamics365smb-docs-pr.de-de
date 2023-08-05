@@ -11,7 +11,7 @@ ms.search.form: 1200
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="setting-up-banking"></a>Einrichten von Banken
+# Einrichten von Banken
 
 Bankkontokarten dienen zum Nachverfolgen aller Bankkonten in beliebiger Währung. Sobald Bankkonten eingerichtet wurden, können auch Schecks gedruckt werden.
 
@@ -25,7 +25,7 @@ Um elektronische Bankdienstleistungen zum Importieren von Bankkontoauszügen und
 
 [!INCLUDE [local-functionality](includes/local-functionality.md)]
 
-## <a name="see-also"></a>Weitere Informationen
+## Weitere Informationen
 
 [Abstimmen von Bankkonten](bank-manage-bank-accounts.md)  
 [Verwalten von Forderungen](receivables-manage-receivables.md)  

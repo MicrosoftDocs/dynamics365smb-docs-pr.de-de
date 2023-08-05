@@ -8,7 +8,7 @@ ms.topic: conceptual
 ms.date: 02/22/2023
 ms.custom: bap-template
 ---
-# <a name="design-details-availability-in-the-warehouse"></a>Designdetails: Verfügbarkeit im Lager
+# Designdetails: Verfügbarkeit im Lager
 
 Behalten Sie die Artikelverfügbarkeit im Auge, um sicherzustellen, dass ausgehende Bestellungen effizient ablaufen und Ihre Lieferzeiten optimal sind.  
 
@@ -21,13 +21,13 @@ Bevor Mengen auf Kommissionierungen für ausgehende Ströme zugewiesen werden, p
 
 Wenn die Bedingungen nicht erfüllt sind, werden Fehlermeldungen angezeigt. Eine typische Meldung ist das generische „Nichts zu behandeln“. Meldung. Die Meldung kann für viele verschiedenen Ursachen, in den eingehenden und ausgehenden Flüssen angezeigt werden, in denen eine Belegzeile das Feld **Menge. zu behandeln** enthält.
 
-## <a name="bin-content-and-reservations"></a>Lagerplatzinhalt und Reservierungen
+## Lagerplatzinhalt und Reservierungen  
 
 Artikelmengen existieren sowohl als Lagerposten als auch als Artikelposten im Bestand. Diese beiden Postenarten enthalten verschiedene Informationen darüber, wo Artikel vorhanden sind und ob sie verfügbar sind. Lagerplatzposten definieren die Verfügbarkeit eines Artikels nach Lagerplatz und Lagerplatzart, was als Lagerplatzinhalt bezeichnet wird. Artikelposten definieren die Verfügbarkeit eines Artikels durch ihre Reservierung für ausgehenden Belegen.  
 
 [!INCLUDE [prod_short](includes/prod_short.md)] berechnet die zur Kommissinierung verfügbare Menge, wenn der Lagerplatzinhalt mit Reservierungen gekoppelt ist.  
 
-## <a name="quantity-available-to-pick"></a>Verfügbare Menge für Kommissionierung
+## Verfügbare Menge für Kommissionierung  
 
 [!INCLUDE [prod_short](includes/prod_short.md)] Reserviert Artikel für ausstehende Verkaufsauftragslieferungen, sodass sie nicht für andere Kundenaufträge kommissioniert werden, die früher versendet werden. [!INCLUDE [prod_short](includes/prod_short.md)] subtrahiert Artikelmengen, die bereits in Bearbeitung sind, wie folgt:
 
@@ -46,7 +46,7 @@ Das Ergebnis steht in diesen Belegen in den Mengenfeldern, wie z. B. dem Feld **
 > [!NOTE]  
 > Für die Priorität von Reservierungen wird die zu reserviere Menge von der Menge abgezogen, die für die Kommissionierung verfügbar ist. Wenn beispielsweise die Menge, die an den Kommissionierlagerplätzen verfügbar ist, 5 Einheiten ist, sich jedoch 100 Einheiten an Einlagerungslagerplätzen befinden, wird, wenn Sie mehr als 5 Einheiten für einen anderen Auftrag reservieren, eine Fehlermeldung angezeigt, da die zusätzliche Menge an den Kommissionierlagerplätzen verfügbar sein muss.  
 
-### <a name="calculating-the-quantity-available-to-pick"></a>Berechnen der zur Kommissionierung verfügbaren Menge
+### Berechnen der zur Kommissionierung verfügbaren Menge  
 
 [!INCLUDE [prod_short](includes/prod_short.md)] berechnet die zur Kommissionierung verfügbare Menge wird wie folgt:  
 
@@ -56,7 +56,7 @@ Das folgende Diagramm zeigt die verschiedenen Elemente der Berechnung.
 
 ![Verfügbar zum Kommissionieren mit Reservierungsüberschneidung.](media/design_details_warehouse_management_availability_2.png "Verfügbar zur Entnahme mit Reservierungsüberschneidung")  
 
-## <a name="quantity-available-to-reserve"></a>Für Reservierung verfügbare Menge
+## Für Reservierung verfügbare Menge
 
 Da die Konzepte des Lagerplatzinhaltes und der Reservierung gleichzeitig existieren, muss die Menge der Artikel, die zur Reservierung verfügbar sind, an die Zuordnung zu ausgehenden Lagerbelegen angepasst sein.  
 
@@ -73,7 +73,7 @@ Das Ergebnis wird im Feld **Verfügbare Gesamtmenge** auf der Seite **Reservieru
 
 In einer Reservierungszeile wird die Menge, die nicht reserviert werden kann, da sie im Lager zugeordnet wird, im Feld **Zugewiesene Menge im Lager** auf der Seite **Reservierungen** angezeigt.  
 
-### <a name="calculating-the-quantity-available-to-reserve"></a>Berechnen der zur Reservierung verfügbaren Menge
+### Berechnen der zur Reservierung verfügbaren Menge
 
 [!INCLUDE [prod_short](includes/prod_short.md)] berechnet die zur Reservierung verfügbare Menge wird wie folgt:  
 
@@ -83,7 +83,7 @@ Das folgende Diagramm zeigt die verschiedenen Elemente der Berechnung.
 
 ![Verfügbar zum Reservieren pro Lager-Zuordnung.](media/design_details_warehouse_management_availability_3.png "Verfügbar, um pro Lagerzuordnung zu reservieren")  
 
-## <a name="see-also"></a>Weitere Informationen
+## Weitere Informationen  
 
 [Überblick über die Lagerverwaltung](design-details-warehouse-management.md)
 [Anzeigen der Verfügbarkeit von Artikeln](inventory-how-availability-overview.md)

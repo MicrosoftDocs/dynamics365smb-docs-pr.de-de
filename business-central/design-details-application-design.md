@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 11/26/2021
 ms.author: edupont
 ---
-# <a name="application-design-details"></a>Details zum Anwendungsdesign
+# Details zum Anwendungsdesign
 
 Die Artikel in diesem Abschnitt enthalten detaillierte technische Informationen zu komplexen Anwendungsbereiche in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
@@ -26,7 +26,7 @@ Der Designdetailinhalt wendet sich an Implementierer, Entwickler und Superuser, 
 |Informationen zu historischen und aktuellen Darstellungsarten von Artikelverfolgungsfunktionen und wie diese mit dem Reservierungssystem verknüpft werden können, um Serien-/Chargennummern bei der Verfügbarkeitsberechnung zu berücksichtigen.|[Designdetails: Artikelverfolgung](design-details-item-tracking.md)|  
 |Erfahren Sie mehr über die Finanzbuchhaltungs-Buchungsfunktion.|[Designdetails: Fibu Buch.-Blatt-Beitrags-Zeile](design-details-general-journal-post-line.md)|
 
-## <a name="see-also"></a>Weitere Informationen
+## Weitere Informationen
 
 [Planung](production-planning.md)  
 [Verwalten der Bestandsregulierung](finance-manage-inventory-costs.md)  
@@ -34,4 +34,4 @@ Der Designdetailinhalt wendet sich an Implementierer, Entwickler und Superuser, 
 [Einrichten komplexer Anwendungsbereichte mithilfe von Best Practices](set-up-complex-application-areas-using-best-practices.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

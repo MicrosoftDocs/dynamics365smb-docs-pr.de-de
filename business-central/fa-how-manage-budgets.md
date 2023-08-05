@@ -11,13 +11,13 @@ ms.search.form: '5610, 5611'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="manage-budgets-for-fixed-assets"></a>Budgets für Anlagen verwalten
+# Budgets für Anlagen verwalten
 
 Sie können budgetierte Anlagen einrichten. Dadurch haben Sie die Möglichkeit, geplante Anschaffungen und Verkäufe in Berichten zu berücksichtigen.  
 
 Um Ihre budgetierte GuV, die budgetierte Bilanz und Ihr Finanzbudget vorzubereiten, benötigen Sie Informationen über Ihre zukünftigen Investitionen, Verkäufe und Abschreibungen von Anlagen. Diese Informationen erhalten Sie im Bericht **Anlage - Vorschau**. Bevor Sie diesen Bericht ausdrucken, müssen Sie das Budget vorbereiten.  
 
-## <a name="to-budget-the-acquisition-cost-of-a-fixed-asset"></a>So budgetieren Sie die Anschaffungskosten einer Anlage
+## So budgetieren Sie die Anschaffungskosten einer Anlage
 
 Um ein Budget vorzubereiten, müssen Sie Anlagenkarten für die Anlagen einrichten, die Sie zukünftig erwerben möchten. Die budgetierten Anlagen werden als normale Anlagen eingerichtet, aber sie müssen so eingerichtet sein, dass sie nicht in der Finanzbuchhaltung buchen.
 
@@ -28,7 +28,7 @@ Wenn Sie Anschaffungskosten buchen, geben Sie die Nummer der budgetierten Anlage
 3. Wählen Sie das Kontrollkästchen **Plananlage**, um Buchungen in der Finanzbuchhaltung zu vermeiden.
 4. Füllen Sie die restlichen Felder aus, weisen Sie ein AfA-Buch zu, und buchen Sie dann die ersten Anschaffungskosten mit der budgetierten Anlage im Feld **Plananlagennr.** Weitere Informationen finden Sie unter [Erwerben von Anlagen](fa-how-acquire.md).
 
-## <a name="to-budget-the-disposal-of-a-fixed-asset"></a>So budgetieren Sie Verkäufe von Anlagen
+## So budgetieren Sie Verkäufe von Anlagen
 
 Falls Sie innerhalb der Periode, für die Sie ein Budget erstellen, den Verkauf einer Anlage planen, können Sie Informationen zum Verkaufspreis und zum Verkaufsdatum eingeben.
 
@@ -36,7 +36,7 @@ Falls Sie innerhalb der Periode, für die Sie ein Budget erstellen, den Verkauf 
 2. Wählen Sie die Anlage aus, die verkauft werden soll, und wählen Sie dann die Aktion **AfA-Bücher** aus.
 3. Füllen Sie auf der Seite **Anlagen-AfA-Bücher** die Felder **Erwartetes Abgangsdatum** und **Erwarteter Verkaufspreis** aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="to-view-projected-disposal-values"></a>So zeigen Sie geschätzte Verkaufswerte an
+## So zeigen Sie geschätzte Verkaufswerte an
 
 Um sich die geschätzten Verkaufswerte anzeigen zu lassen und den entstehenden Gewinn oder Verlust zu berechnen, können Sie den Bericht **Anlagenvorschau** verwenden.
 
@@ -44,7 +44,7 @@ Um sich die geschätzten Verkaufswerte anzeigen zu lassen und den entstehenden G
 2. Füllen Sie die Felder je nach Bedarf aus.
 3. Klicken Sie auf die Schaltfläche **Drucken** oder **Vorschau**.
 
-## <a name="to-budget-depreciation"></a>So budgetieren Sie AfA
+## So budgetieren Sie AfA
 
 Sie können den Bericht **Anlage - Vorschau** zur Kalkulation von zukünftigen Abschreibungen verwenden. Dieser Bericht zeigt den Buchwert und die kumulierte AfA zum Beginn einer gewählten Periode, die Änderungen innerhalb dieser Periode und den Buchwert sowie die kumulierte AfA am Ende der Periode.
 
@@ -54,9 +54,9 @@ Sie können den Bericht **Anlage - Vorschau** zur Kalkulation von zukünftigen A
 4. Lassen Sie das Inforegister **Anlage** leer, damit alle Anlagen einbezogen werden. Geben Sie im Feld **Plananlage** die Einstellung **Nein** an, um Plananlagen auszuschließen, oder geben Sie **Ja** an, um nur Plananlagen anzuzeigen.
 5. Wählen Sie die Schaltfläche **Drucken** oder **Vorschau**.
 
-## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/budget-fixed-assets/)
+## Siehe verwandte [Microsoft Schulungen](/training/modules/budget-fixed-assets/)
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Anlagen](fa-manage.md)  
 [Einrichten von Anlagen](fa-setup.md)  

@@ -10,7 +10,7 @@ ms.search.form: '5628, 5629, 5633'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="revalue-fixed-assets"></a>Anlagen neu bewerten
+# Anlagen neu bewerten
 
 Eine Neubewertung von Anlagen kann aus Abschreibungen, erhöhter AfA oder allgemeinen Wertanpassungen bestehen.
 
@@ -20,7 +20,7 @@ Wenn sich der Wert einer Anlage verringert hat, buchen Sie eine Buch.-Blattzeile
 
 Die Indexierung wird verwendet, um mehrere zu versichernde Summen, wie beispielsweise allgemeinen Preisänderungen, anzupassen. Die Stapelverarbeitung **Anlagen indexieren** kann verwendet werden, um verschiedene Beträge (wie erhöhte AfA und Zuschreibungen) zu ändern.
 
-## <a name="to-post-an-appreciation-from-the-fixed-asset-gl-journal"></a>So buchen Sie Zuschreibungen aus dem Anlagen Fibu Buch.-Blatt
+## So buchen Sie Zuschreibungen aus dem Anlagen Fibu Buch.-Blatt
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Anlagen Fibu Buch.-Blätter** ein, und wählen Sie dann den zugehörigen Link.  
 2. Erstellen Sie eine ursprüngliche Buch.-Blattzeile und füllen Sie die notwendigen Felder aus.
@@ -31,7 +31,7 @@ Die Indexierung wird verwendet, um mehrere zu versichernde Summen, wie beispiels
     >   Schritt 4 funktioniert nur, wenn Sie Folgendes eingerichtet haben: Auf der Seite **Zuschreibungskonto** der Buchungsgruppe der Anlage enthält das Feld **Kto. Wartung** das Sollkonto im Sachkonto und das Feld **Gegenkto. Wartung** enthält das Sachkonto, auf das die Gegenposten für Zuschreibungen gebucht werden sollen. Weitere Informationen finden Sie unter [So richten Sie Anlagenbuchungsgruppen ein](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).  
 5. Wählen Sie die Aktion **Buchen** aus.
 
-## <a name="to-post-a-write-down-from-the-fixed-asset-gl-journal"></a>So buchen Sie eine erhöhte AfA aus dem Anlagen Fibu Buch.-Blatt
+## So buchen Sie eine erhöhte AfA aus dem Anlagen Fibu Buch.-Blatt
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Anlagen Fibu Buch.-Blätter** ein, und wählen Sie dann den zugehörigen Link.  
 2. Erstellen Sie eine ursprüngliche Buch.-Blattzeile und füllen Sie die notwendigen Felder aus.
@@ -42,7 +42,7 @@ Die Indexierung wird verwendet, um mehrere zu versichernde Summen, wie beispiels
     >   Schritt 4 funktioniert nur, wenn Sie Folgendes eingerichtet haben: Auf der Seite **Anlagenbuchungsgruppenkarte** der Buchungsgruppe der Anlage enthält das Feld **Abschreibungskonto** das Habenkonto im Sachkonto und das Feld **Ausgaben-Abschreibungskonto** das Sollkonto im Sachkonto, auf das die Gegenposten für erhöhte AfA gebucht werden sollen. Weitere Informationen finden Sie unter [So richten Sie Anlagenbuchungsgruppen ein](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).
 5. Wählen Sie die Aktion **Buchen** aus.
 
-## <a name="to-perform-general-revaluation-of-fixed-assets"></a>So führen Sie allgemeine Neubewertungen von Anlagen aus
+## So führen Sie allgemeine Neubewertungen von Anlagen aus
 
 Die Indexierung wird verwendet, um mehrere zu versichernde Summen, wie beispielsweise allgemeinen Preisänderungen, anzupassen. Die Stapelverarbeitung **Anlagen indexieren** kann verwendet werden, um verschiedene Beträge (wie erhöhte AfA und Zuschreibungen) zu ändern. Das Kontrollkästchen **Indexierung zulassen** auf der Seite **AfA-Buch** muss aktiviert sein.
 
@@ -58,7 +58,7 @@ Die Indexierung wird verwendet, um mehrere zu versichernde Summen, wie beispiels
     > [!TIP]  
     >   Falls die Indexzahlen nur für die Simulation verwendet werden, können Sie ein spezielles AfA-Buch dafür erstellen. Dann haben diese Posten keinen Einfluss auf andere AfA-Bücher.
 
-## <a name="to-post-additional-acquisition-costs"></a>So buchen Sie zusätzliche Anschaffungskosten
+## So buchen Sie zusätzliche Anschaffungskosten
 
 Sie können zusätzliche Anschaffungskosten einer Anlage auf die gleiche Art buchen, auf die Sie die ursprünglichen Anschaffungskosten gebucht haben: aus einer Einkaufsrechnung oder aus einem Anlagen Buch.-Blatt. Weitere Informationen finden Sie unter [Erwerben von Anlagen](fa-how-acquire.md).  
 
@@ -72,7 +72,7 @@ Die Berechnung des Abschreibungsprozentsatzes erfolgt in dieser Weise:
 
 Beachten Sie, dass Sie das Kontrollkästchen **AfA bis Anlagedatum** auf der Rechnung, dem Anlagen Fibu Buch.-Blatt oder den Anlagen Buch.-Blattzeilen aktivieren müssen, um sicherzustellen, dass die AfA vom letzten Anlagenbuchungsdatum bis zum Buchungsdatum der zusätzlichen Anschaffungskosten berechnet wird.
 
-### <a name="example---posting-additional-acquisition-costs"></a>Beispiel – Buchen von zusätzlichen Anschaffungskosten
+### Beispiel – Buchen von zusätzlichen Anschaffungskosten
 
 Eine Maschine wurde am 1. August 2000 erworben. Die Anschaffungskosten betragen 4.800. Die AfA-Methode ist linear über vier Jahre.
 
@@ -114,9 +114,9 @@ Falls Sie das Kontrollkästchen **AfA bis Anlagedatum** aktiviert haben, würde 
 
 *Gesamtsumme AfA = 100 + 15 + 55.54 = 170.54*
 
-## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/paths/manage-advanced-fixed-assets-transactions/)
+## Siehe verwandte [Microsoft Schulungen](/training/paths/manage-advanced-fixed-assets-transactions/)
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Anlagen](fa-manage.md)  
 [Einrichten von Anlagen](fa-setup.md)  

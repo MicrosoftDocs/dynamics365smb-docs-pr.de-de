@@ -9,7 +9,7 @@ ms.date: 03/24/2023
 ms.author: jswymer
 ms.reviewer: jswymer
 ---
-# <a name="create-users-according-to-licenses"></a>Benutzer nach Lizenzen anlegen
+# Benutzer nach Lizenzen anlegen
 
 [!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
 
@@ -22,7 +22,7 @@ Für weitere Informationen zu den verschiedenen Lizenztypen und zur Funktionswei
 > [!NOTE]
 > Der Prozess der Benutzer- und Lizenzverwaltung variiert je nachdem, ob [!INCLUDE[prod_short](includes/prod_short.md)] online oder vor Ort eingesetzt wird. Für [!INCLUDE [prod_short](includes/prod_short.md)] online müssen Sie Benutzer von Microsoft 365 hinzufügen. In Vor-Ort-Bereitstellungen können Sie Benutzer direkt erstellen, bearbeiten und löschen.  
 
-## <a name="manage-users-and-licenses-in-online-tenants"></a>Benutzer und Lizenzen in Online-Mandanten verwalten
+## Benutzer und Lizenzen in Online-Mandanten verwalten
 
 Benutzerkonten in [!INCLUDE[prod_short](includes/prod_short.md)] müssen zunächst im Admin-Center Microsoft 365 erstellt werden. Diese Benutzerkonten sind nicht exklusiv für Business Central. Wenn Sie andere Tarife abonniert haben, können Sie sich damit auch bei anderen Anwendungen anmelden, beispielsweise bei Power BI. Informationen zum Erstellen von Benutzern im Admin-Center Microsoft 365 finden Sie unter [Benutzer im Admin-Center von Microsoft erstellen](/microsoft-365/admin/add-users/add-users).
 
@@ -54,7 +54,7 @@ Beide Ansätze haben ihre eigenen Vorteile, und Sie können sie gleichzeitig ver
 
 Weitere Informationen finden Sie unter [Delegierter Administratorzugriff auf Business Central Online](/dynamics365/business-central/dev-itpro/administration/delegated-admin).  
 
-### <a name="configure-permissions-based-on-licenses"></a><a name="licensespermissions"></a>Berechtigungen auf Grundlage von Lizenzen konfigurieren
+### <a name="licensespermissions"></a>Berechtigungen auf Grundlage von Lizenzen konfigurieren
 
 [!INCLUDE [2022_releasewave1](includes/2022_releasewave1.md)]
 
@@ -84,7 +84,7 @@ Wenn diese Standardkonfiguration nicht die richtige Einrichtung für eine bestim
 > [!IMPORTANT]
 > Diese Anpassung der Berechtigungen wird nur für neue Benutzer wirksam, denen Sie die entsprechende Lizenz zuweisen. Vorhandene Benutzer werden nicht aktualisiert. Wir empfehlen, dass Sie Berechtigungen anpassen, bevor Sie mit der Zuweisung von Benutzerlizenzen im Microsoft 365 Admin Center beginnen.
 
-### <a name="to-add-users-or-update-user-information-and-license-assignments-in-business-central"></a><a name="adduser"></a>Um Benutzer hinzuzufügen oder Benutzerinformationen und Lizenzzuweisungen in Business Central zu aktualisieren
+### <a name="adduser"></a>Um Benutzer hinzuzufügen oder Benutzerinformationen und Lizenzzuweisungen in Business Central zu aktualisieren
 
 Nachdem Sie Benutzer hinzugefügt oder Benutzerinformationen im Microsoft 365 Admin Center geändert haben, können Sie die Benutzerinformationen schnell in [!INCLUDE[prod_short](includes/prod_short.md)] importieren. Der Import enthält Lizenzzuweisungen.  
 
@@ -108,7 +108,7 @@ Weitere Informationen zur Synchronisierung von Benutzerinformationen mit Microso
 > [!NOTE]
 > Wenn Sie eines externen Buchhalter verwenden, um Ihre Buch und Berichte zu verwalten, können Sie sie für Ihr [!INCLUDE[prod_short](includes/prod_short.md)] einladen, damit sie mit Ihnen an Ihren steuerlichen Daten arbeiten. Weitere Informationen finden Sie unter [Ihren externen Buchhalter in Ihr Business Central einladen](finance-accounting.md#inviteaccountant).
 
-### <a name="to-remove-a-users-access-to-the-system"></a>So entfernen Sie den Zugriff eines Benutzers auf das System
+### So entfernen Sie den Zugriff eines Benutzers auf das System
 
 Sie können den Zugriff eines Benutzers auf [!INCLUDE[prod_short](includes/prod_short.md)] Online entfernen. Alle Verweise auf den Benutzer bleiben erhalten. Der Benutzer kann sich jedoch nicht anmelden, und aktive Sitzungen für den Benutzer werden beendet.
 
@@ -118,7 +118,7 @@ Sie können den Zugriff eines Benutzers auf [!INCLUDE[prod_short](includes/prod_
 
 Sie können die Lizenz auch von einem Benutzer im Microsoft 365 Admin Center entfernen. Der Benutzer kann sich dann nicht mehr anmelden. Weitere Informationen finden Sie unter [Lizenzen von Benutzern entfernen](/microsoft-365/admin/manage/remove-licenses-from-users).
 
-### <a name="synchronization-with-microsoft-365"></a><a name="m365"></a>Synchronisierung mit Microsoft 365
+### <a name="m365"></a>Synchronisierung mit Microsoft 365
 
 Wenn Sie einem Benutzer in Microsoft 365 eine Lizenz für [!INCLUDE[prod_short](includes/prod_short.md)] zuweisen, gibt es zwei Möglichkeiten, den Benutzer in [!INCLUDE[prod_short](includes/prod_short.md)] anzulegen.  
 
@@ -143,13 +143,13 @@ Erfahren Sie mehr über die Sicherung des Zugriffs auf Umgebungen mithilfe von S
 
 Einen Überblick über den Zugriff auf [!INCLUDE[prod_short](includes/prod_short.md)] in Teams mit Microsoft 365-Lizenzen finden Sie unter [admin-access-with-m365-license](admin-access-with-m365-license.md).
 
-## <a name="manage-users-and-licenses-in-on-premises-deployments"></a>Benutzer und Lizenzen in lokalen Bereitstellungen verwalten
+## Benutzer und Lizenzen in lokalen Bereitstellungen verwalten
 
 Bei lokalen Bereitstellungen wird die Anzahl der Benutzerlizenzen in der Lizenzdatei (.bclicense oder .flf) angegeben. Wenn ein Administrator oder Microsoft-Partner die Lizenzdatei hochlädt, kann er angeben, welche Benutzer sich bei [!INCLUDE[prod_short](includes/prod_short.md)] anmelden können.
 
 Bei lokalen Implementierungen erstellt, bearbeitet und löscht der Administrator Benutzer direkt von der Seite **Benutzer**.
 
-### <a name="to-edit-or-delete-a-user-in-an-on-premises-deployment"></a>So bearbeiten oder löschen Sie einen Benutzer in einer Vor-Ort-Bereitstellung
+### So bearbeiten oder löschen Sie einen Benutzer in einer Vor-Ort-Bereitstellung
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Benutzer** ein, und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie den Benutzer aus, und wählen Sie anschließend die Aktion **Bearbeiten** aus.
@@ -161,7 +161,7 @@ Bei lokalen Implementierungen erstellt, bearbeitet und löscht der Administrator
 >
 > Weitere Informationen finden Sie in [Authentifizierungs- und Anmeldeinformationstypen](/dynamics365/business-central/dev-itpro/administration/users-credential-types) in der Administrationshilfe für [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Berechtigungen an Benutzer und Gruppen zuweisen](ui-define-granular-permissions.md)  
 [Profile verwalten](admin-users-profiles-roles.md)  

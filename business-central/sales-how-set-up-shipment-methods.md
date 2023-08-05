@@ -11,13 +11,13 @@ ms.search.form: '11, 130'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="set-up-shipment-methods"></a>Lieferbedingungen einrichten
+# Lieferbedingungen einrichten
 
 Lieferbedingungen hängen häufig von den Debitoren, Kreditoren und den Artikeln ab. Wenn der Debitor beispielsweise auf einer Insel lebt, kann er entscheiden, die Artikel immer auf dem Luftweg oder immer auf dem Seeweg geliefert zu bekommen. Einige Debitoren möglicherweise eine Lieferung am nächsten Tag. Einige möchten vielleicht den Auftrag abholen. Sie können auf den Debitoren- und Kreditorenkarten angeben, welche Lieferart gewünscht ist.
 
 In der Tabelle **Lieferbedingungen** richten Sie die Beschreibung und den Code für jede Lieferbedingung ein. Sie können z. B. den Code "FOB" einrichten und im Feld **Beschreibung** können Sie "Frei an Bord" eingeben. Sie können dann den Code im Feld **Lieferbedingungscode** an anderer Stelle in der Anwendung eingeben, z. B. auf der Debitorenkarte. Wenn Sie dann neue Aufträge, Bestellungen, Rechnungen oder Gutschriften erstellen oder buchen, wird das System die Beschreibung einfügen, die zu dem Code gehört. Sie können die Standardbeträge auf dem Beleg je nach Anforderung ändern.
 
-## <a name="to-set-up-a-shipment-method"></a>So richten Sie eine Lieferbedingung ein
+## So richten Sie eine Lieferbedingung ein
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Lieferbedingungen** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie auf der Seite **Lieferbedingungen** die Aktion **Neu** aus.
@@ -26,7 +26,7 @@ In der Tabelle **Lieferbedingungen** richten Sie die Beschreibung und den Code f
 > [!TIP]
 > Wenn Sie Incoterms verwenden, richten Sie Versandmethoden ein, um die relevanten Incoterms-Regeln darzustellen.  
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Zusteller einrichten](sales-how-to-set-up-shipping-agents.md)  
 [Um Pakete zu verfolgen](sales-how-track-packages.md)  

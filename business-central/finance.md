@@ -11,7 +11,7 @@ ms.search.form: '1151, 1166, 9027, 9004'
 ms.date: 08/19/2022
 ms.author: edupont
 ---
-# <a name="financial-management"></a>Finanzmanagement
+# Finanzmanagement
 
 [!INCLUDE[prod_short](includes/prod_short.md)] umfasst eine Standardkonfiguration der meisten Finanzvorgänge, aber Sie können sie ändern, um Sie den Anforderungen Ihres Unternehmens anzupassen. Erfahren Sie mehr unter [Einrichten von Finanzen](finance-setup-finance.md).
 
@@ -49,13 +49,13 @@ Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Themen,
 | Arbeiten mit Finanzberichten und -übersichten in Microsoft Excel. |[Finanzauswertungen in Excel analysieren](finance-analyze-excel.md) |
 |Erfahren Sie, wie Sie das Buchhalter-Rollencenter verwenden, einen externen Buchhalter einladen und den Unternehmens-Hub nutzen, um Konten mehrerer Clients zu verwalten.|[Buchhaltungs-Erfahrung in Business Central](finance-accounting.md)|  
 
-## <a name="take-a-video-tour"></a>Machen Sie eine Videotour
+## Machen Sie eine Videotour
 
 Dieses Video stellt einige der wichtigsten Funktionen für die Verwaltung von Finanzen vor. <br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4Fss4?rel=0]
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Finanzen einrichten](finance-setup-finance.md)  
 [Verkauf](sales-manage-sales.md)  
@@ -66,6 +66,6 @@ Dieses Video stellt einige der wichtigsten Funktionen für die Verwaltung von Fi
 [Arbeiten mit Fibu Buch.-Blättern](ui-work-general-journals.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

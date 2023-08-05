@@ -11,13 +11,13 @@ ms.search.form: null
 ms.date: 06/11/2021
 ms.author: edupont
 ---
-# <a name="local-functionality-in-"></a>Lokale Funktion in [!INCLUDE[prod_long](includes/prod_long.md)]
+# Lokale Funktion in [!INCLUDE[prod_long](includes/prod_long.md)]
 
 [!INCLUDE[prod_short](includes/prod_short.md)] verfügt über eine kombinierte Lokalisierungsstrategie, inklusive von Microsoft geführter und partnergeführter Modelle. In diesem Abschnitt können Sie Beschreibungen der Funktionen anzeigen, die für die Länder/Regionen gelten, in denen Microsoft die regulatorische Kompatibilität und andere Funktionen bereitstellt.  
 
 Eine Liste der derzeit unterstützten Märkte finden Sie unter [Verfügbarkeit nach Ländern/Regionen und unterstützte Übersetzungen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json).  
 
-## <a name="local-functionality"></a>Lokale Funktionalität
+## Lokale Funktionalität
 
 Wählen Sie den entsprechenden Link, um mehr über die lokalen Funktionen für jedes Land/jede Region zu erfahren:
 
@@ -48,11 +48,11 @@ Wählen Sie den entsprechenden Link, um mehr über die lokalen Funktionen für j
 |        | Indien | [Indien Lokale Funktionalität](LocalFunctionality/India/india-local-functionality.md) |
 |        | Neuseeland | [Lokale Funktion (Neuseeland)](localfunctionality/newzealand/new-zealand-local-functionality.md) |
 
-### <a name="other-countriesregions"></a>Andere Länder/Regionen
+### Andere Länder/Regionen
 
 [!INCLUDE[prod_short](includes/prod_short.md)] ist über Lokalisierungs-Apps auch in anderen Märkten verfügbar. Wenn ein Microsoft-Partner eine Lokalisierungs-App für Ihr Land/Ihre Region entwickelt hat, finden Sie diese in [AppSource](https://go.microsoft.com/fwlink/?linkid=2081646).
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 [Umgebungen erstellen](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments)  
 [Bereitschaft für die Geschäftsabwicklung](ui-get-ready-business.md)  
 [Compliance](compliance/compliance-overview.md)  

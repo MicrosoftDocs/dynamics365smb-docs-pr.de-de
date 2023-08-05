@@ -10,7 +10,7 @@ ms.date: 12/16/2022
 ms.custom: bap-template
 ms.search.form: '393, 7382'
 ---
-# <a name="move-items-internally-in-basic-warehouse-configurations"></a>Interne Umlagerung von Artikeln in Basis-Lagerkonfigurationen
+# Interne Umlagerung von Artikeln in Basis-Lagerkonfigurationen
 
 Sie möchten vielleicht Artikel ohne einen Bedarf aus einem Herkunftsbeleg zwischen Lagerplätzen umlagern. Zum Beispiel im Rahmen der folgenden Aktivitäten:
 
@@ -25,11 +25,11 @@ In Lagerkonfigurationen, in denen der Einrichtungsschalter **Lagerplatz obligato
 * Auf der Seite **Interne Umlagerung**.
 * Auf der Seite **Umlagerungs Buch.-Blatt**.  
 
-## <a name="internal-movements"></a>Interne Umlagerungen
+## Interne Umlagerungen
 
 Auf der Seite **Interne Umlagerungen** können Sie Entnahme- und Einlagerungszeilen angeben, wenn keine Nachfrage von einem Herkungsbeleg besteht. Die Seite „Interne Umlagerung“ ist wie ein Arbeitsblatt zum Organisieren von Dingen. Sie können die eigentliche Umlagerung daraus nicht direkt verarbeiten. Wenn eine Zeile ausgefüllt ist, verwenden Sie die Aktion **Lagerbestandsumlagerung erstellen**, um die Zeile an die Seite **Lagerbestandumlagerung** zu senden, wo Sie die Umlagerung verarbeiten und erfassen.
 
-### <a name="to-move-items-as-an-internal-movement"></a>Um Artikel als interne Umlagerung zu verschieben
+### Um Artikel als interne Umlagerung zu verschieben
 
 1. Wählen Sie das Symbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Geben Sie **Interne Umlagerungen** ein, und wählen Sie dann den entsprechenden Link.  
 2. Wählen Sie die Aktion **Neu** aus. Stellen Sie sicher, dass das Feld **Nr.** auf dem Inforegister **Allgemein** ausgefüllt ist.
@@ -59,7 +59,7 @@ Auf der Seite **Interne Umlagerungen** können Sie Entnahme- und Einlagerungszei
 
 Führen Sie den Rest der ungeplanten Umlagerung auf der Seite **Lagerbestandsumlagerung** auf dieselbe Weise durch, wie Sie eine Lagerplatzumlagerung basierend auf Herkunftsbelegen ausführen würden.
 
-### <a name="to-record-the-inventory-movement"></a>So erfassen Sie die Lagerbestandsumlagerung
+### So erfassen Sie die Lagerbestandsumlagerung
 
 1. Öffnen Sie auf der Seite **Lagerbestandsumlagerung** das Dokument, für das die Umlagerung erfasst werden soll.  
 2. Im Feld **Lagerplatzcode** auf den Umlagerungszeilen der Lagerplatz, bei dem der Artikel aus dem er kommissioniert werden muss, an dem der Artikel verfügbar ist. Sie können den Lagerplatz bei Bedarf ändern.
@@ -72,7 +72,7 @@ Folgendes passiert während des Buchungsprozesses:
 
 * Lagerplatzeinträge geben an, dass die Menge von den Entnahmelagerplätzen zu den Eingangslagerplätzen übertragen wird.
 
-## <a name="to-move-items-with-the-item-reclassification-journal"></a>Um Artikel mit dem Artikel-Umlagerungs-Buch.-Blatt umzulagern
+## Um Artikel mit dem Artikel-Umlagerungs-Buch.-Blatt umzulagern
 
 Statt Umlagerungsbelege zu verwenden, können Sie Umlagerungen von Artikeln erfassen, indem Sie Lagerplatzcodes auf Artikeln neu klassifizieren. Weitere Informationen finden Sie unter [Erfassen, Regulieren und Umbuchen von Lagerbestand mithilfe von Buch.-Blättern](inventory-how-count-adjust-reclassify.md).
 
@@ -89,9 +89,9 @@ Statt Umlagerungsbelege zu verwenden, können Sie Umlagerungen von Artikeln erfa
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/manage-internal-warehouse-processes/)
+## Siehe verwandte [Microsoft Schulungen](/training/modules/manage-internal-warehouse-processes/)
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Lagerverwaltung – Übersicht](design-details-warehouse-management.md)
 [Bestand](inventory-manage-inventory.md)  

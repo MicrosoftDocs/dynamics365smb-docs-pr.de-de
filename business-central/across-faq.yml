@@ -5,7 +5,7 @@ metadata:
   author: edupont04
   ms.topic: faq
   ms.search.keywords: 'FAQ, email, Microsoft 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend'
-  ms.date: 09/07/2022
+  ms.date: 07/14/2023
   ms.author: edupont
 title: Häufig gestellte Fragen zur Verwendung von Business Central
 summary: |
@@ -28,9 +28,9 @@ sections:
       - question: |
           Wohin wende ich mich bei Fragen?
         answer: |
-          Wenn Sie Fragen zum [!INCLUDE[prod_short](includes/prod_short.md)] haben, und keine Antwort in dieser Dokumentation finden, können Sie dieBusiness Central-Community fragen. Weitere Informationen unter [Dynamics 365 Business Central Community](https://community.dynamics.com/business).  
+          Wenn Sie Fragen zum [!INCLUDE[prod_short](includes/prod_short.md)] haben, und keine Antwort in dieser Dokumentation finden, können Sie dieBusiness Central-Community fragen. Weitere Informationen unter [Dynamics 365 Business Central-Community-Forum](https://community.dynamics.com/forums/thread/?groupid=e78817ab-a926-4d31-96cc-aef040a4eb04).  
 
-          Von der Communityhomepage aus finden Sie auch Verknüpfungen mit unseren Blogs, in denen Sie Tipps und Tricks finden. Weitere Informationen finden Sie unter [Microsoft Dynamics 365 Business Central auf dem Dynamics 365 Blog](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/) und den älteren [Dynamics 365 Business Central Blog](https://community.dynamics.com/business/b/financials).  
+          Von der Communityhomepage aus finden Sie auch Verknüpfungen mit unseren Blogs, in denen Sie Tipps und Tricks finden. Weitere Informationen finden Sie unter [Microsoft Dynamics 365 Business Central auf dem Dynamics 365 Blog](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/) und den älteren [Dynamics 365 Business Central Blog](https://community.dynamics.com/blogs/?blogid=57bdb1f3-851d-4406-a81a-508fef896fc2&groupid=e78817ab-a926-4d31-96cc-aef040a4eb04).  
 
           Schließlich können Sie Ihren [!INCLUDE[prod_short](includes/prod_short.md)] Wiederverkaufspartner kontaktieren. Weitere Informationen finden Sie in den Abschnitten [Wie erhalte ich technischen Support?](/dynamics365/business-central/across-faq#how-do-i-get-technical-support-for-business-central) und [Wie finde ich einen Vertriebspartner?](#how-do-i-find-a-reselling-partner).  
       - question: |
@@ -57,11 +57,11 @@ sections:
         answer: |
           [!INCLUDE[prod_short](includes/prod_short.md)] wird durch Partner verkauft und Sie sollten Ihren Wiederverkaufspartner kontaktieren, um Hilfe mit technischen Problemen zu erhalten. Wenn Ihr [!INCLUDE[prod_short](includes/prod_short.md)]-Partner das jeweilige Problem nicht lösen kann, wird er ein Support-Ticket bei Microsoft eröffnen.  
 
-          Weitere Informationen finden Sie unter [Hilfe und Support](product-help-and-support.md) und unter [Wie finde ich einen Vertriebspartner?](#how-do-i-find-a-reselling-partner).  
+          Weitere Informationen finden Sie unter [Hilfe und Support](product-help-and-support.md) und im Abschnitt [Wie finde ich einen Vertriebspartner?](#how-do-i-find-a-reselling-partner).  
       - question: |
           Wo ist die Speichern-Schaltfläche?
         answer: |
-          es gibt keine *Speichern*-Schaltfläche auf Seiten wie in anderen Programmen, mit denen Sie möglicherweise vertraut sind. In [!INCLUDE[prod_short](includes/prod_short.md)] werden Änderungen, die Sie in einem Feld vornehmen, automatisch gespeichert, sobald Sie zum nächsten Feld wechseln oder die Seite schließen, sofern keine Fehler vorliegen. Wenn Sie Änderungen an einem Feld vornehmen und zu einem anderen Feld wechseln, wird der Text **Wird gespeichert** in der oberen rechten Ecke der Seite angezeigt. Er wechselt schnell zu **Gespeichert**, wenn keine Fehler auftreten. Wenn ein Fehler auftritt, wird der Text in **Nicht gespeichert** geändert.  
+          Es gibt keine *Speichern*-Schaltfläche auf Seiten wie in anderen Programmen, mit denen Sie möglicherweise vertraut sind. In [!INCLUDE[prod_short](includes/prod_short.md)] werden Änderungen, die Sie in einem Feld vornehmen, automatisch gespeichert, sobald Sie zum nächsten Feld wechseln oder die Seite schließen, sofern keine Fehler vorliegen. Wenn Sie Änderungen an einem Feld vornehmen und zu einem anderen Feld wechseln, wird der Text **Wird gespeichert** in der oberen rechten Ecke der Seite angezeigt. Er wechselt schnell zu **Gespeichert**, wenn keine Fehler auftreten. Wenn ein Fehler auftritt, wird der Text in **Nicht gespeichert** geändert.  
       - question: |
           Wo finde ich diese Zeilennummer?
         answer: |

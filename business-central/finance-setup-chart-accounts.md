@@ -11,14 +11,14 @@ ms.search.form: '16, 17, 18, 118, 386, 391'
 ms.date: 01/21/2022
 ms.author: edupont
 ---
-# <a name="set-up-or-change-the-chart-of-accounts"></a>Einrichten oder Ändern des Kontenplans
+# Einrichten oder Ändern des Kontenplans
 
 Der Kontenplan zeigt die Sachkonten an, die Finanzdaten speichern. [!INCLUDE[prod_short](includes/prod_short.md)] umfasst einen Standardkontenplan, der zur Unterstützung Ihres Unternehmens bereit steht. Sie können jedoch die Standardkonten ändern und neue Konten hinzufügen.
 <br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE43KO9?rel=0]
 
-## <a name="add-or-change-accounts"></a>Hinzufügen oder Ändern von Konten
+## Hinzufügen oder Ändern von Konten
 
 Im Kontenplan können Sie jedes Sachkonto öffnen und Einstellungen hinzufügen oder ändern. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] 
 
@@ -29,7 +29,7 @@ Für Konten des Kontotyps **Summe** müssen Sie das Feld **Summe** ausfüllen. B
 > [!IMPORTANT]
 > Wenn Sie vor dem Ausführen der Funktion Einrücken Definitionen in den Feldern **Summe** für **Endsumme** Konten eingegeben haben, müssen Sie diese erneut eingeben, da die Funktion die Werte in allen **Endsumme** Feldern überschreibt.
 
-## <a name="delete-accounts"></a>Konten löschen
+## Konten löschen
 
 Sie können ein Sachkonto löschen. Bevor es gelöscht wird, müssen allerdings folgende Bedingungen erfüllt sein:  
 
@@ -39,7 +39,7 @@ Sie können ein Sachkonto löschen. Bevor es gelöscht wird, müssen allerdings 
 
 [!INCLUDE[prod_short](includes/prod_short.md)] verhindert, dass Sie ein Sachkonto löschen, in dem Daten gespeichert werden, die im Kontenplan erforderlich sind.  
 
-## <a name="block-deletion-of-gl-accounts"></a>Löschen von Sachkonten blockieren
+## Löschen von Sachkonten blockieren
 
 [!INCLUDE [2022_releasewave1](includes/2022_releasewave1.md)]
 
@@ -49,9 +49,9 @@ Ein neues Feld **Löschen von Sachkonten blockieren** wird zur **Finanzbuchhaltu
 
 Das Setzen des Feldes **Löschung von Sachkonten sperren** auf *Ja* kann als bewährte Methode angesehen werden, ebenso wie das Festlegen des Datums im Feld **Sachkontolöschung prüfen nach**, zum Beispiel bis zu dem Datum, bis zu dem Sie Ihre Finanzdaten speichern müssen.  
 
-## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/chart-accounts-dynamics-365-business-central/index)
+## Siehe verwandte [Microsoft Schulungen](/training/modules/chart-accounts-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Die Finanzbuchhaltung und der Kontenplan](finance-general-ledger.md)  
 [Abstimmen von Bankkonten](bank-manage-bank-accounts.md)  

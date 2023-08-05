@@ -8,7 +8,7 @@ ms.topic: conceptual
 ms.date: 02/27/2023
 ms.custom: bap-template
 ---
-# <a name="walkthrough-receiving-and-putting-away-in-basic-warehouse-configurations"></a>Exemplarische Vorgehensweise: Eingang und Einlagerung in Basis-Lagerkonfigurationen
+# Exemplarische Vorgehensweise: Eingang und Einlagerung in Basis-Lagerkonfigurationen
 
 In [!INCLUDE[prod_short](includes/prod_short.md)] erhalten Sie Artikel und lagern sie, wie in der folgenden Tabelle beschrieben, mit einer von vier Methoden ein.
 
@@ -23,7 +23,7 @@ Weitere Informationen finden Sie unter [Eingehender Lagerfluss](design-details-i
 
 In der folgenden Vorgehensweise wird Methode B in der vorhergegangenen Tabelle beschrieben.  
 
-## <a name="about-this-walkthrough"></a>Informationen zu dieser exemplarischen Vorgehensweise
+## Informationen zu dieser exemplarischen Vorgehensweise  
 
 Bei Basis-Lagerkonfigurationen gilt Folgendes: Wenn ein Lagerort so eingerichtet wurde, dass die Bearbeitung der Einlagerung erforderlich ist, die des Wareneingangs jedoch nicht erforderlich ist, verwenden Sie die Seite **Lagereinlagerung**, um Einlagerungs- und Wareneingangsinformationen für Ihre Herkunftsbelege zu erfassen und zu buchen. Die folgenden Belege sind eingehenden Herkunftsbelege:
 
@@ -50,7 +50,7 @@ In dieser exemplarischen Vorgehensweise werden folgende Aufgaben erläutert:
 > [!NOTE]
 > [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
 
-## <a name="roles"></a>Rollen
+## Rollen  
 
 Die folgenden Benutzerrollen führen die Aufgaben durch, die in dieser exemplarischen Vorgehensweise demonstriert werden:  
 
@@ -58,7 +58,7 @@ Die folgenden Benutzerrollen führen die Aufgaben durch, die in dieser exemplari
 * Einkäufer  
 * Lagermitarbeiter  
 
-## <a name="prerequisites"></a>Voraussetzungen
+## Voraussetzungen  
 
 Für diese exemplarische Vorgehensweise gelten folgende Voraussetzungen:  
 
@@ -70,15 +70,15 @@ Für diese exemplarische Vorgehensweise gelten folgende Voraussetzungen:
     3. Wählen Sie im Feld **Lagerortcode** **SILVER** ein.  
     4. Aktivieren Sie das Kontrollkästchen **Standard**.  
 
-## <a name="story"></a>Hintergrund
+## Hintergrund  
 
 Ellen, die Einkäuferin bei der CRONUS AG ist, erstellt eine Bestellung für 10 Einheiten des Artikels LS-75 und 30 Einheiten des Artikels LS-81 von dem Kreditor 10000, um zum SILVER-Lagerhaus geliefert zu werden. Wenn die Lieferung im Lager eingeht, lagert John, der Lagermitarbeiter, die Artikel in die Standardlagerplätze ein, die für die Artikel eingerichtet sind. Wenn John Einlagerungen bucht, werden die Artikel gebucht als im Lager erhalten und verfügbar zum Verkauf oder anderen Bedarf.  
 
-## <a name="setting-up-the-location"></a>Einrichten des Lagerorts
+## Einrichten des Lagerorts  
 
 Einstellungen auf der Seite **Lagerortkarte** definieren die Warenflüsse des Unternehmens.  
 
-### <a name="to-set-up-the-location"></a>So richten Sie den Standort ein
+### So richten Sie den Standort ein  
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Lagerorte** ein, und wählen Sie dann den entsprechenden Link.  
 2. Öffnen Sie die Karte für den Standort SILVER.  
@@ -95,11 +95,11 @@ Einstellungen auf der Seite **Lagerortkarte** definieren die Warenflüsse des Un
 7. Wählen Sie die Felder **Fest** und **Standard** .  
 8. Geben Sie im Feld **Belegnr.** den Wert **LS-81** ein.  
 
-## <a name="create-the-purchase-order"></a>Die Einkaufsbestellung erstellen
+## Die Einkaufsbestellung erstellen  
 
 Bestellungen sind die häufigste Art des eingehenden Herkunftsbelegs.  
 
-### <a name="to-create-the-purchase-order"></a>Bestellung erstellen
+### Bestellung erstellen  
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Einkaufsbestellungen** ein, und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die Aktion **Neu** aus.  
@@ -119,11 +119,11 @@ Bestellungen sind die häufigste Art des eingehenden Herkunftsbelegs.
 
     Der Warenausgang von Lautsprechern vom Kreditoren 10000 ist im SILBERNEN Lager eingetroffen, und John fährt fort, um sie einzulagern.  
 
-## <a name="receive-and-put-the-items-away"></a>Artikel erhalten und einlagern
+## Artikel erhalten und einlagern  
 
 Verwenden Sie die Seite **Lagereinlagerung** , um alle eingehenden Lageraktivitäten für einen bestimmten Herkunftsbeleg, wie einen Einkauf, zu verwalten.  
 
-### <a name="to-receive-and-put-the-items-away"></a>Artikel erhalten und einlagern
+### Artikel erhalten und einlagern  
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Lagereinlagerungen** ein und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die Aktion **Neu** aus.  
@@ -140,7 +140,7 @@ Verwenden Sie die Seite **Lagereinlagerung** , um alle eingehenden Lageraktivit�
 
     Die 40 Lautsprecher werden nun erfasst, wie von den Lagereinlagerungsplätzen S-01-0001 kommissioniert, und ein positiver Artikelposten wird, die gebuchte Einkaufslieferung reflektierend, erstellt.  
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch  
 
 [Artikel mit Lagereinlagerungen einlagern](warehouse-how-to-put-items-away-with-inventory-put-aways.md)  
 [Einrichten von Basislagern mit Vorgangsbereichen](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md)  

@@ -8,15 +8,15 @@ ms.search.form: 'Report_707, Report_716, Report_813, Report_1001, Report_5807, R
 ms.date: 04/13/2023
 ms.author: andreipa
 ---
-# <a name="inventory-and-warehouse-reports-and-analytics-in-business-central"></a>Bestands- und Lagerberichte und Analysen in Business Central
+# Bestands- und Lagerberichte und Analysen in Business Central
 
 Die Bestands- und Lagerberichterstattung in [!INCLUDE [prod_short](includes/prod_short.md)] ermöglicht es Bestands- und Geschäftsfachleuten, Einblicke und Statistiken über aktuelle und vergangene Bestands- und Lageraktivitäten zu erhalten.  
 
-## <a name="reports"></a>Berichte
+## Berichte
 [!INCLUDE [inventory_WMS_reports](includes/inventory-WMS-reports-include.md)]
 
 
-## <a name="tasks"></a>Aufgaben
+## Aufgaben
 
 In den folgenden Artikeln werden einige der wichtigsten Aufgaben zur Analyse des Status Ihres Unternehmens beschrieben:
 
@@ -24,7 +24,7 @@ In den folgenden Artikeln werden einige der wichtigsten Aufgaben zur Analyse des
 * [Artikelverfügbarkeit anzeigen](inventory-how-availability-overview.md)
 
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Bestand einrichten](inventory-setup-inventory.md)  
 [Bestand](inventory-manage-inventory.md)  

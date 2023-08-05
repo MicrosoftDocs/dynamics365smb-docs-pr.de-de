@@ -10,34 +10,34 @@ ms.search.keywords: 'Outlook, Microsoft 365, inbox, business inbox, WebView2, Ed
 ms.date: 05/12/2021
 ms.author: jswymer
 ---
-# <a name="optimizing-outlook-for-your-business-inbox"></a>Outlook für Ihr Unternehmenspostfach optimieren
+# Outlook für Ihr Unternehmenspostfach optimieren 
 
 In diesem Artikel wird beschrieben, wie Sie die bestmögliche Erfahrung mit dem Unternehmenpostfach in Microsoft Outlook erzielen können. 
 
-## <a name="update-outlook"></a>Outlook aktualisieren
+## Outlook aktualisieren
 
 Aktualisieren Sie auf Outlook-Version 2012 oder höher.
 
 > [!NOTE]
 > Wenn Sie Outlook nicht auf Version 2012 oder höher aktualisieren können, stellen Sie sicher, dass Sie mindestens auf Version 1905 aktualisieren. Dadurch wird verhindert, dass das Outlook-Add-In veraltete Internet Explorer-Komponenten verwendet.
 
-### <a name="how-to-check-your-version-of-outlook"></a>So überprüfen Sie Ihre Outlook-Version
+### So überprüfen Sie Ihre Outlook-Version
 
 Befolgen Sie, unabhängig davon, ob Sie Office 2019 oder Microsoft 365 verwenden, diese Microsoft-Support-Anleitung, um zu überprüfen, welche Version von Outlook Sie verwenden:  
 
 [Über Office: Welche Office-Version verwende ich?](https://support.microsoft.com/office/about-office-what-version-of-office-am-i-using-932788b8-a3ce-44bf-bb09-e334518b8b19)
 
-### <a name="how-to-update-outlook"></a>So aktualisieren Sie Outlook
+### So aktualisieren Sie Outlook
 
 Um Outlook auf die neueste Version zu aktualisieren, befolgen Sie diese Microsoft-Support-Anleitung, oder wenden Sie sich an Ihren Administrator:
 
 [Office-Updates installieren](https://support.microsoft.com/office/install-office-updates-2ab296f3-7f03-43a2-8e50-46de917611c5)
 
-## <a name="install-microsoft-edge-webview2"></a>Microsoft Edge WebView2 installieren
+## Microsoft Edge WebView2 installieren
 
 Stellen Sie sicher, dass Microsoft Edge WebView2 auf Ihrem Gerät installiert ist.
 
-### <a name="how-to-check-if-microsoft-edge-webview2-is-installed"></a>So überprüfen Sie, ob Microsoft Edge WebView2 installiert ist
+### So überprüfen Sie, ob Microsoft Edge WebView2 installiert ist 
 
 Führen Sie die folgenden Schritte aus, um zu überprüfen, ob Microsoft Edge WebView2 auf einem Computer installiert ist:
 
@@ -52,7 +52,7 @@ Führen Sie die folgenden Schritte aus, um zu überprüfen, ob Microsoft Edge We
 2. Wählen Sie **Programme** > **Programme und Features** aus.
 3. Geben Sie **WebView2** in das Suchfeld ein. Wenn Microsoft Edge WebView2 installiert ist, wird der Eintrag **Microsoft Edge WebView2 Runtime** angezeigt.
 
-### <a name="how-to-install-microsoft-edge-webview2"></a>So installieren Sie Microsoft Edge WebView2
+### So installieren Sie Microsoft Edge WebView2 
 
 1. Wechseln Sie über Ihren Browser zu [https://developer.microsoft.com/microsoft-edge/webview2/](https://developer.microsoft.com/microsoft-edge/webview2/).
 2. Wählen Sie **Herunterladen** aus.
@@ -62,11 +62,11 @@ Führen Sie die folgenden Schritte aus, um zu überprüfen, ob Microsoft Edge We
 > [!NOTE]
 > Ihre Organisation unterliegt möglicherweise Beschränkungen in Bezug darauf, welche Komponenten auf Ihrem Gerät installiert werden können. Wenden Sie sich an Ihren Administrator, um Unterstützung zu erhalten.
 
-## <a name="use-a-supported-browser"></a>Einen unterstützten Browser verwenden
+## Einen unterstützten Browser verwenden
 
 Sie können Outlook für das Web in einem der von Business Central unterstützten Browser verwenden. Eine Liste der unterstützten Browser finden Sie unter [Mindestanforderungen für die Verwendung von Business Central](product-requirements.md#browsers).
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Vorbereitung für die Geschäftstätigkeit](ui-get-ready-business.md)  
 [Abrufen von Business Central auf meinem mobilen Gerät](install-mobile-app.md)  
