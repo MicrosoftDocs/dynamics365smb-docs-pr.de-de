@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/23/2021
 ms.author: edupont
 ---
-# Servicebuchung
+# <a name="service-posting"></a>Servicebuchung
 Mit der Service-Buchungsfunktionalität können Sie Ihre Belege effizient verarbeiten und eine erfolgreiche Richtlinie für den Kundendienst aufrechterhalten. Sie können Belege erstellen und gebuchte Belege aktualisieren und Posten sowohl im Servicebereich als auch in anderen Modulen erstellen, um eine ordnungsgemäße Aktualisierung sicherzustellen.  
 
 > [!NOTE]  
@@ -18,18 +18,18 @@ Mit der Service-Buchungsfunktionalität können Sie Ihre Belege effizient verarb
 >   
 >  An einem Standort, der nicht so eingerichtet wurde, dass ein Lagerdurchlauf erforderlich ist, führen Sie die Buchungsaktionen direkt auf der Seite **Servicezeilen** aus. An Standorten, die Lagerdurchlaufzeiten vorsehen, buchen Sie die beschriebenen Aktionen, außer "Liefern" und "Verbrauchen", indirekt durch je nach Einrichtung verschiedene Lagerlieferfunktionen. Weitere Informationen finden Sie unter [Entnahme von Artikeln mit Kommissionierungen](warehouse-how-to-pick-items-with-inventory-picks.md).  
 
-## Lieferung  
+## <a name="ship"></a>Lieferung
 Mit der Option "Liefern" können Sie die relevanten Artikel und Zeiten erfassen, die nach Abschluss des Service in den Zeilen eines Serviceauftrags eingegeben wurden. Eine gebuchte Lieferung wird erstellt, und das Lagermodul sowie weitere Module in [!INCLUDE[prod_short](includes/prod_short.md)] werden aktualisiert, um die Artikel zu erfassen, die aus dem Lager entnommen und an den Debitoren gesendet wurden. Im Einzelnen werden Artikelposten, Wertposten, Serviceposten und Garantieposten erstellt.  
 
 Wenn der Lagerort so eingerichtet wurde, dass ein Lagerdurchlauf erforderlich ist, dann erfolgt die Lieferung und Umlagerung der Servicezeilenartikel auf die gleichen Weise wie für andere Herkunftsbelege. Der einzige Unterschied besteht darin, dass Servicezeilenartikel extern oder intern verbraucht werden können, wozu zwei unterschiedliche Freigabefunktionen benötigt werden.
 
-## Fakturieren  
+## <a name="invoice"></a>Fakturieren
 Zum Erstellen einer Rechnung an den Debitor, dem Sie den Service in Rechnung stellen möchten, müssen Sie die Option "Rechnung" verwenden. Normalerweise ist die Differenz zwischen der gelieferten Menge, die mit der Funktion **Warenausgang buchen** erfasst wurde, und der verbrauchten Menge, die mit der Funktion **Verbrauch buchen** erfasst wurde, Gegenstand der Rechnung. Sie können nicht fakturieren, was Sie nicht geliefert haben. Wenn Sie die Funktion **Rechnungen buchen** ausführen, wird eine gebuchte Servicerechnung erstellt, und die zuvor gebuchten Belege werden aktualisiert, damit sie dieselben Mengen wie in der ausgegebenen Rechnung enthalten. Wie bei anderen Buchungsverfahren werden die relevanten Posten einschließlich Sachposten generiert.  
 
-## Lieferung und Rechnung  
+## <a name="ship-and-invoice"></a>Lieferung und Rechnung
 Mit der Option "Liefern und fakturieren" können Sie gleichzeitig eine Rechnung und eine Servicelieferung erstellen.  
 
-## Liefern und verbrauchen  
+## <a name="ship-and-consume"></a>Liefern und verbrauchen
 Mit der Option "Liefern und Verbrauchen" können Artikel, Einstandspreise oder Stunden erfasst und gebucht werden, die für den Service aufgewendet wurden, die dem Debitor jedoch nicht in Rechnung gestellt werden können. Es wird keine Rechnung ausgegeben, aber Sie können eine Servicelieferung und einen Serviceverbrauch gleichzeitig ausgeben, um zu berücksichtigen, dass dem Debitor einige Artikel oder Stunden kostenlos zur Verfügung gestellt wurden. Die entsprechenden Posten werden ebenfalls erstellt, um den Verbrauch zu erfassen.  
 
 > [!NOTE]  
@@ -37,7 +37,7 @@ Mit der Option "Liefern und Verbrauchen" können Artikel, Einstandspreise oder S
 
 Nach Abschluss des Buchungsvorgangs können Sie die gebuchten Servicebelege auf den entsprechenden Seiten **Gebuchte Servicelieferung** und **Gebuchte Servicerechnung** anzeigen. Die erstellten gebuchten Posten können auf unterschiedlichen Seiten angezeigt werden, die gebuchte Posten enthalten, wie z. B. **Sachposten**, **Artikelposten**, **Lagerplatzposten**, **Serviceposten**, **Projektposten** und **Garantieposten**.  
 
-## So zeigen Sie zusätzliche Informationen zu einem gebuchten Servicebeleg an  
+## <a name="to-view-information-about-a-posted-service-document"></a>So zeigen Sie zusätzliche Informationen zu einem gebuchten Servicebeleg an
 Wenn Sie eine Servicerechnung, eine Servicelieferung oder eine Servicegutschrift buchen, werden die Informationen im Beleg in die Seite **Gebuchte Servicerechnung**, **Gebuchte Dienstlieferung** bzw. **Gebuchte Servicegutschrift** übertragen. Auf diesen Seiten können keine Einträge eingegeben, geändert oder gelöscht werden. Sie können aus diesen Seiten einen Lieferschein, eine Rechnung oder eine Gutschrift drucken.  
 
 Die folgende Vorgehensweise verwendet eine gebuchte Servicerechnung als Beispiel, Sie können jedoch dieselben Schritte auf gebuchte Servicelieferungen und gebuchte Gutschriften anwenden.  
@@ -48,7 +48,7 @@ Die folgende Vorgehensweise verwendet eine gebuchte Servicerechnung als Beispiel
 
     Die Seite **Serviceauftragsstatistik** wird geöffnet. Auf der jeweiligen Seite werden Informationen wie Menge, Betrag, MwSt., Kosten, Deckungsbeitrag und Kreditlimit des Debitors für den gebuchten Beleg angezeigt.
 
-## Siehe auch  
+## <a name="see-also"></a>Siehe auch
 [Buchen von Serviceaufträgen](service-how-to-post-service-orders.md)   
 [Erstellen von Serviceaufträgen](service-how-to-create-service-orders.md)
 

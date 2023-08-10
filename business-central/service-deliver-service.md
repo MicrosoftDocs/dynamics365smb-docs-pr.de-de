@@ -10,7 +10,7 @@ ms.search.keywords: 'service, service items, respond, response'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# Bereitstellen von Service
+# <a name="delivering-service"></a>Bereitstellen von Service
 [!INCLUDE[prod_short](includes/prod_short.md)] bietet Funktionen, die Ihnen die Bereitstellung von Service gemäß den von Ihnen erstellten Verträgen und die Erfüllung der Serviceaufträge entsprechend Ihren Zusagen ermöglichen. Die Servicetechniker oder Dispatcher können ausstehende Serviceaufträge mithilfe der **Einsatzplanung** problemlos ausfindig machen. Die **Einsatzplanung** zeigt auf einen Blick, welche Aufträge noch bearbeitet werden und welche bereits abgeschlossen wurden.  
   
 Ausstehende Serviceaufträge können auch auf der Seite **Serviceaufgaben** geprüft werden. In dieser Ansicht der Serviceverpflichtungen wird angezeigt, an welcher Stelle des Serviceworkflows sich der Auftrag befindet, und der Status kann so geändert werden, dass die Interaktionen mit dem Debitor dargestellt werden.  
@@ -33,7 +33,7 @@ Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Themen,
 |Erstellen und buchen Sie Rechnungen für Services, die Sie geliefert haben.|[Erstellen Sie eine Servicerechnung oder eine Servicegutschrift](service-how-create-invoices.md)|  
 |Debitoren zufriedenstellen, indem Sie ihnen ein Artikel verleihen, während Sie an ihren arbeiten.| [Leihen und Zurücknehmen von Leihgeräten](service-how-to-lend-receive-loaners.md)|
   
-## Siehe auch  
+## <a name="see-also"></a>Siehe auch
 [Planungsservice](service-plan-service.md)  
 [Erfüllen von Serviceverträgen](service-fulfill-service-contracts.md)  
 [Projekte verwalten](projects-manage-projects.md)  

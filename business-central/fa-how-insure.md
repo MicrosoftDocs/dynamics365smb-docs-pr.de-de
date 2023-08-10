@@ -11,7 +11,7 @@ ms.search.form: '5647, 5644, 5653, 5651, 5655, 5652, 5645, 5656, 5646, 5648, 927
 ms.date: 06/29/2021
 ms.author: edupont
 ---
-# Versichern von Anlagen
+# <a name="insure-fixed-assets"></a>Versichern von Anlagen
 Eine Versicherungspolice für eine Anlage wird durch eine Versicherungskarte angezeigt. Sie können eine Anlage einer Versicherungspolice oder mehreren Anlagen einer Versicherungspolice zuzuordnen.
 
 Sie ordnen einer Anlage einer Versicherungspolice zu, indem Sie sie im Versicherungsposten auf der Seite **Versicherungs Buch.-Blatt** buchen.
@@ -25,7 +25,7 @@ Wenn das Kontrollkästchen **Autom. Versicherungsbuchung** auf der Seite **Anlag
 
 Nachdem Sie eine Anlage einer Versicherungspolice zugewiesen haben, wird das Kontrollkästchen **Versichert** auf der Anlagenkarte aktiviert. Wenn Sie die Anlage verkaufen, wird das Kontrollkästchen automatisch deaktiviert.
 
-## So erstellen oder ändern Sie eine Versicherungskarte
+## <a name="to-create-or-modify-an-insurance-card"></a>So erstellen oder ändern Sie eine Versicherungskarte
 Eine Versicherungspolice für eine Anlage muß durch eine Versicherungskarte angezeigt werden.
 
 Wenn Sie Informationen über Änderungen in der Deckungssumme erhalten, müssen Sie diese in der **Versicherungskarte**aktualisieren, um sicherzustellen, dass die Versicherungsdeckung korrekt angezeigt wird.  
@@ -34,7 +34,7 @@ Wenn Sie Informationen über Änderungen in der Deckungssumme erhalten, müssen 
 2. Wählen Sie die Aktion **Neu** aus, um eine neue Karte für eine Versicherungspolice zu erstellen. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Wählen Sie die Versicherungspolice, die Sie ändern möchten, und wählen die Aktion **Bearbeiten** aus.
 
-## So verknüpfen Sie eine Anlage mit einer Versicherungspolice durch Buchen aus einem Versicherungs Buch.-Blatt
+## <a name="to-assign-a-fixed-asset-to-an-insurance-policy-by-posting-from-the-insurance-journal"></a>So verknüpfen Sie eine Anlage mit einer Versicherungspolice durch Buchen aus einem Versicherungs Buch.-Blatt
 Sie verknüpfen eine Anlage mit einer Versicherungspolice, indem Sie sie in den Versicherungsposten buchen.  
 
 Nachfolgend wird beschrieben, wie Sie eine Versicherungs Buch.-Blattzeile manuell erstellen. Wenn das Kontrollkästchen **Autom. Versicherungsbuchung** auf der Seite **Anlageneinrichtung** ausgewählt wird, werden Versicherungs Buch.-Blattzeilen automatisch erstellt, wenn Sie Anschaffungskosten buchen. In diesem Fall müssen Sie nur das Buch.-Blatt buchen.  
@@ -47,7 +47,7 @@ Nachfolgend wird beschrieben, wie Sie eine Versicherungs Buch.-Blattzeile manuel
     > [!NOTE]  
     >   Die Posten aus dem Versicherungs Buch.-Blatt werden nur auf die Versicherungsposten gebucht.  
 
-## So aktualisieren Sie den Versicherungswert einer Anlage
+## <a name="to-update-the-insurance-value-of-a-fixed-asset"></a>So aktualisieren Sie den Versicherungswert einer Anlage
 Sie können die Stapelverarbeitung **Indexiere Versicherung** verwenden, um den Wert der versicherten Anlagen zu aktualisieren.  
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Versicherung indexieren** ein und wählen Sie dann den zugehörigen Link.
@@ -61,16 +61,16 @@ Sie können die Stapelverarbeitung **Indexiere Versicherung** verwenden, um den 
 4. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Vers. Buch.-Blätter** ein und wählen Sie dann den zugehörigen Link.  
 5. Öffnen Sie das relevante Versicherungs Buch.-Blatt, prüfen Sie die erstellten Posten und buchen Sie diese dann auf die Versicherungsposten.  
 
-## So überwachen Sie die Versicherungsdeckung
+## <a name="to-monitor-insurance-coverage"></a>So überwachen Sie die Versicherungsdeckung
 [!INCLUDE[prod_short](includes/prod_short.md)] bietet dedizierte Berichte und Statistikseiten, die dazu verwendet werden können, Versicherungspolicen zu analysieren und zu überprüfen, ob Ihre Anlagen über- oder unterversichert sind.  
 
-### Übersicht der Versicherungspolicen
+### <a name="overview-of-insurance-policies"></a>Übersicht der Versicherungspolicen
 Gibt einen Überblicks über die Versicherungspolicen durch Drucken des Berichts **Versicherung-Liste**. Der Bericht zeigt die einzelnen Policen und die wichtigsten Felder der Versicherungskarten an.  
 
-### Versicherungsdeckung
+### <a name="insurance-coverage"></a>Versicherungsdeckung
 Um zu sehen, welche Versicherungspolicen welche Anlagen in welcher Höhe abdecken, können Sie den Bericht **Versicherung – Vers. Summe** ausdrucken oder anzeigen.  
 
-### Unter-/Überversicherung
+### <a name="overunder-coverage"></a>Unter-/Überversicherung
 Folgendermaßen können Sie prüfen, ob Anlagen über- oder unterversichert sind:  
 
 * Die Seite **Versicherungsstatistik**. Ein positiver Betrag in dem Feld **Über-/Unterversichert** bedeutet, dass die Anlage überversichert ist. Ein negativer Betrag zeigt eine Unterversicherung an.  
@@ -78,16 +78,16 @@ Folgendermaßen können Sie prüfen, ob Anlagen über- oder unterversichert sind
 * Der Bericht **Unter-/Überversicherung**.  
 * Der Bericht **Versicherungsanalyse**.  
 
-### Unversicherte Anlagen
+### <a name="uninsured-fixed-assets"></a>Unversicherte Anlagen
 Um zu prüfen, ob Sie vergessen haben, eine Anlage einer Versicherungspolice zuzuweisen, können Sie den Bericht **Versicherung - Unvers. Anlagen** drucken oder anzeigen. Dieser Bericht zeigt Anlagen an, für die noch keine Beträge in den Versicherungsposten gebucht wurden.  
 
-## So zeigen Sie Versicherungsposten an
+## <a name="to-view-insurance-coverage-ledger-entries"></a>So zeigen Sie Versicherungsposten an
 Sie können sich die einzelnen Posten anzeigen lassen, die Sie in den Versicherungsposten erstellt haben.  
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Versicherung** ein, und wählen Sie dann den entsprechenden Link.  
 2. Wählen Sie die entsprechende Versicherungspolice aus, und wählen Sie dann die Aktion **Versicherungsposten**.  
 
-## So zeigen Sie den gesamten Versicherungswert von Anlagen an:
+## <a name="to-view-the-total-insurance-value-of-fixed-assets"></a>So zeigen Sie den gesamten Versicherungswert von Anlagen an:
 Eine dedizierte Matrixseite zeigt die Versicherungswerte jeder Anlage und jeder Versicherungspolice als Ergebnis der versicherungsbezogenen Beträge an, die von Ihnen gebucht wurden.  
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Versicherung** ein, und wählen Sie dann den entsprechenden Link.  
@@ -96,7 +96,7 @@ Eine dedizierte Matrixseite zeigt die Versicherungswerte jeder Anlage und jeder 
 4. Wählen Sie die Aktion **Matrix anzeigen** aus.  
 5. Um die zu Grunde liegenden Versicherungsposten anzuzeigen, aktivieren Sie einen Wert in der Matrix.  
 
-## So korrigieren Sie Versicherungsposten
+## <a name="to-correct-insurance-coverage-entries"></a>So korrigieren Sie Versicherungsposten
 Wenn eine Anlage der falschen Versicherung zugeordnet wurde, können Sie diese korrigieren, indem Sie zwei Umbuchungsposten aus dem Versicherungs Buch.-Blatt erstellen.  
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Vers. Buch.-Blätter** ein und wählen Sie dann den zugehörigen Link.  
@@ -106,7 +106,7 @@ Wenn eine Anlage der falschen Versicherung zugeordnet wurde, können Sie diese k
 
 Die Verknüpfung der Anlage mit der falschen Versicherung der zweiten Zeile wird aufgehoben und stattdessen eine Verknüpfung mit der richtigen Versicherung aus der ersten Zeile erstellt.  
 
-## Weitere Informationen
+## <a name="see-also"></a>Weitere Informationen
 [Anlagen](fa-manage.md)  
 [Einrichten von Anlagen](fa-setup.md)  
 [Finanzen](finance.md)  

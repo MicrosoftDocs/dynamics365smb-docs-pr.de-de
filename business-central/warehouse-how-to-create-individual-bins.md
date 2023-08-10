@@ -10,37 +10,37 @@ ms.search.form: '7368, 7369, 7370, 7371, 7372, 7373'
 ms.date: 06/24/2021
 ms.author: edupont
 ---
-# Lagerplätze erstellen
+# <a name="create-bins"></a>Lagerplätze erstellen
 
 Die effektivste Art, die Lagerplätze Ihres Lagers zu erzeugen, ist, Gruppen von ähnlichen Lagerplätzen im Lagerplatz Erstellungsarbeitsblatt zu erstellen, Sie können Ihre Lagerplätze jedoch auch individuell aus der erzeugen Lagerortkarte erzeugen. Sie können eine Funktion auf der Seite **Lagerplatz Erst.-Arbeitsblatt** verwenden, um die Lagerplätze automatisch zu erstellen.  
 
-## So erstellen einen Lagerplatz von der Lagerortkarte aus:
+## <a name="to-create-a-bin-from-the-location-card"></a>So erstellen einen Lagerplatz von der Lagerortkarte aus:
 
 1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Lagerorte** ein, und wählen Sie den zugehörigen Link.  
 2.  Wählen Sie den Lagerort aus, aus dem Sie einen Lagerplatz erstellen möchten, und wählen Sie die Aktion **Lagerplätze** aus.  
 3. Wählen Sie die Aktion **Neu**.
 4. Füllen Sie die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-### Das dedizierte Feld
+### <a name="the-dedicated-field"></a>Das dedizierte Feld
 
 Das Feld **Dediziert** auf der Seite **Lagerplätze** gibt an, dass Mengen im Lagerplatz vor der Kommissionierung für andere Bedarfsanforderungen geschützt sind. Mengen in dedizierten Lagerplätzen können weiterhin reserviert werden. Entsprechend sind die Mengen in dedizierten Lagerplätzen im Feld **Total verfügbare Menge** auf der Seite **Reservierung** enthalten.
 
 Das Einrichten eines Fert.-Bereitst.-Lagerplatzes/Fert.-Ausgangslagerplatzes stellt ähnliche Funktionen für die Verwendung von Lagerplatzarten zur Verfügung, die nur in erweiterten Lagerfunktionen verfügbar sind. Weitere Informationen finden Sie unter [Einrichten von Lagerplatzarten](warehouse-how-to-set-up-bin-types.md).
 
-### Beispiel
+### <a name="example"></a>Beispiel
 
 Eine Arbeitsplatzgruppe mit einem Lagerplatzcode wird im Feld **Fert.-Bereitst.-Lagerplatzcode** eingerichtet. Komponentenzeilen in Fertigungsaufträgen mit diesem Lagerplatzcode erfordern, dass mit der Methode "Vorwärts" geleerte Komponenten dort platziert werden. Jedoch können, bis die Komponenten von diesem Lagerplatz verbraucht sind, Komponenten von diesem Lagerplatz durch andere Bedarfsanforderungen kommissioniert oder verbraucht werden, weil sie weiterhin als verfügbare Lagerplatzinhalte gelten. Um sicherzustellen, dass der Lagerplatzinhalt nur für den Komponentenbedarf verfügbar ist, der diesen Fert.-Bereitst.-Lagerplatzcode verwendet, müssen Sie das Feld **Dediziert** der Zeile für diesen Lagerplatzcode auf der Seite Lagerplätze auswählen, das Sie über die Lagerortkarte öffnen.
 
 > [!Caution]
 > Artikel in den Fert.-Bereitst.-Lagerplätzen/Fert.-Ausgangslagerplätzen werden nicht geschützt, wenn sie als Produktionskomponenten mit der **Lagerkommissionierungsseite** kommissioniert und verbraucht werden. Weitere Informationen unter [Kommissionierung für Montage oder Produktion in der Grund-Lagerkonfiguration](warehouse-how-to-pick-for-production.md).
 
-## So erstellen Sie Lagerplätze individuell im Lagerplatz-Erstellungsarbeitsblatt:
+## <a name="to-create-bins-individually-in-the-bin-creation-worksheet"></a>So erstellen Sie Lagerplätze individuell im Lagerplatz-Erstellungsarbeitsblatt:
 
 1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Arbeitsblatt Lagerplatz Erst.-Arbeitsblatt** ein und wählen Sie den zugehörigen Link.  
 2.  Füllen Sie in jeder Zeile die Felder aus, die erforderlich sind, um die Lagerplätze, die Sie erzeugen, zu benennen und zu charakterisieren.  
 3.  Wählen Sie die Aktion **Lagerplätze erstellen** aus.  
 
-## Um Lagerplätze automatisch im Lagerplatz Erst.-Arbeitsblatt zu erstellen:
+## <a name="to-make-bins-automatically-in-the-bin-creation-worksheet"></a>Um Lagerplätze automatisch im Lagerplatz Erst.-Arbeitsblatt zu erstellen:
 
 Bevor Sie beginnen, Lagerplätze automatisch zu erstellen, sollten Sie die Art der Lagerplätze festlegen, die für Ihre Arbeit wichtig sind, sowie den sinnvollsten Warenfluss durch die physische Struktur Ihres Lagers.  
 
@@ -70,9 +70,9 @@ Um mit der **Lagerplatz Erst.-Arbeitsblatt**-Seite zu arbeiten, müssen Sie als 
 
 Wiederholen Sie diesen Vorgang für die nächste Serie von Lagerplätzen, bis Sie alle Lagerplätze in Ihrem Lager erstellt haben.  
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/create-new-bins/)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/create-new-bins/)
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Lagerverwaltung – Übersicht](design-details-warehouse-management.md)
 [Bestand](inventory-manage-inventory.md)  

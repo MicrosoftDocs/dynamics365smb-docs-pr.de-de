@@ -11,7 +11,7 @@ ms.search.form: '977, 462, 76, 77'
 ms.date: 12/13/2021
 ms.author: edupont
 ---
-# Einrichten von Arbeitszeittabellen
+# <a name="set-up-time-sheets"></a>Einrichten von Arbeitszeittabellen
 
 Arbeitszeittabellen in [!INCLUDE[prod_short](includes/prod_short.md)] erfassen die Zeit in wöchentlichen Schritten von sieben Tagen. Sie können sie verwenden, um die für Projekte aufgewendete Zeit zu verfolgen und um die Ressourcenzeiterfassung aufzuzeichnen. Bevor Sie Arbeitszeittabellen verwenden können, müssen Sie angeben, welche Benutzer Arbeitszeittabellen übermitteln und wie Sie Arbeitszeittabellen konfigurieren möchten.  
 
@@ -25,7 +25,7 @@ Geben Sie optional an, ob und wie Arbeitszeittabellen genehmigt werden. Abhängi
 
 Wenn Sie Arbeitszeittabellen eingerichtet haben, können Sie Arbeitszeittabellen für Ressourcen erstellen und die Ressourcen können Arbeitszeittabellenzeilen buchen. Weisen Sie Arbeitszeittabellen optional Projektplanungzeilen zu. Weitere Informationen finden Sie unter [Verwenden von Arbeitszeittabellen](projects-how-use-time-sheets.md).  
 
-## Arbeitszeittabellen mit der Anleitung zur unterstützten Einrichtung festlegen
+## <a name="set-up-time-sheets-with-the-assisted-setup-guide"></a>Arbeitszeittabellen mit der Anleitung zur unterstützten Einrichtung festlegen
 
 [!INCLUDE [2021_releasewave2](includes/2021_releasewave2.md)]
 
@@ -53,11 +53,11 @@ Die Anleitung zur unterstützten Einrichtung führt Sie durch die folgenden Schr
 
 Am Ende der Anleitung zur Einrichtung können Sie festlegen, dass [!INCLUDE [prod_short](includes/prod_short.md)] die Arbeitszeittabellen auf der Grundlage Ihrer Konfiguration erstellt. Zeigen Sie die neuen Arbeitszeittabellen auf der Seite **Arbeitszeittabellen** an, die Sie [hier](https://businesscentral.dynamics.com/?page=951) öffnen können. Alternativ können Sie die Anleitung zur unterstützten Einrichtung erneut ausführen oder die Einrichtung manuell vornehmen.  
 
-## Arbeitszeittabellen manuell festlegen
+## <a name="set-up-time-sheets-manually"></a>Arbeitszeittabellen manuell festlegen
 
 In den folgenden Abschnitten wird beschrieben, wie Sie Arbeitszeittabellen festlegen, wenn Sie nicht die Anleitung **Zeittabellen einrichten** für die unterstützte Einrichtung verwenden.  
 
-### So legen Sie die allgemeinen Informationen für Arbeitszeittabellen manuell fest
+### <a name="to-set-up-general-information-for-time-sheets-manually"></a>So legen Sie die allgemeinen Informationen für Arbeitszeittabellen manuell fest
 
 1. Wählen Sie das Symbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") aus, geben Sie **Ressourcen Einr.** ein, und wählen Sie dann den zugehörigen Link aus.  
 2. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -69,7 +69,7 @@ In den folgenden Abschnitten wird beschrieben, wie Sie Arbeitszeittabellen festl
 | **Immer** |Der Benutzer im Feld **Verantwortliche Person** der Projektkarte genehmigt die Arbeitszeittabelle. |
 | **Nur Arbeitsplätze** |Wenn die Arbeitsplatzzeittabelle mit einem Projekt verknüpft ist, dann genehmigt der Benutzer im Feld **Verantwortliche Person** auf der Projektkarte die Arbeitszeittabelle. Wenn die Arbeitsplatzzeittabelle mit einer Ressource verknüpft ist, dann genehmigt der Benutzer im Feld **Arbeitszeittabelle Genehmiger-Benutzer-ID** auf der Ressourcenkarte die Arbeitszeittabelle. |
 
-### So weisen Sie einen Arbeitszeittabellen-Administrator manuell zu
+### <a name="to-assign-a-time-sheet-administrator-manually"></a>So weisen Sie einen Arbeitszeittabellen-Administrator manuell zu
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Benutzereinrichtung** ein und wählen Sie dann den zugehörigen Link.  
 2. Fügen Sie einen neuen Benutzer hinzu, wenn die Benutzerliste nicht die Person enthält, die Arbeitszeittabelleadministrator sein soll. Weitere Informationen finden Sie unter [Berechtigungen an Benutzer und Gruppen zuweisen](ui-define-granular-permissions.md).
@@ -78,7 +78,7 @@ In den folgenden Abschnitten wird beschrieben, wie Sie Arbeitszeittabellen festl
 > [!TIP]  
 > Es wird empfohlen, nur einen Benutzer als Arbeitszeittabellenadministrator für ein Unternehmen festzulegen. Im folgenden Verfahren richten Sie einen Arbeitszeittabellenbesitzer und - genehmiger ein, wenn der Arbeitszeittabellengenehmiger für jede Ressource zugeordnet ist.  
 
-### So weisen Sie einen Besitzer und Genehmiger von Arbeitszeittabellen manuell zu
+### <a name="to-assign-a-time-sheets-owner-and-approver-manually"></a>So weisen Sie einen Besitzer und Genehmiger von Arbeitszeittabellen manuell zu
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Ressourcen** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie die Ressource, für die Sie die Möglichkeit einrichten möchten, Arbeitszeittabellen zu verwenden, und wählen Sie dann das Kontrollkästchen **Arbeitszeittabelle verwenden**.  
@@ -88,9 +88,9 @@ In den folgenden Abschnitten wird beschrieben, wie Sie Arbeitszeittabellen festl
 > [!NOTE]  
 > Sie können die ID des Arbeitszeittabellengenehmigers nicht ändern, wenn Arbeitszeittabellen vorhanden sind, die noch nicht verarbeitet wurden und die den Status **Übermittelt** oder **Offen**haben.
 
-## Siehe verwandte [Microsoft Schulungen](/training/paths/set-up-jobs-resources/)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/paths/set-up-jobs-resources/)
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Arbeitszeittabellen für Projekte verwenden](projects-how-use-time-sheets.md)  
 [Wie Sie Arbeitszeittabellen erstellen](projects-how-use-time-sheets.md#to-create-time-sheets)  

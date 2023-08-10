@@ -10,7 +10,7 @@ ms.search.keywords: 'exchange data, external files, electronic documents, AMC Ba
 ms.date: 06/10/2021
 ms.author: edupont
 ---
-# Austausch von Daten
+# <a name="exchanging-data"></a>Austausch von Daten
 Sie können Daten zwischen [!INCLUDE[prod_short](includes/prod_short.md)] und externen Dateien oder Streams in Bezug auf allgemeine Geschäftsaufgaben (z. B. Senden und Empfangen von elektronischen Belegen und Importieren und Exportieren von Bankdateien) austauschen.  
 
 Bevor Sie elektronische Dokumente senden und empfangen oder Bankdateien importieren und exportieren können, müssen Sie das Datenaustausch-Framework für die Verarbeitung der Datendateien oder Streams einrichten. Darüber hinaus müssen Sie verwandte Bereiche einrichten, wie z. B. die Kunden, an die Sie elektronische Rechnungen senden, und die AMC Banking 365 Fundamentals-Erweiterung, wenn Sie Bankdateikonvertierungen an einen externen Dienstanbieter verteilen. Weitere Informationen finden Sie unter [Datenaustausch einrichten](across-set-up-data-exchange.md)  
@@ -31,7 +31,7 @@ Bevor Sie elektronische Dokumente senden und empfangen oder Bankdateien importie
 |Exportieren Sie Daten für Intrastat-Berichte in [!INCLUDE[prod_short](includes/prod_short.md)].|[Intrastat-Berichte festlegen](finance-how-setup-report-intrastat.md)|
 |Zeigen Sie an, welche Felder in [!INCLUDE[prod_short](includes/prod_short.md)] beim Export von Zahlungsdateien mit der AMC Banking 365 Fundamentals-Erweiterung auf Dateielemente abgebildet werden.|[Feldzuordnung beim Export von Zahlungsdateien mit der AMC Banking 365 Fundamentals-Erweiterung](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)|  
 
-## Siehe auch  
+## <a name="see-also"></a>Siehe auch
 [Datenaustausch einrichten](across-set-up-data-exchange.md)  
 [Daten elektronisch austauschen](across-data-exchange.md)  
 [Fakturieren eines Verkaufs](sales-how-invoice-sales.md)   

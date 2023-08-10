@@ -11,12 +11,12 @@ ms.date: 06/23/2021
 ms.author: edupont
 ROBOTS: NOINDEX
 ---
-# Die Dynamics GP-Datenmigrations-Erweiterung
+# <a name="the-dynamics-gp-data-migration-extension"></a>Die Dynamics GP-Datenmigrations-Erweiterung
 
 > [!NOTE]
 > Diese Erweiterung ist im 15.3-Update veraltet. Es wird empfohlen, dass Benutzer, die von Dynamics GP migrieren möchten, stattdessen ab jetzt den **Cloudmigration**-Assistenten verwenden. Die Erweiterung **Cloudmigration** hat robustere Funktionen und bring mehr Daten von Dynamics GP nach Business Central. Weitere Informationen finden Sie unter [Von Dynamics GP zu Business Central Online migrieren](/dynamics365/business-central/dev-itpro/administration/migrate-dynamics-gp) im Verwaltungsinhalt für [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Intelligente Cloud-Erweiterungen für die Cloudmigration](ui-extensions-data-replication.md)  
 [Importieren von Geschäftsdaten aus anderen Finanzsystemen](across-import-data-configuration-packages.md)  

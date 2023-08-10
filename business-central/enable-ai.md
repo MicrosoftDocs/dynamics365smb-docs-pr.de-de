@@ -9,7 +9,7 @@ ms.date: 03/22/2023
 ms.custom: bap-template
 ---
 
-# KI-gestützten Marketingtext für Artikel (Vorschauversion) mit Copilot konfigurieren
+# <a name="configure-ai-powered-item-marketing-text-preview-with-copilot"></a>KI-gestützten Marketingtext für Artikel (Vorschauversion) mit Copilot konfigurieren
 
 [!INCLUDE[ai-preview](includes/ai-preview.md)]
 
@@ -20,28 +20,28 @@ In diesem Artikel wird erläutert, wie Sie die Möglichkeit steuern können, KI-
 
 Wenn eine dieser Anforderungen nicht erfüllt ist, steht das Feature nicht zur Verfügung.
 
-## Voraussetzungen
+## <a name="prerequisites"></a>Voraussetzungen
 
 Sie verwenden eine [Vorschauversion](ai-preview-getstarted.md) von Business Central, die für Copilot aktiviert ist. Die Aktivierung von Copilot erfolgt durch einen Administrator. Weitere Informationen finden Sie unter [KI-gestützten Marketingtext für Artikel mit Copilot konfigurieren](enable-ai.md).
 
-## Aktivieren oder deaktivieren Sie das Erstellen von KI-unterstützten Produktbeschreibungen mit Copilot
+## <a name="enable-or-disable-create-ai-powered-product-descriptions-with-copilot"></a>Aktivieren oder deaktivieren Sie das Erstellen von KI-unterstützten Produktbeschreibungen mit Copilot
 
 1. Suchen und öffnen Sie in Business Central die Seite **Funktionsverwaltung**.
 2. Legen Sie die Spalte **Aktiviert für** für **Feature-Vorschauversion: Erstellen Sie KI-unterstützte Produktbeschreibungen mit Copilot** auf **Alle Benutzer** fest, um das Feature zu aktivieren, oder auf **Keiner**, um es zu deaktivieren.
 
    Weitere Informationen zur Funktionsverwaltung im Allgemeinen finden Sie unter [Funktionsverwaltung](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
-## Den Nutzungsbedingungen für die Vorschauversion und den Datenschutzbestimmungen für alle Benutzende zustimmen oder sie ablehnen
+## <a name="consent-to-or-reject-preview-and-privacy-terms-and-conditions-for-all-users"></a>Den Nutzungsbedingungen für die Vorschauversion und den Datenschutzbestimmungen für alle Benutzende zustimmen oder sie ablehnen
 
 1. Suchen Sie in Business Central nach der Seite **Status der Datenschutzhinweise** und öffnen Sie sie.
 2. Wählen Sie in der Spalte **Integrationsname** **Azure OpenAI** aus und lesen Sie dann die Ihnen angezeigten Nutzungsbedingungen.
 3. Aktivieren Sie in der Zeile **Azure OpenAI** das Kontrollkästchen **Für alle zustimmen**, um zuzustimmen, oder das Kontrollkästchen **Für alle ablehnen**, um abzulehnen.
 
-## Nächste Schritte
+## <a name="next-steps"></a>Nächste Schritte
 
 Nachdem Sie die Funktion aktiviert und verfügbar gemacht haben, können Sie Copilot für Elemente in Business Central ausprobieren. Gehen Sie zu [Marketingtext zu Artikeln hinzufügen](item-marketing-text.md).  
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Überblick über KI-gestützte Marketingtexte für Artikel mit Copilot](ai-overview.md)  
 [Mit Copilot Marketingtext für Artikel erstellen](item-marketing-text.md)  

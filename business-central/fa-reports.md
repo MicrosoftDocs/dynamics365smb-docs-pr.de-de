@@ -8,15 +8,15 @@ ms.search.form: 'Report_5600, Report_5601, Report_5603, Report_5604, Report_5605
 ms.date: 07/13/2021
 ms.author: edupont
 ---
-# Berichte und Analysen zu Anlagen in Business Central
+# <a name="fixed-assets-reports-and-analytics-in-business-central"></a>Berichte und Analysen zu Anlagen in Business Central
 
 Um Sie bei der Verwaltung Ihrer Anlagen in [!INCLUDE [prod_short](includes/prod_short.md)] zu unterstützen, sind Standardberichte und Analysen integriert. Die App sprengt die Grenzen herkömmlicher Berichte und hilft Ihnen, verschiedene Arten von Berichten effizient zu gestalten.  
 
-## Berichte
+## <a name="reports"></a>Berichte
 [!INCLUDE [fa_reports](includes/fa-reports-include.md)]
 
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Analysieren von Finanzberichten in Microsoft Excel](finance-analyze-excel.md)  
 [Arbeiten mit Dimensionen](finance-dimensions.md)  

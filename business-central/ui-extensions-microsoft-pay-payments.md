@@ -10,7 +10,7 @@ ms.search.form: '1080, 1081, 1083, 1085, 1087, 1089'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# Die Microsoft Pay-Erweiterung
+# <a name="the-microsoft-pay-extension"></a>Die Microsoft Pay-Erweiterung
 
 > [!IMPORTANT]
 > Mit Wirkung zum 8. Februar 2020 wirken sich Änderungen im Microsoft Pay-Service auf die Microsoft Pay-Erweiterung in Microsoft [!INCLUDE[prod_short](includes/prod_long.md)] aus. Aufgrund der Änderungen öffnen die **Zahlen Sie jetzt**-Zahlungslinks, die die Microsoft Pay-Erweiterung für Rechnungen in [!INCLUDE[prod_short](includes/prod_short.md)] generiert, nach dem 8. Februar Microsoft Pay nicht. Kunden, die die Erweiterung verwenden, sollten ihre Zahlungsverkehrseinrichtung ändern, um stattdessen die PayPal-Erweiterung zu verwenden.<br /></br>
@@ -36,7 +36,7 @@ Die Microsoft Pay-Erweiterung bietet die folgenden Vorteile:
 
 Das Aktivieren der Zahlungsverkehrerweiterungen ist frei in [!INCLUDE[prod_short](includes/prod_short.md)]jedoch müssen Sie den Zahlungsservice kontaktieren, um ein Konto auszuwählen. Weitere Informationen finden Sie unter [Aktivieren Sie Zahlungen durch Zahlungsverkehr](sales-how-enable-payment-service-extensions.md)
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Anpassen von [!INCLUDE[prod_short](includes/prod_short.md)] mithilfe von Erweiterungen](ui-extensions.md)  
 [Einrichten von Verkäufen](sales-setup-sales.md)  

@@ -10,15 +10,15 @@ ms.search.keywords: 'account schedule, analysis, reporting, financial report, bu
 ms.date: 09/07/2022
 ms.author: jswymer
 ---
-# Mit [!INCLUDE [prod_short](includes/prod_short.md)]-Daten in Power BI arbeiten
+# <a name="work-with--data-in-power-bi"></a>Mit [!INCLUDE [prod_short](includes/prod_short.md)]-Daten in Power BI arbeiten
 
 In diesem Artikel erlernen Sie einige der Grundlagen zum Arbeiten mit Berichten und Dashboards in Power BI, die [!INCLUDE [prod_short](includes/prod_short.md)] als Datenquelle verwenden. Der Artikel beschreibt einige Aspekte, die Ihnen den Einstieg als [!INCLUDE[prod_short](includes/prod_short.md)]-Benutzer erleichtern. Allgemeine Richtlinien und Anweisungen zur Verwendung von Power BI finden Sie unter [Power BI-Dokumentation für Verbraucher](/power-bi/consumer).
 
-## Vorbereitung
+## <a name="get-ready"></a>Vorbereitung
 
 Registrieren Sie sich für den Power BI-Dienst. Wenn Sie sich noch nicht registriert haben, wechseln Sie zu [https://powerbi.microsoft.com](https://powerbi.microsoft.com). Verwenden Sie bei der Registrierung eine geschäftliche E-Mail-Adresse und Ihr zugehöriges Kennwort.
 
-## Erste Schritte
+## <a name="get-started"></a>Erste Schritte
 
 Sobald Sie ein Power BI-Konto erstellt haben, können Sie sich unter [https://powerbi.microsoft.com/](https://powerbi.microsoft.com/) anmelden.
 
@@ -30,21 +30,21 @@ Mit [!INCLUDE[prod_short](includes/prod_short.md)] online stehen Ihnen in Ihrem 
 
 Wenn Sie [!INCLUDE[prod_short](includes/prod_short.md)] on-premises verwenden, müssen Sie mit Power BI Desktop bei Null anfangen. Optional können Power BI-Berichte als Dateien verteilt werden, die Sie hochladen können.
 
-## Aktuelle Daten beziehen
+## <a name="get-the-latest-data"></a>Aktuelle Daten beziehen
 
 Jeder Power BI-Bericht basiert auf einem Datensatz, der Daten aus den [!INCLUDE[prod_short](includes/prod_short.md)]-Quellen abruft. Vergewissern Sie sich, dass die Daten in Ihren Power BI-Berichten auf dem Stand der Daten in [!INCLUDE[prod_short](includes/prod_short.md)] sind. Dieses Konzept wird als *Aktualisieren* bezeichnet.  Abhängig davon, wie Ihre Organisation Power BI eingerichtet hat, wird die Aktualisierung möglicherweise nicht automatisch durchgeführt. Es gibt zwei Möglichkeiten, Daten zu aktualisieren: manuell oder über eine geplante Aktualisierung. Die manuelle Aktualisierung erfolgt bei Bedarf. Mit der geplanten Aktualisierung werden die Daten in definierten Zeitintervallen automatisch aktualisiert.
 
-### Manuell aktualisieren
+### <a name="refresh-manually"></a>Manuell aktualisieren
 
 Wählen Sie im Navigationsbereich unter **Datensätze** neben dem Datensatz **Weitere Optionen (...)** aus. Wählen Sie dann **Jetzt aktualisieren** aus.
 
-### Eine Aktualisierung planen
+### <a name="schedule-a-refresh"></a>Eine Aktualisierung planen
 
 Wählen Sie im Navigationsbereich unter „Datensätze“ neben dem Datensatz „Weitere Optionen (...)“ aus. Wählen Sie dann **Aktualisierung planen** aus. Geben Sie im Bereich **Aktualisierung planen** die benötigten Informationen ein und wählen Sie **Anwenden** aus.
 
 Weitere Informationen finden Sie unter [Konfigurieren der geplanten Aktualisierung](/power-bi/connect-data/refresh-scheduled-refresh).
 
-## <a name="upload"></a>Hochladen von Berichten aus Dateien
+## <a name="upload-reports-from-files"></a><a name="upload"></a>Hochladen von Berichten aus Dateien
 
 Power BI-Berichte können als .pbix-Dateien unter den Benutzern verteilt werden. Wenn Sie eine .pbix-Datei haben, können Sie die Datei in einen Arbeitsbereich hochladen. Gehen Sie folgendermaßen vor, um einen Bericht hochzuladen:
 
@@ -62,7 +62,7 @@ Weitere Informationen finden Sie unter [Hochladen des Berichts in den Dienst](/p
 > [!TIP]
 > Wenn Sie [!INCLUDE[prod_short](includes/prod_short.md)] online verwenden, können Sie einen Bericht auch aus [!INCLUDE[prod_short](includes/prod_short.md)] hochladen. Weitere Informationen finden Sie unter [Mit Power BI-Berichten in [!INCLUDE [prod_short](includes/prod_short.md)] arbeiten – Berichte hochladen](across-working-with-powerbi.md#upload).
 
-## <a name="share"></a>Berichte mit anderen teilen
+## <a name="share-reports-with-others"></a><a name="share"></a>Berichte mit anderen teilen
 
 Sobald sich ein Bericht in Ihrem Arbeitsbereich befindet, können Sie ihn mit anderen Personen in Ihrer Organisation teilen.
 
@@ -71,9 +71,9 @@ Um einen Bericht zu teilen, wählen Sie in einer Liste mit Berichten oder in ein
 > [!NOTE]
 > Sie benötigen eine [Power BI Pro-Lizenz](/power-bi/service-features-license-type). Selbiges gilt auch für die Personen, mit denen Sie einen Bericht teilen möchten. Der Inhalt muss sich in einem Arbeitsbereich in einer [Premium-Kapazität](/power-bi/service-premium-what-is) befinden. Weitere Informationen finden Sie unter [Möglichkeiten zur gemeinsamen Nutzung Ihrer Arbeit in Power BI](/power-bi/service-how-to-collaborate-distribute-dashboards-reports).
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Business Central und Power BI](admin-powerbi.md)  
 [Power BI-Berichte erstellen zur Anzeige von [!INCLUDE [prod_long](includes/prod_long.md)]-Daten](across-how-use-financials-data-source-powerbi.md)  

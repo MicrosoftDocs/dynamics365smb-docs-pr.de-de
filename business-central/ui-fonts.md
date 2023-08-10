@@ -11,20 +11,20 @@ ms.search.form: null
 ms.date: 11/30/2021
 ms.author: edupont
 ---
-# Verfügbare Schriftarten
+# <a name="available-fonts"></a>Verfügbare Schriftarten
 
 Die Onlineversion von [!INCLUDE[prod_short](includes/prod_short.md)] enthält vorinstallierte Schriftarten auf den Servern, die beim Generieren von Berichten verwendet werden können. In den folgenden Abschnitten wird erläutert, welche Schriftarten verfügbar sind.
 
 > [!NOTE]
 > Aus Sicherheits- und rechtlichen Gründen können Sie keine benutzerdefinierten Schriftarten in die [!INCLUDE[prod_short](includes/prod_short.md)]-Umgebung hochladen.
 
-## Dokumentschriftarten
+## <a name="document-fonts"></a>Dokumentschriftarten
 
 Die folgenden Schriftarten sind installiert und können in Word- und RDLC-Berichtlayouts verwendet werden:
 
 Angsana New, AngsanaUPC, Arial, Arial Black, Bahnschrift, Bahnschrift Condensed, Bahnschrift Light, Bahnschrift Light Condensed, Bahnschrift Light SemiCondensed, Bahnschrift SemiBold, Bahnschrift SemiBold Condensed, Bahnschrift SemiBold SemiConden, Bahnschrift SemiCondensed, Bahnschrift SemiLight, Bahnschrift SemiLight Condensed, Bahnschrift SemiLight SemiConde, Batang, BatangChe, Browallia New, BrowalliaUPC, Calibri, Calibri Light, Cambria, Cambria Math, Candara, Candara Light, Comic Sans MS, Consolas, Constantia, Corbel, Corbel Light, Cordia New, CordiaUPC, Courier New, DilleniaUPC, Dotum, DotumChe, E-13B, Ebrima, EucrosiaUPC, Franklin Gothic Medium, FreesiaUPC, Gabriola, Gadugi, Georgia, Gulim, GulimChe, Gungsuh, GungsuhChe, Impact, Ink Free, IrisUPC, JasmineUPC, Javanese Text, Khmer UI, KodchiangUPC, Latha, Leelawadee, Leelawadee UI, Leelawadee UI Semilight, LilyUPC, Lucida Console, Lucida Sans Unicode, Malgun Gothic, Malgun Gothic Semilight, Marlett, MICR, Microsoft Himalaya, Microsoft JhengHei, Microsoft JhengHei Light, Microsoft JhengHei UI, Microsoft JhengHei UI Light, Microsoft New Tai Lue, Microsoft PhagsPa, Microsoft Sans Serif, Microsoft Tai Le, Microsoft YaHei, Microsoft YaHei Light, Microsoft YaHei UI, Microsoft YaHei UI Light, Microsoft Yi Baiti, MingLiU, MingLiU-ExtB, MingLiU_HKSCS, MingLiU_HKSCS-ExtB, Mongolian Baiti, MS Gothic, MS PGothic, MS UI Gothic, MV Boli, Myanmar Text, Nirmala UI, Nirmala UI Semilight, NSimSun, OCRB, Palatino Linotype, PMingLiU, PMingLiU-ExtB, Segoe MDL2 Assets, Segoe Print, Segoe Script, Segoe UI, Segoe UI Black, Segoe UI Emoji, Segoe UI Historic, Segoe UI Light, Segoe UI Semibold, Segoe UI Semilight, Segoe UI Symbol, Shonar Bangla, SimSun, SimSun-ExtB, Sitka Banner, Sitka Display, Sitka Heading, Sitka Small, Sitka Subheading, Sitka Text, Sylfaen, Symbol, Tahoma, Times New Roman, Trebuchet MS, Verdana, Vijaya, Webdings, Wingdings, Yu Gothic, Yu Gothic Light, Yu Gothic Medium, Yu Gothic UI, Yu Gothic UI Light, Yu Gothic UI Semibold, Yu Gothic UI Semilight
 
-## Schriftarten für Schecks
+## <a name="fonts-for-checks"></a>Schriftarten für Schecks
 
 MICR-Schriftarten (Magnetic Ink Character Recognition) sind installiert und können verwendet werden. Es werden sowohl der E-13B- als auch der CMC-7-Standard unterstützt.  
 
@@ -32,7 +32,7 @@ Zusätzlich zu MICR-Schriftarten stehen spezielle Sicherheitsschriftarten zur Ve
 
 Weitere Informationen finden Sie unter [Scheck-Layout auswählen](finance-how-define-check-layouts.md).  
 
-## Schriftarten für Barcodes
+## <a name="fonts-for-barcodes"></a>Schriftarten für Barcodes
 Schriftarten zum Generieren von Barcodes sind installiert und können sowohl in Word- als auch in RDLC-Berichtslayouts verwendet werden.
 
 Die folgenden eindimensionalen Barcode-Symbologien werden unterstützt:
@@ -52,7 +52,7 @@ Die folgenden zweidimensionalen Barcode-Symbologien werden unterstützt:
 
 Weitere Informationen finden Sie unter [Barcode-Schriftarten mit Business Central Online](/dynamics365/business-central/dev-itpro/developer/devenv-report-barcode-fonts).
 
-## Weitere Informationen
+## <a name="see-also"></a>Weitere Informationen
 
 [Verwalten von Berichtslayouts](ui-manage-report-layouts.md)  
 [Ein Prüflayout auswählen](finance-how-define-check-layouts.md)  

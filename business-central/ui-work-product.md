@@ -10,7 +10,7 @@ ms.search.form: 'RoleExplorer, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9
 ms.date: 06/25/2021
 ms.author: edupont
 ---
-# Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="work-with-"></a>Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Beim Ausführen von Geschäftsaufgaben entsteht auf verschiedene Art und Weise eine Interaktion mit Daten, beispielsweise durch das Erstellen von Datensätzen und die Eingabe von Daten, durch Sortieren und Filtern von Daten, durch Schreiben von Notizen und durch die Ausgabe von Daten in andere Anwendungen.
 
@@ -18,14 +18,14 @@ Sie können beispielsweise die Größe und die Position von Seiten anpassen, die
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="cheatsheet"></a>Tipps und Tricks
+## <a name="tips-and-tricks"></a><a name="cheatsheet"></a>Tipps und Tricks
 
 > [!TIP]
 > Für einen druckfreundlichen Überblick über die am häufigsten verwendeten Funktionen wählen Sie das folgende Bild und laden Sie die PDF-Datei herunter.
 >
 > [ ![Symbol für die PDF-Datei.](media/cheat_sheet_inline.png) ](media/cheat_sheet.pdf "Symbol zum Öffnen einer PDF")
 
-## Links zu weiteren Informationen
+## <a name="links-to-learn-more"></a>Links zu weiteren Informationen
 
 Die folgende Tabelle enthält die allgemeinen Funktionalitäten mit Links zu den entsprechenden Themen, in denen die Abteilungen beschrieben werden.
 
@@ -51,12 +51,12 @@ Die folgende Tabelle enthält die allgemeinen Funktionalitäten mit Links zu den
 | Ein Berichtlayout steuert Inhalt und Format des Berichts, auch, welche Datenfelder eines Berichtsdatasets im Bericht erscheinen und wie sie angeordnet werden, Text-Format, Bilder und mehr.|[Verwaltung von Berichts- und Beleg-Layouts](ui-manage-report-layouts.md) |
 |Erhalten von Informationen über Funktionen und Funktionen, die einfach [!INCLUDE[prod_short](includes/prod_short.md)] verfügbar sind für  Personen mit Behinderungen.|[Eingabehilfe und Tastenkombinationen](ui-accessibility.md)|
 
-## Navigation in Business Central
+## <a name="getting-around-in-business-central"></a>Navigation in Business Central
 Hier finden Sie ein kurzes Video über die Navigation in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!VIDEO https://www.youtube.com/embed/zqz03iMihx0]
 
-## Auswahl eines Desktop-Browsers
+## <a name="choosing-a-desktop-browser"></a>Auswahl eines Desktop-Browsers
 
 [!INCLUDE[prod_short](includes/prod_short.md)] unterstützt mehrere Browser, die jeweils eine Vielzahl von Funktionen und Möglichkeiten bieten. Der Browser spielt eine wichtige Rolle bei der Reaktionsfähigkeit und Flüssigkeit der Benutzeroberfläche. Siehe die Liste der unterstützten, empfohlenen Browser für [Business Central Online](./product-requirements.md) und Browser für [Business Central On-premises](/dynamics365/business-central/dev-itpro/deployment/system-requirement-business-central-v15).
 
@@ -65,7 +65,7 @@ Hier finden Sie ein kurzes Video über die Navigation in [!INCLUDE[prod_short](i
     Internet Explorer wird nicht mehr unterstützt. Weitere Informationen finden Sie unter [Microsoft Edge-Dokumentation](https://support.microsoft.com/hub/4337664/microsoft-edge-help).
 - Halten Sie Ihren Browser immer auf dem neuesten Stand.
 
-## Aktionsleisten
+## <a name="action-bars"></a>Aktionsleisten
 
 Innerhalb von [!INCLUDE [prod_short](includes/prod_short.md)] erledigen Sie die meiste Arbeit in einer Liste, einem Beleg oder einer Karte. Alle drei Arten von Seiten haben eine Leiste mit Aktionen, die für die jeweilige Seite relevant sind, und die Aktionen sind für die einzelne Karte oder den einzelnen Beleg und für die Liste der Entitäten fast gleich. So können Sie einen einzelnen Verkaufsauftrag auf der Seite **Verkaufsauftrag** und in der Liste **Verkaufsaufträge** verwalten, einschließlich der Buchung und Rechnungsstellung.  
 
@@ -80,9 +80,9 @@ Wenn Sie eine Listenseite suchen und öffnen, z. B. die Liste **Verkaufsaufträg
 
 Wenn Sie aber dieselbe Listenseite von Ihrer Startseite aus öffnen, ist die Aktion **Verwalten** nicht vorhanden. Um einen einzelnen Verkaufsauftrag zu öffnen, wählen Sie stattdessen einfach das Feld **Nummer**. In dieser Ansicht können Sie die Aktionsleiste nicht anheften.  
 
-## Siehe verwandte [Microsoft Schulungen](/training/paths/work-pro-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/paths/work-pro-data-dynamics-365-business-central/)
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Bereitschaft für die Geschäftsabwicklung](ui-get-ready-business.md)  
 [Einrichten von Business Central](setup.md)  

@@ -11,12 +11,12 @@ ms.date: 06/23/2021
 ms.author: edupont
 ---
 
-# Fehlerberichte einrichten
+# <a name="set-up-fault-reporting"></a>Fehlerberichte einrichten
 Mit Fehlermeldung können Standards für das Erfassen von Fehlerinformationen für Serviceartikel einrichten. Beispielsweise können Sie festlegen, was das Problem ist, die Symptome, die Sie sehen, die Ursache für das Problem und wie es gelöst werden soll.  
 
 Fehlercodes beschreibt die verschiedenen Serviceartikelprobleme oder die Arbeiten, die an Serviceartikeln durchgeführt wurden. Abhängig von der Problembeschreibungsebene in Ihrer Firma müssen Sie eventuell Problembereichs- und Symptomcodes definieren, bevor Sie Problemcodes erfassen. Fehlerbereiche beschreiben Bereiche von Fehlern bei Service-Elementen. Problemursachencodes beschreiben die Ursache der Serviceartikelprobleme und ob bei Bedarf Garantie- und Vertragsrabatten gewährt werden. Beispielsweise können Garantie- und Vertragsrabatte ausgeschlossen werden, wenn der Debitor in gewisser Weise für den Fehler beim Serviceartikel verantwortlich ist. Sie weisen Problemursachencodes für Serviceaufträge zu. Weitere Informationen finden Sie unter [Einrichten von Servicekosten](service-how-to-work-on-service-tasks.md)  
 
-## So legen Sie die Gesamtebene der Fehlerberichterstattung fest
+## <a name="to-specify-the-overall-level-of-fault-reporting"></a>So legen Sie die Gesamtebene der Fehlerberichterstattung fest
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Service Einrichtung** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie im Feld **Fehlerebenenbericht** eine der Optionen aus, die in der folgenden Tabelle beschrieben werden.  
 
@@ -29,7 +29,7 @@ Fehlercodes beschreibt die verschiedenen Serviceartikelprobleme oder die Arbeite
 
 Um die Einrichtung des Problemberichtwesens abzuschließen, kann auch angegeben werden, welche Reparaturen oder Lösungen bei einem Problem oder Fehler zum Einsatz kommen sollen. Sie legen das auf der Seite **Fehler-/Lösungscode-Beziehungen** fest, wo Sie Kombinationen von Codes für die Serviceartikel-Gruppe des Serviceartikels, von dem aus Sie auf das Fenster zugegriffen haben, und die Anzahl des Auftretens für jeden einzelnen festlegen.
 
-## Einfügen von Problem/Lösungscode-Beziehungen
+## <a name="to-create-fault-and-resolution-code-relationships"></a>Einfügen von Problem/Lösungscode-Beziehungen
 <!--this needs to go in a working with topic-->
 Um die üblichsten Reparaturmethoden für Fehler an Serviceartikeln anzeigen zu können, ist es notwendig, Informationen über die Problem/Lösungscode Zuordnungen zu erstellen. Verwenden Sie die Stapelverarbeitung **Prob.-/Lösungszuord. ermitteln**, um alle Kombinationen von Problem- und Lösungscodes in gebuchten Serviceaufträgen zu ermitteln und sie im Fenster **Problem-/Lösungszuordnungen** zu erfassen.
 
@@ -38,7 +38,7 @@ Um die üblichsten Reparaturmethoden für Fehler an Serviceartikeln anzeigen zu 
 3. Aktivieren Sie das Feld **Zuordnung basierend auf Serviceartikelgruppe**, wenn die Zuordnungen nach Serviceartikelgruppen sortiert werden sollen.  
 4. Um bereits manuell auf der Seite **Problem-/Lösungszuordnungscodebeziehungen** eingefügte Datensätze zu behalten, aktivieren Sie das Kontrollkästchen **Manuell eingefügte Datensätze behalten**.  
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 [Einrichten der Serviceverwaltung](service-setup-service.md)  
 [Service](service-service.md)  
 

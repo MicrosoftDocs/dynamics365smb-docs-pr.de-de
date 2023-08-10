@@ -10,7 +10,7 @@ ms.search.keywords: direct shipment
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# Direktlieferungen machen
+# <a name="make-drop-shipments"></a>Direktlieferungen machen
 
 Eine Direktlieferung ist die Lieferung von Artikeln, von einem Ihrer Kreditoren direkt an einen Ihrer Debitoren.
 
@@ -19,7 +19,7 @@ Wenn ein Verkaufsauftrag für die Direktlieferung markiert ist und Sie einen Ver
   
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4mOyM?rel=0]
 
-## So erstellen Sie einen Verkaufsauftrag für eine Direktlieferung
+## <a name="to-create-a-sales-order-for-drop-shipment"></a>So erstellen Sie einen Verkaufsauftrag für eine Direktlieferung
 
 Um eine Direktlieferung vorzubereiten, erstellen Sie einen normalen Verkaufsauftrag für einen Artikel und geben in der Verkaufsauftragszeile an, dass für den Verkauf Direktlieferung benötigt wird.
 
@@ -29,7 +29,7 @@ Um eine Direktlieferung vorzubereiten, erstellen Sie einen normalen Verkaufsauft
 > [!TIP]
 > Das Kontrollkästchen „Direktlieferung“ ist standardmäßig nicht in den Zeilen verfügbar. In diesem Fall können Sie es hinzufügen, indem Sie den Abschnitt der Seite personalisieren, die die Zeilen enthält. Weitere Informationen finden Sie unter [Personalisieren Sie Ihren Arbeitsbereich](ui-personalization-user.md).
 
-## So erstellen Sie Bestellungen für Direktlieferungen:
+## <a name="to-create-the-purchase-order-for-drop-shipment"></a>So erstellen Sie Bestellungen für Direktlieferungen:
 
 Um eine Direktlieferung vorzubereiten, geben Sie auf der Bestellung an, dass sie an Ihren Kunden und nicht an Sie selbst versendet werden muss.
 
@@ -46,7 +46,7 @@ Sie können Ihren Kreditor jetzt anweisen, die Artikel direkt an den Debitor zu 
 
 Wenn Ihr Kreditor eine Sendungsverfolgungsnummer oder ähnliche Informationen bereitstellt, können Sie diese in einer Bestellposition vom Typ *Kommentar* hinzufügen.  
 
-## Um mehrere Bestellungen für Direktlieferungen zu erstellen
+## <a name="to-create-multiple-purchase-orders-for-drop-shipments"></a>Um mehrere Bestellungen für Direktlieferungen zu erstellen
 
 Sie können auch das Anforderungsarbeitsblatt verwenden, um die Bestellung für den Lieferanten zu erstellen. 
 
@@ -58,11 +58,11 @@ Der Vorteil der Verwendung des Anforderungsarbeitsblatts besteht darin, dass Bes
 4. Überprüfen Sie die Bestellpositionen und im Feld **Lieferanten-Nr.** wählen Sie den Lieferanten aus, der die erforderlichen Waren liefert. 
 5. Wählen Sie zum Konvertieren überprüfter Zeilen in eine Einkaufsbestellung die Aktion **Ereignismeldung ausführen** aus.
 
-## So zeigen Sie den verknüpften Auftrag aus der Bestellung an
+## <a name="to-view-the-linked-purchase-order-from-the-sales-order"></a>So zeigen Sie den verknüpften Auftrag aus der Bestellung an
 
 * Wählen Sie die Verkaufsauftragszeile der Direktlieferung aus, dann die Aktion **Bestellung**, die Aktion **Direktlieferung** und die Aktion **Bestellung**.
 
-## So buchen Sie eine Direktlieferung:
+## <a name="to-post-a-drop-shipment"></a>So buchen Sie eine Direktlieferung:
 
 Wenn der Kreditor die Artikel geliefert hat, können Sie den Verkaufsauftrag als geliefert buchen. Sie können auch die Bestellung buchen, aber nur mit der Option **Erhalten** bis der Verkaufsauftrag fakturiert wurde.
 
@@ -72,9 +72,9 @@ Wenn der Kreditor die Artikel geliefert hat, können Sie den Verkaufsauftrag als
 4. Wählen Sie die Aktion **Buchen** oder **Buchen und Senden** aus.
 5. Wählen Sie dann entweder die Option **Liefern**, um zu einem späteren Zeitpunkt zu fakturieren oder **Liefern und Fakturieren**, um sofort zu fakturieren.
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/create-sales-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/create-sales-documents-dynamics-365-business-central/)
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Spezialaufträge erstellen:](sales-how-to-create-special-orders.md)  
 [Einkauf von Artikeln für einen Verkauf](purchasing-how-purchase-products-sale.md)  

@@ -10,11 +10,11 @@ ms.search.keywords: 'Power BI, setup, analysis, reporting, financial report, bus
 ms.date: 07/13/2022
 ms.author: jswymer
 ---
-# Ermöglichen der Power BI-Integration mit [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="enabling-power-bi-integration-with-"></a>Ermöglichen der Power BI-Integration mit [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Dieser Artikel beschreibt, wie man [!INCLUDE[prod_short](includes/prod_short.md)] für die Integration mit Power BI vorbereitet. [!INCLUDE[prod_short](includes/prod_short.md)] online ist bereits für die Integration vorbereitet, obwohl Sie eventuell einige Informationen zur Lizenzierung lesen möchten. Für [!INCLUDE[prod_short](includes/prod_short.md)] on-premises müssen Sie Ihre Umgebung für die Verbindung mit Power BI einrichten, bevor Benutzer damit arbeiten können.
 
-## <a name="license"></a>Power BI-Lizenzierung
+## <a name="power-bi-licensing"></a><a name="license"></a>Power BI-Lizenzierung
 
 Mit [!INCLUDE[prod_short](includes/prod_short.md)] erhalten Benutzer eine kostenlose Power BI-Lizenz, die Zugriff auf die gängigsten Funktionen von [!INCLUDE[prod_short](includes/prod_short.md)] und Power BI bietet. Sie können auch eine Power BI Pro-Lizenz kaufen, die Zugriff auf zusätzliche Funktionen bietet. Die folgende Tabelle bietet einen Überblick über die Funktionen, die mit jeder Lizenz verfügbar sind.
 
@@ -25,11 +25,11 @@ Mit [!INCLUDE[prod_short](includes/prod_short.md)] erhalten Benutzer eine kosten
 
 Weitere Informationen finden Sie unter [Lizenzierung des Power BI-Dienstes für Benutzer in Ihrer Organisation](/power-bi/admin/service-admin-licensing-organization) oder unter [Als Einzelperson für den Power BI-Dienst anmelden](/power-bi/fundamentals/service-self-service-signup-for-power-bi).
 
-## <a name="exposedata"></a>Daten über API-Seiten oder OData-Webdienste verfügbar machen
+## <a name="expose-data-through-api-or-odata-web-services"></a><a name="exposedata"></a>Daten über API-Seiten oder OData-Webdienste verfügbar machen
 
 Business Central bietet zwei Möglichkeiten, Daten freizugeben, die von Power BI-Berichten genutzt werden können: API-Seiten oder Abfragen und Open Data Protocol (OData)-Webdienste.
 
-### API-Seiten und Abfragen
+### <a name="api-pages-and-queries"></a>API-Seiten und Abfragen
 
 > **Gilt nur für:** Business Central online
 
@@ -44,17 +44,17 @@ Business Central online unterstützt auch angepasste APIs. Anwendungsentwickler 
 >
 > In seltenen Fällen verursacht das Verhalten einen Fehler, wenn ein Benutzer versucht, Daten von der API für einen Bericht in Power BI Desktop zu erhalten. Wenn jedoch Datenbankänderungen in der benutzerdefinierten API erforderlich sind, können Benutzer mit Power BI Desktop das Verhalten erzwingen. Weitere Informationen finden Sie unter [Erstellung von Power BI-Berichten zur Anzeige von Business Central-Daten](across-how-use-financials-data-source-powerbi.md#fixing-problems).
 
-### OData-Webdienste
+### <a name="odata-web-services"></a>OData-Webdienste
 
 Sie können Business Central-Anwendungsobjekte, wie Codeunits, Seiten und Abfragen, als [OData Webdienste](/dynamics365/business-central/dev-itpro/webservices/odata-web-services) veröffentlichen. Bei Business Central online sind standardmäßig viele Webdienste veröffentlicht. Eine einfache Methode, die Webdienste zu finden ist, in *Webdiensten* in [!INCLUDE[prod_short](includes/prod_short.md)] zu suchen. Vergewissern Sie sich, dass auf der Seite **Webdienste** das Feld **Veröffentlichen** für die oben aufgeführten Webdienste ausgewählt ist. Weitere Informationen zum Veröffentlichen von Webdiensten finden Sie unter [Webdienst veröffentlichen](across-how-publish-web-service.md).
 
 Um zu erfahren, wie Sie vom Business Central Server (Endpunkt) und vom Verbaucher (dem Client) aus gesehen die optimale Leistung von Webdiensten erzielen, lesen Sie [Effiziente Webdienste schreiben](/dynamics365/business-central/dev-itpro/performance/performance-developer#writing-efficient-web-services).
 
-### Auswahl, ob Sie API-Seiten oder OData-Webdienste verwenden wollen
+### <a name="choosing-whether-to-use-api-pages-or-odata-web-services"></a>Auswahl, ob Sie API-Seiten oder OData-Webdienste verwenden wollen
 
 Wann immer möglich, sollten Sie API-Seiten anstelle von OData-Webdiensten verwenden. API-Seiten sind im Allgemeinen schneller beim Laden von Daten in Power BI-Berichten als OData-Webdienste. Außerdem sind sie flexibler, weil Sie damit Daten aus Tabellenfeldern abrufen können, die nicht in einem Seitenobjekt definiert sind.
 
-## <a name="setup"></a>[!INCLUDE[prod_short](includes/prod_short.md)] on-premises für die Power BI-Integration einrichten
+## <a name="set-up--on-premises-for-power-bi-integration"></a><a name="setup"></a>[!INCLUDE[prod_short](includes/prod_short.md)] on-premises für die Power BI-Integration einrichten
 
 In diesem Abschnitt werden die Anforderungen für eine Bereitstellung von [!INCLUDE[prod_short](includes/prod_short.md)] on-premises zur Integration mit Power BI erläutert.
 
@@ -92,9 +92,9 @@ In diesem Abschnitt werden die Anforderungen für eine Bereitstellung von [!INCL
     Um die erste Verbindung herzustellen, öffnen Sie [!INCLUDE[prod_short](includes/prod_short.md)], und führen Sie **Erste Schritte mit Power BI** über die Startseite aus. Diese Aktion führt Sie durch den Einwilligungsprozess und überprüft Ihre Power BI-Lizenz. Wenn Sie dazu aufgefordert werden, melden Sie sich mit einem Azure-Administratorkonto an. Weitere Informationen finden Sie unter [Mit Power BI verbinden – nur ein Mal](across-working-with-powerbi.md#connect).
 
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/Configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/Configure-powerbi-excel-dynamics-365-business-central/index)
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Business Central und Power BI](admin-powerbi.md)  
 [Übersicht über die Power BI-Integrationskomponente und -Architektur für [!INCLUDE[prod_short](includes/prod_short.md)]](admin-powerbi-overview.md)  

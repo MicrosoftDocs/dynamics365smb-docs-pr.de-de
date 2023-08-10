@@ -9,12 +9,12 @@ author: edupont04
 ms.author: andreipa
 ---
 
-# Einführung in die Demodaten für Contoso Coffee
+# <a name="introduction-to-contoso-coffee-demo-data"></a>Einführung in die Demodaten für Contoso Coffee
 
 Contoso Coffee ist ein fiktives Unternehmen, das Kaffeemaschinen für Verbraucher und gewerbliche Kunden herstellt. Die **Contoso Coffee**-Apps für Business Central fügen Demodaten hinzu, mit deren Hilfe Sie die Verwendung der Produktionsfunktionen in Business Central erlernen können.  
 
 
-## Demodaten für Contoso Coffee einrichten
+## <a name="set-up-contoso-coffee-data"></a>Demodaten für Contoso Coffee einrichten
 
 Um die Demodaten von Contoso Coffee nutzen zu können, müssen Sie zwei Apps im jeweiligen Unternehmen in [!INCLUDE [prod_short](../includes/prod_short.md)] installieren:  
 
@@ -31,7 +31,7 @@ Sie sollten dann Folgendes vervollständigen:
  - Die [Fertigungseinrichtung](manufacturing/contoso-coffee-manufacturing-intro.md) zur Vorbereitung auf die Verwendung der [Fertigungsszenarien](#manufacturing-scenarios)
  - Die [Lagerorteinrichtung](warehousing/contoso-coffee-warehousing-intro.md) zur Vorbereitung auf die Verwendung der [Lagerortszenarien](#warehousing-scenarios)
 
-## Produktionsszenarien
+## <a name="manufacturing-scenarios"></a>Produktionsszenarien
 
 Die Produktions-Demodaten von Contoso Coffee unterstützen derzeit die folgenden Produktionsszenarien für Tests und Schulungen:
 
@@ -49,7 +49,7 @@ Lesen Sie die Schritte für jedes Szenario im entsprechenden Artikel.
 > [!IMPORTANT]
 > Diese exemplarischen Vorgehensweisen für die Produktion erfordert, dass die Benutzererfahrung auf der Seite **Unternehmensdaten** auf *Premium* festgelegt ist.
 
-## Lagerszenarien
+## <a name="warehousing-scenarios"></a>Lagerszenarien
 
 Die Demodaten von Contoso Coffee unterstützen derzeit die folgenden Lagerort-Szenarien für Tests und Schulungen:
 
@@ -59,7 +59,7 @@ Die Demodaten von Contoso Coffee unterstützen derzeit die folgenden Lagerort-Sz
 
 Lesen Sie die Schritte für jedes Szenario im entsprechenden Artikel.
    
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Produktion](../production-manage-manufacturing.md)  
 [Lagerhaus](../warehouse-manage-warehouse.md)  
