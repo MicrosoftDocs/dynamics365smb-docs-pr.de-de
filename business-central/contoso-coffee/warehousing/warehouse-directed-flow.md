@@ -12,11 +12,11 @@ ms.date: 04/01/2021
 ms.author: andreipa
 ---
 
-# <a name="walkthrough-of-inbound-and-outbound-flow-in-advanced-warehouse-configuration-with-directed-put-away-and-pick"></a>Exemplarische Vorgehensweise des eingehenden und ausgehenden Flows in der erweiterten Lagerkonfiguration mit gesteuerter Einlagerung und Kommissionierung
+# Exemplarische Vorgehensweise des eingehenden und ausgehenden Flows in der erweiterten Lagerkonfiguration mit gesteuerter Einlagerung und Kommissionierung
 
 Diese exemplarische Vorgehensweise zeigt, wie eingehende und ausgehende Flows in der Konfiguration Erweitert: Gezielte Einlagerung und Kommissionierung abgeschlossen werden. Weitere Informationen finden Sie unter [Übersicht über verschiedene Konfigurationsoptionen](../../design-details-warehouse-management.md#overview-of-different-configuration-options).
 
-## <a name="prerequisites"></a>Voraussetzungen
+## Voraussetzungen  
 Um diese exemplarische Vorgehensweise zu beenden, müssen Sie selber einen Lagermitarbeiter am Standort *WEISS* mit folgenden Schritten erstellen:  
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet 1.](../../media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Lagermitarbeiter** ein, und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie das Feld **Benutzer-ID** aus, und wählen Sie Ihr eigenes Benutzerkonto auf der Seite **Benutzer** aus.  
@@ -24,10 +24,10 @@ Um diese exemplarische Vorgehensweise zu beenden, müssen Sie selber einen Lager
 4. Aktivieren Sie die Umschaltung **Standard**.
 
 
-## <a name="scenario"></a>Szenario
+## Szenario  
 Ellen, die Lagerleiterin, nutzt Cross-Docking- und Behälternachschubfunktionen, um die Wareneingangs- und Versandzeit zu verkürzen.  
 
-## <a name="steps"></a>Schritte
+## Schritte
 
 1. Warenausgang erstellen.  
 
@@ -136,7 +136,7 @@ Ellen, die Lagerleiterin, nutzt Cross-Docking- und Behälternachschubfunktionen,
     4. Bestätigen Sie die Option **Versenden** .
 
 
-## <a name="results"></a>Ergebnisse
+## Ergebnisse
 - die Seite **Gebuchte Lagerbelege** wird geöffnet
 - die **Registrierte Lager-Einlagerung** wird erstellt    
 - die Seite **Gebuchte Eingangsbelege** wird geöffnet    
@@ -150,7 +150,7 @@ Ellen, die Lagerleiterin, nutzt Cross-Docking- und Behälternachschubfunktionen,
 
 
 
-## <a name="see-also"></a>Weitere Informationen
+## Weitere Informationen
 [Artikel empfangen](../../warehouse-how-receive-items.md) 
 [Design Details: Eingehender Lagerflow](../../design-details-inbound-warehouse-flow.md) 
 [Versandartikel](../../warehouse-how-ship-items.md) 

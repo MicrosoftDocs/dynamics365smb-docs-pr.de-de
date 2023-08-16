@@ -1,8 +1,8 @@
 ---
-author: rubenseishima
+author: brentholtorf
 ms.topic: include
-ms.date: 06/30/2022
-ms.author: a-reishima
+ms.date: 08/03/2023
+ms.author: bholtorf
 ---
 
 1. Wählen Sie das Symbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](../media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Kreditoren** ein und wählen Sie dann den zugehörigen Link.
@@ -15,4 +15,4 @@ ms.author: a-reishima
 > Einige Felder sind ausgeblendet, bis Sie die Aktion **Mehr anzeigen** wählen, typischerweise weil sie selten verwendet werden. Andere müssen durch Personalisierung hinzugefügt werden. Weitere Informationen finden Sie unter [Personalisieren Sie Ihren Arbeitsbereich](../ui-personalization-user.md).
 
 > [!WARNING]
-> Einige Felder auf dem Bankkonto des Kreditors enthalten sensible Geschäftsdaten, z. B. die Felder **BLZ**, **Bankkontonr.**, **SWIFT Code** und **IBAN Code**. Weitere Informationen zur Überwachung und Benachrichtigung, wenn ein Wert in diesen Feldern geändert wird, finden Sie unter [Überwachen sensibler Felder](../across-log-changes.md#monitoring-sensitive-fields).
+> Einige Felder auf dem Bankkonto des Kreditors enthalten sensible Geschäftsdaten, z. B. die Felder **BLZ**, **Bankkontonr.**, **SWIFT Code** und **IBAN Code**. Weitere Informationen zur Überwachung und Benachrichtigung, wenn ein Wert in diesen Feldern geändert wird, finden Sie unter [Sensible Felder überwachen](../across-log-changes.md#monitor-sensitive-fields).

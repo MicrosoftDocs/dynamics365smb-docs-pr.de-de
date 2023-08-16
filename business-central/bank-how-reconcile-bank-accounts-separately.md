@@ -34,11 +34,6 @@ Das Kontrollkästchen **Ausgeglichen** ist in Zeilen ausgewählt, in denen Poste
 
 Wenn der Wert im Feld **Gesamtsaldo** im Bereich **Bankauszugszeilen** dem Gesamtwert des Feldes **Saldo abzustimmen** plus dem Feld **Saldo letzter Kontoauszug** im Bereich **Sachkonto-Sachkonto-Einträge** entspricht, können Sie die Aktion **Buchen** wählen. Nicht übereinstimmende Sachkonto-Einträge bleiben auf der Seite und weisen auf Diskrepanzen hin, die Sie zum Abstimmen des Bankkontos beheben sollten.
 
-Um Ihre Bankkontoabstimmung vor der Buchung noch einmal zu überprüfen, verwenden Sie die Aktion **Testbericht**, um eine Vorschau der Abstimmung zu erstellen. Der Bericht ist in den folgenden Kontexten verfügbar:
-
-* Wenn Sie eine Bankabstimmung auf der Seite **Bankkontoabstimmung** vorbereiten.
-* Wenn Sie Zahlungen auf der Seite **Zahlungsabstimmungen Buch.-Blätter** abstimmen.
-
 Alle nicht übereinstimmenden Zeilen, die durch einen Wert im Feld **Unterschied** angegeben werden, bleiben auf nach der Buchung der Seite **Bankkontoabstimmung**. Sie stellen eine Art von Diskrepanz dar, die Sie beheben müssen, bevor Sie die Bankkontenabstimmung abschließen können. Die folgende Tabelle beschreibt einige typische Geschäftssituationen, die zu Unterschieden führen können.
 
 | Differenz | Grund | Lösung |
@@ -97,7 +92,7 @@ Mit der Aktion **Details abgleichen** können Sie die Grundlage für den Abgleic
     Wenn Sie 0 eingeben oder das Feld leer lassen, sucht die Aktion **Automatisch abgleichen** nur nach übereinstimmenden Transaktionsdaten am Buchungsdatum des Sachkontos.
 3. Wählen Sie die Schaltfläche **OK**.
 
-    Die Linien sind farblich gekennzeichnet, damit sie leichter zu verstehen sind, was mit ihnen zu tun ist. Alle Bankauszugszeilen und Sachkontoeinträge, die abgeglichen werden können, werden in grüner Schrift angezeigt und das Kontrollkästchen **Angewandt** ist aktiviert. Bankkontoeinträge, die bereits mit anderen Bankabstimmungen abgeglichen wurden, werden in blauer Schrift angezeigt.
+    Die Linien sind farblich gekennzeichnet, damit sie leichter zu verstehen sind, was mit ihnen zu tun ist. Bankauszugszeilen und Sachkontoposten, die auf der aktuellen Bankabstimmung abgeglichen werden, werden nun in grüner Fettschrift angezeigt. Bankkontoposten, die mit anderen Bankabstimmungen abgeglichen wurden, werden in blauer Kursivschrift angezeigt.
 4. Um eine Übereinstimmung zu entfernen, wählen Sie die Bankkontoauszugszeile, und dann die Aktion **Übereinstimmung entfernen**.
 
 > [!TIP]
@@ -107,6 +102,13 @@ Mit der Aktion **Details abgleichen** können Sie die Grundlage für den Abgleic
 
 > [!TIP]
 > Beim manuellen Abgleich von Zeilen und Buchungen können Sie sich mit den Aktionen **Alle anzeigen**, **Stornierte Buchungen anzeigen**, **Stornierte Buchungen ausblenden** und **Nicht übereinstimmende Buchungen anzeigen** leichter einen Überblick verschaffen. Standardmäßig enthalten die Sachkonto-Einträge keine nicht übereinstimmenden stornierten Einträge. Um diese Einträge in die Liste aufzunehmen und sie manuell abzugleichen, wählen Sie die Aktion **Stornierte Einträge anzeigen**. Wenn Sie stornierte Einträge ausblenden möchten, nachdem Sie eine oder mehrere Übereinstimmungen vorgenommen haben, werden die übereinstimmenden Einträge weiterhin angezeigt.
+
+> [!NOTE]
+> Sie können keine Bankabstimmung buchen, wenn Sie einen n:1-Abgleich durchführen und die kombinierten Beträge Differenzen enthalten. Dies gilt auch dann, wenn die Summe der Differenzen Null ergibt.
+>
+> Hier ist ein Beispiel für einen n:1-Abgleich mit Unterschieden. Der Wert von 200 für Kontoauszugsposten 1 wird mit zwei Bankposten abgeglichen, die einen Gesamtwert von 180 haben. Die Differenz beträgt 20. Der Wert von 350 für Kontoauszug 2 wird mit zwei anderen Bankposten abgeglichen, die einen Gesamtwert von 370 haben. Die Differenz beträgt -20, was den Wert von 20 für Kontoauszug 1 ausgleicht.  
+>
+> Um eine Bankabstimmung mit Differenzen in den Zeilen zu buchen, buchen Sie die Differenzen und gleichen Sie sie dann mit den gebuchten Posten ab.
 
 1. Wählen Sie auf der Seite **Bankkontoabstimmung** eine nicht zugeordnete Zeile im Bereich **Bankauszugspositionen** aus.
 2. Wählen Sie im Bereich **Bankposten** eine oder mehrere Bankkontoposten aus, die mit der ausgewählten Bankauszugszeile abgeglichen werden können. Um mehrere Zeilen auszuwählen, wählen Sie die <kbd>STRG</kbd>-Taste aus und wählen dann die Zeilen aus.
@@ -121,6 +123,49 @@ Mit der Aktion **Details abgleichen** können Sie die Grundlage für den Abgleic
 > [!TIP]
 > Um eine Übereinstimmung zu entfernen, wählen Sie die Bankkontoauszugszeile, und dann die Aktion **Übereinstimmung entfernen**. Wenn Sie mehrere Zeilen des Bankauszugs einem Posten zugeordnet haben und eine oder mehrere der zugeordneten Zeilen entfernen müssen, werden alle manuellen Zuordnungen für den Posten entfernt, wenn Sie **Zuordnung entfernen** wählen.
 
+## Zur Validierung Ihrer Bankabstimmung
+
+Um Ihre Bankkontoabstimmung vor der Buchung noch einmal zu überprüfen, verwenden Sie die Aktion **Testbericht**, um die Abstimmung in der Vorschau zu sehen. Der Bericht ist in den folgenden Kontexten verfügbar:
+
+* Wenn Sie eine Bankabstimmung auf der Seite **Bankkontoabstimmung** vorbereiten.
+* Wenn Sie Zahlungen auf der Seite **Zahlungsabstimmungen Buch.-Blätter** abstimmen.
+
+Zeilen, die nicht abgeglichen werden können, bleiben nach der Buchung auf der Seite **Bankkontoabstimmung**. Diese Zeilen enthalten einen Wert im Feld **Differenz**. Die Differenz stellt eine Diskrepanz dar, die Sie beheben müssen, bevor Sie die Bankkontenabstimmung abschließen können. Die folgende Tabelle beschreibt einige typische Geschäftssituationen, die zu Unterschieden führen können.
+
+| Differenz | Grund | Lösung |
+|------------|--------|------------|
+| Eine Transaktion auf Ihrem Bankkonto in [!INCLUDE[prod_short](includes/prod_short.md)] ist nicht im Bankauszug enthalten. | Die Bank-Transaktion wurde nicht erstellt, obwohl eine Buchung in [!INCLUDE[prod_short](includes/prod_short.md)] vorgenommen wurde. | Erstellen Sie die fehlende Transaktion (oder fordern Sie einen Debitor auf, sie zu erstellen). Importieren Sie dann die Bankauszugsdatei erneut oder geben Sie die Transaktion manuell ein. |
+| Eine Transaktion auf dem Bankauszug ist nicht als Beleg oder Buchungsblattzeile in [!INCLUDE[prod_short](includes/prod_short.md)] vorhanden. | Es wurde eine Banküberweisung ohne entsprechende Buchung in [!INCLUDE[prod_short](includes/prod_short.md)]getätigt, zum Beispiel eine Buch.-Blattzeilenbuchung für eine Ausgabe. | Erstellen und buchen Sie den fehlenden Eintrag. Wie Sie das schnell bewerkstelligen können, erfahren Sie unter [Fehlende Sachkontoeinträge zum Abgleich mit Bankgeschäften erstellen](bank-how-reconcile-bank-accounts-separately.md#to-create-missing-ledger-entries-to-match-bank-statement-lines). |
+| Eine Transaktion auf dem internen Bankkonto entspricht einer Banktransaktion, doch sind einige Informationen zu unterschiedlich, um eine Übereinstimmung zu erzielen. | Informationen, wie z.B. der Betrag oder der Kundenname, wurden in der Banktransaktion oder in der internen Buchung anders eingegeben. | Überprüfen Sie die Informationen und passen Sie sie dann manuell an. Korrigieren Sie optional die Abweichung. |
+
+Sie müssen die Differenzen beheben, z. B. indem Sie die fehlenden Einträge erstellen und nicht übereinstimmende Informationen korrigieren oder indem Sie fehlende Geldtransaktionen vornehmen, bis Sie die Bankkontoabstimmung abschließen und buchen können.
+
+> [!NOTE]
+> Auf der Seite „Bankabstimmung“ und im Testbericht wird davon ausgegangen, dass Sie den Abgleich nur innerhalb des Zeitraums bis zum Enddatum des Kontoauszugs durchführen. Wenn Sie eine Kontoauszugszeile mit einem Bankposten abgleichen, bevor Sie ein Kontoauszugsenddatum eingeben, und dann ein Kontoauszugsenddatum eingeben, das nach dem Enddatum für den Bankposten liegt, sind die Daten im Testbericht falsch.
+
+In der folgenden Tabelle werden Felder im Testbericht beschrieben, die Ihnen beim Abschließen der Bankabstimmung helfen können.
+
+|Feld  |Description  |
+|---------|---------|
+|Auszugsdatum| Das im Feld **Auszugsdatum** auf der Seite **Bankkontoabstimmung** angegebene Datum.|
+|Saldo letzter Auszug|Der im Feld **Saldo letzter Auszug** auf der Seite **Bankkontoabstimmung** angegebene Saldo. Dies wird automatisch aus der letzten Abstimmung für dasselbe Bankkonto ausgefüllt. Der Wert ist Null, wenn es sich um Ihren ersten Bankkontoabgleich handelt.|
+|Auszug Schluss-Saldo|Der im Feld **Auszug Schluss-Saldo** auf der Seite **Bankkontoabstimmung** angegebene Saldo. |
+|Sachkontonr. <*Nummer*> Saldo am <*Datum*> | Der Saldo auf dem Sachkonto am Enddatum des Auszugs. Dies ist der ungefilterte Saldo zu diesem Datum. Wenn Ihre Bank Ihre Landeswährung verwendet, sollte dieser Saldo mit dem Saldo Ihres Bankkontos (auf der rechten Seite der Berichtskopfzeile angezeigt) übereinstimmen, wenn Sie alle Kontoauszugszeilen abgeglichen haben. Ein leeres **()** im Namen dieses Feldes bedeutet, dass Ihre Bank die lokale Währung verwendet.<br><br>Eine Diskrepanz in diesem und den vorherigen Feldern kann darauf hinweisen, dass Sie direkt auf das Sachkonto gebucht haben oder dass Sie dasselbe Sachkonto für mehrere Banken verwenden, was nicht empfohlen wird. Banken sind über die für das Konto angegebene Bankkonto-Buchungsgruppe mit dem Hauptbuch verknüpft.<br><br>Der Testbericht zeigt eine Warnung an, wenn Sie Direktbuchungen haben, auch wenn der Saldo für die Buchung Null ist. Nicht ausgeglichene Direktbuchungen führen häufig zu aufgelaufenen Differenzen bei zukünftigen Bankabstimmungen. Sie sollten den Hauptbuchsaldo und die Hauptbucheinträge überprüfen, bevor Sie die Bankabstimmung buchen. Weitere Informationen zum direkten Buchen finden Sie unter [Vermeiden Sie Direktbuchungen](#avoid-direct-posting).|
+|Sachkontonr. <*Nummer*> Saldo (<*LW*>) am <*Datum*>| Der Saldo auf dem Sachkonto am Enddatum des Auszugs in lokaler Währung. Der Saldo wird mit dem Wechselkurs, der am Enddatum des Kontoauszugs gültig war, in die Währung des Bankkontos umgerechnet. Dies ist der ungefilterte Saldo zu diesem Datum. Sie vergleichen dies mit dem Feld **Sachkontonummer <* Nummer *> Saldo am <* Datum*>*, wenn Ihre Bank eine Fremdwährung verwendet. Der Wert im Feld Sachkontonr. <* Nummer *> Saldo bis <* Datum*> für die lokale Währung kann geringfügig abweichen, da bei der Währungsumrechnung geringfügige Unterschiede auftreten können. Der Kontostand Ihrer Bank sollte diesem Saldo sehr nahe kommen.  |
+|Bankkontensaldo am <*Datum*>| Der Saldo auf dem Bankkonto am Enddatum des Auszugs.|
+|Summe der Differenzen    | Die Summe der Differenzen für die Kontoauszugszeilen. Um auf die Details zuzugreifen, schalten Sie den Schalter für **Ausstehende Transaktionen drucken** ein, wenn Sie Kriterien für den Bericht eingeben. Eine Differenz besteht darin, dass eine Kontoauszugszeile nicht vollständig mit einem oder mehreren Bankposten übereinstimmt. Sie können keine Bankkontenabstimmung buchen, die Differenzen aufweist. Sie können eine Bankabstimmung buchen, die Bankposten enthält, die nicht mit Kontoauszugszeilen übereinstimmen. Dieser Wert wird im Feld **Ausstehende Banktransaktionen** und in einem separaten Abschnitt angezeigt, wenn Sie den Schalter „Ausstehende Transaktionen drucken“ aktivieren.      |
+|Auszugssaldo     | Der im Feld **Auszug Schluss-Saldo** auf der Seite **Bankkontoabstimmung** angegebene Wert.  |
+|Ausstehende Banktransaktionen     | Die Summe der nicht abgeglichenen Bankposten ohne Scheck, deren Buchungsdatum am oder vor dem Enddatum des Kontoauszugs liegt. Dies geschieht, wenn Sie Transaktionen registrieren, bevor diese bei Ihrer Bank registriert werden. Zum Beispiel am Ende einer Periode. Wenn Sie die nächste Bankabstimmung erstellen, können Sie diese Posten abgleichen.        |
+|Ausstehende Schecks     | Die Summe der nicht abgeglichenen Bankposten für Schecks, deren Buchungsdatum am oder vor dem Enddatum des Kontoauszugs liegt. Dies geschieht, wenn Sie Transaktionen registrieren, bevor diese bei Ihrer Bank registriert werden. Dies kann beispielsweise bei Schecks passieren, wenn ein Kreditor einen Scheck nicht im selben Zeitraum einlöst, in dem Sie ihn registriert haben. Wenn Sie die nächste Bankabstimmung erstellen, können Sie diese Posten abgleichen.        |
+|Bankkontensaldo     | Die Summe der Werte für den Endsaldo des Kontoauszugs, ausstehende Banktransaktionen und ausstehende Schecks. Nachdem Sie alle Differenzen bei abgeglichenen Posten bearbeitet haben, stimmt dieser Saldo mit Ihrem Banksaldo überein. Sie haben beispielsweise alle übereinstimmenden Posten sowie die Posten berücksichtigt, die Sie für diesen Kontoauszug nicht zuordnen konnten. Die Abstimmung kann gebucht werden.        |
+
+> [!TIP]
+> Wenn Sie den **Testbericht** über die Seite **Zahlungsabstimmungsbuch.-Blatt** ausführen, berechnet [!INCLUDE [prod_short](includes/prod_short.md)] den Wert im **Auszug Schluss-Saldo** wie folgt:
+>
+> * Saldo letzter Auszug + Summe aller Zeilen im Zahlungsabstimmungsbuch.-Blatt
+>
+> Sie können den Wert zum Vergleich mit Ihrem Kontoauszug verwenden.
+
 ## So erstellen Sie fehlende Sachkontoeinträge, die mit den Zeilen des Bankauszugs übereinstimmen
 
 Manchmal enthält der Bankauszug Beträge für berechnete Zinsen oder Gebühren. Solche Bankauszugszeilen können nicht abgeglichen werden, weil es in [!INCLUDE[prod_short](includes/prod_short.md)] keine entsprechenden Ledgerbuchungen gibt. In diesem Fall müssen Sie eine Buch.-Blattzeile für jede Transaktion buchen, um einen entsprechenden Posten zu erstellen, mit dem abgeglichen werden kann.
@@ -129,8 +174,8 @@ Manchmal enthält der Bankauszug Beträge für berechnete Zinsen oder Gebühren.
 2. Geben Sie auf der Seite **Bankkto. Ausgl. Fibu Buch.-Bl.** an, welches Fibu Buch.-Blatt verwendet werden soll, und klicken Sie dann auf die Schaltfläche **OK** .
 
     Die Seite **Fibu Buch.-Blatt** wird geöffnet und enthält neue Buch.-Blattzeilen für sämtliche Bankauszugspositionen mit fehlende Posten.
-3. Vervollständigen Sie die Buch.-Blattzeile mit entsprechenden Informationen, wie z. B. dem Gegenkonto ab. Weitere Informationen finden Sie unter [Arbeiten mit Allgemeinen Buch.-Blättern](ui-work-general-journals.md).  
-4. Um das Ergebnis der Buchung erneut durchzuführen bevor Sie buchen, wählen Sie die **Bericht testen** Aktion. Der Bericht **Bankkontoauszug** wird geöffnet und zeigt die gleichen Felder wie der Kopf der Seite **Bankkonto Abstimmen** anzeigt.
+3. Vervollständigen Sie die Buchungsblattzeile mit Informationen, wie z. B. dem Gegenkonto ab. Weitere Informationen finden Sie unter [Arbeiten mit Allgemeinen Buch.-Blättern](ui-work-general-journals.md).  
+4. Um das Ergebnis der Veröffentlichung vor dem Veröffentlichen zu überprüfen, wählen Sie die Aktion **Testbericht** und dann eine Option für den Zugriff auf den Bericht aus. Der Bericht **Bankkontoauszug** zeigt die gleichen Felder wie der Kopf der Seite **Bankkontoabstimmung** anzeigt.
 5. Wählen Sie die Aktion **Buchen**.
 
     Nachdem die Buchung gebucht wurde, passen Sie die Zeile des Bankauszugs an diese an.
@@ -197,11 +242,11 @@ Dieser Fehler passiert häufig bei der Eingabe eines Eröffnungssaldos für ein 
 ## Siehe verwandte [Microsoft Schulungen](/training/modules/bank-reconciliation-dynamics-365-business-central/index)
 
 ## Siehe auch
+
 [Abstimmen von Bankkonten](bank-manage-bank-accounts.md)  
 [Zahlungen automatisch vornehmen und Bankkonten abstimmen](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
 [Einrichten von Banken](bank-setup-banking.md)  
 [Einrichten von Regeln für die automatische Anwendung von Zahlungen](receivables-how-set-up-payment-application-rules.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

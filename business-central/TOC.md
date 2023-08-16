@@ -350,6 +350,7 @@
 
 ### Mehrwertsteuer verwalten
 #### [Mehrwertsteuerverwaltung – Übersicht](finance-manage-vat.md)
+#### [EU-Drittanbieter-Einkaufstransaktionen einrichten](finance-how-to-eu3party-trade-purchase.md)
 #### VAT einrichten
 ##### [Mehrwertsteuer einrichten](finance-setup-vat.md)
 ##### [Einrichtung der Buchungsgruppe](finance-posting-groups.md#tax-posting-groups)
@@ -1994,13 +1995,13 @@
 #### [Designdetails: Tabellenstruktur](design-details-table-structure.md)
 <!--migrate to BC online-->
 ## Zu Business Central Online migrieren
-### [Migrieren von lokalen Daten](/dynamics365/business-central/dev-itpro/administration/migrate-data?toc=/dynamics365/business-central/toc.json)
-### [Cloudmigrationstool ausführen](/dynamics365/business-central/dev-itpro/administration/migration-tool?toc=/dynamics365/business-central/toc.json)
-### [Migration in die Cloud verwalten](/dynamics365/business-central/dev-itpro/administration/migration-management?toc=/dynamics365/business-central/toc.json)
+### [Einführung](/dynamics365/business-central/dev-itpro/administration/migrate-data?toc=/dynamics365/business-central/toc.json)
+<!--### [Running the Cloud Migration Tool](/dynamics365/business-central/dev-itpro/administration/migration-tool?toc=/dynamics365/business-central/toc.json)-->
+### [Migration in die Cloud verwalten](/dynamics365/business-central/dev-itpro/administration/migration-manage?toc=/dynamics365/business-central/toc.json)
 ### [Business Central lokal migrieren](/dynamics365/business-central/dev-itpro/administration/migrate-business-central-on-premises?toc=/dynamics365/business-central/toc.json)
 ### [Migration von Dynamics GP](/dynamics365/business-central/dev-itpro/administration/migrate-dynamics-gp?toc=/dynamics365/business-central/toc.json)
-### [Migration von Dynamics NAV](/dynamics365/business-central/dev-itpro/upgrade/Upgrade-Considerations#online?toc=/dynamics365/business-central/toc.json)
-### [FAQ zur Migration in die Cloud](/dynamics365/business-central/dev-itpro/administration/faq-intelligent-cloud?toc=/dynamics365/business-central/toc.json)
+<!--### [Migrating from Dynamics NAV](/dynamics365/business-central/dev-itpro/upgrade/Upgrade-Considerations#online?toc=/dynamics365/business-central/toc.json)-->
+### [FAQ zur Migration in die Cloud](/dynamics365/business-central/dev-itpro/administration/faq-migrate-data?toc=/dynamics365/business-central/toc.json)
 ## [Verwaltung von Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration?toc=/dynamics365/business-central/toc.json)
 ## [Entwicklung](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview?toc=/dynamics365/business-central/toc.json)
 ## [Sicherheit und Schutz](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)

@@ -11,7 +11,8 @@ ms.search.form: '170, 172, 300, 301, 428, 456, 459, 1401'
 ms.date: 06/23/2021
 ms.author: edupont
 ---
-# <a name="setting-up-sales"></a>Einrichten von Verkäufen
+# Einrichten von Verkäufen
+
 Bevor Sie Verkaufsprozesse verwalten können, müssen die Regeln und Werte konfiguriert werden, die die Vertriebsrichtlinien des Mandanten definieren.
 
 Auf der Seite **Verkauf & Forderungen** müssen Sie die allgemeine Einrichtung festlegen, z.B. welche Verkaufsbelege erforderlich sind, wie deren Werte gebucht werden und welche Art von Zeilen standardmäßig erstellt werden sollen. Diese allgemeine Einrichtung erfolgt in der Regel einmal bei der anfänglichen Implementierung.
@@ -32,10 +33,11 @@ Einrichten von finanzbezogenen Verkäufen wie Zahlungsformen und Währungen werd
 |Definieren Sie die verschiedenen Incoterms, die Sie Debitoren oder Ihren Kreditoren anbieten.|[Lieferbedingungen einrichten](sales-how-set-up-shipment-methods.md)|
 |Geben Sie Informationen über die verschiedenen eingesetzten Transportkreditoren ein, einschließlich einer Verknüpfung zu ihrem Paketverfolgungsservice.|[Zusteller einrichten](sales-how-to-set-up-shipping-agents.md)|
 |Geben Sie Standardberichte an, die für verschiedene Dokumenttypen verwendet werden sollen.|[Berichtsauswahl in Business Central](across-report-selections.md)|
+|Geben Sie an, ob Benutzer Verkaufsrechnungen buchen dürfen und ob sie diese zusammen mit einer Lieferung buchen müssen. |[Rechnungsbuchungsrichtlinie für Benutzer definieren](admin-setup-invoice-posting-policy.md)|
 
-## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/paths/trade-get-started-dynamics-365-business-central/)
+## Siehe verwandte [Microsoft Schulungen](/training/paths/trade-get-started-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 [Verkauf](sales-manage-sales.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

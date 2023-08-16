@@ -5,7 +5,7 @@ author: edupont04
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: 'SMTP, mail, Microsoft 365, cover, body, PayPal, layout'
-ms.search.form: null
+ms.search.form: '41,'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
@@ -13,7 +13,7 @@ ms.author: edupont
 
 Sie können Informationen und Belege, wie z.B. Bestellungen, Verkaufsaufträge und Rechnungen, ganz einfach per E-Mail direkt von [!INCLUDE[prod_short](includes/prod_short.md)] aus weitergeben, ohne eine E-Mail App öffnen zu müssen.  
 
-Sie können fast alle Arten von Dokumenten als PDF-Anhänge senden. Alternativ können Sie ein Berichtslayout einrichten, das Informationen aus dem Dokument im E-Mail-Text sowie Text enthält, der die E-Mail benutzerfreundlicher macht, z. B. eine Standardbegrüßung. Weitere Informationen finden Sie unter [Berichte- und Dokumentenlayouts verwalten](ui-manage-report-layouts.md). <!--this topic does not mention how to set up a layout for email. Need to investigate.-->
+Sie können fast alle Arten von Dokumenten als PDF-Anhänge senden. Alternativ können Sie ein Berichtslayout einrichten, das Informationen aus dem Dokument im E-Mail-Text sowie Text enthält, der die E-Mail benutzerfreundlicher macht, z. B. eine Standardbegrüßung. Weitere Informationen finden Sie unter [Berichte- und Dokumentenlayouts verwalten](ui-manage-report-layouts.md).
 
 Wenn Sie Rechnungen senden, können Sie Kunden das Bezahlen über einen Zahlungsdienst wie PayPal erleichtern, indem Sie automatisch Informationen und einen Link zum Dienst in die E-Mail einfügen. Weitere Informationen finden Sie unter [Aktivieren Sie Zahlungen durch Zahlungsverkehr](sales-how-enable-payment-service-extensions.md)
 
@@ -24,12 +24,12 @@ Um E-Mails aus [!INCLUDE[prod_short](includes/prod_short.md)] zu aktivieren star
 
 ## Senden von Belegen über E-Mail
 
-In diesem Verfahren wird beschrieben, wie Sie eine gebuchte Verkaufsrechnung als PDF-Datei und mit dokumentenspezifischem E-Mail-Text an eine E-Mail anhängen. <!--update this-->
+In diesem Verfahren wird beschrieben, wie Sie eine gebuchte Verkaufsrechnung als PDF-Datei und mit dokumentenspezifischem E-Mail-Text an eine E-Mail anhängen. Die Schritte sind für die anderen unterstützten Dokumente gleich.
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol, geben Sie **Gebuchte Verkaufsrechnungen** ein und wählen Sie dann den entsprechenden Link.
-2. Markieren Sie die Rechnung, wählen Sie die Aktion **Drucken/Senden**, und wählen Sie dann **Senden**.
-3. Wählen Sie dann im Feld **E-Mail** **Ja (Aufforderung für Einstellung)** aus. Weitere Informationen finden Sie unter [Einrichten von Sendeprofilen](sales-how-setup-document-send-profiles.md).
-    
+1. Wählen Sie das Symbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol, geben Sie **Gebuchte Verkaufsrechnungen** ein und wählen Sie dann den entsprechenden Link.
+2. Wählen Sie die Rechnung aus, wählen Sie die Aktion **Drucken/Senden**, und wählen Sie dann **Per E-Mail senden**.
+3. Wählen Sie dann im Feld **E-Mail** **Ja (Aufforderung für Einstellung)** aus. Weitere Informationen finden Sie unter [Einrichten von Belegsendeprofilen](sales-how-setup-document-send-profiles.md).
+
     Wenn das Feld **E-Mail** auf der Seite **Dokument senden an** auf **Ja festgelegt wurde (Aufforderung für Einstellungen)**, dann wird die Seite **Senden per E-Mail** geöffnet und mit der Kontaktperson im Feld **Zu** ergänzt und das Dokument als PDF-Datei angehängt. Geben Sie im Feld **Text** entweder den Text manuell ein oder Sie können definieren, dass das Feld mit einem dokumentspezifischen E-Mail-Text ausgefüllt wird, den Sie eingerichtet haben.
 
 4. Wählen Sie die Schaltfläche **OK** aus.
@@ -38,7 +38,7 @@ In diesem Verfahren wird beschrieben, wie Sie eine gebuchte Verkaufsrechnung als
 7. Im Feld **Anhang** wird die generierte Rechnung standardmäßig als PDF\_Datei angehängt.
 8. Geben Sie im **Nachrichtentext**-Feld eine kurze Mitteilung an den Empfänger ein.
 
-    Wenn ein belegspezifischer E-Mail-Text auf der Seite **Berichts-Auswahl, Verkauf** eingerichtet wird, wird das Feld **Text** automatisch ausgefüllt. Weitere Informationen finden Sie unter [Wiederverwendbare E-Mail-Texte und -Layouts einrichten](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts).
+    Wenn ein belegspezifischer E-Mail-Text auf der Seite **Berichtsauswahl – Verkauf** eingerichtet wird, wird das Feld **Text** automatisch ausgefüllt. Weitere Informationen finden Sie unter [Wiederverwendbare E-Mail-Texte und -Layouts einrichten](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts).
 9. Wählen Sie die Schaltfläche **OK**, um die E-Mail zu senden.
 
 > [!NOTE]  
@@ -51,7 +51,17 @@ Sie können E-Mails für Kontakte, Kunden, Lieferanten, Verkäufer/Einkäufer un
 > [!TIP]
 > Wenn Sie häufig Nachrichten versenden, die sich ähneln, oder wenn Sie eine Massenkommunikation versenden möchten, z.B. um eine Verkaufskampagne zu bewerben, kann die Verwendung von Word-Vorlagen mit E-Mail den Prozess beschleunigen. Sie können eine Vorlage für Entitäten wie Kunden, Kreditor und Kontakte erstellen, die den Inhalt einer E-Mail-Nachricht für Sie generiert und sogar den Inhalt für den Empfänger anhand der Daten in [!INCLUDE[prod_short](includes/prod_short.md)] personalisiert. Weitere Informationen finden Sie unter [Word-Vorlagen für Massenkommunikation verwenden](ui-mail-merge.md).  
 
+### Einen Beleg einer E-Mail anfügen
+
+Es gibt verschiedene Möglichkeiten, Belege an E-Mails anzuhängen.
+
 Wenn Sie einem E-Mail-Szenario zugewiesen sind, das sich auf die Entität bezieht, an die Sie die E-Mail senden, oder auf das Dokument, das Sie senden, wird Ihrer Nachricht möglicherweise automatisch ein Anhang hinzugefügt. Das liegt daran, dass dem E-Mail-Szenario ein Standardanhang zugewiesen wurde. Sie können den Anhang löschen, wenn Sie ihn nicht mit Ihrer Nachricht senden möchten. Weitere Informationen finden Sie unter [Weisen Sie E-Mail-Konten E-Mail-Szenarien zu](admin-how-setup-email.md#assign-email-scenarios-to-email-accounts). 
+
+Um selbst eine Datei anzuhängen, verwenden Sie im E-Mail-Editor die folgenden Aktionen:
+
+* Wählen Sie **Datei hinzufügen** aus, um eine Datei auszuwählen.
+* Wählen Sie **Dateien aus Standardauswahl hinzufügen** aus, um manuell eine Datei hinzuzufügen, die mit dem E-Mail-Szenario verknüpft ist.
+* Wählen Sie **Datei aus Quellbeleg hinzufügen** aus, um eine Datei auszuwählen, die an den Beleg angehängt ist, mit dem Sie arbeiten. Die Dateien werden entweder an den Beleg selbst oder an eine oder mehrere seiner Zeilen angehängt.
 
 ## Belege, die beim Senden als gedruckt markiert sind
 
