@@ -9,13 +9,13 @@ ms.date: 03/16/2023
 ms.custom: bap-template
 ---
 
-# Erste Schritte mit einer Business Central-Vorschauversion für Copilot
+# <a name="get-started-with-a-business-central-preview-version-for-copilot"></a>Erste Schritte mit einer Business Central-Vorschauversion für Copilot
 
 [!INCLUDE[ai-preview](includes/ai-preview.md)]
 
 Sie können die KI-gestützten Artikelmarketingtexte mit Copilot ausprobieren, unabhängig davon, ob Sie bereits Business Central-Kunde oder ein potenzieller Kunde sind, also jemand, der nur daran interessiert ist, Business Central kennenzulernen und die neue Funktion auszuprobieren. Um loszulegen, benötigen Sie Zugriff auf eine Vorschauversion von Business Central Online, die die neue Funktion unterstützt. Füllen Sie den auf Sie zutreffenden Abschnitt unten aus.
 
-## Ihre Organisation verwendet Business Central bereits
+## <a name="your-organization-already-uses-business-central"></a>Ihre Organisation verwendet Business Central bereits
 
 Als bestehender Kunde oder Partner benötigen Sie einen Administrator mit Zugriff auf das Business Central Admin Center, um eine Umgebung einzurichten, die die Vorschauversion mit Copilot ausführt. Sobald die Umgebung eingerichtet ist und läuft, können Benutzende die neue Funktion ausprobieren.
 
@@ -39,7 +39,7 @@ Weitere Informationen zum Erstellen von Umgebungen finden Sie unter [Umgebung er
 > [!IMPORTANT]
 > Wenn Sie Vorschau-Sandboxen haben, die auf **22.0.54157.54311 (Vorschauversion – Copilot-Edition)** ausgeführt werden, beachten Sie, dass diese Umgebungen nur bis zum 1. Mai 2023 verfügbar sind. Nach diesem Datum müssen Sie eine neue Umgebung bereitstellen oder eine Ihrer anderen Umgebungen auf Version 22.0 oder höher aktualisieren, um die Vorschauversion von KI-gestützten Marketingtexten von Artikeln weiterhin auszuprobieren.
 
-## Ihre Organisation verwendet Business Central nicht
+## <a name="your-organization-doesnt-use-business-central"></a>Ihre Organisation verwendet Business Central nicht
 
 Wenn Sie Business Central noch nicht verwenden, melden Sie sich für eine kostenlose Testversion an, um die neuen KI-Funktionen auszuprobieren. Die Anmeldung für die Testversion ist ganz einfach. Sie werden durch einige Schritte geführt, in denen Sie einige Informationen wie Ihre E-Mail-Adresse, Telefonnummer und Ihren Namen angeben müssen. Gehen Sie wie folgt vor, um eine Testversion zu erhalten:
 
@@ -95,7 +95,7 @@ Wenn Sie Business Central noch nicht verwenden, melden Sie sich für eine kosten
    > [!TIP]
    > Wenn Sie **Ihre Checkliste** nicht sehen, wählen Sie zuerst die Schaltfläche **Demotouren anzeigen** aus.
 
-## Nächste Schritte
+## <a name="next-steps"></a>Nächste Schritte
 
 Die von Copilot bereitgestellten KI-Funktionen müssen aktiviert werden, bevor Sie oder andere Copilot verwenden können. Um die KI-Funktionen zu aktivieren, muss ein Administrator den Nutzungsbedingungen der [Vorschauversion](https://dynamics.microsoft.com/legaldocs/supp-dynamics365-preview/) und den [Microsoft-Datenschutzbestimmungen](https://go.microsoft.com/fwlink/?LinkId=521839) im Namen der Organisation zustimmen.
 
@@ -108,7 +108,7 @@ Es gibt zwei Möglichkeiten, als Administrator zuzustimmen:
 
 - Der andere Weg ist die Verwendung der Seite **Status der Datenschutzhinweise** in Business Central. Stimmen Sie dort der **Azure OpenAI**- Integration für alle Benutzende zu. Um mehr zu erfahren, gehen Sie zu [Den Nutzungsbedingungen zustimmen](enable-ai.md#consent-to-or-reject-preview-and-privacy-terms-and-conditions-for-all-users).
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Überblick über KI-gestützte Marketingtexte für Artikel mit Copilot](ai-overview.md)  
 [KI-gestützten Marketingtext für Artikel mit Copilot als Administrator konfigurieren](enable-ai.md)  

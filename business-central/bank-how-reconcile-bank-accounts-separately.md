@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.date: 12/13/2022
 ms.custom: bap-template
 ---
-# Bankkonten abstimmen
+# <a name="reconcile-bank-accounts"></a>Bankkonten abstimmen
 
 Mit dem Bankabgleich können Sie sicherstellen, dass die Angaben in Ihren Büchern mit den Auszügen übereinstimmen, die Sie von Ihrer Bank erhalten. Die Bankkontoabstimmung vergleicht und gleicht die Buchungen auf den Bankkonten, die Sie unter [!INCLUDE[prod_short](includes/prod_short.md)] festgelegt haben, mit den Transaktionen bei Ihrer Bank ab. Der Abgleich kann dann die Salden auf Ihre Bankkonten in [!INCLUDE[prod_short](includes/prod_short.md)] buchen, um sie den Finanzmanagern zur Verfügung zu stellen. Der Bankabgleich ist auch eine praktische Methode, um fehlende Zahlungen und Buchhaltungsfehler zu ermitteln und zu beheben.
 
@@ -49,7 +49,7 @@ Sie können den Bereich **Bankauszugspositionen** auf der Seite **Bankkontoabsti
 * Automatisch durch Verwendung der Funktion **Bankauszug importieren**, um den Bereich **Bankauszugszeile** mit Banktransaktionen entsprechend einer importierten Datei oder eines von der Bank bereitgestellten Streams auszufüllen.
 * Manuell durch Verwendung der Funktion **Zeilen vorschlagen**, um den Bereich **Bankauszugszeilen** entsprechend zu Rechnungen in [!INCLUDE[prod_short](includes/prod_short.md)] mit ausstehenden Zahlungen auszufüllen.
 
-## So fügen Sie Bankauszugspositionen durch den Import eines Bankauszugs hinzu
+## <a name="to-add-bank-statement-lines-by-importing-a-bank-statement"></a>So fügen Sie Bankauszugspositionen durch den Import eines Bankauszugs hinzu
 
 Der Bereich **Kontoauszugszeilen** wird entsprechend einer importierten Datei oder eines von der Bank bereitgestellten Streams mit Banktransaktionen gefüllt.
 
@@ -66,7 +66,7 @@ Um Bankauszüge als Bankfeeds zu importieren, müssen Sie den Envestnet Yodlee B
 6. Wenn Sie eine Bankauszugsdatei haben, wählen Sie die Aktion **Bankauszug importieren**.
 7. Suchen Sie die Datei und wählen Sie dann **Öffnen**, um die Banktransaktionen in den Beriech **Bankauszugszeilen** auf der Seite **Bankkontoabstimmung** zu importieren.
 
-## So füllen Sie Bankabstimmungspositionen mit der Aktion „Zeilen vorschlagen“ aus.
+## <a name="to-fill-in-bank-reconciliation-lines-with-the-suggest-lines-action"></a>So füllen Sie Bankabstimmungspositionen mit der Aktion „Zeilen vorschlagen“ aus.
 
 Der Beriech **Kontoauszugszeilen** wird entsprechend den Rechnungen in [!INCLUDE[prod_short](includes/prod_short.md)], die ausstehende Zahlungen aufweisen, gefüllt.  
 
@@ -80,7 +80,7 @@ Der Beriech **Kontoauszugszeilen** wird entsprechend den Rechnungen in [!INCLUDE
 4. Wenn Sie nicht möchten, dass die Sachkonto-Einträge nicht zugeordnete offene Stornobuchungen enthalten, wählen Sie die Option **Stornobuchungen ausschließen**. Standardmäßig enthält die Liste der Sachkonto-Buchungen stornierte Buchungen bis zum Datum des Kontoauszugs.
 5. Wählen Sie die Schaltfläche **OK**.
 
-## So gleichen Sie Bankkontoauszugszeilen mit Bankposten automatisch ab
+## <a name="to-match-bank-statement-lines-with-bank-account-ledger-entries-automatically"></a>So gleichen Sie Bankkontoauszugszeilen mit Bankposten automatisch ab
 
 Die Seite **Bankkontoabstimmung** bietet automatisch Zuordnungsfunktionen auf Grundlage einer Zuordnung des Textes in einer Bankkontoauszugszeile (linker Bereich) zu Text auf einer oder mehreren offenen Posten (rechter Bereich). Sie können den vorgeschlagenen automatischen Abgleich überschreiben und Sie können den automatischen Abgleich auch ganz abschalten. Weitere Informationen finden Sie unter [So gleichen Sie manuell Bankauszugspositionen mit Bankposten ab](bank-how-reconcile-bank-accounts-separately.md#to-match-bank-statement-lines-with-bank-account-ledger-entries-manually).
 
@@ -98,7 +98,7 @@ Mit der Aktion **Details abgleichen** können Sie die Grundlage für den Abgleic
 > [!TIP]
 > Sie können eine Mischung aus manuellem und automatischem Abgleich verwenden. Wenn Sie Einträge manuell abgeglichen haben, wird der automatische Abgleich Ihre Auswahl nicht überschreiben.
 
-## So gleichen Sie manuell Bankauszugspositionen mit Bankposten ab
+## <a name="to-match-bank-statement-lines-with-bank-account-ledger-entries-manually"></a>So gleichen Sie manuell Bankauszugspositionen mit Bankposten ab
 
 > [!TIP]
 > Beim manuellen Abgleich von Zeilen und Buchungen können Sie sich mit den Aktionen **Alle anzeigen**, **Stornierte Buchungen anzeigen**, **Stornierte Buchungen ausblenden** und **Nicht übereinstimmende Buchungen anzeigen** leichter einen Überblick verschaffen. Standardmäßig enthalten die Sachkonto-Einträge keine nicht übereinstimmenden stornierten Einträge. Um diese Einträge in die Liste aufzunehmen und sie manuell abzugleichen, wählen Sie die Aktion **Stornierte Einträge anzeigen**. Wenn Sie stornierte Einträge ausblenden möchten, nachdem Sie eine oder mehrere Übereinstimmungen vorgenommen haben, werden die übereinstimmenden Einträge weiterhin angezeigt.
@@ -123,7 +123,7 @@ Mit der Aktion **Details abgleichen** können Sie die Grundlage für den Abgleic
 > [!TIP]
 > Um eine Übereinstimmung zu entfernen, wählen Sie die Bankkontoauszugszeile, und dann die Aktion **Übereinstimmung entfernen**. Wenn Sie mehrere Zeilen des Bankauszugs einem Posten zugeordnet haben und eine oder mehrere der zugeordneten Zeilen entfernen müssen, werden alle manuellen Zuordnungen für den Posten entfernt, wenn Sie **Zuordnung entfernen** wählen.
 
-## Zur Validierung Ihrer Bankabstimmung
+## <a name="to-validate-your-bank-reconciliation"></a>Zur Validierung Ihrer Bankabstimmung
 
 Um Ihre Bankkontoabstimmung vor der Buchung noch einmal zu überprüfen, verwenden Sie die Aktion **Testbericht**, um die Abstimmung in der Vorschau zu sehen. Der Bericht ist in den folgenden Kontexten verfügbar:
 
@@ -166,7 +166,7 @@ In der folgenden Tabelle werden Felder im Testbericht beschrieben, die Ihnen bei
 >
 > Sie können den Wert zum Vergleich mit Ihrem Kontoauszug verwenden.
 
-## So erstellen Sie fehlende Sachkontoeinträge, die mit den Zeilen des Bankauszugs übereinstimmen
+## <a name="to-create-missing-ledger-entries-to-match-bank-statement-lines"></a>So erstellen Sie fehlende Sachkontoeinträge, die mit den Zeilen des Bankauszugs übereinstimmen
 
 Manchmal enthält der Bankauszug Beträge für berechnete Zinsen oder Gebühren. Solche Bankauszugszeilen können nicht abgeglichen werden, weil es in [!INCLUDE[prod_short](includes/prod_short.md)] keine entsprechenden Ledgerbuchungen gibt. In diesem Fall müssen Sie eine Buch.-Blattzeile für jede Transaktion buchen, um einen entsprechenden Posten zu erstellen, mit dem abgeglichen werden kann.
 
@@ -182,7 +182,7 @@ Manchmal enthält der Bankauszug Beträge für berechnete Zinsen oder Gebühren.
 6. Aktualisieren oder öffnen Sie erneut die Seite **Bankkontoabstimmung**. Der neue Posten erscheint im Bereich **Bankposten**.
 7. Vergleichen Sie die Bankkontoauszugszeile mit dem Bankposten, entweder manuell oder automatisch.
 
-## Ausstehende Transaktionen in vorherigen Perioden suchen
+## <a name="find-outstanding-transactions-in-previous-periods"></a>Ausstehende Transaktionen in vorherigen Perioden suchen
 
 Sie können den Bericht Bankauszug verwenden, um ausstehende Transaktionen in früheren Perioden zu finden. Ausstehende Transaktionen wurden vor dem Datum des Kontoauszugs eröffnet und noch nicht abgeschlossen oder wurden abgeschlossen, nachdem der Bankabgleich gebucht wurde.
 
@@ -194,22 +194,22 @@ Im September erhalten wir eine Zahlung für Buchung B und beschließen, unser Ba
 
 Wenn wir den Bericht für August ausdrucken, haben wir ausstehende Transaktionen für unsere Buchungen B und C, obwohl wir Buchung B im September abgeschlossen haben.
 
-## Bankkontoabstimmung rückgängig machen
+## <a name="undo-a-bank-account-reconciliation"></a>Bankkontoabstimmung rückgängig machen
 
 Wenn Sie einen Fehler in einer gebuchten Bankabstimmung feststellen, können Sie ihn mit der Aktion **Rückgängig machen** auf der Seite **Bankkonto Auszugsübersicht** korrigieren. Wenn Sie eine gebuchte Bankabstimmung rückgängig machen, werden die Einträge auf die Seite **Bankabstimmung** verschoben und als **Offen** markiert, was bedeutet, dass sie nicht abgestimmt sind. Sie können dann die Bankabstimmung korrigieren und erneut buchen.
 
 > [!NOTE]
 > In der nordamerikanischen Version müssen Sie die Funktion gebuchte Bankabstimmungen und Kontoauszüge rückgängig machen auf der Seite **Bankabstimmung mit automatischem Abgleich** auf der Seite **Finanzbuchhaltung Einrichtung** umschalten. Die Funktion Rückgängig ist nicht verfügbar für Kontoauszüge, die aus Arbeitsblättern zur Bankabstimmung gebucht wurden.
 
-### Wiederverwendung der Kontoauszugsnummer
+### <a name="reusing-the-bank-statement-number"></a>Wiederverwendung der Kontoauszugsnummer
 
 Die für die neue Bankabstimmung verwendete Kontoauszugsnummer wird ebenso wie der letzte Kontoauszug vom Bankkonto abgebucht. Sie können diese Werte ändern, bevor Sie eine neue Bankabstimmung starten. Wenn Sie jedoch eine neue Bankabstimmung erstellen, prüft [!INCLUDE[d365fin](includes/d365fin_md.md)], ob die Kontoauszugsnummer bereits einem gebuchten Kontoauszug zugeordnet ist. Wenn die Nummer verwendet wird, Sie aber möchten, dass der neue Kontoauszug diese stattdessen verwendet, können Sie die **Auszugsnummer ändern** Aktion auf der Seite **Bankkontoabstimmung** verwenden.
 
-### Beispiele
+### <a name="examples"></a>Beispiele
 
 Die folgenden Beispiele zeigen, wie Sie einen Fehler in einer gebuchten Bankabstimmung korrigieren, mit oder ohne Verwendung derselben Auszugsnummer.
 
-#### Beispiel 1
+#### <a name="example-1"></a>Beispiel 1
 
 Sie haben Bankabstimmungen für Januar, Februar und März durchgeführt. Die Bankauszugsnummer war für März 100. Später stellen Sie fest, dass der März nur Einträge bis zum 30. März enthielt, was bedeutet, dass Einträge für den 31. März fehlen. Sie müssen also die Bankabstimmung für März wiederholen. In diesem Fall öffnen wir die Seite **Bankkonto-Auszug**, wählen den Auszug für März, und wählen dann **Rückgängig machen**. 
 
@@ -218,7 +218,7 @@ Die neue Bankabstimmung erhält die Kontoauszugsnummer 101. Um die Nummer 100 ne
 > [!TIP]
 > Denken Sie daran, das entsprechende Enddatum des Auszugs festzulegen (in diesem Beispiel den 31. März) und das Feld **Letzten Auszug ausgleichen** zu bearbeiten. 
 
-#### Beispiel 2
+#### <a name="example-2"></a>Beispiel 2
 
 Sie haben Bankabstimmungen für Januar, Februar, Juni und Juli durchgeführt. Sie stellen fest, dass der Februar falsch war. Nehmen wir an, er hatte die Auszugsnnummer 100. Wie in Beispiel 1 verwenden Sie die Funktionen Rückgängig und Auszugsnummer ändern. zum Ändern der Kontoauszugsnummer wie in Beispiel 1 oben. Sie können jetzt die Bankabstimmung für den Februar wiederholen.  
 
@@ -233,15 +233,15 @@ Wenn Sie die nächste Bankabstimmung für August durchführen, sollten Sie die W
 >
 > Der letzte Saldokontoauszug wird auf dem Bankkonto gespeichert, um Fehler bei Bankabstimmungen zu minimieren. Er kann jedoch auch bearbeitet werden, sodass Sie Ihre Bankabstimmungen in beliebiger Reihenfolge durchführen können. Dies bedeutet auch, dass beim Rückgängigmachen eines Bankauszugs der neue Endsaldo möglicherweise nicht der letzte Saldoauszug auf dem nächsten Bankauszug ist. Es gibt keine Funktion, mit der Sie einen Saldo auf alle nachfolgenden Bankauszüge übertragen können. Beachten Sie dies, wenn Sie Rückgängig verwenden.  
 
-## Vermeiden Sie Direktbuchungen
+## <a name="avoid-direct-posting"></a>Vermeiden Sie Direktbuchungen
 
 Verwenden Sie in Ihrer Buchungsgruppe für Bankkonten kein Sachkonto, das direkte Buchungen zulässt. Durch die Direktbuchung wird die Verbindung zwischen der Sachkonto-Buchung und der Sachkonto-Buchung unterbrochen. Wenn Sie Ihr Bankkonto abstimmen, werden die direkt auf das Sachkonto gebuchten Buchungen nicht berücksichtigt und es wird schwierig sein, die Abstimmung abzuschließen.
 
 Dieser Fehler passiert häufig bei der Eingabe eines Eröffnungssaldos für ein Bankkonto. Es ist wichtig, dass Sie den Eröffnungssaldo nicht direkt in das Hauptbuch buchen. Buchungen im Sachkonto, die direkt auf das Sachkonto gebucht werden, verursachen Probleme. Diese Buchungen können zum Beispiel verhindern, dass Sie Ihr Bankkonto abstimmen können. Bei Bankkonten in Fremdwährung können die Einträge dazu führen, dass sich Differenzen ansammeln, nachdem Sie weitere Bankabstimmungen aufgrund von Anpassungen der Wechselkurse gebucht haben. Häufig wird der Anfangsbestand der Bank direkt auf das Bankkonto gebucht, und der Betrag landet dann auf dem Sachkonto. Alternativ können Sie eine Stornierung für ein Sachkonto durchführen, das Sie zum Ausgleich des Anfangssaldos des Sachpostens verwenden. In beiden Fällen müssen Sie alle Direktbuchungen auf das Sachkonto ausgleichen, bevor Sie mit der ersten Bankabstimmung beginnen, vor allem, wenn das Bankkonto auf eine Fremdwährung lautet.
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/bank-reconciliation-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/bank-reconciliation-dynamics-365-business-central/index)
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Abstimmen von Bankkonten](bank-manage-bank-accounts.md)  
 [Zahlungen automatisch vornehmen und Bankkonten abstimmen](receivables-apply-payments-auto-reconcile-bank-accounts.md)  

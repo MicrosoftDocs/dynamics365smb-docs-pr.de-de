@@ -11,30 +11,30 @@ ms.search.form: '431, 432, 436, 478'
 ms.date: 02/09/2022
 ms.author: edupont
 ---
-# Einrichten von Mahnmethoden, Bestimmungen und Mahntext
+# <a name="set-up-reminder-terms-and-levels"></a>Einrichten von Mahnmethoden, Bestimmungen und Mahntext
 
 Mithilfe von Mahnungen können Debitoren auf überfällige Beträge aufmerksam gemacht werden. [!INCLUDE [reminder-terms](includes/reminder-terms.md)]
 
-## Mahnbestimmungen
+## <a name="reminder-terms"></a>Mahnbestimmungen
 
 Bei Debitoren mit überfälligen Zahlungen muss entschieden werden, wann und auf welche Weise eine Mahnung gesendet wird. Darüber hinaus können ggf. Gebühren oder Zinsen erhoben werden. Sie können eine beliebige Anzahl an Lieferanmahnungsmethoden einrichten.  
 
 > [!NOTE]
 > Wenn Sie Zinsen auf überfällige Zahlungen berechnen möchten, können Sie das auch bei der Mahnungserstellung. Möchten Sie die Zinsen dagegen nur berechnen und Ihre Debitoren darüber in Kenntnis setzen, ohne eine Mahnung zu senden, sollten Sie [Zinsrechnungen](finance-setup-finance-charges.md) verwenden. Weitere Informationen finden Sie unter [Erinnerungen](receivables-collect-outstanding-balances.md#reminders) oder [Finanzierungskosten](receivables-collect-outstanding-balances.md#finance-charges).
 
-### So richten Sie Mahnmethoden ein:
+### <a name="to-set-up-reminder-terms"></a>So richten Sie Mahnmethoden ein:
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun") Symbol. Geben Sie **Mahnmethoden** ein und wählen Sie dann den zugehörigen Link.  
 2. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 3. Um mehr als eine Kombination von Mahnmethoden zu verwenden, richten Sie einen Code für jede ein.
 
-## Mahnstufen
+## <a name="reminder-levels"></a>Mahnstufen
 
 Für jeden Lieferanmahnungsmethodencode können beliebig viele Lieferanmahnungsstufen definiert werden. Bei der ersten Erstellung einer Mahnung für einen Debitor werden die Einstellungen der Stufe 1 verwendet. Beim Registrieren der Mahnung wird die Stufennummer in den erstellten Mahnposten erfasst und mit den jeweiligen Debitorenposten verknüpft. Ist eine erneute Mahnung erforderlich, werden alle Mahnposten überprüft, die mit offenen Debitorenposten verknüpft sind, um die höchste Stufennummer zu ermitteln. In der neuen Mahnung werden dann die Bedingungen für die nächsthöhere Stufennummer verwendet.
 
 Werden mehr Mahnungen erstellt als definierte Stufen vorhanden sind, werden die Bedingungen der höchsten Stufe verwendet. Die Anzahl der erstellbaren Mahnungen wird in den Mahnmethoden durch das Feld **Max. Anzahl Mahnungen** begrenzt.
 
-### So richten Sie Mahnstufen ein:
+### <a name="to-set-up-reminder-levels"></a>So richten Sie Mahnstufen ein:
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun") Symbol. Geben Sie **Mahnmethoden** ein und wählen Sie dann den zugehörigen Link.  
 2. Klicken Sie auf der Seite **Mahnmethoden** in die Zeile mit der Methode, für die Sie Stufen anlegen möchten, und wählen Sie dann die Aktion **Stufen**.  
@@ -92,9 +92,9 @@ Werden mehr Mahnungen erstellt als definierte Stufen vorhanden sind, werden die 
 
 Geben Sie nach der Einrichtung der Mahnmethoden (mit zusätzlichen Stufen und Text) auf jeder Debitorenkarte einen der Codes ein. Weitere Informationen finden Sie unter [Neue Debitoren registrieren](sales-how-register-new-customers.md).  
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/send-reminders-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/send-reminders-dynamics-365-business-central/)
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Einziehen von Restbeträgen](receivables-collect-outstanding-balances.md)  
 [Mahnungen für ausstehende Salden versenden](receivables-send-reminders.md)  

@@ -11,12 +11,12 @@ ms.search.form: '11002, 11003, 11004, 11007, 11008, 11009, 11014, 11026, 11027'
 ms.date: 06/18/2021
 ms.author: edupont
 ---
-# Datenexport für eine digitale Betriebsprüfung in der deutschen Version
+# <a name="export-data-for-a-digital-audit-in-the-german-version"></a>Datenexport für eine digitale Betriebsprüfung in der deutschen Version
 Sie können Finanz- und Steuerdaten exportieren entsprechend dem Prozess für Datenzugriff und Testbarkeit von digitalen Dokumenten (GDPdU), der auf deutschen Steuergesetzen basiert. Zudem können verschiedene Optionen in eine XML-Datei eingeschlossen werden.  
 
 Falls es keine Daten zum Exportieren gibt, erstellt [!INCLUDE[prod_short](../../includes/prod_short.md)] leere Dateien.  
 
-### Wie Sie Daten für eine Digital-Überwachung exportieren
+### <a name="to-export-data-for-a-digital-audit"></a>Wie Sie Daten für eine Digital-Überwachung exportieren
 
 1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](../../media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Geschäftsdaten exportieren** ein, und wählen Sie dann den entsprechenden Link.  
 
@@ -37,7 +37,7 @@ Falls es keine Daten zum Exportieren gibt, erstellt [!INCLUDE[prod_short](../../
 
  Sie werden informiert, wenn der Export abgeschlossen ist. Wenn Sie den Export abbrechen oder die Seite schließen, werden Sie informiert, dass der Export abgeschlossen ist, aber der Protokollordner bleibt leer. Abhängig von Ihrer Konfiguration, wurden eventuell einige Dateien exportiert, aber der Export ist möglicherweise noch nicht abgeschlossen.  
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Prozess für Digital-Überwachung (GoBD/GDPdU)](process-for-digital-audits.md)
 

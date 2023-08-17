@@ -8,15 +8,15 @@ author: edupont04
 ms.author: andreipa
 ---
 
-# Exemplarische Vorgehensweise: Auftragsplanung zum Erstellen und Reservieren von Lieferungen verwenden
+# <a name="walkthrough-use-order-planning-to-create-and-reserve-supply"></a>Exemplarische Vorgehensweise: Auftragsplanung zum Erstellen und Reservieren von Lieferungen verwenden
 
 In diesem Artikel führen wir Sie durch die Schritte zur Verwendung der Demodaten von Contoso Coffee für Auftragsplanung.
 
-## Szenario
+## <a name="scenario"></a>Szenario
 
 Sie sind der Produktionsplaner bei Contoso Coffee. Sie haben einen Produktionsauftrag für 100 Einheiten des Artikels **SP-SCM1009, Airpot** erstellt, und Sie möchten Unterbaugruppen für diesen Auftrag planen. Mit der Auftragsplanung legen Sie den erforderlichen Fertigungsauftrag für die Versorgung an. Da Sie den Produktionsauftrag erstellen, um die Anforderungen eines bestimmten Auftrags zu erfüllen, entscheiden Sie sich, die Ausgabe des Produktionsauftrags zu reservieren.  
 
-## Schritte
+## <a name="steps"></a>Schritte
 
 1. Erstellen Sie einen neuen freigegebenen Produktionsauftrag für 100 Einheiten des Artikels **SP-SCM1009, Airpot**.
 
@@ -59,7 +59,7 @@ Sie sind der Produktionsplaner bei Contoso Coffee. Sie haben einen Produktionsau
 
 Das war's für die Auftragsplanung in [!INCLUDE [prod_short](../../includes/prod_short.md)].  
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Einführung in Contoso Coffee Demo Data](../contoso-coffee-intro.md)  
 [Info zu Fertigungsaufträgen](../../production-about-production-orders.md)  
