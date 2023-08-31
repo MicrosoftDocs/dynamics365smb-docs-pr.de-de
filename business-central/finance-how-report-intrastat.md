@@ -29,7 +29,7 @@ Die Intrastat-Meldungen basieren auf den grundlegenden EU-Vorschriften, die für
 
 ## Füllen Sie im Intrastat-Bericht
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol aus, geben Sie **Intrastat Liste** ein und wählen Sie den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol aus, geben Sie **Intrastat Liste** ein und wählen Sie den entsprechenden Link.
 2. Wählen Sie die Aktion **Neu**, um einen neuen **Intrastat-Bericht** zu erstellen.
 3. Wenn Sie einige interne Informationen über den **Intrastat Bericht** eingeben müssen, tragen Sie diese Informationen in das Feld **Beschreibung** ein.
 4. Geben Sie im Feld **Statistischer Zeitraum** den Monat an, für den die Daten gemeldet werden sollen. Geben Sie den Zeitraum als vierstellige Zahl ohne Leerzeichen oder Symbole ein. Je nach Land/Region geben Sie entweder zuerst den Monat und dann das Jahr ein oder umgekehrt. Geben Sie zum Beispiel entweder *2206* oder *0622* für Juni 2022 ein.
@@ -79,7 +79,7 @@ Wenn Sie die Fehlermeldung *'Gesamtgewicht' in der Intrastat Report Zeile darf n
 
 Sie können den Intrastat-Bericht als Datei senden, je nach den Anforderungen der verschiedenen lokalen Behörden. Bevor Sie die Datei erstellen, sollten Sie den **Checklistenbericht** ausführen, um zu prüfen, ob alle Zeilen alle notwendigen und gültigen Informationen enthalten. So erstellen Sie eine Datei:
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol, geben Sie **Intrastat Liste** ein und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol, geben Sie **Intrastat Liste** ein und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie **Intrastat-Bericht**, den Sie als Datei melden möchten.
 3. Falls Sie dies noch nicht getan haben, füllen Sie den **Intrastat-Bericht** manuell aus oder wählen Sie die Aktion **Zeilen vorschlagen**.
 4. Wählen Sie die Aktion **Aus Datei erstellen** aus.
@@ -116,12 +116,31 @@ Wenn Sie mit dem **Intrastat Bericht** arbeiten, sehen Sie ein **Status** Feld i
 * *Freigegeben*: [!INCLUDE[prod_short](includes/prod_short.md)] ändert den Status automatisch auf *Freigegeben*, wenn Sie eine Datei erstellen. Von diesem Moment an können Sie Ihren **Intrastat Bericht** nicht mehr ändern. Wenn Sie etwas ändern und erneut berichten müssen, können Sie die Aktion **Wieder öffnen** verwenden, um den Intrastat-Bericht erneut zu öffnen. Sobald das Dokument wieder geöffnet ist, können Sie die Aktion **Freigeben** verwenden, um das Dokument wieder freizugeben.
 * **Gemeldet**: Gibt an, ob der Eintrag bereits an die Steuerbehörden gemeldet wurde. Dies ist kein regulärer Status, sondern ein unabhängiges Feld. Selbst wenn Sie den Intrastat-Bericht erneut öffnen würden, würde er anzeigen, dass die Datei für diesen Bericht bereits erstellt wurde.
 
+### Dreiecksgeschäft in Intrastat
+
+Beim Dreiecksgeschäft handelt es sich um den Handel zwischen drei Ländern oder Regionen, bei dem die Waren das Land des berichtenden Unternehmens umgehen. In Business Central kann dies auch durch die Funktion [Direktlieferung](sales-how-drop-shipment.md) durchgeführt werden. Um diese Option zu aktivieren, aktivieren Sie das Feld **Direktlieferung einschließen** in der **Intrastat-Berichtseinrichtung**.  
+
+Wenn Sie diese Option aktivieren, verwendet das System die folgenden Regeln, jedoch nur, wenn Sie **Direktlieferung** im **Verkaufsauftrag** gekennzeichnet haben: 
+
+| Wareneingangsformular | Lieferung an | Erwartetes Intrastat-Ergebnis |
+|----------|------------|----------------------|
+| Land gemäß den **Unternehmensdaten** | Land gemäß den **Unternehmensdaten** | Keine Intrastat-Positionen |  
+| Land gemäß den **Unternehmensdaten** | EU-Land weicht vom Land in den **Unternehmensdaten** ab | Intrastat-Versandposition | 
+| Land gemäß den **Unternehmensdaten** | Nicht-EU-Land | Keine Intrastat-Positionen |   
+| EU-Land weicht vom Land in den **Unternehmensdaten** ab | Land gemäß den **Unternehmensdaten** | Intrastat-Eingangspositionen | 
+| EU-Land weicht vom Land in den **Unternehmensdaten** ab | EU-Land weicht vom Land in den **Unternehmensdaten** ab | Keine Intrastat-Positionen |
+| EU-Land weicht vom Land in den **Unternehmensdaten** ab | Nicht-EU-Land | Keine Intrastat-Positionen | 
+| Nicht-EU-Land | Land gemäß den **Unternehmensdaten** | Keine Intrastat-Positionen |  
+| Nicht-EU-Land | EU-Land weicht vom Land in den **Unternehmensdaten** ab | Keine Intrastat-Positionen |
+| Nicht-EU-Land | Nicht-EU-Land | Keine Intrastat-Positionen |   
+
 ## Siehe die entsprechende Schulung unter [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
 
 ## Siehe auch
 
-[Intrastat-Berichte festlegen](finance-how-setup-report-intrastat.md)  
+[Intrastat-Berichte einrichten](finance-how-setup-report-intrastat.md)  
 [Finanzmanagement](finance.md)  
+[Direktlieferung](sales-how-drop-shipment.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
