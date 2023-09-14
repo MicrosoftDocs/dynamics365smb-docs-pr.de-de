@@ -1,25 +1,25 @@
 ---
 title: Intelligente Einblicke und Cloudmigration
 description: 'In Business Central Online haben Sie Zugriff auf andere Onlinedienste und erhalten intelligente Einblicke, die beispielsweise auf Azure AI basieren. Lesen Sie weiter, wenn Sie eine Migration von lokal in die Cloud in Betracht ziehen.'
-author: bmeier94
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.reviewer: edupont
+ms.reviewer: bholtorf
 ms. search.keywords: 'cloud, migrate, insights'
 ms.search.form: 4010
 ms.date: 04/12/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
 
-# <a name="intelligent-insights-in--online"></a>Intelligente Einblicke in [!INCLUDE[prod_short](includes/prod_short.md)] Online
+# Intelligente Einblicke in [!INCLUDE[prod_short](includes/prod_short.md)] Online
 
 Als Benutzer von [!INCLUDE[prod_short](includes/prod_short.md)] Online haben Sie umfassenden Zugriff auf Szenarien, die auf der Intelligenten Cloud basieren, wie KPIs, die auf maschinellem Lernen basieren oder wenn Sie Daten in Power BI anzeigen.  
 
 Wenn Sie jedoch [!INCLUDE [prod_short](includes/prod_short.md)] vor Ort verwenden, haben Sie nicht Zugriff auf dieselben Erkenntnisse. Wenn Sie von Online-Szenarien profitieren möchten, müssen Sie zu [!INCLUDE [prod_short](includes/prod_short.md)] online migrieren. Weitere Informationen finden Sie unter [Migrieren lokaler Daten zu Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) im Verwaltungsinhalt für [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-## <a name="viewing-insights-in--online"></a>Einblicke in [!INCLUDE[prod_short](includes/prod_short.md)] Online
+## Einblicke in [!INCLUDE[prod_short](includes/prod_short.md)] Online
 
 In [!INCLUDE[prod_short](includes/prod_short.md)] Online zeigt die Seite **Intelligente Cloud Insights** vier wesentliche Eckpunkte an, die für die meisten Unternehmen von Interesse sind:
 
@@ -35,7 +35,7 @@ Neben KPI-Diagrammen erhalten Sie zudem Einblicke in mögliche Problembereiche, 
 
 Die Seite stellt auch eine Verbindung mit Power BI her, sodass Sie noch mehr Einblicke erhalten. Stellen Sie optional eine Verbindung zu Azure AI her, um noch intelligentere Einblicke zu erhalten. Weitere Informationen finden Sie unter [Die Verkaufs‑ und Bestandprognosen-Erweiterung](ui-extensions-sales-forecast.md).  
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Willkommen zu Business Central](welcome.md)  
 [Cloud-Migrationserweiterungen](ui-extensions-data-replication.md)  

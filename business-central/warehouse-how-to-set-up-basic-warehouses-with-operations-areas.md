@@ -1,7 +1,7 @@
 ---
 title: Einrichten von Basislagern mit Vorgangsbereichen
 description: 'Legen Sie Lagerarbeitsbereiche fest und verwenden Sie Lagerbewegungen, Kommissionierungen und Einlagerungen, um Waren zwischen ihnen zu bewegen.'
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,9 +9,9 @@ ms.workload: na
 ms.search.keywords: null
 ms.search.form: '6774, 6775, 6776'
 ms.date: 06/25/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="set-up-basic-warehouses-with-operations-areas"></a>Basislager mit Vorgängen festlegen
+# Basislager mit Vorgängen festlegen
 
 Wenn in den Basislagerkonfigurationen interne Vorgangsbereiche wie Produktion oder Montage vorhanden sind, in denen Lagerplätze das Einrichtungsfeld **Lagerplatz notwendig** und möglicherweise die Einrichtungsfelder **Kommissionierung erforderlich** und **Einlagerung erforderlich** verwenden, können Sie die folgenden Basislagerbelege verwenden, um Ihre Lageraktivitäten für interne Vorgangsbereiche zu erfassen:  
 
@@ -35,14 +35,14 @@ Die folgenden Verfahren basieren auf dem Einrichten von grundlegenden Lageraktiv
 > [!NOTE]  
 >  Im folgenden Verfahren wird das Einrichtungsfeld **Lagerplatz notwendig** auf Lagerortkarten als Voraussetzung aktiviert, da dies als Grundlage für alle Logistikstufen gilt.  
 
-## <a name="to-enable-inventory-documents-for-internal-operation-activities"></a>Um den Inventurprozess für Aktivitäten des internen Arbeitsgangs ausführen
+## Um den Inventurprozess für Aktivitäten des internen Arbeitsgangs ausführen
 
 1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Lagerorte** ein, und wählen Sie dann den entsprechenden Link.
 2. Öffnen Sie die Lagerortkarte, die Sie einrichten möchten.  
 3.  Aktivieren Sie im Inforegister **Lager** das Kontrollkästchen **Einlagerung erforderlich**, um anzugeben, dass ein Lagereinlagerungs- oder ein Lagerbestandsumlagerungsbeleg erstellt werden kann, wenn ein eingehender oder ein interner Herkunftsbeleg mit einem Lagerplatzcode freigegeben wird.  
 4.  Aktivieren Sie das Kontrollkästchen **Kommissionierung erforderlich**, um anzugeben, dass ein Lagerkommissionierbeleg oder ein Lagerbestandsumlagerungsbeleg erstellt werden muss, wenn ein ausgehender oder ein interner Herkunftsbeleg mit einem Lagerplatzcode erstellt wird.  
 
-## <a name="to-define-a-default-bin-structure-in-the-production-area"></a>Um eine Standardlagerplatzstruktur im Fertigungsbereich zu definieren
+## Um eine Standardlagerplatzstruktur im Fertigungsbereich zu definieren
 
 1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Lagerorte** ein, und wählen Sie dann den entsprechenden Link.
 2. Öffnen Sie den Lagerort, den Sie einrichten möchten.  
@@ -60,7 +60,7 @@ Dieses Flussdiagramm zeigt, wie das Feld **Lagerplatzcode** in FA-Komponentenzei
 
 ![Flowdiagramm Lagerplatz.](media/binflow.png "BinFlow")
 
-## <a name="to-define-a-default-bin-structure-in-the-assembly-area"></a>Um eine Standardlagerplatzstruktur im Montagebereich zu definieren
+## Um eine Standardlagerplatzstruktur im Montagebereich zu definieren
 
 Komponenten für Montageaufträge können nicht mit Lagerkommissionierungen kommissioniert oder gebucht werden. Verwenden Sie stattdessen die Seite **Lagerbestandsumlagerung**. Weitere Informationen unter [Kommissionierung oder Umlagerung für Produktion, Montage oder Projekte in der Basislagerkonfiguration](warehouse-how-to-pick-for-production.md).
 
@@ -68,12 +68,12 @@ Bei der Kommissionierung und Lieferung von Verkaufszeilenmengen, die auftragsbez
 
 Weitere Informationen finden Sie unter [Montageverwaltung](assembly-assemble-items.md).
 
-### <a name="to-set-up-that-an-inventory-movement-is-automatically-created-when-the-inventory-pick-for-the-assembly-item-is-created"></a>So richten Sie ein, dass eine Lagerbestandsumlagerung automatisch erstellt wird, wenn die Lagerkommissionierung für die Montageartikel erstellt wird.
+### So richten Sie ein, dass eine Lagerbestandsumlagerung automatisch erstellt wird, wenn die Lagerkommissionierung für die Montageartikel erstellt wird.
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Montageeinrichtung** ein und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie das Kontrollkästchen **Umlagerungen automatisch erstellen**.
 
-### <a name="to-set-up-the-bin-in-the-assembly-area-where-components-are-placed-by-default-before-they-can-be-consumed-in-assembly"></a>Um den Lagerplatz im Montagebereich einzurichten, wo Komponenten standardmäßig platziert werden, bevor sie bei der Montage verbraucht werden können.
+### Um den Lagerplatz im Montagebereich einzurichten, wo Komponenten standardmäßig platziert werden, bevor sie bei der Montage verbraucht werden können.
 
 Der Wert in diesem Feld wird automatisch in das Feld **Lagerplatzcode** in Montageauftragszeilen eingefügt, wenn dieser Lagerort in das Feld **Lagerortcode** in der Montageauftragszeile eingegeben wird.
 
@@ -81,7 +81,7 @@ Der Wert in diesem Feld wird automatisch in das Feld **Lagerplatzcode** in Monta
 2. Öffnen Sie den Lagerort, den Sie festlegen möchten.
 3. Füllen Sie das Feld **Mont.-Bereitst.-Lagerplatzcode** aus.
 
-### <a name="to-set-up-the-bin-in-the-assembly-area-where-finished-assembly-items-are-posted-to-when-they-are-assembled-to-stock"></a>Um den Lagerplatz im Montagebereich einzurichten, auf den fertige Montageartikel gebucht werden, wenn sie im Lager montiert werden.
+### Um den Lagerplatz im Montagebereich einzurichten, auf den fertige Montageartikel gebucht werden, wenn sie im Lager montiert werden.
 
 Der Wert in diesem Feld wird automatisch in das Feld **Lagerplatzcode** in Montageauftragszeilenköpfen eingefügt, wenn dieser Lagerortcode in das Feld **Lagerortcode** in den Montageauftragszeilenkopf befüllt wird.
 
@@ -94,7 +94,7 @@ Lagerplatzcodes, die auf Lagerortkarten eingerichtet werden, geben einen standar
 2. Öffnen Sie den Lagerort, den Sie festlegen möchten.
 3. Füllen Sie das Feld **Montage-Ausgangslagerplatzcode** aus.
 
-### <a name="to-set-up-the-bin-where-finished-assembly-items-are-posted-to-when-they-are-assembled-to-a-linked-sales-order"></a>Um den Lagerplatz einzurichten, auf den fertige Montageartikel gebucht werden, wenn sie entsprechend einem verknüpftem Auftrag montiert werden.
+### Um den Lagerplatz einzurichten, auf den fertige Montageartikel gebucht werden, wenn sie entsprechend einem verknüpftem Auftrag montiert werden.
 
 Von diesem Lagerplatz werden die Montageartikel sofort über eine Lagerkommissionierung geliefert, um den Verkaufsauftrag zu erfüllen.
 
@@ -116,7 +116,7 @@ Der gleiche Lagerplatzcode wird wiederum in das Feld **Lagerplatzcode** der Lage
 2. Öffnen Sie den Lagerort, den Sie festlegen möchten.
 3. Füllen Sie das Feld **LP-Code f. Prog.fert.lief.** aus.
 
-## <a name="to-create-dedicated-component-bins"></a>So erstellen Sie dedizierte Komponentenlagerplätze
+## So erstellen Sie dedizierte Komponentenlagerplätze
 
 Sie können angeben, dass Mengen in einem Lagerplatz vor der Kommissionierung für andere Bedarfsposten als den Bedarf ihres aktuellen Zwecks geschützt werden.
 
@@ -136,9 +136,9 @@ Das Einrichten eines Fert.-Bereitst.-Lagerplatzes/Fert.-Ausgangslagerplatzes ste
 > [!NOTE]  
 >  Der Lagerplatz muss leer sein, damit das Feld **Dediziert** ausgewählt oder gelöscht werden kann.
 
-## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/get-started-warehouse-management/)
+## Siehe verwandte [Microsoft Schulungen](/training/modules/get-started-warehouse-management/)
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Lagerverwaltung – Übersicht](design-details-warehouse-management.md)
 [Bestand](inventory-manage-inventory.md)  

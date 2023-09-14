@@ -1,8 +1,8 @@
 ---
-author: edupont04
+author: brentholtorf
 ms.topic: include
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
 
 Um Lieferbenachrichtigung zu erstellen, müssen Sie Folgendes einrichten:  
@@ -13,7 +13,7 @@ Um Lieferbenachrichtigung zu erstellen, müssen Sie Folgendes einrichten:
 
 Jede Lieferbenachrichtigungsmethode verfügt über eigene Lieferbenachrichtigungsstufen, und Sie können für jede der Lieferbenachrichtigungsstufe spezielle Lieferbenachrichtigungstexte definieren.  
 
-## <a name="to-set-up-delivery-reminder-terms"></a>Einrichten von Lieferbenachrichtigungsmethoden
+## Einrichten von Lieferbenachrichtigungsmethoden  
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](../../../media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie den **Lieferanmahnungsmethodenmethodencode** ein und wählen Sie dann den entsprechenden Link.  
 2. Wählen Sie die Aktion **Neu** aus.  
@@ -27,7 +27,7 @@ Jede Lieferbenachrichtigungsmethode verfügt über eigene Lieferbenachrichtigung
 
 4. Wählen Sie die Schaltfläche **OK** aus.  
 
-## <a name="to-add-delivery-reminder-levels-to-a-delivery-reminder-term"></a>So richten Sie Lieferanmahnungsstufen für Lieferanmahnungsmethoden ein
+## So richten Sie Lieferanmahnungsstufen für Lieferanmahnungsmethoden ein  
 
 1. Klicken Sie auf der Seite **Lieferbenachrichtigungsbestimmungen** in die Zeile mit der Methode, für die Sie Stufen anlegen möchten, und wählen Sie dann die Aktion **Stufen**.  
 2. Wählen Sie die Aktion **Neu** aus.  
@@ -44,7 +44,7 @@ Für jede Lieferbenachrichtigungsstufe kann eine Textnachricht definiert werden,
 
 Nachfolgend wird beschrieben, wie Vortextnachrichten eingerichtet werde. Aber dieselben Schritte gelten auch für das Einrichten von Nachtextnachrichten.  
 
-## <a name="to-set-up-delivery-reminder-text-messages"></a>Lieferbenachrichtigungstextnachrichten einrichten
+## Lieferbenachrichtigungstextnachrichten einrichten  
 
 1. Auf der Seite **Lieferbenachrichtigungsstufen** wählen Sie eine Ebene, und wählen die Aktion **Vortext** aus.  
 2. Wählen Sie die Aktion **Neu** aus.  

@@ -1,8 +1,8 @@
 ---
-author: edupont04
+author: brentholtorf
 ms.topic: include
 ms.date: 09/21/2022
-ms.author: edupont
+ms.author: bholtorf
 ---
 Wenn Sie die Seite **Artikelverfüg. nach Variante** aus einer Belegzeile öffnen, dann können Sie eine Variante in die Belegzeile einfügen, indem Sie die Zeile mit der hinzuzufügenden Variante auswählen und dann auf OK klicken. Wenn Sie die Seite nur verwendet haben, um die Verfügbarkeit anzuzeigen und keine Variante einfügen möchten, müssen Sie das Fenster schließen, ohne auf OK zu klicken.
 

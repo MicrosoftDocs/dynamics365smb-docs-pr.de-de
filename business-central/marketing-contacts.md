@@ -1,7 +1,7 @@
 ---
 title: Erstellen und Verwalten von Firmenkontakten
 description: 'Sie richten alle externen Entitäten ein, mit denen Sie Geschäftsbeziehungen haben (wie Debitoren, Interessenten, Kreditoren und Berater).'
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,9 +9,9 @@ ms.workload: na
 ms.search.keywords: 'relationship, prospect'
 ms.search.forms: '5054, 5050, 5051, 5052, 5104, 5053, 9130, 6701, 5055, 1604'
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="managing-contacts"></a>Kontakte verwalten
+# Kontakte verwalten
 
 Mitarbeiter in Ihrem Unternehmen treffen regelmäßig mit möglichen Geschäftsbeziehungen zusammen. Aus diesen Zusammentreffen können sich formale Beziehungen ergeben. All diese externen Kontakte und ihre detaillierten Informationen sollten im System aufgezeichnet werden, damit die Kommunikation erfolgreicher ist und sie problemlos in formale Debitor-, Kreditor- oder Bankbeziehungen umgewandelt werden können.
 
@@ -26,7 +26,7 @@ Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Themen,
 |Richten Sie Profilbefragungen ein, die Sie beim Eingeben der Informationen über die Profile Ihrer Kontakte verwenden möchten.|[Verwenden Sie Profilbefragungen, um Geschäftskontakten zu klassieren](marketing-create-contact-profile-questionnaire.md)|
 |Lösen Sie auf Verwirrung auf, wenn zwei oder mehr Datensätze für denselben Kontakt vorhanden sind.|[Doppelt Datensätze zusammenführen](sales-how-merge-duplicate-records.md)|
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Verkaufschancen verwalten](marketing-manage-sales-opportunities.md)  
 [Sortieren, Suchen und Filtern](ui-enter-criteria-filters.md)  

@@ -1,16 +1,16 @@
 ---
 title: Rechnungen Vorauszahlungen
 description: 'Erfahren Sie, wie Sie in Business Central Vorauszahlungen verwenden können, um Rechnungen zu stellen, Debitoren einzuziehen und Kreditorenzahlungen zu überweisen.'
-author: edupont04
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: '42, 42, 48, 50, 52, 9305, 9307'
 ms.date: 12/03/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="invoicing-prepayments"></a>Fakturieren von Vorauszahlungen
+# Fakturieren von Vorauszahlungen
 
 [!INCLUDE [prepayment_def](includes/prepayment_def.md)]
 
@@ -29,9 +29,9 @@ Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Themen,
 |Erstellen eines Auftrags, Anpassen der Vorauszahlungsbeträge und Erstellen einer Rechnung für Vorauszahlungsbeträge|[Vorauszahlungsrechnungen erstellen](finance-how-to-create-prepayment-invoices.md)|  
 |Erstellen einer weiteren Vorauszahlungsrechnung – entweder für weitere Artikel oder für eine zusätzliche Vorauszahlung für den ursprünglichen Auftrag – oder Erstellen einer Vorauszahlungsgutschrift|[So korrigieren Sie Vorauszahlungen](finance-how-to-correct-prepayments.md)|  
 
-## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/prepayment-invoices-dynamics-365-business-central/index)
+## Siehe verwandte [Microsoft Schulungen](/training/modules/prepayment-invoices-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Beispielhafte Vorgehensweise: Verkaufsvorauszahlungen einrichten und in Rechnung stellen](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  
 [Finanzen](finance.md)  

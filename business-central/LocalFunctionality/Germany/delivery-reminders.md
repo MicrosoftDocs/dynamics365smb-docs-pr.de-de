@@ -1,18 +1,18 @@
 ---
 title: 'Lieferanmahnungen [DE]'
 description: 'Lieferanmahnungen werden verwendet, um überfällige Kreditorenlieferungen zu verfolgen und um Kreditoren an überfällige Lieferungen in der deutschen Version zu erinnern.'
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords: null
 ms.search.form: '5005270, 5005272, 5005273, 5005274, 5005275, 5005276, 5005280'
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="delivery-reminders-in-the-german-version"></a>Lieferanmahnungen in der deutschen Version
+# Lieferanmahnungen in der deutschen Version
 
 [!INCLUDE [delivery-reminders](../includes/ATCHDE/delivery-reminders.md)]
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Lieferanmahnungen erstellen](how-to-set-up-delivery-reminders.md)  
 [Lieferanmahnungsbestimmungen, -stufen und -text einrichten](how-to-set-up-delivery-reminder-terms-levels-and-text.md)  

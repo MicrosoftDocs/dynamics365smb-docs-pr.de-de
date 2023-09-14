@@ -1,8 +1,8 @@
 ---
-author: edupont04
+author: brentholtorf
 ms.topic: include
 ms.date: 03/15/2022
-ms.author: edupont
+ms.author: bholtorf
 ---
 Da die Anzahl der Länder, in denen Unternehmen Geschäftsbeziehungen unterhalten, wächst, wird es unerlässlich, dass Finanzdaten in mehreren Währungen erfasst und angezeigt werden können. Die Hauswährung (LCY) wird auf der Seite **Finanzbuchhaltungs-Einrichtung** definiert, wie im Artikel [Grundlegendes zum Sachkonto und zum Kontenplan](../finance-general-ledger.md) beschrieben. Sobald die Mandantenwährung (MW) definiert wurde, wird sie als leere Währung dargestellt. Wenn das Feld **Währung** also leer ist, bedeutet dies, dass es sich um MW handelt.  
 

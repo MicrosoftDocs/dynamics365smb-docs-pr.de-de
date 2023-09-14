@@ -1,7 +1,7 @@
 ---
 title: Anlagen verwalten
 description: 'Sie führen einen Wartungs-Datensatz über alle Reparaturen und Wartungen an einer Anlage, um den Wert dieser Anlage zu erhalten.'
-author: edupont04
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,9 +9,9 @@ ms.workload: na
 ms.search.keywords: 'repair, service'
 ms.search.form: '5642, 5625'
 ms.date: 06/15/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="maintain-fixed-assets"></a>Anlagen verwalten
+# Anlagen verwalten
 
 Wartungsausgaben sind periodische Kosten, die dem Werterhalt von Anlagen dienen. Im Gegensatz zu Kapitalerhöhungen wird der Wert dabei nicht erhöht.
 
@@ -19,7 +19,7 @@ Sie können den Service und die Wartung Ihrer Anlagen erfassen, sodass Ihnen jed
 
 Die Indexierung wird verwendet, um die Werte allgemeinen Preisänderungen anzupassen. Die Stapelverarbeitung **Anlagen indexieren** kann verwendet werden, um Wartungskosten neu zu berechnen.
 
-## <a name="to-record-maintenance-work-on-a-fixed-asset"></a>So erfassen Sie Wartungsarbeiten in einer Anlage
+## So erfassen Sie Wartungsarbeiten in einer Anlage
 
 Jedes Mal, wenn eine Wartung ausgeführt wurde, wie z.B. ein Servicebesuch, können Sie diese für die entsprechende Anlage auf der Seite **Wartungsregistrierung** erfassen.  
 
@@ -27,7 +27,7 @@ Jedes Mal, wenn eine Wartung ausgeführt wurde, wie z.B. ein Servicebesuch, kön
 2. Wählen Sie die Anlage aus, für die Sie die Wartung übernehmen möchten und wählen Sie dann die Aktion **Wartungsregistrierung** aus.
 3. Füllen Sie auf der Seite **Wartungsregistrierung** die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-## <a name="to-post-maintenance-costs-from-a-fixed-asset-gl-journal"></a>So buchen Sie Wartungskosten aus einem Anlagen Fibu Buch.-Blatt
+## So buchen Sie Wartungskosten aus einem Anlagen Fibu Buch.-Blatt
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Afa-Buch Übersicht** ein und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie das AfA-Buch aus, das der Anlage zugewiesen ist, und wählen Sie dann die Aktion **Bearbeiten** aus.
@@ -41,7 +41,7 @@ Jedes Mal, wenn eine Wartung ausgeführt wurde, wie z.B. ein Servicebesuch, kön
     >   Schritt 7 funktioniert nur, wenn Sie Folgendes eingerichtet haben: Auf der Seite **Anlagenbuchungsgruppenkarte** der Buchungsgruppe der Anlage enthält das Feld **Kto. Wartung** das Sollkonto im Sachkonto und das Feld **Gegenkto. Wartung** enthält das Sachkonto, auf das die Gegenposten für Zuschreibungen gebucht werden sollen. Weitere Informationen finden Sie unter [So richten Sie Anlagenbuchungsgruppen ein](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).
 8. Wählen Sie die Aktion **Buchen** aus.
 
-## <a name="to-follow-up-on-fixed-assets-service-visits"></a>So führen Sie Folgeaktionen nach Servicebesuchen für Anlagen aus
+## So führen Sie Folgeaktionen nach Servicebesuchen für Anlagen aus
 
 Sie können den Bericht **Wartung - Nächster Service** drucken, um anzuzeigen, für welche Anlagen ein Servicebesuch geplant ist. Sie können diesen Bericht auch verwenden, wenn Sie das Feld **Nächstes Servicedatum** auf den Anlagenkarten aktualisieren.  
 
@@ -49,7 +49,7 @@ Sie können den Bericht **Wartung - Nächster Service** drucken, um anzuzeigen, 
 2. Füllen Sie die Felder **Startdatum** und **Enddatum** aus.  
 3. Klicken Sie auf die Schaltfläche **Drucken** oder **Vorschau**.
 
-## <a name="to-monitor-maintenance-costs"></a>So prüfen Sie Wartungskosten
+## So prüfen Sie Wartungskosten
 
 Sie können die Wartungskosten einsehen, wenn Sie sich die Statistik einer Anlage anzeigen lassen.  
 
@@ -60,7 +60,7 @@ Sie können die Wartungskosten einsehen, wenn Sie sich die Statistik einer Anlag
 
 Die Seite **Wartungsposten** wird geöffnet und zeigt die Posten an, aus denen sich der Betrag im Feld **Wartung** zusammensetzt.
 
-## <a name="to-view-or-print-maintenance-costs-for-multiple-fixed-assets"></a>So werden Wartungskosten für mehrere Anlagen angezeigt oder gedruckt
+## So werden Wartungskosten für mehrere Anlagen angezeigt oder gedruckt
 
 In dem Bericht **Wartungsanalyse** können Sie auswählen, ob Sie sich Wartungen basierend auf ein, zwei oder drei Wartungscodes für ein bestimmtes Datum oder ein Datumsintervall anzeigen lassen wollen. Sie können sich eine Gesamtsumme für alle ausgewählten Anlagen oder eine Summe für jede einzelne Anlage anzeigen lassen.
 
@@ -68,7 +68,7 @@ In dem Bericht **Wartungsanalyse** können Sie auswählen, ob Sie sich Wartungen
 2. Füllen Sie die Felder je nach Bedarf aus.
 3. Klicken Sie auf die Schaltfläche **Drucken** oder **Vorschau**.
 
-## <a name="to-view-maintenance-ledger-entries"></a>So zeigen Sie Wartungsposten an
+## So zeigen Sie Wartungsposten an
 
 Sie können sich ausserdem die Wartungskosten ansehen, wenn Sie sich die Wartungsposten anzeigen lassen.  
 
@@ -76,7 +76,7 @@ Sie können sich ausserdem die Wartungskosten ansehen, wenn Sie sich die Wartung
 2. Wählen Sie die Anlage aus, für die Sie die Posten anzeigen möchten und wählen Sie dann die Aktion **AfA-Bücher** aus.
 3. Wählen Sie auf der Seite **Anlagen-AfA-Bücher** das relevante Anlagen-AfA-Buch aus, und dann die Aktion **Wartungsposten**.
 
-## <a name="to-view-or-print-maintenance-ledger-entries-for-multiple-fixed-assets"></a>So werden Wartungsposten für mehrere Anlagen angezeigt oder gedruckt
+## So werden Wartungsposten für mehrere Anlagen angezeigt oder gedruckt
 
 Sie können im Bericht **Wartungsdetails** Wartungsposten für eine oder mehrere Anlagen anzeigen oder drucken.  
 
@@ -84,9 +84,9 @@ Sie können im Bericht **Wartungsdetails** Wartungsposten für eine oder mehrere
 2. Füllen Sie die Felder nach Bedarf aus.
 3. Wählen Sie die Schaltfläche **Drucken** oder **Vorschau**.
 
-## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/paths/manage-fixed-assets-maintenance-insurances/)
+## Siehe verwandte [Microsoft Schulungen](/training/paths/manage-fixed-assets-maintenance-insurances/)
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Anlagen](fa-manage.md)  
 [Einrichten von Anlagen](fa-setup.md)  

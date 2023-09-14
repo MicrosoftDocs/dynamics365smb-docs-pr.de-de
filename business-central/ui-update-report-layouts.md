@@ -1,16 +1,16 @@
 ---
 title: Benutzerdefinierte Berichtslayouts aktualisieren
 description: 'Erfahren Sie, wie Sie ein angepasstes Berichtslayout, das in einem Bericht verwendet wird, aktualisieren können, wenn es z.B. Designänderungen am Dataset des Berichts gibt.'
-author: jswymer
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: '9652, 9650'
 ms.date: 06/24/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="legacy-update-custom-report-layouts"></a>(Legacy) Benutzerdefinierte Berichtslayouts aktualisieren
+# (Legacy) Benutzerdefinierte Berichtslayouts aktualisieren
 
 [!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
@@ -22,7 +22,7 @@ Sie haben auch die Option, Aktualisierungen zu testen, ohne die erforderlichen �
 
 Nicht alle Berichtsdatasetänderungen können automatisch aktualisiert werden in den Berichtslayouts. Einige Änderungen erfordern, dass Sie das Berichtslayout manuell bearbeiten. Weitere Informationen finden Sie unter [Einschränkungen des Updates des benutzerdefinierten Berichtslayouts](ui-update-report-layouts.md#UpdateLimitations).  
 
-## <a name="to-update-one-or-more-custom-report-layouts"></a>Um eine oder mehrere benutzerdefinierten Berichtslayouts zu aktualisieren
+## Um eine oder mehrere benutzerdefinierten Berichtslayouts zu aktualisieren  
 
 1.  Wählen Sie das Symbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Auswahl des Berichtslayouts** ein und wählen Sie dann den entsprechenden Link.  
 
@@ -30,7 +30,7 @@ Nicht alle Berichtsdatasetänderungen können automatisch aktualisiert werden in
 
 Wenn keine Fehler auftreten, wird die Aktualisierung für die Berichtslayouts übernommen. Wenn Fehler auftreten, dann erscheint eine Meldung, die die Fehler enthält. Sie müssen dann manuell das benutzerdefinierte Berichtslayout bearbeiten, um den Fehler zu beheben. Weitere Informationen finden Sie unter [Beheben von Fehlern](ui-update-report-layouts.md#FixErrors).  
 
-## <a name="to-test-custom-report-layout-updates"></a>Updates zu benutzerdefinierten Berichtslayouts testen
+## Updates zu benutzerdefinierten Berichtslayouts testen  
 
 1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Auswahl des Berichtslayouts** ein und wählen Sie dann den entsprechenden Link.  
 
@@ -38,7 +38,7 @@ Wenn keine Fehler auftreten, wird die Aktualisierung für die Berichtslayouts ü
 
  Änderungen der Berichtslayouts werden getestet, jedoch nicht auf die tatsächlichen Berichtslayouts angewendet. Eine **Aktualisierungsprotokoll Berichtlayout**-Seite wird angezeigt, das den Status potenzieller Aktualisierungen für jedes Berichtslayout bereitstellt. Gibt es Fehler für ein Berichtslayout, können Sie auf das Berichtslayout zwecks Bearbeitung direkt aus der Meldung zugreifen, um sämtliche Probleme zu beheben. Weitere Informationen finden Sie unter [Beheben von Fehlern](ui-update-report-layouts.md#FixErrors).  
 
-## <a name="limitations-of-the-custom-report-layout-update"></a><a name="UpdateLimitations"></a>Einschränkungen des Updates des benutzerdefinierten Berichtslayouts
+##  <a name="UpdateLimitations"></a> Einschränkungen des Updates des benutzerdefinierten Berichtslayouts  
  Es gibt verschiedene Arten von Änderungen, die die automatische Aktualisieren für benutzerdefinierte Berichtslayouts übernehmen kann, zum Beispiel ein Feld, das im Layout verwendet wird, das aus dem Berichtsdataset entfernt wurde. Jedoch kann das automatische Aktualisieren die folgenden Änderungen an einem Berichtsdataset nicht verarbeiten.  
 
 1.  Gelöschte Felder, Beschriftungen oder Datenelemente.  
@@ -49,7 +49,7 @@ Wenn keine Fehler auftreten, wird die Aktualisierung für die Berichtslayouts ü
 
  Wenn der Aktualisierungsvorgang eines dieser Probleme erkennt, kann die Aktualisierung nicht angewendet werden. Sie müssen die Probleme manuell korrigieren, indem Sie beispielsweise das Berichtslayout in Word bearbeiten, oder programmgesteuert, indem Sie Upgrade-Codeunits verwenden.  
 
-## <a name="fixing-errors"></a><a name="FixErrors"></a>Beheben von Fehlern
+##  <a name="FixErrors"></a> Beheben von Fehlern  
  Wenn Sie eine Fehlermeldung bei der Aktualisierung oder dem Testen von Berichtslayoutupdates erhalten, dann müssen Sie wahrscheinlich das Berichtlayout ändern, um das Problem zu korrigieren. Lesen sie die Fehlermeldung, um den Grund des Problems zu ermitteln.  
 
  Das häufigste Problem ist, wenn ein Feld, das im Layout verwendet wird, dem Berichtsdataset entfernt wurde. In diesem Fall sehen Sie eine Zeile in der Fehlermeldung, die angibt, dass ein Artikel entfernt wurde. Um dieses Problem zu beheben, müssen Sie das Layout bearbeiten und das betreffende Feld entfernen.  
@@ -58,9 +58,9 @@ Wenn keine Fehler auftreten, wird die Aktualisierung für die Berichtslayouts ü
 
 Nachdem Sie das Layout ändern, versuchen Sie, das Layout erneut zu aktualisieren.  
 
-## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/change-documents-dynamics-365-business-central/index)
+## Siehe verwandte [Microsoft Schulungen](/training/modules/change-documents-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch  
  [Verwalten von Berichtslayouts](ui-manage-report-layouts.md)  
  [Arbeiten mit Berichten, Batchaufträgen und XMLports](ui-work-report.md)  
 

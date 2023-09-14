@@ -1,8 +1,8 @@
 ---
-author: edupont04
+author: brentholtorf
 ms.topic: include
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
 [!INCLUDE[prod_short](prod_short.md)] online unterliegt der [Modernen Lebenszykluspolitik](https://support.microsoft.com/help/30881/modern-lifecycle-policy). Die Bedingungen der Service Level Agreements sind in dem Dokument beschrieben, das Sie von Abschnitt **Service Level Agreements für Microsoft Online Services** auf der Seite [Lizenzbestimmungen](https://www.microsoft.com/licensing/product-licensing/products) herunterladen können.  
 

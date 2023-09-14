@@ -1,16 +1,16 @@
 ---
 title: Einrichten von Status für Serviceaufträge und Reparaturen | Microsoft Docs
 description: 'Sie müssen neun Reparaturstatusoptionen einrichten, die den Fortschritt von Reparatur- und Wartungsarbeiten in Serviceaufträgen widerspiegeln.'
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: null
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="set-up-statuses-for-service-orders-and-repairs"></a>Einrichten von Status für Serviceaufträge und Reparaturen
+# Einrichten von Status für Serviceaufträge und Reparaturen
 
 Sie müssen Reparaturstatusoptionen einrichten, die den Fortschritt von Reparatur- und Wartungsarbeiten in Serviceaufträgen widerspiegeln. Sie müssen mindestens neun Reparaturstatusoptionen eingerichtet werden, die die Situation oder Aktionen von Servicearbeiten an Serviceartikeln kennzeichnen.  
 
@@ -20,7 +20,7 @@ Wenn Sie den Reparaturstatus eines Serviceartikels in einem Serviceauftrag ände
 
 Bevor Sie einen Reparaturstatus einrichten können, müssen Sie die Prioritäten für den Servicestatus festlegen.
 
-## <a name="to-set-up-service-status-priorities"></a>So richten Sie Servicestatusprioritäten ein
+## So richten Sie Servicestatusprioritäten ein
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Serviceauftragsstatus** ein und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie den Serviceauftragsstatus aus, für den Sie eine Priorität festlegen möchten.  
@@ -28,7 +28,7 @@ Bevor Sie einen Reparaturstatus einrichten können, müssen Sie die Prioritäten
 
 Wiederholen Sie die Schritte 2 und 3, bis Sie für jede der vier Statusoptionen eine Priorität festgelegt haben:  **Offen**, **In Bearbeitung**, **Erledigt** und **Warten** .  
 
-## <a name="to-set-up-a-repair-status"></a>So richten Sie einen Reparaturstatus ein
+## So richten Sie einen Reparaturstatus ein
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Reparaturstatus** ein und wählen Sie dann den zugehörigen Link.
 2. Erstellen Sie einen neuen Reparaturstatus.  
@@ -41,7 +41,7 @@ Wiederholen Sie die Schritte 2 und 3, bis Sie für jede der vier Statusoptionen 
 
 Wiederholen Sie diese Schritte für jede Reparaturstatusoption, die Sie erstellen möchten.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Serviceauftragsstatus und Reparaturstatus](service-service-order-status-and-repair-status.md)  
 [Einrichten der Serviceverwaltung](service-setup-service.md)  

@@ -1,8 +1,8 @@
 ---
-author: edupont04
+author: brentholtorf
 ms.topic: include
 ms.date: 04/11/2022
-ms.author: edupont
+ms.author: bholtorf
 ---
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet 0.](../media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **MWSt.-Berichtseinrichtung** ein und wählen Sie dann den entsprechenden Link.  
 2. Um Benutzern die Möglichkeit zu geben, diesen Bericht zu ändern und erneut zu senden, wählen Sie das Feld **Änderungen zulassen** aus.  

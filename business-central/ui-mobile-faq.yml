@@ -2,14 +2,14 @@
 metadata:
   title: Mobile Apps FAQ
   description: Hier finden Sie Antworten auf häufig gestellte Fragen zur Verwendung von Business Central auf Ihrem Telefon oder Tablet.
-  author: edupont04
+  author: brentholtorf
   ms.topic: faq
   ms.devlang: na
   ms.tgt_pltfrm: na
   ms.workload: na
   ms.search.keywords: 'phone, tablet'
   ms.date: 10/25/2021
-  ms.author: edupont
+  ms.author: bholtorf
 title: Mobile Apps FAQ
 summary: |
   In diesem Artikel werden Fragen beantwortet, die unsere erfahrenen Benutzer häufig zu mobilen Apps für [!INCLUDE [prod_short](includes/prod_short.md)] stellen.  

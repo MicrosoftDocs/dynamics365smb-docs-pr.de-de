@@ -1,7 +1,7 @@
 ---
 title: Übersicht der Aufgaben zum Verwalten von Verkäufen
 description: 'Lesen Sie alles darüber, wie Sie die Dienste von Business Central für die Verwaltung von Verkaufsaktivitäten mit Ihren Debitoren mit Verkaufsrechnungen, Aufträgen, Angeboten und mehr nutzen können.'
-author: SorenGP
+author: brentholtorf
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,9 +9,9 @@ ms.workload: na
 ms.search.keywords: 'trade, sell'
 ms.search.form: 253
 ms.date: 09/02/2022
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="sales"></a>Verkauf
+# Verkauf
 
 Sie erstellen eine Verkaufsrechnung oder eine Bestellung, um Ihre Vereinbarung mit dem Debitoren zu erfassen, um bestimmte Produkte unter speziellen Liefer- und Zahlungsbedingungen zu verkaufen.
 
@@ -53,7 +53,7 @@ Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Artikel
 |Informieren Sie Ihre Debitoren über das Auftragslieferdatum, indem Sie entweder das Möglichkeitsdatum für Beschaffungszusage oder das Lieferzusageversprechen berechnen.|[Lieferterminzusagen-Daten berechnen](sales-how-to-calculate-order-promising-dates.md)|
 |Lösen Sie auf Verwirrung auf, wenn zwei oder mehr Datensätze für denselben Debitor vorhanden sind.|[Doppelt Datensätze zusammenführen](sales-how-merge-duplicate-records.md)|
 
-## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/paths/sell-items-services-dynamics-365-business-central/)
+## Siehe verwandte [Microsoft Schulungen](/training/paths/sell-items-services-dynamics-365-business-central/)
 
 [Einrichten von Verkäufen](sales-setup-sales.md)  
 [Registriert einen neuen Debitor](sales-how-register-new-customers.md)  

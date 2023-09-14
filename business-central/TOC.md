@@ -10,7 +10,7 @@
 ### [Business Central-Schulung](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
 ### Exemplarische Vorgehensweisen für Geschäftsprozesse
 #### [Verfügbare exemplarische Vorgehensweisen](walkthrough-business-process-walkthroughs.md)
-#### [Exemplarische Vorgehensweise: Verkaufskampagnen durchführen](walkthrough-conducting-a-sales-campaign.md)
+#### [Exemplarische Vorgehensweise: Eine Verkaufskampagne durchführen](walkthrough-conducting-a-sales-campaign.md)
 #### [Exemplarische Vorgehensweise: Verkaufsvorauszahlungen einrichten und fakturieren](walkthrough-setting-up-and-invoicing-sales-prepayments.md)
 #### [Exemplarische Vorgehensweise: Einkaufsgenehmigungsworkflows einrichten und verwenden](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
 <!-- #### [Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations](walkthrough-receiving-and-putting-away-in-basic-warehousing.md) -->
@@ -22,18 +22,18 @@
 #### [Exemplarische Vorgehensweise: Umlaufbestand für ein Projekt berechnen](walkthrough-calculating-work-in-process-for-a-job.md)
 #### [Exemplarische Vorgehensweise: Kommissionierung und Lieferung in Basislagerkonfigurationen](walkthrough-picking-and-shipping-in-basic-warehousing.md)
 <!-- #### [Walkthrough: Tracing Serial/Lot Numbers](walkthrough-tracing-serial-lot-numbers.md) -->
-#### [Exemplarische Vorgehensweise: Cashflowplanungen mithilfe von Finanzberichten erstellen](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
+#### [Exemplarische Vorgehensweise: Cashflowplanungen mithilfe von Finanzberichten erstellen  ](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 #### [Beispielhafte Vorgehensweise: Shopify-Konnektor einrichten und verwenden](shopify/walkthrough-setting-up-and-using-shopify.md)
 <!-- Contoso-->
 ### Demodaten für Contoso Coffee
 #### [Einführung in Contoso Coffee-Demodaten](contoso-coffee/contoso-coffee-intro.md)
 #### Fertigung
 ##### [Einführung in Contoso Coffee-Fertigung](contoso-coffee/manufacturing/contoso-coffee-manufacturing-intro.md)
-##### [Erstellen neuer Produktionsstücklisten und Stücklistenversionen](contoso-coffee/manufacturing/create-new-production-bom-version.md)
-##### [Erstellen neuer Arbeitspläne](contoso-coffee/manufacturing/create-new-routing.md)
-##### [Erstellen und Ändern fest geplanter Fertigungsaufträge](contoso-coffee/manufacturing/create-firm-planned-production-order-change.md)
-##### [Kombinieren von automatischen und manuellen Buchungen](contoso-coffee/manufacturing/combine-automatic-manual-flushing.md)
-##### [Verwenden der Auftragsplanung zum Erstellen und Reservieren von Lieferungen](contoso-coffee/manufacturing/order-planning-create-reserve-supply.md)
+##### [Neue Produktionsstücklisten und Stücklistenversionen erstellen](contoso-coffee/manufacturing/create-new-production-bom-version.md)
+##### [Neue Arbeitspläne erstellen](contoso-coffee/manufacturing/create-new-routing.md)
+##### [Fest geplante Fertigungsaufträge erstellen und ändern](contoso-coffee/manufacturing/create-firm-planned-production-order-change.md)
+##### [Automatische und manuelle Buchungen kombinieren](contoso-coffee/manufacturing/combine-automatic-manual-flushing.md)
+##### [Auftragsplanung zum Erstellen und Reservieren von Lieferungen verwenden](contoso-coffee/manufacturing/order-planning-create-reserve-supply.md)
 ##### [Fremdarbeit einrichten und verarbeiten](contoso-coffee/manufacturing/set-up-process-subcontracting-operation.md)
 ##### [Neue Kapazität einrichten](contoso-coffee/manufacturing/set-up-new-capacity.md)
 ##### [Varianten](contoso-coffee/manufacturing/variants.md)
@@ -44,7 +44,7 @@
 ##### [Exemplarische Vorgehensweise: Eingehende und ausgehende Abläufe in erweiterter Lagerkonfiguration mit gesteuerter Einlagerung und Kommissionierung](contoso-coffee/warehousing/warehouse-directed-flow.md)
 
 ### Designdetails
-#### [Anwendungsdesigndetails – Übersicht](design-details-application-design.md)
+#### [Anwendungsdesigndetails – Übersicht](design-details-application-design.md)
 #### Designdetails: Lagerbewertung
 ##### [Designdetails zur Lagerbewertung](design-details-inventory-costing.md)
 ##### [Designdetails: Lagerabgangsmethoden](design-details-costing-methods.md)  
@@ -52,7 +52,7 @@
 ##### [Designdetails: Artikelausgleich](design-details-item-application.md)  
 ##### [Designdetails: Bekannte Probleme bei Artikelausgleich](design-details-inventory-zero-level-open-item-ledger-entries.md)  
 ##### [Designdetails: Lagerregulierung](design-details-cost-adjustment.md)  
-##### [Designdetails: Soll-Kosten-Buchen](design-details-expected-cost-posting.md)  
+##### [Designdetails: Soll-Kosten buchen](design-details-expected-cost-posting.md)  
 ##### [Designdetails: Einstandspreis](design-details-average-cost.md)  
 ##### [Designdetails: Abweichung](design-details-variance.md)  
 ##### [Designdetails: Runden](design-details-rounding.md)  
@@ -66,11 +66,11 @@
 ##### [Designdetails: Lagerbewertung](design-details-inventory-valuation.md)  
 ##### [Designdetails: Neubewertung](design-details-revaluation.md)
 #### Designdetails: Buchungsdatum für Regulierungswertposten
-##### [Buchungsdatum für Regulierungswertposten – Überblick](design-details-inventory-adjustment-value-entry-posting-date.md)  
+##### [Buchungsdatum für Regulierungswertposten – Überblick](design-details-inventory-adjustment-value-entry-posting-date.md)  
 ##### [Fehlermeldung „Das Buchungsdatum liegt nicht in Ihrem zugelassenen Buchungszeitraum“](design-details-inventory-adjustment-value-entry-allowed-posting-dates.md)  
 ##### [Buchungsdatum des Regulierungswertpostens im Vergleich zum Herkunftsposten](design-details-inventory-adjustment-value-entry-source-entry.md)
 #### Designdetails: Dimensionssatzposten
-##### [Designdetails: Dimensionssatzposten – Übersicht](design-details-dimension-set-entries-overview.md)
+##### [Designdetails: Dimensionssatzposten – Übersicht](design-details-dimension-set-entries-overview.md)
 ##### [Designdetails: Suche nach Dimensionskombinationen](design-details-searching-for-dimension-combinations.md)
 ##### [Designdetails: Tabellenstruktur](design-details-table-structure.md)
 #### Designdetails: Beschaffungsplanung
@@ -96,14 +96,14 @@
 ##### [Designdetails: Artikelverfolgungsdesign](design-details-item-tracking-design.md)  
 ##### [Designdetails: Artikelverfolgungs-Buchungsstruktur](design-details-item-tracking-posting-structure.md)  
 ##### [Designdetails: Aktive vs. historische Artikelverfolgungsposten](design-details-active-versus-historic-item-tracking-entries.md)  
-##### [Designdetails: Seite „Artikelverfolgungszeilen“](design-details-item-tracking-lines-window.md)  
+##### [Designdetails: Seite „Artikelverfolgungsposten“](design-details-item-tracking-lines-window.md)  
 ##### [Designdetails: Artikelverfolgungsverfügbarkeit](design-details-item-tracking-availability.md)  
 ##### [Designdetails: Artikelverfolgung und Planung](design-details-item-tracking-and-planning.md)  
 ##### [Designdetails: Artikelverfolgung und Reservierungen](design-details-item-tracking-and-reservations.md)  
 ##### [Designdetails: Artikelverfolgung im Lager](design-details-item-tracking-in-the-warehouse.md)
 #### Designdetails: Fibu Buch.-Blatt-Buchungsposition
 ##### [Designdetails zu Fibu Buch.-Blatt-Buchungsposition](design-details-general-journal-post-line.md)
-##### [Fibu Buch.-Blatt-Buchungsposition - Übersicht](design-details-general-journal-post-line-overview.md)  
+##### [Fibu Buch.-Blatt-Buchungsposition – Übersicht](design-details-general-journal-post-line-overview.md)  
 ##### [Designdetails: Buchungsschnittstellenstruktur](design-details-posting-interface-structure.md)  
 ##### [Designdetails: Buchungsmodulstruktur](design-details-posting-engine-structure.md)  
 #### [Designdetails: Nicht abziehbare MwSt.](design-details-nondeductible-vat.md)
@@ -133,15 +133,15 @@
 ### [Produkte und Dienstleistungen verkaufen](quick-start-sell-products-and-services.md)
 ### [Produkte und Dienstleistungen kaufen](quick-start-procurement.md)
 ### [Berichte und Dokumente anpassen und drucken](quick-start-reports-and-documents.md)
-### [Gewinnen Sie Erkenntnisse mit Business Intelligence](quick-start-business-intelligence.md)
+### [Erkenntnisse mit Business Intelligence gewinnen](quick-start-business-intelligence.md)
 
 <!--use-->
 ## In Business Central produktiv werden
-### [Allgemeine Funktionen – Übersicht](ui-work-product.md)
+### [Allgemeine Funktionen – Übersicht](ui-work-product.md)
 ### [Druckfreundlicher Spickzettel](ui-work-product.md#cheatsheet)
 ### [Nach Seiten und Informationen mit „Wie möchten Sie weiter verfahren?“ suchen](ui-search.md)
 ### [Häufig gestellte Fragen zu „Wie möchten Sie weiter verfahren“](ui-search-faq.md)
-### [Suchen nach spezifischen Daten](ui-search-data.md)
+### [Nach spezifischen Daten suchen](ui-search-data.md)
 ### [Nach Seiten mit dem Rollen-Explorer suchen](ui-role-explorer.md)
 ### [Sortieren, Suchen und Filtern](ui-enter-criteria-filters.md)
 ### [Häufig gestellte Fragen zu Sortieren und Filtern](ui-search-filter-faq.yml)
@@ -161,7 +161,7 @@
 ### [Leistung analysieren](/dynamics365/business-central/dev-itpro/administration/performance-profiler-overview?toc=/dynamics365/business-central/toc.json)
 ### [Warnungen und Fehlermeldungen](product-error-messages.md)
 ### Business Central personalisieren
-#### [Ihren Arbeitsbereich personalisieren](ui-personalization-user.md)
+#### [Arbeitsbereich personalisieren](ui-personalization-user.md)
 #### [Warum eine Seite nicht personalisiert werden kann](ui-personalization-locked.md)
 #### [Listenansichten speichern und personalisieren](ui-views.md)
 #### [Lesezeichen für eine Seite oder einen Bericht im Rollencenter erstellen](ui-bookmarks.md)
@@ -176,7 +176,7 @@
 ### Darstellung extern ausgerichteter Belege ändern
 #### [Infos zu Berichts- und Beleglayouts](ui-manage-report-layouts.md)
 #### [Erste Schritte beim Erstellen von Layouts](ui-get-started-layouts.md)
-#### [Arbeiten mit Word-Layouts](ui-how-add-fields-word-report-layout.md)
+#### [Mit Word-Layouts arbeiten](ui-how-add-fields-word-report-layout.md)
 #### [Mit Excel-Layouts arbeiten](ui-excel-report-layouts.md)
 #### [Mit RDLC-Layouts arbeiten](ui-rdlc-report-layouts.md)
 #### [Die von einem Bericht verwendeten Layouts festlegen](ui-set-report-layout.md)
@@ -190,12 +190,12 @@
 ### Geschäftsdaten freigeben
 #### [Übersicht](across-share-data-features.md)
 #### [Datensätze und Seitenlinks in Teams freigeben](across-working-with-teams.md)
-#### [Dateien in OneDrive freigeben](across-share-onedrive.md)
+#### [Dateien in OneDrive teilen](across-share-onedrive.md)
 #### [In Excel anzeigen und bearbeiten](across-work-with-excel.md)
 ### Eingabehilfe, Tastenkombinationen und Touch-Gesten
 #### [Eingabehilfe](ui-accessibility.md)
 #### [Tastenkombinationen](keyboard-shortcuts.md)
-#### [Tastatur-Kurzreferenz - nur PC](keyboard-shortcuts-cheatsheet.md)
+#### [Tastatur-Kurzreferenz – nur PC](keyboard-shortcuts-cheatsheet.md)
 #### [Touch- und Stiftgesten](touch-gestures.md)
 ### [Problembehebung: Auf Kamera und Standort zugreifen](ui-troubleshooting-camera-location.md)
 ### [Intelligente Erkenntnisse (nur online)](about-intelligent-cloud.md)
@@ -207,12 +207,12 @@
 ### [Häufig gestellte Fragen zu Kopieren und Einfügen](faq-copy-paste.yml)
 ### [Häufig gestellte Fragen zu mobilen Apps](ui-mobile-faq.yml)
 ### [Häufig gestellte Fragen zu Teams](teams-faq.md)
-### [Häufig gestellte Fragen zur elektronischen Rechnungsstellung](faq-electronic-invoicing.yml)
+### [Häufig gestellte Fragen zur elektronischen Fakturierung](faq-electronic-invoicing.yml)
 ### [Mindestanforderungen](product-requirements.md)
 
 ## Hilfe und Support
 ### [Ressourcen für Hilfe und Support](product-help-and-support.md)
-### [Besuchen Sie unsere Videobibliothek](across-videos.md)
+### [Unsere Videobibliothek besuchen](across-videos.md)
 ### [Technischen Support erhalten](/dynamics365/business-central/dev-itpro/administration/manage-technical-support?toc=/dynamics365/business-central/toc.json)
 
 <!--## Microsoft Learn training
@@ -233,26 +233,26 @@
 <!--general-->
 ## Allgemeine Unternehmensfunktionen
 ### [Überblick über Unternehmensfunktionen](ui-across-business-areas.md)
-### [Hinzufügen von Bemerkungen zu Karten und Belegen](across-how-use-comments.md)
+### [Bemerkungen zu Karten und Belegen hinzufügen](across-how-use-comments.md)
 ### [Belegzeilen nachverfolgen](across-how-to-track-document-lines.md)
 ### [Belege per E-Mail senden](ui-how-send-documents-email.md)
 ### [Belege archivieren](across-how-to-archive-documents.md)
 ### [Erweiterten Text für Artikel hinzufügen](ui-how-define-ext-text.md)
 ### [Benutzeraufgaben definieren](across-user-tasks.md)
-### [Geschäftsdaten nach Excel exportieren](about-export-data.md)
+### [Ihre Geschäftsdaten in Excel exportieren](about-export-data.md)
 ### [Buch.-Blätter und Dokumente buchen](ui-post-documents-journals.md)
 ### [Mehrere Belege gleichzeitig buchen](ui-batch-posting.md)
 ### [Vorschau der Buchungsergebnisse anzeigen](ui-how-preview-post-results.md)
 ### [Gebuchte Belege bearbeiten](across-edit-posted-document.md)
 ### [Zugehörige Posten für Belege suchen](ui-find-entries.md)
-### [Feld "Status" in Belegen](ui-document-status.md)
+### [Feld „Status“ in Belegen](ui-document-status.md)
 ### [Mit Fibu Buch.-Blättern arbeiten](ui-work-general-journals.md)
 ### [Aufgabenwarteschlangen für die Aufgabenplanung verwenden](admin-job-queues-schedule-tasks.md)
 ### [Von Business Central Werte vorschlagen lassen](ui-let-system-suggest-values.md)
 ### [Online-Karten verwenden, um Standorte und Wegbeschreibungen zu finden](across-online-maps.md)
 
 ### Eingehende Belege
-#### [Eingehende Belege – Übersicht](across-income-documents.md)
+#### [Eingehende Belege – Übersicht](across-income-documents.md)
 #### [Eingehende Belege einrichten](across-how-setup-income-documents.md)
 #### [Eingehende Belegdatensätze erstellen](across-how-create-income-document-records.md)
 #### [OCR verwenden, um PDF und Bilddateien in elektronische Belegen umzuwandeln](across-how-use-ocr-pdf-images-files.md)
@@ -262,7 +262,7 @@
 
 ### Workflows
 #### [Workflowüberblick](across-workflow.md)
-#### [Business Central in Power Automate-Flows verwenden](across-how-use-financials-data-source-flow.md)
+#### [Power Automate-Flows in Business Central verwenden](across-how-use-financials-data-source-flow.md)
 #### Genehmigungsworkflows verwenden
 ##### [Genehmigungsworkflows verwenden](across-use-workflows.md)
 ##### [Genehmigungsworkflows aktivieren](across-how-to-enable-workflows.md)
@@ -272,21 +272,21 @@
 ##### [Genehmigungsworkflows löschen](across-how-to-delete-workflows.md)
 <!--data exchange-->
 ### Daten elektronisch austauschen
-#### [OData-Austausch – Übersicht](across-data-exchange.md)
+#### [Datenaustausch – Übersicht](across-data-exchange.md)
 #### [Über das Datenaustauschframework](across-about-the-data-exchange-framework.md)
 #### Datenaustausch einrichten
 ##### [Datenaustausch einrichten](across-set-up-data-exchange.md)
 ##### [Belegaustauschdienst einrichten](across-how-to-set-up-a-document-exchange-service.md)
 ##### [Eingehende Belege einrichten](across-how-setup-income-documents.md)
-##### [Senden und Empfangen von elektronischen Belegen einrichten](across-how-to-set-up-electronic-document-sending-and-receiving.md)
+##### [Sich auf den elektronischen Versand und Empfang von Dokumenten vorbereiten](across-how-to-set-up-electronic-document-sending-and-receiving.md)
 #### [Zahlungen per SEPA-Lastschriftverfahren erfassen](finance-collect-payments-with-sepa-direct-debit.md)
 ##### [AMC Banking 365 Fundamentals-Erweiterung verwenden](ui-extensions-amc-banking.md)
 ##### [Bankauszugsservice einrichten](bank-how-setup-bank-statement-service.md)
 ##### [Bankkonten einrichten](bank-how-setup-bank-accounts.md)
 ##### [XML-Schemas verwenden, um Datenaustauschdefinitionen vorzubereiten](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)
 
-#### Austausch von Daten
-##### [Austausch von Daten](across-exchange-data.md)
+#### Daten austauschen
+##### [Daten austauschen](across-exchange-data.md)
 ##### [Datenaustauschdefinitionen einrichten](across-how-to-set-up-data-exchange-definitions.md)
 ##### [Elektronische Belege senden](sales-how-to-send-electronic-documents.md)
 ##### [OCR verwenden, um PDF und Bilddateien in elektronische Belegen umzuwandeln](across-how-use-ocr-pdf-images-files.md)
@@ -295,21 +295,21 @@
 ##### [Zahlungen in Bankdatei exportieren](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)
 ##### [Zahlungen mit der AMC Banking 365 Fundamentals-Erweiterung oder per SEPA-Überweisung vornehmen](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
 ##### [Zahlungen per SEPA-Lastschriftverfahren erfassen](finance-collect-payments-with-sepa-direct-debit.md)
-##### [Feldzuordnung beim Importieren von SEPA CAMT-Dateien](across-field-mapping-when-importing-sepa-camt-files.md)
-##### [Feldzuordnung für die AMC Banking 365 Fundamentals-Erweiterung](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)
+##### [Felder zuordnen, wenn Sie SEPA CAMT-Dateien importieren](across-field-mapping-when-importing-sepa-camt-files.md)
+##### [Zuordnungsfelder für die AMC Banking 365 Fundamentals-Erweiterung](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)
 
 ## Finanzen
-### [Finanzen – Übersicht](finance.md)
+### [Finanzen – Übersicht](finance.md)
 ### [Finanzberichte](finance-reports.md)
 ### Forderungen verwalten
-#### [Forderungen – Übersicht](receivables-manage-receivables.md)
+#### [Forderungen – Übersicht](receivables-manage-receivables.md)
 #### [Debitorenberichte und -analysen](receivables-reports.md)
 #### Zahlungen automatisch vornehmen und Bankkonten abstimmen
-##### [Zahlungsausgleich – Übersicht](receivables-apply-payments-auto-reconcile-bank-accounts.md)
+##### [Zahlungsausgleich – Übersicht](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 ##### [Zahlungen mit automatischem Ausgleich abstimmen](receivables-how-reconcile-payments-auto-application.md)
 ##### [Zahlungen nach der automatischen Zuordnung manuell überprüfen oder zuordnen](receivables-how-review-apply-payments-auto-application.md)
 ##### [Zahlungen abstimmen, die nicht automatisch ausgeglichen werden können](receivables-how-reconcile-payments-cannot-apply-auto.md)
-##### [Konten Text für sich wiederholenden Zahlungen für automatische Abstimmung zuordnen](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md)
+##### [Konten Text für sich wiederholende Zahlungen für automatische Abstimmung zuordnen](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md)
 ##### [Regeln für die automatische Anwendung von Zahlungen einrichten](receivables-how-set-up-payment-application-rules.md)
 #### [Debitorenzahlungen aus einer Liste mit unbezahlten Verkaufsbelegen abstimmen](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md)
 #### [Debitorenzahlungen mit dem Zahlungseingangs Buch.-Blatt oder aus Debitorenposten abstimmen](receivables-how-apply-sales-transactions-manually.md)
@@ -323,7 +323,7 @@
 #### [Mit Intrastat-Berichten arbeiten](finance-how-report-intrastat.md)
 
 ### Verbindlichkeiten verwalten
-#### [Verbindlichkeiten – Übersicht](payables-manage-payables.md)
+#### [Verbindlichkeiten – Übersicht](payables-manage-payables.md)
 #### [Kreditorenberichte und -analysen](payables-reports.md)
 #### Zahlungen vornehmen
 ##### [Zahlungen vornehmen](payables-make-payments.md)
@@ -335,11 +335,11 @@
 ##### [Einkaufsrechnungen sofort ausgleichen](finance-how-to-settle-purchase-invoices-promptly.md)
 ##### [Positive Pay-Datei exportieren](finance-how-positive-pay.md)
 #### Zahlungen automatisch vornehmen und Bankkonten abstimmen
-##### [Zahlungsausgleich – Übersicht](receivables-apply-payments-auto-reconcile-bank-accounts.md)
+##### [Zahlungsausgleich – Übersicht](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 ##### [Zahlungen mit automatischem Ausgleich abstimmen](receivables-how-reconcile-payments-auto-application.md)
 ##### [Zahlungen nach der automatischen Zuordnung manuell überprüfen oder zuordnen](receivables-how-review-apply-payments-auto-application.md)
 ##### [Zahlungen abstimmen, die nicht automatisch ausgeglichen werden können](receivables-how-reconcile-payments-cannot-apply-auto.md)
-##### [Konten Text für sich wiederholenden Zahlungen für automatische Abstimmung zuordnen](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md)
+##### [Konten Text für sich wiederholende Zahlungen für automatische Abstimmung zuordnen](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md)
 #### [Kreditorenzahlungen mit dem Zahlungsjournal oder aus Kreditorenposten abstimmen](payables-how-apply-purchase-transactions-manually.md)
 #### [Restbeträge einziehen](receivables-collect-outstanding-balances.md)
 #### [Zahlungen per SEPA-Lastschriftverfahren erfassen](finance-collect-payments-with-sepa-direct-debit.md)
@@ -349,56 +349,56 @@
 #### [Die Erweiterung zur Vorhersage verspäteter Zahlungen](ui-extensions-late-payment-prediction.md)
 
 ### Mehrwertsteuer verwalten
-#### [Mehrwertsteuerverwaltung – Übersicht](finance-manage-vat.md)
+#### [Mehrwertsteuerverwaltung – Übersicht](finance-manage-vat.md)
 #### [EU-Drittanbieter-Einkaufstransaktionen einrichten](finance-how-to-eu3party-trade-purchase.md)
-#### VAT einrichten
+#### MwSt. einrichten
 ##### [Mehrwertsteuer einrichten](finance-setup-vat.md)
 ##### [Einrichtung der Buchungsgruppe](finance-posting-groups.md#tax-posting-groups)
-##### [Nicht absetzbare MwSt. einrichten](finance-setup-nondeductible-vat.md)
+##### [Nicht abziehbare MwSt. einrichten](finance-setup-nondeductible-vat.md)
 ##### [Nicht realisierte Mehrwertsteuer einrichten](finance-setup-unrealized-vat.md)
 ##### [MwSt.-Abrechnung einrichten](finance-how-setup-vat-statement.md)
 #### [Mit MwSt.im Verkauf und Einkauf arbeiten](finance-work-with-vat.md)
-#### [Nicht absetzbare MwSt. verwenden](finance-how-use-non-deductible-vat.md)
+#### [Nicht abziehbare MwSt. verwenden](finance-how-use-non-deductible-vat.md)
 #### [MwSt.-Berichte an die Steuerbehörden übermitteln](finance-how-report-vat.md)
 #### [Änderungen des Mehrwertsteuersatzes verwalten](finance-how-use-vat-rate-change-tool.md)
-#### [USt-IdNr validieren](finance-how-validate-vat-registration-number.md)
+#### [USt-IdNr. validieren](finance-how-validate-vat-registration-number.md)
 
 ### Vorauszahlungen fakturieren
-#### [Vorauszahlungen – Übersicht](finance-invoice-prepayments.md)
+#### [Vorauszahlungen – Übersicht](finance-invoice-prepayments.md)
 #### [Vorauszahlungen einrichten](finance-set-up-prepayments.md)
 #### [Vorauszahlungsrechnungen erstellen](finance-how-to-create-prepayment-invoices.md)
 #### [Vorauszahlungen korrigieren](finance-how-to-correct-prepayments.md)
 
 ### Bankkonten abstimmen
-#### [Bankabstimmung – Übersicht](bank-manage-bank-accounts.md)
+#### [Bankabstimmung – Übersicht](bank-manage-bank-accounts.md)
 #### [Bankkonten abstimmen](bank-how-reconcile-bank-accounts-separately.md)
 #### [Zahlungen automatisch vornehmen und Bankkonten abstimmen](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 
 ### Intercompany-Transaktionen verwalten
-#### [Intercompany – Übersicht](intercompany-manage.md)
+#### [Intercompany – Übersicht](intercompany-manage.md)
 #### [Intercompany einrichten](intercompany-how-setup.md)
 #### [Mit Intercompany-Belegen und -Buch.-Blättern arbeiten](intercompany-how-work-documents-journals.md)
 #### [Intercompany-Ein- und -Ausgangstransaktionen verwalten](intercompany-how-manage-intercompany-inbox.md)
 #### [Den Intercompanypartnern Kosten zuordnen](intercompany-allocate-costs.md)
 
 ### Kostenrechnung
-#### [Kostenrechnung – Übersicht](finance-manage-cost-accounting.md)
+#### [Kostenrechnung – Übersicht](finance-manage-cost-accounting.md)
 #### [Terminologie der Kostenrechnung](finance-terminology-in-cost-accounting.md)
 #### [Informationen zur Kostenrechnung](finance-about-cost-accounting.md)
 #### [Kostenrechnung einrichten](finance-set-up-cost-accounting.md)
 #### [Übertragung und Buchung von Kostenposten](finance-transfer-and-post-cost-entries.md)
-#### [Kosten definieren und zuweisen](finance-define-and-allocate-costs.md)
+#### [Kosten und Einkünfte zuteilen](finance-define-and-allocate-costs.md)
 #### [Kostenbudgets erstellen](finance-create-cost-budgets.md)
 #### [Kostenbudgetposten löschen](finance-how-to-delete-cost-budget-entries.md)
 
 ### Lagerkosten verwalten
-#### [Lagerbewertung – Übersicht](finance-manage-inventory-costs.md)
+#### [Lagerbewertung – Übersicht](finance-manage-inventory-costs.md)
 #### [Informationen zur Lagerbewertung](finance-learn-about-costing.md)
 #### [Artikelzuschläge für zusätzliche Handelskosten verwenden](payables-how-assign-item-charges.md)
 #### [Informationen zur Berechnung der Standardkosten](finance-about-calculating-standard-cost.md)
 #### [Informationen zur Einstandspreisberechnung](finance-about-calculating-unit-cost.md)
 #### [Designdetails: Lagerbewertung](design-details-inventory-costing.md)
-#### [Arbeiten mit Lagerbuchungsperioden](finance-how-to-work-with-inventory-periods.md)
+#### [Mit Lagerbuchungsperioden arbeiten](finance-how-to-work-with-inventory-periods.md)
 #### [Bestandsbewertung und Bewertung festlegen](finance-set-up-inventory-valuation-and-costing.md)
 #### [Bestand neu bewerten](inventory-how-revalue-inventory.md)
 #### [Artikelpreise anpassen](inventory-how-adjust-item-costs.md)
@@ -413,14 +413,14 @@
 #### [Lagerkosten mit der Finanzbuchhaltung mithilfe der Aufgabenwarteschlange anpassen und abstimmen](finance-adjust-reconcile-inventory-cost-job-queue.md)
 
 ### Cashflow verwalten
-#### [Cashflow – Übersicht](finance-cash-flow-overview.md)
-#### [Cashflows in Ihrem Mandanten analysieren](finance-analyze-cash-flow.md)
+#### [Cashflow – Übersicht](finance-cash-flow-overview.md)
+#### [Cashflows in Ihrem Unternehmen analysieren](finance-analyze-cash-flow.md)
 
 ### Jahres- und Periodenabschlüsse
-#### [Jahresabschluss – Übersicht](year-close-years-periods.md)
+#### [Jahresabschluss – Übersicht](year-close-years-periods.md)
 #### [Mit Buchhaltungsperioden und Geschäftsjahren arbeiten](finance-accounting-periods-and-fiscal-years.md)
 #### [Buchhaltungsperioden festlegen](finance-how-specify-posting-periods.md)
-#### [Abschlussperioden](year-how-complete-period-end-processes.md)
+#### [Überblick zu Aufgaben, Buchhaltungsperioden zu schließen](year-how-complete-period-end-processes.md)
 #### [Währungswechselkurse aktualisieren](finance-how-update-currencies.md)
 #### [Kosten und Einkünfte zuteilen](year-allocate-costs-income.md)
 #### [MwSt. an die Steuerbehörden melden](finance-how-report-vat.md)
@@ -432,8 +432,8 @@
 #### [Ultimoposten für den Jahresabschluss buchen](year-how-post-year-end-close-entry.md)
 
 ### Finanzdaten von mehreren Unternehmen konsolidieren
-#### [Mandantenkonsolidierung](finance-consolidated-company-reporting.md)
-#### [Mandantenkonsolidierung einrichten](finance-consolidated-company-reporting-setup.md)
+#### [Unternehmenskonsolidierung](finance-consolidated-company-reporting.md)
+#### [Unternehmenskonsolidierung einrichten](finance-consolidated-company-reporting-setup.md)
 
 ### Mit Kontenplan und Finanzbuchhaltung arbeiten
 #### [Kontenplan und Finanzbuchhaltung verstehen](finance-general-ledger.md)
@@ -463,11 +463,11 @@
 ### [Buchhalter-Erfahrungen in Business Central](finance-accounting.md)
 ### [Organisationen mit mehreren Standorten und internationale Organisationen](finance-multi-site-organizations.md)
 
-## Finanzen – Business Intelligence und Berichtswesen
-### [Finanzen – Business Intelligence und Berichtswesen – Übersicht](bi.md)
+## Finanzen – Business Intelligence und Berichtswesen
+### [Finanzen – Business Intelligence und Berichtswesen – Übersicht](bi.md)
 ### [Finanzberichte](finance-reports.md)
 ### [Daten mit statistischen Konten analysieren](bi-use-statistical-accounts.md)
-### [Tatsächlichen Beträge im Vergleich zu budgetierten Beträgen analysieren](bi-how-analyze-actual-versus-budget.md)
+### [Tatsächliche Beträge im Vergleich zu budgetierten Beträgen analysieren](bi-how-analyze-actual-versus-budget.md)
 ### [Finanzberichte mit Finanzdaten und Kontengruppen vorbereiten](bi-how-work-account-schedule.md)
 ### [KPI-Webdienste auf der Basis der Finanzberichte einrichten und veröffentlichen](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
 ### [Daten nach Dimensionen analysieren](bi-how-analyze-data-dimension.md)
@@ -476,9 +476,9 @@
 ### [Datenbankzugriffsabsichten verwalten](admin-data-access-intent.md)
 
 ## Verkauf
-### [Verkauf – Übersicht](sales-manage-sales.md)
+### [Verkauf – Übersicht](sales-manage-sales.md)
 ### [Verkaufsberichte](sales-reports.md)
-### [Exemplarische Vorgehensweise: Verkaufskampagnen durchführen](walkthrough-conducting-a-sales-campaign.md)
+### [Exemplarische Vorgehensweise: Eine Verkaufskampagne durchführen](walkthrough-conducting-a-sales-campaign.md)
 ### [Exemplarische Vorgehensweise: Verkaufsvorauszahlungen einrichten und fakturieren](walkthrough-setting-up-and-invoicing-sales-prepayments.md)
 ### [Neue Debitoren registrieren](sales-how-register-new-customers.md)
 ### [Verkaufsangebote erstellen](sales-how-make-offers.md)
@@ -503,7 +503,7 @@
 ### [Externe Belegnummern eingeben](across-enter-external-document-numbers.md)
 
 ## Einkauf
-### [Einkauf – Übersicht](purchasing-manage-purchasing.md)
+### [Einkauf – Übersicht](purchasing-manage-purchasing.md)
 ### [Einkaufsberichte](purchase-reports.md)
 ### [Exemplarische Vorgehensweise: Einkaufsgenehmigungsworkflows einrichten und verwenden](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
 ### [Einkäufe erfassen](purchasing-how-record-purchases.md)
@@ -516,13 +516,13 @@
 ### [Elektronische Belege empfangen und konvertieren](purchasing-how-to-receive-and-convert-electronic-documents.md)
 ### [Terminberechnung für Einkäufe](purchasing-date-calculation-for-purchases.md)
 ### [Doppelte Datensätze zusammenführen](sales-how-merge-duplicate-records.md)
-### [Arbeiten mit Rahmenbestellungen](sales-how-to-create-blanket-sales-orders.md)
+### [Mit Rahmenbestellungen arbeiten](sales-how-to-create-blanket-sales-orders.md)
 ### [Externe Belegnummern auf Einkaufsbelegen](purchasing-ext-doc-no.md)
 ### [Externe Belegnummern eingeben](across-enter-external-document-numbers.md)
-### [Wiederkehrende Einkaufszeilen erstellen](purchasing-how-work-recurring-purchase-lines.md)
+### [Wiederkehrende Einkaufspositionen erstellen](purchasing-how-work-recurring-purchase-lines.md)
 
-## Lagerbestand
-### [Lagerbestand – Übersicht](inventory-manage-inventory.md)
+## Bestand
+### [Lagerbestand – Übersicht](inventory-manage-inventory.md)
 ### [Bestands- und Lagerberichte](inventory-WMS-reports.md)
 ### [Neue Artikel registrieren](inventory-how-register-new-items.md)
 ### [Mit Stücklisten arbeiten](inventory-how-work-BOMs.md)
@@ -544,12 +544,12 @@
 ### [Mit Zuständigkeitseinheiten arbeiten](inventory-responsibility-centers.md)
 
 ## Projektmanagement
-### [Projektmanagement – Übersicht](projects-manage-projects.md)
+### [Projektmanagement – Übersicht](projects-manage-projects.md)
 ### [Projektberichte](project-reports.md)
 ### [Projekte erstellen](projects-how-create-jobs.md)
 ### [Ressourcen für Projekte verwenden](projects-how-use-resources.md)
 ### [Arbeitszeittabellen verwenden](projects-how-use-time-sheets.md)
-### [Anlagenbudgets verwalten](projects-how-manage-budgets.md)
+### [Projektbudgets verwalten](projects-how-manage-budgets.md)
 ### [Verbrauch für Projekte erfassen](projects-how-record-job-usage.md)
 ### [Projektlieferungen verwalten](projects-how-manage-project-supplies.md)
 ### [Grundlagen von RIF-Methoden](projects-understanding-wip.md)
@@ -557,7 +557,7 @@
 ### [Projekte fakturieren](projects-how-invoice-jobs.md)
 
 ## Anlagen
-### [Anlagen – Übersicht](fa-manage.md)
+### [Anlagen – Übersicht](fa-manage.md)
 ### [Anlagenberichte und -analysen](fa-reports.md)
 ### [Anlagen erwerben](fa-how-acquire.md)
 ### [Anlagen verwalten](fa-how-maintain.md)
@@ -570,7 +570,7 @@
 ### [Fehlerbehebung bei Anlagenposten](fa-troubleshooting-fa-ledger-entries.md)
 
 ## Marketing und Vertrieb
-### [Marketing und Vertrieb – Übersicht](marketing-relationship-management.md)
+### [Marketing und Vertrieb – Übersicht](marketing-relationship-management.md)
 ### [Marketing und Vertrieb einrichten](marketing-setup-marketing.md)
 ### Kontakte verwalten
 #### [Kontakte](marketing-contacts.md)
@@ -595,12 +595,12 @@
 #### [Austausch von E-Mail-Nachrichten nachverfolgen](marketing-set-up-email-logging.md)
 #### [Verkaufschancen verarbeiten](marketing-processing-sales-opportunities.md)
 ### [Profilbefragungen verwenden, um Geschäftskontakte zu klassieren](marketing-create-contact-profile-questionnaire.md)
-### [Dynamics 365 for Sales aus Business Central verwenden](marketing-integrate-dynamicscrm.md)
+### [Dynamics 365 Sales aus Business Central verwenden](marketing-integrate-dynamicscrm.md)
 #### [Datensätze manuell koppeln und synchronisieren](admin-how-to-couple-and-synchronize-records-manually.md)
 #### [Den Synchronisierungsstatus anzeigen](admin-how-to-view-synchronization-status.md)
 
 ## Personalwesen
-### [PW – Übersicht](hr-manage-human-resources.md)
+### [PW – Übersicht](hr-manage-human-resources.md)
 ### [Mitarbeiter registrieren](hr-how-register-employees.md)
 ### [Fehlzeiten der Mitarbeiter verwalten](hr-how-manage-absence.md)
 
@@ -609,7 +609,7 @@
 ### [Info zu Planungsfunktionen](production-about-planning-functionality.md)
 ### [Mit/ohne Lagerortcodes planen](production-planning-with-without-locations.md)
 ### [Absatzplanung erstellen](production-how-to-create-a-forecast.md)
-### [Fertigungsaufträge aus Verkaufsaufträgen erstellen:](production-how-to-create-production-orders-from-sales-orders.md)
+### [Fertigungsaufträge aus Verkaufsaufträgen erstellen](production-how-to-create-production-orders-from-sales-orders.md)
 ### [Neuen Bedarfsauftrag nach Auftrag planen](production-how-to-plan-for-new-demand.md)
 ### [Vollständige Planung, Prod.-Programmplanung oder Nettobedarf ausführen](production-how-to-run-mps-and-mrp.md)
 ### [Fertigungsaufträge direkt neu planen oder aktualisieren](production-how-to-replan-refresh-production-orders.md)
@@ -627,15 +627,15 @@
 ### [Angebot für einen Programmfertigungsverkauf](assembly-how-to-quote-an-assemble-to-order-sale.md)
 ### [Artikel montieren](assembly-how-to-assemble-items.md)
 ### [Programmfertigungsartikel verkaufen](assembly-how-to-sell-items-assembled-to-order.md)
-### [Lagerartikel in Programmfertigungsflüssen verkaufen](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md)
+### [Lagerartikel in Programmfertigungs-Flows verkaufen](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md)
 ### [Programmfertigungsartikel und Lagerartikel zusammen verkaufen](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md)
-### [Montagerahmenaufträge](assembly-how-to-create-blanket-assembly-orders.md)
+### [Montagerahmenaufträge erstellen](assembly-how-to-create-blanket-assembly-orders.md)
 ### [Montagebuchung rückgängig machen](assembly-how-to-undo-assembly-posting.md)
 ### [Mit Montagestücklisten arbeiten](assembly-how-work-assembly-boms.md)
 ### [Designdetails: Montageauftragsbuchung](design-details-assembly-order-posting.md)
 
 ## Fertigung
-### [Fertigung – Übersicht](production-manage-manufacturing.md)
+### [Fertigung – Übersicht](production-manage-manufacturing.md)
 ### [Fertigungsberichte](production-reports.md)
 ### [Informationen zu Fertigungsaufträgen](production-about-production-orders.md)
 ### [Fertigungsaufträge erstellen](production-how-to-create-production-orders.md)
@@ -650,7 +650,7 @@
 ### [Info zu Kosten des beendeten Fertigungsauftrags](finance-about-finished-production-order-costs.md)
 
 ## Lagerverwaltung
-### [Lagerverwaltung – Übersicht](design-details-warehouse-management.md)
+### [Lagerverwaltung – Übersicht](design-details-warehouse-management.md)
 <!-- ### [Warehouse Management](warehouse-manage-warehouse.md) -->
 ### [Bestands- und Lagerberichte](inventory-WMS-reports.md)
 
@@ -684,12 +684,12 @@
 #### Artikel umlagern
 ##### [Artikel umlagern](warehouse-move-items.md)
 ##### [Lagerbestand zwischen Lagerplätzen umlagern](inventory-how-transfer-between-locations.md)
-##### [Artikel intern in Basis-Lagerkonfigurationen umlagern](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)
+##### [Artikel intern in Basislagerkonfigurationen umlagern](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)
 ##### [Artikel in erweiterten Lagerkonfigurationen mit gezielter Entnahme und Einlagerung umlagern](warehouse-how-to-move-items-in-advanced-warehousing.md)
 
 #### Lagerzählung
 ##### [Designdetails: Integration mit dem Lagerbestand](design-details-integration-with-inventory.md)
-##### [Lagerbestand mithilfe von Belegen erfassen und regulieren](inventory-how-count-inventory-with-documents.md)
+##### [Lagerbestand mithilfe von Belegen erfassen und regulieren ](inventory-how-count-inventory-with-documents.md)
 ##### [Lagerbestand erfassen, regulieren und umbuchen](inventory-how-count-adjust-reclassify.md)
 
 ## Serviceverwaltung
@@ -701,10 +701,10 @@
 #### [Zuordnungsstatus und Reparaturstatus von Serviceartikeln](service-allocation-status-and-repair-status.md)
 #### [Servicestatistik anzeigen](service-service-statistics.md)
 ### Dienstleistungsverträge erfüllen
-#### [Fulfill Service Contracts](service-fulfill-service-contracts.md)
+#### [Dienstleistungsverträge erfüllen](service-fulfill-service-contracts.md)
 #### [Mehrere Verträge](service-multiple-contracts.md)
 #### [Mit Dienstleistungsverträgen und Dienstleistungsvertragsangeboten arbeiten](service-how-to-create-service-contracts-and-service-contract-quotes.md)
-#### [Betrag "Zu fakturieren (Jahr)" für Dienstleistungsverträge oder Vertragsangebote ändern](service-how-to-change-the-annual-amount-on-service-contracts-or-contract-quotes.md)
+#### [Betrag „Zu fakturieren (Jahr)“ für Dienstleistungsverträge oder Vertragsangebote ändern](service-how-to-change-the-annual-amount-on-service-contracts-or-contract-quotes.md)
 ### Service bereitstellen
 #### [Service bereitstellen](service-deliver-service.md)
 #### [Serviceangebote erstellen](service-how-to-create-service-quotes.md)
@@ -719,11 +719,11 @@
 ## Onlineshop mit Shopify
 ### [Erste Schritte mit dem Shopify-Konnektor](shopify/get-started.md)
 #### [Shopify-Konto erstellen und einrichten](shopify/shopify-account.md)
-### [Elemente mit Shopify synchronisieren](shopify/synchronize-items.md)
+### [Artikel mit Shopify synchronisieren](shopify/synchronize-items.md)
 ### [Debitoren mit Shopify synchronisieren](shopify/synchronize-customers.md)
 ### [Verkaufsaufträge mit Shopify synchronisieren und erfüllen](shopify/synchronize-orders.md)
 ### [Transaktionen und Auszahlungen synchronisieren](shopify/transactions-and-payouts.md)
-### [Steuern für die Shopify Verbindung einrichten](shopify/setup-taxes.md)
+### [Steuern für die Shopify-Verbindung einrichten](shopify/setup-taxes.md)
 ### [Aufgaben im Hintergrund ausführen](shopify/background.md)
 ### [Probleme bei Shopify-Konnektor beheben](shopify/troubleshoot.md)
 ### [Häufig gestellte Fragen zum Shopify-Konnektor](shopify/shopify-faq.md)
@@ -736,7 +736,7 @@
 ### [Fehler beim Unternehmens-Hub beheben](company-hub-troubleshooting.md)
 <!--LF-->
 ## Lokale Funktionen
-### [Lokale Funktionen – Übersicht](about-localization.md)
+### [Lokale Funktionen – Übersicht](about-localization.md)
 
 ### Australien
 #### [Übersicht über die australische Version](LocalFunctionality/Australia/australia-local-functionality.md)
@@ -752,7 +752,7 @@
 ##### [Gebuchte Steuergutschriften anzeigen](LocalFunctionality\Australia\how-to-view-posted-tax-credit-memos.md)
 ##### [Waren- und Dienstleistungssteuerbuchung einrichten](LocalFunctionality/Australia/how-to-set-up-goods-and-service-tax-posting.md)
 ##### [Steuern für Waren und Dienstleistungen auf Vorauszahlungen berechnen](LocalFunctionality/Australia/how-to-calculate-goods-and-services-tax-on-prepayments.md)
-##### [Abrechnungswechselkursen für MwSt.-Posten justieren](LocalFunctionality/Australia/how-to-adjust-settlement-exchange-rates-for-vat-entries.md)
+##### [Abrechnungswechselkurse für MwSt.-Posten anpassen](LocalFunctionality/Australia/how-to-adjust-settlement-exchange-rates-for-vat-entries.md)
 ##### [Berichte über die Steuerabrechnung für Waren und Dienstleistungen drucken](LocalFunctionality/Australia/how-to-print-goods-and-service-tax-settlement-reports.md)
 #### Banking und Zahlungen
 ##### [Cashflow der Bank vergleichen](LocalFunctionality/Australia/how-to-compare-bank-cash-flow.md)
@@ -774,9 +774,9 @@
 
 ### Österreich
 #### [Lokale Funktionen in der österreichischen Version](LocalFunctionality/Austria/austria-local-functionality.md)
-#### MwSt.
+#### Mehrwertsteuer
 ##### [MwSt.-Abrechnung erstellen](LocalFunctionality/Austria/how-to-create-a-vat-statement.md)
-##### [MwSt.-Berichterstellung](LocalFunctionality/Austria/vat-reporting.md)
+##### [MwSt.-Berichte](LocalFunctionality/Austria/vat-reporting.md)
 #### Banking und Zahlungen
 ##### [Listenberichte für Kreditorenzahlungen drucken](LocalFunctionality/Austria/how-to-print-vendor-payments-list-reports.md)
 #### Einkauf
@@ -793,9 +793,9 @@
 
 ### Belgien
 #### [Lokale Funktionen in der belgischen Version](LocalFunctionality/Belgium/belgium-local-functionality.md)
-#### MwSt.
+#### Mehrwertsteuer
 ##### [Belgische MwSt.](LocalFunctionality/Belgium/belgian-vat.md)
-##### [Nicht absetzbare MwSt.einrichten](LocalFunctionality/Belgium/how-to-set-up-non-deductible-vat.md)
+##### [Nicht abziehbare MwSt. einrichten](LocalFunctionality/Belgium/how-to-set-up-non-deductible-vat.md)
 ##### [Manuelle MwSt.-Korrekturen vornehmen](LocalFunctionality/Belgium/how-to-make-manual-corrections-to-vat.md)
 ##### [Periodische MwSt.-Berichte drucken](LocalFunctionality/Belgium/how-to-print-periodic-vat-reports.md)
 ##### [Belgische Zollpositionen einrichten](LocalFunctionality/Belgium/how-to-set-up-belgian-tariff-numbers.md)
@@ -813,8 +813,8 @@
 ##### [Buch.-Blattvorlagen und -namen erstellen](LocalFunctionality/Belgium/how-to-create-payment-journal-templates-and-batches.md)
 ##### [Elektronische Zahlungen testen](LocalFunctionality/Belgium/how-to-test-electronic-payments.md)
 ##### [Zahlungsdateien exportieren](LocalFunctionality/Belgium/how-to-print-payment-files.md)
-##### [Lastschrift mithilfe von Zahlbarstellungen](LocalFunctionality/Belgium/direct-debit-using-domiciliation.md)
-##### [CODA Bankauszüge](LocalFunctionality/Belgium/coda-bank-statements.md)
+##### [Zahlbarstellungen für Lastschrift verwenden](LocalFunctionality/Belgium/direct-debit-using-domiciliation.md)
+##### [CODA-Bankauszüge](LocalFunctionality/Belgium/coda-bank-statements.md)
 ##### [CODA-Kontoauszüge ausgleichen](LocalFunctionality/Belgium/how-to-apply-coda-statements.md)
 ##### [CODA-Kontoauszüge automatisch übertragen und buchen](LocalFunctionality/Belgium/how-to-automatically-transfer-and-post-coda-statements.md)
 ##### [CODA-Kontoauszüge manuell übertragen und buchen](LocalFunctionality/Belgium/how-to-manually-transfer-and-post-coda-statements.md)
@@ -828,7 +828,7 @@
 ##### [Buchungszeitraum beschränken](LocalFunctionality/Belgium/how-to-limit-the-posting-period.md)
 ##### [Arbeitsdatum als Buchungsdatum festlegen](LocalFunctionality/Belgium/how-to-set-the-work-date-as-the-posting-date.md)
 ##### [Buch.-Blattvorlagen als obligatorisch festlegen](LocalFunctionality/Belgium/specify-journal-template-mandatory.md)
-##### [Stundungen in Vertriebs- und Kauf-Sachkontoberichten](LocalFunctionality/Belgium/how-to-use-deferrals.md}
+##### [Aufschiebungen in Verkaufs- und Einkaufsbuchberichten](LocalFunctionality/Belgium/how-to-use-deferrals.md)
 
 ### Kanada
 #### [Lokale Funktionalität in der kanadischen Version](LocalFunctionality/Canada/canada-local-functionality.md)
@@ -853,8 +853,8 @@
 ##### [Jahresabschlussvorgänge](LocalFunctionality/Czech/year-close-operations.md)
 ##### [Sachkontoposten-Ausgleich](LocalFunctionality/Czech/general-ledger-entries-application.md)
 ##### [Wechselkursaktualisierung](LocalFunctionality/Czech/exchange-rate-update.md)
-#### MwSt.
-##### [Finanzen – MwSt.](LocalFunctionality/Czech/finance-vat.md)
+#### Mehrwertsteuer
+##### [Finanzen – MwSt.](LocalFunctionality/Czech/finance-vat.md)
 ##### [MwSt.-Steuerbericht](LocalFunctionality/Czech/vat-control-report.md)
 #### Anlagen
 ##### [Anlagen](LocalFunctionality/Czech/fixed-assets.md)
@@ -870,18 +870,18 @@
 #### Forderungen und Verbindlichkeiten
 ##### [Forderungen und Verbindlichkeiten](LocalFunctionality/Czech/receivables-payables.md)
 ##### [Intrastat](LocalFunctionality/Czech/intrastat.md)
-##### [Entschädigungen-Lokalisierung für Tschechisch (Erweiterung)](LocalFunctionality/Czech/ui-extensions-compensations-localization-cz.md)
-#### Lagerbestand
-##### [Lagerbestand](LocalFunctionality/Czech/inventory.md)
+##### [Ausgleichslokalisierung für Tschechisch (Erweiterung)](LocalFunctionality/Czech/ui-extensions-compensations-localization-cz.md)
+#### Bestand
+##### [Bestand](LocalFunctionality/Czech/inventory.md)
 #### Allgemein
 ##### [Erweiterte Benutzerkontrolle](LocalFunctionality/Czech/general.md)
 ##### [Bewährte Methoden](LocalFunctionality/Czech/best-practices.md)
 
 ### Dänemark
 #### [Lokale Funktionen in der dänischen Version](LocalFunctionality/Denmark/denmark-local-functionality.md)
-#### MwSt.
+#### Mehrwertsteuer
 ##### [MwSt.-Abstimmungsberichte drucken](LocalFunctionality/Denmark/how-to-print-vat-reconciliation-reports.md)
-##### [VAT-VIES-Berichte](LocalFunctionality/Denmark/vat-vies-reporting.md)
+##### [MwSt.-VIES-Berichte](LocalFunctionality/Denmark/vat-vies-reporting.md)
 ##### [Einrichtung der Umsatzsteuer-Identifikationsnummer für Intrastat](LocalFunctionality/Denmark/vat-registration-no-intrastat.md)
 #### Banking und Zahlungen
 ##### [FIK-Details im Zahlungsabstimmungsbuch.-Blatt](LocalFunctionality/Denmark/fik-details-in-the-payment-reconciliation-journal.md)
@@ -897,10 +897,10 @@
 
 ### Finnland
 #### [Lokale Funktionen in der finnischen Version](LocalFunctionality/Finland/finland-local-functionality.md)
-#### MwSt.
+#### Mehrwertsteuer
 ##### [Finnische Intrastatberichte drucken](LocalFunctionality/Finland/how-to-print-finnish-intrastat-reports.md)
 ##### [MwSt.-Informationen auf Rechnungen drucken](LocalFunctionality/Finland/how-to-print-vat-information-on-invoices.md)
-##### [VAT-VIES-Meldung in Finnland](LocalFunctionality/Finland/vat-vies-declaration-in-finland.md)
+##### [MwSt.-VIES-Meldung in Finnland](LocalFunctionality/Finland/vat-vies-declaration-in-finland.md)
 #### Banking und Zahlungen
 ##### [Electronic Banking in Finnland](LocalFunctionality/Finland/electronic-banking-in-finland.md)
 ##### [Zahlungsdateien generieren](LocalFunctionality/Finland/how-to-generate-payment-files.md)
@@ -914,7 +914,7 @@
 
 ### Frankreich
 #### [Lokale Funktionen in der französischen Version](LocalFunctionality/France/france-local-functionality.md)
-#### MwSt.
+#### Mehrwertsteuer
 ##### [Sachposten für Steuerprüfungen exportieren](LocalFunctionality/France/how-to-export-general-ledger-entries-for-tax-audits.md)
 ##### [Sachposten in eine XML-Datei exportieren](LocalFunctionality/France/how-to-export-general-ledger-entries-to-an-xml-file.md)
 ##### [Anforderungen für die Meldung von Warenverkehr](LocalFunctionality/France/requirements-for-reporting-declaration-of-trade-in-goods.md)
@@ -950,7 +950,7 @@
 
 ### Deutschland
 #### [Lokale Funktionen in der deutschen Version](LocalFunctionality/Germany/germany-local-functionality.md)
-#### MwSt.
+#### Mehrwertsteuer
 ##### [Berichte für MwSt.und Intrastat einrichten](LocalFunctionality/Germany/how-to-set-up-reports-for-vat-and-intrastat.md)  
 ##### [MwSt.-Berichte einrichten](LocalFunctionality/Germany/how-to-set-up-vat-reports.md)
 ##### [MwSt.-Berichte](LocalFunctionality/Germany/vat-reporting.md)
@@ -967,7 +967,7 @@
 ##### [Datenexporte für digitale Prüfungen einrichten](LocalFunctionality/Germany/how-to-set-up-data-exports-for-digital-audits.md)
 ##### [Daten für eine digitale Überwachung exportieren](LocalFunctionality/Germany/how-to-export-data-for-a-digital-audit.md)
 ##### [GDPDU-Filterbeispiele](LocalFunctionality/Germany/gdpdu-filter-examples.md)
-##### [.DTD-Definitions-Dateien aktualisieren](LocalFunctionality/Germany/how-to-upgrade-a-.dtd-definition-file.md)
+##### [.DTD-Definitions-Datei aktualisieren](LocalFunctionality/Germany/how-to-upgrade-a-.dtd-definition-file.md)
 ##### [Exemplarische Vorgehensweise: Daten für eine digitale Prüfung exportieren](LocalFunctionality/Germany/walkthrough-exporting-data-for-a-digital-audit.md)
 #### Einkauf
 ##### [Lieferanmahnungen einrichten](LocalFunctionality/Germany/how-to-set-up-delivery-reminders.md)
@@ -987,11 +987,11 @@
 
 ### Island
 #### [Lokale Funktionen in der isländischen Version](LocalFunctionality/Iceland/iceland-local-functionality.md)
-#### MwSt.
+#### Mehrwertsteuer
 ##### [MwSt.-Zusammenfassungsinformationen auf Belegen drucken](LocalFunctionality/Iceland/how-to-print-vat-summary-information-on-documents.md)  
 ##### [Besondere Datenausgabe und Berichte für Steuerbehörden](LocalFunctionality/Iceland/special-data-output-and-reports-for-the-tax-authority.md)
 #### Elektronische Fakturierung
-##### [Anforderungen bei der elektronischen Fakturierung: Ausgeben einer einzelnen Rechnungskopie](LocalFunctionality/Iceland/electronic-invoicing-requirement-issuing-single-copy-invoice.md)
+##### [Anforderungen bei der elektronischen Fakturierung: Eine einzelne Rechnungskopie ausgeben](LocalFunctionality/Iceland/electronic-invoicing-requirement-issuing-single-copy-invoice.md)
 #### Allgemein  
 ##### [IRS-Nummern dem Kontenplan zuordnen](LocalFunctionality/Iceland/how-to-map-irs-numbers-to-chart-of-accounts.md)  
 ##### [Gebuchte Rechnungen und Gutschriften löschen](LocalFunctionality/Iceland/deleting-posted-invoices-and-credit-memos.md)  
@@ -1006,12 +1006,12 @@
 ##### Steuermodulkonfiguration
 ###### [Konfiguration von Steuerart und Steuersatz](LocalFunctionality/India/TaxEngine-003-Tax-Configuration.md)
 ###### [Konfiguration des Anwendungsfalls](LocalFunctionality/India/TaxEngine-003.1-Tax-Configuration.md)
-##### [Steuermodul – Suche](LocalFunctionality/India/TaxEngine-004-Lookup.md)
-##### [Steuermodul – Designüberlegungen](LocalFunctionality/India/TaxEngine-006-Design-Consideration.md)
+##### [Steuermodul – Suche](LocalFunctionality/India/TaxEngine-004-Lookup.md)
+##### [Steuermodul – Designüberlegungen](LocalFunctionality/India/TaxEngine-006-Design-Consideration.md)
 ##### [Steuermodulskript](LocalFunctionality/India/TaxEngine-005-Script-Activities.md)
 #### GST
-##### [GST – Übersicht](LocalFunctionality/India/GST-001-Basic-Setup.md)
-##### Vorsteuer
+##### [GST-Übersicht](LocalFunctionality/India/GST-001-Basic-Setup.md)
+##### GST-Vorsteuer
 ###### [Kauf beim Verbundkreditor](LocalFunctionality/India/GST-Purchase-from-Composite-Vendor.md)
 ###### [Kauf beim registrierten Kreditor](LocalFunctionality/India/GST-Purchase-from-Registered-Vendor.md)
 ###### [Kauf beim nicht registrierten Kreditor (Erwerbsbesteuerung)](LocalFunctionality/India/GST-Purchase-from-Unregistered-Vendor-RCM.md)
@@ -1026,38 +1026,38 @@
 ###### [Bestellretoure an ausländischen Kreditor](LocalFunctionality/India/GST-Purchase-Return-to-Foreign-Vendor.md)
 ###### [Bestellretoure an Kreditor mit Ort der Lieferung in Übersee](LocalFunctionality/India/GST-Return-of-Service-for-Overseas-Place-of-supply-Registered-Vendor.md)
 ##### GST für Erfassungen/Zahlung/Anwendung
-###### [USt. in Erfassungen](LocalFunctionality/India/GST-GST-Calculation-on-Journals-where-Services-paid-directly-through-CashBank.md)
-###### [USt. bei Vorauszahlung an den Kreditor](LocalFunctionality/India/GST-GST-on-Advance-Payment-made-to-Vendor.md)
-###### [USt.-Anwendung bei Zahlung und Rechnung](LocalFunctionality/India/GST-Advance-Normal-Payment-and-Purchase-Invoice-Goods-Application.md)
-###### [USt. bei Debitorenvorschuss-Eingang](LocalFunctionality/India/GST-GST-on-Advance-Payment-received-from-Customer.md)
-###### [USt.-Anwendung bei Wareneingang und Rechnung](LocalFunctionality/India/GST-GST-on-Advance-Receipt-Application-to-Sales-Invoice.md)
-###### [USt. und TCS bei Debitorenvorschuss](LocalFunctionality/India/GST-TCS-on-Advance-Receipt-Application-to-Sales-Invoice.md)
+###### [GST in Erfassungen](LocalFunctionality/India/GST-GST-Calculation-on-Journals-where-Services-paid-directly-through-CashBank.md)
+###### [GST bei Vorauszahlung an den Kreditor](LocalFunctionality/India/GST-GST-on-Advance-Payment-made-to-Vendor.md)
+###### [GST-Anwendung bei Zahlung und Rechnung](LocalFunctionality/India/GST-Advance-Normal-Payment-and-Purchase-Invoice-Goods-Application.md)
+###### [GST bei Debitorenvorschuss-Eingang](LocalFunctionality/India/GST-GST-on-Advance-Payment-received-from-Customer.md)
+###### [GST-Anwendung bei Wareneingang und Rechnung](LocalFunctionality/India/GST-GST-on-Advance-Receipt-Application-to-Sales-Invoice.md)
+###### [GST und TCS bei Debitorenvorschuss](LocalFunctionality/India/GST-TCS-on-Advance-Receipt-Application-to-Sales-Invoice.md)
 ###### [GST und TDS bei Kreditorenvorschuss](LocalFunctionality/India/GST-TDS-on-Advance-Payment-Application-to-Purchase-Invoice.md)
-##### USt. bei Verkauf
+##### GST bei Verkauf
 ###### [Von USt. befreite Verkäufe](LocalFunctionality/India/GST-Exempted-Sales.md)
 ###### [Verkauf an registrierte und nicht registrierte Debitoren](LocalFunctionality/India/GST-Sale-to-Registered-Unregistered-Customer.md)
 ###### [Verkauf an ausländische Kunden](LocalFunctionality/India/GST-Sale-to-Foreign-Customer-Service.md)
 ###### [Verkauf an registrierte Kunden mit Übersee-POS](LocalFunctionality/India/GST-Sale-to-Registered-Customer-Overseas-POS.md)
-###### [USt. und TCS bei Verkaufstransaktion](LocalFunctionality/India/GST-TCS-and-GST-on-Sales-Transaction.md)
-###### [USt. – Kerala Flood Cess](LocalFunctionality/India/GST-and-Kerala-Flood-Cess-on-Sales.md)
-##### USt. auf Verkaufsretoure
+###### [GST und TCS bei Verkaufstransaktion](LocalFunctionality/India/GST-TCS-and-GST-on-Sales-Transaction.md)
+###### [GST – Kerala Flood Cess](LocalFunctionality/India/GST-and-Kerala-Flood-Cess-on-Sales.md)
+##### GST auf Verkaufsretoure
 ###### [Verkaufsretoure von registrierten und nicht registrierten Debitoren](LocalFunctionality/India/GST-Sale-Return-to-Registered-Unregistered-Customer.md)
 ###### [Verkaufsretoure von registrierten Kunden mit Übersee-POS](LocalFunctionality/India/GST-Sales-Return-to-Registered-Customer-Overseas-POS.md)
-##### USt. auf Umlagerung
-###### [USt. bei Bestandsumlagerung](LocalFunctionality/India/GST-Stock-Transfer.md)
-###### [GST Serviceumlagerung](LocalFunctionality/India/GST-Service-Transfer.md)
+##### GST auf Umlagerung
+###### [GST bei Bestandsumlagerung](LocalFunctionality/India/GST-Stock-Transfer.md)
+###### [GST-Serviceumlagerung](LocalFunctionality/India/GST-Service-Transfer.md)
 ##### GST für Bankgebühren
-###### [GST Bankgebühren - Übersicht](LocalFunctionality/India/GST-Bank-Charges-Overview.md)
-###### [GST Bankgebührentransaktion](LocalFunctionality/India/GST-Bank-Charges-Transaction.md)
+###### [GST-Bankgebühren – Übersicht](LocalFunctionality/India/GST-Bank-Charges-Overview.md)
+###### [GST-Bankgebührentransaktion](LocalFunctionality/India/GST-Bank-Charges-Transaction.md)
 ##### GST TDS/TCS
-###### [GST TDS TCS – Übersicht](LocalFunctionality/India/GST-TDS-TCS-Overview.md)
+###### [Übersicht über GST TDS TCS](LocalFunctionality/India/GST-TDS-TCS-Overview.md)
 ###### [GST TCS bei Zahlung](LocalFunctionality/India/GST-TCS-on-Payment.md)
 ###### [GST TDS TCS bei Empfang](LocalFunctionality/India/GST-TDS-TCS-on-Receipt.md)
 ##### GST-Ausgleiche/periodische Aktivitäten
 ###### [GST-Guthaben- und Verbindlichkeitenausgleich](LocalFunctionality/India/GST-GST-Credit-and-Liability-Adjustment-for-Reverse-Charge-Service-Invoice.md)
 ###### [GST-Abstimmung](LocalFunctionality/India/GST-Reconciliation.md)
-###### [GST – elektronischer Frachtbrief (E-Way Bill)](LocalFunctionality/India/GST-E-Way-Bill.md)
-###### [GST – Vorsteuergutschriftsausgleich](LocalFunctionality/India/GST-Input-Tax-Credit-Adjustment.md)
+###### [GST – Elektronischer Frachtbrief (E-Way Bill)](LocalFunctionality/India/GST-E-Way-Bill.md)
+###### [GST – Vorsteuergutschriftsausgleich](LocalFunctionality/India/GST-Input-Tax-Credit-Adjustment.md)
 ###### [GST-Ausgleich](LocalFunctionality/India/GST-Settelement.md)
 ###### [GST E-Invoice](LocalFunctionality/India/GST-E-Invoice.md)
 ##### GST Cess
@@ -1065,36 +1065,36 @@
 ###### [GST-Cess-Berechnung](LocalFunctionality/India/GST-Cess-Calculations.md)
 ##### GST für Serviceverwaltung
 ###### [GST für Serviceverwaltung](LocalFunctionality/India/GST-Service-Management.md)
-##### GST Eingabeserviceverteilung
-###### [GST Eingabeserviceverteilung – Übersicht](LocalFunctionality/India/GST-Input-Service-Distribution-Overview.md)
-###### [GST Eingabeserviceverteilung – Prozess](LocalFunctionality/India/GST-Input-Service-Distribution-Process.md)
-###### [GST Eingabeserviceverteilung – Transaktion](LocalFunctionality/India/GST-Input-Service-Distribution-Transaction.md)
+##### GST-Eingabeserviceverteilung
+###### [GST-Eingabeserviceverteilung – Übersicht](LocalFunctionality/India/GST-Input-Service-Distribution-Overview.md)
+###### [GST-Eingabeserviceverteilung – Prozess](LocalFunctionality/India/GST-Input-Service-Distribution-Process.md)
+###### [GST-Eingabeserviceverteilung – Transaktion](LocalFunctionality/India/GST-Input-Service-Distribution-Transaction.md)
 #### TDS
-##### [TDS – Übersicht](LocalFunctionality/India/TDS-Overview.md)
-##### [TDS Transaktionen](LocalFunctionality/India/TDS-Transactions.md)
-##### [TDS Schwellenwert](LocalFunctionality/India/TDS-Threshold.md)
+##### [TDS-Übersicht](LocalFunctionality/India/TDS-Overview.md)
+##### [TDS-Transaktionen](LocalFunctionality/India/TDS-Transactions.md)
+##### [TDS-Schwellenwert](LocalFunctionality/India/TDS-Threshold.md)
 ##### [Vorläufiger TDS-Posten](LocalFunctionality/India/TDS-Provisional-Entries.md)
 ##### [TDS-Ausgleichsposten](LocalFunctionality/India/TDS-Adjustment-Entries.md)
 ##### [TDS-Zahlung an die Behörde](LocalFunctionality/India/TDS-TDS-Payment-to-Authority.md)
-##### [TDS 194Q-Abschnitt – Übersicht](LocalFunctionality/India/TDS-194Q-Section-Overview.md)
-##### [TDS 194Q Transaktionen](LocalFunctionality/India/TDS-194Q-Transactions.md)
+##### [TDS 194Q-Abschnitt – Übersicht](LocalFunctionality/India/TDS-194Q-Section-Overview.md)
+##### [TDS 194Q-Transaktionen](LocalFunctionality/India/TDS-194Q-Transactions.md)
 #### TDS für Debitor
-##### [TDS für Debitor – Übersicht](LocalFunctionality/India/TDS-for-Customer-Overview.md)
+##### [TDS für Debitor – Übersicht](LocalFunctionality/India/TDS-for-Customer-Overview.md)
 ##### [TDS-Berechnung für Debitor](LocalFunctionality/India/TDS-Calculation-for-Customer.md)
 ##### [TDS-Zertifikat-Update](LocalFunctionality/India/TDS-Certificate-Update.md)
 #### TCS
-##### [TCS – Übersicht](LocalFunctionality/India/TCS-Overview.md)
-##### [TCS Transaktionen](LocalFunctionality/India/TCS-Transactions.md)
-##### [TCS Schwellenwert](LocalFunctionality/India/TCS-Threshold.md)
+##### [TCS-Übersicht](LocalFunctionality/India/TCS-Overview.md)
+##### [TCS-Transaktionen](LocalFunctionality/India/TCS-Transactions.md)
+##### [TCS-Schwellenwert](LocalFunctionality/India/TCS-Threshold.md)
 ##### [TCS-Ausgleichsposten](LocalFunctionality/India/TCS-Adjustment-Entries.md)
 ##### [TCS-Zahlung an die Behörde](LocalFunctionality/India/TCS-Payment-to-Authority.md)
 ##### [206C-1H-Übersicht](LocalFunctionality/India/TCS-206C-1H-Overview.md)
 ##### [206C-1H-Transaktion](LocalFunctionality/India/TCS-206C-1H-Transactions.md)
 #### Gutscheinschnittstelle
-##### [Gutscheinschnittstelle – Übersicht](LocalFunctionality/India/Vouche-Interface-Overview.md)
+##### [Gutscheinschnittstelle – Übersicht](LocalFunctionality/India/Vouche-Interface-Overview.md)
 ##### [Gutscheinschnittstellentransaktion](LocalFunctionality/India/Voucher-Interface-Transactions.md)
 #### Anlage
-##### [Anlagen – Übersicht](LocalFunctionality/India/FA_Overview.md)
+##### [Anlagen – Übersicht](LocalFunctionality/India/FA_Overview.md)
 ##### [Anlagenabschreibung](LocalFunctionality/India/FA_Depreciation.md)
 #### Gate Entry
 ##### [Gate Entry-Übersicht](LocalFunctionality/India/Gate-Entry-001-Basic-Setup.md)
@@ -1109,10 +1109,10 @@
 
 ### Italien
 #### [Lokale Funktionen in der italienischen Version](LocalFunctionality/Italy/italy-local-functionality.md)
-#### MwSt.
+#### Mehrwertsteuer
 ##### [Italienische MwSt.](LocalFunctionality/Italy/italian-vat.md)
 ##### [MwSt.-Abrechnungen übermitteln](LocalFunctionality/Italy/how-to-submit-vat-statements.md)
-##### [Korrekte MwSt.-Transaktionsberichte](LocalFunctionality/Italy/how-to-correct-vat-transactions-reports.md)
+##### [MwSt.-Transaktionsberichte korrigieren](LocalFunctionality/Italy/how-to-correct-vat-transactions-reports.md)
 ##### [Elektronische MwSt.-Transaktionsberichte erstellen](LocalFunctionality/Italy/how-to-create-electronic-vat-transactions-reports.md)
 ##### [MwSt.-Transaktionsberichte exportieren](LocalFunctionality/Italy/how-to-export-vat-transactions-reports.md)
 ##### [MwSt.-Transaktionsdaten aktualisieren](LocalFunctionality\Italy\how-to-update-vat-transactions-data.md)
@@ -1125,13 +1125,13 @@
 #### Banking und Zahlungen
 ##### [Zahlungsbedingungen einrichten](LocalFunctionality/Italy/how-to-set-up-payment-terms.md)
 ##### [Automatische Zahlungen und Rechnungen einrichten](LocalFunctionality/Italy/how-to-set-up-automatic-payments-and-automatic-bills.md)
-##### [Kreditorenzahlungen und Debitorenrechnungen - Übersicht](LocalFunctionality/Italy/vendor-payments-and-customer-bills-overview.md)
+##### [Kreditorenzahlungen und Debitorenrechnungen – Übersicht](LocalFunctionality/Italy/vendor-payments-and-customer-bills-overview.md)
 ##### [Kreditorenzahlungen und Debitorenrechnungen ausstellen](LocalFunctionality/Italy/how-to-issue-vendor-payments-and-customer-bills.md)
 #### Kernfinanzierung
 ##### [Geschäftsjahr schließen](LocalFunctionality/Italy/how-to-close-a-fiscal-year.md)
 ##### [Soll- und Habenbeträge definieren](LocalFunctionality/Italy/how-to-define-debit-and-credit-amounts.md)
 ##### [Buch.-Blatteinträge zurückbuchen](LocalFunctionality/Italy/reversing-journal-entries.md)
-#### Lagerbestand
+#### Bestand
 ##### [Ursprüngliche Artikelkosten einrichten](LocalFunctionality/Italy/how-to-set-up-initial-item-costs.md)
 ##### [Steuerliche Lagerwertbewertung](LocalFunctionality/Italy/fiscal-inventory-valuation.MD)
 ##### [Steuerliche Lagerwertbewertung einrichten](LocalFunctionality/Italy/how-to-set-up-fiscal-inventory-valuation.md)
@@ -1166,7 +1166,7 @@
 
 ### Niederlande
 #### [Lokale Funktionen in der niederländischen Version](LocalFunctionality/Netherlands/netherlands-local-functionality.md)
-#### MwSt.
+#### Mehrwertsteuer
 ##### [Eine Protokolldatei für die Steuerbehörde erstellen](LocalFunctionality/Netherlands/how-to-create-an-audit-file-for-the-tax-authority.md)
 ##### [MwSt.-Kategorien einrichten](LocalFunctionality/Netherlands/how-to-set-up-vat-categories.md)
 ##### [Elektronische MwSt.- und ICP-Meldungen](LocalFunctionality/Netherlands/electronic-vat-and-icp-declarations.md)
@@ -1176,14 +1176,14 @@
 ##### [Electronic Banking (Niederlande)](LocalFunctionality/Netherlands/dutch-electronic-banking.md)
 ##### [Telebanking](LocalFunctionality/Netherlands/telebanking.md)
 ##### [Zahlungsszenarien](LocalFunctionality/Netherlands/payment-scenarios.md)
-##### [Zahlungsszenario 1 - Inlandszahlungen (MW in MW)](LocalFunctionality/Netherlands/payment-scenario-1-domestic-payments-lcy-to-lcy-.md)  
-##### [Zahlungsszenario 2 - Zahlung in Fremdwährung (FW in FW)](LocalFunctionality/Netherlands/payment-scenario-2-foreign-payment-fcy-to-fcy-.md)  
-##### [Zahlungsszenario 3 - Zahlung in Fremdwährung (MW in FW)](LocalFunctionality/Netherlands/payment-scenario-3-foreign-payment-lcy-to-fcy-.md)
+##### [Zahlungsszenario 1 – Inlandszahlungen (MW in MW)](LocalFunctionality/Netherlands/payment-scenario-1-domestic-payments-lcy-to-lcy-.md)  
+##### [Zahlungsszenario 2 – Zahlung in Fremdwährung (FW in FW)](LocalFunctionality/Netherlands/payment-scenario-2-foreign-payment-fcy-to-fcy-.md)  
+##### [Zahlungsszenario 3 – Zahlung in Fremdwährung (MW in FW)](LocalFunctionality/Netherlands/payment-scenario-3-foreign-payment-lcy-to-fcy-.md)
 ##### [Vorschläge erstellen](LocalFunctionality/Netherlands/how-to-create-proposals.md)
 ##### [Lieferschein-Berichte](LocalFunctionality/Netherlands/docket-reports.md)
 ##### [Kasse- und Bank- oder Giro-Buch.-Blätter eingeben und buchen](LocalFunctionality/Netherlands/how-to-enter-and-post-cash-and-bank-or-giro-journals.md)
 ##### [Testberichte für Kasse und Bank oder Giro-Buch.-Blätter drucken](LocalFunctionality/Netherlands/how-to-print-the-test-reports-for-cash-and-bank-or-giro-journals.md)
-##### [Single Euro Payments Area (SEPA)](LocalFunctionality/Netherlands/single-euro-payments-area-sepa-.md)
+##### [Single Euro Payments Area](LocalFunctionality/Netherlands/single-euro-payments-area-sepa-.md)
 ##### [SEPA-Zahlungen aktivieren](LocalFunctionality/Netherlands/how-to-activate-sepa-payments.md)
 ##### [Kreditorenzahlungen elektronisch im SEPA ISO 20022-Zahlungsformat übermitteln](LocalFunctionality/Netherlands/how-to-submit-vendor-payments-electronically-in-sepa-iso-20022-payment-format.md)
 ##### [Zahlungsverlauf erstellen und exportieren](LocalFunctionality/Netherlands/how-to-create-and-export-payment-history.md)
@@ -1213,7 +1213,7 @@
 ##### [Quellensteuerposten anzeigen](LocalFunctionality\NewZealand\how-to-view-withholding-tax-entries.md)
 ##### [Gebuchte Steuergutschriften anzeigen](LocalFunctionality/NewZealand/how-to-view-posted-tax-credit-memos.md)  
 ##### [Gebuchte Steuerrechnungen anzeigen](LocalFunctionality/NewZealand/how-to-view-posted-tax-invoices.md)
-##### [Abrechnungswechselkursen für MwSt.-Posten justieren](LocalFunctionality/NewZealand/how-to-adjust-settlement-exchange-rates-for-vat-entries.md)
+##### [Abrechnungswechselkurse für MwSt.-Posten anpassen](LocalFunctionality/NewZealand/how-to-adjust-settlement-exchange-rates-for-vat-entries.md)
 ##### [Steuern für Waren und Dienstleistungen auf Vorauszahlungen berechnen](LocalFunctionality/NewZealand/how-to-calculate-goods-and-services-tax-on-prepayments.md)
 ##### [Berichte über die Steuerabrechnung für Waren und Dienstleistungen drucken](LocalFunctionality/NewZealand/how-to-print-goods-and-service-tax-settlement-reports.md)
 #### Banking und Zahlungen
@@ -1234,18 +1234,18 @@
 
 ### Norwegen
 #### [Lokale Funktionen in der norwegischen Version](LocalFunctionality/Norway/norway-local-functionality.md)
-#### MwSt.
-##### [Norwegische Standardprüfdatei – Steuerverwaltung (SAF-T)](LocalFunctionality/Norway/ui-extensions-setup-and-generate-saf-t-files-no.md)
+#### Mehrwertsteuer
+##### [Norwegisches Standardprotokolldatei – Steuerverwaltung (SAF-T)](LocalFunctionality/Norway/ui-extensions-setup-and-generate-saf-t-files-no.md)
 ##### [Norwegische MwSt.-Berichterstellung](LocalFunctionality/Norway/norwegian-vat-reporting.md)
 ##### [Norwegische MwSt.-Codes](LocalFunctionality/Norway/norwegian-vat-codes.md)  
 ##### [Einen MwSt.-Code in Buch.-Blättern verwenden](LocalFunctionality/Norway/how-to-use-one-vat-code-in-journals.md)
-##### [Proportionale-MwSt.](LocalFunctionality/Norway/proportional-vat.md)
+##### [Proportionale MwSt.](LocalFunctionality/Norway/proportional-vat.md)
 ##### [Proportionale MwSt. berechnen](LocalFunctionality/Norway/how-to-calculate-proportional-vat.md)
 ##### [MwSt.-Abstimmungsbericht drucken](LocalFunctionality/Norway/how-to-print-a-vat-reconciliation-report.md)
 #### Banking und Zahlungen
 ##### [Electronic Banking in Norwegen](LocalFunctionality/Norway/electronic-banking-in-norway.md)
 ##### [Elektronische Zahlungen an Kreditoren in Norwegen](LocalFunctionality/Norway/electronic-payments-to-vendors-in-norway.md)
-##### [EHF - Elektronische Fakturierung in Norwegen](LocalFunctionality/Norway/ehf-electronic-invoicing-in-norway.md)
+##### [EHF – Elektronische Fakturierung in Norwegen](LocalFunctionality/Norway/ehf-electronic-invoicing-in-norway.md)
 ##### [Kreditoren in EHF einrichten](LocalFunctionality/Norway/how-to-set-up-customers-for-ehf.md)  
 ##### [EHF einrichten](LocalFunctionality/Norway/how-to-set-up-ehf.md)
 ##### [Elektronische Belege für EHF erstellen](LocalFunctionality/Norway/how-to-create-electronic-documents-for-ehf.md)
@@ -1283,7 +1283,7 @@
 ### Russland
 #### [Lokale Funktionen in der russischen Version](LocalFunctionality/Russia/russia-local-functionality.md)
 #### Kernfinanzierung
-##### [Finanzberichte – Übersicht](LocalFunctionality/Russia/account-schedules-overview.md)
+##### [Finanzberichte – Übersicht](LocalFunctionality/Russia/account-schedules-overview.md)
 ##### [Finanzberichte importieren und exportieren](LocalFunctionality/Russia/How-to-Import-and-Export-Account-Schedules.md)
 ##### [Finanzberichtserweiterung definieren](LocalFunctionality/Russia/How-to-Define-an-Account-Schedule-Extension.md)
 ##### [Finanzberichtskonstante definieren](LocalFunctionality/Russia/How-to-Define-an-Account-Schedule-Constant.md)
@@ -1294,7 +1294,7 @@
 #### Forderungen und Verbindlichkeiten
 ##### [Verbindlichkeiten und Forderungen in der russischen Version](LocalFunctionality/Russia/Payables-and-Receivables.md)
 ##### [Eingabe von Zollerklärungsinformationen](LocalFunctionality/Russia/how-to-enter-custom-declarations-information.md)
-##### [Einrichtung und Erstellung von Protokollen](LocalFunctionality/Russia/how-to-set-up-and-create-letters-of-attorney.md)
+##### [Protokolle einrichten und erstellen](LocalFunctionality/Russia/how-to-set-up-and-create-letters-of-attorney.md)
 ##### [Russische Kreditorenberichte](LocalFunctionality/Russia/russian-payables-reports.md)
 ##### [Russische Debitorenberichte](LocalFunctionality/Russia/russian-receivables-reports.md)
 ##### [Debitorenvorauszahlungen einrichten](LocalFunctionality/Russia/how-to-set-up-customer-prepayments.md)
@@ -1320,34 +1320,34 @@
 ##### [Konto für immaterielle Anlagen einrichten](LocalFunctionality/Russia/How-to-Set-Up-an-Intangible-Assets-Account.md)
 ##### [Konto für die Kosten des Verkaufs einer Anlage](LocalFunctionality/Russia/How-to-Account-for-the-Cost-to-Dispose-a-Fixed-Asset.md)
 ##### [Nicht-AfA-Anlagen](LocalFunctionality/Russia/Undepreciable-Fixed-Assets.md)
-#### MwSt.
+#### Mehrwertsteuer
 ##### [MwSt. in der russischen Version](LocalFunctionality/Russia/VAT.md)
 ##### [MwSt.-Posten einrichten](LocalFunctionality/Russia/How-to-Set-Up-VAT-Ledgers.md)  
-##### [MwSt.-Posten für Buchungen vorbereiten](LocalFunctionality/Russia/How-to-Prepare-VAT-Entries-for-Posting.md)  
+##### [MwSt.-Posten vorbereiten und buchen](LocalFunctionality/Russia/How-to-Prepare-VAT-Entries-for-Posting.md)  
 ##### [MwSt.-Ausgleich](LocalFunctionality/Russia/Settlement-VAT.md)  
 ##### [Bücher über Käufe und Verkäufe und die Umsatzsteuererklärung im XML-Format hochladen](LocalFunctionality/Russia/upload-books-purchases-sales-xml-vat-declaration.md)  
 ##### [MwSt. nach Debitorenvorauszahlung](LocalFunctionality/Russia/VAT-by-Customer-prepayments.md)  
 ##### [MwSt.-Wiedereinführung](LocalFunctionality/Russia/VAT-reinstatement.md)  
 ##### [Kreditorensteuer-Beraterschema](LocalFunctionality/Russia/Vendor-Tax-Agent-scheme.md)  
-#### Steuerbuchhaltung
-##### [Steuerbuchhaltung in der russischen Version](LocalFunctionality/Russia/Tax-Accounting.md)
-##### [Steuerbuchhaltung einrichten](LocalFunctionality/Russia/How-to-Set-Up-Tax-Accounting.md)  
+#### Steuerkonten
+##### [Steuerkonten in der russischen Version](LocalFunctionality/Russia/Tax-Accounting.md)
+##### [Steuerkonten einrichten](LocalFunctionality/Russia/How-to-Set-Up-Tax-Accounting.md)  
 ##### [Steuerjournale](LocalFunctionality/Russia/Tax-Registers.md)  
 ##### [Steuerjournale erstellen](LocalFunctionality/Russia/How-to-Create-Tax-Registers.md)  
 ##### [Steuerjournalabschnitte einrichten](LocalFunctionality/Russia/How-to-Set-Up-Tax-Register-Sections.md)
 ##### [Steuerdifferenzen](LocalFunctionality/Russia/Tax-Differences.md)  
-##### [Buchhaltung für persönliche Einkommensteuerzahlungen](LocalFunctionality/Russia/Accounting-for-personal-income-tax-payments.md)  
+##### [Konten und Zahlungen für persönliche Einkommensteuerzahlungen](LocalFunctionality/Russia/Accounting-for-personal-income-tax-payments.md)  
 ##### [KLADR hochladen](LocalFunctionality/Russia/Upload-KLADR.md)  
 ##### [Gesetzliche Berichte](LocalFunctionality/Russia/Statutory-Reports.md)
 #### Banking
 ##### [Bankverwaltung](LocalFunctionality/Russia/bank-management.md)
-#### Lagerbestand
+#### Bestand
 ##### [Lagerbestand in der russischen Version](LocalFunctionality/Russia/Inventory.md)
-##### [Lagerbestandseinrichtung](LocalFunctionality/Russia/Inventory-Setup.md)
+##### [Lagerbestand einrichten](LocalFunctionality/Russia/Inventory-Setup.md)
 ##### [Artikelbelege](LocalFunctionality/Russia/Item-Documents.md)
-##### [Artikel Obligatorische Gesetze](LocalFunctionality/Russia/Item-Obligatory-Acts.md)
+##### [Artikel – Obligatorische Gesetze](LocalFunctionality/Russia/Item-Obligatory-Acts.md)
 ##### [Lagerbestandgesetz über Forderungen und Verbindlichkeiten INV-17](LocalFunctionality/Russia/Inventory-Act-of-Receivables-And-Payables-INV-17.md)
-##### [Artikel Finanzbuchhaltungsumsatz](LocalFunctionality/Russia/Item-General-Ledger-Turnover.md)
+##### [Artikel-Finanzbuchhaltungsumsatz](LocalFunctionality/Russia/Item-General-Ledger-Turnover.md)
 ##### [TORG-29 Warenbericht erstellen](LocalFunctionality/Russia/How-to-Create-the-TORG-29-Goods-Report.md)
 ##### [Frachtbrief](LocalFunctionality/Russia/bill-of-lading.md)
 #### Personalwesen
@@ -1357,11 +1357,11 @@
 ##### [Abwesenheitsregistrierung](LocalFunctionality/Russia/Absence-registration.md)
 ##### [Entlassung](LocalFunctionality/Russia/Dismissal.md)
 ##### [Reihenfolge der Mitarbeiterliste erstellen und ändern](LocalFunctionality/Russia/Forming-and-changing-Staff-List-Order-Staff-Arrangement.md)
-##### [Urlaubsplanung](LocalFunctionality/Russia/Vacation-planning.md)
+##### [Ihren Urlaub planen](LocalFunctionality/Russia/Vacation-planning.md)
 
 ### Spanien
 #### [Lokale Funktionen in der spanischen Version](LocalFunctionality/Spain/spain-local-functionality.md)
-#### MwSt.
+#### Mehrwertsteuer
 ##### [MwSt.-Berichte](LocalFunctionality/Spain/vat-reports.md)
 ##### [Bericht 340](LocalFunctionality/Spain/report-340.md)  
 ##### [Bericht 340 erstellen](LocalFunctionality/Spain/how-to-create-report-340.md)  
@@ -1377,7 +1377,7 @@
 ##### [MwSt.-Abrechnungen im Textformat exportieren](LocalFunctionality/Spain/how-to-export-vat-statements-in-text-format.md)
 ##### [Äquivalenzabschlag](LocalFunctionality/Spain/equivalence-charges-ec-.md)
 #### Banking und Zahlungen  
-##### [Elektronische Zahlungen – AEB N34.1](LocalFunctionality/Spain/electronic-payments-aeb-n341.md)
+##### [Elektronische Zahlungen – AEB N34.1](LocalFunctionality/Spain/electronic-payments-aeb-n341.md)
 ##### [Bankkonten für elektronische Zahlungen einrichten](LocalFunctionality/Spain/how-to-set-up-bank-accounts-for-electronic-payments.md)
 ##### [Kreditoren über elektronische Zahlungen bezahlen](LocalFunctionality/Spain/how-to-pay-vendors-by-using-electronic-payments.md)
 ##### [Elektronische Zahlungen exportieren](LocalFunctionality/Spain/how-to-export-electronic-payments.md)
@@ -1386,11 +1386,11 @@
 ##### [CCC-Codes eingeben](LocalFunctionality/Spain/how-to-enter-ccc-codes.md)
 ##### [Zahlungstage und Nichtzahlungsperioden einrichten](LocalFunctionality/Spain/how-to-set-up-payment-days-and-non-payment-periods.md)
 ##### [Barzahlungen](LocalFunctionality/Spain/payments-in-cash.md)
-#### Elektronische Fakturierung
+#### Elektronische Fakturierungen
 ##### [Cartera-Modul](LocalFunctionality/Spain/cartera-module.md)
 ##### [Forderungen Cartera-Modul](LocalFunctionality/Spain/receivables-cartera-module.md)
 ##### [Zahlungen Cartera-Modul](LocalFunctionality/Spain/payments-cartera-module.md)
-##### [SII - Rechnungs- und Gutschrifttypen in Einkaufs- und Verkaufsbelegen](LocalFunctionality/Spain/SII-invoice-types-sales-purchase-documents.md)
+##### [SII – Rechnungs- und Gutschrifttypen in Einkaufs- und Verkaufsbelegen](LocalFunctionality/Spain/SII-invoice-types-sales-purchase-documents.md)
 #### Kernfinanzierung
 ##### [GuV-Salden einrichten und abschließen](LocalFunctionality/Spain/how-to-set-up-and-close-income-statement-balances.md)
 ##### [Kontenpläne einrücken und validieren](LocalFunctionality/Spain/how-to-indent-and-validate-chart-of-accounts.md)
@@ -1409,17 +1409,17 @@
 
 ### Schweden
 #### [Lokale Funktionen in der schwedischen Version](LocalFunctionality/Sweden/sweden-local-functionality.md)
-#### MwSt.
+#### Mehrwertsteuer
 ##### [EU-Drittanbieter-Einkaufstransaktionen einrichten](LocalFunctionality/Sweden/how-to-set-up-eu-third-party-purchase-transactions.md)
 #### Kernfinanzierung
 ##### [Automatische Kontocodes](LocalFunctionality/Sweden/automatic-account-codes.md)  
 ##### [Automatische Kontobuchungsgruppen einrichten](LocalFunctionality/Sweden/how-to-set-up-automatic-account-posting-groups.md)
-##### [Importieren und exportieren von Daten in das Standardimport-/-exportformat](LocalFunctionality/Sweden/how-to-import-and-export-data-in-standard-import-export-format.md)  
+##### [Daten in das Standardimport-/-exportformat importieren und exportieren](LocalFunctionality/Sweden/how-to-import-and-export-data-in-standard-import-export-format.md)  
 ##### [Kontenplan und GuV drucken](LocalFunctionality/Sweden/how-to-print-balance-sheet-and-income-statement-reports.md)  
 
 ### Schweiz
 #### [Lokale Funktionen in der Schweizer Version](LocalFunctionality/Switzerland/switzerland-local-functionality.md)
-#### MwSt.
+#### Mehrwertsteuer
 ##### [Schweizer MwSt.-Abrechnung erstellen und drucken](LocalFunctionality/Switzerland/how-to-create-and-print-a-swiss-vat-statement.md)
 ##### [Schweizer MwSt.-Abrechnungen drucken (ältere Versionen)](LocalFunctionality/Switzerland/how-to-print-swiss-vat-statements-older-version-.md)
 ##### [Schweizer Mehrwertsteuer](LocalFunctionality/Switzerland/swiss-value-added-tax.md)
@@ -1452,7 +1452,7 @@
 ##### [Lieferanmahnungen registrieren](LocalFunctionality/Switzerland/how-to-issue-delivery-reminders.md)
 ##### [Lieferanmahnungen generieren](LocalFunctionality/Switzerland/how-to-generate-delivery-reminders.md)
 ##### [Testberichte für Lieferanmahnungen drucken](LocalFunctionality/Switzerland/how-to-print-test-reports-for-delivery-reminders.md)
-#### Lagerbestand
+#### Bestand
 ##### [Schweizer Lagerverwaltung](LocalFunctionality/Switzerland/swiss-inventory-management.md)
 ##### [Lager-Kommissionierliste aus einem Verkaufsauftrag drucken](LocalFunctionality/Switzerland/how-to-print-an-inventory-picking-list-from-a-sales-order.md)
 #### Allgemein
@@ -1461,8 +1461,8 @@
 
 ### Vereinigtes Königreich
 #### [Lokale Funktionen in der Version für Vereinigtes Königreich](LocalFunctionality/UnitedKingdom/united-kingdom-local-functionality.md)
-#### MwSt.
-##### [Steuer digital erstellen – MwSt.-Rückgabenübermittlung](LocalFunctionality/UnitedKingdom/making-tax-digital-submit-vat-return.md)
+#### Mehrwertsteuer
+##### [Steuer digital erstellen – MwSt.-Rückgabenübermittlung](LocalFunctionality/UnitedKingdom/making-tax-digital-submit-vat-return.md)
 ##### [MwSt.-Einrichtung in Buch.-Blättern ändern](LocalFunctionality/UnitedKingdom/how-to-change-vat-setup-in-journals.md)
 ##### [MwSt.-Prüfungsberichte drucken](LocalFunctionality/UnitedKingdom/how-to-print-vat-audit-reports.md)
 ##### [MwSt.-Berichte drucken](LocalFunctionality/UnitedKingdom/how-to-print-vat-reports.md)
@@ -1485,7 +1485,7 @@
 ##### [Grundlegende Steuereinrichtung](LocalFunctionality/UnitedStates/us-tax-setup.md)  
 ##### [Verkaufssteuer in den USA melden](LocalFunctionality/UnitedStates/us-sales-tax.md)  
 ##### [Das IRS 1099-Formular einrichten und verwenden](LocalFunctionality/UnitedStates/set-up-use-irs1099-form.md)
-##### [Gesetzliche 1099 Formatänderungen und Details](LocalFunctionality/UnitedStates/tax-1099-changes.md)  
+##### [Gesetzliche 1099 Formatänderungen und -Details](LocalFunctionality/UnitedStates/tax-1099-changes.md)  
 ##### [Das IRS 1096-Formular einrichten und verwenden](LocalFunctionality/UnitedStates/set-up-use-irs1096-form.md)
 ##### [Verbrauchssteuer und Umsatzsteuer einrichten](LocalFunctionality/UnitedStates/how-to-set-up-use-tax-and-purchase-tax.md)  
 ##### [Unrealisierte Verkaufssteuer und Verkaufsskonti einrichten](LocalFunctionality/UnitedStates/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)  
@@ -1513,7 +1513,7 @@
 #### [Mehrwertsteuer (MwSt.) einrichten](finance-setup-vat.md)
 #### [Berechnungen und Buchungsmethoden für Mehrwertsteuer einrichten](finance-setup-vat.md)
 #### [Nicht realisierte MwSt. für bargeldbasierte Verrechnung einrichten](finance-setup-unrealized-vat.md)
-#### [USt-IdNr validieren](finance-how-validate-vat-registration-number.md)
+#### [USt-IdNr. validieren](finance-how-validate-vat-registration-number.md)
 #### [Herkunftscodes und Ursachencodes für Audit Trails einrichten](finance-setup-trail-codes.md)
 #### [Den Ausgleich von Posten in unterschiedlichen Währungen zulassen](finance-how-enable-application-ledger-entries-different-currencies.md)
 #### [Berichtswährung einrichten](finance-how-setup-additional-currencies.md)
@@ -1545,8 +1545,8 @@
 #### [Lieferbedingungen einrichten](sales-how-set-up-shipment-methods.md)
 #### [Zusteller einrichten](sales-how-to-set-up-shipping-agents.md)
 #### [Rechnungsbuchungsrichtlinie für Benutzer definieren](admin-setup-invoice-posting-policy.md)
-### Einkäufe einrichten
-#### [Einkäufe einrichten](purchasing-setup-purchasing.md)
+### Einkäufer einrichten
+#### [Einkäufer einrichten](purchasing-setup-purchasing.md)
 #### [Neue Kreditoren einrichten](purchasing-how-register-new-vendors.md)
 #### [Kreditorenbankkonten einrichten](purchasing-how-set-up-vendors-bank-accounts.md)
 #### [Kreditoren priorisieren](purchasing-how-prioritize-vendors.md)
@@ -1560,7 +1560,7 @@
 #### [Mit Zuständigkeitseinheiten arbeiten](inventory-responsibility-centers.md)
 #### [Lagerorte einrichten](inventory-how-setup-locations.md)
 #### [Neue Artikel registrieren](inventory-how-register-new-items.md)
-#### [Vorhandene Artikel kopieren, um neue Artikel zu erstellen](inventory-how-copy-items.md)
+#### [Neue Artikel durch Kopieren vorhandener Artikel erstellen](inventory-how-copy-items.md)
 #### [Info zu Artikeltypen](inventory-about-item-types.md)
 #### [Einheiten einrichten](inventory-how-setup-units-of-measure.md)
 #### [Lagerhaltungseinheiten einrichten](inventory-how-to-set-up-stockkeeping-units.md)
@@ -1575,17 +1575,17 @@
 ### Anlagen einrichten
 #### [Anlagen einrichten](fa-setup.md)
 #### [Allgemeine Anlageninformationen einrichten](fa-how-setup-general.md)
-#### [Abschr. Anlagevermögen einrichten](fa-how-setup-depreciation.md)
+#### [Anlagen-Afa-Buch einrichten](fa-how-setup-depreciation.md)
 #### [Abschreibungsmethoden definieren](fa-depreciation-methods.md)
 #### [Benutzerdefinierte AfA-Methoden einrichten](fa-how-setup-user-defined-depreciation-method.md)
 #### [Anlagenversicherung einrichten](fa-how-setup-insurance.md)
 #### [Anlagenwartung einrichten](fa-how-setup-maintenance.md)
-### Warehouse Management einrichten
+### Lagerverwaltung einrichten
 #### [Lager einrichten](warehouse-setup-warehouse.md)
-#### [Lagerverwaltung – Übersicht](design-details-warehouse-management.md)
+#### [Lagerverwaltung – Übersicht](design-details-warehouse-management.md)
 #### [Lagerplatzarten einrichten](warehouse-how-to-set-up-bin-types.md)
 #### [Lagerplätze erstellen](warehouse-how-to-create-individual-bins.md)
-#### [Lagerplatzinhalt erstellen](warehouse-how-to-set-up-bin-contents.md)
+#### [Lagerplatzinhalte erstellen](warehouse-how-to-set-up-bin-contents.md)
 #### [Artikeln Vorgabelagerplätze zuweisen](warehouse-how-to-assign-default-bins-to-items.md)
 #### [Einlagerungsvorlagen einrichten](warehouse-how-to-set-up-put-away-templates.md)
 #### [Lagermitarbeiter einrichten](warehouse-how-to-set-up-warehouse-employees.md)
@@ -1594,7 +1594,7 @@
 #### [Basislager mit Vorgangsbereichen einrichten](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md)
 #### [Artikel und Lagerorte für die gesteuerte Einlagerung und Kommissionierung einrichten](warehouse-how-to-set-up-items-for-directed-put-away-and-pick.md)
 #### [Automatisches Teilen von Gebindeeinheiten mit gesteuerter Einlagerung und Kommissionierung aktivieren](warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md)
-#### [Kommissionierung nach FEFO aktivieren](warehouse-picking-by-fefo.md)
+#### [Die FEFO-Methode aktivieren, um Artikel auszuwählen](warehouse-picking-by-fefo.md)
 <!-- #### [Enable Automated Data Capture Systems (ADCS)](warehouse-use-automated-data-capture-systems-adcs.md) -->
 #### [Lager umstrukturieren](warehouse-how-to-restructure-warehouses.md)
 ### Fertigung einrichten
@@ -1603,11 +1603,11 @@
 #### [Arbeitsplätze und Arbeitsplatzgruppen einrichten](production-how-to-set-up-work-and-machine-centers.md)
 #### [Arbeitspläne erstellen](production-how-to-create-routings.md)
 #### [Produktionsstücklisten erstellen](production-how-to-create-production-boms.md)
-#### [Buchung der Komponenten entsprechend dem Arbeitsgangsausgabe aktivieren](production-how-to-flush-components-according-to-operation-output.md)
+#### [Buchung der Komponenten entsprechend der Arbeitsgangsausgabe aktivieren](production-how-to-flush-components-according-to-operation-output.md)
 #### [Mit Fertigungsloseinheit arbeiten](production-how-to-use-the-manufacturing-batch-unit-of-measure.md)
 #### [Umgang mit Losgrößen in der Fertigung](production-handling-lot-sizes.md)
-#### [Arbeiten mit Fertigungsfamilien](production-how-work-family.md)
-#### [Standard-Arbeitsplanzeilen einrichten](production-how-set-up-standard-routing-lines.md)
+#### [Mit Fertigungsfamilien arbeiten](production-how-work-family.md)
+#### [Standard-Arbeitsplanposten einrichten](production-how-set-up-standard-routing-lines.md)
 #### [Fertigung in Fremdarbeit](production-how-to-subcontract-manufacturing.md)
 ### Serviceverwaltung einrichten
 #### [Serviceverwaltung einrichten](service-setup-service.md)
@@ -1623,8 +1623,8 @@
 #### [Arbeits- und Servicezeiten einrichten](service-how-setup-work-service-hours.md)
 #### [Status für Serviceaufträge und Reparaturen einrichten](service-order-repair-status.md)
 #### [Leihgeräteprogramm einrichten](service-how-setup-loaner-program.md)
-#### [Dienstleistungsverträge einrichten](service-how-setup-service-contracts.md)
-### Komplexe Anwendungsbereiche mithilfe bewährter Methoden einrichten
+#### [Serviceverträge einrichten](service-how-setup-service-contracts.md)
+### Komplexe Anwendungsbereiche mithilfe bewährter Methoden einrichten 
 #### [Bewährte Methoden einrichten](set-up-complex-application-areas-using-best-practices.md)
 #### Bewährte Methoden einrichten: Beschaffungsplanung
 ##### [Beschaffungsplanung einrichten](setup-best-practices-supply-planning.md)
@@ -1678,14 +1678,14 @@
 ##### [OneDrive für die Unternehmensintegration verwalten](admin-onedrive-integration.md)
 ###### [OneDrive-Integration mit Business Central lokal konfigurieren](admin-onedrive-integration-onpremises.md)
 ##### [Dateien in OneDrive öffnen und freigeben](across-share-onedrive.md)
-##### [OneDrive – Häufig gestellte Fragen](admin-onedrive-faq.md)
+##### [OneDrive – Häufig gestellte Fragen](admin-onedrive-faq.md)
 #### Power BI mit Business Central verwenden
 ##### [Einführung](admin-powerbi.md)
-##### Administrator*in
+##### Administrator
 ###### [Übersicht über die Integration](admin-powerbi-overview.md)
 ###### [Power BI-Integration aktivieren](admin-powerbi-setup.md)
-##### Berichtsersteller*in
-###### [Erste Schritte beim Erstellen von Berichten](across-how-use-financials-data-source-powerbi.md)
+##### Berichtsersteller
+###### [Erste Schritte: Berichte erstellen](across-how-use-financials-data-source-powerbi.md)
 ###### [Berichte zum Anzeigen von Listendaten erstellen](across-how-use-powerbi-reports-factbox.md)
 ##### Im geschäftlichen Bereich tätige Personen
 ###### [Mit Power BI-Berichten in Business Central arbeiten](across-working-with-powerbi.md)
@@ -1698,10 +1698,10 @@
 #### Power Apps mit Business Central verwenden
 ##### [Verbindung mit Ihren Business Central-Daten zum Erstellen einer Geschäfts-App mithilfe von Power Apps herstellen](across-how-use-financials-data-source-powerapps.md)
 #### [Von QuickBooks-App zu Business Central wechseln](across-quickbooks-to-business-edition.md)
-#### [Massenrechnungsstellung für Microsoft Bookings](finance-bookings.md)
+#### [Massenrechnungen für Microsoft-Buchungen](finance-bookings.md)
 #### [Geschäftsdaten aus anderen Finanzsystemen importieren](across-import-data-configuration-packages.md)
 ### [Unternehmensdaten](admin-company-information.md)
-### [Nummernserien erstellen](ui-create-number-series.md)
+### [Nummernserie erstellen](ui-create-number-series.md)
 ### [Basiskalender einrichten](across-how-to-assign-base-calendars.md)
 ### Drucker einrichten
 #### [Übersicht](admin-printer-setup-overview.md)
@@ -1729,7 +1729,7 @@
 ### [(Legacy) Die von einem Bericht verwendeten Layouts festlegen](ui-how-change-layout-currently-used-report.md)
 
 ## Integrierte Berichte
-### [Bericht – Übersicht](reports-available-reports.md)
+### [Bericht – Übersicht](reports-available-reports.md)
 ### Finanzen
 #### [Financial Business Intelligence](bi.md)
 #### [Finanzauswertungen mit Excel analysieren](finance-analyze-excel.md)
@@ -1742,10 +1742,10 @@
 ### Verkauf
 #### [Verkaufsberichte](sales-reports.md)
 #### [Rahmenauftragsstatus](sales-how-to-create-blanket-sales-orders.md#to-view-the-status-of-a-blanket-sales-order)
-#### [Paketproduktionsverfolgung](sales-how-track-packages.md)
+#### [Paketverfolgung](sales-how-track-packages.md)
 #### [Nicht gebuchte und gebuchte Zeilen des Rahmenauftrags anzeigen](sales-how-to-create-blanket-sales-orders.md#to-view-unposted-and-posted-blanket-sales-order-lines)
 
-### Einkauf
+### Einkäufe
 #### [Einkaufsberichte](purchase-reports.md)
 #### [Einkaufsposten anzeigen](purchasing-how-record-purchases.md#viewing-ledger-entries)
 
@@ -1774,30 +1774,30 @@
 #### [Montageverwaltungsberichte](assembly-reports.md)
 #### [Stücklistenstruktur anzeigen](assembly-how-work-assembly-boms.md#to-view-components-and-resources-indented-according-to-the-bom-structure)
 
-### Fertigung
+### Herstellen
 #### [Fertigungsberichte](production-reports.md)
 #### [Auslastung der Arbeitsplätze und Arbeitsplatzgruppen anzeigen](production-how-to-view-the-load-on-work-centers.md)
 #### [Posten für Arbeitsplätze anzeigen](production-how-to-post-capacities.md#to-view-work-center-ledger-entries)
 
 ### Serviceverwaltung
 #### [Servicestatistik anzeigen](service-service-statistics.md)
-#### [Serviceaufträge – Übersicht](service-how-to-allocate-resources.md#to-see-an-overview-of-service-orders-and-service-quotes)
-#### [Serviceangebote – Übersicht](service-how-to-allocate-resources.md#to-see-an-overview-of-service-orders-and-service-quotes)
-#### [Gebuchte Dienstleistungsbelege – Übersicht](service-service-posting.md#to-view-information-about-a-posted-service-document)
+#### [Serviceaufträge – Übersicht](service-how-to-allocate-resources.md#to-see-an-overview-of-service-orders-and-service-quotes)
+#### [Serviceangebote – Übersicht](service-how-to-allocate-resources.md#to-see-an-overview-of-service-orders-and-service-quotes)
+#### [Gebuchte Dienstleistungsbelege – Übersicht](service-service-posting.md#to-view-information-about-a-posted-service-document)
 
 ## Ad-hoc-Datenanalyse
 ### [Übersicht](reports-adhoc-analysis.md)
 ### [Sortieren, Suchen und Filtern](ui-enter-criteria-filters.md)
-### [Suchen und Filtern – Häufig gestellte Fragen](ui-search-filter-faq.yml)
+### [Häufig gestellte Fragen zu Sortieren und Filtern](ui-search-filter-faq.yml)
 ### [Seitendaten in Excel analysieren](across-work-with-excel.md)
 ### [Berichtsdaten mit Excel analysieren](report-analyze-excel.md)
-### [Analysieren von Listendaten mit dem Analysemodus](analysis-mode.md)
+### [Listendaten mit dem Analysemodus analysieren](analysis-mode.md)
 ### [Financial Business Intelligence](bi.md)
 
 ## Integrierte Analysen 
 ### [Übersicht](reports-built-in-analytics.md)
-### [Einblicke aus der intelligenten Cloud](about-intelligent-cloud.md)
-### [Arbeiten mit Power BI-Berichten](across-working-with-powerbi.md)
+### [Intelligente Einblicke](about-intelligent-cloud.md)
+### [Mit Power BI-Berichten arbeiten](across-working-with-powerbi.md)
 ### [Financial Business Intelligence](bi.md)
 ### [Finanzauswertungen mit Excel analysieren](finance-analyze-excel.md)
 ### [Finanzdaten von mehreren Unternehmen konsolidieren](finance-consolidated-company-reporting.md)
@@ -1811,13 +1811,13 @@
 ### [Daten in Data-Warehouses oder Data Lakes extrahieren](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses)
 ### [Daten mit der Business Central-API lesen](/dynamics365/business-central/dev-itpro/api-reference/v2.0/)
 
-## Entwickeln von Berichten
+## Berichte entwickeln
 ### [Übersicht](reports-develop-reports.md)
-### Entwickeln von Berichtslayouts
+### Berichtslayouts entwickeln
 #### [Layouttypen (Word, Excel, RDLC)](ui-manage-report-layouts.md)
 #### [Layouts erstellen und ändern](ui-get-started-layouts.md)
 <!--#### [Create a New Layout](ui-how-create-custom-report-layout.md)-->
-#### [Arbeiten mit Word-Layouts](ui-how-add-fields-word-report-layout.md)
+#### [Mit Word-Layouts arbeiten](ui-how-add-fields-word-report-layout.md)
 #### [Mit Excel-Layouts arbeiten](ui-excel-report-layouts.md)
 #### [Mit RDLC-Layouts arbeiten](ui-rdlc-report-layouts.md)
 #### [Schriftarten in Layouts verwenden](ui-fonts.md)  
@@ -1825,22 +1825,22 @@
 #### [Update a Layout](ui-update-report-layouts.md)-->
 #### [Das Standardlayout festlegen](ui-set-report-layout.md)
 <!--#### [Set the Layout (legacy)](ui-how-change-layout-currently-used-report.md)-->
-### Entwickeln von Berichts-Datasets
+### Berichts-Datasets entwickeln
 #### [Anleitung zur Entwicklung von Berichten](/dynamics365/business-central/dev-itpro/developer/devenv-reports)
 #### [Anleitung zur Leistungsoptimierung von Berichten](/dynamics365/business-central/dev-itpro/performance/performance-developer#writing-efficient-reports)
 
 
-# Sicherheit, Datenschutz, Compliance
+# Sicherheit, Compliance und Datenschutz
 ## Sicherheit und Schutz
-### [Sicherheit und Schutz – Übersicht (nur in englischer Sprache)](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)
+### [Sicherheit und Schutz – Übersicht (nur in englischer Sprache)](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)
 ## Datenschutz
 ### [Datenschutz (microsoft.com)](https://www.microsoft.com/trust-center/privacy)
 ## Compliance
-### [Compliance – Übersicht](compliance/compliance-overview.md)
-### [Anwendungskompatibilität](compliance/compliance-application-compliance.md)
-### [Dienstkompatibilität](compliance/compliance-service-compliance.md)
+### [Compliance – Übersicht](compliance/compliance-overview.md)
+### [Anwendungs-Compliance](compliance/compliance-application-compliance.md)
+### [Service-Compliance](compliance/compliance-service-compliance.md)
 ### [Zertifizierungen](compliance/compliance-certifications.md)
-## [Dienst – Übersicht (nur in Englisch)](/dynamics365/business-central/dev-itpro/service-overview?toc=/dynamics365/business-central/toc.json)
+## [Service – Übersicht (nur in Englisch)](/dynamics365/business-central/dev-itpro/service-overview?toc=/dynamics365/business-central/toc.json)
 ## [Funktionen der Testversion, die sich mit anderen Microsoft-Diensten verbinden lassen](privacy-connected-services.md)
 # Entwicklung und Verwaltung
 ## [Erste Schritte mit der Entwicklungs- und Verwaltungsdokumentation](/dynamics365/business-central/dev-itpro/index?toc=/dynamics365/business-central/toc.json)
@@ -1852,16 +1852,16 @@
 #### Zugriff mit Microsoft 365-Lizenzen
 ##### [Übersicht](admin-access-with-m365-license.md)
 ##### [Zugriff mit Microsoft 365-Lizenzen einrichten](admin-access-with-m365-license-setup.md)
-##### [Benutzer*innenzugriffsflow](admin-access-with-m365-license-flow.md)
+##### [Benutzerzugriffs-Flow](admin-access-with-m365-license-flow.md)
 ##### [FAQ](admin-access-with-m365-license-faq.md)
 ##### [Problembehandlung](admin-access-with-m365-license-troubleshooting.md) 
 #### Benutzerberechtigungen erteilen
-##### [Benutzer*innen gemäß Lizenzen erstellen](ui-how-users-permissions.md)
-##### [Benutzer*innen und Gruppen Berechtigungen zuweisen](ui-define-granular-permissions.md)
+##### [Benutzer gemäß Lizenzen erstellen](ui-how-users-permissions.md)
+##### [Benutzern und Gruppen Berechtigungen zuweisen](ui-define-granular-permissions.md)
 ### Benutzereinstellungen verwalten
 #### [Profile verwalten](admin-users-profiles-roles.md)
 #### [Benutzereinstellungen und Präferenzen verwalten](admin-manage-user-settings-preferences.md)
-### Kontrollieren Sie Ihre Daten
+### Ihre Daten kontrollieren
 #### [Datensensitivität klassifizieren](admin-classifying-data-sensitivity.md)
 #### [Auf Anfragen zu personenbezogenen Daten antworten](admin-responding-to-requests-about-personal-data.md)
 #### [Änderungen protokollieren](across-log-changes.md)
@@ -1872,30 +1872,30 @@
 #### [Datenbanksperren anzeigen](admin-view-database-locks.md)
 ### [Drucker einrichten](ui-specify-printer-selection-reports.md)
 ### [Status der Datenschutzhinweise](privacy-notices-status.md)
-### [Neue Mandanten erstellen](about-new-company.md)
+### [Neue Unternehmen erstellen](about-new-company.md)
 ### [Aufgabenwarteschlangen für die Aufgabenplanung verwenden](admin-job-queues-schedule-tasks.md)
-### [Webdienste veröffentlichen](across-how-publish-web-service.md)
+### [Einen Webdienst veröffentlichen](across-how-publish-web-service.md)
 ### [API-Vorlagen konfigurieren](admin-configuring-api-template.md)
 ### [Ihre Testversion verlängern](admin-extend-trial.md)
 ### [Seiten überprüfen](across-inspect-page.md)
 ### [Tabelleninformationen anzeigen](admin-view-table-information.md)
 ### [Neue Funktionen vorab aktivieren](admin-feature-management.md)
-### [Onboarding der Benutzer*innen mit Checklisten durchführen](admin-checklist.md)
+### [Onboarding der Benutzer mit Checklisten durchführen](admin-checklist.md)
 ### [Sandbox-Umgebungen](admin-sandbox-environments.md)
 ## Business Central anpassen
-### [Anpassung – Übersicht](ui-customizing-overview.md)
+### [Anpassung – Übersicht](ui-customizing-overview.md)
 ### [Seiten für Profile anpassen](ui-personalization-manage.md)
 ### [Angezeigte Features ändern](ui-experiences.md)
 ### [Farbindikatoren für Stapel einrichten](admin-how-set-up-colored-indicator-on-cues.md)
 ### Mit Erweiterungen anpassen
-#### [Erweiterungen – Übersicht](ui-extensions.md)
+#### [Erweiterungen – Übersicht](ui-extensions.md)
 #### [Erweiterungen installieren und deinstallieren](ui-extensions-install-uninstall.md)
-#### [AMC Banking 365 Fundamentals-Erweiterung](ui-extensions-amc-banking.md)
+#### [AMC Banking 365 Fundamentals-Erweiterung einrichten](ui-extensions-amc-banking.md)
 #### [Ceridian Payroll](ui-extensions-ceridian-payroll.md)
 #### [Unternehmens-Hub](ui-extensions-company-hub.md)
-#### [DK – C5-Datenmigration](ui-extensions-c5-data-migration.md)
+#### [DK – C5-Datenmigration](ui-extensions-c5-data-migration.md)
 #### [DK – Zahlungen und Abstimmungen](ui-extensions-payments-reconciliation-formats-dk.md)
-#### [DK – Steuerdateiformate](ui-extensions-tax-file-formats-dk.md)
+#### [DK – Steuerdateiformate](ui-extensions-tax-file-formats-dk.md)
 #### [Envestnet Yodlee Bank Feeds](ui-extensions-yodlee-bank-feeds.md)
 #### [Wichtige Geschäftserkenntnisse](ui-extensions-essential-business-insights.md)
 #### [Bildanalyse](ui-extensions-image-analyzer.md)
@@ -1906,12 +1906,12 @@
 #### [PayPal Payments Standard](ui-extensions-paypal-payments-standard.md)
 #### [QuickBooks-Datenmigration](ui-extensions-quickbooks-data-migration.md)
 #### [QuickBooks Online-Datenmigration](ui-extensions-quickbooks-online-data-migration.md)
-#### [Quickbooks – Lohndatei importieren](ui-extensions-quickbooks-payroll.md)
+#### [Quickbooks – Lohndatei importieren](ui-extensions-quickbooks-payroll.md)
 #### [Umsatz- und Lagerbestandsplanung](ui-extensions-sales-forecast.md)
 #### [Erweiterung für die Servicemeldung](finance-how-setup-use-service-declaration.md)
-#### [UK - GetAddress.io UK-Postleitzahlen](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)
-#### [UK – MwSt.-Gruppenverwaltung](ui-extensions-vat-group.md)
-#### [USA/CA/GB/AU/NZ/ZA – Überweisungsbescheid senden](ui-extensions-send-remittance-advice.md)
+#### [UK – GetAddress.io UK-Postleitzahlen](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)
+#### [UK – MwSt.-Gruppenverwaltung](ui-extensions-vat-group.md)
+#### [USA/CA/GB/AU/NZ/ZA – Überweisungsbescheid senden](ui-extensions-send-remittance-advice.md)
 #### [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
 #### [Business Central-Erweiterungen von anderen Anbietern](ui-extensions-other.md)
 ## In Dynamics 365 Sales integrieren
@@ -1919,7 +1919,7 @@
 ## In Microsoft Dataverse integrieren
 ### [In Microsoft Dataverse integrieren](admin-common-data-service.md)
 ### [Dateneigentumsmodelle](admin-cds-company-concept.md)
-### [Benutzerkonten für die Integration in Microsoft Dataverse einrichten](admin-setting-up-integration-with-dynamics-sales.md)
+### [Benutzerkonten für die Microsoft Dataverse-Integration einrichten](admin-setting-up-integration-with-dynamics-sales.md)
 ### [Mit Microsoft Dataverse verbinden](admin-how-to-set-up-a-dynamics-crm-connection.md)
 ### [Business Central und Microsoft Dataverse synchronisieren](admin-synchronizing-business-central-and-sales.md)
 ### [Zu synchronisierende Tabellen und Felder zuordnen](admin-how-to-modify-table-mappings-for-synchronization.md)
@@ -1931,9 +1931,9 @@
 ### [Vorbereitung der Synchronisierung der Masterdaten](admin-set-up-data-sync.md)
 ### [Masterdatensynchronisierung verwalten](admin-sync-master-data.md)
 ## Designdetails
-### [Anwendungsdesigndetails – Übersicht](design-details-application-design.md)
+### [Anwendungsdesigndetails – Übersicht](design-details-application-design.md)
 ### Designdetails: Beschaffungsplanung
-#### [Beschaffungsplanung – Übersicht](design-details-supply-planning.md)
+#### [Beschaffungsplanung – Übersicht](design-details-supply-planning.md)
 #### [Designdetails: Zentrale Konzepte des Planungssystems](design-details-central-concepts-of-the-planning-system.md)  
 #### [Designdetails: Reservierung, Auftragsnachverfolgung und Aktionsmeldungen](design-details-reservation-order-tracking-and-action-messaging.md)  
 #### [Designdetails: Ausgleich von Nachfrage und Angebot](design-details-balancing-demand-and-supply.md)  
@@ -1942,7 +1942,7 @@
 #### [Designdetails: Planungszuordnungstabelle](design-details-planning-assignment-table.md)  
 #### [Designdetails: Umlagerungen in Planung](design-details-transfers-in-planning.md)
 ### Designdetails: Lagerbewertung
-#### [Lagerabgang – Übersicht](design-details-inventory-costing.md)
+#### [Lagerabgang – Übersicht](design-details-inventory-costing.md)
 #### [Designdetails: Lagerabgangsmethoden](design-details-costing-methods.md)  
 #### [Designdetails: Lagerabgangsmethode für Artikel ändern](design-details-changing-costing-methods.md)
 #### [Designdetails: Artikelausgleich](design-details-item-application.md)  
@@ -1952,7 +1952,7 @@
 #### [Designdetails: Buchungsdatum für Regulierungswertposten](design-details-inventory-adjustment-value-entry-posting-date.md)  
 ##### [Fehlermeldung „Das Buchungsdatum liegt nicht in Ihrem zugelassenen Buchungszeitraum“](design-details-inventory-adjustment-value-entry-allowed-posting-dates.md)  
 ##### [Buchungsdatum des Regulierungswertpostens im Vergleich zum Herkunftsposten](design-details-inventory-adjustment-value-entry-source-entry.md)  
-#### [Designdetails: Soll-Kosten-Buchen](design-details-expected-cost-posting.md)  
+#### [Designdetails: Soll-Kosten buchen](design-details-expected-cost-posting.md)  
 #### [Designdetails: Einstandspreis](design-details-average-cost.md)  
 #### [Designdetails: Abweichung](design-details-variance.md)  
 #### [Designdetails: Runden](design-details-rounding.md)  
@@ -1965,32 +1965,32 @@
 #### [Designdetails: Konten in der Finanzbuchhaltung](design-details-accounts-in-the-general-ledger.md)
 #### [Designdetails: Lagerbewertung](design-details-inventory-valuation.md)  
 #### [Designdetails: Neubewertung](design-details-revaluation.md)
-<!-- ### Design Details: Warehouse Management -->
-<!-- #### [Warehouse Management Overview](design-details-warehouse-management.md) -->
-<!-- #### [Design Details: Warehouse Overview](design-details-warehouse-overview.md) -->  
-<!-- #### [Design Details: Warehouse Setup](design-details-warehouse-setup.md)   deleted, use warehouse-setup-warehouse.md -->
-<!-- #### [Design Details: Inbound Warehouse Flow](design-details-inbound-warehouse-flow.md)  -->
-<!-- #### [Design Details: Internal Warehouse Flows](design-details-internal-warehouse-flows.md) --> 
+<!-- ### Design details: Warehouse management -->
+<!-- #### [Warehouse management overview](design-details-warehouse-management.md) -->
+<!-- #### [Design details: Warehouse overview](design-details-warehouse-overview.md) -->  
+<!-- #### [Design details: Warehouse setup](design-details-warehouse-setup.md)   deleted, use warehouse-setup-warehouse.md -->
+<!-- #### [Design details: Inbound warehouse flow](design-details-inbound-warehouse-flow.md)  -->
+<!-- #### [Design details: Internal warehouse flows](design-details-internal-warehouse-flows.md) --> 
 ### [Designdetails: Verfügbarkeit im Lager](design-details-availability-in-the-warehouse.md)  
-<!-- #### [Design Details: Outbound Warehouse Flow](design-details-outbound-warehouse-flow.md)  -->
-<!-- #### [Design Details: Integration with Inventory](design-details-integration-with-inventory.md)-->
+<!-- #### [Design details: Outbound warehouse flow](design-details-outbound-warehouse-flow.md)  -->
+<!-- #### [Design details: Integration with inventory](design-details-integration-with-inventory.md)-->
 ### Designdetails: Artikelverfolgung
-#### [Artikelverfolgung – Übersicht](design-details-item-tracking.md)
+#### [Artikelverfolgung – Übersicht](design-details-item-tracking.md)
 #### [Designdetails: Artikelverfolgungsdesign](design-details-item-tracking-design.md)  
 #### [Designdetails: Artikelverfolgungs-Buchungsstruktur](design-details-item-tracking-posting-structure.md)  
 #### [Designdetails: Aktive vs. historische Artikelverfolgungsposten](design-details-active-versus-historic-item-tracking-entries.md)  
-#### [Designdetails: Seite „Artikelverfolgungszeilen“](design-details-item-tracking-lines-window.md)  
+#### [Designdetails: Seite „Artikelverfolgungsposten“](design-details-item-tracking-lines-window.md)  
 #### [Designdetails: Artikelverfolgungsverfügbarkeit](design-details-item-tracking-availability.md)  
 #### [Designdetails: Artikelverfolgung und Planung](design-details-item-tracking-and-planning.md)  
 #### [Designdetails: Artikelverfolgung und Reservierungen](design-details-item-tracking-and-reservations.md)  
 #### [Designdetails: Artikelverfolgung im Lager](design-details-item-tracking-in-the-warehouse.md)
 ### Designdetails: Fibu Buch.-Blatt-Buchungsposition
 #### [Fibu Buch.-Blatt-Buchungsposition](design-details-general-journal-post-line.md)
-#### [Fibu Buch.-Blatt-Buchungsposition - Übersicht](design-details-general-journal-post-line-overview.md)  
+#### [Fibu Buch.-Blatt-Buchungsposition – Übersicht](design-details-general-journal-post-line-overview.md)  
 #### [Designdetails: Buchungsschnittstellenstruktur](design-details-posting-interface-structure.md)  
 #### [Designdetails: Buchungsmodulstruktur](design-details-posting-engine-structure.md)  
 ### Designdetails: Dimensionssatzposten
-#### [Designdetails: Dimensionssatzposten – Übersicht](design-details-dimension-set-entries-overview.md)  
+#### [Designdetails: Dimensionssatzposten – Übersicht](design-details-dimension-set-entries-overview.md)  
 #### [Designdetails: Suche nach Dimensionskombinationen](design-details-searching-for-dimension-combinations.md)  
 #### [Designdetails: Tabellenstruktur](design-details-table-structure.md)
 <!--migrate to BC online-->

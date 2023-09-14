@@ -1,16 +1,16 @@
 ---
 title: Feldzuordnung für den Export von Bankzahlungsdateien | Microsoft Docs
 description: 'Wenn Sie Zahlungsdateien mit der AMC Banking 365 Fundamentals-Erweiterung exportieren, werden die von Ihnen exportierten Daten dem Dienstanbieter zugänglich gemacht.'
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: null
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="field-mapping-when-exporting-payment-files-using-the-amc-banking-365-fundamentals-extension"></a>Feldzuordnung beim Export von Zahlungsdateien mit der AMC Banking 365 Fundamentals-Erweiterung
+# Feldzuordnung beim Export von Zahlungsdateien mit der AMC Banking 365 Fundamentals-Erweiterung
 Wenn Sie Zahlungsdateien mit der AMC Banking 365 Fundamentals-Erweiterung exportieren, werden die von Ihnen exportierten Daten dem Dienstanbieter zugänglich gemacht. Der Dienstanbieter ist für den Schutz dieser Daten verantwortlich. Weitere Informationen zur AMC Banking 365 Fundamentals-Erweiterung finden Sie unter [Die AMC Banking 365 Fundamentals-Erweiterung verwenden](ui-extensions-amc-banking.md).  
 
 > [!CAUTION]  
@@ -63,7 +63,7 @@ Die folgende Tabelle listet die Felder in [!INCLUDE[prod_short](includes/prod_sh
 |Fibu Buch.-Blattname|Buch.-Blattname|Fibu Buch.-Blattzeile|Der Fibu Buch.-Blatt-Buch.-Blatt, das für die Zahlungszeile verwendet wird|  
 |Name der Absenderbank – Datenkonvertierung|Bankname – Datenkonv.|Bankkonto|Der Name des Absenderbankkontos, der von der AMC Banking 365 Fundamentals-Erweiterung angefordert und auf der Bankkarte angegeben wird.|  
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch  
 [Datenaustausch einrichten](across-set-up-data-exchange.md)  
 [Daten elektronisch austauschen](across-data-exchange.md)
 [Die AMC Banking 365 Fundamentals-Erweiterung verwenden](ui-extensions-amc-banking.md)   
