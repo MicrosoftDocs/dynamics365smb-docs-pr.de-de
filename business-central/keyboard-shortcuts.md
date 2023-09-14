@@ -90,7 +90,7 @@ Die folgende Tabelle beschreibt Tastenkombinationen, die Sie auf einer Listensei
 |*<kbd>Umschalttaste</kbd>+<kbd>Strg</kbd>+<kbd>F</kbd>*|Senden Sie vorgeschlagene Zeilen an die Seite „Cashflow-Arbeitsblatt“.|Nicht anwendbar.|
 |*<kbd>Umschalttaste</kbd>+<kbd>Strg</kbd>+<kbd>I</kbd>*|Zeigen Sie dem Positionsartikel im Beleg oder Buch.-Blatt zugewiesene Seriennummern und Chargennummern an, oder bearbeitet diese.|Nicht anwendbar.|
 
-### <a name="navigating-between-rows-and-columns"></a><a name="navigateshortcuts"></a>Navigieren zwischen Zeilen und Spalten
+### <a name="navigate-between-rows-and-columns"></a><a name="navigateshortcuts"></a>Navigieren zwischen Zeilen und Spalten
 
 Raster mit Zeilen und Spalten existieren auf vielen Seitentypen in [!INCLUDE[prod_short](includes/prod_short.md)], wie z.B. Listenseiten und **Zeilen** Teilen auf Dokumenten. Die Bewegung von einer Zelle zur anderen über ein Raster ist vollständig über die Tastatur möglich.
 
@@ -111,7 +111,7 @@ Raster mit Zeilen und Spalten existieren auf vielen Seitentypen in [!INCLUDE[pro
 | <kbd>Tab</kbd> | Navigieren Sie in einer schreibgeschützten Liste in derselben Zeile zum nächsten Feld rechts. | Nicht anwendbar. | 
 | <kbd>UMSCHALT</kbd>+<kbd>TAB</kbd> | Navigieren zur gleichen Zeile im vorherigen bearbeitbaren Feld links. | Nicht anwendbar. |
 
-### <a name="selecting-copying-and-pasting"></a><a name="CopyRows"></a>Auswählen, Kopieren und Einfügen
+### <a name="select-copy-and-paste"></a><a name="CopyRows"></a>Auswählen, Kopieren und Einfügen
 
 |Wählen Sie diese Tasten aus<br />(in Mac Os)|Um dies in einer Listenansicht zu tun |Um dies in einer Kachelansicht zu tun |
 |--------------------------------|--------------------------|--------------------------|
@@ -129,7 +129,7 @@ Raster mit Zeilen und Spalten existieren auf vielen Seitentypen in [!INCLUDE[pro
 |<kbd>Umschalttaste</kbd>+<kbd>Seite nach Unten</kbd><br /><br />(<kbd>UMSCHALTTASTE</kbd>+<kbd>Fn</kbd>+<kbd>NACH-OBEN-TASTE</kbd>)|Erweitern Sie die Auswahl von Zeilen, um sichtbare Zeilen unter der aktuellen Auswahl von Zeilen zu berücksichtigen.|Nicht anwendbar.|
 |<kbd>F8</kbd>|Kopieren Sie das Feld in der gleichen Spalte der Zeile oben, und fügen Sie es in die aktuelle Zeile ein. Sie können dies nur in bearbeitbaren Listen tun. Mit dieser Tastenkombination, gefolgt von <kbd>TAB</kbd>, können Sie schnell Felder in Zeilenartikeln füllen, die denselben Wert haben wie die Reihe darüber.|Nicht anwendbar.|
 
-### <a name="searching-and-filtering-lists"></a><a name="KeyboardFilter"></a>Sortieren und Filtern von Listen
+### <a name="search-and-filter-lists"></a><a name="KeyboardFilter"></a>Sortieren und Filtern von Listen
 
 |Wählen Sie diese Tasten aus<br />(in Mac Os)|Vorgehensweise|
 |--------------------------------|----------|

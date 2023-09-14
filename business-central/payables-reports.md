@@ -8,15 +8,15 @@ ms.search.form: '347, Report_301, Report_304, Report_305, Report_312, Report_317
 ms.date: 07/13/2021
 ms.author: bholtorf
 ---
-# Berichte und Analysen zu Verbindlichkeiten a. LL in Business Central
+# <a name="accounts-payable-reports-and-analytics-in-business-central"></a>Berichte und Analysen zu Verbindlichkeiten a. LL in Business Central
 
 Um Sie bei der Verwaltung Ihrer Verbindlichkeiten in [!INCLUDE [prod_short](includes/prod_short.md)] zu unterstützen, sind Standardberichte und Analysen integriert. Die App sprengt die Grenzen herkömmlicher Berichte und hilft Ihnen, verschiedene Arten von Berichten effizient zu gestalten.  
 
-## Berichte
+## <a name="reports"></a>Berichte
 [!INCLUDE [payables_reports](includes/payables-reports-include.md)]
 
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Analysieren von Finanzberichten in Microsoft Excel](finance-analyze-excel.md)  
 [Arbeiten mit Dimensionen](finance-dimensions.md)  
