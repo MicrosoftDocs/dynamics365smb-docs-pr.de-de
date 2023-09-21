@@ -10,13 +10,13 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ---
 
-# <a name="transactions-and-payouts"></a>Transaktionen und Auszahlungen
+# Transaktionen und Auszahlungen
 
 Wenn ein Kunde seinen Checkout im Online-Shop abschließt, werden die Informationen zu Zahlungen als **Transaktion** gespeichert. Mit der Bestellung können mehrere Transaktionen verknüpft sein, z. B. wenn ein Kunde eine Geschenkkarte verwendet, um einen Teil der Kosten zu bezahlen, und dann eine Kreditkarte oder PayPal für den Restbetrag verwendet.
 
 Wenn Sie Shopify Zahlung als Zahlungsanbieter verwenden, dann können Sie neben Informationen über Gelder, die der Kunde vom Zahlungsanbieter erhalten hat, auch Auszahlungen von Shopify auf Ihr Bankkonto sehen.
 
-## <a name="transactions"></a>Transaktionen
+## Transaktionen
 
 Die Zahlungstransaktionen, die in Shopify stattfinden, werden mit den Aufträgen synchronisiert und können auf der Seite **Shopify Aufträge** eingesehen werden.
 
@@ -26,7 +26,7 @@ Das Feld **Gebuchte Rechnungsnummern** kann im Abstimmungsprozess hilfreich sein
 
 Wenn Sie eine Zuordnung von Zahlungsformen konfiguriert haben, wird dem erstellten Beleg ein Zahlungsformen-Code zugewiesen. Erfahren Sie mehr unter [Zuordnung von Zahlungsmethoden](#payment-method-mapping).
 
-## <a name="payouts"></a>Auszahlungen
+## Auszahlungen
 
 Wenn Ihr Store Shopify Payment verwendet, erhalten Sie Zahlungen über **Shopify Payouts**, wenn ein Debitor mit Shopify Payments und beschleunigten Checkouts bezahlt.
 
@@ -38,7 +38,7 @@ Um alle Auszahlungen zu überprüfen, wählen Sie die ![Glühbirne, die die “W
 
 **Auszahlungen** dienen nur zu Informationszwecken und wirken sich nicht auf das Hauptbuch oder das Bankbuch aus, können jedoch hilfreich sein, wenn Sie Ihren Kontoauszug bearbeiten.
 
-## <a name="payment-method-mapping"></a>Zuordnung der Zahlungsform
+## Zuordnung der Zahlungsform
 
 Zum Ausfüllen des Felds **Zahlungsformcode** für Verkaufsbelege, die automatisch aus Shopify importiert wurden, müssen Sie **Zuordnung der Zahlungsform** konfigurieren.
 
@@ -52,7 +52,7 @@ Zum Ausfüllen des Felds **Zahlungsformcode** für Verkaufsbelege, die automatis
 > [!NOTE]  
 > Wenn die entsprechende Zahlungsmethode in [!INCLUDE[prod_short](../includes/prod_short.md)] über **Guth. Kontotyp** und **Guth. Konto-Nr.** ausgefüllt sind, erstellt das System beim Buchen der Rechnung eine Ausgleichsbuchung der Art *Zahlung* und wendet sie auf die Art *Rechnung* im Debitor-Sachkonto an.
 
-## <a name="use-cases"></a>Anwendungsfälle
+## Anwendungsfälle
   
 Parteien:
 
@@ -60,7 +60,7 @@ Parteien:
 * Händler - Ihre Firma.
 * Zahlungsanbieter - Firma, die die Verarbeitung von Zahlungen für Sie übernimmt. Das kann Shopify Payments oder eine dritte Partei sein.
 
-### <a name="how-money-flows"></a>Wie das Geld fließt
+### Wie das Geld fließt
 
 Der Käufer kauft Waren im Online Store. Der letzte Schritt ist die Verarbeitung der Zahlung.
 
@@ -77,7 +77,7 @@ Je nach Bank kann der Händler diese eingehende Transaktion auf seinem Bankkonto
 
 Es gibt mehrere Optionen, wie Sie Transaktionen mit dem Schweregrad [!INCLUDE[prod_short](../includes/prod_short.md)] behandeln können
   
-### <a name="option-1-reconcile-incoming-transfers-to-bank-account-against-original-invoices"></a>Option 1: Eingehende Überweisungen auf das Bankkonto mit den Originalrechnungen abstimmen
+### Option 1: Eingehende Überweisungen auf das Bankkonto mit den Originalrechnungen abstimmen
   
 Der Händler importiert einen Verkaufsauftrag in [!INCLUDE[prod_short](../includes/prod_short.md)] und bucht Geb. Verkaufslieferungen und Rechnungen.
 
@@ -90,7 +90,7 @@ Probleme:
 1. Kann schwierig sein, wenn es mehrere Rechnungen (und Gutschriften), aber eine Auszahlung vom Zahlungsanbieter mit einem Pauschalbetrag gibt.
 2. Die Beträge stimmen in der Regel aufgrund der Provisionen nicht überein. Sie können Zahlungstoleranzen oder/und Zahlungsrabatte verwenden, um Gebühren zu handhaben.
 
-### <a name="option-2-reconcile-incoming-transfers-to-bank-account-against-interim-account-representing-money-at-the-payment-provider"></a>Option 2: Stimmen Sie eingehende Überweisungen auf ein Bankkonto mit einem Zwischenkonto ab, das Geld beim Zahlungsanbieter darstellt.
+### Option 2: Stimmen Sie eingehende Überweisungen auf ein Bankkonto mit einem Zwischenkonto ab, das Geld beim Zahlungsanbieter darstellt.
   
 Der Händler importiert einen Verkaufsauftrag in [!INCLUDE[prod_short](../includes/prod_short.md)] und bucht Geb. Verkaufslieferungen und Rechnungen.
   
@@ -119,6 +119,6 @@ Probleme:
 
 1. Sie können mehrere Sach- oder Bankkonten erstellen, wenn Sie mit mehreren Zahlungsanbietern zu tun haben. Verkaufsaufträge in [!INCLUDE[prod_short](../includes/prod_short.md)] unterstützen jedoch nur einen Zahlungsartencode, was es schwierig macht, Fälle zu behandeln, in denen ein Käufer mehrere Zahlungsarten für eine Bestellung verwendet.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Einstieg in den Konnektor für Shopify](get-started.md)  

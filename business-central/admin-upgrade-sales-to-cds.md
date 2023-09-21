@@ -10,7 +10,7 @@ ms.search.keywords: 'sales, crm, integration, integrating'
 ms.date: 06/14/2021
 ms.author: bholtorf
 ---
-# <a name="upgrading-an-integration-with-dynamics-365-sales"></a>Aktualisieren einer Integration mit Dynamics 365 Sales
+# Aktualisieren einer Integration mit Dynamics 365 Sales
 [!INCLUDE[prod_short](includes/prod_short.md)] lässt sich mit der [!INCLUDE[prod_short](includes/cds_long_md.md)] integrieren, was die Verbindung und Synchronisierung von Daten mit anderen Dynamics 365-Anwendungen wie [!INCLUDE[crm_md](includes/crm_md.md)] oder sogar selbst erstellten Anwendungen erleichtert. Wenn Sie zum ersten Mal integrieren, empfehlen wir Ihnen, dies über [!INCLUDE[prod_short](includes/cds_long_md.md)] zu tun. Weitere Informationen finden Sie unter [Integration mit Dataverse](admin-common-data-service.md).
 
 Wenn Sie bereits [!INCLUDE[crm_md](includes/crm_md.md)] mit [!INCLUDE[prod_short](includes/prod_short.md)] integriert haben, können Sie die Datensynchronisation mit Ihrem Setup fortsetzen. Wenn Sie jedoch [!INCLUDE[prod_short](includes/prod_short.md)] aktualisieren oder Ihre [!INCLUDE[crm_md](includes/crm_md.md)]-Integration ausschalten, müssen Sie sich über [!INCLUDE[prod_short](includes/cds_long_md.md)] verbinden, um sie wieder einzuschalten. 
@@ -18,7 +18,7 @@ Wenn Sie bereits [!INCLUDE[crm_md](includes/crm_md.md)] mit [!INCLUDE[prod_short
 > [!NOTE]
 > Eine erneute Verbindung über [!INCLUDE[prod_short](includes/cds_long_md.md)] wendet die Standard-Synchronisationseinstellungen an und überschreibt alle Ihre Konfigurationen. Es werden zum Beispiel die Standard-Tabellenzuordnungen angewendet.
 
-## <a name="to-upgrade-your-connection-to-use-dataverse"></a>So rüsten Sie Ihre Verbindung auf die Verwendung von Dataverse auf
+## So rüsten Sie Ihre Verbindung auf die Verwendung von Dataverse auf
 1. Öffnen Sie die Seite **Microsoft Dynamics 365 Verbindungseinrichtung** und deaktivieren Sie dann den Schalter **Aktiviert**. Schließen Sie dann die Seite, um die Verbindung zu [!INCLUDE[crm_md](includes/crm_md.md)] zu trennen.
 2. Öffnen Sie die Seite **Dataverse Verbindungseinrichtung** und wählen Sie im Feld **Eigentümermodell** **Person**. Wählen Sie dann den Umschalter **Aktiviert**, um die Verbindung zu [!INCLUDE[prod_short](includes/cds_long_md.md)] einzuschalten.
   
@@ -34,7 +34,7 @@ Wenn Sie bereits [!INCLUDE[crm_md](includes/crm_md.md)] mit [!INCLUDE[prod_short
    > [!IMPORTANT]
    > Wenn Sie die Aktion **Standard-Synchronisation einrichten** verwenden, werden die Standard-Zuordnungen der Integrationstabellen übernommen. Alle angepassten Zuordnungen werden überschrieben. Wenn Sie angepasste Zuordnungen haben, die Sie behalten möchten, empfehlen wir Ihnen, diese nach Excel zu exportieren oder mit Ihrem Microsoft-Partner über andere Möglichkeiten zu sprechen, Ihre angepassten Zuordnungen zu behalten.    
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 [Integration mit Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  
 [Integrieren in Microsoft Dataverse](admin-common-data-service.md)
 

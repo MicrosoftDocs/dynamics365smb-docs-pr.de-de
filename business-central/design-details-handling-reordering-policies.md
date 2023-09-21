@@ -3,12 +3,12 @@ title: Design-Details – Handhabung von Richtlinien für die Neuordnung
 description: 'Dieser Artikel gibt einen Überblick über die Nachbestellungsrichtlinien, die Sie bei der Beschaffungsplanung verwenden können.'
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.date: 02/24/2023
 ms.custom: bap-template
 ---
-# <a name="design-details-handling-reordering-policies"></a>Designdetails: Umgang mit Wiederbeschaffungsrichtlinien
+# Designdetails: Umgang mit Wiederbeschaffungsrichtlinien
 
 Um einen Artikel in die Beschaffungsplanung aufzunehmen, müssen Sie auf der Seite **Artikelkarte** eine Nachbestellungsrichtlinie dafür festlegen. Die folgenden Wiederbeschaffungsrichtlinien sind verfügbar:  
 
@@ -19,36 +19,36 @@ Um einen Artikel in die Beschaffungsplanung aufzunehmen, müssen Sie auf der Sei
 
 Die Richtlinien **Feste Bestellmenge** und **Höchstmenge** beziehen sich auf die Bestandsplanung. Diese Richtlinien koexistieren mit dem schrittweisen Ausgleich des Angebots und der Auftragsverfolgung.  
 
-## <a name="the-role-of-the-reorder-point"></a>Die Rolle des Meldebestands
+## Die Rolle des Meldebestands
 
 Ein Minimalbestand repräsentiert den Bedarf während der Beschaffungszeit. Wenn der Lagerstatus voraussichtlich unter den Lagerbestand gerät, der durch den Minimalbestand definiert ist, muss mehr bestellt werden. Der Bestand wird schrittweise verringert, bis der Nachschub eintrifft. Er kann Null oder den Sicherheitsbestand erreichen. Das Planungssystem schlägt einen vorwärtsgeplanten Beschaffungsauftrag an dem Zeitpunkt vor, an dem der Bestand unter den Minimalbestand sinkt.  
 
 Lagerebenen können sich während des Zeitfensters erheblich verändern. Daher überwacht das Planungssystem ständig verfügbare Bestände.
 
-## <a name="monitoring-the-projected-inventory-level-and-the-reorder-point"></a>Überwachen der voraussichtlichen Lagerebene und des Meldebestands
+## Überwachen der voraussichtlichen Lagerebene und des Meldebestands
 
 Der Bestand ist eine Art Vorrat, jedoch für Bestandsplanung unterscheidet das Planungssystem zwischen zwei Bestandsebenen:  
 
 * Voraussichtlicher Lagerbestand  
 * Voraussichtlich verfügbarer Lagerbestand  
 
-### <a name="projected-inventory"></a>Voraussichtlicher Lagerbestand
+### Voraussichtlicher Lagerbestand  
 
 Zu Beginn des Planungsprozesses ist der voraussichtliche Bestand die Bruttobestandsmenge. Die Bruttomenge umfasst gebuchtes und nicht gebuchtes Angebot und Nachfrage in der Vergangenheit. Diese Menge wird zu einer voraussichtlichen Lagerebene, die Bruttomengen aus zukünftigem Angebot und Nachfrage beibehalten. Zukünftiges Angebot und zukünftige Nachfrage werden entlang der Zeitlinie eingeführt, entweder reserviert oder auf andere Weise zugewiesen.  
 
 Das Planungssystem verwendet voraussichtlichen Bestand, um den Minimalbestand zu überwachen und um die Wiederbeschaffungsmenge zu bestimmen, wenn die Wiederbeschaffungsrichtlinie **Höchstmenge** verwendet wird.  
 
-### <a name="projected-available-inventory"></a>Voraussichtlich verfügbarer Lagerbestand
+### Voraussichtlich verfügbarer Lagerbestand  
 
 Der voraussichtlich verfügbare Lagerbestand ist Teil ist der voraussichtliche Bestand, der zum Erfüllen der Nachfrage zu einem bestimmten Zeitpunkt verfügbar ist. Das Planungssystem verwendet den voraussichtlich verfügbaren Lagerbestand, wenn die Sicherheitsbestandsebene überwacht wird. Für unerwarteten Bedarf muss immer ein Sicherheitsbestand verfügbar sein.  
 
-### <a name="time-buckets"></a>Zeitrahmen
+### Zeitrahmen  
 
 Der voraussichtliche Lagerbestands ist entscheidend, um zu ermitteln, wann der Minimalbestand erreicht ist oder unterschritten wurde, und wie die richtige Auftragsmenge berechnet wird, wenn das Wiederbeschaffungsverfahren **Höchstmenge** verwendet wird.  
 
 Der voraussichtliche Lagerbestand wird am Anfang der Planungsperiode berechnet. Dies ist eine grobe Ebene, bei der Reservierungen und andere Zuordnungen nicht berücksichtigt werden. Um dieses Lagerbestandsniveau während der Planungssequenz zu überwachen, überwacht das Planungssystem die aggregierten Änderungen über eine Zeitperiode hinweg. Dieser Zeitraum wird als *Zeitrahmen* bezeichnet. Weitere Informationen zu Zeitrahmen finden Sie unter [Die Rolle des Zeitrahmens](#the-role-of-the-time-bucket). Das Planungssystem stellt sicher, dass der Zeitrahmen mindestens einen Tag beträgt. Ein Tag ist die Mindestzeiteinheit für Nachfrage- oder Angebotsereignisse.  
 
-### <a name="determining-the-projected-inventory-level"></a>Bestimmen des voraussichtlichen Lagerbestands
+### Bestimmen des voraussichtlichen Lagerbestands  
 
 Die folgende Sequenz beschreibt, wie das Planungssystem den voraussichtlichen Lagerbestand bestimmt:  
 
@@ -77,7 +77,7 @@ Das folgende Bild zeigt dieses Prinzip.
 8. Das Planungssystem fügt die Minderungserinnerung -3 in der Ebene des voraussichtlichen Lagerbestands hinzu, entweder A: +4 -3 = 1 oder B: +6 -3 = +3.  
 9. Bei A erstellt das Planungssystem eine vorausplanende Bestellung ab Datum **Da**. Bei B wird der Minimalbestand erreicht, und es wird ein neuer Auftrag erstellt.
 
-## <a name="the-role-of-the-time-bucket"></a>Die Rolle des Zeitrahmens
+## Die Rolle des Zeitrahmens
 
 Der Zweck dieses Zeitrahmens ist es, Bedarfsereignisse innerhalb der Periode zu erfassen, um einen gemeinsamen Beschaffungsauftrag zu erstellen.  
 
@@ -91,7 +91,7 @@ Das Zeitrahmenkonzept spiegelt den manuellen Vorgang des Überprüfens des Lager
 
 Zeitrahmen werden häufig verwendet, um einen Kaskadeneffekt zu vermeiden. Zum Beispiel eine eine ausgeglichene Zeile von Bedarf und Vorrat, bei der ein frühzeitiger Bedarf storniert oder ein neuer Bedarf erstellt wird. Das Ergebnis würde sein, dass jeder Beschaffungsauftrag (mit Ausnahme des letzten) umgeplant würde.
 
-## <a name="stay-below-the-overflow-level"></a>Unter dem Überlauflevel bleiben
+## Unter dem Überlauflevel bleiben
 
 Wenn das Wiederbeschaffungsverfahren **Maximalbestand** und **Feste Bestellmenge** verwendet werden, konzentriert sich das Planungssystem nur auf den voraussichtlichen Lagerbestand in dem vorgegebenen Zeitrahmen. Es könnte auf ein zusätzliches Angebot hindeuten, wenn negative Nachfrage- oder positive Angebotsänderungen außerhalb des Zeitfensters auftreten. Bei einem zusätzlichen Vorrat berechnet das Planungssystem die Menge, um die Sie den Vorrat verringern sollten. Diese Menge wird als "Überlauflevel" bezeichnet. Der Überlauf ist als Planungszeile mit einer **Menge ändern** oder **Abbrechen** Operation und der folgenden Warnmeldung verfügbar:  
 
@@ -99,11 +99,11 @@ Wenn das Wiederbeschaffungsverfahren **Maximalbestand** und **Feste Bestellmenge
 
 ![Bestandsüberlaufebene.](media/supplyplanning_2_overflow1_new.png "Lagerbestand-Überlauflevel")  
 
-### <a name="calculating-the-overflow-level"></a>Berechnung des Überlauflevels
+### Berechnung des Überlauflevels  
 
 Das Überlauflevel wird auf verschiedene Arten abhängig vom Wiederbeschaffungsverfahren berechnet.  
 
-#### <a name="maximum-qty"></a>Auffüllen auf Maximalbestand
+#### Auffüllen auf Maximalbestand
 
 Überlauflevel = Maximalbestand  
 
@@ -112,7 +112,7 @@ Das Überlauflevel wird auf verschiedene Arten abhängig vom Wiederbeschaffungsv
 >
 > Überlaufmenge = maximaler Lagerbestand + Mindestbestellmenge.  
 
-#### <a name="fixed-reorder-qty"></a>Feste Bestellmenge
+#### Feste Bestellmenge  
 
 Überlauflevel = Nachbestellmenge + Meldebestand  
 
@@ -121,15 +121,15 @@ Das Überlauflevel wird auf verschiedene Arten abhängig vom Wiederbeschaffungsv
 >
 > Überlauflevel = Nachbestellmenge + Mindestbestellmenge  
 
-#### <a name="order-multiple"></a>Losgrößenrundungsfaktor
+#### Losgrößenrundungsfaktor  
 
 Wenn ein Auftragsvielfaches vorhanden ist, reguliert dieses den Überlauflevel für die Wiederbeschaffungsverfahren die Höchstmenge und die Feste Nachbestellmenge.  
 
-### <a name="creating-the-planning-line-with-an-overflow-warning"></a>Erstellen der Planungszeile mit Überlaufwarnmeldung
+### Erstellen der Planungszeile mit Überlaufwarnmeldung  
 
 Eine Planungszeile wird erstellt, wenn eine vorhandene Lieferung dazu führt, dass der voraussichtliche Lagerbestand höher ist, als das Überlauflevel am Ende eines Zeitrahmens. Um vor einem Extravorrat zu warnen, hat die Planungszeile eine Warnmeldung, das Feld **Ereignismeldung akzeptieren** ist nicht aktiviert, und die Ereignismeldung ist entweder **Abbrechen** oder **Menge ändern**.  
 
-#### <a name="calculating-the-planning-line-quantity"></a>Berechnen der Planungszeilenmenge
+#### Berechnen der Planungszeilenmenge  
 
 Die Menge auf einer Planungszeile wird wie folgt berechnet:
 
@@ -138,12 +138,12 @@ Planungszeilen-Menge = Netzstrom-Menge - (voraussichtlicher Lagerbestand - Über
 > [!NOTE]  
 > Bei sAs bei allen Hinweiszeilen werden die maximale und Mindestauftragsmengen und das Auftragsvielfache ignoriert.  
 
-#### <a name="defining-the-action-message-type"></a>Definieren des Aktionsmeldungstyps
+#### Definieren des Aktionsmeldungstyps  
 
 * Wenn die Planungszeilenmenge höher als 0 ist, ist die Aktionsmeldung **Menge ändern**.  
 * Wenn die Planungszeilenmenge gleich oder weniger als 0 ist, ist die Aktionsmeldung **Stornieren**.  
 
-#### <a name="composing-the-warning-message"></a>Verfassen der Warnmeldung
+#### Verfassen der Warnmeldung  
 
 Bei einem Überlauf zeigt die Seite **Planungselement ohne Nachverfolgung** eine Warnmeldung mit den folgenden Informationen an:  
 
@@ -153,11 +153,11 @@ Bei einem Überlauf zeigt die Seite **Planungselement ohne Nachverfolgung** eine
 
 Beispiel: „Der voraussichtliche Lagerbestand 120 übersteigt das Überlauflevel 60 am 28.01.23“  
 
-### <a name="example-scenario"></a>Beispielszenario
+### Beispielszenario  
 
 In diesem Szenario ändert ein Debitor einen Verkaufsauftrag von 70 zu 40 Stück zwischen zwei Planungen. Die Überlauffunktion reduziert den Einkauf, der für die anfängliche Verkaufsmenge vorgeschlagen worden war.  
 
-#### <a name="item-setup"></a>Artikeleinrichtung
+#### Artikeleinrichtung  
 
 |Wiederbeschaffungsverfahren|Auffüllen auf Maximalbestand|  
 |-----------------------|------------------|  
@@ -165,7 +165,7 @@ In diesem Szenario ändert ein Debitor einen Verkaufsauftrag von 70 zu 40 Stück
 |Minimalbestand|50|  
 |Lagerbest|80|  
 
-#### <a name="situation-before-sales-decrease"></a>Situation vor Vertriebsabgang
+#### Situation vor Vertriebsabgang  
 
 |Ereignis|"Menge ändern"|Voraussichtlicher Lagerbestand|  
 |-----------|-----------------|-------------------------|  
@@ -174,7 +174,7 @@ In diesem Szenario ändert ein Debitor einen Verkaufsauftrag von 70 zu 40 Stück
 |Ende des Zeitrahmens|Keine|10|  
 |Neue Bestellung vorschlagen|+90|100|  
 
-#### <a name="situation-after-sales-decrease"></a>Situation nach Vertriebsabgang
+#### Situation nach Vertriebsabgang  
 
 |Ändern|"Menge ändern"|Voraussichtlicher Lagerbestand|  
 |------------|-----------------|-------------------------|  
@@ -184,7 +184,7 @@ In diesem Szenario ändert ein Debitor einen Verkaufsauftrag von 70 zu 40 Stück
 |Ende des Zeitrahmens|Keine|130|  
 |Vorschlagen, den Einkauf zu vermindern<br><br> Auftrag von 90 bis 60|-30|100|  
 
-#### <a name="resulting-planning-lines"></a>Planungszeilen erstellen
+#### Planungszeilen erstellen  
 
 Das System erstellt eine Warnungsplanungszeile, um den Einkauf um 30 von 90 auf 60 zu verringern, um den voraussichtlichen Lagerstatus auf 100 entsprechend dem Überlauflevel festzuhalten.  
 
@@ -193,7 +193,7 @@ Das System erstellt eine Warnungsplanungszeile, um den Einkauf um 30 von 90 auf 
 > [!NOTE]  
 > Ohne die Überlauffunktion werden keine Warnmeldungen erstellt, wenn die voraussichtliche Lagerebene über dem Maximum liegt, was einen Extravorrat von 30 verursachen könnte.
 
-## <a name="handling-projected-negative-inventory"></a>Bestandvoraussichtlich negativ behandeln
+## Bestandvoraussichtlich negativ behandeln
 
 Der Minimalbestand drückt den voraussichtlichen Bedarf während der Beschaffungszeit des Artikels aus. Der voraussichtliche Lagerbestand muss groß genug sein, um den Bedarf zu decken, bis der neue Auftrag eingegangen ist. Unterdessen gleicht der Sicherheitsbestand Schwankungen im Bedarf bis zu einem anvisierten Servicelevel aus.  
 
@@ -227,11 +227,11 @@ In der folgenden Abbildung zeigt Vorrat D eine Notfallbestellung an, um negative
 
 Im nächsten Abschnitt werden die Eigenschaften der vier unterstützten Wiederbeschaffungsrichtlinien beschrieben.
 
-## <a name="reordering-policies"></a>Wiederbeschaffungsverfahren
+## Wiederbeschaffungsverfahren
 
 Wiederbeschaffungsrichtlinien definieren, wie viel zu bestellen ist, wenn der Artikel aufgefüllt werden muss. Es gibt verschiedene Wiederbeschaffungsverfahren.  
 
-### <a name="fixed-reorder-quantity"></a>Feste Wiederbeschaffungsmenge
+### Feste Wiederbeschaffungsmenge
 
 Die feste Richtlinie für die Wiederbeschaffungsmenge wird normalerweise für die Bestandsplanung für Artikel mit den folgenden Merkmalen verwendet:
 
@@ -241,7 +241,7 @@ Die feste Richtlinie für die Wiederbeschaffungsmenge wird normalerweise für di
 
 Verwenden Sie diese Methode normalerweise in Verbindung mit einem Minimalbestand, der den voraussichtlichen Bedarf während der Beschaffungszeit des Artikels angezeigt.  
 
-#### <a name="calculated-per-time-bucket"></a>Berechnet pro Zeitrahmen
+#### Berechnet pro Zeitrahmen  
 
 Wenn Sie den Meldebestand in einem Zeitrahmen (Meldezyklus) erreichen oder überschreiten, schlägt das System zwei Aktionen vor:
 
@@ -250,7 +250,7 @@ Wenn Sie den Meldebestand in einem Zeitrahmen (Meldezyklus) erreichen oder über
 
 Der Minimalbestand im Zeitrahmen reduziert die Anzahl der Beschaffungsvorschläge. Er spiegelt einen Prozess wider, bei dem der tatsächliche Inhalt der Plätze in Ihrem Lager manuell überprüft wird.  
 
-#### <a name="creates-only-necessary-supply"></a>Erstellt nur erforderlichen Vorrat
+#### Erstellt nur erforderlichen Vorrat  
 
 Bevor es einen neuen Beschaffungsauftrag vorschlägt, um einen Meldebestand zu erfüllen, prüft das Planungssystem auf den folgenden Vorrat:
 
@@ -261,7 +261,7 @@ Das System schlägt keine neuen Beschaffungsauftrag vor, wenn ein Vorrat den vor
 
 Beschaffungsaufträge, die speziell erstellt werden, um einen Minimalbestand zu erfüllen, werden aus dem Vorratsausgleich ausgeschlossen und nicht geändert. Wenn Sie einen Artikel mit einem Meldebestand auslaufen lassen möchten, überprüfen Sie Ihre ausstehenden Lieferbestellungen manuell oder ändern Sie die Wiederbeschaffungsverfahren in **Charge für Charge**. Das System wird zusätzlichen Vorrat reduzieren oder stornieren.  
 
-#### <a name="combines-with-order-modifiers"></a>Wird mit anderen Auftragsmodifizierern kombiniert
+#### Wird mit anderen Auftragsmodifizierern kombiniert  
 
 Die Auftragsmodifikatoren „Minimale Auftragsmenge“, „Maximale Auftragsmenge“ und „Auftragsvielfaches“ sollten keine bedeutende Rolle spielen, wenn Sie die feste Nachbestellungsmengenrichtlinie verwenden. Das Planungssystem berücksichtigt sie jedoch:
 
@@ -269,27 +269,27 @@ Die Auftragsmodifikatoren „Minimale Auftragsmenge“, „Maximale Auftragsmeng
 * Erhöhen Sie die Bestellung auf die angegebene Mindestbestellmenge
 * Runden Sie die Bestellmenge auf ein bestimmtes Bestellvielfaches auf  
 
-#### <a name="combines-with-calendars"></a>Zusammenfassen mit Kalendern
+#### Zusammenfassen mit Kalendern  
 
 Bevor ein neuer Beschaffungsauftrag vorgeschlagen wird, um einen Meldebestand zu erfüllen, prüft das Planungssystem, ob der Auftrag für einen arbeitsfreien Tag geplant ist. Es verwendet die Kalender, die Sie im Feld **Basiskalendercode** in den Seiten **Unternehmensinformationen** und **Standortkarte** angegeben haben.  
 
 Wenn das geplante Datum ein freier Tag ist, verschiebt das Planungssystem die Reihenfolge weiter zum nächsten Arbeitstag. Eine Verschiebung des Datums kann zu einem Verkaufsauftrag, der für einen Minimalbestand gilt, aber keinen bestimmten Bedarf abdeckt. Bei solcher Nachfrage ohne Bedarf erstellt das Planungssystem ein zusätzlicher Vorrat.  
 
-#### <a name="shouldnt-be-used-with-forecasts"></a>Sollte nicht mit Planung verwendet werden
+#### Sollte nicht mit Planung verwendet werden  
 
 Da der erwartete Bedarf bereits in der Minimalbestandsebene angegeben wird, ist es nicht notwendig, eine Prognose in die Planung zu berücksichtigen. Wenn es wichtig ist, den Plan auf einer Planung zu basieren, verwenden Sie die **Charge-für-Charge**-Richtlinie.  
 
-#### <a name="must-not-be-used-with-reservations"></a>Darf nicht mit Reservierungen verwendet werden
+#### Darf nicht mit Reservierungen verwendet werden  
 
 Wenn Sie eine Menge, etwa eine Menge im Bestand, für einen späteren Bedarf reserviert haben, stören Sie möglicherweise die Grundlage der Planung. Selbst wenn der voraussichtliche Lagerbestand im Hinblick auf den Minimalbestand akzeptabel ist, stehen die Mengen möglicherweise aufgrund der Reservierung nicht zur Verfügung. Das System versucht möglicherweise, dies zu kompensieren, indem Ausnahmeaufträge erstellt werden. Wir empfehlen jedoch, dass das Feld **Reservieren** für Artikel, die mit einem Meldebestand geplant werden, auf **Nie** eingestellt wird.
 
-### <a name="maximum-quantity"></a>Höchstmenge
+### Höchstmenge
 
 Die Richtlinie der maximalen Menge ist eine Möglichkeit zur Verwaltung des Bestands anhand eines Minimalbestands.  
 
 Alles im Zusammenhang mit der festen Bestellmengenrichtlinie bezieht sich auch auf diese Richtlinie. Der einzige Unterschied ist die Menge des vorgeschlagenen Vorrats. Wenn Sie die Methode Auffüllen auf Maximalbestand verwenden, erfolgt die Definition der Bestellmenge dynamisch auf Basis der voraussichtlichen Lagerebene. Daher ist es in der Regel von Bestellung zu Bestellung unterschiedlich.  
 
-#### <a name="calculate-per-time-bucket"></a>Berechnet pro Zeitrahmen
+#### Berechnet pro Zeitrahmen
 
 Wenn Sie den Meldebestand erreichen oder überschreiten, ermittelt das System die Meldemenge am Ende eines Zeitraums. Es misst die Lücke zwischen der aktuellen voraussichtlichen Lagerebene und dem angegebenen Maximalbestand, um die zu bestellende Menge zu bestimmen. Das System prüft dann:
 
@@ -300,7 +300,7 @@ Wenn dies der Fall ist, reduziert das System die Menge des neuen Beschaffungsauf
 
 Wenn Sie keine maximale Bestandsmenge angeben, stellt das Planungssystem sicher, dass der voraussichtliche Bestand die Nachbestellmenge erreicht.
 
-#### <a name="combine-with-order-modifiers"></a>Mit anderen Auftragsmodifizierern kombinieren
+#### Mit anderen Auftragsmodifizierern kombinieren
 
 Abhängig von Ihrer Einrichtung ist es möglicherweise am besten, die Maximalmengenrichtlinie mit Bestellmodifikatoren zu kombinieren: 
 
@@ -308,13 +308,13 @@ Abhängig von Ihrer Einrichtung ist es möglicherweise am besten, die Maximalmen
 * Runden Sie die Menge auf eine ganze Zahl von Einkaufsmengeneinheiten
 * Die Menge in Lose aufteilen, die von der maximalen Auftragsmenge definiert sind  
 
-### <a name="combine-with-calendars"></a>Mit Kalendern kombinieren
+### Mit Kalendern kombinieren
 
 Bevor ein neuer Beschaffungsauftrag vorgeschlagen wird, um einen Meldebestand zu erfüllen, prüft das Planungssystem, ob der Auftrag für einen arbeitsfreien Tag geplant ist. Es verwendet die Kalender, die Sie im Feld **Basiskalendercode** in den Seiten **Unternehmensinformationen** und **Standortkarte** angegeben haben.  
 
 Wenn das geplante Datum ein freier Tag ist, verschiebt das Planungssystem die Reihenfolge weiter zum nächsten Arbeitstag. Eine Verschiebung des Datums kann zu einem Verkaufsauftrag, der für einen Minimalbestand gilt, aber keinen bestimmten Bedarf abdeckt. Bei solcher Nachfrage ohne Bedarf erstellt das Planungssystem ein zusätzlicher Vorrat.
 
-### <a name="order"></a>Bestellung
+### Bestellung
 
 In einer Auftragsfertigungsumgebung wird ein Artikel bezogen oder gefertigt, um einen speziellen Bedarf zu decken. Üblicherweise wird das Auftragswiederbeschaffungsverfahren für Artikel mit den folgenden Merkmalen verwendet
 
@@ -330,11 +330,11 @@ In einer Auftragsfertigungsumgebung wird ein Artikel bezogen oder gefertigt, um 
 > [!TIP]
 > Wenn Artikelattribute nicht variieren, ist es möglicherweise am besten, eine Charge-für-Charge-Nachbestellungsrichtlinie zu verwenden. Deshalb verwendet das System nicht geplanten Lagerbestand und kumuliert nur Verkaufsaufträge mit demselben Lieferdatum oder in einem definierten Zeitrahmen.  
 
-#### <a name="order-to-order-links-and-past-due-dates"></a>Auftrag-zu-Auftrag-Links und überfällige Datumsangaben
+#### Auftrag-zu-Auftrag-Links und überfällige Datumsangaben
 
 Anders als die meisten Angebot-Nachfrage Datensätze werden verknüpfte Aufträge vor dem Startdatum vollständig vom System geplant. Der Grund für diese Ausnahme ist, dass bestimmte Bedarf-Vorrat-Sätze synchronisiert werden müssen. Weitere Informationen zu der fixierten Zone, die für die meisten Bedarf-Vorrat-Typen gilt, finden Sie unter [Aufträge vor dem Planungsstartdatum verarbeiten](design-details-balancing-demand-and-supply.md#process-orders-before-the-planning-start-date).
 
-### <a name="lot-for-lot"></a>Los-für-Los
+### Los-für-Los
 
 Die Charge-für-Charge-Richtlinie ist am flexibelsten, da das System nur auf die tatsächliche Nachfrage reagiert. Es reagiert auf den erwarteten Bedarf aus Prognose- und Rahmenaufträgen und rechnet dann die Auftragsmenge basierend auf dem Bedarf ab. Die Charge-für-Charge-Richtlinie gilt für Artikel, bei denen der bestand angenommen werden kann, jedoch vermieden werden sollte.  
 
@@ -354,7 +354,7 @@ Da die Beschaffungsauftragsmenge auf dem tatsächlichen Bedarf basiert, kann es 
 * Erhöhen Sie die Bestellung auf eine angegebene Mindestbestellmenge
 * Reduzieren Sie die Menge auf die angegebene Maximalmenge (und erstellen Sie damit zwei oder mehr Lieferungen, um die erforderliche Gesamtmenge zu erreichen)
 
-## <a name="see-also"></a>Weitere Informationen
+## Weitere Informationen  
 
 [Designdetails: Planungsparameter](design-details-planning-parameters.md)  
 [Designdetails: Planungs-Zuordnungstabelle](design-details-planning-assignment-table.md)  

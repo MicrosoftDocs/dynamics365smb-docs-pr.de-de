@@ -11,7 +11,7 @@ ms.search.form: '1070, 1071, 1073, 1074'
 ms.date: 06/23/2021
 ms.author: bholtorf
 ---
-# <a name="the-paypal-payments-standard-extension"></a>Die PayPal Payments Standard-Erweiterung
+# Die PayPal Payments Standard-Erweiterung
 
 Debitoren erfordern regelmäßig höheren Debitorenservice, sowohl in Bezug auf Produktqualität wie auch in Bezug auf Lieferungs- und Zahlungsoptionen. Mit dem PayPal Payments Standard-Service erhöhen Sie Ihren Debitorenservice.
 
@@ -29,7 +29,7 @@ Der PayPal Payments Standard-Service hat folgende Vorteile:
 
 Weitere Informationen finden Sie unter [Aktivieren Sie Debitoren-Zahlung durch PayPal](sales-how-enable-payment-service-extensions.md)
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Anpassen von [!INCLUDE[prod_short](includes/prod_short.md)] mithilfe von Erweiterungen](ui-extensions.md)  
 [Einrichten von Verkäufen](sales-setup-sales.md)  
