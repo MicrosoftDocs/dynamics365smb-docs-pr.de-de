@@ -8,15 +8,15 @@ author: brentholtorf
 ms.author: bholtorf
 ---
 
-# Exemplarische Vorgehensweise: Varianten
+# <a name="walkthrough-variants"></a>Exemplarische Vorgehensweise: Varianten
 
 In diesem Artikel führen wir Sie durch die Schritte zur Verwendung der Demodaten von Contoso Coffee, um mehr über Varianten zu erfahren.
 
-## Szenario
+## <a name="scenario"></a>Szenario
 
 Sie sind der Produktionsplaner bei Contoso Coffee. Sie müssen die Bedarfsplanung für jede Variante des Artikels SP-SCM1006, AutoDripLite aktualisieren. Da sie unterschiedliche Farben haben, müssen Sie darauf achten, dass für jede Variante die richtige Stückliste (BOM) verwendet wird. Führen Sie das Planungsarbeitsblatt aus, um den Vorrat zu berechnen.  
 
-## Schritte
+## <a name="steps"></a>Schritte
 
 1. Richten Sie die Lagerhaltungseinheiten für Artikel SP-SCM1006, AutoDripLite ein. Weisen Sie eine Stückliste für SKU mit den Varianten ROT und WEISS zu.
 
@@ -98,6 +98,6 @@ Sie sind der Produktionsplaner bei Contoso Coffee. Sie müssen die Bedarfsplanun
 
     9. Wählen Sie für jede erstellte Zeile die **Komponenten**-Aktion aus und überprüfen Sie, welche Farbe verwendet wird.  
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Einführung in Contoso Coffee Demo Data](../contoso-coffee-intro.md)  
