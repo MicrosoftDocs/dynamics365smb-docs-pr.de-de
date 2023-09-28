@@ -34,9 +34,7 @@ Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Themen,
 | Aktivieren Sie Versicherungen von Anlagen, richten allgemeine Versicherungsinformationen und eine Versicherungskarte pro Versicherung ein und bereiten Buch.-Blätter vor, um Versicherungskosten zu buchen. |[Um Anlagenversicherung einzurichten:](fa-how-setup-insurance.md) |
 | Aktivieren Sie die Wartung von Anlagen, richten allgemeine Wartungsinformationen und Wartungs-Buchungskonten ein, und definieren Sie Arten von Wartungsarbeiten. |[Um Anlagenwartung einzurichten:](fa-how-setup-maintenance.md) |
 | Informieren Sie sich über verschiedene Anlagen-AfA-Methoden. |[Abschreibungsmethoden](fa-depreciation-methods.md) |
-| Erfahren Sie, wie Sie benutzerdefinierte Abschreibungsmethoden anwenden können. |[Benutzerdefinierte Abschreibungsmethoden festlegen](fa-how-setup-user-defined-depreciation-method.md) |
-
-## Siehe verwandte [Microsoft Schulungen](/training/paths/set-up-fixed-assets-management/)
+| Erfahren Sie, wie Sie benutzerdefinierte Abschreibungsmethoden anwenden können. |[Benutzerdefinierte AfA-Methoden einrichten](fa-how-setup-user-defined-depreciation-method.md) |
 
 ## Siehe auch
 

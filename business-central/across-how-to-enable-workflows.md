@@ -22,12 +22,10 @@ Auf der Seite **Workflow** können Sie einen Workflow erstellen, indem Sie die e
 2. Öffnen Sie den Workflow, den Sie aktivieren möchten.  
 3. Aktivieren Sie auf der Seite **Workflow** das Kontrollkästchen **Aktiviert**.  
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/create-workflows/)
-
 ## Siehe auch
 
 [Genehmigungsworkflows erstellen](across-how-to-create-workflows.md)  
-[Artikelgenehmigungsworkflow verwenden](across-use-workflows.md)  
+[Genehmigungsworkflows verwenden](across-use-workflows.md)  
 [Archivierte Workflowschritt-Instanzen anzeigen](across-how-to-view-archived-workflow-step-instances.md)  
 [Artikelgenehmigungsworkflow löschen](across-how-to-delete-workflows.md)  
 [Genehmigungsworkflows einrichten](across-set-up-workflows.md)  

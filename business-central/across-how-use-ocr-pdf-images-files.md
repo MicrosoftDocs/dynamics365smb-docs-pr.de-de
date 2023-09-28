@@ -120,8 +120,6 @@ Die Seite **OCR-Datenkorrektur**, die Sie über das Fenster **Eingehender Beleg*
 
 Die Felder auf dem Inforegister **Finanzinformationen** auf der Seite **Eingehender Beleg** werden mit allen neuen Werten aktualisiert, die Sie in Schritt 4 eingegeben haben.
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/incoming-documents-dynamics-365-business-central/)
-
 ## Siehe auch
 
 [Erstellen von Datensätzen für Eingehende Belege](across-how-create-income-document-records.md)

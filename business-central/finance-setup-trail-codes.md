@@ -79,8 +79,6 @@ Der ausgewählte Ursachencode wird in neue Buch.-Blätter eingefügt, die unter 
 
 Wenn die Rechnung gebucht wird, wird der Ursachencode in jeden Sach-, Debitor- und Kreditorposten kopiert. Sie können einzelnen Einkaufs- oder Verkaufszeilen nicht unterschiedliche Ursachencodes zuordnen, da alle Zeilen als ein Posten gebucht werden.
 
-## Siehe verwandte [Microsoft Schulungen](/training/paths/set-up-financial-management-dynamics-365-business-central/)
-
 ## Siehe auch
 
 [Finanzen](finance.md)  

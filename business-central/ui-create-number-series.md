@@ -92,8 +92,6 @@ Der folgende Ablauf zeigt, wie Nummernserien für den Verkaufsbereich eingericht
 
 Die ausgewählten Anzahl wird nun verwendet, um **Nr.** auszufüllen Feld auf der fraglichen Karte oder auf dem fraglichen Dokument entsprechend den Einstellungen, die Sie in der Nummernserie erstellt haben.  
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/number-series-trail-codes-dynamics-365-business-central/index)
-
 ## Siehe auch
 
 [Einrichten [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  

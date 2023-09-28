@@ -275,8 +275,6 @@ Normale Ausgleichsvorschriften
 
 (2) Fällt die Zahlung in diesen Bereich, können nicht alle Posten geschlossen werden, auch nicht mit Toleranz.
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/enter-payments-dynamics-365-business-central/)
-
 ## Siehe auch
 
 [Finanzen](finance.md)  

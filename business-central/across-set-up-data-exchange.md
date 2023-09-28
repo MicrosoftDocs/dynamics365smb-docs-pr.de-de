@@ -31,9 +31,7 @@ Bevor Sie elektronische Belege senden und empfangen oder Bankdateien importieren
 |Nachdem der Bankkontoauszugsdienst aktiviert ist, verknüpfen Sie Bankkonten in [!INCLUDE[prod_short](includes/prod_short.md)]|[Bankkonten einrichten](bank-how-setup-bank-accounts.md)|  
 |Richten Sie Datenexport für Intrastat-Berichte in [!INCLUDE[prod_short](includes/prod_short.md)] ein.|[Intrastat-Berichte festlegen](finance-how-setup-report-intrastat.md)|
 |Bereiten Sie die Einrichtung einer neuen Datenaustauschdefinition für Datendateien oder Datenströme vor, indem Sie das Inforegister **Spaltendefinitionen** auf der Seite **Exchange-Definitinen buchen** mit dem XML-Schema der Datei vorab ausfüllen.|[Verwenden von XML-Schemata zur Vorbereitung der Datenaustauschdefinitionen](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)|  
-|Richten Sie das Datenaustauschframework so ein, dass Benutzer ein neues Einkaufsbelegformat empfangen, ein neues Verkaufsbelegformat senden, eine neue Bankdatei importieren oder andere Daten austauschen können.|[Richten Sie Datenaustauschdefinitionen ein](across-how-to-set-up-data-exchange-definitions.md)|  
-
-## Siehe verwandte [Microsoft Schulungen](/training/modules/electronic-documents-dynamics-365-business-central/)
+|Richten Sie das Datenaustauschframework so ein, dass Benutzer ein neues Einkaufsbelegformat empfangen, ein neues Verkaufsbelegformat senden, eine neue Bankdatei importieren oder andere Daten austauschen können.|[Datenaustauschdefinitionen einrichten](across-how-to-set-up-data-exchange-definitions.md)|  
 
 ## Siehe auch
 

@@ -37,18 +37,16 @@ Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Themen,
 |Konvertieren Sie zum Beispiel elektronische Rechnungen von Ihren Kreditoren in Business Central in Einkaufsrechnungen.|[Vorgehensweise: Elektronische Belege empfangen und konvertieren](purchasing-how-to-receive-and-convert-electronic-documents.md)|
 | Erfahren Sie, wie Sie [!INCLUDE[prod_short](includes/prod_short.md)] wenn Sie einen Artikel bestellen müssen, damit er zu einem bestimmten Datum geliefert wird.|[Terminberechnung für Einkäufe](purchasing-date-calculation-for-purchases.md)|
 |Lösen Sie auf Verwirrung auf, wenn zwei oder mehr Datensätze für denselben Kreditor vorhanden sind.|[Doppelt Datensätze zusammenführen](sales-how-merge-duplicate-records.md)|
-|Verwalten Sie Ihre Verpflichtung gegenüber einem Lieferanten, große Mengen zu kaufen, die im Laufe der Zeit in mehreren Sendungen geliefert werden.|[Arbeiten mit Pauschalbestellungen](sales-how-to-create-blanket-sales-orders.md)|
+|Verwalten Sie Ihre Verpflichtung gegenüber einem Lieferanten, große Mengen zu kaufen, die im Laufe der Zeit in mehreren Sendungen geliefert werden.|[Arbeiten mit Rahmenbestellungen](sales-how-to-create-blanket-sales-orders.md)|
 
 ## Externe Belegnummern
 
 [!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
-## Siehe verwandte [Microsoft Schulungen](/training/paths/purchase-items-services-dynamics-365-business-central/)
-
 ## Siehe auch
 
 [Einkaufeinrichten](purchasing-setup-purchasing.md)  
-[Registriert einen neuen Kreditor](purchasing-how-register-new-vendors.md)  
+[Neue Kreditoren einrichten](purchasing-how-register-new-vendors.md)  
 [Verwalten von Verbindlichkeiten](payables-manage-payables.md)  
 [Projekte verwalten](projects-manage-projects.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

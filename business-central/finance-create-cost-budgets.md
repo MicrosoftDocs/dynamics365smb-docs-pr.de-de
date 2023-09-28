@@ -26,13 +26,11 @@ Sie verwenden die folgenden Seiten, um Kostenbudgets zu erstellen und zu analysi
 |Sehen Sie sich die Kostenbudgeterfassungen und Kostenbudgetposten an.|Seite **Kostenbudgeterfassungen**|  
 |Drucken Sie Kostenbudgetvergleiche unter Verwendung der verschiedenen Berichte.|Bericht **Kostenrechnungsbilanz/Budget**<br /><br /> Bericht **Kostenrechnungsauszug/Budget**<br /><br /> Bericht **Kostenbudget nach Kostenstelle**<br /><br /> Bericht **Kostenbudget nach Kostenträger**|  
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/cost-accounting-reports-dynamics-365-business-central/)
-
 ## Siehe auch
 
 [Kostenrechnung](finance-manage-cost-accounting.md)  
 [Sachkontenbudgets erstellen](finance-how-create-budgets.md)  
-[Terminologie in der Kostenrechnung](finance-terminology-in-cost-accounting.md)  
+[Terminologie der Kostenrechnung](finance-terminology-in-cost-accounting.md)  
 [Definieren und Zuweisen von Kosten](finance-define-and-allocate-costs.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

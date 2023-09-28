@@ -29,11 +29,9 @@ Falls in Ihrem Unternehmen mehrere Einkäufer tätig sind, können Sie diese auf
 2. Öffnen Sie die relevante Kreditorenkarte für den Kreditor, dem ein Einkäufer zugewiesen wird.
 3. Wählen Sie im Feld **Einkäufercode** den entsprechenden Code aus, und schließen Sie dann die Seite.
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/trade-master-data-dynamics-365-business-central/)
-
 ## Siehe auch
 
-[Registriert einen neuen Kreditor](purchasing-how-register-new-vendors.md)  
+[Neue Kreditoren einrichten](purchasing-how-register-new-vendors.md)  
 [Einkaufeinrichten](purchasing-setup-purchasing.md)  
 [Verwalten von Verbindlichkeiten](payables-manage-payables.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

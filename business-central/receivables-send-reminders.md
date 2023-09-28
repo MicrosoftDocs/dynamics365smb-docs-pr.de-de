@@ -11,15 +11,13 @@ ms.search.form: '436, 437, 442, 431, 432, 434'
 ms.date: 02/09/2022
 ms.author: bholtorf
 ---
-# Senden Sie Mahnungen für ausstehende Salden
+# Mahnungen für Restbeträge versenden
 
 [!INCLUDE [receivables-reminders](includes/receivables-reminders.md)]
 
-## Siehe verwandte [Microsoft Schulungen](/training/paths/process-financial-periodic-activities-dynamics-365-business-central/)
-
 ## Siehe auch
 
-[Einziehen von Restbeträgen](receivables-collect-outstanding-balances.md)  
+[Restbeträge einziehen](receivables-collect-outstanding-balances.md)  
 [Mehrere Sätze für verzögerte Zahlung festlegen](finance-how-to-set-up-multiple-interest-rates.md)  
 [Einrichten von Mahnmethoden, Bestimmungen und Mahntext](finance-setup-reminders.md)  
 [Zinskonditionen einrichten](finance-setup-finance-charges.md)  

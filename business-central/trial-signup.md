@@ -38,11 +38,9 @@ Sie können sich auch an das [[!INCLUDE[prod_short](includes/prod_short.md)] Ver
 
 Weitere Informationen zur Verwendung von [!INCLUDE [prod_short](includes/prod_short.md)] finden Sie unter [Einrichten des Geschäftsbetriebs](ui-get-ready-business.md) und [Geschäftsfunktionen](across-business-functionality.md).  
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/trial-dynamics-365-business-central/)
-
 ## Zusätzliche Ressourcen
 
-- [Besuchen Sie unsere Videobibliothek](across-videos.md)  
+- [Unsere Videobibliothek besuchen](across-videos.md)  
 - [Häufig gestellte Fragen zur Testversion](trial-faq.md)  
 - [Problembehandlungs-Selbstbedienungs-Registrierung](ui-troubleshoot-self-signup.md)  
 - [Ihren Arbeitsbereich personalisieren](ui-personalization-user.md)  

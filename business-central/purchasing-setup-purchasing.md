@@ -68,9 +68,7 @@ Mit der aktivierten Funktion kann eine Rücksendung erst gebucht werden, wenn di
 | Verwalten Sie geschäftliche Interaktionen mit Ihren Kreditoren, importieren Sie empfangene Rechnungsbelege, und registrieren Sie neue Lieferanten mit dem Outlook-E-Mail-Client. | [Business Central-Add-in für Outlook einrichten](admin-outlook.md) |
 | Überprüfen Sie Spesenbelege, wandeln Sie Papier- und elektronische Dokumente in Buchungsblattzeile um, und digitalisieren Sie Papierrechnungen von Kreditoren. | [Einrichten von eingehenden Belegen](across-how-setup-income-documents.md) |
 | Geben Sie Standardberichte an, die für verschiedene Dokumenttypen verwendet werden sollen. |[Berichtsauswahl in Business Central](across-report-selections.md)|
-|Geben Sie an, ob Benutzer Einkaufsrechnungen buchen dürfen und ob sie diese zusammen mit einer Lieferung buchen müssen. |[Definieren Sie eine Rechnungsbuchungsrichtlinie für Benutzer](admin-setup-invoice-posting-policy.md)|
-
-## Siehe verwandte Schulungen unter [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/).
+|Geben Sie an, ob Benutzer Einkaufsrechnungen buchen dürfen und ob sie diese zusammen mit einer Lieferung buchen müssen. |[Rechnungsbuchungsrichtlinie für Benutzer definieren](admin-setup-invoice-posting-policy.md)|
 
 ## Siehe auch
 

@@ -45,8 +45,6 @@ Wenn Sie eine Anlage verkaufen, wird der Verkaufswert in den Sachposten gebucht,
 
 Die Seite **Sachposten** wird geöffnet, in dem Sie die Posten sehen können, die aus der Verkaufsbuchung resultieren.  
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/dispose-fixed-assets/)
-
 ## Siehe auch
 
 [Anlagen](fa-manage.md)  

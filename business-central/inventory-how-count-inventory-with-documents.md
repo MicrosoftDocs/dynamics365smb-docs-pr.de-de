@@ -242,8 +242,6 @@ Sie können die Berichte angeben, die in verschiedenen Phasen gedruckt werden m�
 > [!NOTE]
 > Die verfügbaren Berichte können je nach Lokalisierung für Ihr Land bzw. Ihre Region variieren. Die Basisanwendung enthält keine Layouts.
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/adjust-inventory/)
-
 ## Siehe auch
 
 [Erfassen, Regulieren und Umbuchen von Lagerbestand mithilfe von Buch.-Blättern](inventory-how-count-adjust-reclassify.md)  

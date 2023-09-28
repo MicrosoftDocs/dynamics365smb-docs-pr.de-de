@@ -43,8 +43,6 @@ Auf der Seite **Projektkarte** können Sie nun eine Zusammenfassung mit budgetie
 
 Informationen zur Erfassung der budgetierten versus aktueller Preise und Kosten im Projekt finden Sie unter [Erfassen des Verbrauchs für Projekte](projects-how-record-job-usage.md)
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/set-up-job-planning-lines/)
-
 ## Siehe auch
 
 [Projektmanagement](projects-manage-projects.md)  

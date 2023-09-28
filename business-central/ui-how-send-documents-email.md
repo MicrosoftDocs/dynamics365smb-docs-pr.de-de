@@ -76,13 +76,11 @@ Einige Belege in [!INCLUDE[prod_short](includes/prod_short.md)] verfügen über 
 
 Im **E-Mail-Postausgang** finden Sie die E-Mails, die Sie als Entwürfe gespeichert haben, und E-Mails, die nicht gesendet werden konnten, z. B. wenn die E-Mail-Adresse ungültig war. Für Nachrichten, die nicht gesendet werden konnten, können Sie **Fehler anzeigen** oder **Fehler untersuchen** anzeigen, um das Problem beheben.  
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/set-up-email/)
-
 ## Siehe auch
 
 [Verwaltung von Berichts- und Dokumentlayouts](ui-manage-report-layouts.md)  
 [E-Mail einrichten](admin-how-setup-email.md)  
-[Fakturieren eines Verkaufs](sales-how-invoice-sales.md)  
+[Verkäufe fakturieren](sales-how-invoice-sales.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

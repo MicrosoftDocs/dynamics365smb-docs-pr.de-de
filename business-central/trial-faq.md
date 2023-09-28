@@ -44,8 +44,6 @@ Wechseln Sie zur 30-Tage-Testversion, und fügen Sie dann Ihre eigenen Daten hin
 
 Dies ist nicht möglich. Wenn Sie Beispieldaten versehentlich löschen, bitten Sie Ihren Administrator, eine neue Sandbox-Umgebung zu erstellen. Weitere Informationen finden Sie unter [Produktions- und Sandbox-Umgebungen](/dynamics365/business-central/dev-itpro/administration/environment-types) im Administratorinhalt (nur in englischer Sprache).  
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/trial-dynamics-365-business-central/)
-
 ## Siehe auch
 
 [Für eine kostenlose Dynamics 365 Business Central-Testversion registrieren](trial-signup.md)  

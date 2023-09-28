@@ -42,12 +42,10 @@ Alternativ löschen Sie die jeweiligen Aufträge manuell.
 
 Wiederholen Sie die Schritte 1 bis 3 für alle betroffenen anderen Belege, wie z. B. Rahmenbestellungen.
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/processing-invoices-dynamics-365-business-central/)
-
 ## Siehe auch
 
 [Einkauf](purchasing-manage-purchasing.md)  
-[Ändern oder Löschen einer unbezahlten Einkaufsrechnung](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
+[Unbezahlte Einkaufsrechnungen korrigieren oder stornieren](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

@@ -167,11 +167,9 @@ Als Administrator von [!INCLUDE[prod_short](includes/prod_short.md)] Online kön
 
 Für [!INCLUDE[prod_short](includes/prod_short.md)] (lokal) können Sie Sitzungen beispielsweise mit SQL Server Management Studio verwalten. Weitere Informationen finden Sie unter [Technische Dokumentation zu SQL Server](/sql/sql-server).  
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/users-security-dynamics-365-business-central/)
-
 ## Siehe auch
 
-[Berechtigungen an Benutzer und Gruppen zuweisen](ui-define-granular-permissions.md)  
+[Benutzer*innen und Gruppen Berechtigungen zuweisen](ui-define-granular-permissions.md)  
 [Seiten für Profile anpassen](ui-personalization-manage.md)  
 [Ihren Arbeitsbereich personalisieren](ui-personalization-user.md)  
 

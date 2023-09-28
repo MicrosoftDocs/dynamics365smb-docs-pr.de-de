@@ -59,7 +59,9 @@ Wiederholen Sie die Schritte 2–6 für alle Onlineshops, die Sie verbinden möc
 ### Bekannte Probleme
 
 - Der Browser blockiert das Popup-Fenster. Wenn Sie den Schalter **Aktiviert** aktivieren, öffnet [!INCLUDE [prod_short](../includes/prod_short.md)] die Seite **Warte auf Antwort - diese Seite nicht schließen**, die auf einen Zugriffstoken von Shopify wartet. Wenn diese Seite geschlossen oder blockiert ist, können Sie keine Verbindung zu Shopify herstellen. Erfahren Sie mehr unter [Anforderung des Zugriffstokens](troubleshoot.md#request-the-access-token)
+- Es könnte eine gute Idee sein, die Shopify-Verwaltung im selben Browser wie [!INCLUDE [prod_short](../includes/prod_short.md)] zu öffnen
 - [Fehler: Oauth Fehler invalid_request: Konnte Shopify API-Anwendung mit api_key nicht finden](troubleshoot.md#error-oauth-error-invalid_request-could-not-find-shopify-api-application-with-api_key)
+- [Fehler: Oauth error invalid_request: Ihr Konto verfügt nicht über die Berechtigung, den angeforderten Zugriff für diese App zu gewähren.](troubleshoot.md#error-oauth-error-invalid_request-your-account-does-not-have-permission-to-grant-the-requested-access-for-this-app)
 - [Kann keine Verbindung von der Sandbox aus herstellen](troubleshoot.md#verify-and-enable-permissions-to-make-http-requests-in-a-non-production-environment)
 
 ## Nächste Schritte
@@ -108,8 +110,6 @@ Wenn Sie die Umschaltfläche **Datensynchronisierung zulassen Shopify** aktivier
 
 *   Wählen Sie **Entwurf** im Feld **Status für Produkt erstellen** aus, um sicherzustellen, dass exportierte Produkte nicht für Käufer verfügbar sind. Sie können überprüfen, wie Produkte im Online-Shop aussehen, Preise, Optionen und Lagerbestände synchronisieren. Stellen Sie einfach sicher, dass Sie auf der Seite **Element hinzufügen zu Shopify** Filter verwenden, um die Anzahl der exportierten Elemente zu begrenzen.
 * Deaktivieren Sie den Schalter **Kunden exportieren nach Shopify** , damit Sie keine Kunden zu Shopify senden.
-
-## Siehe verwandte [Microsoft Schulungen](/training/paths/use-shopify-connector-dynamics-365-business-central/)
 
 ## Siehe auch
 

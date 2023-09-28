@@ -98,12 +98,10 @@ Auf der Seite **Kontenplan** werden die Konten in einer hierarchischen Liste ang
 
 In einem kleinen Unternehmen, wie der CRONUS-Demofirma, können die meisten Benutzer den Kontenplan bearbeiten, mit Ausnahme der Benutzer mit einer TEAMMITGLIED-Lizenz. In größeren Organisationen ist der Zugriff auf die Bearbeitung des Kontenplans typischerweise durch Rollen und Berechtigungen eingeschränkt. Wenn Sie Administrator sind oder die Rolle *Business Manager* oder *Buchhalter* haben, können Sie die Berechtigungen der Benutzer steuern, um den richtigen Personen Zugriff auf die entsprechenden Tabellen zu geben. Mehr dazu erfahren Sie im Abschnitt [Sie erhalten einen Überblick über die Berechtigungen eines Benutzers](ui-define-granular-permissions.md#to-get-an-overview-of-a-users-permissions).  
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/business-central-configure-general-ledger-setup/)
-
 ## Siehe auch
 
 [Einrichten oder Ändern des Kontenplans](finance-setup-chart-accounts.md)  
-[Berechtigungen an Benutzer und Gruppen zuweisen](ui-define-granular-permissions.md)  
+[Benutzer*innen und Gruppen Berechtigungen zuweisen](ui-define-granular-permissions.md)  
 [Business Intelligence](bi.md)  
 [Finanzen](finance.md)  
 

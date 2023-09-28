@@ -61,9 +61,7 @@ Um Business Central on-premises zu verbinden, müssen Sie eine App im Tradeshift
 
 Wenn Sie die App-ID und den geheimen Schlüssel lieber an einem anderen Ort speichern möchten, können Sie die Felder „Client-ID“ und „Geheimer Clientschlüssel“ leer lassen und eine Erweiterung schreiben, um die ID und den geheimen Schlüssel von diesem Speicherort abzurufen. Sie können das Geheimnis zur Laufzeit bereitstellen, indem Sie die Ereignisse OnGetClientId und OnGetClientSecret in der Codeunit 1410 „Doc. Exch. Service Mgt.“
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/electronic-documents-dynamics-365-business-central/)
-
-## Siehe auch
+## Weitere Informationen
 
 [Datenaustausch einrichten](across-set-up-data-exchange.md)  
 [Daten elektronisch austauschen](across-data-exchange.md)

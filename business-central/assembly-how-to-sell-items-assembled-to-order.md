@@ -3,7 +3,7 @@ title: Verkaufen von Auftragsmontageartikeln
 description: 'Erfahren Sie, wie Sie ein Element verkaufen, das auf Bestellung montiert wird.'
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: how-to
 ms.date: 11/23/2022
@@ -60,12 +60,10 @@ Bei diesem Verfahren verarbeiten Sie den verkauf eines Artikels, der gemäß den
 > [!NOTE]  
 > Bei der Ersetzung von Elementen wird ein Element nicht automatisch durch ein anderes ersetzt, z.B. wenn Sie einen Verkaufsauftrag oder eine Stückliste erstellen. Stattdessen werden Sie gewarnt, dass eine Ersetzung verfügbar ist.
 
-## Siehe zugehörige [Microsoft Schulungen](/training/modules/assemble-to-order-dynamics-365-business-central/)
-
 ## Siehe auch
 
 [Montageverwaltung](assembly-assemble-items.md)  
-[Arbeiten mit Stücklisten für die Montage](assembly-how-work-assembly-boms.md)  
+[Mit Montagestücklisten arbeiten](assembly-how-work-assembly-boms.md)  
 [Neue Artikel registrieren](inventory-how-register-new-items.md)  
 [Bestand](inventory-manage-inventory.md)  
 [Lagerverwaltung – Übersicht](design-details-warehouse-management.md)

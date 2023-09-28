@@ -60,12 +60,10 @@ Anstatt die aktuellen und budgetierten Beträge für alle Konten für eine einzi
 3. Füllen Sie auf dem Inforegister **Optionen** die erforderlichen Felder aus, um festzulegen, was in der Tabelle angezeigt werden soll.  
 4. Fahren Sie auf der Seite **Zeilen** Inforegister mit dem Mauszeiger über ein Feld in der Tabelle, um eine kurze Beschreibung des angezeigten Betrags zu lesen.  
 
-## Siehe dazu die Schulung unter [Microsoft Learn](/learn/modules/budgets-exchange-rates-dynamics-365-business-central/index).
-
 ## Siehe auch
 
 [Financial Business Intelligence](bi.md)  
-[Arbeiten mit Financial Reports](bi-how-work-account-schedule.md)  
+[Mit Finanzberichten arbeiten](bi-how-work-account-schedule.md)  
 [Finanzen](finance.md)  
 [Finanzen einrichten](finance-setup-finance.md)  
 [Die Finanzbuchhaltung und der Kontenplan](finance-general-ledger.md)  

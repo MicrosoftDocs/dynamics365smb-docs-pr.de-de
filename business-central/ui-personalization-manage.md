@@ -62,13 +62,11 @@ Sie können auch alle individuellen Seitenanpassungen löschen, die Sie für ein
 
 Das Layout der ausgewählten Seiten wird an die von Ihnen vorgenommenen Änderungen angepasst.
 
-## Siehe verwandte [Microsoft Schulungen](/training/paths/tailor-roles-design-ui/)
-
 ## Siehe auch
 
 [Ihren Arbeitsbereich personalisieren](ui-personalization-user.md)  
 [Profile verwalten](admin-users-profiles-roles.md)  
-[Ändern von grundlegenden Einstellungen](ui-change-basic-settings.md)  
+[Grundlegende Einstellungen ändern](ui-change-basic-settings.md)  
 [Ändern, welche Funktionen angezeigt werden](ui-experiences.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

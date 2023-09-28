@@ -3,7 +3,7 @@ title: 'Jobs, Preise und Buchungsgruppen festlegen'
 description: 'Beschreibt, wie allgemeine Informationen zu Projekten eingerichtet werden.'
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.date: 04/25/2023
 ms.custom: bap-template
@@ -60,9 +60,9 @@ Wenn Sie ein Ressourcen-, Artikel- oder Sachbuchkonto für ein Projekt auswähle
 
 |Spalte1  |Spalte2  |
 |---------|---------|
-|**Projektressourcen**|Die Felder **Projektaufgabennr.**, **Arbeitstyp**, **Währungscode**, **Zeilenrabatt %** und **Einstandspreis**. Der Wert im Feld **Einzelpreis** für die Ressource wird in den Projektplanungszeilen und Projekt Buch.-Blätter verwendet, wenn Sie eine Ressource oder eine der Ressourcengruppe zugeordnete Ressource eingeben. Dieser Preis überschreibt immer die auf der Seite **Ressourcen-VK-Preis/Ressourcengruppen-VK-Preise** angegebenen Preise.|
-|**Projektartikel**|Die Felder **Projektaufgabennr.**, **Währungscode** und **Zeilenrabatt %**. Dies ist der Wert im Feld **VK-Preis** der in den Projektplanungszeilen und Projektbuchungsblättern verwendet wird, wenn dieser Artikel eingegeben wird. Dieser Preis hat Vorrang vor dem regulären Debitorenpreis (Mechanismus für „bester Preis“) für Artikel. Um den regulären Debitorenpreis zu verwenden, geben Sie keine Projektartikelpreise für den Projekt an.|
-|**Sachkonten**|Die Informationen in den Feldern **Projektaufgabennr.**, **Währungscode**, **Zeilenrabatt %**, **Einheitskostenfaktor** und **Einheitskosten** werden auf den Projektplanungszeilen und Verbrauchsbuchungsblättern verwendet, wenn diese Ressource eingegeben und dem Projekt hinzugefügt wird. Wenn Sie ein Sachkonto auswählen, verwenden Projektplanungszeilen und Projekt Buch.-Blätter den Wert im Feld **Einzelpreis** für das Aufwandssachkonto.|
+|**Projektressourcen**|Die Felder **Projektaufgabennr.**, **Arbeitstyp**, **Währungscode**, **Zeilenrabatt %%** und **Einstandspreis**. Der Wert im Feld **Einzelpreis** für die Ressource wird in den Projektplanungszeilen und Projekt Buch.-Blätter verwendet, wenn Sie eine Ressource oder eine der Ressourcengruppe zugeordnete Ressource eingeben. Dieser Preis überschreibt immer die auf der Seite **Ressourcen-VK-Preis/Ressourcengruppen-VK-Preise** angegebenen Preise.|
+|**Projektartikel**|Die Felder **Projektaufgabennr.**, **Währungscode** und **Zeilenrabatt %%**. Dies ist der Wert im Feld **VK-Preis** der in den Projektplanungszeilen und Projektbuchungsblättern verwendet wird, wenn dieser Artikel eingegeben wird. Dieser Preis hat Vorrang vor dem regulären Debitorenpreis (Mechanismus für „bester Preis“) für Artikel. Um den regulären Debitorenpreis zu verwenden, geben Sie keine Projektartikelpreise für den Projekt an.|
+|**Sachkonten**|Die Informationen in den Feldern **Projektaufgabennr.**, **Währungscode**, **Zeilenrabatt %%**, **Einheitskostenfaktor** und **Einheitskosten** werden auf den Projektplanungszeilen und Verbrauchsbuchungsblättern verwendet, wenn diese Ressource eingegeben und dem Projekt hinzugefügt wird. Wenn Sie ein Sachkonto auswählen, verwenden Projektplanungszeilen und Projekt Buch.-Blätter den Wert im Feld **Einzelpreis** für das Aufwandssachkonto.|
 
 #### [Neue Erfahrung](#tab/new-experience)
 
@@ -81,25 +81,23 @@ Ein Aspekt der Projektenplanung besteht darin, zu entscheiden, welche Buchungsko
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Projektbuchungsgruppen** ein und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die Aktion **Neu** und füllen Sie dann die Felder wie in der folgenden Tabelle beschrieben aus.  
 
-| Das Feld "Konto" | Description |
-| --- | --- |
-| **Code** |Eine Kennung für die Buchungsgruppe. Sie können bis zu 10 Zeichen, einschließlich Leerzeichen, eingeben. |
-| **Konto f. Kosten n. abgs. Arb.** |Das WIP-Konto für die berechneten Kosten der Projekt-WIP, bei dem es sich um ein Bilanz-Aktivkonto für Kapital handelt. |
-| **Konto f. aufgel. Kosten n. abgs. Arb.** |Ein Konto für die Einstandswert- oder Vertriebskostenmethode der WIP-Berechnung. Dieses Konto ist für die aufgelaufene Kosten in Ihrer Bilanz. Wenn die WIP-Regulierung erfordert, dass Sie die Verbrauchsosten, die Sie in Ihrer Gewinn- und Verlustrechnung buchen, erhöhen, buchen Sie dies auf dieses Konto. |
-| **Projektkostenausgleich-Konto** |Das Gegenkonto zum Konto für WIP-Kosten, bei dem es sich um ein Gegenkonto zu einem Konto für einen negativen Aufwand handelt. |
-| **Konto für ausgeglichene Artikelpreise** |Das Gegenkonto zum Konto für WIP-Kosten, bei dem es sich um ein Gegenkonto zu einem Konto für einen negativen Aufwand handelt. |
-| **Konto für ausgeglichene Ressourcenpreise** |Das Gegenkonto zum Konto für WIP-Kosten, bei dem es sich um ein Gegenkonto zu einem Konto für einen negativen Aufwand handelt. |
-| **Kostenausgleich-Konto** |Das Gegenkonto zum Konto für WIP-Kosten, bei dem es sich um ein Gegenkonto zu einem Konto für einen negativen Aufwand handelt. |
-| **Projektkostenregulierung-Konto** |Das Gegenkonto zum WIP-Konto für aufgelaufene Kosten, bei dem es sich um ein Aufwandskonto handelt. |
-| **Aufwandssachkonto (Budget)** |Das Verkaufskonto, das für Aufwandssachposten in Projektaufgaben mit dieser Buchungsgruppe verwendet werden soll. Wenn dieses Feld leer gelassen wird, wird das für die Projektplanungszeile eingegebene Hauptbuchungskonto verwendet. |
-| **Konto f. aufgel. Verkäufe n. abgs. Arb.** |Das WIP-Konto für den berechneten Verkaufswert der WIP, bei dem es sich um ein Konto für aufgelaufene Umsätze für Ihre Bilanz handelt. Wenn eine WIP-Regulierung erfordert, dass Sie die anerkannten Umsätze erhöhen, buchen Sie dies auf dieses Konto. |
-| **Konto f. fakt. Verkäufe n. abgs. Arb.** |Das Konto für den fakturierten WIP-Verkaufswert, der nicht deklariert werden kann. Es handelt sich dabei um ein Bilanzblatt für nicht realisierte Einnahmen. |
-| **Projektverkaufsausgleich-Konto** |Das Gegenkonto zum WIP-Konto für fakturierte Verkäufe, bei dem es sich um ein Ertragsgegenkonto handelt. |
-| **Projektverkaufsregulierungs-** Konto |Das Gegenkonto zum WIP-Konto für den Umsatz, bei dem es sich um ein Ertragskonto handelt. |
-| **Konto deklarierte Kosten** |Das Aufwandskonto, das die deklarierten Kosten für das Projekt enthält. Dabei handelt es sich normalerweise um ein Soll-Aufwandskonto. |
-| **Konto deklarierte Verkäufe** |Das Ertragskonto, das den deklarierten Umsatz für das Projekt enthält. Dabei handelt es sich normalerweise um ein Haben-Ertragskonto. |
-
-## Siehe verwandte [Microsoft Schulungen](/training/paths/set-up-jobs-resources/)
+| Das Feld "Konto" | Description | In WIP-Typ verwendet |
+| --- | --- |  --- |
+| **Code** |Eine Kennung für die Buchungsgruppe. Sie können bis zu 10 Zeichen, einschließlich Leerzeichen, eingeben. | |
+| **Konto f. Kosten n. abgs. Arb.** |Das WIP-Konto für die berechneten Kosten der Projekt-WIP, bei dem es sich um ein Bilanz-Aktivkonto für Kapital handelt. | Verrechnete Kosten, deklarierte Kosten|
+| **Konto f. aufgel. Kosten n. abgs. Arb.** |Ein Konto für die Einstandswert- oder Vertriebskostenmethode der WIP-Berechnung. Dieses Konto ist für die aufgelaufene Kosten in Ihrer Bilanz. Wenn die WIP-Regulierung erfordert, dass Sie die Verbrauchsosten, die Sie in Ihrer Gewinn- und Verlustrechnung buchen, erhöhen, buchen Sie dies auf dieses Konto. | Aufgelaufene Kosten|
+| **Projektkostenausgleich-Konto** |Das Gegenkonto zum Konto für WIP-Kosten, bei dem es sich um ein Gegenkonto zu einem Konto für einen negativen Aufwand handelt. Wird verwendet, wenn **Verwendete WIP-Buchungsmethode** auf *Projekt* eingestellt ist. | Verrechnete Kosten, deklarierte Kosten|
+| **Konto für ausgeglichene Artikelpreise** |Dasselbe wie **Projektkostenausgleich-Konto**, wird aber verwendet, wenn **Verwendete WIP-Buchungsmethode** auf *Projektposten* eingestellt ist.| |
+| **Konto für ausgeglichene Ressourcenpreise** |Dasselbe wie **Projektkostenausgleich-Konto**, wird aber verwendet, wenn **Verwendete WIP-Buchungsmethode** auf *Projektposten* eingestellt ist.| |
+| **Konto für ausgeglichene Fibu-Kosten** |Dasselbe wie **Projektkostenausgleich-Konto**, wird aber verwendet, wenn **Verwendete WIP-Buchungsmethode** auf *Projektposten* eingestellt ist.| |
+| **Projektkostenregulierung-Konto** |Das Gegenkonto zum WIP-Konto für aufgelaufene Kosten, bei dem es sich um ein Aufwandskonto handelt. | Aufgelaufene Kosten|
+| **Aufwandssachkonto (Budget)** |Das Verkaufskonto, das für Aufwandssachposten in Projektaufgaben mit dieser Buchungsgruppe verwendet werden soll. Wenn dieses Feld leer gelassen wird, wird das für die Projektplanungszeile eingegebene Hauptbuchungskonto verwendet. | |
+| **Konto f. aufgel. Verkäufe n. abgs. Arb.** |Das WIP-Konto für den berechneten Verkaufswert der WIP, bei dem es sich um ein Konto für aufgelaufene Umsätze für Ihre Bilanz handelt. Wenn eine WIP-Regulierung erfordert, dass Sie die anerkannten Umsätze erhöhen, buchen Sie dies auf dieses Konto. | Aufgelaufene Verkäufe, deklarierte Verkäufe|
+| **Konto f. fakt. Verkäufe n. abgs. Arb.** |Das Konto für den fakturierten WIP-Verkaufswert, der nicht deklariert werden kann. Es handelt sich dabei um ein Bilanzblatt für nicht realisierte Einnahmen. | Deklarierte Verkäufe, ausgeglichene Verkäufe|
+| **Projektverkaufsausgleich-Konto** |Das Gegenkonto zum WIP-Konto für fakturierte Verkäufe, bei dem es sich um ein Ertragsgegenkonto handelt. | Ausgeglichene Verkäufe, deklarierte Verkäufe|
+| **Projektverkaufsregulierungs-Konto** |Das Gegenkonto zum WIP-Konto für den Umsatz, bei dem es sich um ein Ertragskonto handelt. | Aufgelaufene Verkäufe|
+| **Konto deklarierte Kosten** |Das Aufwandskonto, das die deklarierten Kosten für das Projekt enthält. Dabei handelt es sich normalerweise um ein Soll-Aufwandskonto. | Deklarierte Kosten|
+| **Konto deklarierte Verkäufe** |Das Ertragskonto, das den deklarierten Umsatz für das Projekt enthält. Dabei handelt es sich normalerweise um ein Haben-Ertragskonto. | Deklarierte Verkäufe|
 
 ## Siehe auch
 

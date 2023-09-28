@@ -31,8 +31,6 @@ Weitere Informationen finden Sie bei der passenden Erweiterung für Ihre QuickBo
 
 Wenn Sie jetzt loslegen wollen, wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Unterstützte Einrichtung** ein, und wählen Sie dann den zugehörigen Link. Wählen Sie **Migrieren von Geschäftsdaten** und anschließend führen Sie die Schritte im Handbuch aus.
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/migrate-data-dynamics-365-business-central/)
-
 ## Siehe auch
 
 [Importieren von Geschäftsdaten aus anderen Finance-Systemen](across-import-data-configuration-packages.md)  

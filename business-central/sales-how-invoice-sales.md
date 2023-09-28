@@ -119,8 +119,6 @@ Sie können direkt gezahlte Rechnungen für nicht-registrierte Debitoren auch er
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/invoicing-customers-dynamics-365-business-central/index)
-
 ## Siehe auch
 
 [Verkauf](sales-manage-sales.md)  

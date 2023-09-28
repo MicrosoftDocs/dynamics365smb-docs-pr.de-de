@@ -56,11 +56,9 @@ Im folgenden Verfahren wird gezeigt, wie bei Artikellieferungen in Verkaufsauftr
 
     Eine Servicezeile der Art **Kosten** wird mit der Grundgebühr eingefügt. Die Grundgebühr bezieht sich auf den ausgewählten Serviceartikel.
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/create-items/)
-
 ## Siehe auch
 
-[Richten Sie Serviceartikel und Serviceartikelkomponenten ein](service-how-setup-service-items.md)  
+[Serviceartikel und Serviceartikelkomponenten einrichten](service-how-setup-service-items.md)  
 [Einrichten der Serviceverwaltung](service-setup-service.md)  
 [Service](service-service.md)  
 

@@ -234,8 +234,6 @@ Um eine Gruppe von Zertifikaten anzuzeigen, beginnen Sie auf der Seite **Gelange
 > * So erstellen Sie eine Gelangensbestätigung manuell  
 > * So drucken Sie eine Gelangensbestätigung.
 
-## Siehe verwandte [Microsoft Schulungen](/training/paths/process-vat-dynamics-365-business-central/)
-
 ## Siehe auch
 
 [Berechnungen einrichten und Buchungsmethoden für Mehrwertsteuer](finance-setup-vat.md)  

@@ -38,11 +38,9 @@ Eine als Spezialauftrag für einen Verkaufsauftrag erstellte Bestellung wird vom
 > [!NOTE]  
 >  Sie können die Spezialauftragsfunktion nicht verwenden, wenn der Artikel bereits reserviert ist. Stellen Sie daher für Artikel, die im Rahmen von Spezialaufträgen verkauft werden, sicher, dass das Feld **Reserve** auf der Artikelkarte nicht auf **Immer** gesetzt ist.  
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/create-sales-documents-dynamics-365-business-central/)
-
 ## Siehe auch
 
-[Arbeiten mit Katalogartikeln](inventory-how-work-nonstock-items.md)  
+[Mit Katalogartikeln arbeiten](inventory-how-work-nonstock-items.md)  
 [Verkauf](sales-manage-sales.md)  
 [Direktlieferungen machen](sales-how-drop-shipment.md)   
 [Designdetails: Wiederbeschaffungsverfahren](design-details-reservation-order-tracking-and-action-messaging.md)  

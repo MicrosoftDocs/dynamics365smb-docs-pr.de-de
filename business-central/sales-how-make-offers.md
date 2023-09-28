@@ -92,14 +92,12 @@ Durch die Umwandlung wird das Verkaufsangebot aus der Datenbank entfernt. Eine V
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/create-sales-documents-dynamics-365-business-central/)
-
 ## Siehe auch
 
 [Verkauf](sales-manage-sales.md)  
 [Einrichten von Verkäufen](sales-setup-sales.md)  
-[Dokumente per E-Mail versenden](ui-how-send-documents-email.md)  
-[Beleg archivieren](across-how-to-archive-documents.md)  
+[Belege per E-Mail senden](ui-how-send-documents-email.md)  
+[Belege archivieren](across-how-to-archive-documents.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

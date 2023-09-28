@@ -40,12 +40,10 @@ Die Power BI-Integration mit [!INCLUDE[prod_short](includes/prod_short.md)] enth
 
 Sie können auch visuelle Berichte basierend auf [!INCLUDE[prod_short](includes/prod_short.md)] erstellen, indem Sie die Dateitypoption **Microsoft Excel Dokument (nur Daten)** auf Berichtsanforderungsseiten verwenden. Erfahren Sie mehr unter [Berichte ausführen und drucken](ui-work-report.md).
 
-## Siehe verwandte Schulungen unter [Microsoft Learn](/learn/paths/use-power-bi).
-
 ## Siehe auch
 
 [Business Analyse und Financial Reporting](bi.md)  
-[Business Central Schnellstarts](quick-start-business-central.md)  
+[Schnelleinstieg in Business Central](quick-start-business-central.md)  
 [Mit Power BI-Berichten in Business Central arbeiten](across-working-with-powerbi.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

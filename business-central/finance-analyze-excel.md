@@ -50,8 +50,6 @@ Ihre [!INCLUDE [prod_short](includes/prod_short.md)] Benutzeroberfläche umfasst
 
 Mit dem Add-In können Sie neue Daten aus [!INCLUDE [prod_short](includes/prod_short.md)] abrufen, und Sie können Änderungen zurück in [!INCLUDE [prod_short](includes/prod_short.md)] importieren. Die Möglichkeit, ein Rückverfolgen der Daten zurück zur Datenbank ist nicht für Finanzberichte, die in Excel angezeigt werden können, verfügbar.  
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
-
 ## Siehe auch
 
 [Anzeigen und Arbeit in Excel aus Business Central](across-work-with-excel.md)  

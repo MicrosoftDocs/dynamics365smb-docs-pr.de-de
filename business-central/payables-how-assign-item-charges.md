@@ -95,13 +95,11 @@ Um die Artikelkosten für den Teilzugang zu bearbeiten, geben Sie auf der **Arti
 
 Wenn Sie bereit sind, das fehlende Element zu handhaben, aktualisieren Sie das Feld **Zu handhabende Menge** und buchen Sie die Bestellung.
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/post-purchase-item-charges-dynamics-365-business-central/)
-
 ## Siehe auch
 
 [Verwalten von Verbindlichkeiten](payables-manage-payables.md)  
-[Erfassen eines Einkaufs](purchasing-how-record-purchases.md)  
-[Fakturieren eines Verkaufs](sales-how-invoice-sales.md)  
+[Einkäufe erfassen](purchasing-how-record-purchases.md)  
+[Verkäufe fakturieren](sales-how-invoice-sales.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

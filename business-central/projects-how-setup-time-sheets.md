@@ -88,8 +88,6 @@ In den folgenden Abschnitten wird beschrieben, wie Sie Arbeitszeittabellen festl
 > [!NOTE]  
 > Sie können die ID des Arbeitszeittabellengenehmigers nicht ändern, wenn Arbeitszeittabellen vorhanden sind, die noch nicht verarbeitet wurden und die den Status **Übermittelt** oder **Offen**haben.
 
-## Siehe verwandte [Microsoft Schulungen](/training/paths/set-up-jobs-resources/)
-
 ## Siehe auch
 
 [Arbeitszeittabellen für Projekte verwenden](projects-how-use-time-sheets.md)  

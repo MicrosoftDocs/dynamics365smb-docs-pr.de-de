@@ -62,8 +62,6 @@ Zusätzlich ist jede Bestimmung in der Tabelle Zinskondition mit einer Untertabe
 |%8|Inhalt des Felds **Währungscode** des Zinsgebührkopfs|  
 |%9|Inhalt des Felds **Buchungsdatum** des Zinsgebührkopfs|  
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/send-memos-dynamics-365-business-central/)
-
 ## Siehe auch
 
 [Einziehen von Restbeträgen](receivables-collect-outstanding-balances.md)  

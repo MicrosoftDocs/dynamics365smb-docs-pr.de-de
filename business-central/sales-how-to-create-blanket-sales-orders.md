@@ -89,12 +89,10 @@ Die Verknüpfung zwischen dem Rahmenauftrag und dem daraus stammenden Verkaufsau
 
 5. Klicken Sie auf der Seite **Verkaufszeile** auf Zeile **Beleg anzeigen**, um den Posten anzuzeigen.
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/create-sales-documents-dynamics-365-business-central/)
-
 ## Siehe auch
 
 [Verkauf](sales-manage-sales.md)  
-[Erstellen von Montagerahmenaufträgen](assembly-how-to-create-blanket-assembly-orders.md)  
+[Montagerahmenaufträge](assembly-how-to-create-blanket-assembly-orders.md)  
 [Einrichten von Verkäufen](sales-setup-sales.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

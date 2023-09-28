@@ -10,13 +10,13 @@ author: brentholtorf
 ms.author: bholtorf
 ---
 
-# <a name="walkthrough-set-up-and-use-the-shopify-connector"></a>Exemplarische Vorgehensweise: Festlegen und Verwenden des Shopify Konnektors
+# Exemplarische Vorgehensweise: Festlegen und Verwenden des Shopify Konnektors
 
 Dieser Abschnitt demonstriert einige typische Szenarien und führt Sie durch die Schritte, mit denen Sie den Workflow des integrierten [!INCLUDE[prod_short](../includes/prod_short.md)] und des Shopify Stores testen oder Benutzer schulen können.
 
-## <a name="prerequisites"></a>Voraussetzungen
+## Voraussetzungen 
 
-### <a name="shopify"></a>Shopify
+### Shopify
 
 Sie benötigen Folgendes:
 
@@ -25,13 +25,13 @@ Sie benötigen Folgendes:
 
 Erfahren Sie mehr darüber, wie Sie Shopify-Tests erstellen, und über die empfohlenen Einstellungen unter [Erstellen und Einrichten eines Shopify-Kontos](shopify-account.md).
 
-### <a name="business-central"></a>Business Central
+### Business Central
 
 Sie müssen ein [!INCLUDE[prod_short](../includes/prod_short.md)]-Konto haben. 
 
 Sie können zum Beispiel ein Demokonto erstellen oder einen Test starten. Weitere Informationen finden Sie unter [Demonstrationsumgebung vorbereiten für Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/administration/demo-environment) und [Anmelden für den Test](../trial-signup.md). 
 
-## <a name="connect-business-central-to-the-shopify-shop"></a>Verbinden Sie Business Central mit dem Shopify-Laden
+## Verbinden Sie Business Central mit dem Shopify-Laden
 
 Führen Sie in [!INCLUDE[prod_short](../includes/prod_short.md)] die folgenden Schritte aus:
 
@@ -43,32 +43,32 @@ Führen Sie in [!INCLUDE[prod_short](../includes/prod_short.md)] die folgenden S
 
 Konfigurieren Sie den Shopify Shop wie in den folgenden Schritten beschrieben:
 
-1. Schalten Sie den Schalter **Log Enabled** ein.
-2. Schalten Sie den Schalter **Hintergrundsynchronisationen zulassen** aus.
-3. Wählen Sie **Zu Shopify** in dem Feld **Element synchronisieren**.
-4. Wählen Sie **Bis Shopify** im Feld **Bilder von Elementen synchronisieren**.
-5. Schalten Sie das Kontrollkästchen **Artikelattribute synchronisieren** ein.
-6. Schalten Sie das Kontrollkästchen **Bestand verfolgen** ein.
-7. Wählen Sie **Ablehnen** im Feld **Standardrichtlinie für den Bestand**.
-8. Schalten Sie die Option **Unbekannte Kunden automatisch erstellen** ein.
-9. Füllen Sie das Feld **Kundenvorlagencode** mit der entsprechenden Vorlage aus.
-10. Füllen Sie das Feld **Versandkostenkonto**, das Feld **Tippkonto** mit dem Umsatzkonto aus. In den USA verwenden Sie zum Beispiel `40100`.
-11. Schalten Sie die Option **Bestellungen automatisch erstellen** ein.
+1. Schalten Sie den Schalter **Hintergrundsynchronisationen zulassen** aus.
+2. Wählen Sie *Zu Shopify* in dem Feld **Element synchronisieren**.
+3. Wählen Sie *Bis Shopify* im Feld **Bilder von Elementen synchronisieren**.
+4. Schalten Sie das Kontrollkästchen **Artikelattribute synchronisieren** ein.
+5. Schalten Sie das Kontrollkästchen **Bestand verfolgen** ein.
+6. Wählen Sie *Ablehnen* im Feld **Standardrichtlinie für den Bestand**.
+7. Schalten Sie die Option **Unbekannte Kunden automatisch erstellen** ein.
+8. Füllen Sie das Feld **Kundenvorlagencode** mit der entsprechenden Vorlage aus.
+9. Füllen Sie das Feld **Versandkostenkonto**, das Feld **Tippkonto** mit dem Umsatzkonto aus. In den USA verwenden Sie zum Beispiel `40100`.
+10. Schalten Sie die Option **Bestellungen automatisch erstellen** ein.
 
 Konfigurieren Sie die Zuordnung von Standorten:
 
 1. Wählen Sie die Aktion **Standorte** aus, um **Shopify-Shop-Standorte** zu öffnen.
-2. Wählen Sie die Aktion **Abrufen Shopify Standorte**, um alle in Shopify definierten Standorte zu importieren.
+2. Wählen Sie die Aktion **Abrufen Shopify Standorte**, um alle in Shopify definierten Standorte zu importieren. Ihren Standardstandort in Shopify auswählen
 3. Geben Sie im **Ortsfilter** `''|EAST|MAIN` ein.
-4. Schalten Sie den Schalter **Deaktiviert** aus, um die Synchronisierung des Bestands für den ausgewählten Shopify-Ort zu aktivieren.
+4. Aktivieren Sie den Schalter **Standardproduktstandort**.
+5. Wählen Sie *Geplanter verfügbarer Saldo heute* im Feld **Lagerbestandsberechnung** aus, um die Lagerbestandssynchronisierung für den ausgewählten Shopify-Standort zu aktivieren.
 
-## <a name="walkthrough-start-selling-products-online"></a>Exemplarische Vorgehensweise: Mit dem Online-Verkauf von Produkten beginnen
+## Exemplarische Vorgehensweise: Mit dem Online-Verkauf von Produkten beginnen
 
-### <a name="scenario"></a>Szenario
+### Szenario
 
 Nehmen wir an, Sie möchten Shopify als Online Store ausprobieren, ohne viel Zeit mit der Einrichtung zu verbringen, vor allem, weil Sie Ihre Elemente in [!INCLUDE[prod_short](../includes/prod_short.md)] bereits gut pflegen. Nachdem Sie Ihren Shopify-Online-Store eröffnet haben, erhalten Sie sofort neue Kunden, die mit Ihrem Shop und ihrem Einkaufserlebnis zufrieden sind. Also beschließen sie, an der Kasse Tipps zu hinterlassen.
 
-### <a name="steps"></a>Schritte
+### Schritte
 
 Gehen Sie in [!INCLUDE[prod_short](../includes/prod_short.md)] die folgenden Schritte durch:
 
@@ -130,13 +130,13 @@ Jetzt sind die physischen und finanziellen Daten in [!INCLUDE[prod_short](../inc
 
 In **Shopify Admin** sehen Sie, dass die Bestellung jetzt als *Erfüllt* markiert ist. Sie können auch die Details der Sendung einsehen und die URL der Sendungsverfolgung sehen. Wenn Sie **Bestellungen von Shopify synchronisieren** erneut ausführen, wird die Bestellung in beiden Systemen archiviert.
 
-## <a name="walkthrough-invite-your-customers-to-your-new-online-store"></a>Exemplarische Vorgehensweise: Laden Sie Ihre Kunden in Ihren neuen Online Store ein
+## Exemplarische Vorgehensweise: Laden Sie Ihre Kunden in Ihren neuen Online Store ein
 
-### <a name="scenario-1"></a>Szenario
+### Szenario
 
 Nach einem erfolgreichen Schnellstart Ihres neuen Online Stores möchten Sie, dass Ihre derzeitigen Kunden ihn besuchen und Bestellungen aufgeben.
 
-### <a name="steps-1"></a>Schritte
+### Schritte
 
 Führen Sie in [!INCLUDE[prod_short](../includes/prod_short.md)] die folgenden Schritte aus:
 
@@ -146,13 +146,13 @@ Führen Sie in [!INCLUDE[prod_short](../includes/prod_short.md)] die folgenden S
 
 In **Shopify Admin** sehen Sie, dass die Kunden importiert wurden. Öffnen Sie einen der Kunden und stellen Sie fest, dass der Vor- und Nachname des Kunden aus dem Feld **Kontaktname** der **Kundenkarte** stammt. Der Name der Firma ist in der Standardadresse zu finden, die mit dem Kunden verknüpft ist. Wählen Sie **Kontoeinladung senden**, um den Kunden einzuladen.
 
-## <a name="walkthrough-fine-tuning-of-item-management"></a>Exemplarische Vorgehensweise: Feinabstimmung der Element-Verwaltung
+## Exemplarische Vorgehensweise: Feinabstimmung der Element-Verwaltung
 
-### <a name="scenario-2"></a>Szenario
+### Szenario 
 
 Sie möchten Ihren Prozessen rund um die Verwaltung von Elementen mehr Flexibilität und Steuerelemente hinzufügen. Sie möchten die Produktbeschreibungen verbessern und weitere Überprüfungsschritte hinzufügen, bevor die Produkte für den Endkunden verfügbar sind.
 
-### <a name="steps-2"></a>Schritte
+### Schritte
 
 Führen Sie in [!INCLUDE[prod_short](../includes/prod_short.md)] die folgenden Schritte aus:
 
@@ -167,7 +167,7 @@ Wählen Sie Artikel **1896-S, Athens Desk** aus und führen Sie die folgenden Sc
 
 1. Wählen Sie die Aktion **Varianten** und fügen Sie dann zwei Varianten `PREMIUM, Athens Desk, Premium edition` und `ESSENTIAL, Athens Desk, Essential edition` hinzu.
 2. Wählen Sie die Aktion **Erweiterter Text**, erstellen Sie einen neuen erweiterten Text, der für alle Sprachcodes gilt. Geben Sie in das Feld **Beschreibung** `Shopify` ein. 
-3. Fügen Sie den folgenden Text mit HTML-Tags hinzu: `<b>Simple stylish design</b> blends with any ensemble. <i>Available in two editions.</i>`.
+3. Fügen Sie den folgenden Text mit HTML-Tags hinzu: `<b>Simple stylish design</b> blends with any ensemble. <i>Available in two editions.</i>`. Schließen Sie die Seite **Erweiterter Text** und kehren Sie zur Artikelkarte zurück.
 4. Wählen Sie die Aktion **Verkaufspreise** und fügen Sie neue Preise hinzu, wie in der folgenden Tabelle gezeigt:
 
   |Auftrag|**Verkaufsart**|**Verkaufscode**|Typ|Code|Variantencode<br>(fügen Sie das Feld über die Personalisierung hinzu)|VK-Preis|
@@ -214,7 +214,7 @@ Führen Sie die Synchronisierung aus.
 2. Wählen Sie den *DEMO1* Shop, für den Sie Artikel synchronisieren möchten, um die Seite **Shopify Shop Card** zu öffnen.
 3. Wählen Sie die Aktion **Produkte**, um das Fenster **Shopify Produkte** zu öffnen.
 4. Wählen Sie die Aktion **Elemente hinzufügen**.
-5. Legen Sie den Filter *TABLE* auf dem Feld **Elementkategorie Code** fest.
+5. Legen Sie den Filter *TABLE|DESK* im Feld **Artikelkategoriencode** fest.
 6. Wählen Sie die Aktion **Produktbilder synchronisieren**.
 7. Wählen Sie die Aktion **Bestand synchronisieren**.
 
@@ -239,19 +239,19 @@ Beachten Sie, dass der Bestand für ANTWERP Konferenztisch 100 beträgt, da wir 
 
 Öffnen Sie im **Shopify Online Store** den Produktkatalog und suchen Sie das Produkt *ATHENS Schreibtisch*. Beachten Sie, dass verschiedene Optionen verfügbar sind. Für die verschiedenen Optionen gelten auch unterschiedliche Preise. Achten Sie auf die Rabattinformationen.
 
-## <a name="walkthrough-import-items-from-shopify"></a>Exemplarische Vorgehensweise: Elemente aus Shopify importieren
+## Exemplarische Vorgehensweise: Elemente aus Shopify importieren
 
-### <a name="scenario-3"></a>Szenario
+### Szenario 
 
 Sie haben bereits einen erfolgreichen Online-Store und möchten [!INCLUDE[prod_short](../includes/prod_short.md)] als Software für die Unternehmensverwaltung einsetzen. Sie möchten so viele Daten wie möglich aus Shopify importieren. 
 
-### <a name="steps-3"></a>Schritte
+### Schritte
 
 Dies ist eine Fortsetzung von [Beispielhafte Vorgehensweise: Mit dem Online-Verkauf von Produkten beginnen](walkthrough-setting-up-and-using-shopify.md#walkthrough-start-selling-products-online). Sie können es auch mit Ihren eigenen Daten versuchen, zum Beispiel mit Ihrem Shopify Store oder Ihrer Sandbox.
 
 Führen Sie in [!INCLUDE[prod_short](../includes/prod_short.md)] die folgenden Schritte aus:
 
-#### <a name="prepare-data"></a>Daten vorbereiten
+#### Daten vorbereiten
 
 1. Wechseln Sie zu einem kostenlosen 30-tägigen Test ohne Beispieldaten. Weitere Informationen finden Sie unter [Eigene Daten zu einem leeren Test hinzufügen](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions#add-your-own-data-to-an-empty-trial-company).
 2. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](../media/ui-search/search_small.png "Was möchten Sie tun?") Symbol, geben Sie **Shopify Shops** ein und wählen Sie dann den zugehörigen Link.
@@ -262,19 +262,15 @@ Führen Sie in [!INCLUDE[prod_short](../includes/prod_short.md)] die folgenden S
 
 Konfigurieren Sie den Shopify Shop wie in den nächsten Schritten beschrieben:
 
-7. Aktivieren Sie das **Log Enabled** Kippschalter.
-8. Deaktivieren Sie das Kippschalter **Hintergrundsynchronisationen zulassen**.
-9. Wählen Sie **Aus Shopify** im Feld **Sync Element**.
-5. Aktivieren Sie das Umschaltkästchen **Unbekannte Elemente automatisch erstellen**.
-11. Füllen Sie das Feld **Element Vorlagencode** mit der entsprechenden Vorlage aus.
-12. Wählen Sie **Aus Shopify** im Feld **Artikelbilder synchronisieren**.
-13. Wählen Sie **Alle Kunden** im Feld **Kundenimport ab Shopify**.
-14. Aktivieren Sie die Umschaltfunktion **Unbekannte Kunden automatisch erstellen**.
-15. Füllen Sie das Feld **Kundenvorlagencode** mit der entsprechenden Vorlage aus.
-16. Füllen Sie das **Versandkostenkonto**, das **Tippkonto** mit dem Umsatzkonto aus. Verwenden Sie in den USA zum Beispiel `40100`.
-17. Aktivieren Sie das Kästchen **Bestellungen automatisch erstellen**.
+7. Deaktivieren Sie das Kippschalter **Hintergrundsynchronisationen zulassen**.
+8. Wählen Sie *Aus Shopify* im Feld **Sync Element**.
+9. Aktivieren Sie das Umschaltkästchen **Unbekannte Elemente automatisch erstellen**.
+10. Füllen Sie das Feld **Element Vorlagencode** mit der entsprechenden Vorlage aus.
+11. Wählen Sie *Aus Shopify* im Feld **Artikelbilder synchronisieren**.
+12. Wählen Sie *Alle Kunden* im Feld **Kundenimport ab Shopify**.
+13. Aktivieren Sie die Umschaltfunktion **Unbekannte Kunden automatisch erstellen**.
 
-#### <a name="run-the-synchronization"></a>Führen Sie die Synchronisierung aus
+#### Führen Sie die Synchronisierung aus
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](../media/ui-search/search_small.png "Was möchten Sie tun?") Symbol, geben Sie **Shopify Shops** ein, und wählen Sie den entsprechenden Link.
 2. Wählen Sie den *DEMO2* Shop, für den Sie Daten synchronisieren möchten, um die **Shopify Shop Card** Seite zu öffnen.
@@ -282,7 +278,7 @@ Konfigurieren Sie den Shopify Shop wie in den nächsten Schritten beschrieben:
 4. Wählen Sie die Aktion **Produktbilder synchronisieren**.
 5. Wählen Sie die Aktion **Kunden synchronisieren**.
 
-### <a name="results"></a>Ergebnisse
+### Ergebnisse
 
 * Shopify Produkte werden importiert. Zur Überprüfung wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](../media/ui-search/search_small.png "Was möchten Sie tun?") Symbol, geben Sie **Shopify Produkte** ein und wählen Sie den entsprechenden Link.
 * Es werden Elemente mit Bildern erstellt. Wählen Sie zum Überprüfen die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](../media/ui-search/search_small.png "Was möchten Sie tun?") Symbol, geben Sie **Element** ein und wählen Sie den zugehörigen Link.
@@ -290,6 +286,6 @@ Konfigurieren Sie den Shopify Shop wie in den nächsten Schritten beschrieben:
 * Die Kunden werden erstellt. Wählen Sie zum Überprüfen die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](../media/ui-search/search_small.png "Was möchten Sie tun?") Symbol, geben Sie **Kunden** ein und wählen Sie den zugehörigen Link.
 
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Einstieg in den Konnektor Shopify](get-started.md)  

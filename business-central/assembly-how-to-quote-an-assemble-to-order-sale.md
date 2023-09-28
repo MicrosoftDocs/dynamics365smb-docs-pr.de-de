@@ -34,12 +34,10 @@ Wie beim Verkauf beliebiger Artikel können Sie auch eine Verkaufsangebot für e
 6.  Wenn Sie die Montageauftragszeilen entsprechend dem Angebot angepasst haben, schließen Sie die Seite **Auftragsmontagezeilen**, um zur Seite **Verkaufsangebot** zurückzukehren.  
 7.  Wenn der Debitor das Angebot annimmt, erstellen Sie einen Verkaufsauftrag für den angebotenen Montageartikel. Weitere Informationen finden Sie unter [Verkaufsangebote machen](sales-how-make-offers.md). Das verknüpfte Montageangebot und alle eventuellen Anpassungen werden mit dem neuen Verkaufsauftrag verknüpft, um die Montage des/der zu verkaufenden Artikel vorzubereiten.  
 
-## Siehe zugehörige [Microsoft Schulungen](/training/modules/assemble-to-order-dynamics-365-business-central/)
-
 ## Siehe auch
 
 [Montageverwaltung](assembly-assemble-items.md)  
-[Arbeiten mit Stücklisten für die Montage](assembly-how-work-assembly-boms.md)  
+[Mit Montagestücklisten arbeiten](assembly-how-work-assembly-boms.md)  
 [Bestand](inventory-manage-inventory.md)  
 [Lagerverwaltung – Übersicht](design-details-warehouse-management.md)
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -3,7 +3,7 @@ title: Sandbox-Umgebungen
 description: 'Erfahren Sie, wie Sie Business Central in einer speziellen Umgebung sicher erforschen, erlernen, demonstrieren, entwickeln, Probleme beheben und testen können.'
 author: brentholtorf
 ms.topic: conceptual
-ms.reviewer: edupont
+ms.reviewer: bholtorf
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -63,8 +63,6 @@ In einer Sandboxumgebung finden Sie den **Designer** aktiviert. Sie können den 
 Weitere Informationen finden Sie in den Entwickler- und Verwaltungsinhalten unter [Designer verwenden](/dynamics365/business-central/dev-itpro/developer/devenv-inclient-designer) (nur in englischer Sprache).  
 
 <!-- ![In-client Designer.](./media/across-sandbox/sandbox-inclient-designer.png) -->
-
-## Siehe verwandte [Microsoft Schulungen](/training/modules/admin-online-dynamics-365-business-central/)
 
 ## Siehe auch
 

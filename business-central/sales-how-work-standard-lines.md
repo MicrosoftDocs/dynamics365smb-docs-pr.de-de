@@ -70,12 +70,10 @@ Sie können mit der Stapelverarbeitung **Wiederkehrende Verkaufsrechnungen erste
 
 Verkaufsrechnungen werden für die Debitoren mit dem angegebenen Standard-Debitorenvertriebscode und allen angegebenen Direkteinzugsinformationen zur Buchung am angegebenen Datum erstellt.
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/create-sales-documents-dynamics-365-business-central/)
-
 ## Siehe auch
 
 [Verkauf](sales-manage-sales.md)  
-[Verkäufe festlegen](sales-setup-sales.md)  
+[Verkäufe einrichten](sales-setup-sales.md)  
 [Wiederkehrende Einkaufszeilen erstellen](purchasing-how-work-recurring-purchase-lines.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

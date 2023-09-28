@@ -104,8 +104,6 @@ Füllen Sie die Felder in der umgekehrten Reihenfolge wie folgt aus:
 
 Die ADM-Dimension wird vom Standort EAST kopiert.
 
-## Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/trade-set-up-dynamics-365-business-central/)
-
 ## Siehe auch
 
 [Verwalten des Lagerbestands](inventory-manage-inventory.md)  

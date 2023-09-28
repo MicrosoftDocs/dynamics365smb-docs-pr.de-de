@@ -345,12 +345,10 @@ Geben Sie eine Zahl ein, um ermitteln, welche Einheit in einem Dauerfeld verwend
 
 Wenn die Einheit beispielsweise Stunden ist, wird die Zahl 5 in 5 Std. konvertiert.
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/explore-modify-info-dynamics-365-business-central/)
-
 ## Siehe auch
 
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_long.md)]](ui-work-product.md)  
-[Datumsberechnung für Einkäufe](purchasing-date-calculation-for-purchases.md)  
+[Terminberechnung für Einkäufe](purchasing-date-calculation-for-purchases.md)  
 [Eingeben von Kriterien in Filtern](ui-enter-criteria-filters.md)  
 
 

@@ -37,6 +37,14 @@ Nachdem Projektwarteschlangen eingerichtet sind und ausgeführt werden, kann sic
 
 Nachdem eine Aufgabe erfolgreich abgeschlossen wurde, wird sie aus der Liste der Aufgabenwarteschlangenposten entfernt, es sei denn, es handelt sich um ein wiederkehrendes Projekt. Bei mehrfach ausführbaren Einzelvorgängen wird das Feld **Früheste Startzeit** angepasst, um anzuzeigen, wann die Aufgabe das nächste Mal ausgeführt wird.  
 
+## Das früheste Startdatum
+
+Der Wert im Feld **Früheste(s) Startdatum/-uhrzeit** auf der Seite **Karte für Aufgabenwarteschlangenposten** zeigt den nächsten Termin für die Aufgabenausführung. Es gibt mehrere Faktoren, die sich darauf auswirken können, ob ein Aufgabenwarteschlangeneintrag zu diesem Zeitpunkt tatsächlich ausgeführt wird.
+
+Die häufigsten Faktoren sind die Anzahl der Aufgabenwarteschlangeneinträge in einer Umgebung und die Gesamtzahl der geplanten Aufgaben. Zum Schutz des Leistungsniveaus gibt es Betriebsgrenzen. Wenn Sie viele Einträge in der Warteschlange haben und beispielsweise einer davon fehlschlägt oder die Einträge einfach länger als erwartet dauern, wird die nächste Aufgabe möglicherweise nicht zum erwarteten Zeitpunkt gestartet. Wenn Sie Codeeinheiten haben, die 100.000 oder mehr geplante Aufgaben generieren, sollten Sie prüfen, ob Sie tatsächlich alle diese Aufgaben benötigen. Auf die Liste aller geplanten Aufgaben können Sie auf der Seite **Geplante Aufgaben** zugreifen.
+
+Um mehr über die Überwachung des Status von Aufgabewarteschlangeneinträgen zu erfahren, gehen Sie zu [So wird der Status für jedes beliebige Projekt angezeigt](#to-view-status-for-any-job). Weitere Informationen zu Betriebsgrenzen finden Sie unter [Grenzwerte für asynchrone Aufgaben](/dynamics365/business-central/dev-itpro/administration/operational-limits-online#Task).
+
 ## Überwachen von Status oder Fehlern in der Projektwarteschlange
 
 Von der Aufgabenwarteschlange generierte Daten werden gespeichert, sodass Sie Fehler beheben können.  

@@ -3,7 +3,7 @@ title: So kommissionieren Sie Artikel mit Lagerkommissionierungen
 description: 'Erfahren Sie, wie Sie Lagerkommissionierungen verwenden, um Kommissionierungs- und Versandinformationen für Herkunftsbelege aufzuzeichnen und zu buchen.'
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: how-to
 ms.date: 01/25/2023
@@ -119,8 +119,6 @@ In Szenarien in denen ein Teil der Menge zunächst montiert wird und ein anderer
 
 > [!NOTE]  
 > Wenn Artikel auf Bestellung montiert werden, führt die Lagerbestandskommissionierung für den verknüpften Verkaufsauftrag zu einer Lagerbestandsumlagerung für alle Montagekomponenten.  
-
-## Siehe verwandte [Microsoft Schulungen](/training/paths/pick-ship-items-business-central/)
 
 ## Siehe auch
 

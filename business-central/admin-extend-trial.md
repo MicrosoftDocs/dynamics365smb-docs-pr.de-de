@@ -45,8 +45,6 @@ Wenn Ihr verlängerter Testzeitraum abgelaufen ist, können Sie innerhalb von 90
 
 [!INCLUDE [admin-viral-trial-expiry](includes/admin-viral-trial-expiry.md)]
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/trial-dynamics-365-business-central/)
-
 ## Siehe auch
 
 [Testversionen und Abonnements (nur in englischer Sprache verfügbar)](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions?toc=/dynamics365/business-central/toc.json)  

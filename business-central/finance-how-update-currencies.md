@@ -122,13 +122,11 @@ Sie können einen externen Service verwenden, um Ihre Währungswechselkurse wie 
 
 Der Wert im Feld **Wechselkurs** wird auf der Seite **Währung** mit dem aktuellen Währungswechselkurs aktualisiert.
 
-## Siehe verwandte [Microsoft Schulungen](/training/paths/use-multiple-currencies-dynamics-365-business-central/)
-
 ## Siehe auch
 
 [Währungen in Business Central](finance-currencies.md)  
 [Einrichten von Währungen](finance-set-up-currencies.md)  
-[Einrichten einer zusätzlichen Berichtswährung](finance-how-setup-additional-currencies.md)  
+[Berichtswährung einrichten](finance-how-setup-additional-currencies.md)  
 [Jahre und Perioden abschließen](year-close-years-periods.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

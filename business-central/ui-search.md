@@ -70,8 +70,6 @@ Die Funktion **Wie möchten Sie weiter verfahren** sucht nicht nach Daten wie De
 
 Wir haben „Wie möchten Sie weiter verfahren“ einer Reihe von Projektbeteiligten präsentiert, deren gemeinsame Fragen notiert und aus unseren Notizen eine Liste der häufig gestellten Fragen erstellt. Bei Interesse finden Sie sie unter [„Wie möchten Sie weiter verfahren“-FAQ](ui-search-faq.md).
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/user-interface-dynamics-365-business-central/index)
-
 ## Siehe auch
 
 [Arbeiten mit Business Central](ui-work-product.md)  

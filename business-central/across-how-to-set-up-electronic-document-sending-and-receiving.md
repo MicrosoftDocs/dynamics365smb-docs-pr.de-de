@@ -136,8 +136,6 @@ In diesem Thema werden die folgenden Prozeduren beschrieben:
     |---------------------------------|---------------------------------------|  
     |**Standardsollkonto für Nicht-Artikel-Positionen**|Gibt das Sachkonto an, das automatisch in Verkaufszeilen eingefügt wird, die aus elektronischen Dokumenten erstellt werden, wenn die Zeile des eingehenden Beleges keinen identifizierbaren Artikel enthält. Irgendeine Zeile des eingehenden Beleges, die kein GTIN hat, oder die Artikelnummer des Kreditors auf eine Einkaufszeile des Typs **Sachkonto** und **Nr.** Feld der Einkaufsbestellzeile enthält das Konto, das Sie in dem Feld **Sachkonto für Nicht-Artikel-Zeilen** auswählen.<br /><br /> Wenn Sie das **Sachkonteo für Nicht-Artikel-Positionen**-Feld leer lassen und der eingehende Beleg Zeilen ohne identifizierbare Artikel hat, wird der Einkaufsbeleg nicht erstellt. Eine Fehlermeldung weist Sie an, das **Sachkonto Nicht-Artikel-Zeilen**-Feld auszufüllen, bevor Sie die Aufgabe ausführen können.|  
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/electronic-documents-dynamics-365-business-central/index)
-
 ## Siehe auch  
 [Daten elektronisch austauschen](across-data-exchange.md)   
 [Fakturieren eines Verkaufs](sales-how-invoice-sales.md)   

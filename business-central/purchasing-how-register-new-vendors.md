@@ -70,12 +70,10 @@ Sie können die Informationen auf Kreditorenkarten jederzeit bearbeiten. Wenn Si
 5. Wenn Sie die neue Kreditorvorlage abgeschlossen haben, klicken Sie auf die Schaltfläche **OK**.  
    Die Kreditorvorlage wird der Liste von Kreditorvorlagen hinzugefügt, damit Sie diese verwenden können, um neue Kreditorenkarten zu erstellen.
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/trade-master-data-dynamics-365-business-central/)
-
 ## Siehe auch
 
-[Doppelt Datensätze zusammenführen](sales-how-merge-duplicate-records.md)  
-[Erstellen von Nummernkreisen](ui-create-number-series.md)  
+[Doppelte Datensätze zusammenführen](sales-how-merge-duplicate-records.md)  
+[Nummernserien erstellen](ui-create-number-series.md)  
 [Kreditoren-Bankkonto einrichten](purchasing-how-set-up-vendors-bank-accounts.md)  
 [Einkäufer einrichten](purchasing-how-setup-purchasers.md)  
 [Einkauf](purchasing-manage-purchasing.md)  

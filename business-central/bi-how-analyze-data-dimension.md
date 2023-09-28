@@ -50,7 +50,7 @@ Verwenden Sie die Analyseansichten, die Sie bereits mit der **Analyse nach Dimen
 > Die ausgewählte Periodenlänge muss mindestens der Länge der Periode entsprechen, die auf der Karte **Analyseansicht** für die Datumskomprimierung angegeben ist. Die Befehle **Nächster Satz** und **Vorheriger Satz** sind nicht aktiv, wenn Sie **Periodisch** entweder im Feld **Als Zeilen anzeigen** oder **Als Spalten anzeigen** festgelegt haben.  
 
 > [!NOTE]  
-> Sie können den Bericht **Dimensionen - Detail** auswählen, um eine detaillierte Aufstellung anzuzeigen, wie über eine ausgewählte Periode Dimensionen in den Posten angewendet wurden. Mit dem Bericht **Dimensionen - Total** können Sie die Anzeige auf die Gesamtbeträge beschränken.  
+> Sie können den Bericht **Dimensionen - Detail** verwenden, um genau anzeigen zu lassen, wie Dimensionen in einem bestimmten Zeitraum in Posten verwendet wurden. Mit dem Bericht **Dimensionen - Total** können Sie die Anzeige auf die Gesamtbeträge beschränken.  
 
 > [!TIP]  
 > Sie können die Ansicht auch ändern, indem Sie den Inhalt der Felder **Als Zeilen anzeigen** und **Als Spalten anzeigen** ändern. Um eine Ansichtseinstellung auszutauschen, wählen Sie die **Zeilen- und Spaltenansicht vertauschen**.
@@ -72,8 +72,6 @@ Gehen Sie wie folgt vor, um eine Analyseansicht auf der Seite **Analyse nach Dim
 
 > [!NOTE]  
 > Um eine oder alle Analyseansichten gleichzeitig zu aktualisieren, müssen Sie die Stapelverarbeitung **Analyseansichten aktualisieren** verwenden.  
-
-## Siehe dazu die Schulung unter [Microsoft Learn](/learn/modules/dimensions-financial-reports-dynamics-365-business-central/index).
 
 ## Siehe auch
 

@@ -24,13 +24,11 @@ In den folgenden Artikeln werden einige der wichtigsten Aufgaben zur Analyse des
 
 * [Tatsächlichen Beträge mit den budgetierten Beträgen analysieren](bi-how-analyze-actual-versus-budget.md)  
 * [Bereiten Sie Finanzberichte mit Finanzdaten und Kontengruppen vor](bi-how-work-account-schedule.md)  
-* [Einrichten und Veröffentlichen von KPI-Webdienste auf der Basis von Finanzberichte](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)  
-* [Analysieren von Daten nach Dimensionen](bi-how-analyze-data-dimension.md)  
+* [KPI-Webdienste auf der Basis der Finanzberichte einrichten und veröffentlichen](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)  
+* [Daten nach Dimensionen analysieren](bi-how-analyze-data-dimension.md)  
 * [Analyseberichte erstellen](bi-how-create-analysis-views-reports.md)  
 * [Berichte mit XBRL erstellen](bi-create-reports-with-xbrl.md)  
 * [Absicht auf Datenbankzugriff verwalten](admin-data-access-intent.md)  
-
-## Siehe verwandte [Microsoft Schulungen](/training/paths/create-financial-reports-dynamics-365-business-central/)
 
 ## Siehe auch
 

@@ -16,8 +16,6 @@ Unter [AppSource.microsoft.com](https://appsource.microsoft.com/) können Sie Er
 
 Die Liste der Erweiterungen durch andere Unternehmen wächst jeden Monat. Halten Sie Ausschau für [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646) und holen Sie sich die Apps, die Ihnen die Arbeit in [!INCLUDE[prod_short](includes/prod_short.md)] vereinfachen.  
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/customize-dynamics-365-business-central/)
-
 ## Siehe auch
 
 [Anpassen von [!INCLUDE[prod_short](includes/prod_short.md)] mithilfe von Erweiterungen](ui-extensions.md)  

@@ -52,13 +52,11 @@ Die folgenden Schritte zeigen, wie Sie eine Kreditorenrechnungen empfangen und i
 
     Überprüfungsfehler, die üblicherweise mit falschen oder fehlenden Stammdaten in [!INCLUDE[prod_short](includes/prod_short.md)] zusammenhängen, werden im Inforegister **Fehlermeldungen** angezeigt.  
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/electronic-documents-dynamics-365-business-central/index)
-
 ## Siehe auch
 
 [Verwalten von Verbindlichkeiten](payables-manage-payables.md)  
 [Eingehende Belege](across-income-documents.md)  
-[Einrichten von Senden und Empfangen von elektronischen Belegen](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
+[Einrichten des Senden und Empfangen von elektronischen Belegen](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
 [Daten elektronisch austauschen](across-data-exchange.md)   
 [Allgemeine Geschäftsfunktionen](ui-across-business-areas.md)  
 

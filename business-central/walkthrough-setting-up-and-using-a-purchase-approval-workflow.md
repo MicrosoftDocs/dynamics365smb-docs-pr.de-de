@@ -117,11 +117,9 @@ Sie definieren Workflowsvariationen, indem Sie die Felder in den Workflowzeilen 
 
 [!INCLUDE[workflow](includes/workflow.md)]
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/use-approval-workflows/)
-
 ## Siehe auch
 
-[Einrichten von Genehmigungsbenutzern](across-how-to-set-up-approval-users.md)  
+[Genehmigungsbenutzer einrichten](across-how-to-set-up-approval-users.md)  
 [Einrichten von Workflowbenachrichtigungen](across-setting-up-workflow-notifications.md)  
 [Genehmigungsworkflows erstellen](across-how-to-create-workflows.md)  
 [Artikelgenehmigungsworkflow verwenden](across-how-use-approval-workflows.md)  

@@ -47,8 +47,6 @@ Es werden alle Datensätze eingehender Dokumente angezeigt, einschließlich der 
 > [!NOTE]  
 > Sie können diese Aktion für einzelne Datensätze auf der Seite **Eingehende Belege** durchführen.
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/incoming-documents-dynamics-365-business-central/)
-
 ## Siehe auch
   
 [Erstellen von Datensätzen für Eingehende Belege](across-how-create-income-document-records.md)

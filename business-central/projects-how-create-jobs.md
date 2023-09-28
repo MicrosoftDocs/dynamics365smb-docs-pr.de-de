@@ -79,8 +79,6 @@ Eine Projektplanungszeile kann von einer der folgenden Arten sein.
 4. Auf einer neuen Zeile auf der Seite **Projektplanungszeilen** füllen Sie die Felder nach Bedarf aus.
 5. Wiederholen Sie die Schritte 3 und 4 für alle Planungszeilen für diese Projektaufgabe.
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/create-new-job/)
-
 ## Siehe auch
 
 [Projektmanagement](projects-manage-projects.md)  

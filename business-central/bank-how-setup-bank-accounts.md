@@ -229,8 +229,6 @@ Nachdem Sie das neue Bankkonto erstellt haben, sollten Sie auch eine neue Bankbu
 
 Um eine komprimiertere Ansicht Ihrer Geldkonten in der Finanzberichterstattung zu erhalten, verwenden Sie die **Beginn-Summe** und **Ende-Summe** Konten in Ihrem Kontenplan, die **Summen** Zeilen in Finanzberichten oder Sachkonto-Kategorien. Erfahren Sie mehr im Abschnitt [Business Intelligence und Financial Reporting](bi.md).
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/cash-management-dynamics-365-business-central/)
-
 ## Siehe auch
 
 [Einrichten von Banken](bank-setup-banking.md)  

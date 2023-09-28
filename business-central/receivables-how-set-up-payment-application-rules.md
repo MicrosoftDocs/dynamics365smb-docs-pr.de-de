@@ -74,8 +74,6 @@ In der folgenden Tabelle werden die Standardregeln für Zahlungsanwendungen in [
 | Gering              | 4        | Nein                    | Nein                             | Eine Übereinstimmung                      |
 | Gering              | 5        | Nein                    | Nein                             | Mehrere Übereinstimmungen               |
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/reconciliation-journals-dynamics-365-business-central/index)
-
 ## Siehe auch
 [Zahlungen mit automatischem Ausgleich abstimmen](receivables-how-reconcile-payments-auto-application.md)  
 [Verwalten von Forderungen](receivables-manage-receivables.md)  

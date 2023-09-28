@@ -31,13 +31,11 @@ Das Verkaufsangebot wird aus der Datenbank entfernt. Eine Verkaufsrechnung oder 
 > [!NOTE]
 > Es ist nicht möglich, ein Einkaufsangebot direkt in eine Einkaufsrechnung umzuwandeln, wie dies bei Verkaufsangeboten möglich ist. Einzelheiten zum Erstellen einer Einkaufsrechnung finden Sie unter [Erfassen Sie Einkäufe mit Einkaufsrechnungen](purchasing-how-record-purchases.md).
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/create-purchase-documents-dynamics-365-business-central/)
-
 ## Siehe auch
 
 [Einkauf](purchasing-manage-purchasing.md)  
 [Einkaufeinrichten](purchasing-setup-purchasing.md)  
-[Dokumente per E-Mail versenden](ui-how-send-documents-email.md)  
+[Belege per E-Mail senden](ui-how-send-documents-email.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

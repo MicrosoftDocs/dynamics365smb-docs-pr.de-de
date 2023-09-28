@@ -17,11 +17,9 @@ Diese Erweiterung führt Sie durch den Prozess zum Konfigurieren einer Verbindun
 
 Sobald die Verbindung konfiguriert ist, können Sie Daten von Ihrer lokalen Lösung nach [!INCLUDE[prod_short](includes/prod_short.md)] Online migrieren. Diese Erweiterung funktioniert in Verbindung mit einer Datenreplikationserweiterung, die für eine bestimmte lokale Lösung verfügbar ist. Weitere Informationen finden Sie unter [Ausführen des Cloud-Migrationstools](/dynamics365/business-central/dev-itpro/administration/migration-tool).  
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/connect-intelligent-cloud-dynamics-365-business-central/)
-
 ## Siehe auch
 
-[Ausführen des Cloud-Migrationstools](/dynamics365/business-central/dev-itpro/administration/migration-tool)  
+[Cloudmigrationstool ausführen](/dynamics365/business-central/dev-itpro/administration/migration-tool)  
 [Intelligente Cloud-Erweiterungen für die Cloudmigration](ui-extensions-data-replication.md)  
 
 

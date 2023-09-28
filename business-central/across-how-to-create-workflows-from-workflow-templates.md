@@ -29,12 +29,10 @@ Auf der Seite **Workflow** können Sie einen Workflow erstellen, indem Sie die e
    Die Seite **Workflow** wird für einen neuen Workflow geöffnet, der alle Informationen der ausgewählten Vorlage enthält. Der Wert im Feld **Code** wird beispielweise mit „-01“ erweitert. Dies zeigt an, dass dies der erste Workflow ist, der von der Workflowvorlage erstellt wurde.  
 4. Fahren Sie fort mit dem Erstellen des Workflows, indem Sie die Workflowschritte bearbeiten oder neue Schritte hinzufügen. Erfahren Sie mehr unter [Workflows erstellen](across-how-to-create-workflows.md).  
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/create-workflows/)
-
 ## Siehe auch
 
 [Genehmigungsworkflows erstellen](across-how-to-create-workflows.md)  
-[Exportieren und Importieren von Genehmigungsworkflows](across-how-to-export-and-import-workflows.md)  
+[Genehmigungsworkflows exportieren und importieren](across-how-to-export-and-import-workflows.md)  
 [Archivierte Workflowschritt-Instanzen anzeigen](across-how-to-view-archived-workflow-step-instances.md)  
 [Artikelgenehmigungsworkflow löschen](across-how-to-delete-workflows.md)  
 [Beispielhafte Vorgehensweise: Einrichten und Verwenden eines Workflows zur Genehmigung von Käufen](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  

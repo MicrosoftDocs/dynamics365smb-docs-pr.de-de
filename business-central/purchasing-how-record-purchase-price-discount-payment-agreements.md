@@ -139,8 +139,6 @@ Der beste Preis ist der niedrigste mögliche Preis mit dem höchsten möglichen 
 
 Wenn keine Spezialpreise für die Artikel in der Zeile gefunden werden, werden entweder die letzten direkten Kosten oder der VK-Preis von der Artikelkarte oder der Lagerhaltungsdatenkarte verwendet.
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/set-up-prices-discounts-dynamics-365-business-central/index)
-
 ## Siehe auch
 
 [Einkaufeinrichten](purchasing-setup-purchasing.md)  

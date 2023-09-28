@@ -82,12 +82,10 @@ Sie können festlegen, dass keine Warnungen angezeigt werden, die darauf hinweis
     |**Fälliger Saldo**|Das Feld **Fälliger Saldo** auf der Debitorenkarte wird geprüft, und eine Warnung wird angezeigt, wenn sich der Debitor im Zahlungsrückstand befindet.|
     |**Keine Warnung**|Keine Kreditwarnungen werden über den Status des Debitors angezeigt.|
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/trade-master-data-dynamics-365-business-central/)
-
 ## Siehe auch
 
 [Zahlungsformen definieren](finance-payment-methods.md)  
-[Doppelt Datensätze zusammenführen](sales-how-merge-duplicate-records.md)  
+[Doppelte Datensätze zusammenführen](sales-how-merge-duplicate-records.md)  
 [Erstellen von Nummernkreisen](ui-create-number-series.md)  
 [Teillieferungen mit Lieferavis aktivieren](sales-how-send-partial-shipments.md)  
 [Verkauf](sales-manage-sales.md)  

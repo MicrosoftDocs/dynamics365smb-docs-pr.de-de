@@ -45,8 +45,6 @@ Um Zeit zu sparen, wenn Sie Belege per E-Mail an Debitor- und Kreditor-Kontakte 
 1. Auf der Seite **Beleglayouts** in der Zeile für ein Berichtslayout, das Sie an einen bestimmten Kontakt für den Debitor senden möchten, wählen Sie die Aktion **E-Mail aus Kontakten auswählen** aus.
 2. Wählen Sie auf der Seite **Kontakte** einen oder mehrere Kontakte aus, und wählen Sie dann **OK**.
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/change-documents-dynamics-365-business-central/)
-
 ## Siehe auch
 
 [Benutzerdefinierte Berichtslayouts aktualisieren](ui-update-report-layouts.md)  

@@ -47,12 +47,10 @@ Das folgende Video behandelt die Grundlagen des Anlagevermögens.
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS?rel=0]
 
-## Siehe verwandte [Microsoft Schulungen](/training/paths/manage-fixed-assets-transactions/)
-
 ## Siehe auch
 
 [Einrichten von Anlagen](fa-setup.md)  
-[Ändern, welche Funktionen angezeigt werden](ui-experiences.md)  
+[Angezeigte Features ändern](ui-experiences.md)  
 [Finanzen](finance.md)  
 [Vorbereiten auf die Geschäftsabwicklung](ui-get-ready-business.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -52,13 +52,11 @@ Um Ausgaben, die sich auf Gebühren einer bestimmten Bank, MyBank, beziehen, imm
 | --- | --- | --- | --- | --- |
 | MyBank |LEER |60400|Sachkonto |LEER |
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/use-journals-dynamics-365-business-central/)
-
 ## Siehe auch
 
 [Verwalten von Forderungen](receivables-manage-receivables.md)  
 [Verkauf](sales-manage-sales.md)  
-[Den Envestnet Yodlee Bank Feeds Service einrichten](bank-how-setup-bank-statement-service.md)  
+[Den Envestnet Yodlee Bank Feeds-Service einrichten](bank-how-setup-bank-statement-service.md)  
 [Anpassen von [!INCLUDE[prod_short](includes/prod_short.md)] mithilfe von Erweiterungen](ui-extensions.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

@@ -3,14 +3,14 @@ title: Montageverwaltung
 description: 'Erfahren Sie, wie Sie Produkte an Kunden liefern, indem Sie Komponenten in einfachen Prozessen kombinieren, ohne Fertigungsfunktionen zu verwenden.'
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.date: 02/21/2023
 ms.custom: bap-template
 ms.search.keywords: 'kit, kitting'
 ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905'
 ---
-# <a name="assembly-management"></a>Montageverwaltung
+# Montageverwaltung
 
 Unternehmen können Produkte an Kunden liefern, indem sie Komponenten kombinieren, ohne Fertigungsfunktionen zu verwenden. Funktionen zum Zusammenstellen von Artikeln lassen sich in verwandte Funktionen wie Verkauf, Planung, Reservierungen und Lagerhaltung integrieren.  
 
@@ -51,11 +51,9 @@ Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Artikel
 |Erfahren Sie, wie Sie mit Montagestücklisten arbeiten und wie sie sich von Fertigungsstücklisten unterscheiden.|[Arbeiten mit Stücklisten für die Montage](assembly-how-work-assembly-boms.md)|
 |Erfahren Sie mehr über das Buchen von Montageverbrauch und -ausgabe und wie [!INCLUDE [prod_short](includes/prod_short.md)] Artikel- und Ressourcenkosten auf das Hauptbuch verteilt.|[Designdetails: Montageauftragsbuchung](design-details-assembly-order-posting.md)|  
 
-## <a name="see-related-microsoft-training"></a>Siehe zugehörige [Microsoft Schulungen](/training/paths/assemble-items-dynamics-365-business-central/)
+## Siehe auch
 
-## <a name="see-also"></a>Siehe auch
-
-[Arbeiten mit Stücklisten](inventory-how-work-BOMs.md)  
+[Mit Stücklisten arbeiten](inventory-how-work-BOMs.md)  
 [Bestand](inventory-manage-inventory.md)  
 [Überblick über die Lagerverwaltung](design-details-warehouse-management.md)
 [Designdetails: Beschaffungsplanung](design-details-supply-planning.md)  

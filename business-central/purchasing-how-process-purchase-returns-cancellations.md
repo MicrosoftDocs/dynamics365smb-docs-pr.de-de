@@ -181,12 +181,10 @@ Wenn Rücklieferungen in einer Gutschrift zusammengefasst und gebucht werden, wi
 2. Füllen Sie die anderen relevanten Felder wie erforderlich aus, und wählen Sie dann die Schaltfläche **OK** aus.  
 3. Sie können die einzelnen Einkaufsreklamtionen auch manuell löschen.
 
-## Siehe verwandte [Microsoft Schulungen](/training/paths/return-items-dynamics-365-business-central/)
-
 ## Siehe auch
 [Einkauf](purchasing-manage-purchasing.md)  
-[Erfassen eines Einkaufs](purchasing-how-record-purchases.md)  
-[Ändern oder Löschen einer unbezahlten Einkaufsrechnung](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
+[Einkäufe erfassen](purchasing-how-record-purchases.md)  
+[Unbezahlte Einkaufsrechnungen korrigieren oder stornieren](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Verarbeiten einer Verkaufsrücklieferung oder von Stornierungen](sales-how-process-sales-returns-cancellations.md)  
 

@@ -144,7 +144,7 @@ Auf der Seite **Anforderungsarbeitsblatt** sind die Artikel aufgelistet, die Sie
 
 - Geben Sie die Artikel manuell in den Vorschlag ein, und füllen Sie die entsprechenden Felder aus.
 
-- Verwenden Sie die Stapelverarbeitung **Plan berechnen**. Diese berechnet eine Planung für Artikel und Lagerhaltungsdaten, die mit dem Dispositonsmethodencode **Einkauf** oder **Umlagerung** eingerichtet wurden. Wenn Sie diese Stapelverarbeitung verwenden, füllt die Anwendung automatisch das Feld **Ereignismeldung** mit einem Vorschlag, wie Sie die Artikel wiederbeschaffen können. Dabei kann es sich z. B. um die Erhöhung der Artikelmenge in einer bestehenden Bestellung oder um die Erstellung einer neuen Bestellung handeln.
+- Verwenden Sie die Stapelverarbeitung **Planung berechnen**. Diese berechnet eine Planung für Artikel und Lagerhaltungsdaten, die mit dem Dispositonsmethodencode **Einkauf** oder **Umlagerung** eingerichtet wurden. Wenn Sie diese Stapelverarbeitung verwenden, füllt die Anwendung automatisch das Feld **Ereignismeldung** mit einem Vorschlag, wie Sie die Artikel wiederbeschaffen können. Dabei kann es sich z. B. um die Erhöhung der Artikelmenge in einer bestehenden Bestellung oder um die Erstellung einer neuen Bestellung handeln.
 
 - Wenn Sie die Stapelverarbeitung **Plan berechnen** auf der Seite **Planungsarbeitsblatt** zur Berechnung eines Nachschubplans verwendet haben, können Sie die Stapelverarbeitung **Ereignismeldung durchführen** verwenden, um Bestell- und Umlagerungsvorschläge aus dem Planungsarbeitsblatt in das Anforderungsarbeitsblatt zu kopieren. Dies ist dann nützlich, wenn unterschiedliche Anwender für die Abwicklung der Fertigungsaufträge und Einkaufsbestellungen/Umlagerungsaufträge zuständig sind.
 
@@ -152,18 +152,16 @@ Auf der Seite **Anforderungsarbeitsblatt** sind die Artikel aufgelistet, die Sie
 
 - Sie können die Aktion **Spezialauftrag** verwenden, um die Anforderungsarbeitsblattszeilen zu füllen. Diese Aktion verwendet die Stapelverarbeitung **Aufträge holen**, um die Verkaufsauftragszeilen zu ermitteln, die für einen Spezialauftrag vorgesehen sind.
 
-Bestellvorschlagszeilen enthalten detaillierte Informationen über die Artikel, die wiederbestellt werden müssen. Sie können die Zeilen bearbeiten und löschen, um Ihren Bestellarbeitsblatt anzupassen, und Sie können die Zeilen auch mit der Stapelverarbeitung **Ereignismeldung durchführen** weiterverarbeiten. 
+Bestellvorschlagszeilen enthalten detaillierte Informationen über die Artikel, die wiederbestellt werden müssen. Sie können die Zeilen bearbeiten und löschen, um Ihren Bestellvorschlag anzupassen, und Sie können die Zeilen auch mit der Stapelverarbeitung **Ereignismeldung durchführen** weiterverarbeiten. 
 
 Einzelheiten zur Planung mit Standorten und Transfers finden Sie unter [Planen mit oder ohne Standorte](production-planning-with-without-locations.md).
 
 > [!TIP]
 > Auf den Seiten **Anforderungsarbeitsblatt** oder **Planungsarbeitsblatt** können Sie die Zeilen organisieren, indem Sie nach einem Spaltennamen sortieren. Dies ist auf der Seite Planungsarbeitsblatt besonders nützlich, da sie für mehrstufige Produktionsaufträge verwendet werden kann. Standardmäßig werden Zeilen nach **Art.-Nr.** sortiert. Um Positionen für einen mehrstufigen Auftrag zu gruppieren, sortieren Sie nach **Ref. Best.-Nr.** Feld Auch **MPS-Bestellung** und **Planungsebene** können dabei helfen, die Hierarchie der Zeilen anzuzeigen.
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/plan-items-dynamics-365-business-central/)
-
 ## Siehe auch
 
-[Entwurfsdetails: Vorratsplanung](design-details-supply-planning.md)  
+[Designdetails: Beschaffungsplanung](design-details-supply-planning.md)  
 [Planung](production-planning.md)  
 [Produktion einrichten](production-configure-production-processes.md)  
 [Produktion](production-manage-manufacturing.md)  

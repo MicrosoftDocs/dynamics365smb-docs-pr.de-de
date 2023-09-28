@@ -72,12 +72,10 @@ Wenn der Kreditor die Artikel geliefert hat, können Sie den Verkaufsauftrag als
 4. Wählen Sie die Aktion **Buchen** oder **Buchen und Senden** aus.
 5. Wählen Sie dann entweder die Option **Liefern**, um zu einem späteren Zeitpunkt zu fakturieren oder **Liefern und Fakturieren**, um sofort zu fakturieren.
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/create-sales-documents-dynamics-365-business-central/)
-
 ## Siehe auch
 
-[Spezialaufträge erstellen:](sales-how-to-create-special-orders.md)  
-[Einkauf von Artikeln für einen Verkauf](purchasing-how-purchase-products-sale.md)  
+[Spezialaufträge erstellen](sales-how-to-create-special-orders.md)  
+[Artikel für einen Verkauf einkaufen](purchasing-how-purchase-products-sale.md)  
 [Produkte verkaufen](sales-how-sell-products.md)  
 [Erfassen eines Einkaufs](purchasing-how-record-purchases.md)  
 [Verkauf](sales-manage-sales.md)  

@@ -10,11 +10,11 @@ ms.search.form: 9880
 ms.date: 04/01/2021
 ms.author: jswymer
 ---
-# <a name="managing-database-access-intent"></a>Verwaltung der Datenbank-Zugriffsabsicht
+# Verwaltung der Datenbank-Zugriffsabsicht
 
 Als Superuser oder Administrator können Sie die Datenbankzugriffsabsicht auf Berichte, Seiten vom Typ API und Abfragen ändern, um die Leistung des Dienstes zu verbessern.
 
-## <a name="overview"></a>Matrix
+## Matrix
 
 [!INCLUDE[prod_short](includes/prod_short.md)] kann so eingerichtet werden, dass schreibgeschützte Replikate der primären Datenbank (Lesen und Schreiben) verwendet werden. Die Verwendung der Datenbankreplik reduziert die Belastung der primären Datenbank. In einigen Fällen wird dadurch auch die Leistung beim Anzeigen von Daten im Client verbessert. Replikate sind vorteilhaft für Objekte wie Berichte, Abfragen und API-Seiten, die nur zur Anzeige von Daten, nicht zur Änderung von Daten verwendet werden.
 
@@ -24,7 +24,7 @@ Auf der Seite **Datenbank-Zugriffsabsichtsliste** können Sie die vordefinierte 
 
 In Bezug auf die Datenbank wird diese Funktion allgemein als *Lesen Scale-out* bezeichnet. Weitere Informationen über die Ausleseskalierung und die Datenzugriffsabsicht in [!INCLUDE[prod_short](includes/prod_short.md)] finden Sie unter [Ausnutzung der Ausleseskalierung für eine bessere Leistung](/dynamics365/business-central/dev-itpro/administration/database-read-scale-out-overview) in der Hilfe für Entwickler und die Verwaltung unter [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## <a name="to-change-the-database-access-intent"></a>So ändern Sie die Datenbank-Zugriffsabsicht
+## So ändern Sie die Datenbank-Zugriffsabsicht
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Liste Datenbankzugriffsabsicht** ein, und wählen Sie den zugehörigen Link.
 
@@ -43,11 +43,9 @@ In Bezug auf die Datenbank wird diese Funktion allgemein als *Lesen Scale-out* b
     > [!NOTE]
     > Wenn ein editierbares Objekt, wie die Debitorenkarte, auf **Nur lesen** gesetzt ist, wird die primäre Datenbank unabhängig von der Zugriffsabsicht weiterhin verwendet, so dass die Benutzer wie gewohnt Änderungen vornehmen können.
 
-## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/paths/deploy-configure-dynamics-365-business-central/)
-
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 [Geschäftsfunktionen](across-business-functionality.md)  
-[Allgemeine Geschäftsfunktionen](ui-across-business-areas.md)  
+[Allgemeine Unternehmensfunktionen](ui-across-business-areas.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Vorbereiten auf die Geschäftsabwicklung](ui-get-ready-business.md)    
 

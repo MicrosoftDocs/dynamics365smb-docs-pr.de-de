@@ -70,8 +70,6 @@ Um mit der **Lagerplatz Erst.-Arbeitsblatt**-Seite zu arbeiten, müssen Sie als 
 
 Wiederholen Sie diesen Vorgang für die nächste Serie von Lagerplätzen, bis Sie alle Lagerplätze in Ihrem Lager erstellt haben.  
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/create-new-bins/)
-
 ## Siehe auch
 
 [Lagerverwaltung – Übersicht](design-details-warehouse-management.md)

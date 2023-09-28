@@ -170,8 +170,6 @@ In vielen Ländern/Regionen werden von den Zoll- und Steuerbehörden achtstellig
 
 Auf der Seite **Zollpositionen** fügen Sie alle Codes hinzu, die Sie verwenden. Sie müssen die Codes auf der Artikelkarte eingeben, bevor Sie mit dem Buchen beginnen. Wenn Sie die Codes eingerichtet haben, geben Sie diese ein im **Zollposition** -Feld auf der Artikelkarte. Darüber hinaus müssen Sie das Feld **Nettogewicht** auf der Artikelkarte ausfüllen.
 
-## Siehe verwandte Schulungen unter [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
-
 ## Siehe auch
 
 [Finanzmanagement](finance.md)

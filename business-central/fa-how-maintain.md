@@ -84,8 +84,6 @@ Sie können im Bericht **Wartungsdetails** Wartungsposten für eine oder mehrere
 2. Füllen Sie die Felder nach Bedarf aus.
 3. Wählen Sie die Schaltfläche **Drucken** oder **Vorschau**.
 
-## Siehe verwandte [Microsoft Schulungen](/training/paths/manage-fixed-assets-maintenance-insurances/)
-
 ## Siehe auch
 
 [Anlagen](fa-manage.md)  

@@ -60,8 +60,6 @@ Sie können eine Rechnung aus Projektplanungszeilen erstellen, und dabei die Men
 > [!NOTE]  
 >   Das obige Verfahren dient zum Erstellen, Prüfen und Buchen einer projektbezogenen Verkaufsgutschrift.
 
-## Siehe verwandte [Microsoft Schulungen](/training/paths/post-job-usage-sales/)
-
 ## Siehe auch
 
 [Projekte verwalten](projects-manage-projects.md)  

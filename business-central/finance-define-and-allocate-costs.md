@@ -137,12 +137,10 @@ Dieses Thema zeigt ein Beispiel für das Definieren von Zuordnungen mithilfe der
 > [!IMPORTANT]  
 > [!INCLUDE[prod_short](includes/prod_short.md)] verwendet die Verkaufszahlen der Vorjahre, um einen Anteil von 1596,50 MW mit 100 Prozent für die COMPUTERAUSSTATTUNG-Pakete zu berechnen. Das bedeutet, dass alle Artikel, die letztes Jahr verkauft wurden, dem Kostenträger COMPUTERAUSSTATTUNG zugeordnet werden.
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/allocate-costs-dynamics-365-business-central/)
-
 ## Siehe auch
 
  [Einrichten der Kostenrechnung](finance-set-up-cost-accounting.md)  
- [Übertragen und Buchen von Kalkulationen](finance-transfer-and-post-cost-entries.md)  
+ [Übertragung und Buchung von Kostenposten](finance-transfer-and-post-cost-entries.md)  
  [Kostenrechnung](finance-manage-cost-accounting.md)  
  [Terminologie in der Kostenrechnung](finance-terminology-in-cost-accounting.md)  
  [Informationen zur Kostenrechnung](finance-about-cost-accounting.md)

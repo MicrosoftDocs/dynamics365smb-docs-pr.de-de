@@ -134,8 +134,6 @@ Wenn Sie diese Option aktivieren, verwendet das System die folgenden Regeln, jed
 | Nicht-EU-Land | EU-Land weicht vom Land in den **Unternehmensdaten** ab | Keine Intrastat-Positionen |
 | Nicht-EU-Land | Nicht-EU-Land | Keine Intrastat-Positionen |   
 
-## Siehe die entsprechende Schulung unter [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
-
 ## Siehe auch
 
 [Intrastat-Berichte einrichten](finance-how-setup-report-intrastat.md)  

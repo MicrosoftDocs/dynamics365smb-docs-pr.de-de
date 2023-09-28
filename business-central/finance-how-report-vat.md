@@ -148,8 +148,6 @@ Die folgende Tabelle beschreibt Codeunits, die Sie für den Bericht erstellen m�
 > [!Note]
 > Wenn Sie Codeunits für den Bericht erstellen, achten Sie auf den Wert im Feld **Version des MwSt.-Berichts**. Dieses Feld muss der Version des Berichts entsprechen, der von der Steuerbehörde verlangt wurde oder verlangt wird. Beispielsweise können Sie **2021** in dieses Feld eingeben, um anzugeben, dass der Bericht der Anforderungen entspricht, die im letzten Jahr verlangt wurden. Um die aktuellen Version zu finden, setzen Sie sich mit den Steuerbehörden in Verbindung.  
 
-## Siehe verwandte [Microsoft Schulungen](/training/paths/process-vat-dynamics-365-business-central/)
-
 ## Siehe auch
 
 [Berechnungen und Buchungsmethoden für die Mehrwertsteuer festlegen](finance-setup-vat.md)  

@@ -46,8 +46,6 @@ Nachdem Sie Genehmigungsbenutzer eingerichtet haben, können Sie über diese Kon
 
 Im nächsten Schritt legen Sie fest, wie [!INCLUDE [prod_short](includes/prod_short.md)] die Benutzer darüber benachrichtigen soll, dass eine Anforderung auf ihre Bearbeitung wartet. Weitere Informationen erhalten Sie unter [Einrichten von Workflowbenachrichtigungen](across-setting-up-workflow-notifications.md).
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/create-workflows/)
-
 ## Siehe auch
 
 [Workflowbenutzer einrichten](across-how-to-set-up-workflow-users.md)  

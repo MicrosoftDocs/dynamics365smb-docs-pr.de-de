@@ -436,8 +436,6 @@ Wenn der Auftrag später als vollständig fakturiert gebucht wird, werden der Ve
 
     Wenn der Geräte-Shop für den Erhalt der 18 PCs von CRONUS bezahlt, werden der Kundenauftrag und die damit verbundenen Montageaufträge entfernt.  
 
-## Siehe verwandte [Microsoft Schulungen](/training/paths/assemble-items-dynamics-365-business-central/)
-
 ## Siehe auch
 
  [Auftragsmontage und Lagermontage verstehen](assembly-assemble-to-order-or-assemble-to-stock.md)   

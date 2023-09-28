@@ -107,12 +107,10 @@ Wählen Sie den Link *Ändern, wann ich Benachrichtigungen erhalte*, um Benachri
 
 [!INCLUDE [ua-teachingtips](includes/ua-teachingtips.md)]
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/personalize-ui-dynamics-365-business-central/index)
-
 ## Siehe auch
 
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Ändern, welche Funktionen angezeigt werden](ui-experiences.md)  
+[Angezeigte Features ändern](ui-experiences.md)  
 [Neue Unternehmen anlegen](about-new-company.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

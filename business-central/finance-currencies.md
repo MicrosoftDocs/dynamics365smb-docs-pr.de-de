@@ -29,13 +29,11 @@ Sie geben die Währungscodes in der Liste **Währungen** an, darunter zusätzlic
 
 Die Wechselkurse sind das Werkzeug, um die Mandantenwährung (MW) jeder Währungstransaktion zu berechnen. Weitere Informationen finden Sie unter [Stapelverarbeitungsauftrag "Wechselkurse regulieren"](finance-how-update-currencies.md).  
 
-## Siehe verwandte [Microsoft Schulungen](/training/paths/use-multiple-currencies-dynamics-365-business-central/)
-
 ## Siehe auch
 
 [Einrichten von Währungen](finance-set-up-currencies.md)  
 [Währungswechselkurse aktualisieren](finance-how-update-currencies.md)  
-[Einrichten einer zusätzlichen Berichtswährung](finance-how-setup-additional-currencies.md)  
+[Berichtswährung einrichten](finance-how-setup-additional-currencies.md)  
 [Jahre und Perioden abschließen](year-close-years-periods.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

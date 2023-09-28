@@ -11,7 +11,7 @@ ms.search.form: '846, 847, 849, 851, 855, 862, 869, 1818'
 ms.date: 08/23/2022
 ms.author: bholtorf
 ---
-# <a name="setting-up-cash-flow-analysis"></a>Aufstellung Cashflow-Analyse
+# Aufstellung Cashflow-Analyse
 
 Wenn Sie etwas Unterstützung benötigen, was Sie mit Ihrem Barkonto zu tun sollen, schauen Sie sich das Diagramm im Buchhalter-Rollencenter an:
 
@@ -25,7 +25,7 @@ Dieser Artikel beschreibt, wo die Daten in den Diagrammen herkommen und was zu t
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4mJhc?rel=0]
 
-## <a name="the-cash-cycle-and-income--expense-charts"></a>Diagramme Geldumlauf und Einnahmen und Ausgaben
+## Diagramme Geldumlauf und Einnahmen und Ausgaben
 
 Die Diagramme **Bargeldumlauf** und **Einnahmen und Ausgaben** stehen für die Nutzung bereit, basierend auf dem Kontenplan und den Finanzberichten. Die Konten sind dort, wo die Daten herkommen und die Finanzberichte berechnen die Beziehung zwischen Verkauf und Debitoren. Einige Konten und Finanzberichte werden bereitgestellt. Sie können sie verwenden, um sie zu ändern und neue hinzufügen. Wenn Sie z. B. Sachkonten Ihrem Kontenplan hinzufügen indem Sie sie aus QuickBooks importieren, müssen Sie die Konten auf der Seite **Finanzberichte** folgenden Berichten zuweisen:
 
@@ -44,7 +44,7 @@ Geben Sie im Feld **Zusammenzählung** das Feld **Umsätze, gesamt**, **Forderun
 > [!TIP] 
 > Überprüfen Sie die Zuordnung, indem Sie die Aktion **Übersicht** auswählen.  
 
-## <a name="set-up-the-cash-flow-chart"></a>Richtet den Cashflow-Kontenplan ein.
+## Richtet den Cashflow-Kontenplan ein.
 
 Das Cashflow-Diagramm basiert auf Folgendem:  
 
@@ -55,7 +55,7 @@ Einige Konten und Cashfloweinrichtung sind bereits bereitgestellt. Sie können d
 
 Um die Konten einzurichten, suchen Sie nach **Cashflow-Kontenplan**, wählen Sie den Link aus, und füllen Sie die Felder aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Wiederholen Sie diese Schritte für **Cashfloweinrichtung**.
 
-## <a name="set-up-cash-flow-forecasts"></a>Richtet Cashflowplanungen ein
+## Richtet Cashflowplanungen ein
 
 Das Diagramm **Cashflowplanung** verwendet Cashflowkonten, Cashfloweinrichtung und Cashflowplanungen. Einige werden bereitgestellt, aber Sie können eigene einrichten, indem Sie die unterstützte Einrichtung verwenden. Die unterstützte Einrichtung definiert u.a., wie oft die Planung aktualisiert werden soll, die Konten, die darauf basieren sollen, Informationen darüber, wann Sie Steuern bezahlen und ob [Azure AI](https://azure.microsoft.com/overview/ai-platform/) verwendet werden soll.  
 
@@ -80,7 +80,7 @@ Um einen manuellen Vorgang zu verwenden:
 > [!TIP]  
 > Beachten Sie die Länge der Perioden, die der Service in den Berechnungen verwendet. Je mehr Daten Sie liefern, umso genauer wird die Vorhersage sein. Halten Sie auch nach umfangreichen Abweichungen in Perioden Ausschau. Sie werden ebenfalls Auswirkungen auf die Vorhersagen haben. Wenn Azure AI nicht genügend Daten findet oder die Daten stark abweichen, wird der Service keine Vorhersage machen.  
 
-## <a name="design-details"></a>Einzelheiten zum Entwurf
+## Einzelheiten zum Entwurf
 
 Abonnements für [!INCLUDE[prod_short](includes/prod_short.md)] beinhalten den Zugang zu mehreren prädiktiven Webdiensten in allen Regionen, in denen [!INCLUDE[prod_short](includes/prod_short.md)] verfügbar ist. Erfahren Sie mehr im Microsoft Dynamics 365 Business Central-Lizenzierungsleitfaden. Der Leitfaden steht auf der Website [Business Central](https://dynamics.microsoft.com/business-central/overview/) zum Herunterladen zur Verfügung.
 
@@ -90,11 +90,11 @@ Diese Webdienste sind zustandslos, d.h. sie verwenden Daten nur zur Berechnung v
 >
 > Sie können anstelle unseres eigenen Prognose-Webdienstes Ihren eigenen Prognose-Webdienst verwenden. Weitere Informationen finden Sie unter [Erstellen und verwenden von eigenen vorbestimmten Webdiensten für Cashflowplanungen](#AnchorText).
 
-### <a name="data-required-for-forecast"></a>Für die Prognose erforderliche Daten
+### Für die Prognose erforderliche Daten
 
 Um Vorhersagen über zukünftige Einnahmen und Ausgaben treffen zu können, benötigen Webdienste historische Daten über Forderungen, Verbindlichkeiten und Steuern.
 
-#### <a name="receivables"></a>Forderungen
+#### Forderungen
 
 **Fälligkeitsdatum**, **Betrag (MW)** Felder auf der Seite **Debitorenposten**, wobei:
 
@@ -103,7 +103,7 @@ Um Vorhersagen über zukünftige Einnahmen und Ausgaben treffen zu können, ben�
 
 Vor der Verwendung des Prognose-Webdienstes komprimiert [!INCLUDE[prod_short](includes/prod_short.md)] Transaktionen um **Fälligkeitsdatum** basierend auf dem Wert im Feld **Periodentyp** auf der Seite **Cash-Flow-Einrichtung**.
 
-#### <a name="payables"></a>Verbindlichkeiten
+#### Verbindlichkeiten
 
 **Fälligkeitsdatum**, **Betrag (MW)** Felder der Seite **Kreditorenbuchungen**, wobei:
 
@@ -112,7 +112,7 @@ Vor der Verwendung des Prognose-Webdienstes komprimiert [!INCLUDE[prod_short](in
 
 Vor der Verwendung des Prognose-Webdienstes komprimiert [!INCLUDE[prod_short](includes/prod_short.md)] Transaktionen um **Fälligkeitsdatum** basierend auf dem Wert im Feld **Periodentyp** auf der Seite **Cash-Flow-Einrichtung**.
 
-#### <a name="tax"></a>Steuer
+#### Steuer 
 
 **Dokumentdatum**, **Betrag** Felder auf der Seite **MwSt. (Steuer) Posten**, wobei:
 
@@ -121,7 +121,7 @@ Vor der Verwendung des Prognose-Webdienstes komprimiert [!INCLUDE[prod_short](in
 
 Vor der Verwendung des prädiktiven Webdienstes komprimiert [!INCLUDE[prod_short](includes/prod_short.md)] Transaktionen nach **Dokumentdatum** basierend auf dem Wert im Feld **Periodentyp** auf der Seite **Cash Flow Einrichtung**.
 
-## <a name="create-and-use-your-own-predictive-web-service-for-cash-flow-forecasts"></a><a name="AnchorText"></a>Erstellen und verwenden Sie Ihren eigenen vorhersagenden Webdienst für Cashflowplanungen.
+## <a name="AnchorText"></a> Erstellen und verwenden Sie Ihren eigenen vorhersagenden Webdienst für Cashflowplanungen.
 
 Sie können Ihren eigenen vorhersagenden Webdienst auf einem öffentliches Modell erzeugen, dem **Prognosemodell für Microsoft Business Central**. Dieses vorhersagende Modell ist online im Azure AI Katalog verfügbar. Um das Modell zu verwenden, gehen folgendermaßen vor:  
 
@@ -134,9 +134,7 @@ Sie können Ihren eigenen vorhersagenden Webdienst auf einem öffentliches Model
 7. Erweitern Sie das Inforegister **Azure AI**, und füllen Sie dann die Felder aus, einschließlich der API-URL und des API-Schlüssels, die von Azure Machine Learning Studio bereitgestellt werden. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 8. Im Buchhalterrollencenter unter **Cashflow-Planung** wählen Sie die Aktion **Planung neu berechnen** aus.
 
-## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/forecast-cash-flow-dynamics-365-business-central/index)
-
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Analysieren von Cashflow in Ihren Mandanten](finance-analyze-cash-flow.md)  
 [Finanzen einrichten](finance-setup-finance.md)  

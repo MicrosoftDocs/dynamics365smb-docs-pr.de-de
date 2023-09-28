@@ -62,8 +62,6 @@ Es gibt mehrere Dinge, die Sie durchführen sollten:
 * Wenn Sie MwSt verwenden, können Sie eine Geschäftsbuchungsgruppe und eine Produktbuchungsgruppe "Buchungsmatrix Einrichtung" hinzufügen, sodass Sie MwSt.-Beträge buchen können.
 * Prüfen Sie die Startkapitale für Konten in der Finanzbuchhaltung. QuickBooks Online speichert nicht den aktuellen Saldo für alle Konten, daher müssen Sie möglicherweise Startkapitale korrigieren.
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/migrate-data-dynamics-365-business-central/)
-
 ## Siehe auch
 
 [Importieren von Geschäftsdaten aus anderen Finance-Systemen](across-import-data-configuration-packages.md)  

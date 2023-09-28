@@ -49,12 +49,10 @@ In den folgenden Bereichen können Sie verschiedene Aspekte von Workflowbenachri
 
   Fügen Sie für Genehmigungsworkflows einen Workflow-Antwortschritt hinzu, um den Absender zu benachrichtigen, wenn die Anforderung genehmigt oder abgelehnt wurde. Erfahren Sie mehr ab Schritt 9 unter [ Workflows erstellen](across-how-to-create-workflows.md#to-create-a-workflow).   
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/create-workflows/)
-
 ## Siehe auch
 
-[Einrichten von Genehmigten Benutzern](across-how-to-set-up-approval-users.md)  
-[Einrichten von Workflowbenutzern](across-how-to-set-up-workflow-users.md)  
+[Genehmigungsbenutzer einrichten](across-how-to-set-up-approval-users.md)  
+[Workflowbenutzer einrichten](across-how-to-set-up-workflow-users.md)  
 [Angeben des Zeitpunkts und der Art des Empfangs von Benachrichtigungen](across-how-to-specify-when-and-how-to-receive-notifications.md)  
 [Genehmigungsworkflows erstellen](across-how-to-create-workflows.md)  
 [Erstellen und Ändern benutzerdefinierter Berichtslayouts](ui-how-create-custom-report-layout.md)  

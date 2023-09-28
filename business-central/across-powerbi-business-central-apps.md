@@ -10,7 +10,7 @@ ms.search.keywords: 'account schedule, analysis, reporting, financial report, bu
 ms.date: 04/01/2021
 ms.author: jswymer
 ---
-# <a name="use-the--apps-in-power-bi"></a>[!INCLUDE [prod_short](includes/prod_short.md)]-Apps in Power BI verwenden
+# [!INCLUDE [prod_short](includes/prod_short.md)]-Apps in Power BI verwenden
 
 > **GILT FÜR:** [!INCLUDE [prod_long](includes/prod_long.md)] online 
 
@@ -20,7 +20,7 @@ ms.author: jswymer
 - [!INCLUDE [prod_long](includes/prod_long.md)] – Finance  
 - [!INCLUDE [prod_long](includes/prod_long.md)] – Sales
 
-## <a name="overview"></a>Matrix
+## Matrix
 
 Jede App enthält mehrere Berichte, die Sie nach Daten durchsuchen können, einschließlich der folgenden Funktionen:
 
@@ -34,7 +34,7 @@ Die Apps sind so konzipiert, dass sie mit Daten aller Unternehmen in [!INCLUDE[p
 > [!NOTE]
 > Sie können auch Ihre eigenen Berichte und Dashboards in Power BI auf Grundlage Ihrer Daten in [!INCLUDE[prod_short](includes/prod_short.md)] erstellen. Weitere Informationen finden Sie unter [Verbindung Ihrer Geschäftsdaten mit Power BI](across-how-use-financials-data-source-powerbi.md). 
 
-## <a name="prerequisites"></a>Voraussetzungen
+## Voraussetzungen
 
 Power BI-Apps erfordern Berechtigungen für die Tabellen, aus denen Daten abgerufen werden, und für die Webdienste, die zum Abrufen von Daten verwendet werden. In der folgenden Tabelle sind die erforderlichen Webdienste für jede einzelne Power BI-App aufgeführt:
     
@@ -47,11 +47,11 @@ Power BI-Apps erfordern Berechtigungen für die Tabellen, aus denen Daten abgeru
 > [!TIP]
 > Eine einfache Methode, die Webdienste zu finden ist, in *Webdiensten* in [!INCLUDE[prod_short](includes/prod_short.md)] zu suchen. Auf der Seite **Webdienst** stellen Sie sicher, dass das Feld **Veröffentlichen** für die oben aufgeführten Webdienste ausgewählt ist. Weitere Informationen finden Sie unter [Webdienst veröffentlichen](across-how-publish-web-service.md).
 
-## <a name="get-ready"></a>Vorbereitung
+## Vorbereitung
 
 Registrieren Sie sich für den Power BI-Dienst. Wenn Sie sich noch nicht registriert haben, wechseln Sie zu [https://powerbi.microsoft.com](https://powerbi.microsoft.com). Verwenden Sie bei der Registrierung Ihre geschäftliche E-Mail-Adresse und Ihr Kennwort.
 
-## <a name="install-a--app-in-power-bi"></a>Eine [!INCLUDE[prod_short](includes/prod_short.md)]-App in Power BI installieren
+## Eine [!INCLUDE[prod_short](includes/prod_short.md)]-App in Power BI installieren
 
 1. Öffnen Sie Ihren Browser, navigieren Sie zu [https://powerbi.microsoft.com](https://powerbi.microsoft.com) und melden Sie sich bei Ihrem Konto an.
 2. Wählen Sie **Daten abrufen** am unteren Rand des linken Navigationsbereich aus.  
@@ -69,7 +69,7 @@ Registrieren Sie sich für den Power BI-Dienst. Wenn Sie sich noch nicht registr
 
     Anschließend ist die App unter **Apps** im Navigationsmenü von Power BI verfügbar.
 
-## <a name="connect-the--app-to-your-data"></a>[!INCLUDE[prod_short](includes/prod_short.md)]-App mit Ihren Daten verbinden
+## [!INCLUDE[prod_short](includes/prod_short.md)]-App mit Ihren Daten verbinden
 
 1. Wählen Sie unter **Apps** zuerst die Business Central-App und dann **Verbinden** aus.
 2. Wenn Sie dazu aufgefordert werden, geben Sie unter **Unternehmensname** und **Umgebung** Informationen zur [!INCLUDE[prod_short](includes/prod_short.md)]-Instanz ein, zu der Sie eine Verbindung herstellen möchten.
@@ -84,23 +84,23 @@ Registrieren Sie sich für den Power BI-Dienst. Wenn Sie sich noch nicht registr
 
     ![Wählen Sie Dynamics 365 Business Central und wählen Sie Jetzt abrufen.](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-workspace-dashboard-report-dataset.png)
 
-## <a name="fixing-problems"></a>Probleme beheben
+## Probleme beheben
 
 Das Power BI-Dashboard basiert auf den veröffentlichten Webdiensten, die oben aufgeführt sind. Es zeigt Daten des Demounternehmens oder Ihres eigenen Unternehmens an, wenn Sie Daten aus Ihrer aktuellen Finanzlösung importieren. Wenn etwas schief geht, stellt dieser Abschnitt eine Problemumgehung für die häufigsten Probleme bereit.  
 
-### <a name="you-dont-have-a-power-bi-account"></a>Kein Power BI-Konto vorhanden
+### Kein Power BI-Konto vorhanden
 
 Es wurde kein Power BI-Konto eingerichtet. Für ein gültiges Power BI-Konto benötigen Sie eine Lizenz. Außerdem müssen Sie sich zuvor bei Power BI angemeldet haben, um Ihren Power BI-Arbeitsbereich zu erstellen.  
 
-### <a name="message-there-are-no-enabled-reports-choose-select-report-to-see-a-list-of-reports-that-you-can-display"></a>Nachricht: Es sind keine Berichte aktiviert. Wählen Sie „Bericht auswählen“ aus, um eine Liste der anzeigbaren Berichte anzuzeigen.
+### Nachricht: Es sind keine Berichte aktiviert. Wählen Sie „Bericht auswählen“ aus, um eine Liste der anzeigbaren Berichte anzuzeigen.
 
 Diese Meldung wird angezeigt, wenn der Standardbericht nicht in Ihrem Power BI-Arbeitsbereich bereitgestellt werden konnte. Oder der Bericht wurde bereitgestellt, aber nicht erfolgreich aktualisiert. Bei diesem Problem navigieren Sie zum Bericht in Ihrem Power BI-Arbeitsbereich und wählen dort **Datensatz**, **Einstellungen** aus. Anschließend aktualisieren Sie die Anmeldedaten manuell. Wenn der Datensatz erfolgreich aktualisiert wurde, navigieren Sie zurück zu [!INCLUDE[prod_short](includes/prod_short.md)] und wählen Sie den Bericht auf der Seite **Berichte auswählen** manuell aus.
 
-### <a name="you-need-a-power-bi-pro-license-to-install-the--app-in-power-bi"></a>Sie brauchen eine Power BI Pro Lizenz zur Installation der [!INCLUDE[prod_short](includes/prod_short.md)] App in Power BI
+### Sie brauchen eine Power BI Pro Lizenz zur Installation der [!INCLUDE[prod_short](includes/prod_short.md)] App in Power BI
 
 Sie benötigen eine [Power BI Pro-Lizenz](/power-bi/service-features-license-type), um Ihre Inhalte teilen zu können. Selbiges gilt für die Personen, mit denen Sie Ihre Inhalte teilen möchten. Der Inhalt muss sich in einem Arbeitsbereich in einer [Premium-Kapazität](/power-bi/service-premium-what-is) befinden. Weitere Informationen finden Sie unter [Möglichkeiten zur gemeinsamen Nutzung Ihrer Arbeit in Power BI](/power-bi/service-how-to-collaborate-distribute-dashboards-reports).  
 
-### <a name="parameter-validation-failed-please-make-sure-all-parameters-are-valid"></a>Parameterprüfung fehlgeschlagen. Prüfen Sie, ob alle Parameter gültig sind.
+### Parameterprüfung fehlgeschlagen. Prüfen Sie, ob alle Parameter gültig sind.
 
 Dieser Fehler zeigt an, dass einer oder mehrere der Parameter ungültig sind.
 
@@ -109,7 +109,7 @@ Dieser Fehler zeigt an, dass einer oder mehrere der Parameter ungültig sind.
 - Falls eine Verbindung mit [!INCLUDE[prod_short](includes/prod_short.md)] on-premises hergestellt wurde, haben Sie eine ungültige URL eingegeben. Sie können die URL auf er Seite **Webdienst** in [!INCLUDE[prod_short](includes/prod_short.md)] überprüfen  
 - Es ist kein Port geöffnet, über den die Anforderung Ihre Firewall passieren kann.
 
-### <a name="cant-sign-in"></a>Anmeldung nicht möglich
+### Anmeldung nicht möglich
 
 Wenn angezeigt wird, dass die Anmeldung fehlgeschlagen ist, nachdem Sie sich mit Ihren [!INCLUDE[prod_short](includes/prod_short.md)]-Benutzeranmeldeinformationen angemeldet haben, dann liegt wahrscheinlich eines der folgenden Probleme vor:
 
@@ -117,36 +117,34 @@ Wenn angezeigt wird, dass die Anmeldung fehlgeschlagen ist, nachdem Sie sich mit
 - Sie haben einen anderen Authentifizierungstyp als „Standard“ ausgewählt, falls Sie eine Verbindung mit [!INCLUDE[prod_short](includes/prod_short.md)] on-premises hergestellt haben.
 - Der eingegebene Benutzername oder das Kennwort ist falsch.
 
-### <a name="message-your-data-source-cant-be-refreshed-because-the-credentials-are-invalid-please-update-your-credentials-and-try-again"></a>Nachricht: Ihre Datenquelle kann nicht aktualisiert werden, da die Anmeldeinformationen ungültig sind. Bitte aktualisieren Sie Ihre Anmeldeinformationen und versuchen Sie es erneut.
+### Nachricht: Ihre Datenquelle kann nicht aktualisiert werden, da die Anmeldeinformationen ungültig sind. Bitte aktualisieren Sie Ihre Anmeldeinformationen und versuchen Sie es erneut.
 
 Für [!INCLUDE[prod_short](includes/prod_short.md)] on-premises kann das Problem darauf zurückzuführen sein, dass die OData-URL nur für das lokale Netzwerk zugänglich ist.
 
-### <a name="incorrect-company-name"></a>Ungültiger Unternehmensname
+### Ungültiger Unternehmensname
 
 Ein häufiger Fehler ist, den Unternehmensanzeigenamen anstelle des Unternehmensnamens einzugeben. Unternehmensnamensuche für **Unternehmen** zu suchen. Verwenden Sie das Feld **Name**, wenn Sie den Unternehmensnamen eingeben.
 
-### <a name="the-key-didnt-match-any-rows-in-the-table"></a>Der Schlüssel glich keinen Zeilen in der Tabelle
+### Der Schlüssel glich keinen Zeilen in der Tabelle
 
 Wenn Sie einen nicht gültigen Unternehmensnamen während des Verbindungsvorgangs eingeben, erhalten Sie möglicherweise die Fehlermeldung, "der Schlüssel entsprach keinen Zeilen in der Tabelle". Geben Sie den korrekten Unternehmensnamen an und versuchen Sie die Verbindung erneut.
 
-### <a name="historical-data-appears-to-be-missing"></a>Historische Daten scheinen zu fehlen
+### Historische Daten scheinen zu fehlen
 
 Sobald die Power BI-App installiert ist und Ihre Daten in Power BI angezeigt werden, stellen Sie möglicherweise fest, dass nicht alle Ihre Daten angezeigt werden. Die Datensätze werden so gefiltert, dass nur die Daten der letzten 365 Tage zurückgegeben werden. Diese Standardeinstellung dient dazu, die Berichte zu beschleunigen.  
 
-### <a name="i-only-see-data-for-a-single-company"></a>Ich sehe nur Daten für ein einzelnes Unternehmen
+### Ich sehe nur Daten für ein einzelnes Unternehmen
 
 Die Power BI App zeigt nur Daten vom [!INCLUDE[prod_short](includes/prod_short.md)] Unternehmen an, das definiert wurde, als die Power BI App installiert wurde. Daten von zusätzlichen Unternehmen können zu den Berichten hinzugefügt werden, indem neue Abfragen hinzugefügt werden, die andere Unternehmen als Datenquelle verwenden.  
 
-### <a name="what-now"></a>Was jetzt?
+### Was jetzt?
 
 - Versuchen Sie im [Erstellen eine Frage im Q&A-Feld](/power-bi/service-q-and-a-tips) im oberen Bereich des Dashboards.
 - [Ändern Sie die Kacheln](/power-bi/service-dashboard-edit-tile) im Dashboard.  
 - [Wählen Sie eine Kachel aus](/power-bi/service-dashboard-tiles), um den zu Grunde liegenden Bericht zu öffnen.  
 - Standardmäßig ist für Ihren Datenbestand keine Aktualisierung geplant. Sie können den Aktualisierungszeitplan ändern oder versuchen, ihn bei Bedarf mithilfe von **Jetzt aktualisieren** zu aktualisieren. Weitere Informationen finden Sie unter [Konfigurieren der geplanten Aktualisierung](/power-bi/refresh-scheduled-refresh).
 
-## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
-
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Business Central und Power BI](admin-powerbi.md)  
 [Übersicht über die Power BI-Integrationskomponente und -Architektur für [!INCLUDE[prod_short](includes/prod_short.md)]](admin-powerbi-overview.md)  

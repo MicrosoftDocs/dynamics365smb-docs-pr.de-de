@@ -111,8 +111,6 @@ Sie können einen Währungscode in eine Fibu Buch.-Blattzeile eingeben und die Z
 
 [!INCLUDE [finance-currencies-example](includes/finance-currencies-example.md)]
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/currencies-exchange-rates-dynamics-365-business-central/)
-
 ## Siehe auch
 
 [Währungswechselkurse aktualisieren](finance-how-update-currencies.md)  

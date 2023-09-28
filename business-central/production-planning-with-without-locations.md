@@ -139,13 +139,11 @@ Wie aus dem letzten Szenario ersehen werden kann, besteht die einzige Möglichke
 
 Wenn Sie oft den Bedarf an Lagerorten planen, wird daher empfohlen, dass Sie die Funktion „Lagerhaltungsdaten“ verwenden.
 
-## Siehe verwandte Schulungen unter [Microsoft Learn](/training/paths/trade-get-started-dynamics-365-business-central/).
-
 ## Siehe auch
 
 [Planung](production-planning.md)  
-[Produktion einrichten](production-configure-production-processes.md)  
-[Produktion](production-manage-manufacturing.md)  
+[Fertigung einrichten](production-configure-production-processes.md)  
+[Fertigung](production-manage-manufacturing.md)  
 [Bestand](inventory-manage-inventory.md)  
 [Lagerhaltungsdaten einrichten](inventory-how-to-set-up-stockkeeping-units.md)  
 [Einkauf](purchasing-manage-purchasing.md)  

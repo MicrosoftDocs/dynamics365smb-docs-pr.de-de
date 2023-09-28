@@ -62,9 +62,7 @@ Bevor Sie beginnen können, Workflows zu verwenden, müssen Sie Workflowbenutzer
 | Anforderung der Genehmigung einer Aufgabe: Akzeptieren oder Delegieren von Genehmigungen oder Ablehnen von Genehmigungen; Senden oder Anzeigen von Genehmigungsbenachrichtigungen. | [So verwenden Sie Genehmigungsworkflows](across-how-use-approval-workflows.md) |
 | Erstellen Sie Workflowschritte, die einen bestimmten Datensatztyp für die Verwendung vor einem bestimmten Ereignis einschränken (beispielsweise, Genehmigung eines Datensatzes). | [Zulassen und Einschränken des Verbrauchs eines Datensatzes](across-how-to-restrict-and-allow-usage-of-a-record.md) |
 | Zeigen Sie Workflowschrittinstanzen mit dem Status **Abgeschlossen** an. | [Archivierte Workflowschritt-Instanzen anzeigen](across-how-to-view-archived-workflow-step-instances.md) |
-| Löschen Sie einen Genehmigungsworkflow, den Sie mit Gewissheit nicht mehr verwenden werden. | [Artikelgenehmigungsworkflow löschen](across-how-to-delete-workflows.md) |
-
-## Siehe verwandte [Microsoft Schulungen](/training/modules/create-workflows/)
+| Löschen Sie einen Genehmigungsworkflow, den Sie mit Gewissheit nicht mehr verwenden werden. | [Genehmigungsworkflows löschen](across-how-to-delete-workflows.md) |
 
 ## Siehe auch
 

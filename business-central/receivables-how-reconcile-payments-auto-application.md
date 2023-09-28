@@ -88,8 +88,6 @@ Sie können den Wert im Feld **Saldo auf Bankkonto nach dem Buchen** zusammen mi
 > [!NOTE]  
 >   Wenn Sie nicht das Bankkonto aus der Seite **Zahlungs-Abstimmungs-Buch.Blatt** abstimmen, müssen Sie das Fenster **Bankkonto-Abstimmung** verwenden. Weitere Informationen finden Sie unter [Abstimmen von Bankkonten](bank-how-reconcile-bank-accounts-separately.md).
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/use-journals-dynamics-365-business-central/)
-
 ## Siehe auch
 
 [Verwalten von Forderungen](receivables-manage-receivables.md)  

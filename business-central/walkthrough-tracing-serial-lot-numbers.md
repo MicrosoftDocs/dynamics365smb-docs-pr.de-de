@@ -297,12 +297,10 @@ Anschließend müssen Sie erstellen mit den beiden Artikeln verschiedene Einkauf
 
  Damit ist die exemplarische Vorgehensweise zur Verwendung der Seite **Posten suchen** zur Defektverwaltung in Integration mit der Seite **Artikelablaufverfolgung** abgeschlossen.  
 
-## Siehe verwandte [Microsoft Schulungen](/training/paths/use-serial-lot-numbers/)
-
 ## Siehe auch
 
 [Arbeiten mit Seriennummern und Chargennummern](inventory-how-work-item-tracking.md)  
-[Verfolgen von Artikeln mit Artikelverfolgung](inventory-how-to-trace-item-tracked-items.md)  
+[Ablaufverfolgung der Artikel mit Artikelverfolgung](inventory-how-to-trace-item-tracked-items.md)  
 [Posten finden](ui-find-entries.md)  
 [Exemplarische Vorgehensweisen für Geschäftsprozesse](walkthrough-business-process-walkthroughs.md)  
 

@@ -2,14 +2,12 @@
 title: E-Mail in Business Central festlegen (enthält ein Video)
 description: 'Beschreibt, wie E-Mail-Konten mit Business Central verbunden werden, damit Sie ausgehende Nachrichten senden können, ohne eine andere App öffnen zu müssen.'
 author: brentholtorf
+ms.author: bholtorf
 ms.topic: get-started-article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: 'SMTP, email, Office 365, connector'
 ms.search.form: '1805, 9813, 9814, 1262, 1263'
-ms.date: 07/17/2023
-ms.author: bholtorf
+ms.date: 09/13/2023
+ms.custom: bap-template
 ---
 
 # E-Mail einrichten
@@ -56,7 +54,9 @@ In der folgenden Tabelle werden die standardmäßig verfügbaren E-Mail-Erweiter
 Wenn Sie das SMTP-Protokoll zum Senden von E-Mails über [!INCLUDE[prod_short](includes/prod_short.md)] verwenden möchten, können Sie die SMTP Connector-Erweiterung verwenden. Wenn Sie ein Konto einrichten, das SMTP verwendet, ist das Feld **Absendertyp** wichtig. Wenn Sie **Bestimmter Benutzer** auswählen, werden E-Mails mit dem Namen und anderen Informationen des Kontos gesendet, das Sie einrichten. Wenn Sie jedoch **Aktueller Benutzer** auswählen, werden E-Mails von dem E-Mail-Konto gesendet, das für das Konto jedes Benutzers angegeben ist. „Aktueller Benutzer“ ähnelt der Funktion „Senden als“. Weitere Informationen finden Sie unter [Eine Ersatz-Absenderadresse für ausgehende E-Mail-Nachrichten verwenden](admin-how-setup-email.md#use-a-substitute-sender-address-on-outbound-email-messages). 
 
 > [!IMPORTANT]
-> Wenn Sie [!INCLUDE[prod_short](includes/prod_short.md)] lokal verwenden, können Sie das OAuth-2.0-Protokoll für die Authentifizierung nicht verwenden. Sie müssen eine Anwendungsregistrierung im Azure-Portal erstellen und dann die Anleitung **Azure Active Directory einrichten** zur unterstützten Einrichtung in [!INCLUDE[prod_short](includes/prod_short.md)] ausführen, um eine Verbindung mit Azure AD herzustellen. Weitere Informationen finden Sie unter [Eine App-Registrierung für Business Central im Azure-Portal erstellen](admin-how-setup-email.md#create-an-app-registration-for-business-central-in-azure-portal).
+> Wenn Sie [!INCLUDE[prod_short](includes/prod_short.md)] lokal verwenden, können Sie das OAuth-2.0-Protokoll für die Authentifizierung nicht verwenden. Um OAuth für SMTP verwenden zu können, müssen sich alle Benutzer im selben Microsoft Entra-Mandanten befinden. 
+> 
+> Sie müssen eine Anwendungsregistrierung im Azure-Portal erstellen und dann die Anleitung **Azure Active Directory einrichten** zur unterstützten Einrichtung in [!INCLUDE[prod_short](includes/prod_short.md)] ausführen, um eine Verbindung mit Azure AD herzustellen. Weitere Informationen finden Sie unter [Eine App-Registrierung für Business Central im Azure-Portal erstellen](admin-how-setup-email.md#create-an-app-registration-for-business-central-in-azure-portal).
 >
 > Exchange Online unterstützt nicht länger die Verwendung der Standardauthentifizierung für SMTP. Mandanten, die derzeit SMTP AUTH verwenden, sind von dieser Änderung nicht betroffen. Wir empfehlen jedoch dringend, die neueste Version von [!INCLUDE [prod_short](includes/prod_short.md)] zu verwenden und die OAuth 2.0-Authentifizierung für SMTP einzurichten. Wir werden keine zertifikatbasierte Authentifizierung für frühere Versionen von [!INCLUDE [prod_short](includes/prod_short.md)]wie z. B. Version 14, hinzufügen. Wenn Sie die OAuth 2.0-Authentifizierung nicht einrichten können, empfehlen wir Ihnen, Alternativen von Drittanbietern zu prüfen, wenn Sie SMTP-E-Mail in früheren Versionen verwenden möchten.
 
@@ -274,14 +274,12 @@ Nachdem Sie Ihre Anwendung im Azure-Portal registriert haben, verwenden Sie in [
 
 -->
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/set-up-email/)
-
 ## Siehe auch
 
 [Freigegebene Postfächer in Exchange Online](/exchange/collaboration-exo/shared-mailboxes)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Einrichten [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
-[Dokumente per E-Mail versenden](ui-how-send-documents-email.md)  
+[Belege per E-Mail senden](ui-how-send-documents-email.md)  
 [Anpassen von [!INCLUDE[prod_short](includes/prod_short.md)] über Erweiterungen](ui-extensions.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] als Ihr Unternehmenspostfach in Outlook verwenden](admin-outlook.md)  
 [Abrufen von [!INCLUDE[prod_short](includes/prod_short.md)] auf meinem mobilen Gerät](install-mobile-app.md)   
