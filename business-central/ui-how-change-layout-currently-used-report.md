@@ -11,7 +11,7 @@ ms.search.form: '9652, 9650'
 ms.date: 03/07/2022
 ms.author: jswymer
 ---
-# (Legacy) Die von einem Bericht verwendeten Layouts festlegen
+# <a name="legacy-set-the-layout-used-by-a-report"></a>(Legacy) Die von einem Bericht verwendeten Layouts festlegen
 
 [!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
@@ -24,7 +24,7 @@ Wenn benutzerdefinierte Berichtslayouts definiert sind, können Sie diese aus De
 > [!TIP]  
 > Belegberichte (keine Listen), die ein Word-Berichtslayout verwenden, sind normalerweise schneller als diejenigen, die ein RDLC-Berichtslayout verwenden. Wenn Sie also die Möglichkeit haben, zwischen einem Word- oder einem RDLC-Berichtslayout für einen Belegbericht zu wählen, verwenden Sie das Word-Berichtslayout für optimale Leistung.
 
-## So ändern Sie das für einen Bericht oder einen Beleg zu verwendende Berichtslayout
+## <a name="to-change-which-report-layout-to-use-for-a-report-or-document"></a>So ändern Sie das für einen Bericht oder einen Beleg zu verwendende Berichtslayout
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Auswahl des Berichtslayouts** ein und wählen Sie dann den entsprechenden Link.
   
@@ -43,7 +43,7 @@ Wenn benutzerdefinierte Berichtslayouts definiert sind, können Sie diese aus De
 
 Wenn Sie ein integriertes RDLC- oder Word-Berichtslayout ausgewählt haben, ist keine weitere Aktionen erforderlich, und das Layout wird verwendet, wenn der Bericht zum nächsten Mal ausgeführt wird.
 
-## So ändern Sie das benutzerdefinierte Layout, das für ein Berichtslayout verwendet werden soll
+## <a name="to-change-the-custom-layout-to-use-for-a-report-layout"></a>So ändern Sie das benutzerdefinierte Layout, das für ein Berichtslayout verwendet werden soll
 
 Möglicherweise möchten Sie auch das aktuell verwendete benutzerdefinierte Layout ändern. Weitere Informationen finden Sie unter [Erstellen und Ändern benutzerdefinierter Berichtslayouts](ui-how-create-custom-report-layout.md).
 
@@ -56,7 +56,7 @@ Der Name des ausgewählten benutzerdefinierten Layouts wird jetzt im Feld **Benu
 
 Sie können jetzt zu Ihren Debitoren- und Kreditorenkarten wechseln, um anzugeben, welche der Layouts für verschiedene Belege verwendet werden sollen, die Sie für den betreffenden Debitor oder Kreditor erstellen, wie z. B. Auftragsbestätigungen oder Zahlungserinnerungen. Weitere Informationen finden Sie unter [Beleglayouts für Debitoren und Kreditoren definieren](ui-define-customer-vendor-document-layouts.md).
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 [Verwalten von Berichtslayouts](ui-manage-report-layouts.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

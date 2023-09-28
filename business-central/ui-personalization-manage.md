@@ -8,7 +8,7 @@ ms.search.form: 9171
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# Seiten für Profile anpassen
+# <a name="customize-pages-for-profiles"></a>Seiten für Profile anpassen
 
 Benutzer können Seiten für ihren Arbeitsbereich personalisieren, um ihren Bedürfnissen zu entsprechen. Weitere Informationen finden Sie unter [Personalisieren Sie Ihren Arbeitsbereich](ui-personalization-user.md).
 
@@ -19,7 +19,7 @@ Administratoren können Seiten für ein Profil anpassen, z. B. entsprechend der 
 
 Die Seitenanpassung beginnt mit **Profile (Rollen)** Seite, Ausgangspunkt des Administrators für die Verwaltung der Benutzerprofile auf einzelnen Profilkarten. Zusätzlich zum Anpassen des Seitenlayouts steuern Sie verschiedene andere Einstellungen für Profile in der **Profil (Rolle)** Seite für jedes Profil. Weitere Informationen finden Sie unter [Profile verwalten](admin-users-profiles-roles.md).
 
-## Um Seiten für ein Profil anzupassen
+## <a name="to-customize-pages-for-a-profile"></a>Um Seiten für ein Profil anzupassen
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Profile (Rollen)** ein und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie dir Zeile für die Personalisierungsseite, die Sie löschen möchten, und wählen die Aktion **Bearbeiten** aus.
@@ -37,7 +37,7 @@ Die Seitenanpassung beginnt mit **Profile (Rollen)** Seite, Ausgangspunkt des Ad
 
 Die Anpassung von Seiten wird jetzt für das Profil aufgezeichnet.
 
-## Um angepasste Seiten für ein Profil anzuzeigen
+## <a name="to-view-all-customized-pages-for-a-profile"></a>Um angepasste Seiten für ein Profil anzuzeigen
 
 Sie können sich einen Überblick darüber verschaffen, welche Seiten für ein Profil angepasst wurden, um beispielsweise zu planen, welche Seiten weiter angepasst oder gelöscht werden sollen.
 
@@ -45,7 +45,7 @@ Sie können sich einen Überblick darüber verschaffen, welche Seiten für ein P
 
 Auf der Seite **Benutzerdefinierte Seiten** können Sie Anpassungen löschen und Fehler beheben, indem Sie nach potenziellen Problemen suchen.  
 
-## Löschen aller Anpassungen für ein Profil
+## <a name="to-delete-all-customizations-for-a-profile"></a>Löschen aller Anpassungen für ein Profil
 
 Sie können alle Anpassunge, die Sie für ein Profil vorgenommen haben, stornieren. Mit einer Erweiterung eingeführte Anpassungen und von einem Benutzer vorgenommene Personalisierungen werden nicht gelöscht. Sie können alle Personalisierungen mit einer anderen Aktion löschen. Weitere Informationen finden Sie unter [Löscht alle von einem Benutzer vorgenommenen Personalisierungen](admin-users-profiles-roles.md#to-delete-all-personalizations-made-by-a-user).
 
@@ -53,7 +53,7 @@ Sie können alle Anpassunge, die Sie für ein Profil vorgenommen haben, stornier
 
 Das Seitenlayout für das Profil wird auf das Standardlayout zurückgesetzt.  
 
-## So löschen Sie die Anpassung für bestimmte Seiten eines Profils
+## <a name="to-delete-customization-for-specific-pages-for-a-profile"></a>So löschen Sie die Anpassung für bestimmte Seiten eines Profils
 
 Sie können auch alle individuellen Seitenanpassungen löschen, die Sie für ein gemacht haben. Mit einer Erweiterung eingeführte Anpassungen und von einem Benutzer vorgenommene Personalisierungen werden nicht gelöscht. Sie können eine bestimmte Seitenpersonalisierung mit einer anderen Aktion löschen. Weitere Informationen finden Sie unter [So löschen Sie alle Personalisierungen für bestimmte Seiten](admin-users-profiles-roles.md#to-delete-personalizations-for-specific-pages).
 
@@ -62,7 +62,7 @@ Sie können auch alle individuellen Seitenanpassungen löschen, die Sie für ein
 
 Das Layout der ausgewählten Seiten wird an die von Ihnen vorgenommenen Änderungen angepasst.
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Ihren Arbeitsbereich personalisieren](ui-personalization-user.md)  
 [Profile verwalten](admin-users-profiles-roles.md)  
