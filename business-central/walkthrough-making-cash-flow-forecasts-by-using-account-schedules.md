@@ -133,8 +133,6 @@ Ken kann die Spaltendefinition jetzt dem Finanzberichtsnamen zuweisen.
 2. Auf der Seite **Finanzbericht** können Sie einen Betrag auswählen und die Cashflowplanungs Posten dann anzeigen, aus denen sich der Betrag zusammensetzt. Darüber hinaus können Sie die Formel anzeigen, die verwendet wird, um den Betrag zu berechnen. Sie können die Beträge auch nach Datum und Dimension filtern.  
 3. Wählen Sie die Aktion **Drucken** aus, um die Cashflowplanung zu drucken.  
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/forecast-cash-flow-dynamics-365-business-central/)
-
 ## Siehe auch
 
 [Mit Finanzberichten arbeiten](bi-how-work-account-schedule.md)  

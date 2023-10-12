@@ -1,66 +1,48 @@
 ---
 title: Einführung in die Demodaten für Contoso Coffee
 description: 'Übersicht über Szenarien dazu, wie Sie mithilfe von Contoso Coffee-Demodaten die Verwendung von Produktionsfunktionen in Business Central erlernen können.'
-ms.date: 04/01/2022
-ms.topic: article
-ms.service: dynamics365-business-central
-ms.search.form: 4760
 author: brentholtorf
 ms.author: bholtorf
+ms.reviewer: andreipa
+ms.date: 09/20/2023
+ms.topic: article
+ms.service: dynamics365-business-central
+ms.search.form: '5194,'
+ms.custom: bap-template
 ---
 
-# <a name="introduction-to-contoso-coffee-demo-data"></a>Einführung in die Demodaten für Contoso Coffee
+# Einführung in die Demodaten für Contoso Coffee
 
-Contoso Coffee ist ein fiktives Unternehmen, das Kaffeemaschinen für Verbraucher und gewerbliche Kunden herstellt. Die **Contoso Coffee**-Apps für Business Central fügen Demodaten hinzu, mit deren Hilfe Sie die Verwendung der Produktionsfunktionen in Business Central erlernen können.  
+Contoso Coffee ist ein fiktives Unternehmen, das Kaffeemaschinen für Verbraucher und gewerbliche Kunden herstellt. Die **Contoso Coffee**-Apps für [!INCLUDE [prod_short](../includes/prod_short.md)] fügen Demodaten hinzu, mit deren Hilfe Sie die Verwendung der Produktionsfunktionen in [!INCLUDE [prod_short](../includes/prod_short.md)] erlernen können.  
 
+## Demodaten für Contoso Coffee einrichten
 
-## <a name="set-up-contoso-coffee-data"></a>Demodaten für Contoso Coffee einrichten
+[!INCLUDE [contoso-coffee-app-install](contoso-coffee-app-install.md)].
 
-Um die Demodaten von Contoso Coffee nutzen zu können, müssen Sie zwei Apps im jeweiligen Unternehmen in [!INCLUDE [prod_short](../includes/prod_short.md)] installieren:  
+Wenn die Apps installiert sind, verwenden Sie auf der Seite **Demo-Tool für Contoso** die Aktion **Konfigurieren**, um die folgenden Module vorzubereiten. Sie können wählen, ob alle verfügbaren Daten, einschließlich Einrichtungs- und Produktionsdaten, oder nur Einrichtungsdaten installiert werden sollen.
 
-- **Demo-Dataset für Contoso Coffee**  
+ - Das **Allgemeine Modul** zur Vorbereitung allgemeiner Einstellungen, die für [!INCLUDE [prod_short](../includes/prod_short.md)] erforderlich sind. Zum Beispiel Dinge wie Zahlenreihen. 
 
-    Diese App stellt Demodaten für die Basisanwendung bereit.  
-- **Demo-Dataset für Contoso Coffee (Länderkennung)**  
+Die Einstellungen werden in den folgenden Tabellen beschrieben:  
 
-    Diese App fügt länderspezifische Inhalte zusätzlich zur Basisanwendung hinzu.
+|Feld  |Description  |
+|---------|---------|
+|**Anfangsjahr** |Gibt das erste Jahr an, das Sie für die Contoso Coffee-Demonstrationsdaten verwenden möchten. Je nach Unternehmenseinrichtung ist das Jahr entweder ein Kalenderjahr oder ein Geschäftsjahr.|
+|**Länder-/Regionscode**|Gibt einen Land/Regionscode für inländische Debitoren und Kreditoren an.|
+|**Unternehmenstyp**    |Gibt an, ob das aktuelle Unternehmen Mehrwertsteuer oder Verkaufssteuer melden muss. |
+|**Preisfaktor**     |Gibt einen Faktor an, um einen Preis von USD/EUR in die lokale Währung umzurechnen. *1* bedeutet, dass der Preis in jeder Währung gleich ist. Eine höhere Zahl wird verwendet, um den Preis in der Landeswährung zu erhalten. |
+|**Rundungsgenauigkeit**  |Gibt die Rundungsgenauigkeit an, mit der Sie die Demodaten erstellen möchten.|
 
-Fügen Sie die Apps einem leeren Unternehmen in einem kostenpflichtigen Abonnement oder als Teil einer Testversion hinzu. Erstellen Sie beispielsweise ein neues Unternehmen ohne Beispieldaten über das unterstützte Setup **Neues Unternehmen erstellen**, das Sie über die Liste **Unternehmen** öffnen können. Fügen Sie dann die Apps über den [Marktplatz](../ui-extensions-install-uninstall.md#install) hinzu, wenn sie nicht bereits auf der Seite **Erweiterungsverwaltung** aufgelistet sind.  
+ - Das [Fertigungsmodul](manufacturing/contoso-coffee-manufacturing-intro.md) zur Vorbereitung auf die Verwendung der [Produktionsszenarien](manufacturing/contoso-coffee-manufacturing-intro.md#scenarios).
+ - Das [Lagerortmodul](warehousing/contoso-coffee-warehousing-intro.md) zur Vorbereitung auf die Verwendung der [Lagerortszenarien](warehousing/contoso-coffee-warehousing-intro.md#scenarios).
+ - Das [Servicemodul](service/contoso-coffee-service-intro.md) zur Vorbereitung auf die Verwendung der [Serviceszenarien](service/contoso-coffee-service-intro.md#scenarios).
 
-Sie sollten dann Folgendes vervollständigen:
- - Die [Fertigungseinrichtung](manufacturing/contoso-coffee-manufacturing-intro.md) zur Vorbereitung auf die Verwendung der [Fertigungsszenarien](#manufacturing-scenarios)
- - Die [Lagerorteinrichtung](warehousing/contoso-coffee-warehousing-intro.md) zur Vorbereitung auf die Verwendung der [Lagerortszenarien](#warehousing-scenarios)
+Nachdem Sie die Module konfiguriert haben, die Sie ausprobieren möchten, wählen Sie die Aktion **Generieren**, um Demonstrationsdaten für sie zu erstellen.
 
-## <a name="manufacturing-scenarios"></a>Produktionsszenarien
+## Siehe auch
 
-Die Produktions-Demodaten von Contoso Coffee unterstützen derzeit die folgenden Produktionsszenarien für Tests und Schulungen:
-
-1. [Eine neue Produktionsstücklisten- und Stücklistenversion erstellen](manufacturing/create-new-production-bom-version.md)  
-2. [Neuen Arbeitsplan erstellen](manufacturing/create-new-routing.md)  
-3. [Neuen fest geplanten Produktionsauftrag erstellen und ändern](manufacturing/create-firm-planned-production-order-change.md)  
-4. [Automatisches und manuelles Buchen kombinieren](manufacturing/combine-automatic-manual-flushing.md)  
-5. [Auftragsplanung zum Erstellen und Reservieren von Lieferungen verwenden](manufacturing/order-planning-create-reserve-supply.md)  
-6. [Fremdarbeitsvorgang einrichten und verarbeiten](manufacturing/set-up-process-subcontracting-operation.md)  
-7. [Neue Kapazität einrichten](manufacturing/set-up-new-capacity.md)  
-8. [Bedarf für Artikelvarianten mit verschiedenen zugewiesenen Stücklisten prognostizieren](manufacturing/variants.md)  
-
-Lesen Sie die Schritte für jedes Szenario im entsprechenden Artikel.  
-
-> [!IMPORTANT]
-> Diese exemplarischen Vorgehensweisen für die Produktion erfordert, dass die Benutzererfahrung auf der Seite **Unternehmensdaten** auf *Premium* festgelegt ist.
-
-## <a name="warehousing-scenarios"></a>Lagerszenarien
-
-Die Demodaten von Contoso Coffee unterstützen derzeit die folgenden Lagerort-Szenarien für Tests und Schulungen:
-
-1.  Konfigurieren Sie Standardlagerplätze, Empfangen und Einlagern mit Bestandseinlagerung, Kommissionieren und Versenden mit Bestandskommissionierung in auftragsweiser Weise mit [Exemplarische Vorgehensweise des eingehenden und ausgehenden Flows in grundlegenden Lagerortkonfigurationen.](warehousing/warehouse-basic-flow-putaway-pick.md)
-2.  Empfangen und lagern Sie mehrere eingehende Bestellungen gleichzeitig mit Lagereingang, versenden Sie mehrere Bestellungen gleichzeitig mit Lagerversand, kommissionieren Sie mit Lagerentnahmen mit [Durchführung des ein- und ausgehenden Flows in gemischten Lagerkonfigurationen](warehousing/warehouse-mixed-flow-receive-pick-ship.md)
-3.  Konfigurieren Sie feste Lagerplätze für Artikelmengeneinheiten, Benutzer-Cross-Docking, um physische Warenbewegungen zu reduzieren, optimieren Sie die Warenplatzierung mit Behälterauffüllung, teilen Sie große Mengeneinheiten in kleinere auf, verteilen Sie die Kommissionierung auf Lagermitarbeiter mit Kommissionierarbeitsblatt mit [Durchführung des ein- und ausgehenden Flusses in der erweiterten Lagerkonfiguration mit gesteuerter Einlagerung und Kommissionierung](warehousing/warehouse-directed-flow.md)
-
-Lesen Sie die Schritte für jedes Szenario im entsprechenden Artikel.
-   
-## <a name="see-also"></a>Siehe auch
-
-[Produktion](../production-manage-manufacturing.md)  
-[Lagerhaus](../warehouse-manage-warehouse.md)  
+[Fertigung](../production-manage-manufacturing.md)  
+[Lagerfunktionen](../warehouse-manage-warehouse.md)  
+[Dienst](../service-service.md)
+<!-- [Projects and Jobs](../projects-manage-projects.md) -->
 

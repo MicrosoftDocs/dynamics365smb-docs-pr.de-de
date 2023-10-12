@@ -238,13 +238,11 @@ Auf einer Postenseite können Sie sehen, ob für Posten globale Dimensionen vorh
 > [!NOTE]  
 > Auf der Seite **Sachkonto Dimensionen** werden die Dimensionen für jeweils einen Sachkontoeintrag angezeigt. Sie werden sehen, dass sich der Inhalt der Seite **Sachkonto Dimensionen** entsprechend ändert, wenn Sie durch die Ledgereinträge blättern.
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/dimensions-dynamics-365-business-central/index)
-
 ## Siehe auch
 
 [Business Intelligence](bi.md)  
 [Finanzen](finance.md)  
-[Analysieren von Daten nach Dimensionen](bi-how-analyze-data-dimension.md)  
+[Daten nach Dimensionen analysieren](bi-how-analyze-data-dimension.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

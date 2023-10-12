@@ -26,12 +26,10 @@ Wenn ein Kreditor über ein oder mehrere Bankkonten verfügt und Sie eine bevorz
 2. Öffnen Sie die Karte für den Kreditor.
 3. Wählen Sie im Inforegister **Zahlungen** das standardmäßige Bankkonto des Kreditors im Feld **Bevorzugter Bankkontocode** aus.
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/cash-management-dynamics-365-business-central/)
-
 ## Siehe auch
 
 [Einkaufeinrichten](purchasing-setup-purchasing.md)  
-[Registriert einen neuen Kreditor](purchasing-how-register-new-vendors.md)  
+[Neue Kreditoren einrichten](purchasing-how-register-new-vendors.md)  
 [Bankkonten einrichten](bank-how-setup-bank-accounts.md)  
 [Die AMC Banking 365 Fundamentals-Erweiterung verwenden](ui-extensions-amc-banking.md)  
 [Den Envestnet Yodlee Bank Feeds Service einrichten](bank-how-setup-bank-statement-service.md)  

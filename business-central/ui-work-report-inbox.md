@@ -47,8 +47,6 @@ Das Teilen von Berichten mit Mitarbeitern ist auch auf der Seite **Berichtseinga
 >
 > Mit der Aktion **Freigeben** wird die generierte Berichtsdatei für andere Benutzer nur auf OneDrive for Business verfügbar gemacht und listet den geplanten Bericht in ihrem **Berichtseingang** nicht auf.
 
-## Siehe verwandte Schulungen unter [Microsoft Learn](/learn/paths/build-reports/).
-
 ## Siehe auch
 
 [Berichte ausführen und drucken](ui-work-report.md)  

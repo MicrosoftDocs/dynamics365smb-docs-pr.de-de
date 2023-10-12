@@ -54,8 +54,6 @@ Sie können den Bericht **Anlage - Vorschau** zur Kalkulation von zukünftigen A
 4. Lassen Sie das Inforegister **Anlage** leer, damit alle Anlagen einbezogen werden. Geben Sie im Feld **Plananlage** die Einstellung **Nein** an, um Plananlagen auszuschließen, oder geben Sie **Ja** an, um nur Plananlagen anzuzeigen.
 5. Wählen Sie die Schaltfläche **Drucken** oder **Vorschau**.
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/budget-fixed-assets/)
-
 ## Siehe auch
 
 [Anlagen](fa-manage.md)  

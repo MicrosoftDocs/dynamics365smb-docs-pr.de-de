@@ -126,8 +126,6 @@ Wenn etwas nicht stimmt, zeigt [!INCLUDE[prod_short](includes/prod_short.md)] di
 > [!NOTE]
 > Die oben beschriebene Fehlerbehandlung ist nicht verfügbar für Artikel-, Ressourcen-, Mitarbeiter- und Anlage-Fibu Buch.-Blätter oder für Sachkonten, die in lokalen Versionen von Buchungsgruppen hinzugefügt wurden.
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/posting-groups-dynamics-365-business-central/)
-
 ## Siehe auch
 
 [Die Finanzbuchhaltung und der Kontenplan](finance-general-ledger.md)  

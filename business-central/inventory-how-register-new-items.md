@@ -115,8 +115,6 @@ Wenn Ihre Firma die Prozesse der Lieferplanung in [!INCLUDE [prod_short](include
 
 Beispiele für die Verwendung der Felder auf der Inforegisterkarte **Planung** finden Sie unter [Bewährte Verfahren für die Einrichtung: Planungsparameter](setup-best-practices-planning-parameters.md).  
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/create-items/)
-
 ## Siehe auch
 
 [Bestand](inventory-manage-inventory.md)  

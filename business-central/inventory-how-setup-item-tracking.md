@@ -109,12 +109,10 @@ Verwenden Sie für Massenimporte Konfigurationspakete, um Daten in die Blätter 
 > [!NOTE]
 > Sie können **In Excel bearbeiten** nicht verwenden, um Buchungsblattzeilen mit Nachverfolgungsinformationen zu erstellen.
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/prepare-item-tracking/)
-
 ## Siehe auch
 
 [Arbeiten mit Seriennummern und Chargennummern](inventory-how-work-item-tracking.md)  
-[Verfolgen von Artikeln mit Artikelverfolgung](inventory-how-to-trace-item-tracked-items.md)  
+[Ablaufverfolgung der Artikel mit Artikelverfolgung](inventory-how-to-trace-item-tracked-items.md)  
 [Bestand](inventory-manage-inventory.md)  
 [Designdetails: Artikelverfolgung](design-details-item-tracking.md)  
 [Designdetails – Artikelverfolgung und Reservierungen](design-details-item-tracking-and-reservations.md)  

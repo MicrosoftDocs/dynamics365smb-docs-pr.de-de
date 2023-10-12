@@ -36,12 +36,10 @@ Wenn Sie kein angefordertes Lieferdatum auf der Verkaufsauftragszeile angeben od
 - *Warenausgangsdatum + Ausgeh. Lagerdurchlaufzeit = Geplantes Warenausgangsdatum*
 - *geplantes Warenausgangsdatum + Transportzeit = Geplantes Lieferdatum*
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/promising-sales-order-delivery-dynamics-365-business-central/)
-
 ## Siehe auch
 
-[Datumsberechnung für Einkäufe](purchasing-date-calculation-for-purchases.md)  
-[Lieferterminzusagen-Daten berechnen](sales-how-to-calculate-order-promising-dates.md)  
+[Terminberechnung für Einkäufe](purchasing-date-calculation-for-purchases.md)  
+[Datumsangaben für Lieferterminzusagen berechnen](sales-how-to-calculate-order-promising-dates.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

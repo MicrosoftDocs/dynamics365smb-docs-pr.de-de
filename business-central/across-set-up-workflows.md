@@ -42,11 +42,9 @@ In diesem Video wird gezeigt, wie ein Workflow eingerichtet wird, bei dem ein Be
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4jzHI?rel=0]
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/create-workflows/)
-
 ## Siehe auch
 
-[Artikelgenehmigungsworkflow verwenden](across-use-workflows.md)  
+[Genehmigungsworkflows verwenden](across-use-workflows.md)  
 [Workflow](across-workflow.md)  
 [Beispielhafte Vorgehensweise: Einrichten und Verwenden eines Workflows zur Genehmigung von Käufen](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
 [Arbeiten mit Business Central](ui-work-product.md)

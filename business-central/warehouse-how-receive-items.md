@@ -92,8 +92,6 @@ Wenn Lagerplätze für einen Lagerort obligatorisch sind, werden Zonen- und Lage
 * Für erweiterte Konfigurationen, die gezieltes Einlagern und Kommissionieren verwenden, verwendet [!INCLUDE [prod_short](includes/prod_short.md)] den Eingangslagerplatzcode auf der Seite **Lagerortkarte** für den Lagerort. Wenn kein Lagerplatzcode angegeben ist, ist kein Lagerplatz angegeben. Wenn die Lagerplätze für Artikel und Belege nicht übereinstimmen, ist der Lagerplatzcode für Belege leer.
 * Wenn in anderen Konfigurationen kein Eingangslagerplatzcode angegeben ist, verwendet [!INCLUDE [prod_short](includes/prod_short.md)] den Lagerplatzcode aus dem Herkunftsbeleg.
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/receive-invoice-dynamics-d365-business-central/index)
-
 ## Siehe auch
 
 [Lagerverwaltung – Übersicht](design-details-warehouse-management.md)

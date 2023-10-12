@@ -34,8 +34,6 @@ Sie können auf der Seite **Workflow-Benutzergruppen** angeben, wo ein Teilnehme
 
 6. Wiederholen Sie Schritt 5, um weitere Workflowbenutzer zur Workflowbenutzergruppe hinzuzufügen.  
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/create-workflows/)
-
 ## Siehe auch
 
 [Genehmigungsbenutzer einrichten](across-how-to-set-up-approval-users.md)  

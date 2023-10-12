@@ -1,14 +1,17 @@
 ---
-title: Übersicht über Unternehmensdaten
+title: Informationen zum Unternehmen im Überblick
 description: 'Auf der Seite „Unternehmensdaten“ werden grundlegende Informationen für eine Geschäftseinheit angegeben, z. B. Name, Adressen und Versandinformationen.'
-author: brentholtorf
+author: jswymer
 ms.topic: conceptual
 ms.search.form: 1
-ms.date: 08/31/2022
-ms.author: bholtorf
+ms.date: 09/24/2023
+ms.author: jswymer
+ms.reviewer: jswymer
+ms.service: dynamics365-business-central
+ms.custom: bap-template
 ---
 
-# Übersicht über Unternehmensdaten
+# Informationen zum Unternehmen im Überblick
 
 [!INCLUDE[prod_short](includes/prod_short.md)] organisiert Geschäftseinheiten in *Unternehmen*. Für jede Firma müssen Sie einige grundlegende Unternehmensdaten und relevante Informationen auf der Seite **Unternehmensdaten** ausfüllen. Die Informationen auf der Seite [**Unternehmensdaten**](https://businesscentral.dynamics.com/?page=1) werden in Dokumenten verwendet, z.B. in den Kopfzeilen von Rechnungen. Sie können mehrere Unternehmen einrichten, z. B. eine Muttergesellschaft und eine Tochtergesellschaft.  
 
@@ -34,6 +37,10 @@ Wenn es mehr als eine Firma oder eine Umgebung gibt, sehen Sie den Firmenwechsle
 
 :::image type="content" source="media/ui-experience/company-switch-2.png" alt-text="Zeigt das Symbol für den Firmenwechsler in der Überschrift des Business Central Clients an.":::  
 
+Ab dem 2. Veröffentlichungszyklus 2023, Version 23, erscheint das Firmenlogo in der Browserregisterkarte, wenn Sie den Webclient verwenden. Es ist auch in Seitenlinks enthalten, die Sie [kopieren und in Rich-Text-Editoren wie Word, Outlook und Teams einfügen](across-share-data-features.md#copying-a-link).
+ 
+### Abzeichen für eine Firma einrichten
+
 Auf der Seite **Unternehmensdaten** können Sie das standardmäßige Symbol für die Firma durch ein angepasstes Symbol für jedes Unternehmen ersetzen, wenn es für die Benutzer einfacher ist, die Firma zu identifizieren, in der sie arbeiten.
 
 1. Füllen Sie im Inforegister **Unternehmenskennkarte** die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -53,8 +60,6 @@ Der Firmenname wird immer in der oberen linken Ecke angezeigt und fungiert als A
 ## Erfahrung
 
 Die Standardbenutzeroberfläche in einem [!INCLUDE [prod_short](includes/prod_short.md)]-Test zeigt nicht alle Funktionalitäten an. Sie können den vollen Funktionsumfang auf der Seite **Unternehmensdaten** einschalten. Weitere Informationen finden Sie unter [Ändern, welche Funktionen angezeigt werden](ui-experiences.md).  
-
-## Siehe verwandte [Microsoft Schulungen](/training/modules/create-new-companies-dynamics-365-business-central/)
 
 ## Siehe auch
 

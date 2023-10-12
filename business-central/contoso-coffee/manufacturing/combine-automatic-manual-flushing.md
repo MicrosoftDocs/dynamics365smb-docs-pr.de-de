@@ -8,19 +8,19 @@ author: brentholtorf
 ms.author: bholtorf
 ---
 
-# <a name="walkthrough-combine-automatic-and-manual-flushing"></a>Vorgehensweise: Automatisches und manuelles Buchen kombinieren
+# Vorgehensweise: Automatisches und manuelles Buchen kombinieren
 
 In diesem Artikel führen wir Sie durch die Schritte zur Verwendung der Demodaten von Contoso Coffee beim Buchen.  
 
-## <a name="scenario"></a>Szenario
+## Szenario
 
 Sie sind der Produktionsplaner bei Contoso Coffee. Sie müssen einen neuen Produktionsauftrag für zehn Einheiten des Artikels SP-SCM1004, AutoDrip erstellen. Einige Komponenten und Vorgänge werden basierend auf unterschiedlichen Bedingungen mit der Methode „Vorwärts“, andere mit der Methode „Rückwärts“ gebucht.
 
-## <a name="steps"></a>Schritte
+## Schritte
 
 > [Note!] Denken Sie daran, den Bestand zu bereinigen, indem Sie Artikel Buch.-Blätter mit Erfassungen der Anfangssalden buchen.
 
-1. Erstellen Sie einen fest geplanten Fertigungsauftrag für fünf Einheiten des Artikels **SP-SCM1004, AutoDrip** am Standort *NORD*. Eine Anleitung finden Sie unter [Vorgehensweise: Neuen fest geplanten Fertigungsauftrag erstellen und ändern](create-firm-planned-production-order-change.md).  
+1. Erstellen Sie einen fest geplanten Fertigungsauftrag für fünf Einheiten des Artikels **SP-SCM1004, AutoDrip** am Standort *MAIN*. Eine Anleitung finden Sie unter [Vorgehensweise: Neuen fest geplanten Fertigungsauftrag erstellen und ändern](create-firm-planned-production-order-change.md).  
 
 2. Geben Sie den Fertigungsauftrag frei.
 
@@ -34,7 +34,7 @@ Sie sind der Produktionsplaner bei Contoso Coffee. Sie müssen einen neuen Produ
 
 3. Überprüfen Sie die Artikel- und Kapazitätsposten für den Produktionsauftrag.
 
-    1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](../../media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Freigegebener Fertigungsauftrag** ein, und wählen Sie dann den zugehörigen Link.  
+    1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](../../media/ui-search/search_small.png "Wie möchten Sie weiter verfahren") Symbol. Geben Sie **Freigegebener Fertigungsauftrag** ein, und wählen Sie dann den zugehörigen Link.  
 
     2. Öffnen Sie den Produktionsauftrag mit den 5 Einheiten der AutoDrip-Kaffeemaschine.  
 
@@ -46,7 +46,7 @@ Sie sind der Produktionsplaner bei Contoso Coffee. Sie müssen einen neuen Produ
 
     Sie können Komponentenartikel mithilfe des FA-Verb. Buch.- oder Produktions Buch.-Blatts manuell buchen. Mit der manuellen Buchung können Sie die Menge vor dem Buchen anpassen. Wenn beispielsweise zusätzliche Mengen benötigt werden, um Rohstoffe mit geringer Qualität abzudecken.
 4. Buchen Sie Komponenten manuell.  
-    1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](../../media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Verbrauchs Buch.-Blatt** ein, und wählen Sie dann den zugehörigen Link.  
+    1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](../../media/ui-search/search_small.png "Wie möchten Sie weiter verfahren") Symbol. Geben Sie **Verbrauchs Buch.-Blatt** ein, und wählen Sie dann den zugehörigen Link.  
 
     2. Wählen Sie die Aktion **Verbrauch berechnen** aus.  
 
@@ -58,7 +58,7 @@ Sie sind der Produktionsplaner bei Contoso Coffee. Sie müssen einen neuen Produ
 
     Sie müssen die Felder **Rüstzeit** und **Bearbeitungszeit** ausfüllen. Sie können auch die tatsächlich produzierte Menge und den Ausschuss angeben. Geben Sie *3* als fertig gestellte Menge ein, und buchen Sie die Ausgabe.
 
-    1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](../../media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Erfassung Buch.-Blatt** ein und wählen Sie dann den zugehörigen Link.  
+    1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](../../media/ui-search/search_small.png "Wie möchten Sie weiter verfahren") Symbol. Geben Sie **Erfassung Buch.-Blatt** ein und wählen Sie dann den zugehörigen Link.  
 
     2. Erstellen Sie eine neue Buchungsblattzeile auf der Seite **Ausgabejournal**.  
 
@@ -103,7 +103,7 @@ Sie sind der Produktionsplaner bei Contoso Coffee. Sie müssen einen neuen Produ
 
 Das war's zum Thema manuelles und automatisches Buchen von Komponenten.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Komponenten nach Vorgangsausgabe buchen](../../production-how-to-flush-components-according-to-operation-output.md)  
 [Einführung in Contoso Coffee Demo Data](contoso-coffee-manufacturing-intro.md)  

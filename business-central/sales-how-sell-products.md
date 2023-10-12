@@ -91,14 +91,12 @@ Der zugehörige Artikel und die Debitorenposten werden nun im System erfasst ers
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/create-sales-documents-dynamics-365-business-central/)
-
 ## Siehe auch
 
-[Fakturieren eines Verkaufs](sales-how-invoice-sales.md)  
+[Verkäufe fakturieren](sales-how-invoice-sales.md)  
 [Verkäufe buchen](ui-post-sales.md)  
-[Versenden von Artikeln](warehouse-how-ship-items.md)  
-[Direktlieferungen machen](sales-how-drop-shipment.md)  
+[Artikel versenden](warehouse-how-ship-items.md)  
+[Direktlieferungen durchführen](sales-how-drop-shipment.md)  
 [Verkauf](sales-manage-sales.md)  
 [Einrichten von Verkäufen](sales-setup-sales.md)  
 [Kommissionierliste drucken](sales-how-print-picking-list.md)  

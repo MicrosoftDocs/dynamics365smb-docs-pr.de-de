@@ -1,27 +1,31 @@
 ---
 title: Wie Sie Artikel reservieren
-description: 'Sie können Artikel für Verkaufsaufträge, Einkaufsbestellungen und Fertigungsaufträgen reservieren. Sie können auch Artikel in Lager oder eingehenden in Zeilen der offenen Belegzeile reservieren.'
+description: 'Erfahren Sie mehr über die Reservierung von Artikeln für Verkaufsaufträge, Bestellungen und Produktionsaufträge.'
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: andreipa
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: null
 ms.search.forms: '498, 497'
-ms.date: 08/11/2022
-ms.author: bholtorf
+ms.date: 09/19/2023
+ms.custom: bap-template
 ---
-# <a name="reserve-items"></a>Artikel reservieren
+# Artikel reservieren
 
 Reservieren Sie Lager oder eingehenden Artikel für Verkaufsaufträge, Bestellungen, Montageaufträge, Umlagerungsaufträge oder Fertigungsaufträge. Sie können Artikel auch in Lager oder eingehenden in Zeilen der offenen Belegzeile reservieren. Sie tun dies auf der Seite **Reservierung**.
 
 Jede Zeile, die Sie zum Reservieren der Artikel auf der Seite **Reservierung** öffnen, beinhaltet Informationen zu der Art der Zeile (Verkauf, Einkauf, Buchungsblatt) oder der Postenart. Die Zeilen zeigen an, wie viele Artikel von jeder Art von Zeile oder Posten für die Reservierung verfügbar sind.
 
-## <a name="reserve-items-for-sales"></a>Sie Artikel für Verkäufe reservieren
+> [!TIP]
+> Basierend auf den Mengen, die Sie im Lagerbestand reserviert haben, zeigt [!INCLUDE [prod_short](includes/prod_short.md)] einen Status der Dokumente an, sodass Sie schnell über den nächsten Schritt informiert sind. Beispielsweise um anzugeben, dass Sie einen Kundenauftrag versenden oder mit der Arbeit an einem Auftrag, einer Montage oder einem Produktionsauftrag beginnen können. Der Status trägt auch dazu bei, das Risiko versehentlicher Teillieferungen oder Verzögerungen aufgrund fehlender Bestände für Produktions- und Montageaufträge zu verringern.
+>
+> Das Feld **Reserviert aus Bestand** kann Ihnen helfen zu verstehen, ob Sie für eine bestimmte Bestellung oder Bestellposition versenden oder kommissionieren können. Für Positionen ist das Feld „Reserviert aus Bestand“ in Infoboxen verfügbar. Um auf die Informationen zur gesamten Bestellung zuzugreifen, befindet sich das Feld auf der Seite **Statistiken**.
+
+## Sie Artikel für Verkäufe reservieren
 
 Nachfolgend wird erläutert, wie Entscheidungsträger als Artikel aus einem Verkaufsauftrag reserviert werden. Die Schritte sind gleich für Einkaufs-, Service-, Umlagerungs- und Montageaufträge.
   
-1. Wählen Sie das Symbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Verkaufsaufträge** ein, und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie das Symbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren") Symbol. Geben Sie **Verkaufsaufträge** ein, und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie den Verkaufsauftrag.
 3. Wählen Sie auf dem Inforegister **Zeilen** das Feld **Reservieren** aus. Die Seite **Reservierung** wird geöffnet.  
 4. Wählen Sie in die Zeile, aus der Sie Artikel reservieren möchten.  
@@ -36,13 +40,13 @@ Nachfolgend wird erläutert, wie Entscheidungsträger als Artikel aus einem Verk
 > [!NOTE]  
 > Falls für den Verkaufsauftrag Artikelverfolgungszeilen vorhanden sind, führt das Reservierungssystem spezielle Schritte durch: Weitere Informationen hierzu finden Sie im Abschnitt [So reservieren Sie eine bestimmte Serien- oder Chargennummer](inventory-how-to-reserve-items.md#reserve-a-specific-serial-or-lot-number).  
 
-## <a name="reserve-an-item-for-a-production-order-line"></a>Artikel für FA-Zeilen reservieren
+## Artikel für FA-Zeilen reservieren
 
 Sie können Artikel für Erstellungsaufträge reservieren. Sie müssen zwischen Produktionsauftragszeilen, d.h. übergeordnete Artikel und Produktionsauftragskomponenten unterscheiden.
 
 Im folgenden Verfahren wird ein fest geplanter Fertigungsauftrag verwendet.
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Firm Planned Prod. Auftrag** ein und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Firm Planned Prod. Auftrag** ein und wählen Sie dann den zugehörigen Link.  
 2. Öffnen Sie den fest geplanten Produktionsauftrag, den Sie für übergeordnete Artikel reservieren möchten.  
 3. Wählen Sie die entsprechende FA-Zeilennummer aus.  
 4. Wählen Sie auf dem Inforegister **Zeilen** das Feld **Reservieren** aus.
@@ -50,13 +54,13 @@ Im folgenden Verfahren wird ein fest geplanter Fertigungsauftrag verwendet.
 
 Die Menge, die Sie im fest geplanten Fertigungsauftrag eingetragen haben, ist reserviert.
 
-## <a name="reserve-items-for-production-order-components"></a>Artikel für FA-Komponenten reservieren
+## Artikel für FA-Komponenten reservieren
 
 Sie können Artikel für Erstellungsaufträge reservieren. Sie müssen zwischen Produktionsauftragszeilen, d.h. übergeordnete Artikel und Produktionsauftragskomponenten unterscheiden.
 
 Im folgenden Verfahren wird ein fest geplanter Fertigungsauftrag verwendet.
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Firm Planned Prod. Auftrag** ein und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren") Symbol. Geben Sie **Firm Planned Prod. Auftrag** ein und wählen Sie dann den zugehörigen Link.  
 2. Öffnen Sie den fest geplanten FA, für den Sie Komponentenartikel reservieren möchten.  
 3. Wählen Sie die entsprechende FA-Zeilennummer aus.  
 4. Wählen Sie auf dem Inforegister **Zeilen** die Option **Zeile** und dann **Posten** aus.  
@@ -66,27 +70,57 @@ Im folgenden Verfahren wird ein fest geplanter Fertigungsauftrag verwendet.
 
 Die Menge, die Sie in der fest geplanten Fertigungskomponentenzeile eingetragen haben, ist nun reserviert.
 
-## <a name="change-a-reservation"></a>Reservierung ändern
+## Reservieren Sie Artikel in großen Mengen
 
-Gelegentlich kann es erforderlich sein, eine Artikelreservierung zu ändern.
+Verwenden Sie die Seite **Reservierungsarbeitsblatt**, um eingehende Waren in großen Mengen zu reservieren und zuzuordnen. Mithilfe von Massenreservierungen können Sie beispielsweise sicherstellen, dass für Ihre Verkaufs- und Produktionsaufträge Mengen verfügbar sind. Sie können mehrere Chargen für unterschiedliche Zwecke haben. Beispielsweise können Sie Produktionsaufträge wöchentlich zuweisen, diese jedoch täglich für den Verkauf reservieren.
+
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Reservierungsarbeitsblatt** ein und wählen Sie dann den zugehörigen Link.  
+2. Wählen Sie die Aktion **Bedarf abrufen** und geben Sie dann die Art der Nachfrage an, die Sie aus dem verfügbaren Bestand reservieren möchten.
+3. Wählen Sie im Feld **Reserviert aus Bestand** eine der folgenden Optionen aus:
+    
+   |Feld  |Description  |
+   |---------|---------|
+   |Leer     | Die ausstehende Menge ist überhaupt nicht reserviert oder sie wurde aus anderen Quelldokumenten, wie z. B. Bestellungen, reserviert.        |
+   |Vollständig    |  Die ausstehende Menge wird vollständig aus dem verfügbaren Lagerbestand reserviert.       |
+   |Teillieferung     | Die ausstehende Menge wird teilweise aus dem verfügbaren Lagerbestand reserviert.        |
+
+4. Füllen Sie die Felder nach Bedarf aus. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
+5. Optional: Um die Elemente sofort zuzuordnen, wählen Sie die Aktion **Zuordnen**.
+6. Wählen Sie auf der Seite **Zuordnungsrichtlinie** eine Richtlinie für jeden Schritt aus
+
+   |Zuordnungsrichtlinie  |Description  |
+   |---------|---------|
+   |Basis     | Weist einem Bedarf Bestand zu, wenn keine Konflikte vorliegen und der Bedarf vollständig gedeckt werden kann. Beispiel: Sie haben Kundenauftrag A mit einer Menge von 10 und einen Auftrag mit einer Menge von 7. Wenn Sie 20 Stück auf Lager haben, erhalten beide Bedarfe die volle Menge. Wenn Ihr Bestand 12 beträgt, wird kein Bestand zugeteilt. Sie müssen die Menge manuell zuteilen.        |
+   |Zu gleichen Teilen    | Verteilt den verfügbaren Bestand gleichmäßig auf die Nachfrage. Beispiel: Sie haben einen Kundenauftrag mit einer Menge von 10 und einen Auftrag mit einer Menge von 7. Wenn Ihr Lagerbestand 20 beträgt, erhalten beide Bedarfe die volle Menge. Wenn Ihr Bestand 12 beträgt, erhalten beide Nachfragen 6.        |
+
+7. Um alle Zeilen zu reservieren, bei denen **Akzeptieren** aktiviert ist, wählen Sie die Aktion **Reservierung vornehmen** aus.
+    
+## Reservierung ändern
+
+Sie können eine Artikelreservierung ändern.
 
 1. Von der Belegzeile, aus der Sie im Inforegister **Zeilen** reserviert haben, wählen Sie die **Reservieren** Aktion aus.  
 2. Auf der Seite **Reservierung** wählen Sie die **Reservierungsposten** Aktion aus.
 3. Klicken Sie auf der Seite **Reservierungseinträge** auf **Menge** aktualisieren auf der Zeile, die Sie ändern möchten.
 4. Bestätigen Sie die nachfolgende Meldung, indem Sie die Schaltfläche **OK** auswählen.
 
-## <a name="cancel-a-reservation"></a>Reservierung stornieren
+## Reservierung stornieren
 
-Gelegentlich kann es erforderlich sein, eine Artikelreservierung zu stornieren.
+Sie können eine Artikelreservierung abbrechen.
 
 1. Von der Belegzeile, aus der Sie im Inforegister **Zeilen** reserviert haben, wählen Sie die **Reservieren** Aktion aus.  
 2. Auf der Seite **Reservierung** wählen Sie die **Reservierungsposten** Aktion aus.  
 3. Auf der Seite **Reservierung** wählen Sie die **Reservierungsposten stornieren** Aktion aus.  
 4. Bestätigen Sie die nachfolgende Meldung, indem Sie die Schaltfläche **OK** auswählen.  
 
-## <a name="reserve-a-specific-serial-or-lot-number"></a>Bestimmte Serien- oder Chargennummer reservieren
+## Bestimmte Serien- oder Chargennummer reservieren
 
-Aus ausgehenden Dokumenten für Artikel mit Artikelverfolgung, wie Verkaufsaufträge oder Listen mit Fertigungskomponenten, können Sie bestimmte Serien- oder Chargennummern reservieren. Dies kann beispielsweise relevant sein, wenn Sie Fertigungskomponenten aus einer bestimmten Charge benötigen, um die Konsistenz mit vorhergehenden Fertigungslosen sicherzustellen, oder weil ein Debitor eine bestimmte Seriennummer angefordert hat. Weitere Informationen finden Sie unter [Arbeiten mit Serien- und Chargennummern](inventory-how-work-item-tracking.md).
+Aus ausgehenden Dokumenten für Artikel mit Artikelverfolgung, wie Verkaufsaufträge oder Listen mit Fertigungskomponenten, können Sie bestimmte Serien- oder Chargennummern reservieren. Die Reservierung bestimmter Serien- oder Chargennummern kann beispielsweise in den folgenden Situationen nützlich sein:
+
+* Wenn Sie Produktionskomponenten aus einer bestimmten Charge benötigen, um die Konsistenz mit früheren Produktionschargen sicherzustellen.
+* Weil ein Kunde eine bestimmte Seriennummer angefordert hat. 
+
+Weitere Informationen finden Sie unter [Arbeiten mit Serien- und Chargennummern](inventory-how-work-item-tracking.md).
 
 Dies wird als spezifische Reservierung bezeichnet, da Sie eine Menge von Artikel X reservieren, die zu Charge X gehört. Wenn Sie einfach Mengen von Artikel X reservieren, ist dies eine normale, unspezifische Reservierung. Weitere Informationen unter [Designdetails – Artikelverfolgung und Reservierungen](design-details-item-tracking-and-reservations.md)
 
@@ -101,7 +135,7 @@ Das folgende Verfahren basiert auf einer Auftragsabwicklung.
 7. Wählen Sie die Schaltfläche **OK**, um die Seite **Reservationen** zu öffnen, in dem nur der Bedarf angezeigt wird, der mit der angegebenen Artikelverfolgungsnummer verbunden ist. Bei nicht-spezifischen Reservierungen für eine der Artikelverfolgungsnummern, die Sie in dieser Zeile angegeben haben, werden Sie über die Menge informiert, die bereits reserviert wurde.  
 8. Klicken Sie auf die Aktionen **Automatisch Reservieren** oder **Aus aktueller Zeile reservieren**, um die Reservierung für die speziellen Artikelverfolgungsnummern zu erstellen.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Bestand](inventory-manage-inventory.md)  
 [Designdetails: Reservierung, Auftragsnachverfolgung und Aktionsmeldungen](design-details-reservation-order-tracking-and-action-messaging.md)  

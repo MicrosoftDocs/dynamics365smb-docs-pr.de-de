@@ -6,30 +6,55 @@ ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: null
 ms.search.forms: '7200, 7201'
-ms.date: 03/22/2023
+ms.date: 09/28/2023
 ms.author: bholtorf
 ---
-# <a name="connect-to-microsoft-dataverse"></a>Mit Microsoft Dataverse verbinden
+# Mit Microsoft Dataverse verbinden
+
+[!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
 In diesem Artikel wird beschrieben, wie Sie eine Verbindung zwischen [!INCLUDE[prod_short](includes/prod_short.md)] und [!INCLUDE[cds_long_md](includes/cds_long_md.md)] einrichten. Typischerweise stellen Unternehmen die Verbindung her, um Daten mit einer anderen Dynamics 365-Geschäftsanwendung, z. B. [!INCLUDE[crm_md](includes/crm_md.md)], zu integrieren und zu synchronisieren.  
 
-## <a name="before-you-start"></a>Bevor Sie beginnen
+## Bevor Sie beginnen
 
 Sie müssen einige Informationen bereithalten, bevor Sie die Verbindung herstellen:  
 
 * Die URL für die [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-Umgebung, mit der Sie eine Verbindung herstellen möchten. Wenn Sie die unterstützte Anleitung zur **Dataverse-Verbindungseinrichtung** zum Herstellen der Verbindung verwenden, werden wir Ihre Umgebungen ermitteln. Sie können auch die URL einer anderen Umgebung in Ihrem Mandanten eingeben.  
 * Der Benutzername und das Passwort eines Kontos, das über Administratorberechtigungen in [!INCLUDE[prod_short](includes/prod_short.md)] und [!INCLUDE[cds_long_md](includes/cds_long_md.md)] verfügt.  
 * Wenn Sie eine lokale [!INCLUDE[prod_short](includes/prod_short.md)] 2020 Veröffentlichungszyklus 1, Version 16.5 haben, lesen Sie den Artikel zu [Einige bekannte Probleme](/dynamics365/business-central/dev-itpro/upgrade/known-issues#wrong-net-assemblies-for-external-connected-services). Sie müssen die beschriebene Problemumgehung ausführen, bevor Sie eine Verbindung zu [!INCLUDE[cds_long_md](includes/cds_long_md.md)] herstellen können.
-* Die Hauswährung für die Firma in [!INCLUDE[prod_short](includes/prod_short.md)] muss mit der Währung der Basistransaktion in [!INCLUDE[cds_long_md](includes/cds_long_md.md)] übereinstimmen. Nachdem Sie eine Transaktion in der Basiswährung in [!INCLUDE[cds_long_md](includes/cds_long_md.md)] durchgeführt haben, können Sie sie nicht mehr ändern. Weitere Informationen finden Sie unter [Transaktionswährung (Währung) Entität](/powerapps/developer/data-platform/transaction-currency-currency-entity). Alle [!INCLUDE[prod_short](includes/prod_short.md)]-Unternehem, die Sie mit einer [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-Organisation verbinden, müssen dieselbe Währung verwenden.
+* Die lokalen Währungen, die jedes Unternehmen verwendet. [!INCLUDE [prod_short](includes/prod_short.md)]-Unternehmen können sich mit einer [!INCLUDE [cds_long_md](includes/cds_long_md.md)]-Umgebung verbinden, die eine andere Basiswährung als ihre Landeswährung hat. Weitere Informationen zum Umgang mit der Einrichtung mehrerer Währungen finden Sie unter [Für verschiedene Währungen zulassen](#allow-for-different-currencies).
 
 > [!IMPORTANT]
 > Ihre [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-Umgebung darf sich nicht im Administrationsmodus befinden. Der Administrationsmodus führt dazu, dass die Verbindung fehlschlägt, da das Integrationsbenutzerkonto für die Verbindung keine Administratorrechte besitzt. Weitere Informationen finden Sie unter [Verwaltungsmodus](/power-platform/admin/admin-mode).
 
 > [!Note]
 > Diese Schritte beschreiben das Verfahren in [!INCLUDE[prod_short](includes/prod_short.md)] online.
-> Wenn Sie [!INCLUDE[prod_short](includes/prod_short.md)] lokal verwenden und nicht das Azure Active Directory Konto verwenden, um die Verbindung mit [!INCLUDE [cds_long_md](includes/cds_long_md.md)] herzustellen, müssen Sie außerdem einen Benutzernamen und ein Kennwort eines Benutzerkontos für die Integration angeben. Dieses Konto wird als „Integrationsbenutzer“-Konto bezeichnet. Wenn Sie ein Azure Active Directory-Konto verwenden, ist das Integrationsbenutzerkonto weder erforderlich noch wird es angezeigt. Der Integrationsbenutzer wird automatisch eingerichtet und benötigt keine Lizenz.
+> Wenn Sie [!INCLUDE[prod_short](includes/prod_short.md)] lokal verwenden und nicht das Microsoft Entra Konto verwenden, um die Verbindung mit [!INCLUDE [cds_long_md](includes/cds_long_md.md)] herzustellen, müssen Sie außerdem einen Benutzernamen und ein Kennwort eines Benutzerkontos für die Integration angeben. Dieses Konto wird als „Integrationsbenutzer“-Konto bezeichnet. Wenn Sie ein Microsoft Entra-Konto verwenden, ist das Integrationsbenutzerkonto weder erforderlich noch wird es angezeigt. Der Integrationsbenutzer wird automatisch eingerichtet und benötigt keine Lizenz.
 
-## <a name="set-up-a-connection-to-"></a>Verbindung zu [!INCLUDE[cds_long_md](includes/cds_long_md.md)] einrichten
+## Für verschiedene Währungen zulassen
+
+[!INCLUDE [prod_short](includes/prod_short.md)]-Unternehmen können sich mit einer [!INCLUDE [cds_long_md](includes/cds_long_md.md)]-Umgebung verbinden, die eine andere Basiswährung als ihre Landeswährung hat.
+
+> [!NOTE]
+> Für die Synchronisierung mehrerer Währungen ist eine unidirektionale Synchronisierung von [!INCLUDE [prod_short](includes/prod_short.md)] bis [!INCLUDE [cds_long_md](includes/cds_long_md.md)] erforderlich.
+
+Um mehr über die Basiswährung in [!INCLUDE [cds_long_md](includes/cds_long_md.md)] zu erfahren, gehen Sie zu [Entität der Transaktionswährung (Währung)](/powerapps/developer/data-platform/transaction-currency-currency-entity). 
+
+Um mehr über die Währungen in [!INCLUDE [prod_short](includes/prod_short.md)] zu erfahren, gehen Sie zu [Währungen in Business Central](finance-currencies.md).
+
+Um unterschiedliche Währungen zu ermöglichen, stellen Sie vor dem Herstellen einer Verbindung sicher, dass Sie die folgenden Einstellungen angegeben haben:
+
+* Die Einstellung der Basistransaktionswährung in [!INCLUDE [cds_long_md](includes/cds_long_md.md)] hat den Währungscode, der auf der Seite **Währungen** in [!INCLUDE [prod_short](includes/prod_short.md)] angegeben ist.
+* Für die Währung [!INCLUDE [prod_short](includes/prod_short.md)] ist auf der Seite **Währungswechselkurse** mindestens ein Wechselkurs angegeben.
+
+Wenn Sie die Verbindung zu [!INCLUDE [cds_long_md](includes/cds_long_md.md)] aktivieren, fügt [!INCLUDE [prod_short](includes/prod_short.md)] seine Hauswährung der **Währung**-Entität in [!INCLUDE [cds_long_md](includes/cds_long_md.md)] hinzu. Die lokale Währung verwendet den Wechselkurs aus dem Feld **Währungsfaktor** auf der Seite **Währungswechselkurse**.
+
+Da die Währungssynchronisierung unidirektional von [!INCLUDE [prod_short](includes/prod_short.md)] an [!INCLUDE [cds_long_md](includes/cds_long_md.md)] erfolgt, werden Geldbeträge wie folgt konvertiert und synchronisiert:
+
+* Beträge in der [!INCLUDE [cds_long_md](includes/cds_long_md.md)] Basiswährung werden basierend auf dem letzten synchronisierten Wechselkurs von [!INCLUDE [prod_short](includes/prod_short.md)] in die [!INCLUDE [prod_short](includes/prod_short.md)] lokale Währung umgerechnet.
+* Beträge in der [!INCLUDE [prod_short](includes/prod_short.md)] lokalen Währung werden mit der [!INCLUDE [prod_short](includes/prod_short.md)] lokalen Währung in einer der anderen (nicht Basis-)Währungen in [!INCLUDE [cds_long_md](includes/cds_long_md.md)] synchronisiert.
+
+## Verbindung zu [!INCLUDE[cds_long_md](includes/cds_long_md.md)] einrichten
 
 Für alle anderen Authentifizierungsarten als die Microsoft 365-Authentifizierung legen Sie Ihre Verbindung auf der Seite **Dataverse Verbindungseinrichtung** auf [!INCLUDE[cds_long_md](includes/cds_long_md.md)] fest. Für die Microsoft 365-Authentifizierung empfehlen wir Ihnen, die Anleitung **Dataverse Verbindungseinrichtung** zur unterstützten Einrichtung zu verwenden. Der Leitfaden erleichtert die Einrichtung der Verbindung und die Festlegung erweiterter Funktionen, wie z. B. Personenbesitz und Erstsynchronisierung.  
 
@@ -42,7 +67,7 @@ Für alle anderen Authentifizierungsarten als die Microsoft 365-Authentifizierun
 >
 > Durch die Einwilligung im Namen der Organisation berechtigt der Administrator die registrierte Azure-Anwendung mit dem Namen [!INCLUDE[prod_short](includes/prod_short.md)] Integration für [!INCLUDE[cds_long_md](includes/cds_long_md.md)], Daten mit automatisch erstellten Anmeldeinformationen des Benutzers der Anwendung [!INCLUDE[prod_short](includes/prod_short.md)] zu synchronisieren.
 
-### <a name="to-use-the-dataverse-connection-setup-assisted-setup-guide"></a>So verwenden Sie die Dataverse Anleitung zur unterstützten Einrichtung
+### So verwenden Sie die Dataverse Anleitung zur unterstützten Einrichtung
 
 Die Anleitung zur unterstützten Einrichtung für die Verbindung von Dataverse kann Ihnen helfen, die Verbindung einfacher herzustelle und Sie kann Ihnen sogar beim Ausführen einer ersten Synchronisierung helfen. Wenn Sie die anfängliche Synchronisierung ausführen möchten, überprüft [!INCLUDE[prod_short](includes/prod_short.md)] die Daten in beiden Anwendungen und gibt Empfehlungen für die anfängliche Synchronisierung. Die folgende Tabelle beschreibt die Empfehlungen.
 
@@ -62,7 +87,7 @@ Die Anleitung zur unterstützten Einrichtung für die Verbindung von Dataverse k
 > [!NOTE]
 > Wenn Sie nicht aufgefordert werden, sich mit Ihrem Administratorkonto anzumelden, liegt dies wahrscheinlich daran, dass die Popups blockiert sind. Erlauben Sie Popups von `https://login.microsoftonline.com`, um sich anzumelden.
 
-### <a name="to-create-or-maintain-the-connection-manually"></a>So erstellen oder pflegen Sie den Link manuell
+### So erstellen oder pflegen Sie den Link manuell
 
 Die folgende Prozedur beschreibt, wie die Verbindung auf der Seite **Dataverse Verbindungs-Einrichtung** manuell eingerichtet wird. Auf der Seite **Dataverse-Verbindungseinrichtung** verwalten Sie die Integrationseinstellungen.
 
@@ -90,7 +115,7 @@ Die folgende Prozedur beschreibt, wie die Verbindung auf der Seite **Dataverse V
 5. Wenn die [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-Synchronisierung nicht bereits eingerichtet ist, werden Sie gefragt, ob Sie die Standardsynchronisierungskonfiguration verwenden möchten. Abhängig davon, ob Sie Datensätze in [!INCLUDE[cds_long_md](includes/cds_long_md.md)] und [!INCLUDE[prod_short](includes/prod_short.md)] angepasst bleiben sollen, wählen Sie **Ja** oder **Nein** aus.
 
 <!--
-## <a name="show-me-the-process"></a>Show Me the Process
+## Show Me the Process
 
 The following video shows the steps to connect [!INCLUDE[prod_short](includes/prod_short.md)] and [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. <br>
   
@@ -98,7 +123,7 @@ The following video shows the steps to connect [!INCLUDE[prod_short](includes/pr
 
 -->
 
-## <a name="customize-the-match-based-coupling"></a>Kopplung basierend auf Übereinstimmung anpassen
+## Kopplung basierend auf Übereinstimmung anpassen
 
 Ab dem Veröffentlichungszyklus 2 im Jahr 2021 kann ein Administrtator Kriterien zum Koppeln von Datensätzen auf der Grundlage von Übereinstimmungen eingeben. Sie können den Algorithmus für den Abgleich von Datensätzen an den folgenden Stellen in [!INCLUDE [prod_short](includes/prod_short.md)] starten:
 
@@ -130,7 +155,7 @@ In allen drei Fällen öffnet sich die Seite **Kopplungskriterien auswählen**, 
 
 * Legen Sie fest, ob eine neue Entitätsinstanz in [!INCLUDE [cds_long_md](includes/cds_long_md.md)] erstellt werden soll, falls anhand der Abgleichskriterien keine eindeutige, ungekoppelte Übereinstimmung gefunden werden kann. Um diese Funktionalität zu aktivieren, wählen Sie die Aktion **Neu erstellen, wenn keine Übereinstimmung gefunden werden kann**.  
 
-### <a name="view-the-results-of-the-coupling-job"></a>Anzeigen der Ergebnisse des Kopplungsauftrags
+### Anzeigen der Ergebnisse des Kopplungsauftrags
 
 Um die Ergebnisse des Kopplungsauftrags anzuzeigen, öffnen Sie die Seite **Integrationstabellenzuordnungen**, wählen Sie die entsprechende Zuordnung aus, wählen Sie die Aktion **Kopplung** und dann die Aktion **Protokoll des Kopplungsauftrags**.  
 
@@ -157,7 +182,7 @@ Die Kopplung schlägt in der Regel aus folgenden Gründen fehl:
 > [!TIP]
 > Damit Sie sich einen Überblick über den Fortschritt der Kopplung verschaffen können, zeigt das Feld **Gekoppelt mit Dataverse** an, ob ein Datensatz mit einer [!INCLUDE [cds_long_md](includes/cds_long_md.md)]-Entität gekoppelt ist. Sie können die Liste der zu synchronisierenden Datensätze mit dem Feld **Gekoppelt mit Dataverse** filtern.
 
-## <a name="upgrade-connections-from-business-central-online-to-use-certificate-based-authentication"></a>Verbindungen von Business Central Online zur Verwendung der zertifikatsbasierten Authentifizierung upgraden
+## Verbindungen von Business Central Online zur Verwendung der zertifikatsbasierten Authentifizierung upgraden
 
 > [!NOTE]
 > Dieser Abschnitt ist nur für [!INCLUDE[prod_short](includes/prod_short.md)] Online-Mandanten relevant, die von Microsoft gehostet werden. Online-Mandanten, die von ISVs gehostet werden, und lokale Installationen sind davon nicht betroffen.
@@ -166,7 +191,7 @@ Im April 2022 wird der Office365-Authentifizierungstyp (Benutzername/Kennwort) n
 
 Um eine Unterbrechung der Integrationen zu vermeiden, _müssen Sie die Verbindung auf die Verwendung der zertifikatsbasierten Authentifizierung umstellen_. Obwohl die Umstellung für März 2022 geplant ist, empfehlen wir Ihnen dringend, das Upgrade so bald wie möglich durchzuführen. Die folgenden Schritte beschreiben, wie Sie ein Upgrade auf zertifikatsbasierte Authentifizierung durchführen. 
 
-### <a name="to-upgrade-your-business-central-online-connection-to-use-certificate-based-authentication"></a>So aktualisieren Sie Ihre Business Central Online-Verbindung, um die zertifikatsbasierte Authentifizierung zu verwenden
+### So aktualisieren Sie Ihre Business Central Online-Verbindung, um die zertifikatsbasierte Authentifizierung zu verwenden
 
 1. Je nachdem, ob Sie mit Dynamics 365 Sales integriert sind, führen Sie einen der folgenden Schritte aus:
    * Wenn ja, öffnen Sie die Seite **Microsoft Dynamics 365 Verbindungseinrichtung**.
@@ -177,15 +202,15 @@ Um eine Unterbrechung der Integrationen zu vermeiden, _müssen Sie die Verbindun
 > [!NOTE]
 > Sie müssen diese Schritte in jeder [!INCLUDE[prod_short](includes/prod_short.md)]-Umgebung wiederholen, einschließlich der Produktions- und Sandbox-Umgebungen, und in jeder Firma, in der Sie eine Verbindung zu [!INCLUDE[cds_long_md](includes/cds_long_md.md)] haben.
 
-## <a name="connecting-on-premises-versions"></a>Verbinden von lokalen Versionen
+## Verbinden von lokalen Versionen
 
 Sie müssen einige Informationen auf der Seite **Dataverse-Verbindungseinrichtung** eingeben, um [!INCLUDE[prod_short](includes/prod_short.md)] vor Ort mit [!INCLUDE[cds_long_md](includes/cds_long_md.md)] zu verbinden.
 
-Um eine Verbindung mit einem Azure Active Directory (Azure AD)-Konto herzustellen, müssen Sie eine Anwendung in Azure AD registrieren. Sie müssen die Anwendungs-ID, das Geheimnis des Schlüsseltresors und die Umleitungs-URL angeben. Die Umleitungs-URL ist bereits ausgefüllt und sollte für die meisten Installationen funktionieren. Sie müssen Ihre Installation für die Verwendung von HTTPS einrichten. Weitere Informationen finden Sie unter [Konfigurieren von SSL zum Sichern der Business Central Web Client-Verbindung](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection). Wenn Sie Ihren Server für eine andere Homepage einrichten, können Sie die URL jederzeit ändern. Der geheime Clientschlüssel wird als verschlüsselte Zeichenfolge in Ihrer Datenbank gespeichert. 
+Um eine Verbindung mit einem Microsoft Entra-Konto herzustellen, müssen Sie eine Anwendung als Microsoft Entra-ID registrieren. Sie müssen die Anwendungs-ID, das Geheimnis des Schlüsseltresors und die Umleitungs-URL angeben. Die Umleitungs-URL ist bereits ausgefüllt und sollte für die meisten Installationen funktionieren. Sie müssen Ihre Installation für die Verwendung von HTTPS einrichten. Weitere Informationen finden Sie unter [Konfigurieren von SSL zum Sichern der Business Central Web Client-Verbindung](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection). Wenn Sie Ihren Server für eine andere Homepage einrichten, können Sie die URL jederzeit ändern. Der geheime Clientschlüssel wird als verschlüsselte Zeichenfolge in Ihrer Datenbank gespeichert. 
 
-### <a name="to-register-an-application-in-azure-ad-for-connecting-from-business-central-to-dataverse"></a>So registrieren Sie eine Anwendung in Azure AD, um eine Verbindung mit Dataverse über Business Central herzustellen
+### So registrieren Sie eine Anwendung in Microsoft Entra-ID, um eine Verbindung mit Dataverse über Business Central herzustellen
 
-Bei den folgenden Schritten wird davon ausgegangen, dass Sie Azure AD verwenden, um Identitäten und den Zugriff zu verwalten. Weitere Informationen zum Registrieren einer Anwendung in Azure AD finden Sie unter [Schnellstart: Anwendung bei der Microsoft-Identitätsplattform registrieren](/azure/active-directory/develop/quickstart-register-app). 
+Bei den folgenden Schritten wird davon ausgegangen, dass Sie Microsoft Entra-ID verwenden, um Identitäten und den Zugriff zu verwalten. Weitere Informationen zum Registrieren einer Anwendung in Microsoft Entra-ID finden Sie unter [Schnellstart: Anwendung bei der Microsoft-Identitätsplattform registrieren](/azure/active-directory/develop/quickstart-register-app). 
 
 1. Wählen Sie im Navigationsbereich von Azure-Portal unter **Verwalten** die Option **Authentifizierung** aus.  
 2. Fügen Sie unter **URLs umleiten** die Umleitungs-URL hinzu, die auf der Seite **Dataverse-Verbindungseinrichtung** in [!INCLUDE[prod_short](includes/prod_short.md)] vorgeschlagen wird.
@@ -201,17 +226,17 @@ Bei den folgenden Schritten wird davon ausgegangen, dass Sie Azure AD verwenden,
 6. Wählen Sie **Übersicht** aus, und suchen Sie dann den Wert **Anwendungs-(Client-)ID**. Diese ID ist die Client-ID Ihrer Anwendung. Sie müssen sie auf der Seite **Dataverse-Verbindungseinrichtung** im Feld **Client-ID** eingeben oder in einem sicheren Speicher speichern und in einem Ereignisabonnenten bereitstellen.
 7. Geben Sie in [!INCLUDE[prod_short](includes/prod_short.md)] auf der Seite **Dataverse-Verbindungseinrichtung** im Feld **Umgebungs-URL** die URL für Ihre [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-Umgebung ein.
 8. Aktivieren Sie das Kontrollkästchen **Aktiviert**, um die Verbindung mit [!INCLUDE[cds_long_md](includes/cds_long_md.md)] zu aktivieren.
-9. Melden Sie sich mit Ihrem Administratorkonto für Azure Active Directory an (dieses Konto muss eine gültige Lizenz für [!INCLUDE[cds_long_md](includes/cds_long_md.md)] haben und ein Administrator in Ihrer [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-Umgebung sein). Nachdem Sie sich angemeldet haben, werden Sie aufgefordert, Ihrer registrierten Anwendung zu erlauben, sich im Namen der Organisation bei [!INCLUDE[cds_long_md](includes/cds_long_md.md)] anzumelden. Sie müssen Ihre Zustimmung geben, um die Einrichtung abzuschließen.
+9. Melden Sie sich mit Ihrem Administratorkonto für Microsoft Entra-ID an (dieses Konto muss eine gültige Lizenz für [!INCLUDE[cds_long_md](includes/cds_long_md.md)] haben und ein Administrator in Ihrer [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-Umgebung sein). Nachdem Sie sich angemeldet haben, werden Sie aufgefordert, Ihrer registrierten Anwendung zu erlauben, sich im Namen der Organisation bei [!INCLUDE[cds_long_md](includes/cds_long_md.md)] anzumelden. Sie müssen Ihre Zustimmung geben, um die Einrichtung abzuschließen.
 
    > [!NOTE]
    > Wenn Sie nicht aufgefordert werden, sich mit Ihrem Administratorkonto anzumelden, liegt dies wahrscheinlich daran, dass Popups blockiert sind. Erlauben Sie Popups von `https://login.microsoftonline.com`, um sich anzumelden.
 
-### <a name="to-disconnect-from-"></a>So trennen Sie [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
+### So trennen Sie [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Dataverse Einrichtung der Verbindung** ein und wählen Sie dann den zugehörigen Link.
 2. Schalten Sie auf der Seite **Dataverse Verbindungseinrichtung** die Umschaltung auf **Aktiviert**.  
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Den Status einer Synchronisierung anzeigen](admin-how-to-view-synchronization-status.md)  
 

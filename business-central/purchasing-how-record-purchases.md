@@ -193,14 +193,10 @@ In den meisten Fällen können Sie Posten von der betroffenen Karte oder dem bet
 
 Sie können bestimmte Felder in gebuchten Einkaufsbelegen bearbeiten, z. B. das Feld **Zahlungsreferenz**. Erfahren Sie mehr unter [Gebuchte Belege bearbeiten](across-edit-posted-document.md). Bei kritischeren Feldern, die sich auf den Überwachungspfad auswirken, müssen Sie die Buchung stornieren oder rückgängig machen. Erfahren Sie mehr unter [Buch.-Blatt-Buchungen stornieren und Rückgängigmachung von Eingängen/Versendungen](finance-how-reverse-journal-posting.md).
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/receive-invoice-dynamics-d365-business-central/index)
-
-## Siehe verwandte [Microsoft Schulungen](/training/modules/processing-invoices-dynamics-365-business-central/index)
-
 ## Siehe auch
 
-[Angebotsanforderungen](purchasing-how-request-quotes.md)  
-[Einkauf von Artikeln für einen Verkauf](purchasing-how-purchase-products-sale.md)  
+[Angebote anfordern](purchasing-how-request-quotes.md)  
+[Artikel für einen Verkauf einkaufen](purchasing-how-purchase-products-sale.md)  
 [Direktlieferungen vorbereiten](sales-how-drop-shipment.md)  
 [Einkauf](purchasing-manage-purchasing.md)  
 [Einkaufeinrichten](purchasing-setup-purchasing.md)  

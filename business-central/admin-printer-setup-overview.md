@@ -6,15 +6,17 @@ ms.author: jswymer
 ms.reviewer: jswymer
 ms.service: dynamics365-business-central
 ms.topic: overview
-ms.date: 02/10/2023
+ms.date: 09/28/2023
 ms.custom: bap-template
 ---
 
-# <a name="printer-setup-and-management-overview"></a>Überblick über Druckereinrichtung und -verwaltung
+# Überblick über Druckereinrichtung und -verwaltung
+
+[!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
 Das Drucken von Dokumenten und Berichten aus [!INCLUDE[prod_short](includes/prod_short.md)] ist eine wichtige Aufgabe für Geschäftsanwender. Sie möchten normalerweise Druckaufträge direkt an einen der Drucker Ihres Unternehmens senden,&mdash;egal welchen [!INCLUDE[prod_short](includes/prod_short.md)]-Client oder welche App Sie verwenden. Da [!INCLUDE[prod_short](includes/prod_short.md)] Online ein Cloud-Dienst ist, kann er lokale Drucker, die mit den Geräten der Benutzer verbunden sind, nicht direkt erreichen, aber eine Verbindung zu Cloud-fähigen Druckern herstellen.
 
-## <a name="what-are-your-printer-possibilities-in-business-central"></a>Was sind Ihre Druckmöglichkeiten in Business Central?
+## Was sind Ihre Druckmöglichkeiten in Business Central?
 
 Um Ihre Druckanforderungen zu erfüllen, bietet [!INCLUDE[prod_short](includes/prod_short.md)] folgende Funktionen:
 
@@ -27,15 +29,15 @@ Um Ihre Druckanforderungen zu erfüllen, bietet [!INCLUDE[prod_short](includes/p
 Die meisten Arbeiten zum Einrichten von Druckern können auf der Seite **Druckerverwaltung** in [!INCLUDE[prod_short](includes/prod_short.md)] erledigt werden. Bei Universal Print-Druckern müssen Sie möglicherweise auch im Microsoft 365 Admin Center oder im Azure-Portal arbeiten.
 
 > [!IMPORTANT]
-> Für Business Central lokal erfordern Universal Print und Email Print, dass die Azure Active Directory (AD)- oder NavUserPassword-Authentifizierung verwendet wird.
+> Für Business Central lokal erfordern Universal Print und Email Print, dass die Microsoft Entra-ID- oder NavUserPassword-Authentifizierung verwendet wird.
 
-## <a name="custom-printer-extensions"></a>Benutzerdefinierte Druckererweiterungen
+## Benutzerdefinierte Druckererweiterungen
 
 [!INCLUDE[prod_short](includes/prod_short.md)] unterstützt andere benutzerdefinierte Druckererweiterungen, die noch mehr Druckfunktionen hinzufügen. Wenn Sie also benutzerdefinierte Druckererweiterungen installiert haben, enthält Ihre Anwendung möglicherweise Druckfunktionen, die in diesem Artikel nicht beschrieben werden.
 
 Wenn Sie ein AL-Entwickler sind und erfahren möchten, wie Sie Druckererweiterungen erstellen, gehen Sie zu [Entwickeln von Druckererweiterungen in Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-reports-printing).
 
-## <a name="next-steps"></a>Nächste Schritte
+## Nächste Schritte
 
 - [Drucker für Universal Print einrichten](admin-printer-setup-universal-print.md)  
 - [E-Mail-Drucker einrichten](admin-printer-setup-email.md)  

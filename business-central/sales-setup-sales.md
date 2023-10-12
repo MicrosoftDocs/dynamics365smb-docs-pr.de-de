@@ -35,8 +35,6 @@ Einrichten von finanzbezogenen Verkäufen wie Zahlungsformen und Währungen werd
 |Geben Sie Standardberichte an, die für verschiedene Dokumenttypen verwendet werden sollen.|[Berichtsauswahl in Business Central](across-report-selections.md)|
 |Geben Sie an, ob Benutzer Verkaufsrechnungen buchen dürfen und ob sie diese zusammen mit einer Lieferung buchen müssen. |[Rechnungsbuchungsrichtlinie für Benutzer definieren](admin-setup-invoice-posting-policy.md)|
 
-## Siehe verwandte [Microsoft Schulungen](/training/paths/trade-get-started-dynamics-365-business-central/)
-
 ## Siehe auch
 [Verkauf](sales-manage-sales.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -9,10 +9,10 @@ Nachdem Sie alle Artikel in den Verkaufszeilen hinzugefügt haben, kann der Rech
 Der Rabatt wird auf der Grundlage aller Zeilen auf dem Verkaufsbeleg berechnet, in denen **Rechnungsdatenträger zulassen** ausgewählt ist. Standardmäßig sind Rechnungsrabatte erlaubt. Jedoch werden Zeilen mit Artikelgebühren nicht in die Berechnung des Rechnungsrabattes einbezogen. Um einen Rabatt auf solche Zeilen zu gewähren, müssen Sie einen Wert im Feld **Zeilenrabatt %** in den Zeilen eingeben.  
 
 > [!NOTE]
-> Standardmäßig sind die Felder **Rech.-Rabatt zulassen** und**Zeilenrabattbetrag** für die Zeilen ausgeblendet. Wenn die Felder nicht verfügbar sind, können Sie sie hinzufügen, indem Sie die Seite personalisieren. Weitere Informationen finden Sie unter [Personalisieren Sie Ihren Arbeitsbereich](../ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).
+> Standardmäßig sind die Felder **Rech.-Rabatt zulassen** und**Zeilenrabattbetrag** für die Zeilen ausgeblendet. Wenn die Felder nicht verfügbar sind, können Sie sie hinzufügen, indem Sie die Seite personalisieren. Weitere Informationen finden Sie unter [Personalisieren Sie Ihren Arbeitsbereich](../ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode).
 
 > [!TIP]
-> Wenn das Feld **Rechnungsrab. berechnen** auf der Seite **Debitoren und Verkauf Einr.** aktiviert ist, wird der Rechnungsrabatt automatisch berechnet. Wann die Berechnung erfolgt, hängt von der Art des verwendeten Verkaufsbelegs ab.
+> Wenn das Feld **Rechnungsrab. berechnen** auf der Seite **Debitoren & Verkauf Einr.** aktiviert ist, wird der Rechnungsrabatt automatisch berechnet. Wann die Berechnung erfolgt, hängt von der Art des verwendeten Verkaufsbelegs ab.
 >
 > Wenn Sie einen Verkaufsauftrag verwenden, wird der Rabatt berechnet, wenn Sie eine Position hinzufügen. Für alle anderen Verkaufsbelege, z. B. Verkaufsrechnungen, wird der Rabatt berechnet, wenn Sie eine der folgenden Aktionen ausführen:
 >

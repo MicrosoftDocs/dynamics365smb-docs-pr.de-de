@@ -11,7 +11,7 @@ ms.search.form: '26, 27, 34, 461, 786, 1379, 1385, 1386, 1628'
 ms.date: 09/05/2022
 ms.author: bholtorf
 ---
-# <a name="register-new-vendors"></a>Registriert einen neuen Kreditor
+# Registriert einen neuen Kreditor
 
 Kreditoren stellen die Produkte bereit, die Sie verkaufen. Jeder Kreditor, von dem Sie kaufen, muss mit einer Kreditorenkarte erfasst werden.
 
@@ -22,7 +22,7 @@ Kreditorenkarten verwahren die Informationen, die benötigt werden, um Produkte 
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3PZtd?rel=0]
 
-## <a name="adding-new-vendors"></a>Hinzufügen neuer Kreditoren
+## Hinzufügen neuer Kreditoren
 
 Sie können neue Kreditoren manuell hinzufügen, indem Sie die Seite **Kreditorkarte** ausfüllen, oder Sie können Vorlagen verwenden, die vordefinierte Informationen enthalten. Sie können zum Beispiel Vorlagen für verschiedene Arten von Lieferantenprofilen erstellen. Die Verwendung von Vorlagen spart Zeit beim Hinzufügen neuer Kreditor und hilft sicherzustellen, dass die Informationen jedes Mal korrekt sind.
 
@@ -32,7 +32,7 @@ Sie können neue Kreditoren manuell hinzufügen, indem Sie die Seite **Kreditork
 Nachdem Sie eine Vorlage erstellt haben, können Sie die Aktion **Vorlage anwenden** verwenden, um sie auf einen oder mehrere ausgewählte Kreditoren anzuwenden. Um eine Vorlage zu erstellen, geben Sie die Informationen, die Sie wiederverwenden möchten, auf der Seite **Kreditorenkarte** ein und speichern sie dann als Vorlage. Weitere Informationen finden Sie unter [Speichern der Kreditorenkartenseite als Vorlage](purchasing-how-register-new-vendors.md#to-save-the-vendor-card-as-a-template).
 
 > [!TIP]
-> Es kann hilfreich sein, die Seite **Lieferantenvorlage** zu personalisieren, wenn Sie eine Vorlage erstellen. So können Sie beispielsweise ein Feld hinzufügen, das auf der Seite noch nicht angezeigt wird. Weitere Informationen finden Sie unter [Personalisieren Sie Ihren Arbeitsbereich](/dynamics365/business-central/ui-personalization-user#to-start-personalizing-a-page-through-the-personalizing-banner).
+> Es kann hilfreich sein, die Seite **Lieferantenvorlage** zu personalisieren, wenn Sie eine Vorlage erstellen. So können Sie beispielsweise ein Feld hinzufügen, das auf der Seite noch nicht angezeigt wird. Weitere Informationen finden Sie unter [Personalisieren Sie Ihren Arbeitsbereich](/dynamics365/business-central/ui-personalization-user#start-personalizing-by-using-the-personalization-mode).
 
 Sie können einen Kreditor auch aus einem Kontakt erstellen. Weitere Informationen finden Sie unter [Erstellen eines Kunden, Kreditors, Mitarbeiters oder Bankkontos über einen Kontakt](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).
 
@@ -40,7 +40,7 @@ Sie können einen Kreditor auch aus einem Kontakt erstellen. Weitere Information
 
 Sie geben Empfängeradressen auf den Seiten der Lieferantenkarte und auf dem Inforegister Versand und Zahlungen für Bestellungen und Rechnungen an. Wenn Sie Zahlungserfassungszeilen mit den Aktionen „Kreditor bezahlen“ oder „Zahlung erstellen“ auf der Seite „Kreditorenliste“ oder der Seite „Kreditorenkarte“ oder mit der Aktion „Posten anwenden“ in einer Zahlungserfassung erstellen, wird der Überweisungscode im Kreditorenbucheintrag zugewiesen. Sie können diesen Wert überschreiben.
 
-### <a name="to-create-a-new-vendor"></a>So erstellen Sie einen neuen Kreditor
+### So erstellen Sie einen neuen Kreditor
 
 [!INCLUDE[create_new_vendor](includes/create_new_vendor.md)]
 
@@ -51,7 +51,7 @@ Der Kreditor ist nun erfasst und die Kreditorenkarte ist bereit, in Einkaufsbele
 
 Wenn Sie diese Kreditorenkarte als Vorlage verwenden möchten, wenn Sie neue Kreditorenkarten erstellen, dann fahren sie fort, um sie als Kreditorenvorlage zu speichern. Weitere Informationen finden Sie unter [Speichern der Kreditorenkarte als Vorlage](#to-save-the-vendor-card-as-a-template).
 
-### <a name="deleting-and-editing-vendor-information"></a>Löschen und Bearbeiten von Kreditor-Informationen
+### Löschen und Bearbeiten von Kreditor-Informationen
 
 Sie können die Informationen auf Kreditorenkarten jederzeit bearbeiten. Wenn Sie jedoch eine Transaktion für einen Kreditor gebucht haben, können Sie die Karte nicht löschen, da die Posten für die Buchprüfung benötigt werden könnten. Zum Löschen von Kreditorkarten wenden Sie sich an Ihren Microsoft-Partner, um dies über einen Code durchzuführen.
 
@@ -61,7 +61,7 @@ Sie können die Informationen auf Kreditorenkarten jederzeit bearbeiten. Wenn Si
 > [!TIP]
 > Sie können alternative Adressen auf Kreditorenkarten hinzufügen, indem Sie die Aktion **Bestelladressen** auswählen.
 
-## <a name="to-save-the-vendor-card-as-a-template"></a>So speichern Sie die Kreditorenkarte als Vorlage
+## So speichern Sie die Kreditorenkarte als Vorlage
 
 1. Wählen Sie auf der Seite **Kreditorenkarte** die Aktion **Als Vorlage speichern** aus. Die Seite **Kreditorenvorlage** wird geöffnet und zeigt die Kreditorenkarte als Vorlage.
 2. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -70,7 +70,7 @@ Sie können die Informationen auf Kreditorenkarten jederzeit bearbeiten. Wenn Si
 5. Wenn Sie die neue Kreditorvorlage abgeschlossen haben, klicken Sie auf die Schaltfläche **OK**.  
    Die Kreditorvorlage wird der Liste von Kreditorvorlagen hinzugefügt, damit Sie diese verwenden können, um neue Kreditorenkarten zu erstellen.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Doppelte Datensätze zusammenführen](sales-how-merge-duplicate-records.md)  
 [Nummernserien erstellen](ui-create-number-series.md)  

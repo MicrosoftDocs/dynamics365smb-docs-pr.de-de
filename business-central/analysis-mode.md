@@ -5,27 +5,34 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 03/30/2023
+ms.date: 09/23/2023
 ms.custom: bap-template
 ms.service: dynamics365-business-central
 ms.search.form: '456, 457, 458, 459, 460, 461, 16, 22, 25, 26, 27, 31, 143, 144, 9300, 9301, 9303, 9304, 9305, 9306, 9307, 9309, 9310, 9311'
 ---
-# <a name="analyze-list-data-using-data-analysis-mode"></a>Analysieren Sie Daten auf Listenseiten im Datenanalysemodus
+# Analyse der Listenseite und Abfrage von Daten im Datenanalysemodus
 
-In diesem Artikel erfahren Sie, wie Sie Daten von Listenseiten mit dem *Datenanalysemodus* analysieren. Der Datenanalysemodus ermöglicht es Ihnen, Daten direkt von der Seite aus zu analysieren, ohne einen Bericht ausführen oder zu einer anderen Anwendung wie Excel wechseln zu müssen. Es bietet eine interaktive und vielseitige Möglichkeit, Daten zu berechnen, zusammenzufassen und zu untersuchen. Anstatt Berichte mit unterschiedlichen Optionen und Filtern auszuführen, können Sie mehrere Registerkarten hinzufügen, die unterschiedliche Aufgaben oder Ansichten der Daten darstellen. Beispiele könnten „Meine Kunden“, „Artikel verfolgen“, „Kürzlich hinzugefügte Lieferanten“, „Verkaufsstatistiken“ oder jede andere Ansicht sein, die Sie sich vorstellen können.
+> **GILT FÜR:** Öffentliche Vorschau in Business Central 2023, 1. Veröffentlichungszyklus und höher, zur Analyse von Listenseiten; Allgemein verfügbar im 2. Veröffentlichungszyklus von Business Central 2023 zum Analysieren von Daten aus Listenseiten und Abfragen.
+
+In diesem Artikel erfahren Sie, wie Sie Daten von Listenseiten und Abfragen mit dem *Datenanalysemodus* analysieren. Der Datenanalysemodus ermöglicht es Ihnen, Daten direkt von der Seite aus zu analysieren, ohne einen Bericht ausführen oder zu einer anderen Anwendung wie Excel wechseln zu müssen. Es bietet eine interaktive und vielseitige Möglichkeit, Daten zu berechnen, zusammenzufassen und zu untersuchen. Anstatt Berichte mit unterschiedlichen Optionen und Filtern auszuführen, können Sie mehrere Registerkarten hinzufügen, die unterschiedliche Aufgaben oder Ansichten der Daten darstellen. Beispiele könnten „Meine Kunden“, „Artikel verfolgen“, „Kürzlich hinzugefügte Lieferanten“, „Verkaufsstatistiken“ oder jede andere Ansicht sein, die Sie sich vorstellen können.
 
 > [!TIP]
-> Eine gute Sache am Datenanalysemodus ist, dass er keine der zugrunde liegenden Daten der Listenseite oder das Layout der Seite ändert, wenn er sich nicht im Datenanalysemodus befindet. Der beste Weg, um zu erfahren, was Sie im Datenanalysemodus tun können, ist, Dinge auszuprobieren.
+> Das Gute am Datenanalysemodus ist, dass er weder die zugrunde liegenden Daten der Listenseite oder der Abfrage noch das Layout der Seite oder der Abfrage verändert, wenn er sich nicht im Datenanalysemodus befindet. Der beste Weg, um zu erfahren, was Sie im Datenanalysemodus tun können, ist, Dinge auszuprobieren.
 
-## <a name="prerequisite"></a>Voraussetzung
+## Voraussetzungen 
 
-Der Datenanalysemodus befindet sich derzeit in der Vorschauphase, was bedeutet, dass ein Administrator ihn aktivieren muss, bevor Sie ihn verwenden können. Wenn Sie Administrator sind und den Datenanalysemodus aktivieren möchten, gehen Sie zur Seite **Funktionsverwaltung** und aktivieren Sie **Funktionsaktualisierung: Analysemodus, analysieren Sie schnell Daten direkt in Business Central**. Weitere Informationen zum Ein- und Ausschalten von Funktionen finden Sie unter[Funktionsverwaltung](/dynamics365/business-central/dev-itpro/administration/feature-management).
+- Wenn Sie Business Central Version 22 verwenden, befindet sich der Datenanalysemodus in der Vorschau und muss daher von einem Administrator aktiviert werden, bevor Sie ihn verwenden können. Um ihn zu aktivieren, gehen Sie auf die Seite **Funktionsverwaltung** und schalten Sie **Funktionsaktualisierung: Analysemodus, schnelle Datenanalyse direkt in Business Central** ein. [Weitere Informationen finden Sie unter Funktionsverwaltung](/dynamics365/business-central/dev-itpro/administration/feature-management).
+- In Version 23 und höher muss Ihrem Konto der Berechtigungssatz **DATENANALYSE – AUSFÜHREN** zugewiesen werden oder die Ausführungsberechtigung für das Systemobjekt enthalten **9640 Daten zulassen Analysemodus**. Als Administrator können Sie diese Berechtigungen für Benutzer ausschließen, die keinen Zugriff auf den Analysemodus haben sollen.
 
-## <a name="get-started"></a>Erste Schritte
+> [!NOTE]
+> Möglicherweise bemerken Sie, dass einige Listenseiten nicht über den Schalter **Analysieren** zum Wechseln in den Analysemodus verfügen. Der Grund dafür ist, dass Entwickler den Analysemodus auf bestimmten Seiten deaktivieren können, indem sie die [AnalysisModeEnabled-Eigenschaft](/dynamics365/business-central/dev-itpro/developer/properties/devenv-analysismodeenabled-property) in AL verwenden.
 
-1. Öffnen Sie die Listenseite.
+## Erste Schritte
 
-   Um beispielsweise mit **Kundenbucheinträgen** zu arbeiten, wählen Sie die ![Lupe aus, die die Tell Me-Funktion öffnet.](media/ui-search/search_small.png) Symbol (<kbd>Alt</kbd>+<kbd>Q</kbd>) geben Sie *Hauptbuchhaltungsposten* ein und wählen Sie dann den zugehörigen Link aus.  
+1. Öffnen Sie die Listenseite oder Abfrage.
+
+   Um beispielsweise mit der Seite **Debitorenbucheinträgen** zu arbeiten, wählen Sie die ![Lupe aus, die die Tell Me-Funktion öffnet.](media/ui-search/search_small.png) Symbol (<kbd>Alt</kbd>+<kbd>Q</kbd>) geben Sie *Hauptbuchhaltungsposten* ein und wählen Sie dann den zugehörigen Link aus. 
+
 2. Aktivieren Sie in der Aktionsleiste oben auf der Seite den Umschalter **Analysieren**.
 
     Der Datenanalysemodus öffnet die Daten in einer Erfahrung, die für die Datenanalyse optimiert ist.  Im Datenanalysemodus wird die normale Aktionsleiste durch eine spezielle Datenanalysemodusleiste ersetzt. Die folgende Abbildung veranschaulicht die verschiedenen Bereiche einer Seite im Datenanalysemodus.
@@ -43,16 +50,16 @@ Der Datenanalysemodus befindet sich derzeit in der Vorschauphase, was bedeutet, 
 > [!NOTE]
 > Die im Analysemodus angezeigten Daten werden durch die auf der Listenseite eingestellten Filter oder Ansichten gesteuert. Auf diese Weise können Sie Daten vor dem Aufrufen des Analysemodus vorfiltern.
 
-## <a name="work-with-data-analysis-mode"></a>Arbeiten Sie mit dem Datenanalysemodus
+## Arbeiten Sie mit dem Datenanalysemodus
 
 Im Datenanalysemodus ist die Seite in zwei Bereiche unterteilt:
 
 - Der Hauptbereich, bestehend aus dem Datenbereich (1), der Übersichtsleiste (2) und der Registerkartenleiste (5)
 - Der Datenbearbeitungsbereich, der aus zwei Bereichen besteht: Spalten (3) und Analysefilter (4).
 
-### <a name="data-area-1"></a>Datenbereich (1)
+### Datenbereich (1)
 
-Im Datenbereich werden die Zeilen und Spalten der Listenseite angezeigt und die Daten zusammengefasst. Der Datenbereich bietet eine vielseitige Möglichkeit, das Layout der Spalten zu steuern und eine schnelle Möglichkeit, eine Zusammenfassung der Daten zu erhalten. Bei Spalten, die numerische Werte enthalten, wird die Summe aller Werte in der Spalte in einer letzten Zeile angezeigt, es sei denn, Sie haben Zeilengruppen definiert. In diesem Fall erscheinen die Summen als Zwischensumme für die Gruppen.  
+Im Datenbereich werden die Zeilen und Spalten der Listenseitenabfrage angezeigt und die Daten zusammengefasst. Der Datenbereich bietet eine vielseitige Möglichkeit, das Layout der Spalten zu steuern und eine schnelle Möglichkeit, eine Zusammenfassung der Daten zu erhalten. Bei Spalten, die numerische Werte enthalten, wird die Summe aller Werte in der Spalte in einer letzten Zeile angezeigt, es sei denn, Sie haben Zeilengruppen definiert. In diesem Fall erscheinen die Summen als Zwischensumme für die Gruppen.  
 
 ![Zeigt eine Übersicht eines Datenbereichs auf einer Seite im Datenanalysemodus an](media/analysis-mode-data-area.png)
 
@@ -64,9 +71,9 @@ Im Datenbereich werden die Zeilen und Spalten der Listenseite angezeigt und die 
 - Verwenden Sie den Datenbereich, um mit den Daten zu interagieren. Für Spalten, die numerische, summierbare Werte enthalten, können Sie deskriptive Statistiken zu einer Gruppe von Feldern erhalten, indem Sie sie markieren. Die Statistiken erscheinen in der Statusleiste (2) unten auf der Seite.
 - Exportieren Sie Daten im Excel- oder CSV-Format. Klicken Sie einfach mit der rechten Maustaste auf den Datenbereich oder eine Auswahl von Zellen, um sie zu exportieren.
 
-### <a name="summary-bar-2"></a>Zusammenfassungsleiste (2)
+### Zusammenfassungsleiste (2)
 
-Die Zusammenfassungsleiste befindet sich unten auf der Seite und zeigt Statistiken zu den Daten in der Liste an. Wenn Sie mit Spalten interagieren, deren Werte summiert werden können, z. B. mehrere Zeilen in einer Spalte auswählen, die Beträge anzeigt, werden die Daten aktualisiert.
+Die Zusammenfassungsleiste befindet sich unten auf der Seite und zeigt Statistiken zu den Daten in der Listenseite oder Abfrage an. Wenn Sie mit Spalten interagieren, deren Werte summiert werden können, z. B. mehrere Zeilen in einer Spalte auswählen, die Beträge anzeigt, werden die Daten aktualisiert.
 
 ![Zeigt eine Übersicht einer Zusammefassungsleiste im Datenanalysemodus an](media/analysis-mode-totals-row.png)
 
@@ -75,15 +82,15 @@ Die folgende Tabelle beschreibt die verschiedenen Zahlen, die im Summenbereich a
 |Anzahl|Beschreibung|
 |-|-|
 |Zeilen|Die Anzahl der ausgewählten Zeilen als Teil der Gesamtzahl der verfügbaren Zeilen. |
-|Zeilen gesamt|Die Anzahl der Zeilen in der ungefilterten Liste.|
-|Gefiltert|Die Anzahl der Zeilen, die als Ergebnis der auf die Liste angewendeten Filter angezeigt werden.|
+|Zeilen gesamt|Die Anzahl der Zeilen in der ungefilterten Liste oder Abfrage.|
+|Gefiltert|Die Anzahl der Zeilen, die als Ergebnis der auf die Liste oder Abfrage angewendeten Filter angezeigt werden.|
 |Durchschnitt|Der Durchschnittswert in allen ausgewählten summierbaren Feldern.|
 |Anzahl|Die Anzahl der ausgewählten Zeilen.|
 |Min.|Der minimale Wert in allen ausgewählten summierbaren Feldern.|
 |Max.|Der maximale Wert in allen ausgewählten summierbaren Feldern.|
 |Summe|Die Gesamtsumme aller Werte in den ausgewählten summierbaren Feldern.|
 
-### <a name="columns-3"></a>Spalten (3)
+### Spalten (3)
 
 Die **Spalten** sind einen von zwei Bereichen, die zusammenarbeiten, um Ihre Analyse zu definieren. Der andere Bereich ist der **Analysefilter**. Der **Spalten**-Bereich wird verwendet, um die Daten zusammenzufassen. Verwenden Sie den Bereich **Spalten**, um festzulegen, welche Spalten in die Analyse einbezogen werden sollen.
 
@@ -92,13 +99,13 @@ Die **Spalten** sind einen von zwei Bereichen, die zusammenarbeiten, um Ihre Ana
 |Bereiche|Beschreibung|
 |-|-|
 |Suchen/aktivieren oder deaktivieren Sie alle Kästchen|Suche nach Spalten. Aktivieren Sie das Kontrollkästchen, um alle Spalten auszuwählen/abzuwählen.|
-|Kontrollkästchen|Dieser Bereich enthält ein Kontrollkästchen für jedes Feld in der Quelltabelle der Liste. Verwenden Sie diesen Bereich, um zu ändern, welche Spalten in der Liste angezeigt werden. Aktivieren Sie ein Kontrollkästchen, um die Spalte für das Feld auf der Seite anzuzeigen; Deaktivieren Sie das Kontrollkästchen, um die Spalte auszublenden. |
+|Kontrollkästchen|Dieser Bereich enthält ein Kontrollkästchen für jedes Feld in der Quelltabelle der Liste oder Abfrage. Verwenden Sie diesen Bereich, um zu ändern, welche Spalten angezeigt werden. Aktivieren Sie ein Kontrollkästchen, um die Spalte für das Feld auf der Seite anzuzeigen; Deaktivieren Sie das Kontrollkästchen, um die Spalte auszublenden. |
 |Zeilengruppen|Verwenden Sie diesen Bereich, um Daten nach einem oder mehreren Feldern zu gruppieren und zu summieren. Sie können nur nicht numerische Felder wie Text-, Datums- und Zeitfelder einschließen. Zeilengruppen werden häufig im Pivot-Modus verwendet.|
 |Werte|Verwenden Sie diesen Bereich, um Felder anzugeben, für die Sie eine Gesamtsumme wünschen. Sie können nur Felder einschließen, die Zahlen enthalten, die addiert werden können; wie beispielsweise keine Text-, Datums- oder Zeitfelder.|
 
 Um ein Feld von einem Bereich in einen anderen zu verschieben, wählen Sie das Greifsymbol ![Zeigt eine Übersicht einer Seite zum Datenanalysemodus](media/column-grab-icon.png) neben der Spalte in der obigen Liste an; ziehen Sie sie in den Zielbereich. Sie werden daran gehindert, ein Feld in einen Bereich zu verschieben, in dem es nicht erlaubt ist.
 
-### <a name="analysis-filters-4"></a>Analysefilter (4)
+### Analysefilter (4)
 
 Im Bereich **Analysefilter** können Sie weitere Datenfilter für Spalten festlegen, um die Einträge in der Liste einzuschränken. Legen Sie Filter für Spalten fest, um die Einträge in der Liste und die nachfolgenden Summen basierend auf einem von Ihnen definierten Kriterium auf nur die Einträge zu beschränken, an denen Sie interessiert sind. Angenommen, Sie sind nur an Daten für einen bestimmten Kunden oder Verkaufsaufträge interessiert, die einen bestimmten Betrag überschreiten. Um einen Filter festzulegen, wählen Sie die Spalte aus und wählen Sie die Vergleichsoperation aus der Liste aus (z. B. **Gleich** oder **Beginnt mit**), geben Sie dann den Wert ein.
 
@@ -107,7 +114,7 @@ Im Bereich **Analysefilter** können Sie weitere Datenfilter für Spalten festle
 > [!NOTE]
 > Die zusätzlichen Filter gelten nur für die aktuelle Analyse-Registerkarte. Auf diese Weise können Sie genau die zusätzlichen Datenfilter definieren, die für eine bestimmte Analyse benötigt werden.
 
-### <a name="tabs-5"></a>Registerkarten (5)
+### Registerkarten (5)
 
 Im Registerkartenbereich oben können Sie verschiedene Konfigurationen (Spalten und Analysefilter) auf separaten Registerkarten erstellen, wobei Sie Daten auf den Registerkarten unabhängig voneinander bearbeiten können. Es gibt immer mindestens eine Registerkarte, die standardmäßig **Analyse 1** heißt. Das Hinzufügen weiterer Registerkarten ist vorteilhaft, um häufig verwendete Analysekonfigurationen für einen Datensatz zu speichern. Sie haben beispielsweise Registerkarten zum Analysieren von Daten im Pivot-Modus und andere Registerkarten, die nach einer Teilmenge von Zeilen filtern. Einige Registerkarten zeigen möglicherweise eine detaillierte Ansicht mit vielen Spalten an, und andere zeigen nur einige Schlüsselspalten an.
 
@@ -125,7 +132,7 @@ Hier sind einige Hinweise zum Arbeiten mit mehreren Analyseregisterkarten:
    > Die von Ihnen eingerichteten Registerkarten sind nur für Sie sichtbar. Andere Benutzer sehen nur die Registerkarten, die sie eingerichtet haben.
 - Sie können Analyseregisterkarten kopieren. Das Kopieren kann nützlich sein, wenn Sie mit dem Ändern einer Registerkarte experimentieren möchten, ohne das Original zu ändern, oder wenn Sie verschiedene Variationen derselben Analyse erstellen möchten.
 
-## <a name="pivot-mode"></a>Pivot-Modus
+## Pivot-Modus
 
 Sie können den Pivot-Modus verwenden, um große Mengen numerischer Daten zu analysieren und Daten nach Kategorien und Unterkategorien zu subsummieren. Der Pivot-Modus ist wie [Pivot-Tabellen in Microsoft Excel](https://support.microsoft.com/office/create-a-pivottable-to-analyze-worksheet-data-a9a84538-bfe9-40a9-a8e9-f99134456576).
 
@@ -145,11 +152,50 @@ Der Aufbau der Datenanalyse im Pivot-Modus umfasst das Verschieben von Feldern i
 > [!TIP]
 > Spalten mit nur wenigen möglichen Werten sind die besten Kandidaten für die Verwendung in Spalte **Werte**.
 
-## <a name="limitations"></a>Einschränkungen
 
-Die Analyseansicht hat derzeit ein Limit von 100.000 Zeilen. Wenn Sie diese Grenze überschreiten, erhalten Sie eine entsprechende Nachricht. Um diese Einschränkung zu umgehen, setzen Sie die Filter auf der Seite, bevor Sie in den Datenanalysemodus wechseln, sofern dies möglich ist.  Vielleicht möchten Sie eine bestimmte Kundengruppe analysieren oder nur Daten aus dem laufenden Jahr. Sie können auch eine vordefinierte Ansicht auswählen, wenn diese für Ihre Analyse geeignet ist.
+## Analysieren Sie große Datenmengen
 
-## <a name="see-also"></a>Siehe auch
+Wenn der Datensatz, den Sie analysieren möchten, mehr als 100.000 Zeilen umfasst, wird empfohlen, einen Analysemodus aufzurufen, der für große Datensätze optimiert ist. Wenn Sie in diesen Modus wechseln, gibt es derzeit zwei Einschränkungen: 
+
+- Die Formatierung von Feldern der folgenden vier Datentypen kann sich ändern: 
+
+   - Währung 
+   - Dezimalstellen (wird immer mit zwei Dezimalstellen angezeigt) 
+   - Datumsangaben (wird immer im Format JJJJ-MM-TT angezeigt)
+   - Zeitzonen
+- Felder, die im Pivot-Modus verwendet und zu Spaltenbeschriftungen hinzugefügt werden, müssen eine geringe Anzahl eindeutiger Werte aufweisen.
+
+   Wenn Sie den Pivot-Modus aktivieren und ein Feld in den Bereich **Spaltenbeschriftungen** ziehen, wo die zugrunde liegenden Daten für dieses Feld zu viele unterschiedliche Werte haben, reagiert die Browser-Registerkarte möglicherweise nicht mehr wird schließlich geschlossen, sodass Sie in einer neuen Sitzung von vorne beginnen müssen. Pivotieren Sie in diesem Fall entweder nicht auf dieses Feld oder legen Sie einen Filter für das Feld fest, bevor Sie es zum Bereich **Spaltenbeschriftungen** hinzufügen.
+
+## Ad-hoc-Datenanalyse teilen
+
+Nachdem Sie eine Analyse auf einer Registerkarte vorbereitet haben, können Sie diese direkt vom Client aus als Link mit Kollegen und anderen in Ihrer Organisation teilen. Nur Empfänger, die eine Erlaubnis zum Unternehmen und den Daten haben, können den Link nutzen.
+
+1. Wählen Sie auf der Registerkarte „Analyse“ die Pfeilspitze nach unten und dann **Link kopieren** aus.
+
+   ![Zeigt die Aktion zum Kopieren einer Analyse an](media/copy-analysis.svg)
+
+   Der Dialog **Link zu \<tab name\>** wird geöffnet.
+
+1. Standardmäßig wird die von Ihnen freigegebene Analyse mit der Seite oder Abfrage in dem Unternehmen verknüpft, in dem Sie gerade arbeiten, was durch `company=<company_name>` im URL-Feld neben der Schaltfläche **Kopieren** angezeigt wird. Wenn Sie einen Link zu einer Analyse senden möchten, die nicht mit einem bestimmten Unternehmen verknüpft ist, setzen Sie das Feld **Unternehmen:** auf **Keine Verknüpfung zu einem bestimmten Unternehmen**.
+
+   ![Zeigt das Dialogfeld „Link kopieren“ für eine Analyseregisterkarte an](media/analysis-link-copied.svg)
+
+1. Klicken Sie auf **Kopieren**.
+
+1. Fügen Sie den Link in das Kommunikationsmedium Ihrer Wahl ein, z. B. Word, Outlook, Teams, OneNote usw. 
+
+2. Nach dem Empfang können die Empfänger dann den Link auswählen und die Analyse für die Seite oder Abfrage in Business Central öffnen. Sie werden aufgefordert, einen Namen für die neue Analyseregisterkarte anzugeben, die erstellt wird.  
+
+## Einschränkungen im 1. Veröffentlichungszyklus 2023 (Vorschau)
+
+Für die öffentliche Vorschau dieser Funktion gelten die folgenden Einschränkungen:
+
+- Die Ansicht im Analysemodus hat ein Limit von 100.000 Zeilen. Wenn Sie diese Grenze überschreiten, erhalten Sie eine entsprechende Nachricht. Um diese Einschränkung zu umgehen, setzen Sie die Filter auf der Seite, bevor Sie in den Analysemodus wechseln, sofern dies möglich ist. Vielleicht möchten Sie zum Beispiel eine bestimmte Debitorengruppe analysieren oder nur Daten aus dem laufenden Jahr haben. Sie können auch eine vordefinierte Ansicht auswählen, wenn diese für Ihre Analyse geeignet ist.
+- Die Funktion „Datenanalyse teilen“ ist nicht verfügbar.
+- Die Möglichkeit, bevorzugte Datenanalyseoptionen auf Listenseiten zu speichern und Analysemenüs pro Analyseregisterkarte zu speichern, ist derzeit nicht verfügbar.
+
+## Siehe auch
 
 [Ad-hoc-Datenanalyse](reports-adhoc-analysis.md)  
-[Anzeigen und Bearbeiten in Excel](across-work-with-excel.md)  
+[In Excel anzeigen und bearbeiten](across-work-with-excel.md)  

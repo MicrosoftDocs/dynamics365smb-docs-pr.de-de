@@ -2,11 +2,13 @@
 title: Berichte ausführen und drucken
 description: Erfahren Sie mehr zum Eingeben eines Berichts in eine Aufgabenwarteschlange und das Planen seiner Verarbeitung an einem bestimmten Datum und Uhrzeit.
 author: jswymer
+ms.author: jswymer
+ms.reviewer: altotovi
 ms.topic: conceptual
 ms.search.keywords: 'task, process, report, print, schedule, save, Excel, PDF, Word, dataset'
 ms.search.form: null
-ms.date: 09/09/2022
-ms.author: jswymer
+ms.date: 09/04/2023
+ms.custom: bap-template
 ---
 # Berichte ausführen und drucken
 
@@ -136,7 +138,14 @@ Weitere Informationen finden Sie unter [Die von einem Bericht verwendeten Layout
 
 ## Ändern Sie die Sprache und das Format von Zahlen, Daten und Uhrzeiten
 
-Standardmäßig basieren die Textsprache und das Zahlen-, Datums- und Uhrzeitformat in einem Bericht auf Ihrer Arbeitssprache und Ihren Regionseinstellungen, die auf der Seite **Meine Einstellungen** definiert sind. Sie können jedoch die Sprache und den Formatbereich von Fall zu Fall ändern, wenn Sie einen Bericht in der Vorschau anzeigen, drucken oder senden. Wählen Sie auf der Anforderungsseite **Erweitert** aus und legen Sie dann die Optionen **Sprache** und **Formatbereich fest** nach Belieben fest.
+Standardmäßig basieren die Textsprache und das Zahlen-, Datums- und Uhrzeitformat in einem Bericht auf Ihrer Arbeitssprache und Ihren Regionseinstellungen, die auf der Seite **Meine Einstellungen** definiert sind. Sie können jedoch die Sprache und den Formatbereich von Fall zu Fall ändern, wenn Sie einen Bericht in der Vorschau anzeigen, drucken oder senden. Wählen Sie auf der Anforderungsseite die Optionen **Sprache** und **Formatbereich** nach Belieben fest. Sie können auch das Sprach- und Regionsformat angeben, das standardmäßig für Kunden und Lieferanten auf ihren Kartenseiten verwendet werden soll.
+
+Abhängig davon, wo Sie die Sprach- und Formateinstellungen angegeben haben, bestimmt [!INCLUDE [prod_short](includes/prod_short.md)] die zu verwendenden Einstellungen in der folgenden Reihenfolge:
+
+1. Die Einstellungen, die Sie beim Generieren eines Berichts angeben.
+2. Die im Dokument angegebenen Einstellungen, die aus den Einstellungen des Debitors oder Kreditors stammen.
+3. Die für das Report AL-Objekt angegebenen Einstellungen.
+4. Die in „Meine Einstellungen“ definierten Einstellungen.
 
 Weitere Informationen zu **Meine Einstellungen** finden Sie unter [Grundeinstellungen ändern](ui-change-basic-settings.md#region).
 
@@ -153,13 +162,11 @@ Die Felder unter dem Inforegister **Erweitert** legen Einschränkungen für den 
 > [!NOTE]
 > Die Maximalwerte können sich für [!INCLUDE[prod_short](includes/prod_short.md)] lokal unterscheiden, und ein Administrator kann sie ändern. Weitere Informationen finden Sie unter [Konfigurieren von Business Central Server – Berichte](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#Reports). Für eine Übersicht über Berichtseinschränkungen [!INCLUDE[prod_short](includes/prod_short.md)] online sehen Sie [Einschränkungen im Betrieb](/dynamics365/business-central/dev-itpro/administration/operational-limits-online).
 
-## Siehe verwandte [Microsoft Schulungen](/training/paths/setup-reporting-dynamics-365-business-central/)
-
 ## Siehe auch
 
 [Verfügbare Berichte in [!INCLUDE[prod_short](includes/prod_short.md)]](reports-available-reports.md)  
 [Berichte in der täglichen Arbeit verwenden](reports-use-reports.md)  
-[Übersicht über Business Intelligence und Reporting](reports-bi-reporting.md)  
+[Überblick über Business Intelligence und Reporting](reports-bi-reporting.md)  
 [Drucker einrichten](ui-specify-printer-selection-reports.md)  
 [Führen Sie Stapeljobs und XMLports aus](ui-how-run-batch-jobs.md)  
 [Mit Datumsangaben und Uhrzeiten in Kalendern arbeiten](ui-enter-date-ranges.md)  

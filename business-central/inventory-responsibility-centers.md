@@ -49,8 +49,6 @@ Um dies einzurichten, weisen Sie Benutzern Zuständigkeitseinheiten in drei Basi
 > [!NOTE]  
 > Benutzer können nur die gebuchten Belege anzeigen, die sich auf ihr eigenes Verantwortungszentrum beziehen. Sie können jedoch alle Ledger-Einträge anzeigen und aus den Ledger-Einträgen zu anderen gebuchten Belegen navigieren.
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/set-up-responsibility-centers/)
-
 ## Siehe auch
 
 [Bestand einrichten](inventory-setup-inventory.md)  

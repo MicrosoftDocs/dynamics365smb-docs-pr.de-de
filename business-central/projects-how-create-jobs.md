@@ -9,7 +9,7 @@ ms.search.form: '88, 275, 276, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1020'
 ms.date: 08/03/2022
 ms.author: bholtorf
 ---
-# <a name="create-jobs"></a>Projekt erstellen
+# Projekt erstellen
 
 Wenn Sie mit einem neuen Projekt beginnen, müssen Sie eine Projektkarte mit integrierten Projektaufgaben und Projektplanungszeilen erstellen, strukturiert in zwei Ebenen.  
 
@@ -28,7 +28,7 @@ Manchmal unterscheidet sich die Partei, die eine Dienstleistung erhält, von der
 * Fügen Sie Informationen über externe Referenzen hinzu, um die Kommunikation über das Projekt zu vereinfachen.
 * Überschreiben Sie die finanziellen Standardbedingungen des Projekts.
 
-## <a name="to-create-a-job-card"></a>So erstellen Sie eine Projektkarte
+## So erstellen Sie eine Projektkarte
 
 Sie erstellen eine Projektkarte und erstellen dann Projektaufgabenzeilen und Projektplanungszeilen dafür.
 
@@ -47,7 +47,7 @@ Markieren Sie optional Aktionen für das Projekt als blockiert, indem Sie das Fe
 |Buchen    |Sie können mit Planungszeilen arbeiten, doch ist das Projekt für Buchungen gesperrt. Wenn Sie diese Option auswählen, können Sie keinen Verbrauch oder Verkauf für das Projekt buchen.|
 |Alle  |Alle Aktionen sind gesperrt.|
 
-## <a name="to-create-tasks-for-a-job"></a>Aufgaben für ein Projekt erstellen
+## Aufgaben für ein Projekt erstellen
 
 Beim Einrichten eines neuen Projekts ist es wichtig, auch die verschiedenen Aufgaben für das Projekt anzugeben. Sie legen Aufträge fest, indem Sie auf der Seite **Aufgaben** Inforegister auf der Seite **Auftragskarte** eine Zeile pro Auftrag erstellen. Jedes Objekt muss mindestens eine Aufgabe haben.
 
@@ -58,7 +58,7 @@ Beim Einrichten eines neuen Projekts ist es wichtig, auch die verschiedenen Aufg
 5. Wiederholen Sie die Schritte 3 und 4 für alle Aufgaben, die Sie für das Projekt benötigen.
 6. Um die Projektaufgaben mit Informationen über andere Projektaufgaben anzugeben, wählen Sie die Aktion **Projektaufgaben kopieren von** aus und ergänzen Sie die Felder wie nötig. Wählen Sie dann die Schaltfläche **OK** aus.
 
-## <a name="to-create-planning-lines-for-a-job"></a>So erstellen Sie eine Projektplanzeile für ein Projekt
+## So erstellen Sie eine Projektplanzeile für ein Projekt
 
 Sie können Ihre neuen Projektaufgaben für Projektplanzeilen neu definieren. Eine Planungszeile kann die Informationen erfassen, die Sie für einen Auftrag verfolgen möchten. Sie können z.B. die Ressourcen, die der Auftrag erfordert, oder die Artikel, die benötigt werden, verfolgen. Ein Beispiel: Sie haben eine Aufgabe, um einen Debitor dazu zu bringen, einen Auftrag zu genehmigen. Sie verknüpfen die Aufgabe mit Planungszeilen für Artikel wie das Treffen mit dem Debitor und die Zuweisung einer Ressource.  
 
@@ -79,7 +79,7 @@ Eine Projektplanungszeile kann von einer der folgenden Arten sein.
 4. Auf einer neuen Zeile auf der Seite **Projektplanungszeilen** füllen Sie die Felder nach Bedarf aus.
 5. Wiederholen Sie die Schritte 3 und 4 für alle Planungszeilen für diese Projektaufgabe.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Projektmanagement](projects-manage-projects.md)  
 [Video: Wie man einen Auftrag in Dynamics 365 Business Central erstellt](https://www.youtube.com/watch?v=VqaPWr7BWmw)  

@@ -31,8 +31,6 @@ Daraufhin wird die Seite **Gebuchte Belege ohne eingehenden Beleg** geöffnet, d
 
 Wenn auf der Seite **Eingehende Belege** kein entsprechender Datensatz vorhanden ist, können Sie ihn erstellen. Weitere Informationen finden Sie unter [Erstellen von Datensätzen für eingehende Dokumente](across-how-create-income-document-records.md).
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/incoming-documents-dynamics-365-business-central/)
-
 ## Siehe auch
 
 [Erstellen von Datensätzen für eingehende Belege](across-how-create-income-document-records.md)

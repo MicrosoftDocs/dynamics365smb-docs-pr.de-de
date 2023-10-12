@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.keywords: 'Dataverse, integration, sync, synchronize, mapping'
 ---
 
-# <a name="synchronizing-data-in-business-central-with-microsoft-dataverse"></a>Synchronisieren von Daten in Business Central mit Microsoft Dataverse
+# Synchronisieren von Daten in Business Central mit Microsoft Dataverse
 
 Wenn Sie [!INCLUDE[prod_short](includes/cds_long_md.md)] in [!INCLUDE[prod_short](includes/prod_short.md)] integrieren, können Sie entscheiden, ob die Daten der ausgewählten Felder von [!INCLUDE[prod_short](includes/prod_short.md)] (wie Debitoren, Kontakte und Vertriebsmitarbeiter) mit entsprechenden Zeilen in [!INCLUDE[prod_short](includes/cds_long_md.md)] synchronisieren (beispielsweise Konten, Kontakte und Benutzer). Je nach Art des Datensatzes können Sie Zeilen von [!INCLUDE[prod_short](includes/cds_long_md.md)] nach [!INCLUDE[prod_short](includes/prod_short.md)] synchronisieren oder umgekehrt. Weitere Informationen finden Sie unter [Integrieren in Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).  
 
@@ -34,8 +34,8 @@ Wenn die Synchronisierung eingerichtet ist, können Sie die [!INCLUDE[prod_short
 > [!NOTE]
 > Die Synchronisierung zwischen [!INCLUDE[prod_short](includes/cds_long_md.md)] und [!INCLUDE[prod_short](includes/prod_short.md)] basiert auf der geplanten Ausführung von Jobwarteschlangeneinträgen und garantiert keine Echtzeitdatenkonsistenz zwischen zwei Diensten. Um weitere Informationen zur Datenkonsistenz in Echtzeit zu erhalten, sollten Sie [Virtuelle Business Central-Tabellen](/dynamics365/business-central/dev-itpro/powerplatform/powerplat-overview) oder Business Central-APIs erkunden.   
 
+## Standard-Tabellenzuordnung für die Synchronisierung
 
-## <a name="standard-table-mapping-for-synchronization"></a>Standard-Tabellenzuordnung für die Synchronisierung
 Tabellen in [!INCLUDE[prod_short](includes/cds_long_md.md)] wie beispielsweise Konten, werden mit äquivalenten Arten von Tabellen in [!INCLUDE[prod_short](includes/prod_short.md)] wie beispielsweise Debitoren integriert. Um mit [!INCLUDE[prod_short](includes/cds_long_md.md)]-Daten zu arbeiten, richten Sie Verknüpfungen, auch Kopplungen genannt, zwischen Tabellen in [!INCLUDE[prod_short](includes/cds_long_md.md)] und [!INCLUDE[prod_short](includes/prod_short.md)] ein.
 
 Die folgende Tabelle zeigt die standardmäßige Zuordnung zwischen Tabellen in [!INCLUDE[prod_short](includes/prod_short.md)] und [!INCLUDE[prod_short](includes/cds_long_md.md)].
@@ -54,13 +54,56 @@ Die folgende Tabelle zeigt die standardmäßige Zuordnung zwischen Tabellen in [
 > [!NOTE]
 > Die **Dataverse**-Aktionen stehen auf Seiten nicht zur Verfügung, z. B. auf der Seite „Kundenkarte“ für Datensätze, die den Tabellenfilter auf der Zuordnung der Integrationstabelle nicht beachten.
 
-### <a name="tip-for-admins-viewing-table-mappings"></a>Tipp für Administratoren: Aufrufen von Tabellenzuordnungen
+### Tipp für Administratoren: Aufrufen von Tabellenzuordnungen
+
 Sie können die Zuordnung zwischen den Tabellen in [!INCLUDE[prod_short](includes/cds_long_md.md)] und den Tabellen in [!INCLUDE[prod_short](includes/prod_short.md)] auf der Seite **Integrationstabellenzuordnungen** aufrufen, auf der Sie auch Filter anwenden können. Sie legen die Zuordnung zwischen den Feldern in [!INCLUDE[prod_short](includes/prod_short.md)]-Tabellen und den Spalten in [!INCLUDE[prod_short](includes/cds_long_md.md)]-Tabellen auf der Seite **Integrationsfeldzuordnung** fest, auf der Sie zusätzliche Zuordnungslogiken hinzufügen können. Dies kann beispielsweise hilfreich sein, wenn Sie Fehler bei der Synchronisierung beheben müssen.
 
-## <a name="see-also"></a>Siehe auch
+## Verwenden Sie virtuelle Tabellen, um mehr Daten zu erhalten
+
+Wenn Sie Ihre Integration einrichten, können Sie virtuelle Tabellen verwenden, um ohne die Hilfe eines Entwicklers mehr Daten in [!INCLUDE[prod_short](includes/cds_long_md.md)] verfügbar zu machen.
+
+Eine virtuelle Tabelle ist eine benutzerdefinierte Tabelle mit Spalten und Zeilen, die Daten aus einer externen Datenquelle enthalten, z. B. [!INCLUDE [prod_short](includes/prod_short.md)]. Die Spalten und Zeilen in einer virtuellen Tabelle sehen aus wie eine normale Tabelle, die Daten werden jedoch nicht in einer physischen Tabelle in der [!INCLUDE[prod_short](includes/cds_long_md.md)] Datenbank gespeichert. Stattdessen werden die Daten zur Laufzeit abgerufen.
+
+> [!NOTE]
+> [!INCLUDE [prod_short](includes/prod_short.md)] enthält Objekte, die auch virtuelle Tabellen genannt werden. Diese Tabellenobjekte stehen in keinem Zusammenhang mit den virtuellen Tabellen, die Sie mit [!INCLUDE[prod_short](includes/cds_long_md.md)] verwenden.
+
+Weitere Informationen zu virtuellen Tabellen finden Sie in den folgenden Artikeln:
+
+* [Erstellen und Bearbeiten von virtuellen Tabellen, die Daten aus einer externen Datenquelle enthalten](/power-apps/maker/data-platform/create-edit-virtual-entities) (Power Apps-Dokumentation)
+* [Virtuelle Business Central-Tabelle für Microsoft Dataverse Admin-Referenz](/business-central/dev-itpro/powerplatform/powerplat-admin-reference) ([!INCLUDE [prod_short](includes/prod_short.md)] Dokumentation)
+
+Um virtuelle Tabellen zu verwenden, müssen Sie die **Virtuelle Business Central-Entität** App von [AppSource](https://appsource.microsoft.com/en-US/product/dynamics-365/microsoftdynsmb.businesscentral_virtualentity) installieren. 
+
+Nachdem Sie die App installiert haben, können Sie virtuelle Tabellen auf einer der folgenden Seiten in [!INCLUDE [prod_short](includes/prod_short.md)] aktivieren:
+
+* Wenn Sie die Anleitung **Dataverse-Verbindung einrichten** ausführen, können Sie auf der Seite **Dataverse Verfügbare virtuelle Tabelle** mehrere virtuelle Tabellen auswählen. Anschließend sind die Tabellen im [!INCLUDE[prod_short](includes/cds_long_md.md)] und im PowerApps Maker Portal verfügbar. 
+* Über die Seiten **Dataverse-Verbindungseinrichtung**, **Virtuelle Tabellen** und **Verfügbare virtuelle Tabellen**.  
+* Aus dem Power App Maker-Portal.
+
+## Synchronisieren Sie Daten aus mehreren Unternehmen oder Umgebungen
+
+Sie können Daten von mehreren [!INCLUDE [prod_short](includes/prod_short.md)] Unternehmen oder Umgebungen mit einer [!INCLUDE[prod_short](includes/cds_long_md.md)] Umgebung synchronisieren. In unternehmensübergreifenden Synchronisierungsszenarien müssen mehrere Dinge berücksichtigt werden.
+
+### Firmen-IDs festlegen
+
+Wenn Sie Datensätze synchronisieren, legen wir eine Firmen-ID für die [!INCLUDE[prod_short](includes/cds_long_md.md)] Entität fest, um zu verdeutlichen, von welchem [!INCLUDE [prod_short](includes/prod_short.md)] Unternehmen die Datensätze stammen. Integrationstabellenzuordnungen verfügen über Integrationstabellenfilterfelder, die die Firmen-ID berücksichtigen. Um eine Tabellenzuordnung in ein Mehrfirmen-Setup einzuschließen, aktivieren Sie auf der Seite **Integrationstabellenzuordnung** das Kontrollkästchen **Multi-Mandanten-Synchronisierung aktiviert**. Die Einstellung optimiert die Art und Weise, wie Filterfelder der Integrationstabelle Firmen-IDs in einem Mehrfirmen-Setup filtern.
+
+Wenn Sie bei Integrationstabellen-Zuordnungen, die Dokumente wie Aufträge, Angebote und Verkaufschancen synchronisieren, das Kontrollkästchen **Multi-Mandanten-Synchronisierung aktiviert** aktivieren, berücksichtigt die Integration nur Entitäten, die die Firmen-ID der aktuellen Firma [!INCLUDE [prod_short](includes/prod_short.md)] haben. Um Dokumente beispielsweise zwischen Business Central und Sales zu synchronisieren, müssen Benutzer in Sales die Firmen-ID in den Dokumenten angeben. Andernfalls werden die Dokumente nicht synchronisiert.  
+
+Für alle anderen Integrationstabellenzuordnungen entfernt die Option **Multi-Mandanten-Synchronisierung aktiviert** den Filter für die Firmen-ID. Bei der Synchronisierung werden verwandte Entitäten berücksichtigt, unabhängig von ihrer Firmen-ID.
+
+### Geben Sie die Synchronisierungsrichtung an
+
+Wenn Sie die Unterstützung mehrerer Unternehmen für eine Integrationstabellenzuordnung aktivieren, empfehlen wir Ihnen, die Richtung der Zuordnung auf **FromIntegration** festzulegen. Wenn Sie die Richtung auf **ToIntegration** oder **Bidirektional** setzen, ist es eine gute Idee, **Tabellenfilter** und **Integrationstabellenfilter** zu verwenden, um zu kontrollieren, welche Entitäten mit welcher Firma synchronisiert werden. Es ist auch eine gute Idee, eine vergleichsbasierte Kopplung zu verwenden, um die Erstellung doppelter Datensätze zu vermeiden. Weitere Informationen zur Kopplung basierend auf Übereinstimmung finden Sie unter [Anpassen der Kopplung basierend auf Übereinstimmung](/dynamics365/business-central/admin-how-to-set-up-a-dynamics-crm-connection#customize-the-match-based-coupling).
+
+### Verwenden Sie eindeutige Nummern
+
+Wenn Ihre Zahlenreihe nicht garantiert, dass Primärschlüsselwerte für jedes Unternehmen eindeutig sind, empfehlen wir die Verwendung von Präfixen. Um mit der Verwendung von Präfixen zu beginnen, erstellen Sie eine Transformationsregel für die Integrationsfeldzuordnung. Weitere Informationen zu Transformationsregeln finden Sie unter [Behandeln Sie Unterschiede in den Feldwerten](admin-how-to-modify-table-mappings-for-synchronization.md#handle-differences-in-field-values).
+
+## Siehe auch  
+
 [Datensätze manuell koppeln und synchronisieren](admin-how-to-couple-and-synchronize-records-manually.md)   
 [Planen einer Synchronisierung](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)   
 [Integration mit Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

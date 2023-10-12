@@ -4,12 +4,12 @@ description: 'Übersicht über Szenarien dazu, wie Sie mithilfe von Contoso Coff
 ms.date: 04/01/2022
 ms.topic: article
 ms.service: dynamics365-business-central
-ms.search.form: 4760
+ms.search.form: 4765
 author: brentholtorf
 ms.author: bholtorf
 ---
 
-# <a name="introduction-to-contoso-coffee-manufacturing"></a>Einführung in Contoso Coffee Produktion
+# Einführung in Contoso Coffee Produktion
 
 Contoso Coffee ist ein fiktives Unternehmen, das Kaffeemaschinen für Verbraucher und gewerbliche Kunden herstellt. Die **Contoso Coffee**-Apps für Business Central fügen Demodaten hinzu, mit deren Hilfe Sie die Verwendung der Produktionsfunktionen in Business Central erlernen können.  
 
@@ -31,43 +31,23 @@ Die App bietet vier Produkte, die für unterschiedliche Szenarien optimiert sind
 
   Dieses Produkt hat drei Varianten und drei Stücklisten, die Lagerhaltungsdaten zugeordnet werden können. Das Produkt verwendet das Konzept der Phantomstückliste. Die Kostenmethode ist *Standard*.
 
-Die Fertigungsaktivitäten für alle Szenarien verwenden den Standort *NORD*.  
+Die Fertigungsaktivitäten für alle Szenarien verwenden den Standort *MAIN*.  
 
 > [!IMPORTANT]
 > Bevor Sie eines der Szenarien für Contoso Coffee ausführen, buchen Sie alle Buchungsblattzeilen mit Anfangssalden. Weitere Anforderungen finden Sie im Abschnitt [Contoso Coffee-Daten einrichten](#set-up-contoso-coffee-manufacturing-data).
 
-## <a name="set-up-contoso-coffee-manufacturing-data"></a>Contoso Coffee-Produktionsdaten
+## Contoso Coffee-Produktionsdaten
 
-Um die Produktionsdaten von Contoso Coffee nutzen zu können, müssen Sie zwei Apps im jeweiligen Unternehmen in [!INCLUDE [prod_short](../../includes/prod_short.md)] installieren:  
+[!INCLUDE [contoso-coffee-app-install](../contoso-coffee-app-install.md)].
 
-- **Demo-Dataset für Contoso Coffee**  
-
-    Diese App stellt Demodaten für die Basisanwendung bereit.  
-- **Demo-Dataset für Contoso Coffee (Länderkennung)**  
-
-    Diese App fügt länder-/regionsspezifische Inhalte zusätzlich zur Basisanwendung hinzu.
-
-Fügen Sie die Apps einem leeren Unternehmen in einem kostenpflichtigen Abonnement oder als Teil einer Testversion hinzu. Erstellen Sie beispielsweise ein neues Unternehmen ohne Beispieldaten über das unterstützte Setup **Neues Unternehmen erstellen**, das Sie über die Liste **Unternehmen** öffnen können. Fügen Sie dann die Apps über den [Marktplatz](../../ui-extensions-install-uninstall.md#install) hinzu, wenn sie nicht bereits auf der Seite **Erweiterungsverwaltung** aufgelistet sind.  
-
-Sobald die relevanten Apps installiert sind, wechseln Sie zur Seite [Contoso Coffee-Demodaten](https://businesscentral.dynamics.com/?page=4760) in [!INCLUDE [prod_short](../../includes/prod_short.md)], und ändern Sie die Standardeinstellungen entsprechend Ihren Anforderungen. Die Einstellungen werden in den folgenden Tabellen beschrieben:  
-
-|Feld  |Beschreibung  |
+|Feld  |Description  |
 |---------|---------|
-|**Anfangsjahr** |Gibt das erste Jahr an, das Sie für die Contoso Coffee-Demonstrationsdaten verwenden möchten. Je nach Unternehmenseinrichtung ist das Jahr entweder ein Kalenderjahr oder ein Geschäftsjahr.|
-|**Produktionsstandort** |Gibt das Lager an, das Sie für Produktionsvorgänge verwenden möchten. Der Standardwert ist *NORD*, Sie können ihn jedoch an Ihre Bedürfnisse anpassen.|
-|**Unternehmenstyp**    |Gibt an, ob das aktuelle Unternehmen Mehrwertsteuer oder Verkaufssteuer melden muss. |
-|**Inland – Allgemeine Geschäftsbuchungsgruppe**|Gibt einen Geschäftscode für inländische Debitoren und Kreditoren an. Die Geschäftscodes werden verwendet, wenn Transaktionen gebucht werden. |
-|**Kapazität – Produktbuchungsgruppe**    |Gibt einen Code für Artikel oder Ressourcen an, die zum Buchen von Kapazität verwendet werden müssen.|
-|**Einzelhandel – Produktbuchungsgruppe**    |Gibt einen Code für Artikel oder Ressourcen an, die für Einzelhandelsbuchungen verwendet werden müssen.|
-|**Rohmaterial – Produktbuchungsgruppe**    |Gibt einen Code für Artikel oder Ressourcen an, die zum Buchen von Rohmaterial verwendet werden müssen. |
-|**Basis-MwSt.-Code**    |Gibt eine bestehende MwSt.-Produktgruppe an, die für Artikel verwendet werden soll.|
-|**Fertiger Code**    |Gibt eine bestehende MwSt.-Produktgruppe an, die für fertige Artikel verwendet werden soll.|
-|**Preisfaktor**     |Gibt einen Faktor an, um einen Preis von USD/EUR in die lokale Währung umzurechnen. *1* bedeutet, dass der Preis in jeder Währung gleich ist. Eine höhere Zahl wird verwendet, um den Preis in der Landeswährung zu erhalten. |
-|**Rundungspräzision**  |Definiert, wie berechnete Verbrauchsmengen gerundet werden, wenn sie in FA-Verbrauchs Buch.-Blattzeilen eingegeben werden. Mengen kleiner als 0,5 werden abgerundet. Mengen gleich oder größer 0,5 werden aufgerundet.|
+|**Produktionsstandort** |Gibt das Lager an, das Sie für Produktionsvorgänge verwenden möchten. Der Standardwert ist *MAIN*, Sie können ihn jedoch an Ihre Bedürfnisse anpassen.|
+
 
 Wenn Sie fertig sind, wählen Sie die Aktion **Demodaten erstellen** aus. Es dauert einige Minuten, der zugrunde liegenden Datenbank die Daten hinzuzufügen, anschließend können Sie die verschiedenen Szenarien jedoch ausführen.  
 
-## <a name="scenarios"></a>Szenarien
+## Szenarien
 
 Die Produktions-Demodaten von Contoso Coffee unterstützen derzeit die folgenden Szenarien für Tests und Schulungen:
 
@@ -85,7 +65,7 @@ Lesen Sie die Schritte für jedes Szenario im entsprechenden Artikel.
 > [!IMPORTANT]
 > Diese exemplarischen Vorgehensweisen erfordern, dass die Benutzererfahrung auf der Seite **Unternehmensdaten** auf *Premium* festgelegt ist.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Produktion](../../production-manage-manufacturing.md)  
 [Produktionsberichte und Analysen in Business Central](../../production-reports.md)  

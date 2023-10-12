@@ -10,7 +10,9 @@ ms.date: 01/26/2023
 ms.custom: bap-template
 ---
 
-# <a name="set-up-universal-print-printers"></a>Drucker für Universal Print einrichten
+# Drucker für Universal Print einrichten
+
+[!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
 Universal Print ist ein auf Microsoft 365 basierender Abonnement-Service, der vollständig über Microsoft Azure ausgeführt wird. Sie erhalten eine zentralisierte Druckerverwaltung über das Universal Print-Portal. [!INCLUDE[prod_short](includes/prod_short.md)] stellt in Universal Print eingerichtete Drucker Clientbenutzern über die Erweiterung **Universal Print-Integration** zur Verfügung.
 
@@ -21,7 +23,7 @@ Für die vollständige Einrichtung müssen Sie in Microsoft Azure über das [Azu
 1. Richten Sie Universal Print in Microsoft Azure ein und fügen Sie die Drucker, die Sie in Business Central verwenden möchte, in einer Druckfreigabe hinzu. Navigieren Sie zu [diesem Abschnitt](#set-up-universal-print-and-printers-in-microsoft-azure).
 2. Fügen Sie in [!INCLUDE[prod_short](includes/prod_short.md)] die Drucker aus den Druckfreigaben in Universal Print hinzu. Wechseln Sie zu [diesem Abschnitt](#add-printers-in-business-central-online) für online oder [hierher](#add-printers-in-business-central-on-premises) für lokal.
 
-## <a name="prerequisites"></a>Voraussetzungen
+## Voraussetzungen
 
 - Unterstützte Drucker
 
@@ -35,7 +37,7 @@ Für die vollständige Einrichtung müssen Sie in Microsoft Azure über das [Azu
 
   - Sie verfügen über die Rollen **Druckeradministrator** (oder Druckermanager) und **Globaler Administrator** in Azure.
 
-    Um Universal Print verwalten zu können, muss Ihr Konto über die Rollen **Druckeradministrator** (oder Druckermanager) und **Globaler Administrator** in Azure AD verfügen. Diese Rollen werden nur für die Verwaltung von Universal Print benötigt. Es ist nicht erforderlich, dass Personen sie Einrichten und die Drucker von [!INCLUDE[prod_short](includes/prod_short.md)].
+    Um Universal Print verwalten zu können, muss Ihr Konto über die Rollen **Druckeradministrator** (oder Druckermanager) und **Globaler Administrator** in Microsoft Entra-ID verfügen. Diese Rollen werden nur für die Verwaltung von Universal Print benötigt. Es ist nicht erforderlich, dass Personen sie Einrichten und die Drucker von [!INCLUDE[prod_short](includes/prod_short.md)].
 
 - [!INCLUDE[prod_short](includes/prod_short.md)] online and lokal:
 
@@ -44,18 +46,18 @@ Für die vollständige Einrichtung müssen Sie in Microsoft Azure über das [Azu
 
     Diese Erweiterung wird standardmäßig als Teil von [!INCLUDE[prod_short](includes/prod_short.md)] online und vor Ort veröffentlicht und installiert. Sie können überprüfen, ob es auf der Seite **Erweiterungsverwaltung** installiert ist. Weitere Informationen erhalten Sie unter [Installieren und Deinstallieren von Erweiterungen in Business Central](ui-extensions-install-uninstall.md).
 - [!INCLUDE[prod_short](includes/prod_short.md)] nur vor Ort:
-  - Azure Active Directory (AD) oder NavUserPassword-Authentifizierung ist konfiguriert.
+  - Microsoft Entra-ID oder NavUserPassword-Authentifizierung ist konfiguriert.
     > [!NOTE]
     >  Die Universal Print-Erweiterung unterstützt keine Service-to-Service (S2S)-Authentifizierung. Sie erfordert einen angemeldeten Benutzer, um Druckaufträge über die Graph-API an den universellen Druckdienst zu senden.
-  - Eine Anwendung für Business Central ist in Ihrem Azure AD-Mandanten und [!INCLUDE[prod_short](includes/prod_short.md)] registriert.
+  - Eine Anwendung für Business Central ist in Ihrem Microsoft Entra-Mandanten und [!INCLUDE[prod_short](includes/prod_short.md)] registriert.
 
-    Wie andere Azure-Dienste, mit denen [!INCLUDE[prod_short](includes/prod_short.md)] arbeitet, benötigt Universal Print eine App-Registrierung für [!INCLUDE[prod_short](includes/prod_short.md)] in Azure AD. Die App-Registrierung bietet Authentifizierungs- und Autorisierungsdienste zwischen [!INCLUDE[prod_short](includes/prod_short.md)] und Universal Print.
+    Wie andere Azure-Dienste, mit denen [!INCLUDE[prod_short](includes/prod_short.md)] arbeitet, benötigt Universal Print eine App-Registrierung für [!INCLUDE[prod_short](includes/prod_short.md)] in Microsoft Entra-ID. Die App-Registrierung bietet Authentifizierungs- und Autorisierungsdienste zwischen [!INCLUDE[prod_short](includes/prod_short.md)] und Universal Print.
 
     Ihre Bereitstellung verwendet möglicherweise bereits eine App-Registrierung für andere Azure-Dienste, z. B. Power BI. Wenn ja, verwenden Sie auch die vorhandene App-Registrierung für Universal Print, anstatt eine neue hinzuzufügen. In diesem Fall müssen Sie lediglich die App-Registrierung so ändern, dass sie die relevanten Druckberechtigungen für die Microsoft Graph-API enthält: **PrinterShare.ReadBasic.All**, **PrintJob.Create** und **PrintJob.ReadBasic**. 
 
-    Befolgen Sie die unter [Registrieren Sie eine Anwendung in Azure Active Directory](/dynamics365/business-central/dev-itpro/administration/register-app-azure#register-an-application-in-azure-active-directory) beschriebenen Schritte, um eine App zu registrieren und die richtigen Berechtigungen festzulegen.
+    Befolgen Sie die unter [Registrieren Sie eine Anwendung in Microsoft Entra-ID](/dynamics365/business-central/dev-itpro/administration/register-app-azure#register-an-application-in-azure-active-directory) beschriebenen Schritte, um eine App zu registrieren und die richtigen Berechtigungen festzulegen.
 
-## <a name="set-up-universal-print-and-printers-in-microsoft-azure"></a>Universal Print und Drucker in Microsoft Azure einrichten
+## Universal Print und Drucker in Microsoft Azure einrichten
 
 Bevor Sie mit der Verwaltung von Universal Print-Druckern in Business Central beginnen können, müssen Sie Aufgaben ausführen, um Universal Print in Azure mit den gewünschten Druckern zu verwenden.
 
@@ -69,9 +71,9 @@ Ausführliche Anweisungen zum Einrichten finden Sie unter [Erste Schritte: Unive
 
       Weitere Informationen finden Sie unter [Microsoft Admin Center-Hilfe – Benutzern Lizenzen zuweisen](/microsoft-365/admin/manage/assign-licenses-to-users).
 
-    - Mit [!INCLUDE[prod_short](includes/prod_short.md)]-On-premises weisen Sie Lizenzen in Ihrem Azure-Mandanten über das Azure-Portal zu.
+    - Mit [!INCLUDE[prod_short](includes/prod_short.md)]-On-premises weisen Sie Lizenzen in Ihrem Mandanten über das Azure-Portal zu.
 
-      Weitere Informationen finden Sie unter [Azure Directory – Lizenzen im Azure Active Directory-Portal zuweisen oder entfernen](/azure/active-directory/fundamentals/license-users-groups).
+      Weitere Informationen finden Sie unter [Azure Directory – Lizenzen im -Portal zuweisen oder entfernen](/azure/active-directory/fundamentals/license-users-groups).
 
 2. Installieren Sie den Universal Print-Konnektor zum Registrieren von Druckern, die nicht direkt mit Universal Print kommunizieren können.
 
@@ -102,13 +104,13 @@ Ausführliche Anweisungen zum Einrichten finden Sie unter [Erste Schritte: Unive
 
 6. Aktivieren Sie die Dokumentkonvertierung.
 
-    Universal Print rendert Inhalte für den Druck im XPS-Format. Einige ältere marktübliche Drucker unterstützen das Rendern von XPS-Inhalten in vielen Fällen nicht &mdash;, sondern nur das PDF-Format. Das Drucken auf diesen Druckern schlägt fehl, es sei denn, Universal Print ist so eingerichtet, dass Dokumente in das vom Drucker unterstützte Format konvertiert werden.
+    Universal Print rendert Inhalte für den Druck im XPS-Format. Einige ältere marktübliche Drucker unterstützen das Rendern von XPS-Inhalten in vielen Fällen nicht, sondern nur das PDF-Format. Das Drucken auf diesen Druckern schlägt fehl, es sei denn, Universal Print ist so eingerichtet, dass Dokumente in das vom Drucker unterstützte Format konvertiert werden.
 
     Erfahren Sie mehr unter[ Übersicht über die Dokumentkonvertierung ](/universal-print/portal/document-conversion).
 
 Jetzt können Sie die Drucker [!INCLUDE[prod_short](includes/prod_short.md)] hinzufügen, Standarddrucker für Berichte einrichten und drucken.  
 
-## <a name="add-printers-in-business-central-online"></a>Drucker in Business Central Online hinzufügen
+## Drucker in Business Central Online hinzufügen
 
 Nachdem die Drucker in Universal Print eingerichtet und freigegeben wurden, können Sie sie zur Verwendung in [!INCLUDE[prod_short](includes/prod_short.md)] hinzufügen. Es gibt zwei Möglichkeiten, Universal Print-Drucker hinzuzufügen. Sie können die Drucker auf einmal oder einzeln hinzufügen.
 
@@ -131,7 +133,7 @@ Wenn Sie Drucker einzeln hinzufügen, können Sie denselben Universal Print-Druc
 
 Nachdem ein Drucker hinzugefügt wurde, können Sie seine Einstellungen über **Druckerverwaltung** anzeigen und ändern. Wählen Sie einfach den Drucker und dann **Druckereinstellungen bearbeiten** aus.
 
-## <a name="add-printers-in-business-central-on-premises"></a>Drucker in Business Central lokal hinzufügen
+## Drucker in Business Central lokal hinzufügen
 
 <!--With [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, unlike online, users aren't automatically authenticated with the registered app in Azure used for the Universal Print service. So, before any Business Central user (including admins) can add or even use Universal Print printers, they'll have to authenticate with the Azure app and grant access to the Universal Print service. The following procedure describes how to initiate this authentication flow. Each user typically only has to do this task once.-->
 
@@ -147,17 +149,17 @@ Dies geschieht in der Regel beim ersten Herstellen einer Verbindung mit der für
 > Wenn Sie ein Administrator sind, empfehlen wir Ihnen, diese Aufgabe vor anderen Benutzern abzuschließen. Informieren Sie anschließend die Benutzer, die Universal Print-Drucker verwenden müssen, wie dies zu tun ist. Wenn die von Azure registrierte App für Universal Print die Zustimmung des Administrators für API-Berechtigungen erfordert, ist es einfacher, wenn Sie die Zustimmung im Namen der Organisation erteilen. Sie können die Administratoreinwilligung über das Azure-Portal erteilen, oder wenn Sie die folgenden Schritte ausführen. 
 
 <!-- To Do Adding printers individually lets you duplicate printers with custom , like different paper trays and paper size and orientation.  To add printers individually, you'll need to know printer's share name in Universal Print. -->
-### <a name="connect-to-universal-print-for-the-first-time"></a>Erstmaliges Herstellen einer Verbindung mit Universal Print
+### Erstmaliges Herstellen einer Verbindung mit Universal Print
 
 Führen Sie diese Schritte aus, um zum ersten Mal eine Verbindung mit dem Universal Print-Dienst herzustellen.
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Druckerverwaltung** ein, und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie **Universal Print** > **Alle Universal Print-Drucker hinzufügen**, um den **Universal Print-Drucker hinzufügen**-Assisted Setup Guide (Assistenten).
-3. Befolgen Sie die Anweisungen auf dem Bildschirm, bis Sie zur Seite AZURE ACTIVE DIRECTORY-SERVICEBERECHTIGUNGEN gelangen.
+3. Befolgen Sie die Anweisungen auf dem Bildschirm, bis Sie zur Seite **MICROSOFT ENTRA-SERVICEBERECHTIGUNGEN** gelangen.
 
-    <!--The AZURE ACTIVE DIRECTORY SERVICE PERMISSIONS page appears. You'll be prompted to give consent to Azure Services. You'll be lead through the process of verifying your Azure AD setup, checking your Universal Print license, and then adding the printers.-->
+    <!--The MICROSOFT ENTRA SERVICE PERMISSIONS page appears. You'll be prompted to give consent to Azure Services. You'll be lead through the process of verifying your Microsoft Entra ID setup, checking your Universal Print license, and then adding the printers.-->
 
-   ![Zeigt die Seite AZURE ACTIVE DIRECTORY-SERVICEBERECHTIGUNGEN](media/azure-ad-services-permissions.png "Zeigt die Seite AZURE ACTIVE DIRECTORY-SERVICEBERECHTIGUNGEN")
+   ![Zeigt die Seite MICROSOFT ENTRA-SERVICEBERECHTIGUNGEN an](media/azure-ad-services-permissions.png "Zeigt die Seite MICROSOFT ENTRA-SERVICEBERECHTIGUNGEN an")
 
 4. Wählen Sie den Link **Azure-Dienste autorisieren** aus.
 
@@ -173,11 +175,11 @@ Nachdem ein Drucker hinzugefügt wurde, können Sie seine Einstellungen über **
 
 Sobald Sie die Erstanmeldung abgeschlossen haben, können Sie die Universal Print-Drucker zum Drucken von Berichten und anderen Druckaufträgen verwenden. Weitere Informationen finden Sie unter [Drucken eines Berichts](ui-work-report.md#PrintReport). Wenn Sie Drucker hinzufügen, entfernen oder ändern möchten, kehren Sie einfach zurück zur Seite **Druckverwaltung** zurück und wählen Sie **Universal Print**.
 
-## <a name="common-problems-and-resolutions"></a>Häufige Probleme und Lösungen
+## Häufige Probleme und Lösungen
 
 In diesem Abschnitt erfahren Sie mehr über die häufigsten Probleme, auf die Benutzer möglicherweise stoßen, wenn sie versuchen, Universal Print-Drucker einzurichten oder zu verwenden.
 
-### <a name="you-dont-have-access-to-the-printer-your-printer"></a>Sie haben keinen Zugriff auf den Drucker \<your-printer\>.
+### Sie haben keinen Zugriff auf den Drucker \<your-printer\>.
 
 Wenn ein Benutzer diese Meldung erhält, wenn er versucht, einen Beleg auf einem Universal Print-Drucker zu drucken, kann dies durch eine der folgenden Bedingungen verursacht werden:
 
@@ -186,17 +188,17 @@ Wenn ein Benutzer diese Meldung erhält, wenn er versucht, einen Beleg auf einem
 - (Lokal) Die für Universal Print verwendete Azure-App-Registrierung funktioniert nicht oder wurde kürzlich geändert, seit sich der Benutzer das letzte Mal angemeldet hat.
 - (Lokal) Der Benutzer hat sich noch nicht bei der von Azure registrierten App für die Universal Print-App angemeldet und zum ersten Mal zugestimmt.
 
-## <a name="there-was-an-error-fetching-printers-shared-to-you"></a>Fehler beim Abrufen von freigegebenen Druckern.
+## Fehler beim Abrufen von freigegebenen Druckern.
 
 Wenn ein Benutzer diese Meldung erhält, wenn er versucht, einen Universal Print-Drucker über die Seite **Druckerverwaltung** hinzuzufügen, liegt dies normalerweise daran, dass er sich noch nicht bei der von Azure registrierten App für Universal Printer-App angemeldet und zum ersten Mal zugestimmt hat. 
 <!--
-### <a name="troubleshooting"></a>Troubleshooting
+### Troubleshooting
 
-#### <a name="you-dont-see-the-a-printer-in-the"></a>You don't see the a printer in the
+#### You don't see the a printer in the 
 
 The printer is not shared in Universal Print.
 
-### <a name="you-get-an-error-when-tryong-to-add-all-or-a-single-printer"></a>You get an error when tryong to add all or a single printer
+### You get an error when tryong to add all or a single printer
 
 You have'nt been assigned a Uincersla Print license.
 
@@ -204,7 +206,7 @@ There was an error fetching printers shared to you. You don't have access to the
 or 
 You don't seem to have access to Universal Print. Make sure you have a Universal Print subscription, and that your account has been assigned a Universal Print license.
 
-## <a name="could-not-upload-the-document-to-print-job-50"></a>Could not upload the document to print job 50.
+## Could not upload the document to print job 50.
 
 There is a technical problem withe the printer. Unsupported document-format: application/pdf. Supported formats: Attribute document-format-supported: SimpleIppValue-Type:MimeMediaType-Value:application/oxps
 
@@ -213,10 +215,10 @@ There is a technical problem withe the printer. Unsupported document-format: app
 
 -->
 
-## <a name="next-steps"></a>Nächste Schritte
+## Nächste Schritte
 [Standarddrucker einrichten](ui-specify-printer-selection-reports.md)
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Übersicht der Drucker](admin-printer-setup-overview.md)  
 [E-Mail-Drucker einrichten](admin-printer-setup-email.md)

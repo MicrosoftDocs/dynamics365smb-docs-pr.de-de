@@ -2,13 +2,12 @@
 title: Kommissionierung für interne Arbeitsgänge in erweiterter Lagerkonfigurationen
 description: 'Wenn Ihre Standorte sowohl Kommissionierung als auch Versand verwenden, wählen Sie Komponenten für Produktions- und Montageaktivitäten auf der Seite Lagerauswahl aus.'
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: null
-ms.date: 09/02/2022
 ms.author: bholtorf
+ms.reviewer: andreipa
+ms.topic: conceptual
+ms.search.keywords: null
+ms.date: 09/12/2023
+ms.custom: bap-template
 ---
 # Kommissionierung für Montage, Produktion oder Projekte in erweiterter Lagerkonfiguration
 
@@ -54,6 +53,10 @@ Verwenden Sie **Lagerkommissionierungs**-Dokumente für die Kommissionierung von
 > Die Möglichkeit, Komponenten für Auftragsplanungslinien auszuwählen, wurde in [!INCLUDE[d365fin](includes/d365fin_md.md)] 2022 Veröffentlichungswelle 2 hinzugefügt. Um die Funktion zu verwenden, muss Ihr Administrator **Funktion Aktualisieren: Lagerbestand und Lagerkommissionierungen von Aufträgen aus aktivieren** auf der Seite **Funktionsverwaltung** aktivieren.
 >
 > Aufträge unterstützen keine erweiterten Konfigurationen, bei denen der Schalter **Gezielte Entnahme und Einlagerung** aktiviert ist.
+
+## Prüfen Sie, ob Artikel zur Kommissionierung verfügbar sind
+
+[!INCLUDE [inventory-availability-overview](includes/inventory-availability-overview.md)]
 
 ## So erstellen Sie Kommissionierungsdokumente mit dem Kommissionierungsarbeitsblatt in Masse
 
@@ -166,8 +169,6 @@ Die folgenden Schritte beschreiben die entsprechenden Aktionen, die von verschie
 Die folgende Abbildung zeigt, wann das Feld **Lagerplatzcode** auf der Komponentenliste entsprechend Ihrer Lagerort- oder Arbeitsplatzeinrichtung gefüllt wird.  
 
 :::image type="content" source="media/binflow.png" alt-text="Übersicht, wann und wie das Feld Lagerplatz ausgefüllt wird.":::
-
-## Siehe verwandte [Microsoft Schulungen](/training/paths/pick-ship-items-business-central/)
 
 ## Siehe auch
 

@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.reviewer: edupont
+ms.reviewer: bholtorf
 ms.search.form: '130, 142, 1350'
 ms.date: 04/01/2021
 ms.author: bholtorf
@@ -47,12 +47,10 @@ In den meisten Fällen können Sie Posten von der betroffenen Karte oder dem bet
 
 Sie können bestimmte Felder in gebuchten Einkaufsbelegen bearbeiten, z. B. die **Paketverfolgungsnr.** Feld eingetragen. Weitere Informationen finden Sie unter [Gebuchte Belege bearbeiten](across-edit-posted-document.md). Bei kritischeren Feldern, die sich auf den Überwachungspfad auswirken, müssen Sie die Buchung stornieren oder rückgängig machen. Weitere Informationen finden Sie unter [Erfassungsbuchungen stornieren und Belege/Lieferungen rückgängig machen](finance-how-reverse-journal-posting.md).
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/ship-invoice-items-dynamics-365-business-central/index)
-
 ## Siehe auch
 
 [Verkauf](sales-manage-sales.md)  
-[Mehrere Dokumente gleichzeitig buchen](ui-batch-posting.md)  
+[Mehrere Belege gleichzeitig buchen](ui-batch-posting.md)  
 [Gebuchte Belege bearbeiten](across-edit-posted-document.md)  
 [Senden von Belegen über E-Mail](ui-how-send-documents-email.md)  
 [Ändern oder Löschen einer unbezahlten Verkaufsrechnung](sales-how-correct-cancel-sales-invoice.md)  

@@ -11,7 +11,7 @@ ms.search.forms: '5703, 15'
 ms.date: 03/25/2023
 ms.author: bholtorf
 ---
-# <a name="set-up-locations"></a>Einrichten von Lagerorten
+# Einrichten von Lagerorten
 
 Standorte sind Orte wie z.B. Lager, an denen Sie Artikel kaufen, lagern oder verkaufen. [!INCLUDE [prod_short](includes/prod_short.md)] verwendet Standorte, um den Bestand sowohl in einfachen als auch in komplexen Lagerprozessen im Auge zu behalten.
 
@@ -20,7 +20,7 @@ Sie können dann Belegzeilen für einen bestimmten Lagerplatz erstellen, Verfüg
   
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4aQvq?rel=0]
 
-## <a name="location-cards"></a>Lagerortkarten
+## Lagerortkarten
 
 Auf der Seite **Standortkarte** geben Sie Informationen über einen Standort an, z.B. ein Lager oder ein Vertriebszentrum. Sie vergeben für jeden Lagerort einen Namen und einen Code, der den Lagerort darstellt. Sie können dann den Lagerortcode auch in anderen Bereichen des Programms angeben, wenn Sie die Transaktionen für einen bestimmten Lagerort speichern möchten.  
 
@@ -30,7 +30,7 @@ Einige Optionsfelder hängen von den Einstellungen auf der Seite **Standortkarte
 
 Wählen Sie die Aktionen **Zonen** oder **Lagerplätze**, um Informationen über Zonen und Lagerplätze anzuzeigen, die für den Standort definiert sind.
 
-### <a name="to-set-up-a-location"></a>So legen Sie einen Ort fest
+### So legen Sie einen Ort fest
 
 1. Wählen Sie das Symbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Lagerorte** ein, und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie die Aktion **Neu**.
@@ -44,7 +44,7 @@ Sie können die Konfiguration eines Standorts ändern, solange er keine Artikelp
 
 Wenn Sie mehrere Standorte haben, können Sie Umlagerungsrouten zwischen den Standorten definieren. Weitere Informationen zu Übertragungsrouten finden Sie unter [So erstellen Sie eine Übertragungsroute](inventory-how-setup-locations.md#to-create-a-transfer-route).
 
-### <a name="to-create-a-transfer-route"></a>So erstellen Sie eine Umlagerungsroute
+### So erstellen Sie eine Umlagerungsroute
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Umlagerungsrouten** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie die Aktion **Neu**.
@@ -52,7 +52,7 @@ Wenn Sie mehrere Standorte haben, können Sie Umlagerungsrouten zwischen den Sta
 
 Sie können jetzt die Lagerartikel zwischen zwei Lagerplätzen umlagern. Um mehr über Übertragungen zu erfahren, gehen Sie zu [Inventar zwischen Standorten übertragen](inventory-how-transfer-between-locations.md).
 
-## <a name="bins"></a>Lagerplätze
+## Lagerplätze
 
 Lagerplätze stellen die grundlegende Lagerstruktur dar und können vorschlagen, wo Artikel abgelegt werden sollen. Ihre Lagerplätze können Inhalt haben oder schwimmende Lagerplätze ohne bestimmten Inhalt sein.
 
@@ -61,11 +61,11 @@ Um die Lagerplatz-Funktionalität an einem Standort zu nutzen, aktivieren Sie di
 > [!NOTE]
 > Bevor Sie Lagerplätze auf einem Platz angeben können, müssen Sie Lagerplatzcodes erstellen. Weitere Informationen zu Behältern finden Sie unter [Behälter erstellen](warehouse-how-to-create-individual-bins.md) und [Ablagetypen einrichten](warehouse-how-to-set-up-bin-types.md).  
 
-## <a name="zones"></a>Zonen
+## Zonen
 
 Wenn Sie Ihre Lagerplätze nach Zonen strukturieren möchten, haben Sie auf der Seite **Zonen** dazu die Möglichkeit. Wenn Sie Lagerplätzen eine Zone zuweisen, kopiert [!INCLUDE [prod_short](includes/prod_short.md)] Informationen aus der Zone in die Lagerplätze. Sie können sich auch dafür entscheiden, eine Zone einzurichten und nur Lagerplätze zu verwenden, um Ihr Lager zu organisieren. Weitere Informationen zu Zonen finden Sie unter [Einrichten von Warehouse Management](warehouse-setup-warehouse.md).  
 
-## <a name="default-dimensions-for-locations"></a>Standarddimensionen für Standorte
+## Standarddimensionen für Standorte
 
 Dimensionen sind Attribute und Werte, die Posten kategorisieren, sodass Sie sie mit verschiedenen Berichterstattungstools verfolgen und analysieren können. Dimensionen können beispielsweise angegeben, aus welcher Abteilung oder aus welchem Projekt ein Eintrag kommt. Die Verwendung von Standardabmessungen hilft Menschen, Fehler zu vermeiden und Abmessungen auf Transaktionsebene manuell eingeben zu müssen, wenn alle Waren von einem einzigen Standort und einer einzigen Abteilung stammen.
 
@@ -81,7 +81,7 @@ Bei Bedarf können Sie die Dimensionen in der Zeile löschen oder ändern. Im Fe
 
 Da sich Transportauftragsbelege und Umgliederungserfassungen auf mehr als einen Standort beziehen, ist die Reihenfolge der Dateneingabe wichtig. Standardabmessungen werden aus dem letzten Standortfeld kopiert (der Transitstandort wird ignoriert).
 
-### <a name="example-of-default-dimensions-on-locations"></a>Beispiel einer Standarddimensionen für Standorte
+### Beispiel einer Standarddimensionen für Standorte
 
 Die folgenden Beispiele veranschaulichen, wie die Standarddimension verwendet wird.
 
@@ -104,7 +104,7 @@ Füllen Sie die Felder in der umgekehrten Reihenfolge wie folgt aus:
 
 Die ADM-Dimension wird vom Standort EAST kopiert.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Verwalten des Lagerbestands](inventory-manage-inventory.md)  
 [Lagerbestand zwischen Lagerplätzen umlagern](inventory-how-transfer-between-locations.md)  

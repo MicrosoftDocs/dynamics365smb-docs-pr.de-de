@@ -43,13 +43,11 @@ Die allgemeine Version von [!INCLUDE[prod_short](includes/prod_short.md)] unters
     > [!NOTE]  
     >  Sie können auch eine gebuchte Verkaufsrechnung als elektronischen Beleg senden. Dieser Vorgang ist derselbe wie im Thema für nicht gebuchte Verkaufsbelege beschrieben. Wählen Sie auf der Seite **gebuchte Verkaufsrechnung** die Aktion **Aktivitätsprotokoll**, um den Status des elektronischen Dokuments anzuzeigen.  
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/electronic-documents-dynamics-365-business-central/index)
-
 ## Siehe auch
 
-[Fakturieren eines Verkaufs](sales-how-invoice-sales.md)  
+[Verkäufe fakturieren](sales-how-invoice-sales.md)  
 [Belegsendeprofile einrichten](sales-how-setup-document-send-profiles.md)  
-[Einrichten von Senden und Empfangen von elektronischen Belegen](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
+[Senden und Empfangen von elektronischen Belegen einrichten](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
 [So richten Sie einen Belegaustauschdienst ein](across-how-to-set-up-a-document-exchange-service.md)  
 [Richten Sie Datenaustauschdefinitionen ein](across-how-to-set-up-data-exchange-definitions.md)  
 [Daten elektronisch austauschen](across-data-exchange.md)  
