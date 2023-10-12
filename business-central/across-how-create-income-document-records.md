@@ -10,7 +10,7 @@ ms.author: jswymer
 ms.custom: bap-template
 ms.reviewer: jswymer
 ---
-# Erstellen Sie Datensätze für eingehende Belege
+# <a name="create-incoming-document-records"></a>Erstellen Sie Datensätze für eingehende Belege
 
 Auf der Seite **Eingehende Belege** können Sie verschiedene Funktionen zum Überprüfen von Ausgabenbelegen, Verwalten von OCR-Aufgaben und Konvertieren eingehender Belege, manuell oder automatisch, in den entsprechenden Belegen oder Buch.-Blattzeilen verwenden. Die externen Dateien können in jeder Prozessphase angehängt werden, auch an gebuchte Belege und an die daraus resultierenden Kreditoren-, Kunden- und Hauptbuchhaltungsposten.
 
@@ -18,7 +18,7 @@ Um ein externes Dokument in [!INCLUDE[prod_short](includes/prod_short.md)] zu er
 
 Bevor Sie die Funktion **Eingehende Belege** verwenden können, müssen Sie die erforderlichen Einstellungen vornehmen. Weitere Informationen finden Sie unter [Eingehende Belege festlegen](across-how-setup-income-documents.md).
 
-## Genehmigen oder Ablehnen eines eingehenden Belegs
+## <a name="approve-or-reject-an-incoming-document"></a>Genehmigen oder Ablehnen eines eingehenden Belegs
 
 Wenn Sie die Funktion **Eingehende Belege** so festgelegt haben, dass für das Erstellen von Dokumenten eine Genehmigung erforderlich ist, müssen Benutzer mit den entsprechenden Rechten die Datensätze genehmigen, bevor sie verarbeitet werden. Weitere Informationen finden Sie unter [Einrichten von Genehmigern für eingehende Datensätze](across-how-setup-income-documents.md#to-set-up-approvers-of-incoming-document-records).
 
@@ -27,7 +27,7 @@ Wenn Sie die Funktion **Eingehende Belege** so festgelegt haben, dass für das E
 
 Das Kontrollkästchen **Freigegeben** in der Zeile für den eingehenden Beleg ist aktiviert, wenn dieser genehmigt wurde. Der jeweilige Benutzer, beispielsweise der für das Erstellen von Einkaufsrechnungen zuständige, kann dann fortfahren, den Datensatz zu verarbeiten.
 
-## Erstellen Sie einen Datensatz für einen eingehenden Beleg, indem Sie ein Foto machen
+## <a name="create-an-incoming-document-record-by-taking-a-photo"></a>Erstellen Sie einen Datensatz für einen eingehenden Beleg, indem Sie ein Foto machen
 
 > [!NOTE]  
 > Das folgende Verfahren gilt nur für die [!INCLUDE[prod_short](includes/prod_short.md)] Tablet- und Telefon-Clients.
@@ -39,7 +39,7 @@ Das Kontrollkästchen **Freigegeben** in der Zeile für den eingehenden Beleg is
 
     Es wird ein neuer Datensatz für eingehende Dokumente erstellt, an den das Bild angehängt wird.
 
-## Hängen Sie ein Bild an einen Datensatz für einen eingehenden Beleg an, indem Sie ein Foto machen
+## <a name="attach-an-image-to-an-incoming-document-record-by-taking-a-photo"></a>Hängen Sie ein Bild an einen Datensatz für einen eingehenden Beleg an, indem Sie ein Foto machen
 
 > [!NOTE]  
 > Das folgende Verfahren gilt nur für die [!INCLUDE[prod_short](includes/prod_short.md)] Tablet- und Telefon-Clients.
@@ -51,7 +51,7 @@ Das Kontrollkästchen **Freigegeben** in der Zeile für den eingehenden Beleg is
 
     Das Bild wurde dem Datensatz des eingehenden Beleges angehängt.
 
-## Einen Datensatz für einen eingehenden Beleg manuell erstellen
+## <a name="create-an-incoming-document-record-manually"></a>Einen Datensatz für einen eingehenden Beleg manuell erstellen
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol, geben Sie **Eingehende Belege** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie **Neu**, und dann die Aktion **Erstellen aus Datei**.  
@@ -65,7 +65,7 @@ Das Kontrollkästchen **Freigegeben** in der Zeile für den eingehenden Beleg is
     2. Auf der Seite **Datei einfügen** ziehen Sie eine ausgewählte Datei, die den jeweiligen eingehenden Beleg darstellt, oder wählen **zum Durchsuchen hier klicken** aus, um die Datei zu finden und zu öffnen.
     3. Füllen Sie auf der Seite **Eingehende Belege** die Felder wie benötigt aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Mit OCR PDF- und Bilddateien in elektronische Belege umwandeln](across-how-use-ocr-pdf-images-files.md)
 [Eingehende Belege direkt aus Dokumenten und Einträgen erstellen](across-how-connect-disconnect-income-document-records.md)

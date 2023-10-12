@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 09/08/2022
 ms.author: bholtorf
 ---
-# Erstellen von Workflows aus Workflowvorlagen
+# <a name="create-workflows-from-workflow-templates"></a>Erstellen von Workflows aus Workflowvorlagen
 
 Um Zeit zu sparen, wenn Sie neue Genehmigungsworkflows erstellen, können Sie Workflows aus Workflowvorlagen erstellen.  
 
@@ -20,7 +20,7 @@ Eine andere Art, einen Workflow schnell zu erstellen ist es, einen vorhandenen W
 
 Auf der Seite **Workflow** können Sie einen Workflow erstellen, indem Sie die entsprechenden Schritte in den Zeilen auflisten. Jeder Schritt besteht aus einem durch Ereignisbedingungen moderiertem Workflowereignis und einer durch Antwortoptionen moderierten Workflowantwort. Sie definieren Workflowschritte, indem Sie die Felder in Workflowzeilen mit Ereignis- und Antwortwerten aus festen Listen ausfüllen, die die Workflowszenarien darstellen, die durch den Anwendungscode unterstützt werden. Erfahren Sie mehr unter [Workflows erstellen](across-how-to-create-workflows.md).  
 
-## So erstellen Sie einen Workflow über eine Workflowvorlage
+## <a name="to-create-a-workflow-from-a-workflow-template"></a>So erstellen Sie einen Workflow über eine Workflowvorlage
 
 1. Wählen Sie das Symbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Workflows** ein, und wählen Sie dann den entsprechenden Link.  
 2. Wählen Sie die Aktion **Neuen Workflow aus Vorlage** aus. Die Seite **Workflowvorlagen** wird geöffnet.  
@@ -29,7 +29,7 @@ Auf der Seite **Workflow** können Sie einen Workflow erstellen, indem Sie die e
    Die Seite **Workflow** wird für einen neuen Workflow geöffnet, der alle Informationen der ausgewählten Vorlage enthält. Der Wert im Feld **Code** wird beispielweise mit „-01“ erweitert. Dies zeigt an, dass dies der erste Workflow ist, der von der Workflowvorlage erstellt wurde.  
 4. Fahren Sie fort mit dem Erstellen des Workflows, indem Sie die Workflowschritte bearbeiten oder neue Schritte hinzufügen. Erfahren Sie mehr unter [Workflows erstellen](across-how-to-create-workflows.md).  
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Genehmigungsworkflows erstellen](across-how-to-create-workflows.md)  
 [Genehmigungsworkflows exportieren und importieren](across-how-to-export-and-import-workflows.md)  

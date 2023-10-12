@@ -11,7 +11,7 @@ ms.search.form: '50, 51, 56, 9308'
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# Artikel für einen Verkauf durch das Erstellen von Einkaufsrechnungen kaufen
+# <a name="purchase-items-for-a-sale-by-creating-purchase-invoices"></a>Artikel für einen Verkauf durch das Erstellen von Einkaufsrechnungen kaufen
 
 Bei Verkaufsaufträgen aus der Verkaufsrechnungen können Sie Funktionen verwenden, um für Einkaufsbelege Mengen des fehlenden Stücks schneller zu erstellen, die im Verkauf benötigt werden. Sie können zwei verschiedene Funktionen nutzen, abhängig von der Belegart, die verwendet wird.
 
@@ -23,7 +23,7 @@ Bei Verkaufsaufträgen aus der Verkaufsrechnungen können Sie Funktionen verwend
 |**Einkaufsbestellungen erstellen**|Bei einem Verkaufsauftrag erstellt diese Funktion eine Einkaufsbestellung für jeden Kreditor aus Artikeln des Verkaufsauftrags. Sie können die Abnahmemenge bearbeiten, bevor Sie die Bestellungen erstellen. Nur nicht verfügbare Verkaufsmengen werden vorgeschlagen.
 |**Einkaufsrechnung erstellen**|Bei einem Verkaufsauftrag und einer Verkaufsrechnung, erstellt diese Funktion eine Einkaufsrechnung für einen ausgewählten Kreditor für alle Zeilen oder nur ausgewählte Zeilen des Verkaufsbelegs. Die verfügbare Verkaufsmenge wird vorgeschlagen.|
 
-## Um eine oder mehrere Einkaufsbestellungen aus Verkaufsaufträgen zu erstellen
+## <a name="to-create-one-or-more-purchase-orders-from-a-sales-order"></a>Um eine oder mehrere Einkaufsbestellungen aus Verkaufsaufträgen zu erstellen
 Um eine Bestellung für jede Artikelmenge von nichtverfügbaren Artikeln im Verkaufsauftrag zu erstellen, verwenden Sie die Funktion **Einkaufsbestellungen**.
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Verkaufsaufträge** ein, und wählen Sie dann den zugehörigen Link.
@@ -43,7 +43,7 @@ Um eine Bestellung für jede Artikelmenge von nichtverfügbaren Artikeln im Verk
 7. Fahren Sie fort, die Einkaufsbestellungen zu verarbeiten, indem Sie beispielsweise Einkaufsbestellungszeilen bearbeiten oder hinzufügen. Weitere Informationen finden Sie unter [Erfassen eines Einkaufs](purchasing-how-record-purchases.md).
 
 
-## Eine Einkaufsrechnung aus einer Verkaufsbestellung erstellen
+## <a name="to-create-a-purchase-invoice-from-a-sales-order-or-sales-invoice"></a>Eine Einkaufsrechnung aus einer Verkaufsbestellung erstellen
 Eine einzelne Einkaufsrechnung für eine oder mehrere Zeilen in einem Verkaufsbeleg erstellen, indem Sie zuerst auswählen, von welchem Kreditor Sie die Funktion **Einkaufsr""echnung erstellen** verwenden.
 
 > [!NOTE]  
@@ -59,7 +59,7 @@ Eine einzelne Einkaufsrechnung für eine oder mehrere Zeilen in einem Verkaufsbe
     Eine Einkaufsrechnung wird erstellt, die eine, mehrere oder alle Zeilen auf der Verkaufsrechnung enthält.
 7. Fahren Sie fort, die Einkaufsrechnung zu verarbeiten, indem Sie beispielsweise Einkaufsrechnungszeilen bearbeiten oder hinzufügen. Weitere Informationen finden Sie unter [Erfassen eines Einkaufs](purchasing-how-record-purchases.md).
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 [Einkauf](purchasing-manage-purchasing.md)  
 [Erfassen eines Einkaufs](purchasing-how-record-purchases.md)  
 [Fakturieren eines Verkaufs](sales-how-invoice-sales.md)  

@@ -11,7 +11,7 @@ ms.search.form: '30, 5717, 31, 32, 346, 9091, 5718, 5716, 5720, 1384, 1383, 35, 
 ms.date: 09/26/2022
 ms.author: bholtorf
 ---
-# Neue Artikel registrieren
+# <a name="register-new-items"></a>Neue Artikel registrieren
 
 Artikel sind die Basis Ihres Unternehmens, die Waren oder Dienstleistungen, mit denen Sie handeln. Jeder Artikel muss als Artikelkarte registriert werden.
 
@@ -34,7 +34,7 @@ Im folgenden Verfahren wird erläutert, wie Sie eine Objektkarte von Grund auf n
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE47eLx?rel=0]
 
-## So erstellen Sie eine neue Artikelkarte
+## <a name="to-create-a-new-item-card"></a>So erstellen Sie eine neue Artikelkarte
 
 [!INCLUDE[create_new_item](includes/create_new_item.md)]
 
@@ -49,7 +49,7 @@ Der Artikel ist nun erfasst und die Debitorenkarte ist bereit, in Einkaufs- und 
 
 Wenn Sie diese Artikelkarte als Vorlage zum Erstellen neuer Artikelkarten verwenden möchten, können Sie sie als Vorlage speichern. Weitere Informationen finden Sie im folgenden Abschnitt.  
 
-### So speichern Sie die Artikelkarte als Vorlage
+### <a name="to-save-the-item-card-as-a-template"></a>So speichern Sie die Artikelkarte als Vorlage
 
 1. Wählen Sie auf der Seite **Artikelkarte** die Aktion **Als Vorlage speichern** aus. Die Seite **Arikelvorlage** wird geöffnet und zeigt die Artikelkarte als Vorlage.
 2. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -59,11 +59,11 @@ Wenn Sie diese Artikelkarte als Vorlage zum Erstellen neuer Artikelkarten verwen
 
 Die Artikelvorlage wird der Liste von Artikelvorlagen hinzugefügt, damit Sie diese verwenden können, um neue Debitorenkarten zu erstellen.
 
-### Artikel, die in Fertigungsaufträgen verwendet werden
+### <a name="items-used-in-production-orders"></a>Artikel, die in Fertigungsaufträgen verwendet werden
 
 Wenn Sie Artikel registrieren möchten, die dann in Fertigungsaufträgen verwendet werden, geben Sie die Beschaffungsmethode im Inforegister **Beschaffung** als *Fertigungsauftrag* an. Weitere Informationen finden Sie unter [Info zu Montageaufträgen](production-about-production-orders.md).  
 
-## So richten Sie mehrere Kreditoren für einen Artikel ein
+## <a name="to-set-up-multiple-vendors-for-an-item"></a>So richten Sie mehrere Kreditoren für einen Artikel ein
 
 Wenn Sie den gleichen Artikel von mehr als einem Kreditoren einkaufen, müssen Sie die benötigten Informationen für jeden Kreditor eingeben. Dies umfasst z. B. Preise, Lieferzeit, Rabatte usw.  
 
@@ -76,11 +76,11 @@ Wenn Sie den gleichen Artikel von mehr als einem Kreditoren einkaufen, müssen S
 
 Die Kreditoren erscheinen dann auf der Seite **Artikel/Kreditoren Katalog**, damit Sie einen alternativen Kreditor einfach auswählen können.
 
-## Ersatzartikel einrichten
+## <a name="set-up-item-substitutions"></a>Ersatzartikel einrichten
 
 Sie können Artikel so einrichten, dass sie über Ersatzartikel verfügen, z. B. andere Artikel, die anstelle des ursprünglichen Artikels verwendet werden können.
 
-### So legen Sie einen Ersatzartikel für einen Artikel fest
+### <a name="to-make-an-item-substitution"></a>So legen Sie einen Ersatzartikel für einen Artikel fest
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol einrichten möchten, geben Sie **Artikel** ein und wählen dann den entsprechenden Link.  
 2. Suchen Sie den entsprechenden Artikel, und klicken Sie dann auf die **Artikelnr.**, um die Artikelkarte zu öffnen.  
@@ -93,29 +93,29 @@ Wenn die angeforderte Menge, beispielsweise in einer Verkaufszeile, die Menge ü
 > [!NOTE]  
 > Beachten Sie, dass Artikelersetzungen nicht automatisch dazu führen, dass ein Artikel durch einen anderen Artikel ersetzt wird, beispielsweise beim Erstellen eines Verkaufsauftrags oder in einer Stückliste. Stattdessen werden Sie darüber benachrichtigt, dass Ihnen ein Ersatzartikel zur Verfügung steht.
 
-## Kategorien, Attribute und Varianten
+## <a name="categories-attributes-and-variants"></a>Kategorien, Attribute und Varianten
 
 [!INCLUDE[inventory_variant](includes/inventory_variant.md)]
 
 Erfahren Sie mehr über Varianten unter [Produktvarianten verwalten](inventory-item-variants.md).  
 
-## Löschen von Artikelkarten
+## <a name="deleting-item-cards"></a>Löschen von Artikelkarten
 
 Wenn Sie eine Transaktion für einen Artikel gebucht haben, können Sie die Karte nicht löschen, da die Posten möglicherweise für die Bestandsbewertung oder die Prüfung erforderlich sind. Um Artikelkarten mit Posten zu löschen, wenden Sie sich an einen Microsoft-Partner, um dies über einen Code durchzuführen.  
 
-## Lagerbestand in Lagern verwalten
+## <a name="manage-inventory-in-warehouses"></a>Lagerbestand in Lagern verwalten
 
 Wenn Sie einen neuen Artikel erfassen, werden Felder angezeigt, die sich auf die Lagerverwaltung beziehen, insbesondere im Inforegister **Lager**. Wenn Ihre Organisation die Lagerverwaltungsfunktionen in [!INCLUDE [prod_short](includes/prod_short.md)] nicht verwendet, können Sie diese Felder ignorieren.  
 
 Wenn Ihre Organisation später eine Lagerverwaltung einrichtet, empfehlen wir Ihnen sicherzustellen, dass jeder vorhandene Artikel die richtigen Informationen in den verschiedenen Feldern enthält. Auf diese Weise können die Lagerprozesse wie erwartet ablaufen. Die Informationen können Felder wie **Lagerklassencode** oder **Einlagerungsvorlagencode** umfassen. Weitere Informationen finden Sie unter [Lagerortverwaltung einrichten](warehouse-setup-warehouse.md).  
 
-## Planung
+## <a name="planning"></a>Planung
 
 Wenn Ihre Firma die Prozesse der Lieferplanung in [!INCLUDE [prod_short](includes/prod_short.md)] verwendet, müssen Sie die entsprechenden Felder auf dem Inforegister **Planung** ausfüllen. Eine Einführung in den Planungsbereich finden Sie unter [Details zur Planung: Zentrale Konzepte des Planungssystems](design-details-central-concepts-of-the-planning-system.md).  
 
 Beispiele für die Verwendung der Felder auf der Inforegisterkarte **Planung** finden Sie unter [Bewährte Verfahren für die Einrichtung: Planungsparameter](setup-best-practices-planning-parameters.md).  
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Bestand](inventory-manage-inventory.md)  
 [Einheiten einrichten](inventory-how-setup-units-of-measure.md)  

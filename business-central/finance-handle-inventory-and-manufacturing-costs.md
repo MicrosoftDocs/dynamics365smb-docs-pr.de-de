@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/16/2021
 ms.author: bholtorf
 ---
-# Verarbeiten von Lager- und Fertigungskosten
+# <a name="handling-inventory-and-manufacturing-costs"></a>Verarbeiten von Lager- und Fertigungskosten
 
 Obgleich viele der Kostenberechnungsfunktionen in untergeordneten Prozessen ohne Benutzereingriff ausgedrückt werden (beispielsweise Postenausgleich und automatische Lagerregulierung), sind eine Reihe von Feldern, Seiten und Berichten für Benutzer konzipiert, die die Kosten von Artikeln oder Arbeitsgängen direkt oder indirekt verwalten.  
 
@@ -29,7 +29,7 @@ Obgleich viele der Kostenberechnungsfunktionen in untergeordneten Prozessen ohne
 |Manuelles Rückgängigmachen eines Artikelausgleichs oder erneutes Ausgleichen von Artikelposten, die durch die Anwendung erstellt wurden|[Artikelposten entfernen und erneut ausgleichen](finance-how-to-remove-and-reapply-item-entries.md)|  
 |Sie können das Feld **Eintrag anwenden** im Buch.-Blatt verwenden, um manuell einen festen Ausgleich zwischen einer eingehenden Transaktion und der ursprünglichen ausgehenden Transaktion zu erstellen.|[Schließen von offenen Artikelposten aus einem festen Ausgleich im Artikel Buch.-Blatt](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)|  
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Lagerkosten Verwalten](finance-manage-inventory-costs.md)
 [Designdetails: Lagerkosten](design-details-inventory-costing.md)

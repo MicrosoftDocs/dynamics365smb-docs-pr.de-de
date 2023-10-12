@@ -11,7 +11,7 @@ ms.search.keywords: 'consolidation, subsidiaries, consolidate'
 ms.search.form: '1826, 1827'
 ---
 
-# Unternehmenskonsolidierung einrichten
+# <a name="set-up-company-consolidation"></a>Unternehmenskonsolidierung einrichten
 
 Bevor Sie die Sachposten von zwei oder mehr Unternehmen (Niederlassungen) in ein konsolidiertes Unternehmen zusammenführen können, müssen Sie die Kontenpläne und das Konsolidierungsunternehmen vorbereiten.  
 
@@ -22,7 +22,7 @@ Je nach Komplexität Ihrer Unternehmen, gibt es zwei Arten, die Konsolidierung e
   * Geben Sie in jeder Geschäftseinheit die Hauptbuchkonten an, die in die Konsolidierung einbezogen werden sollen, sowie die Umrechnungsmethode für jedes Konto.
   * Richten Sie in der konsolidierten Gesellschaft für jede Gesellschaft, die in die Konsolidierung einbezogen werden soll, eine Geschäftsbereichskarte ein. Auf der Konzernmandantenkarte befinden sich Informationen wie Datumswerte für das Geschäftsjahr des Konzernmandanten und der Prozentsatz jedes Kontos, das in die Konsolidierung einbezogen werden muss.
 
-## Einfache Konsolidierungseinrichtung
+## <a name="simple-consolidation-setup"></a>Einfache Konsolidierungseinrichtung
 
 Wenn die Konsolidierung einfach ist, weil Sie beispielsweise die Geschäftseinheit als Ganzes besitzen, führt Sie die **Mandanten-Konsolidierung** durch die folgenden Schritte:
 
@@ -34,11 +34,11 @@ Um die unterstützte Einrichtung zu starten, gehen Sie folgendermaßen vor:
 1. Wählen Sie das Symbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol, geben Sie **Unterstützte Einrichtung** ein und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie **Prozesskonsolidierungen** und schließen Sie dann jeden Schritt im unterstützten Setup der Unternehmenskonsolidierung ab.
 
-## Erweiterte Konsolidierungseinrichtung
+## <a name="advanced-consolidation-setup"></a>Erweiterte Konsolidierungseinrichtung
 
 Wenn Sie erweitertere Einstellungen für die Konsolidierung benötigen, können Sie die Konsolidierung manuell einrichten. Wenn Sie Unternehmen haben, die Sie nur teilweise besitzen, oder Sie haben Mandanten, die nicht enthalten sein soll.  
 
-### Richten Sie den Konsolidierungsmandanten ein.
+### <a name="set-up-the-consolidated-company"></a>Richten Sie den Konsolidierungsmandanten ein.
 
 Zuerst müssen Sie das konsolidierte Unternehmen einrichten. Die Einrichtung des konsolidierten Unternehmens erfolgt auf die gleiche Weise wie die Einrichtung anderer Unternehmen. Weitere Informationen über die Einrichtung eines Unternehmens finden Sie unter [Bereitschaft für die Geschäftsabwicklung](ui-get-ready-business.md).  
 
@@ -62,7 +62,7 @@ Die folgende Liste veranschaulicht wichtige Aspekte des konsolidierten Unternehm
 
     Weitere Informationen finden Sie im Abschnitt [Dimensionen ein- oder ausschließen](#dim).
 
-### <a name="busunit"></a>Konzernmandanten hinzufügen
+### <a name="add-business-units"></a><a name="busunit"></a>Konzernmandanten hinzufügen
 
 Richten Sie im Konsolidierungskreis jede Gesellschaft, deren Daten Sie konsolidieren wollen, als Konzernmandanten ein. Bevor Sie eine Konsolidierung durchführen und Ihren Konsolidierungsbericht erstellen, sollten Sie die Finanzdaten in jedem Konzernmandanten überprüfen.
 
@@ -88,7 +88,7 @@ Bei der Einrichtung eines Konzernmandanten muss festgelegt werden, wie der Konze
         Um die Endpunkt-URL zu erhalten, öffnen Sie in der [!INCLUDE [prod_short](includes/prod_short.md)]-Seite des Unternehmens des Konzernmandanten die Seite **Konzernmandantenkarte** und wählen Sie die Aktion **Einrichten**. 
    * Um eine .xml-Datei zu exportieren und manuell freizugeben, wählen Sie **Dateiformat**.
 
-### <a name="glacc"></a>Sachkonten für die Konsolidierung vorbereiten
+### <a name="prepare-general-ledger-accounts-for-consolidation"></a><a name="glacc"></a>Sachkonten für die Konsolidierung vorbereiten
 
 Der Kontenplan eines Mandanten, der konsolidiert wird, muss Konten für die Konsolidierung enthalten. Für jedes buchende Hauptbuchkonto in jeder Gesellschaft müssen Sie das Hauptbuchkonto in der konsolidierten Gesellschaft angeben, auf das der Saldo übertragen werden soll. Mit dieser Zuordnung können Sie Unternehmen mit unterschiedlichen Kontenplänen konsolidieren.
 
@@ -97,7 +97,7 @@ Wenn der Kontenplan des Konzernmandanten aus dem Konsolidierungsmandanten abweic
 1. Wählen Sie in der [!INCLUDE [prod_short](includes/prod_short.md)] jeder Einheit die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen") Symbol. Geben Sie **Kontenplan** ein, und wählen Sie dann den zugehörigen Link.  
 2. Öffnen Sie die Karte für das Konto, und füllen Sie dann die Felder im Inforegister **Konsolidierung** aus. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-### <a name="exchrates"></a>Wechselkurse für Konsolidierungen angeben
+### <a name="specify-exchange-rates-for-consolidations"></a><a name="exchrates"></a>Wechselkurse für Konsolidierungen angeben
 
 Richten Sie Wechselkurse für die Konsolidierung ein, wenn für die Finanzauswertungen eines Konzernmandanten nicht die Währung des konsolidierten Mandanten verwendet wird. Für jedes Konto bestimmt der Inhalt des Feldes **Konsol. Umrechnungsmethode** den Wechselkurses. Im konsolidierten Unternehmen auf jeder Konzernmandantenkarte im Feld **Währungswechselkurstabelle** geben Sie an, ob bei der Konsolidierung Wechselkurse des Konzernmandanten oder des konsolidierten Unternehmens verwendet werden. Bei Verwendung von Wechselkursen des konsolidierten Mandanten können die Wechselkurse für einen Konzernmandanten geändert werden. Enthält bei einer Geschäftseinheit das Feld **Wechselkurstabelle** (auf der Konzernmandantenkarte) den Wert **Lokal**, kann der Wechselkurs auf der Konzernmandantenkarte geändert werden. Zwar werden die Wechselkurse aus der Tabelle **Währungswechselkurs** kopiert, Sie haben jedoch die Möglichkeit, diese Wechselkurse vor der Konsolidierung zu ändern.
 
@@ -120,7 +120,7 @@ Um Wechselkurse für Konzernmandanten anzugeben, gehen Sie folgendermaßen vor:
 4. Wählen Sie die **Ultimokurs**-Aktion aus.  
 5. In dem Feld **Relationaler Wechselkursbetrag** geben Sie den Wechselkurs ein.
 
-### <a name="dim"></a>Dimensionen ein- oder ausschließen
+### <a name="include-or-exclude-dimensions"></a><a name="dim"></a>Dimensionen ein- oder ausschließen
 
 Sie können Dimensionsinformationen und Sachkonten konsolidieren.
 
@@ -130,15 +130,15 @@ Sie können Dimensionsinformationen und Sachkonten konsolidieren.
   * Um den Dimensionswertcode im Konzernmandanten mit einem anderen Dimensionswertcode im konsolidierten Unternehmen zu konsolidieren, füllen Sie das Feld **Konsolidierungscode** bei den Dimensionen aus.  
 * Fügen Sie die Dimensionen zu den Sachkonten hinzu.
 
-### <a name="exclude"></a>Ein Unternehmen aus der Konsolidierung ausschließen
+### <a name="exclude-a-company-from-consolidation"></a><a name="exclude"></a>Ein Unternehmen aus der Konsolidierung ausschließen
 
 Wenn Sie keinen Konzernmandanten in die Konsolidierung einbeziehen, können Sie sie ausschließen. Um das zu tun, wechseln Sie zur Konzernmandantenkarte, und löschen Sie das Kontrollkästchen **Konsolidieren**.
 
-### <a name="include"></a>Schließen Sie Unternehmen in die Konsolidierung ein, das teilweise im Besitz ist
+### <a name="include-a-partially-owned-company-in-consolidation"></a><a name="include"></a>Schließen Sie Unternehmen in die Konsolidierung ein, das teilweise im Besitz ist
 
 Wenn Sie nur einen Teil eines Unternehmens besitzen, können Sie für jede Transaktion einen Prozentsatz angeben, der Ihrem Anteil entspricht. Wenn beispielsweise 70% des Unternehmen anlegen, enthält $70 Konsolidierung einer Rechnung für $100. Um den Prozentsatz des Unternehmens anzugeben, den Sie anlegen, wechseln Sie zur Konzernmandantenkarte, und geben Sie den Prozentsatz im Feld **Konsolidierung %** ein.  
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Konsolidieren von Finanzdaten aus mehreren Unternehmen](finance-consolidated-company-reporting.md)  
 [Intercompanytransaktionen verwalten](intercompany-manage.md)  

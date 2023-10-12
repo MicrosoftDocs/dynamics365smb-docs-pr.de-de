@@ -10,12 +10,12 @@ ms.search.keywords: null
 ms.date: 06/18/2021
 ms.author: bholtorf
 ---
-# Manuelle Lieferanmahnungen in der deutschen Version erstellen
+# <a name="create-delivery-reminders-manually-in-the-german-version"></a>Manuelle Lieferanmahnungen in der deutschen Version erstellen
 
 
 [!INCLUDE [delivery-reminders-create-manually](../includes/ATCHDE/delivery-reminders-create-manually.md)]
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Lieferbenachrichtigungen](delivery-reminders.md)  
 [So erstellen Sie Lieferanmahnungen](how-to-generate-delivery-reminders.md)  

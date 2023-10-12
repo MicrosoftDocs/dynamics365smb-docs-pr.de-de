@@ -8,7 +8,7 @@ ms.date: 05/31/2023
 ms.custom: bap-template
 ---
 
-# Einführung in Contoso Coffee Service Management
+# <a name="introduction-to-contoso-coffee-service-management"></a>Einführung in Contoso Coffee Service Management
 
 Contoso Coffee ist ein fiktives Unternehmen, das Kaffeemaschinen für Verbraucher und gewerbliche Kunden herstellt. Die **Contoso Coffee**-Apps für Business Central fügen Demodaten hinzu, mit deren Hilfe Sie die Verwendung der Servicemanagementfunktionen in Business Central erlernen können.
 
@@ -22,7 +22,7 @@ Diese App bietet mehrere Elemente, die für die wichtigsten exemplarischen Vorge
 > Bevor Sie eines der Szenarien für Contoso Coffee ausführen, buchen Sie alle Buchungsblattzeilen mit Anfangssalden. Weitere Anforderungen finden Sie im Abschnitt [Contoso Coffee-Daten einrichten](#set-up-contoso-coffee-service-management-data).
 >
 > 
-## Einrichten von Contoso Coffee-Servicemanagementdaten
+## <a name="set-up-contoso-coffee-service-management-data"></a>Einrichten von Contoso Coffee-Servicemanagementdaten
 
 [!INCLUDE [contoso-coffee-app-install](../contoso-coffee-app-install.md)].
 
@@ -42,7 +42,7 @@ Sobald die relevanten Apps installiert sind, gehen Sie zur Seite [Contoso-Demo-T
 
 Wenn Sie fertig sind, wählen Sie die Aktion **Demodaten erstellen** aus. Es dauert einige Minuten, der zugrunde liegenden Datenbank die Daten hinzuzufügen, anschließend können Sie die verschiedenen Szenarien jedoch ausführen.  
 
-## Szenarien
+## <a name="scenarios"></a>Szenarien
 
 Die Lager-Demodaten von Contoso Coffee unterstützen derzeit die folgenden Serviceszenarien für Tests und Schulungen:
 
@@ -55,6 +55,6 @@ Lesen Sie die Schritte für jedes Szenario im entsprechenden Artikel.
 > Diese exemplarischen Vorgehensweisen für Services erfordert, dass die Benutzererfahrung auf der Seite **Unternehmensdaten** auf **Premium** festgelegt ist.
 
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Dienst](../../service-service.md)

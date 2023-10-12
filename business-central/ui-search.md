@@ -8,7 +8,7 @@ ms.search.form: 'TellMe, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9
 ms.date: 06/14/2023
 ms.author: bholtorf
 ---
-# Suchen von Seiten und Informationen mit Wie möchten Sie weiter verfahren
+# <a name="finding-pages-and-information-with-tell-me"></a>Suchen von Seiten und Informationen mit Wie möchten Sie weiter verfahren
 
 In diesem Artikel wird beschrieben, wie Ihnen die produktinterne Suche *Was möchten Sie tun?* helfen kann: 
 
@@ -32,24 +32,24 @@ Am unteren Rand der Seite **Wie möchten Sie weiter verfahren** ist die Aktion *
 
 Auf der Seite **Wie möchten Sie weiter verfahren** werden Ergebnisse basierend auf den von Ihnen eingegebenen Daten und der Seite, an der Sie arbeiten, kategorisiert. In den folgenden Abschnitten werden die Kategorien beschrieben.
 
-## Suchen nach einer Aktion auf der aktuellen Seite
+## <a name="find-an-action-on-the-current-page"></a>Suchen nach einer Aktion auf der aktuellen Seite
 
 Im Abschnitt **Auf aktueller Seite** können Sie Aktionen auf der geöffneten Seite suchen. Wenn beispielsweise die **Verkaufsangebot** Seite geöffnet ist und Sie "Debitor" eingeben, umfasst der Abschnitt eine Aktion, mit der die Debitorenkarte für den Debitor geöffnet wird, der im Verkaufsangebot ausgewählt ist.
 
 > [!NOTE]  
 > Die Liste enthält nur Aktionen, die in der Navigationsleiste oben auf der Seite verfügbar sind. Aktionen in Inforegistern werden nicht berücksichtigt.  
 
-## Suchen nach einer Seite oder Aufgabe
+## <a name="find-a-page-or-a-task"></a>Suchen nach einer Seite oder Aufgabe
 
 Die Ergebnisse im Abschnitt **Zu Seiten und Aufgaben wechseln** bieten Zugriff auf andere Seiten und lässt Sie Aufgaben ausführen oder Informationen suchen. Wenn Sie diese Seiten häufig verwenden, können Sie über das Lesezeichensymbol einen Link zu einer beliebigen Seite in Ihrem Rollencenter hinzufügen. Weitere Informationen finden Sie unter [Fügen Sie Ihrem Rollencenter eine Seitenaktion hinzu](ui-bookmarks.md).
 
 Die aufgeführten Seiten und Aufgaben hängen von der Benutzerumgebung ab, die Sie für Ihr Unternehmen ausgewählt haben. Die **Standard** Umgebung gibt Zugang zu weniger Seiten und Aufgaben, als die Umgebung **Premium**. Wenn Sie sich zum ersten Mal anmelden, nutzen Sie die Umgebung **Standard**. Weitere Informationen zu Benutzererfahrungen finden Sie unter [Anpassen Ihrer [!INCLUDE[prod_short](includes/prod_short.md)] Erfahrung](ui-experiences.md).
 
-## Suchen nach einem Bericht oder archivierten Informationen
+## <a name="find-a-report-or-archived-information"></a>Suchen nach einem Bericht oder archivierten Informationen
 
 Der Abschnitt **Zu „Berichte und Analysen“ wechseln** bietet Zugriff auf Tools zur Berichtserstattung. Beispielsweise können Sie den Bericht **Bilanz** aus der Liste öffnen oder auf archivierte Belege und andere Informationen zugreifen.  
 
-## Suchen Sie einen Datensatz oder durchsuchen Sie die Dokumentation
+## <a name="find-a-record-or-search-the-documentation"></a>Suchen Sie einen Datensatz oder durchsuchen Sie die Dokumentation
 
 Der Abschnitt **Suchen nach \<keyword\>** [!INCLUDE [prod_short](includes/prod_short.md)] bietet mehrere Suchmöglichkeiten:
 
@@ -59,7 +59,7 @@ Der Abschnitt **Suchen nach \<keyword\>** [!INCLUDE [prod_short](includes/prod_s
   > [!NOTE]  
   > Ihre Suchergebnisse enthalten keine Dokumentation für Erweiterungen von Drittanbietern.
 
-### „Wie möchten Sie weiter verfahren“ verwenden
+### <a name="use-tell-me-what-you-want-to-do"></a>„Wie möchten Sie weiter verfahren“ verwenden
 
 ![Wie möchten Sie weiter verfahren](media/ui-search/search.png "Nach Seite oder Bericht suchen") verwenden Klicken Sie auf das **Suchsymbol**, um Daten in [!INCLUDE [prod_short](includes/prod_short.md)] zu suchen. Sie können beispielsweise einen Debitor finden, indem Sie dessen Namen oder Adresse eingeben, oder sogar einen bestimmten Datensatz, beispielsweise einen Debitorenauftrag, finden. Sie können es auch verwenden, um Informationen in unserer Dokumentation zu finden.
 
@@ -73,22 +73,22 @@ Geben Sie einfach mindestens drei Zeichen eines Schlüsselworts ein und wählen 
 
 [!INCLUDE [ui-how-search-works](includes/ui-how-search-works.md)]
 
-## Holen Sie sich mehr Funktionalität von Apps
+## <a name="get-more-functionality-from-apps"></a>Holen Sie sich mehr Funktionalität von Apps
 
 Unsere Partner Community entwickelt laufend Apps, die Funktionen zu [!INCLUDE[prod_short](includes/prod_short.md)] hinzufügen. Der Abschnitt **Aus Microsoft AppSource herunterladen** führt Apps für [!INCLUDE[prod_short](includes/prod_short.md)] auf, die auf Microsoft AppSource verfügbar und sind und mit dem Suchwort zusammenhängen, das Sie eingegeben haben.
 
-### Verwenden Sie die Suche auf Listenseiten
+### <a name="use-search-on-list-pages"></a>Verwenden Sie die Suche auf Listenseiten
 
 Es hat nichts mit „Wie möchten Sie weiter verfahren“ zu tun, aber es gibt eine andere Möglichkeit, nach bestimmten Daten zu suchen. Wenn Sie eine Listenseite verwenden, können Sie das Feld ![Suchliste](media/ui-search/search-list.png "Symbol für die Suchliste") **Suche** in der linken Ecke der Kopfzeile der Listenseite verwenden, um nach Daten auf der Seite zu suchen. Die Suche trifft nur auf die Liste zu, die Sie anzeigen. Weitere Informationen zum Arbeiten mit Daten auf Listenseiten finden Sie unter [Listen sortieren, suchen und filtern](ui-enter-criteria-filters.md).  
 
 > [!TIP]
 > Sie können nach gebuchten Belegzeilen suchen, z. B. Rechnungszeilen, Gutschriftszeilen, Lieferzeilen und Empfangszeilen. Suchen Sie nach der Art der Dokumentzeilen, die Sie finden möchten, und markieren Sie dann die Links zu den Dokumenten auf Ihrer Homepage mit einem Lesezeichen, um einfachen Zugriff auf das Original oder eine gefilterte Ansicht zu erhalten. Erfahren Sie mehr unter [Fügen Sie Ihrem Rollencenter eine Seitenaktion hinzu](ui-bookmarks.md).
 
-## Fragen?
+## <a name="questions"></a>Fragen?
 
 Wir haben die Suche einer Reihe von Projektbeteiligten präsentiert, deren gemeinsame Fragen notiert und aus unseren Notizen eine Liste der häufig gestellten Fragen erstellt. Bei Interesse finden Sie sie unter [„Wie möchten Sie weiter verfahren“-FAQ](ui-search-faq.md).
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Arbeiten mit Business Central](ui-work-product.md)  
 [Fügen Sie Ihrem Rollencenter eine Seitenaktion hinzu](ui-bookmarks.md)  
