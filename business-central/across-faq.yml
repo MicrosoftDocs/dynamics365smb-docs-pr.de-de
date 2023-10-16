@@ -65,7 +65,7 @@ sections:
       - question: |
           Wo finde ich diese Zeilennummer?
         answer: |
-          Dokumente wie Kundenaufträge oder Eingangsrechnungen bestehen aus Kopfzeilen und Zeilen. Jede Zeile hat eine Nummer, die [!INCLUDE [prod_short](includes/prod_short.md)] verwendet, um diese bestimmte Zeile zu identifizieren. Infolgedessen wird möglicherweise eine Warnung oder eine Fehlermeldung angezeigt, dass beispielsweise in Zeile 1000 etwas nicht stimmt. In der Standardversion von [!INCLUDE [prod_short](includes/prod_short.md)] sind Zeilennummern ausgeblendet. Wenn Sie die Zeilennummern sehen möchten, müssen Sie die aktuelle Seite personalisieren und die **Zeilennr.** hinzufügen. Feld Weitere Informationen unter [Ihren Arbeitsbereich personalisieren](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).  
+          Dokumente wie Kundenaufträge oder Eingangsrechnungen bestehen aus Kopfzeilen und Zeilen. Jede Zeile hat eine Nummer, die [!INCLUDE [prod_short](includes/prod_short.md)] verwendet, um diese bestimmte Zeile zu identifizieren. Infolgedessen wird möglicherweise eine Warnung oder eine Fehlermeldung angezeigt, dass beispielsweise in Zeile 1000 etwas nicht stimmt. In der Standardversion von [!INCLUDE [prod_short](includes/prod_short.md)] sind Zeilennummern ausgeblendet. Wenn Sie die Zeilennummern sehen möchten, müssen Sie die aktuelle Seite personalisieren und die **Zeilennr.** hinzufügen. Feld Weitere Informationen unter [Ihren Arbeitsbereich personalisieren](ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode).  
       - question: |
           Warum beschreibt Hilfe Funktionalität, auf die ich nicht zugreifen kann?
         answer: |
@@ -90,7 +90,7 @@ sections:
 
           Wenn das Konto, bei dem Sie sich anmelden, kein Microsoft 365-Arbeitskonto ist (wie z. B. joe@mysolution.com) und Sie ein Microsoft 365-Abonnement haben, können Sie Ihre Domäne (*mysolution.com*) dem Microsoft 365-Abonnement zuordnen. Erfahren Sie mehr unter [Was ist eine Domäne?](/microsoft-365/admin/get-help-with-domains/what-is-a-domain?view=o365-worldwide&preserve-view=true) im Microsoft 365-Inhalt.  
 
-          Wenn Sie kein Microsoft 365-Abonnement haben und Sie keines kaufen möchten, dann stellen wir bei der Registrierung einen neuen Azure Active Directory-Mandanten für Sie bereit, sodass Sie Zugriff auf die erweiterten Verwaltungstools im Azure-Portal haben.  
+          Wenn Sie kein Microsoft 365-Abonnement haben und Sie keines kaufen möchten, dann stellen wir bei der Registrierung einen neuen Microsoft Entra-Mandanten für Sie bereit, sodass Sie Zugriff auf die erweiterten Verwaltungstools im Azure-Portal haben.  
       - question: |
           Worum geht's bei der Integration in Microsoft 365?
         answer: |

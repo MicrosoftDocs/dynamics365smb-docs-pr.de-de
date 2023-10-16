@@ -1,8 +1,8 @@
 ---
-author: edupont04
+author: brentholtorf
 ms.topic: include
 ms.date: 08/16/2022
-ms.author: edupont
+ms.author: bholtorf
 ---
 Um einen RSS-Feed (Really Simple Syndication) über alle Aktualisierungen der Inhalte auf learn.microsoft.com zu abonnieren, die die Business-Funktionalität für [!INCLUDE [prod_short](prod_short.md)] betreffen, verwenden Sie den folgenden Link:
 

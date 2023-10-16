@@ -348,6 +348,11 @@
 #### [Mit Zahlungstoleranzen und Skontotoleranzen arbeiten](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [Die Erweiterung zur Vorhersage verspäteter Zahlungen](ui-extensions-late-payment-prediction.md)
 
+### E-Belege verwalten
+#### [E-Belege einrichten](finance-how-setup-edocuments.md)
+#### [E-Belege bei Verkäufen und Einkäufen verwenden](finance-how-use-edocuments.md)
+#### [Erweiterung der E-Beleg-Funktionalität](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)
+
 ### Mehrwertsteuer verwalten
 #### [Mehrwertsteuerverwaltung – Übersicht](finance-manage-vat.md)
 #### [EU-Drittanbieter-Einkaufstransaktionen einrichten](finance-how-to-eu3party-trade-purchase.md)
@@ -447,9 +452,10 @@
 ### [Transaktionen direkt in der Finanzbuchhaltung buchen](finance-how-post-transactions-directly.md)
 ### [Buch.-Blatt-Buchungen stornieren und Eingänge/Lieferungen rückgängig machen](finance-how-reverse-journal-posting.md)
 ### [Export der Protokolldatei](finance-how-to-export-audit-files.md)
-### [Kosten und Einkünfte zuteilen](year-allocate-costs-income.md)
 ### [Ausgaben der Beschäftigten aufzeichnen und erstatten](finance-how-record-reimburse-employee-expenses.md)
 ### [Umsätze und Ausgaben abgrenzen](finance-how-defer-revenue-expenses.md)
+### [Wiederkehrende Kosten und Einkünfte zuteilen](year-allocate-costs-income.md)
+### [Umsatz und Kosten mehreren Sachkonten zuteilen](finance-allocate-revenue-costs.md)
 ### [Währungswechselkurse aktualisieren](finance-how-update-currencies.md)
 ### [Lohntransaktionen importieren](finance-how-import-payroll-transactions.md)
 ### [Mit MwSt.im Verkauf und Einkauf arbeiten](finance-work-with-vat.md)
@@ -585,6 +591,7 @@
 #### [Aktivitäten für Segmente verwalten](marketing-interaction-segments.md)
 ### Aktivitäten verwalten
 #### [Aktivitäten](marketing-interactions-overview.md)
+#### [Anlagen für Aktivitäten](marketing-interaction-attachments.md)
 #### [Aktivitäten mit Kontakten erfassen](marketing-interactions.md)
 #### [Aktivitäten zu Kontakten und Segmenten erstellen](marketing-how-create-interactions.md)
 #### [Aktivitäten mit Kontakten automatisch erfassen](marketing-auto-record-interactions.md)
@@ -1545,6 +1552,7 @@
 #### [Lieferbedingungen einrichten](sales-how-set-up-shipment-methods.md)
 #### [Zusteller einrichten](sales-how-to-set-up-shipping-agents.md)
 #### [Rechnungsbuchungsrichtlinie für Benutzer definieren](admin-setup-invoice-posting-policy.md)
+#### [Belegdaten mit Buchungsdaten aktualisieren](across-link-doc-dates-to-posting-dates.md)
 ### Einkäufer einrichten
 #### [Einkäufer einrichten](purchasing-setup-purchasing.md)
 #### [Neue Kreditoren einrichten](purchasing-how-register-new-vendors.md)
@@ -1554,6 +1562,7 @@
 #### [Preise und Rabatte einrichten](across-prices-and-discounts.md)
 #### [Sondereinkaufspreise und Rabatte erfassen](purchasing-how-record-purchase-price-discount-payment-agreements.md)
 #### [Rechnungsbuchungsrichtlinie für Benutzer definieren](admin-setup-invoice-posting-policy.md)
+#### [Belegdaten mit Buchungsdaten aktualisieren](across-link-doc-dates-to-posting-dates.md)
 ### Lagerbestand einrichten
 #### [Lagerbestand einrichten](inventory-setup-inventory.md)
 #### [Allgemeine Lagerbestandsinformationen einrichten](inventory-how-setup-general.md)
@@ -1791,7 +1800,7 @@
 ### [Häufig gestellte Fragen zu Sortieren und Filtern](ui-search-filter-faq.yml)
 ### [Seitendaten in Excel analysieren](across-work-with-excel.md)
 ### [Berichtsdaten mit Excel analysieren](report-analyze-excel.md)
-### [Listendaten mit dem Analysemodus analysieren](analysis-mode.md)
+### [Listen- und Abfragedaten mit dem Analysemodus analysieren](analysis-mode.md)
 ### [Financial Business Intelligence](bi.md)
 
 ## Integrierte Analysen 
