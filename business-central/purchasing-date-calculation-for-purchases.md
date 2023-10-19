@@ -58,12 +58,10 @@ Sie können die Datumsformel manuell in Zeilen angeben. Andernfalls verwendet [!
 3. Lagerhaltungsdatenkarte
 4. Kreditorenkarte
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/estimate-receipt-dates-dynamics-365-business-central/)
-
 ## Siehe auch
 
 [Terminberechnung für Verkäufe](sales-date-calculation-for-sales.md)  
-[Lieferterminzusagen-Daten berechnen](sales-how-to-calculate-order-promising-dates.md)  
+[Datumsangaben für Lieferterminzusagen berechnen](sales-how-to-calculate-order-promising-dates.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

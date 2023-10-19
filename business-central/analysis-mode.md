@@ -1,11 +1,11 @@
 ---
-title: Analysieren Sie Daten auf Listenseiten im Datenanalysemodus
+title: Daten auf Listenseiten und in Anfragen im Datenanalysemodus analysieren
 description: 'Erfahren Sie, wie Sie den Datenanalysemodus in Business Central verwenden, um Daten zu analysieren.'
 author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 09/23/2023
+ms.date: 10/05/2023
 ms.custom: bap-template
 ms.service: dynamics365-business-central
 ms.search.form: '456, 457, 458, 459, 460, 461, 16, 22, 25, 26, 27, 31, 143, 144, 9300, 9301, 9303, 9304, 9305, 9306, 9307, 9309, 9310, 9311'
@@ -21,7 +21,7 @@ In diesem Artikel erfahren Sie, wie Sie Daten von Listenseiten und Abfragen mit 
 
 ## Voraussetzungen 
 
-- Wenn Sie Business Central Version 22 verwenden, befindet sich der Datenanalysemodus in der Vorschau und muss daher von einem Administrator aktiviert werden, bevor Sie ihn verwenden können. Um ihn zu aktivieren, gehen Sie auf die Seite **Funktionsverwaltung** und schalten Sie **Funktionsaktualisierung: Analysemodus, schnelle Datenanalyse direkt in Business Central** ein. [Weitere Informationen finden Sie unter Funktionsverwaltung](/dynamics365/business-central/dev-itpro/administration/feature-management).
+- Wenn Sie Version 22 von Business Central verwenden, befindet sich der Datenanalysemodus in der Vorschauversion. Daher muss es ein Administrierender aktivieren, bevor Sie es verwenden können. Um ihn zu aktivieren, gehen Sie auf die Seite **Funktionsverwaltung** und schalten Sie **Funktionsaktualisierung: Analysemodus, schnelle Datenanalyse direkt in Business Central** ein. [Weitere Informationen finden Sie unter Funktionsverwaltung](/dynamics365/business-central/dev-itpro/administration/feature-management).
 - In Version 23 und höher muss Ihrem Konto der Berechtigungssatz **DATENANALYSE – AUSFÜHREN** zugewiesen werden oder die Ausführungsberechtigung für das Systemobjekt enthalten **9640 Daten zulassen Analysemodus**. Als Administrator können Sie diese Berechtigungen für Benutzer ausschließen, die keinen Zugriff auf den Analysemodus haben sollen.
 
 > [!NOTE]
@@ -66,14 +66,14 @@ Im Datenbereich werden die Zeilen und Spalten der Listenseitenabfrage angezeigt 
 - Um eine Spalte zu verschieben, wählen Sie sie aus und ziehen Sie sie an die Stelle, an der sie in Ihrer Analyse am sinnvollsten ist.
 - Klicken Sie mit der rechten Maustaste auf die Spalte oder bewegen Sie den Mauszeiger darüber und wählen Sie das Menüsymbol aus ![Zeigt das Symbol in einer Spalte im Datenanalysemodus an, das ein Menü mit Aktionen öffnet](media/analysis-mode-column-menu-icon.png) um auf mehrere Aktionen zuzugreifen, die Sie für Spalten ausführen können. Beispiel:
 
-  - Um eine Spalte links oder rechts vom Datenbereich anzuheften, damit sie beim Scrollen nicht vom Bildschirm verschwindet, wählen Sie ![Zeigt das Symbol in einer Spalte im Datenanalysemodus an, das ein Menü mit Aktionen im Spaltenteil ](media/analysis-mode-column-menu-icon.png) > **Spalte anheften** > **Link anheften** öffnet.
+  - Um eine Spalte links oder rechts vom Datenbereich anzuheften, damit sie beim Scrollen nicht vom Bildschirm verschwindet, wählen Sie ![Zeigt das Symbol in einer Spalte im Datenanalysemodus an, das ein Menü mit Aktionen im Spaltenteil](media/analysis-mode-column-menu-icon.png) > **Spalte anheften** > **Link anheften** öffnet.
   - Definieren Sie Datenfilter direkt in der Spaltendefinition, anstatt zum Bereich **Analysefilter** zu gehen. Sie können immer noch Details zu verwandten Daten und für jede Zeile einsehen und die Karte öffnen, um mehr über eine bestimmte Entität zu erfahren.
 - Verwenden Sie den Datenbereich, um mit den Daten zu interagieren. Für Spalten, die numerische, summierbare Werte enthalten, können Sie deskriptive Statistiken zu einer Gruppe von Feldern erhalten, indem Sie sie markieren. Die Statistiken erscheinen in der Statusleiste (2) unten auf der Seite.
-- Exportieren Sie Daten im Excel- oder CSV-Format. Klicken Sie einfach mit der rechten Maustaste auf den Datenbereich oder eine Auswahl von Zellen, um sie zu exportieren.
+- Exportieren Sie Daten im Excel- oder CSV-Format. Klicken Sie mit der rechten Maustaste auf den Datenbereich oder eine Auswahl von Zellen, um sie zu exportieren.
 
 ### Zusammenfassungsleiste (2)
 
-Die Zusammenfassungsleiste befindet sich unten auf der Seite und zeigt Statistiken zu den Daten in der Listenseite oder Abfrage an. Wenn Sie mit Spalten interagieren, deren Werte summiert werden können, z. B. mehrere Zeilen in einer Spalte auswählen, die Beträge anzeigt, werden die Daten aktualisiert.
+Die Zusammenfassungsleiste befindet sich unten auf der Seite und zeigt Statistiken zu den Daten in der Listenseite oder Abfrage an. Wenn Sie mit Spalten interagieren, deren Werte summiert werden können, z. B. mehrere Zeilen in einer Spalte auswählen, die Beträge anzeigt, werden die Daten aktualisiert.
 
 ![Zeigt eine Übersicht einer Zusammefassungsleiste im Datenanalysemodus an](media/analysis-mode-totals-row.png)
 
@@ -103,7 +103,7 @@ Die **Spalten** sind einen von zwei Bereichen, die zusammenarbeiten, um Ihre Ana
 |Zeilengruppen|Verwenden Sie diesen Bereich, um Daten nach einem oder mehreren Feldern zu gruppieren und zu summieren. Sie können nur nicht numerische Felder wie Text-, Datums- und Zeitfelder einschließen. Zeilengruppen werden häufig im Pivot-Modus verwendet.|
 |Werte|Verwenden Sie diesen Bereich, um Felder anzugeben, für die Sie eine Gesamtsumme wünschen. Sie können nur Felder einschließen, die Zahlen enthalten, die addiert werden können; wie beispielsweise keine Text-, Datums- oder Zeitfelder.|
 
-Um ein Feld von einem Bereich in einen anderen zu verschieben, wählen Sie das Greifsymbol ![Zeigt eine Übersicht einer Seite zum Datenanalysemodus](media/column-grab-icon.png) neben der Spalte in der obigen Liste an; ziehen Sie sie in den Zielbereich. Sie werden daran gehindert, ein Feld in einen Bereich zu verschieben, in dem es nicht erlaubt ist.
+Um ein Feld von einem Bereich in einen anderen zu verschieben, wählen Sie das Greifsymbol ![Zeigt eine Übersicht einer Seite zum Datenanalysemodus](media/column-grab-icon.png) neben der Spalte in der Liste an. Ziehen Sie sie in den Zielbereich. Sie werden daran gehindert, ein Feld in einen Bereich zu verschieben, in dem es nicht erlaubt ist.
 
 ### Analysefilter (4)
 
@@ -131,6 +131,16 @@ Hier sind einige Hinweise zum Arbeiten mit mehreren Analyseregisterkarten:
    > [!TIP]
    > Die von Ihnen eingerichteten Registerkarten sind nur für Sie sichtbar. Andere Benutzer sehen nur die Registerkarten, die sie eingerichtet haben.
 - Sie können Analyseregisterkarten kopieren. Das Kopieren kann nützlich sein, wenn Sie mit dem Ändern einer Registerkarte experimentieren möchten, ohne das Original zu ändern, oder wenn Sie verschiedene Variationen derselben Analyse erstellen möchten.
+
+
+## Datumshierarchien
+
+Im Analysemodus werden Datumsfelder des Datensatzes in einer Jahr-Quartal-Monat-Hierarchie aus drei separaten Feldern generiert. Diese Hierarchie basiert auf dem normalen Kalender und nicht auf in Business Central definierten Geschäftskalendern.
+
+Die zusätzlichen Felder werden _\<field name\> Jahr_, _\<field name\> Quartal_ und _\<field name\> Monat_ benannt. Wenn der Datensatz beispielsweise ein Feld mit dem Namen _Buchungsdatum_ enthält, dann besteht die entsprechende Datumshierarchie aus Feldern namens _Buchungsdatum Jahr_, _Buchungsdatum Quartal_ und _Buchungsdatum Monat_.
+
+> [!NOTE]
+> Die Datumshierarchie gilt derzeit nur für Felder vom Typ Datum, nicht für Felder vom Typ datetime.
 
 ## Pivot-Modus
 
@@ -183,7 +193,7 @@ Nachdem Sie eine Analyse auf einer Registerkarte vorbereitet haben, können Sie 
 
 1. Klicken Sie auf **Kopieren**.
 
-1. Fügen Sie den Link in das Kommunikationsmedium Ihrer Wahl ein, z. B. Word, Outlook, Teams, OneNote usw. 
+1. Fügen Sie den Link in das Kommunikationsmedium Ihrer Wahl ein, z. B. Word, Outlook, Teams, OneNote usw. 
 
 2. Nach dem Empfang können die Empfänger dann den Link auswählen und die Analyse für die Seite oder Abfrage in Business Central öffnen. Sie werden aufgefordert, einen Namen für die neue Analyseregisterkarte anzugeben, die erstellt wird.  
 

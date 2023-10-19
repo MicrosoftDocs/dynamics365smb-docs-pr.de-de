@@ -43,8 +43,6 @@ Um PDF- und Bilddateien in elektronische Belege zu verwandeln, die Sie in Rechnu
 
 Weitere Informationen finden Sie unter [Verwenden von OCR, um PDF und Bilddateien in elektronische Belege umzuwandeln](across-how-use-ocr-pdf-images-files.md).  
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/incoming-documents-dynamics-365-business-central/)
-
 ## Siehe auch
 
 [Eingehende Belege](across-income-documents.md)  

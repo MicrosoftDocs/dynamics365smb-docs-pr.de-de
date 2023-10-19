@@ -73,6 +73,10 @@ Das Ergebnis wird im Feld **Verfügbare Gesamtmenge** auf der Seite **Reservieru
 
 In einer Reservierungszeile wird die Menge, die nicht reserviert werden kann, da sie im Lager zugeordnet wird, im Feld **Zugewiesene Menge im Lager** auf der Seite **Reservierungen** angezeigt.  
 
+## Prüfen Sie, ob Artikel zur Kommissionierung verfügbar sind
+
+[!INCLUDE [inventory-availability-overview](includes/inventory-availability-overview.md)]
+
 ### Berechnen der zur Reservierung verfügbaren Menge
 
 [!INCLUDE [prod_short](includes/prod_short.md)] berechnet die zur Reservierung verfügbare Menge wird wie folgt:  
@@ -85,8 +89,8 @@ Das folgende Diagramm zeigt die verschiedenen Elemente der Berechnung.
 
 ## Weitere Informationen  
 
-[Überblick über die Lagerverwaltung](design-details-warehouse-management.md)
-[Anzeigen der Verfügbarkeit von Artikeln](inventory-how-availability-overview.md)
-
+[Lagerverwaltung – Übersicht](design-details-warehouse-management.md)
+[Artikelverfügbarkeit anzeigen](inventory-how-availability-overview.md)
+[Kommissionierung für Montage, Produktion oder Projekte in erweiterter Lagerkonfiguration](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

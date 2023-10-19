@@ -102,13 +102,11 @@ Wenn Sie das getan haben, müssen Sie eine Ausnahme für Abgrenzungen machen, da
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol, geben Sie **Hauptbuchhaltung Einrichtung** oder **Benutzereinrichtung** ein, und wählen Sie dann den entsprechenden Link.
 2. Geben Sie in die Felder **Abgrenzungsbuchung zulassen von** und **Abgrenzungsbuchung zulassen bis** ein Anfangs- und Enddatum für den Zeitraum ein.
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/processing-invoices-dynamics-365-business-central/)
-
 ## Siehe auch
 
 [Finanzen](finance.md)  
 [Finanzen einrichten](finance-setup-finance.md)  
-[Arbeiten mit Fibu Buch.-Blättern](ui-work-general-journals.md)  
+[Mit Fibu Buch.-Blättern arbeiten](ui-work-general-journals.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

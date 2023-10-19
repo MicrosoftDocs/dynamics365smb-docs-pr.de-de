@@ -135,7 +135,7 @@ Sie können alle Personalisierungsänderungen, die Sie innerhalb eines einzelnen
 
 ## <a name="fields"></a> Mit Feldern und Spalten arbeiten
 
-Wenn Sie eine Seite personalisieren, verwenden Sie den Bereich **Feld zur Seite hinzufügen**, um Felder anzuzeigen, die derzeit auf der Seite ausgeblendet sind. Sie öffnen diesen Bereich, indem Sie oben auf der Seite die Aktion **+ Feld** auswählen. Im Gegensatz zu anderen Elementen werden ausgeblendete Felder im Personalisierungsmodus nicht auf der Seite selbst angezeigt. Sie können jedoch ausgeblendete Felder identifizieren, indem Sie den Bereich **Feld zur Seite hinzufügen** verwenden.
+Wenn Sie eine Seite personalisieren, verwenden Sie den Bereich **Feld zur Seite hinzufügen**, um Felder anzuzeigen, die derzeit auf der Seite ausgeblendet sind. Sie öffnen diesen Bereich, indem Sie oben auf der Seite die Aktion **+ Feld** auswählen. Im Gegensatz zu anderen Elementen werden ausgeblendete Felder im Personalisierungsmodus nicht auf der Seite selbst angezeigt. Sie können jedoch ausgeblendete Felder identifizieren, indem Sie den Bereich **Feld zur Seite hinzufügen** verwenden.
 
 Um die Arbeit mit Feldern zu vereinfachen, finden Sie hier einige allgemeine Richtlinien, die Sie bei der Verwendung des Bereichs **Feld zur Seite hinzufügen** befolgen sollten:
 
