@@ -10,22 +10,22 @@ ms.search.form: 'Report_707, Report_716, Report_813, Report_1001, Report_5807, R
 ms.date: 04/13/2023
 ms.custom: bap-template
 ---
-# Bestands- und Lagerberichte und Analysen
+# <a name="inventory-and-warehouse-reports-and-analytics"></a>Bestands- und Lagerberichte und Analysen
 
 Die Bestands- und Lagerberichterstattung in [!INCLUDE [prod_short](includes/prod_short.md)] gibt Bestands- und Geschäftsfachleuten Einblicke und Statistiken über aktuelle und vergangene Bestands- und Lageraktivitäten.  
 
-## Berichte
+## <a name="reports"></a>Berichte
 
 [!INCLUDE [inventory_WMS_reports](includes/inventory-WMS-reports-include.md)]
 
-## Aufgaben
+## <a name="tasks"></a>Aufgaben
 
 In den folgenden Artikeln werden einige der wichtigsten Aufgaben zur Analyse des Status Ihres Unternehmens beschrieben:
 
 * [Analyseberichte erstellen](bi-how-create-analysis-views-reports.md)  
 * [Artikelverfügbarkeit anzeigen](inventory-how-availability-overview.md)
 
-## Barcodes drucken und scannen
+## <a name="print-and-scan-barcodes"></a>Barcodes drucken und scannen
 
 Die Verwendung von Barcodes kann dazu beitragen, Ihre Eingangs-, Ausgangs- und internen Lagerprozesse zu optimieren. 
 
@@ -43,7 +43,7 @@ Nachdem Sie die App installiert haben, können Sie die Aktion **Etikett drucken*
 > [!NOTE]
 > Manche Drucker und Barcode-/QR-Codeformate erfordern eine spezielle Implementierung. Möglicherweise müssen Sie eine andere Word-Vorlage hochladen oder den Bericht klonen, um Ihre eigene angepasste Version zu erstellen.
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Bestand einrichten](inventory-setup-inventory.md)  
 [Bestand](inventory-manage-inventory.md)  

@@ -7,7 +7,7 @@ ms.topic: how-to
 ms.date: 05/31/2023
 ms.custom: bap-template
 ---
-# Exemplarische Vorgehensweise für grundlegende Jobs
+# <a name="walkthrough-of-basic-jobs"></a>Exemplarische Vorgehensweise für grundlegende Jobs
 
 Diese exemplarische Vorgehensweise demonstriert mehrere Kernprozesse:
 
@@ -15,13 +15,13 @@ Diese exemplarische Vorgehensweise demonstriert mehrere Kernprozesse:
 - Erfassung von Zeit- und Materialaufwand zu einem Auftrag
 - Fakturieren eines Projekts
 
-## Eine Jobaufgabe zu einem Job hinzufügen
+## <a name="adding-a-job-task-to-a-job"></a>Eine Jobaufgabe zu einem Job hinzufügen
 
-### Szenario  
+### <a name="scenario"></a>Szenario
 
 Simon, der Projektmanager, möchte so viel Zeit wie möglich damit verbringen, den Kunden in die Verwendung von Espressomaschinen zu schulen, und zwar zu einer separaten Aufgabe im Rahmen der Installation einer kommerziellen Maschine vor Ort.
 
-### Schritte
+### <a name="steps"></a>Schritte
 
 1. Erstellen Sie die Jobaufgabe  
 
@@ -37,17 +37,17 @@ Simon, der Projektmanager, möchte so viel Zeit wie möglich damit verbringen, d
    1. Suchen Sie im Bereich „Aufgaben“ nach der Aktion **Auftragsaufgaben einrücken**
    2. Bestätigen Sie, dass Sie Aufgaben einrücken möchten, indem Sie **Ja** auswählen.
 
-### Ergebnisse
+### <a name="results"></a>Ergebnisse
 
  - Jetzt können Zeit und Kosten für die neue Arbeitsaufgabe erfasst werden
 
-## Datensätze für Zeit- und Materialaufwand zu einer Stelle
+## <a name="record-time-and-material-expenses-to-a-job"></a>Datensätze für Zeit- und Materialaufwand zu einer Stelle
 
-### Szenario  
+### <a name="scenario-1"></a>Szenario
 
 Edgin, der Techniker, der die Maschine installiert, muss für die Abrechnung seine Zeit und die bei der Installation verwendeten Materialien für den Auftrag erfassen.  Er hat bereits die Reise- und Materialkosten hinzugefügt und muss nun noch die Zeit hinzufügen, um den Mitarbeitern den Umgang mit der Maschine beizubringen.
 
-### Schritte
+### <a name="steps-1"></a>Schritte
 
 1. Erstellen Sie die zusätzlichen Erfassungspositionen
 
@@ -63,19 +63,19 @@ Edgin, der Techniker, der die Maschine installiert, muss für die Abrechnung sei
    1. Wählen Sie die Aktion **Buchen**
    2. Bestätigen Sie, dass Sie die Zeilen buchen möchten, indem Sie **Ja** auswählen.
 
-### Ergebnisse
+### <a name="results-1"></a>Ergebnisse
 
  - Auftragshauptbucheinträge und Ressourcenhauptbucheinträge des Typs *Verwendung* wird erstellt
  - Es werden Artikelposten erstellt, um den Lagerbestand negativ anzupassen
  - Auf der Auftragskarte spiegeln die Kosten und Preise im Bereich „Aufgaben“ die neuen Salden wider, die auf die Rechnungsstellung warten
  - Auf der Jobkarte werden in der Infobox „Jobdetails“ die Gesamtpreise angezeigt
 
-## Erstellen einer Verkaufsrechnung für einen Auftrag
+## <a name="creating-a-sales-invoice-for-a-job"></a>Erstellen einer Verkaufsrechnung für einen Auftrag
 
-### Szenario  
+### <a name="scenario-2"></a>Szenario
 Simon muss eine Rechnung erstellen und buchen, die zusammen mit dem Zeit- und Kostenaufwand für den Auftrag an den Kunden gesendet werden soll.
 
-### Schritte
+### <a name="steps-2"></a>Schritte
 1. Verkaufsrechnung erstellen
 
     1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](../../media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Aufträge** ein, und wählen Sie dann den zugehörigen Link.  
@@ -88,7 +88,7 @@ Simon muss eine Rechnung erstellen und buchen, die zusammen mit dem Zeit- und Ko
    2. Wählen Sie die letzte Rechnung aus, um sie zur Überprüfung zu öffnen.
    3. Wählen Sie die Aktion **Buchen**.
 
-### Ergebnisse
+### <a name="results-2"></a>Ergebnisse
 
  - Auftragshauptbucheinträge und Ressourcenhauptbucheinträge des Typs *Verkauf* wird erstellt
  - Auf der Auftragskarte spiegeln die Kosten und Preise im Bereich „Aufgaben“ die neuen fakturierten Salden wider

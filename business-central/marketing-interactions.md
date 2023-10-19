@@ -10,7 +10,7 @@ ms.search.forms: '5082,'
 ms.date: 04/01/2021
 ms.custom: bap-template
 ---
-# Aktivitäten mit Kontakten aufzeichnen
+# <a name="record-interactions-with-contacts"></a>Aktivitäten mit Kontakten aufzeichnen
 
 Das Aufzeichnen von Interaktionen mit Geschäftskontakten besteht aus folgenden Aufgaben:
 
@@ -18,7 +18,7 @@ Das Aufzeichnen von Interaktionen mit Geschäftskontakten besteht aus folgenden 
 * Erstellen von Aktivitäten zu Kontakten oder Segmenten  
 * Anzeigen und Verwalten von aufgezeichneten Aktivitäten  
 
-## Aktivitätsvorlagen einrichten
+## <a name="set-up-interaction-templates"></a>Aktivitätsvorlagen einrichten
 
 Bevor Sie Interaktionen aufzeichnen können, müssen Sie Aktivitätenvorlagen einrichten. Eine Aktivitätsvorlage ist eine Vorlage, die die grundlegenden Charakteristiken einer Aktivität bestimmt. Wenn Sie einen Datensatz aufzeichnen, geben Sie die Aktivitätenvorlagen an, auf denen er basiert. Einstellungen wie der verwendete Kommunikationsmodus, der Initiator der Interaktion und die Kosten werden auf die Interaktion übertragen.
 
@@ -26,14 +26,14 @@ Sie richten Aktivitätenvorlagen auf der Seite **Aktivitätenvorlagen** ein.
 
 Wenn Sie eine Interaktionsvorlage einrichten, können Sie einen Anhang hinzufügen. Beispielsweise könnten Sie ein Microsoft Word Dokument anhängen, das Notizen von einer Besprechung enthält. Weitere Informationen zu Anlagen finden Sie unter [Anhänge für Interaktionen](marketing-interaction-attachments.md). Wiederholen Sie diese Schritte, um weitere Aktivitätenvorlagen einzurichten.  
 
-## Interaktionen erstellen
+## <a name="create-interactions"></a>Interaktionen erstellen
 
 Es gibt zwei Möglichkeiten, Interaktionen aufzuzeichnen:
 
 * Sie können Aktivitäten manuell erstellen, die mit einem einzelnen Kontakt oder Segment verknüpft sind. Weitere Informationen finden Sie unter [Erstellen von Aktivitäten auf Kontakten und Segmenten](marketing-how-create-interactions.md).  
 * Die Anwendung kann Aktivitäten automatisch speichern, wenn Sie Aktionen in der Anwendung durchführen, z. B., wenn Sie eine Rechnung oder ein Angebot drucken. Weitere Informationen finden Sie unter [Aktivitäten mit Kontakten automatisch aufzeichnen](marketing-auto-record-interactions.md).
 
-## Anzeigen und Verwalten von aufgezeichneten Aktivitäten
+## <a name="view-and-manage-recorded-interactions"></a>Anzeigen und Verwalten von aufgezeichneten Aktivitäten
 
 Auf der Seite **Aktivitätenprotokollposten** können Sie alle gespeicherten Aktivitäten sehen, die nicht gelöscht wurden. Sie können diese Seite folgendermaßen öffnen:
 
@@ -45,7 +45,7 @@ Verwenden Sie die Seite „Interaktionsprotokolleinträge“, um den Status von 
 
 Sie können Aktivitätenprotokollposten löschen, die storniert wurden. Um Interaktionsprotokolleinträge zu löschen, wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren") Symbol. Geben Sie **Stornierte Aktivitätenprotokollposten löschen** ein und wählen Sie dann den zugehörigen Link und füllen Sie die Informationen aus.
 
-## Weitere Informationen
+## <a name="see-also"></a>Weitere Informationen
 
 [Kontakte verwalten](marketing-contacts.md)  
 [Verkaufschancen verwalten](marketing-manage-sales-opportunities.md)  

@@ -9,7 +9,7 @@ ms.search.form: 'RoleExplorer, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9
 ms.date: 09/19/2023
 ms.custom: bap-template
 ---
-# Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="work-with-"></a>Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Während Sie in [!INCLUDE [prod_short](includes/prod_short.md)] arbeiten, interagieren Sie auf unterschiedliche Weise mit Daten. Sie erstellen beispielsweise Datensätze, geben Daten ein, sortieren und filtern Daten, schreiben Notizen und exportieren Daten in andere Anwendungen.
 
@@ -23,14 +23,14 @@ Wenn Sie auf Seiten arbeiten und zum Anzeigen aller Spalten die horizontale Bild
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="cheatsheet"></a>Tipps und Tricks
+## <a name="tips-and-tricks"></a><a name="cheatsheet"></a>Tipps und Tricks
 
 > [!TIP]
 > Für einen druckfreundlichen Überblick über die am häufigsten verwendeten Funktionen wählen Sie das folgende Bild und laden Sie die PDF-Datei herunter.
 >
 > [ ![Symbol für die PDF-Datei.](media/cheat_sheet_inline.png) ](media/cheat_sheet.pdf "Symbol zum Öffnen einer PDF")
 
-## Links zu weiteren Informationen
+## <a name="links-to-learn-more"></a>Links zu weiteren Informationen
 
 In der folgenden Tabelle sind einige der allgemeinen Funktionen aufgelistet und Links zu Artikeln angegeben, in denen sie beschrieben werden.
 
@@ -56,13 +56,13 @@ In der folgenden Tabelle sind einige der allgemeinen Funktionen aufgelistet und 
 |Verwalten Sie den Inhalt und das Format von Berichten und Dokumenten. Geben Sie die einzuschließenden Felddaten und deren Darstellung an. Wählen Sie beispielsweise einen Textstil, fügen Sie Bilder hinzu und mehr.|[Verwaltung von Berichts- und Dokumentlayouts](ui-manage-report-layouts.md) |
 |Erfahren Sie mehr über die Funktionen, die [!INCLUDE[prod_short](includes/prod_short.md)] für Menschen mit Behinderungen zugänglich machen.|[Eingabehilfe und Tastenkombinationen](ui-accessibility.md)|
 
-## Navigation in Business Central
+## <a name="getting-around-in-business-central"></a>Navigation in Business Central
 
 Hier finden Sie ein kurzes Video über die Navigation in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!VIDEO https://www.youtube.com/embed/zqz03iMihx0]
 
-## Auswahl eines Desktop-Browsers
+## <a name="choosing-a-desktop-browser"></a>Auswahl eines Desktop-Browsers
 
 [!INCLUDE[prod_short](includes/prod_short.md)] unterstützt mehrere Browser und jeder Browser bietet verschiedene Funktionen. Der Browser spielt eine wichtige Rolle bei der Reaktionsfähigkeit und Flüssigkeit der Benutzeroberfläche. Überprüfen Sie die Liste der unterstützten, empfohlenen Browser für [Business Central Online](./product-requirements.md) und Browser für [Business Central On-premises](/dynamics365/business-central/dev-itpro/deployment/system-requirement-business-central-v15).
 
@@ -72,7 +72,7 @@ Hier finden Sie ein kurzes Video über die Navigation in [!INCLUDE[prod_short](i
     > Internet Explorer wird nicht mehr unterstützt. Um mehr zu erfahren, gehen Sie zu [Microsoft Edge-Dokumentation](https://support.microsoft.com/hub/4337664/microsoft-edge-help).
 - Halten Sie Ihren Browser mit der neuesten Version auf dem Laufenden.
 
-## Aktionsleisten
+## <a name="action-bars"></a>Aktionsleisten
 
 Innerhalb von [!INCLUDE [prod_short](includes/prod_short.md)] erledigen Sie die meiste Arbeit in einer Liste, einem Beleg oder einer Karte. Alle Seiten verfügen über eine Leiste mit für sie relevanten Aktionen. Die Aktionen sind für die einzelne Karte oder das einzelne Dokument und die Liste der Entitäten nahezu gleich. So können Sie einen einzelnen Verkaufsauftrag auf der Seite **Verkaufsauftrag** und in der Liste **Verkaufsaufträge** verwalten, einschließlich der Buchung und Rechnungsstellung.  
 
@@ -89,7 +89,7 @@ Wenn Sie eine Listenseite suchen und öffnen, z. B. die Liste **Verkaufsaufträg
 
 Wenn Sie aber dieselbe Listenseite von Ihrer Startseite aus öffnen, ist die Aktion **Verwalten** nicht vorhanden. Um einen einzelnen Verkaufsauftrag zu öffnen, wählen Sie stattdessen einfach das Feld **Nummer**. In dieser Ansicht können Sie die Aktionsleiste nicht anheften.  
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Bereitschaft für die Geschäftsabwicklung](ui-get-ready-business.md)  
 [Einrichten von Business Central](setup.md)  
