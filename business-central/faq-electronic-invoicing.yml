@@ -6,10 +6,7 @@ metadata:
   author: brentholtorf
   ms.author: bholtorf
 title: Elektronische Rechnungsstellung FAQ
-summary: |
-  Der integrierte Belegaustauschdienst sendet elektronische Rechnungen an TradeShift, einen Dienstanbieter, der elektronische Rechnungen an PEPPOL- oder NemHandel-Empfänger weiterleitet. Der Dienst unterstützt jedoch eine begrenzte Anzahl von Versionen.   
-
-  Diese FAQ beantwortet einige der wichtigsten Fragen zur elektronischen Rechnungsstellung.  
+summary: "Der integrierte Belegaustauschdienst sendet elektronische Rechnungen an TradeShift, einen Dienstanbieter, der elektronische Rechnungen an PEPPOL- oder NemHandel-Empfänger weiterleitet. Der Dienst unterstützt jedoch eine begrenzte Anzahl von Versionen.   \n\nDiese FAQ beantwortet einige der wichtigsten Fragen zur elektronischen Rechnungsstellung.  \n\n> [!NOTE]\n> Diese FAQ-Seite hängt nicht mit der neuen E-Belege-App zusammen, die im 2.\_Veröffentlichungszyklus\_2023 verfügbar ist. Weitere Informationen zu dem neuen Feature finden Sie in der [Übersicht über E-Belege](finance-edocuments-overview.md).  \n"
 sections:
   - name: Allgemein
     questions:

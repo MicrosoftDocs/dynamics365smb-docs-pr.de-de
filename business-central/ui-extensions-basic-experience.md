@@ -11,7 +11,7 @@ ms.reviewer: bholtorf
 ms.custom: bap-template
 ---
 
-# <a name="the-basic-experience-extension"></a>Die Basic Experience-Erweiterung
+# Die Basic Experience-Erweiterung
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
@@ -22,7 +22,7 @@ Diese Erweiterung ist für kleine Unternehmen gedacht und kann bis zu drei Benut
 > [!NOTE]
 > Derzeit ist diese Erweiterung nur für Kunden in Dänemark und Island verfügbar.
 
-## <a name="whats-available"></a>Was ist verfügbar
+## Was ist verfügbar
 
 In der folgenden Tabelle werden die Funktionen beschrieben, die verfügbar sind, wenn Sie die Basic Experience-Erweiterung installieren.
 
@@ -34,7 +34,7 @@ In der folgenden Tabelle werden die Funktionen beschrieben, die verfügbar sind,
 |**Projektmanagement** |Projekte, Projektpreisberechnung, Arbeitszeitnachweise, Zuweisungen, Aufgaben, Ressourcen |
 |**Lager** |Grundlegender Lagerbestand, Artikelersetzungen, Artikelquerverweis |
 
-## <a name="getting-started"></a>Erste Schritte
+## Erste Schritte
 
 Diese Erweiterung unterscheidet sich ein wenig von den meisten anderen und Sie benötigen Hilfe von einem Microsoft-Partner, um sie zu installieren und einzurichten. Damit Sie wissen, was Sie erwartet, finden Sie hier eine allgemeine Übersicht darüber, was Ihr Microsoft-Partner für Sie tun wird.
 
@@ -45,11 +45,11 @@ Diese Erweiterung unterscheidet sich ein wenig von den meisten anderen und Sie b
 5. Fügen Sie das **Demo-RapidStart**-Paket hinzu. <!--what does the package contain?-->
 6. Laden Sie die Basic Experience-Erweiterung von AppSource herunter und installieren Sie sie.
 
-## <a name="migrating-data"></a>Migrieren von Daten
+## Migrieren von Daten
 
 Bringen Sie Ihre Dynamics C5-Daten mit. Nachdem Ihr Microsoft-Partner die Basic Experience-Erweiterung installiert hat, haben Sie eine leere Firma. Eine einfache Möglichkeit, Ihre Daten von Dynamics C5 nach Basic Experience zu verschieben, ist die Verwendung der C5-Datenmigrations-Erweiterung, die in [!INCLUDE[prod_short](includes/prod_short.md)] enthalten ist. Die Erweiterung migriert Kunden, Kreditoren, Artikel und Ihre Sachkonten sowie deren Posten.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Die C5-Datenmigrations-Erweiterung](ui-extensions-c5-data-migration.md)  
 

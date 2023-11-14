@@ -116,6 +116,13 @@ Wenn Sie mit dem **Intrastat Bericht** arbeiten, sehen Sie ein **Status** Feld i
 * *Freigegeben*: [!INCLUDE[prod_short](includes/prod_short.md)] ändert den Status automatisch auf *Freigegeben*, wenn Sie eine Datei erstellen. Von diesem Moment an können Sie Ihren **Intrastat Bericht** nicht mehr ändern. Wenn Sie etwas ändern und erneut berichten müssen, können Sie die Aktion **Wieder öffnen** verwenden, um den Intrastat-Bericht erneut zu öffnen. Sobald das Dokument wieder geöffnet ist, können Sie die Aktion **Freigeben** verwenden, um das Dokument wieder freizugeben.
 * **Gemeldet**: Gibt an, ob der Eintrag bereits an die Steuerbehörden gemeldet wurde. Dies ist kein regulärer Status, sondern ein unabhängiges Feld. Selbst wenn Sie den Intrastat-Bericht erneut öffnen würden, würde er anzeigen, dass die Datei für diesen Bericht bereits erstellt wurde.
 
+### Standorte in der Intrastat-Berichterstattung 
+
+[!INCLUDE[prod_short](includes/prod_short.md)] verwendet immer die Informationen im Feld **Länder-/Regionscode** auf der Seite **Standortkarte** als Land für den **Absender** oder **Empfänger** von Waren. Wenn diese Informationen nicht vorhanden sind oder der Standort nicht verwendet wurde, verwendet das System die Informationen von der Seite **Unternehmensinformationen**.   
+
+> [!NOTE]
+> Wenn das Unternehmen in mehr als einem Land tätig ist, funktionieren die Intrastat-Berichte nicht für alle Länder, in denen Standorte konfiguriert sind. Die Berichterstattung basiert nur auf dem Hauptland, da es derzeit nicht möglich ist, länderübergreifende Berichte zu verwenden.  
+
 ### Dreiecksgeschäft in Intrastat
 
 Beim Dreiecksgeschäft handelt es sich um den Handel zwischen drei Ländern oder Regionen, bei dem die Waren das Land des berichtenden Unternehmens umgehen. In Business Central kann dies auch durch die Funktion [Direktlieferung](sales-how-drop-shipment.md) durchgeführt werden. Um diese Option zu aktivieren, aktivieren Sie das Feld **Direktlieferung einschließen** in der **Intrastat-Berichtseinrichtung**.  

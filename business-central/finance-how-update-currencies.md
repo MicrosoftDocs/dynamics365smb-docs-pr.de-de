@@ -8,11 +8,11 @@ ms.search.form: '5, 118'
 ms.date: 09/07/2023
 ms.author: bholtorf
 ---
-# <a name="update-currency-exchange-rates"></a>Währungswechselkurse aktualisieren
+# Währungswechselkurse aktualisieren
 
 Sie können verschiedene Währungen in [!INCLUDE [prod_short](includes/prod_short.md)] definieren, wenn Sie beispielsweise in anderen Währungen als Ihrer Landeswährung handeln. Um Änderungen der Wechselkurse zu verfolgen, können Sie die Kurse manuell verwalten oder einen Wechselkursdienst einrichten.
 
-## <a name="currencies"></a>Währungen
+## Währungen
 
 > [!TIP]  
 > Wenn Sie in [!INCLUDE[prod_short](includes/prod_short.md)] nach Echtzeitinformationen zu Wechselkursen (FX) oder älteren Kursen suchen, werden diese als Währung bezeichnet. Siehe neben diesem Artikel auch [Einrichten einer zusätzlichen Berichtswährung](finance-how-setup-additional-currencies.md).
@@ -21,11 +21,11 @@ Sie können verschiedene Währungen in [!INCLUDE [prod_short](includes/prod_shor
 
 Sie geben die Währungscodes in der Liste **Währungen** an, darunter zusätzliche Informationen und Einstellungen, die für jeden Währungscode erforderlich sind. Weitere Informationen finden Sie unter [Währungen](finance-set-up-currencies.md#curr)
 
-### <a name="example-of-a-receivable-currency-transaction"></a>Beispiel für eine ausstehende Währungstransaktion
+### Beispiel für eine ausstehende Währungstransaktion
 
 [!INCLUDE [finance-currencies-example](includes/finance-currencies-example.md)]
 
-## <a name="exchange-rates"></a>Wechselkurse
+## Wechselkurse
 
 Die Wechselkurse sind das Werkzeug, um die Mandantenwährung (MW) jeder Währungstransaktion zu berechnen. Die Seite **Wechselkurse** enthält die folgenden Felder:
 
@@ -54,7 +54,7 @@ Der Betrag des Anpassungs-Wechselkurses oder der Betrag des relationalen Anpassu
 >
 > `Currency Amount = Amount / Adjustment Exch. Rate Amount * Relational Adjmt Exch. Rate Amt`
 
-## <a name="adjusting-exchange-rates"></a>Wechselkurse regulieren
+## Wechselkurse regulieren
 
 Da die Wechselkurse ständig schwanken, müssen Sie andere Währungsäquivalente periodisch anpassen. Wenn Sie dies nicht tun, können Beträge, die Sie aus Fremdwährungen (oder anderen Währungen) umgerechnet und in der lokalen Währung in das Hauptbuch gebucht haben, falsch sein. Außerdem müssen Sie die gebuchten Tageseinträge aktualisieren, bevor Sie einen täglichen Wechselkurs eingeben.
 
@@ -75,36 +75,36 @@ Sie können auch festlegen, wie die Dimensionen für Buchungen von nicht realisi
 > [!IMPORTANT]
 > Aufgrund lokaler Anforderungen in der Schweiz empfehlen wir Ihnen nicht, **Funktionsaktualisierung: Nutzung der neuen erweiterbaren Wechselkursanpassung, einschließlich Buchungsüberprüfung** in der Landesversion der Schweiz (CH) zu aktivieren.
 
-## <a name="preview-the-effect-of-an-adjustment"></a>Sehen Sie sich die Auswirkungen einer Anpassung in der Vorschauversion an
+## Sehen Sie sich die Auswirkungen einer Anpassung in der Vorschauversion an
 
 Sie können die Auswirkungen einer Wechselkursanpassung auf die Buchung vor der eigentlichen Buchung in einer Vorschauversion anzeigen, indem Sie die Aktion **Buchungsvorschau** auf der Anforderungsseite **Wechselkursanpassung** auf der Anforderungsseite des Berichts (Bericht 596) wählen. Auf der Anfrageseite können Sie angeben, was in die Vorschau aufgenommen werden soll:
 
 * Detaillierte Buchung im Hauptbuch nach Eintrag
 * Erhalten Sie eine zusammengefasste Buchung nach Währung. Wählen Sie einfach das Feld **Pro Posten regulieren** im **Wechselkursanpassung**-Bericht.
 
-### <a name="effect-on-customers-and-vendors"></a>Auswirkung auf Debitoren und Kreditoren
+### Auswirkung auf Debitoren und Kreditoren
 
 Für Debitoren- und Kreditorenkonten verwendet der Batch-Job den Wechselkurs, der am für den Batch-Job angegebenen Buchungsdatum gültig war, um die Währung anzupassen. Die Stapelverarbeitung berechnet die Differenzen für die einzelnen Währungssalden und bucht die Beträge auf das Sachkonto, das im Feld **Kursgewinn unrealisiert Kto.** oder im Feld **Kursverlust unrealisiert Kto.** auf der Seite **Währungen** angegeben ist. Gegenposten werden automatisch auf die Debitoren- und Kreditorensammelkonten in der Finanzbuchhaltung gebucht.
 
 Die Stapelverarbeitung bearbeitet alle offenen Debitoren- und Kreditorenposten. Wenn es eine Wechselkursdifferenz für eine Buchung gibt, erstellt der Batchauftrag einen neuen detaillierten Debitoren- oder Kreditoren-Sachkonto-Eintrag. Der neue Eintrag spiegelt den angepassten Betrag im Debitoren- oder Kreditorenbucheintrag wider.
 
-#### <a name="dimensions-on-customer-and-vendor-ledger-entries"></a>Dimensionen in Debitoren- und Kreditorenposten
+#### Dimensionen in Debitoren- und Kreditorenposten
 
 [!INCLUDE [prod_short](includes/prod_short.md)] ordnet die Dimensionen aus den Debitoren- oder Kreditorenbucheinträgen den Korrekturbuchungen zu und bucht Korrekturen für jede Kombination von Dimensionswerten.
 
-### <a name="effect-on-bank-accounts"></a>Auswirkungen auf Bankkonten
+### Auswirkungen auf Bankkonten
 
 Für Bankkonten reguliert der Batchauftrag die Währung unter Verwendung des Wechselkurses, der zum Zeitpunkt des im Batchauftrag angegebenen Buchungsdatums gültig ist. Die Stapelverarbeitung berechnet die Differenzen für jedes Bankkonto mit einem Währungscode und bucht die Beträge auf das Sachkonto, das im Feld **Kursgewinn realisiert Kto.** oder im Feld **Kursverlust realisiert Kto.** der Tabelle **Währungen** angegeben ist. Gegenposten werden automatisch auf die Banksachkonten gebucht, die in den Bankkontenbuchungsgruppen angegeben sind. Die Stapelverarbeitung erzeugt einen Posten pro Währung pro Buchungsgruppe.
 
-#### <a name="dimensions-on-bank-account-entries"></a>Dimensionen in Bankposten
+#### Dimensionen in Bankposten
 
 Den Differenzposten für das Sachkonto des Bankkontos und für das Gewinn- und Verlustkonto werden die Vorgabedimensionen des Bankkontos zugewiesen.
 
-### <a name="effect-on-gl-accounts"></a>Auswirkungen auf Sachkonten
+### Auswirkungen auf Sachkonten
 
 Wenn Sie in einer anderen Berichtswährung buchen, kann die Stapelverarbeitung neue Sachposten für Wechselkursregulierungen zwischen lokaler Währung und anderer Berichtswährung erstellen. Die Stapelverarbeitung berechnet die Differenzen für jeden Sachposten und reguliert den Sachposten abhängig vom Inhalt des Felds **Kursregulierung** für jedes Sachkonto.
 
-#### <a name="dimensions-on-gl-account-entries"></a>Dimensionen in Sachposten
+#### Dimensionen in Sachposten
 
 Den Differenzposten werden die Vorgabedimensionen der Konten zugewiesen, auf die sie gebucht werden.
 
@@ -113,7 +113,7 @@ Den Differenzposten werden die Vorgabedimensionen der Konten zugewiesen, auf die
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3Q24s?rel=0]
 
-## <a name="to-set-up-a-currency-exchange-rate-service"></a>So richten Sie einen Währungswechselkurs-Service ein
+## So richten Sie einen Währungswechselkurs-Service ein
 
 Sie können einen externen Service verwenden, um Ihre Währungswechselkurse wie FloatRates auf dem neuesten Stand zu halten. 
 
@@ -132,14 +132,21 @@ Sie können einen externen Service verwenden, um Ihre Währungswechselkurse wie 
   
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4A1jy?rel=0]
 
-## <a name="to-update-currency-exchange-rates-through-a-service"></a>Um Währungswechselkurse über einen Service zu aktualisieren
+## Um Währungswechselkurse über einen Service zu aktualisieren
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren") Symbol. Geben Sie **Währungen** ein, und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie die **Aktualisieren von Wechselkursen** Aktion aus.
 
 Der Wert im Feld **Wechselkurs** wird auf der Seite **Währung** mit dem aktuellen Währungswechselkurs aktualisiert.
 
-## <a name="see-also"></a>Siehe auch
+## Fehler korrigieren
+
+Hin und wieder müssen Sie vielleicht einen Fehler in einem Zahlungsvorgang korrigieren, der mit Anpassungen wegen Fremdwährungsgewinnen und -verlusten verbunden ist. Sie können die Aktion **Transaktion stornieren** für die Seiten **Bankposten**, **Debitorenposten** und **Kreditorenposten** verwenden, um Zahlungstransaktion aufzuheben und zu stornieren.
+
+> [!NOTE]
+> Wenn Sie eine Zahlung für einen Posten, mit dem Wechselkursanpassungen verbunden waren, aufheben und stornieren, werden bei der Stornierung Stornobuchungen für die Anpassungen gebucht. Möglicherweise müssen Sie die Wechselkursanpassung erneut durchführen, um den korrekten aktuellen Saldo zu erhalten.
+
+## Siehe auch
 
 [Währungen in Business Central](finance-currencies.md)  
 [Einrichten von Währungen](finance-set-up-currencies.md)  

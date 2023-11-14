@@ -10,10 +10,10 @@ ms.search.keywords: null
 ms.date: 06/18/2021
 ms.author: bholtorf
 ---
-# <a name="currency-exchange-rates-in-the-german-version"></a>Currency Exchange Rates in der deutschen Version
+# Currency Exchange Rates in der deutschen Version
 Am Ende des Geschäftsjahres, müssen Wechselkurse für Verbindlichkeiten und Forderungen reguliert werden, sodass sie ordnungsgemäß in der Jahresbilanz bewertet werden. Der Batchauftrag **Wechselkurse regulieren** unterstützt verschiedene Bewertungsmethoden, um so die rechtlichen Anforderungen in Deutschland zu erfüllen.  
 
-## <a name="valuation-methods"></a>Bewertungsmethoden
+## Bewertungsmethoden  
 Gemäß dem Bilanzmodernisierungsgesetz (BilMoG) werden Verbindlichkeiten und Forderungen unterschiedlich bewertet, je nach Abweichung zwischen Referenzdatum und Fälligkeitsdatum. Dies wird durch den Batchauftrag **Wechselkurse regulieren** verwaltet, in dem sie angeben können, welche Bewertungsmethode verwendet werden soll. Wenn das Fälligkeitsdatum weniger als ein Jahr nach dem Referenzdatum liegt, muss der Batchauftrag **Wechselkurse regulieren** mit der Bewertungsmethode für den niedrigsten Wert ausgeführt werden.  
 
 In der folgenden Tabelle werden die Bewertungsmethoden näher erläutert.  
@@ -31,7 +31,7 @@ Deutsche Unternehmen müssen die Option **BilMoG (Deutschland)** verwenden, wenn
 |**Bewertungsreferenzdatum**|Gibt das Basisdatum an, das verwendet wird, um zu berechnen, welche Posten kurzfristige Posten sind.|  
 |**Kurzfristige Verbindlichkeiten bis**|Gibt das Datum an, das kurzfristige Posten von langfristigen Posten trennt. Kurzfristige Posten können ein Fälligkeitsdatum aufweisen, das vor oder an diesem Datum liegt. Der Standardwert ist der Wert des Feldes **Bewertungsreferenzdatum** plus ein Jahr.|  
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch  
 [Währungswechselkurse aktualisieren](../../finance-how-update-currencies.md)  
 [Einrichten einer zusätzlichen Berichtswährung](../../finance-how-setup-additional-currencies.md)
 

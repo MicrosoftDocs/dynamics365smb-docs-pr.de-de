@@ -11,14 +11,14 @@ ms.search.form: '459, 460, 7001, 7011, 7015, 7016, 7017, 7018'
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# <a name="set-up-prices-and-discounts"></a>Preise und Rabatte einrichten
+# Preise und Rabatte einrichten
 
 > [!NOTE]
 > In Veröffentlichungszyklus 2 von 2020 haben wir optimierte Prozesse zum Einrichten und Verwalten von Preisen und Rabatten veröffentlicht. Wenn Sie ein neuer Kunde mit dieser Version sind, nutzen Sie die neue Erfahrung. Wenn Sie bereits Kunde sind, hängt es davon ab, ob Sie die neue Erfahrung verwenden, ob Ihr Administrator die Funktionsaktualisierung **Neues Verkaufspreiserlebnis** auf der Seite **Funktionsverwaltung** akualisiert hat. Weitere Informationen finden Sie unter [Bevorstehende Funktionen im Voraus aktivieren](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
 Preis- und Rabattstrategien für den Kauf und Verkauf von Artikeln und Dienstleistungen sind grundlegende Instrumente für erfolgreiche Unternehmen. Nachdem Sie die Artikel und Dienstleistungen eingerichtet haben, die Ihr Unternehmen kauft und verkauft, können Sie festlegen, was Sie dafür bezahlen oder berechnen. Diese Beträge werden automatisch zu den Verkaufs- und Kaufdokumenten hinzugefügt. 
 
-## <a name="setting-up-prices-and-discounts"></a>Preise und Rabatte einrichten
+## Preise und Rabatte einrichten
 
 Bevor Sie Preislisten erstellen, müssen Sie Ihre Preis- und Rabattstrategien auf den Seiten **Debitoren & Verkauf Einr.** und **Kreditoren & Einkauf Einr.** definieren.
 
@@ -34,11 +34,11 @@ Da Verkaufszeilenrabatte und Verkaufspreise auf einer Kombination aus Artikel un
 > [!TIP]  
 > Wenn ein Artikel nie mit einem Rabatt verkauft werden sollte, lassen Sie die Skontofelder auf der Artikelseite leer und schließen Sie den Artikel nicht in einer Zeilenrabatteinrichtung ein.
 
-## <a name="about-price-lists"></a>Über Preislisten
+## Über Preislisten
 
 Preislisten sind flexibel und ermöglichen es Ihnen, den Geschäftspartner oder die Aktivität anzugeben, für die sie gelten. Sie können beispielsweise eine Preisliste erstellen, die für alle Anbieter und Kunden gilt, oder für jeden Geschäftspartner Sonderpreise oder Rabatte anbieten, möglicherweise basierend auf einer Mindestmenge bei Kauf- oder Kundenaufträgen oder einer bestimmten Kombination von Kunden, Artikeln, Mindestmenge, Einheit oder Zeiträume. Die von Ihnen definierten Preise und Rabatte werden automatisch auf Kauf- und Verkaufsbelege angewendet. 
 
-## <a name="set-up-prices"></a>Preise einrichten
+## Preise einrichten
 
 Diese Schritte unterscheiden sich je nachdem, ob Ihr Administrator das Feature-Update **Neues Verkaufspreiserlebnis** aktiviert hat. 
 
@@ -68,7 +68,7 @@ Um Preislisten und Preise zu überprüfen, die für bestimmte Kunden oder Liefer
 
 ---
 
-## <a name="to-set-up-a-sales-line-discount-for-a-customer"></a>So erstellen Sie Verkaufszeilenrabatte für einen Debitor:
+## So erstellen Sie Verkaufszeilenrabatte für einen Debitor:
 
 Diese Schritte unterscheiden sich je nachdem, ob Ihr Administrator das Feature-Update **Neues Verkaufspreiserlebnis** aktiviert hat. 
 
@@ -98,7 +98,7 @@ Diese Schritte unterscheiden sich je nachdem, ob Ihr Administrator das Feature-U
 
 ---
 
-## <a name="work-with-invoice-discounts-and-service-charges"></a>Mit Rechnungsrabatten und Servicegebühren arbeiten
+## Mit Rechnungsrabatten und Servicegebühren arbeiten
 
 Wenn Sie Rechnungsrabatte verwenden, bestimmt die Höhe des Rechnungsbetrages die Höhe des Rabattes, der gewährt wird. Auf der Seite **Rechnungsrabatte** können Sie eine Servicegebühr für Rechnungen über einem bestimmten Betrag einrichten.  <!--The Invoice Discounts page is hard to find.-->
 
@@ -115,7 +115,7 @@ Zusätzlich (oder anstatt) eines Rabattprozentsatzes können Sie eine Servicegeb
 > [!TIP]  
 > Bevor Sie mit der Eingabe dieser Informationen beginnen, sollten Sie Ihre Rabattstruktur im Voraus vorbereiten, damit Sie leichter erkennen können, welche Kunden auf dieselbe Rechnungsrabatt-Seite verlinken sollen. Weitere Informationen zu Rabatten bei Verkäufen finden Sie unter [Einrichten von Rabatten für Ihre Kunden](/training/modules/customer-discounts-dynamics-365-business-central/index)
 
-### <a name="to-set-up-an-invoice-discount-for-a-customer"></a>Um Rechnungsrabattkonditionen für Einkäufe einzurichten
+### Um Rechnungsrabattkonditionen für Einkäufe einzurichten
 
 Wenn Sie sich entschieden haben, welche Debitoren für Rechnungsrabatte in Frage kommen, geben Sie die Rechnungsrabattcodes auf den Debitorenkarten ein, und richten Sie die Bedingungen für die einzelnen Codes ein.
 
@@ -136,7 +136,7 @@ Fahren Sie fort, um neue Verkaufsrechnungsrabatt-Bedingungen einzurichten.
 
 Der Rechnungsrabatt wird jetzt eingerichtet und dem fraglichen Debitor zugewiesen. Wenn Sie den Debitorencode im Feld **Rechnungs-Rabattcode** für andere Debitorenkarten auswählen, wird derselbe Rechnungsrabatt diesen Debitoren zugewiesen.
 
-## <a name="to-copy-sales-prices"></a>Verkaufspreise kopieren
+## Verkaufspreise kopieren
 
 Diese Schritte unterscheiden sich je nachdem, ob Ihr Administrator das Feature-Update **Neues Verkaufspreiserlebnis** aktiviert hat. 
 
@@ -167,7 +167,7 @@ Der Status der Preisliste muss **Entwurf** sein.
   
 ---
 
-## <a name="to-bulk-update-item-prices"></a>So aktualisieren Sie Debitorenartikelpreise auf einmal
+## So aktualisieren Sie Debitorenartikelpreise auf einmal
 
 Diese Schritte unterscheiden sich je nachdem, ob Ihr Administrator das Feature-Update **Neues Verkaufspreiserlebnis** aktiviert hat. 
 
@@ -195,11 +195,11 @@ Um die Preise für mehrere Artikel zu aktualisieren, müssen Sie eine neue Preis
 
 ---
 
-## <a name="calculating-the-best-price"></a>Den besten Preis berechnen
+## Den besten Preis berechnen
 
 Falls Sie spezielle Preise und Zeilenrabatte für Verkäufe und Einkäufe erfasst haben, stellt [!INCLUDE[d365fin](includes/d365fin_md.md)] sicher, dass der Deckungsbeitrag im Artikelhandel immer optimal ist, indem er die besten Preise automatisch in Einkaufs- und Verkaufsbelegen und auf Projekt und Artikel Buch.-Blattzeilen berechnet. Weitere Informationen finden Sie unter [Beste Preisberechnung](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Einrichten von Verkäufen](sales-setup-sales.md)  
 [Verkauf](sales-manage-sales.md)  

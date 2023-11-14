@@ -11,11 +11,11 @@ ms.search.form: 1123
 ms.date: 06/16/2021
 ms.author: bholtorf
 ---
-# <a name="terminology-in-cost-accounting"></a>Terminologie der Kostenrechnung
+# Terminologie der Kostenrechnung
 
 Dieses Thema definiert die Schlüsselbegriffe, die in der Kostenrechnung verwendet werden.  
 
-## <a name="key-terms"></a>Schlüsselbegriffe
+## Schlüsselbegriffe
 
  In der folgenden Tabelle werden Definitionen der Schlüsselbegriffe in der Kostenrechnung gezeigt.  
 
@@ -43,7 +43,7 @@ Dieses Thema definiert die Schlüsselbegriffe, die in der Kostenrechnung verwend
 |Variable Kosten|Variable Kosten sind Ausgaben, die sich abhängig von der Aktivität eines Geschäftes ändern. Variable Kosten sind die Summe der Grenzkosten über alle erzeugten Einheiten hinweg. Fixkosten und variable Kosten ergeben die beiden Komponenten der Gesamtkosten.|  
 |Variante|Eine Variante wird als optionale benutzerdefinierte Beschriftung für Zuordnungen verwendet. Der Zweck der Beschriftung ist es, Gruppen nach Zuordnung zu filtern.|  
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
  [Informationen zur Kostenrechnung](finance-about-cost-accounting.md)  
  [Kostenrechnung](finance-manage-cost-accounting.md)  

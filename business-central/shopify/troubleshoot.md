@@ -158,6 +158,10 @@ Wenden Sie sich innerhalb von sieben Tagen nach Auftreten dieses Fehlers an den
 
 Anscheinend hat der Benutzer, der Zugriff anfordert, keine Rechte zum Verwalten von Apps (die Möglichkeit, Apps und Kanäle zu verwalten und zu installieren und möglicherweise App-Gebühren zu genehmigen). Möglicherweise können Sie dieses Problem beheben, indem Sie die App als Kontoinhaber installieren. Alternativ können Sie die **App-Berechtigung** für den Benutzer in den Einstellungen [**Benutzer und Berechtigungen**](https://www.shopify.com/admin/settings/account) in Ihrer **Shopify-Verwaltung** überprüfen.  
 
+### [{„message“:„Zugriff für FELD-Feld verweigert.“,„locations“:[{„line“:0,„column“:0}],„path“:[„path“],„extensions“:{„code“:„ACCESS_DENIED“,„documentation“:https://shopify.dev/api/usage/access-scopes}}]
+
+Fordern Sie ein neues Token an, da die aktualisierte Version des Connectors mehr Berechtigungen (Anwendungsbereiche) erfordert. Weitere Informationen finden Sie unter [Anforderung des Zugriffstokens](#request-the-access-token).
+
 ## Siehe auch
 
 [Einstieg in den Konnektor für Shopify](get-started.md)

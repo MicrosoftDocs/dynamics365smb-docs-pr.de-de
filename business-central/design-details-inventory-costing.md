@@ -11,13 +11,13 @@ ms.search.form: 8645
 ms.date: 06/08/2021
 ms.author: bholtorf
 ---
-# <a name="design-details-inventory-costing"></a>Designdetails: Lagerkostenberechnung
+# Designdetails: Lagerkostenberechnung
 
 Diese Dokumentation stellt einen detaillierten technischen Einblick in die Konzepte und Prinzipien bereit, die in den Lagerkostenfunktionen in [!INCLUDE[prod_short](includes/prod_short.md)] verwendet werden.  
 
 Die Kostenverwaltung, die auch als "Lagerabgang" bezeichnet wird, dient zum Erfassen und Melden der Betriebskosten eines Unternehmens.  
 
-## <a name="in-this-section"></a>In diesem Abschnitt
+## In diesem Abschnitt
 
 [Designdetails: Kostenberechnungsmethoden](design-details-costing-methods.md)  
 [Designdetails: Artikelausgleich](design-details-item-application.md)  

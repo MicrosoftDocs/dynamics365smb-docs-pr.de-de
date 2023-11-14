@@ -10,7 +10,7 @@ ms.search.keywords: UOM
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# <a name="set-up-units-of-measure"></a>Einheiten einrichten
+# Einheiten einrichten
 
 Im Rahmen der Einrichtung von [!INCLUDE [prod_short](includes/prod_short.md)] legen Sie allgemeine Einheiten auf der Seite **Enheit** fest. Wenn Sie dann neue Elemente registrieren, legen Sie die Basiseinheit auf der **Artikelkarte** fest. Sie können Einheiten jedoch auch später hinzufügen.  
 
@@ -23,7 +23,7 @@ Wenn ein Artikel in einer Einheit am Lager geführt, aber in einer anderen Einhe
 
 Ein weiteres Tool, das Ihnen die Arbeit mit mehreren Einheiten für Artikel erleichtert, ist die Möglichkeit, eine Rundungsgenauigkeit für Basiseinheiten anzugeben. Die Angabe einer Rundungsgenauigkeit bietet eine Orientierungshilfe, was jemand für einen bestimmten Geschäftsprozess eingeben sollte, und hilft, Rundungsprobleme zu vermeiden. Wenn Sie alternative Einheiten verwenden, hilft der Wert im Feld **Menge pro Einheit** bei der Berechnung der Menge in der Basiseinheit, was zu Rundungsproblemen führen kann. Stellen Sie sich zum Beispiel vor, Sie erhalten einen Karton, der sechs Elemente enthält. Als der Karton in Ihrem Lager eintrifft, stellen Sie fest, dass eines der sechs Elemente fehlt. Sie beschließen, den Eingang des einen Kartons nicht zu buchen, sondern die Eingangsmenge auf fünf von sechs Teilen zu ändern. Das würde zu einem Eingang von 4,99998 Stück führen, anstatt von fünf. Auf der Seite **Element Einheiten** können Sie im Feld **Mengenrundungspräzision** einen Wert angeben, der die Menge in eine besser verständliche Zahl umrechnet. Wenn wir mit dem Beispiel fortfahren, würden wir **1** in das Feld eingeben, um auf glatte fünf Stück aufzurunden.
 
-## <a name="to-set-up-units-of-measure"></a>So richten Sie Einheiten ein
+## So richten Sie Einheiten ein
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Einheiten** ein, und wählen Sie dann den entsprechenden Link.  
 2. Wählen Sie die Aktion **Neu**. Eine neue leere Zeile wird eingefügt.  
@@ -36,7 +36,7 @@ Ein weiteres Tool, das Ihnen die Arbeit mit mehreren Einheiten für Artikel erle
 
 Wenn Sie einen neuen Artikel registrieren, können Sie die Einheit aus der Liste der Einheiten auswählen, die Sie jetzt eingerichtet haben. Sie können auch mehrere Einheiten für einen Artikel einrichten.  
 
-## <a name="to-set-up-multiple-item-units-of-measure"></a>So richten Sie mehrere Einheiten für Artikel ein
+## So richten Sie mehrere Einheiten für Artikel ein
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Elemente** ein, und wählen Sie dann den zugehörigen Link.
 2. Öffnen Sie die Karte des Artikels, für die Sie alternative Einheiten einrichten möchten.
@@ -54,7 +54,7 @@ Wenn Sie einen neuen Artikel registrieren, können Sie die Einheit aus der Liste
 
 Sie können die alternativen Einheiten von Einkauf, Produktion und Verkaufsbelegen jetzt verwenden. Weitere Informationen finden Sie unter [Ein Standardcode für Einheiten bei Transaktionen im Verkauf und Kauf eingeben](#to-enter-a-default-unit-of-measure-code-for-sales-and-purchasing-transactions).  
 
-## <a name="to-set-up-unit-of-measure-translations"></a>Einheiten der Maßübersetzungen einrichten
+## Einheiten der Maßübersetzungen einrichten
 
 Wenn Sie Artikel an ausländische Kunden verkaufen, möchten Sie vielleicht die Einheit in der Sprache des Debitors angeben. Das können Sie tun, indem Sie Übersetzungen für Einheiten angeben.
 
@@ -64,7 +64,7 @@ Wenn Sie Artikel an ausländische Kunden verkaufen, möchten Sie vielleicht die 
 4. Geben Sie in dem Feld **Beschreibung** den entsprechenden Text ein.
 5. Wiederholen Sie die Schritte 2 bis 4 für die Einheitencodes und die Sprachen, für die Sie Übersetzungen eingeben möchten.
 
-## <a name="to-enter-a-default-unit-of-measure-code-for-sales-and-purchasing-transactions"></a>Um einen Vorgabe-Einheitencode für Einkaufs- und Verkaufstransaktionen einzugeben
+## Um einen Vorgabe-Einheitencode für Einkaufs- und Verkaufstransaktionen einzugeben
 
 Wenn Sie normalerweise in Einheiten kaufen und verkaufen, die von der Basiseinheit abweichen, können Sie für Einkäufe und Verkäufe eigene Einheiten festlegen. Dazu müssen die Einheiten auf der Seite **Artikeleinheiten** eingerichtet worden sein.
 
@@ -74,7 +74,7 @@ Wenn Sie normalerweise in Einheiten kaufen und verkaufen, die von der Basiseinhe
 4. Öffnen Sie im Inforegister **Beschaffung** im Feld **Einkaufseinheitencode** die Seite **Artikeleinheiten**.
 5. Wählen Sie den Code, den Sie als Standardeinheit für Verkäufe oder Einkäufe entsprechend einrichten möchten, und wählen Sie dann die Schaltfläche **OK** aus.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Verwenden der Fertigungsloseinheit](production-how-to-use-the-manufacturing-batch-unit-of-measure.md)  
 [Neue Artikel registrieren](inventory-how-register-new-items.md)  
