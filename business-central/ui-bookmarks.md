@@ -68,7 +68,7 @@ Einige Berichte können durch andere Berichte ersetzt werden, nachdem eine Erwei
 <!-- For more information on report substitution, see this link UNAVAILABLE AT THIS TIME -->
 
 - **Sind Lesezeichen für XMLports verfügbar?**  
-Anzahl Zur Zeit ist das Hinzufügen von Aktionen zum Öffnen von XMLports nicht über die Benutzeroberfläche möglich.
+Nein. Zur Zeit ist das Hinzufügen von Aktionen zum Öffnen von XMLports nicht über die Benutzeroberfläche möglich.
 
 - **Werden meine Lesezeichen übersetzt, wenn ich meine Sprache in Business Central ändere?**  
 Wenn Sie ein neues Lesezeichen hinzufügen, wird jeder übersetzte Text, der zu diesem Zeitpunkt verfügbar war, mit einem Lesezeichen versehen. Wenn später neuer übersetzter Text hinzugefügt wird, sind die neueren Übersetzungen nicht in der neuen Aktion enthalten.

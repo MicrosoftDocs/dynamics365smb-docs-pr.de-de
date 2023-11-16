@@ -86,7 +86,7 @@ sections:
       - question: |
           Muss ich Microsoft 365 kaufen?
         answer: |
-          Anz. Wenn Sie allerdings möchten, dass [!INCLUDE[prod_short](includes/prod_short.md)] vollständig in Microsoft 365 integriert wird, können Sie sich für eine 1-monatige kostenlose Testversion von Microsoft 365 [hier](https://products.office.com/try) anmelden.  
+          Nein. Wenn Sie allerdings möchten, dass [!INCLUDE[prod_short](includes/prod_short.md)] vollständig in Microsoft 365 integriert wird, können Sie sich für eine 1-monatige kostenlose Testversion von Microsoft 365 [hier](https://products.office.com/try) anmelden.  
 
           Wenn das Konto, bei dem Sie sich anmelden, kein Microsoft 365-Arbeitskonto ist (wie z. B. joe@mysolution.com) und Sie ein Microsoft 365-Abonnement haben, können Sie Ihre Domäne (*mysolution.com*) dem Microsoft 365-Abonnement zuordnen. Erfahren Sie mehr unter [Was ist eine Domäne?](/microsoft-365/admin/get-help-with-domains/what-is-a-domain?view=o365-worldwide&preserve-view=true) im Microsoft 365-Inhalt.  
 

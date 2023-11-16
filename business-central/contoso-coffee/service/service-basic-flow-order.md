@@ -61,7 +61,7 @@ Der Servicetechniker markiert das Leihgerät als zurückgegeben und registriert 
    3. Wählen Sie die Aktion **Artikel-Arbeitsblatt** aus.
    4. Geben Sie die folgenden Informationen ein
 
-    |Typ|Anz.|Menge|
+    |Typ|Nr.|Menge|
     |----|---|--------|  
     |Option|SER102|2|
 

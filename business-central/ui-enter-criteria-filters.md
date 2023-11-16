@@ -8,7 +8,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 'delimit, FlowFilter, totals, limit, advanced'
 ms.search.form: null
-ms.date: 04/01/2021
+ms.date: 10/30/2023
 ms.author: jswymer
 ---
 # Sortieren, Durchsuchen und Filtern

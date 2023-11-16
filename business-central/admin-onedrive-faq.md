@@ -26,7 +26,7 @@ Als Teil Ihres Microsoft 365-Abonnements stellt Ihnen Ihr Unternehmen OneDrive z
 
 ## Unterstützt [!INCLUDE[prod_short](includes/prod_short.md)] den Verbraucher OneDrive?
 
-Anzahl Diese Integration ist ausschließlich für OneDrive for Business gedacht und unterstützt nur Ihr Arbeitskonto. 
+Nein. Diese Integration ist ausschließlich für OneDrive for Business gedacht und unterstützt nur Ihr Arbeitskonto. 
 
 ## Werden alle OneDrive for Business-Pakete unterstützt?
 
@@ -42,11 +42,11 @@ Ja, aber im Gegensatz zu [!INCLUDE[prod_short](includes/prod_short.md)] online, 
 
 ## Lässt sich [!INCLUDE[prod_short](includes/prod_short.md)] on-premises mit SharePoint Server verbinden?
 
-Anz. Diese Bereitstellungskombination wird nicht unterstützt, selbst wenn SharePoint Server Meine Sites aktiviert hat.  
+Nein. Diese Bereitstellungskombination wird nicht unterstützt, selbst wenn SharePoint Server Meine Sites aktiviert hat.  
 
 ## Stellt [!INCLUDE[prod_short](includes/prod_short.md)] online eine Verbindung zu SharePoint Server her?
 
-Anz. Diese Bereitstellungskombination wird nicht unterstützt, selbst wenn SharePoint Server Meine Sites aktiviert hat.  
+Nein. Diese Bereitstellungskombination wird nicht unterstützt, selbst wenn SharePoint Server Meine Sites aktiviert hat.  
 
 ## Wie funktioniert dies in einem Unternehmen mit mehreren Umgebungen?
 

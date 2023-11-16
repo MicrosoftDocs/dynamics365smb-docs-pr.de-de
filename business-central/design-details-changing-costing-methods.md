@@ -123,7 +123,7 @@ Verwenden Sie beim Erstellen von Montageaufträgen die Informationen aus dem Inv
 |Feld  |Einzugebender Wert  |
 |---------|---------|
 |Typ |Artikel |
-|Anzahl |Die Nummer des ursprünglichen Artikels. |
+|Nr. |Die Nummer des ursprünglichen Artikels. |
 |Komponentenmenge |1 |
 |Variantencode |Identisch mit dem Inventur-Buch.-Blatt. |
 |Lagerortcode |Identisch mit dem Inventur-Buch.-Blatt. |

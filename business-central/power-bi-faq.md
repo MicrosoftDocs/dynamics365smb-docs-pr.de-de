@@ -23,7 +23,7 @@ Ja, da die Berichte von Power BI eingebettet sind.
 <!-- 3 -->
 ### Sind die Business Central Apps für Power BI in anderen Sprachen als Englisch verfügbar?
 
-Anzahl Diese Apps sind derzeit nur in Englisch verfügbar.
+Nein. Diese Apps sind derzeit nur in Englisch verfügbar.
 
 <!-- 24 -->
 ### Sobald ein Bericht in meinem powerbi.com Arbeitsbereich veröffentlicht ist, kann ich sein pbix herunterladen? 
@@ -33,7 +33,7 @@ Ja. Weitere Informationen finden Sie unter [Herunterladen eines Berichts vom Die
 <!-- 27 -->
 ### Kann ich die Apps als pbix-Dateien herunterladen? 
 
-Anzahl Derzeit bieten wir den Download von pbix-Dateien für die offiziellen Power BI-Apps nicht an, da diese auf AppSource veröffentlicht werden.
+Nein. Derzeit bieten wir den Download von pbix-Dateien für die offiziellen Power BI-Apps nicht an, da diese auf AppSource veröffentlicht werden.
 
 ## [Lizenz](#tab/license)
 
@@ -41,7 +41,7 @@ Anzahl Derzeit bieten wir den Download von pbix-Dateien für die offiziellen Pow
 ### Benötige ich eine Power BI Pro-Lizenz, um Berichte zu veröffentlichen? 
 
 <!-- todo What does " or for every user that consults the published report" mean? fixed -->
-Anzahl Eine Pro-Lizenz ist nicht erforderlich, um Berichte zu veröffentlichen. Die normale (kostenlose) Power BI-Lizenz ist ausreichend. Weitere Informationen finden Sie unter [Power BI-Lizenzierung](admin-powerbi-setup.md#license).
+Nein. Eine Pro-Lizenz ist nicht erforderlich, um Berichte zu veröffentlichen. Die normale (kostenlose) Power BI-Lizenz ist ausreichend. Weitere Informationen finden Sie unter [Power BI-Lizenzierung](admin-powerbi-setup.md#license).
 
 <!-- 15 -->
 ### Gibt es etwas, was ich mit der kostenlosen Lizenz nicht tun kann?
@@ -126,7 +126,7 @@ Es gibt derzeit keine Möglichkeit, einen Filter für die Webservice-Daten von B
 <!-- 10 -->
 ### Gibt es neben der Verwendung einer Abfrage in Power BI eine andere Möglichkeit, Daten aus Business Central-Tabellen abzurufen, die keine zugehörige Seite haben? Zum Beispiel, wie die *Element-Attribute-Wert-Zuordnung* Tabelle.
 
-Anzahl Im Moment nicht.
+Nein. Im Moment nicht.
 
 <!-- 12 --> 
 ### Sind veröffentlichte Abfragen schneller zu verwenden als veröffentlichte Seiten?
@@ -202,12 +202,12 @@ Ja. Unsere Tests zeigen, dass API-Seiten bis zu 25 % performanter sind als Webdi
 <!-- 18 -->
 ### Ist ein Mirror auf der Azure SQL Database-Instanz geplant, mit dem ich mich direkt verbinden kann?
 
-Anzahl Im Moment nicht. Sie können nur über APIs mit Business Central kommunizieren.
+Nein. Im Moment nicht. Sie können nur über APIs mit Business Central kommunizieren.
 
 <!-- 19 -->
 ### Das Laden von Daten aus Business Central-Webdiensten scheint langsam zu sein. Gibt es eine Möglichkeit, Daten direkt aus der SQL-Datenbanktabelle abzurufen?
 
-Anzahl Ein direkter Zugriff auf die Datenbank ist nicht möglich, aber der Wechsel zu API-Seiten (wenn der neue Konnektor verfügbar ist) wird eine große Hilfe sein.
+Nein. Ein direkter Zugriff auf die Datenbank ist nicht möglich, aber der Wechsel zu API-Seiten (wenn der neue Konnektor verfügbar ist) wird eine große Hilfe sein.
 
 ## [Erweitert](#tab/advanced)
 <!-- 1 -->

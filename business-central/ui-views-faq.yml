@@ -60,7 +60,7 @@ sections:
       - question: |
           Kann ich im Tell Me-Fenster nach Ansichten suchen?
         answer: |
-          Nr. Das **Sag mir** Fenster zeigt nur Suchergebnisse für die Seite an, aber Sie sind nur einen Schritt davon entfernt, zu Ihrer Lieblingsansicht zu gelangen, sobald Sie zur Seite navigieren.
+          Nein. Das **Sag mir** Fenster zeigt nur Suchergebnisse für die Seite an, aber Sie sind nur einen Schritt davon entfernt, zu Ihrer Lieblingsansicht zu gelangen, sobald Sie zur Seite navigieren.
       - question: |
           Was ist ein geteiltes Layout?
         answer: |

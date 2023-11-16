@@ -124,7 +124,7 @@ Der Servicetechniker registriert seine Zeit direkt im Serviceauftrag und markier
    3. Wählen Sie die Zeilenaktion **Servicezeilen**.
    4. Geben Sie die folgenden Informationen ein
 
-    |Typ|Anz.|Menge|Mge. zu verbrauchen|
+    |Typ|Nr.|Menge|Mge. zu verbrauchen|
     |----|---|--------|--------|   
     |Ressource|RESOURCE1|2|2|
 

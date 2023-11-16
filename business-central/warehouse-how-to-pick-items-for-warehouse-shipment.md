@@ -83,8 +83,8 @@ Sie können keine Lagerkommissionierbelege von Grund auf erstellen. Kommissionie
 
     |Option|Beschreibung|
     |-|-|
-    |Max. Anz. der Kommissionierungszeilen|Erstellt Kommissionierbelege, die in jedem Beleg nicht mehr als die angegebene Anzahl von Zeilen haben.|
-    |Max. Anz. der Kommissionierungsherkunftsbelege|Erstellt Kommissionierungsbelege, von denen jeder nicht mehr als die angegebene Anzahl von Herkunftsbelegen einschließt.|
+    |Max. Nr. der Kommissionierungszeilen|Erstellt Kommissionierbelege, die in jedem Beleg nicht mehr als die angegebene Anzahl von Zeilen haben.|
+    |Max. Nr. der Kommissionierungsherkunftsbelege|Erstellt Kommissionierungsbelege, von denen jeder nicht mehr als die angegebene Anzahl von Herkunftsbelegen einschließt.|
     |Zugewiesene Benutzer-ID|Erstellt Kommissionierungsbelege nur für Arbeitsblattzeilen, die dem ausgewählten Lagermitarbeiter zugeordnet sind.|
     |Sortiermethode für Kommissionierzeilen|Wählen Sie aus den verfügbaren Optionen aus, um Zeilen im erstellten Kommissionierungsbeleg zu sortieren.|
     |Gebindeanbruchsfilter verw.|Blendet Gebindeanbruch-Kommissionierungs-Zwischenzeilen aus, wenn eine größeren Maßeinheit in eine kleinere Maßeinheit umgewandelt und vollständig Kommissioniert wird.|

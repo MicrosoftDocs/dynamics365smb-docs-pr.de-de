@@ -55,7 +55,7 @@ Edgin, der Techniker, der die Maschine installiert, muss für die Abrechnung sei
     2. Wählen Sie den Stapel *CONTOSO*.  Sie sehen mehrere Zeilen mit Ressourcen- und Artikeltypen, die die verwendete Zeit (für den Techniker und das Fahrzeug) und die verwendeten Materialien (Maschine und Zubehör) widerspiegeln.
     3. Erstellen Sie eine neue Zeile. Geben Sie die folgenden Werte ein:
  
-    |Einzelvorgangsnr.|Aufg. Nr.|Typ|Anz.|Description|Menge|
+    |Einzelvorgangsnr.|Aufg. Nr.|Typ|Nr.|Description|Menge|
     |-------|------------|----|---|-----------|--------|  
     |J00010|220|Ressource|EDGIN|Debitorenschulung|0|
 

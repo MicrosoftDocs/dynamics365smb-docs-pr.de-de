@@ -124,10 +124,10 @@ Die folgende Tabelle zeigt das Ergebnis des Szenarios für die Wertposten des Ar
 
 |Buchungsdatum|Artikelpostenart|Bewertete Menge|Einstandsbetrag (tatsächl.)|Ausgleich mit Artikelposten|Bew. z. Einst.-Pr. (durchschn.)|Artikelposten Lfd. Nr.|Postennr.|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|--------------------------------------------|-------------------------------------------------|-----------------------------------------------|----------------------------------|  
-|01-01-20|Einkauf|1|200.00||Nr.|1|1|  
-|01-01-20|Einkauf|1|1000.00||Nr.|2|2|  
-|01-01-20|Einkauf|-1|-1000|2|Nr.|3|3|  
-|01-01-20|Einkauf|1|100.00||Nr.|4|4|  
+|01-01-20|Einkauf|1|200.00||Nein|1|1|  
+|01-01-20|Einkauf|1|1000.00||Nein|2|2|  
+|01-01-20|Einkauf|-1|-1000|2|Nein|3|3|  
+|01-01-20|Einkauf|1|100.00||Nein|4|4|  
 |01-01-20|Verkauf|-2|-300.00||Ja|5|5|  
 
 Wenn der Benutzer nicht den festen Ausgleich zwischen der Einkaufsgutschrift und dem Einkauf mit dem falschen EK-Preis (Schritt 2 im vorherigen Szenario) eingerichtet hätte, dann würden die Kosten anders reguliert worden sein.  
@@ -136,10 +136,10 @@ Die folgende Tabelle zeigt die Auswirkung auf die Wertposten des Artikels an, we
 
 |Buchungsdatum|Artikelpostenart|Bewertete Menge|Einstandsbetrag (tatsächl.)|Ausgleich mit Artikelposten|Bew. z. Einst.-Pr. (durchschn.)|Artikelposten Lfd. Nr.|Postennr.|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|--------------------------------------------|-------------------------------------------------|-----------------------------------------------|----------------------------------|  
-|01-01-20|Einkauf|1|200.00||Nr.|1|1|  
-|01-01-20|Einkauf|1|1000.00||Nr.|2|2|  
+|01-01-20|Einkauf|1|200.00||Nein|1|1|  
+|01-01-20|Einkauf|1|1000.00||Nein|2|2|  
 |01-01-20|Einkauf|-1|433,33||Ja|3|3|  
-|01-01-20|Einkauf|1|100.00||Nr.|4|4|  
+|01-01-20|Einkauf|1|100.00||Nein|4|4|  
 |01-01-20|Verkauf|-2|866,67||Ja|5|5|  
 
 In Postennummer 3 wird der Wert im Feld **Kostenbetrag (Ist)** durch die Methode „Durchschnitt“ bewertet und enthält daher die fehlerhafte Buchung von 1000,00. Entsprechend ergibt sich -433,33, d.h. ein überhöhter Kostenbetrag. Die Berechnung lautet: 1300 / 3 = .-433,33.  

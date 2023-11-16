@@ -190,7 +190,7 @@ Im folgenden Verfahren erstellen Sie eine Projektbuchungsblatt für Tricia, um d
 
 2. Erstellen Sie Planungszeilen mit den folgenden Informationen:  
 
-    | Zeile | Zeilenart | Planungsdatum  | Typ        | Anzahl   | Menge | VK-Preis |
+    | Zeile | Zeilenart | Planungsdatum  | Typ        | Nr.   | Menge | VK-Preis |
     |------|-----------|----------------|-------------|-------|----------|------------|
     | 1    | Sowohl budgetiert und verrechenbar | (heutiges Datum) | Ressource | Katrin | 40        |     |
     | 2    | Sowohl budgetiert und verrechenbar | (heutiges Datum) | Ressource | Thorsten | 40        |     |
@@ -199,7 +199,7 @@ Im folgenden Verfahren erstellen Sie eine Projektbuchungsblatt für Tricia, um d
      Schließen Sie die Seite. Die Summen werden auf der Seite **Projektaufgabenzeilen** aktualisiert.  
 3. Wählen Sie die Zeile 1020 und wählen Sie dann die Aktion **Projektplanzeilen** aus. Geben Sie die folgenden Informationen ein:  
 
-    | Zeile | Zeilenart | Planungsdatum  | Typ        | Anzahl   | Menge | VK-Preis |
+    | Zeile | Zeilenart | Planungsdatum  | Typ        | Nr.   | Menge | VK-Preis |
     |------|-----------|----------------|-------------|-------|----------|------------|
     | 1    | Sowohl budgetiert und verrechenbar | (heutiges Datum) | Ressource | Katrin | 80        |     |
     | 2    | Sowohl budgetiert und verrechenbar | (heutiges Datum) | Artikel | 80201 (Grafikprogramm) | 1 |     |
@@ -272,7 +272,7 @@ Die Zeilen werden gebucht.
 
 4. Auf der Seite **Projekt Buch,-Blatt** wählen Sie die Zeile 1120 und wählen die Aktion **Buchen** aus. Erstellen Sie eine Planungszeile mit den folgenden Informationen:  
 
-    | Zeile | Zeilenart | Typ        | Anzahl   | Menge |
+    | Zeile | Zeilenart | Typ        | Nr.   | Menge |
     |------|-----------|-------------|-------|----------|
     | 1    | Sowohl budgetiert und verrechenbar  | Ressource | Katrin | 30 |
 
@@ -413,7 +413,7 @@ In den folgenden Verfahren wird gezeigt, wie Sie ein neues Projekt erstellen, di
 
 6. Erstellen Sie eine Planungszeile mit den folgenden Informationen:  
 
-    | Zeile | Zeilenart | Planungsdatum  | Typ        | Anzahl   | Menge | VK-Preis |
+    | Zeile | Zeilenart | Planungsdatum  | Typ        | Nr.   | Menge | VK-Preis |
     |------|-----------|----------------|-------------|-------|----------|------------|
     | 1    | Fakturierbar  | (heutiges Datum) | Sachkonto | 40255 | 1        | 5000       |
 
@@ -423,7 +423,7 @@ In den folgenden Verfahren wird gezeigt, wie Sie ein neues Projekt erstellen, di
 
 8. Erstellen Sie eine Planungszeile mit den folgenden Informationen:
 
-    | Zeile | Zeilenart | Planungsdatum  | Typ     | Anzahl    | Menge |
+    | Zeile | Zeilenart | Planungsdatum  | Typ     | Nr.    | Menge |
     |------|-----------|----------------|----------|--------|----------|
     | 1    | Budget    | (heutiges Datum) | Ressource | Katrin | 120      |
     | 2    | Budget    | (heutiges Datum) | Artikel     | 70104  | 10       |
@@ -434,7 +434,7 @@ In den folgenden Verfahren wird gezeigt, wie Sie ein neues Projekt erstellen, di
 
 10. Erstellen Sie eine Planungszeile mit den folgenden Informationen:
 
-    | Zeile | Zeilenart | Planungsdatum   | Typ        | Anzahl   | Menge | VK-Preis |
+    | Zeile | Zeilenart | Planungsdatum   | Typ        | Nr.   | Menge | VK-Preis |
     |------|-----------|-----------------|-------------|-------|----------|------------|
     | 1    | Fakturierbar  | (ein zukünftiges Datum) | Sachkonto | 40255 | 1        | 5000       |
 

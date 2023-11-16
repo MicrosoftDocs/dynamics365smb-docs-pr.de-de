@@ -184,8 +184,8 @@ Beispiel: Sie haben einen Onlineshop und einen Shopify POS. Für Ihren POS möch
 4. Erstellen Sie einen Shopify Shop mit dem Namen *POS* und verknüpfen Sie ihn mit demselben Shopify Konto.
 6. Stellen Sie sicher, dass die Artikel-/Produktsynchronisierung deaktiviert ist.
 7. Wählen Sie den Connector aus, der den Standarddebitor verwendet.
-8. Erstellen Sie einen wiederkehrenden Auftragswarteschlangeneintrag für Bericht 30104 **Aufträge von Shopify synchronisieren**. Wählen Sie **STORE** im Feld **Shopify Shop-Code** aus und verwenden Sie Filter, um alle Aufträge außer denen zu erfassen, die der POS-Vertriebskanal erstellt. Zum Beispiel: **<>-Verkaufsstelle**
-9. Erstellen Sie einen wiederkehrenden Auftragswarteschlangeneintrag für den Bericht 30104 **Aufträge von Shopify synchronisieren**. Wählen Sie **POS** im Feld **Shopify Shop-Code** aus und verwenden Sie Filter, um Aufträge zu erfassen, die vom POS-Vertriebskanal generiert wurden. Zum Beispiel: **<>Verkaufsstelle**.
+8. Erstellen Sie einen wiederkehrenden Auftragswarteschlangeneintrag für Bericht 30104 **Aufträge von Shopify synchronisieren**. Wählen Sie **STORE** im Feld **Shopify Shop-Code** aus und verwenden Sie Filter, um alle Aufträge außer denen zu erfassen, die der POS-Vertriebskanal erstellt. Zum Beispiel: **<>Verkaufsstelle**
+9. Erstellen Sie einen wiederkehrenden Auftragswarteschlangeneintrag für den Bericht 30104 **Aufträge von Shopify synchronisieren**. Wählen Sie **POS** im Feld **Shopify Shop-Code** aus und verwenden Sie Filter, um Aufträge zu erfassen, die vom POS-Vertriebskanal generiert wurden. Zum Beispiel: **Verkaufsstelle**.
 
 Jede Auftragswarteschlange importiert und verarbeitet Aufträge innerhalb der definierten Filter und verwendet die Regeln der entsprechenden Shopify Shop-Karte. Sie erstellen beispielsweise Verkaufsstellenaufträge für den Standarddebitor.
 
@@ -260,7 +260,7 @@ Rückgaben werden nur zu Informationszwecken importiert. Ihnen ist keine Verarbe
 Finanz- und gegebenenfalls Lagerbuchungen werden über Rückerstattungen abgewickelt. Rückerstattungen können sich auf Produkte oder nur auf Beträge beziehen, beispielsweise wenn sich ein Händler entschieden hat, Versandkosten oder einen anderen Betrag zu erstatten.
 Sie können Verkaufsgutschriften für Rückerstattungen erstellen. Die Gutschriften können folgende Zeilentypen haben:
 
-|Typ|Anz.|Kommentar|
+|Typ|Nr.|Kommentar|
 |-|-|-|
 |Sachkonto|Konto für verkaufte Geschenkkarte| Für Rückerstattungen im Zusammenhang mit Geschenkkarten verwenden.|
 |Sachkonto|Erstattungskonto nicht eingelagert | Für Rückerstattungen im Zusammenhang mit Produkten verwenden, die nicht wieder eingelagert wurden. |

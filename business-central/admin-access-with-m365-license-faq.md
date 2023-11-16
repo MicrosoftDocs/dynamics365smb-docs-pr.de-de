@@ -41,7 +41,7 @@ Ja. Das Hinzufügen von Berechtigungssätzen zur Benutzergruppe Microsoft Teams 
 
 ### Erteilt ein Benutzer von Business Central neue Berechtigungen, wenn er einen Datensatz in Teams freigibt?
 
-Anz. Diese Aktion ist nicht dasselbe wie das Teilen eines Links zu einem SharePoint-Dokument, bei dem die Person, die das Dokument teilt, die Berechtigung für andere erteilen kann. In Business Central können nur Administratoren Berechtigungen konfigurieren und zuweisen. Im Vergleich zur Freigabe von SharePoint-Dokumenten entspricht dies der Auswahl der Option „Für Personen mit bestehendem Zugriff freigeben“.
+Nein. Diese Aktion ist nicht dasselbe wie das Teilen eines Links zu einem SharePoint-Dokument, bei dem die Person, die das Dokument teilt, die Berechtigung für andere erteilen kann. In Business Central können nur Administratoren Berechtigungen konfigurieren und zuweisen. Im Vergleich zur Freigabe von SharePoint-Dokumenten entspricht dies der Auswahl der Option „Für Personen mit bestehendem Zugriff freigeben“.
 
 ### Unterstützt diese Funktion die Sicherheit auf Zeilenebene?
 
@@ -95,7 +95,7 @@ Um die Produktivität zu maximieren und ihre Vorgänge zu rationalisieren, kaufe
 
 ### Ist dies zu 100% kostenlos?
  
-Anz. Der Zugriff auf die Daten von Business Central in Microsoft Teams setzt voraus, dass jeder Benutzer entweder eine Business Central-Lizenz oder eine Microsoft 365-Lizenz aus der Liste der unterstützten Pläne besitzt.
+Nein. Der Zugriff auf die Daten von Business Central in Microsoft Teams setzt voraus, dass jeder Benutzer entweder eine Business Central-Lizenz oder eine Microsoft 365-Lizenz aus der Liste der unterstützten Pläne besitzt.
 
 ### Funktioniert dies mit Microsoft 365-Tests und Business Central-Tests?
 

@@ -61,7 +61,7 @@ sections:
       - question: |
           Kann ein Gastbenutzer die App verwenden, um auf unsere Business Central-Lösung zuzugreifen?
         answer: |
-          Anz. Gastbenutzer sind eingeladene Benutzer von einem anderen Microsoft Entra Mandanten als Ihrer. In diesem Fall authentifiziert sich die App beim primären Benutzer des Gastbenutzers Microsoft Entra Mandanten und versucht, den Business Central-Endpunkt auf diesem Mandanten statt auf Ihrem zu öffnen.  
+          Nein. Gastbenutzer sind eingeladene Benutzer von einem anderen Microsoft Entra Mandanten als Ihrer. In diesem Fall authentifiziert sich die App beim primären Benutzer des Gastbenutzers Microsoft Entra Mandanten und versucht, den Business Central-Endpunkt auf diesem Mandanten statt auf Ihrem zu öffnen.  
 additionalContent: |
 
   ## Siehe auch
