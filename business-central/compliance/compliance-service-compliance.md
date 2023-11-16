@@ -11,7 +11,7 @@ ms.reviewer: bholtorf
 ms.date: 06/14/2021
 ms.author: soalex
 ---
-# Dienst-Kompatibilität
+# <a name="service-compliance"></a>Dienst-Kompatibilität
 
 Dieser Inhalt enthält Informationen über Dienstkompatibilität in Bezug auf [!INCLUDE[prod_short](../includes/prod_short.md)] online  
 
@@ -21,11 +21,11 @@ Hier finden Sie die detaillierten [Cloudkompatibilitätsanforderungen für Busin
 
 Wenn Sie an der vollständigen Liste der Kompatibilitätsanforderungen von Microsoft interessiert sind, gehen Sie zum [Microsoft Trust Center](https://www.microsoft.com/trustcenter/compliance/complianceofferings).
 
-## Servicebedingungen
+## <a name="service-terms"></a>Servicebedingungen
 
 [!INCLUDE [service-terms](../includes/service-terms.md)]
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Kompatibilität](compliance-overview.md)  
 [Anwendungs-Kompatibilität](compliance-application-compliance.md)  

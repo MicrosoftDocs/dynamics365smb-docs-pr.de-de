@@ -10,7 +10,7 @@ ms.author: jswymer
 ms.reviewer: jswymer
 ---
 
-# Häufig gestellte Fragen zur verantwortungsvollen KI für Dynamics 365 Business Central
+# <a name="responsible-ai-faqs-for-for-dynamics-365-business-central"></a>Häufig gestellte Fragen zur verantwortungsvollen KI für Dynamics 365 Business Central
 
 [!INCLUDE[responsible-ai-features-intro](includes/responsible-ai-intro.md)]
 

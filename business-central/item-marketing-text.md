@@ -15,7 +15,7 @@ Sie können für jeden in Business Central registrierten Artikel *Marketingtext*
 
 Es gibt zwei Möglichkeiten, Marketingtext zu erstellen. Am einfachsten gelingt der Einstieg mit Copilot, das Ihnen KI-generierten Text vorschlägt. Die andere Möglichkeit ist, den Text von Grund auf selbst zu verfassen. 
 
-## <a name="create-ai-generated-marketing-text-preview-with-copilot"></a><a name=copilot></a>KI-generierte Marketingtexte (Vorschauversion) mit Copilot erstellen
+## <a name="get-marketing-text-suggestions-with-copilot"></a><a name=copilot></a>KI-generierte Marketingtexte (Vorschauversion) mit Copilot erstellen
 
 [!INCLUDE[ai-preview](includes/ai-preview.md)]
 
@@ -115,7 +115,7 @@ Sie können einige Schritte unternehmen, um Textvorschläge zu verbessern und si
 
    Copilot findet Wörter und Sätze, die sich auf die Kategorie beziehen, und arbeitet sie in den vorgeschlagenen Text ein.
 
-## <a name="create-marketing-text-from-scratch"></a>Marketingtexte von Grund auf neu erstellen
+## <a name="create-text-from-scratch"></a>Marketingtexte von Grund auf neu erstellen
 
 1. Öffnen Sie in Business Central den Artikel, den Sie ändern möchten, wie folgt:
 

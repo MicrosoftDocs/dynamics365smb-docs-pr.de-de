@@ -10,7 +10,7 @@ ms.search.form: '9325, 99000815, 99000829, 9900083'
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# Fertigungsauftragsköpfe erstellen
+# <a name="create-production-order-headers"></a>Fertigungsauftragsköpfe erstellen
 
 Sie können Fertigungsaufträge manuell erstellen, und der erste Schritt in diesem Ablauf ist das Erstellen des Fertigungsauftragskopfs.
 
@@ -18,7 +18,7 @@ Fertigungsaufträge werden üblicherweise bei einem dieser Planungsfunktion erst
 
 Im weiteren Prozess wird ein fest geplanter Fertigungsauftrag erstellt. Sie können auch Fertigungsaufträge mit einem anderen Status erstellen.  
 
-## Fertigungsauftragsköpfe erstellen
+## <a name="to-create-a-production-order-header"></a>Fertigungsauftragsköpfe erstellen
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Geplante Prod. Aufträge** ein und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die Aktion **Neu** aus.  
@@ -31,7 +31,7 @@ Im weiteren Prozess wird ein fest geplanter Fertigungsauftrag erstellt. Sie kön
 
 Wenn Sie Produktionsanforderungen, wie Komponenten oder Arbeitsgänge ändern, können Sie schnell einen Fertigungsauftrag neu planen. Weitere Informationen finden Sie unter [Direktes Aktualisieren oder ersetzen von Produktionsaufträgen](production-how-to-replan-refresh-production-orders.md).  
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Produktion](production-manage-manufacturing.md)
 [Produktion einrichten](production-configure-production-processes.md)  
