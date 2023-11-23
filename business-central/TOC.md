@@ -116,13 +116,6 @@
 ### [Probleme bei der Self-Service-Registrierung beheben](ui-troubleshoot-self-signup.md)
 ### [Ihre Testversion verlängern](admin-extend-trial.md)
 ### [Business Central kündigen oder entfernen](admin-cancel.md)
-### KI-gestützter Marketingtext für Artikel mit Copilot
-#### [Übersicht](ai-overview.md)
-#### [Vorschauversion erhalten](ai-preview-getstarted.md)
-#### [KI-gestützten Marketingtext für Artikel konfigurieren](enable-ai.md)
-#### [KI-gestützten Marketingtext für Artikel erstellen](item-marketing-text.md)
-#### [FAQ](ai-faq.md)
-
 ## Kaufen
 ### [Erste Schritte mit einem Abonnement](trial-signup.md#get-started-with-a-subscription)
 ### [Bereiten Sie sich auf das Geschäft vor](ui-get-ready-business.md)
@@ -379,6 +372,7 @@
 ### Bankkonten abstimmen
 #### [Bankabstimmung – Übersicht](bank-manage-bank-accounts.md)
 #### [Bankkonten abstimmen](bank-how-reconcile-bank-accounts-separately.md)
+#### [Bankkontoabstimmung mit Copilot (Vorschauversion)](bank-reconciliation-with-copilot.md)
 #### [Zahlungen automatisch vornehmen und Bankkonten abstimmen](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 
 ### Intercompany-Transaktionen verwalten
@@ -1577,7 +1571,6 @@
 #### [Lagerhaltungseinheiten einrichten](inventory-how-to-set-up-stockkeeping-units.md)
 #### [Artikel kategorisieren](inventory-how-categorize-items.md)
 #### [Mehrere Artikelbilder importieren](inventory-how-import-item-pictures.md)
-#### [KI-gestützten Marketingtext für Artikel mit Copilot konfigurieren](enable-ai.md)
 ### Projektmanagement einrichten
 #### [Projekte einrichten](projects-setup-projects.md)
 #### [Ressourcen einrichten](projects-how-setup-resources.md)
@@ -1841,6 +1834,17 @@
 #### [Anleitung zur Entwicklung von Berichten](/dynamics365/business-central/dev-itpro/developer/devenv-reports)
 #### [Anleitung zur Leistungsoptimierung von Berichten](/dynamics365/business-central/dev-itpro/performance/performance-developer#writing-efficient-reports)
 
+# Copilot- und KI-Funktionen
+## Copilot- und KI-Funktionen verwalten
+### [Copilot- und KI-Funktionen konfigurieren](enable-ai.md)
+### [Copilot-Datenbewegung über geografische Regionen hinweg](ai-copilot-data-movement.md)
+## Unterstützung bei Bankkontoabstimmung (Vorschauversion)
+### [Bankkontoabstimmung mit Copilot](bank-reconciliation-with-copilot.md)
+### [Häufig gestellte Fragen zur Unterstützung bei Bankkontoabstimmung](faqs-bank-reconciliation.md)
+## Vorschläge für Marketingtexte
+### [Überblick über Vorschläge für Marketingtexte](ai-overview.md)
+### [Marketingtexte mit Copilot erstellen](item-marketing-text.md)
+### [Häufig gestellte Fragen zu Vorschlägen für Marketingtexte](faqs-marketing-text.md)
 
 # Sicherheit, Compliance und Datenschutz
 ## Sicherheit und Schutz
@@ -1894,6 +1898,7 @@
 ### [Neue Funktionen vorab aktivieren](admin-feature-management.md)
 ### [Onboarding der Benutzer mit Checklisten durchführen](admin-checklist.md)
 ### [Sandbox-Umgebungen](admin-sandbox-environments.md)
+## [Copilot- und KI-Funktionen](enable-ai.md)
 ## Business Central anpassen
 ### [Anpassung – Übersicht](ui-customizing-overview.md)
 ### [Seiten für Profile anpassen](ui-personalization-manage.md)
@@ -1926,19 +1931,19 @@
 #### [USA/CA/GB/AU/NZ/ZA – Überweisungsbescheid senden](ui-extensions-send-remittance-advice.md)
 #### [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
 #### [Business Central-Erweiterungen von anderen Anbietern](ui-extensions-other.md)
-## In Dynamics 365 Sales integrieren
-### [In Dynamics 365 Sales integrieren](admin-prepare-dynamics-365-for-sales-for-integration.md)
+## In andere Dynamics 365-Anwendungen integrieren
+### [Integration in Dynamics 365 Sales über Datensynchronisierung](admin-prepare-dynamics-365-for-sales-for-integration.md)
 ## In Microsoft Dataverse integrieren
-### [In Microsoft Dataverse integrieren](admin-common-data-service.md)
-### [Dateneigentumsmodelle](admin-cds-company-concept.md)
-### [Benutzerkonten für die Microsoft Dataverse-Integration einrichten](admin-setting-up-integration-with-dynamics-sales.md)
-### [Mit Microsoft Dataverse verbinden](admin-how-to-set-up-a-dynamics-crm-connection.md)
+### [Integration in Dataverse über Datensynchronisierung](admin-common-data-service.md)
+### [Datenbesitzmodelle für die Synchronisierung](admin-cds-company-concept.md)
+### [Benutzerkonten für die Dataverse-Integration über Datensynchronisierung einrichten](admin-setting-up-integration-with-dynamics-sales.md)
+### [Mit Dataverse zur Datensynchronisierung verbinden](admin-how-to-set-up-a-dynamics-crm-connection.md)
 ### [Business Central und Microsoft Dataverse synchronisieren](admin-synchronizing-business-central-and-sales.md)
 ### [Zu synchronisierende Tabellen und Felder zuordnen](admin-how-to-modify-table-mappings-for-synchronization.md)
 ### [Tabellenzuordnungen manuell synchronisieren](admin-manual-synchronization-of-table-mappings.md)
 ### [Synchronisierung planen](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
 ### [Synchronisierungsfehler beheben](admin-troubleshoot-sales-synchronization.md)
-### [Power Automate-Flows für Warnungen zu Dataverse-Entitätsänderungen verwenden](admin-power-automate-flow-dataverse.md)
+### [Power Automate-Flows für rechtzeitige Synchronisierung von Dataverse-Entitätsänderungen verwenden](admin-power-automate-flow-dataverse.md)
 ## Stammdaten unternehmensübergreifend synchronisieren
 ### [Vorbereitung der Synchronisierung der Masterdaten](admin-set-up-data-sync.md)
 ### [Masterdatensynchronisierung verwalten](admin-sync-master-data.md)
@@ -2019,3 +2024,7 @@
 ## [Sicherheit und Schutz](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)
 ## [Leistung](/dynamics365/business-central/dev-itpro/performance/performance-overview?toc=/dynamics365/business-central/toc.json)
 ## [Entfernte oder veraltete Funktionen](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1?toc=/dynamics365/business-central/toc.json)
+# Verantwortungsvolle KI
+## [Übersicht](responsible-ai-overview.md)
+## [Häufig gestellte Fragen zur Unterstützung bei Bankkontoabstimmung (Vorschauversion)](faqs-bank-reconciliation.md)
+## [Häufig gestellte Fragen zu Vorschlägen für Marketingtexte](faqs-marketing-text.md)
