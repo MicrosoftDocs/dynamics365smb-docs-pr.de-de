@@ -11,7 +11,7 @@ ms.search.form: 253
 ms.date: 09/02/2022
 ms.author: bholtorf
 ---
-# <a name="sales"></a>Verkauf
+# Verkauf
 
 Sie erstellen eine Verkaufsrechnung oder eine Bestellung, um Ihre Vereinbarung mit dem Debitoren zu erfassen, um bestimmte Produkte unter speziellen Liefer- und Zahlungsbedingungen zu verkaufen.
 
@@ -23,7 +23,7 @@ Sie können eine gebuchte Verkaufsrechnung einfach korrigieren oder stornieren, 
 
 Bei Verkaufs- und Marketingmaßnahmen dreht sich alles um die richtige Entscheidung und das richtige Timing. Die Marketingfunktionalität in [!INCLUDE[prod_short](includes/prod_short.md)] gibt hierzu eine exakte und zeitnahe Übersicht über die Kontaktinformationen, damit Sie Interessenten gegenüber effizienter auftreten und die Debitorenzufriedenheit steigern können. Erfahren Sie mehr unter [Marketing und Vertrieb](marketing-relationship-management.md).
 
-Wenn Sie Microsoft Dynamics 365 Sales for Customer Engagement verwenden, können Sie eine nahtlose Integration in den Interessent-zu-Bargeld-Prozess nutzen, indem Sie Business Central für Backend-Aktivitäten wie Auftragsverarbeitung, Lagerbestandsverwaltung und Finanzbearbeitung verwenden. Erfahren Sie mehr über [Dynamics 365 Sales von Business Central aus verwenden](marketing-integrate-dynamicscrm.md)
+Wenn Sie Microsoft Dynamics 365 Sales for Customer Engagement verwenden, können Sie eine nahtlose Integration in den Interessent-zu-Bargeld-Prozess nutzen, indem Sie Business Central für Backend-Aktivitäten wie Auftragsverarbeitung, Lagerbestandsverwaltung und Finanzbearbeitung verwenden. Erfahren Sie mehr über [Dynamics 365 Sales von Business Central aus verwenden](marketing-integrate-dynamicscrm.md)
 
 Im betrieblichen Umfeld, in dem der Debitor bezahlen muss, bevor Produkte, wie in der Einzelhandelsbranche, geliefert werden, müssen Sie den Zahlungseingang für die Produkte abwarten, bevor Sie die Produkte liefern. In den meisten Fällen verarbeiten Sie eingehende Zahlungen einige Wochen nach Lieferung, indem Sie die Zahlungen in ihre entsprechenden gebuchten, unbezahlten Verkaufsrechnungen übernehmen. Erfahren Sie mehr unter [Vorgehensweise zum Abstimmen von Zahlungen mithilfe der automatischen Anwendung](receivables-how-reconcile-payments-auto-application.md).
 
@@ -53,7 +53,7 @@ Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Artikel
 |Informieren Sie Ihre Debitoren über das Auftragslieferdatum, indem Sie entweder das Möglichkeitsdatum für Beschaffungszusage oder das Lieferzusageversprechen berechnen.|[Lieferterminzusagen-Daten berechnen](sales-how-to-calculate-order-promising-dates.md)|
 |Lösen Sie auf Verwirrung auf, wenn zwei oder mehr Datensätze für denselben Debitor vorhanden sind.|[Doppelte Datensätze zusammenführen](sales-how-merge-duplicate-records.md)|
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Einrichten von Verkäufen](sales-setup-sales.md)  
 [Neue Debitoren registrieren](sales-how-register-new-customers.md)  

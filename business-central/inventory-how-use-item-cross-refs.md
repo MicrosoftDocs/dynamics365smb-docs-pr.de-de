@@ -12,17 +12,7 @@ ms.custom: bap-template
 ---
 # Element-Referenzen verwenden
 
-Wenn Sie Artikel kaufen oder verkaufen, für die Sie und Ihr Kreditor oder Debitor unterschiedliche Bedingungen verwenden, können Sie eine Referenz zwischen Ihren Bedingungen für die Artikel und den Bedingungen einrichten, die der Debitor oder Kreditor dieses Artikels verwendet. Auf diese Weise wird die Artikelbezeichnung, die Einheit oder der Variantencode des Kreditors oder Debitors beim Ausfüllen des Formulars automatisch in die entsprechenden Dokumente eingefügt **Artikel-Referenz-Nr.** Feld eingetragen.  
-
-> [!NOTE]
-> Nicht alle Unternehmen verwenden Artikelreferenzen. Wir haben die zugehörigen Felder und Aktionen standardmäßig ausgeblendet, um das Durcheinander auf den Seiten zu minimieren. Wenn Sie sich entscheiden, sie zu verwenden, können Sie auf der Seite **Lagerbestandseinrichtung** das Feld **Artikelreferenzen verwenden** aktivieren. Nachdem Sie die Artikelreferenzen aktiviert haben, sind die Felder und Aktionen auf den Seiten Artikelkarte, Lieferantenkarte und Kundenkarte sowie in Einkaufs- und Verkaufsbelegen verfügbar.
->
-> In Versionen vor dem 2. Veröffentlichungszyklus 2021 kann Ihr Administrator die Funktion *Längere Artikelreferenzen schreiben* auf der Seite [Funktionsverwaltung](https://businesscentral.dynamics.com/?page=2610) aktivieren (der Link erfordert, dass Sie einen [!INCLUDE [prod_short](includes/prod_short.md)]-Mandanten haben) aktivieren. Die Verwendung von Referenzen ändert sich nicht, aber die Namen von Dingen wie Seiten und Schaltflächen ändern sich. Aus der Seite **Artikelquerverweisposten** wird beispielsweise die Seite **Artikelreferenzposten**.
-
-## So beginnen Sie mit der Verwendung von Artikelreferenzen
-
-1. Wählen Sie das Symbol :::image type="icon" source="media/ui-search/search_small.png" border="false"::: aus, und geben Sie **Lagerbestandseinrichtung** ein und wählen Sie dann den zugehörigen Link.
-2. Wählen Sie das Feld **Artikelreferenzen verwenden**.
+Wenn Sie Artikel kaufen oder verkaufen, für die Sie und Ihr Kreditor oder Debitor unterschiedliche Bedingungen verwenden, können Sie eine Referenz zwischen Ihren Bedingungen für die Artikel und den Bedingungen einrichten, die der Debitor oder Kreditor dieses Artikels verwendet. Auf diese Weise wird die Artikelbezeichnung, die Einheit oder der Variantencode des Kreditors oder Debitors beim Ausfüllen des Formulars automatisch in die entsprechenden Dokumente eingefügt **Artikel-Referenz-Nr.** Feld  
 
 ## Artikelreferenzen einrichten
 

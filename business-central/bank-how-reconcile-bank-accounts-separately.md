@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.date: 10/04/2023
+ms.date: 10/24/2023
 ms.custom: bap-template
 ---
 # Bankkonten abstimmen
@@ -22,9 +22,15 @@ Sie können jedoch Bankkonten auf der Seite **Zahlungsabstimmungsbuch.-Blatt** i
 
 Die Zeilen auf der Seite **Bankkontoabstimmung** sind in zwei Bereiche unterteilt. Der Bereich **Bankauszugspositionen** zeigt entweder importierte Banktransaktionen oder Posten mit ausstehenden Zahlungen an. Der Bereich **Bankposten** zeigt die Posten im internen Bankkonto an.
 
-Das Abstimmen von Transaktionen in Bankauszügen Ihrer Bank mit Bankeinträgen in [!INCLUDE[prod_short](includes/prod_short.md)] wird als *Abgleich* bezeichnet. Es gibt zwei Möglichkeiten, Transaktionen mit Bankeinträgen abzugleichen:
+## Über die Bankabstimmung 
+
+Das Abstimmen von Transaktionen in Bankauszügen Ihrer Bank mit Bankeinträgen in [!INCLUDE[prod_short](includes/prod_short.md)] wird als *Abgleich* bezeichnet. Es gibt drei Möglichkeiten, Transaktionen mit Bankeinträgen abzugleichen:
 
 * Automatisch durch Verwendung der Aktion **Automatisch abgleichen**.
+
+* Automatisch durch Verwendung der Aktion **Mit Copilot abstimmen**.
+
+  Diese Aktion ist als Teil des Features zum Unterstützung bei Bankkontoabstimmung (Vorschauversion) verfügbar, bei der es sich um ein KI-gestütztes Feature handelt. [Erfahren Sie mehr über die Unterstützung bei Bankkontoabstimmung](bank-reconciliation-with-copilot.md).
 * Manuell durch Auswahl von Zeilen in beiden Fenstern, um jede Zeile des Bankauszugs mit einem oder mehreren zugehörigen Sachkonto-Buchungen zu verknüpfen, und dann durch Verwendung der Aktion **Manuell abgleichen**.
 
 Das Kontrollkästchen **Ausgeglichen** ist in Zeilen ausgewählt, in denen Posten übereinstimmen. Weitere Informationen finden Sie unter [Einrichten von Regeln für die automatische Anwendung von Zahlungen](receivables-how-set-up-payment-application-rules.md). Wenn Sie ein Enddatum des Auszugs auf der Bankabstimmung eingeben, nachdem Sie seine Zeilen mit Einträgen abgeglichen haben, macht [!INCLUDE [prod_short](includes/prod_short.md)] die Übereinstimmungen für Zeilen und Einträge rückgängig, die nach diesem Datum liegen.
@@ -49,7 +55,7 @@ Sie können den Bereich **Bankauszugspositionen** auf der Seite **Bankkontoabsti
 * Automatisch durch Verwendung der Funktion **Bankauszug importieren**, um den Bereich **Bankauszugszeile** mit Banktransaktionen entsprechend einer importierten Datei oder eines von der Bank bereitgestellten Streams auszufüllen.
 * Manuell durch Verwendung der Funktion **Zeilen vorschlagen**, um den Bereich **Bankauszugszeilen** entsprechend zu Rechnungen in [!INCLUDE[prod_short](includes/prod_short.md)] mit ausstehenden Zahlungen auszufüllen.
 
-## So fügen Sie Bankauszugspositionen durch den Import eines Bankauszugs hinzu
+## Bankauszugspositionen durch den Import eines Bankauszugs hinzufügen
 
 Der Bereich **Kontoauszugszeilen** wird entsprechend einer importierten Datei oder eines von der Bank bereitgestellten Streams mit Banktransaktionen gefüllt.
 
@@ -80,9 +86,9 @@ Der Beriech **Kontoauszugszeilen** wird entsprechend den Rechnungen in [!INCLUDE
 4. Wenn Sie nicht möchten, dass die Sachkonto-Einträge nicht zugeordnete offene Stornobuchungen enthalten, wählen Sie die Option **Stornobuchungen ausschließen**. Standardmäßig enthält die Liste der Sachkonto-Buchungen stornierte Buchungen bis zum Datum des Kontoauszugs.
 5. Wählen Sie die Schaltfläche **OK**.
 
-## So gleichen Sie Bankkontoauszugszeilen mit Bankposten automatisch ab
+## Bankkontoauszugspositionen automatisch Bankposten zuordnen
 
-Die Seite **Bankkontoabstimmung** bietet automatisch Zuordnungsfunktionen auf Grundlage einer Zuordnung des Textes in einer Bankkontoauszugszeile (linker Bereich) zu Text auf einer oder mehreren offenen Posten (rechter Bereich). Sie können den vorgeschlagenen automatischen Abgleich überschreiben und Sie können den automatischen Abgleich auch ganz abschalten. Weitere Informationen finden Sie unter [So gleichen Sie manuell Bankauszugspositionen mit Bankposten ab](bank-how-reconcile-bank-accounts-separately.md#to-match-bank-statement-lines-with-bank-account-ledger-entries-manually).
+Die Seite **Bankkontoabstimmung** bietet automatisch Zuordnungsfunktionen auf Grundlage einer Zuordnung des Textes in einer Bankkontoauszugszeile (linker Bereich) zu Text auf einer oder mehreren offenen Posten (rechter Bereich). Sie können den vorgeschlagenen automatischen Abgleich überschreiben und Sie können den automatischen Abgleich auch ganz abschalten. Weitere Informationen finden Sie unter [Bankauszugspositionen manuell Bankposten zuordnen](#match-bank-statement-lines-with-bank-account-ledger-entries-manually).
 
 Mit der Aktion **Details abgleichen** können Sie die Grundlage für den Abgleich untersuchen. Die Details enthalten zum Beispiel die Namen der Felder, die übereinstimmende Werte enthalten.  
 
@@ -98,7 +104,7 @@ Mit der Aktion **Details abgleichen** können Sie die Grundlage für den Abgleic
 > [!TIP]
 > Sie können eine Mischung aus manuellem und automatischem Abgleich verwenden. Wenn Sie Einträge manuell abgeglichen haben, wird der automatische Abgleich Ihre Auswahl nicht überschreiben.
 
-## So gleichen Sie manuell Bankauszugspositionen mit Bankposten ab
+## Bankauszugspositionen manuell Bankposten zuordnen
 
 > [!TIP]
 > Beim manuellen Abgleich von Zeilen und Buchungen können Sie sich mit den Aktionen **Alle anzeigen**, **Stornierte Buchungen anzeigen**, **Stornierte Buchungen ausblenden** und **Nicht übereinstimmende Buchungen anzeigen** leichter einen Überblick verschaffen. Standardmäßig enthalten die Sachkonto-Einträge keine nicht übereinstimmenden stornierten Einträge. Um diese Einträge in die Liste aufzunehmen und sie manuell abzugleichen, wählen Sie die Aktion **Stornierte Einträge anzeigen**. Wenn Sie stornierte Einträge ausblenden möchten, nachdem Sie eine oder mehrere Übereinstimmungen vorgenommen haben, werden die übereinstimmenden Einträge weiterhin angezeigt.
@@ -123,7 +129,7 @@ Mit der Aktion **Details abgleichen** können Sie die Grundlage für den Abgleic
 > [!TIP]
 > Um eine Übereinstimmung zu entfernen, wählen Sie die Bankkontoauszugszeile, und dann die Aktion **Übereinstimmung entfernen**. Wenn Sie mehrere Zeilen des Bankauszugs einem Posten zugeordnet haben und eine oder mehrere der zugeordneten Zeilen entfernen müssen, werden alle manuellen Zuordnungen für den Posten entfernt, wenn Sie **Zuordnung entfernen** wählen.
 
-## Zur Validierung Ihrer Bankabstimmung
+## Ihrer Bankabstimmung validieren
 
 Um Ihre Bankkontoabstimmung vor der Buchung noch einmal zu überprüfen, verwenden Sie die Aktion **Testbericht**, um die Abstimmung in der Vorschau zu sehen. Der Bericht ist in den folgenden Kontexten verfügbar:
 
@@ -239,9 +245,11 @@ Verwenden Sie in Ihrer Buchungsgruppe für Bankkonten kein Sachkonto, das direkt
 
 Dieser Fehler passiert häufig bei der Eingabe eines Eröffnungssaldos für ein Bankkonto. Es ist wichtig, dass Sie den Eröffnungssaldo nicht direkt in das Hauptbuch buchen. Buchungen im Sachkonto, die direkt auf das Sachkonto gebucht werden, verursachen Probleme. Diese Buchungen können zum Beispiel verhindern, dass Sie Ihr Bankkonto abstimmen können. Bei Bankkonten in Fremdwährung können die Einträge dazu führen, dass sich Differenzen ansammeln, nachdem Sie weitere Bankabstimmungen aufgrund von Anpassungen der Wechselkurse gebucht haben. Häufig wird der Anfangsbestand der Bank direkt auf das Bankkonto gebucht, und der Betrag landet dann auf dem Sachkonto. Alternativ können Sie eine Stornierung für ein Sachkonto durchführen, das Sie zum Ausgleich des Anfangssaldos des Sachpostens verwenden. In beiden Fällen müssen Sie alle Direktbuchungen auf das Sachkonto ausgleichen, bevor Sie mit der ersten Bankabstimmung beginnen, vor allem, wenn das Bankkonto auf eine Fremdwährung lautet.
 
+
 ## Siehe auch
 
 [Abstimmen von Bankkonten](bank-manage-bank-accounts.md)  
+[Bankkonten mit der Unterstützung der Bankkontoabstimmung abstimmen (Vorschauversion)](bank-reconciliation-with-copilot.md)
 [Zahlungen automatisch vornehmen und Bankkonten abstimmen](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
 [Einrichten von Banken](bank-setup-banking.md)  
 [Einrichten von Regeln für die automatische Anwendung von Zahlungen](receivables-how-set-up-payment-application-rules.md)  

@@ -7,7 +7,6 @@
 <!--### [Get Ready for Doing Business](ui-get-ready-business.md)  -->
 ## Learn
 ### [Ressourcen für Benutzer](resources-for-users.md)
-### [Business Central-Lernkatalog](readiness/readiness-learning-catalog.md)
 ### [Business Central-Schulung](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
 ### Exemplarische Vorgehensweisen für Geschäftsprozesse
 #### [Verfügbare exemplarische Vorgehensweisen](walkthrough-business-process-walkthroughs.md)
@@ -209,19 +208,6 @@
 ### [Unsere Videobibliothek besuchen](across-videos.md)
 ### [Technischen Support erhalten](/dynamics365/business-central/dev-itpro/administration/manage-technical-support?toc=/dynamics365/business-central/toc.json)
 
-<!--## Microsoft Learn training
-### [Dynamics 365 Business Central on Microsoft Learn](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
-### [Business Central Learning Catalog](readiness/readiness-learning-catalog.md)
-### [Business Functionality Learning Paths](/training/browse/?products=dynamics-business-central&roles=business-user&resource_type=learning%20path)
-### Resources for a Business Decision Maker
-#### [Learning catalog](readiness/readiness-learning-bus-decision-makers.md)
-#### [Get Ready for Doing Business](ui-get-ready-business.md)
-### Resources for a Business User
-#### [Learning catalog](readiness/readiness-learning-bus-users.md)
-#### [Get Ready for Doing Business](ui-get-ready-business.md)
-### Resources for a Developer
-#### [Learning catalog](readiness/readiness-learning-developers.md)
-#### [Documentation](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview?toc=/dynamics365/business-central/toc.json)-->
 # Geschäftsfunktionen
 ## [Überblick über Unternehmensfunktionen](across-business-functionality.md)
 <!--general-->
@@ -244,6 +230,7 @@
 ### [Aufgabenwarteschlangen für die Aufgabenplanung verwenden](admin-job-queues-schedule-tasks.md)
 ### [Von Business Central Werte vorschlagen lassen](ui-let-system-suggest-values.md)
 ### [Online-Karten verwenden, um Standorte und Wegbeschreibungen zu finden](across-online-maps.md)
+### [Digitale Gutscheine einrichten](across-how-setup-digital-vouchers.md)
 
 ### Eingehende Belege
 #### [Eingehende Belege – Übersicht](across-income-documents.md)
@@ -882,10 +869,12 @@
 
 ### Dänemark
 #### [Lokale Funktionen in der dänischen Version](LocalFunctionality/Denmark/denmark-local-functionality.md)
+#### [Anmeldung und Registrierung für das NemHandelsregisteret in Dänemark](localfunctionality/denmark/how-to-nemhandel-register.md)
 #### Mehrwertsteuer
 ##### [MwSt.-Abstimmungsberichte drucken](LocalFunctionality/Denmark/how-to-print-vat-reconciliation-reports.md)
 ##### [MwSt.-VIES-Berichte](LocalFunctionality/Denmark/vat-vies-reporting.md)
 ##### [Einrichtung der Umsatzsteuer-Identifikationsnummer für Intrastat](LocalFunctionality/Denmark/vat-registration-no-intrastat.md)
+##### [Umsatzsteuererklärungen elektronisch übermitteln](localfunctionality/denmark/how-to-evat-statement-dk.md)
 #### Banking und Zahlungen
 ##### [FIK-Details im Zahlungsabstimmungsbuch.-Blatt](LocalFunctionality/Denmark/fik-details-in-the-payment-reconciliation-journal.md)
 ##### [Zahlungs- und Abstimmungs-Erweiterung (DK)](ui-extensions-payments-reconciliation-formats-dk.md)
@@ -897,6 +886,8 @@
 ##### [Elektronische Belege in einem OIOUBL-Format erstellen](LocalFunctionality/Denmark/how-to-create-electronic-documents-by-using-oioubl.md)
 #### Lohn
 ##### [Lohndatendefinitionen (DK)](LocalFunctionality/Denmark/ui-extensions-payroll-data-definitions-dk.md)
+#### Digitale Gutscheine
+##### [Digitale Gutscheine in Dänemark einrichten](localfunctionality/denmark/how-to-digital-vouchers-dk.md)
 
 ### Finnland
 #### [Lokale Funktionen in der finnischen Version](LocalFunctionality/Finland/finland-local-functionality.md)
@@ -1838,6 +1829,7 @@
 ## Copilot- und KI-Funktionen verwalten
 ### [Copilot- und KI-Funktionen konfigurieren](enable-ai.md)
 ### [Copilot-Datenbewegung über geografische Regionen hinweg](ai-copilot-data-movement.md)
+### [Probleme mit Copilot- und KI-Funktionen beheben](ai-copilot-troubleshooting.md)
 ## Unterstützung bei Bankkontoabstimmung (Vorschauversion)
 ### [Bankkontoabstimmung mit Copilot](bank-reconciliation-with-copilot.md)
 ### [Häufig gestellte Fragen zur Unterstützung bei Bankkontoabstimmung](faqs-bank-reconciliation.md)

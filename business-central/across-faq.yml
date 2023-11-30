@@ -65,7 +65,7 @@ sections:
       - question: |
           Wo finde ich diese Zeilennummer?
         answer: |
-          Dokumente wie Kundenaufträge oder Eingangsrechnungen bestehen aus Kopfzeilen und Zeilen. Jede Zeile hat eine Nummer, die [!INCLUDE [prod_short](includes/prod_short.md)] verwendet, um diese bestimmte Zeile zu identifizieren. Infolgedessen wird möglicherweise eine Warnung oder eine Fehlermeldung angezeigt, dass beispielsweise in Zeile 1000 etwas nicht stimmt. In der Standardversion von [!INCLUDE [prod_short](includes/prod_short.md)] sind Zeilennummern ausgeblendet. Wenn Sie die Zeilennummern sehen möchten, müssen Sie die aktuelle Seite personalisieren und die **Zeilennr.** hinzufügen. Feld Weitere Informationen unter [Ihren Arbeitsbereich personalisieren](ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode).  
+          Dokumente wie Kundenaufträge oder Eingangsrechnungen bestehen aus Kopfzeilen und Zeilen. Jede Zeile hat eine Nummer, die [!INCLUDE [prod_short](includes/prod_short.md)] verwendet, um diese bestimmte Zeile zu identifizieren. Infolgedessen wird möglicherweise eine Warnung oder eine Fehlermeldung angezeigt, dass beispielsweise in Zeile 1000 etwas nicht stimmt. In der Standardversion von [!INCLUDE [prod_short](includes/prod_short.md)] sind Zeilennummern ausgeblendet. Wenn Sie die Zeilennummern sehen möchten, müssen Sie die aktuelle Seite personalisieren und das Feld **Zeilennr.** hinzufügen . Weitere Informationen unter [Ihren Arbeitsbereich personalisieren](ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode).  
       - question: |
           Warum beschreibt Hilfe Funktionalität, auf die ich nicht zugreifen kann?
         answer: |
@@ -86,7 +86,7 @@ sections:
       - question: |
           Muss ich Microsoft 365 kaufen?
         answer: |
-          Nein. Wenn Sie allerdings möchten, dass [!INCLUDE[prod_short](includes/prod_short.md)] vollständig in Microsoft 365 integriert wird, können Sie sich für eine 1-monatige kostenlose Testversion von Microsoft 365 [hier](https://products.office.com/try) anmelden.  
+          Anz. Wenn Sie allerdings möchten, dass [!INCLUDE[prod_short](includes/prod_short.md)] vollständig in Microsoft 365 integriert wird, können Sie sich für eine 1-monatige kostenlose Testversion von Microsoft 365 [hier](https://products.office.com/try) anmelden.  
 
           Wenn das Konto, bei dem Sie sich anmelden, kein Microsoft 365-Arbeitskonto ist (wie z. B. joe@mysolution.com) und Sie ein Microsoft 365-Abonnement haben, können Sie Ihre Domäne (*mysolution.com*) dem Microsoft 365-Abonnement zuordnen. Erfahren Sie mehr unter [Was ist eine Domäne?](/microsoft-365/admin/get-help-with-domains/what-is-a-domain?view=o365-worldwide&preserve-view=true) im Microsoft 365-Inhalt.  
 
@@ -147,12 +147,12 @@ additionalContent: |
   [Sprache und Gebiet ändern](about-locale-language.md)  
   [[!INCLUDE[prod_short](includes/prod_short.md)] als Ihr Unternehmenspostfach in Outlook verwenden](admin-outlook.md)  
   [[!INCLUDE[prod_short](includes/prod_short.md)] ohne Outlook verwenden](admin-no-outlook.md)  
-  [Ändern von grundlegenden Einstellungen](ui-change-basic-settings.md)  
+  [Grundlegende Einstellungen ändern](ui-change-basic-settings.md)  
   [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
   [Abrufen von Antworten zu den Fragen](/dynamics365/business-central/ui-get-ready-business#getting-answers-to-questions)  
+  [Business Central Schulung](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)   
   [Ressourcen für Hilfe und Support](product-help-and-support.md)  
-  [Business Central Lernkatalog](readiness/readiness-learning-catalog.md)  
-  [Berechtigungen an Benutzer und Gruppen zuweisen](ui-define-granular-permissions.md)  
+  [Benutzer*innen und Gruppen Berechtigungen zuweisen](ui-define-granular-permissions.md)  
   [Verfügbarkeit in Ländern/Regionen und unterstützte Übersetzungen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
   [Servicebedingungen](compliance/compliance-service-compliance.md#service-terms)  
   [FAQ zu Entwickler- und Administratorerfahrungen](/dynamics365/business-central/dev-itpro/faq)
