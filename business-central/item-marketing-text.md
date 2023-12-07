@@ -42,7 +42,7 @@ Gehen Sie wie folgt vor, um Marketingtext zu einem vorhandenen Artikel hinzuzuf�
 
    1. Wählen Sie in der oberen rechten Ecke die ![Glühbirne aus, die die „Sie wünschen ...“-Funktion 22 öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren") aus, geben Sie **Artikel** ein und wählen Sie dann den dazugehörigen Link aus, um eine Liste der verfügbaren Artikel aufzurufen.
 
-   2. Machen Sie einen Doppelklick auf den Artikel oder wählen Sie in der Spalte **Nr.** seinen Wert aus.
+   2. Machen Sie einen Doppelklick auf den Artikel oder wählen Sie in der Spalte **Nr.** seinen Wert aus .
 
    [![Zeigt eine Artikelkarte mit Bereich „Marketingtext“](media/create-with-copilot.svg)](media/create-with-copilot.svg#lightbox)
 
@@ -120,7 +120,7 @@ Sie können einige Schritte unternehmen, um Textvorschläge zu verbessern und si
 1. Öffnen Sie in Business Central den Artikel, den Sie ändern möchten, wie folgt:
 
     1. Wählen Sie in der oberen rechten Ecke die ![Glühbirne aus, die die „Sie wünschen ...“-Funktion 22 öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Artikel** ein und wählen Sie dann den dazugehörigen Link aus, um eine Liste der verfügbaren Artikel aufzurufen.
-    2. Um den Artikel zu öffnen, machen Sie einen Doppelklick darauf oder wählen Sie im Feld **Nr.** Feld
+    2. Um den Artikel zu öffnen, machen Sie einen Doppelklick darauf oder wählen Sie im Feld **Nr.** .
 
 2. Führen Sie einen der folgenden Schritte aus:
 

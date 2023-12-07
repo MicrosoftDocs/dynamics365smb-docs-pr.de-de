@@ -12,7 +12,7 @@ ms.date: 10/10/2023
 ms.author: altotovi
 ---
 
-# <a name="e-documents-overview"></a>Übersicht über E-Belege
+# Übersicht über E-Belege
 
 Elektronische Belege (E-Belege) sind das Rückgrat moderner Geschäftstransaktionen. Sie umfassen wichtige Belege wie Rechnungen und Quittungen in beide Richtungen (Lieferung und Eingang). Sie bieten außerdem Funktionen für die Übermittlung von Nachrichten im Zusammen mit dem Belegstatus zwischen Zugriffspunkten.
 
@@ -32,7 +32,7 @@ In der Dokumentation werden E-Belege ausführlich erläutert. Sie zeigt die Funk
 | [Erweiterung der E-Beleg-Funktionalität](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments) | Erfahren Sie, wie Sie die E-Belege-Funktionalität um spezifische lokale oder branchenspezifische Anforderungen erweitern können, indem Sie darüber hinaus zusätzliche Apps erstellen. |
 | [Daten elektronisch austauschen](across-data-exchange.md) | Erfahren Sie mehr über die Verwendung des Datenaustauschframeworks, um den Austausch von Daten in geschäftlichen Belegen wie Bankdateien und Wechselkursen zu verwalten. | 
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Finanzmanagement](finance.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
