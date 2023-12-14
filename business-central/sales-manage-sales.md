@@ -11,7 +11,7 @@ ms.search.form: 253
 ms.date: 09/02/2022
 ms.author: bholtorf
 ---
-# <a name="sales"></a>Verkauf
+# Verkauf
 
 Sie erstellen eine Verkaufsrechnung oder eine Bestellung, um Ihre Vereinbarung mit dem Debitoren zu erfassen, um bestimmte Produkte unter speziellen Liefer- und Zahlungsbedingungen zu verkaufen.
 
@@ -53,7 +53,7 @@ Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Artikel
 |Informieren Sie Ihre Debitoren über das Auftragslieferdatum, indem Sie entweder das Möglichkeitsdatum für Beschaffungszusage oder das Lieferzusageversprechen berechnen.|[Lieferterminzusagen-Daten berechnen](sales-how-to-calculate-order-promising-dates.md)|
 |Lösen Sie auf Verwirrung auf, wenn zwei oder mehr Datensätze für denselben Debitor vorhanden sind.|[Doppelte Datensätze zusammenführen](sales-how-merge-duplicate-records.md)|
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Einrichten von Verkäufen](sales-setup-sales.md)  
 [Neue Debitoren registrieren](sales-how-register-new-customers.md)  

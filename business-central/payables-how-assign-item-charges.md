@@ -8,10 +8,10 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 'transportation, added cost, landed cost'
 ms.search.form: '5709, 5800, 5805, 5814'
-ms.date: 06/22/2021
+ms.date: 11/08/2023
 ms.author: bholtorf
 ---
-# <a name="use-item-charges-to-account-for-additional-trade-costs"></a>Verwenden von Artikelzuschlägen für zusätzliche Kosten
+# Artikelzuschläge für zusätzliche Handelskosten verwenden
 
 Um eine korrekte Bewertung sicherzustellen, müssen Ihre Lagerartikel Kosten wie Fracht, Versicherung, Umlagerung und Transport enthalten, die beim Kauf oder Verkauf entstehen. Die Kosten eines eingekauften Artikels bestehen aus dem Einkaufspreis des Kreditors und allen zusätzlichen Artikelzuschlägen, die einzelnen Wareneingängen oder Rücklieferungen zugewiesen werden können. Die Frachtkosten der verkauften Artikel zu kennen, kann für Ihr Unternehmen genauso wichtig sein wie die Einkaufspreise der eingekauften Artikel zu kennen.
 
@@ -21,23 +21,23 @@ Zusätzlich zum Aufzeichnen der hinzugefügten Kosten zu Ihrem Lagerwert, könne
 * Die Analyse der Zusammensetzung eines Verkaufspreises/Einstandspreises eines Artikels.
 * Lassen Sie Kaufzuschläge in die Kalkulation der Einheit und Verkaufszuschläge in den Einheitspreis einfließen.
 
-Bevor Sie Artikelzuschläge zuweisen können, müssen Sie Artikelzuschlagsnummern für die verschiedenen Arten von Artikelzuschlägen einrichten. Die Zahlen beinhalten, auf welche Sachkonten Kosten im Zusammenhang mit Verkäufen, Einkäufen und Bestandsanpassungen gebucht werden sollen. Eine Artikelzuschlagsnummer enthält eine Kombination von Produktbuchungsgruppe, Steuergruppencode, MwSt.-Produktbuchungsgruppe und Artikelzuschlag. Wenn Sie die Artikelbelastungsnummer auf einem Einkaufs- oder Verkaufsbeleg eingeben, wird das Sachkonto abgerufen. Das abgerufene Konto wird basierend auf der Einrichtung der Artikelbelastungsnummer und den Informationen auf dem Dokument ausgewählt.
+Bevor Sie Artikelzuschläge zuweisen können, müssen Sie Artikelzuschlagsnummern für die verschiedenen Arten von Artikelzuschlägen einrichten. Die Zahlen beinhalten, auf welche Sachkonten Kosten im Zusammenhang mit Verkäufen, Einkäufen und Bestandsanpassungen gebucht werden sollen. Eine Artikelzuschlagsnummer enthält eine Kombination von Produktbuchungsgruppe, Steuergruppencode, MwSt.-Produktbuchungsgruppe und Artikelzuschlag. Wenn Sie die Artikelbelastungsnummer auf einem Einkaufs- oder Verkaufsbeleg eingeben, wird das Sachkonto abgerufen. Das abgerufene Konto wird basierend auf der Einrichtung der Artikelbelastungsnummer und den Informationen auf dem Beleg ausgewählt.
 
 Für Bestellungen und Verkaufsbelege können Artikelzuschläge auf zwei Arten zugeordnet werden:
 
 * Auf dem Beleg, auf dem der Artikel aufgeführt ist, auf den sich der Artikelzuschlag bezieht. Dies ist in der Regel für Belege der Fall, die noch nicht vollständig gebucht sind.
-* Auf einer getrennten Rechnung, indem Sie den Artikelzuschhlag mit einem gebuchten Beleg oder einer Lieferung verknüpfen, in denen der Artikel vorkommt, zu dem der Artikelzuschlag gehört.
+* Auf einer getrennten Rechnung, indem Sie den Artikelzuschlag mit einem gebuchten Beleg oder einer Lieferung verknüpfen, in denen der Artikel vorkommt, zu dem der Artikelzuschlag gehört.
 
 > [!NOTE]  
 > Sie können Artikelzuschläge in Bestellungen, Rechnungen und Gutschriften für Verkaufs- und Einkaufsberichte zuweisen. Die folgenden Verfahren beschreiben, wie man mit Artikelzuschlägen für eine Einkaufsrechnung arbeitet. Die Schritte sind für alle anderen Einkaufs- und Verkaufsbelege ähnlich.
 
-## <a name="example"></a>Beispiel
+## Beispiel
 
 In diesem Video wird gezeigt, wie Sie im Rahmen der Lagerkostenberechnung mit zusätzlichen Lieferkosten umgehen.
 <br><br>  
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4b0SB?rel=0]
 
-## <a name="to-set-up-item-charge-numbers"></a>Vorgehensweise: Eine Artikelzu-/-abschlagsnummer einrichten
+## Vorgehensweise: Eine Artikelzu-/-abschlagsnummer einrichten
 
 Sie können die Artikel Zu-/Abschlagsnummern verwenden, um die verschiedenen Arten von Artikel Zu-/Abschlägen, die in Ihrem Unternehmen verwendet werden, zu verwalten.
 
@@ -45,7 +45,7 @@ Sie können die Artikel Zu-/Abschlagsnummern verwenden, um die verschiedenen Art
 2. Wählen Sie auf der Seite **Artikel-Gebühren** die Aktion **Neu** aus, um eine neue Zeile für eine zu erstellen.
 3. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="to-assign-an-item-charge-directly-to-the-purchase-invoice-for-the-item"></a>Um einen Artikel Zu-/Abschlag in die Einkaufsrechnung für den Artikel zuordnen
+## Um einen Artikel Zu-/Abschlag in die Einkaufsrechnung für den Artikel zuordnen
 
 Wenn Sie den Artikel-Zu-/Abschlag kennen, und den Zeitpunkt, der eine Einkaufsrechnung für den Artikel betrifft, gehen Sie folgendermaßen vor.
 
@@ -53,7 +53,7 @@ Wenn Sie den Artikel-Zu-/Abschlag kennen, und den Zeitpunkt, der eine Einkaufsre
 2. Eine neue Einkaufsrechnung erstellen. Weitere Informationen finden Sie unter [Erfassen eines Einkaufs](purchasing-how-record-purchases.md).
 3. Stellen Sie sicher, dass die Einkaufsrechnung eine oder mehrere Zeilen vom Artikeltyp hat.
 4. Geben Sie eine neue Zeile ein, und wählen Sie **Zu-/Abschlag (Artikel)** im Feld **Art**.
-5. Geben Sie in dem Feld **Menge** die Anzahl der Einheiten dieses Artikel Zu-/Abschlages ein, für die Sie eine Rechnung erhalten haben.
+5. Geben Sie in dem Feld **Menge** die Anzahl der Einheiten dieses Artikels ein, für die Sie eine Rechnung erhalten haben.
 6. Geben Sie in dem Feld **EK-Preis** den Betrag der Artikelgebühr an.
 7. Füllen Sie die verbleibenden Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -65,11 +65,11 @@ Wenn Sie den Artikel-Zu-/Abschlag kennen, und den Zeitpunkt, der eine Einkaufsre
 9. Auf der Seite **Artikel Zu-/Abschlagszuweisung** wählen Sie die **Artikel Zu-/Abschlagszuweisung vorschlagen** Aktion aus.
 10. Wenn es mehr Rechnungszeilen als eine Art des Artikels gibt, wählen Sie eine der vier Verteilungsoptionen aus.  
 
-Bis die Artikelgebühr vollständig zugewiesen wird, wird der Wert im Feld **Menge zuordnen** in roter Schrift angezeigt..
+Wenn die Artikelgebühr vollständig zugewiesen wird, ist der Wert im Feld **Menge zuordnen** in der Einkaufsrechnung null.
 
 Der Artikelzuschlag wird nun der Einkaufsrechnung zugeordnet. Wenn Sie den Wareneingang der Einkaufsrechnung buchen, werden die Lagerwerte der Artikel mit den Kosten für Artikelzu-/-abschläge aktualisiert.  
 
-## <a name="to-assign-an-item-charge-from-a-separate-invoice-to-the-purchase-invoice-for-the-item"></a>Um einen Artikel Zu-/Abschlag in die Einkaufsrechnung für den Artikel zuordnen
+## Um einen Artikel Zu-/Abschlag in die Einkaufsrechnung für den Artikel zuordnen
 
 Wenn Sie eine Rechnung für die Zu-/Abschläge erhalten, nachdem Sie den Wareneingang der ursprünglichen Einkaufsrechnung wurde, gehen Sie folgendermaßen vor.
 
@@ -80,7 +80,7 @@ Wenn Sie eine Rechnung für die Zu-/Abschläge erhalten, nachdem Sie den Warenei
 
 Artikelzu-/Abschläge der separaten Einkaufsrechnung wird jetzt dem Artikel in der gebuchten Einkaufslieferung zugeordnet, d aktualisiert der Lagerwert des Artikels mit den Kosten für Artikelzu-/-abschläge.
 
-## <a name="handle-item-charges-for-partial-receipts"></a>Behandeln Sie Artikelgebühren für Teilquittungen
+## Behandeln Sie Artikelgebühren für Teilquittungen
 
 Sehen wir uns ein Beispiel an, wie Artikelgebühren für einen Teilbeleg gehandhabt werden.
 
@@ -95,7 +95,7 @@ Um die Artikelkosten für den Teilzugang zu bearbeiten, geben Sie auf der **Arti
 
 Wenn Sie bereit sind, das fehlende Element zu handhaben, aktualisieren Sie das Feld **Zu handhabende Menge** und buchen Sie die Bestellung.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Verwalten von Verbindlichkeiten](payables-manage-payables.md)  
 [Einkäufe erfassen](purchasing-how-record-purchases.md)  

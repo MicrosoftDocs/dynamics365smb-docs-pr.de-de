@@ -11,10 +11,10 @@ ms.search.form: '283, 284'
 ms.date: 06/29/2021
 ms.author: bholtorf
 ---
-# <a name="use-allocation-keys-in-general-journals"></a>Zuordnungsschlüssel in Allgemeinen Buch.-Blättern verwenden
+# Zuordnungsschlüssel in Allgemeinen Buch.-Blättern verwenden
 Sie können einen Eintrag in einem Allgemeinen Journal mehreren verschiedenen Konten zuordnen, wenn Sie das Journal buchen. Die Verteilung kann nach Anzahl, Prozent oder Betrag vorgenommen werden.
 
-## <a name="to-set-up-allocation-keys"></a>Einrichten von Verteilungsschlüsseln
+## Einrichten von Verteilungsschlüsseln
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Wiederk. Fibu Buch.-Blatt** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie auf der Seite **Fibu Buch.-Blattnamen** den **Buch.-Blattnamen**.
 3. Sie können entweder Zuordnungen in einer vorhandene Charge in der Liste ändern oder eine neue Charge mit Zuordnungen erstellen.
@@ -29,13 +29,13 @@ Sie können einen Eintrag in einem Allgemeinen Journal mehreren verschiedenen Ko
 10. Nachdem Sie die Zuteilungszeilen eingegeben haben, wählen Sie **OK** aus, um zur Seite **Wiederk. Fibu Buch.-Blätter** zurückzukehren. Das Feld **Zugewiesener Betrag (USD)** ist ausgefüllt und entspricht dem Feld **Betrag**.
 11. Buchen Sie die Buch.-Blattzeile.
 
-## <a name="to-change-an-allocation-key-that-has-already-been-set-up"></a>So ändern Sie einen bereits eingerichteten Zuordnungsschlüssel
+## So ändern Sie einen bereits eingerichteten Zuordnungsschlüssel
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Wiederk. Fibu Buch.-Blatt** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie auf der Seite **Wiederk. Fibu Buch.-Blatt** das Buch.-Blatt mit der Verteilung aus.
 3. Wählen Sie die Zeile mit der Verteilung, und wählen Sie dann die Aktion **Zuweisungen** aus.
 4. Ändern Sie die relevanten Felder und wählen Sie dann die Schaltfläche **OK** aus.
 
-## <a name="see-also"></a>Weitere Informationen
+## Weitere Informationen
 [Arbeiten mit Fibu Buch.-Blättern](ui-work-general-journals.md)  
 [Dokumente und Buch.-Blatt verbuchen](ui-post-documents-journals.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

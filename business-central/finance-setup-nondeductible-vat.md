@@ -12,7 +12,7 @@ ms.date: 04/26/2023
 ms.custom: bap-template
 ---
 
-# <a name="set-up-non-deductible-vat"></a>Nicht abzugsfähige MwSt. einrichten
+# Nicht abzugsfähige MwSt. einrichten
 
 Bei der nicht abzugsfähigen Mehrwertsteuer (MwSt.) handelt es sich um die Mehrwertsteuer, die von einem Käufer zu zahlen ist, aber nicht von seiner eigenen Mehrwertsteuerschuld des Käufers abgezogen werden kann. Unternehmen können in der Regel die MwSt. beim Kauf von Waren und Dienstleistungen im Zusammenhang mit ihrer Geschäftstätigkeit zurückfordern. In manchen Situationen fällt einem Unternehmen jedoch MwSt. an, die nicht abzugsfähig ist. Diese Situationen hängen typischerweise mit den örtlichen Vorschriften zusammen und können sich von Land zu Land sowie Region zu Region unterscheiden. Das Modell der Verwendung der nicht abzugsfähigen oder teilweise abzugsfähigen MwSt. ist jedoch ähnlich. Sie können die anteilige MwSt. verwenden, um die MwSt. zu berechnen, wenn es abzugsfähige und nicht abzugsfähige MwSt. gibt.
 
@@ -24,9 +24,9 @@ Im Allgemeinen kann die MwSt. für einige Käufe aufgrund der folgenden Faktoren
 Da es schwierig sein kann, zu wissen, wo und wie ein Artikel verwendet wird, müssen Sie sich an die örtlichen Steuerbehörden in Ihrem Land/Ihrer Region wenden, um herauszufinden, ob ein bestimmter Prozentsatz der MwSt. auf der Grundlage historischer Daten abzugsfähig ist. 
 
 > [!IMPORTANT]
-> Dieses globale Feature ist **außer in Belgien, Italien, Norwegen und Spanien** in allen Ländern mit aktivierter MwSt. verfügbar. Diese Lokalisierungen verfügen bereits über lokale Features und werden in Zukunft aktualisiert. Führen Sie dieses Feature in diesen Ländern nicht aus, da es kein Upgrade-Verfahren gibt.
+> Dieses globale Feature ist **außer in Belgien, Italien und Norwegen** in allen Ländern mit aktivierter MwSt. verfügbar. Diese Lokalisierungen verfügen bereits über lokale Features und werden in Zukunft aktualisiert. Führen Sie dieses Feature in diesen Ländern nicht aus, da es kein Upgrade-Verfahren gibt.
 
-## <a name="use-non-deductible-vat"></a>Nicht absetzbare MwSt. verwenden
+## Nicht absetzbare MwSt. verwenden
 
 1. Wählen Sie die ![Glühbirne, welche die 3. „Sie wünschen ...“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Geben Sie **MwSt.-Einrichtung** ein und wählen Sie dann den zugehörigen Link aus.
 2. Wählen Sie das Kontrollkästchen **Nicht abzugsfähige MwSt. zulassen**.
@@ -41,7 +41,7 @@ Da es schwierig sein kann, zu wissen, wo und wie ein Artikel verwendet wird, mü
     3. Wählen Sie das Kontrollkästchen **Für Projektkosten verwenden**, um anzugeben, dass die nicht abzugsfähige MwSt. zu den Projektkosten hinzugefügt werden muss, wenn Sie Artikel für das Projekt kaufen. Andernfalls hat die nicht abzugsfähige MwSt. keinen Einfluss auf die Projektkosten, und der volle Betrag wird nur auf Sachkontoebene erfasst.
     4. Wählen Sie das Kontrollkästchen **Nicht abziehbare MwSt. in Zeilen anzeigen**, um anzugeben, dass die nicht abzugsfähige MwSt. auf Belegzeilenseiten angezeigt werden muss, um die MwSt.-Beträge einfacher bearbeiten zu können.
 
-## <a name="use-the-non-deductible-vat-percentage"></a>Den nicht abzugsfähigen MwSt.-Prozentsatz verwenden
+## Den nicht abzugsfähigen MwSt.-Prozentsatz verwenden
 
 1. Wählen Sie die ![Glühbirne, welche die 3. „Sie wünschen ...“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **MwSt.-Buchungseinrichtung** ein und wählen Sie dann den entsprechenden Link aus.
 2. Füllen Sie auf der Seite **MwSt.-Buchungsmatrix** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.
@@ -62,7 +62,7 @@ Da es schwierig sein kann, zu wissen, wo und wie ein Artikel verwendet wird, mü
 >
 > Verwenden Sie nicht dasselbe **MwSt.-Kennzeichen** für beide normale MwSt., wo das Feld **Nicht abzugsfähige MwSt. %** auf **0** (Null) eingestellt ist, und die normale MwSt., wenn das Feld **Nicht abzugsfähige MwSt. %** auf einen anderen Wert als Null eingestellt ist. Andernfalls wird der gesamte nicht abzugsfähige MwSt.-Betrag falsch berechnet.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Finanzmanagement](finance.md)  
 [Designdetails: Nicht abziehbare MwSt.](design-details-nondeductible-vat.md)  

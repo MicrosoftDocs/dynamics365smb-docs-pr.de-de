@@ -8,17 +8,17 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: null
 ms.search.form: '5005272, 5005273, 5005274, 5005275, 5005276'
-ms.date: 04/01/2021
+ms.date: 11/21/2023
 ms.author: bholtorf
 ---
-# <a name="issue-delivery-reminders-in-the-german-version"></a>Lieferanmahnungen in der deutschen Version ausstellen
+# Lieferanmahnungen in der deutschen Version ausstellen
 
 [!INCLUDE [delivery-reminders-issue](../includes/ATCHDE/delivery-reminders-issue.md)] 
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
-[So drucken Sie Testberichte vor dem Registrieren von Lieferanmahnungen](how-to-print-test-reports-for-delivery-reminders.md)  
-[Lieferbenachrichtigungen](delivery-reminders.md)  
+[Testberichte für Lieferanmahnungen drucken](how-to-print-test-reports-for-delivery-reminders.md)  
+[Lieferanmahnungen](delivery-reminders.md)  
 [So erstellen Sie Lieferanmahnungen](how-to-generate-delivery-reminders.md)  
 [Manuelle Lieferanmahnungen erstellen](how-to-create-delivery-reminders-manually.md)  
 

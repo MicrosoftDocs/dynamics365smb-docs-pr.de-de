@@ -8,16 +8,16 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview
 ms.search.form: '9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017'
-ms.date: 09/13/2022
+ms.date: 11/01/2023
 ms.author: bholtorf
 ---
-# <a name="business-functionality"></a>Geschäftsfunktionen
+# Geschäftsfunktionen
 
-[!INCLUDE[prod_short](includes/prod_short.md)] bietet Funktionen für allgemeine Geschäftsprozesse in kleinen und mittleren Firmen, vor allem im Bereich Großhandel und professionelle Dienstleistungen. Sie unterstützen auch komplexere Prozesse wie Montage, Produktion, Service, und referenzierte Logistik. [Erfahren Sie, wie Sie eine kostenlose Testversion erhalten](trial-signup.md).  
+[!INCLUDE[prod_short](includes/prod_short.md)] bietet Funktionen für allgemeine Geschäftsprozesse in kleinen und mittleren Firmen, vor allem im Bereich Großhandel und professionelle Dienstleistungen. Sie unterstützen auch komplexere Prozesse wie Montage, Produktion, Service, und referenzierte Logistik. Erfahren Sie [hier](trial-signup.md), wie Sie eine kostenlose Testversion erhalten.  
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-[!INCLUDE[prod_short](includes/prod_short.md)] enthält Standardkonfigurationen für die meisten Geschäftsprozesse, aber Sie können die Konfiguration ändern, um sie Ihren geschäftlichen Anforderungen anzupassen. Von Ihrem Rollencenter aus können Sie auf unterstützte Einrichtungsleitfäden zugreifen, die Ihnen dabei helfen, bestimmte Szenarien zu konfigurieren und Funktionen zu [!INCLUDE[prod_short](includes/prod_short.md)] hinzuzufügen. Einige Bereiche für Geschäftsfunktionalitäten müssen manuell eingegeben werden. Der [Business Central Schnellstart](quick-start-business-central.md) Artikel hilft Ihnen bei den ersten Schritten, sich [!INCLUDE [prod_short](includes/prod_short.md)] zu eigen zu machen. Erfahren Sie mehr unter [Einrichten von [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).
+[!INCLUDE[prod_short](includes/prod_short.md)] enthält Standardkonfigurationen für die meisten Geschäftsprozesse, aber Sie können die Konfiguration ändern, um sie Ihren geschäftlichen Anforderungen anzupassen. Von Ihrem Rollencenter aus können Sie auf unterstützte Einrichtungsleitfäden zugreifen, die Ihnen dabei helfen, bestimmte Szenarien zu konfigurieren und Funktionen zu [!INCLUDE[prod_short](includes/prod_short.md)] hinzuzufügen. Einige Bereiche für Geschäftsfunktionalitäten müssen manuell eingegeben werden. Die Artikel zum [Business Central Schnellstart](quick-start-business-central.md) können Ihnen bei den ersten Schritten helfen, um sich mit [!INCLUDE [prod_short](includes/prod_short.md)] vertraut zu machen. Erfahren Sie mehr unter [Einrichten von [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).
 
 | Bis | Siehe |
 | --- | --- |
@@ -35,11 +35,11 @@ ms.author: bholtorf
 |Definieren der Produktionsressourcen und ihrer Kapazität, Planen von Abläufen, Produktionsplanung von Fertigungskomponenten und Ausführen von Fertigungsabläufen|[Produktion](production-manage-manufacturing.md)|
 |Sorgen Sie für einen effektiven Flow der eingegangenen und versendeten Waren.|[Lagerverwaltung – Übersicht](design-details-warehouse-management.md)|
 |Planen von Serviceanrufen und Einrichten von Serviceaufträgen und Nachverfolgen von Reparaturteilen und Zubehör.|[Service](service-service.md)|
-|Konfigurieren und verwenden Sie Workflows, die Aufgaben verbinden, welche von verschiedenen Benutzern oder vom System ausgeführt werden, z. B. die automatische Buchung. Die Anforderung oder Bewilligung von Genehmigungen zum Erstellen oder Buchen von Belegen sind typische Workflowschritte.|[Workflow](across-workflow.md)|
-|Ermöglichen Sie Benutzern den Datenaustausch über externe Quellen im Rahmen von täglichen Aufgaben, wie dem Senden/Empfangen von elektronischen Belegen, Importieren/Exportieren von Bankdateien und dem Aktualisieren von Wechselkursen.|[Daten elektronisch austauschen](across-data-exchange.md)|
+|Konfigurieren und verwenden Sie Workflows, die Aufgaben verbinden, welche von verschiedenen Benutzern oder vom System ausgeführt werden, z. B. die automatische Buchung. Die Anforderung und Bewilligung von Genehmigungen zum Erstellen oder Buchen von Belegen sind typische Workflowschritte.|[Workflow](across-workflow.md)|
+|Ermöglichen Sie Benutzenden den Datenaustausch über externe Quellen im Rahmen von täglichen Aufgaben, wie dem Senden/Empfangen von elektronischen Belegen, Importieren/Exportieren von Bankdateien und dem Aktualisieren von Währungswechselkursen.|[Daten elektronisch austauschen](across-data-exchange.md)|
 |Erfassen Sie externe Dokumente in [!INCLUDE[prod_short](includes/prod_short.md)], einschließlich ihrer Dateianhänge, und erstellen Sie dann manuell die zugehörigen Belege oder wandeln Sie die Dateien automatisch in elektronische Belege um.|[Eingehende Belege](across-income-documents.md)|
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Verwaltung](admin-setup-and-administration.md)    
 [Erforschen Sie die Dynamics 365 Business Central-Fähigkeiten](https://dynamics.microsoft.com/business-central/capabilities/)  

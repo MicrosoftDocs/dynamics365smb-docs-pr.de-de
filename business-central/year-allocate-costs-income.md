@@ -10,7 +10,7 @@ ms.search.form: '283, 5629'
 ms.date: 09/26/2023
 ms.author: bholtorf
 ---
-# <a name="allocate-recurring-costs-and-income"></a>Zuteilung von wiederkehrenden Kosten und Erträgen
+# Zuteilung von wiederkehrenden Kosten und Erträgen
 
 Sie können einen Eintrag in einem wiederkehrenden Fibu Buch.-Blatt mehreren Konten zuordnen, wenn Sie das Journal buchen. Weitere Informationen zu wiederkehrenden Fibu Buch.-Blättern finden Sie unter [Mit wiederkehrenden Buchblättern arbeiten](ui-work-general-journals.md#work-with-recurring-journals). 
 
@@ -25,7 +25,7 @@ Die Zuteilungsfunktionen funktionieren mit wiederkehrenden Buch.-Blättern und i
 
 Die folgenden Verfahren beschreiben, was bereitgestellt werden muss, um Kosten in einem wiederkehrenden Buch.-Blatt zuzuordnen, indem Verteilungsschlüssel eingerichtet werden. Wenn Verteilungsschlüssel definiert werden, beenden und buchen Sie das Buch.-Blatt wie alle anderen wiederkehrenden Fibu Buch.-Blätter. Weitere Informationen finden Sie unter [Arbeiten mit Allgemeinen Buch.-Blättern](ui-work-general-journals.md).
 
-## <a name="to-set-up-allocation-keys"></a>Einrichten von Verteilungsschlüsseln
+## Einrichten von Verteilungsschlüsseln
 
 Die Posten einer Fibu Buch.-Blattzeile lassen sich beim Buchen des Buch.-Blatts auf verschiedene Konten verteilen. Die Verteilung kann nach Anzahl, Prozent oder Betrag vorgenommen werden.  
 
@@ -43,13 +43,13 @@ Die Posten einer Fibu Buch.-Blattzeile lassen sich beim Buchen des Buch.-Blatts 
 10. Nachdem Sie die Zuteilungszeilen eingegeben haben, wählen Sie **OK** aus, um zur Seite **Wiederk. Fibu Buch.-Blätter** zurückzukehren. Das Feld **Zugewiesener Betrag (USD)** ist ausgefüllt und entspricht dem Feld **Betrag**.
 11. Buchen Sie die Buch.-Blattzeile.
 
-## <a name="to-change-an-allocation-key-that-has-already-been-set-up"></a>So ändern Sie einen bereits eingerichteten Zuordnungsschlüssel
+## So ändern Sie einen bereits eingerichteten Zuordnungsschlüssel
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren") Symbol. Geben Sie **Wiederk. Fibu Buch.-Blatt** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie auf der Seite **Wiederk. Fibu Buch.-Blatt** das Buch.-Blatt mit der Verteilung aus.
 3. Wählen Sie die Zeile mit der Verteilung, und wählen Sie dann die Aktion **Zuweisungen** aus.
 4. Ändern Sie die relevanten Felder und wählen Sie dann die Schaltfläche **OK** aus.
 
-## <a name="see-also"></a>Weitere Informationen
+## Weitere Informationen
 [Jahre und Perioden abschließen](year-close-years-periods.md)  
 [Mit Fibu Buch.-Blättern arbeiten](ui-work-general-journals.md)    
 [Journale und Dokumente buchen](ui-post-documents-journals.md)    

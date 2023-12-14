@@ -5,13 +5,13 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 10/29/2023
+ms.date: 11/17/2023
 ms.custom: bap-template
 ---
 
 # Marketingtext zu Artikeln hinzufügen
 
-Sie können für jeden in Business Central registrierten Artikel *Marketingtext* über den Artikel schreiben. Obwohl Marketingtext eine Art Beschreibung ist, unterscheidet er sich vom Feld **Beschreibung** des Artikels. Das Feld **Beschreibung** wird normalerweise als prägnanter Anzeigename verwendet, um das Produkt schnell identifizieren zu können. Der Marketingtext hingegen ist ein umfassenderer und detailreicherer Schritt. Durch ihn sollen Marketing- und Werbeinhalten, sogenanntes *Textmaterial*, hinzugefügt werden. Dieser Text kann dann mit dem Artikel veröffentlicht werden, wenn er in einem Webshop wie Shopify veröffentlicht wird.
+Sie können für jeden in Business Central registrierten Artikel *Marketingtext* über den Artikel schreiben. Obwohl Marketingtext eine Art Beschreibung ist, unterscheidet er sich vom Feld **Beschreibung** des Artikels. Das Feld **Beschreibung** wird normalerweise als prägnanter Anzeigename verwendet, um das Produkt schnell identifizieren zu können. Der Marketingtext hingegen ist ein umfassenderer und detailreicherer Schritt. Durch ihn sollen Marketing- und Werbeinhalten, sogenanntes *Textmaterial*, hinzugefügt werden. Dieser Text kann dann mit dem Artikel veröffentlicht werden, wenn er in einem Webshop wie Shopify veröffentlicht wird, oder er kann in E-Mails oder andere Mitteilungen an Ihre Debitoren eingefügt werden.
 
 Es gibt zwei Möglichkeiten, Marketingtext zu erstellen. Am einfachsten gelingt der Einstieg mit Copilot, das Ihnen KI-generierten Text vorschlägt. Die andere Möglichkeit ist, den Text von Grund auf selbst zu verfassen. 
 
@@ -19,20 +19,22 @@ Es gibt zwei Möglichkeiten, Marketingtext zu erstellen. Am einfachsten gelingt 
 
 Copilot bietet Ihnen schnell einen Textvorschlag an, der automatisch für Sie generiert wird. Der KI-generierte Text ist auf den Artikel zugeschnitten und bietet einen guten Ausgangspunkt. Der Text basiert zum Teil auf den folgenden Informationen:
 
-- Für den Artikel festgelegte Attribute, z. B. Beschreibung, Farbe, Dimensionen, Material usw.
+- Für den Artikel festgelegte Attribute, z. B. Beschreibung, Farbe, Dimensionen, Material usw. [Erfahren Sie mehr über Artikelattribute](inventory-how-work-item-attributes.md).
+- Das Feld **Beschreibung** des Artikels.
+- Die Artikelkategorie. [Erfahren Sie mehr über das Kategorisieren von Artikeln](inventory-how-categorize-items.md).
 - Auswählbare Einstellungen zum Stil wie Tonfall, Format und Länge.
 
 Copilot soll Ihnen Zeit sparen und Ihnen dabei helfen, kreative und ansprechende Texte zu schreiben, die Ihre Marke widerspiegeln und über Ihre gesamte Produktlinie hinweg konsistent sind. Erstellen Sie zunächst einen Vorschlag und ändern Sie ihn dann nach Bedarf.
 
 ### Voraussetzungen
 
-- Das Feature für Marketingtextvorschläge ist in Ihrer Umgebung eingeschaltet und aktiviert. Die Aufgabe wird normalerweise durch einen Administrierenden erledigt. Weitere Informationen finden Sie unter [KI-gestützten Marketingtext für Artikel mit Copilot konfigurieren](enable-ai.md).
+- Das Feature für Marketingtextvorschläge ist in Ihrer Umgebung eingeschaltet und aktiviert. Die Aufgabe wird normalerweise durch einen Administrierenden erledigt. Weitere Informationen finden Sie unter [Copilot- und KI-Funktionen konfigurieren](enable-ai.md).
 - Sie verwenden eine der Sprachen, die derzeit von den Marketingtextvorschlägen unterstützt werden.
 
-   [!INCLUDE[copilot-supported-languages.md](includes/copilot-supported-languages.md)] <!--you're using in Business Central must be English. Any of the available English locales work, like English (United States), English (United Kingdom), or English (South Africa).-->
+  [!INCLUDE[copilot-supported-languages.md](includes/copilot-supported-languages.md)]
 
-   Um die Sprache zu ändern, wählen Sie in der oberen rechten Ecke das **Einstellungen**-Symbol ![Einstellungen.](media/ui-experience/settings_icon_small.png "Einstellungssymbol für Rollenzentrum") > **Meine Einstellungen** > **Sprache** aus. Weitere Informationen finden Sie unter [Grundeinstellungen ändern](ui-change-basic-settings.md#language).
-- In den [FAQ zu Marketingtextvorschlägen](faqs-marketing-text.md) erfahren Sie mehr über KI-generierte Textvorschläge von Copilot und deren Verwendung.
+  Um die Sprache zu ändern, wählen Sie in der oberen rechten Ecke das **Einstellungen**-Symbol ![Einstellungen.](media/ui-experience/settings_icon_small.png "Einstellungssymbol für Rollenzentrum") > **Meine Einstellungen** > **Sprache** aus. Weitere Informationen finden Sie unter [Grundeinstellungen ändern](ui-change-basic-settings.md#language).
+- Lesen Sie die [Häufig gestellte Fragen zu Vorschlägen für Marketingtexte](faqs-marketing-text.md), um zu erfahren, wie KI eingesetzt wird.
 
 ### Einen ersten Entwurf mit Copilot erstellen
 
@@ -40,9 +42,9 @@ Gehen Sie wie folgt vor, um Marketingtext zu einem vorhandenen Artikel hinzuzuf�
 
 1. Öffnen Sie in Business Central den Artikel, den Sie ändern möchten, und gehen Sie dazu wie folgt vor:
 
-   1. Wählen Sie in der oberen rechten Ecke die ![Glühbirne aus, die die „Sie wünschen ...“-Funktion 22 öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren") aus, geben Sie **Artikel** ein und wählen Sie dann den dazugehörigen Link aus, um eine Liste der verfügbaren Artikel aufzurufen.
+   - Wählen Sie in der oberen rechten Ecke die ![Glühbirne aus, die die „Sie wünschen ...“-Funktion 22 öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren") aus, geben Sie **Artikel** ein und wählen Sie dann den dazugehörigen Link aus, um eine Liste der verfügbaren Artikel aufzurufen.
 
-   2. Machen Sie einen Doppelklick auf den Artikel oder wählen Sie in der Spalte **Nr.** seinen Wert aus .
+   - Machen Sie einen Doppelklick auf den Artikel oder wählen Sie in der Spalte **Nr.** seinen Wert aus .
 
    [![Zeigt eine Artikelkarte mit Bereich „Marketingtext“](media/create-with-copilot.svg)](media/create-with-copilot.svg#lightbox)
 
@@ -58,16 +60,12 @@ Gehen Sie wie folgt vor, um Marketingtext zu einem vorhandenen Artikel hinzuzuf�
 
      Wählen Sie die Attribute aus, auf denen Copilot Vorschläge basieren soll, und wählen Sie dann **Generieren** aus. Sie können die ausgewählten Attribute und anderen Optionen später ändern. Copilot beginnt damit, einen Entwurf eines Marketingtexts zu erstellen. 
      
-3. Wenn Copilot den Entwurf fertigstellt, wird der Text im Copilot-Editorfenster zur Überprüfung und Bearbeitung angezeigt. 
+3. Wenn Copilot den Entwurf fertigstellt, wird der Text im Copilot-Editorfenster angezeigt, wo Sie ihn überprüfen und bearbeiten können. 
 
    [![Zeigt das „Mit Copilot erstellen“-Fenster](media/create-with-copilot-window.svg)](media/create-with-copilot-window.svg#lightbox)
 
    Sie können jetzt weitere Vorschläge erhalten, die erhaltenen Vorschläge verbessern, Text bearbeiten und vieles mehr. Weitere Informationen finden Sie unter [Überprüfen, bearbeiten und speichern](#review-edit-and-save-text).
 
-
-<!--
-   > [!TIP]
-   > [Where does the suggestion come from?](ai-faq.md#how-does-copilot-work-where-does-the-suggested-text-come-from)-->
 
 ### Text überprüfen, bearbeiten und speichern
 
@@ -114,6 +112,10 @@ Sie können einige Schritte unternehmen, um Textvorschläge zu verbessern und si
 1. Stellen Sie sicher, dass das Feld **Artikelkategoriencode** auf der Artikelkarte auf eine geeignete Kategorie eingestellt ist.
 
    Copilot findet Wörter und Sätze, die sich auf die Kategorie beziehen, und arbeitet sie in den vorgeschlagenen Text ein.
+
+### Mit mehreren Sprachen arbeiten 
+
+Text wird immer in der Sprache generiert, die in Ihren [Benutzereinstellungen](ui-change-basic-settings.md#language) festgelegt ist. Wenn Ihre Organisation mit einer anderen Sprache arbeitet und in dieser Daten in Business Central eingibt oder wenn Business Central mit Ihrem Online-Shop, z. B. Shopify, verbunden ist, kann es sein, dass Inhalte veröffentlicht werden, die nicht mit ähnlichen Marketinginhalten übereinstimmen.
 
 ## Text von Grund auf neu erstellen
 

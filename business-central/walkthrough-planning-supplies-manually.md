@@ -10,27 +10,27 @@ ms.search.keywords: null
 ms.date: 06/24/2021
 ms.author: bholtorf
 ---
-# <a name="walkthrough-planning-supplies-manually"></a>Exemplarische Vorgehensweise: Manuelle Beschaffungsplanung
+# Exemplarische Vorgehensweise: Manuelle Beschaffungsplanung
 
 <!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
 In der folgenden exemplarischen Vorgehensweise wird die Planung von Beschaffungsaufträgen zum Erfüllen eines neuen Bedarfs beschrieben. Je nach Bedarfsart können Sie die Beschaffungsplanung in festen Intervallen, z. B. jeden Morgen oder jeden Montag, oder bei einer entsprechenden Benachrichtigung durch den Verkauf oder die Produktion initiieren. In dieser exemplarischen Vorgehensweise verwenden Sie die Seite **Auftragsplanung**, ein einfaches Tool für die Beschaffungsplanung, bei dem Entscheidungen manuell getroffen werden, anstatt die Planung automatisch anhand von Parametern durchzuführen.  
 
-## <a name="about-this-walkthrough"></a>Informationen zu dieser exemplarischen Vorgehensweise
+## Informationen zu dieser exemplarischen Vorgehensweise  
  In dieser exemplarischen Vorgehensweise werden folgende Aufgaben erläutert:  
 
 -   Planen einer Bestellung für Produktionskomponenten  
 -   Planen eines Umlagerungsauftrags zum Erfüllen des Verkaufsbedarfs  
 -   Planen eines Fertigungsauftrags für einen Artikel mit mehreren Ebenen  
 
-## <a name="roles"></a>Rollen
+## Rollen  
  Die Aufgaben in dieser exemplarischen Vorgehensweise werden von den folgenden Benutzern ausgeführt:  
 
 -   Produktionsplaner  
 -   Einkäufer  
 -   Verkaufsauftragsbearbeiter  
 
-## <a name="prerequisites"></a>Voraussetzungen
+## Voraussetzungen  
  Bevor Sie diese exemplarische Vorgehensweise beginnen können, müssen Sie [!INCLUDE[prod_short](includes/prod_short.md)] einrichten. Die folgenden Änderungen müssen an der Datenbank vorgenommen werden:  
 
 -   Löschen Sie alle vorhandenen Verkaufsaufträge für Tourenräder.  
@@ -39,17 +39,17 @@ In der folgenden exemplarischen Vorgehensweise wird die Planung von Beschaffungs
 
  Verwenden Sie grundsätzlich die vorgeschlagenen Daten in dieser exemplarischen Vorgehensweise. Diese Daten enthalten die erforderlichen Datensätze.  
 
-## <a name="story"></a>Hintergrund
+## Hintergrund  
  Jürgen, der Produktionsplaner eines kleinen Produktionsunternehmens, ist im Begriff, Fertigungsaufträge und Bestellungen zum Erfüllen eines neuen Verkaufsbedarfs zu planen.  
 
  Da die Produkte nur wenige Stücklistenebenen besitzen und der Auftragsfluss ebenfalls relativ wenige Stufen umfasst, verwendet Jürgen die Seite **Auftragsplanung** zum manuellen Erstellen von Beschaffungsaufträgen und arbeitet dabei nacheinander die einzelnen Produktebenen ab.  
 
  In einer komplexeren Produktionsumgebung wird der Planungsarbeitsblatt verwendet, um die Beschaffung basierend auf Artikelparametern wie Neuplanungsperiode, Sicherheitszuschlag für die Beschaffungszeit und Minimalbestand sowie Stapelberechnungen des konsolidierten Bedarfs aller Produktebenen zu planen.  
 
-## <a name="setting-up-the-sample-data"></a>Einrichten der Beispieldaten
+## Einrichten der Beispieldaten  
  Das standardmäßige Demounternehmen CRONUS verfügt derzeit über einen umfangreichen, nicht geplanten Bedarf. Während der unterschiedlichen Planungsphasen dieser exemplarischen Vorgehensweise ist eine Abweichung von einer realistischen Vorgehensweise erforderlich, da Bedarf mit unmittelbar bevorstehendem Fälligkeitsdatum ignoriert und stattdessen Bedarf mit einem späteren Fälligkeitsdatum verwendet wird.  
 
-## <a name="use-the-order-planning-page"></a>Die Seite „Auftragsplanung“ verwenden
+## Die Seite „Auftragsplanung“ verwenden  
 
 Die Seite **Auftragsplanung** kann von mehreren Standorten aus aufgerufen werden:  
 
@@ -58,7 +58,7 @@ Die Seite **Auftragsplanung** kann von mehreren Standorten aus aufgerufen werden
 -   Einkauf, Planung  
 -   Darüber hinaus können Sie diese Seite für einen bestimmten Fertigungsauftrag öffnen, indem Sie die Aktion **Planung** wählen.
 
-### <a name="to-use-the-order-planning-page"></a>So verwenden Sie die Seite "Auftragsplanung"
+### So verwenden Sie die Seite "Auftragsplanung"  
 
 1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Auftragsplanung** ein, und wählen Sie dann den entsprechenden Link.  
 
@@ -82,10 +82,10 @@ Die Seite **Auftragsplanung** kann von mehreren Standorten aus aufgerufen werden
 
      Aufträge ohne Verfügbarkeitsprobleme werden nicht angezeigt. Falls bei der Berechnung einer Planung keine Aufträge vorhanden sind, wird eine Meldung eingeblendet, und es werden keine Planungszeilen angezeigt.  
 
-## <a name="planning-a-purchase-order-to-fulfill-component-demand"></a>Planen einer Bestellung zum Erfüllen des Komponentenbedarfs
+## Planen einer Bestellung zum Erfüllen des Komponentenbedarfs  
  In diesem Verfahren erstellen Sie eine Bestellung für benötigte Produktionskomponenten.  
 
-### <a name="to-plan-a-purchase-order-to-fulfill-component-need-in-production"></a>So planen Sie eine Bestellung zum Erfüllen des Komponentenbedarfs in der Produktion
+### So planen Sie eine Bestellung zum Erfüllen des Komponentenbedarfs in der Produktion  
 
 1.  Erweitern Sie die erste Zeile (klicken Sie auf das Pluszeichen +).  
 2.  Wählen Sie die erste Bedarfszeile, mit Artikel **LSU-15**, und wählen Sie die **Beleg anzeigen** Aktion aus.  
@@ -122,10 +122,10 @@ Die Seite **Auftragsplanung** kann von mehreren Standorten aus aufgerufen werden
 
      Die Bestellungen werden erstellt und als die letzten Aufträge in der Liste der Bestellungen gespeichert.  
 
-## <a name="planning-a-transfer-order-to-fulfill-sales-demand"></a>Planen eines Umlagerungsauftrags zum Erfüllen des Verkaufsbedarfs
+## Planen eines Umlagerungsauftrags zum Erfüllen des Verkaufsbedarfs  
  In diesem Verfahren erstellen Sie eine Planung für den Bedarf aus einem Verkaufsauftrag. Anders als beim Fertigungsbedarf, bei dem Bedarfszeilen Komponentenzeilen sind, stellen Bedarfszeilen hier Verkaufszeilen dar.  
 
-### <a name="to-plan-a-transfer-order-to-fulfill-sales-demand"></a>So planen Sie einen Umlagerungsauftrag zum Erfüllen des Verkaufsbedarfs
+### So planen Sie einen Umlagerungsauftrag zum Erfüllen des Verkaufsbedarfs  
 
 1.  Bewegen Sie den Mauszeiger in die Planungszeile für den Auftrag **2008**.  
 2.  Erweitern Sie die Zeile, und bewegen Sie den Mauszeiger in die Bedarfszeile.  
@@ -150,10 +150,10 @@ Die Seite **Auftragsplanung** kann von mehreren Standorten aus aufgerufen werden
 
      Der Umlagerungsauftrag wird erstellt und als der letzte Auftrag in der Liste offener Umlagerungsaufträge gespeichert.  
 
-## <a name="planning-a-multilevel-production-order-to-fulfill-sales-demand"></a>Planen eines Fertigungsauftrags mit mehreren Ebenen zum Erfüllen des Verkaufsbedarfs
+## Planen eines Fertigungsauftrags mit mehreren Ebenen zum Erfüllen des Verkaufsbedarfs  
  In diesem Verfahren erstellen Sie eine Planung, um den Verkaufsbedarf für einen gefertigten Artikel mit mehreren Produktebenen zu erfüllen. Die Produktebenen des Artikels verursachen voneinander abhängigen Fertigungsbedarf.  
 
-### <a name="to-plan-multilevel-production-to-fulfill-sales-demand"></a>So planen Sie einen Fertigungsauftrag mit mehreren Ebenen zum Erfüllen des Verkaufsbedarfs
+### So planen Sie einen Fertigungsauftrag mit mehreren Ebenen zum Erfüllen des Verkaufsbedarfs  
 
 1.  Wählen Sie die Planungszeile mit dem Verkaufsbedarf für Auftrag **1001** aus (wurde bei der Vorbereitung der Daten erstellt).  
 
@@ -172,7 +172,7 @@ Die Seite **Auftragsplanung** kann von mehreren Standorten aus aufgerufen werden
 
  Als Produktionsplaner müssen Sie jetzt einen spezifischen Fertigungsauftrag planen.  
 
-### <a name="to-plan-a-specific-production-order"></a>So planen Sie einen spezifischen Fertigungsauftrag
+### So planen Sie einen spezifischen Fertigungsauftrag  
 
 1.  Öffnen Sie den Fertigungsauftrag **101001** (für zehn Tourenräder), den Sie zuvor mit der Funktion **Aufträge erstellen** erstellt haben.  
 2.  Öffnen Sie die Seite **FA-Komponenten**, um zu überprüfen, ob die zusätzliche Klingel über dem Fertigungsauftrag wiedergegeben wird.  
@@ -222,7 +222,7 @@ Die Seite **Auftragsplanung** kann von mehreren Standorten aus aufgerufen werden
 
      Überprüfen Sie auf der Seite **Fest geplante FA** , wie die Start- und Endzeiten der einzelnen Aufträge entsprechend der Produktstruktur geplant wurden. Die Komponenten auf der niedrigsten Ebene werden zuerst gefertigt. Daher ist es unumgänglich, die Planung von Aufträgen mit mehreren Ebenen wie in diesem Planungsworkflow gezeigt vorzunehmen.  
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch  
  [Exemplarische Vorgehensweisen für Geschäftsprozesse](walkthrough-business-process-walkthroughs.md)   
 <!--  [Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md) -->
 

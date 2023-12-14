@@ -12,17 +12,17 @@ ms.date: 10/05/2023
 ms.author: altotovi
 ---
 
-# <a name="set-up-e-documents"></a>E-Belege einrichten
+# E-Belege einrichten
 
 > [!IMPORTANT]
-> Das E-Beleg-Kernmodul ist ein Framework. Standardmäßig gibt es kein Feld **Belegformat** oder **Belegintegration**. Diese Details gehören zu Lokalisierungs-Apps, da sie beide spezifisch für lokale Anforderungen sind.
+> Das E-Beleg-Kernmodul ist ein Framework. Standardmäßig gibt es kein Feld **Dienstintegration**. Wenn Sie standardmäßig die **Belegformat**-Optionen finden, beachten Sie, dass diese als Beispiel angeboten werden und dass die Lokalisierung ein detailliertes Format bereitstellen muss. Diese Details gehören zu Lokalisierungs-Apps, da sie für lokale Anforderungen spezifisch sind.
 
 > [!NOTE]
-> Ab Version 23.1 wird ein Standard-PEPPOL-Belegformat als globales Format im Format **Belegformat** hinzugefügt.
+> Ab Version 23.2 wird ein Standard-PEPPOL-Belegformat als globales Format im Format **Belegformat** hinzugefügt. Bedenken Sie, dass Sie dieses Format wahrscheinlich nicht so verwenden können, wie es ist. Es handelt sich um ein W1-Format, das bereitgestellt wird, um die Verwendung dieses Features zu veranschaulichen. Wir empfehlen Ihnen, das vorhandene PEPPOL-Format zu testen, bevor Sie mit der Verwendung dieses Formats beginnen.
 
 Der erste Schritt bei der Konfiguration elektronischer Belege (E-Beleg) besteht in der Einrichtung des E-Beleg-Dienstes, in dem Sie das gesamte Verhalten Ihres Systems in Bezug auf die E-Beleg-Kommunikation konfigurieren.
 
-## <a name="set-up-the-e-document-service"></a>Den E-Beleg-Dienst einrichten
+## Den E-Beleg-Dienst einrichten
 
 Gehen Sie wie folgt vor, um den E-Beleg-Dienst einzurichten.
 
@@ -33,11 +33,11 @@ Gehen Sie wie folgt vor, um den E-Beleg-Dienst einzurichten.
     |-------|-------------|
     | Code | Wählen Sie den Einrichtungscode für den elektronischen Beleg aus. |
     | Description | Geben Sie eine kurze Beschreibung für die Einrichtung des elektronischen Exports an. |
-    | Belegformat | <p>Das Exportformat für die Einrichtung des elektronischen Exports.</p><p>Standardmäßig gibt es in diesem Feld in Zyklus 1 keine Optionen.</p> |
+    | Belegformat | <p>Das Exportformat für die Einrichtung des elektronischen Exports.</p><p>Standardmäßig gibt es in diesem Feld zwei Optionen. Sie können **PEPPOL BIS 3** als generisches codebasiertes Format oder **Datenaustausch** wählen, wenn Sie Vorabdokumente bestimmter Formate im Inforegister **Datenaustauschdefinition** einrichten müssen.</p> |
     | Dienstintegration | Wählen Sie den Integrationscode für die Einrichtung des elektronischen Exports aus. In Zyklus 1 ist die einzige Option **Keine Integration**. |
     | Stapelverarbeitung verwenden | Geben Sie an, ob der Dienst für den Export die Stapelverarbeitung verwendet. |
 
-4. Konfigurieren Sie auf dem Inforegister **Importierte Parameter** die in der folgenden Tabelle beschriebenen Felder.
+3. Konfigurieren Sie auf dem Inforegister **Importierte Parameter** die in der folgenden Tabelle beschriebenen Felder.
 
     | Feld | Description |
     |-------|-------------|
@@ -57,11 +57,22 @@ Gehen Sie wie folgt vor, um den E-Beleg-Dienst einzurichten.
     | Stapel-Startzeit | Geben Sie die Startzeit für Importaufträge an. |
     | Minuten zwischen Ausführungen | Geben Sie die Anzahl der Minuten zwischen den Ausführungen von Importaufträgen an. |
 
-Wenn Sie das **Datenaustauschdefinition**-Format in Ihrer Lokalisierung konfiguriert haben, können Sie für jeden Belegtyp, den Sie benötigen, eine Zeile hinzufügen. Sie müssen jedoch zuerst die Option **Belegtyp** für jede Zeile, die Sie benötigen, auswählen. Wählen Sie für jeden Datentyp die Werte **Datenaustauschdefinitionscode importieren** oder **Datenaustauschdefinitionscode exportieren**, die Sie verwenden möchten.
+4. Wenn Sie **Datenaustausch** im Feld **Dokumentformat** im Inforegister **Allgemein** ausgewählt haben, verwenden Sie das Inforegister **Datenaustauschdefinition**, um die folgenden Felder festzulegen.
 
-Wenn Sie das Format **Datenaustauschdefinition** nicht verwenden, können Sie schließlich Formate über die Zeilen **Zuordnung exportieren** und **Zuordnung importieren** konfigurieren, in denen Sie die zu verwendenden Tabellen und Felder finden und ggf. Transformationsregeln konfigurieren können.
+    | Feld | Description |
+    |-------|-------------|
+    | Belegtyp | Geben Sie den Belegtyp an, der den Datenaustausch zum Importieren und Exportieren der Daten verwendet. Beispiele hierfür sind **Verkaufsrechnung**, **Verkaufsgutschrift** und **Einkaufsrechnung**. |
+    | Datenaustausch-Definitionscode importieren | Geben Sie den Datenaustauschcode an, der zum Importieren der Daten verwendet wird. Nutzen Sie dieses Feld nur, um im Kaufprozess einen Beleg zu erhalten. |
+    | Datenaustausch-Definitionscode exportieren | Geben Sie den Datenaustauschcode an, der zum Exportieren der Daten verwendet wird. Verwenden Sie dieses Feld nur, um Belege im Verkaufsprozess zu liefern. |
 
-## <a name="set-up-a-document-sending-profile"></a>Ein Belegsendeprofil einrichten
+> [!NOTE]
+> Es gibt vorbereitete Datenaustauschdefinitionen für das PEPPOL-Format, die sich auf den Standardverkaufs- und Einkaufsbeleg beziehen. Allerdings können Sie diese Definitionen wahrscheinlich nicht so verwenden, wie sie sind. Es handelt sich dabei ausschließlich um W1-Formate, die bereitgestellt werden, um die Verwendung dieses Features zu veranschaulichen. Wir empfehlen Ihnen, das vorhandene PEPPOL-Format zu testen, bevor Sie mit ihrer Verwendung beginnen.
+
+Wenn Sie das **Datenaustauschdefinition**-Format in Ihrer Lokalisierung konfiguriert haben, können Sie für jeden Belegtyp, den Sie benötigen, eine Zeile hinzufügen. Fügen Sie Zeilen hinzu, die dem Standarddatenaustauschbeispiel für das W1-PEPPOL-Format entsprechen. Wählen Sie jedoch zuerst die Option **Belegtyp** für jede Zeile aus, die Sie benötigen. Wählen Sie für jeden Datentyp die Werte **Datenaustauschdefinitionscode importieren** oder **Datenaustauschdefinitionscode exportieren**, die Sie verwenden möchten.
+
+Wenn Sie das Format **Datenaustauschdefinition** nicht verwenden, können Sie Formate mithilfe der [Schnittstelle](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments) erstellen und konfigurieren. Passen Sie die Informationen in den Zeilen **Exportzuordnung** und **Importzuordnung** an, in denen Sie die Tabellen und Felder zur Konfiguration von Transformationsregeln finden. In diesem Fall müssen Sie im Feld **Dokumentformat** eine neue Option hinzufügen, die sich auf Ihr Format bezieht.
+
+## Ein Belegsendeprofil einrichten
 
 Sie können für jeden Debitor eine bevorzugte Methode zum Senden von Verkaufsbelegen einrichten. so müssen Sie nicht jedes Mal eine Sendeoption auswählen, wenn Sie die Aktion **Buchen und senden** auswählen. Auf der Seite **Belegsendeprofile** können Sie verschiedene Sendeprofile einrichten und dann Ihre Auswahl aus den **Belegsendeprofilen** auf der Debitorenkarte treffen. Im Kontrollkästchen **Standard** können Sie auswählen, dass das Belegsendeprofil das Standardprofil für alle Debitoren gilt, außer Debitoren, bei denen das Feld **Belegsendeprofil** auf ein anderes Sendeprofil eingestellt ist.
 
@@ -83,7 +94,7 @@ Gehen Sie wie folgt vor, um ein Belegsendeprofil einzurichten.
     > [!NOTE]
     > Wenn Sie **Erweiterter E-Beleg-Serviceflow** im Feld **Elektronischer Beleg** auswählen, muss der Workflow bereits für Ihre E-Belege konfiguriert sein.
 
-## <a name="set-up-the-workflow"></a>Den Workflow einrichten
+## Den Workflow einrichten
 
 Gehen Sie wie folgt vor, um den Workflow einzurichten, der in der E-Beleg-Funktionalität verwendet wird.
 
@@ -98,7 +109,11 @@ Gehen Sie wie folgt vor, um den Workflow einzurichten, der in der E-Beleg-Funkti
 > [!NOTE]
 > Sie können Ihren eigenen Workflow für E-Belege erstellen, ohne vordefinierte Workflow-Vorlagen zu verwenden. Wenn Sie mehr Dienste haben, können Sie unterschiedliche Workflows nutzen.
 
-## <a name="set-up-a-retention-policy-for-e-documents"></a>Richten Sie eine Aufbewahrungsrichtlinie für E-Belege ein
+Um weitere Workflows zu nutzen, konfigurieren Sie diese über die Belegsendeprofile für verschiedene Debitoren. Wenn Sie den Workflow einrichten, geben Sie das Belegsendeprofil in der Spalte **Bei Bedingung** auf der Registerkarte **Workflowschritte** an, da Sie nicht über zwei Dienste verfügen können, die dasselbe Belegsendeprofil in Workflows verwenden.
+
+Wenn Sie Ihren Workflow auf der Seite **Workflow** konfigurieren, zeigen Sie auf das Feld **Bei Bedingung** auf dem Inforegister **Workflowschritte**. Wählen Sie auf der Seite **Ereignisbedingungen** im Feld **Filter** das Belegsendeprofil aus, das Sie verwenden möchten.
+
+## Richten Sie eine Aufbewahrungsrichtlinie für E-Belege ein
 
 E-Belege können im Hinblick darauf, wie lange die E-Belege aufbewahrt werden müssen, verschiedenen lokalen Gesetzen unterliegen. Aus diesem Grund haben wir eine Aufbewahrungsrichtlinie für alle wichtigen Informationen im Zusammenhang mit E-Belegen hinzugefügt. Administrierende können Aufbewahrungsrichtlinien festlegen, die bestimmen, wie häufig Dynamics 365 Business Central veraltete Datensätze im Zusammenhang mit E-Belegen gelöscht werden. Weitere Informationen zu Aufbewahrungsrichtlinien finden Sie unter [Aufbewahrungsrichtlinien definieren](admin-data-retention-policies.md).
 
@@ -112,7 +127,7 @@ Führen Sie die folgenden Schritte aus, um Aufbewahrungsrichtlinien für E-Beleg
     - E-Beleg-Zuordnungsprotokoll
     - E-Beleg-Datenspeicherung
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [E-Belege in Business Central verwenden](finance-how-use-edocuments.md)  
 [E-Belege in Business Central erweitern](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)  

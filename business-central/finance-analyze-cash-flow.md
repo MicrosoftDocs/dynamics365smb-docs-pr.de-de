@@ -11,7 +11,7 @@ ms.search.form: '762, 840, 841, 847, 848, 849, 850, 851, 857, 858, 859, 860, 862
 ms.date: 12/20/2021
 ms.author: bholtorf
 ---
-# <a name="analyzing-cash-flow-in-your-company"></a>Analysieren von Cashflow in Ihren Mandanten
+# Analysieren von Cashflow in Ihren Mandanten
 Die Diagramme im Buchhalter-Rollencenter liefern Einblicke, die Ihnen dabei helfen, fundierte Entscheidungen in Bezug auf die Verwendung Ihres Bargelds zu treffen.  
 
 | Um Fragen wie diese zu beantworten | Verwenden Sie dieses Chart |
@@ -36,13 +36,13 @@ Wenn Sie die Planung, zusätzlich zu den Absatzplanungsposten prüfen möchten, 
 * Subtrahiert Verbindlichkeiten und fügt Forderungen hinzu.  
 * Überspringt duplizierte Verkaufsaufträge und Bestellungen.  
 
-## <a name="to-view-a-cash-flow-worksheet"></a>Cashflowarbeitsblattszeile anzeigen
+## Cashflowarbeitsblattszeile anzeigen
 
 1. Suchen Sie nach **Cashflow-Planungen** und wählen Sie dann den zugehörigen Link aus.  
 2. Wählen Sie eine Cashflowplanung, und wählen die **Cashflowarbeitsblatt** Aktion aus.  
 3. Auf der Seite **Cashflow Arbeitsblatt** wählen Sie die Aktion **Vorgeschlagene Arbeitsblattpositionen** aus.  
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Finanzen einrichten](finance-setup-finance.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

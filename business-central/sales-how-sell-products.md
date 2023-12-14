@@ -1,5 +1,5 @@
 ---
-title: Einen Verkaufsauftrag erstellen und Produkte verkaufen
+title: Einen Debitorenauftrag erstellen und Produkte verkaufen
 description: 'Beschreibt, wie Sie einen Verkaufsauftrag erstellen, einen Vertrag mit einem Debitoren erfassen, Produkte unter bestimmten Bedingungen verkaufen oder kaufen.'
 author: brentholtorf
 ms.topic: conceptual
@@ -8,10 +8,10 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 'trade, partial deliveries, customer sales order, shipping advice, partial shipments,'
 ms.search.form: '42, 48, 9305'
-ms.date: 09/02/2022
+ms.date: 11/03/2023
 ms.author: bholtorf
 ---
-# <a name="sell-products-with-a-customer-sales-order"></a>Produkte mit einem Debitorenauftrag verkaufen
+# Produkte mit einem Debitorenauftrag verkaufen
 
 Dieser Artikel bietet Hilfestellungen dazu, wann ein Debitorenauftrag zusätzlich zu einer Rechnung verwendet werden sollte. Wenn der Verkaufsprozess erfordert, dass Sie nur Teile einer Bestellmenge liefern, weil beispielsweise die vollständige Menge nicht sofort verfügbar ist, müssen Sie diesen Verkauf mittels eines Verkaufsauftrags verarbeiten.
 
@@ -19,11 +19,11 @@ Sie müssen auch Verkaufsaufträge verwenden, wenn Sie Artikel als Direktlieferu
 
 Wenn Sie die Produkte teilweise oder gesamthaft liefern, buchen Sie die Verkaufsrechnung oder den Verkaufsauftrag als geliefert oder als geliefert und fakturiert, um den zugehörigen Artikel und die Debitorenposten im System zu erfassen. Wenn Sie den Verkaufsauftrag, können Sie ihn als PDF-Dateianhang auch senden. Sie können den E-Mail-Text mit einer Zusammenfassung des Auftrags und der Zahlungsinformationen, wie ein Link zu PayPal automatisch ausfüllen lassen. Erfahren Sie mehr unter [Artikel versenden](warehouse-how-ship-items.md) und [Dokumente per E-Mail versenden](ui-how-send-documents-email.md).
 
-In Geschäftsumgebungen, wo Debitoren sofort bezahlen, beispielswiese mit PayPal oder Bargeld, wenn eine Zahlung sofort erfasst wird, wenn Sie die Verkaufsrechnung buchen, das heißt die gebuchte Verkaufsrechnung. wird geschlossen als vollständig ausgeglichen. Wählen Sie im Inforegister Zahlungen im Feld **Zahlungsformcode** den entsprechenden Code aus. Siehe dazu auch Schritt 5 unten. Für elektronischen Zahlungsverkehr wie PayPal müssen Sie das Feld **Zahlungsverkehr** ausfüllen. Erfahren Sie mehr unter [Aktivieren von Debitoren-Zahlungen durch Zahlungsverkehr](sales-how-enable-payment-service-extensions.md).
+In Geschäftsumgebungen, wo Debitoren sofort bezahlen, beispielsweise mit PayPal oder bar, wenn eine Zahlung sofort erfasst wird, wenn Sie die Verkaufsrechnung buchen, das heißt die gebuchte Verkaufsrechnung. wird geschlossen als vollständig ausgeglichen. Wählen Sie im Inforegister Zahlungen im Feld **Zahlungsformcode** den entsprechenden Code aus. Siehe dazu auch Schritt 5 unten. Für elektronischen Zahlungsverkehr wie PayPal müssen Sie das Feld **Zahlungsverkehr** ausfüllen. Erfahren Sie mehr unter [Aktivieren von Debitoren-Zahlungen durch Zahlungsverkehr](sales-how-enable-payment-service-extensions.md).
 
-Sie können direkt gezahlte Rechnungen für nicht-registrierte Debitoren auch erstellen, indem Sie eine Bargelddebitoren-Karte einrichten, auf der Sie auf die Verkaufsrechnung hinweisen. Erfahren Sie mehr unter [Bardebitoren einrichten](finance-how-to-set-up-cash-customers.md).
+Sie können direkt gezahlte Rechnungen für nicht registrierte Debitoren auch erstellen, indem Sie eine Bargelddebitoren-Karte einrichten, auf der Sie auf die Verkaufsrechnung hinweisen. Erfahren Sie mehr unter [Bardebitoren einrichten](finance-how-to-set-up-cash-customers.md).
 
-## <a name="create-a-sales-order"></a>Einen Verkaufsauftrag erstellen
+## Einen Verkaufsauftrag erstellen
 
 > [!NOTE]  
 > Beim nachfolgenden Verfahren wird davon ausgegangen aus, dass der Debitor bereits eingerichtet ist. Anweisungen dazu finden Sie unter [Neue Debitoren registrieren](sales-how-register-new-customers.md).
@@ -41,15 +41,15 @@ Sie können direkt gezahlte Rechnungen für nicht-registrierte Debitoren auch er
 
     Sie sind nun bereit, die Verkaufsangebotszeilen mit Lagerartikeln oder Services auszufüllen, die Sie an den Debitoren verkaufen möchten.
 
-    Wenn Sie wiederkehrende Verkaufszeilen für den Debitor wie einen Monatsersatzauftrag, eingerichtet haben, können Sie diese Zeilen auf der Rechnung durch Auswählen der Schaltfläche **Wiederkehrende Verkaufszeilen holen** einfügen.
-5. Wählen Sie auf dem Inforegister **Zeilen** im Feld **Typ** aus, welche Art von Produkt, Gebühr oder Transaktion Sie für den Kunden mit der Verkaufszeile buchen möchten.
+    Wenn Sie wiederkehrende Verkaufszeilen für den Debitor wie einen Monatsersatzauftrag, eingerichtet haben, können Sie diese auf der Rechnung durch Auswählen der Aktion **Wiederkehrende Verkaufszeilen abrufen** einfügen.
+5. Wählen Sie auf dem Inforegister **Zeilen** im Feld **Typ** aus, welche Art von Produkt, Gebühr oder Transaktion Sie für den Debitor mit der Verkaufszeile buchen möchten.
 
 6. Geben Sie im Feld **Nr.** die Nummer eines Lagerartikels oder Dienstes ein.
 
     Sie lassen das **Nr.** Feld leer, wenn die Zeile für Folgendes ist:
 
     * Kommentar. Die Bemerkung im Feld **Beschreibung** enthalten ist.
-    * Katalogartikel. Wählen Sie die Aktion **Katalogartikel auswählen**. Erfahren Sie mehr unter [Mit Katalogelementen arbeiten ](inventory-how-work-nonstock-items.md).
+    * Katalogartikel. Wählen Sie die Aktion **Katalogartikel auswählen**. Erfahren Sie mehr unter [Mit Katalogelementen arbeiten](inventory-how-work-nonstock-items.md).
 7. Geben Sie in dem Feld **Menge** die Anzahl des Artikels an, der verkauft werden soll.
 
     > [!NOTE]  
@@ -60,7 +60,7 @@ Sie können direkt gezahlte Rechnungen für nicht-registrierte Debitoren auch er
     Der Preis und der Zeilenbetrag auf den Verkaufsrechnungszeilen werden mit oder ohne MwSt. angezeigt je nachdem, was Sie im Feld **Preis inklusive Mehrwertsteuer** auf der Debitorenkarte ausgewählt haben.
 8. Geben Sie im Feld **Zeilenrabatt in Prozent** einen Prozentsatz ein, wenn Sie dem Debitor einen Rabatt auf das Produkt gewähren möchten. Der Wert im Feld **Zeilenbetrag** wird entsprechend aktualisiert.
 
-    Wenn Sie bestimmte Artikelpreise für den Debitor auf dem Inforegister **Verkaufspreise und Verkaufspreis-Zeilenrabatte** eingerichtet haben, werden der Preis und der Betrag auf der Rechnungszeile automatisch aktualisiert, wenn die vereinbarten Preiskriterien erfüllt sind. Erfahren Sie mehr unter [Erfassen von Verkaufspreisen, Skonti und Zahlungsvereinbarungen](sales-how-record-sales-price-discount-payment-agreements.md).
+    Wenn Sie bestimmte Artikelpreise für den Debitor auf dem Inforegister **Verkaufspreise und Verkaufspreis-Zeilenrabatte** eingerichtet haben und die vereinbarten Preiskriterien erfüllt sind, werden der Preis und der Betrag auf der Rechnungszeile automatisch aktualisiert. Erfahren Sie mehr unter [Erfassen von Verkaufspreisen, Skonti und Zahlungsvereinbarungen](sales-how-record-sales-price-discount-payment-agreements.md).
 9. Um einen Kommentar zur Bestellzeile hinzuzufügen, den der Debitor auf dem gedruckten Verkaufsauftrag sehen kann, schreiben Sie einen Kommentar in die leere Zeile im Feld **Beschreibung**.  
 10. Wiederholen Sie die Schritte 5 bis 9 für jedes Element, das Sie an den Kunden verkaufen möchten.
 
@@ -73,7 +73,7 @@ Sie können direkt gezahlte Rechnungen für nicht-registrierte Debitoren auch er
 
 11. Optional geben Sie im Feld **Rabattbetrag in Rechnung stellen** einen Betrag ein, der vom Wert abgezogen werden soll, der im Feld **Total inklusive Mehrwertsteuer** im unteren Bereich der Rechnung angezeigt wird.
 
-    Wenn Sie Rechnungsrabatte für den Debitor eingerichtet haben, wird der angegebene Prozentwert automatisch in das Feld **Rechnungsrabatt in Prozent** eingetragen, sobald die Kriterien erfüllt sein, und der entsprechende Betrag wird im Feld **Rechnungsbetrag mit Rabatt ohne Mehrwertsteuer** eingefügt. Erfahren Sie mehr unter [Erfassen von Verkaufspreisen, Skonti und Zahlungsvereinbarungen](sales-how-record-sales-price-discount-payment-agreements.md).
+    Wenn Sie Rechnungsrabatte für den Debitor eingerichtet haben oder die Kriterien erfüllt werden, wird der angegebene Prozentwert automatisch in das Feld **Kreditorenrechnungsrabatt %** eingetragen. Der zugeordnete Betrag wird dann im Feld **Rechnungsbetrag mit Rabatt ohne Mehrwertsteuer** eingefügt. Erfahren Sie mehr unter [Erfassen von Verkaufspreisen, Skonti und Zahlungsvereinbarungen](sales-how-record-sales-price-discount-payment-agreements.md).
 12. Um nur einen Teil der Auftragsmenge zu liefern, geben Sie die Menge im Feld **Menge für Versand** ein. Der Wert wird in das Feld **Zu fakturierende Menge** automatisch kopiert.
 
     > [!NOTE]
@@ -83,15 +83,15 @@ Sie können direkt gezahlte Rechnungen für nicht-registrierte Debitoren auch er
 
 [!INCLUDE [order-ship-invoice](includes/order-ship-invoice.md)]
 
-Das Dialogfeld **Buchungs- und Sendebestätigung** zeigt die gewünschte Methode des Debitors das Empfangen von Belegen an. Sie können die Sendemethode ändern, indem Sie die Schaltfläche vom Feld **Beleg senden an** auswählen. Erfahren Sie mehr unte r[Belegsendeprofile einrichten](sales-how-setup-document-send-profiles.md)
+Das Dialogfeld **Buchungs- und Sendebestätigung** zeigt die gewünschte Methode des Debitors das Empfangen von Belegen an. Sie können die Sendemethode ändern, indem Sie die Schaltfläche vom Feld **Beleg senden an** auswählen. Erfahren Sie mehr unter [Belegsendeprofile einrichten](sales-how-setup-document-send-profiles.md)
 
-Der zugehörige Artikel und die Debitorenposten werden nun im System erfasst erstellt, und das Verkaufsangebot wird als PDF-Dokument ausgegeben. Wenn der Auftrag vollständig gebucht wird, wird er aus der Liste von Verkaufsaufträgen entfernt und durch neue Belege in der Übersicht der gebuchten Verkaufsrechnungen und in der Liste gebuchter Auftragslieferungen ersetzt.  
+Der zugehörige Artikel und die Debitorenposten werden nun im System erfasst erstellt, und das Verkaufsangebot wird als PDF-Dokument ausgegeben. Sobald der Auftrag vollständig gebucht ist, wird er aus der Liste von Verkaufsaufträgen entfernt und durch neue Belege in der Übersicht der Verkaufsrechnungen und Verkaufslieferungen ersetzt.  
 
-## <a name="external-document-number"></a>Externe Belegnummer
+## Externe Belegnummer
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Verkäufe fakturieren](sales-how-invoice-sales.md)  
 [Verkäufe buchen](ui-post-sales.md)  

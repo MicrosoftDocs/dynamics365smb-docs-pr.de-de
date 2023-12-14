@@ -4,29 +4,31 @@ description: 'Die gesamte Übersicht der Tastenkombinationskombinationen, um mit
 author: jswymer
 ms.topic: conceptual
 ms.search.keywords: 'accessibility, shortcuts, keyboarding, keys'
-ms.date: 10/26/2023
+ms.date: 11/13/2023
 ms.author: jswymer
 ms.review: jswymer
 ms.service: dynamics365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="keyboard-shortcuts"></a>Tastenkombinationen
+# Tastenkombinationen
 
 Dieser Artikel gibt einen Überblick über einige der Tastenkombinationen, die Sie nutzen können, wenn Sie mit [!INCLUDE[prod_short](includes/prod_short.md)] arbeiten.
 
-Einen Überblick über die gängigsten Tastenkombinationen finden Sie unter [Tastaturkombinationen (nur PC)](keyboard-shortcuts-cheatsheet.md).
+Einen Überblick über die gängigsten Tastenkombinationen finden Sie unter [Tastenkombinationen (nur PC)](keyboard-shortcuts-cheatsheet.md).
 
 > [!TIP]
 > Für eine grafische Darstellung der am häufigsten verwendeten Tastenkombinationen wählen Sie das folgende Bild und laden Sie die PDF-Datei herunter.  
-> [ ![Symbol für die PDF-Datei.](media/keyboard_shortcut_inline.png) ](media/keyboard_shortcuts.pdf "Symbol zum Öffnen einer PDF")
+> [ ![Symbol für die PDF-Datei.](media/keyboard_shortcut_inline.png) ](media/keyboard-shortcuts-2023.pdf "Symbol zum Öffnen einer PDF")
 
-## <a name="overview"></a>Matrix
 
-Die Tastenkombinationseingabehilfe kann es effizienter und einfacher machen, um zu verschiedenen Bereichen und Elementen auf einer Seite zu navigieren. Sie werden von den meisten Webbrowsern unterstützt; jedoch unterscheiden sich einige davon im Verhalten.
+
+## Matrix
+
+Die Tastenkombinationseingabehilfe kann es effizienter und einfacher machen, um zu verschiedenen Bereichen und Elementen auf einer Seite zu navigieren. Die meisten Webbrowser unterstützen diese Tastenkombinationen, das jeweilige Verhalten kann sich jedoch leicht unterscheiden.
 
 > [!NOTE]
-> Die in diesem Hilfethema beschriebenen Tastenkombinationen beziehen sich auf das US-Tastaturlayout. Möglicherweise entsprechen die Tasten anderer Tastaturlayouts nicht exakt den Tasten auf der US-Tastatur.
+> Die in diesem Hilfethema beschriebenen Tastenkombinationen beziehen sich auf das US-Tastaturlayout. Möglicherweise entsprechen die Tasten anderer Tastaturlayouts nicht exakt denen auf der US-Tastatur.
 
 Die meisten Verknüpfungen sind gleich, unabhängig davon, ob das Betriebssystem Windows oder macOS ist. Einige Verknüpfungen unterscheiden sich jedoch für macOS. Diese Verknüpfungen sind in den folgenden Abschnitten in Klammern angegeben.
 
@@ -36,7 +38,7 @@ Die meisten Verknüpfungen sind gleich, unabhängig davon, ob das Betriebssystem
 > [!NOTE]
 > Zusätzlich zu den in diesem Artikel beschriebenen globalen Tastenkombinationen stehen eine Reihe von geschäftsspezifischen Tastenkombinationen zur Verfügung. In der generischen Version von [!INCLUDE[prod_short](includes/prod_short.md)] Zum Beispiel, bucht <kbd>F9</kbd> einen Beleg und <kbd>STRG</kbd>+<kbd>F7</kbd> zeigt die Finanzbuchungen für einen Datensatz wenn Sie den Datensatz in der Karte öffnen. Dieser Artikel enthält einige der gängigeren geschäftsspezifischen Tastenkombinationen, die in Kursivschrift angezeigt werden. Beachten Sie, dass die tatsächlichen Verknüpfungen in Ihrer Lösung unterschiedlich sein können. In der Benutzeroberfläche wird die Tastenkombination in der QuickInfo für die betreffende Aktion angezeigt.
 
-## <a name="general-keyboard-shortcuts"></a><a name="Keyboard"></a>Allgemeine Tastenkombinationen
+##  <a name="Keyboard"></a> Allgemeine Tastenkombinationen
 
 Die folgende Tabelle beschreibt Tastenkombinationen, um in verschiedenen Elementen zu navigieren und diese aufzurufen. Zu den Elementen gehören Aktionen, Dropdownlisten, Suchvorgänge usw. Details über die Tastenkombinationen zum Navigieren von Datensätzen, wenn Sie innerhalb einer Liste sind, finden Sie im nächsten Abschnitt.
 
@@ -50,35 +52,35 @@ Die folgende Tabelle beschreibt Tastenkombinationen, um in verschiedenen Element
 |<kbd>Alt</kbd>+<kbd>F2</kbd>|Infoboxbereich anzeigen und ausblenden.|
 |<kbd>Alt</kbd>+<kbd>Umschalt</kbd>+<kbd>F2</kbd>|<kbd>Umschalten</kbd> zwischen **Einzelheiten** und **Anhängen** im FactBox-Bereich.|
 |<kbd>Alt</kbd>+<kbd>O</kbd>|Fügen Sie eine neue Notiz für den ausgewählten Datensatz hinzu, auch wenn das FactBox-Fenster nicht geöffnet ist.|
-|<kbd>Alt</kbd>+<kbd>Q</kbd><br /><br />(<kbd>Strg</kbd>+<kbd>Option</kbd>+<kbd>Q</kbd>)|Öffnen Sie das Fenster **Wie möchten Sie weiter verfahren**. Weitere Informationen finden Sie unter [Suchen von Seiten und Informationen mit Wie möchten Sie weiter verfahren](ui-search.md).|
-|<kbd>Strg</kbd>+<kbd>Alt</kbd>+<kbd>Q</kbd><br /><br />(<kbd>Strg</kbd>+<kbd>Option</kbd>+<kbd>Cmd</kbd>+<kbd>Q</kbd>)|Öffnen Sie die Seite **Posten suchen**, um Belege und Posten zu finden, die auf der Grundlage gemeinsamer Informationen wie Belegnummer oder Buchungsdatum miteinander in Beziehung stehen. Weitere Informationen finden Sie unter [Suchen zugehöriger Entitäten für gebuchte Belege](ui-find-entries.md).|
+|<kbd>Alt</kbd>+<kbd>Q</kbd><br /><br />(<kbd>Strg</kbd>+<kbd>Option</kbd>+<kbd>Q</kbd>)|Öffnen Sie das Fenster **Wie möchten Sie weiter verfahren**. Weitere Informationen finden Sie unter [Suchen von Seiten und Informationen mit „Sie wünschen ...“](ui-search.md).|
+|<kbd>Strg</kbd>+<kbd>Alt</kbd>+<kbd>Q</kbd><br /><br />(<kbd>Strg</kbd>+<kbd>Option</kbd>+<kbd>Cmd</kbd>+<kbd>Q</kbd>)|Öffnen Sie die Seite **Posten suchen**, um Belege und Posten zu finden, die auf der Grundlage gemeinsamer Informationen wie Belegnummer oder Buchungsdatum miteinander in Beziehung stehen. Weitere Informationen finden Sie unter [Suchen zugehöriger Entitäten für gebuchte Belege](ui-find-entries.md)|
 |<kbd>Alt</kbd>+<kbd>N</kbd> |Öffnen Sie eine Seite, um einen neuen Datensatz zu erstellen. (Ähnlich wie bei der Auswahl der **Neu** und **+** Aktionen.)|
 |<kbd>Alt</kbd>+<kbd>Umschalt</kbd>+<kbd>N</kbd> |Schließen Sie eine neu erstellte Seite und öffnen Sie eine neue, um einen neuen Datensatz zu erstellen. Ebenso bucht <kbd>Alt</kbd>+<kbd>F9</kbd> einen Beleg und erstellt ein neues.|
 |<kbd>Alt</kbd>+<kbd>T</kbd>|Öffnen der Seite **Meine Einstellungen**.|
 |<kbd>Alt</kbd>+<kbd>Nach-rechts-Taste</kbd>|Nachschlagen zusätzlicher Informationen oder zugrunde liegender Werte für ein Feld, das die ![Bearbeitungshilfe.](media/assist-edit-icon.png "AssistEdit-Schaltfläche") Schaltfläche enthält. Wird verwendet, wenn die übliche Dropdown-Schaltfläche (<kbd>Alt</kbd>+<kbd>Abwärtspfeil</kbd>) im selben Feld für einen anderen Zweck verwendet wird.|
-|<kbd>Strg</kbd>+<kbd>Alt</kbd>+<kbd>Umschalttaste</kbd>+<kbd>C</kbd>|Informationen in der Unternehmenskennzeichnung anzeigen. Diese Verknüpfung wurde in Business Central 2022 Veröffentlichungszyklus 2 (Version 21) eingestellt und wird nicht mehr unterstützt. Sie wurde durch <kbd>Strg</kbd>+<kbd>O</kbd> ersetzt. |
+|<kbd>Strg</kbd>+<kbd>Alt</kbd>+<kbd>Umschalttaste</kbd>+<kbd>C</kbd>|Informationen in der Unternehmenskennzeichnung anzeigen. Seit Business Central 2022 Veröffentlichungszyklus 2 (Version 21) wird diese Tastenkombination nicht mehr unterstützt und wurde durch <kbd>Strg</kbd>+<kbd>O</kbd> ersetzt. |
 |<kbd>Strg</kbd>+<kbd>Alt</kbd>+<kbd>F1</kbd>|Öffnen und schließen Sie den Seitenüberprüfungsbereich. Der Seitenüberprüfungsbereich zeigt Informationen zur Seite, wie deren Herkunftstabelle, Felder, Filter, Erweiterungen und mehr.<br /><br />Weitere Informationen finden Sie unter [Überprüfen von Seiten](across-inspect-page.md).|
-|<kbd>Strg</kbd>+<kbd>C</kbd> |Den Wert des Felds kopieren. Wenn das Feld im Fokus liegt und Sie keinen Text in diesem Feld ausgewählt haben, wird hierdurch der gesamten Wert kopiert. Wenn Sie Text in diesem Feld ausgewählt haben, wird nur der markierte Text kopiert.|
+|<kbd>Strg</kbd>+<kbd>C</kbd> |Den Wert des Felds kopieren. Wenn das Feld im Fokus liegt und der Text in diesem Feld nicht ausgewählt ist, wird der gesamte Wert kopiert. Wenn Sie Text in diesem Feld auswählen, wird nur der markierte Text kopiert.|
 |<kbd>Strg</kbd>+<kbd>F1</kbd>|Öffnet je nach Business Central-Version den [Hilfebereich](product-help-and-support.md#help-pane) oder einen Business Central-Hilfeartikel zu [Microsoft Learn](/dynamics365/business-central/), je nach Business Central-Version.|
 |<kbd>Strg</kbd>+<kbd>F12</kbd>|Wechseln Sie zwischen der breiten und schmalen Layout-Ansicht.|
-|<kbd>Strg</kbd>+Klick|Navigieren Sie während der Personalisierung oder Anpassung, wenn die Aktion mit einer Pfeilspitze markiert ist. Weitere Informationen finden Sie unter [Personalisieren Sie Ihren Arbeitsbereich](ui-personalization-user.md).|  
+|<kbd>Strg</kbd> + Auswahl|Navigieren Sie während der Personalisierung oder Anpassung, wenn die Aktion mit einer Pfeilspitze markiert ist. Weitere Informationen finden Sie unter [Personalisieren Sie Ihren Arbeitsplatz](ui-personalization-user.md).|  
 |<kbd>Strg</kbd>+<kbd>F5</kbd>|[!INCLUDE[prod_short](includes/prod_short.md)] Anwendung neu laden. (Dies ist gleich, wie Browser aktualisieren/neu laden.)|
-|<kbd>F5</kbd>|Aktualisieren Sie die Daten der aktuellen Seite.<br /><br />Verwenden Sie diesen Schlüssel, um sicherzustellen, dass sich die Daten aus der Seite mit sämtlichen Änderungen auf dem neuesten Stand befinden, die andere vorgenommen haben, während Sie arbeiten.|
+|<kbd>F5</kbd>|Aktualisieren Sie die Daten der aktuellen Seite.<br /><br />Verwenden Sie diese Taste, um sicherzustellen, dass die Seite mit sämtlichen Änderungen aktualisiert wird, die andere vorgenommen haben, während Sie arbeiten.|
 |<kbd>Strg</kbd>+<kbd>O</kbd>|Öffnen Sie **Verfügbare Unternehmen** zum Wechseln zu einem anderen Unternehmen oder einer anderen Umgebung. Weitere Informationen finden Sie unter [Wechseln zu einem anderen Unternehmen oder einer anderen Umgebung](ui-organization-switch.md).|
-|<kbd>EINGABE</kbd>|Das Element aktivieren oder darauf zugreifen oder steuern, das im Fokus liegt.|
+|<kbd>Eingabe</kbd>|Das Element aktivieren oder darauf zugreifen oder steuern, das im Fokus liegt.|
 |<kbd>Esc</kbd>|Schließen Sie die aktuelle Seite oder die Dropdownliste.|
 |<kbd>Register</kbd>|Verschieben Sie den Fokus auf die folgende oder vorherige Steuerung oder das Element auf einer Seite wie Schaltflächen, Felder oder Artikel in einer Liste.|
 |<kbd>UMSCHALT</kbd>+<kbd>TAB</kbd>|Verschieben Sie den Fokus auf die folgende oder vorherige Steuerung oder das Element auf einer Seite wie Schaltflächen, Felder oder Artikel in einer Liste.|
 |<kbd>J</kbd> und <kbd>N</kbd>|Aktivieren Sie die **Ja**- und **Nein**-Schaltflächen in Dialogfeldern. Die tatsächlichen Schlüssel variieren je nachdem, welche aktuelle Sprache unter **Meine Einstellungen** festgelegt ist. Wählen Sie beispielsweise <kbd>J</kbd>, um die Schaltfläche **Ja** zu aktivieren, wenn Sie die deutsche Sprache verwenden.|
 
-## <a name="keyboard-shortcuts-in-lists"></a>Tastenkombinationen in Listen
+## Tastenkombinationen in Listen
 
 Die folgende Tabelle beschreibt Tastenkombinationen, die Sie auf einer Listenseite verwenden können. Die Verknüpfungsaktion ist abhängig davon, ob die Seite in der Listenansicht oder der Kachelansicht mit nebeneinander angeordnet Fenstern angezeigt wird.
 <!--
 > [!Note]
 > In the table that follows, the term *actionable field* refers to a field on which you can do something, like change a value or link to another page. In general, the shortcuts will skip over fields that display information that you cannot change from the list (in other words, fields that are read-only).
 -->
-### <a name="general"></a>Allgemein
+### Allgemein
 
 |Wählen Sie diese Tasten aus<br />(in Mac Os)|Um dies in einer Listenansicht zu tun|Um dies in einer Kachelansicht zu tun |
 |--------------------------------|-------------------------|--------------------------|
@@ -94,7 +96,7 @@ Die folgende Tabelle beschreibt Tastenkombinationen, die Sie auf einer Listensei
 |<kbd>Umschalttaste</kbd>+<kbd>Strg</kbd>+<kbd>F</kbd>|Senden Sie vorgeschlagene Zeilen an die Seite **Cashflow-Arbeitsblatt**.|Nicht anwendbar.|
 |<kbd>Umschalttaste</kbd>+<kbd>Strg</kbd>+<kbd>I</kbd>|Zeigen Sie dem Positionsartikel im Beleg oder Buch.-Blatt zugewiesene Seriennummern und Chargennummern an, oder bearbeitet diese.|Nicht anwendbar.|
 
-### <a name="navigate-between-rows-and-columns"></a><a name="navigateshortcuts"></a>Navigieren Sie zwischen Zeilen und Spalten
+### <a name="navigateshortcuts"></a>Navigieren Sie zwischen Zeilen und Spalten
 
 Raster mit Zeilen und Spalten existieren auf vielen Seitentypen in [!INCLUDE[prod_short](includes/prod_short.md)], wie z.B. Listenseiten und **Zeilen** Teilen auf Dokumenten. Die Bewegung von einer Zelle zur anderen über ein Raster ist vollständig über die Tastatur möglich.
 
@@ -115,12 +117,12 @@ Raster mit Zeilen und Spalten existieren auf vielen Seitentypen in [!INCLUDE[pro
 | <kbd>Tab</kbd> | Navigieren Sie in einer schreibgeschützten Liste in derselben Zeile zum nächsten Feld rechts. | Nicht anwendbar. | 
 | <kbd>UMSCHALT</kbd>+<kbd>TAB</kbd> | Navigieren zur gleichen Zeile im vorherigen bearbeitbaren Feld links. | Nicht anwendbar. |
 
-### <a name="select-copy-and-paste"></a><a name="CopyRows"></a>Auswählen, Kopieren und Einfügen
+### <a name="CopyRows"></a>Auswählen, Kopieren und Einfügen
 
 |Wählen Sie diese Tasten aus<br />(in Mac Os)|Um dies in einer Listenansicht zu tun |Um dies in einer Kachelansicht zu tun |
 |--------------------------------|--------------------------|--------------------------|
-|<kbd>Strg</kbd>+Klick<br /><br />(<kbd>Cmd</kbd>+Klick)|Erweitern Sie die Auswahl von Zeilen, um die Zeile einzuschließen, die Sie anklicken.|Nicht anwendbar.|
-|<kbd>Umschalt</kbd>+Klick|Erweitern Sie die Auswahl von Zeilen, um die Zeile einzuschließen, die Sie anklicken und alle Zeilen dazwischen.<br /><br />Sie können dieses verwenden, nachdem Sie <kbd>STRG</kbd>+<kbd>NACH-OBEN-TASTE</kbd> oder <kbd>STRG</kbd>+<kbd> NACH-UNTEN-TASTE</kbd> verwendet haben, um Ihre Auswahl zu erweitern.|Nicht anwendbar.|
+|<kbd>Strg</kbd> + Auswahl<br /><br />(<kbd>Cmd</kbd> + Auswahl)|Erweitern Sie die Auswahl von Zeilen, um die Zeile einzuschließen, die Sie auswählen.|Nicht anwendbar.|
+|<kbd>Umschalttaste</kbd> + Auswahl|Erweitern Sie die Auswahl von Zeilen, um die Zeile einzuschließen, die Sie auswählen und alle Zeilen dazwischen.<br /><br />Sie können dieses verwenden, nachdem Sie <kbd>STRG</kbd>+<kbd>NACH-OBEN-TASTE</kbd> oder <kbd>STRG</kbd>+<kbd> NACH-UNTEN-TASTE</kbd> verwendet haben, um Ihre Auswahl zu erweitern.|Nicht anwendbar.|
 |<kbd>STRG</kbd>+<kbd>NACH-OBEN-TASTE</kbd><br /><br />(<kbd>STRG</kbd>+<kbd>Cmd</kbd>+<kbd>NACH-OBEN-TASTE</kbd>)|Verschieben Sie den Fokus auf die Zeile darüber und halten Sie die aktuelle Zeile ausgewählt.|Nicht anwendbar.|
 |<kbd>STRG</kbd>+<kbd>NACH-UNTEN-TASTE</kbd><br /><br />(<kbd>STRG</kbd>+<kbd>CMD</kbd>+<kbd>NACH-UNTEN-TASTE</kbd>)|Verschieben Sie den Fokus auf die Zeile darunter und halten Sie die aktuelle Zeile ausgewählt.|Nicht anwendbar.|
 |<kbd>STRG</kbd>+<kbd>LEERTASTE</kbd><br /><br />(<kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+Space)|Erweitern Sie die Auswahl von Zeilen, um die fokussierte Zeile einzuschließen.<br /><br />Sie können dieses verwenden, nachdem Sie <kbd>STRG</kbd>+<kbd>NACH-OBEN-TASTE</kbd> oder <kbd>STRG</kbd>+<kbd>NACH-UNTEN-TASTE</kbd> verwendet haben, um Ihre Auswahl zu erweitern.|Nicht anwendbar.|
@@ -133,19 +135,19 @@ Raster mit Zeilen und Spalten existieren auf vielen Seitentypen in [!INCLUDE[pro
 |<kbd>Umschalttaste</kbd>+<kbd>Seite nach Unten</kbd><br /><br />(<kbd>Umschalt</kbd>+<kbd>Fn</kbd>+<kbd>Pfeil nach unten</kbd>)|Erweitern Sie die Auswahl von Zeilen, um sichtbare Zeilen unter der aktuellen Auswahl von Zeilen zu berücksichtigen.|Nicht anwendbar.|
 |<kbd>F8</kbd>|Kopieren Sie das Feld in der gleichen Spalte der Zeile oben, und fügen Sie es in die aktuelle Zeile ein. Sie können dies nur in bearbeitbaren Listen tun. Mit dieser Tastenkombination, gefolgt von <kbd>TAB</kbd>, können Sie schnell Felder in Zeilenartikeln füllen, die denselben Wert haben wie die Reihe darüber.|Nicht anwendbar.|
 
-### <a name="search-and-filter-lists"></a><a name="KeyboardFilter"></a>Listen suchen und filtern
+### <a name="KeyboardFilter"></a>Listen suchen und filtern
 
 |Wählen Sie diese Tasten aus<br />(in Mac Os)|Vorgehensweise|
 |--------------------------------|----------|
 |<kbd>F3</kbd>|Schaltet das Suchenfeld um.<ul><li>Aktivieren Sie das Suchfeld, sodass Sie die Eingabe des Suchtexts starten.</li><li>Wenn das Suchenfeld bereits aktiviert ist, kehrt <kbd>F3</kbd> zu der Liste zurück, ohne den Suchentext zu löschen.</li><ul>|
-|<kbd>Umschalt</kbd>+<kbd>F3</kbd>|Öffnen und schließen Sie den Filterbereich.<ul><li> Wenn der Filterbereich nicht geöffnet ist, kann er mit <kbd>UMSCHALT</kbd>+<kbd>F3</kbd> geöffnet werden und konzentriert sich auf die Aktion **+ Filter** unter **Filterliste nach**. Sie können dann einfach die <kbd>EINGABETASTE</kbd> drücken, um einen Feldfilter hinzuzufügen.</li><li>Falls der Filterbereich bereits geöffnet ist, kann er mit <kbd>UMSCHALT</kbd>+<kbd>F3</kbd> geschlossen werden, es werden jedoch keine Filter gelöscht, die Sie hinzugefügt haben.</li></ul>|
-|<kbd>Strg</kbd>+<kbd>Umschalt</kbd>+<kbd>F3</kbd>|Öffnen und schließen Sie den Filterbereich.<ul><li> Wenn der Filterbereich nicht geöffnet ist, kann er mit <kbd>STRG</kbd>+<kbd>UMSCHALT</kbd>+<kbd>F3</kbd> geöffnet werden und konzentriert sich auf die Aktion **+ Filter** unter **Summen filtern nach**. Sie können dann einfach die <kbd>EINGABETASTE</kbd> drücken, um einen Summenfilter hinzuzufügen.</li><li>Falls der Filterbereich bereits geöffnet ist, kann er mit <kbd>STRG</kbd>+<kbd>UMSCHALT</kbd>+<kbd>F3</kbd> geschlossen werden, es werden jedoch keine Filter gelöscht, die Sie hinzugefügt haben.</li></ul>  |
+|<kbd>Umschalt</kbd>+<kbd>F3</kbd>|Öffnen und schließen Sie den Filterbereich.<ul><li> Wenn der Filterbereich nicht geöffnet ist, kann er mit <kbd>UMSCHALT</kbd>+<kbd>F3</kbd> geöffnet werden und konzentriert sich auf die Aktion **+ Filter** unter **Filterliste nach**. Sie können dann einfach die <kbd>EINGABETASTE</kbd> drücken, um einen Feldfilter hinzuzufügen.</li><li>Falls der Filterbereich bereits geöffnet ist, kann er mit <kbd>Umschalttaste</kbd>+<kbd>F3</kbd> geschlossen werden, es werden jedoch keine Filter gelöscht, die Sie hinzugefügt haben.</li></ul>|
+|<kbd>Strg</kbd>+<kbd>Umschalt</kbd>+<kbd>F3</kbd>|Öffnen und schließen Sie den Filterbereich.<ul><li> Wenn der Filterbereich nicht geöffnet ist, kann er mit <kbd>STRG</kbd>+<kbd>UMSCHALT</kbd>+<kbd>F3</kbd> geöffnet werden und konzentriert sich auf die Aktion **+ Filter** unter **Summen filtern nach**. Sie können dann einfach die <kbd>EINGABETASTE</kbd> drücken, um einen Summenfilter hinzuzufügen.</li><li>Falls der Filterbereich bereits geöffnet ist, kann er mit <kbd>Strg</kbd>+<kbd>Umschalttaste</kbd>+<kbd>F3</kbd> geschlossen werden, es werden jedoch keine Filter gelöscht, die Sie hinzugefügt haben.</li></ul>  |
 |<kbd>Alt</kbd>+<kbd>F3</kbd>|Wechseln Sie die Filterung zum ausgewählten Wert.<ul><li>Übernimmt einen Spaltenfilter im ausgewählten Feldwert in der Liste. Dieses ist identisch mit **Filter mit diesem Wert** von einer Spaltenüberschrift. Es wird der Filterbereich geöffnet, Datensätze gefiltert, während der Fokus auf den Zellen in der Liste bleibt.</li><li>Wenn die Spalte bereits nach dem gefiltert wird, löscht <kbd>ALT</kbd>+<kbd>F3</kbd> den Filter in der Spalte.</li></ul> |
 |<kbd>Umschalt</kbd>+<kbd>Alt</kbd>+<kbd>F3</kbd>|Öffnen Sie den Filterbereich und fügen Sie einen Filter für die ausgewählte Spalte in der Liste hinzu. Der Fokus liegt auf dem neuen Filterfeld, mit dem Sie die Filterkriterien sofort eingeben können.<br /><br /> Dieses ist identisch mit, **Filter** aus der Spaltenüberschrift.<br /><br />Wenn es bereits einen Filter in diesem Feld gibt, wird ein neuer Filter hinzugefügt. |
 |<kbd>Strg</kbd>+<kbd>Umschalt</kbd>+<kbd>Alt</kbd>+<kbd>F3</kbd>|Filter zurücksetzen. Dieses ist identisch mit, **Rücksetzungsfilter** im Filterbereich ", und es trifft auf Feld und Gesamtfilter zu.<br /><br /> Filter kehren zu den Standardfiltern für die geltende Ansicht zurück. Wenn **Alle** die aktuelle Ansicht, gleicht der Rückkehr zu einer ungefilterten Ansicht mit allen Datensätzen. |
 |<kbd>Strg</kbd>+<kbd>Eingabetaste</kbd>|Ändern Sie den Fokus des Filterbereichs zurück zur Liste.|
 
-## <a name="keyboard-shortcuts-in-cards-and-documents"></a>Tastenkombinationen in Karten und Belegen
+## Tastenkombinationen in Karten und Belegen
 
 Folgende Tastenkombinationen sind auf Kartenseiten wie **Debitorenkarte** und Belegseiten wie **Verkaufsauftrag** zum Anzeigen und Änderungen von Datensätzen verfügbar.
 
@@ -174,9 +176,9 @@ Folgende Tastenkombinationen sind auf Kartenseiten wie **Debitorenkarte** und Be
 |<kbd>Shift</kbd>+<kbd>F9</kbd>|Veröffentlichen und drucken Sie ein Dokument.|
 |<kbd>Umschalt</kbd>+<kbd>F11</kbd>|Ausgleichen von Posten, Abrufen von Herkunftsbelegen oder Abrufen von Lagerbelegen.|
 
-## <a name="quick-entry-shortcuts-for-fields"></a><a name="QuickEntry"></a>Tastenkombinationen der Schnelleingabe für Felder
+## <a name="QuickEntry"></a>Tastenkombinationen der Schnelleingabe für Felder
 
-Folgende Verknüpfungen gehören zur Schnelleingabefunktion auf Karten, Belegen und Listenseiten. Auf Listen können die Verknüpfungen nicht verwendet werden, wenn die Liste in der Kachelansicht angezeigt werden. Weitere Informationen über Schnelleingabe finden Sie unter [Beschleunigende der Dateneingabe mithilfe von Schnelleingabe](ui-enter-data.md#QuickEntry) schnellen Posten.
+Folgende Verknüpfungen gehören zur Schnelleingabefunktion auf Karten, Belegen und Listenseiten. Auf Listen können die Verknüpfungen nicht verwendet werden, wenn die Liste in der Kachelansicht angezeigt werden. Weitere Informationen über Schnelleingabe finden Sie unter [Beschleunigung der Dateneingabe mithilfe von Schnelleingabe](ui-enter-data.md#QuickEntry) schnellen Posten.
 
 |Wählen Sie diese Tasten aus<br />(in Mac Os)|Vorgehensweise|Bemerkungen|
 |--------------------------------|----------|-------|
@@ -184,7 +186,7 @@ Folgende Verknüpfungen gehören zur Schnelleingabefunktion auf Karten, Belegen 
 |<kbd>Umschalt</kbd>+<kbd>Eingabe</kbd>|Bestätigen Sie den Wert im aktuellen Feld und wechseln Sie zum vorherigen Schnelleingabefeld.||
 |<kbd>Strg</kbd>+<kbd>Umschalt</kbd>+<kbd>Eingabetaste</kbd>|Bestätigen Sie den Wert in der aktuellen Spalte und wechseln Sie zum nächsten Schnelleingabefeld außerhalb der Liste.<br /><br />Dieses Tastenkürzel gilt für eingebettete Listen auf einer Seite wie Positionsartikel in einem Verkaufsauftrags. Damit gelangen Sie schnell aus Listen und können die Dateneingabe in anderen Feldern der Seite fortsetzen.|
 
-## <a name="keyboard-shortcuts-in-the-calendar-date-picker"></a><a name="calendarshortcuts"></a>Tastenkombinationen im Kalender (Datumsauswahl)
+## <a name="calendarshortcuts"></a> Tastenkombinationen im Kalender (Datumsauswahl)
 
 Wenn Sie ein Datumsfeld festlegen, können Sie entweder das Datum manuell eingeben oder festlegen oder einen Kalender (Datumsauswahl) öffnen, in dem Sie das Datum auswählen können Sie, das Sie möchten. Die folgende Tabelle beschreibt die Tastenkombinationen für den Kalender.
 
@@ -202,14 +204,14 @@ Wenn Sie ein Datumsfeld festlegen, können Sie entweder das Datum manuell eingeb
 |<kbd>Seite nach unten</kbd>|Navigieren zum nächsten Monat.|
 |<kbd>Seite nach oben</kbd>|Navigieren zum vorherigen Monat.|  
 
-## <a name="keyboard-shortcuts-in-date-fields"></a>Tastenkombinationen in Datumsfeldern
+## Tastenkombinationen in Datumsfeldern
 
 |Wählen Sie diese Tasten aus<br />(in Mac Os)|Vorgehensweise|
 |--------------------------------|----------|
 |<kbd>h</kbd>|Geben Sie das aktuelle Datum ein. „T“ bedeutet „heute“.|
 |<kbd>a</kbd>|Geben Sie das Arbeitsdatum ein. Weitere Informationen finden Sie unter [Arbeitsdatum](ui-change-basic-settings.md#work-date)|
 
-## <a name="keyboard-shortcuts-in-the-report-preview"></a><a name="reportpreviewshortcuts"></a>Tastenkombinationen in der Berichtsvorschau
+## <a name="reportpreviewshortcuts"></a>Tastenkombinationen in der Berichtsvorschau
 
 |Wählen Sie diese Tasten aus<br />(in Mac Os)|Vorgehensweise|
 |--------------------------------|----------|
@@ -223,7 +225,7 @@ Wenn Sie ein Datumsfeld festlegen, können Sie entweder das Datum manuell eingeb
 |<kbd>Seite nach unten</kbd><br /><br />(<kbd>Fn</kbd>+<kbd>NACH-UNTEN-TASTE</kbd>)|Zur nächsten Seite des Berichts wechseln.|
 |<kbd>Seite nach oben</kbd><br /><br />(<kbd>Fn</kbd>+<kbd>NACH-OBEN-TASTE</kbd>)|Zur vorherigen Seite des Berichts wechseln.|
 
-## <a name="keyboard-shortcuts-for-zooming-in-and-out"></a><a name="zoomshortcuts"></a>Tastaturkürzel zum Vergrößern und Verkleinern
+## <a name="zoomshortcuts"></a>Tastaturkürzel zum Vergrößern und Verkleinern
 
 |Wählen Sie diese Tasten aus|Vorgehensweise|
 |--------------------------------|----------|
@@ -231,7 +233,7 @@ Wenn Sie ein Datumsfeld festlegen, können Sie entweder das Datum manuell eingeb
 |<kbd>Strg</kbd>+<kbd>-</kbd>|Verkleinern Sie die aktuelle Seite.|  
 |<kbd>Strg</kbd>+<kbd>0</kbd>|Vergrößern Sie die aktuelle Seite auf 100 %.|  
 
-## <a name="keyboard-shortcuts-for-role-explorer"></a><a name="roleexplorer"></a>Tastaturkürzel für den Rollen-Explorer
+## <a name="roleexplorer"></a>Tastaturkürzel für den Rollen-Explorer
 
 Der Rollen-Explorer bietet Ihnen einen Überblick und schnellen Zugriff auf alle Geschäftsfunktionen, die für Ihre Rolle verfügbar sind. Weitere Informationen finden Sie unter [Suchen von Seiten mit dem Rollen-Explorer](ui-role-explorer.md).
 
@@ -243,7 +245,7 @@ Der Rollen-Explorer bietet Ihnen einen Überblick und schnellen Zugriff auf alle
 |<kbd>Umschalttaste</kbd> <kbd>F3</kbd> oder <kbd>Strg</kbd>+<kbd>Aufwärtspfeil</kbd>|Verschiebt den Fokus auf das vorherige gefundene Feature im Rollen-Explorer.|
 |<kbd>Strg</kbd>+<kbd>Umschalt</kbd>|Erweitern oder reduzieren Sie alle Unterknoten zusätzlich zu den Knoten der obersten Ebene, wenn Sie die Aktion **Erweitern** oder **Reduzieren** auswählen.|
 
-## <a name="numeric-keypad-shortcuts"></a><a name="keypad"></a>Tastenkombinationen für den Ziffernblock
+##  <a name="keypad"></a> Tastenkombinationen für den Ziffernblock
 
 In der folgenden Tabelle werden die Tastenkombinationen auf einem numerischen Tastenfeld beschrieben.
 
@@ -252,9 +254,9 @@ In der folgenden Tabelle werden die Tastenkombinationen auf einem numerischen Ta
 |<kbd>ALT</kbd>+<kbd>Dezimaltrennzeichen</kbd>|Schalten Sie die Ausgabe der Dezimaltrenntaste entweder auf einen Punkt (.) oder das durch die festgelegte **Region**-Einstellung der **Meine Einstellungen** Seite Zeichen um. Weitere Informationen finden Sie unter [Festlegen des Dezimaltrennzeichens, das von numerischen Tastaturen verwendet wird](ui-enter-data.md#decimal).|
 
 
-## <a name="access-keys-for-action-bar-and-navigation-menu"></a>Zugriffstasten für Aktionsleiste und Navigationsmenü
+## Zugriffstasten für Aktionsleiste und Navigationsmenü
 
-Zugriffstasten sind Tastenkombinationen, die bestimmte Aktionen in der Aktionsleiste und im Navigationsmenü auswählen, sodass Sie durch Aktionen navigieren können, um zur gewünschten Seite zu gelangen. Zugriffsschlüssel sind im Business Central-Webclient verfügbar und ähneln den Zugriffsschlüsseln in Excel und Word Online.  
+Zugriffsschlüssel sind Tastaturkombinationen, mit denen bestimmte Aktionen in der Aktionsleiste und im Navigationsmenü ausgewählt werden können. Sie können durch Aktionen navigieren, um zur gewünschten Seite zu gelangen. Zugriffsschlüssel sind im Business Central-Webclient verfügbar und ähneln den Zugriffsschlüsseln in Excel und Word Online.  
 
 Um Zugriffstasten auf einer Seite zu verwenden, drücken Sie zuerst die <kbd>Alt</kbd> Taste, um *Tastentipps* anzuzeigen, die aus Buchstaben in kleinen Kästchen neben den Aktionen in der Aktionsleiste und im Navigationsmenü bestehen. 
 
@@ -264,14 +266,14 @@ Um eine Aktion auszuwählen, wählen Sie die im Tastentipp angezeigte Tastenkomb
 - Wenn die Aktion ein Untermenü mit anderen Aktionen öffnet, werden die Tastentipps für das Untermenü angezeigt, sodass Sie die Zugriffstasten weiterhin verwenden können, wenn Sie möchten.
 - Wenn die Aktion eine andere Seite öffnet, sind wichtige Tipps deaktiviert. Um sie wieder anzuzeigen, drücken Sie die <kbd>Alt</kbd> Taste. 
  
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
-[Tastatur-Kurzreferenz - nur PC](keyboard-shortcuts-cheatsheet.md)  
+[Tastatur-Kurzübersicht – nur PC](keyboard-shortcuts-cheatsheet.md)  
 [Assistive Funktionen](ui-accessibility.md)  
-[Vorbereiten auf die Geschäftsabwicklung](ui-get-ready-business.md)  
+[Einsatzbereit in wenigen Schritten](ui-get-ready-business.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Häufig gestellte Fragen](across-faq.yml)  
-[Posten finden](ui-find-entries.md)  
+[Posten suchen](ui-find-entries.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

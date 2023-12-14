@@ -8,16 +8,16 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 'bill, sale, invoice, order'
 ms.search.form: '43, 48, 9301'
-ms.date: 09/11/2023
+ms.date: 11/01/2023
 ms.author: bholtorf
 ---
-# <a name="invoice-sales"></a>Verkäufe fakturieren
+# Verkäufe fakturieren
 
 Sie erstellen entweder eine Verkaufsrechnung oder eine Bestellung, um Ihre Vereinbarung mit dem Debitoren zu erfassen, um bestimmte Produkte unter speziellen Liefer- und Zahlungsbedingungen zu verkaufen.  
 
 Sie müssen jedoch einen Verkaufsauftrag anstelle einer Verkaufsrechnung verwenden, wenn Sie:  
 
-* Nur einen Teil einer Bestellmenge liefern müssen, da z. B. die gesamte Menge nicht verfügbar ist.  
+* Nur einen Teil einer Bestellmenge liefern müssen, da z. B. die gesamte Menge nicht verfügbar ist.  
 * Produkte versenden, nachdem Sie die entsprechenden Verkaufsrechnungen gebucht haben.
 * Artikel verkaufen, die Ihr Kreditor direkt an den Debitor liefert, d. h. bei einer sogenannten Direktlieferung. Erfahren Sie mehr unter [Direktlieferungen machen](sales-how-drop-shipment.md).  
 
@@ -25,7 +25,7 @@ In allen anderen Situationen ist das Vorgehen bei Verkaufsaufträgen gleich wie 
 
 Sie können mit dem Debitor verhandeln, indem Sie zuerst ein Verkaufsangebot erstellen, das Sie in eine Verkaufsrechnung umwandeln können, wenn Sie dem Verkauf zustimmen. Erfahren Sie mehr unter [Verkaufsangebote machen](sales-how-make-offers.md).
 
-## <a name="create-sales-invoices"></a>Verkaufsrechnung erstellen
+## Verkaufsrechnung erstellen
 
 Wenn der Debitor entscheidet zu kaufen, senden Sie die Verkaufsrechnung, um die entsprechende Menge und die Wertposten zu erstellen. Wenn Sie die Verkaufsrechnung buchen, können Sie sie als PDF-Dateianhang auch senden. Sie können den E-Mail-Text haben, der mit einer Zusammenfassung der Rechnung und der Zahlungsinformationen, wie ein Link zu PayPal, vorab ausgefüllt wurde. Erfahren Sie mehr unter [Artikel versenden und Dokumente per E-Mail versenden](ui-how-send-documents-email.md). Wenn der Debitor die Rechnung gezahlt hat, können Sie die Zahlung auf verschiedene Arten ausführen, abhängig von der Größe und dem gewünschten Workflow der Organisation. Erfahren Sie mehr unter [Registrierung von Zahlungen](#register-payments) Sektion.  
 
@@ -33,7 +33,7 @@ Artikelkarten können einen **Bestand**, **Service** und **Nicht-Bestand** haben
 
 Sie können die oberen Infoboxen des Verkaufsangebotes auf zwei Arten ausfüllen, abhängig davon, ob der Debitor bereits registriert ist. Siehe Schritt 2 im folgenden Verfahren.
 
-### <a name="to-create-a-sales-invoice"></a>So erstellen Sie eine Verkaufsrechnung
+### So erstellen Sie eine Verkaufsrechnung
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren") Symbol. Geben Sie **Verkaufsrechnungen** ein und wählen Sie dann den zugehörigen Link.  
 2. Geben Sie in das Feld **Kundenname** den Namen eines bestehenden Kunden ein. Wenn der Kunde jedoch neu und daher nicht registriert ist, befolgen Sie diese Schritte, um die Standardkundeninformationen auf der Seote **Verkaufsrechnung** auszufüllen:
@@ -42,7 +42,7 @@ Sie können die oberen Infoboxen des Verkaufsangebotes auf zwei Arten ausfüllen
     2. Klicken Sie im Dialogfeld auf **OK**, um die Übertragung zu bestätigen.
     3. Auf der Seite **Eine Vorlage für einen neuen Debitor auswählen** wählen Sie eine Vorlage, auf der die neue Debitorenkarte basieren soll, und dann wählen Sie **OK**.
     4. Eine neue Debitorenkarte wird geöffnet, vorausgefüllt mit Informationen auf der ausgewählten Debitorenvorlage. Füllen Sie die restlichen Felder aus. Erfahren Sie mehr unter [Registrieren Sie neue Debitoren](sales-how-register-new-customers.md).  
-    5. Wenn Sie die Debitorenkarte abgeschlossen haben, wählen Sie die Schaltfläche **Schließen**, um zur Seite **Verkaufsrechnung** zurückzugehen.
+    5. Wenn Sie mit der Debitorenkarte fertig sind, wählen Sie die Schaltfläche **Schließen**, um zur Seite **Verkaufsrechnung** zurückzugehen.
 
    Felder im Verkaufsrechnungskopf werden mit den Informationen, die Sie festgelegt haben, in der neuen Debitorenkarte ausgefüllt.  
 3. Füllen Sie auf der Seite **Verkaufsrechnung** die Felder wie benötigt aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -60,7 +60,7 @@ Sie können die oberen Infoboxen des Verkaufsangebotes auf zwei Arten ausfüllen
     Sie lassen das **Nr.** Feld in folgenden Fällen leer:
 
     * Wenn die Zeile für einen Kommentar ist. Die Bemerkung im Feld **Beschreibung** enthalten ist.
-    * Wenn die Zeile für einen Katalogartikel ist. Wählen Sie die Aktion **Katalogartikel auswählen**. Erfahren Sie mehr unter [Mit Katalogelementen arbeiten ](inventory-how-work-nonstock-items.md).
+    * Wenn die Zeile für einen Katalogartikel ist. Wählen Sie die Aktion **Katalogartikel auswählen**. Erfahren Sie mehr unter [Mit Katalogelementen arbeiten](inventory-how-work-nonstock-items.md).
 
 6. Geben Sie im Feld **Menge** ein, wie viele Einheiten des Produkts, der Kosten oder der Transaktion, in der Zeile des Debitors gespeichert werden soll.  
 
@@ -72,7 +72,7 @@ Sie können die oberen Infoboxen des Verkaufsangebotes auf zwei Arten ausfüllen
     Der Preis und der Zeilenbetrag auf den Verkaufsrechnungszeilen werden mit oder ohne MwSt. angezeigt je nachdem, was Sie im Feld **Preis inklusive Mehrwertsteuer** auf der Debitorenkarte ausgewählt haben.  
 7. Wenn Sie Skonto gewähren möchten, geben Sie einen Prozentsatz im Feld **Zeilenrabatt %** ein. Der Wert im Feld **Zeilenbetrag** wird entsprechend aktualisiert.  
 
-    Wenn Sie bestimmte Artikelpreise für den Debitor auf dem Inforegister **Verkaufspreise und Verkaufspreis-Zeilenrabatte** eingerichtet haben, werden der Preis und der Betrag auf der Rechnungszeile automatisch aktualisiert, wenn die vereinbarten Preiskriterien erfüllt sind. Erfahren Sie mehr unter [Erfassen von Verkaufspreisen, Skonti und Zahlungsvereinbarungen](sales-how-record-sales-price-discount-payment-agreements.md).  
+    Wenn Sie bestimmte Artikelpreise für den Debitor auf dem Inforegister **Verkaufspreise und Verkaufspreis-Zeilenrabatte** eingerichtet haben und die vereinbarten Preiskriterien erfüllt sind, werden der Preis und der Betrag auf der Rechnungszeile automatisch aktualisiert. Erfahren Sie mehr unter [Erfassen von Verkaufspreisen, Skonti und Zahlungsvereinbarungen](sales-how-record-sales-price-discount-payment-agreements.md).  
 8. Wiederholen Sie die Schritte 4 bis 7 für jedes Produkt oder jede Gebühr, die Sie an den Debitoren verkaufen möchten.
 
     Die Summenfelder unter den Positionen werden automatisch aktualisiert, wenn Sie Positionen erstellen oder ändern, um die Beträge anzuzeigen, die auf die Sachkonten gebucht werden.
@@ -86,42 +86,42 @@ Sie können die oberen Infoboxen des Verkaufsangebotes auf zwei Arten ausfüllen
 
 10. Wenn die Verkaufsrechnungszeilen ausgeführt werden, wählen Sie die Aktion **Buchen und Senden** aus.  
 
-Das Dialogfeld **Buchungs- und Sendebestätigung** zeigt die gewünschte Methode des Debitors das Empfangen von Belegen an. Sie können die Sendemethode ändern, indem Sie die Schaltfläche vom Feld **Beleg senden an** auswählen. Erfahren Sie mehr unte r[Belegsendeprofile einrichten](sales-how-setup-document-send-profiles.md)
+Das Dialogfeld **Buchungs- und Sendebestätigung** zeigt die gewünschte Methode des Debitors das Empfangen von Belegen an. Sie können die Sendemethode ändern, indem Sie die Schaltfläche vom Feld **Beleg senden an** auswählen. Erfahren Sie mehr unter [Belegsendeprofile einrichten](sales-how-setup-document-send-profiles.md)
 
 Der zugehörige Artikel und die Debitorenposten werden nun im System erfasst erstellt, und die Verkaufsrechnung wird als PDF-Dokument ausgegeben. Die Verkaufsrechnung wird in der Liste der gebuchten Verkaufsrechnungen entfernt und durch einen neuen Beleg in der Liste der gebuchten Verkaufsrechnungen ersetzt.  
 
-### <a name="calculate-invoice-discounts-on-sales"></a>Rechnungsrabatte bei Verkäufen berechnen
+### Rechnungsrabatte bei Verkäufen berechnen
 
 [!INCLUDE [sales-invoice-discounts](includes/sales-invoice-discounts.md)]
 
-## <a name="posted-invoices"></a>Mit gebuchten Rechnungen
+## Mit gebuchten Rechnungen
 
 [!INCLUDE [posted-invoices](includes/posted-invoices.md)]
 
-Sie können eine gebuchte Verkaufsrechnung einfach korrigieren oder stornieren, bevor sie bezahlt wird. Dies ist nützlich, wenn Sie einen Tippfehler korrigieren möchten, oder wenn der Debitor eine Änderung früh im Bestellvorgang anfordert. Weitere Informationen finden Sie unter [Ändern oder Löschen einer unbezahlten Verkaufsrechnung](sales-how-correct-cancel-sales-invoice.md). Wenn die gebuchte Verkaufsrechnung bezahlt ist, müssen Sie eine Verkaufsgutschrift erstellen, um den Verkauf zu stornieren. Weitere Informationen finden Sie unter [Verarbeiten einer Verkaufsrücklieferung oder von Stornierungen](sales-how-process-sales-returns-cancellations.md).  
+Sie können vor der abschließenden Zahlung eine gebuchte Verkaufsrechnung einfach korrigieren oder stornieren. Dies ist nützlich, wenn Sie einen Tippfehler korrigieren möchten, oder wenn der Debitor eine Änderung früh im Bestellvorgang anfordert. Weitere Informationen finden Sie unter [Ändern oder Löschen einer unbezahlten Verkaufsrechnung](sales-how-correct-cancel-sales-invoice.md). Wenn die gebuchte Verkaufsrechnung bezahlt ist, müssen Sie eine Verkaufsgutschrift erstellen, um den Verkauf zu stornieren. Weitere Informationen finden Sie unter [Verarbeiten einer Verkaufsrücklieferung oder von Stornierungen](sales-how-process-sales-returns-cancellations.md).  
 
 [Die Liste **Gebuchte Verkaufsrechnungen** öffnen](https://businesscentral.dynamics.com/?page=143) in [!INCLUDE [prod_short](includes/prod_short.md)].
 
-## <a name="register-payments"></a>Zahlungen registrieren
+## Zahlungen registrieren
 
 Abhängig von den Unternehmensanforderungen können Sie bezahlt werden und die Zahlung auf unterschiedliche Arten erfassen: automatisch und durch Zahlungsverkehr.  
 
 Sie können Zahlungen direkt auf der Debitorenkarte verarbeiten. Verwenden Sie die Aktion **Debitorenzahlungen registrieren**, um eine Übersicht nicht geleisteten Rechnungen für diesen Debitor zu erhalten. Dann markieren Sie die Rechnung, als teilweise oder vollständig bezahlt. Verarbeitet die Zahlungen Ihrer Debitoren, indem die auf Ihrem Konto eingegangenen Beträge den entsprechenden unbezahlten Verkaufsrechnungen zugeordnet und anschließend die Zahlungen gebucht werden. Weitere Informationen finden Sie unter [Zahlungen individuell abstimmen](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md#to-register-customer-payments-individually).  
 
-Im Geschäftsumgebungen, in denen der Debitor einige Zeit nach der Lieferung bezahlt entsprechend der Zahlungsbedingungen, verbleibt eine offene (unbezahlte) Verkaufsrechnung bis die Debitorenabteilung überprüft, dass die Zahlung erfolgt ist und die Zahlung der gebuchten Verkaufsrechnung ausgeglichen ist. Der Text kann manuell oder automatisch eingefügt werden. Weitere Informationen finden Sie unter [Abstimmen von Debitoren-Zahlungen mit dem Zahlungseingangs Buch.-Blatt oder von Debitorenposten](receivables-how-apply-sales-transactions-manually.md) und [Zahlungen mit automatischem Ausgleich abstimmen](receivables-how-reconcile-payments-auto-application.md).  
+In Unternehmensumgebungen, in denen der Debitor einige Zeit nach der Lieferung bezahlt. Laut der Zahlungsbedingungen verbleibt eine offene (unbezahlte) Verkaufsrechnung bis die Debitorenbuchhaltung bestätigt, dass die Zahlung erfolgt ist und die gebuchte Verkaufsrechnung ausgeglichen ist. Der Text kann manuell oder automatisch eingefügt werden. Weitere Informationen finden Sie unter [Abstimmen von Debitoren-Zahlungen mit dem Zahlungseingangs Buch.-Blatt oder von Debitorenposten](receivables-how-apply-sales-transactions-manually.md) und [Zahlungen mit automatischem Ausgleich abstimmen](receivables-how-reconcile-payments-auto-application.md).  
 
-In Geschäftsumgebungen, wo Debitoren sofort bezahlen, beispielswiese mit PayPal oder Bargeld, wenn eine Zahlung sofort erfasst wird, wenn Sie die Verkaufsrechnung buchen, das heißt die gebuchte Verkaufsrechnung. wird geschlossen als vollständig ausgeglichen. Wählen Sie im Inforegister Zahlungen im Feld **Zahlungsformcode** den entsprechenden Code aus. Für elektronischen Zahlungsverkehr wie PayPal müssen Sie das Feld **Zahlungsverkehr** ausfüllen. Erfahren Sie mehr unter [Aktivieren von Debitoren-Zahlungen durch Zahlungsverkehr](sales-how-enable-payment-service-extensions.md).
+In Geschäftsumgebungen, wo Debitoren sofort bezahlen, beispielsweise mit PayPal oder bar, wenn eine Zahlung sofort erfasst wird, wenn Sie die Verkaufsrechnung buchen, das heißt die gebuchte Verkaufsrechnung. wird geschlossen als vollständig ausgeglichen. Wählen Sie im Inforegister Zahlungen im Feld **Zahlungsformcode** den entsprechenden Code aus. Für elektronischen Zahlungsverkehr wie PayPal müssen Sie das Feld **Zahlungsverkehr** ausfüllen. Erfahren Sie mehr unter [Aktivieren von Debitoren-Zahlungen durch Zahlungsverkehr](sales-how-enable-payment-service-extensions.md).
 
-Sie können direkt gezahlte Rechnungen für nicht-registrierte Debitoren auch erstellen, indem Sie eine Bargelddebitoren-Karte für sie einrichten, auf der Sie auf die Verkaufsrechnung hinweisen. Erfahren Sie mehr unter [Bardebitoren einrichten](finance-how-to-set-up-cash-customers.md).  
+Sie können direkt gezahlte Rechnungen für nicht registrierte Debitoren auch erstellen, indem Sie eine Bargelddebitoren-Karte für sie einrichten, auf der Sie auf die Verkaufsrechnung hinweisen. Erfahren Sie mehr unter [Bardebitoren einrichten](finance-how-to-set-up-cash-customers.md).  
 
 > [!TIP]
 > Wenn Sie Ihren Kunden Erinnerungen an überfällige Zahlungen senden möchten, müssen Sie Erinnerungsstufen und -bedingungen einrichten. Weitere Informationen finden Sie unter [Einrichten von Mahnmethoden, Bestimmungen und Mahntext](finance-setup-reminders.md)  
 
-## <a name="external-document-numbers"></a>Externe Belegnummern
+## Externe Belegnummern
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Verkauf](sales-manage-sales.md)  
 [Einrichten von Verkäufen](sales-setup-sales.md)  

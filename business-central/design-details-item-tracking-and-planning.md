@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/08/2021
 ms.author: bholtorf
 ---
-# <a name="design-details-item-tracking-and-planning"></a>Designdetails: Artikelverfolgung und Planung
+# Designdetails: Artikelverfolgung und Planung
 Da sie im Reservierungssystem gespeichert werden, werden Artikelverfolgungsnummern vollständig mit Auftragsnachverfolgungsdatensätzen abgestimmt. Dies bedeutet, dass Artikel mit Auftragsnachverfolgungsdatensätzen Artikelnachverfolgungsnummern zugeordnet werden können. Andererseits können Artikel, die Artikelverfolgungsnummern haben, zu Auftragsnachverfolgungsdatensätzen werden. Weitere Informationen finden Sie unter [Designdetails: Artikelverfolgungsdesign](design-details-item-tracking-design.md).
 
 Weitere Informationen zu den integrierten Systemen finden Sie unter [Designdetails: Reservierungen, Auftragsnachverfolgung und Aktionsmeldungen](design-details-reservation-order-tracking-and-action-messaging.md).
@@ -35,7 +35,7 @@ Für Artikel, die eine bestimmte Artikelverfolgung verwenden, müssen alle Bedar
 
 Weitere Informationen finden Sie unter [Designdetails: Übertragung in der Planung](design-details-transfers-in-planning.md)
 
-## <a name="balancing-demand-and-supply"></a>Ausgleich von Bedarf und Vorrat
+## Ausgleich von Bedarf und Vorrat
 Wenn ein Artikel eine bestimmte Artikelverfolgung erfordert, dann wird ein Auftragsnachverfolgungslink aus allen Verfolgungsbedarfen des Artikels zu allen entsprechenden Artikelverfolgungsvorräten erstellt, mit der einzigen Einschränkung, dass der Vorrat vor dem Bedarf kommen muss. Wenn unter diesen Umständen kein Artikelverfolgungsvorrat gefunden werden kann, der dem nachverfolgungsspezifischen Bedarf des Artikels entspricht, wird sofort neuer Nachverfolgungsvorrat ohne Berücksichtigung der Bestellmenge, Planungsparameter oder Neuplanung für vorhandenen Vorrat derselben Serien- oder Chargennummer erstellt.
 
 Wenn Artikelverfolgungsnummern auf der Bedarfsseite oder auf der Vorratsseite zugewiesen werden, ohne dass eine bestimmte Artikelverfolgung erforderlich ist, dann wird ein Auftragsnachverfolgungslink von dem Bedarf zu diesem Vorrat erstellt, basierend auf dem passendsten Timing und der geeignetsten Menge, wie im normalen Ausgleichsverfahren. Die angegebene Artikelverfolgungsnummer geht in den Auftragsnachverfolgungsdatensatz in der gleichen Weise ein, wie eine angegebene Artikelnachverfolgungsmenge ein Ende des Auftragsnachverfolgungslinks definiert. Das bedeutet, dass die Artikelverfolgungsnummer, die eingetragen wird, beibehalten wird, während sie auch Teil des Bedarfsverursacherdatensatzes ist.
@@ -44,7 +44,7 @@ Wenn Artikelverfolgungsnummern auf der Vorratsseite zugeordnet werden, ohne dass
 
 Weitere Informationen finden Sie unter [Designdetails: Ausgleich von Bedarf und Vorrat](design-details-balancing-demand-and-supply.md)  
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch  
 [Designdetails: Artikelverfolgungsdesign](design-details-item-tracking-design.md)  
 [Designdetails: Ausgleich von Bedarf und Vorrat](design-details-balancing-demand-and-supply.md)  
 [Designdetails: Reservierung, Auftragsnachverfolgung und Aktionsmeldungen](design-details-reservation-order-tracking-and-action-messaging.md)   

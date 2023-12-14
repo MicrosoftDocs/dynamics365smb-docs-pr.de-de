@@ -1,22 +1,23 @@
 ---
 title: 'Finanzbuchhaltungseinrichtungs-Informationen drucken [DE]'
-description: 'Bevor Sie die deutsche Version von Business Central verwenden, können Sie den Bericht Fibu Einr.-Informationen ausführen, um die Stammdaten anzuzeigen, die Sie festgelegt haben.'
+description: 'Bevor Sie die deutsche Version von Business Central verwenden, können Sie den Bericht „Fibu Einr.-Informationen“ ausführen, um die Stammdaten anzuzeigen, die Sie festgelegt haben.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: null
-ms.date: 06/25/2021
+ms.date: 11/24/2023
 ms.author: bholtorf
 ---
-# <a name="print-general-ledger-setup-information-in-the-german-version"></a>Finanzbuchhaltungseinrichtungs-Informationen in der deutschen Version drucken
 
-Bevor Sie [!INCLUDE[prod_short](../../includes/prod_short.md)] im täglichen Geschäft verwenden können, können Sie **Finanzbuchhaltungseinrichtungs-Informationen** ausführen, um die Stammdaten anzuzeigen, die Sie eingerichtet haben. Sie können diese Stammdaten durchgehen, sodass Sie eine Grundlage für den Vergleich haben und dann überprüfen können, ob Sie die Buchungsgruppen korrekt eingerichtet haben.  
+# Finanzbuchhaltungseinrichtungs-Informationen in der deutschen Version drucken
 
-## <a name="to-print-general-ledger-setup-information"></a>Gewusst wie: Drucken von Finanzbuchhaltungs-Setupinformationen
+Bevor Sie [!INCLUDE[prod_short](../../includes/prod_short.md)] im Alltagsgeschäft verwenden können, können Sie **Finanzbuchhaltungseinrichtungs-Informationen** ausführen, um die Stammdaten anzuzeigen, die Sie eingerichtet haben. Sie können diese Stammdaten durchgehen, sodass Sie eine Grundlage für den Vergleich haben und dann überprüfen können, ob Sie die Buchungsgruppen korrekt eingerichtet haben.  
 
-1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](../../media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen") Symbol. Geben Sie **Fibu Einr.-Informationen** ein, und wählen Sie dann den entsprechenden Link.  
+## Gewusst wie: Drucken von Finanzbuchhaltungs-Setupinformationen  
+
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](../../media/ui-search/search_small.png "Wie möchten Sie weiter verfahren") Symbol. Geben Sie **Fibu Einr.-Informationen** ein, und wählen Sie dann den entsprechenden Link.  
 2.  Füllen Sie im Stapelverarbeitungsauftrag **Optionen** im Inforegister **Einrichtdungsinformationen** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 
     |Option|Description|  
@@ -30,7 +31,7 @@ Bevor Sie [!INCLUDE[prod_short](../../includes/prod_short.md)] im täglichen Ges
 
 3.  Wählen Sie die Schaltfläche **Drucken** aus, um den Bericht zu drucken, oder die Schaltfläche **Vorschau**, um den Bericht auf dem Bildschirm anzuzeigen.  
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch  
 [Finance einrichten](../../finance-setup-finance.md)
 
 

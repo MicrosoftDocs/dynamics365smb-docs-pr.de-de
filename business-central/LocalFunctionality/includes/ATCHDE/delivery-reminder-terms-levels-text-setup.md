@@ -1,19 +1,19 @@
 ---
 author: brentholtorf
 ms.topic: include
-ms.date: 04/01/2021
+ms.date: 11/07/2023
 ms.author: bholtorf
 ---
 
-Um Lieferbenachrichtigung zu erstellen, müssen Sie Folgendes einrichten:  
+Um Lieferanmahnungen zu erstellen, müssen Sie die folgenden Voraussetzungen einrichten:  
 
 - Lieferbenachrichtigungsbestimmungen  
 - Lieferbenachrichtigungsstufen  
 - Lieferbenachrichtigungstextnachrichten  
 
-Jede Lieferbenachrichtigungsmethode verfügt über eigene Lieferbenachrichtigungsstufen, und Sie können für jede der Lieferbenachrichtigungsstufe spezielle Lieferbenachrichtigungstexte definieren.  
+Jede Lieferanmahnungsmethode verfügt über eigene Lieferanmanungsstufen, und Sie können für jede der Lieferanmahnungsstufe spezielle Lieferanmahnungstexte definieren.  
 
-## <a name="to-set-up-delivery-reminder-terms"></a>Einrichten von Lieferbenachrichtigungsmethoden
+## Einrichten von Lieferbenachrichtigungsmethoden  
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](../../../media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie den **Lieferanmahnungsmethodenmethodencode** ein und wählen Sie dann den entsprechenden Link.  
 2. Wählen Sie die Aktion **Neu** aus.  
@@ -23,11 +23,11 @@ Jede Lieferbenachrichtigungsmethode verfügt über eigene Lieferbenachrichtigung
     |---------------------------------|---------------------------------------|  
     |**Code**|Der Code für das Fälligkeitsdatum der Lieferbenachrichtigung. Sie können maximal 10 alphanumerische Zeichen eingeben.|  
     |**Beschreibung**|Die Beschreibung für die Lieferbenachrichtigungsmethode. Sie können maximal 30 alphanumerische Zeichen eingeben.|  
-    |**Max. Anzahl Lieferbenachrichtigungen**|Gibt die maximale Anzahl von Lieferbenachrichtigungen an, die für eine Bestellung erstellt werden kann.<br /><br /> **HINWEIS:** Dies ist die maximale Anzahl über alle Mahnstufen hinweg für diese Anmahnungsmethode. Wenn Sie beispielsweise drei Stufen eingerichtet haben, und Sie **Max. Anzahl Lieferbenachrichtigungen** auf 5 festlegen, wird die erste Mahnung mit Stufe 1, die zweite mit Stufe 2 und die letzten drei mit Stufe 3 erstellt.|  
+    |**Max. Anzahl Lieferbenachrichtigungen**|Gibt die maximale Anzahl von Lieferbenachrichtigungen an, die für eine Bestellung erstellt werden kann.<br /><br /> **HINWEIS:** Dies ist die maximale Anzahl über alle Mahnstufen hinweg für diese Anmahnungsmethode. Wenn Sie beispielsweise drei Stufen eingerichtet haben, und Sie **Max. Anzahl Lieferanmahnungen** auf 5 festlegen, wird die erste Mahnung mit Stufe 1, die zweite mit Stufe 2 und die letzten drei mit Stufe 3 erstellt.|  
 
 4. Wählen Sie die Schaltfläche **OK** aus.  
 
-## <a name="to-add-delivery-reminder-levels-to-a-delivery-reminder-term"></a>So richten Sie Lieferanmahnungsstufen für Lieferanmahnungsmethoden ein
+## So richten Sie Lieferanmahnungsstufen für Lieferanmahnungsmethoden ein  
 
 1. Klicken Sie auf der Seite **Lieferbenachrichtigungsbestimmungen** in die Zeile mit der Methode, für die Sie Stufen anlegen möchten, und wählen Sie dann die Aktion **Stufen**.  
 2. Wählen Sie die Aktion **Neu** aus.  
@@ -44,7 +44,7 @@ Für jede Lieferbenachrichtigungsstufe kann eine Textnachricht definiert werden,
 
 Nachfolgend wird beschrieben, wie Vortextnachrichten eingerichtet werde. Aber dieselben Schritte gelten auch für das Einrichten von Nachtextnachrichten.  
 
-## <a name="to-set-up-delivery-reminder-text-messages"></a>Lieferbenachrichtigungstextnachrichten einrichten
+## Lieferbenachrichtigungstextnachrichten einrichten  
 
 1. Auf der Seite **Lieferbenachrichtigungsstufen** wählen Sie eine Ebene, und wählen die Aktion **Vortext** aus.  
 2. Wählen Sie die Aktion **Neu** aus.  

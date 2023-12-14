@@ -10,23 +10,23 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.custom: bap-template
 ---
-# <a name="accountant-experiences-in-"></a>Buchhalter-Erfahrung in [!INCLUDE[prod_long](includes/prod_long.md)]
+# Buchhalter-Erfahrung in [!INCLUDE[prod_long](includes/prod_long.md)]
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
 Jedes Unternehmens muss seine Bücher führen und die Buchhaltung genehmigen. Einige Unternehmen verwenden einen externen Buchhalter, und andere haben einen Buchhalter als Mitarbeiter. Unabhängig von der Art des Buchhalters, den Sie sind, können sie das **Buchhalter**-Rollencenter als Startbildschirm in [!INCLUDE[prod_short](includes/prod_short.md)] verwenden. Von hier können Sie auf alle Seiten zugreifen, die Sie in Ihrer Arbeit benötigen.  
 
-## <a name="accountant-role-center"></a>Buchhalter-Rollencenter
+## Buchhalter-Rollencenter
 
 Das Rollencenter bildet ein Dashboard mit Aktivitätskacheln, die Ihnen Echtzeitkennzahlen anzeigen und Ihnen Zugriff auf die Daten geben. Im oberen Seitenbereich im Menüband haben Sie Zugriff auf weitere Aktionen wie das Öffnen der häufig verwendeten Finanzberichte und Kontoauszüge in Excel. Im Navigationsbereich links können Sie schnell zwischen den Listen wechseln, die Sie häufig verwenden. Hier finden Sie weitere Bereiche, wie **Gebuchte Belege** mit den verschiedenen Belegarten, die der Mandant gebucht hat.  
 
 Wenn Sie neu sind bei [!INCLUDE[prod_short](includes/prod_short.md)] können Sie eine Liste der Videos starten direkt von Ihrem Rollencenter aus. Sie können auch **Erste Schritte** starten, die die Schlüsselbereiche unterstreichen.  
 
-## <a name="company-hub"></a>Unternehmens-Hub
+## Unternehmens-Hub
 
 Wenn Sie in mehreren [!INCLUDE [prod_short](includes/prod_short.md)]-Unternehmen arbeiten, könnte es nützlich sein, die Seite **Unternehmens-Hub** zu verwenden, um den Überblick über die Arbeit zu behalten.  Weitere Informationen finden Sie unter [Arbeit über mehrere Unternehmen hinweg im Unternehmens-Hub verwalten](company-hub.md).  
 
-## <a name="inviting-your-external-accountant-to-your-"></a><a name="inviteaccountant"></a>Ihren externen Buchhalter einladen zu Ihrem [!INCLUDE[prod_short](includes/prod_short.md)]
+## <a name="inviteaccountant"></a>Ihren externen Buchhalter einladen zu Ihrem [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Wenn Sie einen externen Buchhalter verwenden, um Ihre Bücher und Finanzberichterstattung zu verwalten, kann Ihr Administrator sie für Ihr [!INCLUDE[prod_short](includes/prod_short.md)] einladen, damit sie mit Ihnen an Ihren steuerlichen Daten arbeiten. [!INCLUDE[prod_short](includes/prod_short.md)] enthält drei Lizenzen des Typs „Externer Buchhalter“. Weitere Informationen über die Lizenzierung können Sie unter [Microsoft Dynamics 365 Business Central Lizenzleitfaden](https://go.microsoft.com/fwlink/?LinkId=866544) herunterladen.
 
@@ -46,11 +46,11 @@ In der neuesten Version von machen wir es Ihnen ganz einfach, Ihren externen Buc
 >
 > Diese Aufgabe erfordert den Zugriff auf die Verwaltung von Benutzern und Lizenzen in Microsoft Entra-ID. Dem Benutzer, der diese Einladung sendet, muss die Rolle **Globaler Administrator** oder **Benutzeradministrator** im Microsoft 365 Admin Center zugewiesen werden. Weitere Informationen finden Sie unter [Informationen zu Administratorrollen](/microsoft-365/admin/add-users/about-admin-roles) im Microsoft 365-Administratorinhalt.  
 
-### <a name="adding-your-accountant-to-your-microsoft-365-in-the-azure-portal"></a>Hinzufügen Ihres Buchhalters zu Ihrem Microsoft 365 im Azure-Portal
+### Hinzufügen Ihres Buchhalters zu Ihrem Microsoft 365 im Azure-Portal
 
 Wenn Ihr Administrator oder Wiederverkäufer die Anleitung **Externen Buchhalter einladen** nicht verwenden möchten, können sie im Azure-Portal einen externen Benutzer hinzufügen und diesem Benutzer die Lizenz *Externer Buchhalter* zuweisen. Weitere Informationen finden Sie unter [Schnellstart: Ihrem Verzeichnis im Azure-Portal Gastbenutzer hinzufügen](/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal).
 
-#### <a name="to-add-your-accountant-as-a-guest-user"></a>So fügen Sie Ihren Buchhalter als Gastbenutzer hinzu
+#### So fügen Sie Ihren Buchhalter als Gastbenutzer hinzu
 
 1. Öffne Sie das [Azure-Portal](https://portal.azure.com/).
 2. Wählen Sie im linken Bereich **Microsoft Entra ID**.
@@ -65,7 +65,7 @@ Wenn Ihr Administrator oder Wiederverkäufer die Anleitung **Externen Buchhalter
 
 Als Nächstes müssen Sie dem neuen Gastbenutzer eine Lizenz für [!INCLUDE[prod_short](includes/prod_short.md)] zuweisen.
 
-#### <a name="to-give-your-accountant-access-to-your-"></a>So geben Sie Ihrem Buchhalter Zugriff auf Ihre [!INCLUDE[prod_short](includes/prod_short.md)]
+#### So geben Sie Ihrem Buchhalter Zugriff auf Ihre [!INCLUDE[prod_short](includes/prod_short.md)]
 
 1. Wählen Sie im Azure-Portal für den neu hinzugefügten Benutzer **Profil** und dann Sie **Bearbeiten** aus
 2. Aktualisieren Sie die Feld **Verbrauchsort** auf das entsprechende Land bzw. die entsprechende Region, und wählen Sie dann **Speichern** aus.
@@ -79,11 +79,11 @@ Als Nächstes müssen Sie dem neuen Gastbenutzer eine Lizenz für [!INCLUDE[prod
 
 Bei Erfolg wird dem Gastbenutzer die Lizenz zugewiesen und das Gastkonto wird erstellt.
 
-### <a name="importing-the-new-user-into-"></a>Importieren des neuen Benutzers in [!INCLUDE[prod_short](includes/prod_short.md)]
+### Importieren des neuen Benutzers in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Der Buchhalter erhält eine E-Mail, in der er darüber informiert wird, dass er Zugriff auf Ihr Microsoft Entra-ID erhalten hat. Als Nächstes müssen Sie ihnen Zugriff auf das richtige Unternehmen in [!INCLUDE[prod_short](includes/prod_short.md)] gewähren.
 
-#### <a name="to-add-the-accountant-to-the-right-company"></a>Hinzufügen des Buchhalters zum richtigen Unternehmen
+#### Hinzufügen des Buchhalters zum richtigen Unternehmen
 
 1. Öffnen Sie das [!INCLUDE[prod_short](includes/prod_short.md)]-Unternehmen, auf die Sie dem Buchhalter Zugriff gewähren möchten unter [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com).
 2. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren") Symbol. Geben Sie **Benutzer** ein, und wählen Sie dann den entsprechenden Link.  
@@ -93,7 +93,7 @@ Dadurch wird das Benutzerkonto, das Sie im Azure-Portal erstellt haben, in das U
 
 Wenn Sie mehreren Unternehmen Zugriff gewähren möchten, müssen Sie sich bei jedem Unternehmen anmelden und diesen Vorgang wiederholen. Alternativ können Sie die Berechtigungsgruppen für das Benutzerprofil des Buchhalters in [!INCLUDE[prod_short](includes/prod_short.md)] aktualisieren, wie das Zuweisen der *D365 Bus Premium*-Benutzergruppe. Weitere Informationen finden Sie unter [Berechtigungen an Benutzer und Gruppen zuweisen](ui-define-granular-permissions.md).  
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Finanzen](finance.md)  
 [Finanzen einrichten](finance-setup-finance.md)  
