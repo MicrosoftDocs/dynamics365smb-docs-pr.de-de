@@ -9,7 +9,7 @@ ms.search.form: '1210, 1211, 1213, 1214, 1215, 1216, 1217'
 ms.date: 11/03/2022
 ms.author: bholtorf
 ---
-# Richten Sie Datenaustauschdefinitionen ein.
+# <a name="set-up-data-exchange-definitions"></a>Richten Sie Datenaustauschdefinitionen ein.
 
 Sie können [!INCLUDE[prod_short](includes/prod_short.md)] festlegen, um Daten in bestimmten Tabellen mit Daten in externen Dateien auszutauschen. Zum Beispiel, um elektronische Belege zu senden und zu empfangen, Bankdaten oder andere Daten wie Gehaltsabrechnungen und Artikelkataloge zu importieren und zu exportieren. Erfahren Sie mehr unter [Elektronischer Datenaustausch](across-data-exchange.md).  
 
@@ -26,14 +26,14 @@ Dieser Artikel enthält die folgenden Verfahren:
 * Exportieren Sie eine Datenaustauschdefinition als XML-Datei zur Verwendung durch andere.
 * Importieren Sie eine XML-Datei für eine bestehende Datenaustauschdefinition.
 
-## Erstellen Sie eine Datenaustauschdefinition
+## <a name="create-a-data-exchange-definition"></a>Erstellen Sie eine Datenaustauschdefinition
 
 Das Erstellen einer Datenaustauschdefinition beinhaltet zwei Aufgaben:  
 
 1. Auf der Seite **Datenaustauschdefinition** beschreiben Sie die Formatierung aus Zeilen und Spalten in der Datei. Erfahren Sie mehr im Abschnitt [Sie beschreiben die Formatierung von Zeilen und Spalten in der Datei](#formatlinescolumns).  
 2. Auf der Seite **Wechselkurszuordnungs** ordnen Sie Spalten in der Datendatei Feldern in [!INCLUDE[prod_short](includes/prod_short.md)] zu. Erfahren Sie mehr im Abschnitt [So ordnen Sie Spalten in der Datendatei den Feldern im Abschnitt [!INCLUDE[prod_short](includes/prod_short.md)]](#mapfields) zu.  
 
-### <a name=formatlinescolumns></a>Um die Formatierung von Zeilen und Spalten in der Datei zu beschreiben
+### <a name="to-describe-the-formatting-of-lines-and-columns-in-the-file"></a><a name=formatlinescolumns></a>Um die Formatierung von Zeilen und Spalten in der Datei zu beschreiben
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion 1.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") öffnet. Symbol, geben Sie **Datenaustauschdefinitionen** ein und wählen Sie dann den entsprechenden Link.  
 2. Wählen Sie die Aktion **Neu**.  
@@ -108,7 +108,7 @@ Der nächste Schritt bei der Erstellung einer Datenaustauschdefinition besteht d
 > [!NOTE]  
 > Die spezielle Zuordnung hängt vom Geschäftszweck der Datendatei ab, die ausgetauscht werden soll, sowie von lokalen Variationen. Selbst der SEPA-Bankstandard verfügt über lokale Variationen. [!INCLUDE[prod_short](includes/prod_short.md)] Stützimport von SEPA Bankkontoauszug CAMT archiviert Out\-of\-the\-Box. Dies wird durch den **SEPA CAMT**-Datenaustausch-Definitionsdatensatzcode auf der Seite **Datenaustauschdefintion** angezeigt. Informationen über die bestimmte Feldzuordnung dieser SEPA CAMT Unterstützung, siehe. [Feld-Zuordnung, wenn sie SEPA CAMT Dateien importieren](across-field-mapping-when-importing-sepa-camt-files.md).  
 
-### <a name=mapfields></a>Zur Zuordnung von Spalten in der Datendatei zu Feldern in [!INCLUDE[prod_short](includes/prod_short.md)]
+### <a name="to-map-columns-in-the-data-file-to-fields-in-"></a><a name=mapfields></a>Zur Zuordnung von Spalten in der Datendatei zu Feldern in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 > [!TIP]
 > Manchmal sind die Werte in den Feldern, die Sie zuordnen möchten, unterschiedlich. In einer App für Unternehmen lautet der Sprachcode für die Vereinigten Staaten zum Beispiel „U.S.“, in einer anderen jedoch „US.“ Das heißt, Sie müssen den Wert beim Datenaustausch umwandeln. Dies geschieht durch Transformationsregeln, die Sie für die Felder definieren. Erfahren Sie mehr unter [Transformationsregeln](across-how-to-set-up-data-exchange-definitions.md#transformation-rules).
@@ -163,7 +163,7 @@ Sie können auch nach einem beliebigen Feld gruppieren, den Schlüsselindex zum 
      |**Feld-ID**|Geben Sie die Nummer des Felds in der externen Datei an, das für die Gruppierung verwendet wird und dieses Feld muss nach Benutzer festgelegt werden.|
      |**Feldbeschriftung**|Geben Sie die Beschriftung des Felds in der externen Datei an, das für die Gruppierung verwendet wird.|
 
-## Transformationsregeln
+## <a name="transformation-rules"></a>Transformationsregeln
 
 Wenn die Werte in den Feldern, die Sie zuordnen, unterschiedlich sind, müssen Sie Transformationsregeln für Datenaustauschdefinitionen verwenden, um sie anzugleichen. Sie definieren Transformationsregeln für Datenaustauschdefinitionen, indem Sie eine vorhandene Definition öffnen oder eine neue Definition erstellen, dann auf dem Inforegister **Zeilendefinitionen** die Option **Verwalten**, und dann **Feldzuordnung** wählen. Vordefinierte Regeln werden bereitgestellt, aber Sie können auch eigene Regeln erstellen. In der folgenden Tabelle werden die Transformationstypen beschrieben, die Sie ausführen können.
 
@@ -188,7 +188,7 @@ Wenn die Werte in den Feldern, die Sie zuordnen, unterschiedlich sind, müssen S
 > [!NOTE]  
 > Erfahren Sie mehr über die Formatierung von Datum und Uhrzeit unter [Standard-Strings für die Formatierung von Datum und Uhrzeit](/dotnet/standard/base-types/standard-date-and-time-format-strings).
 
-### Tipp für Entwickler: Beispiel für die angepasste Option
+### <a name="tip-for-developers-example-of-the-custom-option"></a>Tipp für Entwickler: Beispiel für die angepasste Option
 
 Das folgende Beispiel zeigt, wie Sie Ihren eigenen Transformationscode implementieren.
 
@@ -206,7 +206,7 @@ codeunit 60100 "Hello World"
 
 Nachdem Sie Ihre Regeln definiert haben, können Sie sie testen. Geben Sie im Inforegister **Test** ein Beispiel für einen Wert ein, den Sie umwandeln möchten, und überprüfen Sie dann die Ergebnisse, indem Sie **Aktualisieren** wählen.
 
-## Exportieren einer Datenaustauschdefinition als XML-Datei zur Verwendung durch andere
+## <a name="export-a-data-exchange-definition-as-an-xml-file-for-use-by-others"></a>Exportieren einer Datenaustauschdefinition als XML-Datei zur Verwendung durch andere
 
 Wenn Sie die Datenaustauschdefinition für eine bestimmte Datendatei erstellt haben, können Sie die Datenaustauschdefinition als XML-Datei exportieren, die Sie importieren können. Diese Aufgabe wird in der folgenden Prozedur beschrieben.  
 
@@ -217,14 +217,14 @@ Wenn Sie die Datenaustauschdefinition für eine bestimmte Datendatei erstellt ha
 
     Wenn eine Datenaustauschdefinition bereits erstellt wurde, müssen Sie nur die XML-Datei in das Daten-Exchange-Framework importieren. Diese Aufgabe wird in der folgenden Prozedur beschrieben.  
 
-## Importieren einer bestehenden Datenaustauschdefinition
+## <a name="import-an-existing-data-exchange-definition"></a>Importieren einer bestehenden Datenaustauschdefinition
 
 1. Speichern Sie die XML-Datei, die die Datenaustauschdefinition darstellt, an einem entsprechenden Ort.  
 2. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet 1.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol, geben Sie **Datenaustauschdefinitionen** ein und wählen Sie dann den entsprechenden Link.  
 3. Wählen Sie die **Datenaustauschdefinition importieren** Aktion aus.  
 4. Wählen Sie die Datei aus, die Sie in Schritt 1 gespeichert haben.  
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Datenaustausch einrichten](across-set-up-data-exchange.md)  
 [Einrichten von Senden und Empfangen von elektronischen Belegen](across-how-to-set-up-electronic-document-sending-and-receiving.md)  

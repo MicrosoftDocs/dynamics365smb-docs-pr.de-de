@@ -7,14 +7,14 @@ ms.search.form: '51, 9308'
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# Einkaufsrechnungen sofort ausgleichen
+# <a name="settle-purchase-invoices-promptly"></a>Einkaufsrechnungen sofort ausgleichen
 
 Wenn Sie den Kreditor bar oder per Scheck bezahlen, können Sie die notwendigen Buchungen gleichzeitig bei der Buchung der Rechnung vornehmen.  
 
 > [!NOTE]  
 > Wenn Sie häufig Einkaufsrechnungen bar, per Scheck oder Banküberweisung bezahlen, ist es sinnvoll, eine bestimmte Zahlungsform mit einem Gegenkonto einzurichten und diese Methode im Feld **Zahlungsform** auf der Kreditorenkarte einzugeben. Die entsprechende Gegenkontonummer wird automatisch auf dem Rechnungskopf eingefügt, wenn Sie eine neue Rechnung erstellen. Weitere Informationen finden Sie unter [Zahlungsformen definieren](finance-payment-methods.md).  
 
-## So gleichen Sie Einkaufsrechnungen sofort aus
+## <a name="to-settle-purchase-invoices-promptly"></a>So gleichen Sie Einkaufsrechnungen sofort aus
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Einkaufsrechnungen** ein, und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die Aktion **Neu**.  
@@ -25,7 +25,7 @@ Wenn Sie den Kreditor bar oder per Scheck bezahlen, können Sie die notwendigen 
 >
 > Diese Anpassung ist nur erforderlich, wenn Sie keine Gegenkonten zu den Zahlungsformen, wie oben beschrieben, angeben.
 
-## Weitere Informationen
+## <a name="see-also"></a>Weitere Informationen
 
 [Verwalten von Verbindlichkeiten](payables-manage-payables.md)  
 [Einkauf](purchasing-manage-purchasing.md)  

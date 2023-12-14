@@ -9,11 +9,11 @@ ms.date: 10/09/2023
 ms.custom: bap-template
 ms.search.form: '15, 5703, 7302, 7332, 5768'
 ---
-# Zuordnungselemente
+# <a name="cross-dock-items"></a>Zuordnungselemente
 
 Cross-Docking-Artikel sind Artikel, die Sie erhalten und versenden, ohne sie einzulagern. Die Einlagerungs- und Kommissionierungsprozesse erfordern eine begrenzte Handhabung von Artikeln. Sie können Artikel für den Warenausgang als auch für Fertigungsaufträge zuordnen.
 
-## Zuordnungslagerplätze und-zonen
+## <a name="cross-dock-bins-and-zones"></a>Zuordnungslagerplätze und-zonen
 
 Wenn Sie Lagerplätze verwenden, richten Sie mindestens einen Zuordnungslagerplatz ein und geben dann den Lagerplatz im Feld **Cross-Docking-Lagerplatzcode** an Ihren Lagerorten an. Wenn Sie die gesteuerte Einlagerung und Kommissionierung verwenden, richten SIe eine Zuordnungszone ein.
 
@@ -21,13 +21,13 @@ Wenn Sie einen Warenausgang vorbereiten oder Artikel für die Produktion kommiss
 
 Wenn Sie Zuordnungsmengen berechnet haben, werden Einlagerungszeilen für den Zuordnungslagerplatz für Zuordnungsberechnungen erzeugt, wenn Sie den Wareneingang buchen. Andere Einlagerungszeilen werden wie üblich erzeugt.  
 
-## Zuordnungsauswahlpositionen für einen Eingang
+## <a name="cross-dock-select-lines-for-a-receipt"></a>Zuordnungsauswahlpositionen für einen Eingang
 
 Wenn Sie die zugeordneten Artikel sofort buchen möchten, um sie für die Kommissionierung verfügbar zu machen, müssen Sie ebenfalls eine Einlagerung für die anderen Artikel aus der Wareneingangszeile, nämlich die, die eingelagert werden müssen, erfassen. Wenn nur einige der Artikel der Wareneingangszeile zugeordnet werden, müssen Sie sich daher bemühen, die anderen Artikel so schnell wie möglich einzulagern. Alternativ dazu kann Ihre Lagerpolitik so aussehen, dass Sie – wenn möglich – ganze Wareneingangszeilen zuordnen möchten.
 
 Löschen Sie in der Einlagerungsanweisung die Entnahme- und Kommissionierungsanweisungszeilen für jede Wareneingangszeile für die einzulagernden Artikel. Sie können die Anweisungszeilen später als Einlagerungszeilen aus dem Einlagerungsarbeitsblatt oder dem gebuchten Wareneingang neu erzeugen. Nachdem Sie die Anweisungszeilen gelöscht haben, können Sie die Zeilen, für Zuordnungsartikel einlagern und registrieren.  
 
-## Infos zur Einlagerungsarbeitsblattseite
+## <a name="about-the-put-away-worksheet-page"></a>Infos zur Einlagerungsarbeitsblattseite
 
 Wenn Sie den Schalter **Einlagerungsarbeitsblatt verwenden** auf der Seite **Lagerortkarte** aktivieren und den Wareneingang mit berechneten Zuordnungen gebucht haben, werden alle Wareneingangszeilen im Arbeitsblatt verfügbar. Die Informationen zur Zuordnung sind verloren und können nicht wiederhergestellt werden. Um also die Zuordnungsfunktionalität zu nutzen, sollten Sie Zeilen in das Einlagerungsarbeitsblatt übertragen, indem Sie Einlagerungsanweisungen löschen, anstatt die automatische Übertragungsfunktion im Feld **Einlagerungsarbeitsblatt verwenden** zu nutzen.  
 
@@ -39,7 +39,7 @@ Wenn Sie den Wareneingang buchen, und der Schalter **Einlagerungsarbeitsblatt ve
 
 [!INCLUDE [prod_short](includes/prod_short.md)] führt keine separaten Aufzeichnungen für Cross-Docking-Artikel. Es registriert sie als gewöhnliche Einlagerungsanweisungen.  
 
-## So richten Sie die Logistik für Zuordnungen ein:  
+## <a name="to-set-up-the-warehouse-for-cross-docking"></a>So richten Sie die Logistik für Zuordnungen ein:
 
 1. Wenn Sie Lagerplätze verwenden, richten Sie mindestens einen Zuordnungslagerplatz ein. Wenn Sie die gesteuerte Einlagerung und Kommissionierung verwenden, richten SIe eine Zuordnungszone ein.  
 
@@ -61,7 +61,7 @@ Wenn Sie den Wareneingang buchen, und der Schalter **Einlagerungsarbeitsblatt ve
 > [!NOTE]  
 >  Die Zuordnung ist nur möglich, wenn Ihr Lagerort so eingerichtet wurde, dass die Bearbeitung des Wareneingangs und der Einlagerung erforderlich ist.  
 
-## So ordnen Sie Artikel zu, ohne sich die Möglichkeiten anzeigen zu lassen:  
+## <a name="to-cross-dock-items-without-viewing-the-opportunities"></a>So ordnen Sie Artikel zu, ohne sich die Möglichkeiten anzeigen zu lassen:
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Wareneingänge** ein, und wählen Sie dann den entsprechenden Link.  
 2. Erstellen Sie Lagerbelege für einen Artikel, der angekommen ist und möglicherweise in Zuordnungen einbezogen werden kann. Weitere Informationen zu Eingängen finden Sie unter [Artikeleinkang](warehouse-how-receive-items.md).  
@@ -79,7 +79,7 @@ Wenn Sie den Wareneingang buchen, und der Schalter **Einlagerungsarbeitsblatt ve
 6. Drucken Sie die Einlagerungsanweisungen für die übrigen Zeilen und lagern Sie die Mengen des Wareneingangs, die eingelagert werden sollen, in die jeweiligen Lagerplätze oder in einen geeigneten Bereich im Lager ein. Lagern Sie die zuzuordnenden Artikel in den Bereich oder Lagerplatz ein, der nach der Lagerpolitik für ihn vorgesehen ist. Es ist auch möglich, dass die Lagerrichtlinien vorsehen, dass Sie die Artikel einfach im Wareneingangsbereich lassen.  
 7. Wenn Sie zugeordnete Artikel als eingelagert und zum Kommissionieren registrieren möchten, wählen Sie die Aktion **Registrieren** aus.  
 
-## So ordnen Sie Artikel zu, nachdem Sie die Verkaufschancen angezeigt haben:  
+## <a name="to-cross-dock-items-after-viewing-the-opportunities"></a>So ordnen Sie Artikel zu, nachdem Sie die Verkaufschancen angezeigt haben:
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Wareneingänge** ein, und wählen Sie dann den entsprechenden Link.  
 2. Erstellen Sie Lagerbelege für einen Artikel, der angekommen ist und möglicherweise in Zuordnungen einbezogen werden kann.  
@@ -99,7 +99,7 @@ Wenn Sie den Wareneingang buchen, und der Schalter **Einlagerungsarbeitsblatt ve
     > [!NOTE]  
     > In der Einlagerung können Sie fortfahren, die Mengen zu ändern – falls notwendig –, die eingelagert oder zugeordnet werden sollen. Sie können sich z. B. entscheiden, eine zusätzliche Menge zuzuordnen, um die Zuordnungsregistrierung zu beschleunigen.  
 
-## So zeigen Sie zugeordnete Artikel in Warenausgängen oder Kommissionierarbeitsblättern an:  
+## <a name="to-view-cross-docked-items-in-a-shipment-or-pick-worksheet"></a>So zeigen Sie zugeordnete Artikel in Warenausgängen oder Kommissionierarbeitsblättern an:
 
 Wenn Sie Lagerplätze verwenden, können Sie jedes Mal, wenn Sie einen Warenausgang oder den Kommissioniervorschlag öffnen, eine aktualisierte Berechnung der Menge jedes Artikels in den Zuordnungslagerplätzen sehen. Wenn Sie sehen, dass der Artikel in einem Zuordnungslagerplatz verfügbar ist, können Sie schnell eine Kommissionierung für alle Artikel des Warenausgangs erstellen. Im Auswahlarbeitsblatt können Sie die Zeilen nach Bedarf bearbeiten.  
 
@@ -107,7 +107,7 @@ Wenn ein Fertigungsauftrag freigegeben wurde, sind die Zeilen im Kommissioniervo
 
 Wenn Sie keine Lagerplätze verwenden, müssen Sie daran denken, den Zuordnungsbereich von Zeit zu Zeit zu überprüfen, oder Sie müssen sich auf die Nachrichten aus dem Wareneingang verlassen, dass die Artikel für die Produktion angekommen sind.  
 
-## Weitere Informationen  
+## <a name="see-also"></a>Weitere Informationen
 
 [Bestand](inventory-manage-inventory.md)  
 [Einrichten von Warehouse Management](warehouse-setup-warehouse.md)     

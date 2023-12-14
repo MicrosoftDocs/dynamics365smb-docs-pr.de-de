@@ -12,11 +12,11 @@ ms.date: 09/29/2021
 ms.author: bholtorf
 ---
 
-# Schnellstart Beschaffung
+# <a name="procurement-quick-start"></a>Schnellstart Beschaffung
 
 Um Produkte und Dienstleistungen kaufen zu können, müssen Sie zunächst Lieferanten festlegen. Sobald dies geschehen ist, können Sie mit der Registrierung von Bestellungen und dem Erhalt von Rechnungen beginnen.  
 
-## Kreditor festlegen
+## <a name="set-up-vendors"></a>Kreditor festlegen
 
 Das folgende Video zeigt Ihnen, wie Sie unter [!INCLUDE[prod_short](includes/prod_short.md)] einen Kreditor festlegen.
 
@@ -24,13 +24,13 @@ Das folgende Video zeigt Ihnen, wie Sie unter [!INCLUDE[prod_short](includes/pro
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3PZtd?rel=0]
 
-### Einrichten eines neuen Kreditors
+### <a name="set-up-a-new-vendor"></a>Einrichten eines neuen Kreditors
 
 [!INCLUDE[create_new_vendor](includes/create_new_vendor.md)]
 
 Weitere Informationen und zusätzliche Dinge, die Sie bei der Registrierung von Kreditoren tun können, finden Sie unter [Neue Kreditoren registrieren](purchasing-how-register-new-vendors.md).  
 
-## Neue Bestellungen erstellen
+## <a name="create-new-purchase-orders"></a>Neue Bestellungen erstellen
 
 Wenn Sie etwas von einem Kreditor kaufen, haben Sie zwei Möglichkeiten. Die erste und einfachste ist, einfach eine Einkaufsrechnung zu erstellen. Sie müssen jedoch Bestellungen verwenden, wenn Ihr Einkaufsprozess erfordert, dass Sie einen teilweisen Eingang einer Bestellmenge erfassen, z.B. weil die volle Menge beim Einkäufer nicht verfügbar war.
 
@@ -40,7 +40,7 @@ Das folgende Video zeigt Ihnen, wie Sie eine Bestellung in [!INCLUDE[prod_short]
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4b3tt?rel=0]
 
-### So erstellen Sie eine Bestellung  
+### <a name="to-create-a-purchase-order"></a>So erstellen Sie eine Bestellung
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten"). Symbol. Geben Sie **Einkaufsbestellungen** ein, und wählen Sie dann den zugehörigen Link.  
 
@@ -66,11 +66,11 @@ Das folgende Video zeigt Ihnen, wie Sie eine Bestellung in [!INCLUDE[prod_short]
 
 Weitere Informationen und zusätzliche Möglichkeiten, die Sie beim Erstellen einer Bestellung haben, finden Sie unter [Einkauf](purchasing-manage-purchasing.md).  
 
-## Erstellen Sie eine Einkaufsrechnung  
+## <a name="create-a-purchase-invoice"></a>Erstellen Sie eine Einkaufsrechnung
 
 Sie erstellen eine Einkaufsrechnung, um die Kosten der Käufe zu erfassen und die Verbindlichkeiten a. LL zu verfolgen. Das Erstellen einer Einkaufsrechnung ist ähnlich wie das Erstellen einer Bestellung.
 
-### So erstellen und buchen Sie eine Einkaufsrechnung  
+### <a name="how-to-create-and-post-a-purchase-invoice"></a>So erstellen und buchen Sie eine Einkaufsrechnung
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet 3.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Einkaufsrechnungen** ein, und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie auf der Seite **Einkaufsrechnung** die Aktion **Neu**, um eine neue Einkaufsrechnung zu erstellen.
@@ -95,7 +95,7 @@ Der Kauf wird nun im Bestand, in den Ressourcen-Sachkonten und in den Finanzdoku
 
 Weitere Informationen und zusätzliche Möglichkeiten beim Erstellen einer Einkaufsrechnung finden Sie unter [Einkäufe mit Einkaufsrechnungen erstellen](purchasing-how-record-purchases.md).
 
-## Weitere Informationen
+## <a name="see-also"></a>Weitere Informationen
 
 [Business Central Schnellstarts](quick-start-business-central.md)  
 [Einkaufsübersicht](Purchasing-manage-purchasing.md)  

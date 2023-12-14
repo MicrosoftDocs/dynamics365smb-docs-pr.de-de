@@ -11,7 +11,7 @@ ms.search.form: '5709, 5800, 5805, 5814'
 ms.date: 11/08/2023
 ms.author: bholtorf
 ---
-# Artikelzuschläge für zusätzliche Handelskosten verwenden
+# <a name="use-item-charges-to-account-for-additional-trade-costs"></a>Artikelzuschläge für zusätzliche Handelskosten verwenden
 
 Um eine korrekte Bewertung sicherzustellen, müssen Ihre Lagerartikel Kosten wie Fracht, Versicherung, Umlagerung und Transport enthalten, die beim Kauf oder Verkauf entstehen. Die Kosten eines eingekauften Artikels bestehen aus dem Einkaufspreis des Kreditors und allen zusätzlichen Artikelzuschlägen, die einzelnen Wareneingängen oder Rücklieferungen zugewiesen werden können. Die Frachtkosten der verkauften Artikel zu kennen, kann für Ihr Unternehmen genauso wichtig sein wie die Einkaufspreise der eingekauften Artikel zu kennen.
 
@@ -31,13 +31,13 @@ Für Bestellungen und Verkaufsbelege können Artikelzuschläge auf zwei Arten zu
 > [!NOTE]  
 > Sie können Artikelzuschläge in Bestellungen, Rechnungen und Gutschriften für Verkaufs- und Einkaufsberichte zuweisen. Die folgenden Verfahren beschreiben, wie man mit Artikelzuschlägen für eine Einkaufsrechnung arbeitet. Die Schritte sind für alle anderen Einkaufs- und Verkaufsbelege ähnlich.
 
-## Beispiel
+## <a name="example"></a>Beispiel
 
 In diesem Video wird gezeigt, wie Sie im Rahmen der Lagerkostenberechnung mit zusätzlichen Lieferkosten umgehen.
 <br><br>  
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4b0SB?rel=0]
 
-## Vorgehensweise: Eine Artikelzu-/-abschlagsnummer einrichten
+## <a name="to-set-up-item-charge-numbers"></a>Vorgehensweise: Eine Artikelzu-/-abschlagsnummer einrichten
 
 Sie können die Artikel Zu-/Abschlagsnummern verwenden, um die verschiedenen Arten von Artikel Zu-/Abschlägen, die in Ihrem Unternehmen verwendet werden, zu verwalten.
 
@@ -45,7 +45,7 @@ Sie können die Artikel Zu-/Abschlagsnummern verwenden, um die verschiedenen Art
 2. Wählen Sie auf der Seite **Artikel-Gebühren** die Aktion **Neu** aus, um eine neue Zeile für eine zu erstellen.
 3. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## Um einen Artikel Zu-/Abschlag in die Einkaufsrechnung für den Artikel zuordnen
+## <a name="to-assign-an-item-charge-directly-to-the-purchase-invoice-for-the-item"></a>Um einen Artikel Zu-/Abschlag in die Einkaufsrechnung für den Artikel zuordnen
 
 Wenn Sie den Artikel-Zu-/Abschlag kennen, und den Zeitpunkt, der eine Einkaufsrechnung für den Artikel betrifft, gehen Sie folgendermaßen vor.
 
@@ -69,7 +69,7 @@ Wenn die Artikelgebühr vollständig zugewiesen wird, ist der Wert im Feld **Men
 
 Der Artikelzuschlag wird nun der Einkaufsrechnung zugeordnet. Wenn Sie den Wareneingang der Einkaufsrechnung buchen, werden die Lagerwerte der Artikel mit den Kosten für Artikelzu-/-abschläge aktualisiert.  
 
-## Um einen Artikel Zu-/Abschlag in die Einkaufsrechnung für den Artikel zuordnen
+## <a name="to-assign-an-item-charge-from-a-separate-invoice-to-the-purchase-invoice-for-the-item"></a>Um einen Artikel Zu-/Abschlag in die Einkaufsrechnung für den Artikel zuordnen
 
 Wenn Sie eine Rechnung für die Zu-/Abschläge erhalten, nachdem Sie den Wareneingang der ursprünglichen Einkaufsrechnung wurde, gehen Sie folgendermaßen vor.
 
@@ -80,7 +80,7 @@ Wenn Sie eine Rechnung für die Zu-/Abschläge erhalten, nachdem Sie den Warenei
 
 Artikelzu-/Abschläge der separaten Einkaufsrechnung wird jetzt dem Artikel in der gebuchten Einkaufslieferung zugeordnet, d aktualisiert der Lagerwert des Artikels mit den Kosten für Artikelzu-/-abschläge.
 
-## Behandeln Sie Artikelgebühren für Teilquittungen
+## <a name="handle-item-charges-for-partial-receipts"></a>Behandeln Sie Artikelgebühren für Teilquittungen
 
 Sehen wir uns ein Beispiel an, wie Artikelgebühren für einen Teilbeleg gehandhabt werden.
 
@@ -95,7 +95,7 @@ Um die Artikelkosten für den Teilzugang zu bearbeiten, geben Sie auf der **Arti
 
 Wenn Sie bereit sind, das fehlende Element zu handhaben, aktualisieren Sie das Feld **Zu handhabende Menge** und buchen Sie die Bestellung.
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Verwalten von Verbindlichkeiten](payables-manage-payables.md)  
 [Einkäufe erfassen](purchasing-how-record-purchases.md)  

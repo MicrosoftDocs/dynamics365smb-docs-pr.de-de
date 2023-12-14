@@ -9,14 +9,14 @@ ms.date: 04/25/2023
 ms.custom: bap-template
 ---
 
-# Reagieren auf Anfragen über personenbezogene Daten von Benutzern
+# <a name="responding-to-requests-about-users-personal-data"></a>Reagieren auf Anfragen über personenbezogene Daten von Benutzern
 
 Datensubjekte können mehrere Arten von Aktionen für die Personendaten abfragen. Beispielsweise sie nach einigen Datenschutzgesetzen und -vorschriften das Recht, den Export, das Löschen oder die Änderung Ihrer Personendaten anzufordern. Diese Anträge heißen *Anträge betroffener Personen*. Wenn Sie die Vertraulichkeit Ihrer Daten klassifiziert haben und sicher sind, dass sie korrekt sind, kann ein Administrator mithilfe der Optionen auf der Registerkarte **Datenprivatsphäre** im **IT-Manager** Rollenzentrum antworten. Weitere Informationen zur Klassifizierung von Daten und Datenvertraulichkeit in [!INCLUDE[prod_long](includes/prod_long.md)] finden Sie in den folgenden Artikeln:
 
 * [Klassifizieren von Daten](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json) 
 * [Datensensitivität klassieren](admin-classifying-data-sensitivity.md)  
 
-## Arten von Anträgen
+## <a name="types-of-requests"></a>Arten von Anträgen
 
 Die folgende Tabelle enthält Beispiele über die Anträge, auf die Administrierende reagieren können.
 
@@ -29,11 +29,11 @@ Die folgende Tabelle enthält Beispiele über die Anträge, auf die Administrier
 |Anforderung für Löschen|Ein Datensubjekt kann anfordern, dass Sie die Personendaten löschen. Es gibt verschiedene Arten, Personendaten mithilfe der Anpassungsfunktionen zu löschen, aber die Entscheidung und die Implementierung ist Ihre Verantwortung. In einigen Fällen können Sie Ihre Daten direkt bearbeiten. Löschen Sie zum Beispiel einen Kontakt und führen Sie dann die Stapelverarbeitung für stornierte Aktivitäten aus, um Aktivitäten für den Kontakt zu löschen. <br><br> **Hinweis:** Wenn Sie ein Datum in dem Feld **Löschen des Belegs zulassen vor** der **Debitoren & Verkauf Einr.** oder der **Kreditoren & Einkauf Einr.** angegeben haben, müssen Sie vielleicht das Datum ändern, sodass Sie gebuchte Verkaufs- und Einkaufsbelege, für die ein Buchungsdatum für oder vor dem Datum vorliegt, löschen können.|
 |Anforderung für Korrektur|Ein Datensubjekt kann verlagen, dass Sie die falschen Personendaten löschen. Es gibt mehrere Möglichkeiten dazu: In einigen Fällen können Sie Exporttarife nach Excel exportieren, mehrere Datensätze schnell auf einmal bearbeiten und importieren dann die aktualisierten Daten importieren. Weitere Informationen finden Sie unter [Geschäftsdaten nach Excel exportieren](about-export-data.md). Sie können auch manuell Eingabefelder, die Personendaten enthalten, wie Bearbeitungsinformationen über einen Debitor auf der Debitorenkarte bearbeiten. Datensätze wie allgemeine, Debitoren- und Steuerkontoeinträge sind jedoch wichtig. Wenn Sie Personendaten in den Geschäfttransaktionsdatensätzen speichern, erwägen Sie, die Anpassungsfunktionen zu verwenden, um solche Personendaten zu ändern.|
 
-## Die Datenverarbeitung für eine betroffene Person einschränken
+## <a name="restrict-data-processing-for-a-data-subject"></a>Die Datenverarbeitung für eine betroffene Person einschränken
 
 Ein Datensubjekt kann verlangen, dass Sie die vorübergehend keine Personendaten verarbeiten. Um solche Anforderungen zu ehren, können Sie ihren Datensatz als gesperrt markieren aufgrund des Datenschutzes und die Verarbeitung der Daten stoppen. Wenn ein Datensatz als gesperrt markiert wird, können Sie keine neuen Transaktionen erstellen, die den Datensatz verwenden. Beispielsweise können Sie eine neue Rechnung für keinen Debitor erstellen, wenn entweder der Debitor oder der Verkäufer gesperrt ist. Um ein Datensubjekt als gesperrt zu kennzeichnen, öffnen Sie die Karte für das Datensubjekt, beispielsweise die Debitoren-, Kreditoren- oder Kontaktkarte, und wählen Sie **Datenschutzsperre**. Sie müssen u **Mehr anzeigen**, um das Feld anzuzeigen.  
 
-## Umgang mit den Anträgen betroffener Personen in einer Testversion
+## <a name="handling-data-subject-requests-when-using-a-trial-version"></a>Umgang mit den Anträgen betroffener Personen in einer Testversion
 
 Bestimmte Arten personenbezogener Daten sind Teil eines Microsoft 365 Kontos und nur Administrierende können die Daten exportieren. Das Verfahren zur Verarbeitung von Datensubjektanforderungen ist abhängig vom [!INCLUDE[prod_short](includes/prod_short.md)]-Tenant-Typ.
 
@@ -45,21 +45,21 @@ In der Arbeits- und Schuldatenschutzseite können Sie Ihr Konto schließen. Wir 
 
 Sie können Personal immer noch sperren aufgrund des Datenschutzes und Transaktionen wie in diesem Artikel erklärt bearbeiten oder löschen.  
 
-## Daten aus Tabellen exportieren, die nicht nach betroffenen Personen klassifiziert sind
+## <a name="exporting-data-from-tables-not-classified-by-data-subject"></a>Daten aus Tabellen exportieren, die nicht nach betroffenen Personen klassifiziert sind
 
 Wenn Sie Daten exportieren müssen, die nicht auf eine Weise klassifiziert werden, sodass sie automatisch exportiert werden, wie Daten aus der Tabelle „Profilantworten“, müssen Sie wie folgt vorgehen:
 
 * Überlegen Sie, ob Sie wirklich zusätzliche Daten exportieren müssen, die sich nicht direkt auf den Kontakt beziehen.
 * Fügen Sie die Tabelle und die Beziehung manuell zum Rapid-Start-Paket hinzu und exportieren Sie sie direkt aus dem Rapid-Start-Paket. Wir generieren für Sie ein Rapid-Start-Paket, damit Sie es in solchen Situationen optimieren können.
 
-## Umgang mit Daten über Minderjährige
+## <a name="handling-data-about-minors"></a>Umgang mit Daten über Minderjährige
 
 Wenn das Alter der Kontaktperson tiefer ist als das Alter der Volljährigkeit entsprechend dem Gesetz Ihres Landes, können Sie das mithilfe des Kontrollkästchens **Minderjährig** auf der Karte **Kontakt** aktivieren. Wenn Sie dies tun, wird das Kontrollkästchen **Datenschutzsperre** automatisch ausgewählt. Wenn Sie die Zustimmung des Feld von den Eltern oder dem Erziehungsberechtigten der minderjährigen Person erhalten, können Sie das Kontrollkästchen **Zustimmung eines Erziehungsberechtigten erhalten** aktivieren, um die Blockierung des Kontakts aufzuheben. Auch wenn Sie Personendaten für Minderjährige bearbeiten können, können Sie die Profilerstellungsfunktionalität in Dynamics 365 Sales nicht verwenden.
 
 > [!Note]
 > Das Änderungsprotokoll kann Details erfassen, wie wann und durch wen die **Zustimmung eines Erziehungsberechtigten erhalten** im Kontrollkästchen ausgewählt wurde. Ein Administrator kann dies mithilfe dem Leitfaden **Änderungsprotokoll einrichten** einrichten und kann auch das Kontrollkästchen **Protokoll-Änderung für Zustimmung eines Erziehungsberechtigten erhalten** auf der Karte **Kontakt** aktivieren. Weitere Informationen finden Sie unter [Änderungen protokollieren](across-log-changes.md).  
 
-### Siehe auch
+### <a name="see-also"></a>Siehe auch
 
 [Klassifizieren von Daten](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json)  
 [Datensensitivität klassieren](admin-classifying-data-sensitivity.md)  

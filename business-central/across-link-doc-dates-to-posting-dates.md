@@ -8,10 +8,10 @@ ms.topic: conceptual
 ms.date: 11/14/2023
 ms.custom: bap-template
 ---
-# Dokumentdaten mit Buchungsdaten aktualisieren
+# <a name="updating-document-dates-with-posting-dates"></a>Dokumentdaten mit Buchungsdaten aktualisieren
 
 [!INCLUDE [document-posting-date](includes/document-posting-date.md)]
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Einrichten von Verkäufen](sales-setup-sales.md)
