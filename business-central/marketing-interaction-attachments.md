@@ -10,25 +10,25 @@ ms.search.forms: '5082,'
 ms.date: 09/05/2023
 ms.custom: bap-template
 ---
-# Anhänge für Interaktionen
+# <a name="attachments-for-interactions"></a>Anhänge für Interaktionen
 
 Die an Interaktionen angehängten Dateien werden nicht direkt an die Interaktion angehängt. Sie kommen aus einem der folgenden Orte:
 
 * Die Interaktionsvorlage, die Sie zum Erstellen der Interaktion verwendet haben. Weitere Informationen zum Einrichten von Vorlagen finden Sie unter [Einrichten von Interaktionsvorlagen](marketing-interactions.md#set-up-interaction-templates).
 * Das Segment, für das Sie die Interaktion erstellt haben. Weitere Informationen zu Segmenten finden Sie unter [Interaktionen für Segmente verwalten](marketing-interaction-segments.md).
 
-## Anlagen anzeigen
+## <a name="view-attachments"></a>Anlagen anzeigen
 
 Anhänge sind verfügbar, wenn Sie aufgezeichnete Interaktionen auf der Seite **Interaktionsprotokolleinträge** ansehen. Wählen Sie die **Anlagen anzeigen**-Aktion aus.
 
-## Dateitypen, die Sie anhängen können
+## <a name="types-of-files-you-can-attach"></a>Dateitypen, die Sie anhängen können
 
 Anhänge können praktisch jede Art von Datei sein, beispielsweise Word-Dokumente, PowerPoint-Präsentationen, Excel- oder Textdateien usw.
 
 > [!TIP]
 > [!INCLUDE [prod_short](includes/prod_short.md)] lässt sich in Word integrieren, sodass Sie Funktionen wie Briefvorlagenfelder in Word-Vorlagen verwenden können. Weitere Informationen zur Verwendung von Word-Vorlagen finden Sie unter [Word-Vorlagen für Massenkommunikation verwenden](ui-mail-merge.md).
 
-## Was Sie mit Anhängen machen können
+## <a name="what-you-can-do-with-attachments"></a>Was Sie mit Anhängen machen können
 
 Sie können Folgendes mit Ihren Dateianhängen machen:
 
@@ -38,6 +38,6 @@ Sie können Folgendes mit Ihren Dateianhängen machen:
 * **Löschen**: Sie können einen Dateianhang aus einer Aktivitätenvorlage entfernen.
 * **Kopieren**: Sie können Dateianhänge von einer Aktivitätenvorlage in eine andere kopieren.
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Aktivitäten mit Kontakten aufzeichnen](marketing-interactions.md)  
