@@ -10,13 +10,13 @@ ms.search.form: null
 ms.date: 09/05/2023
 ms.custom: bap-template
 ---
-# Was ist Lokale Funktion in [!INCLUDE[prod_long](includes/prod_long.md)]?
+# <a name="what-is-local-functionality-in-"></a>Was ist Lokale Funktion in [!INCLUDE[prod_long](includes/prod_long.md)]?
 
 [!INCLUDE[prod_short](includes/prod_short.md)] verfügt über eine kombinierte Lokalisierungsstrategie, inklusive von Microsoft geführter und partnergeführter Modelle. In diesem Abschnitt können Sie Beschreibungen der Funktionen anzeigen, die für die Länder/Regionen gelten, in denen Microsoft die regulatorische Kompatibilität und andere Funktionen bereitstellt.  
 
 Eine Liste der derzeit unterstützten Märkte finden Sie unter [Verfügbarkeit nach Ländern/Regionen und unterstützte Sprachen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json).  
 
-## Lokale Funktionen
+## <a name="local-functionality"></a>Lokale Funktionen
 
 Die folgende Tabelle enthält Links zu Artikeln, in denen Sie mehr über die lokale Funktionalität für jedes Land/jede Region erfahren können.
 
@@ -47,11 +47,11 @@ Die folgende Tabelle enthält Links zu Artikeln, in denen Sie mehr über die lok
 |        | Indien | [Indien Lokale Funktionalität](LocalFunctionality/India/india-local-functionality.md) |
 |        | Neuseeland | [Lokale Funktion (Neuseeland)](localfunctionality/newzealand/new-zealand-local-functionality.md) |
 
-### Andere Länder/Regionen
+### <a name="other-countriesregions"></a>Andere Länder/Regionen
 
 [!INCLUDE[prod_short](includes/prod_short.md)] ist über Lokalisierungs-Apps auch in anderen Märkten verfügbar. Wenn ein Microsoft-Partner eine Lokalisierungs-App für Ihr Land/Ihre Region entwickelt hat, finden Sie diese in [AppSource](https://go.microsoft.com/fwlink/?linkid=2081646).
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Umgebungen erstellen](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments)  
 [Bereiten Sie sich auf das Geschäft vor](ui-get-ready-business.md)  

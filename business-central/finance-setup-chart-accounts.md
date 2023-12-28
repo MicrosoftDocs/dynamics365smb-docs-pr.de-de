@@ -10,14 +10,14 @@ ms.search.form: '16, 17, 18, 118, 386, 391'
 ms.date: 12/19/2023
 ms.custom: bap-template
 ---
-# Einrichten oder Ändern des Kontenplans
+# <a name="set-up-or-change-the-chart-of-accounts"></a>Einrichten oder Ändern des Kontenplans
 
 Der Kontenplan zeigt die Sachkonten an, die Finanzdaten speichern. [!INCLUDE[prod_short](includes/prod_short.md)] umfasst einen Standardkontenplan, der zur Unterstützung Ihres Unternehmens bereit steht. Sie können jedoch die Standardkonten ändern und neue Konten hinzufügen.
 <br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE43KO9?rel=0]
 
-## Hinzufügen oder Ändern von Konten
+## <a name="add-or-change-accounts"></a>Hinzufügen oder Ändern von Konten
 
 Im Kontenplan können Sie jedes Sachkonto öffnen und Einstellungen hinzufügen oder ändern. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] 
 
@@ -28,7 +28,7 @@ Für Konten des Kontotyps **Summe** müssen Sie das Feld **Summe** ausfüllen. B
 > [!IMPORTANT]
 > Wenn Sie vor dem Ausführen der Funktion Einrücken Definitionen in den Feldern **Summe** für **Endsumme** Konten eingegeben haben, müssen Sie diese erneut eingeben, da die Funktion die Werte in allen **Endsumme** Feldern überschreibt.
 
-## Konten löschen
+## <a name="delete-accounts"></a>Konten löschen
 
 Sie können ein Sachkonto löschen. Bevor es gelöscht wird, müssen allerdings folgende Bedingungen erfüllt sein:  
 
@@ -42,13 +42,13 @@ Sie können auch festlegen, wann jemand Konten löschen dürfen soll. Auf der Se
 
 Es hat sich bewährt, das Feld **Löschen von Sachkonten sperren** zu aktivieren und das Datum im Feld **Sachkontolöschung prüfen nach** zum Beispiel auf das Datum festzulegen, bis zu dem Sie Ihre Finanzdaten laut den Vorschriften speichern müssen.  
 
-### Videoanleitung
+### <a name="video-guidance"></a>Videoanleitung
 
 In diesem Video wird gezeigt, wie Sie festlegen, ob und wann Personen Sachkonten löschen können.
 
 >[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1g3oY]
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Das Hauptbuch und der Kontenplan](finance-general-ledger.md)  
 [Abstimmen von Bankkonten](bank-manage-bank-accounts.md)  
