@@ -1,7 +1,7 @@
 
 # [Business Central-Dokumentation](index.yml)
 # [Willkommen bei Business Central](welcome.md)
-# [Neu und geplant](/dynamics365/business-central/dev-itpro/whatsnew/overview)
+# [Neu und geplant](/dynamics365/business-central/dev-itpro/whatsnew/overview?toc=/dynamics365/business-central/toc.json)
 # Erste Schritte
 ## [Überblick über Unternehmensfunktionen](across-business-functionality.md)
 <!--### [Get Ready for Doing Business](ui-get-ready-business.md)  -->
@@ -333,6 +333,7 @@
 #### [Überblick über E-Belege](finance-edocuments-overview.md)
 #### [E-Belege einrichten](finance-how-setup-edocuments.md)
 #### [E-Belege bei Verkäufen und Einkäufen verwenden](finance-how-use-edocuments.md)
+#### [Einrichtung des E-Beleg-Konnektors mit externen Endpunkten](finance-how-setup-edocuments-external.md)
 #### [Erweiterung der E-Beleg-Funktionalität](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)
 
 ### Mehrwertsteuer verwalten
@@ -870,6 +871,8 @@
 ### Dänemark
 #### [Lokale Funktionen in der dänischen Version](LocalFunctionality/Denmark/denmark-local-functionality.md)
 #### [Anmeldung und Registrierung für das NemHandelsregisteret in Dänemark](localfunctionality/denmark/how-to-nemhandel-register.md)
+#### [Einrichtung der elektronischen Fakturierung mit NemHandel](localfunctionality/denmark/how-to-edocuments-nemhadel.md)
+#### [Aufbewahrung der Buchungsdaten für fünf Jahre in Dänemark](localfunctionality/denmark/how-to-keep-data-5years.md)
 #### Mehrwertsteuer
 ##### [MwSt.-Abstimmungsberichte drucken](LocalFunctionality/Denmark/how-to-print-vat-reconciliation-reports.md)
 ##### [MwSt.-VIES-Berichte](LocalFunctionality/Denmark/vat-vies-reporting.md)
@@ -883,7 +886,7 @@
 ##### [Kreditoren für OIOUBL einrichten](LocalFunctionality/Denmark/how-to-set-up-customers-for-oioubl.md)
 ##### [Elektronische OIOUBL-Fakturierung einrichten](LocalFunctionality/Denmark/how-to-set-up-oioubl.md)
 ##### [Die OIOUBL-Erweiterung für elektronische Fakturierung](LocalFunctionality/Denmark/ui-extensions-oioubl.md)
-##### [Elektronische Belege in einem OIOUBL-Format erstellen](LocalFunctionality/Denmark/how-to-create-electronic-documents-by-using-oioubl.md)
+##### [Erstellung der E-Belege im OIOUBL-Format](LocalFunctionality/Denmark/how-to-create-electronic-documents-by-using-oioubl.md
 #### Lohn
 ##### [Lohndatendefinitionen (DK)](LocalFunctionality/Denmark/ui-extensions-payroll-data-definitions-dk.md)
 #### Digitale Gutscheine

@@ -1,24 +1,23 @@
 ---
 title: Den Kontenplan einrichten oder ändern (enthält ein Video)
-description: 'Der Kontenplan zeigt die Sachkonten an, die Finanzdaten speichern. Sie können die Standardkonten im COA ändern und neue Konten hinzufügen.'
+description: 'Erfahren Sie, wie Sie Ihren Kontenplan so einrichten, dass er die Sachkonten anzeigt, die Finanzdaten speichern.'
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bnielse
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: 'COA, cha of acc'
 ms.search.form: '16, 17, 18, 118, 386, 391'
-ms.date: 01/21/2022
-ms.author: bholtorf
+ms.date: 12/19/2023
+ms.custom: bap-template
 ---
-# <a name="set-up-or-change-the-chart-of-accounts"></a>Einrichten oder Ändern des Kontenplans
+# Einrichten oder Ändern des Kontenplans
 
 Der Kontenplan zeigt die Sachkonten an, die Finanzdaten speichern. [!INCLUDE[prod_short](includes/prod_short.md)] umfasst einen Standardkontenplan, der zur Unterstützung Ihres Unternehmens bereit steht. Sie können jedoch die Standardkonten ändern und neue Konten hinzufügen.
 <br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE43KO9?rel=0]
 
-## <a name="add-or-change-accounts"></a>Hinzufügen oder Ändern von Konten
+## Hinzufügen oder Ändern von Konten
 
 Im Kontenplan können Sie jedes Sachkonto öffnen und Einstellungen hinzufügen oder ändern. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] 
 
@@ -29,27 +28,27 @@ Für Konten des Kontotyps **Summe** müssen Sie das Feld **Summe** ausfüllen. B
 > [!IMPORTANT]
 > Wenn Sie vor dem Ausführen der Funktion Einrücken Definitionen in den Feldern **Summe** für **Endsumme** Konten eingegeben haben, müssen Sie diese erneut eingeben, da die Funktion die Werte in allen **Endsumme** Feldern überschreibt.
 
-## <a name="delete-accounts"></a>Konten löschen
+## Konten löschen
 
 Sie können ein Sachkonto löschen. Bevor es gelöscht wird, müssen allerdings folgende Bedingungen erfüllt sein:  
 
 * Der Saldo des Kontos muss Null betragen.  
 * Das Feld **Löschen v. Sachkonten zul. vor** auf der Seite **Finanzbuchhaltungs-Einrichtung:** muss ausgefüllt sein, und das Konto darf keine Posten an oder nach diesem Datum enthalten.  
-* Ist das Feld **Sachkontoverwendung prüfen** auf der Seite **Finanzbuchhaltungs-Einrichtung:** ausgewählt, darf dieses Konto nicht in Buchungsgruppen oder der Buchungsmatrix Einrichtung verwendet werden.  
+* Ist das Feld **Sachkontoverwendung prüfen** auf der Seite **Finanzbuchhaltungs-Einrichtung:** ausgewählt, darf dieses Konto nicht in Buchungsgruppen oder der Buchungsmatrix-Einrichtung verwendet werden.  
 
 [!INCLUDE[prod_short](includes/prod_short.md)] verhindert, dass Sie ein Sachkonto löschen, in dem Daten gespeichert werden, die im Kontenplan erforderlich sind.  
 
-## <a name="block-deletion-of-gl-accounts"></a>Löschen von Sachkonten blockieren
+Sie können auch festlegen, wann jemand Konten löschen dürfen soll. Auf der Seite **Finanzbuchhaltungs-Einrichtung** sorgt der Umschalter **Löschen von Sachkonten sperren** gemeinsam mit dem Datum im Feld **Sachkontolöschung prüfen nach** für eine zusätzliche Überprüfung. Wenn Sie den Umschalter **Löschen von Sachkonten blockieren** aktivieren, können Sie keine Sachkonten löschen, deren Hauptbucheinträge nach dem Datum im Feld **Sachkontolöschung prüfen nach** liegen. Um ein solches Konto zu löschen, muss jemand mit Zugriff auf die Seite **Finanzbuchhaltungs-Einrichtung** den Umschalter **Löschen von Sachkonten blockieren** deaktivieren.  
 
-[!INCLUDE [2022_releasewave1](includes/2022_releasewave1.md)]
+Es hat sich bewährt, das Feld **Löschen von Sachkonten sperren** zu aktivieren und das Datum im Feld **Sachkontolöschung prüfen nach** zum Beispiel auf das Datum festzulegen, bis zu dem Sie Ihre Finanzdaten laut den Vorschriften speichern müssen.  
 
-Der 2. Veröffentlichungszyklus 2022 führt einen zusätzlichen Schutz gegen das versehentliche Löschen von Sachkonten ein, selbst in den Szenarien, in denen die Kriterien erfüllt sind.  
+### Videoanleitung
 
-Ein neues Feld **Löschen von Sachkonten blockieren** wird zur **Finanzbuchhaltungs-Einrichtung**-Seite hinzugefügt. Wenn das Feld auf *Ja* gesetzt ist, agiert es als eine extra Prüfügung, das bedeutet, Sie können keine Sachkonten löschen, deren Hauptbucheinträge nach dem Datum im Feld **Sachkontolöschung prüfen nach** liegen. Um ein solches Konto zu löschen, muss ein Benutzer mit Zugriff auf die **Finanzbuchhaltungs-Einrichtung**-Seite dieses Feld zuerst auf *Nein* setzen.  
+In diesem Video wird gezeigt, wie Sie festlegen, ob und wann Personen Sachkonten löschen können.
 
-Das Setzen des Feldes **Löschung von Sachkonten sperren** auf *Ja* kann als bewährte Methode angesehen werden, ebenso wie das Festlegen des Datums im Feld **Sachkontolöschung prüfen nach**, zum Beispiel bis zu dem Datum, bis zu dem Sie Ihre Finanzdaten speichern müssen.  
+>[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1g3oY]
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Das Hauptbuch und der Kontenplan](finance-general-ledger.md)  
 [Abstimmen von Bankkonten](bank-manage-bank-accounts.md)  

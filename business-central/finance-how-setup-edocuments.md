@@ -70,7 +70,11 @@ Gehen Sie wie folgt vor, um den E-Beleg-Dienst einzurichten.
 
 Wenn Sie das **Datenaustauschdefinition**-Format in Ihrer Lokalisierung konfiguriert haben, können Sie für jeden Belegtyp, den Sie benötigen, eine Zeile hinzufügen. Fügen Sie Zeilen hinzu, die dem Standarddatenaustauschbeispiel für das W1-PEPPOL-Format entsprechen. Wählen Sie jedoch zuerst die Option **Belegtyp** für jede Zeile aus, die Sie benötigen. Wählen Sie für jeden Datentyp die Werte **Datenaustauschdefinitionscode importieren** oder **Datenaustauschdefinitionscode exportieren**, die Sie verwenden möchten.
 
-Wenn Sie das Format **Datenaustauschdefinition** nicht verwenden, können Sie Formate mithilfe der [Schnittstelle](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments) erstellen und konfigurieren. Passen Sie die Informationen in den Zeilen **Exportzuordnung** und **Importzuordnung** an, in denen Sie die Tabellen und Felder zur Konfiguration von Transformationsregeln finden. In diesem Fall müssen Sie im Feld **Dokumentformat** eine neue Option hinzufügen, die sich auf Ihr Format bezieht.
+Wenn Sie das Format **Datenaustauschdefinition** nicht verwenden, können Sie Formate mithilfe der [Schnittstelle](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments) erstellen und konfigurieren. Passen Sie die Informationen in den Zeilen **Exportzuordnung** und **Importzuordnung** an, in denen Sie die Tabellen und Felder zur Konfiguration von Transformationsregeln finden. In diesem Fall müssen Sie im Feld **Dokumentformat** eine neue Option hinzufügen, die sich auf Ihr Format bezieht.  
+
+### Unterstützte Belegtypen 
+
+Unterstützte Dokumenttypen basieren auf dem ausgewählten **Belegformat**. Um zu überprüfen, welche Belegtypen unterstützt werden, führen Sie auf der Seite **E-Belegdienst** die Aktion **Unterstützte Belegtypen** aus. Die **Unterstützten Quellbelegtypen des E-Belegdienstes** öffnet sich und in der Spalte **Quellbelegtyp** finden Sie alle die unterstützten Belegtypen.  
 
 ## Ein Belegsendeprofil einrichten
 

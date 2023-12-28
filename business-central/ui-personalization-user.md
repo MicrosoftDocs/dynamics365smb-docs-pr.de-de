@@ -8,12 +8,16 @@ ms.custom: bap-template
 ms.reviewer: jswymer
 ms.search.keywords: 'customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width'
 ms.search.form: '9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017'
-ms.date: 09/14/2023
+ms.date: 12/05/2023
 ms.author: jswymer
 ---
 # Arbeitsbereich personalisieren
 
-Sie können ihren Arbeitsbereich an Ihre Arbeit und Ihre Bedürfnisse anpassen. Ändern Sie die Seiten so, dass sie nur die Informationen anzeigen, die Sie benötigen, wo Sie sie benötigen. Personalisierung wirkt sich nur auf den Arbeitsbereich aus. Es ändert nichts daran, wie andere arbeiten. Sie können alle Typen von Seiten personalisieren, einschließlich der Seite [Rollencenter](ui-change-basic-settings.md#role-center). 
+Sie können ihren Arbeitsbereich an Ihre Arbeit und Ihre Bedürfnisse anpassen. Ändern Sie die Seiten so, dass sie nur die Informationen anzeigen, die Sie benötigen, wo Sie sie benötigen. Personalisierung wirkt sich nur auf den Arbeitsbereich aus. Es ändert nichts daran, wie andere arbeiten. Sie können alle Typen von Seiten personalisieren, einschließlich der Seite [Rollencenter](ui-change-basic-settings.md#role-center).
+
+> [!NOTE]
+> Aufgrund von Einschränkungen der Designfunktionen im Webclient ist es derzeit nicht möglich, die Steuerelemente innerhalb der Rastersyntax anzupassen oder zu personalisieren.
+Dies gilt für alle Designmodi, nicht nur für die Personalisierung.
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
@@ -184,12 +188,11 @@ Um die Personalisierung besser zu verstehen, finden Sie hier einige Hinweise.
 - Einige Seiten verfügen über mehrere Seitenfelder, die derselben Quelltabelle zugeordnet sind. Im Bereich werden beide bzw. alle dieser Seitenfelder unabhängig voneinander angezeigt. Das Ein-/Ausblenden/Verschieben dieser Felder erfolgt ebenfalls unabhängig voneinander, ohne dass sich das eine auf das andere auswirkt.
 - Wenn ein Teil oder eine Gruppe ausgeblendet ist, werden weiterhin Geisterfelder darin angezeigt, aber Sie können dieses Feld nicht per Drag und Drop verschieben oder hinzufügen/anzeigen, bis Sie die Gruppe/den Teil sichtbar gemacht haben.
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/personalize-ui-dynamics-365-business-central/index)
 
 ## Siehe auch
 [Seiten für Profile anpassen](ui-personalization-manage.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Ändern von grundlegenden Einstellungen](ui-change-basic-settings.md)  
+[Grundlegende Einstellungen ändern](ui-change-basic-settings.md)  
 [Ändern, welche Funktionen angezeigt werden](ui-experiences.md)  
 
 

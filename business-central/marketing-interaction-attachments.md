@@ -10,34 +10,34 @@ ms.search.forms: '5082,'
 ms.date: 09/05/2023
 ms.custom: bap-template
 ---
-# <a name="attachments-for-interactions"></a>Anhänge für Interaktionen
+# Anhänge für Interaktionen
 
 Die an Interaktionen angehängten Dateien werden nicht direkt an die Interaktion angehängt. Sie kommen aus einem der folgenden Orte:
 
-* Die Interaktionsvorlage, die Sie zum Erstellen der Interaktion verwendet haben. Weitere Informationen zum Einrichten von Vorlagen finden Sie unter [Einrichten von Interaktionsvorlagen](marketing-interactions.md#set-up-interaction-templates).
+* Die Interaktionsvorlage, die Sie zum Erstellen der Interaktion verwendet haben. Mehr zum Einrichten von Vorlagen erfahren Sie unter [Einrichten von Interaktionsvorlagen](marketing-interactions.md#set-up-interaction-templates).
 * Das Segment, für das Sie die Interaktion erstellt haben. Weitere Informationen zu Segmenten finden Sie unter [Interaktionen für Segmente verwalten](marketing-interaction-segments.md).
 
-## <a name="view-attachments"></a>Anlagen anzeigen
+## Anlagen anzeigen
 
 Anhänge sind verfügbar, wenn Sie aufgezeichnete Interaktionen auf der Seite **Interaktionsprotokolleinträge** ansehen. Wählen Sie die **Anlagen anzeigen**-Aktion aus.
 
-## <a name="types-of-files-you-can-attach"></a>Dateitypen, die Sie anhängen können
+## Dateitypen, die Sie anhängen können
 
-Anhänge können praktisch jede Art von Datei sein, beispielsweise Word-Dokumente, PowerPoint-Präsentationen, Excel- oder Textdateien usw.
+Anhänge können fast jede Art von Datei sein, beispielsweise Word-Dokumente, PowerPoint-Präsentationen, Excel- oder Textdateien.
 
 > [!TIP]
 > [!INCLUDE [prod_short](includes/prod_short.md)] lässt sich in Word integrieren, sodass Sie Funktionen wie Briefvorlagenfelder in Word-Vorlagen verwenden können. Weitere Informationen zur Verwendung von Word-Vorlagen finden Sie unter [Word-Vorlagen für Massenkommunikation verwenden](ui-mail-merge.md).
 
-## <a name="what-you-can-do-with-attachments"></a>Was Sie mit Anhängen machen können
+## Was Sie mit Anhängen machen können
 
-Sie können Folgendes mit Ihren Dateianhängen machen:
+Sie können folgende Aktionen mit Dateianhängen ausführen:
 
-* **Öffnen**: Sie können die entsprechende Anwendung wie beispielsweise Microsoft Word starten, und das Dokument wird geöffnet. Anschließend können Sie es bearbeiten.
-* **Importieren**: Sie können alle Arten von Dateianhängen importieren. Sie können z. B. einen erhaltenen Brief einscannen, ihn importieren und der Aktivität anhängen, die den Eingang des Briefes speichert.
-* **Exportieren**: Sie können Dateianhänge an einen externen Speicherort exportieren.
-* **Löschen**: Sie können einen Dateianhang aus einer Aktivitätenvorlage entfernen.
-* **Kopieren**: Sie können Dateianhänge von einer Aktivitätenvorlage in eine andere kopieren.
+* **Öffnen**: Starten Sie das entsprechende Programm – beispielsweise Microsoft Word – und das Dokument wird geöffnet. Anschließend können Sie es bearbeiten.
+* **Importieren**: Importieren Sie Anhänge. Sie können z. B. einen erhaltenen Brief einscannen, ihn importieren und der Aktivität anhängen, die den Eingang des Briefes speichert.
+* **Exportieren**: Exportieren Sie Anhänge an einen externen Speicherort.
+* **Löschen**: Entfernen Sie können einen Anhang aus einer Aktivitätenvorlage.
+* **Kopieren**: Kopieren Sie Anhänge von einer Aktivitätenvorlage in eine andere.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Aktivitäten mit Kontakten aufzeichnen](marketing-interactions.md)  
