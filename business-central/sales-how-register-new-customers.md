@@ -11,7 +11,7 @@ ms.search.form: '7, 21, 22, 33, 42, 43, 367, 368, 369, 461, 512, 785, 1330, 1380
 ms.date: 11/01/2023
 ms.author: bholtorf
 ---
-# Neue Debitoren registrieren
+# <a name="register-new-customers"></a>Neue Debitoren registrieren
 
 Debitoren sind Ihre Einkommensquelle. Sie müssen jeden Debitor, an den Sie verkaufen, als Debitorenkarte anlegen. Debitorenkarten enthalten die Informationen, die für den Verkauf von Produkten an Debitoren erforderlich sind. Weitere Informationen finden Sie unter [Erfassen eines Einkaufs](sales-how-invoice-sales.md) und [Neue Artikel registrieren](inventory-how-register-new-items.md).  
 
@@ -20,7 +20,7 @@ Bevor Sie neue Debitoren erfassen können, müssen Sie verschiedene Verkaufscode
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3PZsM]
 
-## Neue Debitoren hinzufügen
+## <a name="add-new-customers"></a>Neue Debitoren hinzufügen
 
 Sie können neue Debitoren manuell hinzufügen, indem Sie die Seite **Kundenkarte** ausfüllen, oder Sie können Vorlagen verwenden, die vordefinierte Informationen enthalten. Sie können zum Beispiel eine Vorlage für verschiedene Arten von Kundenprofilen erstellen. Die Verwendung von Vorlagen spart Zeit beim Hinzufügen neuer Kunden und hilft sicherzustellen, dass die Informationen jedes Mal korrekt sind. 
 
@@ -35,7 +35,7 @@ Nachdem Sie eine Vorlage erstellt haben, können Sie die Aktion **Vorlage anwend
 
 Sie können einen Debitor auch aus einem Kontakt erstellen. Weitere Informationen finden Sie unter [Erstellen eines Kunden, Kreditors, Mitarbeiters oder Bankkontos über einen Kontakt](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).  
 
-### Erstellen Sie eine neue Debitorenkarte
+### <a name="to-create-a-new-customer-card"></a>Erstellen Sie eine neue Debitorenkarte
 
 [!INCLUDE[create_new_customer](includes/create_new_customer.md)]
 
@@ -43,7 +43,7 @@ Die Aktion **Preise und Rabatte** bietet Optionen zur Verwaltung von Sonderpreis
 
 Der Debitor ist nun erfasst und die Debitorenkarte ist bereit, in Geschäftsbelegen verwendet zu werden, in denen Sie mit dem Debitor handeln.  
 
-### Um die Debitorenkarte als Vorlage zu speichern
+### <a name="to-save-the-customer-card-as-a-template"></a>Um die Debitorenkarte als Vorlage zu speichern
 
 Sie können eine Debitorenkarte als Vorlage verwenden, wenn Sie neue Debitorenkarten erstellen.
 
@@ -55,11 +55,11 @@ Sie können eine Debitorenkarte als Vorlage verwenden, wenn Sie neue Debitorenka
 
 Die Debitorenvorlage wird der Liste von Debitorenvorlagen hinzugefügt, und Sie können diese verwenden, um neue Debitorenkarten zu erstellen.
 
-## Debitorenkarten löschen
+## <a name="delete-customer-cards"></a>Debitorenkarten löschen
 
 Wenn Sie eine Transaktion für einen Debitor buchen, können Sie die Debitorenkarte nicht löschen, da die Posten möglicherweise für die Prüfung erforderlich sind. Um Debitorenkarten mit Posten zu löschen, wenden Sie sich an Ihren Microsoft-Partner, um dies über einen Code durchzuführen.  
 
-## Kreditlimits verwalten
+## <a name="manage-credit-limits"></a>Kreditlimits verwalten
 
 Kreditlimits, Restbeträge und Zahlungsbedingungen ermöglichen [!INCLUDE [prod_short](includes/prod_short.md)] die Anwendung eine Kreditlimitwarnung oder eine Warnung bei einem überfälligen Saldo anzeigt, wenn Sie einen Verkaufsauftrag anlegen. Außerdem ermöglichen Ihnen die Funktionen für Mahnungs- und Zinskonditionen die Fakturierung von Zinsen und/oder extra Gebühren.  
 
@@ -69,7 +69,7 @@ Sie können jedoch weiterhin Buchungen vornehmen, wenn das Kreditlimit überschr
 
 Sie können festlegen, dass keine Warnungen angezeigt werden, wenn das Kreditlimit des Debitors überschritten wurde, und Sie können angeben, welche Arten von Warnungen angezeigt werden sollen.
 
-### So legen Sie Kreditlimitwarnungen fest
+### <a name="to-specify-credit-limit-warnings"></a>So legen Sie Kreditlimitwarnungen fest
 
 1. Wählen Sie das Symbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Einrichtung Debitoren & Verkauf** ein und wählen Sie dann den entsprechenden Link.
 
@@ -82,7 +82,7 @@ Sie können festlegen, dass keine Warnungen angezeigt werden, wenn das Kreditlim
     |**Fälliger Saldo**|Das Feld **Fälliger Saldo** auf der Debitorenkarte wird geprüft, und eine Warnung wird angezeigt, wenn sich der Debitor im Zahlungsrückstand befindet.|
     |**Keine Warnung**|Keine Kreditwarnungen werden über den Status des Debitors angezeigt.|
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Zahlungsformen definieren](finance-payment-methods.md)  
 [Doppelte Datensätze zusammenführen](sales-how-merge-duplicate-records.md)  
