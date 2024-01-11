@@ -11,11 +11,11 @@ ms.search.form: '5194,'
 ms.custom: bap-template
 ---
 
-# Einführung in die Demodaten für Contoso Coffee
+# <a name="introduction-to-contoso-coffee-demo-data"></a>Einführung in die Demodaten für Contoso Coffee
 
 Contoso Coffee ist ein fiktives Unternehmen, das Kaffeemaschinen für Verbraucher und gewerbliche Kunden herstellt. Die **Contoso Coffee**-Apps für [!INCLUDE [prod_short](../includes/prod_short.md)] fügen Demodaten hinzu, mit deren Hilfe Sie die Verwendung der Produktionsfunktionen in [!INCLUDE [prod_short](../includes/prod_short.md)] erlernen können.  
 
-## Demodaten für Contoso Coffee einrichten
+## <a name="set-up-contoso-coffee-data"></a>Demodaten für Contoso Coffee einrichten
 
 [!INCLUDE [contoso-coffee-app-install](contoso-coffee-app-install.md)].
 
@@ -39,7 +39,7 @@ Die Einstellungen werden in den folgenden Tabellen beschrieben:
 
 Nachdem Sie die Module konfiguriert haben, die Sie ausprobieren möchten, wählen Sie die Aktion **Generieren**, um Demonstrationsdaten für sie zu erstellen.
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Fertigung](../production-manage-manufacturing.md)  
 [Lagerfunktionen](../warehouse-manage-warehouse.md)  
