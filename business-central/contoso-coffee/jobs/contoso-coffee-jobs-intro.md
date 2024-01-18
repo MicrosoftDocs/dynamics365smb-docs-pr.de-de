@@ -8,7 +8,7 @@ ms.date: 05/31/2023
 ms.custom: bap-template
 ---
 
-# <a name="introduction-to-contoso-coffee-jobs-and-project-management"></a>Einführung in Contoso Coffee-Auftrags- und Projektmanagement
+# Einführung in Contoso Coffee-Auftrags- und Projektmanagement
 
 Contoso Coffee ist ein fiktives Unternehmen, das Kaffeemaschinen für Verbraucher und gewerbliche Kunden herstellt. Die **Contoso Coffee**-Apps für Business Central fügen Demodaten hinzu, mit deren Hilfe Sie die Verwendung der Auftrags- und Projektmanagementfunktionen in Business Central erlernen können.
 
@@ -21,9 +21,9 @@ Diese App bietet mehrere Elemente, die für die wichtigsten exemplarischen Vorge
 > Bevor Sie eines der Szenarien für Contoso Coffee ausführen, buchen Sie alle Buchungsblattzeilen mit Anfangssalden. Weitere Anforderungen finden Sie im Abschnitt [Contoso Coffee-Daten einrichten](#set-up-contoso-coffee-jobs-and-project-management-data).
 >
 > 
-## <a name="set-up-contoso-coffee-jobs-and-project-management-data"></a>Einrichten von Contoso Coffee-Auftrags- und Projektmanagementdaten
+## Einrichten von Contoso Coffee-Auftrags- und Projektmanagementdaten
 
-[!INCLUDE [contoso-coffee-app-install](../contoso-coffee-app-install.md)].
+[!INCLUDE [contoso-coffee-app-install](../../includes/contoso-coffee-app-install.md)]
 
 Sobald die relevanten Apps installiert sind, wechseln Sie zur Seite [Demodaten für Contoso Coffee-Projekte](https://businesscentral.dynamics.com/?page=4767) in [!INCLUDE [prod_short](../../includes/prod_short.md)], und ändern Sie die Standardeinstellungen entsprechend Ihren Anforderungen. Die Einstellungen werden in den folgenden Tabellen beschrieben:  
 
@@ -46,4 +46,4 @@ Sobald die relevanten Apps installiert sind, wechseln Sie zur Seite [Demodaten f
 
 Wenn Sie fertig sind, wählen Sie die Aktion **Demodaten erstellen** aus. Es dauert einige Minuten, der zugrunde liegenden Datenbank die Daten hinzuzufügen, anschließend können Sie die verschiedenen Szenarien jedoch ausführen.  
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch

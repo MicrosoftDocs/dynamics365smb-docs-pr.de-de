@@ -1,5 +1,5 @@
 ---
-title: Actionable Insights in Role Centern anzeigen
+title: Verwertbare Erkenntnisse in Rollencentern anzeigen
 description: 'Erfahren Sie, wie die Erweiterung Essential Business Insights eine Reihe von Business Insights in Role Centern anzeigt.'
 documentationcenter: ''
 author: brentholtorf
@@ -9,15 +9,15 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 'BI, add-in, insight, headline, data'
 ms.search.form: '1439,'
-ms.date: 06/23/2021
+ms.date: 12/12/2023
 ms.author: bholtorf
 ---
 
-# <a name="the-essential-business-insights-extension"></a>Die wesentliche Business Insights-Erweiterung
+# Erweiterung für wesentliche Geschäftsinformationen
 
 Die Essential Business Insights Erweiterung findet interessante Geschäftsfakten in Ihren Unternehmensdaten und zeigt sie als zeitungsähnliche Titel in Rollencenters an. Abhängig davon, was die Erweiterung findet, sind die Einblicke der letzten Woche, des letzten Monats oder der letzten drei Monate ab dem aktuellen Datum. Die Einblicke aktualisieren alle 10 Minuten.  
 
-Wenn Sie eine genauere Betrachtung auf Einblick werfen möchten, können Sie wählen, zum Ursprung  umzurüsten. Wenn Sie Details über die größte Verkaufsrechnung möchten, die letzte Woche gebucht wurde, können Sie Insights wählen, um die Rechnung in Insights anzuzeigen.
+Wenn Sie eine genauere Betrachtung auf Einblick werfen möchten, können Sie wählen, zum Ursprung umzurüsten. Wenn Sie Details über die größte Verkaufsrechnung möchten, die letzte Woche gebucht wurde, können Sie Insights wählen, um die Rechnung in Insights anzuzeigen.
 
 Die folgende Tabelle beschreibt die Einblicke, die diese Erweiterung für jedes Rollencenter bereitstellt.
 
@@ -32,7 +32,7 @@ Die folgende Tabelle beschreibt die Einblicke, die diese Erweiterung für jedes 
 |Projekt-Manager| Zeigt eine Anrede und Verbindung zur Produktinformationen an.|
 |Administrator| Zeigt eine Anrede und Verbindung zur Produktinformationen an.|
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Anpassen von [!INCLUDE[prod_short](includes/prod_short.md)] mithilfe von Erweiterungen](ui-extensions.md)
 

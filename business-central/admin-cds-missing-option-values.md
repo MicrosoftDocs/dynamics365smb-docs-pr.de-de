@@ -6,14 +6,14 @@ ms.author: bholtorf
 ms.custom: na
 ms.reviewer: na
 ms.topic: conceptual
-ms.date: 03/23/2022
+ms.date: 12/12/2023
 ---
 
 # Behandlung fehlender Optionswerte
 > [!NOTE]
 > Im 1. Veröffentlichungszyklus 2022 können Sie Ihre eigenen Optionszuordnungen erstellen. Weitere Informationen finden Sie unter [Anpassen von Optionszuordnungen mit Microsoft Dataverse](/dynamics365/business-central/dev-itpro/administration/administration-custom-option-mapping). Für die neuen Funktionen muss Ihr Administrator die Option **Funktionsupdate: Zuordnung zu Optionssätzen in Dataverse ohne Code** auf der Seite **Funktionsverwaltung** aktivieren. Weitere Informationen finden Sie unter [Bevorstehende Funktionen im Voraus aktivieren](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
-Dieses Thema richtet sich an ein technisches Publikum. Die darin beschriebenen Prozesse erfordern die Hilfe eines Entwicklers.
+Dieser Artikel richtet sich an ein technisches Publikum. Die darin beschriebenen Prozesse erfordern die Hilfe eines Entwicklers.
 
 [!INCLUDE[prod_short](includes/cds_long_md.md)] enthält drei Optionssatzfelder, die Werte enthalten, die Sie [!INCLUDE[prod_short](includes/prod_short.md)] Feldern vom Typ „Option“ zur automatischen Synchronisation zuordnen können. Während der Synchronisation werden nicht abgebildete Optionen ignoriert und die fehlenden Optionen werden an die zugehörige [!INCLUDE[prod_short](includes/prod_short.md)]-Tabelle angehängt und der **Dataverse-Optionszuordnung**-Systemtabelle hinzugefügt, um später manuell behandelt zu werden. Zum Beispiel, indem er die fehlenden Optionen in einem der beiden Produkte hinzufügt und dann die Zuordnung aktualisiert.
 
@@ -37,7 +37,7 @@ Die Seite **Integration Tabellenzuordnung** enthält drei Felder, die einen oder
 
 Der Inhalt der Seite **Dataverse-Optionszuordnung** basiert auf Aufzählungswerten in der Tabelle **CRM -Konto**. In [!INCLUDE[prod_short](includes/cds_long_md.md)] werden die folgenden Felder auf der Kontotabelle den Feldern der Debitoren- und Kreditorendatensätze zugeordnet:
 
-- **Adresse 1: Frachtbedingungen** vom Datentyp Enum, wobei die Werte wie folgt definiert sind:
+- **Adresse 1: Frachtbedingungen** vom Datentyp Enumeration, wobei die Werte wie folgt definiert sind:
 
 ```
 enum 5335 "CDS Shipment Method Code"
@@ -82,7 +82,7 @@ enum 5334 "CDS Payment Terms Code"
 
 Alle obigen [!INCLUDE[prod_short](includes/prod_short.md)] Enums werden den Optionssätzen in [!INCLUDE[prod_short](includes/cds_long_md.md)] zugeordnet.
 
-### Optionssätze in [!INCLUDE[prod_short](includes/prod_short.md)] erweitern
+## Optionssätze in [!INCLUDE[prod_short](includes/prod_short.md)] erweitern
 1. Erstellen Sie eine neue AL-Erweiterung.
 
 2. Fügen Sie eine Enum-Erweiterung für die Optionen hinzu, die Sie erweitern möchten. Achten Sie darauf, dass Sie den gleichen Wert verwenden. 
@@ -104,7 +104,7 @@ enumextension 50100 "CDS Payment Terms Code Extension" extends "CDS Payment Term
 > [!NOTE]
 > Die ersten zehn Zeichen der neuen Optionswertnamen und Beschriftungen müssen eindeutig sein. Beispielsweise führen zwei Optionen mit den Namen „Übertragung 20 Arbeitstage“ und „Übertragung 20 Kalendertage“ zu einem Fehler, da beide die gleichen ersten 10 Zeichen, „Übertragung 2“, haben. Nennen Sie sie z.B. „TRF20 WD“ und „TRF20 CD“.
 
-### Update [!INCLUDE[prod_short](includes/cds_long_md.md)] Optionszuordnung
+## Die [!INCLUDE[prod_short](includes/cds_long_md.md)]-Optionszuordnung aktualisieren
 Jetzt können Sie die Zuordnung zwischen [!INCLUDE[prod_short](includes/cds_long_md.md)]-Optionen und [!INCLUDE[prod_short](includes/prod_short.md)]-Einträgen neu erstellen.
 
 Wählen Sie auf der Seite **Integration Tabellenzuordnung** die Zeile für die Karte **Zahlungsbedingungen** und wählen Sie dann die Aktion **Modifizierte Datensätze synchronisieren**. Die Seite **Dataverse Optionszuordnung** wird mit den zusätzlichen Datensätzen unten aktualisiert.
@@ -118,7 +118,7 @@ Wählen Sie auf der Seite **Integration Tabellenzuordnung** die Zeile für die K
 | **Zahlungsbedingungen: BARZAHLUNG**  | **779800001**  | **Barzahlung**     |
 | **Zahlungsbedingungen: ÜBERWEISUNG**    | **779800002**  | **Umlagerung**         |
 
-Die Tabelle **Zahlungsbedingungen** in [!INCLUDE[prod_short](includes/prod_short.md)] enthält dann neue Datensätze für die Optionen [!INCLUDE[prod_short](includes/cds_long_md.md)]. In der folgenden Tabelle sind neue Optionen fettgedruckt. Kursiv gedruckte Zeilen stellen alle Optionen dar, die jetzt synchronisiert werden können. Die verbleibenden Zeilen stellen Optionen dar, die nicht verwendet werden und während der Synchronisierung ignoriert werden. Sie können sie entfernen oder Dataverse-Optionen mit den gleichen Namen erweitern).
+Die Tabelle **Zahlungsbedingungen** in [!INCLUDE[prod_short](includes/prod_short.md)] enthält dann neue Datensätze für die Optionen [!INCLUDE[prod_short](includes/cds_long_md.md)]. In der folgenden Tabelle sind neue Optionen fettgedruckt. Kursiv gedruckte Zeilen stellen alle Optionen dar, die jetzt synchronisiert werden können. Die verbleibenden Zeilen stellen Optionen dar, die nicht verwendet und während der Synchronisierung ignoriert werden. Sie können sie entfernen oder Dataverse-Optionen mit den gleichen Namen erweitern).
 
 | Code       | Berechnung Fälligkeitsdatum | Berechnung des Diskontierungsdatums | Ermäßigung in % | Rechnungsrab. Zahl. Verk. im Zinsrechnung | Beschreibung       |
 |------------|----------------------|---------------------------|------------|-------------------------------|-------------------|
@@ -138,7 +138,7 @@ Die Tabelle **Zahlungsbedingungen** in [!INCLUDE[prod_short](includes/prod_short
 | *NET30*      |                      |                           | 0.         | FALSCH                         |                   |
 | *NET45*      |                      |                           | 0.         | FALSCH                         |                   |
 | *NET60*      |                      |                           | 0.         | FALSCH                         |                   |
-| ***ÜBERTRAGUNG*** |                      |                           | 0.         | FALSCH                         |                   |
+| ***UMLAG*** |                      |                           | 0.         | FALSCH                         |                   |
 
 ## Siehe auch
 [Zu synchronisierende Tabellen und Felder zuordnen](admin-how-to-modify-table-mappings-for-synchronization.md)

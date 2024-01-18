@@ -1,16 +1,16 @@
 ---
-title: Details zum Anwendungsdesign
-description: Dieser Inhalt enthält detaillierte technische Informationen über komplexe Anwendungsbereiche in  Business Central.
+title: Anwendungsdesigndetails
+description: Dieser Inhalt enthält detaillierte technische Informationen über komplexe Anwendungsbereiche in Business Central.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: null
-ms.date: 11/26/2021
+ms.date: 12/13/2023
 ms.author: bholtorf
 ---
-# <a name="application-design-details"></a>Details zum Anwendungsdesign
+# Anwendungsdesigndetails
 
 Die Artikel in diesem Abschnitt enthalten detaillierte technische Informationen zu komplexen Anwendungsbereiche in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
@@ -24,9 +24,9 @@ Der Designdetailinhalt wendet sich an Implementierer, Entwickler und Superuser, 
 |Erfahren Sie, wie das Planungssystem arbeitet und wie die Algorithmen angepasst werden, um Planungsbedingungen in verschiedenen Umgebungen zu erfüllen.|[Entwurfsdetails: Vorratsplanung](design-details-supply-planning.md)|  
 |Erfahren Sie, wie das System eine konstante Kontrolle der Artikelverfügbarkeit im Lager aufrechterhält, sodass ausgehende Aufträge effizient verlaufen und optimale Lieferungen zur Verfügung stellen können.|[Designdetails: Verfügbarkeit im Lager](design-details-availability-in-the-warehouse.md)|
 |Informationen zu historischen und aktuellen Darstellungsarten von Artikelverfolgungsfunktionen und wie diese mit dem Reservierungssystem verknüpft werden können, um Serien-/Chargennummern bei der Verfügbarkeitsberechnung zu berücksichtigen.|[Designdetails: Artikelverfolgung](design-details-item-tracking.md)|  
-|Erfahren Sie mehr über die Finanzbuchhaltungs-Buchungsfunktion.|[Designdetails: Fibu Buch.-Blatt-Beitrags-Zeile](design-details-general-journal-post-line.md)|
+|Erfahren Sie mehr über die Finanzbuchhaltungs-Buchungsfunktion.|[Designdetails: Fibu Buch.-Blatt-Buchungsposition](design-details-general-journal-post-line.md)|
 
-## <a name="see-also"></a>Weitere Informationen
+## Siehe auch
 
 [Planung](production-planning.md)  
 [Verwalten der Bestandsregulierung](finance-manage-inventory-costs.md)  

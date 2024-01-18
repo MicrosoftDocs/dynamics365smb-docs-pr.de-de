@@ -7,10 +7,10 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: '1080, 1081, 1083, 1085, 1087, 1089'
-ms.date: 04/01/2021
+ms.date: 12/12/2023
 ms.author: bholtorf
 ---
-# <a name="the-microsoft-pay-extension"></a>Die Microsoft Pay-Erweiterung
+# Die Microsoft Pay-Erweiterung
 
 > [!IMPORTANT]
 > Mit Wirkung zum 8. Februar 2020 wirken sich Änderungen im Microsoft Pay-Service auf die Microsoft Pay-Erweiterung in Microsoft [!INCLUDE[prod_short](includes/prod_long.md)] aus. Aufgrund der Änderungen öffnen die **Zahlen Sie jetzt**-Zahlungslinks, die die Microsoft Pay-Erweiterung für Rechnungen in [!INCLUDE[prod_short](includes/prod_short.md)] generiert, nach dem 8. Februar Microsoft Pay nicht. Kunden, die die Erweiterung verwenden, sollten ihre Zahlungsverkehrseinrichtung ändern, um stattdessen die PayPal-Erweiterung zu verwenden.<br /></br>
@@ -34,9 +34,9 @@ Die Microsoft Pay-Erweiterung bietet die folgenden Vorteile:
 - Der Microsoft Pay-Link kann jedem Rechnungsbeleg oder vom Benutzer automatisch eingebettet werden.
 - Da diese Funktionalität als Erweiterung aufgebaut ist, gibt sie Ihnen Kontrolle, um sie zu aktivieren und wenn die Geschäftsvorgänge sie benötigen.
 
-Das Aktivieren der Zahlungsverkehrerweiterungen ist frei in [!INCLUDE[prod_short](includes/prod_short.md)]jedoch müssen Sie den Zahlungsservice kontaktieren, um ein Konto auszuwählen. Weitere Informationen finden Sie unter [Aktivieren Sie Zahlungen durch Zahlungsverkehr](sales-how-enable-payment-service-extensions.md)
+Das Aktivieren der Zahlungsverkehrerweiterungen ist in [!INCLUDE[prod_short](includes/prod_short.md)] kostenlos, Sie müssen jedoch den Zahlungsservice kontaktieren, um ein Konto zu erhalten. Weitere Informationen finden Sie unter [Aktivieren Sie Zahlungen durch Zahlungsverkehr](sales-how-enable-payment-service-extensions.md)
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Anpassen von [!INCLUDE[prod_short](includes/prod_short.md)] mithilfe von Erweiterungen](ui-extensions.md)  
 [Einrichten von Verkäufen](sales-setup-sales.md)  

@@ -1,15 +1,15 @@
 ---
 title: Einführung in Contoso Coffee Produktion
 description: 'Übersicht über Szenarien dazu, wie Sie mithilfe von Contoso Coffee-Demodaten die Verwendung von Produktionsfunktionen in Business Central erlernen können.'
-ms.date: 04/01/2022
+ms.date: 04/01/2023
 ms.topic: article
 ms.service: dynamics365-business-central
-ms.search.form: 4765
+ms.search.form: '4765,'
 author: brentholtorf
 ms.author: bholtorf
 ---
 
-# <a name="introduction-to-contoso-coffee-manufacturing"></a>Einführung in Contoso Coffee Produktion
+# Einführung in Contoso Coffee Produktion
 
 Contoso Coffee ist ein fiktives Unternehmen, das Kaffeemaschinen für Verbraucher und gewerbliche Kunden herstellt. Die **Contoso Coffee**-Apps für Business Central fügen Demodaten hinzu, mit deren Hilfe Sie die Verwendung der Produktionsfunktionen in Business Central erlernen können.  
 
@@ -36,9 +36,9 @@ Die Fertigungsaktivitäten für alle Szenarien verwenden den Standort *MAIN*.
 > [!IMPORTANT]
 > Bevor Sie eines der Szenarien für Contoso Coffee ausführen, buchen Sie alle Buchungsblattzeilen mit Anfangssalden. Weitere Anforderungen finden Sie im Abschnitt [Contoso Coffee-Daten einrichten](#set-up-contoso-coffee-manufacturing-data).
 
-## <a name="set-up-contoso-coffee-manufacturing-data"></a>Contoso Coffee-Produktionsdaten
+## Contoso Coffee-Produktionsdaten
 
-[!INCLUDE [contoso-coffee-app-install](../contoso-coffee-app-install.md)].
+[!INCLUDE [contoso-coffee-app-install](../../includes/contoso-coffee-app-install.md)]
 
 |Feld  |Description  |
 |---------|---------|
@@ -47,7 +47,7 @@ Die Fertigungsaktivitäten für alle Szenarien verwenden den Standort *MAIN*.
 
 Wenn Sie fertig sind, wählen Sie die Aktion **Demodaten erstellen** aus. Es dauert einige Minuten, der zugrunde liegenden Datenbank die Daten hinzuzufügen, anschließend können Sie die verschiedenen Szenarien jedoch ausführen.  
 
-## <a name="scenarios"></a>Szenarien
+## Szenarien
 
 Die Produktions-Demodaten von Contoso Coffee unterstützen derzeit die folgenden Szenarien für Tests und Schulungen:
 
@@ -65,7 +65,7 @@ Lesen Sie die Schritte für jedes Szenario im entsprechenden Artikel.
 > [!IMPORTANT]
 > Diese exemplarischen Vorgehensweisen erfordern, dass die Benutzererfahrung auf der Seite **Unternehmensdaten** auf *Premium* festgelegt ist.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Produktion](../../production-manage-manufacturing.md)  
 [Produktionsberichte und Analysen in Business Central](../../production-reports.md)  

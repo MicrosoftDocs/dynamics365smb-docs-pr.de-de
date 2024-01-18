@@ -6,10 +6,10 @@ ms.author: bholtorf
 ms.reviewer: null
 ms.topic: conceptual
 ms.search.form: '1360, 1361, 1364,'
-ms.date: 08/02/2023
-ms.custom: hap-template
+ms.date: 12/11/2023
+ms.custom: bap-template
 ---
-# <a name="the-worldpay-payments-standard-extension"></a>Die WorldPay Payments Standard-Erweiterung
+# Die WorldPay Payments Standard-Erweiterung
 
 > [!CAUTION]
 > Die Erweiterung WorldPay Payments Standard wird eingestellt. Der Code gilt ab dem 2. Veröffentlichungszyklus 2023 als veraltet. Die App bleibt für die nächsten drei Hauptversionen aktiv und wird dann entfernt.
@@ -18,9 +18,9 @@ Mit der WorldPay Payments Standard-Erweiterung bieten Sie Debitoren eine bequeme
 
 Wenn Sie die Erweiterung aktivieren und eine Verkaufsrechnung per E-Mail senden, enthält das Dokument einen Link an den Zahlungsservice im E-Mail-Text und im angefügten PDF-Dokument. Ein Debitor kann den Link auswählen und wird dann den Zahlungsservice nutzen, um die Zahlung zu leisten.
 
-Das Aktivieren der Zahlungsverkehrerweiterungen ist frei in [!INCLUDE[prod_short](includes/prod_short.md)]jedoch müssen Sie den Zahlungsservice kontaktieren, um ein Konto auszuwählen. Weitere Informationen finden Sie unter [Aktivieren Sie Zahlungen durch Zahlungsverkehr](sales-how-enable-payment-service-extensions.md)
+Das Aktivieren der Zahlungsverkehrerweiterungen ist in [!INCLUDE[prod_short](includes/prod_short.md)] kostenlos, Sie müssen jedoch den Zahlungsservice kontaktieren, um ein Konto zu erhalten. Weitere Informationen finden Sie unter [Aktivieren Sie Zahlungen durch Zahlungsverkehr](sales-how-enable-payment-service-extensions.md).
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Anpassen von [!INCLUDE[prod_short](includes/prod_short.md)] mithilfe von Erweiterungen](ui-extensions.md)  
 [Einrichten von Verkäufen](sales-setup-sales.md)  

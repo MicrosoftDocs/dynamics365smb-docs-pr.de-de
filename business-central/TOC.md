@@ -42,6 +42,10 @@
 ##### [Exemplarische Vorgehensweise: Eingehende und ausgehende Abläufe in Basis-Lagerkonfigurationen](contoso-coffee/warehousing/warehouse-basic-flow-putaway-pick.md)
 ##### [Exemplarische Vorgehensweise: Eingehende und ausgehende Abläufe in gemischten Lagerkonfigurationen](contoso-coffee/warehousing/warehouse-mixed-flow-receive-pick-ship.md)
 ##### [Exemplarische Vorgehensweise: Eingehende und ausgehende Abläufe in erweiterter Lagerkonfiguration mit gesteuerter Einlagerung und Kommissionierung](contoso-coffee/warehousing/warehouse-directed-flow.md)
+#### Dienst
+##### [Einführung in Contoso Coffee-Servicemanagement](contoso-coffee/service/contoso-coffee-service-intro.md)
+##### [Exemplarische Vorgehensweise bei Serviceaufträgen für Serviceartikel](contoso-coffee/service/service-basic-flow-order.md)
+##### [Exemplarische Vorgehensweise bei Serviceverträgen für Serviceartikel](contoso-coffee/service/service-contract-flow.md)
 
 ### Designdetails
 #### [Anwendungsdesigndetails – Übersicht](design-details-application-design.md)
