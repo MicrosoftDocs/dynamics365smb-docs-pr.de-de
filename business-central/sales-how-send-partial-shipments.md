@@ -2,13 +2,13 @@
 title: Teillieferungen verarbeiten
 description: 'Die Lieferungen von Verkaufsaufträgen können in Business Central mit Teillieferungen verarbeitet werden, indem Versandhinweis- und Zu liefern-Felder verwendet werden.'
 author: brentholtorf
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.topic: conceptual
 ms.search.keywords: 'shipping advice, partial shipments, partial deliveries, trade, customer sales order'
 ms.date: 08/12/2022
 ms.author: bholtorf
 ---
-# <a name="process-partial-shipments"></a>Teillieferungen verarbeiten
+# Teillieferungen verarbeiten
 
 Bei einer Teillieferung wird eine Bestellung nicht auf einmal versandt. Sie liefern z. B. bei einem Auftrag von 100 Einheiten sofort 40 Einheiten und 60 Einheiten zu einem späteren Zeitpunkt. Es gibt keine Begrenzung für die Anzahl der Lieferungen, die für einen Auftrag gebucht werden können.
 
@@ -18,7 +18,7 @@ Standardmäßig, setzt [!INCLUDE [prod_short](includes/prod_short.md)] das Feld 
 
 [!INCLUDE [order-ship-invoice_md](includes/order-ship-invoice.md)]
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Produkte mit einem Verkaufsauftrag des Debitors verkaufen](sales-how-sell-products.md)  
 [Versenden von Artikeln](warehouse-how-ship-items.md)  

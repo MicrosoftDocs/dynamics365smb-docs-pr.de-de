@@ -4,12 +4,12 @@ description: 'Weitere Informationen über Funktionalitäten und Funktionen, die 
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: jswymer
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.topic: conceptual
 ms.date: 12/01/2022
 ms.custom: bap-template
 ---
-# <a name="general-business-functionality"></a>Allgemeine Geschäftsfunktionen
+# Allgemeine Geschäftsfunktionen
 
 [!INCLUDE[prod_short](includes/prod_short.md)] stellt dedizierte Funktionen für typische Geschäftsbereiche, wie Finanzen und Personalwesen, bereit. Weitere Informationen finden Sie unter [Business-Funktionalität](across-business-functionality.md).
 
@@ -45,7 +45,7 @@ Die folgende Tabelle enthält die unterstützten Geschäftsbereiche und Links zu
 | Richten Sie Datenaustauschdefinitionen ein, damit Sie elektronische Belege versenden und erhalten können. |[Daten elektronisch austauschen](across-data-exchange.md) |
 | Verwenden Sie Online-Karten, um Standorte und Wegbeschreibungen zu Kunden, Lieferanten und Adressen im Allgemeinen zu finden. | [Verwenden Sie Online-Karten, um Standorte und Wegbeschreibungen zu finden](across-online-maps.md) |
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Verwaltung](admin-setup-and-administration.md)  

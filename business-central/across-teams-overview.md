@@ -4,14 +4,14 @@ description: Geben Sie Business Central-Datensätze direkt in einer Unterhaltung
 author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.topic: overview
 ms.search.keywords: 'Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork'
 ms.date: 09/22/2022
 ms.custom: bap-template
 ---
 
-# <a name="business-central-and-microsoft-teams-integration"></a>Integration von Business Central und Microsoft Teams
+# Integration von Business Central und Microsoft Teams
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
@@ -19,11 +19,11 @@ ms.custom: bap-template
 
 Die App ist im Teams-Marketplace verfügbar und kann mit der Teams-Web-, Desktop- oder mobilen App verwendet werden.
 
-## <a name="features-overview"></a>Funktionsübersicht
+## Funktionsübersicht
 
 Die [!INCLUDE [prod_short](includes/prod_short.md)]-App für Teams bietet die folgenden Funktionen.
 
-### <a name="look-up-details-of-customers-vendors-and-other-contacts"></a>Suchen Sie nach Details zu Debitoren, Kreditoren und anderen Kontakten
+### Suchen Sie nach Details zu Debitoren, Kreditoren und anderen Kontakten
 
 Unabhängig davon, wo Sie sich in Teams befinden, können Sie Details zu Debitoren, Kreditoren und anderen [!INCLUDE [prod_short](includes/prod_short.md)]-Kontakten nachschlagen. Mit dieser Funktion können Sie nicht nur allgemeine Informationen zu Kontakten anzeigen, sondern auch auf den Interaktionsverlauf, verwandte Dokumente und mehr zugreifen.
 
@@ -35,7 +35,7 @@ Sie können auch Kontaktdaten in einem Gespräch teilen. Von dort haben die Teil
 
 Weitere Informationen finden Sie unter [Suchen nach Kontakten von Microsoft Teams](across-search-contacts-teams.md).
 
-### <a name="share-records-in-conversations"></a>Datensätze in Gesprächen teilen
+### Datensätze in Gesprächen teilen
 
 Sie können einen Link zu einem beliebigen Business Central-Datensatz kopieren und ihn in eine Teams-Unterhaltung einfügen, um ihn mit Ihren Mitarbeitern zu teilen. Die App dann wird zu einem kompakten, interaktiven Link erweitert, auf dem Informationen zum Datensatz angezeigt werden.
 
@@ -45,7 +45,7 @@ Wenn Sie sich in der Unterhaltung befinden, können Sie und Ihre Mitarbeiter wei
 
 Weitere Informationen finden Sie unter [Datensätze in Microsoft Teams](across-working-with-teams.md) teilen.
 
-### <a name="share-links-from-pages-in-business-central-to-teams"></a>Links von Seiten in Business Central für Teams freigeben
+### Links von Seiten in Business Central für Teams freigeben
 
 Direkt von den meisten Sammlungs- und Detailseiten in Business Central können Sie die Aktion **Für Teams freigeben** über das Symbol ![!Das Teilen-Menü auf Seiten.](media/share-icon.png "Das Menü Teilen, das auf einer Karte angezeigt wird.") Symbol, um eine Nachricht zu verfassen, Empfänger auszuwählen, z.B. Teammitglieder, Gruppen oder Kanäle, und die Nachricht mit einem Link und zur Seite Business Central zu senden.
 
@@ -55,7 +55,7 @@ Direkt von den meisten Sammlungs- und Detailseiten in Business Central können S
 
 Weitere Informationen finden Sie unter [Datensätze und Seitenlinks teilen in Microsoft Teams](across-working-with-teams.md#share-link).
 
-### <a name="add-a-business-central-tab-to-teams-channel-or-chat"></a>Business Central-Registerkarte zu Teams-Kanal oder -Chat hinzufügen
+### Business Central-Registerkarte zu Teams-Kanal oder -Chat hinzufügen
 
 Wenn die Business Central-App für Teams installiert ist, können Sie eine Registerkarte in einem Kanal oder Chat hinzufügen, die Business Central-Daten aus Listen und Kartenseiten anzeigt.
 
@@ -63,7 +63,7 @@ Wenn die Business Central-App für Teams installiert ist, können Sie eine Regis
 
 Weitere Informationen finden Sie unter [Eine Business Central-Registerkarte in Teams hinzufügen](across-teams-tab.md).
 
-## <a name="get-started"></a>Erste Schritte
+## Erste Schritte
 
 1. Für die [!INCLUDE [prod_short](includes/prod_short.md)]-App für Teams ist ein [!INCLUDE [prod_short](includes/prod_short.md)]-Online-Benutzerkonto erforderlich.
 
@@ -76,7 +76,7 @@ Weitere Informationen finden Sie unter [Eine Business Central-Registerkarte in T
 3. Installieren Sie die [!INCLUDE [prod_short](includes/prod_short.md)]-App in Teams. Siehe [Die [!INCLUDE [prod_short](includes/prod_short.md)]-App für Microsoft Teams installieren](across-install-app-for-teams.md).
 4. Sobald die App installiert ist, können Sie loslegen. Weitere Informationen finden Sie unter [Debitoren, Kreditoren oder andere Kontakte über Microsoft Teams suchen](across-search-contacts-teams.md) und unter [Datensätze in Microsoft Teams teilen](across-working-with-teams.md).
 
-## <a name="see-also"></a>Weitere Informationen
+## Weitere Informationen
 
 [Teams FAQ](teams-faq.md)  
 [Teams Problembehebung](admin-teams-troubleshooting.md)  
