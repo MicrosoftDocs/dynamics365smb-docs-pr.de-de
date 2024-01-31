@@ -13,7 +13,7 @@ ms.date: 12/12/2023
 ms.author: bholtorf
 ---
 
-# <a name="the-essential-business-insights-extension"></a>Erweiterung für wesentliche Geschäftsinformationen
+# Erweiterung für wesentliche Geschäftsinformationen
 
 Die Essential Business Insights Erweiterung findet interessante Geschäftsfakten in Ihren Unternehmensdaten und zeigt sie als zeitungsähnliche Titel in Rollencenters an. Abhängig davon, was die Erweiterung findet, sind die Einblicke der letzten Woche, des letzten Monats oder der letzten drei Monate ab dem aktuellen Datum. Die Einblicke aktualisieren alle 10 Minuten.  
 
@@ -32,7 +32,7 @@ Die folgende Tabelle beschreibt die Einblicke, die diese Erweiterung für jedes 
 |Projekt-Manager| Zeigt eine Anrede und Verbindung zur Produktinformationen an.|
 |Administrator| Zeigt eine Anrede und Verbindung zur Produktinformationen an.|
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Anpassen von [!INCLUDE[prod_short](includes/prod_short.md)] mithilfe von Erweiterungen](ui-extensions.md)
 

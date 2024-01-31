@@ -3,8 +3,9 @@ author: brentholtorf
 ms.topic: include
 ms.date: 02/23/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-## <a name="check-data-in-documents-and-journals-while-you-work"></a>Daten in Belegen und Buch.-Blätter während der Arbeit überprüfen
+## Daten in Belegen und Buch.-Blätter während der Arbeit überprüfen
 
 Im 1. Veröffentlichungszyklus 2022 haben wir eine Funktion eingeführt, die die Daten während Ihrer Eingabe in Belege und Journale validiert. Das Aktivieren dieser Funktion kann beispielsweise dazu beitragen, Fehler bei der Dateneingabe zu vermeiden oder etwas aufgrund eines Fehlers nicht veröffentlichen zu können. 
 

@@ -8,9 +8,10 @@ ms.reviewer: na
 ms.topic: conceptual
 ms.search.form: 1752
 ms.date: 06/14/2021
+ms.service: dynamics-365-business-central
 ---
 
-# <a name="classifying-data-sensitivity-fields"></a>Klassifizieren von Datensensitivitätsfeldern
+# Klassifizieren von Datensensitivitätsfeldern
 
 Um die Felder zu klassifizieren, die vertrauliche oder Personendaten enthalten, kann ein Microsoft Partner die Eigenschaft ```DataClassification``` auf Felder setzen. Dazu müssen Zugriff auf die Datenbanktabellen haben, entweder über die Entwicklungsumgebung oder indem ein Windows PowerShell-Skript ausgeführt wird. Weitere Informationen finden Sie unter [Daten klassieren](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data).  
 
@@ -28,7 +29,7 @@ Die folgende Tabelle beschreibt Datenempfindlichkeitsebenen, die Sie zuweisen k�
 |Vertraulich | Kommerzielle Daten, die Sie für Buchhaltungs- oder andere Geschäftszwecke nutzen und nicht mit anderen Einheiten teilen möchten. Beispielsweise können dies Verkaufsposten sein.|
 |Normal | Allgemeine Daten, die keine andere Klassifizierung haben.|
 
-## <a name="how-do-i-classify-my-data"></a>Wie klassiere ich meine Daten?
+## Wie klassiere ich meine Daten?
 
 Das Klassifizieren der Empfindlichkeit vieler Feler kann lange dauern. Um den Vorgang zu beschleunigen, stellen wir Werkzeuge bereit, die Sie verwenden können, um die sensiblen Felder aufeinmal zu klassieren. Sie können danach bestimmte Felder noch weiter abstimmen. bestimmte Felder. Sie können Werkzeuge im Feld Daten-Klassifizierungsarbeitsblatt suchen, die für die Verwaltung von Benutzern, Benutzergruppen und Rollencenter-Berechtigungen verfügbar sind. Zur Ausführung dieser Aktivität benötigen Sie Administratorrechte oder müssen das Arbeitsblatt nutzen.
  
@@ -44,7 +45,7 @@ Beispielsweise können Sie mit dem Arbeitsblatt Datenklassifizierung folgendes t
 > [!Tip]  
 > Wir haben Beispielempfindlichkeitsklassifizierungen für die Tabellen und Felder im Cronus-Demomandanten definiert. Sie können diese Klassifizierungen als Inspiration verwenden, wenn Sie Ihre eigenen Tabellen und Felder klassifizieren.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 <!-- [Classifying Data](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data) -->
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -3,6 +3,7 @@ author: brentholtorf
 ms.topic: include
 ms.date: 10/05/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 Nachdem Sie alle Artikel in den Verkaufszeilen hinzugefügt haben, kann der Rechnungsrabatt für den gesamten Verkaufsbeleg berechnet werden, indem Sie auf Aktionen und dann auf die Aktion **Rechnungsrabatt berechnen** klicken.
 

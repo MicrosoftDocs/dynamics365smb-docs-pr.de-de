@@ -3,6 +3,7 @@ author: brentholtorf
 ms.topic: include
 ms.date: 05/27/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
 Auf Verkaufsbelegen und Buch.-Blättern können Sie eine Belegnummer angeben, die auf das Nummerierungssystem des Debitors verweist. <!--You can enter a maximum of ten characters, both numbers and letters.--> Verwenden Sie dieses Feld, um die Nummer zu erfassen, die der Debitor der Bestellung, Rechnung oder Gutschrift zugewiesen hat. Sie können die Nummer dann später verwenden, wenn Sie aus irgendeinem Grund den gebuchten Posten anhand dieser Nummer suchen müssen.  

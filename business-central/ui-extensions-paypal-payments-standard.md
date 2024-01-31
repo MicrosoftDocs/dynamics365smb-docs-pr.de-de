@@ -3,15 +3,14 @@ title: Verwendung der Erweiterung „Paypal Payments Standard“
 description: 'In diesem Artikel wird beschrieben, wie Sie die Standarderweiterung verwenden, damit Debitoren Zahlungen mit PayPal vornehmen können.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'app, add-in, manifest, customize'
 ms.search.form: '1070, 1071, 1073, 1074'
 ms.date: 12/12/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="the-paypal-payments-standard-extension"></a>Die Erweiterung „PayPal Payments Standard“
+# Die Erweiterung „PayPal Payments Standard“
 
 Debitoren erfordern regelmäßig höheren Debitorenservice, sowohl in Bezug auf Produktqualität wie auch in Bezug auf Lieferungs- und Zahlungsoptionen. Mit dem PayPal Payments Standard-Service erhöhen Sie Ihren Debitorenservice.
 
@@ -29,7 +28,7 @@ Der PayPal Payments Standard-Service hat folgende Vorteile:
 
 Weitere Informationen finden Sie unter [Aktivieren Sie Debitoren-Zahlung durch PayPal](sales-how-enable-payment-service-extensions.md)
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Anpassen von [!INCLUDE[prod_short](includes/prod_short.md)] mithilfe von Erweiterungen](ui-extensions.md)  
 [Einrichten von Verkäufen](sales-setup-sales.md)  

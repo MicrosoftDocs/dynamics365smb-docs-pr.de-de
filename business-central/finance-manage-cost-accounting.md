@@ -3,15 +3,14 @@ title: Übersicht über die Kostenrechnung
 description: 'Kostenrechnung wird verwendet, um Ihnen dabei zu helfen, die Kosten des Betriebs eines Geschäftes zu erkennen. Dieser Artikel enthält Links zu anderen Artikeln mit weiteren Informationen.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.search.form: 1123
 ms.date: 04/01/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="accounting-for-costs"></a>Kostenrechnung
+# Kostenrechnung
 Kostenrechnung wird verwendet, um Ihnen dabei zu helfen, die Kosten des Betriebs eines Geschäftes zu erkennen. Um mit der Kostenrechnung anzufangen, sehen Sie sich die folgenden Themen an.  
 
 |Aufgabe|Siehe|  
@@ -24,7 +23,7 @@ Kostenrechnung wird verwendet, um Ihnen dabei zu helfen, die Kosten des Betriebs
 |Erlernen Sie die Prozesse beim Erstellen von Kostenbudgets.|[Erstellen von Kostenbudgets](finance-create-cost-budgets.md)|
 |Wenn Sie Kostenposten aus dem Kostenjournal stornieren.|[Kostenbudgetposten löschen](finance-how-to-delete-cost-budget-entries.md)|
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch  
 [Finanzen](finance.md)  
 [Verwalten der Bestandsregulierung](finance-manage-inventory-costs.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

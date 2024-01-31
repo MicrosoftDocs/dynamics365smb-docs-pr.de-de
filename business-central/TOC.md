@@ -1,3 +1,6 @@
+---
+ms.service: dynamics-365-business-central
+---
 
 # [Business Central-Dokumentation](index.yml)
 # [Willkommen bei Business Central](welcome.md)
@@ -286,6 +289,7 @@
 ## Finanzen
 ### [Finanzen – Übersicht](finance.md)
 ### [Finanzberichte](finance-reports.md)
+
 ### Forderungen verwalten
 #### [Forderungen – Übersicht](receivables-manage-receivables.md)
 #### [Debitorenberichte und -analysen](receivables-reports.md)
@@ -298,6 +302,7 @@
 ##### [Regeln für die automatische Anwendung von Zahlungen einrichten](receivables-how-set-up-payment-application-rules.md)
 #### [Debitorenzahlungen aus einer Liste mit unbezahlten Verkaufsbelegen abstimmen](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md)
 #### [Debitorenzahlungen mit dem Zahlungseingangs Buch.-Blatt oder aus Debitorenposten abstimmen](receivables-how-apply-sales-transactions-manually.md)
+#### [Salden für ein Unternehmen konsolidieren, das ein Debitor und ein Kreditor ist](finance-consolidate-customer-vendor-balances.md)
 #### [Restbeträge einziehen](receivables-collect-outstanding-balances.md)
 #### [Zahlungen per SEPA-Lastschriftverfahren erfassen](finance-collect-payments-with-sepa-direct-debit.md)
 #### [Mahnungen für Restbeträge versenden](receivables-send-reminders.md)
@@ -326,34 +331,13 @@
 ##### [Zahlungen abstimmen, die nicht automatisch ausgeglichen werden können](receivables-how-reconcile-payments-cannot-apply-auto.md)
 ##### [Konten Text für sich wiederholende Zahlungen für automatische Abstimmung zuordnen](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md)
 #### [Kreditorenzahlungen mit dem Zahlungsjournal oder aus Kreditorenposten abstimmen](payables-how-apply-purchase-transactions-manually.md)
+#### [Salden für ein Unternehmen konsolidieren, das ein Debitor und ein Kreditor ist](finance-consolidate-customer-vendor-balances.md)
 #### [Restbeträge einziehen](receivables-collect-outstanding-balances.md)
 #### [Zahlungen per SEPA-Lastschriftverfahren erfassen](finance-collect-payments-with-sepa-direct-debit.md)
 #### [Kreditoren sperren](payables-how-block-vendors.md)
 #### [Artikelzuschläge für zusätzliche Handelskosten verwenden](payables-how-assign-item-charges.md)
 #### [Mit Zahlungstoleranzen und Skontotoleranzen arbeiten](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [Die Erweiterung zur Vorhersage verspäteter Zahlungen](ui-extensions-late-payment-prediction.md)
-
-### E-Belege verwalten
-#### [Überblick über E-Belege](finance-edocuments-overview.md)
-#### [E-Belege einrichten](finance-how-setup-edocuments.md)
-#### [E-Belege bei Verkäufen und Einkäufen verwenden](finance-how-use-edocuments.md)
-#### [Einrichtung des E-Beleg-Konnektors mit externen Endpunkten](finance-how-setup-edocuments-external.md)
-#### [Erweiterung der E-Beleg-Funktionalität](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)
-
-### Mehrwertsteuer verwalten
-#### [Mehrwertsteuerverwaltung – Übersicht](finance-manage-vat.md)
-#### [EU-Drittanbieter-Einkaufstransaktionen einrichten](finance-how-to-eu3party-trade-purchase.md)
-#### MwSt. einrichten
-##### [Mehrwertsteuer einrichten](finance-setup-vat.md)
-##### [Einrichtung der Buchungsgruppe](finance-posting-groups.md#tax-posting-groups)
-##### [Nicht abziehbare MwSt. einrichten](finance-setup-nondeductible-vat.md)
-##### [Nicht realisierte Mehrwertsteuer einrichten](finance-setup-unrealized-vat.md)
-##### [MwSt.-Abrechnung einrichten](finance-how-setup-vat-statement.md)
-#### [Mit MwSt.im Verkauf und Einkauf arbeiten](finance-work-with-vat.md)
-#### [Nicht abziehbare MwSt. verwenden](finance-how-use-non-deductible-vat.md)
-#### [MwSt.-Berichte an die Steuerbehörden übermitteln](finance-how-report-vat.md)
-#### [Änderungen des Mehrwertsteuersatzes verwalten](finance-how-use-vat-rate-change-tool.md)
-#### [USt-IdNr. validieren](finance-how-validate-vat-registration-number.md)
 
 ### Vorauszahlungen fakturieren
 #### [Vorauszahlungen – Übersicht](finance-invoice-prepayments.md)
@@ -366,13 +350,8 @@
 #### [Bankkonten abstimmen](bank-how-reconcile-bank-accounts-separately.md)
 #### [Bankkontoabstimmung mit Copilot (Vorschauversion)](bank-reconciliation-with-copilot.md)
 #### [Zahlungen automatisch vornehmen und Bankkonten abstimmen](receivables-apply-payments-auto-reconcile-bank-accounts.md)
-
-### Intercompany-Transaktionen verwalten
-#### [Intercompany – Übersicht](intercompany-manage.md)
-#### [Intercompany einrichten](intercompany-how-setup.md)
-#### [Mit Intercompany-Belegen und -Buch.-Blättern arbeiten](intercompany-how-work-documents-journals.md)
-#### [Intercompany-Ein- und -Ausgangstransaktionen verwalten](intercompany-how-manage-intercompany-inbox.md)
-#### [Den Intercompanypartnern Kosten zuordnen](intercompany-allocate-costs.md)
+#### [Bankgeldmittel überweisen](bank-how-transfer-bank-funds.md)
+#### [Bankeinzahlungen erstellen](bank-create-bank-deposits.md)
 
 ### Kostenrechnung
 #### [Kostenrechnung – Übersicht](finance-manage-cost-accounting.md)
@@ -408,6 +387,8 @@
 ### Cashflow verwalten
 #### [Cashflow – Übersicht](finance-cash-flow-overview.md)
 #### [Cashflows in Ihrem Unternehmen analysieren](finance-analyze-cash-flow.md)
+#### [Exemplarische Vorgehensweise: Cashflowplanungen mithilfe von Finanzberichten erstellen](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
+
 
 ### Jahres- und Periodenabschlüsse
 #### [Jahresabschluss – Übersicht](year-close-years-periods.md)
@@ -424,38 +405,63 @@
 #### [GuV-Konten abschließen](year-close-income-statement.md)
 #### [Ultimoposten für den Jahresabschluss buchen](year-how-post-year-end-close-entry.md)
 
-### Finanzdaten von mehreren Unternehmen konsolidieren
-#### [Unternehmenskonsolidierung](finance-consolidated-company-reporting.md)
-#### [Unternehmenskonsolidierung einrichten](finance-consolidated-company-reporting-setup.md)
-
 ### Mit Kontenplan und Finanzbuchhaltung arbeiten
 #### [Kontenplan und Finanzbuchhaltung verstehen](finance-general-ledger.md)
 #### [Konten überprüfen](finance-review-accounts.md)
+#### [Transaktionen direkt in der Finanzbuchhaltung buchen](finance-how-post-transactions-directly.md)
+#### [Buch.-Blatt-Buchungen stornieren und Eingänge/Lieferungen rückgängig machen](finance-how-reverse-journal-posting.md)
+#### [Ausgaben der Beschäftigten aufzeichnen und erstatten](finance-how-record-reimburse-employee-expenses.md)
+#### [Sachkontenbudgets erstellen](finance-how-create-budgets.md)
+#### [Export der Protokolldatei](finance-how-to-export-audit-files.md)
+#### [Umsätze und Ausgaben abgrenzen](finance-how-defer-revenue-expenses.md)
+#### [Wiederkehrende Kosten und Einkünfte zuteilen](year-allocate-costs-income.md)
+#### [Umsatz und Kosten mehreren Sachkonten zuteilen](finance-allocate-revenue-costs.md)
 
-### [Salden für ein Unternehmen konsolidieren, das ein Debitor und ein Kreditor ist](finance-consolidate-customer-vendor-balances.md)
-### [Arbeiten mit Dimensionen](finance-dimensions.md)
-### [Problembehandlung und Korrektur von Dimensionen](finance-troubleshooting-correcting-dimensions.md)
-### [Währungen in Business Central](finance-currencies.md)
-### [Sachkontenbudgets erstellen](finance-how-create-budgets.md)
-### [Transaktionen direkt in der Finanzbuchhaltung buchen](finance-how-post-transactions-directly.md)
-### [Buch.-Blatt-Buchungen stornieren und Eingänge/Lieferungen rückgängig machen](finance-how-reverse-journal-posting.md)
-### [Export der Protokolldatei](finance-how-to-export-audit-files.md)
-### [Ausgaben der Beschäftigten aufzeichnen und erstatten](finance-how-record-reimburse-employee-expenses.md)
-### [Umsätze und Ausgaben abgrenzen](finance-how-defer-revenue-expenses.md)
-### [Wiederkehrende Kosten und Einkünfte zuteilen](year-allocate-costs-income.md)
-### [Umsatz und Kosten mehreren Sachkonten zuteilen](finance-allocate-revenue-costs.md)
-### [Währungswechselkurse aktualisieren](finance-how-update-currencies.md)
-### [Lohntransaktionen importieren](finance-how-import-payroll-transactions.md)
-### [Mit MwSt.im Verkauf und Einkauf arbeiten](finance-work-with-vat.md)
-### [MwSt. an die Steuerbehörden melden](finance-how-report-vat.md)
-### [Dienstleistungsverträge konvertieren, die MwSt.-Beträge enthalten](service-how-to-convert-service-contracts.md)
-### [Änderungen des Mehrwertsteuersatzes verwalten](finance-how-use-vat-rate-change-tool.md)
-### [Exemplarische Vorgehensweise: Cashflowplanungen mithilfe von Finanzberichten erstellen](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
-### [Finanzauswertungen in Excel analysieren](finance-analyze-excel.md)
-### [Bankgeldmittel überweisen](bank-how-transfer-bank-funds.md)
-### [Bankeinzahlungen erstellen](bank-create-bank-deposits.md)
-### [Buchhalter-Erfahrungen in Business Central](finance-accounting.md)
+### Mit Dimensionen arbeiten
+#### [Dimensionen – Übersicht](finance-dimensions.md)
+#### [Problembehandlung und Korrektur von Dimensionen](finance-troubleshooting-correcting-dimensions.md)
+#### [Lohntransaktionen importieren](finance-how-import-payroll-transactions.md)
+
+### Mit Währungen arbeiten
+#### [Währungen in Business Central](finance-currencies.md)
+#### [Währungswechselkurse aktualisieren](finance-how-update-currencies.md)
+
+### Mit Mehrwertsteuer arbeiten
+#### [Mehrwertsteuerverwaltung – Übersicht](finance-manage-vat.md)
+#### [EU-Drittanbieter-Einkaufstransaktionen einrichten](finance-how-to-eu3party-trade-purchase.md)
+#### MwSt. einrichten
+##### [Mehrwertsteuer einrichten](finance-setup-vat.md)
+##### [Einrichtung der Buchungsgruppe](finance-posting-groups.md#tax-posting-groups)
+##### [Nicht abziehbare MwSt. einrichten](finance-setup-nondeductible-vat.md)
+##### [Nicht realisierte Mehrwertsteuer einrichten](finance-setup-unrealized-vat.md)
+##### [MwSt.-Abrechnung einrichten](finance-how-setup-vat-statement.md)
+#### [Mit MwSt.im Verkauf und Einkauf arbeiten](finance-work-with-vat.md)
+#### [Nicht abziehbare MwSt. verwenden](finance-how-use-non-deductible-vat.md)
+#### [MwSt.-Berichte an die Steuerbehörden übermitteln](finance-how-report-vat.md)
+#### [Änderungen des Mehrwertsteuersatzes verwalten](finance-how-use-vat-rate-change-tool.md)
+#### [USt-IdNr. validieren](finance-how-validate-vat-registration-number.md)
+#### [Dienstleistungsverträge konvertieren, die MwSt.-Beträge enthalten](service-how-to-convert-service-contracts.md)
+
+### E-Belege einrichten und verwenden
+#### [Überblick über E-Belege](finance-edocuments-overview.md)
+#### [E-Belege einrichten](finance-how-setup-edocuments.md)
+#### [E-Belege bei Verkäufen und Einkäufen verwenden](finance-how-use-edocuments.md)
+#### [Einrichtung des E-Beleg-Konnektors mit externen Endpunkten](finance-how-setup-edocuments-external.md)
+#### [Erweiterung der E-Beleg-Funktionalität](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)
+
 ### [Organisationen mit mehreren Standorten und internationale Organisationen](finance-multi-site-organizations.md)
+#### Finanzdaten von mehreren Unternehmen konsolidieren
+##### [Unternehmenskonsolidierung](finance-consolidated-company-reporting.md)
+##### [Unternehmenskonsolidierung einrichten](finance-consolidated-company-reporting-setup.md)
+#### Intercompany-Transaktionen verwalten
+##### [Intercompany – Übersicht](intercompany-manage.md)
+##### [Intercompany einrichten](intercompany-how-setup.md)
+##### [Mit Intercompany-Belegen und -Buch.-Blättern arbeiten](intercompany-how-work-documents-journals.md)
+##### [Intercompany-Ein- und -Ausgangstransaktionen verwalten](intercompany-how-manage-intercompany-inbox.md)
+##### [Den Intercompanypartnern Kosten zuordnen](intercompany-allocate-costs.md)
+
+### [Buchhalter-Erfahrungen in Business Central](finance-accounting.md)
+
 
 ## Finanzen – Business Intelligence und Berichtswesen
 ### [Finanzen – Business Intelligence und Berichtswesen – Übersicht](bi.md)
@@ -466,8 +472,11 @@
 ### [KPI-Webdienste auf der Basis der Finanzberichte einrichten und veröffentlichen](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
 ### [Daten nach Dimensionen analysieren](bi-how-analyze-data-dimension.md)
 ### [Analyseberichte erstellen](bi-how-create-analysis-views-reports.md)
+### [Finanzauswertungen in Excel analysieren](finance-analyze-excel.md)
 ### [Berichte mit XBRL erstellen](bi-create-reports-with-xbrl.md)
 ### [Datenbankzugriffsabsichten verwalten](admin-data-access-intent.md)
+### [Exemplarische Vorgehensweise: Cashflowplanungen mithilfe von Finanzberichten erstellen](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
+
 
 ## Verkauf
 ### [Verkauf – Übersicht](sales-manage-sales.md)
@@ -874,9 +883,13 @@
 
 ### Dänemark
 #### [Lokale Funktionen in der dänischen Version](LocalFunctionality/Denmark/denmark-local-functionality.md)
-#### [Anmeldung und Registrierung für das NemHandelsregisteret in Dänemark](localfunctionality/denmark/how-to-nemhandel-register.md)
-#### [Einrichtung der elektronischen Fakturierung mit NemHandel](localfunctionality/denmark/how-to-edocuments-nemhadel.md)
+#### Compliance
 #### [Aufbewahrung der Buchungsdaten für fünf Jahre in Dänemark](localfunctionality/denmark/how-to-keep-data-5years.md)
+##### [Digitale Gutscheine in Dänemark einrichten](localfunctionality/denmark/how-to-digital-vouchers-dk.md)
+#### Audit
+##### [SAF-T-Prüfdateiformat in Dänemark exportieren](LocalFunctionality/Denmark/how-to-use-saft-audit-files-export.md)
+##### [Öffentlicher Standardkontenplan in Dänemark](LocalFunctionality/Denmark/how-to-set-up-standard-coa.md)
+##### [Buchhaltungsdaten an Regnskab Basis in Dänemark exportieren](LocalFunctionality/Denmark/how-to-use-regnskabbasis-export.md)
 #### Mehrwertsteuer
 ##### [MwSt.-Abstimmungsberichte drucken](LocalFunctionality/Denmark/how-to-print-vat-reconciliation-reports.md)
 ##### [MwSt.-VIES-Berichte](LocalFunctionality/Denmark/vat-vies-reporting.md)
@@ -890,11 +903,11 @@
 ##### [Kreditoren für OIOUBL einrichten](LocalFunctionality/Denmark/how-to-set-up-customers-for-oioubl.md)
 ##### [Elektronische OIOUBL-Fakturierung einrichten](LocalFunctionality/Denmark/how-to-set-up-oioubl.md)
 ##### [Die OIOUBL-Erweiterung für elektronische Fakturierung](LocalFunctionality/Denmark/ui-extensions-oioubl.md)
-##### [Erstellung der E-Belege im OIOUBL-Format](LocalFunctionality/Denmark/how-to-create-electronic-documents-by-using-oioubl.md
+##### [Elektronische Belege in einem OIOUBL-Format erstellen](LocalFunctionality/Denmark/how-to-create-electronic-documents-by-using-oioubl.md)
+#### [Anmeldung und Registrierung für das NemHandelsregisteret in Dänemark](localfunctionality/denmark/how-to-nemhandel-register.md)
+#### [Einrichtung der elektronischen Fakturierung mit NemHandel](localfunctionality/denmark/how-to-edocuments-nemhadel.md)
 #### Lohn
 ##### [Lohndatendefinitionen (DK)](LocalFunctionality/Denmark/ui-extensions-payroll-data-definitions-dk.md)
-#### Digitale Gutscheine
-##### [Digitale Gutscheine in Dänemark einrichten](localfunctionality/denmark/how-to-digital-vouchers-dk.md)
 
 ### Finnland
 #### [Lokale Funktionen in der finnischen Version](LocalFunctionality/Finland/finland-local-functionality.md)
@@ -1832,19 +1845,6 @@
 #### [Anleitung zur Entwicklung von Berichten](/dynamics365/business-central/dev-itpro/developer/devenv-reports)
 #### [Anleitung zur Leistungsoptimierung von Berichten](/dynamics365/business-central/dev-itpro/performance/performance-developer#writing-efficient-reports)
 
-# Copilot- und KI-Funktionen
-## Copilot- und KI-Funktionen verwalten
-### [Copilot- und KI-Funktionen konfigurieren](enable-ai.md)
-### [Copilot-Datenbewegung über geografische Regionen hinweg](ai-copilot-data-movement.md)
-### [Probleme mit Copilot- und KI-Funktionen beheben](ai-copilot-troubleshooting.md)
-## Unterstützung bei Bankkontoabstimmung (Vorschauversion)
-### [Bankkontoabstimmung mit Copilot](bank-reconciliation-with-copilot.md)
-### [Häufig gestellte Fragen zur Unterstützung bei Bankkontoabstimmung](faqs-bank-reconciliation.md)
-## Vorschläge für Marketingtexte
-### [Überblick über Vorschläge für Marketingtexte](ai-overview.md)
-### [Marketingtexte mit Copilot erstellen](item-marketing-text.md)
-### [Häufig gestellte Fragen zu Vorschlägen für Marketingtexte](faqs-marketing-text.md)
-
 # Sicherheit, Compliance und Datenschutz
 ## Sicherheit und Schutz
 ### [Sicherheit und Schutz – Übersicht (nur in englischer Sprache)](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)
@@ -2023,6 +2023,18 @@
 ## [Sicherheit und Schutz](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)
 ## [Leistung](/dynamics365/business-central/dev-itpro/performance/performance-overview?toc=/dynamics365/business-central/toc.json)
 ## [Entfernte oder veraltete Funktionen](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1?toc=/dynamics365/business-central/toc.json)
+# Copilot- und KI-Funktionen
+## Copilot- und KI-Funktionen verwalten
+### [Copilot- und KI-Funktionen konfigurieren](enable-ai.md)
+### [Copilot-Datenbewegung über geografische Regionen hinweg](ai-copilot-data-movement.md)
+### [Probleme mit Copilot- und KI-Funktionen beheben](ai-copilot-troubleshooting.md)
+## Unterstützung bei Bankkontoabstimmung (Vorschauversion)
+### [Bankkontoabstimmung mit Copilot](bank-reconciliation-with-copilot.md)
+### [Häufig gestellte Fragen zur Unterstützung bei Bankkontoabstimmung](faqs-bank-reconciliation.md)
+## Vorschläge für Marketingtexte
+### [Überblick über Vorschläge für Marketingtexte](ai-overview.md)
+### [Marketingtexte mit Copilot erstellen](item-marketing-text.md)
+### [Häufig gestellte Fragen zu Vorschlägen für Marketingtexte](faqs-marketing-text.md)
 # Verantwortungsvolle KI
 ## [Übersicht](responsible-ai-overview.md)
 ## [Häufig gestellte Fragen zur Unterstützung bei Bankkontoabstimmung (Vorschauversion)](faqs-bank-reconciliation.md)

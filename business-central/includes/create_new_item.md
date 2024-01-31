@@ -3,9 +3,10 @@ author: brentholtorf
 ms.topic: include
 ms.date: 09/24/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet22.](../media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Elemente** ein, und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet22.](../media/ui-search/search_small.png "Suchlupe") Symbol. Geben Sie **Elemente** ein, und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie auf der Seite **Artikel** die Aktion **Neu** aus.
 
     Wenn nur eine Artikelvorlage vorhanden ist, öffnet sich eine neue Artikelkarte bei der einige Felder mit Informationen aus der Vorlage ausgefüllt sind.

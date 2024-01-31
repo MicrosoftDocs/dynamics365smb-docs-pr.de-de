@@ -4,12 +4,11 @@ metadata:
   description: Hier finden Sie Antworten auf häufig gestellte Fragen zur Verwendung des Business Central-Add-ins für Outlook
   author: jswymer
   ms.topic: faq
-  ms.devlang: na
-  ms.tgt_pltfrm: na
-  ms.workload: na
+  ms.devlang: al
   ms.search.keywords: 'phone, tablet'
   ms.date: 04/27/2022
   ms.author: jswymer
+  ms.service: dynamics-365-business-central
 title: FAQ zum Business Central-Add-in für Outlook
 summary: |
   In diesem Artikel werden Fragen beantwortet, die Benutzer häufig zum Business Central-Add-in für Outlook stellen.   

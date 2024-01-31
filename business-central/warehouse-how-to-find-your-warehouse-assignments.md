@@ -3,18 +3,17 @@ title: Suchen der Lagerzuweisungen
 description: 'In diesem Thema wird erklärt, wie Sie die Ihnen zugewiesenen Lager-Zuordnungen auf der Seite Elementkarte finden, wenn Anweisungen für Sie erstellt wurden.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: 9000
 ms.date: 06/24/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="find-your-warehouse-assignments"></a>Suchen der Lagerzuweisungen
+# Suchen der Lagerzuweisungen
 
 Um Lagerzuweisungen zu suchen, öffnen Sie die Kartenseite für einen ausgewählten Artikel. Wenn Logistikanweisungen erzeugt wurden, sehen Sie Zeilen der Arten "Entnahme" und "Einlagerung", und Sie können mit einer Ihnen zugewiesenen Aufgabe beginnen. In einigen Lagern haben die Lagermanager eventuell jedem Mitarbeiter bestimmte Anweisungen zugeordnet. Weitere Informationen finden Sie unter [Lagermitarbeiter einrichten](warehouse-how-to-set-up-warehouse-employees.md)
 
-## <a name="to-find-an-instruction-assigned-to-you"></a>So finden Sie eine Anweisung, die Ihnen zugeordnet wurde:
+## So finden Sie eine Anweisung, die Ihnen zugeordnet wurde:
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Einlagerungen**, **Kommissionierungen** oder **Lagerplatzumlagerungen** ein, und wählen Sie dann den entsprechenden Link.
 
@@ -25,7 +24,7 @@ Um Lagerzuweisungen zu suchen, öffnen Sie die Kartenseite für einen ausgewähl
 
 Sie können das Feld **Zugewiesene Benutzer-ID** im Kopf verwenden, um selbst eine Aufgabe zu übernehmen, wenn der Lagermanager nicht einzelnen Mitarbeitern Anweisungen zuweist. Geben Sie einfach Ihre Benutzer-ID in den Kopf ein, bevor Sie beginnen, eine Anweisung zu bearbeiten. Ihre Kollegen können sich dann andere Anweisungen zur Bearbeitung auswählen, so dass eine Parallelarbeit vermieden wird.  
 
-## <a name="see-also"></a>Weitere Informationen
+## Weitere Informationen
 
 [Lagerverwaltung – Übersicht](design-details-warehouse-management.md)
 [Bestand](inventory-manage-inventory.md)  

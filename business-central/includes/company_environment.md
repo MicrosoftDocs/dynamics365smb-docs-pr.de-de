@@ -3,6 +3,7 @@ author: brentholtorf
 ms.topic: include
 ms.date: 04/01/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 [!INCLUDE[prod_short](prod_short.md)]-Benutzer unterstützen manchmal mehrere Abteilungen oder Unterorganisationen innerhalb eines Konzernmandanten. Ein Unternehmen kann beispielsweise Verkaufsbüros in verschiedenen Städten und mehreren Ländern/Regionen haben, sodass für jedes Büro eine separate Geschäftseinheit eingerichtet wurde. Die Büros, die sich im selben Land/in derselben Region befinden, werden als separate *Unternehmen* in einer gemeinsamen *Umgebung* eingerichtet. Andere Büros werden als Unternehmen in separaten Umgebungen erstellt, da sie geografisch in anderen Ländern/Regionen ansässig sind.
 

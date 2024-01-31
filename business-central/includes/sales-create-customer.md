@@ -3,6 +3,7 @@ author: brentholtorf
 ms.topic: include
 ms.date: 05/27/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
 Wenn der Debitor noch nicht erfasst wurde, dann führen Sie die folgenden Schritte durch:

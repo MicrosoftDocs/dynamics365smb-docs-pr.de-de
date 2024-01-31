@@ -10,12 +10,13 @@ ms.search.keywords: 'payment due, debt, overdue, fee, charge'
 ms.search.form: '6, 494'
 ms.date: 04/01/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-finance-charge-terms"></a>Zinskonditionen einrichten
+# Zinskonditionen einrichten
 
 Hat ein Debitor nicht bis zum Fälligkeitsdatum gezahlt, können automatisch Zuschläge berechnet und zu den überfälligen Beträgen auf dem Debitorkonto addiert werden. Verwenden Sie Zinsrechnungen, um Debitoren über die Zuschläge zu informieren. Zuerst müssen Sie für jede Zinskondition einen eigenen Code einrichten. Danach können Sie den Code in das Feld Zinskonditionencode auf Debitorenkarten eingeben.  
 
-## <a name="finance-charge-terms"></a>Zinskonditionbestimmung
+## Zinskonditionbestimmung
 
 Sie müssen für jede Berechnung der Finanzierungskosten Finanzierungskostenbedingungen festlegen und diese dann dem Kunden im Feld **Gebührenbedingungen Code** auf der Seite **Debitor** zuweisen.
 
@@ -33,7 +34,7 @@ Zinsrechnungen können entweder auf der Grundlage des Tagessaldos oder des fäll
 
 Zusätzlich ist jede Bestimmung in der Tabelle Zinskondition mit einer Untertabelle, der Tabelle Zinsrechnungstext verbunden. Für jeden Zinskonditionencode kann hier ein Vor- und/oder Nachtext hinterlegt werden, der dann auf dem Zinsrechnungsbeleg erscheint.
 
-### <a name="to-set-up-finance-charge-terms"></a>Um Bedingungen für Gebühren festzulegen
+### Um Bedingungen für Gebühren festzulegen
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Zinskonditionen** ein und wählen Sie dann den zugehörigen Link.  
 2. Füllen Sie die Felder je nach Bedarf aus.
@@ -62,7 +63,7 @@ Zusätzlich ist jede Bestimmung in der Tabelle Zinskondition mit einer Untertabe
 |%8|Inhalt des Felds **Währungscode** des Zinsgebührkopfs|  
 |%9|Inhalt des Felds **Buchungsdatum** des Zinsgebührkopfs|  
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Einziehen von Restbeträgen](receivables-collect-outstanding-balances.md)  
 [Einrichten von Mahnmethoden, Bestimmungen und Mahntext](finance-setup-reminders.md)  

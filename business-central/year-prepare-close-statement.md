@@ -9,8 +9,9 @@ ms.workload: na
 ms.search.keywords: 'year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments, assets, liabilities, equity, analysis, reporting, financial report, business intelligence, BI, Power Bi, KPI'
 ms.date: 04/01/2021
 ms.author: jswymer
+ms.service: dynamics-365-business-central
 ---
-# <a name="preparing-closing-statements"></a>Abschlussberichrte vorbereiten
+# Abschlussberichrte vorbereiten
 Ihnen stehen eine Reihe von Standardberichten zur Verfügung, mit denen die benötigten Informationen zum Vorbereiten der Abschlussabrechnungen des Mandanten gesammelt werden können.
 
 Die nachfolgende Tabelle beschreibt eine Reihe von Berichten, die in diesem Prozess zusammen mit dem Berichtnamen hilfreich sein können.  
@@ -27,7 +28,7 @@ Die nachfolgende Tabelle beschreibt eine Reihe von Berichten, die in diesem Proz
 
 Um einen Bericht zu sehen, wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol, geben Sie den Namen ein, wie er in der Tabelle erscheint, und wählen Sie dann den zugehörigen Link.
 
-## <a name="see-also"></a>Weitere Informationen
+## Weitere Informationen
 [Jahre und Perioden abschließen](year-close-years-periods.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Business Intelligence](bi.md)

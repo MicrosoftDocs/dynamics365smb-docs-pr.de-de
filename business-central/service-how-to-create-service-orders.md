@@ -3,19 +3,18 @@ title: So erstellen Sie Serviceaufträge
 description: 'Lernen Sie die verschiedenen Aufgaben kennen, die mit dem Erstellen von Serviceaufträgen in Business Central verbunden sind, z.B. das Erstellen eines neuen Serviceauftrags oder von Aufträgen auf der Basis eines Servicevertrags.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 06/23/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="create-service-orders"></a>Erstellen von Serviceaufträgen
+# Erstellen von Serviceaufträgen
 Sie können die Seite **Serviceauftrag** verwenden, um Belege zu erstellen, in die Sie Informationen über den Service (Reparatur und Wartung) von Serviceartikeln auf Debitorenanfrage eingeben.  
 
 Wenn Sie einen Serviceauftrag erstellen, müssen Sie nur einige wenige Felder ausfüllen. Einige Felder sind optional und viele werden automatisch ausgefüllt, wenn Sie die damit verknüpften Felder ausfüllen.  
 
-## <a name="to-create-a-service-order"></a>So erstellen Sie einen Serviceauftrag
+## So erstellen Sie einen Serviceauftrag    
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Serviceaufträge** ein und wählen Sie dann den zugehörigen Link.  
 2. Erstellen Sie einen neuen Serviceauftrag.  
 3. Geben Sie im Feld **Nr.** eine Nummer für den Serviceauftrag ein.  
@@ -28,7 +27,7 @@ Wenn Sie einen Serviceauftrag erstellen, müssen Sie nur einige wenige Felder au
 6. Optional können Sie die restlichen Felder ausfüllen.  
 7. Erfassen Sie die Serviceartikelzeilen.  
 
-## <a name="to-create-a-service-order-from-a-contract"></a>So erstellen Sie Serviceaufträge aus Verträgen
+## So erstellen Sie Serviceaufträge aus Verträgen  
 Serviceaufträge können für die Wartung von Serviceartikeln aus Verträgen angelegt werden.  
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Aufträge für Verträge erst erstellen** ein, und wählen Sie dann den zugehörigen Link.  
@@ -42,7 +41,7 @@ Serviceaufträge können für die Wartung von Serviceartikeln aus Verträgen ang
     > [!NOTE]  
     >  Sie können keinen Auftrag mit mehreren Serviceartikeln erstellen, wenn Sie das Feld **Ein Serviceartikel pro Auftrag** auf der Seite **Serviceverwaltungseinrichtung** festlegen. 
 
-## <a name="to-convert-a-service-quote-to-a-service-order"></a>So konvertieren Sie ein Serviceangebot in einen Serviceauftrag
+## So konvertieren Sie ein Serviceangebot in einen Serviceauftrag
 Wenn ein Debitor ein Angebot akzeptiert hat, wandeln Sie dieses in einen Serviceauftrag um. Das Angebot wird gelöscht, und es wird ein neuer Serviceauftrag mit derselben Beschreibung wie im Angebot eingerichtet. Die Felder "Reagieren bis (Datum)" und "Reagieren bis (Zeit)" werden erneut berechnet, und der Status des Serviceauftrags wird auf **Offen** festgelegt. Der Reparaturstatus der Serviceartikel in dem Auftrag wird auf **Anfang** geändert.  
 
 [!INCLUDE[prod_short](includes/prod_short.md)] sucht nach Zuordnungen für alle Serviceartikel des Serviceangebots mit dem Status **Aktiv**. Falls solche Zuordnungsposten gefunden werden, wird der Zuordnungsstatus auf **Neuzuordnung notwendig** aktualisiert. Wenn Sie die Serviceartikel in dem Serviceauftrag neu zuordnen, wird der Status der Zuordnungsposten, die für das Angebot erfasst wurden, auf **Erledigt** aktualisiert.   
@@ -51,7 +50,7 @@ Wenn ein Debitor ein Angebot akzeptiert hat, wandeln Sie dieses in einen Service
 2. Wählen Sie das Serviceangebot aus, das Sie in einen Serviceauftrag umwandeln möchten.  
 3. Wählen Sie die **Auftrag erstellen** Aktion aus.  
 
-## <a name="to-check-item-availability-for-one-or-more-orders"></a>So überprüfen Sie die Artikelverfügbarkeit für mindestens einen Auftrag
+## So überprüfen Sie die Artikelverfügbarkeit für mindestens einen Auftrag  
 Sie können überprüfen, ob ein Artikel, den Sie für einen Auftrag benötigen, auf Lager ist, und wenn nicht, wann der Artikel auf Lager sein wird. Außerdem können Sie, wenn ein Artikel reservierbar ist, ihn reservieren, um sicherzustellen, dass er für Ihre Verwendung verfügbar ist. Sie können die Verfügbarkeit für einen bestimmten Auftrag oder für alle Aufträge überprüfen.  
 
 1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Einsatzplanung** ein und wählen Sie den zugehörigen Link.  
@@ -62,7 +61,7 @@ Sie können überprüfen, ob ein Artikel, den Sie für einen Auftrag benötigen,
 
 3. Erweitern Sie auf der Seite **Bedarfsübersicht** die Artikelgruppierung, und zeigen Sie Informationen über die Verfügbarkeit des Artikels an. Beispielsweise wird angezeigt, wie viele Artikel sich im Lager befinden. Sie können auch feststellen, ob und wann ein Artikel verfügbar ist, ob er sich in Rückstand befindet (das heißt, ob die Herkunftsart = Einkauf ist) oder ob er reserviert wurde.
 
-## <a name="to-reserve-an-item-for-a-service-order"></a>So reservieren Sie einen Artikel für einen Serviceauftrag:
+## So reservieren Sie einen Artikel für einen Serviceauftrag:
 Wenn Sie sicher sein müssen, dass ein Artikel für einen Serviceauftrag verfügbar ist, können Sie den Artikel reservieren.
 
 1. Geben Sie im Feld **Suchen** **Serviceaufträge** ein, und wählen Sie dann den zugehörigen Link aus.  
@@ -71,7 +70,7 @@ Wenn Sie sicher sein müssen, dass ein Artikel für einen Serviceauftrag verfüg
 4. Auf der Seite **Servicezeilen** wählen Sie den zu reservierenden Artikel und die **Reservieren** Aktion aus.  
 5. Auf der Seite **Reservierung** wählen Sie **Von aktueller Zeile reservieren** aus.
 
-## <a name="to-insert-lines-based-on-standard-service-codes"></a>So fügen Sie Zeilen basierend auf Standardservicecodes ein
+## So fügen Sie Zeilen basierend auf Standardservicecodes ein  
 Wenn Sie Standardservicecodes eingerichtet und Serviceartikelgruppen zugewiesen haben, können Sie die mit den Standardservicecodes verknüpften Standardzeilen in Servicebelege einfügen. Weitere Informationen finden Sie unter [Vorgehensweise: Einrichten von Standardservicecodes](service-how-setup-service-coding.md)   
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Serviceaufträge** ein und wählen Sie dann den zugehörigen Link.  
@@ -84,10 +83,10 @@ Wenn Sie Standardservicecodes eingerichtet und Serviceartikelgruppen zugewiesen 
 > [!NOTE]  
 >  Wenn das Feld **Serviceartikelgruppencode** in der Serviceartikelzeile des Belegs leer ist, weist dies darauf hin, dass der Serviceartikel nicht zu einer Serviceartikelgruppe gehört. In diesem Fall enthält die Seite **Std.-Serviceartikelgr.-Codes** eine Liste aller Standardservicecodes. Sie sollten einen Code aus der Liste auswählen, um Standardservicezeilen in den Beleg einzufügen. Sie können auch aus einer Liste von Standardservicecodes wählen, die einer bestimmten Serviceartikelgruppe zugeordnet sind. Um die Liste anzuzeigen, wählen Sie den entsprechenden Code im Feld **Serviceartikelgruppencode** auf der Seite **Standard-Serviceartikelgruppen-Codes** aus.  
 
-## <a name="to-register-internal-or-public-comments"></a>So erfassen Sie interne oder öffentliche Bemerkungen
+## So erfassen Sie interne oder öffentliche Bemerkungen
 Sie können Bemerkungen hinzufügen, die auf Serviceaufträgen und Serviceangeboten gedruckt werden, um zusätzliche Informationen bereitzustellen. Sie können bis zu 80 Zeichen, einschließlich Leerzeichen, hinzufügen. Wenn Sie mehr Text eingeben müssen, wählen Sie eine andere Zeile aus. Um eine Bemerkung zu registrieren, wählen Sie eine Zeile und die **Bemerkungen** Aktion aus.  
 
-## <a name="to-delete-invoiced-service-orders"></a>So löschen Sie fakturierte Serviceaufträge
+## So löschen Sie fakturierte Serviceaufträge  
 Aufträge werden automatisch gelöscht, nachdem diese vollständig fakturiert wurden. Beim Buchen einer Rechnung wird ein entsprechender Posten auf der Seite **Gebuchte Servicerechnungen** erstellt. Der gebuchte Beleg kann auf der Seite **Gebuchte Servicerechnung** angezeigt werden.  
 
 Serviceaufträge werden aber nicht automatisch gelöscht, wenn die Gesamtmenge des Auftrags nicht aus dem eigentlichen Serviceauftrag, sondern von der Seite **Servicerechnung** gebucht wurde. In diesem Fall müssen Sie fakturierte Aufträge, die nicht gelöscht wurden, manuell löschen. Dazu führen Sie die Stapelverarbeitung **Fakturierte Serviceaufträge löschen** aus.  
@@ -97,7 +96,7 @@ Serviceaufträge werden aber nicht automatisch gelöscht, wenn die Gesamtmenge d
 3. Wählen Sie **OK** aus.  
 
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch  
 [Servicebuchung](service-service-posting.md)  
 [Serviceauftrag buchen](service-how-to-post-service-orders.md)  
 [Einrichten der Serviceverwaltung](service-setup-service.md)  

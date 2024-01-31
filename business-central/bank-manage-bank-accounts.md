@@ -3,15 +3,14 @@ title: Bankkonten verwalten
 description: Sie müssen regelmäßig Bankposten mit den zugehörigen Banktransaktionen in Ihren Bankkonten abstimmen.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: reconcile
 ms.search.form: '377, 378, 165, 1284'
 ms.date: 10/04/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="manage-and-reconcile-your-bank-accounts"></a>Verwalten und Abstimmen Ihrer Bankkonten
+# Verwalten und Abstimmen Ihrer Bankkonten
 
 Eine Bankabstimmung sollte in regelmäßigen Abständen für alle Ihre Bankkonten durchgeführt werden, um sicherzustellen, dass die Kassenunterlagen des Unternehmens korrekt sind. Sie tun dies, indem Sie die Einträge in Ihren internen Bankkonten mit den Banktransaktionen in Ihrer Bank vergleichen und abgleichen und dann die Salden auf Ihre internen Bankkonten buchen, um den Finanzmanagern Gesamtsummen zur Verfügung zu stellen. Der Bankabgleich ist auch eine praktische Methode, um fehlende Zahlungen und Buchhaltungsfehler zu ermitteln und zu beheben.
 
@@ -32,7 +31,7 @@ Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Themen,
 > [!TIP]
 > Verwenden Sie die Bankabstimmung, um zu überprüfen, ob Ihre Bücher auf dem neuesten Stand sind, und veröffentlichen Sie die Abstimmung erst, wenn Sie mit der Abstimmung zufrieden sind.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Einrichten von Banken](bank-setup-banking.md)  
 [Bankkonten abstimmen](bank-how-reconcile-bank-accounts-separately.md)  

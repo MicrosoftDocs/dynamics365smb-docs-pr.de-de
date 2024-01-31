@@ -3,21 +3,20 @@ title: Planung der Bestellung eines neuen Bedarfs von Auftrag
 description: 'Diese Planungsaufgabe kann auf der Seite „Auftragsplanung“ durchgeführt werden, die neuen Bedarf zusammen mit Verfügbarkeitsinformationen und Beschaffungsvorschlägen anzeigt, einschließlich Ersatz der Artikel.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: '5522, 5524, 5526'
 ms.date: 07/29/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="plan-for-new-demand-order-by-order"></a>Planung der Bestellung eines neuen Bedarfs von Auftrag
+# Planung der Bestellung eines neuen Bedarfs von Auftrag
 
 Diese Planungsaufgabe kann auf der Seite **Auftragsplanung** ausgeführt werden, in dem der gesamte neue Bedarf sowie Informationen über die Verfügbarkeit und Beschaffungsvorschläge angezeigt werden. Das Fenster bietet eine Übersicht und die erforderlichen Tools für eine effektive Bedarfsplanung anhand der Verkaufs- und Komponentenzeilen, auf deren Grundlage dann verschiedene Arten von Beschaffungsaufträgen direkt erstellt werden können.  
 
 Sie können die Seite **Auftragsplanung** in zwei Arten eingeben, je nach Herangehensweise: Von einem Auftrag, die Sie speziell für oder im Stapelbetrieb planen möchten, da Sie für alle planen möchten und aus einem neuen Bedarf.  
 
 
-## <a name="to-plan-for-new-production-order-demand"></a>So planen Sie neue Fertigungsaufträge
+## So planen Sie neue Fertigungsaufträge
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Geplante Fertigungsaufträge** ein, und wählen Sie dann den entsprechenden Link. (Sie können diese Schritte für einen geplanten, fest geplanten oder freigegebenen Fertigungsauftrag ausführen).
 2. Öffnen Sie den Fertigungsauftrag, für den Sie planen möchten, und wählen Sie die **Planung** Aktion aus.  
@@ -25,7 +24,7 @@ Sie können die Seite **Auftragsplanung** in zwei Arten eingeben, je nach Herang
 
 Auf der Seite Fenster werden Planungszeilen entsprechend dem Ansichtsfilter **Fertigungsbedarf** angezeigt, d. h. die unausgeführten Komponentenzeilen aller vorhandenen Fertigungsaufträge. Bedarf nur für den einen Fertigungsauftrag wird nicht angezeigt, da es notwendig ist, für einen Fertigungsauftrag mit einer Übersicht des Bedarfs für möglicherweise ältere Komponentenzeilen zu planen. Planungszeilen für den Fertigungsauftrag im Kontext werden erweitert.  
 
-## <a name="to-plan-for-any-new-demand"></a>Für beliebigen neuen Bedarf planen
+## Für beliebigen neuen Bedarf planen
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Auftragsplanung** ein, und wählen Sie dann den entsprechenden Link.  
 2. Klicken Sie auf der Seite **Auftragsplanung** auf Funktionen und dann auf **Planung berechnen**.
@@ -81,7 +80,7 @@ Auf der Seite Fenster werden Planungszeilen entsprechend dem Ansichtsfilter **Fe
 > [!NOTE]  
 > Wenn Sie ein Datum eingeben, das nach dem Bedarfsdatum liegt, erhalten Sie eine Warnmeldung.  
 
-## <a name="to-make-supply-orders"></a>Beschaffungsaufträge erstellen
+## Beschaffungsaufträge erstellen
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Geplante Fertigungsaufträge** ein, und wählen Sie dann den entsprechenden Link. Sie können diese Schritte für einen geplanten, fest geplanten oder freigegebenen Fertigungsauftrag ausführen.  
 2. Öffnen Sie den Fertigungsauftrag, für den Sie planen möchten, und wählen Sie die **Planung** Aktion aus.  
@@ -108,7 +107,7 @@ Nachdem Sie die Planung auf der Seite **Auftragsplanung** abgeschlossen haben, a
 > [!NOTE]  
 > Aus den erstellten Beschaffungsaufträgen kann sich neuer, von diesen Beschaffungsaufträgen abhängiger Bedarf ergeben, und für diesen Fall wählen Sie noch einmal **Planung berechnen**, um diese zu ermitteln und zu bearbeiten, bevor Sie in der Liste fortfahren.  
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 <!-- [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md)   -->
 [Planung](production-planning.md)  

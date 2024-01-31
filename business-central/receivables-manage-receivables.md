@@ -3,14 +3,13 @@ title: Übersicht der Aufgaben zur Verwaltung von Debitoren
 description: In diesem Thema werden Aufgaben zur Verwaltung von Debitoren und zur Anwendung von Zahlungen auf Debitoren- oder Kreditor-Sachkonto-Einträge beschrieben.
 author: brentholtorf
 ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'customer payment, debtor, balance due, AR'
 ms.date: 06/23/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="managing-receivables"></a>Debitoren verwalten
+# Debitoren verwalten
 
 Ein regelmäßiger Schritt in jedem Finanzrhythmus ist, Bankkonten abzustimmen, die es erfordern, dass Sie Zahlungen mit Debitoren- oder Kreditorenposten ausgleichen, um Verkaufsrechnungen und - gutschriften zu schließen.
 
@@ -41,7 +40,7 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 |Einrichtung einer Toleranz, mit der das System eine Rechnung schließt, selbst wenn die Zahlung einschließlich aller Rabatte nicht vollständig den Betrag der Rechnung abdeckt.|[Arbeiten mit Zahlungstoleranzen und Skontotoleranzen](finance-payment-tolerance-and-payment-discount-tolerance.md)|
 | Sagen Sie voraus, wenn Zahlungen für Verkaufsbelege zu spät geleistet werden. | [Die Erweiterung zur Vorhersage verspäteter Zahlungen](ui-extensions-late-payment-prediction.md) |
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 [Verkauf](sales-manage-sales.md)  
 [Verwalten von Verbindlichkeiten](payables-manage-payables.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

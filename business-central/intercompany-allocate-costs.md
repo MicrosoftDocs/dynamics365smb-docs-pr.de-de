@@ -3,14 +3,13 @@ title: Kosten den Intercompanypartnern zuordnen | Microsoft Docs
 description: 'Erfahren Sie, wie die Mehrwertsteuereinstellungen für Kunden und Lieferanten steuern, ob und wie die Mehrwertsteuer berechnet wird.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: incoming document
 ms.date: 04/01/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="allocate-costs-to-intercompany-partners"></a>Kosten den Intercompanypartnern zuordnen
+# Kosten den Intercompanypartnern zuordnen
 Wenn Sie konzerninterne Buchungen verwenden, um Dokumente zwischen Partnerunternehmen zu übertragen, steuern die den Kunden- oder Lieferantenkonten (dem konzerninternen Partner zugeordneten) zugewiesenen umsatzsteuerlichen Einstellungen (hauptsächlich die Umsatzsteuer-Geschäftsbuchungsgruppe), ob und wie die Mehrwertsteuer berechnet und registriert wird. Sie können Kostenverteilungen auch direkt von einer Bestellung an Partnerunternehmen durchführen. Wenn Sie beispielsweise eine Kaufrechnung von einem externen Anbieter registrieren und einen Teil oder die gesamten Kosten an einen oder mehrere konzerninterne Partner verteilen möchten.
 
 Sie können Kosten einem oder mehreren konzerninternen Partnern wie folgt zuordnen:
@@ -18,7 +17,7 @@ Sie können Kosten einem oder mehreren konzerninternen Partnern wie folgt zuordn
 * **Intercompany Fibu Buch.-Blattzeile** – Diese Fibu Buch.-Blätter sind nützlich, wenn ein Dienst gekauft wird. Zum Beispiel, wenn eine Muttergesellschaft einen Dienst kauft, um Computersysteme in zwei Tochtergesellschaften einzurichten. Die Rechnung wird an die Muttergesellschaft gesendet, die Kosten werden jedoch den Intercompanypartnern zugewiesen. Weitere Informationen finden Sie unter [Arbeiten mit Intercompanydokumenten und Fibu Buchblättern](intercompany-how-work-documents-journals.md).
 * Bestellungen und Rechnungen – Die Verwendung von Einkaufsbelegen ist nützlich, wenn die Einkaufsfunktionen von beispielsweise Betriebskosten in einem Unternehmen zentralisiert und dann den konzerninternen Partnern zugeordnet werden.
 
-## <a name="to-allocate-costs-using-an-intercompany-general-journal"></a>Zuordnung der Kosten mithilfe eines Intercompany Fibu Buch.-Blattes
+## Zuordnung der Kosten mithilfe eines Intercompany Fibu Buch.-Blattes
 Führen Sie die folgenden Schritte aus, um eine Zeile in ein Intercompany Fibu Buch.-Blatt einzugeben. 
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Intercompany-Fibu Buch.-Blatt** ein, und wählen Sie dann den entsprechenden Link.
@@ -42,7 +41,7 @@ Führen Sie die folgenden Schritte aus, um eine Zeile in ein Intercompany Fibu B
    1. Füllen Sie die verbleibenden Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Wiederholen Sie diese Schritte für jeden Intercompany-Partner, der sich an den Kosten beteiligen soll.
 1. Wählen Sie **buchen**, um das Dokument zu buchen und die Kosten zuzuordnen.  
 
-## <a name="to-allocate-costs-using-a-purchase-document"></a>Kosten anhand eines Kaufbelegs zuordnen
+## Kosten anhand eines Kaufbelegs zuordnen
 Das folgende Verfahren beschreibt die Zuordnung von Kosten mithilfe einer Einkaufsrechnung. Die Schritte sind für eine Einkaufsbestellung gleich.
 
 > [!NOTE]
@@ -60,12 +59,12 @@ Das folgende Verfahren beschreibt die Zuordnung von Kosten mithilfe einer Einkau
 1. Füllen Sie die verbleibenden Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] 
 1. Um die Bestellung zu buchen, wählen Sie **Buchen**.
 
-## <a name="to-send-the-allocated-costs-to-intercompany-partners"></a>Um die zugeordneten Kosten an die Intercompanypartner zu senden
+## Um die zugeordneten Kosten an die Intercompanypartner zu senden
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **IC-Ausgangstransaktionen** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie die zu sendenden Zeilen aus und wählen Sie dann die **An IC-Partner senden** Aktion aus. 
 3. Um die Kosten zuzuordnen, wählen Sie die Aktion **Komplette Linienaktionen** aus.
 
-## <a name="calculating-vat-for-cost-distributions"></a>Berechnung der Mehrwertsteuer für Kostenverteilungen
+## Berechnung der Mehrwertsteuer für Kostenverteilungen
 Wenn Sie ein Dokument verwenden, um die Kosten an konzerninterne Partner zu verteilen, müssen Sie zwei Mehrwertsteuereinstellungen beachten: 
 * Die Einstellungen im Sachkonto für Ausgaben:
    * Wenn die allgemeinen Geschäfts- oder Umsatzsteuerbuchungsgruppen auf dem Sachkonto eingerichtet sind, hängt die Berechnung von den Gruppen und Produktgruppen aus der Belegzeile ab.
@@ -77,7 +76,7 @@ Wenn Sie ein Dokument verwenden, um die Kosten an konzerninterne Partner zu vert
 > [!NOTE]
 > Es ist wichtig, sowohl die Einrichtung des Intercompanypartners als auch die Einrichtung des Sachkontos (für das für die Kostenverteilung verwendete Kostenkonto) zu überprüfen, bevor Sie den Intercompanypartnern Kosten zuweisen.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 [Intercompany einrichten](intercompany-how-setup.md)  
 [Intercompanytransaktionen verwalten](intercompany-manage.md)  
 [Finanzen](finance.md)  

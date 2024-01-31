@@ -3,19 +3,18 @@ title: Mit Fertigungsstücklisten arbeiten
 description: 'Sie erstellen eine Montagestückliste oder eine Fertigungsstückliste, um die Komponenten und Ressourcen anzuzeigeb, die benötigt werden, um den Artikel zusammenzufügen, die die Stückliste darstellt.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'bills of material, assembly BOM, production BOM,'
 ms.search.form: null
 ms.date: 09/26/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="work-with-bills-of-material"></a>Mit Fertigungsstücklisten arbeiten
+# Mit Fertigungsstücklisten arbeiten
 
 Verwenden Sie Stücklisten (BOMs), um beispielsweise Oberartikel zu strukturieren, die aus anderen Artikeln oder nach Ressourcen oder Arbeitsplätze aus Komponenten montiert oder gefertigt werden müssen.
 
-## <a name="assembly-boms-or-production-boms"></a>Montagestücklisten oder Fertigungsstücklisten
+## Montagestücklisten oder Fertigungsstücklisten
 
 [!INCLUDE[prod_short](includes/prod_short.md)] unterstützt zwei verschiedene Arten von Stücklisten:
 
@@ -36,7 +35,7 @@ Das Ressourcenkonzept ist in der Produktion weitergehender als in der Montagever
 
 Montageaufträge und Fertigungsaufträge können direkt mit Verkaufsaufträgen verknüpft sein. Sie können jedoch nur Montageaufträge nutzen, um den Endartikel direkt für eine Debitorenanfrage im Verkaufsauftrag anzupassen.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Arbeiten mit Montagestücklisten](assembly-how-work-assembly-boms.md)  
 [Fertigungsauftrag erstellen](production-how-to-create-production-boms.md)  

@@ -4,12 +4,11 @@ metadata:
   description: Dieser Artikel beantwortet Ihre FAQ zu Listenansichten und bietet detaillierte Informationen zum Speichern und Arbeiten mit Filtern als Listenansichten.
   author: mikebcMSFT
   ms.topic: faq
-  ms.devlang: na
-  ms.tgt_pltfrm: na
-  ms.workload: na
+  ms.devlang: al
   ms.search.keywords: 'list, filter, pane, views'
   ms.date: 08/09/2022
   ms.author: mikebc
+  ms.service: dynamics-365-business-central
 title: FAQ zu Listenansichten
 summary: 'In diesem Artikel werden Fragen beantwortet, die unsere erfahrenen Benutzer häufig zum Arbeiten mit Listenansichten und zum Speichern von Filtern stellen.'
 sections:

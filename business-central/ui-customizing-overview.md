@@ -3,15 +3,14 @@ title: Business Central anpassen
 description: 'Lesen Sie mehr über die verschiedenen Möglichkeiten, Business Central anzupassen, um den Zugriff auf die Funktionen zu verbessern, die Sie für Ihre tägliche Arbeit am meisten benötigen.'
 author: brentholtorf
 ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'personalize, add-in, extend, customize'
 ms.search.form: '2500, 2502'
 ms.date: 06/23/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="customize-business-central"></a>Anpassen von Business Central
+# Anpassen von Business Central
 
 Es gibt unterschiedliche Arten, die Anwendung anzupassen, um Ihnen und Ihren Kollegen Zugriff auf die Funktionen, die Funktionalität und die Daten zu geben, die Sie am häufigsten brauchen, uns so, dass es am besten in Ihre tägliche Arbeit passt. Diejenigen, die Änderungen sehen, verlassen sich auf das, was Sie tun in der Tabelle.
 
@@ -28,7 +27,7 @@ Es gibt unterschiedliche Arten, die Anwendung anzupassen, um Ihnen und Ihren Kol
 > [!NOTE]
 > Alle Funktionsbeschreibungen in der Dokumentation behandeln [!INCLUDE[prod_short](includes/prod_short.md)] die **Premium**-Umgebung, decken also den gesamten Umfang der Benutzeroberflächenelemente ab. Daher können Benutzer mit der **Essential**-Umgebung in einigen Themen Informationen zu Funktionen und Benutzeroberflächenelementen finden, die in der Benutzeroberfläche nicht sichtbar sind. Weitere Informationen finden Sie unter [Ändern, welche Funktionen angezeigt werden](ui-experiences.md).
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

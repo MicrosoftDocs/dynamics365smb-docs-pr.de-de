@@ -3,14 +3,13 @@ title: Genehmigungsworkflows einrichten (enthält Video)
 description: 'Legen Sie Workflows, Workflow-Benutzer und Genehmiger fest, um Aufgaben des Geschäftsprozesssystems zu verbinden, die von diesen verschiedenen Benutzern ausgeführt werden.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 09/13/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-approval-workflows"></a>Genehmigungsworkflows einrichten
+# Genehmigungsworkflows einrichten
 
 Sie können Workflows festlegen und verwenden, die von verschiedenen Benutzern ausgeführte Geschäftsprozessaufgaben miteinander verbinden. Systemaufgaben, wie automatische Buchung, können als Schritte in Workflows berücksichtigt werden, vor oder nach Benutzeraufgaben. Die Anforderung oder Bewilligung von Genehmigungen zum Erstellen neuer Datensätze sind typische Workflowschritte. Erfahren Sie mehr unter [Genehmigungsworkflows verwenden](across-use-workflows.md).
 
@@ -35,14 +34,14 @@ Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Artikel
 |Teilen Sie Workflows mit anderen [!INCLUDE[prod_short](includes/prod_short.md)]-Datenbanken.|[Exportieren und Importieren von Genehmigungsworkflows](across-how-to-export-and-import-workflows.md)|  
 |Erfahren Sie anhand eines vollständigen Ablaufs, wie Sie einen Workflow zur Genehmigung von Verkaufsunterlagen einrichten.|[Beispielhafte Vorgehensweise: Einrichten und Verwenden eines Workflows zur Genehmigung von Käufen](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)|  
 
-## <a name="example-of-an-approval-workflow"></a>Beispiel für einen Genehmigungsworkflow
+## Beispiel für einen Genehmigungsworkflow
 
 In diesem Video wird gezeigt, wie ein Workflow eingerichtet wird, bei dem ein Benutzer die Genehmigung eines anderen Benutzers anfordern muss, bevor sie Informationen zu einem vorhandenen Kunden ändern oder einen neuen Kunden erstellen kann.  
 <br><br>  
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4jzHI?rel=0]
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Genehmigungsworkflows verwenden](across-use-workflows.md)  
 [Workflow](across-workflow.md)  

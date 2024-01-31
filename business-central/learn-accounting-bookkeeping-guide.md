@@ -3,16 +3,15 @@ title: Buchhaltung und Buchführung
 description: 'Dieser Artikel enthält Informationen, die Ihnen dabei helfen, Microsoft Dynamics 365 Business Central zu verwenden, um die Buchhaltung und Buchführung für Ihr Unternehmen korrekt durchzuführen.'
 author: altotovi
 ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'accounting, bookkeeping'
 ms.search.form: '16, 39, 108'
 ms.date: 03/14/2023
 ms.author: altotovi
+ms.service: dynamics-365-business-central
 ---
 
-# <a name="accounting-and-bookkeeping"></a>Buchhaltung und Buchführung
+# Buchhaltung und Buchführung
 
 Die Buchhaltung ist eine kritische Funktion in jeder ERP-Lösung (Enterprise Resource Planning) und auch in den meisten Unternehmen. Die Buchhaltung stellt den Prozess dar, die Finanztransaktionen eines Unternehmens aufzuzeichnen und zu katalogisieren und die Ergebnisse dann abzurufen, zu messen, zusammenzufassen und darzustellen, indem verschiedene Berichte verwendet werden, die häufig von der lokalen Gesetzgebung vorgeschrieben sind. Das Hauptziel dieses Prozesses besteht darin, dem Management des Unternehmens dabei zu helfen, die Finanzen des Unternehmens zu verstehen und die Ergebnisse der wirtschaftlichen Aktivitäten des Unternehmens zu messen.
 
@@ -100,7 +99,7 @@ Die folgende Tabelle beschreibt eine Reihe von Aufgaben und bietet Links zu den 
 | Ermöglichen Sie eine globale Finanzberichterstattung an internationale Buchhaltungsorganisationen unter Verwendung des Standards eXtensible Business Reporting Language (XBRL). | [Berichte mit XBRL erstellen](bi-create-reports-with-xbrl.md) |
 | Ändern Sie die Absicht des Datenbankzugriffs auf Berichte, Seiten vom Typ API und Abfragen, um die Last zu verringern und die Leistung zu verbessern. | [Datenbankzugriffsabsichten verwalten](admin-data-access-intent.md) |
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Finanzen einrichten](finance-setup-finance.md)  
 [Verkauf](sales-manage-sales.md)  

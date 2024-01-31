@@ -6,8 +6,9 @@ ms.topic: conceptual
 ms.search.form: '4,'
 ms.date: 09/05/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-payment-terms"></a>Zahlungsbedingungen einrichten
+# Zahlungsbedingungen einrichten
 
 Die Zahlungsbedingungen bestimmen, wie Sie Fälligkeitstermine und Zahlungsrabatte verwalten. Sie können eine beliebige Anzahl von Zahlungsbedingungscodes einrichten. Hierbei können Sie Datumsformeln verwenden, um die Zahlungsbedingungen zu definieren. Wenn Sie sich zum ersten Mal anmelden für [!INCLUDE [prod_short](includes/prod_short.md)] stellt das Demounternehmen einige Zahlungsmethoden bereit, die Unternehmen häufig verwenden. Sie können so viele Zeilen hinzufügen, wie Sie benötigen.  
 
@@ -19,7 +20,7 @@ Wenn Sie eine Gutschrift buchen, berechnet [!INCLUDE [prod_short](includes/prod_
 
 Wenn Sie Ihren Kunden Erinnerungen an überfällige Zahlungen senden möchten, müssen Sie Erinnerungsstufen und -bedingungen einrichten. Weitere Informationen zu Mahnungen finden Sie unter [Mahnmethoden und Mahnstufen einrichten](finance-setup-reminders.md).  
 
-## <a name="to-set-up-payment-terms"></a>So richten Sie Zahlungsbedingungen ein
+## So richten Sie Zahlungsbedingungen ein
 
 1. Wählen Sie das Symbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun") Symbol. Geben Sie **Zahlungsbedingungen** ein, und wählen Sie dann den zugehörigen Link.  
 2. Füllen Sie die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -31,7 +32,7 @@ Weisen Sie die Zahlungsbedingungen den Debitoren und Kreditoren zu, nachdem Sie 
 >
 > In einigen Ländern/Regionen *können* Sie Zahlungsbedingungen mit Teilzahlungen einrichten. Informationen dazu, ob diese Funktion in Ihrem Land/Ihrer Region unterstützt wird, finden Sie im Abschnitt **Lokale Funktionalität** im Inhaltsverzeichnis auf der linken Seite eines [Microsoft Learn](about-localization.md)-Artikels.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Zahlungsformen einrichten](finance-payment-methods.md)  
 [Vorauszahlungen einrichten](finance-set-up-prepayments.md)  

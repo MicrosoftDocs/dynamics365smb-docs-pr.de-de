@@ -3,16 +3,15 @@ title: 'Verwenden Sie Profile, um Kontakte zu klassifizieren'
 description: 'Rot darüber, wie Sie Profilfragebögen festlegen können, um die Profile Ihrer Geschäftskontakte zu klassifizieren.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'contacts, profiles'
 ms.search.form: '5109, 5110'
 ms.author: bholtorf
 ms.date: 05/20/2022
+ms.service: dynamics-365-business-central
 ---
 
-# <a name="use-profile-questionnaires-to-classify-business-contacts"></a>Verwenden Sie Profilbefragungen, um Geschäftskontakten zu klassieren
+# Verwenden Sie Profilbefragungen, um Geschäftskontakten zu klassieren
 
 Sie können einen Interessenten bewerten und so die idealen Interessenten erkennen, auf die Sie sich in Ihrer Verkaufskampagne konzentrieren. Sie können Profilbefragungen einrichten, die Sie beim Eingeben der Informationen über die Profile Ihrer Kontakte verwenden möchten. In jedem Fragebogen können Sie die unterschiedlichen Fragen einrichten, die Sie Ihren Kontakten stellen möchten. Auf diese Weise können Sie Kontakte gruppieren, sodass Ihre Kampagnen eher auf die richtigen Personen ausgerichtet sind, basierend auf den Kriterien, die Sie mit den Fragebögen definieren.  
 
@@ -20,13 +19,13 @@ Mit den richtigen Fragebögen können Sie Ihre Interessenten bewerten und in Kat
 
 Sie können die Befragung auch dazu verwenden, um einige Fragen zum Kontakt, Debitor oder Kreditor automatisch zu beantworten.  
 
-## <a name="to-add-a-profile-questionnaire"></a>So fügen Sie eine Profilbefragung hinzu
+## So fügen Sie eine Profilbefragung hinzu
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Fragebogen Einrichtung** ein und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die Aktion **Neu**.  
 3. Füllen Sie die Felder bei Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-## <a name="to-add-questions-to-a-profile-questionnaire"></a>So fügen Sie einen Fragebogen einer Profilbefragung hinzu
+## So fügen Sie einen Fragebogen einer Profilbefragung hinzu
 
 1. Wählen Sie den entsprechenden Profilfragebogen aus und wählen Sie dann die Aktion **Einstellung Fragebogen bearbeiten**.  
 2. Wählen Sie in der ersten leeren Zeile im Feld **Art** die Option **Frage** aus, und geben Sie im Feld **Beschreibung** Ihre Frage ein. Füllen Sie die anderen Felder in dieser Zeile aus.  
@@ -61,11 +60,11 @@ Nachdem Sie eine Befragung erstellt haben, können Sie Ihre Kontakte damit bewer
 > [!NOTE]
 > Wenn Sie eine Frage eingeben, die automatisch beantwortet werden soll, wählen Sie die Optionen **Zeile** und dann **Fragendetails** aus, um die Kriterien einzugeben, die zur automatischen Beantwortung verwendet werden.
 
-## <a name="apply-questionnaires-to-contacts"></a>Fragebögen auf Kontakte anwenden
+## Fragebögen auf Kontakte anwenden
 
 Sie können Ihre Fragebögen manuell auf Kontakte anwenden. Öffnen Sie einfach die entsprechende Kontaktkarte, und wählen Sie dann die Aktion **Profil** aus. Sobald Sie die gewünschten Fragebögen angewendet haben, können Sie mit der Verwendung der Kategorien in Ihren Kampagnen beginnen.  
 
-## <a name="the-automatic-classification-of-contacts"></a>Die automatische Klassifizierung von Kontakten
+## Die automatische Klassifizierung von Kontakten
 
 Sie können Ihre Kontakte nach Debitoren, Kreditoren und Kontaktinformationen klassifizieren, indem Sie auf der Seite Profilbefragung einrichten automatisch beantwortete **Profilbefragungen** einrichten.  
 
@@ -74,7 +73,7 @@ Sie können Ihre Kontakte nach Debitoren, Kreditoren und Kontaktinformationen kl
 
 Nachdem Sie automatische beantwortete Profilbefragungen eingerichtet haben, werden dem Kontakt [!INCLUDE[prod_short](includes/prod_short.md)] automatisch die richtigen Antworten zugeordnet, wenn Sie die Profilbefragung mit diesen Fragen einem Kontakt zuordnen.  
 
-## <a name="example"></a>Beispiel
+## Beispiel
 
 Sie können Ihre Kontakte danach klassifizieren, wie viel sie bei Ihnen gekauft haben:
 
@@ -102,7 +101,7 @@ Füllen Sie dann das Fenster **Profilfragendetails** folgendermaßen aus:
 
 Wenn Sie einem Kontakt die Profilbefragung mit dieser Frage zuordnen, wird die Anwendung in die Profilzeilen der Kontaktkarte automatisch die entsprechende Antwort für diesen Kontakt eingetragen.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Kontakte erstellen](marketing-create-contact-companies.md)  
 

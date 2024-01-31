@@ -3,15 +3,14 @@ title: 'Vorgehensweise: Elektronische Belege empfangen und konvertieren'
 description: 'Dieses Thema beschreibt, wie Sie elektronische Belege direkt von Handelspartnern oder von einem OCR-Dienst empfangen können.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.search.form: '189, 190, 191'
 ms.date: 06/23/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="receive-and-convert-electronic-documents"></a>Elektronische Belege empfangen und konvertieren
+# Elektronische Belege empfangen und konvertieren
 
 > [!NOTE]
 > Der Inhalt dieses Artikels gilt nur für Versionen von Dynamics 365 Business Central, die vor dem 2. Veröffentlichungszyklus 2023 veröffentlicht wurden. Im 2. Veröffentlichungszyklus 2023 sind neue Funktionen für E-Belege enthalten. Weitere Informationen finden Sie unter [E-Belege einrichten](finance-how-setup-edocuments.md). 
@@ -38,7 +37,7 @@ Sie können die Konvertierung von elektronischen Belegen entweder manuell beginn
 
 Die folgenden Schritte zeigen, wie Sie eine Kreditorenrechnungen empfangen und in eine Einkaufsrechnung in [!INCLUDE[prod_short](includes/prod_short.md)] konvertieren können. Der Vorgang ist derselbe wie beim Konvertieren einer Kreditorenrechnung in eine Fibu Buch.-Blattzeile.  
 
-### <a name="to-receive-and-convert-an-electronic-invoice-to-a-purchase-invoice"></a>So empfangen Sie eine elektronische Rechnung und konvertieren sie in eine Einkaufsrechnung:
+### So empfangen Sie eine elektronische Rechnung und konvertieren sie in eine Einkaufsrechnung:
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Eingehende Belege** ein und wählen Sie dann den zugehörigen Link.  
 
@@ -56,7 +55,7 @@ Die folgenden Schritte zeigen, wie Sie eine Kreditorenrechnungen empfangen und i
 
     Überprüfungsfehler, die üblicherweise mit falschen oder fehlenden Stammdaten in [!INCLUDE[prod_short](includes/prod_short.md)] zusammenhängen, werden im Inforegister **Fehlermeldungen** angezeigt.  
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Verwalten von Verbindlichkeiten](payables-manage-payables.md)  
 [Eingehende Belege](across-income-documents.md)  

@@ -3,15 +3,14 @@ title: Einen Debitorenauftrag erstellen und Produkte verkaufen
 description: 'Beschreibt, wie Sie einen Verkaufsauftrag erstellen, einen Vertrag mit einem Debitoren erfassen, Produkte unter bestimmten Bedingungen verkaufen oder kaufen.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'trade, partial deliveries, customer sales order, shipping advice, partial shipments,'
 ms.search.form: '42, 48, 9305'
 ms.date: 11/03/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="sell-products-with-a-customer-sales-order"></a>Produkte mit einem Debitorenauftrag verkaufen
+# Produkte mit einem Debitorenauftrag verkaufen
 
 Dieser Artikel bietet Hilfestellungen dazu, wann ein Debitorenauftrag zusätzlich zu einer Rechnung verwendet werden sollte. Wenn der Verkaufsprozess erfordert, dass Sie nur Teile einer Bestellmenge liefern, weil beispielsweise die vollständige Menge nicht sofort verfügbar ist, müssen Sie diesen Verkauf mittels eines Verkaufsauftrags verarbeiten.
 
@@ -23,7 +22,7 @@ In Geschäftsumgebungen, wo Debitoren sofort bezahlen, beispielsweise mit PayPal
 
 Sie können direkt gezahlte Rechnungen für nicht registrierte Debitoren auch erstellen, indem Sie eine Bargelddebitoren-Karte einrichten, auf der Sie auf die Verkaufsrechnung hinweisen. Erfahren Sie mehr unter [Bardebitoren einrichten](finance-how-to-set-up-cash-customers.md).
 
-## <a name="create-a-sales-order"></a>Einen Verkaufsauftrag erstellen
+## Einen Verkaufsauftrag erstellen
 
 > [!NOTE]  
 > Beim nachfolgenden Verfahren wird davon ausgegangen aus, dass der Debitor bereits eingerichtet ist. Anweisungen dazu finden Sie unter [Neue Debitoren registrieren](sales-how-register-new-customers.md).
@@ -87,11 +86,11 @@ Das Dialogfeld **Buchungs- und Sendebestätigung** zeigt die gewünschte Methode
 
 Der zugehörige Artikel und die Debitorenposten werden nun im System erfasst erstellt, und das Verkaufsangebot wird als PDF-Dokument ausgegeben. Sobald der Auftrag vollständig gebucht ist, wird er aus der Liste von Verkaufsaufträgen entfernt und durch neue Belege in der Übersicht der Verkaufsrechnungen und Verkaufslieferungen ersetzt.  
 
-## <a name="external-document-number"></a>Externe Belegnummer
+## Externe Belegnummer
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Verkäufe fakturieren](sales-how-invoice-sales.md)  
 [Verkäufe buchen](ui-post-sales.md)  

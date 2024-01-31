@@ -3,21 +3,20 @@ title: Listenberichte für Kreditorenzahlungen in deutscher Version drucken
 description: Der Listenbericht für Kreditorenzahlungen liefert eine Zahlungsauflistung für jeden Kreditor in der deutschen Version. Der Bericht kann Zahlungen chronologisch oder nach Kreditor gruppiert sortieren.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 11/28/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="print-vendor-payments-list-reports-in-the-german-version"></a>Listenberichte für Kreditorenzahlungen in deutscher Version drucken
+# Listenberichte für Kreditorenzahlungen in deutscher Version drucken
 
 Die Liste **Kreditorenzahlungen** zeigt eine Liste von Zahlungen für jeden Kreditor an. Der Bericht kann Zahlungen chronologisch oder nach Kreditor gruppiert sortieren.  
 
 > [!NOTE]
 > Der **Listenbericht für Kreditorenzahlungen** ist in folgenden Märkten verfügbar: Österreich, Deutschland, Schweiz.
 
-## <a name="to-print-the-vendor-payments-list-report"></a>Gewusst wie: Druck von Listenberichten für Kreditorenzahlungen
+## Gewusst wie: Druck von Listenberichten für Kreditorenzahlungen  
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](../../media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Kreditorenzahlungen – Liste** ein, und wählen Sie dann den entsprechenden Link.  
 2. Füllen Sie im Inforegister **Optionen** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
@@ -29,7 +28,7 @@ Die Liste **Kreditorenzahlungen** zeigt eine Liste von Zahlungen für jeden Kred
 
  Am Ende des Berichts wir die Anzahl der verarbeiteten Zahlungen angezeigt.  
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Zahlungen vornehmen](../../payables-make-payments.md)
 

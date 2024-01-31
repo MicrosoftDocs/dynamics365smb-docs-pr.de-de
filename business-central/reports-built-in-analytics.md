@@ -3,14 +3,13 @@ title: Integrierte Analysen
 description: 'Bietet einen Überblick über alle Funktionen, die Analyseaufgaben in Business Central unterstützen.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: feature overview
 ms.date: 02/03/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="built-in-analytics"></a>Integrierte Analysen
+# Integrierte Analysen
 
 [!INCLUDE[prod_short](includes/prod_short.md)] enthält einige Funktionen, die es Ihnen erlauben, Daten in einem aggregierten Formular zu analysieren. Diese Funktionalität ist nützlich, wenn Sie beispielsweise finanzielle Leistungskennzahlen (KPIs) verfolgen oder Finanzberichte in Microsoft Excel analysieren möchten. Unten finden Sie Links, die Ihnen helfen, zu lernen, wie man es verwendet.
 
@@ -23,7 +22,7 @@ ms.author: bholtorf
 |Analysieren Sie Finanzdaten über mehrere Firmen hinweg | [Finanzdaten von mehreren Firmen konsolidieren](finance-consolidated-company-reporting.md) |
 |Erhalten Sie Insights darüber, welche Berichte die Benutzer verwenden| [Telemetrie der Berichtsnutzung](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)|
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Übersicht über Business Intelligence und Reporting](reports-use-reports.md)
 
