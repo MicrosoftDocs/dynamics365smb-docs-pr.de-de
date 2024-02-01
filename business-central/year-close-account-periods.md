@@ -10,11 +10,11 @@ ms.date: 06/25/2021
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
-# Schließen von Buchhaltungsperioden
+# <a name="close-accounting-periods"></a>Schließen von Buchhaltungsperioden
 
 Wenn ein Geschäftsjahr vorbei ist, müssen die Perioden, aus denen es besteht, geschlossen werden.
 
-## Buchhaltungsperioden schließen:
+## <a name="to-close-accounting-periods"></a>Buchhaltungsperioden schließen:
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Buchhaltungsperioden** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie auf der Seite **Buchhaltungsperioden** die Aktion **Jahr auswählen** aus.
@@ -31,7 +31,7 @@ Auch wenn ein Geschäftsjahr abgeschlossen wurde, können hierfür noch Sachpost
 
 Nachdem ein Geschäftsjahr abgeschlossen wurde, müssen Sie die GuV-Kontennullstellung durchführen und das Ergebnis auf ein Bilanzkonto übertragen lassen. Dies können das jedes Mal wiederholen, wenn Sie in ein abgeschlossenes Geschäftsjahr gebucht haben.
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Schließen der Bücher](year-close-books.md)  
 [Jahresabschlussbuchung buchen](year-how-post-year-end-close-entry.md)  

@@ -10,15 +10,15 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Prozess für Digital-Überwachung (/GoBD GDPdU)
+# <a name="process-for-digital-audits-gobdgdpdu"></a>Prozess für Digital-Überwachung (/GoBD GDPdU)
 Sie können Daten aus [!INCLUDE[prod_short](../../includes/prod_short.md)] exportieren entsprechend dem Prozess für Datenzugriff und Testbarkeit von digitalen Dokumenten (GDPdU), der auf deutschen Steuergesetzen basiert.  
 
-## Matrix  
+## <a name="overview"></a>Matrix
 Nach §146 und 147 des deutschen Steuercodes (Abgabenordnung, AO) ist es der Finanzverwaltung möglich, die Daten von elektronischen Buchführungssystemen „digital“ zu prüfen. Sie können dies über ein Datenspeichergerät oder direkt oder indirekt über Zugriff auf das System tun. Für die Datenträgerüberlassung ist es notwendig, dass die Daten vom steuerpflichtigen Unternehmen (oder dem beauftragten Steuerberater, buchführenden (Sub-)Unternehmen, etc.) in „maschinell auswertbarer Form“ auf geeigneten Datenträgern bereitgestellt werden. Unter dem Begriff „maschineller Auswertbarkeit“ versteht die Finanzverwaltung den wahlfreien Zugriff auf alle gespeicherten Daten einschließlich der Stammdaten und Verknüpfungen mit Sortier- und Filterfunktionen. Um eine solche Auswertbarkeit oder Verwertbarkeit zu erreichen, ist es notwendig, dass die Dateiformate für die Datenträgerüberlassung definiert und standardisiert werden.  
 
 Steuerbehörden in Deutschland verwenden Analysesoftware mit der Bezeichnung IDEA, mit der Daten aus ASCII-Dateien importiert werden. Die IDEA-Software kann Daten mit festem oder variablem Längenformat importieren. Dazu wird eine XML-Datei, index.xml benötigt, die die Struktur der Datendateien beschreibt. Weitere Informationen finden Sie unter [Audicon-Website für GDPdU](https://go.microsoft.com/fwlink/?LinkId=245841).  
 
-## Gewusst wie: Exportieren von GDPdU-Daten  
+## <a name="defining-gdpdu-export-data"></a>Gewusst wie: Exportieren von GDPdU-Daten
 Sie können [!INCLUDE[prod_short](../../includes/prod_short.md)] konfigurieren, ums GDPdU-Daten zu exportieren, um Ihren Anforderungen zu entsprechen. Sie können große Datenbestände exportieren, und kleine Datenbestände exportieren. Sie können Daten aus einer einzelnen Tabelle oder aus einer Tabelle und den verknüpften Tabellen exportieren.  
 
 Für jeden Datenexport definieren Sie die Tabellen und Felder, die Sie exportieren möchten. Dies hängt von den Anforderungen des Steuerprüfers ab. Die ausgewählten Daten werden in die ASCII-Dateien exportiert. Eine entsprechende XML-Datei, INDEX.XML, wird ebenfalls erstellt, um die ASCII-Datei-Struktur zu beschreiben.  
@@ -27,7 +27,7 @@ Die Elemente in der INDEX.XML-Datei definieren die Namen der Tabellen und die Fe
 
 In den meisten Fällen richten Sie den GDPdU-Datenexport einmal ein, und dann kann eine Person in Ihrem Unternehmen den Export ausführen, wenn der Steuerprüfer neue Daten anfordert. Es wird empfohlen, dass die Einrichtung nicht nur von Personen mit einem Verständnis der Datenbankstruktur und der technischen Hardware in Ihrem Unternehmen durchgeführt wird, sondern auch gemeinsam mit Personen, die die Geschäftsdaten verstehen, wie der Buchhalter.  
 
-## Konfiguration  
+## <a name="configuration"></a>Konfiguration
 Sie können verschiedene GDPdU-Datenexporte abhängig vom Datentyp einrichten, der exportiert werden soll. Beispielsweise können Sie zwei GDPdU-Datenexporte erstellen:  
 
 - Einer exportiert allgemeine Informationen über alle Sachposten, Debitorenposten, Kreditorenposten und MwSt.-Posten.  
@@ -38,7 +38,7 @@ Sie können verschiedene GDPdU-Datenexporte abhängig vom Datentyp einrichten, d
 
 Als Beispiel, wie Einrichtungsdatenexporten für GDPdU eingerichtet werden, siehe. [Exemplarische Vorgehensweise: Exportieren von GDPdU-Daten für digitale Übeprüfungen](walkthrough-exporting-data-for-a-digital-audit.md).  
 
-### Datenexportfilter  
+### <a name="data-export-filters"></a>Datenexportfilter
 Wenn Sie einen Datenexport einrichten, können Sie Daten für verschiedene Stufen filtern, wie in der folgenden Tabelle beschrieben.  
 
 |Filterebene|Description|  
@@ -51,10 +51,10 @@ Wenn Sie ein FlowField wie das Feld **Nettoveränderung (MW)** in der Tabelle **
 
 Weitere Informationen finden Sie unter [GDPdU-Filterbeispiele](gdpdu-filter-examples.md).
 
-## Export-Leistung  
+## <a name="export-performance"></a>Export-Leistung
  Wenn Sie große Datenbestände exportieren möchten, kann dies sehr lange Zeit dauern. Es ist empfehlenswert, dass Sie Datenexporte basierend auf den Ratschlägen Ihres Steuerberaters  exportieren, um Ihre Geschäftsanforderungen einzurichten, und die Anforderungen des Steuerprüfers einzurichten. Die Anzahl der Datensätze in einer Tabelle ist auch etwas, das Sie berücksichtigen sollten.  
 
-## Siehe auch  
+## <a name="see-also"></a>Siehe auch
  [Wie Sie Daten für eine Digital-Überwachung einrichten](how-to-set-up-data-exports-for-digital-audits.md)   
  [Wie Sie Daten für eine Digital-Überwachung exportieren](how-to-export-data-for-a-digital-audit.md)   
  [Wie Sie Daten für eine Digital-Überwachung exportieren](walkthrough-exporting-data-for-a-digital-audit.md)   

@@ -10,18 +10,18 @@ ms.date: 12/19/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Käufe mit Einkaufsrechnungen und Aufträgen erfassen
+# <a name="record-purchases-with-purchase-invoices-and-orders"></a>Käufe mit Einkaufsrechnungen und Aufträgen erfassen
 
 Sie erstellen eine Einkaufsrechnung oder Einkaufsbestellung, um die Kosten der Einkäufe zu erfassen und Kreditoren zu verfolgen. Einkaufsrechnungen und Einkaufsbestellungen werden auch verwendet, um Lagerbestände dynamisch zu aktualisieren, sodass Sie Ihre Lagerbestandskosten minimieren und besseren Debitorenservice bereitstellen können. Die Einkaufskosten, einschließlich Servicekosten und Bestandswerte, die aus der Buchung von Einkaufsrechnungen resultieren, tragen zu den Gewinnzahlen und anderen Key Performance Indicators (KPIs) in Ihrem Rollencenter bei.
 
-## Käufe mit Einkaufsrechnungen erfassen
+## <a name="record-purchases-with-purchase-invoices"></a>Käufe mit Einkaufsrechnungen erfassen
 
 Wenn Sie die Bestandsartikel erhalten oder wenn die gekaufte Dienstleistung abgeschlossen ist, buchen Sie die Rechnung, um die Bestands- und Finanzdaten zu aktualisieren und die Zahlung an den Lieferanten gemäß den Zahlungsbedingungen zu aktivieren. [Zahlungen vornehmen](payables-make-payments.md).
 
 > [!CAUTION]  
 > Buchen Sie die physischen Artikel einer Einkaufsrechnung erst dann, wenn Sie die Artikel erhalten und die endgültigen Kosten des Kaufs, einschließlich aller zusätzlichen Kosten, kennen. Andernfalls werden Ihr Lagerwert und DB-Zahlen möglicherweise falsch sein.
 
-### Eine Verkaufsrechnung erstellen und buchen
+### <a name="create-and-post-a-purchase-invoice"></a>Eine Verkaufsrechnung erstellen und buchen
 
 Im folgenden Schritt wird beschrieben, wie Sie eine Einkaufsrechnung erstellen. Die Schritte für die Erstellung einer Bestellung sind ähnlich. Der Hauptunterschied besteht darin, dass Bestellungen einige zusätzliche Felder und Aktionen für die physische Handhabung von Artikeln haben.
 
@@ -63,7 +63,7 @@ Der Kauf wird nun im Bestand, in den Ressourcen-Sachkonten und in den Finanzdoku
 >
 > Verwenden Sie zum Übeprüfen der tatsächlich gebuchten Beträge die Seite **Statistiken**, die die Rundungsberechnungen berücksichtigt. Auch wenn Sie die Aktion **Freigabe** auswählen, werden die Summenfelder aktualisiert, sodass sie die Rundungsberechnungen enthalten.
 
-## Gebuchte Rechnungen
+## <a name="posted-invoices"></a>Gebuchte Rechnungen
 
 [!INCLUDE [posted-invoices](includes/posted-invoices.md)]
 
@@ -72,7 +72,7 @@ Sie können eine gebuchte Einkaufsrechnung einfach korrigieren oder stornieren, 
 [Die Liste **Gebuchte Einkaufsrechnungen** öffnen](https://businesscentral.dynamics.com/?page=146) in [!INCLUDE [prod_short](includes/prod_short.md)].
 
 
-## Kaufen von Nicht-Bestandsartikeln
+## <a name="purchasing-non-inventory-items"></a>Kaufen von Nicht-Bestandsartikeln
 
 Die Zeilen auf einer Einkaufsrechnung können vom Typ **Ressource** oder **Artikel** sein. Artikelkarten können als **Bestand**, **Service** oder **Nicht-Bestand** klassifiziert werden, wenn die Einheit eine physische Einheit ist, eine Arbeitszeiteinheit (auch anwendbar auf Ressourcen) oder eine physische Einheit, die nicht auf Lager ist. Erfahren Sie mehr unter [Registrieren Sie neue Artikel](inventory-how-register-new-items.md). Der Kaufsrechnungsprozess ist derselbe für alle erwähnten Artikeltypen.
 
@@ -81,7 +81,7 @@ Die Zeilen auf einer Einkaufsrechnung können vom Typ **Ressource** oder **Artik
 >
 > Um eine gekaufte Ressource zu verwenden, müssen Sie möglicherweise die Kapazität der Ressource festlegen und sie manuell einem Auftrag zuweisen. Durch den Kauf einer Ressource wird ein Ressourcenposten erstellt, jedoch werden die Ressourcen-Sachkonto-Einträge nicht nach Menge und Wert verfolgt, wie dies z.B. bei Artikeln der Fall ist. Wenn eine Mengen- und Wertverfolgung erforderlich ist, sollten Sie die Verwendung anderer Positionsarten in Betracht ziehen.
 
-## Verwendung von Bestellungen
+## <a name="when-to-use-purchase-orders"></a>Verwendung von Bestellungen
 
 Sie müssen Einkaufsbestellungen verwenden, wenn es für den Einkaufsprozess erforderlich ist, Teillieferungen einer Bestellmenge zu erfassen, weil beispielsweise die vollständige Menge beim Kreditor nicht sofort verfügbar ist. Wenn Sie verkaufte Artikel liefern, indem Sie direkt von Ihrem Kreditor an Ihren Debitor versenden, müssen Sie ebenfalls Einkaufsbestellungen verwenden. Erfahren Sie mehr unter [Direktlieferungen machen](sales-how-drop-shipment.md).
 
@@ -91,7 +91,7 @@ In allen anderen Aspekten ist das Vorgehen bei Einkaufsbestellungen genau wie be
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4b3tt?rel=0]
 
-## Empfangen Sie Artikel mit einer Einkaufsbestellung
+## <a name="receive-items-with-a-purchase-order"></a>Empfangen Sie Artikel mit einer Einkaufsbestellung
 
 Der folgende Schritt beschreibt, wie Artikel mit einer Bestellung empfangen werden. 
 
@@ -108,19 +108,19 @@ Der folgende Schritt beschreibt, wie Artikel mit einer Bestellung empfangen werd
 > [!NOTE]
 > Wenn Sie eine Lagerdurchlaufzeit verwenden, können Sie nicht die Aktion **Buchen** auf die Bestellung anwenden, um den Eingang zu erfassen. Deshalb hat ein Lagerarbeiter die Bestellmenge bereits als eingegangen gebucht. Weitere Informationen finden Sie unter [Designdetails - Eingehender Lagerfluss](design-details-inbound-warehouse-flow.md).
 
-## Mehr Artikel als bestellt erhalten
+## <a name="receive-more-items-than-ordered"></a>Mehr Artikel als bestellt erhalten
 
 Wenn mehr Waren ankommen, als bestellt waren, möchten Sie diese möglicherweise erhalten, anstatt den Beleg zu stornieren. Beispielsweise kann es billiger sein, die überschüssigen Artikel Ihres Inventars zu behalten, als sie zurückzugeben, oder Ihr Kreditor bietet Ihnen möglicherweise einen Skonto an, wenn Sie sie behalten.
 
 <!--move the over-receipt setup info to an article about purchasing. Keep the concept info here and link to the steps-->
-### Richten Sie Übereingänge ein
+### <a name="set-up-over-receipts"></a>Richten Sie Übereingänge ein
 
 Erstellen Sie Eingangsüberschusscodes, um einen Prozentsatz zu definieren, um den eine erhaltene Menge die bestellte Menge überschreiten darf. Geben Sie den Prozentsatz im Feld **Übereingangtoleranz %** an. Sie weisen dann den Code auf den Seiten Artikelkarte oder Kreditorenkarte für Artikel und Kreditoren zu.  
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Geben Sie **Eingangsüberschusscodes** ein und wählen Sie dann den zugehörigen Link.
 2. Füllen Sie die Felder nach Bedarf aus. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-### Den Eingangsüberschusscode einem Artikel zuweisen
+### <a name="assign-the-over-receipt-code-to-an-item"></a>Den Eingangsüberschusscode einem Artikel zuweisen
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol, geben Sie **Posten** ein und wählen Sie dann den entsprechenden Link.
 2. Öffnen Sie die Seite **Artikelkarte** des zugehörigen Artikels.
@@ -131,7 +131,7 @@ Der Übereingangscode wird dem Artikel zugewiesen. Einkaufsbestellungen oder War
 > [!NOTE]
 > Sie können einen Genehmigungs-Workflow einrichten, um zu verlangen, dass überzählige Belege genehmigt werden müssen, bevor sie bearbeitet werden können. Aktivieren Sie das Kontrollkästchen **Genehmigung erforderlich** auf der Seite **Eingangsüberschuss-Code**. Erfahren Sie mehr unter [Workflows erstellen](across-how-to-create-workflows.md).
 
-### Übereingang eines Auftrags
+### <a name="over-receive-an-order"></a>Übereingang eines Auftrags
 
 In Einkaufs- und Lagerzugangszeilen wird das Feld **Über-Empfangsmenge** dazu verwendet, überzählige Mengen zu erfassen, d.h. Mengen, die den Wert im Feld **Menge**, die bestellte Menge, überschreiten.
 
@@ -148,11 +148,11 @@ Wenn Sie einen Übereingang bearbeiten, können Sie entweder den Wert im Feld **
 > [!NOTE]
 > [!INCLUDE[prod_short](includes/prod_short.md)] behandelt nicht automatisch die finanziellen Aspekte von Übereingängen. Dies müssen Sie in Absprache mit dem Kreditor manuell regeln, z.B. indem der Lieferant eine neue oder aktualisierte Rechnung weiterleitet.
 
-## Externe Belegnummer
+## <a name="external-document-number"></a>Externe Belegnummer
 
 [!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
-## Einkäufe buchen
+## <a name="posting-purchases"></a>Einkäufe buchen
 
 Bei einem Kaufbeleg können Sie zwischen den folgenden Buchungsaktionen wählen:
 
@@ -182,17 +182,17 @@ Sie können jederzeit verschiedene Hauptbucheinträge überprüfen, die als Erge
 
 Sie können entweder buchen oder buchen und drucken. Wenn Sie sich entscheiden, zu buchen und zu drucken, wird ein Bericht gedruckt, wenn der Auftrag gebucht wird. Sie können auch **Stapelbuchen** wählen, mit der Sie mehrere Aufträge gleichzeitig buchen können. Erfahren Sie mehr unter [Mehrere Dokumente gleichzeitig buchen](ui-batch-posting.md).
 
-## Anzeigen von Posten
+## <a name="viewing-ledger-entries"></a>Anzeigen von Posten
 
 Wenn die Buchung vollständig ist, werden die gebuchten Einkaufszeilen aus der Bestellung entfernt. Eine Meldung erscheint, die Ihnen mitteilt, dass die Buchung vollständig ist. Danach können Sie die gebuchten Buchungen auf den verschiedenen Seiten sehen, die gebuchte Buchungen enthalten, wie z.B. die Seiten **Kreditorenbuch-Einträge**, **Buch.-Blatt-Einträge**, **Buch.-Blatt-Buch-Einträge**, **Ressourcen-Buch.-Blatt-Einträge**, **Einkaufsbelege** und **Gebuchte Einkaufsrechnungen**.
 
 In den meisten Fällen können Sie Posten von der betroffenen Karte oder dem betroffenen Beleg aus öffnen. Auf der Seite **Kreditorenkarte** wählen Sie beispielsweise die Aktion **Einträge** aus.
 
-## Bearbeiten von Posten
+## <a name="editing-ledger-entries"></a>Bearbeiten von Posten
 
 Sie können bestimmte Felder in gebuchten Einkaufsbelegen bearbeiten, z. B. das Feld **Zahlungsreferenz**. Erfahren Sie mehr unter [Gebuchte Belege bearbeiten](across-edit-posted-document.md). Bei kritischeren Feldern, die sich auf den Überwachungspfad auswirken, müssen Sie die Buchung stornieren oder rückgängig machen. Erfahren Sie mehr unter [Buch.-Blatt-Buchungen stornieren und Rückgängigmachung von Eingängen/Versendungen](finance-how-reverse-journal-posting.md).
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Angebote anfordern](purchasing-how-request-quotes.md)  
 [Artikel für einen Verkauf einkaufen](purchasing-how-purchase-products-sale.md)  

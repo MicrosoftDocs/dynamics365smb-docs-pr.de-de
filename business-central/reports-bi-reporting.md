@@ -10,7 +10,7 @@ ms.date: 09/22/2022
 ms.author: kepontop
 ms.service: dynamics-365-business-central
 ---
-# Überblick über Business Intelligence und Berichte
+# <a name="business-intelligence-and-reporting-overview"></a>Überblick über Business Intelligence und Berichte
 
 Kleine und mittelständische Unternehmen setzen auf integrierte Analyse- und Berichtsfunktionen, die sie sofort nutzen können, um den Überblick über ihr Geschäft zu behalten. [!INCLUDE[prod_short](includes/prod_short.md)] unterstützt allgemeine Geschäftsprozesse und komplexere Prozesse für solche Organisationen. Jeder dieser Prozesse umfasst Berichte und Analysetools. Sie können auch Ad-hoc-Analysen direkt von Ihrer Homepage aus durchführen.  
 
@@ -26,7 +26,7 @@ Die folgende Tabelle behandelt die wichtigsten Business Intelligence- und Berich
 |Ändern Sie Berichtslayouts oder entwickeln Sie sogar Ihre eigenen Berichte von Grund auf neu. |[Entwickeln von Berichten](reports-develop-reports.md)|
 |Daten mit Microsoft Fabric analysieren| [Einführung in Microsoft Fabric und Business Central](admin-fabric.md) |
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Financial Business Intelligence](bi.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
