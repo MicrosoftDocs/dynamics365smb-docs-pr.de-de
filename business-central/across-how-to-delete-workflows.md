@@ -3,9 +3,7 @@ title: So löschen Sie Genehmigungsworkflows
 description: 'Wenn Sie sicher sind, dass ein Workflow nicht mehr verwendet wird, können Sie ihn löschen. Alle im Workflow definierten Workflow-Schrittinstanzen müssen den Status **Erledigt** haben.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.search.form: '1500,'
 ms.date: 09/08/2022

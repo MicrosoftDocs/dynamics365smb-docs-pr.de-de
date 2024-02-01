@@ -3,9 +3,7 @@ title: Beleg-Layouts Debitoren oder Kreditoren zuweisen
 description: 'Verwenden Sie Dokumentenlayouts, um das Aussehen und Format von Belegen wie Rechnungen und Bestellungen zu steuern, die Sie an Debitoren und Kreditoren senden.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'customized report, document layout, logo, personalize'
 ms.search.form: '21, 9650'
 ms.date: 04/07/2022

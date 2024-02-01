@@ -3,14 +3,13 @@ title: Business Central kündigen oder entfernen
 description: 'Erfahren Sie, wie Sie Ihre Business Central-Erfahrung entfernen oder löschen, wenn Sie ein Testabonnement haben oder wenn Sie ein kostenpflichtiges Abonnement haben.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'remove, delete'
 ms.date: 06/08/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="unsubscribe-or-remove-"></a>Abonnement kündigen oder [!INCLUDE[prod_short](includes/prod_short.md)] entfernen
+# Abonnement kündigen oder [!INCLUDE[prod_short](includes/prod_short.md)] entfernen
 
 Wenn Sie [!INCLUDE[prod_short](includes/prod_short.md)] nicht mehr nutzen möchten, können Sie Ihr Konto schließen und die Lizenz von Ihrem Konto entfernen. Die Schritte, die Sie machen, sind unterschiedlich, wenn Sie die kostenlose Testversion nutzen oder wenn Sie ein monatliches Abonnement haben.  
 
@@ -23,11 +22,11 @@ Wenn Sie ein Abonnement beenden möchten, muss Ihr Administrator das Abonnement 
 
 Wie Sie Daten nach Excel exportieren, erfahren Sie im Artikel [Datenexport in andere Finance-Systeme](about-export-data.md#exporting-data-to-other-finance-systems). Wenn Sie lieber alle Daten in einen Azure Storage Container exportieren möchten, kann Ihr Microsoft 365-Administrator das im Admin-Center tun. Weitere Informationen finden Sie unter [Exportieren von Datenbanken im Admin Center](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-database-export).  
 
-## <a name="removing--from-your-app-launcher"></a>Entfernen des [!INCLUDE[prod_short](includes/prod_short.md)] von Ihrem App-Startfeld
+## Entfernen des [!INCLUDE[prod_short](includes/prod_short.md)] von Ihrem App-Startfeld
 
 Wenn Sie [!INCLUDE[prod_short](includes/prod_short.md)] auf Ihrem App-Startfeld ausblenden möchten, können Sie es lösen. Es gehen keine Daten verloren, und Ihr Abonnement wird durch den Schritt nicht gekündigt.  
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Häufig gestellte Fragen zur Testversion von Business Central](trial-faq.md)  
 [Testversionen und Abonnements (für Administratoren)](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)  

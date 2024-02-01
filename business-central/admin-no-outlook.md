@@ -3,9 +3,7 @@ title: Nutzung von Business Central ohne Outlook
 description: 'Wenn Sie Outlook nicht haben, können Sie Business Central als Ihren Geschäftsposteingang in Outlook verwenden. Sie können aber auch ohne Outlook in einem Browser oder auf dem mobilen Gerät arbeiten.'
 author: brentholtorf
 ms.topic: get-started
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'SMTP, mail, Microsoft 365'
 ms.date: 12/11/2023
 ms.author: bholtorf

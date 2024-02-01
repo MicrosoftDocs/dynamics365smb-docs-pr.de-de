@@ -3,9 +3,7 @@ title: Business Central für Unternehmen mit mehreren Standorten und internation
 description: 'Business Central bietet Funktionalitäten, die ein Hub-and-Spoke-Geschäftsmodell unterstützen.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'hub-and-spoke, multi-site, headquarter, sites'
 ms.date: 10/01/2020
 ms.author: bholtorf

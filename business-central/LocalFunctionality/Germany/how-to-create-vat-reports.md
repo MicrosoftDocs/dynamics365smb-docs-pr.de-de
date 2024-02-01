@@ -3,17 +3,16 @@ title: 'Wie Sie MwSt.-Berichte erstellen [DE]'
 description: 'Sie können verschiedene Arten von MwSt.-Berichten im elektronischen Format konfigurieren, die den ELMA5-Formatanforderungen entsprechen.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 06/18/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="create-vat-reports-in-the-german-version"></a>Erstellen von MwSt.-Berichten in der deutschen Version
+# Erstellen von MwSt.-Berichten in der deutschen Version
 Verschiedene Arten von MwSt.-Erklärungen können basierend auf Anforderungen konfiguriert werden. Wenn Sie dann eine MwSt buchen müssen, können Sie sie auf der Seite **MwSt Bericht** erstellen und dann im elektronischen Format exportieren, das an die Anforderungen des ELMA5 Formats sich anpaßt.  
 
-## <a name="to-create-a-vat-report"></a>Einen MwSt.-Bericht erstellen:
+## Einen MwSt.-Bericht erstellen:  
 
 1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](../../media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen") Symbol. Geben Sie **MwSt.-Bericht** ein, und wählen Sie dann den entsprechenden Link.  
 2.  Füllen Sie im Inforegister **Allgemein** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
@@ -47,7 +46,7 @@ Dadurch werden der Seite MwSt-Einträge hinzugefügt. Sie können optional für 
 
 Nachdem Sie die MwSt.-Erklärung erstellt haben, müssen Sie sie an die Steuerbehörden übermitteln.  
 
-## <a name="to-submit-a-vat-report"></a>Einen MwSt.-Bericht übermitteln:
+## Einen MwSt.-Bericht übermitteln:  
 
 1.  Wählen Sie auf der Seite **MwSt-Bericht** die Aktion **Freigabe** aus.  
 2.  Bestätigen Sie, dass Sie den Bericht freigeben möchten.  
@@ -62,7 +61,7 @@ Nachdem Sie die MwSt.-Erklärung erstellt haben, müssen Sie sie an die Steuerbe
 
 4.  Wählen Sie die Akltion **Als Übermittelt markieren** aus.  
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch  
  [Zu korrigierender MwSt.-Bericht](how-to-correct-vat-reports.md)   
  [Richten Sie die MwSt.-Berichte ein](how-to-set-up-vat-reports.md)
 

@@ -3,7 +3,6 @@ title: Genehmigen und Ablehnen von Belegen in Workflows
 description: 'Anfordern, ablehnen oder delegieren einer Genehmigung, beispielsweise einen Einkaufs- oder Verkaufsbeleg, als Teil eines Workflows.'
 author: brentholtorf
 ms.topic: conceptual
-ms.workload: na
 ms.search.keywords: 'reject, delegate, request'
 ms.search.form: '654, 662, 1500,'
 ms.date: 09/12/2022

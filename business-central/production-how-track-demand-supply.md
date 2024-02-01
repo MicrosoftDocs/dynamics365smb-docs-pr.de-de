@@ -3,9 +3,7 @@ title: Nachverfolgen von Beziehungen zwischen Bedarf und Vorrat
 description: 'Dieses Thema erklärt die verschiedenen Möglichkeiten, Beziehungen zwischen Bedarf und Vorrat zu verfolgen, wie z.B. das Verfolgen von verknüpften Artikeln und den Umgang mit nicht verfolgten Planungselementen.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: '5830, 9101, 99000822, 99000855'
 ms.date: 06/25/2021
 ms.author: bholtorf

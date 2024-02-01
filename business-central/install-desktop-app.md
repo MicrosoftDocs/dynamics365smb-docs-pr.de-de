@@ -3,12 +3,11 @@ title: Business Central auf Ihren Desktop holen
 description: 'Dieser Artikel beschreibt, wie Sie die Business Central-App auf einen Windows- oder MACiOS-Desktop bekommen.'
 author: jswymer
 ms.topic: get-started
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'phone, tablet'
 ms.date: 01/11/2022
 ms.author: jswymer
+ms.service: dynamics-365-business-central
 ---
 # Business Central-App auf den Desktop holen
 

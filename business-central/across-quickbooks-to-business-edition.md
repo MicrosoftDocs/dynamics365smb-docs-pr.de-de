@@ -3,9 +3,7 @@ title: Daten aus einer QuickBooks-App übertragen
 description: 'Sie können Daten, wie Debitoren, Kreditoren, Lagerartikel und Sachkonten aus QuickBooks-Apps auf Business Central migrieren.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'app, import, migrate, data, transfer, QuickBooks, customize'
 ms.search.form: 1808
 ms.date: 12/12/2023

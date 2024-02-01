@@ -3,9 +3,7 @@ title: Cashflowübersicht
 description: 'Eine Übersicht über eingehenden und ausgehenden Cashflows, um den Erhalt und die Auszahlung von Geld vorherzusagen.'
 author: brentholtorf
 ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'cash flow, money flow, expense and income, liquidity, cash receipts minus cash payments'
 ms.search.form: '841, 849, 1818'
 ms.date: 12/20/2021

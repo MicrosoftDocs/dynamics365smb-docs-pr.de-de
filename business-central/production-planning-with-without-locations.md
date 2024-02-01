@@ -3,9 +3,7 @@ title: Siehe Planung mit/ohne Lagerortcodes.
 description: 'In diesem Thema lernen Sie die Produktion und Fertigung, einschließlich der Vorratsplanung, in Business Central kennen.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 09/15/2022
 ms.author: bholtorf

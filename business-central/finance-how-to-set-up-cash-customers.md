@@ -3,9 +3,7 @@ title: BarDebitoren einrichten
 description: 'Dieses Thema beschreibt die Schritte, die erforderlich sind, um die Rechnung mit einer Kundennummer für Debitoren, die in bar bezahlen, festzulegen.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: '21, 22'
 ms.date: 06/16/2021
 ms.author: bholtorf

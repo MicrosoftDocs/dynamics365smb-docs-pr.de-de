@@ -3,9 +3,7 @@ title: 'Gewusst wie: Ressourcen zuweisen einrichten | Microsoft Docs'
 description: 'Erfahren Sie, wie das System helfen kann, sicherzustellen, die Sie einer Person zuweisen, welches die Qualifikationen benötigen können, um eine Service bereitstellen.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'resource, skill, service, zones'
 ms.date: 04/01/2021
 ms.author: bholtorf

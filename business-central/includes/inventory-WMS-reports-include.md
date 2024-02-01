@@ -3,6 +3,7 @@ author: brentholtorf
 ms.topic: include
 ms.date: 10/31/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
 In der folgenden Tabelle werden einige der wichtigsten Berichte in der Bestands- und Lagerverwaltung beschrieben.

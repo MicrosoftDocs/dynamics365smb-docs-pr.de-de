@@ -4,7 +4,6 @@ description: 'Was zu tun ist, wenn Steuerelement-Add-Ins oder benutzerdefinierte
 ms.custom: na
 ms.reviewer: na
 ms.suite: na
-ms.tgt_pltfrm: na
 ms.topic: conceptual
 author: brentholtorf
 ms.author: bholtorf

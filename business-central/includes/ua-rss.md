@@ -3,6 +3,7 @@ author: brentholtorf
 ms.topic: include
 ms.date: 08/16/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 Um einen RSS-Feed (Really Simple Syndication) über alle Aktualisierungen der Inhalte auf learn.microsoft.com zu abonnieren, die die Business-Funktionalität für [!INCLUDE [prod_short](prod_short.md)] betreffen, verwenden Sie den folgenden Link:
 

@@ -3,14 +3,13 @@ title: Doppelte Debitoren- oder Kreditorendatensätze zusammenführen
 description: 'Beschreibt, wie Informationen zu Kunden oder Lieferanten konsolidiert werden, wenn Sie doppelte Einträge zu einigen von ihnen haben.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: client
 ms.date: 04/01/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="merge-duplicate-records"></a>Doppelt Datensätze zusammenführen
+# Doppelt Datensätze zusammenführen
 
 Wenn unterschiedliche Benutzer im Laufe der Zeit neue Debitoren-, Kreditoren- oder Kontaktkarten erstellen, oder die neuen Datensätze automatisch während der Migration erstellt werden, wird ein Debitor, ein Kreditor oder ein Kontakt im System mit mehr als einem Datensatz dargestellt. In diesem Fall können Sie die Seite **Doppelte Datensätze zusammenführen** aus der Karte des Datensatzes verwenden, den Sie erfassen möchten. Die Seite zeigt Ihnen eine Übersicht der duplizierten Feldwerte und bietet Funktionen, um auszuwählen, welche Werte behalten oder verworfen werden, wenn zwei Datensätze zusammengeführt werden.
 
@@ -56,7 +55,7 @@ Das folgende Verfahren basiert auf einer Debitorenkarte. Die Schritte sind für 
 > [!NOTE]
 > Für Kontakte können Sie Funktionen zum Auffinden von doppelten Kontakten nutzen, bevor Sie die Seite **Doppelt Datensätze zusammenführen** verwenden. Weitere Informationen finden Sie unter [Suchen nach doppelten Kontakten](marketing-setup-contacts.md#searching-for-duplicate-contacts).
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Verkauf](sales-manage-sales.md)  
 [Kontakte einrichten](marketing-setup-contacts.md)  

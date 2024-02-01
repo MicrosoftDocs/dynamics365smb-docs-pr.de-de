@@ -3,9 +3,7 @@ title: Power Automate-Flow für rechtzeitige Synchronisierung von Dataverse-Enti
 description: 'Erfahren Sie, wie Sie einen Flow in Power Automate erstellen, der Sie benachrichtigt, wenn eine Entität geändert wird in der Dataverse Umgebung.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'Power Automate, Flow, Dataverse'
 ms.search.form: null
 ms.date: 09/05/2022

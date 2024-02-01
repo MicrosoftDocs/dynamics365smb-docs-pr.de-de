@@ -3,9 +3,7 @@ title: Festlegen des Berichtslayouts
 description: 'Erfahren Sie, wie Sie das Layout festlegen, das beim Anzeigen und Drucken eines Berichts verwendet wird.'
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'customized report, document layout, logo, personalize'
 ms.search.form: '9652, 9650'
 ms.date: 08/12/2022

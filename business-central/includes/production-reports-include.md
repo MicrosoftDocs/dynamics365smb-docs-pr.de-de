@@ -3,6 +3,7 @@ author: brentholtorf
 ms.topic: include
 ms.date: 03/01/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
 In der folgenden Tabelle werden einige der wichtigsten Berichte in der Produktionsberichterstattung beschrieben.

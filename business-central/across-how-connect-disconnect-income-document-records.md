@@ -9,6 +9,7 @@ ms.author: jswymer
 ms.reviewer: jswymer
 ms-service: dynamics-365-business-central
 ms.custom: bap-template
+ms.service: dynamics-365-business-central
 ---
 # Datensätze für eingehende Belege aus Belegen und Posten direkt erstellen
 

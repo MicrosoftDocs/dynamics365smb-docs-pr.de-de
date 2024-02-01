@@ -3,9 +3,7 @@ title: Mehrsprachigkeit und Lokalisierung
 description: 'Erfahren Sie, wie die Sprache und Region die Benutzeroberfläche in Business Central beeinflussen. Um der Benutzeroberfläche die Sprache zu ändern, wechseln Sie zur Seite Meine Einstellungen.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'language, locale, localization, culture, region, regional settings'
 ms.search.form: '9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017'
 ms.date: 04/01/2021

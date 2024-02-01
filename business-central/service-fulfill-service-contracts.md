@@ -3,9 +3,7 @@ title: Übersicht der Aufgaben zum Erfüllen von Serviceverträgen
 description: 'Umreißt die Aufgaben, die mit der Erfüllung von Serviceverträgen mit Ihren Debitoren verbunden sind, wie das Festlegen von Standard-Vertragsvereinbarungen mit anpassbaren Vorlagen und mehr.'
 author: brentholtorf
 ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'contract, agreement, configure'
 ms.date: 06/23/2021
 ms.author: bholtorf

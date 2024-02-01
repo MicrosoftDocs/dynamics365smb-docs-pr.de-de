@@ -3,9 +3,7 @@ title: Design-Details – Verfügbarkeit der Artikelverfolgung
 description: Die Seiten „Element Tracking Lines“ und „Element Tracking Summary“ bieten dynamische Verfügbarkeitsinformationen für Serien- oder Losnummern und erhöhen so die Transparenz für Benutzer.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 06/15/2021
 ms.author: bholtorf

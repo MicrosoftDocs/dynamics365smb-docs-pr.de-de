@@ -3,9 +3,7 @@ title: Fehlerbehebung bei Synchronisationsfehlern
 description: 'Dieses Thema enthält einige Anleitungen zur Identifizierung, Problembehandlung und Behebung von Synchronisationsfehlern.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 06/14/2021
 ms.author: bholtorf

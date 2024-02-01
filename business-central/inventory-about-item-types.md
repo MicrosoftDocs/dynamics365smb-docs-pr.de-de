@@ -4,9 +4,7 @@ description: 'Sie können die Bestandsbewertung eines Elements mit der FIFO- ode
 documentationcenter: ''
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.search.form: '9297, 5845, 30,'
 ms.date: 06/16/2021

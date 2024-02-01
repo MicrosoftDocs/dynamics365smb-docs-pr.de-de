@@ -3,9 +3,7 @@ title: Zinskonditionen einrichten
 description: 'Erfahren Sie, wie Sie Business Central einrichten, damit Sie Debitoren über zusätzliche Gebühren informieren können, indem Sie Memos zu Finanzierungskosten senden.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'payment due, debt, overdue, fee, charge'
 ms.search.form: '6, 494'
 ms.date: 04/01/2021

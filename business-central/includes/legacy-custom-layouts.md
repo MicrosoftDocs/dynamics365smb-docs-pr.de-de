@@ -1,2 +1,5 @@
+---
+ms.service: dynamics-365-business-central
+---
 > [!NOTE]
 > Benutzerdefinierte Berichtslayouts sind eine veraltete Funktion, die ausläuft. Stattdessen sollten Sie mit der Erstellung benutzerdefinierter Layouts beginnen, wie [hier](../ui-get-started-layouts.md) beschrieben.

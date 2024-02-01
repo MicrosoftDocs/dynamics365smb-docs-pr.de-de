@@ -3,9 +3,7 @@ title: Design-Details – Inbound Warehouse Flow
 description: 'Erfahren Sie, wie Sie Artikel in Ihrem Lager empfangen, registrieren und eingehenden Quelldokumenten zuordnen.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: warehouse
 ms.date: 09/18/2023
 ms.author: bholtorf

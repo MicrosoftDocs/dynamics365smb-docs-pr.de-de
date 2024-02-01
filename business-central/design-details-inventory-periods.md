@@ -3,9 +3,7 @@ title: Design Details – Lagerbuchungsperioden
 description: 'Lagerbuchungsperioden hilft, Probleme mit Salden und Bestandsbewertungen zu vermeiden, indem Lagerbuchungsperioden geöffnet oder geschlossen werden, um Buchungen in einem festgelegten Zeitraum zu begrenzen.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 06/15/2021
 ms.author: bholtorf

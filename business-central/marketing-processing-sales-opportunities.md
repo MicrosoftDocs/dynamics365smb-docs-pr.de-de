@@ -8,12 +8,13 @@ ms.topic: conceptual
 ms.search.keywords: 'relationship, prospect'
 ms.date: 12/28/2023
 ms.custom: bap-template
+ms.service: dynamics-365-business-central
 ---
-# <a name="process-sales-opportunities"></a>Verarbeiten von Verkaufschancen
+# Verarbeiten von Verkaufschancen
 
 Nachdem Sie eine Verkaufschance erstellen haben, gibt es einige Funktionen für die Verwaltung der Verkaufschance und deren Abschluss.
 
-## <a name="view-opportunities"></a>Verkaufschancen anzeigen
+## Verkaufschancen anzeigen
 
 Vorhandene Verkaufsverkaufschancen stehen auf der Seite **Verkaufschancenübersicht** zur Verfügung. In der folgenden Tabelle werden Möglichkeiten für den Zugriff auf die Seite beschrieben, um Verkaufschancen zu bearbeiten.
 
@@ -25,7 +26,7 @@ Vorhandene Verkaufsverkaufschancen stehen auf der Seite **Verkaufschancenübersi
 
 Jede dieser Aufgaben öffnet die Seite **Verkaufschancenübersicht**.
 
-## <a name="close-opportunities"></a>Verkaufschancen abschließen
+## Verkaufschancen abschließen
 
 Sie können Verkaufschancen abschließen, wenn die Verhandlungen abgeschlossen sind. Wenn Sie eine Verkaufschance schließen, können Sie angeben, ob sie gewonnen oder verloren wurde, und die Gründe für das Schließen eingeben. Um einen Grund anzugeben, müssen Sie Verkaufschancenabschlusscodes einrichten.
 
@@ -36,7 +37,7 @@ Sie können Verkaufschancen abschließen, wenn die Verhandlungen abgeschlossen s
 
    Geben Sie im **Verkaufschancenabschlusscode**-Feld einen der vorhandenen Verkaufschancenabschlusscodes aus oder fügen Sie einen neuen Code hinzu. Um einen neuen Code hinzuzufügen, wählen Sie in der Dropdownliste **Aus vollständiger Liste auswählen** aus in wählen Sie dann **Neu**. Füllen Sie in der neuen leeren Zeile die Felder **Code**, **Art** und **Beschreibung** aus, und wählen Sie dann die **OK**-Schaltfläche.
 
-## <a name="create-quotes-for-opportunities"></a>Angebote für Verkaufschancen erstellen
+## Angebote für Verkaufschancen erstellen
 
 > [!NOTE]
 > Sie können nur Verkaufsangebote aus Verkaufschancen erstellen, bei denen der Kontakttyp Firma ist.
@@ -44,7 +45,7 @@ Sie können Verkaufschancen abschließen, wenn die Verhandlungen abgeschlossen s
 1. Auf der Seite **Verkaufschancenübersicht** wählen Sie die Verkaufschance und dann die **Verkaufsangebot zuweisen**-Aktion aus. Die Seite **Verkaufsangebot** wird geöffnet.
 2. Füllen Sie die entsprechenden Felder aus.
 
-## <a name="create-sales-orders-for-opportunities"></a>Verkaufsaufträge für Verkaufschancen erstellen
+## Verkaufsaufträge für Verkaufschancen erstellen
 
 Sie können Verkaufsaufträge aus Verkaufsangeboten erstellen, die Sie für Ihre Verkaufschancen erfasst haben. Bevor Sie Verkaufsaufträge für Ihre Kontakte erstellen können, müssen Sie den Kontakt als Debitor erstellen. Weitere Informationen finden Sie unter [Kontakte erstellen](marketing-create-contact-companies.md).
 
@@ -54,7 +55,7 @@ Sie können Verkaufsaufträge aus Verkaufsangeboten erstellen, die Sie für Ihre
 
 Bei der Bearbeitung von Verkaufschancen können Sie ein Angebot für den Kontakt erstellen, mit dem die Verkaufschance verknüpft ist.
 
-## <a name="delete-opportunities"></a>Verkaufschancen löschen
+## Verkaufschancen löschen
 
 Sie können Verkaufschancen z. B. löschen, wenn Sie ein Geschäft abgeschlossen haben. Es können jedoch nur abgeschlossene Verkaufschancen gelöscht werden. Es gibt zwei Möglichkeiten, um abgeschlossene Verkaufschancen zu löschen. Sie können einzelnen abgeschlossene Verkaufschancen über die Seite **Verkaufschancenübersicht** löschen, oder Sie können die Stapelverarbeitung **Verkaufschancen löschen** ausführen, um mehrere Verkaufschancen auf Grundlage von Kriterien zu löschen.
 
@@ -68,7 +69,7 @@ Um abgeschlossene Verkaufschancen über die Stapelverarbeitung **Verkaufschancen
 
 Nachdem Sie eine Verkaufschance gelöscht haben, wird sie aus der Seite **Verkaufschancenübersicht** entfernt.
 
-## <a name="move-an-opportunity-through-sales-cycle-stages"></a>Eine Verkaufschance über Verkaufsprozessstufen verschieben
+## Eine Verkaufschance über Verkaufsprozessstufen verschieben
 
 Wenn eine Verkaufschance einem Verkaufsprozess folgt, können Sie sie auf die nächste oder vorhergehende Stufe verschieben und sogar eine Stufe überspringen.
 
@@ -81,7 +82,7 @@ Wenn eine Verkaufschance einem Verkaufsprozess folgt, können Sie sie auf die n�
    * **Aktualisieren** ermöglicht das Ändern von Informationen (z. B. Ihre Einschätzung zu den Erfolgschancen und den erwarteten Zahlen), ohne die Verkaufschance auf eine andere anderen Stufe zu verschieben.
 3. Füllen Sie die anderen relevanten Felder wie erforderlich aus, und wählen Sie dann die Schaltfläche **OK** aus.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Verkauf](sales-manage-sales.md)  
 [Erstellen und Verwalten von Kontakten](marketing-contacts.md)  

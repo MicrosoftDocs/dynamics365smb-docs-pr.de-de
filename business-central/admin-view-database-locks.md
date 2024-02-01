@@ -3,9 +3,7 @@ title: Datenbank-Sperren anzeigen
 description: 'Erfahren Sie, wie Sie Informationen über Debitoren-Datenbanksperren direkt über die Client-Oberfläche in Business Central anzeigen können.'
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: 9511
 ms.date: 06/14/2021
 ms.author: jswymer

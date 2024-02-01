@@ -3,9 +3,7 @@ title: Verfolgen von Artikeln mit Artikelverfolgung
 description: 'Mit den Funktionen Artikelablaufverfolgung und Posten suchen können Sie sehen, wo ein Artikel verwendet wurde, einschließlich wie und wann er empfangen, produziert oder zurückgegeben wurde.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.search.forms: '6520,'
 ms.date: 06/16/2021

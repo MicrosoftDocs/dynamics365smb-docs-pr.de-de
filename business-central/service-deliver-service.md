@@ -3,9 +3,7 @@ title: Überblick zu Aufgaben für Lieferservice | Microsoft Docs
 description: 'Gliedert Arbeiten, um sicherstellen, dass Sie Qualitätsdienst liefern und Verträgen mit Debitoren gerecht werden.'
 author: brentholtorf
 ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'service, service items, respond, response'
 ms.date: 04/01/2021
 ms.author: bholtorf

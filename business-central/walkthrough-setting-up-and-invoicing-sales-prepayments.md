@@ -3,9 +3,7 @@ title: Verkaufsrechnungen einrichten und fakturieren Vorauszahlungen
 description: 'Vorauszahlungen sind Zahlungen, die in Rechnung gestellt und vor der endgültigen Rechnungsstellung auf eine Verkaufs- oder Einkaufsbestellung gebucht werden.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 12/03/2021
 ms.author: bholtorf

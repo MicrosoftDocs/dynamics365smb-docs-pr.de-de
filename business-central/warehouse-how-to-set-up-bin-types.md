@@ -3,9 +3,7 @@ title: Lagerplatzarten einrichten
 description: 'Weisen Sie den Lagerplätzen Typen und grundlegende Flow-Aktivitäten zu und definieren Sie damit die Art und Weise, wie die Lagerplätze für bestimmte Lageraktivitäten verwendet werden.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: 7367
 ms.date: 06/25/2021
 ms.author: bholtorf

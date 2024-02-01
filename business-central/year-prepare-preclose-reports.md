@@ -3,9 +3,7 @@ title: Übersicht über Vorab-Abschlussberichte zur Überprüfung der Kontengena
 description: 'Ihnen stehen eine Vielzahl von Standardberichten zur Verfügung, um die Fehlerfreiheit der Konten zu prüfen, bevor die Bücher am Jahres- oder Periodenende abgeschlossen werden.'
 author: jswymer
 ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: '1393, 1394'
 ms.date: 04/01/2021
 ms.author: jswymer

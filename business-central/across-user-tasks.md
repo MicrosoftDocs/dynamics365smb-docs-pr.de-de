@@ -3,9 +3,7 @@ title: Zuweisen und Verwalten von Aufgaben
 description: 'Erfahren Sie, wie Sie Benutzern, einschließlich Ihres Buchhalters, in Business Central Aufgaben zuweisen und wie Sie Aufgaben übernehmen und ausführen.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'tasks, work'
 ms.search.form: '1164, 1170, 1171, 1172, 1175, 1176, 1177'
 ms.date: 04/01/2021

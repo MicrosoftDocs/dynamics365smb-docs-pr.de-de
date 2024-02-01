@@ -3,9 +3,7 @@ title: Rechnungen Vorauszahlungen
 description: 'Erfahren Sie, wie Sie in Business Central Vorauszahlungen verwenden können, um Rechnungen zu stellen, Debitoren einzuziehen und Kreditorenzahlungen zu überweisen.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: '42, 42, 48, 50, 52, 9305, 9307'
 ms.date: 12/03/2021
 ms.author: bholtorf

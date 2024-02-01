@@ -3,9 +3,7 @@ title: Bevorzugte Methoden zum Versenden von Belegen festlegen (enthält ein Vid
 description: 'Beschreibt, wie Sie für jeden Debitor die bevorzugte Methode zum Versenden von Verkaufsdokumenten, z.B. E-Mail, PDF, elektronisches Dokument usw., einrichten.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'email, PDF, electronic document'
 ms.date: 04/01/2021
 ms.author: bholtorf

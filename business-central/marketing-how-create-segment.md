@@ -3,9 +3,7 @@ title: Segmente erstellen
 description: 'Beschreibt, wie Sie ein Segment für eine Gruppe von Kontakten in Business Central erstellen, beispielsweise um mehrere Kontakte mit einer Direktsendung anzusprechen.'
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'relationship, prospect'
 ms.search.form: '5091, 5093'
 ms.date: 04/01/2021

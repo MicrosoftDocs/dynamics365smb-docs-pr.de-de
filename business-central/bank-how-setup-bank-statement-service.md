@@ -3,9 +3,7 @@ title: Yodlee Bank Feeds einrichten
 description: 'Sie können Zahlungsinformationen in ein beliebiges Datenformat umwandeln, die die Bank benötigt und den Export oder den Import von Bankdateien aktivieren.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'Yodlee, feed, stream, payment process'
 ms.search.form: '1280, 1290'
 ms.date: 04/01/2021

@@ -3,15 +3,14 @@ title: Bestand einrichten
 description: 'Beschreibt, wie Lagervorgänge und Lagerorte eingerichtet werden, einschließlich Umlagerungsrouten und Standorte wie Lagerorte.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'warehouse, stock'
 ms.search.form: '30, 461'
 ms.date: 04/01/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="setting-up-inventory"></a>Bestand einrichten
+# Bestand einrichten
 Bevor Sie Lageraktivitäten und Lagerbewertung verwalten können, müssen die Regeln und Werte konfiguriert werden, die die Lagerbestandsrichtlinien des Unternehmens definieren.
 
 Sie können einen besseren Debitorenservice bieten und Ihre Lieferkette optimieren, indem Sie Ihren Lagerbestand an verschiedenen Adressen organisieren. Sie können dann Artikel an unterschiedlichen Lagerorten kaufen, lagern und verkaufen sowie Lagerbestände zwischen ihnen umlagern.
@@ -32,7 +31,7 @@ Wenn Sie Ihr Lager so eingerichtet haben, können Sie verschiedene Lagervorgäng
 |Importieren Sie mehrere Artikelbilder auf einmal aus einer ZIP-Datei, in der die Dateien entsprechend der Artikelnummern benannt sind.|[Mehrere Artikelbilder importieren](inventory-how-import-item-pictures.md)|
 |Geben Sie Standardberichte an, die für verschiedene Dokumenttypen verwendet werden sollen.|[Berichtsauswahl in Business Central](across-report-selections.md)|
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Verwalten des Lagerbestands](inventory-manage-inventory.md)  
 [Käufe verwalten](purchasing-manage-purchasing.md)  

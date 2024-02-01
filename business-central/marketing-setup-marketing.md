@@ -3,9 +3,7 @@ title: Marketing- und Kontaktmanagement-Informationen festlegen
 description: 'Sie können Marketings- und Kontaktverwaltung in Business Central einrichten, um Verbindungen mit potentiellen Debitoren oder Debitoren zu optimieren und Kampagnen und Promotionen zu verbessern.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'relationship, prospect, client, customer, campaign, promo'
 ms.search.forms: '5172, 5173, 5170, 5094, 429'
 ms.date: 04/01/2021

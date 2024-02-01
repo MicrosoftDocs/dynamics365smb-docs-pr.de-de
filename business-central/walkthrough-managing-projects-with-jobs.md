@@ -3,9 +3,7 @@ title: Exemplarische Vorgehensweise – Verwalten von Projekten mit Aufträgen
 description: 'Diese exemplarische Vorgehensweise führt Sie in die Funktionen der Projektverwaltung in Aufträgen ein, die es Ihnen erlauben, die Nutzung der Ressourcen Ihrer Firma zu planen und mehr.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 06/24/2021
 ms.author: bholtorf
