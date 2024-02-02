@@ -11,13 +11,13 @@ ms.collection:
   - bap-ai-copilot
 ---
 
-# Marketingtext zu Artikeln hinzufügen
+# <a name="add-marketing-text-to-items"></a>Marketingtext zu Artikeln hinzufügen
 
 Sie können für jeden in Business Central registrierten Artikel *Marketingtext* über den Artikel schreiben. Obwohl Marketingtext eine Art Beschreibung ist, unterscheidet er sich vom Feld **Beschreibung** des Artikels. Das Feld **Beschreibung** wird normalerweise als prägnanter Anzeigename verwendet, um das Produkt schnell identifizieren zu können. Der Marketingtext hingegen ist ein umfassenderer und detailreicherer Schritt. Durch ihn sollen Marketing- und Werbeinhalten, sogenanntes *Textmaterial*, hinzugefügt werden. Dieser Text kann dann mit dem Artikel veröffentlicht werden, wenn er in einem Webshop wie Shopify veröffentlicht wird, oder er kann in E-Mails oder andere Mitteilungen an Ihre Debitoren eingefügt werden.
 
 Es gibt zwei Möglichkeiten, Marketingtext zu erstellen. Am einfachsten gelingt der Einstieg mit Copilot, das Ihnen KI-generierten Text vorschlägt. Die andere Möglichkeit ist, den Text von Grund auf selbst zu verfassen. 
 
-## <a name=copilot></a>Vorschläge für Marketingtexte mit Copilot abrufen
+## <a name="get-marketing-text-suggestions-with-copilot"></a><a name=copilot></a>Vorschläge für Marketingtexte mit Copilot abrufen
 
 Copilot bietet Ihnen schnell einen Textvorschlag an, der automatisch für Sie generiert wird. Der KI-generierte Text ist auf den Artikel zugeschnitten und bietet einen guten Ausgangspunkt. Der Text basiert zum Teil auf den folgenden Informationen:
 
@@ -28,7 +28,7 @@ Copilot bietet Ihnen schnell einen Textvorschlag an, der automatisch für Sie ge
 
 Copilot soll Ihnen Zeit sparen und Ihnen dabei helfen, kreative und ansprechende Texte zu schreiben, die Ihre Marke widerspiegeln und über Ihre gesamte Produktlinie hinweg konsistent sind. Erstellen Sie zunächst einen Vorschlag und ändern Sie ihn dann nach Bedarf.
 
-### Voraussetzungen
+### <a name="prerequisites"></a>Voraussetzungen
 
 - Das Feature für Marketingtextvorschläge ist in Ihrer Umgebung eingeschaltet und aktiviert. Die Aufgabe wird normalerweise durch einen Administrierenden erledigt. Weitere Informationen finden Sie unter [Copilot- und KI-Funktionen konfigurieren](enable-ai.md).
 - Sie verwenden eine der Sprachen, die derzeit von den Marketingtextvorschlägen unterstützt werden.
@@ -38,7 +38,7 @@ Copilot soll Ihnen Zeit sparen und Ihnen dabei helfen, kreative und ansprechende
   Um die Sprache zu ändern, wählen Sie in der oberen rechten Ecke das **Einstellungen**-Symbol ![Einstellungen.](media/ui-experience/settings_icon_small.png "Einstellungssymbol für Rollenzentrum") > **Meine Einstellungen** > **Sprache** aus. Weitere Informationen finden Sie unter [Grundeinstellungen ändern](ui-change-basic-settings.md#language).
 - Lesen Sie die [Häufig gestellte Fragen zu Vorschlägen für Marketingtexte](faqs-marketing-text.md), um zu erfahren, wie KI eingesetzt wird.
 
-### Einen ersten Entwurf mit Copilot erstellen
+### <a name="create-first-draft-with-copilot"></a>Einen ersten Entwurf mit Copilot erstellen
 
 Gehen Sie wie folgt vor, um Marketingtext zu einem vorhandenen Artikel hinzuzufügen. Informationen zum Erstellen eines neuen Artikels finden Sie unter [Neue Artikel registrieren](inventory-how-register-new-items.md).
 
@@ -69,7 +69,7 @@ Gehen Sie wie folgt vor, um Marketingtext zu einem vorhandenen Artikel hinzuzuf�
    Sie können jetzt weitere Vorschläge erhalten, die erhaltenen Vorschläge verbessern, Text bearbeiten und vieles mehr. Weitere Informationen finden Sie unter [Überprüfen, bearbeiten und speichern](#review-edit-and-save-text).
 
 
-### Text überprüfen, bearbeiten und speichern
+### <a name="review-edit-and-save-text"></a>Text überprüfen, bearbeiten und speichern
 
 Sobald Sie den ersten Entwurf haben, müssen Sie ihn überprüfen und ändern, um ihn für die Veröffentlichung vorzubereiten. Diese Arbeit wird vom Copilot-Editor erledigt, mit dem Sie weitere Vorschläge abrufen, Einstellungen ändern, um die Vorschläge beeinflussen können, und den Text manuell zu ändern und zu formatieren.
 
@@ -92,7 +92,7 @@ Verwenden Sie die folgenden Richtlinien, um den Marketingtext fertigzustellen un
    - Wenn Sie den Text speichern möchten, wählen Sie **Behalten**. 
    - Wenn Sie ihn nicht speichern möchten, wählen Sie die Schaltfläche „Verwerfen“ (Papierkorb) ![Zeigt das Papierkorbsymbol zum Löschen aller Copilot-Vorschläge für die Bankkontoabstimmung an](media/copilot-delete-trash-can.png).
 
-### Textvorschläge verbessern und anpassen
+### <a name="improve-and-tailor-text-suggestions"></a>Textvorschläge verbessern und anpassen
 
 Sie können einige Schritte unternehmen, um Textvorschläge zu verbessern und sie an Ihre persönlichen oder die Präferenzen Ihres Unternehmens anzupassen.
 
@@ -115,11 +115,11 @@ Sie können einige Schritte unternehmen, um Textvorschläge zu verbessern und si
 
    Copilot findet Wörter und Sätze, die sich auf die Kategorie beziehen, und arbeitet sie in den vorgeschlagenen Text ein.
 
-### Mit mehreren Sprachen arbeiten 
+### <a name="working-with-multiple-languages"></a>Mit mehreren Sprachen arbeiten
 
 Text wird immer in der Sprache generiert, die in Ihren [Benutzereinstellungen](ui-change-basic-settings.md#language) festgelegt ist. Wenn Ihre Organisation mit einer anderen Sprache arbeitet und in dieser Daten in Business Central eingibt oder wenn Business Central mit Ihrem Online-Shop, z. B. Shopify, verbunden ist, kann es sein, dass Inhalte veröffentlicht werden, die nicht mit ähnlichen Marketinginhalten übereinstimmen.
 
-## Text von Grund auf neu erstellen
+## <a name="create-text-from-scratch"></a>Text von Grund auf neu erstellen
 
 1. Öffnen Sie in Business Central den Artikel, den Sie ändern möchten, wie folgt:
 
@@ -133,7 +133,7 @@ Text wird immer in der Sprache generiert, die in Ihren [Benutzereinstellungen](u
 3. Nehmen Sie Änderungen am Text direkt im Feld **Marketingtext** vor. Verwenden Sie die Symbolleiste am unteren Rand des Felds, um Text zu formatieren und zu gestalten, Links hinzuzufügen und mehr.
 4. Wählen Sie **OK** aus, wenn Sie soweit sind, den Text zu speichern.
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Überblick über Vorschläge für Marketingtexte](ai-overview.md)  
 [Probleme mit Copilot- und KI-Funktionen behandeln](ai-copilot-troubleshooting.md)  
