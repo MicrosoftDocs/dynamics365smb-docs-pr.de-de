@@ -9,8 +9,9 @@ ms.date: 02/06/2023
 ms.custom: bap-template
 ms.search.keywords: 'IC, group, consolidation, affiliate, subsidiary, bank-to-bank'
 ms.search.form: '600, 610'
+ms.service: dynamics-365-business-central
 ---
-# <a name="work-with-intercompany-documents-and-journals"></a>Arbeiten mit Intercompany-Belegen und Buch.-Blättern
+# Arbeiten mit Intercompany-Belegen und Buch.-Blättern
 
 Intercompanybelege werden zum Buchen der Transaktionen zwischen Intercompanypartnern verwenden. Sie können Transaktionen auf Sachkonten buchen, und wenn Sie Intercompany-Bankkonten eingerichtet haben, können Sie auch Bank-zu-Bank-Transaktionen buchen. Weitere Informationen zum Einrichten von Intercompany-Bankkonten finden Sie unter [Angeben der Bankkonten, die für Intercompanypartner verwendet werden sollen](intercompany-how-setup.md#specify-the-bank-accounts-to-use-for-intercompany-partners).  
 
@@ -20,7 +21,7 @@ Für Verkaufsaufträge und Einkaufsbelege stellt der Intercompanypartner auf den
 
 Dasselbe gilt für Intercompany-Hauptbuchungszeilen. Sie müssen keine Konten angeben, Sie wählen einfach das Partnerunternehmen aus. In der Partnerfirma werden dann entsprechende Intercompany-Fbu Buch.-Blattzeilen erstellt.
 
-## <a name="fill-in-and-send-an-intercompany-sales-order"></a>Einen Intercompanyauftrag ausfüllen und senden
+## Einen Intercompanyauftrag ausfüllen und senden
 
 Aufträge, Bestellungen und Reklamationen können vor der Buchung gesendet werden. Rechnungen und Gutschriften können jedoch erst gesendet werden, nachdem sie gebucht sind.
 
@@ -35,7 +36,7 @@ Im Folgenden wird beschrieben, wie ein Intercompanyauftrag ausgefüllt und gesen
 > [!NOTE]
 > Wenn Sie Schritt 5 ausführen, wird der Verkaufsauftrag auf den Intercompany-Ausgang verschoben, wo er später dann gebucht werden kann. Um mehr über den Intercompany-Eingang und -Ausgang zu erfahren, gehen Sie zu [Verwalten Sie den Intercompany-Eingang und -Ausgang](intercompany-how-manage-intercompany-inbox.md).
 
-## <a name="fill-in-and-post-an-intercompany-journal"></a>Intercompany-Buch.-Blätter ausfüllen und buchen
+## Intercompany-Buch.-Blätter ausfüllen und buchen
 
 Wenn Sie einen Intercompanybeleg oder eine Buch.-Blattzeile im Unternehmen buchen, wird durch das Programm im IC-Ausgang ein entsprechender Beleg erstellt, der an den Partner übertragen werden kann. Seit dem 1. Veröffentlichungszyklus 2022 können Sie das Unternehmen für die automatische Erstellung empfangener Intercompany-Transaktionen von Intercompany-Partnern einrichten, die über das Intercompany-Hauptbuch gebucht werden. Der Partner kann dieses Buch.-Blatt dann im eigenen Unternehmen buchen, ohne die Daten dazu noch einmal eingeben zu müssen.
 
@@ -50,7 +51,7 @@ Wenn Sie einen Intercompanybeleg oder eine Buch.-Blattzeile im Unternehmen buche
 
 Die entsprechenden Posten werden im Unternehmen gebucht und ein Buch.-Blatt mit den entsprechenden Posten werden in den Intercompanyausgang erstellt, die Sie dann an das Partnerunternehmen senden können.
 
-## <a name="see-also"></a>Weitere Informationen
+## Weitere Informationen
 
 [Intercompanytransaktionen verwalten](intercompany-manage.md)  
 [Finanzen](finance.md)  

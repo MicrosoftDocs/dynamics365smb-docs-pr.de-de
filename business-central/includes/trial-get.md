@@ -1,11 +1,11 @@
 ---
 author: brentholtorf
 ms.topic: include
-ms.date: 04/05/2022
+ms.date: 01/17/2024
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-1. Navigieren Sie zur [Testwebsite](https://go.microsoft.com/fwlink/?linkid=847861), wählen Sie *Finanzen und Betrieb* und dann auf der Karte **Dynamics 365 Business Central** die Taste **Kostenlos testen** aus.  
-2. Geben Sie Ihre Arbeits- oder Schul-E-Mail-Adresse sowie andere Details ein. Sie werden zu Ihrer Testversion unter [https://businesscentral.dynamics.com/](https://businesscentral.dynamics.com/) weitergeleitet.  
+<!--1. Go to **[Dynamics 365 Business Central product](https://www.microsoft.com/en-us/dynamics-365/products/business-central)** page, and choose the **Try for free** button.-->  
 
 Es dauert ein paar Augenblicke, bis die Testversion geladen ist. Anschließend können Sie die App verwenden. Die **Checkliste Erste Schritte** führt Sie durch die Schritte, die Sie zur Bereitschaft für Ihr Geschäft führen. Die Schritte hängen von Ihrem Land/Ihrer Region und den branchenspezifischen Funktionen ab, die Sie zu Ihrer [!INCLUDE [prod_short](prod_short.md)] hinzugefügt haben.  
 

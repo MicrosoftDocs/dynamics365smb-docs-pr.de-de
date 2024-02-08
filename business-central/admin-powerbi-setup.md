@@ -4,7 +4,7 @@ description: 'Erfahren Sie, wie Sie die Verbindung zu Power BI festlegen. Mit Po
 author: jswymer
 ms.topic: get-started
 ms.search.keywords: 'Power BI, setup, analysis, reporting, financial report, business intelligence, KPI'
-ms.date: 09/28/2023
+ms.date: 01/28/2024
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
@@ -90,6 +90,12 @@ In diesem Abschnitt werden die Anforderungen für eine Bereitstellung von [!INCL
     Bevor Endbenutzer Power BI in [!INCLUDE[prod_short](includes/prod_short.md)] verwenden können, muss ein Azure-Anwendungsadministrator dem Power BI-Service zustimmen.
 
     Um die erste Verbindung herzustellen, öffnen Sie [!INCLUDE[prod_short](includes/prod_short.md)], und führen Sie **Erste Schritte mit Power BI** über die Startseite aus. Diese Aktion führt Sie durch den Einwilligungsprozess und überprüft Ihre Power BI-Lizenz. Wenn Sie dazu aufgefordert werden, melden Sie sich mit einem Microsoft Entra-Administratorkonto an. Weitere Informationen finden Sie unter [Mit Power BI verbinden – nur ein Mal](across-working-with-powerbi.md#connect).
+
+## Dataflows einrichten
+
+Mit Dataflows können Sie Daten erfassen, umwandeln und in einen Power BI-Arbeitsbereich laden und die Daten dann als Grundlage für Ihre Berichte verwenden. Bei diesen Dataflows kann es in manchen Fällen während einer geplanten Aktualisierung zu vorübergehenden Fehlern kommen. Die Fehlermeldung sieht wie folgt aus: `DataSource.Error: OData: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host.` 
+
+Mit Power Automate können Sie Wiederholungsversuche für diese Situation einrichten. Weitere Informationen finden Sie unter [Datenflow bei Fehler automatisch wiederholen](/power-query/dataflows/automatically-retry-dataflow).
 
 ## Siehe auch
 

@@ -1,12 +1,13 @@
 ### YamlMime:FAQ
 metadata:
-  title: FAQ zur Nutzung von Business Central
+  title: Häufig gestellte Fragen zur Verwendung von Business Central
   description: 'Beantwortet allgemeine Fragen darüber, wie Sie sich für Business Central registrieren oder es kaufen, wie Sie eine Testversion oder Support erhalten, eine Testversion verlängern, ein Abonnement kündigen sowie Schulungen und anderweitige Unterstützung erhalten.'
   author: brentholtorf
   ms.topic: faq
   ms.search.keywords: 'FAQ, email, Microsoft 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend'
-  ms.date: 07/14/2023
+  ms.date: 12/19/2023
   ms.author: bholtorf
+  ms.service: dynamics-365-business-central
 title: Häufig gestellte Fragen zur Verwendung von Business Central
 summary: |
   Dieser Abschnitt enthält Antworten auf häufig gestellte Fragen zur Registrierung für eine Testversion, zum Kauf eines Abonnements und zur Verwendung von [!INCLUDE[prod_short](includes/prod_short.md)]. Sie können auch erfahren, wie Sie technischen Support erhalten.  
@@ -22,7 +23,7 @@ sections:
         answer: |
           Sie können sich für eine kostenlose Testversion registrieren, um [!INCLUDE[prod_short](includes/prod_short.md)] zu erkunden. [!INCLUDE[free_trial_md](includes/free_trial_md.md)] Wenn Sie mehr Zeit zur Erkundung möchten, [können Sie Ihre Testperiode verlängern](#can-i-extend-my-30-day--new-company--trial-period-).  
 
-          Um sich leichter auf Geschäftstätigkeiten mit [!INCLUDE[prod_short](includes/prod_short.md)] vorzubereiten, können Sie Leitfäden für unterstütztes Setup, Videos oder Hilfethemen für ausgewählte Setupaufgaben starten. Weitere Informationen unter [Bereitschaft für die Geschäftsabwicklung](ui-get-ready-business.md).  
+          Um sich leichter auf die Arbeit mit [!INCLUDE[prod_short](includes/prod_short.md)] vorzubereiten, können Sie Leitfäden für die unterstützte Einrichtung, Videos oder Hilfethemen für ausgewählte Einrichtungsaufgaben starten. Weitere Informationen unter [Bereitschaft für die Geschäftsabwicklung](ui-get-ready-business.md).  
 
           Wenn Sie bereit sind, [!INCLUDE[prod_short](includes/prod_short.md)] zu kaufen, finden Sie einen [!INCLUDE[prod_short](includes/prod_short.md)] Partner auf der Seite [Ich suche einen Lösungsanbieter](https://go.microsoft.com/fwlink/?linkid=2038145). Weitere Informationen finden Sie unter [Wie finde ich einen Vertriebspartner?](#how-do-i-find-a-reselling-partner).  
       - question: |
@@ -61,7 +62,7 @@ sections:
       - question: |
           Wo ist die Speichern-Schaltfläche?
         answer: |
-          Es gibt keine *Speichern*-Schaltfläche auf Seiten wie in anderen Programmen, mit denen Sie möglicherweise vertraut sind. In [!INCLUDE[prod_short](includes/prod_short.md)] werden Änderungen, die Sie in einem Feld vornehmen, automatisch gespeichert, sobald Sie zum nächsten Feld wechseln oder die Seite schließen, sofern keine Fehler vorliegen. Wenn Sie Änderungen an einem Feld vornehmen und zu einem anderen Feld wechseln, wird der Text **Wird gespeichert** in der oberen rechten Ecke der Seite angezeigt. Er wechselt schnell zu **Gespeichert**, wenn keine Fehler auftreten. Wenn ein Fehler auftritt, wird der Text in **Nicht gespeichert** geändert.  
+          Es gibt keine *Speichern*-Schaltfläche auf Seiten wie in anderen Programmen, mit denen Sie möglicherweise vertraut sind. In [!INCLUDE[prod_short](includes/prod_short.md)] werden Änderungen, die Sie in einem Feld vornehmen, automatisch gespeichert, sobald Sie zum nächsten Feld wechseln oder die Seite schließen, sofern keine Fehler vorliegen. Wenn Sie Änderungen an einem Feld vornehmen und zu einem anderen Feld wechseln, wird der Text **Wird gespeichert** in der oberen rechten Ecke der Seite angezeigt. Er wechselt schnell zu **Gespeichert**, wenn keine Fehler auftreten. Wenn ein Fehler auftritt, ändert sich der Text zu **Nicht gespeichert**.  
       - question: |
           Wo finde ich diese Zeilennummer?
         answer: |
@@ -69,7 +70,7 @@ sections:
       - question: |
           Warum beschreibt Hilfe Funktionalität, auf die ich nicht zugreifen kann?
         answer: |
-          Wenn Ihre Benutzeroberfläche, die auf der Seite **Firmendaten** festgelegt, auf **Wesentlich** festgelegt ist, dann sind Benutzeroberflächenelemente für die Fertigung und Dienstleistungs-Verwaltungsfunktionen für Sie nicht sichtbar, da sie die Benutzeroberfläche **Premium** erfordern. Ein Text-Hinweis wird in den obersten Hilfethemenebenen für diese Funktionsbereiche eingefügt. Weitere Informationen unter [Ändern, welche Funktionen angezeigt werden](ui-experiences.md).  
+          Wenn Ihre Benutzeroberfläche, die auf der Seite **Firmendaten** festgelegt, auf **Wesentlich** festgelegt ist, dann sind Benutzeroberflächenelemente für die Fertigung und Dienstleistungs-Verwaltungsfunktionen für Sie nicht sichtbar, da sie die Benutzeroberfläche **Premium** erfordern. Ein Texthinweis wird in allgemeinen Hilfeartikeln für diese Featurebereiche eingefügt. Weitere Informationen unter [Ändern, welche Funktionen angezeigt werden](ui-experiences.md).  
       - question: |
           Warum sind neue Informationen in meiner Sprache nicht verfügbar?
         answer: |
@@ -98,7 +99,7 @@ sections:
       - question: |
           Kann ich meine 30-tägige Testzeit „Neues Unternehmen“ verlängern?
         answer: |
-          Ja. Wenn das Ablaufdatum Ihres Testzeitraums näher rückt, wird eine Benachrichtigung angezeigt, um Sie darauf hinzuweisen, wenn Sie sich anmelden. Die Benachrichtigung enthält einen Link zum Leitfaden **Testzeitraum verlängern**, womit Sie Ihren Testzeitraum verlängern können. Die zusätzlichen 30 Tage starten in dem Moment, wenn Sie im Leitfaden **Testversion verlängern** auswählen. Sie können den Testversionszeitraum einmalig selbst verlängern. Danach kann ein Microsoft-Partner ihn um weiterer 30 Tage verlängern. Weitere Informationen unter [Verlängern Ihrer Testversion](admin-extend-trial.md).
+          Ja. Wenn das Ablaufdatum Ihres Testzeitraums näher rückt, wird bei der Anmeldung eine Benachrichtigung angezeigt, um Sie darauf hinzuweisen. Die Benachrichtigung enthält einen Link zum Leitfaden **Testzeitraum verlängern**, womit Sie Ihren Testzeitraum verlängern können. Die zusätzlichen 30 Tage starten in dem Moment, wenn Sie im Leitfaden **Testversion verlängern** auswählen. Sie können den Testversionszeitraum einmalig selbst verlängern. Danach kann ein Microsoft-Partner ihn um weiterer 30 Tage verlängern. Weitere Informationen unter [Verlängern Ihrer Testversion](admin-extend-trial.md).
 
           > [!NOTE]
           > Es kann bis zu zwei Arbeitstage dauern, um die Testphase zu verlängern.  
@@ -134,15 +135,14 @@ sections:
           Ihr Reselling-Partner übernimmt auch den technischen Support für Sie. Erfahren Sie mehr unter [Ressourcen für Hilfe und Support](product-help-and-support.md).  
       - question: |
           Wird der Windows-Client unterstützt?
-        answer: |
-          Die ersten Releases von [!INCLUDE[prod_short](includes/prod_short.md)] lokal umfassten einen installierbaren Client, der von Microsoft Dynamics NAV abgeleitet war. Ab der Veröffentlichungswelle 2 von 2019 ist diese als „Windows-Client“ bezeichnete veraltete Komponente für [!INCLUDE[prod_short](includes/prod_short.md)] nicht mehr verfügbar. Weitere Informationen finden Sie unter [FAQ zu Windows-Client und Business Central](/dynamics365/business-central/dev-itpro/faq-win-cli).
+        answer: "Die ersten Releases von [!INCLUDE[prod_short](includes/prod_short.md)] lokal umfassten einen installierbaren Client, der von Microsoft Dynamics NAV abgeleitet war. Ab Veröffentlichungszyklus\_2 von 2019 ist diese als „Windows-Client“ bezeichnete veraltete Komponente für [!INCLUDE[prod_short](includes/prod_short.md)] nicht mehr verfügbar. Weitere Informationen finden Sie unter [FAQ zu Windows-Client und Business Central](/dynamics365/business-central/dev-itpro/faq-win-cli).\n"
 additionalContent: |
 
   ## Siehe auch
 
-  [Vorbereitung für die Geschäftstätigkeit](ui-get-ready-business.md)  
+  [Vorbereitung auf die Verwendung](ui-get-ready-business.md)  
   [Häufig gestellte Fragen zu „Wie möchten Sie weiter verfahren“](ui-search-faq.md)  
-  [Suchen und Filtern FAQ](ui-search-filter-faq.yml)  
+  [Suchen und Filtern – Häufig gestellte Fragen](ui-search-filter-faq.yml)  
   [Listenansichten FAQ](ui-views-faq.yml)  
   [Sprache und Gebiet ändern](about-locale-language.md)  
   [[!INCLUDE[prod_short](includes/prod_short.md)] als Ihr Unternehmenspostfach in Outlook verwenden](admin-outlook.md)  

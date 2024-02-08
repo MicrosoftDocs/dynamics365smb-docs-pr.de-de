@@ -3,9 +3,7 @@ title: E-Belege bei Verkäufen und Einkäufen verwenden
 description: 'Erfahren Sie, wie Sie die E-Belege-Funktionalität im Zusammenhang mit Verkaufs- und Einkaufsrechnungen nutzen.'
 author: altotovi
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'electronic document, electronic invoice, e-document, e-invoice, sales, purchase'
 ms.search.form: '42, 43, 51, 6103, 6133, 6121, 9301, 9305, 9308'
 ms.date: 10/03/2023
@@ -13,7 +11,7 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="use-e-documents-in-sales-and-purchases"></a>E-Belege bei Verkäufen und Einkäufen verwenden
+# E-Belege bei Verkäufen und Einkäufen verwenden
 
 Sie können konfigurierte elektronische Belege (E-Belege) mit Verkaufs- und Einkaufsbelegen verwenden.
 
@@ -36,13 +34,13 @@ Sie können die folgenden Belege mit der E-Belege-Funktionalität verwenden:
 > [!NOTE]
 > Derzeit kann eine Bestellung nur verwendet werden, wenn Sie den Beleg aus dem E-Beleg Ihres Kreditors erstellen. Sie können den vorhandenen Beleg jedoch nicht mit Zeilen aktualisieren, die Sie von Ihrem Kreditor erhalten haben.  
 
-## <a name="e-documents-in-sales"></a>E-Belege im Verkauf
+## E-Belege im Verkauf
 
 Um eine E-Rechnung zu erstellen und an einen Debitor zu senden, müssen Sie die Verkaufsrechnung erstellen und buchen. Weitere Informationen zum Standardprozess finden Sie unter [Fakturierung eines Verkaufs](sales-how-invoice-sales.md).
 
 Nachdem Sie den Verkaufsbeleg gebucht haben, öffnen Sie die Seite **Gebuchte Verkaufsrechnung**, um auf die zugehörige Seite **E-Beleg** zuzugreifen.
 
-### <a name="view-e-documents"></a>E-Belege aufrufen
+### E-Belege aufrufen
 
 Gehen Sie wie folgt vor, um vorhandene E-Belege anzuzeigen.
 
@@ -51,7 +49,7 @@ Gehen Sie wie folgt vor, um vorhandene E-Belege anzuzeigen.
 3. Das Feld **Datensatz** enthält die Belegnummer der gebuchten Verkaufsrechnung. Wählen Sie den Link aus, um den Beleg zu öffnen.
 4. Im Feld **Status des elektronischen Belegs** können Sie den Echtzeitstatus des Belegs und seine Position in der Verarbeitungspipeline anzeigen. Wenn der Beleg gebucht ist, lautet der Status **Verarbeitet**.
 
-### <a name="e-document-statuses-and-logs"></a>E-Beleg-Status und -Protokolle
+### E-Beleg-Status und -Protokolle
 
 Einzelheiten zum Dienststatus Ihres E-Belegs finden Sie im Inforegister **E-Beleg – Dienststatus**. Das System zeigt in den Zeilen einen oder mehrere Dienste an, die der Beleg verwendet hat. Im häufigsten Szenario verwendet jeder Beleg nur einen Dienst. Ein Beleg kann jedoch mehrere Dienste nutzen.
 
@@ -75,11 +73,11 @@ Wenn es ein Problem mit dem Dienstanbieter gibt und der Beleg nicht gesendet wer
 
 Nachdem das Problem behoben ist, führen Sie die Aktionen **Beleg senden** manuell aus. Wenn Sie verschiedene Aktionen benötigen, z. B. **Beleg neu erstellt**, **Beleg stornieren** oder **Genehmigung erhalten**, können Sie sie ausführen.
 
-## <a name="e-documents-in-purchases"></a>E-Belege im Einkauf
+## E-Belege im Einkauf
 
 Der Eingang elektronischer Einkaufsrechnungen in Dynamics 365 Business Central kann als Stapelverarbeitung oder manuell durchgeführt werden.
 
-### <a name="run-the-batch-job"></a>Stapelverarbeitung ausführen
+### Stapelverarbeitung ausführen
 
 > [!NOTE]
 > Diese Stapelverarbeitung dient der automatisierten Erfassung Ihrer eingehenden Rechnungen. Sie funktioniert nur in einem Land oder einer Region, in der die Funktionalität vorhanden ist.
@@ -103,7 +101,7 @@ Es gibt zwei häufige Fehler:
 
 Nachdem Sie die Fehler und Warnungen behoben haben, können Sie manuell festlegen, wann das System basierend auf Ihren Einstellungen eine Einkaufsrechnung erstellen soll, indem Sie **Beleg erstellen** auswählen.
 
-### <a name="manually-import-invoices"></a>Rechnungen manuell importieren
+### Rechnungen manuell importieren
 
 Um externe E-Belege manuell zu importieren, gehen Sie wie folgt vor.
 
@@ -114,7 +112,7 @@ Um externe E-Belege manuell zu importieren, gehen Sie wie folgt vor.
 5. Wenn Sie mit der Behebung der Probleme fertig sind, wählen Sie in der Gruppe **Manuell importieren** die Option **Beleg erstellen** aus.
 6. Nachdem der Beleg in Business Central erstellt wurde, können Sie ihn genauso anzeigen wie bei der Verwendung einer Stapelverarbeitung.
 
-## <a name="overview-of-e-document-statuses"></a>Übersicht über die Status von E-Belegen
+## Übersicht über die Status von E-Belegen
 
 Um einen besseren Überblick über alle E-Belege im Unternehmen zu erhalten, können Sie das **Buchhalter**-Rollencenter auswählen, in dem die Status des E-Belegs vorhanden sind. Dort finden Sie E-Beleg-Aktivitäten mit folgenden Status:
 
@@ -130,7 +128,7 @@ Um einen besseren Überblick über alle E-Belege im Unternehmen zu erhalten, kö
     - In Bearbeitung
     - Fehler
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [E-Belege in Business Central einrichten](finance-how-setup-edocuments.md)  
 [E-Belege in Business Central erweitern](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)  
