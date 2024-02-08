@@ -131,7 +131,7 @@ Die Arbeitszeittabellenregistrierung wird in Stunden verfolgt, der Standard-Basi
     > Ein Manager weist möglicherweise eine Arbeitszeittabellenzeile zurück, die zur Genehmigung eingesendet wird. Wenn eine Zeile den Status **Abgelehnt** hat, können Sie an der Zeile Änderungen vornehmen und dann erneut **Übermitteln** wählen.  
 6. Wählen Sie die Schaltfläche **OK** aus.
 
-## <a name="to-approve-or-reject-a-time-sheet"></a>So können Sie Arbeitszeittabellen genehmigen und ablehnen:
+## <a name="approve-or-reject-a-time-sheet"></a>So können Sie Arbeitszeittabellen genehmigen und ablehnen:
 
 Eine Arbeitszeittabelle muss zur Genehmigung eingereicht werden, bevor Sie verwendet wird. Sie können einzelne Zeilen in der Arbeitszeittabelle genehmigen oder ablehnen und sie wieder an den Antragsteller senden. Eine Arbeitszeittabelle kann auf zwei Arten genehmigt werden:
 
@@ -207,7 +207,7 @@ Nachdem Sie Arbeitszeittabellenposten für ein Projekt genehmigt haben, können 
 5. Wählen Sie die Aktion **Buchen**.  
 6. Um die Buchung zu überprüfen, wählen Sie die Aktion **Sachposten** aus. Die Seite **Projekt-Buch.-Blatt** öffnet die Anzeige des Ergebnisses der Buchung des Ressourcen Buch.-Blattes.
 
-## <a name="to-archive-time-sheets"></a>So archivieren Sie Arbeitszeittabellen
+## <a name="archive-time-sheets"></a>So archivieren Sie Arbeitszeittabellen
 
 Nachdem Sie Arbeitszeittabellen gebucht haben, können Sie diese für spätere Bezugnahme archivieren. Sie müssen alle Zeilen auf einer Arbeitszeittabelle buchen, bevor Sie sie archivieren können.
 

@@ -11,7 +11,7 @@ ms.search.keywords: 'IC, group, consolidation, affiliate, subsidiary'
 ms.search.form: '605, 620, 602, 603, 601, 600, 652, 653, 606, 607, 609, 608, 621'
 ms.service: dynamics-365-business-central
 ---
-# Intercompany-Transaktionen einrichten
+# <a name="set-up-intercompany-transactions"></a>Intercompany-Transaktionen einrichten
 
 Unternehmensgemeinschaften erleichtern die Abwicklung buchhalterischer Prozesse, wenn zwei oder mehrere Tochtergesellschaften eines Unternehmens häufig miteinander Geschäfte tätigen. Partner können Transaktionen wie Verkäufe und Käufe austauschen und entweder manuell oder automatisch abwickeln. Wenn beispielsweise ein Partner eine Buchungsblattzeile an einen anderen Partner sendet, wird eine Buchungsblattzeile für den empfangenden Partner erstellt.
 
@@ -22,7 +22,7 @@ Bei dem Intercompanykontenplan kann es sich beispielsweise um eine vereinfachte 
 >
 > Bei den Aufgaben in diesem Artikel wird davon ausgegangen, dass der Funktionsschalter aktiviert ist. Wenn Sie bereits eine Intercompanypartnerschaft eingerichtet haben, können Sie diese weiterhin verwenden.
 
-## Bevor Sie beginnen
+## <a name="before-you-start"></a>Bevor Sie beginnen
 
 Bevor Sie mit dem Aufbau Ihrer Intercompanypartnerschaft beginnen, sind einige Entscheidungen zu treffen.
 
@@ -36,7 +36,7 @@ Bevor Sie mit dem Aufbau Ihrer Intercompanypartnerschaft beginnen, sind einige E
 |Wie möchten Sie mit Nummernelementen umgehen?     | Wenn Intercompanyzeilen Artikeln enthalten, können Sie entweder eigene Artikelnummern verwenden oder für die betreffenden Artikel jeweils die Artikelnummern des Partners einrichten, indem Sie das **Feld Kred.-Artikelnr.** oder das Feld **Gemeinsame Artikelnr.** auf der Artikelkarte verwenden. Sie können auch die Aktion **Artikelreferenz** verwenden, um die Nummern Ihrer Artikel den Artikelbeschreibungen Ihrer Intercompanypartner zuzuordnen. Weitere Informationen zu Artikelreferenzen finden Sie unter [Artikelreferenzen verwenden](inventory-how-use-item-cross-refs.md).        |
 |Sind Ressourcen involviert?     | Wenn Sie Intercompany-Verkaufstransaktionen vornehmen, die Ressourcen beinhalten, müssen Sie auf der Ressourcenkarte der entsprechenden Ressourcen das Feld **IC-Partner Eink.-Sachkontonr.** ausfüllen. Das Feld enthält die Nummer des Intercompanysachkontos, auf das der Betrag für diese Ressource im Partnerunternehmen gebucht wird. Um mehr über Ressourcen zu erfahren, gehen Sie zu [Ressourcen einrichten](projects-how-setup-resources.md).<br><br>**HINWEIS**<br>Intercompany-Einkaufstransaktionen, die Ressourcen, Anlagevermögen und Artikelgebühren enthalten, werden nicht vollständig unterstützt. Im Partnerunternehmen bleibt das Feld **Positionstyp** in Einkaufsbelegzeilen leer, die diese Entitäten enthalten. Sie müssen sie das Feld manuell aktualisieren.        |
 
-## Übersicht über die ersten Schritte
+## <a name="overview-of-the-steps-to-get-started"></a>Übersicht über die ersten Schritte
 
 Verwenden Sie die Seite **Intercompany-Einrichtung**, um die folgenden Komponenten von Intercompany-Transaktionen einzurichten:
 
@@ -48,7 +48,7 @@ Verwenden Sie die Seite **Intercompany-Einrichtung**, um die folgenden Komponent
 * Die Unternehmen, die die Intercompanypartner sind.
 * Die Unternehmen, die Lieferanten oder Kunden oder beides sind.
 
-## Einen Synchronisierungspartner einrichten
+## <a name="set-up-a-synchronization-partner"></a>Einen Synchronisierungspartner einrichten
 
 Alle Partner müssen denselben Intercompany-Kontenplan und ggf. dieselben Intercompany-Dimensionen verwenden. Sie können Zeit sparen, wenn Sie die Partnerschaft einrichten, indem Sie den Kontenplan und die Dimensionen für einen der Partner als Grundlage für den Intercompany-Kontenplan und die Dimensionen verwenden. Das Unternehmen, das Sie als Baseline verwenden, wird als *Synchronisierungspartner* bezeichnet. Typischerweise ist der Synchronisationspartner das Unternehmen der Zentrale, muss es aber nicht sein.
 
@@ -57,7 +57,7 @@ Auf der Seite **Unternehmensübergreifende Einrichtung** gibt jeder Partner den 
 > [!NOTE]
 > Es ist wichtig, Konten und Dimensionen in beide Richtungen zuzuordnen. Das heißt, sowohl zum Intercompany-Kontenplan und zu den Dimensionen als auch von dort zu Ihren eigenen Konten und Dimensionen.
 
-### Verbinden Sie sich mit Partnern in einem anderen Mandanten oder einer anderen Umgebung
+### <a name="connect-with-partners-in-another-tenant-or-environment"></a>Verbinden Sie sich mit Partnern in einem anderen Mandanten oder einer anderen Umgebung
 
 Wenn sich [!INCLUDE [prod_short](includes/prod_short.md)] von einem oder mehreren Partnern in einem anderen Mandanten oder einer anderen Umgebung befinden, sind einige zusätzliche Schritte zum Erstellen der Verbindung erforderlich. Die Schritte gelten für alle Partner in einem anderen Mandanten oder einer anderen Umgebung.
 
@@ -81,7 +81,7 @@ Wenn sich [!INCLUDE [prod_short](includes/prod_short.md)] von einem oder mehrere
 
 Führen Sie in allen Unternehmen den Leitfaden für unterstützte Einrichtung **Umgebungsübergreifende Einrichtung des IC-Partners** aus, um die Informationen anzugeben. Um den Leitfaden zu starten, verwenden Sie auf der Seite **Intercompanypartner** die Aktion **Externes Einrichten verbinden**.
 
-#### Erstellen Sie eine registrierte App im Azure-Portal
+#### <a name="create-a-registered-app-in-azure-portal"></a>Erstellen Sie eine registrierte App im Azure-Portal
 
 Dieser Vorgang ist nur erforderlich, wenn Sie eine Verbindung mit einem Partner herstellen möchten, dessen [!INCLUDE [prod_short](includes/prod_short.md)] sich in einem anderen Mandanten oder einer anderen Umgebung befindet.
 
@@ -120,7 +120,7 @@ Dieser Vorgang ist nur erforderlich, wenn Sie eine Verbindung mit einem Partner 
 20. Kopieren Sie den Wert in das Feld **Verzeichnis-(Mandant-)ID**. Fügen Sie den Wert beispielsweise in einen Texteditor ein.
 21. Ersetzen Sie im kopierten Tokenwert **Organisationen** durch den Wert, den Sie aus dem Feld **Verzeichnis-(Mandant-)ID** im vorherigen Schritt kopiert haben.
 
-#### Ihre registrierte App in Business Central hinzufügen und aktivieren
+#### <a name="add-and-enable-your-registered-app-in-business-central"></a>Ihre registrierte App in Business Central hinzufügen und aktivieren
 
 1. Wählen Sie das Symbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol, geben Sie **Microsoft Entra-Anwendungskarte** ein und wählen Sie dann den entsprechenden Link.  
 2. Füllen Sie die Felder nach Bedarf aus. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
@@ -128,7 +128,7 @@ Dieser Vorgang ist nur erforderlich, wenn Sie eine Verbindung mit einem Partner 
 4. Wählen Sie die Aktion **Zustimmung erteilen** aus. 
 5. Wählen Sie im Feld **Berechtigungssatz** den Berechtigungssatz **API – Umgebungsübergreifende Intercompany** aus.
 
-## Richten Sie den Intercompanykontenplan ein
+## <a name="set-up-the-intercompany-charts-of-accounts"></a>Richten Sie den Intercompanykontenplan ein
 
 Alle Partner müssen denselben Intercompanykontenplan verwenden und ihm die Konten in ihrem eigenen Kontenplan zuordnen. Wenn der Kontenplan für Ihr Unternehmen den Intercompanykontenplan für Ihre Partnerunternehmen definiert, befolgen Sie die Schritte in diesem Abschnitt.
 
@@ -146,7 +146,7 @@ Wenn Sie eine XML-Datei verwenden, die den Intercompanykontenplan enthält, befo
 
 Im nächsten Schritt ordnen Sie die Kontenpläne den Intercompanykontenplan zu. Mehr erfahren unter [Intercompanykontenplan dem unternehmenseigenen Kontenplan zuordnen](#map-the-intercompany-chart-of-accounts-to-your-companys-chart-of-accounts).
 
-### So exportieren oder importieren Sie einen Intercompanykontenplan
+### <a name="import-or-export-an-intercompany-chart-of-accounts"></a>So exportieren oder importieren Sie einen Intercompanykontenplan
 
 Das Synchronisationsunternehmen kann seinen Kontenplan mit Partnern teilen, indem es ihn in eine Datei exportiert. Partner können die Datei importieren, um den Kontenplan zu erhalten.
 
@@ -157,7 +157,7 @@ Das Synchronisationsunternehmen kann seinen Kontenplan mit Partnern teilen, inde
 
 Die Seite **Intercompany-Kontenplan** wird mit den neuen oder bearbeiteten Sachkontozeilen entsprechend dem Intercompanykontenplan in der Datei ausgefüllt. Jede möglicherweise vorhandene Zeile auf der Seite bleibt unverändert.
 
-## Den Intercompanykontenplan dem unternehmenseigenen Kontenplan zuordnen  
+## <a name="map-the-intercompany-chart-of-accounts-to-your-companys-chart-of-accounts"></a>Den Intercompanykontenplan dem unternehmenseigenen Kontenplan zuordnen
 
 Wenn Sie den Intercompany-Kontenplan definiert oder importiert haben, ordnen Sie jedes Intercompany-Konto einem Ihrer Konten zu. auf der Seite **Intercompany-Kontenplan** legen Sie fest, wie Intercompanysachkonten bei eingehenden Transaktionen in Sachkonten des unternehmenseigenen Kontenplans übersetzt werden.
 
@@ -178,7 +178,7 @@ Wenn die Intercompany-Konten und Ihre Konten die gleichen Nummern haben, können
     > [!TIP]
     > Wenn Sie viele oder vielleicht alle Konten abbilden möchten, wählen Sie eine Zeile, wählen Sie :::image type="icon" source="media/show-more-options-icon.png" border="false"::: und wählen Sie dann **Wählen Sie Mehr aus**.
 
-## So richten Sie Intercompanydimensionen ein
+## <a name="set-up-intercompany-dimensions"></a>So richten Sie Intercompanydimensionen ein
 
 Wenn Partner Transaktionen mit entsprechend verknüpften Dimensionen übertragen werden sollen, müssen Sie die Dimensionen vereinbaren, die Sie nutzen werden. Die synchronisierende Gesellschaft kann eine vereinfachte Version ihres eigenen Dimensionssatzes erstellen und diese in eine XML-Datei exportieren und dann die Datei an jeden Partner weitergeben. Jeder Partner kann die XML-Datei auf der Seite **Intercompanydimensionen** importieren und dann die Intercompanydimension ihren Dimensionen zuordnen. Mehr erfahren unter [Intercompanydimensionen Ihren unternehmenseigenen Dimensionen zuordnen](#map-intercompany-dimensions-to-your-companys-dimensions).
 
@@ -197,7 +197,7 @@ Wenn Partner die Intercompanydimensionen des Synchronisierungspartners verwenden
     > [!TIP]
     > Wenn Sie die Intercompanydimensionen von einem Synchronisationspartner kopieren, können Sie die **Synchronisationseinrichtung**-Aktion zum Aktualisieren Ihrer Intercompany-Dimensionen mit allen Änderungen, die der Partner an seinen vornimmt verwenden.  
 
-### Importieren oder exportieren von Intercompanydimensionen  
+### <a name="import-or-export-intercompany-dimensions"></a>Importieren oder exportieren von Intercompanydimensionen
 
 Das Synchronisationsunternehmen kann seine Dimensionen mit Partnern teilen, indem es sie in eine Datei exportiert. Partner können die Datei importieren, um die Dimensionen abzurufen.
 
@@ -208,7 +208,7 @@ Das Synchronisationsunternehmen kann seine Dimensionen mit Partnern teilen, inde
 
 Im nächsten Schritt ordnen Sie die Dimensionen den Intercompanydimensionen zu. Mehr erfahren unter [Intercompanydimensionen Ihren unternehmenseigenen Dimensionen zuordnen](#map-intercompany-dimensions-to-your-companys-dimensions).
 
-### Intercompanydimensionen Ihren unternehmenseigenen Dimensionen zuordnen
+### <a name="map-intercompany-dimensions-to-your-companys-dimensions"></a>Intercompanydimensionen Ihren unternehmenseigenen Dimensionen zuordnen
 
 Nachdem Sie die Dimensionen definiert haben, die Sie verwenden, ordnen Sie jede Intercompanydimension einer Ihrer unternehmenseigenen Dimensionen zu und umgekehrt. Verwenden Sie die Seite **Intercompany-Dimensionszuordnung** , um die Zuordnung anzugeben. Wiederholen Sie anschließend den Vorgang für die Dimensionswerte.
 
@@ -233,7 +233,7 @@ In den folgenden Schritten ordnen Sie zunächst konzerninterne Dimensionen Dimen
 5. Wählen Sie die Aktion **Dimensionswerte-Zuordnung** aus.
 6. Auf der Seite **Zuordnung von Intercompany-Dimensionswerten** ähneln die Schritte zum Erstellen der Zuordnung denen, die Sie gerade für Dimensionen ausgeführt haben.
 
-## So richten Sie allgemeine Intercomapny-FibuBuch.-Blattzeilenvorlagen und -chargen ein
+## <a name="set-up-intercompany-general-journal-templates-and-batches"></a>So richten Sie allgemeine Intercomapny-FibuBuch.-Blattzeilenvorlagen und -chargen ein
 
 Sie müssen eine allgemeine Erfassungsvorlage und einen allgemeinen Erfassungsstapel einrichten, die standardmäßig für Intercompany-Transaktionen verwendet werden. Die Vorlage und der Stapel sind besonders wichtig, wenn Sie automatisch Intercompany-Transaktionen von Ihren Partnern akzeptieren. Weitere Informationen zum automatischen Akzeptieren von Transaktionen finden Sie unter [Transaktionen von Intercompany-Partnern automatisch akzeptieren](#auto-accept-transactions-from-intercompany-partners).   
 
@@ -242,7 +242,7 @@ Sie müssen eine allgemeine Erfassungsvorlage und einen allgemeinen Erfassungsst
 
 Um mehr über allgemeine Journalvorlagen und Batches zu erfahren, gehen Sie zu [Journalvorlagen und Batches verwenden](ui-work-general-journals.md#use-journal-templates-and-batches).
 
-## Unternehmen für Intercompanytransaktionen einrichten
+## <a name="set-up-a-company-for-intercompany-transactions"></a>Unternehmen für Intercompanytransaktionen einrichten
 
 Bei den folgenden Schritten wird davon ausgegangen, dass ein Synchronisierungspartner mit dem Kontenplan und den Dimensionen eingerichtet ist, auf denen der Intercompany-Kontenplan und die Dimensionen basieren. Sie können sie selbst einrichten, aber in der Regel ist der Einstieg schneller und die Wartung einfacher, wenn Sie einen Synchronisierungspartner verwenden. Weitere Informationen zum Synchronisierungspartner finden Sie unter [Synchronisierungspartner einrichten](#set-up-a-synchronization-partner).
 
@@ -260,7 +260,7 @@ Bei den folgenden Schritten wird davon ausgegangen, dass ein Synchronisierungspa
 
 Der nächste Schritt ist das Einrichten der Partnerunternehmen.
 
-## Intercompanypartner einrichten
+## <a name="set-up-intercompany-partners"></a>Intercompanypartner einrichten
 
 Jeder Partner muss alle anderen Unternehmen in der Partnerschaft als Partner hinzufügen.
 
@@ -272,7 +272,7 @@ Jeder Partner muss alle anderen Unternehmen in der Partnerschaft als Partner hin
 > [!NOTE]
 > Wenn Sie für Intercompany-Buchungen **Transaktion automatisch akzeptieren** einschalten auf der Seite **Intercompany-Partnerkarte**, unterdrückt [!INCLUDE[prod_short](includes/prod_short.md)] Meldungen, die vor Einkaufsrechnungen warnen, die die ursprüngliche Bestellung duplizieren. Es ist wichtig, einen Geschäftsprozess für die Verwaltung von Duplikaten zu haben. Zum Beispiel durch Löschen solcher Bestellungen, wenn die Einkaufsrechnung vom Intercompany-Partner eingegangen ist.
 
-### Einrichten von Intercompanypartner als Kunden und Kreditoren
+### <a name="set-up-intercompany-partners-as-customers-and-vendors"></a>Einrichten von Intercompanypartner als Kunden und Kreditoren
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Intercompanyeinrichtung** ein und wählen Sie dann den zugehörigen Link.
 2. Öffnen Sie auf dem Inforegister **Intercompanypartner** und öffnen Sie die die Kartenseite für den Partner.
@@ -284,7 +284,7 @@ Jeder Partner muss alle anderen Unternehmen in der Partnerschaft als Partner hin
     > [!TIP]
     > Sie können auch einen Debitor oder Kreditor als Intercompany-Partner definieren, inem Sie das Feld **IC-Partnercode** auf den Seiten **Debitorenkarte** und **Kreditorenkarte** ausfüllen.
 
-### Vorgegebene IC-Partner-Sachkonten einrichten  
+### <a name="set-up-default-intercompany-partner-general-ledger-accounts"></a>Vorgegebene IC-Partner-Sachkonten einrichten
 
 Bei der Erstellung von Intercompanyverkaufs- oder -einkaufszeilen, die als ausgehende Transaktion gesendet werden sollen, geben Sie ein Konto aus dem Intercompanykontenplan vor, auf das der Betrag im Partnerunternehmen gebucht werden soll. Auf der Seite **Sachkonto-Karte** können Konten, die Sie regelmäßig für ausgehende Intercompanyverkaufs- oder -einkaufszeilen verwenden, als vorgegebene Intercompanypartner-Sachkonten festgelegt werden. Für Debitorensammelkonten können beispielsweise die zugeordneten Kreditorensammelkonten aus dem Intercompanykontenplan als vorgegebene Konten festgelegt werden. Die Forderungs- und Verbindlichkeitskonten werden als Gegenkonto für den Intercompanypartner verwendet, wenn Sie Transaktionen in Intercompany-Hauptbuchungen buchen.  
 
@@ -294,7 +294,7 @@ Wenn Sie jetzt im Feld **Gegenkontonr.** in einer Intercompanyzeile mit dem Eint
 2. Öffnen Sie das Sachkonto, das für Intercompanytransaktionen verwendet wird und geben Sie im Feld **Vorgegebene IC-Partner-Sachkonten** das Intercompanysachkonto ein, auf das Ihr Partner buchen soll, wenn Sie auf das Sachkonto in der Zeile buchen.
 3. Wiederholen Sie Schritt 2 für jedes Konto, das Sie häufig im Feld **Gegenkontonr.** einer Zeile in einem Intercompany-Buch.-Blatt oder -Beleg eingeben.
 
-### Transaktionen von Intercompanypartnern automatisch akzeptieren
+### <a name="auto-accept-transactions-from-intercompany-partners"></a>Transaktionen von Intercompanypartnern automatisch akzeptieren
 
 Um Intercompanytransaktionen rascher zu verarbeiten, können Sie angeben, ob Sie automatisch Buchungszeilen basierend auf den Buchungen eines Intercompany-Partners auf der Seite **IC-Fibu Buch.-Blatt** erstellen möchten. Um eingehende und ausgehende Transaktionen automatisch zu erstellen, müssen Sie die folgenden Schalter für jeden Partner aktivieren:
 
@@ -310,17 +310,17 @@ Die Buch.-Blattzeilen werden für Sie erstellt, aber nicht gebucht.
 > [!NOTE]
 > Wenn Ihre Organisation Intercompany-Features in [!INCLUDE [prod_short](includes/prod_short.md)] vor der 1. Veröffentlichungswelle 2022 verwendet hatm muss Ihr Administrator **Akzeptieren Sie automatisch unternehmensübergreifende allgemeine Buchungsbuchungen** auf der Seite **Funktionsverwaltung** aktivieren, um Transaktionen automatisch zu akzeptieren.
 
-### Geben Sie die Bankkonten an, die für Intercompanypartner verwendet werden sollen
+### <a name="specify-the-bank-accounts-to-use-for-intercompany-partners"></a>Geben Sie die Bankkonten an, die für Intercompanypartner verwendet werden sollen
 
 Um schnelle Zahlungen zu ermöglichen, geben Sie ein oder mehrere Bankkonten an, die für Intercompany-Partner verwendet werden sollen. Wenn ein Partner ein Intercompany-Hauptbuch für eine Zahlung verwendet, kann er das Bankkonto in der Zeile angeben. Das Bankkonto wird als Ausgleichskonto im empfangenden Unternehmen verwendet, wodurch die Notwendigkeit der manuellen Eingabe von Transaktionen minimiert wird.
 
 * Um das zu verwendende Bankkonto anzugeben, wählen Sie auf der Seite **Unternehmensübergreifende Partner** die Aktion **Bankkonten** aus. Geben Sie auf der **Intercompany-Bankkontokarte** die Kontoinformationen ein.
 
-## Fehlerbehandlung für Ihre Intercompany-Einrichtung
+## <a name="troubleshoot-your-intercompany-setup"></a>Fehlerbehandlung für Ihre Intercompany-Einrichtung
 
 Auf der Seite **Unternehmensübergreifende Einrichtung** enthält der Bereich **Diagnose der unternehmensübergreifenden Einrichtung** Kacheln, die angeben, ob Sie alle eingerichtet haben die Komponenten, die für den Austausch konzerninterner Transaktionen erforderlich sind. Die Kacheln sind auch im Business-Manager-Rollencenter verfügbar. Wählen Sie die Kacheln aus, um herauszufinden, was fehlt. Eine Übersicht über die erforderlichen Komponenten finden Sie unter [Übersicht über die Schritte für die ersten Schritte](#overview-of-the-steps-to-get-started).
 
-## Weitere Informationen
+## <a name="see-also"></a>Weitere Informationen
 
 [Intercompanytransaktionen verwalten](intercompany-manage.md)  
 [Finanzen](finance.md)  
