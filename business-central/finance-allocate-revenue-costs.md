@@ -11,7 +11,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="allocate-revenue-and-costs-to-multiple-general-ledger-accounts"></a>Ordnen Sie Einnahmen und Kosten mehreren Hauptbuchkonten zu
+# Ordnen Sie Einnahmen und Kosten mehreren Hauptbuchkonten zu
 
 In diesem Artikel wird beschrieben, wie Sie Zuordnungskonten verwenden, um Beträge in Verkaufs- und Einkaufsbelegen und Fibu-Journalzeilen auf verschiedene Sachkonten zu verteilen. Sie können Beträge durch eine feste oder variable Verteilung verteilen.  
 
@@ -26,7 +26,7 @@ In der folgenden Tabelle werden die Zuordnungsmethoden vorgestellt, die Sie verw
 |Behoben     | Wenn Sie Ausgaben so aufteilen möchten, dass sie sich über einen längeren Zeitraum wiederholen, können Sie eine feste Zuweisung verwenden. Mit einer festen Zuteilung können Sie die Aufteilung der Zuteilung definieren. Diese Aufteilung ändert sich nur, wenn Sie die Einrichtung auf der Seite **Umlagekonto** ändern.        |
 |Variabel     | Um Einnahmen oder Ausgaben auf der Grundlage von Werten zu verteilen, die sich im Laufe der Zeit ändern, verwenden Sie die Methode der variablen Zuweisung. Mit variablen Zuteilungen können Sie die Quellen angeben, die zur Berechnung der Zuteilungsprozentsätze verwendet werden sollen. Diese Methode eignet sich beispielsweise für die Aufteilung der Personalkosten nach unterschiedlichen Personalbeständen in Abteilungen oder Abteilungen. Ein weiteres Beispiel ist die Verteilung der Mietkosten auf der Grundlage der Produktionsfläche, die je nach Produktionslinie im Laufe der Zeit variieren kann. Variable Zuordnungen verwenden eine Kombination aus Dimensionen und statistischen Konten, um zu bestimmen, wie sich Beträge über einen bestimmten Zeitraum verteilen. Weitere Informationen zu statistischen Konten finden Sie unter [Daten mit statistischen Konten analysieren](bi-use-statistical-accounts.md). Um mehr über Dimensionen zu erfahren, gehen Sie zu [Arbeiten mit Dimensionen](finance-dimensions.md).        |
 
-## <a name="use-a-fixed-share-or-percentage-method-to-allocate-amounts"></a>Verwenden Sie für die Zuweisung von Beträgen eine feste Anteils- oder Prozentmethode
+## Verwenden Sie für die Zuweisung von Beträgen eine feste Anteils- oder Prozentmethode
 
 1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Umlagekonto** ein und wählen Sie dann den entsprechenden Link.  
 1. Wählen Sie auf der Seite **Umlagekonten** die Aktion **Neu** aus.
@@ -41,7 +41,7 @@ In der folgenden Tabelle werden die Zuordnungsmethoden vorgestellt, die Sie verw
    > Wenn Sie den tatsächlichen Betrag, der für eine feste Zuteilung zugewiesen werden soll, in das Feld **Teilen** eingeben, wird im Feld **Prozent** der Prozentsatz des Gesamtbetrags angezeigt.
 1. Wiederholen Sie diesen Vorgang für jedes Konto, das in die Zuweisung einbezogen werden soll.
 
-## <a name="use-a-variable-method-to-allocate-amounts"></a>Verwenden Sie eine variable Methode zur Zuweisung von Beträgen
+## Verwenden Sie eine variable Methode zur Zuweisung von Beträgen
 
 1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Umlagekonto** ein und wählen Sie dann den entsprechenden Link.  
 1. Wählen Sie auf der Seite **Umlagekonten** die Aktion **Neu** aus.
@@ -54,7 +54,7 @@ In der folgenden Tabelle werden die Zuordnungsmethoden vorgestellt, die Sie verw
 1. Optional: Um nach bestimmten globalen Dimensionswerten zu filtern, wählen Sie die Aktion **Filter für den Saldo des Aufschlüsselungskontos** aus und geben Sie dann die Filterwerte an.
 1. Optional: Wählen Sie die Aktion **Dimensionen** und geben Sie dann die Dimensionen an, die für die Zeile gebucht werden sollen.
 
-## <a name="allocate-amounts-on-the-fly"></a>Weisen Sie Beträge im Handumdrehen zu
+## Weisen Sie Beträge im Handumdrehen zu
 
 Sie erstellen Umlagekonten zur Aufteilung von Erlösen und Kosten auf Sachkonten und Bankkonten. Durch die Automatisierung der Zuordnung können Sie viel Zeit sparen. Wenn Sie jedoch Verrechnungskonten verwenden, diese aber nicht für jedes Sachkonto anlegen möchten, können Sie noch mehr Zeit sparen.
 
@@ -62,14 +62,14 @@ Mit der Option „Von übergeordnetem Konto übernehmen“ können Sie das Umlag
 
 Ad-hoc-Zuweisungen sind einfach einzurichten. Anstelle der Angabe eines Bank- oder Sachkontos im **Zielkontoart**-Feld auf der **Zuteilungskonto**-Seite wählen Sie die **Vom übergeordneten Element erben**-Option. Lassen Sie das Feld **Zielkontonummer** leer. Wenn Sie das Sachkonto in der Beleg- oder Journalzeile auswählen, wird dieses Konto für die Zuweisung von Beträgen verwendet.
 
-## <a name="verify-that-amounts-distribute-correctly-before-you-post-them"></a>Stellen Sie sicher, dass die Beträge korrekt verteilt werden, bevor Sie sie buchen
+## Stellen Sie sicher, dass die Beträge korrekt verteilt werden, bevor Sie sie buchen
 
 Es gibt mehrere Möglichkeiten, die korrekte Verteilung der Beträge zu überprüfen:
 
 * Wählen Sie auf der Seite **Umlagekonto** die Aktion **Verteilung testen** aus. Benutzen Sie das Feld **Zuzuweisender Betrag**, um verschiedene Beträge zu testen.
 * Auf der Seite **Fibu.-Buch.-Blätter** wählen Sie das Journal aus und verwenden Sie die **Beitragsvorschau** Aktion.
 
-## <a name="adjust-the-distribution"></a>Passen Sie die Verteilung an
+## Passen Sie die Verteilung an
 
 Wenn Sie in einer Zuordnung etwas finden, das Sie ändern möchten, können Sie die Zuordnung anpassen, bevor Sie sie veröffentlichen.  
 
@@ -77,7 +77,7 @@ Wenn Sie in einer Zuordnung etwas finden, das Sie ändern möchten, können Sie 
 1. Wählen Sie die Zeile mit der Verteilung, und wählen Sie dann die Aktion **Kontenverteilungen neu verteilen** aus.
 1. Auf der **Verteilungen ändern** Seite nehmen Sie Ihre Anpassung vor.
 
-## <a name="post-an-allocation-transaction"></a>Buchen Sie eine Zuteilungstransaktion
+## Buchen Sie eine Zuteilungstransaktion
 
 In den folgenden Schritten wird beschrieben, wie eine Zuordnungstransaktion aus einem Fibu-Journal gebucht wird. Die Schritte sind für Verkaufs- und Einkaufsbelege identisch.
 
@@ -92,6 +92,6 @@ In den folgenden Schritten wird beschrieben, wie eine Zuordnungstransaktion aus 
     1. Wählen Sie im Feld **Umlagekonto-Nr.** das Umlagekonto aus, das für die Verwendung der Option „Von übergeordnetem Konto erben“ eingerichtet ist. 
 1. Wählen Sie **Buchen** aus.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Mit Fibu Buch.-Blättern arbeiten](ui-work-general-journals.md)  
