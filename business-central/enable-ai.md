@@ -12,7 +12,7 @@ ms.collection:
   - bap-ai-copilot
 ---
 
-# Copilot- und KI-Funktionen konfigurieren 
+# <a name="configure-copilot-and-ai-capabilities"></a>Copilot- und KI-Funktionen konfigurieren
 
 <!--[!INCLUDE[ai-preview](includes/ai-preview.md)]-->
 
@@ -32,12 +32,12 @@ In diesem Artikel wird erläutert, wie Sie Copilot und andere KI-Funktionen in B
 
 Wenn eine dieser Anforderungen nicht erfüllt ist, steht das Feature nicht zur Verfügung.
 
-## Voraussetzungen
+## <a name="prerequisites"></a>Voraussetzungen
 
 - Sie verwenden Business Central online, Version 23.1 oder höher. <!--[preview version](ai-preview-getstarted.md) of Business Central that's enabled for Copilot.-->
 - Sie verfügen über Administrator- oder Superuserberechtigungen in Business Central.  <!--For more information, go to [Configure AI-powered item marketing text with Copilot](enable-ai.md).-->
 
-## Datenverschiebung über geografische Regionen hinweg zulassen
+## <a name="allow-data-movement-across-geographies"></a>Datenverschiebung über geografische Regionen hinweg zulassen
 
 Diese Aufgabe gilt nur, wenn der Umschalter **Datenverschiebung zulassen** oben auf der Seite **Copilot- und KI-Funktionen** erscheint. Wenn anstelle des Umschalters **Datenverschiebung zulassen** der Link **Wie kann ich meine Copilot-Daten verwalten?** angezeigt wird, überspringen Sie diesen Schritt.
 
@@ -72,7 +72,7 @@ Copilot and other AI capabilities use Azure OpenAI Service.  and are provided by
 Meanwhile, customers with environments outside the United States can use Copilot AI features by opting in to share relevant data with the Azure OpenAI Service in United States or Switzerland.
 
 The information in the following table outlines the Azure OpenAI service that's used by the Copilot services based on the geography of their Dynamics 365 environment when they opt-in to share data.-->
-## Features aktivieren
+## <a name="activate-features"></a>Features aktivieren
 
 Alle Copilot- und KI-Funktionen sind standardmäßig aktiv, wenn sie in der Vorschau verfügbar gemacht werden oder allgemein verfügbar werden. Mit der Seite **Copilot- und KI-Funktionen** können Sie einzelne Features für alle Benutzenden deaktivieren oder wieder aktivieren.
 
@@ -86,7 +86,7 @@ Alle Copilot- und KI-Funktionen sind standardmäßig aktiv, wenn sie in der Vors
    - Um ein Feature zu deaktivieren, wählen Sie es in der Liste aus und wählen Sie dann die Aktion **Deaktivieren** aus. 
 
 
-## Aktivieren Sie das Feature in der Funktionsverwaltung
+## <a name="enable-feature-in-feature-management"></a>Aktivieren Sie das Feature in der Funktionsverwaltung
 
 Wenn einzelne Copilot-Funktionen in kleineren Business Central-Updates veröffentlicht werden, sind diese Funktionen bis zum nächsten großen Update optional. Die **Funktionsverwaltung** wird zum Aktivieren oder Deaktivieren von Features verwendet, die sich in der Vorschau befinden, z. B. der Bankkontoabstimmung, sowie einigen allgemein verfügbaren Features, z. B. Marketingtextvorschläge. [Weitere Informationen finden Sie unter Funktionsverwaltung](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
@@ -98,20 +98,20 @@ Wenn einzelne Copilot-Funktionen in kleineren Business Central-Updates veröffen
 
    Weitere Informationen zur Funktionsverwaltung im Allgemeinen finden Sie unter [Funktionsverwaltung](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
-## Gewähren von Benutzerzugriff 
+## <a name="granting-user-access"></a>Gewähren von Benutzerzugriff
 
 Copilot- und KI-Funktionen können Funktionen bieten, die für alle Benutzer in Ihrer Organisation oder für bestimmte Benutzerrollen gedacht sind. Die meisten Copilot- und KI-Funktionen bieten Zugriffskontrolle mithilfe von Berechtigungen und Berechtigungssätzen im Berechtigungsverwaltungssystem von Business Central. [Erfahren Sie mehr über Berechtigungen und Berechtigungssätze](ui-define-granular-permissions.md).
 
 Um den Zugriff auf bestimmte Copilot- und KI-Funktionen zu gewähren oder zu verweigern, konsultieren Sie die Dokumentation oder den Herausgeber dieser Funktion, um herauszufinden, welche Berechtigungen erforderlich sind. 
 
-## Nächste Schritte
+## <a name="next-steps"></a>Nächste Schritte
 
 Nachdem Sie die Features aktiviert und ihnen zugestimmt haben, können Sie sie ausprobieren. Gehen Sie zu:
 
 - [Marketingtext zu Artikeln hinzufügen](item-marketing-text.md) 
 - [Abstimmung mithilfe der Unterstützung bei Bankkontoabstimmung](bank-reconciliation-with-copilot.md) 
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Probleme mit Copilot- und KI-Funktionen behandeln](ai-copilot-troubleshooting.md)  
 [Überblick über Vorschläge für Marketingtexte](ai-overview.md)   
