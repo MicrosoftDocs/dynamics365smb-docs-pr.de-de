@@ -3,15 +3,14 @@ title: Wie Sie Serviceverträge konvertieren
 description: 'Dieser Artikel beschreibt mehrere alternative Methoden, die Sie verwenden können, um Serviceverträge zu konvertieren, die Mehrwertsteuerbeträge enthalten.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 12/07/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
-# <a name="convert-service-contracts-that-include-vat-amounts"></a>Dienstleistungsverträge konvertieren, die MwSt.-Beträge enthalten
+# Dienstleistungsverträge konvertieren, die MwSt.-Beträge enthalten
 
 Da das Werkzeug zum Ändern des MwSt.-Satzes keine Serviceverträge konvertieren, müssen diese Verträge manuell konvertiert werden. In diesem Artikel werden mehrere alternative Methoden beschrieben, die Sie für die Servicevertragkonvertierung verwenden können.  
 
@@ -23,7 +22,7 @@ Da das Werkzeug zum Ändern des MwSt.-Satzes keine Serviceverträge konvertieren
 > [!NOTE]  
 > Für dieses Beispiel müssen Sie Ihr Arbeitsdatum in 01.01.2017 ändern.  
 
-## <a name="to-correct-an-invoice-for-a-prepaid-service-contract"></a>So korrigieren Sie eine Rechnung für einen vorausbezahlten Servicevertrag
+## So korrigieren Sie eine Rechnung für einen vorausbezahlten Servicevertrag  
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Vertragsverwaltung** ein und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie unter **Listen** die Option **Serviceverträge** aus.  
@@ -36,14 +35,14 @@ Da das Werkzeug zum Ändern des MwSt.-Satzes keine Serviceverträge konvertieren
 > [!NOTE]  
 > Ändern Sie die nicht gebuchte Servicerechnung nicht. Da die Serviceposten erstellt werden, wenn die Rechnung erstellt wird, ändert eine Änderung in der nicht gebuchten Rechnung nicht die bereits erstellten Serviceposten. Die MwSt.-Posten werden allerdings erstellt, wenn die Rechnung gebucht wird. So können Sie die allgemeine Produktbuchungsgruppe und die GSP-Produktbuchungsgruppe auf der nicht gebuchten Servicerechnung ändern.  
 
-### <a name="to-create-a-credit-memo-for-vat-difference"></a>So erstellen Sie eine Gutschrift für MwSt.-Differenzen
+### So erstellen Sie eine Gutschrift für MwSt.-Differenzen 
  
 Nachfolgend wird beschrieben, wie eine Gutschrift erstellt wird, die nur die MwSt.-Differenz für die bereits fakturierte Periode enthält, die am **01.07.2017** beginnt. In diesem Beispiel wird der MwSt.-Betrag nur auf das Finanzmanagement-Modul gebucht, nicht auf das Service-Modul. Die MwSt.-Posten, die mit dem Serviceposten verknüpft sind, werden nicht korrigiert.  
 
 1. Erstellen Sie ein neues Sachkonto für die MwSt.-Differenz. Dieses Konto wird für die direkte Buchung der MwSt.-Korrektur verwendet.  
 2. Fügen Sie der MwSt.-Buchung eine neue Zeile hinzu.  
 
-## <a name="to-create-contract-expiration-dates-in-contract-lines"></a>So erstellen Sie Vertragsablaufdaten in Vertragszeilen
+## So erstellen Sie Vertragsablaufdaten in Vertragszeilen  
 
 Die folgende Vorgehensweise beschreibt, wie Sie neue Verträge erstellen, indem sie in Servicevertragszeilen mit Kontaktablaufdaten arbeiten.  
 
@@ -51,7 +50,7 @@ Die folgende Vorgehensweise beschreibt, wie Sie neue Verträge erstellen, indem 
 2. Wählen Sie die Aktionen **Verkaufsgutschrift erstellen** aus, um automatisch eine Gutschrift für Juli 2017 bis Dezember 2017 zu erstellen.  
 3. Da der Vertrag abgelaufen ist, müssen Sie einen neuen Vertrag für die Periode mit dem neuen Mehrwertsteuersatz für 1. Juli 2017 bis 31. Dezember 2017 erstellen.  
 
-### <a name="to-create-a-new-credit-memo"></a>Eine neue Gutschrift erstellen:
+### Eine neue Gutschrift erstellen:  
 
 Nachfolgend wird beschrieben, wie eine neue Gutschrift mithilfe des Batchauftrags **Vorausbez. Vertragsposten holen** erstellt wird. Posten, die Sie nicht von Januar 2017 bis Juni 2017 korrigieren möchten, werden gelöscht.  
 
@@ -62,7 +61,7 @@ Nachfolgend wird beschrieben, wie eine neue Gutschrift mithilfe des Batchauftrag
 5. Wählen Sie die **Vorausbez. Vertragsposten holen** Aktion aus.  
 6. Nachdem die Konvertierung abgeschlossen ist, sind MwSt.- und Serviceposten korrekt.  
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch  
 
 [Mit Dienstleistungsverträgen und Dienstleistungsvertragsangeboten arbeiten](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
 [Finanzen](finance.md)  

@@ -4,14 +4,14 @@ description: 'Sie können Einzahlungen vornehmen, um einen Transaktionsdatensatz
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bnielse
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.topic: conceptual
 ms.search.keywords: 'bank, deposit'
 ms.search.form: '10140, 10141, 10143, 10144, 10146, 10147, 10148, 36646'
 ms.date: 09/04/2023
 ms.custom: bap-template
 ---
-# <a name="create-bank-deposits"></a>Bankeinzahlungen erstellen
+# Bankeinzahlungen erstellen
 
 > [!NOTE]
 > Die Möglichkeit zum Erstellen von Bankeinzahlungen ist in Business Central 2022 Veröffentlichungszyklus 1 für viele Länder-/Regionsversionen neu. Wenn Sie Business Central in den Vereinigten Staaten, Kanada oder Mexiko vor dieser Version verwendet haben, verwenden Sie möglicherweise die früheren Funktionen. Sie können fortfahren, die neuen Funktionen werden die alten jedoch in einer zukünftigen Version ersetzen. Ihr Administrator kann zur Seite **Funktionsverwaltung** navigieren und die Option **Funktionsupdate: Standardisierte Bankabstimmung und Einzahlungen** aktivieren, um die in diesem Artikel beschriebenen neuen Funktionen zu verwenden.  
@@ -30,17 +30,17 @@ Nachdem Sie die Einzahlungsinformationen und -zeilen ausgefüllt haben, müssen 
 
 Der Bericht **Bankeinzahlung** zeigt Debitoren- und Kreditoreneinzahlungen mit dem ursprünglichen Einzahlungsbetrag, dem noch offenen Einzahlungsbetrag und dem angewendeten Betrag an. Der Bericht zeigt auch den gesamten gebuchten Einzahlungsbetrag an, der abgestimmt werden soll.
 
-## <a name="before-you-start"></a>Bevor Sie beginnen
+## Bevor Sie beginnen
 
 Bevor Sie Bankeinzahlungen verwenden können, müssen einige Dinge eingerichtet werden. Sie müssen eine Nummernserien- und Fibu Buch.-Blattvorlage bereithalten. Sie sollte außerdem angeben, ob Bankeinzahlungsbeträge als Abschlag gebucht werden sollen. D. h. als Summe aller Beträge in den Einzahlungszeilen. Andernfalls wird jede Zeile als einzelner Posten gebucht. Das Buchen einer Einzahlung als einzelner Bankposten kann den Bankabgleich vereinfachen.
 
-### <a name="number-series-and-lump-sum-deposits"></a>Nummernserien und Abschlagseinzahlungen
+### Nummernserien und Abschlagseinzahlungen
 
 Sie müssen eine Nummernserie für Bankeinzahlungen einrichten und dann die Serie im Feld **Bankeinzahlungsnr.** auf der Seite **Debitoren & Verkauf Einr.** angeben. Weitere Informationen über Nummernserien finden Sie unter [Erstellen von Nummernserien](ui-create-number-series.md)
 
 Um zudem Einzahlungen als Abschläge und nicht als einzelne Positionen zu buchen, aktivieren Sie auf der Seite zur **Einrichtung von Verkäufen und Forderungen** die Umschaltfläche **Bankeinzahlungen als Abschlag buchen**. Wird die Buchung einer Einzahlung als Abschlag gebucht, wird ein Bankposten für den vollen Betrag der Einzahlung erstellt, wodurch der Bankabgleich vereinfacht werden kann.
 
-### <a name="general-journal-templates-for-bank-deposits"></a>Fibu Buch.-Blattvorlagen für Bankeinzahlungen
+### Fibu Buch.-Blattvorlagen für Bankeinzahlungen
 
 Sie müssen auch eine Fibu Buch.-Blattvorlage für Einzahlungen erstellen. Fibu Buch.-Blätter werden verwendet, um Posten auf Bank-, Debitoren-, Kreditoren-, Anlagen- und Hauptbuchkonten zu buchen. Die Buch.-Blattvorlagen passen das Fibu Buch.-Blatt an Ihren Arbeitszweck an. Das heißt, die Buch.-Blattvorlage enthält genau die Felder, die Sie benötigen.
 
@@ -48,14 +48,14 @@ Die Einzahlungen sind Zahlungseingänge, sodass Sie Ihre Nummernserie für Zahlu
 
 Sie müssen außerdem einen Batchauftrag für die Vorlage erstellen. Um einen Batchauftrag zu erstellen, wählen Sie auf der Seite **Fibu Buch.-Blattvorlagen** die Aktion **Chargen** aus. Weitere Informationen zu Stapeln finden Sie unter [Buch-Blattvorlagen und Stapel nutzen](ui-work-general-journals.md#use-journal-templates-and-batches).
 
-## <a name="dimensions-on-bank-deposit-lines"></a>Dimensionen in Bankeinzahlungszeilen
+## Dimensionen in Bankeinzahlungszeilen
 
 Die Zeilen in der Bankeinzahlung verwenden automatisch die Standarddimensionen, die Sie in den Feldern **Abteilungscode** und **Debitorengruppencode** angegeben haben. Wenn Sie **Debitor** oder **Kreditor** im Feld **Kontotyp** auswählen, ersetzen die für den Debitor oder Kreditor angegebenen Dimensionen die Standardwerte. Die Dimensionen in den Zeilen können bei Bedarf geändert werden.
 
 > [!TIP]
 > Dimensionen in Zeilen werden gemäß „Standarddimension Prioritäten“ festgelegt. Zeilendimensionen haben Vorrang vor Kopfzeilendimensionen. Um Konflikte zu vermeiden, können Sie Regeln erstellen, die die Verwendung einer Dimension in Abhängigkeit von der Quelle priorisieren. Wenn Sie die Priorisierung von Dimensionen ändern möchten, können Sie ihre Prioritäten auf der Seite **Standarddimensionsprioritäten** ändern. Weitere Informationen finden Sie unter [Prioritäten für Standarddimensionen einrichten](finance-dimensions.md#to-set-up-default-dimension-priorities).
 
-## <a name="create-a-bank-deposit"></a>Bankeinzahlung erstellen
+## Bankeinzahlung erstellen
 
 1. Wählen Sie das Symbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Bankeinzahlungen** ein und wählen Sie dann den zugehörigen Link aus.
 2. Wählen Sie **Neu** aus, um die Seite **Bankdepot** zu öffnen.
@@ -96,13 +96,13 @@ Die Zeilen in der Bankeinzahlung verwenden automatisch die Standarddimensionen, 
     > [!TIP]
     > Bevor Sie die Einzahlung buchen, können Sie die Aktion **Testbericht** verwenden, um Ihre Daten zu überprüfen. Der Bericht zeigt an, ob Probleme vorliegen, z. B. fehlende Daten, die eine Buchung verhindern.  
 
-## <a name="find-posted-bank-deposits"></a>Gebuchte Bankeinzahlungen finden
+## Gebuchte Bankeinzahlungen finden
 
 Auf der Seite **Gebuchte Bankeinzahlungen** sind die bisherigen Einzahlungen Ihres Unternehmens aufgelistet. In der Liste können Sie die Kommentare und Dimensionen überprüfen, die für die Einzahlungen angegeben wurden. Sie können die Bankeinzahlung öffnen, um weitere Details anzuzeigen, und von dort aus weitere Untersuchungen durchführen. Sie können beispielsweise die Aktion **Posten suchen** auswählen, um die gebuchten Bankposten anzuzeigen. Über den Bankposten können Sie den entsprechenden Hauptbucheintrag suchen.
 
 Wenn Sie alle Hauptbucheinträge für die gebuchten Einzahlungszeilen suchen möchten, wechseln Sie zur Seite **Fibujournal**, und verwenden Sie die Aktion **Sachposten**. Dort finden Sie alle Sachposteneinträge, einschließlich der Einträge für Debitoren und Kreditoren.
 
-## <a name="reverse-a-posted-bank-deposit"></a>Gebuchte Bankeinzahlung stornieren
+## Gebuchte Bankeinzahlung stornieren
 
 Es gibt mehrere Möglichkeiten, eine gebuchte Bankeinzahlung rückgängig zu machen:
 
@@ -112,7 +112,7 @@ Es gibt mehrere Möglichkeiten, eine gebuchte Bankeinzahlung rückgängig zu mac
 > [!NOTE]
 > Sie können nur ein Journal stornieren, das einen einzelnen Postentyp enthält. Das heißt, das Journal darf nur Debitorenposten oder Kreditorenposten enthalten, jedoch nicht beides. Wenn ein Journal beides enthält, müssen Sie die Einzahlung manuell stornieren.
 
-## <a name="see-also"></a>Weitere Informationen
+## Weitere Informationen
 
 [Finanzen](finance.md)  
 [Einrichten von Finanzen](finance.md)  
