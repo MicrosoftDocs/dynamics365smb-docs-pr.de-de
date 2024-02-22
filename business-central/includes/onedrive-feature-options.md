@@ -1,3 +1,6 @@
+---
+ms.service: dynamics-365-business-central
+---
 |Option|Description|
 |------|----------|
 |**OneDrive für App-Funktionen verwenden**|Wenn Sie diese Option aktivieren, werden die Aktionen **In OneDrive öffnen** und **Freigeben** für Dateien in Business Central verfügbar gemacht, wie Dateien, die an Dokumente angehängt sind, oder im Berichtseingang. Mit diesen Aktionen können Benutzer Dateien kopieren, öffnen und in OneDrive freigeben. <ul><li>Business Central-Funktionen, die Dokumente und andere Dateien speichern oder erfassen und in OneDrive Öffnen- und Freigeben-Aktionen bieten, um diese Dateien aus Business Central herauszubringen, wie z. B. eingehende Dokumente und Datensatzanhänge.</li><li>Branchenfunktionen, die benutzerdefinierte Excel-Arbeitsmappen generieren, z. B. Verkaufsbudgets.</li><li>An den Berichtseingang gesendete Berichte</li><li>Wenn Sie Anpassungen oder Erweiterungen installiert haben, können diese weitere Funktionen hinzufügen, die OneDrive verwenden.</li></ul>Weitere Informationen finden Sie unter [Öffnen und Freigeben von Business Central-Dateien in OneDrive](../across-share-onedrive.md).

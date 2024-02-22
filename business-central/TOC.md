@@ -1560,8 +1560,9 @@ ms.service: dynamics-365-business-central
 #### [Zusteller einrichten](sales-how-to-set-up-shipping-agents.md)
 #### [Rechnungsbuchungsrichtlinie für Benutzer definieren](admin-setup-invoice-posting-policy.md)
 #### [Belegdaten mit Buchungsdaten aktualisieren](across-link-doc-dates-to-posting-dates.md)
-### Einkäufer einrichten
-#### [Einkäufer einrichten](purchasing-setup-purchasing.md)
+#### [Bestandswarnung anzeigen](sales-setup-show-stockout-warning.md)
+### Einkauf einrichten
+#### [Einkauf einrichten](purchasing-setup-purchasing.md)
 #### [Neue Kreditoren einrichten](purchasing-how-register-new-vendors.md)
 #### [Kreditorenbankkonten einrichten](purchasing-how-set-up-vendors-bank-accounts.md)
 #### [Kreditoren priorisieren](purchasing-how-prioritize-vendors.md)

@@ -7,8 +7,9 @@ ms.reviewer: jswymer
 ms.topic: troubleshooting
 ms.collection:
   - bap-ai-copilot
-ms.date: 11/15/2023
+ms.date: 02/01/2024
 ms.custom: bap-template
+ms.service: dynamics-365-business-central
 ---
 # Probleme mit Copilot- und KI-Funktionen behandeln
 
@@ -28,6 +29,10 @@ Wenn Sie versuchen, Copilot zu verwenden, und eine Fehlermeldung wie **Copilot i
 
 - Stellen Sie zunächst sicher, dass das Feature auf der Seite **Copilot- und KI-Funktionen** aktiviert ist. [Erfahren Sie mehr über die Aktivierung von Copilot- und KI-Funktionen](enable-ai.md#activate-features). 
 - Stellen Sie als Nächstes sicher, dass die Datenschutzerklärung für die Azure OpenAI-Integration nicht auf **Für alle nicht zustimmen** eingestellt ist. Wenn dies der Fall ist, ändern Sie es in **Für alle zustimmen**. [Erfahren Sie mehr über Datenschutzhinweise](privacy-notices-status.md).
+
+## Die Copilot-Funktionen von Microsoft finden Sie auf der Seite „Copilot und KI-Funktionen“
+
+Wenn keine der KI-Features von Microsoft auf der Seite **Copilot und KI-Funktionen** enthalten sind, liegt dies wahrscheinlich daran, dass in Ihrer Umgebung eine oder mehrere eingebettete Apps installiert sind. Eingebettete Apps können ihre eigenen Copilot-Funktionen bieten, die von Microsoft veröffentlichten Funktionen sind jedoch nicht mit Umgebungen mit eingebetteten Apps kompatibel.
 
 ## Siehe auch
 

@@ -2,13 +2,14 @@
 title: Einen Debitorenauftrag erstellen und Produkte verkaufen
 description: 'Beschreibt, wie Sie einen Verkaufsauftrag erstellen, einen Vertrag mit einem Debitoren erfassen, Produkte unter bestimmten Bedingungen verkaufen oder kaufen.'
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: soalex
 ms.topic: conceptual
-ms.devlang: al
 ms.search.keywords: 'trade, partial deliveries, customer sales order, shipping advice, partial shipments,'
 ms.search.form: '42, 48, 9305'
-ms.date: 11/03/2023
-ms.author: bholtorf
+ms.date: 02/01/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 # Produkte mit einem Debitorenauftrag verkaufen
 
@@ -89,6 +90,12 @@ Der zugehörige Artikel und die Debitorenposten werden nun im System erfasst ers
 ## Externe Belegnummer
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
+
+## Mit Betragsfeldern arbeiten
+
+Die Werte in Feldern, in denen Beträge angezeigt werden, können positiv oder negativ sein, je nachdem, ob es sich bei dem Wert um eine Gutschrift oder eine Belastung handelt. Dieses Video zeigt, wie Sie mit Feldern arbeiten, die Beträge anzeigen.
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1h96P]
 
 ## Siehe auch
 

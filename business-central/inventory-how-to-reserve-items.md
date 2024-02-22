@@ -11,7 +11,7 @@ ms.date: 09/19/2023
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# <a name="reserve-items"></a>Artikel reservieren
+# Artikel reservieren
 
 Reservieren Sie Lager oder eingehenden Artikel für Verkaufsaufträge, Bestellungen, Montageaufträge, Umlagerungsaufträge oder Fertigungsaufträge. Sie können Artikel auch in Lager oder eingehenden in Zeilen der offenen Belegzeile reservieren. Sie tun dies auf der Seite **Reservierung**.
 
@@ -22,7 +22,7 @@ Jede Zeile, die Sie zum Reservieren der Artikel auf der Seite **Reservierung** �
 >
 > Das Feld **Reserviert aus Bestand** kann Ihnen helfen zu verstehen, ob Sie für eine bestimmte Bestellung oder Bestellposition versenden oder kommissionieren können. Für Positionen ist das Feld „Reserviert aus Bestand“ in Infoboxen verfügbar. Um auf die Informationen zur gesamten Bestellung zuzugreifen, befindet sich das Feld auf der Seite **Statistiken**.
 
-## <a name="reserve-items-for-sales"></a>Sie Artikel für Verkäufe reservieren
+## Sie Artikel für Verkäufe reservieren
 
 Nachfolgend wird erläutert, wie Entscheidungsträger als Artikel aus einem Verkaufsauftrag reserviert werden. Die Schritte sind gleich für Einkaufs-, Service-, Umlagerungs- und Montageaufträge.
   
@@ -41,7 +41,7 @@ Nachfolgend wird erläutert, wie Entscheidungsträger als Artikel aus einem Verk
 > [!NOTE]  
 > Falls für den Verkaufsauftrag Artikelverfolgungszeilen vorhanden sind, führt das Reservierungssystem spezielle Schritte durch: Weitere Informationen hierzu finden Sie im Abschnitt [So reservieren Sie eine bestimmte Serien- oder Chargennummer](inventory-how-to-reserve-items.md#reserve-a-specific-serial-or-lot-number).  
 
-## <a name="reserve-an-item-for-a-production-order-line"></a>Artikel für FA-Zeilen reservieren
+## Artikel für FA-Zeilen reservieren
 
 Sie können Artikel für Erstellungsaufträge reservieren. Sie müssen zwischen Produktionsauftragszeilen, d.h. übergeordnete Artikel und Produktionsauftragskomponenten unterscheiden.
 
@@ -55,7 +55,7 @@ Im folgenden Verfahren wird ein fest geplanter Fertigungsauftrag verwendet.
 
 Die Menge, die Sie im fest geplanten Fertigungsauftrag eingetragen haben, ist reserviert.
 
-## <a name="reserve-items-for-production-order-components"></a>Artikel für FA-Komponenten reservieren
+## Artikel für FA-Komponenten reservieren
 
 Sie können Artikel für Erstellungsaufträge reservieren. Sie müssen zwischen Produktionsauftragszeilen, d.h. übergeordnete Artikel und Produktionsauftragskomponenten unterscheiden.
 
@@ -71,32 +71,25 @@ Im folgenden Verfahren wird ein fest geplanter Fertigungsauftrag verwendet.
 
 Die Menge, die Sie in der fest geplanten Fertigungskomponentenzeile eingetragen haben, ist nun reserviert.
 
-## <a name="reserve-items-in-bulk"></a>Reservieren Sie Artikel in großen Mengen
+## Reservieren Sie Artikel in großen Mengen
 
 Verwenden Sie die Seite **Reservierungsarbeitsblatt**, um eingehende Waren in großen Mengen zu reservieren und zuzuordnen. Mithilfe von Massenreservierungen können Sie beispielsweise sicherstellen, dass für Ihre Verkaufs- und Produktionsaufträge Mengen verfügbar sind. Sie können mehrere Chargen für unterschiedliche Zwecke haben. Beispielsweise können Sie Produktionsaufträge wöchentlich zuweisen, diese jedoch täglich für den Verkauf reservieren.
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Reservierungsarbeitsblatt** ein und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die Aktion **Bedarf abrufen** und geben Sie dann die Art der Nachfrage an, die Sie aus dem verfügbaren Bestand reservieren möchten.
-3. Wählen Sie im Feld **Reserviert aus Bestand** eine der folgenden Optionen aus:
-    
-   |Feld  |Description  |
-   |---------|---------|
-   |Leer     | Die ausstehende Menge ist überhaupt nicht reserviert oder sie wurde aus anderen Quelldokumenten, wie z. B. Bestellungen, reserviert.        |
-   |Vollständig    |  Die ausstehende Menge wird vollständig aus dem verfügbaren Lagerbestand reserviert.       |
-   |Teillieferung     | Die ausstehende Menge wird teilweise aus dem verfügbaren Lagerbestand reserviert.        |
-
-4. Füllen Sie die Felder nach Bedarf aus. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
-5. Optional: Um die Elemente sofort zuzuordnen, wählen Sie die Aktion **Zuordnen**.
-6. Wählen Sie auf der Seite **Zuordnungsrichtlinie** eine Richtlinie für jeden Schritt aus
+3. Füllen Sie die Filter nach Bedarf aus. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
+4. Optional: Um die Elemente sofort zuzuordnen, wählen Sie die Aktion **Zuordnen**.
+5. Wählen Sie auf der Seite **Zuordnungsrichtlinie** eine Richtlinie für jeden Schritt aus
 
    |Zuordnungsrichtlinie  |Description  |
    |---------|---------|
    |Basis     | Weist einem Bedarf Bestand zu, wenn keine Konflikte vorliegen und der Bedarf vollständig gedeckt werden kann. Beispiel: Sie haben Kundenauftrag A mit einer Menge von 10 und einen Auftrag mit einer Menge von 7. Wenn Sie 20 Stück auf Lager haben, erhalten beide Bedarfe die volle Menge. Wenn Ihr Bestand 12 beträgt, wird kein Bestand zugeteilt. Sie müssen die Menge manuell zuteilen.        |
    |Zu gleichen Teilen    | Verteilt den verfügbaren Bestand gleichmäßig auf die Nachfrage. Beispiel: Sie haben einen Kundenauftrag mit einer Menge von 10 und einen Auftrag mit einer Menge von 7. Wenn Ihr Lagerbestand 20 beträgt, erhalten beide Bedarfe die volle Menge. Wenn Ihr Bestand 12 beträgt, erhalten beide Nachfragen 6.        |
+   |Nach Debitorenpriorität|Verteilung basierend auf dem Prioritätsfeld der Debitorenkarte. Bei unzureichenden Mengen priorisiert das System die Belieferung der Debitoren mit höchster Priorität.|
 
-7. Um alle Zeilen zu reservieren, bei denen **Akzeptieren** aktiviert ist, wählen Sie die Aktion **Reservierung vornehmen** aus.
+6. Um alle Zeilen zu reservieren, bei denen **Akzeptieren** aktiviert ist, wählen Sie die Aktion **Reservierung vornehmen** aus.
     
-## <a name="change-a-reservation"></a>Reservierung ändern
+## Reservierung ändern
 
 Sie können eine Artikelreservierung ändern.
 
@@ -105,7 +98,7 @@ Sie können eine Artikelreservierung ändern.
 3. Klicken Sie auf der Seite **Reservierungseinträge** auf **Menge** aktualisieren auf der Zeile, die Sie ändern möchten.
 4. Bestätigen Sie die nachfolgende Meldung, indem Sie die Schaltfläche **OK** auswählen.
 
-## <a name="cancel-a-reservation"></a>Reservierung stornieren
+## Reservierung stornieren
 
 Sie können eine Artikelreservierung abbrechen.
 
@@ -114,7 +107,7 @@ Sie können eine Artikelreservierung abbrechen.
 3. Auf der Seite **Reservierung** wählen Sie die **Reservierungsposten stornieren** Aktion aus.  
 4. Bestätigen Sie die nachfolgende Meldung, indem Sie die Schaltfläche **OK** auswählen.  
 
-## <a name="reserve-a-specific-serial-or-lot-number"></a>Bestimmte Serien- oder Chargennummer reservieren
+## Bestimmte Serien- oder Chargennummer reservieren
 
 Aus ausgehenden Dokumenten für Artikel mit Artikelverfolgung, wie Verkaufsaufträge oder Listen mit Fertigungskomponenten, können Sie bestimmte Serien- oder Chargennummern reservieren. Die Reservierung bestimmter Serien- oder Chargennummern kann beispielsweise in den folgenden Situationen nützlich sein:
 
@@ -136,7 +129,7 @@ Das folgende Verfahren basiert auf einer Auftragsabwicklung.
 7. Wählen Sie die Schaltfläche **OK**, um die Seite **Reservationen** zu öffnen, in dem nur der Bedarf angezeigt wird, der mit der angegebenen Artikelverfolgungsnummer verbunden ist. Bei nicht-spezifischen Reservierungen für eine der Artikelverfolgungsnummern, die Sie in dieser Zeile angegeben haben, werden Sie über die Menge informiert, die bereits reserviert wurde.  
 8. Klicken Sie auf die Aktionen **Automatisch Reservieren** oder **Aus aktueller Zeile reservieren**, um die Reservierung für die speziellen Artikelverfolgungsnummern zu erstellen.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Bestand](inventory-manage-inventory.md)  
 [Designdetails: Reservierung, Auftragsnachverfolgung und Aktionsmeldungen](design-details-reservation-order-tracking-and-action-messaging.md)  

@@ -63,13 +63,16 @@ Die folgende Tabelle beschreibt die Werte im Feld **Status**.
 |--|--|
 | Bereit | Die Aufgabenwarteschlange für die Ausführung bereit ist. |
 | In Bearbeitung | Der Aufgabenwarteschlangenposten ist in Bearbeitung. Dieses Feld wird aktualisiert, während die Aufgabenwarteschlange ausgeführt wird. |
-| Abwarten | Der Standardstatus des Aufgabenwarteschlangenpostens bei dessen Erstellung. Wählen Sie die Aktion **Status auf 'Bereit' festlegen**, um den Status auf **Bereit** zu ändern. Wählen Sie die Aktion **Auf „Abwarten“ setzen**, um den Status **Abwarten** wiederherzustellen. |
+| Abwarten | Der Standardstatus des Aufgabenwarteschlangenpostens bei dessen Erstellung. Wählen Sie die Aktion **Status auf 'Bereit' festlegen**, um den Status auf **Bereit** zu ändern. Wählen Sie die Aktion **Auf „Abwarten“ setzen**, um den Status **Abwarten** wiederherzustellen. Weitere Informationen finden Sie unter [Über „Angehalten“](#about-on-hold).|
 | Fehler | Ein Fehler ist aufgetreten. Wählen Sie **Fehler anzeigen** aus, um die Fehlermeldung anzuzeigen. |
 | Fertig | Der Aufgabenwarteschlangenposten ist abgeschlossen. |
 
-> [!Tip]  
+> [!TIP]  
 > Die Ausführung von Aufgabenwarteschlangenposten wird beendet, wenn ein Fehler auftritt. Dies kann beispielsweise ein Problem sein, wenn ein Posten eine Verbindung zu einem externen Dienst herstellt, beispielsweise einem Bankfeed. Wenn der Dienst vorübergehend nicht verfügbar ist und der Aufgabenwarteschlangenposten keine Verbindung herstellen kann, zeigt der Eintrag einen Fehler an und wird nicht mehr ausgeführt. Sie müssen den Aufgabenwarteschlangenposten manuell neu starten. Diese Situation kann jedoch mit den Feldern **Maximale Anzahl von Versuchen** und **Verzögerung der erneuten Ausführung (Sek.)** vermieden werden. Im Feld **Maximale Anzahl von Versuchen** können Sie angeben, wie oft der Aufgabenwarteschlangenposten fehlschlagen kann, bevor dessen Ausführungsversuche beendet werden. Im Feld **Verzögerung der erneuten Ausführung (Sek.)** können Sie die Zeitspanne zwischen den Versuchen in Sekunden angeben. Durch die Kombination dieser beiden Felder kann der Aufgabenwarteschlangenposten weiter ausgeführt werden, bis der externe Dienst verfügbar wird.
 
+### Über „Angehalten“
+
+Das Festlegen eines Aufgabenwarteschlangeneintrags auf **Angehalten** hat keine Auswirkungen auf ein Projekt, das bereits ausgeführt wird. Sobald ein Projekt in der Aufgabenwarteschlange gestartet wurde, wird es weiter ausgeführt, bis es abgeschlossen ist. Spätere Änderungen am Aufgabenwarteschlangeneintrag, z. B. das Anhalten des Projekts, spielen keine Rolle.<br><br>Der Status **Angehalten** wird normalerweise verwendet, um zu verhindern, dass ein Projekt automatisch gestartet wird, wenn er seine geplante Startzeit erreicht. Sie können damit die Ausführung eines Projekts vorübergehend anhalten, bevor seine Verarbeitung beginnt. Sobald ein Projekt jedoch ausgeführt wird, führt die Änderung des Status auf „Angehalten“ nicht zu einer Unterbrechung und hat keine Auswirkungen auf die Ausführung des Projekts.<br><br>Wenn Sie ein laufendes Projekt stoppen oder abbrechen müssen, können Sie dazu manuell in den Prozess eingreifen, z. B. indem Sie die entsprechende Sitzung oder den Prozess beenden, die bzw. der für die Ausführung des Projekts verantwortlich ist.
 ### So wird der Status für jedes beliebige Projekt angezeigt
 
 1. Wählen Sie das Symbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Auftragswarteschlangenposten** ein und wählen Sie dann den zugehörigen Link.
@@ -125,7 +128,7 @@ Wenn ein Aufgabenwarteschlangenposten einen Fehler anzeigt, versuchen Sie als Er
 
 Wenn ein Neustart nicht hilft, liegt das Problem möglicherweise im Code. Sie finden den Besitzer (auch *Herausgeber* genannt) des Codes in der AL-Stapelüberwachung im Aufgabenwarteschlangenprotokoll. Wenn der Fehler von einer App/Erweiterung stammt, wenden Sie sich an Ihren Microsoft-Partner. Wenn der Fehler von einer Microsoft-Anwendung stammt, öffnen Sie eine Supportanfrage bei Microsoft.
 
-Wenn Sie sich wegen Unterstützung an Ihren Microsoft-Partner oder an Microsoft wenden, geben Sie bitte die folgenden Informationen an:
+Wenn Sie sich wegen Unterstützung an Ihren Microsoft-Partner oder an Microsoft wenden, geben Sie die folgenden Informationen an:
 
 * Die ID des Aufgabenwarteschlangenpostens, in dem der Fehler auftritt
 * Der Zeitstempel, wann der Fehler aufgetreten ist

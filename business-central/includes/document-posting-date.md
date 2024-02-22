@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-Die Felder **Belegdatum** und **Buchungsdatum** in Verkaufs- und Einkaufsbelegen können Ihnen dabei helfen, Buchhaltungsstandards einzuhalten und genaue Finanzberechnungen sicherzustellen. Die Felder dienen unterschiedlichen Zwecken:
+Die Felder **Belegdatum** und **Buchungsdatum** in Verkaufs- und Einkaufsbelegen helfen Ihnen dabei, Buchhaltungsstandards einzuhalten und genaue Finanzberechnungen zu erhalten. Die Felder dienen unterschiedlichen Zwecken:
 
 - Dass [!INCLUDE [prod_short](prod_short.md)] die Finanzierungskosten und den auf Verkaufsrechnungen fälligen Betrag korrekt berechnet, muss das **Belegdatum** mit einem der folgenden Daten übereinstimmen:
 
