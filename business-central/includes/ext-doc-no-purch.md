@@ -3,6 +3,7 @@ author: brentholtorf
 ms.topic: include
 ms.date: 05/27/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
 Auf Einkaufsbelegen und Buch.-Blättern können Sie eine Belegnummer angeben, die auf das Nummerierungssystem des Kreditors verweist. Verwenden Sie dieses Feld, um die Nummer zu erfassen, die der Kreditor der Bestellung, Rechnung oder Gutschrift zugewiesen hat. Sie können die Nummer dann später verwenden, wenn Sie aus irgendeinem Grund den gebuchten Posten anhand dieser Nummer suchen müssen.
