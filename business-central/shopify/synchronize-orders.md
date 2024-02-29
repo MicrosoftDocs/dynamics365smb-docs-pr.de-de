@@ -1,6 +1,6 @@
 ---
 title: Verkaufsaufträge synchronisieren und erfüllen
-description: Nehmen Sie die Einrichtung und Ausführung des Imports under der Verarbeitung von Verkaufsaufträgen über Shopify vor.
+description: Nehmen Sie die Einrichtung und Ausführung des Imports und die Verarbeitung von Verkaufsaufträgen über Shopify vor.
 ms.date: 06/06/2023
 ms.topic: article
 ms.service: dynamics-365-business-central
@@ -10,15 +10,15 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ---
 
-# <a name="synchronize-and-fulfill-sales-orders"></a>Verkaufsaufträge synchronisieren und erfüllen
+# Verkaufsaufträge synchronisieren und erfüllen
 
 Dieser Artikel beschreibt die notwendigen Einstellungen und Schritte, die Sie durchführen müssen, um Verkaufsaufträge mit Shopify in [!INCLUDE[prod_short](../includes/prod_short.md)] zu synchronisieren und zu erfüllen.
 
-## <a name="set-the-import-of-orders-on-the-shopify-shop-card"></a>Legen Sie den Import von Bestellungen auf der Shopify Shop-Karte fest.
+## Legen Sie den Import von Bestellungen auf der Shopify Shop-Karte fest.
 
 Geben Sie einen **Währungscode** ein, wenn Ihr Onlineshop eine andere Währung als die lokale Währung (MW) verwendet. Für die angegebene Währung müssen Wechselkurse konfiguriert sein. Wenn Ihr Onlineshop dieselbe Währung verwendet wie [!INCLUDE[prod_short](../includes/prod_short.md)], lassen Sie das Feld leer. 
 
-Sie finden die Store-Währung in den [Store-Details](https://www.shopify.com/admin/settings/general) Einstellungen in Ihrem Shopify Admin. Shopify kann so konfiguriert werden, dass verschiedene Währungen akzeptiert werden, aber importierte Bestellungen in [!INCLUDE[prod_short](../includes/prod_short.md)] verwenden die Store-Währung.
+Sie können auf die Shop-Währung in den [Shop-Details](https://www.shopify.com/admin/settings/general)-Einstellungen in Ihrem Shopify Admin zugreifen. Shopify kann so konfiguriert werden, dass verschiedene Währungen akzeptiert werden. Nach [!INCLUDE[prod_short](../includes/prod_short.md)] importierte Aufträge verwenden jedoch die Shop-Währung.
 
 Eine reguläre Shopify-Bestellung kann zusätzlich zur Zwischensumme Kosten enthalten, z.B. Versandkosten oder, falls aktiviert, Trinkgelder. Diese Beträge werden direkt auf das Sachkonto gebucht, das Sie für bestimmte Vorgangsarten verwenden möchten:
 
@@ -33,7 +33,7 @@ Wenn Sie einen Verkaufsbeleg automatisch freigeben möchten, aktivieren Sie die 
 Wenn Sie das Feld **Shopify-Auftragsnummer in Belegzeile** auswählen, fügt [!INCLUDE [prod_short](../includes/prod_short.md)] Verkaufszeilen vom Typ **Kommentar** mit der Shopify-Auftragsnummer ein.
 
 >[!NOTE]
->Der Verkaufsbeleg in [!INCLUDE[prod_short](../includes/prod_short.md)] ist mit dem Shopify-Auftrag verknüpft, und Sie können die **Shopify-Auftragsnummer** hinzufügen Fügen Sie das Feld der Liste oder den Kartenseiten für Verkaufsaufträge, Rechnungen und Lieferungen hinzu. Um mehr über das Hinzufügen eines Felds zu erfahren, gehen Sie zu [Um mit der Personalisierung einer Seite über das Banner **Personalisierung** zu beginnen](../ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode). 
+>Der Verkaufsbeleg in [!INCLUDE[prod_short](../includes/prod_short.md)] ist mit dem Shopify-Auftrag verknüpft, und Sie können die **Shopify-Auftragsnummer** hinzufügen Fügen Sie das Feld der Liste oder den Kartenseiten für Verkaufsaufträge, Rechnungen und Lieferungen hinzu. Um mehr über das Hinzufügen eines Felds zu erfahren, gehen Sie zu [Beginnen Sie mit der Personalisierung, indem Sie den Personalisierungsmodus verwenden](../ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode). 
 
 Im Feld **Steuergebiet Priorität** können Sie die Priorität für die Auswahl des Steuergebietscodes auf Adressen in Aufträgen festlegen. Der von Ihnen importierte Shopify-Auftrag enthält Informationen zu Steuern. Die Steuern werden neu berechnet, wenn Sie Verkaufsbelege erstellen. Daher ist es wichtig, dass die MwSt.- oder Steuereinstellungen in [!INCLUDE[prod_short](../includes/prod_short.md)] korrekt sind. Weitere Informationen über Steuern finden Sie unter [Steuern für die Shopify-Verbindung festlegen](setup-taxes.md).
 
@@ -45,12 +45,12 @@ Geben Sie an, wie Sie Rückgaben und Rückerstattungen bearbeiten:
 
 Geben Sie einen Lagerort für Rückgaben und Sachkonten für Rückerstattungen für Waren und andere Rückerstattungen an.
 
-* **Erstattungskonto nicht wieder eingelagerter Artikel**: Gibt eine Sachkontonummer für Artikel an, für die keine Lagerkorrektur durchgeführt werden soll.
-* **Erstattungskonto**: Gibt ein Sachkonto für die Differenz zwischen dem Gesamtbetrag der Rückerstattung und dem Gesamtbetrag der Artikel an.
+* **Erstattungskonto nicht wieder eingelagerter Artikel** gibt eine Sachkontonummer für Artikel an, für die keine Lagerkorrektur durchgeführt werden soll.
+* **Erstattungskonto** gibt ein Sachkonto für die Differenz zwischen dem Gesamtbetrag der Rückerstattung und dem Gesamtbetrag der Artikel an.
 
 Weitere Informationen finden Sie unter [Rückgaben und Rückerstattungen](synchronize-orders.md#returns-and-refunds)
 
-### <a name="shipment-method-mapping"></a>Zuordnung von Versandmethoden
+### Zuordnung von Versandmethoden
 
 Der **Versandartencode** für aus Shopify importierte Verkaufsdokumente kann automatisch ausgefüllt werden. Sie müssen die **Zuordnung von Versandmethoden** konfigurieren.
 
@@ -63,7 +63,7 @@ Der **Versandartencode** für aus Shopify importierte Verkaufsdokumente kann aut
 > [!NOTE]  
 > Wenn einem Verkaufsauftrag mehrere Belastungen zugeordnet sind, wird nur eine als Versandart ausgewählt und dem Verkaufsbeleg zugewiesen.
 
-### <a name="location-mapping"></a>Zuordnung von Standorten
+### Zuordnung von Standorten
 
 Die Lagerortzuordnung ist erforderlich, um den **Lagerortcode** für Verkaufsbelegzeilen auszufüllen, die aus Shopify importiert wurden. Dies ist wichtig, wenn die Option **Lagerplatz obligatorisch** auf der Karte **Inventareinrichtung** aktiviert ist, da Sie sonst keine Belege erstellen können.
 
@@ -74,9 +74,9 @@ Die Lagerortzuordnung ist erforderlich, um den **Lagerortcode** für Verkaufsbel
 5. Geben Sie den **Standardlagerplatzcode** mit dem entsprechenden Lagerplatz in [!INCLUDE[prod_short](../includes/prod_short.md)] ein.
 
 > [!NOTE]  
-> Die Lagerortzuordnung wird auch für die Synchronisierung des Lagerbestands verwendet. Weitere Informationen finden Sie unter [Lagerbestand mit Shopify synchronisieren](synchronize-items.md#sync-inventory-to-shopify).
+> Die Lagerortzuordnung wird auch zur Synchronisierung des Bestands verwendet. Weitere Informationen finden Sie unter [Lagerbestand mit Shopify synchronisieren](synchronize-items.md#sync-inventory-to-shopify).
   
-## <a name="run-the-order-synchronization"></a>Führen Sie die Auftragssynchronisation aus
+## Führen Sie die Auftragssynchronisation aus
 
 Nachfolgend wird beschrieben, wie Sie die Verkaufsaufträge importieren und aktualisieren.
 
@@ -91,8 +91,8 @@ Nachfolgend wird beschrieben, wie Sie die Verkaufsaufträge importieren und aktu
 4. Wählen Sie die Aktion **Aufträge von Shopify synchronisieren** aus.
 5. Definieren Sie bei Bedarf Filter für Bestellungen. Sie können z.B. vollständig bezahlte Aufträge oder solche mit einem niedrigen Risikoniveau importieren.
 
-> [!NOTE]  
-> Beim Filtern nach Tag sollten Sie die Filtertoken `@` und `*` verwenden. Wenn Sie beispielsweise Bestellungen importieren möchten, die *tag1* enthalten, verwenden Sie `@*tag1*`. `@` stellt sicher, dass das Ergebnis die Groß- und Kleinschreibung berücksichtigt, während `*` Aufträge mit mehreren Tags findet.
+   > [!NOTE]  
+   > Beim Filtern nach Tag sollten Sie die Filtertoken `@` und `*` verwenden. Wenn Sie beispielsweise Aufträge importieren möchten, die *tag1* enthalten, verwenden Sie `@*tag1*`. `@` stellt sicher, dass das Ergebnis die Groß- und Kleinschreibung berücksichtigt, während `*` Aufträge mit mehreren Tags findet.
 
 6. Wählen Sie die Schaltfläche **OK**.
 
@@ -100,24 +100,25 @@ Alternativ können Sie nach dem Batchauftrag **Aufträge synchronisieren von Sho
 
 Sie können planen, dass die Aufgabe automatisch ausgeführt wird. Erfahren Sie mehr unter [Planen Sie wiederkehrende Aufgaben](background.md#to-schedule-recurring-tasks).
 
-### <a name="under-the-hood"></a>Unter der Haube
+### Unter der Haube
 
 Der Shopify Connector importiert Aufträge in zwei Schritten:
 
-1.  Er importiert Auftragsheader in die Tabelle **Zu importierende Shopify-Aufträge**, wenn sie bestimmte Bedingungen erfüllen:
+1. Er importiert Auftragsheader in die Tabelle **Zu importierende Shopify-Aufträge**, wenn sie bestimmte Bedingungen erfüllen:
     
-* Sie werden nicht archiviert. Das bedeutet, dass Sie Bestellungen in die Synchronisierung einschließen oder von ihr ausschließen können, indem Sie sie in der Shopify-Verwaltung archivieren oder dearchivieren.
-* Sie wurden nach der letzten Synchronisierung erstellt oder geändert. Dies bedeutet, dass Sie den erneuten Import einer bestimmten Reihenfolge erzwingen können, wenn Sie diese ändern, beispielsweise durch Hinzufügen von **Notizen** oder **Tags**.
+   * Sie werden nicht archiviert. Das bedeutet, dass Sie Bestellungen in die Synchronisierung einschließen oder von ihr ausschließen können, indem Sie sie in der Shopify-Verwaltung archivieren oder dearchivieren.
+   * Sie wurden nach der letzten Synchronisierung erstellt oder geändert. Dies bedeutet, dass Sie den erneuten Import einer bestimmten Reihenfolge erzwingen können, wenn Sie diese ändern, beispielsweise indem Sie **Notizen** oder **Tags** hinzufügen.
 
-2.  Er importiert Shopify Aufträge und zusätzliche Informationen.
-* Der Shopify Connector verarbeitet alle Datensätze in der Tabelle **Zu importierende Shopify-Aufträge**, die den Filterkriterien entsprechen, die Sie in der Anforderungsseite **Aufträge von Shopify synchronisieren** festgelegt haben. Zum Beispiel Tags, Kanal oder der Auftragserfüllungsstatus. Wenn Sie keine Filter angegeben haben, werden alle Datensätze verarbeitet.
-* Beim Importieren eines Shopify-Auftrags fordert der Shopify-Konnektor zusätzliche Informationen von Shopify an:
+2. Er importiert Shopify Aufträge und zusätzliche Informationen.
 
-    * Auftragsheader
-    * Auftragspositionen
-    * Versand- und Auftragserfüllungsinformationen
-    * Transaktionen
-    * Rückgaben und Rückerstattungen, sofern konfiguriert
+   * Der Shopify Connector verarbeitet alle Datensätze in der Tabelle **Zu importierende Shopify-Aufträge**, die den Filterkriterien entsprechen, die Sie in der Anforderungsseite **Aufträge von Shopify synchronisieren** festgelegt haben. Zum Beispiel Tags, Kanal oder der Auftragserfüllungsstatus. Wenn Sie keine Filter angegeben haben, werden alle Datensätze verarbeitet.
+   * Beim Importieren eines Shopify-Auftrags fordert der Shopify-Konnektor zusätzliche Informationen von Shopify an:
+
+     * Auftragsheader
+     * Auftragspositionen
+     * Versand- und Auftragserfüllungsinformationen
+     * Transaktionen
+     * Rückgaben und Rückerstattungen, sofern konfiguriert
 
 Die Seite **Zu importierender Shopify Auftrag** hilft bei der Behebung von Problemen beim Importieren von Aufträgen. Sie können die verfügbaren Aufträge bewerten und die nächsten Schritte planen:
 
@@ -125,18 +126,18 @@ Die Seite **Zu importierender Shopify Auftrag** hilft bei der Behebung von Probl
 * Bearbeiten Sie nur bestimmte Aufträge. Sie müssen das Feld **Shop-Code** ausfüllen, einen oder mehrere Aufträge ausfüllen und dann die Aktion **Ausgewählte Aufträge importieren** auswählen.
 * Löschen Sie Aufträge von der Seite **Zu importierender Shopify Auftrag**, um sie von der Synchronisierung auszuschließen.
 
-## <a name="review-imported-orders"></a>Importierte Bestellungen überprüfen
+## Importierte Bestellungen überprüfen
 
 Sobald der Import abgeschlossen ist, können Sie die Shopify-Bestellung durchsuchen und alle zugehörigen Informationen finden, wie z.B. die Transaktionen, die Versandkosten, die Risikostufe, die Bestellattribute und Tags oder die Erfüllungen, wenn die Bestellung bereits in Shopify erfüllt wurde. Sie können auch alle an den Debitor gesendeten Auftragsbestätigungen anzeigen, indem Sie die Aktion **Shopify-Statusseite** auswählen.
 
 > [!NOTE]  
 > Sie können direkt zum Fenster **Shopify Bestellungen** navigieren und sehen dort Bestellungen mit dem Status *offen* aus allen Geschäften. Um abgeschlossene Bestellungen zu überprüfen, müssen Sie die Seite **Shopify Bestellungen** aus dem jeweiligen **Shopify Shop Card** Fenster öffnen.
 
-## <a name="create-sales-documents-in-business-central"></a>Verkaufsbelege in Business Central erstellen
+## Verkaufsbelege in Business Central erstellen
 
 Wenn die Option **Automatische Erstellung von Aufträgen** auf der **Shopify Shop Card** aktiviert ist, versucht [!INCLUDE[prod_short](../includes/prod_short.md)] einen Verkaufsbeleg zu erstellen, nachdem der Auftrag importiert wurde. Wenn Probleme wie ein fehlender Debitor oder ein fehlendes Produkt auftreten, müssen Sie die Probleme beheben und dann den Verkaufsauftrag erneut erstellen.
 
-### <a name="to-create-sales-documents"></a>So erstellen Sie Verkaufsbelege
+### So erstellen Sie Verkaufsbelege
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion 1.](../media/ui-search/search_small.png "Was möchten Sie tun?") öffnet. Symbol, geben Sie **Shopify Shops** ein, und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie den Shop, für den Sie Bestellungen synchronisieren möchten, um die Seite **Shopify Shop-Karte** zu öffnen.
@@ -148,15 +149,15 @@ Wenn die Shopify Bestellung erfüllt werden muss, wird ein **Verkaufsauftrag** e
 
 Ein Verkaufsbeleg ist nun erstellt und kann mit Standarfunktionen von [!INCLUDE[prod_short](../includes/prod_short.md)] verwaltet werden.
 
-### <a name="manage-missing-customers"></a>Fehlende Debitoren verwalten
+### Fehlende Debitoren verwalten
 
 Wenn Ihre Einstellungen die automatische Erstellung eines Debitors verhindern und kein entsprechender vorhandener Debitor gefunden werden kann, müssen Sie der Shopify-Bestellung manuell einen Debitor zuweisen. Es gibt einige Möglichkeiten, dies zu tun:
 
 * Sie können die **Verk. an Deb.-Nr.** und **Rechnung an Debitor Nr.** direkt auf der Seite **Shopify-Bestellungen** zuweisen, indem Sie einen Debitor aus der Liste der vorhandenen Debitoren auswählen.
-* Sie können einen Kundenvorlagencode auswählen, erstellen und dann den Kunden über die Aktion **Neuen Kunden erstellen** auf der Seite **Shopify Aufträge** zuordnen. Beachten Sie, dass der Shopify-Debitor über mindestens eine Adresse verfügen muss. Bei Bestellungen, die über den Shopify-Vertriebskanal POS erstellt wurden, fehlen häufig Adressangaben.
+* Sie können einen Kundenvorlagencode auswählen, erstellen und dann den Kunden über die Aktion **Neuen Kunden erstellen** auf der Seite **Shopify Aufträge** zuordnen. Beachten Sie, dass der Shopify-Debitor über mindestens eine Adresse verfügen muss. Bei Aufträgen, die über den Shopify-Vertriebskanal POS erstellt wurden, fehlen häufig Adressangaben.
 * Sie können einen bestehenden Debitor dem zugehörigen **Shopify Kunden** im Fenster **Shopify Kunden** zuordnen und dann die Aktion **Zuordnung finden** auf der Seite **Shopify Aufträge** wählen.
 
-### <a name="how-the-connector-chooses-which-customer-to-use"></a>Wie der Konnektor auswählt, welcher Kunde verwendet werden soll
+### Wie der Konnektor auswählt, welcher Kunde verwendet werden soll
 
 Die Funktion *Bestellung aus Shopify importieren* versucht, die Debitoren in der folgenden Reihenfolge auszuwählen:
 
@@ -172,7 +173,7 @@ Die nächsten Schritte hängen von der **Kundenzuordnung Typ** ab.
 > [!NOTE]  
 > Der Konnektor verwendet die Informationen aus der Rechnungsadresse und erstellt den Rechnungsempfänger in [!INCLUDE[prod_short](../includes/prod_short.md)]. Der Verk. an Debitor ist derselbe wie Rechnung an Debitor.
 
-### <a name="different-processing-rules-for-orders"></a>Unterschiedliche Bearbeitungsregeln für Aufträge
+### Unterschiedliche Bearbeitungsregeln für Aufträge
 
 Möglicherweise möchten Sie Aufträge anhand einer Regel anders verarbeiten. Beispielsweise sollte bei Aufträgen über einen bestimmten Vertriebskanal wie POS der Standarddebitor verwendet werden, Sie möchten jedoch, dass Ihr Onlineshop über echte Informationen über den Debitor verfügt.
 
@@ -181,20 +182,20 @@ Eine Möglichkeit, dieser Anforderung gerecht zu werden, besteht darin, eine zus
 Beispiel: Sie haben einen Onlineshop und einen Shopify POS. Für Ihren POS möchten Sie einen festen Debitor verwenden, für Ihren Onlineshop möchten Sie jedoch Debitoren in [!INCLUDE[prod_short](../includes/prod_short.md)] erstellen. Das folgende Verfahren listet die allgemeinen Schritte auf. Weitere Informationen finden Sie in den entsprechenden Hilfeartikeln.
 
 1. Erstellen Sie einen Shopify Shop mit dem Namen *STORE* und verknüpfen Sie ihn mit Ihrem Shopify Konto.
-2. Konfigurieren Sie die Artikel-/Produktsynchronisierung, sodass dieser Shop Produktinformationen verwaltet.
-3. Geben Sie an, dass Debitoren mit Aufträgen importiert werden. Der Connector soll Debitoren finden, indem er nach deren E-Mail-Adresse sucht. Wenn keine Adresse gefunden wird, wird mithilfe der Debitorenvorlage ein neuer Debitor erstellt.
-4. Erstellen Sie einen Shopify Shop mit dem Namen *POS* und verknüpfen Sie ihn mit demselben Shopify Konto.
-6. Stellen Sie sicher, dass die Artikel-/Produktsynchronisierung deaktiviert ist.
-7. Wählen Sie den Connector aus, der den Standarddebitor verwendet.
-8. Erstellen Sie einen wiederkehrenden Auftragswarteschlangeneintrag für Bericht 30104 **Aufträge von Shopify synchronisieren**. Wählen Sie **STORE** im Feld **Shopify Shop-Code** aus und verwenden Sie Filter, um alle Aufträge außer denen zu erfassen, die der POS-Vertriebskanal erstellt. Zum Beispiel: **<>-Verkaufsstelle**
-9. Erstellen Sie einen wiederkehrenden Auftragswarteschlangeneintrag für den Bericht 30104 **Aufträge von Shopify synchronisieren**. Wählen Sie **POS** im Feld **Shopify Shop-Code** aus und verwenden Sie Filter, um Aufträge zu erfassen, die vom POS-Vertriebskanal generiert wurden. Zum Beispiel: **<>Verkaufsstelle**.
+1. Konfigurieren Sie die Artikel-/Produktsynchronisierung, sodass dieser Shop Produktinformationen verwaltet.
+1. Geben Sie an, dass Debitoren mit Aufträgen importiert werden. Der Connector soll Debitoren finden, indem er nach deren E-Mail-Adresse sucht. Wenn keine Adresse gefunden wird, wird mithilfe der Debitorenvorlage ein neuer Debitor erstellt.
+1. Erstellen Sie einen Shopify Shop mit dem Namen *POS* und verknüpfen Sie ihn mit demselben Shopify Konto.
+1. Stellen Sie sicher, dass die Artikel-/Produktsynchronisierung deaktiviert ist.
+1. Wählen Sie den Connector aus, der den Standarddebitor verwendet.
+1. Erstellen Sie einen wiederkehrenden Auftragswarteschlangeneintrag für Bericht 30104 **Aufträge von Shopify synchronisieren**. Wählen Sie **STORE** im Feld **Shopify Shop-Code** aus und verwenden Sie Filter, um alle Aufträge außer denen zu erfassen, die der POS-Vertriebskanal erstellt. Zum Beispiel: **<>-Verkaufsstelle**
+1. Erstellen Sie einen wiederkehrenden Auftragswarteschlangeneintrag für den Bericht 30104 **Aufträge von Shopify synchronisieren**. Wählen Sie **POS** im Feld **Shopify Shop-Code** aus und verwenden Sie Filter, um Aufträge zu erfassen, die vom POS-Vertriebskanal generiert wurden. Zum Beispiel: **<>Verkaufsstelle**.
 
 Jede Auftragswarteschlange importiert und verarbeitet Aufträge innerhalb der definierten Filter und verwendet die Regeln der entsprechenden Shopify Shop-Karte. Sie erstellen beispielsweise Verkaufsstellenaufträge für den Standarddebitor.
 
 >[!Important]
-> Um Konflikte bei der Verarbeitung von Aufträgen zu vermeiden, denken Sie daran, für beide Auftragswarteschlangeneinträge dieselbe Auftragswarteschlangenkategorie zu verwenden.
+> Um Konflikte bei der Verarbeitung von Aufträgen zu vermeiden, verwenden Sie für beide Auftragswarteschlangeneinträge dieselbe Auftragswarteschlangenkategorie.
 
-### <a name="impact-of-order-editing"></a>Auswirkung der Bearbeitung von Bestellungen
+### Auswirkung der Bearbeitung von Bestellungen
 
 In Shopify:
 
@@ -208,7 +209,7 @@ In Shopify:
 |Bestellung bearbeiten: ausführen, Zahlungsinformationen aktualisieren | Der Auftragskopf wird aktualisiert, aber die Zeilen nicht. |Die Änderung hat keinen Einfluss darauf, wie die Bestellung importiert wird.|
 |Auftrag stornieren | Der Auftragskopf wird aktualisiert, aber die Zeilen nicht. |Stornierte Bestellung wird nicht importiert |
 
-Wie Sie sehen, kann es in manchen Fällen sinnvoll sein, die bearbeitete Bestellung in [!INCLUDE[prod_short](../includes/prod_short.md)] zu löschen und als neue zu importieren.
+Wie Sie sehen, kann es in manchen Fällen sinnvoll sein, einen bearbeiteten Auftrag in [!INCLUDE[prod_short](../includes/prod_short.md)] zu löschen und als neu zu importieren.
 
 In [!INCLUDE[prod_short](../includes/prod_short.md)]:
 
@@ -220,7 +221,7 @@ In [!INCLUDE[prod_short](../includes/prod_short.md)]:
 |Menge erhöhen. Sendung buchen. | Die Erfüllung wird nicht mit Shopify synchronisiert. |
 |Ein neues Element hinzufügen. Sendung buchen. | Die Reihenfolge Shopify wird als erfüllt markiert. Die Zeilen werden nicht aktualisiert. |
 
-## <a name="synchronize-shipments-to-shopify"></a>Lieferungen mit Shopify synchronisieren
+## Lieferungen mit Shopify synchronisieren
 
 Wenn ein Verkaufsauftrag, der aus einem Shopify-Auftrag erstellt wurde, versandt wird, können Sie die Sendungen mit Shopify synchronisieren.
 
@@ -237,9 +238,9 @@ Sie können die Aufgabe für eine automatische Ausführung planen. Erfahren Sie 
 >[!Important]
 >Der Lagerplatz, einschließlich des leeren Lagerplatzes, der in der Zeile Gebuchte Sendung definiert ist, muss einen passenden Datensatz im Shopify Standort haben. Andernfalls wird diese Zeile nicht an Shopify zurückgeschickt. Erfahren Sie mehr unter [Zuordnung von Lagerplätzen](synchronize-orders.md#location-mapping).
 
-Denken Sie daran, **Bestellungen aus Shopify** auszuführen, um den Erfüllungsstatus der Bestellung in [!INCLUDE[prod_short](../includes/prod_short.md)] zu aktualisieren. Die Konnektor-Funktionalität archiviert auch vollständig bezahlte und erfüllte Bestellungen sowohl in Shopify als auch in [!INCLUDE[prod_short](../includes/prod_short.md)], sofern die Bedingungen erfüllt sind. 
+Denken Sie daran, **Bestellungen aus Shopify** auszuführen, um den Erfüllungsstatus der Bestellung in [!INCLUDE[prod_short](../includes/prod_short.md)] zu aktualisieren. Die Konnektor-Funktionalität archiviert auch vollständig bezahlte und erfüllte Aufträge sowohl in Shopify als auch in [!INCLUDE[prod_short](../includes/prod_short.md)], sofern die Bedingungen erfüllt sind. 
 
-### <a name="shipping-agents-and-tracking-url"></a>Zusteller und Verfolgungs-URL
+### Zusteller und Verfolgungs-URL
 
 Wenn das Dokument **Gebuchte Verkaufslieferung** den **Versandagentencode** und/oder die **Paketverfolgungsnummer** enthält, werden diese Informationen an Shopify und an den Kunden in der Versandbestätigungs-E-Mail gesendet.
 
@@ -251,7 +252,7 @@ Die verfolgende Firma wird auf der Grundlage des Datensatzes des Zustellers mit 
 
 Wenn das Feld **Paketverfolgungs-URL** für den Datensatz des Zustellers ausgefüllt ist, dann enthält die Versandbestätigung ebenfalls eine Verfolgungs-URL.
 
-## <a name="returns-and-refunds"></a>Rückgaben und Rückerstattungen
+## Rückgaben und Rückerstattungen
 
 Bei einer Integration zwischen Shopify und [!INCLUDE[prod_short](../includes/prod_short.md)] ist es wichtig, möglichst viele Geschäftsdaten synchronisieren zu können. Dadurch ist es einfacher, Ihre Finanzen und Lagerebenen in [!INCLUDE[prod_short](../includes/prod_short.md)] auf dem neuesten Stand zu halten. Zu den Daten, die Sie synchronisieren können, gehören Rückgaben und Rückerstattungen, die im Shopify Administrator oder Shopify POS erfasst wurden.
 
@@ -259,7 +260,8 @@ Rückgaben und Rückerstattungen werden mit den zugehörigen Auftägen importier
 
 Rückgaben werden nur zu Informationszwecken importiert. Ihnen ist keine Verarbeitungslogik zugeordnet.
 
-Finanz- und gegebenenfalls Lagerbuchungen werden über Rückerstattungen abgewickelt. Rückerstattungen können sich auf Produkte oder nur auf Beträge beziehen, beispielsweise wenn sich ein Händler entschieden hat, Versandkosten oder einen anderen Betrag zu erstatten.
+Finanz- und gegebenenfalls Lagerbuchungen werden über Rückerstattungen abgewickelt. Rückerstattungen können sich auf Produkte oder nur auf Beträge beziehen, beispielsweise wenn sich ein Händler entscheidet, Versandkosten oder einen anderen Betrag zu erstatten.
+
 Sie können Verkaufsgutschriften für Rückerstattungen erstellen. Die Gutschriften können folgende Zeilentypen haben:
 
 |Typ|Anz.|Kommentar|
@@ -270,9 +272,9 @@ Sie können Verkaufsgutschriften für Rückerstattungen erstellen. Die Gutschrif
 |Sachkonto| Erstattungskonto | Für andere Rückerstattungsbeträge verwenden, die nichts mit Produkten oder Geschenkkarten zu tun haben. Zum Beispiel Trinkgelder oder wenn Sie in Shopify manuell einen zu erstattenden Betrag angegeben haben. |
 
 >[!Note]
->Der unter **Shopify Shop-Karte** festgelegte Rückgabelagerort, einschließlich leerer Lagerorte, wird auf der erstellten Gutschrift verwendet. Das System ignoriert die ursprünglichen Lagerorte aus Aufträgen oder Lieferungen.
+>Die auf der **Shopify Shop-Karte** festgelegte Rückgabelagerorte, einschließlich leerer Lagerorte, werden auf der erstellten Gutschrift verwendet. Das System ignoriert die ursprünglichen Lagerorte aus Aufträgen oder Lieferungen.
 
-## <a name="gift-cards"></a>Geschenkkarten
+## Geschenkkarten
 
 Im Shopify-Shop können Sie Geschenkgutscheine verkaufen, mit denen echte Produkte bezahlt werden können.
 
@@ -280,6 +282,6 @@ Wenn Sie mit Geschenkkarten arbeiten, ist es wichtig, dass Sie im Fenster **Shop
 
 Um die ausgegebenen und angewendeten Geschenkkarten zu überprüfen, wählen Sie das Symbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](../media/ui-search/search_small.png "Was möchten Sie tun?") Symbol, geben Sie **Geschenkkarten** ein, und wählen Sie dann den entsprechenden Link.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Einstieg in den Konnektor für Shopify](get-started.md)  
