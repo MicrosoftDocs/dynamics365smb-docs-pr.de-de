@@ -2,15 +2,16 @@
 title: Genehmigungsworkflow verwenden
 description: 'Sie können Workflows festlegen und verwenden, die Geschäftsprozessaufgaben wie das automatische Buchen oder das Anfordern und Genehmigen neuer Datensätze miteinander verbinden.'
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: ivkoleti
 ms.topic: conceptual
-ms.devlang: al
 ms.search.keywords: null
 ms.search.form: '1500, 1501, 1503, 1504, 1505'
-ms.date: 09/13/2022
-ms.author: bholtorf
+ms.date: 02/20/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# <a name="use-approval-workflows"></a>Artikelgenehmigungsworkflow verwenden
+# Artikelgenehmigungsworkflow verwenden
 
 Ein Workflow ist eine Sequenz von Aufgaben, die durch eine Aktion, eine Bedingung oder eine Regel ausgelöst wird. Workflows werden in der Regel implementiert, um Geschäftslogik in eine Organisation zu integrieren, wie z. B. die Trennung von Aufgaben, die Vereinheitlichung von Prozessen oder die Anwendung von bewährten Verfahren.
 
@@ -19,7 +20,7 @@ Die Workflows können so konzipiert werden, dass sie Anfragen zur Genehmigung ei
 Die Geschäftslogik könnte die Genehmigung von sein:
 
 - Neue Stammdaten wie Sachposten, Sachkonten, Debitoren, Kreditor oder Artikel.
-- Änderungen an Feldern in bestehenden Datensätzen, die sensible Informationen enthalten, wie z.B. **Kreditor Bankkontonr.** oder **Kunde Kreditlimit**.
+- Änderungen an Feldern in bestehenden Datensätzen, die sensible Informationen enthalten, wie z. B. **Kreditor Bankkontonr.** oder **Kunde Kreditlimit**.
 - Änderungen an Feldern in bestehenden Datensätzen, die geschäftskritische Informationen enthalten, z.B. **Artikel VK-Preise**.
 - Neue Benutzer oder Änderungen an Benutzerberechtigungen.
 - Kaufbelege.
@@ -63,7 +64,7 @@ Bevor Sie beginnen können, Workflows zu verwenden, müssen Sie Workflowbenutzer
 | Zeigen Sie Workflowschrittinstanzen mit dem Status **Abgeschlossen** an. | [Archivierte Workflowschritt-Instanzen anzeigen](across-how-to-view-archived-workflow-step-instances.md) |
 | Löschen Sie einen Genehmigungsworkflow, den Sie mit Gewissheit nicht mehr verwenden werden. | [Genehmigungsworkflows löschen](across-how-to-delete-workflows.md) |
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Genehmigungsworkflows einrichten](across-set-up-workflows.md)  
 [Workflow](across-workflow.md)  

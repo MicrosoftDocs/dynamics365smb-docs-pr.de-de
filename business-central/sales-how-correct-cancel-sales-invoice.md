@@ -2,16 +2,17 @@
 title: Ändern oder Löschen einer gebuchten Verkaufsrechnung
 description: 'Dieses Thema beschreibt, wie Sie eine gebuchte Verkaufsrechnung korrigieren, rückgängig machen oder stornieren und eine Verkaufsgutschrift anwenden.'
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: al
-ms.search.keywords: 'undo, credit memo, return'
-ms.date: 06/23/2021
 ms.author: bholtorf
+ms.reviewer: ivkoleti
+ms.topic: conceptual
+ms.search.keywords: 'undo, credit memo, return'
+ms.date: 02/20/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# <a name="correct-or-cancel-unpaid-sales-invoices"></a>Ändern oder Löschen einer unbezahlten Verkaufsrechnung
+# Unbezahlte Verkaufsrechnungen korrigieren oder stornieren
 
-Sie können eine nicht bezahlte Buchung korrigieren oder stornieren, sofern sie nicht vollständig versendet wurde. Dies ist nützlich, wenn Ihnen ein Fehler unterläuft, oder wenn der Debitor eine Änderung vornimmt, bevor die Sendung komplett ist. In allen anderen Szenarien empfehlen wir, dass Sie direkt eine korrigierende Verkaufsgutschrift erstellen. Weitere Informationen finden Sie unter [So erstellen Sie eine Verkaufsgutschrift aus einer gebuchten Verkaufsrechnung](sales-how-process-sales-returns-cancellations.md#to-create-a-sales-credit-memo-from-a-posted-sales-invoice).  
+Sie können eine nicht bezahlte gebuchte Verkaufsrechnung korrigieren oder stornieren, sofern sie nicht vollständig versendet wurde. Dies ist nützlich, wenn Ihnen ein Fehler unterläuft, oder wenn der Debitor eine Änderung vornimmt, bevor die Sendung komplett ist. In allen anderen Szenarien empfehlen wir, dass Sie direkt eine korrigierende Verkaufsgutschrift erstellen. Weitere Informationen finden Sie unter [So erstellen Sie eine Verkaufsgutschrift aus einer gebuchten Verkaufsrechnung](sales-how-process-sales-returns-cancellations.md#to-create-a-sales-credit-memo-from-a-posted-sales-invoice).  
 
 > [!NOTE]  
 > Nachdem eine gebuchte Verkaufsrechnung teilweise oder vollständig gezahlt wurde, können Sie die Nummer aus der gebuchten Verkaufsrechnung selbst nicht korrigieren oder stornieren. Stattdessen müssen Sie eine Verkaufsgutschrift manuell erstellen, um den Verkauf zu stornieren und den Debitor zurückzuerstatten. Weitere Informationen finden Sie unter [Retouren verarbeiten oder Stornieren](sales-how-process-sales-returns-cancellations.md).
@@ -22,35 +23,36 @@ Der Unterschied zwischen dem Stornieren oder Korrigieren einer gebuchten Verkauf
 | --- | --- |
 | **Abbrechen** |Die gebuchte Verkaufsrechnung ist storniert. Eine Korrekturverkaufsgutschrift wird automatisch erstellt und gebucht, um die ursprüngliche gebuchte Verkaufsrechnung zu stornieren. In der ursprünglich gebuchten Verkaufsrechnung werden die Kontrollkästchen **Storniert** und **Bezahlt** aktiviert. |
 | **Korrigieren** |Die gebuchte Verkaufsrechnung ist storniert. Eine neue Kundenrechnung mit denselben Informationen wird erstellt, es sei denn, der gebuchte Kundenauftrag wurde aus einem Kundenauftrag gebucht. In diesem Fall empfehlen wir Ihnen, stattdessen die gebuchte Verkaufsrechnung zu stornieren, die Korrektur vorzunehmen und den Verkaufsprozess vom ursprünglichen Kundenauftrag aus fortzusetzen. <br/><br/>Die neue Verkaufsrechnung hat eine andere Nummer als die erste Verkaufsrechnung. Eine Korrekturverkaufsgutschrift wird automatisch erstellt und gebucht, um die ursprüngliche gebuchte Verkaufsrechnung zu stornieren. In der ursprünglich gebuchten Verkaufsrechnung werden die Kontrollkästchen **Storniert** und **Bezahlt** aktiviert. |
+|**Korrekturgutschrift erstellen**|Eine neue Verkaufsgutschrift mit den gleichen Informationen wird erstellt. Sie können die neue Verkaufsgutschrift vor dem Buchen anpassen und sie wird beim Buchen auf die Originalrechnung angewendet. |
 
 Wenn Sie eine gebuchte Verkaufsrechnung korrigieren oder stornieren, wird sie in allen Sach- und Inventurposten angewendet, die erstellt wurden, als die erste Verkaufsrechnung gebucht wurde. Dadurch wird die gebuchte Verkaufsrechnung in Ihren Finanzdatensätzen storniert und verlässt die gebuchte Korrekturverkaufsgutschrift für Ihr Protokoll.  
 
 > [!TIP]
 > Wenn Sie eine Vorauszahlungsrechnung für eine Verkaufsrechnung gebucht haben, die Sie dann korrigieren oder stornieren, müssen Sie auch die Vorauszahlung korrigieren oder stornieren. Weitere Informationen finden Sie unter [Vorauszahlungen korrigieren](finance-how-to-correct-prepayments.md).
 
-## <a name="to-cancel-a-posted-sales-invoice"></a>Gebuchte Verkaufsrechnung stornieren
+## Gebuchte Verkaufsrechnung stornieren
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Gebuchte Verkaufsrechnungen** ein und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die gebuchte Verkaufsrechnung, die Sie stornieren möchten.
 
     > [!NOTE]  
-    >   Wenn Sie das Kontrollkästchen **Storniert** auswählen, dann können Sie die gebuchte Einkaufsrechnung nicht korrigieren, da sie bereits korrigiert wurde oder storniert wurde.
+    > Wenn Sie das Kontrollkästchen **Storniert** auswählen, können Sie die gebuchte Einkaufsrechnung nicht korrigieren, da sie bereits korrigiert oder storniert wurde.
 3. Auf der Seite **Gebuchte Verkaufsrechnung** wählen Sie **Abbrechen** aus.
 
     Eine Verkaufsgutschrift wird automatisch erstellt und gebucht, um die ursprüngliche gebuchte Verkaufsrechnung zu stornieren. Das Feld **Storniert** am Anfang gebuchten Verkaufsrechnung wird auf **Ja** geändert.
 4. Wählen Sie die Registerkarte **Korrekturgutschrift anzeigen** aus, um die gebuchte Verkaufsgutschrift anzuzeigen, die die gebuchte Verkaufsrechnung storniert.
 
-### <a name="partial-invoice-posting-also-supported"></a>Buchung von Teilrechnungen wird ebenfalls unterstützt
+### Buchung von Teilrechnungen wird ebenfalls unterstützt
 
 Wenn sich die Stornierung auf eine Rechnungsteilbuchung bezieht, wird die ursprüngliche Verkaufsauftragszeile aktualisiert, um die stornierte fakturierte Menge widerzuspiegeln. Die Felder **Zu fakturierende Menge** und **Fakturierte Menge** zur zugehörigen Verkaufsauftragszeile werden auf die Werte vor der Teilbuchung zurückgesetzt.
 
-## <a name="to-correct-a-posted-sales-invoice"></a>Gebuchte Verkaufsrechnung korrigieren
+## Gebuchte Verkaufsrechnung korrigieren
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Gebuchte Verkaufsrechnungen** ein und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die gebuchte Verkaufsrechnung, die Sie korrigieren möchten.
 
     > [!NOTE]  
-    >   Wenn Sie das Kontrollkästchen **Storniert** auswählen, dann können Sie die gebuchte Einkaufsrechnung nicht korrigieren, da sie bereits korrigiert wurde oder storniert wurde.
+    >   Wenn Sie das Kontrollkästchen **Storniert** auswählen, können Sie die gebuchte Einkaufsrechnung nicht korrigieren, da sie bereits korrigiert oder storniert wurde.
 3. Auf der Seite **Gebuchte Verkaufsrechnung** wählen Sie **Korrekt** aus.  
 
     > [!NOTE]
@@ -60,7 +62,7 @@ Wenn sich die Stornierung auf eine Rechnungsteilbuchung bezieht, wird die urspr�
     Eine Verkaufsgutschrift wird automatisch erstellt und gebucht, um die ursprüngliche gebuchte Verkaufsrechnung zu stornieren.
 5. Wählen Sie die Registerkarte **Korrekturgutschrift anzeigen** aus, um die gebuchte Verkaufsgutschrift anzuzeigen, die die gebuchte Verkaufsrechnung storniert.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Verkauf](sales-manage-sales.md)  
 [Einrichten von Verkäufen](sales-setup-sales.md)  

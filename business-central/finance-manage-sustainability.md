@@ -11,7 +11,7 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="sustainability-management-overview"></a>Nachhaltigkeitsverwaltung – Übersicht
+# Nachhaltigkeitsverwaltung – Übersicht
 
 >[!IMPORTANT]
 >Diese Funktion wird in Business Central ab **Veröffentlichungszyklus 1 2024** verfügbar sein und alle Referenzlinks werden aktiviert, sobald sie verfügbar sind.
@@ -43,7 +43,7 @@ Um mit der Nachhaltigkeitsverwaltung zu beginnen, lesen Sie die folgenden Artike
 |Vorgehensweise: Erfassen von Emissionen | In diesem Artikel erfahren Sie, wie Sie mit allen Arten von Nachhaltigkeitserfassungen arbeiten. |
 
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch  
 [Finanzen](finance.md)    
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

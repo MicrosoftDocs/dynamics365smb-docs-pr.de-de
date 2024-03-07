@@ -7,11 +7,11 @@ ms.reviewer: ivkoleti
 ms.topic: conceptual
 ms.search.keywords: 'posting setup, initialize'
 ms.search.form: '312, 313'
-ms.date: 12/21/2023
+ms.date: 02/23/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-posting-groups"></a>Buchungsgruppen einrichten
+# Buchungsgruppen einrichten
 
 Buchungsgruppen bilden Entitäten auf Hauptbuchkonten ab. Beispiele für Entitäten sind Debitoren, Kreditoren, Artikel, Ressourcen sowie Verkaufs- und Einkaufsdokumente. Buchungsgruppen sparen Zeit und helfen, Fehler zu vermeiden, wenn Sie Transaktionen buchen. Die Umsatzwerte wechseln zu den Konten, die in der Buchungsgruppe für diese bestimmte Einheit angegeben werden. Die einzige Anforderung ist, dass Sie einen Kontenplan haben. Weitere Informationen finden Sie unter [Einrichten des Kontenplans](finance-setup-chart-accounts.md).  
 
@@ -29,7 +29,7 @@ Buchungsgruppen werden unter drei Schlüsseln abgedeckt:
 
 In den folgenden Abschnitten werden die Buchungsgruppen nach Schlüsseln beschrieben.  
 
-## <a name="general-posting-groups"></a>Allgemeine Buchungsgruppen
+## Allgemeine Buchungsgruppen
 
 In der folgenden Tabelle werden die allgemeinen Buchungsgruppen beschrieben.
 
@@ -39,7 +39,7 @@ In der folgenden Tabelle werden die allgemeinen Buchungsgruppen beschrieben.
 | Allgemeine Produktbuchungsgruppen |Weisen Sie diese Gruppe Artikeln und Ressourcen zu, um festzulegen, was Sie verkaufen und was Sie kaufen. Richten Sie diese Buchungsgruppen auf der Seite **Produktbuchungsgruppen** ein. Wenn Sie dies tun, berücksichtigen Sie die Gruppen, in die Sie Verkäufe nach Produkt (Artikel und Ressourcen) und Verkäufe nach Artikeln aufschlüsseln müssen. Beispielsweise teilen Sie diese Gruppen nach Rohmaterial, Einzelhandel, Ressourcen, Kapazität, usw. auf. |
 | Buchungsmatrix Einrichtung |Kombinieren von Geschäfts- und Produktbuchungsgruppen, und aktivieren Sie die Konten, um zu buchen. Jeder Kombination aus Geschäfts- und Produktbuchungsgruppen können Sie einen anderen Satz von Sachkonten zuweisen. Sie können z. B. den Verkauf desselben Artikels auf verschiedene Hauptbuchkonten buchen, da die Kunden verschiedenen Geschäftsbuchungsgruppen zugeordnet sind. Richten Sie diese Konfigurationen auf der Seite **Buchungsmatrix Einrichtung** ein. |
 
-## <a name="specific-posting-groups"></a>Spezielle Buchungsgruppen
+## Spezielle Buchungsgruppen
 
 In der folgenden Tabelle werden die Buchungsgruppen beschrieben, die sich auf bestimmte Datentypen beziehen.
 
@@ -51,7 +51,7 @@ In der folgenden Tabelle werden die Buchungsgruppen beschrieben, die sich auf be
 | Bankkontobuchungsgruppen |Definieren Sie die Sachkonten, in die Bankkontoposten gebucht werden. Beispielsweise kann dies die Vorgänge für die Nachverfolgung von Transaktions- und Ausgleichsbankonten vereinfachen, Richten Sie diese Buchungsgruppen auf der Seite **Bankkonto-Buchungsgruppen** ein. Wir empfehlen, das Feld **Direktbuchung** dieser Sachkonten auf *Nein* festzulegen. |
 | Anlagenbuchungsgruppen |Sie legen die Konten für die Anschaffungskosten, die kumulierten Abschreibungsbeträge, die Anschaffungskosten bei Verkauf, die kumulierte Abschreibung bei Verkauf, den Gewinn bei Verkauf, den Wartungsaufwand und den Abschreibungsaufwand fest. Richten Sie diese Buchungsgruppen auf der Seite **Anlagenbuchungsgruppen** ein. |
 
-### <a name="allow-substitute-customer-or-vendor-posting-groups-on-documents"></a>Ersatzbuchungsgruppen für Debitoren oder Kreditoren in Belegen zulassen
+### Ersatzbuchungsgruppen für Debitoren oder Kreditoren in Belegen zulassen
 
 Sie können Benutzenden erlauben, andere Debitoren- und Kreditorenbuchungsgruppen als die Standardgruppen auszuwählen, wenn sie mit Verkaufs- oder Einkaufsdokumenten und Erfassungen arbeiten.
 
@@ -63,7 +63,7 @@ Nachdem Sie dies eingerichtet haben, können Sie aus den zulässigen Ersatzbuchu
 
 Wenn Sie beispielsweise eine Rechnung und eine Zahlung anwenden, die mit unterschiedlichen Debitoren- oder Kreditorenbuchungsgruppen (unterschiedliche Sachkonten) gebucht werden, überträgt [!INCLUDE[prod_short](includes/prod_short.md)] die Beträge zwischen den Sachkonten, um sie auszugleichen.
 
-## <a name="tax-posting-groups"></a>Steuerbuchungsgruppen
+## Steuerbuchungsgruppen
 
 In der folgenden Tabelle werden die steuerbezogenen Buchungsgruppen beschrieben.
 
@@ -75,7 +75,7 @@ In der folgenden Tabelle werden die steuerbezogenen Buchungsgruppen beschrieben.
 
 Wenn Ihr Land/Ihre Region Mehrwertsteuer (MwSt.) erhebt, finden Sie Informationen unter [Berechnungen und Buchungsmethoden für die Mehrwertsteuer festlegen](finance-setup-vat.md).  
 
-## <a name="example-of-linking-posting-groups"></a>Beispiel für die Verknüpfung von Buchungsgruppen
+## Beispiel für die Verknüpfung von Buchungsgruppen
 
 Hier ist ein Szenario.  
 
@@ -98,11 +98,11 @@ Wenn ein Verkaufsbeleg erstellt wird, werden die Informationen auf der Debitoren
 
 Ihre Einrichtung legt fest, wann die Buchung erfolgt. Beispielsweise wird die zeitliche Steuerung tangiert, wenn Sie "Periodische Aktivitäten" durchführen, wie Buchungslagerkosten oder Anpassung von Kostenfaktorposten.
 
-## <a name="copy-posting-setup-lines"></a>Buchungsmatrix-Einrichtungszeilen kopieren
+## Buchungsmatrix-Einrichtungszeilen kopieren
 
 Je mehr Produkt- und Geschäftsbuchungsgruppen vorhanden sind, um so mehr Zeilen werden auf der Seite **Buchungsmatrix Einrichtung** angezeigt. Während unter Umständen viele verschiedene Kombinationen von Geschäfts- und Produktbuchungsgruppen vorhanden sind, buchen möglicherweise unterschiedliche Kombinationen weiterhin auf dieselben Sachkonten. Um den Umfang der erforderlichen manuellen Dateneingabe einzuschränken, kopieren Sie die Sachkonten aus einer vorhandenen Zeile auf der Seite **Buchungsmatrix Einrichtung.**
 
-## <a name="set-up-posting-groups-on-the-go"></a>Buchungsgruppen von unterwegs aus festlegen
+## Buchungsgruppen von unterwegs aus festlegen
 
 Um den Benutzern einen schnelleren Einstieg zu ermöglichen, kann [!INCLUDE[prod_short](includes/prod_short.md)] Benachrichtigungen über fehlende Sachkonten in verschiedenen Buchungsgruppen-Einrichtungen anzeigen. Um diese Benachrichtigungen zu erhalten, stellen Sie sicher, dass die Benachrichtigung **Sachkonto fehlt in Buchungsgruppe oder Einrichtung** auf der Seite **Meine Benachrichtigungen** ausgewählt ist, auf die Sie über das Feld **Ändern, wenn ich Benachrichtigungen erhalte** auf der Seite **Meine Einstellungen** zugreifen können.  
 
@@ -111,11 +111,23 @@ Auf diese Weise erhalten Sie eine Benachrichtigung, wenn Sie an einem Beleg arbe
 > [!NOTE]
 > Um Sie direkt zu der Buchungsgruppe oder Einrichtung zu führen, in der ein Hauptbuchkonto fehlt, erstellt [!INCLUDE[prod_short](includes/prod_short.md)] eine Platzhalter-Buchungsgruppe oder Einrichtung. Buchungsgruppen und -einstellungen sind eine Möglichkeit für den Buchhalter zu steuern, wie Buchungen in das Allgemeine Hauptbuch gebucht werden, so dass eine solche Just-in-Time-Erstellung von Buchungsgruppen und -einstellungen in Ihrem Unternehmen möglicherweise nicht zugelassen ist.  
 >
-> Deaktivieren Sie in diesem Fall die Meldung *Sachkonto fehlt in Buchungsgruppe oder Einrichtung* und nehmen Sie dann gemeinsam mit Ihrem Buchhalter die entsprechenden Änderungen an der Buchungsgruppe, der Einrichtung oder Ihrem Beleg vor. Dies ist ein wichtiger Schritt, denn sobald Belege gebucht sind, können falsch verwendete Buchungsgruppen oder Einrichtungen nicht mehr gelöscht werden, da für sie Hauptbucheinträge erstellt wurden.
+> Deaktivieren Sie in diesem Fall die Meldung *Sachkonto fehlt in Buchungsgruppe oder Einrichtung* und nehmen Sie dann gemeinsam mit Ihrem Buchhalter die entsprechenden Änderungen an der Buchungsgruppe, der Einrichtung oder Ihrem Beleg vor. Dies ist ein wichtiger Schritt, denn nachdem Belege gebucht sind, können Sie falsch verwendete Buchungsgruppen oder Einrichtungen nicht mehr löschen, da für sie Hauptbucheinträge erstellt wurden.
 
-Ab dem 1. Veröffentlichungszyklus 2022 können Sie das **Gesperrt**-Feld auf der Seite **Buchungsmatrix Einrichtung** verwenden, um zu verhindern, dass Benutzer versehentlich ein Setup verwenden, das für neue Buchungen nicht mehr relevant ist.  
+Verwenden Sie das **Gesperrt**-Feld auf der Seite **Buchungsmatrix Einrichtung** verwenden, um zu verhindern, dass Benutzende versehentlich ein Setup verwenden, das für neue Buchungen nicht mehr relevant ist. 
 
-## <a name="troubleshooting-posting-group-errors"></a>Problembehandlung von Fehlern bei Buchungsgruppen
+## Beim Einrichten einer Buchungsgruppe auf alle Felder und Konten zugreifen  
+
+Das Einrichten von Beitragsgruppen kann komplex sein. Da einige Kontotypen nicht häufig verwendet werden, werden sie in [!INCLUDE [prod_short](includes/prod_short.md)] nicht als Spalten in den Zeilen angezeigt. Um die Auswahl der richtigen Konten etwas einfacher zu machen, filtert [!INCLUDE [prod_short](includes/prod_short.md)] außerdem die Konten, die Sie in Feldsuchen auswählen können. 
+
+Wenn Sie auf alle Konten in den Zeilen- und Feldsuchen zugreifen möchten, können einige Einstellungen hilfreich sein:
+
+* Um alle Konten als Spalten in den Zeilen anzuzeigen, aktivieren Sie den Umschalter **Alle Konten anzeigen**.
+* Um in einzelnen Zeilen auf alle Konten in den Feldsuchen zuzugreifen, aktivieren Sie das Kontrollkästchen **Alle Konten bei der Suche anzeigen**.
+
+> [!NOTE]
+> Der Umschalter **Alle Konten anzeigen** funktioniert möglicherweise auf der Seite **Buchungsmatrix Einrichtung** nicht. Das liegt daran, dass [!INCLUDE [prod_short](includes/prod_short.md)] alle Konten immer als Spalten in den Zeilen auf dieser Seite anzeigt.
+
+## Problembehandlung von Fehlern bei Buchungsgruppen
 
 Buchungsgruppen sind eines der fortgeschritteneren Konzepte, die Sie in [!INCLUDE[prod_short](includes/prod_short.md)] festlegen können. Wenn sie nicht korrekt eingerichtet sind, können beim Buchen von Belegen oder Buchungsblattzeilen Fehler auftreten. Diese Fehler werden in der Regel durch einen Fehler bei der Zuordnung von Hauptbuch-Konten oder bei der Kombination von Buchungsgruppen verursacht.
 
@@ -124,7 +136,7 @@ Wenn etwas nicht stimmt, zeigt [!INCLUDE[prod_short](includes/prod_short.md)] di
 > [!NOTE]
 > Die oben beschriebene Fehlerbehandlung ist nicht verfügbar für Artikel-, Ressourcen-, Mitarbeiter- und Anlage-Fibu Buch.-Blätter oder für Sachkonten, die in lokalen Versionen von Buchungsgruppen hinzugefügt wurden.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Die Finanzbuchhaltung und der Kontenplan](finance-general-ledger.md)  
 [Finanzen einrichten](finance-setup-finance.md)  
