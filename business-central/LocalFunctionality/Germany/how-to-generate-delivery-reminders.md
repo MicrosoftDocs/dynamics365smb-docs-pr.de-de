@@ -9,11 +9,11 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Lieferanmahnungen in der deutschen Version generieren
+# <a name="generate-delivery-reminders-in-the-german-version"></a>Lieferanmahnungen in der deutschen Version generieren
 
 [!INCLUDE [delivery-reminders-generate](../includes/ATCHDE/delivery-reminders-generate.md)]
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [So erstellen Sie Lieferbenachrichtungen manuell](how-to-create-delivery-reminders-manually.md)  
 [Gewusst wie: Einrichten von Lieferbenachrichtigungen](how-to-set-up-delivery-reminders.md)  
