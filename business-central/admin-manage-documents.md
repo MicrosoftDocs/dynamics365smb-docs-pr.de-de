@@ -8,14 +8,14 @@ ms.date: 09/14/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="manage-storage-by-deleting-documents-or-compressing-data"></a>Verwalten von Speicher durch das Löschen von Dokumenten oder Datenkomprimierung
+# Verwalten von Speicher durch das Löschen von Dokumenten oder Datenkomprimierung
 
 Ein Benutzer mit einer zentralen Rolle, z. B. der Anwendungsadministrator, muss sich regelmäßig um die angesammelten historischen Belege kümmern, indem er diese löscht oder komprimiert.  
 
 > [!TIP]
 > Erfahren Sie mehr über andere Möglichkeiten, die Menge der in einer Datenbank gespeicherten Daten zu reduzieren. Lesen Sie dazu [Reduzierung der in Business Central Datenbanken gespeicherten Daten](/dynamics365/business-central/dev-itpro/administration/database-reduce-data) in unserer Dokumentation für Entwickler und IT-Profis.
 
-## <a name="delete-documents"></a>Löschen von Belegen
+## Löschen von Belegen
 
 In bestimmten Situationen kann es erforderlich sein, dass Sie fakturierte Bestellungen löschen müssen. Sie können sie jedoch erst löschen, wenn Sie die Artikel in den Bestellungen vollständig in Rechnung gestellt und erhalten haben. [!INCLUDE[prod_short](includes/prod_short.md)] hilft Ihnen, dies zu überprüfen.
 
@@ -27,7 +27,7 @@ Fakturierte Serviceaufträge werden in der Regel automatisch gelöscht, nachdem 
 
 Serviceaufträge werden jedoch nicht automatisch gelöscht, wenn die Gesamtmenge des Auftrags von der Seite **Gebuchte Servicerechnungen** und nicht vom Serviceauftrag selbst gebucht wurde. Sie müssen solche fakturierten Aufträge möglicherweise manuell löschen, indem Sie den Batchauftrag **Fakturierte Serviceaufträge löschen** ausführen.  
 
-## <a name="compress-data-with-date-compression"></a>Daten mit Datumskomprimierung komprimieren
+## Daten mit Datumskomprimierung komprimieren
 
 Sie können Daten in [!INCLUDE [prod_short](includes/prod_short.md)] komprimieren, um Platz in der Datenbank zu sparen, was Ihnen in [!INCLUDE [prod_short](includes/prod_short.md)] online sogar Geld sparen kann. Die Komprimierung, die auf Daten und Funktionen basiert, fasst mehrere alte Einträge zu einem neuen Eintrag zusammen.
 
@@ -56,7 +56,7 @@ Wenn Sie Kriterien für die Komprimierung festlegen, können Sie den Inhalt best
 
 Nach der Komprimierung werden die Inhalte der folgenden Felder in jedem Fall beibehalten: **Buchungsdatum**, **Kreditorennr.**, **Belegart**, **Währungscode**, **Buchungsgruppe**, **Betrag**, **Restbetrag**, **Ursprungsbetrag (MW)**, **Restbetrag (MW)**, **Betrag (MW)**, **Einkauf (MW)**, **Rechnungsrabatt (MW)**, **Skonto gewährt (MW)** und **Skonto möglich**.
 
-## <a name="posting-compressed-entries"></a>Komprimierte Buchungen buchen
+## Komprimierte Buchungen buchen
 
 Komprimierte Einträge werden etwas anders gebucht als Standardbuchungen. Dies dient dazu, die Anzahl der durch die Datumskomprimierung erstellten neuen Sachposten zu verringern. Dies ist besonders wichtig, wenn Sie Informationen wie Abmessungen und Belegnummern aufbewahren. Durch die Datumskomprimierung werden neue Einträge wie folgt erstellt:
 
@@ -73,7 +73,7 @@ Die Anzahl der Einträge, die sich aus einer Datumsverdichtung ergeben, hängt d
 > [!WARNING]
 > Die Datumskomprimierung löscht Posten. Daher sollten Sie immer eine Datensicherung der Datenbank durchführen, bevor Sie die Stapelverarbeitung ausführen.
 
-### <a name="to-run-a-date-compression"></a>So führen Sie eine Datumskomprimierung aus
+### So führen Sie eine Datumskomprimierung aus
 
 1. Wählen Sie das Symbol ![Suche nach Seite oder Bericht](media/ui-search/search_small.png "Suche nach dem Symbol für Seite oder Bericht"), geben Sie **Datenverwaltung** ein und wählen Sie dann den entsprechenden Link.
 2. Führen Sie einen der folgenden Schritte aus:
@@ -84,7 +84,7 @@ Die Anzahl der Einträge, die sich aus einer Datumsverdichtung ergeben, hängt d
    > Sie können nur Daten komprimieren, die älter als fünf Jahre sind. Wenn Sie Daten komprimieren möchten, die weniger als fünf Jahre alt sind, wenden Sie sich an Ihren Microsoft-Partner. Sie müssen das `OnSetMinimumNumberOfYearsToKeep`-Ereignis in der „Datumskomprimierung“-codeunit verwenden, um den Schwellenwert festzulegen.
 
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Verwaltung](admin-setup-and-administration.md)  
 

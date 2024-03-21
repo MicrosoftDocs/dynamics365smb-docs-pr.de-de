@@ -11,7 +11,7 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="set-up-e-documents"></a>E-Belege einrichten
+# E-Belege einrichten
 
 > [!IMPORTANT]
 > Das E-Beleg-Kernmodul ist ein Framework. Standardmäßig gibt es kein Feld **Dienstintegration**. Wenn Sie standardmäßig die **Belegformat**-Optionen finden, beachten Sie, dass diese als Beispiel angeboten werden und dass die Lokalisierung ein detailliertes Format bereitstellen muss. Diese Details gehören zu Lokalisierungs-Apps, da sie für lokale Anforderungen spezifisch sind.
@@ -21,7 +21,7 @@ ms.service: dynamics-365-business-central
 
 Der erste Schritt bei der Konfiguration elektronischer Belege (E-Beleg) besteht in der Einrichtung des E-Beleg-Dienstes, in dem Sie das gesamte Verhalten Ihres Systems in Bezug auf die E-Beleg-Kommunikation konfigurieren.
 
-## <a name="set-up-the-e-document-service"></a>Den E-Beleg-Dienst einrichten
+## Den E-Beleg-Dienst einrichten
 
 Gehen Sie wie folgt vor, um den E-Beleg-Dienst einzurichten.
 
@@ -71,11 +71,11 @@ Wenn Sie das **Datenaustauschdefinition**-Format in Ihrer Lokalisierung konfigur
 
 Wenn Sie das Format **Datenaustauschdefinition** nicht verwenden, können Sie Formate mithilfe der [Schnittstelle](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments) erstellen und konfigurieren. Passen Sie die Informationen in den Zeilen **Exportzuordnung** und **Importzuordnung** an, in denen Sie die Tabellen und Felder zur Konfiguration von Transformationsregeln finden. In diesem Fall müssen Sie im Feld **Dokumentformat** eine neue Option hinzufügen, die sich auf Ihr Format bezieht.  
 
-### <a name="supported-document-types"></a>Unterstützte Belegtypen
+### Unterstützte Belegtypen 
 
 Unterstützte Dokumenttypen basieren auf dem ausgewählten **Belegformat**. Um zu überprüfen, welche Belegtypen unterstützt werden, führen Sie auf der Seite **E-Belegdienst** die Aktion **Unterstützte Belegtypen** aus. Die **Unterstützten Quellbelegtypen des E-Belegdienstes** öffnet sich und in der Spalte **Quellbelegtyp** finden Sie alle die unterstützten Belegtypen.  
 
-## <a name="set-up-a-document-sending-profile"></a>Ein Belegsendeprofil einrichten
+## Ein Belegsendeprofil einrichten
 
 Sie können für jeden Debitor eine bevorzugte Methode zum Senden von Verkaufsbelegen einrichten. so müssen Sie nicht jedes Mal eine Sendeoption auswählen, wenn Sie die Aktion **Buchen und senden** auswählen. Auf der Seite **Belegsendeprofile** können Sie verschiedene Sendeprofile einrichten und dann Ihre Auswahl aus den **Belegsendeprofilen** auf der Debitorenkarte treffen. Im Kontrollkästchen **Standard** können Sie auswählen, dass das Belegsendeprofil das Standardprofil für alle Debitoren gilt, außer Debitoren, bei denen das Feld **Belegsendeprofil** auf ein anderes Sendeprofil eingestellt ist.
 
@@ -97,7 +97,7 @@ Gehen Sie wie folgt vor, um ein Belegsendeprofil einzurichten.
     > [!NOTE]
     > Wenn Sie **Erweiterter E-Beleg-Serviceflow** im Feld **Elektronischer Beleg** auswählen, muss der Workflow bereits für Ihre E-Belege konfiguriert sein.
 
-## <a name="set-up-the-workflow"></a>Den Workflow einrichten
+## Den Workflow einrichten
 
 Gehen Sie wie folgt vor, um den Workflow einzurichten, der in der E-Beleg-Funktionalität verwendet wird.
 
@@ -116,7 +116,7 @@ Um weitere Workflows zu nutzen, konfigurieren Sie diese über die Belegsendeprof
 
 Wenn Sie Ihren Workflow auf der Seite **Workflow** konfigurieren, zeigen Sie auf das Feld **Bei Bedingung** auf dem Inforegister **Workflowschritte**. Wählen Sie auf der Seite **Ereignisbedingungen** im Feld **Filter** das Belegsendeprofil aus, das Sie verwenden möchten.
 
-## <a name="set-up-a-retention-policy-for-e-documents"></a>Richten Sie eine Aufbewahrungsrichtlinie für E-Belege ein
+## Richten Sie eine Aufbewahrungsrichtlinie für E-Belege ein
 
 E-Belege können im Hinblick darauf, wie lange die E-Belege aufbewahrt werden müssen, verschiedenen lokalen Gesetzen unterliegen. Aus diesem Grund haben wir eine Aufbewahrungsrichtlinie für alle wichtigen Informationen im Zusammenhang mit E-Belegen hinzugefügt. Administrierende können Aufbewahrungsrichtlinien festlegen, die bestimmen, wie häufig Dynamics 365 Business Central veraltete Datensätze im Zusammenhang mit E-Belegen gelöscht werden. Weitere Informationen zu Aufbewahrungsrichtlinien finden Sie unter [Aufbewahrungsrichtlinien definieren](admin-data-retention-policies.md).
 
@@ -130,7 +130,7 @@ Führen Sie die folgenden Schritte aus, um Aufbewahrungsrichtlinien für E-Beleg
     - E-Beleg-Zuordnungsprotokoll
     - E-Beleg-Datenspeicherung
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [E-Belege in Business Central verwenden](finance-how-use-edocuments.md)  
 [E-Belege in Business Central erweitern](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)  

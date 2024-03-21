@@ -11,7 +11,7 @@ ms-service: dynamics-365-business-central
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# <a name="create-incoming-document-records-directly-from-documents-and-entries"></a>Datensätze für eingehende Belege aus Belegen und Posten direkt erstellen
+# Datensätze für eingehende Belege aus Belegen und Posten direkt erstellen
 
 Sie können externe Geschäftsdokumente in [!INCLUDE[prod_short](includes/prod_short.md)] speichern, indem Sie die Dokumentdateien mit den entsprechenden eingehenden Belegen verknüpfen. Wenn das Dokument, z.B. eine Einkaufsrechnung, nicht als Datensatz für ein eingehendes Dokument erstellt wurde, können Sie auch später noch einen Datensatz für ein eingehendes Dokument erstellen und mit diesem verbinden. Sie können eingehende Belege auch an gebuchte Einkaufs- und Verkaufsbelege und an Kreditor-, Debitor- und Sachposten anfügen, indem Sie die Infobox **eingehende Belege** verwenden, zum Beispiel auf der Seite **Geb. Einkaufsrechnungen** und **Kreditorenposten**.
 
@@ -19,7 +19,7 @@ Auf den Seiten **Kontenplan** und **Hauptbucheinträge** können Sie eine Suchfu
 
 Die folgenden Prozeduren zeigen, wie Sie eine Datei an ein Kreditorenposten-Sachkonto oder eine bestehende Einkaufsrechnung anhängen, die nicht aus einem Datensatz für eingehende Dokumente erstellt wurde. Das Anfügen einer Datei an gebuchte Einkaufs- oder Verkaufsdokumenten erfolgt auf ähnliche Weise.
 
-## <a name="create-and-connect-an-incoming-document-record-from-a-purchase-invoice"></a>Einen Datensatz für einen eingehenden Beleg anhand einer Einkaufsrechnung erstellen und verknüpfen
+## Einen Datensatz für einen eingehenden Beleg anhand einer Einkaufsrechnung erstellen und verknüpfen
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Einkaufsrechnungen** ein, und wählen Sie dann den zugehörigen Link.
 2. Markieren Sie die Zeile für eine Einkaufsrechnung, der Sie eine Datei anfügen möchten, und wählen dann die Aktion **Eingehenden Beleg aus Datei erstellen**.
@@ -29,7 +29,7 @@ Die folgenden Prozeduren zeigen, wie Sie eine Datei an ein Kreditorenposten-Sach
    [!INCLUDE[file-upload](includes/file-upload.md)]
 
 
-## <a name="create-and-connect-an-incoming-document-record-from-a-vendor-ledger-entry"></a>Einen Datensatz für einen eingehenden Beleg aus einem Kreditorenposten erstellen und verknüpfen
+## Einen Datensatz für einen eingehenden Beleg aus einem Kreditorenposten erstellen und verknüpfen
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Kreditorenposten** ein, und wählen Sie dann den zugehörigen Link.
 2. Markieren Sie eine Zeile für einen Kreditorenposten, dem Sie eine Datei anfügen möchten, und wählen dann die Aktion **Eingehenden Beleg aus Datei erstellen**.
@@ -39,7 +39,7 @@ Die folgenden Prozeduren zeigen, wie Sie eine Datei an ein Kreditorenposten-Sach
    [!INCLUDE[file-upload](includes/file-upload.md)]
 
 
-## <a name="remove-a-connection-from-an-incoming-document-record-to-a-posted-document"></a>Eine Verknüpfung von einem Datensatz für einen eingehenden Beleg zu einem gebuchten Beleg entfernen
+## Eine Verknüpfung von einem Datensatz für einen eingehenden Beleg zu einem gebuchten Beleg entfernen
 
 Sie können Dateianhänge von nicht-gebuchten Belegen jederzeit entfernen, indem Sie den entsprechenden eingehenden Beleg löschen. Wenn der Beleg gebucht ist, müssen Sie zuerst die Verknüpfung vom eingehenden Beleg entfernen.
 
@@ -48,7 +48,7 @@ Sie können Dateianhänge von nicht-gebuchten Belegen jederzeit entfernen, indem
 
 Die Verbindung zum gebuchten Beleg wird entfernt. Sie können nun damit fortfahren, einen weiteren Datensatz für eingehende Dokumente mit dem gebuchten Dokument zu verbinden, wie in diesem Artikel beschrieben.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Erstellen von Datensätzen für Eingehende Belege](across-how-create-income-document-records.md)
 [Verwenden Sie OCR, um PDF- und Bilddateien in elektronische Belege zu verwandeln](across-how-use-ocr-pdf-images-files.md)

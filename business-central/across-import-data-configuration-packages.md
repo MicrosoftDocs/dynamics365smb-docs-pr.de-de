@@ -9,7 +9,7 @@ ms.date: 05/10/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="import-business-data-from-other-finance-systems"></a>Geschäftsdaten aus anderen Finanzsystemen importieren
+# Geschäftsdaten aus anderen Finanzsystemen importieren
 
 Wenn Sie sich bei [!INCLUDE[prod_short](includes/prod_short.md)] anmelden, können Sie auswählen, einen leeren Mandanten zu erstellen, sodass Sie Ihre eigenen Daten hochladen und den neuen Projektmandanten in [!INCLUDE[prod_short](includes/prod_short.md)] testen können. Abhängig von der Finanzlösung, die Ihr Unternehmen heute verwendet, können Sie Informationen zu Debitoren, Kreditoren, Lagerbestand und Bankkonten vornehmen.  
 
@@ -20,11 +20,11 @@ Vom Rollencenter aus können Sie eine unterstützte Einrichtung vornehmen, mit d
 > [!TIP]  
 > Es ist empfehlenswert, dass Sie den Datenmigrationsassistenten nutzen, um die Daten aus Dynamics GP, Dynamics NAV oder QuickBooks zu importieren. Weitere Informationen finden Sie im Verwaltungsinhalt unter [Lokale Daten zu Business Central Online migrieren](/dynamics365/business-central/dev-itpro/administration/migrate-data) oder [QuickBooks Datenmigration](ui-extensions-quickbooks-data-migration.md).
 
-## <a name="work-with-data-in-excel"></a>Mit Daten in Excel arbeiten
+## Mit Daten in Excel arbeiten
 
 Sie können das Excel-Add-In verwenden, um vorhandene Inhalte zur Verwendung in [!INCLUDE [prod_short](includes/prod_short.md)] vorzubereiten. Weitere Informationen finden Sie unter [Anzeigen und Bearbeiten in Excel von Business Central](across-work-with-excel.md).  
 
-## <a name="import-data-from-configuration-packages"></a>Daten aus den Konfigurationspaketen importieren
+## Daten aus den Konfigurationspaketen importieren
 
 Für größere Implementierungsarbeiten können Sie lösungsspezifische Konfigurationspakete erstellen. Weitere Informationen finden Sie unter [Einrichten von Unternehmenskonfigurationspaketen](/dynamics365/business-central/dev-itpro/administration/set-up-standard-company-configuration-packages) (nur in englischer Sprache) in den Verwaltungsinhalten.  
 
@@ -41,7 +41,7 @@ Wenn Sie das Standardkonfigurationspaket in Excel exportieren, enthält das gene
 > [!NOTE]
 > Felder vom Typ Blob können nicht mithilfe von Excel exportiert/importiert werden.
 
-### <a name="tables-in-the-default-configuration-package"></a>Tabellen im Standard-Konfigurations-Paket
+### Tabellen im Standard-Konfigurations-Paket
 
 Das Standardkonfigurationspaket unterstützt die folgenden Tabellen:
 
@@ -72,7 +72,7 @@ Das Standardkonfigurationspaket unterstützt die folgenden Tabellen:
 - Verkaufspreis
 - Einkaufspreis
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Migrieren lokaler Daten zu Business Central Online (nur in englischer Sprache)](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
 [Unternehmenskonfigurationpakete einrichten](/dynamics365/business-central/dev-itpro/administration/set-up-standard-company-configuration-packages)  

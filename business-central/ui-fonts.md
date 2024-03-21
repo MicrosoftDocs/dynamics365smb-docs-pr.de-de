@@ -10,14 +10,14 @@ ms.date: 11/30/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="available-fonts"></a>Verfügbare Schriftarten
+# Verfügbare Schriftarten
 
 Die Onlineversion von [!INCLUDE[prod_short](includes/prod_short.md)] enthält vorinstallierte Schriftarten auf den Servern, die beim Generieren von Berichten verwendet werden können. In den folgenden Abschnitten wird erläutert, welche Schriftarten verfügbar sind.
 
 > [!NOTE]
 > Aus Sicherheits- und rechtlichen Gründen können Sie keine benutzerdefinierten Schriftarten in die [!INCLUDE[prod_short](includes/prod_short.md)]-Umgebung hochladen.
 
-## <a name="document-fonts"></a>Dokumentschriftarten
+## Dokumentschriftarten
 
 Die folgenden Schriftarten sind installiert und können in Excel-, Word- und RDLC-Berichtlayouts verwendet werden:
  
@@ -156,7 +156,7 @@ Die folgenden Schriftarten sind installiert und können in Excel-, Word- und RDL
 * Yu Gothic UI Semibold
 * Yu Gothic UI Semilight
 
-## <a name="fonts-for-checks"></a>Schriftarten für Schecks
+## Schriftarten für Schecks
 
 MICR-Schriftarten (Magnetic Ink Character Recognition) sind installiert und können verwendet werden. Es werden sowohl der E-13B- als auch der CMC-7-Standard unterstützt.  
 
@@ -164,7 +164,7 @@ Zusätzlich zu MICR-Schriftarten stehen spezielle Sicherheitsschriftarten zur Ve
 
 Weitere Informationen finden Sie unter [Scheck-Layout auswählen](finance-how-define-check-layouts.md).  
 
-## <a name="fonts-for-barcodes"></a>Schriftarten für Barcodes
+## Schriftarten für Barcodes
 Schriftarten zum Generieren von Barcodes sind installiert und können sowohl in Word- als auch in RDLC-Berichtslayouts verwendet werden.
 
 Die folgenden eindimensionalen Barcode-Symbologien werden unterstützt:
@@ -184,7 +184,7 @@ Die folgenden zweidimensionalen Barcode-Symbologien werden unterstützt:
 
 Weitere Informationen finden Sie unter [Barcode-Schriftarten mit Business Central Online](/dynamics365/business-central/dev-itpro/developer/devenv-report-barcode-fonts).
 
-## <a name="see-also"></a>Weitere Informationen
+## Weitere Informationen
 
 [Verwalten von Berichtslayouts](ui-manage-report-layouts.md)  
 [Ein Prüflayout auswählen](finance-how-define-check-layouts.md)  

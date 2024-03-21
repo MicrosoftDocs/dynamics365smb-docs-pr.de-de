@@ -9,7 +9,7 @@ ms.date: 06/15/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="design-details-posting-interface-structure"></a>Designdetails: Buchungs-Schnittstellenstruktur
+# Designdetails: Buchungs-Schnittstellenstruktur
 In [!INCLUDE[prod_short](includes/prod_short.md)]-Buchungsschnittstellenstruktur gibt es mehrere globale Verfahren, die dieselbe Struktur verwenden:  
   
 * Anrufprozedurcode RunWithCheck und RunWithoutCheck - generische Buchungsschnittstelle für Gen. Buch.-Blattzeile.  
@@ -18,7 +18,7 @@ In [!INCLUDE[prod_short](includes/prod_short.md)]-Buchungsschnittstellenstruktur
 * UnapplyCustLedgEntry - Buchen von Debitoren-Anwendung rückgängig machen, aufgerufen aus Codeunit 226 CustEntry-Gebuchte Posten übernehmen.  
 * UnapplyVendLedgEntry - Buchen von Kreditoren-Anwendung rückgängig machen, aufgerufen aus Codeunit 227 VendEntry-Gebuchte Posten übernehmen.  
   
-## <a name="see-also"></a>Siehe auch
+## Siehe auch  
 [Designdetails: Buchungs-Modul-Struktur](design-details-posting-engine-structure.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -10,12 +10,12 @@ ms.date: 04/01/2021
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
-# <a name="closing-the-books"></a>Bucher schließen
+# Bucher schließen
 Nachdem sichergestellt wurde, dass sich alle Konten auf dem neuesten Stand befinden und Kosten und Umsatz verteilt wurden, können die Bücher für ein Geschäftsjahr oder für eine Periode abgeschlossen werden.
 
 Ein Jahresabschluss muss nicht zwingend durchgeführt werden, erleichtert Ihnen aber die Arbeit im System, da Sie auf diese Weise die Vorteile der benutzerfreundlichen Filteroptionen nutzen können. Es besteht auch kein Anlass zur Sorge, dass beim Jahresabschluss Details der Transaktionen verloren gehen, da alle Details auch nach Abschluss eines Jahrs beibehalten werden.
 
-## <a name="closing-book-process"></a>Prozess zum Abschließen der Bücher
+## Prozess zum Abschließen der Bücher
 Der Prozess für den Abschluss der Bücher umfasst diese Hauptaufgaben:
 
 1. Abschließen der Buchhaltungsperiode.
@@ -37,14 +37,14 @@ Der Prozess für den Abschluss der Bücher umfasst diese Hauptaufgaben:
 
     Weitere Informationen finden Sie unter [Buchen von Jahresabschlussposten](year-how-post-year-end-close-entry.md).
 
-## <a name="what-happens-when-you-close"></a>Was erfolgt, wenn Sie abschließen
+## Was erfolgt, wenn Sie abschließen
 Wenn Sie am Ende des Jahres den Jahresabschluss durchführen, werden Ihre Erträge aus den berechneten Erträgen auf das Konto "Abschlusskonto GuV" verschoben. Das Geschäftsjahr wird als "Geschlossen" gekennzeichnet, und alle nachfolgenden Posten für das geschlossene Jahr werden als "Nachbuchungen" gekennzeichnet.
 
 Anschließend wird ein Ultimoposten generiert, der jedoch nicht automatisch gebucht wird. Sie erhalten die Möglichkeit, die Gegenbuchung der Posten des Eigenkapitalkontos durchzuführen, sodass Sie entscheiden können, wie der Ultimoposten zugeordnet wird. Wenn Ihr Unternehmen über mehrere Geschäftsbereiche verfügt, können Sie vom System einen einzigen Ultimoposten für alle Geschäftsbereiche generieren lassen und dann für das Eigenkapitalkonto jedes Geschäftsbereichs eine Gegenbuchung erstellen.
 
 Sie können Buchungen in einem früheren Geschäftsjahr auch durchführen, nachdem die GuV-Konten geschlossen wurden, wenn Sie danach die Stapelverarbeitung GuV-Konten Nullstellung erneut ausführen.
 
-## <a name="see-also"></a>Weitere Informationen
+## Weitere Informationen
 
 [Mit Buchhaltungsperioden und Geschäftsjahren arbeiten](finance-accounting-periods-and-fiscal-years.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

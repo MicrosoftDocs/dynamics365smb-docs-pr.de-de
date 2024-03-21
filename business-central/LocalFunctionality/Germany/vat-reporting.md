@@ -10,7 +10,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="vat-reporting-in-the-german-version"></a>MwSt.-Berichterstattung in der deutschen Version
+# MwSt.-Berichterstattung in der deutschen Version
 
 Sie können dann das VAT-Dokument an die Schnittstelle des Onlineportals „Elektronische Steuererklärungen (ELSTER)“ der deutschen Finanzämter übermitteln. Sie können eine MwSt-Erklärung als XML-Datei generieren und exportieren und dann direkt an das ELSTER-Portal senden. Weitere Informationen finden Sie unter [Gewusst wie: Einrichten von Umsatzsteuervoranmeldungen](how-to-set-up-and-export-sales-vat-advance-notifications.md).  
 
@@ -22,7 +22,7 @@ Folgende lokale MwSt.-Erklärungen können gedruckt werden:
 |**UVA Kontennachweis**|Bestätigt, dass Posten im MwSt.-Abrechnungsformular auch in Finanzbuchhaltungskonten gebucht werden.<br /><br /> Wählen Sie zur Überprüfung der MwSt. im Fenster Umsatzsteuervoranmeldung für das MwSt.-Abrechnungsformular und die Umsatzsteuervoranmeldung die gleichen Einstellungen aus.|  
 |**MwSt.-Abrechnung Schema**|Diese Erklärung kann auf der Seite **MwSt.-Abrechnung** abgerufen werden.<br /><br /> Druckt die Einstellungen in der MwSt.-Abrechnung. Druckt die Einstellungen in der MwSt.-Abrechnung. Mithilfe des Berichts können die Merkmale von **MwSt Kontennachweis** gedruckt werden.|  
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Umsatzsteuervoranmeldungen](how-to-set-up-and-export-sales-vat-advance-notifications.md)  
 [Melden von MwSt. an die Steuerbehörden](../../finance-how-report-vat.md)  

@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-### <a name="reversing-journals-to-correct-mistakes"></a>Umkehren von Buch.-Blättern, um Fehler zu korrigieren
+### Umkehren von Buch.-Blättern, um Fehler zu korrigieren
 
 Wenn Sie mit Buch.-Blättern arbeiten, die viele Zeilen haben und etwas schief geht, ist es wichtig, dass sich Fehler leicht korrigieren lassen. Die Seite **Gebuchtes Fibu Buch.-Blatt** bietet eine Reihe von Aktionen, die helfen können.
 

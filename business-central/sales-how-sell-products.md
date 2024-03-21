@@ -11,7 +11,7 @@ ms.date: 02/01/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="sell-products-with-a-customer-sales-order"></a>Produkte mit einem Debitorenauftrag verkaufen
+# Produkte mit einem Debitorenauftrag verkaufen
 
 Dieser Artikel bietet Hilfestellungen dazu, wann ein Debitorenauftrag zusätzlich zu einer Rechnung verwendet werden sollte. Wenn der Verkaufsprozess erfordert, dass Sie nur Teile einer Bestellmenge liefern, weil beispielsweise die vollständige Menge nicht sofort verfügbar ist, müssen Sie diesen Verkauf mittels eines Verkaufsauftrags verarbeiten.
 
@@ -23,7 +23,7 @@ In Geschäftsumgebungen, wo Debitoren sofort bezahlen, beispielsweise mit PayPal
 
 Sie können direkt gezahlte Rechnungen für nicht registrierte Debitoren auch erstellen, indem Sie eine Bargelddebitoren-Karte einrichten, auf der Sie auf die Verkaufsrechnung hinweisen. Erfahren Sie mehr unter [Bardebitoren einrichten](finance-how-to-set-up-cash-customers.md).
 
-## <a name="create-a-sales-order"></a>Einen Verkaufsauftrag erstellen
+## Einen Verkaufsauftrag erstellen
 
 > [!NOTE]  
 > Beim nachfolgenden Verfahren wird davon ausgegangen aus, dass der Debitor bereits eingerichtet ist. Anweisungen dazu finden Sie unter [Neue Debitoren registrieren](sales-how-register-new-customers.md).
@@ -87,17 +87,17 @@ Das Dialogfeld **Buchungs- und Sendebestätigung** zeigt die gewünschte Methode
 
 Der zugehörige Artikel und die Debitorenposten werden nun im System erfasst erstellt, und das Verkaufsangebot wird als PDF-Dokument ausgegeben. Sobald der Auftrag vollständig gebucht ist, wird er aus der Liste von Verkaufsaufträgen entfernt und durch neue Belege in der Übersicht der Verkaufsrechnungen und Verkaufslieferungen ersetzt.  
 
-## <a name="external-document-number"></a>Externe Belegnummer
+## Externe Belegnummer
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## <a name="working-with-amount-fields"></a>Mit Betragsfeldern arbeiten
+## Mit Betragsfeldern arbeiten
 
 Die Werte in Feldern, in denen Beträge angezeigt werden, können positiv oder negativ sein, je nachdem, ob es sich bei dem Wert um eine Gutschrift oder eine Belastung handelt. Dieses Video zeigt, wie Sie mit Feldern arbeiten, die Beträge anzeigen.
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1h96P]
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Verkäufe fakturieren](sales-how-invoice-sales.md)  
 [Verkäufe buchen](ui-post-sales.md)  
