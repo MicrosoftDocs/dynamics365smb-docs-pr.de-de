@@ -11,7 +11,7 @@ ms.search.form: '7351,'
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="move-items-in-advanced-warehouse-configurations-that-use-directed-put-away-and-pick"></a>Artikel in erweiterten Lagerkonfigurationen umlagern, die gesteuerte Einlagerung und Kommissionierung verwenden
+# Artikel in erweiterten Lagerkonfigurationen umlagern, die gesteuerte Einlagerung und Kommissionierung verwenden
 
 Sie können Artikel ohne einen Bedarf aus einem Herkunftsbeleg zwischen Lagerplätzen umlagern. Beispielsweise möchten Sie dies möglicherweise im Rahmen der folgenden Aktivitäten tun:
 
@@ -37,9 +37,9 @@ Die Seiten **Umlagerungsarbeitsblatt**, **Lagerinterne Kommissionierung** und **
 * Einlagerungen verwenden Einlagerungsvorlagen
 * Kommissionierung verwendet die Lagerplatzränge und -verfügbarkeit
 
-## <a name="warehouse-movement-worksheet"></a>Lagerplatzumlagerungsarbeitsblatt
+## Lagerplatzumlagerungsarbeitsblatt
 
-### <a name="to-move-items-with-the-warehouse-movement-worksheet"></a>Um Artikel mit dem Lagerplatzumlagerungsarbeitsblatt umzulagern
+### Um Artikel mit dem Lagerplatzumlagerungsarbeitsblatt umzulagern
 
 1. Wählen Sie das Symbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Arbeitsblatt für Lagerplatzumlagerungen** ein und wählen Sie dann den zugehörigen Link.  
 2. Füllen Sie die Felder in den Arbeitsblattzeilen manuell aus oder verwenden Sie eine der folgenden Aktionen, um die Zeilen automatisch auszufüllen:
@@ -56,7 +56,7 @@ Die Seiten **Umlagerungsarbeitsblatt**, **Lagerinterne Kommissionierung** und **
 
 3. Wählen Sie die Aktion **Umlagerung erstellen**, um die Umlagerung zu erstellen. Sobald die Umlagerung fertig gestellt ist, können Sie sie registrieren.  
 
-### <a name="to-register-the-warehouse-movement"></a>So registrieren Sie die Lagerplatzumlagerung:
+### So registrieren Sie die Lagerplatzumlagerung:
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Lagerplatzumlagerungen** ein, und wählen Sie dann den zugehörigen Link.  
 2. Öffnen Sie den Umlagerungsbeleg, um zu registrieren:  
@@ -72,9 +72,9 @@ Die Seiten **Umlagerungsarbeitsblatt**, **Lagerinterne Kommissionierung** und **
 > [!NOTE]  
 > Für Lagerorte, die gesteuertes Einlagern und Kommissionieren verwenden, können Sie Artikel in Lagerplätzen des Typs **EINGANG** nicht manuell verschieben, da sie noch nicht als verfügbarer Bestand betrachtet werden. Sie müssen die Artikel in diesen Lagerplätzen einlagern, bevor sie für Umlagerungen verfügbar sind.
 
-## <a name="internal-pick"></a>Interne Kommissionierung
+## Interne Kommissionierung  
 
-### <a name="to-create-an-internal-pick"></a>So erstellen Sie eine interne Kommissionierung
+### So erstellen Sie eine interne Kommissionierung  
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Whse. Interne Kommissionierung** ein, und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die Aktion **Neu**.
@@ -83,7 +83,7 @@ Die Seiten **Umlagerungsarbeitsblatt**, **Lagerinterne Kommissionierung** und **
 5. Wählen Sie die Aktion **Kommissionierung erstellen** aus. Jetzt ist eine Kommissionieranweisung fertig und kann von einem Lagermitarbeiter ausgeführt werden. Wählen Sie alternativ die Aktion **Freigeben** und erstellen Sie Warenkommissionierungen mit der Seite **Kommissionierungsarbeitsblatt**. Mehr über Kommissionierungsarbeitsblätter erfahren Sie unter [Kommissionierungsdokumente in großen Mengen mit dem Kommissionierungsarbeitsblatt erstellen](warehouse-how-to-pick-items-for-warehouse-shipment.md#to-create-pick-documents-in-bulk-with-the-pick-worksheet).
 6. Sobald die Kommissionierung fertig gestellt ist, können Sie sie registrieren.  
 
-### <a name="to-register-the-warehouse-pick"></a>So registrieren Sie die Warenkommissionierung
+### So registrieren Sie die Warenkommissionierung
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Kommissionierungen** ein und wählen Sie dann den zugehörigen Link.  
 
@@ -95,9 +95,9 @@ Die Seiten **Umlagerungsarbeitsblatt**, **Lagerinterne Kommissionierung** und **
 
 4. Nachdem Sie die Kommissionierung ausgeführt und die Artikel in den Ausgangsbereich oder den Ausgangslagerplatz eingelagert haben, wählen Sie die Aktionen **Kommissionierung registrieren** aus.  
 
-## <a name="internal-put-away"></a>Interne Einlagerung
+## Interne Einlagerung  
 
-### <a name="to-create-an-internal-put-away"></a>So erstellen Sie eine interne Einlag.-Anforderung
+### So erstellen Sie eine interne Einlag.-Anforderung  
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Lagerinterne Einlagerungen** ein und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die Aktion **Neu**.
@@ -111,7 +111,7 @@ Die Seiten **Umlagerungsarbeitsblatt**, **Lagerinterne Kommissionierung** und **
 6. Wählen Sie die Aktion **Einlagerung erstellen** aus. Jetzt ist eine Einlagerungsanweisung für einen Lagermitarbeiter fertig. Wählen Sie alternativ die Aktion **Freigeben**, um Wareneinlagerungen mit der Seite **Einlagerungsarbeitsblatt** zu erstellen. Mehr über Einlagerungsarbeitsblätter erfahren Sie unter [Einlagerungsbelege in großen Mengen mit dem Einlagerungsarbeitsblatt erstellen](warehouse-how-to-put-items-away-with-warehouse-put-aways.md#to-create-put-away-documents-in-bulk-with-the-put-away-worksheet).
 6. Sobald die Einlagerung fertig gestellt ist, können Sie sie registrieren.  
 
-### <a name="to-register-the-warehouse-put-away"></a>So registrieren Sie eine Wareneinlagerung
+### So registrieren Sie eine Wareneinlagerung
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Einlagerungen** ein, und wählen Sie dann den entsprechenden Link.
 2. Öffnen Sie die Wareneinlagerung, die für die Bearbeitung bereit ist.  
@@ -131,7 +131,7 @@ Die Seiten **Umlagerungsarbeitsblatt**, **Lagerinterne Kommissionierung** und **
 
 5. Wenn Sie alle Artikel so in die Lagerplätze eingelagert haben, wie es die Anweisungen vorsehen, wählen Sie die Aktion **Einlagerung registrieren** aus.  
 
-## <a name="to-register-a-movement-that-has-already-happened"></a>So registrieren Sie eine Umlagerung, die bereits stattgefunden hat
+## So registrieren Sie eine Umlagerung, die bereits stattgefunden hat
 
 Wenn Sie die Tatsache registrieren müssen, dass Artikel bereits ohne Einlagerung, Kommissionierung oder Umlagerung auf andere Lagerplätze umgelagert wurden, können Sie die Seite **Whse. Umlagerungs Buch.-Blatt** verwenden, um die Umlagerung zu registrieren.
 
@@ -139,7 +139,7 @@ Wenn Sie die Tatsache registrieren müssen, dass Artikel bereits ohne Einlagerun
 2. Füllen Sie die Felder **Artikelnr.**, **Von Zonencode**, **Von Lagerplatzcode**, **Nach Zonencode** und **Nach Lagerplatzcode** aus.  
 3. Wählen Sie die Aktion **Registrieren** aus.  
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Lagerverwaltung – Übersicht](design-details-warehouse-management.md)
 [Bestand](inventory-manage-inventory.md)  

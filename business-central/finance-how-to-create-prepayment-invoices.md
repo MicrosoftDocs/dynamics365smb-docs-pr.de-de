@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.form: '42, 50, 9305, 9307'
 ms.service: dynamics-365-business-central
 ---
-# <a name="create-prepayment-invoices"></a>Vorauszahlungsrechnungen erstellen
+# Vorauszahlungsrechnungen erstellen
 
 Wenn Sie von Ihren Debitoren erwarten, dass diese vor der Lieferung eines Auftrags eine Zahlung leisten, können Sie die Funktion „Vorauszahlung“ verwenden. Dies gilt auch, wenn Ihr Verkäufer erwartet, dass Sie die Zahlung leisten, bevor er eine Bestellung an Sie versendet.  
 
@@ -20,7 +20,7 @@ Nachdem Sie einen Auftrag oder eine Bestellung angelegt haben, können Sie eine 
 
 Im Folgenden wird beschrieben, wie eine Vorauszahlung für einen Verkaufsauftrag fakturiert wird. Die Schritte sind für eine Bestellung ähnlich.  
 
-## <a name="to-create-a-prepayment-invoice"></a>So erstellen Sie eine Vorauszahlungsrechnung
+## So erstellen Sie eine Vorauszahlungsrechnung
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Verkaufsaufträge** ein, und wählen Sie dann den zugehörigen Link.  
 2. Erstellen Sie einen neuen Verkaufsauftrag für den relevanten Debitor. Weitere Informationen finden Sie unter [Produkte verkaufen](sales-how-sell-products.md)  
@@ -71,11 +71,11 @@ Es können weitere Vorauszahlungsrechnungen für den Auftrag ausgegeben werden. 
 
  Wenn Sie bereit zum Buchen des verbleibenden Rechnungsbetrags sind, buchen Sie diesen auf die gleiche Weise, wie Sie jede andere Rechnung buchen. Der Vorauszahlungsbetrag wird automatisch vom fälligen Betrag abgezogen.  
 
-## <a name="update-the-status-of-prepaid-orders-and-invoices-automatically"></a>Aktualisieren Sie den Status von vorausbezahlten Bestellungen und Rechnungen automatisch
+## Aktualisieren Sie den Status von vorausbezahlten Bestellungen und Rechnungen automatisch
 
 Sie können die Auftrags- und Rechnungsverarbeitung beschleunigen, indem Sie Auftragswarteschlangeneinträge einrichten, die den Status dieser Dokumente automatisch aktualisieren. Wenn eine Vorauszahlungsrechnung bezahlt wird, können die Auftragswarteschlangeneinträge den Dokumentstatus automatisch von **Ausstehende Vorauszahlung** zu **Freigegeben** ändern. Wenn Sie die Jobwarteschlangeneinträge einrichten, müssen Sie folgende Codeunits verwenden: **384 Ausstehende Vorauszahlungsverkäufe aktualisieren** und **384 Ausstehende Vorauszahlungsbestellungen aktualisieren**. Wir empfehlen, die Einträge häufig auszuführen, z. B. jede Minute. Weitere Informationen finden Sie unter [Job-Warteschlangen zur Einplanung von Aufgaben verwenden](admin-job-queues-schedule-tasks.md).
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Vorauszahlungen fakturieren](finance-invoice-prepayments.md)  
 [Beispielhafte Vorgehensweise: Verkaufsvorauszahlungen einrichten und in Rechnung stellen](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  
