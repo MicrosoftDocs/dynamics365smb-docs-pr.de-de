@@ -26,11 +26,11 @@ Die Informationen berücksichtigen auch andere Faktoren, die die Verfügbarkeit 
 > [!NOTE]
 > Für diese Funktion müssen Sie die Funktion **Gezielte Einlagerung und Kommissionierung** für die Standorte aktivieren, die Sie in Ihrem Kommissionierungsprozess verwenden.
 
-### Vorschauversionen einrichten
+### <a name="set-up-previews"></a>Vorschauversionen einrichten
 
 Um Details darüber zu erhalten, was kommissioniert wird und was nicht, aktivieren Sie den Schalter **Zusammenfassung anzeigen (gesteuerte Einlagerung und Kommissionierung)** auf den Anforderungsseiten **Logistik Herk. - Beleg erst.** oder **Warenausgang - Kommiss. erst.**.
 
-### Bestimmen Sie die Menge, die Sie auswählen können
+### <a name="determine-the-quantity-you-can-pick"></a>Bestimmen Sie die Menge, die Sie auswählen können
 
 Auf Zeilen auf der Seite **Zusammenfassung der Lagerkommissionierung erstellen** zeigt das Feld **Bewegungsmenge (Basis)** an, welche und wie viele Elemente vorhanden sind und [!INCLUDE [prod_short](prod_short.md)] versuchte zu entnehmen. Die Infobox **Zusammenfassung** bietet weitere Details.
 
@@ -57,7 +57,7 @@ Das folgende Bild zeigt die maximale Menge, die für die Kommissionierung berüc
 |B     |Lagerplätze mit Inhalt der Art Pick mit gesperrtem Ausgang         |
 |O     |Andere Lagerplätze         |
 
-### Reservierungen
+### <a name="reservations"></a>Reservierungen
 
 Wenn für den kommissionierten Artikel Reservierungen vorhanden sind, wird die Berechnung fortgesetzt. Die Idee dahinter ist, dass der reservierte Bedarf eine höhere Priorität hat als der nicht reservierte Bedarf, was bedeutet, dass die Kommissionierung für den nicht reservierten Bedarf die spätere Kommissionierung für den reservierten Bedarf nicht verhindern sollte.
 
@@ -75,7 +75,7 @@ Diese Mengen sind möglicherweise verfügbar, aber Sie können sie möglicherwei
 
 Der Unterschied zwischen **Verfügbare Menge ohne Lieferungslagerplatz** und der reservierten Menge im Lager ist die Menge verfügbar, die zur Entnahme verfügbar ist, ohne dass sich dies auf den reservierten Bestand auswirkt.
 
-### Sonstige Details
+### <a name="other-details"></a>Sonstige Details
 
 Wenn Artikel eine Artikelverfolgung erfordern, können Sie die Menge auch in gesperrten Chargen oder Seriennummern finden, was zu folgenden Reduzierungen führt:
 

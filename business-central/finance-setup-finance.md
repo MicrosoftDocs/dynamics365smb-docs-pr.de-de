@@ -9,7 +9,7 @@ ms.date: 08/19/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Finanzen einrichten
+# <a name="setting-up-finance"></a>Finanzen einrichten
 
 Bevor Sie mit der Geschäftstätigkeit beginnen können, müssen Sie die Verwaltung der Finanzprozesse für dieses Unternehmen festlegen. Richten Sie zunächst den Kern der Buchhaltungsdatensätze des Mandanten ein, den Kontenplan. Anschließend werden Buchungsgruppen eingerichtet, um das Zuordnen von standardmäßigen Sachkontobuchungskonten zu Debitoren, Kreditoren und Artikeln effizienter zu gestalten.
 
@@ -50,7 +50,7 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 > [!TIP]
 > Abhängig von Ihrem geografischen Standort können einige Business Central-Seiten Felder enthalten, die in den hier aufgeführten Artikeln nicht beschrieben sind, da sie für lokale Funktionen oder Anpassungen gelten. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Finanzen](finance.md)  
 [Abstimmen von Bankkonten](bank-manage-bank-accounts.md)  

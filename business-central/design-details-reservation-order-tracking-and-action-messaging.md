@@ -9,7 +9,7 @@ ms.date: 06/08/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Designdetails: Reservierung, Auftragsnachverfolgung und Aktionsmeldungen
+# <a name="design-details-reservation-order-tracking-and-action-messaging"></a>Designdetails: Reservierung, Auftragsnachverfolgung und Aktionsmeldungen
 Das Reservierungssystem ist umfassend und enthält auch die zusammenhängenden und parallelen Funktionen der Auftragsnachverfolgung und des Aktionsmessagings.  
 
  Im Zentrum des Reservierungssystems steht die Verknüpfung eines Bedarfspostens und eines entsprechenden Vorratspostens, entweder durch Reservierung oder durch Bestandsnachverfolgung. Eine Reservierung ist ein vom Benutzer generierter Link, und ein Auftragsnachverfolgungsdatensatz ist ein vom System generierter Link. Eine Artikelmenge, die in das Reservierungssystem eingegeben wurde, ist entweder reserviert oder auftragsnachverfolgt, aber nicht beides gleichzeitig. Wie das System mit einem Artikel umgeht, hängt davon ab, wie es eingerichtet ist.  
@@ -26,12 +26,12 @@ Das Reservierungssystem ist umfassend und enthält auch die zusammenhängenden u
 > [!NOTE]
 > [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
 
-## Reservierung  
+## <a name="reservation"></a>Reservierung
  Eine Reservierung ist ein fester Link, der einen speziellen Bedarf und einen bestimmten Vorrat miteinander verknüpft. Diese Verknüpfung beeinflusst dirket die nächste Lagertransaktion und sorgt für die richtigen Anwendung von Artikelposten für Bewertungszwecke. Eine Reservierung setzt die Standard-Kostenberechnungsmethode eines Artikels außer Kraft. Weitere Informationen finden Sie unter [Designdetails: Artikelverfolgung](design-details-item-tracking.md).  
 
  Die Seite **Reservierung** ist von allen Auftragszeilen des Typs Bedarf und Vorrat aus zugänglich. auf der Seite kann der Benutzer angeben, zu welchem Bedarfs- oder Vorratsposten eine Reservierungsverknüpfung erstellt werden soll. Die Reservierung besteht aus einem Paar von Datensätzen, die dieselbe Postennummer haben. Ein Datensatz hat ein negatives Vorzeichen und verweist auf den Bedarf. Der andere Datensatz hat ein positives Vorzeichen und verweist auf den Vorrat. Diese Datensätze werden in der Tabelle **Reservierungsposten** mit Statuswert **Reservierung** gespeichert. Der Benutzer kann alle Reservierungen auf der Seite **Reservierungsposten** anzeigen.  
 
-### Ausgleichung für Reservierungen  
+### <a name="offsetting-in-reservations"></a>Ausgleichung für Reservierungen
  Reservierungen werden gegen verfügbare Artikelmengen vorgenommen. Artikelverfügbarkeit wird wie folgt grundlegend berechnet:  
 
  verfügbare Menge = Bestand + geplante Zugänge - Bruttobedarf  
@@ -53,7 +53,7 @@ Das Reservierungssystem ist umfassend und enthält auch die zusammenhängenden u
 
  Weitere Informationen finden Sie unter [Designdetails: Verfügbarkeit im Lager](design-details-availability-in-the-warehouse.md).  
 
-### manuelle Reservierung  
+### <a name="manual-reservation"></a>manuelle Reservierung
  Wenn ein Benutzer absichtlich eine Reservierung erstellt, erhält er vollen Besitz von und Zuständigkeit für diese Artikel. Dies bedeutet, dass der Benutzer eine Reservierung auch manuell ändern oder stornieren muss. Derartige manuelle Änderungen verursachen möglicherweise automatische Änderungen der einbezogenen Reservierungen.  
 
  Die nachstehende Tabelle zeigt, welche Änderungen möglicherweise auftreten und wann dies der Fall sein kann:  
@@ -68,7 +68,7 @@ Das Reservierungssystem ist umfassend und enthält auch die zusammenhängenden u
 > [!NOTE]  
 >  Die Funktionalität der späten Bindung kann auch Reservierungen ändern, ohne den Benutzer zu informieren, indem sie nicht-spezifische Reservierungen von Serien- oder Chargennummern neu anordnet. Weitere Informationen finden Sie unter Designdetails: Artikelverfolgung und Reservierungen.  
 
-### Automatische Reservierungen  
+### <a name="automatic-reservations"></a>Automatische Reservierungen
  Die Artikelkarte kann so eingerichtet werden, dass immer eine Reservierung vom Bedarf stattfindet, etwa bei Verkaufsaufträgen. In diesem Fall wird eine Reservierung gegen den Bestand, Kaufaufträge, Montageaufträge und Fertigungsaufträge vorgenommen. Eine Warnung wird ausgegeben, wenn der Vorrat nicht ausreicht.  
 
  Darüber hinaus werden Artikel automatisch nach verschiedenen Planungsfunktionen reserviert, um einen mit einer bestimmten Bedarfssicherung verknüpften Bedarf beizubehalten. Die Auftragsnachverfolgungsposten für solche Planungslinks enthalten **Reservierung** im Feld **Reservierungsstatus** in der Tabelle **Reservierungsposten**. Automatische Reservierungen werden in den folgenden Situationen erstellt:  
@@ -89,7 +89,7 @@ Das Reservierungssystem ist umfassend und enthält auch die zusammenhängenden u
 
 -   Sie sind in den folgenden Planungen enthalten und werden hier möglicherweise geändert, im Gegensatz zu manuell reservierten Artikeln.  
 
-## Bedarfsverursacher  
+## <a name="order-tracking"></a>Bedarfsverursacher
  Bedarfsverursacher hilft dem Planer, einen gültigen Beschaffungsplan zu gewährleisten, indem er eine Übersicht zwischen Bedarf und Vorrat im Bestellungsbestand bereitstellt. Die Auftragsnachverfolgungsdatensätze dienen als Grundlage für die Erstellung von dynamischen Aktionsmeldungen und von Planungszeilenvorschlägen im Rahmen der Planungsausführungen.  
 
 > [!NOTE]  
@@ -98,14 +98,14 @@ Das Reservierungssystem ist umfassend und enthält auch die zusammenhängenden u
 > [!NOTE]  
 >  Bedarfsverursacherrichtlinie und die Funktion "Aktionsmeldungen abrufen" sind nicht mit Projekten integriert. Das bedeutet, dass der Bedarf, der mit einem Projekt verknüpft ist, nicht automatisch verfolgt wird. Da dies nicht nachverfolgt wird, könnte es dazu führen, dass eine vorhandene Auffüllung mit Projektinformationen zu einem anderen Bedarf, beispielsweise ein Auftrag, verfolgt wird. Deshalb treffen Sie möglicherweise die Situation an, in der Ihre Informationen über verfügbaren Lagerbestand nicht synchron sind.  
 
-### Das Auftragsnetzwerk  
+### <a name="the-order-network"></a>Das Auftragsnetzwerk
  Das Auftragsnachverfolgungssystem basiert auf dem Prinzip, das das Auftragsnetzwerk immer in einem Zustand des Gleichgewichts sein muss, in dem jeder Bedarf, der in das System eingeht, durch einen entsprechenden Vorrat ausgeglichen wird und umgekehrt. Die Anwendung stelt dies zu Verfügung, indem sie logische Verknüpfungen zwischen allen Bedarfs- und Vorratsposten im Bestellungsbestand bereitstellt.  
 
  Dieses Prinzip impliziert, dass eine Nachfrageänderung zu einer entsprechenden Unausgeglichenheit auf der Zugangsseite des Auftragsnetzwerks führt. Andererseits resultiert eine Angebotsänderung in einer entsprechenden Unausgeglichenheit auf der Bedarfsseite des Auftragsnetzwerks. In der Realität ist das Auftragsnetzwerk in einem Zustand konstanten Flusses, da Benutzer Aufträge eingeben, ergänzen und löschen. Bedarfsverursacher verarbeitet Aufträge dynamisch, reagiert auf jede Änderung zum Zeitpunkt ihrer Eingabe in das System ein und wird ein Teil des Auftragsnetzwerks. Sobald neue Auftragsnachverfolgungsdatensätze erstellt wurden, ist das Auftragsnetzwerk ausgeglichen, aber nur bis zur nächsten Änderung.  
 
  Um die Transparenz der Berechnungen im Planungssystem zu erhöhen, zeigt die Seite **Unverfolgte Planungselemente** nicht verfolgte Mengen an, die die Mengendifferenz zwischen bekanntem Bedarf und vorgeschlagenem Vorrat darstellen. Jede Zeile auf der Seite bezieht sich auf den Grund des Überschusses, wie **Rahmenauftrag**, **Sicherheitsbestands-Ebene**, **Feste Bestellmenge**, **Mindestauftragsmenge**, **Rundung** oder **Toleranz**.  
 
-### Ausgleichung im Bedarfsverursacher  
+### <a name="offsetting-in-order-tracking"></a>Ausgleichung im Bedarfsverursacher
  Im Gegensatz zu Reservierungen, die nur gegen verfügbare Artikelmengen vorgenommen werden können, ist die Auftragsnachverfolgung gegen alle Auftragsnetzwerkeinheiten möglich, die Teil der Nettobedarfsrechnung des Planungssystems sind. Der Nettobedarf wird wie folgt berechnet:  
 
  Nettobedarf = Bruttobedarf + Minimalbestand - Geplante Zugänge - voraussichtliche Zugänge - Verfügbarkeitssaldo  
@@ -113,7 +113,7 @@ Das Reservierungssystem ist umfassend und enthält auch die zusammenhängenden u
 > [!NOTE]  
 >  Bedarf, der mit Planungen oder Planungsparametern verbunden ist, wird nicht nach Auftrag nachverfolgt.  
 
-### Beispiel: Auftragsnachverfolgung im Verkauf, in der Produktion und bei Umlagerungen  
+### <a name="example-order-tracking-in-sales-production-and-transfers"></a>Beispiel: Auftragsnachverfolgung im Verkauf, in der Produktion und bei Umlagerungen
  Das folgende Szenario zeigt, welche Auftragsnachverfolgungsposten in der Tabelle **Reservierungsposten** als Ergebnis verschiedener Auftragsnetzwerkänderungen erstellt werden.  
 
  Gehen wir von den folgenden Daten für zwei Artikel aus, die für die Auftragsnachverfolgung eingerichtet wurden.  
@@ -132,13 +132,13 @@ Auf der Seite **Produktion Einrichtung** wird das Feld **Komponenten von Lageror
 
  ![Erstes Beispiel für Auftragsverfolgungseinträge in der Tabelle Reservierungseintrag.](media/supply_planning_RTAM_1.png "supply_planning_RTAM_1")  
 
-### Eintragsnummern 8 und 9  
+### <a name="entry-numbers-8-and-9"></a>Eintragsnummern 8 und 9
  Für den Komponentenbedarf für LOTA und LOTB werden Auftragsnachverfolgungslinks aus dem Bedarf in Tabelle 5407, **Fert. Auftrags-Komponente**, für den Vorrat in Tabelle 32, **Artikelposten**, erstellt. Das Feld **Reservierungsstatus** enthält **Nachverfolgung**, um anzugeben, dass diese Posten dynamische Auftragsnachverfolgungslinks zwischen Vorrat und Bedarf sind.  
 
 > [!NOTE]  
 >  Das Feld **Chargennr.** ist auf den Bedarfszeilen leer, da die Chargennummern nicht auf den Komponentenzeilen des freigegebenen Fertigungsauftrags angegeben sind.  
 
-### Postennummern 10  
+### <a name="entry-numbers-10"></a>Postennummern 10
  Vom Verkaufsbedarf in Tabelle 37, **Verkaufszeile**, wird ein Auftragsnachverfolgungslink zum Vorrat in Tabelle 5406, **Fert. Auftragszeile**, erstellt. Das Feld **Reservierungsstatus** enthält **Reservierung**, und das Feld **Verknüpfung** enthält **Eins-zu-Eins**. Dies liegt daran, dass der freigegebene Fertigungsauftrag speziell für den Verkaufsauftrag generiert wurde und anders als Bedarfsverursacherverknüpfungen in einem Reservierungsstatus **Bedarfsverursacher** bleiben muss, der dynamisch erstellt und geändert wird. Weitere Informationen finden Sie im Abschnitt Automatische Reservierungen dieses Themas.  
 
  An diesem Punkt im Szenario werden die 100 Stück von LOTA und LOTB zum Lagerort OST durch einen Umlagerungsauftrag übertragen.  
@@ -150,12 +150,12 @@ Auf der Seite **Produktion Einrichtung** wird das Feld **Komponenten von Lageror
 
  ![Zweites Beispiel für Auftragsverfolgungseinträge in der Tabelle „Reservierungseingang“.](media/supply_planning_RTAM_2.png "supply_planning_RTAM_2")  
 
-### Eintragsnummern 8 und 9  
+### <a name="entry-numbers-8-and-9-1"></a>Eintragsnummern 8 und 9
  Bedarfsverursacherposten für die zwei Chargen der den Bedarf widerspiegelnden Komponente in Tabelle 5407 werden von einem Reservierungsstatus von **Bedarfsverursacher** zu **Überschuss** geändert. Der Grund besteht darin, dass Vorräte, mit denen vorher eine Verknüpfung hergestellt wurde (in Tabelle 32), von der Lieferung des Umlagerungsauftrags verwendet wurden.  
 
  Echter Überschuss, wie in diesem Fall, spiegelt überschüssigen Vorrat oder Bedarf wider, der nicht nachverfolgt wird. Dies zeigt eine Unausgeglichenheit im Auftragsnetzwerk an, durch die eine Aktionsmeldung vom Planungssystem generiert wird, sofern sie nicht dynamisch gelöst wird.  
 
-### Postennummern 12 bis 16  
+### <a name="entry-numbers-12-to-16"></a>Postennummern 12 bis 16
  Da die beiden Chargen der Komponente auf dem Umlagerungsauftrag als geliefert aber nicht empfangen gebucht werden, haben alle verknüpften positiven Auftragsnachverfolgungsposten den Reservierungstyp **Überschuss**, was angibt, dass sie nicht einem Bedarf zugeordnet sind. Für jede Chargennummer bezieht sich ein Posten auf Tabelle 5741, **Umlagerungszeile**, und ein Posten bezieht sich auf den Artikelposten am I-Transit-Lagerort, an dem sich die Artikel gerade befinden.  
 
  An diesem Punkt im Szenario wird der Umlagerungsauftrag der Komponenten vom Lagerort OST zu Lagerort WEST als erhalten gebucht.  
@@ -172,14 +172,14 @@ Auf der Seite **Produktion Einrichtung** wird das Feld **Komponenten von Lageror
 
  ![Viertes Beispiel für Einträge zur Auftragsverfolgung in der Tabelle „Reservierungseingang“.](media/supply_planning_RTAM_4.png "supply_planning_RTAM_4")  
 
-### Postennummern 21 und 22  
+### <a name="entry-numbers-21-and-22"></a>Postennummern 21 und 22
  Da der Komponentenbedarf zum Lagerort OST geändert wurde und der Vorrat als Artikelposten am Lagerort OST verfügbar ist, werden alle Auftragsnachverfolgungsposten für die beiden Chargennummern jetzt vollständig verfolgt, angezeigt durch den Reservierungsstatus von **Nachverfolgung**.  
 
  Das Feld **Chargennr.** ist jetzt auf dem Auftragsnachverfolgungsposten für Tabelle 5407 ausgefüllt, da die Chargennummern zu den Fertigungsauftragskomponentenzeilen zugeordnet wurden.  
 
  Für mehr Beispiele zu Auftragsnachverfolgungsposten in der Tabelle **Reservierungsposten** vgl. das Whitepaper „Tabelle Reservierungsposten“ auf [PartnerSource](https://go.microsoft.com/fwlink/?LinkId=258348).
 
-## Ereignismeldungen  
+## <a name="action-messaging"></a>Ereignismeldungen
  Wenn Bedarfsverursachersystem eine Ereignismeldung im Bestellungsbestand erkennt, erstellt sie automatisch eine Ereignismeldung, um den Benutzer zu benachrichtigen. Ereignismeldungen sind vom System generierte Aufrufe zu Benutzeraktionen, die die Details der Unausgeglichenheit und Vorschläge zur Wiederherstellung der Balance im Auftragsnetzwerk enthalten. Sie werden als Planungszeilen auf der Seite **Planungsarbeitsblatt** angezeigt, wenn Sie **Aktionsmeldungen abrufen** auswählen. Darüber hinaus werden Ereignismeldungen für Planungszeilen angezeigt, die durch die Planung generiert werden, um die Vorschläge des Planungssystems darüber widerzuspiegeln, wie der Saldo zum Auftragsnetzwerk wiederherzustellen ist. In beiden Fällen werden die Vorschläge auf das Auftragsnetzwerk ausgeführt, wenn Sie **Aktionsmeldungen durchführen** auswählen.  
 
  Eine Ereignismeldung bezieht sich auf jeweils eine Stücklistenebene. Wenn der Benutzer die Aktionsmeldung akzeptiert, kann dies zu weiteren Aktionsmeldungen auf der nächsten Stücklistenebene führen.  
@@ -206,10 +206,10 @@ Auf der Seite **Produktion Einrichtung** wird das Feld **Komponenten von Lageror
 
  Wenn eine Verminderung der Bedarfsmenge auftritt, versucht das Auftragsnachverfolgungssystem, die Unausgeglichenheit zu beheben, indem es in umgekehrter Reihenfolge die vorherigen Prüfungen ausführt. Das bedeutet, dass vorhandene Ereignismeldungen geändert oder sogar gelöscht werden können, falls notwendig. Das Auftragsnachverfolgungssystem zeigt dem Benutzer immer das Nettoergebnis seiner Berechnungen an.  
 
-## Bedarfsverursacher und Planung  
+## <a name="order-tracking-and-planning"></a>Bedarfsverursacher und Planung
  Wenn das Planungssystem ausgeführt wird, löscht es alle Nachverfolgungsdatensätze des bestehenden Auftrags sowie Ereignismeldungen und erstellt sie im Zuge Planungszeilenvorschläge entsprechend Angebot- und Nachfragepaaren und -Prioritäten neu. Wenn der Planungslauf beendet ist, ist das Auftragsnetzwerk im Saldo.  
 
-### Planungssystem mit Bedarfsverursacher- und Aktions-Messaging  
+### <a name="planning-system-versus-order-tracking-and-action-messaging"></a>Planungssystem mit Bedarfsverursacher- und Aktions-Messaging
  Der folgende Vergleich zeigt die Unterschiede zwischen den Methoden, die vom Planungssystem verwendet werden, um Planungszeilenvorschläge zu erstellen, sowie die Methoden, die das Auftragsnachverfolgungssystem verwendet, um Auftragsnachverfolgungsdatensätze und Aktionsmeldungen zu erstellen.  
 
 -   Das Planungssystem behandelt das gesamte Vorrats- und Bedarfsmuster eines bestimmten Artikels, während die Auftragsnachverfolgung den Auftrag behandelt, der sie aktiviert hat.  
@@ -222,7 +222,7 @@ Auf der Seite **Produktion Einrichtung** wird das Feld **Komponenten von Lageror
 
 -   Das Planungssystem erstellt Verknüpfungen in einem benutzeraktivierten Batchmodus, wenn es Bedarf und Vorrat ausgleicht, während die Auftragsnachverfolgung die Verknüpfungen automatisch und dynamisch erstellt, wenn der Benutzer Aufträge eingibt.  
 
-## Siehe auch  
+## <a name="see-also"></a>Siehe auch
 [Designdetails: Zentrale Konzepte des Planungssystems](design-details-central-concepts-of-the-planning-system.md)   
 [Designdetails: Vorratsplanung](design-details-supply-planning.md)
 

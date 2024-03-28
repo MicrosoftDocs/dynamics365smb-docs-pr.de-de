@@ -12,7 +12,7 @@ ms.date: 11/17/2023
 ms.custom: bap-template
 ---
 
-# Digitale Belege einrichten
+# <a name="set-up-digital-vouchers"></a>Digitale Belege einrichten
 
 Administratoren können mithilfe der Funktion für digitale Belege verlangen, dass Dokumente bei der Buchung bestimmten Transaktionen beigefügt werden. Daher ermöglicht diese Funktionalität einen quellengesteuerten Ansatz und bietet einen besseren Prüfpfad. Abhängig von den Dokumenten bzw. Journaltypen können hierfür unterschiedliche Durchsetzungsarten konfiguriert werden.
 
@@ -21,14 +21,14 @@ Der Begriff *digitaler Beleg* bezieht sich auf eine digitale oder elektronische 
 > [!IMPORTANT]
 > In einigen Ländern und Regionen ist die Konfiguration einiger Optionen möglicherweise eingeschränkt, da bestimmte Einrichtungen möglicherweise gesetzlich vorgeschrieben sind. Wenn Sie auf diese Einschränkungen stoßen, suchen Sie auf der Dokumentationsseite für Ihr Land oder Ihre Region nach einer detaillierten Erklärung.
 
-## Digitale Belege aktivieren
+## <a name="enable-digital-vouchers"></a>Digitale Belege aktivieren
 
 Befolgen Sie diese Schritte, um die digitale Belegfunktion zu aktivieren.
 
 1. Wählen Sie das ![Glühbirne, öffnet die „Wie möchten Sie weiter verfahren“-Funktion 3.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol, geben Sie **Einrichtung für digitalen Beleg** ein, und wählen Sie den entsprechenden Link aus.
 2. Aktivieren Sie das Kontrollkästchen **Aktiviert**.
 
-## Digitale Belege einrichten
+## <a name="set-up-digital-vouchers-1"></a>Digitale Belege einrichten
 
 Für die folgenden Dokumente und Buchungsblätter können Sie unterschiedliche Einrichtungen verwenden.
 
@@ -48,7 +48,7 @@ Befolgen Sie diese Schritte, um zu definieren, wie Ihre Organisation erzwungene 
 4. Aktivieren Sie das Kontrollkästchen **Automatisch generieren**, um den digitalen Beleg automatisch zu generieren. Wenn Sie Ihrer Transaktion beispielsweise keine Verkaufsrechnung manuell hinzufügen möchten, aktivieren Sie dieses Kontrollkästchen. Dann müssen Sie nur noch das Dokument buchen. Das System erstellt das Dokument automatisch basierend auf Ihrem Berichtslayout und hängt es an die Transaktion an.
 5. Aktivieren Sie das Kontrollkästchen **Überspringen, wenn manuell hinzugefügt**, wenn Sie keinen automatisch generierten digitalen Beleg hinzufügen möchten, wenn der Benutzer bereits einen manuellen Anhang hinzugefügt hat.
 
-### Verwenden Sie Quellcodes für die Einrichtung
+### <a name="use-source-codes-for-setup"></a>Verwenden Sie Quellcodes für die Einrichtung
 
 Um die Erzwingung für Buchungsblätter, aber nicht für alle Transaktionstypen, zu verwenden, verbinden Sie den spezifischen Quellcode, um den Postentyp im Fibu-Buchungsblatt, Verkaufsbuchungsblatt oder Einkaufsbuchungsblatt zu identifizieren.
 
@@ -58,7 +58,7 @@ Gehen Sie folgendermaßen vor, um spezifische Quellcodes für digitale Belege ei
 2. Wählen Sie auf der Seite **Quellcodes für Belegposten** die Quellcodes aus, die Sie konfigurieren möchten.
 3. Schließen Sie die Seite.
 
-## Funktionen verwenden
+## <a name="use-the-functionality"></a>Funktionen verwenden
 
 Öffnen Sie einen Einkaufs- oder Verkaufsbeleg und geben Sie Informationen in die erforderlichen Felder ein. Bevor Sie den Beleg buchen, müssen Sie die folgenden Schritte ausführen, um einen digitalen Beleg anzuhängen.
 
@@ -75,13 +75,13 @@ Wenn Sie versehentlich den falschen Beleg anhängen, befolgen Sie diese Schritte
 > [!NOTE]
 > Wenn das Anhängen eines digitalen Belegs als obligatorisch konfiguriert ist und Sie versuchen, Belege oder Buchungsblätter zu buchen, ohne einen Beleg anzuhängen, verhindert das System das Buchen. Sie erhalten die folgende Fehlermeldung: „Buchen ohne Anhängen des digitalen Belegs nicht möglich.“
 
-### Angehängte Belege in Transaktionen finden
+### <a name="find-attached-vouchers-in-transactions"></a>Angehängte Belege in Transaktionen finden
 
 Sie finden den beigefügten Beleg aus dem gebuchten Beleg oder der Seite **Sachposten** in der Infobox **Eingehende Belegdateien**.
 
 Sie können einen angehängten Beleg nicht löschen, nachdem die Buchung abgeschlossen ist. Sie können jedoch nach Abschluss der Buchung weitere Anhänge hinzufügen.
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Finanzmanagement](finance.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
