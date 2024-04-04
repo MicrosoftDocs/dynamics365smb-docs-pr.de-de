@@ -11,22 +11,22 @@ ms.date: 04/13/2023
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# <a name="inventory-and-warehouse-reports-and-analytics"></a>Bestands- und Lagerberichte und Analysen
+# Bestands- und Lagerberichte und Analysen
 
 Die Bestands- und Lagerberichterstattung in [!INCLUDE [prod_short](includes/prod_short.md)] gibt Bestands- und Geschäftsfachleuten Einblicke und Statistiken über aktuelle und vergangene Bestands- und Lageraktivitäten.  
 
-## <a name="reports"></a>Berichte
+## Berichte
 
 [!INCLUDE [inventory_WMS_reports](includes/inventory-WMS-reports-include.md)]
 
-## <a name="tasks"></a>Aufgaben
+## Aufgaben
 
 In den folgenden Artikeln werden einige der wichtigsten Aufgaben zur Analyse des Status Ihres Unternehmens beschrieben:
 
 * [Analyseberichte erstellen](bi-how-create-analysis-views-reports.md)  
 * [Artikelverfügbarkeit anzeigen](inventory-how-availability-overview.md)
 
-## <a name="print-and-scan-barcodes"></a>Barcodes drucken und scannen
+## Barcodes drucken und scannen
 
 Die Verwendung von Barcodes kann dazu beitragen, Ihre Eingangs-, Ausgangs- und internen Lagerprozesse zu optimieren. 
 
@@ -44,7 +44,7 @@ Nachdem Sie die App installiert haben, können Sie die Aktion **Etikett drucken*
 > [!NOTE]
 > Manche Drucker und Barcode-/QR-Codeformate erfordern eine spezielle Implementierung. Möglicherweise müssen Sie eine andere Word-Vorlage hochladen oder den Bericht klonen, um Ihre eigene angepasste Version zu erstellen.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Bestand einrichten](inventory-setup-inventory.md)  
 [Bestand](inventory-manage-inventory.md)  

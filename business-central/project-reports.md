@@ -9,21 +9,22 @@ ms.date: 06/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="project-reports-and-analytics-in-business-central"></a>Projektberichte und Analysen in Business Central
+# Projektberichte und Analysen in Business Central
 
 Die Projektberichterstattung in [!INCLUDE [prod_short](includes/prod_short.md)] ermöglicht es Projekt- und Geschäftsfachleuten, Einblicke und Statistiken über aktuelle und vergangene Projektaktivitäten zu erhalten.  
 
-## <a name="reports"></a>Berichte
+## Berichte
+
 [!INCLUDE [project_reports](includes/project-reports-include.md)]
 
-## <a name="tasks"></a>Aufgaben
+## Aufgaben
 
 In den folgenden Artikeln werden einige der wichtigsten Aufgaben zur Analyse des Status Ihres Unternehmens beschrieben:
 
 * [Überwachen des Status und der Leistung](projects-how-monitor-progress-performance.md)  
 
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Projektmanagement einrichten](projects-setup-projects.md)  
 [Projektmanagement](projects-manage-projects.md)  

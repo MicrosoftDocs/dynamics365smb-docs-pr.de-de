@@ -10,11 +10,11 @@ ms.date: 07/06/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="create-recurring-purchase-lines"></a>Wiederkehrende Einkaufszeilen erstellen
+# Wiederkehrende Einkaufszeilen erstellen
 
 Wenn Sie häufiger Einkaufszeilen mit ähnlichen Daten erstellen müssen, können Sie die Standardzeilen einrichten, die Sie in wiederkehrenden Einkaufsbelegen, z. B. für wiederkehrende Ersatzaufträge benötigen.
 
-## <a name="set-up-recurring-purchase-lines"></a>Wiederkehrende Einkaufszeilen einrichten
+## Wiederkehrende Einkaufszeilen einrichten
 
 1. Wählen Sie das Symbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Wiederkehrende Einkaufszeilen** ein, und wählen Sie dann den zugehörigen Link aus.
 2. Wählen Sie auf der Seite **Wiederkehrende Einkaufszeilen** die Aktion **Neu** aus.
@@ -26,7 +26,7 @@ Wenn Sie häufiger Einkaufszeilen mit ähnlichen Daten erstellen müssen, könne
 
 [!INCLUDE [line-no-info](includes/line-no-info.md)]
 
-## <a name="assign-recurring-purchase-lines-to-a-vendor"></a>Einem Kreditor wiederkehrende Einkaufszeilen zuweisen
+## Einem Kreditor wiederkehrende Einkaufszeilen zuweisen
 
 Weisen Sie einem Debitor wiederkehrende Einkaufszeilen zu, sodass sie zum Einfügen in Verkaufsbelege von diesem Debitor zur Verfügung stehen.
 
@@ -43,7 +43,7 @@ Weisen Sie einem Debitor wiederkehrende Einkaufszeilen zu, sodass sie zum Einfü
 |**Automatisch**|Wenn mehrere wiederkehrende Einkaufszeilen für den Kreditor vorhanden sind, erhalten Sie eine Benachrichtigung, in der Sie auswählen können, welche eingefügt werden soll. Wenn nur eine wiederkehrende Einkaufszeile vorhanden ist, wird sie automatisch eingefügt.<br /><br />Dies funktioniert nur, wenn der neue Beleg über eine Belegliste erstellt wurde, z. B. durch Auswahl der Aktion **Neu** auf der Seite **Bestellungen**. Dies funktioniert nicht, wenn der Beleg beispielsweise über eine Kreditorenkarte erstellt wurde.|
 |**Immer bestätigen**|Eine Benachrichtigung erscheint und alle vorhandenen wiederkehrenden Einkaufszeilen werden angezeigt, sodass Sie eine auswählen können.
 
-## <a name="insert-recurring-purchase-lines-on-a-purchase-invoice"></a>Wiederkehrende Einkaufszeilen in eine Einkaufsrechnung einfügen
+## Wiederkehrende Einkaufszeilen in eine Einkaufsrechnung einfügen
 
 Wenn für den Kreditor wiederkehrende Einkaufszeilen vorhanden sind, können Sie diese in alle Arten von Einkaufsbelegen einfügen, z. B. in eine Einkaufsrechnung. Wenn Sie die Option **Immer fragen** aktiviert haben, während Sie Kreditoren wiederkehrende Einkaufszeilen hinzufügen, werden Sie informiert, wenn wiederkehrende Einkaufszeilen vorhanden sind.
 
@@ -53,7 +53,7 @@ Wenn für den Kreditor wiederkehrende Einkaufszeilen vorhanden sind, können Sie
 4. Wählen Sie auf der Seite **Wiederkehrende Einkaufszeilen** die Suchschaltfläche im Feld **Code** und dann eine Reihe von Standardeinkaufszeilen aus.
 5. Wählen Sie die Schaltfläche **OK**, um die Standardeinkaufszeilen in die Rechnung einzufügen, in die Sie Informationen verwenden ist beim oder bearbeiten können.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Einkauf](purchasing-manage-purchasing.md)  
 [Einkäufe einrichten](purchasing-setup-purchasing.md)  
