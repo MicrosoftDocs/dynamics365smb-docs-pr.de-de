@@ -10,7 +10,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="record-special-purchase-prices-and-discounts"></a>Besondere Verkaufspreise und Rabatte aufzeichnen
+# Besondere Verkaufspreise und Rabatte aufzeichnen
 
 > [!NOTE]
 > In Veröffentlichungszyklus 2 von 2020 haben wir optimierte Prozesse zum Einrichten und Verwalten von Preisen und Rabatten veröffentlicht. Wenn Sie ein neuer Kunde mit dieser Version sind, nutzen Sie die neue Erfahrung. Wenn Sie bereits Kunde sind, hängt es davon ab, ob Sie die neue Erfahrung verwenden, ob Ihr Administrator die Funktionsaktualisierung **Neues Verkaufspreiserlebnis** in **Funktionsverwaltung** akualisiert hat. Weitere Informationen finden Sie unter [Bevorstehende Funktionen im Voraus aktivieren](/dynamics365/business-central/dev-itpro/administration/feature-management).
@@ -30,7 +30,7 @@ Für die Rabatte können Sie zwei Arten von Einkaufsrabatten einrichten und verw
 
 Da Einkaufszeilenrabatte und Einkaufspreise auf einer Kombination aus Artikel und Kreditor basieren, kann diese Konfiguration auch auf der Artikelkarte erfolgen, auf der die Regeln und Werte definiert sind. Weitere Informationen finden Sie unter [Neue Artikel registrieren](inventory-how-register-new-items.md).
 
-## <a name="to-set-up-a-special-purchase-price-for-a-vendor"></a>Einen Speziellen Einkaufspreis für einen Kreditor einrichten
+## Einen Speziellen Einkaufspreis für einen Kreditor einrichten
 
 #### [Aktuelle Erfahrung](#tab/current-experience)
 
@@ -53,7 +53,7 @@ Da Einkaufszeilenrabatte und Einkaufspreise auf einer Kombination aus Artikel un
 
 ---
 
-## <a name="to-set-up-a-line-discount-for-a-vendor"></a>Um einen Zeilenrabatt für einen Kreditor einzurichten
+## Um einen Zeilenrabatt für einen Kreditor einzurichten
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Kreditoren** ein und wählen Sie dann den zugehörigen Link.
 2. Öffnen Sie die relevante Kreditorenkarte, und klicken Sie dann auf die Aktion **Zeilenrabatte**.
@@ -62,7 +62,7 @@ Da Einkaufszeilenrabatte und Einkaufspreise auf einer Kombination aus Artikel un
 3. Füllen Sie die Felder in der Zeile wie erforderlich aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Füllen Sie eine Zeile für jede Kombination aus, für die Sie dem Kreditor einen Einkaufszeilenrabatt gewähren.
 
-## <a name="to-set-up-an-invoice-discount-for-a-vendor"></a>Um einen Rechnungsrabatt für einen Kreditor einzurichten
+## Um einen Rechnungsrabatt für einen Kreditor einzurichten
 
 Wenn Ihre Kreditoren Sie informiert haben, welche Rechnungsrabatte sie gewähren, können Sie den Rechnungsrabattcode auf den Kreditorenkarten eingeben und Bedingungen für jeden Code einrichten.
 
@@ -82,7 +82,7 @@ Wenn Ihre Kreditoren Sie informiert haben, welche Rechnungsrabatte sie gewähren
 
 Der Rechnungsrabatt wird jetzt eingerichtet und dem fraglichen Kreditor zugewiesen. Wenn Sie den Kreditorencode im Feld **Rechnungs-Rabattcode** für andere Kreditorenkarten auswählen, wird derselbe Rechnungsrabatt diesen Kreditoren zugewiesen.
 
-## <a name="to-choose-a-principle-for-posting-purchase-discounts"></a>So wählen Sie ein Prinzip für die Buchung von Einkaufsrabatten aus
+## So wählen Sie ein Prinzip für die Buchung von Einkaufsrabatten aus
 
 Wenn Sie eine Einkaufsrechnung buchen, die einen oder mehrere Rabatte enthält, können Sie zwischen zwei Prinzipien für die Buchung von Rabattbeträgen wählen. Sie können die Rabattbeträge separat buchen oder diese von den Rechnungsbeträgen abziehen.  
 
@@ -98,7 +98,7 @@ Bevor Sie dies tun können, müssen Sie zuvor die notwendigen Konten für die Bu
 |**Zeilenrabatte**|Abziehen|Separat Buchen|  
 |**Keine Rabatte**|Abziehen|Abziehen|  
 
-## <a name="purchase-invoice-discounts-and-service-charges"></a>Einkaufsrechnungsrabatte und Servicegebühren
+## Einkaufsrechnungsrabatte und Servicegebühren
 
 Wenn Sie feste Konditionen für Rechnungsrabatte mit einzelnen Kreditoren haben, können Sie diese für die einzelnen Kreditoren einrichten. Der Rabatt wird berechnet, wenn Sie eine Einkaufsrechnung erstellen.  
 
@@ -115,7 +115,7 @@ Sie können wählen, ob [!INCLUDE[prod_short](includes/prod_short.md)] automatis
 > [!TIP]  
 > Bevor Sie diese Informationen eingeben, ist es sinnvoll, eine Skizze der Rabattstruktur vorzubereiten, die Sie verwenden möchten. Daraus ist leichter zu ersehen, welche Kreditoren mit der gleichen Rechnungsrabattseite verknüpft werden können. Wenn Sie weniger Seiten einrichten müssen, können Sie die Basisinformationen schneller eingeben.
 
-## <a name="best-price-calculation"></a>Berechnung des besten Preises
+## Berechnung des besten Preises
 
 Falls Sie spezielle Preise und Zeilenrabatte für Verkäufe und Einkäufe erfasst haben, stellt [!INCLUDE[prod_short](includes/prod_short.md)] sicher, dass der Deckungsbeitrag im Artikelhandel immer optimal ist, indem er die besten Preise automatisch in Einkaufs- und Verkaufsbelegen und auf Projekt und Artikel Buch.-Blattzeilen berechnet.
 
@@ -138,7 +138,7 @@ Der beste Preis ist der niedrigste mögliche Preis mit dem höchsten möglichen 
 
 Wenn keine Spezialpreise für die Artikel in der Zeile gefunden werden, werden entweder die letzten direkten Kosten oder der VK-Preis von der Artikelkarte oder der Lagerhaltungsdatenkarte verwendet.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Einkaufeinrichten](purchasing-setup-purchasing.md)  
 [Einkauf](purchasing-manage-purchasing.md)  

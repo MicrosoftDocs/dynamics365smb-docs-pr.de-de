@@ -10,11 +10,11 @@ ms.review: jswymer
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
-# <a name="minimum-requirements-for-using-business-central"></a>Mindestanforderungen für die Nutzung von Business Central
+# Mindestanforderungen für die Nutzung von Business Central
 
 Bevor Sie auf [!INCLUDE[prod_short](includes/prod_short.md)] online zugreifen, empfiehlt es sich, dass Sie sicherstellen, dass Ihr Computer oder Ihr mobiles Gerät die Mindestsystemanforderungen für das Produkt erfüllt oder übersteigt. Dieser Artikel liste die Anforderungen auf.  
 
-## <a name="browsers"></a>Browser
+## Browser
 
 **Microsoft Edge:** [!INCLUDE[prod_short](includes/prod_short.md)] funktioniert mit der aktuellen Version von Microsoft Edge.
   
@@ -27,19 +27,19 @@ Bevor Sie auf [!INCLUDE[prod_short](includes/prod_short.md)] online zugreifen, e
 
 Wir empfehlen Ihnen, eine stabile Kanalversion eines Webbrowsers zu verwenden, da es sich um die zuverlässigste und stabilste Version handelt, die umfangreichen Tests und Fehlerbehebungen unterzogen wurde. Dies stellt sicher, dass Sie das beste Erlebnis haben und bei der Verwendung des Webclients weniger wahrscheinlich auf Probleme stoßen.
 
-## <a name="mobile-devices"></a>Mobile Geräte
+## Mobile Geräte
 
 **Android (Tablet und Telefon)**: Eine der letzten drei Hauptversionen des Betriebssystems und deren Updates.
 
 **iOS (iPad und iPhone):** Eine der letzten drei Hauptversionen des Betriebssystems und deren Updates.
 
-## <a name="outlook"></a>Outlook
+## Outlook
 
 **Outlook-Anwendungen**: Um [!INCLUDE[prod_short](includes/prod_short.md)] online als Ihren Unternehmensposteingang in Outlook zu verwenden, benötigen Sie Outlook 2019 oder höher bzw. Outlook im Web. Ihre Organisation muss auch Microsoft 365 verwenden. Sie können [!INCLUDE[prod_short](includes/prod_short.md)] online nicht als Ihr Geschäftseingang in Outlook verwenden, wenn Ihre Organisation Exchange Server lokal verwendet. 
 
 **Browser:** Wenn Sie [!INCLUDE[prod_short](includes/prod_short.md)] als Ihren geschäftlichen Posteingang in Outlook in einem Browser verwenden, erfordert das Add-In, dass auf Ihrem Computer einer der aufgeführten unterstützten Browser ausgeführt wird, die zuvor in diesem Artikel aufgeführt wurden. 
 
-## <a name="teams"></a>Teams
+## Teams
 
 **Teams Desktop-Anwendungen:** Die [!INCLUDE[prod_short](includes/prod_short.md)] App für Teams unterstützt die neueste Version des Teams Windows-Desktopclients. 
 
@@ -49,11 +49,11 @@ Wir empfehlen Ihnen, eine stabile Kanalversion eines Webbrowsers zu verwenden, d
 
 **Unterstütztes Abonnement**: Die [!INCLUDE[prod_short](includes/prod_short.md)]-App für Teams unterstützt die Microsoft 365 Business- und Enterprise-Abonnements, die Microsoft Teams oder Microsoft Teams EEA beinhalten, aber nicht andere eigenständige Teams-Abonnements wie Microsoft Teams (kostenlos) oder Microsoft Teams Essentials.
 
-## <a name="excel"></a>Excel
+## Excel
 
 **Bearbeiten in Excel:** Um Excel-Add-Ins zu verwenden, um Änderungen in Excel vorzunehmen und die Änderungen zurück zu ändern in [!INCLUDE[prod_short](includes/prod_short.md)]benötigen Sie Excel 2019 oder später. Weitere Informationen finden Sie unter [Finanzauswertungen analysieren Microsoft Excel](finance-analyze-excel.md).  
 
-## <a name="using-the-business-central-administration-center"></a><a name="TAC"></a>Business Central Admin Center verwenden
+## <a name="TAC"></a> Business Central Admin Center verwenden
 
 Das Admin Center funktioniert mit der aktuellen Version der folgenden Browser:
 
@@ -62,11 +62,11 @@ Das Admin Center funktioniert mit der aktuellen Version der folgenden Browser:
 - Firefox für Windows
 - Safari für macOS
 
-## <a name="use-business-central-on-premises"></a>Business Central lokal verwenden
+## Business Central lokal verwenden
 
 Wenn Sie Business Central lokal bereitstellen möchten, sollten Sie die Systemanforderungen überprüfen. Weitere Informationen finden Sie unter [Systemvoraussetzungen für Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirements-business-central-v23) und [Bereitstellungsübersicht](/dynamics365/business-central/dev-itpro/deployment/deployment).  
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Bereitschaft für die Geschäftsabwicklung](ui-get-ready-business.md)  
 [Systemanforderungen für Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirements-business-central-v23)  
