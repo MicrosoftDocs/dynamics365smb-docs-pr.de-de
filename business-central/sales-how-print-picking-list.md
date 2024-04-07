@@ -9,13 +9,13 @@ ms.date: 06/25/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="print-the-picking-list"></a>Kommissionierliste drucken
+# Kommissionierliste drucken
 
 Sie können eine Lager-Kommissionierliste direkt aus einem Verkaufsauftrag und anderen Belegen drucken, die den Versand von Artikeln einleiten.
 
 Dieser Bericht wird normalerweise in Unternehmen ohne dedizierte Funktionen für die Lagerverwaltung verwendet, sodass ein Lagerarbeiter die Kommissionierliste über den zugehörigen Verkaufsbeleg aufrufen oder drucken kann. In Unternehmen mit höherem Volumen oder komplexeren Prozessen werden die Lieferung und die Kommissionierung in dedizierten Lagerdokumenten geplant und durchgeführt. Weitere Informationen finden Sie unter [Ausgehender Lagerfluss](design-details-outbound-warehouse-flow.md).
 
-## <a name="to-print-a-picking-list-from-a-sales-order"></a>So drucken Sie eine Kommissionierliste aus einem Verkaufsauftrag
+## So drucken Sie eine Kommissionierliste aus einem Verkaufsauftrag
 
 Das folgende Verfahren basiert auf einer Auftragsabwicklung. Die Schritte sind für alle anderen Belege ähnlich, mit denen der Versand von Artikeln eingeleitet werden kann, z. B. ein Umlagerungsauftrag.
 
@@ -29,7 +29,7 @@ Sie können die Kommissionierliste auch als Dokument speichern, um sie beispiels
 > [!NOTE]
 > Wenn Sie die Funktion **Stückliste explodieren** auf dem Verkaufsauftrag verwendet haben, werden im Bericht nur die Komponenten des zugehörigen Montageartikels angezeigt. Weitere Informationen finden Sie unter [Mit Stücklisten arbeiten](inventory-how-work-BOMs.md).
 
-## <a name="see-also"></a>Weitere Informationen
+## Weitere Informationen
 
 [Bestand](inventory-manage-inventory.md)  
 [Ausgehende Lagerflüsse](design-details-outbound-warehouse-flow.md)
