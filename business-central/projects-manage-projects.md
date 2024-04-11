@@ -9,7 +9,7 @@ ms.date: 06/22/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Projektmanagement
+# <a name="project-management"></a>Projektmanagement
 
 In [!INCLUDE[prod_short](includes/prod_short.md)] können Sie allgemeine Projektmanagement-Verwaltungsaufgaben ausführen, wie Konfigurieren eines Projekts und Planen einer Ressource sowie Bereitstellung der Informationen, die benötigt werden, um Budgets zu verwalten und den Status zu überwachen. Sie können Computer- und Mitarbeiterstunden für das Projekt verfolgen, indem Sie Arbeitszeittabellen verwenden. Als Projektmanager haben Sie einen guten Überblick, nicht nur über einzelnen Projekte, sondern auch über die Verteilung der Mitarbeitenden, der Maschinen und anderer Ressourcen, die in allen Projekten verwendet werden.
 
@@ -29,11 +29,11 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 | Buchen Sie den Materialverbrauch, Ressourcen und andere Aufwendungen im Projekt-Umlaufbestand (WIP), um den Finanzwert zu überwachen und die richtige Finanzauswertungen beizubehalten, wenn Sie Projektausgaben buchen, bevor Sie das Projekt in Rechnung stellen. |[Projektfortschritt und -leistung überwachen](projects-how-monitor-progress-performance.md) |
 | Erfassen von Projektkosten für den Ressourcenverbrauch, Material oder projektbezogene Einkäufe auf laufender Basis und Rechnungsstellung an den Debitor, entweder wenn das Projekt beendet ist oder entsprechend dem Fakturierungsplan. |[Projekt fakturieren](projects-how-invoice-jobs.md) |
 
-## Erste Schritte mit Projekten
+## <a name="get-started-with-projects"></a>Erste Schritte mit Projekten
 
 Projektmanagement allein ist schon kompliziert genug, und zu Lernen, wie Projekte erstellt und Umlaufbestand in einem neuen Tool verwaltet werden, kann eine zusätzliche Komplikation sein. Als Hilfe beim Projektmanagement in [!INCLUDE[prod_short](includes/prod_short.md)] können Sie sich [ein Video zum Erstellen von Projekten](https://www.youtube.com/watch?v=VqaPWr7BWmw) im [!INCLUDE[prod_short](includes/prod_short.md)] YouTube-Kanal ansehen.  
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Einrichten des Projektmanagements](projects-setup-projects.md)  
 [Video: Wie man ein Projekt in Dynamics 365 Business Central erstellt](https://www.youtube.com/watch?v=VqaPWr7BWmw)  

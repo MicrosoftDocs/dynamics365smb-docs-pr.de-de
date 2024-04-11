@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# In Business Central integrierte Finanzberichte
+# <a name="built-in-finance-reports-in-business-central"></a>In Business Central integrierte Finanzberichte
 
 [!INCLUDE [prod_short](includes/prod_short.md)] enthält mehrere integrierte Berichte, Nachverfolgungsfunktionen und Tools, die Wirtschaftsprüfern oder Controllern helfen, die für die Berichterstattung an die Finanzabteilung verantwortlich sind. 
 
@@ -19,7 +19,7 @@ ms.service: dynamics-365-business-central
 [!INCLUDE [finance_reports](includes/finance-reports-include.md)]
 
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Kostenbudgets erstellen](finance-create-cost-budgets.md)  
 [MwSt. an die Steuerbehörden melden](finance-how-report-vat.md)  

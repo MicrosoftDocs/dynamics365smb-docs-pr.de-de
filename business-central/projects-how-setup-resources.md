@@ -11,7 +11,7 @@ ms.date: 02/22/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Ressourcen für Projekte einrichten
+# <a name="set-up-resources-for-projects"></a>Ressourcen für Projekte einrichten
 
 Zur ordnungsgemäßen Verwaltung von Ressourcenaktivitäten ist die Einrichtung von Ressourcen sowie der zugehörigen Kosten und Preise erforderlich. Die projektbezogenen Preise, Rabatte und Kostenfaktorregeln werden auf der Projektkarte eingerichtet. Die Kosten und Preise können für einzelne Ressourcen, für Ressourcengruppen oder für alle verfügbaren Ressourcen des Unternehmens angegeben werden.
 
@@ -25,7 +25,7 @@ Der standardmäßige Betrag pro Stunde wird bei der Ressourcenerstellung angegeb
 >  
 > Wenn Sie Intercompany-Transaktionen buchen, können Sie zwar eine Ressource in eine Position eines Verkaufsauftrags schreiben, aber wenn Sie den Verkaufsauftrag auf der Empfängerseite in eine Bestellung umwandeln, wird die Ressource nicht eingeschlossen. Um Ressourcen in Intercompany-Transaktionen zu verwenden, verwenden Sie die **IC Einkauf. Sachkonto Nein.** Feld auf der Ressourcenkarte, um das Konto anzugeben, auf das die Ausgaben gebucht werden sollen.
 
-## So richten Sie eine Ressource ein
+## <a name="to-set-up-a-resource"></a>So richten Sie eine Ressource ein
 
 Erstellen Sie für jede Ressource eine Karte,die Sie in " Projekte verwenden möchten.
 
@@ -33,7 +33,7 @@ Erstellen Sie für jede Ressource eine Karte,die Sie in " Projekte verwenden mö
 2. Wählen Sie die Aktion **Neu**.
 3. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-## Eine Ressourcengruppe einrichten
+## <a name="to-set-up-a-resource-group"></a>Eine Ressourcengruppe einrichten
 
 Mehrere Ressourcen können in einer Ressourcengruppe zusammengefasst werden. Alle Kapazitäten und Budgets der einzelnen Ressourcen werden für die Ressourcengruppe aufsummiert. Es ist ebenfalls möglich, Kapazitäten unabhängig von den summierten Werten oder zusätzlich einzugeben.
 
@@ -41,7 +41,7 @@ Mehrere Ressourcen können in einer Ressourcengruppe zusammengefasst werden. All
 2. Wählen Sie die Aktion **Neu** aus.
 3. Füllen Sie die Felder je nach Bedarf aus.
 
-## So legen Sie die Kapazität für eine Ressource fest
+## <a name="to-set-capacity-for-a-resource"></a>So legen Sie die Kapazität für eine Ressource fest
 
 Um zu berechnen wie viel Zeit eine Ressource in Projekten verbringen kann, muss deren Kapazität zuerst als verfügbare Zeit pro Periode im Arbeitskalender eingerichtet werden. Diese Einstellungen werden verwendet, wenn Sie Projektplanungszeilen ausfüllen, die die Ressource enthalten. Weitere Informationen finden Sie unter [Projekte erstellen](projects-how-create-jobs.md).
 
@@ -54,7 +54,7 @@ Um zu berechnen wie viel Zeit eine Ressource in Projekten verbringen kann, muss 
 7. Wählen Sie die Aktion **Kapazität aktualisieren** aus. Die Seite **Ressourcenkapazität** wird mit der eingegebenen Kapazität aktualisiert.
 8. Schließen Sie die Seite.
 
-## Um alternative Ressourcenkosten einzurichten:
+## <a name="to-set-up-alternate-resource-costs"></a>Um alternative Ressourcenkosten einzurichten:
 
 Zusätzlich zu den Kosten, die in der Ressourcenkarte angegeben werden, können Sie auch alternative Kosten für jede Ressource einrichten. Wenn z. B. ein Mitarbeiter einen anderen Stundensatz für Überstunden hat, können Sie für diesen Arbeitstyp einen Einstandspreis einrichten. Die alternativen Kosten, die Sie für die Ressource einrichten, übersteuert den Einstandspreis auf der Ressourcenkarte, wenn Sie die Ressource im Ressourcen Buch.-Blatt buchen.
 
@@ -65,7 +65,7 @@ Zusätzlich zu den Kosten, die in der Ressourcenkarte angegeben werden, können 
 
 **Hinweis**. Wenn Sie einen Ressourcen-EK-Preis einrichten möchten, der für alle Ressourcen und Ressourcengruppen gültig ist, öffnen Sie die Seite **Ressourcen Einst.-Pr.**, und füllen Sie die Felder aus.
 
-## Um alternative Ressourcenkosten einzurichten:
+## <a name="to-set-up-alternate-resource-prices"></a>Um alternative Ressourcenkosten einzurichten:
 
 Zusätzlich zu den Kosten, die in der Ressourcenkarte angegeben werden, können Sie auch alternative Kosten für jede Ressource einrichten. Diese alternativen Preise können von Bedingungen abhängig sein. D. h. sie können davon abhängen, ob diese Ressource in einem bestimmten Projekt oder für einen bestimmten Arbeitstyp verwendet wird.
 
@@ -74,7 +74,7 @@ Zusätzlich zu den Kosten, die in der Ressourcenkarte angegeben werden, können 
 3. Füllen Sie auf der Seite **Ressourcenpreise** die Felder auf einer Zeile nach Bedarf aus.
 4. Wiederholen Sie Schritt 3 für jeden alternativen Ressourcenpreis, den Sie einrichten möchten.
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Einrichten des Projektmanagements](projects-setup-projects.md)  
 [Projektmanagement](projects-manage-projects.md)  
