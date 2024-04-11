@@ -5,11 +5,11 @@ author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
-ms.date: 12/16/2021
+ms.date: 03/05/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Zusammenfassen von Lieferungen in einer einzelnen Rechnung
+# Lieferungen in einer einzelnen Rechnung zusammenfassen
 
 Wenn Sie mehr als eine Lieferung gleichzeitig fakturieren möchten, können Sie die Funktion zum Erstellen von Sammelrechnungen verwenden.  
 
@@ -26,7 +26,7 @@ Bevor Sie eine Sammelrechnung erstellen können, müssen Sie mehr als eine Verka
     - Um alle Zeilen einzufügen, wählen Sie alle Zeilen aus, und wählen Sie die Schaltfläche **OK**.  
     - Um spezifische Zeilen einzufügen, wählen Sie die Zeilen aus, und wählen Sie die Schaltfläche **OK**. Sie können die STRG-Taste verwenden, um mehrere nicht unmittelbar aufeinander folgende Zeilen auszuwählen.  
 
-    Wenn Sie eine falsche Lieferzeile ausgewählt haben oder von vorn beginnen möchten, können Sie einfach die Zeilen in der Rechnung löschen und die Funktion **Lieferzeilen holen** erneut ausführen.  
+    Wenn Sie eine falsche Lieferzeile ausgewählt haben oder von vorn beginnen möchten, können Sie die Zeilen in der Rechnung löschen und die Funktion **Lieferzeilen holen** erneut ausführen.  
 7. Um die Rechnung zu buchen, wählen Sie die Aktion **Buchen** aus.  
 
 > [!TIP]  

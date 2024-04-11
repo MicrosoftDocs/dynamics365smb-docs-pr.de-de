@@ -5,7 +5,7 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 12/08/2023
+ms.date: 03/15/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ms.search.form: '456, 457, 458, 459, 460, 461, 16, 22, 25, 26, 27, 31, 143, 144, 9300, 9301, 9303, 9304, 9305, 9306, 9307, 9309, 9310, 9311'
@@ -28,6 +28,11 @@ In diesem Artikel erfahren Sie, wie Sie Daten von Listenseiten und Abfragen mit 
 > Möglicherweise bemerken Sie, dass einige Listenseiten nicht über den Schalter **Analysieren** zum Wechseln in den Analysemodus verfügen. Der Grund dafür ist, dass Entwickler den Analysemodus auf bestimmten Seiten deaktivieren können, indem sie die [AnalysisModeEnabled-Eigenschaft](/dynamics365/business-central/dev-itpro/developer/properties/devenv-analysismodeenabled-property) in AL verwenden.
 
 ## Erste Schritte
+
+Gehen Sie wie folgt vor, um mit der Datenanalyse im Analysemodus zu beginnen.
+
+>[!TIP]
+> Zum Analysemodus gehört auch ein Copilot-Feature namens *Analyseunterstützung*, das Ihnen den Einstieg eventuell erleichtert. [Weitere Informationen über die Analyseunterstützung mit Copilot](analysis-assist.md).
 
 1. Öffnen Sie die Listenseite oder Abfrage.
 

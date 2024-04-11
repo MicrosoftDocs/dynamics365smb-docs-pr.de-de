@@ -15,7 +15,7 @@ ms.service: dynamics-365-business-central
 
 Beispielsweise ist Ihr Kontenplan mit Kontensummen vorausgefüllt, die zur Verwendung bereit sind. Sie können den Kontenplan selbstverständlich ändern und Ihren persönlichen Anforderungen anzupassen. Erfahren Sie mehr unter [Finanzen](finance.md).
 
-Über das Symbol ![ zum Öffnen des Menüs „Einstellungen“.](media/ui-experience/settings_icon_small.png) Menü können Sie auf Anleitungen zur unterstützten Einrichtung zugreifen, die Ihnen bei der Konfiguration bestimmter Szenarien und beim Hinzufügen von Funktionen helfen [!INCLUDE[prod_short](includes/prod_short.md)]. Weitere Informationen darüber, wie Sie auf alle unterstützte und manuelle Einrichtungsseiten zugreifen, finden Sie unter [Vorbereiten auf die Geschäftstätigkeiten](ui-get-ready-business.md).
+Über das Symbol ![zum Öffnen des Menüs „Einstellungen“.](media/ui-experience/settings_icon_small.png) Menü können Sie auf Anleitungen zur unterstützten Einrichtung zugreifen, die Ihnen bei der Konfiguration bestimmter Szenarien und beim Hinzufügen von Funktionen helfen [!INCLUDE[prod_short](includes/prod_short.md)]. Weitere Informationen darüber, wie Sie auf alle unterstützte und manuelle Einrichtungsseiten zugreifen, finden Sie unter [Vorbereiten auf die Geschäftstätigkeiten](ui-get-ready-business.md).
 
 > [!NOTE]
 > [!INCLUDE [ua-checklist](includes/ua-checklist.md)]
@@ -30,7 +30,7 @@ Zusätzlich zur unterstützten Einrichtung können einige allgemeine als auch so
 | Konfigurieren der Regeln und Werte, durch die die Einkaufsrichtlinien des Unternehmens definiert werden, erfassen von neuen Kreditoren und Priorisieren von Kreditoren für Zahlungsverarbeitungen. |[Einkaufeinrichten](purchasing-setup-purchasing.md) |
 | Konfigurieren der Regeln und Werte, die die Unternehmensrichtlinien für Lager definieren, Standorte einrichten, wenn Sie Ihren Lagerbestand in mehreren Lager führen und Ihre Artikel kategorisieren, um die Suche und das Sortieren zu verbessern. |[Bestand einrichten](inventory-setup-inventory.md) |
 |Geben Sie Standardberichte an, die für verschiedene Dokumenttypen verwendet werden sollen.|[Berichtsauswahl für Belege](across-report-selections.md)|
-| Ressourcen, Arbeitszeittabellen und Aufgaben einrichten, um Projekte zu verwalten. |[Projektmanagement einrichten](projects-setup-projects.md) |
+| Ressourcen, Arbeitszeittabellen und Projekte einrichten, um Projekte zu verwalten. |[Einrichten des Projektmanagements](projects-setup-projects.md) |
 | Konfiguriert, wie Anlagen versichert, verwaltet und abgeschrieben werden und wie Sie die Kosten aus Anlagen in Ihren Mandantenbüchern erfassen. |[Anlagen einrichten](fa-setup.md) |
 |Definieren Sie die allgemeinen Regeln und Werte für Lagerprozesse und die spezifische Bearbeitung an jedem Lagerort.|[Einrichten von Warehouse Management](warehouse-setup-warehouse.md)|
 |Bereiten Sie Fertigungsstücklisten und Arbeitspläne vor, um zu definieren, wie Endartikel produkziert werden und bereiten Sie Arbeitsplätze oder Arbeitsplatzgruppen vor, um die notwendigen Arbeitsgänge auszuführen.|[Produktion einrichten](production-configure-production-processes.md)|

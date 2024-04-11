@@ -17,7 +17,7 @@ ms.service: dynamics-365-business-central
 
 Definieren Sie die verschiedenen Preis- und Rabattvereinbarungen, die beim Artikeleinkauf von unterschiedlichen Kreditoren gelten, damit die vereinbarten Regeln und Werte auf die für den Kreditor erstellten Einkaufsbelege angewendet werden.
 
-Falls Sie spezielle Preise und Zeilenrabatte für Verkäufe und Einkäufe erfasst haben, stellt [!INCLUDE[prod_short](includes/prod_short.md)] sicher, dass der Deckungsbeitrag im Artikelhandel immer optimal ist, indem er die besten Preise automatisch in Einkaufs- und Verkaufsbelegen und auf Projekt und Artikel Buch.-Blattzeilen berechnet. Weitere Informationen finden Sie unter [Beste Preisberechnung](purchasing-how-record-purchase-price-discount-payment-agreements.md#best-price-calculation).
+Falls Sie spezielle Preise und Zeilenrabatte für Verkäufe und Einkäufe erfasst haben, stellt [!INCLUDE[prod_short](includes/prod_short.md)] sicher, dass der Deckungsbeitrag im Artikelhandel immer optimal ist, indem er die besten Preise automatisch in Einkaufs- und Verkaufsbelegen und auf Projekt- und Artikel-Buch.-Blattzeilen berechnet. Weitere Informationen finden Sie unter [Beste Preisberechnung](purchasing-how-record-purchase-price-discount-payment-agreements.md#best-price-calculation).
 
 Für die Preise können Sie besondere auf den Einkaufszeilen verschiedene Einkaufspreise einfügen, wenn eine bestimmte Kombination aus Kreditor, Artikel, Mindestmenge, Einheit oder des Start-/Enddatum vorhanden ist.
 
@@ -55,7 +55,7 @@ Da Einkaufszeilenrabatte und Einkaufspreise auf einer Kombination aus Artikel un
 
 ## Um einen Zeilenrabatt für einen Kreditor einzurichten
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Kreditoren** ein und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren") Symbol. Geben Sie **Kreditoren** ein und wählen Sie dann den zugehörigen Link.
 2. Öffnen Sie die relevante Kreditorenkarte, und klicken Sie dann auf die Aktion **Zeilenrabatte**.
 
    Das Feld **Kreditorennr.** ist mit der Nummer des Kreditors ausgefüllt.
@@ -77,7 +77,7 @@ Wenn Ihre Kreditoren Sie informiert haben, welche Rechnungsrabatte sie gewähren
 4. Auf der Seite **Kreditorenkarte** wählen Sie die Aktion **Rechnungsrabatt** aus. Die Seite **Kreditorenrechnungsrabatte** wird geöffnet.
 5. Geben Sie in dem Feld **Währungscode** den Code für die Währung ein, für die die Rechnungsrabattkonditionen gelten sollen. Wenn Sie Rechnungsrabattbedingungen in EUR einrichten möchten, dann lassen Sie das Feld leer.
 6. Geben Sie im Feld **Minimalbetrag** den Mindestbetrag ein, den eine Rechnung aufweisen muss, um für einen Rabatt in Frage zu kommen.
-7. Geben Sie im Feld **Rabatt** den Rechnungsrabatt als Prozentsatz des Rechnungsbetrages ein.
+7. Geben Sie im Feld **Rabatt %%** den Rechnungsrabatt als Prozentsatz des Rechnungsbetrages ein.
 8. Wiederholen Sie die Schritte 5 bis 7 für jede Währung, für die der Kreditor einen Rechnungsrabatt erhält.
 
 Der Rechnungsrabatt wird jetzt eingerichtet und dem fraglichen Kreditor zugewiesen. Wenn Sie den Kreditorencode im Feld **Rechnungs-Rabattcode** für andere Kreditorenkarten auswählen, wird derselbe Rechnungsrabatt diesen Kreditoren zugewiesen.
@@ -89,7 +89,7 @@ Wenn Sie eine Einkaufsrechnung buchen, die einen oder mehrere Rabatte enthält, 
 Bevor Sie dies tun können, müssen Sie zuvor die notwendigen Konten für die Buchung von Rabattbeträgen im Kontenplan eingerichtet haben. Sie müssen auch überprüfen, ob Sie die richtigen Kontonummern in der Buchungsmatrix-Einrichtung in den Feldern **Eink.-Zeilenrabattkonto** und **Eink.-Rechnungsrabattkonto** eingegeben haben.
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Kredite und Einkauf Einr. ein** und wählen Sie dann den entsprechenden Link.
-2. Klicken Sie in das Feld  **Rabattbuchung**, um ein Prinzip für die Buchung von Rabatten auszuwählen.
+2. Klicken Sie in das Feld **Rabattbuchung**, um ein Prinzip für die Buchung von Rabatten auszuwählen.
 
 |**Rabattbuchungsprinzip**|**Rechnungsrabatt**|**Zeilenrabatt**|  
 |------------------------------------|--------------------------|-----------------------|  
@@ -117,7 +117,7 @@ Sie können wählen, ob [!INCLUDE[prod_short](includes/prod_short.md)] automatis
 
 ## Berechnung des besten Preises
 
-Falls Sie spezielle Preise und Zeilenrabatte für Verkäufe und Einkäufe erfasst haben, stellt [!INCLUDE[prod_short](includes/prod_short.md)] sicher, dass der Deckungsbeitrag im Artikelhandel immer optimal ist, indem er die besten Preise automatisch in Einkaufs- und Verkaufsbelegen und auf Projekt und Artikel Buch.-Blattzeilen berechnet.
+Falls Sie spezielle Preise und Zeilenrabatte für Verkäufe und Einkäufe erfasst haben, stellt [!INCLUDE[prod_short](includes/prod_short.md)] sicher, dass der Deckungsbeitrag im Artikelhandel immer optimal ist, indem er die besten Preise automatisch in Einkaufs- und Verkaufsbelegen und auf Projekt- und Artikel-Buch.-Blattzeilen berechnet.
 
 Der beste Preis ist der niedrigste mögliche Preis mit dem höchsten möglichen Zeilenrabatt an einem bestimmten Datum. [!INCLUDE[prod_short](includes/prod_short.md)] berechnet diesen Preis, wenn Sie den Verkaufspreis und den prozentualen Zeilenrabatt für Artikel auf neuen Beleg und Buch.-Blattzeilen eingefügt haben.
 

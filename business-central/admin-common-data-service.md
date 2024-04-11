@@ -5,7 +5,7 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: ivkoleti
 ms.topic: conceptual
-ms.date: 06/28/2023
+ms.date: 03/08/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
@@ -70,6 +70,12 @@ Die Währungssynchronisierung erfolgt unidirektional, von [!INCLUDE [prod_short]
 
 * Beträge in der [!INCLUDE[prod_short](includes/cds_long_md.md)] Basiswährung werden basierend auf dem letzten synchronisierten Wechselkurs von [!INCLUDE [prod_short](includes/prod_short.md)] in die [!INCLUDE [prod_short](includes/prod_short.md)] lokale Währung umgerechnet.
 * Beträge in der [!INCLUDE [prod_short](includes/prod_short.md)] lokalen Währung werden mit der [!INCLUDE [prod_short](includes/prod_short.md)] lokalen Währung in einer der anderen (nicht Basis-)Währungen in [!INCLUDE[prod_short](includes/cds_long_md.md)] synchronisiert.
+
+## Was passiert, wenn Sie ein Unternehmen kopieren?
+
+Sie können Unternehmen, die mit [!INCLUDE[prod_short](includes/cds_long_md.md)] oder [!INCLUDE[crm_md](includes/crm_md.md)] integriert sind, bedenkenlos kopieren. Das Kopieren von Unternehmen verringert das Risiko von Dateninkonsistenzen und kann Ihnen wertvolle Zeit sparen. Weitere Informationen zum Kopieren von Unternehmen finden Sie unter [Unternehmen kopieren](about-new-company.md#copy-a-company).
+
+[!INCLUDE [dataverse-copy-company](includes/dataverse-copy-company.md)]
 
 ## Siehe auch
 

@@ -11,7 +11,7 @@ ms.custom: bap-template
 ---
 # Designdetails: Zentrale Konzepte des Planungssystems
 
-Die Planungsfunktionen sind in einer Stapelverarbeitung enthalten, die zuerst die entsprechenden Artikel und die Periode für die Planung auswählt. Dann ruft der Batch-Job gemäß dem Low-Level-Code jedes Artikels (Stücklistenposition) eine Codeeinheit auf, die einen Lieferplan berechnet. Die Codeeinheit gleicht Angebot-Nachfrage-Sätze aus und schlägt dem Benutzer Maßnahmen vor, die er ergreifen soll. Die vorgeschlagenen Aktionen erscheinen als Zeilen im Planungsarbeitsblatt oder Bestellarbeitsblatt.  
+Die Planungsfunktionen sind in einem Stapelprojekt enthalten, die zuerst die entsprechenden Artikel und die Periode für die Planung auswählt. Dann ruft der Batch-Job gemäß dem Low-Level-Code jedes Artikels (Stücklistenposition) eine Codeeinheit auf, die einen Lieferplan berechnet. Die Codeeinheit gleicht Angebot-Nachfrage-Sätze aus und schlägt dem Benutzer Maßnahmen vor, die er ergreifen soll. Die vorgeschlagenen Aktionen erscheinen als Zeilen im Planungsarbeitsblatt oder Bestellarbeitsblatt.  
 
 ![Inhalt der Seite Planungsarbeitsblätter.](media/design_details_central_concepts_of_the_planning_system_planning_worksheets.png "Inhalt der Seite „Planungsarbeitsblätter“")  
 
@@ -75,7 +75,7 @@ Nachdem Sie die Planung ausgeführt haben, enthält die Ereignismeldungstabelle 
 
 ## Sequenz und Priorität in der Planung
 
-Die Reihenfolge der Berechnungen in Ihrem Plan ist wichtig, um die Arbeit in angemessener Zeit zu erledigen. Die Priorisierung von Anforderungen und Ressourcen spielt auch eine wichtige Rolle bei der Erlangung bester Ergebnisse.  
+Die Reihenfolge der Berechnungen in Ihrem Plan ist wichtig, um das Projekt in angemessener Zeit zu erledigen. Die Priorisierung von Anforderungen und Ressourcen spielt auch eine wichtige Rolle bei der Erlangung bester Ergebnisse.  
 
 Das Planungssystem ist bedarfsgesteuert. Artikel auf hoher Ebene sollten vor Artikeln auf niedriger Ebene geplant werden, da sie weiteren Bedarf für Artikel auf niedriger Ebene generieren könnten. Beispiel: Planen Sie die Einzelhandelsstandorte vor Vertriebsstellen, da der Einzelhandelsstandort zusätzlichen Bedarf aus der Vertriebsstelle umfassen könnte. Auf einer detaillierten Abschlussebene sollte das System keinen neuen Verkaufsauftrag erstellen, wenn ein bereits freigegebener Vorrat den Verkaufsauftrag abdecken kann. Ein Lagerartikel mit einer bestimmten Chargennummer sollte nicht zugewiesen werden, um einen generischen Bedarf zu decken, wenn ein anderer Bedarf diese bestimmte Charge benötigt.  
 
@@ -267,7 +267,7 @@ Wenn das Feld nicht aktiviert ist, wird die Stapelverarbeitung **Planung berechn
 
 ## Flexibilität bei der Planung
 
-Es ist nicht immer praktisch, einen bestehenden Lieferauftrag zu planen. Zum Beispiel, wenn die Produktion begonnen hat oder Sie an einem bestimmten Tag zusätzliche Mitarbeiter einstellen, um die Arbeit zu erledigen. Um anzugeben ob das Planungssystem einen Auftrag ändern kann, verfügen alle Beschaffungsauftragszeilen über ein **Planungsflexibilität**-Feld mit zwei Optionen: **Unbegrenzt** oder **Keine**. Wenn das Feld auf **Keine** festgelegt wurde, versucht das Planungssystem nicht, die Beschaffungsauftragszeile zu ändern.  
+Es ist nicht immer praktisch, einen bestehenden Lieferauftrag zu planen. Wenn zum Beispiel die Produktion begonnen hat oder Sie an einem bestimmten Tag zusätzliche Mitarbeiter einstellen, um das Projekt zu erledigen. Um anzugeben ob das Planungssystem einen Auftrag ändern kann, verfügen alle Beschaffungsauftragszeilen über ein **Planungsflexibilität**-Feld mit zwei Optionen: **Unbegrenzt** oder **Keine**. Wenn das Feld auf **Keine** festgelegt wurde, versucht das Planungssystem nicht, die Beschaffungsauftragszeile zu ändern.  
 
 Sie können im Feld manuell eine Option auswählen, in einigen Fällen wird es jedoch automatisch von [!INCLUDE [prod_short](includes/prod_short.md)] festgelegt. Der Tatsache, dass Sie die Planungsflexibilität manuell festgelegen können, ist wichtig, da dadurch vereinfacht wird, die Verwendung des Funktion für verschiedene Workflows und Geschäftsszenarien zu ermöglichen. Weitere Informationen darüber, wie dieses Feld verwendet wird, finden Sie unter [Designdetails: Umlagerungen von Planung](design-details-transfers-in-planning.md).  
 

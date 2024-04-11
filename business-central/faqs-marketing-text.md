@@ -80,7 +80,7 @@ Damit Microsoft den Dienst und seine Kundschaft schützen kann, ist es nicht mö
 
 Die Funktion für Marketingtextvorschläge erfasst die Mindestdaten, die Business Central zum Anbieten des Dienstes benötigt. Weitere Informationen finden Sie unter [Dynamics 365-Bedingungen für Azure OpenAI-basierte Features](https://go.microsoft.com/fwlink/?linkid=2236010).
 
-Die Funktion sammelt auch Daten aus dem Feedback, das Benutzende über die Symbole „Gefällt mir“ (Daumen hoch) oder „Gefällt mir nicht“ (Daumen runter) oben auf der **Copilot**-Seite geben können. Die Daten sind anonym und umfassen die Auswahl zwischen „Gefällt mir“ oder „Gefällt mir nicht“, gegebenenfalls den Grund für die Ablehnung und das Copit-Feature, auf das sich das Feedback bezieht. Wir verwenden diese Daten, um die Qualität der Funktion zu bewerten und zu verbessern.
+Die Funktion sammelt auch Daten aus dem Feedback, das Benutzende über die Symbole „Gefällt mir“ (Daumen hoch) oder „Gefällt mir nicht“ (Daumen runter) oben auf der **Copilot**-Seite geben können. Die Daten sind anonym und umfassen die Auswahl zwischen „Gefällt mir“ oder „Gefällt mir nicht“, gegebenenfalls den Grund für die Ablehnung und das Copilot-Feature, auf das sich das Feedback bezieht. Wir verwenden diese Daten, um die Qualität der Funktion zu bewerten und zu verbessern.
 
 ## Welche Einschränkungen gelten für [!INCLUDE[feature-marketing-text-suggestions](includes/feature-marketing-text-suggestions.md)]? Wie können Benutzende die Auswirkungen der [!INCLUDE[feature-marketing-text-suggestions](includes/feature-marketing-text-suggestions.md)]-Einschränkungen bei der Nutzung des Systems minimieren?
 
@@ -88,7 +88,6 @@ Die Funktion sammelt auch Daten aus dem Feedback, das Benutzende über die Symbo
 - [!INCLUDE[copilot-supported-languages.md](includes/copilot-supported-languages.md)]
 
   Wenn Benutzende mit dem System in anderen als den unterstützten Sprachen interagieren, werden eventuell falsche Antworten zurückgegeben. Außerdem kann ungenauer Text generiert werden, wenn die Sprache der Benutzenden und die primäre Datensprache in der [!INCLUDE[prod_short](includes/prod_short.md)] Datenbank nicht identisch sind.
-
 
 ## Welche betrieblichen Faktoren und Einstellungen lassen eine effektive und verantwortungsvolle Nutzung des Systems zu?
 

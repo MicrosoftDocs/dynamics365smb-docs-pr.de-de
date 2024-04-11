@@ -7,7 +7,7 @@ ms.devlang: al
 ms.search.keywords: 'recurring, invoicing, subscription, billing'
 ms.search.form: 283
 ms.reviewer: bholtorf
-ms.date: 04/01/2021
+ms.date: 03/07/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -18,7 +18,7 @@ Viele Unternehmen wechseln von einem Geschäftsumsatzmodell, bei dem der Umsatz 
 
 ## Registrieren von Umsatz mit einem wiederkehrenden Fibu Buch.-Blatt
 
-Bei einem wiederkehrenden Buch.-Blatt handelt es sich um ein Fibu Buch.-Blatt mit speziellen Feldern zur Verwaltung von Transaktionen, die häufig und nur mit geringfügigen oder keinen Änderungen gebucht werden (z. B. Mieten, Abonnements, Strom- oder Heizungsrechnungen). Mithilfe dieser speziellen Felder für wiederkehrende Transaktionen können Sie feste und variable Beträge buchen. Mit einem wiederkehrenden Buchungsblatt müssen Posten, die regelmäßig gebucht werden, nur einmal eingetippt werden. Das bedeutet, dass Einträge wie Konten, Dimensionen oder Dimensionswerte nach der Buchung im Buchungsblatt verbleiben. Werden Anpassungen notwendig, können Sie diese mit jeder Buchung durchführen.
+Bei einem wiederkehrenden Buch.-Blatt handelt es sich um ein Fibu Buch.-Blatt mit speziellen Feldern zur Verwaltung von Transaktionen, die häufig und nur mit geringfügigen oder keinen Änderungen gebucht werden (z. B. Mieten, Abonnements, Strom- oder Heizungsrechnungen). Mithilfe dieser speziellen Felder für wiederkehrende Transaktionen können Sie feste und variable Beträge buchen. Mit einem wiederkehrenden Buchungsblatt müssen Posten, die regelmäßig gebucht werden, nur einmal eingegeben werden. Das bedeutet, dass Einträge wie Konten, Dimensionen oder Dimensionswerte nach der Buchung im Buchungsblatt bleiben. Werden Anpassungen notwendig, können Sie diese mit jeder Buchung durchführen.
 
 ### Warum sollten Sie diese Option verwenden?
 
@@ -30,17 +30,17 @@ Weitere Informationen finden Sie unter [Arbeiten mit wiederkehrenden Buch.-Blät
 
 ## Erstellen mehrerer Rechnungen basierend auf einem wiederkehrenden Projekt-Buch.-Blatt
 
-Das wiederkehrende Projekt-Buch.-Blatt ist eine erweiterte Alternative zum Fibu Buch.-Blatt. Sie definieren Artikel, Ressourcen und Sachkonten, die für jedes Projekt wiederholt werden müssen, und Sie geben die Häufigkeit der Wiederholung an.  
+Das wiederkehrende Projekt-Buch.-Blatt ist eine erweiterte Alternative zum Fibu Buch.-Blatt. Sie legen Artikel, Ressourcen und Finanzbuchhaltungskonten fest, die für jedes Projekt wiederholt werden müssen, und Sie geben die Häufigkeit der Wiederholung an.  
 
 Nach dem Buchen eines wiederkehrenden Projekt-Buch.-Blatts können Sie mit der Aufgabe **Projektverkaufsrechnung erstellen** mehrere Rechnungen erstellen. Sie können erstellte Rechnungen auf der Seite **Verkaufsrechnungen** überprüfen und buchen.
 
 ### Warum sollten Sie diese Option verwenden?
 
-Mit dieser Option gehen Sie gemäß dem Standard-Fakturierungsverfahren mit allen seinen Vorteilen vor, Standard- und Debitorenlayouts für Kommunikationspräferenzen eingeschlossen. Sie können die Preise für jedes Projekt auch einzeln definieren.
+Mit dieser Option gehen Sie gemäß dem Standard-Fakturierungsverfahren mit allen seinen Vorteilen vor, Standard- und Debitorenlayouts für Kommunikationspräferenzen eingeschlossen. Sie können die Preise für jedes Projekt auch einzeln festlegen.
 
 Für jeden neuen Debitor müssen Sie jedoch ein neues Projekt erstellen und dem wiederkehrenden Buch.-Blatt Zeilen hinzufügen. 
 
-Weitere Informationen finden Sie unter [Erstellen von Projekt-Buch.-Blattzeilen](projects-how-record-job-usage.md#to-create-job-journal-lines-manually) und [Erstellen mehrerer Projektverkaufsrechnungen](projects-how-invoice-jobs.md#to-create-multiple-job-sales-invoices).
+Weitere Informationen finden Sie unter [Erstellen von Projekt-Buch.-Blattzeilen](projects-how-record-job-usage.md#to-create-project-journal-lines-manually) und [Erstellen mehrerer Projektverkaufsrechnungen](projects-how-invoice-jobs.md#to-create-multiple-project-sales-invoices).
 
 ## Erstellen mehrerer Rechnungen basierend auf wiederkehrenden Verkaufszeilen
 
@@ -50,7 +50,7 @@ Wenn Sie häufiger Verkaufs- und Einkaufszeilen mit ähnlichen Daten erstellen m
 
 Mit dieser Option können Sie mehreren Debitoren dieselben wiederkehrenden Zeilen zuweisen. Sie können die Gültigkeitsdauer für die wiederkehrenden Verkaufszeilen für einen bestimmten Debitor definieren. Sie können demselben Debitor mehrere wiederkehrende Zeilen zuweisen, die alle in der Rechnung enthalten sein werden.
 
-Es gibt jedoch keine Möglichkeit, Festpreise für Artikel festzulegen, da [!INCLUDE[prod_short](includes/prod_short.md)] die am Dokumentdatum gültigen tatsächlichen Preise und Rabatte verwenden und versuchen wird, die beste Kombination für den niedrigsten Preis zu finden.  
+Es gibt jedoch keine Möglichkeit, Festpreise für Artikel festzulegen, da [!INCLUDE[prod_short](includes/prod_short.md)] die am Belegdatum gültigen tatsächlichen Preise und Rabatte verwendet und versucht, die beste Kombination für den niedrigsten Preis zu finden.  
 
 Weitere Informationen finden Sie unter [Erstellen Sie wiederkehrende Verkaufs- und Einkaufszeilen](sales-how-work-standard-lines.md).
 
@@ -88,7 +88,7 @@ Weitere Informationen finden Sie unter [Arbeiten mit Verkauf Rahmenaufträgen](s
 ### Wiederkehrende Aufträge (Norwegen)
 
 Sie können wiederkehrende Aufträge verwenden, um Vorlagen für Rahmenaufträge zu erstellen, sodass Verkaufsaufträge basierend auf von Ihnen festgelegten Datumsintervallen erstellt werden können. Wenn Sie beispielsweise alle zwei Wochen denselben Verkaufsauftrag liefern, können Sie einen Verkauf Rahmenauftrag verwenden und wiederkehrende Bestellungen erstellen.
-Sie können wiederkehrende Gruppen verwenden, um eine Reihe von Parametern zu definieren, die zeigen, wie Sie Bestellungen aufgeben. Diese Gruppen sind Rahmenaufträgen zugeordnet, die regelmäßig angelegt werden müssen. Um die wiederkehrenden Bestellungen zu erstellen, müssen Sie den Prozess zum Erstellen wiederkehrender Bestellungen regelmäßig ausführen. 
+Sie können wiederkehrende Gruppen verwenden, um eine Reihe von Parametern zu definieren, die zeigen, wie Sie Bestellungen aufgeben. Diese Gruppen sind Rahmenaufträgen zugeordnet, die regelmäßig angelegt werden müssen. Um die wiederkehrenden Aufträgen zu erstellen, müssen Sie den Prozess zum Erstellen wiederkehrender Aufträge regelmäßig ausführen. 
 
 #### Warum sollten Sie diese Option verwenden?
 
@@ -106,10 +106,10 @@ Unter [AppSource.microsoft.com](https://appsource.microsoft.com/) können Sie Er
 
 [Datumsformeln](ui-enter-date-ranges.md#use-date-formulas)  
 [Arbeiten mit wiederkehrenden Buchblättern](ui-work-general-journals.md#work-with-recurring-journals)  
-[Erstellen von Projekt-Buch.-Blattzeilen](projects-how-record-job-usage.md#to-create-job-journal-lines-manually)  
-[Erstellen mehrerer Projektverkaufsrechnungen](projects-how-invoice-jobs.md#to-create-multiple-job-sales-invoices)  
+[Projekt-Buchungsblattzeilen erstellen](projects-how-record-job-usage.md#to-create-project-journal-lines-manually)  
+[Mehrere Projektverkaufsrechnungen erstellen](projects-how-invoice-jobs.md#to-create-multiple-project-sales-invoices)  
 [Erstellen Sie wiederkehrende Verkaufs- und Einkaufszeilen](sales-how-work-standard-lines.md)  
-[Arbeiten mit Serviceverträgen und Servicevertragsangeboten](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
+[Mit Dienstleistungsverträgen und Dienstleistungsvertragsangeboten arbeiten](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
 [Mehrere Serviceverträge in Rechnung stellen](service-how-create-invoices.md#to-invoice-several-service-contracts)  
 [Absatzplanungen und Rahmenaufträge Nachfrage](design-details-central-concepts-of-the-planning-system.md#demand-forecasts-and-blanket-orders)  
 [Arbeiten mit Rahmenaufträgen](sales-how-to-create-blanket-sales-orders.md)  

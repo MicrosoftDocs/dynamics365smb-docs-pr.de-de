@@ -5,12 +5,13 @@ author: jswymer
 ms.topic: conceptual
 ms.search.keywords: 'access, right, security'
 ms.search.form: '119, 6300, 6301, 6302, 8930, 9800, 9807, 9808, 9830, 9831, 9838, 9818, 9062, 9061, 9069, 9173'
-ms.date: 03/24/2023
+ms.date: 02/21/2024
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# Benutzer nach Lizenzen anlegen
+# Benutzer gemäß Lizenzen erstellen
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
@@ -94,8 +95,11 @@ Wenn diese Standardkonfiguration nicht die richtige Einrichtung für eine bestim
 
 Nachdem Sie Benutzer hinzugefügt oder Benutzerinformationen im Microsoft 365 Admin Center geändert haben, können Sie die Benutzerinformationen schnell in [!INCLUDE[prod_short](includes/prod_short.md)] importieren. Der Import enthält Lizenzzuweisungen.  
 
+> [!TIP]
+> Wenn Sie Benutzerinformationen aktualisieren müssen und viele Benutzende haben, können Sie den Filterbereich verwenden, um die Liste einzugrenzen. Sie können nach grundlegenden Informationen wie dem Benutzernamen filtern oder mehr technische Filter festlegen, beispielsweise nach der Sicherheits-ID des Benutzenden.
+
 1. Melden Sie sich als Administrator bei [!INCLUDE[prod_short](includes/prod_short.md)] mithilfe dem Administratorkonto an.
-2. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren") Symbol. Geben Sie **Benutzer** ein, und wählen Sie dann den entsprechenden Link.  
+2. Wählen Sie das ![Glühbirne, welche die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren") Symbol. Geben Sie **Benutzer** ein, und wählen Sie dann den entsprechenden Link.  
 3. Wählen Sie **Benuzter von Microsoft 365** aktualisieren.
 
 > [!IMPORTANT]  

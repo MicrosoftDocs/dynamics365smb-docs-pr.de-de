@@ -6,11 +6,11 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: rfq
 ms.search.form: '49, 97, 9306, 9346'
-ms.date: 08/08/2022
+ms.date: 03/14/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Angebotsanforderungen
+# Angebote anfordern
 
 Eine Einkaufsanfrage kann als erster Entwurf für eine Bestellung verwendet werden. Die Bestellung kann dann in eine Rechnung umgewandelt werden.
 

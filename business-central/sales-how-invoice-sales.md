@@ -1,12 +1,12 @@
 ---
-title: Fakturieren eines Verkaufs
+title: Verkäufe fakturieren
 description: 'Beschreibt, wie Sie einen Verkaufsauftrag erstellen, einen Vertrag mit einem Debitoren erfassen, Produkte unter bestimmten Bedingungen verkaufen oder kaufen.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'bill, sale, invoice, order'
 ms.search.form: '43, 48, 9301'
-ms.date: 11/01/2023
+ms.date: 03/21/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -26,7 +26,7 @@ Sie können mit dem Debitor verhandeln, indem Sie zuerst ein Verkaufsangebot ers
 
 ## Verkaufsrechnung erstellen
 
-Wenn der Debitor entscheidet zu kaufen, senden Sie die Verkaufsrechnung, um die entsprechende Menge und die Wertposten zu erstellen. Wenn Sie die Verkaufsrechnung buchen, können Sie sie als PDF-Dateianhang auch senden. Sie können den E-Mail-Text haben, der mit einer Zusammenfassung der Rechnung und der Zahlungsinformationen, wie ein Link zu PayPal, vorab ausgefüllt wurde. Erfahren Sie mehr unter [Artikel versenden und Dokumente per E-Mail versenden](ui-how-send-documents-email.md). Wenn der Debitor die Rechnung gezahlt hat, können Sie die Zahlung auf verschiedene Arten ausführen, abhängig von der Größe und dem gewünschten Workflow der Organisation. Erfahren Sie mehr unter [Registrierung von Zahlungen](#register-payments) Sektion.  
+Wenn der Debitor entscheidet zu kaufen, senden Sie die Verkaufsrechnung, um die entsprechende Menge und die Wertposten zu erstellen. Wenn Sie die Verkaufsrechnung buchen, können Sie sie als PDF-Dateianhang auch senden. Sie können den E-Mail-Text haben, der mit einer Zusammenfassung der Rechnung und der Zahlungsinformationen, wie ein Link zu PayPal, vorab ausgefüllt wurde. Erfahren Sie mehr unter [Artikel versenden und Dokumente per E-Mail versenden](ui-how-send-documents-email.md#to-send-documents-by-email). Wenn der Debitor die Rechnung gezahlt hat, können Sie die Zahlung auf verschiedene Arten ausführen, abhängig von der Größe und dem gewünschten Workflow der Organisation. Erfahren Sie mehr unter [Registrierung von Zahlungen](#register-payments) Sektion.  
 
 Artikelkarten können einen **Bestand**, **Service** und **Nicht-Bestand** haben, wenn die Einheit eine physische Einheit ist, die nicht im Lagerbestand verfolgt wird, Erfahren Sie mehr unter [Registrieren Sie neue Artikel](inventory-how-register-new-items.md). Der Verkaufsrechnungsprozess ist derselbe für alle drei Artikeltypen.
 
@@ -126,7 +126,7 @@ Sie können direkt gezahlte Rechnungen für nicht registrierte Debitoren auch er
 [Einrichten von Verkäufen](sales-setup-sales.md)  
 [Kommissionierliste drucken](sales-how-print-picking-list.md)  
 [Bestand](inventory-manage-inventory.md)  
-[Dokumente per E-Mail versenden](ui-how-send-documents-email.md)  
+[Dokumente per E-Mail versenden](ui-how-send-documents-email.md#to-send-documents-by-email)  
 [Einziehen von Restbeträgen](receivables-collect-outstanding-balances.md)  
 [Massenrechnungsstellung von Microsoft Bookings in Business Central](finance-bookings.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

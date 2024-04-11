@@ -51,6 +51,10 @@ Für die bestehende Instanz [!INCLUDE[prod_short](../includes/prod_short.md)] is
 2. Wählen Sie die Aktion **Neu**.  
 3. Geben Sie in das Feld **Code** einen Code ein, den Sie in [!INCLUDE[prod_short](../includes/prod_short.md)] leicht finden können. Der Name könnte zum Beispiel widerspiegeln, was ein Geschäft verkauft, wie Möbel oder Kaffee oder das Land oder die Region, in der es tätig ist.
 4. Geben Sie in das Feld **Shopify URL** die URL des Online-Shops ein, mit dem Sie sich verbinden möchten. Verwenden Sie das folgende Format: `https://{shop}.myshopify.com/`.
+
+   > [!TIP]
+   > Sie können die URL aus „Shopify – Verwaltung“ kopieren, z. B. `https://admin.shopify.com/store/{shop}`, und der Konnektor konvertiert sie in das erforderliche Format.
+
 5. Aktivieren Sie den Schalter **Aktiviert**, lesen und akzeptieren Sie die dann die Bestimmungen.
 6. Melden Sie sich bei Ihrem Shopify-Konto an, falls Sie dazu aufgefordert werden. Nachdem Sie den Datenschutz und die Berechtigungen überprüft haben, wählen Sie die Schaltfläche **App installieren**.
 
@@ -69,7 +73,7 @@ Wiederholen Sie die Schritte 2–6 für alle Onlineshops, die Sie verbinden möc
 
 Jetzt ist Ihr Onlineshop mit [!INCLUDE[prod_short](../includes/prod_short.md)] verbunden. In den nächsten Schritten definieren Sie, wie und was synchronisiert werden soll.
 
-- [Artikel synchronisieren](synchronize-items.md)
+- [Artikel und Inventar synchronisieren](synchronize-items.md)
 - [Debitoren synchronisieren](synchronize-customers.md)
 - [Bestellungen synchronisieren](synchronize-orders.md)
 

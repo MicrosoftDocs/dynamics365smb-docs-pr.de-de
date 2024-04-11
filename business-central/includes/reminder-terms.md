@@ -1,8 +1,8 @@
 ---
 author: brentholtorf
 ms.topic: include
-ms.date: 04/01/2021
+ms.date: 03/15/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-Mahnmethoden können in beliebiger Anzahl eingerichtet werden. Jeder einzelne Satz von Bedingungen ist durch einen Code gekennzeichnet. Jeder Mahnmethodencode enthält vordefinierte Mahnstufen. Jede Mahnstufe enthält Regeln darüber, wann die Mahnung ausgegeben wird, zum Beispiel wie viele Tage nach der Fälligkeit der Rechnung oder nach der vorherigen Mahnung.
+Um Debitoren zu verwalten, können Sie Mahnmethoden einrichten und diese den Debitoren zuordnen. Über Mahnmethoden können Sie die Funktionsweise des Mahnvorgangs steuern. Jeder Mahnmethodencode enthält von Ihnen definierte Mahnstufen. Zu den Mahnstufen gehören Regeln darüber, wann die Mahnung verschickt wird, welche Gebühren anfallen und ob Zinsen berechnet werden. Zu den Mahnstufen gehört auch die Einstellung einer Toleranzperiode, die sicherstellt, dass Sie keine Mahnung für eine Rechnung senden, die ein Debitor bereits bezahlt hat.

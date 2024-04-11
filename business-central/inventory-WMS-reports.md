@@ -1,5 +1,5 @@
 ---
-title: Bestands- und Lagerberichte und Analysen
+title: Bestands- und Lagerberichte und -analysen
 description: 'Sehen Sie, welche Bestands- und Lagerberichte und Analysen in der Standardversion von Business Central verfügbar sind, damit Sie Ihr Unternehmen im Auge behalten können.'
 author: brentholtorf
 ms.author: bholtorf
@@ -7,11 +7,11 @@ ms.reviewer: andreipa
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: 'Report_707, Report_716, Report_813, Report_1001, Report_5807, Report_5808, Report_5809, Report_7313, Report_7319, Report_7320'
-ms.date: 04/13/2023
+ms.date: 03/21/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# Bestands- und Lagerberichte und Analysen
+# Bestands- und Lagerberichte und -analysen
 
 Die Bestands- und Lagerberichterstattung in [!INCLUDE [prod_short](includes/prod_short.md)] gibt Bestands- und Geschäftsfachleuten Einblicke und Statistiken über aktuelle und vergangene Bestands- und Lageraktivitäten.  
 

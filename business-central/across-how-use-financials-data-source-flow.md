@@ -107,7 +107,7 @@ Das Erstellen neuer Flows oder das Ändern und Verwalten bestehender Flows (wie 
 Diese Aufgaben werden normalerweise von einem Admin oder Superuser erledigt. Die Aufgaben erfordern ein breiteres Wissen über die Geschäftsprozesse in [!INCLUDE[prod_short](includes/prod_short.md)]. Weitere Informationen finden Sie in den folgenden Artikeln in der Business Central Dev und IT Pro-Hilfe:
 
 - [Power Automate-Integration](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-overview)
-- [Automatisierte Flows erstellen](/dynamics365/business-central/dev-itpro/powerplatform/instant-flows) (deckt auch Genehmigungsflows ab)
+- [Automatisierte Flows erstellen](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows) (deckt auch Genehmigungsflows ab)
 - [Direktflows erstellen](/dynamics365/business-central/dev-itpro/powerplatform/instant-flows)
 - [Power Automate-Flows verwalten](/dynamics365/business-central/dev-itpro/powerplatform/manage-power-automate-flows)
 <!-- 
@@ -131,7 +131,7 @@ You can also manage available Power Automate workflows on the **Workflows** page
 [Bereiten Sie sich auf das Geschäft vor](ui-get-ready-business.md)  
 [Workflows](across-workflow.md)  
 [Geschäftsdaten aus anderen Finanzsystemen importieren](across-import-data-configuration-packages.md)  
-[Benutzer*innen und Gruppen Berechtigungen zuweisen](ui-define-granular-permissions.md)  
+[Benutzende und Gruppen Berechtigungen zuweisen](ui-define-granular-permissions.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] einrichten](setup.md)  
 [Finanzmanagement](finance.md)  
 [Power Automate-Flows verwalten](/dynamics365/business-central/dev-itpro/powerplatform/manage-power-automate-flows)  

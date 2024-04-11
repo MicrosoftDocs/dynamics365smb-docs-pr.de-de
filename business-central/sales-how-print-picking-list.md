@@ -5,7 +5,7 @@ author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
-ms.date: 06/25/2021
+ms.date: 02/07/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -29,7 +29,7 @@ Sie können die Kommissionierliste auch als Dokument speichern, um sie beispiels
 > [!NOTE]
 > Wenn Sie die Funktion **Stückliste explodieren** auf dem Verkaufsauftrag verwendet haben, werden im Bericht nur die Komponenten des zugehörigen Montageartikels angezeigt. Weitere Informationen finden Sie unter [Mit Stücklisten arbeiten](inventory-how-work-BOMs.md).
 
-## Weitere Informationen
+## Siehe auch
 
 [Bestand](inventory-manage-inventory.md)  
 [Ausgehende Lagerflüsse](design-details-outbound-warehouse-flow.md)

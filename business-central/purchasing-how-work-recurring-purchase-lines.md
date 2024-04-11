@@ -6,11 +6,11 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'trade, purchase, replenishment'
 ms.search.form: 177
-ms.date: 07/06/2022
+ms.date: 03/21/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Wiederkehrende Einkaufszeilen erstellen
+# Wiederkehrende Einkaufspositionen erstellen
 
 Wenn Sie häufiger Einkaufszeilen mit ähnlichen Daten erstellen müssen, können Sie die Standardzeilen einrichten, die Sie in wiederkehrenden Einkaufsbelegen, z. B. für wiederkehrende Ersatzaufträge benötigen.
 
@@ -47,7 +47,7 @@ Weisen Sie einem Debitor wiederkehrende Einkaufszeilen zu, sodass sie zum Einfü
 
 Wenn für den Kreditor wiederkehrende Einkaufszeilen vorhanden sind, können Sie diese in alle Arten von Einkaufsbelegen einfügen, z. B. in eine Einkaufsrechnung. Wenn Sie die Option **Immer fragen** aktiviert haben, während Sie Kreditoren wiederkehrende Einkaufszeilen hinzufügen, werden Sie informiert, wenn wiederkehrende Einkaufszeilen vorhanden sind.
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Einkaufsrechnungen** ein, und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie das Symbol ![Glühbirne, die die „Sie wünschen ...“-Funktion öffnet](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Einkaufsrechnungen** ein, und wählen Sie dann den zugehörigen Link.
 2. Öffnen Sie die Einkaufsrechnung, in die Sie eine oder mehrere Standardeinkaufszeilen einfügen möchten.
 3. Wählen Sie die **Wiederkehrende Einkaufszeilen abrufen** Aktion aus.
 4. Wählen Sie auf der Seite **Wiederkehrende Einkaufszeilen** die Suchschaltfläche im Feld **Code** und dann eine Reihe von Standardeinkaufszeilen aus.

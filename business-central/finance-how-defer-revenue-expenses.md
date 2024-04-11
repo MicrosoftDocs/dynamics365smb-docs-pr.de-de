@@ -1,25 +1,28 @@
 ---
-title: Einnahmen und Ausgaben abgrenzen
-description: 'Um Umsätze und Aufwendungen in Perioden zu erfassen, in denen die Transaktion nicht gebucht wurde, können Sie diese automatisch über einen festgelegten Zeitplan abgrenzen oder verschieben.'
+title: Umsätze und Ausgaben abgrenzen
+description: 'Erfahren Sie, wie Sie Umsätze und Aufwendungen automatisch in Perioden abgrenzen und zurückstellen, in denen die Transaktion nicht gebucht wurde, oder sie über einen festgelegten Zeitplan zurückstellen.'
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bnielse
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: postpone
 ms.search.form: '1700, 1701, 1702, 1703, 1704, 1705, 1706, 1707'
-ms.date: 12/06/2023
+ms.date: 03/13/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# Einnahmen und Ausgaben abgrenzen
+# Umsätze und Ausgaben abgrenzen
 
-Um Einnahmen und Ausgaben in einer anderen Periode als in jener, in der die Transaktion gebucht wurde, zu erkennen, können Sie die Funktionen verwenden, um Einnahmen und Ausgaben über einen bestimmten Zeitplan automatisch zurückzustellen.
+Um Einnahmen und Ausgaben in einer anderen Periode als in jener, in der die Transaktion gebucht wurde, anzusetzen, können Sie Einnahmen und Ausgaben über einen bestimmten Zeitplan automatisch abgrenzen.
 
 Um Einnahmen oder Ausgaben in den betroffenen Buchhaltungsperioden einzubeziehen, können Sie eine Abgrenzungsvorlage für die Ressource, den Artikel oder ein Sachkonto anlegen, für das die Einnahmen oder Ausgaben gebucht werden. Wenn Sie den zugehörigen Kauf- oder Verkaufsbeleg buchen, werden die Einnahmen oder Ausgaben zu den entsprechenden Buchhaltungsperioden zurückgestellt, entsprechend einem Abgrenzungsplan, der durch Einstellungen in der Abgrenzungsvorlage und das Buchungsdatum bestimmt wird.
 
+> [!NOTE]
+> Verkaufs- und Einkaufs-Buch.-Blätter validieren den Quellcode. Für die Validierung darf der Quellcode für Verkäufe und Verkaufs-Buch.-Blätter bzw. Einkäufe und Einkaufs-Buch.-Blätter nicht identisch sein, wenn Sie Abgrenzungen verwenden. Wenn die Einrichtung identisch ist, können Sie diese Einschränkung umgehen, indem Sie eine Vorlage und einen Stapel erstellen, die einen anderen Quellcode verwenden.
+
 ## So richten Sie ein Sachkonto für Abgrenzungen ein
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Kontenplan** ein, und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie das Symbol ![Glühbirne, die die „Sie wünschen ...“-Funktion öffnet](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Kontenplan** ein, und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie die Aktion **Neu** aus.
 3. Füllen Sie die Felder wie notwendig aus, um ein Sachkonto für abgegrenzte Einnahmen zu erstellen. Weitere Informationen finden Sie unter [Die Finanzbuchhaltung und der Kontenplan](finance-general-ledger.md).
 4. Wiederholen Sie die Schritte 2 und 3, um ein neues Sachkonto für abgegrenzte Ausgaben zu erstellen.

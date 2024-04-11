@@ -5,11 +5,11 @@ author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: direct shipment
-ms.date: 04/01/2021
+ms.date: 02/20/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Direktlieferungen machen
+# Direktlieferungen durchführen
 
 Eine Direktlieferung ist die Lieferung von Artikeln, von einem Ihrer Kreditoren direkt an einen Ihrer Debitoren.
 

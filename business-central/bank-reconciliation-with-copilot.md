@@ -8,15 +8,17 @@ ms.topic: how-to
 ms.collection:
   - get-started
   - bap-ai-copilot
-ms.date: 10/25/2023
+ms.date: 03/27/2024
 ms.custom: bap-template
 ---
 
 # Bankkontoabstimmung mit Copilot (Vorschauversion)
 
-[!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
+[!INCLUDE[preview-banner](includes/preview-banner.md)]
 
 In diesem Artikel wird erläutert, wie Sie die Unterstützung bei Bankkontoabstimmung verwenden, um Banktransaktionen mit Sachbucheinträgen in Business Central abzugleichen.
+
+[!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
 
 ## Über die Unterstützung bei Bankkontoabstimmung
 
@@ -25,7 +27,7 @@ Bei der Unterstützung bei Bankkontoabstimmung handelt es sich um eine Reihe von
 - Verbesserte Zuordnung von Transaktionen mit Sachbucheinträgen
 
    Vielleicht sind Sie ja bereits mit der Aktion **Automatisch abgleichen** auf der Seite **Bankkontoabstimmung** vertraut, welche die meisten Banktransaktionen automatisch Sachbucheinträgen zuordnet. Wir bezeichnen diesen Vorgang als *automatische Zuordnung*. Obwohl die automatische Zuordnung gut funktioniert, können die verwendeten Algorithmen manchmal zu vielen nicht zugeordneten Transaktionen führen. Copilot nutzt KI-Technologie, um verbleibende Transaktionen zu überprüfen und anhand der Daten, Beträge und Beschreibungen weitere Übereinstimmungen zu identifizieren. Wenn beispielsweise mehrere Rechnungen von einem Kunden als Abschlag bezahlt wurden, gleicht Copilot die einzelne Kontoauszugspositionen mit den Sachbucheinträgen für die Rechnung ab.
-   
+
    Gehen Sie zu [Bankkontoabstimmung mit Copilot](#reconcile-bank-accounts-with-copilot).
 
 - Vorgeschlagene Sachkonten
@@ -34,11 +36,9 @@ Bei der Unterstützung bei Bankkontoabstimmung handelt es sich um eine Reihe von
   
    Gehen Sie zu [Nicht zugeordnete Banktransaktionen auf die vorgeschlagenen Sachbuchkonten übertragen](#transfer-unmatched-bank-transactions-to-suggested-general-ledger-accounts).
 
-
-   
 ## Voraussetzungen
 
-- Die Unterstützung bei Bankkontoabstimmung ist eingeschaltet und aktiviert. Diese Aufgabe wird von Administrierenden ausgeführt. [Erfahren Sie mehr über die Aktivierung von Copilot- und KI-Funktionen](enable-ai.md).
+- Die Unterstützung bei Bankkontoabstimmung ist aktiviert. Diese Aufgabe wird von Administrierenden ausgeführt. [Erfahren Sie mehr über das Konfigurieren von Copilot- und KI-Funktionen](enable-ai.md).
 - Bankkonten in Business Central, die Sie abstimmen möchten, sind mit einem Onlinebankkonto verknüpft oder mit einem -Format für den Kontoauszugsimport eingerichtet. 
 - Sie sind mit der Bankkontenabstimmung in Business Central vertraut, wie unter [Bankkonten abstimmen](bank-how-reconcile-bank-accounts-separately.md) beschrieben. 
 

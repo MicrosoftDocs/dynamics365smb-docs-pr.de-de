@@ -28,7 +28,7 @@ Posten können in allen Seiten **Posten** storniert werden. Das folgende Verfahr
 > [!NOTE]
 > Der Eintrag muss aus einer Journalbuchung stammen.
 >
-> Außerdem können Sie keine Buchungen rückgängig machen, die mit Informationen aus einem Auftrag gebucht wurden oder die Gewinne und Verluste innerhalb derselben Transaktion realisiert haben.
+> Außerdem können Sie keine Buchungen rückgängig machen, die mit Informationen aus einem Projekt gebucht wurden oder die Gewinne und Verluste innerhalb derselben Transaktion realisiert haben.
 
 1. Wählen Sie das Symbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Hauptbuchhaltungsposten** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie den Posten, den Sie stornieren möchten, und wählen die **Transaktion stornieren** Aktion aus.
@@ -49,7 +49,7 @@ Verwenden Sie das Feld **Korrektur**, um ein negatives Soll anstelle eines Gutha
 
 Die folgenden Schritte beschreiben, wie Sie einen gebuchten Eingang von Artikeln oder Ressourcen rückgängig machen können. Die Schritte sind ähnlich wie für eine Einkaufsbestellung.
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Geb. Einkaufslieferungen** ein und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren") Symbol. Geben Sie **Geb. Einkaufslieferungen** ein und wählen Sie dann den zugehörigen Link.  
 2. Öffnen Sie die gebuchte Lieferung, den Sie rückgängig machen möchten.  
 3. Wählen Sie die Zeile oder Zeilen aus, die Sie rückgängig machen möchten.  
 4. Wählen Sie die Aktion **Wareneingang stornieren** aus.

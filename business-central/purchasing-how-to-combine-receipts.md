@@ -1,16 +1,16 @@
 ---
-title: Zusammenfassen von Lieferungen in einer einzelnen Rechnung
+title: Wareneingänge in einer einzelnen Rechnung zusammenfassen
 description: 'Wenn Sie mehrere Einkaufslieferungen gleichzeitig fakturieren möchten, können Sie die Funktion Sammelgutschrift verwenden.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
 ms.search.form: '136, 145, 146, 9308'
-ms.date: 08/03/2022
+ms.date: 03/14/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Zusammenfassen von Lieferungen in einer einzelnen Rechnung
+# Wareneingänge in einer einzelnen Rechnung zusammenfassen
 
 Wenn Sie mehrere Einkaufslieferungen gleichzeitig fakturieren möchten, können Sie mehrere Belegposten in der Rechnung auswählen.  
 
@@ -25,7 +25,7 @@ Wenn Einkaufslieferungen in einer Rechnung zusammengefasst und gebucht werden, w
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Einkaufsrechnungen** ein, und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die Aktion **Neu** aus. Weitere Informationen finden Sie unter [Erfassen eines Einkaufs](purchasing-how-record-purchases.md).  
-3. Klicken Sie im Inforegister **Zeilen** und wählen die  Aktionen **Wareneingangszeilen holen**.  
+3. Klicken Sie im Inforegister **Zeilen** und wählen die Aktionen **Wareneingangszeilen holen**.  
 4. Wählen Sie die Wareneingangszeilen aus, die in der Rechnung enthalten sein sollen.  
 
     Wenn Sie eine falsche Wareneingangszeile ausgewählt haben oder von vorn beginnen möchten, können Sie einfach die Zeilen in der Einkaufsrechnung löschen und die Funktion **Wareneingangszeilen holen** erneut ausführen.  

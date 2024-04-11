@@ -1,6 +1,6 @@
 ---
-title: 'Designdetails – Abläufe für Fertigung, Montage und Aufträge'
-description: Erfahren Sie mehr über den Fluss zwischen Lagerplätzen für das Kommissionieren von Komponenten und das Einlagern von Endartikeln für Montage- oder Fertigungs- oder Projektaufträge.
+title: "Designdetails\_– Abläufe für Produktion, Montage und Projekte"
+description: 'Erfahren Sie mehr über die Abläufe zwischen Lagerplätzen für das Kommissionieren von Komponenten und das Einlagern von Endartikeln für Montage-, Produktions- oder Projektaufträge.'
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: andreipa
@@ -9,22 +9,22 @@ ms.topic: conceptual
 ms.date: 02/05/2024
 ms.custom: bap-template
 ---
-# Abläufe für Fertigung, Montage und Aufträge
+# Abläufe für Produktion, Montage und Projekte
 
-Interne Abläufe, wie z. B. das Kommissionieren von Komponenten und das Einlagern von Endprodukten für die Montage-, Projekt- und Fertigungsaufträge, ähneln eingehenden oder ausgehenden Flüssen. Viele der Prozesse kommen Ihnen vielleicht bekannt vor. Dieser Artikel enthält Informationen zum Arbeiten mit internen Lagerflüssen mit unterschiedlichen Komplexitätsgraden.
+Interne Abläufe, wie z. B. das Kommissionieren von Komponenten und das Einlagern von Endprodukten für Montage-, Projekt- und Produktionsaufträge, ähneln eingehenden oder ausgehenden Flüssen. Viele der Prozesse könnten Ihnen also bekannt vorkommen. Dieser Artikel enthält Informationen zum Arbeiten mit internen Lagerflüssen mit unterschiedlichen Komplexitätsgraden.
 
 ## Übersicht über verschiedene Konfigurationsmöglichkeiten
 
-Sie können Lagerfunktionen auf verschiedene Weise konfigurieren. Es ist wichtig, dass die von Ihnen gewählten Optionen Ihre Prozesse verbessern, ohne Gemeinkosten zu verursachen. Die folgenden Tabellen beschreiben typische Konfigurationen für den Umgang mit physischen Gütern für Fertigungs-, Projekt- und Montageaufträge.
+Sie können Lagerfunktionen auf verschiedene Weise konfigurieren. Es ist wichtig, dass die von Ihnen gewählten Optionen Ihre Prozesse verbessern, ohne Gemeinkosten zu verursachen. Die folgenden Tabellen beschreiben typische Konfigurationen für den Umgang mit physischen Gütern für Produktions-, Projekt- und Montageaufträge.
 
 ### Eingehender Fluss (Einlagerung)
 
 |Komplexitätsebene|Beschreibung|Einstellungen|Lagerplatzcode|Eingehender Fluss des Fertigungssauftrags|Eingehender Fluss des Montageauftrags|Eingehender Fluss für Projekte|  
 |---|----------------|----------|---------|------------------|------------------|------------------|
-|Keine dedizierte Lageraktivität.|Buchung von Aufträgen und Journalen.||Optional. Gesteuert durch den Schalter **Lagerplatzcode obligatorisch**.|Produktions Buch.-Blatt -> Ausgabejournal</br><br/> **HINWEIS**: Sie können die Ausgabe mit **Produktions Buch.-Blatt** veröffentlichen.|Montageauftrag|Einlagern gilt nicht für Projekte|  
-|Standard|Auftrag für Auftrag|Einlagerung erforderlich. </br><br/> **HINWEIS**: Obwohl die Einstellung **Einlagerung erforderlich** genannt wird, können Sie weiterhin Ausgänge aus den Herkunftsbelegen an Lagerorten buchen, in denen Sie dieses Kontrollkästchen aktivieren. |Optional. Gesteuert durch den Schalter **Lagerplatzcode obligatorisch**.|Fertigungsauftrag -> Lagereinlagerung|Montageauftrag|Einlagern gilt nicht für Projekte|
-|Erweitert|Konsolidierte Einlagerungsaktivitäten für mehrere Herkunftsbelege.|Wareneingang erforderlich + Einlagerung erforderlich|Optional. Gesteuert durch den Schalter **Lagerplatzcode obligatorisch**.|Fertigungsaufträge -> Ausgabejournal|Montageaufträge -> innere Umlagerungen | Einlagern gilt nicht für Projekte|
-|Erweitert|Wie oben + Gezielte Kommissionierungs-/Einlagerungsaktivitäten|Gezielte Kommissionierung und Einlagerung (abhängige Schalter werden automatisch aktiviert)|Obligatorisch|Wie oben|Wie oben| Einlagern gilt nicht für Projekte|
+|Keine dedizierte Lageraktivität.|Buchung von Aufträgen und Journalen.||Optional. Gesteuert durch den Schalter **Lagerplatzcode obligatorisch**.|Produktions Buch.-Blatt -> Ausgabejournal</br><br/> **HINWEIS**: Sie können die Ausgabe mit **Produktions Buch.-Blatt** veröffentlichen.|Montageauftrag|Einlagern ist für Projekte nicht verfügbar|  
+|Basis|Auftrag für Auftrag|Einlagerung erforderlich. </br><br/> **HINWEIS**: Obwohl die Einstellung **Einlagerung erforderlich** genannt wird, können Sie weiterhin Ausgänge aus den Herkunftsbelegen an Lagerorten buchen, in denen Sie dieses Kontrollkästchen aktivieren. |Optional. Gesteuert durch den Schalter **Lagerplatzcode obligatorisch**.|Fertigungsauftrag -> Lagereinlagerung|Montageauftrag|Einlagern ist für Projekte nicht verfügbar|
+|Erweitert|Konsolidierte Einlagerungsaktivitäten für mehrere Herkunftsbelege.|Wareneingang erforderlich + Einlagerung erforderlich|Optional. Gesteuert durch den Schalter **Lagerplatzcode obligatorisch**.|Fertigungsaufträge -> Ausgabejournal|Montageaufträge -> innere Umlagerungen | Einlagern ist für Projekte nicht verfügbar|
+|Erweitert|Wie oben + Gezielte Kommissionierungs-/Einlagerungsaktivitäten|Gezielte Kommissionierung und Einlagerung (abhängige Schalter werden automatisch aktiviert)|Obligatorisch|Wie oben|Wie oben| Einlagern ist für Projekte nicht verfügbar|
 
 Bei einigen Konfigurationen können Sie keine dedizierten Lagerdokumente verwenden, um Einlagerungen zu registrieren. Wenn Ihr Lagerort jedoch Lagerplätze verwendet, können Sie allgemeine Umlagerungsdokumente verwenden, um produzierte oder montierte Artikel ins Lager zu transportieren. Weitere Informationen finden Sie unter [Interne Umlagerung von Artikeln in Basis-Lagerkonfigurationen](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md).
 
@@ -32,10 +32,10 @@ Bei einigen Konfigurationen können Sie keine dedizierten Lagerdokumente verwend
 
 |Komplexitätsebene|Beschreibung|Einstellungen|Lagerplatzcode|Ausgehender Fluss des Fertigungsauftrags|Ausgehender Fluss des Montageauftrags|Ausgehender Fluss für Projekte|  
 |---|----------------|----------|---------|------------------|------------------|------------------|
-|Keine dedizierte Lageraktivität.|Buchung von Aufträgen und Journalen.||Optional. Gesteuert durch den Schalter **Lagerplatzcode obligatorisch**.|Produktions Buch.-Blatt -> Verbrauchs Buch.-Blatt </br><br/> **HINWEIS**: Sie können den Verbrauch mit einem **Produktions Buch.-Blatt** veröffentlichen.|Montageauftrag|Projekt -> Projekt Buch.-Blatt|  
-|Standard|Auftrag für Auftrag|Kommissionierung erforderlich. </br><br/> **HINWEIS**: Obwohl die Einstellung **Kommissionierung erforderlich** genannt wird, können Sie weiterhin Ausgänge aus den Herkunftsbelegen an Lagerorten buchen, in denen Sie dieses Kontrollkästchen aktivieren. <!-- ToDo Test prod output-->|Optional. Gesteuert durch den Schalter **Lagerplatzcode obligatorisch**.|Fertigungsauftrag -> Lagerbestandkommissionierung|Montageauftrag -> Lagerbestandsumlagerung</br><br/>Die **Lagerbestandsumlagerung** kann nur mit Lagerplätzen verwendet werden.|Projekt -> Lagerbestandskommissionierung|
-|Erweitert|Konsolidierte Kommissionierungsaktivitäten für mehrere Herkunftsbelege.|Warenausgang erforderlich + Kommissionierung erforderlich|Optional. Gesteuert durch den Schalter Lagerplatzcode obligatorisch|Fertigungsaufträge -> Lagerkommissionierung -> Verbrauchs Buch.-Blatt |Montageaufträge -> Lagerkommissionierung| Projekt(e) -> Lagerkommissionierung -> Projekt Buch.-Blatt |
-|Erweitert|Wie oben + Gezielte Kommissionierungs-/Einlagerungsaktivitäten|Gezielte Kommissionierung und Einlagerung (abhängige Schalter werden automatisch aktiviert)|Obligatorisch|Wie oben|Wie oben| Die gezielte Kommissionierung und Einlagerung wird für Projekte nicht unterstützt|
+|Keine dedizierte Lageraktivität.|Buchung von Aufträgen und Buch.-Blättern.||Optional. Gesteuert durch den Schalter **Lagerplatzcode obligatorisch**.|Produktions Buch.-Blatt -> Verbrauchs Buch.-Blatt </br><br/> **HINWEIS**: Sie können den Verbrauch mit einem **Produktions Buch.-Blatt** veröffentlichen.|Montageauftrag|Projekt -> Projekt-Buch.-Blatt|  
+|Basis|Auftrag für Auftrag|Kommissionierung erforderlich. </br><br/> **HINWEIS**: Obwohl die Einstellung **Kommissionierung erforderlich** genannt wird, können Sie weiterhin Ausgänge aus den Herkunftsbelegen an Lagerorten buchen, in denen Sie dieses Kontrollkästchen aktivieren. <!-- ToDo Test prod output-->|Optional. Gesteuert durch den Schalter **Lagerplatzcode obligatorisch**.|Fertigungsauftrag -> Lagerbestandkommissionierung|Montageauftrag -> Lagerbestandsumlagerung</br><br/>Die **Lagerbestandsumlagerung** kann nur mit Lagerplätzen verwendet werden.|Projekt -> Lagerkommissionierung|
+|Erweitert|Konsolidierte Kommissionierungsaktivitäten für mehrere Herkunftsbelege.|Warenausgang erforderlich + Kommissionierung erforderlich|Optional. Gesteuert durch den Schalter Lagerplatzcode obligatorisch|Fertigungsaufträge -> Lagerkommissionierung -> Verbrauchs Buch.-Blatt |Montageaufträge -> Lagerkommissionierung| Projekt(e) -> Lagerkommissionierung -> Projekt-Buch.-Blatt |
+|Erweitert|Wie oben + Gezielte Kommissionierungs-/Einlagerungsaktivitäten|Gezielte Kommissionierung und Einlagerung (abhängige Schalter werden automatisch aktiviert)|Obligatorisch|Wie oben|Wie oben| Die gezielte Kommissionierung und Einlagerung wird für Projekte nicht unterstützt|
 
 Ähnlich wie beim eingehenden Fluss können einige Konfigurationen keine dedizierten Lagerdokumente verwenden, um Einlagerungen zu registrieren. Wenn Ihr Lagerort Lagerplätze verwendet, können Sie allgemeine Umlagerungsdokumente verwenden, um produzierte oder montierte Artikel umzulagern. Erfahren Sie mehr unter [Artikel umlagern](warehouse-move-items.md).
 
@@ -45,7 +45,7 @@ Auch wenn Sie keine dedizierten Lageraktivitäten haben, möchten Sie wahrschein
 
 * [Gemeinsames Erfassen und Buchen von Verbrauch und Istmeldungen für eine einzelne freigegebene Fertigungsauftragszeile](production-how-to-register-consumption-and-output.md)
 * [Artikel montieren](assembly-how-to-assemble-items.md)
-* [Verbrauch oder Nutzung für Aufträge erfassen](projects-how-record-job-usage.md)
+* [Verbrauch oder Nutzung für Projekt erfassen](projects-how-record-job-usage.md)
 
 ## Basislagerhauskonfigurationen
 
@@ -83,9 +83,9 @@ Für Lagerorte, die Lagerplätze verwenden:
 
 ### Flüsse für Projektmanagement in einer Basis-Lagerkonfiguration
 
-Verwenden Sie Dokumente für **Lagerbestandskommissionierung** für die Kommissionierung von Auftragskomponenten im Fluss zum Produktionsmanagement.
+Verwenden Sie Belege für **Lagerkommissionierung** für die Kommissionierung von Projektkomponenten im Fluss zum Projektmanagement.
 
-Für einen Standort, der Lagerplätze verwendet, definiert das Feld **An Projekt Lagerplatzcode** am Lagerort die Standardflüsse zum Projektmanagement.
+Für einen Lagerort, der Lagerplätze verwendet, legt das Feld **An Projekt Lagerplatzcode** am Lagerort die Standardflüsse zum Projektmanagement fest.
 
 ## Erweiterte Lagerhauskonfigurationen  
 
@@ -121,7 +121,7 @@ Lagermontage ist Teil des internen Lagerflusses und die Auftragsmontage ist Teil
 
 Verwenden Sie die Dokumente **Lagerkommissionierung** und die Seite **Kommissionierungsarbeitsblatt** im Fluss zum Projektmanagement.
 
-Für Lagerorte, die Lagerplätze verwenden, definiert das Feld **An Projekte Lagerplatzcode** am Lagerort die Standardflüsse zum Projektbereich.
+Für Lagerorte, die Lagerplätze verwenden, legt das Feld **An Projekte Lagerplatzcode** am Lagerort die Standardflüsse zum Projektbereich fest.
 
 ## Siehe auch  
 

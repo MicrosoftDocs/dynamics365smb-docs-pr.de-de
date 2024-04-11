@@ -5,7 +5,7 @@ author: jswymer
 ms.topic: overview
 ms.custom: bap-template
 ms.search.keywords: version
-ms.date: 12/13/2023
+ms.date: 03/11/2024
 ms.review: jswymer
 ms.author: jswymer
 ms.service: dynamics-365-business-central
@@ -35,7 +35,7 @@ Wir empfehlen Ihnen, eine stabile Kanalversion eines Webbrowsers zu verwenden, d
 
 ## Outlook
 
-**Outlook-Anwendungen**: Um [!INCLUDE[prod_short](includes/prod_short.md)] online als Ihren Unternehmensposteingang in Outlook zu verwenden, benötigen Sie Outlook 2019 oder höher bzw. Outlook im Web. Ihre Organisation muss auch Microsoft 365 verwenden. Sie können [!INCLUDE[prod_short](includes/prod_short.md)] online nicht als Ihr Geschäftseingang in Outlook verwenden, wenn Ihre Organisation Exchange Server lokal verwendet. 
+**Outlook-Anwendungen**: Um [!INCLUDE[prod_short](includes/prod_short.md)] online als Ihren Unternehmensposteingang in Outlook zu verwenden, benötigen Sie Outlook 2021 oder höher bzw. Outlook im Web. Ihre Organisation muss auch Microsoft 365 verwenden. Sie können [!INCLUDE[prod_short](includes/prod_short.md)] online nicht als Ihr Geschäftseingang in Outlook verwenden, wenn Ihre Organisation Exchange Server lokal verwendet. 
 
 **Browser:** Wenn Sie [!INCLUDE[prod_short](includes/prod_short.md)] als Ihren geschäftlichen Posteingang in Outlook in einem Browser verwenden, erfordert das Add-In, dass auf Ihrem Computer einer der aufgeführten unterstützten Browser ausgeführt wird, die zuvor in diesem Artikel aufgeführt wurden. 
 
@@ -51,7 +51,7 @@ Wir empfehlen Ihnen, eine stabile Kanalversion eines Webbrowsers zu verwenden, d
 
 ## Excel
 
-**Bearbeiten in Excel:** Um Excel-Add-Ins zu verwenden, um Änderungen in Excel vorzunehmen und die Änderungen zurück zu ändern in [!INCLUDE[prod_short](includes/prod_short.md)]benötigen Sie Excel 2019 oder später. Weitere Informationen finden Sie unter [Finanzauswertungen analysieren Microsoft Excel](finance-analyze-excel.md).  
+**Bearbeiten in Excel:** Um Excel-Add-Ins zu verwenden, um Änderungen in Excel vorzunehmen und die Änderungen zurück zu ändern in [!INCLUDE[prod_short](includes/prod_short.md)]benötigen Sie Excel 2021 oder später. Weitere Informationen finden Sie unter [Finanzauswertungen analysieren Microsoft Excel](finance-analyze-excel.md).  
 
 ## <a name="TAC"></a> Business Central Admin Center verwenden
 

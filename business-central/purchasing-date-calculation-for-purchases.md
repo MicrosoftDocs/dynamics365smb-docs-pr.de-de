@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'purchase order, purchase, date, receipt, delivery, lead time'
 ms.search.forms: null
-ms.date: 10/28/2022
+ms.date: 04/20/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---

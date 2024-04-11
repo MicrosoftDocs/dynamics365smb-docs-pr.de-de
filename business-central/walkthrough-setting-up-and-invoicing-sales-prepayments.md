@@ -1,11 +1,11 @@
 ---
-title: Verkaufsrechnungen einrichten und fakturieren Vorauszahlungen
-description: 'Vorauszahlungen sind Zahlungen, die in Rechnung gestellt und vor der endgültigen Rechnungsstellung auf eine Verkaufs- oder Einkaufsbestellung gebucht werden.'
+title: Einrichten und Fakturieren von Verkaufsvorauszahlungen
+description: 'Vorauszahlungen sind Zahlungen, die vor der finalen Fakturierung fakturiert und auf einen Vorauszahlungsauftrag (Einkauf oder Verkauf) gebucht werden.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
-ms.date: 12/03/2021
+ms.date: 01/29/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -86,7 +86,7 @@ Heike legt fest, dass für alle Debitoren eine Anzahlung in Höhe von 20 % für
 4. Wählen Sie die Aktion **Zugehörig** den Menüpunkt **Verkauf** und dann den Menüpunkt **Vorauszahlungsprozentsätze** aus.  
 5. Füllen Sie auf der Seite **Verkaufsvorauszahlungs-Prozentsätze** zwei Zeilen wie folgt aus:  
 
-    |**Verkaufsart**|**Verkaufscode**|**Artikelnr.**|**Vorauszahlung %**|  
+    |**Verkaufsart**|**Verkaufscode**|**Artikelnr.**|**Vorauszahlung %%**|  
     |--------------------|--------------------|------------------|----------------------|  
     |**Debitor**|**20000**|**1896-S**|**40**|
     |**Debitor**|**20000**|**1900-S**|**30**|  
@@ -109,7 +109,7 @@ Heike legt fest, dass für alle Debitoren eine Anzahlung in Höhe von 20 % für
 
  Im folgenden Szenario erstellt Susan aus der Auftragsabwicklung einen Auftrag, während sie mit einem Debitoren spricht. Die Artikel, die der Debitor bestellt, erfordern eine Vorauszahlung. Außerdem hat der Debitor in der Vergangenheit einige verspätete Zahlungen geleistet. Daher wurde Martha angewiesen, einen festen Betrag von **800** als Vorauszahlung auf dem Auftrag zu benötigen.  
 
-Der Debitor bittet, nur 35 % anzahlen zu müssen. Da Susan dem zustimmen kann, ändert sie den Auftrag entsprechend.  
+Der Debitor bittet, nur 35 %% anzahlen zu müssen. Da Susan dem zustimmen kann, ändert sie den Auftrag entsprechend.  
 
 Martha erstellt die Vorauszahlungsrechnung und sendet sie an den Kunden.  
 
@@ -145,7 +145,7 @@ Martha erstellt die Vorauszahlungsrechnung und sendet sie an den Kunden.
 
      Die erneute Berechnung beinhaltet alle Zeilen mit einem Vorauszahlungsprozentsatz größer 0.  
 
-     Jetzt fragt der Debitor, ob der Vorauszahlungsprozentsatz auf 35 % festgelegt werden kann. Da Marthas Vorgesetzter genehmigt die Änderung.
+     Jetzt fragt der Debitor, ob der Vorauszahlungsprozentsatz auf 35 %% festgelegt werden kann. Da Marthas Vorgesetzter genehmigt die Änderung.
 11. Erweitern Sie auf der Seite **Verkaufsauftrag** im Inforegister **Vorauszahlung** das Feld **Vorauszahlung %**, und geben Sie **35** ein.  
 12. In der Warnung, die erscheint, wählen Sie die Schaltfläche **Ja**. Eine Rate von 35 % wird als Vorauszahlungsprozentsatz für den gesamten Auftrag angewendet.  
 13. Überprüfen Sie dann, ob die Zeilen korrekt aktualisiert wurden.  
@@ -156,7 +156,7 @@ Nachdem sie die korrekten Vorauszahlungswerte im Auftrag eingegeben hat, erstell
 
 ### So erstellen Sie eine Vorauszahlungsrechnung
 
-1. Wählen Sie auf der Seite **Verkaufsauftrag** nacheinander die Optionen **Aktionen**, **Buchung**, **Vorauszahlung** und dann **Vorauszahlungsrechnung buchen und drucken** aus.
+1. Wählen Sie auf der Seite **Verkaufsauftrag** nacheinander die Optionen **Aktionen**, **Buchung**, **Vorauszahlung** und dann **Vorauszahlungsrechnung buchen und drucken** aus
 2. Klicken Sie auf die Schaltfläche **Ja**, um die Rechnung zu buchen.  
 
 > [!NOTE]  
@@ -172,7 +172,7 @@ Am folgenden Tag, ruft der Debitor Martha an, und nimmt Änderungen am Auftrag v
 2. Geben Sie in der Zeile für den Artikel **1896-S** im Feld **Menge** den Wert **2** ein.  
 
     Wählen Sie in der Aktion **Bestellung** die Option **Statistik** aus. Das Feld **Vorauszahlungsbetrag ohne. MwSt.** enthält jetzt **768,04**, und das Feld **Fakt. Vorauszahlungsbetrag ohne MwSt.** enthält **417,76**. Diese Werte bedeuten, dass ein zusätzlicher Vorauszahlungsbetrag vorhanden ist, der noch nicht fakturiert wurde.  
-3. Wählen Sie nacheinander die Optionen **Aktionen**, **Buchen**, **Vorauszahlung** und dann **Vorauszahlungsrechnung buchen und drucken** aus, um eine Rechnung für den zusätzlichen Vorauszahlungsbetrag zu buchen.
+3. Wählen Sie nacheinander die Optionen **Aktionen**, **Buchen**, **Vorauszahlung** und dann **Vorauszahlungsrechnung buchen und drucken** aus, um eine Rechnung für den zusätzlichen Vorauszahlungsbetrag zu buchen
 4. Klicken Sie auf die Schaltfläche **Ja**, um die Rechnung zu buchen.  
 
 ## Ausgleichen der Vorauszahlungen
@@ -217,7 +217,7 @@ Peter wurde darüber informiert, dass die Artikel im Auftrag geliefert wurden un
 
 5. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol, geben Sie **Gebuchte Verkaufsrechnungen** ein und wählen Sie dann den entsprechenden Link.  
 
-## Aktualisieren Sie den Status von vorausbezahlten Bestellungen und Rechnungen automatisch
+## Status von vorausbezahlten Bestellungen und Rechnungen automatisch aktualisieren
 
 Sie können die Auftrags- und Rechnungsverarbeitung beschleunigen, indem Sie Auftragswarteschlangeneinträge einrichten, die den Status dieser Dokumente automatisch aktualisieren. Wenn eine Vorauszahlungsrechnung bezahlt wird, können die Auftragswarteschlangeneinträge den Dokumentstatus automatisch von **Ausstehende Vorauszahlung** zu **Freigegeben** ändern. Wenn Sie die Jobwarteschlangeneinträge einrichten, müssen Sie folgende Codeunits verwenden: **383 Ausstehende Vorauszahlungsverkäufe aktualisieren** und **383 Ausstehende Vorauszahlungsbestellungen aktualisieren**. Wir empfehlen, die Einträge häufig auszuführen, z. B. jede Minute. Weitere Informationen finden Sie unter [Job-Warteschlangen zur Einplanung von Aufgaben verwenden](admin-job-queues-schedule-tasks.md).
 

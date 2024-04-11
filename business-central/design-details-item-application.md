@@ -133,7 +133,7 @@ Wenn der Benutzer nicht den festen Ausgleich zwischen der Einkaufsgutschrift und
 
 Die folgende Tabelle zeigt die Auswirkung auf die Wertposten des Artikels an, wenn Schritt 2 im vorherigen Szenario ohne einen festen Ausgleich ausgeführt wird.  
 
-|Buchungsdatum|Artikelpostenart|Bewertete Menge|Einstandsbetrag (tatsächl.)|Ausgleich mit Artikelposten|Bew. z. Einst.-Pr. (durchschn.)|Artikelposten Lfd. Nr.|Postennr.|  
+|Buchungsdatum|Artikelpostenart|Bewertete Menge|Einstandsbetrag (tatsächl.)||Bew. z. Einst.-Pr. (durchschn.)|Artikelposten Lfd. Nr.|Postennummer|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|--------------------------------------------|-------------------------------------------------|-----------------------------------------------|----------------------------------|  
 |01-01-20|Einkauf|1|200.00||Nein|1|1|  
 |01-01-20|Einkauf|1|1000.00||Nein|2|2|  

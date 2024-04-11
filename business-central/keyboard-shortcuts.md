@@ -22,7 +22,6 @@ Einen Überblick über die gängigsten Tastenkombinationen finden Sie unter [Tas
 > [ ![Symbol für die PDF-Datei.](media/keyboard_shortcut_inline.png) ](media/keyboard-shortcuts-2023.pdf "Symbol zum Öffnen einer PDF")
 
 
-
 ## Matrix
 
 Die Tastenkombinationseingabehilfe kann es effizienter und einfacher machen, um zu verschiedenen Bereichen und Elementen auf einer Seite zu navigieren. Die meisten Webbrowser unterstützen diese Tastenkombinationen, das jeweilige Verhalten kann sich jedoch leicht unterscheiden.
@@ -194,12 +193,12 @@ Wenn Sie ein Datumsfeld festlegen, können Sie entweder das Datum manuell eingeb
 |--------------------------------|----------|
 |<kbd>Strg</kbd>+<kbd>Pos1</kbd>|Öffnen Sie den gewünschten Kalender, wenn geschlossen. **Hinweis**: Dies funktioniert nicht, wenn sich das Datumsfeld in einem Raster befindet, in dem <kbd>Strg</kbd>+<kbd>Pos1</kbd> auf die erste Zeile springt.|
 |<kbd>Strg</kbd>+<kbd>Pos1</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>Pos1</kbd>)|Navigieren zum laufenden Monat, laufender Tag.|
-|<kbd>STRG</kbd>+<kbd>NACH-LINKS-TASTE</kbd><br /><br />(<kbd>CMD</kbd>+<kbd>NACH-LINKS-TASTE</kbd>)|Navigieren zum vorherigen Tag.|
-|<kbd>STRG</kbd>+<kbd>NACH-RECHTS-TASTE</kbd><br /><br />(<kbd>CMD</kbd>+<kbd>NACH-RECHTS-TASTE</kbd>)|Navigieren zum nächsten Tag.|
-|<kbd>STRG</kbd>+<kbd>NACH-OBEN-TASTE</kbd><br /><br />(<kbd>CMD</kbd>+<kbd>NACH-OBEN-TASTE</kbd>)|Navigieren zur Woche, derselbe Wochentag.|
-|<kbd>STRG</kbd>+<kbd>NACH-UNTEN-TASTE</kbd><br /><br />(<kbd>CMD</kbd>+<kbd>NACH-UNTEN-TASTE</kbd>)|Navigieren zur nächsten Woche, derselbe Wochentag.|
+|<kbd>NACH-LINKS-TASTE</kbd><br /><br />(<kbd>NACH-LINKS-TASTE</kbd>)|Navigieren zum vorherigen Tag.|
+|<kbd>NACH-RECHTS-TASTE</kbd><br /><br />(<kbd>NACH-RECHTS-TASTE</kbd>)|Navigieren zum nächsten Tag.|
+|<kbd>NACH-OBEN-TASTE</kbd><br /><br />(<kbd>NACH-OBEN-TASTE</kbd>)|Navigieren zur Woche, derselbe Wochentag.|
+|<kbd>NACH-UNTEN-TASTE</kbd><br /><br />(<kbd>NACH-UNTEN-TASTE</kbd>)|Navigieren zur nächsten Woche, derselbe Wochentag.|
 |<kbd>Eingabe</kbd>|Wählen Sie das fokussierte Datum aus.|
-|<kbd>Strg</kbd>+<kbd>Ende</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>Ende</kbd>)|Schließen Sie den Kalender oder löschen Sie die aktuellen Datum.|
+|<kbd>Ende</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>Ende</kbd>)|Schließen Sie den Kalender oder löschen Sie die aktuellen Datum.|
 |<kbd>Esc</kbd>|Schließen Sie den Kalender ohne eine Auswahl, geben Sie das aktuelle Datum ein.|
 |<kbd>Seite nach unten</kbd>|Navigieren zum nächsten Monat.|
 |<kbd>Seite nach oben</kbd>|Navigieren zum vorherigen Monat.|  
@@ -231,7 +230,7 @@ Wenn Sie ein Datumsfeld festlegen, können Sie entweder das Datum manuell eingeb
 |--------------------------------|----------|
 |<kbd>Strg</kbd>+<kbd>+</kbd>|Vergrößern Sie die aktuelle Seite.|  
 |<kbd>Strg</kbd>+<kbd>-</kbd>|Verkleinern Sie die aktuelle Seite.|  
-|<kbd>Strg</kbd>+<kbd>0</kbd>|Vergrößern Sie die aktuelle Seite auf 100 %.|  
+|<kbd>Strg</kbd>+<kbd>0</kbd>|Vergrößern Sie die aktuelle Seite auf 100 %%.|  
 
 ## <a name="roleexplorer"></a>Tastaturkürzel für den Rollen-Explorer
 

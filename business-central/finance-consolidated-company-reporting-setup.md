@@ -5,7 +5,7 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bnielse
 ms.topic: conceptual
-ms.date: 09/25/2023
+ms.date: 03/14/2024
 ms.custom: bap-template
 ms.search.keywords: 'consolidation, subsidiaries, consolidate'
 ms.search.form: '1826, 1827'
@@ -75,8 +75,21 @@ Bei der Einrichtung eines Konzernmandanten muss festgelegt werden, wie der Konze
 > [!NOTE]
 > Mit der API-Option können Sie auch Hauptbucheinträge von anderen [!INCLUDE [prod_short](includes/prod_short.md)] Umgebungen teilen. Um die API-Option nutzen zu können, muss der Benutzer, der die Konsolidierung konfiguriert, über die Berechtigung zum Zugriff auf Sachposten verfügen. Beispielsweise gewähren die Berechtigungssätze „D365 Basic“ und „D365 Read“ Zugriff.
 
+#### Konzernmandantenwährungen einrichten
+
+Wenn Sie eine Konsolidierung für Konzernmandanten durchführen, die eine Fremdwährung verwenden, müssen Sie besonders auf die Wechselkurse achten, die in verschiedenen Teilen des Prozesses verwendet werden. Dies gilt umso mehr, wenn Sie die Konsolidierung erneut ausführen. Verwenden Sie dazu die Seite **Konzernmandantenwährungen einrichten**, um die Kurse einfach im Auge zu behalten.
+
+Auf der Seite **Konzernmandantenwährungen einrichten** werden Ihnen die letzten Kurse für den Durchschnittskurs, den Ultimokurs und den letzten Ultimokurs angezeigt. Sie können die Wechselkurse in der Währungswechselkurstabelle entnehmen, was die Überprüfung der Kurse erleichtert. Sie können die Kurse für die aktuelle Ausführung ändern, indem Sie die Werte eingeben oder aus vorherigen Ausführungen kopieren. Um Kurse zu kopieren, wählen Sie **Aus früheren Konsolidierungen auswählen**. Diese Seite ist besonders hilfreich, wenn Sie eine frühere Konsolidierung erneut ausführen möchten und dabei einen früheren Ultimokurs verwenden müssen. Dies ist für die korrekte Neubewertung Ihrer Bilanzpositionen erforderlich. Die Seite **Aus früheren Konsolidierungen auswählen** ist auch hilfreich, wenn Sie nur die verwendeten Kurse anzeigen möchten, beispielsweise bei der Problembehandlung. Die Seite wird auf Ausführungen gefiltert, welche den ausgewählten Konzernmandanten enthalten.
+
+Sie starten den Batchauftrag **Konsolidierung ausführen** von der Listenseite **Konzernmandanten** aus. Sie können die Seite **Konzernmandantenwährungen einrichten** auch aufrufen, indem Sie die Aktion **Wechselkurse** auswählen.
+
+> [!NOTE]
+> Die derzeit auf der Karte **Konzernmandant** verfügbaren Wechselkurseinrichtungsseiten für den Durchschnitts-, Ultimo- und letzten Ultimokurs werden ab einer zukünftigen Version nicht mehr unterstützt. Sie können diese Kurse jedoch weiterhin beibehalten, wenn Sie über Konzernmandanten verfügen, die Sie über Dateien importieren.
+
+#### Einen Konzernmandanten erstellen
+
 1. Melden Sie sich im Konsolidierungsmandanten an.
-2. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen") Symbol. Geben Sie **Konzernmandanten** ein und wählen Sie dann den zugehörigen Link.  
+2. Wählen Sie das ![Glühbirne, welche die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen") Symbol. Geben Sie **Konzernmandanten** ein und wählen Sie dann den zugehörigen Link.  
 3. Wählen Sie die Aktion **Neu** aus, und füllen Sie dann bei Bedarf die Felder im Inforegister **Allgemein** und **Sachkonten** aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!IMPORTANT]
@@ -100,7 +113,7 @@ Wenn der Kontenplan des Konzernmandanten aus dem Konsolidierungsmandanten abweic
 
 ### <a name="exchrates"></a>Wechselkurse für Konsolidierungen angeben
 
-Richten Sie Wechselkurse für die Konsolidierung ein, wenn für die Finanzauswertungen eines Konzernmandanten nicht die Währung des konsolidierten Mandanten verwendet wird. Für jedes Konto bestimmt der Inhalt des Feldes **Konsol. Umrechnungsmethode** den Wechselkurses. Im konsolidierten Unternehmen auf jeder Konzernmandantenkarte im Feld **Währungswechselkurstabelle** geben Sie an, ob bei der Konsolidierung Wechselkurse des Konzernmandanten oder des konsolidierten Unternehmens verwendet werden. Bei Verwendung von Wechselkursen des konsolidierten Mandanten können die Wechselkurse für einen Konzernmandanten geändert werden. Enthält bei einer Geschäftseinheit das Feld **Wechselkurstabelle** (auf der Konzernmandantenkarte) den Wert **Lokal**, kann der Wechselkurs auf der Konzernmandantenkarte geändert werden. Zwar werden die Wechselkurse aus der Tabelle **Währungswechselkurs** kopiert, Sie haben jedoch die Möglichkeit, diese Wechselkurse vor der Konsolidierung zu ändern.
+Richten Sie Wechselkurse für die Konsolidierung ein, wenn für die Finanzauswertungen eines Konzernmandanten nicht die Währung des konsolidierten Mandanten verwendet wird. Für jedes Konto bestimmt der Inhalt des Feldes **Konsol. Umrechnungsmethode** den Wechselkurses. Geben Sie im konsolidierten Unternehmen auf jeder Konzernmandantenkarte im Feld **Währungswechselkurstabelle** an, ob die Konsolidierung Wechselkurse des Konzernmandanten oder des konsolidierten Unternehmens verwendet. Bei Verwendung von Wechselkursen des konsolidierten Mandanten können die Wechselkurse für einen Konzernmandanten geändert werden. Enthält bei einer Geschäftseinheit das Feld **Wechselkurstabelle** (auf der Konzernmandantenkarte) den Wert **Lokal**, kann der Wechselkurs auf der Konzernmandantenkarte geändert werden. Zwar werden die Wechselkurse aus der Tabelle **Währungswechselkurs** kopiert, Sie haben jedoch die Möglichkeit, diese Wechselkurse vor der Konsolidierung zu ändern.
 
 Die folgende Tabelle beschreibt die Wechselkursmethoden, die Sie für Konten verwenden können.
 
@@ -113,13 +126,11 @@ Die folgende Tabelle beschreibt die Wechselkursmethoden, die Sie für Konten ver
 |Gemischter Wechselkurs | Mischkurs: Die Beträge der laufenden Periode werden zum Durchschnittskurs umgerechnet und zum zuvor erfassten Saldo für den konsolidierten Mandanten addiert. Normalerweise verwenden Sie diese Methode für Gewinnrücklagenkonten. Diese Konten umfassen Beträge aus unterschiedlichen Zeiträumen und enthalten daher Beträge, die mit unterschiedlichen Wechselkursen umgerechnet wurden.|
 |Eigenkapitalkurs | Diese Option ist ähnlich wie der **Mischkurs**. Differenzen werden gebucht, um Sachkonten zu trennen.|
 
-Um Wechselkurse für Konzernmandanten anzugeben, gehen Sie folgendermaßen vor:
+Um Wechselkurse für einen Konzernmandanten anzugeben, gehen Sie folgendermaßen vor:
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Konzernmandanten** ein und wählen Sie dann den zugehörigen Link.  
-2. Auf der Seite **Konzernmandantenübersicht** wählen Sie die Konzernmandanten aus, und wählen Sie die **Durchschnittskurs (manuell)** Aktion aus.  
-3. Der Inhalt des Felds **Bezug auf Wechselkursbetrag** (im Fenster **Wechselkurs ändern**) wurde aus der Tabelle **Währungswechselkurs** kopiert, kann jedoch geändert werden. Schließen Sie die Seite.  
-4. Wählen Sie die **Ultimokurs**-Aktion aus.  
-5. In dem Feld **Relationaler Wechselkursbetrag** geben Sie den Wechselkurs ein.
+1. Wählen Sie das Symbol ![Glühbirne, die die „Sie wünschen ...“-Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Konzernmandanten** ein und wählen Sie dann den zugehörigen Link.  
+2. Wählen Sie auf der Seite **Konzernmandantenübersicht** die Konzernmandanten und dann die Aktion **Wechselkurse** aus.  
+3. Füllen Sie auf der Seite **Konzernmandantenwährungen einrichten** die Felder nach Bedarf aus. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
 ### <a name="dim"></a>Dimensionen ein- oder ausschließen
 

@@ -5,11 +5,11 @@ author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
-ms.date: 06/24/2021
+ms.date: 01/31/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Exemplarische Vorgehensweise Durchführen einer Verkaufskampagne
+# Exemplarische Vorgehensweise: Durchführen einer Verkaufskampagne
 
 Eine Kampagne ist eine Aktivität, die mehrere Kontakte umfasst. Ein wichtiger Schritt beim Einrichten einer Kampagne ist die Auswahl der Zielgruppe. Zu diesem Zweck erstellen Sie in [!INCLUDE[prod_short](includes/prod_short.md)] mithilfe von Filtern ein Segment bzw. eine Gruppe von Kontakten.  
 
@@ -47,7 +47,7 @@ Eine Kampagne ist eine Aktivität, die mehrere Kontakte umfasst. Ein wichtiger S
 
  Der Marketingmitarbeiter in der Marketingabteilung ist für die Herstellung, Verteilung und Platzierung von Marketingmaterial zuständig.  
 
- Das Unternehmen hat gerade ein neues Produkt namens Rome Guest Chair auf den Markt gebracht. Das Produkt wurde kürzlich auf einer Messe vorgestellt, der Office Futurus. Viele Debitoren haben großes Interesse am Produkt beDebitort, und im Rahmen der Werbeinitiative wurde Debitoren, die Rome Guest Chair während des Kampagnenzeitraums erworben haben, ein spezieller Kampagnenpreis angeboten.  
+ Das Unternehmen hat ein neues Produkt namens Rome Guest Chair auf den Markt gebracht. Das Produkt wurde kürzlich auf einer Messe vorgestellt, der Office Futurus. Viele Debitoren haben großes Interesse am Produkt beDebitort, und im Rahmen der Werbeinitiative wurde Debitoren, die Rome Guest Chair während des Kampagnenzeitraums erworben haben, ein spezieller Kampagnenpreis angeboten.  
 
  Eine der Aufgaben des Marketingmitarbeiters nach der Messe ist die Erfassung aller Interessenten als Kontakte im System.  
 
@@ -71,7 +71,7 @@ Eine Kampagne ist eine Aktivität, die mehrere Kontakte umfasst. Ein wichtiger S
 
  Der Marketingmanager erstellt ein Segment, um die Kontakte auszuwählen, mit denen er interagieren möchte.  
  
- Wenn Sie ein Segment erstellen, können Sie eine Vielzahl von Kriterien verwenden, um die Kontakte auszuwählen, die Ziele für das Segment sein müssen. Sie können beispielsweise Kontakte auswählen, die an einem (potenziellen) Kundenstandort arbeiten und für den Einkauf in ihrem Unternehmen verantwortlich sind. Sie verwenden Filter, um Kontakte nach den Kriterien hinzuzufügen, die für Ihre Zwecke am besten geeignet sind. Mithilfe von Filtern können Sie Kontakte z. B. nach der Verantwortlichkeit der Kontaktperson oder der Geschäftsbeziehung oder Branche des Unternehmens hinzufügen. In dieser Demonstration verwenden Sie den Filter **Verantwortlichkeit** zum Auswählen von Kontakten.
+ Wenn Sie ein Segment erstellen, können Sie verschiedene Kriterien verwenden, um die Kontakte auszuwählen, die Ziele für das Segment sein müssen. Sie können beispielsweise Kontakte auswählen, die an einem (potenziellen) Kundenstandort arbeiten und für den Einkauf in ihrem Unternehmen verantwortlich sind. Sie verwenden Filter, um Kontakte nach den Kriterien hinzuzufügen, die für Ihre Zwecke am besten geeignet sind. Mithilfe von Filtern können Sie Kontakte z. B. nach der Verantwortlichkeit der Kontaktperson oder der Geschäftsbeziehung oder Branche des Unternehmens hinzufügen. In dieser Demonstration verwenden Sie den Filter **Verantwortlichkeit** zum Auswählen von Kontakten.
 
 ### So erstellen Sie ein Segment mit den relevanten Kontakten  
 
@@ -90,12 +90,12 @@ Die Seite **Segment** enthält jetzt eine auf dem eingegebenen Filter beruhende 
 
 1. Wählen Sie auf der Seite **Segment** die Option **Aktionen** aus.
 2. Wählen Sie **Funktionen**, dann **Segment** und anschließend die Aktion **Kriterien speichern** aus.  
-3. Geben Sie auf der Seite **Segmentkriterien speichern** einen Code für das Segment ein. Geben Sie im Feld **Beschreibung** eine der Segmentkriterien ein.
+3. Geben Sie auf der Seite **Segmentkriterien speichern** einen Code für das Segment ein. Geben Sie im Feld **Beschreibung** eines der Segmentkriterien ein.
 4. Wählen Sie die Schaltfläche **OK** aus.  
 
 ## Data Mining
 
- Der Marketingmanager untersucht die segmentierte Kontaktliste genauer und stellt fest, dass die Liste viel zu umfangreich ist. Der Manager entscheidet, die Liste basierend auf tatsächlichen Interessenten einzuschränken, um sicherzustellen, dass er sich auf die richtige Zielgruppe konzentriert. Dieser Prozess der Neudefinition und Reduktion der Daten wird als Data Mining bezeichnet.  
+ Der Marketingmanager untersucht die segmentierte Kontaktliste genauer und stellt fest, dass die Liste viel zu groß ist. Der Manager entscheidet, die Liste basierend auf tatsächlichen Interessenten einzuschränken, um sicherzustellen, dass er sich auf die richtige Zielgruppe konzentriert. Dieser Prozess der Neudefinition und Reduktion der Daten wird als Data Mining bezeichnet.  
 
 ### So entfernen Sie Kontakte aus dem Segment  
 
@@ -115,7 +115,7 @@ Die Seite **Segment** enthält jetzt eine auf dem eingegebenen Filter beruhende 
 1. Wählen Sie auf der Seite **Segment** die Aktion **Protokoll** aus.
 2. Wählen Sie die Aktion **Zurück** aus.
 
-Die Kontakte, die Sie soeben entfernt haben, werden wieder in die Liste der Kontakte eingefügt.
+Die Kontakte, die Sie entfernt haben, werden wieder in die Liste der Kontakte eingefügt.
 
 ## Verknüpfen eines Segments mit einer Kampagne
 
@@ -172,7 +172,7 @@ Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Fu
 
  Die Briefe werden automatisch per E-Mail gesendet, und das Segment wird protokolliert. Da das Segment protokolliert wurde, ist es nicht mehr in der Liste der Segmente vorhanden, sondern wurde in der Liste der protokollierten Segmente gespeichert. Um diese Liste zu sehen, wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Protokollierte Segmente** ein und wählen Sie dann den zugehörigen Link.  
 
-## Erfassen von Kampagnenreaktionen
+## Kampagnenreaktionen erfassen
 
  Im Laufe der nächsten Wochen antworten die Interessenten auf den Brief. Der Marketingmanager möchte die Reaktionen verfolgen und diese Interaktionen erfassen.  
 
@@ -193,7 +193,7 @@ Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Fu
 8. Deaktivieren Sie auf der Seite **Segment protokollieren** das Kontrollkästchen **Anhänge senden**. Wählen Sie dann die Schaltfläche **OK** aus, um die Meldung, dass das Segment protokolliert wurde, zu bestätigen.  
   
 ## Siehe auch  
-[Beziehungsmanagement](marketing-relationship-management.md)  
+[Marketing und Vertrieb](marketing-relationship-management.md)  
  [Exemplarische Vorgehensweisen für Geschäftsprozesse](walkthrough-business-process-walkthroughs.md)  
  [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

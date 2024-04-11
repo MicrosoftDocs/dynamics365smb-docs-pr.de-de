@@ -1,12 +1,12 @@
 ---
-title: 'Vorgehensweise: Elektronische Belege empfangen und konvertieren'
-description: 'Dieses Thema beschreibt, wie Sie elektronische Belege direkt von Handelspartnern oder von einem OCR-Dienst empfangen können.'
+title: Elektronische Belege empfangen und konvertieren
+description: 'Dieser Artikel beschreibt, wie Sie elektronische Belege direkt von Handelspartnern oder von einem OCR-Dienst empfangen können.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
 ms.search.form: '189, 190, 191'
-ms.date: 06/23/2021
+ms.date: 03/20/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -59,7 +59,7 @@ Die folgenden Schritte zeigen, wie Sie eine Kreditorenrechnungen empfangen und i
 
 [Verwalten von Verbindlichkeiten](payables-manage-payables.md)  
 [Eingehende Belege](across-income-documents.md)  
-[Einrichten des Senden und Empfangen von elektronischen Belegen](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
+[Senden und Empfangen von elektronischen Belegen einrichten](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
 [Daten elektronisch austauschen](across-data-exchange.md)   
 [Allgemeine Geschäftsfunktionen](ui-across-business-areas.md)  
 

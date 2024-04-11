@@ -5,16 +5,16 @@ author: brentholtorf
 ms.service: dynamics-365-business-central
 ms.topic: conceptual
 ms.search.keywords: 'shipping advice, partial shipments, partial deliveries, trade, customer sales order'
-ms.date: 08/12/2022
+ms.date: 02/14/2024
 ms.author: bholtorf
 ---
 # Teillieferungen verarbeiten
 
 Bei einer Teillieferung wird eine Bestellung nicht auf einmal versandt. Sie liefern z. B. bei einem Auftrag von 100 Einheiten sofort 40 Einheiten und 60 Einheiten zu einem späteren Zeitpunkt. Es gibt keine Begrenzung für die Anzahl der Lieferungen, die für einen Auftrag gebucht werden können.
 
-Vorher können Sie jedoch Teillieferungen in [!INCLUDE [prod_short](includes/prod_short.md)] verwenden, müssen Sie angeben, dass der Kunde Teillieferungen akzeptiert, indem Sie **Versandhinweis** auf der **Debitorenkarte** festlegen. Alternativ, wenn der Debitor normalerweise nur komplette Lieferungen akzeptiert, dann aber eine Teillieferung für einen bestimmten Kundenauftrag wünscht oder zustimmt, können Sie das Feld **Versandhinweisen** vor dem Buchen ändern.
+Vorher können Sie jedoch Teillieferungen in [!INCLUDE [prod_short](includes/prod_short.md)] verwenden, müssen Sie angeben, dass der Kunde Teillieferungen akzeptiert, indem Sie **Versandhinweis** auf der **Debitorenkarte** festlegen. Alternativ, wenn der Debitor nur komplette Lieferungen akzeptiert, dann aber eine Teillieferung für einen bestimmten Kundenauftrag wünscht oder zustimmt, können Sie das Feld **Versandhinweisen** vor dem Buchen ändern.
 
-Standardmäßig, setzt [!INCLUDE [prod_short](includes/prod_short.md)] das Feld auf der **Debitorenkarte** als **Teilweise**, wodurch Teillieferungen möglich sind. Wenn jedoch das Feld zur Angabe von **Vollständig** angepasst wurde, ist das Feld **Zu liefern** Verkaufsaufträgen für diesen Debitor gesperrt.
+Standardmäßig, setzt [!INCLUDE [prod_short](includes/prod_short.md)] das Feld auf der **Debitorenkarte** als **Teilweise**, wodurch Teillieferungen möglich sind. Wenn jedoch das Feld zur Angabe von **Vollständig** angepasst wurde, wird das Feld **Zu liefern** Verkaufsaufträgen für diesen Debitor als gesperrt angezeigt.
 
 [!INCLUDE [order-ship-invoice_md](includes/order-ship-invoice.md)]
 

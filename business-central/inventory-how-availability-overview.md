@@ -7,7 +7,7 @@ ms.topic: overview
 ms.devlang: al
 ms.search.keywords: stock
 ms.search.form: '908, 909, 925, 926, 504, 501, 500, 499, 99000896, 342, 515, 5417, 5415, 5871, 5530, 492, 157, 5540, 5416, 5414, 1872, 1873, 99000902, 353, 491, 9231, 5390'
-ms.date: 09/21/2022
+ms.date: 04/08/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -59,7 +59,7 @@ Sie zeigen die Verfügbarkeit eines Artikels im Zeitverlauf für angegebene Zeit
 
 Sie zeigen auf der Seite **Artikelverfügbarkeit nach Lagerort** die Verfügbarkeit eines Artikels an verschiedenen Stellen an, wo er gelagert wird.
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Elemente** ein, und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie das Symbol ![Glühbirne, die die „Sie wünschen ...“-Funktion öffnet](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Elemente** ein, und wählen Sie dann den zugehörigen Link.
 2. Öffnen Sie die Karte eines Elements, für das Sie die Verfügbarkeit anzeigen möchten.
 3. Wählen Sie die Aktion **Artikelverfügbarkeit nach** aus, und wählen Sie dann die Aktion **Lagerplatz** aus.
 
@@ -127,7 +127,7 @@ Die Seite **Montageverfügbarkeit** zeigt detaillierte Verfügbarkeitsinformatio
 
 - Automatisch aus einer Verkaufsauftragszeile in Auftragsmontageszenarien, wenn Sie eine Menge eingeben, die ein Komponentenverfügbarkeitsproblem verursacht.
 - Automatisch aus einem Montagesauftragskopf, wenn Sie im Feld Menge einen Wert eingeben, der ein Komponentenverfügbarkeitsproblem verursacht.
-- Manuell, wenn aus einem Montageauftrag geöffnet. Klicken Sie auf der Registerkarte Aktionen in der Gruppe Funktion auf Verfügbarkeit anzeigen.
+- Manuell, wenn aus einem Montageauftrag geöffnet. Wählen Sie auf der Registerkarte „Aktionen“ in der Gruppe „Funktionen“ die Option „Verfügbarkeit anzeigen“ aus.
 
 Die Registerkarte **Details** zeigt detaillierte Verfügbarkeitsinformationen für den Montageartikel an, einschließlich wie viel der Montageauftragsmenge bis zum Fälligkeitsdatum auf der Grundlage der Verfügbarkeit der benötigten Komponenten montiert werden kann. Dies wird im Feld Montage möglich im Inforegister Details angezeigt.
 

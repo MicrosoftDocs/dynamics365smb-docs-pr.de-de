@@ -25,7 +25,7 @@ Verwenden Sie folgende Belege für interne Arbeitsgänge:
 
 * Wenn Sie eine Lagerkommissionierung für einen internen Vorgang erfassen, wie etwa Produktion oder einen Auftrag, wird der Verbrauch der kommissionierten Komponenten gleichzeitig gebucht.
 * Der Schalter **Lagerplatz erforderlich** auf der Seite **Lagerortkarte** ist optional.
-* Wenn Sie Lagerkommissionierungen verwenden, definiert das Feld **Lagerplatzcode** in der Komponentenzeile eines Fertigungsauftrags oder den Auftragsplanungszeilen den *Entnahme*-Lagerplatz. Beim Buchen des Verbrauchs werden die Komponenten im Entnahme-Lagerplatz verringert.
+* Wenn Sie Lagerkommissionierungen verwenden, definiert das Feld **Lagerplatzcode** in der Komponentenzeile eines Fertigungsauftrags oder den Projektplanungszeilen den *Entnahme*-Lagerplatz. Beim Buchen des Verbrauchs werden die Komponenten im Entnahme-Lagerplatz verringert.
 
 ## Lagerbestandsumlagerungen
 
@@ -60,11 +60,11 @@ Verwenden Sie Dokumente für **Lagerbestandskommissionierung** für die Kommissi
 Für Lagerorte, die Lagerplätze verwenden, können Sie den Fluss mit **Lagerbestandsumlagerungsbelegen** zu Aufträgen erweitern.
 
 > [!NOTE]
-> Die Möglichkeit, Komponenten für Auftragsplanungslinien auszuwählen, wurde hinzugefügt[!INCLUDE[d365fin](includes/d365fin_md.md)] 2022 Veröffentlichungswelle 2. Um die Funktion zu verwenden, muss Ihr Administrator **Funktion Aktualisieren: Lagerbestand und Lagerkommissionierungen von Aufträgen aus aktivieren** auf der Seite **Funktionsverwaltung** aktivieren.
+> Die Möglichkeit, Komponenten für Projektplanungslinien auszuwählen, wurde in [!INCLUDE[d365fin](includes/d365fin_md.md)] Veröffentlichungswelle 2 2022 hinzugefügt. Um die Funktion zu verwenden, muss Ihr Administrierender **Funktion Aktualisieren: Lagerbestand und Lagerkommissionierungen von Aufträgen aus aktivieren** auf der Seite **Funktionsverwaltung** aktivieren.
 >
-> [!INCLUDE[prod_short](includes/prod_short.md)] verwendet den Wert im Feld **Verbleibende Menge** in der Auftragsplanungszeile, wenn es Bestandsentnahmen erstellt. Um Bestandsentnahmen für Aufträge zu verwenden, müssen Sie den Schalter **Nutzungslink anwenden** auf der Seite **Projektkarte** Seite für das Projekt umschalten. Auf diese Weise können Sie die Nutzung anhand Ihres Plans verfolgen. Wenn Sie den Schalter nicht einschalten, bleibt die Restmenge bei **0** und die Bestandsauswahl wird nicht erstellt. Weitere Informationen finden Sie unter [Projektverbrauch-Nachverfolgung einrichten](projects-how-setup-jobs.md?tabs=current-experience#to-set-up-job-usage-tracking)
+> [!INCLUDE[prod_short](includes/prod_short.md)] verwendet den Wert im Feld **Verbleibende Menge** in der Projektplanungszeile, wenn es Bestandsentnahmen erstellt. Um Bestandsentnahmen für Aufträge zu verwenden, müssen Sie den Schalter **Nutzungslink anwenden** auf der Seite **Projektkarte** für das Projekt umschalten. Auf diese Weise können Sie die Nutzung anhand Ihres Plans verfolgen. Wenn Sie den Schalter nicht einschalten, bleibt die Restmenge bei **0** und die Bestandsauswahl wird nicht erstellt. Weitere Informationen finden Sie unter [Projektverbrauch-Nachverfolgung einrichten](projects-how-setup-jobs.md?tabs=current-experience#to-set-up-project-usage-tracking).
 
-## Kommissionierung oder Umlagerung für Produktion, Montage und Aufträge in einer Basislagerkonfiguration
+## Kommissionierung oder Umlagerung für Produktion, Montage und Projekte in einer Basislagerkonfiguration
 
 Sie können eine Lagerkommissionierung oder Bestandumlagerung auf drei Arten erstellen:  
 
@@ -140,7 +140,7 @@ Folgendes passiert während des Buchungsprozesses:
 
 Folgendes passiert während des Buchungsprozesses:
 
-* Die Lagerplatzposten geben jetzt an, dass die Komponenten an den Lagerplätzen vorhanden sind, die in den Auftragszeilen des Herkunftsbelegs angegeben sind. Beispielsweise der Montageauftrag, die Produktionskomponente oder die Auftragsplanungszeile.
+* Die Lagerplatzposten geben jetzt an, dass die Komponenten an den Lagerplätzen vorhanden sind, die in den Auftragszeilen des Herkunftsbelegs angegeben sind. Beispielsweise der Montageauftrag, die Produktionskomponente oder die Projektplanungszeile.
 
 >[!NOTE]
 > Anders als beim Umlagern von Komponenten mit Lagerbestandkommissionierungen, wird Verbrauch nicht gebucht, wenn Sie eine Lagerbestandsumlagerung erfassen. Sie erfassen den Verbrauch in einem separaten Schritt, indem Sie den Herkunftsbeleg buchen.

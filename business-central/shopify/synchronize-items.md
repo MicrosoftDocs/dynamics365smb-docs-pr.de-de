@@ -1,12 +1,12 @@
 ---
 title: Artikel und Inventar synchronisieren
 description: Synchronisierungen von Artikeln zwischen Shopify und Business Central einrichten und ausführen
-ms.date: 11/17/2023
+ms.date: 02/28/2024
 ms.topic: article
 ms.search.form: '30116, 30117, 30126, 30127,'
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bholtorf
+ms.reviewer: andreipa
 ms.collection:
   - bap-ai-copilot
 ---
@@ -50,30 +50,8 @@ Zuerst importieren Sie Artikel aus Shopify in großen Mengen oder zusammen mit d
 |**SKU-Feldtrennzeichen**|Verwenden Sie dieses Feld zusammen mit **SKU-Zuordnung**, das auf **[Artikelnr. und Variantencode](synchronize-items.md#effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central)** festgelegt ist.<br>Definieren Sie ein Trennzeichen, das zum Aufteilen der SKU verwendet werden soll.<br>Wenn Sie in Shopify die Variante mit SKU „1000/001“ erstellen, geben Sie „/“ in das Feld **SKU-Feldtrennzeichen** ein, um die Artikelnummer in [!INCLUDE[prod_short](../includes/prod_short.md)] als „1000“ und den Artikelvariantencode als „001“ zu erhalten. Beachten Sie Folgendes: Wenn Sie die Variante mit der SKU „1000/001/111“ in Shopify erstellen, lautet die Artikelnummer in [!INCLUDE[prod_short](../includes/prod_short.md)] „1000“ und der Artikelvariantencode „001“. Der Teil „111“ wird ignoriert. |
 |**Variantenpräfix**|Wird zusammen mit **SKU-Zuordnung** verwendet, die entweder auf die Option **Variantencode** oder **Artikelnr. und Variantencode** als Fallback-Strategie festgelegt ist, wenn die SKU aus Shopify leer ist.<br>Wenn Sie die Artikelvariante automatisch in [!INCLUDE[prod_short](../includes/prod_short.md)] erstellen möchten, müssen Sie einen Wert in **Code** eingeben. Standardmäßig wird der im SKU-Feld definierte Wert aus Shopify verwendet. Wenn die SKU jedoch leer ist, wird Code generiert, der mit dem definierten Variantenpräfix und „001“ beginnt.|
 |**Shopify Kann Artikel aktualisieren**|Wählen Sie diese Option aus, wenn Sie Artikel und/oder Varianten automatisch aktualisieren möchten.|
-
-### So wirken sich in SKU und Barcode definierte Shopify-Produkte auf die Zuordnung und Erstellung von Artikeln und Varianten in Business Central aus
-
-Wenn Produkte von Shopify in die Tabellen **Shopify-Produkte** und **Shopify-Varianten** importiert werden, versucht [!INCLUDE[prod_short](../includes/prod_short.md)] vorhandene Datensätze zu finden.
-
-In der folgenden Tabelle wird der Unterschied zwischen den Optionen im Feld **SKU-Zuordnung** beschrieben.
-
-|Option|Auswirkung auf die Zuordnung|Auswirkung auf die Erstellung|
-|------|-----------------|------------------|
-|**"Leer"**|Das SKU-Feld wird in der Artikelzuordnungsroutine nicht verwendet.|Keine Auswirkung auf die Erstellung des Elements.<br>Diese Option verhindert die Erstellung von Varianten. Im Verkaufsauftrag wird nur der Hauptartikel verwendet. Eine Variante kann weiterhin manuell auf der Seite **Shopify-Produkt** zugeordnet werden.|
-|**Artikelnr.**|Legen Sie fest, ob das SKU-Feld die Artikelnummer enthält|Keine Auswirkung auf die Erstellung eines Elements ohne Varianten. Bei einem Artikel mit Varianten wird jede Variante als separater Artikel erstellt.<br>Wenn Shopify ein Produkt mit zwei Varianten aufweist und deren Lagerhaltungsdaten lauten „1000“ und „2000“, erstellt das System in [!INCLUDE[prod_short](../includes/prod_short.md)] zwei Artikel mit den Nummern „1000“ und „2000“.|
-|**Variantencode**|Das SKU-Feld wird in der Artikelzuordnungsroutine nicht verwendet.|Keine Auswirkung auf die Erstellung des Elements. Beim Erstellen einer Artikelvariante dient der Wert des SKU-Felds als Code. Wenn die SKU leer ist, wird ein Code über das Feld **Variantenpräfix** erstellt.|
-|**Artikelnr. und Variantencode**|Wählen Sie diese Option aus, wenn das SKU-Feld eine Artikelnummer enthält und der Artikelvariantencode durch den im Feld **SKU-Feldtrennzeichen** definierten Wert getrennt ist.|Beim Erstellen eines Artikels wird der erste Teil des Werts des SKU-Felds als **Nr.** festgelegt. Wenn das SKU-Feld leer ist, wird eine Artikelnummer mit der Nummernserie generiert, die in **Artikelvorlagencode** oder **Artikelnummern** der Seite **Lagereinrichtung** definiert ist.<br>Beim Erstellen eines Artikels verwendet die Variantenfunktion den zweiten Teil des Werts des SKU-Felds als **Code**. Wenn das SKU-Feld leer ist, wird ein Code über das Feld **Variantenpräfix** erstellt.|
-|**Kreditorenartikelnr.**|Legen Sie fest, ob das SKU-Feld die Kreditorartikelnummer enthält In diesem Fall wird **Kreditorenartikelnummer** nicht auf der Seite **Artikelkarte** verwendet; eher **Kreditorenartikelnummer** aus **Artikelliefernatenkatalog** wird verwendet. Wenn der gefundene Datensatz *Artikel/Lieferanten Katalog* einen Variantencode enthält, wird dieser Code zum Zuordnen der Shopify-Variante verwendet.|Wenn ein entsprechender Lieferant in [!INCLUDE[prod_short](../includes/prod_short.md)] existiert, wird der SKU-Wert als **Lieferanten-Artikel-Nr.** auf der Seite **Artikelkarte** und als **Artikelreferenz** des Typs *Lieferant* verwendet. <br>Verhindert die Erstellung von Varianten. Dies ist nützlich, wenn Sie nur den Hauptartikel nur im Verkaufsauftrag verwenden möchten. Sie können weiterhin eine Variante manuell über die Seite **Shopify-Produkt** zuordnen.|
-|**Strichcode**|Legen Sie fest, ob das SKU-Feld einen Strichcode enthält. Es wird eine Suche unter **Artikelreferenzen** des Typs *Barcode* durchgeführt. Wenn der gefundene Artikelreferenzdatensatz einen Variantencode enthält, wird dieser Variantencode zum Zuordnen der Shopify-Variante verwendet.|Keine Auswirkung auf die Erstellung des Elements. <br>Verhindert die Erstellung von Varianten. Es ist nützlich, wenn Sie nur den Hauptartikel im Kundenauftrag verwenden möchten. Sie können weiterhin eine Variante manuell über die Seite **Shopify-Produkt** zuordnen.|
-
-In der folgenden Tabelle werden die Auswirkungen des Felds **Strichcode** beschrieben.
-
-|Auswirkung auf die Zuordnung|Auswirkung auf die Erstellung|
-|-----------------|------------------|
-|Es wird eine Suche unter **Artikelreferenzen** vom Typ „Strichcode“ für den Wert durchgeführt, der im Feld **Strichcode** in Shopify definiert ist. Wenn der gefundene Artikelreferenzdatensatz einen Variantencode enthält, wird dieser Variantencode zum Zuordnen der Shopify-Variante verwendet.|Der Barcode wird als **Artikelreferenz** für den Artikel und die Artikelvariante gespeichert.|
-
-> [!NOTE]  
-> Sie können die Zuordnung für die ausgewählten Produkte/Varianten auslösen, indem Sie **Zuordnung von Produkten suchen** auswählen oder alle importierten nicht zugeordneten Produkte auslösen über **Zuordnung suchen** auswählen.
+|**Einheit als Variante**| Wählen Sie diese Option aus, wenn alle Artikelmengeneinheiten als separate Varianten exportiert werden sollen. Fügen Sie mithilfe der Personalisierung das Feld hinzu. Erfahren Sie mehr im Abschnitt [Maßeinheit als Variante](synchronize-items.md#unit-of-measure-as-variant).|
+|**Variantenoptionsname für Einheit**| Verwenden Sie dieses Feld mit **Einheit als Variante**, um anzugeben, unter welcher Option Varianten hinzugefügt werden, die Maßeinheiten darstellen. Der Standardwert ist *Maßeinheit*. Fügen Sie mithilfe der Personalisierung das Feld hinzu.|
 
 ## Artikel nach Shopify exportieren
 
@@ -101,6 +79,37 @@ Der Prozess des Artikelexports kann mit den folgenden Einstellungen verwaltet we
 |**Verfolgter Lagerbestand**| Legen Sie fest, wie das Feld **Lagerbestand verfolgen** für Produkte ausgefüllt werden soll, die nach Shopify exportiert werden. Sie können Verfügbarkeitsinformationen von [!INCLUDE[prod_short](../includes/prod_short.md)] für Produkte in Shopify mit aktivierter Lagerbestandsverfolgung aktualisieren. Erfahren Sie mehr im Abschnitt [Bestand](synchronize-items.md#sync-inventory-to-shopify).|
 |**Standardinventarrichtlinie**|Wählen Sie *Verweigern* aus, um einen negativen Lagerbestand der Shopify-Seite zu vermeiden. <br>Wenn **Kann Shopify-Produkte aktualisieren** aktiviert ist, werden Änderungen im Feld **Standardrichtlinie für Lagerbestand** in Shopify nach der nächsten Synchronisierung für alle Produkte und Varianten übernommen, die auf der Seite **Shopify-Produkte** für den ausgewählten Shop aufgeführt sind.|
 |**Kann Shopify-Produkte aktualisieren**|Definieren Sie dieses Feld, wenn [!INCLUDE[prod_short](../includes/prod_short.md)] Artikel nur erstellen oder auch aktualisieren kann. Wählen Sie diese Option aus, wenn Sie nach der ersten Synchronisierung, die durch die Aktion **Artikel hinzufügen** ausgelöst wurde, Produkte manuell mit der Aktion **Produkte synchronisieren** oder über eine Aufgabenwarteschlange für wiederkehrende Aktualisierungen aktualisieren möchten. Denken Sie daran, **Mit Shopify** im Feld **Artikelsynchronisierung** auszuwählen.<br>**Kann Shopify Produkte aktualisieren** hat keinen Einfluss auf die Synchronisierung von Preisen, Bildern oder Lagerebenen, die durch unabhängige Steuerelemente konfiguriert werden.<br>Wenn **Kann Shopify Produkte aktualisieren** aktiviert ist, werden die folgenden Felder auf der Shopify Seite auf Produkt- und bei Bedarf Variantenebene aktualisiert: **SKU**, **Barcode**, **Gewicht**. **Titel**, **Produkttyp**, **Kreditor** und **Beschreibung** des Produkts werden ebenfalls aktualisiert, wenn die exportierten Werte nicht leer sind. Für die Beschreibung bedeutet dies, dass Sie einen der folgenden Umschalter aktiviert haben: **Erweiterten Text für Artikel synchronisieren**, **Marketingtext für Artikel synchronisieren** und **Artikelattribute synchronisieren**. Attribute, erweiterter Text oder Marketingtext müssen Werte enthalten. Wenn das Produkt Varianten verwendet, dann wird die Variante bei Bedarf hinzugefügt oder entfernt. <br>Der Shopify-Konnektor kann keine Variante für dieses Produkt erstellen, wenn das Produkt auf Shopify für die Verwendung einer Variantenmatrix konfiguriert ist, die zwei oder mehr Optionen kombiniert. In [!INCLUDE[prod_short](../includes/prod_short.md)] gibt es keine Möglichkeit, eine Optionsmatrix festzulegen, weshalb der Konnektor den **Variantencode** als einzige Option verwendet. Allerdings erwartet Shopify mehrere Optionen und weigert sich, eine Variante zu erstellen, wenn Informationen zu einer zweiten und anderen Optionen fehlen. |
+|**Einheit als Variante**| Wählen Sie diese Option aus, wenn einige Optionen als Maßeinheiten statt als Varianten exportiert oder importiert werden sollen. Fügen Sie das Feld mithilfe der Personalisierung hinzu. Erfahren Sie mehr im Abschnitt [Maßeinheit als Variante](synchronize-items.md#unit-of-measure-as-variant).|
+|**Variantenoptionsname für Einheit**| Verwenden Sie dieses Feld mit **Einheit als Variante**, um anzugeben, welche Option Varianten enthält, die Maßeinheiten darstellen. Der Standardwert ist *Maßeinheit*. Fügen Sie mithilfe der Personalisierung das Feld hinzu.|
+
+> [!NOTE]
+> Wenn Sie viele Artikel und Varianten exportieren möchten, kann es sein, dass einige davon blockiert sind. Gesperrte Artikel und Varianten können bei der Preiskalkulation nicht berücksichtigt werden und werden daher auch nicht exportiert. Der Konnektor überspringt diese Elemente und Varianten, sodass Sie sie auf der Anforderungsseite **Artikel zu Shopify hinzufügen** nicht filtern müssen.
+
+## Erweiterte Details
+
+### So wirken sich in SKU und Barcode definierte Shopify-Produkte auf die Zuordnung und Erstellung von Artikeln und Varianten in Business Central aus
+
+Wenn Produkte von Shopify in die Tabellen **Shopify-Produkte** und **Shopify-Varianten** importiert werden, versucht [!INCLUDE[prod_short](../includes/prod_short.md)] vorhandene Datensätze zu finden.
+
+In der folgenden Tabelle wird der Unterschied zwischen den Optionen im Feld **SKU-Zuordnung** beschrieben.
+
+|Option|Auswirkung auf die Zuordnung|Auswirkung auf die Erstellung|
+|------|-----------------|------------------|
+|**"Leer"**|Das SKU-Feld wird in der Artikelzuordnungsroutine nicht verwendet.|Keine Auswirkung auf die Erstellung des Elements.<br>Diese Option verhindert die Erstellung von Varianten. Im Verkaufsauftrag wird nur der Hauptartikel verwendet. Eine Variante kann weiterhin manuell auf der Seite **Shopify-Produkt** zugeordnet werden.|
+|**Artikelnr.**|Legen Sie fest, ob das SKU-Feld die Artikelnummer enthält|Keine Auswirkung auf die Erstellung eines Elements ohne Varianten. Bei einem Artikel mit Varianten wird jede Variante als separater Artikel erstellt.<br>Wenn Shopify ein Produkt mit zwei Varianten aufweist und deren Lagerhaltungsdaten lauten „1000“ und „2000“, erstellt das System in [!INCLUDE[prod_short](../includes/prod_short.md)] zwei Artikel mit den Nummern „1000“ und „2000“.|
+|**Variantencode**|Das SKU-Feld wird in der Artikelzuordnungsroutine nicht verwendet.|Keine Auswirkung auf die Erstellung des Elements. Beim Erstellen einer Artikelvariante dient der Wert des SKU-Felds als Code. Wenn die SKU leer ist, wird ein Code über das Feld **Variantenpräfix** erstellt.|
+|**Artikelnr. und Variantencode**|Wählen Sie diese Option aus, wenn das SKU-Feld eine Artikelnummer enthält und der Artikelvariantencode durch den im Feld **SKU-Feldtrennzeichen** definierten Wert getrennt ist.|Beim Erstellen eines Artikels wird der erste Teil des Werts des SKU-Felds als **Nr.** festgelegt. Wenn das SKU-Feld leer ist, wird eine Artikelnummer mit der Nummernserie generiert, die in **Artikelvorlagencode** oder **Artikelnummern** der Seite **Lagereinrichtung** definiert ist.<br>Beim Erstellen eines Artikels verwendet die Variantenfunktion den zweiten Teil des Werts des SKU-Felds als **Code**. Wenn das SKU-Feld leer ist, wird ein Code über das Feld **Variantenpräfix** erstellt.|
+|**Kreditorenartikelnr.**|Legen Sie fest, ob das SKU-Feld die Kreditorartikelnummer enthält In diesem Fall wird **Kreditorenartikelnummer** nicht auf der Seite **Artikelkarte** verwendet; eher **Kreditorenartikelnummer** aus **Artikelliefernatenkatalog** wird verwendet. Wenn der gefundene Datensatz *Artikel/Lieferanten Katalog* einen Variantencode enthält, wird dieser Code zum Zuordnen der Shopify-Variante verwendet.|Wenn ein entsprechender Lieferant in [!INCLUDE[prod_short](../includes/prod_short.md)] existiert, wird der SKU-Wert als **Lieferanten-Artikel-Nr.** auf der Seite **Artikelkarte** und als **Artikelreferenz** des Typs *Lieferant* verwendet. <br>Verhindert die Erstellung von Varianten. Dies ist nützlich, wenn Sie nur den Hauptartikel nur im Verkaufsauftrag verwenden möchten. Sie können weiterhin eine Variante manuell über die Seite **Shopify-Produkt** zuordnen.|
+|**Strichcode**|Legen Sie fest, ob das SKU-Feld einen Strichcode enthält. Es wird eine Suche unter **Artikelreferenzen** des Typs *Barcode* durchgeführt. Wenn der gefundene Artikelreferenzdatensatz einen Variantencode enthält, wird dieser Variantencode zum Zuordnen der Shopify-Variante verwendet.|Keine Auswirkung auf die Erstellung des Elements. <br>Verhindert die Erstellung von Varianten. Es ist nützlich, wenn Sie nur den Hauptartikel im Kundenauftrag verwenden möchten. Sie können weiterhin eine Variante manuell über die Seite **Shopify-Produkt** zuordnen.|
+
+In der folgenden Tabelle werden die Auswirkungen des Felds **Strichcode** beschrieben.
+
+|Auswirkung auf die Zuordnung|Auswirkung auf die Erstellung|
+|-----------------|------------------|
+|Es wird eine Suche unter **Artikelreferenzen** vom Typ „Strichcode“ für den Wert durchgeführt, der im Feld **Strichcode** in Shopify definiert ist. Wenn der gefundene Artikelreferenzdatensatz einen Variantencode enthält, wird dieser Variantencode zum Zuordnen der Shopify-Variante verwendet.|Der Barcode wird als **Artikelreferenz** für den Artikel und die Artikelvariante gespeichert.|
+
+> [!NOTE]  
+> Sie können die Zuordnung für die ausgewählten Produkte/Varianten auslösen, indem Sie **Zuordnung von Produkten suchen** auswählen oder alle importierten nicht zugeordneten Produkte auslösen über **Zuordnung suchen** auswählen.
 
 ### Übersicht über Feldzuordnungen
 
@@ -118,7 +127,7 @@ Der Prozess des Artikelexports kann mit den folgenden Einstellungen verwaltet we
 |Kosten pro Artikel|**Einstandspreis**|**Einstandspreis**. Der Einstandspreis wird nur für neu erstellte Artikel importiert und bei späteren Synchronisierungen nicht aktualisiert.|
 |SKU|Weitere Informationen zu SKUs finden Sie unter **SKU-Zuordnung** im Abschnitt [Artikel nach Shopify exportieren](synchronize-items.md#export-items-to-shopify).|Weitere Informationen zu SKUs finden Sie unter [So wirken sich in Shopify definierte SKUs und Barcodes auf die Zuordnung und Erstellung von Artikeln und Varianten in Business Central aus](synchronize-items.md#effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central).|
 |Strichcode|**Artikelreferenzen** vom Typ „Strickcode“|**Artikelreferenzen** vom Typ „Strickcode“|
-|Der Lagerbestand wird auf Lager gehalten| Hängt von Shopify Shop-Standorten ab. Wenn im **Business Central Auftragserfüllungsdienst** das Feld **Standard** aktiviert ist, ist der Bestand auf Lager und wird vom **Business Central Auftragserfüllungsdienst** versendet. Ansonsten werden der primäre Shopify-Standort oder mehrere Standorte verwendet.| Wird nicht verwendet.|
+|Der Lagerbestand wird auf Lager gehalten| Hängt von Shopify Shop-Standorten ab. Wenn im **Business Central Auftragserfüllungsdienst** das Feld **Standardproduktstandort** aktiviert ist, ist der Bestand auf Lager und wird vom **Business Central-Auftragserfüllungsdienst** versendet. Ansonsten werden der primäre Shopify-Standort oder mehrere Standorte verwendet. Erfahren Sie mehr in den [Zwei Ansätzen zur Verwaltung von Auftragserfüllungen](synchronize-items.md#two-approaches-to-manage-fulfillments)| Wird nicht verwendet.|
 |Menge verfolgen|Entsprechend dem Feld **Verfolgter Lagerbestand** auf der Seite **Shopify-Shop-Karte**. Erfahren Sie mehr im Abschnitt [Bestand](synchronize-items.md#sync-inventory-to-shopify). Wird nur verwendet, wenn Sie ein Produkt zum ersten Mal exportieren.|Wird nicht verwendet.|
 |Weiterverkaufen, wenn ein Artikel nicht mehr auf Lager ist|Entsprechend der Option **Standardrichtlinie für Lagerbestand** auf der **Shopify-Shop-Karte**.|Wird nicht verwendet.|
 |Typ|**Beschreibung** von **Artikelkategoriencode**. Wenn der Typ nicht in Shopify angegeben ist, wird er als benutzerdefinierter Typ hinzugefügt.|**Artikelkategoriencode**. Zuordnung nach Beschreibung.|
@@ -132,6 +141,23 @@ Der Prozess des Artikelexports kann mit den folgenden Einstellungen verwaltet we
 
 Überprüfen Sie die importierten Tags in der Infobox **Tags** auf der Seite **Shopify-Produkt**. Wählen Sie zum Bearbeiten von Tags die Aktion **Tags** auf derselben Seite aus.
 Wenn die Option **Zu Shopify** im Feld **Artikel synchronisieren** ausgewählt ist, werden zugewiesene Tags bei der nächsten Synchronisation nach Shopify exportiert.
+
+### Maßeinheit als Variante
+
+Shopify unterstützt nicht mehrere Maßeinheiten. Wenn Sie dasselbe Produkt wie zum Beispiel Stück und Satz verkaufen und unterschiedliche Preise oder Rabatte verwenden möchten, müssen Sie Maßeinheiten als Produktvarianten erstellen.
+Der Shopify-Konnektor kann so konfiguriert werden, dass Maßeinheiten als Varianten exportiert oder Varianten als Maßeinheiten importiert werden.
+
+Um diese Funktion zu aktivieren, verwenden Sie die Felder **Einheit als Variante** und **Variantenoptionsname** in den Feldern **Shopify Shop-Karte**. Felder sind standardmäßig ausgeblendet. Verwenden Sie die Personalisierung, um sie der Seite hinzuzufügen.
+
+**Anmerkungen zu Maßeinheiten als Varianten**
+
+* Wenn das Produkt in [!INCLUDE[prod_short](../includes/prod_short.md)] importiert wird, erstellt der Konnektor Maßeinheiten. Sie müssen die **Menge pro Einheit** aktualisieren.
+* Wenn Sie mit einer Variantenmatrix arbeiten, zum Beispiel Farbe und Einheit, und Sie Produkte importieren möchten, sollten Sie *Artikelnummer + Variantencode* im Feld **SKU-Zuordnung** festlegen und sicherstellen, dass das Feld **SKU** in Shopify den gleichen Wert für alle Maßeinheiten hat und sowohl die Art.-Nr. als auch den Variantencode einschließt.
+* Die Verfügbarkeit in [!INCLUDE[prod_short](../includes/prod_short.md)] wird pro Artikel/Artikelvariante und nicht pro Maßeinheit berechnet. Dies bedeutet, dass jeder Variante, die eine Maßeinheit darstellt, dieselbe Verfügbarkeit zugewiesen wird (in Bezug auf **Menge pro Maßeinheit**), was zu Fällen führen kann, in denen die verfügbare Menge in Shopify nicht genau ist. Beispiel: Artikel, der in Stück und Schachteln zu 6 Stück verkauft wird. Der Bestand in [!INCLUDE[prod_short](../includes/prod_short.md)] beträgt 6 STK. Artikel wurde als Produkt mit zwei Varianten nach Shopify exportiert. Sobald die Bestandssynchronisierung ausgeführt wurde, beträgt der Lagerstand in Shopify 6 für die Variante STK und 1 für die Variante SCHACHTEL. Der Kaufende kann sich nur im Geschäft umsehen und sehen, ob das Produkt in beiden Optionen verfügbar ist, und dann 1 SCHACHTEL bestellen. Der nächste Kaufende wird sehen, dass die SCHACHTEL nicht verfügbar ist, es aber noch 6 STK sind. Dies wird mit der nächsten Bestandssynchronisierung behoben.
+
+### URL und Vorschau-URL
+
+Ein Shopify hinzugefügter oder aus Shopify importierter Artikel könnte die ausgefüllte **URL** oder **Vorschau-URL** haben. Das Feld **URL** ist leer, wenn das Produkt nicht im Online-Shop veröffentlicht wird, zum Beispiel weil es sich im Entwurfsstatus befindet. Die **URL** ist leer, wenn der Shop passwortgeschützt ist, zum Beispiel weil es sich um einen Development Shop handelt. In den meisten Fällen können Sie mit der **Vorschau-URL** überprüfen, wie das Produkt nach der Veröffentlichung aussehen wird.
 
 ## Artikelsynchronisierung ausführen
 
@@ -162,10 +188,6 @@ Alternativ können Sie einen Artikel synchronisieren, indem Sie die Aktion **Zu 
 Verwenden Sie alternativ die Aktion **Produkte synchronisieren** auf der Seite **Shopify Produkte** oder suchen Sie nach dem Batchauftrag **Produkte synchronisieren**.
 
 Sie können die Aufgabe für eine automatische Ausführung planen. Erfahren Sie mehr unter [Planen Sie wiederkehrende Aufgaben](background.md#to-schedule-recurring-tasks).
-
-### URL und Vorschau-URL
-
-Ein Shopify hinzugefügter oder aus Shopify importierter Artikel könnte die ausgefüllte **URL** oder **Vorschau-URL** haben. Das Feld **URL** ist leer, wenn das Produkt nicht im Online-Shop veröffentlicht wird, zum Beispiel weil es sich im Entwurfsstatus befindet. Die **URL** ist leer, wenn der Shop passwortgeschützt ist, zum Beispiel weil es sich um einen Development Shop handelt. In den meisten Fällen können Sie mit der **Vorschau-URL** überprüfen, wie das Produkt nach der Veröffentlichung aussehen wird.
 
 ### Ad-Hoc-Aktualisierungen von Shopify-Produkten
 
@@ -253,8 +275,7 @@ Die Synchronisierung des Lagerbestands kann für bereits synchronisierte Artikel
 4. Wählen Sie die Aktion **Shopify Standorte abrufen**, um alle in Shopify definierten Standorte zu importieren. Sie befinden sich in den Einstellungen für [**Standorte**](https://www.shopify.com/admin/settings/locations) in Ihrer **Shopify-Verwaltung**.
 5. Fügen Sie im Feld **Standortfilter** Standorte hinzu, wenn Sie nur den Lagerbestand bestimmter Standorte einbeziehen möchten. Sie können beispielsweise *OST|WEST* eingeben, sodass nur Lagerbestände dieser beiden Standorte für den Verkauf über den Onlineshop verfügbar sind.
 6. Wählen Sie die Bestandsberechnungsmethode aus, die für die ausgewählten Shopify Standorte verwendet werden soll.
-7. Aktivieren Sie **Standard**, wenn Sie möchten, dass der Standort für die Erstellung von Lagerdatensätzen verwendet wird und an der Inventarsynchronisierung teilnimmt. Aktivieren Sie **Standard** für **Business Central Auftragserfüllungsdienste**, um einen Inventardatensatz zu erstellen, der den Fulfillment-Service darstellt. Andernfalls wird ein Inventardatensatz für den primären Shopify-Standort und alle normalen Standorte erstellt, an denen **Standard** aktiviert ist.
-
+7. Aktivieren Sie **Standardproduktstandort**, wenn Sie möchten, dass der Standort für die Erstellung von Lagerdatensätzen verwendet wird und an der Bestandssynchronisierung teilnimmt. 
 
 Die Synchronisierung des Lagerbestands auf zwei unten beschriebene Arten initialisieren.
 
@@ -271,11 +292,11 @@ Die Synchronisierung des Lagerbestands auf zwei unten beschriebene Arten initial
 
 ### Anmerkungen zum Lagerbestand
 
-* Die Standard-Bestandsberechnungsmethode ist **Prognostizierter verfügbarer Saldo zum Datum**. Mit der Erweiterbarkeit können Sie weitere Optionen hinzufügen. Weitere Informationen zur Erweiterbarkeit finden Sie unter [Beispiele](/dynamics365/business-central/dev-itpro/developer/devenv-extending-shopify#stock-calculation). 
+* Es gibt zwei Standardmethoden zur Bestandsberechnung: **Prognostizierter verfügbarer Saldo zum Datum** und **Freier Lagerbestand (nicht reserviert)**. Mit der Erweiterbarkeit können Sie weitere Optionen hinzufügen. Weitere Informationen zur Erweiterbarkeit finden Sie unter [Beispiele](/dynamics365/business-central/dev-itpro/developer/devenv-extending-shopify#stock-calculation). 
 * Sie können die von Shopify empfangenen Bestandsinformationen auf der Seite **Infobox „Shopify-Bestand“** überprüfen. In dieser Infobox erhalten Sie einen Überblick über den Shopify-Bestand und den zuletzt berechneten Bestand in [!INCLUDE[prod_short](../includes/prod_short.md)]. Pro Standort ist ein Datensatz verfügbar.
 * Wenn die Bestandsinformationen in Shopify sich vom **Verfügbarkeitssaldo** in [!INCLUDE[prod_short](../includes/prod_short.md)] unterscheiden, wird der Bestand in Shopify aktualisiert.
 * Wenn Sie einen neuen Standort hinzufügen in Shopify, müssen Sie auch Inventardatensätze dafür hinzufügen. Shopify tut dies nicht automatisch für vorhandene Produkte und Varianten, und der Konnektor synchronisiert nicht die Lagerbestände für solche Artikel am neuen Standort. Weitere Informationen finden Sie unter [Inventar zu Standorten zuweisen](https://help.shopify.com/manual/locations/assigning-inventory-to-locations).
-* Sowohl **Business Central-Auftragserfüllungsdienste** als auch normale Standorte werden unterstützt und können für Versand und Inventar genutzt werden.
+* Sowohl **Business Central-Auftragserfüllungsdienste** als auch normale Standorte werden unterstützt und können für Versand und Bestand genutzt werden.
 
 #### Beispiel für die Berechnung des hochgerechneten verfügbaren Saldos
 
@@ -285,6 +306,51 @@ Es sind 10 Stück von Artikel A verfügbar und zwei ausstehende Verkaufsaufträg
 |------|-----------------|-----------------|
 |Dienstag|9|Bestand 10 minus Kundenauftrag, der am Montag versendet werden soll|
 |Freitag|7|Bestand 10 minus beide Verkaufsaufträge|
+
+### Zwei Ansätze zur Verwaltung von Auftragserfüllungen
+
+Es gibt zwei Möglichkeiten, mit der Auftragserfüllung in Shopify umzugehen:
+* „Integrierte“ Shopify-Auftragsabwicklung und Bestandsverfolgung
+* Auftragserfüllung und Bestandsverfolgung von Drittanbietern
+
+Der Lagerbestand für jedes Produkt in Shopify kann entweder von Shopify oder von 3PL gefüllt werden.
+
+Wenn Sie die Shopify-Auftragserfüllung verwenden, können Sie in Shopify auch mehrere Standorte definieren. Sobald der Auftrag erstellt wurde, wird von Shopify der Standort basierend auf Verfügbarkeit und Priorität ausgewählt. Sie können auch angeben, an welchen Standorten Sie bestimmte Produkte verfolgen möchten, z. B. niemals vom Standort *ShowRoom* aus verkaufen.
+
+Wenn Sie 3PL verwenden, übernimmt der 3PL-Anbieter die physische Handhabung, sodass keine Standorte erforderlich sind. Für 3PL wird das SKU-Feld zum Pflichtfeld.
+
+Wenn Sie sich für einen Standort zur Artikelnachverfolgung entschieden haben, erstellt Shopify Datensätze in der Tabelle **Lagerebene** erstellt, die manuell mit der Lagerverfügbarkeit aktualisiert werden können.
+
+Der Konnektor unterstützt beide Modi. Er kann Lagerbestände an mehrere Shopify-Standorte senden oder als Auftragserfüllungsdienst fungieren.
+
+Aus der [!INCLUDE[prod_short](../includes/prod_short.md)]-Perspektive, wenn Sie einen Artikel erstellen und ihn an Shopify senden möchten, möchten Sie auch:
+* Den Schalter **Standardproduktstandort** verwenden, um anzugeben, ob dieser Artikel per Shopify- oder 3PL-Auftragserfüllung erfüllt wird. Es gibt immer einen **Business Central-Auftragserfüllungsdienst**, aber es können mehr Auftragserfüllungsdienste vorhanden sein, wenn mehr Apps installiert sind. Sie können **Standardproduktstandort** nur in einem Datensatz aktivieren, wenn Sie den Auftragserfüllungsdienst nutzen möchten. 
+* Den Schalter **Standardproduktstandort** verwenden, um anzugeben, welche Standorte Sie zur Bestandsverfolgung verwenden möchten. Sie können den **Standardproduktstandort** für mehrere Standorte aktivieren, bei denen **Ist Auftragserfüllungsdienst** deaktiviert ist. Beachten Sie, dass der Bestand immer für den primären Standort verfolgt wird. 
+ 
+#### Was ist der Unterschied?
+
+Die Shopify-Auftragserfüllung ist nützlich bei der Verwendung von Shopify-POS und es gibt mehrere physische Geschäfte. Sie möchten, dass die Mitarbeitenden im Ladengeschäft ihren aktuellen Lagerbestand kennen. In diesem Fall erstellen Sie mehrere Standorte in Shopify, mehrere Standorte in [!INCLUDE[prod_short](../includes/prod_short.md)] und aktivieren Sie **Standardproduktstandort** für alle diese Standorte.  
+
+Wenn die Logistik in [!INCLUDE[prod_short](../includes/prod_short.md)] bearbeitet wird, wo Sie so viele Standorte haben können, wie Sie benötigen, um Vertriebszentren darzustellen, erstellen Sie keine Standorte in Shopify, der Shopify-Konnektor erstellt automatisch Business Central-Auftragserfüllungsdienste und Sie können Lagerbestände über Standortfilter von mehreren Standorten mit einem Auftragserfüllungsdienst-Datensatz verknüpfen. Daher gibt es in Shopify keine Informationen darüber, woher die Ware versendet wird, sondern nur Informationen zur Verfolgung. Während Sie in [!INCLUDE[prod_short](../includes/prod_short.md)] sind, können Sie Artikel je nach Verfügbarkeit und Nähe zum Ziel auswählen. 
+
+#### Beispiel für die Verwendung des Schalters „Standardproduktstandort“
+
+Nach Auswahl der Aktion **Shopify-Standorte abrufen** auf der Seite **Shopify-Standorte** sehen Sie folgende Standorte:
+
+|Name|Ist Erfüllungsdienst|Ist primär|
+|------|-----------------|-----------------|
+|Haupt| |**Ja**|
+|Zweiter| | |
+|Business Central-Auftragserfüllungsdienst|**Ja**| |
+
+Sehen wir uns die Auswirkungen der Aktivierung der Option „Standardproduktstandort“ an:
+
+|Name der Standorte, an denen die Option „Standardproduktstandort“ aktiviert ist|Auswirkungen darauf, wie das Produkt in Shopify erstellt wird|
+|------|-----------------|
+|Haupt| Der Lagerbestand wird an mehreren Standorten gelagert; Ausgewählte Standorte: Haupt (primär) |
+|Haupt und Zweiter| Der Lagerbestand wird an mehreren Standorten gelagert; Ausgewählte Standorte: Haupt und Zweiter |
+|Business Central-Auftragserfüllungsdienst|Der Lagerbestand wird gelagert bei: Business Central-Auftragserfüllungsdienst; Ausgewählte Standorte: (App) Business Central-Auftragserfüllungsdienst|
+|Business Central-Auftragserfüllungsdienst und Haupt| Fehler: Sie können keine Shopify-Standardstandorte mit Auftragserfüllungsdienststandorten verwenden|
 
 ## Siehe auch
 

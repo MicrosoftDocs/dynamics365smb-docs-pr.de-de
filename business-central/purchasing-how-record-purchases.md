@@ -6,15 +6,15 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: procurement
 ms.search.form: '50 ,51, 53, 56, 146, 147, 9307, 9309, 9306, 9308, 9310'
-ms.date: 12/19/2023
+ms.date: 03/21/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Käufe mit Einkaufsrechnungen und Aufträgen erfassen
+# Einkäufe mit Einkaufsrechnungen und Aufträgen erfassen
 
 Sie erstellen eine Einkaufsrechnung oder Einkaufsbestellung, um die Kosten der Einkäufe zu erfassen und Kreditoren zu verfolgen. Einkaufsrechnungen und Einkaufsbestellungen werden auch verwendet, um Lagerbestände dynamisch zu aktualisieren, sodass Sie Ihre Lagerbestandskosten minimieren und besseren Debitorenservice bereitstellen können. Die Einkaufskosten, einschließlich Servicekosten und Bestandswerte, die aus der Buchung von Einkaufsrechnungen resultieren, tragen zu den Gewinnzahlen und anderen Key Performance Indicators (KPIs) in Ihrem Rollencenter bei.
 
-## Käufe mit Einkaufsrechnungen erfassen
+## Einkäufe mit Einkaufsrechnungen erfassen
 
 Wenn Sie die Bestandsartikel erhalten oder wenn die gekaufte Dienstleistung abgeschlossen ist, buchen Sie die Rechnung, um die Bestands- und Finanzdaten zu aktualisieren und die Zahlung an den Lieferanten gemäß den Zahlungsbedingungen zu aktivieren. [Zahlungen vornehmen](payables-make-payments.md).
 
@@ -26,11 +26,11 @@ Wenn Sie die Bestandsartikel erhalten oder wenn die gekaufte Dienstleistung abge
 Im folgenden Schritt wird beschrieben, wie Sie eine Einkaufsrechnung erstellen. Die Schritte für die Erstellung einer Bestellung sind ähnlich. Der Hauptunterschied besteht darin, dass Bestellungen einige zusätzliche Felder und Aktionen für die physische Handhabung von Artikeln haben.
 
 1. Wählen Sie das Symbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Einkaufsrechnungen** ein, und wählen Sie dann den zugehörigen Link.  
-2. Geben Sie im Feld **Kreditor** den Namen eines vorhandenen Kreditors ein.
+2. Geben Sie in das Feld **Kreditorenname** den Namen eines vorhandenen Kreditors ein.
 
     Andere Felder auf der Seite **Einkaufsrechnung** werden nun mit den Standardinformationen für den ausgewählten Kreditor ausgefüllt. Wenn der Kreditor noch nicht erfasst wurde, dann führen Sie die folgenden Schritte durch:
 
-    1. Geben Sie im Feld **Kreditor** den Namen eines neuen Kreditors ein.
+    1. Geben Sie im Feld **Kreditorenname** den Namen eines neuen Kreditors ein.
     2. Klicken Sie im Dialogfeld auf **Ja**, um den neuen Kreditor zu bestätigen.
     3. Weitere Informationen zum Ausfüllen der Kreditorenkarte finden Sie unter [Neue Kreditoren registrieren](purchasing-how-register-new-vendors.md).  
     4. Wenn Sie die Kreditorenkarte abgeschlossen haben, wählen Sie **OK**, um zur Seite **Einkaufsrechnung** zurückzugehen.
@@ -54,7 +54,7 @@ Im folgenden Schritt wird beschrieben, wie Sie eine Einkaufsrechnung erstellen. 
 
     > [!NOTE]  
     > Wenn Sie Rechnungsrabatte für den Kreditor eingerichtet haben, wird der angegebene Prozentwert automatisch in das Feld **Kreditorenrechnungsrabatt %** eingetragen, sobald die Kriterien erfüllt sein, und der entsprechende Betrag wird im Feld eingefügt. Der zugeordnete Betrag wird dann im Feld **Rechnungsrabattbetrag** eingefügt.
-7. Falls Sie die eingekauften Artikel oder Dienstleistungen erhalten, wählen Sie aus **Buchen**.
+7. Wenn Sie die gekauften Artikel oder Dienstleistungen erhalten, wählen Sie **Buchen**.
 
 Der Kauf wird nun im Bestand, in den Ressourcen-Sachkonten und in den Finanzdokument widergespiegelt, und die Kreditorenzahlung wird aktiviert. Die Einkaufsrechnung wird in der Liste der gebuchten Einkaufsrechnungen entfernt und durch einen neuen Beleg in der Liste der gebuchten Einkaufsrechnungen ersetzt.  Weitere Informationen dazu, was passiert, wenn Sie Einkaufbelege buchen, finden Sie unter [Einkäufe buchen](purchasing-how-record-purchases.md#posting-purchases).
 
@@ -79,7 +79,7 @@ Die Zeilen auf einer Einkaufsrechnung können vom Typ **Ressource** oder **Artik
 > [!NOTE]
 > Mit dem Zeilentyp **Ressource** Bestellzeile können Sie auch externe Ressourcen einkaufen, z.B. um einem Kreditor die gelieferte Arbeit in Rechnung zu stellen. Erfahren Sie mehr unter [Ressourcen einrichten](projects-how-setup-resources.md).
 >
-> Um eine gekaufte Ressource zu verwenden, müssen Sie möglicherweise die Kapazität der Ressource festlegen und sie manuell einem Auftrag zuweisen. Durch den Kauf einer Ressource wird ein Ressourcenposten erstellt, jedoch werden die Ressourcen-Sachkonto-Einträge nicht nach Menge und Wert verfolgt, wie dies z.B. bei Artikeln der Fall ist. Wenn eine Mengen- und Wertverfolgung erforderlich ist, sollten Sie die Verwendung anderer Positionsarten in Betracht ziehen.
+> Um eine gekaufte Ressource zu verwenden, müssen Sie möglicherweise die Kapazität der Ressource festlegen und sie manuell einem Projekt zuweisen. Durch den Kauf einer Ressource wird ein Ressourcenposten erstellt, jedoch werden die Ressourcen-Sachkonto-Einträge nicht nach Menge und Wert verfolgt, wie dies z.B. bei Artikeln der Fall ist. Wenn eine Mengen- und Wertverfolgung erforderlich ist, sollten Sie die Verwendung anderer Positionsarten in Betracht ziehen.
 
 ## Verwendung von Bestellungen
 

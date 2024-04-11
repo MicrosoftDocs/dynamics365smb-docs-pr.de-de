@@ -1,16 +1,16 @@
 ---
-title: Verkaufsbelege buchen
+title: Buchen von Verkaufsbelegen
 description: Erfahren Sie mehr über die verschiedenen Buchungsfunktionen zum Buchen von Verkaufsbelegen und wie Sie gebuchte Belege aktualisieren können.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.reviewer: bholtorf
 ms.search.form: '130, 142, 1350'
-ms.date: 04/01/2021
+ms.date: 02/13/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Verkäufe buchen
+# Buchen von Verkäufen
 
 Unter dem Menü **Buchen** in einem Verkaufsbeleg auswählen können Sie zwischen den folgenden Buchungsfunktionen auswählen:
 

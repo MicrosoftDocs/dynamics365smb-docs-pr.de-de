@@ -2,20 +2,20 @@
 title: 'Neue Debitoren registrieren, indem Sie eine Debitorenkarte erstellen (enthält Video)'
 description: 'Beschreibt, wie eine Debitorenkarte erstellt wird, um Informationen zu jedem neuen Debitor oder Clients zu erfassen, an die Sie verkaufen.'
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: al
+ms.author: bholtorf
+ms.reviewer: ivkoleti
+ms.topic: how-to
 ms.search.keywords: 'client, customer, credit'
 ms.search.form: '7, 21, 22, 33, 42, 43, 367, 368, 369, 461, 512, 785, 1330, 1380, 1381, 1382, 1627, 2107, 7177, 9080, 9081, 9084, 9301, 9305'
-ms.date: 11/01/2023
-ms.author: bholtorf
+ms.date: 02/26/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 # Neue Debitoren registrieren
 
 Debitoren sind Ihre Einkommensquelle. Sie müssen jeden Debitor, an den Sie verkaufen, als Debitorenkarte anlegen. Debitorenkarten enthalten die Informationen, die für den Verkauf von Produkten an Debitoren erforderlich sind. Weitere Informationen finden Sie unter [Erfassen eines Einkaufs](sales-how-invoice-sales.md) und [Neue Artikel registrieren](inventory-how-register-new-items.md).  
 
 Bevor Sie neue Debitoren erfassen können, müssen Sie verschiedene Verkaufscodes einrichten, aus denen Sie wählen können, wenn Sie Debitorenkarten ausfüllen. Erfahren Sie mehr unter [Einkauf einrichten](sales-setup-sales.md).
-
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3PZsM]
 
@@ -80,6 +80,14 @@ Sie können festlegen, dass keine Warnungen angezeigt werden, wenn das Kreditlim
     |**Kreditlimit**|Der Wert im Feld **Kreditlimit** der Debitorenkarte wird mit dem Saldo des Debitors verglichen, und eine Warnung wird angezeigt, falls der Saldo des Debitors diesen Betrag übersteigt.|
     |**Fälliger Saldo**|Das Feld **Fälliger Saldo** auf der Debitorenkarte wird geprüft, und eine Warnung wird angezeigt, wenn sich der Debitor im Zahlungsrückstand befindet.|
     |**Keine Warnung**|Keine Kreditwarnungen werden über den Status des Debitors angezeigt.|
+
+## Verkaufenden zuweisen
+
+Sie können Verkaufende der Lieferadresse des Debitoren statt der Rechnungsadresse zuweisen, sodass Ihre Verkaufsberichte die tatsächliche geografische Verteilung Ihrer Verkäufe widerspiegeln. Durch die Zuweisung eines Verkaufenden zur Lieferadresse eines Debitoren erhalten Sie präzisere Einblicke und können die Ressourcenzuweisung optimieren.
+
+Beauftragen Sie einen Verkaufenden mit der **Kunden**-Kartenseite, indem Sie **Kunde** und dann **Lieferadressen** zum Öffnen der Seite **Liste der Lieferadressen**. Wählen Sie **Verwalten** und dann **Bearbeiten** zum Öffnen der Kartenseite **Lieferadresse**. Geben Sie ein oder wählen Sie einen **Verkäufercode** aus, um den Verkaufenden auszuwählen.
+
+Wenn Sie die Option **Alternative Lieferadresse** als **Lief. an**-Standort auf einem Verkaufsbeleg auswählen, wird der **Verkäufercode** aktualisiert, damit er zum Verkaufenden aus **Lief. an** statt der **Rech. an**-Adresse passt. 
 
 ## Siehe auch
 

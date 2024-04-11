@@ -1,15 +1,15 @@
 ---
-title: Einrichten und Verwenden eines Einkaufsanfrage-Genehmigungsworkflows
+title: Einkaufsgenehmigungsworkflow einrichten und verwenden
 description: 'Diese exemplarische Vorgehensweise führt Sie durch alle Schritte, die zum Festlegen und Verwenden eines Workflows zur Genehmigung von Einkäufen in Business Central gehören.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
-ms.date: 09/13/2022
+ms.date: 03/11/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Exemplarische Vorgehensweise: Einrichten und Nutzen eines Einkaufsanfrage-Genehmigungsworkflows
+# Exemplarische Vorgehensweise: Einkaufsgenehmigungsworkflows einrichten und verwenden
 
 Sie können den Genehmigungsprozesses für neuen oder geänderten Datensätze, z. B. Dokumente, Buch.-Blattzeilen und Debitorenkarten automatisieren, indem Sie Workflows mit Schritten für die entsprechenden Genehmigungen erstellen.
 
@@ -40,7 +40,7 @@ Um den Genehmigungsworkflow zu testen, meldet sich Stefan zunächst bei [!INCLUD
 
 Bevor Sie Genehmigungsbenutzer und deren Benachrichtigungsmethode einrichten können, müssen Sie sicherstellen, dass zwei Benutzer in [!INCLUDE[prod_short](includes/prod_short.md)]: vorhanden sind. Ein Benutzer stellt Christine dar. Die andere Benutzer, Sie, stellt Stephan dar. Weitere Informationen finden Sie unter [Benutzer nach Lizenzen erstellen](ui-how-users-permissions.md).
 
-### Einrichten von Genehmigungsbenutzern
+### Genehmigungsbenutzer einrichten
 
 Wenn Sie sich als Sie selbst angemeldet haben, richten Sie Alicia als Genehmigungsbenutzer ein, dessen Genehmigender Sie selbst sind. Richten Sie Ihre Genehmigungsrechte ein, und geben Sie an, wie und wann Sie über Genehmigungsanforderungen benachrichtigt werden.  
 
@@ -59,7 +59,7 @@ Wenn Sie sich als Sie selbst angemeldet haben, richten Sie Alicia als Genehmigun
     |SIE||Ausgewählt|
     |CHRISTINE|SIE||
 
-### Einrichten von Benachrichtigungen
+### Benachrichtigungen einrichten
 
 In dieser exemplarischen Vorgehensweise wird ein Benutzer über eine interne Notiz über die Genehmigung benachrichtigt. Die Genehmigungsbenachrichtigungen können auch per E-Mail gesendet werden, und Sie können einen Workflow-Antwortschritt hinzufügen, der den Absender benachrichtigt, wenn eine Anforderung genehmigt oder abgelehnt wird. Weitere Informationen erhalten Sie unter [Festlegen, wann und wie Sie Workflow-Benachrichtigungen erhalten möchten](across-how-to-specify-when-and-how-to-receive-notifications.md).
 
@@ -71,7 +71,7 @@ In dieser exemplarischen Vorgehensweise wird ein Benutzer über eine interne Not
 4. Wählen Sie auf der Seite **Benachrichtigungseinrichtung** die Aktion **Benachrichtigungsplan** aus.  
 5. Wählen Sie auf der Seite **Benachrichtigungsplan** im Feld **Wiederholung** **Sofort**.  
 
-## Erstellen des Genehmigungsworkflows
+## Genehmigungsworkflow erstellen
 
 Erstellen Sie den Bestellungsgenehmigungsworkflow, indem Sie die Schritte aus der Vorlage **Bestellungsgenehmigungsworkflow** kopieren. Lassen Sie die vorhandenen Workflowschritte unverändert, und aktivieren Sie dann den Workflow.  
 

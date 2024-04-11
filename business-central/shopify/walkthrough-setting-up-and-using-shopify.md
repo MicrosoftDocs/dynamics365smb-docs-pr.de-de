@@ -132,9 +132,9 @@ Beachten Sie, dass in der **Shopify-Verwaltung** die Bestellung jetzt als *Erfü
 
 ### Szenario
 
-Nach einem erfolgreichen Schnellstart Ihres neuen Online Stores möchten Sie, dass Ihre derzeitigen Kunden ihn besuchen und Bestellungen aufgeben. Je nach Ihrem Shopify-Plan und -Prozess können Sie B2B- und D2C-Flows ausprobieren.
+Nach einem erfolgreichen Schnellstart Ihres neuen Online Stores möchten Sie, dass Ihre derzeitigen Kunden ihn besuchen und Bestellungen aufgeben. Je nach Ihrem Shopify-Plan und -Prozess können Sie B2B- und DTC-Flows ausprobieren.
 
-### D2C-Schritte
+### DTC-Schritte
 
 Gehen Sie in [!INCLUDE[prod_short](../includes/prod_short.md)] wie folgt vor:
 

@@ -1,16 +1,16 @@
 ---
-title: Verkaufsaufträge Rücklieferung verarbeiten
+title: Retouren verarbeiten
 description: 'Beschreibt, wie Sie einen Verkaufsauftrag erstellen, um eine Rückgabe, Stornierung oder Rückerstattung für Artikel oder Dienstleistungen zu verarbeiten, für die Sie eine Zahlung erhalten haben.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'undo, credit memo, return, order'
 ms.search.form: '44, 134, 144, 6629, 6630, 6633, 6662, 9302, 9304, Report_6646'
-ms.date: 09/08/2021
+ms.date: 03/05/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Verkaufsaufträge Rücklieferung verarbeiten  
+# Retouren verarbeiten  
 
 Wenn Sie mehr Steuerelemente für den Rücklieferungsprozess benötigen, z.B. Lagerbelege für die Artikelabwicklung oder eine bessere Übersicht beim Empfang von Artikeln aus mehreren Verkaufsbelegen mit einer Rücklieferung, dann können Sie Verkaufsreklamationen erstellen. Ein Rücklieferungsauftrag gibt automatisch die zugehörige Verkaufsgutschrift und andere rücklieferungsbezogene Belege aus, wie z.B. einen Ersatzverkaufsauftrag, falls erforderlich.
 
@@ -24,7 +24,7 @@ Zusätzlich zur ursprünglich gebuchten Verkaufsrechnung können Sie die Verkauf
 4. Im Inforegister **Zeilen** können Sie die Zeilen manuell ausfüllen, oder kopieren Sie Informationen aus anderen Belegen, um die Zeilen automatisch auszufüllen:
 
     - Die Funktion **Zu stornierende gebuchte Belegzeilen abrufen** können Sie verwenden, um eine oder mehrere gebuchte Belegzeilen aus einem oder mehreren gebuchten Belegen zu kopieren. Diese Funktion ermöglicht Ihnen die exakte Stornierung der Einstandspreise aus der gebuchten Belegzeile. Diese Funktion wird in den folgenden Schritten beschrieben.    
-    - Verwenden Sie die Funktion **Aus Dokument kopieren**, um ein vorhandenes Dokument in den Rückgabeauftrag zu kopieren. Verwenden Sie diese Funktion zum Kopieren des gesamten Belegs. Dies kann entweder ein bereits gebuchter oder ein noch nicht gebuchter Beleg sein. Diese Funktion ermöglicht die Einstandspreisrückverfolgung nur dann, wenn die **Einstandspreisrückverfolgung** als obligatorisch auf der Seite **Debitoren & Verkauf Einr.** eingerichtet ist.  
+    - Verwenden Sie die Funktion **Aus Dokument kopieren**, um ein vorhandenes Dokument in den Rückgabeauftrag zu kopieren. Verwenden Sie diese Funktion zum Kopieren des gesamten Belegs. Dies kann entweder ein bereits gebuchter oder ein noch nicht gebuchter Beleg sein. Diese Funktion ermöglicht die Einstandspreisrückverfolgung nur dann, wenn die **Einstandspreisrückverfolgung** als obligatorisch auf der Seite **Debitoren & Verkauf Einr.** eingerichtet ist.  
 
 5. Wählen Sie die Aktion **Verarbeiten** und dann die Aktion **Getragene Belegzeilen zum Stornieren**.
 6. Wählen Sie oben auf der Seite **Gebuchte Verkaufsbelegzeilen** das Feld **Nur stornierbare Zeilen anzeigen aus,** wenn Sie nur Zeilen mit Mengen anzeigen möchten, die noch nicht zurückgesendet oder, im Falle von Einkaufszeilen, verkauft oder verbraucht wurden. Wenn eine gebuchte Verkaufsrechnungsmenge beispielsweise bereits zurückgesendet wurde, möchten Sie diese Menge möglicherweise nicht mit einem neuen Verkaufsreklamationsbeleg zurücksenden.
@@ -46,7 +46,7 @@ Zusätzlich zur ursprünglich gebuchten Verkaufsrechnung können Sie die Verkauf
 
     -   Für gebuchte Belegzeilen der Art **Artikel** wird eine neue Belegzeile erstellt, die eine Kopie der gebuchten Belegzeile ist, und zwar mit der noch nicht stornierten Menge. Das Feld **Ausgegl. von Artikelposten** wird ausgefüllt mit der Nummer des Artikelpostens der gebuchten Belegzeile.  
 
-    -   Bei gebuchten Belegzeilen, die nicht von der Art **Artikel** sind, wie z. B. Artikel Zu-/Abschläge, wird eine neue Belegzeile erstellt, die eine Kopie der ursprünglichen gebuchten Belegzeile ist.  
+    -   Bei gebuchten Belegzeilen, die nicht von der Art **Artikel** sind, wie z. B. Artikel Zu-/Abschläge, wird eine neue Belegzeile erstellt, die eine Kopie der ursprünglichen gebuchten Belegzeile ist.  
 
     -   Die Anwendung berechnet das Feld **Einstandspreis (MW)** der neuen Zeile anhand der Kosten in den entsprechenden Artikelposten.  
 

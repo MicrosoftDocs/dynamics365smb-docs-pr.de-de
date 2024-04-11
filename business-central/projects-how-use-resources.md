@@ -2,17 +2,17 @@
 title: Ressourcenverbrauch und Preise aufzeichnen und anpassen
 description: 'Beschreibt, wie Sie den Ressourcenverbrauch oder den Verbrauch erfassen können, die einem Projekt zugeordnet sind, um Kosten, Preisen und Arbeitstypen zu verwalten.'
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: al
+ms.topic: how-to
 ms.search.keywords: 'project management, capacity, staff'
 ms.search.form: '201,206, 207, 271, 493'
-ms.date: 03/08/2023
+ms.date: 02/22/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# Verwenden von Ressourcen für Projekte
+# Ressourcen für Projekte verwenden
 
-Wenn Sie den Verbrauch von Ressourcen im Projekt Buch.-Blatt buchen, können Sie die Einstands- und Verkaufspreise, die Arbeitstypen und die damit verknüpften Projekte verfolgen. Weitere Informationen finden Sie unter [Verwendung von Datensätzen für Projekte](projects-how-record-job-usage.md).
+Wenn Sie den Verbrauch von Ressourcen in der Projekterfassung buchen, können Sie die Einstands- und Verkaufspreise, die Arbeitstypen und die damit verknüpften Projekte verfolgen. Weitere Informationen finden Sie unter [Den Verbrauch für Projekte erfassen](projects-how-record-job-usage.md).
 
 > [!NOTE]
 > Sie können auch externe Ressourcen einkaufen, z.B. um einem Kreditor die gelieferte Arbeit in Rechnung zu stellen. Weitere Informationen finden Sie unter [Käufe erfassen](purchasing-how-record-purchases.md).
@@ -21,12 +21,12 @@ Sie können auch den Verbrauch einer Ressource in einem Ressourcen Buch.-Blatt b
 
 ## So weisen Sie Projekten Ressourcen zu
 
-Sie weisen Projekten Ressourcen zu, indem Sie Projektplanungszeilen für das Projekt erstellen. Weitere Informationen finden Sie unter  [Projekte erstellen](projects-how-create-jobs.md).
+Sie weisen Projekten Ressourcen zu, indem Sie Projektplanungszeilen für das Projekt erstellen. Weitere Informationen finden Sie unter [Projekte erstellen](projects-how-create-jobs.md).
 
-## Um Ressourcenverbrauch für ein Projekt buchen
+## So buchen Sie den Ressourcenverbrauch für ein Projekt
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Projekt Buch.-Blätter** ein und wählen Sie dann den zugehörigen Link.
-2. Öffnen Sie das relevante Projekt-Buch.-Blatt und füllen Sie die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+1. Wählen Sie das Symbol ![Glühbirne, die die „Sie wünschen ...“-Funktion öffnet](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Projekterfassungen** ein und wählen Sie dann den zugehörigen Link aus.
+2. Öffnen Sie den relevanten Projekterfassungsstapel und füllen Sie die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Wenn der Verkaufsauftrag ausgeführt wurde, wählen Sie die Aktion **Buchen** aus.
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
@@ -35,7 +35,7 @@ Sie weisen Projekten Ressourcen zu, indem Sie Projektplanungszeilen für das Pro
 
 Wenn Sie die Einstands- und Verkaufspreise für eine große Anzahl von Ressourcen ändern möchten, können Sie den Batchauftrag verwenden.  
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Ressourcenpreise justieren** ein und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren") Symbol. Geben Sie **Ressourcenpreise justieren** ein und wählen Sie dann den zugehörigen Link.
 2. Füllen Sie die anderen relevanten Felder wie erforderlich aus, und wählen Sie dann die Schaltfläche **OK** aus.
 
 > [!NOTE]  
@@ -45,7 +45,7 @@ Wenn Sie die Einstands- und Verkaufspreise für eine große Anzahl von Ressource
 
 Wenn Sie bereits einen alternativen Ressourcenpreis für einige Ressourcen eingerichtet haben, können Sie einen Batch-Job verwenden, um mehrere alternative Ressourcenpreise einzurichten.
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Ressourcen-VK-Preisvorschläge** ein und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren") Symbol. Geben Sie **Ressourcen-VK-Preisvorschläge** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie die Aktion **Res. Preisänderung (Preis) vorschlagen** aus. Füllen Sie dann die Felder wie notwendig aus.
 3. Wählen Sie die Schaltfläche **OK** aus.  
 4. Wenn die Stapelverarbeitung beendet ist, öffnen Sie die Seite **Ressourcen-Preisänderungen**, um die Ergebnisse der Stapelverarbeitung anzuzeigen.
@@ -75,6 +75,5 @@ Wenn Sie bereits alternative Ressourcenpreise für einige Ressourcen festgelegt 
 [Einkauf](purchasing-manage-purchasing.md)         
 [Verkauf](sales-manage-sales.md)     
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

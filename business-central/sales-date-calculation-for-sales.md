@@ -1,15 +1,15 @@
 ---
-title: Terminberechnung für Verkäufe
+title: Lieferdatumsberechnung für Verkäufe
 description: 'Die Anwendung berechnet automatisch das Datum, an dem Sie ein Element bestellen müssen, damit es zu einem bestimmten Datum im Bestand ist und zur Kommissionierung zur Verfügung steht.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
-ms.date: 09/22/2022
+ms.date: 03/06/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Terminberechnung für Verkäufe
+# Lieferdatumsberechnung für Verkäufe
 
 [!INCLUDE[prod_short](includes/prod_short.md)] berechnet automatisch das frühestmögliche Datum, an dem ein Artikel in einer Verkaufsauftragszeile geliefert werden kann.
 
@@ -30,7 +30,7 @@ Falls die Artikel am Lieferdatum zur Kommissionierung zur Verfügung stehen, kan
 
 ## Berechnen des frühestmöglichen Lieferdatums
 
-Wenn Sie kein angefordertes Lieferdatum auf der Verkaufsauftragszeile angeben oder das angeforderte Lieferdatum nicht eingehalten werden kann, wird das früheste Datum, an dem die Artikel verfügbar sind, berechnet. Dieses Datum wird dann im Feld **Versanddatum** auf der Zeile eingegeben, und das Datum, an dem Sie planen, die Artikel zu liefern, sowie das Datum, an dem Sie an den Kunden ausgeliefert werden, werden anhand der nachfolgenden Formeln berechnet.
+Wenn Sie kein angefordertes Lieferdatum auf der Verkaufsauftragszeile angeben oder das angeforderte Lieferdatum nicht eingehalten werden kann, wird das früheste Datum, an dem die Artikel verfügbar sind, berechnet. Dieses Datum wird dann im Feld **Versanddatum** auf der Zeile eingegeben, und das Datum, für das Sie die Lieferung der Artikel einplanen, sowie das Datum, an dem sie an den Debitor ausgeliefert werden, werden anhand der nachfolgenden Formeln berechnet.
 
 - *Warenausgangsdatum + Ausgeh. Lagerdurchlaufzeit = Geplantes Warenausgangsdatum*
 - *geplantes Warenausgangsdatum + Transportzeit = Geplantes Lieferdatum*

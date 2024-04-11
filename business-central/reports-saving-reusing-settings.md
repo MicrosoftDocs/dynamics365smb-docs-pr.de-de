@@ -9,7 +9,7 @@ ms.date: 12/21/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Gespeicherte Einstellungen für Berichte und Batch-Aufträge verwalten
+# Gespeicherte Einstellungen für Berichte und Stapelaufträge verwalten
 
 Abhängig vom ausgeführten Bericht, erhalten Benutzer in der Regel eine Seite, für die Sie bestimmte Optionen wählen und Filter festlegen können, um Daten zu ändern, die im erstellten Bericht enthalten sind. Diese Seite wird als *Anforderungsseite* bezeichnet. Ein Bericht kann eine oder mehrere *Gespeicherte Einstellungen* enthalten, die Benutzer auf den Bericht von der Anforderungsseite anwenden können. *Gespeicherte Einstellungen* sind grundsätzlich vordefinierte Optionen und Filter. Die Verwendung von gespeicherten Einstellungen ist eine schnelle und zuverlässige Art, Berichte zu erstellen, die die richtigen Daten enthalten. Weitere Informationen finden Sie unter [Gespeicherte Einstellungen verwenden](ui-work-report.md#SavedSettings).
 

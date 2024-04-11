@@ -1,32 +1,38 @@
 ---
 title: So erstellen Sie Workflows aus Workflow-Vorlagen
-description: 'Um beim Erstellen neuer Genehmigungsworkflows Zeit zu sparen, können Sie nicht editierbare Workflows aus Workflow-Vorlagen erstellen, denen das Kürzel „MS“ vorangestellt ist.'
+description: 'Um Zeit zu sparen, wenn Sie neue Genehmigungsworkflows erstellen, können Sie Workflows aus Workflowvorlagen erstellen.'
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: al
-ms.search.keywords: null
-ms.date: 09/08/2022
 ms.author: bholtorf
+ms.reviewer: dajoo
+ms.topic: how-to
+ms.search.keywords: null
+ms.date: 03/27/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# Erstellen von Workflows aus Workflowvorlagen
+# Workflows aus Workflowvorlagen erstellen
 
-Um Zeit zu sparen, wenn Sie neue Genehmigungsworkflows erstellen, können Sie Workflows aus Workflowvorlagen erstellen.  
+Auf der Seite **Workflow** können Sie einen Workflow erstellen, indem Sie in den Zeilen eine Reihe von Workflowschritten erstellen. Jeder Schritt besteht aus einem durch Workflowereignis (Wenn-Ereignis), moderierten Ereignisbedingungen (Bei-Bedingung) und einer durch Antwortoptionen moderierten Workflowreaktion (Dann-Antwort). Die Felder in den Workflowzeilen bieten eine feste Liste an Ereignis- und Antwortwerten, welche die von [!INCLUDE [prod_short](includes/prod_short.md)] unterstützten Szenarien darstellen. Erfahren Sie mehr unter [Workflows erstellen](across-how-to-create-workflows.md).
 
-Workflowvorlagen sind nicht-bearbeitbare Workflows, die Sie in der Standardversion von [!INCLUDE[prod_short](includes/prod_short.md)] finden. Den von Microsoft erstellten Codes für Workflowvorlagen ist „MS-“ vorangestellt.  
+Um Zeit zu sparen, wenn Sie Genehmigungsworkflows erstellen, stellt [!INCLUDE [prod_short](includes/prod_short.md)] Workflowvorlagen bereit. Die Vorlagen sind auf der Seite **Workflowvorlagen** verfügbar. Sie können die Vorlagen unverändert verwenden oder an Ihre Anforderungen anpassen. Den von Microsoft für die Workflowvorlagen erstellten Codes ist **MS-** vorangestellt.
 
-Eine andere Art, einen Workflow schnell zu erstellen ist es, einen vorhandenen Workflow zu importieren, den Sie in einer Datei außerhalb von [!INCLUDE[prod_short](includes/prod_short.md)] haben. Erfahren Sie mehr unter [Workflows exportieren und importieren](across-how-to-export-and-import-workflows.md).  
+[!INCLUDE [workflow-next-step](includes/workflow-next-step.md)]
 
-Auf der Seite **Workflow** können Sie einen Workflow erstellen, indem Sie die entsprechenden Schritte in den Zeilen auflisten. Jeder Schritt besteht aus einem durch Ereignisbedingungen moderiertem Workflowereignis und einer durch Antwortoptionen moderierten Workflowantwort. Sie definieren Workflowschritte, indem Sie die Felder in Workflowzeilen mit Ereignis- und Antwortwerten aus festen Listen ausfüllen, die die Workflowszenarien darstellen, die durch den Anwendungscode unterstützt werden. Erfahren Sie mehr unter [Workflows erstellen](across-how-to-create-workflows.md).  
+Wenn Sie eine Workflowvorlage ändern, die Änderung aber später bereuen, verwenden Sie die Aktion **Microsoft-Vorlagen zurücksetzen**, um die ursprüngliche Einstellung für den Workflow wiederherzustellen.
+
+> [!CAUTION]
+> Die Aktion **Microsoft-Vorlagen zurücksetzen** setzt alle Microsoft-Workflow-Vorlagen zurück. Sie können keine einzelne Vorlage zurücksetzen.  
+
+Eine andere Möglichkeit, einen Workflow schnell zu erstellen, besteht darin, ihn zu importieren, beispielsweise wenn Sie ihn aus einer anderen Instanz von [!INCLUDE[prod_short](includes/prod_short.md)] exportiert haben. Erfahren Sie mehr unter [Workflows exportieren und importieren](across-how-to-export-and-import-workflows.md).  
 
 ## So erstellen Sie einen Workflow über eine Workflowvorlage
 
-1. Wählen Sie das Symbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Workflows** ein, und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie das Symbol ![Glühbirne, die die „Sie wünschen ...“-Funktion öffnet](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Workflows** ein, und wählen Sie dann den entsprechenden Link.  
 2. Wählen Sie die Aktion **Neuen Workflow aus Vorlage** aus. Die Seite **Workflowvorlagen** wird geöffnet.  
 3. Wählen Sie eine Workflowvorlage aus, und dann **OK**.  
 
    Die Seite **Workflow** wird für einen neuen Workflow geöffnet, der alle Informationen der ausgewählten Vorlage enthält. Der Wert im Feld **Code** wird beispielweise mit „-01“ erweitert. Dies zeigt an, dass dies der erste Workflow ist, der von der Workflowvorlage erstellt wurde.  
-4. Fahren Sie fort mit dem Erstellen des Workflows, indem Sie die Workflowschritte bearbeiten oder neue Schritte hinzufügen. Erfahren Sie mehr unter [Workflows erstellen](across-how-to-create-workflows.md).  
+4. Um den Workflow anzupassen, bearbeiten Sie die Workflowschritte oder fügen Sie neue Schritte hinzu. Erfahren Sie mehr unter [Workflows erstellen](across-how-to-create-workflows.md).  
 
 ## Siehe auch
 

@@ -1,0 +1,87 @@
+---
+title: Informationen zu Copilot in Business Central
+description: Dieser Artikel beantwortet häufige Fragen zu Copilot in Business Central.
+author: mikebc
+ms.author: mikebc
+ms.reviewer: jswymer
+ms.topic: overview
+ms.collection:
+  - bap-ai-copilot
+  - get-started
+ms.date: 03/27/2024
+ms.custom: bap-template
+---
+
+# Informationen zu Copilot in Business Central
+
+Dieser Artikel beantwortet häufige Fragen zu Copilot in Business Central.
+
+## Was ist Copilot in Business Central?
+
+Microsoft Copilot ist der KI-gestützte Assistent, der dabei hilft, Kreativität freizusetzen, die Produktivität zu steigern und mühsame Aufgaben zu eliminieren. Copilot in Dynamics 365 Business Central ist der weltweit erste KI-gestützte Assistent für alle Branchen. Mit Copilot in Business Central unterstützen kleine und mittlere Unternehmen ihre Mitarbeitenden mit intuitiven KI-Tools, welche die Kreativität steigern und Zeit sparen.
+
+## Wo finde ich die Liste der Copilot-Features in Business Central?
+
+Copilot umfasst einen ständig wachsenden Satz an Features, die Benutzende in verschiedenen Rollen und bei unterschiedlichen Aufgaben unterstützen. Weitere Informationen zu Copilot und anderen KI-Features in Business Central finden Sie unter [aka.ms/BCAI](https://aka.ms/BCAI). 
+
+## Ist Copilot kostenlos? 
+
+Derzeit ist Copilot in Business Central ohne zusätzliche Kosten in Ihrer Business Central-Lizenz enthalten. Dies heißt nicht, dass zu einem späteren Zeitpunkt nicht Fair-Use-Richtlinien, Kontingente oder Preise eingeführt werden können.
+
+## Ist für Copilot in Business Central eine Mindestanzahl an Benutzenden notwendig?
+
+Derzeit ist für die Verwendung von Copilot in Business Central keine Mindestanzahl an Benutzenden notwendig.
+
+## Wie nutzt Copilot das mit Lizenzen gelieferte Azure KI-Zeitkontingent?
+
+Business Central bietet zahlreiche KI-gestützte Features. Manche Features, wie etwa Verkaufs- und Lagerbestandsplanung, verwenden spezielle Modelle des maschinellen Lernens. Diese Features basieren auf Azure KI und haben nichts mit Copilot zu tun. Laut Dynamics 365-Lizenzierungshandbuch sind in den Business Central-Lizenzen 30 Minuten Azure-KI-Zeit enthalten. Dieses Kontingent bezieht sich auf Nicht-Copilot-Features, bei denen der Verbrauch von Azure-KI-Zeit keine Auswirkungen auf Copilot in Business Central hat.
+
+## Ist Copilot in Business Central weltweit verfügbar? 
+
+Copilot umfasst einen ständig wachsenden Satz an Features, die Benutzende in verschiedenen Rollen und bei unterschiedlichen Aufgaben unterstützen. Jede Copilot-Funktion legt eine eigene Liste unterstützter Regionen und Sprachen fest. Während die meisten Features zunächst wahrscheinlich nur auf Englisch verfügbar sein werden, möchten wir im Laufe der Zeit weitere Sprachen und Regionen hinzufügen. Eine Übersicht über die für Unternehmensawendungen verfügbaren Copilot-Sprachen und -Regionen finden Sie unter [https://dynamics.microsoft.com/availability-reports/copilotreport](https://dynamics.microsoft.com/availability-reports/copilotreport).
+
+## Kann ich meine eigenen Copiloten für Business Central entwickeln?
+
+Sie können Copilot in Business Central mithilfe von Tools, die zur Standardentwicklungsplattform von Business Central gehören, erweitern und verbessern. [Erfahren Sie mehr über die Integration von KI mit den Entwicklertools für Copilot](/dynamics365/business-central/dev-itpro/developer/ai-integration-landing-page).
+
+Sie können auch über Copilot Studio Copiloten verbinden oder Ihre eigenen eigenständigen KI-gestützten Apps und Dienste implementieren, die eine Verbindung zu Business Central herstellen. Informationen zum Entwickeln oder Anpassen von Copilot-Umgebungen in der Microsoft Cloud finden Sie unter [Copilot-Umgebungen in der Microsoft Cloud übernehmen, erweitern und erstellen](/microsoft-cloud/dev/copilot/overview).
+
+## Wie halte ich mich in Business Central über Neuigkeiten zu Copilot auf dem Laufenden? 
+
+Sie können die Veröffentlichungspläne unter [aka.ms/BCReleasePlan](https://aka.ms/BCReleasePlan) im Auge behalten, um Neuigkeiten zu Copilot und anderen KI-Innovationen in Business Central zu erhalten.
+
+## Wie leicht ist es für mich als Business Central-Partner, meiner Kundschaft Copilot in Business Central vorzuführen?
+
+Copilot in Business Central ist auch automatisch verfügbar, wenn Sie einen Microsoft Entra-Mandanten mit einer Business Central-Umgebung unter [aka.ms/CDX](https://aka.ms/CDX) (digitale Kundenumgebungen) bereitstellen. [Erfahren Sie, wie Sie Demonstrationen von Business Central erstellen](/dynamics365/business-central/dev-itpro/administration/demo-environment).  
+
+Je nach der bereitgestellten Umgebung sind möglicherweise zusätzliche Einrichtungsschritte erforderlich. [Erfahren Sie, wie Sie Copilot- und KI-Funktionen konfigurieren](/dynamics365/business-central/enable-ai).
+
+## Gibt es einen Unterschied zwischen Copilot in Business Central und Copilot for Microsoft 365?
+
+Microsoft ermöglicht Menschen, mit an unterschiedliche Situationen angepassten Copiloten mehr zu erreichen. Copilot for Microsoft 365 ist zum Beispiel der KI-Assistent für die Arbeit mit Microsoft Teams, Excel und andere Produktivitäts-Apps. Copilot in Business Central ist der speziell auf die Business Central-App abgestimmte KI-Assistent.
+
+## Funktioniert Copilot in Business Central mit Copilot for Microsoft 365?
+
+Zurzeit besteht keine Verbindung zwischen Copilot in Business Central und Copilot for Microsoft 365.
+
+## Ist Copilot nur für Business Central Online verfügbar? 
+
+Ja. Copilot ist exklusiv für Business Central Online verfügbar, d. h. es ist nicht für andere Bereitstellungstypen wie die lokale Version oder in der privaten Cloud verfügbar.
+
+## Ist Copilot für eingebettete Anwendungen verfügbar? 
+
+Derzeit können wir Copilot aufgrund technischer Einschränkungen Kundschaft, die eingebettete ISV-Apps verwenden, nicht anbieten. ISVs können Copilot mit eigenen Funktionen erweitern oder alternative Verwendungsmöglichkeiten für generative KI bereitstellen.
+
+## Welchen Ansatz nutzt Copilot bei der KI-Sicherheit? 
+
+Generative KI innerhalb von Copilot in Business Central entspricht den Microsoft-Prinzipien für verantwortungsbewusste KI, darunter: Fairness, Zuverlässigkeit, Sicherheit, Daten- und weiterer Schutz, Inklusivität, Transparenz und Verantwortlichkeit. [Erfahren Sie, wie die einzelnen Copilot-Funktion verantwortungsbewusst aufgebaut wurden](responsible-ai-overview.md).
+
+## Siehe auch
+
+[Copilot- und KI-Funktionen konfigurieren](enable-ai.md)  
+[Daten in Listen mit Copilot analysieren](analysis-assist.md)  
+[Chat mit Copilot](chat-with-copilot.md)  
+[Marketingtexte mit Copilot erstellen](item-marketing-text.md)  
+[E-Belege mit Copilot Bestellzeilen zuordnen](map-edocuments-with-copilot.md)  
+[Bankkontoabstimmung mit Copilot](bank-reconciliation-with-copilot.md)  
+[Zeilen in Verkaufsaufträgen mit Copilot vorschlagen](sales-suggest-sales-lines-with-copilot.md)  

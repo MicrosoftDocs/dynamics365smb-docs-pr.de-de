@@ -79,8 +79,8 @@ Damit die neuen Artikel vollständig verwendet werden können, müssen Sie einig
 |Verkauf |Vorauszahlungsprozentsatz für Verkäufe | Überprüfen Sie, ob für den ursprünglichen Artikel Vorauszahlungsprozentsätze für Verkäufe definiert sind, und übertragen Sie diese Daten auf den neuen Artikel. Wählen Sie zum Anzeigen von Vorauszahlungsprozentsätzen für Verkäufe auf der Seite **Artikelkarte** die Option **Verkauf** und dann **Zahlungsprozentsätze** aus.|
 |Einkauf |Vorauszahlungsprozentsatz für Einkäufe |Überprüfen Sie, ob für den ursprünglichen Artikel Vorauszahlungsprozentsätze für Einkäufe definiert sind, und übertragen Sie diese Daten auf den neuen Artikel. Wählen Sie zum Anzeigen von Vorauszahlungsprozentsätzen für Verkäufe auf der Seite **Artikelkarte** die Option **Einkäufe** und dann **Zahlungsprozentsätze** aus. |
 |Logistik |Lagerplatzinhalt |Überprüfen Sie den für den ursprünglichen Artikel definierten Lagerplatzinhalt. Wenn Spalten wie „Min. Menge“, „Max. Menge“, „Standard“ und „Dediziert“ einzeln eingegeben wurden, müssen Sie anschließend den den Lagerplatzinhalt für den neuen Artikel manuell erstellen. Ist dies nicht der Fall, ist keine Aktion erforderlich. [!INCLUDE[prod_short](includes/prod_short.md)] verwaltet die Aufzeichnungen, wenn Sie Logistikbelege und Logistik Buch.-Blätter registrieren.|
-|Projekt |Projektpreise |Überprüfen Sie, ob für den ursprünglichen Artikel Projektpreise definiert sind, und übertragen Sie diese Daten auf den neuen Artikel. Diese Informationen finden Sie auf der Seite **Projektkarte** im Abschnitt **Projektdetails – Anzahl Preise** des **Infoboxbereichs**. |
-|Service |Qualifikationen der Serviceressourcen |Überprüfen Sie, ob für den ursprünglichen Artikel die Qualifikation der Serviceressourcen definiert ist, und übertragen Sie diese Daten auf den neuen Artikel. Verwenden Sie zum Anzeigen der Qualifikationen der Ressourcen die Aktion **Qualifikationen der Ressourcen** auf der Seite **Artikelkarte**.  |
+|Projekt |Projektpreise |Überprüfen Sie, ob für den ursprünglichen Artikel Projektpreise festgelegt sind, und übertragen Sie diese Daten auf den neuen Artikel. Diese Informationen finden Sie auf der Seite **Projektkarte** im Abschnitt **Projektdetails – Anzahl Preise** des **Infoboxbereichs**. |
+|Dienst |Qualifikationen der Serviceressourcen |Überprüfen Sie, ob für den ursprünglichen Artikel die Qualifikation der Serviceressourcen definiert ist, und übertragen Sie diese Daten auf den neuen Artikel. Verwenden Sie zum Anzeigen der Qualifikationen der Ressourcen die Aktion **Qualifikationen der Ressourcen** auf der Seite **Artikelkarte**.  |
 | |Serviceartikelkomponenten |Überprüfen Sie, ob für den ursprünglichen Serviceartikel die Komponenten definiert sind, und übertragen Sie diese Daten auf den neuen Artikel. Zum Anzeigen der Komponenten von Serviceartikeln verwenden Sie auf der Seite **Artikelkarte** die Option **Serviceartikel**, um die Liste der zugehörigen Serviceartikel zu öffnen, und wählen Sie dann die Aktion **Komponenten** aus.  |
 |Produktion |Fertigungsstücklisten |Überprüfen Sie, ob Fertigungsstücklisten den ursprünglichen Artikel enthalten, und ersetzen Sie ihn durch den neuen Artikel. Zum Ersetzen des ursprünglichen Artikels wählen Sie auf der Seite **Fertigungsstücklisten** die Aktion **Fertigungsstückliste ersetzen** aus. |
 |Montage |Montagestücklisten |Überprüfen Sie, ob Montagestücklisten den ursprünglichen Artikel enthalten, und ersetzen Sie ihn manuell durch den neuen Artikel. |
@@ -122,7 +122,7 @@ Verwenden Sie beim Erstellen von Montageaufträgen die Informationen aus dem Inv
 |Feld  |Einzugebender Wert  |
 |---------|---------|
 |Typ |Artikel |
-|Nr. |Die Nummer des ursprünglichen Artikels. |
+|Anzahl |Die Nummer des ursprünglichen Artikels. |
 |Komponentenmenge |1 |
 |Variantencode |Identisch mit dem Inventur-Buch.-Blatt. |
 |Lagerortcode |Identisch mit dem Inventur-Buch.-Blatt. |
@@ -153,8 +153,8 @@ In der folgenden Tabelle sind Funktionsbereiche aufgeführt, in denen möglicher
 |Planung |Bestellarbeitsblatt, Planungsarbeitsblatt und Auftragsplanung |
 |Logistik |Umlagerungsaufträge, Warenausgänge, Logistik Buch.-Blätter und Lagerkommissionierungen, Lagereinlagerungen und Umlagerungen, interne Kommissionierungen und Einlagerungen sowie Lagerplatz Erst.-Arbeitsblätter |
 |Montage |Montagedokumente, einschließlich Bestellungen, Rücksendungen und Rahmenbestellungen |
-|Projekte |Projektplanungszeilen und Projekt-Buch.-Blattzeilen |
-|Service |Servicebelege und Serviceverträge |
+|Aufträge |Projektplanungszeilen und Projektbuchungsblattzeilen |
+|Dienst |Servicebelege und Serviceverträge |
 |Produktion |Fertigungsauftrag (geplant, fest geplant und freigegeben) |
 
 ### Verwendung des ursprünglichen Artikels blockieren

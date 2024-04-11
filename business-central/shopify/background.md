@@ -1,7 +1,7 @@
 ---
 title: Aufgaben im Hintergrund und wiederkehrend ausführen
 description: Konfigurieren Sie die Synchronisierung von Daten zwischen Business Central und Shopify im Hintergrund.
-ms.date: 05/11/2022
+ms.date: 03/26/2024
 ms.topic: article
 ms.service: dynamics-365-business-central
 ms.reviewer: solsen
@@ -18,11 +18,11 @@ Es ist effizient, einige Aufgaben gleichzeitig und automatisiert auszuführen. S
 
 ## Aufgaben im Hintergrund für einen bestimmten Shop ausführen
 
-1. Wählen Sie die ![Glühbirne, die die “Wie möchten Sie weiter verfahren“-Funktion öffnet.](../media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol, geben Sie **Shopify Shop** ein und wählen Sie den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die die “Wie möchten Sie weiter verfahren“-Funktion öffnet.](../media/ui-search/search_small.png "Wie möchten Sie weiter verfahren") Symbol, geben Sie **Shopify Shop** ein und wählen Sie den entsprechenden Link.
 2. Wählen Sie den Shop, für den Sie Hintergrundsynchronisierung ausführen möchten, um die Seite **Shopify Shop-Karte** zu öffnen.
 3. Schalten Sie den Schalter **Hintergrundsynchronisationen zulassen** ein.
 
-Wenn die Synchronisierungsaktion ausgelöst wird, wird nun nicht mehr eine Aufgabe im Vordergrund ausgeführt, sondern Sie werden aufgefordert zu warten. Wenn dieser abgeschlossen ist, können Sie mit der nächsten Aktion fortfahren. Die Aufgabe wird als **Aufgabenwarteschlangeneintrag** erstellt und startet sofort.
+Wenn die Synchronisierungsaktion beginnt, wird nicht mehr eine Aufgabe im Vordergrund ausgeführt, sondern Sie werden aufgefordert zu warten. Ist diese abgeschlossen, können Sie mit der nächsten Aktion fortfahren. Die Aufgabe wird als **Aufgabenwarteschlangeneintrag** erstellt und startet sofort.
 
 ## So planen Sie wiederkehrende Aufgaben
 
@@ -37,7 +37,10 @@ Sie können die folgenden wiederkehrenden Aktivitäten so planen, dass sie autom
 |**Lagerbestand synchronisieren**|Bericht 30102 Lagerbestand mit Shopify synchronisieren|
 |**Bilder synchronisieren**|Bericht 30107 Shopify – Bilder synchronisieren|
 |**Debitoren synchronisieren**|Bericht 30100 Shopify – Debiroten synchronisieren|
+|**Unternehmen synchronisieren**|Bericht 30114 Shopify – Unternehmen synchronisieren (B2B)|
 |**Zahlungen synchronisieren**|Bericht 30105 Shopify – Zahlungen synchronisieren|
+|**Kataloge synchronisieren**|Bericht 30115 Shopify – Kataloge synchronisieren (B2B)|
+|**Kataglogpreise synchronisieren**|Bericht 30116 Shopify – Katalogpreise synchronisieren (B2B)|
 
 > [!NOTE]
 > Einige Elemente können durch mehrere Aufgaben aktualisiert werden, z.B. wenn Sie Bestellungen importieren. Je nach Einstellung in der **Shopify Shop Card** importiert und aktualisiert das System auch Debitor- und/oder Produktdaten. Denken Sie daran, die gleiche Kategorie der Auftragswarteschlange zu verwenden, um Konflikte zu vermeiden.
@@ -50,6 +53,17 @@ Weitere Aufgaben, die hilfreich sein können, um die Weiterverarbeitung von Verk
 Sie können **Shopify Bestellnr.** verwenden Feld zum Identifizieren von Verkaufsdokumenten, die aus Shopify importiert wurden.
 
 Um mehr über das Verbuchen von Verkaufsaufträgen in einem Stapel zu erfahren, gehen Sie zu [So erstellen Sie einen Auftragswarteschlangeneintrag für die Stapelverbuchung von Verkaufsaufträgen](../ui-batch-posting.md#to-create-a-job-queue-entry-for-batch-posting-of-sales-orders).
+
+## Den Status von Synchronisierungen überprüfen
+
+Im Rollencenter **Geschäftsführer** bietet der Abschnitt **Shopify Aktivitäten** mehrere Hinweise, die Ihnen helfen können, schnell zu erkennen, ob Probleme mit dem Shopify-Konnektor vorliegen.
+
+- **Nicht zugeordnete Debitoren**: Der Shopify Debitor wird importiert, ist aber nicht mit einem entsprechenden Debitorenposten in [!INCLUDE [prod_short](../includes/prod_short.md)] verbunden.
+- **Nicht zugeordnete Produkte**: Das Shopify Produkt wird importiert, ist aber nicht mit einem entsprechenden Artikelposten in [!INCLUDE [prod_short](../includes/prod_short.md)] verbunden.
+- **Unverarbeitete Aufträge**: Shopify Aufträge werden importiert, aber es werden keine Verkaufsbelege in [!INCLUDE [prod_short](../includes/prod_short.md)] erstellt, was häufig daran liegt, dass Produkte oder Debitoren nicht zugeordnet sind.
+- **Unverarbeitete Lieferungen**: Die gebuchten Verkaufslieferungen, die aus Shopify Aufträgen stammen, werden nicht mit Shopify synchronisiert.
+- **Fehler bei Lieferungen**: Der Shopify Konnektor konnte gebuchte Verkaufslieferungen nicht mit Shopify synchronisieren.
+- **Synchronisierungsfehler**: Es gibt fehlgeschlagene Aufgabenwarteschlangenposten im Zusammenhang mit der Synchronisierung mit Shopify.
 
 ## Siehe auch
 

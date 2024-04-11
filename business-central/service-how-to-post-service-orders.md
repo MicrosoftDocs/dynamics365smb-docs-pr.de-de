@@ -109,7 +109,7 @@ Sie können den Verbrauch der Serviceaufträge kündigen. Beispielsweise, da er 
 >  Sie können Dienstverbrauch nicht rückgängig machen, wenn:  
 
 >    * Der Serviceauftrag geschlossen wurde.  
->    * Er für im Modul "Projekte" gebucht wurde und Projektposten zugeordnet sind.  
+>    * Er wurde im Bereich „Projekte“ gebucht, daher sind ihm Projektposten zugeordnet.  
 
 ## So buchen Sie Servicezeilen  
 Wenn Sie für längere Zeit mit einem Serviceauftrag arbeiten müssen, ohne diesen zu buchen, möchten Sie vielleicht schon einige der Zeilen buchen, die damit verknüpft sind, z. B. um das Lager auf dem aktuellen Stand zu halten. Sie können buchen, indem Sie die relevanten Mengen in den zu buchenden Zeilen angeben. Sie können die Zeilen einzeln oder mehrere Zeilen gleichzeitig buchen.  

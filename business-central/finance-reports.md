@@ -1,6 +1,6 @@
 ---
-title: Finanzberichte und Analysen
-description: 'Sehen Sie, welche Finanzberichte und Analysen in der Standardversion von Business Central verfügbar sind, damit Sie den Überblick über Ihr Geschäft behalten. Verwenden Sie Bericht 38 für Gewinn- und Verlustberichte (G+V).'
+title: In Business Central integrierte Finanzberichte
+description: 'Erfahren Sie, welche integrierten Finanzberichte in der Standardversion von Business Central verfügbar sind, damit Sie den Überblick über Ihr Unternehmen behalten können. Verwenden Sie Bericht 38 für Gewinn- und Verlustberichte (G+V).'
 author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
@@ -9,32 +9,20 @@ ms.date: 12/19/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Finanzielle Berichte und Analysen in Business Central
 
-Finanzberichterstattung in [!INCLUDE [prod_short](includes/prod_short.md)] ermöglicht Finanz- und Geschäftsfachleuten das Erstellen, Verwalten, Bereitstellen und Anzeigen von Abschlüssen. Sie sprengt die Grenzen herkömmlicher Berichte und hilft Ihnen, verschiedene Arten von Berichten effizient zu gestalten. [!INCLUDE [prod_short](includes/prod_short.md)] enthält mehrere Berichte, Nachverfolgungsfunktionen und Tools, die Wirtschaftsprüfern oder Controllern helfen, die für die Berichterstattung an die Finanzabteilung verantwortlich sind. Die Finanzberichterstattung umfasst die Unterstützung von Dimensionen, sodass Kontosegmente oder Dimensionen sofort verfügbar sind. Keine anderen Tools oder Konfigurationsschritte sind erforderlich.  
+# In Business Central integrierte Finanzberichte
+
+[!INCLUDE [prod_short](includes/prod_short.md)] enthält mehrere integrierte Berichte, Nachverfolgungsfunktionen und Tools, die Wirtschaftsprüfern oder Controllern helfen, die für die Berichterstattung an die Finanzabteilung verantwortlich sind. 
 
 [!INCLUDE [tip_open_report_from_docs](includes/tip-open-report-from-docs.md)]
 
-## Berichte
-
 [!INCLUDE [finance_reports](includes/finance-reports-include.md)]
 
-## Aufgaben
-
-In den folgenden Artikeln werden einige der wichtigsten Aufgaben zur Analyse des Status Ihres Unternehmens beschrieben:
-
-* [Tatsächlichen Beträge mit den budgetierten Beträgen analysieren](bi-how-analyze-actual-versus-budget.md)  
-* [Bereiten Sie Finanzberichte mit Finanzdaten und Kontengruppen vor](bi-how-work-account-schedule.md)  
-* [KPI-Webdienste auf der Basis der Finanzberichte einrichten und veröffentlichen](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)  
-* [Daten nach Dimensionen analysieren](bi-how-analyze-data-dimension.md)  
-* [Analyseberichte erstellen](bi-how-create-analysis-views-reports.md)  
-* [Berichte mit XBRL erstellen](bi-create-reports-with-xbrl.md)  
-* [Absicht auf Datenbankzugriff verwalten](admin-data-access-intent.md)  
 
 ## Siehe auch
 
-[Erstellen von Kostenbudgets](finance-create-cost-budgets.md)  
-[Melden von MwSt. an die Steuerbehörden](finance-how-report-vat.md)  
+[Kostenbudgets erstellen](finance-create-cost-budgets.md)  
+[MwSt. an die Steuerbehörden melden](finance-how-report-vat.md)  
 [Jahre und Perioden abschließen](year-close-years-periods.md)  
 [Vorabschlussberichte verwenden](year-prepare-preclose-reports.md)  
 [Abschlussberichte vorbereiten](year-prepare-close-statement.md)  

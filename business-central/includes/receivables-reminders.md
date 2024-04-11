@@ -1,11 +1,14 @@
 ---
 author: brentholtorf
 ms.topic: include
-ms.date: 02/09/2022
+ms.date: 03/12/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-Mithilfe von Mahnungen können Debitoren auf überfällige Beträge aufmerksam gemacht werden. Sie können auch Mahnungen verwenden, um finanzielle Belastungen wie Zinsen oder Gebühren zu berechnen und sie in die Mahnung aufzunehmen.
+Mithilfe von Mahnungen können Debitoren auf überfällige Beträge aufmerksam gemacht werden. Darüber hinaus können Mahnungen zum Berechnen von Zinsen oder Zuschlägen verwendet werden, die dann in die Mahnung aufgenommen werden.
+
+> [!TIP]
+> Die Informationen in diesem Artikel sind korrekt, beschreiben jedoch einen größtenteils manuellen Prozess. [!INCLUDE [prod_short](prod_short.md)] bietet Tools, mit denen Sie die Prozesse zum Erstellen, Ausgeben und Versenden von Mahnungen automatisieren können. Durch die Automatisierung dieser Schritte können Sie viel Zeit bei der Eintreibung sparen. Weitere Informationen finden Sie unter [Mahnungen in Sammlungen automatisieren](../finance-automate-reminders.md).
 
 Bevor Sie Mahnungen erstellen können, müssen zunächst Mahnmethoden eingerichtet und den Debitoren zugeordnet werden. Weitere Informationen finden Sie unter [Mahnmethoden und Stufen festlegen](../finance-setup-reminders.md). [!INCLUDE [reminder-terms](reminder-terms.md)] Der Inhalt der Seite **Zinskonditionen für Finance** bestimmt, ob für die Mahnung Zinsen berechnet werden.  
 
@@ -35,11 +38,11 @@ Auf der Seite **Mahnung** können Sie das Inforegister **Allgemein** manuell aus
 3. Füllen Sie im Inforegister **Allgemein** die notwendigen Felder aus.
 4. Wählen Sie die Aktion **Mahnungszeile vorschlagen**.
 5. In der Stapelverarbeitung **Mahnungszeile vorschlagen** füllen Sie die Felder aus, um festzulegen wie und an wen Mahnungen erstellt werden.
-6. Wählen Sie im Inforegister das Kontrollkästchen **Posten auf Abwarten einschließen**, wenn Sie möchten, dass die Mahnungen überfällige Posten enthalten, die auf „Abwarten” gesetzt sind.
+6. Wählen Sie im Inforegister das Kontrollkästchen **Posten auf Abwarten einschließen**, wenn Sie möchten, dass die Mahnungen überfällige Posten enthalten, die auf „Abwarten“ gesetzt sind.
 7. Aktivieren Sie das Kontrollkästchen **Nur Posten mit fälligen Beträgen**, wenn die Mahnungen nur überfällige offene Posten enthalten sollen. Es werden nur Rechnungen und Zahlungen angezeigt, da dies die Einträge sind, für die die Zahlungen Ihrer Kunden möglicherweise überfällig sind.
 
     > [!Important]
-    > Offene Posten, die auf „Abwarten” gesetzt sind, werden eingefügt, ungeachtet der Einstellung des Kontrollkästchens **Nur Posten mit fälligen Beträgen**.
+    > Offene Posten, die auf „Abwarten“ gesetzt sind, werden eingefügt, ungeachtet der Einstellung des Kontrollkästchens **Nur Posten mit fälligen Beträgen**.
 
 8. Wählen Sie die Schaltfläche **OK** aus.
 

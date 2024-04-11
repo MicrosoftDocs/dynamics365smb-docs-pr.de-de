@@ -1,12 +1,12 @@
 ---
 title: Ändern oder Löschen einer gebuchten Verkaufsrechnung
-description: 'Dieses Thema beschreibt, wie Sie eine gebuchte Verkaufsrechnung korrigieren, rückgängig machen oder stornieren und eine Verkaufsgutschrift anwenden.'
+description: 'Dieser Artikel beschreibt, wie Sie eine gebuchte Verkaufsrechnung korrigieren, rückgängig machen oder stornieren und eine Verkaufsgutschrift anwenden.'
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: ivkoleti
 ms.topic: conceptual
 ms.search.keywords: 'undo, credit memo, return'
-ms.date: 02/20/2024
+ms.date: 03/05/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---

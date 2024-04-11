@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'trade, sell, replenishment'
 ms.search.form: 172
-ms.date: 07/06/2022
+ms.date: 02/14/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -52,7 +52,7 @@ Ordnen Sie einem Debitor eine oder mehrere wiederkehrende Verkaufszeilen zu, so 
 
 Wenn für den Debitor wiederkehrende Verkaufszeilen vorhanden sind, können Sie diese in alle Arten von Verkaufsbelegen einfügen oder einfügen lassen, z. B. in eine Verkaufsrechnung. Wenn Sie die Option **Immer fragen** aktiviert haben, während Sie Debitoren wiederkehrende Verkaufszeilen hinzufügen, werden Sie informiert, wenn wiederkehrende Verkaufszeilen vorhanden sind.
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Verkaufsrechnungen** ein und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie das Symbol ![Glühbirne, die die „Sie wünschen ...“-Funktion öffnet](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Verkaufsrechnungen** ein und wählen Sie dann den zugehörigen Link.
 2. Öffnen Sie die Verkaufsrechnung, in die Sie eine oder mehrere Standard-Verkaufszeilen einfügen möchten.
 3. Wählen Sie die **Wiederkehrende Verkaufszeilen abrufen** Aktion aus.
 4. Auf der Seite **Wiederkehrende Verkaufszeilen** wählen Sie die Suchschaltfläche im Feld **Code**, und wählen einen Satz von Standardverkaufszeilen aus.

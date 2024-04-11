@@ -1,12 +1,12 @@
 ---
-title: Einkauf von Artikeln für einen Verkauf
+title: Artikel für einen Verkauf einkaufen
 description: 'Von einer Verkaufsrechnung um Produkte einzukaufen, können Sie eine Einkaufsrechnung für einen Kreditor oder Lieferanten einen erstellen.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'supply planning, sales demand, replenish'
 ms.search.form: '50, 51, 56, 9308'
-ms.date: 04/01/2021
+ms.date: 03/14/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -56,13 +56,13 @@ Eine einzelne Einkaufsrechnung für eine oder mehrere Zeilen in einem Verkaufsbe
 6. In der Kreditorenliste, die erscheint, wählen Sie den Kreditor, der die Artikel oder Dienstleistung liefert, und wählen Sie die Schaltfläche **OK**.
 
     Eine Einkaufsrechnung wird erstellt, die eine, mehrere oder alle Zeilen auf der Verkaufsrechnung enthält.
-7. Fahren Sie fort, die Einkaufsrechnung zu verarbeiten, indem Sie beispielsweise Einkaufsrechnungszeilen bearbeiten oder hinzufügen. Weitere Informationen finden Sie unter [Erfassen eines Einkaufs](purchasing-how-record-purchases.md).
+7. Fahren Sie fort, die Einkaufsrechnung zu verarbeiten, indem Sie beispielsweise Einkaufsrechnungszeilen bearbeiten oder hinzufügen. Weitere Informationen finden Sie unter [Käufe erfassen](purchasing-how-record-purchases.md).
 
 ## Siehe auch
 [Einkauf](purchasing-manage-purchasing.md)  
-[Erfassen eines Einkaufs](purchasing-how-record-purchases.md)  
-[Fakturieren eines Verkaufs](sales-how-invoice-sales.md)  
-[Registriert einen neuen Kreditor](purchasing-how-register-new-vendors.md)  
+[Einkäufe erfassen](purchasing-how-record-purchases.md)  
+[Verkäufe fakturieren](sales-how-invoice-sales.md)  
+[Neue Kreditoren einrichten](purchasing-how-register-new-vendors.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

@@ -25,7 +25,7 @@ ms.service: dynamics-365-business-central
 |Verwalten Sie Verkaufsprozesse und -Informationen, beispielsweise Angebote, Aufträge und Rücklieferungen, Debitorenkonten und erstellen Sie Direktlieferungen.|[Verkauf](sales-manage-sales.md)|
 |Verwaltet Einkaufsprozesse und Informationen wie Aufträge, Rechnungen, Reklamationen und Kreditorenkonten und Einkaufsprodukte von Verkaufsbelegen. |[Einkauf](purchasing-manage-purchasing.md)|
 |Erfassen Sie neue Mitarbeiter des Lagers oder Serviceartikel für eine einfache Suche, passen Sie die Lagerstufen an und führen Sie allgemeine Lagerkostenberechnungsaufgaben aus.|[Bestand](inventory-manage-inventory.md)|
-|Erstellen Sie Aufträge und planen Sie Ressourcen für Projekte, verwalten Sie Auftragsbudgets, überwachen Sie den Fortschritt und verfolgen Sie Maschinen- und Mitarbeiterstunden.|[Projektmanagement](projects-manage-projects.md)|
+|Erstellen Sie Projekte und planen Sie Ressourcen für Projekte, verwalten Sie Projektbudgets, überwachen Sie den Fortschritt und verfolgen Sie Maschinen- und Mitarbeiterstunden.|[Projektmanagement](projects-manage-projects.md)|
 |Organisieren Sie Ihre Anlagen, stellen Sie die korrekten periodischen Abschreibungen sicher und Verwalten Sie Wartungskosten.|[Anlagen](fa-manage.md)|
 |Verwalten und unterstützen Sie Ihr Verkaufsanstrengungen und konzentrieren Sie sich auf Ihre bevorzugten Kunden und Kontakte.|[Marketing & Vertrieb](marketing-relationship-management.md)|
 |Führen Sie detaillierte Datensätze über Ihre Mitarbeiter, und registrieren Sie Abwesenheiten zu Analysezwecken. |[Personalwesen](hr-manage-human-resources.md)|

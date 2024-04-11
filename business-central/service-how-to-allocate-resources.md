@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ---
 
 # Ressourcen zuordnen
-Kernstück des Servicemanagements sind die Mitarbeiter, von denen der Service bereitgestellt wird. Sie können einrichten [!INCLUDE[prod_short](includes/prod_short.md)], um die geeigneten Mitarbeiter den entsprechenden Projekten zuzuweisen. Zuweisungen können auf Servicebereichen basieren, in denen Mitarbeiter tätig sind, oder in denen der Service stattfindet. Zudem können Ressourcen beim Antworten auf Serviceanforderungen zusammengruppiert werden. Weitere Informationen finden Sie unter [Ressourcen zuweisen einrichten](service-how-setup-resource-allocation.md).
+Kernstück des Servicemanagements sind die Mitarbeiter, von denen der Service bereitgestellt wird. Sie können [!INCLUDE[prod_short](includes/prod_short.md)] einrichten, um die geeigneten Mitarbeitenden den entsprechenden Projekten zuzuweisen. Zuweisungen können auf Servicebereichen basieren, in denen Mitarbeiter tätig sind, oder in denen der Service stattfindet. Zudem können Ressourcen beim Antworten auf Serviceanforderungen zusammengruppiert werden. Weitere Informationen finden Sie unter [Ressourcen zuweisen einrichten](service-how-setup-resource-allocation.md).
 
 Sie können Ressourcen, z B. Techniker zuweisen, indem Sie **Einsatzplanung** oder einen Serviceauftrag verwenden. Sie können Ressourcenverfügbarkeit verwenden, um Ressourcen zuzuordnen, um die Aufgaben in Aufträgen und Angeboten auszuführen.
 

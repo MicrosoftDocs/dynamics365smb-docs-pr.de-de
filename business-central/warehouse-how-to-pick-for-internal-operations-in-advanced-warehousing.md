@@ -21,8 +21,8 @@ Wenn Ihr Lagerort so eingerichtet wurde, dass die Bearbeitung der Kommissionieru
 
 Sie können keine Lagerkommissionierbelege von Grund auf erstellen. Kommissionierungen sind Teil eines Workflows, bei dem eine Person, die einen Auftrag bearbeitet, sie im Push-Verfahren erstellt, oder der Lagermitarbeiter sie im Pull-Verfahren erstellt:
 
-- Im Push-Verfahren, bei dem Sie die Aktion **Kommissionierung erstellen** auf der Seite **Produktionsauftrag**, **Montageauftrag**, **Auftragskarte**. Wählen Sie die zu kommissionierenden Zeilen und bereiten Sie die Kommissionierungen vor, indem sie beispielsweise angeben, aus welchen Lagerplätzen entnommen und in welche Lagerplätze eingelagert wird, und wie viele Einheiten bewegt werden. Lagerplätze können für den Lagerort oder die Ressource vordefiniert werden.
-- Im Pull-Verfahren, bei dem Sie **Produktionsauftrag**, **Montageauftrag**, **Auftragskarte** für das Lager freigeben, wodurch die Artikel für die Entnahme verfügbar gemacht werden. Anschließend können Lagermitarbeiter auf der Seite **Kommissionierungsarbeitsblatt** die Aktion **Lagerdokumente abrufen** verwenden, um ihre zugewiesenen Kommissionierungen vorzunehmen.
+- Im Push-Verfahren, bei dem Sie die Aktion **Kommissionierung erstellen** auf der Seite **Produktionsauftrag**, **Montageauftrag**, **Projektkarte**. Wählen Sie die zu kommissionierenden Zeilen und bereiten Sie die Kommissionierungen vor, indem sie beispielsweise angeben, aus welchen Lagerplätzen entnommen und in welche Lagerplätze eingelagert wird, und wie viele Einheiten bewegt werden. Lagerplätze können für den Lagerort oder die Ressource vordefiniert werden.
+- Im Pull-Verfahren, bei dem Sie **Produktionsauftrag**, **Montageauftrag**, **Projektkarte** für das Lager freigeben, wodurch die Artikel für die Entnahme verfügbar gemacht werden. Anschließend können Lagermitarbeiter auf der Seite **Kommissionierungsarbeitsblatt** die Aktion **Lagerdokumente abrufen** verwenden, um ihre zugewiesenen Kommissionierungen vorzunehmen.
 
 Um Komponenten für Herkunftsbelege im Pull-Verfahren zu kommissionieren oder zu verschieben, müssen Sie das Herkunftsbeleg freigeben, um es für die Entnahme bereit zu machen. Die Freigabe von Herkunftsbelegen für interne Arbeitsgänge geschieht auf die folgenden Arten.  
 
@@ -52,7 +52,7 @@ Verwenden Sie **Lagerentnahme**-Dokumente, um Montagekomponenten zum Montagebere
 Verwenden Sie **Lagerkommissionierungs**-Dokumente für die Kommissionierung von Auftragskomponenten im Fluss zum Produktionsmanagement.
 
 > [!NOTE]
-> Die Möglichkeit, Komponenten für Auftragsplanungslinien auszuwählen, wurde in [!INCLUDE[d365fin](includes/d365fin_md.md)] 2022 Veröffentlichungswelle 2 hinzugefügt. Um die Funktion zu verwenden, muss Ihr Administrator **Funktion Aktualisieren: Lagerbestand und Lagerkommissionierungen von Aufträgen aus aktivieren** auf der Seite **Funktionsverwaltung** aktivieren.
+> Die Möglichkeit, Komponenten für Projektplanungslinien auszuwählen, wurde in [!INCLUDE[d365fin](includes/d365fin_md.md)] Veröffentlichungswelle 2 2022 hinzugefügt. Um die Funktion zu verwenden, muss Ihr Administrator **Funktion Aktualisieren: Lagerbestand und Lagerkommissionierungen von Aufträgen aus aktivieren** auf der Seite **Funktionsverwaltung** aktivieren.
 >
 > Aufträge unterstützen keine erweiterten Konfigurationen, bei denen der Schalter **Gezielte Entnahme und Einlagerung** aktiviert ist.
 
@@ -135,11 +135,11 @@ Verwenden Sie **Lagerkommissionierungs**-Dokumente für die Kommissionierung von
 
 4. Nachdem Sie die Artikel im Bereich oder dem Lagerplatz Produktion, Fertigung oder Auftrag kommissioniert oder platziert haben,, wählen Sie die Aktionen **Kommissionierung registrieren** aus.  
 
-    Sie können nun die Artikel in den entsprechenden Bereich bringen und die Verwendung oder den Verbrauch der kommissionierten Komponenten buchen, indem Sie das Verbrauchsjournal, den Montageauftrag oder das Auftragsjournal buchen. Die folgenden Artikel bieten weitere Informationen:
+    Sie können nun die Artikel in den entsprechenden Bereich bringen und die Verwendung oder den Verbrauch der kommissionierten Komponenten buchen, indem Sie die Verbrauchserfassung, den Montageauftrag oder die Projekterfassung buchen. Die folgenden Artikel bieten weitere Informationen:
 
     * [Gemeinsames Erfassen und Buchen von Verbrauch und Istmeldungen für eine einzelne freigegebene Fertigungsauftragszeile](production-how-to-register-consumption-and-output.md)
     * [Artikel montieren](assembly-how-to-assemble-items.md)
-    * [Verbrauch oder Nutzung für Aufträge erfassen](projects-how-record-job-usage.md)
+    * [Verbrauch oder Nutzung für Projekt erfassen](projects-how-record-job-usage.md)
 
 ## Buchung von Produktionskomponenten in einer erweiterten Lagerkonfiguration
 

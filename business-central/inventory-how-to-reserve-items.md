@@ -7,7 +7,7 @@ ms.reviewer: andreipa
 ms.topic: conceptual
 ms.search.keywords: null
 ms.search.forms: '498, 497'
-ms.date: 09/19/2023
+ms.date: 02/22/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
@@ -18,7 +18,7 @@ Reservieren Sie Lager oder eingehenden Artikel für Verkaufsaufträge, Bestellun
 Jede Zeile, die Sie zum Reservieren der Artikel auf der Seite **Reservierung** öffnen, beinhaltet Informationen zu der Art der Zeile (Verkauf, Einkauf, Buchungsblatt) oder der Postenart. Die Zeilen zeigen an, wie viele Artikel von jeder Art von Zeile oder Posten für die Reservierung verfügbar sind.
 
 > [!TIP]
-> Basierend auf den Mengen, die Sie im Lagerbestand reserviert haben, zeigt [!INCLUDE [prod_short](includes/prod_short.md)] einen Status der Dokumente an, sodass Sie schnell über den nächsten Schritt informiert sind. Beispielsweise um anzugeben, dass Sie einen Kundenauftrag versenden oder mit der Arbeit an einem Auftrag, einer Montage oder einem Produktionsauftrag beginnen können. Der Status trägt auch dazu bei, das Risiko versehentlicher Teillieferungen oder Verzögerungen aufgrund fehlender Bestände für Produktions- und Montageaufträge zu verringern.
+> Basierend auf den Mengen, die Sie im Lagerbestand reserviert haben, zeigt [!INCLUDE [prod_short](includes/prod_short.md)] einen Status der Dokumente an, sodass Sie schnell über den nächsten Schritt informiert sind. Beispielsweise um anzugeben, dass Sie einen Kundenauftrag versenden oder mit der Arbeit an einem Projekt, einer Montage oder einem Produktionsauftrag beginnen können. Der Status trägt auch dazu bei, das Risiko versehentlicher Teillieferungen oder Verzögerungen aufgrund fehlender Bestände für Produktions- und Montageaufträge zu verringern.
 >
 > Das Feld **Reserviert aus Bestand** kann Ihnen helfen zu verstehen, ob Sie für eine bestimmte Bestellung oder Bestellposition versenden oder kommissionieren können. Für Positionen ist das Feld „Reserviert aus Bestand“ in Infoboxen verfügbar. Um auf die Informationen zur gesamten Bestellung zuzugreifen, befindet sich das Feld auf der Seite **Statistiken**.
 
@@ -79,13 +79,13 @@ Verwenden Sie die Seite **Reservierungsarbeitsblatt**, um eingehende Waren in gr
 2. Wählen Sie die Aktion **Bedarf abrufen** und geben Sie dann die Art der Nachfrage an, die Sie aus dem verfügbaren Bestand reservieren möchten.
 3. Füllen Sie die Filter nach Bedarf aus. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 4. Optional: Um die Elemente sofort zuzuordnen, wählen Sie die Aktion **Zuordnen**.
-5. Wählen Sie auf der Seite **Zuordnungsrichtlinie** eine Richtlinie für jeden Schritt aus
+5. Wählen Sie auf der Seite **Zuordnungsrichtlinie** eine Richtlinie für jeden Schritt aus.
 
    |Zuordnungsrichtlinie  |Description  |
    |---------|---------|
    |Basis     | Weist einem Bedarf Bestand zu, wenn keine Konflikte vorliegen und der Bedarf vollständig gedeckt werden kann. Beispiel: Sie haben Kundenauftrag A mit einer Menge von 10 und einen Auftrag mit einer Menge von 7. Wenn Sie 20 Stück auf Lager haben, erhalten beide Bedarfe die volle Menge. Wenn Ihr Bestand 12 beträgt, wird kein Bestand zugeteilt. Sie müssen die Menge manuell zuteilen.        |
    |Zu gleichen Teilen    | Verteilt den verfügbaren Bestand gleichmäßig auf die Nachfrage. Beispiel: Sie haben einen Kundenauftrag mit einer Menge von 10 und einen Auftrag mit einer Menge von 7. Wenn Ihr Lagerbestand 20 beträgt, erhalten beide Bedarfe die volle Menge. Wenn Ihr Bestand 12 beträgt, erhalten beide Nachfragen 6.        |
-   |Nach Debitorenpriorität|Verteilung basierend auf dem Prioritätsfeld der Debitorenkarte. Bei unzureichenden Mengen priorisiert das System die Belieferung der Debitoren mit höchster Priorität.|
+   |Nach Debitorenpriorität|Verteilung basierend auf dem Feld **Priorität** auf der Seite **Debitorenkarte**. Bei geringen Lagerbeständen beliefert Business Central zuerst die Kundschaft mit höherer Priorität.|
 
 6. Um alle Zeilen zu reservieren, bei denen **Akzeptieren** aktiviert ist, wählen Sie die Aktion **Reservierung vornehmen** aus.
     

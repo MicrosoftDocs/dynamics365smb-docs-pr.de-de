@@ -7,7 +7,7 @@ ms.reviewer: soalex
 ms.topic: conceptual
 ms.search.keywords: 'trade, partial deliveries, customer sales order, shipping advice, partial shipments,'
 ms.search.form: '42, 48, 9305'
-ms.date: 02/01/2024
+ms.date: 02/06/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -30,7 +30,7 @@ Sie können direkt gezahlte Rechnungen für nicht registrierte Debitoren auch er
 
 1. Wählen Sie das Symbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Verkaufsaufträge** ein, und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie **Neu** aus, um einen neuen Eintrag zu erstellen.
-3. Geben Sie im Feld **Debitor** den Namen eines vorhandenen Debitors ein.
+3. Geben Sie in das Feld **Kundenname** den Namen eines bestehenden Kunden ein.
 
     Andere Felder auf der Seite **Verkaufsangebot** werden nun mit den Standardinformationen zum ausgewählten Debitor ausgefüllt.  
 

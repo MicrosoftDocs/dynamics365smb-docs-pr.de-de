@@ -2,11 +2,12 @@
 title: Mit Microsoft Dataverse verbinden (enthält Video)
 description: 'Legen Sie eine Verbindung zwischen Business Central und Dataverse fest. Unternehmen erstellen die Verbindung normalerweise, um Daten mit einer anderen Dynamics 365 Business App zu integrieren.'
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: ivkoleti
 ms.topic: conceptual
 ms.search.keywords: null
 ms.search.forms: '7200, 7201'
-ms.date: 09/28/2023
-ms.author: bholtorf
+ms.date: 02/28/2024
 ms.service: dynamics-365-business-central
 ---
 # Mit Microsoft Dataverse verbinden
@@ -29,7 +30,13 @@ Sie müssen einige Informationen bereithalten, bevor Sie die Verbindung herstell
 
 > [!Note]
 > Diese Schritte beschreiben das Verfahren in [!INCLUDE[prod_short](includes/prod_short.md)] online.
-> Wenn Sie [!INCLUDE[prod_short](includes/prod_short.md)] lokal verwenden und nicht das Microsoft Entra Konto verwenden, um die Verbindung mit [!INCLUDE [cds_long_md](includes/cds_long_md.md)] herzustellen, müssen Sie außerdem einen Benutzernamen und ein Kennwort eines Benutzerkontos für die Integration angeben. Dieses Konto wird als „Integrationsbenutzer“-Konto bezeichnet. Wenn Sie ein Microsoft Entra-Konto verwenden, ist das Integrationsbenutzerkonto weder erforderlich noch wird es angezeigt. Der Integrationsbenutzer wird automatisch eingerichtet und benötigt keine Lizenz.
+> Wenn Sie [!INCLUDE[prod_short](includes/prod_short.md)] lokal und nicht das Microsoft Entra Konto verwenden, um die Verbindung mit [!INCLUDE [cds_long_md](includes/cds_long_md.md)] herzustellen, müssen Sie außerdem einen Benutzernamen und ein Kennwort eines Benutzerkontos für die Integration angeben. Dieses Konto wird als „Integrationsbenutzer“-Konto bezeichnet. Wenn Sie ein Microsoft Entra-Konto verwenden, ist das Integrationsbenutzerkonto weder erforderlich noch wird es angezeigt. Der Integrationsbenutzer wird automatisch eingerichtet und benötigt keine Lizenz.
+
+## Ihre Business Central- und Dataverse-Umgebungen verknüpfen
+
+Unternehmen möchten ihre Daten innerhalb ihrer Datenschutzgrenzen sicher aufbewahren, insbesondere wenn ihre betriebswirtschaftliche Anwendung in andere Apps integriert ist. Durch die Verknüpfung von [!INCLUDE [prod_short](includes/prod_short.md)]- und [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-Umgebungen erfüllen Sie nicht nur diese Anforderungen, sondern bieten Ihren Administrierenden auch eine einfachere Möglichkeit, Ihre Integrationen mit anderen Dynamics 365-Apps zu erstellen und zu verwalten.
+
+Im [!INCLUDE [prod_short](includes/prod_short.md)] Admin Center können Sie Ihre [!INCLUDE [prod_short](includes/prod_short.md)]-Umgebung mit Ihrer [!INCLUDE [cds_long_md](includes/cds_long_md.md)]-Umgebung verknüpfen. [!INCLUDE [prod_short](includes/prod_short.md)] kann die Informationen aus dem Link verwenden, um die Integration mit anderen Dynamics 365-Apps, wie etwa Sales und Field Service, einfacher und sicherer zu gestalten. Beispielsweise ist die verknüpfte [!INCLUDE [cds_long_md](includes/cds_long_md.md)]-Umgebungs-URL standardmäßig auf der Seite **Dataverse-Verbindungseinrichtung** verfügbar und wenn Sie die Anleitung für die unterstützte **Dataverse-Verbindungseinrichtung** ausführen.
 
 ## Für verschiedene Währungen zulassen
 

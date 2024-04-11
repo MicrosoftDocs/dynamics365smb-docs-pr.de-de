@@ -5,11 +5,11 @@ author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: client
-ms.date: 04/01/2021
+ms.date: 03/20/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Doppelt Datensätze zusammenführen
+# Doppelte Datensätze zusammenführen
 
 Wenn unterschiedliche Benutzer im Laufe der Zeit neue Debitoren-, Kreditoren- oder Kontaktkarten erstellen, oder die neuen Datensätze automatisch während der Migration erstellt werden, wird ein Debitor, ein Kreditor oder ein Kontakt im System mit mehr als einem Datensatz dargestellt. In diesem Fall können Sie die Seite **Doppelte Datensätze zusammenführen** aus der Karte des Datensatzes verwenden, den Sie erfassen möchten. Die Seite zeigt Ihnen eine Übersicht der duplizierten Feldwerte und bietet Funktionen, um auszuwählen, welche Werte behalten oder verworfen werden, wenn zwei Datensätze zusammengeführt werden.
 
@@ -26,14 +26,14 @@ Das folgende Verfahren basiert auf einer Debitorenkarte. Die Schritte sind für 
 3. Wählen Sie auf der Seite **Debitorenkarte** die Aktion **Zusammenführen mit** aus.
 4. Wählen Sie auf der Seite **Doppelte Datensätze zusammenführen** im Feld **Zusammenführen mit** den Kunden aus, von dem Sie der Meinung sind, dass dies ein Duplikat des von Ihnen geöffneten Datensatzes ist, der im Feld **Aktuell** angezeigt wird.
 
-    Die Inforegisterliste **Felder** zeigt auf, in dem die Werte für die zwei Debitoren abweichen. Das bedeutet, wenn der ausgewählte Debitor tatsächlich ein Duplikat ist, dann können nur sehr wenige Felder aufgeführt werden, wie Eingabefehler und andere Dateneingabefehler.
+    Die Inforegisterliste **Felder** zeigt auf, in dem die Werte für die zwei Debitoren abweichen. Das bedeutet, wenn der ausgewählte Debitor tatsächlich ein Duplikat ist, dann können nur wenige Felder aufgeführt werden, wie Eingabefehler und andere Dateneingabefehler.
 
     Die Inforegisterliste **Zugehörige Tabellen** zeigt Tabellen auf, in denen es Felder mit einer Verbindung zu beiden Debitoren gibt. Die Felder **Aktuelle Anzahl** und **Doppelte Anzahl** zeigen die Anzahl der Felder in den verknüpften Tabellen, bei denen der Wert **Nr.** sowohl des aktuellen als auch des doppelten Kunden verwendet wird. Auf der Seite **Doppelte Datensätze zusammenführen** dient der entsprechende Abschnitt nur der Information. Wenn jedoch Zusammenführungskonflikte vorhanden sind, lösen Sie sie auf der Seite **Doppelte Konflikte zusammenführen**. Siehe Schritte 8 bis 12.   
 
 5. Für jedes Feld, in dem Sie einen anderen Wert als den aktuellen verwenden möchten, wählen Sie das Kontrollkästchen **Außer Kraft setzen** aus. Der Wert im Feld **Alternativer Wert** wird dann in den aktuellen Datensatz übertragen, wenn Sie diesen Vorgang abschließen.
 6. Wenn Sie die Auswahl abgeschlossen haben, welche Werte behalten oder überschrieben werden sollen, wählen Sie die Aktion **Zusammenführen** aus.
 
-    Das System prüft, ob die Zusammenführung von Werten für den doppelten Debitor in den aktuellen Debitor Konflikte verursacht. Es gibt Konflikte, wenn ein Wert in mindestens einem Primärschlüsselfeld für beide Debitoren übereinstimmt, während der Wert im Feld **Nr.** für die zwei Debitoren übereinstimmt.
+    Das System prüft, ob die Zusammenführung von Werten für den doppelten Debitor in den aktuellen Debitor Konflikte verursacht. Es gibt einen Konflikt, wenn ein Wert in mindestens einem Primärschlüsselfeld für beide Debitoren übereinstimmt, während der Wert im Feld **Nr.** für die zwei Debitoren übereinstimmt.
 
 7. Wenn Konflikte nicht gefunden werden, wählen Sie die Schaltfläche **Ja** im Bestätigungsmeldungsfeld aus.
 

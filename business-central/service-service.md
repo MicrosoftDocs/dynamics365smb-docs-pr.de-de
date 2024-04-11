@@ -26,7 +26,7 @@ Zudem können Sie Codierung standardisieren, Verträge einrichten, eine Rabattri
 
 Im Allgemeinen sind beim Servicemanagement zwei Aspekte zu beachten: Konfigurieren und Einrichten des Systems und seine Verwendung für Preisgestaltung, Verträge, Aufträge, Einsatz des Servicepersonals und Projektplaner.  
 
-Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Themen, die sie beschreiben..   
+In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den beschriebenen Themen erläutert.   
 
 |**Aufgabe**|**Siehe**|  
 |------------|-------------|  

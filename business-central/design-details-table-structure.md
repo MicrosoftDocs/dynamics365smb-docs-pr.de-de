@@ -1,6 +1,6 @@
 ---
 title: Designdetails - Tabellenstruktur | Microsoft Docs
-description: 'Um zu erkennen, wie die Dimensionsposten-Einlagerungs- und Buchung neu entwickelt wurde, ist es wichtig, die Tabellenstruktur zu kennen.'
+description: 'Um zu erkennen, wie die Dimensionsposten-Einlagerungs- und -Buchung neu entwickelt wurde, ist es wichtig, die Tabellenstruktur zu kennen.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
@@ -10,24 +10,26 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 # Designdetails: Tabellenstruktur
+
 Um zu erkennen, wie die Dimensionsposten gespeichert und gebucht werden, ist es wichtig, die Tabellenstruktur zu kennen.  
 
 ## Tabelle 480, Dimensionssatzposten  
+
 Sie können den Inhalt dieser Tabelle nicht ändern. Nachdem Daten in die Tabelle geschrieben wurden, können Sie sie nicht löschen oder bearbeiten.
 
-|Feldnr.|Feldname|Datentyp|Bemerkung|  
+|Feldnr.|Feldname|Datentyp|Kommentar|  
 |---------------|----------------|---------------|-------------|  
-|1|**ID**|Ganzzahl|>0,0 wird für den leeren Dimensionssatz reserviert. Referenzfeld 3 in Tabelle 481.|  
+|0|**ID**|Ganzzahl|>0,0 wird für den leeren Dimensionssatz reserviert. Referenzfeld 3 in Tabelle 481.|  
 |2|**Dimensionscode**|Code 20|Tabellenrelation zu Tabelle 348|  
 |3|**Dimensionswertcode**|Code 20|Tabellenrelation zu Tabelle 349.|  
-|4|**Dimensionswert-ID**|Ganzzahl|Referenzfeld 12 in Tabelle 349. Es ist der sekundäre Schlüssel, der verwendet wird, wenn die Tabelle 481 durchläuft.|  
+|4|**Dimensionswert-ID**|Ganzzahl|Referenzfeld 12 in Tabelle 349. Es ist der sekundäre Schlüssel, der verwendet wird, wenn die Tabelle 481 durchläuft.|  
 |5|**Dimensionsname**|Text 30|CalcField. Lookup zu Tabelle 348.|  
 |6|**Dimensionswertname**|Text 30|CalcField. Lookup zu Tabelle 349.|  
 
 ## Tabelle 481, Dimensionssatz-Strukturknoten  
-Sie können den Inhalt dieser Tabelle nicht ändern. Sie wird verwendet, um nach einen Dimensionssatz zu suchen. Wenn der Dimensionssatz nicht gefunden wird, wird ein neuer Satz erstellt.  
+Sie können den Inhalt dieser Tabelle nicht ändern. Sie wird verwendet, um nach einem Dimensionssatz zu suchen. Wenn der Dimensionssatz nicht gefunden wird, wird ein neuer Satz erstellt.  
 
-|Feldnr.|Feldname|Datentyp|Bemerkung|  
+|Feldnr.|Feldname|Datentyp|Kommentar|  
 |---------------|----------------|---------------|-------------|  
 |1|**Übergeordnete Dimensionssatz-ID**|Ganzzahl|0 für Knoten der höchsten Ebene.|  
 |2|**Dimensionswert-ID**|Ganzzahl|Tabellenrelation zu Feld 12 in Tabelle 349.|  
@@ -71,13 +73,13 @@ Zusätzlich zu anderen Dimensionsfeldern in der Tabelle sind diese Felder wichti
 |12|**Dimensionswert-ID**|Ganzzahl|AutoIncrement. Verwendet als Referenzen in Tabelle 480 und in Tabelle 481.|  
 
 ### Tabellen, die Dimensionssatz-ID-Feld enthalten
- Das Feld **Dimensionssatz-ID** (480) ist in den folgenden Tabellen vorhanden. Für die Tabellen, die gebuchte Daten speichern, bietet das Feld nur eine nicht-bearbeitbare Anzeige von Dimensionen, die als DrillDown markiert ist. Für die Tabellen, die Arbeitsdokumente speichern, ist das Feld editierbar. Die Puffertabellen, die intern verwendet werden, benötigen keine bearbeitbaren oder nicht-bearbeitbaren Funktionen.  
+ Das Feld **Dimensionssatz-ID** (480) ist in den folgenden Tabellen vorhanden. Für die Tabellen, die gebuchte Daten speichern, bietet das Feld nur eine nicht bearbeitbare Anzeige von Dimensionen, die als Drilldown gekennzeichnet ist. Für die Tabellen, die Arbeitsdokumente speichern, ist das Feld editierbar. Die Puffertabellen, die intern verwendet werden, benötigen keine bearbeitbaren oder nicht bearbeitbaren Funktionen.  
 
- Feld 480 ist in den folgenden Tabellen nicht editierbar.  
+ Feld 480 ist in den folgenden Tabellen nicht editierbar.  
 
 |Tabellennr.|Tabellenname|  
 |---------------|----------------|  
-|17|**Fibubuchung**|  
+|17|**Sachposten**|  
 |21|**Debitorenposten**|  
 |25|**Kreditorenposten**|  
 |32|**Artikelposten**|  
@@ -140,9 +142,9 @@ Feld 480 ist in den folgenden Tabellen editierbar.
 |89|**Stücklisten-Blattzeile**|  
 |96|**Finanzbudgetposten**|  
 |207|**Res. Buch.-Blattzeile**|  
-|210|**Projekt Buch.-Blattzeile**|  
+|210|**Projekt Buchungsblattzeile**|  
 |221|**Fibu Buch.-Blatt Verteilungen**|  
-|246|**Bestellarbeitsblattszeile**|  
+|246|**Bestellvorschlagszeile**|  
 |295|**Mahnungskopf**|  
 |302|**Zinsrechnungskopf**|  
 |5405|**Fertigungsauftrag**|  
@@ -166,7 +168,7 @@ Feld 480 ist in den folgenden Puffertabellen vorhanden.
 |Tabellennr.|Tabellenname|  
 |---------------|----------------|  
 |49|**Rechnungsbuchungspuffer**|  
-|212|**Projektregulierungspuffer**|  
+|212|**Projektbuchungspuffer**|  
 |372|**Zahlungspuffer**|  
 |382|**Deb.-/Kred.-Postenpuffer**|  
 |461|**Zeilenpuffer Vorauszahlungsrechnung**|  

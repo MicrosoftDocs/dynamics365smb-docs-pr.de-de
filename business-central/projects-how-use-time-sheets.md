@@ -13,11 +13,11 @@ ms.custom: bap-template
 ---
 # Arbeitszeittabellen verwenden
 
-Dieser Artikel beschreibt, wie Sie Arbeitszeittabellen zur Nachverfolgung von Abwesenheit sowie von Zeit und Ressourcen verwenden, die für ein Projekt aufgewendet werden. Die Zeiterfassung hilft Ihnen, Probleme frühzeitig zu erkennen und Verzögerungen oder Kostenüberschreitungen zu vermeiden. Arbeitszeittabellen erleichtern es einer Ressource, die Zeitverwendung für eine Person oder eine Maschine zu melden, so dass Vorgesetzte die Verwendung und deren Zuordnung überprüfen können. 
+Dieser Artikel beschreibt, wie Sie Arbeitszeittabellen zur Nachverfolgung von Abwesenheit sowie von Zeit und Ressourcen verwenden, die für ein Projekt aufgewendet werden. Die Zeiterfassung hilft Ihnen, Probleme frühzeitig zu erkennen und Verzögerungen oder Kostenüberschreitungen zu vermeiden. Arbeitszeittabellen erleichtern es einer Ressource, die Zeitverwendung für eine Person oder eine Maschine zu melden, so dass Vorgesetzte die Verwendung und deren Zuordnung überprüfen können.
 
-Sie können Ihre Projektplanzeilen in die Arbeitszeittabelle kopieren und verwenden. Auf diese Art müssen Sie die Informationen immer nur an einer Stelle eingeben und die Zeileninformationen sind immer korrekt. Weitere Informationern finden Sie unter [So kopieren Sie Projektplanzeilen in eine Arbeitszeittabelle](#copy-job-planning-lines-to-a-time-sheet).
+Sie können Ihre Projektplanzeilen in die Arbeitszeittabelle kopieren und verwenden. Auf diese Art müssen Sie die Informationen immer nur an einer Stelle eingeben und die Zeileninformationen sind immer korrekt. Weitere Informationern finden Sie unter [So kopieren Sie Projektplanzeilen in eine Arbeitszeittabelle](#copy-project-planning-lines-to-a-time-sheet).
 
-Nachdem Sie Arbeitszeittabellenposten für ein Projekt genehmigt haben, können Sie sie in das entsprechende Projekt- oder Ressourcen-Buch.-Blatt buchen. Weitere Informationen finden Sie unter [Buchen von Arbeitszeittabellenzeilen in einem Projektbuchungsblatt](#post-time-sheet-lines-in-a-job-journal) und [Buchen von Arbeitszeittabellenzeilen zu einem Ressourcen-Buch.-Blatt](#post-time-sheet-lines-in-a-resource-journal).
+Nachdem Sie Arbeitszeittabellenposten für ein Projekt genehmigt haben, können Sie sie in das entsprechende Projekt- oder Ressourcen-Buch.-Blatt buchen. Weitere Informationen finden Sie unter [Buchen von Arbeitszeittabellenzeilen in einem Projektbuchungsblatt](#post-time-sheet-lines-in-a-project-journal) und [Buchen von Arbeitszeittabellenzeilen zu einem Ressourcen-Buch.-Blatt](#post-time-sheet-lines-in-a-resource-journal).
 
 Bevor Sie Arbeitszeittabellen verwenden können, müssen Sie Informationen einrichten und einen Administrator und mindestens einen Genehmiger für Arbeitszeittabellen festlegen. Weitere Informationen zum Einrichten von Arbeitszeittabellen finden Sie unter [Arbeitszeittabellen einrichten](projects-how-setup-time-sheets.md).  
 
@@ -26,7 +26,7 @@ Bevor Sie Arbeitszeittabellen verwenden können, müssen Sie Informationen einri
 
 ## Arbeitszeittabellen erstellen
 
-Sie können die Seite **Arbeitszeittabellen erstellen** verwenden, um Arbeitszeittabellen für bestimmte Perioden oder Wochen einzurichten. Nachdem eine Arbeitszeittabelle erstellt wurde, kann der Arbeitszeittabellenbesitzende sie öffnen und den Zeitaufwand für eine Aufgabe erfassen. Sie können auch [die automatische Ausführung der Stapelverarbeitung planen](ui-work-report.md#ScheduleReport).  
+Sie können die Seite **Arbeitszeittabellen erstellen** verwenden, um Arbeitszeittabellen für eine bestimmte Anzahl von Perioden oder Wochen einzurichten. Nachdem eine Arbeitszeittabelle erstellt wurde, kann der Arbeitszeittabellenbesitzer sie öffnen und die Zeit aufzeichnen, die für eine Aufgabe benötigte wurde. Sie können auch [die automatische Ausführung des Stapelprojekts planen](ui-work-report.md#ScheduleReport).  
 
 > [!IMPORTANT]
 > Sie müssen berechtigt sein, Arbeitszeittabellen zu erstellen. Um mehr über Berechtigungen zu erfahren, gehen Sie zu [Einrichten von Arbeitszeittabellen](projects-how-setup-time-sheets.md).
@@ -78,13 +78,13 @@ Falls die Arbeitszeittabelleninformationen von einem Zeitraum zum nächsten glei
 
 Die Zeilen werden kopiert, einschließlich Informationen wie Art und Beschreibung. Wenn beispielsweise die Zeile mit einem Projekt verknüpft ist, wird die **Projektnr.** kopiert. Alle kopierten Zeilen haben den Status **Offen**. Sie können die benutzerdefinierten Zeilen jetzt bei Bedarf ändern.
 
-## So kopieren Sie Projektplanzeilen in eine Arbeitszeittabelle
+## Projektplanzeilen in eine Arbeitszeittabelle kopieren
 
-Die folgende Vorgehensweise beschreibt, wie Projektplanzeilen einer Arbeitszeittabelle enfach hinzugefügt werden können.
+Die folgende Vorgehensweise beschreibt, wie Projektplanzeilen einer Arbeitszeittabelle schnell hinzugefügt werden können.
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Arbeitszeittabellen** ein und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie das Symbol ![Glühbirne, die die „Sie wünschen ...“-Funktion öffnet](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Arbeitszeittabellen** ein und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie auf der Seite **Arbeitszeittabellen** eine Arbeitszeittabelle für den entsprechenden Zeitraum aus.  
-3. Wählen Sie die Aktion **Zeilen von Projektplanung erstellen** aus. Jegliche Projektplanzeilen im Arbeitszeittabellenzeitraum werden in die Arbeitszeittabelle für die Person oder die Maschine unter **Ressourcennummer** kopiert.
+3. Wählen Sie die Aktion **Zeilen anhand der Projektplanung erstellen** aus. Jegliche Projektplanzeilen im Arbeitszeittabellenzeitraum werden in die Arbeitszeittabelle für die Person oder die Maschine unter **Ressourcennummer** kopiert.
 
 ## Um Arbeitstypen festzulegen und einer Arbeitszeittabelle hinzufügen
 
@@ -161,14 +161,14 @@ Nachdem Sie eine Arbeitszeittabelle genehmigt oder abgelehnt haben, kann sie nic
 3. Wählen Sie auf der Seite **Erneut öffnen** die Aktion **Genehmigen** aus, und wählen Sie die Aktion **Alle übermittelten Zeilen**, um alle Zeilen erneut zu öffnen oder **Nur ausgewählte Zeilen**, um nur jene Zeilen erneut zu öffnen, die auf der Seite **Arbeitszeittabelle** ausgewählt wurden.
 4. Wählen Sie die Schaltfläche **OK** aus. Der Status der Arbeitszeittabellen, Zeile oder Zeilen wechselt auf **Übermittelt**.  
 
-## Arbeitszeittabellen nach Projekt anzeigen und genehmigen
+## Arbeitszeittabellen nach Projekt anzeigen und diese genehmigen
 
-Für ein Projekt können Sie eine Person bestimmen, die für das Projekt verantwortlich ist. Diese Informationen sind mit Stundenzettelzeilen verknüpft. Über den Link erhalten Projektmanager eine Liste der zu genehmigenden Stundennachweise. Beispielsweise ist der Team-Projekt-Manager möglicherweise für bestimmte Projekte in Ihrem Unternehmen verantwortlich. In diesem Fall sollte der Manager als die **Verantwortliche Person** auf der Projektkarte festgelegt sein. In dieser Ansicht der Arbeitszeittabelleninformationen, können Sie die Projektaufgaben sehen, die einem Projekt zugeordnet sind, und die verwendete Stundenmenge.
+Für ein Projekt können Sie eine Person bestimmen, die für das Projekt verantwortlich ist. Diese Informationen sind mit Stundenzettelzeilen verknüpft. Über den Link erhalten Projektmanager eine Liste der zu genehmigenden Stundennachweise. Beispielsweise ist der Team-Projekt-Manager möglicherweise für bestimmte Projekte in Ihrem Unternehmen verantwortlich. In diesem Fall sollte der Manager als die **Verantwortliche Person** auf der Projektkartenseite festgelegt sein. In dieser Ansicht der Arbeitszeittabelleninformationen, können Sie die Projektaufgaben sehen, die einem Projekt zugeordnet sind, und die verwendete Stundenmenge.
 
 > [!NOTE]
 > Um Arbeitszeittabellen auf der Seite **Arbeitszeittabelle für Manager nach Projekt** genehmigen zu können, müssen Sie zuerst eine Option **Arbeitszeittabelle nach Projektgenehmigung** auf der Seite **Ressourceseinrichtung** auswählen. Weitere Informationen zu Genehmigungen für Ressourcen finden Sie unter [Ressourcen einrichten](projects-how-setup-resources.md).
 
-### So können Sie Arbeitszeittabellen nach Projekt genehmigen oder ablehnen
+### Arbeitszeittabellen nach Projekt genehmigen oder ablehnen
 
 1. Geben Sie im Feld **Suchen** **Arbeitszeittabelle für Manager nach Projekt** ein, und wählen Sie dann den zugehörigen Link aus. [!INCLUDE[prod_short](includes/prod_short.md)] zeigt eine Liste der Arbeitszeittabellezeilen an, die den Projekten zugeordnet sind, für die Sie verantwortlich sind.
 2. Wählen Sie die Aktion **Genehmigen** und dann die Aktion **Alle übermittelten Zeilen** aus, um alle Zeilen zu genehmigen, oder wählen Sie die Aktion **Nur ausgewählte Zeilen** aus, um nur die Zeilen zu genehmigen, die auf der Seite **Arbeitszeittabelle** ausgewählt wurden.
@@ -180,7 +180,7 @@ Für ein Projekt können Sie eine Person bestimmen, die für das Projekt verantw
 4. Wählen Sie die Schaltfläche **OK**.
 
 > [!NOTE]
-> Nachdem Sie eine Arbeitszeittabelle Zeile für Zeile genehmigt oder abgelehnt haben, können Sie sie auf der Seite **Arbeitszeittabelle** nicht wieder öffnen oder ändern.
+> Nachdem Sie eine Arbeitszeittabellenzeile nach Projekt genehmigt oder abgelehnt haben, können Sie sie auf der Seite **Arbeitszeittabelle** nicht wieder öffnen oder ändern.
 
 ## Buchen von Arbeitszeittabellenzeilen zu einem Ressourcen-Buch.-Blatt
 
@@ -193,19 +193,19 @@ Nachdem Sie Arbeitszeittabellenposten für eine Ressource genehmigt haben, könn
 5. Wählen Sie die Aktion **Buchen** aus.  
 6. Um die Buchung zu überprüfen, wählen Sie die Aktion **Sachposten** aus. Die Seite **Ressourcen-Buch.-Blatt** öffnet sich und die Ergebnisses der Buchung des Ressourcen Buch.-Blattes werden angezeigt.
 
-## Buchen von Arbeitszeittabellenzeilen in einem Ressourcen-Buch.-Blatt
+## Buchen von Arbeitszeittabellenzeilen zu einem Projekt-Buch.-Blatt
 
-Nachdem Sie Arbeitszeittabellenposten für ein Projekt genehmigt haben, können Sie sie in das Projektbuchungsblatt des entsprechenden Projekts buchen.
+Nachdem Sie Arbeitszeittabellenposten für ein Projekt genehmigt haben, können Sie sie in das entsprechende Projekt-Buch.-Blatt buchen.
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Projekt Buch.-Blätter** ein und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie das Symbol ![Glühbirne, die die „Sie wünschen ...“-Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Projekterfassungen** ein und wählen Sie dann den zugehörigen Link aus.  
 2. Wählen Sie die Aktion **Zeilen von Arbeitszeittabellen vorschlagen** aus.  
-3. Füllen Sie auf der Seite **Projekt Buch.-Blattzeilen vorschlagen** die Felder nach Bedarf aus. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] 
-4. Wählen Sie die Schaltfläche **OK**. Einträge für Verbrauch werden im Ressourcen Buch.-Blatt erstellt, in dem Sie die Informationen ändern können.  
+3. Füllen Sie auf der Seite **Projekt Buchungsblattzeilen vorschlagen** die Felder nach Bedarf aus. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] 
+4. Wählen Sie die Schaltfläche **OK** aus. Einträge für Verbrauch werden im Projekt-Buch.-Blatt erstellt, in dem Sie die Informationen ändern können.  
 
     > [!NOTE]  
     > Informationen über den Arbeitstyp und darüber, ob die Arbeit fakturierbar ist, werden aus der Arbeitszeittabellenzeile kopiert. Bei Bedarf können Sie die Anzahl der Stunden reduzieren und eine Teilbuchung durchführen. Wenn Sie die Anzahl reduzieren, dann wird bei der nächsten Auswahl von **Zeilen anhand von Arbeitszeittabellen vorschlagen** eine Zeile mit der Restmenge der Stunden erstellt.  
 5. Wählen Sie die Aktion **Buchen**.  
-6. Um die Buchung zu überprüfen, wählen Sie die Aktion **Sachposten** aus. Die Seite **Projekt-Buch.-Blatt** öffnet die Anzeige des Ergebnisses der Buchung des Ressourcen Buch.-Blattes.
+6. Um die Buchung zu überprüfen, wählen Sie die Aktion **Sachposten** aus. Die Seite **Projektposten** öffnet die Anzeige des Ergebnisses der Buchung des Ressourcen-Buch.-Blattes.
 
 ## Arbeitszeitnachweise archivieren
 
@@ -227,6 +227,5 @@ Nachdem Sie Arbeitszeittabellen gebucht haben, können Sie diese für spätere B
 [Einkauf](purchasing-manage-purchasing.md)  
 [Verkauf](sales-manage-sales.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

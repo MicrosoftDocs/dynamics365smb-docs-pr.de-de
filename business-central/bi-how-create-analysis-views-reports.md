@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'bi, power BI, analysis, KPI'
 ms.search.form: '555, 556, 557, 558, 9372, 9370, 9371'
-ms.date: 09/22/2022
+ms.date: 04/08/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -14,11 +14,11 @@ ms.service: dynamics-365-business-central
 
 Vertriebsmanager müssen regelmäßig den Umsatz, den Bruttogewinn und andere wichtige Vertriebskennzahlen analysieren. Einkäufer interessieren sich eher für die Dynamik des Kaufvolumens, die Leistung der Lieferanten und die Einkaufspreise. Demgegenüber benötigen Logistik- und Lagerbestandsmanager Informationen zu Lagerumsatz, eine Analyse der Lagerbestandsumlagerung und Statistiken zum Lagerwert. Es gibt also keinen Analysebericht, der für alle passt.
 
-Sie können Analyseberichte auf der Grundlage von Datensätzen Ihrer gebuchten Transaktionen anpassen, z.B. Verkäufe, Einkäufe, Transfers und Bestandsanpassungen. In einem anpassbaren Bericht können die Quelldaten, die aus dem Sachkonto (mit den zugehörigen Werteinträgen) stammen, auf sinnvolle, benutzerdefinierte Weise kombiniert, verglichen und dargestellt werden. In diesem Sinne ist der Analysebericht einem PivotTable-Bericht in Microsoft Excel sehr ähnlich.  
+Sie können Analyseberichte auf der Grundlage von Datensätzen Ihrer gebuchten Transaktionen anpassen, z.B. Verkäufe, Einkäufe, Transfers und Bestandsanpassungen. In einem anpassbaren Bericht können die Quelldaten, die aus dem Sachkonto (mit den zugehörigen Werteinträgen) stammen, auf sinnvolle, benutzerdefinierte Weise kombiniert, verglichen und dargestellt werden. In diesem Sinne ähnelt der Analysebericht einem PivotTable-Bericht in Microsoft Excel.  
 
 So können Sie z.B. einen personalisierten Bericht erstellen, der sich auf Ihre Großkunden in Bezug auf den Gesamtproduktumsatz in Mengen und verkauften Mengen, den Bruttogewinn und den prozentualen Bruttogewinn im laufenden Monat konzentriert. Dann können Sie diese Zahlen mit den Ergebnissen der Vormonate oder des gleichen Monats im letzten Jahr vergleichen und Abweichungen berechnen lassen. All dies kann in ein und derselben Ansicht erfolgen, die es Ihnen ermöglicht, zu den Ursachen der identifizierten Problembereiche zu navigieren und sogar das Dropdown-Menü zu wählen, um Details bis hinunter auf die Ebene der einzelnen Transaktionen zu betrachten.  
 
-Der Analysebericht besteht aus den Objekten, die Sie analysieren möchten (z.B. Kunden, Kundengruppen, Verkäufer usw., dargestellt als Zeilen) und den Analyseparametern, d.h. der Art und Weise, wie Sie das Objekt analysieren möchten (z.B. Gewinnberechnungen, periodische Vergleiche von Verkaufsbeträgen und -volumen oder periodische Vergleiche von Ist- und Planzahlen, dargestellt als Spalten). 
+Der Analysebericht besteht aus den Objekten, die Sie analysieren möchten (z. B. Debitoren, Debitorengruppen, Vertriebsmitarbeitende usw., dargestellt als Zeilen) und den Analyseparametern, d. h. der Art und Weise, wie Sie das Objekt analysieren möchten (z. B. Gewinnberechnungen, regelmäßige Vergleiche von Verkaufsbeträgen und -volumen oder regelmäßige Vergleiche von Ist- und Planzahlen, dargestellt als Spalten). 
 
 Zusätzlich zu den Analyseberichten können Sie ähnliche Informationen in Analyseansichten (auf der Grundlage von Dimensionen) erstellen und anzeigen. Erfahren Sie mehr unter [Daten nach Dimensionen analysieren](bi-how-analyze-data-dimension.md).
 
@@ -60,10 +60,10 @@ Sie können z.B. eine Gruppe von Zeilen und mehrere Gruppen von Spaltenlayouts f
 
 Das folgende Verfahren basiert auf den Verkaufsanalyse-Ansichten. Die Schritte sind gleich für Einkaufs- und Bestandsanalyseansichten.
 
-Eine Analysespaltenvorlage enthält eine Reihe von Zeilen, die jeweils eine Analysespalte darstellen, die Sie im Analysebericht haben möchten. Um eine Spalte zu definieren, müssen Sie einer Zeile einen Analysetypcode zuweisen. Dieser Analysetypcode bestimmt den Quelldatentyp in den Artikelposten, auf denen die Analyse basiert. Zu den Quelldaten können Kosten, Verkaufsbeträge oder Mengen und die dazugehörigen Werteinträge gehören. Sie können so viele Spaltenvorlagen festlegen, wie Sie möchten, und diese dann zum Erstellen neuer Analyseberichte verwenden.    
+Eine Analysespaltenvorlage enthält eine Reihe von Zeilen, die jeweils eine Analysespalte darstellen, die Sie im Analysebericht haben möchten. Um eine Spalte festzulegen, müssen Sie einer Zeile einen Analysetypcode zuweisen. Dieser Analysetypcode bestimmt den Quelldatentyp in den Artikelposten, auf denen die Analyse basiert. Zu den Quelldaten können Kosten, Verkaufsbeträge oder Mengen und die dazugehörigen Werteinträge gehören. Sie können so viele Spaltenvorlagen festlegen, wie Sie möchten, und diese dann zum Erstellen neuer Analyseberichte verwenden.    
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol, geben Sie **Vertriebsspaltenvorlagen** ein und wählen Sie dann den entsprechenden Link.  
-2. Wählen Sie die erste leere Zeile aus und füllen Sie die Felder nach Bedarf aus.
+2. Wählen Sie die erste leere Zeile aus und füllen Sie die Felder wie erforderlich aus.
 3. Wählen Sie die Aktion **Spalten** aus.  
 4. Füllen Sie auf der Seite **Analysespalten** die Felder aus, um die Spalten anzugeben, die Sie in Ihrem Analysebericht haben möchten.  
 
@@ -80,7 +80,7 @@ Das folgende Verfahren basiert auf Analyseberichten für Aufträge. Die Schritte
 Eine Analysezeilenvorlage enthält eine Reihe von Zeilen, die jeweils eine von Ihnen gewünschte Analysezeile im Analysebericht darstellen. Eine Zeile kann für einen oder mehrere Artikel, Debitoren, Kreditoren oder Gruppen stehen. Sie können in einer Zeile auch eine Formel erzeugen, mit der die anderen Zeilen zusammengezählt werden. Sie können so viele Zeilenvorlagen festlegen, wie Sie möchten, und diese dann zum Erstellen neuer Analyseberichte verwenden.   
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol, geben Sie **Vertriebszeilen-Vorlagen** ein und wählen Sie dann den entsprechenden Link.  
-2. Wählen Sie die erste leere Zeile aus, und füllen Sie dann die Felder nach Bedarf aus.
+2. Wählen Sie die erste leere Linie und füllen Sie die notwendigen Felder aus.
 3. Wählen Sie die Aktion **Zeilen** aus.  
 4. Erstellen Sie auf der Seite **Analysezeilen** Zeilen für die Artikel, Debitoren, Kreditioren oder Verkäufer, für die Sie Zahlen im Analysebericht anzeigen möchten. Sie müssen das Feld **Art**, das Feld **Bereich** und das Feld **Beschreibung** ausfüllen.  
 
@@ -95,7 +95,7 @@ Mit Analyseberichten können Sie die Dynamik Ihrer Verkäufe anhand von wichtige
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol, geben Sie **Verkaufsanalyseberichte** ein, und wählen Sie dann den entsprechenden Link.  
 2. Wählen Sie auf der Seite **Analyseberichtsverkauf** die Aktion **Neu** aus.
-3. Füllen Sie die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Wählen Sie die **Analysebericht bearbeiten** Aktion aus.
 5. Wählen Sie auf der Seite **Analyseansichtsliste** die Aktion **Matrix anzeigen** aus.  
 

@@ -35,7 +35,7 @@ Um ein einfaches Preismodell zu verwenden, müssen Sie nur einen Stückpreis ang
 * Mindestmenge
 * Daten, die den Zeitraum definieren, für den die Preise gültig sind.
 
-Nachdem Sie Sonderpreise eingerichtet haben, kann [!INCLUDE[prod_short](includes/prod_short.md)] den besten Preis für Verkaufs- und Einkaufsbelege sowie für Zeilen in der Auftrags- und Artikelerfassung berechnen. Erfahren Sie mehr unter [Bestpreisberechnung](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
+Nachdem Sie Sonderpreise eingerichtet haben, kann [!INCLUDE[prod_short](includes/prod_short.md)] den besten Preis für Verkaufs- und Einkaufsbelege sowie für Zeilen in der Projekt- und Artikelerfassung berechnen. Erfahren Sie mehr unter [Bestpreisberechnung](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
 
 Für Verkaufsrabatte können Sie zwei Arten einrichten:
 
@@ -223,7 +223,7 @@ Um die Preise für mehrere Artikel zu aktualisieren, müssen Sie eine neue Preis
 
 ## Berechnung des besten Preises
 
-Nachdem Sie Sonderpreise und Zeilenrabatte für Verkäufe und Käufe erfasst haben,, berechnet [!INCLUDE[prod_short](includes/prod_short.md)] den besten Preis für Verkaufs- und Einkaufsbelege sowie für Auftrags- und Artikelerfassungszeilen berechnen.
+Nachdem Sie Sonderpreise und Zeilenrabatte für Verkäufe und Käufe erfasst haben,, berechnet [!INCLUDE[prod_short](includes/prod_short.md)] den besten Preis für Verkaufs- und Einkaufsbelege sowie für Projekt- und Artikelbuchungsblattzeilen berechnen.
 
 Der beste Preis ist der niedrigste Preis mit dem höchsten Zeilenrabatt an einem bestimmten Datum. [!INCLUDE[prod_short](includes/prod_short.md)] berechnet die besten Preise, wenn Sie den Verkaufspreis und die prozentualen Zeilenrabatte für Artikel auf neuen Beleg- und Buch.-Blattzeilen eingefügt haben.
 

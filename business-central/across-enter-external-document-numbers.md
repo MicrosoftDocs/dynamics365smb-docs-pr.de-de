@@ -5,7 +5,7 @@ author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
-ms.date: 05/28/2021
+ms.date: 03/21/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---

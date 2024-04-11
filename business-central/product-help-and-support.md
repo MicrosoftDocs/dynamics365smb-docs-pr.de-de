@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.topic: conceptual
 ms.search.form: HelpAndSupport
 ms.author: bholtorf
-ms.date: 09/28/2023
+ms.date: 02/27/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
@@ -17,9 +17,20 @@ ms.service: dynamics-365-business-central
 
 Organisationen, die [!INCLUDE[prod_long](includes/prod_long.md)] verwenden, können technischen Support für alle auftretenden Probleme erhalten. In diesem Artikel zeigen wir Ihnen die folgenden Informationen und viele weitere Tipps zur Verwendung von [!INCLUDE[prod_short](includes/prod_short.md)]:
 
+- Weitere Informationen darüber, wie Ihr KI-gestützter Assistent [anleiten und erklären kann](#chat-with-copilot)
 - Erfahren Sie, wie Sie [die Blockierung aufheben können](#in-product-tips)  
-- Erfahren Sie, wo Sie [weitere Informationen erhalten](#help-pane)    
-- Erfahren Sie, wie Sie [die technischen Informationen](#help--support-page) finden, die Sie zum Einreichen einer Supportanforderung benötigen    
+- Erfahren Sie, wo Sie [weitere Informationen erhalten](#help-pane)
+- Erfahren Sie, wie Sie [die technischen Informationen](#help--support-page) finden, die Sie zum Einreichen einer Supportanforderung benötigen
+
+## Chat mit Copilot
+
+[!INCLUDE [online_only](includes/online_only.md)]
+
+„Chat mit Copilot“ ist ein KI-gestütztes Tool, das Fragen beantwortet und Geschäftsdaten im Zusammenhang mit Business Central findet. Es ist auf jeder Seite verfügbar, indem Sie in der oberen rechten Ecke das Symbol ![Zeigt das Symbol für den Chat mit Copilot](media/chat-copilot-icon.png) **Copilot** auswählen. [Weitere Informationen über „Chat mit Copilot“](chat-with-copilot.md).
+
+### Hilfe bei Feldern
+
+Copilot kann Ihnen helfen, den Zweck und die typische Verwendung einzelner Felder zu verstehen. Wenn Sie in einer QuickInfo für ein Feld die Option **Copilot fragen** auswählen, wird der Chat mit einer Erläuterungsaufforderung für den Feldnamen geöffnet und Copilot stellt Informationen dazu bereit. Copilot verlinkt auf die Artikel, auf die es verwiesen hat, sodass die Beschreibung leicht überprüft werden kann.
 
 ## Produktinterne Tipps
 
@@ -35,14 +46,9 @@ In [!INCLUDE [prod_short](includes/prod_short.md)] haben Sie über das Element H
 
 Die folgende Liste beschreibt, wie Sie auf das Hilfefenster zugreifen können und ob ihm Karten hinzugefügt wurden:
 
-- Wählen Sie den *Mehr erfahren*-Link auf einem QuickInfo für ein Feld
-
-  Die folgende Karte wird dem Hilfebereich hinzugefügt:
-
-  - Die QuickInfo des Feldes
-- Wählen Sie den *Mehr erfahren*-Link auf einem QuickInfo für eine Aktion
 - Wählen Sie den Hilfe-Menüpunkt (das Fragezeichen in der oberen rechten Ecke)
 - Verwenden Sie von überall aus die Tastenkombination <kbd>STRG</kbd>+<kbd>F1</kbd>
+- Wählen Sie den *Mehr erfahren*-Link auf einem QuickInfo für ein Feld aus, sofern verfügbar. Der Link *Weitere Informationen* ist nur in der mobilen App oder für benutzerdefinierte Felder (d. h. Felder aus Nicht-Microsoft-Erweiterungen) im Web-Client verfügbar.
 
 > [!TIP]
 > Wenn Sie einen Link auswählen, wird der Zielartikel in einer neuen Browser-Registerkarte geöffnet. Sie können dann die Browser-Registerkarte abdocken, um die relevanten Informationen Seite an Seite mit [!INCLUDE [prod_short](includes/prod_short.md)] zu sehen. Das Fenster bleibt geöffnet, während Sie durch [!INCLUDE [prod_short](includes/prod_short.md)] navigieren, sodass der von Ihnen gesuchte Inhalt sichtbar bleibt.  

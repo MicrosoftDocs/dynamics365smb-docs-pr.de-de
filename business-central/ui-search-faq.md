@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.service: dynamics-365-business-central
 ms.search.keywords: 'find, search, Tell Me'
 ms.search.form: TellMe
-ms.date: 09/21/2023
+ms.date: 03/20/2024
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.custom: bap-template
@@ -41,7 +41,7 @@ Sie können „Wie möchten Sie weiter verfahren“ mit dem lokalen Webclient ve
 
 ## Ist „Wie möchten Sie weiter verfahren“ für alle Formularfaktoren verfügbar?
 
-Ja. Es wurde auf Telefonen und Tablets im 2. Veröffentlichungszyklus von Business Central 2023 eingeführt, muss jedoch in der [Funktionsverwaltung](/dynamics365/business-central/dev-itpro/administration/feature-management) mit dem **Feature: Nach Seiten und Daten in der mobilen App suchen** aktiviert werden. 
+Ja. Es wurde im 2. Veröffentlichungszyklus von Business Central 2023 auf Smartphones und Tablets eingeführt. Im Veröffentlichungszyklus 2 2023 muss dies in der [Funktionsverwaltung](/dynamics365/business-central/dev-itpro/administration/feature-management) mit dem Schalter **Feature: Nach Seiten und Daten in der mobilen App suchen** eingeschaltet werden. Im 1. Veröffentlichungszyklus 2024 und später ist es immer aktiviert.
 
 <!-- removed in v20 because of Help pane
 ### Are the documentation results available in any language?

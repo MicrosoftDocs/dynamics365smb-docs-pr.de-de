@@ -1,18 +1,18 @@
 ---
-title: Verkaufsangebote machen
+title: Verkaufsangebote erstellen
 description: 'Lesen Sie, wie Sie ein Verkaufsangebot oder einen Beleg für eine Angebotsanfrage (RFQ) erstellen, um Ihr Angebot an einen Debitor oder Interessenten zum Verkauf von Produkten zu bestimmten Bedingungen zu erstellen.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: rfq
 ms.search.form: '41, 9300'
-ms.date: 07/12/2021
+ms.date: 02/05/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Verkaufsangebote machen
+# Verkaufsangebote erstellen
 
-Sie erstellen ein Verkaufsangebot, um Ihren Datensatz an einen Debitor oder Interessenten zu erstellen, um bestimmte Produkte zu bestimmten Liefer- und Zahlungsbedingungen zu verkaufen. Sie können das Verkaufsangebot an den Debitor senden, um das Angebot mitzuteilen. Sie können den Beleg als PDF-Dateianhang senden. Sie können den E-Mail-Text auch, der mit einer Zusammenfassung des Angebots vorab ausgefüllt wurde. Weitere Informationen finden Sie unter [Senden von Dkumenten über E-Mail](ui-how-send-documents-email.md).
+Sie erstellen ein Verkaufsangebot, um Ihren Datensatz an einen Debitor oder Interessenten zu erstellen, um bestimmte Produkte zu bestimmten Liefer- und Zahlungsbedingungen zu verkaufen. Sie können das Verkaufsangebot an den Debitor senden, um das Angebot mitzuteilen. Sie können den Beleg als PDF-Dateianhang senden. Sie können den E-Mail-Text auch, der mit einer Zusammenfassung des Angebots vorab ausgefüllt wurde. Weitere Informationen finden Sie unter [Senden von Dkumenten über E-Mail](ui-how-send-documents-email.md#to-send-documents-by-email).
 
 Während Sie mit dem Kunden oder Interessenten verhandeln, können Sie das Verkaufsangebot so oft wie nötig ändern und erneut versenden. Wenn der Debitor das Angebot annimmt, wandeln Sie das Verkaufsangebot in eine Verkaufsrechnung, in der Sie den Verkauf verarbeiten. Weitere Informationen finden Sie unter [Fakturieren eines Verkaufs](sales-how-invoice-sales.md) und [Neue Produkte verkaufen](sales-how-sell-products.md).
 
@@ -40,11 +40,11 @@ In den meisten Fällen senden Sie Verkaufsangebote an potenzielle Kunden. Sie ha
 
 3. Füllen Sie auf der Seite **Verkaufsangebot** die Felder wie benötigt aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-    Jetzt können Sie die Verkaufszeilen für die Produkte, die Sie verkaufen, oder für jede Transaktion mit dem Kunden oder Interessenten, die Sie in einem Sachkonto aufzeichnen wollen, ausfüllen.  
+    Jetzt können Sie die Verkaufszeilen für die Produkte, die Sie verkaufen, oder für jede Transaktion mit dem Debitoren oder der interessierten Person, die Sie in einem Sachkonto aufzeichnen wollen, ausfüllen.  
 
     Wenn Sie wiederkehrende Verkaufszeilen für den Debitor wie einen Monatsersatzauftrag, eingerichtet haben, können Sie diese Zeilen auf der Rechnung durch Auswählen der Schaltfläche **Wiederkehrende Verkaufszeilen holen** einfügen.  
 
-4. Wählen Sie im Inforegister **Zeilen** im Feld **Art** aus, welche Art des Produkts, der Kosten oder der Transaktion Sie für den Debitor mit der Verkaufszeile buchen werden.
+4. Wählen Sie auf dem Inforegister **Zeilen** im Feld **Typ** aus, welche Art von Produkt, Gebühr oder Transaktion Sie für den Debitoren mit der Verkaufszeile buchen möchten.
 5. Geben Sie im Feld **Nr.** Feld, einen Datensatz auswählen, um entsprechend dem Wert im Feld **Art** zu buchen.
 
     Sie lassen das **Nr.** Feld ist in folgenden Fällen leer:
@@ -73,7 +73,7 @@ In den meisten Fällen senden Sie Verkaufsangebote an potenzielle Kunden. Sie ha
     > Um **Angebot gültig bis Datum** haben, die automatisch mit einigen Tage nach Angebotserstellung ausgefüllt ist, können Sie das **Angebots-Gültigkeits-Berechnung** auf der Seite **Debitoren & Verkauf** ausfüllen.
 
 10. Wenn die Verkaufsangebotszeilen ausgeführt werden, wählen Sie die Aktion **Per E-Mail senden** aus.
-11. Auf der Seite **E-Mail senden** füllen Sie die restlichen Felder aus und überprüfen Sie das eingebettete Verkaufsangebot. Weitere Informationen finden Sie unter [Dokumente per E-Mail versenden](ui-how-send-documents-email.md).
+11. Auf der Seite **E-Mail senden** füllen Sie die restlichen Felder aus und überprüfen Sie das eingebettete Verkaufsangebot. Weitere Informationen finden Sie unter [Dokumente per E-Mail versenden](ui-how-send-documents-email.md#to-send-documents-by-email).
 12. Wenn der Kontakt das Angebot annimmt, wählen Sie die Aktion **Bestellung vornehmen**.  
 
     Alternativ, wenn Ihr Unternehmen diesen Prozess bevorzugt, wählen Sie die Aktion **Rechnung erstellen**.  
@@ -85,7 +85,7 @@ In den meisten Fällen senden Sie Verkaufsangebote an potenzielle Kunden. Sie ha
     >  - Konvertieren Sie den Kontakt oder Interessenten in einen Debitor, indem Sie eine der Kontaktkonvertierungsvorlagen auswählen. Weitere Informationen finden Sie unter [So erstellen Sie einen Kontakt als Debitor, Kreditor , Mitarbeiter oder Bankkonto von einem Kontakt](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).  
     > - Bestätigen Sie die Umwandlung des Angebots in einen Auftrag.
 
-Durch die Umwandlung wird das Verkaufsangebot aus der Datenbank entfernt. Eine Verkaufsrechnung oder ein Verkaufsauftrag wird auf der Basis der Informationen im Verkaufsangebot erstellt, damit Sie den Verkauf verarbeiten können. In der erstellten Verkaufsrechnung gibt das Feld **Angebotsnr.** die Nummer des Verkaufsauftrags oder der Rechnung  n, aus dem sie erstellt wurde. Weitere Informationen finden Sie unter [Fakturieren eines Verkaufs](sales-how-invoice-sales.md) und [Neue Produkte verkaufen](sales-how-sell-products.md).  
+Durch die Umwandlung wird das Verkaufsangebot aus der Datenbank entfernt. Eine Verkaufsrechnung oder ein Verkaufsauftrag wird auf der Basis der Informationen im Verkaufsangebot erstellt, damit Sie den Verkauf verarbeiten können. In der erstellten Verkaufsrechnung gibt das Feld **Angebotsnr.** die Nummer des Verkaufsauftrags oder der Verkaufsrechnung, aus dem bzw. der sie erstellt wurde. Weitere Informationen finden Sie unter [Fakturieren eines Verkaufs](sales-how-invoice-sales.md) und [Neue Produkte verkaufen](sales-how-sell-products.md).  
 
 ## Externe Belegnummer
 
@@ -95,7 +95,7 @@ Durch die Umwandlung wird das Verkaufsangebot aus der Datenbank entfernt. Eine V
 
 [Verkauf](sales-manage-sales.md)  
 [Einrichten von Verkäufen](sales-setup-sales.md)  
-[Belege per E-Mail senden](ui-how-send-documents-email.md)  
+[Belege per E-Mail senden](ui-how-send-documents-email.md#to-send-documents-by-email)  
 [Belege archivieren](across-how-to-archive-documents.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

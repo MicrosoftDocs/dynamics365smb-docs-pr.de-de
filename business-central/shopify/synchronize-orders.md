@@ -1,13 +1,13 @@
 ---
 title: Verkaufsaufträge synchronisieren und erfüllen
 description: Nehmen Sie die Einrichtung und Ausführung des Imports und die Verarbeitung von Verkaufsaufträgen über Shopify vor.
-ms.date: 06/06/2023
+ms.date: 03/25/2024
 ms.topic: article
 ms.service: dynamics-365-business-central
 ms.search.form: '30110, 30111, 30112, 30113, 30114, 30115, 30121, 30122, 30123, 30128, 30129, 30150, 30151, 30145, 30147'
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bholtorf
+ms.reviewer: andreipa
 ---
 
 # Verkaufsaufträge synchronisieren und erfüllen
@@ -30,10 +30,12 @@ Aktivieren Sie **Aufträge automatisch erstellen**, um automatisch Verkaufsauftr
 
 Wenn Sie einen Verkaufsbeleg automatisch freigeben möchten, aktivieren Sie die Umschaltung **Kundenauftrag automatisch freigeben**.
 
+Wenn Sie keine automatischen Versandbestätigungen an die Kundschaft senden möchten, deaktivieren Sie den Schalter **Versandbestätigung senden**. Das Ausschalten des Schalters kann nützlich sein, wenn Sie digitale Güter verkaufen oder einen anderen Benachrichtigungsmechanismus verwenden möchten.
+
 Wenn Sie das Feld **Shopify-Auftragsnummer in Belegzeile** auswählen, fügt [!INCLUDE [prod_short](../includes/prod_short.md)] Verkaufszeilen vom Typ **Kommentar** mit der Shopify-Auftragsnummer ein.
 
->[!NOTE]
->Der Verkaufsbeleg in [!INCLUDE[prod_short](../includes/prod_short.md)] ist mit dem Shopify-Auftrag verknüpft, und Sie können die **Shopify-Auftragsnummer** hinzufügen Fügen Sie das Feld der Liste oder den Kartenseiten für Verkaufsaufträge, Rechnungen und Lieferungen hinzu. Um mehr über das Hinzufügen eines Felds zu erfahren, gehen Sie zu [Beginnen Sie mit der Personalisierung, indem Sie den Personalisierungsmodus verwenden](../ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode). 
+> [!NOTE]
+> Der Verkaufsbeleg in [!INCLUDE[prod_short](../includes/prod_short.md)] ist mit dem Shopify-Auftrag verknüpft, und Sie können die **Shopify-Auftragsnummer** hinzufügen Fügen Sie das Feld der Liste oder den Kartenseiten für Verkaufsaufträge, Rechnungen und Lieferungen hinzu. Um mehr über das Hinzufügen eines Felds zu erfahren, gehen Sie zu [Beginnen Sie mit der Personalisierung, indem Sie den Personalisierungsmodus verwenden](../ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode). 
 
 Im Feld **Steuergebiet Priorität** können Sie die Priorität für die Auswahl des Steuergebietscodes auf Adressen in Aufträgen festlegen. Der von Ihnen importierte Shopify-Auftrag enthält Informationen zu Steuern. Die Steuern werden neu berechnet, wenn Sie Verkaufsbelege erstellen. Daher ist es wichtig, dass die MwSt.- oder Steuereinstellungen in [!INCLUDE[prod_short](../includes/prod_short.md)] korrekt sind. Weitere Informationen über Steuern finden Sie unter [Steuern für die Shopify-Verbindung festlegen](setup-taxes.md).
 
@@ -131,7 +133,11 @@ Die Seite **Zu importierender Shopify Auftrag** hilft bei der Behebung von Probl
 Sobald der Import abgeschlossen ist, können Sie die Shopify-Bestellung durchsuchen und alle zugehörigen Informationen finden, wie z.B. die Transaktionen, die Versandkosten, die Risikostufe, die Bestellattribute und Tags oder die Erfüllungen, wenn die Bestellung bereits in Shopify erfüllt wurde. Sie können auch alle an den Debitor gesendeten Auftragsbestätigungen anzeigen, indem Sie die Aktion **Shopify-Statusseite** auswählen.
 
 > [!NOTE]  
-> Sie können direkt zum Fenster **Shopify Bestellungen** navigieren und sehen dort Bestellungen mit dem Status *offen* aus allen Geschäften. Um abgeschlossene Bestellungen zu überprüfen, müssen Sie die Seite **Shopify Bestellungen** aus dem jeweiligen **Shopify Shop Card** Fenster öffnen.
+> Sie können direkt zum Fenster **Shopify Bestellungen** navigieren und sehen dort Bestellungen mit dem Status *offen* aus allen Geschäften. Um abgeschlossene Aufträge zu überprüfen, müssen Sie die Seite **Shopify-Aufträge** aus der jeweiligen Seite **Shopify Shop-Karte** öffnen.
+
+Bevor Verkaufsbelege in [!INCLUDE[prod_short](../includes/prod_short.md)] erstellt werden, können Sie mit der Aktion **Auftrag von Shopify synchronisieren** auf der Seite **Shopify-Auftrag** bestimmte Aufträge erneut importieren.
+
+Sie können einen Auftrag auch als bezahlt markieren, was in einem B2B-Szenario nützlich ist, in dem Zahlungen außerhalb des Shopify-Checkouts abgewickelt werden. Wählen Sie die Aktion **Als bezahlt markieren** auf der Seite **Shopify-Auftrag** aus. Sie können einen Auftrag auch als storniert markieren, um den Rückerstattungs-Flow in Shopify zu starten. Wählen Sie auf der Seite **Shopify-Auftrag** die Aktion **Auftrag stornieren** aus und füllen Sie auf der Seite **Shopify--Auftrag stornieren** die erforderlichen Felder aus und drücken Sie **OK**. Sie müssen die Auftragssynchronisierung ausführen, um die Aktualisierungen in [!INCLUDE[prod_short](../includes/prod_short.md)] zu importieren.
 
 ## Verkaufsbelege in Business Central erstellen
 
@@ -147,15 +153,17 @@ Wenn die Option **Automatische Erstellung von Aufträgen** auf der **Shopify Sho
 
 Wenn die Shopify Bestellung erfüllt werden muss, wird ein **Verkaufsauftrag** erstellt. Für erfüllte Shopify-Bestellungen, z.B. solche, die nur eine Geschenkkarte enthalten oder die bereits in Shopify behandelt werden, wird eine **Verkaufsrechnung** erstellt.
 
-Ein Verkaufsbeleg ist nun erstellt und kann mit Standarfunktionen von [!INCLUDE[prod_short](../includes/prod_short.md)] verwaltet werden.
+Ein Verkaufsbeleg ist erstellt und kann mit Standarfunktionen von [!INCLUDE[prod_short](../includes/prod_short.md)] verwaltet werden.
+
+Wenn Sie Verkaufsbelege neu anlegen möchten, können Sie dies mit der Aktion **Verknüpfung verarbeiteter Belege aufheben** auf der Seite **Shopify-Auftrag** aus. Beachten Sie, dass durch diese Aktion der bereits erstellte Verkaufsbeleg nicht gelöscht wird. Sie müssen ihn manuell verarbeiten.
 
 ### Fehlende Debitoren verwalten
 
-Wenn Ihre Einstellungen die automatische Erstellung eines Debitors verhindern und kein entsprechender vorhandener Debitor gefunden werden kann, müssen Sie der Shopify-Bestellung manuell einen Debitor zuweisen. Es gibt einige Möglichkeiten, dies zu tun:
+Wenn Ihre Einstellungen die automatische Erstellung eines Debitors verhindern und kein übereinstimmender Debitor gefunden werden kann, müssen Sie dem Shopify-Auftrag manuell einen Debitor zuweisen. Es gibt verschiedene Möglichkeiten, der Kundschaft Aufträge zuzuordnen:
 
-* Sie können die **Verk. an Deb.-Nr.** und **Rechnung an Debitor Nr.** direkt auf der Seite **Shopify-Bestellungen** zuweisen, indem Sie einen Debitor aus der Liste der vorhandenen Debitoren auswählen.
-* Sie können einen Kundenvorlagencode auswählen, erstellen und dann den Kunden über die Aktion **Neuen Kunden erstellen** auf der Seite **Shopify Aufträge** zuordnen. Beachten Sie, dass der Shopify-Debitor über mindestens eine Adresse verfügen muss. Bei Aufträgen, die über den Shopify-Vertriebskanal POS erstellt wurden, fehlen häufig Adressangaben.
-* Sie können einen bestehenden Debitor dem zugehörigen **Shopify Kunden** im Fenster **Shopify Kunden** zuordnen und dann die Aktion **Zuordnung finden** auf der Seite **Shopify Aufträge** wählen.
+* Weisen Sie dies zu: **Verk. an Deb.-Nr.** und **Rechnung an Debitor Nr.** direkt auf der Seite **Shopify-Bestellungen** zuweisen, indem Sie einen Debitor aus der Liste der vorhandenen Debitoren auswählen.
+* Wählen Sie eine Kundenvorlage aus, erstellen Sie den Debitoren und weisen Sie sie dann über die Aktion **Neuen Kunden erstellen** auf der Seite **Shopify-Aufträge** zu. Der Shopify-Debitor über mindestens eine Adresse verfügen muss. Bei Aufträgen, die über den Shopify-Vertriebskanal POS erstellt wurden, fehlen häufig Adressangaben.
+* Ordnen Sie einen bestehenden Debitor dem zugehörigen **Shopify-Kunden** auf der Seite **Shopify-Kunden** zu und wählen Sie dann die Aktion **Zuordnung finden** auf der Seite **Shopify-Aufträge** aus.
 
 ### Wie der Konnektor auswählt, welcher Kunde verwendet werden soll
 
@@ -172,6 +180,8 @@ Die nächsten Schritte hängen von der **Kundenzuordnung Typ** ab.
 
 > [!NOTE]  
 > Der Konnektor verwendet die Informationen aus der Rechnungsadresse und erstellt den Rechnungsempfänger in [!INCLUDE[prod_short](../includes/prod_short.md)]. Der Verk. an Debitor ist derselbe wie Rechnung an Debitor.
+
+Für B2B-Aufträge ist der Flow ähnlich, obwohl Konnektor die Felder **Standardmandantennr.**, **Mandantenimport aus Shopify**, **Mandantenzuordnungstyp** auf der Seite **Shopify Shop-Karte** verwendet. Beachten Sie, dass es keine **Standardmandantennr.** in der **Shopify-Kundenvorlage** gibt, da im B2B-Bereich erwartet wird, dass es benannte Debitoren gibt.
 
 ### Unterschiedliche Bearbeitungsregeln für Aufträge
 
@@ -199,27 +209,32 @@ Jede Auftragswarteschlange importiert und verarbeitet Aufträge innerhalb der de
 
 In Shopify:
 
-|Bearbeiten|Auswirkung auf bereits importierte Bestellung|Auswirkungen auf Bestellungen, die zum ersten Mal importiert werden|
+|Bearbeiten|Auswirkungen auf Shopify-Aufträge wurden noch nicht in [!INCLUDE[prod_short](../includes/prod_short.md)] bearbeitet | Auswirkungen auf Shopify-Aufträge wurden bereits in [!INCLUDE[prod_short](../includes/prod_short.md)] bearbeitet |
 |------|-----------|-----------|
-|Den Erfüllungsort ändern | Ursprünglicher Standort ist in Linien | Der Fulfillment-Standort ist synchronisiert [!INCLUDE[prod_short](../includes/prod_short.md)].|
-|Bearbeiten Sie eine Bestellung und erhöhen Sie die Menge| Der Auftragskopf und die Zusatztabellen werden in [!INCLUDE[prod_short](../includes/prod_short.md)] aktualisiert, die Zeilen nicht.| Die importierte Bestellung verwendet eine neue Menge|
-|Bearbeiten Sie eine Bestellung und verringern Sie die Menge| Der Auftragskopf und die Zusatztabellen werden in [!INCLUDE[prod_short](../includes/prod_short.md)] aktualisiert, die Zeilen nicht.| Die importierte Bestellung verwendet die ursprüngliche Menge, das Feld „Erfüllbare Menge“ enthält einen neuen Wert.|
-|Bearbeiten Sie eine Bestellung und entfernen Sie einen bestehenden Artikel | Der Auftragskopf und die Zusatztabellen werden in [!INCLUDE[prod_short](../includes/prod_short.md)] aktualisiert, die Zeilen nicht.| Entfernte Artikel werden weiterhin importiert, das Feld Erfüllbare Menge Null enthält. |
-|Bearbeiten Sie eine Bestellung und fügen Sie einen neuen Artikel hinzu | Der Auftragskopf wird aktualisiert, die Zeilen nicht. | Ursprüngliche und hinzugefügte Elemente werden importiert. |
-|Bestellung bearbeiten: ausführen, Zahlungsinformationen aktualisieren | Der Auftragskopf wird aktualisiert, aber die Zeilen nicht. |Die Änderung hat keinen Einfluss darauf, wie die Bestellung importiert wird.|
-|Auftrag stornieren | Der Auftragskopf wird aktualisiert, aber die Zeilen nicht. |Stornierte Bestellung wird nicht importiert |
+|Den Erfüllungsort ändern | Der Fulfillment-Standort ist synchronisiert [!INCLUDE[prod_short](../includes/prod_short.md)]. | Der Auftragserfüllungs-Standort ist mit [!INCLUDE[prod_short](../includes/prod_short.md)] synchronisiert.|
+|Bearbeiten Sie eine Bestellung und erhöhen Sie die Menge|Der importierte Auftrag verwendet eine neue Menge.| Der Connector erkennt Änderungen und markiert Aufträge. |
+|Bearbeiten Sie eine Bestellung und verringern Sie die Menge|Der importierte Auftrag verwendet eine neue Menge. Eine Shopify-Rückerstattung mit einem Betrag von 0 wird importiert, der nicht in eine Gutschrift umgewandelt werden kann.| Der Connector erkennt Änderungen und markiert Aufträge. |
+|Bearbeiten Sie eine Bestellung und entfernen Sie einen bestehenden Artikel |Entfernte Artikel werden nicht importiert. Eine Shopify-Rückerstattung mit einem Betrag von 0 wird importiert, der nicht in eine Gutschrift umgewandelt werden kann.| Der Connector erkennt Änderungen und markiert Aufträge. |
+|Bearbeiten Sie eine Bestellung und fügen Sie einen neuen Artikel hinzu | Ursprüngliche und hinzugefügte Elemente werden importiert. | Der Connector erkennt Änderungen und markiert Aufträge. |
+|Bestellung bearbeiten: ausführen, Zahlungsinformationen aktualisieren | Der Auftragskopf wird aktualisiert. |Der Auftragskopf wird aktualisiert. Die Erfüllung wird nicht mit Shopify synchronisiert.|
+|Bezahlten Auftrag stornieren | Der Auftragskopf wird aktualisiert und muss separat verarbeitet werden |Der Connector erkennt Änderungen und markiert Aufträge. |
+|Unbezahlten Auftrag stornieren | Entfernte Artikel werden nicht importiert. Eine Shopify-Rückerstattung mit einem Betrag von 0 wird importiert, der nicht in eine Gutschrift umgewandelt werden kann. |Der Connector erkennt Änderungen und markiert Aufträge. |
 
-Wie Sie sehen, kann es in manchen Fällen sinnvoll sein, einen bearbeiteten Auftrag in [!INCLUDE[prod_short](../includes/prod_short.md)] zu löschen und als neu zu importieren.
+Falls der Auftrag bereits in [!INCLUDE[prod_short](../includes/prod_short.md)] verarbeitet wurde, zeigt der Konnektor die folgende Fehlermeldung an: *Der Auftrag wurde bereits in Business Central verarbeitet, aber es wurde eine Ausgabe von Shopify empfangen. Die Änderungen wurden nicht in den verarbeiteten Auftrag in Business Central übernommen. Aktualisieren Sie die verarbeiteten Dokumente, damit sie mit den empfangenen Daten von Shopify übereinstimmen. Wenn Sie die Synchronisierung erzwingen möchten, verwenden Sie die Aktion „Aufträge von Shopify synchronisieren“ auf der Shopify-Bestellkartenseite.*
+
+Abhängig vom Status des erstellten Verkaufsbelegs können Sie folgende Aktionen ausführen:
+1. Erstellten Verkaufsbeleg löschen
+2. Wählen Sie die Aktion **Verknüpfung verarbeiteter Belege aufheben** aus, um den Indikator **Verarbeitet** zurückzusetzen.
+3. Wählen Sie die Aktion **Auftrag von Shopify synchronisieren** zum Aktualisieren einzelner Bestellungen mit aktuellen Daten von Shopify aus.
 
 In [!INCLUDE[prod_short](../includes/prod_short.md)]:
 
 |Bearbeiten|Auswirkungen|
 |------|-----------|
-|Ändern Sie den Standort in einen anderen Standort, der den Shopify Orten zugeordnet ist. Sendung buchen. | Der Auftrag wird als erfüllt markiert. Der ursprüngliche Standort wird verwendet. |
-|Ändern Sie den Ort in einen anderen Ort, der nicht den Shopify Orten zugeordnet ist. Sendung buchen. | Die Erfüllung wird nicht mit Shopify synchronisiert. |
+|Ändern Sie den Standort zu einem anderen Standort. Sendung buchen. | Der Auftrag wird als erfüllt markiert. Auftragserfüllungsort von Shopify wird verwendet. |
 |Menge verkleinern Sendung buchen. | Die Reihenfolge Shopify wird als teilweise erfüllt gekennzeichnet. |
-|Menge erhöhen. Sendung buchen. | Die Erfüllung wird nicht mit Shopify synchronisiert. |
-|Ein neues Element hinzufügen. Sendung buchen. | Die Reihenfolge Shopify wird als erfüllt markiert. Die Zeilen werden nicht aktualisiert. |
+|Menge erhöhen. Sendung buchen. | Die Auftragserfüllung wird nicht mit Shopify synchronisiert. Das Gleiche gilt, wenn die Auftragserfüllung in Shopify aufgeteilt, aber als eine Zeile in [!INCLUDE[prod_short](../includes/prod_short.md)] verarbeitet wurde. |
+|Ein neues Element hinzufügen. Sendung buchen. | Die Reihenfolge Shopify wird als erfüllt markiert. Neue Zeilen werden nicht hinzugefügt. |
 
 ## Lieferungen mit Shopify synchronisieren
 

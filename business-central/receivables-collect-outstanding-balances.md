@@ -2,23 +2,27 @@
 title: Einziehen von Restbeträgen
 description: 'Lernen Sie, wie Sie Ihre Debitor an ausstehende Zahlungen erinnern können. Senden Sie einen Debitor-Auszug, eine Mahnung oder eine Zinsrechnung.'
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: al
+ms.author: bholtorf
+ms.reviewer: bnielse
+ms.topic: how-to
 ms.search.keywords: 'payment due, debt, overdue, fee, charge, reminder'
 ms.search.form: '6, 25, 440, 443, 448, 452'
-ms.date: 02/09/2022
-ms.author: bholtorf
+ms.date: 03/13/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# Einziehen von Restbeträgen
+# Restbeträge einziehen
 
 Im Rahmen der Debitorenverwaltung muss auch geprüft werden, ob fällige Beträge pünktlich bezahlt werden. Wenn Debitoren überfällige Zahlungen haben, können Sie damit beginnen, indem Sie den Bericht **Kontoauszug** als Mahnung senden. Sie können auch Mahnungen ausgeben.
 
-Mithilfe von Mahnungen können Debitoren auf überfällige Beträge aufmerksam gemacht werden. Darüber hinaus können Mahnungen zum Berechnen von Zinsen oder Zuschlägen verwendet werden, die dann in die Mahnung aufgenommen werden. Verwenden Sie Zinsrechnungen, wenn Sie Debitoren Zinsen oder Zuschläge berechnen möchten, ohne die überfälligen Beträge anzumahnen.
+Mithilfe von Mahnungen können Debitoren bei überfälligen Beträgen benachrichtigt werden. Darüber hinaus können Mahnungen zum Berechnen von Zinsen oder Zuschlägen verwendet werden, die dann in die Mahnung aufgenommen werden. Verwenden Sie Zinsrechnungen, wenn Sie Debitoren Zinsen oder Zuschläge berechnen möchten, ohne die überfälligen Beträge anzumahnen.
 
-## Auszüge
+## Kontoauszüge
 
-Anhand der Kundenkarte können Sie einen Auszug mit den Transaktionen dieses Kunden mit Ihnen. Anschließend senden Sie dem Kunden die generierte PDF-Datei. Alternativ können Sie den Bericht **Kontoauszug** dazu verwenden, um Ihren Debitoren eine Übersicht über ihre Geschäftstätigkeit mit Ihnen senden. Der Kontoauszug kann zur weiteren Bearbeitung an Excel gesendet werden.  
+Anhand der Kundenkarte können Sie einen Auszug mit den Transaktionen für Debitoren mit Ihnen erstellen. Anschließend können Sie eine PDF-Datei erstellen und an den Debitoren senden. Alternativ können Sie den Bericht **Kontoauszug** dazu verwenden, um Ihren Debitoren eine Übersicht über ihre Geschäftstätigkeit mit Ihnen senden. 
+
+> [!TIP]
+> Bei Bedarf können Sie den Auszug an Excel senden, um Änderungen vorzunehmen.  
 
 ### Um den Kontoauszugsbericht zu senden
 
@@ -40,7 +44,7 @@ Hat ein Debitor nicht bis zum Fälligkeitsdatum gezahlt, können automatisch Zus
 > [!NOTE]  
 > Mithilfe von Zinsrechnungen werden Zinsen und Zuschläge berechnet und Debitoren über die Zinsen und Zuschläge informiert, ohne die überfälligen Beträge anzumahnen. Alternativ können Zinsen auf überfällige Zahlungen auch bei der Mahnungserstellung berechnet werden.  
 
-Bevor Sie Zinsrechnungen  erstellen können, müssen Sie Bestimmungen einrichten. Weitere Informationen finden Sie unter [Einrichten von Zinskonditionen](finance-setup-finance-charges.md).  
+Bevor Sie Zinsrechnungen erstellen können, müssen Sie Bestimmungen einrichten. Weitere Informationen finden Sie unter [Einrichten von Zinskonditionen](finance-setup-finance-charges.md).  
 
 Sie können eine Zinsrechnung für einen bestimmten Debitor manuell erstellen und die Zeilen automatisch ausfüllen. Alternativ können Sie die Funktion **Zinsrechnungen erstellen** verwenden, um Zinsrechnungen für alle oder ausgewählte Debitoren mit überfälligem Saldo zu erstellen.  
 
@@ -59,24 +63,26 @@ Eine Zinsrechnung ist ähnlich wie eine Rechnung. Sie können den Kopf manuell a
 
     > [!NOTE]
     > Obwohl sie aufgelistet sind, hat die Auswahl von **Zahlung** und **Gutschrift** als **Belegart**-Filter keine Wirkung, da die Funktion **Zinsrechnung** nur positive Beträge verarbeitet.
-5.  Klicken Sie auf die Schaltfläche **OK**, um den Batchauftrag zu starten.  
+5. Klicken Sie auf die Schaltfläche **OK**, um den Batchauftrag zu starten.  
 
-### So aktualisieren Sie Zinsrechnungstexte:  
+### So aktualisieren Sie Zinsrechnungstexte:
+
 In manchen Fällen möchten Sie möglicherweise den Vor- und Nachtext ändern, den Sie für die Zinskonditionen eingerichtet haben. Wenn Sie dies zu einem Zeitpunkt tun, an dem Sie Zinsrechnungen angelegt, aber noch nicht registriert haben, können Sie die Anwendung dazu veranlassen, die Zinsrechnungen mit den geänderten Texten zu aktualisieren.
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet 3.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Finance Zinsrechnungen** ein und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet 3.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren") Symbol. Geben Sie **Finance Zinsrechnungen** ein und wählen Sie dann den zugehörigen Link.  
 2. Öffnen Sie das Fenster, in dem Sie Text ändern möchten und wählen Sie die **Zinsrech. Text aktualisieren** Aktion aus.
 3. Auf der Seite **Zinsrechnungskopf aktualisieren** können Sie einen Filter festlegen, wenn Sie mehrere Zinsrechnungen aktualisieren möchten.
 4. Wählen Sie die Schaltfläche **OK**, um den Vortext und den Nachtext zu aktualisieren.  
 
 ### Um Zinsrechnungen zu registrieren
+
 Nach dem Erstellen von Zinsrechnungen und dem Vornehmen von möglicherweise erforderlichen Änderungen können Sie entweder Testberichte drucken oder die Zinsrechnungen registrieren.
 
-Wenn eine Mahnung registriert wird, werden die Posten entsprechend Ihren Angaben auf der Seite **Zinsgebühr** gebucht. Diese Spezifikation legt fest, ob Zinsen und/oder Gebühren für den Debitor und in die Finanzbuchhaltung gebucht werden sollen. Die Seite **Debitorenbuchungsgruppen** bestimmt, auf welche Konten gebucht wird.
+Wenn Sie eine Mahnung senden, werden die Posten entsprechend Ihren Angaben auf der Seite **Zinsgebühr** gebucht. Diese Spezifikation legt fest, ob Zinsen und/oder Gebühren für den Debitoren und in die Finanzbuchhaltung gebucht werden sollen. Die Einstellungen auf der Seite **Debitorenbuchungsgruppen** legen fest, auf welche Konten Zinsen oder Gebühren gebucht werden.
 
 Für jeden Debitorenposten in der Zinsrechnung wird ein Posten auf der Seite **Mahnungs-/Zinsrechnungsposten** erzeugt.
 
-Wenn das Kontrollkästchen **Zins buchen** oder **Zusätzliche Gebühren buchen** auf der Seite **Zinsgebührbedingungen** aktiviert ist, werden außerdem die folgenden Posten erstellt:
+Wenn die Kontrollkästchen **Zins buchen** oder **Zusätzliche Gebühren buchen** auf der Seite **Zinsgebührbedingungen** aktiviert ist, werden außerdem die folgenden Posten erstellt:
 
 - Ein Posten auf der Seite **Debitorenposten**
 - Ein Forderungsposten auf dem jeweiligen Sachkonto
@@ -92,12 +98,16 @@ Zusätzlich kann das Registrieren der Mahnung zu MwSt.-Posten führen.
 Das Zinsgebührenmemo wird entweder gedruckt oder an eine festgelegte E-Mail als PDF-Dateianhang gesendet.
 
 ### Um die ausgestellte Zinsrechnung zu stornieren
+
 Wenn fälschlicherweise Zinsrechnungen ausgegeben wurden, können Sie diese vor dem Versenden stornieren. Sie können dies entweder einzeln oder als Stapel ausführen.
+
 1. Auf der Seite **Ausgestellte Zinsrechnung** wählen Sie mindestens eine Zeile für die Seitenanpassungen aus, die Sie löschen möchten, und wählen Sie danach die Aktion **Löschen** aus.
 2. Auf der Seite **Ausgestellte Zinsrechnungs-Memos stornieren** geben Sie die Felder wie nötig ein, und wählen Sie dann die Schaltfläche **OK**.
 
 ### So zeigen Sie Mahnungs- und Zinsrechnungsposten an:  
-Wenn Sie eine Mahnung registrieren, wird für jede Mahnungszeile, die einen Debitorenposten enthält, ein Mahnungsposten auf der Seite **Mahnung/Zinsrechnung Posten** erstellt. Sie können sich einen Überblick über die erstellten Mahnungsposten für einen bestimmten Debitor anzeigen lassen.    
+
+Wenn Sie eine Mahnung registrieren, wird für jede Mahnungszeile, die einen Debitorenposten enthält, ein Mahnungsposten auf der Seite **Mahnung/Zinsrechnung Posten** erstellt. Sie können sich einen Überblick über die erstellten Mahnungsposten für einen bestimmten Debitor anzeigen lassen.
+
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet 5.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Debitoren** ein und wählen Sie dann den entsprechenden Link.  
 2. Öffnen Sie die entsprechende Debitorenkarte und klicken dann auf **Buchblatteinträge**.
 3. Klicken Sie auf die Seite auf **Buch-Blatteinträge** und wählen Sie die Zeilen, die Sie anzeigen möchten, und klicken Sie dann auf **Posten, Mahnungs-/Zinsrechnungseinträge**.
@@ -113,6 +123,5 @@ Wenn Sie eine Mahnung registrieren, wird für jede Mahnungszeile, die einen Debi
 [Verwalten von Forderungen](receivables-manage-receivables.md)  
 [Verkauf](sales-manage-sales.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

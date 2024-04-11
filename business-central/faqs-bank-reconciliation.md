@@ -1,7 +1,7 @@
 ---
 title: Häufig gestellte Fragen zur Unterstützung bei Bankkontoabstimmung (Vorschauversion) mit Copilot
 description: 'Diese häufig gestellten Fragen bietet Informationen über die KI-Technologie, die zur Abstimmung von Bankkonten und Kontoauszügen in Business Central verwendet wird. Dazu gehören auch wichtige Überlegungen und Details dazu, wie KI verwendet wird, wie sie getestet und bewertet wurde und welche spezifischen Einschränkungen bestehen.'
-ms.date: 11/07/2023
+ms.date: 03/27/2024
 ms.custom:
   - responsible-ai-faqs
 ms.topic: article
@@ -13,11 +13,13 @@ ms.collection:
   - bap-ai-copilot
 ---
 
-# Häufig gestellte Fragen zur Unterstützung bei Bankkontoabstimmung (Vorschauversion) mit Copilot
+# Häufig gestellte Fragen zur Unterstützung bei Bankkontoabstimmung mit Copilot (Vorschauversion)
+
+[!INCLUDE[preview-banner](includes/preview-banner.md)]
+
+Diese häufig gestellten Fragen (FAQ) beschreiben die KI-Auswirkungen der Copilot-Unterstützung bei Bankkontoabstimmung in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 [!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
-
-Diese häufig gestellten Fragen (FAQ) beschreiben die KI-Auswirkungen der Copilot-Unterstützung bei Bankkontoabstimmung in [!INCLUDE[prod_short](includes/prod_short.md)]. 
 
 ## Was ist die Unterstützung bei Bankkontoabstimmung?
 
