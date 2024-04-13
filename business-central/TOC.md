@@ -471,6 +471,8 @@ ms.service: dynamics-365-business-central
 
 ### Finanzberichte (Finanzauswertungen und KPIs durchführen)
 #### [Finanzberichte erstellen](bi-how-work-account-schedule.md)
+#### [Zeilendefinitionen in Finanzberichten](bi-row-definitions.md)
+#### [Spaltendefinitionen in Finanzberichten](bi-column-definitions.md)
 #### [Exemplarische Vorgehensweise: Eine Cashflowplanung mithilfe von Finanzberichten erstellen](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 #### [Einen KPI-Webdienst auf der Basis von Finanzberichten einrichten und veröffentlichen](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
 #### [Daten mit statistischen Konten analysieren](bi-use-statistical-accounts.md)
@@ -1049,7 +1051,8 @@ ms.service: dynamics-365-business-central
 
 ### Island
 #### [Lokale Funktionen in der isländischen Version](LocalFunctionality/Iceland/iceland-local-functionality.md)
-#### Mehrwertsteuer
+#### [Island: Einrichten der W1-Kern-App](LocalFunctionality/Iceland/iceland-global-core-app.md)
+#### MwSt.
 ##### [MwSt.-Zusammenfassungsinformationen auf Belegen drucken](LocalFunctionality/Iceland/how-to-print-vat-summary-information-on-documents.md)  
 ##### [Besondere Datenausgabe und Berichte für Steuerbehörden](LocalFunctionality/Iceland/special-data-output-and-reports-for-the-tax-authority.md)
 #### Elektronische Fakturierung
@@ -1057,6 +1060,7 @@ ms.service: dynamics-365-business-central
 #### Allgemein  
 ##### [IRS-Nummern dem Kontenplan zuordnen](LocalFunctionality/Iceland/how-to-map-irs-numbers-to-chart-of-accounts.md)  
 ##### [Gebuchte Rechnungen und Gutschriften löschen](LocalFunctionality/Iceland/deleting-posted-invoices-and-credit-memos.md)  
+##### [Steuernummer in der Lokalisierung für Island](LocalFunctionality/Iceland/use-registration-no.md)
 
 ### Indien
 #### [Übersicht](LocalFunctionality/India/india-local-functionality.md)

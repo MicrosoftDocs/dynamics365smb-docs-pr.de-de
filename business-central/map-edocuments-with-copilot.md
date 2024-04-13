@@ -12,7 +12,7 @@ ms.date: 02/23/2024
 ms.custom: bap-template
 ---
 
-# <a name="map-e-documents-to-purchase-order-lines-with-copilot-preview"></a>E-Belege mit Copilot Bestellpositionen zuordnen (Vorschauversion)
+# E-Belege mit Copilot Bestellpositionen zuordnen (Vorschauversion)
 
 [!INCLUDE[preview-banner](includes/preview-banner.md)]
 
@@ -33,17 +33,17 @@ Sie können jetzt eine vorhandene Bestellung in Business Central mit den in der 
 > - AI-generated content may be incorrect.-->
 
 
-## <a name="identify-purchase-orders"></a>Bestellungen ermitteln
+## Bestellungen ermitteln
 
 Zunächst können Sie die Bestellungen ermitteln, die Sie automatisch zuordnen können.
 
-## <a name="map-lines"></a>Positionen zuordnen
+## Positionen zuordnen
 
 Copilot hilft Ihnen, E-Rechnungszeilen automatisch mit Bestellpositionen abzugleichen und bietet zusätzliche Zuordnungsintelligenz, um die Übereinstimmungen zu verbessern.
 
 Nachdem sie abgeglichen und zugeordnet wurden, aktualisiert Business Central die abgeglichene Bestellung mit den relevanten Empfangsinformationen, um sicherzustellen, dass die richtigen Mengen in den Bestellpositionen eingehen.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Überblick über E-Belege](finance-edocuments-overview.md)  
 [E-Belege bei Verkäufen und Einkäufen verwenden](finance-how-use-edocuments.md)  
