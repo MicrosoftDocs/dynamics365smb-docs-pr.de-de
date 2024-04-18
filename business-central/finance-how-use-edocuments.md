@@ -1,46 +1,37 @@
 ---
-title: E-Belege bei Verkäufen und Einkäufen verwenden
-description: 'Erfahren Sie, wie Sie die E-Belege-Funktionalität im Zusammenhang mit Verkaufs- und Einkaufsrechnungen nutzen.'
+title: E-Belege im Verkauf verwenden
+description: 'Erfahren Sie, wie Sie die E-Belege-Funktionalität im Zusammenhang mit Verkäufen verwenden.'
 author: altotovi
 ms.topic: conceptual
 ms.devlang: al
-ms.search.keywords: 'electronic document, electronic invoice, e-document, e-invoice, sales, purchase'
-ms.search.form: '42, 43, 51, 6103, 6133, 6121, 9301, 9305, 9308'
-ms.date: 10/03/2023
+ms.search.keywords: 'electronic document, electronic invoice, e-document, e-invoice, sales, deliver'
+ms.search.form: '42, 43, 132, 6103, 6133, 6121, 9301, 9305'
+ms.date: 03/29/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# E-Belege bei Verkäufen und Einkäufen verwenden
+# E-Belege im Verkaufsprozess verwenden
 
-Sie können konfigurierte elektronische Belege (E-Belege) mit Verkaufs- und Einkaufsbelegen verwenden.
+Sie können konfigurierte elektronische Belege (E-Belege) mit Verkaufsbelegen verwenden.
 
-Sie können die folgenden Belege mit der E-Belege-Funktionalität verwenden:  
+Sie können die folgenden Verkaufsbelegen mit der E-Belege-Funktionalität verwenden:  
 
-- Verkauf: 
-    - Verkaufsrechnungen
-    - Verkaufsaufträge
-    - Verkaufsgutschriften
-    - Servicerechnungen
-    - Servicegutschriften
-    - Zinsrechnungen
-    - Mahnungen
-- Einkauf: 
-    - Einkaufsrechnungen
-    - Bestellungen (nur neuen Beleg erstellen)
-    - Einkaufsgutschriften
-    - Fibu Buch.-Blätter
+- Verkaufsrechnungen
+- Verkaufsaufträge
+- Verkaufsgutschriften
+- Servicerechnungen
+- Servicegutschriften
+- Zinsrechnungen
+- Mahnungen
 
-> [!NOTE]
-> Derzeit kann eine Bestellung nur verwendet werden, wenn Sie den Beleg aus dem E-Beleg Ihres Kreditors erstellen. Sie können den vorhandenen Beleg jedoch nicht mit Zeilen aktualisieren, die Sie von Ihrem Kreditor erhalten haben.  
-
-## E-Belege im Verkauf
+## E-Belege im Verkauf  
 
 Um eine E-Rechnung zu erstellen und an einen Debitor zu senden, müssen Sie die Verkaufsrechnung erstellen und buchen. Weitere Informationen zum Standardprozess finden Sie unter [Fakturierung eines Verkaufs](sales-how-invoice-sales.md).
 
 Nachdem Sie den Verkaufsbeleg gebucht haben, öffnen Sie die Seite **Gebuchte Verkaufsrechnung**, um auf die zugehörige Seite **E-Beleg** zuzugreifen.
 
-### E-Belege aufrufen
+### E-Belege aufrufen   
 
 Gehen Sie wie folgt vor, um vorhandene E-Belege anzuzeigen.
 
@@ -49,7 +40,7 @@ Gehen Sie wie folgt vor, um vorhandene E-Belege anzuzeigen.
 3. Das Feld **Datensatz** enthält die Belegnummer der gebuchten Verkaufsrechnung. Wählen Sie den Link aus, um den Beleg zu öffnen.
 4. Im Feld **Status des elektronischen Belegs** können Sie den Echtzeitstatus des Belegs und seine Position in der Verarbeitungspipeline anzeigen. Wenn der Beleg gebucht ist, lautet der Status **Verarbeitet**.
 
-### E-Beleg-Status und -Protokolle
+### E-Beleg-Status und -Protokolle 
 
 Einzelheiten zum Dienststatus Ihres E-Belegs finden Sie im Inforegister **E-Beleg – Dienststatus**. Das System zeigt in den Zeilen einen oder mehrere Dienste an, die der Beleg verwendet hat. Im häufigsten Szenario verwendet jeder Beleg nur einen Dienst. Ein Beleg kann jedoch mehrere Dienste nutzen.
 
@@ -73,45 +64,6 @@ Wenn es ein Problem mit dem Dienstanbieter gibt und der Beleg nicht gesendet wer
 
 Nachdem das Problem behoben ist, führen Sie die Aktionen **Beleg senden** manuell aus. Wenn Sie verschiedene Aktionen benötigen, z. B. **Beleg neu erstellt**, **Beleg stornieren** oder **Genehmigung erhalten**, können Sie sie ausführen.
 
-## E-Belege im Einkauf
-
-Der Eingang elektronischer Einkaufsrechnungen in Dynamics 365 Business Central kann als Stapelverarbeitung oder manuell durchgeführt werden.
-
-### Stapelverarbeitung ausführen
-
-> [!NOTE]
-> Diese Stapelverarbeitung dient der automatisierten Erfassung Ihrer eingehenden Rechnungen. Sie funktioniert nur in einem Land oder einer Region, in der die Funktionalität vorhanden ist.
-
-Jedes Mal, wenn eine Aufgabenwarteschlange ausgeführt wird und der externe Dienst über eingehende Rechnungen verfügt, die von Ihrem Kreditor gesendet wurden, sammelt und importiert das System diese Rechnungen. Gehen Sie wie folgt vor, um den Vorgang abzuschließen.
-
-1. Nachdem die Ausführung der Stapelverarbeitung abgeschlossen ist, werden die neu importierten Rechnungen zusammen mit ihren grundlegenden detaillierten Informationen auf der Seite **E-Beleg** aufgelistet.
-2. Um weitere Details anzuzeigen, öffnen Sie einen bestimmten E-Beleg.
-3. Wenn im E-Beleg und seiner Zuordnung keine Fehler oder Probleme aufgetreten sind, wird im Feld **Datensatz** die Belegnummer der Einkaufsrechnung angezeigt, die das System automatisch erstellt hat. Wählen Sie den Link aus, um den Beleg zu öffnen. Dieser vom System erstellte Beleg ist nicht der gebuchte Beleg.
-4. Um direkt zum Einkaufsbeleg zu gelangen, wählen Sie das Feld **Datensatz** aus. Nachdem Sie die Seite **Einkaufsrechnung** geöffnet haben, überprüfen Sie den Beleg. Wenn dann alles korrekt ist, buchen Sie den Beleg.
-5. Wenn Sie den Einkaufsbeleg buchen, wird das Feld **Datensatz** auf dem **E-Beleg** von **Rechnung** auf **Einkaufsrechnung** aktualisiert und die Nummer des gebuchten Einkaufsbelegs ist verfügbar. Sie können die Nummer auswählen, um die gebuchte Einkaufsrechnung zu öffnen.
-
-Details zu Protokollen sind die gleichen wie im Verkaufsprozess für E-Belege.
-
-Da Fehler im Verkaufsprozess meist mit der Verfügbarkeit des Dienstes zusammenhängen, kann der eingehende Beleg mehrere Ursachen enthalten. Der häufigste Grund für einen Fehler ist, dass das System die Zeilen im E-Beleg, den Sie von Ihrem Kreditor erhalten haben, nicht erkennen kann. Daher können keine Zeilen in Ihre Einkaufsrechnung eingegeben werden.
-
-Es gibt zwei häufige Fehler:
-
-- Wenn Sie diese bestimmte Zeile aus Ihrer Kreditorenrechnung verwenden möchten, die direkt auf das Hauptbuchkonto (Sachkonto) gebucht wurde, müssen Sie den Wert **Zuordnungstext** korrekt konfiguriert haben. Um diesen Fehler zu umgehen, wenn Sie Sachkonten verwenden möchten, wählen Sie **Text zu Konto zuordnen** aus, um eine spezifische Zuordnung des Werts **Zuordnungstext** mit dem Wert **Sollkontonr.** zu erstellen, die Sie verwenden möchten.
-- Wenn Sie den Lagerbestand verfolgen und Zeilen aus Ihrer Kreditorenrechnung zum Ausfüllen von Artikeln in Ihren Belegzeilen verwenden möchten, müssen Sie den Wert **Artikelreferenz-Nr.** korrekt konfiguriert haben. Um diesen Fehler zu umgehen, ordnen Sie den externen Artikel mithilfe der Artikelreferenzliste Ihren Artikelnummern zu. Weitere Informationen finden Sie unter [Artikelreferenzen verwenden](inventory-how-use-item-cross-refs.md).
-
-Nachdem Sie die Fehler und Warnungen behoben haben, können Sie manuell festlegen, wann das System basierend auf Ihren Einstellungen eine Einkaufsrechnung erstellen soll, indem Sie **Beleg erstellen** auswählen.
-
-### Rechnungen manuell importieren
-
-Um externe E-Belege manuell zu importieren, gehen Sie wie folgt vor.
-
-1. Wählen Sie das ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol aus. Geben Sie **E-Beleg – Dienst** ein und wählen Sie dann den zugehörigen Link aus.
-2. Wählen Sie auf der Seite **E-Beleg – Dienst** den aktiven Dienst aus. 
-3. Wählen Sie **Eingang** und laden Sie die E-Beleg-Datei hoch, die Sie vom Kreditor erhalten haben.
-4. Wenn eine Fehlermeldung auftritt, öffnen Sie den E-Beleg, um die Probleme zu beheben.
-5. Wenn Sie mit der Behebung der Probleme fertig sind, wählen Sie in der Gruppe **Manuell importieren** die Option **Beleg erstellen** aus.
-6. Nachdem der Beleg in Business Central erstellt wurde, können Sie ihn genauso anzeigen wie bei der Verwendung einer Stapelverarbeitung.
-
 ## Übersicht über die Status von E-Belegen
 
 Um einen besseren Überblick über alle E-Belege im Unternehmen zu erhalten, können Sie das **Buchhalter**-Rollencenter auswählen, in dem die Status des E-Belegs vorhanden sind. Dort finden Sie E-Beleg-Aktivitäten mit folgenden Status:
@@ -122,11 +74,6 @@ Um einen besseren Überblick über alle E-Belege im Unternehmen zu erhalten, kö
     - In Bearbeitung
     - Fehler
 
-- **Eingehende E-Belege:**
-
-    - Verarbeitet
-    - In Bearbeitung
-    - Fehler
 
 ## Siehe auch
 

@@ -25,7 +25,7 @@ Das Einrichten von Finanzberichten erfordert ein Verständnis der Struktur Ihres
 - Legen Sie fest, wie Sie Dimensionen verwenden wollen.
 - Legen Sie Finanzbuchhaltungsbudgets fest.
 
-Finanzbuchkontokategorien vereinfachen Ihre Finanzberichtsdefinitionen und machen sie widerstandsfähiger gegenüber Änderungen in der Kontenplanstruktur. Weitere Informationen finden Sie unter [Finanzbuchkontokategorien zum Ändern des Layouts Ihrer Finanzberichte verwenden](#use-gl-account-categories-to-change-the-layout-of-your-financial-statements).
+Finanzbuchkontokategorien vereinfachen Ihre Finanzberichtsdefinitionen und machen sie widerstandsfähiger gegenüber Änderungen in der Kontenplanstruktur. Weitere Informationen finden Sie unter [Finanzbuchkontokategorien zum Ändern des Layouts Ihrer Finanzberichte verwenden](bi-row-definitions.md#use-gl-account-categories-to-change-the-layout-of-your-financial-statements).
 
 Durch das Einrichten von Dimensionen können Sie Ihre Finanzdaten auf eine für Ihr Unternehmen sinnvolle Weise aufteilen. Erfahren Sie mehr unter [Arbeiten mit Dimensionen](finance-dimensions.md). 
 
@@ -47,10 +47,10 @@ In Finanzberichten werden die Konten aus Ihrem Kontenplan so angeordnet, dass di
 
 Die Seite **Finanzberichte** zeigt, dass alle Finanzberichte einem Muster folgen, das aus den folgenden Attributen besteht:
 
-* Name (Code)
-* Description
-* Zeilendefinition
-* Spaltendefinition
+- Name (Code)
+- Beschreibung
+- Zeilendefinition
+- Spaltendefinition
 
 :::image type="content" source="media/financial-reports.png" alt-text="Zeigt, dass alle Finanzberichte aus einer Zeilendefinition und einer Spaltendefinition erstellt werden." lightbox="media/financial-reports.png":::
 
@@ -59,29 +59,29 @@ Die Seite **Finanzberichte** zeigt, dass alle Finanzberichte einem Muster folgen
 
 Sie können auch Formeln verwenden, um zwei oder mehr Finanzberichte und Spaltendefinitionen zu vergleichen. Mit Vergleichen können Sie Folgendes tun:
 
-* Erstellen benutzerdefinierter Finanzberichte
-* Erstellen Sie so viele Finanzberichte wie Sie benötigen, jeder mit einem eindeutigen Namen.
-* Einrichten unterschiedlicher Berichtslayouts und Drucken der Berichte mit den aktuellen Werten
+- Erstellen benutzerdefinierter Finanzberichte
+- Erstellen Sie so viele Finanzberichte wie Sie benötigen, jeder mit einem eindeutigen Namen.
+- Einrichten unterschiedlicher Berichtslayouts und Drucken der Berichte mit den aktuellen Werten
 
 ## Lernpfad: Erstellen von Finanzberichten in Microsoft Dynamics 365 Business Central
 
-Möchten Sie lernen, wie Sie Budgets erstellen und dann Finanzberichte, Dimensionen sowie Zeilen- und Spaltendefinitionen verwenden, um die Finanzberichte zu erstellen, welche die meisten Unternehmen normalerweise benötigen?
+Möchten Sie lernen, wie Sie Budgets erstellen und dann Finanzberichte, Dimensionen sowie Zeilen- und Spaltendefinitionen verwenden, um die Finanzberichte zu erstellen, die Unternehmen normalerweise benötigen?
 
-Fangen Sie mit dem Lernpfad [Erstellen von Finanzberichten in Microsoft Dynamics 365 Business Central](/training/paths/create-financial-reports-dynamics-365-business-central) an
+Fangen Sie mit dem folgenden Lernpfad [Erstellen von Finanzberichten in Microsoft Dynamics 365 Business Central](/training/paths/create-financial-reports-dynamics-365-business-central) an.
 
 ## Erstellen Sie einen neuen Finanzbericht
 
 Sie verwenden Finanzberichte, um Hauptbuchkonten zu analysieren oder Hauptbucheinträge mit Budgeteinträgen zu vergleichen. Sie können beispielsweise die Sachposten als prozentualen Anteil der Finanzbudgetposten sehen.
 
-Die Finanzberichte in der Standardversion von [!INCLUDE[prod_short](includes/prod_short.md)] entsprechen möglicherweise nicht den Anforderungen Ihres Unternehmens. Um schnell eigene Finanzberichte zu erstellen, beginnen Sie mit dem Kopieren eines bestehenden Berichts, wie in Schritt drei unten beschrieben.
+Die Finanzberichte in der Standardversion von [!INCLUDE[prod_short](includes/prod_short.md)] entsprechen möglicherweise nicht den Anforderungen Ihres Unternehmens. Um schnell eigene Finanzberichte zu erstellen, beginnen Sie mit dem Kopieren eines bestehenden Berichts, wie in Schritt 3 unten beschrieben.
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion 1.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") öffnet. Symbol, geben Sie **Finanzberichte** ein und wählen Sie dann den entsprechenden Link.  
 1. Auf der Seite **Finanzberichte** wählen Sie die Aktion **Neu**, um einen neuen Finanzbericht zu erstellen. Alternativ können Sie die Einstellungen eines bestehenden Finanzberichts wiederverwenden, indem Sie die Aktion **Finanzbericht kopieren** auswählen.
-1. Geben Sie den Kurznamen des Berichts (dieser kann nicht geändert werden) und die Beschreibung ein.
+1. Geben Sie den Kurznamen des Berichts (Sie können den Namen später nicht mehr ändern) und die Beschreibung ein.
 1. Wählen Sie eine Zeilendefinition und eine Spaltendefinition aus.
 1. Wählen Sie für die Zeilen- und Spaltendefinitionen optional Analyseansichten aus.
 1. Wählen Sie die Aktion **Finanzbericht bearbeiten** aus, um im Finanzbericht auf mehr Eigenschaften zuzugreifen.
-1. Auf dem Inforegister **Optionen** können Sie die Berichtsbeschreibung bearbeiten, die Zeilen- und Spaltendefinitionen ändern und festlegen, wie Datumsangaben angezeigt werden. Datumsangaben können in der Hierarchie Tag/Woche/Monat/Quartal/Jahr angegeben sein oder Sie können Buchhaltungsperiode verwenden. Mehr erfahren Sie unter [Vergleich von Buchhaltungsperioden mit Hilfe von Periodenformeln](#comparing-accounting-periods-using-period-formulas)
+1. Auf dem Inforegister **Optionen** können Sie die Berichtsbeschreibung bearbeiten, die Zeilen- und Spaltendefinitionen ändern und festlegen, wie Datumsangaben angezeigt werden. Datumsangaben können in der Hierarchie Tag/Woche/Monat/Quartal/Jahr angegeben sein oder Sie können Buchhaltungsperiode verwenden. Mehr erfahren Sie unter [Vergleich von Buchhaltungsperioden mit Hilfe von Periodenformeln](bi-column-definitions.md#comparing-accounting-periods-using-period-formulas)
 1. Auf dem Inforegister **Dimensionen** können Sie Dimensionsfilter für den Bericht festlegen.
 1. Sie können eine Vorschau des Berichts im Bereich unterhalb des Inforegisters **Dimensionen** anzeigen lassen.
 
@@ -95,56 +95,19 @@ Die Finanzberichte in der Standardversion von [!INCLUDE[prod_short](includes/pro
 
 Zeilendefinitionen in Finanzberichten bieten einen Platz für Berechnungen, die nicht direkt im Kontenplan vorgenommen werden können. Sie können beispielsweise Zwischensummen für Gruppen von Konten erstellen und diese Summe dann in andere Summen aufnehmen. Dabei können auch Zwischenschritte berechnet werden, die im abschließenden Bericht nicht erscheinen.
 
-1. Wählen Sie auf der Seite **Finanzberichte** den entsprechenden Finanzbericht und dann die Aktion **Zeilendefinition bearbeiten** aus.
-1. Wählen Sie die Aktionen **Sachkonten einfügen**, **KF-Konten einfügen** und **Kostenarten einfügen**, um eine Zeile für jedes Finanzelement zu erstellen, das Sie analysieren möchten. Beispielsweise könnten Sie eine Zeile für Umlaufvermögen und eine andere für Anlagevermögen haben. Lassen Sie sich von den Finanzberichten im Demounternehmen CRONUS inspirieren.
-
-    > [!NOTE]
-    > Im Feld **Zeilennr.** Das Feld Kostenarten zeigt die ersten 10 Zeichen eines Bezeichners, z.B. einer Kontonummer. Wenn Sie Bezeichner hinzufügen, die mit denselben 10 Zeichen beginnen, enthält das Feld **Zeilennr.** Duplikate. Feld Bei Bedarf können Sie die Bezeichner manuell bearbeiten, nachdem Sie die Elemente eingefügt haben. Die vollständigen Bezeichner werden im Feld **Zusammenzählung** angezeigt.
-
-> [!NOTE]
-> Die Spalten, die Sie in jeder Zeile der Zeilendefinition festlegen, entsprechen den Spalten drei und höher auf der Seite **Finanzbericht**. Die ersten beiden Spalten, **Zeilennr.** und **Beschreibung**, sind fest.  
+Mehr erfahren Sie unter [Zeilendefinitionen in Finanzberichten](bi-row-definitions.md).
 
 ### Eine Spaltendefinition erstellen oder bearbeiten
 
 Verwenden Sie Spaltendefinitionen, um die Spalten anzugeben, die in den Bericht aufgenommen werden sollen. Zum Beispiel können Sie ein Berichtslayout gestalten, das Bewegung und Saldo für dieselbe Periode dieses und letzten Jahres vergleicht. Eine Spaltendefinition kann bis zu 15 Spalten umfassen. Zum Beispiel sind mehrere Spalten sinnvoll, wenn Sie Budgets für zwölf Monate mit einer Spalte für die Gesamtsumme anzeigen möchten.
 
-> [!NOTE]
-> Eine gedruckte/vorgezeigte/gespeicherte Version eines Finanzberichts zeigt maximal fünf Spalten an. Wenn ein Finanzbericht dagegen nur für die Analyse auf der Seite **Finanzbericht** gedacht ist, können Sie so viele Spalten erstellen, wie Sie möchten.
-
-1. Wählen Sie auf der Seite **Finanzberichte** den entsprechenden Finanzbericht aus und wählen Sie dann die Aktion **Spaltendefinition bearbeiten**.
-1. Erstellen Sie auf der Seite **Spaltendefinition** eine Zeile für jede Spalte mit Finanzdaten, die im Finanzbericht angezeigt wird. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-1. Wählen Sie **OK** aus.
-1. Öffnen Sie die Seite **Finanzbericht** von Zeit zu Zeit, um zu überprüfen, ob die neue Spalte wie gewünscht funktioniert.
-
-### Eine Spaltendefinition zur Berechnung von Prozentsätzen erstellen
-
-Vielleicht möchten Sie eine Spalte in einen Finanzbericht einfügen, um Prozentsätze einer Summe zu berechnen. Wenn beispielsweise Zeilen vorhanden sind, die den Umsatz nach Dimensionen aufschlüsseln, empfiehlt sich die Einrichtung einer Spalte, die den prozentualen Anteil an den Gesamtverkäufen in jeder Zeile angibt.
-
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion 2.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") öffnet. Symbol, geben Sie **Finanzberichte** ein und wählen Sie dann den entsprechenden Link.
-1. Wählen Sie auf der Seite **Finanzberichte** einen Finanzbericht aus.  
-1. Wählen Sie die Aktion **Finanzbericht bearbeiten**, um eine Finanzberichtszeile festzulegen, um die Summe zu berechnen, auf der die Prozentsätze basieren.  
-1. Fügen Sie eine Zeile unmittelbar über der ersten Zeile hinzu, für die Sie einen Prozentsatz anzeigen möchten.  
-1. Füllen Sie die Felder in der Zeile wie folgt aus: In dem Feld **Zusammenzählungsart** geben Sie **Festgelegte Basis für Prozent** ein. Geben Sie in das Feld **Summenbildung** eine Formel für die Summe ein, auf der der Prozentsatz basieren soll. Wenn beispielsweise Zeile 11 die gesamten Verkäufe enthält, geben Sie **11** ein.  
-1. Wählen Sie die Aktion **Spaltendefinition bearbeiten**, um eine Spalte festzulegen.  
-1. Füllen Sie die Felder in der Zeile wie folgt aus. Wählen Sie im Feld **Spaltenart** den Eintrag **Formel** aus. Geben Sie in das Feld **Formel** eine Formel für den Betrag ein, für den Sie einen Prozentsatz berechnen möchten, gefolgt von dem Prozentzeichen (%). Wenn also die Spalte Nummer N die Nettoveränderung enthält, geben Sie **N%** ein.  
-1. Wiederholen Sie die Schritte 4 bis 7 für jede Gruppe von Zeilen, die Sie nach Prozentsätzen aufschlüsseln möchten.
-
-## Mithilfe von Finanzbuchhaltungskontokategorien das Layout Ihrer Finanzaufstellungen ändern
-
-Sie können Sachkontokategorien dazu verwenden, das Layout Ihrer Finanzberichte zu ändern. Nachdem Sie beispielsweise Ihre Kontokategorien auf der Seite **Finanzbuchhaltungskontokategorien** festgelegt haben, können Sie die Aktion **Finanzberichte generieren** wählen und die zugrundeliegenden Finanzberichte für die Kernfinanzberichte aktualisieren. Wenn Sie dann das nächste Mal einen dieser Berichte ausführen, z. B. den Bericht **Bilanz**, werden neue Summen und Untereinträge hinzugefügt.
-
-Ein weiterer Vorteil der Verwendung von Finanzbuchhaltungskontokategorien anstatt reiner Finanzbuchhaltungskonten in Ihren Zeilendefinitionen besteht darin, dass sich eine Änderung der Struktur Ihres Kontenplans nicht auf Ihre Finanzberichte auswirkt.
-
-> [!NOTE]
-> Die Kontokategorien der obersten Ebene, wie z. B. der Knoten **Verbindlichkeiten**, sind fest vorgegeben, und Sie können keine eigenen hinzufügen. Sie können jedoch Kontenkategorien auf niedrigeren Ebenen löschen und hinzufügen und festlegen, wie der zugehörige Finanzbericht in Berichten erscheint.
->
-> Sie sollten Ihre eigenen Sachkonto-Kategorien auf unterer Ebene von Grund auf erstellen und strukturieren, ggf. in einer Hierarchie, anstatt zu versuchen, die vorhandenen Kategorien neu anzuordnen. Sie können beispielsweise den Knoten **Verbindlichkeiten** neu strukturieren, sodass er den neuen Knoten **Eigenkapital** gefolgt von den Knoten **Kurzfristige Verbindlichkeiten** und **Langfristige Verbindlichkeiten** enthalten. Weitere Informationen finden Sie unter [Finanzbuchhaltungskonten Kontokategorien zuordnen](finance-general-ledger.md#account-categories).
+Mehr erfahren Sie unter [Spaltendefinition in Finanzberichten](bi-column-definitions.md).
 
 ## Dimensionen in Finanzberichten verwenden
 
 In der Finanzanalyse sind Dimensionen Daten, die Sie einem Eintrag als eine Art Markierung hinzufügen. Diese Daten dienen zum Gruppieren von Posten mit ähnlichen Merkmalen – beispielsweise Debitoren, Regionen, Produkte oder Verkäufer – sowie zum einfachen Abrufen dieser Gruppen zur Analyse. Sie können Dimensionen für Posten in Buch.-Blättern, Belegen und Budgets verwenden.
 
-Jede Dimension beschreibt den Schwerpunkt der Analyse. Eine zweidimensionale Analyse wäre z.B. der Umsatz pro Bereich. Wenn Sie beim Erstellen eines Postens mehr als zwei Dimensionen verwenden, können Sie eine komplexere Analyse durchführen. Ein Beispiel für eine komplexe Analyse ist die Untersuchung der Verkäufe pro Verkaufskampagne, Debitorengruppe und Region. So erhalten Sie einen besseren Einblick in Ihr Unternehmen, z. B. wie gut Ihr Geschäft läuft, wo es floriert und wo nicht und wo Sie mehr Ressourcen zuweisen sollten. Mithilfe dieser Einblicke können Sie fundiertere Geschäftsentscheidungen treffen. Unter [Arbeiten mit Dimensionen](finance-dimensions.md) erfahren Sie mehr.
+Jede Dimension beschreibt den Schwerpunkt der Analyse. Eine zweidimensionale Analyse wäre z.B. der Umsatz pro Bereich. Wenn Sie beim Erstellen eines Postens mehr als zwei Dimensionen verwenden, können Sie eine komplexere Analyse durchführen. Ein Beispiel für eine komplexe Analyse ist die Untersuchung der Verkäufe pro Verkaufskampagne, Debitorengruppe und Region. So erhalten Sie einen besseren Einblick in Ihr Unternehmen, z. B. wie gut Ihr Geschäft läuft, wo es floriert und wo nicht und wo Sie mehr Ressourcen zuweisen sollten. Mithilfe dieser Einblicke können Sie fundiertere Geschäftsentscheidungen treffen. Um mehr darüber zu erfahren, gehen Sie zu [Arbeiten mit Dimensionen](finance-dimensions.md).
 
 ## Einrichten von Finanzberichten mit Übersichten
 
@@ -164,80 +127,56 @@ Mit einem Finanzbericht können Sie eine Übersicht erstellen, in der Sie die Za
 
 Die Budgetaufstellung kann nun kopiert und in ein Arbeitsblatt eingefügt werden.  
 
-## Vergleich von Buchhaltungsperioden mit Hilfe von Periodenformeln
-
-Ihr Finanzbericht kann die Ergebnisse verschiedener Buchhaltungsperioden vergleichen, z.B. den vergangenen Monat mit dem gleichen Monat des Vorjahres. Öffnen Sie dazu die Seite **Spaltendefinition** und personalisieren Sie sie, indem Sie das Feld **Vergleich Periodenformel** als Spalte hinzufügen. Erfahren Sie mehr unter [Personalisieren Sie Ihren Arbeitsbereich](ui-personalization-user.md). Sie können dieses Feld dann auf eine Periodenformel setzen.  
-
-Ein Buchhaltungszeitraum muss nicht mit dem Kalender übereinstimmen. Jedes Geschäftsjahr muss jedoch dieselbe Anzahl von Buchhaltungsperioden aufweisen, selbst wenn jede Periode eine andere Länge haben kann.  
-
-[!INCLUDE[prod_short](includes/prod_short.md)] verwendet die Periodenformel, um die Dauer der Vergleichsperiode im Verhältnis zu der Periode zu berechnen, die durch den Datumsfilter im Bericht dargestellt wird. Die Vergleichsperiode basiert auf der Periode des Startdatums des Datumsfilters. Für Periodenspezifikationen stehen folgende Abkürzungen zur Verfügung:
-
-| Abkürzung | Description                                                                           |
-| ------------ | ------------------------------------------------------------------------------------- |
-| P            | Periode.                                                                                |
-| EP           | Endperiode eines Geschäftsjahres, eines Halbjahres oder eines Vierteljahres.                                   |
-| CP           | Laufende Periode eines Geschäftsjahres, eines Halbjahres oder eines Vierteljahres. Verwenden Sie CP in Formeln, um den Zeitraum festzulegen, in dem die Formel beginnt oder endet. Zum Beispiel FY\[1..CP\] bezeichnet die Zeit vom Beginn des laufenden Geschäftsjahres bis zur laufenden Periode.|
-| GJ           | Geschäftsjahr. Zum Beispiel bezeichnet FY\[1..3\] das erste Quartal des aktuellen Geschäftsjahres. |
-
-Beispiele für Formeln:
-
-| Formel         | Description                                                                                     |
-| --------------- | ----------------------------------------------------------------------------------------------- |
-| \<Blank\>       | Aktueller Zeitraum.                                                                                  |
-| \-1P            | Vorherige Periode.                                                                                 |
-| \-1GJ\[1..EP\]  | Gesamtes vorheriges Geschäftsjahr.                                                                     |
-| \-1GJ           | Aktuelle Periode im vorherigen Geschäftsjahr.                                                          |
-| \-1GJ\[1..3\]   | Erstes Quartal des vorangegangenen Geschäftsjahres.                                                           |
-| \-1GJ\[1..LP\]  | Vom Beginn des vorherigen Geschäftsjahres bis zur aktuellen Periode im vorherigen Geschäftsjahr, einschließlich beider Perioden. |
-| \-1GJ\[LP..EP\] | Von der aktuellen Periode im vorigen Geschäftsjahr bis zur letzten Periode des vorigen Geschäftsjahres, einschließlich beider Perioden.   |
-
-Wenn die Berechnung gemäß regulärer Zeitperioden erfolgen soll, muss eine Formel in das Feld **Vergleichsdatumsformel** eingegeben werden. Wenn das Feld z.B. auf -1Y festgelegt ist, bezieht sich [!INCLUDE [prod_short](includes/prod_short.md)] auf die gleiche Periode ein Jahr zuvor.
-
-> [!NOTE]
-> Es ist nicht immer transparent, welche Perioden Sie vergleichen, denn Sie können in einem Bericht einen Datumsfilter festlegen, der sich auf andere Daten erstreckt als die Buchhaltungsperioden, die im Kontenplan angegeben sind. Wenn Sie also einen Finanzbericht erstellen, in dem Sie diese Periode mit der gleichen Periode im Vorjahr vergleichen möchten, legen Sie das Feld **Vergleichsdatum Formel** auf *-1FY* fest. Dann führen Sie den Bericht am 28. Februar aus und legen die Datumsfilter des Januar und Februar fest. Infolgedessen vergleicht der Finanzbericht den Januar und Februar dieses Jahres mit dem Januar des letzten Jahres, der die einzige abgeschlossene Buchhaltungsperiode des letzten Jahres ist.  
-
-Erfahren Sie mehr unter [Arbeiten mit Kalenderdaten und -zeiten](ui-enter-date-ranges.md).
-
 ## Finanzberichte drucken und speichern
 
-Sie können Finanzberichte über die Druckdienste Ihres Geräts ausdrucken. [!INCLUDE[prod_short](includes/prod_short.md)] bietet außerdem die Möglichkeit, Berichte als Excel-Arbeitsmappen, Word-Dokumente, PDF- und XML-Dateien zu speichern.
+Sie können Finanzberichte über die Druckdienste Ihres Geräts ausdrucken. [!INCLUDE[prod_short](includes/prod_short.md)] bietet außerdem Möglichkeiten, um Berichte als Excel-Arbeitsmappen, Word-Dokumente, PDF- und XML-Dateien zu speichern.
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet 4.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol, geben Sie **Finanzberichte** ein und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion 4.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren") öffnet. Symbol, geben Sie **Finanzberichte** ein und wählen Sie dann den entsprechenden Link.
 1. Auf der Seite **Finanzberichte** wählen Sie den zu druckenden Bericht aus und wählen dann die Aktion **Drucken**.
 1. Füllen Sie die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-1. Wählen Sie im Feld **Drucker** das Gerät, an das der Bericht gesendet werden soll.
-    1. Die Option **(Vom Browser verwaltet)** zeigt an, dass es keinen bestimmten Drucker für den Bericht gibt. In diesem Fall übernimmt der Browser den Ausdruck und zeigt die Standard-Druckschritte an, bei denen Sie einen lokalen Drucker auswählen können, der mit Ihrem Gerät verbunden ist. **(Vom Browser gehandhabt)** ist in der mobilen [!INCLUDE[prod_short](includes/prod_short.md)] App oder der App für Teams nicht verfügbar.
+1. Wählen Sie im Feld **Drucker** das Gerät, an das der Bericht gesendet wird.
+    1. Die Option **(Vom Browser verwaltet)** zeigt an, dass es keinen bestimmten Drucker für den Bericht gibt. In diesem Fall handhabt der Browser den Ausdruck und zeigt die Standarddruckschritte an, in denen Sie einen lokalen Drucker auswählen können, der mit Ihrem Gerät verbunden ist. **(Vom Browser gehandhabt)** ist in der mobilen [!INCLUDE[prod_short](includes/prod_short.md)] App oder der App für Teams nicht verfügbar.
 1. Wählen Sie die Aktion **Drucken** aus.
 
 ### Planen Sie einen Finanzbericht oder speichern Sie ihn als PDF-, Word- oder Excel-Dokument
 
-Ein Finanzbericht kann als Datei in verschiedenen Formaten gespeichert werden, z. B. als PDF, XML, Word oder Excel. Alternativ kann [!INCLUDE[prod_short](includes/prod_short.md)] wiederkehrende Finanzberichte generieren:
+Sie können einen Finanzbericht in Dateiformaten wie PDF, XML, Word oder Excel speichern. [!INCLUDE[prod_short](includes/prod_short.md)] kann auch wiederkehrende Finanzberichte generieren.
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet 4.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol, geben Sie **Finanzberichte** ein und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet 4.](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Finanzberichte** ein und wählen Sie dann den entsprechenden Link.
 1. Wählen Sie auf der Seite **Finanzberichte** die Aktion **Drucken**.
 1. Legen Sie den Bericht entsprechend fest und wählen Sie dann die Aktion **Senden an**.
 1. Wählen Sie das Dateiformat oder die Aktion **Zeitplan** und wählen Sie **OK**.
 1. Um einen geplanten oder wiederkehrenden Finanzbericht zu erstellen, füllen Sie die Felder aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].<br><br>Für wiederkehrende Finanzberichte legen Sie in den Feldern **Frühestes Startdatum/Uhrzeit** und **Ablaufdatum/Uhrzeit** das erste bzw. letzte Datum für die Erstellung des Finanzberichts fest. Legen Sie außerdem fest, an welchen Tagen der Bericht erstellt werden soll, indem Sie das Feld **Nächstes Ausführungsdatum Formel** entsprechend dem im Abschnitt [Verwendung von Datumsformeln](ui-enter-date-ranges.md#use-date-formulas) erläuterten Format festlegen.
 
-## Finanzberichtsdimensionen importieren oder exportieren
+## Bewährte Methoden für die Arbeit mit Finanzberichtsdefinitionen
 
-Sie können Finanzberichts- bzw. Zeilendefinitionen als RapidStart-Konfigurationspakete importieren und exportieren, die z. B. nützlich sind, wenn die Informationen an andere Unternehmen weitergegeben werden sollen. Das Paket wird in einer .rapidstart-Datei erstellt, die den Inhalt komprimiert.
+Für die Finanzberichtsdefinitionen gibt es keine Versionsverwaltung. Wenn Sie eine Berichtsdefinition ändern, wird die alte Version ersetzt, wenn Ihre Änderung in der Datenbank gespeichert wird. Die folgende Liste enthält einige bewährte Vorgehensweisen für die Arbeit mit Finanzberichtsdefinitionen:
+
+- Wenn Sie Berichtsdefinitionen hinzufügen, wählen Sie einen guten Code und geben Sie im Beschreibungsfeld einen aussagekräftigen Text ein, solange Sie noch wissen, wofür Sie den Bericht verwenden. Diese Informationen helfen Ihren Mitarbeitenden (und Ihnen selbst in der Zukunft) bei der Arbeit mit dem Bericht und falls notwendig beim Ändern der Berichtsdefinition.
+- Bevor Sie eine Berichtsdefinition ändern, sollten Sie eine Sicherungskopie davon erstellen, für den Fall, dass die Änderung nicht wie erwartet funktioniert. Sie können die Definition entweder einfach kopieren (geben Sie ihr einen guten Namen) oder exportieren. Mehr erfahren Sie unter [Finanzberichtsdefinitionen importieren oder exportieren](#import-or-export-financial-report-definitions).
+- Wenn Sie eine neue Kopie einer Definition benötigen, die [!INCLUDE[prod_short](includes/prod_short.md)] bereitstellt, erhalten Sie diese ganz einfach, indem Sie ein neues Unternehmen erstellen, das nur die Einrichtungsdaten enthält. Exportieren Sie dann die Definition und importieren Sie sie in das Unternehmen, wo die Definition aktualisiert werden muss.
+
+## Finanzberichtsdefinitionen importieren oder exportieren
+
+Sie können Finanzberichtsdefinitionen als RapidStart-Konfigurationspakete importieren und exportieren. Konfigurationspakete sind beispielsweise hilfreich, um Informationen für andere Unternehmen freizugeben. Das Paket wird in einer .rapidstart-Datei erstellt, die den Inhalt komprimiert.
 
 > [!NOTE]
-> Wenn Sie Finanzberichts- bzw. Zeilendefinitionen importieren, werden bestehende Datensätze mit dem gleichen Namen wie die zu importierenden durch die neuen Definitionen ersetzt. Beachten Sie, dass das Konfigurationspaket für eine Berichtsdefinition keine vorhandenen Zeilen- oder Spaltendefinitionen überschreibt, die in der Berichtsdefinition verwendet werden.
+> Wenn Sie Finanzberichtsdefinitionen importieren, werden bestehende Datensätze mit dem gleichen Namen wie die zu importierenden durch die neuen Definitionen ersetzt. Das Konfigurationspaket für eine Berichtsdefinition überschreibt keine vorhandenen Zeilen- oder Spaltendefinitionen, die in der Berichtsdefinition verwendet werden.
 
 Um Finanzberichtsdefinitionen zu importieren oder zu exportieren, gehen Sie wie folgt vor:
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion 4 öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Finanzberichte** ein und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet 4.](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Finanzberichte** ein und wählen Sie dann den entsprechenden Link.
 1. Wählen Sie den Finanzbericht und wählen Sie dann die Aktion **Finanzbericht importieren** oder **Finanzbericht exportieren**, je nachdem, was Sie tun möchten.
 
-Um Finanzberichtszeilendefinitionen zu importieren oder zu exportieren, gehen Sie wie folgt vor:
+Weitere Informationen zum Importieren und Exportieren von Zeilen- oder Spaltendefinitionen in Finanzberichten finden Sie in den folgenden Artikeln: 
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet 4.](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Zeilendefinitionen** ein und wählen Sie dann den entsprechenden Link.
-1. Wählen Sie die Zeilendefinition und dann die Aktion **Zeilendefinition importieren** oder **Zeilendefinition exportieren** aus, je nachdem, was Sie tun möchten.
+- [Finanzberichtszeilendefinitionen importieren oder exportieren](bi-row-definitions.md#import-or-export-financial-reporting-row-definitions) oder
+- [Finanzberichtsspaltendefinitionen importieren oder exportieren](bi-column-definitions.md#import-or-export-financial-report-column-definitions)
 
 ## Siehe auch
 
+[Zeilendefinitionen in Finanzberichten](bi-row-definitions.md)  
+[Spaltendefinitionen in Finanzberichten](bi-column-definitions.md)  
 [Berichte ausführen und drucken](ui-work-report.md)  
 [Financial Business Intelligence](bi.md)  
 [Finanzen](finance.md)  
