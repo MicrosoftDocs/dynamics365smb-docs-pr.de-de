@@ -573,6 +573,7 @@ ms.service: dynamics-365-business-central
 ### [Grundlagen von RIF-Methoden](projects-understanding-wip.md)
 ### [Projektfortschritt und -leistung überwachen](projects-how-monitor-progress-performance.md)
 ### [Projekte fakturieren](projects-how-invoice-jobs.md)
+### [Projektmontage](projects-assemble-to-project.md)
 
 ## Anlagen
 ### [Anlagen – Übersicht](fa-manage.md)

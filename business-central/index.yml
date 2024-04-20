@@ -9,7 +9,7 @@ metadata:
   ms.service: dynamics-365-business-central
   author: jswymer
   ms.author: jswymer
-  ms.date: 06/16/2023
+  ms.date: 04/11/2024
   hide_bc: true
 highlightedContent:
   items:
@@ -71,6 +71,14 @@ additionalContent:
               url: /dynamics365/business-central/across-onedrive-overview
     - title: Verwalten und entwickeln
       items:
+        - title: Copilot- und KI-Funktionen
+          links:
+            - text: Copilot- und KI-Funktionen konfigurieren
+              url: /dynamics365/business-central/enable-ai
+            - text: Copilot in Business Central erweitern
+              url: /dynamics365/business-central/dev-itpro/developer/ai-integration-landing-page
+            - text: Häufig gestellte Fragen zu Funktionen und verantwortungsvoller KI
+              url: /dynamics365/business-central/responsible-ai-overview
         - title: Benutzerzugriff verwalten
           links:
             - text: Benutzer erstellen
@@ -133,6 +141,20 @@ additionalContent:
               url: /dynamics365/business-central/dev-itpro/api-reference/v2.0/
     - title: Produktiv sein
       items:
+        - title: Copilot
+          links:
+            - text: Listendaten analysieren
+              url: /dynamics365/business-central/analysis-assist
+            - text: Chat mit Copilot
+              url: /dynamics365/business-central/chat-with-copilot
+            - text: Vorschläge für Marketingtexte erhalten
+              url: /dynamics365/business-central/ai-overview
+            - text: E-Belege abgleichen
+              url: /dynamics365/business-central/map-edocuments-with-copilot
+            - text: Bankkonten abstimmen
+              url: /dynamics365/business-central/bank-reconciliation-with-copilot
+            - text: Vorschläge für Zeilen vorschlagen
+              url: /dynamics365/business-central/sales-suggest-sales-lines-with-copilot
         - title: Arbeitsbereichseinstellungen
           links:
             - text: 'Sprache, Region, Arbeitsdatum, Zeitzone und mehr'
@@ -153,7 +175,7 @@ additionalContent:
               url: /dynamics365/business-central/across-share-onedrive
             - text: In Excel zusammenarbeiten
               url: /dynamics365/business-central/across-work-with-excel
-        - title: 'Business Intelligence, Reporting und Datenanalyse'
+        - title: 'BI, Berichterstellung und Datenanalyse'
           links:
             - text: Übersicht
               url: /dynamics365/business-central/reports-bi-reporting
@@ -165,7 +187,9 @@ additionalContent:
               url: /dynamics365/business-central/analysis-mode
             - text: Berichtsdaten mit Excel analysieren
               url: /dynamics365/business-central/report-analyze-excel
-        - title: Allgemeine Unternehmensfunktionen
+    - title: Geschäfte machen
+      items:
+        - title: Allgemein
           links:
             - text: Fibu Buch.-Blätter
               url: /dynamics365/business-central/ui-work-general-journals
@@ -175,8 +199,6 @@ additionalContent:
               url: /dynamics365/business-central/admin-job-queues-schedule-tasks
             - text: Eingehende Belege
               url: /dynamics365/business-central/across-income-documents
-    - title: Geschäfte machen
-      items:
         - title: Finanzen
           links:
             - text: Übersicht
