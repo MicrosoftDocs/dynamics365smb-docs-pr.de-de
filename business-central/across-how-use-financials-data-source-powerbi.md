@@ -148,7 +148,7 @@ Es gibt verschiedene Möglichkeiten, um Berichte an Ihre Mitarbeiter und andere 
 
 ## <a name="fixing-problems"></a>Probleme beheben
 
-### <a name="cannot-insert-a-record-current-connection-intent-is-read-only-error-connecting-to-custom-api-page"></a>„Ein Datensatz kann nicht eingefügt werden. Die aktuelle Verbindungsabsicht ist schreibgeschützt“. Fehler beim Verbinden mit der angepassten API-Seite
+### <a name="cant-insert-a-record-current-connection-intent-is-read-only-error-connecting-to-custom-api-page"></a>„Ein Datensatz kann nicht eingefügt werden. Die aktuelle Verbindungsabsicht ist schreibgeschützt“. Fehler beim Verbinden mit der angepassten API-Seite
 
 > **GILT FÜR:** Business Central Online
 
