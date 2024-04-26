@@ -36,10 +36,10 @@ Weitere Informationen finden Sie unter [Delegierter Administratorzugriff auf Bus
 
 |Aktion  |Siehe  |
 |---------|---------|
-|Um die Verwaltung von Berechtigungen für mehrere Benutzer zu erleichtern, können Sie diese in Sicherheitsgruppen organisieren und dann ein Berechtigungsset für mehrere Benutzer in einer Aktion zuordnen oder ändern.| [So verwalten Sie Berechtigungen über Benutzergruppen](#to-manage-permissions-through-user-groups) |
-|So verwalten Sie Berechtigungssätze für bestimmte Benutzer | [So weisen Sie Benutzern Berechtigungen zu](#to-assign-permission-sets-to-users) |
-|Erfahren Sie, wie Sie einen Berechtigungssatz definieren|[Erstellen eines Berechtigungssatzes](#to-create-a-permission-set)|
-|So zeigen Sie Berechtigungen eines Benutzers an oder bearbeiten sie|[So erhalten Sie eine Übersicht der Benutzerberechtigungen](#to-get-an-overview-of-a-users-permissions)|
+|Um die Verwaltung von Berechtigungen für mehrere Benutzer zu erleichtern, können Sie diese in Sicherheitsgruppen organisieren und dann ein Berechtigungsset für mehrere Benutzer in einer Aktion zuordnen oder ändern.| [Berechtigungen über Benutzergruppen verwalten](#manage-permissions-through-user-groups) |
+|So verwalten Sie Berechtigungssätze für bestimmte Benutzer | [Benutzenden Berechtigungen zuweisen](#assign-permission-sets-to-users) |
+|Erfahren Sie, wie Sie einen Berechtigungssatz definieren|[Einen Berechtigungssatz erstellen](#create-a-permission-set)|
+|So zeigen Sie Berechtigungen eines Benutzers an oder bearbeiten sie|[Eine Übersicht der Benutzerberechtigungen erhalten](#get-an-overview-of-a-users-permissions)|
 |So erfahren Sie mehr über Sicherheit auf Rekordniveau|[Sicherheitsfilter beschränken den Zugriff eines Benutzers auf bestimmte Datensätze in einer Tabelle](#security-filters-limit-a-users-access-to-specific-records-in-a-table)|
 
 > [!NOTE]
@@ -47,7 +47,7 @@ Weitere Informationen finden Sie unter [Delegierter Administratorzugriff auf Bus
 >
 > Sie können auch Funktionen definieren, die für Benutzer auf der Benutzeroberfläche verfügbar sind und wie sie mit ihnen über Seiten interagieren. Dies geschieht über Profile, die Sie verschiedenen Arten von Benutzern entsprechend ihrer Jobrolle oder Abteilung zuordnen. Weitere Informationen finden Sie unter [Verwalten von Profilen](admin-users-profiles-roles.md) und [[!INCLUDE[prod_short](includes/prod_short.md)] anpassen](ui-customizing-overview.md).
 
-## Erstellen eines Berechtigungssatzes
+## Einen Berechtigungssatz erstellen
 
 > [!NOTE]
 > Im Veröffentlichungszyklus 2, 2022 haben wir das Hinzufügen von Berechtigungen zu Berechtigungssätzen vereinfacht. Anstatt Berechtigungen einzeln hinzuzufügen, können Sie ganze Berechtigungssätze hinzufügen. Bei Bedarf können Sie dann einzelne Berechtigungen darin ausschließen. Weitere Informationen finden Sie unter [WeitereBerechtigungssätze hinzufügen](#to-add-other-permission-sets). Um dies zu ermöglichen, haben wir die Seite „Berechtigungssatz“ durch eine neue ersetzt. Die wichtigsten Unterschiede sind die neuen Bereiche **Berechtigungssätze** und **Ergebnisse** und die Infobox **Enthaltene Berechtigungen**. Um die ersetzte Seite „Berechtigungen“ weiterhin zu verwenden, klicken Sie auf der Seite **Berechtigungssätze** auf **Berechtigungen (alt)**.
@@ -62,7 +62,7 @@ Die Wartung ist auch einfacher. Wenn Sie eine Systemberechtigungen hinzufügen, 
 
   Um die Berechtigung einzuschließen, wählen Sie **Einschließen** und dann die Zugriffstufe für die Felder **Leseberechtigung**, **Einfügeberechtigung**, **Bearbeitungsberechtigung**, **Löschberechtigung** und **Ausführungsberechtigung**. Die Optionen werden in der folgenden Tabelle beschrieben.
 
-  |Option|Description|Lagerplatzpriorität|
+  |Option|Beschreibung|Lagerplatzpriorität|
   |------|-----------|-------|
   |**"Leer"**|Der Benutzer kann die Aktion an dem Objekt ausführen.|Am niedrigsten|  
   |**Ja**|Der Benutzer kann die Aktion an dem Objekt ausführen.|Am höchsten|
@@ -70,7 +70,7 @@ Die Wartung ist auch einfacher. Wenn Sie eine Systemberechtigungen hinzufügen, 
   
   Um die Berechtigung oder eine oder mehrere Zugriffsebenen auszuschließen, wählen Sie **Ausschließen** und dann die zu gewährende Zugriffsebene aus. Die Optionen werden in der folgenden Tabelle beschrieben.
 
-  |Option|Description|
+  |Option|Beschreibung|
   |------|-----------|-------|
   |**"Leer"**|Verwenden Sie die Zugriffsebene basierend auf der Hierarchie der Berechtigungen im Satz.  |
   |**Ausschließen**|Entfernen Sie die spezifische Zugriffsebene für das Objekt.|
@@ -116,11 +116,11 @@ Durch das Ausschließen eines Berechtigungssatzes werden alle Berechtigungen im 
 2. Berechnen Sie die vollständige Liste der ausgeschlossenen Berechtigungen
 3. Ausgeschlossene Berechtigungen aus der Liste der enthaltenen Berechtigungen entfernen (das Entfernen einer indirekten Berechtigung entspricht dem Reduzieren auf indirekt)
 
-## Kopieren eines Berechtigungssatzes
+## Einen Berechtigungssatz kopieren
 
 Erstellen Sie einen neuen Berechtigungssatz, indem Sie einen anderen kopieren. Der neue Satz enthält alle Berechtigungen und Berechtigungssätze aus dem kopierten Satz. Wie die Berechtigungen und Berechtigungssätze im neuen Berechtigungssatz angeordnet sind, hängt von Ihrer Auswahl im Feld **Kopiervorgang** ab. Die Optionen werden in der folgenden Tabelle beschrieben.
 
-|Option  |Description  |
+|Option  |Beschreibung  |
 |---------|---------|
 |**Nach Referenz kopieren**     | Der ursprüngliche Berechtigungssatz und alle ihm hinzugefügten Berechtigungssätze werden in **Ergebnisse** aufgelistet.       |
 |**Kopie für flache Berechtigung**  | Alle Berechtigungen aus allen Berechtigungssätzen sind in einer flachen Liste im **Bereich „Berechtigungen“** enthalten. Berechtigungen werden nicht nach Berechtigungssatz organisiert.        |
@@ -134,9 +134,9 @@ Erstellen Sie einen neuen Berechtigungssatz, indem Sie einen anderen kopieren. D
 > [!NOTE]
 > Die Benachrichtigung setzt voraus, dass die Benachrichtigung **Ursprünglicher Systemberechtigungssatz geändert** auf der Seite **Meine Benachrichtigungen** aktiviert ist.
 
-## So erstellen oder ändern Sie Berechtigungen, indem Sie Ihre Aktionen aufzeichnen
+## Berechtigungen durch das Aufzeichnen Ihrer Aktionen erstellen oder ändern
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren") Symbol. Geben Sie **Befugnissätze** ein und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie das ![Glühbirne, welche die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren") Symbol. Geben Sie **Befugnissätze** ein und wählen Sie dann den entsprechenden Link.
 
     Wählen Sie alternativ auf der Seite **Benutzer** die Aktion **Berechtigungssätze** aus.
 2. Wählen Sie auf der Seite **Benutzer** die Aktion **Neu** aus.
@@ -171,11 +171,11 @@ In Umgebungen mit mehreren Mandanten wird ein Berechtigungssatz in einen bestimm
 
 Die Berechtigungssätze werden importiert.
 
-## So entfernen Sie veraltete Berechtigungen aus allen Berechtigungssätzen
+## Veraltete Berechtigungen aus allen Berechtigungssätzen entfernen
 
 Wählen Sie auf der Seite **Berechtigungssätze** die Aktion **Veraltete Berechtigungssätze entfernen** aus.
 
-## So richten Sie Zeiteinschränkungen für Benutzer ein
+## Zeiteinschränkungen für Benutzende einrichten
 
 Administratoren können Zeiträume definieren, in denen bestimmte Benutzer Beiträge veröffentlichen können. Administratoren können auch angeben, ob das System protokolliert, wie lange Benutzer angemeldet sind. Entsprechend können Administratoren Benutzern Zuständigkeitseinheiten zuordnen. Weitere Informationen finden Sie unter [Arbeiten mit Zuständigkeitseinheiten](inventory-responsibility-centers.md).
 
@@ -184,7 +184,15 @@ Administratoren können Zeiträume definieren, in denen bestimmte Benutzer Beitr
 3. In dem Feld **Benutzer-ID** geben Sie die ID eines Benutzers ein, oder wählen Sie das Feld aus, um alle Nutzer der aktiven Fenster im System anzuzeigen.
 4. Füllen Sie die Felder nach Bedarf aus.
 
-## So verwalten Sie Berechtigungen über Benutzergruppen
+## Den Zugriff auf bestimmte Unternehmen kontrollieren
+
+Wenn Sie über mehrere Unternehmen in Business Central verfügen, muss insbesondere bei der unternehmensübergreifenden Verwaltung von Berechtigungen mit Bedacht vorgegangen werden. Sie möchten wahrscheinlich nicht, dass Benutzende für alle Unternehmen die gleichen Zugriffsrechte haben. Stattdessen müssen Sie Benutzenden möglicherweise Berechtigungen basierend auf ihrer Unternehmenszugehörigkeit erteilen. Um dieses Szenario zu unterstützen, haben Sie beim Zuweisen von Berechtigungssätzen an einzelne Benutzende oder Sicherheitsgruppen die Möglichkeit, ein bestimmtes Unternehmen auszuwählen, für das der Berechtigungssatz gilt. Das Unternehmen wird nicht explizit im Berechtigungssatz angegeben, sondern wenn der Berechtigungssatz dem Benutzenden oder der Sicherheitsgruppe zugewiesen wird.
+
+Wenn Sie bei der Vergabe eines Berechtigungssatzes keine Angabe zum Unternehmen machen, dann gilt der Berechtigungssatz für alle Unternehmen. Wenn ein Berechtigungssatz für mehrere, aber nicht für alle Unternehmen gelten soll, fügen Sie den Berechtigungssatz für jedes Unternehmen einzeln hinzu.
+
+Weitere Informationen finden Sie unter [Benutzenden Berechtigungen zuweisen](#assign-permission-sets-to-users) oder [Einer Sicherheitsgruppe Berechtigungen zuweisen](ui-security-groups.md#assign-permissions-to-a-security-group).
+
+## Berechtigungen über Benutzergruppen verwalten
 
 Benutzergruppen helfen Ihnen bei der Verwaltung von Berechtigungssätzen im gesamten Unternehmen. [!INCLUDE [prod_short](includes/prod_short.md)]-Online enthält Standardbenutzergruppen, die Benutzern automatisch basierend auf ihrer Lizenz zugewiesen werden. Sie können Benutzer manuell zu einer Benutzergruppe hinzufügen und neue Benutzergruppen als Kopien vorhandener Gruppen erstellen.  
 
@@ -227,7 +235,7 @@ Die neue Benutzergruppe wird die Seite **Benutzergruppen** hinzugefügt. Fahren 
 3. Wählen Sie die Aktion **Benutzerrechtesätze**, um die Seite **Benutzerrechtesätze** zu öffnen.
 4. Füllen Sie auf der Seite **Benutzerberechtigungen** in einer neuen Zeile die Felder nach Bedarf aus.
 
-### So weisen Sie ein Berechtigungsset auf der Seite **Berechtigung festgelegt nach Benutzergruppe** zu
+### So weisen Sie ein Berechtigungsset auf der Seite Berechtigung festgelegt nach Benutzergruppe zu
 
 Die folgende Vorgehensweise erläutert, wie Sie Berechtigungssätze einer Benutzergruppe auf der Seite **Berechtigungen nach Benutzergruppe** zuordnen.
 
@@ -238,11 +246,11 @@ Die folgende Vorgehensweise erläutert, wie Sie Berechtigungssätze einer Benutz
 
 Sie können einem Benutzer Berechtigungsgruppen zudem direkt zuweisen.
 
-## So weisen Sie Benutzern Berechtigungen zu
+## Benutzenden Berechtigungen zuweisen
 
 Ein Berechtigungssatz ist eine Sammlung von Berechtigungen für bestimmte Datenbankobjekte. Allen Benutzern muss mindestens ein Berechtigungssatz zugeordnet werden, bevor sie auf [!INCLUDE[prod_short](includes/prod_short.md)] zugreifen können.  
 
-Eine [!INCLUDE[prod_short](includes/prod_short.md)]-Lösung enthält vordefinierte Berechtigungen, die von Microsoft oder Ihrem Lösungsanbieter hinzugefügt werden. Sie können auch neue Berechtigungen hinzufügen, die auf die Bedürfnisse Ihres Unternehmens zugeschnitten sind. Weitere Informationen finden Sie im Abschnitt [So erstellen Sie Berechtigungssätze](#to-create-a-permission-set).
+Eine [!INCLUDE[prod_short](includes/prod_short.md)]-Lösung enthält vordefinierte Berechtigungen, die von Microsoft oder Ihrem Lösungsanbieter hinzugefügt werden. Sie können auch neue Berechtigungen hinzufügen, die auf die Bedürfnisse Ihres Unternehmens zugeschnitten sind. Weitere Informationen finden Sie im Abschnitt [Einen Berechtigungssatz erstellen](#create-a-permission-set).
 
 > [!NOTE]
 > Wenn Sie den Zugriff eines Benutzers nicht mehr einschränken möchten, als in der Lizenz bereits definiert ist, können Sie dem Benutzer eine spezielle Berechtigung namens SUPER zuweisen. Diese Berechtigung stellt sicher, dass der Benutzer auf alle in der Lizenz angegebenen Objekte zugreifen kann.
@@ -257,22 +265,26 @@ Sie können den Benutzern Berechtigungsgruppen auf zwei Arten zuweisen:
 ### Zuweisen eines Berechtigungssatzes in einer Benutzerkarte
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Benutzer** ein, und wählen Sie dann den entsprechenden Link.
-2. Wählen Sie den Benutzer aus, den Sie dem Debitor zuordnen möchten.
-Zugriffsrechtsätze, die dem Benutzer bereits zugewiesen sind, werden im Bereich **Benutzerzugriffsrechtsätze** angezeigt.
-3. Wählen Sie auf der Seite **Benutzerkarte** die Aktion **Bearbeiten** aus.
-4. Füllen Sie im Inforegister **Benutzer-Berechtigungssatz** die Felder nach Bedarf aus. Weitere Informationen finden Sie unter [Erstellen und Bearbeiten von Berechtigungssätzen](ui-define-granular-permissions.md#to-create-a-permission-set).
+1. Wählen Sie den Benutzer aus, den Sie dem Debitor zuordnen möchten.
 
-   Verwenden Sie das Feld **Unternehmen**, um den Berechtigungssatz auf ein bestimmtes Unternehmen anzuwenden. Wenn Sie das Feld leer lassen, gilt er für alle Unternehmen.
+   Zugriffsrechtsätze, die dem Benutzer bereits zugewiesen sind, werden im Bereich **Benutzerzugriffsrechtsätze** angezeigt.
+1. Wählen Sie auf der Seite **Benutzerkarte** die Aktion **Bearbeiten** aus.
+1. Füllen Sie im Inforegister **Benutzer-Berechtigungssatz** die Felder nach Bedarf aus. Weitere Informationen finden Sie unter [Einen Berechtigungssatz erstellen und bearbeiten](ui-define-granular-permissions.md#create-a-permission-set).
+
+   Wenn Sie möchten, dass der Berechtigungssatz für ein bestimmtes Unternehmen gilt, legen Sie das **Unternehmen** auf dieses Unternehmen fest. Wenn der Berechtigungssatz für alle Unternehmen gelten soll, lassen Sie das Feld **Unternehmen** leer. [Weitere Informationen](#control-access-to-specific-companies).
 
 ## Zuweisen eines Berechtigungssatzes auf der Seite Benutzerberechtigungssatz nach Benutzer
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Benutzer** ein, und wählen Sie dann den entsprechenden Link.
-2. Wählen Sie auf der Seite **Benutzer** die Aktion **Berechtigungssatz nach Benutzer** aus.
-3. Auf der Seite **Benutzerberechtigungssatz nach Benutzer** wählen Sie das Kontrollkästchen **[Benutzername]** in einer Zeile für den relevanten Berechtigungssatz aus, um den Satz einem Benutzer zuzuweisen.
+Diese Methode macht es Ihnen leichter, mehreren Benutzenden unterschiedliche Berechtigungssätze zuzuweisen. 
+
+1. Wählen Sie das Symbol ![Glühbirne, die die „Sie wünschen ...“-Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Benutzer** ein, und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie auf der Seite **Benutzer** die Aktion **Berechtigungssatz nach Benutzer** aus.
+1. Wenn Sie möchten, dass die Berechtigungssätze nur für ein bestimmtes Unternehmen gelten, legen Sie das Feld **Unternehmensname** auf dieses Unternehmen fest. Wenn der Berechtigungssatz für alle Unternehmen gelten soll, lassen Sie das Feld **Unternehmensname** leer. [Weitere Informationen](#control-access-to-specific-companies).
+1. Auf der Seite **Benutzerberechtigungssatz nach Benutzer** wählen Sie das Kontrollkästchen **[Benutzername]** in einer Zeile für den relevanten Berechtigungssatz aus, um den Satz einem Benutzer zuzuweisen.
 
     Wählen Sie das Kontrollkästchen **Alle Benutzer** aus, um dem Berechtigungssatz allen Anwender zuzuweisen.
 
-## So erhalten Sie eine Übersicht der Benutzerberechtigungen
+## Eine Übersicht der Benutzerberechtigungen erhalten
 
 Sie können die effektiven Berechtigungen anderer Benutzer nur sehen, wenn Sie die Berechtigungen SECURITY oder SUPER haben. 
 
@@ -293,7 +305,7 @@ Die Seite **Effektive Berechtigungen** bietet zusätzliche Informationen über d
     >
     > Die Zeilen des Quellanspruchs stammen aus der Abonnementlizenz. Die Berechtigungswerte des Anspruchs setzen Werte in anderen Berechtigungssätzen außer Kraft, wenn Ihre Priorität höher ist. Ein Wert in einem Berechtigungssatz ohne Anspruch mit einer höheren Priorität als der zugehörige Wert im Anspruch, wird in Klammern gesetzt, um anzugeben, dass er nicht wirksam ist, da er durch den Anspruch außer Kraft gesetzt wurde.
     >
-    > Eine Erklärung der Priorität finden Sie unter [So erstellen Sie Berechtigungssätze](ui-define-granular-permissions.md#to-create-a-permission-set).  
+    > Eine Erklärung der Priorität finden Sie unter [Einen Berechtigungssatz erstellen](ui-define-granular-permissions.md#create-a-permission-set).  
 
 4. Wenn Sie einen Berechtigungssatz bearbeiten möchten, wählen Sie im Teil **Nach Berechtigungssatz** in der Zeile für einen entsprechenden Berechtigungssatz vom Typ **Benutzerdefiniert** eins der fünf Zugriffstypfelder und einen anderen Wert aus.
 
@@ -306,7 +318,8 @@ Die Seite **Effektive Berechtigungen** bietet zusätzliche Informationen über d
 
 Verwenden Sie für Sicherheit auf Datensatzebene in [!INCLUDE[prod_short](includes/prod_short.md)] Sicherheitsfilter, um den Benutzerzugriff auf Daten in einer Tabelle einzuschränken. Sie erstellen Sicherheitsfilter für Tabellendaten. Ein Sicherheitsfilter beschreibt einen Satz Datensätze in einer Tabelle, worauf ein Benutzer zugreifen darf. Sie können z. B. angeben, dass ein Benutzer nur die Daten lesen kann, die Informationen über einen bestimmten Debitor enthalten. Auf diese Weise kann der Benutzer nicht auf die Daten zugreifen, die Informationen zu anderen Debitoren enthalten. Weitere Informationen finden Sie unter [Verwenden von Sicherheitsfiltern](/dynamics365/business-central/dev-itpro/security/security-filters) im Verwaltungsinhalt.
 
-## Durch das Anzeigen der Berechtigung wird die Telemetrie geändert
+
+## Änderungen durch Berechtigungen an der Telemetrie anzeigen
 
 Sie können [!INCLUDE[prod_short](includes/prod_short.md)] einrichten, um Änderungen, die an der Berechtigung vorgenommen wurden, an eine Application Insights Ressource in Microsoft Azure zu senden. Anschließend erstellen Sie mit Azure Monitor Berichte und richten Warnungen für die erfassten Daten ein. Weitere Informationen finden Sie in den folgenden Artikeln in der [!INCLUDE[prod_short](includes/prod_short.md)]-Hilfe für Entwickler und die Verwaltung:
 

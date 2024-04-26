@@ -8,7 +8,7 @@ ms.topic: overview
 ms.collection:
   - bap-ai-copilot
   - get-started
-ms.date: 03/27/2024
+ms.date: 04/16/2024
 ms.custom: bap-template
 ---
 
@@ -24,7 +24,7 @@ Microsoft Copilot ist der KI-gestützte Assistent, der dabei hilft, Kreativität
 
 Copilot umfasst einen ständig wachsenden Satz an Features, die Benutzende in verschiedenen Rollen und bei unterschiedlichen Aufgaben unterstützen. Weitere Informationen zu Copilot und anderen KI-Features in Business Central finden Sie unter [aka.ms/BCAI](https://aka.ms/BCAI). 
 
-## Ist Copilot kostenlos? 
+## Ist Copilot kostenlos?
 
 Derzeit ist Copilot in Business Central ohne zusätzliche Kosten in Ihrer Business Central-Lizenz enthalten. Dies heißt nicht, dass zu einem späteren Zeitpunkt nicht Fair-Use-Richtlinien, Kontingente oder Preise eingeführt werden können.
 
@@ -38,7 +38,11 @@ Business Central bietet zahlreiche KI-gestützte Features. Manche Features, wie 
 
 ## Ist Copilot in Business Central weltweit verfügbar? 
 
-Copilot umfasst einen ständig wachsenden Satz an Features, die Benutzende in verschiedenen Rollen und bei unterschiedlichen Aufgaben unterstützen. Jede Copilot-Funktion legt eine eigene Liste unterstützter Regionen und Sprachen fest. Während die meisten Features zunächst wahrscheinlich nur auf Englisch verfügbar sein werden, möchten wir im Laufe der Zeit weitere Sprachen und Regionen hinzufügen. Eine Übersicht über die für Unternehmensawendungen verfügbaren Copilot-Sprachen und -Regionen finden Sie unter [https://dynamics.microsoft.com/availability-reports/copilotreport](https://dynamics.microsoft.com/availability-reports/copilotreport).
+Copilot umfasst einen ständig wachsenden Satz an Features, die Benutzende in verschiedenen Rollen und bei unterschiedlichen Aufgaben unterstützen. Jede Copilot-Funktion legt eine eigene Liste unterstützter Regionen und Sprachen fest. Während die meisten Features zunächst wahrscheinlich nur auf Englisch verfügbar sein werden, möchten wir im Laufe der Zeit weitere Sprachen und Regionen hinzufügen. Eine Übersicht über die für Unternehmensanwendungen verfügbaren Copilot-Sprachen und -Regionen finden Sie unter [https://dynamics.microsoft.com/availability-reports/copilotreport](https://dynamics.microsoft.com/availability-reports/copilotreport).
+
+## Erkennt Copilot meine Umgebungsanpassungen?
+
+Einige, aber nicht alle Copilot-Features können mit Ihren benutzerdefinierten Seiten und Tabellen verwendet werden. Sie können beispielsweise die [Analyseunterstützung](analysis-assist.md) auf Ihren benutzerdefinierten Listen verwenden oder [mit Copilot chatten](chat-with-copilot.md), um Datensätze in benutzerdefinierten Tabellen zu finden. Weitere Informationen dazu, welche Copilot-Features mit Anpassungen funktionieren, finden Sie in den Artikeln zu den einzelnen Features.
 
 ## Kann ich meine eigenen Copiloten für Business Central entwickeln?
 

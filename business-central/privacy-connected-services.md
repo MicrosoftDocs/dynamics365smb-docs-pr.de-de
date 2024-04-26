@@ -5,13 +5,13 @@ author: jswymer
 ms.topic: overview
 ms.service: dynamics-365-business-central
 ms.search.keywords: 'privacy, trial, Microsoft services'
-ms.date: 12/12/2023
+ms.date: 04/14/2024
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.collection:
   - bap-ai-copilot
 ---
-# <a name="trial-features-that-connect-to-other-microsoft-services"></a>Test-Funktionen, die eine Verbindung zu anderen Microsoft-Diensten herstellen
+# Test-Funktionen, die eine Verbindung zu anderen Microsoft-Diensten herstellen 
 
 [!INCLUDE[prod_long](includes/prod_long.md)] ist eine umfassende Lösung für die Unternehmensverwaltung, die tief in die Microsoft 365-Produktivitäts-Apps und Power Platform integriert ist. Ihr kostenloser Test von Business Central kann sich mit vielen verschiedenen Microsoft-Diensten verbinden, die Sie zunächst konfigurieren und aktivieren müssen. Um Ihre kostenlose Testversion optimal nutzen zu können, wurden einige dieser Funktionen automatisch für Sie aktiviert. Auch wenn die Verbindung ab [!INCLUDE[prod_short](includes/prod_short.md)] aktiviert ist, sind diese Dienste nicht in Ihrem Test enthalten und müssen separat gekauft werden, sofern Sie sie nicht bereits besitzen.
 
@@ -22,7 +22,7 @@ In der folgenden Tabelle finden Sie die Verbindungen zu Microsoft-Diensten, die 
 |Microsoft Teams|Ja|Nein|**Freigeben an Teams** Aktion auf **Artikel** Karte |[Verwaltung der Teams-Integration mit Business Central](admin-teams-integration.md)|  
 |Microsoft OneDrive für Unternehmen|Ja|Nein|**Öffnen in OneDrive** Aktion auf **Eintrag** Anhänge |[Managing OneDrive Integration mit Business Central](admin-onedrive-integration.md#configure-onedrive-using-onedrive-setup)|  
 | Microsoft Power Automate |Ja|Nein|**Automatisieren** von Aktionen auf **Artikel** Karte |[Einrichten der Power Automate-Integration](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup)|
-| Microsoft Azure OpenAI-Automatisierung |Ja |Nein|**Copilot (Vorschauversion)** |[KI-gestützten Marketingtext für Artikel mit Copilot konfigurieren](enable-ai.md)|
+| Microsoft Azure OpenAI-Dienst |Ja |Nein|**Copilot** |[KI-gestützten Marketingtext für Artikel mit Copilot konfigurieren](enable-ai.md)|
 
 > [!NOTE]
 > Indem Sie Funktionen nutzen, die eine Verbindung zu diesen Diensten herstellen: 

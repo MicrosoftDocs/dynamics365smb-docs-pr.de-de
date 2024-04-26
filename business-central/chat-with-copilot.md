@@ -103,9 +103,9 @@ Prompt: `How does I save my filterrings to do them later?`
 
 In diesem Beispiel bitten Sie Copilot um Anleitung zur Erledigung bestimmter Aufgaben in Business Central. Copilot versteht normalerweise, welche Absicht Sie mit der Frage verfolgen, selbst wenn sie einige Grammatikfehler, Rechtschreibfehler oder Abkürzungen enthält.
 
-Prompt: `Provide feedback on answers`
+## Feedback zu Antworten geben
 
-Sie können die Antworten, die Sie von Copilot erhalten, bewerten, indem Sie für eine gute Bewertung die „Gefällt mir“-Schaltfläche (Daumen hoch) und für eine schlechte Bewertung die „Gefällt mir nicht“-Schaltfläche (Daumen runter) verwenden. Wenn Sie auf die Schaltfläche „Gefällt mir nicht“ klicken, können Sie einen Grund auswählen, z. B. „ungenau“, „unangemessen“ oder „Sonstiges“. Diese Informationen können uns helfen, Vorschläge zu verbessern.
+Sie können die Antworten, die Sie von Copilot erhalten, bewerten, indem Sie für eine gute Bewertung die „Gefällt mir“-Schaltfläche (Daumen hoch) und für eine schlechte Bewertung die „Gefällt mir nicht“-Schaltfläche (Daumen runter) verwenden. Wenn Sie auf die Schaltfläche „Gefällt mir nicht“ klicken, können Sie einen Grund auswählen, z. B. „ungenau“, „unangemessen“ oder „Sonstiges“. Diese Informationen können helfen, Vorschläge zu verbessern.
 
 <!--
 1. If you want help getting you're question started, select the prompts either from the **Find**, **Explain**, or **Guide** buttons at the top of the Coplit pane or use the **View Prompts** menu above **Ask a question** box at the bottom.
@@ -113,7 +113,7 @@ Sie können die Antworten, die Sie von Copilot erhalten, bewerten, indem Sie fü
    Prompts are predefined short phrases that start a question. Apart from saving you time, they're designed to target responses to specific categories. They also help you undestand how you can phrase questions to get the responses.-->
 ## Siehe auch
 
-[Probleme mit Copilot- und KI-Funktionen behandeln](ai-copilot-troubleshooting.md)  
+[Probleme mit Copilot- und KI-Funktionen beheben](ai-copilot-troubleshooting.md)  
 [Copilot- und KI-Funktionen konfigurieren](enable-ai.md)  
 [Häufig gestellte Fragen zur verantwortungsvollen KI für den Chat mit Copilot](faqs-chat-with-copilot.md)  
 [Hilferessourcen in Business Central](product-help-and-support.md)  

@@ -5,7 +5,7 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 02/27/2024
+ms.date: 04/16/2024
 ms.custom: bap-template
 ms.search.form: 7775
 ms.collection:
@@ -35,12 +35,12 @@ In diesem Artikel wird erläutert, wie Sie Copilot und andere KI-Funktionen in B
 
   In 2023 release wave 2, both the marketing text suggestions and bank account reconciliation assist features are included under **Feature Management**. [Learn more](#enable-feature-in-feature-management)-->
 
-Wenn eine dieser Anforderungen nicht erfüllt ist, steht das Feature nicht zur Verfügung.-->
+Wenn eine dieser Anforderungen nicht erfüllt ist, steht das Feature nicht zur Verfügung.
 
 ## Voraussetzungen
 
-- Sie verwenden Business Central Online <!--[preview version](ai-preview-getstarted.md) of Business Central that's enabled for Copilot.-->
-- Sie verfügen über Administrator- oder Superuserberechtigungen in Business Central.  <!--For more information, go to [Configure AI-powered item marketing text with Copilot](enable-ai.md).-->
+- Sie verwenden Business Central Online.
+- Sie sind [Administrierender](#requirements-for-being-an-administrator) für Business Central.
 
 ## Datenverschiebung über geografische Regionen hinweg zulassen
 
@@ -116,27 +116,46 @@ Die folgenden Tabelle zeigen die Berechtigungen, die für die Nutzung der von Bu
 
 |Copilot-Features|Erforderliche Berechtigungen|
 |-|-|
-|Analyseunterstützung|Berechtigungssatz **DATENANALYSE – AUSFÜHREN** oder Ausführungsberechtigung für das Systemobjekt 9640 **Datenanalysemodus zulassen**. Dies sind die gleichen Berechtigungen, die auch für den Zugriff auf den Analysemodus erforderlich sind.|
+|Analyseunterstützung|Berechtigungssatz **DATENANALYSE – AUSFÜHREN** oder Ausführungsberechtigung für das Systemobjekt 9640 **Datenanalysemodus zulassen**. Dies sind die Berechtigungen, die auch für den Zugriff auf den Analysemodus erforderlich sind.|
 |Unterstützung bei der Bankkontoabstimmung|Berechtigung auf Seite 7250 **Bankkontoabstimmungs-KI-Vorschlag** und Seite 7252 **Übertr. KI-Vorschlag auf Fibu-Konto**.|
 |Chat |Es gibt keine Berechtigungen oder Berechtigungssätze, die den Zugriff auf den Chat auf Benutzerbasis steuern. Wenn der Chat aktiviert ist, steht er allen Benutzenden zur Verfügung.|
+|E-Belege zuweisen |Berechtigung auf Seite 6166 **E-Beleg-Best. Copilot-Vorschl.**|
 |Vorschläge für Marketingtexte |Berechtigung auf Seite 5836 **Copilot-Marketingtext**|
+|Verkaufszeilenvorschläge |Berechtigung auf Seite 7275 **KI-Vorschläge für Verkaufszeilen** und Seite 7276 **KI-Untervorschläge für Verkaufszeilen**|
 
-Um den Zugriff auf bestimmte, nicht von Microsoft stammenden Copilot- und KI-Funktionen zu gewähren oder zu verweigern, konsultieren Sie die Dokumentation oder den Herausgeber dieses Features, um herauszufinden, welche Berechtigungen erforderlich sind.
+Um den Zugriff auf bestimmte, nicht von Microsoft stammende Copilot- und KI-Funktionen zu gewähren oder zu verweigern, wenden Sie sich an die Dokumentation oder den Herausgeber des Features und informieren Sie sich über die erforderlichen Berechtigungen.
+
+## Voraussetzungen um Administrierender zu sein
+
+Sie müssen entweder über SUPER-Berechtigungen im Business Central-Benutzerkonto oder über eine der folgenden Business Central-Lizenzen verfügen:
+
+- Delegierter Administrator
+- Delegierter Helpdesk
+- Globaler Administrierender
+- BC-Administrierender
+- D365 Admin
+
+Business Central bietet noch keine granularen Berechtigungen auf Objektebene, sodass nur bestimmte Administrierende Copilot konfigurieren können.
 
 ## Nächste Schritte
 
 Nachdem Sie die Features aktiviert und ihnen zugestimmt haben, können Sie sie ausprobieren. Gehen Sie zu:
 
-- [Marketingtext zu Artikeln hinzufügen](item-marketing-text.md)
-- [Daten mit Copilot im Analysemodus analysieren](analysis-assist.md)  
+- [Marketingtext für Artikel mit Copilot hinzufügen](item-marketing-text.md)
+- [Listendaten mithilfe von Copilot analysieren](analysis-assist.md)  
 - [Chat mit Copilot](chat-with-copilot.md)
-- [Abstimmung mithilfe der Unterstützung bei Bankkontoabstimmung](bank-reconciliation-with-copilot.md)
+- [E-Belege mit Copilot Bestellzeilen zuordnen](map-edocuments-with-copilot.md)
+- [Bankkontoabstimmung mit Copilot](bank-reconciliation-with-copilot.md)
+- [Zeilen in Verkaufsaufträgen mit Copilot vorschlagen](sales-suggest-sales-lines-with-copilot.md)  
 
 ## Siehe auch
 
 [Probleme mit Copilot- und KI-Funktionen beheben](ai-copilot-troubleshooting.md)  
 [Häufig gestellte Fragen zur Analyseunterstützung](faqs-analysis-assist.md)  
-[Häufig gestellte Fragen zur Unterstützung bei Bankkontoabstimmung](faqs-bank-reconciliation.md)  
+[Häufig gestellte Fragen zur Unterstützung bei der Bankkontoabstimmung](faqs-bank-reconciliation.md)  
 [Häufig gestellte Fragen zum Chat mit Copilot](faqs-chat-with-copilot.md)  
+[Häufig gestellte Fragen zur Zuordnung von E-Belegen zu Bestellungen](faqs-map-edocuments.md)  
 [Häufig gestellte Fragen zu Vorschlägen für Marketingtexte](faqs-marketing-text.md)  
+[Häufig gestellte Fragen zu Verkaufszeilenvorschlägen](faq-sales-suggest-sales-lines-with-copilot.md)  
+
 [Überblick über Vorschläge für Marketingtexte](ai-overview.md)  

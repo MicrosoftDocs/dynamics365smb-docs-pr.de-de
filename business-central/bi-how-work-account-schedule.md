@@ -127,11 +127,42 @@ Mit einem Finanzbericht können Sie eine Übersicht erstellen, in der Sie die Za
 
 Die Budgetaufstellung kann nun kopiert und in ein Arbeitsblatt eingefügt werden.  
 
+## Finanzberichte in Excel integrieren
+
+Sie können einen Finanzbericht in eine Excel-Arbeitsmappenvorlage integrieren, das Layout an Ihre Anforderungen anpassen und dann die Excel-Vorlage mit Daten aus [!INCLUDE[prod_short](includes/prod_short.md)] aktualisieren. Mithilfe dieser Integration können Sie beispielsweise Ihre monatlichen und jährlichen Finanzberichte einfacher in einem für Sie geeigneten Format erstellen.
+
+### Excel-Integration für einen Finanzbericht einrichten (Excel-Vorlage erstellen)
+
+Um die Excel-Integration für einen Finanzbericht einzurichten, gehen Sie wie folgt vor, um eine Excel-Vorlage für einen Bericht zu erstellen.
+
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion 4.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") öffnet. Symbol. Geben Sie **Finanzberichte** ein und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie auf der Seite **Finanzberichte** den Finanzbericht aus, für den Sie Excel aktivieren möchten, und dann die Aktion **In Excel exportieren** aus.
+1. Wählen Sie die Aktion **Neues Dokument erstellen**. Diese Aktion lädt eine Excel-Arbeitsmappenvorlage mit einem einzelnen Arbeitsblatt herunter, das nach dem Berichtsnamen benannt ist.
+1. Kopieren Sie das Arbeitsblatt und benennen Sie es in **Daten** um.
+1. Benennen Sie das Berichtsarbeitsblatt nach Ihren Wünschen um.
+1. Markieren Sie im Berichtsarbeitsblatt alle Zellen, die Daten aus dem Finanzbericht enthalten (einschließlich Spalten- und Zeilenüberschriften). Suchen Sie im Menüband **Start** nach dem Menü **Nummer** und wählen Sie als Format **Allgemein**.
+1. Wählen Sie die äußerste linke Zelle des Bereichs mit Daten aus dem Finanzbericht aus und legen Sie einen Verweis auf die entsprechende Zelle im Datenarbeitsblatt fest. Ziehen Sie die Formel nach rechts, um sie auf alle Zellen in der ersten Zeile auszuweiten, und ziehen Sie die Zeile anschließend nach unten, um alle Zeilen im Finanzbericht einzubeziehen.
+1. Blenden Sie das Arbeitsblatt **Daten** aus.
+1. Formatieren Sie das Berichtsarbeitsblatt nach Ihren Anforderungen.
+1. Speichern Sie die Arbeitsmappe in OneDrive oder an einem ähnlichen Ort, an dem die Datei gesichert und versioniert wird.
+1. Schließen Sie die Arbeitsmappe.
+
+### Einen Finanzbericht mit einer Excel-Vorlage ausführen
+
+Um einen Finanzbericht mit einer Excel-Vorlage auszuführen, gehen Sie folgendermaßen vor:
+
+1. Wählen Sie das ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet 4.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Finanzberichte** ein und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie auf der Seite **Finanzberichte** den Finanzbericht aus, für den Sie Excel aktivieren möchten, und dann die Aktion **In Excel exportieren** aus.
+1. Wählen Sie die Aktion **Kopie des vorhandenen Dokuments aktualisieren** aus.
+1. Laden Sie Ihre Excel-Vorlage hoch (schließen Sie die Excel-Arbeitsmappe, bevor Sie sie hochladen).
+1. Wählen Sie auf der Seite **Namens-/Wertsuche** das Arbeitsblatt „Daten“ aus.
+1. [!INCLUDE[prod_short](includes/prod_short.md)] führt den Finanzbericht aus und führt die sich daraus ergebenden Daten mit Ihrer Excel-Vorlage zusammen.
+
 ## Finanzberichte drucken und speichern
 
 Sie können Finanzberichte über die Druckdienste Ihres Geräts ausdrucken. [!INCLUDE[prod_short](includes/prod_short.md)] bietet außerdem Möglichkeiten, um Berichte als Excel-Arbeitsmappen, Word-Dokumente, PDF- und XML-Dateien zu speichern.
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion 4.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren") öffnet. Symbol, geben Sie **Finanzberichte** ein und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet 4.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol, geben Sie **Finanzberichte** ein und wählen Sie dann den entsprechenden Link.
 1. Auf der Seite **Finanzberichte** wählen Sie den zu druckenden Bericht aus und wählen dann die Aktion **Drucken**.
 1. Füllen Sie die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 1. Wählen Sie im Feld **Drucker** das Gerät, an das der Bericht gesendet wird.
@@ -142,11 +173,12 @@ Sie können Finanzberichte über die Druckdienste Ihres Geräts ausdrucken. [!IN
 
 Sie können einen Finanzbericht in Dateiformaten wie PDF, XML, Word oder Excel speichern. [!INCLUDE[prod_short](includes/prod_short.md)] kann auch wiederkehrende Finanzberichte generieren.
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet 4.](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Finanzberichte** ein und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion 4 öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Finanzberichte** ein und wählen Sie dann den entsprechenden Link.
 1. Wählen Sie auf der Seite **Finanzberichte** die Aktion **Drucken**.
 1. Legen Sie den Bericht entsprechend fest und wählen Sie dann die Aktion **Senden an**.
 1. Wählen Sie das Dateiformat oder die Aktion **Zeitplan** und wählen Sie **OK**.
 1. Um einen geplanten oder wiederkehrenden Finanzbericht zu erstellen, füllen Sie die Felder aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].<br><br>Für wiederkehrende Finanzberichte legen Sie in den Feldern **Frühestes Startdatum/Uhrzeit** und **Ablaufdatum/Uhrzeit** das erste bzw. letzte Datum für die Erstellung des Finanzberichts fest. Legen Sie außerdem fest, an welchen Tagen der Bericht erstellt werden soll, indem Sie das Feld **Nächstes Ausführungsdatum Formel** entsprechend dem im Abschnitt [Verwendung von Datumsformeln](ui-enter-date-ranges.md#use-date-formulas) erläuterten Format festlegen.
+
 
 ## Bewährte Methoden für die Arbeit mit Finanzberichtsdefinitionen
 
