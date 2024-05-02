@@ -9,7 +9,7 @@ ms.date: 01/11/2022
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
-# <a name="get-business-central-desktop-app"></a>Business Central-App auf den Desktop holen
+# <a name="get-the-business-central-desktop-app"></a>Business Central-App auf den Desktop holen
 
 Wenn Sie einen Windows- (PC) oder macOS-Computer besitzen, können Sie die Business Central-App auf Ihrem Desktop installieren. Die App funktioniert mit Business Central online und lokal.
 
@@ -24,7 +24,7 @@ Die Business Central-App ähnelt dem Web-Client, bietet aber einige Vorteile wie
 
      Wenn Sie die App für eine bestimmte Umgebung öffnen, wird der Name der Umgebung in den Fenstertitel aufgenommen. Wenn Sie in mehreren [!INCLUDE[prod_short](includes/prod_short.md)]-Umgebungen arbeiten, wird jedes App-Fenster separat angezeigt. Anhand des Namens können Sie leichter erkennen, welches Fenster zu der jeweiligen Umgebung gehört.
 
-## <a name="install-the-app-for-business-central-online"></a>Installieren Sie die App für Business Central online
+## <a name="install-the-app-for--online"></a>Installieren Sie die App für Business Central online
 
 Es gibt zwei Möglichkeiten, die App für Business Central online zu installieren. Sie können es direkt über den Browser oder über den Microsoft Store installieren. Welchen Ansatz Sie auch immer wählen, es ist die gleiche App. Der Unterschied besteht darin, dass Sie bei der Installation über den Browser die App für jede Umgebung installieren können, wenn es mehr als eine gibt.
 
@@ -56,7 +56,7 @@ Wenn Sie die App das nächste Mal öffnen möchten, suchen Sie sie im Menü **St
 
 Nach der Installation erscheint die App im Menü **Start**. Wenn Sie eine bestimmte Umgebung für die App ausgewählt haben, wird der Name der Umgebung dem Namen der App im Menü **Start** hinzugefügt.
 
-## <a name="install-the-app-for-business-central-on-premises"></a>Installieren Sie die App für Business Central vor Ort
+## <a name="install-the-app-for--on-premises"></a>Installieren Sie die App für Business Central vor Ort
 
 Die Installation der Desktop-App, wenn Sie Business Central lokal verwenden, erfolgt direkt über den Browser, wie [oben beschrieben](#from-the-browser). Wenn Sie nur einen Mandanten haben, öffnen Sie einfach Business Central in Ihrem Browser und wählen Sie dann entweder ![Symbol für die Installation einer App in Edge.](media/ui-edge-install-app-icon.png) **App verfügbar. Business Central installieren** oder ![Symbol für die Installation einer App in Chrome.](media/ui-chrome-install-app-icon.png) **Business Central installieren** wie oben gezeigt.
 

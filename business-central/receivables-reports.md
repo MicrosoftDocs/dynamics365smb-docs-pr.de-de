@@ -9,7 +9,7 @@ ms.date: 07/13/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="accounts-receivable-reports-and-analytics-in-business-central"></a>Debitoren-Berichte und -Analysen in Business Central
+# <a name="accounts-receivable-reports-and-analytics"></a>Debitoren-Berichte und -Analysen in Business Central
 
 Um Sie bei der Verwaltung Ihrer Debitoren in [!INCLUDE [prod_short](includes/prod_short.md)] zu unterstützen, sind Standardberichte und Analysen integriert. Die App sprengt die Grenzen herkömmlicher Berichte und hilft Ihnen, verschiedene Arten von Berichten effizient zu gestalten.  
 

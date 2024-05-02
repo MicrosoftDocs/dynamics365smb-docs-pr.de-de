@@ -9,7 +9,7 @@ ms.date: 07/13/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="accounts-payable-reports-and-analytics-in-business-central"></a>Berichte und Analysen zu Verbindlichkeiten a. LL in Business Central
+# <a name="accounts-payable-reports-and-analytics"></a>Berichte und Analysen zu Verbindlichkeiten a. LL in Business Central
 
 Um Sie bei der Verwaltung Ihrer Verbindlichkeiten in [!INCLUDE [prod_short](includes/prod_short.md)] zu unterstützen, sind Standardberichte und Analysen integriert. Die App sprengt die Grenzen herkömmlicher Berichte und hilft Ihnen, verschiedene Arten von Berichten effizient zu gestalten.  
 

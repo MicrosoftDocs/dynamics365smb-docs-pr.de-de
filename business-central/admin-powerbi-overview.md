@@ -10,7 +10,7 @@ ms.date: 04/01/2021
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
-# <a name="power-bi-integration-component-and-architecture-overview-for-"></a>Übersicht über die Power BI-Integrationskomponente und -Architektur für [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="power-bi-integration-component-and-architecture-overview"></a>Übersicht über die Power BI-Integrationskomponente und -Architektur für [!INCLUDE[prod_short](includes/prod_short.md)]
 
 In diesem Artikel erfahren Sie etwas über die verschiedenen Aspekte der Power BI-Integration mit [!INCLUDE[prod_short](includes/prod_short.md)], damit Sie die Implementierung und Verwendung besser verstehen.
 

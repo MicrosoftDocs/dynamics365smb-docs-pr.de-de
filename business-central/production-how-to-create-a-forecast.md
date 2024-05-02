@@ -68,7 +68,7 @@ Anschließend legen Sie vor Ort WEST einen Kundenauftrag mit einer Menge von 12 
 > [!NOTE]  
 > Beachten Sie aber , dass die Gesamtabsatzplanung möglicherweise nicht repräsentativ ist, wenn auf dem Lagerort basierende Absatzplanungen isoliert angezeigt werden.
 
-### <a name="do-not-use-forecast-by-locations"></a>Planung pro Lagerort nicht verwenden
+### <a name="if-you-dont-use-forecast-by-locations"></a>Planung pro Lagerort nicht verwenden
 
 Wenn Sie das Feld **Verwenden Sie die Prognose nach Standort** deaktivieren, dann [!INCLUDE[prod_short](includes/prod_short.md)] berücksichtigt alle Standortcodes, die für jeden Bedarfsplanungseintrag angegeben sind, und berechnet die verbleibende Prognose für leere Standorte.  
 
