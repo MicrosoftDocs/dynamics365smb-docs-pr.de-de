@@ -10,7 +10,7 @@ ms.date: 04/08/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="create-analysis-reports"></a>Analyseberichte erstellen
+# Analyseberichte erstellen
 
 Vertriebsmanager müssen regelmäßig den Umsatz, den Bruttogewinn und andere wichtige Vertriebskennzahlen analysieren. Einkäufer interessieren sich eher für die Dynamik des Kaufvolumens, die Leistung der Lieferanten und die Einkaufspreise. Demgegenüber benötigen Logistik- und Lagerbestandsmanager Informationen zu Lagerumsatz, eine Analyse der Lagerbestandsumlagerung und Statistiken zum Lagerwert. Es gibt also keinen Analysebericht, der für alle passt.
 
@@ -22,7 +22,7 @@ Der Analysebericht besteht aus den Objekten, die Sie analysieren möchten (z. B
 
 Zusätzlich zu den Analyseberichten können Sie ähnliche Informationen in Analyseansichten (auf der Grundlage von Dimensionen) erstellen und anzeigen. Erfahren Sie mehr unter [Daten nach Dimensionen analysieren](bi-how-analyze-data-dimension.md).
 
-## <a name="example"></a>Beispiel
+## Beispiel
 
 Sie können diese Zeilen festlegen (Objekte, die Sie analysieren möchten):  
 
@@ -36,7 +36,7 @@ Dann können Sie diese Spalten festlegen (wie Sie die Objekte analysiert haben m
 - Verkäufe letzter Monat  
 - Verkäufe in Prozent zum letzten Monat  
 
-## <a name="setting-up-line-and-column-layouts"></a>Festlegen von Zeilen- und Spaltenlayouts
+## Festlegen von Zeilen- und Spaltenlayouts
 
 Auf der Seite **Analysebericht** können Sie verschiedene Zeilen- und Spalten-Layouts sehen, die Sie auf der Seite festgelegt haben:
 
@@ -56,7 +56,7 @@ Basierend auf den Zeilen und Spalten, die Sie festgelegt haben, fasst [!INCLUDE[
 
 Sie können z.B. eine Gruppe von Zeilen und mehrere Gruppen von Spaltenlayouts festlegen, um Monats- bzw. Jahresberichte anzuzeigen.
 
-## <a name="set-up-analysis-column-templates"></a>Analysespaltenvorlagen festlegen
+## Analysespaltenvorlagen festlegen
 
 Das folgende Verfahren basiert auf den Verkaufsanalyse-Ansichten. Die Schritte sind gleich für Einkaufs- und Bestandsanalyseansichten.
 
@@ -69,15 +69,15 @@ Eine Analysespaltenvorlage enthält eine Reihe von Zeilen, die jeweils eine Anal
 
     > [!NOTE]  
     > Um eine Spalte zu definieren, müssen Sie das Feld **Analysenartcode** für alle Spaltentypen außer **Formel** ausfüllen. Sie richten die Analysetypcodes auf der Seite **Analysearten** ein.  
-    
-    Wenn Sie zudem im Feld **Postenart** die Option **Artikelposten** auswählen, werden die aktuellen Zahlen aus dem Artikelposten kopiert. Wenn Sie **Artikelbudgetposten** auswählen, werden die budgetierten Zahlen aus dem Budget kopiert.  
+    >
+    > Wenn Sie zudem im Feld **Postenart** die Option **Artikelposten** auswählen, werden die aktuellen Zahlen aus dem Artikelposten kopiert. Wenn Sie **Artikelbudgetposten** auswählen, werden die budgetierten Zahlen aus dem Budget kopiert.  
 5. Wählen Sie **OK**, um Ihre Änderungen zu speichern.  
 
-## <a name="set-up-analysis-line-templates"></a>Vorlagen für Analysezeilen festlegen
+## Vorlagen für Analysezeilen festlegen
 
 Das folgende Verfahren basiert auf Analyseberichten für Aufträge. Die Schritte sind gleich für Einkaufs- und Bestandsanalyseansichten.
 
-Eine Analysezeilenvorlage enthält eine Reihe von Zeilen, die jeweils eine von Ihnen gewünschte Analysezeile im Analysebericht darstellen. Eine Zeile kann für einen oder mehrere Artikel, Debitoren, Kreditoren oder Gruppen stehen. Sie können in einer Zeile auch eine Formel erzeugen, mit der die anderen Zeilen zusammengezählt werden. Sie können so viele Zeilenvorlagen festlegen, wie Sie möchten, und diese dann zum Erstellen neuer Analyseberichte verwenden.   
+Eine Analysezeilenvorlage enthält eine Reihe von Zeilen, die jeweils eine von Ihnen gewünschte Analysezeile im Analysebericht darstellen. Eine Zeile kann für einen oder mehrere Artikel, Debitoren, Kreditoren oder Gruppen stehen. Sie können in einer Zeile auch eine Formel erzeugen, mit der die anderen Zeilen zusammengezählt werden. Sie können so viele Zeilenvorlagen festlegen, wie Sie möchten, und diese dann zum Erstellen neuer Analyseberichte verwenden.
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol, geben Sie **Vertriebszeilen-Vorlagen** ein und wählen Sie dann den entsprechenden Link.  
 2. Wählen Sie die erste leere Linie und füllen Sie die notwendigen Felder aus.
@@ -87,7 +87,7 @@ Eine Analysezeilenvorlage enthält eine Reihe von Zeilen, die jeweils eine von I
 > [!NOTE]  
 > Wenn Sie viele einzelne Zeilen für jeden Artikel, Kunden usw. erstellen möchten, können Sie alternativ die entsprechende Einfügeoption wählen, um alle relevanten Felder in der Zeile auszufüllen. Wenn es erforderlich ist, können Sie dann die Zeilen manuell bearbeiten. Um Zeilen einzufügen, wählen Sie die Aktion **Elemente einfügen** oder **Elementgruppen einfügen**.  
 
-## <a name="create-a-new-sales-analysis-report"></a>Einen neuen Verkaufsanalysebericht erstellen
+## Einen neuen Verkaufsanalysebericht erstellen
 
 Die folgende Vorgehensweise bezieht sich auf Analyseberichte für den Verkauf. Die Schritte sind für Kauf- und Bestandsanalyseberichte ähnlich.
 
@@ -102,7 +102,7 @@ Mit Analyseberichten können Sie die Dynamik Ihrer Verkäufe anhand von wichtige
 > [!NOTE]  
 > Das Einrichten von Kombinationen aus Zeilen- und Spaltenvorlagen für das Erstellen von Berichten und das Zuweisen von eindeutigen Namen zu diesen sind nicht erforderlich. Wenn Sie dies tun, müssen Sie auf der Seite **Verkaufsanalyseberichte** keine Zeilen- und Spaltenvorlagen auswählen. Nach dem Auswählen eines Berichtsnamens können Sie die Zeilen- und Spaltenvorlagen unabhängig voneinander ändern und später den Berichtsnamen erneut auswählen, um die ursprüngliche Kombination wiederherzustellen.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Financial Business Intelligence](bi.md)  
 [Finanzen](finance.md)  

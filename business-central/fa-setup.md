@@ -11,7 +11,7 @@ ms.date: 03/25/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="setting-up-fixed-assets"></a>Anlagen einrichten
+# Anlagen einrichten
 
 Um mit Anlagen arbeiten können, müssen Sie einige Elemente festlegen:  
 
@@ -26,7 +26,7 @@ Die Abschnitte in diesem Artikel enthalten Links zu weiteren Informationen zum E
 
 Wenn Sie das Kontrollkästchen für eine Anlagenaktivität im Abschnitt **Fibu-Integration** im Fenster **AfA-Buch-Karte** aktiveren, verwenden Sie die Seite **Anlagen Fibu Buch.-Blatt**, um Transaktionen für die fragliche Aktivität zu buchen.
 
-## <a name="required-setup-tasks"></a>Erforderliche Einrichtungsaufgaben
+## Erforderliche Einrichtungsaufgaben
 
 Die folgende Tabelle enthält eine Abfolge von Aufgaben zum Einrichten von Anlagen sowie Links zu dazugehörigen Artikeln.
 
@@ -35,7 +35,7 @@ Die folgende Tabelle enthält eine Abfolge von Aufgaben zum Einrichten von Anlag
 | Richten Sie Standardfinanzbuchhaltungskonten, Verteilungsschlüssel, Buch.-Blattvorlagen und - namen für Anlagebuchungen ein und erstellen Sie feste Anlageklassen und Unterklassen, wie beispielsweise materielle und immaterielle. |[Allgemeine Anlagen-Informationen einrichten](fa-how-setup-general.md) |
 | Erstellen Sie AfA-Bücher, definieren verschiedene AfA-Methoden, integrieren in die Finanzbuchhaltung und aktiveren das Kopieren der Posten in mehrere AfA-Bücher. |[Abschr. Anlagevermögen einrichten](fa-how-setup-depreciation.md) |
 
-## <a name="optional-setup-tasks-insurance-maintenance-and-user-defined-depreciation-methods"></a>Optionale Einrichtungsaufgaben (Versicherung, Wartung und benutzerdefinierte Abschreibungsmethoden)
+## Optionale Einrichtungsaufgaben (Versicherung, Wartung und benutzerdefinierte Abschreibungsmethoden)
 
 Die folgende Tabelle enthält eine Abfolge von optionalen Aufgaben zum Einrichten von Anlagen, wie Versicherung, Wartung und Abschreibungsmethoden, sowie Links zu dazugehörigen Artikeln. 
 
@@ -45,7 +45,7 @@ Die folgende Tabelle enthält eine Abfolge von optionalen Aufgaben zum Einrichte
 | Aktivieren Sie die Wartung von Anlagen, richten allgemeine Wartungsinformationen und Wartungs-Buchungskonten ein, und definieren Sie Arten von Wartungsarbeiten. |[Anlagenwartung einrichten](fa-how-setup-maintenance.md) |
 | Erfahren Sie, wie Sie Abschreibungsmethoden anwenden. |[Benutzerdefinierte AfA-Methoden einrichten](fa-how-setup-user-defined-depreciation-method.md) |
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Anlagen – Übersicht](fa-manage.md)  
 [Finanzen](finance.md)  
