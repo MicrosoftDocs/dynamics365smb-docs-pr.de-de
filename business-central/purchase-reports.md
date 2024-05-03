@@ -9,21 +9,21 @@ ms.date: 02/04/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="purchase-reporting-and-analytics"></a>Einkaufsberichte und -analysen in Business Central
+# Einkaufsberichte und -analysen in Business Central
 
 Die Einkaufsberichterstattung in [!INCLUDE [prod_short](includes/prod_short.md)] ermöglicht es Prokuristen und Experten, Einblicke in und Statistiken über aktuelle und vergangene Einkaufsaktivitäten zu erhalten.  
 
-## <a name="reports"></a>Berichte
+## Berichte
 [!INCLUDE [purchase_reports](includes/purchase-reports-include.md)]
 
-## <a name="tasks"></a>Aufgaben
+## Aufgaben
 In den folgenden Artikeln werden einige der wichtigsten Aufgaben zur Analyse des Status Ihres Unternehmens beschrieben:
 
 * [Analyseberichte erstellen](bi-how-create-analysis-views-reports.md)  
 * [Artikelverfügbarkeit anzeigen](inventory-how-availability-overview.md)  
 
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 [Einrichten des Einkaufs](purchasing-setup-purchasing.md)  
 [Einkauf](purchasing-manage-purchasing.md)  
 

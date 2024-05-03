@@ -9,7 +9,7 @@ ms.date: 06/23/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="service-management"></a>Service
+# Service
 > [!NOTE]
 > Die Funktionalität, die in diesem Thema und in Vorthemen beschrieben, handelt in der Benutzeroberfläche nur angezeigt, wenn Sie die **Premium** haben. Weitere Informationen finden Sie unter [Ändern Sie, welche Funktionen angezeigt werden](ui-experiences.md).
 
@@ -35,7 +35,7 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 |Erstellen und Verwalten vertragliche Vereinbarungen zwischen Ihnen und den Debitoren bestehen.|[Erfüllen von Serviceverträgen](service-fulfill-service-contracts.md)|  
 |Bereitstellen von Service, Debitoren und Fakturieren von Serviceaufträgen.|[Bereitstellen von Service](service-deliver-service.md)|  
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch  
 [Debitoren verwalten](receivables-manage-receivables.md)   
 [Projekte](projects-how-create-jobs.md)   
 [Willkommen bei [!INCLUDE[prod_long](includes/prod_long.md)]](welcome.md)
