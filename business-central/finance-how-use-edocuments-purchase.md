@@ -157,7 +157,7 @@ Wenn Sie etwas Toleranz hinzufügen und Unterschiede zwischen den Zeilen in der 
 3. Diese Einstellung gilt für alle übereinstimmenden Zeilen, berücksichtigt jedoch erneut die Toleranz für den Gesamtbetrag, wie für den **EK-Preis** zusammen mit dem angewandten **Zeilenrabatt %**.  
 4. Schließen Sie die Seite.   
 
-##### <a name="to-match-lines-from-e-document"></a>Um Zeilen aus E-Belegen abzugleichen
+##### <a name="matching-lines-from-e-document"></a>Um Zeilen aus E-Belegen abzugleichen
 
 Sie können die Zeilen auf der Seite **E-Beleg** abgleichen. Gehen Sie wie folgt vor, um damit zu beginnen:  
 

@@ -154,7 +154,7 @@ Sie können bestehende Debitoren in Shopify in großen Mengen als Unternehmen ex
 |**Standardkontaktberechtigungen**| Geben Sie an, welche Berechtigungen dem Hauptkontakt zugewiesen werden müssen. Sie können zwischen **Keine**, **Nur Bestellung** und **Standortadministrator** wählen.|
 |**Katalog automatisch erstellen**| Aktivieren Sie diese Option, wenn Sie einen Katalog erstellen möchten, der alle Produkte enthält. Für jedes exportierte Unternehmen wird ein Katalog erstellt.|
 
-## <a name="export-b2b-company-to-shopify"></a>B2B-Unternehmen nach Shopify exportieren
+## <a name="export-a-b2b-company-to-shopify"></a>B2B-Unternehmen nach Shopify exportieren
 
 ### <a name="initial-sync-of-b2b-companies-from-business-central-to-shopify"></a>Anfängliche Synchronisierung von B2B-Unternehmen aus Business Central mit Shopify
 

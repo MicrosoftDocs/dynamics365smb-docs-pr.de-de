@@ -327,7 +327,7 @@ Aus der [!INCLUDE[prod_short](../includes/prod_short.md)]-Perspektive, wenn Sie 
 * Den Schalter **Standardproduktstandort** verwenden, um anzugeben, ob dieser Artikel per Shopify- oder 3PL-Auftragserfüllung erfüllt wird. Es gibt immer einen **Business Central-Auftragserfüllungsdienst**, aber es können mehr Auftragserfüllungsdienste vorhanden sein, wenn mehr Apps installiert sind. Sie können **Standardproduktstandort** nur in einem Datensatz aktivieren, wenn Sie den Auftragserfüllungsdienst nutzen möchten. 
 * Den Schalter **Standardproduktstandort** verwenden, um anzugeben, welche Standorte Sie zur Bestandsverfolgung verwenden möchten. Sie können den **Standardproduktstandort** für mehrere Standorte aktivieren, bei denen **Ist Auftragserfüllungsdienst** deaktiviert ist. Beachten Sie, dass der Bestand immer für den primären Standort verfolgt wird. 
  
-#### <a name="what-is-the-difference"></a>Was ist der Unterschied?
+#### <a name="whats-the-difference"></a>Was ist der Unterschied?
 
 Die Shopify-Auftragserfüllung ist nützlich bei der Verwendung von Shopify-POS und es gibt mehrere physische Geschäfte. Sie möchten, dass die Mitarbeitenden im Ladengeschäft ihren aktuellen Lagerbestand kennen. In diesem Fall erstellen Sie mehrere Standorte in Shopify, mehrere Standorte in [!INCLUDE[prod_short](../includes/prod_short.md)] und aktivieren Sie **Standardproduktstandort** für alle diese Standorte.  
 
