@@ -9,11 +9,11 @@ ms.date: 04/24/2024
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
-# Mit Power BI-Berichten in [!INCLUDE [prod_short](includes/prod_short.md)] arbeiten
+# <a name="work-with-power-bi-reports-in-"></a>Mit Power BI-Berichten in [!INCLUDE [prod_short](includes/prod_short.md)] arbeiten
 
 In diesem Artikel erlernen Sie einige der Grundlagen zum Arbeiten mit Berichten. Hierzu gehört das Anzeigen von Power BI-Berichten in [!INCLUDE [prod_short](includes/prod_short.md)] (einschließlich Scorecards und Dashboards) und das Bearbeiten von Power BI-Berichten, die [!INCLUDE [prod_short](includes/prod_short.md)] als Datenquelle verwenden. Der Artikel beschreibt einige Aspekte, die Ihnen den Einstieg als [!INCLUDE[prod_short](includes/prod_short.md)]-Benutzer erleichtern. Allgemeine Richtlinien und Anweisungen zur Verwendung von Power BI finden Sie unter [Power BI-Dokumentation für Verbraucher](/power-bi/consumer).
 
-## Übersicht
+## <a name="overview"></a>Übersicht
 
 Power BI-Berichte geben Ihnen Einblick in Ihre [!INCLUDE[prod_short](includes/prod_short.md)]-Daten. Verschiedene Seiten in [!INCLUDE [prod_short](includes/prod_short.md)] umfassen einen Power BI-Berichtsteil, in dem Power BI-Berichte angezeigt werden können. Das Rollencenter ist eine typische Seite, auf der Sie einen Power BI-Berichtsteil anzeigen können. Einige Listenseiten, wie z. B. **Artikel**, umfassen außerdem einen Power BI-Teil.
 
@@ -21,12 +21,12 @@ Power BI-Berichte geben Ihnen Einblick in Ihre [!INCLUDE[prod_short](includes/pr
 
 ![Power BI-Teil in Business Central.](./media/power-bi-part.png)
 
-## Erste Schritte
+## <a name="get-started"></a>Erste Schritte
 
 > [!NOTE]
 > [!INCLUDE [prod_short](includes/prod_short.md)] online ist bereits für die Integration von Power BI eingerichtet.
 
-### Power BI registrieren
+### <a name="sign-up-power-bi"></a>Power BI registrieren
 
 Bevor Sie Power BI mit [!INCLUDE[prod_short](includes/prod_short.md)] verwenden können, müssen Sie sich für den Power BI-Service anmelden. Wenn Sie sich noch nicht registriert haben, wechseln Sie zu [https://powerbi.microsoft.com](https://powerbi.microsoft.com). Verwenden Sie bei der Registrierung Ihre geschäftliche E-Mail-Adresse und Ihr Kennwort.
 
@@ -38,7 +38,7 @@ Mit [!INCLUDE[prod_short](includes/prod_short.md)] online stehen Ihnen in Ihrem 
 
 [!INCLUDE[note-multicompany-reports](includes/note-multicompany-reports.md)]
 
-## <a name="connect"></a>Mit Power BI verbinden – nur ein Mal
+## <a name="connect-to-power-bi---one-time-only"></a><a name="connect"></a>Mit Power BI verbinden – nur ein Mal
 
 Wenn Sie sich zum ersten Mal bei [!INCLUDE [prod_short](includes/prod_short.md)] anmelden, sehen Sie wahrscheinlich auf einigen Seiten eventuell einen leeren Power BI-Teil. In diesem Fall müssen Sie sich zuerst mit Ihrem Power BI-Konto verbinden. Sobald die Verbindung hergestellt ist, werden Berichte angezeigt. Sie müssen diesen Schritt nur einmal ausführen.
 
@@ -62,23 +62,23 @@ Connecting to Power BI from [!INCLUDE [prod_short](includes/prod_short.md)] is s
 
 Once connected, you can select a report from the Power BI part on pages.-->
 
-## Mit Power BI-Berichten arbeiten
+## <a name="work-with-power-bi-reports"></a>Mit Power BI-Berichten arbeiten
 
-### Aktuelle Daten beziehen
+### <a name="get-the-latest-data"></a>Aktuelle Daten beziehen
 
 Jeder Power BI-Bericht basiert auf einem Datensatz, der Daten aus den [!INCLUDE[prod_short](includes/prod_short.md)]-Quellen abruft. Vergewissern Sie sich, dass die Daten in Ihren Power BI-Berichten auf dem Stand der Daten in [!INCLUDE[prod_short](includes/prod_short.md)] sind. Dieses Konzept wird als *Aktualisieren* bezeichnet.  Abhängig davon, wie Ihre Organisation Power BI eingerichtet hat, wird die Aktualisierung möglicherweise nicht automatisch durchgeführt. Es gibt zwei Möglichkeiten, Daten zu aktualisieren: manuell oder über eine geplante Aktualisierung. Die manuelle Aktualisierung erfolgt bei Bedarf. Mit der geplanten Aktualisierung werden die Daten in definierten Zeitintervallen automatisch aktualisiert.
 
-#### Manuell aktualisieren
+#### <a name="refresh-manually"></a>Manuell aktualisieren
 
 Wählen Sie in Power BI online im Navigationsbereich unter **Datasets** neben dem Dataset **Weitere Optionen (...)** und dann **Jetzt aktualisieren** aus.
 
-#### Eine Aktualisierung planen
+#### <a name="schedule-a-refresh"></a>Eine Aktualisierung planen
 
 Wählen Sie im Navigationsbereich von Power BI online unter „Datasets“ neben dem Dataset „Weitere Optionen (...)“ und dann **Aktualisierung planen** aus. Geben Sie im Bereich **Aktualisierung planen** die benötigten Informationen ein und wählen Sie **Anwenden** aus.
 
 Weitere Informationen finden Sie unter [Konfigurieren der geplanten Aktualisierung](/power-bi/connect-data/refresh-scheduled-refresh).
 
-### Berichte auf Listenseiten anzeigen
+### <a name="show-reports-on-list-pages"></a>Berichte auf Listenseiten anzeigen
 
 [!INCLUDE[prod_long](includes/prod_long.md)] umfasst eine Power BI-Infobox auf mehreren Schlüssellistenseiten. Diese FactBox bietet zusätzliche Einblicke in die Daten in der Liste. Während Sie sich zwischen den Zeilen in der Liste bewegen, wird der Bericht für den Eintrag gefiltert und aktualisiert.
 
@@ -89,13 +89,13 @@ Informationen zum Erstellen von Berichten für Listenseiten finden Sie unter [Er
 >
 > Oder wenn Sie eine ältere Version von Business Central haben, gehen Sie zur Aktionsleiste und wählen Sie **Aktionen** > **Anzeigen** > **Anzeigen/Ausblenden Power BI Berichte**.
 
-### Berichte wechseln
+### <a name="switch-reports"></a>Berichte wechseln
 
 Ein Power BI-Teil auf einer Seite kann jeden Power BI-Bericht anzeigen, der für Sie verfügbar ist. Um einen anderen Bericht anzuzeigen, wählen Sie oben aus der Dropdown-Befehlsliste die Aktion **Bericht auswählen** aus.  
 
 Die Seite **Power BI-Berichtsauswahl** zeigt eine Liste aller Power BI-Berichte an, auf die Sie Zugriff haben. Diese Liste wird aus einem Ihrer eigenen Arbeitsbereiche oder aus Arbeitsbereichen abgerufen, die mit dem Dienst Power BI für Sie freigegeben wurden. Aktivieren Sie für jeden Bericht, den Sie auf der Startseite anzeigen möchten, das Kontrollkästchen **Aktivieren**. Wählen Sie dann **OK** aus. Sie kehren zur Seite zurück und der zuletzt aktivierte Bericht wird angezeigt. Verwenden Sie die Befehle **Zurück** und **Nächster** aus der Dropdown-Befehlsliste, um zwischen Berichten zu navigieren.  
 
-### Weitere Berichte erhalten
+### <a name="get-more-reports"></a>Weitere Berichte erhalten
 
 Wenn auf der Seite **Power BI-Berichtsauswahl** kein bzw. nicht der gewünschte Bericht angezeigt wird, wählen Sie **Berichte abrufen** aus. Mit dieser Aktion können Sie von den folgenden zwei Orten aus nach Berichten suchen: *Meine Organisation* oder *Dienste*.
 
@@ -105,7 +105,7 @@ Wenn auf der Seite **Power BI-Berichtsauswahl** kein bzw. nicht der gewünschte 
 > [!TIP]
 > Falls Sie mit Power BI Desktop arbeiten, können Sie außerdem neue Power BI-Berichte erstellen. Sobald diese Berichte in Ihrem Power BI-Arbeitsbereich veröffentlicht wurden, werden sie auf der Seite **Power BI-Berichtsauswahl** angezeigt.  
 
-### Berichte verwalten und ändern
+### <a name="manage-and-modify-reports"></a>Berichte verwalten und ändern
 
 Im Power BI-Teil können Sie Änderungen an einem Bericht vornehmen. Die von Ihnen vorgenommenen Änderungen werden dann im Power BI-Dienst veröffentlicht. Wenn der Bericht mit anderen Benutzern geteilt wird, können diese die Änderungen ebenfalls sehen, sofern Sie die Änderungen nicht in einem neuen Bericht speichern.
 
@@ -116,7 +116,7 @@ Wenn Sie zum Rollencenter zurückkehren, wird der aktualisierte Bericht angezeig
 > [!NOTE]
 > Diese Funktion steht mit [!INCLUDE [prod_short](includes/prod_short.md)] on-premises nicht zur Verfügung.
 
-### <a name="upload"></a>Berichte hochladen
+### <a name="upload-reports"></a><a name="upload"></a>Berichte hochladen
 
 Power BI-Berichte können als .pbix-Dateien unter den Benutzern verteilt werden. Wenn .pbix-Dateien vorhanden sind, können Sie diese hochladen und mit allen Benutzern von [!INCLUDE [prod_short](includes/prod_short.md)] teilen. Die Berichte werden in jedem Unternehmen in [!INCLUDE [prod_short](includes/prod_short.md)] geteilt.  
 
@@ -127,7 +127,7 @@ Nachdem der Bericht in Ihren Power BI-Arbeitsbereich hochgeladen wurde, wird er 
 > [!NOTE]
 > Sie brauchen zum Hochladen eines Berichts durch [!INCLUDE[prod_short](includes/prod_short.md)] SUPERUSER-Berechtigungen in [!INCLUDE[prod_short](includes/prod_short.md)]. Sie benötigen keine besondere Berechtigung, um Berichte über den Power BI-Dienst in Ihren Arbeitsbereich hochzuladen.
 
-## <a name="upload"></a>Hochladen von Berichten aus Dateien
+## <a name="upload-reports-from-files"></a><a name="upload"></a>Hochladen von Berichten aus Dateien
 
 Power BI-Berichte können als .pbix-Dateien unter den Benutzern verteilt werden. Wenn Sie eine .pbix-Datei haben, können Sie die Datei in einen Arbeitsbereich hochladen. Gehen Sie folgendermaßen vor, um einen Bericht hochzuladen:
 
@@ -146,7 +146,7 @@ Weitere Informationen finden Sie unter [Hochladen des Berichts in den Dienst](/p
 > [!TIP]
 > Wenn Sie [!INCLUDE[prod_short](includes/prod_short.md)] online verwenden, können Sie einen Bericht auch aus [!INCLUDE[prod_short](includes/prod_short.md)] hochladen. Weitere Informationen finden Sie unter [Mit Power BI-Berichten in [!INCLUDE [prod_short](includes/prod_short.md)] arbeiten – Berichte hochladen](across-working-with-powerbi.md#upload).
 
-## <a name="share"></a>Berichte mit anderen teilen
+## <a name="share-reports-with-others"></a><a name="share"></a>Berichte mit anderen teilen
 
 Sobald sich ein Bericht in Ihrem Arbeitsbereich befindet, können Sie ihn mit anderen Personen in Ihrer Organisation teilen.
 
@@ -155,23 +155,23 @@ Um einen Bericht zu teilen, wählen Sie in einer Liste mit Berichten oder in ein
 > [!NOTE]
 > Sowohl Sie als auch die Personen, mit denen Sie den Bericht teilen, müssen über eine [Power BI Pro-Lizenz](/power-bi/service-features-license-type) verfügen. Andernfalls muss sich der Inhalt in einer [Premium-Kapazität](/power-bi/service-premium-what-is) befinden. Weitere Informationen finden Sie unter [Möglichkeiten zur gemeinsamen Nutzung Ihrer Arbeit in Power BI](/power-bi/service-how-to-collaborate-distribute-dashboards-reports).
 
-## Probleme beheben
+## <a name="fixing-problems"></a>Probleme beheben
 
 Wenn etwas schief geht, stellt dieser Abschnitt eine Problemumgehung für die häufigsten Probleme bereit.  
 
-### Kein Power BI-Konto vorhanden
+### <a name="you-dont-have-a-power-bi-account"></a>Kein Power BI-Konto vorhanden
 
 Es wurde kein Power BI-Konto eingerichtet. Für ein gültiges Power BI-Konto benötigen Sie eine Lizenz und müssen sich zuvor bei Power BI angemeldet haben, um einen Power BI-Arbeitsbereich zu erstellen.
 
-### Nachricht: Es sind keine Berichte aktiviert. Wählen Sie „Bericht auswählen“ aus, um eine Liste der anzeigbaren Berichte anzuzeigen.
+### <a name="message-there-are-no-enabled-reports-choose-select-report-to-see-a-list-of-reports-that-you-can-display"></a>Nachricht: Es sind keine Berichte aktiviert. Wählen Sie „Bericht auswählen“ aus, um eine Liste der anzeigbaren Berichte anzuzeigen.
 
 Diese Meldung wird angezeigt, wenn der Standardbericht nicht in Ihrem Power BI-Arbeitsbereich bereitgestellt werden konnte. Oder er wurde bereitgestellt, aber nicht erfolgreich aktualisiert. Navigieren Sie zum Bericht in Ihrem Power BI-Arbeitsbereich, wählen Sie **Datensatz**, **Einstellungen** aus und aktualisieren Sie die Anmeldedaten manuell. Sobald das Dataset erfolgreich aktualisiert wurde, navigieren Sie zurück zu [!INCLUDE[prod_short](includes/prod_short.md)] und wählen den Bericht manuell auf der Seite **Berichte auswählen** aus.
 
-#### Auf der Seite „Bericht auswählen“ auf einer Listenseite wird kein Bericht angezeigt
+#### <a name="you-cant-see-a-report-on-the-select-report-page-on-a-list-page"></a>Auf der Seite „Bericht auswählen“ auf einer Listenseite wird kein Bericht angezeigt
 
 Vermutlich enthält der Name des Berichts nicht den Namen der Listenseite. Löschen Sie den Filter, um die vollständige Liste der verfügbaren Power BI-Berichte anzuzeigen.
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Business Central und Power BI](admin-powerbi.md)    
 [Power BI-Berichte zur Anzeige von [!INCLUDE [prod_long](includes/prod_long.md)]-Daten erstellen](across-how-use-financials-data-source-powerbi.md)    
