@@ -1,22 +1,22 @@
 ---
-title: Analysieren von Daten nach Dimensionen
+title: Daten nach Dimensionen analysieren
 description: 'Dieser Artikel beschreibt, wie Sie Geschäftsdaten nach Dimensionen analysieren können, um einen besseren Einblick in Ihr Unternehmen zu erhalten.'
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: kepontop
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: 'bi, power BI, analysis, KPI'
 ms.search.form: '545, 555, 556, 557, 558, 9372, 9370, 9371'
-ms.date: 03/27/2024
+ms.date: 04/19/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="analyze-data-by-dimensions"></a>Daten nach Dimensionen analysieren
+# Daten nach Dimensionen analysieren
 
 In der Finanzanalyse sind Dimensionen Daten, die Sie einem Posten als eine Art Markierung hinzufügen, um Posten mit ähnlichen Eigenschaften in Gruppen zusammenzufassen. Dimensionen gruppieren beispielsweise häufig Posten für Debitoren, Regionen, Produkte und Vertriebsmitarbeitende. Mit den Gruppen können Sie ganz einfach Daten über sie zur Analyse abrufen. Sie können Dimensionen für Posten in Buch.-Blättern, Belegen und Budgets verwenden.
 
-Jede Dimension beschreibt den Schwerpunkt der Analyse. Eine zweidimensionale Analyse wäre z. B. der Umsatz pro Bereich. Wenn Sie beim Erstellen eines Postens mehr als zwei Dimensionen verwenden, können Sie eine komplexere Analyse durchführen. Ein Beispiel für eine komplexe Analyse ist die Untersuchung der Verkäufe pro Verkaufskampagne, Debitorengruppe und Region. So erhalten Sie einen besseren Einblick in Ihr Unternehmen, z. B. wie gut Ihr Geschäft läuft, wo es floriert und wo nicht und wo Sie mehr Ressourcen zuweisen sollten. Mithilfe dieser Einblicke können Sie fundiertere Geschäftsentscheidungen treffen. Unter [Arbeiten mit Dimensionen](finance-dimensions.md) erfahren Sie mehr.
+Jede Dimension beschreibt den Schwerpunkt der Analyse. Eine zweidimensionale Analyse wäre z.B. der Umsatz pro Bereich. Wenn Sie beim Erstellen eines Postens mehr als zwei Dimensionen verwenden, können Sie eine komplexere Analyse durchführen. Ein Beispiel für eine komplexe Analyse ist die Untersuchung der Verkäufe pro Verkaufskampagne, Debitorengruppe und Region. So erhalten Sie einen besseren Einblick in Ihr Unternehmen, z. B. wie gut Ihr Geschäft läuft, wo es floriert und wo nicht und wo Sie mehr Ressourcen zuweisen sollten. Mithilfe dieser Einblicke können Sie fundiertere Geschäftsentscheidungen treffen. Unter [Arbeiten mit Dimensionen](finance-dimensions.md) erfahren Sie mehr.
 
 > [!TIP]
 > Um Transaktionsdaten schnell nach Dimensionen zu analysieren, können Sie die Summen im Kontenplan (CoA) und die Einträge auf allen **Buchungen**-Seiten nach Dimensionen filtern. Suchen Sie nach der Aktion **Dimensionsfilter festlegen**.
@@ -24,7 +24,7 @@ Jede Dimension beschreibt den Schwerpunkt der Analyse. Eine zweidimensionale Ana
 > [!NOTE]
 > Wenn Sie feststellen, dass bei gebuchten Sachposten ein falscher Dimensionswert verwendet wurde, können Sie ihn korrigieren und Ihre Analyseansichten aktualisieren. Weitere Informationen finden Sie unter [Problembehandlung und Korrektur von Dimensionen](finance-troubleshooting-correcting-dimensions.md#changing-dimension-assignments-after-posting).
 
-## <a name="set-up-an-analysis-view"></a>Eine Analysesicht festlegen
+## Eine Analysesicht festlegen
 
 Eine Analyse nach Dimensionen verwendet eine ausgewählte Kombination von Dimensionen. Sie speichern, rufen diese Dimensionen-Kombination ab und aktualisieren sie, indem Sie eine **Analyseansicht**-Karte erstellen.
 
@@ -34,7 +34,7 @@ Eine Analyse nach Dimensionen verwendet eine ausgewählte Kombination von Dimens
 4. Um zusätzlich zu den vier Codes auf dem Inforegister **Dimensionen** weitere Dimensionen hinzuzufügen, wählen Sie die Aktion **Filter**, füllen die Felder aus und wählen dann die Schaltfläche **OK**.  
 5. Um die Ansicht zu aktualisieren, wählen Sie die **Aktualisieren** Aktion.
 
-## <a name="analyze-by-dimensions"></a>Analysieren nach Dimensionen
+## Analysieren nach Dimensionen
 
 Verwenden Sie die Analyseansichten, die Sie bereits mit der **Analyse nach Dimensionen** Matrix festgelegt haben, um die Beträge in Ihrem Hauptbuch zu betrachten.
 
@@ -56,7 +56,7 @@ Verwenden Sie die Analyseansichten, die Sie bereits mit der **Analyse nach Dimen
 > [!TIP]  
 > Sie können die Ansicht auch ändern, indem Sie den Inhalt der Felder **Als Zeilen anzeigen** und **Als Spalten anzeigen** ändern. Um eine Ansichtseinstellung auszutauschen, wählen Sie die **Zeilen- und Spaltenansicht vertauschen**.
 
-## <a name="update-an-analysis-view"></a>Eine Analyseansicht aktualisieren
+## Eine Analyseansicht aktualisieren
 
 Die Beträge auf der Seite **Analyse nach Dimensionen** vermitteln Ihnen ein Bild vom Status der Firma zum Zeitpunkt der letzten Aktualisierung. Um den aktuellen Status abzurufen, führen Sie die Aktualisierungsaktion aus, um die Analyseansicht zu aktualisieren.
 
@@ -74,7 +74,7 @@ Gehen Sie wie folgt vor, um eine Analyseansicht auf der Seite **Analyse nach Dim
 > [!NOTE]  
 > Um eine oder alle Analyseansichten gleichzeitig zu aktualisieren, verwenden Sie den Batchauftrag **Analyseansichten aktualisieren**.  
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Financial Business Intelligence](bi.md)  
 [Finanzen](finance.md)  

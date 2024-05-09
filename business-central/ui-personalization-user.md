@@ -11,7 +11,7 @@ ms.search.form: '9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 900
 ms.date: 01/15/2024
 ms.author: jswymer
 ---
-# <a name="personalize-your-workspace"></a>Arbeitsbereich personalisieren
+# Arbeitsbereich personalisieren
 
 Sie können ihren Arbeitsbereich an Ihre Arbeit und Ihre Bedürfnisse anpassen. Ändern Sie die Seiten so, dass sie nur die Informationen anzeigen, die Sie benötigen, wo Sie sie benötigen. Personalisierung wirkt sich nur auf den Arbeitsbereich aus. Es ändert nichts daran, wie andere arbeiten. Sie können alle Typen von Seiten personalisieren, einschließlich der Seite [Rollencenter](ui-change-basic-settings.md#role-center).
 
@@ -27,13 +27,13 @@ Sie können verschiedene Änderungen vornehmen, z. B. Verschieben und Ausblenden
 > Administratoren können dieselben Layoutänderungen wie Benutzer durchführen, indem sie Profil (Rolle) anpassen, dem mehrere Benutzer zugewiesen sind. Um mehr über Seiten für Rollen zu erfahren, gehen Sie zu [Seiten für Rollen anpassen](ui-personalization-manage.md)<br /><br />
 Administratoren können auch Personalisierungen der Benutzer überschreiben und definieren, welche Funktionen in allen oder bestimmten Unternehmen zugänglich sind. Weitere Informationen finden Sie unter [Anpassen von Business Central](ui-customizing-overview.md).
 
-## <a name="video"></a>Video
+## Video
 
 Das folgende Video zeigt einige Möglichkeiten, wie Sie Ihr Rollencenter personalisieren können.
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4ArUB?rel=0]
 
-## <a name="change-the-width-of-a-column"></a>Ändern der Breite einer Spalte
+## Ändern der Breite einer Spalte
 
 Sie können die Größe der Spalten in jeder Liste einfach ändern. Ziehen Sie einfach die Grenze zwischen zwei Spalten nach links oder rechts.  
 
@@ -42,7 +42,7 @@ Sie können die Größe der Spalten in jeder Liste einfach ändern. Ziehen Sie e
 
 Wie bei anderen Personalisierungen werden die Änderungen, die Sie an der Spaltenbreite vornehmen, in Ihrem Konto gespeichert und folgen Ihnen, unabhängig davon, auf welchem Gerät Sie sich anmelden.
 
-## <a name="start-personalizing-by-using-the-personalization-mode"></a>Beginnen Sie mit der Personalisierung, indem Sie den Personalisierungsmodus verwenden
+## Beginnen Sie mit der Personalisierung, indem Sie den Personalisierungsmodus verwenden
 
 1. Öffnen Sie eine beliebige Seite, die Sie personalisieren möchten.
 1. Wählen Sie in der oberen rechten Ecke das Symbol ![Einstellungen.](media/ui-experience/settings_icon_small.png "Einstellungssymbol für Rollencenter") Symbol, und wählen Sie dann die Aktion **Personalisieren**.
@@ -60,7 +60,7 @@ Wie bei anderen Personalisierungen werden die Änderungen, die Sie an der Spalte
 
 Weitere Informationen finden Sie unter [Was Sie personalisieren können](#What).
 
-## <a name="what-you-can-personalize"></a><a name="What"></a>Was Sie personalisieren können
+## <a name="What"></a>Was Sie personalisieren können
 
 |Was möchten Sie tun|So geht es|Bemerkungen|
 |----|------------|-------|
@@ -77,7 +77,7 @@ Weitere Informationen finden Sie unter [Was Sie personalisieren können](#What).
 |Fügen Sie einer Seite oder einem Bericht in Ihrem Role Center eine neue Aktion hinzu.|Wählen Sie das Lesezeichensymbol auf der Zielseite, auf der Berichtsanforderungsseite oder im Fenster „Wie möchten Sie weiter verfahren“ aus.|[Weitere Informationen zum Setzen von Lesezeichen für Seiten und Berichte](ui-bookmarks.md)|
 |Listen immer erweitert oder reduziert anzeigen|Wählen Sie in der oberen linken Ecke der Liste die Schaltfläche **Alle erweitern** oder **Alle reduzieren** aus. Sie können auch die Aktion **Alle erweitern** oder **Alle reduzieren** im Menü der ersten Spalte auswählen. |Gilt für reduzierbare Hierarchielisten|
 
-## <a name="personalize-action-bar-and-menus"></a><a name="Actions"></a>Aktionsleiste und Menüs personalisieren
+## <a name="Actions"></a>Aktionsleiste und Menüs personalisieren
 
 Mit der Personalisierung können Sie entscheiden, welche Aktionen auf den Navigations- und Aktionsleisten und in den Rollenzentren angezeigt werden sollen und wo sie angezeigt werden sollen. Sie können einzelne Aktionen oder Aktionsgruppen ausblenden, anzeigen oder verschieben.
 
@@ -96,7 +96,7 @@ Eine *Heraufgestufte Kategorie* ist eine Aktionsgruppe, die vor der senkrechten 
 > [!NOTE]  
 > Um die Personalisierung zu löschen, wählen Sie den Pfeil, der das Designermenü des Teils umgibt, und dann **Personalisierung löschen** aus.
 
-### <a name="remove-hide-and-show-actions-and-action-groups"></a>Aktionen und Aktionsgruppen entfernen, ausblenden und anzeigen
+### Aktionen und Aktionsgruppen entfernen, ausblenden und anzeigen
 
 Wenn Sie eine Aktion ein- oder ausblenden möchten, definieren die Optionen unter der Pfeilspitze, was je nach Status der Aktion geschehen kann. 
 
@@ -109,7 +109,7 @@ Wenn Sie eine Aktion ein- oder ausblenden möchten, definieren die Optionen unte
 |**Ausblenden**|Diese Option wird angezeigt, wenn sich die Aktion oder Aktionsgruppe nicht an anderer Stelle in der Navigationsleiste oder Aktionsleiste befindet. Wie **Entfernen** führt die Auswahl dieser Option dazu, dass die Aktion oder Aktionsgruppe aus der Navigations- oder Aktionsleiste verschwindet. Im Personalisierungsmodus wird die Aktion oder die Aktionsgruppe allerdings noch an der aktuellen Stelle angezeigt, aber abgedunkelt.|
 |**Anzeigen**|Diese Option wird angezeigt, wenn die Aktion oder Aktionsgruppe ausgeblendet wurde (abgedunkelt). Wenn Sie diese Option wählen, erscheint die Aktion oder Aktionsgruppe in der Navigationsleiste oder der Aktionsleiste.|
 
-### <a name="move-actions-and-action-groups"></a>Aktionen und Aktionsgruppen verschieben
+### Aktionen und Aktionsgruppen verschieben
 
 Stellen, an denen Sie Aktionen oder Aktionsgruppen ablegen können, wird durch eine horizontale Linie zwischen zwei Aktionen oder einem Rand um eine Aktionsgruppe angegeben. Folgende Beschränkungen gelten:
 
@@ -119,7 +119,7 @@ Stellen, an denen Sie Aktionen oder Aktionsgruppen ablegen können, wird durch e
 1. Um eine Aktion oder eine Aktionsgruppe zu verschieben, ziehen Sie sie an die gewünschte Position, wie bei Feldern und Spalten.
 2. Um eine Aktion oder eine Aktionsgruppe in eine andere leere Aktionsgruppe zu verschieben, ziehen Sie Aktion oder Aktionsgruppe in die neue Gruppe und lassen Sie sie im Feld **Aktion hier ablegen** fallen.
 
-### <a name="about-the-automate-menu"></a>Über das Automatisieren-Menü
+### Über das Automatisieren-Menü
 
 - Sie können das Menü **Automatisieren** oder das Untermenü **Power Automate** und seine Aktionen nicht ausblenden oder verschieben.
 - Sie können Flows, die unter dem Element **Automatisieren** enthalten sind, verschieben, aber Sie können sie nicht über die Personalisierung ausblenden. Durch das Verschieben des Flows wird der Flow an den Zielort kopiert, er wird jedoch nicht aus dem Element **Automatisieren** entfernt.
@@ -127,7 +127,7 @@ Stellen, an denen Sie Aktionen oder Aktionsgruppen ablegen können, wird durch e
 > [!TIP]
 > Als Administrator können Sie das Element **Automatisierung** vor den Benutzern verbergen. Mehr dazu erfahren Sie unter [Einrichten der Power Automate Integration](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup).
 
-## <a name="personalize-parts"></a><a name="Parts"></a>Personalisierung von Teilen
+## <a name="Parts"></a>Personalisierung von Teilen
 
 Zeigen Sie auf <kbd>ALT</kbd>+<kbd>NACH-OBEN-TASTE</kbd> oder wählen Sie es aus. Teile sind Bereiche auf einer Seite, die in der Regel aus mehreren Feldern, Diagrammen oder anderen Inhalten bestehen. Ein Teil zeigt einen farbigen Rahmen, wenn Sie den Fokus auf den Teil legen. Beispielsweise besteht ein Startbildschirm des Rollenzentrums aus mehreren Teilen. Aufgrund ihrer klar definierten Grenzen können Sie den gesamten Teil und dessen Inhalt personalisieren.
 
@@ -137,9 +137,9 @@ Zeigen Sie auf <kbd>ALT</kbd>+<kbd>NACH-OBEN-TASTE</kbd> oder wählen Sie es aus
 
 Sie können alle Personalisierungsänderungen, die Sie innerhalb eines einzelnen Teils vorgenommen haben, löschen, indem Sie die Aktion **Personalisierung löschen** unter der Pfeilspitze des Teils wählen. Die Freigabe der Personalisierung eines Teils wirkt sich nur auf Änderungen des Inhalts des Teils aus, nicht auf die Platzierung oder Sichtbarkeit des Teils auf der Seite.  
 
-## <a name="work-with-fields-and-columns"></a><a name="fields"></a>Mit Feldern und Spalten arbeiten
+## <a name="fields"></a> Mit Feldern und Spalten arbeiten
 
-Wenn Sie eine Seite personalisieren, verwenden Sie den Bereich **Feld zur Seite hinzufügen**, um Felder oder Spalten auf der Seite einzubeziehen, die derzeit von der Ansicht ausgeblendet sind. Wählen Sie oben auf der Seite die Aktion **+ Feld** aus, um diesen Bereich zu öffnen. Im Gegensatz zu anderen ausgeblendeten Elementen werden ausgeblendete Felder im Personalisierungsmodus nicht auf der Seite selbst angezeigt. Sie können jedoch ausgeblendete Felder identifizieren, indem Sie den Bereich **Feld zur Seite hinzufügen** verwenden.
+Wenn Sie eine Seite personalisieren, verwenden Sie den Bereich **Feld zur Seite hinzufügen**, um Felder oder Spalten auf der Seite einzubeziehen, die derzeit ausgeblendet sind. Wählen Sie oben auf der Seite die Aktion **+ Feld** aus, um diesen Bereich zu öffnen. Im Gegensatz zu anderen ausgeblendeten Elementen werden ausgeblendete Felder im Personalisierungsmodus nicht auf der Seite selbst angezeigt. Sie können jedoch ausgeblendete Felder identifizieren, indem Sie den Bereich **Feld zur Seite hinzufügen** verwenden.
 
 Hier finden Sie einige allgemeine Richtlinien, die Sie bei der Verwendung des Bereichs **Feld zur Seite hinzufügen** befolgen sollten:
 
@@ -152,7 +152,7 @@ Hier finden Sie einige allgemeine Richtlinien, die Sie bei der Verwendung des Be
 - Die im Bereich **Feld zur Seite hinzufügen** verfügbaren Felder werden von der Entwicklungsfachkraft der Seite und ihrer Quelltabelle oder von der Profiladministration bestimmt, welche die [Seite angepasst](ui-personalization-manage.md) hat. Sie können keine neuen Referenzen erstellen.
 - Einige Seiten verfügen über mehrere Seitenfelder, die derselben Quelltabelle zugeordnet sind. Im Bereich werden beide bzw. alle dieser Seitenfelder unabhängig voneinander angezeigt. Das Ein-/Ausblenden/Verschieben dieser Felder erfolgt ebenfalls unabhängig voneinander, ohne dass sich das eine auf das andere auswirkt.
 
-### <a name="add-a-field-so-its-visible-on-the-page"></a>Feld hinzufügen, damit es auf der Seite sichtbar ist
+### Feld hinzufügen, damit es auf der Seite sichtbar ist
 
 Im Bereich **Feld zur Seite hinzufügen** gibt es zwei Möglichkeiten, ein Feld einzuschließen, das derzeit auf der Seite ausgeblendet ist:
 
@@ -162,7 +162,7 @@ Im Bereich **Feld zur Seite hinzufügen** gibt es zwei Möglichkeiten, ein Feld 
 > [!NOTE]
 > Einige Felder, die Sie hinzufügen, können auf der Seite nicht mehr bearbeitet werden, wenn Sie mit der Personalisierung fertig sind. Diese Felder sind entweder ursprünglich so gestaltet oder ein Administrierender hat die Seite [angepasst](ui-personalization-manage.md), um zu verhindern, dass Sie sie bearbeiten.
 
-## <a name="clear-personalization"></a>Personalisierung löschen
+## Personalisierung löschen
 
 Deaktivieren Sie einige oder alle an dieser Seite im Lauf der Zeit vorgenommenen Personalisierungsänderungen.
 
@@ -179,7 +179,7 @@ Deaktivieren Sie einige oder alle an dieser Seite im Lauf der Zeit vorgenommenen
 |**Nur Felder und Spalten**|Löscht alle Personalisierungsänderungen, die Sie jemals an der Seite vorgenommen haben, mit Ausnahme der Änderungen an der Navigations- oder Aktionsleiste. Hierzu zählen beispielsweise Änderungen an Feldern, Spalten, Teilen und Kacheln. |
 |**Alle**|Löscht alle an dieser Seite vorgenommenen Personalisierungsänderungen, sodass die Seite wieder wie zuvor aussieht. Hierzu zählen beispielsweise Änderungen an Navigations- und Aktionsleisten, Feldern, Spalten, Teilen und Kacheln.|
 
-## <a name="tips-and-other-points-of-interest"></a>Tipps und andere Punkte von Interesse
+## Tipps und andere Punkte von Interesse
 
 Um die Personalisierung besser zu verstehen, finden Sie hier einige Hinweise.
 
@@ -190,7 +190,7 @@ Um die Personalisierung besser zu verstehen, finden Sie hier einige Hinweise.
 - Einige Seiten verfügen über mehrere Seitenfelder, die derselben Quelltabelle zugeordnet sind. Im Bereich werden beide bzw. alle dieser Seitenfelder unabhängig voneinander angezeigt. Das Ein-/Ausblenden/Verschieben dieser Felder erfolgt ebenfalls unabhängig voneinander, ohne dass sich das eine auf das andere auswirkt.
 - Wenn ein Teil oder eine Gruppe ausgeblendet ist, werden weiterhin Geisterfelder darin angezeigt, aber Sie können dieses Feld nicht per Drag & Drop verschieben oder hinzufügen/anzeigen, bis Sie die Gruppe/den Teil sichtbar gemacht haben.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Seiten für Profile anpassen](ui-personalization-manage.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

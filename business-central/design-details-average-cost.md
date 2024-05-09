@@ -1,43 +1,44 @@
 ---
-title: Design Details - Durchschnittliche Kalkulation
+title: "Designdetails\_– durchschnittliche Kosten"
 description: Die durchschnittlichen Kosten eines Artikels werden anhand eines periodischen gewichteten Durchschnitts berechnet.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.devlang: al
 ms.search.keywords: null
 ms.search.form: '8645,'
-ms.date: 06/06/2023
-ms.author: bholtorf
+ms.date: 04/26/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# <a name="design-details-average-cost"></a>Designdetails: Einstandspreis
+# Designdetails: durchschnittliche Kosten
 
-Die durchschnittlichen Kosten eines Artikels werden anhand eines periodischen gewichteten Durchschnitts berechnet. Der Durchschnitt basiert auf der Durchschnittskostenperiode, die in [!INCLUDE[prod_short](includes/prod_short.md)] eingerichtet ist.  
+Die durchschnittlichen Kosten eines Artikels werden anhand eines periodischen gewichteten Durchschnitts berechnet. Der Durchschnitt basiert auf der Durchschnittskostenperiode, die Sie in [!INCLUDE[prod_short](includes/prod_short.md)] eingerichtet haben.  
 
 Das Bewertungsdatum wird automatisch festgelegt.  
 
-## <a name="setting-up-average-cost-calculation"></a>Einrichten der-Durchschnittskostenberechnung
+## Die Durchschnittskostenberechnung einrichten
 
 In der folgenden Tabelle werden die beiden Felder auf der Seite **Lager einrichten** beschrieben, die ausgefüllt werden müssen, um die Durchschnittskostenberechnung zu aktivieren.  
 
 |Feld|Beschreibung|  
 |---------------------------------|---------------------------------------|  
-|**Durchschnittskostenperiode**|Gibt an, in welcher Periode die Durchschnittskosten berechnet werden. Folgende Optionen sind verfügbar:<br /><br /> - **Tag**<br />- **Woche**<br />- **Monat**<br />- **Buchhaltungsperiode**<br /><br /> Für Lagerabgänge, die während der Durchschnittskostenperiode gebucht wurden, wird der durchschnittliche Einstandspreis verwendet, der für diese Periode berechnet wurde.|  
-|**Einst.-Pr. (durchschn.) Ber.-Art**|Gibt an, wie die durchschnittlichen Kosten eines Artikels berechnet werden. Folgende Optionen sind verfügbar:<br /><br /> - **Artikel**<br />- **Artikel, Variante und Lagerort**<br /> Wenn diese Option ausgewählt ist, berechnet die Anwendung den durchschnittlichen Einstandspreis pro Artikel für jeden Lagerort und für jede Variante des Artikels. Der durchschnittliche Einstandspreis des Artikels davon abhängt, wo er gelagert wird und welche Variante (z. B. welche Farbe) Sie auswählen.|  
+|**Durchschnittskostenperiode**|Gibt an, in welcher Periode die Durchschnittskosten berechnet werden. Folgende Optionen sind verfügbar:<br /><br /> - **Tag**<br />- **Woche**<br />- **Monat**<br />- **Buchhaltungsperiode**<br /><br /> Bei Lagerabgängen, die während der Durchschnittskostenperiode gebucht wurden, wird der durchschnittliche Einstandspreis verwendet, der für diese Periode berechnet wurde.|  
+|**Einst.-Pr. (durchschn.) Ber.-Art**|Gibt an, wie die durchschnittlichen Kosten eines Artikels berechnet werden. Folgende Optionen sind verfügbar:<br /><br /> - **Artikel**<br />- **Artikel, Variante und Lagerort**<br /> Wenn diese Option ausgewählt ist, berechnet die Anwendung den durchschnittlichen Einstandspreis pro Artikel für jeden Lagerort und für jede Variante des Artikels. Die durchschnittlichen Kosten des Artikels davon abhängt, wo Sie ihn gelagert und welche Variante (z. B. welche Farbe) Sie ausgewählt haben.|  
 
 > [!NOTE]  
 > Sie können nur eine Durchschnittskostenperiode und eine Berechnungsart für den durchschnittlichen Einstandspreis pro Geschäftsjahr verwenden.  
 >
 > Die Seite **-Buchhaltungsperioden** zeigt, welche Durchschnittskostenperiode und welche Berechnungsart für diese Periode für jede Buchhaltungsperiode aktiv ist.  
 
-## <a name="calculating-average-cost"></a>Durchschnittskosten berechnen
+## Durchschnittliche Kosten berechnen
 
  Wenn Sie eine Transaktion für einen Artikel buchen, für den die Lagerabgangsmethode "Durchschnitt" verwendet wird, erstellt die Anwendung einen Posten in der Tabelle **Einst.-Pr. (durchschn.) Regul. Startzeitpunkt**. Dieser Posten enthält die Artikelnummer, den Variantencode und den Lagerortcode der Transaktion. Darüber hinaus enthält der Posten das **Bewertungsdatum**, das das letzte Datum der Durchschnittskostenperiode ist, in der die Transaktion gebucht wurde.  
 
 > [!NOTE]  
 > Dieses Feld sollte nicht mit dem Feld **Bewertungsdatum** in der Tabelle **Eintragswert** verwechselt werden, die das Datum anzeigt, an dem der Wert Gültigkeit hat und die verwendet wird, um die Durchschnittskostenperiode festzulegen, zu der der Wertposten gehört.  
 
- Die Durchschnittskosten einer Transaktion werden berechnet, wenn die Kosten des Artikels reguliert werden. Weitere Informationen finden Sie unter [Designdetails: Kostenanpassung](design-details-cost-adjustment.md) Eine Kostenregulierung verwendet die Posten in der Tabelle **Einst.-Pr. (durchschn.) Regul. Startzeitpunkt**, um zu ermitteln, für welche Artikel (oder Artikel, Lagerorte und Varianten) durchschnittliche Einstandspreise berechnet werden sollen. Für jeden Posten, der noch nicht reguliert wurde, geht die Einstandspreisregulierung wie folgt vor, um den durchschnittlichen Einstandspreis zu bestimmen:  
+ Die Durchschnittskosten einer Transaktion werden berechnet, wenn die Kosten des Artikels reguliert werden. Weitere Informationen finden Sie unter [Designdetails: Kostenanpassung](design-details-cost-adjustment.md) Eine Kostenregulierung verwendet die Posten in der Tabelle **Einst.-Pr. (durchschn.) Regul. Startzeitpunkt**, um zu ermitteln, für welche Artikel (oder Artikel, Lagerorte und Varianten) durchschnittliche Einstandspreise berechnet werden sollen. Für jeden Posten, der noch nicht angepasst wurde, geht die Kostenanpassung wie folgt vor, um die durchschnittlichen Kosten zu bestimmen:  
 
 - Ermitteln des Einstandspreises des Artikels zu Beginn der Durchschnittskostenperiode.  
 - Hinzufügen der Summe der Wareneingangskosten, die während der Durchschnittskostenperiode gebucht wurden. Dazu gehören Einkäufe, Verkaufsreklamationen, Istmeldungen und Produktions- und Montageausstoß.  
@@ -46,11 +47,11 @@ In der folgenden Tabelle werden die beiden Felder auf der Seite **Lager einricht
 
  Das Programm wendet diesen durchschnittlichen Einstandspreis dann mit den Buchungsdaten auf die Lagerabgänge für den Artikel (oder Artikel, Lagerort und Variante) an, die es in der Durchschnittskostenperiode gegeben hat. Wenn Lagerzugänge vorhanden sind, die fest mit Lagerabgängen in der Durchschnittskostenperiode verknüpft sind, überträgt [!INCLUDE [prod_short](includes/prod_short.md)] den berechneten durchschnittlichen Einstandspreis von dem Zugang an den Abgang.  
 
-### <a name="example-average-cost-period--day"></a>Beispiel: Durchschnittskostenperiode = Tag
+### Beispiel: Durchschnittskostenperiode = Tag
 
 Das folgende Beispiel zeigt die Auswirkungen der Berechnung des durchschnittlichen Einstandpreises auf der Grundlage einer Durchschnittskostenperiode von einem Tag. Das Feld **Durchschnittlicher Kostenberechnungstyp** auf der Seite **Lager Einrichtung** ist auf **Artikel** festgelegt.  
 
-Die folgende Tabelle zeigt Artikelposten für den Beispiel-Durchschnittkostenartikel, ITEM1, bevor die **Lagerreg. fakt. Einst. Preise**-Stapelverarbeitung ausgeführt wurde.  
+Die folgende Tabelle zeigt Artikelposten für den Beispiel-Durchschnittkostenartikel, ITEM1, bevor Sie den Batchauftrag **Lagerreg. fakt. Einst. Preise** ausführen.  
 
 | **Buchungsdatum** | **Artikelpostenart** | **Menge** | **Einstandsbetrag (tatsächl.)** | **Postennummer** |
 |--|--|--|--|--|
@@ -64,7 +65,7 @@ Die folgende Tabelle zeigt Artikelposten für den Beispiel-Durchschnittkostenart
 > [!NOTE]  
 > Da die Kostenregulierung noch nicht stattgefunden hat, werden Werte im **Einstandsbetrag (tatsächl.)**-Feld des Bestandes entsprechend den Lagerzugängen, auf die sie angewendet werden, vermindert.  
 
- In der folgenden Tabelle werden die Posten in der Tabelle **Einst.-Pr. (durchschn.) Regul. Startzeitpunkt** aufgeführt, die sich auf Wertposten beziehen, die sich aus den Artikelposten in der vorherigen Tabelle ergeben.  
+ In der folgenden Tabelle werden die Posten in der Tabelle **Einst.-Pr. (durchschn.) Regul. Startzeitpunkt** aufgeführt, die sich auf die Wertposten beziehen, die sich aus den Artikelposten in der vorherigen Tabelle ergeben.  
 
 | **Artikelnr.** | **Variantencode** | **Lagerortcode** | **Bewertungsdatum** | **Einstandspreis ist reguliert** |
 |--|--|--|--|--|
@@ -73,7 +74,7 @@ Die folgende Tabelle zeigt Artikelposten für den Beispiel-Durchschnittkostenart
 | ARTIKEL1 |  | BLAU | 02-02-23 |   Nein |
 | ARTIKEL1 |  | BLAU | 02-03-23 |   Nein |
 
- Die folgende Tabelle zeigt dieselben Artikelposten für den Beispiel-Durchschnittkostenartikel, nachdem die **Lagerreg. fakt. Einst. Preise**-Stapelverarbeitung ausgeführt wurde. Der durchschnittliche Einstandspreis pro Tag wird auf die Lagerabgänge berechnet und angewendet.  
+ Die folgende Tabelle zeigt dieselben Artikelposten an, nachdem Sie den Batchauftrag **Lagerreg. fakt. Einst. Preise** ausgeführt haben. Der durchschnittliche Einstandspreis pro Tag wird auf die Lagerabgänge berechnet und angewendet.  
 
 | **Buchungsdatum** | **Artikelpostenart** | **Menge** | **Einstandsbetrag (tatsächl.)** | **Postennummer** |
 |--|--|--|--|--|--|
@@ -84,13 +85,13 @@ Die folgende Tabelle zeigt Artikelposten für den Beispiel-Durchschnittkostenart
 | 02-02-23 |   Einkauf | 0 | 100.00 | 5 |
 | 02-03-23 |   Verkauf | -1 | -100.00 | 6 |
 
-### <a name="example-average-cost-period--month"></a>Beispiel: für eine Durchschnittskostenperiode = Monat
+### Beispiel: für eine Durchschnittskostenperiode = Monat
 
  Dieses Beispiel zeigt die Auswirkungen der Berechnung des durchschnittlichen Einstandspreises auf der Grundlage einer Durchschnittskostenperiode von einem Monat. Das Feld **Durchschnittlicher Kostenberechnungstyp** auf der Seite **Lager Einrichtung** ist auf **Artikel** festgelegt.  
 
  Wenn die Durchschnittskostenperiode ein Monat ist, erstellt [!INCLUDE [prod_short](includes/prod_short.md)] nur einen Posten für jede Kombination aus Artikelnummer, Variantencode, Lagerortcode und Bewertungsdatum.  
 
- Die folgende Tabelle zeigt Artikelposten für den Beispiel-Durchschnittkostenartikel, ITEM1, bevor die **Lagerreg. fakt. Einst. Preise**-Stapelverarbeitung ausgeführt wurde.  
+ Die folgende Tabelle zeigt Artikelposten für den Beispiel-Durchschnittkostenartikel, ITEM1, bevor Sie den Batchauftrag **Lagerreg. fakt. Einst. Preise** ausführen.  
 
 | **Buchungsdatum** | **Artikelpostenart** | **Menge** | **Einstandsbetrag (tatsächl.)** | **Postennummer** |
 |--|--|--|--|--|
@@ -114,7 +115,7 @@ In der folgenden Tabelle werden die Posten in der Tabelle **Einst.-Pr. (durchsch
 > [!NOTE]  
 > Das Bewertungsdatum wird auf das das letzte Datum der Durchschnittskostenperiode festgelegt, in diesem Fall den letzten Tag des Monats.  
 
-Die folgende Tabelle zeigt dieselben Artikelposten für den Beispiel-Durchschnittkostenartikel, nachdem die **Lagerreg. fakt. Einst. Preise**-Stapelverarbeitung ausgeführt wurde. Der durchschnittliche Einstandspreis pro Monat wird auf die Lagerabgänge berechnet und angewendet.  
+Die folgende Tabelle zeigt dieselben Artikelposten an, nachdem Sie den Batchauftrag **Lagerreg. fakt. Einst. Preise** ausgeführt haben. Der durchschnittliche Einstandspreis pro Monat wird auf die Lagerabgänge berechnet und angewendet.  
 
 |**Buchungsdatum** | **Artikelpostenart** | **Menge** | **Einstandsbetrag (tatsächl.)** | **Postennummer** |
 |--|--|--|--|--|
@@ -129,7 +130,7 @@ Der durchschnittliche Einstandspreis für Posten Nummer 3 wird in der Durchschn
 
 Um den durchschnittlichen Einstandspreis für Februar zu erhalten, addiert [!INCLUDE [prod_short](includes/prod_short.md)] den durchschnittlichen Einstandspreis des Artikels, der im Lagerbestand empfangen wird (100,00) zu dem durchschnittlichen Einstandpreis am Anfang der Periode (30,00). Die Summe (130,00) wird dann durch die Gesamtmenge im Lagerbestand (2) dividiert. Aus der Berechnung ergibt sich der durchschnittliche Einstandspreis des Artikels in der Periode Februar (65,00). Diesen durchschnittlichen Einstandspreis weist das Programm dann den Lagerabgängen in dieser Periode zu (Posten 4 und 6).  
 
-## <a name="setting-the-valuation-date"></a>Geben Sie das Bewertungsdatum ein
+## Das Bewertungsdatum festlegen
 
  Das Feld **Bewertungsdatum** in der Tabelle **Wertposten** bestimmt, in welche Durchschnittskostenperiode ein Bestandsabgangsposten gehört. Diese Einstellung gilt auch für Lagerbestände des Umlaufbestands (WIP).  
 
@@ -142,7 +143,7 @@ Um den durchschnittlichen Einstandspreis für Februar zu erhalten, addiert [!INC
 | 3 | Früher als das letzte Bewertungsdatum von ausgeglichenen Wertposten | Positiv | Nein | Neuestes Bewertungsdatum der ausgeglichenen Wertposten |
 | 4 |  | Negativ | Ja | Zeigt das Buchungsdatum des Neubewertungseintrags an. |
 
-### <a name="example"></a>Beispiel
+### Beispiel
 
 Die folgende Tabelle von Wertposten stellt die verschiedenen Szenarien dar.  
 
@@ -164,7 +165,7 @@ Die folgende Tabelle von Wertposten stellt die verschiedenen Szenarien dar.
 
 Wenn der Lagerbestand kleiner als Null ist, nachdem Sie den Lagerabgang gebucht haben, wird das Bewertungsdatum zuerst auf das Buchungsdatum des Lagerabgangs gesetzt. Sie können dieses Datum wenn der Lagerzugang angewendet wird entsprechend den Regeln ändern, die im Hinweis zuvor in diesem Abschnitt beschriebenen wurden.  
 
-## <a name="recalculating-average-cost"></a>Durchschnittskosten erneut berechnen
+## Durchschnittskosten erneut berechnen
 
 Die Bewertung von Lagerabgängen als gewichteter Durchschnitt wäre in mehreren Szenarien unkompliziert:
 
@@ -183,11 +184,11 @@ Wie die Beispiele in diesem Artikel zeigen, wird das Bewertungsdatum als das Dat
 > [!NOTE]  
 > Eine weiterer Ursache für diese Flexibilität ist der feste Ausgleich. Weitere Informationen über feste Anwendung, siehe [Unter Designdetails: Artikelanwendung](design-details-item-application.md).  
 
-Aufgrund dieser Flexibilität müssen Sie möglicherweise den durchschnittlichen Einstandspreis nach der Buchung neu berechnen. Wenn Sie beispielsweise einen Lagerzugang oder -abgang mit einem Bewertungsdatum buchen, das vor einem Lagerabgang liegt. Die erneute Berechnung der Durchschnittskosten geschieht automatisch, wenn Sie die **Lagerreg. fakt. Einst.-Preise**-Stapelverarbeitung ausführen, manuell oder automatisch.  
+Aufgrund dieser Flexibilität müssen Sie möglicherweise den durchschnittlichen Einstandspreis nach der Buchung neu berechnen. Wenn Sie beispielsweise einen Lagerzugang oder -abgang mit einem Bewertungsdatum buchen, das vor einem Lagerabgang liegt. Die erneute Berechnung der Durchschnittskosten geschieht automatisch, wenn Sie den Batchauftrag **Lagerreg. fakt. Einst.-Preise** manuell oder automatisch ausführen.  
 
 Sie können Bestandsbewertungsbasis innerhalb einer Buchhaltungsperiode zu ändern, indem Sie die Werte in den Feldern **Durchschnittskostenperiode** und **Einst.-Pr. (durchschn.) Ber.-Art** ändern. Sie sollten jedoch vorsichtig sein und Ihren Wirtschaftsprüfer konsultieren.  
 
-### <a name="example-of-recalculated-average-cost"></a>Beispiel für neu berechnete durchschnittliche Einstandspreise
+### Beispiel für neu berechnete durchschnittliche Einstandspreise
 
 Dieses Beispiel zeigt, wie [!INCLUDE [prod_short](includes/prod_short.md)] den durchschnittlichen Einstandspreis neu berechnet, wenn Sie an einem Datum buchen, das vor einem Lagerabgang liegt. Das Beispiel basiert auf einer Durchschnittskostenperiode **Tag**.  
 
@@ -212,7 +213,7 @@ Die folgende Tabelle zeigt die Wertposten, die für den Artikel vorhanden sind, 
 | 02-15-20 | -1 | -17.00 | 3 |
 | 02-16-20 | -1 | -17.00 | 4 |
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Designdetails: Lagerbewertung](design-details-inventory-costing.md)  
 [Designdetails: Lagerabgangsmethoden](design-details-costing-methods.md)  
@@ -222,6 +223,6 @@ Die folgende Tabelle zeigt die Wertposten, die für den Artikel vorhanden sind, 
 [Finanzen](finance.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Glossar der Begriffe in Dynamics 365-Geschäftsprozessen](/dynamics365/guidance/business-processes/glossary)  
-[Einen Überblick Nachkalkulation für Produkte und Dienstleistungen festlegen](/dynamics365/guidance/business-processes/product-service-define-cost-overview)  
+[Geschäftsprozess für die Produktkalkulation und seine Beziehung zu anderen Prozessen mit Dynamics 365](/dynamics365/guidance/business-processes/design-to-retire-define-product-costing-overview)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

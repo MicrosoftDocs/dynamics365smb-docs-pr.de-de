@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: andreipa
 ms.topic: conceptual
 ms.search.keywords: null
-ms.date: 12/13/2023
+ms.date: 04/23/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
@@ -133,6 +133,14 @@ Verwenden Sie **Lagerkommissionierungs**-Dokumente für die Kommissionierung von
     > [!NOTE]
     > Wenn Sie die Artikel für eine Zeile in mehr als einem Lagerplatz kommissionieren oder platzieren müssen, beispielsweise, da der freie Lagerplatz voll ist, verwenden Sie die Aktion **Zeile aufteilen** im Inforegister **Zeilen**. Die Aktion erstellt eine Zeile für die zu bearbeitende Restmenge.
 
+      Sie können die Kommissionierzeilen nach verschiedenen Kriterien sortieren, beispielsweise nach Artikel, Regalnummer, Lagerplatz oder Fälligkeitsdatum. Die Sortierung kann helfen, den Einlagerungsprozess zu optimieren, zum Beispiel:
+
+    * Wenn die Zeilen der Art Entnahme und Einlagerung einer Warenausgangszeile nicht direkt aufeinander folgen, Sie dies aber wünschen, sortieren Sie die Zeilen, indem Sie **Artikel** im Feld **Sortiermethode** auswählen.  
+    * Wenn Lagerplatzränge das physische Layout des Lagers widerspiegeln, verwenden Sie die Sortiermethode **Lagerplatzrang**, um die Arbeit nach Lagerplatzlagerorten zu organisieren.
+
+  > [!NOTE]  
+  > Die Zeilen sind in der Reihenfolge der ausgewählten Kriterien aufsteigend sortiert. Wenn Sie nach Belegen sortieren, erfolgt die Sortierung zunächst nach Belegart basierend auf dem Feld **Quellbeleg der Lageraktivität**. Wenn Sie nach Lieferadresse sortieren, erfolgt die Sortierung zuerst nach Zieltyp basierend auf dem Feld **Lagerzieltyp**.
+
 4. Nachdem Sie die Artikel im Bereich oder dem Lagerplatz Produktion, Fertigung oder Auftrag kommissioniert oder platziert haben,, wählen Sie die Aktionen **Kommissionierung registrieren** aus.  
 
     Sie können nun die Artikel in den entsprechenden Bereich bringen und die Verwendung oder den Verbrauch der kommissionierten Komponenten buchen, indem Sie die Verbrauchserfassung, den Montageauftrag oder die Projekterfassung buchen. Die folgenden Artikel bieten weitere Informationen:
@@ -171,6 +179,14 @@ Die folgenden Schritte beschreiben die entsprechenden Aktionen, die von verschie
 Die folgende Abbildung zeigt, wann das Feld **Lagerplatzcode** auf der Komponentenliste entsprechend Ihrer Lagerort- oder Arbeitsplatzeinrichtung gefüllt wird.  
 
 :::image type="content" source="media/binflow.png" alt-text="Übersicht, wann und wie das Feld Lagerplatz ausgefüllt wird.":::
+
+## Produktionskomponenten der Auftragsfertigung in einer erweiterten Lagerkonfiguration
+
+In Szenarien, in denen ein produzierter Artikel aus Rohmaterialien und Halbfertigerzeugnissen besteht und die Produktionsrichtlinie auf **Auftragsfertigung** eingestellt ist, wird die Lagerkommissionierung für diese Halbfertigkomponenten demselben Fertigungsauftrag hinzugefügt, wobei das Feld **Planungsebenennr.** ausgefüllt ist. Es wird erwartet, dass die Halbfertigerzeugnisse sofort zum Verbrauch verfügbar sind und nicht kommissioniert werden müssen. Daher werden sie nicht in den Lagerkommissionierbeleg aufgenommen. Die erstellten Lagerkommissionierungen umfassen nur Rohstoffe für Fertig- und Halbfertigerzeugnisse.
+
+Wenn jedoch Halbfertigerzeugnisse auf Lager sind, schlägt das Planungssystem vor, diese zu verbrauchen, anstatt die gesamte Menge zu produzieren. Angenommen, für die Produktion eines Artikels werden fünf Halbfertigkomponenten benötigt, von denen jedoch drei bereits auf Lager sind. In diesem Fall werden in den Fertigungsauftragskomponenten fünf Halbfertigerzeugnisse aufgeführt, jedoch nur zwei davon im selben Fertigungsauftrag als separate Fertigungsauftragszeile produziert.
+Eine solche Konfiguration ist nicht mit der Lagerkommissonierung kompatibel und Sie müssen, je nach der Häufigkeit, entweder die Produktionsrichtlinie für solche Halbfertigerzeugnisse auf **Auftragsfertigung** ändern oder die Komponentenzeile des Fertigungsauftrags manuell aufteilen, wenn Sie die zuvor produzierten Halbfertigerzeugnisse kommissionieren müssen.
+
 
 ## Siehe auch
 

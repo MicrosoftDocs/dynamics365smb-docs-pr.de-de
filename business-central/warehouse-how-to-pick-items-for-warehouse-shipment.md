@@ -1,16 +1,16 @@
 ---
-title: Um Artikel für den Warenausgang zu kommissionieren
+title: Artikel für den Warenausgang kommissionieren
 description: 'Erfahren Sie, wie Sie die Belege der Lager-Kommissionierungen verwenden, um Kommissionierinformationen zu erstellen und zu verarbeiten, bevor Sie einen Warenausgang buchen.'
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: andreipa
 ms.service: dynamics-365-business-central
 ms.topic: how-to
-ms.date: 09/11/2023
+ms.date: 04/23/2024
 ms.custom: bap-template
 ms.search.forms: '7335, 7339, 7345,'
 ---
-# <a name="pick-items-for-warehouse-shipment"></a>Um Artikel für den Warenausgang zu kommissionieren
+# Artikel für den Warenausgang kommissionieren
 
 In [!INCLUDE[prod_short](includes/prod_short.md)] kommissionieren und versenden Sie Artikel wie in der folgenden Tabelle beschrieben, mit einer von vier Methoden.
 
@@ -39,11 +39,11 @@ Sie können keine Lagerkommissionierbelege von Grund auf erstellen. Kommissionie
 >  
 > Weitere Informationen über das Kommissionieren von Komponenten für Montageaufträge, einschließlich von Situationen, in denen Montageartikel nicht mit einer Verkaufslieferung fällig sind, finden Sie unter [Kommissionierung für Fertigung, Montage oder Projekte in erweiterten Lagerkonfigurationen](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md).  
 
-## <a name="check-whether-items-are-available-for-picking"></a>Prüfen Sie, ob Artikel zur Kommissionierung verfügbar sind
+## Prüfen Sie, ob Artikel zur Kommissionierung verfügbar sind
 
 [!INCLUDE [inventory-availability-overview](includes/inventory-availability-overview.md)]
 
-## <a name="to-create-pick-documents-in-bulk-with-the-pick-worksheet"></a>So erstellen Sie Kommissionierungsdokumente mit dem Kommissionierungsarbeitsblatt in Masse
+## So erstellen Sie Kommissionierungsdokumente mit dem Kommissionierungsarbeitsblatt in Masse
 
 1. Wählen Sie das Symbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Kommissionierarbeitsblatt** ein, und wählen Sie dann den zugehörigen Link.  
 
@@ -93,7 +93,7 @@ Sie können keine Lagerkommissionierbelege von Grund auf erstellen. Kommissionie
 
 8. Wählen Sie **OK** aus. [!INCLUDE [prod_short](includes/prod_short.md)] erstellt die Kommissionierung gemäß Ihrer Auswahl.  
 
-## <a name="to-pick-items-for-a-warehouse-shipment"></a>So kommissionieren Sie Artikel für einen Warenausgang
+## So kommissionieren Sie Artikel für einen Warenausgang
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Lager-Kommissionierungen** ein und wählen Sie dann den zugehörigen Link.  
 
@@ -110,12 +110,20 @@ Sie können keine Lagerkommissionierbelege von Grund auf erstellen. Kommissionie
 
     > [!NOTE]
     > Wenn Sie die Artikel für eine Zeile in mehr als einem Lagerplatz kommissionieren oder platzieren müssen, beispielsweise, da der freie Lagerplatz voll ist, verwenden Sie die Aktion **Zeile aufteilen** im Inforegister **Zeilen**. Die Aktion erstellt eine Zeile für die zu bearbeitende Restmenge.
+        
+    Sie können die Kommissionierzeilen nach verschiedenen Kriterien sortieren, beispielsweise nach Artikel, Regalnummer, Lagerplatz oder Fälligkeitsdatum. Die Sortierung kann helfen, den Einlagerungsprozess zu optimieren, zum Beispiel:
+
+    * Wenn die Entnahme- und Einlagerungszeilen einer Warenausgangszeile nicht direkt aufeinander folgen, Sie dies aber wünschen, sortieren Sie die Zeilen, indem Sie **Artikel** im Feld **Sortiermethode** auswählen.  
+    * Wenn Lagerplatzränge das physische Layout des Lagers widerspiegeln, verwenden Sie die Sortiermethode **Lagerplatzrang**, um die Arbeit nach Lagerplatzlagerorten zu organisieren.
+
+  > [!NOTE]  
+  > Die Zeilen sind in der Reihenfolge der ausgewählten Kriterien aufsteigend sortiert. Wenn Sie nach Belegen sortieren, erfolgt die Sortierung zunächst nach Belegart basierend auf dem Feld **Quellbeleg der Lageraktivität**. Wenn Sie nach Lieferadresse sortieren, erfolgt die Sortierung zuerst nach Zieltyp basierend auf dem Feld **Lagerzieltyp**.
 
 4. Nachdem Sie die Kommissionierung ausgeführt und die Artikel in den Ausgangsbereich oder den Ausgangslagerplatz eingelagert haben, wählen Sie die Aktionen **Kommissionierung registrieren** aus.  
 
 Sie können die Artikel in den Warenausgang bringen und den Warenausgang, einschließlich dem zugehörigen Herkunftsbeleg, auf der Seite **Warenausgang** buchen. Erfahren Sie mehr unter [Elemente versenden](warehouse-how-ship-items.md).
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 - [Lagerverwaltung – Übersicht](design-details-warehouse-management.md)
 - [Verwalten des Lagerbestands](inventory-manage-inventory.md)  

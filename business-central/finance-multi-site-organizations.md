@@ -10,14 +10,14 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="business-central-for-multi-site-and-international-organizations"></a>Business Central für Unternehmen mit mehreren Standorten und internationale Organisationen
+# Business Central für Unternehmen mit mehreren Standorten und internationale Organisationen
 Organisationen mit mehreren Standorten verwenden häufig ein Hub-and-Spoke-Geschäftsmodell, bei dem eine übergeordnete Firma oder die Zentrale die gesamten Vorgänge des Unternehmens verwaltet, während jeder Standort als einzelne, unabhängige Entität fungiert. Die Standorte sind oft geografisch verteilt und haben unterschiedliche Anforderungen an den Informationsaustausch mit der Firma in der Zentrale. Außerdem benötigen die Standorte in der Regel nicht den gleichen Grad an Komplexität und haben oft nicht die Ressourcen, um ein großes System zu pflegen.
 
 [!INCLUDE[prod_short](includes/prod_short.md)] bietet kleinen und mittelständischen Unternehmen eine betriebswirtschaftliche Lösung, die einfach zu bedienen und kostengünstig zu warten ist.
 
 In diesem Artikel werden einige der Möglichkeiten vorgestellt, wie [!INCLUDE[prod_short](includes/prod_short.md)] ein Hub-and-Spoke-Geschäftsmodell unterstützt.
 
-## <a name="integrating-the-headquarter-company-and-the-sites"></a>Integration der Firma in der Zentrale und der Standorte
+## Integration der Firma in der Zentrale und der Standorte
 
 [!INCLUDE[prod_short](includes/prod_short.md)] kann in das Buchhaltungssystem der Hauptfirma integriert werden und gleichzeitig die unterschiedlichen Anforderungen der verschiedenen Standorte erfüllen, unabhängig von Größe, Lagerplatz oder Art des Geschäfts.
 
@@ -25,7 +25,7 @@ Das folgende Diagramm ist ein Beispiel für die Integration verschiedener Stando
 
 ![Diagramm Beschreibung automatisch generiert.](media/multisite-headquarter-sites.png)
 
-## <a name="meet-the-needs-of-domestic-and-international-sites"></a>Erfüllen Sie die Bedürfnisse von inländischen und internationalen Standorten
+## Erfüllen Sie die Bedürfnisse von inländischen und internationalen Standorten
 
 Die geschäftlichen Anforderungen der Standorte unterscheiden sich oft aufgrund ihrer Branche, ihrer Geschäftsmethoden oder ihrer Beziehung zur Firma in der Zentrale. [!INCLUDE[prod_short](includes/prod_short.md)] kann leicht für verschiedene Arten von Unternehmen und Standorten angepasst und erweitert werden. Microsoft AppSource bietet eine Fülle von Apps von Microsoft und unseren Partnern, und Partner können [!INCLUDE[prod_short](includes/prod_short.md)] schnell und mit minimaler Unterbrechung des täglichen Vorgangs bereitstellen.
 
@@ -44,7 +44,7 @@ Ein Netzwerk von mehr als 4.000 Microsoft-Partnern weltweit sorgt für lokale Ex
 | Verarbeiten Sie mehrere Sprachen und Währungen. | Die Unterstützung für mehrere Sprachen und Währungen hilft, lokale Anforderungen zu erfüllen. | [Mehrsprachige Funktionalitäten](about-locale-language.md)<br></br>[Mehrere Funktionalitäten für mehrere Währungen](finance-how-setup-additional-currencies.md) |
 
 
-## <a name="consolidate-financial-data"></a>Finanzdaten konsolidieren
+## Finanzdaten konsolidieren
 
 Ein zentraler Aspekt des Hub-and-Spoke-Geschäftsmodells ist die Möglichkeit für die Firma in der Zentrale und die Standorte, Finanzdaten auszutauschen, auch wenn die Firma in der Zentrale und die Standorte unterschiedliche Systeme, Buchhaltungsstrukturen, Sprachen und Währungen verwenden.
 
@@ -54,19 +54,19 @@ Ein zentraler Aspekt des Hub-and-Spoke-Geschäftsmodells ist die Möglichkeit f�
 | Integrieren Sie Buchhaltungsstrukturen. | Übertragen Sie Konsolidierungsdaten aus verschiedenen Buchhaltungsstrukturen in Ihre eigene. Integriertes Dateiformat für F&O (verfügbar mit Wave 2, 2020) | [Importieren von Geschäftsdaten aus anderen Finanzsystemen](across-import-data-configuration-packages.md)<br></br>[Hauptbuchkonten für die Konsolidierung vorbereiten](finance-consolidated-company-reporting-setup.md#glacc) |
 | Führen Sie Transaktionen in mehreren Währungen durch. | Helfen Sie dabei, dass Abschlüsse in verschiedenen Währungen genau sind und korrekte Wechselkurse verwenden. | [Währungswechselkurse aktualisieren](finance-how-update-currencies.md) |
 
-## <a name="share-business-insight-with-integrated-analytics"></a>Teilen Sie Business Insights mit integrierten Analysen
+## Teilen Sie Business Insights mit integrierten Analysen
 
 Richten Sie die Organisation auf Ihre Geschäftsziele aus, indem Sie ein allgemeines Verständnis der aktuellen Realität schaffen. Integrierte Analysen können dazu beitragen, dass alle Mitarbeiter ihre Entscheidungen auf der Grundlage der gleichen Faktenlage treffen.
 
 | **Business-Anforderung** | **Wie Business Central sie unterstützt** | **Mehr erfahren** |
 |-------------------------|-------------------------|-------------------------|
-| Teilen Sie Insights mit Standorten ohne umfangreiche IT-Unterstützung. | Erstellen Sie KPIs und Business Intelligence Dashboards in Power BI auf der Basis Ihrer Daten. | [Mit Business Central-Daten in Power BI arbeiten](across-working-with-business-central-in-powerbi.md) |
+| Teilen Sie Insights mit Standorten ohne umfangreiche IT-Unterstützung. | Erstellen Sie KPIs und Business Intelligence Dashboards in Power BI auf der Basis Ihrer Daten. | [Von der lokalen Business Central-Version eine Verbindung mit Power BI herstellen](across-working-with-business-central-in-powerbi.md) |
 | Entwickeln Sie angepasste Finanzberichte. | Generieren Sie parameterbasierte Finanzberichte. | [Business Intelligence](bi.md) |
 | Orientieren Sie sich an den Fakten. | Generieren Sie Berichte, zeigen Sie sie an und teilen Sie sie mit internen und externen Beteiligten. | [Finanzberichte](finance-reports.md) |
 | Analysieren Sie Daten in Excel. | Finden Sie Fakten, beheben Sie Probleme und führen Sie Ad-hoc-Analysen in Microsoft Excel durch. | [Analysieren von Finanzberichten in Excel](finance-analyze-excel.md) |
 
 
-## <a name="exchange-data-using-apis-and-xmlports"></a>Daten mithilfe von APIs und XMLports austauschen
+## Daten mithilfe von APIs und XMLports austauschen
 
 APIs und XMLports vereinfachen den Prozess der Verbindung von Instanzen von [!INCLUDE[prod_short](includes/prod_short.md)], einschließlich derjenigen, die für jeden Standort angepasst wurden.
 
@@ -81,7 +81,7 @@ APIs und XMLports vereinfachen den Prozess der Verbindung von Instanzen von [!IN
 | Verbinden Sie sich mit Lösungen und Diensten von <sup></sup>Drittanbietern. | APIs stellen eine Punkt-zu-Punkt-Verbindung zwischen Business Central und Lösungen und Diensten von Dritt<sup></sup>parteien her. | [API v2.0](/dynamics-nav/api-reference/v2.0/) |
 
 
-## <a name="promote-an-efficient-intercompany-supply-chain"></a>Fördern Sie eine effiziente Intercompany-Lieferkette
+## Fördern Sie eine effiziente Intercompany-Lieferkette
 
 Standorte benötigen oft Zugriff auf die Lieferkette und die Möglichkeit, bestimmte Aspekte dieser Kette zu verwalten. Zum Beispiel könnten Standorte denselben Kreditor verwenden, aber ihre Anlagen und physischen Lagerplätze separat verwalten.
 
@@ -90,7 +90,7 @@ Standorte benötigen oft Zugriff auf die Lieferkette und die Möglichkeit, besti
 | Behandeln Sie bereichsübergreifende Transaktionen wie normale Verkaufs- und Kauf-Transaktionen. | Verwenden Sie firmenübergreifende Buchungen, um Verkaufs- und Kaufbelege sowie Hauptbucheinträge für ganze Workflows zu erstellen, und zwar für mehrere Firmen gleichzeitig, um doppelte Dateneingaben zu vermeiden. | [Verwaltung von firmenübergreifenden Transaktionen](intercompany-manage.md) |
 | Verwenden Sie papierlose Prozesse. | Vermeiden Sie die Kalkulation für das Senden, Empfangen und Drucken von Dokumenten. | [Eingehende Belege](across-income-documents.md)<br><br> [Verwalten von Anhängen, Links und Notizen zu Karten und Dokumenten](ui-how-add-link-to-record.md) |
 
-## <a name="respond-quickly-to-new-business-conditions"></a>Reagieren Sie schnell auf neue Geschäftsbedingungen
+## Reagieren Sie schnell auf neue Geschäftsbedingungen
 
 Die Firma in der Zentrale muss in der Lage sein, schnell auf geschäftliche Veränderungen an jedem Standort zu reagieren. In Kombination mit Power Automate kann [!INCLUDE[prod_short](includes/prod_short.md)] als Frühwarnmechanismus dienen.
 
@@ -101,7 +101,7 @@ Die Firma in der Zentrale muss in der Lage sein, schnell auf geschäftliche Ver�
 | Automatisch E-Mail-Warnungen generieren. | Legen Sie in Power Automate Alarme fest, die E-Mails generieren, um Sie über kritische Geschäftsbedingungen an Standorten oder Partnern in der Lieferkette zu informieren. | [Business Central und Power BI](admin-powerbi.md) |
 | Verwenden Sie Standard- oder angepasste Alarme. | Verwenden Sie 12 verschiedene Vorlagen, die für Business Central mitgeliefert werden, oder legen Sie Ihre eigenen Alarme fest, die zu Ihrem Unternehmen passen. | [Business Central in einem automatisierten Workflow verwenden](across-how-use-financials-data-source-flow.md) |
 
-## <a name="see-also"></a>Weitere Informationen
+## Weitere Informationen
 [Verwaltung von Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

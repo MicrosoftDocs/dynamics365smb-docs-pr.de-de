@@ -153,7 +153,7 @@ additionalContent:
               url: /dynamics365/business-central/map-edocuments-with-copilot
             - text: Bankkonten abstimmen
               url: /dynamics365/business-central/bank-reconciliation-with-copilot
-            - text: Vorschläge für Zeilen vorschlagen
+            - text: Verkaufszeilen vorschlagen
               url: /dynamics365/business-central/sales-suggest-sales-lines-with-copilot
         - title: Arbeitsbereichseinstellungen
           links:
@@ -211,7 +211,7 @@ additionalContent:
               url: /dynamics365/business-central/payables-manage-payables
             - text: Bankkonten abstimmen
               url: /dynamics365/business-central/bank-manage-bank-accounts
-        - title: Verkauf
+        - title: Vertrieb
           links:
             - text: Übersicht
               url: /dynamics365/business-central/sales-manage-sales

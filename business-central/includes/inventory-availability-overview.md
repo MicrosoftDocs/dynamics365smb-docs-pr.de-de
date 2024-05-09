@@ -1,7 +1,7 @@
 ---
 author: brentholtorf
 ms.topic: include
-ms.date: 09/11/2023
+ms.date: 04/23/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -26,11 +26,11 @@ Die Informationen berücksichtigen auch andere Faktoren, die die Verfügbarkeit 
 > [!NOTE]
 > Für diese Funktion müssen Sie die Funktion **Gezielte Einlagerung und Kommissionierung** für die Standorte aktivieren, die Sie in Ihrem Kommissionierungsprozess verwenden.
 
-### <a name="set-up-previews"></a>Vorschauversionen einrichten
+### Vorschauversionen einrichten
 
 Um Details darüber zu erhalten, was kommissioniert wird und was nicht, aktivieren Sie den Schalter **Zusammenfassung anzeigen (gesteuerte Einlagerung und Kommissionierung)** auf den Anforderungsseiten **Logistik Herk. - Beleg erst.** oder **Warenausgang - Kommiss. erst.**.
 
-### <a name="determine-the-quantity-you-can-pick"></a>Bestimmen Sie die Menge, die Sie auswählen können
+### Bestimmen Sie die Menge, die Sie auswählen können
 
 Auf Zeilen auf der Seite **Zusammenfassung der Lagerkommissionierung erstellen** zeigt das Feld **Bewegungsmenge (Basis)** an, welche und wie viele Elemente vorhanden sind und [!INCLUDE [prod_short](prod_short.md)] versuchte zu entnehmen. Die Infobox **Zusammenfassung** bietet weitere Details.
 
@@ -57,7 +57,7 @@ Das folgende Bild zeigt die maximale Menge, die für die Kommissionierung berüc
 |B     |Lagerplätze mit Inhalt der Art Pick mit gesperrtem Ausgang         |
 |O     |Andere Lagerplätze         |
 
-### <a name="reservations"></a>Reservierungen
+### Reservierungen
 
 Wenn für den kommissionierten Artikel Reservierungen vorhanden sind, wird die Berechnung fortgesetzt. Die Idee dahinter ist, dass der reservierte Bedarf eine höhere Priorität hat als der nicht reservierte Bedarf, was bedeutet, dass die Kommissionierung für den nicht reservierten Bedarf die spätere Kommissionierung für den reservierten Bedarf nicht verhindern sollte.
 
@@ -70,12 +70,29 @@ Das Feld **Verfügbare Menge ohne Lieferungslagerplatz** zeigt die verfügbare M
 * Sie sind bereits für den Versand ausgewählt.
 * Sie befinden sich in gesperrten Artikelchargen oder Seriennummern.
 * Sie liegen in verstopften Behältern.
+* Sie liegen in dedizierten Lagerplätzen.
 
 Diese Mengen sind möglicherweise verfügbar, aber Sie können sie möglicherweise noch nicht auswählen. Sie könnten sich noch im Wareneingangs-, Lager- oder Qualitätssicherungsbereich befinden. Sie können sie in den Kommissionierbereich verschieben, indem Sie ein Einlagerungs- oder Umlagerungsarbeitsblatt bearbeiten.
 
 Der Unterschied zwischen **Verfügbare Menge ohne Lieferungslagerplatz** und der reservierten Menge im Lager ist die Menge verfügbar, die zur Entnahme verfügbar ist, ohne dass sich dies auf den reservierten Bestand auswirkt.
 
-### <a name="other-details"></a>Sonstige Details
+Das folgende Bild veranschaulicht die Zuordnung der verfügbaren Menge zur reservierten Menge.
+
+:::image type="content" source="../media/Warehouse_Reservation_Pick.png" alt-text="Maximale Menge, die bei der Kommissionierung berücksichtigt wird, wenn eine Reservierung vorliegt.":::
+
+**Legende**
+
+|Brief  |Description  |
+|---------|---------|
+|P     |Zu kommissionierende Menge         |
+|TR    |Insgesamt reservierte Menge im Lager.         |
+|RS    |Reservierte Mengen, die bereits kommissioniert wurden und zum Versand, zur Verwendung oder zum Verbrauch bereit sind       |
+|A     |Verfügbare Menge ohne Lieferungslagerplatz         |
+|B     |Menge in dedizierten oder blockierten Lagerplätzen, blockierten Artikelchargen oder Seriennummern         |
+
+Auch wenn im Lager genügend verfügbare Menge vorhanden ist, um den Kommissionierungsbedarf vollständig zu decken, führt dies dazu, dass die gesamte reservierte Menge den Mengen in dedizierten oder gesperrten Lagerplätzen zugerechnet wird, was eine Kommissionierung für diesen Bedarf verhindert. Da reservierter Bedarf eine höhere Priorität hat, reduziert [!INCLUDE [prod_short](prod_short.md)] die zu kommissionierende Menge, um negative Auswirkungen auf den reservierten Bedarf, wie etwa die Unmöglichkeit der Kommissionierung, zu verhindern.
+
+### Sonstige Details
 
 Wenn Artikel eine Artikelverfolgung erfordern, können Sie die Menge auch in gesperrten Chargen oder Seriennummern finden, was zu folgenden Reduzierungen führt:
 

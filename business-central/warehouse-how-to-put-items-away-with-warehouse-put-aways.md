@@ -6,11 +6,11 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ms.topic: how-to
-ms.date: 09/19/2023
+ms.date: 04/23/2024
 ms.custom: bap-template
 ms.search.forms: '7352, 7333'
 ---
-# <a name="put-items-away-with-warehouse-put-aways"></a>Einlagern von Artikeln mit Lagereinlagerungen
+# Artikel mit Lagereinlagerungen einlagern
 
 In [!INCLUDE[prod_short](includes/prod_short.md)] erhalten Sie Artikel und lagern sie, wie in der folgenden Tabelle beschrieben, mit einer von vier Methoden ein.
 
@@ -31,7 +31,7 @@ Abhängig vom Wert im Feld **Einlagerungsarbeitsblatt verwenden** auf der **Lage
 
 Zusätzlich zu den Standardoptionen für das Erstellen von Lagereinlagerungen, die in diesem Artikel beschrieben werden, können Sie Einlagerungen im zugehörigen gebuchten Wareneingang erstellen. Dies ist nützlich, wenn Sie die Einlagerungszeilen gelöscht haben, oder wenn Sie sich entschließen, das Einlagerungsarbeitsblatt nicht zu verwenden, da Sie Einlagerungsanweisungen aus gebuchte Wareneingangszeilen folgendermaßen erstellen oder wiedererstellen können.
 
-## <a name="zone-and-bin-codes"></a>Zonen- und Lagerplatzcodes
+## Zonen- und Lagerplatzcodes
 
 An Lagerorten, die für die Verwendung der gesteuerten Einlagerung und Kommissionierung eingerichtet sind, sind die folgenden Einstellungen erforderlich, um den besten Ort für die Einlagerung dieser Artikel zu bestimmen.  
 
@@ -41,7 +41,7 @@ An Lagerorten, die für die Verwendung der gesteuerten Einlagerung und Kommissio
 
 Die Lagerplatzpriorität wird berücksichtigt, wenn mehr als ein Lagerplatz den Kriterien auf der Einlagerungsvorlage entspricht. Wenn für mehr als einen Lagerplatz die Kriterien der Einlagerungsvorlage und die Lagerplatzpriorität gleich sind, wird der Lagerplatz mit der höchsten Nummer ausgewählt.
 
-## <a name="to-create-put-away-documents-in-bulk-with-the-put-away-worksheet"></a>So erstellen Sie Einlagerungsbelege mit dem Einlagerungsarbeitsblatt in Masse
+## So erstellen Sie Einlagerungsbelege mit dem Einlagerungsarbeitsblatt in Masse  
 
 [!INCLUDE [edit-in-excel](includes/edit-in-excel.md)]
 
@@ -54,12 +54,12 @@ Auf der Seite **Einlagerungsarbeitsblatt** können Sie Einlagerungsbelege für m
 3. Wählen Sie die Belege aus, die Sie bearbeiten möchten. Sie können gleichzeitig an Zeilen aus verschiedenen Belegen arbeiten.  
 
     > [!NOTE]  
-    >  Wenn Sie einen Beleg für einen Eingang oder eine interne Einlagerung auswählen, für den Sie bereits Anweisungen für alle Zeilen erzeugt haben, informiert Sie [!INCLUDE[prod_short](includes/prod_short.md)]] darüber, dass es keine Mengen zu bewegen gibt.  
+    > Wenn Sie einen Beleg für einen Eingang oder eine interne Einlagerung auswählen, für den Sie bereits Anweisungen für alle Zeilen erstellt haben, informiert Sie [!INCLUDE[prod_short](includes/prod_short.md)]] darüber, dass es keine Mengen zu bewegen gibt.  
 
 4. Füllen Sie das Feld **Sortiermethode** aus, um die Zeilen zu sortieren.  
 
     > [!NOTE]  
-    >  Die Art und Weise, wie die Zeilen im Arbeitsblatt sortiert sind, überträgt sich nicht automatisch auf die Einlagerungsanweisung. Es bestehen jedoch die gleichen Möglichkeiten zum Sortieren und Priorisieren der Lagerplätze. Sie können die Zeilenreihenfolge, die Sie im Arbeitsblatt planen, wiederherstellen, wenn Sie die Einlagerungsanweisungen sortieren.
+    > Die Art und Weise, wie die Zeilen im Arbeitsblatt sortiert sind, überträgt sich nicht automatisch auf die Einlagerungsanweisung. Es bestehen jedoch die gleichen Möglichkeiten zum Sortieren und Priorisieren der Lagerplätze. Sie können die Zeilenreihenfolge, die Sie im Arbeitsblatt planen, wiederherstellen, wenn Sie die Einlagerungsanweisungen sortieren.
 
 5. Füllen Sie das Feld **Bewegungsmenge** aus. Wählen Sie die **Bewegungsmenge autom. ausfüllen** Aktion aus, oder füllen Sie die Felder manuell aus.  
 6. Bearbeiten Sie diese Positionen bei Bedarf manuell. Sie können z. B. Zeilen löschen, wenn einige Artikel in einen Lagerplatz weit entfernt von den Lagerplätzen der anderen Artikel eingelagert werden müssen.  
@@ -77,7 +77,7 @@ Auf der Seite **Einlagerungsarbeitsblatt** können Sie Einlagerungsbelege für m
 
 8. Wählen Sie **OK**, um die Einlagerung zu erstellen.  
 
-## <a name="to-create-a-put-away-from-a-posted-receipt"></a>Um eine Einlagerung aus dem gebuchten Wareneingang zu erstellen
+## Um eine Einlagerung aus dem gebuchten Wareneingang zu erstellen
 
 Wenn für einen Lagerort die Bearbeitung der Einlagerung und des Wareneingangs erforderlich ist und Sie die Einlagerungszeilen gelöscht haben, oder wenn Sie die gesteuerte Einlagerung und Kommissionierung verwenden und sich entschieden haben, den Einlagerungsvorschlag nicht zu verwenden, können Sie Einlagerungsanweisungen für gebuchte Wareneingangszeilen folgendermaßen erstellen oder wiedererstellen.
 
@@ -90,9 +90,9 @@ Wenn für einen Lagerort die Bearbeitung der Einlagerung und des Wareneingangs e
 4. Wenn der Wareneingang teilweise oder überhaupt nicht eingelagert wurde, wählen Sie die Aktion **Einlagerung erstellen** aus.  
 5. Füllen Sie die Felder wie erforderlich aus, und wählen Sie **OK** aus.  
 
-## <a name="to-put-items-away"></a>So lagern Sie Artikel ein
+## So lagern Sie Artikel ein
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren") Geben Sie **Lagereinlagerungen** ein, und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Geben Sie **Lagereinlagerungen** ein, und wählen Sie dann den zugehörigen Link.
 
 2. Öffnen Sie die Wareneinlagerung, die für die Bearbeitung bereit ist.  
 3. Geben Sie, sofern für Ihr Lager erforderlich ist, Ihre Benutzerkennung ein, wenn Sie mit der Arbeit an einer Einlagerung beginnen.  
@@ -101,6 +101,9 @@ Wenn für einen Lagerort die Bearbeitung der Einlagerung und des Wareneingangs e
 
     * Wenn die Zeilen der Art Entnahme und Einlagerung einer Wareneingangszeile nicht direkt aufeinander folgen, Sie dies aber wünschen, sortieren Sie die Zeilen, indem Sie **Artikel** im Feld **Sortiermethode** auswählen.  
     * Wenn Lagerplatzränge das physische Layout des Lagers widerspiegeln, verwenden Sie die Sortiermethode **Lagerplatzrang**, um die Arbeit nach Lagerplatzlagerorten zu organisieren.
+
+  > [!NOTE]  
+  > Die Zeilen sind in der Reihenfolge der ausgewählten Kriterien aufsteigend sortiert. Wenn Sie nach Belegen sortieren, erfolgt die Sortierung zunächst nach Belegart basierend auf dem Feld **Quellbeleg der Lageraktivität**. Wenn Sie nach Lieferadresse sortieren, erfolgt die Sortierung zuerst nach Zieltyp basierend auf dem Feld **Lagerzieltyp**.
 
 4. Führen Sie die Aktionen duch.
 
@@ -114,7 +117,7 @@ Wenn für einen Lagerort die Bearbeitung der Einlagerung und des Wareneingangs e
 
 5. Wenn Sie alle Artikel so in die Lagerplätze eingelagert haben, wie es die Anweisungen vorsehen, wählen Sie die Aktion **Einlagerung registrieren** aus.  
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Lagerverwaltung – Übersicht](design-details-warehouse-management.md)
 [Bestand](inventory-manage-inventory.md)  

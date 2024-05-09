@@ -3,8 +3,9 @@ metadata:
   title: FAQ zum Kopieren und Einfügen von Daten
   description: Erhalten Sie Antworten auf häufig gestellte Fragen zum Kopieren und Einfügen von Daten aus Feldern und Zeilen von Business Central-Seiten.
   ms.topic: faq
+  ms.date: 04/26/2024
   ms.service: dynamics-365-business-central
-title: Kopieren und einfügen FAQ
+title: Häufig gestellte Fragen zum Kopieren und Einfügen
 summary: |
   Sie können eine oder mehrere Zeilen (Datensätze) aus einer Liste oder einem einzelnen Feld auf einer Seite kopieren und die kopierten Daten dann auf der gleichen Seite, einer andere Seite oder einem externen Dokument (wie Microsoft Excel und Outlook-E-Mail) einfügen.  
 

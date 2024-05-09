@@ -316,7 +316,7 @@ ms.service: dynamics-365-business-central
 
 ### Verbindlichkeiten verwalten
 #### [Verbindlichkeiten – Übersicht](payables-manage-payables.md)
-#### [Kreditorenberichte und -analysen](payables-reports.md)
+#### [Kreditorenkontenberichte und -analysen](payables-reports.md)
 #### Zahlungen vornehmen
 ##### [Zahlungen vornehmen](payables-make-payments.md)
 ##### [Mit Fibu Buch.-Blättern arbeiten](ui-work-general-journals.md)
@@ -408,7 +408,8 @@ ms.service: dynamics-365-business-central
 #### [Ultimoposten für den Jahresabschluss buchen](year-how-post-year-end-close-entry.md)
 
 ### Mit Kontenplan und Finanzbuchhaltung arbeiten
-#### [Kontenplan und Finanzbuchhaltung verstehen](finance-general-ledger.md)
+#### [Finanzbuchhaltung verstehen](finance-general-ledger.md)
+#### [Kontenplan verstehen](finance-chart-of-accounts.md)
 #### [Konten überprüfen](finance-review-accounts.md)
 #### [Finanzbuchhaltungssalden neu bewerten](finance-revalue-account-balances.md)
 #### [Transaktionen direkt in der Finanzbuchhaltung buchen](finance-how-post-transactions-directly.md)
@@ -475,9 +476,8 @@ ms.service: dynamics-365-business-central
 #### [Spaltendefinitionen in Finanzberichten](bi-column-definitions.md)
 #### [Exemplarische Vorgehensweise: Eine Cashflowplanung mithilfe von Finanzberichten erstellen](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 #### [Einen KPI-Webdienst auf der Basis von Finanzberichten einrichten und veröffentlichen](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
-#### [Daten mit statistischen Konten analysieren](bi-use-statistical-accounts.md)
+#### [Daten mit Statistikkonten analysieren](bi-use-statistical-accounts.md)
 #### [Daten nach Dimensionen analysieren](bi-how-analyze-data-dimension.md)
-#### [Analyseberichte erstellen](bi-how-create-analysis-views-reports.md)
 
 <!-- ### [Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md) -->
 
@@ -491,11 +491,16 @@ ms.service: dynamics-365-business-central
 #### [Wichtigste integrierte Finanzberichte](finance-reports.md)
 #### [Integrierte Anlagenberichte](fa-reports.md)
 #### [Integrierte Debitorenberichte](receivables-reports.md)
-#### [Integrierte Kreditorenberichte](payables-reports.md)
+#### [Integrierte Kreditorenkontenberichte](payables-reports.md)
 
-## Verkauf
-### [Verkauf – Übersicht](sales-manage-sales.md)
-### [Verkaufsberichte](sales-reports.md)
+## Vertrieb
+### [Vertrieb – Übersicht](sales-manage-sales.md)
+### Vertriebsanalyse 
+#### [Vertriebsanalysen – Übersicht](sales-analytics-overview.md)
+#### [Vertriebsanalyseberichte erstellen](bi-how-create-analysis-views-reports.md)
+#### [Ad-hoc-Analyse von Vertriebsdaten](ad-hoc-analysis-sales.md)
+#### [Integrierte Vertriebsberichte](sales-reports.md)
+
 ### [Exemplarische Vorgehensweise: Eine Verkaufskampagne durchführen](walkthrough-conducting-a-sales-campaign.md)
 ### [Exemplarische Vorgehensweise: Verkaufsvorauszahlungen einrichten und fakturieren](walkthrough-setting-up-and-invoicing-sales-prepayments.md)
 ### [Neue Debitoren registrieren](sales-how-register-new-customers.md)
@@ -522,7 +527,10 @@ ms.service: dynamics-365-business-central
 
 ## Einkauf
 ### [Einkauf – Übersicht](purchasing-manage-purchasing.md)
-### [Einkaufsberichte](purchase-reports.md)
+### Einkaufsanalysen 
+#### [Einkaufsanalysen – Übersicht](purchasing-analytics-overview.md)
+#### [Ad-hoc-Analyse von Einkaufsdaten](ad-hoc-analysis-purchasing.md)
+#### [Integrierte Einkaufsberichte](purchase-reports.md)
 ### [Exemplarische Vorgehensweise: Einkaufsgenehmigungsworkflows einrichten und verwenden](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
 ### [Einkäufe erfassen](purchasing-how-record-purchases.md)
 ### [Angebote anfordern](purchasing-how-request-quotes.md)
@@ -577,9 +585,18 @@ ms.service: dynamics-365-business-central
 
 ## Anlagen
 ### [Anlagen – Übersicht](fa-manage.md)
+### Anlagenanalysen
+#### [Anlagenanalysen – Übersicht](fa-analytics-overview.md)
+#### Integrierte Analysetools für Anlagen
+##### [Wartungskosten überwachen](fa-how-maintain.md#to-monitor-maintenance-costs)
+##### [Versicherungsdeckung überwachen](fa-how-insure.md#to-monitor-insurance-coverage)
+##### [Geänderte AfA-Buchwerte anzeigen](fa-how-trans-split-combine.md#to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification)
+##### [Verkaufsposten anzeigen](fa-how-dispose-retire.md#to-view-disposal-ledger-entries)
+##### [Geschätzte Verkaufswerte anzeigen](fa-how-manage-budgets.md#to-view-projected-disposal-values)
+#### [Integrierte Anlagenberichte](fa-reports.md)
 ### [Anlagen einrichten](fa-setup.md)
 ### [Abschreibungsmethoden](fa-depreciation-methods.md)
-### [Anlagenberichte und -analysen](fa-reports.md)
+### [Budgets für Anlagen verwalten](fa-how-manage-budgets.md)
 ### [Anlagen erwerben](fa-how-acquire.md)
 ### [Anlagen verwalten](fa-how-maintain.md)
 ### [Anlagen versichern](fa-how-insure.md)
@@ -587,8 +604,8 @@ ms.service: dynamics-365-business-central
 ### [Anlagen neu bewerten](fa-how-revalue.md)
 ### [Anlagen abschreiben oder amortisieren](fa-how-depreciate-amortize.md)
 ### [Anlagen entsorgen oder außer Betrieb nehmen](fa-how-dispose-retire.md)
-### [Budgets für Anlagen verwalten](fa-how-manage-budgets.md)
 ### [Fehlerbehebung bei Anlagenposten](fa-troubleshooting-fa-ledger-entries.md)
+
 
 ## Marketing und Vertrieb
 ### [Marketing und Vertrieb – Übersicht](marketing-relationship-management.md)
@@ -1362,7 +1379,7 @@ ms.service: dynamics-365-business-central
 ##### [Verbindlichkeiten und Forderungen in der russischen Version](LocalFunctionality/Russia/Payables-and-Receivables.md)
 ##### [Eingabe von Zollerklärungsinformationen](LocalFunctionality/Russia/how-to-enter-custom-declarations-information.md)
 ##### [Protokolle einrichten und erstellen](LocalFunctionality/Russia/how-to-set-up-and-create-letters-of-attorney.md)
-##### [Russische Kreditorenberichte](LocalFunctionality/Russia/russian-payables-reports.md)
+##### [Russische Kreditorenkontenberichte](LocalFunctionality/Russia/russian-payables-reports.md)
 ##### [Russische Debitorenberichte](LocalFunctionality/Russia/russian-receivables-reports.md)
 ##### [Debitorenvorauszahlungen einrichten](LocalFunctionality/Russia/how-to-set-up-customer-prepayments.md)
 ##### [Kreditorenvorauszahlungen einrichten](LocalFunctionality/Russia/how-to-set-up-vendor-prepayments.md)
@@ -1710,7 +1727,7 @@ ms.service: dynamics-365-business-central
 ###### [Lokale Kontaktsynchronisierung einrichten](admin-contact-sync-setup-onprem.md)
 ##### [Outlook optimieren](admin-outlook-optimize.md)
 ##### [Business Central ohne Outlook verwenden](admin-no-outlook.md)
-##### [FAQ](ui-outlook-addin-faq.yml)
+##### [Häufig gestellte Fragen](ui-outlook-addin-faq.yml)
 ### Berichte einrichten
 #### [Berichtsauswahl für Belege](across-report-selections.md)
 ### Genehmigungsworkflows basierend auf Vorlagen einrichten
@@ -1758,9 +1775,9 @@ ms.service: dynamics-365-business-central
 ###### [Berichte zum Anzeigen von Listendaten erstellen](across-how-use-powerbi-reports-factbox.md)
 ##### Im geschäftlichen Bereich tätige Personen
 ###### [Mit Power BI-Berichten in Business Central arbeiten](across-working-with-powerbi.md)
-###### [Mit Business Central-Daten in Power BI arbeiten](across-working-with-business-central-in-powerbi.md)
+###### [Mit Power BI eine Verbindung aus Business Central lokal herstellen](across-working-with-business-central-in-powerbi.md)
 ###### [Business Central-Apps in Power BI verwenden](across-powerbi-business-central-apps.md)
-##### [FAQ](power-bi-faq.md)
+##### [Häufig gestellte Fragen](power-bi-faq.md)
 #### Power Automate mit Business Central verwenden
 ##### [Power Automate-Flows in Business Central verwenden](across-how-use-financials-data-source-flow.md)
 ##### [Probleme bei automatisierten Workflows beheben](across-flow-troubleshoot.md)  
@@ -1788,6 +1805,20 @@ ms.service: dynamics-365-business-central
 ## [Ihre geschäftlichen Ziele mithilfe von Key Performance Indicators (KPIs) erreichen](./analytics-about-kpis.md)
 ## [Finanzberichte verwenden](bi-how-work-account-schedule.md)
 
+## Ad-hoc-Datenanalyse
+### [Übersicht](reports-adhoc-analysis.md)
+### [Sortieren, Suchen und Filtern](ui-enter-criteria-filters.md)
+### [Häufig gestellte Fragen zum Sortieren und Filtern](ui-search-filter-faq.yml)
+### [Seitendaten in Excel analysieren](across-work-with-excel.md)
+### [Berichtsdaten mit Excel analysieren](report-analyze-excel.md)
+### [Listen- und Abfragedaten mit dem Analysemodus analysieren](analysis-mode.md)
+
+## Integrierte Analysetools
+### [Übersicht](reports-built-in-analytics.md)
+### [Mit Power BI-Berichten arbeiten](across-working-with-powerbi.md)
+### [Intelligente Erkenntnisse (lokal)](about-intelligent-cloud.md)
+### [Telemetrie der Berichtsnutzung](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)
+
 ## Berichte in der täglichen Arbeit verwenden
 ### [Übersicht](reports-use-reports.md)
 ### [Berichte ausführen](ui-work-report.md)
@@ -1807,11 +1838,11 @@ ms.service: dynamics-365-business-central
 #### [Finanzauswertungen mit Excel analysieren](finance-analyze-excel.md)
 #### [Wichtige Finanzberichte](finance-reports.md)
 #### [Debitorenberichte](receivables-reports.md)
-#### [Kreditorenberichte](payables-reports.md)
+#### [Kreditorenkontenberichte](payables-reports.md)
 #### [Cashflow-Analyse](finance-setup-cash-flow-analyses.md)
 #### [Finanzdaten von mehreren Unternehmen konsolidieren](finance-consolidated-company-reporting.md)
 
-### Verkauf
+### Vertrieb
 #### [Verkaufsberichte](sales-reports.md)
 #### [Rahmenauftragsstatus](sales-how-to-create-blanket-sales-orders.md#to-view-the-status-of-a-blanket-sales-order)
 #### [Paketverfolgung](sales-how-track-packages.md)
@@ -1857,33 +1888,6 @@ ms.service: dynamics-365-business-central
 #### [Serviceangebote – Übersicht](service-how-to-allocate-resources.md#to-see-an-overview-of-service-orders-and-service-quotes)
 #### [Gebuchte Dienstleistungsbelege – Übersicht](service-service-posting.md#to-view-information-about-a-posted-service-document)
 
-## Ad-hoc-Datenanalyse
-### [Übersicht](reports-adhoc-analysis.md)
-### [Sortieren, Suchen und Filtern](ui-enter-criteria-filters.md)
-### [Häufig gestellte Fragen zum Sortieren und Filtern](ui-search-filter-faq.yml)
-### [Seitendaten in Excel analysieren](across-work-with-excel.md)
-### [Berichtsdaten mit Excel analysieren](report-analyze-excel.md)
-### [Listen- und Abfragedaten mit dem Analysemodus analysieren](analysis-mode.md)
-### [Financial Business Intelligence](bi.md)
-
-## Integrierte Analysen 
-### [Übersicht](reports-built-in-analytics.md)
-### [Intelligente Einblicke](about-intelligent-cloud.md)
-### [Mit Power BI-Berichten arbeiten](across-working-with-powerbi.md)
-### [Financial Business Intelligence](bi.md)
-### [Finanzauswertungen mit Excel analysieren](finance-analyze-excel.md)
-### [Finanzdaten von mehreren Unternehmen konsolidieren](finance-consolidated-company-reporting.md)
-### [Telemetrie der Berichtsnutzung](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)
-
-
-## Daten in Business Intelligence Tools analysieren
-### [Übersicht](reports-external-analysis.md)
-### [Microsoft Fabric und Business Central](admin-fabric.md)
-### [Power BI mit Business Central verwenden](admin-powerbi.md)
-### [Finanzauswertungen mit Excel analysieren](finance-analyze-excel.md)
-### [Daten in Data-Warehouses oder Data Lakes extrahieren](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses)
-### [Daten mit der Business Central-API lesen](/dynamics365/business-central/dev-itpro/api-reference/v2.0/)
-
 ## Berichte entwickeln
 ### [Übersicht](reports-develop-reports.md)
 ### Berichtslayouts entwickeln
@@ -1901,6 +1905,16 @@ ms.service: dynamics-365-business-central
 ### Berichts-Datasets entwickeln
 #### [Anleitung zur Entwicklung von Berichten](/dynamics365/business-central/dev-itpro/developer/devenv-reports)
 #### [Anleitung zur Leistungsoptimierung von Berichten](/dynamics365/business-central/dev-itpro/performance/performance-developer#writing-efficient-reports)
+
+## Daten in Business Intelligence Tools analysieren
+### [Übersicht](reports-external-analysis.md)
+### [Microsoft Fabric und Business Central](admin-fabric.md)
+### [Power BI mit Business Central verwenden](admin-powerbi.md)
+### [Finanzauswertungen mit Excel analysieren](finance-analyze-excel.md)
+### [Daten in Data-Warehouses oder Data Lakes extrahieren](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses)
+### [Daten mit der Business Central-API lesen](/dynamics365/business-central/dev-itpro/api-reference/v2.0/)
+
+
 
 # Sicherheit, Compliance und Datenschutz
 ## Sicherheit und Schutz
@@ -1925,7 +1939,7 @@ ms.service: dynamics-365-business-central
 ##### [Übersicht](admin-access-with-m365-license.md)
 ##### [Zugriff mit Microsoft 365-Lizenzen einrichten](admin-access-with-m365-license-setup.md)
 ##### [Benutzerzugriffs-Flow](admin-access-with-m365-license-flow.md)
-##### [FAQ](admin-access-with-m365-license-faq.md)
+##### [Häufig gestellte Fragen](admin-access-with-m365-license-faq.md)
 ##### [Problembehandlung](admin-access-with-m365-license-troubleshooting.md) 
 #### Benutzerberechtigungen erteilen
 ##### [Benutzer gemäß Lizenzen erstellen](ui-how-users-permissions.md)
@@ -2075,7 +2089,7 @@ ms.service: dynamics-365-business-central
 ### [Business Central lokal migrieren](/dynamics365/business-central/dev-itpro/administration/migrate-business-central-on-premises?toc=/dynamics365/business-central/toc.json)
 ### [Migration von Dynamics GP](/dynamics365/business-central/dev-itpro/administration/migrate-dynamics-gp?toc=/dynamics365/business-central/toc.json)
 <!--### [Migrating from Dynamics NAV](/dynamics365/business-central/dev-itpro/upgrade/Upgrade-Considerations#online?toc=/dynamics365/business-central/toc.json)-->
-### [FAQ zur Migration in die Cloud](/dynamics365/business-central/dev-itpro/administration/faq-migrate-data?toc=/dynamics365/business-central/toc.json)
+### [Häufig gestellte Fragen zur Migration in die Cloud](/dynamics365/business-central/dev-itpro/administration/faq-migrate-data?toc=/dynamics365/business-central/toc.json)
 ## [Verwaltung von Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration?toc=/dynamics365/business-central/toc.json)
 ## [Entwicklung](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview?toc=/dynamics365/business-central/toc.json)
 ## [Sicherheit und Schutz](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)

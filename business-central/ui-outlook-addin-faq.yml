@@ -27,12 +27,16 @@ sections:
         answer: |
           Ja. Als Administrator, Entwickler oder Partner können Sie Ihre eigenen Add-In-Manifeste ändern und erstellen. Eine Möglichkeit besteht darin, das Contact Insights-Manifest aus jeder Umgebung herunterzuladen, mit der die Benutzer eine Verbindung herstellen möchten. Ändern Sie dann die Tags `<Id>` und `<DisplayName>` , damit mehrere Versionen des Add-Ins installiert werden können. Durch diese Änderungen kann der Benutzer mehrere Business Central-Add-Ins installieren, die jeweils auf ihre eigene Umgebung verweisen.
 
-          ![Mehrere Business Central-Add-Ins für Outlook.](media/outlook-multiple-addins.png) 
+          ![Mehrere Business Central-Add-Ins für Outlook.](media/outlook-multiple-addins.png)
+      - question: |
+          Das Outlook-Add-In teilt mir mit, dass die Seite nicht unterstützt wird. Warum?
+        answer: |
+          Einige Features in Business Central erfordern einen erheblichen Arbeitsbereich, um ein optimales Erlebnis zu bieten, und sind bei Verwendung des Outlook-Add-In-Bereichs nicht verfügbar. Beispielsweise ist in diesem Bereich keine Seite mit einem Schritt-für-Schritt-Assistenten verfügbar. Um dies zu umgehen, können Sie die Seite im Add-In mit der Popup-Aktion ausblenden. Das Popup-Fenster kann auf jede beliebige Größe eingestellt werden und auch den gesamten Bildschirm ausfüllen.
 additionalContent: |
 
   ## Siehe auch
 
-  [Das Business Central-Add-in für Outlook holen](admin-outlook.md)  
+  [Das Business Central-Add-in für Outlook abrufen](admin-outlook.md)  
   [Benutzen Sie Business Central als Posteingang in Outlook](work-outlook-addin.md)  
 
   [!INCLUDE[footer-include](includes/footer-banner.md)]

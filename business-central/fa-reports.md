@@ -9,21 +9,17 @@ ms.date: 07/13/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="fixed-assets-reports-and-analytics-in-business-central"></a>Berichte und Analysen zu Anlagen in Business Central
+# Berichte und Analysen zu Anlagen in Business Central
 
 Um Sie bei der Verwaltung Ihrer Anlagen in [!INCLUDE [prod_short](includes/prod_short.md)] zu unterstützen, sind Standardberichte und Analysen integriert. Die App sprengt die Grenzen herkömmlicher Berichte und hilft Ihnen, verschiedene Arten von Berichten effizient zu gestalten.  
 
-## <a name="reports"></a>Berichte
+## Berichte
 [!INCLUDE [fa_reports](includes/fa-reports-include.md)]
 
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
-[Analysieren von Finanzberichten in Microsoft Excel](finance-analyze-excel.md)  
-[Arbeiten mit Dimensionen](finance-dimensions.md)  
+[Überblick über die Anlagenanalyse](fa-analytics-overview.md)   
 [Verwaltung von Anlagen](fa-manage.md)  
-[Lokale Funktionen – Übersicht](about-localization.md)  
-[Buchhalter-Erfahrung in [!INCLUDE[prod_long](includes/prod_long.md)]](finance-accounting.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

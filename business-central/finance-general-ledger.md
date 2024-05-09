@@ -1,48 +1,51 @@
 ---
-title: Verstehen des Hauptbuchs und des COA
+title: Das Hauptbuch und den Kontenplan verstehen
 description: 'Beschreibt das Hauptbuch, den Kontenplan und die Kontenkategorien. Verwenden Sie die Seite Finanzbuchhaltung Einrichtung, um die Handhabung der Buchhaltung in Ihrer Firma festzulegen.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'analysis, history, track'
 ms.search.form: '18, 20, 37, 65, 99, 312, 314, 313, 395, 552, 569, 570, 634, 790, 791, 1158'
-ms.date: 12/19/2023
+ms.date: 04/19/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 # Das Hauptbuch und den Kontenplan verstehen
 
-Das Hauptbuch (G/L) speichert Ihre Finanzdaten, und der Kontenplan (COA) zeigt die Konten, auf die alle Hauptbucheinträge gebucht werden. [!INCLUDE[prod_short](includes/prod_short.md)] umfasst einen Standardkontenplan, der zur Unterstützung Ihres Unternehmens bereit steht.
+Die Finanzbuchhaltung speichert Ihre Finanzdaten, und der Kontenplan (COA) zeigt die Konten, auf die alle Sachposten gebucht werden. [!INCLUDE[prod_short](includes/prod_short.md)] umfasst einen Standardkontenplan, der zur Unterstützung Ihres Unternehmens bereit steht.
 
 ## Finanzbuchhaltungs-Einrichtung und Buchungsmatrix Einrichtung
 
 Die Einrichtung der Finanzbuchhaltung ist das Kernstück der Finanzvorgängen, da sie definieren, wie Sie Daten buchen. Bei der Konfiguration Ihrer Finance-Prozesse spielen vor allem zwei Seiten eine wichtige Rolle:  
 
-* Die Seite **Finanzbuchhaltung Einrichtung**
+* **Finanzbuchhaltung Einrichtung**
+* **Buchungsmatrix Einrichtung**
 
-  Auf der Seite **Finanzbuchhaltung einrichten** geben Sie an, wie bestimmte finanzbuchhalterische Sachverhalte in Ihrem Unternehmen gehandhabt werden sollen, wie beispielsweise:  
+### Die Seite **Finanzbuchhaltung Einrichtung**
 
-  * Rechnungsrundungskontodetails  
-  * Adressformate  
-  * Finanzberichterstellung
+Geben Sie auf der Seite **Finanzbuchhaltung einrichten** an, wie bestimmte finanzbuchhalterische Sachverhalte in Ihrem Unternehmen gehandhabt werden sollen, wie beispielsweise:  
 
-  > [!TIP]
-  > Die Seite **Finanzbuchhaltung Einrichtung** enthält allgemeine Felder sowie Felder, die für Ihr Land oder Ihre Region spezifisch sind. Wenn Sie sich über die Bedeutung eines Feldes nicht im Klaren sind, empfehlen wir Ihnen, mit Ihrem Buchhalter zusammenzuarbeiten, um festzustellen, ob es für Ihr Unternehmen relevant ist. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
+* Rechnungsrundungskontodetails  
+* Adressformate  
+* Finanzberichterstellung
 
-  Öffnen Sie die Seite [hier](https://businesscentral.dynamics.com/?page=118).
-  
-* Die Seite **Buchungsmatrix Einrichtung**
+> [!TIP]
+> Die Seite **Finanzbuchhaltung Einrichtung** enthält allgemeine sowie für Ihr Land oder Ihre Region spezifische Felder. Wenn Sie sich über die Bedeutung eines Feldes nicht im Klaren sind, empfehlen wir Ihnen, mit Ihrer Buchhaltung zu sprechen, um festzustellen, ob es für Ihr Unternehmen relevant ist. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 
-  Ebenso geben Sie auf der Seite **Buchungsmatrix Einrichtung** an, wie Sie Kombinationen aus Geschäftsbuchungsgruppen und Produktbuchungsgruppen einrichten wollen. Buchungsgruppen ordnen Entitäten wie Kunden, Lieferanten, Artikel, Ressourcen sowie Verkaufs- und Kaufbelege den Hauptbuch-Konten zu. Für jede Kombination aus Geschäftsbuchungsgruppe und Produktbuchungsgruppe geben Sie eine Zeile ein. Sie können jedoch auch jede Zeile in einer eigenen Buchungseinrichtungskarte öffnen. Erfahren Sie mehr unter [Buchungsgruppen Einrichtungen](finance-posting-groups.md).  
+Um die Seite jetzt zu öffnen, verwenden Sie den folgenden Link [Finanzbuchhaltung Einrichtung](https://businesscentral.dynamics.com/?page=118).
 
-  > [!TIP]
-  > Wenn Sie die Felder, die Sie suchen, auf der Seite **Allgemeine Buchungsmatrixeinrichtung** nicht sehen können, verwenden Sie die horizontale Bildlaufleiste am unteren Rand der Seite, um nach rechts zu blättern.  
+### Die Seite **Buchungsmatrix Einrichtung**
 
-  Öffnen Sie die Seite [hier](https://businesscentral.dynamics.com/?page=314).
+Verwenden Sie die Seite **Buchungsmatrix** um Kombinationen aus Geschäfts- und Produktbuchungsgruppen einzugeben. Buchungsgruppen ordnen Entitäten wie Kunden, Lieferanten, Artikel, Ressourcen sowie Verkaufs- und Kaufbelege den Hauptbuch-Konten zu. Für jede Kombination aus Geschäftsbuchungsgruppe und Produktbuchungsgruppe geben Sie eine Zeile ein. Sie können jedoch auch jede Zeile in einer eigenen Buchungseinrichtungskarte öffnen. Erfahren Sie mehr unter [Buchungsgruppen Einrichtungen](finance-posting-groups.md).  
+
+> [!TIP]
+> Wenn Sie die Felder, die Sie suchen, auf der Seite **Allgemeine Buchungsmatrixeinrichtung** nicht sehen können, verwenden Sie die horizontale Bildlaufleiste am unteren Rand der Seite, um nach rechts zu blättern.  
+
+Um die Seite jetzt zu öffnen, verwenden Sie den folgenden Link [Buchungsmatrix](https://businesscentral.dynamics.com/?page=314).
 
 ## Der Kontenplan
 
-Der Kontenplan zeigt alle Sachkonten an. Vom Kontenplan aus können Sie Dinge tun wie:  
+Die Seite **Kontenplan** zeigt alle Sachkonten an. Vom Kontenplan aus können Sie Dinge tun wie:  
 
 * Berichte ansehen, die die Sachkonteneinträge und -Salden zeigen.  
 * GuV-Kontennullstellung.  
@@ -50,7 +53,7 @@ Der Kontenplan zeigt alle Sachkonten an. Vom Kontenplan aus können Sie Dinge tu
 * Sie sehen eine Liste der Buchungsgruppen für dieses Konto.
 * Zeigen Sie separate Soll- und Habensalden für ein einzelnes Konto an.
 
-Sie können Sachkonten hinzufügen, ändern oder löschen. Um jedoch Differenzen zu verhindern, können Sie ein Sachkonto nicht löschen, wenn Daten im Kontenplan verwendet werden. Außerdem können Sie ab dem zweiten Veröffentlichungszyklus 2022 das versehentliche Löschen von Konten in sensiblen Zeiträumen blockieren. Erfahren Sie mehr im Abschnitt [Löschen von Konten](finance-setup-chart-accounts.md#delete-accounts).  
+Weitere Informationen finden Sie unter [Den Kontenplan verstehen](finance-chart-of-accounts.md).
 
 ## Kontokategorien
 
@@ -64,9 +67,9 @@ Sie können festlegen, ob bestimmte Arten von Berichten die Konten in jeder Unte
 
 ### Beispiel
 
-Zum Beispiel hat der Standard-Bilanzauszug eine Unterkategorie für *Kasse* unter *Anlagevermögen*. Wenn Sie möchten, dass die Bilanzauszüge die Portokasse und die Girokonten berücksichtigen, müssen Sie die folgenden Schritte ausführen:
+Zum Beispiel hat der Standard-Bilanzauszug eine Unterkategorie für *Kasse* unter *Anlagevermögen*. Wenn Sie möchten, dass der Kontoauszug Portokasse und Scheck berücksichtigt, gehen Sie wie folgt vor:
 
-1. Wählen Sie das Symbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol, geben Sie **Sachkonto Kategorien** ein und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie das Symbol ![Glühbirne, die die „Sie wünschen ...“-Funktion öffnet](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol, geben Sie **Sachkonto Kategorien** ein und wählen Sie dann den entsprechenden Link.
    1. Alternativ können Sie auch [die Seite hier öffnen](https://businesscentral.dynamics.com/?page=790).
 2. Wählen Sie die Aktion **Liste bearbeiten** aus.
 3. Fügen Sie zwei neue Unterkategorien hinzu: Eine für die Portokasse und eine für Ihr Girokonto:
@@ -81,26 +84,29 @@ Zum Beispiel hat der Standard-Bilanzauszug eine Unterkategorie für *Kasse* unte
    3. Wählen Sie die Aktion **Nach unten verschieben**.
    4. Wählen Sie die Aktion **Einrücken**, um unter der Unterkategorie **Kasse** einzurücken.
 
-Wenn Sie die Aktion **Finanzberichte generieren** wählen - oder wenn der Bericht das nächste Mal generiert wird - wird Ihr Kontoauszug die folgenden Zeilen enthalten:
+Wenn Sie die Aktion **Finanzberichte generieren** wählen oder wenn der Bericht das nächste Mal generiert wird, enthält Ihre Saldenaufstellung die folgenden Zeilen:
 
 * Gesamtguthaben für Bargeld.
 * Zeilen mit Guthaben für die Portokasse und das Girokonto.  
 
 > [!NOTE]
-> Wenn Sie ein Sachkonto anlegen, ohne einen Kontentyp zuzuordnen, wenn Sie das Konto einer Buchungsgruppe zuordnen, ordnet [!INCLUDE[prod_short](includes/prod_short.md)] automatisch die Kontenkategorie aus dem Sachkonto direkt über dem Konto in Ihrem Kontenplan zu. Um das neue Konto jedoch in Ihre Finanzberichte aufzunehmen, müssen Sie die Aktion **Finanzberichte generieren** auf der Seite **Sachkonto Kategorien** wählen. Alternativ können Sie die Seite Sachkonto-Karte öffnen, die Kontokategorie angeben und dann Ihren Finanzbericht neu generieren.
+> Wenn Sie ein Sachkonto anlegen, ohne einen Kontentyp zuzuordnen, wenn Sie das Konto einer Buchungsgruppe zuordnen, ordnet [!INCLUDE[prod_short](includes/prod_short.md)] automatisch die Kontenkategorie aus dem Sachkonto direkt über dem Konto in Ihrem Kontenplan zu. Um das neue Konto jedoch in Ihre Finanzberichte aufzunehmen, müssen Sie die Aktion **Finanzberichte generieren** auf der Seite **Sachkonto Kategorien** wählen. Alternativ können Sie die Seite „Sachkontokarte“ öffnen, die Kontokategorie angeben und dann Ihren Finanzbericht neu generieren.
 
-## Einen schnellen Überblick erhalten
+## Zugriff auf das Erstellen und Bearbeiten von Sachkonten und Kontokategorien
 
-Auf der Seite **Kontenplan** werden die Konten in einer hierarchischen Liste angezeigt, die einen schnellen Zugriff auf die wichtigsten Informationen zu jedem Konto bietet. Allerdings ist die Liste statisch, und wenn Sie viele Konten haben, müssen Sie möglicherweise blättern, um die verschiedenen Konten anzuzeigen. Wenn Sie nur einen schnellen Überblick über die Grundlagen wie Nettoveränderungen und Salden haben möchten, ist die Seite **Kontenplan Übersicht** eine nützliche Alternative. Das Spaltenlayout auf der Seite ist jetzt dasselbe wie auf der Seite **Kontenplan** (allerdings mit weniger Spalten), so dass Sie sich nicht neu orientieren müssen. Sie können die hierarchischen Ebenen erweitern oder reduzieren, um die Ansicht zu verdichten. Um den Wechsel zwischen den Seiten zu erleichtern, ist die Seite **Kontenplan Übersicht** von der Seite **Kontenplan** aus zugänglich.
+In einem kleinen Unternehmen, wie dem CRONUS-Demounternehmen, können die meisten Benutzenden Finanzentitäten wie Sachkonten, Kontokategorien und den Kontenplan bearbeiten, mit Ausnahme der Benutzenden mit einer TEAMMITGLIED-Lizenz. In größeren Organisationen ist der Zugriff auf die Bearbeitung dieser Entitäten typischerweise durch Rollen und Berechtigungen eingeschränkt. Wenn Sie Administrator sind oder die Rolle *Business Manager* oder *Buchhalter* haben, können Sie die Berechtigungen der Benutzer steuern, um den richtigen Personen Zugriff auf die entsprechenden Tabellen zu geben. Mehr dazu erfahren Sie unter [Eine Übersicht der Benutzerberechtigungen erhalten](ui-define-granular-permissions.md#get-an-overview-of-a-users-permissions).  
 
-## Zugriff auf das Erstellen und Bearbeiten von Konten und Kontokategorien
+## Ihren Kontenplan mithilfe von Dimensionen vereinfachen
 
-In einem kleinen Unternehmen, wie der CRONUS-Demofirma, können die meisten Benutzer den Kontenplan bearbeiten, mit Ausnahme der Benutzer mit einer TEAMMITGLIED-Lizenz. In größeren Organisationen ist der Zugriff auf die Bearbeitung des Kontenplans typischerweise durch Rollen und Berechtigungen eingeschränkt. Wenn Sie Administrator sind oder die Rolle *Business Manager* oder *Buchhalter* haben, können Sie die Berechtigungen der Benutzer steuern, um den richtigen Personen Zugriff auf die entsprechenden Tabellen zu geben. Mehr dazu erfahren Sie im Abschnitt [Eine Übersicht der Benutzerberechtigungen erhalten](ui-define-granular-permissions.md#get-an-overview-of-a-users-permissions).  
+Dimensionen sind Attribute und Werte, die Posten kategorisieren, sodass Sie sie auf Dokumenten wie Verkaufsaufträgen verfolgen und analysieren können. Dimensionen können beispielsweise angegeben, aus welchem Projekt oder aus welcher Abteilung ein Posten stammt. Anstatt also für jede Abteilung und jedes Projekt separate Sachkonten einzurichten, können Sie Dimensionen als Grundlage für die Analyse verwenden und müssen keinen komplizierten Kontenplan erstellen.
+
+Mehr über Dimensionen erfahren Sie unter [Standarddimensionen für Debitoren, Kreditoren und andere Konten einrichten](finance-dimensions.md#to-set-up-default-dimensions-for-customers-vendors-and-other-accounts).
 
 ## Siehe auch
 
-[Einrichten oder Ändern des Kontenplans](finance-setup-chart-accounts.md)  
-[Benutzenden und Gruppen Berechtigungen zuweisen](ui-define-granular-permissions.md)  
+[Den Kontenplan verstehen](finance-chart-of-accounts.md)  
+[Arbeiten mit Dimensionen](finance-dimensions.md)  
+[Benutzer*innen und Gruppen Berechtigungen zuweisen](ui-define-granular-permissions.md)  
 [Business Intelligence](bi.md)  
 [Finanzen](finance.md)  
 
