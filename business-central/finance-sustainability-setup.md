@@ -11,7 +11,7 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="sustainability-setup"></a>Nachhaltigkeitseinrichtung
+# Nachhaltigkeitseinrichtung  
 
 Damit das Nachhaltigkeitsmodul ordnungsgemäß funktioniert, müssen Sie zunächst einige grundlegende Steuerelemente und Anweisungen für die gesamte Funktionalität einrichten.  
 
@@ -49,7 +49,7 @@ Um ein Nachhaltigkeitsmodul einzurichten, gehen Sie wie folgt vor:
 >[!NOTE]
 > In Version 24.0 unterstützt [!INCLUDE[prod_short](includes/prod_short.md)] keine Meldung an eine Behörde. Das Feld für die Konfiguration auf dem Inforegister **Berichterstellung** wird für zukünftige Berichtsfunktionen verwendet, kann aber auch von Partnern in lokalisierten Versionen verwendet werden.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch  
 [Finanzen](finance.md)    
 [Nachhaltigkeitsverwaltung – Übersicht](finance-manage-sustainability.md)
 [Diagramm der Nachhaltigkeitskonten und Nachhaltigkeitssachkonten](finance-sustainability-accounts-ledger.md)

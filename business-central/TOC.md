@@ -73,7 +73,7 @@ ms.service: dynamics-365-business-central
 ##### [Designdetails: Lagerbewertung](design-details-inventory-valuation.md)  
 ##### [Designdetails: Neubewertung](design-details-revaluation.md)
 #### Designdetails: Buchungsdatum für Regulierungswertposten
-##### [Buchungsdatum für Regulierungswertposten – Überblick](design-details-inventory-adjustment-value-entry-posting-date.md)  
+##### [Buchungsdatum für Regulierungswertposten – Überblick](design-details-inventory-adjustment-value-entry-posting-date.md)  
 ##### [Fehlermeldung „Das Buchungsdatum liegt nicht in Ihrem zugelassenen Buchungszeitraum“](design-details-inventory-adjustment-value-entry-allowed-posting-dates.md)  
 ##### [Buchungsdatum des Regulierungswertpostens im Vergleich zum Herkunftsposten](design-details-inventory-adjustment-value-entry-source-entry.md)
 #### Designdetails: Dimensionssatzposten
@@ -202,7 +202,7 @@ ms.service: dynamics-365-business-central
 ### [Intelligente Erkenntnisse (nur online)](about-intelligent-cloud.md)
 ## Häufig gestellte Fragen
 ### [Häufig gestellte Fragen](across-faq.yml)
-### [Häufig gestellte Fragen zum Chat mit Copilot (Vorschauversion)](chat-with-copilot-faq.md)
+### [Häufig gestellte Fragen zu Chat mit Copilot (Vorschauversion)](chat-with-copilot-faq.md)
 ### [Häufig gestellte Fragen zu „Sie wünschen ...“](ui-search-faq.md)
 ### [Häufig gestellte Fragen zum Sortieren und Filtern](ui-search-filter-faq.yml)
 ### [Häufig gestellte Fragen zu Listenansichten](ui-views-faq.yml)
@@ -449,9 +449,16 @@ ms.service: dynamics-365-business-central
 ### E-Belege einrichten und verwenden
 #### [Überblick über E-Belege](finance-edocuments-overview.md)
 #### [E-Belege einrichten](finance-how-setup-edocuments.md)
-#### [E-Belege bei Verkäufen und Einkäufen verwenden](finance-how-use-edocuments.md)
+#### [E-Belege im Verkauf verwenden](finance-how-use-edocuments.md)
+#### [E-Belege im Einkauf verwenden](finance-how-use-edocuments-purchase.md)
 #### [Einrichtung des E-Beleg-Konnektors mit externen Endpunkten](finance-how-setup-edocuments-external.md)
 #### [Erweiterung der E-Beleg-Funktionalität](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)
+
+### Nachhaltigkeitsmanagement
+#### [Nachhaltigkeitsmanagement – Überblick](finance-manage-sustainability.md)
+#### [Nachhaltigkeitseinrichtung](finance-sustainability-setup.md)
+#### [Diagramm der Nachhaltigkeitskonten und des Sachkontos ](finance-sustainability-accounts-ledger.md)
+#### [So erfassen Sie Treibhausgasemissionen (THG)](finance-sustainability-journal.md)
 
 ### [Organisationen mit mehreren Standorten und internationale Organisationen](finance-multi-site-organizations.md)
 #### Finanzdaten von mehreren Unternehmen konsolidieren
@@ -479,7 +486,7 @@ ms.service: dynamics-365-business-central
 #### [Daten mit Statistikkonten analysieren](bi-use-statistical-accounts.md)
 #### [Daten nach Dimensionen analysieren](bi-how-analyze-data-dimension.md)
 
-<!-- ### [Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md) -->
+### [Ad-hoc-Analysen der Finanzdaten](ad-hoc-analysis-finance.md)
 
 ### Integrierte Tools zur Finanzanalyse
 #### [Finanzdaten aus dem Kontenplan analysieren](finance-general-ledger.md)
@@ -548,8 +555,11 @@ ms.service: dynamics-365-business-central
 ### [Wiederkehrende Einkaufspositionen erstellen](purchasing-how-work-recurring-purchase-lines.md)
 
 ## Bestand
-### [Lagerbestand – Übersicht](inventory-manage-inventory.md)
-### [Bestands- und Lagerberichte](inventory-WMS-reports.md)
+### [Bestand – Übersicht](inventory-manage-inventory.md)
+### Bestandsanalyse 
+#### [Übersicht über die Bestandsanalyse](inventory-analytics-overview.md)
+#### [Ad-hoc-Analyse von Bestandsdaten](ad-hoc-analysis-inventory.md)
+#### [Integrierte Bestands- und Lagerberichte](inventory-WMS-reports.md)
 ### [Neue Artikel registrieren](inventory-how-register-new-items.md)
 ### [Mit Stücklisten arbeiten](inventory-how-work-BOMs.md)
 ### [Artikel kategorisieren](inventory-how-categorize-items.md)
@@ -585,8 +595,10 @@ ms.service: dynamics-365-business-central
 
 ## Anlagen
 ### [Anlagen – Übersicht](fa-manage.md)
+
 ### Anlagenanalysen
 #### [Anlagenanalysen – Übersicht](fa-analytics-overview.md)
+#### [Ad-hoc-Analysen von Anlagendaten](ad-hoc-analysis-fa.md)
 #### Integrierte Analysetools für Anlagen
 ##### [Wartungskosten überwachen](fa-how-maintain.md#to-monitor-maintenance-costs)
 ##### [Versicherungsdeckung überwachen](fa-how-insure.md#to-monitor-insurance-coverage)
@@ -594,6 +606,7 @@ ms.service: dynamics-365-business-central
 ##### [Verkaufsposten anzeigen](fa-how-dispose-retire.md#to-view-disposal-ledger-entries)
 ##### [Geschätzte Verkaufswerte anzeigen](fa-how-manage-budgets.md#to-view-projected-disposal-values)
 #### [Integrierte Anlagenberichte](fa-reports.md)
+
 ### [Anlagen einrichten](fa-setup.md)
 ### [Abschreibungsmethoden](fa-depreciation-methods.md)
 ### [Budgets für Anlagen verwalten](fa-how-manage-budgets.md)
@@ -776,6 +789,7 @@ ms.service: dynamics-365-business-central
 <!--LF-->
 ## Lokale Funktionen
 ### [Lokale Funktionen – Übersicht](about-localization.md)
+### [Entwicklung validierter Lokalisierungs-Apps](about-validated-localization-apps.md)
 
 ### Australien
 #### [Übersicht über die australische Version](LocalFunctionality/Australia/australia-local-functionality.md)
@@ -1070,7 +1084,7 @@ ms.service: dynamics-365-business-central
 ### Island
 #### [Lokale Funktionen in der isländischen Version](LocalFunctionality/Iceland/iceland-local-functionality.md)
 #### [Island: Einrichten der W1-Kern-App](LocalFunctionality/Iceland/iceland-global-core-app.md)
-#### MwSt.
+#### Mehrwertsteuer
 ##### [MwSt.-Zusammenfassungsinformationen auf Belegen drucken](LocalFunctionality/Iceland/how-to-print-vat-summary-information-on-documents.md)  
 ##### [Besondere Datenausgabe und Berichte für Steuerbehörden](LocalFunctionality/Iceland/special-data-output-and-reports-for-the-tax-authority.md)
 #### Elektronische Fakturierung
@@ -1567,7 +1581,11 @@ ms.service: dynamics-365-business-central
 #### [Lokale Funktionen in der US-Version](LocalFunctionality/UnitedStates/united-states-local-functionality.md)
 #### Steuer
 ##### [Grundlegende Steuereinrichtung](LocalFunctionality/UnitedStates/us-tax-setup.md)  
-##### [Verkaufssteuer in den USA melden](LocalFunctionality/UnitedStates/us-sales-tax.md)  
+##### [Verkaufssteuer in den USA melden](LocalFunctionality/UnitedStates/us-sales-tax.md)
+##### [Einführung in die IRS 1099-Formulare und ihre Funktionalität](LocalFunctionality/UnitedStates/introduction-to-the-irs-forms.md)
+##### [Einrichten und Verwenden des IRS 1099-Formulars für Version 24 (Veröffentlichungszyklus 1, 2024)](LocalFunctionality/UnitedStates/set-up-use-irs1099-form-v24.md)
+#### [Verwendung der IRS 1099-Formulare](LocalFunctionality/UnitedStates/how-to-1099-use.md)
+#### [IRS 1099-Formulare senden und melden](LocalFunctionality/UnitedStates/how-to-1099-report.md)       
 ##### [Das IRS 1099-Formular einrichten und verwenden](LocalFunctionality/UnitedStates/set-up-use-irs1099-form.md)
 ##### [Gesetzliche 1099 Formatänderungen und -Details](LocalFunctionality/UnitedStates/tax-1099-changes.md)  
 ##### [Das IRS 1096-Formular einrichten und verwenden](LocalFunctionality/UnitedStates/set-up-use-irs1096-form.md)
@@ -1802,8 +1820,14 @@ ms.service: dynamics-365-business-central
 # Analysen, Business Intelligence und Berichte 
 
 ## [Analysen – Übersicht](reports-bi-reporting.md)
-## [Ihre geschäftlichen Ziele mithilfe von Key Performance Indicators (KPIs) erreichen](./analytics-about-kpis.md)
-## [Finanzberichte verwenden](bi-how-work-account-schedule.md)
+## [Analyse nach Funktionsbereich](analytics-by-functional-area.md)
+
+## KPIs, Dashboards und Finanzberichte
+### [Ihre geschäftlichen Ziele mithilfe von Key Performance Indicators (KPIs) erreichen](analytics-about-kpis.md)
+### [Einführung in Business Central und Power BI](admin-powerbi.md)
+### [Mit Power BI-Berichten arbeiten](across-working-with-powerbi.md)
+### [KPIs mit Power BI-Metriken verfolgen](track-kpis-with-power-bi-metrics.md)
+### [Finanzberichte verwenden](bi-how-work-account-schedule.md)
 
 ## Ad-hoc-Datenanalyse
 ### [Übersicht](reports-adhoc-analysis.md)
@@ -1812,12 +1836,7 @@ ms.service: dynamics-365-business-central
 ### [Seitendaten in Excel analysieren](across-work-with-excel.md)
 ### [Berichtsdaten mit Excel analysieren](report-analyze-excel.md)
 ### [Listen- und Abfragedaten mit dem Analysemodus analysieren](analysis-mode.md)
-
-## Integrierte Analysetools
-### [Übersicht](reports-built-in-analytics.md)
-### [Mit Power BI-Berichten arbeiten](across-working-with-powerbi.md)
-### [Intelligente Erkenntnisse (lokal)](about-intelligent-cloud.md)
-### [Telemetrie der Berichtsnutzung](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)
+### [Ad-hoc-Datenanalysen nach Funktionsbereich](ad-hoc-data-analysis-by-functional-area.md)
 
 ## Berichte in der täglichen Arbeit verwenden
 ### [Übersicht](reports-use-reports.md)
@@ -1834,44 +1853,21 @@ ms.service: dynamics-365-business-central
 ## Integrierte Berichte
 ### [Bericht – Übersicht](reports-available-reports.md)
 ### Finanzen
-#### [Financial Business Intelligence](bi.md)
-#### [Finanzauswertungen mit Excel analysieren](finance-analyze-excel.md)
+#### [Finanzberichte erstellen](bi-how-work-account-schedule.md)
 #### [Wichtige Finanzberichte](finance-reports.md)
 #### [Debitorenberichte](receivables-reports.md)
 #### [Kreditorenkontenberichte](payables-reports.md)
-#### [Cashflow-Analyse](finance-setup-cash-flow-analyses.md)
-#### [Finanzdaten von mehreren Unternehmen konsolidieren](finance-consolidated-company-reporting.md)
 
-### Vertrieb
-#### [Verkaufsberichte](sales-reports.md)
-#### [Rahmenauftragsstatus](sales-how-to-create-blanket-sales-orders.md#to-view-the-status-of-a-blanket-sales-order)
-#### [Paketverfolgung](sales-how-track-packages.md)
-#### [Nicht gebuchte und gebuchte Zeilen des Rahmenauftrags anzeigen](sales-how-to-create-blanket-sales-orders.md#to-view-unposted-and-posted-blanket-sales-order-lines)
-
-### Einkäufe
-#### [Einkaufsberichte](purchase-reports.md)
-#### [Einkaufsposten anzeigen](purchasing-how-record-purchases.md#viewing-ledger-entries)
-
-### Lagerbestand und Lager
-#### [Bestands- und Lagerberichte](inventory-wms-reports.md)
-#### [Artikelverfügbarkeit](inventory-how-availability-overview.md)
-#### [Artikel mit Serien-, Chargen- und Paketnummern verfolgen](inventory-how-work-item-tracking.md)
-#### [Ablaufverfolgung der Artikel mit Artikelverfolgung](inventory-how-to-trace-item-tracked-items.md)
-#### [Abstimmung zwischen den Lagerbestandsposten und der Finanzbuchhaltung prüfen](finance-how-to-post-inventory-costs-to-the-general-ledger.md#to-audit-the-reconciliation-between-the-inventory-ledger-and-the-general-ledger)
-#### [Zugeordnete Artikel in einem Warenausgangs- oder Kommissionierarbeitsblatt anzeigen](warehouse-how-to-cross-dock-items.md#to-view-cross-docked-items-in-a-shipment-or-pick-worksheet)
+### [Verkaufsberichte](sales-reports.md)
+### [Einkaufsberichte](purchase-reports.md)
+### [Bestands- und Lagerberichte](inventory-wms-reports.md)
 
 ### Projekt
 #### [Projektberichte](project-reports.md)
 #### [Schätzungen des Projektverbrauchs anzeigen](projects-how-record-job-usage.md#to-view-project-usage-estimates-and-post-updates)
 #### [Projektfortschritt und -leistung überwachen](projects-how-monitor-progress-performance.md)
 
-### Anlagen
-#### [Anlagenberichte](fa-reports.md)
-#### [Wartungskosten überwachen](fa-how-maintain.md#to-monitor-maintenance-costs)
-#### [Versicherungsdeckung überwachen](fa-how-insure.md#to-monitor-insurance-coverage)
-#### [Geänderte AfA-Buchwerte anzeigen](fa-how-trans-split-combine.md#to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification)
-#### [Verkaufsposten anzeigen](fa-how-dispose-retire.md#to-view-disposal-ledger-entries)
-#### [Geschätzte Verkaufswerte anzeigen](fa-how-manage-budgets.md#to-view-projected-disposal-values)
+### [Anlagenberichte](fa-reports.md)
 
 ### Montageverwaltung
 #### [Montageverwaltungsberichte](assembly-reports.md)
@@ -1887,6 +1883,9 @@ ms.service: dynamics-365-business-central
 #### [Serviceaufträge – Übersicht](service-how-to-allocate-resources.md#to-see-an-overview-of-service-orders-and-service-quotes)
 #### [Serviceangebote – Übersicht](service-how-to-allocate-resources.md#to-see-an-overview-of-service-orders-and-service-quotes)
 #### [Gebuchte Dienstleistungsbelege – Übersicht](service-service-posting.md#to-view-information-about-a-posted-service-document)
+
+### [Telemetrie der Berichtsnutzung](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)
+
 
 ## Berichte entwickeln
 ### [Übersicht](reports-develop-reports.md)
@@ -1909,11 +1908,9 @@ ms.service: dynamics-365-business-central
 ## Daten in Business Intelligence Tools analysieren
 ### [Übersicht](reports-external-analysis.md)
 ### [Microsoft Fabric und Business Central](admin-fabric.md)
-### [Power BI mit Business Central verwenden](admin-powerbi.md)
-### [Finanzauswertungen mit Excel analysieren](finance-analyze-excel.md)
 ### [Daten in Data-Warehouses oder Data Lakes extrahieren](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses)
 ### [Daten mit der Business Central-API lesen](/dynamics365/business-central/dev-itpro/api-reference/v2.0/)
-
+### [Intelligente Erkenntnisse (lokal)](about-intelligent-cloud.md)
 
 
 # Sicherheit, Compliance und Datenschutz
