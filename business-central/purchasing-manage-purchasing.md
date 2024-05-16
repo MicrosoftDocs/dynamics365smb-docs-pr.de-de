@@ -22,21 +22,66 @@ Produkte können Lagerartikel und Dienstleistungen sein. Weitere Informationen f
 
 Für alle Einkaufsprozesse können Sie einen Genehmigungsworkflows einfügen, beispielsweise um große Einkäufe an bestimmten Kreditoren vom Buchhaltungs-Manager zu genehmigen. Weitere Informationen erhalten Sie unter [Genehmigungsworkflow verwenden](across-how-use-approval-workflows.md).
 
-Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Artikeln, die sie beschreiben.
+Die folgenden Abschnitte beschreiben eine Reihe von Aufgaben mit Links zu den Artikeln, die sich mit ihnen befassen.
+
+## Erste Schritte mit den Einkaufsfunktionen
+
+Legen Sie vor dem Kauf von Waren fest, wie Sie die Einkaufsprozesse Ihres Unternehmens handhaben möchten.
+
+|Zweck ...| Siehe |
+|---|---|
+| Konfigurieren der Regeln und Werte, welche die Einkaufsrichtlinien Ihres Unternehmens bestimmen. | [Einkauf einrichten](purchasing-setup-purchasing.md) |
+| Jeden Kreditor, von dem Sie kaufen, mit einer Kreditorenkarte erfassen. | [Neue Kreditoren einrichten](purchasing-how-register-new-vendors.md) |
+
+## Einkaufsanalysen
+
+In diesem Abschnitt werden die Analysetools beschrieben, mit denen Sie sich Einblick in Ihre Einkaufsprozesse verschaffen können.
+
+| Zweck ... | Siehe |
+| --- | --- |
+| Mehr über die Möglichkeiten zur Analyse von Einkaufsdaten erfahren. | [Einkaufsanalysen – Übersicht](purchasing-analytics-overview.md) |
+| Ad-hoc-Analysen von Einkaufsdaten direkt auf Listenseiten und in Abfragen durchführen. | [Ad-hoc-Analysen von Einkaufsdaten](ad-hoc-analysis-purchasing.md) |
+| Integrierte Einkaufsberichte kennenlernen. | [Integrierte Einkaufsberichte](purchase-reports.md) |
+
+## Vom Angebot zum Einkauf bis zur Verkaufsrechnung
+
+In der folgenden Tabelle wird die Verwendung einfacher Einkaufsprozesse beschrieben.
 
 | Bis | Siehe |
 | --- | --- |
-| Erstellen Sie eine Einkaufsrechnung, um Ihre Vereinbarung mit dem Kreditor zu erfassen, bestimmte Produkte unter speziellen Lieferungs- und Zahlungsbedingungen zu kaufen. |[Erfassen eines Einkaufs](purchasing-how-record-purchases.md) |
 |Erstellen Sie eine Einkaufsanfrage, um eine Anforderung für ein Angebot beim Lieferanten zu tragen, den Sie in eine Einkaufsbestellung umwandeln zu können.|[Angebotsanforderungen](purchasing-how-request-quotes.md)|
-| Erstellen Sie eine Einkaufsrechnung für alle oder die ausgewählten Zeilen auf einer Verkaufsrechnung. |[Einkauf von Artikeln für einen Verkauf](purchasing-how-purchase-products-sale.md) |
+| Erstellen Sie eine Einkaufsrechnung für alle oder die ausgewählten Zeilen auf einer Verkaufsrechnung. |[Artikel für einen Verkauf einkaufen](purchasing-how-purchase-products-sale.md) |
+| Erstellen Sie eine Einkaufsrechnung, um Ihre Vereinbarung mit dem Kreditor zu erfassen, bestimmte Produkte unter speziellen Lieferungs- und Zahlungsbedingungen zu kaufen. |[Einkäufe erfassen](purchasing-how-record-purchases.md) |
+| Erfahren Sie, wie Sie [!INCLUDE[prod_short](includes/prod_short.md)] wenn Sie einen Artikel bestellen müssen, damit er zu einem bestimmten Datum geliefert wird.|[Terminberechnung für Einkäufe](purchasing-date-calculation-for-purchases.md)|
 |Verstehen, was passiert, wenn Sie Einkaufsbelege buchen.|[Einkäufe buchen](ui-post-purchases.md)|
+
+Wenn Sie komplexere Einkaufsprozesse benötigen, finden Sie in der folgenden Tabelle Artikel, die erklären, was Sie mit [!INCLUDE[prod_short](includes/prod_short.md)] tun können.
+
+| Zweck | Siehe |
+| --- | --- |
 | Aktionen ausführen in einer unbezahlten gebuchten Einkaufsrechnung, um einen Gutschriftsprozess automatisch zu erstellen, und entweder die Einkaufsrechnung zu stornieren oder neu zu erstellen um Korrekturen vorzunehmen. |[Ändern oder Löschen einer unbezahlten Verkaufsrechnung](purchasing-how-correct-cancel-unpaid-purchase-invoices.md) |
 | Erstellen Sie eine Einkaufsgutschrift, um eine bestimmte gebuchte Einkaufsrechnung wiederherzustellen, um anzugeben, welche Produkte Sie an den Kreditor zurückliefern und welchen Zahlungsbetrag Sie eintreiben. |[Bestellretouren oder Stornierungen verarbeiten](purchasing-how-process-purchase-returns-cancellations.md) |
-|Bereiten Sie sich vor, um Lieferungen vom selben Kreditor einmal zu fakturieren, indem Sie die Wareneingänge in einer Rechnung zusammenfassen.|[Zusammenfassen von Lieferungen in einer einzelnen Rechnung](purchasing-how-to-combine-receipts.md)|
-|Konvertieren Sie zum Beispiel elektronische Rechnungen von Ihren Kreditoren in Business Central in Einkaufsrechnungen.|[Vorgehensweise: Elektronische Belege empfangen und konvertieren](purchasing-how-to-receive-and-convert-electronic-documents.md)|
-| Erfahren Sie, wie Sie [!INCLUDE[prod_short](includes/prod_short.md)] wenn Sie einen Artikel bestellen müssen, damit er zu einem bestimmten Datum geliefert wird.|[Terminberechnung für Einkäufe](purchasing-date-calculation-for-purchases.md)|
-|Lösen Sie auf Verwirrung auf, wenn zwei oder mehr Datensätze für denselben Kreditor vorhanden sind.|[Doppelt Datensätze zusammenführen](sales-how-merge-duplicate-records.md)|
 |Verwalten Sie Ihre Verpflichtung gegenüber einem Lieferanten, große Mengen zu kaufen, die im Laufe der Zeit in mehreren Sendungen geliefert werden.|[Arbeiten mit Rahmenbestellungen](sales-how-to-create-blanket-sales-orders.md)|
+
+
+## Stornierte Aufträge, Rückerstattungen und Retouren
+
+In der nachfolgenden Tabelle wird der Umgang mit Stornierungen von Bestellungen, Rückerstattungen und Retouren von Waren, die Sie kaufen, beschrieben.
+
+| Bis | Siehe |
+| --- | --- |
+|Bereiten Sie sich vor, um Lieferungen vom selben Kreditor einmal zu fakturieren, indem Sie die Wareneingänge in einer Rechnung zusammenfassen.|[Zusammenfassen von Lieferungen in einer einzelnen Rechnung](purchasing-how-to-combine-receipts.md)|
+|Konvertieren Sie zum Beispiel elektronische Rechnungen von Ihren Kreditoren in Business Central in Einkaufsrechnungen.|[Elektronische Belege empfangen und konvertieren](purchasing-how-to-receive-and-convert-electronic-documents.md)|
+
+
+## Andere Prozesse im Verkauf
+
+In der folgenden Tabelle wird der Umgang mit anderen Einkaufsprozessen beschrieben.
+
+| Bis | Siehe |
+| --- | --- |
+|Lösen Sie auf Verwirrung auf, wenn zwei oder mehr Datensätze für denselben Kreditor vorhanden sind.|[Doppelte Datensätze zusammenführen](sales-how-merge-duplicate-records.md)|
+
 
 ## Externe Belegnummern
 
@@ -46,10 +91,10 @@ Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Artikel
 
 [Einkaufeinrichten](purchasing-setup-purchasing.md)  
 [Neue Kreditoren einrichten](purchasing-how-register-new-vendors.md)  
+[Einkaufsanalysen – Übersicht](purchasing-analytics-overview.md)   
 [Verwalten von Verbindlichkeiten](payables-manage-payables.md)  
-[Projekte verwalten](projects-manage-projects.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Allgemeine Geschäftsfunktionen](ui-across-business-areas.md)
+[Allgemeine Unternehmensfunktionen](ui-across-business-areas.md)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

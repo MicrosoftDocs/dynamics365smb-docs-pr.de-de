@@ -14,22 +14,22 @@ ms.search.form: '456, 457, 458, 459, 460, 461, 16, 22, 25, 26, 27, 31, 143, 144,
 
 > **GILT FÜR:** Öffentliche Vorschau in Business Central 2023, 1. Veröffentlichungszyklus und höher, zur Analyse von Listenseiten; Allgemein verfügbar im 2. Veröffentlichungszyklus von Business Central 2023 zum Analysieren von Daten aus Listenseiten und Abfragen.
 
-In diesem Artikel erfahren Sie, wie Sie Daten von Listenseiten und Abfragen mit dem Feature *Datenanalyse* analysieren. Mit dem Feature für die Datenanalyse können Sie, Daten direkt von der Seite aus analysieren, ohne einen Bericht ausführen oder zu einer anderen Anwendung wie Excel wechseln zu müssen. Es bietet eine interaktive und vielseitige Möglichkeit, Daten zu berechnen, zusammenzufassen und zu untersuchen. Anstatt Berichte mit unterschiedlichen Optionen und Filtern auszuführen, können Sie mehrere Registerkarten hinzufügen, die unterschiedliche Aufgaben oder Ansichten der Daten darstellen. Beispiele könnten „Meine Kunden“, „Artikel verfolgen“, „Kürzlich hinzugefügte Lieferanten“, „Verkaufsstatistiken“ oder jede andere Ansicht sein, die Sie sich vorstellen können.
+In diesem Artikel wird erklärt, wie Sie das Feature für die Datenanalyse von Listenseiten und Abfragen aus verwenden. Mit der Datenanalyse können Sie Daten direkt von der Seite aus analysieren, ohne einen Bericht ausführen oder eine andere Anwendung wie Excel öffnen zu müssen. Das Feature bietet eine interaktive und vielseitige Möglichkeit, Daten zu berechnen, zusammenzufassen und zu untersuchen. Anstatt Berichte mit unterschiedlichen Optionen und Filtern auszuführen, können Sie mehrere Registerkarten hinzufügen, die unterschiedliche Aufgaben oder Ansichten der Daten darstellen. Einige Beispiele sind „Meine Debitoren“, „Artikel verfolgen“, „Kürzlich hinzugefügte Kreditoren“, „Verkaufsstatistiken“ oder jede andere Ansicht sein, die Sie sich vorstellen können.
 
 > [!TIP]
-> Das Gute am Feature für die Datenanalyse ist, dass es weder die zugrunde liegenden Daten der Listenseite oder der Abfrage noch das Layout der Seite oder der Abfrage verändert, wenn es sich nicht im Analysemodus befindet. Der beste Weg, um zu erfahren, was Sie mit dem Feature für die Datenanalyse tun können, ist, Dinge auszuprobieren.
+> Das Gute am Feature für die Datenanalyse ist, dass sie die zugrunde liegenden Daten einer Listenseite oder Abfrage nicht ändert. Außerdem wird das Layout der Seite oder Abfrage nicht geändert, wenn sie sich nicht im Analysemodus befindet. Der beste Weg, um zu erfahren, was Sie im Analysemodus tun können, ist, ihn auszuprobieren.
 
-## Voraussetzungen 
+## Voraussetzungen
 
-- Wenn Sie Version 22 von Business Central verwenden, befindet sich das Feature für die Datenanalyse in der Vorschauversion. Daher muss es ein Administrierender aktivieren, bevor Sie es verwenden können. Um ihn zu aktivieren, gehen Sie auf die Seite **Funktionsverwaltung** und schalten Sie **Funktionsaktualisierung: Analysemodus, schnelle Datenanalyse direkt in Business Central** ein. [Weitere Informationen finden Sie unter Funktionsverwaltung](/dynamics365/business-central/dev-itpro/administration/feature-management).
+- Wenn Sie Version 22 von [!INCLUDE [prod_short](includes/prod_short.md)] verwenden, befindet sich das Feature für die Datenanalyse in der Vorschauversion. Daher muss es ein Administrierender aktivieren, bevor Sie es verwenden können. Um ihn zu aktivieren, gehen Sie auf die Seite **Funktionsverwaltung** und schalten Sie **Funktionsaktualisierung: Analysemodus, schnelle Datenanalyse direkt in Business Central** ein. [Weitere Informationen finden Sie unter Funktionsverwaltung](/dynamics365/business-central/dev-itpro/administration/feature-management).
 - In Version 23 und höher muss Ihrem Konto der Berechtigungssatz **DATENANALYSE – AUSFÜHREN** zugewiesen werden oder die Ausführungsberechtigung für das Systemobjekt enthalten **9640 Daten zulassen Analysemodus**. Als Administrator können Sie diese Berechtigungen für Benutzer ausschließen, die keinen Zugriff auf den Analysemodus haben sollen.
 
 > [!NOTE]
-> Möglicherweise bemerken Sie, dass einige Listenseiten nicht über den Schalter **Analysemodus aktivieren** zum Wechseln in den Analysemodus verfügen. Der Grund dafür ist, dass Entwickler den Analysemodus auf bestimmten Seiten deaktivieren können, indem sie die [AnalysisModeEnabled-Eigenschaft](/dynamics365/business-central/dev-itpro/developer/properties/devenv-analysismodeenabled-property) in AL verwenden.
+> Einige Listenseiten haben den Schalter **Analysemodus aktivieren** zum Aktivieren des Analysemodus nicht. Der Grund dafür ist, dass Entwickler den Analysemodus auf bestimmten Seiten deaktivieren können, indem sie die [AnalysisModeEnabled-Eigenschaft](/dynamics365/business-central/dev-itpro/developer/properties/devenv-analysismodeenabled-property) in AL verwenden.
 
 ## Erste Schritte
 
-Gehen Sie wie folgt vor, um mit der Datenanalyse im Analysemodus zu beginnen.
+Gehen Sie wie folgt vor, um zu beginnen, den Analysemodus zu verwenden.
 
 >[!TIP]
 > Zum Analysemodus gehört auch ein Copilot-Feature namens *Analyseunterstützung*, das Ihnen den Einstieg eventuell erleichtert. [Weitere Informationen über die Analyseunterstützung mit Copilot](analysis-assist.md).
@@ -64,15 +64,15 @@ Im Analysemodus ist die Seite in zwei Bereiche unterteilt:
 
 ### Datenbereich (1)
 
-Im Datenbereich werden die Zeilen und Spalten der Listenseitenabfrage angezeigt und die Daten zusammengefasst. Der Datenbereich bietet eine vielseitige Möglichkeit, das Layout der Spalten zu steuern und eine schnelle Möglichkeit, eine Zusammenfassung der Daten zu erhalten. Bei Spalten, die numerische Werte enthalten, wird die Summe aller Werte in der Spalte in einer letzten Zeile angezeigt, es sei denn, Sie haben Zeilengruppen definiert. In diesem Fall erscheinen die Summen als Zwischensumme für die Gruppen.  
+Im Datenbereich werden die Zeilen und Spalten der Listenseitenabfrage angezeigt und die Daten zusammengefasst. Der Datenbereich bietet eine vielseitige Möglichkeit, das Layout der Spalten zu steuern und eine schnelle Möglichkeit, eine Zusammenfassung der Daten zu erhalten. Bei Spalten, die numerische Werte enthalten, wird die Summe aller Werte in der Spalte in einer letzten Zeile angezeigt, es sei denn, Sie legen Zeilengruppen fest. In diesem Fall erscheinen die Summen als Zwischensumme für die Gruppen.  
 
 ![Zeigt eine Übersicht eines Datenbereichs auf einer Seite im Analysemodus an](media/analysis-mode-data-area.png)
 
 - Um eine Spalte zu verschieben, wählen Sie sie aus und ziehen Sie sie an die Stelle, an der sie in Ihrer Analyse am sinnvollsten ist.
 - Um nach einer Spalte zu sortieren, wählen Sie die Spaltenüberschrift aus. Um nach mehreren Spalten zu sortieren, halten Sie die <kbd>Umschalttaste</kbd> gedrückt, während Sie die Spaltenüberschriften auswählen, nach denen sortiert werden soll.
-- Klicken Sie mit der rechten Maustaste auf die Spalte oder bewegen Sie den Mauszeiger darüber und wählen Sie das Menüsymbol aus ![Zeigt das Symbol in einer Spalte im Analysemodus an, das ein Menü mit Aktionen öffnet](media/analysis-mode-column-menu-icon.png) um auf mehrere Aktionen zuzugreifen, die Sie für Spalten ausführen können. Beispiel:
+- Um auf verschiedene Aktionen zuzugreifen, die Sie für Spalten ausführen können, gehen Sie mit der rechten Maustaste auf die Spalte oder zeigen Sie mit der Maus darauf und wählen Sie das Menüsymbol ![Zeigt das Symbol in einer Spalte im Analysemodus an, das ein Menü mit Aktionen öffnet](media/analysis-mode-column-menu-icon.png). Beispiel:
 
-  - Um eine Spalte links oder rechts vom Datenbereich anzuheften, damit sie beim Scrollen nicht vom Bildschirm verschwindet, wählen Sie ![Zeigt das Symbol in einer Spalte im Analysemodus an, das ein Menü mit Aktionen im Spaltenteil](media/analysis-mode-column-menu-icon.png) > **Spalte anheften** > **Link anheften** öffnet.
+  - Um eine Spalte an den Datenbereich anzuheften, damit sie beim Scrollen nicht vom Bildschirm verschwindet, wählen Sie ![Zeigt das Symbol in einer Spalte im Analysemodus an, das ein Menü mit Aktionen im Spaltenteil](media/analysis-mode-column-menu-icon.png) > **Spalte anheften** > **Link anheften** öffnet.
   - Definieren Sie Datenfilter direkt in der Spaltendefinition, anstatt zum Bereich **Analysefilter** zu gehen. Sie können immer noch Details zu verwandten Daten und für jede Zeile einsehen und die Karte öffnen, um mehr über eine bestimmte Entität zu erfahren.
 - Verwenden Sie den Datenbereich, um mit den Daten zu interagieren. Für Spalten, die numerische, summierbare Werte enthalten, können Sie deskriptive Statistiken zu einer Gruppe von Feldern erhalten, indem Sie sie markieren. Die Statistiken erscheinen in der Statusleiste (2) unten auf der Seite.
 - Exportieren Sie Daten im Excel- oder CSV-Format. Klicken Sie mit der rechten Maustaste auf den Datenbereich oder eine Auswahl von Zellen, um sie zu exportieren.
@@ -104,7 +104,7 @@ Die **Spalten** sind einen von zwei Bereichen, die zusammenarbeiten, um Ihre Ana
 
 |Bereiche|Description|
 |-|-|
-|Suchen/aktivieren oder deaktivieren Sie alle Kästchen|Suche nach Spalten. Aktivieren Sie das Kontrollkästchen, um alle Spalten auszuwählen/abzuwählen.|
+|Suchen/aktivieren oder deaktivieren Sie alle Kästchen|Suche nach Spalten. Um alle Spalten auszuwählen/abzuwählen, aktivieren Sie das Kontrollkästchen.|
 |Kontrollkästchen|Dieser Bereich enthält ein Kontrollkästchen für jedes Feld in der Quelltabelle der Liste oder Abfrage. Verwenden Sie diesen Bereich, um zu ändern, welche Spalten angezeigt werden. Aktivieren Sie ein Kontrollkästchen, um die Spalte für das Feld auf der Seite anzuzeigen; Deaktivieren Sie das Kontrollkästchen, um die Spalte auszublenden. |
 |Zeilengruppen|Verwenden Sie diesen Bereich, um Daten nach einem oder mehreren Feldern zu gruppieren und zu summieren. Sie können nur nicht numerische Felder wie Text-, Datums- und Zeitfelder einschließen. Zeilengruppen werden häufig im Pivot-Modus verwendet.|
 |Werte|Verwenden Sie diesen Bereich, um Felder anzugeben, für die Sie eine Gesamtsumme wünschen. Sie können nur Felder einschließen, die Zahlen enthalten, die addiert werden können; wie beispielsweise keine Text-, Datums- oder Zeitfelder.|
@@ -129,14 +129,14 @@ Hier sind einige Hinweise zum Arbeiten mit mehreren Analyseregisterkarten:
 - Um eine neue Registerkarte hinzuzufügen, wählen Sie das große **+** Zeichen neben der letzten Analyseregisterkarte aus.
 - Wählen Sie auf einer Registerkarte den Abwärtspfeil aus, um auf eine Liste mit Aktionen zuzugreifen, die Sie auf einer Registerkarte ausführen können, z. B. umbenennen, duplizieren, löschen und verschieben.
 
-   - **Löschen** löscht die aktuell geöffnete Registerkarte. **Alle löschen** löscht alle Registerkarten, die Sie hinzugefügt haben, mit Ausnahme der Standardregisterkarte **Analyse 1**.
-- Sie können die **Analyse 1** nicht vollständig entfernen, aber Sie können sie umbenennen, indem Sie die Aktion **Umbenennen** und löschen verwenden und die Änderungen, die Sie vorgenommen haben mithilfe von **Löschen** oder **Alle löschen** löschen.  
+   - **Löschen** löscht die aktuell geöffnete Registerkarte. **Alle löschen** löscht alle Registerkarten, die Sie hinzugefügt haben, mit Ausnahme der Standardregisterkarte **Analyse 1**.
+- Sie können die **Analyse 1** nicht vollständig entfernen, aber Sie können sie umbenennen, indem Sie die Aktion **Umbenennen** verwenden und die Änderungen, die Sie vorgenommen haben, mithilfe von **Löschen** oder **Alle löschen** löschen.  
 
-- Die hinzugefügten und konfigurierten Analyseregisterkarten bleiben erhalten, bis Sie sie löschen. Wenn Sie also wieder in den Analysemodus zurückkehren, sehen sie genauso aus wie beim letzten Mal.
+- Die hinzugefügten und konfigurierten Analyseregisterkarten bleiben erhalten, bis Sie sie löschen. Wenn Sie wieder in den Analysemodus zurückkehren, sehen sie genauso aus wie beim letzten Mal.
 
    > [!TIP]
    > Die von Ihnen eingerichteten Registerkarten sind nur für Sie sichtbar. Andere Benutzer sehen nur die Registerkarten, die sie eingerichtet haben.
-- Sie können Analyseregisterkarten kopieren. Das Kopieren kann nützlich sein, wenn Sie mit dem Ändern einer Registerkarte experimentieren möchten, ohne das Original zu ändern, oder wenn Sie verschiedene Variationen derselben Analyse erstellen möchten.
+- Sie können Analyseregisterkarten kopieren. Das Kopieren kann beispielsweise nützlich sein, um mit dem Ändern einer Registerkarte zu experimentieren, ohne das Original zu verändern. Das Kopieren ist auch dann sinnvoll, wenn Sie verschiedene Varianten derselben Analyse erstellen möchten.
 
 ## Datumshierarchien
 
@@ -179,11 +179,11 @@ Wenn der Datensatz, den Sie analysieren möchten, mehr als 100.000 Zeilen umfass
    - Zeitzonen
 - Felder, die im Pivot-Modus verwendet und zu Spaltenbeschriftungen hinzugefügt werden, müssen eine geringe Anzahl eindeutiger Werte aufweisen.
 
-   Wenn Sie den Pivot-Modus aktivieren und ein Feld in den Bereich **Spaltenbeschriftungen** ziehen, wo die zugrunde liegenden Daten für dieses Feld zu viele unterschiedliche Werte haben, reagiert die Browser-Registerkarte möglicherweise nicht mehr wird schließlich geschlossen, sodass Sie in einer neuen Sitzung von vorne beginnen müssen. Pivotieren Sie in diesem Fall entweder nicht auf dieses Feld oder legen Sie einen Filter für das Feld fest, bevor Sie es zum Bereich **Spaltenbeschriftungen** hinzufügen.
+   Wenn Sie den Pivot-Modus aktivieren und ein Feld in den Bereich **Spaltenbeschriftungen** ziehen, wo die zugrunde liegenden Daten für dieses Feld zu viele unterschiedliche Werte haben, reagiert Ihre Browserregisterkarte möglicherweise nicht mehr. Der Browser wird schließlich geschlossen und Sie müssen in einer neuen Sitzung von vorne beginnen. Pivotieren Sie in diesem Fall entweder nicht auf dieses Feld oder legen Sie einen Filter für das Feld fest, bevor Sie es zum Bereich **Spaltenbeschriftungen** hinzufügen.
 
 ## Ad-hoc-Datenanalyse teilen
 
-Nachdem Sie eine Analyse auf einer Registerkarte vorbereitet haben, können Sie diese direkt vom Client aus als Link mit Kollegen und anderen in Ihrer Organisation teilen. Nur Empfänger, die eine Erlaubnis zum Unternehmen und den Daten haben, können den Link nutzen.
+Nachdem Sie eine Analyse auf einer Registerkarte vorbereitet haben, können Sie diese direkt vom Client aus als Link mit Ihren Teammitgliedern und anderen in Ihrer Organisation teilen. Nur Empfänger, die eine Erlaubnis zum Unternehmen und den Daten haben, können den Link nutzen.
 
 1. Wählen Sie auf der Registerkarte „Analyse“ die Pfeilspitze nach unten und dann **Link kopieren** aus.
 
@@ -196,56 +196,36 @@ Nachdem Sie eine Analyse auf einer Registerkarte vorbereitet haben, können Sie 
    ![Zeigt das Dialogfeld „Link kopieren“ für eine Analyseregisterkarte an](media/analysis-link-copied.svg)
 
 1. Klicken Sie auf **Kopieren**.
-1. Fügen Sie den Link in das Kommunikationsmedium Ihrer Wahl ein, z. B. Word, Outlook, Teams, OneNote usw. 
-1. Nach dem Empfang können die Empfänger dann den Link auswählen und die Analyse für die Seite oder Abfrage in Business Central öffnen. Sie werden aufgefordert, einen Namen für die neue Analyseregisterkarte anzugeben, die erstellt wird.  
+1. Fügen Sie den Link in das Kommunikationsmedium Ihrer Wahl ein, z. B. Word, Outlook, Teams, OneNote usw.
+1. Nach dem Empfang können die Empfänger den Link auswählen und die Analyse für die Seite oder Abfrage in [!INCLUDE [prod_short](includes/prod_short.md)] öffnen. Sie werden aufgefordert, einen Namen für die neue Analyseregisterkarte anzugeben, die sie erstellen.  
 
 ## Beispiele für das Analysieren von Daten
 
-Das Feature *Daten analysieren* ist für einen schnellen Faktencheck und Ad-hoc-Analyse gedacht, wenn Sie keinen Bericht ausführen möchten, ein es bereits einen Bericht für Ihre speziellen Anforderungen gibt oder Sie schnell iterieren möchten, um einen guten Überblick über einen Teil Ihres Unternehmens zu gewinnen.
+Nutzen Sie das Feature **Datenanalyse** zum schnellen Faktencheck und zur Ad-hoc-Analyse:
 
-In den folgenden Abschnitten finden Sie Beispiele für Anwendungsszenarien für viele Funktionsbereiche der Business Central-Anwendung.
+- Wenn Sie keinen Bericht ausführen möchten.
+- Wenn für Ihren speziellen Bedarf kein Bericht vorhanden ist.
+- Wenn Sie schnell iterieren möchten, um sich einen guten Überblick über einen Teil Ihres Unternehmens zu verschaffen.
 
-| Region | An... | Öffnen Sie diese Seite im Analysemodus | Diese Felder verwenden |
-| ---- | ----- | ------------------------------- |------------------- |
-| [Finanzen (Debitorenkonten)](#example-finance-accounts-receivables) | Sehen Sie beispielsweise, wie viel Ihre Debitoren Ihnen schulden, aufgeschlüsselt nach Fälligkeitszeiträumen. | [Debitorenposten](https://businesscentral.dynamics.com/?page=25) | **Debitorenname**, **Fälligkeitsdatum** und **Restbetrag** |
-| [Finanzen (GuV)](#example-finance-income-statement) | Sehen Sie sich Ihre Einnahmen über die Ertragskonten aus dem Kontenplan an, beispielsweise aufgeschlüsselt nach Buchungszeiträumen der Beträge. | [Finanzbuchhaltungsposten](https://businesscentral.dynamics.com/?page=20) | **Sachkontonr.**, **Buchungsdatum** und **Betrag**. |
-| [Finanzen (Aktiva gesamt)](#example-finance-total-assets) | Sehen Sie sich Ihre Aktiva über die Aktivakonten aus dem Kontenplan an, beispielsweise aufgeschlüsselt nach Buchungszeiträumen der Beträge. | [Finanzbuchhaltungsposten](https://businesscentral.dynamics.com/?page=20) | **Sachkontonr.**, **Buchungsdatum** und **Betrag**. |
+Die folgenden Abschnitte enthalten Beispiele für Szenarien für viele der Funktionsbereiche in [!INCLUDE [prod_short](includes/prod_short.md)].
 
 ### Beispiele: Finanzen (Debitorenkonten)
 
 Gehen Sie wie folgt vor, um herauszufinden, wie viel Ihre Debitoren Ihnen, eventuell aufgeschlüsselt nach Fälligkeitszeiträumen, schulden:
 
-1. Öffnen Sie die Liste [Debitorenposten](https://businesscentral.dynamics.com/?page=25) und schalten Sie den Analysemodus ein.
-1. Gehen Sie zum Menü **Spalten** und entfernen Sie alle Spalten (wählen Sie das Kästchen neben dem Feld *Suchen* aus).
-1. Aktivieren Sie den **Pivot*-Modus** (direkt über dem Feld **Suchen**).
-1. Ziehen Sie nun das Feld *Debitorenname* zum Bereich **Zeilengruppen** und ziehen Sie **Restbetrag** zum Bereich **Werte**. 
-1. Suchen Sie schließlich das Feld **Fälligkeitsdatum (Monat)** und ziehen Sie es auf den Bereich **Spaltenbeschriftungen**. 
-1. Wenn Sie die Analyse auf ein bestimmtes Jahr/Quartal beschränken möchten, wenden Sie im Menü **Zusätzliche Filter** (rechts, direkt unter dem Menü **Spalten**) einen Filter an. 
-1. Benennen Sie Ihre Analyseregisterkarte in „Kontorückblick nach Monat“ oder in etwas anderes um, das diese Analyse für Sie beschreibt. 
+1. Öffnen Sie die Liste [Debitorenposten](https://businesscentral.dynamics.com/?page=25) und wählen Sie :::image type="content" source="media/analysis-mode-icon.png" alt-text="Analysemodus eingeben":::, um den Analysemodus einzuschalten.
+1. Gehen Sie zum Menü **Spalten** und entfernen Sie alle Spalten (wählen Sie das Kästchen rechts neben dem Feld *Suchen* aus).
+1. Aktivieren Sie den Schalter **Pivot**-Modus (rechts über dem Feld **Suchen**).
+1. Ziehen Sie das Feld **Debitorenname** zum Bereich **Zeilengruppen** und ziehen Sie **Restbetrag** zum Bereich **Werte**.
+1. Ziehen Sie das Feld **Fälligkeitsdatum (Monat)** auf den Bereich **Spaltenbeschriftungen**.
+1. Um die Analyse auf ein bestimmtes Jahr oder Quartal zu beschränken, wenden Sie im Menü **Analysefilter** (rechts unter dem Menü **Spalten**) einen Filter an.
+1. Benennen Sie Ihre Analyseregisterkarte in **Kontorückblick nach Monat** oder in etwas anderes um, das diese Analyse beschreibt.
 
-### Beispiel: Finanzen (GuV)
+### Beispiele für die Ad-hoc-Datenanalyse nach Funktionsbereich
 
-Gehen Sie wie folgt vor, um sich Ihre Einnahmen über die Ertragskonten aus dem Kontenplan aufgeschlüsselt nach Buchungszeiträumen der Beträge anzusehen:
+Für viele der Funktionsbereiche in [!INCLUDE[prod_short](includes/prod_short.md)] gibt es Artikel mit Beispielen für Ad-hoc-Datenanalysen.
 
-1. Öffnen Sie die Liste [Sachposten](https://businesscentral.dynamics.com/?page=20) und schalten Sie den Analysemodus ein.
-1. Gehen Sie zum Menü **Spalten** und entfernen Sie alle Spalten (wählen Sie das Kästchen neben dem Feld **Suchen** aus).
-1. Aktivieren Sie den **Pivot**-Modus (direkt über dem Feld **Suchen**).
-1. Ziehen Sie nun das Feld **Sachkontonr.** zum Bereich **Zeilengruppen** und ziehen Sie **Betrag** zum Bereich **Werte**.
-1. Suchen Sie schließlich das Feld **Buchungsdatum (Monat)** und ziehen Sie es auf den Bereich **Spaltenbeschriftungen**.
-1. Für die GuV müssen Sie nach den Konten filtern, die Sie hierfür verwenden. In den Demodaten von Business Central sind dies Konten, die mit „4“ beginnen. Ihr Kontenplan kann anders eingerichtet sein (wenn Sie den Bericht [Rohbilanz nach Periode](https://businesscentral.dynamics.com/?report=38) ausführen, können Sie leicht erkennen, welche Konten in Ihren Einstellungen verwendet werden). Legen Sie im Menü **Weitere Filter** (rechts, direkt unter dem Menü **Spalten**) einen Filter für die entsprechenden Konten fest.
-1. Benennen Sie Ihre Analyseregisterkarte in „Erträge nach Monat“ oder in etwas anderes um, das diese Analyse für Sie beschreibt.
-
-### Beispiel: Finanzen (Aktiva gesamt)
-
-Gehen Sie wie folgt vor, um sich Ihre Aktiva über die Aktivkonten aus dem Kontenplan aufgeschlüsselt nach Buchungszeiträumen der Beträge anzusehen:
-
-1. Öffnen Sie die Liste [Sachposten](https://businesscentral.dynamics.com/?page=20) und schalten Sie den Analysemodus ein.
-1. Gehen Sie zum Menü **Spalten** und entfernen Sie alle Spalten (wählen Sie das Kästchen neben dem Feld **Suchen** aus).
-1. Aktivieren Sie den **Pivot**-Modus (direkt über dem Feld **Suchen**).
-1. Ziehen Sie nun das Feld **Sachkontonr.** zum Bereich **Zeilengruppen** und ziehen Sie **Betrag** zum Bereich **Werte**.
-1. Suchen Sie schließlich das Feld **Buchungsdatum (Monat)** und ziehen Sie es auf den Bereich **Spaltenbeschriftungen**.
-1. Für die Aufstellung der Gesamtaktive müssen Sie nach den Konten filtern, die Sie hierfür verwenden. In den Business Central-Demodaten sind dies Konten, die mit „10“ beginnen. Ihr Kontenplan ist vielleicht anders eingerichtet. Wenn Sie den Bericht [Rohbilanz nach Periode](https://businesscentral.dynamics.com/?report=38) ausführen, können Sie leicht erkennen, welche Konten in Ihrer Konfiguration verwendet werden. Legen Sie im Menü **Weitere Filter** (rechts, direkt unter dem Menü **Spalten**) einen Filter für die entsprechenden Konten fest.
-1. Benennen Sie Ihre Analyseregisterkarte in „Erträge nach Monat“ oder in etwas anderes um, das diese Analyse für Sie beschreibt.
+[!INCLUDE[ad-hoc-analysis-scenarios-table](includes/ad-hoc-analysis-scenarios-table.md)]
 
 ## Einschränkungen im 1. Veröffentlichungszyklus 2023 (Vorschau)
 
@@ -257,5 +237,6 @@ Für die öffentliche Vorschau dieser Funktion gelten die folgenden Einschränku
 
 ## Siehe auch
 
+[Ad-hoc-Datenanalysen nach Funktionsbereich](ad-hoc-data-analysis-by-functional-area.md)   
 [Ad-hoc-Datenanalyse](reports-adhoc-analysis.md)  
 [In Excel anzeigen und bearbeiten](across-work-with-excel.md)  

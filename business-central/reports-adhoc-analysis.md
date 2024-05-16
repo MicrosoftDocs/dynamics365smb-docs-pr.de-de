@@ -21,6 +21,13 @@ Manchmal müssen Sie Daten in [!INCLUDE[prod_short](includes/prod_short.md)] auf
 | Anzeigen und Analysieren von Daten aus einem Dataset in Excel | [Analysieren von Berichtsdaten mit Excel und XML](report-analyze-excel.md) |
 | Listendaten direkt aus einer Seite analysieren |[Analysieren Sie Daten auf Listenseiten im Datenanalysemodus](analysis-mode.md)|
 
+## Ad-hoc-Datenanalysen nach Funktionsbereich
+
+Die allgemeinen Inhalte über Ad-hoc-Datenanalysen stehen Ihnen für viele Funktionsbereiche auch in speziellen Versionen in [!INCLUDE[prod_short](includes/prod_short.md)] zur Verfügung. 
+
+[!INCLUDE[ad-hoc-analysis-scenarios-table](includes/ad-hoc-analysis-scenarios-table.md)]
+
+
 ## Siehe auch
 
 [Übersicht über Business Intelligence und Reporting](ui-work-report.md)

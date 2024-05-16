@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ---
 # Berichte und Analysen im Einkauf
 
-Die Einkaufsberichterstattung in [!INCLUDE [prod_short](includes/prod_short.md)] ermöglicht es Prokuristen und Experten, Einblicke in und Statistiken über aktuelle und vergangene Einkaufsaktivitäten zu erhalten.  
+Die Einkaufsberichterstattung gibt der Beschaffung und Fachkräften Einblicke in und Statistiken über aktuelle und vergangene Einkaufsaktivitäten.  
 
 ## Berichte
 
@@ -20,13 +20,25 @@ Die Einkaufsberichterstattung in [!INCLUDE [prod_short](includes/prod_short.md)]
 
 ## Aufgaben
 
-In den folgenden Artikeln werden einige der wichtigsten Aufgaben zur Analyse des Status Ihres Unternehmens beschrieben:
+In den folgenden Artikeln werden einige der wichtigsten Aufgaben zur Analyse des Status Ihres Einkaufs beschrieben:
 
-* [Analyseberichte erstellen](bi-how-create-analysis-views-reports.md)  
-* [Artikelverfügbarkeit anzeigen](inventory-how-availability-overview.md)  
+- [Die Verfügbarkeit von Elementen anzeigen](inventory-how-availability-overview.md)  
+- [Daten für Einkäufe berechnen](purchasing-date-calculation-for-purchases.md)
+- [Einkaufsposten anzeigen](purchasing-how-record-purchases.md#viewing-ledger-entries)
+
+## Einkaufsberichte mit dem Berichts-Explorer kennenlernen
+
+Um einen Überblick über die für den Einkauf verfügbaren Berichte zu erhalten, wählen Sie auf Ihrer Homepage **Alle Berichte** aus. Dadurch öffnet sich der Rollen-Explorer, der nach den Features in der Option **Bericht und Analyse** gefiltert ist. Wählen Sie unter der Überschrift **Einkauf** die Option **Erkunden** aus.
+
+:::image type="content" source="media/report-explorer-purchasing.png" alt-text="Beispiel zu Berichten im XXX-Rollencenter." lightbox="media/report-explorer-purchasing.png":::
+
+Weitere Informationen finden Sie unter [Mit dem Rollen-Explorer nach Berichten suchen](ui-role-explorer.md). 
 
 ## Siehe auch
+
+[Ad-hoc-Analyse von Einkaufsdaten](ad-hoc-analysis-purchasing.md)  
+[Einkaufsanalysen – Übersicht](purchasing-analytics-overview.md)   
 [Einrichten des Einkaufs](purchasing-setup-purchasing.md)  
-[Einkauf](purchasing-manage-purchasing.md)  
+[Einkauf – Übersicht](purchasing-manage-purchasing.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

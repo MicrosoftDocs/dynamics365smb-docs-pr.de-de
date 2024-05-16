@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="fixed-assets-analytics"></a>Anlagenanalyse
+# Anlagenanalyse
 
 Unternehmen mit Anlagen erfassen im Laufe ihrer täglichen Arbeit eine Menge Daten über diese Anlagen. Diese Daten liefern wertvolle Business Intelligence (BI) für das Anlagenmanagement:
 
@@ -36,7 +36,7 @@ Jedes dieser Features hat Vor- und Nachteile, die von der Art der Datenanalyse u
 
 In diesem Artikel werden Möglichkeiten beschrieben, diese Analysefeatures zu nutzen, um Einblicke in Ihre Anlagen zu erhalten.
 
-## <a name="analytics-needs-in-asset-management"></a>Analysebedarf im Anlagenmanagement
+## Analysebedarf im Anlagenmanagement
 
 Wenn Sie über Analyseanforderungen im Anlagenmanagement nachdenken, kann es hilfreich sein, ein auf Personas basierendes Modell zu verwenden, das die jeweiligen Analyseanforderungen allgemein beschreibt.
 
@@ -52,14 +52,14 @@ Im Hinblick auf Daten haben Mitarbeitende in unterschiedlichen Rollen auch unter
 |Anlagenbuchhaltung, Controlling   | Trends, Zusammenfassungen | Integrierte Managementberichte <br> Ad-hoc-Analysen      | 
 |Buchhalter                      | Detaillierte Daten     | Integrierte betriebliche Berichte <br> Aufgabendaten am Bildschirm |
 
-## <a name="asset-management-kpis"></a>Anlagenmanagement-KPIs
+## Anlagenmanagement-KPIs
 
 Ein Key Performance Indicator (KPI) ist ein messbarer Wert, der zeigt, wie effektiv Sie Ihre Ziele erreichen. Im Anlagenmanagement werden häufig die folgenden KPIs verwendet, um die Verwendung der Anlagen eines Unternehmens zu überwachen:
 
 - Gesamtkapitalumschlag
 - Vermögensrendite
 
-## <a name="use-financial-reporting-to-produce-financial-statements-and-kpis-related-to-fixed-assets"></a>Finanzberichte für die Erstellung von Finanzauswertungen und KPIs im Zusammenhang Anlagen verwenden
+## Finanzberichte für die Erstellung von Finanzauswertungen und KPIs im Zusammenhang Anlagen verwenden
 
 Das Feature **Finanzberichterstattung** gibt Ihnen Einblick in die in Ihrem Kontenplan (COA) enthaltenen Finanzdaten. Sie können Finanzberichte einrichten, um die Zahlen in den Sachkonten zu analysieren und Sachposten mit Budgetposten zu vergleichen. Speziell für das Anlagenmanagement können Sie Finanzberichte zu den Sachkonten einrichten, die Sie zum Verfolgen von Anlagenbuchungen verwenden.
 
@@ -67,13 +67,13 @@ Dimensionen spielen eine wichtige Rolle bei Business Intelligence. Bei einer Dim
 
 Mehr über Finanzberichte erfahren Sie unter [Finanzberichte mit Finanzdaten und Kontenkategorien erstellen](bi-how-work-account-schedule.md).
 
-## <a name="finance-reporting-across-business-units-or-legal-entities-related-to-fixed-assets"></a>Finanzberichte über Konzernmandanten oder juristische Personen hinweg (im Zusammenhang mit Anlagen)
+## Finanzberichte über Konzernmandanten oder juristische Personen hinweg (im Zusammenhang mit Anlagen)
 
 Manche Organisationen verwenden [!INCLUDE [prod_short](includes/prod_short.md)] in mehreren Konzernmandanten oder juristischen Personen. Andere verwenden [!INCLUDE [prod_short](includes/prod_short.md)] in Niederlassungen, die der Mutterorganisation unterstehen. [!INCLUDE [prod_short](includes/prod_short.md)] bietet der Buchhaltung Tools, die ihr helfen, Sachposten von zwei oder mehr Unternehmen (Tochtergesellschaften) in ein konsolidiertes Unternehmen zu übertragen. Insbesondere für das Anlagenmanagement möchten Sie möglicherweise Sachposten für Ihre Anlagenkonten konsolidieren, um Anlagen-KPIs über Konzernmandanten oder juristische Personen hinweg nachverfolgen zu können.
 
 Weitere Informationen finden Sie unter [Unternehmenskonsolidierung](finance-consolidated-company-reporting.md).
 
-## <a name="ad-hoc-analysis-of-fixed-assets-data"></a>Ad-hoc-Analysen von Anlagendaten
+## Ad-hoc-Analysen von Anlagendaten
 
 Manchmal wollen Sie nur prüfen, ob die Zahlen stimmen, oder schnell eine Zahl bestätigen. Die folgenden Features eignen sich hervorragend für Ad-hoc-Analysen:
 
@@ -82,20 +82,19 @@ Manchmal wollen Sie nur prüfen, ob die Zahlen stimmen, oder schnell eine Zahl b
 
 Mit dem Feature für die Datenanalyse können Sie fast jede Listenseite öffnen, z. B. **Sachposten** oder **Anlagenposten**, in den Analysemodus wechseln und dann Daten nach Belieben gruppieren, filtern und pivotieren.
 
-:::image type="content" source="media/data-analysis-gl-entries.png" alt-text="Beispiel für die Durchführung einer Datenanalyse auf der Seite „Sachposten“." lightbox="media/data-analysis-gl-entries.png":::
+:::image type="content" source="media/data-analysis-fa-ledger-entries-asset-overview-current-value.png" alt-text="Beispiel für die Durchführung einer Datenanalyse auf der Seite „Anlagenposten“, um sich den Anlagenwert anzeigen zu lassen." lightbox="media/data-analysis-fa-ledger-entries-asset-overview-current-value.png":::
 
 Ebenso können Sie die Aktion **In Excel öffnen** verwenden, um eine Listenseite für Sachposten zu öffnen, die Liste optional nach einer Teilmenge der Daten zu filtern und dann Excel zum Arbeiten mit den Daten zu verwenden. Indem Sie zum Beispiel FEatures wie „Daten analysieren“, „Was-wäre-wenn-Analyse“ oder „Prognoseblatt“ verwenden.
 
-:::image type="content" source="media/open-in-excel-gl-entries.png" alt-text="Beispiel für die Durchführung einer Datenanalyse von Sachposten mithilfe von Excel." lightbox="media/open-in-excel-gl-entries.png":::
+<!-- :::image type="content" source="media/open-in-excel-gl-entries.png" alt-text="Example of how to do data analysis on the G/L entries data using Excel." lightbox="media/open-in-excel-gl-entries.png"::: -->
 
 > [!TIP]
 > Wenn Sie OneDrive für Systemfeatures konfigurieren, wird die Excel-Arbeitsmappe in Ihrem Browser mithilfe von Excel für das Web geöffnet. 
 
-<!-- Not ready yet
-For more information on how to do ad-hoc analysis on ledgers, see [Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md). 
--->
+Weitere Informationen zur Durchführung von Ad-hoc-Analysen von Anlagenposten finden Sie unter [Ad-hoc-Analysen von Anlagendaten](ad-hoc-analysis-fa.md).
 
-## <a name="built-in-reports-for-fixed-assets"></a>Integrierte Berichte für Anlagen
+
+## Integrierte Berichte für Anlagen
 
 [!INCLUDE [prod_short](includes/prod_short.md)] enthält mehrere integrierte Berichte, Nachverfolgungsfunktionen und Tools, die Überwachungs- und Controllingfachkräften, die Berichte zu Anlagen erstellen, unterstützen.
 
@@ -110,7 +109,7 @@ Um einen Überblick über die verfügbaren Berichte zu erhalten, wählen Sie obe
 
 Weitere Informationen zu Berichten, die für Anlagen relevant sind, finden Sie unter [Integrierte Anlagenberichte](fa-reports.md).
 
-## <a name="on-screen-fixed-assets-analytics"></a>Anlagenanalyse auf dem Bildschirm
+## Anlagenanalyse auf dem Bildschirm
 
 [!INCLUDE [prod_short](includes/prod_short.md)] verfügt über mehrere Seiten, die Ihnen einen Überblick über die Anlagen und die zu erledigenden Aufgaben bieten. Hier sind einige Beispiele, mit denen Sie anfangen können:
 
@@ -121,7 +120,7 @@ Weitere Informationen zu Berichten, die für Anlagen relevant sind, finden Sie u
 - [Verkaufsposten anzeigen](fa-how-dispose-retire.md#to-view-disposal-ledger-entries)
 - [Geschätzte Verkaufswerte anzeigen](fa-how-manage-budgets.md#to-view-projected-disposal-values)
 
-### <a name="show-fixed-asset-general-ledger-entries-and-balances-from-the-chart-of-accounts-page"></a>Anlagensachposten und -salden auf der Seite „Kontenplan“ anzeigen
+### Anlagensachposten und -salden auf der Seite „Kontenplan“ anzeigen
 
 Auf der Seite „Kontenplan“ werden alle Sachkonten mit aggregierten Zahlen zu den Beträgen in der Finanzbuchhaltung angezeigt. Von dieser Seite aus können Sie beispielsweise Folgendes tun:  
 
@@ -135,7 +134,7 @@ Speziell für Anlagen können Sie auf der Seite „Kontenplan“ eine Ansicht er
 
 Weitere Informationen finden Sie unter [Den Kontenplan verstehen](finance-general-ledger.md#the-chart-of-accounts).
 
-### <a name="analyze-data-by-dimensions-related-to-fixed-assets"></a>Daten nach (mit Anlagen zusammenhängenden) Dimensionen analysieren
+### Daten nach (mit Anlagen zusammenhängenden) Dimensionen analysieren
 
 Dimensionen sind Attribute und Werte, die Posten kategorisieren, sodass Sie sie auf Dokumenten wie Anlagen-Buch.-Blättern verfolgen und analysieren können. Dimensionen können beispielsweise angegeben, aus welcher Abteilung oder aus welchem Standort ein Posten kommt.  
 
@@ -143,11 +142,12 @@ Anstatt also separate Finanzbuchhaltungskonten für jede Abteilung und jeden Sta
 
 Mehr erfahren Sie unter [Daten nach Dimensionen analysieren](bi-how-analyze-data-dimension.md)
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Finanzberichte über Konzernmandanten oder juristische Personen hinweg verarbeiten](finance-consolidated-company-reporting.md)  
 [Finanzberichte mit Finanzdaten und Kontenkategorien erstellen](bi-how-work-account-schedule.md)  
 [Den Kontenplan verstehen](finance-general-ledger.md#the-chart-of-accounts)  
+[Ad-hoc-Analysen von Anlagendaten](ad-hoc-analysis-fa.md)   
 [Integrierte Anlagenberichte](fa-reports.md)  
 [Analysen, Business Intelligence und Berichterstellung – Übersicht](reports-bi-reporting.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

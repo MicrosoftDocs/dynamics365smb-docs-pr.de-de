@@ -1,19 +1,21 @@
 ---
 author: brentholtorf
 ms.topic: include
-ms.date: 02/23/2022
+ms.date: 04/30/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-## <a name="check-data-in-documents-and-journals-while-you-work"></a>Daten in Belegen und Buch.-Blätter während der Arbeit überprüfen
+## Daten in Belegen und Buch.-Blätter während der Arbeit überprüfen
 
-Im 1. Veröffentlichungszyklus 2022 haben wir eine Funktion eingeführt, die die Daten während Ihrer Eingabe in Belege und Journale validiert. Das Aktivieren dieser Funktion kann beispielsweise dazu beitragen, Fehler bei der Dateneingabe zu vermeiden oder etwas aufgrund eines Fehlers nicht veröffentlichen zu können. 
+Ihre Administrierenden können [!INCLUDE [prod_short](prod_short.md)] für die Validierung der von Ihnen in Belegen und Buch.-Blättern eingegebenen Daten in Echtzeit aktivieren.
 
-Ihr Administrator kann die **Funktion: Daten in Belegen und Buch.-Blätter während der Arbeit überprüfen** auf der Seite **Funktionsverwaltung** aktivieren. Danach erhalten Sie eine Benachrichtigung, wenn Sie eine Seite öffnen, um mit der Berarbeitung eines Belegs oder Journals zu beginnen. Um die Funktion zu verwenden, wählen Sie den Link **Dies für mich aktivieren** in der Benachrichtigung aus. 
+Wenn Sie das Feature aktivieren, zeigt der Infoboxbereich entweder die Infobox **Beleg prüfen** oder **Erfassung prüfen**, je nach dem Belegtyp, den Sie gerade bearbeiten. In der Infobox sind die Fehler aufgelistet, damit Sie diese schnell beheben können.
 
-Wenn Sie die Funktion aktivieren, zeigt der Infobox-Bereich entweder die Infobox **Beleg prüfen** oder **Erfassung prüfen** auf dem Belegtyp an, den Sie gerade bearbeiten. In der Infobox sind die Fehler aufgelistet, damit Sie diese schnell beheben können.
+Um das Feature zu aktivieren, aktivieren Sie auf der Seite **Meine Benachrichtigungen** die folgenden Kontrollkästchen:
 
-Wenn Sie die Funktion nicht benötigen, gibt es zwei Möglichkeiten, sie zu deaktivieren:
+* Aktivieren Sie für Buch.-Blätter das Kontrollkästchen **Aktiviert** für **Datenprüfung aktivieren**.
+* Aktivieren Sie bei Belegen das Kontrollkästchen **Aktiviert** für **Infobox „Belegüberprüfung“ anzeigen**.
 
-* Deaktivieren Sie für Erfassungen den Umschalter **Datenprüfung aktivieren** auf der Seite **Allgemeine Erfassungseinrichtung**.
-* Deaktivieren Sie für Belege das Kontrollkästchen **Infobox „Belegüberprüfung“ anzeigen** auf der Seite **Meine Benachrichtigungen**.
+Das folgende Video erklärt die Datenüberprüfung in Echtzeit.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1l0pR]

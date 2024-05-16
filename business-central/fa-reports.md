@@ -17,9 +17,15 @@ Um Sie bei der Verwaltung Ihrer Anlagen in [!INCLUDE [prod_short](includes/prod_
 [!INCLUDE [fa_reports](includes/fa-reports-include.md)]
 
 
+## Finanzberichte mit dem Berichts-Explorer kennenlernen
+[!INCLUDE [finance_reports_report_explorer](includes/finance-reports-report-explorer-include.md)]
+
+
 ## Siehe auch
 
+[Ad-hoc-Analysen von Anlagendaten](ad-hoc-analysis-fa.md)     
 [Überblick über die Anlagenanalyse](fa-analytics-overview.md)   
+[Übersicht über finanzielle Analysen](bi.md)   
 [Verwaltung von Anlagen](fa-manage.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

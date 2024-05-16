@@ -44,8 +44,20 @@ Nachdem Sie die App installiert haben, können Sie die Aktion **Etikett drucken*
 > [!NOTE]
 > Manche Drucker und Barcode-/QR-Codeformate erfordern eine spezielle Implementierung. Möglicherweise müssen Sie eine andere Word-Vorlage hochladen oder den Bericht klonen, um Ihre eigene angepasste Version zu erstellen.
 
+
+## Bestandsberichte mit dem Berichts-Explorer kennenlernen
+
+Um einen Überblick über die für den Bestand verfügbaren Berichte zu erhalten, wählen Sie auf Ihrer Homepage **Alle Berichte** aus. Dadurch öffnet sich der Rollen-Explorer, der nach den Features in der Option **Bericht und Analyse** gefiltert ist. Wählen Sie unter der Überschrift **Verkauf und Marketing** die Option **Erkunden** aus.
+
+:::image type="content" source="media/report-explorer-sales.png" alt-text="Beispiel zu Berichten im Finanzrollencenter." lightbox="media/report-explorer-sales.png":::
+
+Weitere Informationen finden Sie unter [Mit dem Rollen-Explorer nach Berichten suchen](ui-role-explorer.md).
+
+
 ## Siehe auch
 
+[Ad-hoc-Analyse von Bestandsdaten](ad-hoc-analysis-inventory.md)  
+[Übersicht über die Bestandsanalyse](inventory-analytics-overview.md)   
 [Bestand einrichten](inventory-setup-inventory.md)  
 [Bestand](inventory-manage-inventory.md)  
 [Einrichten von Warehouse Management](warehouse-setup-warehouse.md)  

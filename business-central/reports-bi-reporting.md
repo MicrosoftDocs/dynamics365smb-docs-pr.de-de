@@ -40,7 +40,7 @@ Die Finanzberichtsfunkion gibt Ihnen Einblick in die in Ihrem Kontenplan (COA) g
 
 :::image type="content" source="media/acc_schedule_13_columns.jpg" alt-text="Screenshot eines Finanzberichts." lightbox="media/acc_schedule_13_columns.jpg":::
 
-Dimensionen spielen eine wichtige Rolle bei Business Intelligence. Bei einer Dimension handelt es sich um Daten, die Sie einem Eintrag als Parameter hinzufügen können. Mit Dimensionen können Sie Einträge mit ähnlichen Merkmalen gruppieren, z. B. Kundschaft, Regionen, Produkte und Verkaufende, und diese Gruppen leicht für Analysen abrufen. Sie verwenden Dimensionen u. a. bei der Definition von Analyseansichten und beim Erstellen von Finanzberichten. Unter [Arbeiten mit Dimensionen](finance-dimensions.md) erfahren Sie mehr.
+Dimensionen spielen eine wichtige Rolle bei Business Intelligence. Bei einer Dimension handelt es sich um Daten, die Sie einem Eintrag als Parameter hinzufügen können. Mithilfe von Dimensionen können Sie Einträge mit ähnlichen Merkmalen gruppieren. Gruppieren Sie zum Beispiel Debitoren, Regionen, Produkte und Verkaufende. Gruppen erleichtern das Abrufen von Daten zur Analyse. Sie verwenden Dimensionen u. a. bei der Definition von Analyseansichten und beim Erstellen von Finanzberichten. Unter [Arbeiten mit Dimensionen](finance-dimensions.md) erfahren Sie mehr.
 
 Weitere Informationen zu Finanzberichten und KPIs finden Sie unter [Verwendung von Finanzberichten für die Erstellung von Finanzauswertungen und KPIs](bi.md).
 
@@ -61,7 +61,7 @@ Mehr über KPIs erfahren Sie unter [Ihre geschäftlichen Ziele mithilfe von Key 
 
 ## Ad-hoc-Datenanalyse
 
-Manchmal möchten Sie vielleicht einfach nur überprüfen, ob die Zahlen richtig addieren, schnell eine Hypothese über das Unternehmen bestätigen oder widerlegen oder vielleicht nach Anomalien in Ihren Finanzdaten suchen. Für Ad-hoc-Analysen verfügen Sie möglicherweise nicht über einen integrierten Bericht, der Ihnen bei der Beantwortung Ihrer Fragen hilft. Nutzen Sie für Ad-hoc-Analysen diese beiden Features:
+Eventuell möchten Sie einfach nur überprüfen, ob die Zahlen das richtige Ergebnis liefern, schnell eine Hypothese über das Unternehmen bestätigen oder widerlegen oder vielleicht nach Anomalien in Ihren Finanzdaten suchen. Für Ad-hoc-Analysen verfügen Sie möglicherweise nicht über einen integrierten Bericht, der Ihnen bei der Beantwortung Ihrer Fragen hilft. Nutzen Sie für Ad-hoc-Analysen diese beiden Features:
 
 - Datenanalysen auf Sachkontolistenseiten
 - In Excel öffnen
@@ -107,7 +107,7 @@ In der folgenden Tabelle sind Artikel zur Verwendung integrierter Berichte in [!
 
 ## Externe Business Intelligence- und Berichterstellungstools
 
-Wenn Sie Business Intelligence-Tools bevorzugen, die nicht in [!INCLUDE[prod_short](includes/prod_short.md)] eingebettet sind, finden Sie in der folgenden Tabelle Links zu Anleitungen zu Tools und Möglichkeiten zur Verwendung externer Tools.
+Wenn Sie möchten, können Sie Business Intelligence-Tools verwenden, die nicht in [!INCLUDE[prod_short](includes/prod_short.md)] eingebettet sind. Die folgende Tabelle enthält Links zu Anleitungen und Möglichkeiten zur Verwendung externer Tools.
 
 | Bis  | Siehe |
 | --- | --- |
@@ -116,6 +116,18 @@ Wenn Sie Business Intelligence-Tools bevorzugen, die nicht in [!INCLUDE[prod_sho
 | Daten in Data-Warehouses oder Data Lakes extrahieren| [So extrahieren Sie Daten in Data-Warehouses oder Data-Lakes](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses) |
 | Business Central-Daten mit Microsoft Fabric analysieren| [Einführung in Microsoft Fabric und Business Central](admin-fabric.md) |
 | Daten mithilfe von APIs aus Business Central lesen | [Business Central API v2.0](/dynamics365/business-central/dev-itpro/api-reference/v2.0/) |
+
+## Analyse nach Funktionsbereich
+
+Der Inhalt dieses allgemeinen Artikels steht Ihnen für viele Funktionsbereiche auch in speziellen Versionen in [!INCLUDE[prod_short](includes/prod_short.md)] zur Verfügung.
+
+| Bei der Arbeit mit ... | Siehe |
+| --- | --- |
+| Finanzen | [Finanzielle Analysen](bi.md) |
+| Vertrieb | [Vertriebsanalyse](sales-analytics-overview.md) |
+| Einkauf | [Einkaufsanalysen](purchasing-analytics-overview.md) |
+| Anlagenmanagement | [Anlagenanalysen](fa-analytics-overview.md) |
+
 
 ## Siehe auch
 

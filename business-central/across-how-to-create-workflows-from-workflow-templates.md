@@ -10,7 +10,7 @@ ms.date: 03/27/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="create-workflows-from-workflow-templates"></a>Workflows aus Workflowvorlagen erstellen
+# Workflows aus Workflowvorlagen erstellen
 
 Auf der Seite **Workflow** können Sie einen Workflow erstellen, indem Sie in den Zeilen eine Reihe von Workflowschritten erstellen. Jeder Schritt besteht aus einem durch Workflowereignis (Wenn-Ereignis), moderierten Ereignisbedingungen (Bei-Bedingung) und einer durch Antwortoptionen moderierten Workflowreaktion (Dann-Antwort). Die Felder in den Workflowzeilen bieten eine feste Liste an Ereignis- und Antwortwerten, welche die von [!INCLUDE [prod_short](includes/prod_short.md)] unterstützten Szenarien darstellen. Erfahren Sie mehr unter [Workflows erstellen](across-how-to-create-workflows.md).
 
@@ -25,7 +25,7 @@ Wenn Sie eine Workflowvorlage ändern, die Änderung aber später bereuen, verwe
 
 Eine andere Möglichkeit, einen Workflow schnell zu erstellen, besteht darin, ihn zu importieren, beispielsweise wenn Sie ihn aus einer anderen Instanz von [!INCLUDE[prod_short](includes/prod_short.md)] exportiert haben. Erfahren Sie mehr unter [Workflows exportieren und importieren](across-how-to-export-and-import-workflows.md).  
 
-## <a name="to-create-a-workflow-from-a-workflow-template"></a>So erstellen Sie einen Workflow über eine Workflowvorlage
+## So erstellen Sie einen Workflow über eine Workflowvorlage
 
 1. Wählen Sie das Symbol ![Glühbirne, die die „Sie wünschen ...“-Funktion öffnet](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Workflows** ein, und wählen Sie dann den entsprechenden Link.  
 2. Wählen Sie die Aktion **Neuen Workflow aus Vorlage** aus. Die Seite **Workflowvorlagen** wird geöffnet.  
@@ -34,7 +34,7 @@ Eine andere Möglichkeit, einen Workflow schnell zu erstellen, besteht darin, ih
    Die Seite **Workflow** wird für einen neuen Workflow geöffnet, der alle Informationen der ausgewählten Vorlage enthält. Der Wert im Feld **Code** wird beispielweise mit „-01“ erweitert. Dies zeigt an, dass dies der erste Workflow ist, der von der Workflowvorlage erstellt wurde.  
 4. Um den Workflow anzupassen, bearbeiten Sie die Workflowschritte oder fügen Sie neue Schritte hinzu. Erfahren Sie mehr unter [Workflows erstellen](across-how-to-create-workflows.md).  
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Genehmigungsworkflows erstellen](across-how-to-create-workflows.md)  
 [Genehmigungsworkflows exportieren und importieren](across-how-to-export-and-import-workflows.md)  

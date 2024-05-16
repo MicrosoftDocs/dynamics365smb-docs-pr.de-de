@@ -1,6 +1,6 @@
 ---
-title: 'Einrichten von Mahnmethoden, Bestimmungen und Mahntext'
-description: 'Lernen Sie, wie Business Central eingerichtet wird, so dass Sie eine Mahnung an einen Debitoren wegen einer fälligen Zahlung senden können und wie der Zahlung wegen des Verzugs Zuschläge oder Gebühren hinzugefügt werden.'
+title: Mahnmethoden und Mahnstufen einrichten
+description: 'Richten Sie Business Central so ein, dass Sie Mahnungen wegen Zahlungen versenden und Verzugsgebühren oder -aufschläge hinzufügen können.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
@@ -10,21 +10,21 @@ ms.date: 03/12/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-reminder-terms-and-levels"></a>Einrichten von Mahnmethoden, Bestimmungen und Mahntext
+# Mahnmethoden und Mahnstufen einrichten
 
-Mithilfe von Mahnungen können Debitoren auf überfällige Beträge aufmerksam gemacht werden und die Zahlung anfordern. [!INCLUDE [reminder-terms](includes/reminder-terms.md)]
+Mithilfe von Mahnungen können Debitoren über überfällige Beträge informiert und die Zahlung angefordert werden. [!INCLUDE [reminder-terms](includes/reminder-terms.md)]
 
 > [!TIP]
 > Nachdem Sie Mahnbedingungen und -stufen eingerichtet haben, können Sie diese in automatisierte Prozesse zum Erstellen, Ausgeben und Senden von Mahnungen einbeziehen. Weitere Informationen zum automatisierten Prozess finden Sie unter [Erinnerungen in Sammlungen automatisieren](finance-automate-reminders.md).
 
-## <a name="reminder-terms"></a>Mahnbestimmungen
+## Mahnbestimmungen
 
-Bei Debitoren mit überfälligen Zahlungen muss entschieden werden, wann und auf welche Weise eine Mahnung gesendet wird. Darüber hinaus können ggf. Gebühren oder Zinsen erhoben werden. Sie können eine beliebige Anzahl an Lieferanmahnungsmethoden einrichten.  
+Bei Debitoren mit überfälligen Zahlungen muss entschieden werden, wann und auf welche Weise ihnen eine Mahnung gesendet werden soll. Darüber hinaus können ggf. Gebühren oder Zinsen erhoben werden. Sie können eine beliebige Anzahl an Lieferanmahnungsmethoden einrichten.  
 
 > [!NOTE]
 > Wenn Sie Zinsen auf überfällige Zahlungen berechnen möchten, können Sie das auch bei der Mahnungserstellung. Möchten Sie die Zinsen dagegen nur berechnen und Ihre Debitoren darüber in Kenntnis setzen, ohne eine Mahnung zu senden, verwenden Sie eine [Zinsrechnung](finance-setup-finance-charges.md). Weitere Informationen finden Sie unter [Mahnungen](receivables-collect-outstanding-balances.md#reminders) oder [Finanzierungskosten](receivables-collect-outstanding-balances.md#finance-charges).
 
-### <a name="set-up-attachment-and-email-body-texts-for-communications"></a>Richten Sie Anhänge und E-Mail-Texte für die Kommunikation ein
+### Richten Sie Anhänge und E-Mail-Texte für die Kommunikation ein
 
 Auf der Seite **Mahnfristen einrichten** können Sie Anhangstexte und Standard-E-Mail-Nachrichten einrichten, die entweder für alle Mahnstufen verwendet werden, oder für jede Stufe spezifische Nachrichten erstellen. Beispielsweise kann die Nachricht, die Sie für die erste Erinnerungsstufe senden, einen anderen Ton oder Inhalt haben als die Nachricht für die zweite oder dritte. Um Anhang- und E-Mail-Nachrichtentexte für alle Ebenen zu erstellen, wählen Sie oben auf der Seite **Debitorenkommunikation** aus. Um Nachrichten für bestimmte Zeilen zu erstellen, wählen Sie auf dem Inforegister **Mahnstufe** eine Zeile und anschließend die Aktion **Debitorenkommunikation** aus.
 
@@ -35,19 +35,19 @@ Wenn Sie eine E-Mail senden, ist die Erinnerung ein Bericht, den Sie an die E-Ma
 > [!NOTE]
 > Für die direkte Kommunikation per E-Mail von [!INCLUDE [prod_short](includes/prod_short.md)] müssen Sie über die entsprechende Einrichtung verfügen. Weitere Informationen zum Verbinden von E-Mail-Konten mit [!INCLUDE [prod_short](includes/prod_short.md)] finden Sie unter [E-Mail einrichten](admin-how-setup-email.md).
 
-### <a name="set-up-reminder-terms"></a>Mahnmethoden einrichten
+### Mahnmethoden einrichten
 
 1. Wählen Sie das Symbol ![Glühbirne, die die „Sie wünschen ...“-Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun") Symbol. Geben Sie **Mahnmethoden** ein und wählen Sie dann den zugehörigen Link.  
 2. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 3. Um mehr als eine Kombination von Mahnmethoden zu verwenden, richten Sie einen Code für jede ein.
 
-## <a name="reminder-levels"></a>Mahnstufen
+## Mahnstufen
 
 Für jede Mahnmethode können Sie eine unbegrenzte Anzahl von Mahnstufen definieren, obwohl die meisten Unternehmen nur zwei oder drei Stufen verwenden. Bei der ersten Erstellung einer Mahnung für einen Debitor werden die Einstellungen der Stufe 1 verwendet. Beim Registrieren der Mahnung wird die Stufennummer in den erstellten Mahnposten erfasst und mit den jeweiligen Debitorenposten verknüpft. Ist eine erneute Mahnung erforderlich, werden alle Mahnposten überprüft, die mit offenen Debitorenposten verknüpft sind, um die höchste Stufennummer zu ermitteln. In der neuen Mahnung werden dann die Bedingungen für die nächsthöhere Stufennummer verwendet.
 
-Werden mehr Mahnungen erstellt als definierte Stufen vorhanden sind, werden die Bedingungen der höchsten Stufe verwendet. Die Anzahl der erstellbaren Mahnungen wird in den Mahnmethoden durch das Feld **Max. Anzahl Mahnungen** begrenzt.
+Werden mehr Mahnungen erstellt als Stufen festgelegt sind, werden die Bedingungen der höchsten Stufe verwendet. Die Anzahl der erstellbaren Mahnungen wird in den Mahnmethoden durch das Feld **Max. Anzahl Mahnungen** begrenzt.
 
-### <a name="to-set-up-reminder-levels"></a>So richten Sie Mahnstufen ein:
+### So richten Sie Mahnstufen ein:
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun") Symbol. Geben Sie **Mahnmethoden** ein und wählen Sie dann den zugehörigen Link.  
 2. Klicken Sie auf der Seite **Mahnmethoden** in die Zeile mit der Methode, für die Sie Stufen anlegen möchten, und wählen Sie dann die Aktion **Stufen**.  
@@ -58,9 +58,9 @@ Werden mehr Mahnungen erstellt als definierte Stufen vorhanden sind, werden die 
     >
     > Um anzuzeigen, dass Zinsen berechnet werden sollen, wählen Sie das Feld **Zinsen berechnen**.
 
-    Geben Sie optional für jede Erinnerungsstufe zusätzliche Gebühren sowohl in MW als auch in Fremdwährung an. Sie können mehrere Gebühren in Fremdwährungen für jeden Code auf der Seite **Mahnstufen** einrichten.  
+    Geben Sie optional für jede Mahnstufe zusätzliche Gebühren sowohl in lokaler als auch Fremdwährung an. Sie können mehrere zusätzliche Gebühren in Fremdwährungen für jeden Code auf der Seite **Mahnstufen** einrichten.  
 
-    Die zusätzlichen Gebühren können auf drei verschiedene Arten berechnet werden, die durch den Wert des Feld **Hinzufügen. Gebührenberechnungsart** definiert werden.  
+    Die zusätzlichen Gebühren können auf drei verschiedene Arten berechnet werden, die durch den Wert des Feld **Berechnungstyp zusätzliche Gebühr** definiert werden.  
 
     - **Fixiert**
 
@@ -73,7 +73,7 @@ Werden mehr Mahnungen erstellt als definierte Stufen vorhanden sind, werden die 
         Die Gebühren werden auf der Grundlage der Werte der Felder **Zusätzliche Gebühr einrichten** in der kombinierten Zeile für die Erinnerungsebene selbst berechnet.
 
 4. Wählen Sie die Aktion **Währungen** aus.
-5. Auf der Seite **Währungen für Mahnstufen festlegen** können Sie für jeden Mahnstufencode und die dazugehörende Mahnstufe Fremdwährungsinformationen hinterlegen, die aus einem Währungscode und einer Gebühr bestehen.
+5. Auf der Seite **Währungen für Mahnstufen festlegen** können Sie für jeden Mahnstufencode und die dazugehörende Mahnstufe Fremdwährungsinformationen hinterlegen, die aus einem Währungscode und einer zusätzlichen Gebühr bestehen.
 
     > [!NOTE]  
     > Wenn Sie Mahnungen in Fremdwährungen erstellen, verwendet die Anwendung die Bedingungen für Fremdwährungen, die Sie in dieser Tabelle eingerichtet haben, um Mahnungen zu erstellen. Falls keine Mahnkonditionen für Fremdwährungen eingerichtet wurden, verwendet die Anwendung die Mahnkonditionen für die Mandantenwährung auf der Seite **Mahnstufe** und rechnet diese in die entsprechende Währung um.
@@ -107,7 +107,7 @@ Werden mehr Mahnungen erstellt als definierte Stufen vorhanden sind, werden die 
 
 Nachdem Sie die Mahnbedingungen eingerichtet haben, können Sie diese auf den Debitorenkartenseiten der Kundschaft zuweisen. Weitere Informationen finden Sie unter [Neue Debitoren registrieren](sales-how-register-new-customers.md).  
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Einziehen von Restbeträgen](receivables-collect-outstanding-balances.md)  
 [Mahnungen für ausstehende Salden versenden](receivables-send-reminders.md)  

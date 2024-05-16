@@ -6,12 +6,12 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'Sustainability, ESG, emission, GHG, CSRD'
 ms.search.form: null
-ms.date: 03/29/2024
+ms.date: 04/23/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="sustainability-management-overview"></a>Nachhaltigkeitsverwaltung – Übersicht
+# Nachhaltigkeitsverwaltung – Übersicht
 
 >[!IMPORTANT]
 >Diese Funktion wird in Business Central ab **Veröffentlichungszyklus 1 2024** verfügbar sein und alle Referenzlinks werden aktiviert, sobald sie verfügbar sind.
@@ -36,19 +36,19 @@ Mit diesem Feature können Sie Folgendes durchführen:
 
 Um mit der Nachhaltigkeitsverwaltung zu beginnen, lesen Sie die folgenden Artikel durch.  
 
-|  Artikel  |  Beschreibung  |  
+|  Artikel  |  Description  |  
 |--------|--------------| 
 |[Nachhaltigkeitseinrichtung](finance-sustainability-setup.md) | Dieser Artikel enthält Informationen, die Ihnen bei der korrekten Konfiguration des gesamten Nachhaltigkeitsmoduls helfen. |
-|[Diagramm der Nachhaltigkeitskonten und -posten](finance-sustainability-accounts-ledger.md) | Dieser Artikel enthält Informationen zum ordnungsgemäßen Einrichten eines Diagramms mit Nachhaltigkeitskonten, Kontokategorien und Unterkategorien sowie zum Analysieren von Informationen in Nachhaltigkeitsposten. |
+|[Diagramm der Nachhaltigkeitskonten und Nachhaltigkeitssachkonto](finance-sustainability-accounts-ledger.md) | Dieser Artikel enthält Informationen zum ordnungsgemäßen Einrichten eines Diagramms mit Nachhaltigkeitskonten, Kontokategorien und Unterkategorien sowie zum Analysieren von Informationen in Nachhaltigkeitsposten. |
 |[So erfassen Sie Treibhausgasemissionen (THG)](finance-sustainability-journal.md) | In diesem Artikel erfahren Sie, wie Sie mit allen Arten von Nachhaltigkeitserfassungen arbeiten. |
 
 
-## <a name="see-also"></a>Siehe auch
-[Nachhaltigkeitseinrichtung](finance-sustainability-setup.md) 
-[Diagramm der Nachhaltigkeitskonten und Nachhaltigkeitssachkonto](finance-sustainability-accounts-ledger.md) 
-[So erfassen Sie Treibhausgasemissionen (THG)](finance-sustainability-journal.md)
-[Finanzen](finance.md)  
-[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+## Siehe auch  
+[Nachhaltigkeitseinrichtung](finance-sustainability-setup.md)   
+[Diagramm der Nachhaltigkeitskonten und -posten](finance-sustainability-accounts-ledger.md)   
+[So erfassen Sie THG-Emissionen](finance-sustainability-journal.md)  
+[Finanzen](finance.md)    
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -24,6 +24,16 @@ Um die Übersicht über Artikel zu erhöhen und die Suche zu erleichtern, könne
 
 Die Planung von Artikeln zur Deckung des Bedarfs wird im Rahmen der Angebotsplanung abgedeckt. Erfahren Sie mehr unter [Planung](production-planning.md).  
 
+## Bestandsanalyse
+
+In diesem Abschnitt werden die Analysetools beschrieben, mit denen Sie sich Einblick in Ihre Bestandsdaten verschaffen können.
+
+| Zweck ... | Siehe |
+| --- | --- |
+| Mehr über die Möglichkeiten zur Analyse von Bestandsdaten erfahren. | [Vertriebsanalysen – Übersicht](inventory-analytics-overview.md) |
+| Ad-hoc-Analysen von Bestandsdaten direkt auf Listenseiten und in Abfragen durchführen. | [Ad-hoc-Analyse von Bestandsdaten](ad-hoc-analysis-inventory.md) |
+| Integrierte Bestandsberichte kennenlernen. | [Integrierte Bestands- und Lagerberichte](inventory-WMS-reports.md) |
+
 ## Abstimmung des Lagerbestands
 
 Wenn Sie Lagertransaktionen buchen, z. B. Verkaufslieferungen, Einkaufsrechnungen oder Lagerregulierungen, werden die veränderten Artikelkosten in den Artikelwerteinträgen aufgezeichnet. Um diese Änderung des Lagerwerts in Ihren Finanzbüchern wiederzugeben, werden die Lagerkosten automatisch zu den entsprechenden Lagerkonten in der Finanzbuchhaltung gebucht. Für jede Lagertransaktion, die Sie buchen, werden die entsprechenden Werte in der Hauptbuchhaltung im Lagerkonto, im Korrekturkonto und im Lagerverbrauchskonto gebucht. Weitere Informationen unter [Abstimmen der Lagerkosten mit der Finanzbuchhaltung](finance-how-to-post-inventory-costs-to-the-general-ledger.md)
