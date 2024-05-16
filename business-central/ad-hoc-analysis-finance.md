@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Ad-hoc-Analysen von Finanzdaten
+# <a name="ad-hoc-analysis-of-finance-data"></a>Ad-hoc-Analysen von Finanzdaten
 
 In diesem Artikel wird erklärt, wie Sie das Feature **Datenanalyse** zum Analysieren von Finanzdaten direkt von Listenseiten und Abfragen aus verwenden. Sie müssen keinen Bericht ausführen und nicht zu einer anderen Anwendung wie beispielsweise Excel wechseln. Das Feature bietet eine interaktive und vielseitige Möglichkeit, Daten zu berechnen, zusammenzufassen und zu untersuchen. Anstatt Berichte mit Optionen und Filtern auszuführen, können Sie mehrere Registerkarten hinzufügen, die unterschiedliche Aufgaben oder Ansichten der Daten darstellen. Einige Beispiele sind „Aktiva gesamt im Zeitverlauf“, „Kreditorenkonten“, „Debitorenkonten“ und jede andere Ansicht, die Sie sich vorstellen können. Weitere Informationen zur Verwendung des Features **Datenanalyse** finden Sie unter [Listen- und Abfragedaten mit dem Analysemodus analysieren](analysis-mode.md).
 
@@ -22,7 +22,7 @@ Nutzen Sie die folgenden Listenseiten um mit der Ad-hoc-Analyse von Finanzprozes
 - [Debitorenposten](https://businesscentral.dynamics.com/?page=25)
 - [Kreditorenposten](https://businesscentral.dynamics.com/?page=29)
 
-## Ad-hoc-Finanzanalyseszenarien
+## <a name="finance-ad-hoc-analysis-scenarios"></a>Ad-hoc-Finanzanalyseszenarien
 
 Nutzen Sie das Feature **Datenanalyse** zum schnellen Faktencheck und zur Ad-hoc-Analyse:
 
@@ -39,7 +39,7 @@ Die folgenden Abschnitte enthalten Beispiele für Finanzszenarien in [!INCLUDE [
 | [Finanzen (GuV)](#example-finance-income-statement) | Sehen Sie sich Ihre Einnahmen über die Ertragskonten aus dem Kontenplan an, beispielsweise aufgeschlüsselt nach Buchungszeiträumen der Beträge. | [Finanzbuchhaltungsposten](https://businesscentral.dynamics.com/?page=20) | **Sachkontonr.**, **Buchungsdatum** und **Betrag**. |
 | [Finanzen (Aktiva gesamt)](#example-finance-total-assets) | Sehen Sie sich Ihre Aktiva über die Aktivakonten aus dem Kontenplan an, beispielsweise aufgeschlüsselt nach Buchungszeiträumen der Beträge. | [Finanzbuchhaltungsposten](https://businesscentral.dynamics.com/?page=20) | **Sachkontonr.**, **Buchungsdatum** und **Betrag**. |
 
-### Beispiele: Finanzen (Debitorenkonten)
+### <a name="example-finance-accounts-receivables"></a>Beispiele: Finanzen (Debitorenkonten)
 
 Gehen Sie wie folgt vor, um herauszufinden, wie viel Ihre Debitoren Ihnen, eventuell aufgeschlüsselt nach Fälligkeitszeiträumen, schulden:
 
@@ -51,7 +51,7 @@ Gehen Sie wie folgt vor, um herauszufinden, wie viel Ihre Debitoren Ihnen, event
 1. Um die Analyse auf ein bestimmtes Jahr oder Quartal zu beschränken, wenden Sie im Menü **Analysefilter** (rechts unter dem Menü **Spalten**) einen Filter an.
 1. Benennen Sie Ihre Analyseregisterkarte in **Kontorückblick nach Monat** oder in etwas anderes um, das diese Analyse beschreibt.
 
-### Beispiele: Finanzen (Kreditorenkonten)
+### <a name="example-finance-accounts-payable"></a>Beispiele: Finanzen (Kreditorenkonten)
 
 Gehen Sie wie folgt vor, um herauszufinden, wie viel Sie Ihren Kreditoren, eventuell aufgeschlüsselt nach Fälligkeitszeiträumen, schulden:
 
@@ -67,7 +67,7 @@ Das folgende Bild zeigt das Ergebnis dieser Schritte.
 
 :::image type="content" source="media/data-analysis-vendor-ledger-entries.png" alt-text="Beispiel für die Durchführung einer Datenanalyse auf der Seite „Debitorenposten“." lightbox="media/data-analysis-vendor-ledger-entries.png":::
 
-### Beispiel: Finanzen (GuV)
+### <a name="example-finance-income-statement"></a>Beispiel: Finanzen (GuV)
 
 Gehen Sie wie folgt vor, um sich Ihre Einnahmen über die Ertragskonten aus dem Kontenplan aufgeschlüsselt nach Buchungszeiträumen der Beträge anzusehen:
 
@@ -83,7 +83,7 @@ Gehen Sie wie folgt vor, um sich Ihre Einnahmen über die Ertragskonten aus dem 
 
 1. Benennen Sie Ihre Analyseregisterkarte in **Erträge nach Monat** oder in etwas anderes um, das diese Analyse beschreibt.
 
-### Beispiel: Finanzen (Aktiva gesamt)
+### <a name="example-finance-total-assets"></a>Beispiel: Finanzen (Aktiva gesamt)
 
 Gehen Sie wie folgt vor, um sich Ihre Aktiva über die Aktivkonten aus dem Kontenplan aufgeschlüsselt nach Buchungszeiträumen der Beträge anzusehen:
 
@@ -99,7 +99,7 @@ Gehen Sie wie folgt vor, um sich Ihre Aktiva über die Aktivkonten aus dem Konte
 
 1. Benennen Sie Ihre Analyseregisterkarte in **Erträge nach Monat** oder in etwas anderes um, das diese Analyse beschreibt.
 
-## Datengrundlage für Ad-hoc-Finanzanalysen
+## <a name="data-foundation-for-ad-hoc-analysis-on-finance"></a>Datengrundlage für Ad-hoc-Finanzanalysen
 
 Wenn Sie Buch.-Blätter buchen, erstellt [!INCLUDE [prod_short](includes/prod_short.md)] Posten in der Tabelle **Sachposten**. Deshalb werden allgemeine Ad-hoc-Finanzanalysen normalerweise auf der Seite [Sachposten](https://businesscentral.dynamics.com/?page=20) durchgeführt. Für Debitoren- und Kreditorenkonten können Sie [Debitorenposten](https://businesscentral.dynamics.com/?page=25) und [Kreditorenposten](https://businesscentral.dynamics.com/?page=29) analysieren.
 
@@ -108,7 +108,7 @@ Weitere Informationen finden Sie in den folgenden Artikeln:
 - [Datengrundlage für Ad-hoc-Analysen zum Verkauf](ad-hoc-analysis-sales.md#data-foundation-for-ad-hoc-analysis-on-sales)
 - [Datengrundlage für Ad-hoc-Analysen zum Einkauf](ad-hoc-analysis-purchasing.md#data-foundation-for-ad-hoc-analysis-on-purchasing)
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Listen- und Abfragedaten mit dem Analysemodus analysieren](analysis-mode.md)  
 [Übersicht über finanzielle Analysen](bi.md)  

@@ -10,19 +10,19 @@ ms.search.form: '347, Report_301, Report_304, Report_305, Report_312, Report_317
 ms.date: 04/26/2024
 ms.service: dynamics-365-business-central
 ---
-# Kreditorenkontenberichte und -analysen
+# <a name="accounts-payable-reports-and-analytics"></a>Kreditorenkontenberichte und -analysen
 
 [!INCLUDE [prod_short](includes/prod_short.md)] verfügt über Berichte und Analysen, um Sie bei der Verwaltung Ihrer Kreditorenkonten zu unterstützen. Die Tools sprengen die Grenzen herkömmlicher Berichte und erleichtern es Ihnen, verschiedene Arten von Berichten effizient zu gestalten.  
 
-## Berichte
+## <a name="reports"></a>Berichte
 
 [!INCLUDE [payables_reports](includes/payables-reports-include.md)]
 
-## Finanzberichte mit dem Berichts-Explorer kennenlernen
+## <a name="explore-finance-reports-with-report-explorer"></a>Finanzberichte mit dem Berichts-Explorer kennenlernen
 
 [!INCLUDE [finance_reports_report_explorer](includes/finance-reports-report-explorer-include.md)]
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Ad-hoc-Analysen der Finanzdaten](ad-hoc-analysis-finance.md)  
 [Finanzielle Analysen](bi.md)  

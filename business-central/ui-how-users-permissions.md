@@ -11,7 +11,7 @@ ms.reviewer: jswymer
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Benutzer gemäß Lizenzen erstellen
+# <a name="create-users-according-to-licenses"></a>Benutzer gemäß Lizenzen erstellen
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
@@ -26,7 +26,7 @@ Für weitere Informationen zu den verschiedenen Lizenztypen und zur Funktionswei
 > [!NOTE]
 > Der Prozess der Benutzer- und Lizenzverwaltung variiert je nachdem, ob [!INCLUDE[prod_short](includes/prod_short.md)] online oder vor Ort eingesetzt wird. Für [!INCLUDE [prod_short](includes/prod_short.md)] online müssen Sie Benutzer von Microsoft 365 hinzufügen. In Vor-Ort-Bereitstellungen können Sie Benutzer direkt erstellen, bearbeiten und löschen.  
 
-## Benutzer und Lizenzen in Online-Mandanten verwalten
+## <a name="manage-users-and-licenses-in-online-tenants"></a>Benutzer und Lizenzen in Online-Mandanten verwalten
 
 Benutzerkonten in [!INCLUDE[prod_short](includes/prod_short.md)] müssen zunächst im Admin-Center Microsoft 365 erstellt werden. Diese Benutzerkonten sind nicht exklusiv für [!INCLUDE [prod_short](includes/prod_short.md)]. Wenn Sie andere Tarife abonniert haben, können Sie sich damit auch bei anderen Anwendungen anmelden, beispielsweise bei Power BI. Informationen zum Erstellen von Benutzern im Admin-Center Microsoft 365 finden Sie unter [Benutzer im Admin-Center von Microsoft erstellen](/microsoft-365/admin/add-users/add-users).
 
@@ -61,7 +61,7 @@ Beide Ansätze haben ihre eigenen Vorteile, und Sie können sie gleichzeitig ver
 
 Weitere Informationen finden Sie unter [Delegierter Administratorzugriff auf Business Central Online](/dynamics365/business-central/dev-itpro/administration/delegated-admin).  
 
-### <a name="licensespermissions"></a>Berechtigungen auf Grundlage von Lizenzen konfigurieren
+### <a name="configure-permissions-based-on-licenses"></a><a name="licensespermissions"></a>Berechtigungen auf Grundlage von Lizenzen konfigurieren
 
 [!INCLUDE [2022_releasewave1](includes/2022_releasewave1.md)]
 
@@ -91,7 +91,7 @@ Wenn diese Standardkonfiguration nicht die richtige Einrichtung für eine bestim
 > [!IMPORTANT]
 > Diese Anpassung der Berechtigungen wird nur für neue Benutzer wirksam, denen Sie die entsprechende Lizenz zuweisen. Vorhandene Benutzer werden nicht aktualisiert. Wir empfehlen, dass Sie Berechtigungen anpassen, bevor Sie mit der Zuweisung von Benutzerlizenzen im Microsoft 365 Admin Center beginnen.
 
-### <a name="adduser"></a>Um Benutzer hinzuzufügen oder Benutzerinformationen und Lizenzzuweisungen in Business Central zu aktualisieren
+### <a name="to-add-users-or-update-user-information-and-license-assignments-in-business-central"></a><a name="adduser"></a>Um Benutzer hinzuzufügen oder Benutzerinformationen und Lizenzzuweisungen in Business Central zu aktualisieren
 
 Nachdem Sie Benutzer hinzugefügt oder Benutzerinformationen im Microsoft 365 Admin Center geändert haben, können Sie die Benutzerinformationen schnell in [!INCLUDE[prod_short](includes/prod_short.md)] importieren. Der Import enthält Lizenzzuweisungen.  
 
@@ -118,7 +118,7 @@ Weitere Informationen zur Synchronisierung von Benutzerinformationen mit Microso
 > [!NOTE]
 > Wenn Sie eines externen Buchhalter verwenden, um Ihre Buch und Berichte zu verwalten, können Sie sie für Ihr [!INCLUDE[prod_short](includes/prod_short.md)] einladen, damit sie mit Ihnen an Ihren steuerlichen Daten arbeiten. Weitere Informationen finden Sie unter [Ihren externen Buchhalter in Ihr Business Central einladen](finance-accounting.md#inviteaccountant).
 
-### So entfernen Sie den Zugriff eines Benutzers auf das System
+### <a name="to-remove-a-users-access-to-the-system"></a>So entfernen Sie den Zugriff eines Benutzers auf das System
 
 Sie können den Zugriff eines Benutzers auf [!INCLUDE[prod_short](includes/prod_short.md)] Online entfernen. Alle Verweise auf den Benutzer bleiben erhalten. Der Benutzer kann sich jedoch nicht anmelden, und aktive Sitzungen für den Benutzer werden beendet.
 
@@ -128,7 +128,7 @@ Sie können den Zugriff eines Benutzers auf [!INCLUDE[prod_short](includes/prod_
 
 Sie können die Lizenz auch von einem Benutzer im Microsoft 365 Admin Center entfernen. Der Benutzer kann sich dann nicht mehr anmelden. Weitere Informationen finden Sie unter [Lizenzen von Benutzern entfernen](/microsoft-365/admin/manage/remove-licenses-from-users).
 
-### <a name="m365"></a>Synchronisierung mit Microsoft 365
+### <a name="synchronization-with-microsoft-365"></a><a name="m365"></a>Synchronisierung mit Microsoft 365
 
 Wenn Sie einem Benutzer in Microsoft 365 eine Lizenz für [!INCLUDE[prod_short](includes/prod_short.md)] zuweisen, gibt es zwei Möglichkeiten, den Benutzer in [!INCLUDE[prod_short](includes/prod_short.md)] anzulegen.  
 
@@ -153,13 +153,13 @@ Erfahren Sie mehr über die Sicherung des Zugriffs auf Umgebungen mithilfe von S
 
 Einen Überblick über den Zugriff auf [!INCLUDE[prod_short](includes/prod_short.md)] in Teams mit Microsoft 365-Lizenzen finden Sie unter [admin-access-with-m365-license](admin-access-with-m365-license.md).
 
-## Benutzer und Lizenzen in lokalen Bereitstellungen verwalten
+## <a name="manage-users-and-licenses-in-on-premises-deployments"></a>Benutzer und Lizenzen in lokalen Bereitstellungen verwalten
 
 Bei lokalen Bereitstellungen wird die Anzahl der Benutzerlizenzen in der Lizenzdatei (.bclicense oder .flf) angegeben. Wenn ein Administrator oder Microsoft-Partner die Lizenzdatei hochlädt, kann er angeben, welche Benutzer sich bei [!INCLUDE[prod_short](includes/prod_short.md)] anmelden können.
 
 Bei lokalen Implementierungen erstellt, bearbeitet und löscht der Administrator Benutzer direkt von der Seite **Benutzer**.
 
-### So bearbeiten oder löschen Sie einen Benutzer in einer Vor-Ort-Bereitstellung
+### <a name="to-edit-or-delete-a-user-in-an-on-premises-deployment"></a>So bearbeiten oder löschen Sie einen Benutzer in einer Vor-Ort-Bereitstellung
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Benutzer** ein, und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie den Benutzer aus, und wählen Sie anschließend die Aktion **Bearbeiten** aus.
@@ -171,11 +171,11 @@ Bei lokalen Implementierungen erstellt, bearbeitet und löscht der Administrator
 >
 > Weitere Informationen finden Sie in [Authentifizierungs- und Anmeldeinformationstypen](/dynamics365/business-central/dev-itpro/administration/users-credential-types) in der Administrationshilfe für [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## Den Benutzerstatus nach Lizenztyp analysieren
+## <a name="analyze-user-status-by-license-type"></a>Den Benutzerstatus nach Lizenztyp analysieren
 
 Sie können das Feature **Datenanalyse** zur Analyse von Daten auf der Seite [Benutzende](https://businesscentral.dynamics.com/?page=9800) verwenden. Sie müssen keinen Bericht ausführen und keine andere Anwendung wie beispielsweise Excel öffnen. Das Feature bietet eine interaktive und vielseitige Möglichkeit, Daten zu berechnen, zusammenzufassen und zu untersuchen. Anstatt Berichte mit Optionen und Filtern auszuführen, können Sie mehrere Registerkarten hinzufügen, die unterschiedliche Aufgaben oder Ansichten der Daten darstellen. Einige Beispiele sind „Benutzende nach Status“ oder „Benutzende nach Lizenztyp“ oder jede andere Ansicht, die Sie sich vorstellen können. Weitere Informationen zur Verwendung des Features **Datenanalyse** finden Sie unter [Listen- und Abfragedaten mit dem Analysemodus analysieren](analysis-mode.md).
 
-### Szenarios für die Benutzeranalyse
+### <a name="user-analysis-scenarios"></a>Szenarios für die Benutzeranalyse
 
 Die folgenden Abschnitte enthalten Beispiele für Szenarios, in denen Ihnen die Analyse der Benutzerliste helfen kann, den Status Ihrer Benutzenden zu überwachen.
 
@@ -184,7 +184,7 @@ Die folgenden Abschnitte enthalten Beispiele für Szenarios, in denen Ihnen die 
 | [Benutzende nach Status](#example-users-by-status) | Lassen Sie sich eine Liste der Benutzenden basierend auf ihrem Status (aktiviert/deaktiviert) anzeigen. | [Benutzer](https://businesscentral.dynamics.com/?page=9800) | **Status**, **Benutzername**, **Vollständiger Name**, **Autorisierungs-E-Mail** und **Lizenztyp**. |
 | [Benutzende nach Lizenztyp](#example-users-by-license-type) | Lassen Sie sich eine Liste der Benutzenden basierend auf ihrem Lizenztyp anzeigen. | [Benutzer](https://businesscentral.dynamics.com/?page=9800) | **Lizenztyp**, **Status**, **Benutzername**, **Vollständiger Name** und **Autorisierungs-E-Mail**. |
 
-### Beispiel: Benutzende nach Status
+### <a name="example-users-by-status"></a>Beispiel: Benutzende nach Status
 
 Um Benutzende nach Status zu analysieren, gehen Sie wie folgt vor:
 
@@ -198,7 +198,7 @@ Das folgende Bild zeigt das Ergebnis dieser Schritte.
 
 :::image type="content" source=" media/data-analysis-users.png" alt-text="Beispiel für die Durchführung einer Datenanalyse auf der Seite „Änderungsprotokollposten“ (Wer hat wann welche Daten geändert?)." lightbox="media/data-analysis-users.png":::
 
-### Beispiel: Benutzende nach Lizenztyp
+### <a name="example-users-by-license-type"></a>Beispiel: Benutzende nach Lizenztyp
 
 Um Benutzende nach Lizenztyp zu analysieren, gehen Sie wie folgt vor:
 
@@ -208,7 +208,7 @@ Um Benutzende nach Lizenztyp zu analysieren, gehen Sie wie folgt vor:
 1. Wählen Sie die Felder **Benutzername**, **Vollständiger Name** und **Autorisierungs-E-Mail** aus.
 1. Benennen Sie Ihre Analyseregisterkarte in **Benutzende nach Lizenztyp** oder in etwas anderes um, das diese Analyse beschreibt.
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Benutzenden und Gruppen Berechtigungen zuweisen](ui-define-granular-permissions.md)  
 [Profile verwalten](admin-users-profiles-roles.md)  

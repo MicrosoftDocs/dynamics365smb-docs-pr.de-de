@@ -11,11 +11,11 @@ ms.author: kepontop
 ms.service: dynamics-365-business-central
 ---
 
-# Analysen, Business Intelligence und Berichterstellung – Übersicht
+# <a name="analytics-business-intelligence-and-reporting-overview"></a>Analysen, Business Intelligence und Berichterstellung – Übersicht
 
 Kleine und mittelständische Unternehmen setzen auf integrierte Analyse- und Berichtsfunktionen, die sie sofort nutzen können, um den Überblick über ihr Geschäft zu behalten. [!INCLUDE[prod_short](includes/prod_short.md)] bietet Berichte und Analysetools, die grundlegende und komplexe Geschäftsprozesse für solche Organisationen abdecken. Sie können auch Ad-hoc-Analysen direkt von Ihrer Homepage aus durchführen.  
 
-## Analyseanforderungen in Organisationen
+## <a name="analytics-needs-in-organizations"></a>Analyseanforderungen in Organisationen
 
 Wenn Sie über Analyseanforderungen in Organisationen nachdenken, kann es hilfreich sein, ein mentales Modell zu verwenden, das auf allgemein beschriebenen Personas und ihren unterschiedlichen Analyseanforderungen basiert.
 
@@ -34,7 +34,7 @@ In den folgenden Abschnitten erfahren Sie mehr über die Möglichkeiten zur Nutz
 - Ad-hoc-Analysen
 - Berichte
 
-## Verwendung von Finanzberichten für die Erstellung von Finanzauswertungen und KPIs
+## <a name="using-financial-reports-to-produce-financial-statements-and-kpis"></a>Verwendung von Finanzberichten für die Erstellung von Finanzauswertungen und KPIs
 
 Die Finanzberichtsfunkion gibt Ihnen Einblick in die in Ihrem Kontenplan (COA) gespeicherten Finanzdaten. Sie können Finanzberichte einrichten, um die Zahlen in den Finanzbuchhaltungskonten zu analysieren und Sachposten mit Budgetposten zu vergleichen.
 
@@ -44,7 +44,7 @@ Dimensionen spielen eine wichtige Rolle bei Business Intelligence. Bei einer Dim
 
 Weitere Informationen zu Finanzberichten und KPIs finden Sie unter [Verwendung von Finanzberichten für die Erstellung von Finanzauswertungen und KPIs](bi.md).
 
-## Ihre geschäftlichen Ziele mithilfe von Key Performance Indicators erreichen
+## <a name="using-key-performance-indicators-to-meet-your-business-goals"></a>Ihre geschäftlichen Ziele mithilfe von Key Performance Indicators erreichen
 
 Ein Key Performance Indicator (KPI) ist ein messbarer Wert, der zeigt, wie effektiv Sie Ihre Ziele erreichen. Betrachten Sie KPIs als Scorecard Ihres Unternehmens, mit der Sie erfassen können, ob Sie Ihre Ziele erreichen.
 
@@ -59,7 +59,7 @@ Durch die Identifizierung und Verfolgung von KPIs erfahren Sie, ob Ihr Unternehm
 
 Mehr über KPIs erfahren Sie unter [Ihre geschäftlichen Ziele mithilfe von Key Performance Indicators erreichen](./analytics-about-kpis.md)
 
-## Ad-hoc-Datenanalyse
+## <a name="ad-hoc-data-analysis"></a>Ad-hoc-Datenanalyse
 
 Eventuell möchten Sie einfach nur überprüfen, ob die Zahlen das richtige Ergebnis liefern, schnell eine Hypothese über das Unternehmen bestätigen oder widerlegen oder vielleicht nach Anomalien in Ihren Finanzdaten suchen. Für Ad-hoc-Analysen verfügen Sie möglicherweise nicht über einen integrierten Bericht, der Ihnen bei der Beantwortung Ihrer Fragen hilft. Nutzen Sie für Ad-hoc-Analysen diese beiden Features:
 
@@ -79,7 +79,7 @@ Ebenso können Sie die Aktion **In Excel öffnen** verwenden, um eine Listenseit
 
 Weitere Informationen zu Ad-hoc-Analysen finden Sie unter [Ad-hoc-Datenanalyse](reports-adhoc-analysis.md).
 
-## Berichte
+## <a name="reports"></a>Berichte
 
 Ein Bericht in [!INCLUDE[prod_short](includes/prod_short.md)] sammelt Informationen auf der Grundlage einer festgelegten Gruppe von Kriterien. Berichte organisieren und präsentieren die Informationen in einem leicht zu lesenden Format, das Sie in Excel nutzen, ausdrucken oder als Datei speichern können.  
 
@@ -105,7 +105,7 @@ In der folgenden Tabelle sind Artikel zur Verwendung integrierter Berichte in [!
 | Erfahren Sie mehr darüber, welche integrierten Berichte in [!INCLUDE[prod_short](includes/prod_short.md)] verfügbar sind. |[Bericht – Übersicht](reports-available-reports.md)| 
 | Verwenden Sie den Berichts-Explorer, um alle integrierten Berichte anzuzeigen. | [Berichte nach Rolle erkunden](ui-role-explorer.md) |
 
-## Externe Business Intelligence- und Berichterstellungstools
+## <a name="external-business-intelligence-and-reporting-tools"></a>Externe Business Intelligence- und Berichterstellungstools
 
 Wenn Sie möchten, können Sie Business Intelligence-Tools verwenden, die nicht in [!INCLUDE[prod_short](includes/prod_short.md)] eingebettet sind. Die folgende Tabelle enthält Links zu Anleitungen und Möglichkeiten zur Verwendung externer Tools.
 
@@ -117,7 +117,7 @@ Wenn Sie möchten, können Sie Business Intelligence-Tools verwenden, die nicht 
 | Business Central-Daten mit Microsoft Fabric analysieren| [Einführung in Microsoft Fabric und Business Central](admin-fabric.md) |
 | Daten mithilfe von APIs aus Business Central lesen | [Business Central API v2.0](/dynamics365/business-central/dev-itpro/api-reference/v2.0/) |
 
-## Analyse nach Funktionsbereich
+## <a name="analytics-by-functional-area"></a>Analyse nach Funktionsbereich
 
 Der Inhalt dieses allgemeinen Artikels steht Ihnen für viele Funktionsbereiche auch in speziellen Versionen in [!INCLUDE[prod_short](includes/prod_short.md)] zur Verfügung.
 
@@ -129,7 +129,7 @@ Der Inhalt dieses allgemeinen Artikels steht Ihnen für viele Funktionsbereiche 
 | Anlagenmanagement | [Anlagenanalysen](fa-analytics-overview.md) |
 
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Verwendung von Finanzberichten für die Erstellung von Finanzauswertungen und KPIs](bi.md)  
 [Ihre geschäftlichen Ziele mithilfe von Key Performance Indicators (KPIs) erreichen](analytics-about-kpis.md)  
