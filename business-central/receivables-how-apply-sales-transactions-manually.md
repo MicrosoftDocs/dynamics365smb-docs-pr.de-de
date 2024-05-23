@@ -10,7 +10,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="reconcile-customer-payments-with-the-cash-receipt-journal-or-from-customer-ledger-entries"></a>Abstimmen von Debitoren-Zahlungen mit dem Zahlungseingangs Buch.-Blatt oder von Debitorenposten
+# <a name="reconcile-customer-payments-with-a-cash-receipt-journal-or-from-customer-ledger-entries"></a>Abstimmen von Debitoren-Zahlungen mit dem Zahlungseingangs Buch.-Blatt oder von Debitorenposten
 
 Wenn Sie eine Barzahlung von einem Kunden erhalten oder eine Barrückerstattung leisten, können Sie die Zahlung oder Rückerstattung verwenden, um offene Lastschriften oder Gutschriften zu schließen. Sie können den Betrag angeben, den Sie anwenden möchten. Beispielsweise können Sie Teilzahlungen für die Debitorenposten übernehmen. Der Abschluss von Kundenbucheinträgen hält Debitorenstatistiken, Kontoauszüge, Finanzierungskosten usw. auf dem neuesten Stand.
 

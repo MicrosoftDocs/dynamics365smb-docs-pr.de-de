@@ -36,7 +36,7 @@ In dieser exemplarischen Vorgehensweise erhalten Sie eine Einführung in die Pro
 - Erfahren Sie, wie Vertrags- und Rechnungswerte ermittelt werden.  
 - Einplanen zusätzlicher, nicht fakturierter Arbeit im Plan  
 
-### <a name="copying-a-job"></a>Kopieren eines Projekts
+### <a name="copying-a-project"></a>Kopieren eines Projekts
 
  In diesem Teil der exemplarischen Vorgehensweise wird gezeigt, wie Sie ein Projekt ganz oder teilweise kopieren, um den manuellen Dateneingabeaufwand zu reduzieren und die Genauigkeit zu verbessern. Dazu zählen folgende Aufgaben:  
 
@@ -223,11 +223,11 @@ Im folgenden Verfahren erstellen Sie eine Projektbuchungsblatt für Katrin, um d
 
 Die Zeilen werden gebucht.  
 
-## <a name="creating-and-posting-a-job-sales-invoice"></a>Erstellen und Buchen einer Projektverkaufsrechnung
+## <a name="creating-and-posting-a-project-sales-invoice"></a>Erstellen und Buchen einer Projektverkaufsrechnung
 
  Als Nächstes kann Katrin eine neue Rechnung für das gesamte Projekt oder für Teil eines Projekts erstellen. Tricia kann die Rechnung auch an eine andere Rechnung für denselben Debitoren und dasselbe Projekt anfügen. In diesem Fall fakturiert Tricia das gesamte Projekt, da es jetzt abgeschlossen ist.  
 
-### <a name="to-create-a-job-sales-invoice"></a>So erstellen Sie eine Projektverkaufsrechnung
+### <a name="to-create-a-project-sales-invoice"></a>So erstellen Sie eine Projektverkaufsrechnung
 
 1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Aufträge** ein, und wählen Sie dann den zugehörigen Link.  
 2.  Wählen Sie das Projekt aus, das Sie zuvor erstellt haben, und wählen die **Projektverkaufsrechnung erstellen** Aktion aus.  
@@ -261,7 +261,7 @@ Die Zeilen werden gebucht.
 
  CRONUS wurde abgeschlossen, um Konferenzräume einrichten. Als Projekt-Manager benötigt Bernard einen umfassenden Überblick über die erforderlichen Aufgaben für das Projekt sowie die zugehörigen budgetierten und angefallenen Kosten für jede Aufgabe. Zudem möchte Prakash den vertraglich vereinbarten Verkaufsbetrag für das Projekt und den bisher fakturierten Betrag ermitteln. Sie haben mit dem Debitoren Festpreise für das Projekt vereinbart.  
 
-### <a name="to-manage-fixed-pricing-in-jobs"></a>So verwalten Sie Festpreise in Projekten
+### <a name="to-manage-fixed-pricing-in-projects"></a>So verwalten Sie Festpreise in Projekten
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Aufträge** ein, und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die Projektnummer **Guildford**, und wählen Sie die **Projektaufgabenzeilen** Aktion aus.  
