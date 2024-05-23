@@ -3,7 +3,7 @@ title: Einführung in die Demodaten für Contoso Coffee
 description: 'Übersicht über Szenarien dazu, wie Sie mithilfe von Contoso Coffee-Demodaten die Verwendung von Produktionsfunktionen in Business Central erlernen können.'
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.date: 09/20/2023
 ms.topic: article
 ms.service: dynamics-365-business-central
@@ -11,11 +11,11 @@ ms.search.form: '5194,'
 ms.custom: bap-template
 ---
 
-# <a name="introduction-to-contoso-coffee-demo-data"></a>Einführung in die Demodaten für Contoso Coffee
+# Einführung in die Demodaten für Contoso Coffee
 
 Contoso Coffee ist ein fiktives Unternehmen, das Kaffeemaschinen für Verbraucher und gewerbliche Kunden herstellt. Die **Contoso Coffee**-Apps für [!INCLUDE [prod_short](../includes/prod_short.md)] fügen Demodaten hinzu, mit deren Hilfe Sie die Verwendung der Produktionsfunktionen in [!INCLUDE [prod_short](../includes/prod_short.md)] erlernen können.  
 
-## <a name="set-up-contoso-coffee-data"></a>Demodaten für Contoso Coffee einrichten
+## Demodaten für Contoso Coffee einrichten
 
 [!INCLUDE [contoso-coffee-app-install](../includes/contoso-coffee-app-install.md)]
 
@@ -39,7 +39,7 @@ Die Einstellungen werden in den folgenden Tabellen beschrieben:
 
 Nachdem Sie die Module konfiguriert haben, die Sie ausprobieren möchten, wählen Sie die Aktion **Generieren**, um Demonstrationsdaten für sie zu erstellen.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Fertigung](../production-manage-manufacturing.md)  
 [Lagerfunktionen](../warehouse-manage-warehouse.md)  

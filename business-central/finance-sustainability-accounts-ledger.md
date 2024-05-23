@@ -1,129 +1,133 @@
 ---
-title: Diagramm der Nachhaltigkeitskonten und Nachhaltigkeitssachkonto
-description: 'Erfahren Sie, wie Sie das Diagramm der Nachhaltigkeitskonten, -kategorien und -unterkategorien verwalten und Details zu Nachhaltigkeitsposten abrufen.'
+title: Diagramm der Nachhaltigkeitskonten und des Sachkontos
+description: 'Erfahren Sie, wie Sie den Nachhaltigkeitskontenplan (CoSA), Nachhaltigkeitskategorien und -unterkategorien verwalten und Details zu Nachhaltigkeitsposten abrufen.'
 author: altotovi
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'Sustainability, ESG, emission, GHG, CSRD, CoA, Chart, Account, Ledger'
 ms.search.form: '6210, 6213, 6214, 6220'
-ms.date: 04/02/2024
+ms.date: 05/07/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="chart-of-sustainability-accounts-and-ledger"></a>Diagramm der Nachhaltigkeitskonten und Nachhaltigkeitssachkonto
+# Nachhaltigkeitskontenplan und Nachhaltigkeitssachkonto
 
-## <a name="chart-of-sustainability-accounts"></a>Diagramm der Nachhaltigkeitskonten
+## Nachhaltigkeitskontenplan
 
-Das **Diagramm der Nachhaltigkeitskonten** (CoSA) bildet die grundlegende strukturierte Liste, die zur Erfassung aller Emissionsdaten verwendet wird. Es fungiert als Rahmen, der Nachhaltigkeitskonten anhand ihrer Attribute, wie Scope oder anderen Gruppierungen, kategorisiert und organisiert. Jedem Konto wird normalerweise zur einfachen Bezugnahme und Nachverfolgung ein eindeutiger Code oder eine eindeutige Nummer zugewiesen, wobei die gleiche Struktur wie bei einem herkömmlichen **Kontenplan** verwendet, diese jedoch speziell an die Überwachung nachhaltigkeitsbezogener Daten und Kennzahlen innerhalb einer Organisation angepasst wird. 
- 
-Benutzende können **Kontokategorien** und **-unterkategorien** hinzufügen, um das Verhalten des Systems zu bestimmen, indem sie spezielle Emissionen zur Nachverfolgung, Emissionsfaktoren, Formeln und ähnliche Konfigurationen auswählen.  
+Der Nachhaltigkeitskontenplan (CoSA) bildet die grundlegende strukturierte Liste, mit der alle Emissionsdaten erfasst werden. Er dient als Rahmen, der Nachhaltigkeitskonten anhand ihrer Attribute, wie Scope oder anderen Gruppierungen, kategorisiert und organisiert. Jedem Konto wird normalerweise ein eindeutiger Code oder eine eindeutige Nummer zugewiesen, um einfach darauf verweisen oder es nachverfolgen zu können. Er hat die gleiche Struktur wie ein herkömmlicher Kontenplan, ist jedoch speziell auf die Überwachung von Daten und Kennzahlen rund um das Thema Nachhaltigkeit in einer Organisation zugeschnitten.
 
->[!NOTE]
->Um Sie mit den Scopes vertraut zu machen: Basierend auf den THG-Standards (Treibhausgase) gibt es drei Emissions-Scopes:  
->- **Umfang-1-Emissionen**: umfassen Emissionen, die aus der stationären und mobilen Verbrennung stammen, sowie aus unbeabsichtigten flüchtigen Emissionen. 
->- **Bereich-2-Emissionen** enthalten indirekte Emissionen aus der Energieerzeugung, die von Versorgungsunternehmen bezogen wird. 
->- **Scope-3-Emissionen**: umfassen ein breites Spektrum an Emissionen, von gekauften Waren und Dienstleistungen und Investitionsgütern, kraftstoff- und energiebezogenen Aktivitäten, vor- und nachgelagerten Transporten, erzeugtem Abfall, Geschäftsreisen und Pendelverkehr der Mitarbeitenden usw. 
+Benutzende können Nachhaltigkeitskontokategorien und -unterkategorien hinzufügen, um das Verhalten des Systems zu bestimmen. So können sie bestimmte nachzuverfolgende Emissionen sowie Emissionsfaktoren, Formeln und ähnliche Konfigurationen auswählen.
 
-Vom **Diagramm der Nachhaltigkeitskonten** (CoSA) aus können Sie zum Beispiel Folgendes tun:  
+> [!NOTE]
+> Ausgehend von den Treibhausgasstandards (THG-Standards) gibt es drei Emissionsscopes:
+>
+> - **Scope-1-Emissionen**: umfassen Emissionen, die aus der stationären und mobilen Verbrennung stammen, sowie aus unbeabsichtigten flüchtigen Emissionen.
+> - **Scope-2-Emissionen** enthalten indirekte Emissionen aus der Energieerzeugung, die von Versorgungsunternehmen bezogen wird.
+> - **Scope-3-Emissionen** umfassen ein breites Spektrum an Emissionen, von gekauften Waren und Dienstleistungen und Investitionsgütern, über kraftstoff- und energiebezogenen Aktivitäten, vor- und nachgelagerte Transporte, bis zu erzeugtem Abfall, Geschäftsreisen und Pendelverkehr der Mitarbeitenden usw.
 
--   Berichte ansehen, die die Nachhaltigkeitsposten und -salden zeigen. 
--   Die **Nachhaltigkeitskontokarte** öffnen, um Einstellungen hinzuzufügen oder zu ändern.  
--   Sich die Kategorie und Unterkategorie für dieses Konto anzeigen lassen.   
--   Separate Salden für jede der Emissionen für ein einzelnes Konto anzeigen. 
--   Jedem Konto eine oder mehrere **Dimensionen** hinzufügen und einen Dimensionsfilter festlegen. 
-    
-Sie können **Nachhaltigkeitskonten** hinzufügen, ändern oder löschen. Um Unstimmigkeiten zu vermeiden, können Sie jedoch ein **Nachhaltigkeitskonto** nicht löschen, wenn mit diesem Konto ein oder mehrere Posten verknüpft sind.  
+Vom CoSA aus können Sie beispielsweise Folgendes tun:
 
-### <a name="add-or-change-accounts"></a>Hinzufügen oder Ändern von Konten
+- Berichte ansehen, die die Nachhaltigkeitsposten und -salden zeigen.
+- Die Nachhaltigkeitskontokarte öffnen, um Einstellungen hinzuzufügen oder zu ändern.
+- Sich die Kategorie und Unterkategorie für das Konto anzeigen lassen. 
+- Separate Salden für jede Emission für ein einzelnes Konto anzeigen.
+- Jedem Konto eine oder mehrere Dimensionen hinzufügen und Dimensionsfilter festlegen.
 
-1. Wählen Sie das ![Glühbirne, öffnet die „Wie möchten Sie weiter verfahren“-Funktion 3.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren") Symbol. Geben Sie **Diagramm der Nachhaltigkeitskonten** ein und wählen Sie dann den zugehörigen Link. 
-2. Auf der Seite **Diagramm der Nachhaltigkeitskonten** (CoSA) können Sie jedes **Nachhaltigkeitskonto** öffnen und dann Einstellungen hinzufügen oder ändern. Fahren Sie über ein Feld, um eine Kurzbeschreibung zu lesen. 
+Sie können Nachhaltigkeitskonten hinzufügen, ändern oder löschen. Um Unstimmigkeiten zu vermeiden, können Sie ein Nachhaltigkeitskonto jedoch nicht löschen, wenn ein oder mehrere Posten damit verknüpft sind.
 
-Für Konten der Art **Summe** müssen Sie das Feld **Zusammenzählung** ausfüllen. Für Konten der Art **Bis-Summe** wird dieses Feld automatisch durch die Funktion "Einrückung des Kontenplans" ausgefüllt. Nachdem Sie alle Konten festgelegt haben, wählen Sie dafür die Aktion **Diagramm der Nachhaltigkeitskonten einrücken** aus.  
+### Hinzufügen oder Ändern von Konten
 
->[!IMPORTANT]
->Wenn Sie vor dem Ausführen der Funktion Einrücken Definitionen in den Feldern **Summe** für **Endsumme** Konten eingegeben haben, müssen Sie diese erneut eingeben, da die Funktion die Werte in allen **Endsumme** Feldern überschreibt.  
+1. Wählen Sie das ![Glühbirne, welche die 3. „Sie wünschen ...“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren") Symbol. Geben Sie **Nachhaltigkeitskontoplan** ein und wählen Sie dann den zugehörigen Link.
+2. Auf der Seite **Nachhaltigkeitskontenplan** können Sie jedes Nachhaltigkeitskonto öffnen und dann Einstellungen hinzufügen oder ändern. Fahren Sie über ein Feld, um eine Kurzbeschreibung zu lesen.
 
-### <a name="delete-accounts"></a>Konten löschen
+Für Konten der Art **Summe** müssen Sie das Feld **Zusammenzählung** festlegen.
 
-Sie können ein **Nachhaltigkeitskonto** löschen. Bevor Sie es löschen, müssen Sie jedoch sicherstellen, dass ein oder mehrere Posten mit diesem Konto verknüpft sind, da Business Central Sie in diesem Fall daran hindert, ein **Nachhaltigkeitskonto** zu löschen.  
+Bei Konten der Art **Bis-Summe** wird das Feld **Zusammenzählung** automatisch durch die Einrücken-Funktion festgelegt. Nachdem Sie alle Konten eingerichtet haben, wählen Sie die Aktion **Nachhaltigkeitskontenplan einrücken** aus, um die Einrücken-Funktion auszuführen und das Feld **Zusammenzählung** festzulegen.
 
-## <a name="account-categories"></a>Kontokategorien
+> [!IMPORTANT]
+> Die Einrücken-Funktion überschreibt den Wert aller Felder für Konten vom Typ **Bis-Summe**. Wenn Sie Definitionen im Feld **Zusammenzählung** für Konten vom Typ **Bis-Summe** eingegeben haben, bevor Sie die Einrücken-Funktion ausführen, müssen Sie sie daher noch dem Ausführen noch einmal eingeben.
 
-Benutzende müssen die **Kategorie des Nachhaltigkeitskontos** für jedes **Nachhaltigkeitskonto** hinzufügen, um das Verhalten des Systems festzulegen, Emissionsscopes, dedizierte Emissionen zur Nachverfolgung, Formeln und ähnliche Konfigurationen auszuwählen.  
+### Konten löschen
 
-Um die **Kategorien des Nachhaltigkeitskontos** zu überprüfen, gehen Sie wie folgt vor: 
+Sie können ein Nachhaltigkeitskonto löschen. Allerdings müssen Sie zunächst sicherstellen, dass keine Posten damit verknüpft sind. Business Central lässt Sie ein Nachhaltigkeitskonto jedoch nicht löschen, wenn ein oder mehrere Posten damit verknüpft sind.
 
-1.  Wählen Sie das ![Glühbirne, öffnet die „Wie möchten Sie weiter verfahren“-Funktion 3.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren") Symbol. Geben Sie **Kategorien des Nachhaltigkeitskontos** ein und wählen Sie dann den zugehörigen Link. 
-2.  Auf der Seite **Kategorien des Nachhaltigkeitskontos** können Sie die vorhandene Liste bearbeiten oder eine neue Kategorie erstellen. Um eine neue Kategorie zu erstellen, wählen Sie die Aktion **Neu**.  
-3.  Füllen Sie die Felder **Code** und **Beschreibung** aus.   
-4.  Richten Sie das Feld **Emissionsscope** ein, indem Sie eine der Scopeoptionen auswählen.  
-5.  Wählen Sie die Gasemissionen aus, die Sie nachverfolgen möchten. Derzeit können Sie eine der folgenden Optionen verwenden: **CO2**, **CH4** oder **N2O**. Sie können jede beliebige Kombination auswählen, die Sie nachverfolgen möchten, müssen aber über mindestens eine Emission zur Nachverfolgung verfügen.  
-6.  Im Feld **Berechnungsgrundlage** können Sie eine der Formeln auswählen, die Sie verwenden möchten, falls Sie die genaue Emissionsmenge nicht kennen. Hier geben Sie die Berechnungsgrundlage (Formel) für die Emissionsberechnung an. Sie können eine der folgenden Optionen auswählen: **Kraftstoff/Strom**, **Entfernung**, **Installation** oder **Benutzerdefiniert**. 
-7.  Wenn Sie die **Benutzerdefinierte** Formel auswählen, können Sie im Feld **Benutzerdefinierter Wert** eine benutzerdefinierte Beschreibung konfigurieren.  
+## Kontokategorien
 
->[!NOTE]
->Wenn die im Feld **Berechnungsgrundlage** angebotenen Formeln nicht ausreichen, können Sie dieses Feld erweitern und dem System weitere Berechnungen hinzufügen, die in den **Nachhaltigkeits-Buch.-Blättern** verwendet werden können.  
+Benutzende müssen jedem Nachhaltigkeitskonto eine Nachhaltigkeitskontokategorie hinzufügen, um das Verhalten des Systems zu bestimmen. Sie können Emissionsscopes, bestimmte nachzuverfolgende Emissionen, Formeln und ähnliche Konfigurationen auswählen.
 
-Wenn Sie die **Berechnungsgrundlage** (Formeln) verwenden, gibt es eine Erklärung, wie das System die Berechnung basierend auf der von Ihnen gewählten Option vornimmt (**EF** ist der **Emissionsfaktor**, den Sie auf der Seite **Unterkategorien des Nachhaltigkeitskontos** konfigurieren können): 
+Um die Nachhaltigkeitskontokategorien zu überprüfen, gehen Sie wie folgt vor:
 
-|  Emissionsart  |  Berechnungsgrundlage  |  Formel         | Kommentar      |
-|------------|--------------|------------------------------|---------------------------------|
-| **SCOPE 1**  |
-| Stationäre Verbrennung | Treibstoff/Strom | Emission = Kraftstoff * EF | _d. h. Kraftstoff = Menge des für Kessel, Heizungen, thermische Oxidationsanlagen usw. verbrauchten Brennstoffs._ |
-| Mobile Verbrennung | Treibstoff/Strom | Emission = Kraftstoff * EF | _d. h. Kraftstoff = Menge an Kraftstoff, die für Straßenfahrzeuge, Geländefahrzeuge, Schienenfahrzeuge usw. verbraucht wird._ |
-|  |  |  Emissionen = Entfernung * EF | _d. h. Entfernung = von Straßen- oder Geländefahrzeugen, Schienenverkehr usw. gefahrene Kilometer_ |
-| Flüchtige Emissionen | Installation | Emission = Installationsmultiplikator * benutzerdefinierte Menge/100 * Zeitfaktor | _d. h. benutzerdefinierte Menge = Montageverluste, jährliche Leckrate usw._ |
-| **SCOPE 2**  |
-| Versorgungsunternehmen | Treibstoff/Strom | Emissionen = Strom * EF | _d. h. Kraftstoff/Strom = Strommenge, Dampfmenge, Heizeinheit usw._ |
-|  | Benutzerdefiniert | Emission = Benutzerdefinierte Menge * EF | _d. h. benutzerdefinierte Menge = Kilomwatt, Kilowattstunde usw._ |
-| **SCOPE 3**  |
-| Gekaufte Waren und Dienstleistungen sowie Investitionsgüter | Benutzerdefiniert | Emission = Benutzerdefinierte Menge * EF | _d. h., benutzerdefinierte Menge = Kosten (Finanzbuchhaltung) usw._ |
-| Upstream-Transport und -Vertrieb | Entfernung | Emissionen = Entfernung * EF |  |
-|  | Entfernung | Emissionen = Entfernung * Multiplikator * EF | _Multiplikator = Tonnen Fracht_ |
-| Downstream-Transport und -Vertrieb | Entfernung | Emissionen = Entfernung * EF |  |
-|  | Entfernung | Emissionen = Entfernung * Multiplikator * EF | _Multiplikator = Tonnen Fracht_ |
-| Abfälle aus dem Betrieb und der Entsorgung verkaufter Produkte | Benutzerdefiniert | Emission = Benutzerdefinierte Menge * EF | _d. h., benutzerdefinierte Menge = Abfall_ |
-| Geschäftsreisen und Pendeln von Mitarbeitenden | Entfernung | Emissionen = Entfernung * EF | _d. h. Entfernung = vom genutzten Firmenwagen, Mietwagens, Zugs, Flugs usw. zurückgelegte Kilometer_ |
-|  | Benutzerdefiniert | Emission = Benutzerdefinierte Menge * EF | _d. h. benutzerdefinierter Betrag = Hotelaufenthalte usw._ |
-|  | Treibstoff/Strom | Emission = Kraftstoff * EF | _d. h. Kraftstoff = Menge an Kraftstoff, die im Firmenwagen, Mietwagen usw. verbraucht wird_ |
+1. Wählen Sie das ![Glühbirne, öffnet die „Wie möchten Sie weiter verfahren“-Funktion 3.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren") Symbol. Geben Sie **Kategorien des Nachhaltigkeitskontos** ein und wählen Sie dann den zugehörigen Link.
+2. Auf der Seite **Kategorien des Nachhaltigkeitskontos** können Sie die vorhandene Liste bearbeiten oder eine neue Kategorie erstellen. Um eine neue Kategorie zu erstellen, wählen Sie die Aktion **Neu** aus.
+3. Legen Sie die Felder **Code** und **Beschreibung** fest.
+4. Wählen Sie im Feld **Emissionsscope** eine der Scopeoptionen aus.
+5. Wählen Sie die Gasemissionen aus, die Sie nachverfolgen möchten. Die folgenden Optionen stehen zur Verfügung: **CO2**, **CH4** und **N2O**. Sie können jede beliebige Kombination auswählen, die Sie nachverfolgen möchten, müssen aber mindestens eine Emission auswählen.
+6. Im Feld **Berechnungsgrundlage** können Sie die Berechnungsgrundlage (Formel) für die Emissionsberechnung auswählen, wenn Sie die genaue Emissionsmenge nicht kennen. Sie können eine der folgenden Optionen auswählen: **Kraftstoff/Strom**, **Entfernung**, **Installation** oder **Benutzerdefiniert**.
 
-## <a name="account-subcategories"></a>Kontounterkategorien
+    > [!NOTE]
+    > Wenn die im Feld **Berechnungsgrundlage** angebotenen Formeln nicht ausreichen, können Sie das Feld erweitern und dem System weitere Berechnungen hinzufügen, die in den Nachhaltigkeits-Buch.-Blättern verwendet werden können.
 
-Benutzende müssen die **Unterkategorie des Nachhaltigkeitskontos** zu jedem der **Nachhaltigkeitskonten** hinzufügen, um Emissionsfaktoren festzulegen, die in den Formeln verwendet werden. Sie basiert jedoch auf der in der **Kategorie des Nachhaltigkeitskontos** zur Nachverfolgung ausgewählten Kategorie.  
+7. Wenn Sie im Feld **Berechnungsgrundlage** die Option **Benutzerdefiniert** festlegen, können Sie eine benutzerdefinierte Beschreibung im Feld **Benutzerdefinierter Wert** eingeben.
 
-Um die **Unterkategorien des Nachhaltigkeitskontos** zu überprüfen, gehen Sie wie folgt vor:  
+Wenn Sie das Feld **Berechnungsgrundlage** festlegen, können Sie der folgenden Tabelle entnehmen, wie das System die Emissionen basierend auf der von Ihnen ausgewählten Option berechnet. (In dieser Tabelle steht *EF* für den Wert **Emissionsfaktor**, den Sie auf der Seite **Unterkategorie des Nachhaltigkeitskontos** konfiguriert haben.)
 
-1.  Wählen Sie das ![Glühbirne, öffnet die „Wie möchten Sie weiter verfahren“-Funktion 3.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Unterkategorien des Nachhaltigkeitskontos** ein und wählen Sie dann den zugehörigen Link. 
-2.  Auf der Seite **Unterkategorien des Nachhaltigkeitskontos** können Sie die vorhandene Liste bearbeiten oder eine neue Kategorie erstellen. Um eine neue Kategorie zu erstellen, wählen Sie die Aktion **Neu**.  
-3.  Füllen Sie die Felder **Code** und **Beschreibung** aus.   
-4.  Basierend auf den Gasemissionen, die Sie in der **Kategorie des Nachhaltigkeitskontos** nachverfolgen möchten und mit denen Sie diese Unterkategorie verknüpfen, können Sie auch einen oder mehrere Emissionsfaktoren angeben: 
+| Emissionsart | Berechnungsgrundlage | Formel | Kommentar |
+|---------------|------------------------|---------|---------|
+| **Bereich 1** | | | |
+| Stationäre Verbrennung | Treibstoff/Strom | *Emission* = *Kraftstoff* &times; *EF* | *Kraftstoff* = Menge des für Kessel, Heizungen, thermische Oxidationsanlagen usw. verbrauchten Brennstoffs |
+| Mobile Verbrennung | Treibstoff/Strom | *Emission* = *Kraftstoff* &times; *EF* | *Kraftstoff* = Menge an Kraftstoff, die für Straßenfahrzeuge, Geländefahrzeuge, Schienenfahrzeuge usw. verbraucht wird |
+| | | *Emissionen* = *Entfernung* &times; *EF* | *Entfernung* = von Straßen- oder Geländefahrzeugen, Schienenverkehr usw. gefahrene Kilometer |
+| Flüchtige Emissionen | Installation | *Emission* = *Installationsmultiplikator* &times; *benutzerdefinierte Menge* &divide; 100 &times; *Zeitfaktor* | *Benutzerdefinierte Menge* = Montageverluste, jährliche Leckrate usw. |
+| **Bereich 2** | | | |
+| Versorgungsunternehmen | Treibstoff/Strom | *Emissionen* = *Strom* &times; *EF* | *Kraftstoff/Strom* = Strommenge, Dampfmenge, Heizeinheit usw. |
+| | Benutzerdefiniert | *Emissionen* = *Benutzerdefinierte Menge* &times; *EF* | *Benutzerdefinierte Menge* = Kilowatt, Kilowattstunde usw. |
+| **Bereich 3** | | | |
+| Gekaufte Waren und Dienstleistungen sowie Investitionsgüter | Benutzerdefiniert | *Emissionen* = *Benutzerdefinierte Menge* &times; *EF* | *Benutzerdefinierte Menge* = Kosten (Finanzbuchhaltung) usw. |
+| Upstream-Transport und -Vertrieb | Entfernung | *Emissionen* = *Entfernung* &times; *EF* | |
+| | Entfernung | *Emissionen* = *Entfernung* &times; *Multiplikator* &times; *EF* | *Multiplikator* = Tonnen Fracht |
+| Downstream-Transport und -Vertrieb | Entfernung | *Emissionen* = *Entfernung* &times; *EF* | |
+| | Entfernung | *Emissionen* = *Entfernung* &times; *Multiplikator* &times; *EF* | *Multiplikator* = Tonnen Fracht |
+| Abfälle aus dem Betrieb und der Entsorgung verkaufter Produkte | Benutzerdefiniert | *Emissionen* = *Benutzerdefinierte Menge* &times; *EF* | *Benutzerdefinierte Menge* = Abfall |
+| Geschäftsreisen und Pendeln von Mitarbeitenden | Entfernung | *Emissionen* = *Entfernung* &times; *EF* | *Entfernung* = vom genutzten Firmenwagen, Mietwagen, Zug, Flug usw. zurückgelegte Kilometer |
+| | Benutzerdefiniert | *Emissionen* = *Benutzerdefinierte Menge* &times; *EF* | *Benutzerdefinierter Betrag* = Hotelaufenthalte |
+| | Treibstoff/Strom | *Emission* = *Kraftstoff* &times; *EF* | *Kraftstoff* = Menge an Kraftstoff, die im Firmenwagen, Mietwagen usw. verbraucht wird |
 
-   - **Emissionsfaktor CO2**: Gibt einen Emissionsfaktor für die CO2-Emissionen an.  
-   - **Emissionsfaktor CH4**: Gibt einen Emissionsfaktor für die CH4-Emissionen an. 
-   - **Emissionsfaktor N2O**: Gibt einen Emissionsfaktor für die N2O-Emissionen an.  
+## Kontounterkategorien
 
-5.  Wenn diese Unterkategorie mit erneuerbaren Energien zusammenhängt, wählen Sie das Feld **Erneuerbare Energie** aus.   
+Benutzende müssen jedem Nachhaltigkeitskonto eine Nachhaltigkeitskontounterkategorie hinzufügen. Diese Unterkategorie legt die Emissionsfaktoren fest, die in den Formeln verwendet werden und auf der zur Emissionsnachverfolgung als Nachhaltigkeitskontokategorie ausgewählten Option beruhen.
 
->[!NOTE]
->Die Felder **Daten importieren** und **Importieren von** sind für eine mögliche Integration mit externen Systemen vorgesehen, die zur Erfassung von Emissionsfaktoren verwendet werden. In **1. Veröffentlichungszyklus 2024** können sie jedoch standardmäßig nicht als Feature verwendet werden.  
+Um die Unterkategorien des Nachhaltigkeitskontos zu überprüfen, gehen Sie wie folgt vor:
 
-## <a name="sustainability-ledger-entries"></a>Nachhaltigkeitsposten
+1. Wählen Sie das ![Glühbirne, öffnet die „Wie möchten Sie weiter verfahren“-Funktion 3.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Unterkategorien des Nachhaltigkeitskontos** ein und wählen Sie dann den zugehörigen Link. 
+2. Auf der Seite **Unterkategorien des Nachhaltigkeitskontos** können Sie die vorhandene Liste bearbeiten oder eine neue Kategorie erstellen. Um eine neue Kategorie zu erstellen, wählen Sie die Aktion **Neu** aus.
+3. Legen Sie die Felder **Code** und **Beschreibung** fest.
+4. Basierend auf den Gasemissionen, die Sie in der Kategorie des Nachhaltigkeitskontos nachverfolgen möchten und mit denen Sie diese Unterkategorie verknüpfen, können Sie auch einen oder mehrere Emissionsfaktoren festlegen: 
 
-Das **Nachhaltigkeitssachkonto** speichert den Verlauf aller gebuchten Nachhaltigkeitstransaktionen und organisiert alle Emissionsdaten gemäß dem **Diagramm der Nachhaltigkeitskonten**. Wenn Benutzende das **Nachhaltigkeits-Buch.-Blatt** buchen, werden dort alle wichtigen Daten erfasst. Alle aktiven Berichte werden auf Basis der **Nachhaltigkeitsposten** generiert.   
+    - **Emissionsfaktor CO2**: Der Emissionsfaktor für Kohlendioxidemissionen (CO<sub>2</sub>).
+    - **Emissionsfaktor CH4**: Der Emissionsfaktor für Methanemissionen (CH<sub>4</sub>)
+    - **Emissionsfaktor N2O**: Der Emissionsfaktor für Lachgasemissionen (N<sub>2</sub>O).
 
-Benutzende können dieses Sachkonto für ein bestimmtes Konto mit der Aktion **Posten** auf der Seite **Diagramm des Nachhaltigkeitskontos** öffnen oder, um alle Posten zu öffnen, das ![Glühbirne, welche das Feature „Sie wünschen ...“ 3 öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol auswählen, **Nachhaltigkeitsposten** eingeben und den zugehörigen Link auswählen. Fahren Sie über ein Feld, um eine Kurzbeschreibung zu lesen.  
+5. Wenn die Unterkategorie mit erneuerbaren Energien zusammenhängt, wählen Sie das Feld **Erneuerbare Energie** aus.
 
->[!IMPORTANT]
->Sobald Sie Ihre Daten in das Nachhaltigkeitssachkonto gebucht haben, können Sie sie nicht mehr löschen. Falls Ihnen ein Fehler unterläuft, können Sie die Rückbuchung mit den gleichen Angaben, aber mit dem Minuszeichen für den Betrag buchen.  
+> [!NOTE]
+> Die Felder **Daten importieren** und **Importieren von** sind für eine mögliche Integration mit externen Systemen vorgesehen, die zur Erfassung von Emissionsfaktoren verwendet werden. Im **1. Veröffentlichungszyklus 2024** können diese Felder jedoch nicht standardmäßig als Feature verwendet werden.
 
-## <a name="see-also"></a>Siehe auch
-[Finanzen](finance.md)    
-[Nachhaltigkeitsverwaltung – Übersicht](finance-manage-sustainability.md)
-[Nachhaltigkeitseinrichtung](finance-sustainability-setup.md)
-[Vorgehensweise: Erfassen von Emissionen](finance-sustainability-journal.md)
-[Mit [!INCLUDE[prod_short](includes/prod_short.md)] arbeiten](ui-work-product.md)
+## Nachhaltigkeitsposten
 
+Das Nachhaltigkeitssachkonto speichert den Verlauf aller gebuchten Nachhaltigkeitstransaktionen und organisiert alle Emissionsdaten gemäß dem CoSA. Wenn Benutzende das Nachhaltigkeits-Buch.-Blatt buchen, werden dort alle wichtigen Daten erfasst. Alle aktiven Berichte werden auf Basis der Nachhaltigkeitsposten generiert.
+
+Um dieses Sachkonto für ein bestimmtes Konto zu öffnen, verwenden Sie die Aktion **Posten** auf der Seite **Nachhaltigkeitskontenplan**. Um alle Posten zu öffnen, wählen Sie das ![Glühbirne, welche die 3. „Sie wünschen ...“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol aus, geben Sie **Nachhaltigkeitsposten** ein und wählen Sie den dazugehörigen Link aus. Fahren Sie über ein Feld, um eine Kurzbeschreibung zu lesen.
+
+> [!IMPORTANT]
+> Nachdem Sie Ihre Daten in das Nachhaltigkeitssachkonto gebucht haben, können Sie sie nicht mehr löschen. Falls Ihnen ein Fehler unterläuft, können Sie die Rückbuchung mit den gleichen Angaben, aber mit dem Minuszeichen vor dem Betrag buchen.
+
+## Siehe auch
+
+[Finanzen](finance.md)  
+[Nachhaltigkeitsmanagement – Überblick](finance-manage-sustainability.md)  
+[Nachhaltigkeitseinrichtung](finance-sustainability-setup.md)  
+[Vorgehensweise: Erfassen von Emissionen](finance-sustainability-journal.md)  
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

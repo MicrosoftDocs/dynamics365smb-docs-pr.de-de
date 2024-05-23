@@ -10,7 +10,7 @@ ms.date: 04/19/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="create-a-demand-forecast"></a>Bedarfsplanung erstellen
+# Bedarfsplanung erstellen
 
 Verkaufs- und Absatzplanungen können auf der Listenseite **Nachfrageplanung** vorgenommen werden. Anschließend legen Sie für jede Prognose verschiedene Einstellungen für diese Prognose auf der Seite **Bedarfsplanungsübersicht** fest.  
 
@@ -20,7 +20,7 @@ Absatzplanung ermöglicht es Ihnen, "Was-wenn"-Szenarien zu erstellen sowie effi
 
 Sie können auch den richtigen Detaillierungsgrad in den Feldern **Prognose nach Standort** und **Prognose nach Variante** in der Seite **Bedarfsplanungsübersicht** festlegen. Filter und andere Einstellungen werden in der Tabelle **Bedarfsplanungsname** gespeichert, sodass Sie Ihre Arbeit problemlos unterbrechen und später fortsetzen können. 
 
-## <a name="sales-forecasts-and-production-forecasts"></a>Absatzplanungen und Fertigungsplanungen
+## Absatzplanungen und Fertigungsplanungen
 
 Die von der Anwendung bereitgestellten Absatzplanungsfunktionen können dazu verwendet werden, Absatz- oder Fertigungsplanungen zusammen oder voneinander unabhängig zu erstellen. Beispielsweise haben die meisten Auftragsfertigungsunternehmen keine fertigen Waren auf Lager, weil jeder Artikel erst nach der Bestellung gefertigt wird. Das Vorhersagen von Aufträgen (Absatzplanung) ist entscheidend für eine angemessene Verweilzeit der Halbwaren (Fertigungsplanung). So können z. B. Komponententeile mit langen Lieferzeiten, wenn sie nicht bestellt oder auf Lager sind, zu einer Fertigungsverzögerung führen.  
 
@@ -38,21 +38,21 @@ Eine Absatzplanung besteht aus einer Reihe von Datensätzen, wobei in jedem Date
 
 Sie müssen eine Absatzplanung als *Verkaufsartikel*, *Komponente* oder *Beides* kennzeichnen. Die Planungsart *Verkaufsartikel* wird für Absatzplanungen verwendet. Die Fertigungsplanung wird mit der Art *Komponente* erstellt. Die Planungsart *Beides* wird nur verwendet, um dem Planer einen Überblick über die Absatz- und die Fertigungsplanung zu geben. Bei dieser Option können die Planungsposten nicht bearbeitet werden. Durch Kennzeichnen mit diesen Planungsarten können Sie zum Eingeben einer Absatzplanung dasselbe Vorschlagsblatt wie für eine Fertigungsplanung verwenden und können Sie beide Planungen auf demselben Blatt anzeigen. Beachten Sie, dass die unterschiedlichen Eingaben (Absatz und Fertigung) beim Berechnen der Planung entsprechend der Artikel- und Produktionseinrichtung unterschiedlich behandelt werden.  
 
-## <a name="component-forecast"></a>Komponentenplanung
+## Komponentenplanung
 
 Die Komponentenabsatzplanung kann als eine Optionsplanung in Bezug auf einen übergeordneten Artikel angesehen werden. Dies kann beispielsweise hilfreich sein, wenn der Planer den Bedarf für die Komponente schätzen kann.  
 
 Da die Komponentenabsatzplanung dazu verwendet wird, Optionen für einen übergeordneten Artikel zu definieren, muss die Menge für die Komponentenabsatzplanung kleiner oder gleich der Planungsmenge des Verkaufsartikels sein. Ist die Menge für die Komponentenabsatzplanung größer als die Planungsmenge des Verkaufsartikels, wird die Differenz zwischen diesen beiden Prognosen als unabhängiger Bedarf angesehen.  
 
-## <a name="forecasting-periods"></a>Planungsperioden
+## Planungsperioden
 
 Die Planungsperiode erstreckt sich von ihrem Startdatum bis zu dem Datum, an dem die nächste Absatzplanung beginnt. Auf der Seite für Zeitintervalle haben Sie mehrere Auswahlmöglichkeiten, um den Bedarf für ein bestimmtes Datum einer Periode einzufügen. Es empfiehlt sich daher, den Bereich einer Planungsperiode nicht zu ändern, es sei denn, sie möchten alle Planungsposten auf das Startdatum dieser Periode verschieben.  
 
-## <a name="forecast-by-locations"></a>Planung nach Lagerorten
+## Planung nach Lagerorten
 
 Es kann auf der Seite **Produktionseinrichtung** festgelegt werden, wie Sie mit Standorten umgehen möchten, die in Prognosen definiert sind, wenn Sie Pläne berechnen. 
 
-### <a name="use-forecast-by-locations"></a>Planung pro Lagerort verwenden
+### Planung pro Lagerort verwenden
 
 Wenn Sie den Schalter **Prognose nach Lagerort verwenden** aktivieren, berücksichtigt [!INCLUDE[prod_short](includes/prod_short.md)] alle Lagerortcodes, die für jeden Bedarfsplanungsposten angegeben sind, und berechnet die verbleibende Prognose für jeden Lagerort.  
 
@@ -69,7 +69,7 @@ Anschließend legen Sie vor Ort WEST einen Kundenauftrag mit einer Menge von 12 
 > [!NOTE]  
 > Beachten Sie aber , dass die Gesamtabsatzplanung möglicherweise nicht repräsentativ ist, wenn auf dem Lagerort basierende Absatzplanungen isoliert angezeigt werden.
 
-### <a name="if-you-dont-use-forecast-by-locations"></a>Wenn Sie die Planung nach Lagerort nicht verwenden
+### Wenn Sie die Planung nach Lagerort nicht verwenden
 
 Wenn Sie den Schalter **Prognose nach Lagerort verwenden** deaktivieren, ignoriert [!INCLUDE[prod_short](includes/prod_short.md)] alle Lagerortcodes, die für jeden Bedarfsplanungsposten angegeben sind, und berechnet die verbleibende Prognose für leere Lagerorte.  
 
@@ -86,7 +86,7 @@ Anschließend legen Sie vor Ort WEST einen Kundenauftrag mit einer Menge von 12 
 > [!NOTE]  
 > Sie können einen Filter nach Standorten festlegen, aber standortbasierte Ergebnisse stimmen möglicherweise nicht mit Planungsergebnissen ohne Filter überein.
 
-## <a name="to-create-a-demand-forecast"></a>So erstellen Sie eine Absatzplanung
+## So erstellen Sie eine Absatzplanung
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Bedarfsplanung** ein, und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie im Inforegister **Allgemein** im Feld **Nachfragelanungsname** eine Planung aus. Es können mehrere Absatzplanungen vorhanden sein, die nach Name und Absatzplanungsart unterschieden werden.  
@@ -104,7 +104,7 @@ Anschließend legen Sie vor Ort WEST einen Kundenauftrag mit einer Menge von 12 
 > [!NOTE]  
 > Sie haben auch die Möglichkeit zum Bearbeiten einer bestehenden Absatzplanung. Klicken Sie auf der Seite **Nachfrageplanungsmatrix** auf **Aktionen, Absatzplanung kopieren**, und füllen Sie die Seite **Absatzplanung** mit einer vorhandenen Planung aus. Die Mengen können anschließend gemäß den Anforderungen bearbeitet werden.  
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Produktion einrichten](production-configure-production-processes.md)  
 [Produktion](production-manage-manufacturing.md)

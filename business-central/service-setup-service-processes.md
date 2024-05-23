@@ -3,7 +3,7 @@ title: Servicemanagementprozesse einrichten
 description: 'Erfahren Sie, wie Sie Vorgänge einrichten, die zur vollständigen Zufriedenheit Ihrer Debitoren mit Ihren Services beitragen.'
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: 'service, number sequences, setup, warnings, fee, contracts, warranties'
 ms.date: 02/27/2024
@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="configure-service-management-processes"></a>Servicemanagementprozesse konfigurieren
+# Servicemanagementprozesse konfigurieren
 
 Es folgen einige Beispiele für Einstellungen, die Sie bei Servicemanagementprozessen anwenden können:  
   
@@ -21,12 +21,12 @@ Es folgen einige Beispiele für Einstellungen, die Sie bei Servicemanagementproz
 * Einstellungen für Verträge, wie die maximale Anzahl der Tage, die Sie für Vertragsserviceaufträge verwenden können, ob Ursachencodes verwendet werden, wenn ein Vertrag gekündigt wird, Standardtexte für Beschreibungen und Vertragswerte.  
 * Die Anzahl der zu verwendenden Reihenfolgen bei dienstbezogenen Belegen und Artikeln.  
 
-## <a name="to-enter-general-and-mandatory-settings"></a>So geben Sie allgemeine und obligatorische Einstellungen ein
+## So geben Sie allgemeine und obligatorische Einstellungen ein
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Service Einrichtung** ein, und wählen Sie dann den entsprechenden Link.
 2. Füllen Sie die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-## <a name="set-up-service-invoice-posting-policies-for-users"></a>Richtlinien für die Buchung von Servicerechnungen für Benutzende einrichten
+## Richtlinien für die Buchung von Servicerechnungen für Benutzende einrichten
 
 Unternehmen haben oft einzigartige Prozesse für Rechnungen und Lieferungen. Beispielsweise können die Prozesse von einer Person, die alles auf einer Servicebestellung bucht, bis zu mehreren Mitarbeitenden variieren, wobei jeder auf seinen eigenen Seiten arbeitet.
 
@@ -55,7 +55,7 @@ In der folgenden Tabelle werden die Auswirkungen auf die unterschiedlichen Beleg
 > [!NOTE]
 > Wenn Sie Servicerechnungen und Gutschriften buchen, stehen Ihnen keine Buchungsoptionen zur Verfügung. In den Belegen werden die physischen und finanziellen Transaktionen immer gemeinsam gebucht. Sie können Servicerechnungen und Gutschriften nicht teilweise buchen.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch  
 
 [Problemberichtswesen einrichten](service-how-setup-fault-reporting.md)  
 [Ressourcenzuordnung einrichten](service-how-setup-resource-allocation.md)  

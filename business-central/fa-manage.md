@@ -12,17 +12,17 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="manage-fixed-assets"></a>Verwalten von Anlagen
+# Verwalten von Anlagen
 
 Die Anlagenfunktion in [!INCLUDE[prod_short](includes/prod_short.md)] gibt Ihnen einen Überblick über Ihre Anlagen und hilft, sicherzustellen, dass sie korrekt abgeschrieben werden. Außerdem können Sie darüber Wartungskosten nachverfolgen, Versicherungen verwalten, Anlagentransaktionen buchen und verschiedene Berichte und Statistiken generieren.
 
-## <a name="video-overview"></a>Videoübersicht
+## Videoübersicht
 
 Das folgende Video behandelt die Grundlagen von Anlagen:
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS?rel=0]
 
-## <a name="initial-setup-of-fixed-assets"></a>Anlagen erstmals einrichten
+## Anlagen erstmals einrichten
 
 Bevor Sie Anlagen verwalten können, müssen Sie die folgenden Einstellungen vornehmen:
 
@@ -34,7 +34,7 @@ Bevor Sie Anlagen verwalten können, müssen Sie die folgenden Einstellungen vor
 
 Weitere Informationen finden Sie unter [Einrichten von Anlagen](fa-setup.md).
 
-## <a name="fixed-assets-analytics"></a>Anlagenanalysen
+## Anlagenanalysen
 
 In diesem Abschnitt werden die Analysetools beschrieben, mit denen Sie sich Einblick in die Daten über Ihre Anlagen verschaffen können.
 
@@ -48,7 +48,7 @@ In diesem Abschnitt werden die Analysetools beschrieben, mit denen Sie sich Einb
 | Anzeigen von Verkaufsposten | [Verkaufsposten anzeigen](fa-how-dispose-retire.md#to-view-disposal-ledger-entries) |
 | Geschätzte Verkaufswerte anzeigen. | [Geschätzte Verkaufswerte anzeigen](fa-how-manage-budgets.md#to-view-projected-disposal-values) |
 
-## <a name="register-fixed-assets"></a>Anlagen eintragen
+## Anlagen eintragen
 
 Sie müssen für jede Anlage eine Karte mit entsprechenden Informationen darüber einrichten. Gebäude oder Produktionseinrichtungen können zum Beispiel als Hauptanlagen mit einer Komponentenliste eingerichtet werden. Sie können Anlagen auf verschiedene Arten gruppieren, beispielsweise nach Klasse, Kostenstelle oder Standort. Dann können Sie die Anlagen erwerben, verwalten und verkaufen. Sie können auch Plananlagen einrichten. Durch die Budgetierung haben Sie die Möglichkeit, geplante Anschaffungen und Verkäufe in Berichten zu berücksichtigen.
 
@@ -57,7 +57,7 @@ Sie müssen für jede Anlage eine Karte mit entsprechenden Informationen darübe
 | Verwalten von Anlagenbudgets, Budgetieren von Anschaffungskosten, Budgetieren von Anlagenverkäufen und Budgetieren der AfA. |[Budgets für Anlagen verwalten](fa-how-manage-budgets.md) |
 | Erstellen von Anlagen, Zuordnen von AfA-Methoden, Buchen von Anschaffungen und Restwerten sowie Drucken von Anlagenübersichten |[Anlagen erwerben](fa-how-acquire.md) |
 
-## <a name="set-up-depreciations-for-your-fixed-assets"></a>Abschreibungen für Ihre Anlagen einrichten
+## Abschreibungen für Ihre Anlagen einrichten
 
 Um Anlagenabscheibungen und andere finanzielle Transaktionen rund um Anlagen nachzuverfolgen, richten Sie mindestens ein AfA-Buch für jede Anlage ein. Es gibt mehrere Schritte, um Anlagen abzuschreiben:
 
@@ -74,7 +74,7 @@ Um Anlagenabscheibungen und andere finanzielle Transaktionen rund um Anlagen nac
 | Geänderte Abschreibungsbuchwerte anzeigen. | [Geänderte AfA-Buchwerte anzeigen](fa-how-trans-split-combine.md#to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification) |
 | Sie können Anlagentransaktionen auf der Seite **Anlagen Fibu Buch.-Blatt** oder auf der Seite **Anlagen Buch - Blatt** manuell erfassen, abhängig davon, ob die Transaktionen für Finanzberichte oder zur internen Verwaltung bestimmt sind. | [Abschr. Anlagevermögen einrichten](fa-how-setup-depreciation.md) |
 
-## <a name="fixed-assets-maintenance-and-insurance"></a>Wartung und Versicherung von Anlagen
+## Wartung und Versicherung von Anlagen
 
 Sie können für jede Anlage die Wartungskosten und das nächste Wartungsdatum erfassen. Die Nachverfolgung der Wartungskosten ist unter Umständen für die Budgetierung und die Entscheidung über den Verkauf einer Anlage wichtig. Sie können jede Anlage einer oder mehreren Versicherungspolicen zuordnen und überprüfen, ob die Versicherungsprämien dem Wert der Anlagen entsprechen.
 
@@ -85,7 +85,7 @@ Sie können für jede Anlage die Wartungskosten und das nächste Wartungsdatum e
 | Aktualisieren von Versicherungsinformationen, Buchen von Anschaffungskosten auf Versicherungspolicen, Anpassen der Versicherungsdeckung, Anzeigen der Versicherungsstatistik und Auflisten von Versicherungspolicen |[Anlagen versichern](fa-how-insure.md) |
 | Versicherungen überwachen. | [Versicherungsdeckung überwachen](fa-how-insure.md#to-monitor-insurance-coverage) |
 
-## <a name="reclassify-transfer-split-upcombine-adjust-value-write-down-and-dispose-fixed-assets"></a>Umbuchen, Übertragung, Aufteilung/Zusammenlegung, Wertberichtigung, Abschreibung und Veräußerung von Anlagen
+## Umbuchen, Übertragung, Aufteilung/Zusammenlegung, Wertberichtigung, Abschreibung und Veräußerung von Anlagen
 
 | Bis  | Siehe |
 | --- | --- |
@@ -95,7 +95,7 @@ Sie können für jede Anlage die Wartungskosten und das nächste Wartungsdatum e
 | Anzeigen von Verkaufsposten | [Verkaufsposten anzeigen](fa-how-dispose-retire.md#to-view-disposal-ledger-entries) |
 | Geschätzte Verkaufswerte anzeigen. | [Geschätzte Verkaufswerte anzeigen](fa-how-manage-budgets.md#to-view-projected-disposal-values) |
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Einrichten von Anlagen](fa-setup.md)  
 [Überblick über die Anlagenanalyse](fa-analytics-overview.md)  

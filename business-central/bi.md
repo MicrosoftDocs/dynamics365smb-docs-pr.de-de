@@ -3,7 +3,7 @@ title: Finanzielle Analysen
 description: 'Business Central hilft Ihnen, Daten Ihres Unternehmens zu sammeln, zu analysieren und weiterzugeben, um Business Intelligence zu erhalten.'
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: kepontop
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: 'bi, power BI, analysis, KPI'
 ms.search.form: '103, 108, 198, 490'
@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="financial-analytics"></a>Finanzielle Analysen
+# Finanzielle Analysen
 
 Unternehmen erfassen im Laufe ihrer täglichen Arbeit enorme Mengen an Daten, die wertvolle Business Intelligence (BI) für Entscheidungen liefern:
 
@@ -33,7 +33,7 @@ Jedes dieser Features hat seine eigenen Vor- und Nachteile, die von der Art der 
 
 Dieser Artikel erklärt, wie Sie diese Analysefeatures nutzen können, um finanzielle Erkenntnisse zu gewinnen.
 
-## <a name="analytics-needs-in-finance"></a>Analyseanforderungen im Finanzbereich
+## Analyseanforderungen im Finanzbereich
 
 Wenn Sie über Analyseanforderungen im Finanzbereich nachdenken, kann es hilfreich sein, ein mentales Modell zu verwenden, das auf allgemein beschriebenen Personas und ihren unterschiedlichen Analyseanforderungen basiert.
 
@@ -49,7 +49,7 @@ Mitarbeitende in unterschiedlichen Rollen haben unterschiedliche Anforderungen a
 |Finanzmanagement | Trends, Zusammenfassungen | Integrierte Managementberichte <br> Ad-hoc-Analysen      | 
 |Buchhalter         | Detaillierte Daten     | Integrierte betriebliche Berichte <br> Aufgabendaten am Bildschirm |
 
-## <a name="finance-kpis"></a>Finanz-KPIs
+## Finanz-KPIs
 
 Ein Key Performance Indicator (KPI) ist ein messbarer Wert, der zeigt, wie effektiv Sie Ihre Ziele erreichen. Im Finanzbereich werden häufig die folgenden KPIs verwendet, um die finanzielle Stärke eines Unternehmens zu überwachen:
 
@@ -67,7 +67,7 @@ Ein Key Performance Indicator (KPI) ist ein messbarer Wert, der zeigt, wie effek
 For more information, see [Financial KPIs in Business Central](bi-finance-kpis.md) 
 -->
 
-## <a name="using-financial-reporting-to-produce-financial-statements-and-kpis"></a>Verwendung von Finanzberichten für die Erstellung von Finanzauswertungen und KPIs
+## Verwendung von Finanzberichten für die Erstellung von Finanzauswertungen und KPIs
 
 Das Feature **Finanzberichte** gibt Ihnen Einblick in die in Ihrem Kontenplan (COA) enthaltenen Finanzdaten. Sie können Finanzberichte einrichten, um die Zahlen in den Finanzbuchhaltungskonten zu analysieren und Sachposten mit Budgetposten zu vergleichen. Die Ergebnisse werden in Diagrammen und Berichten auf Ihrer Homepage angezeigt, darunter das Cashflowdiagramm sowie die GuV- und Bilanzberichte.
 
@@ -87,13 +87,13 @@ Die folgende Tabelle beschreibt eine Reihe von Aufgaben in der Finanzberichterst
 | Legen Sie Ansichten fest, um Daten anhand von Dimensionen zu analysieren.|[Analysieren Sie Daten nach Dimensionen](bi-how-analyze-data-dimension.md)|
 | Erstellen neuer Analyseberichte für Verkauf, Einkauf und Lager sowie Einrichten von Analysevorlagen |[Analyseberichte erstellen](bi-how-create-analysis-views-reports.md)|
 
-## <a name="finance-reporting-across-business-units-or-legal-entities"></a>Finanzberichte über Konzernmandanten oder juristische Personen hinweg
+## Finanzberichte über Konzernmandanten oder juristische Personen hinweg
 
 Einige Organisationen verwenden [!INCLUDE [prod_short](includes/prod_short.md)] in mehreren Konzernmandanten oder juristischen Personen. Andere verwenden [!INCLUDE [prod_short](includes/prod_short.md)] in Niederlassungen, die den übergeordneten Organisationen Bericht erstatten müssen. [!INCLUDE [prod_short](includes/prod_short.md)] bietet Buchhaltern Tools, die ihnen helfen, Hauptbucheinträge von zwei oder mehr Unternehmen (Tochtergesellschaften) in ein konsolidiertes Unternehmen zu übertragen.  
 
 Weitere Informationen finden Sie unter [Unternehmenskonsolidierung](finance-consolidated-company-reporting.md).
 
-## <a name="ad-hoc-analysis-of-finance-data"></a>Ad-hoc-Analysen von Finanzdaten
+## Ad-hoc-Analysen von Finanzdaten
 
 Manchmal wollen Sie nur prüfen, ob die Zahlen stimmen, oder schnell eine Zahl bestätigen. Die folgenden Features eignen sich hervorragend für Ad-hoc-Analysen:
 
@@ -114,7 +114,7 @@ Ebenso können Sie die Aktion **In Excel öffnen** verwenden, um eine Listenseit
 
 Weitere Informationen zur Durchführung von Ad-hoc-Analysen finden Sie unter [Ad-hoc-Analysen von Finanzdaten](ad-hoc-analysis-finance.md). 
 
-## <a name="built-in-reports-for-finance"></a>Integrierte Berichte für den Finanzbereich
+## Integrierte Berichte für den Finanzbereich
 
 [!INCLUDE [prod_short](includes/prod_short.md)] enthält mehrere integrierte Berichte, Nachverfolgungsfunktionen und Tools, die Wirtschaftsprüfern oder Controllern helfen, die für die Berichterstattung an die Finanzabteilung verantwortlich sind.
 
@@ -141,11 +141,11 @@ Weitere Informationen zu für den Finanzbereich relevanten Berichten finden Sie 
 * [Built-in Tax and VAT reports](tax-and-vat-reports.md) 
 -->
 
-## <a name="on-screen-finance-task-pages"></a>Finanzaufgabenseiten am Bildschirm
+## Finanzaufgabenseiten am Bildschirm
 
 [!INCLUDE [prod_short](includes/prod_short.md)] verfügt über mehrere Seiten, die Ihnen einen Überblick über Finanzen und die zu erledigenden Aufgaben bieten.
 
-### <a name="show-general-ledger-entries-and-balances-from-the-chart-of-accounts-page"></a>Sachposten und Salden auf der Seite „Kontenplan“ anzeigen
+### Sachposten und Salden auf der Seite „Kontenplan“ anzeigen
 
 Auf der Seite „Kontenplan“ werden alle Sachkonten mit aggregierten Zahlen zu den in der Finanzbuchhaltung gebuchten Beträgen angezeigt. Von dieser Seite aus können Sie beispielsweise Folgendes tun:  
 
@@ -157,13 +157,13 @@ Auf der Seite „Kontenplan“ werden alle Sachkonten mit aggregierten Zahlen zu
 
 Weitere Informationen finden Sie unter [Den Kontenplan verstehen](finance-general-ledger.md#the-chart-of-accounts).
 
-### <a name="view-actual-amounts-compared-to-budgeted-amounts-for-all-accounts-and-for-several-periods"></a>Anzeigen eines Vergleichs von tatsächlichen und budgetierten Beträgen für alle Konten sowie für mehrere Perioden
+### Anzeigen eines Vergleichs von tatsächlichen und budgetierten Beträgen für alle Konten sowie für mehrere Perioden
 
 Im Rahmen des Erfassens, Analysierens und Weitergebens der Firmendaten möchten Sie sich vielleicht aktuelle Beträge verglichen mit den budgetierten Beträgen für alle Konten sowie für mehrere Perioden anzeigen lassen. Sie können den Vergleich von der Seite **Kontenplan** aus über die Aktion **Saldo/Budget** vornehmen.
 
 Weitere Informationen finden Sie unter [Tatsächliche Beträge im Vergleich zu budgetierten Beträgen analysieren](bi-how-analyze-actual-versus-budget.md).
 
-### <a name="analyze-data-by-dimensions"></a>Daten nach Dimensionen analysieren
+### Daten nach Dimensionen analysieren
 
 Dimensionen sind Attribute und Werte, die Posten kategorisieren, sodass Sie sie auf Dokumenten wie Verkaufsaufträgen verfolgen und analysieren können. Dimensionen können beispielsweise angegeben, aus welchem Projekt oder aus welcher Abteilung ein Posten stammt.  
 
@@ -171,7 +171,7 @@ Anstatt also separate Finanzbuchhaltungskonten für jede Abteilung und jedes Pro
 
 In der Finanzanalyse sind Dimensionen Daten, die Sie einem Sachposten als eine Art Markierung hinzufügen. Diese Daten dienen zum Gruppieren von Sachposten mit ähnlichen Merkmalen – beispielsweise Debitoren, Regionen, Produkte oder Verkäufer – sowie zum einfachen Abrufen dieser Gruppen zur Analyse. Sie können Dimensionen für Posten in Buch.-Blättern, Belegen und Budgets verwenden. Weitere Informationen finden Sie unter [Daten nach Dimensionen analysieren](bi-how-analyze-data-dimension.md)
 
-### <a name="analyzing-cash-flow"></a>Cashflow analysieren
+### Cashflow analysieren
 
 Auf der Buchhalter-Homepage unter **Finanzleistung** bieten die Diagramme „Bargeldumlauf“, „Cashflow“ und „Einnahmen und Ausgaben“ verschiedene Möglichkeiten, den Cashflow zu analysieren:
 
@@ -189,7 +189,7 @@ Um die Planung zusätzlich zu den Absatzplanungsposten zu prüfen, können Sie a
 
 Weitere Informationen finden Sie unter [Analysieren von Cashflow in Ihren Mandanten](finance-analyze-cash-flow.md).
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Finanzberichte über Konzernmandanten oder juristische Personen hinweg verarbeiten](finance-consolidated-company-reporting.md)  
 <!-- [Financial KPIs in Business Central](bi-finance-kpis.md)    -->

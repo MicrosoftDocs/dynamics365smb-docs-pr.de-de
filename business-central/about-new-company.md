@@ -3,7 +3,7 @@ title: Neue Unternehmen mithilfe der Anleitung für die unterstützte Einrichtun
 description: 'Es ist einfach, ein neues, leeres Unternehmen in Business Central. zu erstellen. Eine Anleitung für unterstützte Einrichtung hilft Ihnen Schritt für Schritt und Sie können Ihre Geschäftsdaten importieren.'
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: ivkoleti
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.date: 03/08/2024
 ms.custom: bap-template
@@ -11,7 +11,7 @@ ms.search.keywords: 'company, setup wizard'
 ms.search.form: '1803, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017'
 ms.service: dynamics-365-business-central
 ---
-# <a name="create-new-companies-in-"></a>Neue Unternehmen in [!INCLUDE[prod_short](includes/prod_short.md)] erstellen
+# Neue Unternehmen in [!INCLUDE[prod_short](includes/prod_short.md)] erstellen
 
 In [!INCLUDE[prod_short](includes/prod_short.md)] wird der Container für Geschäftsdaten, die zu einem Konzernmandanten oder einer juristischen Person gehören, als *Unternehmen* bezeichnet. Wenn Sie sich für [!INCLUDE[prod_short](includes/prod_short.md)] registrieren, erhalten Sie ein Demounternehmen und ein leeres Unternehmen, *Mein Unternehmen*. Der Wechsel zwischen den Unternehmen ist einfach: Gehen Sie einfach zu **Meine Einstellungen** und wechseln Sie zu dem anderen Unternehmen. Sie können aber auch neue Unternehmen in [!INCLUDE[prod_short](includes/prod_short.md)] gründen, je nach Ihren Geschäftsanforderungen.  
 
@@ -22,7 +22,7 @@ Wenn Sie einen neuen Mandanten erstellen, hilft Ihnen ein unterstütztes Einrich
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="choose-the-right-template"></a>Die richtige Vorlage auswählen
+## Die richtige Vorlage auswählen
 
 Wenn Sie sich entscheiden, Ihrem [!INCLUDE[prod_short](includes/prod_short.md)] ein Unternehmen hinzuzufügen, können Sie den Leitfaden für die unterstützte Einrichtung für **Neues Unternehmen erstellen** verwenden. Die Einrichtungsanleitung ist auf der Seite **Unternehmen** und über die Suche im Feld **Unternehmen** auf der Seite **Meine Einstellungen** verfügbar.  
 
@@ -45,7 +45,7 @@ Während Ihrer 30-Tage-Testzeitraum können Sie eine beliebige Anzahl neuer Unte
 
 [Hier](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions) kann Ihr Administrator mehr über Testversionen und Abonnements erfahren.  
 
-## <a name="copy-a-company"></a>Unternehmen kopieren
+## Unternehmen kopieren
 
 Auf der Seite **Firmen** können Sie mit der Aktion **Kopieren** eine zweite Firma basierend auf den Inhalten einer bestehenden Firma anlegen. Ein Unternehmen zu kopieren ist z. B. nützlich, wenn Sie ein Unternehmen testen möchten, ohne die Produktionsdaten zu stören.
 
@@ -56,7 +56,7 @@ Auf der Seite **Firmen** können Sie mit der Aktion **Kopieren** eine zweite Fir
 
 [!INCLUDE [dataverse-copy-company](includes/dataverse-copy-company.md)]
 
-## <a name="set-up-the-company"></a>Unternehmen einrichten
+## Unternehmen einrichten
 
 Wenn Sie sich in einem neuen Unternehmen anmelden, Hilft Ihnen die Anleitung zur unterstützten Einrichtung der **Unternehmenseinrichtung** mit den ersten Schritten. Die Anleitung bittet Sie um Informationen zu Ihrem Unternehmen, wie zur Adresse, zu den Bankdetails und zur Lagerbestandmethode gebeten. Diese Informationen bilden die Grundlage für viele Bereiche in [!INCLUDE[prod_short](includes/prod_short.md)], sodass Sie diese nicht manuell einrichten müssen.  
 
@@ -64,24 +64,24 @@ Wenn Sie sich in einem neuen Unternehmen anmelden, Hilft Ihnen die Anleitung zur
 
 Nachdem Sie die Grundlagen eingerichtet haben, können Sie die übrigen Kernbereiche einrichten. Anschließend sind Sie bereit, Geschäftsdaten, beispielsweise Debitoren und Kreditoren, einzugeben. Weitere Informationen finden Sie unter [[!INCLUDE[prod_short](includes/prod_short.md)] einrichten](setup.md).  
 
-## <a name="companies-and-environments"></a>Unternehmen und Umgebungen
+## Unternehmen und Umgebungen
 
 [!INCLUDE [company_environment](includes/company_environment.md)]
 
 Weitere Informationen finden Sie unter [Wechseln zu einem anderen Unternehmen oder einer anderen Umgebung](ui-organization-switch.md). Weitere Informationen zu Umgebungen finden Sie unter [Grundlegendes zur Infrastruktur von Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-environment-topology) (nur in englischer Sprache).  
 
-## <a name="changing-a-companys-name"></a>Ändern des Namens eines Unternehmens
+## Ändern des Namens eines Unternehmens
 
 Nachdem Sie ein Unternehmen erstellen, können Sie seinen Namen nicht mehr ändern. Sie können jedoch den **Anzeigename** ändern. Dies ist ein Text, der für das Unternehmen in der gesamten Anwendung angezeigt wird.  
 
 > [!TIP]
 > Sie können eine Firma umbenennen, wenn Sie [!INCLUDE[prod_short](includes/prod_short.md)] lokal verwenden.
 
-## <a name="add-contoso-coffee"></a>Contoso Coffee hinzufügen
+## Contoso Coffee hinzufügen
 
 Die Contoso Coffee-App stellt Demonstrationsdaten bereit, anhand derer Sie die erweiterten Funktionen von [!INCLUDE [prod_short](includes/prod_short.md)] erkunden können. Suchen Sie die App in AppSource, und installieren Sie sie in einem leeren Unternehmen, beispielsweise einem Unternehmen in einer Sandkastenumgebung. Weitere Informationen finden Sie unter [Einführung in die Demodaten für Contoso Coffee](contoso-coffee/contoso-coffee-intro.md).  
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Business Central anpassen](ui-customizing-overview.md)  
 [Einrichten [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  

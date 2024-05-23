@@ -3,7 +3,7 @@ title: E-Belege mit Copilot Bestellzeilen zuordnen
 description: 'Erfahren Sie, wie Sie mit Copilot E-Belege den Bestellpositionen zuordnen.'
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: altotovi
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.collection:
   - get-started
@@ -12,7 +12,7 @@ ms.date: 04/10/2024
 ms.custom: bap-template
 ---
 
-# <a name="map-e-documents-to-purchase-order-lines-with-copilot-preview"></a>E-Belege mit Copilot Bestellpositionen zuordnen (Vorschauversion)
+# E-Belege mit Copilot Bestellpositionen zuordnen (Vorschauversion)
 
 Da Beschaffungsprozesse zunehmend digitalisiert werden, spielt die E-Belegsfunktion in Business Central eine Schlüsselrolle bei der Automatisierung des Empfangs und der Verarbeitung von Kreditorenrechnungen. Copilot kann diesen Prozess unterstützen, indem er die Zuordnung und den Abgleich von Kreditorenrechnungen mit Bestellungen verbessert. Dadurch werden zeitaufwändige Aufgaben reduziert, die normalerweise umfangreiche Such-, Nachschlage- und Dateneingabevorgänge umfassen würden. Der Vorteil wird durch die Tatsache verstärkt, dass sich Kreditorenrechnungen häufig nicht genau auf Bestellungen beziehen. In diesem Fall ist Copilot besser in der Lage, die entsprechenden Bestellungen zu identifizieren. Von den erweiterten Abgleichsfunktionen profitieren insbesondere kleine und mittlere Unternehmen, die eine effiziente Belegverfolgung für Bestellpositionen benötigen. Copilot ist der KI-gestützte Arbeitsassistent, der die Kreativität fördert und die Produktivität von Business Central-Benutzenden verbessert.
 
@@ -30,7 +30,7 @@ Sie können jetzt eine vorhandene Bestellung in Business Central mit den in der 
 > - This feature is available as a production-ready preview for production and sandbox environments in any country localization, with the exception of Canada. Production-ready previews are subject to supplemental terms of use. For more information, see [Supplemental terms of use for Dynamics 365 preview](https://go.microsoft.com/fwlink/?linkid=2105274).
 > - AI-generated content may be incorrect.-->
 
-## <a name="to-activate-copilot"></a>So aktivieren Sie Copilot
+## So aktivieren Sie Copilot  
 
 Falls Sie den Copilot der **Unterstützung beim Abgleich von E-Belegen** nicht aktiviert haben, müssen Sie dies manuell tun. Um den Copiloten zur **Unterstützung beim Abgleich von E-Belegen** zu aktivieren, gehen Sie wie folgt vor: 
 
@@ -39,7 +39,7 @@ Falls Sie den Copilot der **Unterstützung beim Abgleich von E-Belegen** nicht a
 
 Sie können Copilot sofort nach der Aktivierung verwenden. 
 
-## <a name="identify-purchase-orders"></a>Bestellungen ermitteln
+## Bestellungen ermitteln
 
 Zunächst können Sie die Bestellungen ermitteln, die Sie automatisch zuordnen können. Wenn bei Ihrem **Kreditor** das Feld **E-Beleg empfangen an** für die Arbeit mit **Bestellungen** konfiguriert ist, tut [!INCLUDE[prod_short](includes/prod_short.md)] nach der Erstellung des elektronischen Belegs (manuell oder von einem externen Endpunkt aus) in [!INCLUDE[prod_short](includes/prod_short.md)] Folgendes:
 
@@ -47,7 +47,7 @@ Zunächst können Sie die Bestellungen ermitteln, die Sie automatisch zuordnen k
 Diese Verknüpfung wird im Feld **Beleg** dieses speziellen **E-Belegs** angezeigt. Wenn Sie die automatisch verknüpfte **Bestellung** ändern müssen, können Sie dies mit der Aktion **Bestellungslink aktualisieren** tun und dann manuell eine der vorhandenen Bestellungen für diesen Kreditor auswählen. Dies ist nur möglich, bevor Sie die Zeilen zwischen **E-Beleg** und **Bestellung** abgleichen.  
 2. Wenn die **Bestellung** für diesen bestimmten Kreditor *vorliegt, aber keine Bestellnummer* in der empfangenen **E-Beleg**-Datei angegeben ist, falls Sie diesen Beleg manuell hochgeladen haben, bietet Ihnen [!INCLUDE[prod_short](includes/prod_short.md)] mehrere Möglichkeiten an, eine der vorhandenen Bestellungen auszuwählen. Dadurch wird die Liste **Bestellungen** geöffnet. Diese Bestellungen stammen aus Aufträgen, die Sie von Kreditoren erhalten haben, und erhalten nur den **E-Beleg**. Hier müssen Sie die gewünschte **Bestellung** und dann **OK** auswählen. Wenn Sie nicht die richtige **Bestellung** ausgewählt haben oder den **E-Beleg** automatisch von einem externen Endpunkt aus über die **Auftragswarteschlange** erhalten haben, wird der neue **E-Beleg** nicht mit einem Einkaufsbeleg verknüpft. Der **Belegstatus** lautet dann **Fehler** und der **Status des E-Belegs** auf der Unterseite **Dienststatus** lautet **Fehler bei der Verarbeitung des importierten Belegs**. Um die Verknüpfung der **Bestellung** abzuschließen, wählen Sie die Aktion **Bestellungslink aktualisieren** und wählen Sie dann eine der vorhandenen Bestellungen für diesen Kreditor aus.  
 
-## <a name="map-lines"></a>Positionen zuordnen
+## Positionen zuordnen
 
 Copilot hilft Ihnen, E-Rechnungszeilen automatisch mit Bestellpositionen abzugleichen und bietet zusätzliche Zuordnungsintelligenz, um die Übereinstimmungen zu verbessern.
 
@@ -101,7 +101,7 @@ Wenn Sie den Abgleich aus der Bestellung heraus durchführen möchten, wählen S
 > [!NOTE]
 > Die Preis-/Kostenanalyse und die Prüfung der verfügbaren Menge gehören zur Vorverarbeitungsaktivität dazu. 
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Überblick über E-Belege](finance-edocuments-overview.md)    
 [E-Belege im Verkauf verwenden](finance-how-use-edocuments.md)    

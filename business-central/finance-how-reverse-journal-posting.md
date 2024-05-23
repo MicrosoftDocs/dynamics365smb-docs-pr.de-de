@@ -3,13 +3,13 @@ title: Rückgängigmachen einer Buchung durch Buchung einer Umkehrbuchung
 description: 'Wenn Sie fehlerhafte Buchungen im Fibu Buch.-Blatt finden, können Sie die Aktion Transaktion zurückbuchen verwenden, um die korrekte Buchung mit einem Protokoll zu stornieren.'
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bnielse
+ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 03/28/2023
+ms.date: 05/07/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# Buchungen stornieren und Belege/Lieferungen rückgängig machen
+# Buch.-Blatt-Buchungen stornieren und Eingänge/Lieferungen rückgängig machen
 
 Stornierte Journalbuchungen sind z.B. nützlich, um Fehler zu korrigieren und eine alte Erfassung zu löschen, bevor Sie eine neue erfassen. Eine stornierte Buchung ist die gleiche wie die ursprüngliche Buchung, hat aber ein umgekehrtes Vorzeichen im Feld **Betrag**. Die stornierte Buchung muss die gleiche Belegnummer und das gleiche Buchungsdatum haben wie die ursprüngliche Buchung. Nachdem Sie eine Buchung storniert haben, müssen Sie die richtige Buchung vornehmen.
 
@@ -27,10 +27,8 @@ Posten können in allen Seiten **Posten** storniert werden. Das folgende Verfahr
 
 > [!NOTE]
 > Der Eintrag muss aus einer Journalbuchung stammen.
->
-> Außerdem können Sie keine Buchungen rückgängig machen, die mit Informationen aus einem Projekt gebucht wurden oder die Gewinne und Verluste innerhalb derselben Transaktion realisiert haben.
 
-1. Wählen Sie das Symbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Hauptbuchhaltungsposten** ein und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie das Symbol ![Glühbirne, die die „Sie wünschen ...“-Funktion öffnet](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Hauptbuchhaltungsposten** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie den Posten, den Sie stornieren möchten, und wählen die **Transaktion stornieren** Aktion aus.
 3. Auf der Seite **Transaktionsposten stornieren** wählen Sie die Aktion **Stornieren** aus.
 4. Wählen Sie **Ja**, um die Stornierung zu bestätigen.
@@ -84,10 +82,21 @@ Die Schritte sind denen der gebuchten Rücksendungen ähnlich.
 
 [!INCLUDE [rev-general-journal](includes/rev-general-journal.md)]
 
+## Einen Debitoren- und Kreditorenposten mit einem realisierten Gewinn- oder Verlustposten stornieren
+
+Mit der Aktion **Transaktion stornieren** können Sie Zahlungen umkehren, die auf Posten in Fremdwährungen angewendet wurden und mit dem Batchauftrag „Wechselkursregulierung“ angepasst wurden. Das Feature funktioniert sowohl für Käufe als auch für Verkäufe.
+
+Das folgende einfache Szenario veranschaulicht die Funktionsweise:
+
+1. Buchen Sie eine Verkaufsrechnung für einen Debitor in einer Fremdwährung.
+2. Passen Sie den Wechselkurs für diese Währung an.
+3. Buchen Sie eine auf die Rechnung angewendete Zahlung.
+4. Heben Sie die Anwendung auf und stornieren Sie die Zahlungstransaktion, beispielsweise über die Seite **Debitorenposten** .
+
 ## Siehe auch
 
-[Montagesbuchungen rückgängig machen](assembly-how-to-undo-assembly-posting.md)  
-[Buchen von Transaktionen direkt in der Finanzbuchhaltung](finance-how-post-transactions-directly.md)  
+[Montagebuchung rückgängig machen](assembly-how-to-undo-assembly-posting.md)  
+[Transaktionen direkt in der Finanzbuchhaltung buchen](finance-how-post-transactions-directly.md)  
 [Arbeiten mit Fibu Buch.-Blättern](ui-work-general-journals.md)  
 [Finanzen](finance.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
