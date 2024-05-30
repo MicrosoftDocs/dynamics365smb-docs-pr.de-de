@@ -142,7 +142,7 @@ So begrenzen Sie Buchungen für einen bestimmten Benutzenden:
 3. Geben Sie im Feld **Buchungen zulassen ab** das MwSt.-Datum an, ab dem Sie Buchungen zulassen. Das Buchen eines Belegs oder Journals mit einem MwSt.-Datum vor diesem Datum ist nicht zulässig.
 4. Geben Sie im Feld **Buchungen zulassen bis** das MwSt.-Datum an, bis zu dem Sie Buchungen zulassen. Das Buchen eines Belegs oder Journals mit einem MwSt.-Datum nach diesem Datum ist nicht zulässig.
 
-## <a name="set-up-vat-registration-numbers-for-your-country-or-region"></a>Umsatzsteuer-Identifikationsnummern für Ihr Land oder Ihre Region festlegen
+## <a name="set-up-vat-registration-numbers-for-your-countryregion"></a>Umsatzsteuer-Identifikationsnummern für Ihr Land oder Ihre Region festlegen
 
 Um zu helfen sicherzustellen, dass Personal gültige MwSt-IdNr. eingeben, können Sie die MwSt-IdNr für die Länder oder die Bereiche verwenden, in denen Sie Geschäfte tätigen. [!INCLUDE[prod_short](includes/prod_short.md)] zeigt eine Fehlermeldung an, wenn jemand einen Fehler macht oder ein Format verwendet, das für das Land bzw. die Region falsch ist.
 
@@ -232,7 +232,7 @@ Die folgenden Abschnitten beschreiben, wie die MwSt.-Buchungsgruppen einzelnen E
     * Erweitern Sie auf der Karte **Ressource** das Inforegister **Fakturierung**.  
 3. Wählen Sie die MwSt-Produktbuchungsgruppe aus.  
 
-## <a name="set-up-clauses-to-explain-vat-exemption-or-non-standard-vat-rates"></a>Festlegen von Klauseln zur Erklärung der MwSt.-Befreiung oder von nicht standardmäßigen MwSt.-Sätzen
+## <a name="set-up-clauses-to-explain-vat-exemption-or-nonstandard-vat-rates"></a>Festlegen von Klauseln zur Erklärung der MwSt.-Befreiung oder von nicht standardmäßigen MwSt.-Sätzen
 
 Sie richten eine MwSt.-Klausel ein, um Informationen über die Art der MwSt. zu beschreiben, die angewendet wird. Die Informationen werden möglicherweise aufgrund behördlicher Regulierungen verlangt. Nachdem Sie eine MwSt.-Klausel festgelegt und sie einer MwSt.-Buchungsmatrix zugeordnet haben, wird die MwSt.-Klausel in allen gedruckten Verkaufsbelegen, die diese MwSt.-Buchungsmatrix Einrichtungsgruppe haben, wie etwa eine Verkaufsrechnung, angezeigt.
 
@@ -293,7 +293,7 @@ Gehen Sie folgendermaßen vor, um Codes für die Einfuhrsteuerfelder festzulegen
 5. Wählen Sie im Feld **MwSt.-Berechnungsart** **Volle MwSt.** aus.  
 6. Geben Sie im Feld **Vorsteuerkonto** das Sachkonto an, auf das Sie Einfuhrumsatzsteuer buchen wollen. Alle anderen Konten sind optional.  
 
-## <a name="use-reverse-charge-vat-for-trade-between-eu-countries-or-regions"></a>Verwenden Sie Reverse Charge VAT für den Handel zwischen EU-Ländern oder Regionen
+## <a name="use-reverse-charge-vat-for-trade-between-eu-countriesregions"></a>Verwenden Sie Reverse Charge VAT für den Handel zwischen EU-Ländern oder Regionen
 
 Gewisse Unternehmen müssen Erwerbssteuer abführen, wenn Sie Handel mit anderen Ländern innerhalb der EU betreiben. Die Regel gilt beispielsweise für Einkäufe aus EU-Ländern/-Regionen und Verkäufe an EU-Länder/-Regionen.  
 
@@ -303,7 +303,7 @@ Gewisse Unternehmen müssen Erwerbssteuer abführen, wenn Sie Handel mit anderen
 > [!TIP]  
 > Sie können überprüfen, ob ein Unternehmen in einem anderen EU-Land bzw. einer anderen EU-Region als umsatzsteuerpflichtig registriert ist, wenn Sie den EU-MwSt.ID-Nr.-Überprüfungsdienst verwenden. Der Service ist in [!INCLUDE[prod_short](includes/prod_short.md)] kostenlos verfügbar. Weitere Informationen finden Sie unter [Überprüfen von MwSt.-Registrierungsnummern](finance-how-validate-vat-registration-number.md).
 
-### <a name="sales-to-eu-countries-or-regions"></a>Verkäufe in EU-Länder oder Regionen
+### <a name="sales-to-eu-countriesregions"></a>Verkäufe in EU-Länder oder Regionen
 
 Auf Verkäufe an umsatzsteuerpflichtige Unternehmen in anderen EU-Ländern/-Regionen wird keine MwSt. berechnet. Der Wert derartiger Verkäufe an EU-Länder/-Regionen muss separat auf der MwSt.-Abrechnung ausgewiesen werden.  
 

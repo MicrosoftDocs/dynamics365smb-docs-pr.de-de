@@ -26,7 +26,7 @@ Diese Nachricht zeigt an, dass der Benutzer keine Buchungen für das betreffende
 
 Der Benutzer in diesem Fall hat einen erlaubten Buchungsdatumsbereich vom 11. September bis zum 30. September und darf daher die Korrekturwertbuchung mit Buchungsdatum 10. September nicht buchen.  
 
-### <a name="overview-of-involved-posting-date-setup"></a>Übersicht über die Einstellung des beteiligten Buchungsdatums
+### <a name="overview-of-the-posting-date-setup"></a>Übersicht über die Einstellung des beteiligten Buchungsdatums
 
 #### <a name="inventory-periods"></a>Lagerbuchungsperioden
 
