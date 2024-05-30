@@ -10,7 +10,7 @@ ms.date: 04/26/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="service-management"></a>Serviceverwaltung
+# Serviceverwaltung
 
 > [!NOTE]
 > Die Funktionalität, die in diesem Thema und in Unterthemen beschrieben wird, wird in der Benutzeroberfläche nur angezeigt, wenn Sie die **Premium**-Umgebung haben. Weitere Informationen finden Sie unter [Ändern Sie, welche Funktionen angezeigt werden](ui-experiences.md).
@@ -34,7 +34,7 @@ Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Artikel
 |Erstellen und Verwalten vertragliche Vereinbarungen zwischen Ihnen und den Debitoren bestehen.|[Erfüllen von Serviceverträgen](service-fulfill-service-contracts.md)|  
 |Bereitstellen von Service, Debitoren und Fakturieren von Serviceaufträgen.|[Bereitstellen von Service](service-deliver-service.md)|  
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch  
 
 [Verwalten von Forderungen](receivables-manage-receivables.md)  
 [Projekte](projects-how-create-jobs.md)  
