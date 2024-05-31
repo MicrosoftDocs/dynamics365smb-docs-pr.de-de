@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ms.search.form: '456, 457, 458, 459, 460, 461, 16, 22, 25, 26, 27, 31, 143, 144, 9300, 9301, 9303, 9304, 9305, 9306, 9307, 9309, 9310, 9311'
 ---
-# Daten in Listen mithilfe von Copilot analysieren (Vorschauversion)
+# <a name="analyze-data-in-lists-with-help-from-copilot-preview"></a>Daten in Listen mithilfe von Copilot analysieren (Vorschauversion)
 
 [!INCLUDE[preview-banner](includes/preview-banner.md)]
 
@@ -18,7 +18,7 @@ In diesem Artikel wird beschrieben, wie Sie mit der *Analyseunterstützung* Date
 
 [!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
 
-## Über die Analyseunterstützung
+## <a name="about-analysis-assist"></a>Über die Analyseunterstützung
 
 Die Analyseunterstützung ist ein Copilot für den [Analysemodus](analysis-mode.md) auf Listenseiten in Business Central. Der Analysemodus bietet eine interaktive und vielseitige Möglichkeit, Daten zu berechnen, zusammenzufassen und zu untersuchen. Um Daten im Analysemodus zu analysieren, erstellen Sie eine *Analyse*-Registerkarte, auf der Sie die Daten transformieren, sodass die gewünschten Aggregationen und Zusammenfassungen angezeigt werden. Sie ordnen beispielsweise Felder in Zeilen und Spalten an, legen Filter fest, sortieren Spalten und pivotieren Felder. Mit der Analyseunterstützung brauchen Sie diese Aufgabe nicht mehr manuell zu erledigen, sondern erreichen mit Worten fast dasselbe – oder können wenigstens einen entsprechenden Anfang machen. Indem Sie die gewünschte Struktur in natürlicher Sprache ausdrücken, etwa „nach Menge von klein nach groß sortieren“ oder „Durchschnittskosten pro Kategorie anzeigen“, generiert die Analyseunterstützung mithilfe künstlicher Intelligenz einen Layoutvorschlag auf einer Analyseregisterkarte.
 
@@ -27,7 +27,7 @@ Die Analyseunterstützung ist ein Copilot für den [Analysemodus](analysis-mode.
 
  However, the data analysis mode requires some understanding of how to structure fields to meet the desired aggregations and summarizations. It requires you to move fields around to the appropriate areas within analysis mode pane which data rows and columns to display, specify filters, sorting, grouping, pivoting and totals. Analysis assist minimizes these requirments by enabling you to express the desired layout in words. , like "group which data rows and columns to display, specify filters, sorting, grouping, pivoting and totals
 --> 
-## Voraussetzungen
+## <a name="prerequisites"></a>Voraussetzungen
 
 - Die Analyseunterstützungsfunktion ist aktiviert und Sie haben die Berechtigung, sie zu verwenden. Diese Aufgabe wird normalerweise durch einen Administrierenden erledigt. [Erfahren Sie mehr über das Konfigurieren von Copilot- und KI-Funktionen](enable-ai.md).
 - Die Anzeigesprache in Business Central ist auf eines der folgenden englischen Gebietsschemas eingestellt: en-AU, en-CA, en-GB, en-IE, en-IN, en-NZ, en-PH, en-SG, en-US, en-ZA. [Erfahren Sie mehr über das Ändern der Sprache](ui-change-basic-settings.md#language).
@@ -37,7 +37,7 @@ Die Analyseunterstützung ist ein Copilot für den [Analysemodus](analysis-mode.
 > [!NOTE]
 > You may notice some list pages that don't include the **Analyze** switch for changing to the analysis mode. The reason is that developers can disable analysis mode on specific pages by using the [AnalysisModeEnabled property](/dynamics365/business-central/dev-itpro/developer/properties/devenv-analysismodeenabled-property) in AL.-->
 
-## Erste Schritte
+## <a name="get-started"></a>Erste Schritte
 
 1. Öffnen Sie die Listenseite, die Sie analysieren möchten.
 
@@ -69,7 +69,7 @@ Die Analyseunterstützung ist ein Copilot für den [Analysemodus](analysis-mode.
 
 1. Wenn Sie die Analyseregisterkarte speichern möchten, wählen Sie **Behalten**. Wenn Sie sie nicht speichern möchten, wählen Sie **Verwerfen**.
 
-## Tipps und Beispiele für Prompts
+## <a name="prompt-tips-and-examples"></a>Tipps und Beispiele für Prompts
 
 Es ist wichtig, für Copilot effektive Prompts zu erstellen, um genaue und relevante Analysevorschläge zu erhalten. Es gibt auch Möglichkeiten, den in Prompts hinzugefügten Text zu minimieren, um das Tippen zu beschleunigen. Hier sind einige Tipps und Leitlinien, gefolgt von einigen Beispielen:
 
@@ -81,7 +81,7 @@ Es ist wichtig, für Copilot effektive Prompts zu erstellen, um genaue und relev
 - Gängige Abkürzungen sind zulässig.
 - Die Groß-/Kleinschreibung ist nicht wichtig.
 
-### Beispiele
+### <a name="examples"></a>Beispiele
 
 In den folgenden Beispielprompts wird die Analyseunterstützung für die Liste **Artikel** verwendet. Die Artikelseite enthält drei für die Analyse summierbare Felder: **Vorrätige Menge**, **Einstandspreis**, **VK-Preis**.
 
@@ -97,7 +97,7 @@ Prompt: `Show total quantity per type per UoM`
 
 Dieser Prompt erstellt eine Pivottabelle für das Feld **Vorrätige Menge** je **Basiseinheit** und **Typ**.
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Häufig gestellte Fragen zur verantwortungsbewussten KI für die Analyseunterstützung](faqs-analysis-assist.md)  
 [Ad-hoc-Datenanalyse](reports-adhoc-analysis.md)  

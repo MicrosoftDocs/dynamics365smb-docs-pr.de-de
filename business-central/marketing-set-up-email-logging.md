@@ -11,7 +11,7 @@ ms.search.keywords: 'relationship, prospect, opportunity, email'
 ms.search.form: '1680, 1811, 5076'
 ms.service: dynamics-365-business-central
 ---
-# Verfolgen Sie den Austausch von E-Mail-Nachrichten zwischen Verkäufern und Kontakten
+# <a name="track-email-message-exchanges-between-salespeople-and-contacts"></a>Verfolgen Sie den Austausch von E-Mail-Nachrichten zwischen Verkäufern und Kontakten
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
@@ -20,15 +20,15 @@ Machen Sie mehr aus der Kommunikation zwischen Ihren Verkäufern und Kunden, ind
 > [!IMPORTANT]
 > Für [!INCLUDE[prod_short](includes/prod_short.md)] online müssen sich [!INCLUDE[prod_short](includes/prod_short.md)] und Exchange Online auf demselben Mandanten befinden.
 
-## So richten Sie E-Mail-Protokollierung ein
+## <a name="to-set-up-email-logging"></a>So richten Sie E-Mail-Protokollierung ein
 
-### Öffentliche Ordner und Regeln für die E-Mail-Anmeldung in Exchange Online einrichten
+### <a name="set-up-public-folders-and-rules-for-email-logging-in-exchange-online"></a>Öffentliche Ordner und Regeln für die E-Mail-Anmeldung in Exchange Online einrichten
 
 [!INCLUDE[admin-setup-email-public-folder](includes/admin-setup-email-public-folder.md)]
 
 Als nächstes verbinden Sie [!INCLUDE[prod_short](includes/prod_short.md)] mit Exchange Online.
 
-### Einrichten eines freigegebenen Postfachs und Regeln für die E-Mail-Protokollierung in Exchange Online
+### <a name="set-up-a-shared-mailbox-and-rules-for-email-logging-in-exchange-online"></a>Einrichten eines freigegebenen Postfachs und Regeln für die E-Mail-Protokollierung in Exchange Online
 
 > [!NOTE]
 > Für diese Schritte ist Administratorzugriff für Exchange Online erforderlich.
@@ -38,15 +38,15 @@ Bereiten Sie ein freigegebenes Postfach im Exchange Admin Center vor. Alternativ
 > [!NOTE]
 > Wenn Sie Exchange Management PowerShell verwenden, sind Ihre Änderungen mit einer Verzögerung im Exchange Admin Center verfügbar. Die Verzögerung kann mehrere Stunden betragen.
 
-### Fügen Sie ein Benutzerkonto für Mitglieder des freigegebenen Postfachs hinzu
+### <a name="add-a-user-account-for-members-of-the-shared-mailbox"></a>Fügen Sie ein Benutzerkonto für Mitglieder des freigegebenen Postfachs hinzu
 
 Das Konto, das Sie für die E-Mail-Protokollierung verwenden, ist ein Exchange Online-Konto. Der geplante Auftrag verwendet das Konto, um eine Verbindung mit dem freigegebenen Postfach herzustellen und E-Mails zu verarbeiten. Dieses Konto sollte keiner bestimmten Person zugeordnet werden. Fügen Sie das E-Mail-Konto den Mitgliedern für das freigegebene Postfach hinzu. Weitere Informationen finden Sie unter [Exchange Admin Center verwenden, um die Delegierung freigegebener Postfächer zu bearbeiten](/exchange/collaboration-exo/shared-mailboxes#use-the-eac-to-edit-shared-mailbox-delegation).
 
-### Erlauben Sie anderen Benutzern, protokollierte E-Mails zu sehen
+### <a name="allow-other-users-to-see-logged-emails"></a>Erlauben Sie anderen Benutzern, protokollierte E-Mails zu sehen
 
 Sie können einem anderen Benutzer erlauben, eine E-Mail-Nachricht in Exchange zu öffnen, die sich auf einen Interaktionsprotokolleintrag von [!INCLUDE[prod_short](includes/prod_short.md)] bezieht. Geben Sie dazu dem Benutzer ``Read``-Rechte für den **Archiv**-Ordner im freigegebenen Postfach. Weitere Informationen finden Sie unter [Exchange Online PowerShell](/powershell/exchange/exchange-online-powershell?view=exchange-ps&preserve-view=true).
 
-### E-Mail-Fluss-Regeln erstellen
+### <a name="create-mail-flow-rules"></a>E-Mail-Fluss-Regeln erstellen
 
 Nachrichtenflussregeln suchen nach bestimmten Bedingungen für Nachrichten und ergreifen entsprechende Maßnahmen. Erstellen Sie zwei neue E-Mail-Fluss-Regeln für öffentliche Ordner basierend auf den Informationen in der folgenden Tabelle. Weitere Informationen finden Sie unter [E-Mail-Fluss-Regeln in Exchange Online verwalten](/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules?preserve-view=true) und [Aktionen für E-Mail-Fluss-Regeln in Exchange Online](/exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions?preserve-view=true).
 
@@ -58,7 +58,7 @@ Nachrichtenflussregeln suchen nach bestimmten Bedingungen für Nachrichten und e
 > [!NOTE]
 > [!INCLUDE[prod_short](includes/prod_short.md)] verarbeitet nur Nachrichten im Posteingangsordner im freigegebenen Postfach. Wenn eine Regel Nachrichten aus dem Posteingang in einen anderen Ordner verschiebt, werden diese Nachrichten nicht verarbeitet. Außerdem werden Nachrichten im Junk-E-Mail-Ordner ebenfalls ignoriert.
 
-## [!INCLUDE[prod_short](includes/prod_short.md)] zum Protokollieren von E-Mail-Nachrichten einrichten
+## <a name="set-up--to-log-email-messages"></a>[!INCLUDE[prod_short](includes/prod_short.md)] zum Protokollieren von E-Mail-Nachrichten einrichten
 
 Beginnen Sie mit der E-Mail-Protokollierung in zwei einfachen Schritten:
 
@@ -69,14 +69,14 @@ Beginnen Sie mit der E-Mail-Protokollierung in zwei einfachen Schritten:
     > [!Tip]
     > Nachdem Sie die Schritte in der Anleitung ausgeführt haben, können Sie überprüfen, ob die Verbindung erfolgreich war. Suchen Sie nach **E-Mail-Protokollierung**, wählen Sie **Aktionen** und dann **Einrichtung überprüfen** aus.
 
-## Anzeigen des E-Mail-Nachrichtenaustauschs im Aktivitätenprotokoll
+## <a name="view-email-message-exchanges-in-the-interaction-log"></a>Anzeigen des E-Mail-Nachrichtenaustauschs im Aktivitätenprotokoll
 
 [!INCLUDE[prod_short](includes/prod_short.md)] erstellt einen Eintrag auf der Seite **Aktivitätenprotokoll**, jedes Mal, wenn ein Verkäufer und ein Kontakt eine E-Mail-Nachricht austauschen. Um das Interaktionsprotokoll anzuzeigen, öffnen Sie die Karte **Kontakt** für die Person, und wählen Sie **Zugehörig**, dann **Verlauf** und anschließend **Interaktionsprotokollposten** aus. Es gibt einige Dinge, die Sie mit jedem Eintrag im Protokoll tun können, zum Beispiel:
 
 * Zeigen Sie den Inhalt der E-Mail-Nachricht an, die ausgetauscht wurde, indem Sie **Verarbeiten** und dann **Dateianhänge anzeigen** auswählen.
 * Verwandeln Sie einen E-Mail-Austausch in eine Verkaufsmöglichkeit. Wenn ein Eintrag vielversprechend aussieht, können Sie ihn in eine Verkaufschance verwandeln und dann den Fortschritt in Richtung Verkauf steuern. Um einen E-Mail-Austausch in eine Chance zu verwandeln, wählen Sie den Eintrag, dann **Prozess** und dann **Gelegenheit schaffen** aus. Weitere Informationen finden Sie unter [Verkaufschancen verwalten](marketing-manage-sales-opportunities.md).
 
-## Postfach- und Ordnerbeschränkungen in Exchange Online
+## <a name="mailbox-and-folder-limits-in-exchange-online"></a>Postfach- und Ordnerbeschränkungen in Exchange Online
 
 Es gibt Postfach- und Ordnerbeschränkungen in Exchange Online, darunter Beschränkungen für Ordnergrößen und Anzahl der Nachrichten. Weitere Informationen finden Sie unter [Exchange Online-Beschränkungen](/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#storage-limits) und [Einschränkungen für öffentliche Ordner in Exchange Server](/Exchange/collaboration/public-folders/limits?view=exchserver-2019&preserve-view=true).
 
@@ -90,14 +90,14 @@ Anhand der folgenden Schritte können Sie verhindern, dass Links zu Nachrichten 
     2. Aktualisieren Sie Ihre E-Mail-Flow-Regeln in Exchange Online.
     3. Aktualisieren Sie die Einrichtung der E-Mail-Protokollierung in Business Central entsprechend.
 
-## Lokale Versionen mit Microsoft Exchange verbinden
+## <a name="connect-on-premises-versions-to-microsoft-exchange"></a>Lokale Versionen mit Microsoft Exchange verbinden
 
 Sie können eine Verbindung mit [!INCLUDE[prod_short](includes/prod_short.md)] lokal zum Austausch lokal oder für die Exchange Online Protokollierung verbinden. Für beide Exchange-Versionen sind die Einstellungen für die Verbindung auf der Seite **Marketing-Einrichtung** verfügbar. Für Exchange Online können Sie auch eine unterstützte Einrichtungsanleitung verwenden.
 
 <!-- [!IMPORTANT]
 > The new experience doesn't support a connection to Exchange on-premises. If you must use Exchange on-premises, do not enable the feature update for the new experience.
 
-## Connect to Exchange on-premises
+## <a name="connect-to-exchange-on-premises"></a>Connect to Exchange on-premises
 <!--
 ## [Current Experience](#tab/current-experience)
 To connect [!INCLUDE[prod_short](includes/prod_short.md)] on-premises to Exchange on-premises, on the **Marketing Setup** page, you can use **Basic** as the **Authentication Type**, and then enter credentials for the user account for Exchange on-premises. Then turn on the **Enabled** toggle to start logging email.
@@ -105,7 +105,7 @@ To connect [!INCLUDE[prod_short](includes/prod_short.md)] on-premises to Exchang
 ## [New Experience](#tab/new-experience)
 The new experience does not support connections to Exchange on-premises.
 -->
-## Mit Exchange Online verbinden
+## <a name="connect-to-exchange-online"></a>Mit Exchange Online verbinden
 
 Um Exchange Online zu verbinden, müssen Sie eine Anwendung in Microsoft Entra-ID registrieren. Geben Sie die Anwendungs-ID, das Geheimnis des Schlüsseltresors und die Umleitungs-URL an, die für die Registrierung verwendet werden soll. Die Umleitungs-URL ist bereits festgelegt und sollte für die meisten Installationen funktionieren. Weitere Informationen finden Sie unter [So registrieren Sie eine Anwendung in Microsoft Entra-ID für die Verbindung von Business Central mit Exchange Online](#to-register-an-application-in-microsoft-entra-id-for-connecting-from-business-central-to-exchange-online). 
 
@@ -113,7 +113,7 @@ Sie müssen auch **OAuth2** als **Authentifizierungstyp** verwenden. Sie müssen
 
 Sie müssen Ihre Installation für die Verwendung von HTTPS einrichten. Weitere Informationen finden Sie unter [Konfigurieren von SSL zum Sichern der Business Central Web Client-Verbindung ](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection). Wenn Sie Ihren Server für eine andere Homepage einrichten, können Sie die URL jederzeit ändern. Der geheime Clientschlüssel wird als verschlüsselte Zeichenfolge in Ihrer Datenbank gespeichert.
 
-### So registrieren Sie eine Anwendung in Microsoft Entra-ID, um eine Verbindung mit Exchange Online über Business Central herzustellen
+### <a name="to-register-an-application-in-microsoft-entra-id-for-connecting-from-business-central-to-exchange-online"></a>So registrieren Sie eine Anwendung in Microsoft Entra-ID, um eine Verbindung mit Exchange Online über Business Central herzustellen
 
 Bei den folgenden Schritten wird davon ausgegangen, dass Sie Microsoft Entra-ID verwenden, um Identitäten und den Zugriff zu verwalten. Weitere Informationen finden Sie unter [Schnellstart: Registrieren einer Anwendung mit der Microsoft-Identitätsplattform](/azure/active-directory/develop/quickstart-register-app). 
 
@@ -129,11 +129,11 @@ Bei den folgenden Schritten wird davon ausgegangen, dass Sie Microsoft Entra-ID 
 6. Wählen Sie **Übersicht** aus, und suchen Sie dann den Wert **Anwendungs-(Client-)ID**. Dies ist die Client-ID Ihrer Anwendung. Sie müssen es entweder im **Client-ID**-Feld auf der **E-Mail-Protokollierung**-Seite eingeben.
 7. Unter [!INCLUDE[prod_short](includes/prod_short.md)] richten Sie die E-Mail-Protokollierung auf der Seite **E-Mail-Protokollierung** ein oder verwenden Sie die **Unterstützte Einrichtung** für Unterstützung bei diesem Prozess.
 
-### Verwenden eines anderen Identitäts- und Zugriffsverwaltungsdienstes
+### <a name="use-another-identity-and-access-management-service"></a>Verwenden eines anderen Identitäts- und Zugriffsverwaltungsdienstes
 
 Wenn Sie Microsoft Entra-ID nicht verwenden, um Identitäten und den Zugriff zu verwalten, benötigen Sie die Hilfe eines Entwicklers. Wenn Sie die App-ID und den geheimen Schlüssel lieber an einem anderen Ort speichern möchten, können Sie die Felder „Client-ID“ und „Geheimer Clientschlüssel“ leer lassen und eine Erweiterung schreiben, um die ID und den geheimen Schlüssel von diesem Speicherort abzurufen. Sie können den geheimen Clientschlüssel zur Laufzeit bereitstellen, indem Sie die Ereignisse OnGetEmailLoggingClientId und OnGetEmailLoggingClientSecret in Codeunit 1641 E-Mail-Protokollierung einrichten abonnieren.
 
-## E-Mail-Protokollierung starten
+## <a name="to-start-logging-email"></a>E-Mail-Protokollierung starten
 
 1. Um die E-Mail-Protokollierung zu starten, aktivieren Sie auf der Seite **E-Mail-Protokollierung** den Schalter **Aktiviert**.
 2. Melden Sie sich mit dem Exchange Online-Konto an, das der geplante Auftrag für die Verbindung mit dem freigegebenen Postfach und die Verarbeitung von E-Mails verwenden soll.
@@ -141,27 +141,27 @@ Wenn Sie Microsoft Entra-ID nicht verwenden, um Identitäten und den Zugriff zu 
     > [!NOTE]
     > Wenn Sie nicht aufgefordert werden, sich bei Ihrem Exchange Online-Konto anzumelden, liegt das möglicherweise daran, dass Ihr Browser Popups blockiert. Erlauben Sie Popups von https://login.microsoftonline.com, um sich anzumelden.
 
-## E-Mail-Protokollierung beenden
+## <a name="to-stop-logging-email"></a>E-Mail-Protokollierung beenden
 
 1. Wählen Sie das Symbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **E-Mail-Protokollierung** ein und wählen Sie dann den zugehörigen Link.
 2. Umschaltung **Aktiviert** ausschalten.
 
-## Zum Ändern des für die E-Mail-Protokollierung verwendeten Benutzerkontos
+## <a name="to-change-the-user-account-used-for-email-logging"></a>Zum Ändern des für die E-Mail-Protokollierung verwendeten Benutzerkontos
 
-### [!INCLUDE[prod_short](includes/prod_short.md)] Online
+### <a name="-online"></a>[!INCLUDE[prod_short](includes/prod_short.md)] Online
 
 1. Melden Sie sich mit dem [!INCLUDE[prod_short](includes/prod_short.md)]-Konto an, das der geplante Auftrag für die Verbindung mit dem freigegebenen Postfach und die Verarbeitung von E-Mails verwenden soll. Dieses Konto muss Zugriff auf [!INCLUDE[prod_short](includes/prod_short.md)] und Exchange Online haben.
 2. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **E-Mail-Protokollierung** ein und wählen Sie dann den zugehörigen Link. 
 3. Wählen Sie **Verwandt** und dann **Aufgabenwarteschlangenposten**.
 4. Starten Sie die **E-Mail-Protokollierung**-Aufgabe neu.
 
-### [!INCLUDE[prod_short](includes/prod_short.md)] On-Premises
+### <a name="-on-premises"></a>[!INCLUDE[prod_short](includes/prod_short.md)] On-Premises
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **E-Mail-Protokollierung** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie **Aktionen** und dann **Token erneuern**.
 3. Melden Sie sich mit dem Exchange Online-Konto an, das der geplante Auftrag für die Verbindung mit dem freigegebenen Postfach und die Verarbeitung von E-Mails verwenden soll.
 
-## Weitere Informationen
+## <a name="see-also"></a>Weitere Informationen
 [Verwalten von Beziehungen](marketing-relationship-management.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

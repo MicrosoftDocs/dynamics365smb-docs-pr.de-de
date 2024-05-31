@@ -11,13 +11,13 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# Den E-Belegekonnektor mit externen Endpunkten einrichten
+# <a name="set-the-e-documents-connector-with-external-endpoints"></a>Den E-Belegekonnektor mit externen Endpunkten einrichten
 
 In diesem Artikel wird erläutert, wie Sie die E-Beleg-Funktionalität einrichten, wenn diese mit externen Endpunkten verbunden ist.
 
 Bevor Sie die in diesem Artikel beschriebene Funktionalität verwenden, installieren Sie die App **E-Belegekonnektor mit externen Endpunkten** oben in der globalen **E-Beleg-Kern**-App. Diese App kann für die Standardintegration mit externen (Drittanbieter-)Zugriffspunkten verwendet werden, um den E-Beleg-Flow zu automatisieren. Da diese App nur einige der ausgewählten Konnektoren darstellt, müssen Sie sich nicht auf die darin vorhandenen Integrationen beschränken. Die meisten Konnektoren werden in Zukunft auf AppSource verfügbar sein.
 
-## Die Verbindung einrichten
+## <a name="set-up-the-connection"></a>Die Verbindung einrichten
 
 Um mit der Einrichtung zu beginnen, gehen Sie in der [E-Beleg-Kern-App](finance-how-setup-edocuments.md) wie folgt vor. Wenn Sie damit fertig sind, kehren Sie zu diesem Artikel zurück und führen Sie die folgenden Schritte aus:
 
@@ -44,7 +44,7 @@ Um mit der Einrichtung zu beginnen, gehen Sie in der [E-Beleg-Kern-App](finance-
     > [!NOTE]
     > Fragen Sie Ihren Dienstanbieter nach allen vorherigen Details, um eine Verbindung mit seinem Zugriffspunkt herzustellen.
 
-## Unternehmensinformationen einrichten
+## <a name="set-up-company-information"></a>Unternehmensinformationen einrichten
 
 Bevor Sie damit beginnen, E-Belege zu verwenden, aktualisieren Sie Ihre Seite **Unternehmensinformationen** wie folgt:
 
@@ -59,7 +59,7 @@ Bevor Sie damit beginnen, E-Belege zu verwenden, aktualisieren Sie Ihre Seite **
 
 3. Schließen Sie die Seite.
 
-## Debitoren für den Empfang von E-Belegen einrichten
+## <a name="set-up-customers-to-receive-e-documents"></a>Debitoren für den Empfang von E-Belegen einrichten
 
 Damit Debitoren Ihre E-Belege empfangen können, gehen Sie wie folgt vor:
 
@@ -69,11 +69,11 @@ Damit Debitoren Ihre E-Belege empfangen können, gehen Sie wie folgt vor:
 4. Setzen Sie ein Häkchen das Feld **GLN in elektronischen Belegen verwenden**, um anzugeben, ob die Global Location Number (GLN) als Parteiidentifikationsnummer in elektronischen Belegen verwendet werden soll.
 5. Schließen Sie die Seite.
 
-## Weitere Einrichtung
+## <a name="other-setup"></a>Weitere Einrichtung
 
 Bevor Sie mit der Arbeit mit E-Belegen beginnen, richten Sie die E-Beleg-**Workflows** und die **Belegsendeprofile** ein, die Sie in Ihren Workflows verwenden wollen. Nachdem die Dienstverbindung hergestellt ist, können Sie mit der Nutzung Ihrer E-Belegslösung beginnen.
 
-## Verfügbare Dienstanbieter
+## <a name="available-service-providers"></a>Verfügbare Dienstanbieter
 
 Microsoft möchte Zugriffspunktanbieter dazu ermutigen, ihre Konnektoren unserem **E-Beleg-Kern**-Rahmen hinzuzufügen.
 
@@ -81,7 +81,7 @@ Derzeit ist Pagero der einzige Zugriffspunktanbieter, der von diesem System abge
 
 Wir werden diese Liste aktualisieren, sobald neue Zugriffspunktanbieter für den E-Belegaustausch dazustoßen.
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [E-Belege in Business Central einrichten](finance-how-setup-edocuments.md)  
 [E-Belege in Business Central verwenden](finance-how-use-edocuments.md)  

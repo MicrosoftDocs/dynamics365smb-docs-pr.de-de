@@ -9,7 +9,7 @@ ms.date: 09/28/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Lagerortverwaltung einrichten
+# <a name="setting-up-warehouse-management"></a>Lagerortverwaltung einrichten
 
 Die Logistikstrategie eines Mandanten spiegelt sich in der Konfiguration seiner Lagerprozesse wider. Dazu gehört die Definition der Bearbeitung unterschiedlicher Artikel an verschiedenen Lagerorten, wie z. B. der Grad der Lagerplatzkontrolle und das Ausmaß des erforderlichen Workflows zwischen Lageraktivitäten.  
 
@@ -34,7 +34,7 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 |Sie erhalten Tipps zur Neuorganisation von Lagerorten, Lagerplätzen oder Zonen, um weitere effiziente Lageraktivitäten zu erhalten.|[Lager umstrukturieren](warehouse-how-to-restructure-warehouses.md)|
 |Geben Sie Standardberichte an, die für verschiedene Dokumenttypen verwendet werden sollen.|[Berichtsauswahl in Business Central](across-report-selections.md)|
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Bestand](inventory-manage-inventory.md)  
 [Montageverwaltung](assembly-assemble-items.md)  

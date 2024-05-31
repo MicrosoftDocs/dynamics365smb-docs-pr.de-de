@@ -9,14 +9,14 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Kontakte einrichten
+# <a name="set-up-contacts"></a>Kontakte einrichten
 Beim Erstellen von Kontakten können Sie spezifische Informationen wie die Branche, der der Kontakt angehört, oder die Geschäftsbeziehung, die mit den Kontakten besteht, eingeben.
 
 Vor dem Erstellen von Kontakten und dem Erfassen von Details zur jeweiligen Geschäftsbeziehung müssen unterschiedliche Codes eingerichtet werden, mit deren Hilfe die Informationen den Kontaktunternehmen und -personen zugeordnet werden. Codes können für Verteiler, Branchen, Geschäftsbeziehungen, Internetfavoriten, Positionen und Verantwortlichkeiten eingerichtet werden. Sie können diese einrichten, indem Sie die Aktion **Neu** auswählen, wenn Sie nach den Listen von der Kontaktkarte suchen.  
 
 Sind diese Informationen eingerichtet, gestaltet sich das Erstellen von Kontakten wesentlich organisierter. Dank der Möglichkeit, alle Kontakte auf der Grundlage einer Gruppe zu suchen, wird die Arbeit deutlich effizienter. Die Informationen stehen allen Gruppen innerhalb des Unternehmens zur Verfügung, was eine erfolgreichere Kommunikation mit den Kontakten ermöglicht.
 
-## Um einem Kontakt eine Branche zuzuordnen:
+## <a name="to-assign-industry-groups-to-a-contact"></a>Um einem Kontakt eine Branche zuzuordnen:
 Branchen werden verwendet, um die Branche anzugeben, zu der Ihre Kontakte gehören z. B. die Einzelhandelsbranche und die Automobilbranche.
 
 > [!NOTE]
@@ -34,7 +34,7 @@ Die Anzahl der Branchen, die Sie dem Kontakt zugeordnet haben, wird im Feld **An
 
 Nachdem Sie Ihren Kontakten Branchen zugeordnet haben, können Sie diese Informationen verwenden, um Kontakte für Ihre Segmente auszuwählen. Weitere Informationen finden Sie unter [Kontakte zu Segmenten hinzufügen](marketing-add-contact-segment.md).
 
-## Um einem Kontakt einen Verteiler zuzuordnen:
+## <a name="to-assign-mailing-groups-to-a-contact"></a>Um einem Kontakt einen Verteiler zuzuordnen:
 Verteiler werden verwendet, um Kontaktgruppen zu identifizieren, die dieselben Informationen erhalten sollen. Sie können z. B. einen Verteiler für die Kontakte erstellen, denen Sie eine Benachrichtigung über einen Büroumzug schicken möchten.
 
 Der Verteilercode definiert die Art oder die Kategorie der Gruppe, z. B. UMZUG für einen Büroumzug, oder GESCHENK für ein Geburtstagsgeschenk. Sie können mehrere Branchencodes haben. Um die Branchen zu definieren, verwenden Sie die **Verteiler**-Seite.
@@ -49,7 +49,7 @@ Die Anzahl der dem Kontakt zugeordneten Verteiler wird im Feld **Anzahl Verteile
 
 Sobald Sie Ihren Kontakten Verteiler zugeordnet haben, können Sie diese Informationen verwenden, um Kontakte für Ihre Segmente auszuwählen. Weitere Informationen finden Sie unter [Kontakte zu Segmenten hinzufügen](marketing-add-contact-segment.md).
 
-## So definieren Sie die alternative Adresse eines Kontakts
+## <a name="to-define-a-contacts-alternate-address"></a>So definieren Sie die alternative Adresse eines Kontakts
 Sie können alternative Adressen zuordnen, zu denen Ihren Kontakten manchmal E-Mails und Informationen gesendet werden z. B. an ihr Ferienhaus. Sie können jeder alternativen Adresse einen oder mehrere Datumsbereiche zuordnen, um festzulegen, wann diese Adresse gültig ist.
 
 1. Öffnen Sie die relevante Kontaktkarte.
@@ -60,7 +60,7 @@ Sie können alternative Adressen zuordnen, zu denen Ihren Kontakten manchmal E-M
 
 Wiederholen Sie diese Schritte, um weitere alternative Adressen einzurichten. Für jede alternative Adresse können Sie eine oder mehrere Gültigkeiten einrichten.
 
-## So ordnen Sie einem Kontakt Verantwortlichkeiten zu
+## <a name="to-assign-job-responsibilities-to-a-contact"></a>So ordnen Sie einem Kontakt Verantwortlichkeiten zu
 Sie können Informationen zu den Verantwortlichkeiten von Kontaktpersonen hinzufügen, um anzuzeigen, wofür eine Kontaktperson innerhalb ihres Unternehmens zuständig ist z. B. IT, Management oder Produktion. Sie können diese Informationen nutzen, wenn Sie Informationen über Ihre Kontakte eingeben.
 
 > [!NOTE]
@@ -78,7 +78,7 @@ Die Anzahl der Verantwortlichkeiten, die Sie dem Kontakt zugeordnet haben, wird 
 
 Sobald Sie Ihren Kontakten Verantwortlichkeiten zugeordnet haben, können Sie diese Informationen verwenden, um Kontakte für Ihre Segmente auszuwählen. Weitere Informationen finden Sie unter [Kontakte zu Segmenten hinzufügen](marketing-add-contact-segment.md).
 
-## So weisen Sie einem Kontakt Organisationsstufen zu
+## <a name="to-assign-organizational-levels-to-a-contact"></a>So weisen Sie einem Kontakt Organisationsstufen zu
 Sie können Ihren Kontakten Positionen zuordnen, um zu bestimmen, welche Position sie innerhalb ihres Unternehmens innehaben (beispielsweise Topmanagement). Sie können diese Informationen nutzen, wenn Sie Informationen über Ihre Kontakte eingeben.
 
 > [!NOTE]
@@ -93,7 +93,7 @@ Nachdem Sie Ihren Kontakten Positionen zugeordnet haben, können Sie diese Infor
 
 Sobald Sie Ihren Kontakten Verantwortlichkeiten zugeordnet haben, können Sie diese Informationen verwenden, um Kontakte für Ihre Segmente auszuwählen. Weitere Informationen finden Sie unter [Kontakte zu Segmenten hinzufügen](marketing-add-contact-segment.md).
 
-## So weisen Sie einem Kontakt Internetfavoriten zu
+## <a name="to-assign-web-sources-to-a-contact"></a>So weisen Sie einem Kontakt Internetfavoriten zu
 Sie können Ihren Kontakten Internetfavoriten (z. B. Suchmaschinen und Websites) zuordnen, um anzuzeigen, wo Sie im Internet nach Informationen über die Kontakte suchen möchten. Wenn Sie Internetfavoriten zuordnen, legen Sie fest, welche Suchmaschine und welchen Suchbegriff die Anwendung bei der Suche nach der gewünschten Information verwendet.
 
 > [!NOTE]
@@ -108,7 +108,7 @@ Wenn Sie Internetfavoriten zuordnen, legen Sie fest, welche Suchmaschine und wel
 
 Wiederholen Sie diese Schritte, um weitere Internetfavoriten zuzuordnen.
 
-## Um Kontakten Geschäftsbeziehungen zuzuordnen:
+## <a name="to-assign-business-relations-to-a-contact"></a>Um Kontakten Geschäftsbeziehungen zuzuordnen:
 Sie können Geschäftsbeziehungen verwenden, um die Geschäftsbeziehung anzuzeigen, die Sie mit Ihren Kontakten haben wie z. B. Interessent, Bank, Berater und Dienstleister usw. pflegen.
 
 > [!NOTE]
@@ -124,29 +124,29 @@ Die Anzahl der Geschäftsbeziehungen, die Sie dem Kontakt auf der Kontaktkarte z
 
 Nachdem Sie Ihren Kontakten Geschäftsbeziehungen zugeordnet haben, können Sie diese Informationen verwenden, um Kontakte für Ihre Segmente auszuwählen. Weitere Informationen finden Sie unter [Kontakte zu Segmenten hinzufügen](marketing-add-contact-segment.md).
 
-## Automatisches Kopieren bestimmter Informationen aus den Kontaktunternehmen zu den Kontaktpersonen
+## <a name="automatically-copying-specific-information-from-contact-companies-to-contact-persons"></a>Automatisches Kopieren bestimmter Informationen aus den Kontaktunternehmen zu den Kontaktpersonen
 Einige Informationen über die Kontaktunternehmen stimmen mit denen über die Kontaktpersonen bei diesen Unternehmen überein, wie z. B. die Adresse. Auf dem Inforegister **Übernahme** auf der Seite **Marketingeinrichtung** können Sie angeben, welche Felder der Kontaktkarte eines Unternehmens in die Kontaktpersonenkarte kopiert werden, wenn Sie eine Kontaktperson für das Kontaktunternehmen erstellen.
 
 Wenn Sie eines dieser Felder auf der Kontaktunternehmenskarte ändern, werden die gleichen Felder auf der Kontaktpersonenkarte aktualisiert, es sei denn, Sie haben das Feld auf der Kontaktpersonenkarte manuell geändert.
 
 Weitere Informationen finden Sie unter [Kontakte erstellen](marketing-create-contact-companies.md).
 
-## Vordefinierte Standards für neue Kontakte nutzen
+## <a name="use-predefined-defaults-on-new-contacts"></a>Vordefinierte Standards für neue Kontakte nutzen
 Sie können festlegen, dass jedem neuen Kontakt bei seiner Erstellung automatisch ein bestimmter Sprachcode, Gebietscode, Verkäufercode und Länder-/Regionscode als Vorgabe zugeordnet wird. Außerdem können Sie einen Vorgabewert für einen Verkaufsprozesscode eingeben, dem die Anwendung automatisch jede Verkaufschance zuweist, die Sie erstellen. Sie können dies auf dem Inforegister **Standard** auf der Seite **Marketingeinrichtung** festlegen.
 
 Durch die Übernahme von Feldern werden die Vorgabewerte überschrieben, die Sie eingerichtet haben. Wenn Sie z. B. Englisch als Vorgabesprache eingerichtet haben, die Sprache des Kontaktunternehmens jedoch Deutsch ist, wird den Kontaktpersonen dieses Unternehmens automatisch die Sprache Deutsch von der Anwendung zugewiesen.
 
-## Synchronisieren von Kontakten mit Debitoren, Kreditoren und Bankkonten
+## <a name="synchronizing-contacts-with-customers-vendors-and-bank-accounts"></a>Synchronisieren von Kontakten mit Debitoren, Kreditoren und Bankkonten
 Um die Kontaktkarte mit einer verknüpften Debitoren-, Kreditoren- oder Bankkontokarte zu synchronisieren, müssen Sie das entsprechende Feld im Abschnitt **Geschäftsbeziehungscode für** auf dem Inforegister **Aktivitäten** auf der Seite **Marketingeinrichtung** ausfüllen.  
 
 Weitere Informationen finden Sie unter [Kontakte mit Debitoren, Kreditoren und Bankkonten synchronisieren](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-employees-and-bank-accounts).
 
-## Suchen nach doppelten Kontakten
+## <a name="searching-for-duplicate-contacts"></a>Suchen nach doppelten Kontakten
 Sie können einrichten, dass jede Anwendung automatisch nach Dubletten sucht, wenn Sie ein neues Kontaktunternehmen erstellen, oder Sie können dies manuell vornehmen, nachdem Sie die Kontakte erstellt haben. Sie können auch einstellen, dass die Anwendung bei jeder Veränderung der Informationen über den Kontakt oder bei seiner Erstellung automatisch die Suchtexte aktualisiert. Sie können den Prozentsatz der Übereinstimmung festlegen, d. h., den Prozentsatz der Suchtexte, der zwischen den beiden Kontakten identisch sein muss, damit sie von der Anwendung als Dubletten erkannt werden. Sie können dies auf dem Inforegister **Duplikate** auf der Seite **Marketingeinrichtung** festlegen.
 
 Wenn Sie den doppelten Kontakt gefunden haben, können Sie die Seite **Doppelte zusammenführen** verwenden, um sie in einen vorhandenen Kontaktdatensatz zusammenzuführen, den Sie erfassen möchten. Weitere Informationen finden Sie unter [Doppelte Datensätze zusammenführen](sales-how-merge-duplicate-records.md).
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 [Kontakte verwalten](marketing-contacts.md)  
 [Kontakt erstellen](marketing-create-contact-companies.md)  
 [Verkaufschancen verwalten](marketing-manage-sales-opportunities.md)  
