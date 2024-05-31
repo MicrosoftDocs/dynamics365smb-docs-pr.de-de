@@ -10,15 +10,15 @@ ms.date: 06/18/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="correct-vat-reports-in-the-german-version"></a>MwSt.-Berichte korrigieren in der deutschen Version
+# MwSt.-Berichte korrigieren in der deutschen Version
 
 Wenn Sie einen Korrektur-MwSt-Bericht übermitteln müssen oder einen übermittelten MwSt-Bericht löschen müssen, müssen Sie einen neuen MwSt-Bericht erstellen. Entsprechend der Gesetzgebung muss ein Korrekturbericht innerhalb eines Monats nach dem ursprünglichen Bericht übermittelt werden.  
 
-Wenn Sie einen Korrekturbericht erstellen, enthält die Erklärung zwei Zeilenarten pro korrigierter Zeile. In einer Zeilenart, „Stornierung“, wird der Basiswert der MwSt. als Stornierung aufgezeichnet. Alle anderen Informationen bleiben dieselben und können nicht bearbeitet werden. In einer neuen Zeile, Korrekturtyp, können Sie nach Bedarf Korrekturen am MwSt.-Betrag vornehmen. Bei der Aktion **Zeilen vorschlagen** wird jedoch der richtige Betrag, basierend auf den Filtern und gebuchten Belegen, vorgeschlagen. Sie können die **USt-IdNr.** nicht korrigieren oder ändern. Jede Periode, die korrigiert wird, benötigt ihren eigenen Korrekturbericht.  
+Wenn Sie einen Korrekturbericht erstellen, enthält die Erklärung zwei Zeilenarten pro korrigierter Zeile. In einer Zeilenart, „Stornierung“, wird der Basiswert der MwSt. als Stornierung aufgezeichnet. Alle anderen Informationen bleiben dieselben und können nicht bearbeitet werden. In einer neuen Zeile, Korrekturtyp, können Sie nach Bedarf Korrekturen am MwSt.-Betrag vornehmen. Bei der Aktion **Zeilen vorschlagen** wird jedoch der richtige Betrag, basierend auf den Filtern und gebuchten Belegen, vorgeschlagen. Sie können die  **Umsatzsteuer-Identifikationsnummer**  weder korrigieren noch ändern. Für jeden zu korrigierenden Zeitraum ist ein eigener Korrekturbericht erforderlich.  
 
 Bei der Aktion **Zeilen vorschlagen**, werden die zu meldenden Werte neu berechnet. Die Aktion **Zeilen korrigieren** wird verwendet, um manuelle Änderungen vorzunehmen. Sie können die Auswirkungen der zwei Aktionen kombinieren, um den Bericht zu korrigieren.  
 
-## <a name="example-corrections-scenarios"></a>Beispielszenarien für Korrekturen
+## Beispielszenarien für Korrekturen
 
 1.  Wenn Sie zusätzliche MwSt-Posten buchen, nachdem Sie den Standardbericht im Berichtszeitraum übermitteln, wählen Sie **Zeilen vorschlagen** in der Gruppe **Verarbeiten** aus, um die aktualisierten Beträge zu erhalten.  
 
@@ -39,7 +39,7 @@ Bei der Aktion **Zeilen vorschlagen**, werden die zu meldenden Werte neu berechn
     > [!NOTE]  
     >  Wenn die aktualisierten Filter einen Debitor oder einen Kreditor ausschließen, erstellt [!INCLUDE[prod_short](../../includes/prod_short.md)] eine Stornierungszeile für den vorherigen berichteten Betrag und einen Korrekturposten mit Betrag 0.
 
-## <a name="to-correct-a-vat-report"></a>So wird ein MwSt-Bericht korrigiert
+## So wird ein MwSt-Bericht korrigiert  
 
 1.  Erstellen Sie einen neuen MwSt-Bericht. Weitere Informationen finden Sie unter [MwSt-Berichte erstellen](how-to-create-vat-reports.md).  
 2.  Füllen Sie die Felder im Inforegister **Allgemein** aus, und legen Sie das Feld **MwSt-Berichtstyp** auf „Korrigiert“ fest.  
@@ -53,7 +53,7 @@ Bei der Aktion **Zeilen vorschlagen**, werden die zu meldenden Werte neu berechn
 5.  Wenn die **Vorschlagszeilen** Aktion keine Vorschläge bietet, die Beträge zu korrigieren, die erforderlich sind, verwenden Sie die Aktion**Zeilen korrigieren**, um Stornierungs- und Korrekturzeilen für den Debitor oder Kreditor einzufügen.  
 6.  Fahren Sie mit dem MwSt-Berichterstellungsprozess fort und geben Sie den Bericht frei.  
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch  
  [Richten Sie die MwSt.-Berichte ein](how-to-set-up-vat-reports.md)
 
 

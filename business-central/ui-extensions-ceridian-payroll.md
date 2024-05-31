@@ -10,7 +10,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="the-ceridian-payroll-extension"></a>Die Ceridian-Gehaltsabrechnungserweiterung
+# Die Ceridian-Gehaltsabrechnungserweiterung
 
 Um Gehaltszahlungen und verwandte Transaktionen zu berücksichtigen, müssen Sie die Gehaltstransaktionen importieren und finanzielle Transaktionen buchen, die durch Ihr Gehaltsabrechnungsanbieter in die Finanzbuchhaltung gebucht werden.
 
@@ -18,7 +18,7 @@ Dazu importieren Sie zuerst eine Datei, die Sie vom Gehaltsabrechnungsanbieter e
 
 Mit der Ceridian-Gehaltsabrechnungserweiterung können Sie die Importgehaltsabrechnungstransaktionen Services Ceridian HR/Payroll (USA) und Ceridian PowerPay (Kanada) importieren.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Anpassen von [!INCLUDE[prod_short](includes/prod_short.md)] mit Erweiterungen](ui-extensions.md)  
 [Finanzen](finance.md)  

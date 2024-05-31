@@ -611,11 +611,11 @@ ms.service: dynamics-365-business-central
 ### [Abschreibungsmethoden](fa-depreciation-methods.md)
 ### [Budgets für Anlagen verwalten](fa-how-manage-budgets.md)
 ### [Anlagen erwerben](fa-how-acquire.md)
+### [Anlagen abschreiben oder amortisieren](fa-how-depreciate-amortize.md)
 ### [Anlagen verwalten](fa-how-maintain.md)
 ### [Anlagen versichern](fa-how-insure.md)
 ### [Anlagen umlagern, aufteilen oder zusammenfassen](fa-how-trans-split-combine.md)
 ### [Anlagen neu bewerten](fa-how-revalue.md)
-### [Anlagen abschreiben oder amortisieren](fa-how-depreciate-amortize.md)
 ### [Anlagen entsorgen oder außer Betrieb nehmen](fa-how-dispose-retire.md)
 ### [Fehlerbehebung bei Anlagenposten](fa-troubleshooting-fa-ledger-entries.md)
 

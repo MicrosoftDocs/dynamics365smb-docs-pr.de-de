@@ -9,7 +9,7 @@ ms.date: 06/24/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Exemplarische Vorgehensweise: Verkauf, Montage und Liefern von Kits
+# Exemplarische Vorgehensweise: Verkauf, Montage und Liefern von Kits
 
 <!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
@@ -19,18 +19,18 @@ Es sind spezielle Funktionen vorhanden, um die Lieferung von Auftragsmontagemeng
 
 In Basis-Lagerkonfigurationen bucht der zuständige Lagermitarbeiter für die jeweiligen Verkaufsauftragszeilen eine Lagerkommissionierung, wenn eine Auftragsmontagemenge für die Lieferung bereitsteht. Dies erstellt eine Lagerbestandsumlagerung für die Komponenten und bucht den Montageausstoß und die Verkaufsauftragslieferung. Weitere Informationen finden Sie unter [Verwenden von Auftragsmontageartikeln in Lagerkommissionierungen](warehouse-how-to-pick-items-with-inventory-picks.md#handling-assemble-to-order-items-with-inventory-picks).  
 
-## <a name="about-this-walkthrough"></a>Informationen zu dieser exemplarischen Vorgehensweise
+## Informationen zu dieser exemplarischen Vorgehensweise
 
 In dieser exemplarischen Vorgehensweise werden folgende Aufgaben erläutert:  
 
-### <a name="setting-up-assembly-items"></a>Montageartikel einrichten
+### Montageartikel einrichten
 
 Montageartikel sind durch ihre Beschaffungsmethode und die Montagestückliste charakterisiert. Die Montagerichtlinie des Artikels kann entweder Programmfertigung (ATO) oder Lagerfertigung (ATS) sein. Dieser Abschnitt behandelt die folgenden Aufgaben:  
 
 -   Einrichten der korrekten Beschaffungsmethode und der Montagerichtlinie auf einer neuen Montageartikelkarte.  
 -   Erstellen einer Montagestückliste, die die Montagekomponenten und die Ressource auflistet, die zu dem Montageartikel gehören.  
 
-### <a name="selling-customized-assembly-items"></a>Verkauf von benutzerdefinierten Montageartikeln
+### Verkauf von benutzerdefinierten Montageartikeln
 
 [!INCLUDE[prod_short](includes/prod_short.md)] bietet die Flexibilität, eine Lagermenge und eine Programmfertigungsmenge in einer Verkaufsauftragszeile einzugeben. Dieser Abschnitt behandelt die folgenden Aufgaben:  
 
@@ -40,14 +40,14 @@ Montageartikel sind durch ihre Beschaffungsmethode und die Montagestückliste ch
 -   Erstellen einer Mischverkaufsauftragszeile, in der die Teile der Vertriebsmenge aus dem Lagerbestand bereitgestellt werden und der Rest vor dem Warenausgang montiert werden muss.  
 -   Verstehen der ATO-Verfügbarkeitswarnungen.  
 
-### <a name="planning-for-assembly-items"></a>Planung für Montageartikel
+### Planung für Montageartikel
 
 Montagenachfrage und -angebot werden vom Planungssystem ähnlich wie für Einkauf, Umlagerung und Produktion behandelt. Dieser Abschnitt behandelt die folgenden Aufgaben:  
 
 -   Durchführen einer Neuplanung für Artikel mit Verkaufsbedarf für assemblierte Bedarfssicherung.  
 -   Generierung eines Montageauftrags zur Erfüllung einer Verkaufspositionsmenge durch das angefragte Lieferdatum.  
 
-### <a name="assembling-items"></a>Artikelmontage
+### Artikelmontage
 
 Montageaufträge funktionieren in ähnlicher Weise wie Fertigungsaufträge; sie erwarten, dass der Verbrauch und die Ausgabe direkt aus dem Auftrag erfasst und gebucht werden. Wenn die Artikel zum Bestand montiert werden, hat der Montagearbeiter vollständigen Zugriff auf alle Kopf- und Zeilenfelder. Wenn die Artikel für einen Auftrag montiert werden, in dem dem Debitor Menge und Datum zugesagt werden, können bestimmte Felder im Montageauftrag nicht bearbeitet werden. In diesem Fall wird die Montagebuchung aus dem Warenausgang für den verknüpften Verkaufsauftrag ausgeführt. Dieser Abschnitt behandelt die folgenden Aufgaben.  
 
@@ -55,7 +55,7 @@ Montageaufträge funktionieren in ähnlicher Weise wie Fertigungsaufträge; sie 
 -   Aufrufen einer Warenausgangszeile aus einem ATO-Montageauftrag zur Erfassung von Montagearbeit.  
 -   Aufrufen eines ATO-Montageauftrags aus einer Warenausgangszeile zur Prüfung der automatisch eingegebenen Daten.  
 
-### <a name="shipping-assembly-items-from-stock-and-assembled-to-order"></a>Versand von Montageartikeln, aus Lagerbestand und nach Auftrag montiert
+### Versand von Montageartikeln, aus Lagerbestand und nach Auftrag montiert
 
 Es sind spezielle Funktionen vorhanden, um den Versand von Auftragsmontagemengen zu steuern. Dieser Abschnitt behandelt die folgenden Aufgaben:  
 
@@ -65,7 +65,7 @@ Es sind spezielle Funktionen vorhanden, um den Versand von Auftragsmontagemengen
 -   Versenden von Auftragsmontagemengen.  
 -   Versenden von Bestandsmontageartikeln.  
 
-## <a name="roles"></a>Rollen
+## Rollen
 
 Die Aufgaben in dieser Demonstration werden von den folgenden Benutzerrollen ausgeführt:  
 
@@ -75,7 +75,7 @@ Die Aufgaben in dieser Demonstration werden von den folgenden Benutzerrollen aus
 -   Kommissionierer  
 -   Lieferverantwortlicher  
 
-## <a name="prerequisites"></a>Voraussetzungen
+## Voraussetzungen
 
 Für diese exemplarische Vorgehensweise gelten folgende Voraussetzungen:  
 
@@ -109,7 +109,7 @@ Entfernen Sie die Standard-Beschaffungszeit für interne Vorgänge, indem Sie di
 
 <!-- Create inventory for assembly components by following [Prepare Sample Data](walkthrough-selling-assembling-and-shipping-kits.md#prepare-sample-data).   -->
 
-## <a name="story"></a>Hintergrund
+## Hintergrund
 
 Am 23. Januar akzeptiert Martha, die Verkaufsauftragsverarbeiterin, einen Auftrag von The Device Shop für drei Einheiten von Kit B, wobei es sich um einen ATO-Artikel handelt. Alle drei Einheiten werden individuell angepasst und müssen eine leistungsstarke Grafikkarte und einen zusätzlichen RAM-Block enthalten. Die Laufwerke werden auf DWD aktualisiert, da die CD-Laufwerke nicht verfügbar sind. Martha weiß, dass die Einheiten sofort montiert werden können und sie lässt daher das vorgeschlagene Lieferdatum vom 23. Januar unverändert.  
 
@@ -137,7 +137,7 @@ Sammy verpackt die zehn ATS-Einheiten mit den fünf ATO-Einheiten, die Elfriede 
 
 Wenn der Auftrag später als vollständig fakturiert gebucht wird, werden der Verkaufsauftrag und die verknüpften Montageaufträge entfernt.  
 
-## <a name="prepare-sample-data"></a>Vorbereiten der Beispieldaten
+## Vorbereiten der Beispieldaten
 
 1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Whse. Artikel Buch.-Blätter** ein und wählen Sie dann den zugehörigen Link.  
 2.  Wählen Sie das Feld **Buch.-Blattname**, und wählen Sie anschließend das Standardjournal aus.  
@@ -161,7 +161,7 @@ Wenn der Auftrag später als vollständig fakturiert gebucht wird, werden der Ve
 7.  Auf der Seite **Ausgleich berechnen** auszuführen, wählen Sie die Schaltfläche **OK** aus.  
 8.  Wählen Sie auf der Seite **Einzelpostenjournal** die Aktion **Post** und anschließend die Schaltfläche **Ja**.  
 
-### <a name="creating-the-assembly-items"></a>Erstellen der Montageartikel
+### Erstellen der Montageartikel  
 
 1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Elemente** ein, und wählen Sie dann den zugehörigen Link.  
 2.  Wählen Sie die Aktion **Neu**.  
@@ -212,7 +212,7 @@ Wenn der Auftrag später als vollständig fakturiert gebucht wird, werden der Ve
     |Artikel|80210|1|  
     |Ressource|Laura|1|  
 
-### <a name="selling-the-assembly-items"></a>Verlaufen der Montageartikel
+### Verlaufen der Montageartikel  
 
 1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Verkaufsaufträge** ein, und wählen Sie dann den zugehörigen Link.  
 2.  Wählen Sie die Aktion **Neu**.  
@@ -240,7 +240,7 @@ Wenn der Auftrag später als vollständig fakturiert gebucht wird, werden der Ve
 7.  Auf der Montageauftragszeile für Artikel 80210, wählen Sie **Nr.** aus und klicken Sie anschließend auf Artikel 80209.  
 8.  Erstellen Sie eine neue Montageauftragszeile mit den folgenden Informationen.  
 
-    |Typ|Nr.|Komponentenmenge|  
+    |Typ|Anz.|Komponentenmenge|  
     |----------|---------|------------------|  
     |Option|80203|1|  
 
@@ -254,7 +254,7 @@ Wenn der Auftrag später als vollständig fakturiert gebucht wird, werden der Ve
 13. Wählen Sie auf dem Inforegister **Zeilen** **Zeile** aus, wählen Sie **Auftragsmontage**, und klicken Sie anschließend auf **Auftragsmontagezeilen**.  
 14. Erstellen Sie auf der Seite **Auftragsmontagezeile** eine neue Montageauftragszeile mit den folgenden Informationen.  
 
-    |Typ|Nr.|Komponentenmenge|  
+    |Typ|Anz.|Komponentenmenge|  
     |----------|---------|------------------|  
     |Artikel|80203|1|  
 
@@ -265,13 +265,13 @@ Wenn der Auftrag später als vollständig fakturiert gebucht wird, werden der Ve
 17. Wählen Sie die Option **Waren anlegen. Versand** Aktion.  
 18. Schließen Sie den Verkaufsauftrag.  
 
-### <a name="planning-for-the-unavailable-ats-items"></a>Planen für die nicht verfügbaren ATS-Artikel
+### Planen für die nicht verfügbaren ATS-Artikel  
 
 1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Planungsarbeitsblatt** ein und wählen Sie dann den zugehörigen Link.  
 2.  Wählen Sie die **Neuplanung berechnen** Aktion aus.  
 3.  Stellen Sie auf der Seite **Planung berechnen** die folgenden Filter ein.  
 
-    |Startdatum|Enddatum|Nr.|  
+    |Startdatum|Enddatum|Anz.|  
     |-------------------|-----------------|---------|  
     |01-23-2014|01-27-2014|Kit A – Basis-PC|  
 
@@ -283,7 +283,7 @@ Wenn der Auftrag später als vollständig fakturiert gebucht wird, werden der Ve
 6.  Wählen Sie auf der Seite **Ereignismeld. durchf.** das Feld **Montageauftrag** und dann **Montageaufträge erstellen**.  
 7.  Wählen Sie die Schaltfläche **OK** aus.  
 
-### <a name="assembling-and-shipping-the-first-ato-quantity"></a>Montieren und Versenden der ersten ATO-Menge
+### Montieren und Versenden der ersten ATO-Menge  
 
 1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Warenausgang** ein und wählen Sie dann den zugehörigen Link.  
 
@@ -343,7 +343,7 @@ Wenn der Auftrag später als vollständig fakturiert gebucht wird, werden der Ve
 
     Die Lageraktivitäten zum Erfüllen der ersten Verkaufsauftragszeile bis 23. Januar sind abgeschlossen. Als Nächstes erfüllen Sie die Verkaufsauftragszeilen, die am 27. Januar geliefert werden.  
 
-### <a name="assembling-and-recording-the-second-ato-quantity"></a>Montieren und erfassen der zweiten ATO-Menge
+### Montieren und erfassen der zweiten ATO-Menge  
 
 1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Montageaufträge** ein, und wählen Sie dann den entsprechenden Link.  
 
@@ -367,7 +367,7 @@ Wenn der Auftrag später als vollständig fakturiert gebucht wird, werden der Ve
 
 5.  Schließen Sie die Seite **Montageauftrag**.  
 
-### <a name="assembling-the-ats-quantity"></a>Montieren der ATS-Menge
+### Montieren der ATS-Menge  
 
 1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Montageaufträge** ein, und wählen Sie dann den entsprechenden Link.  
 2.  Öffnen Sie den Montageauftrag für zehn Einheiten des Kit A.  
@@ -395,7 +395,7 @@ Wenn der Auftrag später als vollständig fakturiert gebucht wird, werden der Ve
 
     Beachten Sie, dass der Montageauftrag aus der Liste der offenen Aufträge entfernt wurde.  
 
-### <a name="shipping-the-remaining-items-partly-from-stock-and-partly-assembled-to-the-order"></a>Lieferung der übrigen Artikel, teilweise aus dem Lagerbestand und teilweise nach Auftrag montiert
+### Lieferung der übrigen Artikel, teilweise aus dem Lagerbestand und teilweise nach Auftrag montiert  
 
 1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Warenausgang** ein und wählen Sie dann den zugehörigen Link.  
 2.  Öffnen Sie den neuesten Warenausgang, der am Lagerort WHITE erstellt wurde.  
@@ -435,7 +435,7 @@ Wenn der Auftrag später als vollständig fakturiert gebucht wird, werden der Ve
 
     Wenn der Geräte-Shop für den Erhalt der 18 PCs von CRONUS bezahlt, werden der Kundenauftrag und die damit verbundenen Montageaufträge entfernt.  
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
  [Auftragsmontage und Lagermontage verstehen](assembly-assemble-to-order-or-assemble-to-stock.md)   
  [Artikel montieren](assembly-how-to-assemble-items.md)   

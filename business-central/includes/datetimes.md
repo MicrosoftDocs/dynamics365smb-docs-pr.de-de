@@ -19,17 +19,17 @@ In der folgenden Tabelle finden Sie eine Übersicht über die Möglichkeiten zum
 |1.12.22 5|01-12-22 05:00:00|
 |1.12.22|01-12-22 00:00:00|
 |11 12|11.aktueller Monat.aktuelles Jahr 12:00:00|
-|1112 12|11.12.aktuelles Jahr 12:00:00|
+|1112 12|11-12-aktuelles Jahr 12:00:00|
 |"h" für heute|heutiges Datum 00:00:00|
-|Z… Zeit|heutiges Datum aktuelle Zeit|
+|t Zeit|heutiges Datum aktuelle Zeit|
 |h 10:30|heutiges Datum 10:30:00|
 |h 3:3:3|heutiges Datum 03:03:03|
 |"a" oder "Arbeitsdatum"|das Arbeitsdatum 00:00:00|
-|"mo" oder "Montag"|Montag der aktuellen Woche 00:00:00|
-|"di" oder "Dienstag"|Dienstag der aktuellen Woche 00:00:00|
+|"m" oder "Montag"|Montag der aktuellen Woche 00:00:00|
+|"d" oder "Dienstag"|Dienstag der aktuellen Woche 00:00:00|
 |"mi" oder "Mittwoch"|Mittwoch der aktuellen Woche 00:00:00|
 |"do" oder "Donnerstag"|Donnerstag der aktuellen Woche 00:00:00|
-|"fr" oder "Freitag"|Freitag der aktuellen Woche 00:00:00|
+|"f" oder "Freitag"|Freitag der aktuellen Woche 00:00:00|
 |"s" oder "Sonnabend"|Samstag der aktuellen Woche 00:00:00|
 |"so" oder "Sonntag"|Sonntag der aktuellen Woche 00:00:00|
 |di 10:30|Dienstag der aktuellen Woche 10:30:00|

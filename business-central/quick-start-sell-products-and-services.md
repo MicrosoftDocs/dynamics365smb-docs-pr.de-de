@@ -10,11 +10,11 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="sales-quick-start"></a>Schnellstart Verkauf
+# Schnellstart Verkauf
 
 Um Produkte und Dienstleistungen verkaufen zu können, müssen Sie zunächst Artikel und Kunden festlegen. Sobald das geschehen ist, können Sie mit der Registrierung von Verkaufsaufträgen und dem Versand von Rechnungen beginnen.
 
-## <a name="set-up-items-to-sell"></a>Festlegen von zu verkaufenden Elementen
+## Festlegen von zu verkaufenden Elementen
 
 Dieses Video zeigt Ihnen, wie Sie unter [!INCLUDE[prod_short](includes/prod_short.md)] einen Artikel zum Verkauf festlegen.
 
@@ -22,13 +22,13 @@ Dieses Video zeigt Ihnen, wie Sie unter [!INCLUDE[prod_short](includes/prod_shor
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE47eLx?rel=0]
 
-### <a name="set-up-a-new-item"></a>Einen neuen Artikel festlegen
+### Einen neuen Artikel festlegen
 
 [!INCLUDE[create_new_item](includes/create_new_item.md)]
 
 Weitere Informationen und zusätzliche Möglichkeiten, die Sie beim Einrichten von Artikeln nutzen können, finden Sie unter [Neue Artikel registrieren](inventory-how-register-new-items.md).  
 
-## <a name="set-up-customers"></a>Kunden festlegen
+## Kunden festlegen
 
 Dieses Video zeigt, wie Sie in [!INCLUDE[prod_short](includes/prod_short.md)] einen neuen Debitor festlegen.  
 
@@ -36,17 +36,17 @@ Dieses Video zeigt, wie Sie in [!INCLUDE[prod_short](includes/prod_short.md)] ei
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3PZsM]
 
-### <a name="set-up-a-new-customer"></a>Einrichten eines neuen Debitors
+### Einrichten eines neuen Debitors
 
 [!INCLUDE[create_new_customer](includes/create_new_customer.md)]
 
 Weitere Informationen und zusätzliche Dinge, die Sie beim Einrichten von Kunden festlegen können, finden Sie unter [Neue Kunden registrieren](sales-how-register-new-customers.md)
 
-## <a name="create-a-sales-order"></a>Einen Verkaufsauftrag erstellen
+## Einen Verkaufsauftrag erstellen  
 
 Wenn Sie etwas an einen Kunden verkaufen, haben Sie zwei Möglichkeiten. Die erste und einfachste ist, einfach eine Verkaufsrechnung zu erstellen. Wenn Ihr Verkaufsprozess jedoch komplexer ist, zum Beispiel wenn Sie nur Teile einer Bestellmenge versenden, verwenden Sie einen Verkaufsauftrag.
 
-### <a name="to-create-a-sales-order"></a>So erstellen Sie einen Verkaufsauftrag
+### So erstellen Sie einen Verkaufsauftrag  
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet 10.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Verkaufsaufträge** ein, und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie **Neu** aus, um einen neuen Eintrag zu erstellen.
@@ -76,11 +76,11 @@ Wenn Sie etwas an einen Kunden verkaufen, haben Sie zwei Möglichkeiten. Die ers
 
 Weitere Informationen und zusätzliche Möglichkeiten, die Sie beim Erstellen von Kundenverkaufsaufträgen haben, finden Sie unter [Produkte mit einem Verkaufsauftrag für Kunden verkaufen](sales-how-sell-products.md).  
 
-## <a name="create-a-sales-invoice"></a>Eine Verkaufsrechnung erstellen
+## Eine Verkaufsrechnung erstellen
 
 Wenn Sie eine Verkaufsrechnung erstellen und buchen, erstellen Sie nicht nur den Beleg, den Sie an den Kunden senden, sondern Sie erstellen auch die zugehörigen Mengen- und Wertangaben in [!INCLUDE[prod_short](includes/prod_short.md)].
 
-### <a name="to-create-and-post-a-sales-invoice"></a>So erstellen und buchen Sie eine Verkaufsrechnung
+### So erstellen und buchen Sie eine Verkaufsrechnung  
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet 20.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Verkaufsrechnungen** ein und wählen Sie dann den zugehörigen Link.  
 
@@ -106,7 +106,7 @@ Wenn Sie eine Verkaufsrechnung erstellen und buchen, erstellen Sie nicht nur den
 
 Weitere Informationen und zusätzliche Möglichkeiten beim Erstellen von Verkaufsrechnungen für Kunden finden Sie unter [Verkaufsrechnungen](sales-how-invoice-sales.md).
 
-## <a name="see-also"></a>Weitere Informationen
+## Weitere Informationen
 
 [Business Central Schnellstarts](quick-start-business-central.md)  
 [Vertrieb – Übersicht](sales-manage-sales.md)  

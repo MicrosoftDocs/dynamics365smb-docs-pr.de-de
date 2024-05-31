@@ -10,11 +10,11 @@ ms.author: kepontop
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="using-key-performance-indicators-kpis-to-meet-your-business-goals"></a>Ihre geschäftlichen Ziele mithilfe von Key Performance Indicators (KPIs) erreichen
+# Ihre geschäftlichen Ziele mithilfe von Key Performance Indicators (KPIs) erreichen
 
 Ein Key Performance Indicator (KPI) ist ein messbarer Wert, der zeigt, wie effektiv Sie Ihre Ziele erreichen. Betrachten Sie KPIs als Scorecard Ihres Unternehmens, eine Möglichkeit, zu messen, ob Sie Ihre Ziele erreichen oder nicht.
 
-## <a name="why-kpis-matter"></a>Warum KPIs wichtig sind
+## Warum KPIs wichtig sind
 
 Durch die Identifizierung und Verfolgung von KPIs erfahren Sie, ob Ihr Unternehmen auf dem richtigen Weg ist oder ob Sie den Kurs ändern sollten, um nicht Zeit und Geld zu verschwenden. Bei richtiger Anwendung sind KPIs leistungsstarke Tools, die Ihnen bei Folgendem helfen:
 
@@ -25,7 +25,7 @@ Durch die Identifizierung und Verfolgung von KPIs erfahren Sie, ob Ihr Unternehm
 - Motivieren Sie Teammitglieder.
 - Treffen Sie schneller bessere Entscheidungen.
 
-## <a name="get-started-identifying-your-kpis"></a>Erste Schritte mit der Identifizierung Ihrer KPIs
+## Erste Schritte mit der Identifizierung Ihrer KPIs
 
 Wie beginnen Sie also damit, die KPIs zu identifizieren, die für Ihr Unternehmen wichtig sind? Klären Sie als Erstes Ihre strategische Ziele – insgesamt und pro Abteilung.
 
@@ -35,7 +35,7 @@ Identifizieren Sie als Nächstes die KPI-Ziele, auf die Sie hinarbeiten, und wie
 
 Sprechen Sie mit Ihrem Team und fördern Sie einen offenen Dialog über KPIs und Ziele. Sind sie zu ehrgeizig? Zu leicht? Ziele sollten eine Herausforderung sein. Wenn sie jedoch zu hochgesteckt sind oder vollständig auf Kennzahlen beruhen, über die Ihr Team keine Kontrolle hat, wäre es ratsam, sie noch einmal zu überdenken. Sehen Sie sich auch die Aktivitäten und Taktiken an, mit denen Ihr Unternehmen diese Ziele erreichen soll. Nehmen Sie sich abschließend ausreichend Zeit, um zu beurteilen, wo Sie heute stehen. Dies ist dann Ihr Ausgangspunkt für die KPIs.
 
-## <a name="get-to-know-the-different-types-of-kpis"></a>Die verschiedenen Arten von KPIs kennenlernen
+## Die verschiedenen Arten von KPIs kennenlernen
 
 Die richtigen KPIs für die Nachverfolgung zu identifizieren wird einfacher, wenn Sie die am häufigsten zur Fortschrittsmessung verwendeten KPI-Typen besser verstehen.
 
@@ -47,7 +47,7 @@ Die richtigen KPIs für die Nachverfolgung zu identifizieren wird einfacher, wen
 
 Weisen Sie jeder KPI, die Sie verfolgen möchten, einen Verantwortlichen zu und vereinbaren Sie eine Frequenz der Nachverfolgung. Unabhängig davon, welche KPIs Sie nachverfolgen möchten, die Verwendung einer KPI-Plattform oder eines KPI-Tools ist für die Zusammenarbeit mit Ihrem Team an KPI-Definitionen von entscheidender Bedeutung. Indem Sie jede KPI gemeinsam festlegen, Kontextdaten erfassen und diese in einer einzigen Ansicht zusammenführen, ermöglichen Sie punktgenaue Aktionen in Echtzeit.
 
-## <a name="kpi-reporting"></a>KPI-Berichte
+## KPI-Berichte
 
 KPI-Berichte bringen die auf dem KPI-Dashboard dargestellten Informationen auf eine neue Ebene. Sie dringen tiefer in die Daten vor, um detailliertere Erkenntnisse und Analysen zu gewinnen.
 
@@ -68,7 +68,7 @@ Weitere Überlegungen zum Erstellen Ihrer KPI-Berichte sind unter anderem:
 - Präsentieren Sie nur die relevanten KPIs, damit Sie den Bericht nicht mit KPIs überfrachten, die mit den Berichtszielen nichts zu tun haben.
 - Stellen Sie sicher, dass Ihre Berichterstattung für die Zielgruppe klar, leicht verständlich und umsetzbar ist.
 
-## <a name="tools-for-implementing-kpis"></a>Tools zur Implementierung von KPIs
+## Tools zur Implementierung von KPIs
 
 Die folgende Tabelle enthält Links zu Artikeln über die Verwendung von Business-Intelligence- und Berichtserstellungstools mit [!INCLUDE[prod_short](includes/prod_short.md)]-Daten zur Implementierung von KPIs.
 
@@ -79,7 +79,7 @@ Die folgende Tabelle enthält Links zu Artikeln über die Verwendung von Busines
 | [Finanzauswertungen mit Microsoft Excel analysieren](finance-analyze-excel.md) |
 | Integrieren Sie externe Business Intelligence Tools mit [!INCLUDE[prod_short](includes/prod_short.md)].| [Externe Business Intelligence Tools](reports-external-analysis.md) |
 
-## <a name="kpi-best-practices"></a>Bewährte Methoden bei KPIs
+## Bewährte Methoden bei KPIs
 
 Damit Sie die Leistungskraft von KPIs erfolgreich nutzen können, haben wir einige Tipps für den Einstieg zusammengestellt.
 
@@ -96,7 +96,7 @@ KPIs überwachen:
 - Legen Sie einen Rhythmus für die Überwachung von und Reaktion auf KPIs fest. Werden KPI-Dashboards täglich oder wöchentlich überwacht? Werden erst nach der Berichterstattung Maßnahmen ergriffen oder sind Stakeholder und/oder Teammitglieder befugt, die Taktiken bei Bedarf anzupassen?
 - Stellen Sie sicher, dass Sie über einen einfachen, durchgängigen Datenschutz für Datendashboards verfügen, inklusive Kontrollmaßnahmen für die Weitergabe nach außerhalb der Organisation.
 
-## <a name="common-kpi-mistakes"></a>Häufige KPI-Fehler
+## Häufige KPI-Fehler
 
 Vermeiden Sie diese häufigen KPI-Fehler:
 
@@ -106,7 +106,7 @@ Vermeiden Sie diese häufigen KPI-Fehler:
 - KPIs ohne Verantwortliche nachverfolgen. Verantwortlichkeit ist wichtig, nicht nur im Hinblick auf die Ergebnisse, sondern auch auf den Prozess. Jeder KPI sollte eine Verantwortlichen haben, der für die Überwachung, Berichterstattung, Analyse und Maßnahmen verantwortlich ist.
 - Keine Maßnahmen hinsichtlich Ihrer KPIs ergreifen. Unabhängig davon, ob Sie Ihre Ziele erreichen oder dahinter zurückfallen, KPIs sind Werkzeuge, die Ihnen dabei helfen, bessere Entscheidungen zu treffen. Verfolgen Sie sie also nicht nur nach, weil man das eben tut, sondern ergreifen Sie daraufhin auch Maßnahmen.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Analysen – Übersicht](reports-bi-reporting.md)  
 [Verwendung von Finanzberichten für die Erstellung von Finanzauswertungen und KPIs](bi.md)  

@@ -24,7 +24,7 @@ highlightedContent:
       url: /training/dynamics365/business-central
     - title: Problembehandlung
       itemType: concept
-      url: /dynamics365/business-central/across-faq
+      url: /troubleshoot/dynamics-365/business-central/welcome-business-central
 additionalContent:
   sections:
     - title: Umsetzung

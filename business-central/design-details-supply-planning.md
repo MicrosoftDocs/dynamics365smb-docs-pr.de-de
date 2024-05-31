@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.keywords: 'design, supply, planning, reordering, replenishment'
 ms.service: dynamics-365-business-central
 ---
-# <a name="design-details-supply-planning"></a>Designdetails: Vorratsplanung
+# Designdetails: Vorratsplanung
 
 Dieser Abschnitt stellt einen detaillierten technischen Einblick in die Konzepte und Prinzipien in den Beschaffungsplanungsfunktionen in [!INCLUDE[prod_short](includes/prod_short.md)] verwendet werden.  
 
@@ -21,11 +21,11 @@ Die Artikel erklären, wie das Planungssystem funktioniert:
 * Beschreibt die Logik des zentralen Mechanismus, des Angebotsausgleichs
 * Erläutern, wie Nachbestellungsrichtlinien bei der Bestandsplanung verwendet werden  
 
-## <a name="in-this-section"></a>In diesem Abschnitt
+## In diesem Abschnitt  
 
 [Designdetails: Zentrale Konzepte des Planungssystems](design-details-central-concepts-of-the-planning-system.md)  
 [Designdetails: Reservierung, Auftragsnachverfolgung und Aktionsmeldungen](design-details-reservation-order-tracking-and-action-messaging.md)  
-[Designdetails: Ausgleich von Bedarf und Vorrat](design-details-balancing-demand-and-supply.md)  
+[Designdetails: Ausgleich von Nachfrage und Angebot](design-details-balancing-demand-and-supply.md)  
 [Designdetails: Umgang mit Wiederbeschaffungsverfahren](design-details-handling-reordering-policies.md)  
 [Designdetails: Planungsparameter](design-details-planning-parameters.md)  
 [Designdetails: Planungs-Zuordnungstabelle](design-details-planning-assignment-table.md)  

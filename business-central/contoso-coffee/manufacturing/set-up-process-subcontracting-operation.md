@@ -8,17 +8,17 @@ author: brentholtorf
 ms.author: bholtorf
 ---
 
-# <a name="set-up-and-process-a-subcontracting-operation"></a>Fremdarbeitsvorgang einrichten und verarbeiten
+# Fremdarbeitsvorgang einrichten und verarbeiten
 
 In diesem Artikel führen wir Sie durch die Schritte zur Verwendung der Demodaten von Contoso Coffee für Fremdarbeiten.
 
-## <a name="scenario"></a>Szenario
+## Szenario
 
 Sie sind der Produktionsplaner bei Contoso Coffee. Aufgrund von Kapazitätsengpässen planen Sie, einen Subunternehmer mit der Produktion des Artikels **SP-SCM1009, Airpot** zu beauftragen.
 
 Hier erstellen Sie mit Arbeitsplan – SP-SCM1009-SUB-2 einen neuen freigegebenen Produktionsauftrag für 12 Einheiten des Artikels SP-SCM1009, Airpot. Verwenden Sie das Unterauftragsarbeitsblatt, um eine Bestellung für die Produktion zu generieren, und schließen Sie dann den Vorgang ab, indem Sie die Bestellung erhalten und in Rechnung stellen.
 
-## <a name="steps"></a>Schritte
+## Schritte
 
 1. Erstellen Sie einen neuen freigegebenen Produktionsauftrag für 12 Einheiten des Artikels SP-SCM1009, Airpot.
 
@@ -45,7 +45,7 @@ Hier erstellen Sie mit Arbeitsplan – SP-SCM1009-SUB-2 einen neuen freigegebene
 
 3. Verwenden Sie das Arbeitsblatt für Fremdarbeit, um eine Bestellung für den fremdvergebenen Arbeitsgang für den Produktionsauftrag zu generieren, den Sie in Schritt 2 erstellt haben.  
 
-    1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](../../media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Fremdarbeitenarbeitsblätter** ein, und wählen Sie dann den zugehörigen Link.  
+    1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](../../media/ui-search/search_small.png "Wie möchten Sie weiter verfahren") Symbol. Geben Sie **Fremdarbeitenarbeitsblätter** ein, und wählen Sie dann den zugehörigen Link.  
 
     2. Wählen Sie die Aktion **Fremdarbeit berechnen** aus.
 
@@ -59,7 +59,7 @@ Hier erstellen Sie mit Arbeitsplan – SP-SCM1009-SUB-2 einen neuen freigegebene
 
 4. Die Bestellung entgegennehmen und fakturieren.  
 
-    1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](../../media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Einkaufsbestellungen** ein, und wählen Sie dann den zugehörigen Link.  
+    1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](../../media/ui-search/search_small.png "Wie möchten Sie weiter verfahren") Symbol. Geben Sie **Einkaufsbestellungen** ein, und wählen Sie dann den zugehörigen Link.  
 
     2. In der Liste **Einkaufsbestellungen** suchen Sie nach der Bestellung des Kreditors 82000 Subunternehmer.
 
@@ -73,6 +73,6 @@ Hier erstellen Sie mit Arbeitsplan – SP-SCM1009-SUB-2 einen neuen freigegebene
 
 Die Ausgabe des Artikels SP-SCM1009 Airpot ist jetzt registriert.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Einführung in Contoso Coffee Demo Data](../contoso-coffee-intro.md)  

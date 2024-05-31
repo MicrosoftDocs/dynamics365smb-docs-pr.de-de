@@ -14,7 +14,33 @@ ms.custom: bap-template
 
 # Verwalten von Anlagen
 
-Die Anlagenfunktion in [!INCLUDE[prod_short](includes/prod_short.md)] gibt Ihnen einen Überblick über Ihre Anlagen und hilft, sicherzustellen, dass sie korrekt abgeschrieben werden. Außerdem können Sie darüber Wartungskosten nachverfolgen, Versicherungen verwalten, Anlagentransaktionen buchen und verschiedene Berichte und Statistiken generieren.
+Die Anlagenfunktion in [!INCLUDE[prod_short](includes/prod_short.md)] gibt Ihnen einen Überblick über Ihre Anlagen und hilft, sicherzustellen, dass sie korrekt abgeschrieben werden. Darüber hinaus unterstützt es Sie bei der Verfolgung von Wartungskosten, der Verwaltung von Versicherungspolicen, der Buchung von Anlagevermögenstransaktionen und der Erstellung verschiedener Berichte und Statistiken.
+
+## Was ist ein Anlagevermögen?
+
+Anlagevermögen unterscheidet sich von anderen Gegenständen in Ihrem Lager. Ein Anlagevermögen, auch Kapitalvermögen genannt, ist ein materielles Eigentum, eine Anlage oder eine Ausrüstung (PP&E), die Sie besitzen oder verwalten in der Erwartung, dass sie weiterhin zur Erzielung von Einkommen beiträgt. Ein Vermögenswert gilt als Anlagegut, wenn es sich um einen Gegenstand handelt, den Ihr Unternehmen innerhalb des nächsten Kalenderjahres nicht verbraucht, verkauft oder in Bargeld umwandelt. Anlagevermögen unterscheidet sich vom Umlaufvermögen, das in bar vorliegt oder innerhalb der nächsten 12 Monate in Bargeld umgewandelt werden soll. Anlagevermögen unterscheidet sich auch von Ihrem Lagerbestand, da dieser in der Regel innerhalb kurzer Zeit verbraucht wird.
+
+## Arten von Anlagevermögen
+
+Unternehmen investieren typischerweise in einige Arten von Anlagevermögen. Einige Beispiele sind:
+
+- Gebäude und Einrichtungen
+- Computerausrüstung und Software
+- Möbel und Einrichtungsgegenstände
+- Maschinen
+- Fuhrpark
+
+## Anlagenbuchhaltung verstehen
+
+Bei der Anlagenbuchhaltung handelt es sich um eine präzise Buchführung über Ihr Anlagevermögen. Diese Aufzeichnungen enthalten Einzelheiten zu den fünf Phasen im Lebenszyklus eines Vermögenswerts. Nach dem Erstkauf umfasst der Lebenszyklus jedes Anlagevermögens mindestens drei der folgenden Phasen:
+
+- Anschaffung: Sie fügen Ihren Büchern ein neues Anlagevermögen hinzu.
+- Abschreibung: Sie erfassen den periodischen Wertverlust eines Vermögenswerts, den Sie mithilfe einer Abschreibungsmethode berechnen. Weitere Informationen finden Sie unter  [FA-Abschreibungsberechnung](LocalFunctionality/India/FA_Depreciation.md).
+- Neubewertung: Sie erfassen eine Einschätzung des aktuellen Marktwerts eines Vermögenswerts. Weitere Informationen finden Sie unter  [Anlagevermögen neu bewerten](fa-how-revalue.md).
+- Wertminderung: Sie erfassen eine Wertminderung aufgrund von Ereignissen oder Umständen.
+- Entsorgung: Sie verkaufen, verschrotten oder entsorgen ein Anlagegut am Ende seiner Nutzungsdauer auf andere Weise.
+
+Zu den Betriebsprüfungen zählt auch die eingehende Prüfung der Buchhaltungsunterlagen Ihres Unternehmens nach Abschluss des Geschäftsjahres. Bei internen oder externen Prüfungen stellen Sie unter Umständen Unstimmigkeiten oder Unterschiede zwischen Ihren Aufzeichnungen und dem tatsächlichen Zustand Ihres Vermögens fest. Audits sorgen für Transparenz in Ihrem Vermögen und Ihrer Buchhaltung, wenn Sie mehr Geld verlieren als erwartet.
 
 ## Videoübersicht
 
@@ -61,7 +87,7 @@ Sie müssen für jede Anlage eine Karte mit entsprechenden Informationen darübe
 
 Um Anlagenabscheibungen und andere finanzielle Transaktionen rund um Anlagen nachzuverfolgen, richten Sie mindestens ein AfA-Buch für jede Anlage ein. Es gibt mehrere Schritte, um Anlagen abzuschreiben:
 
-1. Führen Sie einen Bericht aus, um die periodische Abschreibung zu berechnen.
+1. Führen Sie einen Bericht aus, der die periodische Abschreibung berechnet.
 1. Gehen Sie in ein Buch.-Blatt die entsprechenden Einträge ein.
 1. Buchen Sie die Buch.-Blattzeile.
 
@@ -95,10 +121,19 @@ Sie können für jede Anlage die Wartungskosten und das nächste Wartungsdatum e
 | Anzeigen von Verkaufsposten | [Verkaufsposten anzeigen](fa-how-dispose-retire.md#to-view-disposal-ledger-entries) |
 | Geschätzte Verkaufswerte anzeigen. | [Geschätzte Verkaufswerte anzeigen](fa-how-manage-budgets.md#to-view-projected-disposal-values) |
 
+## Tipps zur Verbesserung Ihrer Anlagenbuchhaltung
+
+Es gibt einige Dinge, die Sie in Ihrer Buchhaltungsstrategie für Anlagevermögen implementieren können, um sicherzustellen, dass Sie Ihre Erträge maximieren.
+
+- Legen Sie einen Schwellenwert für die Großschreibung fest. Legen Sie beim Kauf eines Artikels einen festen Betrag für die Kapitalisierung fest. Der Betrag trägt dazu bei, die Konsistenz Ihrer Buchhaltungsbücher sicherzustellen und erleichtert Ihnen und Ihrem Team das Erkennen von Buchhaltungsfehlern.
+- Bewerten Sie den Lebenszyklus der Ausrüstung neu. Es ist wichtig, die Zeitspanne richtig einzuschätzen, in der Sie Ihr Anlagevermögen für seinen ursprünglichen Zweck nutzen können. Da die Buchhaltung und die Abschreibung auf genauen Lebenszyklusschätzungen basieren, sollten Sie bei Bedarf eine Neubewertung vornehmen, da sich diese im Laufe der Zeit ändern können.
+- Kennzeichnen Sie Ihre Vermögenswerte. Es ist wichtig, Ihre Vermögenswerte während ihres gesamten Lebenszyklus zu verfolgen und zu kennzeichnen, da ihr Wert von vielen Faktoren beeinflusst werden kann. Durch die Kennzeichnung können Sie Ihre Artikel in allen Phasen ihres Lebenszyklus verfolgen, Diebstahl verhindern, ein Verlegen ausschließen und Finanzstatistiken erstellen.
+- Automatisieren Sie Einblicke mit einer Software zur Anlagenbuchhaltung. Durch die Automatisierung manueller Aktivitäten zur Nachverfolgung Ihrer Daten mit einer Software zur Anlagenbuchhaltung können Prozesse einfacher abgeschlossen werden. Mit einem Passwortschutz können Sie den Zugriff nur den Personen ermöglichen, die ihn benötigen und dafür geschult sind.
+
 ## Siehe auch
 
 [Einrichten von Anlagen](fa-setup.md)  
-[Überblick über die Anlagenanalyse](fa-analytics-overview.md)  
+[Anlagenanalysen – Übersicht](fa-analytics-overview.md)  
 [Finanzen – Übersicht](finance.md)  
 [Vorbereitung auf die Verwendung](ui-get-ready-business.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
