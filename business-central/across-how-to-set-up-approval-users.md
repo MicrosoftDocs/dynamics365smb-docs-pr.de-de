@@ -9,7 +9,7 @@ ms.date: 05/31/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-approval-users"></a>Genehmigungsbenutzer einrichten
+# Genehmigungsbenutzer einrichten
 
 Bevor Sie Workflows erstellen können, die Genehmigungsschritte beinhalten, müssen Sie die an den Genehmigungsprozessen beteiligten Benutzer auf der Seite **Genehmigungsbenutzereinrichtung** festlegen. Sie können außerdem Betragsgrenzen für verschiedene Arten von Anforderungen festlegen, Ersatzgenehmiger definieren und Benachrichtigungen einrichten.  
 
@@ -18,7 +18,7 @@ Nachdem Sie Genehmigungsbenutzer eingerichtet haben, können Sie über diese Kon
 > [!TIP]
 > Sie können verlangen, dass mehrere Genehmiger auf eine Genehmigungsanfrage reagieren, indem Sie auf der Seite **Workflow-Benutzergruppe** eine Gruppe von Genehmigern erstellen. Erfahren Sie mehr unter [Workflow-Benutzergruppen einrichten](across-how-to-set-up-workflow-users.md).  
 
-## <a name="to-set-up-an-approval-user"></a>So richten Sie einen Genehmigungsbenutzer ein
+## So richten Sie einen Genehmigungsbenutzer ein
 
 [!INCLUDE [workflow-requestor-approver](includes/workflow-requestor-approver.md)]
 
@@ -45,7 +45,7 @@ Nachdem Sie Genehmigungsbenutzer eingerichtet haben, können Sie über diese Kon
 
 Im nächsten Schritt legen Sie fest, wie [!INCLUDE [prod_short](includes/prod_short.md)] die Benutzer darüber benachrichtigen soll, dass eine Anforderung auf ihre Bearbeitung wartet. Weitere Informationen erhalten Sie unter [Einrichten von Workflowbenachrichtigungen](across-setting-up-workflow-notifications.md).
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Workflowbenutzer einrichten](across-how-to-set-up-workflow-users.md)  
 [Einrichten von Workflowbenachrichtigungen](across-setting-up-workflow-notifications.md)  

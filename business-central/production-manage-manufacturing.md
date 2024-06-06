@@ -9,7 +9,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="manufacturing"></a>Produktion
+# Produktion
 
 > [!NOTE]
 > Die Funktionalität, die in diesem Thema und in Vorthemen beschrieben, handelt in der Benutzeroberfläche nur angezeigt, wenn Sie die **Premium** haben. Weitere Informationen finden Sie unter [Ändern Sie, welche Funktionen angezeigt werden](ui-experiences.md).
@@ -38,7 +38,7 @@ Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Themen,
 |Buchen verbrauchter Kapazitäten, die keinem Fertigungsauftrag zugeordnet sind (beispielsweise Wartungsarbeiten), mithilfe der Seite **Kapazitäts Buch.-Blatt**|[Kapazität buchen](production-how-to-post-capacities.md)|  
 |Berechnen und Regulieren der Kosten für gefertigte Artikel und verbrauchte Komponenten zur finanziellen Abstimmung|[Info zu Kosten des beendeten Auftrags](finance-about-finished-production-order-costs.md)|  
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Produktion einrichten](production-configure-production-processes.md)  
 [Planung](production-planning.md)  

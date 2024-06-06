@@ -7,8 +7,8 @@ ms.service: dynamics-365-business-central
 ---
 Werden die folgenden Aktivitäten ausgeführt, muss für jede verwendete Währung ein Code eingerichtet werden:
 
-- Kaufen oder Verkaufen in anderen Währungen (zusätzlich zur Mandantenwährung).  
-- Erfassen von Fibu-Transaktionen in Mandantenwährung sowie in Berichtswährung.  
+- Kaufen oder Verkaufen in anderen Währungen (zusätzlich zur Mandantenwährung)  
+- Erfassen von Fibu-Transaktionen in Mandantenwährung sowie in Berichtswährung  
 
 Nach dem Einrichten der Codes muss den einzelnen Fremdwährungsbankkonten ein geeigneter Code zugeordnet werden. Darüber hinaus muss den Konten ausländischer Debitoren und Kreditoren ein Standardwährungscode zugeordnet werden.
 

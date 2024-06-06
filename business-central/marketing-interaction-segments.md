@@ -10,14 +10,14 @@ ms.date: 04/01/2021
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
-# <a name="manage-interactions-for-segments"></a>Aktivitäten für Segmente verwalten
+# Aktivitäten für Segmente verwalten
 Die Seite **Segment** ist ein Arbeitsblatt, in dem Sie folgende Aufgaben ausführen können:
 
 * Segmente erstellen
 * Speichern Sie die Segmentierungskriterien, die Sie bei der Auswahl von Kontakten verwendet haben.
 * Protokolliert das Segment und zeichnet Aktivitäten auf, die Sie mit Kontakten in dem Segment durchführen.
 
-## <a name="segmenting"></a>Segmentieren
+## Segmentieren
 Es gibt verschiedene Arten, Segmente zu erstellen:
 
 * Sie können Kontakte manuell in die Segmentszeilen eingeben.
@@ -25,17 +25,17 @@ Es gibt verschiedene Arten, Segmente zu erstellen:
 * Sie können ein protokolliertes Segment wiederverwenden, um ein neues zu erstellen.
 * Sie können gespeicherte Segmentierungskriterien wiederverwenden.
 
-## <a name="interactions"></a>Aktivitäten
+## Aktivitäten
 Auf der Seite **Segment** können Sie Aktivitäten für mehrere Kontakte gleichzeitig erstellen. Sie können z. B. ein Segment mit einem Microsoft Word-Dokument verbinden, sodass Sie einen Brief an alle Kontakte in dem Segment verschicken können.
 
 Sie können Informationen über die Aktivität für das Segment im **Segmentkopf** festlegen. Sie können z. B. entscheiden, welche Aktivitätenvorlage Sie für alle Kontakte verwenden möchten, Sie eine Beschreibung oder eine Korrespondenzart festlegen usw. Sie können diese Informationen in der Segmentszeile für jeden einzelnen Kontakt verändern, z. B., indem Sie eine andere Beschreibung eingeben. Wenn Sie ein Segment mit einem Dokument in Microsoft Word verknüpfen, können Sie das Dokument für einen oder mehrere Kontakte des Segments personalisieren, indem Sie dem Dokument z. B. individuelle Kommentare hinzufügen.
 
-## <a name="logging"></a>Protokollieren
+## Protokollieren
 Wenn Sie auf der Seite **Segment** **Protokoll** wählen, werden alle Aktivitäten auf der Seite **Aktivitätenprotokollposten** gespeichert und das Segment wird protokolliert. Nachdem Sie das Segment protokolliert haben, finden Sie es nur in auf der Seite **Protokollierte Segmente**.
 
 Auf der Seite **Protokollierte Segmente** können Sie ein Anschluss-Segment mit den gleichen Kontakten wie das protokollierte Segment erstellen.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 [Segmente erstellen](marketing-how-create-segment.md)  
 [Aktivitäten für Segmente erstellen](marketing-how-create-interactions.md)  
 [Verwalten von Segmenten](marketing-segments.md)  

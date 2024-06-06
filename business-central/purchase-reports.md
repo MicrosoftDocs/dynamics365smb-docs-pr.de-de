@@ -10,15 +10,15 @@ ms.search.form: 'Report_311, Report_312, Report_313, Report_320, Report_709, Rep
 ms.date: 04/26/2024
 ms.service: dynamics-365-business-central
 ---
-# <a name="purchase-reporting-and-analytics"></a>Berichte und Analysen im Einkauf
+# Berichte und Analysen im Einkauf
 
 Die Einkaufsberichterstattung gibt der Beschaffung und Fachkräften Einblicke in und Statistiken über aktuelle und vergangene Einkaufsaktivitäten.  
 
-## <a name="reports"></a>Berichte
+## Berichte
 
 [!INCLUDE [purchase_reports](includes/purchase-reports-include.md)]
 
-## <a name="tasks"></a>Aufgaben
+## Aufgaben
 
 In den folgenden Artikeln werden einige der wichtigsten Aufgaben zur Analyse des Status Ihres Einkaufs beschrieben:
 
@@ -26,7 +26,7 @@ In den folgenden Artikeln werden einige der wichtigsten Aufgaben zur Analyse des
 - [Daten für Einkäufe berechnen](purchasing-date-calculation-for-purchases.md)
 - [Einkaufsposten anzeigen](purchasing-how-record-purchases.md#viewing-ledger-entries)
 
-## <a name="explore-purchase-reports-with-report-explorer"></a>Einkaufsberichte mit dem Berichts-Explorer kennenlernen
+## Einkaufsberichte mit dem Berichts-Explorer kennenlernen
 
 Um einen Überblick über die für den Einkauf verfügbaren Berichte zu erhalten, wählen Sie auf Ihrer Homepage **Alle Berichte** aus. Dadurch öffnet sich der Rollen-Explorer, der nach den Features in der Option **Bericht und Analyse** gefiltert ist. Wählen Sie unter der Überschrift **Einkauf** die Option **Erkunden** aus.
 
@@ -34,7 +34,7 @@ Um einen Überblick über die für den Einkauf verfügbaren Berichte zu erhalten
 
 Weitere Informationen finden Sie unter [Mit dem Rollen-Explorer nach Berichten suchen](ui-role-explorer.md). 
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Ad-hoc-Analyse von Einkaufsdaten](ad-hoc-analysis-purchasing.md)  
 [Einkaufsanalysen – Übersicht](purchasing-analytics-overview.md)   

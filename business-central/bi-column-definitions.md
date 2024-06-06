@@ -12,11 +12,11 @@ ms.search.form: '103, 104, 108, 195, 196, 197, 198, 489, 490, 764, 765, 766'
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="column-definitions-in-financial-reporting"></a>Spaltendefinitionen in Finanzberichten
+# Spaltendefinitionen in Finanzberichten
 
 Verwenden Sie Spaltendefinitionen, um die Spalten anzugeben, die in einen Bericht aufgenommen werden sollen. Zum Beispiel können Sie ein Berichtslayout gestalten, das Bewegung und Saldo für dieselbe Periode dieses und letzten Jahres vergleicht. Eine Spaltendefinition kann bis zu 15 Spalten umfassen. Zum Beispiel sind mehrere Spalten sinnvoll, wenn Sie Budgets für zwölf Monate mit einer Spalte für die Gesamtsumme anzeigen möchten.
 
-## <a name="create-or-edit-a-column-definition"></a>Eine Spaltendefinition erstellen oder bearbeiten
+## Eine Spaltendefinition erstellen oder bearbeiten
 
 Gehen Sie wie folgt vor, um eine Spaltendefinition zu erstellen oder zu bearbeiten.
 
@@ -28,7 +28,7 @@ Gehen Sie wie folgt vor, um eine Spaltendefinition zu erstellen oder zu bearbeit
 1. Wählen Sie **OK** aus.
 1. Öffnen Sie die Seite **Finanzbericht** von Zeit zu Zeit, um zu überprüfen, ob die neue Spalte wie gewünscht funktioniert.
 
-## <a name="built-in-column-definitions"></a>Integrierte Spaltendefinitionen
+## Integrierte Spaltendefinitionen
 
 [!INCLUDE[prod_short](includes/prod_short.md)] bietet Beispielspaltendefinitionen, die Ihnen dabei helfen können, schnell mit der Einrichtung von Finanzberichten zu beginnen, die Ihren Anforderungen entsprechen.
 
@@ -41,7 +41,7 @@ Gehen Sie wie folgt vor, um eine Spaltendefinition zu erstellen oder zu bearbeit
 | TBA 4 | TBA 4 | TBA 4 |
 -->
 
-## <a name="example-create-a-column-definition-to-calculate-percentages"></a>Beispiel: Eine Spaltendefinition zur Berechnung von Prozentsätzen erstellen
+## Beispiel: Eine Spaltendefinition zur Berechnung von Prozentsätzen erstellen
 
 Vielleicht möchten Sie eine Spalte in einen Finanzbericht einfügen, um Prozentsätze einer Summe zu berechnen. Wenn beispielsweise Zeilen vorhanden sind, die den Umsatz nach Dimensionen aufschlüsseln, empfiehlt sich die Einrichtung einer Spalte, die den prozentualen Anteil an den Gesamtverkäufen in jeder Zeile angibt.
 
@@ -58,7 +58,7 @@ Vielleicht möchten Sie eine Spalte in einen Finanzbericht einfügen, um Prozent
     1. Geben Sie in das Feld **Formel** eine Formel für den Betrag ein, für den Sie einen Prozentsatz berechnen möchten, gefolgt von dem Prozentzeichen (%). Wenn also die Spalte Nummer N die Nettoveränderung enthält, geben Sie **N%** ein.  
 1. Wiederholen Sie die Schritte 4 bis 7 für jede Gruppe von Zeilen, die Sie nach Prozentsätzen aufschlüsseln möchten.
 
-## <a name="comparing-accounting-periods-using-period-formulas"></a>Vergleich von Buchhaltungsperioden mit Hilfe von Periodenformeln
+## Vergleich von Buchhaltungsperioden mit Hilfe von Periodenformeln
 
 Ihr Finanzbericht kann die Ergebnisse verschiedener Buchhaltungsperioden vergleichen, z.B. den vergangenen Monat mit dem gleichen Monat des Vorjahres. Öffnen Sie dazu die Seite **Spaltendefinition** und personalisieren Sie sie, indem Sie das Feld **Vergleich Periodenformel** als Spalte hinzufügen. Erfahren Sie mehr unter [Personalisieren Sie Ihren Arbeitsbereich](ui-personalization-user.md). Sie können dieses Feld dann auf eine Periodenformel setzen.  
 
@@ -94,7 +94,7 @@ Erfahren Sie mehr unter [Arbeiten mit Kalenderdaten und -zeiten](ui-enter-date-r
 
 [!INCLUDE [report-best-practices-column-defs](includes/report-best-practices-column-defs.md)]
 
-## <a name="import-or-export-financial-report-column-definitions"></a>Finanzberichtsspaltendefinitionen importieren oder exportieren
+## Finanzberichtsspaltendefinitionen importieren oder exportieren
 
 Ab dem 1. Veröffentlichungszyklus 2024 (Version 24.1) können Sie Finanzberichtsspaltendefinitionen als RapidStart-Konfigurationspakete importieren und exportieren. Konfigurationspakete sind beispielsweise hilfreich, um Informationen für andere Unternehmen freizugeben. Das Paket wird in einer .rapidstart-Datei erstellt, die den Inhalt komprimiert.
 
@@ -106,7 +106,7 @@ Um Finanzberichtsspaltendefinitionen zu importieren oder zu exportieren, gehen S
 1. Wählen Sie das ![Glühbirne, die das „Sie wünschen ...“-Feature 4 öffnen.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren") Symbol. Geben Sie **Spaltendefinition** ein, und wählen Sie dann den zugehörigen Link.
 1. Wählen Sie die Spaltendefinition und dann die Aktion **Spaltendefinition importieren** oder **Spaltendefinition exportieren** aus, je nachdem, was Sie tun möchten.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Zeilendefinitionen in Finanzberichten](bi-row-definitions.md)  
 [Finanzberichte erstellen](bi-how-work-account-schedule.md)  

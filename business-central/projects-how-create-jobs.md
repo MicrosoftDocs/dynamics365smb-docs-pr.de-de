@@ -11,7 +11,7 @@ ms.date: 02/22/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="create-projects"></a>Projekte erstellen
+# Projekte erstellen
 
 Wenn Sie mit einem neuen Projekt beginnen, müssen Sie eine Projektkarte mit integrierten Projektaufgaben und Projektplanungszeilen erstellen, strukturiert in zwei Ebenen.  
 
@@ -24,7 +24,7 @@ Durch die Ebenenstruktur lässt sich das Projekt in kleinere Aufgaben unterteile
 > [!TIP]
 > Wählen Sie die Aktion **Neues Projekt** im Rollencenter **Projektmanager** aus, um einen Leitfaden für das unterstütze Setup zu starten, der Sie durch die Schritte zur Erstellung eines Projekts mit integrierten Aufgaben und Planungszeilen führt. Nachfolgend wird beschrieben, wie Sie die Schritte manuell ausführen. <!-- For an example of how to create a project manually, go to [Video: How to create a project in Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw).-->
 
-## <a name="invoice-one-or-more-customers-for-project-tasks"></a>Einem oder mehreren Debitoren Projektaufgaben in Rechnung stellen
+## Einem oder mehreren Debitoren Projektaufgaben in Rechnung stellen
 
 Manchmal unterscheidet sich die Partei, die eine Dienstleistung erhält, von der Partei, die die Rechnung bezahlt. Außerdem müssen Sie möglicherweise manchmal mehreren Debitoren Rechnungen für Aufgaben im Projekt ausstellen. Geben Sie auf der Seite **Projektkarte** im Feld **Aufgabenabrechnungsmethode** an, ob Sie einem oder mehreren Debitoren eine Rechnung stellen.
 
@@ -36,7 +36,7 @@ Wenn Sie mehreren Debitoren Rechnungen stellen, können Sie den Debitor angeben,
 * Fügen Sie Informationen über externe Referenzen hinzu, um die Kommunikation über das Projekt zu vereinfachen.
 * Überschreiben Sie die finanziellen Standardbedingungen des Projekts.
 
-## <a name="invoice-one-customer-for-multiple-project-tasks"></a>Einem Debitoren mehrere Projektaufgaben in Rechnung stellen
+## Einem Debitoren mehrere Projektaufgaben in Rechnung stellen
 
 Sie können Ihren Rechnungsstellungsprozess vereinfachen, indem Sie eine Rechnung für mehrere Projekte an einen Debitoren senden. Fügen Sie Projektplanungszeilen aus mehreren Projekten auf einmal einer Verkaufsrechnung hinzu. Dieser Vorgang ähnelt dem Erstellen einer Verkaufsrechnung aus einer Projektplanungszeile und der Eingabe eines Werts in das Feld **An Verkaufsrechnungsnr. anfügen**.
 
@@ -54,7 +54,7 @@ Wiederholen Sie diese Schritte, wenn Sie einen weiteren Satz Projektplanungszeil
 > * Die Aktion **Projektplanzeilen abrufen** ist für Verkaufsaufträge oder Verkaufsangebote nicht verfügbar.
 > * Sie können nicht nach **Neuer Lief. an Code** oder **Kontaktnr.** filtern Felder.
 
-## <a name="to-create-a-project-card"></a>So erstellen Sie eine Projektkarte
+## So erstellen Sie eine Projektkarte
 
 Sie erstellen eine Projektkarte und erstellen dann Projektaufgabenzeilen und Projektplanungszeilen dafür.
 
@@ -73,7 +73,7 @@ Markieren Sie optional Aktionen für das Projekt als blockiert, indem Sie das Fe
 |Buchen    |Sie können mit Planungszeilen arbeiten, doch ist das Projekt für Buchungen gesperrt. Wenn Sie diese Option auswählen, können Sie keinen Verbrauch oder Verkauf für das Projekt buchen.|
 |Alle  |Alle Aktionen sind gesperrt.|
 
-## <a name="to-create-tasks-for-a-project"></a>Aufgaben für ein Projekt erstellen
+## Aufgaben für ein Projekt erstellen
 
 Beim Einrichten eines neuen Projekts ist es wichtig, auch die verschiedenen Aufgaben für das Projekt anzugeben. Sie legen Aufträge fest, indem Sie auf der Seite **Aufgaben** Inforegister auf der Seite **Projektkarte** eine Zeile pro Auftrag erstellen. Jedes Projekt muss mindestens eine Aufgabe haben.
 
@@ -84,7 +84,7 @@ Beim Einrichten eines neuen Projekts ist es wichtig, auch die verschiedenen Aufg
 5. Wiederholen Sie die Schritte 3 und 4 für alle Aufgaben, die Sie für das Projekt benötigen.
 6. Um die Projektaufgaben mit Informationen über andere Projektaufgaben anzugeben, wählen Sie die Aktion **Projektaufgaben kopieren von** aus und ergänzen Sie die Felder wie nötig. Wählen Sie dann die Schaltfläche **OK** aus.
 
-## <a name="to-create-planning-lines-for-a-project"></a>So erstellen Sie eine Planzeilen für ein Projekt
+## So erstellen Sie eine Planzeilen für ein Projekt
 
 Sie können Ihre neuen Projektaufgaben für Projektplanzeilen neu definieren. Eine Planungszeile kann die Informationen erfassen, die Sie für ein Projekt verfolgen möchten. Sie können z. B. die Ressourcen, die das Projekt erfordert, oder die Artikel, die benötigt werden, verfolgen. Ein Beispiel: Sie haben eine Aufgabe, um einen Debitor dazu zu bringen, ein Projekt zu genehmigen. Sie verknüpfen die Aufgabe mit Planungszeilen für Artikel wie das Treffen mit dem Debitor und die Zuweisung einer Ressource.  
 
@@ -105,7 +105,7 @@ Eine Projektplanungszeile kann von einer der folgenden Arten sein.
 4. In einer neuen Zeile auf der Seite **Projektplanungszeilen** füllen Sie die Felder nach Bedarf aus.
 5. Wiederholen Sie die Schritte 3 und 4 für alle Planungszeilen für diese Projektaufgabe.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Projektmanagement](projects-manage-projects.md)  
 [Video: Wie man ein Projekt in Dynamics 365 Business Central erstellt](https://www.youtube.com/watch?v=VqaPWr7BWmw)  

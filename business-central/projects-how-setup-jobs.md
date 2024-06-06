@@ -11,7 +11,7 @@ ms.search.keywords: project management
 ms.search.form: '211, 463, 1012'
 ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-projects-prices-and-project-posting-groups"></a>Projekte, Preise und Projektbuchungsgruppen einrichten
+# Projekte, Preise und Projektbuchungsgruppen einrichten
 
 Als Projekt-Manager können Sie Projekte einrichten, die jedes der Projekte definieren, das Sie in [!INCLUDE[prod_short](includes/prod_short.md)] verwalten. Verwenden Sie die Seite **Projekteinrichtung**, um festzulegen, wie Sie Projektfeatures verwenden.
 
@@ -22,7 +22,7 @@ Geben Sie für jedes Projekt verschiedene Informationen an:
 * Projektsachkonten
 * Projektbuchungsgruppen (erforderlich)
 
-## <a name="to-set-general-information-for-projects"></a>So richten Sie allgemeine Informationen für Projekte ein
+## So richten Sie allgemeine Informationen für Projekte ein
 
 1. Wählen Sie das Symbol ![Glühbirne, die die „Sie wünschen ...“-Funktion öffnet](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren") Symbol. Geben Sie **Projekteinrichtung** ein und wählen Sie dann den zugehörigen Link aus.
 2. Füllen Sie die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -30,7 +30,7 @@ Geben Sie für jedes Projekt verschiedene Informationen an:
 > [!NOTE]
 > Der Umschalter **Verbrauchslink standardmäßig anwenden** auf der Seite **Projekteinrichtung** zeigt an, ob Projektsachkontoeinträge standardmäßig mit Projektplanungszeilen verknüpft werden. Aktivieren Sie den Umschalter, um diese Einstellung auf alle neuen Projekte anzuwenden. Sie können die Nachverfolgung des Projektverbrauchs für ein bestimmtes Projekt aktivieren oder deaktivieren, indem Sie den Umschalter **Verbrauchslink anwenden** auf der Seite **Projektkarte** ein- oder ausschalten.
 
-### <a name="specify-a-default-location-for-project-items"></a>Standardspeicherort für Projektartikel festlegen
+### Standardspeicherort für Projektartikel festlegen
 
 Sie können bei der Dateneingabe Zeit sparen, indem Sie auf der Seite **Projektkarte** einen Standardspeicherort und ein Standardfach für Projekte angeben. Wenn Sie Projektaufgaben, Projektplanungszeilen und Projektbuchungsblattzeilen für das Projekt erstellen, werden der Standardstandort und das Lagerfach automatisch zugewiesen. Sie können jedoch bei Bedarf den Standortcode und den Lagerplatz für Aufgaben und Zeilen ändern.
 
@@ -44,11 +44,11 @@ Es gibt ein paar Dinge, die Sie über die Verwendung von Standardspeicherorten w
 * Bei Projektplanungszeilen basiert der **Standortcode** auf dem Wert, der in der Projektplanungszeile ausgewählt wird, wenn Sie einen Artikel auswählen. Wenn für die Projektaufgabe kein Lagerplatzcode definiert ist, wird der Lagerplatz aus dem Standardlagerplatzinhalt ausgewählt. Sie können beide Werte manuell ändern.
 * Bei Projektplanungszeilen basiert der **Standortcode** auf dem Wert, der in der Projektbuchungsblattzeile ausgewählt wird, wenn Sie einen Artikel auswählen. Wenn für die Projektaufgabe kein Lagerplatzcode definiert ist, wird der Lagerplatz aus dem Standardlagerplatzinhalt ausgewählt. Sie können beide Werte manuell ändern.
 
-### <a name="invoice-multiple-customers-for-project-tasks"></a>Mehrere Debitoren für Projektaufgaben in Rechnung stellen
+### Mehrere Debitoren für Projektaufgaben in Rechnung stellen 
 
 Wenn an Projekten mehrere Debitoren beteiligt sind, kann es eine Herausforderung sein, dem richtigen Debitor die richtigen Aufgaben in Rechnung zu stellen. [!INCLUDE [prod_short](includes/prod_short.md)] macht die Abrechnung weniger komplex, da Sie in jeder Projektaufgabenzeile die Rechnungsadresse und Rechnung an Debitor angeben können, sodass Sie automatisch Rechnungen für die richtigen Debitoren erstellen können. Weitere Informationen zum Rechnungsstellen an mehrere Debitoren finden Sie unter [Einem oder mehreren Debitoren Projektaufgaben in Rechnung stellen](projects-how-create-jobs.md#invoice-one-or-more-customers-for-project-tasks).
 
-### <a name="to-set-up-project-usage-tracking"></a>So richten Sie die Projektverbrauch-Nachverfolgung ein
+### So richten Sie die Projektverbrauch-Nachverfolgung ein
 
 Wenn Sie an einem Projekt arbeiten, möchten Sie vielleicht wissen, wie sich Ihr Verbrauch im Vergleich zu Ihrem Plan verhält. Um den Verbrauch herauszufinden, können Sie einen Link zwischen Ihren Projektplanungszeilen und dem tatsächlichen Verbrauch erstellen. Über den Link können Sie Ihre Kosten verfolgen und nachvollziehen, wie viel Arbeit noch übrig ist. Standardmäßig ist der Projektplanungszeilentyp **Plan**, aber die Verwendung der Zeilenart **Budgetiert und verrechenbar** hat ähnliche Effekte.
 
@@ -62,7 +62,7 @@ Nachdem Sie die Verbrauchsverfolgung über den Umschalter **Verbrauchsverknüpfu
 > [!IMPORTANT]
 > Wenn Sie im Feld **Zeilentyp** auf der Zeile für die Projekt-Buchungsblattzeile oder den Kauf keinen Wert angeben, werden keine Projektplanungszeilen erstellt, wenn Sie die Projekterfassung oder den Einkaufsbeleg buchen.
 
-## <a name="to-set-up-prices-for-resources-items-and-general-ledger-accounts-for-projects"></a>So erstellen Sie projektspezifische Preise für Ressourcen, Artikel und Sachkonten für Projekte
+## So erstellen Sie projektspezifische Preise für Ressourcen, Artikel und Sachkonten für Projekte
 
 > [!NOTE]
 > In der 2020er Release-Welle 2 haben wir neue Prozesse zum Einrichten und Verwalten von Preisen und Rabatten freigegeben. Wenn Sie ein neuer Kunde sind, nutzen Sie die neue Erfahrung. Wenn Sie bereits Kunde sind, hängt es davon ab, ob Sie die neue Erfahrung verwenden, ob Ihr Administrator die Funktionsaktualisierung **Neues Verkaufspreiserlebnis** in **Funktionsverwaltung** akualisiert hat. Weitere Informationen finden Sie unter [Bevorstehende Funktionen im Voraus aktivieren](/dynamics365/business-central/dev-itpro/administration/feature-management).
@@ -90,7 +90,7 @@ Wenn Sie ein Ressourcen-, Artikel- oder Sachbuchkonto für ein Projekt auswähle
 
 ---
 
-## <a name="to-set-up-project-posting-groups"></a>So richten Sie Projektbuchungsgruppen ein
+## So richten Sie Projektbuchungsgruppen ein
 
 Ein Aspekt der Planungsprojekte besteht darin, zu entscheiden, welche Buchungskonten für die Projektkalkulation verwendet werden. Damit Projekte gebucht werden können, müssen Sie Konten für die Buchung für jede Projektbuchungsgruppe einrichten. Eine Buchungsgruppe stellt eine Verknüpfung zwischen dem Projekt und der Art dar, wie es im Sachkonto zu behandeln ist. Wenn Sie ein Projekt erstellen, geben Sie eine Buchungsgruppe an, und standardmäßig wird jede Aufgabe, die Sie für das Projekt erstellen, dieser Buchungsgruppe zugeordnet. Wenn Sie Aufgaben erstellen, können Sie jedoch die Voreinstellung überschreiben und eine Buchungsgruppe auswählen, die geeigneter ist.  
 
@@ -118,7 +118,7 @@ Ein Aspekt der Planungsprojekte besteht darin, zu entscheiden, welche Buchungsko
 | **Konto deklarierte Kosten** |Das Aufwandskonto, das die deklarierten Kosten für das Projekt enthält. Dabei handelt es sich normalerweise um ein Soll-Aufwandskonto. | Deklarierte Kosten|
 | **Konto deklarierte Verkäufe** |Das Ertragskonto, das den deklarierten Umsatz für das Projekt enthält. Dabei handelt es sich normalerweise um ein Haben-Ertragskonto. | Deklarierte Verkäufe|
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Projektmanagement einrichten](projects-setup-projects.md)  
 [Video: Wie man ein Projekt in Dynamics 365 Business Central erstellt](https://www.youtube.com/watch?v=VqaPWr7BWmw)  

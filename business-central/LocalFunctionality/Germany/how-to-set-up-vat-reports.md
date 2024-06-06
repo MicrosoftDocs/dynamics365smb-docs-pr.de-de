@@ -9,10 +9,10 @@ ms.date: 06/18/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-vat-reports-in-the-german-version"></a>Festlegen von MwSt.-Berichten in der deutschen Version
+# Festlegen von MwSt.-Berichten in der deutschen Version
 Informationen aus verschiedenen Rechnungstypen werden verwendet, um Daten in den Ausfuhr-Listenbericht EU zu speisen. Um einen MwSt-Bericht unter dem System ELMA5 von [!INCLUDE[prod_short](../../includes/prod_short.md)] einzurichten, müssen Sie die Parameter melden.  
 
-## <a name="to-set-up-a-vat-report"></a>So richten Sie einen MwSt-Bericht ein
+## So richten Sie einen MwSt-Bericht ein  
 
 1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](../../media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen") Symbol. Geben Sie **MWSt.-Berichtseinrichtung** ein und wählen Sie dann den entsprechenden Link.  
 2.  Wählen Sie im Inforegister **Allgemein** das Feld **Übermittelte Berichte bearbeiten** aus, damit Benutzer MwSt.-Erklärungen, die an die Steuerbehörden übermittelt wurden, ändern können.  
@@ -29,7 +29,7 @@ Informationen aus verschiedenen Rechnungstypen werden verwendet, um Daten in den
 5.  Im Inforegister **ZIVIT** können Sie Informationen für die Felder anzeigen.  
 6.  Wählen Sie die Schaltfläche **OK** aus.  
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch  
  [MwSt.-Abrechnung](vat-reporting.md)   
  [Erstellen von MwsT-Berichten](how-to-create-vat-reports.md)
 

@@ -9,11 +9,11 @@ ms.date: 02/07/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="germany-local-functionality"></a>Deutschland – lokale Funktion
+# Deutschland – lokale Funktion
 
 Die folgenden Artikel beschreiben die lokale Funktionalität, die nur in der deutschen Version von [!INCLUDE[prod_short](../../includes/prod_short.md)] vorhanden ist.  
 
-## <a name="feature-availability"></a>Verfügbarkeit von Funktionen
+## Verfügbarkeit von Funktionen
 
 * Mehrwertsteuer
     * [Einrichten von Berichten für MwSt. und Intrastat](how-to-set-up-reports-for-vat-and-intrastat.md) **Jetzt verfügbar**
@@ -53,14 +53,14 @@ Die folgenden Artikel beschreiben die lokale Funktionalität, die nur in der deu
     * [Einbeziehen von Steuernummern von Unternehmen in Verkaufs- und Einkaufsberichte](how-to-include-company-registration-numbers-on-sales-reports-and-purchase-reports.md) **Jetzt verfügbar**
     * [Drucken von Finanzbuchhaltungs-Setupinformationen](how-to-print-general-ledger-setup-information.md) **Jetzt verfügbar**
 
-## <a name="future-legislation-requirements-being-investigated"></a>Zukünftige gesetzliche Anforderungen werden untersucht
+## Zukünftige gesetzliche Anforderungen werden untersucht
 
 * GDPdU-/GoDB-Update **Geplant für Veröffentlichungszyklus 2 2024**
 * Empfang von E-Dokumenten **Geplant für Januar 2025**
 
 Wenn Ihnen bevorstehende gesetzlich vorgeschriebenen Funktionen bekannt sind, reichen Sie bitte eine [Warnung wegen gesetzlicher Funktionen](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u) ein.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Zertifizierung von Business Central für deutschen Markt (Dokument in deutscher Sprache)](https://go.microsoft.com/fwlink/?linkid=875256)  
 [Arbeiten mit [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  

@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.date: 01/06/2023
 ms.custom: bap-template
 ---
-# <a name="field-mapping-when-importing-sepa-camt-files"></a>Feld-Zuordnung beim Importieren von SEPA CAMT-Dateien
+# Feld-Zuordnung beim Importieren von SEPA CAMT-Dateien
 
 [!INCLUDE[prod_short](includes/prod_short.md)] unterstützt den regionalen SEPA-Standard (Single Euro Payments Area) für das Importieren von SEPA-Bankkontoauszügen (CAMT-Format). Weitere Informationen finden Sie unter [Die AMC Banking 365 Fundamentals-Erweiterung verwenden](ui-extensions-amc-banking.md).  
 
@@ -17,7 +17,7 @@ ms.custom: bap-template
 
  Informationen zum Erstellen oder die Stapelverarbeitung eine Datenaustauschdefinition, siehe [Datenaustauschdefinition einrichten](across-how-to-set-up-data-exchange-definitions.md).  
 
-## <a name="camt-data-mapping-to-fields-in-the-general-journal-table-81"></a>CAMT-Datenzuordnung zu den Feldern in der Fibu Buch.-Blatt-Tabelle (81)
+## CAMT-Datenzuordnung zu den Feldern in der Fibu Buch.-Blatt-Tabelle (81)  
 
 |Element-Pfad|Meldungs-Element|Datentyp|Beschreibung|Kennzeichen mit negativem Zeichen|Feldnr.|Feldname|  
 |------------------|---------------------|---------------|-----------------|-------------------------------|---------------|----------------|  
@@ -29,14 +29,14 @@ ms.custom: bap-template
 |Stmt/Ntry/NtryDtls/TxDtls/RmtInf/Ustrd|Unstrukturiert|Text|Informationen, die angegeben werden, um Abgleichen/Abstimmung eines Postens mit den Artikeln zu aktivieren, die die Zahlung abgleichen soll, wie etwa Handelsrechnungen in einem Debitorensystem, in unstrukturierter Form.||8|Beschreibung|  
 |Stmt/Ntry/AddtlNtryInf|ZusätzlicheEingabeInformationen|Text|Zusätzliche Informationen zu der Eingabe||1222|Transaktionsinformationen|  
 
-## <a name="camt-data-mapping-to-fields-in-the-bank-acc-reconciliation-table-273"></a>CAMT-Datenzuordnung zu den Feldern in der Bankkonto-Abstimmungstabelle (273)
+## CAMT-Datenzuordnung zu den Feldern in der Bankkonto-Abstimmungstabelle (273)  
 
 |Element-Pfad|Meldungs-Element|Datentyp|Beschreibung|Kennzeichen mit negativem Zeichen|Feldnr.|Feldname|  
 |------------------|---------------------|---------------|-----------------|-------------------------------|---------------|----------------|  
 |Stmt/CreDtTm|CreationDateTime|Datum|Das Datum und die Uhrzeit der Erstellung der Nachricht.||3|Auszugsdatum|  
 |Stmt/Bal/Amt|Betrag|Dezimal|Der Betrag, der aus den Nettobeträgen für alle Soll- und Habenposten resultiert||4|Auszug Schluss-Saldo|  
 
-## <a name="camt-data-mapping-to-fields-in-the-bank-acc-reconciliation-line-table-274"></a>CAMT-Datenzuordnung zu den Feldern in der Bankkonto-Abstimmungszeilentabelle (274)
+## CAMT-Datenzuordnung zu den Feldern in der Bankkonto-Abstimmungszeilentabelle (274)  
 
 |Element-Pfad|Meldungs-Element|Datentyp|Beschreibung|Kennzeichen mit negativem Zeichen|Feldnr.|Feldname|  
 |------------------|---------------------|---------------|-----------------|-------------------------------|---------------|----------------|  
@@ -55,7 +55,7 @@ ms.custom: bap-template
 > [!IMPORTANT]
 > Bei einem Import von CAMT-Bankauszügen erwartet [!INCLUDE[prod_short](includes/prod_short.md)], dass jede Transaktion eindeutig ist. Dies bedeutet, dass das Feld **Transaktions-ID**, das vom Tag *Stmt/Ntry/NtryDtls/TxDtls/Refs/EndToEndId* in der CAMT-Datei stammt, innerhalb der offenen Bankkontoabstimmung eindeutig sein muss. Wenn die Informationen nicht vorhanden sind, ignoriert [!INCLUDE[prod_short](includes/prod_short.md)] die Zahlung. Wenn eine frühere Bankabstimmung für dasselbe Bankkonto mit derselben Transaktions-ID wie beim aktuellen Import gebucht wurde, wird die aktuelle Transaktion nicht automatisch abgestimmt, kann aber dennoch importiert werden.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch  
 
 [Datenaustausch einrichten](across-set-up-data-exchange.md)  
 [Daten elektronisch austauschen](across-data-exchange.md)  
