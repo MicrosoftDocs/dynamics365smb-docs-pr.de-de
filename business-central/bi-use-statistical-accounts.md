@@ -11,7 +11,7 @@ ms.search.keywords: 'bi, power BI, analysis, KPI, financial report'
 ms.search.form: '2632, 2631, 2633, 2623, 2634'
 ms.service: dynamics-365-business-central
 ---
-# Analysieren Sie Daten mit statistischen Konten
+# <a name="analyze-data-with-statistical-accounts"></a>Analysieren Sie Daten mit statistischen Konten
 
 Verwenden Sie statistische Konten, um Informationen in Finanzberichten zu ergänzen. Mit Statistikkonten können Sie Metriken hinzufügen, die auf Nicht-Transaktionsdaten basieren. Sie fügen die nicht transaktionalen Daten als zahlenbasierte Einheiten hinzu, z. B.:
 
@@ -27,12 +27,12 @@ Statistische Konten ähneln in ihrer Funktionsweise den Buchungskonten. Sie spei
 
 Es gibt einige wichtige Unterschiede zwischen statistischen Konten und Buchungskonten. Statistische Konten sind separate Entitäten und nicht in den Berichten über die Testbilanz enthalten. Außerdem müssen Sie Soll- und Habenbeträge nicht ausgleichen, wenn Sie Buchungen für statistische Konten verwenden, um Buchungen auf einem statistischen Konto zu buchen. Sie buchen einfach den Betrag.
 
-## Statistische Konten einrichten
+## <a name="set-up-a-statistical-account"></a>Statistische Konten einrichten
 
 1. Wählen Sie das Symbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Statistische Konten** ein und wählen Sie dann den zugehörigen Link.
 1. Füllen Sie auf der Registerkarte **Allgemein** die Felder aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## Beträge auf ein statistisches Konto buchen
+## <a name="post-amounts-to-a-statistical-account"></a>Beträge auf ein statistisches Konto buchen
 
 1. Um die Beträge zu buchen, die Sie verfolgen möchten, auf der Seite **Statistische Konten** wählen Sie die Aktion **Journal für statistische Konten** aus.
 1. Geben Sie in das Feld **Buchungsdatum** das letzte Datum der Lagerbuchungsperiode ein, für die Sie die Beträge buchen möchten.
@@ -42,11 +42,11 @@ Es gibt einige wichtige Unterschiede zwischen statistischen Konten und Buchungsk
 1. Geben Sie im Feld **Betrag** den zu buchenden Betrag ein. 
 1. Optional: Wenn Sie das statistische Konto in erweiterte Analysen einbeziehen möchten, geben Sie Dimensionen in den Feldern **Abteilungscode** und **Kundengruppencode** ein. Um mehr über Dimensionen zu erfahren, gehen Sie zu [Analysieren Sie Daten nach Dimensionen](bi-how-analyze-data-dimension.md).
 
-## Statistische Kontenbeträge prüfen
+## <a name="verify-statistical-account-amounts"></a>Statistische Kontenbeträge prüfen
 
 Verwenden Sie auf der Seite **Statistische Konten** die Aktion **Statistische Kontensaldo**, um zu überprüfen, ob die registrierten Beträge für jeden Zeitraum korrekt sind.  
 
-## Nehmen Sie das statistische Konto in einen Finanzbericht auf
+## <a name="include-the-statistical-account-in-a-financial-report"></a>Nehmen Sie das statistische Konto in einen Finanzbericht auf
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol, geben Sie **Finanzberichte** ein und wählen Sie dann den entsprechenden Link.
 1. Erstellen Sie auf eine der folgenden Arten einen neuen Finanzbericht:
@@ -62,7 +62,7 @@ Verwenden Sie auf der Seite **Statistische Konten** die Aktion **Statistische Ko
 1. Wählen Sie im Feld **Zeilentyp** aus, ob der Saldo am Buchungsdatum oder am Beginn der Buchungsperiode oder die Änderung des Betrags während der Periode angezeigt werden soll.
 1. Füllen Sie die restlichen Felder aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## Weitere Informationen
+## <a name="see-also"></a>Weitere Informationen
 
 [Financial Business Intelligence](bi.md)  
 [Finanzberichte und Analysen in Business Central](finance-reports.md)

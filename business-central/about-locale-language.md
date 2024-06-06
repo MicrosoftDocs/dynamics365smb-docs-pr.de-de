@@ -10,7 +10,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Ändern der Sprache und der Region
+# <a name="changing-language-and-region"></a>Ändern der Sprache und der Region
 
 [!INCLUDE[prod_short](includes/prod_short.md)] ist in vielen Märkten und Sprachen auf der ganzen Welt verfügbar. In den Märkten, in denen [!INCLUDE[prod_short](includes/prod_short.md)] verfügbar ist, stehen eine Reihe von regulatorischen Funktionen zur Verfügung, um Unternehmen bei regulatorischen Belastungen zu unterstützen. [!INCLUDE[prod_short](includes/prod_short.md)] kann in verschiedenen Sprachen angezeigt werden. Sie können sogar die Sprache ändern, die zum Anzeigen von Texten verwendet wird. Die Änderung wird sofort durchgeführt, nachdem Sie automatisch ab- und wieder angemeldet wurden. Die Einstellung trifft auf Sie zu und nicht auf alle in Ihrer Unternehmung.  
 
@@ -28,7 +28,7 @@ Die als Anwendungsdaten gespeicherten Texte können nicht geändert werden. Beis
 > [!NOTE]  
 > Da  [!INCLUDE[prod_short](includes/prod_short.md)] nur einen Zeichensatz für Daten unterstützt. Daher werden einige Zeichen in Ihrer Umgebung möglicherweise nicht unterstützt und beim Abrufen von Daten, die mit einem anderen Zeichensatz eingegeben wurden, können möglicherweise Probleme auftreten. So kann es beispielsweise sein, dass Ihre Umgebung nur englische und russische Zeichen unterstützt. Wenn Sie in diesem Fall die Daten in einer anderen Sprache eingeben, werden diese möglicherweise nicht ordnungsgemäß gespeichert. Wenden Sie sich an den zuständigen Systemadministrierenden, und erkundigen Sie sich nach den Sprachen, die von Ihrer Installation für Ihr [!INCLUDE[prod_short](includes/prod_short.md)] unterstützt werden.  
 
-## Ändern der Einstellungen für Ihre Region
+## <a name="changing-your-region-setting"></a>Ändern der Einstellungen für Ihre Region
 
 Die Region unterscheidet sich von der Sprache und von gesetzlichen Vorschriften in den lokalen Märkten. Anhand der Region wird die Darstellung Ihrer Daten, z. B. das Dezimaltrennzeichen, und die Ausrichtung von Text nach links oder rechts bestimmt. Die Region bestimmt auch einige der Systemelemente im Browser, z. B. die Aktion zum Erstellen eines neuen Artikels in einer Liste.  
 
@@ -39,28 +39,28 @@ Sie können die Region in der Browserregisterkarte ändern, mit der Sie in [!INC
 
 Wechseln Sie zur Seite **Meine Einstellungen**, um die Region zu ändern. Weitere Informationen finden Sie unter [Ändern der Grundeinstellungen](ui-change-basic-settings.md).  
 
-## Festlegen der Region für Kunden, Kontakte und Kreditor
+## <a name="changing-the-region-setting-for-customers-contacts-and-vendors"></a>Festlegen der Region für Kunden, Kontakte und Kreditor
 
 Einige Unternehmen verwenden einen externen Dienst, der die Adressdaten in ihrem Land oder ihrer Region validiert. Wenn Sie jedoch Adressdaten aktualisieren müssen, ist der strukturierte Ansatz, den diese Dienste verwenden, für manche Szenarien nicht immer das Richtige. Business Central bietet eine flexiblere Möglichkeit zur Eingabe von Adressdaten.
 
 Wenn Sie auf der Seite **Hauptbuchhaltungs-Einrichtung** den Schalter **Länder-/Regionscode in Adresse erforderlich** aktivieren, werden bei Änderungen im Feld **Länder-/Regionscode** bei Adressen für Kunden, Kontakte oder Kreditor die Werte in anderen Adressfeldern zurückgesetzt.
 
-## Anwendungsversionen
+## <a name="application-version"></a>Anwendungsversionen
 
 Auf der Seite **Hilfe und Support** sehen Sie die Version von [!INCLUDE[prod_short](includes/prod_short.md)], auf der Ihr Unternehmen basiert. Wenn Sie ein Unternehmen auf einer anderen Version aufbauen möchten, kann Ihr Administrator eine neue Produktionsumgebung anlegen. Weitere Informationen finden Sie unter [Erstellen einer neuen Produktionsumgebung](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-new-production-environment) im Entwickler- und IT Pro-Inhalt.  
 
-## Sprachen der [!INCLUDE[prod_short](includes/prod_short.md)]-Hilfe
+## <a name="languages-of-the--help"></a>Sprachen der [!INCLUDE[prod_short](includes/prod_short.md)]-Hilfe
 
 Der Inhalt der Hilfe für die Standardversion von [!INCLUDE[prod_short](includes/prod_short.md)] wird auf Microsoft Learn veröffentlicht. Die Inhalte sind in verschiedenen Sprachen verfügbar. Wenn Sie von [!INCLUDE[prod_short](includes/prod_short.md)] aus auf die Dokumentation zugreifen, wird der Inhalt in Ihrer Sprache angezeigt. Wenn eine bestimmte Seite noch nicht in der Sprache verfügbar ist, wird sie standardmäßig in Englisch angezeigt.
 
-### Wie kann ich die Sprache der Microsoft Learn-Seite ändern?
+### <a name="how-do-i-change-the-language-of-the-microsoft-learn-site"></a>Wie kann ich die Sprache der Microsoft Learn-Seite ändern?
 
 Ganz einfach - einen Bildlauf zum unteren Rand der Browserseite ausführen und das Kugelsymbol in der unteren linken Ecke auswählen.
 
 > [!NOTE]  
 > Die Liste zeigt alle Sprachen an, die von der Microsoft Learn-Seite unterstützt werden. [!INCLUDE[prod_short](includes/prod_short.md)] ist in einer begrenzten Anzahl von Ländern/Regionen verfügbar, und der Inhalt der [!INCLUDE [prod_short](includes/prod_short.md)]-Hilfe ist nicht in allen Sprachen verfügbar, die die Microsoft Learn-Seite unterstützt.
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Ressourcen für Hilfe und Support](product-help-and-support.md)  
 [Ändern von grundlegenden Einstellungen](ui-change-basic-settings.md)  

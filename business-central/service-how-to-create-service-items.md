@@ -10,18 +10,18 @@ ms.date: 03/22/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Serviceartikel erstellen
+# <a name="create-service-items"></a>Serviceartikel erstellen
 
 In [!INCLUDE[prod_short](includes/prod_short.md)], berücksichtigt der Begriff "Serviceartikel" Lagerhilfsmittel oder Artikel, die Service benötigen. Wenn Sie einen Serviceauftrag erstellen, geben Sie den Artikeln die Anforderungsdienst an. Im Verkaufsauftrag können Sie einen Serviceartikel für einen Artikel im Lagerbestand oder in einer Serviceartikelgruppe verknüpfen.
 
 Wenn Sie einen Serviceartikel für Servicearbeiten empfangen, der nicht erfasst ist, kann dieser als Serviceartikel angelegt werden. Es gibt mehrere Möglichkeiten dazu: Beispielsweise können Sie einen Serviceartikel unter **Serviceartikel** oder als Teil eines anderen Prozesses erstellen, etwa bei der Arbeit mit einem Serviceauftrag.
 
-## So erstellen Sie einen Serviceartikel
+## <a name="to-create-a-service-item"></a>So erstellen Sie einen Serviceartikel
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Serviceartikel** ein, und wählen Sie dann den zugehörigen Link.
 2. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-## So erstellen Sie Serviceartikel in Serviceaufträgen
+## <a name="to-create-service-items-within-a-service-order"></a>So erstellen Sie Serviceartikel in Serviceaufträgen
 
 Wenn Sie Artikel für Servicearbeiten erhalten, können Sie diese als Serviceartikel auf der Seite **Serviceauftrag** oder **Serviceangebot** anlegen.  
 
@@ -31,7 +31,7 @@ Wenn Sie Artikel für Servicearbeiten erhalten, können Sie diese als Serviceart
 
     Eine Nummer wird dem Serviceartikel zugeordnet und eine Serviceartikelkarte wird erstellt. Das Feld **Serviceartikelnr.** wird mit der Nummer des neuen Serviceartikels ausgefüllt.
 
-## So erstellen Sie Serviceartikel bei Artikellieferungen
+## <a name="to-create-a-service-item-when-shipping-items"></a>So erstellen Sie Serviceartikel bei Artikellieferungen
 
 Wenn Sie Artikel liefern, indem Sie entweder Verkaufsaufträge oder Verkaufsrechnungen buchen, werden die gelieferten Artikel unter folgender Bedingung automatisch als Serviceartikel erfasst. Die Artikel müssen zu einer Serviceartikelgruppe mit aktiviertem Kontrollkästchen **Serviceartikel erstellen** gehören. Wenn die Artikel über auf der Seite "Artikelverfolgungszeilen" erfasste Seriennummern verfügen, werden diese Informationen beim Erstellen der Serviceartikel automatisch in das Feld **Seriennr.** der Serviceartikelkarte kopiert.  
 
@@ -48,7 +48,7 @@ Im folgenden Verfahren wird gezeigt, wie bei Artikellieferungen in Verkaufsauftr
 >
 > Wenn es sich bei dem Artikel um eine nicht entfaltete Stückliste handelt, wird ein Serviceartikel gemäß der Bedingung für Serviceartikelgruppen und optional gemäß der Bedingung für Seriennummern erstellt.  
 
-## So fügen Sie die Grundgebühr für einen Serviceartikel ein
+## <a name="to-insert-a-starting-fee-for-a-service-item"></a>So fügen Sie die Grundgebühr für einen Serviceartikel ein
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Serviceaufgaben** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie die Aktion **Artikel-Arbeitsblatt** aus.
@@ -56,7 +56,7 @@ Im folgenden Verfahren wird gezeigt, wie bei Artikellieferungen in Verkaufsauftr
 
     Eine Servicezeile der Art **Kosten** wird mit der Grundgebühr eingefügt. Die Grundgebühr bezieht sich auf den ausgewählten Serviceartikel.
 
-## Artikel, Artikelvarianten oder bestimmte Serviceartikel blockieren
+## <a name="block-items-item-variants-or-specific-service-items"></a>Artikel, Artikelvarianten oder bestimmte Serviceartikel blockieren
 
 Sie können verhindern, dass Artikel, Artikelvarianten oder Serviceartikel in Servicemanagementtransaktionen wie Serviceverträgen, Serviceaufträgen und Servicerechnungen verwendet werden. Dies kann nützlich sein, wenn Sie die Verfügbarkeit einiger Artikel oder Serviceartikel zu Servicezwecken einschränken möchten, beispielsweise aufgrund von eingestelltem Support, begrenztem Lagerbestand oder vertraglichen Vereinbarungen.
 
@@ -79,7 +79,7 @@ Wenn Sie außerdem über Serviceverträge, Servicevertragsangebote oder Servicea
 - **Für Warenausgang freigeben** oder **Buchen** auf der Seite **Serviceauftrag**.
 - **Buchen** auf der Seite **Servicerechnung**.
 
-### Serviceartikel blockieren
+### <a name="block-a-service-item"></a>Serviceartikel blockieren
 
 Um die Verwendung eines Serviceartikels in Servicemanagementtransaktionen zu sperren, wählen Sie auf der Seite **Serviceartikelkarte** im Feld **Blockiert** eine der folgenden Optionen aus:
 
@@ -107,14 +107,14 @@ Sie können die blockierten Serviceartikel auch anzeigen, indem Sie einen Filter
 - Serviceartikel – Garantie abgelaufen (Bericht 5937)
 - Service-DB (Serviceartikel) (Bericht 5938)
 
-### Datenupgrade
+### <a name="data-upgrade"></a>Datenupgrade
 
 Diese Funktion erfordert keine zusätzliche Einrichtung. Wenn Sie jedoch Ihr [!INCLUDE [prod_short](includes/prod_short.md)] aktualisieren, beachten Sie Folgendes:
 
 - Wenn Sie Artikel, Artikelvarianten oder Artikelvorlagen haben, bei denen der Umschalter **Verkäufe blockiert** eingeschaltet ist, wird das Feld **Dienst gesperrt** während des Upgrades auch für diese Datensätze aktiviert. Dadurch wird sichergestellt, dass die vorhandene Logik zur Blockierung von Verkäufen auch für Servicemanagementtransaktionen gilt.
 - Für Daten werden nur Upgrades ausgeführt, wenn Sie in Ihrem Unternehmen über mindestens einen Serviceartikel verfügen, also die Servicemanagementfunktionalität nutzen und das Daten-Upgrade benötigen. Wenn Sie keine Serviceartikel haben, wird die Datenaktualisierung übersprungen und der Umschalter **Dienst gesperrt** ist standardmäßig für alle Artikel, Artikelvarianten und Artikelvorlagen deaktiviert.
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Serviceartikel und Serviceartikelkomponenten einrichten](service-how-setup-service-items.md)  
 [Einrichten der Serviceverwaltung](service-setup-service.md)  

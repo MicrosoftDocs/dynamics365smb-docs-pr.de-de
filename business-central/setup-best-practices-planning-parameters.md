@@ -9,7 +9,7 @@ ms.date: 06/23/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Bewährte Einrichtungsmethoden: Planungsparameter
+# <a name="setup-best-practices-planning-parameters"></a>Bewährte Einrichtungsmethoden: Planungsparameter
 
 Das Inforegister **Planung** auf der Artikelkarte ist Mittelpunkt der gesamten Lieferkette des Unternehmens. Das Einstellen eines richtigen Planungsparameters ist für die kosteneffektive Bestandskontrolle und einen sehr guten Debitorenservice sehr wichtig.  
 
@@ -33,7 +33,7 @@ Das Inforegister **Planung** auf der Artikelkarte ist Mittelpunkt der gesamten L
 >
 > Wenn Unternehmen den Bedarf an verschiedenen Lagerorten planen, empfiehlt es sich, für jeden Standort Lagerhaltungsdaten festzulegen und den gesamten Bedarf mit einem Wert im Feld **Lagerortcode** zu erstellen. Weitere Informationen finden Sie unter [Designdetails: Planung mit/ohne Lagerortcodes](production-planning-with-without-locations.md).  
 
-## Weitere Informationen  
+## <a name="see-also"></a>Weitere Informationen
 [Bewährte Einrichtungsmethoden: Beschaffungsplanung](setup-best-practices-supply-planning.md)  
 [Entwurfsdetails: Vorratsplanung](design-details-supply-planning.md)  
 [Richten Sie komplexe Anwendungsbereiche mithilfe bewährter Methoden ein](set-up-complex-application-areas-using-best-practices.md)  

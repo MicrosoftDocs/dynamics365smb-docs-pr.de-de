@@ -10,7 +10,7 @@ ms.date: 05/07/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Mit Buchhaltungsperioden und Geschäftsjahren arbeiten
+# <a name="work-with-accounting-periods-and-fiscal-years"></a>Mit Buchhaltungsperioden und Geschäftsjahren arbeiten
 
 Buchhaltungsperioden, auch Berichtsperioden genannt, sind Zeiträume, für die eine Firma oder Organisation über ihre finanzielle Leistung berichtet, indem sie z.B. ihre Gewinn- und Verlustrechnung oder ihre Bilanz erstellt. Normalerweise beziehen sich Buchhaltungsperioden auf das Geschäftsjahr der Konzernmandanten, die mehrere Buchhaltungsperioden enthalten. wie Monate oder Quartale.
 
@@ -20,11 +20,11 @@ Bei vielen Firmen stimmt das Geschäftsjahr nicht mit dem Kalenderjahr überein,
 
 Sie können Buchhaltungsperioden in der Berichterstattung verwenden, z.B. wenn Sie Buchungen auf der Seite **Bilanz/Budget** überprüfen, auf der das Berichtsintervall angegeben ist. Eine der Optionen, die Sie angeben können, ist die Berichterstattung nach Buchhaltungsperioden. Sie können auch einen Finanzbericht erstellen, der die Ergebnisse für verschiedene Buchhaltungsperioden vergleicht.
 
-## Ein neues Geschäftsjahres eröffnen
+## <a name="creating-a-new-fiscal-year"></a>Ein neues Geschäftsjahres eröffnen
 
 Sie können Buchhaltungsperioden in großen Mengen erstellen, indem Sie den Batchauftrag **Geschäftsjahr erstellen** verwenden, oder dies manuell tun.
 
-### So erstellen Sie Buchhaltungsperioden im Batch
+### <a name="how-to-create-accounting-periods-in-bulk"></a>So erstellen Sie Buchhaltungsperioden im Batch
 
 Verwenden Sie die Stapelverarbeitung **Geschäftsjahr eröffnen**, um ein Geschäftsjahr in Perioden derselben Länge zu unterteilen.  
 
@@ -35,7 +35,7 @@ Verwenden Sie die Stapelverarbeitung **Geschäftsjahr eröffnen**, um ein Gesch�
 5. In dem Feld **Periodenlänge** geben Sie eine Zeitspanne für die einzelnen Perioden ein. Die Bezeichnungen der Perioden sind 1M für einen Monat, 1Q für ein Quartal und 1Y für ein Jahr.  
 6. Wählen Sie **OK** aus.  
 
-### So erstellen Sie Buchhaltungsperioden in einer Massenoperation manuell
+### <a name="how-to-create-accounting-periods-manually"></a>So erstellen Sie Buchhaltungsperioden in einer Massenoperation manuell
 
 Wenn die Buchhaltungsperioden in Ihrem Geschäftsjahr unterschiedliche Laufzeiten haben, wie z.B. der im Einzelhandel verwendete 4-4-5-Kalender, können Sie dies manuell festlegen.  
   
@@ -44,7 +44,7 @@ Wenn die Buchhaltungsperioden in Ihrem Geschäftsjahr unterschiedliche Laufzeite
 3. Wählen Sie das Kontrollkästchen **Neues Geschäftsjahr**, um anzugeben, dass dies die erste Periode im Jahr ist. [!INCLUDE[prod_short](includes/prod_short.md)] verwendet diese Periode, um zu ermitteln, welche Periode am Ende des Geschäftsjahres zu schließen ist.
 4. Wiederholen Sie Schritt 2 und 3 für jede verbleibende Periode.  
 
-## Abschließen eines Geschäftsjahres
+## <a name="closing-a-fiscal-year"></a>Abschließen eines Geschäftsjahres
 
 Das Geschäftsjahr abzuschließen ist eine der Aufgaben für das Schließen der Bücher. Nachdem Sie das Geschäftsjahr abgeschlossen haben, sind die Felder **Abgeschlossen** und **Datum gesperrt** für alle Perioden des Jahres aktiviert. Sie können ein Jahr nicht erneut öffnen oder die Kontrollkästchen deaktivieren.
 
@@ -54,11 +54,11 @@ Das Geschäftsjahr abzuschließen ist eine der Aufgaben für das Schließen der 
 1. Wählen Sie das ![Suchen Sie nach Seite oder Bericht.](media/ui-search/search_small.png "Symbol „Suche nach Seite oder Bericht“") Symbol. Geben Sie **Buchhaltungsperioden** ein und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die Aktion **Jahr beenden** aus.  
 
-## Buchungen für ein abgeschlossenes Geschäftsjahr
+## <a name="posting-entries-to-a-closed-fiscal-year"></a>Buchungen für ein abgeschlossenes Geschäftsjahr
 
 Auch wenn ein Geschäftsjahr abgeschlossen wurde, können hierfür noch Sachposten gebucht werden. In diesen Fällen wird in den Posten vermerkt, dass die Buchung in einem abgeschlossenen Geschäftsjahr erfolgte, d. h., das Feld **Nachbuchung** wird mit einem Häkchen versehen. Standardmäßig wird das Kontrollkästchen auf der Seite nicht angezeigt, aber Sie können es hinzufügen. Als nächsten Schritt schließen Sie die GuV-Konten und übertragen das Jahresergebnis an ein Konto in der Bilanz. Dies müssen Sie jedes Mal wiederholen, wenn Sie in ein abgeschlossenes Geschäftsjahr gebucht haben.
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Bucher schließen](year-close-books.md)  
 [Jahre und Perioden abschließen](year-close-years-periods.md)  

@@ -10,7 +10,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Artikel kategorisieren
+# <a name="categorize-items"></a>Artikel kategorisieren
 
 Um eine Übersicht über Ihre Artikel zu verwalten und das Sortieren und Finden von Artikeln zu erleichtern, ist es nützlich, Ihre Artikel in Artikelkategorien zu organisieren.
 
@@ -19,7 +19,7 @@ Um Artikel nach Eigenschaften zu finden, können Sie Artikelattribute Artikeln u
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4j4mo?rel=0]
 
-## So erstellen Sie eine Artikelkategorie
+## <a name="to-create-an-item-category"></a>So erstellen Sie eine Artikelkategorie
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Artikelkategorien** ein und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie auf der Seite **Artikelkategorien** die Aktion **Neu** aus.
 3. Füllen Sie auf der Seite **Artikelkategorienkarte** im Inforegister **Allgemein** die notwendigen Felder aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -33,17 +33,17 @@ Um Artikel nach Eigenschaften zu finden, können Sie Artikelattribute Artikeln u
 
 Wenn Sie Ihre Meinung zu einer Artikelkategorie ändern, können Sie sie löschen. Wenn sie jedoch bereits einem Artikel zugewiesen wurde, müssen Sie diese Zuweisung entfernen, bevor Sie die Artikelkategorie löschen können.
 
-## So ordnen Sie eine Artikelkategorie einem Artikel zu
+## <a name="to-assign-an-item-category-to-an-item"></a>So ordnen Sie eine Artikelkategorie einem Artikel zu
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren") Symbol. Geben Sie **Elemente** ein, und wählen Sie dann den zugehörigen Link.
 2. Öffnen Sie die Karte des Artikels, den Sie einer Artikelkategorie zuordnen möchten.
 3. Klicken Sie im Feld **Artikelkategoriencode** auf die Schaltfläche suchen und wählen Sie eine bereits vorhandene Artikelkategorie aus. Alternativ wählen Sie die Aktion **Neu**, um zuerst eine neue Artikelkategorie so zu erstellen, wie es unter [So erstellen Sie eine Artikelkategorie](inventory-how-categorize-items.md#to-create-an-item-category) erklärt wird.
 
-## Kategorien, Attribute und Varianten
+## <a name="categories-attributes-and-variants"></a>Kategorien, Attribute und Varianten
 
 [!INCLUDE[inventory_variant](includes/inventory_variant.md)]
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Mit Artikelattributen arbeiten](inventory-how-work-item-attributes.md)  
 [Produktvarianten verwalten](inventory-item-variants.md)  

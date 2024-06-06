@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# Entschuldigung, dieser Inhalt befindet sich im Aufbau
+# <a name="sorry-this-content-is-under-construction"></a>Entschuldigung, dieser Inhalt befindet sich im Aufbau
 
 :::image type="content" source="media/helene/empty illustration_BCdocs.png" alt-text="Hier ist gerade nichts." border="false":::
 
@@ -20,7 +20,7 @@ Wir ergänzen und verbessern ständig [!INCLUDE[prod_short](includes/prod_short.
 
 Schauen Sie aber bald wieder vorbei und entdecken Sie in der Zwischenzeit andere Themen auf dem [Dynamics 365-Kanal auf YouTube](https://www.youtube.com/playlist?list=PLcakwueIHoT-wVFPKUtmxlqcG1kJ0oqq4).
 
-## Weitere Informationen
+## <a name="see-also"></a>Weitere Informationen
 [Besuchen Sie unsere Videobibliothek](across-videos.md)
 
  
