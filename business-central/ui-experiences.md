@@ -11,7 +11,7 @@ ms.date: 03/11/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="change-which-features-are-displayed"></a>Angezeigte Features ändern
+# Angezeigte Features ändern
 
 [!INCLUDE[prod_short](includes/prod_short.md)] wurde entwickelt, um Ihnen zu helfen, Ihr Unternehmen unabhängig von Größe und Komplexität zu führen. Im Mittelpunkt des Produkts stehen wesentliche Funktionen wie Finanzberichterstattung, Vertrieb, Einkauf und Lagerverwaltung. Mit zunehmender Komplexität des Unternehmens können Sie z.B. Funktionen für das Fertigungs- und Servicemanagement aktivieren.
 
@@ -36,11 +36,11 @@ Bevor Sie die Benutzereinstellungen eines Unternehmens definieren, definieren Si
 
 Die Einstellung **Erfahrung** gilt für alle Benutzer in einem Unternehmen, aber jeder Benutzer kann seine eigene Erfahrung durch Ändern von Seitenlayouts und Inhalten weiter personalisieren. Weitere Informationen finden Sie unter [Personalisieren Sie Ihren Arbeitsbereich](ui-personalization-user.md).
 
-## <a name="enabling-premium-features-after-upgrading-a-plan"></a>Premium-Funktionen aktivieren, nachdem ein Plan aktualisiert wurde
+## Premium-Funktionen aktivieren, nachdem ein Plan aktualisiert wurde
 
 Benutzer werden Plänen in Microsoft 365 Admin Center in Verbindung mit allgemeiner Arbeit zugewiesen, um Business Central Benutzer zu erstellen. Weitere Informationen finden Sie unter [Fügen Sie Benutzer hinzu und weisen Sie gleichzeitig Lizenzen zu](/microsoft-365/admin/add-users/add-users?view=o365-worldwide&preserve-view=true).
 
-### <a name="to-update-plan-changes-in-users-groups"></a>Um Planänderungen der Benutzergruppen zu aktualisieren
+### Um Planänderungen der Benutzergruppen zu aktualisieren
 
 [!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
 
@@ -50,18 +50,18 @@ Wenn Sie eine Änderung in den Benutzerplänen im Microsoft 365 Admin Center gem
 2. Wählen Sie das Symbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren") Symbol. Geben Sie **Benutzer** ein, und wählen Sie dann den entsprechenden Link.
 3. Wählen Sie auf der Seite **Benutzer** die Aktion **Benutzer aus Microsoft 365 aktualisieren** aus.
 
-### <a name="to-select-the-premium-experience"></a>Die Premium-Umgebung auswählen
+### Die Premium-Umgebung auswählen
 
 Sie können jetzt fortfahren, die neuen Benutzeroberfläche auszuwählen.
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren") Symbol. Geben Sie **Unternehmensdaten** ein, und wählen Sie dann den zugehörigen Link.
 2. Auf der Seite **Unternehmensinformation** können Sie die **Benutzerfreundlichkeit** für Ihren Mandanten im Feld **Inforegister** festlegen.
 
-## <a name="help-assumes-the-premium-experience"></a>Die Hilfe geht von der Premium-Umgebung aus
+## Die Hilfe geht von der Premium-Umgebung aus
 
 Alle Funktionsbeschreibungen in der Dokumentation behandeln [!INCLUDE[prod_short](includes/prod_short.md)] die **Premium**-Umgebung, decken also den gesamten Umfang der Benutzeroberflächenelemente ab.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Ihren Arbeitsbereich personalisieren](ui-personalization-user.md)  
 [Business Central anpassen](ui-customizing-overview.md)  

@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.form: '42, 49, 50, 459, 460, 5159, 5162, 5164, 5167, 6627, 6630, 6644, 9305, 9306, 9346, 9347, 9348, 9349'
 ms.service: dynamics-365-business-central
 ---
-# <a name="archive-documents"></a>Belege archivieren
+# Belege archivieren
 
 Sie können Verkaufs- und Einkaufsaufträge, Angebote, Retouren und Rahmenaufträge archivieren. Wenn Sie Projektmanagementfeatures verwenden, können Sie Ihre Projekte auch archivieren. Sie können Belege und Projekte mehrmals archivieren, wobei jedes Mal eine andere archivierte Version gespeichert wird.
 
@@ -21,7 +21,7 @@ Bei Verkaufsbelegen, deren Original noch vorhanden und nicht gebucht ist, könne
 
 Bei archivierten Belegen, deren Original gelöscht ist, können Sie den Inhalt durch Kopieren der Daten wiederverwenden, z. B. mit der Aktion **Aus Beleg kopieren**.  
 
-## <a name="to-set-up-automatic-document-archiving"></a>So richten Sie die automatische Archivierung von Belegen ein
+## So richten Sie die automatische Archivierung von Belegen ein
 
 Sie können die Archivierung automatisieren, um eine neue Version des archivierten Belegs zu erstellen, wenn jemand die folgenden Aktionen ausführt:
 
@@ -43,7 +43,7 @@ In der folgenden Tabelle werden die Optionen für das Feld **Angebote archiviere
 |**Frage**|Fordern Sie den Benutzer dazu auf, festzulegen, ob Verkaufsangebote archiviert werden sollen, wenn sie gelöscht werden.|
 |**Immer**|Archivieren Sie Verkaufsangebote automatisch, wenn sie gelöscht werden.|
 
-## <a name="to-manually-archive-a-sales-order"></a>So archivieren Sie einen Verkaufsauftrag manuell
+## So archivieren Sie einen Verkaufsauftrag manuell
 
 Nachfolgend wird beschrieben, wie Sie einen Verkaufsauftrag manuell archivieren. Die Schritte sind für alle anderen Belege und Projekte, die Sie archivieren können, ähnlich.
 
@@ -53,7 +53,7 @@ Nachfolgend wird beschrieben, wie Sie einen Verkaufsauftrag manuell archivieren.
 
 Der Auftrag ist archiviert. Sie können sie auf der Seite **Archivierte Verkaufsaufträge** anzeigen.
 
-## <a name="to-restore-a-non-posted-sales-document-or-a-project-from-the-archive"></a>So stellen Sie einen nicht gebuchten Verkaufsbeleg oder ein Projekt aus dem Archiv wieder her
+## So stellen Sie einen nicht gebuchten Verkaufsbeleg oder ein Projekt aus dem Archiv wieder her
 
 Die folgende Vorgehensweise beschreibt, wie Sie aus einem archivierten Verkaufsauftrag den ursprünglichen Verkaufsauftrag wiederherstellen. Das Wiederherstellen eines Belegs ist nur möglich, wenn der Originalbeleg nicht gebucht wurde. Die Schritte sind für alle Aufträge, Rahmenaufträge, Retouren und Angebote sowie für Projekte ähnlich.
 
@@ -62,7 +62,7 @@ Die folgende Vorgehensweise beschreibt, wie Sie aus einem archivierten Verkaufsa
 
 Die Inhalte des ursprünglichen Verkaufsauftrags oder des Projekts werden durch die archivierte Version ersetzt.
 
-## <a name="to-delete-archived-versions"></a>Archivierte Versionen löschen
+## Archivierte Versionen löschen
 
 Verwenden Sie eine Aufbewahrungsrichtlinie, um archivierte Versionen zu bereinigen, die Sie nicht mehr benötigen. Mithilfe von Aufbewahrungsrichtlinien können Administratoren festlegen, wie lange sie Daten speichern möchten. Sie können beispielsweise eine Richtlinie einrichten, durch die Daten nach einem Ablaufdatum gelöscht werden. Weitere Informationen finden Sie unter [Aufbewahrungsrichtlinien definieren](admin-data-retention-policies.md).
 
@@ -72,7 +72,7 @@ Beim Erstellen von Aufbewahrungsrichtlinien für archivierte Belege und Projekte
 * Wenn Sie die Aufbewahrungsrichtlinie einrichten, können Sie angeben, dass die Richtlinie alle archivierten Versionen außer der aktuellsten löschen soll. Beispielsweise verfügen Sie möglicherweise über 10 Versionen und möchten eine Kopie der neuesten Version behalten. 
 * [!INCLUDE [prod_short](includes/prod_short.md)] berechnet das Ablaufdatum für Belege basierend auf dem Datum der letzten archivierten Version.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Belegzeilen nachverfolgen](across-how-to-track-document-lines.md)  
 [Verkauf](sales-manage-sales.md)  

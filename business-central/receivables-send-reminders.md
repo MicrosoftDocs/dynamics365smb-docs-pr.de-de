@@ -10,11 +10,11 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="send-reminders-of-outstanding-balances"></a>Mahnungen für Restbeträge versenden
+# Mahnungen für Restbeträge versenden
 
 [!INCLUDE [receivables-reminders](includes/receivables-reminders.md)]
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Restbeträge einziehen](receivables-collect-outstanding-balances.md)  
 [Mehrere Sätze für verzögerte Zahlung festlegen](finance-how-to-set-up-multiple-interest-rates.md)  

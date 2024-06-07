@@ -9,11 +9,11 @@ ms.date: 02/27/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="create-service-invoices-or-credit-memos"></a>Servicerechnungen oder Gutschriften erstellen
+# Servicerechnungen oder Gutschriften erstellen
 
 Die einfache Fakturierung von Serviceaufträgen ist ein zentrales Feature von [!INCLUDE[prod_short](includes/prod_short.md)] [!INCLUDE[prod_short](includes/prod_short.md)] kann auch so eingerichtet werden, dass ein Servicetechnikfachkraft im Feld eine Rechnung für einen Service erstellen kann, der nicht mit einem Vertrag oder Auftrag verbunden ist. Richten Sie [!INCLUDE[prod_short](includes/prod_short.md)] alternativ so ein, dass Sie Serviceverträge regelmäßig in Rechnung stellen. Im Fakturierungsintervall wird für jeden Vertrag festgelegt, wie oft fakturiert wird.
 
-## <a name="to-invoice-several-service-contracts"></a>So stellen Sie mehrere Serviceverträge in Rechnung
+## So stellen Sie mehrere Serviceverträge in Rechnung
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Servicevertragsrechnungen erstellen** ein, und wählen Sie dann den entsprechenden Link.  
 2. Geben Sie die anzuwendenden Filter ein.  
@@ -24,7 +24,7 @@ Die einfache Fakturierung von Serviceaufträgen ist ein zentrales Feature von [!
   
 Sie können einen Servicevertrag auch direkt auf der Seite **Servicevertrag** fakturieren, wenn das Rechnungsdatum des Vertrages vor dem Arbeitsdatum liegt.
 
-## <a name="to-invoice-a-service-contract-from-the-service-contract-page"></a>So fakturieren Sie einen Servicevertrag aus der Seite "Servicevertrag"
+## So fakturieren Sie einen Servicevertrag aus der Seite "Servicevertrag"   
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Serviceverträge** ein und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie den Servicevertrag aus, den Sie fakturieren möchten, und öffnen Sie die Vertragskarte.  
@@ -34,7 +34,7 @@ Sie können einen Servicevertrag auch direkt auf der Seite **Servicevertrag** fa
   > [!NOTE]  
   > Es ist nicht möglich, eine Servicerechnung für einen Servicevertrag zu erstellen, wenn das Feld **Status für Änderungen** den Wert **Offen** hat.  
 
-## <a name="to-post-an-invoice-from-a-service-order"></a>So buchen Sie eine Rechnung von einem Serviceauftrag
+## So buchen Sie eine Rechnung von einem Serviceauftrag  
 
 Das folgende Verfahren beschreibt, wie der Teil des Service festgelegt wird, der dem Debitor in Rechnung gestellt werden soll.  
 
@@ -54,7 +54,7 @@ Das folgende Verfahren beschreibt, wie der Teil des Service festgelegt wird, der
   
  Wenn Sie den Auftrag mit der Option **Rechnung** buchen, erstellt die Anwendung eine gebuchte Servicerechnung zusammen mit den entsprechenden Posten und aktualisiert die jeweiligen Felder in den Servicezeilen des Auftrags. Darüber hinaus aktualisiert die Anwendung die zuvor gebuchten Lieferungsbelege mit den fakturierten Mengen. Wenn Sie die Buchungsoption **Liefern und fakturieren** wählen, erstellt die Anwendung außerdem eine gebuchte Lieferung.
 
-## <a name="to-create-a-service-invoice-manually"></a>So erstellen Sie eine Servicerechnung manuell
+## So erstellen Sie eine Servicerechnung manuell  
 
 Wenn Sie einen Serviceauftrag mit der Option **Rechnung** oder **Liefern und fakturieren** buchen, wird automatisch eine Servicerechnung gebucht. Es kann jedoch erforderlich sein, eine Rechnung zu erstellen, die weder mit einem Servicevertrag noch mit einem Serviceauftrag verknüpft ist. In diesem Verfahren wird beschrieben, wie eine Rechnung zu dem Zeitpunkt erstellt wird, zu dem der Debitor den Service erhält.  
 
@@ -73,7 +73,7 @@ Wenn Sie einen Serviceauftrag mit der Option **Rechnung** oder **Liefern und fak
 6. Geben Sie im Feld **Belegdatum** das hier eingegebene Datum ein, das auf der gedruckten Rechnung angegeben und zum Berechnen des Fälligkeitsdatums verwendet wird.  
 7. Füllen Sie die Servicezeilen der Rechnung aus. Füllen Sie die Felder **Art**, **Nr.** und **Menge** aus, um Artikel, Ressourcen und Kosten für Servicearbeiten zu erfassen.
 
-## <a name="to-create-an-invoice-that-combines-posted-shipment-lines-from-one-or-more-service-orders"></a>So erstellen Sie eine Rechnung, die gebuchte Lieferzeilen aus einem oder mehreren Serviceaufträgen kombiniert
+## So erstellen Sie eine Rechnung, die gebuchte Lieferzeilen aus einem oder mehreren Serviceaufträgen kombiniert 
 
 Es kann der Fall sein, dass Sie eine Servicerechnung für einen Service erstellen müssen, der bereits aus einem oder aus mehreren Serviceaufträgen geliefert, aber noch nicht fakturiert oder verbraucht wurde. Sie können die Rechnungszeilen anhand der ausgewählten gebuchten Lieferungszeilen für einen bestimmten Debitor automatisch ausfüllen.  
 
@@ -84,7 +84,7 @@ Es kann der Fall sein, dass Sie eine Servicerechnung für einen Service erstelle
   
  Die gebuchte Servicerechnung sowie die entsprechenden Posten werden erstellt. Die zuvor gebuchten Warenausgangsbelege werden mit den fakturierten Mengen und die Mengen in den Servicezeilen der ursprünglichen Aufträge aktualisiert.  
 
-## <a name="to-create-a-service-credit-memo"></a>So erstellen Sie eine Servicegutschrift
+## So erstellen Sie eine Servicegutschrift  
 
 Normalerweise verwenden Sie einen Servicegutschriftbeleg, wenn die Kundschaft einen Artikel zurückgibt. Sie können sie jedoch auch verwenden, um der Kundschaft Geld zurückzuerstatten oder eine fehlerhafte Rechnung zu korrigieren.  
 
@@ -93,7 +93,7 @@ Normalerweise verwenden Sie einen Servicegutschriftbeleg, wenn die Kundschaft ei
 3. Die Felder **Buchungsdatum** und **Belegdatum** zeigen ein Arbeitsdatum an. Bei Bedarf können Sie dieses ändern.    
 4. Geben Sie in die Gutschriftszeilen Informationen über die Artikel ein, die zurückgeschickt oder entfernt wurden, oder die Entschädigung, die Sie dem Debitor gewähren möchten.  
 
-## <a name="correct-errors-in-service-invoices"></a>Fehler in Servicerechnungen korrigieren
+## Fehler in Servicerechnungen korrigieren
 
 Sie können Servicerechnungen löschen, denen Serviceposten zugeordnet sind. Das bedeutet, dass Sie Fehler korrigieren oder Änderungen an Servicerechnungen vornehmen können, ohne hängen zu bleiben oder Daten zu verlieren. Wenn Sie beispielsweise vergessen, einem Sachkonto eine Produktbuchungsgruppe zuzuordnen, können Sie diese später hinzufügen und die Servicerechnung neu erstellen.
 
@@ -109,7 +109,7 @@ Wenn Sie eine Servicerechnung löschen, passieren folgende Dinge:
 >
 > Sie können eine Servicerechnung nicht löschen, wenn deren Details, wie der Rechnungszeitraum oder der Umschalter **Vorausbezahlt**, im zugehörigen Servicevertrag geändert wurde. Stellen Sie sicher, dass Sie Rechnungen löschen, bevor Sie Einstellungen am Servicevertrag ändern.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [So buchen Sie Servicerechnungen](service-how-to-post-service-orders.md)  
 [Einrichten der Serviceverwaltung](service-setup-service.md)  

@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="managing-contacts"></a>Kontakte verwalten
+# Kontakte verwalten
 
 Mitarbeiter in Ihrem Unternehmen treffen regelmäßig mit möglichen Geschäftspartnern zusammen. Aus diesen Zusammentreffen können sich formale Beziehungen ergeben. All diese externen Kontakte und ihre detaillierten Informationen sollten im System aufgezeichnet werden, damit die Kommunikation erfolgreicher ist und sie problemlos in formale Debitor-, Kreditor- oder Bankbeziehungen umgewandelt werden können.
 
@@ -26,7 +26,7 @@ Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Artikel
 |Richten Sie Profilbefragungen ein, die Sie beim Eingeben der Informationen über die Profile Ihrer Kontakte verwenden möchten.|[Verwenden Sie Profilbefragungen, um Geschäftskontakten zu klassieren](marketing-create-contact-profile-questionnaire.md)|
 |Lösen Sie auf Verwirrung auf, wenn zwei oder mehr Datensätze für denselben Kontakt vorhanden sind.|[Doppelte Datensätze zusammenführen](sales-how-merge-duplicate-records.md)|
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Verkaufschancen verwalten](marketing-manage-sales-opportunities.md)  
 [Sortieren, Suchen und Filtern](ui-enter-criteria-filters.md)  
