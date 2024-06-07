@@ -10,11 +10,11 @@ ms.date: 11/14/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Kreditoren Lieferanmahnungscodes in der deutschen Version zuweisen
+# <a name="assign-delivery-reminder-codes-to-vendors-in-the-german-version"></a>Kreditoren Lieferanmahnungscodes in der deutschen Version zuweisen
 
 [!INCLUDE [delivery-reminder-codes-vendors](../includes/ATCHDE/delivery-reminder-codes-vendors.md)]
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Neue Kreditoren einrichten](../../purchasing-how-register-new-vendors.md)  
 [Lieferanmahnungen](delivery-reminders.md)  

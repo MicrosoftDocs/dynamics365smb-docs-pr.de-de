@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Klassifizieren von Datensensitivitätsfeldern
+# <a name="classifying-data-sensitivity-fields"></a>Klassifizieren von Datensensitivitätsfeldern
 
 Um die Felder zu klassifizieren, die vertrauliche oder Personendaten enthalten, kann ein Microsoft Partner die Eigenschaft ```DataClassification``` auf Felder setzen. Dazu müssen Zugriff auf die Datenbanktabellen haben, entweder über die Entwicklungsumgebung oder indem ein Windows PowerShell-Skript ausgeführt wird. Weitere Informationen finden Sie unter [Daten klassieren](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data).  
 
@@ -29,7 +29,7 @@ Die folgende Tabelle beschreibt Datenempfindlichkeitsebenen, die Sie zuweisen k�
 |Vertraulich | Kommerzielle Daten, die Sie für Buchhaltungs- oder andere Geschäftszwecke nutzen und nicht mit anderen Einheiten teilen möchten. Beispielsweise können dies Verkaufsposten sein.|
 |Normal | Allgemeine Daten, die keine andere Klassifizierung haben.|
 
-## Wie klassifiziere ich meine Daten?
+## <a name="how-do-i-classify-my-data"></a>Wie klassifiziere ich meine Daten?
 
 Das Klassifizieren der Empfindlichkeit vieler Feler kann lange dauern. Um den Vorgang zu beschleunigen, stellen wir Werkzeuge bereit, die Sie verwenden können, um die sensiblen Felder aufeinmal zu klassieren. Sie können danach bestimmte Felder noch weiter abstimmen. bestimmte Felder. Sie können Tools auf der Seite „Daten-Klassifizierungsarbeitsblatt“ suchen, die für die Verwaltung von Benutzenden, Benutzergruppen und Berechtigungsrollencentern verfügbar sind. Zur Ausführung dieser Aktivität benötigen Sie Administratorrechte oder müssen das Arbeitsblatt nutzen.
  
@@ -45,7 +45,7 @@ Beispielsweise können Sie mit der Seite „Daten-Klassifizierungsarbeitsblatt�
 > [!Tip]  
 > Wir haben Beispielempfindlichkeitsklassifizierungen für die Tabellen und Felder im Cronus-Demomandanten definiert. Sie können diese Klassifizierungen als Inspiration verwenden, wenn Sie Ihre eigenen Tabellen und Felder klassifizieren.
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 <!-- [Classifying Data](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data) -->
 [!INCLUDE[footer-include](includes/footer-banner.md)]

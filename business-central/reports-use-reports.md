@@ -9,7 +9,7 @@ ms.date: 09/22/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Berichte in der täglichen Arbeit verwenden
+# <a name="use-reports-in-daily-work"></a>Berichte in der täglichen Arbeit verwenden
 
 Ein Bericht in [!INCLUDE[prod_short](includes/prod_short.md)] sammelt Informationen auf der Grundlage einer festgelegten Gruppe von Kriterien. Er organisiert und präsentiert die Informationen in einem leicht zu lesenden Format, das Sie ausdrucken oder als Datei speichern können.  
 
@@ -24,7 +24,7 @@ Ein Bericht in [!INCLUDE[prod_short](includes/prod_short.md)] sammelt Informatio
 | So ändern Sie das Standardlayout für einen Bericht. | [Das Standard-Layout für Berichte ändern](ui-how-change-layout-currently-used-report.md) |
 | Anzeigen und Analysieren von Daten aus einem Dataset in Microsoft Excel. | [Berichts-Dataset über die Anforderungsseite in Excel speichern](/dynamics365-release-plan/2021wave1/smb/dynamics365-business-central/save-report-dataset-excel-request-page) |
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Bericht – Übersicht](reports-available-reports.md)  
 [Übersicht über Business Intelligence und Reporting](ui-work-report.md)  

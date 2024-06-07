@@ -9,7 +9,7 @@ ms.date: 01/18/2024
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
-# Berichts- und Beleg-Layouts – Überblick
+# <a name="report-and-document-layouts-overview"></a>Berichts- und Beleg-Layouts – Überblick
 
 Ein Berichtlayout steuert Inhalt und Format des Berichts, auch, welche Datenfelder eines Berichtsdatasets im Bericht erscheinen und wie sie angeordnet werden, Text-Format, Bilder und mehr. Von [!INCLUDE[prod_short](includes/prod_short.md)] aus können Sie ändern, welches Layout in einem Bericht verwendet wird, ein neues Layout erstellen oder vorhandene Layouts ändern.
 
@@ -18,7 +18,7 @@ Ein Berichtlayout steuert Inhalt und Format des Berichts, auch, welche Datenfeld
 
 Sie können auchBerichtslayouts verwenden, um E-Mail-Nachrichten Inhalte hinzuzufügen. Berichtslayouts können beispielsweise Zeit sparen und zur Konsistenz beitragen, indem dieselben Inhalte wiederverwendet werden, wenn Sie mit Ihren Debitoren kommunizieren. Um benutzerdefinierte Berichtslayouts mit E-Mail verwenden zu können, muss der Dateityp für das Layout „Word“ sein. Der Dateityp „RDLC“ kann nicht verwendet werden. Weitere Informationen finden Sie unter [Wiederverwendbare E-Mail-Texte und -Layouts einrichten](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts). 
 
-## Einführung
+## <a name="introduction"></a>Einführung
 
 Insbesondere richtet ein Berichtlayout folgende Dinge ein:
 
@@ -33,11 +33,11 @@ Ein Bericht kann mit mehreren Berichtlayouts eingerichtet werden, die bei Bedarf
 
 Es gibt zwei wichtige Aspekte von Berichtslayouts, die beeinflussen, wie Sie damit arbeiten: der *Layouttyp* und die *Layout-Quelle*. Der Layouttyp gibt die Art der Datei an, auf der das Layout basiert. Die Layoutquelle gibt die Herkunft des Layouts an.
 
-## Layouttypen
+## <a name="layout-types"></a>Layouttypen
 
 Es gibt vier Arten Layouts, die Sie in Berichten verwenden können: Word, RDLC, Excel und extern.
 
-### Word
+### <a name="word"></a>Word
 
 Word-Layouts basieren auf Word-Dokumenten (DOCX-Dateityp). Mit Word-Layouts können Sie Berichtslayouts entwerfen, indem Sie Microsoft Word verwenden. Ein Word-Layout bestimmt den Inhalt des Berichts und steuert, wie diese Inhaltselemente angeordnet werden und wie diese aussehen. Ein Word-Layoutbeleg verwendet normalerweise Tabellen, um Inhalt zu organisieren, wobei die Zellen Datenfelder, Text oder Bilder enthalten können.
 
@@ -47,7 +47,7 @@ Word-Layouts basieren auf Word-Dokumenten (DOCX-Dateityp). Mit Word-Layouts kön
 
 Weitere Informationen finden Sie unter [Mit Word-Layouts arbeiten](ui-how-add-fields-word-report-layout.md).
 
-### Excel
+### <a name="excel"></a>Excel
 
 Excel-Layouts basieren auf Microsoft Excel-Arbeitsmappen (.xlsx-Dateityp). Damit können Sie Berichte erstellen, indem Sie vertraute Excel-Funktionen zum Zusammenfassen, Analysieren und Präsentieren von Daten mit Tools wie Formeln, PivotTables, PivotCharts und mehr verwenden.
 
@@ -55,7 +55,7 @@ Excel-Layouts basieren auf Microsoft Excel-Arbeitsmappen (.xlsx-Dateityp). Damit
 
 Weitere Informationen finden Sie unter [Mit Excel-Layouts arbeiten](ui-excel-report-layouts.md).
 
-### RDLC
+### <a name="rdlc"></a>RDLC
 
 RDLC-Layouts basieren auf Layoutdateien für Client-Berichtsdefinitionen (.rdl- oder .rdlc-Dateitypen). Diese Layouts werden erstellt und geändert, indem Sie SQL Server Report Builder oder Microsoft RDLC Report Designer verwenden. Das Designkonzept für RDLC-Layouts ähnelt Word-Layouts, bei denen das Layout bestimmt, welche Felder angezeigt werden und wie sie angeordnet sind. Allerdings ist der Entwurf von RDLC-Layouts weiter fortgeschritten als bei Word-Layouts.
 
@@ -63,13 +63,13 @@ RDLC-Layouts basieren auf Layoutdateien für Client-Berichtsdefinitionen (.rdl- 
 
 Weitere Informationen finden Sie unter [Mit RDLC-Layouts arbeiten](ui-rdlc-report-layouts.md).
 
-### Extern
+### <a name="external"></a>Extern
 
 Ein externer Layouttyp bezieht sich auf einen erweiterten Typ, der speziell für bestimmte Berichte entwickelt wurde. Die Berichte und die Layouts selbst werden in der Regel von Partnern und nicht von Microsoft bereitgestellt. Der tatsächliche Dateityp des Layouts variiert je nach Anbieter.
 
 Weitere Informationen finden Sie unter [Entwickeln eines benutzerdefinierten Berichts-Renders](/dynamics365/business-central/dev-itpro/developer/devenv-report-custom-render).
 
-## Layoutquellen
+## <a name="layout-sources"></a>Layoutquellen
 
 Zusätzlich zum Typ werden Layouts basierend auf ihrer Quelle oder Herkunft weiter in drei Kategorien unterteilt.
 
@@ -95,7 +95,7 @@ Informationen, die Ihnen bei der Entscheidung helfen, welcher Typ für Sie am be
 > Beachten Sie unbedingt, dass Sie Erweiterungslayouts nicht vom Business Central-Client aus ändern können. Beispielsweise ist es Ihnen nicht gestattet, den Namen oder Typ des Layouts zu ändern oder es hochzuladen und durch eine andere Version zu ersetzen. Wenn Sie es versuchen, erhalten Sie eine Fehlermeldung. Sie müssen stattdessen ein benutzerangepasstes oder benutzerdefiniertes Layout basierend auf dem Erweiterungslayout erstellen.
 
 <!--
-### Built-in and custom report layouts
+### <a name="built-in-and-custom-report-layouts"></a>Built-in and custom report layouts
 
 
 
@@ -115,7 +115,7 @@ Deciding on whether to use a Word, Excel, or RDLC layout type will depend on how
 For information about how to switch the layout currently used on a report, see [Set the Layout Used by a Report](ui-set-report-layout.md).
 
 -->
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Benutzerdefinierte Berichtslayouts aktualisieren](ui-update-report-layouts.md)  
 [Benutzerdefinierte Berichtslayouts erstellen und ändern](ui-how-create-custom-report-layout.md)  

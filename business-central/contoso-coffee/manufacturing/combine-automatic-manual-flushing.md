@@ -8,15 +8,15 @@ author: brentholtorf
 ms.author: bholtorf
 ---
 
-# Vorgehensweise: Automatisches und manuelles Buchen kombinieren
+# <a name="walkthrough-combine-automatic-and-manual-flushing"></a>Vorgehensweise: Automatisches und manuelles Buchen kombinieren
 
 In diesem Artikel führen wir Sie durch die Schritte zur Verwendung der Demodaten von Contoso Coffee beim Buchen.  
 
-## Szenario
+## <a name="scenario"></a>Szenario
 
 Sie sind der Produktionsplaner bei Contoso Coffee. Sie müssen einen neuen Produktionsauftrag für zehn Einheiten des Artikels SP-SCM1004, AutoDrip erstellen. Einige Komponenten und Vorgänge werden basierend auf unterschiedlichen Bedingungen mit der Methode „Vorwärts“, andere mit der Methode „Rückwärts“ gebucht.
 
-## Schritte
+## <a name="steps"></a>Schritte
 
 > [Note!] Denken Sie daran, den Bestand zu bereinigen, indem Sie Artikel Buch.-Blätter mit Erfassungen der Anfangssalden buchen.
 
@@ -103,7 +103,7 @@ Sie sind der Produktionsplaner bei Contoso Coffee. Sie müssen einen neuen Produ
 
 Das war's zum Thema manuelles und automatisches Buchen von Komponenten.
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Komponenten nach Vorgangsausgabe buchen](../../production-how-to-flush-components-according-to-operation-output.md)  
 [Einführung in Contoso Coffee Demo Data](contoso-coffee-manufacturing-intro.md)  

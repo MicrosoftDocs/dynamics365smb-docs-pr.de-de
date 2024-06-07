@@ -11,9 +11,9 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# Nachhaltigkeitskontenplan und Nachhaltigkeitssachkonto
+# <a name="chart-of-sustainability-accounts-and-ledger"></a>Nachhaltigkeitskontenplan und Nachhaltigkeitssachkonto
 
-## Nachhaltigkeitskontenplan
+## <a name="chart-of-sustainability-accounts"></a>Nachhaltigkeitskontenplan
 
 Der Nachhaltigkeitskontenplan (CoSA) bildet die grundlegende strukturierte Liste, mit der alle Emissionsdaten erfasst werden. Er dient als Rahmen, der Nachhaltigkeitskonten anhand ihrer Attribute, wie Scope oder anderen Gruppierungen, kategorisiert und organisiert. Jedem Konto wird normalerweise ein eindeutiger Code oder eine eindeutige Nummer zugewiesen, um einfach darauf verweisen oder es nachverfolgen zu können. Er hat die gleiche Struktur wie ein herkömmlicher Kontenplan, ist jedoch speziell auf die Überwachung von Daten und Kennzahlen rund um das Thema Nachhaltigkeit in einer Organisation zugeschnitten.
 
@@ -36,7 +36,7 @@ Vom CoSA aus können Sie beispielsweise Folgendes tun:
 
 Sie können Nachhaltigkeitskonten hinzufügen, ändern oder löschen. Um Unstimmigkeiten zu vermeiden, können Sie ein Nachhaltigkeitskonto jedoch nicht löschen, wenn ein oder mehrere Posten damit verknüpft sind.
 
-### Hinzufügen oder Ändern von Konten
+### <a name="add-or-change-accounts"></a>Hinzufügen oder Ändern von Konten
 
 1. Wählen Sie das ![Glühbirne, welche die 3. „Sie wünschen ...“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren") Symbol. Geben Sie **Nachhaltigkeitskontoplan** ein und wählen Sie dann den zugehörigen Link.
 2. Auf der Seite **Nachhaltigkeitskontenplan** können Sie jedes Nachhaltigkeitskonto öffnen und dann Einstellungen hinzufügen oder ändern. Fahren Sie über ein Feld, um eine Kurzbeschreibung zu lesen.
@@ -48,11 +48,11 @@ Bei Konten der Art **Bis-Summe** wird das Feld **Zusammenzählung** automatisch 
 > [!IMPORTANT]
 > Die Einrücken-Funktion überschreibt den Wert aller Felder für Konten vom Typ **Bis-Summe**. Wenn Sie Definitionen im Feld **Zusammenzählung** für Konten vom Typ **Bis-Summe** eingegeben haben, bevor Sie die Einrücken-Funktion ausführen, müssen Sie sie daher noch dem Ausführen noch einmal eingeben.
 
-### Konten löschen
+### <a name="delete-accounts"></a>Konten löschen
 
 Sie können ein Nachhaltigkeitskonto löschen. Allerdings müssen Sie zunächst sicherstellen, dass keine Posten damit verknüpft sind. Business Central lässt Sie ein Nachhaltigkeitskonto jedoch nicht löschen, wenn ein oder mehrere Posten damit verknüpft sind.
 
-## Kontokategorien
+## <a name="account-categories"></a>Kontokategorien
 
 Benutzende müssen jedem Nachhaltigkeitskonto eine Nachhaltigkeitskontokategorie hinzufügen, um das Verhalten des Systems zu bestimmen. Sie können Emissionsscopes, bestimmte nachzuverfolgende Emissionen, Formeln und ähnliche Konfigurationen auswählen.
 
@@ -93,7 +93,7 @@ Wenn Sie das Feld **Berechnungsgrundlage** festlegen, können Sie der folgenden 
 | | Benutzerdefiniert | *Emissionen* = *Benutzerdefinierte Menge* &times; *EF* | *Benutzerdefinierter Betrag* = Hotelaufenthalte |
 | | Treibstoff/Strom | *Emission* = *Kraftstoff* &times; *EF* | *Kraftstoff* = Menge an Kraftstoff, die im Firmenwagen, Mietwagen usw. verbraucht wird |
 
-## Kontounterkategorien
+## <a name="account-subcategories"></a>Kontounterkategorien
 
 Benutzende müssen jedem Nachhaltigkeitskonto eine Nachhaltigkeitskontounterkategorie hinzufügen. Diese Unterkategorie legt die Emissionsfaktoren fest, die in den Formeln verwendet werden und auf der zur Emissionsnachverfolgung als Nachhaltigkeitskontokategorie ausgewählten Option beruhen.
 
@@ -113,7 +113,7 @@ Um die Unterkategorien des Nachhaltigkeitskontos zu überprüfen, gehen Sie wie 
 > [!NOTE]
 > Die Felder **Daten importieren** und **Importieren von** sind für eine mögliche Integration mit externen Systemen vorgesehen, die zur Erfassung von Emissionsfaktoren verwendet werden. Im **1. Veröffentlichungszyklus 2024** können diese Felder jedoch nicht standardmäßig als Feature verwendet werden.
 
-## Nachhaltigkeitsposten
+## <a name="sustainability-ledger-entries"></a>Nachhaltigkeitsposten
 
 Das Nachhaltigkeitssachkonto speichert den Verlauf aller gebuchten Nachhaltigkeitstransaktionen und organisiert alle Emissionsdaten gemäß dem CoSA. Wenn Benutzende das Nachhaltigkeits-Buch.-Blatt buchen, werden dort alle wichtigen Daten erfasst. Alle aktiven Berichte werden auf Basis der Nachhaltigkeitsposten generiert.
 
@@ -122,7 +122,7 @@ Um dieses Sachkonto für ein bestimmtes Konto zu öffnen, verwenden Sie die Akti
 > [!IMPORTANT]
 > Nachdem Sie Ihre Daten in das Nachhaltigkeitssachkonto gebucht haben, können Sie sie nicht mehr löschen. Falls Ihnen ein Fehler unterläuft, können Sie die Rückbuchung mit den gleichen Angaben, aber mit dem Minuszeichen vor dem Betrag buchen.
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Finanzen](finance.md)  
 [Nachhaltigkeitsmanagement – Überblick](finance-manage-sustainability.md)  

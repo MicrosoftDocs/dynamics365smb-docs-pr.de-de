@@ -9,7 +9,7 @@ ms.author: bholtorf
 ms.date: 10/10/2023
 ms.service: dynamics-365-business-central
 ---
-# Informationen zur Berechnung von festen Einstandspreisen
+# <a name="about-calculating-standard-cost"></a>Informationen zur Berechnung von festen Einstandspreisen
 
 Viele Produktionsbetriebe verwenden feste Einstandspreise als Bewertungsbasis. Dies gilt auch für Unternehmen, die Leichtproduktion ausführen, wie Montage und Kitting. Ein Einstandspreissystem bestimmt die Kosten einer Lagerbestandseinheit anhand fundierter früherer oder erwarteter Kosten. Untersuchungen der früheren oder der erwarteten zukünftigen Kosten können dann die Basis für feste Einstandspreise bereitstellen. Diese Kosten bleiben unverändert, bis entschieden wird, sie zu ändern. Die Ist-Produktionskosten eines Produkts können von den erwarteten Einstandspreisen (fest) abweichen. Damit das Management steuernd eingreifen kann, werden die Ist-Kosten eines bestimmten Artikels mit dessen festem Einstandspreis verglichen. Dabei entdeckte Unterschiede oder *Abweichungen* werden gekennzeichnet und analysiert.  
 
@@ -21,7 +21,7 @@ Feste Einstandspreise können für Artikel verwaltet werden, die durch Einkauf, 
 |**Montage**|Direkte Materialkosten, direkte oder feste Arbeitskosten und Gemeinkosten.|  
 |**Fertigungsauftrag**|Direkte Materialkosten, Arbeitskosten, Subunternehmerkosten und Gemeinkosten.|  
 
-## Festlegen von Standardkalkulationen
+## <a name="setting-up-standard-costs"></a>Festlegen von Standardkalkulationen
 
 Da der Einstandspreis eines produzierten oder montierten Artikels aus mehreren Kostenelementen - Material-, Kapzitäts- und Fremdarbeitskosten (EK-Preise und Gemeinkosten) - besteht, muss der Einstandspreis für jedes dieser Elemente festgelegt werden.  
 
@@ -38,7 +38,7 @@ Die folgenden wesentlichen Kostenelemente bilden die direkten Kosten eines ferti
 - Kapazitätskosten.  
 - Fremdarbeitskosten nur für gefertigte Artikel.  
 
-### Stoffkosten
+### <a name="material-costs"></a>Stoffkosten
 
 Materialkosten sind Kosten, die Halbfabrikaten und gekauftem Rohmaterial zugeordnet sind. Materialeinstandspreise können aus direkten und indirekten Kostenelementen bestehen.  
 
@@ -56,7 +56,7 @@ Die Materialkosten eines Produktionsartikels können auf zwei Arten dargestellt 
 |Einstufig|Der gefertigte Artikel entspricht den Gesamtkosten aller gekauften oder als Unterbaugruppen verbauten Artikel in der Fertigungsstückliste dieses Artikels.|  
 |Mehrstufige Ebene oder mehrstufig|"Gefertigter Artikel" ist die Summe der Materialkosten aller Halbfabrikate in der Stückliste dieses Artikels und der Kosten aller Einkaufsartikel in der Fertigungsstückliste dieses Artikels.|  
 
-### Kalkulation von Kapazitäten
+### <a name="capacity-costs"></a>Kalkulation von Kapazitäten
 
 Kapazitätskosten entsprechen den internen Bearbeitungs- und den Maschinenkosten. Sie müssen diese Kosten für jede Ressource (in der Montageverwaltung) und jeden Arbeitsplatz bzw. jede Arbeitsplatzgruppe im Arbeitsgang (in der Fertigung) einrichten. Wie bei den Materialien können Sie sowohl direkte als auch indirekte Elemente für die Kapazitätskosten angeben. Beispielsweise können die direkten Kosten für eine Arbeitsplatzgruppe gleich dem „Werkstattsatz“ sein, der für das Ausführen einer bestimmten Funktion anfällt. Die indirekten Kosten für eine Arbeitsplatzgruppe können den allgemeinen Unternehmensausgaben wie Beleuchtung, Heizung usw. entsprechen. Analog zu Materialkosten können Kapazitätsgemeinkosten als Prozentsatz indirekter Kosten und/oder als feststehender Gemeinkostenbetrag ausgedrückt werden.  
 
@@ -81,13 +81,13 @@ Um Rüstzeiten im Arbeitsgang für die Planung anzugeben, jedoch nicht bei der E
 
 Auf einer einstufigen Grundlage sind dies die Bearbeitungskosten, die erforderlich sind, um den fertigen Produktionsartikel herzustellen, und die im Arbeitsplan des Produktionsartikels angegeben werden. Auf einer mehrstufigen Grundlage, sind dies die Kapazitätskosten, die für jeden einzeln gefertigten Artikel, der in der Stückliste des übergeordneten Artikels enthalten ist, angegeben werden.  
 
-### Kosten für Subunternehmer
+### <a name="subcontractor-costs"></a>Kosten für Subunternehmer
 
 Fremdarbeitskosten sind die Kosten, die Serviceleistungen zugeordnet sind, die von externen Kreditoren oder von Subunternehmern bereitgestellt werden. Ähnlich wie Material- und Kapazitätskosten können Fremdarbeitskosten sowohl aus direkten Kosten (Einstandspreise) als auch aus Gemeinkosten bestehen. Direkte Subunternehmerkosten entsprechen den tatsächlichen Kosten, pro bereitgestellter Serviceeinheit anfallen. Subunternehmergemeinkosten können z. B. den Fracht- und/oder Transportkosten entsprechen, die dem Unternehmen im Zusammenhang mit einem Auftrag entstehen, der einem Subunternehmer erteilt wurde.  
 
 Da Fremdarbeit im Wesentlichen eine ausgelagerte Kapazität ist, werden die Kosten der Fremdarbeitsservices (sowohl direkte als auch indirekte Kosten) auf der Subunternehmer-Arbeitsplatzkarte eingerichtet.  
 
-## Aktualisieren von Standardkalkulationen
+## <a name="updating-standard-costs"></a>Aktualisieren von Standardkalkulationen
 
 Um den festen Einstandspreis von Montageartikeln zu aktualisieren oder zu berechnen, verwenden Sie die Funktion auf der Artikelkarte.  
 
@@ -98,9 +98,9 @@ Die Aktualisierung oder Berechnung von festen Einstandspreisen umfasst üblicher
 3.  Implementieren der festen Einstandspreise, die bei der Ausführung der vorherigen Batchaufträge eingegeben werden. Die Einstandspreise (fest) treten erst in Kraft, wenn sie implementiert werden. Verwenden Sie den Stapelverarbeitungsauftrag **Einst.-Preis (fest) Vorschlag übernehmen**, der die Änderungen der Standardkosten für Artikel mit denen aus der Tabelle „Einst.-Preis (fest) Arbeitsblatt“ aktualisiert.  
 4.  Implementieren der Änderungen, um das Feld **Einstandspreis** auf der Artikelkarte zu aktualisieren und eine Lagerneubewertung durchzuführen. Weitere Informationen finden Sie unter [Neubewerten von Lagerbestand](inventory-how-revalue-inventory.md).
 
-## Verwenden Sie Stapelverarbeitungsaufträge, um Einstandspreise (fest) zu aktualisieren
+## <a name="use-batch-jobs-to-update-standard-costs"></a>Verwenden Sie Stapelverarbeitungsaufträge, um Einstandspreise (fest) zu aktualisieren
 In den folgenden Abschnitten werden die Stapelverarbeitungsaufträge beschrieben, mit denen Sie Einstandspreise (fest) aktualisieren können.
-### Art. Einst.-Pr. (fest) vorschl
+### <a name="suggest-item-standard-cost"></a>Art. Einst.-Pr. (fest) vorschl
 
  Erstellt Vorschläge zum Ändern der Kosten und der Kostenanteile von Einstandspreisen (fest) auf Artikelkarten. Wenn die Stapelverarbeitung abgeschlossen ist, können Sie die Ergebnisse im Fenster „Einst.-Preis (fest) Arbeitsblatt“ anzeigen.
 
@@ -108,7 +108,7 @@ In den folgenden Abschnitten werden die Stapelverarbeitungsaufträge beschrieben
 > Diese Stapelverarbeitung ist nur für Einkaufsartikel gedacht. Wenn Sie einen Artikel mit einer Fertigungsstückliste oder Montagestückliste aktualisieren möchten, müssen Sie zuerst das Arbeitsblatt mit allen Komponenten ausfüllen und anschließend die Stapelverarbeitung „Mehrstufigen Einstandspreis berechnen“ ausführen.
 
 Diese Stapelverarbeitung erzeugt nur Vorschläge. Die vorgeschlagenen Änderungen werden nicht implementiert. Wenn Sie mit den Vorschlägen einverstanden sind und diese übernehmen möchten, sie also auf den Artikelkarten aktualisieren und sie im „Neubewertungs Buch.-Blatt“ einzufügen, wählen Sie dann „Einst.-Preis (fest) Vorschlag übernehmen“ im Fenster „Einst.-Preis (fest) Arbeitsblatt“.
-#### Optionen
+#### <a name="options"></a>Optionen
 
 **Einstandspreis (fest)**: Geben Sie den Korrekturfaktor ein, den Sie zur Aktualisierung des Einstandspreises (fest) verwenden möchten. Sie können auch eine Rundungsmethode für den neuen Einstandspreis (fest) verwenden. Sie müssen dieses Feld ausfüllen, indem Sie Nachkommastellen für die prozentuale Erhöhung verwenden, z. B. 1,1.
 
@@ -116,21 +116,21 @@ Diese Stapelverarbeitung erzeugt nur Vorschläge. Die vorgeschlagenen Änderunge
 
 **Gemeinkostensatz**: Geben Sie den Korrekturfaktor ein, den Sie zur Aktualisierung des Gemeinkostensatzes verwenden möchten. Sie können auch eine Rundungsmethode für den neuen Gemeinkostensatz verwenden. Sie müssen dieses Feld ausfüllen, indem Sie Nachkommastellen für die prozentuale Erhöhung verwenden, z. B. 1,1.
 
-### Kapazitätseinst.-Preis vorschlagen
+### <a name="suggest-workmach-ctr-std-cost"></a>Kapazitätseinst.-Preis vorschlagen
 
 Erstellt Vorschläge zum Ändern der Kosten und der Kostenanteile von Einstandspreis (fest) auf Arbeitsplatzgruppe, Arbeitsplatz oder Ressourcenkarten. Wenn die Stapelverarbeitung abgeschlossen ist, können Sie die Ergebnisse im Fenster **Einst.-Preis (fest) Arbeitsblatt** anzeigen.
 
 Diese Stapelverarbeitung erzeugt nur Vorschläge. Die vorgeschlagenen Änderungen werden nicht implementiert. Wenn Sie mit den Vorschlägen einverstanden sind und diese übernehmen möchten, sie also auf den Arbeitsplatzgruppen-/Arbeitsplatz- und Ressourcenkarten aktualisieren und sie im Fenster „Neubewertungs Buch.-Blatt“ einzufügen, wählen Sie dann **Einst.-Preis (fest) Vorschlag übernehmen** im Fenster **Einst.-Preis (fest) Arbeitsblatt**.
 
 Wenn Sie die Stapelverarbeitung ausgeführt haben und die Auswirkungen auf Ihre Produktions- oder Montageabteilungen sehen möchten, können Sie die Stapelverarbeitung **Mehrstufigen Einstandspreis berechnen** ausführen, um Einstandspreise (fest) in Arbeitsplatzgruppen, Arbeitsplätzen, Montageressourcen, Fertigungsstücklisten und Montagestücklisten zu aktualisieren.
-#### Optionen
+#### <a name="options-1"></a>Optionen
 **Einstandspreis (fest)**: Geben Sie den Korrekturfaktor ein, den Sie zur Aktualisierung des Einstandspreises (fest) verwenden möchten. Sie können auch eine **Rundungsmethode** für den neuen Einstandspreis (fest) verwenden. Sie müssen dieses Feld ausfüllen, indem Sie Nachkommastellen für die prozentuale Erhöhung verwenden, z. B. 1,1.
 
 **Indirekte Kosten %**: Geben Sie den Korrekturfaktor ein, den Sie zur Aktualisierung der indirekten Kosten % verwenden möchten. Sie können auch eine Rundungsmethode für die neuen Kosten % verwenden. Sie müssen dieses Feld ausfüllen, indem Sie Nachkommastellen für die prozentuale Erhöhung verwenden, z. B. 1,1.
 
 **Gemeinkostensatz**: Geben Sie den Korrekturfaktor ein, den Sie zur Aktualisierung des Gemeinkostensatzes verwenden möchten. Sie können auch eine Rundungsmethode für den neuen Gemeinkostensatz verwenden. Sie müssen dieses Feld ausfüllen, indem Sie Nachkommastellen für die prozentuale Erhöhung verwenden, z. B. 1,1.
 
-### Lagerkosten buchen
+### <a name="post-inventory-cost-to-gl"></a>Lagerkosten buchen
 
  Bucht die Mengen- und Wertänderungen des Lagerbestands in den Artikelposten bzw. Wertposten, wenn Sie Lagerbestandstransaktionen wie Verkaufslieferungen oder Einkaufslieferungen buchen.
 
@@ -148,7 +148,7 @@ Wenn Sie sicherstellen möchten, dass die Stapelverarbeitung keine Fehler entdec
  
 > [!IMPORTANT]  
 > Bevor Sie diese Stapelverarbeitung verwenden, sollten Sie die Stapelverarbeitung **Lagerreg. fakt. Einst. Preise** ausführen. Dadurch stellen Sie sicher, dass die Werte, die von dieser Stapelverarbeitung in der Finanzbuchhaltung gebucht werden, auf dem aktuellsten Stand sind.
-#### Optionen
+#### <a name="options-2"></a>Optionen
 
 |Option  |Description  |
 |--------------|---------|
@@ -156,7 +156,7 @@ Wenn Sie sicherstellen möchten, dass die Stapelverarbeitung keine Fehler entdec
 |**Belegnr.**|In diesem Feld können Sie eine Belegnummer eingeben, wenn Sie die Option "Pro Lagerbuchungsgruppe" gewählt haben. Die Belegnummer erscheint auf den gebuchten Posten.|
 |**Buchen**|Wählen Sie dieses Feld, wenn Sie möchten, dass die Stapelverarbeitung die Buchung in die Finanzbuchhaltung automatisch vornimmt. Wenn Sie nicht ausgewählt haben, dass die „Lagerregulierung“ in die Finanzbuchhaltung gebucht wird, wird von der Stapelverarbeitung nur ein Testbericht ausgedruckt, der die Werte enthält, die in die Finanzbuchhaltung gebucht werden können, und auf dem folgende Angabe erscheint: **Testbericht (nicht gebucht)**.|
 
-### Mehrstuf. Einst.-Pr. berechnen
+### <a name="roll-up-standard-cost"></a>Mehrstuf. Einst.-Pr. berechnen
 
 Berechnet die Einstandspreise (fest) von montierten und gefertigten Artikeln. Diese werden beeinflusst durch Änderungen der Komponenteneinstandspreise, die von der Stapelverarbeitung **Art. Einst.-Pr. (fest) vorschlagen** vorgeschlagen wurden. Darüber hinaus werden sie von der Änderung des Einstandspreises (fest) der Produktionskapazität und Montageressourcen beeinflusst, die von der Stapelverarbeitung **Kapazitätseinst.-Preis vorschlagen** vorgeschlagen werden.
 
@@ -166,14 +166,14 @@ Sobald Sie eine Stapelverarbeitung (oder beide) ausgeführt haben und Sie die me
 > Diese Funktion berechnet nur die mehrstufigen Einstandspreise auf den Artikelkarten, nicht auf den Lagerhaltungsdatenkarten.
 
 Diese Stapelverarbeitung erzeugt nur Vorschläge. Die vorgeschlagenen Änderungen werden nicht implementiert. Wenn Sie mit den Vorschlägen einverstanden sind und diese übernehmen möchten, sie also auf den Artikelkarten aktualisieren und sie im Fenster **Neubewertungs Buch.-Blatt** einzufügen, können Sie die Stapelverarbeitung **Einst.-Preis (fest) Vorschlag übernehmen** verwenden. Sie können diese Stapelverarbeitung aus dem Fenster **Einst.-Preis (fest) Vorschlag** aufrufen.
-#### Optionen
+#### <a name="options-3"></a>Optionen
 
 **Berechnungsdatum**: Geben Sie das Datum ein, das für die Stücklistenversionen gelten soll, für die Sie die mehrstufige Berechnung durchführen möchten.
  
-### Einst.-Pr.(fest) Vorsch. übern
+### <a name="implement-standard-cost-change"></a>Einst.-Pr.(fest) Vorsch. übern
 
 Aktualisiert die Einstandspreise der Tabelle **Artikel** mit denen aus der Tabelle **Einst.-Preis (fest) Arbeitsblatt**. Die Einstandspreisvorschläge können mit Hilfe der Stapelverarbeitung **Art. Einst.-Pr. (fest) vorschl** und/oder der Stapelverarbeitung **Kapazitätseinst.-Preis vorschlagen** erstellt und auch geändert werden. Der Inhalt aller Felder in den Einstandspreisvorschlägen wird übertragen. Wenn Sie Änderungen an Einstandspreisen implementieren, können Sie diese auf der Artikelkarte und/oder auf der Arbeitsplatzgruppen-/Arbeitsplatzkarte sehen. Darüber hinaus wird ein Neubewertungs-Buch.-Blatt erzeugt, mit dem Sie den Wert des vorhandenen Bestands aktualisieren können.
-#### Optionen
+#### <a name="options-4"></a>Optionen
 
 **Buchungsdatum**: Geben Sie das Datum ein, an dem die Neubewertung stattfinden soll.
 
@@ -185,7 +185,7 @@ Aktualisiert die Einstandspreise der Tabelle **Artikel** mit denen aus der Tabel
 
 Wählen Sie **OK**, um die Stapelverarbeitung zu starten. Wenn Sie die Stapelverarbeitung nicht sofort starten möchten, wählen Sie **Abbrechen** aus, um das Fenster zu schließen.
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Designdetails: Lagerabgangsmethoden](design-details-costing-methods.md)  
 [Einst.-Preis (fest) aktual.](finance-how-to-update-standard-costs.md)  

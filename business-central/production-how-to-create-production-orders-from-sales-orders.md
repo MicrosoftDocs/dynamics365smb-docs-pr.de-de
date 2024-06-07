@@ -10,11 +10,11 @@ ms.custom: bap-template
 ms.search.form: '99000883, 99000884,'
 ms.service: dynamics-365-business-central
 ---
-# Erzeugen von Produktionsaufträgen aus Verkaufsaufträgen
+# <a name="create-production-orders-from-sales-orders"></a>Erzeugen von Produktionsaufträgen aus Verkaufsaufträgen
 
 In diesem Fenster können Sie direkt zum aktuellen Verkaufsauftrag einen Fertigungsauftrag erstellen.  
 
-## Fertigungsaufträge aus Verkaufsaufträgen erstellen  
+## <a name="to-create-a-production-order-from-a-sales-order"></a>Fertigungsaufträge aus Verkaufsaufträgen erstellen
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Verkaufsaufträge** ein, und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie den Verkaufsauftrag, für den Sie einen Fertigungsauftrag erstellen möchten.  
@@ -28,7 +28,7 @@ In diesem Fenster können Sie direkt zum aktuellen Verkaufsauftrag einen Fertigu
     >
     > Wenn Sie Produktionsaufträge für Verkaufsaufträge mit der Seite Verkaufsauftragsplanung erstellen, werden Auftrag-zu-Auftrag-Verknüpfungen zwischen Nachfrage und Lieferung angewendet. Wenn Auftrag-zuAuftrag-Verknüpfungen vorhanden sind, umfasst das Planungssystem keinen verknüpften Lagerbestand in das Ausgleichsverfahren. Weitere Informationen zum Ausgleich finden Sie unter [Auftrag-zu-Auftrag-Verknüpfungen](design-details-central-concepts-of-the-planning-system.md#order-to-order-links).
 
-## Auftragsart  
+## <a name="order-type"></a>Auftragsart
 
 In der folgenden Tabelle werden zwei Möglichkeiten zum Erstellen von Produktionsaufträgen beschrieben.
 
@@ -37,7 +37,7 @@ In der folgenden Tabelle werden zwei Möglichkeiten zum Erstellen von Produktion
 |Artikelauftrag|Ein Fertigungsauftrag wird für jeden Artikel erstellt, der durch eine Zeile auf der Seite **Verkaufsauftragsplanung** angegeben wird.|
 |Projektauftrag|Ein Fertigungsauftrag mit mehreren Zeilen wird für alle Artikel erstellt, die durch Zeilen auf der Seite **Verkaufsauftragsplanung** angegeben werden. Wenn Sie Projektaufträge verwenden, enthält das Feld **Quellentyp** des Produktionsauftrags **Verkaufskopf**. Der Auftrag hat eine Zeile für jeden Artikel des Verkaufsauftrags, der produziert werden muss.|
 
-## Weitere Informationen  
+## <a name="see-also"></a>Weitere Informationen
 
 [Produktion einrichten](production-configure-production-processes.md)  
 [Produktion](production-manage-manufacturing.md)  
