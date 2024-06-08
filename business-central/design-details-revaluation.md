@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="design-details-revaluation"></a>Designdetails: Neubewertung
+# Designdetails: Neubewertung
 
 Sie können den Lagerbestand basierend auf der Bewertungsbasis, die den Lagerwert am genauesten wiedergibt, neu bewerten. Sie können eine Neubewertung auch zurückdatieren, um den Wareneinsatz (COGS) ordnungsgemäß für Artikel zu aktualisieren, die Sie bereits verkauft haben. Artikel, bei denen die Lagerabgangsmethode „Standard“ verwendet wird, und die noch nicht vollständig fakturiert wurden, können ebenfalls neu bewertet werden.  
 
@@ -20,7 +20,7 @@ In [!INCLUDE[prod_short](includes/prod_short.md)] wird die folgende Flexibilitä
 - Für Artikel mit der Kostenberechnungsmethode Standard sind Soll-Kosten-Posten in der Neubewertung enthalten.  
 - Bestandsminderungen, die von der Neubewertung betroffen sind, werden erkannt.  
 
-## <a name="calculate-the-revaluable-quantity"></a>Neubewertbare Menge berechnen
+## Neubewertbare Menge berechnen
 
 Die Menge, die Sie neu bewerten können, ist die Restmenge im Lager, die an einem vorgegebenen Datum verfügbar ist. Die Menge ist die Summe der vollständig fakturierten Artikelposten, die Sie am oder vor dem Neubewertungsdatum buchen.  
 
@@ -31,7 +31,7 @@ Nachdem eine Neubewertung gebucht wurde, können Sie einen Lagerzugang oder eine
 
 Da Sie die Neubewertung an jedem beliebigen Datum durchführen können, müssen Sie Konventionen dafür haben, wann ein Artikel als Teil des Lagerbestands gilt. Wenn beispielsweise der Artikel im Lager ist und der Artikel WIP (WIP) ist.  
 
-### <a name="example"></a>Beispiel
+### Beispiel  
 
 Im folgenden Beispiel wird gezeigt, wann ein WIP-Artikel Teil des Bestands wird. Das Beispiel basiert auf der Produktion einer Kette mit 150 Gliedern.  
 
@@ -80,7 +80,7 @@ Das Bewertungsdatum wird auf das Datum der Verbrauchsbuchung (02-01-20) als rege
 |02-01-20|EK-Preis|02-01-20|-150.00|2|2|  
 |02-15-20|Direkte Kosten|02-15-20|150.00|3|3|  
 
-## <a name="expected-cost-in-revaluation"></a>Soll-Kosten in der Neubewertung
+## Soll-Kosten in der Neubewertung
 
 Die Menge, die Sie neu bewerten können, wird als die Gesamtsumme der Mengen vollständig fakturierter Artikelposten berechnet, die Sie an oder vor dem Neubewertungsdatum gebucht haben. Wenn mehrere Artikel eingegangen sind oder geliefert werden, aber noch nicht fakturiert sind, können Sie deren Lagerwert nicht berechnen. Artikel mit der Lagerabgangsmethode „Standard“ werden nicht auf diese Art begrenzt.  
 
@@ -93,7 +93,7 @@ Wenn Sie die neu bewertbare Menge für Artikel mit der Lagerabgangsmethode „St
 - Ein Wertposten mit dem Postentyp **Abweichung**. Dieser Eintrag erfasst die Differenz zwischen den fakturierten Kosten und dem neu bewerteten Einstandspreis.  
 - Ein Wertposten mit dem Postentyp **Neubewertung**. Dieser Posten erfasst die Stornierung der Neubewertung der Soll-Kosten.
 
-### <a name="example-1"></a>Beispiel
+### Beispiel  
 
 Das folgende Beispiel basiert auf der Produktion der Kette im vorherigen Beispiel. Dieses Beispiel veranschaulicht, wie die drei Arten von Einträgen basierend auf dem folgenden Szenario erstellt werden:  
 
@@ -115,7 +115,7 @@ Die folgende Tabelle zeigt die Ergebnisse.
 |3.b.|01-15-20|Neubewertung|01-20-20|-150.00|0.00|0|4|  
 |3.c.|01-15-20|Abweichung|01-15-20|0.00|450.00|0|5|  
 
-## <a name="determine-whether-revaluation-affects-an-inventory-decrease"></a>Festlegen, ob eine Neubewertung einen Lagerabgang beeinflusst
+## Festlegen, ob eine Neubewertung einen Lagerabgang beeinflusst  
 
 Verwenden Sie das Datum der Buchung oder der Neubewertung, um zu ermitteln, ob ein Lagerabgang von einer Neubewertung beeinflusst wird.  
 
@@ -130,7 +130,7 @@ Die folgende Tabelle zeigt die Kriterien, die für einen Artikel verwendet werde
 |O|Später als die Neubewertungsposten-Nr.|Gleich Neubewertungsbuchungsdatum|Ja|  
 |W|Später als die Neubewertungsposten-Nr.|Später als das Neubewertungsbuchungsdatum|Ja|  
 
-### <a name="example-2"></a>Beispiel
+### Beispiel  
 
 Das folgende Beispiel zeigt die Neubewertung eines Artikels, bei dem die FIFO-Kostenbewertungsmethode verwendet wird. Das Beispiel basiert auf dem folgenden Szenario:  
 
@@ -161,7 +161,7 @@ Die folgende Tabelle zeigt die sich daraus ergebenden Wertposten.
 |W|04-01-20|Verkauf|04-01-20|-1|-10.00|7|8|  
 ||04-01-20|Verkauf|04-01-20|-1|2.00|7|12|  
 
-## <a name="wip-inventory-revaluation"></a>WIP-Lagerneubewertung
+## WIP-Lagerneubewertung  
 
 Die Neubewertung des WIP-Lagerbestands bedeutet, dass Sie Komponenten neu bewerten, die als WIP-Lagerbestand registriert sind.  
 
@@ -181,7 +181,7 @@ Sie können WIP-Lagerbestand unter folgenden Bedingungen neu bewerten:
 > [!CAUTION]  
 > Der Bericht **Bestandsbewertung - WIP** zeigt den Wert der gebuchten Fertigungsauftragsposten und kann für neu bewertete WIP-Artikel etwas irreführend sein.  
 
-## <a name="revaluate-items-with-the-average-costing-method"></a>Artikel mit der Kostenberechnungsmethode „Durchschnitt“ neu bewerten
+## Artikel mit der Kostenberechnungsmethode „Durchschnitt“ neu bewerten
 
 Sie können Artikel, bei denen die Kostenberechnungsmethode „Durchschnitt“ verwendet wird, nur dann neu bewerten, wenn **Berechnen pro** auf *Artikel* eingestellt ist.
 
@@ -189,7 +189,7 @@ Sie können eine Neubewertung nur am Ende des Zeitraums durchführen, der im Fel
 
 Die Neubewertung wirkt sich nicht auf negative Transaktionen im aktuellen Monat aus, weshalb vollständig angewendete Eingangsbuchungen auch nicht berücksichtigt werden.
 
-### <a name="example-3"></a>Beispiel
+### Beispiel
 
 Dieses Beispiel zeigt, was passiert, wenn Sie den Lagerwert auf der Seite **Element Neubewertungs Buch.-Blatt** berechnen. Auf der Seite **Lagereinrichtung** wird **Artikel** im Feld **Einst.-Pr. (durchschn.) Ber.-Art** ausgewählt, und **Monat** wird im Feld **Durchschnittskostenperiode** ausgewählt.
 
@@ -219,7 +219,7 @@ Das Ergebnis der folgenden Posten ist 0, unabhängig vom Buchungsdatum.
 13-05-23|Einkauf|5|5.00|0
 26-04-23|Verkauf|-5|5.00|2
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch  
 
 [Designdetails: Lagerbewertung](design-details-inventory-costing.md)   
 [Designdetails: Kostenberechnungsmethoden](design-details-costing-methods.md)   

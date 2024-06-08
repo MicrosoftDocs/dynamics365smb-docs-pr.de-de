@@ -10,7 +10,7 @@ ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="touch-and-pen-gestures-for-tablet-and-phones"></a>Berührungs- und Stiftgesten für Tablets und Telefone
+# Berührungs- und Stiftgesten für Tablets und Telefone 
 
 In diesem Artikel finden Sie einige spezielle Gesten, die Sie bei der Arbeit mit [!INCLUDE[prod_short](includes/prod_short.md)] von einem Tablet oder Telefon aus verwenden können.
 
@@ -29,7 +29,7 @@ Business Central built-in charts display useful information about business data 
 
 -->
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Nur PC-Tastenkombinationskurzübersicht](keyboard-shortcuts-cheatsheet.md)  
 [Assistive Funktionen](ui-accessibility.md)  

@@ -11,7 +11,7 @@ ms.date: 04/04/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="set-up-a-sequence-of-workflow-users"></a>Sequenz von Workflow-Benutzenden einrichten
+# Sequenz von Workflow-Benutzenden einrichten
 
 Bevor Sie Genehmigungsworkflows erstellen können, müssen Sie die Benutzenden, die Anforderungen übermitteln können, und die Genehmigenden einrichten. Beispielsweise können Sie festlegen, wer eine Benachrichtigung erhält, um auf einen Workflowschritt zu reagieren. Sie richten Teilnehmer an Genehmigungsworkflows auf der Seite **Genehmigungsbenutzereinrichtung** ein. Erfahren Sie mehr unter [Genehmigungsbenutzer einrichten](across-how-to-set-up-approval-users.md).
 
@@ -19,7 +19,7 @@ Sie können auf der Seite **Workflow-Benutzergruppen** angeben, wo ein Teilnehme
 
 [!INCLUDE [workflow-requestor-approver](includes/workflow-requestor-approver.md)]
 
-## <a name="to-set-up-a-workflow-user-group"></a>So richten Sie eine Workflow-Benutzergruppe ein
+## So richten Sie eine Workflow-Benutzergruppe ein
 
 1. Wählen Sie das Symbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Workflow-Benutzergruppen** ein, und wählen Sie dann den entsprechenden Link.  
 2. Wählen Sie die Aktion **Neu**. Die Seite **Workflow-Genehmigungsgruppe** öffnet sich.  
@@ -36,7 +36,7 @@ Sie können auf der Seite **Workflow-Benutzergruppen** angeben, wo ein Teilnehme
    > Normalerweise sind die Sequenznummern für Benutzende in einer Workflowbenutzergruppe fortlaufend. Allerdings können mehrere Benutzende die gleiche Sequenznummer haben. In diesem Fall muss nur einer der Benutzenden eine Anforderung genehmigen, bevor der Workflow mit dem nächsten Schritt fortfährt. Wenn beispielsweise Benutzende A und B die Nummer 2 in der Sequenz sind, geht der Workflow zu Schritt 3 über, wenn entweder Benutzender A oder B die Anforderung genehmigt.
 6. Wiederholen Sie Schritt 5, um weitere Workflowbenutzer zur Workflowbenutzergruppe hinzuzufügen.  
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Genehmigungsbenutzer einrichten](across-how-to-set-up-approval-users.md)  
 [Genehmigungsworkflows einrichten](across-set-up-workflows.md)  

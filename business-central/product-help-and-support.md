@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="resources-for-help-and-support"></a>Ressourcen für Hilfe und Support
+# Ressourcen für Hilfe und Support
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
@@ -21,21 +21,21 @@ Organisationen, die [!INCLUDE[prod_long](includes/prod_long.md)] verwenden, kön
 - Erfahren Sie, wo Sie [weitere Informationen erhalten](#help-pane)
 - Erfahren Sie, wie Sie [die technischen Informationen](#help--support-page) finden, die Sie zum Einreichen einer Supportanforderung benötigen
 
-## <a name="chat-with-copilot"></a>Chat mit Copilot
+## Chat mit Copilot
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
 „Chat mit Copilot“ ist ein KI-gestütztes Tool, das Fragen beantwortet und Geschäftsdaten im Zusammenhang mit Business Central findet. Es ist auf jeder Seite verfügbar, indem Sie in der oberen rechten Ecke das Symbol ![Zeigt das Symbol für den Chat mit Copilot](media/chat-copilot-icon.png) **Copilot** auswählen. [Weitere Informationen über „Chat mit Copilot“](chat-with-copilot.md).
 
-### <a name="help-with-fields"></a>Hilfe bei Feldern
+### Hilfe bei Feldern
 
 Copilot kann Ihnen helfen, den Zweck und die typische Verwendung einzelner Felder zu verstehen. Wenn Sie in einer QuickInfo für ein Feld die Option **Copilot fragen** auswählen, wird der Chat mit einer Erläuterungsaufforderung für den Feldnamen geöffnet und Copilot stellt Informationen dazu bereit. Copilot verlinkt auf die Artikel, auf die es verwiesen hat, sodass die Beschreibung leicht überprüft werden kann.
 
-## <a name="in-product-tips"></a>Produktinterne Tipps
+## Produktinterne Tipps
 
 [!INCLUDE [ua-get-help](includes/ua-get-help.md)] Diese Links können auch auf Inhalte von anderen Websites zugreifen, z. B. auf die Websites der Anbieter von Apps, die Teil Ihres [!INCLUDE [prod_short](includes/prod_short.md)]-Produkts sind.  
 
-## <a name="help-pane"></a>Hilfebereich
+## Hilfebereich
 
 [!INCLUDE [2022_releasewave1](includes/2022_releasewave1.md)]
 
@@ -52,7 +52,7 @@ Die folgende Liste beschreibt, wie Sie auf das Hilfefenster zugreifen können un
 > [!TIP]
 > Wenn Sie einen Link auswählen, wird der Zielartikel in einer neuen Browser-Registerkarte geöffnet. Sie können dann die Browser-Registerkarte abdocken, um die relevanten Informationen Seite an Seite mit [!INCLUDE [prod_short](includes/prod_short.md)] zu sehen. Das Fenster bleibt geöffnet, während Sie durch [!INCLUDE [prod_short](includes/prod_short.md)] navigieren, sodass der von Ihnen gesuchte Inhalt sichtbar bleibt.  
 
-## <a name="search-in-the-help-pane"></a>Suche im Hilfefenster
+## Suche im Hilfefenster
 
 [!INCLUDE [2021_releasewave2](includes/2021_releasewave2.md)]
 
@@ -61,7 +61,7 @@ Verwenden Sie das Suchfeld oben im Hilfefenster, um nach Anleitungen zur Verwend
 > [!NOTE]
 > In der aktuellen Version von [!INCLUDE [prod_short](includes/prod_short.md)] gilt das Suchfeld im Hilfebereich nur für Inhalte, die auf der Website [Dynamics 365 Business Central-Dokumentation](/dynamics365/business-central) in Microsoft Learn veröffentlicht sind.
 
-## <a name="help--support-page"></a>Hilfe & Support Seite
+## Hilfe & Support Seite
 
 Über das Hilfe-Fenster können Sie auf die Seite **Hilfe & Support** in [!INCLUDE [prod_short](includes/prod_short.md)] zugreifen, die hilfreiche Links enthält. Sie können außerdem sehen, wie Sie den technischem Support für Ihr [!INCLUDE[prod_short](includes/prod_short.md)] kontaktieren können.  
 
@@ -81,11 +81,11 @@ In diesem Abschnitt finden Sie die Ressourcen, die Ihnen in den verschiedenen Ab
 > [!TIP]
 > [!INCLUDE [ua-get-help](includes/ua-get-help.md)]
 
-### <a name="find-answers"></a>Antworten finden
+### Antworten finden
 
 Der Abschnitt **Suchen** bietet Links zu den üblichsten Plätzen, in denen Sie Antworten auf Ihre Fragen finden. Die Links fallen in vier Kategorien und werden in den folgenden Unterabschnitten erklärt. Ihr [!INCLUDE[prod_short](includes/prod_short.md)]-Partner kann einige der Links konfigurieren und das Verhalten kann sich daher etwas unterscheiden.  
 
-#### <a name="product-help"></a>Produkthilfe
+#### Produkthilfe
 
 Der Abschnitt **Suchen** umfasst zwei Links zur Produkthilfe:
 
@@ -97,40 +97,40 @@ Der Abschnitt **Suchen** umfasst zwei Links zur Produkthilfe:
 
   Die Funktionalität in der Standardversion von [!INCLUDE[prod_short](includes/prod_short.md)] ist in der [Dynamics 365 Business Central Dokumentation](/dynamics365/business-central) beschrieben. Weitere Informationen finden Sie unter [Weitere Informationen finden Sie in der Produktdokumentation](#learn-more-using-the-product-documentation). Sie können auch [!INCLUDE[prod_short](includes/prod_short.md)] mit Apps von AppSource erweitern und anpassen. Alle Apps stellen Links zur jeweiligen Produkthilfe zur Verfügung, sodass Sie immer Anleitung für verschiedene Workflows in Ihrer Version von [!INCLUDE[prod_short](includes/prod_short.md)] finden können.  
 
-#### <a name="community"></a>Community
+#### Community
 
 Im [Business Central-Community-Forum](https://community.dynamics.com/forums/thread/?groupid=e78817ab-a926-4d31-96cc-aef040a4eb04) können Sie eine Frage stellen und von anderen Mitgliedern der [!INCLUDE[prod_short](includes/prod_short.md)]-Community lernen. Partner und Microsoft-Mitarbeiter nehmen an den Unterhaltungen teil.  
 
 Wenn Sie noch keinen Partner haben, kann die Community Ihnen auch dabei helfen, eine Blockade aufzuheben, wenn Sie Fragen haben. Wenn Sie sich beispielsweise gerade für eine Testversion angemeldet haben, kann die Community ein guter Ausgangspunkt sein.  
 
-#### <a name="blog"></a>Blog
+#### Blog
 
 Wir berichten auch über neue Funktionen im [Dynamics 365 Blog](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/), inklusive ob es etwas zu berücksichtigen gibt.  
 
-#### <a name="capabilities-coming-soon"></a>Funktionen, die in Kürze verfügbar sind
+#### Funktionen, die in Kürze verfügbar sind
 
 [!INCLUDE[prod_short](includes/prod_short.md)] wird alle sechs Monate mit Updates zu Hauptfunktionen und monatlich mit Service-Updates aktualisiert. Wählen Sie den Link, um aktuelle Versionenpläne anzuzeigen. Sie finden eine Übersicht über die kommenden und kürzlich veröffentlichten Funktionen in [den Veröffentlichungsplänen in Dynamics 365](/dynamics365/release-plans/).  
 
 Für den langfristigeren Überblick zeigt die [!INCLUDE[prod_short](includes/prod_short.md)] [Roadmap-Seite](https://dynamics.microsoft.com/roadmap/business-central/) die allgemeinen Prioritäten für [!INCLUDE[prod_short](includes/prod_short.md)] in den kommenden Jahren.  
 
-### <a name="do-more-with-your-trial"></a>Die Testversion optimal nutzen
+### Die Testversion optimal nutzen
 
 Dieser Abschnitt bietet Shortcuts zum Microsoft Marktplatz, wo Sie Lösungen und Services von [!INCLUDE[prod_short](includes/prod_short.md)]-Partnern finden können. Verwenden Sie diese Links, um alle Funktionen von [!INCLUDE[prod_short](includes/prod_short.md)] zu erkunden, bevor Sie entscheiden, ob Sie ein Abonnement kaufen möchten. Sie finden auch einen Link zum Vertriebsteam.
 
 > [!NOTE]
 > Dieser Abschnitt ist nur in der Online-Testversion von [!INCLUDE[prod_short](includes/prod_short.md)] verfügbar. Wenn Sie [!INCLUDE[prod_short](includes/prod_short.md)] bereits erworben haben, wird dieser Abschnitt nicht mehr angezeigt.
 
-### <a name="give-feedback"></a>Feedback abgeben
+### Feedback abgeben
 
 In regelmäßigen Abständen sammelt das [!INCLUDE [prod_short](includes/prod_short.md)]-Team Feedback von unseren Benutzern darüber, wie zufrieden sie mit dem Produkt sind. Zusätzlich zu den Bewertungen können Sie auch einen schriftlichen Kommentar abgeben. Indem Sie uns spezifische und umsetzbare Kommentare geben, helfen Sie unseren technischen Teams dabei, die Produktverbesserungen, in die wir investieren, zu priorisieren. Sie können auch zustimmen, dass wir Sie wegen Ihres Kommentars kontaktieren dürfen. Wenn Sie dies tun, werden Sie zu einem für Sie passenden Zeitpunkt zu einem Teams-Meeting eingeladen. Sie können jederzeit Produktvorschläge auf unserer [Dynamics 365 Ideen](https://aka.ms/bcideas) Website machen.  
 
-### <a name="product-suggestions"></a>Produktvorschläge
+### Produktvorschläge
 
 Auf der [Dynamics 365 Ideen-Website](https://aka.ms/bcideas) können Sie Vorschläge für neue Funktionen und Funktionalitäten machen. Ihre Anregungen fließen direkt in das technische Backlog von Business Central ein, wo sie untersucht und nach Prioritäten geordnet werden.  
 
 Stellen Sie sicher, dass Sie die Liste nach eingereichten Vorschlägen durchsuchen. Es besteht die Möglichkeit, dass bereits jemand etwas Ähnliches gesendet hat, und dass dieser Beitrag bereits eine Abstimmung erhalten hat. Stimmen Sie ab, wenn eine bereits eingereicht wurde, damit sie vom Technikteam priorisiert wird.  
 
-### <a name="troubleshooting"></a>Problembehebung
+### Problembehebung
 
 Der Abschnitt **Problembehebung** zeigt technischen Informationen, die Ihr Administrator oder [!INCLUDE[prod_short](includes/prod_short.md)]-Partner verwenden können, um Benutzern zu helfen. Der Abschnitt beinhaltet Informationen über die letzte Fehlermeldung, die aktuelle Version von Ihrem [!INCLUDE[prod_short](includes/prod_short.md)] und einen Link zur Seite **Seitenüberprüfung**. Weitere Informationen finden Sie unter [Seiten in Business Central überprüfen](across-inspect-page.md).  
 
@@ -143,7 +143,7 @@ Als interner Administrator haben Sie Zugriff auf das Admin Center, in dem Sie di
 - [Überwachen und Analysieren der Telemetrie](/dynamics365/business-central/dev-itpro/administration/telemetry-overview)  
 - [Senden von Telemetrie an Application Insights aktivieren](/dynamics365/business-central/dev-itpro/administration/telemetry-enable-application-insights)  
 
-### <a name="report-a-problem"></a>Problem melden
+### Problem melden
 
 Ihr [!INCLUDE[prod_short](includes/prod_short.md)]-Einzelhandelspartner hilft Ihnen mit technischem Support. Dieser Abschnitt erleichtert Ihnen den Kontakt zu Ihrem wiederverkaufenden Partner, wenn diese Ihre Support-Kontaktdaten hinterlegt haben. Wenn Ihr [!INCLUDE[prod_short](includes/prod_short.md)]-Partner das jeweilige Problem nicht lösen kann, wird er ein Support-Ticket bei Microsoft eröffnen.  
 
@@ -154,7 +154,7 @@ Weitere Informationen finden Sie unter [Unterstützungsprobleme zu Microsoft esk
 >
 > Bei der lokalen Version von [!INCLUDE[prod_short](includes/prod_short.md)] ist dieser Abschnitt nur im 2. Veröffentlichungszyklus 2020 (Version 18) und höher verfügbar.
 
-### <a name="support-contacts"></a>Support-Kontakte
+### Support-Kontakte
 
 Der Abschnitt **Ein Problem melden** zeigt eine E-Mail-Adresse oder einen Hyperlink an, damit Sie Kontakt mit dem Kundendienst oder Team aufnehmen können. Wenn Sie der [!INCLUDE[prod_short](includes/prod_short.md)]-Einzelhandelspartner für einen Tenant sind, können Sie Ihre bevorzugten Support-Kontaktdaten im Admin Center einrichten. Weitere Informationen finden Sie unter [Konfigurieren der Support-Erfahrung](/dynamics365/business-central/dev-itpro/technical-support#configuring-the-support-experience) im Verwaltungsinhalt.  
 
@@ -163,7 +163,7 @@ Um Ihren Partner auf ein Problem aufmerksam zu machen, wählen Sie den Link, um 
 > [!NOTE]
 > Die Support-Kontaktinformationen sind nicht verfügbar bei der lokalen Version von [!INCLUDE[prod_short](includes/prod_short.md)] nicht verfügbar.
 
-## <a name="learn-more-using-the-product-documentation"></a>Weitere Informationen finden Sie in der Produktdokumentation
+## Weitere Informationen finden Sie in der Produktdokumentation
 
 Eine große Community von Partnern erweitert die Basisversion von [!INCLUDE [prod_short](includes/prod_short.md)] und passt sie an. Jeder Partner und viele Kunden stellen ihre eigene Hilfe auf ihrer eigenen Website bereit. In der [Dynamics 365 Business Central-Dokumentation](index.yml) können Sie immer mehr erfahren. Auf der Website werden verschiedene Arten von Inhalten gehostet, z. B. die folgenden:
 
@@ -175,7 +175,7 @@ In diesem Abschnitt erfahren Sie, wie Sie in Inhalten zu Geschäftsfunktionen na
 
 [!INCLUDE [ua-get-help](includes/ua-get-help.md)]
 
-### <a name="content-on-the-site"></a>Inhalt auf der Website
+### Inhalt auf der Website
 
 [Dieser Abschnitt](welcome.md) von Microsoft Learn hostet Inhalte von Microsoft, die die Säule *Mehr erfahren* im Benutzerhilfemodell repräsentieren. Zum Teil beabsichtigt der Inhalt *Mehr erfahren*, die Fragen zu beantworten, die die Benutzeroberfläche nicht beantworten kann, z. B. die folgende Liste:
 
@@ -194,7 +194,7 @@ Der lokale Funktionsinhalt beschreibt die Funktionen in [!INCLUDE [prod_short](i
 > [!TIP]
 > Sowohl auf der Website learn.microsoft.com als auch im produktinternen Suchfeld und im Hilfebereich zeigen die Suchergebnisse einen Kontext für den Zielartikel an. Der Kontext umfasst den Link, der z.B. den Namen eines Landes anzeigt, oder eine kurze Beschreibung, die auf eine bestimmte Funktionalität oder ein Land hinweist.
 
-### <a name="finding-other-content"></a>Suchen anderer Inhalte
+### Suchen anderer Inhalte
 
 Wenn Sie auf einen Artikel stoßen, der Ihre Frage nicht beantwortet, können Sie andere Inhalte auf zwei Arten in Microsoft Learn finden:
 
@@ -207,7 +207,7 @@ Wenn Sie auf einen Artikel stoßen, der Ihre Frage nicht beantwortet, können Si
 
   Auf diese Weise können Sie nach einem beliebigen Begriff suchen. Die Website durchsucht dann den gesamten Inhalt nach diesem Begriff oder Ausdruck. Suchen Sie erneut nach *Rechnung*, und scrollen Sie durch die Liste mit Hunderten von Artikeln im [!INCLUDE [prod_short](includes/prod_short.md)]-Inhalt, der dieses Wort irgendwo im Text verwendet.  
 
-### <a name="languages"></a>Sprachen
+### Sprachen
 
 Inhalte zur Geschäftsfunktionalität werden in verschiedenen Sprachen veröffentlicht. Wenn Sie auf Microsoft Learn über das Produkt aufrufen, wird der Inhalt in der Sprache angezeigt, die Sie in [!INCLUDE [prod_short](includes/prod_short.md)] angegeben haben, es sei denn, diese Sprache ist auf Microsoft Learn nicht verfügbar.  
 
@@ -217,11 +217,11 @@ Der Inhalt ist in englischer Sprache verfasst und wird unter URLs mit *en-us* al
 
 Das Inhaltsverzeichnis wird für jede Sprache übersetzt, der Inhalt im Abschnitt *Lokale Funktionalität* ist jedoch in Englisch, außer für das Land oder die Region, das bzw. die der aktuellen Sprache entspricht. In der dänischen Version von Microsoft Learn (`https://learn.microsoft.com/da-dk/dynamics365/business-central/`) können Sie beispielsweise die Einträge für „Lokale Funktion (Australien)“ in Dänisch im Inhaltsverzeichnis anzeigen, die Artikel sind jedoch in Englisch. Nur die Artikel für „Lokale Funktion (Dänisch)“ werden ins Dänische übersetzt.  
 
-### <a name="recommended-content"></a>Empfohlener Inhalt
+### Empfohlener Inhalt
 
 Bei Microsoft Learn zeigt jeder Artikel einen Bereich mit Links zu anderen Artikeln. Der Abschnitt **Empfohlener Inhalt** wird automatisch basierend darauf generiert, wie jeder Artikel mit dem Rest der Website verwendet wird. Die Links sind nicht statisch und ändern sich mit der Zeit.
 
-### <a name="tell-us-what-you-think"></a>Sagen Sie uns was Sie denken
+### Sagen Sie uns was Sie denken
 
 Auf Microsoft Learn sind für jeden Artikel zwei Schaltflächen am Ende des Artikels verfügbar. Über die Schaltfläche *Dieses Produkt* gelangen Sie zur Website „Ideen“ und über die Schaltfläche **Diese Seite** können Sie Feedback zum Inhalt über GitHub senden. In beiden Fällen müssen Sie ein Konto erstellen, falls Sie noch keines haben. Für *Produktfeedback* müssen Sie sich mit Ihrem Arbeits- oder Organisations-E-Mail-Konto anmelden. Für *Zugriff auf GitHub*können Sie beim Erstellen eines Kontos eine beliebige E-Mail-Adresse verwenden.  
 
@@ -230,17 +230,17 @@ Wir freuen uns über Ihre Beiträge, sowohl als Pull-Anforderung mit Vorschläge
 > [!IMPORTANT]
 > Microsoft akzeptiert nur Pull-Anforderungen an das *dynamic365smb-docs*-Repo, nicht an die sprachspezifischen Repos. Wenn Sie Feedback zu Übersetzungen haben, können Sie ein GitHub-Problem im entsprechenden Repo melden.  
 
-### <a name="navigating-to-other-parts-of-the-site"></a>Navigieren zu anderen Teilen der Website
+### Navigieren zu anderen Teilen der Website
 
 Microsoft Learn hostet Inhalte für andere Produkte sowie andere Inhaltstypen. Verwenden Sie die Links oben auf der Website, um zur Website [Microsoft Schulung](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs) oder beispielsweise zu [Dynamics 365-Veröffentlichungsplänen](/dynamics365/release-plans/) zu navigieren. Dort finden Sie beispielsweise auch einen Link zur Website [Dynamics 365-Community](https://community.dynamics.com/).  
 
-## <a name="apps-and-other-solutions"></a>Apps und andere Lösungen
+## Apps und andere Lösungen
 
 Wenn Ihr [!INCLUDE [prod_short](includes/prod_short.md)] Funktionen enthält, die nicht von Microsoft bereitgestellt werden, stellt der Anbieter dieser Funktionen den Inhalt *Mehr erfahren* auf der eigenen Website ebenfalls bereit. Sie können auf diesen Inhalt auf dieselbe Weise wie in der Standardversion von [!INCLUDE [prod_short](includes/prod_short.md)] zugreifen, wie zum Beispiel mit dem Tastaturkürzel <kbd>STRG</kbd>+<kbd>F1</kbd>.  
 
 Gleiches gilt bei Verwendung von [!INCLUDE [prod_short](includes/prod_short.md)] vor Ort.  
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Business Central-Schulung](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 [Schnelleinstieg in Business Central](quick-start-business-central.md)  

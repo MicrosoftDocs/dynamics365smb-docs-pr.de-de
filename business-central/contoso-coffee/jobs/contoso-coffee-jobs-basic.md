@@ -8,7 +8,7 @@ ms.date: 05/31/2023
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# <a name="walkthrough-of-basic-jobs"></a>Exemplarische Vorgehensweise für grundlegende Jobs
+# Exemplarische Vorgehensweise für grundlegende Jobs
 
 Diese exemplarische Vorgehensweise demonstriert mehrere Kernprozesse:
 
@@ -16,13 +16,13 @@ Diese exemplarische Vorgehensweise demonstriert mehrere Kernprozesse:
 - Ausgaben für Zeit und Material zu einem Projekt erfassen
 - Ein Projekt fakturieren
 
-## <a name="adding-a-project-task"></a>Eine Projektaufgabe hinzufügen
+## Eine Projektaufgabe hinzufügen
 
-### <a name="scenario"></a>Szenario
+### Szenario  
 
 Simon, der Projektmanager, möchte erfassen, wie lange es gedauert hat, der Kundschaft den Umgang mit der Espressomaschine beizubringen. Simon möchte in dem Projekt eine separate Aufgabe für die Installation einer professionellen Maschine am Kundenstandort nutzen.
 
-### <a name="steps"></a>Schritte
+### Schritte
 
 1. Erstellen Sie die Projektaufgabe.
 
@@ -38,17 +38,17 @@ Simon, der Projektmanager, möchte erfassen, wie lange es gedauert hat, der Kund
    1. Suchen Sie im Bereich „Aufgaben“ nach der Aktion **Projektaufgaben einrücken**.
    2. Bestätigen Sie mit **Ja**, dass Sie die Aufgaben einrücken möchten.
 
-### <a name="results"></a>Ergebnisse
+### Ergebnisse
 
  - Jetzt können Zeit und Kosten für die neue Projektaufgabe erfasst werden
 
-## <a name="record-time-and-material-expenses-to-a-project"></a>Zeit- und Materialaufwand für ein Projekt erfassen
+## Zeit- und Materialaufwand für ein Projekt erfassen
 
-### <a name="scenario-1"></a>Szenario
+### Szenario  
 
 Edgin, der Techniker, der die Maschine installiert, muss für die Abrechnung die Zeit und die bei der Installation verwendeten Materialien für den Auftrag erfassen. Edgin hat bereits die Fahrt- und Materialkosten hinzugefügt und muss nun noch die Zeit hinzufügen, um den Mitarbeitenden den Umgang mit der Maschine beizubringen.
 
-### <a name="steps-1"></a>Schritte
+### Schritte
 
 1. Erstellen Sie die zusätzlichen Projektbuchungsblattzeilen.
 
@@ -64,20 +64,20 @@ Edgin, der Techniker, der die Maschine installiert, muss für die Abrechnung die
    1. Wählen Sie die Aktion **Buchen**.
    2. Bestätigen Sie mit **Ja**, dass Sie die Zeilen buchen möchten.
 
-### <a name="results-1"></a>Ergebnisse
+### Ergebnisse
 
 - Es werden Projekt- und Ressourcenhauptbuchposten vom Typ *Verwendung* erstellt.
 - Es werden Artikelposten erstellt, um den Lagerbestand nach unten zu korrigieren.
 - Auf der Projektkarte spiegeln die Kosten und Preise im Bereich „Aufgaben“ die neuen Salden wider, die auf die Rechnungsstellung warten.
 - Auf der Projektkarte werden in der Infobox „Projektdetails“ die Gesamtpreise angezeigt.
 
-## <a name="creating-a-sales-invoice-for-a-project"></a>Eine Verkaufsrechnung für ein Projekt erstellen
+## Eine Verkaufsrechnung für ein Projekt erstellen
 
-### <a name="scenario-2"></a>Szenario
+### Szenario  
 
 Simon muss eine Rechnung erstellen und buchen, die zusammen mit dem Zeit- und Kostenaufwand für das Projekt an die Kundschaft gesendet werden soll.
 
-### <a name="steps-2"></a>Schritte
+### Schritte
 
 1. Erstellen Sie die Verkaufsrechnung.
 
@@ -92,7 +92,7 @@ Simon muss eine Rechnung erstellen und buchen, die zusammen mit dem Zeit- und Ko
    2. Wählen Sie die letzte Rechnung aus, um sie zur Überprüfung zu öffnen.
    3. Wählen Sie die Aktion **Buchen**.
 
-### <a name="results-2"></a>Ergebnisse
+### Ergebnisse
 
 - Projekt- und Ressourcenhauptbucheinträge vom Typ *Verkauf* werden erstellt.
 - Auf der Projektkarte spiegeln die Kosten und Preise im Bereich „Aufgaben“ die neuen fakturierten Salden wider.

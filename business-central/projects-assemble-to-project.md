@@ -11,7 +11,7 @@ ms.date: 08/03/2022
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="assemble-to-project"></a>Projektmontage
+# Projektmontage
 
 Mit der Projektmontage können Sie die Bestandsverwaltung verbessern, indem Sie die Montage nur dann durchführen, wenn sie erforderlich ist.
 
@@ -19,7 +19,7 @@ Wenn Sie einen Artikel zur Auftragsmontage in einer Projektplanungszeile auswäh
 
 Montageaufträge sind für Projekte reserviert und [!INCLUDE [prod_short](includes/prod_short.md)] synchronisiert die Artikelverfolgung zwischen Projektplanungszeilen und Montageauftrag.
 
-## <a name="integrate-with-warehouse-management"></a>In die Lagerverwaltung integrieren
+## In die Lagerverwaltung integrieren
 
 Programmfertigung ist in Lagerverwaltungsfunktionen integriert, um die Montage und den Versand zu vereinfachen. Der Prozess trägt außerdem dazu bei, dass in den internen Lagerprozessen ein reibungsloser Ablauf von der Projektmontage bis zur Auslieferung gewährleistet ist. Weitere Informationen zu internen Lager-Flows für Projekte finden Sie unter [Flows für Produktion, Montage und Aufträge](design-details-internal-warehouse-flows.md#flows-to-and-from-assembly-in-a-basic-warehouse-configuration).
 
@@ -31,7 +31,7 @@ In der folgenden Tabelle werden die Lagerkonfigurationen beschrieben, die die Au
 |**Lagerkommissionierung**|Verwenden Sie eine Lagerkommissionierung, um die vollständige oder teilweise Nutzung zu buchen. Die Istmeldung und der Verbrauch von Komponenten werden automatisch für den Montageauftrag gebucht.          |
 |**Lagerkommissionierung**|Erstellen und registrieren Sie Lagerkommissionierungen für Komponenten und verwenden Sie dann eine Projekterfassung, um die Nutzung zu buchen. [!INCLUDE [prod_short](includes/prod_short.md)] prüft, ob die verbrauchten Montagekomponenten kommissioniert wurden. Die Istmeldung und der Verbrauch von Komponenten werden automatisch für den Montageauftrag gebucht.         |
 
-## <a name="known-limitations"></a>Bekannte Einschränkungen
+## Bekannte Einschränkungen
 
 In diesem Abschnitt werden bekannte Einschränkungen für die Montage zu einem Projekt beschrieben.
 
@@ -42,7 +42,7 @@ In diesem Abschnitt werden bekannte Einschränkungen für die Montage zu einem P
 * Sie können im Feld **Menge für Auftragsmontage** keine negative Menge eingeben.
 * Sie können eine Montage nicht rückgängig machen.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Projektmanagement](projects-manage-projects.md)  
 [Montageverwaltung](assembly-assemble-items.md)  

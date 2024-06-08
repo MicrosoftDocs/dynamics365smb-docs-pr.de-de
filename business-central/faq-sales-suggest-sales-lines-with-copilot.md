@@ -12,7 +12,7 @@ ms.collection: bap-ai-copilot
 ms.custom: responsible-ai-faqs
 ---
 
-# <a name="faq-for-sales-line-suggestions-with-copilot-preview"></a>Häufig gestellte Fragen zu Verkaufszeilenvorschlägen mit Copilot (Vorschauversion)
+# Häufig gestellte Fragen zu Verkaufszeilenvorschlägen mit Copilot (Vorschauversion)
 
 [!INCLUDE[preview-banner](includes/preview-banner.md)]
 
@@ -20,11 +20,11 @@ Diese häufig gestellten Fragen (FAQ) beschreiben die KI-Auswirkungen des Featur
 
 [!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
 
-## <a name="what-is-sales-line-suggestions-with-copilot"></a>Was sind Verkaufszeilenvorschlägen mit Copilot?
+## Was sind Verkaufszeilenvorschlägen mit Copilot?
 
 Vorschläge für Verkaufszeilen mit Copilot können bei der Erstellung von Zeilen in Verkaufsdokumenten wie Verkaufsangeboten, Bestellungen und Rechnungen auf der Grundlage strukturierter Eingaben oder natürlicher Sprache hilfreich sein. Bei der Funktion handelt es sich nicht um einen Allzweck-Chat, sondern um ein hochspezifisches und integriertes Erlebnis, das Sie für Verkaufsdokumente nutzen können. Die Funktion bietet zwei unterschiedliche Fähigkeiten, mit denen Sie Daten zu einzelnen Produkten oder gesamten Dokumenten finden können.
 
-## <a name="what-are-capabilities-of-sales-line-suggestions-with-copilot"></a>Welche Möglichkeiten bieten Verkaufszeilenvorschläge mit Copilot?
+## Welche Möglichkeiten bieten Verkaufszeilenvorschläge mit Copilot?
 
 * Produkte finden
 
@@ -34,7 +34,7 @@ Vorschläge für Verkaufszeilen mit Copilot können bei der Erstellung von Zeile
 
   Oft wird eine frühere Bestellung wiederholt oder zumindest als Ausgangspunkt verwendet. Allerdings kann es schwierig sein, in einem Stapel von Bestellungen die richtige Reihenfolge zu finden. Möglicherweise erinnern Sie sich an die Bestellnummer. Dabei kann es sich um eine vom Unternehmen zugewiesene Nummer oder eine von einem Debitoren erhaltene Referenznummer handeln. Die Möglichkeit, Eingabeaufforderungen wie *Benötige letzte Rechnung vom April* zu verwenden, soll Ihnen helfen, schneller eine Bestellung zu finden.
 
-## <a name="what-is-the-intended-use-of-sales-line-suggestions-with-copilot"></a>Welchen Zweck haben Vorkaufszeilenvorschläge mit Copilot?
+## Welchen Zweck haben Vorkaufszeilenvorschläge mit Copilot?
 
 * Produkte finden
 
@@ -59,13 +59,13 @@ Vorschläge für Verkaufszeilen mit Copilot können bei der Erstellung von Zeile
   * *Produkte aus Auftrag 103031 abrufen*
   * *Benötige Produkte der letzten Rechnung im August*
 
-## <a name="how-was-sales-line-suggestions-with-copilot-evaluated-what-metrics-are-used-to-measure-performance"></a>Wie wurden die Verkaufszeilenvorschläge mit Copilot bewertet? Welche Metriken werden verwendet, um die Leistung zu messen?
+## Wie wurden die Verkaufszeilenvorschläge mit Copilot bewertet? Welche Metriken werden verwendet, um die Leistung zu messen?
 
 Das Feature wurde umfangreichen Tests unterzogen, bei denen zahlreiche Prompts in amerikanischem Englisch eingesetzt wurden, die sowohl die übliche Verwendung als auch die Verwendung durch böswillige Akteure simulierten. Die Tests basierten auf den Demodaten von [!INCLUDE [prod_short](includes/prod_short.md)] und einem großen, gekennzeichneten Produktkatalog, der im Open-Source-Format verfügbar ist.
 
 Dieses Feature basiert auf dem Standard für verantwortungsbewusste KI von Microsoft. [Erfahren Sie mehr über verantwortungsbewusste KI von Microsoft](https://aka.ms/RAI).
 
-## <a name="what-are-the-limitations-of-sales-line-suggestions-with-copilot-how-can-users-minimize-the-impact-of-the-sales-line-suggestions-with-copilot-limitations-when-using-the-system"></a>Welche Einschränkungen gelten bei den Vorkaufszeilenvorschlägen mit Copilot? Wie können Benutzende die Auswirkungen der Einschränkungen der Vorkaufszeilenvorschläge mit Copilot bei der Nutzung des Systems eindämmen?
+## Welche Einschränkungen gelten bei den Vorkaufszeilenvorschlägen mit Copilot? Wie können Benutzende die Auswirkungen der Einschränkungen der Vorkaufszeilenvorschläge mit Copilot bei der Nutzung des Systems eindämmen?
 
 * Produkte finden
   
@@ -113,15 +113,15 @@ Die folgende Tabelle enthält die Tabellen und Felder auf, die Copilot für Prod
 
   Copilot gibt nicht alle Zeilen vom Typ „Artikel“ zurück. Es werden lediglich Artikelnummern, Variantencodes und Mengen übertragen. Mengen aus dem Quellbeleg werden in den **Verkaufseinheitencode** umgerechnet.
 
-## <a name="in-which-geographies-and-languages-is-sales-lines-suggestions-available"></a>In welchen Regionen und Sprachen sind die Verkaufszeilenvorschläge verfügbar?
+## In welchen Regionen und Sprachen sind die Verkaufszeilenvorschläge verfügbar?
 
 Mit Ausnahme von Kanada ist dieses Feature in Lokalisierungen für alle Umgebungsländer bzw. -regionen und in allen unterstützten Sprachen verfügbar. Aufgrund der eingeschränkten Sprachenunterstützung steht das Feature wegen gesetzlicher Vorgaben im Hinblick auf die Sprache kanadischen Debitoren zunächst nicht zur Verfügung. Damit diese Funktionalität in Kundenumgebungen in Ländern/Regionen, in denen der Azure OpenAI Dienst nicht bereitgestellt wird, zur Verfügung gestellt werden kann, müssen Administrierende zunächst der grenzüberschreitenden Übermittlung ihrer Daten zustimmen, damit [!INCLUDE [prod_short](includes/prod_short.md)] eine Verbindung zum Azure OpenAI Dienst herstellen kann.  
 
-## <a name="what-operational-factors-and-settings-allow-for-effective-and-responsible-use-of-the-feature"></a>Welche betrieblichen Faktoren und Einstellungen lassen eine effektive und verantwortungsvolle Nutzung des Features zu?
+## Welche betrieblichen Faktoren und Einstellungen lassen eine effektive und verantwortungsvolle Nutzung des Features zu?
 
 KI-gestützte Vorschläge können manchmal falsch oder unvollständig sein. Sie sollten immer die Richtigkeit der Vorschläge von Copilot überprüfen, bevor Sie sich entscheiden, sie zu übernehmen. Die Vorschläge von Copilot werden erst dann in der [!INCLUDE [prod_short](includes/prod_short.md)] Datenbank gespeichert, wenn Sie auf die Schaltfläche **Behalten** gehen und das Copilot-Fenster schließen. Sie können alle Vorschläge bearbeiten und korrigieren, bevor Sie sie behalten oder nachdem Sie sie in einen Verkaufsbeleg eingefügt haben.
 
-### <a name="what-is-expected-of-administrators-and-end-users-when-using-sales-lines-suggestions"></a>Was wird von Administrierenden und Endbenutzenden erwartet, wenn sie die Verkaufszeilenvorschläge verwenden?
+### Was wird von Administrierenden und Endbenutzenden erwartet, wenn sie die Verkaufszeilenvorschläge verwenden?
 
 Jeder einzelne Benutzende entscheidet, ob er die **Verkaufszeilenvorschläge** verwendet oder nicht. Auch wenn das Feature von den Administrierenden aktiviert wurde und verfügbar ist, können Sie sich entscheiden, ob Sie es immer, manchmal oder nie verwenden möchten.  
 
@@ -131,15 +131,15 @@ Administrierende entscheiden, ob Copilot-Funktionen grundsätzlich in [!INCLUDE 
 > - Wir unterstützen dieses Feature nicht in der lokalen Version von [!INCLUDE [prod_short](includes/prod_short.md)] oder in der privaten Cloud.
 > - Partner können dieses Feature nicht erweitern. Das bedeutet, dass Entwicklungsfachkräfte von Partnern es nicht ändern, ersetzen oder erweitern können.
 
-## <a name="is-copilot-the-only-means-to-create-sales-lines"></a>Ist Copilot das einzige Mittel zum Erstellen von Verkaufszeilen?
+## Ist Copilot das einzige Mittel zum Erstellen von Verkaufszeilen?  
 
 Nein, die Nutzung von Copilot ist optional. [!INCLUDE [prod_short](includes/prod_short.md)] bietet auch Möglichkeiten zum Einfügen von Verkaufszeilen oder zum Kopieren von Belegen, die keine KI verwenden. Es können auch beide Ansätze gleichzeitig verwendet werden.  
 
-## <a name="how-do-i-give-feedback-about-ai-generated-content"></a>Wie gebe ich Feedback zu KI-generierten Inhalten?
+## Wie gebe ich Feedback zu KI-generierten Inhalten?  
 
 Jedes Mal, wenn Copilot Vorschläge bereitstellt, können Sie Microsoft mithilfe der Schaltflächen „Gefällt mir“ und „Gefällt mir nicht“ direkt im Copilot-Fenster Feedback geben. Ihr Feedback bleibt anonym und wir verwenden diese Daten, um die Qualität dieses Dienstes zu verbessern.  
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Zeilen in Verkaufsaufträgen mit Copilot vorschlagen](sales-suggest-sales-lines-with-copilot.md)  
 [Copilot- und KI-Funktionen konfigurieren](enable-ai.md)  
