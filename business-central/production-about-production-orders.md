@@ -11,7 +11,7 @@ ms.date: 02/22/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Informationen zu Fertigungsaufträgen
+# <a name="about-production-orders"></a>Informationen zu Fertigungsaufträgen
 
 Fertigungsaufträge werden dazu verwendet, die Umwandlung von Einkaufsmaterialien in Produktionsartikel zu verwalten. Fertigungsaufträge (Arbeits- oder Werkaufträge) leiten Arbeit durch verschiedene Einrichtungen (Arbeitsplätze oder Arbeitsplatzgruppen) im Fertigungsbereich.  
 
@@ -32,7 +32,7 @@ Fertigungsaufträge sind die Ausgangspunkte für:
 - Überwachen der aktuellen Fertigung  
 - Verfolgen der abgeschlossenen Fertigung  
 
-## Fertigungsauftrag erstellen  
+## <a name="production-order-creation"></a>Fertigungsauftrag erstellen
 
 Sie können Fertigungsaufträge auftragsweise manuell auf der Seite **Fertigungsauftrag** erstellen, oder über die Seiten **Verkaufsauftragsplanung** oder **Auftragsplanung** generieren. Sie können auch mehrere Aufträge über die Seite **Planungsarbeitsblatt** erstellen.  
 
@@ -44,7 +44,7 @@ Sie erstellen Fertigungsaufträge anhand der Informationen aus:
 - Arbeitsplätze  
 - Arbeitsplatzgruppen  
 
-## Einschränkungen für das Erstellen von Fertigungsaufträgen  
+## <a name="limitations-on-creating-production-orders"></a>Einschränkungen für das Erstellen von Fertigungsaufträgen
 
 Ein Fertigungsauftrag wird automatisch reserviert und zu seinem Ursprung verfolgt, wenn:  
 
@@ -57,18 +57,18 @@ Weitere Informationen finden Sie unter [Titel-Beziehungen zwischen Bedarf und Vo
 
 Fertigungsaufträge, die auf andere Weise erstellt wurden, werden nicht automatisch reserviert und verfolgt.
 
-## Fertigungsauftragsstatus  
+## <a name="production-order-status"></a>Fertigungsauftragsstatus
 
 Über den Fertigungsauftragsstatus wird gesteuert, wie sich der Fertigungsauftrag in der Anwendung sich verhält. Form und Inhalt der Produktion werden durch den Status des Auftrags festgelegt. Je nach Status werden die Fertigungsaufträge auf verschiedenen Seiten angezeigt. Sie können den Status eines Fertigungsauftrags nicht manuell ändern. Sie müssen die Funktion **Status ändern** im einzelnen Fertigungsauftrag oder auf der Seite **Fertigungsauftragsstatus ändern** verwenden.  
 
-### Simulierter Fertigungsauftrag  
+### <a name="simulated-production-order"></a>Simulierter Fertigungsauftrag
 
 Ein simulierter Fertigungsauftrag ist eindeutig, basierend auf den folgenden Eigenschaften:  
 
 - Wie der Name schon sagt, handelt es sich um eine Simulation, die Sie für Angebote und Kostenkalkulationen verwenden können. Zum Beispiel, wenn die Forschungs- und Entwicklungsabteilung einen Kostenvoranschlag für einen vorgeschlagenen Artikel einholen möchte. Ein simulierter Fertigungsauftrag fungiert als Beispiel eines Fertigungsauftrages.  
 - Er hat keinerlei Auswirkungen auf die Planung von Aufträgen. Simulierte Fertigungsaufträge werden weder von einer Planung (Prod.-Programmplanung und Nettobedarf) berücksichtigt, noch wirken sie sich auf eine Planung aus. Außerdem kann ein simulierter Fertigungsauftrag nicht als Vorlage verwendet werden, weil er gelöscht wird, sobald Sie seinen Status geändert haben.  
 
-### Geplanter Fertigungsauftrag  
+### <a name="planned-production-order"></a>Geplanter Fertigungsauftrag
 
 Ein geplanter Fertigungsauftrag zeichnet sich durch folgende Eigenschaften aus:  
 
@@ -78,7 +78,7 @@ Ein geplanter Fertigungsauftrag zeichnet sich durch folgende Eigenschaften aus:
 - Die Generierung eines geplanten FA ergibt eine vorgeschlagene "voraussichtliche Auftragsfreigabe", die die Menge, das Freigabedatum und das Fälligkeitsdatum enthält. Die Logik des Planungssystems basiert auf der Beschaffungsmethode, den Wiederbeschaffungsverfahren und den Auftragsmodifikationen, die im Planungsvorgang für den Nettobedarf festgelegt wurden.  
 - Wenn Sie die Auswirkungen eines geplanten FA wissen möchten, sehen Sie sich auf dem Arbeitsplan des geplanten FA die Auslastung für jeden Arbeitsplatz oder jede Arbeitsplatzgruppe an.  
 
-### Fest geplanter Fertigungsauftrag  
+### <a name="firm-planned-production-order"></a>Fest geplanter Fertigungsauftrag
 
 Ein fest geplanter Fertigungsauftrag (FA) ist eindeutig und zeichnet sich durch folgende Eigenschaften aus:  
 
@@ -88,7 +88,7 @@ Ein fest geplanter Fertigungsauftrag (FA) ist eindeutig und zeichnet sich durch 
 - Die Generierung eines fest geplanten FA ergibt eine vorgeschlagene "voraussichtliche Auftragsfreigabe", die die Menge, das Freigabedatum und das Fälligkeitsdatum enthält. Die Logik des Planungssystems basiert auf der Beschaffungsmethode, den Wiederbeschaffungsverfahren und den Auftragsmodifikationen, die im Planungsvorgang für den Nettobedarf festgelegt wurden.  
 - Wenn Sie die Auswirkungen eines fest geplanten FA wissen möchten, sehen Sie sich auf dem Arbeitsplan des fest geplanten FA die Auslastung für jeden Arbeitsplatz oder jede Arbeitsplatzgruppe an.  
 
-### Freigegebener Fertigungsauftrag  
+### <a name="released-production-order"></a>Freigegebener Fertigungsauftrag
 
 Der freigegebene Fertigungsauftrag (FA) ist eindeutig, basierend auf den folgenden Eigenschaften:  
 
@@ -97,7 +97,7 @@ Der freigegebene Fertigungsauftrag (FA) ist eindeutig, basierend auf den folgend
 - In einem Unternehmen mit Auftragsfertigung kann es üblich sein, einen freigegebenen FA unmittelbar nach Eingang eines Verkaufsauftrags zu erstellen.  
 - Der tatsächliche Materialverbrauch und die tatsächlichen Istmeldungen können mit einem freigegebenen FA erfasst werden. Außerdem kann automatisches Buchen von Verbrauch und Istmeldungen nur für freigegebene Fertigungsaufträge erfolgen.  
 
-### Beendeter Fertigungsauftrag  
+### <a name="finished-production-order"></a>Beendeter Fertigungsauftrag
 
 Ein beendeter Fertigungsauftrag (FA) ist eindeutig, basierend auf den folgenden Eigenschaften:  
 
@@ -106,7 +106,7 @@ Ein beendeter Fertigungsauftrag (FA) ist eindeutig, basierend auf den folgenden 
 - Beendete Fertigungsaufträge werden für die Erstellung von statistischen Berichten sowie als Unterstützung für die Möglichkeit verwendet, eine Rückverfolgung zu anderen Aufträgen (z. B. Verkaufsaufträge, Fertigungsaufträge und Einkaufsbestellungen) auszuführen. Die Möglichkeit, eine Rückverfolgung zu einem beendeten FA auszuführen, versetzt Sie in die Lage, die genaue Historie nachzuvollziehen.  
 - Ein beendeter FA kann nicht geändert werden.  
 
-## Fertigungsauftrag ausführen  
+## <a name="production-order-execution"></a>Fertigungsauftrag ausführen
 
 Sobald Sie einen Fertigungsauftrag erstellt und geplant haben, muss er für den Fertigungsbereich freigegeben werden, damit er ausgeführt wird. Während des Ausführens des Auftrags erfassen Sie Folgendes:  
 
@@ -116,7 +116,7 @@ Sobald Sie einen Fertigungsauftrag erstellt und geplant haben, muss er für den 
 
 Sie können diese Informationen manuell oder über die automatische Berichterstellung erfassen. Die Methode hängt von der Einrichtung im Feld „Buchungsmethode“ des Artikels und des Arbeitsplatzes ab.  
 
-### Materialverbrauch  
+### <a name="material-consumption"></a>Materialverbrauch
 
 [!INCLUDE [prod_short](includes/prod_short.md)] bietet verschiedene Möglichkeiten zur Erfassung des Materialverbrauchs. Beispielsweise kann es vorteilhaft sein, den Materialverbrauch manuell zu erfassen, weil häufig Komponenten ersetzt werden oder der Ausschuss größer ist als erwartet.  
 
@@ -133,7 +133,7 @@ Bei der Verbrauchsberichterstellung vom Typ "Rückwärts" werden die tatsächlic
 
 Wird der Fertigungsauftrag aktualisiert, wird die Buchungsmethode von der Artikelkarte kopiert. Da die Buchungsmethode für jede Komponente eines Fertigungsauftrags steuert, wie und wann der Verbrauch erfasst wird, sollten Sie wissen, dass Sie die Buchungsmethode für bestimmte Artikel direkt auf dem „Fertigungsauftrag“ ändern können. Weitere Informationen finden Sie unter [Komponenten entsprechend dem Arbeitsgangs-Ausstoß leeren](production-how-to-flush-components-according-to-operation-output.md).
 
-### Fertig produzierte Artikel  
+### <a name="production-output"></a>Fertig produzierte Artikel
 
 [!INCLUDE [prod_short](includes/prod_short.md)] bietet die Möglichkeit, nachzuverfolgen, wie viel Zeit für das Abarbeiten eines Fertigungsauftrags benötigt wurde, nebem dem Erfassen der gefertigten Menge. Mit diesen Informationen können Sie die Fertigungskosten genauer bestimmen. Außerdem kann es sein, dass Hersteller, die ein standardmäßiges Kostenrechnungssystem verwenden, die tatsächlichen Informationen erfassen möchten, damit sie genauere Standards entwickeln können.  
 
@@ -145,13 +145,13 @@ Bei der Methode „Vorwärts“ wird die Soll-Menge (und die Zeit) erfasst, die 
 
 Bei der Methode „Rückwärts“ wird die Soll-Menge (und die Zeit) erfasst, die automatisch am Ende eines Fertigungsauftrags erfasst wird. Verbindungscodes spielen beim „Rückwärts“-Buchen der Soll-Menge (Istmeldungen) keine Rolle.  
 
-### Verbrauch und Istmeldungen buchen  
+### <a name="posting-consumption-and-output"></a>Verbrauch und Istmeldungen buchen
 
 Sie können sowohl für Verbrauch als auch für Istmeldungen beliebige Kombinationen aus automatischem Buchen und manuell erfassten Informationen verwenden. Beispielsweise kann es sein, dass Sie Komponenten automatisch mit der Methode „Vorwärts“ buchen, Ausschuss aber weiterhin mit dem FA-Verbrauchs Buch.-Blatt erfassen möchten. In gleicher Weise möchten Sie möglicherweise Istmeldungen automatisch erfassen, aber das FA-Istmeldungs Buch.-Blatt dazu verwenden, Ausschuss des übergeordneten Artikels oder zusätzlich für den Auftrag benötigte Zeit zu erfassen.  
 
 Wenn Sie Verbrauch und Istmeldungen manuell eingeben, müssen Sie die Reihenfolge festlegen, in der diese Informationen erfasst werden sollen. Sie können den Verbrauch zuerst erfassen und zum Eingeben der Istmeldungen eine Schnellmethode verwenden, die auf der erwarteten Menge für die Istmeldungen basiert. Sie können aber auch zuerst die Istmeldungen mit der Funktion **Arbeitsplan auflösen** eingeben. Anschließend müssen Sie den Verbrauch anhand der tatsächlichen Mengen der Istmeldungen erfassen.  
 
-### Produktions Buch.-Blatt  
+### <a name="production-journal"></a>Produktions Buch.-Blatt
 
 Im [Produktions Buch.-Blatt](production-how-to-register-consumption-and-output.md) werden die Funktionen des FA-Verbrauchs Buch.-Blatts und des FA-Istmeldungs Buch.-Blatts in einem Buchungsblatt kombiniert, auf das direkt vom freigegebenen Fertigungsauftrag aus zugegriffen werden kann.  
 
@@ -178,7 +178,7 @@ In den folgende Punkten unterscheidet sich das Produktions Buch.-Blatt aber vom 
 
 Im Produktions Buch.-Blatt werden Verbrauchsmengen als negative Artikelposten, fertig gestellte Mengen als positive Posten und benötigte Zeiten als Kapazitätsposten gebucht.  
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Produktion](production-manage-manufacturing.md)
 [Produktion einrichten](production-configure-production-processes.md)  

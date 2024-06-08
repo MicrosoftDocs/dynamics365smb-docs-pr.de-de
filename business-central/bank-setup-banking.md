@@ -10,7 +10,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Einrichten von Banken
+# <a name="setting-up-banking"></a>Einrichten von Banken
 
 Bankkontokarten dienen zum Nachverfolgen aller Bankkonten in beliebiger Währung. Sobald Bankkonten eingerichtet wurden, können auch Schecks gedruckt werden.
 
@@ -24,7 +24,7 @@ Um elektronische Bankdienstleistungen zum Importieren von Bankkontoauszügen und
 
 [!INCLUDE [local-functionality](includes/local-functionality.md)]
 
-## Weitere Informationen
+## <a name="see-also"></a>Weitere Informationen
 
 [Abstimmen von Bankkonten](bank-manage-bank-accounts.md)  
 [Verwalten von Forderungen](receivables-manage-receivables.md)  

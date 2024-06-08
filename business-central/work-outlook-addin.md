@@ -9,7 +9,7 @@ ms.date: 04/21/2022
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
-# Business Central als Posteingang für Ihr Unternehmen in Outlook verwenden
+# <a name="use-business-central-as-your-business-inbox-in-outlook"></a>Business Central als Posteingang für Ihr Unternehmen in Outlook verwenden
 
 [!INCLUDE[prod_short](includes/prod_short.md)] bietet ein Add-In, mit dem Sie die geschäftlichen Interaktionen mit Ihren Kunden und Kreditoren direkt in Microsoft Outlook verwalten können. Mit dem [!INCLUDE[prod_short](includes/prod_short.md)]-Add-in für Outlook können Sie Finanzdaten zu Kunden und Kreditoren einsehen und Finanzbelege wie Angebote und Rechnungen erstellen und versenden.
 
@@ -23,7 +23,7 @@ Das Add-In [!INCLUDE[prod_short](includes/prod_short.md)] besteht aus zwei separ
 
    Wenn ein Geschäftsdokument in einer E-Mail versendet wird, stellt das Add-In einen direkten Link von der E-Mail zu dem eigentlichen Geschäftsdokument in [!INCLUDE[prod_short](includes/prod_short.md)] her.
 
-## Erste Schritte
+## <a name="get-started"></a>Erste Schritte
 
 1. Als Erstes müssen Sie das [!INCLUDE[prod_short](includes/prod_short.md)]-Add-In in Outlook installieren. Möglicherweise hat Ihr Administrator das Add-in bereits für Sie installiert. Wenn Sie sich also nicht sicher sind, fragen Sie Ihren Administrator oder lesen Sie den nächsten Schritt, um zu überprüfen, ob es installiert ist.
 
@@ -44,7 +44,7 @@ Wenn Sie das Add-In zum ersten Mal verwenden, werden Sie im Add-In-Fenster [!INC
 
 Weitere Informationen finden Sie unter [Add-Ins in Outlook im Web verwenden](https://support.office.com/article/using-add-ins-in-outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?ns=OLWAO365B&version=16).  
 
-## Arbeiten Sie mit Kontakten und Belegen mit dem Contact Insights-Add-in
+## <a name="work-with-contacts-and-documents-using-the-contact-insights-add-in"></a>Arbeiten Sie mit Kontakten und Belegen mit dem Contact Insights-Add-in
 
 Angenommen Sie erhalten eine E-Mail von einem Debitor, der für einige Artikel ein Angebot möchte. Direkt in Outlook öffnen Sie das [!INCLUDE[prod_short](includes/prod_short.md)]-Add-In öffnen, das den Sender als Debitoren identifiziert und die Debitorenkarte für dieses Unternehmen öffnet. Auf diesem Dashboard sehen Sie die Übersichtsinformationen für den Kunden und zeigen Detailinformationen zu bestimmten Belegen an. Sie können sich auch die Verkaufshistorie für den Debitor anzeigen lassen. Wenn es ein neuer Kontakt ist, können Sie ihn als neuen Debitor in Outlook erstellen in [!INCLUDE[prod_short](includes/prod_short.md)] ohne Outlook zu verlassen.  
 
@@ -57,7 +57,7 @@ Manchmal möchten Sie mehr Felder sehen, als im Add-In angezeigt werden, z.B.wen
 > [!TIP]
 > Die Aufgaben erläutern, wie Sie das Add-In aus einer E-Mail-Nachricht heraus verwenden können. Aber Sie können dasselbe auch von einem Kalendertermin in Outlook aus tun.
 
-### Nachschlagen eines Geschäftskontakts beim Verfassen einer E-Mail
+### <a name="look-up-a-business-contact-when-composing-an-email"></a>Nachschlagen eines Geschäftskontakts beim Verfassen einer E-Mail
 
 1. Erstellen Sie eine neue E-Mail-Nachricht.
 2. Gehen Sie im Menüband auf **[!INCLUDE[prod_short](includes/prod_short.md)]** und wählen Sie **Contact Insights**. Oder wenn Sie Outlook im Web verwenden, gehen Sie zum Ende der Nachricht und wählen Sie ![Business Central-Add-in Symbol in Outlook.](media/outlook-business-central-icon.png) > **Contact Insights**.
@@ -65,7 +65,7 @@ Manchmal möchten Sie mehr Felder sehen, als im Add-In angezeigt werden, z.B.wen
 
     Eine Übersicht des Kontakts wird in dem Fenster angezeigt und der Kontakt wird in der **An** Zeile der E-Mail hinzugefügt.
 
-### Anzeigen und Ändern der Kontaktdetails oder Wechseln der Firma
+### <a name="view-and-change-the-contact-details-or-switch-company"></a>Anzeigen und Ändern der Kontaktdetails oder Wechseln der Firma
 
 Die Aktionsleiste am oberen Rand des Add-In-Fensters [!INCLUDE[prod_short](includes/prod_short.md)] enthält mehrere Aktionen, mit denen Sie die Details des Kontakts einsehen und ändern können.
 
@@ -73,7 +73,7 @@ Die Aktionsleiste am oberen Rand des Add-In-Fensters [!INCLUDE[prod_short](inclu
 
 So können Sie beispielsweise die vollständigen Kontaktdetails öffnen, wie Sie sie in [!INCLUDE[prod_short](includes/prod_short.md)] sehen würden. Wenn Sie mit mehr als einer [!INCLUDE[prod_short](includes/prod_short.md)]-Firma arbeiten, können Sie ganz einfach zwischen den Firmen wechseln.
 
-### Eingehende Belege verfolgen
+### <a name="track-incoming-documents"></a>Eingehende Belege verfolgen
 
 Vielleicht verwenden Sie die Liste **Eingehende Belege** in [!INCLUDE[prod_short](includes/prod_short.md)], um Belege zur Verarbeitung zu verfolgen, die Ihnen von Einkäufern zugeschickt werden, z.B. eine Einkaufsrechnung, die bezahlt werden muss. In diesem Fall können Sie Datensätze für Eingehende Belege ganz einfach über das Outlook-Add-In erstellen und die E-Mail-Anhänge hinzufügen.
 
@@ -81,13 +81,13 @@ Vielleicht verwenden Sie die Liste **Eingehende Belege** in [!INCLUDE[prod_short
 
 2. In der Aktionsleiste des Add-Ins die Option **Weitere Aktionen anzeigen** und dann die Option **Senden an Eingehende Belege...** auswählen aus.  
 
-### Neues Dokument erstellen und an einen Kontakt senden
+### <a name="create-and-send-new-document-to-a-contact"></a>Neues Dokument erstellen und an einen Kontakt senden
 
 1. Wählen Sie im Menüband oder am unteren Rand der Nachricht ![Business Central-Add-in Symbol in Outlook.](media/outlook-business-central-icon.png) **[!INCLUDE[prod_short](includes/prod_short.md)]** > **Neu**, und wählen Sie dann die Art des Belegs, den Sie erstellen möchten, z.B. **Verkaufsangebot**.
 2. Nehmen Sie die Änderungen an dem Beleg im Bereich **[!INCLUDE[prod_short](includes/prod_short.md)]** Add-In vor.
 3. Wenn der Beleg zum Versenden an den Kontakt bereit ist, wählen Sie in der Aktionsleiste **Weitere Aktionen anzeigen** und dann die Aktion **Senden per E-Mail**.
 
-### Dateien an Datensätze anhängen
+### <a name="attach-files-to-records"></a>Dateien an Datensätze anhängen
 
 Ihr E-Mail-Posteingang dient oft als Quelle für eingehende Dateien, die Workflows initiieren oder entsperren. Dateien können Dinge wie PDF-Rechnungszahlungen, Fotos von Waren oder Anforderungen in einem Word-Dokument enthalten. Wenn Sie in Outlook mit Business Central-Datensätzen wie Kreditoren, Debitoren, Eingangsrechnungen oder Verkaufsaufträgen arbeiten, können Sie diese Dateien an die Datensätze anhängen.
 
@@ -97,7 +97,7 @@ Es gibt mehrere Möglichkeiten, wie Sie Dateien anhängen können. Eine Möglich
 
 Nachdem eine Datei angehängt wurde, können Kollegen die Datei sofort von der **Anhänge** Infobox in einem ihrer Business Central-Clients herunterladen und anzeigen. Oder sie können die Datei in OneDrive öffnen, um sie für ihre Abteilung freizugeben und zusammenzuarbeiten.
 
-#### So hängen Sie eine Datei an
+#### <a name="how-to-attach-a-file"></a>So hängen Sie eine Datei an
 
 1. Öffnen Sie die E-Mail öffnen, ![Business Central-Add-In-Symbol in Outlook](media/outlook-business-central-icon.png) auswählen **[!INCLUDE[prod_short](includes/prod_short.md)]**  > **Contact Insights**.
 2. Wählen Sie in der Aktionsleiste des Add-Ins **Weitere Aktionen anzeigen** > **Anhänge** aus.
@@ -111,7 +111,7 @@ Nachdem eine Datei angehängt wurde, können Kollegen die Datei sofort von der *
 > [!NOTE]
 > Sie können nicht an alle Datensätze Dateien anhängen. Diese Funktion ist für Datensätze verfügbar, die die Infobox **Anhänge** verwenden, z. B. Kreditor, Debitor, Einkaufsrechnung oder Verkaufsauftrag.
 
-## Anzeigen eines Belegs aus einer E-Mail mit dem Add-In Dokumentenansicht
+## <a name="view-a-document-from-an-email-using-the-document-view-add-in"></a>Anzeigen eines Belegs aus einer E-Mail mit dem Add-In Dokumentenansicht
 
 Unabhängig davon, ob es sich um eine gesendete oder empfangene E-Mail handelt, können Sie jeden [!INCLUDE[prod_short](includes/prod_short.md)]-Beleg, wie z.B. ein Verkaufsangebot, direkt in Outlook anzeigen. Von dort aus können Sie Änderungen vornehmen und zu verwandten Informationen navigieren &mdash;, genauso wie Sie es von [!INCLUDE[prod_short](includes/prod_short.md)] aus tun würden.
 
@@ -120,7 +120,7 @@ Wenn Sie die Outlook App verwenden, wählen Sie einfach **Dokumentenlink** am An
 > [!TIP]
 > Ab dem 1. Veröffentlichungszyklus 2022 werden Dokumente in einem neuen Browserfenster mit allen Funktionen geöffnet, die Sie von [!INCLUDE [prod_short](includes/prod_short.md)] kennen. Sie können von einem Dokument zu einer Liste und wieder zurück navigieren, Listen in Excel öffnen, Dokumente zum Drucken senden und verwandte Berichte ausführen oder in der Vorschau anzeigen. Es stehen auch alle vertrauten Tastenkombinationen direkt dort zur Verfügung, wenn Sie Dokumente aus Outlook öffnen.  
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Bereitschaft für die Geschäftsabwicklung](ui-get-ready-business.md)  
 [Abrufen von Business Central auf meinem mobilen Gerät](install-mobile-app.md)  

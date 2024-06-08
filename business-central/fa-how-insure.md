@@ -11,7 +11,7 @@ ms.date: 05/15/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Anlagen versichern
+# <a name="insure-fixed-assets"></a>Anlagen versichern
 
 Verwenden Sie die Seite  **Versicherungskarte**, um eine Versicherungspolice für ein oder mehrere Anlagegüter abzuschließen. Sie können einer Versicherungspolice ein Anlagevermögen oder einer Versicherungspolice mehrere Anlagevermögen zuordnen.
 
@@ -26,7 +26,7 @@ Wenn die Option  **Automatische Versicherungsbuchung** auf der Seite  **Anlagene
 
 Nachdem Sie einer Versicherungspolice ein Anlagevermögen zugewiesen haben, enthält das Feld  **Versichert**  auf der Anlagenkarte den Eintrag  **Ja**. Wenn Sie das Anlagevermögen verkaufen, wird der Schalter automatisch deaktiviert.
 
-## So erstellen oder ändern Sie eine Versicherungskarte
+## <a name="to-create-or-modify-an-insurance-card"></a>So erstellen oder ändern Sie eine Versicherungskarte
 
 Wenn Sie Informationen über Änderungen in der Deckungssumme erhalten, müssen Sie diese in der **Versicherungskarte**aktualisieren, um sicherzustellen, dass die Versicherungsdeckung korrekt angezeigt wird.  
 
@@ -34,7 +34,7 @@ Wenn Sie Informationen über Änderungen in der Deckungssumme erhalten, müssen 
 2. Wählen Sie die Aktion **Neu** aus, um eine neue Karte für eine Versicherungspolice zu erstellen. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Wählen Sie die Versicherungspolice, die Sie ändern möchten, und wählen die Aktion **Bearbeiten** aus.
 
-## So verknüpfen Sie eine Anlage mit einer Versicherungspolice durch Buchen aus einem Versicherungs Buch.-Blatt
+## <a name="to-assign-a-fixed-asset-to-an-insurance-policy-by-posting-from-the-insurance-journal"></a>So verknüpfen Sie eine Anlage mit einer Versicherungspolice durch Buchen aus einem Versicherungs Buch.-Blatt
 
 Sie verknüpfen eine Anlage mit einer Versicherungspolice, indem Sie sie in den Versicherungsposten buchen.  
 
@@ -48,7 +48,7 @@ Nachfolgend wird beschrieben, wie Sie eine Versicherungs Buch.-Blattzeile manuel
     > [!NOTE]  
     > Die Posten aus dem Versicherungs Buch.-Blatt werden nur auf die Versicherungsposten gebucht.  
 
-## So aktualisieren Sie den Versicherungswert einer Anlage
+## <a name="to-update-the-insurance-value-of-a-fixed-asset"></a>So aktualisieren Sie den Versicherungswert einer Anlage
 
 Sie können die Stapelverarbeitung **Indexiere Versicherung** verwenden, um den Wert der versicherten Anlagen zu aktualisieren.  
 
@@ -63,19 +63,19 @@ Sie können die Stapelverarbeitung **Indexiere Versicherung** verwenden, um den 
 4. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Vers. Buch.-Blätter** ein und wählen Sie dann den zugehörigen Link.  
 5. Öffnen Sie das relevante Versicherungs Buch.-Blatt, prüfen Sie die erstellten Posten und buchen Sie diese dann auf die Versicherungsposten.  
 
-## So überwachen Sie die Versicherungsdeckung
+## <a name="to-monitor-insurance-coverage"></a>So überwachen Sie die Versicherungsdeckung
 
 [!INCLUDE[prod_short](includes/prod_short.md)] bietet dedizierte Berichte und Statistikseiten, die dazu verwendet werden können, Versicherungspolicen zu analysieren und zu überprüfen, ob Ihre Anlagen über- oder unterversichert sind.  
 
-### Übersicht der Versicherungspolicen
+### <a name="overview-of-insurance-policies"></a>Übersicht der Versicherungspolicen
 
 Gibt einen Überblicks über die Versicherungspolicen durch Drucken des Berichts **Versicherung-Liste**. Der Bericht zeigt die einzelnen Policen und die wichtigsten Felder der Versicherungskarten an.  
 
-### Versicherungsschutz
+### <a name="insurance-coverage"></a>Versicherungsschutz
 
 Um zu sehen, welche Versicherungspolicen welche Anlagen in welcher Höhe abdecken, können Sie den Bericht **Versicherung – Vers. Summe** ausdrucken oder anzeigen.  
 
-#### Über-/Unterdeckung
+#### <a name="overunder-coverage"></a>Über-/Unterdeckung
 
 Ob Anlagevermögen über- oder unterversichert ist, können Sie auf folgende Arten prüfen:  
 
@@ -84,18 +84,18 @@ Ob Anlagevermögen über- oder unterversichert ist, können Sie auf folgende Art
 * Der Bericht **Unter-/Überversicherung**.  
 * Der Bericht **Versicherungsanalyse**.  
 
-### Nicht versicherte Sachanlagen
+### <a name="uninsured-fixed-assets"></a>Nicht versicherte Sachanlagen
 
 Um zu überprüfen, ob Sie vergessen haben, einer Versicherungspolice ein Anlagevermögen zuzuordnen, können Sie den Bericht  **Versicherung – Nicht versicherte Anlagevermögen**  ausdrucken oder in der Vorschau anzeigen. In diesem Bericht werden Anlagegüter angezeigt, für die keine Beträge im Versicherungsdeckungsbuch gebucht wurden.  
 
-## So zeigen Sie Versicherungsposten an
+## <a name="to-view-insurance-coverage-ledger-entries"></a>So zeigen Sie Versicherungsposten an
 
 Sie können Ihre vorgenommenen Einträge im Versicherungsdeckungsbuch einsehen.  
 
 1. Wählen Sie das Symbol ![Glühbirne, die die „Sie wünschen ...“-Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus Symbol. Geben Sie **Versicherung** ein, und wählen Sie dann den entsprechenden Link.  
 2. Wählen Sie die entsprechende Versicherungspolice aus, und wählen Sie dann die Aktion **Versicherungsposten**.  
 
-## So zeigen Sie den gesamten Versicherungswert von Anlagen an:
+## <a name="to-view-the-total-insurance-value-of-fixed-assets"></a>So zeigen Sie den gesamten Versicherungswert von Anlagen an:
 
 Auf einer Matrixseite werden die pro Versicherungsvertrag erfassten Versicherungswerte pro Anlagevermögen angezeigt, die sich aus gebuchten versicherungsrelevanten Beträgen ergeben.  
 
@@ -105,7 +105,7 @@ Auf einer Matrixseite werden die pro Versicherungsvertrag erfassten Versicherung
 4. Wählen Sie die Aktion **Matrix anzeigen** aus.  
 5. Um die zu Grunde liegenden Versicherungsposten anzuzeigen, aktivieren Sie einen Wert in der Matrix.  
 
-## So korrigieren Sie Versicherungsposten
+## <a name="to-correct-insurance-coverage-entries"></a>So korrigieren Sie Versicherungsposten
 
 Wurde eine Anlage einer falschen Versicherung zugeordnet, können Sie dies durch die Erstellung von zwei Umgliederungsbuchungen aus dem Versicherungsjournal korrigieren.  
 
@@ -116,7 +116,7 @@ Wurde eine Anlage einer falschen Versicherung zugeordnet, können Sie dies durch
 
 In der zweiten Zeile wird das Anlagevermögen aus der fehlerhaften Versicherungspolice herausgerechnet. In der ersten Zeile des Journals wird das Anlagegut der richtigen Versicherungspolice zugeordnet.  
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Anlagen](fa-manage.md)  
 [Einrichten von Anlagen](fa-setup.md)  

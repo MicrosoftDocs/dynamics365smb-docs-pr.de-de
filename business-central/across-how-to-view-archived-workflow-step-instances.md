@@ -10,7 +10,7 @@ ms.date: 09/09/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Anzeigen von archivierten Workflowschritt-Instanzen
+# <a name="view-archived-workflow-step-instances"></a>Anzeigen von archivierten Workflowschritt-Instanzen
 
 Alle abgeschlossenen Workflowschritt-Instanzen werden auf der Seite **Archivierte Workflowschritt-Instanzen** gespeichert.  
 
@@ -19,7 +19,7 @@ Auf der Seite **Workflow** können Sie einen Workflow erstellen, indem Sie die e
 > [!NOTE]
 > Zum Anzeigen des Verlaufs und Status von Workflows mit Power Automate-Integration, wählen Sie die **Meine Flows**-Aktion auf der **Power Automate** Seite und wählen Sie dann einen Flow aus, um seinen Ausführungsverlauf und Status anzuzeigen.
 
-## Anzeigen von archivierten Workflowschritt-Instanzen
+## <a name="to-view-archived-workflow-step-instances"></a>Anzeigen von archivierten Workflowschritt-Instanzen
 
 1. Wählen Sie das Symbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Workflows** ein, und wählen Sie dann den entsprechenden Link.  
 2. Öffnen Sie den Workflow, für den Sie alle archivierten Workflowschritt-Instanzen anzeigen möchten.  
@@ -30,7 +30,7 @@ Auf der Seite **Workflow** können Sie einen Workflow erstellen, indem Sie die e
 
    Alle abgeschlossenen Workflowschritt-Instanzen werden auf der Seite **Archivierte Workflowinstanzen** gespeichert. Im **Worflwofcode**-Feld können Sie sehen, zu welchem Workflow die archivierte Workflowschrittinstanz gehörte.  
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Artikelgenehmigungsworkflow löschen](across-how-to-delete-workflows.md)  
 [Genehmigungsworkflows erstellen](across-how-to-create-workflows.md)  

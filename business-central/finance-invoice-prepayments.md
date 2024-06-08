@@ -9,7 +9,7 @@ ms.date: 12/03/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Fakturieren von Vorauszahlungen
+# <a name="invoicing-prepayments"></a>Fakturieren von Vorauszahlungen
 
 [!INCLUDE [prepayment_def](includes/prepayment_def.md)]
 
@@ -28,7 +28,7 @@ Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Themen,
 |Erstellen eines Auftrags, Anpassen der Vorauszahlungsbeträge und Erstellen einer Rechnung für Vorauszahlungsbeträge|[Vorauszahlungsrechnungen erstellen](finance-how-to-create-prepayment-invoices.md)|  
 |Erstellen einer weiteren Vorauszahlungsrechnung – entweder für weitere Artikel oder für eine zusätzliche Vorauszahlung für den ursprünglichen Auftrag – oder Erstellen einer Vorauszahlungsgutschrift|[So korrigieren Sie Vorauszahlungen](finance-how-to-correct-prepayments.md)|  
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Beispielhafte Vorgehensweise: Verkaufsvorauszahlungen einrichten und in Rechnung stellen](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  
 [Finanzen](finance.md)  

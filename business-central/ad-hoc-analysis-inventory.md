@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Ad-hoc-Analyse von Bestandsdaten
+# <a name="ad-hoc-analysis-of-inventory-data"></a>Ad-hoc-Analyse von Bestandsdaten
 
 In diesem Artikel wird erklärt, wie Sie das Feature **Datenanalyse** zum Analysieren von Bestandsdaten direkt von Listenseiten und Abfragen aus verwenden. Sie müssen keinen Bericht ausführen und nicht zu einer anderen Anwendung wie beispielsweise Excel wechseln. Das Feature bietet eine interaktive und vielseitige Möglichkeit, Daten zu berechnen, zusammenzufassen und zu untersuchen. Anstatt Berichte mit Optionen und Filtern auszuführen, können Sie mehrere Registerkarten hinzufügen, die unterschiedliche Aufgaben oder Ansichten der Daten darstellen. Einige Beispiele sind „Ablaufende Bestände“ oder „Top-Verkäufer“ oder jede andere Ansicht, die Sie sich vorstellen können. Weitere Informationen zur Verwendung des Features **Datenanalyse** finden Sie unter [Listen- und Abfragedaten mit dem Analysemodus analysieren](analysis-mode.md).
 
@@ -20,7 +20,7 @@ Nutzen Sie die folgenden Listenseiten zur Ad-hoc-Analyse von Bestandsprozessen:
 
 - [Artikelposten](https://businesscentral.dynamics.com/?page=38)
 
-## Ad-hoc-Analyseszenarien für Bestände
+## <a name="inventory-ad-hoc-analysis-scenarios"></a>Ad-hoc-Analyseszenarien für Bestände
 
 Nutzen Sie das Feature **Datenanalyse** zum schnellen Faktencheck und zur Ad-hoc-Analyse:
 
@@ -38,7 +38,7 @@ Die folgenden Abschnitte enthalten Beispiele für Bestandsszenarien in [!INCLUDE
 | Lagerdurchsatz | Erhalten Sie einen Überblick über Käufe und Verkäufe in Ihrem Lagerbestand nach Monaten oder Quartalen. | [Artikelposten](https://businesscentral.dynamics.com/?page=38) | **Buchungsdatum (Jahr)**, **Buchungsdatum (Monat)**, **Artikelnr.**, **Menge**, **Verkaufsbetrag**, **Einstandsbetrag (Ist)** und **Buchungsdatum (Monat)** |
 | [Lagerbestandsumlagerungen] | Erhalten Sie einen Überblick darüber, wie sich Waren in Ihrem Lager zwischen Lagerorten bewegen. | [Artikelposten](https://businesscentral.dynamics.com/?page=38) | **Lagerortcode**, **Menge**, **Buchungsdatum**, **Artikelnr.** |
 
-## Beispiel: verfügbarer Lagerbestand
+## <a name="example-inventory-on-hand"></a>Beispiel: verfügbarer Lagerbestand
 
 Um die vorrätigen Artikel in Ihrem Lagerbestand zu analysieren, gehen Sie wie folgt vor:
 
@@ -54,7 +54,7 @@ Das folgende Bild zeigt das Ergebnis dieser Schritte.
 
 :::image type="content" source="media/data-analysis-inventory-on-hand.png" alt-text="Beispiel für die Durchführung einer Datenanalyse zum verfügbaren Lagerbestand." lightbox="media/data-analysis-inventory-on-hand.png":::
 
-## Beispiel: Ablaufende oder alte Lagerbestände nachverfolgen
+## <a name="example-track-expiring-or-old-stock"></a>Beispiel: Ablaufende oder alte Lagerbestände nachverfolgen
 
 Um zu analysieren, welche Artikel schon lange in Ihrem Bestand auf Lager sind und sich nicht gut verkaufen, gehen Sie wie folgt vor:
 
@@ -69,7 +69,7 @@ Das folgende Bild zeigt das Ergebnis dieser Schritte.
 
 :::image type="content" source="media/data-analysis-inventory-dead-stock.png" alt-text="Beispiel für die Durchführung einer Datenanalyse zu unverkäuflichem Lagerbestand auf der Seite „Artikelposten“." lightbox="media/data-analysis-inventory-dead-stock.png":::
 
-## Beispiel: zurückgesandte Artikel nach Retourengrund
+## <a name="example-returned-items-by-return-reason"></a>Beispiel: zurückgesandte Artikel nach Retourengrund
 
 Um Retouren sortiert nach Retourengründen zu analysieren, gehen Sie folgendermaßen vor:
 
@@ -83,7 +83,7 @@ Um Retouren sortiert nach Retourengründen zu analysieren, gehen Sie folgenderma
 1. Fügen Sie alle weiteren Felder hinzu, die Sie in der Analyse haben möchten, und aktivieren Sie sie im Bereich **Spalten**. Sie können beispielsweise die Felder **Buchungsdatum**, **Belegart**, **Artikelnr.** und **Belegnr.** hinzufügen.
 1. Benennen Sie Ihre Analyseregisterkarte in **Zurückgegebene Artikel nach Retourengrund** oder in etwas anderes um, das diese Analyse beschreibt.  
 
-## Beispiel: Lagerdurchsatz
+## <a name="example-inventory-throughput"></a>Beispiel: Lagerdurchsatz
 
 1. Öffnen Sie die Liste [Artikelposten](https://businesscentral.dynamics.com/?page=38) und wählen Sie :::image type="content" source="media/analysis-mode-icon.png" alt-text="Analysemodus eingeben."::: um den Analysemodus einzuschalten.
 1. Gehen Sie zum Menü **Spalten** und entfernen Sie alle Spalten (wählen Sie das Kästchen rechts neben dem Feld **Suchen** aus).
@@ -93,7 +93,7 @@ Um Retouren sortiert nach Retourengründen zu analysieren, gehen Sie folgenderma
 1. Ziehen Sie das Feld **Buchungsdatum (Monat)** auf den Bereich **Spaltengruppen**.
 1. Benennen Sie Ihre Analyseregisterkarte in **Lagerdurchsatz nach Monat** oder in etwas anderes um, das diese Analyse beschreibt.  
 
-## Lagerbestandsumlagerungen
+## <a name="inventory-movements"></a>Lagerbestandsumlagerungen
 
 Um Lagerbestandsumlagerungen zwischen Lagerorten zu verfolgen, gehen Sie wie folgt aus:
 
@@ -107,7 +107,7 @@ Um Lagerbestandsumlagerungen zwischen Lagerorten zu verfolgen, gehen Sie wie fol
    > [!TIP]
    > Wenn Sie das Feld „Buchungsdatum“ hinzufügen, können Sie Umlagerungen auch im Zeitverlauf nachverfolgen.
 
-## Datengrundlage für Ad-hoc-Analysen zum Lager
+## <a name="data-foundation-for-ad-hoc-analysis-on-inventory"></a>Datengrundlage für Ad-hoc-Analysen zum Lager
 
 Wenn Sie einen Verkaufsauftrag buchen, [!INCLUDE [prod_short](includes/prod_short.md)] werden das Debitorenkonto, die Finanzbuchhaltung und die Artikelposten aktualisiert.
 
@@ -117,7 +117,7 @@ Wenn Sie einen Einkaufsbeleg buchen, aktualisiert [!INCLUDE [prod_short](include
 
 - Für jede Einkaufszeile werden ggf. Einträge in der Tabelle **Artikelposten** erstellt (sofern die Einkaufszeile den Typ „Artikel“ hat). Darüber hinaus werden Einkaufsbelege immer im Feld **Einkaufslieferkopf** und **Einkaufsrechnungskopf** Tabellen erfasst. Weitere Informationen unter [Einkäufe buchen](purchasing-how-record-purchases.md#posting-purchases).
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Listen- und Abfragedaten mit dem Analysemodus analysieren](analysis-mode.md)  
 [Übersicht über die Bestandsanalyse](inventory-analytics-overview.md)  

@@ -12,13 +12,13 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# Intelligente Einblicke und Cloudmigration (nur lokal)
+# <a name="intelligent-insights-and-cloud-migration-on-premises-only"></a>Intelligente Einblicke und Cloudmigration (nur lokal)
 
 Wenn Sie [!INCLUDE[prod_short](includes/prod_short.md)] online verwenden, haben Sie vollen Zugriff auf Szenarien, die auf der intelligenten Cloud basieren. Beispielsweise auf Key Performance Indicators (KPIs), die auf maschinellem Lernen basieren, oder wenn Sie Ihre Daten in Power BI anzeigen.  
 
 Wenn Sie jedoch die lokale Version von [!INCLUDE [prod_short](includes/prod_short.md)] verwenden, haben Sie auf die gleichen Einblicke keinen Zugriff. Wenn Sie von Online-Szenarien profitieren möchten, müssen Sie zu [!INCLUDE [prod_short](includes/prod_short.md)] online migrieren. Weitere Informationen finden Sie unter [Migrieren lokaler Daten zu Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) im Verwaltungsinhalt für [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-## Einblicke in [!INCLUDE[prod_short](includes/prod_short.md)] Online
+## <a name="viewing-insights-in--online"></a>Einblicke in [!INCLUDE[prod_short](includes/prod_short.md)] Online
 
 Für eine lokale Umgebung, für die Daten nach [!INCLUDE[prod_short](includes/prod_short.md)] online migriert wurden, werden auf der Seite **Einblicke aus der intelligenten Cloud** in der Onlineumgebung vier wichtige Punkte, die für die meisten Unternehmen von Interesse sind:
 
@@ -34,7 +34,7 @@ Neben KPI-Diagrammen erhalten Sie zudem Einblicke in mögliche Problembereiche, 
 
 Die Seite stellt auch eine Verbindung mit Power BI her, sodass Sie noch mehr Einblicke erhalten. Stellen Sie optional eine Verbindung zu Azure AI her, um noch intelligentere Einblicke zu erhalten. Weitere Informationen finden Sie unter [Die Verkaufs‑ und Bestandprognosen-Erweiterung](ui-extensions-sales-forecast.md).  
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Willkommen zu Business Central](welcome.md)  
 [Cloud-Migrationserweiterungen](ui-extensions-data-replication.md)  
