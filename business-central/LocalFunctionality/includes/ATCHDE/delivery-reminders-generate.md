@@ -12,7 +12,7 @@ In [!INCLUDE[prod_short](../../../includes/prod_short.md)] können Sie Lieferanm
 > [!NOTE]  
 > Um Lieferanmahnungen zu erstellen, müssen Sie die Lieferanmahnungsbestimmungen, -stufen und -texte eingerichtet haben.  
 
-## Um Lieferanmahnungen für alle überfälligen Lieferungen zu erstellen  
+## <a name="to-generate-delivery-reminders-for-all-overdue-deliveries"></a>Um Lieferanmahnungen für alle überfälligen Lieferungen zu erstellen
 
 1. Wählen Sie das ![Symbol der Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](../../../media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie **Lieferanmahnung** ein, und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die Aktion **Neu** aus.  

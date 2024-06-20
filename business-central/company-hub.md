@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Arbeit über mehrere Unternehmen hinweg im Unternehmens-Hub verwalten
+# <a name="manage-work-across-multiple-companies-in-the-company-hub"></a>Arbeit über mehrere Unternehmen hinweg im Unternehmens-Hub verwalten
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
@@ -25,7 +25,7 @@ Sie können auf den Unternehmens-Hub zugreifen, indem Sie zur Rolle **Unternehme
 > [!NOTE]
 > Sie können den Unternehmens-Hub mit so vielen Unternehmen verbinden, wie Sie benötigen. Sie können den Unternehmens-Hub jedoch nur mit Unternehmen verbinden, die in [!INCLUDE [prod_short](includes/prod_short.md)] online gehostet werden.
 
-## Homepage des Unternehmens-Hubs
+## <a name="company-hub-home-page"></a>Homepage des Unternehmens-Hubs
 
 Wenn Sie die Rolle **Unternehmens-Hub** verwenden, wird auf Ihrer Homepage eine Liste der Unternehmen angezeigt, auf die Sie Zugriff haben, einschließlich Informationen zu KPI-Daten (Key Point of Interest) und Links zum Öffnen der einzelnen Unternehmen. <!--You can customize the dashboard to show the data points that you want to see by adding or removing columns. For example, you might want to see taxes that are due, how many open sales documents each company has, or the number of purchase invoices that are due next week. You can configure the view to suit your needs. If you have added many companies, you can use filters to sort your view.--> Wählen Sie die Aktion **Unternehmens-Hub** aus, um den Unternehmens-Hub zu öffnen, in dem Sie enger mit den einzelnen Unternehmen zusammenarbeiten können.  
 
@@ -53,13 +53,13 @@ In the **Company Hub** page, you can see more information about each company by 
 
 Otherwise, close the details pane and continue to the next company.  -->
 
-## Zugewiesene Aufgaben
+## <a name="assigned-tasks"></a>Zugewiesene Aufgaben
 
 In [!INCLUDE [prod_short](includes/prod_short.md)] können Sie sich selbst sowie anderen Aufgaben zuweisen, und andere Personen können Ihnen Aufgaben zuweisen. Der Unternehmens-Hub zeigt Ihnen eine Übersicht der zugewiesenen Aufgaben für jedes Unternehmen. Sie können ebenfalls auf eine Liste aller zugewiesenen Aufgaben zugreifen, indem Sie auf der Seite **Start** die Option **Meine Benutzeraufgaben** auswählen.  
 
 <!--In the client company, you also have cues that call out tasks assigned to you in this particular client.  -->
 
-### Meine Benutzeraufgaben
+### <a name="my-user-tasks"></a>Meine Benutzeraufgaben
 
 Die Liste **Meine Benutzeraufgaben** hilft Ihnen dabei, Ihren Tag zu priorisieren, indem weitere Informationen über die Aufgaben angezeigt werden, die Ihnen über alle Ihre Unternehmen hinweg zugewiesen wurden.  
 
@@ -71,7 +71,7 @@ Wenn Sie eine Aufgabe erledigt haben, markieren Sie sie als erledigt.
 
 Weitere Informationen zu Unternehmen und Umgebungen finden Sie unter [Umgebungslinks](company-hub-add-company.md#environment-links).  
 
-## Auf den Unternehmens-Hub zugreifen
+## <a name="access-the-company-hub"></a>Auf den Unternehmens-Hub zugreifen
 
 [!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
 
@@ -82,7 +82,7 @@ Um auf den Unternehmens-Hub zugreifen zu können, müssen Sie entweder über die
 
 Falls Sie den Unternehmens-Hub nicht finden können und sich sicher sind, dass Ihnen Zugriff darauf gewährt wurde, wenden Sie sich an Ihren Administrator, wenn der Unternehmens-Hub auf der Seite **Erweiterungsmanagement** aufgeführt ist. Weitere Informationen finden Sie unter [Anpassen von Business Central über Erweiterungen](ui-extensions.md).  
 
-## Unternehmens-Hub einrichten
+## <a name="set-up-the-company-hub"></a>Unternehmens-Hub einrichten
 
 Um den Unternehmens-Hub verwenden zu können, müssen Sie Ihrem Dashboard ein oder mehrere Unternehmen hinzufügen. Weitere Informationen finden Sie unter [Fügen Sie Unternehmen zu Ihrem Unternehmens-Hub hinzu](company-hub-add-company.md).  
 
@@ -92,7 +92,7 @@ Wenn Sie beispielsweise Buchhalter sind, können Ihre Kunden Sie in ihr [!INCLUD
 
 Administratoren können dieselbe Anleitung für unterstützte Einrichtung verwenden, um Sie ihrem [!INCLUDE [prod_short](includes/prod_short.md)] hinzuzufügen. Sie können Sie auch zum entsprechenden Microsoft Entra-Konto im Microsoft 365 Admin Center hinzufügen. Weitere Informationen finden Sie unter [Benutzer und Gruppen verwalten](/microsoft-365/admin/add-users/?view=o365-worldwide&preserve-view=true).  
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Fügen Sie Unternehmen zu Ihrem Unternehmens-Hub hinzu](company-hub-add-company.md)  
 [Buchhaltungs-Erfahrung in Business Central](finance-accounting.md)  

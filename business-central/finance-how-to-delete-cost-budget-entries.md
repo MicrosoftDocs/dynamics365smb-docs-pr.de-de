@@ -10,13 +10,13 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Kostenbudgetposten löschen
+# <a name="delete-cost-budget-entries"></a>Kostenbudgetposten löschen
 
 Sie verwenden den Batchauftrag **Kostenbudgeteinträge löschen** , um Kostenbudgetposten in der Kostenbudgeterfassung zu stornieren.  
 
 Um keine Lücken in den Kostenbudgetposten und den Kostenjournalposten entstehen zu lassen, können Sie einen einzelnen Posten oder eine Gruppe von Posten nicht mitten in der Liste der Journalposten löschen.  
 
-## Kostenbudgetposten löschen:  
+## <a name="to-delete-a-cost-budget-entry"></a>Kostenbudgetposten löschen:
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Kostenbudgetposten löschen** ein, und wählen Sie dann den entsprechenden Link.  
 
@@ -28,7 +28,7 @@ Um keine Lücken in den Kostenbudgetposten und den Kostenjournalposten entstehen
 > [!NOTE]  
 > Um ein versehentliches Löschen von Kostenbudgetposten zu vermeiden, können Sie Journalposten schließen, indem Sie die Zeilen als **Abgeschlossen** im Feld **Abgeschlossen** auf der Seite **Kostenbudget-Register** markieren.  
 
-## Weitere Informationen
+## <a name="see-also"></a>Weitere Informationen
 
 [Kostenrechnung](finance-manage-cost-accounting.md)
 [Erstellen von Kostenbudgets](finance-create-cost-budgets.md)  

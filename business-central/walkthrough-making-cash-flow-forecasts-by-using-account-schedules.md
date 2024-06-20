@@ -11,11 +11,11 @@ ms.search.form: '103, 104, 108, 488, 489, 490'
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Walkthrough: Erstellen Sie Cashflow-Prognosen mithilfe von Finanzberichten
+# <a name="walkthrough-making-cash-flow-forecasts-using-financial-reports"></a>Walkthrough: Erstellen Sie Cashflow-Prognosen mithilfe von Finanzberichten
 
 Diese exemplarische Vorgehensweise beschreibt, wie Sie Finanzberichte verwenden können, um Cashflow-Prognosen zu erstellen. Finanzberichte führen Berechnungen aus, die nicht direkt im Kontenplan für Cashflowkonten vorgenommen werden können. In Finanzberichten können Sie Zwischensummen für Cashflow-Auftragseingänge und -Auszahlungen einrichten. Diese Zwischensummen können in neue Summen einbezogen werden, die dann für Cashflowplanungen verwendet werden können.  
 
-## Informationen zu dieser exemplarischen Vorgehensweise
+## <a name="about-this-walkthrough"></a>Informationen zu dieser exemplarischen Vorgehensweise
 
 In dieser exemplarischen Vorgehensweise werden folgende Aufgaben erläutert:  
 
@@ -25,28 +25,28 @@ In dieser exemplarischen Vorgehensweise werden folgende Aufgaben erläutert:
 - Zuordnen einer Spaltendefinition zu einem Finanzbericht.  
 - Anzeigen und Drucken der Cashflowplanung.  
 
-### Voraussetzungen
+### <a name="prerequisites"></a>Voraussetzungen
 
 Für diese exemplarische Vorgehensweise gelten folgende Voraussetzungen:  
 
 - [!INCLUDE[prod_short](includes/prod_short.md)]  
 - Ein Cashflowarbeitsblatt mit erfassten Zeilen  
 
-## Rollen
+## <a name="roles"></a>Rollen
 
 Die Aufgaben in dieser exemplarischen Vorgehensweise werden von den folgenden Benutzern ausgeführt:  
 
 - CONTROLLER  
 
-## Hintergrund
+## <a name="story"></a>Hintergrund
 
 Ken ist ein Controller bei CRONUS , der Monatscashflowplanungen erstellt. Ken schließt Finanzen, Verkauf, Einkauf und Anlagen in die Planungen ein und zeigt sie dann CFO Sara für den Geschäfteseinblick.  
 
-## Einrichten eines neuen Finanzberichtnamens
+## <a name="setting-up-a-new-financial-report-name"></a>Einrichten eines neuen Finanzberichtnamens
 
 Der Name des Finanzberichts ist der Name, den Sie der Cashflow-Prognose geben, der eine Reihe definierter Zeilen und eine Spaltendefinition enthält.  
 
-### Einrichten eines neuen Finanzberichtnamens  
+### <a name="set-up-a-new-financial-report-name"></a>Einrichten eines neuen Finanzberichtnamens
 
 1. Wählen Sie das Symbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Finanzberichte** ein und wählen Sie dann den zugehörigen Link.  
 2. Auf der Seite **Finanzberichte** wählen Sie **Neu**, um einen neuen Cashflow-Finanzberichtsnamen zu erstellen.  
@@ -54,11 +54,11 @@ Der Name des Finanzberichts ist der Name, den Sie der Cashflow-Prognose geben, d
 4. Geben Sie im Feld **Beschreibung** eine Beschreibung für die **Cashflowplanung** ein.  
 5. Lassen Sie die Felder **Zeilendefinition** und **Spaltendefinition** leer.
 
-## Einrichten von Zeilendefinitionslinien
+## <a name="setting-up-row-definition-lines"></a>Einrichten von Zeilendefinitionslinien
 
 Nachdem ein Finanzberichtsname eingerichtet wurde, definiert Ken jede Zeile im Cashflow-Finanzbericht. Ken definiert Zeilen, die in Berichten zusätzlich zu den Zeilen angezeigt werden können, die nur Berechnungszwecken dienen.  
 
-### Einrichten von Zeilendefinitionslinien  
+### <a name="set-up-row-definition-lines"></a>Einrichten von Zeilendefinitionslinien
 
 1. Auf der Seite **Finanzberichte** wählen Sie den neuen Finanzbericht **Planung** aus, den Sie erstellt haben, und wählen Sie dann **Zeilendefinition bearbeiten**.  
 2. Auf der Seite **Zeilendefinition** geben Sie jede Zeile wie in der folgenden Tabelle ein.  
@@ -94,7 +94,7 @@ Nachdem ein Finanzberichtsname eingerichtet wurde, definiert Ken jede Zeile im C
     > [!NOTE]
     > Die Zeilennummer R10 wird verwendet, um die Gesamtsummen für Forderungen zu erfassen. Die Zeilennummer R20 wird verwendet, um die Summe aller Zahlungseingänge zu berechnen. Die Zeilennummer R30 wird verwendet, um die Gesamtsummen für Verbindlichkeiten zu erfassen. Die Zeilennummer R40 wird verwendet, um die Summe aller Barausgaben zu berechnen. Die Zeilennummer R50 wird verwendet, um die Summe des Kassenüberschusses zu erfassen. Die Zeilennummer R60 wird verwendet, um die liquiden Mittel zu erfassen. Die Zeilennummer R70 wird verwendet, um den geplanten Cashflow zu berechnen.
 
-## Einrichten einer neuen Spaltendefinition
+## <a name="setting-up-a-new-column-definition"></a>Einrichten einer neuen Spaltendefinition
 
 Vor dem Druzcken der Cashflowplanungen muss Ken die Spaltendefinition für die numerischen Informationen erstellen. In den Spalten definiert Ken die benötigten Informationen, die er in den Zeilen nutzen möchte.
 
@@ -103,7 +103,7 @@ Vor dem Druzcken der Cashflowplanungen muss Ken die Spaltendefinition für die n
 - Die dritte Spalte die die Nummer *C30* mit dem Titel **Gesamtes Jahr** und enthält die Bewegung in den Salden während des gesamten Geschäftsjahres.  
 - Dann weist Ken die Spaltendefinition als Standardoption im **Planungs**-Finanzbericht zu.  
 
-### Eine neue Spaltendefinition einrichten
+### <a name="set-up-a-new-column-definition"></a>Eine neue Spaltendefinition einrichten
 
 1. Auf der Seite **Finanzberichte** wählen Sie den Namen des erstellen Finanzbericht **Planung** aus. Wählen Sie auf der Registerkarte **Start** in der Gruppe **Vorgang** die Option **Spaltendefinition bearbeiten** aus.
 
@@ -119,22 +119,22 @@ Vor dem Druzcken der Cashflowplanungen muss Ken die Spaltendefinition für die n
     |C20|Betrag bis Datum|Saldo bis Datum|Posten|Nettobetrag|Immer|  
     |C30|Gesamtes Geschäftsjahr|Gesamtes Geschäftsjahr|Posten|Nettobetrag|Immer|
 
-## Zuordnen einer Spaltendefinition zu einem Finanzberichtsnamen
+## <a name="assigning-the-column-definition-to-the-financial-report-name"></a>Zuordnen einer Spaltendefinition zu einem Finanzberichtsnamen
 
 Ken kann die Spaltendefinition jetzt dem Finanzberichtsnamen zuweisen.  
 
-### Zuordnen einer Spaltendefinition zu einem Finanzberichtsnamen
+### <a name="assign-the-column-definition-to-the-financial-report-name"></a>Zuordnen einer Spaltendefinition zu einem Finanzberichtsnamen
 
 1. Auf der Seite **Finanzberichte** wählen Sie den neuen Finanzbericht **Planung** aus, den Sie erstellt haben, und wählen Sie dann **Spaltendefinition bearbeiten**.  
 2. Wählen Sie im Feld **Name** die Spaltendefinition **Cashflow** aus, um es als Standard-Spaltendefinition zuzuordnen.  
 
-## Cashflowplanung anzeigen und drucken
+## <a name="view-and-print-the-cash-flow-forecast"></a>Cashflowplanung anzeigen und drucken
 
 1. Auf der Seite **Finanzberichte** wählen Sie den Finanzbericht **Planung**, um einen neuen Cashflow-Planung anzuzeigen.  
 2. Auf der Seite **Finanzbericht** können Sie einen Betrag auswählen und die Cashflowplanungs Posten dann anzeigen, aus denen sich der Betrag zusammensetzt. Darüber hinaus können Sie die Formel anzeigen, die verwendet wird, um den Betrag zu berechnen. Sie können die Beträge auch nach Datum und Dimension filtern.  
 3. Wählen Sie die Aktion **Drucken** aus, um die Cashflowplanung zu drucken.  
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Mit Finanzberichten arbeiten](bi-how-work-account-schedule.md)  
 [Analysieren von Cashflow in Ihren Mandanten](finance-analyze-cash-flow.md)  

@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Designdetails: Artikelverfolgungsdesign
+# <a name="design-details-item-tracking-design"></a>Designdetails: Artikelverfolgungsdesign
 
 Artikelverfolgung in [!INCLUDE[prod_short](includes/prod_short.md)] begann mit [!INCLUDE [navnow_md](includes/navnow_md.md)]. Die Artikelverfolgungsfunktion befindet sich in einer separaten Objektstruktur mit komplexen Links zu gebuchten Dokumenten und Artikelposten und ist in das Reservierungssystem integriert, das Reservierung, Auftragsverfolgung und Aktionsnachrichten verwaltet. Weitere Informationen finden Sie unter [Designdetails: Reservierung, Auftragsnachverfolgung und Aktionsmeldungen](design-details-reservation-order-tracking-and-action-messaging.md) in den Beschaffungsplanungsdetails.  
 
@@ -33,7 +33,7 @@ Codeunit 22, **Artikelposten – Zeile buchen** teilt jetzt die Buchung nach Art
 
 Weitere Informationen finden Sie unter [Designdetails: Artikelbuchungsstruktur nachverfolgen](design-details-item-tracking-posting-structure.md).  
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Designdetails: Artikelnachverfolgung](design-details-item-tracking.md)
 

@@ -11,7 +11,7 @@ ms.search.keywords: 'kit, kitting'
 ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905'
 ms.service: dynamics-365-business-central
 ---
-# So verkaufen Sie Auftragsmontageartikel und Lagerartikel zusammen
+# <a name="sell-assemble-to-order-items-and-inventory-items-together"></a>So verkaufen Sie Auftragsmontageartikel und Lagerartikel zusammen
 
 Wenn das Feld **Montagerichtlinie** auf der Artikelkarte eines Montageartikels **Lagermontage** enthält, dann nimmt der Verkaufsauftragsprozess an, dass der Artikel bereits montiert wird und aus dem Lager entnommen werden kann, wenn er verfügbar ist. Daher wird kein Montageauftrag automatisch erstellt und mit der Verkaufsauftragszeile verknüpft. Wenn allerdings ein Teil oder die gesamte Menge nicht verfügbar ist, können Sie einen Montageauftrag für die verbleibende Menge erstellen. Füllen Sie dazu im Feld **Menge für Montageauftrag** auf dem Verkausauftrag die aus. Mit dieser Einstellung können Sie die Auftragsmontage des Artikels durchführen, obwohl er für die Lagermontage eingerichtet ist.  
 
@@ -23,7 +23,7 @@ Sie haben eine ähnliche Flexibilität, wenn Sie Artikel auf Bestellung verkaufe
 > [!NOTE]  
 > Die folgende Vorgehensweise enthält nicht die Verkaufszeilenschritte, die Sie durchführen müssen, bevor Sie einen Montageauftrag für nicht verfügbare Mengen erstellen können.
 
-## So verkaufen Sie Auftragsmontageartikel und Lagerartikel zusammen
+## <a name="to-sell-assemble-to-order-items-and-inventory-items-together"></a>So verkaufen Sie Auftragsmontageartikel und Lagerartikel zusammen
 
 1. Geben Sie auf einer Verkaufsauftragszeile für einen Lagermontageartikel im Feld **Menge** eine Menge ein, die den Lagerbestand überschreitet. Die Seite **Verfügbarkeit prüfen** wird angezeigt. Um mehr über die Verfügbarkeit von Artikeln zu erfahren, gehen Sie zu [Verfügbarkeit von Artikeln anzeigen](inventory-how-availability-overview.md).
 2. Geben Sie im Feld **Menge für Auftragsmontage** den Wert aus dem Feld **Gesamtmenge** ein.  
@@ -33,7 +33,7 @@ Sie haben eine ähnliche Flexibilität, wenn Sie Artikel auf Bestellung verkaufe
 > [!CAUTION]  
 > Das Feld **Lagerplatzcode** auf dem Verkaufsauftrag enthält möglicherweise den Wert aus den Feldern **P-Code f. Prog.fert.lief.** oder **Von Montagelagerplatzcode** auf der Lagerortkarte ausgefüllt sein. Wenn dem so ist, ist das Feld **Lagerplatzcode** auf der Verkaufsauftragszeile in dieser Kombination aus Auftragsmontage- und Lagermontageartikelmengen möglicherweise falsch. Es empfiehlt sich, den Lagerplatz im Feld **Lagerplatzcode** zu prüfen und sicherzustellen, dass die Platzierung für alle Mengen funktioniert. Alternativ können Sie die beiden verschiedenen Mengen auf separaten Verkaufsauftragszeilen eingeben.  
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Montageverwaltung](assembly-assemble-items.md)  
 [Arbeiten mit Stücklisten für die Montage](assembly-how-work-assembly-boms.md)  

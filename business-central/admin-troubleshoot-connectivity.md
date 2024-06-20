@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
 
-# Problembehandlung der Konnektivität für Business Central
+# <a name="troubleshoot-connectivity-for-business-central"></a>Problembehandlung der Konnektivität für Business Central
 
 > **Geltet für:** [!INCLUDE[prod_short](includes/prod_short.md)] Online
 >
@@ -23,7 +23,7 @@ ms.reviewer: jswymer
 > [!NOTE]
 > Die Seite **Problembehandlung der Konnektivität** testet nicht die Leistung oder Zuverlässigkeit des Netzwerks, wie z. B. die Geschwindigkeit Ihrer Verbindung. Sie prüft nur die Konnektivität zu verschiedenen Ressourcen.
 
-## Starten Sie die Konnektivitätsprüfung 
+## <a name="start-the-connectivity-check"></a>Starten Sie die Konnektivitätsprüfung
 
 1. Öffnen Sie einen Internetbrowser.
 2. Geben Sie in der Adresse die URL ein, die Sie verwenden, um Business Central zu öffnen und fügen Sie am Ende `/connectivity` hinzu. 
@@ -52,7 +52,7 @@ ms.reviewer: jswymer
 
 In den folgenden Abschnitten werden die ausgeführten Prüfungen erläutert und es werden einige Tipps zur Behebung von Problemen gegeben.
 
-## Grundlegende Internet-Konnektivität
+## <a name="basic-internet-connectivity"></a>Grundlegende Internet-Konnektivität
 
 Überprüft, ob Sie eine Verbindung zum Internet haben, indem es prüft, ob Sie auf eine bekannte öffentliche Domäne zugreifen können, wie www.bing.com.
 
@@ -61,7 +61,7 @@ In den folgenden Abschnitten werden die ausgeführten Prüfungen erläutert und 
 |Ihr Browser unterstützt diese Prüfung nicht|Öffnen Sie die Seite in einem unterstützten Browser, und versuchen Sie es erneut. Eine Liste der unterstützten Browser finden Sie unter [Mindestanforderungen für die Verwendung von Business Central – Browser](product-requirements.md#browsers)|
 |Der Server mit der folgenden URL konnte nicht angefunkt werden: {url}|Überprüfen Sie die Firewall-Einstellungen.|
 
-## CDN (Content Delivery Network)-Ressourcen werden geladen
+## <a name="cdn-content-delivery-network-resources-loading"></a>CDN (Content Delivery Network)-Ressourcen werden geladen
 
 [!INCLUDE[prod_short](includes/prod_short.md)] verwendet Azure Content Delivery Network (CDN), um Ressourcen bereitzustellen, die zum Ausführen des Business Central Web-Clients erforderlich sind. Dieser Check prüft, ob die erforderlichen Ressourcen verfügbar und zugänglich sind, indem er die Business Central-Instanz im CDN anpingt.
 
@@ -70,7 +70,7 @@ In den folgenden Abschnitten werden die ausgeführten Prüfungen erläutert und 
 |Ihr Browser unterstützt diese Prüfung nicht|Siehe **Prüfung der grundlegenden Internet-Konnektivität**.|
 |Der Server mit der folgenden URL konnte nicht angefunkt werden: {url}|Überprüfen Sie die Firewall-Einstellungen.|
 
-## Benutzerauthentifizierung
+## <a name="user-authentication"></a>Benutzerauthentifizierung
 
 Überprüft, ob sich der aktuelle Benutzende mit einem gültigen Business Central-Konto angemeldet hat.
 
@@ -78,7 +78,7 @@ In den folgenden Abschnitten werden die ausgeführten Prüfungen erläutert und 
 |-------|-------------|
 |Kein Benutzer ist derzeit authentifiziert|Melden Sie sich bei Business Central mit einem gültigen Benutzernamen und Kennwort an.|
 
-## Erkennung von Business Central-Umgebungen
+## <a name="business-central-environments-discovery"></a>Erkennung von Business Central-Umgebungen
 
 Prüft, ob Business Central-Umgebungen für einen authentifizierten Benutzer verfügbar sind, und überprüft dann, ob der Benutzer in der Umgebung authentifiziert werden kann.
 <!-- example: Your user name or password is incorrect, or you do not have a valid account.. Request duration: 332 milliseconds)-->
@@ -89,7 +89,7 @@ Prüft, ob Business Central-Umgebungen für einen authentifizierten Benutzer ver
 |Es konnten keine verfügbaren Umgebungen für Ihr Konto abgerufen werden.|Überprüfen Sie die Liste der verfügbaren Umgebungen im Business Central Admin Center.|
 |Ihr Benutzername oder Kennwort ist falsch oder Sie haben kein gültiges Konto.| Überprüfen Sie, ob Sie sich mit dem richtigen Benutzernamen und Kennwort angemeldet haben.|
 
-## Anwendungsdienstverbindung
+## <a name="application-service-connectivity"></a>Anwendungsdienstverbindung
 
 Überprüft, ob der authentifizierte Benutzer eine Verbindung zu einer ermittelten Umgebung herstellen kann, normalerweise beginnend mit der Produktionsumgebung.
 
@@ -100,7 +100,7 @@ Prüft, ob Business Central-Umgebungen für einen authentifizierten Benutzer ver
 |Keine Cluster-Adresse, für die diese Prüfung durchgeführt werden soll|Überprüfen Sie die Liste der verfügbaren Umgebungen im Business Central Admin Center.|
 |Versionsendpunkt existiert nicht|Überprüfen Sie die Liste der verfügbaren Umgebungen im Business Central Admin Center.|
 
-## Webserver-Konnektivität
+## <a name="web-server-connectivity"></a>Webserver-Konnektivität
 
 Überprüft, ob der authentifizierte Benutzer erfolgreich Verbindungen mit dem Webserver herstellen kann.
 
@@ -111,7 +111,7 @@ Prüft, ob Business Central-Umgebungen für einen authentifizierten Benutzer ver
 |Keine Cluster-Adresse, für die diese Prüfung durchgeführt werden soll|Überprüfen Sie die Liste der verfügbaren Umgebungen im Business Central Admin Center.|
 |Fehler beim Herstellen einer Verbindung mit dem Webserver|Leeren Sie den Cache und laden Sie die Seite neu.|
 
-## Dienststatus
+## <a name="service-health-status"></a>Dienststatus
 
 Meldet den Dienstzustand von Business Central, indem nach gemeldeten Ausfällen gesucht wird.
 
@@ -120,7 +120,7 @@ Meldet den Dienstzustand von Business Central, indem nach gemeldeten Ausfällen 
 |Kein authentifizierter Benutzer, für den diese Überprüfung durchgeführt werden soll|Siehe **Benutzerauthentifizierung prüfen**.|
 |Leider ist Business Central vorübergehend nicht verfügbar. Versuchen Sie es später noch einmal.|Versuchen Sie es später noch einmal.|
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Ressourcen für Hilfe und Support](product-help-and-support.md)  
 [Übersicht der Aufgaben zum Festlegen von Business Central](setup.md)  

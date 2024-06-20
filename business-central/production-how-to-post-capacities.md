@@ -10,11 +10,11 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Kapazität buchen
+# <a name="post-capacities"></a>Kapazität buchen
 
 Im Kapazitäts Buch.-Blatt buchen Sie verbrauchte Kapazität, die keinem Fertigungsauftrag zugeordnet ist. Zum Beispiel: Wartungsarbeit muss einem Arbeitsplatz oder einer Arbeitsplatzgruppe zugeordnet werden, aber nicht einem Fertigungsauftrag.  
 
-## Kapazitäten buchen  
+## <a name="to-post-capacities"></a>Kapazitäten buchen
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Kapazitäts Buch.-Blätter** ein, und wählen Sie dann den zugehörigen Link.  
 2. Füllen Sie die Felder **Buchungsdatum** und **Belegnr.** aus.  
@@ -25,7 +25,7 @@ Im Kapazitäts Buch.-Blatt buchen Sie verbrauchte Kapazität, die keinem Fertigu
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-## Um sich die Arbeitsplatzgruppeneinträge anzeigen zu lassen:  
+## <a name="to-view-work-center-ledger-entries"></a>Um sich die Arbeitsplatzgruppeneinträge anzeigen zu lassen:
 
 Auf den Seiten **Arbeitsplatzgruppenkarte** und **Arbeitsplatzkarte** können Sie gebuchte Kapazität aufgrund der Informationen zu beendeten Fertigungsaufträgen anzeigen.    
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Arbeitsplatzgruppen** ein, und wählen Sie dann den zugehörigen Link.  
@@ -33,7 +33,7 @@ Auf den Seiten **Arbeitsplatzgruppenkarte** und **Arbeitsplatzkarte** können Si
 
     Auf der Seite **Kapazitätsposten** werden die gebuchten Posten der Arbeitsplatzgruppe in der Reihenfolge der Buchungen angezeigt.   
 
-## Siehe auch  
+## <a name="see-also"></a>Siehe auch
 
 [Produktion](production-manage-manufacturing.md)  
 [Produktion einrichten](production-configure-production-processes.md)  

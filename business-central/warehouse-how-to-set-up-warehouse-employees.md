@@ -10,11 +10,11 @@ ms.custom: bap-template
 ms.search.form: '7328, 7348'
 ms.service: dynamics-365-business-central
 ---
-# Lagermitarbeiter einrichten
+# <a name="set-up-warehouse-employees"></a>Lagermitarbeiter einrichten
 
 Sie müssen jeden Benutzer, der Lagertätigkeiten ausführt, als Lagermitarbeiter einrichten und ihm einen Standardlagerort zuweisen. [!INCLUDE [prod_short](includes/prod_short.md)] filtert Lageraktivitäten zum Standardstandort des Mitarbeiters. Sie können nur die Lagertätigkeiten am Standort ausführen. Sie können einem Benutzer anderen Standorten zuweisen. Sie können auf diese Standorte zugreifen, aber keine Aktivitäten dort ausführen.
 
-## So richten Sie die Lagermitarbeiter ein:  
+## <a name="to-set-up-warehouse-employees"></a>So richten Sie die Lagermitarbeiter ein:
 
 1. Wählen Sie das Symbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Lagermitarbeiter** ein, und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die Aktion **Neu** aus.  
@@ -26,9 +26,9 @@ Sie müssen jeden Benutzer, der Lagertätigkeiten ausführt, als Lagermitarbeite
 > [!TIP]
 > Sie können auch die Aktion **Mich als Lagermitarbeiter hinzufügen** verwenden, um sich schnell zur Liste der Lagermitarbeiter hinzuzufügen. Dies ist beispielsweise nützlich, wenn Sie die Funktionen testen.
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/get-started-warehouse-management/)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/get-started-warehouse-management/)
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Lagerverwaltung – Übersicht](design-details-warehouse-management.md)
 [Bestand](inventory-manage-inventory.md)  

@@ -10,13 +10,13 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Verfolgen von Beziehungen zwischen Bedarf und Vorrat
+# <a name="track-relations-between-demand-and-supply"></a>Verfolgen von Beziehungen zwischen Bedarf und Vorrat
 
 Verfolgen des Auftragsbedarfs (Menge mit Bedarfsverursacher), der Absatzplanung, des Rahmenauftrags oder der Planungsparameter (Menge ohne Bedarfsverursacher), auf den bzw. auf die die betreffende Planungszeile zurückzuführen ist
 
 Die Planungsarbeitsblätter beinhalten zusätzliche Planungsinformationen wie Nachverfolgung zu nicht auftragsbezogenen Entitäten und Warnungen, um den Planer bei der Erstellung eines optimalen Beschaffungsplans zu unterstützen. Weitere Informationen finden Sie unter [Planungselement ohne Bedarfsverursacher](production-how-track-demand-supply.md#untracked-planning-elements).
 
-## Um verknüpfte Artikel zu verfolgen
+## <a name="to-track-linked-items"></a>Um verknüpfte Artikel zu verfolgen
 Die Verfolgung zeigt, wie Verkaufsaufträge, Fertigungsaufträge und Bestellungen über Reservierungen mit einem Fertigungsauftrag verbunden sind.
 
 Nachfolgend wird erläutert, wie Artikel für einen fest geplanten Fertigungsauftrag verfolgt werden. Die Schritte sind für alle anderen Auftragsarten und der Planungsarbeitsblattszeilen ähnlich.
@@ -27,7 +27,7 @@ Nachfolgend wird erläutert, wie Artikel für einen fest geplanten Fertigungsauf
 
 In den Zeilen im Fenster **Auftragsverfolgung** werden die Dokumente angezeigt, die sich auf die aktuelle Fertigungsauftragszeile beziehen.
 
-## Planungselemente ohne Bedarfsverursacher
+## <a name="untracked-planning-elements"></a>Planungselemente ohne Bedarfsverursacher
 Die Seite **Planungselemente ohne Bedarfsverursacher** öffnet sich, wenn Sie das Feld **Mge. ohne Bedarfsverursacher** auf der Seite **Auftragsplanung** auswählen. Er dient beiden Zwecken:
 
 1. Sie enthält Informationen zu Mengen ohne Bedarfsverursacher, die angezeigt werden, wenn der Benutzer auf der Seite "Bedarfsverursacher" Mengen ohne Bedarfsverursacher aufruft.
@@ -46,7 +46,7 @@ Die Seite enthält Posten, die eine Überschussmenge ohne Bedarfsverursacher im 
 - Losgrößenrundungsfaktor
 - Toleranz (% der Losgröße)
 
-## Siehe auch  
+## <a name="see-also"></a>Siehe auch
 [Planung](production-planning.md)   
 [Produktion einrichten](production-configure-production-processes.md)  
 [Produktion](production-manage-manufacturing.md)    

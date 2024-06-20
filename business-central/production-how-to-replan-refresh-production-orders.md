@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Produktionsaufträge direkt umplanen oder auffrischen
+# <a name="replan-or-refresh-production-orders-directly"></a>Produktionsaufträge direkt umplanen oder auffrischen
 
 Die Funkion **Neu Planen** wird in der Regel nach dem Hinzufügen bzw. Ändern von Komponenten ausgeführt, aus denen sich zugrunde liegende Fertigungsaufträge zusammensetzen. Mit dieser Planungsfunktion werden Änderungen berechnet, die an Komponenten und Arbeitsgängen vorgenommen werden. Dabei werden Artikel auf niedrigeren Ebenen der Fertigungsstückliste berücksichtigt, für die ggf. neue Fertigungsaufträge erstellt werden.  
 
@@ -28,7 +28,7 @@ Sie können die FA-Zeilen entweder manuell eintragen oder Sie verwenden die Funk
 > [!NOTE]
 > Wenn Sie die Funktion Aktualisieren zur Berechnung der FA-Zeilen aus dem Fertigungsauftragskopf verwenden, werden die bestehenden FA-Zeilen gelöscht und neue Zeilen berechnet.  
 
-## Einen Fertigungsauftrag neu planen
+## <a name="to-replan-a-production-order"></a>Einen Fertigungsauftrag neu planen
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten"). Symbol. Geben Sie **Geplante Prod. Aufträge** ein und wählen Sie dann den zugehörigen Link.  
 2. Öffnen Sie den Fertigungsauftrag, den Sie neu planen wollen.  
@@ -57,7 +57,7 @@ Sie können die FA-Zeilen entweder manuell eintragen oder Sie verwenden die Funk
 > [!NOTE]  
 > Mithilfe der Funktion **Neu planen** implementierte Änderungen wirken sich mit hoher Wahrscheinlichkeit auf den Kapazitätsbedarf des Fertigungsauftrags aus, sodass Sie die Arbeitsgänge anschließend ggf. neu planen müssen.  
 
-## Einen Fertigungsauftrag aktualisieren
+## <a name="to-refresh-a-production-order"></a>Einen Fertigungsauftrag aktualisieren
 
 Wenn Sie FA-Zeilen geändert haben, dann müssen Sie die Komponenten des Fertigungsauftrags aktualisieren. Im weiteren Vorgang werden die Komponenten für einen fest geplanten Fertigungsauftrag berechnet. Die Schritte sind für eine Arbeitsplanzeile ähnlich.
 
@@ -80,7 +80,7 @@ Wenn Sie FA-Zeilen geändert haben, dann müssen Sie die Komponenten des Fertigu
 > [!NOTE]  
 > Die Berechnung der FA-Komponenten löscht die bisherigen Änderungen in den Komponenten.
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Planung](production-planning.md)  
 [Produktion einrichten](production-configure-production-processes.md)  

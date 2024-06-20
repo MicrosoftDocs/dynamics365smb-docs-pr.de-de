@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Anwendungsdesigndetails
+# <a name="application-design-details"></a>Anwendungsdesigndetails
 
 Die Artikel in diesem Abschnitt enthalten detaillierte technische Informationen zu komplexen Anwendungsbereiche in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
@@ -26,7 +26,7 @@ Der Designdetailinhalt wendet sich an Implementierer, Entwickler und Superuser, 
 |Informationen zu historischen und aktuellen Darstellungsarten von Artikelverfolgungsfunktionen und wie diese mit dem Reservierungssystem verknüpft werden können, um Serien-/Chargennummern bei der Verfügbarkeitsberechnung zu berücksichtigen.|[Designdetails: Artikelverfolgung](design-details-item-tracking.md)|  
 |Erfahren Sie mehr über die Finanzbuchhaltungs-Buchungsfunktion.|[Designdetails: Fibu Buch.-Blatt-Buchungsposition](design-details-general-journal-post-line.md)|
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Planung](production-planning.md)  
 [Verwalten der Bestandsregulierung](finance-manage-inventory-costs.md)  

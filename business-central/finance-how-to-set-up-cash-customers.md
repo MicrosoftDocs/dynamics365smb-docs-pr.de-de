@@ -10,11 +10,11 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# BarDebitoren einrichten
+# <a name="set-up-cash-customers"></a>BarDebitoren einrichten
 
 Sie können keine Rechnung ohne Debitorennummer erstellen. Dies trifft auch zu, wenn Sie einen Barverkauf tätigen und kein Debitorenkonto aktualisieren müssen.  
 
-## So richten Sie Bargelddebitoren ein:
+## <a name="to-set-up-a-cash-customer"></a>So richten Sie Bargelddebitoren ein:
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Kunde** ein, und wählen Sie dann den zugehörigen Link.  
 2. Erstellen Sie eine neue Karte **Debitor**. Weitere Informationen finden Sie unter [Neue Debitoren registrieren](sales-how-register-new-customers.md).
@@ -29,7 +29,7 @@ Sie können keine Rechnung ohne Debitorennummer erstellen. Dies trifft auch zu, 
 >
 > Sie müssen in dieser Buchungsgruppe die Nummer für ein Sammelkonto angeben, obwohl der Saldo auf diesem Konto immer 0 sein wird, nachdem Sie die Rechnung gebucht haben.  
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Verwalten von Forderungen](receivables-manage-receivables.md)  
 [Neue Kunden registrieren](sales-how-register-new-customers.md)

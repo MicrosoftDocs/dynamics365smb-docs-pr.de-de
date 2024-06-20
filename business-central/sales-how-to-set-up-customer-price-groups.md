@@ -11,17 +11,17 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Debitorenpreisgruppen festlegen
+# <a name="set-up-customer-price-groups"></a>Debitorenpreisgruppen festlegen
   
 Die Verkaufspreise können von den Debitorengruppen, an die Sie verkaufen, abhängig gemacht werden. Diese werden als Debitorenpreisgruppen bezeichnet.
 
 Bevor Sie Debitorenpreisgruppen festlegen, müssen Sie entscheiden, wie viele Gruppen Sie haben möchten und welche Debitoren zu den einzelnen Gruppen gehören werden.  
 
-## So erstellen Sie Verkaufspreise für eine Gruppe von Debitoren  
+## <a name="how-to-create-sales-prices-for-a-group-of-customers"></a>So erstellen Sie Verkaufspreise für eine Gruppe von Debitoren
 
 Wenn Sie sich auf die Preise geeinigt haben, die die Gruppe von Debitoren für bestimmte Artikel zahlen wird, registrieren Sie die Vereinbarung für die einzelnen Artikel in den Zeilen auf der Seite **Verkaufspreise**.
 
-### Um Verkaufspreise für eine Gruppe von Debitoren zu erstellen
+### <a name="to-create-sales-prices-for-a-group-of-customers"></a>Um Verkaufspreise für eine Gruppe von Debitoren zu erstellen
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol, geben Sie **Debitorenpreisgruppen** ein und wählen Sie dann den entsprechenden Link.  
 
@@ -43,11 +43,11 @@ Wenn Sie sich auf die Preise geeinigt haben, die die Gruppe von Debitoren für b
 
 Wiederholen Sie die Schritte 4 bis 8 für jedes Element, für das Sie einen Verkaufspreis erstellen möchten.
 
-## So geben Sie Debitorenpreisgruppen-Codes auf Debitorenkarten ein  
+## <a name="how-to-enter-customer-price-group-codes-on-customer-cards"></a>So geben Sie Debitorenpreisgruppen-Codes auf Debitorenkarten ein
 
 Nachdem Sie die Debitorenpreisgruppen festgelegt haben, können Sie die Debitorenpreisgruppen-Codes auf den Debitorenkarten eingeben.
 
-### Um Debitorenpreisgruppen-Codes auf einer Debitorenkarte einzugeben  
+### <a name="to-enter-customer-price-group-codes-on-a-customer-card"></a>Um Debitorenpreisgruppen-Codes auf einer Debitorenkarte einzugeben
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Debitoren** ein und wählen Sie dann den entsprechenden Link.  
 
@@ -56,7 +56,7 @@ Nachdem Sie die Debitorenpreisgruppen festgelegt haben, können Sie die Debitore
 3. Wählen Sie auf dem Inforegister **Fakturierung** im Feld **Debitorenpreisgruppe** den Code **Debitorenpreisgruppe**.  
 
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Verkauf](sales-manage-sales.md)  
 [Einrichten von Verkäufen](sales-setup-sales.md)  
