@@ -11,7 +11,7 @@ ms.date: 02/20/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="use-approval-workflows"></a>Artikelgenehmigungsworkflow verwenden
+# Artikelgenehmigungsworkflow verwenden
 
 Ein Workflow ist eine Sequenz von Aufgaben, die durch eine Aktion, eine Bedingung oder eine Regel ausgelöst wird. Workflows werden in der Regel implementiert, um Geschäftslogik in eine Organisation zu integrieren, wie z. B. die Trennung von Aufgaben, die Vereinheitlichung von Prozessen oder die Anwendung von bewährten Verfahren.
 
@@ -64,7 +64,7 @@ Bevor Sie beginnen können, Workflows zu verwenden, müssen Sie Workflowbenutzer
 | Zeigen Sie Workflowschrittinstanzen mit dem Status **Abgeschlossen** an. | [Archivierte Workflowschritt-Instanzen anzeigen](across-how-to-view-archived-workflow-step-instances.md) |
 | Löschen Sie einen Genehmigungsworkflow, den Sie mit Gewissheit nicht mehr verwenden werden. | [Genehmigungsworkflows löschen](across-how-to-delete-workflows.md) |
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Genehmigungsworkflows einrichten](across-set-up-workflows.md)  
 [Workflow](across-workflow.md)  

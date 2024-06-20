@@ -9,7 +9,7 @@ ms.date: 04/24/2023
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# <a name="create-workflows-to-connect-tasks-in-business-processes"></a>Workflows erstellen, um Aufgaben in Geschäftsprozessen zu verbinden
+# Workflows erstellen, um Aufgaben in Geschäftsprozessen zu verbinden
 
 Sie können Workflows erstellen, die Aufgaben in Geschäftsprozessen verbinden, die von verschiedenen Benutzern ausgeführt werden. Sie können Systemaufgaben, wie automatische Buchung, als Schritte in Workflows aufnehmen, die vor oder nach Benutzeraufgaben erfolgen. Die Anforderung oder Bewilligung von Genehmigungen zum Erstellen neuer Datensätze sind typische Workflowschritte.  
 
@@ -43,7 +43,7 @@ Ein Workflow ist in drei Abschnitte unterteilt:
 
 Die Optionen für Ereignisse und Antworten sind systemdefiniert. Um neue Optionen hinzuzufügen, müssen Sie eine Erweiterung entwickeln.
 
-## <a name="to-create-a-workflow"></a>So erstellen Sie einen Workflow
+## So erstellen Sie einen Workflow
 
 1. Wählen Sie das Symbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Workflows** ein, und wählen Sie dann den entsprechenden Link.  
 2. Wählen Sie die Aktion **Neu**. Die Seite **Workflow** wird geöffnet.  
@@ -114,7 +114,7 @@ Die Optionen für Ereignisse und Antworten sind systemdefiniert. Um neue Optione
 > [!TIP]  
 > Um die Beziehungen zwischen Tabellen zu erkunden, die in Workflows verwendet werden, wählen Sie die ![Glühbirne, die die „Sie wünschen ...“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol, und geben Sie dann **Workflow – Tabellenbeziehungen** ein.  
 
-## <a name="example-of-creating-a-new-workflow-using-existing-events"></a>Beispiel für das Erstellen eines neuen Workflows unter Verwendung vorhandener Ereignisse
+## Beispiel für das Erstellen eines neuen Workflows unter Verwendung vorhandener Ereignisse
 
 Das folgende Beispiel erstellt einen neuen Workflow, um den Namen eines Kreditors zu ändern:
 
@@ -173,7 +173,7 @@ Die folgende Abbildung gibt einen Überblick über das Ergebnis dieses Vorgangs.
 
 Testen Sie als nächstes den Workflow, indem Sie eine vorhandene Kreditorkarte öffnen und ihren Namen ändern. Überprüfen Sie, ob nach der Änderung des Kreditorennamens ein Genehmigungsantrag gesendet wird.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Workflows aus Workflowvorlagen erstellen](across-how-to-create-workflows-from-workflow-templates.md)  
 [Genehmigungsbenutzer einrichten](across-how-to-set-up-approval-users.md)  

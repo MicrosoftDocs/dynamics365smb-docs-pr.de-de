@@ -8,8 +8,9 @@ ms.search.keywords: null
 ms.date: 03/21/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="enter-external-document-numbers"></a>Externe Belegnummern eingeben
+# Externe Belegnummern eingeben
 
 Sie können in allen Verkaufsaufträgen und Einkaufsbestellungen externe Belegnummern für Debitoren und Kreditoren eingeben. Anhand dieser Nummern können Sie später nach gebuchten Verkaufs- und Einkaufszeilen suchen.  
 
@@ -18,7 +19,7 @@ Sie können in allen Verkaufsaufträgen und Einkaufsbestellungen externe Belegnu
 
 Im folgenden Verfahren wird erläutert, wie Sie eine externe Belegnummer in einem Verkaufsauftrag angeben, ähnliche Schritte gelten jedoch für andere Verkaufs- und Einkaufsbelege.
 
-## <a name="to-enter-external-document-numbers-in-a-sales-order"></a>So geben Sie externe Belegnummern in einen Verkaufsauftrag ein
+## So geben Sie externe Belegnummern in einen Verkaufsauftrag ein  
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Verkaufsaufträge** ein, und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie den relevanten Verkaufsauftrag und dann auf die Aktion **Bearbeiten** aus.  
@@ -27,7 +28,7 @@ Im folgenden Verfahren wird erläutert, wie Sie eine externe Belegnummer in eine
     Auf Kaufbelegen lautet das relevante Feld **Kred.-Rechnungsnr.**.
 4. Füllen Sie alle weiteren erforderlichen Felder aus.  
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Externe Belegnummern auf Einkaufsbelegen](purchasing-ext-doc-no.md)  
 [Externe Belegnummern auf Verkaufsbelegen](sales-how-invoice-sales.md#external-document-numbers)  

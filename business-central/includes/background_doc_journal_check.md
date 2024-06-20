@@ -4,8 +4,9 @@ ms.topic: include
 ms.date: 04/30/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-## <a name="check-data-in-documents-and-journals-while-you-work"></a>Daten in Belegen und Buch.-Blätter während der Arbeit überprüfen
+## Daten in Belegen und Buch.-Blätter während der Arbeit überprüfen
 
 Ihre Administrierenden können [!INCLUDE [prod_short](prod_short.md)] für die Validierung der von Ihnen in Belegen und Buch.-Blättern eingegebenen Daten in Echtzeit aktivieren.
 

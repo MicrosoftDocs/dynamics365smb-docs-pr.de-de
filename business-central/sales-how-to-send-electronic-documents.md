@@ -8,8 +8,9 @@ ms.search.keywords: null
 ms.date: 06/23/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="send-electronic-documents"></a>Elektronische Belege senden
+# Elektronische Belege senden
 
 > [!NOTE]
 > Der Inhalt dieses Artikels gilt nur für Versionen von Dynamics 365 Business Central, die vor dem 2. Veröffentlichungszyklus 2023 veröffentlicht wurden. Im 2. Veröffentlichungszyklus 2023 sind neue Funktionen für E-Belege enthalten. Weitere Informationen finden Sie unter [E-Belege einrichten](finance-how-setup-edocuments.md).  
@@ -20,7 +21,7 @@ Die allgemeine Version von [!INCLUDE[prod_short](includes/prod_short.md)] unters
 
  Um beispielsweise Verkaufsrechnungen als elektronischen PEPPOL-Beleg zu senden, wählen Sie die Option **Elektronisches Dokument** im **Buchen und senden**-Dialogfeld aus. Dort können Sie außerdem das standardmäßige Belegsendeprofil für den Kunden vom Dialogfeld einrichten. Zuerst müssen Sie verschiedene Stammdaten einrichten, zum Beispiel Mandantendaten, Debitoren, Artikel und Einheiten. Diese werden verwendet, um Geschäftspartner und Artikel zu identifizieren, wenn Daten in Feldern in [Einrichten von Senden und Empfangen von elektronischen Dokumenten](across-how-to-set-up-electronic-document-sending-and-receiving.md)in Elemente in der ausgehenden Dokumentdatei konvertiert werden.  
 
-### <a name="to-send-an-electronic-sales-invoice"></a>So senden Sie eine elektronische Verkaufsrechnung
+### So senden Sie eine elektronische Verkaufsrechnung
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun") Symbol. Geben Sie **Verkaufsrechnungen** ein und wählen Sie dann den zugehörigen Link.  
 
@@ -45,7 +46,7 @@ Die allgemeine Version von [!INCLUDE[prod_short](includes/prod_short.md)] unters
     > [!NOTE]  
     >  Sie können auch eine gebuchte Verkaufsrechnung als elektronischen Beleg senden. Dieser Vorgang ist derselbe wie im Thema für nicht gebuchte Verkaufsbelege beschrieben. Wählen Sie auf der Seite **gebuchte Verkaufsrechnung** die Aktion **Aktivitätsprotokoll**, um den Status des elektronischen Dokuments anzuzeigen.  
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Verkäufe fakturieren](sales-how-invoice-sales.md)  
 [Belegsendeprofile einrichten](sales-how-setup-document-send-profiles.md)  

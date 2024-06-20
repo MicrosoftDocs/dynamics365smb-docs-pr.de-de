@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 06/14/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 Nachdem Sie Ihre Schlüsselwörter eingegeben haben, startet [!INCLUDE [prod_short](prod_short.md)] Ihre Suche im Hintergrund und geht jede Tabelle einzeln durch. Die Suchergebnisse beginnen zu erscheinen, nachdem jede Tabelle beendet wurde. Wenn Sie mehr als ein Schlüsselwort eingeben, enthalten die Ergebnisse nur Datensätze, die alle Wörter in einem der ausgewählten Felder enthalten.

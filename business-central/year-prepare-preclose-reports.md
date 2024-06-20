@@ -8,8 +8,9 @@ ms.search.form: '1393, 1394'
 ms.date: 04/01/2021
 ms.author: jswymer
 ms.service: dynamics-365-business-central
+ms.reviewer: jswymer
 ---
-# <a name="use-pre-closing-reports"></a>Vorabschlussberichte verwenden
+# Vorabschlussberichte verwenden
 
 Ihnen stehen eine Vielzahl von Standardberichten zur Verfügung, um die Fehlerfreiheit der Konten zu prüfen, bevor die Bücher am Jahres- oder Periodenende abgeschlossen werden. So können Sie sich beispielsweise mithilfe des Berichts **Debitor - Saldenliste** vergewissern, dass an einem bestimmten Datum der Saldo einer Debitorenbuchungsgruppe dem Saldo des zugehörigen Sachkontos entspricht.
 
@@ -29,7 +30,7 @@ Die nachfolgende Tabelle beschreibt eine Reihe von Berichten, die in diesem Proz
 
 Um einen Bericht zu sehen, wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol, geben Sie den Namen ein, wie er in der Tabelle erscheint, und wählen Sie dann den zugehörigen Link.
 
-## <a name="see-also"></a>Weitere Informationen
+## Weitere Informationen
 
 [Jahre und Perioden abschließen](year-close-years-periods.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

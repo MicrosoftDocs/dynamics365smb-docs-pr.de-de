@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 03/04/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 Wenn Ihr Unternehmen in mehr als einem Land oder einer Region tätig ist, ist es wahrscheinlich wichtig, dass Sie in mehr als einer Währung Geschäfte tätigen können. Sie legen Ihre lokale Währung (LW) auf der Seite **Finanzbuchhaltung Einrichtung** fest. Anschließend wird Ihre lokale Währung in Dokumenten und Transaktionen als leere Währung dargestellt. Wenn das Feld **Währung** leer ist, ist die Währung LW.
 

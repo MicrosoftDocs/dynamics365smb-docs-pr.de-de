@@ -8,8 +8,9 @@ ms.search.keywords: null
 ms.date: 09/14/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="create-reports-with-xbrl"></a>Berichte mit XBRL erstellen
+# Berichte mit XBRL erstellen
 
 > [!NOTE]
 > Wir sind dabei, die Funktionen für XBRL-Berichte aus [!INCLUDE[prod_short](includes/prod_short.md)] zu entfernen. Erfahren Sie mehr unter [Änderungen in 2022 Veröffentlichungswelle 1](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1).
@@ -28,13 +29,13 @@ XBRL (e**X**tensible **B**business **R**eporting **L**anguage) ist eine auf der 
 >
 > Für die vollständige Unterstützung von Taxonomien sind möglicherweise XBRL-Tagging und -Tools von Dritten erforderlich. Die Organisation XBRL International verfügt über eine Liste von Tools und Dienstleistungen. Je nach den XBRL-Berichtsanforderungen für eine bestimmte Taxonomie sollten Sie diese Ressourcen prüfen. Erfahren Sie mehr unter [Einstieg für Unternehmen](https://go.microsoft.com/fwlink/?linkid=2153466) und [Tools und Dienstleistungen](https://go.microsoft.com/fwlink/?linkid=2153356).
 
-## <a name="extensible-business-reporting-language"></a>eXtensible Geschäfts-Berichterstellungs-Sprache
+## eXtensible Geschäfts-Berichterstellungs-Sprache
 
 Die XBRL-Taxonomien werden von www.xbrl.org gepflegt. Auf der XBRL-Website können Sie die Taxonomien herunterladen und ausführlichere Informationen lesen.  
 
 Nehmen wir an, jemand möchte Finanzinformationen von Ihnen. Man stellt Ihnen eine Taxonomie (ein XML-Dokument) zur Verfügung, die ein oder mehrere Schemata enthält, die jeweils eine oder mehrere Zeilen zum Ausfüllen haben. Die Zeilen entsprechen den einzelnen Finanzdaten, die der Absender benötigt. Sie importieren diese Taxonomie und füllen dann das/die Schema(s) aus, indem Sie das/die Konto/Konten eingeben, das/die jeder Zeile entspricht/entsprechen und welche Berechnung gewünscht ist, z.B. Nettoveränderung oder Saldo zum Datum. In manchen Fällen können Sie stattdessen auch eine Konstante eingeben, z.B. die Anzahl der Mitarbeiter. Nun können Sie das Instance Document (ein XML-Dokument) an denjenigen schicken, der die Information angefordert hat. Der Gedanke dahinter ist, dass sich dieser Vorgang mehrmals wiederholen kann, so dass Sie, trotz eventueller Änderungen an der Taxonomie, nur neue Instance Documents für andere Zeiträume exportieren müssen.
 
-## <a name="xbrl-comprises-the-following-components"></a>XBRL umfasst die folgenden Komponenten
+## XBRL umfasst die folgenden Komponenten
 
 Die XBRL **Spezifikation** erklärt, was XBRL ist und wie man XBRL-Instanzdokumente und Taxonomien erstellt. Die XBRL-Spezifikation erklärt XBRL in technischen Begriffen und ist für eine technische Zielgruppe bestimmt.  
 
@@ -46,11 +47,11 @@ Eine XBRL **Taxonomie** ist ein „Vokabular“ oder „Wörterbuch“, das von 
 
 Ein XBRL **Instance Document** ist ein Geschäftsbericht, wie ein Finanzbericht, für die XBRL-Spezifikation. Die Bedeutung der Werte in dem Dokument werden durch die Taxonomie erklärt. In der Tat ist ein Instanzdokument ziemlich nutzlos, wenn Sie die Taxonomie nicht kennen, für die es erstellt wurde.  
 
-## <a name="layered-taxonomies"></a>Mehrschichtige Taxonomien
+## Mehrschichtige Taxonomien
 
 Eine Taxonomie kann aus einer Basistaxonomie bestehen, zum Beispiel US GAAP (United States generally accepted accounting principles) oder IAS (international accounting standards), und dann eine oder mehrere Erweiterungen haben. Um dies widerzuspiegeln, verweist eine Taxonomie auf ein oder mehrere Schemata, die jeweils selbst separate Taxonomien sind. Wenn die zusätzlichen Taxonomien in die Datenbank geladen werden, werden die neuen Elemente einfach an die bestehenden Elemente angehängt.  
 
-## <a name="linkbases"></a>Linkbases
+## Linkbases
 
 In XBRL Spec. 2 wird die Taxonomie in mehreren XML-Dateien beschrieben. Die erste XML-Datei ist die Taxonomieschemadatei selbst (.xsd-Datei), die lediglich eine ungeordnete Liste von Elementen oder Informationen für den Bericht enthält. Darüber hinaus gibt es in der Regel einige Linkbase-Dateien (.xml). Die Linkbase-Dateien enthalten Daten, die die Rohtaxonomie (.xsd-Datei) ergänzen. Es gibt sechs Arten von Linkbase-Dateien, von denen vier für [!INCLUDE[prod_short](includes/prod_short.md)] relevant sind. Und zwar:
 
@@ -59,7 +60,7 @@ In XBRL Spec. 2 wird die Taxonomie in mehreren XML-Dateien beschrieben. Die erst
 * Kalkulations-Linkbase: Diese Linkbase enthält Informationen darüber, wie die Elemente aufgerollt werden. Die Struktur ist der Präsentationsdatenbank sehr ähnlich, außer dass jeder Link, oder 'Bogen', wie er genannt wird, eine Gewichtseigenschaft hat. Die Gewichtung kann entweder 1 oder -1 sein und gibt an, ob das Element zu seinem übergeordneten Element hinzugefügt oder von diesem abgezogen werden soll. Beachten Sie, dass die Rollups nicht unbedingt mit der visuellen Darstellung übereinstimmen.  
 * Referenz-Linkbase: Bei dieser Linkbase handelt es sich um eine xml-Datei, die zusätzliche Informationen über die vom Taxonomie-Emittenten benötigten Daten enthält.
 
-## <a name="set-up-xbrl-lines"></a>XBRL-Zeilen festlegen
+## XBRL-Zeilen festlegen
 
 Nachdem Sie die Taxonomie importiert oder aktualisiert haben, müssen die Zeilen des Schemas mit allen Informationen ausgefüllt werden, die zur Erfüllung der jeweiligen Finanzberichterstattungsanforderungen erforderlich sind. Zu diesen Informationen gehören grundlegende Informationen über die Firma, der eigentliche Jahresabschluss, Anmerkungen zum Jahresabschluss, zusätzliche Zeitpläne und so weiter.  
 
@@ -82,7 +83,7 @@ Sie legen XBRL-Zeilen fest, indem Sie die Daten in der Taxonomie den Daten in Ih
    > [!NOTE]  
    > Taxonomien können Elemente enthalten, die von [!INCLUDE[prod_short](includes/prod_short.md)] nicht unterstützt werden. Wenn ein Element nicht unterstützt wird, wird das Feld **Quelle Typ** **Unzutreffend** anzeigen und das Feld **Beschreibung** zeigt eine Fehlermeldung an, wie **Unerwarteter Typ: bestimmter Typ nicht erkannt**. Wenn Sie das Element exportieren müssen, wählen Sie einen passenden Quelltyp. In der Regel ist dies eine Konstante oder eine Beschreibung. Auf diese Weise können Sie zwar Daten eingeben und exportieren, aber solche Elemente haben möglicherweise Validierungsregeln, die vor dem Export nicht überprüft werden können.
 
-## <a name="import-an-xbrl-taxonomy"></a>Importieren einer XBRL-Taxonomie
+## Importieren einer XBRL-Taxonomie
 
 Der erste Schritt bei der Arbeit mit der XBRL-Funktionalität besteht darin, eine Taxonomie in die Datenbank Ihrer Firma zu importieren. Eine Taxonomie besteht aus einem oder mehreren Schema/ta und einigen Linkbases. Wenn Sie den Import des/der Schemas/Schemata und Linkbases durchgeführt haben und die Linkbases dem Schema zugewiesen haben, können Sie die Zeilen einrichten und die Sachkonten des Kontenplans den entsprechenden Taxonomiezeilen zuordnen.  
 
@@ -101,7 +102,7 @@ Der erste Schritt bei der Arbeit mit der XBRL-Funktionalität besteht darin, ein
 > [!IMPORTANT]  
 > Anstatt die Linkbases einzeln nach dem Import anzuwenden, können Sie warten, bis Sie alle Linkbases importiert haben, und sie dann alle gleichzeitig anwenden. Wählen Sie dazu **NEIN**, wenn Sie aufgefordert werden, die neu importierte Linkbase auf das Schema anzuwenden. Wählen Sie dann die Zeilen mit den Linkbases aus, die Sie anwenden möchten.  
 
-## <a name="update-an-xbrl-taxonomy"></a>Aktualisieren einer XBRL-Taxonomie
+## Aktualisieren einer XBRL-Taxonomie
 
 Wenn sich eine Taxonomie ändert, müssen Sie die aktuelle Taxonomie dementsprechend ändern. Der Grund für die Aktualisierung kann ein verändertes Schema, eine veränderte Linkbase oder eine neue Linkbase sein. Nach Aktualisierung der Taxonomie müssen Sie nur die Zeilen an die geänderten oder neuen Zeilen anpassen.  
 
@@ -113,7 +114,7 @@ Wenn sich eine Taxonomie ändert, müssen Sie die aktuelle Taxonomie dementsprec
 6. Um die Linkbase zu importieren, wählen Sie die **Importieren** Aktion aus.  
 7. Wählen Sie **Ja**, um die Linkbase auf das Schema anzuwenden.  
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Financial Business Intelligence](bi.md)  
 [Finanzen](finance.md)  

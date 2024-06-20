@@ -8,8 +8,9 @@ ms.search.form: '9652, 9650'
 ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="legacy-import-and-export-custom-report-layouts"></a>(Legacy) Importieren und Exportieren von benutzerdefinierten Berichtslayouts
+# (Legacy) Importieren und Exportieren von benutzerdefinierten Berichtslayouts
 
 [!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
@@ -18,7 +19,7 @@ Sie können ein vorhandenes benutzerdefiniertes Berichtslayout als Datei zu und 
 > [!IMPORTANT]  
 >  Sie können integrierte Berichtslayouts nicht importieren oder exportieren.  
 
-### <a name="to-export-a-report-layout-to-a-file"></a>So exportieren Sie ein Berichtslayout in eine Datei.
+### So exportieren Sie ein Berichtslayout in eine Datei.  
 
 1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Auswahl des Berichtslayouts** ein und wählen Sie dann den entsprechenden Link.  
 
@@ -28,7 +29,7 @@ Sie können ein vorhandenes benutzerdefiniertes Berichtslayout als Datei zu und 
 
 4.  Wählen Sie im Dialogfeld **Datei exportieren** die Schaltfläche **Speichern**, und speichern Sie die Datei dann an einem Ort auf Ihrem Computer oder Netzwerk.  
 
-### <a name="to-import-a-report-layout-file"></a>So importieren Sie eine Berichtslayoutdatei.
+### So importieren Sie eine Berichtslayoutdatei.  
 
 1.  Vergewissern Sie sich, dass die relevante Datei, die das Berichtlayout definiert, auf Ihrem Computer oder Netzwerk verfügbar ist.  
 
@@ -44,7 +45,7 @@ Sie können ein vorhandenes benutzerdefiniertes Berichtslayout als Datei zu und 
 
  Das ursprüngliche benutzerdefinierte Berichtslayout wird durch das importierte Berichtslayout ersetzt.  
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Erstellen und bearbeiten Sie einen benutzerdefinierten Bericht](ui-how-create-custom-report-layout.md)   
 [Verwaltung von Berichts- und Dokumentlayouts](ui-manage-report-layouts.md)  

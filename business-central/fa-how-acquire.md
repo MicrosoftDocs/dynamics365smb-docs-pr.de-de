@@ -11,7 +11,7 @@ ms.date: 05/15/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="acquire-fixed-assets"></a>Anlagen erwerben
+# Anlagen erwerben
 
 Verwenden Sie die Seite  **Anlagenkarte**, um Informationen zu einem Anlagegegenstand einzugeben. Sie können Gebäude oder Produktionseinrichtungen als Hauptanlage mit einer Komponentenliste einrichten und sie unterschiedlich gruppieren, z. B. nach Klasse, Abteilung oder Standort. Sie müssen für jedes Anlagevermögen ein Abschreibungsbuch einrichten und ihm zuweisen, bevor Sie es erwerben können.
 
@@ -19,7 +19,7 @@ Nachdem Sie eine Anlage eingerichtet und ein Abschreibungsbuch zugewiesen haben,
 
 Verwenden Sie die Indexierung, um Werte an allgemeine Preisniveauänderungen anzupassen. Mit der Stapelverarbeitung  **Anlagevermögen indexieren**  können Sie die Anschaffungs- und Wiederbeschaffungskosten berechnen.
 
-## <a name="add-a-fixed-asset-to-your-list-of-fixed-assets"></a>Fügen Sie Ihrer Liste der Anlagegüter ein Anlagegut hinzu
+## Fügen Sie Ihrer Liste der Anlagegüter ein Anlagegut hinzu
 
 Bevor Sie ein Anlagevermögen erwerben können, müssen Sie es Ihrem Anlagevermögen hinzufügen. Es gibt mehrere Möglichkeiten, Ihrer Liste Anlagevermögen hinzuzufügen:
 
@@ -30,7 +30,7 @@ Bevor Sie ein Anlagevermögen erwerben können, müssen Sie es Ihrem Anlageverm�
 
 Nachdem Sie Ihrer Liste Anlagevermögen hinzugefügt haben, besteht der nächste Schritt darin, es zu erwerben, damit Sie es in Transaktionen verwenden können. Weitere Informationen finden Sie unter  [Erwerb eines Anlagevermögens](#acquire-fixed-assets).
 
-### <a name="add-a-fixed-asset-on-the-fixed-asset-card-page"></a>Fügen Sie auf der Seite „Anlagenkarte“ ein Anlagevermögen hinzu
+### Fügen Sie auf der Seite „Anlagenkarte“ ein Anlagevermögen hinzu
 
 1. Wählen Sie das Symbol ![Glühbirne, die die „Sie wünschen ...“-Funktion öffnet](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Anlagen** ein und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die Aktion **Neu** aus, und füllen Sie dann bei Bedarf die Felder im Inforegister **Allgemein** aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -39,7 +39,7 @@ Nachdem Sie Ihrer Liste Anlagevermögen hinzugefügt haben, besteht der nächste
 
     Nachdem Sie die erforderlichen Felder ausgefüllt haben, **können Sie das Anlagevermögen erwerben.** Die Benachrichtigung wird oben auf der Seite angezeigt. Wenn Sie bereit sind, den Vermögenswert jetzt zu erwerben, wählen Sie die Aktion  **Erwerben** . Befolgen Sie die Schritte auf der Seite  **Unterstützter Erwerb von Anlagevermögen**, um den Erwerb abzuschließen. Wenn Sie noch nicht bereit sind, können Sie den Vermögenswert immer noch später erwerben.
 
-### <a name="use-edit-in-excel-to-add-assets"></a>Verwenden Sie „In Excel bearbeiten“, um Assets hinzuzufügen
+### Verwenden Sie „In Excel bearbeiten“, um Assets hinzuzufügen
 
 Wenn Sie zahlreiche Anlagegüter hinzufügen möchten, ist „In Excel bearbeiten“ ein hervorragendes Tool. Das Tool lädt Ihre aktuelle Anlagenliste in ein Arbeitsblatt herunter, das die meisten der auf der Seite „Anlagenkarte“ verfügbaren Felder enthält. Sie können für jedes Asset einige oder alle Felder in einer Zeile ausfüllen und Ihre Änderungen veröffentlichen, um sie Ihrer Liste in  [!INCLUDE [prod_short](includes/prod_short.md)] hinzuzufügen. Wenn Sie nicht alle erforderlichen Felder ausfüllen können, ist das in Ordnung. Sie können sie aktualisieren, [!INCLUDE [prod_short](includes/prod_short.md)] wenn Sie bereit sind.
 
@@ -55,7 +55,7 @@ Wenn Sie zahlreiche Anlagegüter hinzufügen möchten, ist „In Excel bearbeite
 
 4. Zum Aktualisieren [!INCLUDE [prod_short](includes/prod_short.md)] wählen Sie im **Microsoft Dynamics** Bereich die Option **Veröffentlichen**.
 
-### <a name="add-a-fixed-asset-from-a-purchase-order-or-invoice"></a>Hinzufügen eines Anlagevermögens aus einer Bestellung oder Rechnung
+### Hinzufügen eines Anlagevermögens aus einer Bestellung oder Rechnung
 
 Die folgenden Schritte beschreiben, wie Sie ein Anlagevermögen aus einer Bestellung hinzufügen. Bei einer Einkaufsrechnung sind die Schritte ähnlich.
 
@@ -66,7 +66,7 @@ Die folgenden Schritte beschreiben, wie Sie ein Anlagevermögen aus einer Bestel
 5. Geben Sie im Feld **Nr.** Wählen Sie im Feld entweder ein vorhandenes Anlagevermögen aus, um eine Ausgabe hinzuzufügen, oder wählen Sie  **Neu**, um ein neues Anlagevermögen hinzuzufügen.
 6. Nachdem Sie die Informationen für das neue Anlagegut und die Bestellung eingegeben haben, wählen Sie  **Buchen**.
 
-## <a name="acquire-a-fixed-asset-by-using-a-fixed-asset-gl-journal"></a>Erwerben Sie eine Anlage mithilfe eines Anlage-Fibujournals
+## Erwerben Sie eine Anlage mithilfe eines Anlage-Fibujournals
 
 Im folgenden Verfahren wird die Erfassung durch Erstellen und Buchen der erforderlichen Sachkonto-Journalzeilen für Anlagen beschrieben. Sie können die Buch.-Blattzeilen auch manuell erstellen und buchen. Weitere Informationen finden Sie unter  [Erwerben Sie ein Anlagevermögen mithilfe eines Anlagevermögen-Fibujournals](#acquire-a-fixed-asset-by-using-a-fixed-asset-gl-journal).
 
@@ -79,7 +79,7 @@ Im folgenden Verfahren wird die Erfassung durch Erstellen und Buchen der erforde
 
 Wenn Sie „Fertig stellen“ **wählen, wird das Feld „Buchwert“** auf der Seite „Anlagenkarte“ **ausgefüllt. Dies gibt an, dass die Anlage zu den angegebenen Anschaffungskosten erworben wurde.**  **·**   
 
-## <a name="to-post-a-fixed-asset-acquisition-manually-with-a-fixed-asset-gl-journal"></a>So buchen Sie eine Anlagenanschaffung manuell mit einem Anlagen Fibu Buch.-Blatt
+## So buchen Sie eine Anlagenanschaffung manuell mit einem Anlagen Fibu Buch.-Blatt
 
 Nachfolgend wird beschrieben, wie eine Anlage manuell erworben wird, indem Zeilen auf der Seite **Anlagen Fibu Buch.-Blatt** erstellt und gebucht werden. Sie können ein Anlagevermögen auch automatisch auf der Seite  **Anlagevermögenskarte**  erwerben, indem Sie die Aktion  **Anlagevermögen erwerben**  auswählen. Weitere Informationen finden Sie unter  [Anlagevermögen erwerben](#acquire-fixed-assets).
 
@@ -94,7 +94,7 @@ Nachfolgend wird beschrieben, wie eine Anlage manuell erworben wird, indem Zeile
 > [!TIP]  
 > Wenn Sie das Feld  **Versicherungs-Nr.**  ausfüllen, [!INCLUDE[prod_short](includes/prod_short.md)] werden auch die Anschaffungskosten der Anlage in das Versicherungsdeckungsbuch gebucht. Weitere Informationen finden Sie unter  [Anlagevermögen versichern](fa-how-insure.md).
 
-## <a name="to-set-up-a-component-list-for-a-main-asset"></a>So richten Sie Komponentenlisten für Hauptanlagen ein
+## So richten Sie Komponentenlisten für Hauptanlagen ein
 
 Sie können Ihre Anlagen in Hauptanlagen und deren Komponenten gliedern. Beispielsweise haben Sie möglicherweise eine Produktionsmaschine, die aus mehreren Teilen besteht, die Sie auf diese Weise gruppieren möchten.  
 
@@ -108,7 +108,7 @@ Sie müssen das Hauptvermögen und alle seine Komponenten als einzelnes Anlageve
 6. Wählen Sie das Symbol ![Glühbirne, die die „Sie wünschen ...“-Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Anlageneinrichtung** ein und wählen Sie dann den entsprechenden Link.
 7. Aktivieren Sie den Schalter  **Buchungen in Hauptanlagen zulassen** .
 
-## <a name="to-cancel-an-acquisition-cost-posting-for-one-fixed-asset"></a>So stornieren Sie eine Anschaffungskostenbuchung für eine Anlage
+## So stornieren Sie eine Anschaffungskostenbuchung für eine Anlage
 
 Wenn Ihnen beim Buchen von Anschaffungskosten ein Fehler unterläuft, können Sie den Posten mithilfe der Stapelverarbeitung **Anlagenposten storn.** entfernen und anschließend den korrekten Anschaffungsposten buchen. Die fehlerhaften Posten werden in die Seite **Anlagenstornoposten** übertragen.
 
@@ -124,7 +124,7 @@ Wenn Sie also beispielsweise eine Anschaffung mit dem falschen Datum gebucht hab
 5. Wählen Sie die Schaltfläche **OK**, um den Batchauftrag zu starten.
 6. Wenn der falsche Posten oder die falschen Posten storniert wurden, können Sie mit dem Buchen der korrekten Anschaffungskosten fortfahren.
 
-## <a name="to-post-the-salvage-value-together-with-the-acquisition-cost"></a>So buchen Sie den Restbetrag zusammen mit den Anschaffungskosten
+## So buchen Sie den Restbetrag zusammen mit den Anschaffungskosten
 
 Der Restwert ist der verbleibende Wert einer Anlage, die nicht mehr verwendet werden kann. Sie können den Restbetrag zusammen mit den Anschaffungskosten buchen. Weitere Informationen finden Sie unter  [Abschreibung oder Amortisierung von Anlagevermögen](fa-how-depreciate-amortize.md).
 
@@ -141,7 +141,7 @@ Sie können den Restwert zusammen mit den Anschaffungskosten aus einem Anlagen B
 > [!NOTE]
 > Wenn für ein Anlagevermögen ein Restwert vorhanden ist, wird dieser Wert bei der Abschreibungsbuchung anstelle des Werts im Feld  **Endbuchwert**  auf der Seite  **FA-Abschreibungsbücher**  verwendet. Weitere Informationen finden Sie unter  [So verwalten Sie den Endbuchwert](fa-how-depreciate-amortize.md#to-manage-the-ending-book-value).
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Anlagen](fa-manage.md)  
 [Einrichten von Anlagen](fa-setup.md)  

@@ -12,7 +12,7 @@ ms.search.form: '2500, 2514, 20350'
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="install-and-uninstall-extensions-apps-in-business-central"></a>Erweiterungen (Apps) in Business Central installieren und deinstallieren
+# Erweiterungen (Apps) in Business Central installieren und deinstallieren
 
 Sie können [!INCLUDE[prod_short](includes/prod_short.md)] ändern, indem Sie Apps installieren. Sie können beispielsweise Funktionen hinzufügen, das Verhalten ändern oder Ihnen den Zugriff auf die neuen Onlinedienste ermöglichen. Weitere Informationen finden Sie unter [Anpassen von Business Central über Erweiterungen](ui-extensions.md).
 
@@ -23,7 +23,7 @@ Sie können [!INCLUDE[prod_short](includes/prod_short.md)] ändern, indem Sie Ap
 
 Um eine Erweiterung zu verwenden, müssen Ihnen die zugehörigen Berechtigungssätze zugewiesen werden.
 
-## <a name="install-an-extension"></a><a name="install"></a>Erweiterung installieren
+## <a name="install"></a>Erweiterung installieren
 
 Sie verwalten Apps und Erweiterungen auf der **Erweiterungsverwaltung**-Seite. Sie können vom Startbildschirm auf diese Seite zugreifen. Alternativ wählen Sie das Symbol **Seite oder Bericht suchen** ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") in der oberen rechten Ecke, geben Sie **Erweiterung** ein und wählen Sie dann den entsprechenden Link.  
 
@@ -70,19 +70,19 @@ Microsoft stellt die folgenden Apps bereit:
 * [Die britische Postleitzahlenerweiterung GetAddress.io](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)  
 * [USA/CA/GB/AU/NZ/ZA – Überweisungsbescheid senden](ui-extensions-send-remittance-advice.md)
 
-## <a name="set-up-an-app"></a>Eine App einrichten
+## Eine App einrichten
 
 Nachdem Sie eine App installiert haben, müssen Sie sie möglicherweise einrichten. Zum Beispiel für die App **PayPal Payments Standard for [!INCLUDE[prod_short](includes/prod_short.md)]** müssen Sie das zu verwendende PayPal-Konto angeben. Wenn dies der Fall ist, werden Sie nach Abschluss der Installation von [!INCLUDE[prod_short](includes/prod_short.md)] gefragt, ob Sie die App sofort einrichten möchten. Setups können erforderlich sein, damit die App funktioniert, oder optional.
 
 Wenn Sie Ihre App sofort einrichten möchten und sie eine erforderliche Einrichtung hat, öffnet [!INCLUDE[prod_short](includes/prod_short.md)] die erforderliche Einrichtung. Die Einrichtung kann entweder eine Seite sein, auf der Sie Informationen eingeben, oder eine unterstützte Einrichtungsanleitung, die Sie durch die einzelnen Schritte führt. Wenn Sie die Einrichtung nicht auf einmal abschließen, können Sie die Seite **Einrichtungen für _Name der App_** verwenden, die alle Einrichtungen für die App auflistet. Erforderliche Einrichtungen, gekennzeichnet durch **Fettschrift**.
 
-## <a name="upload-a-per-tenant-extension-pte"></a>Eine Pro-Tenant-Erweiterung (PTE) hochladen
+## Eine Pro-Tenant-Erweiterung (PTE) hochladen
 
 Sie laden eine PTE hoch, indem Sie die Seite **Erweiterungsverwaltung** verwenden. Gehen Sie auf der Seite **Erweiterungsverwaltung** zu **Verwalten** und wählen Sie dann **Erweiterung hochladen**. Geben Sie auf der Seite **Erweiterung hochladen und bereitstellen** die hochzuladende .app-Datei an. Um fortzufahren, wählen Sie die Schaltfläche **Akzeptieren** und dann die Schaltfläche **Bereitstellen** aus. Dadurch wird der Bereitstellungsprozess des PTE gestartet.
 
 Wenn der PTE Änderungen am Schema enthält, können Sie *einen Upload des PTE erzwingen*. Wählen Sie dazu im **Schema-Synchronisationsmodus** die Option **Erzwingen**. Sie erhalten einen Bestätigungsdialog, den Sie akzeptieren müssen, bevor Sie fortfahren.  
 
-## <a name="uninstall-an-app"></a>Eine App deinstallieren
+## Eine App deinstallieren
 
 Sie deinstallieren eine App, indem Sie die Seite **Erweiterungsverwaltung** verwenden. Um eine App zu deinstallieren, wählen Sie sie auf der Seite und wählen Sie dann die Aktion **Deinstallieren** aus. Wenn Sie eine App deinstallieren und Sie Ihre Meinung anschließend ändern, können Sie die App erneut installieren.
 
@@ -95,7 +95,7 @@ Wenn Sie eine App deinstallieren, die Sie verwendet haben, werden Ihre Daten nic
 
 Wenn Sie die Daten einer deinstallierten App behalten möchten, können Sie die Daten später löschen. Auf der Seite **Verwaiste Erweiterungsdaten löschen** werden die Apps aufgelistet, für die Sie noch Daten haben. Um die Daten zu löschen, wählen Sie die Anwendung aus und wählen Sie dann **Daten löschen**. 
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Business Central anpassen](ui-customizing-overview.md)  
 [Business Central-Erweiterungen von anderen Anbietern](ui-extensions-other.md)  

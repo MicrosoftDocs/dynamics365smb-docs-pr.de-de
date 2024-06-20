@@ -9,8 +9,9 @@ ms.search.form: '6640, 6643, 9307, 9309, 9308, 6652, 145, 147'
 ms.date: 03/19/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="process-purchase-returns-or-cancellations"></a>Bestellretouren oder Stornierungen verarbeiten
+# Bestellretouren oder Stornierungen verarbeiten
 
 Wenn Sie Artikel an Ihren Kreditor zurückschicken oder Dienstleistungen löschen wollen, die Sie eingekauft haben, können Sie eine Einkaufsgutschrift erstellen und buchen, die die angeforderte Änderung im Hinblick auf die ursprünglichen Einkaufsrechnung angibt. Um korrekte Verkaufsrechnungsinformationen einzuschließen, können Sie die Verkaufsgutschrift direkt aus der gebuchten Verkaufsrechnung erstellen oder neue Verkaufsgutschrift mit der Rechnungsinformationen erstellen.
 
@@ -27,7 +28,7 @@ Zusätzlich zur ursprünglich gebuchten Einkaufsrechnung können Sie die Einkauf
 
 Die Gutschriftsbuchung stellt auch jegliche Artikel Zu-/Abschläge wieder her, die dem gebuchten Beleg zugewiesen wurden, sodass die Wertposten des Artikels wieder identisch sind, wie bevor der Artikel Zu-/Abschlag zugewiesen wurde.
 
-## <a name="inventory-costing"></a>Bestandskosten
+## Bestandskosten
 Um die korrekte Lagerbewertung beizubehalten, möchten Sie üblicherweise zurückgegebene Artikel im Lager zum Einstandspreis, zum dem sie verkauft wurden und nicht mit dem aktuellen Einstandspreis einlagern. Dies wird als Einstandspreisrückverfolgung bezeichnet.
 
 Zwei Funktionen sind vorhanden, um die Einstandspreisrückverfolgung automatisch zuzuweisen.  
@@ -41,7 +42,7 @@ Um exakte Einstandspreisstornierung manuell zuzuordnen, müssen Sie das Feld **A
 
 Weitere Informationen finden Sie unter [Designdetails: Lagerkosten](design-details-inventory-costing.md).
 
-## <a name="to-create-a-purchase-credit-memo-from-a-posted-purchase-invoice"></a>Eine neue Einkaufsgutschrift aus einer gebuchte Einkaufsrechnung erstellen
+## Eine neue Einkaufsgutschrift aus einer gebuchte Einkaufsrechnung erstellen
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Gebuchte Einkaufsrechnungen** ein und wählen Sie dann den entsprechenden Link.  
 2. Wählen Sie das Feld **Gebuchte Einkaufsrechnung**, um die Seite **Korrekturgutschrift erstellen** zu öffnen, und wählen Sie die gebuchte Einkaufsrechnung aus, die Sie stornieren möchten.
@@ -62,7 +63,7 @@ Die gebuchten Einkaufsrechnungen, auf die Sie die Gutschrift anzuwenden, werden 
 
 Die Einkaufsgutschrift wird entfernt und durch einen neuen Beleg in der Liste der gebuchten Einkaufsgutschriften ersetzt.
 
-## <a name="to-create-a-purchase-credit-memo-by-copying-a-posted-purchase-invoice"></a>Erstellt eine neue Einkaufsgutschrift, um eine gebuchte Einkaufsrechnung zurückzusetzen.
+## Erstellt eine neue Einkaufsgutschrift, um eine gebuchte Einkaufsrechnung zurückzusetzen.
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Einkaufsgutschriften** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie **Neu**, um eine neue leere Einkaufsgutschrift zu öffnen.
@@ -74,7 +75,7 @@ Die Einkaufsgutschrift wird entfernt und durch einen neuen Beleg in der Liste de
 8. Wählen Sie die Schaltfläche **OK** aus. Die kopierten Rechnungszeilen werden in die Einkaufsgutschrift eingefügt.
 9. Schließen Sie die Einkaufsgutschrift ab, so wie dies unter [Eine neue Einkaufsgutschrift aus einer gebuchte Einkaufsrechnung erstellen](purchasing-how-process-purchase-returns-cancellations.md#to-create-a-purchase-credit-memo-from-a-posted-purchase-invoice) erklärt ist.
 
-## <a name="to-create-a-purchase-return-order-based-on-one-or-more-posted-purchase-documents"></a>Weitere Informationen finden Sie unter „Einkaufsreklamation auf einem oder mehreren gebuchten Einkaufsbelegen erstellen“.
+## Weitere Informationen finden Sie unter „Einkaufsreklamation auf einem oder mehreren gebuchten Einkaufsbelegen erstellen“.
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Einkaufsreklamationen** ein und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die Aktion **Neu** aus.  
@@ -124,7 +125,7 @@ Die Einkaufsgutschrift wird entfernt und durch einen neuen Beleg in der Liste de
 10. Auf der Seite **EInkaufsreklamation** im Feld **Reklamationsgrundcode** auf jeder Zeile wählen Sie den Grund für die Reklamation aus.
 11. Wählen Sie die Aktion **Buchen** aus.
 
-## <a name="to-create-a-replacement-purchase-order-from-a-purchase-return-order"></a>So erstellen Sie eine Ersatzbestellung anhand von einer Reklamation
+## So erstellen Sie eine Ersatzbestellung anhand von einer Reklamation
 
 Möglicherweise einigen Sie sich mit Ihrem Kreditoren darauf, dass Sie für einen – eventuell beschädigten – Artikel, den Sie bei ihm gekauft haben, eine Entschädigung in Form eines Austauschartikels erhalten. Der Austauschartikel kann derselbe Artikel oder ein anderer sein. Diese Situation kann eintreten, wenn der Lieferant versehentlich den falschen Artikel geliefert hat.  
 
@@ -133,7 +134,7 @@ Möglicherweise einigen Sie sich mit Ihrem Kreditoren darauf, dass Sie für eine
 3. Füllen Sie auf der Seite **Negative Einkaufszeile verschieben** die Felder nach Bedarf aus.
 4. Wählen Sie die Schaltfläche **OK** aus. Die negative Zeile wird aus der Einkaufsreklamation gelöscht, und eine neue Einkaufsbestellung wird erstellt. Weitere Informationen finden Sie unter [Erfassen eines Einkaufs](purchasing-how-record-purchases.md).  
 
-## <a name="to-create-a-purchase-allowance"></a>So erstellen Sie einen Einkaufsnachlass
+## So erstellen Sie einen Einkaufsnachlass
 
 Falls Sie von einem Kreditor Artikel erhalten, die nicht Ihren Vorstellungen entsprechen, z. B. weil sie die falsche Farbe haben oder beschädigt sind, kann Ihnen der Kreditor einen Rabatt anbieten.  
 
@@ -152,7 +153,7 @@ Sie können diesen reduzierten EK-Preis als Zu-/Abschlag für Artikel in einer G
 
 Wenn Sie die Verkaufsreklamation buchen, wird die Wiedereinlagerungsgebühr zu dem entsprechenden Betrag des Verkaufspostens addiert. Auf diese Art können Sie genaue Bestandbewertung führen.  
 
-## <a name="to-combine-return-shipments"></a>So fassen Sie Rücklieferungen zusammen
+## So fassen Sie Rücklieferungen zusammen
 
 Wenn Sie mehrere Artikel , für die verschieden Einkaufsreklamationen gelten, an denselben Kreditor zurücksenden möchten, können Sie die Funktion **Sammelrücklieferungen** verwenden.  
 
@@ -174,13 +175,13 @@ Wenn Rücklieferungen in einer Gutschrift zusammengefasst und gebucht werden, wi
     Wenn Sie eine falsche Rücklieferzeile ausgewählt haben oder von vorn beginnen möchten, können Sie einfach die Zeilen in der Einkaufsgutschrift löschen und die Funktion **Rücklieferzeilen holen** erneut ausführen.  
 6. Wählen Sie die Aktion **Buchen** aus.  
 
-### <a name="to-remove-open-purchase-return-orders-after-combined-return-shipment-posting"></a>Offene Einkaufsreklamationen nach kombinierter Rücklieferungsbuchung entfernen
+### Offene Einkaufsreklamationen nach kombinierter Rücklieferungsbuchung entfernen  
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Erledigte Einkaufsrechnungen-Rücklieferungen löschen** ein und wählen Sie dann den zugehörigen Link.  
 2. Füllen Sie die anderen relevanten Felder wie erforderlich aus, und wählen Sie dann die Schaltfläche **OK** aus.  
 3. Sie können die einzelnen Einkaufsreklamtionen auch manuell löschen.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 [Einkauf](purchasing-manage-purchasing.md)  
 [Einkäufe erfassen](purchasing-how-record-purchases.md)  
 [Unbezahlte Einkaufsrechnungen korrigieren oder stornieren](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  

@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 05/30/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 Wenn Sie Benutzer für Genehmigungsworkflows einrichten, ist es wichtig, dass derselbe Benutzer nicht sowohl Anforderer als auch Genehmiger in einer Workflow-Benutzergruppe ist. Wenn ein Benutzer sowohl Anforderer als auch Genehmiger ist, funktionieren Genehmigungen für ihn wie folgt:

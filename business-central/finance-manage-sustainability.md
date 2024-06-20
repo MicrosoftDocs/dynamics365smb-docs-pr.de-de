@@ -9,9 +9,10 @@ ms.search.form: null
 ms.date: 05/08/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
-# <a name="sustainability-management-overview"></a>Nachhaltigkeitsmanagement – Überblick
+# Nachhaltigkeitsmanagement – Überblick
 
 > [!IMPORTANT]
 > Dieses Feature steht in Business Central ab dem **1. Veröffentlichungszyklus 2024** zur Verfügung. Alle Links zu Referenzen werden aktiviert, sobald sie verfügbar sind.
@@ -42,7 +43,7 @@ Um mit dem Nachhaltigkeitsmanagement zu beginnen, verwenden Sie die folgenden Ar
 | [Diagramm der Nachhaltigkeitskonten und des Sachkontos](finance-sustainability-accounts-ledger.md) | Dieser Artikel enthält Informationen zum richtigen Einrichten des Nachhaltigkeitskontenplans (CoSA), von Kontokategorien und Unterkategorien sowie zum Analysieren von Informationen in Nachhaltigkeitsposten. |
 | [Nachhaltigkeitsposten erfassen](finance-sustainability-journal.md) | In diesem Artikel erfahren Sie, wie Sie mit allen Arten von Nachhaltigkeits-Buch.-Blättern arbeiten. |
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Nachhaltigkeitseinrichtung](finance-sustainability-setup.md)  
 [Nachhaltigkeitskontenplan und Nachhaltigkeitssachkonto](finance-sustainability-accounts-ledger.md)  

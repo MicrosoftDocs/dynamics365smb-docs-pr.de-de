@@ -11,7 +11,7 @@ ms.date: 05/07/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="closing-years-and-periods"></a>Jahres- und Periodenabschlüsse
+# Jahres- und Periodenabschlüsse
 
 Am Ende eines Geschäftsjahrs gibt es einige Verwaltungsaufgaben, die Sie ausführen müssen, wie das Sicherstellen, dass alle Belege und Buch.-Blätter gebucht sind und dass alle Währungsdaten aktuell sind, die Bücher abschließen und weiteres. Die tatsächlichen Aufgaben hängen von Ihrem Unternehmen ab.
 
@@ -29,7 +29,7 @@ Die folgende Tabelle enthält einen Überblick über die Aufgaben, die Sie übli
 | Drucken von Berichten zur Unterstützung beim Erstellen von Finanzauswertungen |[Abschlussberichte vorbereiten](year-prepare-close-statement.md) |
 | Abschließen der Buchhaltungsperioden, Übertragen der GuV-Salden auf Bilanzkonten und Buchen des .Jahresabschlusspostens. |[Schließen der Bücher](year-close-books.md) |
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Mit Buchhaltungsperioden und Geschäftsjahren arbeiten](finance-accounting-periods-and-fiscal-years.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -12,7 +12,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="sales"></a>Verkauf
+# Verkauf
 
 Sie erstellen eine Verkaufsrechnung oder eine Bestellung, um Ihre Vereinbarung mit dem Debitoren zu erfassen, um bestimmte Produkte unter speziellen Liefer- und Zahlungsbedingungen zu verkaufen.
 
@@ -34,7 +34,7 @@ Sie können für alle Vertriebsprozesse einen Genehmigungsworkflow integrieren. 
 
 Die folgenden Abschnitte beschreiben eine Reihe von Aufgaben mit Links zu den Artikeln, die sich mit ihnen befassen.
 
-## <a name="get-started-with-sales-capabilities"></a>Erste Schritte mit Finanzfunktionen
+## Erste Schritte mit Finanzfunktionen
 
 Legen Sie vor dem Verkauf fest, wie Sie die Vertriebsprozesse Ihres Unternehmens handhaben möchten.
 
@@ -43,7 +43,7 @@ Legen Sie vor dem Verkauf fest, wie Sie die Vertriebsprozesse Ihres Unternehmens
 | Erstellen Sie eine Debitorenkarte für jeden Debitor, an den Sie verkaufen.|[Neue Debitoren registrieren](sales-how-register-new-customers.md) |
 | Festlegen, wie Sie den Verkauf abwickeln, beispielsweise Preise und Rabatte, Kundenpreis- und Rabattgruppen, Verkaufende, Versandmethoden und Agenten. | [Verkäufe einrichten](sales-setup-sales.md) |
 
-## <a name="sales-analytics"></a>Vertriebsanalyse
+## Vertriebsanalyse
 
 In diesem Abschnitt werden die Analysetools beschrieben, mit denen Sie sich Einblick in Ihre Verkaufsdaten verschaffen können.
 
@@ -53,7 +53,7 @@ In diesem Abschnitt werden die Analysetools beschrieben, mit denen Sie sich Einb
 | Ad-hoc-Analysen von Verkaufsdaten direkt auf Listenseiten und in Abfragen durchführen. | [Vertriebsanalyseberichte erstellen](bi-how-create-analysis-views-reports.md) |
 | Integrierte Verkaufsberichte kennenlernen. | [Integrierte Vertriebsberichte](sales-reports.md) |
 
-## <a name="quote-to-order-to-sales-invoice"></a>Vom Angebot zum Auftrag bis zur Verkaufsrechnung
+## Vom Angebot zum Auftrag bis zur Verkaufsrechnung
 
 In der folgenden Tabelle wird die Verwendung einfacher Verkaufsprozesse beschrieben.
 
@@ -74,7 +74,7 @@ Wenn Sie komplexere Vertriebsprozesse benötigen, finden Sie in der folgenden Ta
 |Einen Debitor einmal für mehrere Warenausgänge eine Rechnung stellen, indem Sie Lieferungen in einer Rechnung zusammenfassen.|[Lieferungen in einer einzelnen Rechnung zusammenfassen](sales-how-to-combine-shipments-on-a-single-invoice.md)|
 |Montageartikel, die zu dem Zeitpunkt nicht verfügbar sind, durch einen Verknüpften Montageauftrag verkaufen. Über den Montageauftrag kann die volle oder eine Teilmenge des Verkaufsauftrags geliefert werden.|[Programmfertigungsartikel verkaufen](assembly-how-to-sell-items-assembled-to-order.md)|
 
-## <a name="pick-and-ship"></a>Kommissionieren und ausliefern
+## Kommissionieren und ausliefern
 
 In der folgenden Tabelle wird beschrieben, wie Sie Artikel für einen Verkaufsauftrag entnehmen und an den Debitor versenden.
 
@@ -86,7 +86,7 @@ In der folgenden Tabelle wird beschrieben, wie Sie Artikel für einen Verkaufsau
 |Informieren Sie Ihre Debitoren über das Auftragslieferdatum, indem Sie entweder das Möglichkeitsdatum für Beschaffungszusage oder das Lieferzusageversprechen berechnen.|[Datumsangaben für Lieferterminzusagen berechnen](sales-how-to-calculate-order-promising-dates.md)|
 | Lernen, wie ein Paket aus einer gebuchten Verkaufslieferung verfolgt wird. | [Paketverfolgung](sales-how-track-packages.md) |
 
-## <a name="canceled-orders-refunds-and-returns"></a>Stornierte Aufträge, Rückerstattungen und Retouren
+## Stornierte Aufträge, Rückerstattungen und Retouren
 
 In der nachfolgenden Tabelle wird der Umgang mit Stornierungen von Bestellungen, Rückerstattungen und Warenretouren beschrieben.
 
@@ -95,7 +95,7 @@ In der nachfolgenden Tabelle wird der Umgang mit Stornierungen von Bestellungen,
 | Verwendungsfunktionen in einer unbezahlten gebuchten Verkaufsrechnung, um einen Gutschriftsprozess automatisch auszuführen, und entweder die Verkaufsrechnung zu stornieren oder neu zu erstellen, um Korrekturen vorzunehmen. |[Ändern oder Löschen einer unbezahlten Verkaufsrechnung](sales-how-correct-cancel-sales-invoice.md) |
 | Erstellen Sie eine Verkaufsgutschrift, um eine bestimmte gebuchte Verkaufsrechnung wiederherzustellen, um anzugeben, welche Produkte der Debitor zurückschickt und welcher Betrag erstattet wird. |[Retouren oder Stornierungen verarbeiten](sales-how-process-sales-returns-cancellations.md) |
 
-## <a name="other-processes-in-sales"></a>Andere Prozesse im Verkauf
+## Andere Prozesse im Verkauf
 
 In der folgenden Tabelle wird der Umgang mit anderen Verkaufsprozessen beschrieben.
 
@@ -103,7 +103,7 @@ In der folgenden Tabelle wird der Umgang mit anderen Verkaufsprozessen beschrieb
 | --- | --- |
 |Lösen Sie auf Verwirrung auf, wenn zwei oder mehr Datensätze für denselben Debitor vorhanden sind.|[Doppelte Datensätze zusammenführen](sales-how-merge-duplicate-records.md)|
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Einrichten von Verkäufen](sales-setup-sales.md)  
 [Neue Debitoren registrieren](sales-how-register-new-customers.md)  

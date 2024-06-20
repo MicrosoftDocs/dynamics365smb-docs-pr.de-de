@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 09/21/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 Lagermitarbeiter können im Rahmen von Verkaufs- und Bestellungen Nicht-Lagerartikel zusammen mit physischen Gütern versenden und empfangen. Nicht zum Lagerbestand gehörende Gegenstände sind immaterielle Werte, wie z. B. Versicherungen oder zusätzliche Kosten.

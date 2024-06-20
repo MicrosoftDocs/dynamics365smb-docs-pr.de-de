@@ -8,8 +8,9 @@ ms.search.keywords: null
 ms.date: 06/27/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="set-up-data-exports-for-a-digital-audit-gobdgdpdu-in-the-german-version"></a>Datenexporte für eine digitale Betriebsprüfung (GoBD/GDPdU) in der deutschen Version festlegen
+# Datenexporte für eine digitale Betriebsprüfung (GoBD/GDPdU) in der deutschen Version festlegen
 
 Sie müssen die Exportdatensatzquellen einrichten, um Daten für eine digitale Prüfung entsprechend den Grundsätzen zum Datenzugriff und zur Prüfbarkeit digitaler Unterlagen (GDPdU) zu exportieren. Für jeden Datenexporttyp müssen Sie eine oder mehrere Datensatzquellen definieren, wobei jede Quelle eine Tabelle darstellt, aus der Daten exportiert werden sollen. 
 
@@ -21,7 +22,7 @@ Sie müssen die Exportdatensatzquellen einrichten, um Daten für eine digitale P
 > - **Item 2022** kann zum Exportieren von Artikel- und Rechnungsdaten verwendet werden.
 
 
-## <a name="to-set-up-a-data-export"></a>So richten Sie einen GDPdU-Datenexport ein
+## So richten Sie einen GDPdU-Datenexport ein  
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet 1.](../../media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen") Symbol. Geben Sie **Datenexporte** ein, und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die Aktion **Neu** aus.  
@@ -34,7 +35,7 @@ Sie müssen die Exportdatensatzquellen einrichten, um Daten für eine digitale P
 
 Dem Datenexport müssen Datensatzdefinitionen hinzugefügt werden. Jede Datensatzdefinition stellt eine Tabelle dar, aus der Daten exportiert werden.  
 
-## <a name="to-add-a-record-definition-to-a-digital-audit-definition-group"></a>Wählen Sie eine Datensatzdefinition aus, die Sie einer GDPdU-Definitionsgruppe hinzufügen möchten.
+## Wählen Sie eine Datensatzdefinition aus, die Sie einer GDPdU-Definitionsgruppe hinzufügen möchten.  
 
 1. Wählen Sie auf der Seite **Datenexport** in der Gruppe Start die Option **Definitionen aufzeigen** aus.  
 2. Füllen Sie auf der Seite **Datenexport - Berichtsdefinitonen** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
@@ -52,7 +53,7 @@ Dem Datenexport müssen Datensatzdefinitionen hinzugefügt werden. Jede Datensat
 
 Danach müssen Sie die Quelle für die zu exportierenden Daten definieren.  
 
-## <a name="to-add-source-tables-to-a-data-export"></a>So fügen Sie einem Datenexport Quelltabellen hinzu
+## So fügen Sie einem Datenexport Quelltabellen hinzu  
 
 1. Wählen Sie auf der Seite **Datenexport-Definitionen aufzeichnen** in der Gruppe Start die Option **Quelle aufzeigen** aus.  
 2. Füllen Sie auf der Seite **Datenexport - Berichtsquelle** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
@@ -86,7 +87,7 @@ Danach müssen Sie die Quelle für die zu exportierenden Daten definieren.
 
 Sie haben die Haupttabelle hinzugefügt, aus der Daten exportiert werden sollen. Optional können Sie mindestens eine zugehörige Tabelle hinzufügen.  
 
-## <a name="to-add-related-tables-to-a-data-export-source"></a>So fügen Sie eine verwandte Tabelle einer Datenexportquelle hinzu
+## So fügen Sie eine verwandte Tabelle einer Datenexportquelle hinzu  
 
 1. Auf der Seite **Datenexport - Datensatzherkunft** in der Zeile unter der Zeile für die Haupttabelle fügen Sie die verknüpfte Tabelle hinzu.  
 2. Wählen Sie die Aktion **Einrücken** aus.  
@@ -105,13 +106,13 @@ Sie haben die Haupttabelle hinzugefügt, aus der Daten exportiert werden sollen.
 
 Nachdem Sie Tabellen und Felder hinzugefügt haben, müssen Sie überprüfen, dass die Struktur der Datenexportquelle korrekt ist.  
 
-## <a name="to-validate-the-data-export-source"></a>Um die Datenexportquelle zu überprüfen
+## Um die Datenexportquelle zu überprüfen  
 
 Wählen Sie auf der Seite **Datenexport-Quelle aufzeichnen** in der Gruppe Start die Option **Überprüfen** aus.  
 
 Dies überprüft die Liste der Felder anhand der Schlüssel für die Tabellen. Wenn Sie einen Primärschlüssel auswählen, nachdem Sie einen sekundären Schlüssel ausgewählt haben, wird eine Fehlermeldung angezeigt und Sie müssen die Reihenfolge der Felder im Bereich **Felder** ändern.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Prozess für Digital-Überwachung (GoBD/GDPdU)](process-for-digital-audits.md)  
 [Daten für eine digitale Prüfung exportieren](how-to-export-data-for-a-digital-audit.md)  

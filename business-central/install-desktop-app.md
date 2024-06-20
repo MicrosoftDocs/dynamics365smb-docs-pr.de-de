@@ -10,11 +10,11 @@ ms.date: 04/26/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="get-the-business-central-desktop-app"></a>Die Business Central Desktop App abrufen
+# Die Business Central Desktop App abrufen
 
 Wenn Sie einen Windows- (PC) oder macOS-Computer besitzen, können Sie die [!INCLUDE [prod_short](includes/prod_short.md)]-App auf Ihrem Desktop installieren. Die App funktioniert mit [!INCLUDE [prod_short](includes/prod_short.md)] online und lokal.
 
-## <a name="why-use-the-app"></a>Warum die App verwenden?
+## Warum die App verwenden?
 
 Die [!INCLUDE [prod_short](includes/prod_short.md)]-App ähnelt dem Web-Client, bietet aber einige Vorteile wie:
 
@@ -25,11 +25,11 @@ Die [!INCLUDE [prod_short](includes/prod_short.md)]-App ähnelt dem Web-Client, 
 
      Wenn Sie die App für eine bestimmte Umgebung öffnen, wird der Name der Umgebung in den Fenstertitel aufgenommen. Wenn Sie in mehreren [!INCLUDE[prod_short](includes/prod_short.md)]-Umgebungen arbeiten, wird jedes App-Fenster separat angezeigt. Anhand des Namens können Sie leichter erkennen, welches Fenster zu der jeweiligen Umgebung gehört.
 
-## <a name="install-the-app-for--online"></a>Die App für [!INCLUDE [prod_short](includes/prod_short.md)] online installieren
+## Die App für [!INCLUDE [prod_short](includes/prod_short.md)] online installieren
 
 Es gibt zwei Möglichkeiten, die App für [!INCLUDE [prod_short](includes/prod_short.md)] online zu installieren. Sie können es direkt über den Browser oder über den Microsoft Store installieren. Welchen Ansatz Sie auch immer wählen, es ist die gleiche App. Der Unterschied besteht darin, dass Sie bei der Installation über den Browser die App für jede Umgebung installieren können, wenn es mehr als eine gibt.
 
-### <a name="from-microsoft-store"></a>Aus dem Microsoft Store
+### Aus dem Microsoft Store
 
 1. Gehen Sie zum [Microsoft Store](https://go.microsoft.com/fwlink/?linkid=2182870).
 2. Wählen Sie **Abrufen** > **Installieren**. 
@@ -37,7 +37,7 @@ Es gibt zwei Möglichkeiten, die App für [!INCLUDE [prod_short](includes/prod_s
 
 Wenn Sie die App das nächste Mal öffnen möchten, suchen Sie sie im Menü **Start**.
 
-### <a name="from-the-browser"></a>Über den Browser
+### Über den Browser
 
 1. Öffnen Sie den [!INCLUDE[prod_short](includes/prod_short.md)] Web Client entweder in Microsoft Edge oder in Google Chrome.
 
@@ -57,13 +57,13 @@ Wenn Sie die App das nächste Mal öffnen möchten, suchen Sie sie im Menü **St
 
 Nach der Installation erscheint die App im Menü **Start**. Wenn Sie eine bestimmte Umgebung für die App ausgewählt haben, wird der Name der Umgebung dem Namen der App im Menü **Start** hinzugefügt.
 
-## <a name="install-the-app-for--on-premises"></a>Die App für [!INCLUDE [prod_short](includes/prod_short.md)] lokal installieren
+## Die App für [!INCLUDE [prod_short](includes/prod_short.md)] lokal installieren
 
 Die Installation der Desktop-App, wenn Sie [!INCLUDE [prod_short](includes/prod_short.md)] lokal verwenden, erfolgt direkt über den Browser, wie [oben beschrieben](#from-the-browser). Wenn Sie nur einen Mandanten haben, öffnen Sie einfach [!INCLUDE [prod_short](includes/prod_short.md)] in Ihrem Browser und wählen Sie dann entweder ![Symbol für die Installation einer App in Edge](media/ui-edge-install-app-icon.png). **App verfügbar. Business Central installieren** oder ![Symbol für die Installation einer App in Chrome.](media/ui-chrome-install-app-icon.png) **Business Central installieren** wie oben gezeigt.
 
 Der Unterschied besteht, wenn Sie mehrere Mandanten haben. Im Gegensatz zu [!INCLUDE[prod_short](includes/prod_short.md)] online, wo Sie die App für verschiedene Umgebungen installieren können, können Sie die App nur für einen Mandanten installieren. Bevor Sie also die App installieren, wenn Sie mehrere Mandanten haben, stellen Sie sicher, dass Sie zum richtigen Mandanten wechseln. Wenn Sie die App nach der Installation öffnen, wird sie direkt den Mandanten öffnen.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Häufig gestellte Fragen zu mobilen Apps](ui-mobile-faq.yml)  
 [Vorbereitung auf die Verwendung](ui-get-ready-business.md)  

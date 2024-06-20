@@ -9,8 +9,9 @@ ms.search.form: '9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 900
 ms.date: 11/01/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="business-functionality"></a>Geschäftsfunktionen
+# Geschäftsfunktionen
 
 [!INCLUDE[prod_short](includes/prod_short.md)] bietet Funktionen für allgemeine Geschäftsprozesse in kleinen und mittleren Firmen, vor allem im Bereich Großhandel und professionelle Dienstleistungen. Sie unterstützen auch komplexere Prozesse wie Montage, Produktion, Service, und referenzierte Logistik. Erfahren Sie [hier](trial-signup.md), wie Sie eine kostenlose Testversion erhalten.  
 
@@ -38,7 +39,7 @@ ms.service: dynamics-365-business-central
 |Ermöglichen Sie Benutzenden den Datenaustausch über externe Quellen im Rahmen von täglichen Aufgaben, wie dem Senden/Empfangen von elektronischen Belegen, Importieren/Exportieren von Bankdateien und dem Aktualisieren von Währungswechselkursen.|[Daten elektronisch austauschen](across-data-exchange.md)|
 |Erfassen Sie externe Dokumente in [!INCLUDE[prod_short](includes/prod_short.md)], einschließlich ihrer Dateianhänge, und erstellen Sie dann manuell die zugehörigen Belege oder wandeln Sie die Dateien automatisch in elektronische Belege um.|[Eingehende Belege](across-income-documents.md)|
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Verwaltung](admin-setup-and-administration.md)    
 [Erforschen Sie die Dynamics 365 Business Central-Fähigkeiten](https://dynamics.microsoft.com/business-central/capabilities/)  

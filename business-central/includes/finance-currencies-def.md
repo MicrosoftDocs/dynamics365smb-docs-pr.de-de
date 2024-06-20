@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 03/15/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 Werden die folgenden Aktivitäten ausgeführt, muss für jede verwendete Währung ein Code eingerichtet werden:
 

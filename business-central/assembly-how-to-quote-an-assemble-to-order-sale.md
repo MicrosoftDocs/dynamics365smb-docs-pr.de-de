@@ -9,8 +9,9 @@ ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940
 ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="quote-an-assemble-to-order-sale"></a>Angebot eines Auftragsmontageverkaufs
+# Angebot eines Auftragsmontageverkaufs
 
 Sie können die Montageverwaltung verwenden, um ein Montageelement während des Verkaufsprozesses an die Wünsche eines Kunden anzupassen. Weitere Informationen finden Sie unter [Verkaufen Sie auf Bestellung montierte Elemente](assembly-how-to-sell-items-assembled-to-order.md).  
 
@@ -19,7 +20,7 @@ Wie beim Verkauf beliebiger Artikel können Sie auch eine Verkaufsangebot für e
 > [!NOTE]  
 >  Wie alle Arten von Angeboten, werden die Mengen in Montageangeboten nicht für die Verfügbarkeit, in der Planung oder für Reservierungen verwendet.  
 
-## <a name="to-create-a-sales-quote-for-an-assemble-to-order-item"></a>So erstellen Sie ein Verkaufsangebot für einen Auftragsmontageartikel:
+## So erstellen Sie ein Verkaufsangebot für einen Auftragsmontageartikel:
 
 1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Verkaufsangebote** ein und wählen Sie dann den zugehörigen Link.  
 2.  Erstellen Sie eine Verkaufsangebotzeile mit einer Zeile für einen Montageartikel. Weitere Informationen finden Sie unter [Verkaufsangebote machen](sales-how-make-offers.md).  
@@ -33,7 +34,7 @@ Wie beim Verkauf beliebiger Artikel können Sie auch eine Verkaufsangebot für e
 6.  Wenn Sie die Montageauftragszeilen entsprechend dem Angebot angepasst haben, schließen Sie die Seite **Auftragsmontagezeilen**, um zur Seite **Verkaufsangebot** zurückzukehren.  
 7.  Wenn der Debitor das Angebot annimmt, erstellen Sie einen Verkaufsauftrag für den angebotenen Montageartikel. Weitere Informationen finden Sie unter [Verkaufsangebote machen](sales-how-make-offers.md). Das verknüpfte Montageangebot und alle eventuellen Anpassungen werden mit dem neuen Verkaufsauftrag verknüpft, um die Montage des/der zu verkaufenden Artikel vorzubereiten.  
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Montageverwaltung](assembly-assemble-items.md)  
 [Mit Montagestücklisten arbeiten](assembly-how-work-assembly-boms.md)  

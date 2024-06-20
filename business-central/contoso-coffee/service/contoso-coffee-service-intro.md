@@ -7,9 +7,10 @@ ms.topic: how-to
 ms.date: 11/27/2023
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
-# <a name="introduction-to-contoso-coffee-service-management"></a>Einführung in Contoso Coffee-Servicemanagement
+# Einführung in Contoso Coffee-Servicemanagement
 
 Contoso Coffee ist ein fiktives Unternehmen, das Kaffeemaschinen für Verbraucher und gewerbliche Kunden herstellt. Die **Contoso Coffee**-Apps für Business Central fügen Demodaten hinzu, mit deren Hilfe Sie die Verwendung der Servicemanagementfunktionen in Business Central erlernen können.
 
@@ -23,7 +24,7 @@ Diese App bietet mehrere Elemente, die für die wichtigsten exemplarischen Vorge
 > Bevor Sie eines der Szenarien für Contoso Coffee ausführen, buchen Sie alle Buchungsblattzeilen mit Anfangssalden. Weitere Anforderungen finden Sie im Abschnitt [Contoso Coffee-Daten einrichten](#set-up-contoso-coffee-service-management-data).
 >
 > 
-## <a name="set-up-contoso-coffee-service-management-data"></a>Einrichten von Contoso Coffee-Servicemanagementdaten
+## Einrichten von Contoso Coffee-Servicemanagementdaten
 
 [!INCLUDE [contoso-coffee-app-install](../../includes/contoso-coffee-app-install.md)]
 
@@ -42,7 +43,7 @@ Sobald die relevanten Apps installiert sind, gehen Sie zur Seite [Contoso-Demo-T
 
 Wenn Sie fertig sind, wählen Sie die Aktion **Demodaten erstellen** aus. Es dauert einige Minuten, der zugrunde liegenden Datenbank die Daten hinzuzufügen, anschließend können Sie die verschiedenen Szenarien jedoch ausführen.  
 
-## <a name="scenarios"></a>Szenarien
+## Szenarien
 
 Die Lager-Demodaten von Contoso Coffee unterstützen derzeit die folgenden Serviceszenarien für Tests und Schulungen:
 
@@ -55,6 +56,6 @@ Lesen Sie die Schritte für jedes Szenario im entsprechenden Artikel.
 > Diese exemplarischen Vorgehensweisen für Services erfordert, dass die Benutzererfahrung auf der Seite **Unternehmensdaten** auf **Premium** festgelegt ist.
 
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Dienst](../../service-service.md)

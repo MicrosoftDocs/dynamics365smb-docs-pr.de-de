@@ -9,8 +9,9 @@ ms.search.form: '9813, 9814'
 ms.date: 06/25/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="restructure-warehouses"></a>Lager umstrukturieren
+# Lager umstrukturieren
 Es kann sein, dass Sie Ihr Lager neu strukturieren und dabei neue Lagerplatzcodes und Eigenschaften von Zonen berücksichtigen möchten. Diese Art von Aktivität werden Sie nicht oft ausführen. Es können jedoch Situationen auftreten, in denen eine Neustrukturierung notwendig ist, um effektivere Arbeitsabläufe zu erreichen. Beispiel:  
 
 - Sie möchten zu Lagerplatzcodes übergehen, die die Verwendung der mobilen Datenerfassung unterstützen, z. B. mit tragbaren Geräten.  
@@ -19,7 +20,7 @@ Es kann sein, dass Sie Ihr Lager neu strukturieren und dabei neue Lagerplatzcode
 
 Wenn Ihr Lager so eingerichtet wurde, dass es Lagerplätze verwendet, aber keine gesteuerte Einlagerung und Kommissionierung, strukturieren Sie Ihr Lager neu, indem Sie die neuen Lagerplätze erstellen, die Sie zukünftig verwenden möchten.  
 
-## <a name="to-restructure-a-basic-warehouse-that-uses-bins-only"></a>Um ein Basislager neu zu strukturieren, das nur Lagerplätze verwendet
+## Um ein Basislager neu zu strukturieren, das nur Lagerplätze verwendet  
 1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Lagerorte** ein, und wählen Sie dann den entsprechenden Link.  
 2.  Setzen Sie im Inforegister **Logistik** das Feld **Vorg.-Lagerplatzauswahl** auf **Zuletzt verwendeter Lagerplatz**.  
 3.  Lagern Sie alle Inhalte Ihrer aktuellen Lagerplätze in die neuen Lagerplätze um, die Sie gerade angelegt haben.  
@@ -34,7 +35,7 @@ Wenn Ihr Lager so eingerichtet wurde, dass es Lagerplätze verwendet, aber keine
 
 Sie haben jetzt die Lagerplätze geleert, an denen die Artikel bisher gelagert wurden. Die Standardlagerplätze Ihrer Artikel wurden jetzt in die neuen Lagerplätze geändert.  
 
-## <a name="to-restructure-an-advanced-warehouse-that-uses-directed-put-away-and-pick"></a>Um ein erweitertes Lager, das eine gesteuerte Einlagerung und Kommissionierung verwendet, neu zu strukturieren
+## Um ein erweitertes Lager, das eine gesteuerte Einlagerung und Kommissionierung verwendet, neu zu strukturieren  
 
 1.  Legen Sie die neuen Lagerplätze an, die Sie in Zukunft verwenden möchten. Weitere Informationen finden Sie unter [Lagerplätze erstellen](warehouse-how-to-create-individual-bins.md).  
 2.  Lagern Sie alle Inhalte Ihrer aktuellen Lagerplätze in die neuen Lagerplätze um, die Sie gerade angelegt haben.  
@@ -51,7 +52,7 @@ Sie haben jetzt die Lagerplätze geleert, an denen die Artikel bisher gelagert w
 
 Sie haben die Lagerplätze jetzt aus dem Warenfluss entfernt und sie als QC-Lagerplätze umgebucht. QC-Lagerplätze haben auf der Seite **Lagerplatzarten** keine ausgewählten Aktivitätenprotokollposten und werden daher durch den Warenfluss nicht berücksichtigt. Weitere Informationen finden Sie unter [Einrichten von Lagerplatzarten](warehouse-how-to-set-up-bin-types.md).  
 
-## <a name="to-delete-a-bin"></a>So löschen Sie einen Lagerplatz:
+## So löschen Sie einen Lagerplatz:  
 
 1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Lagerorte** ein, und wählen Sie dann den entsprechenden Link.  
 2.  Wählen Sie den Lagerort aus, an dem Sie Lagerplätze löschen möchten. Wählen Sie die **Lagerplätze** Aktion aus.  
@@ -62,7 +63,7 @@ Wenn Sie **Ja** wählen, wird der Lagerplatz für die zukünftige Verwendung gel
 
 Wenn Sie einen Lagerplatz umbenennen möchten, so dass alle Datensätze zu diesem Lagerplatz ebenfalls umbenannt werden (die Datensätze umfassen Lagerplatzinhalte, Lageraktivitätszeilen, registrierte Lageraktivitätszeilen, Zeilen in Logistikarbeitsblättern, Wareneingangszeilen, gebuchte Wareneingangszeilen, Warenausgangszeilen, gebuchte Warenausgangszeilen sowie Lagerplatzposten), können Sie dies auf der Seite **Lagerplätze** tun.  
 
-## <a name="to-rename-a-bin-and-change-the-bin-code-in-all-records"></a>So benennen Sie einen Lagerplatz um und ändern den Lagerplatzcode in allen Datensätzen:
+## So benennen Sie einen Lagerplatz um und ändern den Lagerplatzcode in allen Datensätzen:  
 
 1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Lagerorte** ein, und wählen Sie dann den entsprechenden Link.  
 2.  Wählen Sie den Lagerort aus, an dem Sie einen Lagerplatz umbenennen oder für den Sie den Lagerplatzcode ändern möchten, und wählen Sie dann die Aktion **Lagerplätze** aus.  
@@ -74,7 +75,7 @@ Wenn Sie einen Lagerplatz umbenennen möchten, so dass alle Datensätze zu diese
 >   
 >  Wenn Sie einen Wareneingangslagerplatz oder einen Warenausgangslagerplatz umbenennen, müssen alle gebuchten Wareneingänge oder Warenausgänge, die sich auf den jeweiligen Lagerplatz beziehen, umbenannt werden.  
 
-## <a name="see-also"></a>Weitere Informationen
+## Weitere Informationen  
 [Lagerverwaltung – Übersicht](design-details-warehouse-management.md)
 [Bestand](inventory-manage-inventory.md)  
 [Einrichten von Warehouse Management](warehouse-setup-warehouse.md)     

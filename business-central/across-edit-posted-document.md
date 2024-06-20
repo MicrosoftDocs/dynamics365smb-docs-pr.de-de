@@ -11,7 +11,7 @@ ms.date: 06/10/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="edit-posted-documents"></a>Gebuchte Belege bearbeiten
+# Gebuchte Belege bearbeiten
 
 Manchmal müssen Sie einen gebuchten Beleg aktualisieren, da sich die für das Dokument relevanten Informationen geändert haben. Bei einem gebuchten Verkaufsbeleg kann dies beispielsweise die Paketverfolgungsnummer des Zustellers sein. Bei einem gebuchten Einkaufsbeleg kann es sich um einen Zahlungsreferenztext handeln.
 
@@ -31,7 +31,7 @@ Die folgenden zusätzlichen Dokumente können in den angegebenen Ländern oder R
 - RU: Geb. Verkaufsgutschrift
 - IT: Geb. Umlag.-Ausgang, Gebuchte Servicelieferung
 
-## <a name="to-edit-a-posted-sales-shipment"></a>So bearbeiten Sie eine gebuchte Verkaufslieferung
+## So bearbeiten Sie eine gebuchte Verkaufslieferung
 
 Im Folgenden wird erläutert, wie Sie eine gebuchte Verkaufslieferung bearbeiten. Die Schritte sind für die anderen unterstützten Dokumente ähnlich.
 
@@ -42,7 +42,7 @@ Im Folgenden wird erläutert, wie Sie eine gebuchte Verkaufslieferung bearbeiten
 
 Die gebuchte Verkaufslieferung wird aktualisiert.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Dokumente und Buch.-Blatt verbuchen](ui-post-documents-journals.md)  
 [Suchen verwandter Posten für Belege](ui-find-entries.md)  

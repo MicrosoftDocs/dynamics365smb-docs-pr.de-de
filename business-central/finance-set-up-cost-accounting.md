@@ -8,12 +8,13 @@ ms.search.form: '1100, 1112, 1113, 1122'
 ms.date: 10/09/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="setting-up-cost-accounting"></a>Einrichten der Kostenrechnung
+# Einrichten der Kostenrechnung
 
 Bevor Sie die Arbeit mit der Kostenrechnung beginnen können, müssen Sie Einrichtungsaufgaben ausführen.
 
-## <a name="balances-between-cost-type-cost-center-and-cost-object"></a>Salden zwischen Kostenart, Kostenstelle und Kostenträger
+## Salden zwischen Kostenart, Kostenstelle und Kostenträger
 
 Wenn Sie die Kostenrechnung einrichten, müssen Sie sicherstellen, dass alle Daten einer Kostenart sowie einer Kostenstelle oder einem Kostenträger zugeordnet sind. Das bedeutet, dass jedem Kostenposten eine Kostenart und eine Kostenstelle oder ein Kostenträger zugewiesen sein muss. Diese Regel stellt sicher, dass jeder Kostenposten entweder in Kostenstellen oder in den Kostenträgern erscheint, jedoch nicht an beiden Stellen.  
 
@@ -23,14 +24,14 @@ Auf diese Weise erstellen Sie die folgende Buchhaltungsgleichung:
 
 Wenn Sie den Kostenartenplan, den Kostenstellenplan und den Kostenträgerplan drucken, können Sie diese Beziehung analysieren.
 
-## <a name="setting-up-cost-types"></a>Einrichten von Kostenarten
+## Einrichten von Kostenarten
 
 Kostenartenpläne ähneln Kontenpläne im Sachkonto. Sie können den Kostenartenplan auf die folgenden Weisen einrichten:  
 
 - Strukturieren Sie den Kostenartenplan ähnlich wie GuV-Konten im Sachkontenplan. Dann können Sie den Sachkontenplan in den Kostenartenplan übertragen. Sie können alle notwendigen Änderungen nach der Übertragung vornehmen.  
 - Erstellen Sie einen neuen Kostenartenplan, oder fügen Sie einem vorhandenen Kostenartenplan neue Kostenarten hinzu. Sie müssen jede neue Kostenart einzeln erstellen.  
 
-### <a name="to-transfer-the-general-ledger-chart-of-accounts-to-the-chart-of-cost-types"></a>So übertragen Sie den Sachkontenplan in den Kostenartenplan.
+### So übertragen Sie den Sachkontenplan in den Kostenartenplan.
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten"). Symbol. Geben Sie **Kostenartenplan** ein und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die Aktion **Kostenarten aus Kontenplan abrufen**. Klicken Sie im Dialogfeld auf die Schaltfläche **Ja**, um die Übertragung zu bestätigen. Die Funktion verwendet den Kontenplan, um einen Kostenartenplan zu erstellen.  
@@ -40,7 +41,7 @@ Kostenartenpläne ähneln Kontenpläne im Sachkonto. Sie können den Kostenarten
     > [!IMPORTANT]  
     >  Die **Kostenarten in Kontenplan registrieren**-Funktion aktualisiert das Verhältnis zwischen dem Kontenplan und dem Kostenartenplan. Das Feld **Nr.** wird ausgefüllt und geprüft, um sicherzustellen, dass jedes Sachkonto mit nur einer Kostenart verknüpft ist. Die Funktion wird automatisch ausgeführt, bevor Sie Sachposten in die Kostenrechnung übertragen.  
 
-### <a name="to-set-up-new-cost-types-in-the-chart-of-cost-types-page"></a>So richten Sie auf der Seite "Liquiditätskontenplan" neue Liquiditätskonten ein
+### So richten Sie auf der Seite "Liquiditätskontenplan" neue Liquiditätskonten ein
 
 1. Öffnen Sie die Seite **Kontenplan-Arten** im Bearbeitungsmodus.  
 2. Füllen Sie je nach Bedarf die Felder aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -54,7 +55,7 @@ Kostenartenpläne ähneln Kontenpläne im Sachkonto. Sie können den Kostenarten
     > [!IMPORTANT]  
     >  Wenn Sie in den Feldern **Zusammenzählung** Definitionen für die Zeilenart **Bis-Summe** eingetragen haben, bevor Sie die Funktion **Kostenarten einrücken** ausgeführt haben, müssen Sie diese Eintragungen wiederholen, da die Funktion die Werte in allen **Bis-Summe**-Feldern überschreibt.  
 
-### <a name="to-update-cost-types"></a>So aktualisieren Sie Kostenarten
+### So aktualisieren Sie Kostenarten
 
 1. Auf der Seite **Kostenrechnung einrichten** wählen Sie aus, ob der Kostenartenplan automatisch aktualisiert werden soll, wenn der Kontenplan geändert wird.  
 2. Die folgenden Optionen stehen im Feld **Sachkonto ausrichten** zur Auswahl.  
@@ -63,7 +64,7 @@ Kostenartenpläne ähneln Kontenpläne im Sachkonto. Sie können den Kostenarten
 - **Automatisch** - Es gibt eine entsprechende Änderung im Kostenartenplan, wenn Sie den Kontenplan ändern.  
 - **Eingabeaufforderung** - Eine Meldung wird mit der Frage angezeigt, ob Sie die entsprechende Änderung auch im Kostenartenplan vornehmen möchten, wenn Sie den Kontenplan ändern.
 
-## <a name="defining-the-relationship-between-cost-types-and-general-ledger-accounts"></a>Definieren der Beziehung zwischen Kostenarten und Sachkonten
+## Definieren der Beziehung zwischen Kostenarten und Sachkonten
 
 Das Verbindung zwischen der Kostenart und dem Sachkonto wird in der Kostenart und im Sachkonto erstellt.  
 
@@ -72,7 +73,7 @@ Das Verbindung zwischen der Kostenart und dem Sachkonto wird in der Kostenart un
 
 Diese beiden Felder werden automatisch ausgefüllt, wenn Sie die **Kostenarten aus Kontenplan abrufen**-Funktion verwenden.  
 
-### <a name="relationship-between-general-ledger-accounts-and-cost-types"></a>Beziehung zwischen Sachkonten und Kostenarten
+### Beziehung zwischen Sachkonten und Kostenarten
 
 Zwischen Sachkonten und Kostenarten besteht eine n:1-Beziehung. Mehrere Sachkonten können zu einer Kostenart gehören, aber jedes Sachkonto gehört nur zu einer Kostenart. Die folgende Tabelle beschreibt die Einzelheiten der Beziehung.  
 
@@ -83,7 +84,7 @@ Zwischen Sachkonten und Kostenarten besteht eine n:1-Beziehung. Mehrere Sachkont
 |Kostenarten ohne entsprechende Sachkonten|\<Empty\>||  
 |Sachkonten, deren Posten nicht übertragen werden||\<Empty\>|  
 
-### <a name="cost-types-without-a-relationship-to-the-general-ledger"></a>Kostenarten ohne Beziehung zum Sachkonto
+### Kostenarten ohne Beziehung zum Sachkonto
 
 Eine Kostenart hat möglicherweise keine Beziehung zu Sachkonten, wenn eine der folgenden Bedingungen zutrifft:  
 
@@ -91,14 +92,14 @@ Eine Kostenart hat möglicherweise keine Beziehung zu Sachkonten, wenn eine der 
 - Helfende Kostenarten, wie Kostenarten 9901, 9902 und 9903 in der [!INCLUDE[prod_short](includes/prod_short.md)]-Datenbank, werden als Haben- und Sollbeträge für Zuordnungen verwendet.  
 - Das helfende Konto, 9920 in der [!INCLUDE[prod_short](includes/prod_short.md)]-Datenbank, enthält tatsächliche Zugänge, die die Differenz zwischen Kosten und Ausgaben des Sachkontos anzeigen.
 
-## <a name="setting-up-cost-centers"></a>Einrichten von Kostenstellen
+## Einrichten von Kostenstellen
 
 Kostenstellen sind Abteilungen, die für die Kosten und die Einnahmen zuständig sind. Der Kostenstellenplan ähnelt den Dimensionsinformationen für das Sachkonto. Sie können den Kostenstellenplan auf die folgenden Weisen einrichten:  
 
 - Transferieren Sie Dimensionswerte im Sachkonto zum Kostenstellenplan. Sie können alle notwendigen Änderungen nach der Übertragung vornehmen.  
 - Erstellen Sie einen neuen Kostenstellenplan, der unabhängig vom Sachkonto ist, oder fügen Sie einem vorhandenen Kostenstellenplan eine neue Kostenstelle hinzu. Sie müssen jede Kostenstelle einzeln erstellen.  
 
-### <a name="to-transfer-dimension-values-in-the-general-ledger-to-the-chart-of-cost-centers"></a>So transferieren Sie Dimensionswerte im Sachkonto zum Kostenstellenplan
+### So transferieren Sie Dimensionswerte im Sachkonto zum Kostenstellenplan
 
 1. Richten Sie eine Dimension als Kostenstellendimension auf der Seite **Kostenrechnungseinrichtung** ein. Es werden nur die Werte aus dieser Dimension übertragen.
 Sie können die Aktion **Aktionen** > **Funktionen** > **Kostenrechnungsdimensionen aktualisieren** zum Aktualisieren der Kostenrechnungsdimensionen auswählen.
@@ -110,7 +111,7 @@ Sie können die Aktion **Aktionen** > **Funktionen** > **Kostenrechnungsdimensio
 
 Der Kostenstellenplan enthält jetzt alle angegebenen Dimensionswerte aus dem Sachkonto und umfasst Titel und Zwischensummen.  
 
-### <a name="to-create-new-cost-centers-in-the-chart-of-cost-centers-page"></a>So richten Sie auf der Seite Kostenstellenplan neue Kostenstellen ein
+### So richten Sie auf der Seite Kostenstellenplan neue Kostenstellen ein
 
 Sie können Kostenkarten auf der Seite **Kostenstellen** oder auf der Seite **Kostenstellenkarte** einrichten und verwalten. So richten Sie auf der Seite **Kostenstellenplan** neue Kostenstellen ein.  
 
@@ -128,14 +129,14 @@ Sie können Kostenkarten auf der Seite **Kostenstellen** oder auf der Seite **Ko
 > [!IMPORTANT]  
 > Wenn Sie Definitionen in den **Zusammenzählung**-Feldern für **Bis-Summe**-Kostenstellen eingegeben haben, bevor Sie die Einzugsfunktion ausführen, müssen Sie sie noch einmal eingeben. Die Funktion überschreibt die Werte in allen **Bis-Summe**-Feldern.
 
-## <a name="setting-up-cost-objects"></a>Einrichten von Kostenträgern
+## Einrichten von Kostenträgern
 
 Kostenträger sind Projekte, Produkte oder Services eines Unternehmens. Der Kostenträgerplan ähnelt den Dimensionsinformationen für das Sachkonto. Sie können den Kostenträgerplan auf die folgenden Weisen einrichten:  
 
 * Transferieren Sie Dimensionswerte im Sachkonto zum Kostenträgerplan. Sie können alle notwendigen Änderungen nach der Übertragung vornehmen.  
 * Erstellen Sie einen neuen Kostenträgerplan, der unabhängig vom Sachkonto ist, oder fügen Sie einem vorhandenen Kostenträgerplan einen neuen Kostenträger hinzu. Sie müssen jeden Kostenträger einzeln erstellen.  
 
-### <a name="to-transfer-dimension-values-from-the-general-ledger-to-the-chart-of-cost-objects"></a>So transferieren Sie Dimensionswerte aus dem Sachkonto zum Kostenträgerplan
+### So transferieren Sie Dimensionswerte aus dem Sachkonto zum Kostenträgerplan
 
 1.  Legen Sie eine Dimension als Kostenträgerdimension auf der Seite **Kostenträger-Dimensionen aktualisieren** fest. Es werden nur die Werte aus dieser Dimension übertragen.  
 2.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet 3.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Diagramm der Kostenträgerpläne** ein und wählen Sie dann den zugehörigen Link.  
@@ -146,7 +147,7 @@ Kostenträger sind Projekte, Produkte oder Services eines Unternehmens. Der Kost
 
 Der Kostenträgerplan enthält jetzt alle angegebenen Dimensionswerte aus dem Sachkonto und umfasst Titel und Zwischensummen.  
 
-### <a name="to-create-new-cost-objects-in-the-chart-of-cost-objects-page"></a>So richten Sie auf der Seite Kostenstellenträger neue Kostenträger ein
+### So richten Sie auf der Seite Kostenstellenträger neue Kostenträger ein
 
 Sie können Kostenkarten auf der Seite **Kostenträger** oder im Fenster **Kostenträgerkarte** einrichten und verwalten. So richten Sie auf der Seite **Kostenträger** neue Kostenstellenträger ein.  
 
@@ -164,11 +165,11 @@ Sie können Kostenkarten auf der Seite **Kostenträger** oder im Fenster **Koste
 > [!IMPORTANT]  
 >  Wenn Sie Definitionen in den **Summe Von/Bis**-Feldern für **Bis-Summe**-Kostenträger eingegeben haben, bevor Sie die Einzugsfunktion ausführen, müssen Sie sie noch einmal eingeben. Die Funktion überschreibt die Werte in allen **Bis-Summe**-Feldern.
 
-## <a name="defining-cost-centers-and-cost-objects-for-chart-of-accounts"></a>Definieren von Kostenstellen und Kostenträgern für Kontenpläne
+## Definieren von Kostenstellen und Kostenträgern für Kontenpläne
 
 Sie können die Ausgaben- und Einnahmenposten aus dem Sachkonto in die Kostenrechnung entweder für jede Sachkontobuchung oder mit einem Batchauftrag übertragen. Wenn Sie die Übertragung ausführen, überträgt [!INCLUDE[prod_short](includes/prod_short.md)] nur die Posten, die bereits mit einer Kostenstelle oder einem Kostenträger verknüpft sind. Um eine sinnvolle Übertragung herzustellen, müssen Sie sicherstellen, dass die Kostenstellen und die Kostenträger korrekt definiert sind.  
 
-### <a name="defining-default-dimension-values-for-general-ledger-accounts"></a>Definieren von Standarddimensionswerten für Sachkonten
+### Definieren von Standarddimensionswerten für Sachkonten
 
 Für jedes Sachkonto können Sie Standarddimensionswerte in der Tabelle **Standard-Dimensionen** definieren. Das folgende Beispiel zeigt, wie Sie definieren, dass es immer eine Kostenstelle ABTEILUNG, aber nie einen Kostenträger PROJEKT geben soll, wenn Sie auf ein Sachkonto buchen.  
 
@@ -177,7 +178,7 @@ Für jedes Sachkonto können Sie Standarddimensionswerte in der Tabelle **Standa
 |Abteilung|Code notwendig|  
 |Kostenträger|Kein Code|  
 
-### <a name="defining-dimension-values-for-overhead-costs-and-direct-costs"></a>Definieren von Dimensionswerten für Gemeinkosten und direkte Kosten
+### Definieren von Dimensionswerten für Gemeinkosten und direkte Kosten
 
  Sie können Gemeinkosten an eine Kostenstelle und direkte Kosten an einen Kostenträger übertragen. In der folgenden Tabelle wird die optimale Kombination aus Dimensionseinrichtungswerten angezeigt.  
 
@@ -189,7 +190,7 @@ Für jedes Sachkonto können Sie Standarddimensionswerte in der Tabelle **Standa
 > [!NOTE]  
 >  Um sicherzustellen, dass die vordefinierte Kostenstelle und der vordefinierte Kostenträger, die bzw. den Sie im Sachkonto eingerichtet haben, automatisch in die Kostenrechnung übertragen werden, aktivieren Sie das Kontrollkästchen **Fibu-Buchung prüfen** auf der Seite Kosenbuchungseinrichtung.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Kostenrechnung](finance-manage-cost-accounting.md)  
 [Übertragung und Buchung von Kostenposten](finance-transfer-and-post-cost-entries.md)  

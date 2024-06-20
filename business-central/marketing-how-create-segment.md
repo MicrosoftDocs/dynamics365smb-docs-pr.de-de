@@ -9,11 +9,12 @@ ms.search.form: '5091, 5093'
 ms.date: 04/01/2021
 ms.author: jswymer
 ms.service: dynamics-365-business-central
+ms.reviewer: jswymer
 ---
-# <a name="create-segments"></a>Segmente erstellen
+# Segmente erstellen
 Sie können Segmente zur Auswahl einer Gruppe von Kontakten erstellen, z. B. wenn Sie eine Aktivität mit mehreren Kontakten erstellen möchten (z. B. Direktmail).
 
-## <a name="to-create-a-segment"></a>So erstellen Sie ein Segment
+## So erstellen Sie ein Segment
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Segmente** ein, und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie die Aktion **Neu**.
 3. Geben Sie im Abschnitt **Allgemein** im Feld **Nr.** eine Nummer für das Segment ein.
@@ -23,7 +24,7 @@ Sie können Segmente zur Auswahl einer Gruppe von Kontakten erstellen, z. B. wen
 
 Jetzt können Sie Kontakte zum Segment hinzufügen. Weitere Informationen finden Sie unter [Kontakte zu Segmenten hinzufügen](marketing-add-contact-segment.md).
 
-## <a name="see-also"></a>Weitere Informationen
+## Weitere Informationen
 [Verwalten von Segmenten](marketing-segments.md)  
 [Verkaufschancen verwalten](marketing-manage-sales-opportunities.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

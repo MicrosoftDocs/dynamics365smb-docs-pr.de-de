@@ -3,7 +3,7 @@ title: Allgemeine Anlageninformationen einrichten
 description: 'Bevor Sie den Bereich "Anlagenbuchhaltung" verwenden können, müssen Sie die Sachkonten, die Buch.-Blattvorlagen und die Buch.-Blätter und Klassencodes einrichten, die für die Buchung verwendet werden.'
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bnielse
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.form: '5623, 5615, 5661, 5662, 5627, 5616, 5620, 5629, 5633, 5609, 5631, 5630, 5617, 5612, 5613, 5608, 5609, 5635, 9277'
 ms.date: 03/25/2024
@@ -11,18 +11,18 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="set-up-general-fixed-assets-information"></a>Allgemeine Anlageninformationen einrichten
+# Allgemeine Anlageninformationen einrichten
 
 Bevor Sie Anlagen verwalten können, müssen Sie die standardmäßigen Sachkonten, die Verteilungsschlüssel und Buch.-Blattvorlage einrichten, um Anlagen zu buchen und neu zu klassifizieren. Legen Sie außerdem eine Klassifizierungshierarchie (Klassen und Unterklassen) fest, um Ihre Anlagen zu strukturieren, und legen Sie bei Bedarf die Speicherorte fest, an denen Sie sie speichern.
 
-## <a name="to-set-up-general-behavior-for-fixed-assets-functionality"></a>So richten Sie das allgemeine Verhalten der Anlagenfunktion ein
+## So richten Sie das allgemeine Verhalten der Anlagenfunktion ein
 
 Legen Sie auf der Seite **Anlagen Einrichtung** das allgemeine Verhalten der Anlagenfunktionalität und seine Belegnummernserien fest.
 
 1. Wählen Sie das Symbol ![Glühbirne, die die „Sie wünschen ...“-Funktion öffnet](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren") Symbol. Geben Sie **Anlagen Einrichtung** ein, und wählen Sie dann den entsprechenden Link.  
 2. Füllen Sie die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="to-set-up-fixed-asset-posting-groups"></a>So richten Sie Anlagenbuchungsgruppen ein
+## So richten Sie Anlagenbuchungsgruppen ein
 
 Verwenden von Buchungsgruppen zum Definieren von Anlagengruppen Posten in diesen Buchungsgruppen werden auf die gleichen Sachkonten gebucht.
 
@@ -36,7 +36,7 @@ Verwenden von Buchungsgruppen zum Definieren von Anlagengruppen Posten in diesen
 
 Weitere Informationen zur Verwendung der Aktion **Anlagengegenkonto einfügen** in den Anlagen-Fibu-Buchungslattzeilen, finden Sie unter [Anlagen neu bewerten](fa-how-revalue.md).
 
-## <a name="to-set-up-fixed-asset-journal-templates"></a>So richten Sie Anlagen Buch.-Blattvorlagen ein
+## So richten Sie Anlagen Buch.-Blattvorlagen ein
 
 Eine Vorlage ist ein vordefiniertes Layout für ein Buch.-Blatt. Eine Vorlage enthält Informationen über Verfolgungscodes, Berichte und Nummernserien. Weitere Informationen finden Sie unter [Arbeiten mit Allgemeinen Buch.-Blättern](ui-work-general-journals.md).
 
@@ -45,25 +45,25 @@ Eine Vorlage ist ein vordefiniertes Layout für ein Buch.-Blatt. Eine Vorlage en
 1. Wählen Sie das Symbol ![Glühbirne, die die „Sie wünschen ...“-Funktion öffnet](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Anl. Buch.-Blattvorlagen** ein und wählen Sie dann den zugehörigen Link.  
 2. Füllen Sie die Felder nach Bedarf aus.
 
-## <a name="to-set-up-fixed-asset-class-and-subclass-codes"></a>So richten Sie Codes für Anlagenklassen und -unterklassen ein
+## So richten Sie Codes für Anlagenklassen und -unterklassen ein
 
 Im Anlagen können Sie eine Klassifizierungshierarchie festlegen, die zum Gruppieren von Anlagen verwendet werden kann. Die Hierarchie hat zwei Ebenen: Klassen und Unterklassen.
 
-### <a name="fixed-asset-class-codes"></a>Anlagenklassencodes
+### Anlagenklassencodes
 
 Anlagenklassen sind die obersten Einträge in der Klassifizierungshierarchie, in der Sie Anlagen gruppieren. Verwenden Sie Klassen zum Beispiel, um Anlagen in materielle und immaterielle Anlagen zu unterteilen. Sie müssen in Ihrer Einrichtung mindestens eine Anlagenklasse erstellen.
 
 1. Wählen Sie das Symbol ![Glühbirne, die die „Sie wünschen ...“-Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **FA Anlagenklassen** ein und wählen Sie dann den zugehörigen Link.
 2. Geben Sie die Codes und die Namen für die Anlagenklassen ein, die Sie erstellen möchten.
 
-### <a name="fixed-asset-subclass-codes"></a>Anlagenunterklassencodes
+### Anlagenunterklassencodes
 
 Anlagenunterklassen sind die Einträge der zweiten Stufe in der Klassifizierungshierarchie, in der Sie Anlagen gruppieren. Jede Unterklasse verweist auf eine Klasse der obersten Ebene. Sie können Anlagenunterklassencodes verwenden, um Anlagen in spezifischere Kategorien einzuteilen, z. B. in Gebäude, Fahrzeuge, Möbel oder Maschinen. Sie müssen in Ihrer Einrichtung mindestens eine Anlagenunterklasse erstellen.
 
 1. Wählen Sie das Symbol ![Glühbirne, die die „Sie wünschen ...“-Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **FA Anlagensachgruppen** ein, und wählen Sie dann den zugehörigen Link.
 2. Geben Sie die Codes und die Namen für die Anlagenunterklassen ein, die Sie erstellen möchten.
 
-## <a name="start-to-register-assets"></a>Mit der Registrierung von Anlagen beginnen
+## Mit der Registrierung von Anlagen beginnen
 
 Falls Sie die Anlagen in [!INCLUDE[prod_short](includes/prod_short.md)] zum ersten Mal verwenden, müssen Sie zuerst den Finanzbuchhaltungsbereich einrichten, bevor Sie Anlagen einrichten können. Wie dies erfolgt, hängt davon ab, ob Sie Anlagen in die Finanzbuchhaltung integrieren.  
 
@@ -87,14 +87,14 @@ Die folgende Vorgehensweise wird verwendet, wenn Anlagentransaktionen in die Fin
 
 Falls die Anlagen nicht in die Finanzbuchhaltung integriert sind, können Sie die Schritte 6 und 8 überspringen.
 
-## <a name="to-set-up-fixed-asset-location-codes-optional"></a>So richten Sie Anlagenstandortcodes ein (optional)
+## So richten Sie Anlagenstandortcodes ein (optional)
 
 Anlagenstandortcodes legen Bezeichner dafür fest, wo sich eine Anlage befindet, beispielsweise Vertrieb, Empfang, Verwaltung, Produktion oder Lager. Sie können mit ihrer Hilfe den Standort einer Anlage erfassen. Diese Information dient beispielsweise dazu, für Versicherungen anzugeben, in welchem Bereich des Unternehmens oder an welchem Ort sich eine Anlage im Einsatz befindet.
 
 1. Wählen Sie das Symbol ![Glühbirne, die die „Sie wünschen ...“-Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **FA Lagerorte** ein und wählen Sie dann den zugehörigen Link.
 2. Geben Sie die Codes und die Namen für die Anlagenstandorte ein, die Sie erstellen möchten.
 
-## <a name="to-set-up-fixed-asset-allocation-keys-optional"></a>So richten Sie Anlagenverteilungsschlüssel ein (optional)
+## So richten Sie Anlagenverteilungsschlüssel ein (optional)
 
 Verwenden Sie Verteilungsschlüssel, um Transaktionen verschiedenen Abteilungen oder Projekten zuzuweisen. Sie können z. B. einen Verteilungsschlüssel einrichten, um die AfA-Beträge von Fahrzeugen zu 35 Prozent auf die Verwaltung und zu 65 Prozent auf den Vertrieb zu verteilen. Weitere Informationen finden Sie unter [Vorgehensweise: Kosten und Einnahmen zuweisen](year-allocate-costs-income.md)
 
@@ -105,7 +105,7 @@ Verteilungsschlüssel gelten für feste Anlagenklassen, nicht für einzelne Anla
 3. Füllen Sie auf der Seite **Anlagenverteilungen** die notwendigen Felder aus.
 4. Wiederholen Sie Schritt 2 und 3 für alle Buchungsarten, für die Sie Verteilungsschlüssel einrichten wollen.
 
-## <a name="to-set-up-fixed-asset-journal-batches-optional"></a>So richten Sie Anlagen-Buch.-Blattnamen ein (optional)
+## So richten Sie Anlagen-Buch.-Blattnamen ein (optional)
 
 Sie können mehrere Buch.-Blattnamen erstellen, d. h. mehrere individuelle Buch.-Blätter für jede Buch.-Blattvorlage. Sie können z. B. für jeden Mitarbeiter ein eigenes Buch.-Blatt benutzen, dass die Initialien des Mitarbeiters im Namen verwendet. Weitere Informationen finden Sie unter [Arbeit mit allgemeinen Zeitschriften](ui-work-general-journals.md).  
 
@@ -113,14 +113,14 @@ Sie können mehrere Buch.-Blattnamen erstellen, d. h. mehrere individuelle Buch.
 2. Wählen Sie die entsprechende Buch.-Blattvorlage und dann die Aktion **Buch.-Blattnamen** aus.
 3. Füllen Sie auf der Seite **Anlagen Buch.-Blattnamen** die notwendigen Felder aus.
 
-## <a name="to-set-up-fixed-asset-reclassification-journal-templates-optional"></a>So richten Sie Vorlagen für Buch.-Blätter für Neuklassifizierungen ein (optional)
+## So richten Sie Vorlagen für Buch.-Blätter für Neuklassifizierungen ein (optional)
 
 Verwenden Sie spezifische Buch.-Blätter für die Neuklassifizierung dienen zum Übertragen, Aufteilen oder Zusammenfassen von Anlagen. [!INCLUDE[prod_short](includes/prod_short.md)] erstellt automatisch eine Buch.-Blatt-Vorlage für die Anlagenneuklassifizierung, wenn Sie zum ersten Mal die Seite **Anlagenneuklassifizierungs-Buch.-Blatt** öffnen. Sie können aber auch andere Neuklassifizierungs-Buch.-Blattvorlagen einrichten. Weitere Informationen finden Sie unter [Arbeiten mit Allgemeinen Buch.-Blättern](ui-work-general-journals.md).  
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **FA Reclass. Erfassungen** ein und wählen Sie dann den zugehörigen Link.  
 2. Füllen Sie die Felder nach Bedarf aus.
 
-## <a name="to-set-up-fixed-asset-reclassification-journal-batches-optional"></a>So richten Sie Anlagenneuklassfizierungs-Buch.-Blattnamen ein (optional)
+## So richten Sie Anlagenneuklassfizierungs-Buch.-Blattnamen ein (optional)
 
 Sie können mehrere Buch.-Blattnamen erstellen, d. h. mehrere individuelle Buch.-Blätter für jede Umbuch.-Blattvorlage. Sie können z. B. für jeden Mitarbeiter ein eigenes Umbuch.-Blatt verwenden, das die Initialen des Mitarbeiters im Namen verwendet. Weitere Informationen finden Sie unter [Arbeiten mit Allgemeinen Buch.-Blättern](ui-work-general-journals.md).
 
@@ -128,7 +128,7 @@ Sie können mehrere Buch.-Blattnamen erstellen, d. h. mehrere individuelle Buch.
 2. Wählen Sie die entsprechende Buch.-Blattvorlage und dann die Aktion **Buch.-Blattnamen** aus.
 3. Füllen Sie auf der Seite **Anlagen Umbuch.-Blattnamen** die notwendigen Felder aus.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Einrichten von Anlagen](fa-setup.md)  
 [Anlagen – Übersicht](fa-manage.md)  
