@@ -10,10 +10,10 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Verwenden der Fertigungsloseinheit
+# <a name="work-with-manufacturing-batch-units-of-measure"></a>Verwenden der Fertigungsloseinheit
 Wenn ein Artikel in einer Einheit am Lager geführt, aber in einer anderen Einheit gefertigt wird, wird ein Fertigungsauftrag erstellt, für den eine Fertigungsloseinheit verwendet wird, um in der Stapelverarbeitung **Herstellungsantrag erneuern** die richtige Menge der Komponenten zu berechnen. Ein Beispiel für eine Berechnung über eine Fertigungsloseinheit ergibt sich, wenn ein Produktionsartikel am Lager in Einheiten geführt, aber in Tonnen gefertigt wird.  
 
-## Eine Fertigungsstückliste mit eine Fertigungsloseinheit erstellen  
+## <a name="to-create-a-production-bom-using-a-batch-unit-of-measure"></a>Eine Fertigungsstückliste mit eine Fertigungsloseinheit erstellen
 1.  Die Fertigungsloseinheit wird für den zu fertigenden Artikel auf der Seite **Artikeleinheiten als alternative Einheit** eingerichtet. Die Fertigungsloseinheit ersetzt nicht die Basiseinheit für den Artikel.  
 2.  Erstellen Sie eine Fertigungsstückliste für den Artikel, die mit der Fertigungsloseinheit eingerichtet wird. Weitere Informationen finden Sie unter [Erstellen von Montagestücklisten](production-how-to-create-production-boms.md).  
 3.  Wählen Sie im Feld **Basiseinheitencode** die Fertigungsloseinheit aus.  
@@ -26,7 +26,7 @@ Wenn ein Artikel in einer Einheit am Lager geführt, aber in einer anderen Einhe
 
 Wählen Sie im Inforegister **Zeilen** **Aktionen**, und wählen Sie Zeile, und dann **Komponenten**, um das Ergebnis anzuzeigen. Die Anwendungberechnet die richtige Menge der Komponenten, die für die Fertigungsstückliste gemäß der Fertigungsloseinheit erforderlich ist.  
 
-## Fertigungsloseinheit in einem Fertigungsauftrag berechnen  
+## <a name="to-calculate-a-manufacturing-batch-unit-of-measure-on-a-production-order"></a>Fertigungsloseinheit in einem Fertigungsauftrag berechnen
 1.  Erstellen Sie einen Fertigungsauftragskopf mit dem Artikel, der mit der Fertigungsloseinheit eingerichtet wurde.  
 2.  Geben Sie in der Zeile des Fertigungsauftrags in das Feld **Artikelnr.** die Artikelnummer eine, die im Kopf steht.  
 3.  Geben Sie in das Feld **Menge** die Menge ein, die im Kopf steht.  
@@ -36,7 +36,7 @@ Wählen Sie im Inforegister **Zeilen** **Aktionen**, und wählen Sie Zeile, und 
 7.  Wählen Sie die Schaltfläche **OK** aus.  
 8.  Wählen Sie im Inforegister **Zeilen** **Aktionen**, und wählen Sie Zeile, und dann **Komponenten**, um das Ergebnis anzuzeigen. Die richtige Menge der Komponenten, die für die Fertigungsstückliste gemäß der Fertigungsloseinheit erforderlich ist, wird berechnet.  
 
-## Siehe auch  
+## <a name="see-also"></a>Siehe auch
 [Routings erstellen](production-how-to-create-routings.md)  
 [Fertigungsauftrag erstellen](production-how-to-create-production-boms.md)     
 [Produktion einrichten](production-configure-production-processes.md)  

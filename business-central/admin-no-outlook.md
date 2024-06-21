@@ -10,14 +10,14 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Business Central ohne Outlook verwenden
+# <a name="use-business-central-without-outlook"></a>Business Central ohne Outlook verwenden
 [!INCLUDE[prod_short](includes/prod_short.md)] ist in Microsoft 365 integriert, und Sie können [!INCLUDE[prod_short](includes/prod_short.md)] als Ihr Unternehmenspostfach in Outlook verwenden. Wenn, wenn Sie kein Outlook haben, können Sie mit [!INCLUDE[prod_short](includes/prod_short.md)] im Browser oder auf dem mobilen Gerät arbeiten.  
 
-## E-Mails senden
+## <a name="sending-email"></a>E-Mails senden
 Sie können Dokumente wie Rechnungen als E-Mail über Ihre geschäftliche E-Mail Adresse senden. Sie können von Ihrem Rollencenter auf eine unterstützte Einrichtung zugreifen, die dabei Ihnen hilft, E-Mail einzurichten. Wenn Sie kein E-Mail-Konto in Microsoft 365 verwenden, müssen Sie technische Informationen über Ihren E-Mail Server angeben. Wenn Ihnen diese Information nicht zur Verfügung stehen, wenden Sie sich an Ihren IT-Support.  
 
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 [Vorbereitung auf die Verwendung](ui-get-ready-business.md)  
 [Business Central als Posteingang für Ihr Unternehmen in Outlook verwenden](admin-outlook.md)  
 [Abrufen von Business Central auf meinem mobilen Gerät](install-mobile-app.md)  

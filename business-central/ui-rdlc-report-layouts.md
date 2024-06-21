@@ -10,13 +10,13 @@ ms.date: 12/04/2023
 ms.author: jswymer
 ms.reviewer: jswymer
 ---
-# Arbeiten mit RDLC-Layouts
+# <a name="working-with-rdlc-layouts"></a>Arbeiten mit RDLC-Layouts
 
 RDLC-Layouts basieren auf Layoutdateien für Berichtsdefinitionen (.rdl- oder .rdlc-Dateitypen). Die Designkonzepte für RDLC-Layouts ähneln denen anderer Layouttypen. Das Layout bestimmt, welche Felder angezeigt werden und wie sie angeordnet sind. Allerdings ist der Entwurf von RDLC-Layouts weiter fortgeschritten als bei Word- und Excel-Layouts.
 
 [![Zeigt die unterschiedlichen Elemente eines RDLC-Layouts.](media/rdlc-layout.png)](media/rdlc-layout.png#lightbox)
 
-## Erforderliche Tools
+## <a name="required-tools"></a>Erforderliche Tools
 
 Um RDL-Layouts zu ändern, können Sie den Microsoft SQL Server Berichts-Generator oder Microsoft Visual Studio mit dem RDLC Report Designer verwenden.
 
@@ -24,7 +24,7 @@ Um RDL-Layouts zu ändern, können Sie den Microsoft SQL Server Berichts-Generat
 
 - RDLC Report Designer ist eine Erweiterung für Visual Studio 2019 und später. Sie können RDLC Report Designer vom [Visual Studio Marktplatz](https://marketplace.visualstudio.com/items?itemName=ProBITools.MicrosoftRdlcReportDesignerforVisualStudio-18001) herunterladen und installieren.
 
-## RDLC-Lyouts erstellen und ändern
+## <a name="create-and-modify-rdlc-layouts"></a>RDLC-Lyouts erstellen und ändern
 
 Das Erstellen und Ändern von RDLC-Layouts ist eine anspruchsvolle Aufgabe, die normalerweise von Hauptbenutzern oder Entwicklern ausgeführt wird. Die grundlegenden Konzepte sind nicht spezifisch für Business Central-Berichtslayouts. Aus diesem Grund verweisen wir auf folgende Dokumentation:
 
@@ -39,7 +39,7 @@ Das Erstellen und Ändern von RDLC-Layouts ist eine anspruchsvolle Aufgabe, die 
 > [!NOTE]
 > Der Berichts-Generator erkennt nur den Dateityp .rdl, nicht .rdlc. Aus Business Central exportierte Layoutdateien haben den Dateityp .rdlc. Um dieses Layout in Report Builder zu ändern, benennen Sie den Dateityp also in .rdl um.
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Verwalten von Berichtslayouts](ui-manage-report-layouts.md)  
 [Die von einem Bericht verwendeten Layouts festlegen](ui-set-report-layout.md)  

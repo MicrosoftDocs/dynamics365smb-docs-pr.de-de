@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Überblick über E-Belege
+# <a name="e-documents-overview"></a>Überblick über E-Belege
 
 Elektronische Belege (E-Belege) sind das Rückgrat moderner Geschäftstransaktionen. Sie umfassen wichtige Belege wie Rechnungen und Quittungen in beide Richtungen (Lieferung und Eingang). Sie bieten außerdem Funktionen für die Übermittlung von Nachrichten im Zusammen mit dem Belegstatus zwischen Zugriffspunkten.
 
@@ -35,7 +35,7 @@ In der Dokumentation werden E-Belege ausführlich erläutert. Sie zeigt die Funk
 | [Daten elektronisch austauschen](across-data-exchange.md) | Erfahren Sie mehr über die Verwendung des Datenaustauschframeworks, um den Austausch von Daten in geschäftlichen Belegen wie Bankdateien und Wechselkursen zu verwalten. | 
 | [E-Belege mit Copilot Bestellpositionen zuordnen (Vorschauversion)](map-edocuments-with-copilot.md) | Erfahren Sie, wie Sie mit Copilot Ihre Effizienz bei der Arbeit mit E-Belegen steigern können. |
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Finanzmanagement](finance.md)    
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

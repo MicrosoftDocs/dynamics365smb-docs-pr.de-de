@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Verkaufsanalyse
+# <a name="sales-analytics"></a>Verkaufsanalyse
 
 Unternehmen erfassen im Laufe ihrer täglichen Arbeit eine Menge Daten, die wertvolle Business Intelligence (BI) für Führungskräfte im Verkauf liefern:
 
@@ -32,7 +32,7 @@ Jedes dieser Features hat Vor- und Nachteile, die von der Art der Datenanalyse u
 
 Dieser Artikel erklärt, wie Sie diese Analysefeatures nutzen können, um Erkenntnisse zum Verkauf zu gewinnen.
 
-## Analyseanforderungen im Verkauf
+## <a name="analytics-needs-in-sales"></a>Analyseanforderungen im Verkauf
 
 Wenn Sie über Analyseanforderungen im Verkaufsmanagement nachdenken, kann es hilfreich sein, ein auf Personas basierendes Modell zu verwenden, das verschiedene Analyseanforderungen allgemein beschreibt.
 
@@ -49,14 +49,14 @@ Mitarbeitende in unterschiedlichen Rollen haben unterschiedliche Anforderungen a
 |Kundenbetreuung, Verkaufende | Detaillierte Daten     | Integrierte betriebliche Berichte <br> Aufgabendaten am Bildschirm |
 
 <!-- 
-## Sales KPIs
+## <a name="sales-kpis"></a>Sales KPIs
 
 A key performance indicator (KPI) is a measurable value that shows how effectively you’re meeting your goals. In sales management, people often use the following KPIs to monitor their organization's sales performance:
 
 - TODO  
 -->
 
-## Finanzberichte für die Erstellung von Finanzauswertungen und KPIs im Zusammenhang mit dem Verkauf verwenden
+## <a name="use-financial-reporting-to-produce-financial-statements-and-kpis-related-to-sales"></a>Finanzberichte für die Erstellung von Finanzauswertungen und KPIs im Zusammenhang mit dem Verkauf verwenden
 
 Das Feature **Finanzberichterstattung** gibt Ihnen Einblick in die in Ihrem Kontenplan (COA) enthaltenen Finanzdaten. Sie können Finanzberichte einrichten, um die Zahlen in den Finanzbuchhaltungskonten zu analysieren und Sachposten mit Budgetposten zu vergleichen. Speziell für das Verkaufsmanagement können Sie Finanzberichte zu den Sachkonten einrichten, die Sie zum Verfolgen von Verkaufsbuchungen verwenden.
 
@@ -64,13 +64,13 @@ Dimensionen spielen eine wichtige Rolle bei Business Intelligence. Bei einer Dim
 
 Erfahren Sie mehr unter Finanzberichte unter [Finanzberichte mit Finanzdaten und Kontenkategorien erstellen](bi-how-work-account-schedule.md).
 
-## Mit dem Verkauf zusammenhängende Finanzberichte über Konzernmandanten oder juristische Personen hinweg
+## <a name="finance-reporting-across-business-units-or-legal-entities-related-to-sales"></a>Mit dem Verkauf zusammenhängende Finanzberichte über Konzernmandanten oder juristische Personen hinweg
 
 Einige Organisationen verwenden [!INCLUDE [prod_short](includes/prod_short.md)] in mehreren Konzernmandanten oder juristischen Personen. Andere verwenden [!INCLUDE [prod_short](includes/prod_short.md)] in Niederlassungen, die der Mutterorganisation unterstehen. [!INCLUDE [prod_short](includes/prod_short.md)] bietet Buchhaltern Tools, die ihnen helfen, Hauptbucheinträge von zwei oder mehr Unternehmen (Tochtergesellschaften) in ein konsolidiertes Unternehmen zu übertragen. Insbesondere für das Verkaufsmanagement möchten Sie möglicherweise Sachposten für Ihre Verkaufskonten konsolidieren, um Verkaufs-KPIs über Konzernmandanten oder juristische Personen hinweg nachverfolgen zu können.
 
 Weitere Informationen finden Sie unter [Unternehmenskonsolidierung](finance-consolidated-company-reporting.md).
 
-## Ad-hoc-Analysen von Verkaufsdaten
+## <a name="ad-hoc-analysis-of-sales-data"></a>Ad-hoc-Analysen von Verkaufsdaten
 
 Manchmal wollen Sie nur prüfen, ob die Zahlen stimmen, oder schnell eine Zahl bestätigen. Die folgenden Features eignen sich hervorragend für Ad-hoc-Analysen:
 
@@ -90,7 +90,7 @@ Ebenso können Sie die Aktion **In Excel öffnen** verwenden, um eine Listenseit
 
 Weitere Informationen zur Ad-hoc-Analyse von Verkaufsdaten finden Sie unter [Ad-hoc-Analyse von Verkaufsdaten](ad-hoc-analysis-sales.md). 
 
-## Integrierte Berichte für den Verkauf
+## <a name="built-in-reports-for-sales"></a>Integrierte Berichte für den Verkauf
 
 [!INCLUDE [prod_short](includes/prod_short.md)] enthält mehrere integrierte Berichte, Nachverfolgungsfunktionen und Tools, die Verkaufsorganisationen bei der Berichterstattung über ihre Daten unterstützen.
 
@@ -105,7 +105,7 @@ Es gibt zwei Varianten integrierter Berichte:
 
 Weitere Informationen zu Berichten, die für den Verkauf relevant sind, finden Sie unter [Integrierte Berichte für den Verkauf](sales-reports.md).
 
-## Verkaufsanalysen am Bildschirm
+## <a name="on-screen-sales-analytics"></a>Verkaufsanalysen am Bildschirm
 
 [!INCLUDE [prod_short](includes/prod_short.md)] verfügt über mehrere Seiten, die Ihnen einen Überblick über den Verkauf und die zu erledigenden Aufgaben bieten. Hier sind einige Beispiele, mit denen Sie anfangen können:
 
@@ -121,7 +121,7 @@ Weitere Informationen zu Berichten, die für den Verkauf relevant sind, finden S
 - [Lassen Sie sich ungebuchte und gebuchte Zeilen des Verkaufsrahmenauftrags anzeigen](sales-how-to-create-blanket-sales-orders.md#to-view-unposted-and-posted-blanket-sales-order-lines)
 
 
-### Mit dem Verkauf zusammenhängende Sachposten und Salden auf der Seite „Kontenplan“ anzeigen
+### <a name="show-sales-related-general-ledger-entries-and-balances-from-the-chart-of-accounts-page"></a>Mit dem Verkauf zusammenhängende Sachposten und Salden auf der Seite „Kontenplan“ anzeigen
 
 Auf der Seite „Kontenplan“ werden alle Sachkonten mit aggregierten Zahlen zu den in der Finanzbuchhaltung gebuchten Beträgen angezeigt. Von dieser Seite aus können Sie beispielsweise Folgendes tun:  
 
@@ -135,7 +135,7 @@ Speziell für den Verkauf können Sie auf der Seite „Kontenplan“ eine Ansich
 
 Weitere Informationen finden Sie unter [Den Kontenplan verstehen](finance-general-ledger.md#the-chart-of-accounts).
 
-### Daten nach (mit dem Verkauf zusammenhängenden) Dimensionen analysieren
+### <a name="analyze-data-by-dimensions-related-to-sales"></a>Daten nach (mit dem Verkauf zusammenhängenden) Dimensionen analysieren
 
 Dimensionen sind Attribute und Werte, die Posten kategorisieren, sodass Sie sie auf Dokumenten wie Verkaufsaufträgen verfolgen und analysieren können. Dimensionen können beispielsweise angegeben, aus welchem Projekt oder aus welcher Abteilung ein Posten stammt.  
 
@@ -143,7 +143,7 @@ Anstatt also separate Finanzbuchhaltungskonten für jede Abteilung und jeden Sta
 
 Mehr erfahren Sie unter [Daten nach Dimensionen analysieren](bi-how-analyze-data-dimension.md).
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Unternehmenskonsolidierung](finance-consolidated-company-reporting.md)   
 [Finanzberichte mit Finanzdaten und Kontenkategorien erstellen](bi-how-work-account-schedule.md)  

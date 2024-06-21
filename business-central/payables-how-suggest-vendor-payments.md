@@ -11,7 +11,7 @@ ms.date: 12/04/2023
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# Zahlungsvorschlag
+# <a name="suggest-vendor-payments"></a>Zahlungsvorschlag
 
 Auf der Seite **Zahlungsjournal** können Sie die Stapelverarbeitung **Zahlungsvorschlag** verwenden, um Zahlungspositionen vorzuschlagen. Basierend auf Ihren Einstellungen, schlägt [!INCLUDE [prod_short](includes/prod_short.md)] Zeilen für Folgendes vor:
 
@@ -30,14 +30,14 @@ Um aus vorgeschlagenen Zeilen voll zu profitieren, müssen Sie die Kreditoren pr
 > * Überfällige Kreditorenposten, die nicht berücksichtigt werden.  
 > * Öffnen Sie die Kreditorenposten, die sich für Skonti qualifizieren. Die Einträge sind nach Kreditorennummer geordnet.  
 
-## Die Zahlungsvorschlagsaktion verwenden
+## <a name="use-the-suggest-vendor-payments-action"></a>Die Zahlungsvorschlagsaktion verwenden
 
 1. Wählen Sie das ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Zahlungsausgangs Buch.-Blätter** ein und wählen Sie dann den zugehörigen Link.  
 2. Öffnen Sie das Buch.-Blatt und wählen Sie dann die Aktion **Zahlungsvorschlag**.  
 3. Füllen Sie die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Wählen Sie die Schaltfläche **OK** aus.  
 
-## Das Fälligkeitsdatum als Buchungsdatum auf Zahlungs-Buch.-Blattzeilen einfügen
+## <a name="insert-the-due-date-as-posting-date-on-payment-journal-lines"></a>Das Fälligkeitsdatum als Buchungsdatum auf Zahlungs-Buch.-Blattzeilen einfügen
 
 Wenn Sie die Stapelverarbeitung **Zahlungsvorschlag** verwenden, um Zahlungszeilen für Ihre Kreditoren zu erstellen, können Sie zwei Felder ausfüllen, um sicherzustellen, dass die erzeugten Zeilen das Fälligkeitsdatum verwenden, um das Buchungsdatum zu berechnen. Diese Felder sind **Buchungsdatum von Fälligkeitsdatum für Ausgleich mit Beleg berechnen** und **Offset für Fälligkeitsdatum für Ausgleich mit Beleg**.  
 
@@ -51,7 +51,7 @@ Sie können auch die Zahlungspositionen mithilfe des Fälligkeitsdatums manuell 
 > [!NOTE]  
 > Wenn die Einkaufsrechnung überfällig ist, wird das Buchungsdatum auf das Arbeitsdatum festgelegt, und die Schrift auf der Zeile wird zu rot geändert.  
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 - [Verwalten von Verbindlichkeiten](payables-manage-payables.md)  
 - [Zahlungen vornehmen](payables-make-payments.md)  

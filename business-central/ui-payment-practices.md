@@ -11,7 +11,7 @@ ms.author: altotovi
 ms.reviewer: bholtorf
 --- 
 
-# Zahlungsmethodenbericht  
+# <a name="payment-practices-report"></a>Zahlungsmethodenbericht
 
 In einigen Ländern/Regionen sind Unternehmen verpflichtet, die von den örtlichen Behörden festgelegten Zahlungsfristen für ihre Kreditoren zu melden. Dieses Berichte können auf unterschiedlichen Quellen basieren und Kreditoren nach ihrer Größe oder ihren festgelegten Zahlungsbedingungen sortieren, sodass im Hinblick auf die Kreditoren gemäß den Vorgaben der lokalen Behörden Berichte über Folgendes erstellt werden können:  
 
@@ -24,7 +24,7 @@ Benutzende können die Periode auswählen, für die sie eine Berechnung ausführ
 > [!NOTE]
 > Diese Berichterstattung ist bislang nur in einigen Ländern vorgeschrieben, es handelt sich jedoch um eine globale Funktion, die überall verwendet werden kann. Derzeit müssen schwedische Unternehmen mit mindestens 250 Mitarbeitenden dem schwedischen Handelsregister jedes Jahr melden, welche Zahlungsfristen sie für Einkäufe bei kleineren Unternehmen haben. Ähnliche Gesetze gibt es im Vereinigten Königreich, in Australien und Neuseeland.  
 
-## Den Bericht generieren 
+## <a name="generate-the-report"></a>Den Bericht generieren
 
 Um den Bericht **Zahlungsmethoden** auszuführen, gehen Sie wie folgt vor:
 
@@ -48,7 +48,7 @@ Um den Bericht **Zahlungsmethoden** auszuführen, gehen Sie wie folgt vor:
 6. Sie können von allen berechneten Feldern aus tiefer vordringen und sehen, wie dieses Ergebnis berechnet wurde, indem Sie die Seite **Zahlungsmethoden-Datenliste** öffnen.
 7. Wenn Sie den Beleg drucken möchten, können Sie dies über die Aktion **Drucken** tun.
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Finanzberichte](finance-reports.md)  
 [Analysieren von Finanzberichten in Microsoft Excel](finance-analyze-excel.md)  

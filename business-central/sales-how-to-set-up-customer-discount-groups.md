@@ -8,13 +8,13 @@ ms.date: 06/08/2022
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ---
-# Debitorenrabattgruppen einrichten
+# <a name="set-up-customer-discount-groups"></a>Debitorenrabattgruppen einrichten
 
 Sie können Verkaufszeilenrabatte für eine Gruppe von Debitoren definieren, anstatt sie einzeln anzuwenden.
 
 **Debitorenrabattgruppen** funktionieren ähnlich wie [Debitorenpreisgruppen](sales-how-to-set-up-customer-price-groups.md), können jedoch mit Artikelrabattgruppen kombiniert werden, um für ausgewählte Debitoren schnell Zeilenrabatte für viele Artikel festzulegen.
 
-## Verkaufszeilenrabatte für eine Debitorgruppe erstellen
+## <a name="create-sales-line-discounts-for-a-customer-group"></a>Verkaufszeilenrabatte für eine Debitorgruppe erstellen
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?"). Symbol, geben Sie **Debitorenpreisgruppen** ein, und wählen Sie dann den entsprechenden Link aus.
 2. Wählen Sie auf der Seite **Debitorenpreisgruppen** die Option **Neu** aus, um eine neue Rabattgruppe zu erstellen und ihr unter der Spalte **Code** einen Namen zu geben und eine Beschreibung hinzuzufügen.
@@ -27,7 +27,7 @@ Sie können Verkaufszeilenrabatte für eine Gruppe von Debitoren definieren, ans
 
 Wiederholen Sie die Schritte 4 bis 8 für jeden Artikel oder für jede Artikelrabattgruppe, für die Sie einen Verkaufszeilenrabatt erstellen möchten.
 
-## Einen Debitor einer Rabattgruppe zuweisen
+## <a name="assign-a-customer-to-a-discount-group"></a>Einen Debitor einer Rabattgruppe zuweisen
 
 Nachdem Sie die Debitorenrabattgruppen festgelegt haben, können Sie die Debitorenrabattgruppen-Codes auf den Debitorenkarten eingeben.
 
@@ -35,7 +35,7 @@ Nachdem Sie die Debitorenrabattgruppen festgelegt haben, können Sie die Debitor
 2. Öffnen Sie die **Debitorenkarte** für einen Debitoren, der Teil einer Debitorenrabattgruppe sein soll.
 3. Wählen Sie im Inforegister **Fakturierung** im Feld **Debitorenrabattgruppe** den Gruppencode aus.
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Verkauf](sales-manage-sales.md)  
 [Einrichten von Verkäufen](sales-setup-sales.md)  

@@ -11,12 +11,12 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Die Erweiterung für Steuerdateiformate (DK)
+# <a name="the-tax-file-formats-dk-extension"></a>Die Erweiterung für Steuerdateiformate (DK)
 Wenn Sie sich in den Handel mit Unternehmen oder internen Zweigstellen oder Tochtergesellschaften engagieren, müssen Sie in anderen EU-Ländern/Regionen die Informationen über die Aktivitäten an SKAT und Statistiken Dänemark melden. Wenn Sie MwSt und Intrastat-Berichte in [!INCLUDE[prod_short](includes/prod_short.md)] verwenden, kann diese Erweiterung sicherstellen, dass die Datei, die Sie exportieren, mit den Anforderungen von diesen Organisationen kompatibel sind. Die Erweiterung fügt die MS-ECSL Berichts-Exportdatei und Intrastat-Export-Zeilenunterordnungscodeunite der Mehrwertsteuer-Berichtskonfiguration hinzu, damit Sie Daten im neuen Format sofort exportieren können.
 
 Die Erweiterung ist kostenlos, Sie müssen Sie nur einrichten.
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 [Anpassen von Business Central über Erweiterungen](ui-extensions.md)
 
 

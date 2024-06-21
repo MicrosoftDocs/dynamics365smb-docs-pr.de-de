@@ -10,15 +10,15 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Verkaufsberichte und -analysen in Business Central
+# <a name="sales-reports-and-analytics-in-business-central"></a>Verkaufsberichte und -analysen in Business Central
 
 Die Umsatzberichterstattung gibt Vertriebs- und Geschäftsfachleuten Einblicke und Statistiken über aktuelle und vergangene Vertriebsaktivitäten.  
 
-## Berichte
+## <a name="reports"></a>Berichte
 
 [!INCLUDE [sales_reports](includes/sales-reports-include.md)]
 
-## Aufgaben
+## <a name="tasks"></a>Aufgaben
 
 In den folgenden Artikeln werden einige der wichtigsten Aufgaben zur Analyse des Status Ihrer Verkäufe beschrieben:
 
@@ -28,7 +28,7 @@ In den folgenden Artikeln werden einige der wichtigsten Aufgaben zur Analyse des
 * [Paketverfolgung](sales-how-track-packages.md)
 * [Nicht gebuchte und gebuchte Zeilen des Rahmenauftrags anzeigen](sales-how-to-create-blanket-sales-orders.md#to-view-unposted-and-posted-blanket-sales-order-lines)
 
-## Verkaufsberichte mit dem Berichts-Explorer kennenlernen
+## <a name="explore-sales-reports-with-report-explorer"></a>Verkaufsberichte mit dem Berichts-Explorer kennenlernen
 
 Um einen Überblick über die für Verkäufe verfügbaren Berichte zu erhalten, wählen Sie auf Ihrer Homepage **Alle Berichte** aus. Dadurch öffnet sich der Rollen-Explorer, der nach den Features in der Option **Bericht und Analyse** gefiltert ist. Wählen Sie unter der Überschrift **Verkauf und Marketing** die Option **Erkunden** aus.
 
@@ -36,7 +36,7 @@ Um einen Überblick über die für Verkäufe verfügbaren Berichte zu erhalten, 
 
 Weitere Informationen finden Sie unter [Mit dem Rollen-Explorer nach Berichten suchen](ui-role-explorer.md).
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Ad-hoc-Analysen von Verkaufsdaten](ad-hoc-analysis-sales.md)    
 [Überblick über Verkaufsanalysen](sales-analytics-overview.md)   

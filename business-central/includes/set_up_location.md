@@ -6,11 +6,11 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-## Einrichten des Lagerorts
+## <a name="setting-up-the-location"></a>Einrichten des Lagerorts
 
 Das Einrichten der Seite **Lagerortkarte** definiert die Warenflüsse des Unternehmens. Verwenden Sie die Lagerortkarte, um einen Lagerort mit dem Codenamen *SÜD* einzurichten.
 
-### So richten Sie den Lageror SÜD ein
+### <a name="to-set-up-the-location-south"></a>So richten Sie den Lageror SÜD ein
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](../media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Lagerorte** ein, und wählen Sie dann den entsprechenden Link.  
 2. Erstellen Sie eine Lagerortkarte mit dem Namen *SÜD*.  

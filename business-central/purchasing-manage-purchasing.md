@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Einkauf
+# <a name="purchasing"></a>Einkauf
 
 Sie erstellen eine Einkaufsrechnung oder Einkaufsbestellung, um die Kosten der Einkäufe zu erfassen und Kreditoren zu verfolgen. Wenn Sie einen Bestand steuern müssen, werden Einkaufsrechnungen auch verwendet, um Lagerbestände dynamisch zu aktualisieren, sodass Sie Ihre Lagerbestandskosten minimieren und besseren Kundenservice bereitstellen können. Die Einkaufskosten, einschließlich Servicekosten und Bestandswerte, die aus der Buchung von Einkaufsrechnungen resultieren, tragen zu den Gewinnzahlen und anderen finanziellen Kennziffern in Ihrem Rollencenter bei.
 
@@ -25,7 +25,7 @@ Für alle Einkaufsprozesse können Sie einen Genehmigungsworkflows einfügen, be
 
 Die folgenden Abschnitte beschreiben eine Reihe von Aufgaben mit Links zu den Artikeln, die sich mit ihnen befassen.
 
-## Erste Schritte mit den Einkaufsfunktionen
+## <a name="get-started-with-purchase-capabilities"></a>Erste Schritte mit den Einkaufsfunktionen
 
 Legen Sie vor dem Kauf von Waren fest, wie Sie die Einkaufsprozesse Ihres Unternehmens handhaben möchten.
 
@@ -34,7 +34,7 @@ Legen Sie vor dem Kauf von Waren fest, wie Sie die Einkaufsprozesse Ihres Untern
 | Konfigurieren der Regeln und Werte, welche die Einkaufsrichtlinien Ihres Unternehmens bestimmen. | [Einkauf einrichten](purchasing-setup-purchasing.md) |
 | Jeden Kreditor, von dem Sie kaufen, mit einer Kreditorenkarte erfassen. | [Neue Kreditoren einrichten](purchasing-how-register-new-vendors.md) |
 
-## Einkaufsanalysen
+## <a name="purchase-analytics"></a>Einkaufsanalysen
 
 In diesem Abschnitt werden die Analysetools beschrieben, mit denen Sie sich Einblick in Ihre Einkaufsprozesse verschaffen können.
 
@@ -44,7 +44,7 @@ In diesem Abschnitt werden die Analysetools beschrieben, mit denen Sie sich Einb
 | Ad-hoc-Analysen von Einkaufsdaten direkt auf Listenseiten und in Abfragen durchführen. | [Ad-hoc-Analysen von Einkaufsdaten](ad-hoc-analysis-purchasing.md) |
 | Integrierte Einkaufsberichte kennenlernen. | [Integrierte Einkaufsberichte](purchase-reports.md) |
 
-## Vom Angebot zum Einkauf bis zur Verkaufsrechnung
+## <a name="quote-to-order-to-purchase-invoice"></a>Vom Angebot zum Einkauf bis zur Verkaufsrechnung
 
 In der folgenden Tabelle wird die Verwendung einfacher Einkaufsprozesse beschrieben.
 
@@ -65,7 +65,7 @@ Wenn Sie komplexere Einkaufsprozesse benötigen, finden Sie in der folgenden Tab
 |Verwalten Sie Ihre Verpflichtung gegenüber einem Lieferanten, große Mengen zu kaufen, die im Laufe der Zeit in mehreren Sendungen geliefert werden.|[Arbeiten mit Rahmenbestellungen](sales-how-to-create-blanket-sales-orders.md)|
 
 
-## Stornierte Aufträge, Rückerstattungen und Retouren
+## <a name="canceled-orders-refunds-and-returns"></a>Stornierte Aufträge, Rückerstattungen und Retouren
 
 In der nachfolgenden Tabelle wird der Umgang mit Stornierungen von Bestellungen, Rückerstattungen und Retouren von Waren, die Sie kaufen, beschrieben.
 
@@ -75,7 +75,7 @@ In der nachfolgenden Tabelle wird der Umgang mit Stornierungen von Bestellungen,
 |Konvertieren Sie zum Beispiel elektronische Rechnungen von Ihren Kreditoren in Business Central in Einkaufsrechnungen.|[Elektronische Belege empfangen und konvertieren](purchasing-how-to-receive-and-convert-electronic-documents.md)|
 
 
-## Andere Prozesse im Verkauf
+## <a name="other-processes-in-sales"></a>Andere Prozesse im Verkauf
 
 In der folgenden Tabelle wird der Umgang mit anderen Einkaufsprozessen beschrieben.
 
@@ -84,11 +84,11 @@ In der folgenden Tabelle wird der Umgang mit anderen Einkaufsprozessen beschrieb
 |Lösen Sie auf Verwirrung auf, wenn zwei oder mehr Datensätze für denselben Kreditor vorhanden sind.|[Doppelte Datensätze zusammenführen](sales-how-merge-duplicate-records.md)|
 
 
-## Externe Belegnummern
+## <a name="external-document-numbers"></a>Externe Belegnummern
 
 [!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Einkaufeinrichten](purchasing-setup-purchasing.md)  
 [Neue Kreditoren einrichten](purchasing-how-register-new-vendors.md)  

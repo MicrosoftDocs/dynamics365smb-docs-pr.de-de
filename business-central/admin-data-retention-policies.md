@@ -11,11 +11,11 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Aufbewahrungsrichtlinien definieren
+# <a name="define-retention-policies"></a>Aufbewahrungsrichtlinien definieren
 
 Dieser Artikel beschreibt, wie Administrierende Aufbewahrungsrichtlinien definieren können, um festzulegen, wie oft veraltete Daten in Tabellen gelöscht werden sollen, die Protokolleinträge und archivierte Datensätze enthalten. Das Bereinigen von Protokolleinträgen kann beispielsweise das Arbeiten mit relevanteren Daten erleichtern. Richtlinien können Daten basierend auf einem Ablaufdatum löschen, oder Sie können Filter hinzufügen, um nur bestimmte abgelaufene Daten einzubeziehen.
 
-## Erforderliche Einrichtungen und Berechtigungen
+## <a name="required-setups-and-permissions"></a>Erforderliche Einrichtungen und Berechtigungen
 
 Bevor Sie Aufbewahrungsrichtlinien erstellen können, müssen Sie die einzubeziehenden Tabellen und die Zeiträume für die Aufbewahrung der Daten festlegen.
 
@@ -29,14 +29,14 @@ Darüber hinaus müssen Sie über die **SUPERUSER**-Berechtigungen oder den Bere
 > [!NOTE]
 > Wenn Sie die lokale Version von [!INCLUDE[prod_short](includes/prod_short.md)] verwenden und Aufbewahrungsrichtlinien in der Cronus-Demodatenbank ausprobieren möchten, müssen Sie einige Vorbereitungen treffen. Das Demounternehmen enthält keine Tabellen, die Sie mit Aufbewahrungsrichtlinien verwenden können. Sie müssen diese daher hinzufügen. Erstellen Sie hierzu ein neues, leeres Unternehmen in der Demodatenbank. Importieren Sie im neuen Unternehmen das RapidStart-Konfigurationspaket für Ihr Land/Ihre Region, das dem standardmäßigen NAV17.0.W1.ENU.STANDARD.rapidstart-Paket entspricht. Die Einrichtungsdaten für Aufbewahrungsrichtlinien sind im neuen Unternehmen verfügbar.
 
-### Aufbewahrungszeiträume erstellen
+### <a name="create-retention-periods"></a>Aufbewahrungszeiträume erstellen
 
 Die Aufbewahrungszeiträume können beliebig lang oder kurz sein. Um Aufbewahrungszeiträume zu erstellen, verwenden Sie auf der Seite **Aufbewahrungsrichtlinien** die Aktion **Aufbewahrungszeitraum**. Die von Ihnen festgelegten Zeiträume sind für alle Richtlinien verfügbar.
 
 > [!NOTE]
 > Aus Kompatibilitätsgründen haben wir für einige Tabellen einen Mindestaufbewahrungszeitraum festgelegt. Wenn Sie einen Aufbewahrungszeitraum festlegen, der die Mindestdauer unterschreitet, wird in einer Meldung der obligatorische Mindestaufbewahrungszeitraum angezeigt.
 
-### Aufbewahrungsrichtlinie einrichten
+### <a name="set-up-a-retention-policy"></a>Aufbewahrungsrichtlinie einrichten
 
 1. Wählen Sie das Symbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Aufbewahrungsrichtlinien** ein und wählen Sie den zugehörigen Link.
 2. Geben Sie im Feld **Tabellen-ID** die Tabelle ein, die in der Richtlinie berücksichtigt werden soll.
@@ -46,13 +46,13 @@ Die Aufbewahrungszeiträume können beliebig lang oder kurz sein. Um Aufbewahrun
    > [!NOTE]
    > Jede Zeile hat ihren eigenen Aufbewahrungszeitraum. Wenn Sie für dieselben Daten unterschiedliche Aufbewahrungszeiträume angeben, wird der längste Zeitraum verwendet. Einige Tabellen enthalten auch Filter, die Sie nicht ändern oder entfernen können. Um Ihnen die Identifizierung dieser Filter zu erleichtern, werden sie in einer helleren Schrift angezeigt.
 
-#### Videoanleitung
+#### <a name="video-guidance"></a>Videoanleitung
 
 Dieses Video zeigt ein Beispiel für die Einrichtung einer Aufbewahrungsrichtlinie.
 
 >[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1fLeJ]
 
-## Aufbewahrungsrichtlinien anwenden
+## <a name="apply-retention-policies"></a>Aufbewahrungsrichtlinien anwenden
 
 Sie können einen Aufgabenwarteschlangenposten zum Anwenden von Aufbewahrungsrichtlinien verwenden, um Daten automatisch zu löschen, oder Sie können Richtlinien manuell anwenden.
 
@@ -60,11 +60,11 @@ Um eine Aufbewahrungsrichtlinie automatisch anzuwenden, erstellen und aktivieren
 
 Sie können eine Richtlinie manuell anwenden, indem Sie die Aktion **Manuell anwenden** auf der Seite **Aufbewahrungsrichtlinien** verwenden. Wenn Sie eine Richtlinie immer manuell anwenden möchten, aktivieren Sie die Option **Manuell**. Der Aufgabenwarteschlangenposten ignoriert die Richtlinie, wenn er ausgeführt wird.
 
-## Protokolleinträge für Aufbewahrungsrichtlinien anzeigen
+## <a name="view-retention-policy-log-entries"></a>Protokolleinträge für Aufbewahrungsrichtlinien anzeigen
 
 Sie können Aktivitäten im Zusammenhang mit Aufbewahrungsrichtlinien auf der Seite **Aufbewahrungsrichtlinienprotokoll** anzeigen. Beispielsweise werden Einträge erstellt, wenn eine Richtlinie angewendet wird oder aufgetreten sind.
 
-## Ihre Erweiterung in eine Aufbewahrungsrichtlinie einbeziehen (erfordert die Unterstützung der Entwicklung)
+## <a name="include-your-extension-in-a-retention-policy-requires-help-from-a-developer"></a>Ihre Erweiterung in eine Aufbewahrungsrichtlinie einbeziehen (erfordert die Unterstützung der Entwicklung)
 
 Standardmäßig decken die Aufbewahrungsrichtlinien nur [!INCLUDE[prod_short](includes/prod_short.md)] in der von uns bereitgestellten Liste ab. Sie können Standardtabellen aus der Liste entfernen und eigene Tabellen hinzufügen. Das heißt, Sie können keine Tabelle hinzufügen, die Sie nicht selbst erstellt haben. Sie können beispielsweise keine anderen Tabellen von [!INCLUDE[prod_short](includes/prod_short.md)] oder von einer Erweiterung, die Sie gekauft haben, hinzufügen.
 
@@ -108,7 +108,7 @@ Das folgende Beispiel enthält einen obligatorischen Filter.
 
 Nachdem ein Entwickler der Liste Tabellen hinzugefügt hat, kann ein Administrator diese in eine Aufbewahrungsrichtlinie aufnehmen. 
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Analysieren der Trace-Telemetrie von Aufbewahrungsrichtlinien](/dynamics365/business-central/dev-itpro/administration/telemetry-retention-policy-trace)  
 [Protokollieren von Änderungen in Business Central](across-log-changes.md)  

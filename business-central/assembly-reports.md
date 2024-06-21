@@ -10,21 +10,21 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Montageberichte und Analysen in Business Central
+# <a name="assembly-reports-and-analytics-in-business-central"></a>Montageberichte und Analysen in Business Central
 
 Die Montageberichterstattung in [!INCLUDE [prod_short](includes/prod_short.md)] ermöglicht es Vertriebs- und Geschäftsfachleuten, Einblicke und Statistiken über aktuelle und vergangene Montageaktivitäten zu erhalten.  
 
-## Berichte
+## <a name="reports"></a>Berichte
 
 [!INCLUDE [assembly_reports](includes/assembly-reports-include.md)]
 
-## Aufgaben
+## <a name="tasks"></a>Aufgaben
 
 In den folgenden Artikeln werden einige der wichtigsten Aufgaben zur Analyse des Status Ihres Unternehmens beschrieben:
 
 * [Artikelverfügbarkeit anzeigen](inventory-how-availability-overview.md)
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Montageverwaltung](assembly-assemble-items.md)  
 [Arbeiten mit Stücklisten für die Montage](assembly-how-work-assembly-boms.md)  

@@ -11,7 +11,7 @@ ms.date: 05/07/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# So verwenden Sie Genehmigungsworkflows
+# <a name="how-to-use-approval-workflows"></a>So verwenden Sie Genehmigungsworkflows
 
 Wenn ein Datensatz, wie ein Einkaufsbeleg oder eine Debitorenkarte, von einer Person in Ihrer Organisation genehmigt werden muss, senden Sie eine Genehmigungsanforderung als Teil eines Workflows. Je nachdem, wie der Workflow eingerichtet ist, wird der entsprechende Genehmiger dann benachrichtigt, dass der Datensatz genehmigt werden muss.
 
@@ -21,7 +21,7 @@ Neben den Genehmigungsworkflow, wie in diesem Artikel beschrieben, können Sie a
 
 Wesentliche Genehmigungsworkflows für Einkaufsbelege, Verkaufsbelege, Zahlungsausgangs Buch.-Blätter, Debitorenkarten und Artikelkarten können als Leitfaden gestartet werden. Weitere Informationen unter [Bereitschaft für die Geschäftsabwicklung](ui-get-ready-business.md).
 
-## Genehmigung eines Datensatzes anfordern
+## <a name="request-a-record-approval"></a>Genehmigung eines Datensatzes anfordern
 
 Die nächste Aufgabe wird durch einen genehmigenden Benutzer ausgeführt.
 
@@ -32,7 +32,7 @@ Der Status des Genehmigungspostens wird von **Erstellt** in **Offen** aktualisie
 
 Wenn alle erforderlichen Genehmiger den Datensatz genehmigt haben, ändert sich der Status in **Freigegeben**. Sie können dann Ihre Aufgaben für diesen Datensatz fortsetzen.
 
-## Genehmigungsanforderungen stornieren
+## <a name="cancel-approval-requests"></a>Genehmigungsanforderungen stornieren
 
 Die nächste Aufgabe wird durch einen genehmigenden Benutzer mit Genehmigerrechten ausgeführt.
 
@@ -42,7 +42,7 @@ Ein Debitor möchte möglicherweise Änderungen an einem Auftrag vornehmen, nach
 
 Wenn die Genehmigungsanforderung storniert wurde, wird der Status des entsprechenden Genehmigungspostens zu **Storniert** geändert. Der Status des Datensatzes wird von **Ausstehende Genehmigung** in **Offen** aktualisiert. Nun kann der Genehmigungsvorgang von vorne begonnen werden.
 
-## Genehmigungsanforderungen genehmigen oder ablehnen
+## <a name="approve-or-reject-approval-requests"></a>Genehmigungsanforderungen genehmigen oder ablehnen
 
 Die nächste Aufgabe wird durch einen genehmigenden Benutzer mit Genehmigerrechten ausgeführt.
 
@@ -58,7 +58,7 @@ Wenn eine Genehmigerhierarchie eingerichtet wurde, ist der Datensatzstatus **Aus
 
 Gleichzeitig ändert sich der Genehmigungsstatus von **Erstellt** zu **Offen**, sobald eine Genehmigungsanforderung für den Datensatz erstellt wird. Wenn die Anforderung abgelehnt wurde, ändert sich der Genehmigungsstatus zu **Abgelehnt**. Der Status bleibt **Offen** oder **Abgelehnt**, bis alle Genehmiger die Anforderung genehmigt haben.
 
-## Genehmigungsanforderungen delegieren
+## <a name="delegate-approval-requests"></a>Genehmigungsanforderungen delegieren
 
 Die nächste Aufgabe wird durch einen genehmigenden Benutzer mit Genehmigerrechten ausgeführt.
 
@@ -69,7 +69,7 @@ Damit verhindert wird, dass sich Datensätze ansammeln oder anderweitig den Work
 
 Eine Benachrichtigung zur Genehmigung der Anforderung wird an den stellvertretenden Genehmiger gesendet.
 
-## Überfällige Genehmigungsanforderungen verwalten
+## <a name="manage-overdue-approval-requests"></a>Überfällige Genehmigungsanforderungen verwalten
 
 Die nächste Aufgabe wird durch einen genehmigenden Benutzer mit Genehmigerrechten ausgeführt.
 
@@ -80,7 +80,7 @@ Die Funktion **Benachrichtigungen über überfällige Genehmigungsbenachrichtigu
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Überfällige Genehmigungsanfragen** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie auf der Seite **Überfällige Genehmigungsanfragen** die Aktion **Überfällige Genehmigungsbenachrichtigungen senden** aus.
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Genehmigungsworkflows verwenden](across-use-workflows.md)  
 [Workflow](across-workflow.md)  
