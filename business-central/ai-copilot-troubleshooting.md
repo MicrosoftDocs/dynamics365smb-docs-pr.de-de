@@ -11,11 +11,11 @@ ms.date: 02/01/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# <a name="troubleshoot-copilot-and-ai-capabilities"></a>Probleme mit Copilot- und KI-Funktionen behandeln
+# Probleme mit Copilot- und KI-Funktionen behandeln
 
 Copilot ist eine KI-gestützte Funktion in Business Central, die Sie bei verschiedenen Aufgaben wie der Erstellung von Marketingtexten und dem Abgleich von Bankkonten unterstützt. Wenn Sie Probleme mit Copilot oder anderen KI-Funktionen haben, kann Ihnen dieser Artikel dabei helfen, häufige Probleme zu identifizieren und zu beheben.
 
-## <a name="copilot-doesnt-appear-on-pages"></a>Copilot erscheint nicht auf Seiten
+## Copilot erscheint nicht auf Seiten
 
 Wenn Copilot-Funktionalität, wie die Aktion **Mit Copilot entwerfen** für Marketingtextvorschläge oder die Aktion **Mit Copilot abgleichen** für die Unterstützung bei Bankkontoabstimmung, nicht wie erwartet auf einer Seite angezeigt wird, überprüfen Sie Folgendes:
 
@@ -23,18 +23,18 @@ Wenn Copilot-Funktionalität, wie die Aktion **Mit Copilot entwerfen** für Mark
 
 - Stellen Sie sicher, dass die Funktionalität nicht durch die Personalisierung verdeckt wird. [Weitere Informationen zur Personalisierung](ui-personalization-user.md).
 
-## <a name="copilot-appears-on-pages-but-you-get-an-error-that-its-not-activated"></a>Copilot erscheint auf Seiten, aber Sie erhalten eine Fehlermeldung, dass es nicht aktiviert ist
+## Copilot erscheint auf Seiten, aber Sie erhalten eine Fehlermeldung, dass es nicht aktiviert ist
 
 Wenn Sie versuchen, Copilot zu verwenden, und eine Fehlermeldung wie **Copilot ist für \[Feature\] leider nicht aktiviert** erhalten, müssen Sie einige Dinge überprüfen:
 
 - Stellen Sie zunächst sicher, dass das Feature auf der Seite **Copilot- und KI-Funktionen** aktiviert ist. [Erfahren Sie mehr über die Aktivierung von Copilot- und KI-Funktionen](enable-ai.md#activate-features). 
 - Stellen Sie als Nächstes sicher, dass die Datenschutzerklärung für die Azure OpenAI-Integration nicht auf **Für alle nicht zustimmen** eingestellt ist. Wenn dies der Fall ist, ändern Sie es in **Für alle zustimmen**. [Erfahren Sie mehr über Datenschutzhinweise](privacy-notices-status.md).
 
-## <a name="copilot-capabilities-from-microsoft-not-listed-on-copilot--ai-capabilities-page"></a>Die Copilot-Funktionen von Microsoft finden Sie auf der Seite „Copilot und KI-Funktionen“
+## Die Copilot-Funktionen von Microsoft finden Sie auf der Seite „Copilot und KI-Funktionen“
 
 Wenn keine der KI-Features von Microsoft auf der Seite **Copilot und KI-Funktionen** enthalten sind, liegt dies wahrscheinlich daran, dass in Ihrer Umgebung eine oder mehrere eingebettete Apps installiert sind. Eingebettete Apps können ihre eigenen Copilot-Funktionen bieten, die von Microsoft veröffentlichten Funktionen sind jedoch nicht mit Umgebungen mit eingebetteten Apps kompatibel.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Copilot- und KI-Funktionen konfigurieren](enable-ai.md)  
 [Vorschläge für Marketingtexte mit Copilot](ai-overview.md)  

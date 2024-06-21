@@ -11,11 +11,11 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="create-recurring-sales"></a>Wiederkehrende Verkaufsrechn. erstellen
+# Wiederkehrende Verkaufsrechn. erstellen
 
 Wenn Sie häufiger Verkaufszeilen mit ähnlichen Daten erstellen müssen, können Sie die Standardzeilen einrichten, die Sie in wiederkehrenden Verkaufsbelegen, z. B. für wiederkehrende Ersatzaufträge benötigen.  
 
-## <a name="set-up-recurring-sales-lines"></a>Wiederkehrende Verkaufszeilen einrichten
+## Wiederkehrende Verkaufszeilen einrichten
 
 1. Wählen Sie das Symbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Wiederkehrende Verkaufszeilen** ein und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie auf der Seite **Wiederkehrende Verkaufszeilen** die Aktion **Neu**.  
@@ -27,7 +27,7 @@ Wenn Sie häufiger Verkaufszeilen mit ähnlichen Daten erstellen müssen, könne
 
 [!INCLUDE [line-no-info](includes/line-no-info.md)]
 
-## <a name="assign-recurring-sales-lines-to-a-customer"></a>Wiederkehrende Verkaufszeilen einem Debitor zuweisen
+## Wiederkehrende Verkaufszeilen einem Debitor zuweisen
 
 Ordnen Sie einem Debitor eine oder mehrere wiederkehrende Verkaufszeilen zu, so dass sie zum Einfügen in Verkaufsbelege für diesen Debitor zur Verfügung stehen.
 
@@ -49,7 +49,7 @@ Ordnen Sie einem Debitor eine oder mehrere wiederkehrende Verkaufszeilen zu, so 
 |**Automatisch**|Wenn wiederkehrende Verkaufszeilen für den Debitor vorhanden sind, erhalten Sie eine Benachrichtigung, in der Sie auswählen können, welche eingefügt werden soll. Wenn nur eine wiederkehrende Verkaufszeile existiert, wird sie automatisch eingefügt.<br /><br />Dies funktioniert nur, wenn das neue Dokument aus einer Dokumentenliste erstellt wurde, z. B. durch Auswahl der Aktion **Neu** auf der Seite **Kundenaufträge**. Dies funktioniert nicht, wenn das Dokument beispielsweise aus einer Debitorenkarte erstellt wurde.|
 |**Immer bestätigen**|Eine Benachrichtigung erscheint und alle vorhandenen wiederkehrenden Verkaufszeilen werden angezeigt, sodass Sie eine auswählen können.
 
-## <a name="insert-recurring-sales-lines-on-a-sales-invoice"></a>Wiederkehrende Verkaufszeilen auf einer Verkaufsrechnung einfügen
+## Wiederkehrende Verkaufszeilen auf einer Verkaufsrechnung einfügen
 
 Wenn für den Debitor wiederkehrende Verkaufszeilen vorhanden sind, können Sie diese in alle Arten von Verkaufsbelegen einfügen oder einfügen lassen, z. B. in eine Verkaufsrechnung. Wenn Sie die Option **Immer fragen** aktiviert haben, während Sie Debitoren wiederkehrende Verkaufszeilen hinzufügen, werden Sie informiert, wenn wiederkehrende Verkaufszeilen vorhanden sind.
 
@@ -59,7 +59,7 @@ Wenn für den Debitor wiederkehrende Verkaufszeilen vorhanden sind, können Sie 
 4. Auf der Seite **Wiederkehrende Verkaufszeilen** wählen Sie die Suchschaltfläche im Feld **Code**, und wählen einen Satz von Standardverkaufszeilen aus.
 5. Wählen Sie die Schaltfläche **OK**, um die Standardverkaufszeilen in die Rechnung einzufügen, in die Sie Informationen verwenden ist beim oder bearbeiten können.
 
-## <a name="create-multiple-sales-invoices-based-on-recurring-sales-lines"></a>Mehrere Verkaufsrechnungen basierend auf wiederkehrenden Verkaufszeilen erstellen
+## Mehrere Verkaufsrechnungen basierend auf wiederkehrenden Verkaufszeilen erstellen
 
 Sie können mit der Stapelverarbeitung **Wiederkehrende Verkaufsrechnungen erstellen** die Verkaufsrechnungen gemäß Standardverkaufscodes erstellen, die den Debitoren zugeordnet sind und Buchungsdaten enthalten, die innerhalb der Gültigkeitszeiträume liegen, die Sie im Standardverkaufscode festgelegt haben.
 
@@ -70,7 +70,7 @@ Sie können mit der Stapelverarbeitung **Wiederkehrende Verkaufsrechnungen erste
 
 Verkaufsrechnungen werden für die Debitoren mit dem angegebenen Standard-Debitorenvertriebscode und allen angegebenen Direkteinzugsinformationen zur Buchung am angegebenen Datum erstellt.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Verkauf](sales-manage-sales.md)  
 [Verkäufe einrichten](sales-setup-sales.md)  

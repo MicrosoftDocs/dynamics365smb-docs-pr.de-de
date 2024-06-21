@@ -11,13 +11,13 @@ ms.search.keywords: 'bi, power BI, analysis, KPI, account schedule, financial re
 ms.search.form: 'Report_25, 103, 104, 108, 195, 196, 197, 198, 488, 489, 490, 764, 765, 766'
 ms.service: dynamics-365-business-central
 ---
-# <a name="prepare-financial-reporting-with-financial-data-and-account-categories"></a>Finanzberichte mit Finanzdaten und Kontokategorien erstellen
+# Finanzberichte mit Finanzdaten und Kontokategorien erstellen
 
 Das Feature **Finanzberichte** gibt Ihnen Einblick in die in Ihrem Kontenplan (COA) enthaltenen Finanzdaten. Sie können Finanzberichte einrichten, um die Zahlen in den Finanzbuchhaltungskonten zu analysieren und Sachposten mit Budgetposten zu vergleichen. Die Ergebnisse werden in Diagrammen und Berichten in Ihrem Rollencenter angezeigt, darunter der Cashflowplan sowie die GuV- und Bilanzberichte. Auf diese beiden Berichte greifen Sie z. B. mit der Aktion **Finanzauswertungen** in den Homepages für Geschäftsleiter und Buchhalter zu.  
 
 [!INCLUDE[prod_short](includes/prod_short.md)] bietet Ihnen Beispielfinanzberichte, die Sie sofort als Vorlagen verwenden können. Sie können auch Ihre eigenen Berichte einrichten, um die zu vergleichenden Zahlen anzugeben. Sie können zum Beispiel Finanzberichte erstellen, um Gewinnspannen anhand von Dimensionen wie Abteilungen oder Kundengruppen zu berechnen. Die Anzahl der Finanzberichte, die vie erstellen können, ist unbegrenzt, und Sie brauchen keine Unterstützung von der Entwicklung.  
 
-## <a name="prerequisites-for-financial-reporting"></a>Voraussetzungen für Finanzberichte
+## Voraussetzungen für Finanzberichte
 
 Das Einrichten von Finanzberichten erfordert ein Verständnis der Struktur Ihres Kontenplans. Es gibt drei Schlüsselkonzepte, auf die Sie wahrscheinlich achten müssen, bevor Sie Ihre Finanzberichte entwerfen:
 
@@ -31,7 +31,7 @@ Durch das Einrichten von Dimensionen können Sie Ihre Finanzdaten auf eine für 
 
 Wenn Sie Sachposten als Prozentsätze von Budgetposten anzeigen möchten, müssen Sie Finanzbuchhaltungsbudgets erstellen. Erfahren Sie mehr unter [Sachkontenbudgets erstellen](finance-how-create-budgets.md).
 
-## <a name="financial-reports"></a>Finanzberichte
+## Finanzberichte
 
 In Finanzberichten werden die Konten aus Ihrem Kontenplan so angeordnet, dass die Daten einfacher dargestellt werden können. Sie können verschiedene Layouts festlegen, um die Informationen zu definieren, die Sie aus dem Kontenplan extrahieren möchten. Finanzberichte bieten darüber hinaus einen Platz für Berechnungen, die nicht direkt im Kontenplan vorgenommen werden können. Sie können beispielsweise Zwischensummen für Gruppen von Konten erstellen und diese Summe dann in andere Summen aufnehmen. Ein weiteres Beispiel ist die Berechnung von Gewinnmargen für Dimensionen wie Abteilungen oder Debitorengruppen. Außerdem können Sie Hauptbuch- und Budgetbuchungen filtern, z.B. nach Nettoänderung oder Sollbetrag.
 
@@ -63,13 +63,13 @@ Sie können auch Formeln verwenden, um zwei oder mehr Finanzberichte und Spalten
 - Erstellen Sie so viele Finanzberichte wie Sie benötigen, jeder mit einem eindeutigen Namen.
 - Einrichten unterschiedlicher Berichtslayouts und Drucken der Berichte mit den aktuellen Werten
 
-## <a name="learning-path-create-financial-reports-in-microsoft-dynamics-365-business-central"></a>Lernpfad: Erstellen von Finanzberichten in Microsoft Dynamics 365 Business Central
+## Lernpfad: Erstellen von Finanzberichten in Microsoft Dynamics 365 Business Central
 
 Möchten Sie lernen, wie Sie Budgets erstellen und dann Finanzberichte, Dimensionen sowie Zeilen- und Spaltendefinitionen verwenden, um die Finanzberichte zu erstellen, die Unternehmen normalerweise benötigen?
 
 Fangen Sie mit dem folgenden Lernpfad [Erstellen von Finanzberichten in Microsoft Dynamics 365 Business Central](/training/paths/create-financial-reports-dynamics-365-business-central) an.
 
-## <a name="create-a-new-financial-report"></a>Erstellen Sie einen neuen Finanzbericht
+## Erstellen Sie einen neuen Finanzbericht
 
 Sie verwenden Finanzberichte, um Hauptbuchkonten zu analysieren oder Hauptbucheinträge mit Budgeteinträgen zu vergleichen. Sie können beispielsweise die Sachposten als prozentualen Anteil der Finanzbudgetposten sehen.
 
@@ -91,25 +91,25 @@ Die Finanzberichte in der Standardversion von [!INCLUDE[prod_short](includes/pro
 > [!NOTE]
 > Wenn Sie einen Finanzbericht im Ansichts- oder Bearbeitungsmodus öffnen, ist der Bereich Filter verfügbar. Verwenden Sie nicht den Filterbereich, um Filter für die Daten in Ihrem Bericht festzulegen. Solche Filter können Fehler verursachen oder filtern die Daten eventuell nicht wirklich. Verwenden Sie stattdessen die Felder in den Inforegistern **Optionen** und **Dimensionen**, um Filter für den Bericht einzurichten.
 
-### <a name="create-or-edit-a-row-definition"></a>Eine Zeilendefinition erstellen oder bearbeiten
+### Eine Zeilendefinition erstellen oder bearbeiten
 
 Zeilendefinitionen in Finanzberichten bieten einen Platz für Berechnungen, die nicht direkt im Kontenplan vorgenommen werden können. Sie können beispielsweise Zwischensummen für Gruppen von Konten erstellen und diese Summe dann in andere Summen aufnehmen. Dabei können auch Zwischenschritte berechnet werden, die im abschließenden Bericht nicht erscheinen.
 
 Mehr erfahren Sie unter [Zeilendefinitionen in Finanzberichten](bi-row-definitions.md).
 
-### <a name="create-or-edit-a-column-definition"></a>Eine Spaltendefinition erstellen oder bearbeiten
+### Eine Spaltendefinition erstellen oder bearbeiten
 
 Verwenden Sie Spaltendefinitionen, um die Spalten anzugeben, die in den Bericht aufgenommen werden sollen. Zum Beispiel können Sie ein Berichtslayout gestalten, das Bewegung und Saldo für dieselbe Periode dieses und letzten Jahres vergleicht. Eine Spaltendefinition kann bis zu 15 Spalten umfassen. Zum Beispiel sind mehrere Spalten sinnvoll, wenn Sie Budgets für zwölf Monate mit einer Spalte für die Gesamtsumme anzeigen möchten.
 
 Mehr erfahren Sie unter [Spaltendefinition in Finanzberichten](bi-column-definitions.md).
 
-## <a name="using-dimensions-in-financial-reports"></a>Dimensionen in Finanzberichten verwenden
+## Dimensionen in Finanzberichten verwenden
 
 In der Finanzanalyse sind Dimensionen Daten, die Sie einem Eintrag als eine Art Markierung hinzufügen. Diese Daten dienen zum Gruppieren von Posten mit ähnlichen Merkmalen – beispielsweise Debitoren, Regionen, Produkte oder Verkäufer – sowie zum einfachen Abrufen dieser Gruppen zur Analyse. Sie können Dimensionen für Posten in Buch.-Blättern, Belegen und Budgets verwenden.
 
 Jede Dimension beschreibt den Schwerpunkt der Analyse. Eine zweidimensionale Analyse wäre z.B. der Umsatz pro Bereich. Wenn Sie beim Erstellen eines Postens mehr als zwei Dimensionen verwenden, können Sie eine komplexere Analyse durchführen. Ein Beispiel für eine komplexe Analyse ist die Untersuchung der Verkäufe pro Verkaufskampagne, Debitorengruppe und Region. So erhalten Sie einen besseren Einblick in Ihr Unternehmen, z. B. wie gut Ihr Geschäft läuft, wo es floriert und wo nicht und wo Sie mehr Ressourcen zuweisen sollten. Mithilfe dieser Einblicke können Sie fundiertere Geschäftsentscheidungen treffen. Um mehr darüber zu erfahren, gehen Sie zu [Arbeiten mit Dimensionen](finance-dimensions.md).
 
-## <a name="set-up-financial-reports-with-overviews"></a>Einrichten von Finanzberichten mit Übersichten
+## Einrichten von Finanzberichten mit Übersichten
 
 Mit einem Finanzbericht können Sie eine Übersicht erstellen, in der Sie die Zahlen der Finanzbuchhaltung mit denen des Budgets vergleichen.
 
@@ -127,11 +127,11 @@ Mit einem Finanzbericht können Sie eine Übersicht erstellen, in der Sie die Za
 
 Die Budgetaufstellung kann nun kopiert und in ein Arbeitsblatt eingefügt werden.  
 
-## <a name="integrate-financial-reports-with-excel"></a>Finanzberichte in Excel integrieren
+## Finanzberichte in Excel integrieren
 
 Sie können einen Finanzbericht in eine Excel-Arbeitsmappenvorlage integrieren, das Layout an Ihre Anforderungen anpassen und dann die Excel-Vorlage mit Daten aus [!INCLUDE[prod_short](includes/prod_short.md)] aktualisieren. Mithilfe dieser Integration können Sie beispielsweise Ihre monatlichen und jährlichen Finanzberichte einfacher in einem für Sie geeigneten Format erstellen.
 
-### <a name="set-up-excel-integration-for-a-financial-report-create-an-excel-template"></a>Excel-Integration für einen Finanzbericht einrichten (Excel-Vorlage erstellen)
+### Excel-Integration für einen Finanzbericht einrichten (Excel-Vorlage erstellen)
 
 Um die Excel-Integration für einen Finanzbericht einzurichten, gehen Sie wie folgt vor, um eine Excel-Vorlage für einen Bericht zu erstellen.
 
@@ -147,7 +147,7 @@ Um die Excel-Integration für einen Finanzbericht einzurichten, gehen Sie wie fo
 1. Speichern Sie die Arbeitsmappe in OneDrive oder an einem ähnlichen Ort, an dem die Datei gesichert und versioniert wird.
 1. Schließen Sie die Arbeitsmappe.
 
-### <a name="run-a-financial-report-with-an-excel-template"></a>Einen Finanzbericht mit einer Excel-Vorlage ausführen
+### Einen Finanzbericht mit einer Excel-Vorlage ausführen
 
 Um einen Finanzbericht mit einer Excel-Vorlage auszuführen, gehen Sie folgendermaßen vor:
 
@@ -158,7 +158,7 @@ Um einen Finanzbericht mit einer Excel-Vorlage auszuführen, gehen Sie folgender
 1. Wählen Sie auf der Seite **Namens-/Wertsuche** das Arbeitsblatt „Daten“ aus.
 1. [!INCLUDE[prod_short](includes/prod_short.md)] führt den Finanzbericht aus und führt die sich daraus ergebenden Daten mit Ihrer Excel-Vorlage zusammen.
 
-## <a name="print-and-save-financial-reports"></a>Finanzberichte drucken und speichern
+## Finanzberichte drucken und speichern
 
 Sie können Finanzberichte über die Druckdienste Ihres Geräts ausdrucken. [!INCLUDE[prod_short](includes/prod_short.md)] bietet außerdem Möglichkeiten, um Berichte als Excel-Arbeitsmappen, Word-Dokumente, PDF- und XML-Dateien zu speichern.
 
@@ -169,7 +169,7 @@ Sie können Finanzberichte über die Druckdienste Ihres Geräts ausdrucken. [!IN
     1. Die Option **(Vom Browser verwaltet)** zeigt an, dass es keinen bestimmten Drucker für den Bericht gibt. In diesem Fall handhabt der Browser den Ausdruck und zeigt die Standarddruckschritte an, in denen Sie einen lokalen Drucker auswählen können, der mit Ihrem Gerät verbunden ist. **(Vom Browser gehandhabt)** ist in der mobilen [!INCLUDE[prod_short](includes/prod_short.md)] App oder der App für Teams nicht verfügbar.
 1. Wählen Sie die Aktion **Drucken** aus.
 
-### <a name="schedule-a-financial-report-or-save-as-a-pdf-word-or-excel-document"></a>Planen Sie einen Finanzbericht oder speichern Sie ihn als PDF-, Word- oder Excel-Dokument
+### Planen Sie einen Finanzbericht oder speichern Sie ihn als PDF-, Word- oder Excel-Dokument
 
 Sie können einen Finanzbericht in Dateiformaten wie PDF, XML, Word oder Excel speichern. [!INCLUDE[prod_short](includes/prod_short.md)] kann auch wiederkehrende Finanzberichte generieren.
 
@@ -180,7 +180,7 @@ Sie können einen Finanzbericht in Dateiformaten wie PDF, XML, Word oder Excel s
 1. Um einen geplanten oder wiederkehrenden Finanzbericht zu erstellen, füllen Sie die Felder aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].<br><br>Für wiederkehrende Finanzberichte legen Sie in den Feldern **Frühestes Startdatum/Uhrzeit** und **Ablaufdatum/Uhrzeit** das erste bzw. letzte Datum für die Erstellung des Finanzberichts fest. Legen Sie außerdem fest, an welchen Tagen der Bericht erstellt werden soll, indem Sie das Feld **Nächstes Ausführungsdatum Formel** entsprechend dem im Abschnitt [Verwendung von Datumsformeln](ui-enter-date-ranges.md#use-date-formulas) erläuterten Format festlegen.
 
 
-## <a name="best-practices-for-working-with-financial-report-definitions"></a>Bewährte Methoden für die Arbeit mit Finanzberichtsdefinitionen
+## Bewährte Methoden für die Arbeit mit Finanzberichtsdefinitionen
 
 Für die Finanzberichtsdefinitionen gibt es keine Versionsverwaltung. Wenn Sie eine Berichtsdefinition ändern, wird die alte Version ersetzt, wenn Ihre Änderung in der Datenbank gespeichert wird. Die folgende Liste enthält einige bewährte Vorgehensweisen für die Arbeit mit Finanzberichtsdefinitionen:
 
@@ -188,7 +188,7 @@ Für die Finanzberichtsdefinitionen gibt es keine Versionsverwaltung. Wenn Sie e
 - Bevor Sie eine Berichtsdefinition ändern, sollten Sie eine Sicherungskopie davon erstellen, für den Fall, dass die Änderung nicht wie erwartet funktioniert. Sie können die Definition entweder einfach kopieren (geben Sie ihr einen guten Namen) oder exportieren. Mehr erfahren Sie unter [Finanzberichtsdefinitionen importieren oder exportieren](#import-or-export-financial-report-definitions).
 - Wenn Sie eine neue Kopie einer Definition benötigen, die [!INCLUDE[prod_short](includes/prod_short.md)] bereitstellt, erhalten Sie diese ganz einfach, indem Sie ein neues Unternehmen erstellen, das nur die Einrichtungsdaten enthält. Exportieren Sie dann die Definition und importieren Sie sie in das Unternehmen, wo die Definition aktualisiert werden muss.
 
-## <a name="import-or-export-financial-report-definitions"></a>Finanzberichtsdefinitionen importieren oder exportieren
+## Finanzberichtsdefinitionen importieren oder exportieren
 
 Sie können Finanzberichtsdefinitionen als RapidStart-Konfigurationspakete importieren und exportieren. Konfigurationspakete sind beispielsweise hilfreich, um Informationen für andere Unternehmen freizugeben. Das Paket wird in einer .rapidstart-Datei erstellt, die den Inhalt komprimiert.
 
@@ -205,7 +205,7 @@ Weitere Informationen zum Importieren und Exportieren von Zeilen- oder Spaltende
 - [Finanzberichtszeilendefinitionen importieren oder exportieren](bi-row-definitions.md#import-or-export-financial-reporting-row-definitions) oder
 - [Finanzberichtsspaltendefinitionen importieren oder exportieren](bi-column-definitions.md#import-or-export-financial-report-column-definitions)
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Zeilendefinitionen in Finanzberichten](bi-row-definitions.md)  
 [Spaltendefinitionen in Finanzberichten](bi-column-definitions.md)  

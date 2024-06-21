@@ -10,11 +10,11 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="design-details-table-structure"></a>Designdetails: Tabellenstruktur
+# Designdetails: Tabellenstruktur
 
 Um zu erkennen, wie die Dimensionsposten gespeichert und gebucht werden, ist es wichtig, die Tabellenstruktur zu kennen.  
 
-## <a name="table-480-dimension-set-entry"></a>Tabelle 480, Dimensionssatzposten
+## Tabelle 480, Dimensionssatzposten  
 
 Sie können den Inhalt dieser Tabelle nicht ändern. Nachdem Daten in die Tabelle geschrieben wurden, können Sie sie nicht löschen oder bearbeiten.
 
@@ -27,7 +27,7 @@ Sie können den Inhalt dieser Tabelle nicht ändern. Nachdem Daten in die Tabell
 |5|**Dimensionsname**|Text 30|CalcField. Lookup zu Tabelle 348.|  
 |6|**Dimensionswertname**|Text 30|CalcField. Lookup zu Tabelle 349.|  
 
-## <a name="table-481-dimension-set-tree-node"></a>Tabelle 481, Dimensionssatz-Strukturknoten
+## Tabelle 481, Dimensionssatz-Strukturknoten  
 Sie können den Inhalt dieser Tabelle nicht ändern. Sie wird verwendet, um nach einem Dimensionssatz zu suchen. Wenn der Dimensionssatz nicht gefunden wird, wird ein neuer Satz erstellt.  
 
 |Feldnr.|Feldname|Datentyp|Kommentar|  
@@ -37,7 +37,7 @@ Sie können den Inhalt dieser Tabelle nicht ändern. Sie wird verwendet, um nach
 |3|**Dimensionssatz-ID**|Ganzzahl|AutoIncrement. Verwendet in Feld 1 in Tabelle 480.|  
 |4|**In Benutzung**|Boolescher Wert|False, wenn nicht verwendet.|  
 
-## <a name="table-482-reclas-dimension-set-buffer"></a>Tabelle 482 Umlag.-Dimensionssatzpuffer
+## Tabelle 482 Umlag.-Dimensionssatzpuffer  
 Diese Tabelle wird verwendet, wenn Sie einen Dimensionswertcode, beispielsweise zu einem Artikeleintrag ändern, indem Sie die Seite **Artikel Umlag. Buch.-Blatt** verwenden.  
 
 |Feldnr.|Feldname|Datentyp|Bemerkung|  
@@ -51,14 +51,14 @@ Diese Tabelle wird verwendet, wenn Sie einen Dimensionswertcode, beispielsweise 
 |7|**Dimensionswertname**|Text 30|CalcField. Lookup zu Tabelle 349.|  
 |8|**Neuer Dimensionswertname**|Text 30|CalcField. Lookup zu Tabelle 349.|  
 
-## <a name="transaction-and-budget-tables"></a>Transaktions- und Budget-Tabellen
+## Transaktions- und Budget-Tabellen  
 Zusätzlich zu anderen Dimensionsfeldern in der Tabelle ist dieses Feld wichtig:  
 
 |Feldnr.|Feldname|Datentyp|Bemerkung|  
 |---------------|----------------|---------------|-------------|  
 |480|**Dimensionssatz-ID**|Ganzzahl|Referenzfeld 1 in Tabelle 480.|  
 
-### <a name="table-83-item-journal-line"></a>Tabelle 83, Artikel Buch.-Blattzeile
+### Tabelle 83, Artikel Buch.-Blattzeile  
 Zusätzlich zu anderen Dimensionsfeldern in der Tabelle sind diese Felder wichtig.  
 
 |Feldnr.|Feldname|Datentyp|Bemerkung|  
@@ -66,14 +66,14 @@ Zusätzlich zu anderen Dimensionsfeldern in der Tabelle sind diese Felder wichti
 |480|**Dimensionssatz-ID**|Ganzzahl|Referenzfeld 1 in Tabelle 480.|  
 |481|**Neue Dimensionssatz-ID**|Ganzzahl|Referenzfeld 1 in Tabelle 480.|  
 
-### <a name="table-349-dimension-value"></a>Tabelle 349, Dimensionswert
+### Tabelle 349, Dimensionswert  
 Zusätzlich zu anderen Dimensionsfeldern in der Tabelle sind diese Felder wichtig.  
 
 |Feldnr.|Feldname|Datentyp|Bemerkung|  
 |---------------|----------------|---------------|-------------|  
 |12|**Dimensionswert-ID**|Ganzzahl|AutoIncrement. Verwendet als Referenzen in Tabelle 480 und in Tabelle 481.|  
 
-### <a name="tables-that-contain-the-dimension-set-id-field"></a>Tabellen, die Dimensionssatz-ID-Feld enthalten
+### Tabellen, die Dimensionssatz-ID-Feld enthalten
  Das Feld **Dimensionssatz-ID** (480) ist in den folgenden Tabellen vorhanden. Für die Tabellen, die gebuchte Daten speichern, bietet das Feld nur eine nicht bearbeitbare Anzeige von Dimensionen, die als Drilldown gekennzeichnet ist. Für die Tabellen, die Arbeitsdokumente speichern, ist das Feld editierbar. Die Puffertabellen, die intern verwendet werden, benötigen keine bearbeitbaren oder nicht bearbeitbaren Funktionen.  
 
  Feld 480 ist in den folgenden Tabellen nicht editierbar.  
@@ -176,7 +176,7 @@ Feld 480 ist in den folgenden Puffertabellen vorhanden.
 |5637|**Anlagen Fibu-Buchungspuffer**|  
 |7136|**Artikelbudgetpuffer**|  
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Dimensionssatz-Eintrags-Übersicht](design-details-dimension-set-entries-overview.md)  
 [Designdetails: Suche nach Dimensionskombinationen](design-details-searching-for-dimension-combinations.md)   

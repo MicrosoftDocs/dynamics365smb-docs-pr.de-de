@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="business-process-walkthroughs"></a>Exemplarische Vorgehensweisen für Geschäftsprozesse
+# Exemplarische Vorgehensweisen für Geschäftsprozesse
 
 Diese Auswahl exemplarischer Vorgehensweisen bieten schrittweise End-to-End-Geschäftsprozesse, die Sie mit dem Demounternehmen CRONUS durchführen können. Die exemplarischen Vorgehensweisen bestehen aus mehreren Verfahren, von denen einige normalerweise von mehr als einem Benutzer ausgeführt werden würden, während andere verschiedene Benutzerrollen enthalten. Um den Arbeitsbereich zu simulieren, enthalten einige der exemplarischen Vorgehensweisen Einrichtungsschritte, die erforderlich sind, um die Übungen wie beschrieben abzuschließen. Diese Schritte können Einblick in die Art der Informationen zu geben, die Benutzer den IT-Mitarbeitern ihres Unternehmens zur Verfügung stellen müssen.  
 
@@ -36,7 +36,7 @@ Diese Auswahl exemplarischer Vorgehensweisen bieten schrittweise End-to-End-Gesc
 <!-- |Put received items away in advanced warehouse configurations. **Requires complete sample data**|[Walkthrough: Receiving and Putting Away in advanced warehouse configurations](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)|   -->
 <!-- |Perform defects management. **Requires complete sample data** |[Walkthrough: Tracing Serial-Lot Numbers](walkthrough-tracing-serial-lot-numbers.md)| -->
 
-## <a name="see-also"></a>Weitere Informationen
+## Weitere Informationen
 
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

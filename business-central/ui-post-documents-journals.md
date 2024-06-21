@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="posting-documents-and-journals"></a>Journale und Dokumente buchen
+# Journale und Dokumente buchen
 
 Das Buchen stellt die Buchhaltungsaktion vom Aufzeichnen von Geschäftstransaktionen in verschiedenen Mandantensachkontos dar.
 
@@ -27,7 +27,7 @@ Die folgende Tabelle enthält Informationen zu verwandten Aufgaben wie Links zu 
 | Auf einer Seite die Posten in der Vorschau anzeigen, die erstellt werden, wenn Sie buchen. |[Vorschau-Buchungs-Ergebnisse](ui-how-preview-post-results.md) |
 | In einem Bericht die Posten in der Vorschau anzeigen, die erstellt werden, wenn Sie buchen. |[Anzeigen von Testberichten vor dem Buchen](ui-how-view-test-reports-posting.md) |
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Gebuchte Belege bearbeiten](across-edit-posted-document.md)  
 [Suchen verwandter Posten für Belege](ui-find-entries.md)  

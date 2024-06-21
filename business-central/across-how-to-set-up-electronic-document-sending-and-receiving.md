@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="set-up-electronic-document-sending-and-receiving"></a>Senden und Empfangen von elektronischen Belegen einrichten
+# Senden und Empfangen von elektronischen Belegen einrichten
 
 > [!NOTE]
 > Der Inhalt dieses Artikels gilt nur für Versionen von Dynamics 365 Business Central, die vor dem 2. Veröffentlichungszyklus 2023 veröffentlicht wurden. Im 2. Veröffentlichungszyklus 2023 sind neue Funktionen für E-Belege enthalten. Weitere Informationen finden Sie unter [E-Belege einrichten](finance-how-setup-edocuments.md). 
@@ -41,7 +41,7 @@ In diesem Thema werden die folgenden Prozeduren beschrieben:
 * Auswählen der Datenaustauschdefinition **PEPPOL - Rechnung** für den Empfang von elektronischen Belegen  
 * Einrichten des Sachkontos zur Verwendung bei neuen Einkaufsrechnungszeilen für nicht \-identifizierbare Artikel und Nicht\-Artikel  
 
-### <a name="to-set-up-the-company-for-electronic-document-sending-and-receiving"></a>Einrichten des Mandanten zum Senden und Empfangen von elektronischen Belegen
+### Einrichten des Mandanten zum Senden und Empfangen von elektronischen Belegen
 
 1. Geben Sie im Feld **Suchen** **Firmendaten** ein, und wählen Sie dann den zugehörigen Link aus.  
 2. Füllen Sie im Inforegister **Allgemein** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
@@ -52,7 +52,7 @@ In diesem Thema werden die folgenden Prozeduren beschrieben:
     |**USt-ID**|Geben Sie die USt-IdNr. Ihres Unternehmens an.|  
     |**Zuständigkeitseinheitencode**|Wenn Ihr Unternehmen mit einer Zuständigkeitseinheit eingerichtet ist, dann stellen Sie sicher, dass das Feld **Land-/Regionencode** ausgefüllt ist.|  
 
-### <a name="to-set-up-vat-posting-for-electronic-document-sending-and-receiving"></a>Einrichten der MwSt.-Buchung zum Senden und Empfangen von elektronischen Belegen
+### Einrichten der MwSt.-Buchung zum Senden und Empfangen von elektronischen Belegen
 
 1. Geben Sie im Feld **Suchen** einen Wert für **MwSt.-Buchungsmatrix Einr.**, und wählen Sie dann den zugehörigen Link aus.  
 2. Für jede MwSt.-Buchungsmatrixzeile, die Sie für elektronische Belege verwenden, müssen Sie das Feld wie in der folgenden Tabelle beschrieben ausfüllen.  
@@ -61,7 +61,7 @@ In diesem Thema werden die folgenden Prozeduren beschrieben:
     |---------------------------------|---------------------------------------|  
     |**Steuerkategorie**|Geben Sie die MwSt.-Kategorie an.<br /><br /> Wenn Sie beispielsweise elektronische Rechnungen im PEPPOL-Format senden, wird der Wert in diesem Feld verwendet, um das **TaxApplied**-Element unter dem **AccountingSupplierParty**-Knoten zu füllen. Die Nummer basiert auf dem UNCL5305-Standard.|  
 
-### <a name="to-set-up-countriesregions-for-electronic-document-sending-and-receiving"></a>Einrichten von Ländern/Regionen zum Senden und Empfangen von elektronischen Belegen
+### Einrichten von Ländern/Regionen zum Senden und Empfangen von elektronischen Belegen
 
 1. Geben Sie im Feld **Suchen** die Option **Länder/Regionen** ein, und wählen Sie dann den zugehörigen Link aus.  
 2. Für alle Länder/Regionen, mit denen Sie elektronische Belege austauschen, müssen Sie das Feld wie in der folgenden Tabelle beschrieben ausfüllen.  
@@ -70,7 +70,7 @@ In diesem Thema werden die folgenden Prozeduren beschrieben:
     |---------------------------------|---------------------------------------|  
     |**MwSt.-Schema**|Identifizieren Sie die nationale Behörde, die die MwSt-IdNr. für die Länder\/Regionen ausgibt, an die elektronische Beleg gesendet werden.<br /><br /> Wenn Sie beispielsweise elektronische Rechnungen im PEPPOL-Format senden, wird der Wert in diesem Feld verwendet, um das **SchemeID**-Attribut für das **EndPointID**-Element unter den Knoten **AccountingSupplierParty** und **AccountingCustomerParty** in der Datei zu füllen.<br /><br /> Das Feld **MwSt-Schema** wird nur verwendet, wenn das Feld **GLN** auf der Seite **Unternehmen** nicht ausgefüllt ist. **Hinweis:** Der Wert im Feld **Code** auf der Seite **Länder\/Regionen** muss dem Standard ISO 3166\-1:Alpha2 entsprechen.|  
 
-### <a name="to-set-up-items-for-electronic-document-sending-and-receiving"></a>Einrichten von Artikeln zum Senden und Empfangen von elektronischen Belegen
+### Einrichten von Artikeln zum Senden und Empfangen von elektronischen Belegen
 
 1. Geben Sie im Feld **Suchen** **Artikel** ein, und wählen Sie dann den zugehörigen Link aus.  
 2. Für jeden Artikel, den Sie unter Verwendung von elektronischen Belegen kaufen oder verkaufen, müssen Sie das Feld wie in der folgenden Tabelle beschrieben ausfüllen.  
@@ -79,7 +79,7 @@ In diesem Thema werden die folgenden Prozeduren beschrieben:
     |---------------------------------|---------------------------------------|  
     |**GTIN**|Identifiziert das Element in Verbindung mit dem elektronischen Senden und Empfangen von Dokumenten. Für das PEPPOL-Format wird das Feld wie folgt verwendet:<br /><br /> Wenn für das Element **StandardItemIdentification\/ID** das Attribut **SchemeID** auf den Wert **GTIN** festgelegt ist, wird das Element dem Feld **GTIN** auf der Artikelkarte zugeordnet.|  
 
-### <a name="to-set-up-units-of-measure-for-electronic-document-sending-and-receiving"></a>Einrichten von Einheiten zum Senden und Empfangen von elektronischen Belegen
+### Einrichten von Einheiten zum Senden und Empfangen von elektronischen Belegen
 
 1. Geben Sie im Feld **Suchen** die Option **Einheiten** ein, und wählen Sie dann den zugehörigen Link aus.  
 2. Für jede Einheit, die Sie für Artikel auf elektronischen Belegen verwenden, müssen Sie das Feld wie in der folgenden Tabelle beschrieben ausfüllen.  
@@ -88,7 +88,7 @@ In diesem Thema werden die folgenden Prozeduren beschrieben:
     |---------------------------------|---------------------------------------|  
     |**Internationaler Standardcode**|Geben Sie den Einheitencode an, der gemäß dem Standard UNECERec20 in Verbindung mit dem Senden von elektronischen Belegen verwendet wird.<br /><br /> Wenn Sie beispielsweise elektronische Rechnungen im PEPPOL-Format senden, wird der Wert in diesem Feld verwendet, um das **unitCode**-Attribut für das **InvoicedQuantity**-Element unter dem **InvoiceLine**-Knoten zu füllen. **Hinweis:** Wenn das Feld **Einheit** in der Verkaufszeile leer ist, wird der UNECERe20-Standardwert für „Stück“ \(H87\) standardmäßig eingefügt. Weitere Informationen und eine Liste von gültigen Einheitscodes finden Sie unter [Empfehlungen Nr. 20\-Verwendete Einheiten im internationalen Handel](https://www.unece.org/fileadmin/DAM/cefact/recommendations/rec20/rec20_rev3_Annex2e.pdf).|  
 
-### <a name="to-set-up-customers-for-electronic-document-sending"></a>Einrichten von Debitoren zum Senden von elektronischen Belegen
+### Einrichten von Debitoren zum Senden von elektronischen Belegen
 
 1. Geben Sie im Feld **Suchen** **Debitoren** ein, und wählen Sie dann den zugehörigen Link aus.  
 2. Für jeden Debitor, an den Sie elektronische Belege senden, müssen Sie die Felder in der folgenden Tabelle ausfüllen.  
@@ -101,7 +101,7 @@ In diesem Thema werden die folgenden Prozeduren beschrieben:
 
     Sie können für jeden Debitor eine bevorzugte Methode der Übermittlung von Geschäftsbelegen einrichten, sodass Sie nicht jedes Mal eine Sendeoption auswählen müssen, wenn Sie einen Beleg an den Debitor senden. Weitere Informationen finden Sie unter [Einrichten von Sendeprofilen](sales-how-setup-document-send-profiles.md).  
 
-### <a name="to-select-the-peppol-electronic-document-format-for-electronic-document-sending"></a>Auswählen des elektronischen Belegformats PEPPOL zum Senden von elektronischen Belegen
+### Auswählen des elektronischen Belegformats PEPPOL zum Senden von elektronischen Belegen  
 1. Geben Sie im Feld **Suchen** den Text **Belegsendeprofile** ein, und wählen Sie dann den zugehörigen Link aus.  
 2. Öffnen Sie ein vorhandenes Sendeprofil für Belege, oder erstellen Sie ein neues. Weitere Informationen finden Sie unter [Einrichten von Sendeprofilen](sales-how-setup-document-send-profiles.md).  
 3. Die Seite **Belegsendeprofil** kann jetzt im **Elektronisches Format**-Feld in der Zeile für PEPPOL ausgewählt werden. Wählen Sie dann die Schaltfläche **OK**.  
@@ -114,7 +114,7 @@ In diesem Thema werden die folgenden Prozeduren beschrieben:
 
     Nun können Sie den elektronischen Beleg mit den konvertierten Daten senden. Weitere Informationen finden Sie unter [Senden von elektronischen Dokumenten](sales-how-to-send-electronic-documents.md).  
 
-### <a name="to-set-up-vendors-for-electronic-document-receiving"></a>Einrichten von Kreditoren für den Empfang von elektronischen Belegen
+### Einrichten von Kreditoren für den Empfang von elektronischen Belegen  
 1. Geben Sie im Feld **Suchen** **Kreditoren** ein, und wählen Sie dann den zugehörigen Link aus.  
 2. Für jeden Kreditor, von dem Sie elektronische Belege empfangen, müssen Sie die Felder wie in der folgenden Tabelle beschrieben ausfüllen.  
 
@@ -124,7 +124,7 @@ In diesem Thema werden die folgenden Prozeduren beschrieben:
     |**USt-ID**|Geben Sie die Umsatzsteuer-Identifikationsnummer des Kreditors an. **Hinweis:** Wählen Sie in unterstützten lokalisierten Versionen die DrillDown-Schaltfläche aus, um den Webdienst zu verwenden, der prüft, ob die Nummer im nationalen Handelsregister vorhanden ist.|  
     |**Zuständigkeitseinheitencode**|Wenn Ihr Unternehmen mit einer Zuständigkeitseinheit eingerichtet ist, dann stellen Sie sicher, dass das Feld **Land-/Regionencode** ausgefüllt ist.|  
 
-### <a name="to-select-the-peppol---invoice-data-exchange-definition-for-electronic-document-receiving"></a>Auswählen der Datenaustauschdefinition „PEPPOL - Rechnung“ für den Empfang von elektronischen Belegen
+### Auswählen der Datenaustauschdefinition „PEPPOL - Rechnung“ für den Empfang von elektronischen Belegen  
 1. Geben Sie im Feld **Suchen** einen Wert für **Eingehende Belege** ein, und wählen Sie dann den zugehörigen Link aus.  
 2. Wählen Sie in der Zeile für den elektronischen Beleg, der empfangen und konvertiert werden soll, das Feld **Datenaustasuchtyp** und dann **PEPPOL-Rechnung** aus.  
 
@@ -132,7 +132,7 @@ In diesem Thema werden die folgenden Prozeduren beschrieben:
 
     Nun können Sie den elektronischen Beleg empfangen, indem Sie den Datenkonvertierungsprozess auf der Seite **Eingehende Belege** starten. Weitere Informationen finden Sie unter [Elektronische Belege empfangen und konvertieren](purchasing-how-to-receive-and-convert-electronic-documents.md).  
 
-### <a name="to-set-up-the-gl-account-to-use-on-new-purchase-invoice-lines-for-non-identifiable-items-and-non-items"></a>Einrichten des Sachkontos zur Verwendung bei neuen Einkaufsrechnungszeilen für nicht identifizierbare Artikel und Nicht-Artikel
+### Einrichten des Sachkontos zur Verwendung bei neuen Einkaufsrechnungszeilen für nicht identifizierbare Artikel und Nicht-Artikel  
 1. Geben Sie im Feld **Suchen** **Kreditoren & Einkauf einrichten** ein, und wählen Sie dann den zugehörigen Link aus.  
 2. Füllen Sie im Inforegister **Kontenschemata** das Feld gemäß der Beschreibung in der folgenden Tabelle aus.  
 
@@ -140,7 +140,7 @@ In diesem Thema werden die folgenden Prozeduren beschrieben:
     |---------------------------------|---------------------------------------|  
     |**Standardsollkonto für Nicht-Artikel-Positionen**|Gibt das Sachkonto an, das automatisch in Verkaufszeilen eingefügt wird, die aus elektronischen Dokumenten erstellt werden, wenn die Zeile des eingehenden Beleges keinen identifizierbaren Artikel enthält. Irgendeine Zeile des eingehenden Beleges, die kein GTIN hat, oder die Artikelnummer des Kreditors auf eine Einkaufszeile des Typs **Sachkonto** und **Nr.** Feld der Einkaufsbestellzeile enthält das Konto, das Sie in dem Feld **Sachkonto für Nicht-Artikel-Zeilen** auswählen.<br /><br /> Wenn Sie das **Sachkonteo für Nicht-Artikel-Positionen**-Feld leer lassen und der eingehende Beleg Zeilen ohne identifizierbare Artikel hat, wird der Einkaufsbeleg nicht erstellt. Eine Fehlermeldung weist Sie an, das **Sachkonto Nicht-Artikel-Zeilen**-Feld auszufüllen, bevor Sie die Aufgabe ausführen können.|  
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch  
 [Daten elektronisch austauschen](across-data-exchange.md)   
 [Fakturieren eines Verkaufs](sales-how-invoice-sales.md)   
 [Erfassen eines Einkaufs](purchasing-how-record-purchases.md)

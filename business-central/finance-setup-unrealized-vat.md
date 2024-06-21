@@ -12,11 +12,11 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# <a name="set-up-unrealized-vat-for-cash-based-accounting"></a>Einrichten unrealisierter MwSt. für Einnahmen- und Ausgabenrechnung
+# Einrichten unrealisierter MwSt. für Einnahmen- und Ausgabenrechnung
 
 Wenn Sie Einnahmen- und Ausgabenrechnungs-Methoden ausgleichen, können Sie in [!INCLUDE[prod_short](includes/prod_short.md)] festlegen, wie unrealisierte MwSt. zu behandeln ist.
 
-## <a name="to-use-general-ledger-accounts-for-unrealized-vat"></a>Verwenden von Sachkonten für unrealisierte MwSt.
+## Verwenden von Sachkonten für unrealisierte MwSt.
 
 Sie können festlegen, dass MwSt.-Beträge beim Buchen einer Rechnung berechnet und auf ein temporäres Sachkonto gebucht werden und dass die Beträge erst dann auf das korrekte Sachkonto gebucht und in die MwSt.-Abrechnungen einbezogen werden sollen, wenn die eigentliche Zahlung der Rechnung gebucht wird. Bevor Sie dies tun können, müssen Sie die [MwSt.-Buchungsmatrix](finance-setup-vat.md) ausfüllen.
 
@@ -46,7 +46,7 @@ Um die Konten für unrealisierte MwSt. zu verwenden, führen Sie diese Schritte 
 > [!NOTE]  
 > Der MwSt-Betrag wird auf dieses Steuerkonto gebucht, wo er verbleibt, bis die Zahlung des Debitors gebucht wird. Der Betrag wird dann auf das Sachkonto für Mehrwertsteuerkäufe transferiert.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 [Berechnungen einrichten und Buchungsmethoden für Mehrwertsteuer](finance-setup-vat.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

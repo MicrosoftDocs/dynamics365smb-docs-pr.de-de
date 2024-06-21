@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="service-price-management"></a>Servicepreismanagement
+# Servicepreismanagement
 Die Funktionalität "Servicepreismanagement" erlaubt Ihnen, den Serviceaufträgen die besten Preise zuzuordnen, individuelle Preisvereinbarungen mit Kunden einzurichten, die Effizienz der Servicemitarbeiter zu verbessern und den Rechnungsstellungsprozess zu beschleunigen.  
   
 Mit dem Servicepreismanagement können Sie verschiedene Servicepreisgruppen einrichten und dabei den Serviceartikel oder die Serviceartikelgruppe sowie den Problemcode der Serviceaufgabe berücksichtigen. Sie können diese Gruppen für begrenzte Zeiträume oder für bestimmte Kunden oder Währungen einrichten. Sie können Preiskalkulationsstrukturen als Vorlagen verwenden, um einer bestimmen Serviceaufgabe einen bestimten Preis zuzuordnen.  
@@ -21,7 +21,7 @@ Bevor die Servicepreiskorrektur für einen Serviceartikel in einem Serviceauftra
   
 Statistiken für die Servicepreisgruppen und Berichte erlauben Ihnen, die Profitabilität jeder Servicepreisgruppe zu verfolgen.  
   
-## <a name="service-price-adjustment-groups"></a>Servicepreiskorrekturgruppen
+## Servicepreiskorrekturgruppen  
 Sie verwenden Servicepreiskorrekturgruppen, um verschiedene Arten von Preiskorrekturen für Servicezeilen einzurichten. Sie können beispielsweise eine Servicepreiskorrekturgruppe für Ersatzteile einrichten, eine für Ressourcen, eine für Kosten usw. Sie können darüber hinaus festlegen, ob die Servicepreiskorrektur nur für einen bestimmten Artikel oder eine bestimmte Ressource oder für alle Artikel und Ressourcen gelten soll.  
   
 Die Funktion "Preiskorrektur" wird bei Serviceartikeln unter den folgenden Bedingungen nicht angewendet:
@@ -32,14 +32,14 @@ Die Funktion "Preiskorrektur" wird bei Serviceartikeln unter den folgenden Bedin
   
 Wenn Sie die Funktion "Servicepreise korrigieren" aufrufen, werden alle Rabatte im Auftrag durch die Werte der Servicepreiskorrektur ersetzt.  
   
-## <a name="service-price-groups"></a>Servicepreisgruppen
+## Servicepreisgruppen  
 Sie können Servicepreisgruppen einrichten, um Gruppen von Serviceartikeln zu bilden, die derselben Servicepreisgestaltung unterliegen. Nachdem Sie Servicepreisgruppen eingerichtet haben, können Sie diese mit Serviceartikeln in Serviceartikelzeilen verbinden. Servicepreisgruppen können auch mit Serviceartikelgruppen verbunden werden.  
   
 Bevor Sie eine Servicepreisgruppe einem Serviceartikel zuweisen, müssen Sie festlegen, auf welchen Problembereichscode, welche Währung oder welche Servicepreiskorrekturgruppe die Servicepreisgruppe Anwendung findet. Sie müssen festlegen, auf welchen Betrag der Servicepreis korrigiert werden soll und ob dieser Betrag inklusive MwSt. und Rabatt sein soll. Darüber hinaus müssen Sie festlegen, ob diese Korrektur einen festen Betrag betrifft oder nur unter bestimmten Bedingungen angewendet werden soll.  
   
 Wenn Sie einem Serviceartikel eine Servicepreisgruppe zuweisen, dann gelten alle in dieser Gruppe eingerichteten Bedingungen für diesen Serviceartikel.  
   
-## <a name="service-pricing"></a>Servicepreise
+## Servicepreise  
 Sie richten die eigentlichen Servicepreisarten (Preiskorrekturart und Preis) für eine Kombination aus Servicepreisgruppen und Debitorpreisgruppen ein. Sie wählen für jede Art von Servicepreisgestaltung eine Servicepreiskorrekturgruppe. Des Weiteren legen Sie die Servicepreiskorrekturart (Fix, Maximum oder Minimum) sowie den tatsächlichen Preis fest.  
   
 Sie können z. B. Arten von Servicepreisen für eine Radioservicepreisgruppe einrichten. Für Debitoren, die keiner Preisgruppe zugewiesen wurden, können Sie festlegen, dass für Serviceleistungen ein maximaler Preis berechnet werden soll (= Preiskorrekturgruppe für Serviceleistungen). Für Debitoren, die einer bestimmten Preisgruppe zugewiesen wurden, können Sie festlegen, dass für Serviceleistungen ein fixer Preis berechnet werden soll, dieselbe Preisausorrekturgruppe für Serviceleistungen.  
@@ -50,7 +50,7 @@ Sie können z. B. Arten von Servicepreisen für eine Radioservicepreisgruppe ein
 3. Füllen Sie auf den Seiten **Res.-VK-Preise Projekt**, **Projektartikelpreise**, oder **Projekt-Sachkontopreise** die Felder nach Bedarf aus.
 
   
-## <a name="service-price-adjustment"></a>Servicepreiskorrekturen
+## Servicepreiskorrekturen  
 Die Servicepreiskorrektur ermöglicht Ihnen, die Preise für Artikel, Ressourcen, dem Sachkonto oder den Kosten in einem Serviceauftrag zu korrigieren.  
   
 Nachdem Sie einen Artikel in die Serviceartikelzeile eingegeben haben, erfassen Sie alle Informationen über die Kosten für diesen Artikel in den Servicezeilen. Wenn Sie die Funktion "Servicepreis korrigieren" ausführen, können Sie die Preiskorrekturen in der Vorschau sehen. Sie können hier bei Bedarf Änderungen vornehmen. Wenn Sie die Änderungen bestätigen, werden die Korrekturen berechnet und in die Servicezeilen übertragen. Dann buchen Sie den Serviceauftrag.  
@@ -65,7 +65,7 @@ Die Berechnungen sind in der folgenden Tabelle beschrieben.
 |**Maximum**|Damit legen Sie, ungeachtet der tatsächlichen Kosten, einen Höchstbetrag für den Rechnungsbetrag für den Kunden fest. Bei dieser Option wird nur dann eine Servicepreiskorrektur durchgeführt, wenn der Gesamtbetrag den in der Servicepreisgruppe angegebenen Betrag übersteigt.|  
 |**Minimum**|Das bedeutet, dass Sie, ungeachtet der tatsächlichen Kosten, eine Untergrenze definieren. Bei dieser Option werden Servicepreiskorrekturen nur durchgeführt, wenn der Gesamtbetrag geringer ist als der Betrag, der in der Servicepreisgruppe angegeben wurde.|  
   
-## <a name="see-also"></a>Siehe auch
+## Siehe auch  
 [Einrichten von Preisen und zusätzlichen Kosten für Services](service-how-setup-service-costs-pricing.md)  
 [Einrichten der Serviceverwaltung](service-setup-service.md)  
 

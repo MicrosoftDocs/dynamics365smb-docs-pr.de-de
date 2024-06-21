@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="set-up-multiple-interest-rates-for-delayed-payment"></a>Mehrere Zinssätze für gestundete Zahlungen einrichten
+# Mehrere Zinssätze für gestundete Zahlungen einrichten
 
 Sie können verschiedene Zinssätze für verschiedene Perioden für gestundete Zahlungen in den Geschäftstransaktionen verwenden. [!INCLUDE [multiple-interest-rates-def](includes/multiple-interest-rates-def.md)]
 
@@ -18,7 +18,7 @@ Beispielsweise zeigt eine Regierung den maximalen Zinsen, der für einen Verbrau
 
 Wenn Sie Zinskonditionen und Mahnmethoden für verspätete Zahlungen einrichten, können Sie mehrere Zinssätzen angeben, damit die Strafgebühr aus verschiedenen Zinssätzen in verschiedenen Perioden berechnet wird.  
 
-## <a name="to-set-up-multiple-interest-rates"></a>Einrichten mehrerer Zinssätze.
+## Einrichten mehrerer Zinssätze.
 
 1. Wählen Sie das Symbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Zinskonditionen** ein und wählen Sie dann den zugehörigen Link.  
 2. Auf der Seite **Zinskonditionen** wählen Sie den gewünschten Finanzausdruck, und wählen die Aktion **Zinssätze**.  
@@ -30,7 +30,7 @@ Wenn Sie Zinskonditionen und Mahnmethoden für verspätete Zahlungen einrichten,
 
 Wenn Sie eine Zinsrechnung registrieren, wird deren Registrierung die Zinsrechnungen mit mehreren Zinssätzen während eines bestimmten Zeitraums anzeigen. Die Mahnung enthält außerdem die Kontaktdetails des Debitors, des Unternehmens, das die Mahnung ausgibt, den Zusatzbetrag und den Gesamtbetrag. Der Eröffnungsposten der Zinsrechnung wird fett angezeigt. Die Zinsrechnungen werden mit verschiedenen Zinssätzen für eine bestimmte Periode berechnet und werden nach dem Eröffnungsposten der Mahnung gedruckt.  
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Einziehen von Restbeträgen](receivables-collect-outstanding-balances.md)  
 [Finanzen einrichten](finance-setup-finance.md)

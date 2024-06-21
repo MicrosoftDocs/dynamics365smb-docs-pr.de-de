@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# <a name="use-e-documents-in-the-sales-process"></a>E-Belege im Verkaufsprozess verwenden
+# E-Belege im Verkaufsprozess verwenden
 
 Sie können konfigurierte elektronische Belege (E-Belege) mit Verkaufsbelegen verwenden.
 
@@ -26,13 +26,13 @@ Sie können die folgenden Verkaufsbelegen mit der E-Belege-Funktionalität verwe
 - Zinsrechnungen
 - Mahnungen
 
-## <a name="e-documents-in-sales"></a>E-Belege im Verkauf
+## E-Belege im Verkauf  
 
 Um eine E-Rechnung zu erstellen und an einen Debitor zu senden, müssen Sie die Verkaufsrechnung erstellen und buchen. Weitere Informationen zum Standardprozess finden Sie unter [Fakturierung eines Verkaufs](sales-how-invoice-sales.md).
 
 Nachdem Sie den Verkaufsbeleg gebucht haben, öffnen Sie die Seite **Gebuchte Verkaufsrechnungen**, um auf die zugehörige Seite **E-Belege** zuzugreifen.
 
-### <a name="view-e-documents"></a>E-Belege aufrufen
+### E-Belege aufrufen   
 
 Gehen Sie wie folgt vor, um vorhandene E-Belege anzuzeigen.
 
@@ -41,7 +41,7 @@ Gehen Sie wie folgt vor, um vorhandene E-Belege anzuzeigen.
 3. Das Feld **Datensatz** enthält die Belegnummer der gebuchten Verkaufsrechnung. Wählen Sie den Link aus, um den Beleg zu öffnen.
 4. Im Feld **Status des elektronischen Belegs** können Sie den Echtzeitstatus des Belegs und seine Position in der Verarbeitungspipeline anzeigen. Wenn der Beleg gebucht ist, lautet der Status **Verarbeitet**.
 
-### <a name="e-document-statuses-and-logs"></a>E-Beleg-Status und -Protokolle
+### E-Beleg-Status und -Protokolle 
 
 Einzelheiten zum Dienststatus Ihres E-Belegs finden Sie im Inforegister **E-Beleg – Dienststatus**. Das System zeigt in den Zeilen einen oder mehrere Dienste an, die der Beleg verwendet hat. Im häufigsten Szenario verwendet jeder Beleg nur einen Dienst. Ein Beleg kann jedoch mehrere Dienste nutzen.
 
@@ -65,7 +65,7 @@ Wenn es ein Problem mit dem Dienstanbieter gibt und der Beleg nicht gesendet wer
 
 Nachdem das Problem behoben ist, führen Sie die Aktionen **Beleg senden** manuell aus. Wenn Sie verschiedene Aktionen benötigen, z. B. **Beleg neu erstellt**, **Beleg stornieren** oder **Genehmigung erhalten**, können Sie sie ausführen.
 
-## <a name="overview-of-e-document-statuses"></a>Übersicht über die Status von E-Belegen
+## Übersicht über die Status von E-Belegen
 
 Um einen besseren Überblick über alle E-Belege im Unternehmen zu erhalten, können Sie das **Buchhalter**-Rollencenter auswählen, in dem die Status des E-Belegs vorhanden sind. Dort finden Sie E-Beleg-Aktivitäten mit folgenden Status:
 
@@ -76,7 +76,7 @@ Um einen besseren Überblick über alle E-Belege im Unternehmen zu erhalten, kö
     - Fehler
 
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [E-Belege in [!INCLUDE[prod_short](includes/prod_short.md)] einrichten](finance-how-setup-edocuments.md)    
 [E-Belege im Einkauf verwenden](finance-how-use-edocuments-purchase.md)  

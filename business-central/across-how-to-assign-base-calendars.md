@@ -10,11 +10,11 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="set-up-base-calendars"></a>Basiskalender einrichten
+# Basiskalender einrichten
 
 Sie können Ihrer Firma sowie Ihren Geschäftspartnern, wie z. B. Debitoren, Kreditoren und Lagerorten oder Standorte zuordnen. Die Liefer- und Wareneingangsdaten auf zukünftigen Verkaufsaufträgen, Einkaufsbestellungen, Umlagerungsaufträgen und in Fertigungsauftragszeilen werden, entsprechend den Arbeitstagen, die im Kalender festgelegt sind, errechnet. Die Hauptaufgabe beim Einrichten eines neuen Basiskalenders ist, die freien Tage festzulegen.  
 
-## <a name="to-set-up-a-base-calendar"></a>einen Basiskalender einrichten
+## einen Basiskalender einrichten
 
 1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Basiskalender** ein, und wählen Sie dann den entsprechenden Link.  
 2.  Wählen Sie die Aktion **Neu** aus.  
@@ -36,7 +36,7 @@ Wenn Sie einen Eintrag vornehmen, wird das Feld **Frei** ausgewählt. Sie könne
 >  Alle Basiskalender, die für den Kreditor oder Lagerort definiert wurden, wirken sich darauf aus, wie die Daten in Arbeitstage berechnet und gerundet werden.
 Gibt eine Datumsformel für die Beschaffungszeit des Artikels an. Es wird verwendet, um das Feld **Geplantes Empfangsdatum** vorwärts zu berechnen und um das Feld **Aufrtragsdatum** rückwärts zu berechnen. Sehen Sie [Beschaffungszeit](across-how-to-assign-base-calendars.md#lead-time-calculation).
 
-## <a name="lead-time-calculation"></a>Beschaffungszeit
+## Beschaffungszeit
 
 Alle Basiskalender, die für den Kreditor oder Lagerort definiert wurden, wirken sich darauf aus, wie die Daten in Arbeitstage berechnet und gerundet werden. Die beiden Schlüsseldatumsfelder in Einkaufszeilen werden daher wie folgt mit unterschiedlichen Bedingungen berechnet.
 
@@ -53,7 +53,7 @@ Alle Basiskalender, die für den Kreditor oder Lagerort definiert wurden, wirken
 
 Der Inhalt des Felds **Berechung Beschaffungszeit** wird von der Artikelkarte oder der Lagerhaltungsdatenkarte kopiert, wenn die Beschaffungszeit für den Artikel definiert wird, oder auf der Seite **Artikel/Debitoren Katalog**, wenn die Beschaffungszeit für den Kreditor definiert wird.
 
-## <a name="to-customize-a-calendar"></a>Einen Kalender individuell anpassen
+## Einen Kalender individuell anpassen
 Die Hauptaufgabe beim Anpassen eines Basiskalenders für Ihre Firma oder einen Ihrer Geschäftspartner ist, alle Änderungen am Status der Daten als freie Tage oder Arbeitstage einzugeben.
 
 Während ein Basiskalender z. B. alle Samstage als freie Tage auflistet, kann der spezifische Kalender für einen bestimmten Lagerort alle Samstage in den Monaten November und Dezember als arbeitsfreie Tage führen.
@@ -86,7 +86,7 @@ Wenn Sie das Feld **Zustellercode** in einer Auftragszeile nicht ausfüllen, wir
 > [!NOTE]  
 > Wenn Sie an einem Basiskalender Änderungen vornehmen, für den ein spezifischer Kalender existiert, werden automatisch auch alle bestehenden spezifischen Kalender aktualisiert.
 
-## <a name="to-assign-a-base-calendar"></a>Einen Basiskalender zuordnen
+## Einen Basiskalender zuordnen  
 Das folgende Vorgehen plant Lieferdaten in Verkaufsauftragszeilen für einen Debitorn als Beispiel.
 
 Basiskalender werden Ihrer eigenen Firma, Debitoren, Kreditoren, Lagerorten und Zustellern zugeordnet, wie folgt:  
@@ -108,7 +108,7 @@ Basiskalender werden Ihrer eigenen Firma, Debitoren, Kreditoren, Lagerorten und 
 > [!NOTE]  
 >  Bevor Sie einen spezifischen Kalender anlegen können, müssen Sie zuerst der Firma einen Basiskalender zuordnen.  
 
-## <a name="see-also"></a>Weitere Informationen
+## Weitere Informationen
 [Einkauf](purchasing-manage-purchasing.md)  
 [Produktion](production-manage-manufacturing.md)    
 [Bestand](inventory-manage-inventory.md)  

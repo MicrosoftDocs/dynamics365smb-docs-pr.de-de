@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# <a name="sustainability-setup"></a>Nachhaltigkeitseinrichtung
+# Nachhaltigkeitseinrichtung
 
 Bevor das Nachhaltigkeitsmodul richtig funktioniert, müssen Sie einige grundlegende Steuerelemente und Anweisungen festlegen, die mit der gesamten Funktionalität zusammenhängen.
 
@@ -53,7 +53,7 @@ Um ein Nachhaltigkeitsmodul einzurichten, gehen Sie wie folgt vor:
     | **Emissionsrundungsgenauigkeit** | Geben Sie die Intervallgröße an, die beim Runden von Emissionsmengen bei der Meldung an Behörden verwendet wird. |
     | **Emissionsrundungsart** | Geben Sie an, wie das Programm bei der Meldung an Behörden Emissionsmengen rundet. Folgende Optionen stehen zur Verfügung: **Kaufmännisch**, **Aufrunden** und **Abrunden**. |
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Finanzen](finance.md)  
 [Nachhaltigkeitsmanagement – Überblick](finance-manage-sustainability.md)  

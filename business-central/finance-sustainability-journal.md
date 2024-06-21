@@ -12,17 +12,17 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# <a name="record-sustainability-entries"></a>Nachhaltigkeitsposten erfassen
+# Nachhaltigkeitsposten erfassen
 
 Derzeit können Treibhausgasemissionen (THG-Emissionen) im Nachhaltigkeitssachkonto nur mithilfe von Nachhaltigkeits-Buch.-Blättern erfasst werden.
 
-## <a name="sustainability-journals"></a>Nachhaltigkeits-Buch.-Blätter
+## Nachhaltigkeits-Buch.-Blätter
 
 Nachhaltigkeits-Buch.-Blätter sind für die Nachverfolgung und Erfassung von Nachhaltigkeitsaktivitäten konzipiert und bieten dazu dieselbe Benutzererfahrung wie andere Buch.-Blätter in Business Central. Benutzende, die über die erforderlichen Informationen verfügen, können Emissionen manuell in ein Buch.-Blatt eingeben. Falls diese Informationen nicht vorliegen, können sie alternativ integrierte Formeln verwenden, um die Emissionen auf der Grundlage spezifischer bekannter Parameter, die verschiedenen Arten von Quellen und Konten entsprechen, genau zu berechnen.
 
 Die in ein Buch.-Blatt eingegebenen Informationen sind temporär und können geändert werden, solange sie sich in diesem Buch.-Blatt befinden. Wenn Sie das Buch.-Blatt buchen, werden die Informationen in Nachhaltigkeitsposten auf einzelnen Nachhaltigkeitskonten übertragen, wo sie nicht geändert werden können. Sie können jedoch Storno- oder Korrekturbuchungen vornehmen.
 
-### <a name="use-journal-templates-and-batches"></a>Buch-Blattvorlagen und -namen verwenden
+### Buch-Blattvorlagen und -namen verwenden
 
 Es gibt standardmäßig zwei Nachhaltigkeits-Buch.-Blattvorlagen: die Standardvorlage und die wiederkehrende Vorlage.
 
@@ -31,13 +31,13 @@ Sie können zu jeder Buch.-Blattvorlage mehrere Buch.-Blattnamen als Buch-Stapel
 > [!TIP]
 > Wenn Sie über viele Zeilen verfügen, können Sie das Fehlerrisiko verringern, indem Sie für jede Emissionsart einen Buch.-Blattbatch anlegen. Alternativ können Sie für alle Emissionsarten auch den normalen Batch verwenden.
 
-### <a name="validate-sustainability-journals"></a>Nachhaltigkeits-Buch.-Blätter überprüfen
+### Nachhaltigkeits-Buch.-Blätter überprüfen
 
 Sie können auf der Seite **Nachhaltigkeitseinrichtung** eine Hintergrundprüfung einschalten, um Verzögerungen beim Buchen zu vermeiden. Wenn bei der Arbeit am Nachhaltigkeits-Buch.-Blatt Fehler auftreten, informiert die Prüfung Sie und verhindert, dass das Buch.-Blatt gebucht wird.
 
 Wenn Sie die Prüfung aktivieren, werden in der Infobox **Buch.-Blatt-Prüfung** Probleme in der aktuellen Zeile und im gesamten Batch angezeigt. Die Überprüfung erfolgt, wenn Sie einen Buch.-Blattbatch laden und wenn Sie eine andere Buchungsblattzeile auswählen. Die Kachel **Probleme insgesamt** in der Infobox zeigt an, wie viele Probleme [!INCLUDE [prod_short](includes/prod_short.md)] insgesamt gefunden hat. Durch Anklicken der Kachel können Sie eine Übersicht der Probleme öffnen.
 
-### <a name="work-with-sustainability-journals"></a>Mit Nachhaltigkeits-Buch.-Blättern arbeiten
+### Mit Nachhaltigkeits-Buch.-Blättern arbeiten
 
 Um mit der Arbeit an Nachhaltigkeits-Buch.-Blättern zu beginnen, gehen Sie wie folgt vor:
 
@@ -58,7 +58,7 @@ Um mit der Arbeit an Nachhaltigkeits-Buch.-Blättern zu beginnen, gehen Sie wie 
 
 Falls Ihre Formel auf der Option **Aus Finanzbuchhaltung berechnen** in der Kategorie des Nachhaltigkeitskontos beruht, müssen Sie die Aktion **Betrag aus Sachposten erfassen** verwenden, bevor Sie das Buch.-Blatt buchen, um die Emissionen basierend auf dieser Datenquelle zu berechnen. Darüber hinaus müssen Sie, Wenn Sie nach dem Ausfüllen der Buchblattzeilen Änderungen an den Emissionsfaktoren vorgenommen haben, die Aktion **Neu berechnen** auswählen, um den richtigen Betrag im Buch.-Blatt zu erhalten.
 
-### <a name="recurring-journals"></a>Wiederkehrende Buch.-Blätter
+### Wiederkehrende Buch.-Blätter
 
 Ein wiederkehrendes Buch.-Blatt ist ein Nachhaltigkeits.-Buch-Blatt mit spezifischen Feldern zur Verwaltung von Transaktionen, die Sie häufig und allenfalls mit wenigen Änderungen buchen. Dabei handelt es sich beispielsweise um Nachhaltigkeitstransaktionen wie Strom, Wärme oder andere ähnliche Transaktionen. Sie können mithilfe wiederkehrender Buch.-Blätter feste und variable Beträge buchen.
 
@@ -70,7 +70,7 @@ Auch das Feld **Wiederholungsrate** ist wichtig und muss festgelegt werden. Dabe
 
 Das Feld **Ablaufdatum** bestimmt das Datum, an dem die Zeile das letzte Mal gebucht werden soll. Die Zeile wird nach diesem Datum nicht mehr gebucht. Die Verwendung des Feldes **Ablaufdatum** hat den Vorteil, dass die Zeile nicht sofort aus dem Buch.-Blatt gelöscht wird. Sie können ein späteres Datum eingeben, so dass Sie die Zeile auch in der Zukunft verwenden können. Wenn das Feld leer ist, wird die Zeile jedes Mal gebucht, bis sie aus dem Buch.-Blatt gelöscht wird.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Finanzen](finance.md)  
 [Nachhaltigkeitsmanagement – Überblick](finance-manage-sustainability.md)  

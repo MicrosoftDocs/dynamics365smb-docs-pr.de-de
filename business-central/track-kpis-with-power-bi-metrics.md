@@ -12,7 +12,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="track-your-business-kpis-with-power-bi-metrics"></a>Verfolgen Sie Ihre Geschäfts-KPIs mit Power BI Metriken nach
+# Verfolgen Sie Ihre Geschäfts-KPIs mit Power BI Metriken nach
 
 Wenn Sie Power BI auf [!INCLUDE[prod_short](includes/prod_short.md)] Daten verwenden, können Sie wichtige KPIs oder Metriken ganz einfach nachverfolgen.
 
@@ -32,7 +32,7 @@ Weitere Informationen zu Power BI-Metriken finden Sie unter [Erste Schritte mit 
 > [!NOTE]
 > Ab Business Central 2023-Veröffentlichungszyklus 2 ist es möglich, Scorecards aus Power BI-Metriken in [!INCLUDE[prod_short](includes/prod_short.md)] einzubetten.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Ihre geschäftlichen Ziele mithilfe von Key Performance Indicators (KPIs) erreichen](analytics-about-kpis.md)  
 [Einführung in Business Central und Power BI](admin-powerbi.md)  

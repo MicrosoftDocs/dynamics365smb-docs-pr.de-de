@@ -7,7 +7,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-## <a name="best-practices-for-working-with-column-definitions"></a>Bewährte Methoden für die Arbeit mit Spaltendefinition
+## Bewährte Methoden für die Arbeit mit Spaltendefinition
 
 Spaltendefinition sind nicht versioniert. Wenn Sie eine Spaltendefinition ändern, wird die alte Version ersetzt, wenn Ihre Änderung in der Datenbank gespeichert wird. Die folgende Liste enthält einige bewährte Vorgehensweisen für die Arbeit mit Spaltendefinition:
 

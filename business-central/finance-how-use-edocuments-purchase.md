@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# <a name="use-e-documents-in-the-purchases-process"></a>E-Belege im Kaufprozess verwenden
+# E-Belege im Kaufprozess verwenden
 
 Sie können konfigurierte elektronische Belege (E-Belege) mit den Einkaufsbelegen verwenden.
 
@@ -26,11 +26,11 @@ Die folgenden Einkaufsbelege können mit der E-Belege-Funktionalität verwendet 
 > [!NOTE]
 > Ab der [!INCLUDE[prod_short](includes/prod_short.md)] Version 24.0 können **Bestellungen** mit den empfangenen **E-Belegen** verknüpft werden.  
 
-## <a name="e-documents-in-purchases"></a>E-Belege im Einkauf
+## E-Belege im Einkauf
 
 Der Eingang von E-Belegen in Dynamics 365 Business Central kann als Batchauftrag oder manuell durchgeführt werden.  
 
-### <a name="how-to-set-up-vendors-to-work-with-different-purchase-documents"></a>So richten Sie Kreditoren für die Arbeit mit verschiedenen Einkaufsbelegen ein
+### So richten Sie Kreditoren für die Arbeit mit verschiedenen Einkaufsbelegen ein  
 
 Gehen Sie wie folgt vor, um Kreditoren so zu konfigurieren, dass sie mit eingehenden elektronischen Rechnungen richtig funktionieren: 
 
@@ -47,9 +47,9 @@ Gehen Sie wie folgt vor, um Kreditoren so zu konfigurieren, dass sie mit eingehe
 4. Wählen Sie eine der Optionen aus, die Sie für den ausgewählten Kreditor verwenden möchten. 
 5. Schließen Sie die Seite.   
 
-### <a name="to-work-with-purchase-invoices"></a>Um mit Einkaufsrechnungen zu arbeiten
+### Um mit Einkaufsrechnungen zu arbeiten  
 
-#### <a name="run-the-batch-job"></a>Stapelverarbeitung ausführen
+#### Stapelverarbeitung ausführen  
 
 > [!NOTE]
 > Diese Stapelverarbeitung dient der automatisierten Erfassung Ihrer eingehenden Rechnungen. Sie funktioniert nur in einem Land oder einer Region, in der die Funktionalität vorhanden ist.  
@@ -77,7 +77,7 @@ Es gibt zwei häufige Fehler:
 
 Nachdem Sie die Fehler und Warnungen behoben haben, können Sie manuell festlegen, wann das System basierend auf Ihren Einstellungen eine Einkaufsrechnung erstellen soll, indem Sie **Beleg erstellen** auswählen.   
 
-#### <a name="manually-import-invoices"></a>Rechnungen manuell importieren
+#### Rechnungen manuell importieren  
 
 Um externe E-Belege manuell zu importieren, gehen Sie wie folgt vor:
 
@@ -88,9 +88,9 @@ Um externe E-Belege manuell zu importieren, gehen Sie wie folgt vor:
 5. Wenn Sie mit der Behebung der Probleme fertig sind, wählen Sie in der Gruppe **Manuell importieren** die Option **Beleg erstellen** aus.  
 6. Nachdem der Beleg in [!INCLUDE[prod_short](includes/prod_short.md)] erstellt wurde, ändert sich Ihre Anzeige durch die Verwendung eines Batchauftrags nicht. 
 
-### <a name="e-documents-with-purchase-orders"></a>E-Belege mit Bestellungen
+### E-Belege mit Bestellungen  
 
-#### <a name="to-link-purchase-orders-with-the-received-e-documents"></a>Um Bestellungen mit empfangenen E-Belegen zu verknüpfen
+#### Um Bestellungen mit empfangenen E-Belegen zu verknüpfen
 
 Wenn bei Ihrem **Kreditor** das Feld **E-Beleg empfangen an** für die Arbeit mit **Bestellungen** konfiguriert ist, tut [!INCLUDE[prod_short](includes/prod_short.md)] nach der Erstellung des elektronischen Belegs (manuell oder von einem externen Endpunkt aus) in [!INCLUDE[prod_short](includes/prod_short.md)] Folgendes:  
 
@@ -100,7 +100,7 @@ Wenn bei Ihrem **Kreditor** das Feld **E-Beleg empfangen an** für die Arbeit mi
 
 3. Wenn die **Bestellung** für diesen bestimmten Kreditor bei der Erstellung des neuen **E-Belegs** noch nicht vorliegt, erstellt [!INCLUDE[prod_short](includes/prod_short.md)] eine neue **Bestellung** und verwendet dabei dasselbe Erstellungsmodell wie für neue **Einkaufsrechnungen**. Der **Belegstatus** dieses **E-Belegs** ist dann **Verarbeitet** und der **Status des E-Belegs** auf der Unterseite **Dienststatus** lautet **Importierter Beleg erstellt**. Diese Verknüpfung wird im Feld **Beleg** dieses speziellen **E-Belegs** angezeigt.   
 
-#### <a name="matching-lines-from-received-e-document-with-purchase-order"></a>Zeilen des empfangenen E-Belegs mit der Bestellung abgleichen
+#### Zeilen des empfangenen E-Belegs mit der Bestellung abgleichen  
 
 Sie können Ihre empfangenen elektronischen Belege von zwei verschiedenen Orten aus mit den Zeilen der Bestellungen abgleichen: von der Seite **E-Beleg** aus oder über die Seite **Bestellung**. Der einfachste Weg, die bereits verknüpften **Bestellungen** zu finden, ist die Kachel **Verknüpfte Bestellungen** unter den **E-Beleg-Aktivitäten**. Alle nicht verlinkten Belege finden Sie über die Kachel **Wartende E-Einkaufsrechnungen**. Hier finden Sie eine Liste von **E-Belegen**, die Sie durchgehen müssen.  
 
@@ -110,7 +110,7 @@ Sie können Ihre empfangenen elektronischen Belege von zwei verschiedenen Orten 
 > [!NOTE]
 > Wenn sich der Mehrwertsteuersatz zwischen dem eingehenden Beleg und dem Mehrwertsteuersatz des Unternehmens unterscheidet, kann der Abgleich von Belegen in einer Umgebung mit mehreren Ländern nicht verwendet werden.  
 
-##### <a name="matching-lines-from-purchase-order"></a>Zeilen aus einer Bestellung abgleichen
+##### Zeilen aus einer Bestellung abgleichen  
 
 Sie können die Zeilen aus der Liste **Bestellungen** oder aus einer der geöffneten **Bestellung** abgleichen. Gehen Sie wie folgt vor, um damit zu beginnen:  
 
@@ -160,7 +160,7 @@ Wenn Sie etwas Toleranz hinzufügen und Unterschiede zwischen den Zeilen in der 
 3. Diese Einstellung gilt für alle übereinstimmenden Zeilen, berücksichtigt jedoch erneut die Toleranz für den Gesamtbetrag, wie für den **EK-Preis** zusammen mit dem angewandten **Zeilenrabatt %**.  
 4. Schließen Sie die Seite.   
 
-##### <a name="matching-lines-from-e-document"></a>Zeilen aus E-Belegen abgleichen
+##### Zeilen aus E-Belegen abgleichen  
 
 Sie können die Zeilen auf der Seite **E-Beleg** abgleichen. Gehen Sie wie folgt vor, um zu beginnen:  
 
@@ -169,7 +169,7 @@ Sie können die Zeilen auf der Seite **E-Beleg** abgleichen. Gehen Sie wie folgt
 3. Wählen Sie die Aktion **Bestellung abgleichen** um die Seite **Bestellabgleich** zu öffnen.  
 4. Wiederholen Sie die Schritte, die Sie verwendet haben, als Sie mit dem Abgleichen von Bestellungen begonnen haben.
 
-### <a name="e-document-matching-assistance-copilot"></a>Copilot zur Unterstützung beim Abgleich von E-Belegen
+### Copilot zur Unterstützung beim Abgleich von E-Belegen  
 
 > [!NOTE]
 > Derzeit befindet sich der Copilot **Unterstützung beim Abgleich von E-Belegen** in der Phase „Produktionsbereite Vorschauversion“ und ist weltweit außer in Kanada verfügbar. Er funktioniert nur auf Englisch. 
@@ -177,7 +177,7 @@ Sie können die Zeilen auf der Seite **E-Beleg** abgleichen. Gehen Sie wie folgt
 > [!NOTE]
 > Copilot ist ein KI-gestützter Assistent, der Menschen in Ihrem Unternehmen hilft, ihre Kreativität zu entfalten und lästige Aufgaben zu automatisieren. Mithilfe des Copiloten zur **Unterstützung beim Abgleich von E-Belegen** können Benutzende ihre erhaltenen elektronischen Rechnungen problemlos mit vorhandenen Bestellzeilen abgleichen. Hierzu wird das große Sprachmodell zum Abgleichen von Zeilen zwischen zwei verschiedenen Belegen verwendet. 
 
-#### <a name="to-activate-the-copilot"></a>So aktivieren Sie den Copiloten
+#### So aktivieren Sie den Copiloten  
 
 Falls Sie den Copiloten zur **Unterstützung beim Abgleich von E-Belegen** nicht aktiviert haben, müssen Sie dies manuell tun. Um den Copiloten zur **Unterstützung beim Abgleich von E-Belegen** zu aktivieren, gehen Sie wie folgt vor: 
 
@@ -186,7 +186,7 @@ Falls Sie den Copiloten zur **Unterstützung beim Abgleich von E-Belegen** nicht
 
 Sobald der Copilot aktiviert ist, können Sie ihn verwenden.
 
-#### <a name="use-the-e-document-matching-assistance-copilot"></a>Den Copilot zur Unterstützung beim Abgleich von E-Belegen verwenden
+#### Den Copilot zur Unterstützung beim Abgleich von E-Belegen verwenden 
 
 Wenn der Copilot aktiviert ist, erhalten die vorhandenen Aktionen **E-Belegzeilen zuordnen** auf Bestellungen und **Bestellung abgleichen** auf der Seite **E-Beleg** verschiedene Symbole, die für die KI-Fähigkeit stehen. Sie können diese Aktionen (die gleichen wie in den vorherigen Beispielen aus der Liste der Bestellungen) von einer der **Bestellungen** oder von einem **E-Beleg** aus ausführen. Alle Schritte zum Ausführen sind gleich, aber wenn Sie diese Aktion ausführen, sieht das Ergebnis anders aus und Sie müssen wie folgt vorgehen:  
 
@@ -231,7 +231,7 @@ Wenn der Copilot aktiviert ist, erhalten die vorhandenen Aktionen **E-Belegzeile
 > [!NOTE]
 > Die Preis-/Kostenanalyse und die Prüfung der verfügbaren Menge gehören zur Vorverarbeitung dazu.   
 
-## <a name="overview-of-e-document-statuses"></a>Übersicht über die Status von E-Belegen
+## Übersicht über die Status von E-Belegen
 
 Um einen besseren Überblick über alle E-Belege im Unternehmen zu erhalten, können Sie das **Buchhalter**-Rollencenter auswählen, in dem die Status des E-Belegs vorhanden sind. Dort finden Sie E-Beleg-Aktivitäten mit folgenden Status:
 
@@ -242,7 +242,7 @@ Um einen besseren Überblick über alle E-Belege im Unternehmen zu erhalten, kö
     - Fehler
 
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [E-Belege einrichten](finance-how-setup-edocuments.md)    
 [E-Belege im Verkaufsprozess verwenden](finance-how-use-edocuments.md)   

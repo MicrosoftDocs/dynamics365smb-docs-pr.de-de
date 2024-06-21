@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# <a name="setting-up-service-management"></a>Einrichten des Servicemanagements
+# Einrichten des Servicemanagements
 Bevor Sie mit den Servicemanagement-Funktionen in [!INCLUDE[prod_short](includes/prod_short.md)] beginnen können, müssen einige Dinge eingerichtet werden. Beispielsweise können Sie Codierung für Standardservices, Symptome und Fehlercodes festlegen und die Serviceartikel und Serviceartikeltypen einrichten, basierend auf den Anforderungen des Kundendiensts des Unternehmens.  
 
 Beim Einrichten des Servicemanagements muss festgelegt werden, welche Services Debitoren angeboten werden und ein entsprechender Zeitplan entworfen werden. Bei einem Service handelt es sich um eine Arbeit, die von mindestens einer Ressource ausgeführt und einem Debitor zur Verfügung gestellt wird. Ein Beispiel für einen Service ist die Reparatur eines Computers. Ein Serviceartikel ist das Gerät oder der Artikel, für den ein Service zu erbringen ist, beispielsweise ein reparaturbedürftiger Computer, der bei einem bestimmten Debitor installiert ist. Sie können Services als Teil einer Gruppe zugehöriger zu reparierender oder zu wartender Artikel einrichten.  
@@ -35,7 +35,7 @@ Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Artikel
 | Richten Sie Serviceartikel und Serviceartikelkomponenten ein. |[Serviceverträge einrichten](service-how-setup-service-items.md) |
 | Legen Sie die Grundlagen für das Erstellen von Serviceverträgen und Vertragsangeboten. |[Serviceverträge einzurichten:](service-how-setup-service-contracts.md) |
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 [Service](service-service.md)  
 [Vorbereitung für die Geschäftstätigkeit](ui-get-ready-business.md)  
 

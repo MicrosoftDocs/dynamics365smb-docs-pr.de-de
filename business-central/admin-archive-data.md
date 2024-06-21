@@ -11,13 +11,13 @@ ms.search.form: 630
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="the-data-archive-extension"></a>Die Data Archive-Erweiterung
+# Die Data Archive-Erweiterung
 
 Im Laufe der Zeit wird sich in Ihrem Unternehmen eine beträchtliche Menge an Daten ansammeln, und als Administrator ist es wahrscheinlich eine gute Idee, eine Strategie für die Archivierung von Daten zu haben. Viele Daten können die Arbeit verlangsamen, z.B. kann es etwas länger dauern, Berichte zu erstellen oder sogar Datensätze zu sperren. Außerdem können große Datenmengen zu erhöhten Speicherkosten führen.
 
 Die Data Archive-Erweiterung bietet ein grundlegendes Framework für die Archivierung und Sicherung von Daten im Rahmen der Datumsverdichtung. Die Datenkomprimierung konsolidiert zusammenhängende Einträge in einem einzigen Eintrag und löscht die Originale. Weitere Informationen finden Sie unter [Daten mit Datumskomprimierung komprimieren](admin-manage-documents.md#compress-data-with-date-compression). Es kann jedoch sinnvoll sein, diese Daten zu behalten. Anstatt sie zu löschen, können Sie sie zur späteren Verwendung archivieren.
 
-## <a name="start-archiving-data"></a>Archivierung von Daten starten
+## Archivierung von Daten starten
 
 Die Erweiterung ist vorinstalliert und auf der **Erweiterungsverwaltung** verfügbar, sodass Sie nichts weiter tun müssen, um loszulegen. Die Erweiterung ist in AppSource verfügbar.
 
@@ -51,10 +51,10 @@ Die Data Archive-Erweiterungen werden von den folgenden Batchaufträgen zur Date
 
 Um die Archivierung von Daten zu starten, wenn Sie einen der Batchaufträge ausführen, schalten Sie die Option **Löschte Einträge archivieren** ein.
 
-## <a name="storage-considerations"></a>Überlegungen zur Speicherung
+## Überlegungen zur Speicherung
 
 Die archivierten Daten werden in der Tabelle **Tenant-Medien** gespeichert. Wir empfehlen Ihnen, alte Archive z.B. in eine CSV-Datei zu exportieren und dann die alten Datensätze zu löschen.
 
-## <a name="see-also"></a>Weitere Informationen
+## Weitere Informationen
 
 [Speicher durch Löschen von Belegen oder Komprimieren von Daten verwalten](admin-manage-documents.md)

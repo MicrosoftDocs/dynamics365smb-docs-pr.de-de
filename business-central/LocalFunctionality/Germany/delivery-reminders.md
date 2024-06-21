@@ -10,11 +10,11 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="delivery-reminders-in-the-german-version"></a>Lieferanmahnungen in der deutschen Version
+# Lieferanmahnungen in der deutschen Version
 
 [!INCLUDE [delivery-reminders](../includes/ATCHDE/delivery-reminders.md)]
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Lieferanmahnungen erstellen](how-to-set-up-delivery-reminders.md)  
 [Lieferanmahnungsbestimmungen, -stufen und -text einrichten](how-to-set-up-delivery-reminder-terms-levels-and-text.md)  

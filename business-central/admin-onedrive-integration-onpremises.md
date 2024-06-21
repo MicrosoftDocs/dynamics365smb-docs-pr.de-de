@@ -9,7 +9,7 @@ ms.author: jswymer
 ms.service: dynamics-365-op
 ms.reviewer: jswymer
 ---
-# <a name="configuring-onedrive-integration-with-business-central-on-premises"></a>Die OneDrive-Integration mit Business Central lokal konfigurieren
+# Die OneDrive-Integration mit Business Central lokal konfigurieren
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
@@ -23,7 +23,7 @@ Für die Konfiguration der OneDrive-Integration sind zwei Aufgaben zu erledigen.
 > [!IMPORTANT]
 > [!INCLUDE[prod_short](includes/prod_short.md)] on-premises kann nur mit OneDrive verbunden werden, das von Microsoft in der Cloud gehostet wird. Die Verbindung von [!INCLUDE[prod_short](includes/prod_short.md)] vor Ort mit dem Meine Sites Repository von Server SharePoint wird nicht unterstützt.
 
-## <a name="register-an-app-in-microsoft-entra-id-for-onedrive-integration"></a><a name="registerapp"></a>Registrieren Sie eine App in Microsoft Entra-ID für die OneDrive Integration
+## <a name="registerapp"></a>Registrieren Sie eine App in Microsoft Entra-ID für die OneDrive Integration
 
 In dieser Aufgabe fügen Sie eine registrierte App für Business Central im Mandant Microsoft Entra Ihres Plans Microsoft 365 hinzu. Wie andere Azure-Dienste, die mit Business Central zusammenarbeiten, erfordert auch OneDrive eine registrierte App Microsoft Entra-ID. Die registrierte App stellt Authentifizierungs- und Autorisierungsdienste zwischen Business Central und SharePoint zur Verfügung, die von OneDrive genutzt werden.
 
@@ -46,19 +46,19 @@ Beachten Sie bei der Registrierung der Anwendung die folgenden Punkte:
 
 - Wenn Sie Business Central Version 19 oder 20 verwenden, kopieren Sie die **Anwendungs-(Client-)ID** und **Client-Geheimnis**, die von der registrierten App verwendet werden. Sie benötigen diese Informationen in der nächsten Aufgabe.
 
-## <a name="get-your-onedrive-url"></a><a name="url"></a>Ihre OneDrive URL abrufen
+## <a name="url"></a>Ihre OneDrive URL abrufen
 
 [!INCLUDE[onedrive-url](includes/onedrive-url.md)]
 
-## <a name="set-up-the-onedrive-connection-in-version-21-and-later"></a>Legen Sie die OneDrive-Verbindung in Version 21 und höher fest
+## Legen Sie die OneDrive-Verbindung in Version 21 und höher fest
 
 Verwenden Sie dieses Verfahren, wenn Sie Business Central 2022 Veröffentlichungswelle 2 (Version 21) oder höher verwenden.
 
-### <a name="prerequisites"></a>Voraussetzungen
+### Voraussetzungen
 
 - Berechtigung zum Einfügen, Bearbeiten und Löschen (imd) in der Tabelle **Dokumentenservice-Szenario** als Minimum
 
-### <a name="run-onedrive-setup"></a>Die Einrichtung OneDrive ausführen
+### Die Einrichtung OneDrive ausführen
 
 1. Wählen Sie das Symbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren") Symbol, geben Sie **OneDrive Einrichtung** ein und wählen Sie dann den entsprechenden Link.
 2. Wenn Sie die unterstützte Einrichtung zum ersten Mal ausführen, sehen Sie die Seite **Ihre Privatsphäre**. Lesen Sie die Informationen auf der Seite, und wenn Sie mit den Bedingungen einverstanden sind, wählen Sie **Zustimmen**, um fortzufahren.
@@ -75,7 +75,7 @@ Verwenden Sie dieses Verfahren, wenn Sie Business Central 2022 Veröffentlichung
    - Wenn Sie die registrierte App Microsoft Entra-ID noch nicht festgelegt haben, öffnet sich die Anleitung **Microsoft Entra-ID einrichten**.
 6. Nach Fertigstellung wird der Datenschutzhinweis für die OneDrive-Integration für alle Benutzer vereinbart. Wenn Sie es so ändern möchten, dass die Benutzer selbst zustimmen oder ablehnen müssen, gehen Sie auf die Seite **Status der Datenschutzhinweise** und wählen Sie **Benutzer entscheiden lassen** für die OneDrive-Integration. Die Benutzer werden dann aufgefordert, den Datenschutzhinweisen zuzustimmen oder sie abzulehnen, wenn sie die OneDrive-Funktionen zum ersten Mal verwenden. Weitere Informationen finden Sie unter [Datenschutzerklärungen](privacy-notices-status.md).
 
-## <a name="set-up-the-connection-in--version-19-and-20"></a>Einrichten der Verbindung in [!INCLUDE[prod_short](includes/prod_short.md)] Version 19 und 20
+## Einrichten der Verbindung in [!INCLUDE[prod_short](includes/prod_short.md)] Version 19 und 20
 
 Verwenden Sie dieses Verfahren, wenn Sie Business Central 2022 Veröffentlichungswelle 1 (Version 20) oder 2021 Veröffentlichungswelle 2 (Version 19) verwenden.
 > [!IMPORTANT]
@@ -97,17 +97,17 @@ Verwenden Sie dieses Verfahren, wenn Sie Business Central 2022 Veröffentlichung
 > [!IMPORTANT]
 > Die Seite **SharePoint Einrichtung der Verbindung** wird verwendet, um mehrere veraltete Funktionen zu konfigurieren. Der Abschnitt **Allgemein** konfiguriert die Verbindung zu OneDrive, und der Abschnitt **Gemeinsame Dokumente** leitet die Dateien stattdessen zu SharePoint um. Die **SharePoint Einrichtung von Verbindungen** wurde außer Betrieb genommen und wird in der nächsten Version entfernt. Wir empfehlen Ihnen, den Bereich **Gemeinsame Belege** nicht zu konfigurieren. Weitere Informationen finden Sie unter [Veraltete Funktionen in der Base App](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1#microsoft-sharepoint-connection-setup).
 
-## <a name="after-upgrade-to-version-21"></a>Nach dem Upgrade auf Version 21
+## Nach dem Upgrade auf Version 21
 
 Wenn Sie ein Upgrade auf Version 21 oder höher durchführen, funktioniert die bestehende Verbindung zu OneDrive, die auf der Seite **SharePoint Verbindungseinrichtung** konfiguriert wurde, weiterhin. Da aber die Seite **SharePoint Einrichtung** in Version 23 entfernt wird, empfehlen wir Ihnen, auf die neue OneDrive Integration umzusteigen, wie im nächsten Abschnitt beschrieben. Wenn Sie diese Umstellung jetzt vornehmen, wird es einfacher, wenn die **SharePoint-Verbindungseinrichtung** irgendwann entfernt wird. Außerdem können Sie dann die Anleitung zur unterstützten Einrichtung der **OneDrive-Einrichtung** verwenden, um die OneDrive-Features zu verwalten, auf welche die Benutzenden Zugriff haben.
 
-## <a name="switching-from-legacy-sharepoint-to-new-onedrive-integration"></a>Wechsel von der veralteten SharePoint- zur neuen OneDrive-Integration
+## Wechsel von der veralteten SharePoint- zur neuen OneDrive-Integration 
 
 Um zur neuen OneDrive-Integration zu wechseln, führen Sie die Anleitung zur unterstützten Einrichtung **OneDrive Einrichtung** aus, die Sie direkt oder über die veraltete Seite **SharePoint Verbindungseinrichtung** öffnen können. Die unterstützte Einrichtung der **OneDrive-Einrichtung** führt Sie durch die Umstellung und informiert Sie über die Änderungen, die währenddessen vorgenommen werden.
 
 Bevor Sie mit der Umstellung beginnen oder während Sie sie durchführen, lesen Sie den nächsten Abschnitt, um sich über einige Aspekte und Überlegungen zu diesem Prozess zu informieren. 
 
-### <a name="about-switching-to-the-new-onedrive-integration"></a><a name="onedrivesetupmigration"></a>Über die Umstellung auf die neue OneDrive-Integration
+### <a name="onedrivesetupmigration"></a>Über die Umstellung auf die neue OneDrive-Integration
 
 Neben der OneDrive-Integration kann Business Central auch mit anderen Diensten, wie Power BI und Universal Print, integriert werden. Die Integration mit diesen anderen Diensten erfordert ebenfalls eine registrierte Microsoft Entra-App zur Authentifizierung. Die von diesen anderen Diensten verwendete Microsoft Entra App wird in der **Einrichtung Ihrer Microsoft Entra Konten** unterstützten Einrichtung festgelegt. Wenn Sie von der veralteten SharePoint-Verbindungseinrichtung wechseln, ändert die neue unterstützte Einrichtung der **OneDrive-Einrichtung** Ihre OneDrive-Integration so, dass sie auch die unterstützte Einrichtung der **Einrichtung Ihrer Microsoft Entra-Konten verwendet**, sodass alle Integrationen dieselbe Microsoft Entra-App verwenden.
 
@@ -116,7 +116,7 @@ Diese Änderung hat Auswirkungen auf die Umstellung auf die neue OneDrive-Integr
 > [!IMPORTANT]
 > Nach dem Wechsel zur neuen OneDrive-Einrichtung können Sie die Seite **SharePoint-Verbindungseinrichtung** nicht mehr verwenden, um die OneDrive-Integration zu konfigurieren.
 
-#### <a name="how-the-changes-affect-the-integration"></a>Wie sich die Änderungen auf die Integration auswirken
+#### Wie sich die Änderungen auf die Integration auswirken
 
 Die unterstützte Einrichtung **OneDrive Einrichtung** verwendet immer die App, die in der unterstützten Einrichtung **Einrichten Ihrer Microsoft Entra Konten** festgelegt ist, sofern es eine gibt. Wenn Sie die unterstützte Einrichtung der **OneDrive Einrichtung** ausführen, vergleicht sie die in **Einrichten Ihrer Microsoft Entra Konten** festgelegte App mit Ihrer aktuellen App, die in **SharePoint Verbindungseinrichtung** festgelegt wurde.
 
@@ -148,7 +148,7 @@ Die unterstützte Einrichtung **OneDrive Einrichtung** verwendet immer die App, 
 
    `The Microsoft Entra application used for authentication will be configured for all Business Central integrations`.
 
-### <a name="run-onedrive-setup-to-switch-to-the-new-onedrive-integration"></a>Führen Sie die Einrichtung OneDrive aus, um zur neuen Integration OneDrive zu wechseln
+### Führen Sie die Einrichtung OneDrive aus, um zur neuen Integration OneDrive zu wechseln
 
 1. Öffnen Sie entweder die Seite **OneDrive Einrichtung** oder die Seite **SharePoint Verbindung Einrichtung**.
 2. Wenn Sie die Seite **SharePoint Einrichtung** verwenden, wählen Sie **Zur neuen OneDrive Einrichtung wechseln** in der Benachrichtigung am oberen Rand der Seite.
@@ -162,7 +162,7 @@ Die unterstützte Einrichtung **OneDrive Einrichtung** verwendet immer die App, 
 
    Wenn der Test erfolgreich war, wählen Sie **Erledigt**, und Sie sind bereit, loszulegen. Andernfalls nutzen Sie die Nachrichten auf der Seite, um das Problem zu beheben.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 [Business Central und OneDrive für Business Integration](across-onedrive-overview.md)  
 [Öffnen von Business Central Dateien in OneDrive](across-share-onedrive.md)  
 [OneDrive FAQ](admin-onedrive-faq.md)

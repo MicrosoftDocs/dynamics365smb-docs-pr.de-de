@@ -11,19 +11,19 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# <a name="search-for-a-record-in-your-data"></a>Suchen Sie nach einem Datensatz in Ihren Daten
+# Suchen Sie nach einem Datensatz in Ihren Daten
 
 Wenn Sie einen bestimmten Datensatz oder Wert suchen möchten, verwenden Sie die Funktion ![Wie möchten Sie weiter verfahren](media/ui-search/search.png "Nach Seite oder Bericht suchen"), um danach zu suchen. **Klicken Sie auf das Suchsymbol**, um danach zu suchen. Weitere Informationen zum Suchen in [!INCLUDE [prod_short](includes/prod_short.md)] finden Sie unter [Suche nach Seiten und Informationen mit „Sie wünschen...“](ui-search.md).
 
-## <a name="how-search-works"></a>Funktionsweise der Suche
+## Funktionsweise der Suche
 
 [!INCLUDE [ui-how-search-works](includes/ui-how-search-works.md)]
 
-## <a name="getting-started"></a>Erste Schritte
+## Erste Schritte
 
 Sie können die Ergebnisse beschleunigen, indem Sie die Felder in den Tabellen auswählen, die Sie in Ihre Suche einbeziehen möchten. Die Tabellen und Felder, aus denen Sie auswählen können, variieren je nach Rollencenter. Standardmäßig werden alle Tabellen und Felder ausgewählt, was die Suche verlangsamen kann. Wir empfehlen, so viele Tabellen und Felder wie möglich auszuschließen.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Suche nach Seiten und Informationen mit „Sie wünschen...“](ui-search.md)  
 [Eingeben von Daten](ui-enter-data.md)  

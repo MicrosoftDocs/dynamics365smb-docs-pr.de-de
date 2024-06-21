@@ -10,17 +10,17 @@ ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
-# <a name="analyzing-report-data-with-excel-and-xml"></a>Analysieren von Berichtsdaten mit Excel und XML
+# Analysieren von Berichtsdaten mit Excel und XML
 
 [!INCLUDE[2021_releasewave2](includes/2021_releasewave2.md)]
 
 Als Entwickler oder fortgeschrittener Benutzer ist es hilfreich, die Daten, die für ein bestimmtes Dataset eines Berichts erzeugt werden, zu prüfen, während Sie neue Berichte erstellen oder bestehende Berichte ändern. Um diese Funktion zu unterstützen, können Sie einen Berichtsdatensatz als Rohdaten in eine Excel-Arbeitsmappe oder eine XML-Datei exportieren direkt. In Excel können Sie beispielsweise dann eine Ad-hoc-Analyse der Daten durchführen und Probleme diagnostizieren.
 
-## <a name="get-started"></a>Erste Schritte
+## Erste Schritte
 
 Um einen Berichtsdatensatz in eine Excel-Arbeitsmappe oder eine XML-Datei zu exportieren, öffnen Sie den Bericht im Client und wählen Sie dann auf der Anforderungsseite **Senden an** > **Microsoft Excel-Dokument (nur Daten)** oder **XML-Dokument**. Die Datei wird auf Ihr Gerät heruntergeladen.
 
-## <a name="more-about-excel-data-only"></a>Mehr über Excel (nur Daten)
+## Mehr über Excel (nur Daten)
 
 **Microsoft Excel Beleg (nur Daten)** Die Option exportiert die Berichtsergebnisse und die Kriterien, die zu ihrer Erstellung verwendet wurden &mdash;aber sie enthält nicht das Berichtslayout. Die Excel-Datei enthält das komplette Dataset, als Rohdaten, angeordnet in Zeilen und Spalten. Alle Datenspalten des Datasets des Berichts sind enthalten, unabhängig davon, ob sie im Berichtslayout verwendet werden.
 
@@ -31,13 +31,13 @@ Jedes Mal, wenn Sie Ergebnisse exportieren, wird ein neues Arbeitsblatt erstellt
 > [!NOTE]
 > Sie können keinen Bericht exportieren, der mehr als 1.048.576 Zeilen oder 16.384 Spalten hat. Bei Business Central lokal kann die maximale Anzahl der exportierten Zeilen sogar noch geringer sein. Business Central Server enthält eine Konfigurationseinstellung mit der Bezeichnung **Maximal zulässige Anzahl der an Excel zu sendenden Datenzeilen**, mit der Sie die Grenze vom Maximalwert herabsetzen können. Weitere Informationen finden Sie unter [Konfiguration von Business Central Server](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#General) oder wenden Sie sich an Ihren Administrator.
 
-## <a name="for-administrators"></a>Für Administratoren
+## Für Administratoren
 
 - **Microsoft Excel Beleg (nur Daten)** wurde als optionale Funktion in der 2021er Release-Welle 1, Update 18.3 eingeführt. Um Benutzern Zugriff auf diese Funktion zu geben, wenn Sie Veröffentlichungszyklus Welle 1 2021 ausführen, aktivieren Sie die Funktion **Berichts-Dataset in Microsoft Excel Beleg speichern** in **Funktionsverwaltung**. Weitere Informationen finden Sie unter [Bevorstehende Funktionen im Voraus aktivieren](/dynamics365/business-central/dev-itpro/administration/feature-management). In der Release-Welle 2 von 2021 wurde diese Funktion permanent, so dass Sie sie nicht mehr aktivieren müssen.
 
 - Um die Funktion **Microsoft Excel Dokument (nur Daten)** zu verwenden, benötigen Benutzerkonten die Berechtigung **Aktion Exportieren von Berichtsdataset nach Excel zulassen**. Sie können Benutzern diese Berechtigung erteilen, indem Sie entweder die Berechtigung **Fehlerbehebungtools** oder **Export Bericht Excel** festlegen. Weitere Informationen finden Sie unter [Berechtigungen an Benutzer und Gruppen zuweisen](ui-define-granular-permissions.md)  
 
-## <a name="for-developers-and-advanced-users"></a>Für Entwickler und fortgeschrittene Benutzer
+## Für Entwickler und fortgeschrittene Benutzer
 
 Die Option **Microsoft Excel Dokument (nur Daten)** exportiert alle Spalten, einschließlich Spalten, die Filter und Formatierungsanweisungen für andere Werte enthalten. Hier sind einige Punkte von Interesse:
 
@@ -50,7 +50,7 @@ Die Option **Microsoft Excel Dokument (nur Daten)** exportiert alle Spalten, ein
 
 Weitere Informationen zur Berichtsgestaltung finden Sie unter [Berichtsübersicht](/dynamics365/business-central/dev-itpro/developer/devenv-reports).
 
-## <a name="see-also"></a>Weitere Informationen
+## Weitere Informationen
 
 [Arbeiten mit Berichten](ui-work-report.md)  
 [Verwaltung von Berichts- und Dokumentlayouts](ui-manage-report-layouts.md)  

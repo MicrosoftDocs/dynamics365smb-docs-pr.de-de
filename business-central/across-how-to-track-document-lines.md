@@ -10,10 +10,10 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="track-document-lines"></a>Nachverfolgen von Belegzeilen
+# Nachverfolgen von Belegzeilen
 Mit der Belegverfolgung können Belege angezeigt werden, die sich auf Verkaufsauftrags- und Bestellzeilen für Aufträge und archivierte Aufträge beziehen. Zugehörige Belege, die Sie nachverfolgen können, enthalten Angebote, Lieferungen, Wareneingänge und Rahmenaufträge. Dadurch werden Belege zur Verarbeitung von Aufträgen identifiziert.  
 
-## <a name="to-track-documents-related-to-a-sales-order-line"></a>Zusammenhängenden Beleg mit einer Verkaufsauftragszeile verfolgen
+## Zusammenhängenden Beleg mit einer Verkaufsauftragszeile verfolgen
 Nachfolgend wird beschrieben, wie Sie einen Verkaufsauftragszeile nachverfolgen. Die Schritte sind gleich für Einkaufs- und Bestandsanalyseansichten.
 
 1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Verkaufsaufträge** ein, und wählen Sie dann den zugehörigen Link.  
@@ -24,7 +24,7 @@ Nachfolgend wird beschrieben, wie Sie einen Verkaufsauftragszeile nachverfolgen.
 
 [!INCLUDE [line-no-info](includes/line-no-info.md)]
 
-## <a name="see-also"></a>Weitere Informationen
+## Weitere Informationen
 [Verkauf](sales-manage-sales.md)  
 [Allgemeine Geschäftsfunktionen](ui-across-business-areas.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -9,7 +9,7 @@ ms.date: 07/15/2022
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ---
-# <a name="use-online-maps-to-find-locations-and-directions"></a>Verwenden Sie Online-Karten, um Standorte und Wegbeschreibungen zu finden
+# Verwenden Sie Online-Karten, um Standorte und Wegbeschreibungen zu finden
 
 Sie können Karten von einem Online Map-Dienst mit Adress- und Standortinformationen für Debitoren- oder Kreditorenstandorte oder mit der Route zu den entsprechenden Standorten abrufen. Der Zugriff auf die **Online Map** erfolgt über die folgenden Karten in [!INCLUDE[prod_short](includes/prod_short.md)]:
 
@@ -26,14 +26,14 @@ Sie können Karten von einem Online Map-Dienst mit Adress- und Standortinformati
 > [!NOTE]
 > Ist im Feld **Länder-/Regionscode** kein Code enthalten, kann die Route nicht anhand der Online Map bestimmt werden.
 
-## <a name="find-a-location-in-an-online-map"></a>Suchen Sie in Online Map nach einem Standort
+## Suchen Sie in Online Map nach einem Standort
 
 1. Öffnen Sie eine der oben aufgeführten Karten.
 2. Wählen Sie **Online-Karte** oder **Auf der Karte anzeigen** aus.
 3. Wählen Sie **Diese Adresse**, und wählen Sie dann die Schaltfläche **OK**.
 4. Die konfigurierte Online-Karte öffnet sich mit dem auf der Karte definierten Adressstandort.
 
-## <a name="get-route-directions-from-your-location"></a>Rufen Sie Wegbeschreibungen von Ihrem Standort ab
+## Rufen Sie Wegbeschreibungen von Ihrem Standort ab
 
 1. Öffnen Sie eine der oben aufgeführten Karten.
 2. Wählen Sie **Online-Karte** oder **Auf der Karte anzeigen** aus.
@@ -43,7 +43,7 @@ Sie können Karten von einem Online Map-Dienst mit Adress- und Standortinformati
 > [!NOTE]
 > Die Online-Karte wird im Standardbrowser oder in der App geöffnet, die möglicherweise Zugriff auf die Standortdaten des Geräts anfordert.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [So richten Sie Online Maps ein](across-online-maps-setup.md)  
 [Bereitschaft für die Geschäftsabwicklung](ui-get-ready-business.md)  

@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="delete-approval-workflows"></a>Genehmigungsworkflows löschen
+# Genehmigungsworkflows löschen
 
 Wenn Sie sicher sind, dass ein Workflow nicht mehr verwendet wird, können Sie ihn löschen. Alle im Workflow definierten Workflow-Schrittinstanzen müssen den Status **Abgeschlossen** haben.
 
@@ -20,7 +20,7 @@ Wenn Sie sicher sind, dass ein Workflow nicht mehr verwendet wird, können Sie i
 
 Auf der Seite **Workflow** können Sie einen Workflow erstellen, indem Sie die entsprechenden Schritte in den Zeilen auflisten. Jeder Schritt besteht aus einem durch Ereignisbedingungen moderiertem Workflowereignis und einer durch Antwortoptionen moderierten Workflowantwort. Sie definieren Workflowschritte, indem Sie die Felder in Workflowzeilen mit Ereignis- und Antwortwerten aus festen Listen ausfüllen, die die Workflowszenarien darstellen, die durch den Anwendungscode unterstützt werden. Erfahren Sie mehr unter [Genehmigungsworkflows erstellen](across-how-to-create-workflows.md).
 
-## <a name="delete-a-workflow"></a>Löschen eines Workflows
+## Löschen eines Workflows
 
 1. Wählen Sie das Symbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Workflows** ein, und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie den zu löschenden Workflow aus.
@@ -31,7 +31,7 @@ Auf der Seite **Workflow** können Sie einen Workflow erstellen, indem Sie die e
 > [!NOTE]
 > Um einen Workflow zu löschen, muss er deaktiviert werden. Um einen Workflow zu deaktivieren, öffnen Sie ihn auf der Seite **Workflows** und schalten Sie **Aktiviert** aus.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Genehmigungsworkflows erstellen](across-how-to-create-workflows.md)  
 [Genehmigungsworkflow aktivieren](across-how-to-enable-workflows.md)  

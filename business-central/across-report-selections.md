@@ -10,11 +10,11 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="report-selection-for-documents-in-business-central"></a>Berichtsauswahl für Dokumente in Business Central
+# Berichtsauswahl für Dokumente in Business Central
 
 Sie können Standardberichte festlegen, die für den Druck von Verkaufs-, Kauf- und Service-Dokumenten wie Bestellungen, Angeboten und Rechnungen verwendet werden sollen. Wenn Sie beispielsweise ein bestimmtes Layout für Verkaufsrechnungen haben, können Sie diesen Bericht auf der Seite **Berichtsauswahl – Verkauf** definieren, damit sie zum Senden oder Drucken von Verkaufsrechnungen verwendet wird.  
 
-## <a name="available-report-selections"></a>Verfügbare Berichtsauswahl
+## Verfügbare Berichtsauswahl
 
 Die Seiten **Berichtsauswahl** geben an, welcher Bericht in verschiedenen Situationen gedruckt wird. [!INCLUDE [prod_short](includes/prod_short.md)] bietet Standardkonfigurationen, die Sie jedoch bei Bedarf ändern können. Zudem lassen sich auch weitere Berichte in das Fenster **Berichtsauswahl** aufnehmen, um gleichzeitig mehrere Berichte zu einer Belegart auszudrucken. 
 
@@ -41,7 +41,7 @@ Die Standardversion von [!INCLUDE [prod_short](includes/prod_short.md)] enthält
 * **Berichtsauswahl – Projekt**  
 * **Berichtsauswahl - Service**
 
-## <a name="example-report-selection-for-sales-documents"></a>Beispiel: Berichtsauswahl für Verkaufsbelege
+## Beispiel: Berichtsauswahl für Verkaufsbelege
 
 Die Seite **Berichtsauswahl - Verkauf** bietet Standardberichte zur Verwendung in verschiedenen Szenarien für jede zugehörige Dokumentart. Wählen Sie im Feld **Verwendung** eine Dokumentenart aus und fügen Sie dann die Berichtsauswahl hinzu oder überprüfen Sie sie. Sie können mehr als einen Bericht festlegen und die Sequenz angeben, in der die Berichte gesendet oder gedruckt werden müssen.  
 
@@ -57,7 +57,7 @@ Auf den Seiten **Berichtsauswahl - Verkauf** und **Berichtsauswahl - Kauf** helf
 |**Für E-Mail-Anhang verwenden**| Hängen Sie den zugehörigen Beleg an die E-Mail an.|
 |**Layout-Beschreibung E-Mail-Text**|Geben Sie das zu verwendende E-Mail-Textlayout an. In der Regel handelt es sich um ein angepasstes Berichtslayout. |
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Wiederverwendbare E-Mail-Texte und -Layouts einrichten](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts)  
 [Ein Prüflayout auswählen](finance-how-define-check-layouts.md)  
