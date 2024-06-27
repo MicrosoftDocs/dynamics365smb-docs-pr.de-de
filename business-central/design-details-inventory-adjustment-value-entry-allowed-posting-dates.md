@@ -2,33 +2,33 @@
 title: Fehlermeldung „Das Buchungsdatum liegt nicht in Ihrem Bereich der zulässigen Buchungsdaten“
 description: 'Beheben Sie den Fehler, der sich hinter der Nachricht „Buchungsdatum liegt nicht in Ihrem Bereich der zulässigen Buchungsdaten“ verbirgt, wenn Sie den Batchauftrag Anlagenbuchungen zugel. bis Einst. Preise ausführen.'
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: al
-ms.search.keywords: null
-ms.date: 09/17/2021
 ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: conceptual
+ms.search.keywords: null
+ms.date: 05/24/2024
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="error-message-posting-date-is-not-within-your-range-of-allowed-posting-dates"></a>Fehlermeldung: „Das Buchungsdatum liegt nicht in Ihrem Bereich der zulässigen Buchungsdaten...“
+# Fehlermeldung: „Das Buchungsdatum liegt nicht in Ihrem Bereich der zulässigen Buchungsdaten...“
 
-Wenn Sie den Batchauftrag **Kalkulation fakt. Einst. Preise anpassen** ausführen, kann die folgende Fehlermeldung auftreten:
+Wenn Sie den Batchauftrag **Lagerreg. fakt. Einst. Preise** verwenden, kann die folgende Fehlermeldung auftreten:
 
 **Buchungsdatum liegt nicht in Ihrem Bereich der zulässigen Buchungsdaten**
 
-Diese Nachricht zeigt an, dass der Benutzer keine Buchungen für das betreffende Datum zulassen darf. Dies kann durch eine Änderung der Benutzereinrichtung behoben werden.
+Diese Meldung zeigt an, dass Sie für das eingegebene Datum keine Posten buchen dürfen. Sie können dieses Problem umgehen, indem Sie Ihre Benutzereinrichtung ändern.
 
-## <a name="change-the-user-setup"></a>Ändern Sie die Benutzereinrichtung
+## Ändern Sie die Benutzereinrichtung  
 
 |Benutzer ID  |Buchungen zugel. ab  | Buchungen zugel. bis  |
 |---------|---------|--------|
 |EUROPA  |  2020-09-11      |2020-09-30      |
 
-Der Benutzer in diesem Fall hat einen erlaubten Buchungsdatumsbereich vom 11. September bis zum 30. September und darf daher die Korrekturwertbuchung mit Buchungsdatum 10. September nicht buchen.  
+In diesem Fall dürfen Sie im Zeitraum vom 11. bis 30. September Buchungen vornehmen. Eine Buchung des Regulierungswertposten mit einem Buchungsdatum vom 10. September ist allerdings nicht möglich.  
 
-### <a name="overview-of-the-posting-date-setup"></a>Übersicht über die Einstellung des beteiligten Buchungsdatums
+### Übersicht über die Einrichtung des Buchungsdatums
 
-#### <a name="inventory-periods"></a>Lagerbuchungsperioden
+#### Lagerbuchungsperioden
 
 |Enddatum  |Name  |Geschlossen  |
 |---------|---------|---------|
@@ -45,7 +45,7 @@ Der Benutzer in diesem Fall hat einen erlaubten Buchungsdatumsbereich vom 11. Se
 |2020-11-30     |November 2020   |         |
 |2020-12-31     |Dezember   2020   |         |  
 
-#### <a name="general-ledger-setup"></a>Finanzbuchhaltung Einrichtung
+#### Finanzbuchhaltung Einrichtung
 
 |Feld|Wert|
 |---------|---------|
@@ -54,17 +54,17 @@ Der Benutzer in diesem Fall hat einen erlaubten Buchungsdatumsbereich vom 11. Se
 |Protokollzeit:       |         |
 |Lokales Adressformat:|   PLZ-Code      |  
 
-#### <a name="user-setup"></a>Benutzereinrichtung
+#### Benutzereinrichtung
 
 |Benutzer ID  |Buchungen zugel. ab  | Buchungen zugel. bis  |
 |---------|---------|--------|
 |BENUTZERNAME |  2020-09-10      |2020-09-30      |
 
-Durch die Zuweisung eines breiteren zulässigen Buchungsdatumsbereichs, wie in Lagerbuchungsperioden oder Finanzbuchhaltungs-Einrichtung, kann der Konflikt, der die Fehlermeldung verursacht, vermieden werden. Der Ausgleichs-Wertposten mit dem Buchungsdatum 10. September wird mit dieser Einrichtung erfolgreich gebucht.
+Durch die Zuweisung eines breiteren zulässigen Buchungsdatumsbereichs auf der Seite **Lagerbuchungsperiode** oder der Seite **Finanzbuchhaltung Einrichtung** kann der Konflikt, der die Fehlermeldung verursacht, vermieden werden. Der weitere Bereich ermöglicht es Ihnen beispielsweise, den Regulierungswertposten mit einem Buchungsdatum vom 10. September zu buchen.
   
-## <a name="see-also"></a>Weitere Informationen
+## Siehe auch  
 
-[Designdetails: Buchungsdatum auf Ausgleichs-Wertposten](design-details-inventory-adjustment-value-entry-posting-date.md)  
+[Designdetails: Buchungsdatum für Regulierungswertposten](design-details-inventory-adjustment-value-entry-posting-date.md)  
 [Designdetails: Lagerkostenberechnung](design-details-inventory-costing.md)  
 [Designdetails: Artikelausgleich](design-details-item-application.md)  
 

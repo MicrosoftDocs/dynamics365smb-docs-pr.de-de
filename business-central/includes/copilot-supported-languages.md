@@ -1,11 +1,12 @@
 ---
 author: jswymer
 ms.topic: include
-ms.date: 11/01/2023
+ms.date: 06/10/2024
 ms.author: jswymer
 ms.service: dynamics-365-business-central
+ms.reviewer: jswymer
 ---
-Marketingtextvorschläge werden nur in den folgenden Sprachen und Gebietsschemata unterstützt:
+Diese Copilot-Funktion wurde nur in den folgenden Sprachen validiert:
 
 |Sprache|Gebietsschema|
 |-|-|
@@ -17,3 +18,5 @@ Marketingtextvorschläge werden nur in den folgenden Sprachen und Gebietsschemat
 |Niederländisch|nl-NL, nl-BE|
 |Italienisch|it-IT, it-CH|
 |Japanisch|ja-JP|
+
+Obwohl sie in anderen Sprachen verwendet werden kann, funktioniert sie möglicherweise nicht wie vorgesehen. Die Sprachqualität kann je nach Benutzerinteraktion oder Systemeinstellungen variieren, was sich auf die Genauigkeit und der Benutzererfahrung auswirken kann.

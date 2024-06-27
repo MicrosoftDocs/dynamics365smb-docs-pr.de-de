@@ -2,15 +2,16 @@
 title: Übersicht über die Aufgaben zum Einrichten von Einkäufen
 description: 'Beschreibt die Aufgaben, um die Beschaffungsrichtlinien Ihres Mandanten festzulegen und Ihre Einkaufsprozesse einzurichten.'
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: overview
 ms.devlang: al
 ms.search.keywords: 'procurement, supply, vendor order'
 ms.search.form: '175, 176, 177, 178, 456, 460, 5727, 5729'
-ms.date: 08/30/2022
-ms.author: bholtorf
+ms.date: 06/10/2024
 ms.service: dynamics-365-business-central
 ---
-# <a name="setting-up-purchasing"></a>Einkauf einrichten
+# Einkauf einrichten
 
 Bevor Sie Einkaufsprozesse verwalten können, müssen die Regeln und Werte konfiguriert werden, die die Einkaufsrichtlinien des Mandanten definieren.
 
@@ -20,11 +21,11 @@ Eine separate Reihe von Aufgaben, die mit der Erfassung neuer Kreditoren im Zusa
 
 Einrichten von finanzbezogenen Einkäufen wie Zahlungsformen und Währungen werden im Finanzsetupabschnitt behandelt. Erfahren Sie mehr unter [Einrichten von Finanzen](finance-setup-finance.md). Ähnlich verhält es sich mit der Einrichtung des Einkaufs, wie z. B. Einheiten und Artikelverfolgungscodes, die Sie im [Abschnitt „Lagereinrichtung“](inventory-setup-inventory.md) finden.
 
-## <a name="purchases-and-payables-setup"></a>Kreditoren und Einkauf Einr.
+## Kreditoren und Einkauf Einr.
 
 Bevor Sie mit Einkäufen und Verbindlichkeiten arbeiten, geben Sie auf der Seite **Kreditoren und Einkauf Einr.** wie Einkaufswerte gebucht werden und welche Nummernkreise für Kreditoren und Einkaufsbelege verwendet werden.
 
-### <a name="general-settings"></a>Allgemeine Einstellungen
+### Allgemeine Einstellungen
 
 Auf dem Inforegister **Allgemein** geben Sie an, wie Rabatte berechnet und gebucht werden sollen und ob Sie Rechnungen runden möchten. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
 
@@ -34,25 +35,25 @@ Ebenso kann es im Feld **Währungsausgleich** zu kleinen Rundungsdifferenzen kom
 
 Außerdem ändern einige Felder ihr Verhalten oder hängen davon ab, wie andere Felder festgelegt sind. Zum Beispiel wird die Funktion **Vorauszahlung beim Buchen prüfen** wird dadurch beeinflusst, wie das Feld **Häufigkeit für automatische Aktualisierungen zu Vorauszahlungen** eingestellt ist, dass nach ausstehenden Vorauszahlungen gesucht wird.
 
-Lesen Sie Details zu den Feldern [**Ext. Belegnr. erforderlich**](#external-document-number) und [**Einst.-Pr.-Rückverfolg. notw**](#exact-cost-reversing) unten.
+Lesen Sie Details zu den Feldern [**Ext. Belegnr. erforderlich**](#external-document-number) und [**Einst.-Pr.-Rückverfolg. notw**](#exact-cost-reversing) in den Abschnitten an späterer Stelle in diesem Artikel.
 
-### <a name="number-series-settings"></a>Einstellungen für Nummernkreise
+### Einstellungen für Nummernkreise
 
 Auf dem Inforegister **Nummernserie** müssen Sie die eindeutige Identifizierungscodes angeben, die für Kreditoren, Rechnungen und andere Einkaufsbelege verwendet werden sollen. Die Nummerierung ist nicht nur für interne Prozesse wichtig, sondern muss möglicherweise auch den örtlichen Vorschriften entsprechen. Es könnte also eine Überlegung wert sein, alle Serien auf der Seite **Nummernserie** vorher, anstatt neue auf der **Kreditoren & Einkauf Einr.** zu erstellen. Erfahren Sie mehr unter [Nummernserie erstellen](ui-create-number-series.md).
 
-## <a name="external-document-number"></a>Externe Belegnummer
+## Externe Belegnummer
 
 [!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
-## <a name="exact-cost-reversing"></a>Exakte Einstandspreisstornierung
+## Exakte Einstandspreisstornierung
 
-Die **Einst.-Pr.-Rückverfolg. notw.** Funktion hilft sicherzustellen, dass zurückgegebene Waren zu den gleichen Kosten bewertet werden, zu denen sie ursprünglich aus dem Bestand entnommen wurden, indem eine feste Anwendung verwendet wird, anstatt einer Durchschnitts- oder First-in-First-out (FIFO)-Kalkulationsmethode zu folgen. Erfahren Sie mehr im Abschnitt [Designdetails: Feste Anwendung](design-details-item-application.md#fixed-application). Wird dem ursprünglichen Einkauf ein weiterer Preis hinzugefügt, dann wird der Wert der entsprechenden Einkaufsreklamation aktualisiert.
+Die **Einst.-Pr.-Rückverfolg. notw.** Funktion hilft sicherzustellen, dass zurückgegebene Waren zu den gleichen Kosten bewertet werden, zu denen sie ursprünglich aus dem Bestand entnommen wurden, indem eine feste Anwendung verwendet wird, anstatt einer Durchschnitts- oder First-in-First-out (FIFO)-Kalkulationsmethode zu folgen. Erfahren Sie mehr im Abschnitt [Designdetails: Feste Anwendung](design-details-item-application.md#fixed-application). Wenn dem ursprünglichen Einkauf später zusätzliche Kosten hinzugefügt werden, wird der Wert der entsprechenden Einkaufsreklamation aktualisiert.
 
-Mit der aktivierten Funktion kann eine Rücksendung erst gebucht werden, wenn die Artikelpostennummer im Feld **Anwendung für Artikeleintrag**in der Reklamationszeile eingegeben wird. Das Feld wird im Inforegister **Zeilen** standardmäßig nicht angezeigt. Erfahren Sie, wie Sie Felder zu Seiten hinzufügen im Abschnitt [Personalisieren Sie Ihren Arbeitsbereich](ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode).
+Mit der aktivierten Funktion kann eine Rücksendung erst gebucht werden, wenn die Artikelpostennummer im Feld **Anwendung für Artikeleintrag**in der Reklamationszeile eingegeben wird. Das Feld wird im Inforegister **Zeilen** standardmäßig nicht angezeigt. Weitere Informationen dazu, wie Sie Felder zu Seiten hinzufügen, finden Sie im Abschnitt [Ihren Arbeitsbereich personalisieren](ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode).
 
 [!INCLUDE[local-functionality](includes/local-functionality.md)]
 
-## <a name="more-purchasing-setups"></a>Weitere Einkaufskonfigurationen
+## Weitere Einkaufskonfigurationen
 
 | Bis | Siehe |
 | --- | --- |
@@ -69,7 +70,7 @@ Mit der aktivierten Funktion kann eine Rücksendung erst gebucht werden, wenn di
 | Geben Sie Standardberichte an, die für verschiedene Dokumenttypen verwendet werden sollen. |[Berichtsauswahl in Business Central](across-report-selections.md)|
 |Geben Sie an, ob Benutzer Einkaufsrechnungen buchen dürfen und ob sie diese zusammen mit einer Lieferung buchen müssen. |[Rechnungsbuchungsrichtlinie für Benutzer definieren](admin-setup-invoice-posting-policy.md)|
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Einkauf](purchasing-manage-purchasing.md)  
 [Übersicht einrichten](setup.md)  

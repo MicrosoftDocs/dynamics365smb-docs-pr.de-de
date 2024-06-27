@@ -1,11 +1,11 @@
 ---
-title: Berichte erstellen in Power BI Desktop zur Anzeige von Business Central-Daten | Microsoft Docs
+title: Erstellen von Berichten in Power BI Desktop zum Anzeigen von Business Central-Daten
 description: Sie können Ihre Daten zur Verfügung stellen als Datenquelle in Power BI und leistungsstarke Berichte über den Zustand Ihres Geschäftes erstellen.
 author: jswymer
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'business intelligence, KPI, Odata, Power App, SOAP, analysis'
-ms.date: 01/22/2024
+ms.date: 06/12/2024
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
@@ -15,21 +15,19 @@ ms.reviewer: jswymer
 
 Sie können Ihre [!INCLUDE[prod_long](includes/prod_long.md)]-Daten zur Verfügung stellen als Datenquelle in Power BI Desktop und leistungsstarke Berichte über den Zustand Ihres Geschäftes erstellen.
 
-Dieser Artikel beschreibt die ersten Schritte zur Verwendung von Power BI Desktop zur Erstellung von Berichten, die [!INCLUDE[prod_long](includes/prod_long.md)]-Daten anzeigen.  Nach dem Erstellen können Sie die Berichte in Ihrem Power BI-Dienst veröffentlichen oder sie mit allen Benutzern in Ihrer Organisation teilen. Sobald sich diese Berichte im Power BI-Dienst befinden, können Sie von Benutzern, die dafür eingerichtet sind, in [!INCLUDE[prod_long](includes/prod_long.md)] angezeigt werden.
+Dieser Artikel beschreibt die ersten Schritte zur Verwendung von Power BI Desktop zur Erstellung von Berichten, die [!INCLUDE[prod_long](includes/prod_long.md)]-Daten anzeigen. Nach dem Erstellen können Sie die Berichte in Ihrem Power BI-Dienst veröffentlichen oder sie mit allen Benutzern in Ihrer Organisation teilen. Wenn sich diese Berichte im Power BI-Dienst befinden, können Sie von Benutzern, die dafür eingerichtet sind, in [!INCLUDE[prod_long](includes/prod_long.md)] angezeigt werden.
 
 ## Vorbereitung
 
 - Registrieren Sie sich für den Power BI-Dienst.
 
-  Wenn Sie sich noch nicht registriert haben, wechseln Sie zu [https://powerbi.microsoft.com](https://powerbi.microsoft.com). Verwenden Sie bei der Registrierung Ihre geschäftliche E-Mail-Adresse und Ihr Kennwort.
+  Wenn Sie nicht registriert sind, wechseln Sie zu [https://powerbi.microsoft.com](https://powerbi.microsoft.com). Verwenden Sie bei der Registrierung Ihre geschäftliche E-Mail-Adresse und Ihr Kennwort.
 
 - Laden Sie [Power BI Desktop](https://powerbi.microsoft.com/desktop/) herunter.
 
   Power BI Desktop ist eine kostenlose Anwendung, die Sie auf Ihrem lokalen Computer installieren. Weitere Informationen finden Sie unter [Schnellstart: Stellen Sie eine Verbindung zu Daten her in Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data).
 
-- Stellen Sie sicher, dass die Daten, die Sie im Bericht haben wollen, als API-Seite verfügbar sind oder als Webdienst veröffentlicht wurden.
-
-  Weitere Informationen finden Sie unter [Daten über API-Seiten oder OData-Webdienste veröffentlichen](admin-powerbi-setup.md#exposedata).
+- Stellen Sie sicher, dass die Daten, die Sie im Bericht haben wollen, als API-Seite verfügbar sind oder als Webdienst veröffentlicht wurden. Weitere Informationen finden Sie unter [Daten über API-Seiten oder OData-Webdienste veröffentlichen](admin-powerbi-setup.md#exposedata).
 
 <!--- For [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, get the following information:
 
@@ -62,18 +60,18 @@ Die erste Aufgabe beim Erstellen von Berichten ist das Hinzufügen von [!INCLUDE
 
 5. Melden Sie sich bei [!INCLUDE [prod_short](includes/prod_short.md)] an (nur einmalig).
 
-    Wenn Sie sich noch nicht bei [!INCLUDE [prod_short](includes/prod_short.md)] von Power BI Desktop aus angemeldet haben, werden Sie aufgefordert, sich anzumelden.
+    Wenn Sie sich nicht über Power BI Desktop bei [!INCLUDE [prod_short](includes/prod_short.md)] angemeldet haben, werden Sie aufgefordert, sich anzumelden.
 
     - Für [!INCLUDE [prod_short](includes/prod_short.md)] online wählen Sie **Anmelden** und wählen dann das entsprechende Konto. Verwenden Sie dasselbe Konto, mit dem Sie sich bei [!INCLUDE [prod_short](includes/prod_short.md)] anmelden. Wenn Sie fertig sind, wählen Sie **Verbinden**.
 
     <!--- For [!INCLUDE [prod_short](includes/prod_short.md)] on-premises, first enter the OData URL for [!INCLUDE[prod_short](includes/prod_short.md)], then select **OK**. When prompted, enter the user name and password of the account to use for connecting to [!INCLUDE[prod_short](includes/prod_short.md)]. In the **Password** box, enter the web service access key. When done, select **Connect**.-->
 
     > [!NOTE]  
-    > Sobald Sie sich erfolgreich mit [!INCLUDE[prod_short](includes/prod_short.md)] verbunden haben, werden Sie nicht mehr aufgefordert, sich anzumelden. [Wie ändere oder lösche ich das Konto, das ich derzeit für die Verbindung mit Business Central von Power BI Desktop verwende?](/dynamics365/business-central/power-bi-faq?tabs=designer#perms)
+    > Nachdem Sie eine Verbindung zu [!INCLUDE[prod_short](includes/prod_short.md)] hergestellt haben, werden Sie nicht mehr aufgefordert, sich anzumelden. [Wie ändere oder lösche ich das Konto, das ich derzeit für die Verbindung mit Business Central von Power BI Desktop verwende?](/dynamics365/business-central/power-bi-faq?tabs=designer#perms)
 
-6. Sobald die Verbindung hergestellt ist, stellt Power BI Kontakte zum Business Central-Dienst her. Das Fenster **Navigator** erscheint und zeigt die verfügbaren Datenquellen für die Erstellung von Berichten an. Wählen Sie einen Ordner, um ihn zu erweitern und die verfügbaren Datenquellen zu sehen. 
+6. Wenn die Verbindung hergestellt ist, kontaktiert Power BI den [!INCLUDE [prod_short](includes/prod_short.md)]-Dienst. Das Fenster **Navigator** zeigt die verfügbaren Datenquellen für die Erstellung von Berichten an. Wählen Sie einen Ordner aus, um ihn zu erweitern und die verfügbaren Datenquellen anzuzeigen.
 
-   Diese Datenquellen stellen alle Webdienste und API-Seiten dar, die für [!INCLUDE [prod_short](includes/prod_short.md)] veröffentlicht sind. Die Datenquellen sind nach den Business Central Umgebungen und Firmen gruppiert. Wenn Business Central online ist, hat **Navigator** die folgende Struktur:
+   Diese Datenquellen stellen alle für [!INCLUDE [prod_short](includes/prod_short.md)] veröffentlichten Webdienste und API-Seiten nach Umgebungen und Unternehmen gruppiert dar. Wenn [!INCLUDE [prod_short](includes/prod_short.md)] Business Central online ist, hat **Navigator** die folgende Struktur:
 
     - **Umgebungsname**
       - **Firmenname**
@@ -96,7 +94,7 @@ Die erste Aufgabe beim Erstellen von Berichten ist das Hinzufügen von [!INCLUDE
 7. Wählen Sie die Datenquelle(n) aus, die Sie zu Ihrem Datenmodell hinzufügen möchten, und wählen Sie dann die Schaltfläche **Laden**.
 8. Wenn Sie später weitere Business Central-Daten hinzufügen möchten, können Sie die vorherigen Schritte wiederholen.
 
-Sobald die Daten geladen sind, können Sie sie in der rechten Navigation auf der Seite sehen. Zu diesem Zeitpunkt haben Sie sich erfolgreich mit Ihren [!INCLUDE[prod_short](includes/prod_short.md)]-Daten verbunden und können mit dem Erstellen Ihres Power BI-Berichts beginnen.  
+Sobald die Daten geladen sind, können Sie sie in der rechten Navigation auf der Seite sehen. Zu diesem Zeitpunkt sind Sie mit Ihren [!INCLUDE[prod_short](includes/prod_short.md)]-Daten verbunden und können mit dem Erstellen Ihres Power BI-Berichts beginnen.  
 
 > [!TIP]
 > Weitere Informationen zur Verwendung von Power BI Desktop finden Sie unter [Erste Schritte mit Power BI Desktop](/power-bi/fundamentals/desktop-getting-started).
@@ -125,11 +123,11 @@ Die Themendatei ist als json-Datei in der Themengalerie der Microsoft Power BI-C
 
 ### Importieren des Themas in einen Bericht
 
-Nachdem Sie das [!INCLUDE [prod_short](includes/prod_short.md)]-Berichtsthema heruntergeladen haben, können Sie es in Ihre Berichte importieren. Um das Thema zu importieren, wählen Sie **Ansicht** > **Themen** > **Nach Themen suchen** aus. Weitere Informationen finden Sie unter [Power BI Desktop – Importieren benutzerdefinierter Berichtsthemen](/power-bi/create-reports/desktop-report-themes#import-custom-report-theme-files).
+Nachdem Sie das [!INCLUDE [prod_short](includes/prod_short.md)]-Berichtsdesign heruntergeladen haben, können Sie es in Ihre Berichte importieren. Um das Thema zu importieren, wählen Sie **Ansicht** > **Themen** > **Nach Themen suchen** aus. Weitere Informationen finden Sie unter [Power BI Desktop – Importieren benutzerdefinierter Berichtsthemen](/power-bi/create-reports/desktop-report-themes#import-custom-report-theme-files).
 
 ## Veröffentlichen von Berichten
 
-Nachdem Sie einen Bericht erstellt oder geändert haben, können Sie den Bericht in Ihrem Power BI-Dienst veröffentlichen und sogar mit anderen Benutzern in Ihrer Organisation teilen. Nach der Veröffentlichung wird der Bericht in Power BI angezeigt. Der Bericht kann außerdem in [!INCLUDE[prod_short](includes/prod_short.md)] ausgewählt werden.
+Nachdem Sie einen Bericht erstellt oder geändert haben, können Sie den Bericht in Ihrem Power BI-Dienst veröffentlichen und sogar mit anderen Benutzern in Ihrer Organisation teilen. Nachdem Sie einen Bericht veröffentlicht haben, ist er in Power BI verfügbar. Der Bericht kann außerdem in [!INCLUDE[prod_short](includes/prod_short.md)] ausgewählt werden.
 
 Um einen Bericht zu veröffentlichen, wählen Sie **Veröffentlichen** auf der Registerkarte **Start** im Menüband oder im Menü **Datei** aus. Wenn Sie beim Power BI-Dienst angemeldet sind, wird der Bericht für diesen Dienst veröffentlicht. Andernfalls werden Sie aufgefordert, sich anzumelden. 
 
@@ -148,19 +146,28 @@ Es gibt verschiedene Möglichkeiten, um Berichte an Ihre Mitarbeiter und andere 
 
     Wenn Sie über eine Lizenz für Power BI Pro verfügen, können Sie den Bericht direkt über Ihren Power BI-Dienst mit anderen Benutzern teilen. Weitere Informationen finden Sie unter [Power BI – Teilen von Dashboards oder Berichten](/power-bi/collaborate-share/service-share-dashboards#share-a-dashboard-or-report).
 
+## So entwickeln Sie unternehmens- und umgebungsübergreifende Power BI-Berichte
+
+Die [!INCLUDE[prod_short](includes/prod_short.md)]-API-Endpunkte haben alle das Präfix `https://api.businesscentral.dynamics.com/v2.0/<environment_name>/api/v2.0` gefolgt von `/companies({company_id})/accounts({id})` (hier verwenden wir die `accounts`-API als Beispiel). Sie können diese Struktur verwenden, um PowerQuery-Abfragen zu erstellen, die Daten für mehrere Unternehmen oder mehrere Umgebungen laden, wenn der Benutzer, der die Daten liest, darauf zugreifen kann.
+
+Um eine Abfrage zum Laden von Daten für mehrere Unternehmen einzurichten, führen Sie die folgenden Schritte aus:
+
+1. Verwenden Sie die PowerQuery-Abfrage, die Daten für ein einzelnes Unternehmen lädt. Konvertieren Sie sie in eine benutzerdefinierte Power Query-Funktion, die die Firmen-ID (oder möglicherweise den Umgebungsnamen) als Parameter verwendet. Weitere Informationen finden Sie unter [Verwenden von benutzerdefinierten Power Query-Funktionen](/power-query/custom-function).
+1. Verwenden Sie nun die neue benutzerdefinierte Funktion in einer PowerQuery-Abfrage, in der Sie die Funktion über eine Liste von Unternehmen zuordnen und dann die Datensätze mit der [Table.Combine](/powerquery-m/table-combine)-Funktion von Power Query zusammenführen.
+
 ## Probleme beheben
 
 ### „Ein Datensatz kann nicht eingefügt werden. Die aktuelle Verbindungsabsicht ist schreibgeschützt“. Fehler beim Verbinden mit der angepassten API-Seite
 
 > **GILT FÜR:** Business Central Online
 
-Ab Februar 2022 werden neue Berichte, die Business Central-Daten verwenden, standardmäßig mit einer schreibgeschützten Replik der Business Central-Datenbank verbunden. In seltenen Fällen, abhängig vom Design der Seite, erhalten Sie eine Fehlermeldung, wenn Sie versuchen, eine Verbindung zur Seite herzustellen und Daten von der Seite abzurufen.
+Ab Februar 2022 werden neue Berichte, die [!INCLUDE [prod_short](includes/prod_short.md)]-Daten verwenden, standardmäßig mit einem schreibgeschützten Replikat der [!INCLUDE [prod_short](includes/prod_short.md)]-Datenbank verbunden. In seltenen Fällen, abhängig vom Design der Seite, erhalten Sie möglicherweise eine Fehlermeldung, wenn Sie versuchen, eine Verbindung zur Seite herzustellen und Daten von der Seite abzurufen.
 
 1. Starten Sie Power BI Desktop.
 2. Wählen Sie im Menüband **Daten abrufen** > **Onlinedienste**.
 3. Im Fenster **Online-Dienste** wählen Sie **Dynamics 365 Business Central** und dann **Verbinden**.
 4. Wählen Sie im Fenster **Navigator** den API-Endpunkt, von dem Sie Daten laden möchten.
-5. Im Vorschaubereich auf der rechten Seite sehen Sie den folgenden Fehler:
+5. Im Vorschaufenster wird der folgende Fehler angezeigt:
 
    *Dynamics365BusinessCentral: Anfrage fehlgeschlagen: Der Remote-Server hat einen Fehler zurückgegeben: (400) Fehlerhafte Anfrage. (Ein Datensatz kann nicht eingefügt werden. Die aktuelle Verbindungsabsicht ist schreibgeschützt. CorrelationId: [...]).*
 

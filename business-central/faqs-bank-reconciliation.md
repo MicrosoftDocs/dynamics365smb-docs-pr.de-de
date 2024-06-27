@@ -1,5 +1,5 @@
 ---
-title: Häufig gestellte Fragen zur Unterstützung bei Bankkontoabstimmung (Vorschauversion) mit Copilot
+title: Häufig gestellte Fragen zur Unterstützung bei Bankkontoabstimmung mit Copilot (Vorschauversion)
 description: 'Diese häufig gestellten Fragen bietet Informationen über die KI-Technologie, die zur Abstimmung von Bankkonten und Kontoauszügen in Business Central verwendet wird. Dazu gehören auch wichtige Überlegungen und Details dazu, wie KI verwendet wird, wie sie getestet und bewertet wurde und welche spezifischen Einschränkungen bestehen.'
 ms.date: 03/27/2024
 ms.custom:
@@ -15,85 +15,89 @@ ms.collection:
 
 # Häufig gestellte Fragen zur Unterstützung bei Bankkontoabstimmung mit Copilot (Vorschauversion)
 
-[!INCLUDE[preview-banner](includes/preview-banner.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-Diese häufig gestellten Fragen (FAQ) beschreiben die KI-Auswirkungen der Copilot-Unterstützung bei Bankkontoabstimmung in [!INCLUDE[prod_short](includes/prod_short.md)].
+Diese häufig gestellten Fragen (FAQ) beschreiben die KI-Auswirkungen der Microsoft Copilot-Unterstützung bei Bankkontoabstimmung in [!INCLUDE[prod_short](includes/prod_short.md)].
 
-[!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
 ## Was ist die Unterstützung bei Bankkontoabstimmung?
 
-Die Bankkontoabstimmung ist eine häufige Buchhaltungsaufgabe, bei der Organisationen ihre Kontoauszüge überprüfen, um Transaktionen zu identifizieren, die in [!INCLUDE[prod_short](includes/prod_short.md)] registriert werden sollten. Diese Aufgabe wird beispielsweise verwendet, um regelmäßige Bankgebühren oder kleine Mitarbeiterausgaben zu ermitteln. Diese Aufgabe ist in der Regel ein mehrstufiger Prozess, der mit dem Importieren von Kontoauszügen in [!INCLUDE[prod_short](includes/prod_short.md)] beginnt. Anschließend werden Transaktionen mit Sachbucheinträgen abgeglichen und neue Sachbucheinträge gebucht, um alle verbleibenden Transaktionen widerzuspiegeln, die Ihren Sachbüchern zuvor nicht bekannt waren. Copilot reduziert in [!INCLUDE[prod_short](includes/prod_short.md)] den manuellen Aufwand, indem mehr Transaktionen zugeordnet werden und Sachbuchkonten vorgeschlagen werden, auf die Sie buchen können. 
+Die Bankkontoabstimmung ist eine häufige Buchhaltungsaufgabe, bei der Organisationen ihre Kontoauszüge überprüfen, um Transaktionen zu identifizieren, die in [!INCLUDE[prod_short](includes/prod_short.md)] registriert werden sollten. Diese Aufgabe wird beispielsweise verwendet, um regelmäßige Bankgebühren oder kleine Mitarbeiterausgaben zu ermitteln.
 
-## Welche Möglichkeiten bietet die Unterstützung bei Bankkontoabstimmung?
+Die Bankabstimmung ist in der Regel ein mehrstufiger Prozess. Zunächst werden die Bankauszüge in [!INCLUDE[prod_short](includes/prod_short.md)] importiert. Als Nächstes werden Transaktionen mit Sachbucheinträgen abgeglichen. Abschließend werden neue Hauptbucheinträge gebucht, um etwaige Resttransaktionen widerzuspiegeln, die Ihren Hauptbüchern bisher nicht bekannt waren.
 
-Copilot bietet KI-gestützte Unterstützung bei zwei unterschiedlichen Aufgaben: 
+Copilot reduziert in [!INCLUDE[prod_short](includes/prod_short.md)] den manuellen Aufwand, indem mehr Transaktionen zugeordnet werden und Sachkonten vorgeschlagen werden, auf die Sie buchen können.
 
-- Verbesserte Zuordnung von Transaktionen mit Sachbucheinträgen 
+## Welche Funktionen bietet die Unterstützung bei Bankkontoabstimmung?
 
-   [!INCLUDE[prod_short](includes/prod_short.md)] bietet automatisierte Regeln, die viele Banktransaktionen automatisch Sachbucheinträgen zuordnen. Diese Regeln sind jedoch unflexibel und führen häufig zu vielen nicht übereinstimmenden Transaktionen, die jeweils eine manuelle Prüfung und einen manuellen Vergleich erfordern. Copilot nutzt KI-Technologie, um verbleibende Transaktionen zu überprüfen und anhand der Daten, Beträge und Beschreibungen weitere Übereinstimmungen zu identifizieren. Wenn beispielsweise mehrere Rechnungen von einem Kunden als Abschlag bezahlt wurden, gleicht Copilot die einzelne Kontoauszugspositionen mit den Sachbucheinträgen für die Rechnung ab. 
- 
-- Vorgeschlagene Sachkonten 
+Copilot bietet KI-gestützte Unterstützung bei zwei unterschiedlichen Aufgaben:
 
-   Für verbleibende Banktransaktionen, die keinem Sachbucheintrag zugeordnet werden können, verwendet Copilot KI-Technologie zum Vergleich der Transaktionsbeschreibung mit Sachkontonamen und schlägt das wahrscheinlichste Sachkonto vor, auf das gebucht werden soll. Beispielsweise könnte Copilot vorschlagen, Transaktion mit der Meldung „Tanken 24“ auf das Konto „Beförderung“ zu buchen. 
+- Verbesserte Zuordnung von Transaktionen mit Sachbucheinträgen
 
-Copilot stellt keine Verbindung zu Ihrer Bank her, um Transaktionen abzurufen oder zu senden. Diese Aufgabe liegt vollständig in Ihrer Kontrolle und ist eine Voraussetzung, um die Unterstützung von Copilot in Anspruch nehmen zu können, unabhängig davon, ob diese Transaktionen [!INCLUDE[prod_short](includes/prod_short.md)] über eine digitale Bankverbindung hinzugefügt, aus einer Kontoauszugsdatei importiert oder manuell eingegeben wird. 
+    [!INCLUDE[prod_short](includes/prod_short.md)] bietet automatisierte Regeln, die viele Banktransaktionen automatisch Sachbucheinträgen zuordnen. Diese Regeln sind jedoch unflexibel und führen häufig zu vielen nicht übereinstimmenden Transaktionen, die jeweils eine manuelle Prüfung und einen manuellen Vergleich erfordern. Copilot nutzt KI-Technologie, um diese nicht zugeordneten Transaktionen zu überprüfen und anhand der Daten, Beträge und Beschreibungen weitere Übereinstimmungen zu identifizieren. Wenn ein Debitor beispielsweise mehrere Rechnungen als Abschlag bezahlt hat, gleicht Copilot die einzelne Kontoauszugspositionen mit den Sachbucheinträgen für die Rechnung ab.
+
+- Vorgeschlagene Sachkonten
+
+    Für verbleibende Banktransaktionen, die keinem Sachbucheintrag zugeordnet werden können, verwendet Copilot KI-Technologie zum Vergleich der Transaktionsbeschreibung mit Sachkontonamen und schlägt dann das wahrscheinlichste Sachkonto vor, auf das gebucht werden soll. Wenn nicht zugeordnete Transaktionen beispielsweise die Meldung *Tanken 24* aufweisen, könnte Copilot vorschlagen, dass Sie sie auf das Konto *Beförderung* buchen.
+
+Copilot stellt keine Verbindung zu Ihrer Bank her, um Transaktionen abzurufen oder zu senden. Diese Aufgabe liegt vollständig in Ihrer Kontrolle. Sie ist eine Voraussetzung, um die Unterstützung von Copilot in Anspruch nehmen zu können, unabhängig davon, ob die Transaktionen [!INCLUDE[prod_short](includes/prod_short.md)] über eine digitale Bankverbindung hinzugefügt, aus einer Kontoauszugsdatei importiert oder manuell eingegeben werden.
 
 ## Wozu dient die Unterstützung bei Bankkontoabstimmung?
 
-Die Unterstützung bei Bankkontoabstimmung soll dabei helfen, neue Transaktionen zu identifizieren, die Kunden in [!INCLUDE[prod_short](includes/prod_short.md)] berücksichtigen sollten, um die Genauigkeit ihrer Bücher zu verbessern. Diese Aktivität dient nicht der Betrugserkennung oder der Feststellung, ob Kunden pünktlich bezahlt haben.   
+Die Unterstützung bei der Bankkontoabstimmung soll die Genauigkeit von Sachkonten verbessern, indem Debitoren neue Transaktionen, die sie in [!INCLUDE[prod_short](includes/prod_short.md)] berücksichtigen sollten, leichter identifizieren können. Dies dient nicht der Betrugserkennung oder der Feststellung, ob Kunden pünktlich bezahlt haben.
 
 ## Wie wurde die Unterstützung bei Bankkontoabstimmung bewertet? Welche Metriken werden verwendet, um die Leistung zu messen?
 
-Diese Funktionalität wurde anhand von Kombinationen aus synthetischen Banktransaktionsdaten und ähnlichen Sachkonten und Sachkonteneinträgen getestet, die die typischen Variationen und Datengrenzwerte für jedes Feld und in verschiedenen Sprachen abdecken. Testdaten beziehen sich sowohl auf die typische Nutzung als auch die Nutzung durch böswillige Akteure. Die Leistung wurde im Vergleich zur manuellen Abstimmung derselben Daten gemessen. 
+Die Unterstützung bei der Bankkontoabstimmung wurde anhand von Kombinationen aus synthetischen Banktransaktionsdaten und ähnlichen Sachkonten und Sachkonteneinträgen getestet, die die typischen Variationen und Datengrenzwerte für jedes Feld und in verschiedenen Sprachen abdecken. Testdaten beziehen sich sowohl auf die typische Nutzung als auch die Nutzung durch böswillige Akteure. Die Leistung wurde im Vergleich zur manuellen Abstimmung derselben Daten gemessen.
 
-## Welche Einschränkungen gelten für die Unterstützung bei Bankkontoabstimmung? Wie können Benutzende die Auswirkungen der Beschränkungen der Bankkontoabstimmung bei der Nutzung des Systems minimieren?
+## Welche Einschränkungen gelten für die Unterstützung bei Bankkontoabstimmung? Wie können Benutzer die Auswirkungen dieser Einschränkungen minimieren, wenn sie das System nutzen?
 
-Die Unterstützung bei Bankkontenabstimmung funktioniert am besten, wenn die Namen der Sachkonten, die Beschreibungen der Sachkonten und die Beschreibungen der Banktransaktionen in derselben Sprache vorliegen. Gemischte Sprachen oder eine gemischte Sprache der Transaktionsbeschreibungen führen häufig zu weniger Übereinstimmungen und Vorschlägen. 
+Die Unterstützung bei Bankkontenabstimmung funktioniert am besten, wenn die Namen der Sachkonten, die Beschreibungen der Sachkonten und die Beschreibungen der Banktransaktionen in derselben Sprache vorliegen. Gemischte Sprachen bzw. gemischte Sprachen für Transaktionsbeschreibungen führen häufig zu weniger Übereinstimmungen und Vorschlägen.
 
-Vorgeschlagene Sachkonten erzielen die beste Leistung in englischer Sprache. Dieses Feature kann zwar in jeder der verfügbaren [!INCLUDE[prod_short](includes/prod_short.md)] Sprachen ausgeführt werden, Benutzenden werden jedoch möglicherweise weniger Transaktionsübereinstimmungen und weniger vorgeschlagene Sachkonten in anderen Sprachen angezeigt. 
-<!--
+Die beste Leistung vorgeschlagener Sachkonten wird in einer der unterstützten Sprachen erzielt (eine Liste der Sprachen finden Sie im nächsten Abschnitt). In anderen Sprachen werden den Benutzern möglicherweise weniger Transaktionsübereinstimmungen und weniger Vorschläge für Sachkonten angezeigt.
 
-## What operational factors and settings allow for effective and responsible use of the feature?
-
-
--->
 ## In welchen Regionen und Sprachen ist Unterstützung bei der Bankkontoabstimmung verfügbar? 
 
-Diese Funktion ist für die Lokalisierung jedes Umgebungslandes bzw. jeder Umgebungsregion und in jeder Benutzersprache verfügbar. Für Kundenumgebungen in Ländern/Regionen, in denen der Azure OpenAI Dienst nicht bereitgestellt wird, müssen Administrierende zunächst der grenzüberschreitenden Übermittlung von Daten für [!INCLUDE[prod_short](includes/prod_short.md)] zustimmen, um eine Verbindung zum Azure OpenAI Dienst herzustellen und diese Funktion verfügbar zu machen. 
+- Verfügbare geografische Regionen
 
-Weitere Informationen zur Sprache finden Sie in der vorherigen Frage zu Einschränkungen.  
+  Die Unterstützung bei der Bankkontoabstimmung ist in allen unterstützten [Ländern/Regionen von Business Central](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations) verfügbar. Für Kundenumgebungen in Ländern/Regionen, in denen der Azure OpenAI-Dienst nicht bereitgestellt wird, müssen Administratoren zunächst der grenzüberschreitenden Übermittlung ihrer Daten zustimmen, damit [!INCLUDE [prod_short](includes/prod_short.md)] eine Verbindung zum Azure OpenAI-Dienst hergestellt werden kann. Erfahren Sie mehr unter [Copilot-Datenverschiebung über geografische Regionen hinweg](ai-copilot-data-movement.md).
 
-## Was wird von Endbenutzenden erwartet, wenn sie die Unterstützung bei Bankkontoabstimmung betreiben? 
+- Verfügbare Sprachen
 
-### Während der Verwendung der Bankkontoabstimmung 
+  [!INCLUDE[bank-recon-assist-language-support](includes/bank-recon-assist-language-support.md)]
 
-KI-gestützte Zuordnungen und Vorschläge können manchmal falsch oder unvollständig sein. Benutzende der Unterstützung bei Bankkontoabstimmung müssen die Richtigkeit der von Copilot bereitgestellten Zuordnungen und Vorschläge überprüfen, bevor sie sich entscheiden, sie zu behalten. Die Zuordnungen und Vorschläge von Copilot werden erst dann in der [!INCLUDE[prod_short](includes/prod_short.md)] Datenbank gespeichert, wenn Sie auf die Schaltfläche „Behalten“ klicken und das Copilot-Fenster verlassen. Sie können alle Zuordnungen oder Vorschläge auch bearbeiten und korrigieren, bevor Sie sie behalten. 
+Weitere Informationen zu Sprachen finden Sie in der vorherigen Frage zu Einschränkungen.
 
-### Nach der Bankkontoabstimmung 
+## Was wird von Systembenutzern erwartet, wenn sie die Unterstützung bei der Bankkontoabstimmung betreiben?
 
-Benutzende sollten auch nach dem Verlassen des Copilot-Fensters die Richtigkeit überprüfen und etwaige Unstimmigkeiten korrigieren, einschließlich der folgenden Aktivitäten: 
+### Während der Bankkontoabstimmung
 
-- Sehen Sie sich den Abstimmungstestbericht an. 
-- Stellen Sie sicher, dass Ihre Organisation über die entsprechenden Überprüfungs- und Auditprozesse verfügt. 
-- Öffnen Sie alle veröffentlichten Abstimmungen erneut, indem Sie die Funktion „Rückgängig“ verwenden. 
-- Korrigieren Sie fehlerhafte Buchungen, indem Sie eine Rückbuchung der Einträge durchführen. 
+KI-gestützte Zuordnungen und Vorschläge können manchmal falsch oder unvollständig sein. Benutzer der Unterstützung bei der Bankkontoabstimmung müssen die Genauigkeit der von Copilot bereitgestellten Zuordnungen und Vorschläge überprüfen, bevor sie sich entscheiden, sie zu behalten. Die Zuordnungen und Vorschläge von Copilot werden erst dann in der [!INCLUDE[prod_short](includes/prod_short.md)]-Datenbank gespeichert, wenn Sie die Schaltfläche **Behalten** auswählen und das Copilot-Fenster schließen. Sie können alle Zuordnungen oder Vorschläge bearbeiten und korrigieren, bevor Sie sich entscheiden, sie zu behalten.
 
-## Was wird von Administrierenden und Endbenutzenden erwartet, wenn sie die Unterstützung bei Bankkontoabstimmung betreiben? 
+### Nachdem die Bankkontoabstimmung abgeschlossen wurde
 
-Endbenutzende wie Buchhalter, Kassenverwalter oder andere, die an der Unternehmensbuchhaltung mitwirken, sollten immer die Richtigkeit der von Copilot bereitgestellten Zuordnungen und Vorschläge überprüfen, bevor sie sich für die Beibehaltung entscheiden. Nach der Abstimmung mit Copilot empfehlen wir, den Abstimmungstestbericht durchzugehen, um die Richtigkeit zu überprüfen und etwaige Unstimmigkeiten zu identifizieren. 
+Wir empfehlen, dass Benutzer auch nach dem Schließen des Copilot-Fensters die Genauigkeit überprüfen und etwaige Unstimmigkeiten korrigieren. Dieser Prozess sollte die folgenden Aktivitäten umfassen:
 
-Administrierende sollten sicherstellen, dass die entsprechenden Benutzenden aus der Buchhaltung Zugriff auf diese Funktion haben. 
+- Sehen Sie sich den Abstimmungstestbericht an.
+- Stellen Sie sicher, dass Ihre Organisation über die entsprechenden Überprüfungs- und Auditprozesse verfügt.
+- Öffnen Sie alle veröffentlichten Abstimmungen erneut, indem Sie die Funktion **Rückgängig** verwenden.
+- Korrigieren Sie fehlerhafte Buchungen, indem Sie eine Rückbuchung der Einträge durchführen.
 
-## Ist Copilot die einzige Möglichkeit, die Bankkontoabstimmung abzuschließen? 
+## Was wird von Administratoren und Systembenutzern erwartet, wenn sie die Unterstützung bei der Bankkontoabstimmung verwenden?
 
-Nein, die Nutzung von Copilot ist optional. [!INCLUDE[prod_short](includes/prod_short.md)] bietet herkömmliche, nicht KI-gestützte Wege zum Importieren von Kontoauszügen, zum Ausführen voreingestellter Zuordnungsregeln und zum manuellen Anwenden von Zuordnungen und Verbuchen auf die entsprechenden Sachkonten. Sowohl der traditionelle Ansatz als auch Copilot können innerhalb einer Organisation gleichzeitig verwendet werden. 
+Systembenutzer wie Buchhalter, Kassenverwalter oder andere Personen, die an der Unternehmensbuchhaltung mitwirken, sollten immer die Genauigkeit der von Copilot bereitgestellten Zuordnungen und Vorschläge überprüfen, bevor sie sich dazu entscheiden, diese zu behalten. Nach der Abstimmung mit Copilot empfehlen wir, dass diese Benutzer den Abstimmungstestbericht durchgehen, um die Genauigkeit zu überprüfen und etwaige Unstimmigkeiten zu identifizieren.
+
+Administrierende sollten sicherstellen, dass die entsprechenden Benutzer aus der Buchhaltung Zugriff auf diese Funktion haben.
+
+## Ist Copilot die einzige Möglichkeit, die Bankkontoabstimmung abzuschließen?
+
+Anz. Die Verwendung von Copilot ist optional. [!INCLUDE[prod_short](includes/prod_short.md)] bietet herkömmliche, nicht KI-gestützte Wege zum Importieren von Kontoauszügen, zum Ausführen voreingestellter Zuordnungsregeln und zum manuellen Anwenden von Zuordnungen und Verbuchen auf die entsprechenden Sachkonten. Sowohl der traditionelle Ansatz als auch Copilot können in einer Organisation gleichzeitig verwendet werden.
 
 ## Wie gebe ich Feedback zu KI-generierten Inhalten?
 
-Jedes Mal, wenn Copilot Zuordnungen oder Vorschläge bereitstellt, können Sie Microsoft mithilfe der Steuerelemente „Gefällt mir“ und „Gefällt mir nicht“ direkt im Copilot-Fenster Feedback geben. Ihr Feedback bleibt anonym und wir verwenden diese Daten, um die Qualität dieses Dienstes zu verbessern.
-
+Jedes Mal, wenn Copilot Zuordnungen oder Vorschläge bereitstellt, können Sie Microsoft mithilfe der Steuerelemente „Gefällt mir“ (Daumen nach oben) und „Gefällt mir nicht“ (Daumen nach unten) direkt im Copilot-Fenster Feedback geben. Ihr Feedback bleibt anonym und wir verwenden diese Daten, um die Qualität dieses Dienstes zu verbessern.
 
 ## Siehe auch
 
-[Bankkontoabstimmung mit der Unterstützung bei Bankkontoabstimmung (Vorschauversion)](bank-reconciliation-with-copilot.md)
+[Bankkontoabstimmung mit Copilot (Vorschauversion)](bank-reconciliation-with-copilot.md)

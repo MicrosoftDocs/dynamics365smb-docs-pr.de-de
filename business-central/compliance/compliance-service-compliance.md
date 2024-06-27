@@ -6,29 +6,29 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
 ms.reviewer: bholtorf
-ms.date: 06/14/2021
+ms.date: 06/16/2024
 ms.author: soalex
 ms.service: dynamics-365-business-central
 ---
-# <a name="service-compliance"></a>Dienst-Kompatibilität
+# Dienst-Kompatibilität
 
-Dieser Inhalt enthält Informationen über Dienstkompatibilität in Bezug auf [!INCLUDE[prod_short](../includes/prod_short.md)] online  
+Dieser Inhalt enthält Informationen über Dienstkompatibilität in Bezug auf [!INCLUDE[prod_short](../includes/prod_short.md)] online.
 
 Business Central ist ein Clouddienst mit einem globalen Reichweiten- und Skalabetrieb in einer der größten hyperskalierten Infrastrukturen, Microsoft Azure mit Datencentern in den Regionen weltweit. Einen Clouddienst ausführen bringt auch die Anforderung, bestimmte Standardvorgaben bezüglich Sicherheit und Kompatibilität einzuhalten, sodass von einer Dienstperspektive Business Central die strikten Anforderungen in mehreren ISO- und Branchen spezifischen Zertifizierungen gerecht wird.
 
-Hier finden Sie die detaillierten [Cloudkompatibilitätsanforderungen für Business Central](https://aka.ms/d365-compliance-list) Liste.
+Eine detaillierte Liste der Cloudkompatibilitätsanforderungen für Business Central erhalten Sie, indem Sie [das Datenblatt zur Microsoft Dynamics 365 Cloud Service Compliance herunterladen](https://aka.ms/d365-compliance-list).
 
 Wenn Sie an der vollständigen Liste der Kompatibilitätsanforderungen von Microsoft interessiert sind, gehen Sie zum [Microsoft Trust Center](https://www.microsoft.com/trustcenter/compliance/complianceofferings).
 
-## <a name="service-terms"></a>Servicebedingungen
+## Servicebedingungen
 
-[!INCLUDE [service-terms](../includes/service-terms.md)]
+[!INCLUDE[service-terms](../includes/service-terms.md)]
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
-[Kompatibilität](compliance-overview.md)  
-[Anwendungs-Kompatibilität](compliance-application-compliance.md)  
-[Bescheinigungen](compliance-certifications.md)  
+[Compliance](compliance-overview.md)  
+[Anwendungskompatibilität](compliance-application-compliance.md)  
+[Zertifizierungen](compliance-certifications.md)  
 
 ## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  
 

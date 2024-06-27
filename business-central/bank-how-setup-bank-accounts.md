@@ -1,29 +1,27 @@
 ---
-title: Bankkonten festlegen (enthält Video)
+title: Bankkonten einrichten
 description: 'Erfahren Sie, wie Bankkonten in Business Central verwendet werden und wie Sie Beträge mit Ihrer Bank abstimmen können.'
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bnielse
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: 'Yodlee, feed, stream'
 ms.search.form: '370, 371, 372, 373, 375, 423, 424, 425, 426, 1240, 1280'
-ms.date: 08/03/2023
+ms.date: 05/24/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-bank-accounts"></a>Bankkonten festlegen
+# Bankkonten einrichten
 
-Bankkonten in [!INCLUDE[prod_short](includes/prod_short.md)] verwenden Sie, um den Überblick über Ihre Bank-Transaktionen zu behalten. Konten können auf Ihre Mandantenwährung oder eine Fremdwährung lauten. Nachdem Sie Bankkonten eingerichtet haben, können Sie auch Schecks drucken. Die Bankkonten enthalten zusätzliche Funktionen für [Zahlungsabgleich](receivables-apply-payments-auto-reconcile-bank-accounts.md), [Bankabgleich](bank-how-reconcile-bank-accounts-separately.md) und den Import und Export von Bankdateien. Die Bankkonten können auch in Transaktionen in den Allgemeinen Erfassungen einbezogen werden. Jedes Bankkonto ist über die zugewiesene Buchungsgruppe für Bankkonten mit einem Konto im Kontenplan verknüpft. Die Verwendung eines Bankkontos in einer Zahlungstransaktion erstellt automatisch einen Eintrag sowohl auf dem Bankkonto als auch auf dem damit verbundenen Hauptbuch (Sachkonto).  
+Verwenden Sie Bankkonten in [!INCLUDE[prod_short](includes/prod_short.md)], um den Überblick über Ihre Bank-Transaktionen zu behalten. Konten können auf Ihre Mandantenwährung oder eine Fremdwährung lauten. Nachdem Sie Bankkonten eingerichtet haben, können Sie auch Schecks drucken. Bankkonten bieten außerdem Funktionen für [Zahlungsabgleich](receivables-apply-payments-auto-reconcile-bank-accounts.md), [Bankabgleich](bank-how-reconcile-bank-accounts-separately.md) und den Import und Export von Bankdateien.
+
+Sie können Bankkonten in Transaktionen in der allgemeinen Erfassung einbeziehen. Jedes Bankkonto ist über die zugewiesene Buchungsgruppe für Bankkonten mit einem Konto im Kontenplan verknüpft. Die Verwendung eines Bankkontos in einer Zahlungstransaktion erstellt automatisch einen Eintrag sowohl auf dem Bankkonto als auch auf dem damit verbundenen Hauptbuch (Sachkonto).  
 
 Bankkonten funktionieren unterschiedlich, je nachdem, ob ein Währungscode angegeben ist:
 
-- Wenn der Währungscode leer ist
-
-  Alle Transaktionen auf dem Bankkonto erfolgen in der Mandantenwährung (MW) der aktuellen Firma. Wenn eine Transaktion auf dem Konto in einer anderen Währung durchgeführt wird, werden die Beträge auf der Grundlage des entsprechenden Wechselkurses in LCY auf das Konto gebucht. Alle Schecks, die von diesem Konto ausgestellt werden, müssen in MW ausgestellt werden. Wenn das Bankkonto in einem Journal verwendet wird, erbt die Buchungsblattzeile automatisch den leeren Währungscode.  
+- Wenn keine Währungscode angegeben ist, erfolgen alle Transaktionen auf dem Bankkonto erfolgen in der Mandantenwährung (MW) der aktuellen Firma. Wenn Sie eine Transaktion auf dem Konto in einer anderen Währung durchführen, werden die Beträge basierend auf den Wechselkursen in der LW auf das Konto gebucht. Alle Schecks, die von diesem Konto ausgestellt werden, müssen in der LW ausgestellt werden. Wenn das Bankkonto in einem Journal verwendet wird, verwendet die Buchungsblattzeile automatisch den leeren Währungscode.  
   
-- Währungscode wird angegeben
-
-  Alle Transaktionen auf diesem Konto und alle Schecks, die von diesem Konto ausgestellt werden, müssen in der gleichen Währung erfolgen, die auf dem Konto angegeben ist.
+- Wenn ein Währungscode angegeben wird, müssen alle Transaktionen auf diesem Konto und alle Schecks, die darüber ausgestellt werden, dieselbe Währung verwenden wie das Konto.
 
 Sie können bei der Dateneingabe Zeit sparen, indem Sie ein Bankkonto als Standardkonto für die für das Konto angegebene Währung festlegen. Wenn Sie dies tun, wird das Konto den Verkaufs- und Dienstleistungsdokumenten zugeordnet, die diese Währung verwenden. Um das Konto als Standardkonto für Verkaufs- und Servicebelege festzulegen, aktivieren Sie auf der Seite **Bankkontokarte** den Umschalter **Als Standard für Währung verwenden**. Bei Bedarf können Sie ein anderes Konto auswählen, wenn Sie an einem Beleg arbeiten.
 
@@ -31,13 +29,13 @@ Ein Bankkonto ist ein integraler Bestandteil von [!INCLUDE[prod_short](includes/
 
 ![Illustration der Bankkontobeziehungen.](media/Set-Up-Bank-Accounts/Bank_Account_Relations.png)
 
-Sie sehen, dass das Erstellen eines Bankkontos dazu führt, dass es an allen oben genannten Stellen verfügbar ist und auch im entsprechenden Sachkonto und auf der Seite **Unternehmensdaten** gespiegelt wird.
+Die Erstellung eines Bankkontos führt dazu, dass es an allen in der Abbildung gezeigten Stellen verfügbar ist und auch im Sachkonto und auf der Seite **Unternehmensdaten** gespiegelt wird.
 
-Ein Bankkonto wird in der Regel täglich überwacht, um sicherzustellen, dass alle neuen Zahlungen von Kunden so schnell wie möglich registriert werden. Dies trägt dazu bei, dass der aktuelle Status eines Kunden in [!INCLUDE[prod_short](includes/prod_short.md)] wiedergegeben wird. Auf diese Weise haben Vertriebsmitarbeiter, Buchhalter und andere Mitarbeiter Zugriff auf die wichtigsten und aktuellsten Informationen, so dass sie unnötige Anrufe beim Kunden wegen überfälliger Rechnungen oder Verzögerungen bei der Lieferung vermeiden können.  
+Bankkonten werden häufig täglich überwacht, um sicherzustellen, dass alle neuen Zahlungen von Kunden so schnell wie möglich registriert werden. Durch die schnelle Registrierung von Zahlungen wird sichergestellt, dass der aktuelle Status eines Debitors in [!INCLUDE[prod_short](includes/prod_short.md)] widergespiegelt wird. Wenn der Status der Debitorenzahlungen auf dem neuesten Stand gehalten wird, ersparen Sie Verkäufern, Buchhaltern und anderen Mitarbeitern unnötige Anrufe wegen überfälliger Rechnungen oder Lieferverzögerungen.  
 
 ![Abbildung der Bankzahlung.](media/Set-Up-Bank-Accounts/Bank-payment-flow.png)
 
-Eine weitere Aufgabe besteht darin, die Zahlungen der Lieferantenwährungen mit den realisierten Sätzen zu importieren, um sicherzustellen, dass der aktuelle Status der Lieferanten auf dem neuesten Stand ist. Mit der Funktionalität [Zahlungsabgleich](receivables-apply-payments-auto-reconcile-bank-accounts.md) ist das am einfachsten zu bewerkstelligen. Im **Zahlungsabstimmungs Buch.-Blatt** können Sie Banktransaktionen direkt aus einer Online-Bankanwendung importieren und mehr oder weniger automatisch verbuchen lassen. Das Journal identifiziert und bucht automatisch Folgendes:  
+Eine weitere Aufgabe besteht darin, die Zahlungen der Lieferantenwährungen mit den realisierten Sätzen zu importieren, um sicherzustellen, dass der aktuelle Status der Lieferanten auf dem neuesten Stand ist. Mit der Funktionalität [Zahlungsabgleich](receivables-apply-payments-auto-reconcile-bank-accounts.md) ist das am einfachsten zu bewerkstelligen. Im **Zahlungsabstimmungs Buch.-Blatt** können Sie Banktransaktionen direkt aus einer Online-Bankanwendung importieren und mehr oder weniger automatisch buchen. Das Journal identifiziert und bucht die folgenden Transaktionen automatisch:  
 
 - Lastschriftzahlungen von Kunden  
 - Debitoren-Zahlungen von einzelnen Rechnungen  
@@ -54,15 +52,15 @@ Mit der Bankabstimmung stellen Sie sicher, dass das Bankkonto in [!INCLUDE[prod_
 
  ![Illustration der Bankkontoabstimmung.](media/Set-Up-Bank-Accounts/BankReconciliation.png)
 
-In der obigen Abbildung steht die linke Seite für das Bankkonto in [!INCLUDE[prod_short](includes/prod_short.md)] und die rechte Seite für Transaktionen, die von der Bank über die Online-Bankanwendung importiert wurden. Das Diagramm in der Mitte zeigt die Transaktionen von beiden Seiten, das ist die Bankabstimmung.
+In der Abbildung stellt die linke Seite das Bankkonto in [!INCLUDE[prod_short](includes/prod_short.md)] dar und die rechte Seite die Transaktionen, die von der Bank über die Online-Bankanwendung importiert wurden. Das Diagramm in der Mitte zeigt die Transaktionen von beiden Seiten, aus denen sich die Bankabstimmung zusammensetzt.
 
 Vom Bankkonto in [!INCLUDE[prod_short](includes/prod_short.md)] sollten die meisten Transaktionen bei der physischen Bank bekannt sein. Zu den wenigen Ausnahmen gehören die folgenden Fälle:  
 
 - In [!INCLUDE[prod_short](includes/prod_short.md)] gebuchte Korrekturen  
-- Ausgestellte Schecks, die noch nicht eingelöst worden sind 
+- Ausgestellte Schecks, die nicht eingelöst werden
 - Kreditorenzahlungen, die noch nicht von der Bank genehmigt wurden  
 
-Vom physischen Konto bei der Bank treffen immer wieder Transaktionen ein, die nicht im Zahlungsabstimmungs Buch.-Blatt ausgewiesen sind, wie z.B:  
+Vom physischen Konto bei der Bank treffen immer wieder Transaktionen ein, die nicht im Zahlungsabstimmungs Buch.-Blatt ausgewiesen sind, wie beispielsweise die folgenden Transaktionen:  
 
 - Neue Abonnements von Kreditoren  
 - Debitoren-Zahlungen ohne Beschreibung
@@ -72,7 +70,7 @@ Vom physischen Konto bei der Bank treffen immer wieder Transaktionen ein, die ni
 
 Je besser Sie die Informationen im Zahlungsabstimmungs-Buch.-Blatt zuordnen können, desto mehr Transaktionen werden automatisch gebucht und desto einfacher wird der periodische Bankabgleich.
 
-Sehen Sie im Video unten die grundlegenden Schritte zum Festlegen eines Bankkontos in [!INCLUDE[prod_short](includes/prod_short.md)].
+Das folgende Video zeigt die grundlegenden Schritte zum Festlegen eines Bankkontos in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 <br /><br />
 
@@ -81,7 +79,7 @@ Sehen Sie im Video unten die grundlegenden Schritte zum Festlegen eines Bankkont
 > [!WARNING]
 > Einige Felder können sensible Daten enthalten, wie z.B. die Felder **BLZ**, **Bankkontonr.**, **SWIFT Code**, und **IBAN Code**. Erfahren Sie mehr unter [Sensible Felder überwachen](across-log-changes.md#monitor-sensitive-fields).
 
-## <a name="to-set-up-bank-accounts"></a>Bankkonten einrichten:
+## Bankkonten einrichten:
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion 1.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") öffnet. Symbol. Geben Sie **Bankkonten** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie auf der Seite **Bankkonten** die Aktion **Neu** aus.
@@ -151,16 +149,16 @@ The following table explains key fields.
 |Payment Export Format|Specifies the format of the bank file that is exported when you choose **Export Payments to File** on the **Payment Journal** page.|
 -->
 
-## <a name="to-enter-an-opening-balance"></a>So geben Sie einen Eröffnungssaldo ein
+## So geben Sie einen Eröffnungssaldo ein
 
-Um das Feld **Saldo** mit einem Eröffnungssaldo zu füllen, müssen Sie eine Sachkonto-Buchung mit dem betreffenden Betrag vornehmen. Sie können dies tun, indem Sie eine Bankkontoabstimmung durchführen. Erfahren Sie mehr unter [Bankkonten abstimmen](bank-how-reconcile-bank-accounts-separately.md).  
+Um das Feld **Saldo** mit einem Eröffnungsbilanz auszufüllen, müssen Sie den Bankposten mit dem entsprechenden Betrag buchen. Sie buchen den Eintrag über eine Bankkontoabstimmung. Erfahren Sie mehr unter [Bankkonten abstimmen](bank-how-reconcile-bank-accounts-separately.md).  
 >
 > Alternativ können Sie den Eröffnungssaldo als Teil der allgemeinen Datenerstellung in neuen Firmen implementieren, indem Sie die Anleitung **Geschäftsdaten migrieren** für die unterstützte Einrichtung verwenden. Weitere Informationen unter [Bereitschaft für die Geschäftsabwicklung](ui-get-ready-business.md).  
 
 > [!IMPORTANT]
-> Buchen Sie den Eröffnungssaldo nicht direkt in das Hauptbuch. Direkt auf das Sachkonto gebuchte Einträge führen in der Regel dazu, dass Sie das Bankkonto nicht mehr abstimmen können. Bei Bankkonten in Fremdwährung führt eine solche Praxis dazu, dass sich die Differenzen häufen, wenn Sie mehr Bankabstimmungen buchen. Normalerweise buchen Sie den Eröffnungssaldo direkt auf das Bankkonto, und der Betrag landet auf dem Sachkonto. Alternativ können Sie ihn später aus dem Sachkonto stornieren, das Sie zum Ausgleich des Eröffnungssaldos des Hauptbuchs verwenden. In jedem Fall müssen Sie jede Direktbuchung auf das Sachkonto ausgleichen, bevor Sie mit der ersten Bankabstimmung beginnen &mdash; insbesondere wenn das Bankkonto auf eine Fremdwährung lautet.
+> Buchen Sie den Eröffnungssaldo nicht direkt in das Hauptbuch. Direkt in das Sachkonto gebuchte Einträge führen in der Regel dazu, dass Sie das Bankkonto nicht abstimmen können. Bei Bankkonten in Fremdwährung führt eine Direktbuchung dazu, dass sich die Differenzen häufen, wenn Sie mehr Bankabstimmungen buchen. Normalerweise buchen Sie den Eröffnungssaldo direkt auf das Bankkonto, und der Betrag landet auf dem Sachkonto. Alternativ können Sie ihn später aus dem Sachkonto stornieren, das Sie zum Ausgleich des Eröffnungssaldos des Hauptbuchs verwenden. In jedem Fall müssen Sie jede Direktbuchung auf das Sachkonto ausgleichen, bevor Sie mit der ersten Bankabstimmung beginnen &mdash; insbesondere wenn das Bankkonto auf eine Fremdwährung lautet.
 
-## <a name="to-set-up-your-bank-account-for-import-or-export-of-bank-files"></a>Um Ihre Bankkonten zum Importieren und Exportieren von Bankdateien einzurichten
+## Um Ihre Bankkonten zum Importieren und Exportieren von Bankdateien einzurichten
 
 Die Felder, die sich auf den Import und den Export von Bankfeeds und Dateien beziehen, befinden sich im Inforegister **Transfer** im Fenster **Bankkontenkarte**. Erfahren Sie mehr unter [Verwendung der Erweiterung AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md) und [Einrichten des Dienstes Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md).
 
@@ -173,15 +171,15 @@ Die Felder, die sich auf den Import und den Export von Bankfeeds und Dateien bez
 
 Die Felder im Inforegister **Transit** auf dem Bankkonto dienen unterschiedlichen Zwecken, je nachdem, ob es sich um eine eingehende oder ausgehende Zahlung handelt.
 
-Die folgende Abbildung zeigt den Weg der eingehenden Zahlungen (die Nummern in der Beschreibung entsprechen denen in der Abbildung):
+Die folgende Abbildung zeigt den Arbeitsplan von eingehenden Zahlungen. Die Nummern in der Beschreibung entsprechen den Nummern in der Abbildung.
 
 :::row:::
     :::column:::
 
 1. Die Transaktionen werden vom Bankkonto entweder in einem menschenlesbaren .csv-Format oder im bankeigenen Format exportiert.
-2. Die *Data Exchange Definition* ordnet die Informationen in der Datei den Feldern in [!INCLUDE[prod_short](includes/prod_short.md)] zu. Erfahren Sie mehr unter [Set Up Data Exchange](across-set-up-data-exchange.md)
-3. Die *Einrichtung für Datenexport/-import* definiert den Export oder Import und verweist auf die Datenaustauschdefinition.
-4. Das *Importformat für Bankauszüge* verknüpft die Einrichtung für den Import mit dem Bankkonto.
+2. Die Data Exchange Definition ordnet die Informationen in der Datei den Feldern in [!INCLUDE[prod_short](includes/prod_short.md)] zu. Erfahren Sie mehr unter [Set Up Data Exchange](across-set-up-data-exchange.md)
+3. Die Einrichtung für Datenexport/-import definiert den Export oder Import und verweist auf die Datenaustauschdefinition.
+4. Das Importformat für Bankauszüge verknüpft die Einrichtung für den Import mit dem Bankkonto.
 5. Die Zahlungen werden über das **Zahlungsausgangs Buch.-Blatt** oder die **Bankkontoabstimmung** Seite importiert.
 
   :::column-end:::
@@ -194,15 +192,15 @@ Die folgende Abbildung zeigt den Weg der eingehenden Zahlungen (die Nummern in d
 
 Eingehende Zahlungen werden immer über das **Zahlungsabstimmungs Buch.-Blatt** oder direkt in die **Bankkontoabstimmung** Seite importiert. Im Gegensatz dazu können ausgehende Zahlungen aus jedem Zahlungsausgangs Buch.-Blatt stammen. Die einzige Voraussetzung ist, dass das Feld **Zahlungsexport zulassen** im entsprechenden Batch des Zahlungsausgangs Buch.-Blatt markiert ist.
 
-Die folgende Abbildung zeigt den Weg der ausgehenden Zahlungen (die Nummern in der Beschreibung entsprechen denen in der Abbildung):
+Die folgende Abbildung zeigt den Arbeitsplan von ausgehenden Zahlungen. Die Nummern in der Beschreibung entsprechen den Nummern in der Abbildung.
 
 :::row:::
     :::column:::
 
 6. Die Transaktionen werden in ein Zahlungsausgangs Buch.-Blatt eingefügt, das für den Export von Zahlungen in eine Datei vorbereitet wurde.
-7. Das *Importformat für Bankauszüge* verknüpft die Importeinrichtung mit dem Bankkonto.
-8. Die *Einrichtung für Datenexport/-import* definiert den Export oder Import und verweist auf die Datenaustauschdefinition.
-9. Die *Datenaustauschdefinition* ordnet die Informationen in der Datei den Feldern in [!INCLUDE[prod_short](includes/prod_short.md)] zu. Mehr dazu erfahren Sie unter [Data Exchange festlegen](across-set-up-data-exchange.md)
+7. Das Importformat für Bankauszüge verknüpft die Einrichtung für den Import mit dem Bankkonto.
+8. Die Einrichtung für Datenexport/-import definiert den Export oder Import und verweist auf die Datenaustauschdefinition.
+9. Die Data Exchange Definition ordnet die Informationen in der Datei den Feldern in [!INCLUDE[prod_short](includes/prod_short.md)] zu. Mehr dazu erfahren Sie unter [Data Exchange festlegen](across-set-up-data-exchange.md)
 10. Die Zahlungen werden aus der Erfassung des Zahlungsausgangs Buch.-Blatt exportiert und in das Bankkonto importiert.
 
   :::column-end:::
@@ -213,13 +211,13 @@ Die folgende Abbildung zeigt den Weg der ausgehenden Zahlungen (die Nummern in d
   :::column-end:::
 :::row-end:::
 
-## <a name="to-set-up-vendor-bank-accounts-for-export-of-bank-files"></a>Um Ihre Bankkonten zum Importieren und Exportieren von Bankdateien einzurichten
+## Um Ihre Bankkonten zum Importieren und Exportieren von Bankdateien einzurichten
 
 Die Felder auf dem Inforegister **Überweisung** auf der Seite **Kreditoren Bankkontonummer** beziehen sich auf den Export von Bankfeeds und Dateien. Erfahren Sie mehr unter [Verwenden Sie die Erweiterung AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md) und [Zahlungen in eine Bankdatei exportieren](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).
 
 [!INCLUDE[purchase-vendor-bank-account](includes/purchase-vendor-bank-account.md)]
 
-## <a name="changing-your-bank-account"></a>Ändern Ihres Bankkontos
+## Ändern Ihres Bankkontos
 
 Um ein anderes Bankkonto für Ihr Unternehmen zu verwenden, müssen Sie das neue Bankkonto in [!INCLUDE[prod_short](includes/prod_short.md)] erstellen. Wir empfehlen, dass Sie nicht einfach die Informationen über das derzeit verwendete Konto ersetzen, da dies zu falschen Daten führen kann. Zum Beispiel könnte Ihr Eröffnungssaldo falsch sein oder Ihr Bankfeed nicht mehr richtig funktionieren. Es ist wichtig, dass Sie das aktuelle und das neue Konto getrennt halten.
 
@@ -230,7 +228,7 @@ Nachdem Sie das neue Bankkonto erstellt haben, sollten Sie auch eine neue Bankbu
 
 Um eine komprimiertere Ansicht Ihrer Geldkonten in der Finanzberichterstattung zu erhalten, verwenden Sie die **Beginn-Summe** und **Ende-Summe** Konten in Ihrem Kontenplan, die **Summen** Zeilen in Finanzberichten oder Sachkonto-Kategorien. Erfahren Sie mehr im Abschnitt [Business Intelligence und Financial Reporting](bi.md).
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Einrichten von Banken](bank-setup-banking.md)  
 [Einrichten von Buchungsgruppen](finance-posting-groups.md)  

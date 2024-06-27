@@ -1,7 +1,7 @@
 ---
 author: brentholtorf
 ms.topic: include
-ms.date: 09/22/2022
+ms.date: 06/12/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -9,10 +9,10 @@ ms.reviewer: bholtorf
 
 In der folgenden Tabelle werden einige der wichtigsten Finanzberichte beschrieben.
 
-| Bericht | Description | ID | 
+| Bericht | Description | ID |
 |--|--|--|
 | [Test Bilanz](https://businesscentral.dynamics.com?report=6) | Zeigt den Kontenplan mit Salden und Bewegungen. Sie können die Ansicht einer Rohbilanz für ausgewählte Dimensionen wählen. Der Bericht kann beim Abschluss einer Buchhaltungsperiode oder eines Geschäftsjahres verwendet werden. | 6 |
-| [Test-Bilanz nach Periode](https://businesscentral.dynamics.com?report=38) | Zeigt die Eröffnungsbilanz nach Sachkonto, die Bewegungen in der ausgewählten Monats-, Quartals- oder Jahresperiode und die resultierende Abschlussbilanz. <br>Tipp: Kann verwendet werden, um Gewinn und Verlust (G+V) mit einer Summe für jeden Monat anzuzeigen.| 38 |
+| [Test-Bilanz nach Periode](https://businesscentral.dynamics.com?report=38) | Zeigt die Eröffnungsbilanz nach Sachkonto, die Bewegungen in der ausgewählten Monats-, Quartals- oder Jahresperiode und die resultierende Abschlussbilanz. <br>Tipp: Der Bericht kann Gewinn und Verlust (G+V) mit einer Summe für jeden Monat anzeigen.| 38 |
 | [Test-Bilanz/Budget](https://businesscentral.dynamics.com?report=9) | Zeigt eine Rohbilanz im Vergleich zu einem Budget. Sie können sich eine Testbilanz für ausgewählte Dimensionen anzeigen lassen. Verwenden Sie den Bericht am Ende einer Buchhaltungsperiode oder eines Geschäftsjahres. | 9 |
 | [Detaillierte Test-Bilanz](https://businesscentral.dynamics.com?report=4) | Zeigt ein detailliertes Kontoblatt für ausgewählte Sachkonten an. Die im Bericht enthaltenen Konten können Sie durch Setzen von Filtern festlegen. Verwenden Sie den Bericht am Ende einer Buchhaltungsperiode oder eines Geschäftsjahres. | 4 |
 | [Test-Bilanz/Vorjahr](https://businesscentral.dynamics.com?report=7) | Zeigt eine Rohbilanz im Vergleich zu den Werten des Vorjahres. Sie können sich eine Testbilanz für ausgewählte Dimensionen anzeigen lassen. Verwenden Sie den Bericht am Ende einer Buchhaltungsperiode oder eines Geschäftsjahres. *Vorjahr* bedeutet die gleiche Periode ein Kalenderjahr früher. | 7 | 

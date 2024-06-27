@@ -5,37 +5,32 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 03/14/2024
+ms.date: 06/13/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ms.search.form: '456, 457, 458, 459, 460, 461, 16, 22, 25, 26, 27, 31, 143, 144, 9300, 9301, 9303, 9304, 9305, 9306, 9307, 9309, 9310, 9311'
 ---
 # Daten in Listen mithilfe von Copilot analysieren (Vorschauversion)
 
-[!INCLUDE[preview-banner](includes/preview-banner.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 In diesem Artikel wird beschrieben, wie Sie mit der *Analyseunterstützung* Daten auf Listenseiten analysieren können.
 
-[!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
 ## Über die Analyseunterstützung
 
 Die Analyseunterstützung ist ein Copilot für den [Analysemodus](analysis-mode.md) auf Listenseiten in Business Central. Der Analysemodus bietet eine interaktive und vielseitige Möglichkeit, Daten zu berechnen, zusammenzufassen und zu untersuchen. Um Daten im Analysemodus zu analysieren, erstellen Sie eine *Analyse*-Registerkarte, auf der Sie die Daten transformieren, sodass die gewünschten Aggregationen und Zusammenfassungen angezeigt werden. Sie ordnen beispielsweise Felder in Zeilen und Spalten an, legen Filter fest, sortieren Spalten und pivotieren Felder. Mit der Analyseunterstützung brauchen Sie diese Aufgabe nicht mehr manuell zu erledigen, sondern erreichen mit Worten fast dasselbe – oder können wenigstens einen entsprechenden Anfang machen. Indem Sie die gewünschte Struktur in natürlicher Sprache ausdrücken, etwa „nach Menge von klein nach groß sortieren“ oder „Durchschnittskosten pro Kategorie anzeigen“, generiert die Analyseunterstützung mithilfe künstlicher Intelligenz einen Layoutvorschlag auf einer Analyseregisterkarte.
 
+## Verfügbare Sprachen
 
-<!-- 
+[!INCLUDE[analysis-assist-language-support](includes/analysis-assist-language-support.md)]
 
- However, the data analysis mode requires some understanding of how to structure fields to meet the desired aggregations and summarizations. It requires you to move fields around to the appropriate areas within analysis mode pane which data rows and columns to display, specify filters, sorting, grouping, pivoting and totals. Analysis assist minimizes these requirments by enabling you to express the desired layout in words. , like "group which data rows and columns to display, specify filters, sorting, grouping, pivoting and totals
---> 
 ## Voraussetzungen
 
 - Die Analyseunterstützungsfunktion ist aktiviert und Sie haben die Berechtigung, sie zu verwenden. Diese Aufgabe wird normalerweise durch einen Administrierenden erledigt. [Erfahren Sie mehr über das Konfigurieren von Copilot- und KI-Funktionen](enable-ai.md).
-- Die Anzeigesprache in Business Central ist auf eines der folgenden englischen Gebietsschemas eingestellt: en-AU, en-CA, en-GB, en-IE, en-IN, en-NZ, en-PH, en-SG, en-US, en-ZA. [Erfahren Sie mehr über das Ändern der Sprache](ui-change-basic-settings.md#language).
-- Ihre Business Central-Umgebung befindet sich in einem beliebigen Land bzw. einer beliebigen Region außer Kanada (dieses Feature ist in Kanada noch nicht verfügbar).
-
-<!--
-> [!NOTE]
-> You may notice some list pages that don't include the **Analyze** switch for changing to the analysis mode. The reason is that developers can disable analysis mode on specific pages by using the [AnalysisModeEnabled property](/dynamics365/business-central/dev-itpro/developer/properties/devenv-analysismodeenabled-property) in AL.-->
+<!-- - The display language in Business Central is set to one the following English locales: en-AU, en-CA, en-GB, en-IE, en-IN, en-NZ, en-PH, en-SG, en-US, en-ZA. [Learn how to change the language](ui-change-basic-settings.md#language)-->
+<!-- - Your Business Central environment is in any country/region except Canada (this feature isn't yet available in Canada).-->
 
 ## Erste Schritte
 
@@ -48,7 +43,7 @@ Die Analyseunterstützung ist ein Copilot für den [Analysemodus](analysis-mode.
     - Wählen Sie in der Aktionsleiste oben auf der Seite ![Zeigt das Copilot-Symbol an](media/copilot-icon.png) **Copilot** > **Liste analysieren** aus.
     - Wählen Sie in der Aktionsleiste oben auf der Seite ![Zeigt das Symbol für den Wechsel in den Analysemodus an](media/analysis-mode-icon.png) **In den Analysemodus wechseln** und wählen Sie dann ![Zeigt das Copilot-Symbol](media/copilot-icon.png) **Copilot** > **Neue Analyse erstellen**.
 
-1. Geben Sie im Fenster zum **Analysieren** mit Copilot eine Beschreibung des gewünschten Layouts ein. Diese Beschreibung wird als *Prompt* bezeichnet.
+1. Geben Sie im Fenster zum **Artikel analysieren** mit Copilot eine Beschreibung des gewünschten Layouts ein. Diese Beschreibung wird als *Prompt* bezeichnet.
 
     ![Zeigt Copilot der Analyseunterstützung an](media/analysis-assist.png)
 
@@ -59,7 +54,7 @@ Die Analyseunterstützung ist ein Copilot für den [Analysemodus](analysis-mode.
 1. Überprüfen Sie die Ergebnisse auf der neuen Analyseregisterkarte.
 
    > [!NOTE]
-   > Wenn Sie von der neuen Analyseregisterkarte weg navigieren (z. B. zu einer anderen Analyseregisterkarte oder -seite gehen) oder Layoutänderungen auf der Registerkarte vornehmen (z. B. Spalten sortieren oder Einstellungen in den Registerkarten **Spalten** und **Analysefilter** ändern), wird die neue Analyseregisterkarte automatisch gespeichert und der Copilot wird geschlossen.
+   > Wenn Sie von der neuen Analyseregisterkarte weg navigieren (z. B. zu einer anderen Analyseregisterkarte oder -seite wechseln) oder Layoutänderungen auf der Registerkarte vornehmen (z. B. Spalten sortieren oder Einstellungen in den Registerkarten **Spalten** und **Analysefilter** ändern), wird die neue Analyseregisterkarte automatisch gespeichert und der Copilot wird geschlossen.
 
 1. Wenn Sie die generierte Analyse ändern möchten, können Sie einen der folgenden Schritte ausführen:
 
@@ -67,7 +62,7 @@ Die Analyseunterstützung ist ein Copilot für den [Analysemodus](analysis-mode.
 
    - Um von vorne zu beginnen und neue Anweisungen hinzuzufügen, wählen Sie ![Zeigt das Stiftsymbol für „Prompt bearbeiten“ an](media/edit-pencil.png) **Prompt bearbeiten**, fügen Sie dem Prompt die Details hinzu und wählen Sie dann **Generieren** aus.
 
-1. Wenn Sie die Analyseregisterkarte speichern möchten, wählen Sie **Behalten**. Wenn Sie sie nicht speichern möchten, wählen Sie **Verwerfen**.
+1. Wenn Sie die Analyseregisterkarte speichern möchten, wählen Sie **Behalten**. Wenn Sie sie nicht speichern möchten, wählen Sie **Verwerfen** aus.
 
 ## Tipps und Beispiele für Prompts
 
@@ -87,7 +82,7 @@ In den folgenden Beispielprompts wird die Analyseunterstützung für die Liste *
 
 Prompt: `Show items by brand and unit of measure`
 
-Dieser Prompt versucht, Summen für alle summierbaren Felder anzuzeigen, gruppiert nach Marke und dem Feld **Basiseinheit**. Aber in diesem Fall stimmt „Marke“ mit keinem Feldnamen überein, sodass der Copilot wahrscheinlich kein passendes Feld findet und Sie auffordert, den Prompt umzuformulieren und es erneut zu versuchen.
+Diese Eingabeaufforderung versucht, Summen für alle summierbaren Felder anzuzeigen, gruppiert nach Marke und dem Feld **Basiseinheit**. Aber in diesem Fall stimmt „Marke“ mit keinem Feldnamen überein, sodass der Copilot wahrscheinlich kein passendes Feld findet. Anschließend werden Sie aufgefordert, die Eingabeaufforderung umzuformulieren und es erneut zu versuchen.
 
 Prompt: `Show items by type and uom`
 

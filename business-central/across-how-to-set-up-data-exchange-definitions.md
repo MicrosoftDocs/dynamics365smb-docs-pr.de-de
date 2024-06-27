@@ -1,15 +1,17 @@
 ---
-title: 'Definieren Sie, wie die Daten elektronisch ausgetauscht werden'
+title: Elektronischen Datenaustausch definieren
 description: 'Definieren Sie, wie Business Central Daten mit externen Dateien wie elektronischen Belegen, Bankdaten, Artikelkatalogen und mehr austauscht.'
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: null
 ms.search.form: '1210, 1211, 1213, 1214, 1215, 1216, 1217'
-ms.date: 11/03/2022
-ms.author: bholtorf
+ms.date: 05/29/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# <a name="set-up-data-exchange-definitions"></a>Richten Sie Datenaustauschdefinitionen ein.
+# Datenaustauschdefinitionen einrichten
 
 Sie können [!INCLUDE[prod_short](includes/prod_short.md)] festlegen, um Daten in bestimmten Tabellen mit Daten in externen Dateien auszutauschen. Zum Beispiel, um elektronische Belege zu senden und zu empfangen, Bankdaten oder andere Daten wie Gehaltsabrechnungen und Artikelkataloge zu importieren und zu exportieren. Erfahren Sie mehr unter [Elektronischer Datenaustausch](across-data-exchange.md).  
 
@@ -26,14 +28,14 @@ Dieser Artikel enthält die folgenden Verfahren:
 * Exportieren Sie eine Datenaustauschdefinition als XML-Datei zur Verwendung durch andere.
 * Importieren Sie eine XML-Datei für eine bestehende Datenaustauschdefinition.
 
-## <a name="create-a-data-exchange-definition"></a>Erstellen Sie eine Datenaustauschdefinition
+## Erstellen Sie eine Datenaustauschdefinition
 
 Das Erstellen einer Datenaustauschdefinition beinhaltet zwei Aufgaben:  
 
 1. Auf der Seite **Datenaustauschdefinition** beschreiben Sie die Formatierung aus Zeilen und Spalten in der Datei. Erfahren Sie mehr im Abschnitt [Sie beschreiben die Formatierung von Zeilen und Spalten in der Datei](#formatlinescolumns).  
 2. Auf der Seite **Wechselkurszuordnungs** ordnen Sie Spalten in der Datendatei Feldern in [!INCLUDE[prod_short](includes/prod_short.md)] zu. Erfahren Sie mehr im Abschnitt [So ordnen Sie Spalten in der Datendatei den Feldern im Abschnitt [!INCLUDE[prod_short](includes/prod_short.md)]](#mapfields) zu.  
 
-### <a name="to-describe-the-formatting-of-lines-and-columns-in-the-file"></a><a name=formatlinescolumns></a>Um die Formatierung von Zeilen und Spalten in der Datei zu beschreiben
+### <a name=formatlinescolumns></a>Um die Formatierung von Zeilen und Spalten in der Datei zu beschreiben
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion 1.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") öffnet. Symbol, geben Sie **Datenaustauschdefinitionen** ein und wählen Sie dann den entsprechenden Link.  
 2. Wählen Sie die Aktion **Neu**.  
@@ -79,7 +81,7 @@ Das Erstellen einer Datenaustauschdefinition beinhaltet zwei Aufgaben:
 
 5. Wiederholen Sie Schritt 4, um eine Zeile für jede Dateidatenart zu erstellen, die Sie exportieren möchten.  
 
-     Beschreiben Sie dann das Formatieren der Spalten in der Datendatei, indem Sie die Felder im Inforegister **Spaltendefinitionen** wie in der unten stehenden Tabelle beschrieben ausfüllen. Sie können die Strukturdatei, z.B. eine .xsd-Datei, für die Datendatei verwenden, um das Inforegister mit den entsprechenden Elementen vorauszufüllen. Mehr dazu erfahren Sie unter [Verwenden Sie XML-Schemata zur Vorbereitung von Datenaustauschdefinitionen](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).
+     Beschreiben Sie dann das Formatieren der Spalten in der Datendatei, indem Sie die Felder im Inforegister **Spaltendefinitionen** ausfüllen, wie in Schritt 8 beschrieben. Sie können eine Strukturdatei, z. B. eine .xsd-Datei, für die Datendatei verwenden, um das Inforegister mit den entsprechenden Elementen vorauszufüllen. Mehr dazu erfahren Sie unter [Verwenden Sie XML-Schemata zur Vorbereitung von Datenaustauschdefinitionen](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).
 
 6. Wählen Sie auf dem Inforegister **Spaltendefinitionen** die Aktion **Dateistruktur abrufen**.  
 7. Wählen Sie auf der Seite **Dateistruktur abrufen** die entsprechende Strukturdatei und wählen Sie dann **OK**. Die Zeilen im Inforegister **Spaltendefinitionen** werden entsprechend der Struktur der Datendatei ausgefüllt.  
@@ -108,7 +110,7 @@ Der nächste Schritt bei der Erstellung einer Datenaustauschdefinition besteht d
 > [!NOTE]  
 > Die spezielle Zuordnung hängt vom Geschäftszweck der Datendatei ab, die ausgetauscht werden soll, sowie von lokalen Variationen. Selbst der SEPA-Bankstandard verfügt über lokale Variationen. [!INCLUDE[prod_short](includes/prod_short.md)] Stützimport von SEPA Bankkontoauszug CAMT archiviert Out\-of\-the\-Box. Dies wird durch den **SEPA CAMT**-Datenaustausch-Definitionsdatensatzcode auf der Seite **Datenaustauschdefintion** angezeigt. Informationen über die bestimmte Feldzuordnung dieser SEPA CAMT Unterstützung, siehe. [Feld-Zuordnung, wenn sie SEPA CAMT Dateien importieren](across-field-mapping-when-importing-sepa-camt-files.md).  
 
-### <a name="to-map-columns-in-the-data-file-to-fields-in-"></a><a name=mapfields></a>Zur Zuordnung von Spalten in der Datendatei zu Feldern in [!INCLUDE[prod_short](includes/prod_short.md)]
+### <a name=mapfields></a>Zur Zuordnung von Spalten in der Datendatei zu Feldern in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 > [!TIP]
 > Manchmal sind die Werte in den Feldern, die Sie zuordnen möchten, unterschiedlich. In einer App für Unternehmen lautet der Sprachcode für die Vereinigten Staaten zum Beispiel „U.S.“, in einer anderen jedoch „US.“ Das heißt, Sie müssen den Wert beim Datenaustausch umwandeln. Dies geschieht durch Transformationsregeln, die Sie für die Felder definieren. Erfahren Sie mehr unter [Transformationsregeln](across-how-to-set-up-data-exchange-definitions.md#transformation-rules).
@@ -121,12 +123,12 @@ Sie können auch nach einem beliebigen Feld gruppieren, den Schlüsselindex zum 
     |Feld|Beschreibung|  
     |---------------------------------|---------------------------------------|  
     |**Tabellen-ID**|Geben Sie die Tabelle an, die die Felder enthält, zu oder aus denen Daten entsprechend der Zuordnung ausgetauscht werden.|  
-    |**Als Zwischentabelle verwenden**|Gibt an, dass die im Feld **Tabellen-ID** ausgewählte Tabelle eine Zwischentabelle ist, in der die importierten Daten vor der Zuordnung zur Zieltabelle gespeichert werden.<br /><br /> In der Regel verwenden Sie eine vorläufige Tabelle, wenn die Datenaustauschdefinition verwendet wird, um elektronische Belege zu importieren und umwandeln, wie Kreditorenrechnungen in Einkaufsrechnungen in [!INCLUDE[prod_short](includes/prod_short.md)]. Erfahren Sie mehr unter [Elektronischer Datenaustausch](across-data-exchange.md).|  
+    |**Als Zwischentabelle verwenden**|Gibt an, dass die im Feld **Tabellen-ID** ausgewählte Tabelle eine Zwischentabelle ist, in der die importierten Daten vor der Zuordnung zur Zieltabelle gespeichert werden.<br/><br/> In der Regel verwenden Sie eine vorläufige Tabelle, wenn die Datenaustauschdefinition elektronische Belege in [!INCLUDE[prod_short](includes/prod_short.md)] importiert und umwandelt. Beispielsweise lassen sich Belege wie Lieferantenrechnungen in Einkaufsrechnungen umwandeln. Erfahren Sie mehr unter [Elektronischer Datenaustausch](across-data-exchange.md).|  
     |**Name**|Geben Sie einen Namen für den Zuordnungssetup ein.|  
     |**Schlüsselindex**|Geben Sie den Schlüsselindex an, um die Quelldatensätze vor dem Exportieren zu sortieren.|
     |**Vorabzuordnungs-Codeunit**|Geben Sie die Codeunit an, die die Zuordnung zwischen Feldern in [!INCLUDE[prod_short](includes/prod_short.md)] und externen Daten vorbereitet.|  
     |**Zuordnungs-Codeunit**|Geben Sie die Codeunit an, die verwendet wird, um die angegebenen Spalten oder XML-Datenelemente den Feldern in [!INCLUDE[prod_short](includes/prod_short.md)] zuzuordnen.|  
-    |**Codeunit für die Zuordnung im Nachhinein**|Geben Sie die Codeunit an, die die Zuordnung zwischen Feldern in [!INCLUDE[prod_short](includes/prod_short.md)] und externen Daten vervollständigt. **Hinweis**: Bei Verwendung der Funktion der AMC Banking 365 Fundamentals-Erweiterung wandelt codeunit exportierte Daten aus [!INCLUDE[prod_short](includes/prod_short.md)] in ein für den Export bereitstehendes generisches Format um. Für den Import konvertiert die Codeunit externe Daten zu einem für den Import zu [!INCLUDE[prod_short](includes/prod_short.md)] geeigneten Format.|
+    |**Codeunit für die Zuordnung im Nachhinein**|Geben Sie die Codeunit an, die die Zuordnung zwischen Feldern in [!INCLUDE[prod_short](includes/prod_short.md)] und externen Daten vervollständigt. **Hinweis**: Wenn Sie die Funktion der AMC Banking 365 Fundamentals-Erweiterung verwenden, wandelt codeunit exportierte Daten aus [!INCLUDE[prod_short](includes/prod_short.md)] in ein für den Export bereitstehendes generisches Format um. Für den Import konvertiert die Codeunit externe Daten zu einem für den Import zu [!INCLUDE[prod_short](includes/prod_short.md)] geeigneten Format.|
 3. Geben Sie auf der Registerkarte **Feldzuordnung** an, welche Spalten welchen Feldern in [!INCLUDE[prod_short](includes/prod_short.md)] zugeordnet werden sollen, indem Sie die Felder wie in den folgenden Tabellen beschrieben ausfüllen, je nachdem, ob das Feld **Als Zwischentabelle verwenden** aktiviert wurde oder nicht.  
    * Wenn das Feld **Als Zwischentabelle verwenden** deaktiviert ist:
 
@@ -137,8 +139,8 @@ Sie können auch nach einem beliebigen Feld gruppieren, den Schlüsselindex zum 
      |**Feld-ID**|Geben Sie an, welchem Feld die Spalte im Feld **Spaltennr.** zugeordnet ist. Feldkarten zu.<br /><br /> Sie können nur aus Feldern auswählen, die in der Tabelle existieren, die Sie im Feld **Tabellen-ID** auf der Registerkarte **Allgemein** angegeben haben.|
      |**Feldbeschriftung**|Geben Sie die Beschriftung des Feldes in der externen Datei an, das dem Feld im Feld **Zieltabellen-ID** zugeordnet ist, wenn Sie eine Zwischentabelle für den Datenimport verwenden.|
      |**Optional**|Geben Sie an, ob die Zuordnung übersprungen werden soll, wenn das Feld leer ist. Wenn Sie diese Option nicht wählen, wird ein Exportfehler auftreten, wenn das Feld leer ist.|  
-     |**Transformations-Regel**|Geben Sie die Regel an, die importierten Text in einen unterstützten Wert umwandelt, bevor er einem bestimmten Feld zugeordnet werden kann. Wenn Sie in diesem Feld einen Wert auswählen, wird derselbe Wert in das Feld **Transformationsregel** im Feld **Datenexch. Feld Zuordnung Buf.** Tabelle und umgekehrt. Im nächsten Abschnitt finden Sie weitere Informationen zu den verfügbaren Transformationsregeln, die angewendet werden können.|
-     |**Wert überschreiben**|Geben Sie an, dass der aktuelle Wert durch einen neuen Wert überschrieben werden soll.|
+     |**Transformationsregel**|Geben Sie die Regel an, die importierten Text in einen unterstützten Wert umwandelt, bevor er einem bestimmten Feld zugeordnet werden kann. Wenn Sie in diesem Feld einen Wert auswählen, wird derselbe Wert in das Feld **Transformationsregel** im Feld **Datenexch. Feld Zuordnung Buf.** Tabelle und umgekehrt. Weitere Informationen zum Anwenden von Transformationsregeln finden Sie unter [Transformationsregeln](#transformation-rules).|
+     |**Wert überschreiben**|Geben Sie an, dass der aktuelle Wert durch den neuen Wert überschrieben werden kann.|
      |**Priorität**|Geben Sie die Reihenfolge an, in der die Zuordnungen der Felder verarbeitet werden müssen. Die Zuordnung des Feldes mit der höchsten Prioritätsnummer wird zuerst verarbeitet.|
      |**Multiplikator**|Geben Sie einen Multiplikator an, der auf numerische Daten, einschließlich negativer Werte, angewendet wird.|
 
@@ -149,21 +151,21 @@ Sie können auch nach einem beliebigen Feld gruppieren, den Schlüsselindex zum 
      |**Spaltennr.**|Geben Sie an, für welche Spalte in der Datendatei Sie eine Zuordnung definieren möchten.<br /><br /> Sie können nur Spalten auswählen, die auf dem Inforegister **Spaltendefinitionen** auf der Seite **Datenaustauschdefinitionen** durch Zeilen dargestellt werden.|
      |**Spaltenbeschriftung**|Geben Sie die Beschriftung der Spalte in der externen Datei an, die dem Feld im Feld **Zieltabellen-ID** zugeordnet wird, wenn Sie eine Zwischentabelle für den Datenimport verwenden.|
      |**Zieltabellen-ID**|Gibt die Tabelle an, der der Wert im Feld **Spaltenbezeichnung** zugeordnet wird, wenn eine Zwischentabelle für den Datenimport verwendet wird.|
-     |**Tabellenüberschrift**|Gibt den Namen der Tabelle im Feld **Zieltabellen-ID** an, die die Tabelle ist, der der Wert im Feld **Spaltenbezeichnung** zugeordnet wird, wenn eine Zwischentabelle für den Datenimport verwendet wird.|
+     |**Tabellenbeschriftung**|Gibt den Namen der Tabelle im Feld **Zieltabellen-ID** an, die die Tabelle ist, der der Wert im Feld **Spaltenbezeichnung** zugeordnet wird, wenn eine Zwischentabelle für den Datenimport verwendet wird.|
      |**Zielfeld-ID**|Gibt das Feld in der Zieltabelle an, der der Wert im Feld **Spaltenbezeichnung** zugeordnet wird, wenn eine Zwischentabelle für den Datenimport verwendet wird.|
      |**Feldbeschriftung**|Gibt den Namen des Felds in der Zieltabelle an, der der Wert im Feld **Spaltenbezeichnung** zugeordnet wird, wenn eine Zwischentabelle für den Datenimport verwendet wird.|
-     |**Nur validieren**|Legen Sie fest, dass die Zuordnung von Elementen zu Feldern nicht zur Konvertierung von Daten, sondern nur zur Validierung von Daten verwendet wird.|
-     |**Transformations-Regel**|Geben Sie die Regel an, die importierten Text in einen unterstützten Wert umwandelt, bevor er einem bestimmten Feld zugeordnet werden kann. Wenn Sie in diesem Feld einen Wert auswählen, wird derselbe Wert in das Feld **Transformationsregel** im Feld **Datenexch. Feld Zuordnung Buf.** Tabelle und umgekehrt. Im nächsten Abschnitt finden Sie weitere Informationen zu den verfügbaren Transformationsregeln, die angewendet werden können.|
+     |**Nur überprüfen**|Legen Sie fest, dass die Zuordnung von Elementen zu Feldern nicht zur Konvertierung von Daten, sondern nur zur Validierung von Daten verwendet wird.|
+     |**Transformationsregel**|Geben Sie die Regel an, die importierten Text in einen unterstützten Wert umwandelt, bevor er einem bestimmten Feld zugeordnet werden kann. Wenn Sie in diesem Feld einen Wert auswählen, wird derselbe Wert in das Feld **Transformationsregel** im Feld **Datenexch. Feld Zuordnung Buf.** Tabelle und umgekehrt. Weitere Informationen zum Anwenden von Transformationsregeln finden Sie unter [Transformationsregeln](#transformation-rules).|
      |**Priorität**|Geben Sie die Reihenfolge an, in der die Zuordnungen der Felder verarbeitet werden müssen. Die Zuordnung des Feldes mit der höchsten Prioritätsnummer wird zuerst verarbeitet.|
 
 4. Geben Sie im Inforegister **Feldgruppierung** Regeln an, die Sie zum Gruppieren Ihrer Felder verwenden möchten, wenn Sie die Datei erstellen, indem Sie die Felder wie in der folgenden Tabelle beschrieben ausfüllen.  
 
      |Feld|Description|  
      |--------------------------------- |---------------------------------------|  
-     |**Feld-ID**|Geben Sie die Nummer des Felds in der externen Datei an, das für die Gruppierung verwendet wird und dieses Feld muss nach Benutzer festgelegt werden.|
+     |**Feld-ID**|Geben Sie die Nummer des Felds in der externen Datei an, das für die Gruppierung verwendet wird, und dass der Benutzer dieses Feld festlegen muss.|
      |**Feldbeschriftung**|Geben Sie die Beschriftung des Felds in der externen Datei an, das für die Gruppierung verwendet wird.|
 
-## <a name="transformation-rules"></a>Transformationsregeln
+## Transformationsregeln
 
 Wenn die Werte in den Feldern, die Sie zuordnen, unterschiedlich sind, müssen Sie Transformationsregeln für Datenaustauschdefinitionen verwenden, um sie anzugleichen. Sie definieren Transformationsregeln für Datenaustauschdefinitionen, indem Sie eine vorhandene Definition öffnen oder eine neue Definition erstellen, dann auf dem Inforegister **Zeilendefinitionen** die Option **Verwalten**, und dann **Feldzuordnung** wählen. Vordefinierte Regeln werden bereitgestellt, aber Sie können auch eigene Regeln erstellen. In der folgenden Tabelle werden die Transformationstypen beschrieben, die Sie ausführen können.
 
@@ -176,19 +178,19 @@ Wenn die Werte in den Feldern, die Sie zuordnen, unterschiedlich sind, müssen S
 |**Unterzeichenfolge**|Transformation eines bestimmten Teilwerts. Um anzugeben, wo die Umwandlung gestartet werden soll, wählen Sie entweder eine **Startposition** oder einen **Starttext**. Die Startposition ist eine Zahl, die das erste umzuwandelnde Zeichen darstellt. Der Anfangstext ist der Buchstabe unmittelbar vor dem zu ersetzenden Buchstaben. Wenn Sie mit dem ersten Buchstaben des Werts beginnen möchten, verwenden Sie stattdessen eine Startposition. Um festzulegen, wo die Umwandlung gestoppt werden soll, wählen Sie entweder **Länge**, d.h. die Anzahl der zu ersetzenden Zeichen, oder **Endtext**, d.h. das Zeichen, das unmittelbar nach dem letzten umzuwandelnden Zeichen steht.|
 |**Ersetzen**|Suchen Sie einen Wert und ersetzen Sie ihn durch einen anderen. Diese Umwandlung ist nützlich, um einfache Werte zu ersetzen, z.B. ein bestimmtes Wort.|
 |**Regulärer Ausdruck – Ersetzen**|Verwenden Sie einen regulären Ausdruck als Teil einer Such- und Ersetzungsoperation. Diese Umwandlung ist nützlich, um mehrere oder komplexere Werte zu ersetzen.|
-|**Entfernen von nicht alphanumerischen Zeichen**|Löschen Sie Zeichen, die keine Buchstaben oder Zahlen sind, z. B. Symbole oder Sonderzeichen.|
+|**Nicht alphanumerische Zeichen entfernen**|Löschen Sie Zeichen, die keine Buchstaben oder Zahlen sind, z. B. Symbole oder Sonderzeichen.|
 |**Datumsformatierung**|Geben Sie an, wie Datumsangaben angezeigt werden sollen. Beispielsweise können Sie TT-MM-JJJJ in JJJJ-MM-TT umwandeln.|
 |**Dezimalformatierung**|Definieren Sie Regeln für die Dezimalstelle und die Rundungsgenauigkeit.|
 |**Regulärer Ausdruck - Übereinstimmen**|Verwenden Sie einen regulären Ausdruck, um einen oder mehrere Werte zu finden. Diese Regel ist vergleichbar mit den Optionen **Substring** und **Regelmäßiger Ausdruck - Ersetzen**.|
-|**Benutzerdefiniert**|Diese Transformationsregel ist eine erweiterte Option, die die Unterstützung eines Entwicklers erfordert. Sie aktiviert ein Integrationsereignis, das Sie abonnieren können, wenn Sie Ihren eigenen Transformationscode verwenden möchten. Wenn Sie ein Entwickler sind und diese Option verwenden möchten, lesen Sie den folgenden Abschnitt.|
-|**Datum/Uhrzeit-Formatierung**|Legen Sie fest, wie das aktuelle Datum und die Tageszeit angezeigt werden sollen.|
+|**Benutzerdefiniert**|Diese Transformationsregel ist eine erweiterte Option, die die Unterstützung eines Entwicklers erfordert. Sie aktiviert ein Integrationsereignis, das Sie abonnieren können, wenn Sie Ihren eigenen Transformationscode verwenden möchten. Wenn Sie Entwickler sind und diese Option verwenden möchten, wechseln Sie zu [Tipp für Entwickler: Beispiel für die benutzerdefinierte Option](#tip-for-developers-example-of-the-custom-option).|
+|**Datums- und Uhrzeitformatierung**|Legen Sie fest, wie das aktuelle Datum und die Tageszeit angezeigt werden sollen.|
 |**Feldsuche**|Verwenden Sie Felder aus verschiedenen Tabellen. Um sie verwenden zu können, müssen Sie einige Regeln befolgen. Verwenden Sie zunächst **Tabellen-ID**, um die ID der Tabelle anzugeben, die den Datensatz für die Feldsuche enthält. Geben Sie dann im Feld **Quellfeld-ID** die ID des Felds an, das den Datensatz für die Feldsuche enthält. Geben Sie schließlich im Feld **Zielfeld-ID** die ID des Felds an, um den Datensatz für die Feldsuche zu finden. Verwenden Sie optional das Feld **Feldsuchregel**, um den Typ der Feldsuche anzugeben. Für das **Ziel**-Feld wird der Wert aus der **Zielfeld-ID** verwendet, auch wenn sie leer ist. Für das Feld **Ursprung, wenn Ziel leer ist** wird der ursprüngliche Wert verwendet, wenn das Ziel leer ist.|
 |**Runden**|Runden Sie den Wert in diesem Feld nach einigen zusätzlichen Regeln. Geben Sie zunächst im Feld **Präzision** eine Rundungsgenauigkeit an. Dann im Feld **Richtung** geben Sie die Rundungsrichtung an.|
 
 > [!NOTE]  
 > Erfahren Sie mehr über die Formatierung von Datum und Uhrzeit unter [Standard-Strings für die Formatierung von Datum und Uhrzeit](/dotnet/standard/base-types/standard-date-and-time-format-strings).
 
-### <a name="tip-for-developers-example-of-the-custom-option"></a>Tipp für Entwickler: Beispiel für die angepasste Option
+### Tipp für Entwickler: Beispiel für die angepasste Option
 
 Das folgende Beispiel zeigt, wie Sie Ihren eigenen Transformationscode implementieren.
 
@@ -206,9 +208,9 @@ codeunit 60100 "Hello World"
 
 Nachdem Sie Ihre Regeln definiert haben, können Sie sie testen. Geben Sie im Inforegister **Test** ein Beispiel für einen Wert ein, den Sie umwandeln möchten, und überprüfen Sie dann die Ergebnisse, indem Sie **Aktualisieren** wählen.
 
-## <a name="export-a-data-exchange-definition-as-an-xml-file-for-use-by-others"></a>Exportieren einer Datenaustauschdefinition als XML-Datei zur Verwendung durch andere
+## Exportieren einer Datenaustauschdefinition als XML-Datei zur Verwendung durch andere
 
-Wenn Sie die Datenaustauschdefinition für eine bestimmte Datendatei erstellt haben, können Sie die Datenaustauschdefinition als XML-Datei exportieren, die Sie importieren können. Diese Aufgabe wird in der folgenden Prozedur beschrieben.  
+Nachdem Sie die Datenaustauschdefinition für eine bestimmte Datendatei erstellt haben, können Sie die Datenaustauschdefinition als XML-Datei exportieren, die Sie importieren können. Diese Aufgabe wird in der folgenden Prozedur beschrieben.  
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet 1.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol, geben Sie **Datenaustauschdefinitionen** ein und wählen Sie dann den entsprechenden Link.  
 2. Wählen Sie die Datenaustauschdefinition aus, die Sie exportieren möchten.  
@@ -217,14 +219,14 @@ Wenn Sie die Datenaustauschdefinition für eine bestimmte Datendatei erstellt ha
 
     Wenn eine Datenaustauschdefinition bereits erstellt wurde, müssen Sie nur die XML-Datei in das Daten-Exchange-Framework importieren. Diese Aufgabe wird in der folgenden Prozedur beschrieben.  
 
-## <a name="import-an-existing-data-exchange-definition"></a>Importieren einer bestehenden Datenaustauschdefinition
+## Importieren einer bestehenden Datenaustauschdefinition
 
 1. Speichern Sie die XML-Datei, die die Datenaustauschdefinition darstellt, an einem entsprechenden Ort.  
 2. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet 1.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol, geben Sie **Datenaustauschdefinitionen** ein und wählen Sie dann den entsprechenden Link.  
 3. Wählen Sie die **Datenaustauschdefinition importieren** Aktion aus.  
 4. Wählen Sie die Datei aus, die Sie in Schritt 1 gespeichert haben.  
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Datenaustausch einrichten](across-set-up-data-exchange.md)  
 [Einrichten von Senden und Empfangen von elektronischen Belegen](across-how-to-set-up-electronic-document-sending-and-receiving.md)  

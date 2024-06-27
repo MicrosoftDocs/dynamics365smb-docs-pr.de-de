@@ -8,8 +8,9 @@ ms.search.keywords: null
 ms.date: 01/31/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="walkthrough-conducting-a-sales-campaign"></a>Exemplarische Vorgehensweise: Durchführen einer Verkaufskampagne
+# Exemplarische Vorgehensweise: Durchführen einer Verkaufskampagne
 
 Eine Kampagne ist eine Aktivität, die mehrere Kontakte umfasst. Ein wichtiger Schritt beim Einrichten einer Kampagne ist die Auswahl der Zielgruppe. Zu diesem Zweck erstellen Sie in [!INCLUDE[prod_short](includes/prod_short.md)] mithilfe von Filtern ein Segment bzw. eine Gruppe von Kontakten.  
 
@@ -17,7 +18,7 @@ Eine Kampagne ist eine Aktivität, die mehrere Kontakte umfasst. Ein wichtiger S
 
  Die Kampagnen- und Segmentfunktionen enthalten automatisierte Prozesse zum Planen, Organisieren und Verfolgen der Marketingaktivitäten. Mit diesen Funktionen verbessern Sie Ihre Chancen, neue Debitoren zu gewinnen und bestehende Debitoren zu halten.  
 
-## <a name="about-this-walkthrough"></a>Informationen zu dieser exemplarischen Vorgehensweise
+## Informationen zu dieser exemplarischen Vorgehensweise
 
  In dieser exemplarischen Vorgehensweise wird die Nachbereitung einer Messe und die Ausrichtung einer Folgekampagne auf Interessenten (Kontakte) erläutert.  
 
@@ -30,18 +31,18 @@ Eine Kampagne ist eine Aktivität, die mehrere Kontakte umfasst. Ein wichtiger S
 - Senden von Briefen an Kontakte  
 - Erfassen von Kampagnenreaktionen  
 
-## <a name="roles"></a>Rollen
+## Rollen
 
  Die Aufgaben in dieser Demonstration werden von den folgenden Benutzerrollen ausgeführt:  
 
 - Marketingmanager oder Vertriebsmanager  
 - Marketingmitarbeiter  
 
-## <a name="prerequisites"></a>Voraussetzungen
+## Voraussetzungen
 
  Bevor Sie die Aufgaben in dieser Demonstration ausführen, müssen Sie [!INCLUDE[prod_short](includes/prod_short.md)] installieren.  
 
-## <a name="story"></a>Hintergrund
+## Hintergrund
 
  Der Marketingmanager in der Verkaufsabteilung der CRONUS ist für die Planung und Durchführung von Kampagnen verantwortlich. Der Marketingmanager entscheidet auch, an welchen Messen das Unternehmen teilnimmt, und bewertet den Fortschritt von Kampagnen.  
 
@@ -55,11 +56,11 @@ Eine Kampagne ist eine Aktivität, die mehrere Kontakte umfasst. Ein wichtiger S
 
  Der Marketingmitarbeiter sendet Dankschreiben an alle Kontakte, die ihre Geschäftskarten am Stand hinterlassen haben, und zum Schluss erfasst der Marketingmanager alle Reaktionen, die sie von Interessenten erhalten.  
 
-## <a name="setting-up-a-campaign"></a>Einrichten einer Kampagne
+## Einrichten einer Kampagne
 
  Sobald der Marketingmitarbeiter die Geschäftskarten von der Messe erfasst hat, richtet der Marketingmanager eine Kampagnenkarte zum Verwalten der Kampagnenaktivitäten ein.  
 
-### <a name="to-set-up-a-campaign"></a>So richten Sie eine Kampagne ein
+### So richten Sie eine Kampagne ein  
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Kampagnen** ein, und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die **Neu** Aktion aus, um eine neue Kampagne zu erstellen. Klicken Sie auf die Kampagnenkarte, wählen Sie die <kbd>Eingabetaste</kbd>, um eine Kampagnennummer automatisch einfügen zu lassen.  
@@ -67,13 +68,13 @@ Eine Kampagne ist eine Aktivität, die mehrere Kontakte umfasst. Ein wichtiger S
 4. Wählen Sie das Feld **Statuscode** und den Statuscode „1-PLAN“ aus. 
 5. Füllen Sie die Felder **Startdatum** und **Enddatum** der Kampagne aus.  
 
-## <a name="selecting-the-target-audience"></a>Auswählen der Zielgruppe
+## Auswählen der Zielgruppe
 
  Der Marketingmanager erstellt ein Segment, um die Kontakte auszuwählen, mit denen er interagieren möchte.  
  
  Wenn Sie ein Segment erstellen, können Sie verschiedene Kriterien verwenden, um die Kontakte auszuwählen, die Ziele für das Segment sein müssen. Sie können beispielsweise Kontakte auswählen, die an einem (potenziellen) Kundenstandort arbeiten und für den Einkauf in ihrem Unternehmen verantwortlich sind. Sie verwenden Filter, um Kontakte nach den Kriterien hinzuzufügen, die für Ihre Zwecke am besten geeignet sind. Mithilfe von Filtern können Sie Kontakte z. B. nach der Verantwortlichkeit der Kontaktperson oder der Geschäftsbeziehung oder Branche des Unternehmens hinzufügen. In dieser Demonstration verwenden Sie den Filter **Verantwortlichkeit** zum Auswählen von Kontakten.
 
-### <a name="to-create-a-segment-with-the-relevant-contacts"></a>So erstellen Sie ein Segment mit den relevanten Kontakten
+### So erstellen Sie ein Segment mit den relevanten Kontakten  
 
 1. Wählen Sie die Aktion **Navigieren** und dann **Segmente** aus.  
 2. Wählen Sie die **Neu** Aktion aus, um ein neues Segment zu erstellen. Klicken Sie auf die Segmentkarte, und wählen Sie **Eingabe** aus, um eine Segmentnummer automatisch einfügen zu lassen.  
@@ -86,18 +87,18 @@ Die Seite **Segment** enthält jetzt eine auf dem eingegebenen Filter beruhende 
 > [!NOTE]  
 > Sie können die Segmentierungskriterien zur Wiederverwendung speichern.
 
-### <a name="to-save-your-segmentation-criteria"></a>So speichern Sie Ihre Segmentierungskriterien
+### So speichern Sie Ihre Segmentierungskriterien
 
 1. Wählen Sie auf der Seite **Segment** die Option **Aktionen** aus.
 2. Wählen Sie **Funktionen**, dann **Segment** und anschließend die Aktion **Kriterien speichern** aus.  
 3. Geben Sie auf der Seite **Segmentkriterien speichern** einen Code für das Segment ein. Geben Sie im Feld **Beschreibung** eines der Segmentkriterien ein.
 4. Wählen Sie die Schaltfläche **OK** aus.  
 
-## <a name="mining-the-data"></a>Data Mining
+## Data Mining
 
  Der Marketingmanager untersucht die segmentierte Kontaktliste genauer und stellt fest, dass die Liste viel zu groß ist. Der Manager entscheidet, die Liste basierend auf tatsächlichen Interessenten einzuschränken, um sicherzustellen, dass er sich auf die richtige Zielgruppe konzentriert. Dieser Prozess der Neudefinition und Reduktion der Daten wird als Data Mining bezeichnet.  
 
-### <a name="to-remove-contacts-from-the-segment"></a>So entfernen Sie Kontakte aus dem Segment
+### So entfernen Sie Kontakte aus dem Segment  
 
 1. Wählen Sie auf der Seite **Segment** die Option **Aktionen** aus.
 2. Wählen Sie in der Menüleiste unten **Funktionen**, **Kontakte** und dann **Kontakte reduzieren** aus.  
@@ -110,28 +111,28 @@ Die Seite **Segment** enthält jetzt eine auf dem eingegebenen Filter beruhende 
  > [!NOTE]  
  > Wenn Sie das Entfernen einer Gruppe von Kontakten rückgängig machen müssen, können Sie dazu die Funktion **Ein Kriterium zurück** verwenden. Anders gesagt, Sie können die letzte Segmentierung rückgängig machen.  
 
-### <a name="to-bring-back-the-removed-contacts"></a>So stellen Sie die entfernten Kontakte wieder her
+### So stellen Sie die entfernten Kontakte wieder her
 
 1. Wählen Sie auf der Seite **Segment** die Aktion **Protokoll** aus.
 2. Wählen Sie die Aktion **Zurück** aus.
 
 Die Kontakte, die Sie entfernt haben, werden wieder in die Liste der Kontakte eingefügt.
 
-## <a name="linking-a-segment-to-a-campaign"></a>Verknüpfen eines Segments mit einer Kampagne
+## Verknüpfen eines Segments mit einer Kampagne
 
 Der Marketingmanager entscheidet, dass die reduzierte Liste als endgültige Kontaktliste für die Kampagne verwendet werden soll. Daher verknüpft er dieses Segment mit der Kampagne „FUTURUS-Messe“.  
 
-### <a name="to-link-a-segment-to-the-campaign"></a>So verknüpfen Sie ein Segment mit der Kampagne
+### So verknüpfen Sie ein Segment mit der Kampagne  
 
 1. Auf der Seite **Segment** im Inforegister **Kampagne**, **Kampagnennr.** Feld, um die Kampagne auszuwählen, zu der Sie das Segment zuordnen möchten **KP0001**.
 2. Klicken Sie auf **Ja**.  
 3. Da dieses Segment die Zielgruppe der Kampagne darstellt, aktivieren Sie das Kontrollkästchen **Kampagnenziel**, und wählen Sie **Ja** aus.  
 
-## <a name="sending-letters-and-email-messages-to-contacts"></a>Senden von Briefen und E-Mail-Nachrichten an Kontakte
+## Senden von Briefen und E-Mail-Nachrichten an Kontakte
 
  Der Marketingmitarbeiter hilft dem Marketingmanager, Korrespondenz an Interessenten zu senden, in dem er ihnen für den Besuch auf der Messe dankt.
 
-### <a name="to-use-a-segment-to-send-a-letter-to-a-contact"></a>So verwenden Sie ein Segment, um einen Brief an einen Kontakt zu senden
+### So verwenden Sie ein Segment, um einen Brief an einen Kontakt zu senden  
 
 > [!NOTE]  
 > Bei diesem Verfahren müssen Sie ein Word-Dokument anhängen. Sie können Anhänge in jeder Sprache hinzufügen.
@@ -159,7 +160,7 @@ Nachdem das Segment protokolliert ist, wird jeder Brief, der versendet wurde, al
 
 Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Interaktionsprotokollposten** ein und wählen Sie dann den zugehörigen Link. Es gibt jeweils einen Posten für jeden gesendeten Brief.  
 
-### <a name="to-send-an-email-message-to-a-contact"></a>So senden Sie eine E-Mail-Nachricht an einen Kontakt
+### So senden Sie eine E-Mail-Nachricht an einen Kontakt  
 
 1. Wählen Sie auf dem Inforegister **Interaktion** im Feld **Aktivitätenvorlagencode** die Vorlage für Geschäftsbriefe, mit dem Code **GESCHÄFT** aus.  
 2. Geben Sie im Feld **Betreff (Standard)** den folgenden Beispieltext ein: **Vielen Dank für Ihren Besuch auf der Messe**.  
@@ -172,13 +173,13 @@ Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Fu
 
  Die Briefe werden automatisch per E-Mail gesendet, und das Segment wird protokolliert. Da das Segment protokolliert wurde, ist es nicht mehr in der Liste der Segmente vorhanden, sondern wurde in der Liste der protokollierten Segmente gespeichert. Um diese Liste zu sehen, wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Protokollierte Segmente** ein und wählen Sie dann den zugehörigen Link.  
 
-## <a name="register-campaign-responses"></a>Kampagnenreaktionen erfassen
+## Kampagnenreaktionen erfassen
 
  Im Laufe der nächsten Wochen antworten die Interessenten auf den Brief. Der Marketingmanager möchte die Reaktionen verfolgen und diese Interaktionen erfassen.  
 
  Zu diesem Zweck richten Sie ein Segment für die Kontakte ein, die auf den Brief reagiert haben.  
 
-### <a name="to-register-campaign-responses"></a>So erfassen Sie Kampagnenreaktionen
+### So erfassen Sie Kampagnenreaktionen  
 
 1. Wählen Sie auf der Seite **Segment** im Inforegister **Interaktion** das Feld **Aktivitätenvorlagencode** aus.  
 
@@ -192,7 +193,7 @@ Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Fu
 7. Wählen Sie auf der Seite **Segment** **Protokoll** aus.  
 8. Deaktivieren Sie auf der Seite **Segment protokollieren** das Kontrollkästchen **Anhänge senden**. Wählen Sie dann die Schaltfläche **OK** aus, um die Meldung, dass das Segment protokolliert wurde, zu bestätigen.  
   
-## <a name="see-also"></a>Siehe auch
+## Siehe auch  
 [Marketing und Vertrieb](marketing-relationship-management.md)  
  [Exemplarische Vorgehensweisen für Geschäftsprozesse](walkthrough-business-process-walkthroughs.md)  
  [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

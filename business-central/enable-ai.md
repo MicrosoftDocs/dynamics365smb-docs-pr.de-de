@@ -12,19 +12,21 @@ ms.collection:
   - bap-ai-copilot
 ---
 
-# <a name="configure-copilot-and-ai-capabilities"></a>Copilot- und KI-Funktionen konfigurieren
+# Copilot- und KI-Funktionen konfigurieren
 
 <!--[!INCLUDE[ai-preview](includes/ai-preview.md)]-->
 
 <!--This article explains how you can control the ability to create AI-powered item marketing text with Copilot for your organization. This task is done by an admin. There are two requirements that you must fulfill to make the feature available to users:-->
 
-In diesem Artikel wird erläutert, wie Sie Copilot und andere KI-Funktionen in Business Central steuern. Diese Aufgabe wird von einem Administrator erledigt. Copilot ist eine Systemfunktion und integraler Bestandteil von Business Central. Ähnlich wie bei den meisten Systemfunktionen gewähren Sie einzelnen Benutzern keinen Zugriff und können Copilot auch nicht ein- oder ausschalten. Copilot bietet jedoch Datenverwaltungskontrollen und die Möglichkeit, einzelne Copilot- und KI-Funktionen für jede Umgebung zu deaktivieren. Abhängig von der Funktion gibt es unterschiedliche Ebenen der Zugriffskontrolle auf KI-Funktionen:
+In diesem Artikel wird erläutert, wie Sie Microsoft Copilot und andere KI-Funktionen in Dynamics 365 Business Central steuern. Diese Aufgaben müssen von einem Administrator ausgeführt werden.
+
+Copilot ist eine Systemfunktion und ein integraler Bestandteil von Business Central. Wie bei den meisten Systemfunktionen gewähren Sie einzelnen Benutzern keinen Zugriff und können Copilot auch nicht ein- oder ausschalten. Copilot bietet jedoch Datenverwaltungskontrollen und die Möglichkeit, einzelne Copilot- und KI-Funktionen für jede Umgebung zu deaktivieren. Abhängig von der Funktion gibt es unterschiedliche Ebenen der Zugriffskontrolle für KI-Funktionen:
 
 - Datenverschiebung über geografische Regionen hinweg erlauben.
 
-  Diese Aufgabe ist nur erforderlich, wenn sich Ihre Business Central-Umgebung in einer anderen Region befindet als der Azure OpenAI Dienst, den sie verwendet. [Weitere Informationen](#allow-data-movement-across-geographies)
+    Diese Aufgabe ist nur erforderlich, wenn sich Ihre Business Central-Umgebung in einer anderen Region befindet als der Azure OpenAI Dienst, den sie verwendet. [Erfahren Sie mehr über diese Aufgabe](#allow-data-movement-across-geographies).
 
-- Aktivieren Sie das Feature auf der Seite **Copilot- und KI-Funktionen**. [Weitere Informationen](#activate-features)
+- Aktivieren Sie die Funktion auf der Seite **Copilot- und KI-Funktionen**. [Erfahren Sie mehr über diese Aufgabe](#activate-features).
 
 <!-- For 2024 there are no AI features governed by **Feature Management**, so this section is not shown
 - Enable the specific feature if it's governed by **Feature Management**.
@@ -37,27 +39,30 @@ In diesem Artikel wird erläutert, wie Sie Copilot und andere KI-Funktionen in B
 
 Wenn eine dieser Anforderungen nicht erfüllt ist, steht das Feature nicht zur Verfügung.
 
-## <a name="prerequisites"></a>Voraussetzungen
+## Voraussetzungen
 
 - Sie verwenden Business Central Online.
 - Sie sind [Administrierender](#requirements-for-being-an-administrator) für Business Central.
 
-## <a name="allow-data-movement-across-geographies"></a>Datenverschiebung über geografische Regionen hinweg zulassen
+## Datenverschiebung über geografische Regionen hinweg zulassen
 
-Diese Aufgabe gilt nur, wenn der Umschalter **Datenverschiebung zulassen** oben auf der Seite **Copilot- und KI-Funktionen** erscheint. Wenn anstelle des Umschalters **Datenverschiebung zulassen** der Link **Wie kann ich meine Copilot-Daten verwalten?** angezeigt wird, überspringen Sie diesen Schritt.
+Diese Aufgabe gilt nur, wenn die Option **Datenverschiebung zulassen** oben auf der Seite **Copilot- und KI-Funktionen** angezeigt wird. Überspringen Sie diese Aufgabe, wenn anstelle der Option **Datenverschiebung zulassen** der Link **Wie kann ich meine Copilot-Daten verwalten?** angezeigt wird.
 
-![Zeigt einen Screenshot des Umschalters „Datenverschiebung zulassen“ auf der Seite „Copilot und KI-Fähigkeiten“.](media/allow-data-movement-v2.png)
+![Screenshot mit der Option „Datenverschiebung zulassen“ auf der Seite „Copilot und KI-Fähigkeiten“](media/allow-data-movement-v2.png)
 
-Der Umschalter **Datenverschiebung zulassen** gibt an, dass sich der Standort Ihrer Business Central-Umgebung – also die Region, in der Daten verarbeitet und gespeichert werden – nicht dieselbe ist wie die von Copilot verwendete Region für den Azure OpenAI-Dienst. Wenn Sie Copilot aktivieren möchten, müssen Sie die Datenverschiebung zwischen Regionen zulassen. Weitere Informationen zur Datenverschiebung finden Sie unter [Copilot-Datenverschiebung über geografische Regionen hinweg](ai-copilot-data-movement.md). 
+Das Vorhandensein der Option **Datenverschiebung zulassen** gibt an, dass sich der Standort Ihrer Business Central-Umgebung (also die Region, in der Daten verarbeitet und gespeichert werden) von der geografischen Region des Azure OpenAI Service unterscheidet, die von Copilot verwendet wird. Um Copilot zu aktivieren, müssen Sie die Datenverschiebung zwischen Regionen zulassen. [Erfahren Sie mehr über die Datenverschiebung](ai-copilot-data-movement.md).
 
 Um die Datenverschiebung außerhalb Ihrer geografischen Region zuzulassen, gehen Sie wie folgt vor:
 
 1. Suchen Sie in Business Central nach der Seite **Copilot- und KI-Funktionen** und öffnen Sie sie.
-1. Aktivieren Sie den Umschalter **Datenverschiebung zulassen**.
+1. Aktivieren Sie die Option **Datenverschiebung zulassen**.
 
-   Der Umschalter **Datenverschiebung zulassen** ist für Umgebungen in den Azure-Regionen Westeuropa und Nordeuropa standardmäßig aktiviert.
+    > [!NOTE]
+    > Für Umgebungen in den Azure-Regionen Westeuropa und Nordeuropa ist die Option **Datenverschiebung zulassen** standardmäßig aktiviert.
 
-Sie können die Datenverschiebung abwählen, indem Sie den Umschalter **Datenverschiebung zulassen** ausschalten. Sobald ein Azure OpenAI Dienst in der geografischen Region Ihrer Business Central-Umgebung verfügbar wird, wird Ihre Umgebung automatisch damit verbunden und der Umschalter ist nicht mehr verfügbar.
+Deaktivieren Sie die Option **Datenverschiebung zulassen**, um die die Datenverschiebung ausschalten.
+
+Nachdem ein Azure OpenAI Service in der geografischen Region Ihrer Business Central-Umgebung verfügbar ist, wird Ihre Umgebung automatisch damit verbunden. An dieser Stelle wird die Option **Datenverschiebung zulassen** auf der Seite **Copilot- und KI-Funktionen** nicht mehr angezeigt.
 
 <!-- Don't review
 | Australia, United Kingdom, United States | Within the respective geographical region |
@@ -79,23 +84,22 @@ Meanwhile, customers with environments outside the United States can use Copilot
 
 The information in the following table outlines the Azure OpenAI service that's used by the Copilot services based on the geography of their Dynamics 365 environment when they opt-in to share data.-->
 
-## <a name="activate-features"></a>Features aktivieren
+## Features aktivieren
 
-Alle Copilot- und KI-Funktionen sind standardmäßig aktiv, wenn sie als Vorschauversion verfügbar gemacht werden oder allgemein verfügbar werden. Mit der Seite **Copilot- und KI-Funktionen** können Sie einzelne Features für alle Benutzenden deaktivieren oder wieder aktivieren.
+Alle Copilot- und KI-Funktionen sind standardmäßig aktiv, wenn sie in der Vorschau verfügbar gemacht werden oder allgemein verfügbar werden. Auf der Seite **Copilot- und KI-Funktionen** können Sie einzelne Features für alle Benutzenden deaktivieren oder wieder aktivieren.
 
 1. Suchen Sie in Business Central nach der Seite **Copilot- und KI-Funktionen** und öffnen Sie sie.
+1. Die Seite listet alle verfügbaren Copilot- und KI-bezogenen Features und ihren aktuellen Status auf. (Der Status kann *Aktiv* oder *Inaktiv* sein.) Die Funktionen sind in zwei Abschnitte unterteilt: ein Abschnitt für Funktionen, die sich in der Vorschauversion befinden, und ein Abschnitt für Funktionen, die allgemein verfügbar sind.
 
-1. Die Seite listet alle verfügbaren Copilot- und KI-bezogenen Features und ihren aktuellen Status auf, der entweder aktiv oder inaktiv sein kann. Die Features sind in zwei Abschnitte unterteilt – ein Abschnitt für Features in der Vorschau und ein anderer für allgemein verfügbare Features. 
+    - Um eine Funktion zu aktivieren, wählen Sie sie aus der Liste aus, und wählen Sie dann **Aktivieren** aus.
+    - Zum Deaktivieren einer Funktion wählen Sie sie aus der Liste und dann **Deaktivieren** aus.
 
-   [![Zeigt das Business Central-Rollencenter und die Checkliste für Copilot an](media/copilot-and-ai-capabilties-page.svg)](media/copilot-and-ai-capabilties-page.svg#lightbox)
-
-   - Um ein Feature zu aktivieren, wählen Sie es in der Liste aus und wählen Sie dann die Aktion **Aktivieren** aus.
-   - Um ein Feature zu deaktivieren, wählen Sie es in der Liste aus und wählen Sie dann die Aktion **Deaktivieren** aus. 
+    [![Screenshot mit den Schaltflächen „Aktivieren“ und „Deaktivieren“ für die Funktionslisten auf der Seite „Copilot- und KI-Funktionen“](media/copilot-and-ai-capabilties-page.svg)](media/copilot-and-ai-capabilties-page.svg#lightbox)
 
 <!-- don't review 
 
 <!-- For 2024 there are no AI features governed by **Feature Management**, so this section is not shown
-## <a name="enable-feature-in-feature-management"></a>Enable feature in Feature Management
+## Enable feature in Feature Management
 
 When individual Copilot capabilities are released in Business Central minor updates, these capabilities are optional until the next major update. **Feature Management** is used to turn on or off features that are in preview, like bank reconciliation, and some features that are generally available, like marketing text suggestions. [Learn more about feature management](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
@@ -108,26 +112,26 @@ When individual Copilot capabilities are released in Business Central minor upda
 
    For more information about feature management in general, go to [Feature Management](/dynamics365/business-central/dev-itpro/administration/feature-management).-->
 
-## <a name="granting-user-access"></a>Gewähren von Benutzerzugriff
+## Gewähren von Benutzerzugriff
 
 Copilot- und KI-Funktionen können Funktionen bieten, die für alle Benutzenden in Ihrer Organisation oder für bestimmte Benutzerrollen gedacht sind. Die meisten Copilot- und KI-Funktionen bieten Zugriffskontrolle mithilfe von Berechtigungen und Berechtigungssätzen im Berechtigungsverwaltungssystem von Business Central. [Erfahren Sie mehr über Berechtigungen und Berechtigungssätze](ui-define-granular-permissions.md).
 
-Die folgenden Tabelle zeigen die Berechtigungen, die für die Nutzung der von Business Central bereitgestellten Copilot-Features erforderlich sind.
+In der folgenden Tabelle sind die Berechtigungen aufgelistet, die für die Verwendung der von Business Central bereitgestellten Copilot-Funktionen erforderlich sind.
 
-|Copilot-Features|Erforderliche Berechtigungen|
-|-|-|
-|Analyseunterstützung|Berechtigungssatz **DATENANALYSE – AUSFÜHREN** oder Ausführungsberechtigung für das Systemobjekt 9640 **Datenanalysemodus zulassen**. Dies sind die Berechtigungen, die auch für den Zugriff auf den Analysemodus erforderlich sind.|
-|Unterstützung bei der Bankkontoabstimmung|Berechtigung auf Seite 7250 **Bankkontoabstimmungs-KI-Vorschlag** und Seite 7252 **Übertr. KI-Vorschlag auf Fibu-Konto**.|
-|Chat |Es gibt keine Berechtigungen oder Berechtigungssätze, die den Zugriff auf den Chat auf Benutzerbasis steuern. Wenn der Chat aktiviert ist, steht er allen Benutzenden zur Verfügung.|
-|E-Belege zuweisen |Berechtigung auf Seite 6166 **E-Beleg-Best. Copilot-Vorschl.**|
-|Vorschläge für Marketingtexte |Berechtigung auf Seite 5836 **Copilot-Marketingtext**|
-|Verkaufszeilenvorschläge |Berechtigung auf Seite 7275 **KI-Vorschläge für Verkaufszeilen** und Seite 7276 **KI-Untervorschläge für Verkaufszeilen**|
+| Copilot-Funktion | Erforderliche Berechtigungen |
+|---|---|
+| Analyseunterstützung | Der Berechtigungssatz **DATENANALYSE – AUSFÜHREN** oder die Ausführungsberechtigung für das Systemobjekt 9640, **Datenanalysemodus zulassen** Dies sind die Berechtigungen, die auch für den Zugriff auf den Analysemodus erforderlich sind. |
+| Unterstützung bei der Bankkontoabstimmung | Berechtigung auf Seite 7250, **Bankkontoabstimmungs-KI-Vorschlag** und Seite 7252 **Übertr. KI-Vorschlag auf Fibu-Konto** |
+| Chat | Es gibt keine Berechtigungen oder Berechtigungssätze, die den Zugriff auf den Chat auf Benutzerbasis steuern. Wenn der Chat aktiviert ist, steht er allen Benutzenden zur Verfügung. |
+| E-Belege zuweisen | Berechtigung auf Seite 6166 **E-Beleg-Best. Copilot-Vorschl.** |
+| Vorschläge für Marketingtexte | Berechtigung auf Seite 5836 **Copilot-Marketingtext** |
+| Verkaufszeilenvorschläge | Berechtigung auf Seite 7275, **KI-Vorschläge für Verkaufszeilen** und Seite 7276 **KI-Untervorschläge für Verkaufszeilen** |
 
 Um den Zugriff auf bestimmte, nicht von Microsoft stammende Copilot- und KI-Funktionen zu gewähren oder zu verweigern, wenden Sie sich an die Dokumentation oder den Herausgeber des Features und informieren Sie sich über die erforderlichen Berechtigungen.
 
-## <a name="requirements-for-being-an-administrator"></a>Voraussetzungen um Administrierender zu sein
+## Voraussetzungen um Administrierender zu sein
 
-Sie müssen entweder über SUPER-Berechtigungen im Business Central-Benutzerkonto oder über eine der folgenden Business Central-Lizenzen verfügen:
+Sie müssen entweder über SUPER-Berechtigungen in Ihrem Business Central-Benutzerkonto oder über eine der folgenden Business Central-Lizenzen verfügen:
 
 - Delegierter Administrator
 - Delegierter Helpdesk
@@ -137,18 +141,18 @@ Sie müssen entweder über SUPER-Berechtigungen im Business Central-Benutzerkont
 
 Business Central bietet noch keine granularen Berechtigungen auf Objektebene, sodass nur bestimmte Administrierende Copilot konfigurieren können.
 
-## <a name="next-steps"></a>Nächste Schritte
+## Nächste Schritte
 
-Nachdem Sie die Features aktiviert und ihnen zugestimmt haben, können Sie sie ausprobieren. Gehen Sie zu:
+Nachdem Sie die Funktionen aktiviert und ihnen zugestimmt haben, können Sie sie ausprobieren. Gehen Sie zu den folgenden Artikeln:
 
 - [Marketingtext für Artikel mit Copilot hinzufügen](item-marketing-text.md)
-- [Listendaten mithilfe von Copilot analysieren](analysis-assist.md)  
+- [Listendaten mithilfe von Copilot analysieren](analysis-assist.md)
 - [Chat mit Copilot](chat-with-copilot.md)
 - [E-Belege mit Copilot Bestellzeilen zuordnen](map-edocuments-with-copilot.md)
 - [Bankkontoabstimmung mit Copilot](bank-reconciliation-with-copilot.md)
-- [Zeilen in Verkaufsaufträgen mit Copilot vorschlagen](sales-suggest-sales-lines-with-copilot.md)  
+- [Zeilen in Verkaufsaufträgen mit Copilot vorschlagen](sales-suggest-sales-lines-with-copilot.md)
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Probleme mit Copilot- und KI-Funktionen beheben](ai-copilot-troubleshooting.md)  
 [Häufig gestellte Fragen zur Analyseunterstützung](faqs-analysis-assist.md)  
@@ -157,5 +161,4 @@ Nachdem Sie die Features aktiviert und ihnen zugestimmt haben, können Sie sie a
 [Häufig gestellte Fragen zur Zuordnung von E-Belegen zu Bestellungen](faqs-map-edocuments.md)  
 [Häufig gestellte Fragen zu Vorschlägen für Marketingtexte](faqs-marketing-text.md)  
 [Häufig gestellte Fragen zu Verkaufszeilenvorschlägen](faq-sales-suggest-sales-lines-with-copilot.md)  
-
-[Überblick über Vorschläge für Marketingtexte](ai-overview.md)  
+[Überblick über Vorschläge für Marketingtexte](ai-overview.md)

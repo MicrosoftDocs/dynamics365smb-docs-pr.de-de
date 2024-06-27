@@ -5,40 +5,42 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 02/21/2023
+ms.date: 05/24/2024
 ms.custom: bap-template
 ms.search.keywords: 'move, warehouse'
 ms.search.forms: '5746, 5745, 5759, 5753, 5743, 5758, 5752, 5744, 5749, 5740, 5741, 5742, 5757, 5748, 5747, 9285, 5756, 5755'
 ms.service: dynamics-365-business-central
 ---
-# <a name="transfer-inventory-between-locations"></a>Lagerbestand zwischen Lagerplätzen umlagern
+# Lagerbestand zwischen Lagerplätzen umlagern
 
 Sie können Bestandsartikel zwischen Lagerplätzen umlagern, indem Sie Umlagerungsaufträge erstellen. Sie können auch das Einkaufs-Buch.-Blatt verwenden.
 
 > [!NOTE]
 > Um Artikel umzulagern, müssen Sie Lagerplätze und Umlagerungsrouten einrichten. Weitere Informationen zum Einrichten von Lagerorten finden Sie unter [Lagerorte einrichten](inventory-how-setup-locations.md). Sie können keine Umlagerungsaufträge für *leere* Lagerorte verwenden.
 
-## <a name="transfer-orders"></a>Umlagerungsaufträge
+## Umlagerungsaufträge
 
 Sie können eine ausgehende Umlagerung von einem Lagerplatz senden und eine eingehende Umlagerung am Ziel empfangen. Sie können:
 
 * Eine Menge in Transit nachverfolgen
 * Definieren Sie Kalender, Arbeitspläne sowie eingehende und ausgehende Bearbeitungszeiten für die Datumsberechnung und -planung. Weitere Informationen zur Planung finden Sie unter [Info zu Planungsfunktionen](production-about-planning-functionality.md).
 * Verwenden Sie unterschiedliche Lagerfunktionen für eingehende und ausgehende Lagerorte.
-* Mit einigen Einschränkungen können Sie Umlagerungsaufträge für direkte Umlagerungen verwenden.
+* Verwenden Sie Umlagerungsaufträge für direkte Umlagerungen mit einigen Einschränkungen.
 
-## <a name="item-reclassification-journals"></a>Buch.-Blätter für die Neuklassifizierung von Artikeln
+## Buch.-Blätter für die Neuklassifizierung von Artikeln
 
-* Einfache, direkte Umlagerung von Artikeln zwischen Lagerorten.
+Verwenden Sie die Seite **Artikel Umlag. Buch.-Blätter** für Folgendes:
+
+* Direkte Umlagerung von Artikeln zwischen Lagerorten
 * Lagern Sie Artikel zwischen Lagerplätzen um. Weitere Informationen zum Umlagern von Artikeln zwischen Lagerplätzen finden Sie unter [Ungeplanmte Umlagerung von Artikeln in Basis-Lagerkonfigurationen](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)
 * Ändern Sie eine Chargen- oder Seriennummer in eine neue Chargen- oder Seriennummer. Weitere Informationen zur Neuklassifizierung von Serien- und Chargennummern finden Sie unter [Serien- oder Chargennummern neu klassifizieren](inventory-how-work-item-tracking.md#to-reclassify-serial-or-lot-numbers).
-* Ändern Sie das Ablaufdatum auf ein neues Datum.
-* Klassifizieren Sie Artikel von einem *leeren* Lagerort an einem tatsächlichen Lagerort neu.
-* Lageraktivitäten werden nicht verwaltet. Lagereinträge werden erstellt.
+* Ändern Sie das Ablaufdatum in ein neues Datum.
+* Klassifizieren Sie Artikel von einem leeren Lagerort an einem tatsächlichen Lagerort neu.
+* Erstellen Sie Lagereinträge, wenn Sie keine Lageraktivitäten verwalten.
 
-## <a name="to-transfer-items-with-a-transfer-order"></a>So lagern Sie Artikel mit einem Umlagerungsauftrag um
+## So lagern Sie Artikel mit einem Umlagerungsauftrag um
 
-1. Wählen Sie das Symbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Umlagerungsaufträge** ein, und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Umlagerungsaufträge** ein, und wählen Sie dann den zugehörigen Link.
 2. Füllen Sie auf der Seite **Umlagerungsauftrag** die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
@@ -61,7 +63,7 @@ Sie können eine ausgehende Umlagerung von einem Lagerplatz senden und eine eing
     Als Lagermitarbeiter am vom Umlagerungsort fahren sie fort, die Artikel zu empfangen Die Überweisungsauftragspositionen sind dieselben wie im Auslieferungszustand und können nicht bearbeitet werden.
 5. Wählen Sie die Aktion **Buchen** aus, wählen Sie die Option **Eingang**, und wählen Sie dann die Schaltfläche **OK** aus.
 
-### <a name="post-multiple-transfer-orders-in-a-batch"></a>Buchen Sie mehrere Umlagerungsaufträge in einem Stapel
+### Buchen Sie mehrere Umlagerungsaufträge in einem Stapel
 
 Das folgende Verfahren erläutert, wie Sie mehrere Einkaufsbestellungen in einer Charge buchen.
 
@@ -81,7 +83,7 @@ Das folgende Verfahren erläutert, wie Sie mehrere Einkaufsbestellungen in einer
     > [!NOTE]
     > Das Buchen mehrerer Dokumente kann einige Zeit dauern und andere Benutzer blockieren. Erwägen Sie die Aktivierung der Hintergrundbuchung. Weitere Informationen finden Sie unter [Vorgehensweise: Projektwarteschlangen nutzen, um Aufgaben zu planen](/dynamics365/business-central/admin-job-queues-schedule-tasks)
 
-### <a name="schedule-a-job-queue-entry-to-post-multiple-documents-in-a-batch"></a>Planen Sie einen Auftragswarteschlangeneintrag, um mehrere Dokumente in einem Stapel zu veröffentlichen
+### Planen Sie einen Auftragswarteschlangeneintrag, um mehrere Dokumente in einem Stapel zu veröffentlichen
 
 Alternativ können Sie die Auftragswarteschlange verwenden, um die Veröffentlichung zu einem Zeitpunkt zu planen, der für Ihre Organisation günstig ist. Beispielsweise kann es für Ihre Geschäft sinnvoll sein, bestimmte Routinen dann auszuführen, wenn ein Großteil der Dateneingaben für einen Arbeitstag abgeschlossen wurde.
 
@@ -101,7 +103,7 @@ Der folgende Ablauf zeigt, wie Sie den Bericht **Stapelbuchung von Verkaufsauftr
 8. In dem Feld **Startzeit** geben Sie **16:00 Uhr** ein.
 9. Wählen Sie die Aktion **Status auf bereit festlegen** aus.
 
-## <a name="to-transfer-items-with-the-item-reclassification-journal"></a>So lagern Sie Artikel mit dem Artikel Umlag. Buch.-Blatt um
+## So lagern Sie Artikel mit dem Artikel Umlag. Buch.-Blatt um
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Element Reclass. Erfassungen** ein und wählen Sie dann den zugehörigen Link.
 2. Füllen Sie auf der Seite **Umlagerungs Buch.-Blatt** die notwendigen Felder aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -114,7 +116,7 @@ Der folgende Ablauf zeigt, wie Sie den Bericht **Stapelbuchung von Verkaufsauftr
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-## <a name="undo-a-transfer-shipment"></a>Ein Umlagerungsversand rückgängig machen
+## Ein Umlagerungsversand rückgängig machen
 
 Wenn Sie in einem gebuchten Transportauftrag einen Mengenfehler finden, können Sie die Menge problemlos korrigieren, solange die Lieferung nicht eingeht. Auf der Seite **Poster-Übertragungssendung** erstellt die Aktion **Lieferung rückgängig machen** Korrekturzeilen wie folgt:
 
@@ -126,7 +128,7 @@ Wenn die Menge in einem Warenausgang geliefert wurde, wird eine Korrekturzeile i
 
 Um die Korrektur abzuschließen, öffnen Sie den Umlagerungsauftrag erneut, geben Sie die richtige Menge ein und buchen Sie dann den Auftrag. Wenn Sie Lagerversand verwenden, um den auftrag zu versenden, erstellen und buchen Sie einen neuen Warenausgang.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Verwalten des Lagerbestands](inventory-manage-inventory.md)  
 [Lagerorte einrichten](inventory-how-setup-locations.md)  

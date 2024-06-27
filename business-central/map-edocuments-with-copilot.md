@@ -8,16 +8,16 @@ ms.topic: how-to
 ms.collection:
   - get-started
   - bap-ai-copilot
-ms.date: 04/10/2024
+ms.date: 06/10/2024
 ms.custom: bap-template
 ---
 
 # E-Belege mit Copilot Bestellpositionen zuordnen (Vorschauversion)
 
-Da Beschaffungsprozesse zunehmend digitalisiert werden, spielt die E-Belegsfunktion in Business Central eine Schlüsselrolle bei der Automatisierung des Empfangs und der Verarbeitung von Kreditorenrechnungen. Copilot kann diesen Prozess unterstützen, indem er die Zuordnung und den Abgleich von Kreditorenrechnungen mit Bestellungen verbessert. Dadurch werden zeitaufwändige Aufgaben reduziert, die normalerweise umfangreiche Such-, Nachschlage- und Dateneingabevorgänge umfassen würden. Der Vorteil wird durch die Tatsache verstärkt, dass sich Kreditorenrechnungen häufig nicht genau auf Bestellungen beziehen. In diesem Fall ist Copilot besser in der Lage, die entsprechenden Bestellungen zu identifizieren. Von den erweiterten Abgleichsfunktionen profitieren insbesondere kleine und mittlere Unternehmen, die eine effiziente Belegverfolgung für Bestellpositionen benötigen. Copilot ist der KI-gestützte Arbeitsassistent, der die Kreativität fördert und die Produktivität von Business Central-Benutzenden verbessert.
+Da Beschaffungsprozesse zunehmend digitalisiert werden, spielt die E-Belegsfunktion in Business Central eine Schlüsselrolle bei der Automatisierung des Empfangs und der Verarbeitung von Kreditorenrechnungen. Copilot kann diesen Prozess unterstützen, indem er die Zuordnung und den Abgleich von Kreditorenrechnungen mit Bestellungen verbessert. Durch diese Unterstützung wird die für Aufgaben aufgewendete Zeit reduziert, die normalerweise umfangreiche Such-, Nachschlage- und Dateneingabevorgänge umfassen würden. Ein weiterer Vorteil besteht darin, dass Kreditorenrechnungen nicht genau den Bestellungen entsprechen. In diesem Fall ist Copilot gut aufgestellt, die entsprechenden Bestellungen zu identifizieren. Von den erweiterten Abgleichsfunktionen profitieren insbesondere kleine und mittlere Unternehmen, die eine effiziente Belegverfolgung für Bestellpositionen benötigen. Copilot ist der KI-gestützte Arbeitsassistent, der die Kreativität fördert und die Produktivität von Business Central-Benutzenden verbessert.
 
 > [!IMPORTANT]
-> - Dies ist eine produktionsbereite Vorschaufunktion für Produktions- und Sandbox-Umgebungen in allen Länderlokalisierungen, mit Ausnahme von Kanada.
+> - Dies ist eine produktionsbereite Vorschaufunktion für Produktions- und Sandbox-Umgebungen in allen Länderlokalisierungen.<!-- with the exception of Canada -->.
 > - Für produktionsbereite Vorschaufunktionen gelten die ergänzenden Nutzungsbedingungen. Weitere Informationen: [Ergänzende Nutzungsbedingungen für die Dynamics 365-Vorschauversion](https://go.microsoft.com/fwlink/?linkid=2105274)
 > - KI-generierte Inhalte können fehlerhaft sein.
 
@@ -25,12 +25,11 @@ In der ersten Version der App **E-Beleg** haben wir grundlegende Szenarien für 
 
 Sie können jetzt eine vorhandene Bestellung in Business Central mit den in der E-Rechnung erhaltenen Informationen aktualisieren.
 
-<!--
-> [!NOTE]
-> - This feature is available as a production-ready preview for production and sandbox environments in any country localization, with the exception of Canada. Production-ready previews are subject to supplemental terms of use. For more information, see [Supplemental terms of use for Dynamics 365 preview](https://go.microsoft.com/fwlink/?linkid=2105274).
-> - AI-generated content may be incorrect.-->
+## Verfügbare Sprachen
 
-## So aktivieren Sie Copilot  
+[!INCLUDE[e-docs-matching-language-support](includes/e-docs-matching-language-support.md)]
+
+## Copilot aktivieren  
 
 Falls Sie den Copilot der **Unterstützung beim Abgleich von E-Belegen** nicht aktiviert haben, müssen Sie dies manuell tun. Um den Copiloten zur **Unterstützung beim Abgleich von E-Belegen** zu aktivieren, gehen Sie wie folgt vor: 
 
@@ -64,11 +63,11 @@ Wenn Sie den Abgleich aus der Bestellung heraus durchführen möchten, wählen S
 2. Wie Sie sehen, funktioniert der Prompt **E-Belegsauftragszeilen mit Copilot abgleichen** und Sie haben die Seite **Bestellabgleich** im Hintergrund. Das heißt, derselbe Prozess findet statt, allerdings mit der automatischen Unterstützung von **Copilot**, der den Abgleichsprozess für Sie erledigt 
 3. Nach einigen Sekunden schlägt **E-Belegsauftragszeilen mit Copilot abgleichen** Zeilen zum Abgleichen mit einigen weiteren Details vor: 
 
-    1. In der Promptkopfzeile finden Sie die folgenden Informationen: 
+    1. In der Promptkopfzeile finden Sie die folgenden Informationen:   
 
     |Name des Felds |Beschreibung |
     |--------|-----------------|
-    |Automatisch abgeglichen | Gibt die Anzahl der automatisch vorgeschlagenen Übereinstimmungen an. Diese basiert auf einem Zeichenfolgenvergleich. Wenn sich die Beschreibungen zu 80 % oder mehr überschneiden, gleicht das System diese Beschreibungen automatisch ab, ohne GPT-Funktionen zu verwenden. |
+    |Automatisch abgeglichen | Gibt die Anzahl der automatisch vorgeschlagenen Übereinstimmungen an. Diese basiert auf einem Zeichenfolgenvergleich. Wenn sich die Beschreibungen zu 80 % oder mehr überschneiden, gleicht das System diese Beschreibungen automatisch ab, ohne Copilot-Funktionen zu verwenden. |
     |Copilot-Übereinstimmung | Gibt die Anzahl der von Copilot anhand von Zeichenfolgen- und semantischen Vergleichen vorgeschlagenen Übereinstimmungen an. |
     |E-Beleg-Nr. | Gibt die verknüpfte E-Belegnummer an. |
     |Gesamtrechnungsbetrag ohne MwSt. | Gibt den Gesamtrechnungsbetrag ohne MwSt. an. |
@@ -84,7 +83,7 @@ Wenn Sie den Abgleich aus der Bestellung heraus durchführen möchten, wählen S
     |Abgeglichene Menge | Gibt die Menge an, die auf die Bestellzeile angewendet wird. |
     |Angebot | Gibt die von der KI vorgeschlagene Aktion an. Diese vorgeschlagenen Aktionen beziehen sich auf den Abgleich der Bestellzeilen. |
 
-    4. Alle vollständig vorgeschlagenen und zugeordneten Zeilen sind grün markiert. Wenn ein Problem vorliegt, zum Beispiel der Preis anders ist, der aber im zulässigen Preisbereich liegt, wird diese Zeile gelb markiert. Wenn zwischen den Beschreibungsfeldern eine Ähnlichkeit besteht, der Preisunterschied jedoch größer als zulässig ist, wird die Zeile rot markiert. 
+    4. Alle vollständig vorgeschlagenen und zugeordneten Zeilen sind grün markiert. Wenn ein Problem vorliegt, z. B. ein anderer Preis, der jedoch innerhalb der zulässigen Preisspanne liegt, wird diese Zeile gelb markiert. Wenn eine Ähnlichkeit zwischen den Beschreibungsfeldern besteht, der Preisunterschied jedoch größer als zulässig ist, wird diese Zeile rot markiert.
     5. Wenn Sie mit einigen Vorschlägen nicht zufrieden sind, können Sie diese mithilfe der Aktion **Zeile löschen** entfernen.  
     6. Wenn Sie die vorgeschlagenen Zuordnungen sehen möchten, können Sie den Link in der Spalte **Vorschlag** verwenden, um die Seite **Details zum E-Dokument-Abgleich** zu öffnen. 
     7. Auf der Seite **Details zum E-Beleg-Abgleich** können Sie die Details aus den **E-Belegen** und der **Bestellung** vergleichen, um die vorgeschlagene Übereinstimmung vor der Bestätigung zu überprüfen. 

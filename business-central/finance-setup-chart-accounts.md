@@ -1,5 +1,5 @@
 ---
-title: Den Kontenplan einrichten oder ändern (enthält Video)
+title: Den Kontenplan einrichten oder ändern
 description: 'Erfahren Sie, wie Sie Ihren Kontenplan mit den Sachkonten einrichten, die Finanzdaten speichern.'
 author: brentholtorf
 ms.author: bholtorf
@@ -11,14 +11,14 @@ ms.date: 04/23/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-or-change-the-chart-of-accounts"></a>Den Kontenplan einrichten oder ändern
+# Den Kontenplan einrichten oder ändern
 
 Der Kontenplan zeigt die Sachkonten an, die Finanzdaten speichern. [!INCLUDE[prod_short](includes/prod_short.md)] umfasst einen Standardkontenplan, der zur Unterstützung Ihres Unternehmens bereit steht. Sie können jedoch die Standardkonten ändern und neue Konten hinzufügen.
 <br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE43KO9?rel=0]
 
-## <a name="add-or-change-accounts"></a>Hinzufügen oder Ändern von Konten
+## Hinzufügen oder Ändern von Konten
 
 Im Kontenplan können Sie jedes Sachkonto öffnen und Einstellungen hinzufügen oder ändern. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] 
 
@@ -29,7 +29,7 @@ Für Konten des Kontotyps **Summe** müssen Sie das Feld **Summe** ausfüllen. F
 > [!IMPORTANT]
 > Wenn Sie vor dem Ausführen der Funktion Einrücken Definitionen in den Feldern **Summe** für **Endsumme** Konten eingegeben haben, müssen Sie diese erneut eingeben, da die Funktion die Werte in allen **Endsumme** Feldern überschreibt.
 
-## <a name="delete-accounts"></a>Konten löschen
+## Konten löschen
 
 Sie können ein Sachkonto löschen. Bevor es gelöscht wird, müssen allerdings folgende Bedingungen erfüllt sein:  
 
@@ -43,17 +43,17 @@ Sie können auch festlegen, wann jemand Konten löschen dürfen soll. Auf der Se
 
 Es hat sich bewährt, das Feld **Löschen von Sachkonten sperren** zu aktivieren und das Datum im Feld **Sachkontolöschung prüfen nach** zum Beispiel auf das Datum festzulegen, bis zu dem Sie Ihre Finanzdaten laut den Vorschriften speichern müssen.  
 
-### <a name="video-guidance"></a>Videoanleitung
+### Videoanleitung
 
 In diesem Video wird gezeigt, wie Sie festlegen, ob und wann Personen Sachkonten löschen können.
 
 >[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1g3oY]
 
-## <a name="learning-path-set-up-the-chart-of-accounts-in-dynamics-365-business-central"></a>Lernpfad: Den Kontenplan in Dynamics 365 Business Central einrichten
+## Lernpfad: Den Kontenplan in Dynamics 365 Business Central einrichten
 
 Sie möchten lernen, wie Sie den Kontenplan in [!INCLUDE [prod_short](includes/prod_short.md)] einrichten? Beginnen Sie dann mit dem folgenden Lernpfad: [Den Kontenplan in Dynamics 365 Business Central einrichten](/training/modules/chart-accounts-dynamics-365-business-central).
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Das Hauptbuch und der Kontenplan](finance-general-ledger.md)  
 [Abstimmen von Bankkonten](bank-manage-bank-accounts.md)  

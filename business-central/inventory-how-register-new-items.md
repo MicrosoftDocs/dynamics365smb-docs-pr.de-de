@@ -1,60 +1,63 @@
 ---
-title: Erstellen von Elementkarten für Waren oder Dienstleistungen (enthält Video)
+title: Artikelkarten für Waren oder Dienstleistungen erstellen
 description: 'Sie erstellen Artikelkarten für Dienstleistungen, die Sie als Stunden verkaufen, und für physische Produkte. Beispiele hierfür sind Montageartikel und fertige Waren, die Sie aus Ihrem Bestand verkaufen.'
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.devlang: al
 ms.search.keywords: 'item, finished good, component, raw material, assembly item, item substitution'
 ms.search.form: '30, 5717, 31, 32, 346, 9091, 5718, 5716, 5720, 1384, 1383, 35, 5404, 1378, 5719'
-ms.date: 11/02/2022
-ms.author: bholtorf
+ms.date: 05/24/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 # Neue Artikel registrieren
 
-Artikel sind die Basis Ihres Unternehmens, die Waren oder Dienstleistungen, mit denen Sie handeln. Jeder Artikel muss als Artikelkarte registriert werden.
+Artikel sind Waren oder Dienstleistungen, die Sie kaufen, lagern, verkaufen, liefern und abrechnen. Verwenden Sie die **Artikelkarte**, um Informationen zu den folgenden Artikeltypen zu registrieren:
 
-Artikelkarten verwahren die Informationen, die benötigt werden, um Artikel einzukaufen, einzulagern, zu liefern und zu berechnen.
+* **Bestand** gibt an, dass der Artikel eine physische Einheit ist, die Sie im Lager verwalten und verfolgen.
+* **Nicht Bestand** sind physische Einheiten, die Sie im Bestand weder verwalten noch verfolgen.
+* **Service**artikel sind eine Arbeitszeiteinheit, die in der Regel in der Serviceverwaltung verwendet wird.
 
-Gibt an, ob die Artikelkarte einen **Bestand**, **Service** oder **Nicht-Bestand** ist, wenn die Einheit eine physische Einheit ist, die nicht im Lagerbestand verfolgt wird. Weitere Informationen zu diesen Arten finden Sie unter [über Einheitstypen](inventory-about-item-types.md)
+Weitere Informationen zu diesen Artikeltypen finden Sie unter [Info zu Artikeltypen](inventory-about-item-types.md).
 
-Ein Artikel kann als übergeordneter Artikel mit zugrunde liegenden untergeordneten Elementen in Stücklisten (BOM) strukturiert werden. Erfahren Sie mehr über Montagestücklisten und Produktionsstücklisten unter [Arbeiten mit Stücklisten](inventory-how-work-BOMs.md).
+> [!TIP]
+> Es gibt auch Katalogartikel, die ähnlich wie die nicht auf Lager befindlichen Artikel sind, da es sich um Artikel handelt, die Sie den Kunden anbieten, diese aber erst verwalten, wenn Sie sie verkaufen. Weitere Informationen finden Sie unter [Mit Katalogartikeln arbeiten](inventory-how-work-nonstock-items.md).  
 
-Wenn Sie den gleichen Artikel von mehr als einem Kreditoren einkaufen, können Sie die Kreditoren mit der Artikelkarte anschließen. Die Seite **Artikel/Kreditoren Katalog** zeigt die Kreditoren an, damit Sie einen alternativen Kreditor einfach auswählen können.
+## Primäre und alternative Anbieter
 
-*Katalogartikel* sind Artikel, die Sie Ihren Debitoren anbieten, die Sie nicht in Ihrem System verwalten möchten, bis Sie den Verkauf starten. Katalogelemente sind keine regulären Artikel der Art **Nicht-Lager**. Erfahren Sie mehr unter [Mit Katalogelementen arbeiten](inventory-how-work-nonstock-items.md).  
+Wenn Sie denselben Artikel bei mehreren Kreditoren nkaufen, können Sie die Kreditoren mit dem Artikel verbinden. Verwenden Sie die Aktion **Kreditoren** auf der Seite **Artikelkarte**, um die Seite **Artikel/Lieferanten Katalog** zu öffnen. Auf der Seite werden die Kreditoren angezeigt, bei denen Sie den Artikel kaufen, sodass Sie beim Erstellen einer Bestellung problemlos einen alternativen Kreditor erstellen oder auswählen können.
 
-> [!NOTE]  
-> Wenn für verschiedene Artikelarten Artikelvorlagen existieren, öffnet sich eine Seite, aus dem Sie eine entsprechende Artikelvorlage auswählen können, sobald eine neue Artikelkarte erstellt wird . Wenn nur eine Artikelvorlage vorhanden ist, verwenden neue Artikelkarten immer diese Vorlage.
+## Artikelvorlagen verwenden
 
-Im folgenden Verfahren wird erläutert, wie Sie eine Objektkarte von Grund auf neu erstellen. Sie können auch neue Objektkarten erstellen, indem Sie vorhandene kopieren. Weitere Informationen finden Sie unter [Kopieren Sie vorhandene Elemente, um neue Elemente zu erstellen](inventory-how-copy-items.md).  
+Um beim Erstellen neuer Artikel Einstellungen für verschiedene Artikeltypen wiederzuverwenden, können Sie Artikel als Artikelvorlagen speichern. Mithilfe von Artikelvorlagen können Sie neue Artikel schneller hinzufügen und die Konsistenz Ihrer Artikeldaten erhöhen. Wenn Sie einen neuen Artikel registrieren, wird eine Seite angezeigt, auf der Sie eine Vorlage auswählen können. Nachdem Sie eine Vorlage ausgewählt haben, werden deren Einstellungen für das von Ihnen erstellte Element automatisch eingetragen. Wenn Sie nur über eine Artikelvorlage verfügen, verwenden neue Artikel immer diese Vorlage. Weitere Informationen zum Einrichten einer Artikelvorlage finden Sie unter [Eine Artikelkarte als Artikelvorlage speichern](#save-an-item-card-as-an-item-template).
 
-<br />
+## Artikel in Stücklisten aufnehmen
 
-> [!Video https://www.microsoft.com/videoplayer/embed/RE47eLx?rel=0]
+Sie können Hierarchien mit einem Hauptartikel und zugrunde liegenden Komponentenartikeln in Montage- und Produktionsstücklisten strukturieren. Weitere Informationen Stücklisten finden Sie unter [Mit Stücklisten arbeiten](inventory-how-work-BOMs.md).
 
 ## So erstellen Sie eine neue Artikelkarte
+
+Das folgende Video zeigt, wie ein Artikel auf der Seite „Artikelkarte“ eingerichtet wird. Sie können jedoch auch neue Artikel einrichten, indem Sie vorhandene kopieren. Weitere Informationen finden Sie unter [Vorhandene Artikel kopieren, um neue Artikel zu erstellen](inventory-how-copy-items.md).  
+
+> [!Video https://www.microsoft.com/videoplayer/embed/RE47eLx?rel=0]
 
 [!INCLUDE[create_new_item](includes/create_new_item.md)]
 
 > [!NOTE]
-> Die Wahl der **Kostenmethode** legt fest, wie der Einstandspreis berechnet wird, indem Annahmen über die physische Bewegung der Artikel durch Ihr Unternehmen gemacht werden. Fünf Lagerabgangsmethoden stehen, abhängig von der Art des Artikels zur Verfügung. Weitere Informationen finden Sie unter [Designdetails: Lagerabgangsmethoden](design-details-costing-methods.md).
+> Die Wahl der **Kostenmethode** legt fest, wie der Einstandspreis berechnet wird, indem Annahmen über die physische Bewegung der Artikel durch Ihr Unternehmen gemacht werden. Fünf Lagerabgangsmethoden stehen, abhängig von der Art des Artikels zur Verfügung. Weitere Informationen zur Kostenkalkulation finden Sie unter [Designdetails: Nachkalkulationsmethoden](design-details-costing-methods.md).
 >
-> Wenn Sie **Durchschnitt** wählen, dann werden die Stückkosten des Artikels als durchschnittliche Stückkosten zu jedem Zeitpunkt nach dem Kauf berechnet. Bestand wird mit der Annahme bewertet, dass aller Bestand gleichzeitig verkauft wird. Für Artikel, die die Lagerabgangsmethode verwenden, können Sie das Feld **Einstandspreis** auf der Artikelkarte wählen, um die Historie von Transaktionen anzuzeigen, denen der **durchschnittliche Einstandspreis** berechnet wird
+> Wenn Sie **Durchschnitt** wählen, werden die Stückkosten des Artikels als durchschnittliche Stückkosten zu jedem Zeitpunkt nach dem Kauf berechnet. Bestand wird mit der Annahme bewertet, dass aller Bestand gleichzeitig verkauft wird. Mit dieser Einstellung können Sie das Feld **Einstandspreis** auf der Seite **Einst.-Pr. (durchschn.)-Ber., Übersicht** auswählen, um die Transaktionen anzuzeigen, die zum Berechnen der durchschnittlichen Kosten herangezogen wurden.
 
-Sie können Sonderpreise oder Rabatte für den Artikel anzeigen oder bearbeiten, die Sie gewähren oder die Ihr Kreditor Ihnen gewährt, wenn bestimmte Kriterien, wie z. B. Debitor, Mindestbestellmenge oder Enddatum erfüllt sind. Dazu wählen Sie die Aktionen **Sonderpreise festlegen** oder **Sonderrabatte festlegen** aus. Jede Zeile zum Beispiel auf der Seite **Verkaufspreise** repräsentiert einen Sonderpreis. Jede Spalte stellt ein Kriterium dar, das angewendet werden muss, um einem Debitor den Sonderpreis zu gewähren, den Sie in das Feld **VK-Preis** auf der Seite **Verkaufspreise** eingeben. Weitere Informationen finden Sie unter [Verkaufspreise, Rabatt und Zahlungsvereinbarungen aufzeichnen](sales-how-record-sales-price-discount-payment-agreements.md) oder [Spezielle Verkaufspreise und Rabatte aufzeichnen](purchasing-how-record-purchase-price-discount-payment-agreements.md).
+Sie können Sonderpreise oder Rabatte verwenden, die Sie oder Ihr Kreditor nach bestimmten Kriterien für den Artikel gewähren. Kriterien sind beispielsweise Kunde, Mindestbestellmenge oder Enddatum. Sonderpreise werden durch Auswahl der Aktionen **Sonderpreise festlegen** oder **Sonderrabatte festlegen** eingerichtet. Jede Zeile zum Beispiel auf der Seite **Verkaufspreise** repräsentiert einen Sonderpreis. Jede Spalte stellt ein Kriterium dar, das angewendet werden muss, um einem Debitor den Sonderpreis zu gewähren, den Sie in das Feld **VK-Preis** auf der Seite **Verkaufspreise** eingeben. Weitere Informationen zur Preisgestaltung finden Sie unter [Verkaufspreise, Rabatt und Zahlungsvereinbarungen aufzeichnen](sales-how-record-sales-price-discount-payment-agreements.md) oder [Spezielle Verkaufspreise und Rabatte aufzeichnen](purchasing-how-record-purchase-price-discount-payment-agreements.md).
 
-Der Artikel ist nun erfasst und die Debitorenkarte ist bereit, in Einkaufs- und Verkaufsbelegen verwendet zu werden.
+### Artikelkarte als Artikelvorlage speichern
 
-Wenn Sie diese Artikelkarte als Vorlage zum Erstellen neuer Artikelkarten verwenden möchten, können Sie sie als Vorlage speichern. Weitere Informationen finden Sie im folgenden Abschnitt.  
+1. Wählen Sie auf der Seite **Artikelkarte** die Aktion **Als Vorlage speichern** aus. Die Seite **Arikelvorlage** zeigt die Artikelkarte als Vorlage.
+2. Füllen Sie die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-### So speichern Sie die Artikelkarte als Vorlage
-
-1. Wählen Sie auf der Seite **Artikelkarte** die Aktion **Als Vorlage speichern** aus. Die Seite **Arikelvorlage** wird geöffnet und zeigt die Artikelkarte als Vorlage.
-2. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-3. Um Dimensionen in den Vorlagen wiederzuverwenden, wählen Sie die Aktion **Dimensionen**. Die Seite **Dimensionen Vorlagen** wird geöffnet und zeigt alle Dimensionscodes, die für den Artikel eingerichtet werden.
-4. Bearbeiten Sie oder geben Sie Dimensionscodes ein, die für die neuen Artikelkarten gelten, die mit der Vorlage erstellt wurden.
-5. Wenn Sie die neue Artikelvorlage abgeschlossen haben, klicken Sie auf die Schaltfläche **OK**.
+> [!TIP]
+> Sie können Dimensionen für Artikel auch wiederverwenden. Um Dimensionen in den Vorlagen wiederzuverwenden, wählen Sie die Aktion **Dimensionen**. Die Seite **Dimensionsvorlagen** zeigt die Dimensionen an, die für den Artikel eingerichtet werden. Bearbeiten oder fügen Sie Dimensionen hinzu, die für neue Artikel gelten, die Sie über die Vorlage erstellen.
 
 Die Artikelvorlage wird der Liste von Artikelvorlagen hinzugefügt, damit Sie diese verwenden können, um neue Debitorenkarten zu erstellen.
 

@@ -2,29 +2,30 @@
 title: Übersicht über Aufgaben zum Verwalten von Zahlungen an Kreditoren
 description: 'Gliederungen ihm eine Arbeit, um Zahlungen an Kreditoren oder zu den Gläubigern, einschließlich Buchungszahlungszeilen und das Anzeigen einer Übersicht über den fälligen Saldo zu verwalten.'
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: overview
-ms.devlang: al
 ms.search.keywords: 'print check, vendor payment, creditor, debt, balance due, AP'
 ms.search.form: '254, 256, 1190, 1191, 1227, 1228, 1229'
-ms.date: 04/01/2021
-ms.author: bholtorf
+ms.date: 05/24/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# <a name="making-payments"></a>Zahlungen vornehmen
+# Zahlungen vornehmen
 
-Wenn Sie Zahlungen an Kreditoren oder Debitoren leisten oder Ihre Mitarbeiter entschädigen, buchen Sie die jeweiligen Zahlungszeilen auf der **Zahlungsausgangs Buch.-Blatt**-Seite. Das Buch.-Blatt ist ein Fibu Buch.-Blatt, das zum Anwenden von Zahlungen optimiert wird und enthält mehrere leistungsstarke Funktionen wie die **Zahlungsvorschlag** Funktion einfügen, welche Kreditorenzahlungen, die fällig sind und den **Kreditor - Saldo nach Perioden** Bericht findet, der einen Überblick über die fälligen Kreditorenzahlungen anzeigt.  
+Sie bezahlen Kreditoren oder Debitoren oder entschädigen Ihre Mitarbeiter, indem Sie die jeweiligen Zahlungszeilen auf der Seite **Zahlungsausgangs Buch.-Blatt** buchen. Das Buch.-Blatt ist ein Fibu Buch.-Blatt, das zum Anwenden von Zahlungen optimiert wird und viele leistungsstarke Aktionen bietet. Beispielsweise die Aktion **Lieferantenzahlungen vorschlagen**, die fällige Lieferantenzahlungen findet, und der Bericht **Lieferant – Zusammenfassung Alterung**, der eine Übersicht über fällige Lieferantenzahlungen anzeigt.  
 
-Sie können den Vorgang des Leistens der Zahlung aus Listen, den Karten und der Posten für Debitoren, Kreditoren und Mitarbeiter starten. Jede der Seiten hat eine Schaltfläche, die den Zahlungsstrom startet und die Ihnen dabei hilft, das Zahlungsausgangs Buch.-Blatt ausfüllen.  
+Sie können den Zahlungsprozess über die Listen, Karten und Posten für Debitoren, Kreditoren und Mitarbeiter starten. Jede der Seiten hat eine Schaltfläche, die den Zahlungsstrom startet und die Ihnen dabei hilft, das Zahlungsausgangs Buch.-Blatt ausfüllen.  
 
-Im Zahlungsausgangs Buch.-Blatt können Sie Computerschecks drucken sowie ausgestellte Schecks erfassen. Wenn Sie **Computer Scheck** im Feld **Bankkontozahlungsart** wählen, dann müssen alle Posten für Schecks gedruckt werden, damit die Buch.-Blattzeilen gebucht werden können.
+Im Zahlungsausgangs Buch.-Blatt können Sie Computerschecks drucken sowie ausgestellte Schecks erfassen. Wenn Sie **Computer Scheck** im Feld **Bankkontozahlungsart** wählen, müssen Sie Zeilen drucken, die die Schecks darstellen, bevor Sie die Buch.-Blattzeilen buchen können.
 
-Wenn Zahlungen gebucht werden, exportieren Sie sie in eine Bankdatei für den Upload zu Ihrer Bank zur Verarbeitung.
+Nachdem Sie Zahlungen gebucht haben, können Sie sie in eine Bankdatei exportieren, die Sie zur Verarbeitung in Ihre Bank hochladen können.
 
-Nachdem die Zahlungen in Ihrer Bank getätigt wurden, müssen Sie diese in den entsprechenden offenen Kreditorenposten ausgleichen. Sie können dies manuell oder über den Import in eine Bankkontoauszugsdatei und das Automatische Ausgleichen der Zahlungen durchführen. Weitere Informationen finden Sie unter [Zahlungen automatisch vornehmen und Bankkonten abstimmen](receivables-apply-payments-auto-reconcile-bank-accounts.md).
+Nachdem die Zahlungen in Ihrer Bank getätigt wurden, müssen Sie diese in den entsprechenden offenen Kreditorenposten ausgleichen. Sie können sie manuell oder über den Import in eine Bankkontoauszugsdatei und die automatische Anwendung der Zahlungen anwenden. Weitere Informationen finden Sie unter [Zahlungen automatisch vornehmen und Bankkonten abstimmen](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
-Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Themen, die sie beschreiben..
+Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Artikeln, die sie beschreiben.
 
-| An | Siehe |
+| Bis | Siehe |
 | --- | --- |
 |Verwenden Sie die Seite **Zahlungsausgangs Buch.-Blatt**, das auf dem Fibu Buch.-Blatt basiert, um Zahlungen an Kreditoren oder für Mitarbeiter zu buchen.|[Arbeiten mit Fibu Buch.-Blättern](ui-work-general-journals.md)|
 |Buchen Sie Zahlungen an Kreditoren oder Mitarbeiter und Erstattungen an Debitoren und wenden Sie optional die Zahlungen für die verwandten unbezahlten Rechnungen/Gutschriften an, um sie als bezahlt abzuschließen.|[Zahlungsbelege und Erstattungen](payables-how-post-payments-refunds.md)|
@@ -34,7 +35,7 @@ Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Themen,
 | Bezahlen Sie einen Kreditor bar oder mit Scheck und buchen Sie die Zahlung, wenn Sie die Rechnung buchen. |[Einkaufsrechnungen sofort ausgleichen](finance-how-to-settle-purchase-invoices-promptly.md) |
 | Um sicherzustellen, dass Ihre Bank nur Schecks und Beträge freigibt, können Sie ihr eine Datei senden, die die Daten für Kreditoren, Schecks und Zahlungsinformationen enthält. |[Positive Pay-Datei exportieren](finance-how-positive-pay.md) |
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Verwalten von Verbindlichkeiten](payables-manage-payables.md)  
 [Einkauf](purchasing-manage-purchasing.md)  

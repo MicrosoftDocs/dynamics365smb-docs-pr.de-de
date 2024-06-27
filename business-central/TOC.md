@@ -200,7 +200,7 @@ ms.service: dynamics-365-business-central
 #### [Touch- und Stiftgesten](touch-gestures.md)
 ### [Problembehebung: Auf Kamera und Standort zugreifen](ui-troubleshooting-camera-location.md)
 ### [Intelligente Erkenntnisse (nur online)](about-intelligent-cloud.md)
-## Häufig gestellte Fragen
+## Fehlerbehebung und häufig gestellte Fragen
 ### [Häufig gestellte Fragen](across-faq.yml)
 ### [Häufig gestellte Fragen zu Chat mit Copilot (Vorschauversion)](chat-with-copilot-faq.md)
 ### [Häufig gestellte Fragen zu „Sie wünschen ...“](ui-search-faq.md)
@@ -211,6 +211,7 @@ ms.service: dynamics-365-business-central
 ### [Häufig gestellte Fragen zu Teams](teams-faq.md)
 ### [Häufig gestellte Fragen zur elektronischen Fakturierung](faq-electronic-invoicing.yml)
 ### [Mindestanforderungen](product-requirements.md)
+### [Details zur Problembehandlung in Business Central](/troubleshoot/dynamics-365/business-central/welcome-business-central)
 
 ## Hilfe und Support
 ### [Ressourcen für Hilfe und Support](product-help-and-support.md)
@@ -459,6 +460,11 @@ ms.service: dynamics-365-business-central
 #### [Nachhaltigkeitseinrichtung](finance-sustainability-setup.md)
 #### [Diagramm der Nachhaltigkeitskonten und des Sachkontos ](finance-sustainability-accounts-ledger.md)
 #### [So erfassen Sie Treibhausgasemissionen (THG)](finance-sustainability-journal.md)
+#### Nachhaltigkeitsanalysen
+##### [Ad-hoc-Analysen von Nachhaltigkeitsdaten](ad-hoc-analysis-sustainability.md)
+##### [Integrierte Nachhaltigkeitsberichte](sustainability-reports.md)
+#### Nachhaltigkeits-APIs
+##### [Nachhaltigkeits-API](/dynamics365/business-central/dev-itpro/api-sustainability/sustainability-api?toc=/dynamics365/business-central/toc.json)
 
 ### [Organisationen mit mehreren Standorten und internationale Organisationen](finance-multi-site-organizations.md)
 #### Finanzdaten von mehreren Unternehmen konsolidieren
@@ -600,7 +606,7 @@ ms.service: dynamics-365-business-central
 #### [Anlagenanalysen – Übersicht](fa-analytics-overview.md)
 #### [Ad-hoc-Analysen von Anlagendaten](ad-hoc-analysis-fa.md)
 #### Integrierte Analysetools für Anlagen
-##### [Wartungskosten überwachen](fa-how-maintain.md#to-monitor-maintenance-costs)
+##### [Wartungskosten überwachen](fa-how-maintain.md#monitor-maintenance-costs)
 ##### [Versicherungsdeckung überwachen](fa-how-insure.md#to-monitor-insurance-coverage)
 ##### [Geänderte AfA-Buchwerte anzeigen](fa-how-trans-split-combine.md#to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification)
 ##### [Verkaufsposten anzeigen](fa-how-dispose-retire.md#to-view-disposal-ledger-entries)
@@ -1857,6 +1863,7 @@ ms.service: dynamics-365-business-central
 #### [Wichtige Finanzberichte](finance-reports.md)
 #### [Debitorenberichte](receivables-reports.md)
 #### [Kreditorenkontenberichte](payables-reports.md)
+#### [Nachhaltigkeitsberichte](sustainability-reports.md)
 
 ### [Verkaufsberichte](sales-reports.md)
 ### [Einkaufsberichte](purchase-reports.md)
