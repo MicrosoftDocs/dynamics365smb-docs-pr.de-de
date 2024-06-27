@@ -11,7 +11,7 @@ ms.date: 05/24/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Neue Artikel registrieren
+# <a name="register-new-items"></a>Neue Artikel registrieren
 
 Artikel sind Waren oder Dienstleistungen, die Sie kaufen, lagern, verkaufen, liefern und abrechnen. Verwenden Sie die **Artikelkarte**, um Informationen zu den folgenden Artikeltypen zu registrieren:
 
@@ -24,19 +24,19 @@ Weitere Informationen zu diesen Artikeltypen finden Sie unter [Info zu Artikelty
 > [!TIP]
 > Es gibt auch Katalogartikel, die ähnlich wie die nicht auf Lager befindlichen Artikel sind, da es sich um Artikel handelt, die Sie den Kunden anbieten, diese aber erst verwalten, wenn Sie sie verkaufen. Weitere Informationen finden Sie unter [Mit Katalogartikeln arbeiten](inventory-how-work-nonstock-items.md).  
 
-## Primäre und alternative Anbieter
+## <a name="primary-and-alternate-vendors"></a>Primäre und alternative Anbieter
 
 Wenn Sie denselben Artikel bei mehreren Kreditoren nkaufen, können Sie die Kreditoren mit dem Artikel verbinden. Verwenden Sie die Aktion **Kreditoren** auf der Seite **Artikelkarte**, um die Seite **Artikel/Lieferanten Katalog** zu öffnen. Auf der Seite werden die Kreditoren angezeigt, bei denen Sie den Artikel kaufen, sodass Sie beim Erstellen einer Bestellung problemlos einen alternativen Kreditor erstellen oder auswählen können.
 
-## Artikelvorlagen verwenden
+## <a name="use-item-templates"></a>Artikelvorlagen verwenden
 
 Um beim Erstellen neuer Artikel Einstellungen für verschiedene Artikeltypen wiederzuverwenden, können Sie Artikel als Artikelvorlagen speichern. Mithilfe von Artikelvorlagen können Sie neue Artikel schneller hinzufügen und die Konsistenz Ihrer Artikeldaten erhöhen. Wenn Sie einen neuen Artikel registrieren, wird eine Seite angezeigt, auf der Sie eine Vorlage auswählen können. Nachdem Sie eine Vorlage ausgewählt haben, werden deren Einstellungen für das von Ihnen erstellte Element automatisch eingetragen. Wenn Sie nur über eine Artikelvorlage verfügen, verwenden neue Artikel immer diese Vorlage. Weitere Informationen zum Einrichten einer Artikelvorlage finden Sie unter [Eine Artikelkarte als Artikelvorlage speichern](#save-an-item-card-as-an-item-template).
 
-## Artikel in Stücklisten aufnehmen
+## <a name="include-items-in-bills-of-materials"></a>Artikel in Stücklisten aufnehmen
 
 Sie können Hierarchien mit einem Hauptartikel und zugrunde liegenden Komponentenartikeln in Montage- und Produktionsstücklisten strukturieren. Weitere Informationen Stücklisten finden Sie unter [Mit Stücklisten arbeiten](inventory-how-work-BOMs.md).
 
-## So erstellen Sie eine neue Artikelkarte
+## <a name="to-create-a-new-item-card"></a>So erstellen Sie eine neue Artikelkarte
 
 Das folgende Video zeigt, wie ein Artikel auf der Seite „Artikelkarte“ eingerichtet wird. Sie können jedoch auch neue Artikel einrichten, indem Sie vorhandene kopieren. Weitere Informationen finden Sie unter [Vorhandene Artikel kopieren, um neue Artikel zu erstellen](inventory-how-copy-items.md).  
 
@@ -51,7 +51,7 @@ Das folgende Video zeigt, wie ein Artikel auf der Seite „Artikelkarte“ einge
 
 Sie können Sonderpreise oder Rabatte verwenden, die Sie oder Ihr Kreditor nach bestimmten Kriterien für den Artikel gewähren. Kriterien sind beispielsweise Kunde, Mindestbestellmenge oder Enddatum. Sonderpreise werden durch Auswahl der Aktionen **Sonderpreise festlegen** oder **Sonderrabatte festlegen** eingerichtet. Jede Zeile zum Beispiel auf der Seite **Verkaufspreise** repräsentiert einen Sonderpreis. Jede Spalte stellt ein Kriterium dar, das angewendet werden muss, um einem Debitor den Sonderpreis zu gewähren, den Sie in das Feld **VK-Preis** auf der Seite **Verkaufspreise** eingeben. Weitere Informationen zur Preisgestaltung finden Sie unter [Verkaufspreise, Rabatt und Zahlungsvereinbarungen aufzeichnen](sales-how-record-sales-price-discount-payment-agreements.md) oder [Spezielle Verkaufspreise und Rabatte aufzeichnen](purchasing-how-record-purchase-price-discount-payment-agreements.md).
 
-### Artikelkarte als Artikelvorlage speichern
+### <a name="save-an-item-card-as-an-item-template"></a>Artikelkarte als Artikelvorlage speichern
 
 1. Wählen Sie auf der Seite **Artikelkarte** die Aktion **Als Vorlage speichern** aus. Die Seite **Arikelvorlage** zeigt die Artikelkarte als Vorlage.
 2. Füllen Sie die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -61,11 +61,11 @@ Sie können Sonderpreise oder Rabatte verwenden, die Sie oder Ihr Kreditor nach 
 
 Die Artikelvorlage wird der Liste von Artikelvorlagen hinzugefügt, damit Sie diese verwenden können, um neue Debitorenkarten zu erstellen.
 
-### Artikel, die in Fertigungsaufträgen verwendet werden
+### <a name="items-used-in-production-orders"></a>Artikel, die in Fertigungsaufträgen verwendet werden
 
 Wenn Sie Artikel registrieren möchten, die dann in Fertigungsaufträgen verwendet werden, geben Sie die Beschaffungsmethode im Inforegister **Beschaffung** als *Fertigungsauftrag* an. Weitere Informationen finden Sie unter [Info zu Montageaufträgen](production-about-production-orders.md).  
 
-## So richten Sie mehrere Kreditoren für einen Artikel ein
+## <a name="to-set-up-multiple-vendors-for-an-item"></a>So richten Sie mehrere Kreditoren für einen Artikel ein
 
 Wenn Sie den gleichen Artikel von mehr als einem Kreditoren einkaufen, müssen Sie die benötigten Informationen für jeden Kreditor eingeben. Dies umfasst z. B. Preise, Lieferzeit, Rabatte usw.  
 
@@ -78,11 +78,11 @@ Wenn Sie den gleichen Artikel von mehr als einem Kreditoren einkaufen, müssen S
 
 Die Kreditoren erscheinen dann auf der Seite **Artikel/Kreditoren Katalog**, damit Sie einen alternativen Kreditor einfach auswählen können.
 
-## Ersatzartikel einrichten
+## <a name="set-up-item-substitutions"></a>Ersatzartikel einrichten
 
 Sie können Artikel so einrichten, dass sie über Ersatzartikel verfügen, z. B. andere Artikel, die anstelle des ursprünglichen Artikels verwendet werden können.
 
-### So legen Sie einen Ersatzartikel für einen Artikel fest
+### <a name="to-make-an-item-substitution"></a>So legen Sie einen Ersatzartikel für einen Artikel fest
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol einrichten möchten, geben Sie **Artikel** ein und wählen dann den entsprechenden Link.  
 2. Suchen Sie den entsprechenden Artikel, und klicken Sie dann auf die **Artikelnr.**, um die Artikelkarte zu öffnen.  
@@ -95,29 +95,29 @@ Wenn die angeforderte Menge, beispielsweise in einer Verkaufszeile, die Menge ü
 > [!NOTE]  
 > Beachten Sie, dass Artikelersetzungen nicht automatisch dazu führen, dass ein Artikel durch einen anderen Artikel ersetzt wird, beispielsweise beim Erstellen eines Verkaufsauftrags oder in einer Stückliste. Stattdessen werden Sie darüber benachrichtigt, dass Ihnen ein Ersatzartikel zur Verfügung steht.
 
-## Kategorien, Attribute und Varianten
+## <a name="categories-attributes-and-variants"></a>Kategorien, Attribute und Varianten
 
 [!INCLUDE[inventory_variant](includes/inventory_variant.md)]
 
 Erfahren Sie mehr über Varianten unter [Produktvarianten verwalten](inventory-item-variants.md).  
 
-## Artikelkarten löschen
+## <a name="delete-item-cards"></a>Artikelkarten löschen
 
 Wenn Sie eine Transaktion für einen Artikel gebucht haben, können Sie die Karte nicht löschen, da die Posten möglicherweise für die Bestandsbewertung oder die Prüfung erforderlich sind. Um Artikelkarten mit Posten zu löschen, wenden Sie sich an einen Microsoft-Partner, um dies über einen Code durchzuführen.  
 
-## Lagerbestand in Lagern verwalten
+## <a name="manage-inventory-in-warehouses"></a>Lagerbestand in Lagern verwalten
 
 Wenn Sie einen neuen Artikel erfassen, werden Felder angezeigt, die sich auf die Lagerverwaltung beziehen, insbesondere im Inforegister **Lager**. Wenn Ihre Organisation die Lagerverwaltungsfunktionen in [!INCLUDE [prod_short](includes/prod_short.md)] nicht verwendet, können Sie diese Felder ignorieren.  
 
 Wenn Ihre Organisation später eine Lagerverwaltung einrichtet, empfehlen wir Ihnen sicherzustellen, dass jeder vorhandene Artikel die richtigen Informationen in den verschiedenen Feldern enthält. Auf diese Weise können die Lagerprozesse wie erwartet ablaufen. Die Informationen können Felder wie **Lagerklassencode** oder **Einlagerungsvorlagencode** umfassen. Weitere Informationen finden Sie unter [Lagerortverwaltung einrichten](warehouse-setup-warehouse.md).  
 
-## Planung
+## <a name="planning"></a>Planung
 
 Wenn Ihre Firma die Prozesse der Lieferplanung in [!INCLUDE [prod_short](includes/prod_short.md)] verwendet, müssen Sie die entsprechenden Felder auf dem Inforegister **Planung** ausfüllen. Eine Einführung in den Planungsbereich finden Sie unter [Details zur Planung: Zentrale Konzepte des Planungssystems](design-details-central-concepts-of-the-planning-system.md).  
 
 Beispiele für die Verwendung der Felder auf der Inforegisterkarte **Planung** finden Sie unter [Bewährte Verfahren für die Einrichtung: Planungsparameter](setup-best-practices-planning-parameters.md).  
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Bestand](inventory-manage-inventory.md)  
 [Einheiten einrichten](inventory-how-setup-units-of-measure.md)  

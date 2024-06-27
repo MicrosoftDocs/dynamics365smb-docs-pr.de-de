@@ -12,15 +12,15 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Verwalten von Anlagen
+# <a name="manage-fixed-assets"></a>Verwalten von Anlagen
 
 Die Anlagenfunktion in [!INCLUDE[prod_short](includes/prod_short.md)] gibt Ihnen einen Überblick über Ihre Anlagen und hilft, sicherzustellen, dass sie korrekt abgeschrieben werden. Außerdem können Sie darüber Wartungskosten nachverfolgen, Versicherungen verwalten, Anlagentransaktionen buchen und verschiedene Berichte und Statistiken generieren.
 
-## Was ist ein Anlage?
+## <a name="what-is-a-fixed-asset"></a>Was ist ein Anlage?
 
 Anlagen unterscheidet sich von anderen Artikeln in Ihrem Lager. Ein Anlagevermögen, auch als Kapitalvermögen bezeichnet, ist eine Sachanlage, die Sie besitzen oder verwalten, in der Erwartung, dass sie weiterhin zur Erzielung von Einnahmen beiträgt. Bei einer Anlage handelt es sich um einen Gegenstand, das Ihr Unternehmen nicht innerhalb des nächsten Kalenderjahres verbrauchen, verkaufen oder in Geld umwandeln wird. Anlagen unterscheiden sich vom Umlaufvermögen, das in bar vorliegt oder innerhalb der nächsten 12 Monate in Bargeld umgewandelt werden soll. Anlagen unterscheiden sich auch von Ihrem Lagerbestand, da dieser in der Regel innerhalb kurzer Zeit verbraucht wird.
 
-## Anlagentypen
+## <a name="types-of-fixed-assets"></a>Anlagentypen
 
 Unternehmen investieren in der Regel in einige Anlagentypen. Einige Beispiele hierfür sind:
 
@@ -30,7 +30,7 @@ Unternehmen investieren in der Regel in einige Anlagentypen. Einige Beispiele hi
 - Maschinen
 - Fuhrpark
 
-## Anlagenbuchhaltung verstehen
+## <a name="understanding-fixed-asset-accounting"></a>Anlagenbuchhaltung verstehen
 
 Bei der Anlagenbuchhaltung handelt es sich um präzise Finanzdatensätze zu Ihrem Kapitalvermögen. Diese Datensätze enthalten Details zu den fünf Phasen im Lebenszyklus einer Anlage. Nach dem Erstkauf umfasst der Lebenszyklus jeder Anlage mindestens drei der folgenden Phasen:
 
@@ -42,13 +42,13 @@ Bei der Anlagenbuchhaltung handelt es sich um präzise Finanzdatensätze zu Ihre
 
 Zu den Betriebsprüfungen zählt auch die eingehende Prüfung der Buchhaltungsunterlagen Ihres Unternehmens nach Abschluss des Geschäftsjahres. Bei internen oder externen Prüfungen stellen Sie unter Umständen Unstimmigkeiten oder Unterschiede zwischen Ihren Aufzeichnungen und dem tatsächlichen Zustand Ihrer Anlagen fest. Überwachungen fördern die Transparenz Ihres Vermögens und Ihrer Buchhaltung, wenn Sie mehr Geld verlieren als erwartet.
 
-## Videoübersicht
+## <a name="video-overview"></a>Videoübersicht
 
 Das folgende Video behandelt die Grundlagen von Anlagen:
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS?rel=0]
 
-## Anlagen erstmals einrichten
+## <a name="initial-setup-of-fixed-assets"></a>Anlagen erstmals einrichten
 
 Bevor Sie Anlagen verwalten können, müssen Sie die folgenden Einstellungen vornehmen:
 
@@ -60,7 +60,7 @@ Bevor Sie Anlagen verwalten können, müssen Sie die folgenden Einstellungen vor
 
 Weitere Informationen finden Sie unter [Einrichten von Anlagen](fa-setup.md).
 
-## Anlagenanalysen
+## <a name="fixed-assets-analytics"></a>Anlagenanalysen
 
 In diesem Abschnitt werden die Analysetools beschrieben, mit denen Sie sich Einblick in die Daten über Ihre Anlagen verschaffen können.
 
@@ -74,7 +74,7 @@ In diesem Abschnitt werden die Analysetools beschrieben, mit denen Sie sich Einb
 | Anzeigen von Verkaufsposten | [Verkaufsposten anzeigen](fa-how-dispose-retire.md#to-view-disposal-ledger-entries) |
 | Geschätzte Verkaufswerte anzeigen. | [Geschätzte Verkaufswerte anzeigen](fa-how-manage-budgets.md#to-view-projected-disposal-values) |
 
-## Anlagen eintragen
+## <a name="register-fixed-assets"></a>Anlagen eintragen
 
 Sie müssen für jede Anlage eine Karte mit entsprechenden Informationen darüber einrichten. Gebäude oder Produktionseinrichtungen können zum Beispiel als Hauptanlagen mit einer Komponentenliste eingerichtet werden. Sie können Anlagen auf verschiedene Arten gruppieren, beispielsweise nach Klasse, Kostenstelle oder Standort. Dann können Sie die Anlagen erwerben, verwalten und verkaufen. Sie können auch Plananlagen einrichten. Durch die Budgetierung haben Sie die Möglichkeit, geplante Anschaffungen und Verkäufe in Berichten zu berücksichtigen.
 
@@ -83,7 +83,7 @@ Sie müssen für jede Anlage eine Karte mit entsprechenden Informationen darübe
 | Verwalten von Anlagenbudgets, Budgetieren von Anschaffungskosten, Budgetieren von Anlagenverkäufen und Budgetieren der AfA. |[Budgets für Anlagen verwalten](fa-how-manage-budgets.md) |
 | Erstellen von Anlagen, Zuordnen von AfA-Methoden, Buchen von Anschaffungen und Restwerten sowie Drucken von Anlagenübersichten |[Anlagen erwerben](fa-how-acquire.md) |
 
-## Abschreibungen für Ihre Anlagen einrichten
+## <a name="set-up-depreciations-for-your-fixed-assets"></a>Abschreibungen für Ihre Anlagen einrichten
 
 Um Anlagenabscheibungen und andere finanzielle Transaktionen rund um Anlagen nachzuverfolgen, richten Sie mindestens ein AfA-Buch für jede Anlage ein. Es gibt mehrere Schritte, um Anlagen abzuschreiben:
 
@@ -100,7 +100,7 @@ Um Anlagenabscheibungen und andere finanzielle Transaktionen rund um Anlagen nac
 | Geänderte Abschreibungsbuchwerte anzeigen. | [Geänderte AfA-Buchwerte anzeigen](fa-how-trans-split-combine.md#to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification) |
 | Sie können Anlagentransaktionen auf der Seite **Anlagen Fibu Buch.-Blatt** oder auf der Seite **Anlagen Buch - Blatt** manuell erfassen, abhängig davon, ob die Transaktionen für Finanzberichte oder zur internen Verwaltung bestimmt sind. | [Abschr. Anlagevermögen einrichten](fa-how-setup-depreciation.md) |
 
-## Wartung und Versicherung von Anlagen
+## <a name="fixed-assets-maintenance-and-insurance"></a>Wartung und Versicherung von Anlagen
 
 Sie können für jede Anlage die Wartungskosten und das nächste Wartungsdatum erfassen. Die Nachverfolgung der Wartungskosten ist unter Umständen für die Budgetierung und die Entscheidung über den Verkauf einer Anlage wichtig. Sie können jede Anlage einer oder mehreren Versicherungspolicen zuordnen und überprüfen, ob die Versicherungsprämien dem Wert der Anlagen entsprechen.
 
@@ -111,7 +111,7 @@ Sie können für jede Anlage die Wartungskosten und das nächste Wartungsdatum e
 | Aktualisieren von Versicherungsinformationen, Buchen von Anschaffungskosten auf Versicherungspolicen, Anpassen der Versicherungsdeckung, Anzeigen der Versicherungsstatistik und Auflisten von Versicherungspolicen |[Anlagen versichern](fa-how-insure.md) |
 | Versicherungen überwachen. | [Versicherungsdeckung überwachen](fa-how-insure.md#to-monitor-insurance-coverage) |
 
-## Umbuchen, Übertragung, Aufteilung/Zusammenlegung, Wertberichtigung, Abschreibung und Veräußerung von Anlagen
+## <a name="reclassify-transfer-split-upcombine-adjust-value-write-down-and-dispose-fixed-assets"></a>Umbuchen, Übertragung, Aufteilung/Zusammenlegung, Wertberichtigung, Abschreibung und Veräußerung von Anlagen
 
 | Bis  | Siehe |
 | --- | --- |
@@ -121,7 +121,7 @@ Sie können für jede Anlage die Wartungskosten und das nächste Wartungsdatum e
 | Anzeigen von Verkaufsposten | [Verkaufsposten anzeigen](fa-how-dispose-retire.md#to-view-disposal-ledger-entries) |
 | Geschätzte Verkaufswerte anzeigen. | [Geschätzte Verkaufswerte anzeigen](fa-how-manage-budgets.md#to-view-projected-disposal-values) |
 
-## Tipps zur Verbesserung Ihrer Anlagenbuchhaltung
+## <a name="tips-for-improving-your-fixed-asset-accounting"></a>Tipps zur Verbesserung Ihrer Anlagenbuchhaltung
 
 Es gibt einige Dinge, die Sie in Ihrer Buchhaltungsstrategie für Anlagen umsetzen können, um sicherzustellen, dass Sie Ihre Gewinne maximieren.
 
@@ -130,7 +130,7 @@ Es gibt einige Dinge, die Sie in Ihrer Buchhaltungsstrategie für Anlagen umsetz
 - Kennzeichnen Sie Ihre Anlagen. Es ist wichtig, Ihre Anlagen während ihres gesamten Lebenszyklus zu verfolgen und zu kennzeichnen, da ihr Wert von vielen Faktoren beeinflusst werden kann. Durch die Kennzeichnung können Sie Ihre Gegenstände in allen Phasen ihres Lebenszyklus nachverfolgen und Diebstähle verhindern, Fehlplatzierungen vermeiden und Finanzstatistiken unterstützen.
 - Automatisieren Sie Einblicke mit einer Software zur Anlagenbuchhaltung. Durch die Automatisierung manueller Aktivitäten zur Nachverfolgung Ihrer Daten mit einer Software zur Anlagenbuchhaltung können Prozesse einfacher abgeschlossen werden. Der Kennwortschutz kann dazu beitragen, dass nur die Personen Zugang erhalten, die ihn benötigen und dafür geschult sind.
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Einrichten von Anlagen](fa-setup.md)  
 [Anlagenanalysen – Übersicht](fa-analytics-overview.md)  

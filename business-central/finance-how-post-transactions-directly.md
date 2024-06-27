@@ -11,7 +11,7 @@ ms.search.form: '39, 251'
 ms.date: 06/13/2024
 ms.service: dynamics-365-business-central
 ---
-# Transaktionen direkt in der Finanzbuchhaltung buchen
+# <a name="post-transactions-directly-to-the-general-ledger"></a>Transaktionen direkt in der Finanzbuchhaltung buchen
 
 Fibu Buch.-Blätter dienen zum Buchen auf Sachkonten sowie auf andere Konten wie Bank-, Debitoren-, Debitoren- oder Mitarbeiterkonten.  
 
@@ -21,7 +21,7 @@ Fibu Buch.-Blätter dienen zum Buchen auf Sachkonten sowie auf andere Konten wie
 
 Posten, die Sie mit Belegen buchen, erfordern einen Gutschriftsprozess. Sie können jedoch Posten stornieren, die Sie mit dem Hauptbuch buchen. Weitere Informationen finden Sie unter [Erfassungsbuchungen stornieren und Belege/Lieferungen rückgängig machen](finance-how-reverse-journal-posting.md).
 
-## Transaktionen direkt in die Finanzbuchhaltung buchen
+## <a name="to-post-a-transaction-directly-to-a-general-ledger-account"></a>Transaktionen direkt in die Finanzbuchhaltung buchen
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Allgemeine Erfassungen** ein, und wählen Sie dann den entsprechenden Link.
 2. Öffnet Sie das Fibu Buch.-Blatt. Weitere Informationen finden Sie unter [Arbeiten mit Allgemeinen Buch.-Blättern](ui-work-general-journals.md).
@@ -35,7 +35,7 @@ Posten, die Sie mit Belegen buchen, erfordern einen Gutschriftsprozess. Sie kön
     > Wenn Sie Zeilen mit mehreren Transaktionszeilen vor einer Gegenkontozeile, beispielsweise für ein Bankkonto, eingeben möchten, aktivieren Sie das Kontrollkästchen **Ausgleichsbetrag vorschlagen** in der Zeile für Ihren Stapel auf der Seite **Fibu Buch.-Blatt-Stapelverarbeitungen**. Das Feld **Betrag** auf der Gegenkontozeile wird automatisch mit dem Wert ausgefüllt, der erforderlich ist, um Transaktionen auszugleichen.
 5. Wählen Sie die **Buchen** Aktion aus, um die Transaktionen in den angegebenen Sachkonten zu erfassen.
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Mit Fibu Buch.-Blättern arbeiten](ui-work-general-journals.md)  
 [Ausgaben der Beschäftigten aufzeichnen und erstatten](finance-how-record-reimburse-employee-expenses.md)  

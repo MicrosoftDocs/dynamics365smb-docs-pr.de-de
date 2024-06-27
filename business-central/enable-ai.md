@@ -12,7 +12,7 @@ ms.collection:
   - bap-ai-copilot
 ---
 
-# Copilot- und KI-Funktionen konfigurieren
+# <a name="configure-copilot-and-ai-capabilities"></a>Copilot- und KI-Funktionen konfigurieren
 
 <!--[!INCLUDE[ai-preview](includes/ai-preview.md)]-->
 
@@ -39,12 +39,12 @@ Copilot ist eine Systemfunktion und ein integraler Bestandteil von Business Cent
 
 Wenn eine dieser Anforderungen nicht erfüllt ist, steht das Feature nicht zur Verfügung.
 
-## Voraussetzungen
+## <a name="prerequisites"></a>Voraussetzungen
 
 - Sie verwenden Business Central Online.
 - Sie sind [Administrierender](#requirements-for-being-an-administrator) für Business Central.
 
-## Datenverschiebung über geografische Regionen hinweg zulassen
+## <a name="allow-data-movement-across-geographies"></a>Datenverschiebung über geografische Regionen hinweg zulassen
 
 Diese Aufgabe gilt nur, wenn die Option **Datenverschiebung zulassen** oben auf der Seite **Copilot- und KI-Funktionen** angezeigt wird. Überspringen Sie diese Aufgabe, wenn anstelle der Option **Datenverschiebung zulassen** der Link **Wie kann ich meine Copilot-Daten verwalten?** angezeigt wird.
 
@@ -84,7 +84,7 @@ Meanwhile, customers with environments outside the United States can use Copilot
 
 The information in the following table outlines the Azure OpenAI service that's used by the Copilot services based on the geography of their Dynamics 365 environment when they opt-in to share data.-->
 
-## Features aktivieren
+## <a name="activate-features"></a>Features aktivieren
 
 Alle Copilot- und KI-Funktionen sind standardmäßig aktiv, wenn sie in der Vorschau verfügbar gemacht werden oder allgemein verfügbar werden. Auf der Seite **Copilot- und KI-Funktionen** können Sie einzelne Features für alle Benutzenden deaktivieren oder wieder aktivieren.
 
@@ -99,7 +99,7 @@ Alle Copilot- und KI-Funktionen sind standardmäßig aktiv, wenn sie in der Vors
 <!-- don't review 
 
 <!-- For 2024 there are no AI features governed by **Feature Management**, so this section is not shown
-## Enable feature in Feature Management
+## <a name="enable-feature-in-feature-management"></a>Enable feature in Feature Management
 
 When individual Copilot capabilities are released in Business Central minor updates, these capabilities are optional until the next major update. **Feature Management** is used to turn on or off features that are in preview, like bank reconciliation, and some features that are generally available, like marketing text suggestions. [Learn more about feature management](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
@@ -112,7 +112,7 @@ When individual Copilot capabilities are released in Business Central minor upda
 
    For more information about feature management in general, go to [Feature Management](/dynamics365/business-central/dev-itpro/administration/feature-management).-->
 
-## Gewähren von Benutzerzugriff
+## <a name="granting-user-access"></a>Gewähren von Benutzerzugriff
 
 Copilot- und KI-Funktionen können Funktionen bieten, die für alle Benutzenden in Ihrer Organisation oder für bestimmte Benutzerrollen gedacht sind. Die meisten Copilot- und KI-Funktionen bieten Zugriffskontrolle mithilfe von Berechtigungen und Berechtigungssätzen im Berechtigungsverwaltungssystem von Business Central. [Erfahren Sie mehr über Berechtigungen und Berechtigungssätze](ui-define-granular-permissions.md).
 
@@ -129,7 +129,7 @@ In der folgenden Tabelle sind die Berechtigungen aufgelistet, die für die Verwe
 
 Um den Zugriff auf bestimmte, nicht von Microsoft stammende Copilot- und KI-Funktionen zu gewähren oder zu verweigern, wenden Sie sich an die Dokumentation oder den Herausgeber des Features und informieren Sie sich über die erforderlichen Berechtigungen.
 
-## Voraussetzungen um Administrierender zu sein
+## <a name="requirements-for-being-an-administrator"></a>Voraussetzungen um Administrierender zu sein
 
 Sie müssen entweder über SUPER-Berechtigungen in Ihrem Business Central-Benutzerkonto oder über eine der folgenden Business Central-Lizenzen verfügen:
 
@@ -141,7 +141,7 @@ Sie müssen entweder über SUPER-Berechtigungen in Ihrem Business Central-Benutz
 
 Business Central bietet noch keine granularen Berechtigungen auf Objektebene, sodass nur bestimmte Administrierende Copilot konfigurieren können.
 
-## Nächste Schritte
+## <a name="next-steps"></a>Nächste Schritte
 
 Nachdem Sie die Funktionen aktiviert und ihnen zugestimmt haben, können Sie sie ausprobieren. Gehen Sie zu den folgenden Artikeln:
 
@@ -152,7 +152,7 @@ Nachdem Sie die Funktionen aktiviert und ihnen zugestimmt haben, können Sie sie
 - [Bankkontoabstimmung mit Copilot](bank-reconciliation-with-copilot.md)
 - [Zeilen in Verkaufsaufträgen mit Copilot vorschlagen](sales-suggest-sales-lines-with-copilot.md)
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Probleme mit Copilot- und KI-Funktionen beheben](ai-copilot-troubleshooting.md)  
 [Häufig gestellte Fragen zur Analyseunterstützung](faqs-analysis-assist.md)  

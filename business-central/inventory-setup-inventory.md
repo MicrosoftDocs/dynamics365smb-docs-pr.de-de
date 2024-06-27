@@ -11,7 +11,7 @@ ms.search.form: '30, 461'
 ms.date: 06/13/2024
 ms.service: dynamics-365-business-central
 ---
-# Bestand einrichten
+# <a name="setting-up-inventory"></a>Bestand einrichten
 
 Bevor Sie Lageraktivitäten und Lagerbewertung verwalten können, müssen die Regeln und Werte konfiguriert werden, die die Lagerbestandsrichtlinien des Unternehmens definieren.
 
@@ -33,7 +33,7 @@ Nachdem Sie Ihr Lager so eingerichtet haben, können Sie verschiedene Lagervorg�
 |Importieren Sie mehrere Artikelbilder auf einmal aus einer ZIP-Datei, in der die Dateien entsprechend der Artikelnummern benannt sind.|[Mehrere Artikelbilder importieren](inventory-how-import-item-pictures.md)|
 |Geben Sie Standardberichte an, die für verschiedene Dokumenttypen verwendet werden sollen.|[Berichtsauswahl in Business Central](across-report-selections.md)|
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Verwalten des Lagerbestands](inventory-manage-inventory.md)  
 [Käufe verwalten](purchasing-manage-purchasing.md)  

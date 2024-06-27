@@ -11,11 +11,11 @@ ms.search.forms: '119, 9807,'
 ms.service: dynamics-365-business-central
 ---
 
-# Definieren Sie eine Rechnungsbuchungsrichtlinie für Benutzer
+# <a name="define-an-invoice-posting-policy-for-users"></a>Definieren Sie eine Rechnungsbuchungsrichtlinie für Benutzer
 
 Unternehmen haben oft einzigartige Prozesse zum Buchen von Verkaufs- und Einkaufsrechnungen und Lieferungen. Beispielsweise können die Prozesse von einer Person, die alles auf einer Bestellung bucht, bis zu mehreren Mitarbeitern variieren. Sie können Benutzer daran hindern, Rechnungen zu buchen oder verlangen, dass Rechnungen zusammen mit Lieferungen oder Belegen gebucht werden.
 
-## Um eine Buchhaltungsperioden festlegen
+## <a name="to-specify-a-posting-policy"></a>Um eine Buchhaltungsperioden festlegen
 
 Auf der Seite **Benutzereinrichtung** in den **Richtlinien zum Buchen von Verkaufsrechnungen** und **Purch. Wählen Sie in den Feldern Rechnungsbuchungsrichtlinie** eine der folgenden Optionen aus:
 
@@ -23,7 +23,7 @@ Auf der Seite **Benutzereinrichtung** in den **Richtlinien zum Buchen von Verkau
 * **Verboten** - Verhindert, dass der Benutzer Rechnungen verbucht. [!INCLUDE [prod_short](includes/prod_short.md)] zeigt einen Bestätigungsdialog an, der nur die Optionen **Liefern** und **Empfangen** bereitstellt.
 * **Obligatorisch** – Ermöglichen Sie dem Benutzer, Rechnungen zusammen mit Belegen oder Sendungen zu buchen. [!INCLUDE [prod_short](includes/prod_short.md)] zeigt einen Bestätigungsdialog an, der die Optionen **Liefern und fakturieren** und **Lieferung und Rechnung** bereitstellt.
 
-## Auswirkung auf die Dokumente
+## <a name="effect-on-documents"></a>Auswirkung auf die Dokumente
 
 Die folgende Tabelle beschreibt, wie sich Rechnungsbuchungsrichtlinien auf Dokumente auswirken.
 
@@ -47,7 +47,7 @@ Die folgende Tabelle beschreibt, wie sich Rechnungsbuchungsrichtlinien auf Dokum
    > [!Note]
    > Die Einstellung wirkt sich nicht auf die Buchung allgemeiner Buchungszeilen aus, in denen Sie **Rechnung** im Feld **Art des Dokuments** auswählen können.
 
-## Weitere Informationen
+## <a name="see-also"></a>Weitere Informationen
 
 [Fakturieren eines Verkaufs](sales-how-invoice-sales.md)  
 [Käufe mit Einkaufsrechnungen und Aufträgen erfassen](purchasing-how-record-purchases.md)  

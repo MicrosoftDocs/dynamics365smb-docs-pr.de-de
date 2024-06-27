@@ -11,7 +11,7 @@ ms.search.form: '36, 5870, 5872, 5874'
 ms.date: 06/13/2024
 ms.service: dynamics-365-business-central
 ---
-# Mit Montagestücklisten arbeiten
+# <a name="work-with-assembly-boms"></a>Mit Montagestücklisten arbeiten
 
 Sie verwenden Montagestücklisten, um übergeordnete Elemente zu strukturieren, die aus Komponenten mit geringem oder gar keinem Ressourceneinsatz zusammengesetzt werden müssen. Eine Montagestückliste kann z.B. dazu verwendet werden, ein übergeordnetes Element als Bausatz zu verkaufen, der aus Komponenten besteht.
 
@@ -21,7 +21,7 @@ Eine Montagestückliste liefert die Masterdaten, die festlegen, welche Komponent
 
 [!INCLUDE[prod_short](includes/prod_short.md)] unterstützt auch Fertigungsstücklisten. Fertigungsstücklisten unterscheiden sich von Montagestücklisten, da sie komplexere Verfahren wie etwa Ressourcennutzung, Fertigungsarbeitsgang und Arbeitsplätze oder Arbeitsplatzgruppen beinhalten. Erfahren Sie mehr über die Unterschiede unter [Arbeiten mit Stücklisten](inventory-how-work-BOMs.md) und [Erstellen von Fertigungsstücklisten](production-how-to-create-production-boms.md).
 
-## So erstellen Sie eine Montagestückliste
+## <a name="to-create-an-assembly-bom"></a>So erstellen Sie eine Montagestückliste
 
 Um einen Artikel zu definieren, der aus anderen Artikeln und eventuell den Ressourcen besteht, die den Artikel zusammensetzen, müssen Sie eine Montagestückliste erstellen.  
 
@@ -43,7 +43,7 @@ Es gibt zwei Schritte zum Erstellen einer Montagestückliste:
 > [!TIP]
 > Montageartikel können wie jeder andere Artikel auch Varianten aufweisen, was Ihnen hilft, Ihre Produktliste kürzer zu halten. Erfahren Sie mehr über diese Funktion unter [Produktvarianten verwalten](inventory-item-variants.md).
 
-## So bearbeiten Sie Montagestücklisten
+## <a name="to-edit-assembly-boms"></a>So bearbeiten Sie Montagestücklisten
 
 Sie können die Zeilen in einer Montagestückliste jederzeit bearbeiten. Die Stückliste kann jedoch von laufenden Verkäufen oder Montagen des übergeordneten Elements verwendet werden. Eine Änderung der Stückliste kann sich auf diese Aktivitäten auswirken. Wählen Sie die Aktion **Wo verwendet** aus, um die Artikel zu erkunden, die sie verwenden, und um zu ermitteln, ob Verkaufs- oder Montageaufträge betroffen sein könnten.
 
@@ -51,7 +51,7 @@ Sie können die Zeilen in einer Montagestückliste jederzeit bearbeiten. Die St�
 2. Wählen Sie den Wert **Ja** in der Spalte **Montagestückliste** aus.
 3. Wählen Sie auf der Seite **Montagestückliste** die Aktion **Liste bearbeiten** und ändern Sie dann ein beliebiges Feld nach Bedarf.
 
-## So werden Komponenten und Ressourcen angezeigt, eingerückt gemäß der Stücklistenstruktur
+## <a name="to-view-components-and-resources-indented-according-to-the-bom-structure"></a>So werden Komponenten und Ressourcen angezeigt, eingerückt gemäß der Stücklistenstruktur
 
 Auf der Seite **Montagestückliste** können Sie ein separates Fenster öffnen, in dem die Komponenten sowie jegliche Ressourcen angezeigt werden, die gemäß ihrer Stücklistenposition unter den Montageartikel eingerückt werden.
 
@@ -60,7 +60,7 @@ Auf der Seite **Montagestückliste** können Sie ein separates Fenster öffnen, 
 3. Wählen Sie auf der Seite **Elementkarte** die Aktion **Montage** und dann die Aktion **Montagestückliste**.
 4. Wählen Sie auf der Seite **Montagestückliste** die Aktion **Stückliste anzeigen** aus.
 
-## Um den Montageartikel von den Komponenten in Belegzeilen ersetzen
+## <a name="to-replace-the-assembly-item-with-its-components-on-document-lines"></a>Um den Montageartikel von den Komponenten in Belegzeilen ersetzen
 
 Sie können über beliebige Verkaufs- und Einkaufsbelege, die einen Montageartikel enthalten, eine spezielle Aktion verwenden, um die Zeile für den Montageartikel durch neue Zeilen für Komponenten zu ersetzen. Diese Aktion kann beispielsweise dann nützlich sein, wenn Sie die Komponenten als Kit verkaufen möchten, das den Montageartikel darstellt.
 
@@ -80,7 +80,7 @@ Alle Felder in der Verkaufsrechnungszeile für den Montageartikel werden außer 
 > [!NOTE]
 > Der Bericht **Kommissionierliste nach Bestellung** wird ebenfalls geändert, um nur die Komponenten anzuzeigen. Dies bedeutet, dass ein Lagerarbeiter, der den übergeordneten Artikel, den Montageartikel, auswählt, diesen nicht in der Kommissionierliste sieht. Erfahren Sie mehr unter [Drucken der Kommissionierliste](sales-how-print-picking-list.md).
 
-## So berechnen Sie den festen Einstandspreis von Montagestücklisten
+## <a name="to-calculate-the-standard-cost-of-an-assembly-item"></a>So berechnen Sie den festen Einstandspreis von Montagestücklisten
 
 Sie berechnen den Einstandspreis eines Montageartikels, indem Sie den Einstandspreis jeder Komponente und Ressource in der Montagestückliste des Artikels ermitteln.
 
@@ -104,7 +104,7 @@ Der Einstandspreis einer Montagestückliste entspricht immer der Summe der Einst
 
 Die Einstandspreise der Artikel, aus denen die Montagestückliste besteht, werden anhand der Artikelkarten der Komponenten kopiert. Die Kosten jedes Artikels wird mit der Menge multipliziert und die Summe der Kosten wird auf der Montageartikelkarte im Feld **Einheitskosten** angezeigt.
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Neue Artikel registrieren](inventory-how-register-new-items.md)  
 [Produktvarianten verwalten](inventory-item-variants.md)  

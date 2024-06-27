@@ -11,7 +11,7 @@ ms.search.form: '5200, 5201, 5204, 5206, 5208, 5209, 5211, 5212, 5221, 5228'
 ms.date: 06/06/2024
 ms.service: dynamics-365-business-central
 ---
-# Personalwesen verwalten
+# <a name="manage-human-resources"></a>Personalwesen verwalten
 
 In [!INCLUDE[prod_short](includes/prod_short.md)] können Sie ausführliche Datensätze über Ihre Mitarbeiter anlegen. Sie haben die Möglichkeit zum Erfassen und Pflegen von Mitarbeiterinformationen wie Arbeitsverträgen, vertraulichen Informationen, Qualifikationen oder Mitarbeiterkontakten.
 
@@ -26,7 +26,7 @@ Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Artikel
 | Erfassen Sie neue Mitarbeiter oder bearbeiten Sie Datensätze für vorhandene Mitarbeiter, und fügen Sie zugehörige Informationen hinzu, wie Verträge und Artikel. |[Erfassen eines Mitarbeiters](hr-how-register-employees.md) |
 | Erfassen Sie die Abwesenheit von Mitarbeitern und zeigen Sie die Abwesenheitsstatistik anhand verschiedener Filter an. |[Analysiert die Fehlzeiten der Mitarbeiter](hr-how-manage-absence.md) |
 
-## Weitere Informationen
+## <a name="see-also"></a>Weitere Informationen
 
 [Finanzen](finance.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

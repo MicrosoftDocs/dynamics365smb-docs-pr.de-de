@@ -10,11 +10,11 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Bescheinigungen
+# <a name="certifications"></a>Bescheinigungen
 
 Dieser Inhalt enthält Informationen über Zertifizierungen in Bezug auf [!INCLUDE[prod_short](../includes/prod_short.md)].  
 
-## Länder-/Regionspezifische Zertifizierungen und Akkreditierungen
+## <a name="countryregion-specific-certifications-and-accreditations"></a>Länder-/Regionspezifische Zertifizierungen und Akkreditierungen
 
 In einigen Ländern oder Regionen muss Buchhaltungssoftware zertifiziert werden, um Kommunalabgabevorschriften und finanziellen Anforderungen zu entsprechen. Einige Länder führen dies als jährliche Anforderung durch, während andere diese Anforderung nur einmal ausführen. Unten ist eine Liste der aktuellen Länder oder Regionen, in denen Business Central eine Zertifizierungen erzielt hat.
 
@@ -29,11 +29,11 @@ In einigen Ländern oder Regionen muss Buchhaltungssoftware zertifiziert werden,
 > [!NOTE]  
 > In den Ländern oder Regionen, in denen Microsoft keine lokale Version freigibt liegt es meistens am Partner, eine Zertifizierung von Business Central Grundprodukten inklusive der Partner-Lokalisierung und den gesetzlichen Funktionen zu erreichen.
 
-## BeAndere Bescheinigungen
+## <a name="other-certifications"></a>BeAndere Bescheinigungen
 
 Business Central als Clouddienst hat auch eine Zertifizierung wie ISO 27001 erzielt. Eine vollständige Liste dieser Zertifizierungen erhalten Sie, wenn Sie das [Microsoft Dynamics 365 Cloud Service Compliance-Datenblatt herunterladen](https://aka.ms/d365-compliance-list).
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Compliance](compliance-overview.md)  
 [Anwendungskompatibilität](compliance-application-compliance.md)  

@@ -10,7 +10,7 @@ ms.date: 05/24/2024
 ms.service: dynamics-365-business-central
 ---
 
-# Fehlermeldung: „Das Buchungsdatum liegt nicht in Ihrem Bereich der zulässigen Buchungsdaten...“
+# <a name="error-message-posting-date-is-not-within-your-range-of-allowed-posting-dates"></a>Fehlermeldung: „Das Buchungsdatum liegt nicht in Ihrem Bereich der zulässigen Buchungsdaten...“
 
 Wenn Sie den Batchauftrag **Lagerreg. fakt. Einst. Preise** verwenden, kann die folgende Fehlermeldung auftreten:
 
@@ -18,7 +18,7 @@ Wenn Sie den Batchauftrag **Lagerreg. fakt. Einst. Preise** verwenden, kann die 
 
 Diese Meldung zeigt an, dass Sie für das eingegebene Datum keine Posten buchen dürfen. Sie können dieses Problem umgehen, indem Sie Ihre Benutzereinrichtung ändern.
 
-## Ändern Sie die Benutzereinrichtung  
+## <a name="change-the-user-setup"></a>Ändern Sie die Benutzereinrichtung
 
 |Benutzer ID  |Buchungen zugel. ab  | Buchungen zugel. bis  |
 |---------|---------|--------|
@@ -26,9 +26,9 @@ Diese Meldung zeigt an, dass Sie für das eingegebene Datum keine Posten buchen 
 
 In diesem Fall dürfen Sie im Zeitraum vom 11. bis 30. September Buchungen vornehmen. Eine Buchung des Regulierungswertposten mit einem Buchungsdatum vom 10. September ist allerdings nicht möglich.  
 
-### Übersicht über die Einrichtung des Buchungsdatums
+### <a name="overview-of-the-posting-date-setup"></a>Übersicht über die Einrichtung des Buchungsdatums
 
-#### Lagerbuchungsperioden
+#### <a name="inventory-periods"></a>Lagerbuchungsperioden
 
 |Enddatum  |Name  |Geschlossen  |
 |---------|---------|---------|
@@ -45,7 +45,7 @@ In diesem Fall dürfen Sie im Zeitraum vom 11. bis 30. September Buchungen vorne
 |2020-11-30     |November 2020   |         |
 |2020-12-31     |Dezember   2020   |         |  
 
-#### Finanzbuchhaltung Einrichtung
+#### <a name="general-ledger-setup"></a>Finanzbuchhaltung Einrichtung
 
 |Feld|Wert|
 |---------|---------|
@@ -54,7 +54,7 @@ In diesem Fall dürfen Sie im Zeitraum vom 11. bis 30. September Buchungen vorne
 |Protokollzeit:       |         |
 |Lokales Adressformat:|   PLZ-Code      |  
 
-#### Benutzereinrichtung
+#### <a name="user-setup"></a>Benutzereinrichtung
 
 |Benutzer ID  |Buchungen zugel. ab  | Buchungen zugel. bis  |
 |---------|---------|--------|
@@ -62,7 +62,7 @@ In diesem Fall dürfen Sie im Zeitraum vom 11. bis 30. September Buchungen vorne
 
 Durch die Zuweisung eines breiteren zulässigen Buchungsdatumsbereichs auf der Seite **Lagerbuchungsperiode** oder der Seite **Finanzbuchhaltung Einrichtung** kann der Konflikt, der die Fehlermeldung verursacht, vermieden werden. Der weitere Bereich ermöglicht es Ihnen beispielsweise, den Regulierungswertposten mit einem Buchungsdatum vom 10. September zu buchen.
   
-## Siehe auch  
+## <a name="see-also"></a>Siehe auch
 
 [Designdetails: Buchungsdatum für Regulierungswertposten](design-details-inventory-adjustment-value-entry-posting-date.md)  
 [Designdetails: Lagerkostenberechnung](design-details-inventory-costing.md)  

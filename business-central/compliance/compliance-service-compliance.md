@@ -10,7 +10,7 @@ ms.date: 06/16/2024
 ms.author: soalex
 ms.service: dynamics-365-business-central
 ---
-# Dienst-Kompatibilität
+# <a name="service-compliance"></a>Dienst-Kompatibilität
 
 Dieser Inhalt enthält Informationen über Dienstkompatibilität in Bezug auf [!INCLUDE[prod_short](../includes/prod_short.md)] online.
 
@@ -20,11 +20,11 @@ Eine detaillierte Liste der Cloudkompatibilitätsanforderungen für Business Cen
 
 Wenn Sie an der vollständigen Liste der Kompatibilitätsanforderungen von Microsoft interessiert sind, gehen Sie zum [Microsoft Trust Center](https://www.microsoft.com/trustcenter/compliance/complianceofferings).
 
-## Servicebedingungen
+## <a name="service-terms"></a>Servicebedingungen
 
 [!INCLUDE[service-terms](../includes/service-terms.md)]
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Compliance](compliance-overview.md)  
 [Anwendungskompatibilität](compliance-application-compliance.md)  

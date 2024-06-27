@@ -11,7 +11,7 @@ ms.search.form: '256, 233, 624, 1228'
 ms.date: 06/06/2024
 ms.service: dynamics-365-business-central
 ---
-# Zahlungen und Erstattungen im Zahlungsausgangs Buch.-Blatt erfassen
+# <a name="record-payments-and-refunds-in-the-payment-journal"></a>Zahlungen und Erstattungen im Zahlungsausgangs Buch.-Blatt erfassen
 
 Auf der Seite **Zahlungsjournal** erfassen Sie Zahlungen and Kreditoren und Erstattungen an Debitoren. Wenn Sie eine Zlg Buch.-Blattzeile buchen, wird der zahlende Betrag angegebenen Bankkonto erfasst. Sie müssen dann die Schritte unternehmen, um die tatsächliche Geldüberweisung aus dem entsprechenden Bankkonto vorzunehmen.  
 
@@ -29,7 +29,7 @@ Zlg.-Ausg. Buch.-Blätter sind allgemeine Fibu Buch.-Blätter, die zum Anwenden 
 
     Zusätzlich zur Erfassung für die Leistung der Zahlung können Sie auch die Seite **Zahlungsausgangs Buch.-Blatt** verwenden, um die Zahlung für die weitere Verarbeitung von Ihrer Bank zu registrieren. Weitere Informationen finden Sie unter [Scheckzahlungen vornehmen](payables-how-work-checks.md) und [Elektronische Zahlungen vornehmen](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).  
 
-## Um Zahlungen im Zahlungsausgangs Buch.-Blatt vornehmen
+## <a name="to-make-payments-in-the-payment-journal"></a>Um Zahlungen im Zahlungsausgangs Buch.-Blatt vornehmen
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Zahlungsausgangs Buch.-Blätter** ein und wählen Sie dann den zugehörigen Link.
 2. Öffnen Sie den Buch.-Blattnamen, den Sie für Zahlungen verwenden.
@@ -40,7 +40,7 @@ Zlg.-Ausg. Buch.-Blätter sind allgemeine Fibu Buch.-Blätter, die zum Anwenden 
 5. Verwenden Sie alternativ die Aktion **Zahlungsvorschlag**. Alle Informationen und Beträge werden auch in die Buch.-Blattzeilen eingegeben. Weitere Informationen finden Sie unter [Zahlungsvorschlag](payables-how-suggest-vendor-payments.md).
 6. Nachdem Sie alle Buch.-Blattzeilen ausgefüllt haben, wählen Sie die Aktion **Buchen** aus.
 
-## So stellen Sie einen Scheck zur Rückerstattung aus
+## <a name="to-issue-a-refund-check"></a>So stellen Sie einen Scheck zur Rückerstattung aus
 
 1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten"), geben Sie **Zahlungsjournale** ein, und wählen Sie dann den entsprechenden Link aus.
 2. Wählen Sie im Feld **Belegart** die Option **Rückerstattung**.  
@@ -53,7 +53,7 @@ Zlg.-Ausg. Buch.-Blätter sind allgemeine Fibu Buch.-Blätter, die zum Anwenden 
 9. Wählen Sie im Feld **Gilt für Beleg. Nr.** die Belege aus, die eine Rückerstattung erfordern.  
 10. Nachdem Sie alle Zahlungs-Buch.-Blattzeilen ausgefüllt haben, wählen Sie die Aktion **Buchen/Drucken**, die Aktion **Buchen und Drucken** und dann **Ja** aus.  
   
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Scheckzahlungen vornehmen](payables-how-work-checks.md)  
 [Elektronische Zahlungen vornehmen](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)  

@@ -10,7 +10,7 @@ ms.search.form: '5, 118'
 ms.date: 06/10/2024
 ms.service: dynamics-365-business-central
 ---
-# Währungen einrichten
+# <a name="set-up-currencies"></a>Währungen einrichten
 
 [!INCLUDE [finance-currencies-def](includes/finance-currencies-def.md)]
 
@@ -18,7 +18,7 @@ Verwenden Sie einen externen Dienst, um aktuelle Währungswechselkurse in der Li
 
 [!INCLUDE [finance-currencies-lcy](includes/finance-currencies-lcy-note.md)]
 
-## <a name="curr"></a>Währungen
+## <a name="currencies"></a><a name="curr"></a>Währungen
 
 In der folgenden Tabelle werden die Felder in der **Währungen**-Liste beschrieben.
 
@@ -54,7 +54,7 @@ In der folgenden Tabelle werden die Felder in der **Währungen**-Liste beschrieb
 |**Max. MwSt.-Differenz zulässig**|Der Höchstbetrag für MwSt.-Differenzen in dieser Währung. Weitere Informationen finden Sie unter [MwSt.-Beträge in Verkaufs- und Einkaufsbelegen manuell korrigieren](finance-work-with-vat.md#correcting-vat-amounts-manually-on-sales-and-purchase-documents). Dieses Feld ist möglicherweise standardmäßig nicht sichtbar. Sie kann durch Personalisierung der Seite abgerufen werden.|
 |**MwSt.-Rundungsmethode**|Gibt die Rundungsmethode für die manuelle Korrektur von MwSt.-Beträgen in Verkaufs- und Einkaufsbelegen an. Dieses Feld ist möglicherweise standardmäßig nicht sichtbar. Sie kann durch Personalisierung der Seite abgerufen werden.|
 
-### Verfügbare Währungsfunktionen
+### <a name="available-currency-functions"></a>Verfügbare Währungsfunktionen
 
 In der folgenden Tabelle sind die wichtigsten Aktionen auf der Seite **Währungen** aufgeführt.  
 
@@ -69,11 +69,11 @@ In der folgenden Tabelle sind die wichtigsten Aktionen auf der Seite **Währunge
 ||**Wechselkurse aktualisieren**|Rufen Sie die neuesten Währungswechselkurse bei einem Dienstanbieter ab.|
 |**Berichte**|**Fremdwährungssaldo**|Zeigen Sie die Salden aller Debitoren und Kreditoren in der Fremdwährung und in der Landeswährung (Mandantenwährung, MW) an. Der Bericht zeigt zwei Salden in MW an. Dazu gehört auch der Fremdwährungssaldo, der mithilfe des Wechselkurses zum Zeitpunkt der Transaktion in MW konvertiert wird. Außerdem gehört dazu der Fremdwährungssaldo, der mithilfe des Wechselkurses des Arbeitsdatums in MW konvertiert wird.|
 
-## LCY und andere Währungen
+## <a name="lcy-and-other-currencies"></a>LCY und andere Währungen
 
 [!INCLUDE [finance-currencies-lcy-def](includes/finance-currencies-lcy-def.md)]
 
-## Runden von Währungen
+## <a name="rounding-currencies"></a>Runden von Währungen
 
 Zum Verwalten von Währungen ohne Dezimalwerte sowie zum Vermeiden unnötiger Dezimalwerte in Fremdwährung stehen zwei unterschiedliche Rundungsfunktionen zur Verfügung:
 
@@ -85,35 +85,35 @@ Diese Funktionen können einzeln oder in Kombination verwendet werden. Darüber 
 
 Im Gegensatz zur Rechnungsrundung wirken sich die Betrags- und die Stückpreisrundung lediglich auf Beträge in Fremdwährung (und nicht auf die entsprechenden Beträge in der Mandantenwährung) aus. Mit diesen beiden Funktionen erfolgen keine Buchungen auf Sachkonten. Daher muss auch kein Sachkonto angegeben werden (weder in Buchungsgruppen noch an anderer Stelle).
 
-### Stückpreisrundung
+### <a name="unit-amount-rounding"></a>Stückpreisrundung
 
 Mit der Stückpreisrundung wird gesteuert, wie in Fremdwährung vorliegende Verkaufspreise für Artikel und Ressourcen in Verkaufs- und Einkaufszeilen gerundet werden. Die Regeln müssen in der Liste **Währungen** im Feld **Stückpreisrundungspräzision** für jede Währung einzeln angegeben werden.
 
 Die Stückpreisrundung wird automatisch verwendet, wenn Sie eine Artikel- oder Ressourcennummer in eine Verkaufszeile eingeben. Handelt es sich um eine Rechnung für einen Debitor mit einem Währungscode, wird der Artikel- oder Ressourcenpreis in die Währung des Debitors konvertiert. Die Rundung des Preises erfolgt gemäß der Stückpreisrundungspräzision für die Währung.
 
-### Betragsrundung
+### <a name="amount-rounding"></a>Betragsrundung
 
 Mit der Betragsrundung wird gesteuert, wie in Fremdwährung vorliegende Beträge in Fibu Buch.-Blattzeilen, in Verkaufszeilen und in Einkaufszeilen gerundet werden. Die Regeln müssen in der Liste **Währungen** im Feld **Betragsrundungspräzision** für jede Währung einzeln angegeben werden.
 
 Die Rundung von Fremdwährungsbeträgen erfolgt beim Ausfüllen und Buchen von Fibu Buch-Blattzeilen, Verkaufszeilen und Einkaufszeilen.
 
-## Wechselkurse
+## <a name="exchange-rates"></a>Wechselkurse
 
 Sie können für jede Fremdwährung Wechselkurse registrieren und angeben, ab welchem Datum der jeweilige Wechselkurs gelten soll. So lassen sich für jede Fremdwährung beispielsweise Tageswechselkurse, Monatswechselkurse oder Quartalswechselkurse angeben.
 
 Zu Referenzzwecken können Sie auf der Seite **Währungswechselkurse** ältere Wechselkurse nachschlagen. Muss ein Wechselkurs aktualisiert werden, können Sie über die Schaltfläche **Aktualisieren von Wechselkursen** die aktuellen Wechselkurse von einem externen Dienstanbieter abrufen.
 
-## Sachkonten
+## <a name="general-ledger-accounts"></a>Sachkonten
 
 Währungscodes können nicht mit Sachkonten verknüpft werden, da Sachkontobeträge in Mandantenwährung vorliegen. Wenn Sie über einen Bankkredit in USD verfügen und Einzahlungen auf ein Bankkonto in SEK tätigen, können Sie diese Konten überwachen, indem Sie Bankkonten in USD und SEK einrichten. Mithilfe von Buchungsgruppen können Sie die Konten mit den entsprechenden Sachkonten verknüpfen. In der Finanzbuchhaltung wird der Wert der Beträge in der Mandantenwährung angezeigt.
 
 Sie können einen Währungscode in eine Fibu Buch.-Blattzeile eingeben und die Zeile auf ein Sachkonto buchen. Vor der Buchung auf das Sachkonto wird der Betrag anhand des entsprechenden Wechselkurses in die Mandantenwährung konvertiert.  
 
-## Beispiel für eine ausstehende Währungstransaktion
+## <a name="example-of-a-receivable-currency-transaction"></a>Beispiel für eine ausstehende Währungstransaktion
 
 [!INCLUDE [finance-currencies-example](includes/finance-currencies-example.md)]
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Währungswechselkurse aktualisieren](finance-how-update-currencies.md)  
 [Einrichten einer zusätzlichen Berichtswährung](finance-how-setup-additional-currencies.md)  

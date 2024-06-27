@@ -10,7 +10,7 @@ ms.search.form: '314, 459, 460, 664'
 ms.date: 06/10/2024
 ms.service: dynamics-365-business-central
 ---
-# Vorauszahlungen einrichten
+# <a name="set-up-prepayments"></a>Vorauszahlungen einrichten
 
 Sie verwenden Vorauszahlungen in folgenden Fällen:
 
@@ -35,7 +35,7 @@ Der vorausbezahlte Betrag verbleibt beim Käufer, bis dieser die Waren oder Dien
 
 [!INCLUDE[local-func-setup-link](includes/local-func-setup-link.md)]
 
-## So fügen Sie Vorauszahlungskonten zu "Buchungsmatrix Einrichtung" hinzu:  
+## <a name="to-add-prepayment-accounts-to-the-general-posting-setup"></a>So fügen Sie Vorauszahlungskonten zu "Buchungsmatrix Einrichtung" hinzu:
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Allgemeine Buchungsmatrixeinrichtung** ein, und wählen Sie dann den zugehörigen Link.
 2. Auf der Seite **Buchungsmatrix Einrichtung** müssen die folgenden Felder für die entsprechenden Zeilen ausgefüllt werden:  
@@ -45,7 +45,7 @@ Der vorausbezahlte Betrag verbleibt beim Käufer, bis dieser die Waren oder Dien
 
 Wenn Ihnen noch keine Sachkonten für Vorauszahlungen zur Verfügung stehen, können Sie die Seite **Sachkontenliste** über das entsprechende Kontofeld öffnen.  
 
-## So richten Sie Nummernserien für Vorauszahlungsbelege ein:  
+## <a name="to-set-up-number-series-for-prepayment-documents"></a>So richten Sie Nummernserien für Vorauszahlungsbelege ein:
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Einrichtung Debitoren & Verkauf** ein und wählen Sie dann den entsprechenden Link.
 2. Füllen Sie auf der Seite **Debitoren & Verkauf Einr.** im Inforegister **Nummernserie** die folgenden Felder aus.  
@@ -62,7 +62,7 @@ Wenn Ihnen noch keine Sachkonten für Vorauszahlungen zur Verfügung stehen, kö
 > [!NOTE]  
 > Für Vorauszahlungsrechnungen und reguläre Rechnungen können dieselben oder unterschiedliche Nummernserien verwendet werden. Unterschiedliche Nummernserien dürfen sich nicht überschneiden, d. h. es darf keine Nummer in beiden Serien gleichzeitig vorhanden sein.  
 
-## Einrichtung von Vorauszahlungsprozentsätze für Artikel, Debitoren und Kreditoren
+## <a name="to-set-up-prepayment-percentages-for-items-customers-and-vendors"></a>Einrichtung von Vorauszahlungsprozentsätze für Artikel, Debitoren und Kreditoren
 
 Für einen Artikel können Sie einen standardmäßigen Vorauszahlungsprozentsatz für alle Debitoren, einen bestimmten Debitor oder eine Debitorenpreisgruppe einrichten. Wenn Sie nicht auf alle Debitoren denselben Vorauszahlungsprozentsatz anwenden möchten, müssen Sie angeben, für welche Debitoren oder für welche Debitorenpreisgruppen der Vorauszahlungsprozentsatz gilt.
 
@@ -80,7 +80,7 @@ Für einen Debitor oder Kreditor können Sie einen standardmäßigen Vorauszahlu
 > [!TIP]
 > Sie können auch die Seite **Verkaufsvorauszahlungs-Prozentsätze** über die Debitoren- oder Kreditorenkarte aufrufen.
 
-### So stellen Sie fest, welcher Vorauszahlungsprozentsatz die höchste Priorität hat:  
+### <a name="to-determine-which-prepayment-percentage-has-first-priority"></a>So stellen Sie fest, welcher Vorauszahlungsprozentsatz die höchste Priorität hat:
 
 In einem Auftrag ist möglicherweise ein Vorauszahlungsprozentsatz im Auftragskopf und ein anderer Prozentsatz für die Artikel in den Zeilen angegeben. Um festzustellen, welcher Vorauszahlungsprozentsatz die höchste Priorität hat, sucht [!INCLUDE [prod_short](includes/prod_short.md)] den ersten Standardprozentsatz und wendet ihn in der folgenden Reihenfolge an:  
 
@@ -91,7 +91,7 @@ In einem Auftrag ist möglicherweise ein Vorauszahlungsprozentsatz im Auftragsko
 
 Anders ausgedrückt, der Vorauszahlungsprozentsatz auf der Debitorenkarte gilt nur, wenn für den Artikel kein Vorauszahlungsprozentsatz eingerichtet wurde. Wenn Sie jedoch nach dem Erstellen der Zeilen den Inhalt des Felds **Vorauszahlung %** im Verkaufs- oder Einkaufskopf ändern, wird der Vorauszahlungsprozentsatz in allen Zeilen aktualisiert. Durch die Aktualisierung kann ungeachtet der Prozentsatzeinstellungen für Artikel auf einfache Weise ein Auftrag mit einem festen Vorauszahlungsprozentsatz erstellt werden.
 
-## So werden Verkaufsaufträge automatisch freigeben, wenn Vorauszahlungen angewendet werden
+## <a name="to-automatically-release-sales-orders-when-prepayments-are-applied"></a>So werden Verkaufsaufträge automatisch freigeben, wenn Vorauszahlungen angewendet werden
 
 Sie können Zeit sparen, indem Sie einen Projektwarteschlangenposten einrichten, der Verkaufsaufträge, die eine Vorauszahlung erfordern, automatisch freigibt, nachdem die Zahlungen erfolgt sind. Die Automatisierung des Prozesses erspart Ihnen den Schritt der Freigabe des Verkaufsauftrags.
 
@@ -104,7 +104,7 @@ Sie können Zeit sparen, indem Sie einen Projektwarteschlangenposten einrichten,
 3. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Auftragswarteschlangenposten** ein und wählen Sie dann den zugehörigen Link.
 4. Richten Sie den Projektwarteschlangenposten **Ausstehende Vorauszahlungsverkäufe aktualisieren** ein, indem Sie die Einstellungen im Inforegister **Wiederholung** verwenden, um zu planen, wie oft er ausgeführt werden soll. Weitere Informationen finden Sie unter [Job-Warteschlangen zur Einplanung von Aufgaben verwenden](admin-job-queues-schedule-tasks.md).
 
-## Siehe auch  
+## <a name="see-also"></a>Siehe auch
 
 [Vorauszahlungen fakturieren](finance-invoice-prepayments.md)  
 [Beispielhafte Vorgehensweise: Verkaufsvorauszahlungen einrichten und in Rechnung stellen](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  

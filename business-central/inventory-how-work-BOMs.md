@@ -11,11 +11,11 @@ ms.search.form: null
 ms.date: 06/06/2024
 ms.service: dynamics-365-business-central
 ---
-# Mit Stücklisten arbeiten
+# <a name="work-with-bills-of-material"></a>Mit Stücklisten arbeiten
 
 Verwenden Sie Stücklisten (BOMs), um beispielsweise Oberartikel zu strukturieren, die aus anderen Artikeln oder nach Ressourcen oder Arbeitsplätze aus Komponenten montiert oder gefertigt werden müssen.
 
-## Montagestücklisten oder Fertigungsstücklisten
+## <a name="assembly-boms-or-production-boms"></a>Montagestücklisten oder Fertigungsstücklisten
 
 [!INCLUDE[prod_short](includes/prod_short.md)] unterstützt zwei verschiedene Arten von Stücklisten:
 
@@ -36,7 +36,7 @@ Das Ressourcenkonzept ist in der Produktion weitergehender als in der Montagever
 
 Montageaufträge und Fertigungsaufträge können direkt mit Verkaufsaufträgen verknüpft sein. Sie können jedoch nur Montageaufträge nutzen, um den Endartikel direkt für eine Debitorenanfrage im Verkaufsauftrag anzupassen.
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Arbeiten mit Montagestücklisten](assembly-how-work-assembly-boms.md)  
 [Fertigungsauftrag erstellen](production-how-to-create-production-boms.md)  

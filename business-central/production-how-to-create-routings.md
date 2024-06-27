@@ -9,7 +9,7 @@ ms.search.form: '99000764, 99000765, 99000766, 99000767, 99000794, 99000796, 990
 ms.date: 06/06/2024
 ms.service: dynamics-365-business-central
 ---
-# Arbeitspläne erstellen
+# <a name="create-routings"></a>Arbeitspläne erstellen
 
 Produktionsbetriebe verwenden Arbeitspläne, um den Produktionsablauf zu definieren.
 
@@ -22,7 +22,7 @@ Bevor Sie einen Arbeitsplan erstellen können, müssen die folgenden Einrichtung
 - Artikelkarten wurden für übergeordnete Artikel erstellt, die an der Fertigung teilnehmen. Weitere Informationen finden Sie unter [Neue Artikel registrieren](inventory-how-register-new-items.md).
 - Die Ressourcen sind eingerichtet. Weitere Informationen finden Sie unter [Arbeitsplatzgruppen und Arbeitsplätze einrichten](production-how-to-set-up-work-and-machine-centers.md)
 
-## So erstellen Sie ein Routing
+## <a name="to-create-a-routing"></a>So erstellen Sie ein Routing
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Arbeitspläne** ein und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die Aktion **Neu**.  
@@ -51,7 +51,7 @@ Bevor Sie einen Arbeitsplan erstellen können, müssen die folgenden Einrichtung
 > [!NOTE]  
 > Denken Sie daran, die Standardkosten des Artikels anhand der **Artikelkarte** neu zu berechnen. Wählen Sie die Aktion **Produktion**, die Aktion **Standardkosten berechnen** und anschließend die Aktion **Alle Ebenen** aus.  
 
-## So erstellen Sie einen Arbeitsplanlink
+## <a name="to-create-routing-links"></a>So erstellen Sie einen Arbeitsplanlink
 
 Sie können Arbeitsplanverbindungen von Komponenten mit speziellen Vorgängen erstellen, um deren Zuordnung auch dann beizubehalten, wenn die Fertigungsstückliste oder der Arbeitsplan geändert werden. Außerdem wird die zeitlich optimierte Buchung von Komponenten durch Verbindungen vereinfacht, und zwar zu Beginn des spezifischen verknüpften Arbeitsgangs und nicht bei Freigabe des vollständigen Fertigungsauftrags. Weitere Informationen finden Sie unter [Komponenten nach Vorgangsausgabe buchen](production-how-to-flush-components-according-to-operation-output.md).  
 
@@ -85,7 +85,7 @@ Ein weiterer wichtiger Vorteil besteht darin, dass verknüpfte Komponenten und A
 
 Die ausgewählten Komponenten werden nun mit den ausgewählten Arbeitsgängen verknüpft, wenn ein Fertigungsauftrag anhand der Fertigungsstückliste und des betreffenden Arbeitsplans erstellt oder aktualisiert wird. Dieser Link ist auf der Seite **FA-Komponenten** unter dem Fertigungsauftrag sichtbar. Sie können die Verbindungscodes jederzeit entfernen und hinzufügen.
 
-## Personal, Werkzeug und Prüfmaßnahmen den Arbeitsplanvorgängen zuweisen
+## <a name="to-assign-personnel-tools-and-quality-measures-to-routing-operations"></a>Personal, Werkzeug und Prüfmaßnahmen den Arbeitsplanvorgängen zuweisen
 
 Wenn Sie Personal mit besonderen Fähigkeiten, speziellem Wissen oder speziellen Qualifikationen für diesen Arbeitsgang benötigen, können Sie dieses Personal hier zuordnen. Darüber hinaus können Sie Werkzeugen Qualitätsanforderungen dem Arbeitsgang zuweisen. Hier wird beschrieben, wie Personal zugewiesen wird. Die Schritte sind für andere Arten Arbeitsgangsinformationen ähnlich.
 
@@ -95,7 +95,7 @@ Wenn Sie Personal mit besonderen Fähigkeiten, speziellem Wissen oder speziellen
 4. Füllen Sie die Felder auf der Seite **Arbeitsgang Personal** aus.  
 5. Wählen Sie die Schaltfläche **OK**, um die Seite zu verlassen. Die eingegebenen Werte werden kopiert und dem Arbeitsgang zugeordnet.  
 
-## So erstellen Sie eine Version eines Arbeitsplans
+## <a name="to-create-a-new-version-of-a-routing"></a>So erstellen Sie eine Version eines Arbeitsplans
 
 Das Versionsprinzip ermöglicht Ihnen, mehrere Versionen eines Arbeitsplans zu verwalten. Die Struktur der Arbeitsplanversion entspricht der Struktur der Arbeitspläne, bestehend aus dem Arbeitsplanversionskopf und den Arbeitsgängen. Das Startdatum definiert den Hauptunterschied.  
 
@@ -112,7 +112,7 @@ Das Versionsprinzip ermöglicht Ihnen, mehrere Versionen eines Arbeitsplans zu v
 
 7. Wenn die Arbeitsplanversion eingerichtet haben, wählen Sie im Feld **Status** die Option **Zertifiziert** aus.
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Produktionsstücklisten erstellen](production-how-to-create-production-boms.md)  
 [Produktion einrichten](production-configure-production-processes.md)  

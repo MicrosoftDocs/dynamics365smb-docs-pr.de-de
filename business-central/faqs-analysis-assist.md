@@ -13,7 +13,7 @@ ms.collection:
   - bap-ai-copilot
 ---
 
-# Häufig gestellte Fragen zur Analyseunterstützung (Vorschauversion)
+# <a name="faq-for-analysis-assist-preview"></a>Häufig gestellte Fragen zur Analyseunterstützung (Vorschauversion)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
@@ -21,25 +21,25 @@ Diese häufig gestellten Fragen (FAQ) beschreiben die KI-Auswirkungen des Featur
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
-## Was ist die Analyseunterstützung?
+## <a name="what-is-analysis-assist"></a>Was ist die Analyseunterstützung?
 
 Die Analyseunterstützung ist ein Copilot, der Sie bei der Arbeit mit dem [Datenanalysemodus](analysis-mode.md) in Business Central unterstützt. Mit dem Datenanalysemodus können Sie Daten auf Seiten und in Abfragen organisieren, aggregieren und zusammenfassen, sodass sie für die Analyse und Gewinnung aussagekräftiger Erkenntnisse besser geeignet sind. Mit der Analyseunterstützung können Sie automatisch die Ansicht der zu analysierenden Daten erstellen, indem Sie Ihre Anforderungen in einfacher, natürlicher Sprache ausdrücken, z. B. „Kreditoren nach Standort und sortiert nach Anzahl der Einkäufe anzeigen.“ Die Analyseunterstützung erleichtert die Arbeit mit Daten und erfordert keine komplexen technischen Kenntnisse.
 
-## Welche Möglichkeiten bietet die Analyseunterstützung?
+## <a name="what-are-capabilities-of-analysis-assist"></a>Welche Möglichkeiten bietet die Analyseunterstützung?
 
 Die Analyseunterstützung basiert auf den Entwicklertools für Copilot in Business Central. Sie verwendet Azure OpenAI Service, um unstrukturierte Anweisungen in ein strukturiertes Design zur Anzeige von Daten im Analysemodus umzuwandeln, ohne die Geschäftsdaten der Kundschaft selbst zu erstellen, zu ändern oder zu aktualisieren.
 
-## Wozu dient die Analyseunterstützung?
+## <a name="what-is-the-intended-use-of-analysis-assist"></a>Wozu dient die Analyseunterstützung?
 
 Mithilfe der Analyseunterstützung können Analyseregisterkarten im Datenanalysemodus erstellt werden, um Daten so darzustellen, dass leichter Schlussfolgerungen daraus gezogen werden können. Es ist jedoch wichtig zu beachten, dass die Analyseunterstützung keine direkten Erkenntnisse oder Schlussfolgerungen zu den Daten bietet. Sie ist ein Tool, mit dem Benutzende ihre Daten organisieren und anzeigen können. Die Benutzer müssen aber selbst verwertbare Informationen extrahieren, Trends erkennen und fundierte Entscheidungen zur Steigerung des geschäftlichen Werts treffen.
 
-## Wie wurde die Analyseunterstützung bewertet? Welche Metriken werden verwendet, um die Leistung zu messen?
+## <a name="how-was-analysis-assist-evaluated-what-metrics-are-used-to-measure-performance"></a>Wie wurde die Analyseunterstützung bewertet? Welche Metriken werden verwendet, um die Leistung zu messen?
 
 - Das Feature wurde basierend auf den [!INCLUDE[prod_short](includes/prod_short.md)] Demodaten und anderen fiktiven Produktkatalogen umfassend getestet. Copilot erhielt in den unterstützten englischen Sprachumgebungen zahlreiche Prompts. Die Prompts deckten ein breites Spektrum an Anweisungen zur Datenanalyse und Stilen zur Klarstellung der Absicht ab. Die Ergebnisse wurden auf Genauigkeit, Relevanz und Sicherheit bewertet.
 
 - Das Feature basiert auf dem Standard für verantwortungsbewusste KI von Microsoft. [Erfahren Sie mehr über verantwortungsbewusste KI von Microsoft.](https://aka.ms/RAI)
 
-## Wie überwacht Microsoft die Qualität der generierten Inhalte?
+## <a name="how-does-microsoft-monitor-the-quality-of-generated-content"></a>Wie überwacht Microsoft die Qualität der generierten Inhalte?
 
 Microsoft verfügt über verschiedene Systeme, um sicherzustellen, dass die von Copilot generierten Inhalte von höchster Qualität sind, Missbrauch zu erkennen und die Sicherheit unserer Kundschaft und ihrer Daten zu gewährleisten.
 
@@ -53,7 +53,7 @@ Benutzende haben die Möglichkeit, zu jeder Copilot-Antwort Feedback zu geben un
 
 - Microsoft kann die Copilot-gesteuerten Features für ausgewählte Kundschaft deaktivieren, wenn ein Missbrauch der Funktionalität festgestellt wird.
 
-## Welche Einschränkungen gelten für die Analyseunterstützung? Wie können Benutzende die Auswirkungen der Einschränkungen der Analyseunterstützung bei der Nutzung des Systems minimieren?
+## <a name="what-are-the-limitations-of-analysis-assist-how-can-users-minimize-the-impact-of-the-analysis-assist-limitations-when-using-the-system"></a>Welche Einschränkungen gelten für die Analyseunterstützung? Wie können Benutzende die Auswirkungen der Einschränkungen der Analyseunterstützung bei der Nutzung des Systems minimieren?
 
 - Allgemeine Einschränkungen von KI:
 
@@ -73,12 +73,12 @@ Benutzende haben die Möglichkeit, zu jeder Copilot-Antwort Feedback zu geben un
 
   Bei Organisationen, die in bestimmten Geschäftsbereichen, zum Beispiel im Zusammenhang mit Medizin, Arzneimitteln, Recht oder Waffen, tätig sind, kann es zu einer Verschlechterung der Dienstqualität kommen.
 
-## Welche Daten sammelt die Analyse und wie werden sie verwendet?
+## <a name="what-data-does-analysis-collect-and-how-is-it-used"></a>Welche Daten sammelt die Analyse und wie werden sie verwendet?
 
 Die Analyseunterstützung erfasst die Mindestdaten, die Business Central zum Anbieten des Dienstes benötigt. Microsoft verwendet Ihre Geschäftsdaten, einschließlich der Texte, die Sie an Copilot senden, nicht, um die zugrundeliegenden Modelle für die Nutzung durch andere zu trainieren. Weitere Informationen finden Sie unter [Dynamics 365-Bedingungen für Azure OpenAI-basierte Features](https://go.microsoft.com/fwlink/?linkid=2236010).
 
 Es sammelt darüber hinaus Daten aus dem Feedback, das Benutzende über die Symbole „Gefällt mir“ (Daumen hoch) oder „Gefällt mir nicht“ (Daumen runter) auf der **Copilot**-Seite der Analyseunterstützung geben können. Die Daten sind anonym und umfassen die Auswahl zwischen „Gefällt mir“ oder „Gefällt mir nicht“, gegebenenfalls den Grund für die Ablehnung und das Copilot-Feature, auf das sich das Feedback bezieht.
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Daten mit Copilot analysieren (Vorschauversion)](analysis-assist.md)

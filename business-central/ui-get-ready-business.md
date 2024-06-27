@@ -10,7 +10,7 @@ ms.search.keywords: 'SMTP, mail, Microsoft 365, setup, wizard, experience'
 ms.date: 06/10/2024
 ms.service: dynamics-365-business-central
 ---
-# Bereiten Sie sich auf das Geschäft vor
+# <a name="get-ready-for-doing-business"></a>Bereiten Sie sich auf das Geschäft vor
 
 Herzlichen Glückwunsch, Sie haben Ihren ersten Mandanten in [!INCLUDE[prod_short](includes/prod_short.md)] eingerichtet.
 
@@ -23,7 +23,7 @@ Sie finden die Liste der Anleitungen für die Unterstützte Einrichtung auch, we
 > [!TIP]
 > [!INCLUDE [ua-get-help](includes/ua-get-help.md)]
 
-## Erste Schritte
+## <a name="get-started"></a>Erste Schritte
 
 Wenn Sie sich zum ersten Mal anmelden oder eine neue Firma gründen, führt Sie die Checkliste **Erste Schritte** durch die Schritte, die Sie zur Geschäftsfähigkeit führen. Die Schritte hängen von Ihrem Land/Ihrer Region und den branchenspezifischen Funktionen ab, die Sie zu Ihrer [!INCLUDE [prod_short](includes/prod_short.md)] hinzugefügt haben. Ab 2021 Veröffentlichungszyklus 2, wenn Sie sich zum ersten Mal bei der CRONUS Demonstrationsfirma anmelden, ist Ihre Startseite für Ihre ersten Erfahrungen optimiert. Wenn Sie lieber mehr Links zu mehr Seiten sehen möchten, wechseln Sie einfach in die Rolle des Business Managers. Weitere Informationen finden Sie unter [Grundeinstellungen ändern](ui-change-basic-settings.md).  
 
@@ -38,13 +38,13 @@ Wenn ein Bereich nicht durch eine unterstützte Einrichtung abgedeckt ist, wähl
 
 Nachdem Sie einen Leitfaden für die unterstützte Einrichtung ausgeführt haben, wird er als **Abgeschlossen** markiert.  
 
-## Unterrichtstipps und Touren
+## <a name="teaching-tips-and-tours"></a>Unterrichtstipps und Touren
 
 [!INCLUDE [prod_short](includes/prod_short.md)] enthält In-Product-Touren und Unterrichtstipps, die Ihnen den Einstieg erleichtern können. In der aktuellen Version gibt es Touren für die Schritte in der Liste **Erste Schritte** und einige der am häufigsten verwendeten Seiten in der Demonstrationsfirma, wie die Kartenseite **Verkaufsrechnung**.  
 
 Unterrichtstipps sind Kurznachrichten, die Sie über wichtige und neue Funktionen informieren, daran erinnern oder unterrichten, die beim Öffnen einer Seite automatisch gestartet werden. Zum Beispiel, um den Unterrichtstipp für die Karte **Verkaufsrechnung** zu sehen, wählen Sie den Link in der oberen linken Ecke der Seite, wo es heißt *Verkaufsrechnung*. Dies startet ein Callout mit einer kurzen Beschreibung der Seite und was Sie dort tun können. Wenn für die Seite eine Tour vorhanden ist, werden Sie über einen Link zur Teilnahme an der Tour eingeladen. Der Link *Mehr erfahren* führt Sie zur Produkthilfe für die Seite.
 
-## Rollenspezifische Homepages
+## <a name="role-specific-home-pages"></a>Rollenspezifische Homepages
 
 Abhängig von Ihrer Rolle bietet die Homepage einen Überblick über Ihr Unternehmen. Die Navigationsleiste, die Ihnen einen einfachen Zugriff auf Debitoren, Kreditoren, Artikel usw. ermöglicht. Die Kacheln für **Aktivitäten** zeigen aktuelle Daten an und bieten einfachen Zugriff auf den ausgewählten Beleg.
 
@@ -55,11 +55,11 @@ Verwenden Sie die Pfeile, um einen Teil der Seite zu verkleinern und mehr Platz 
 > [!TIP]  
 > Sie können zurück zur Homepage gelangen, indem Sie den Unternehmensnamen in der linken Teil des Fensters auswählen.
 
-## Unternehmensdaten
+## <a name="company-information"></a>Unternehmensdaten
 
 Unter **Unternehmenseinstellungen** können Sie Einrichtungsinformationen zum aktuellen Unternehmen anzeigen und bearbeiten. Viele dieser Informationen wurden bereits ausgefüllt, wenn Sie die unterstützte Einrichtung **Unternehmen einrichten** abgeschlossen haben, als Sie sich bei [!INCLUDE[prod_short](includes/prod_short.md)] registriert haben. Wenn Sie das Firmenlogo, die Kontaktinformation, die Bankeinstellungen oder die Steuerdaten ändern möchten, können Sie dies auf der Seite tun.  
 
-## Hinzufügen von Benutzern und von Berechtigungen
+## <a name="adding-users-and-permissions"></a>Hinzufügen von Benutzern und von Berechtigungen
 
 [!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
 
@@ -67,11 +67,11 @@ Sie fügen Benutzende im Microsoft 365 Admin Center hinzu. Weitere Informationen
 
 Wenn Benutzende in Microsoft 365 erstellt werden, können Sie sie in die Seite **Benutzer** importieren, indem Sie die Aktion **Aktualisierungen von Office 365 abrufen** verwenden. Sie können dann Benutzenden und Benutzergruppen Berechtigungen zuordnen. Weitere Informationen finden Sie unter [Berechtigungen an Benutzer und Gruppen zuweisen](ui-define-granular-permissions.md).  
 
-## Produkthilfe
+## <a name="product-help"></a>Produkthilfe
 
 [!INCLUDE [ua-get-help](includes/ua-get-help.md)] Weitere Informationen finden Sie unter [Ressourcen für Hilfe und Support](product-help-and-support.md).  
 
-### Ihr Unternehmen in [!INCLUDE[prod_short](includes/prod_short.md)] einrichten
+### <a name="set-up-your-company-in-"></a>Ihr Unternehmen in [!INCLUDE[prod_short](includes/prod_short.md)] einrichten
 
 Die [Schnellstart](quick-start-business-central.md)-Artikel können Ihnen helfen, die ersten Schritte zur Festlegung von [!INCLUDE [prod_short](includes/prod_short.md)] für Ihr Unternehmen zu unternehmen. Innerhalb von [!INCLUDE [prod_short](includes/prod_short.md)] finden Sie auf der Seite **Unterstützte Einrichtung** die Anleitungen für die unterstützte Einrichtung, die Ihnen helfen können. Abhängig von Ihrer Rolle und Ihrem Land/Ihrer Region zeigt die Seite verschiedene Assistenten für die Einrichtung, wie in der folgenden Tabelle dargestellt:
 
@@ -93,11 +93,11 @@ Die [Schnellstart](quick-start-business-central.md)-Artikel können Ihnen helfen
 
 Die Seite **Unterstützte Einrichtung** enthält möglicherweise andere Einträge. Wenn Sie eine Einrichtung abgeschlossen haben, lautet der Status **Abgeschlossen**. Sie können andere Bereiche der Firma mit Hilfe der manuellen Einrichtung festlegen. Weitere Informationen finden Sie unter [Einrichten von [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).  
 
-## Nächste Schritte
+## <a name="next-steps"></a>Nächste Schritte
 
 Auf Grundlage Ihre migrierten Daten können Sie jetzt fortfahren, um neue Verkäufe oder Einkaufsbelege zu erstellen. Verwenden Sie den Bereich **Aktionen** auf der Homepage, um rasch ein neues Verkaufsangebot, eine Verkaufsrechnung, einen Verkaufsauftrag, eine Einkaufsrechnung oder eine Zahlungsregistrierung zu erstellen. Schauen Sie sich die [Schnellstart](quick-start-business-central.md) Artikel an, die Ihnen bei den ersten Schritten helfen.  
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Business Central Schnellstarts](quick-start-business-central.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

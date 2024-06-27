@@ -13,7 +13,7 @@ ms.custom: bap-template
 ms.collection: bap-ai-copilot
 ---
 
-# Zeilen in Verkaufsbelegen mit Copilot vorschlagen (Vorschauversion)
+# <a name="suggest-lines-on-sales-documents-with-copilot-preview"></a>Zeilen in Verkaufsbelegen mit Copilot vorschlagen (Vorschauversion)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
@@ -21,7 +21,7 @@ In diesem Artikel wird erläutert, wie Sie Verkaufsbelege schneller erstellen, i
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
-## Infos zu Verkaufszeilenvorschlägen mit Copilot
+## <a name="about-sales-line-suggestions-with-copilot"></a>Infos zu Verkaufszeilenvorschlägen mit Copilot
 
 Vorschläge für Verkaufszeilen mit Copilot können bei der Erstellung von Zeilen in Verkaufsdokumenten wie Verkaufsangeboten, Bestellungen und Rechnungen auf der Grundlage strukturierter Eingaben oder natürlicher Sprache hilfreich sein. Bei der Funktion handelt es sich nicht um einen Allzweck-Chat, sondern um ein hochspezifisches und integriertes Erlebnis, das Sie für Verkaufsdokumente nutzen können. Die Funktion bietet zwei unterschiedliche Fähigkeiten, mit denen Sie Daten zu einzelnen Produkten oder gesamten Dokumenten finden können.
 
@@ -33,36 +33,36 @@ Vorschläge für Verkaufszeilen mit Copilot können bei der Erstellung von Zeile
 
   Oft wird eine frühere Bestellung wiederholt oder zumindest als Ausgangspunkt verwendet. Allerdings kann es schwierig sein, in einem Stapel von Bestellungen die richtige Reihenfolge zu finden. Möglicherweise erinnern Sie sich an die Bestellnummer. Dabei kann es sich um eine vom Unternehmen zugewiesene Nummer oder eine von einem Debitoren erhaltene Referenznummer handeln. Die Möglichkeit, Eingabeaufforderungen wie *Benötige letzte Rechnung vom April* zu verwenden, soll Ihnen helfen, schneller eine Bestellung zu finden.
 
-## Verfügbare Sprachen
+## <a name="available-languages"></a>Verfügbare Sprachen
 
 [!INCLUDE[sales-lines-suggestions-language-support](includes/sales-lines-suggestions-language-support.md)]
 
-## Voraussetzungen
+## <a name="prerequisites"></a>Voraussetzungen
 
 * Verkaufszeilenvorschläge mit Copilot werden von einem Administrierenden eingeschaltet und aktiviert. Weitere Informationen zum Aktivieren von KI-Funktionen finden Sie unter [Copilot- und KI-Funktionen konfigurieren](enable-ai.md).
 * Sie sind mit der Erstellung von Verkaufsaufträgen vertraut.
 
-## Beispiele für Eingabeaufforderungen
+## <a name="examples-of-prompts"></a>Beispiele für Eingabeaufforderungen
 
 Mit Copilot können Sie Verkaufszeilen vorschlagen, die eine große Bandbreite an Eingaben verarbeiten. Dieser Abschnitt bietet einige Beispiele für Eingabeaufforderungen für verschiedene Szenarien, die wir getestet haben.
 
-### Beispielabfrage zum Wiederholen des früheren Beleges
+### <a name="sample-inquiry-to-repeat-the-past-document"></a>Beispielabfrage zum Wiederholen des früheren Beleges
 
 Eingabeaufforderung: *Benötige alle Produkte aus Rechnung 103031*
 
-### Während des Telefonats gibt der Benutzende schnell eine Liste der benötigten Produkte und Mengen ein, was nicht immer genau genug ist oder es werden interne Produktnamen verwendet
+### <a name="during-phone-call-user-quickly-types-list-of-required-products-and-quantities-not-always-accurate-enough-or-using-internal-product-names"></a>Während des Telefonats gibt der Benutzende schnell eine Liste der benötigten Produkte und Mengen ein, was nicht immer genau genug ist oder es werden interne Produktnamen verwendet
 
 Eingabeaufforderung: *2 rote Kinderfahrrääder*
 
 Beachten Sie, dass die Eingabeaufforderung auch bei mehreren Tippfehlern funktioniert.
 
-### Ein Benutzender kopiert eine Anfrage aus einer eingehenden Kommunikation und fügt sie auf der Seite „Vorschläge für Verkaufszeilen“ ein
+### <a name="a-user-copies-an-inquiry-from-an-inbound-communication-and-pastes-it-to-the-sales-lines-suggestions-page"></a>Ein Benutzender kopiert eine Anfrage aus einer eingehenden Kommunikation und fügt sie auf der Seite „Vorschläge für Verkaufszeilen“ ein
 
 Eingabeaufforderung: *Hallo, ich möchte Zubehör für meinen XXXX-Laptop kaufen, beispielsweise eine kabellose Maus, eine Tastaturabdeckung und eine Laptoptasche. Ich frage mich, ob Sie Empfehlungen oder Vorschläge für diese Artikel haben. Haben Sie Sonderangebote oder Rabatte für treue Kunden wie mich? Mit freundlichen Grüßen, M*
 
 Beachten Sie, dass der XXXX-Laptop nicht in die Suche einbezogen wird.
 
-## Zeilen in einem Verkaufsbeleg vorschlagen
+## <a name="suggest-lines-on-a-sales-document"></a>Zeilen in einem Verkaufsbeleg vorschlagen
 
 Dieser Prozess beschreibt, wie Zeilen in einem Verkaufsauftrag vorgeschlagen werden. Die Schritte sind für Verkaufsangebote und Rechnungen identisch.
 
@@ -71,7 +71,7 @@ Dieser Prozess beschreibt, wie Zeilen in einem Verkaufsauftrag vorgeschlagen wer
 1. Wählen Sie im Inforegister **Zeilen** die Option **Zeilenvorschläge abrufen** aus.
 1. Geben Sie im Fenster **Zeilen mit Copilot vorschlagen** Ihre Eingabeaufforderung ein oder wählen Sie eine aus den Eingabeaufforderungsanleitungen aus.
 
-## Vorschläge prüfen, speichern, verwerfen oder neu generieren
+## <a name="review-save-discard-or-regenerate-suggestions"></a>Vorschläge prüfen, speichern, verwerfen oder neu generieren
 
 Nachdem Copilot die Elemente vorgeschlagen hat, die den Zeilen hinzugefügt werden sollen, überprüfen Sie die Vorschläge und entscheiden Sie, ob sie Ihren Wünschen entsprechen:
 
@@ -83,7 +83,7 @@ Es gibt ein Feld **Zuverlässigkeit**, in dem die Werte **Hoch (80+)**, **Mittel
 
 Dieser Schritt bestätigt, dass Sie die Zeilen in einen Verkaufsbeleg übertragen möchten. Sie können dort auch die übertragenen Zeilen löschen, bearbeiten oder den gesamten Beleg löschen.
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [AQ für Verkaufszeilenvorschläge mit Copilot](faq-sales-suggest-sales-lines-with-copilot.md)
 [Copilot- und KI-Funktionen konfigurieren](enable-ai.md)

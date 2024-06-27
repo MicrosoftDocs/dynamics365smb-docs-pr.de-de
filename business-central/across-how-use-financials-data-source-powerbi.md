@@ -11,13 +11,13 @@ ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
 
-# Power BI-Berichte erstellen zur Anzeige von [!INCLUDE [prod_long](includes/prod_long.md)]-Daten
+# <a name="building-power-bi-reports-to-display--data"></a>Power BI-Berichte erstellen zur Anzeige von [!INCLUDE [prod_long](includes/prod_long.md)]-Daten
 
 Sie können Ihre [!INCLUDE[prod_long](includes/prod_long.md)]-Daten zur Verfügung stellen als Datenquelle in Power BI Desktop und leistungsstarke Berichte über den Zustand Ihres Geschäftes erstellen.
 
 Dieser Artikel beschreibt die ersten Schritte zur Verwendung von Power BI Desktop zur Erstellung von Berichten, die [!INCLUDE[prod_long](includes/prod_long.md)]-Daten anzeigen. Nach dem Erstellen können Sie die Berichte in Ihrem Power BI-Dienst veröffentlichen oder sie mit allen Benutzern in Ihrer Organisation teilen. Wenn sich diese Berichte im Power BI-Dienst befinden, können Sie von Benutzern, die dafür eingerichtet sind, in [!INCLUDE[prod_long](includes/prod_long.md)] angezeigt werden.
 
-## Vorbereitung
+## <a name="get-ready"></a>Vorbereitung
 
 - Registrieren Sie sich für den Power BI-Dienst.
 
@@ -44,7 +44,7 @@ Dieser Artikel beschreibt die ersten Schritte zur Verwendung von Power BI Deskto
 
 [!INCLUDE[note-multicompany-reports](includes/note-multicompany-reports.md)]
 
-## <a name="getdata"></a>[!INCLUDE[prod_short](includes/prod_short.md)] als Datenquelle in Power BI Desktop hinzufügen
+## <a name="add--as-a-data-source-in-power-bi-desktop"></a><a name="getdata"></a>[!INCLUDE[prod_short](includes/prod_short.md)] als Datenquelle in Power BI Desktop hinzufügen
 
 Die erste Aufgabe beim Erstellen von Berichten ist das Hinzufügen von [!INCLUDE[prod_short](includes/prod_short.md)] als Datenquelle in Power BI Desktop. Sobald die Verbindung hergestellt ist, können Sie mit der Erstellung des Berichts beginnen.
 
@@ -99,39 +99,39 @@ Sobald die Daten geladen sind, können Sie sie in der rechten Navigation auf der
 > [!TIP]
 > Weitere Informationen zur Verwendung von Power BI Desktop finden Sie unter [Erste Schritte mit Power BI Desktop](/power-bi/fundamentals/desktop-getting-started).
 
-## Erstellen von zugänglichen Berichten
+## <a name="creating-accessible-reports"></a>Erstellen von zugänglichen Berichten
 
 Es ist wichtig, dass Ihre Berichte für so viele Personen wie möglich nutzbar sind. Versuchen Sie, die Berichte so zu gestalten, dass sie keine besonderen Anpassungen an die Bedürfnisse verschiedener Benutzer erfordern. Stellen Sie sicher, dass das Design es den Anwendern ermöglicht, Standard-Hilfstechnologien, wie z.B. Bildschirmleser, zu nutzen. Power BI enthält verschiedene Funktionen, Tools und Richtlinien zur Barrierefreiheit, die Ihnen helfen, dieses Ziel zu erreichen. Weitere Informationen finden Sie unter [Gestalten Sie Power BI-Berichte für Barrierefreiheit](/power-bi/create-reports/desktop-accessibility-creating-reports) in der Power BI-Dokumentation.
 
-## Berichte erstellen, um mit einer Liste verknüpfte Daten anzuzeigen
+## <a name="creating-reports-to-display-data-associated-with-a-list"></a>Berichte erstellen, um mit einer Liste verknüpfte Daten anzuzeigen
 
 Sie können Berichte erstellen, die in einer Infobox einer [!INCLUDE [prod_short](includes/prod_short.md)]-Listenseite angezeigt werden. Die Berichte können Daten zu dem in der Liste ausgewählten Datensatz enthalten. Das Erstellen dieser Berichte ist mit dem Erstellen anderer Berichte vergleichbar. Sie müssen jedoch einige Dinge beachten, um sicherzustellen, dass die Berichte wie erwartet angezeigt werden. Weitere Informationen finden Sie unter [Erstellen von Power BI-Berichten zum Anzeigen von Listendaten in [!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-powerbi-reports-factbox.md).
 
-## <a name="theme"></a>Verwenden des [!INCLUDE [prod_short](includes/prod_short.md)]-Berichtsthemas (optional)
+## <a name="using-the--report-theme-optional"></a><a name="theme"></a>Verwenden des [!INCLUDE [prod_short](includes/prod_short.md)]-Berichtsthemas (optional)
 
 Bevor Sie Ihren Bericht erstellen, empfiehlt es sich, die [!INCLUDE [prod_short](includes/prod_short.md)]-Designdatei herunterzuladene und zu importieren. Die Designdatei erstellt eine Farbpalette, damit Sie Berichte im Farbstil der [!INCLUDE [prod_short](includes/prod_short.md)]-Anwendungen erstellen können, ohne benutzerdefinierte Farben für jede Grafik definieren zu müssen.
 
 > [!NOTE]
 > Diese Aufgabe ist optional. Sie können Ihre Berichte jederzeit erstellen und die Stilvorlage später herunterladen und darauf anwenden.
 
-### Herunterladen des Themas
+### <a name="download-the-theme"></a>Herunterladen des Themas
 
 Die Themendatei ist als json-Datei in der Themengalerie der Microsoft Power BI-Community verfügbar. Gehen Sie folgendermaßen vor, um die Themendatei herunterzuladen:
 
 1. Wechseln Sie zu [Themengalerie der Microsoft Power BI Community für Microsoft Dynamics 365 Business Central](https://community.powerbi.com/t5/Themes-Gallery/Microsoft-Dynamics-365-Business-Central/m-p/385875).
 2. Wählen Sie den Anhang **Microsoft Dynamics Business Central.json** zum herunterladen aus.
 
-### Importieren des Themas in einen Bericht
+### <a name="import-the-theme-on-a-report"></a>Importieren des Themas in einen Bericht
 
 Nachdem Sie das [!INCLUDE [prod_short](includes/prod_short.md)]-Berichtsdesign heruntergeladen haben, können Sie es in Ihre Berichte importieren. Um das Thema zu importieren, wählen Sie **Ansicht** > **Themen** > **Nach Themen suchen** aus. Weitere Informationen finden Sie unter [Power BI Desktop – Importieren benutzerdefinierter Berichtsthemen](/power-bi/create-reports/desktop-report-themes#import-custom-report-theme-files).
 
-## Veröffentlichen von Berichten
+## <a name="publish-reports"></a>Veröffentlichen von Berichten
 
 Nachdem Sie einen Bericht erstellt oder geändert haben, können Sie den Bericht in Ihrem Power BI-Dienst veröffentlichen und sogar mit anderen Benutzern in Ihrer Organisation teilen. Nachdem Sie einen Bericht veröffentlicht haben, ist er in Power BI verfügbar. Der Bericht kann außerdem in [!INCLUDE[prod_short](includes/prod_short.md)] ausgewählt werden.
 
 Um einen Bericht zu veröffentlichen, wählen Sie **Veröffentlichen** auf der Registerkarte **Start** im Menüband oder im Menü **Datei** aus. Wenn Sie beim Power BI-Dienst angemeldet sind, wird der Bericht für diesen Dienst veröffentlicht. Andernfalls werden Sie aufgefordert, sich anzumelden. 
 
-## Verteilen oder Teilen eines Berichts
+## <a name="distribute-or-share-a-report"></a>Verteilen oder Teilen eines Berichts
 
 Es gibt verschiedene Möglichkeiten, um Berichte an Ihre Mitarbeiter und andere Personen zu senden:
 
@@ -146,7 +146,7 @@ Es gibt verschiedene Möglichkeiten, um Berichte an Ihre Mitarbeiter und andere 
 
     Wenn Sie über eine Lizenz für Power BI Pro verfügen, können Sie den Bericht direkt über Ihren Power BI-Dienst mit anderen Benutzern teilen. Weitere Informationen finden Sie unter [Power BI – Teilen von Dashboards oder Berichten](/power-bi/collaborate-share/service-share-dashboards#share-a-dashboard-or-report).
 
-## So entwickeln Sie unternehmens- und umgebungsübergreifende Power BI-Berichte
+## <a name="how-to-develop-cross-company-or-cross-environment-power-bi-reports"></a>So entwickeln Sie unternehmens- und umgebungsübergreifende Power BI-Berichte
 
 Die [!INCLUDE[prod_short](includes/prod_short.md)]-API-Endpunkte haben alle das Präfix `https://api.businesscentral.dynamics.com/v2.0/<environment_name>/api/v2.0` gefolgt von `/companies({company_id})/accounts({id})` (hier verwenden wir die `accounts`-API als Beispiel). Sie können diese Struktur verwenden, um PowerQuery-Abfragen zu erstellen, die Daten für mehrere Unternehmen oder mehrere Umgebungen laden, wenn der Benutzer, der die Daten liest, darauf zugreifen kann.
 
@@ -155,9 +155,9 @@ Um eine Abfrage zum Laden von Daten für mehrere Unternehmen einzurichten, führ
 1. Verwenden Sie die PowerQuery-Abfrage, die Daten für ein einzelnes Unternehmen lädt. Konvertieren Sie sie in eine benutzerdefinierte Power Query-Funktion, die die Firmen-ID (oder möglicherweise den Umgebungsnamen) als Parameter verwendet. Weitere Informationen finden Sie unter [Verwenden von benutzerdefinierten Power Query-Funktionen](/power-query/custom-function).
 1. Verwenden Sie nun die neue benutzerdefinierte Funktion in einer PowerQuery-Abfrage, in der Sie die Funktion über eine Liste von Unternehmen zuordnen und dann die Datensätze mit der [Table.Combine](/powerquery-m/table-combine)-Funktion von Power Query zusammenführen.
 
-## Probleme beheben
+## <a name="fixing-problems"></a>Probleme beheben
 
-### „Ein Datensatz kann nicht eingefügt werden. Die aktuelle Verbindungsabsicht ist schreibgeschützt“. Fehler beim Verbinden mit der angepassten API-Seite
+### <a name="cant-insert-a-record-current-connection-intent-is-read-only-error-connecting-to-custom-api-page"></a>„Ein Datensatz kann nicht eingefügt werden. Die aktuelle Verbindungsabsicht ist schreibgeschützt“. Fehler beim Verbinden mit der angepassten API-Seite
 
 > **GILT FÜR:** Business Central Online
 
@@ -188,7 +188,7 @@ Ab Februar 2022 werden neue Berichte, die [!INCLUDE [prod_short](includes/prod_s
 9. Wählen Sie **Erledigt**.
 10. Wählen Sie **Schließen & Anwenden** aus dem Menüband, um die Änderungen zu speichern und den Power Query-Editor zu schließen.
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Aktivieren Sie Ihre Geschäftsdaten für Power BI](admin-powerbi-setup.md)  
 [Business Intelligence](bi.md)  

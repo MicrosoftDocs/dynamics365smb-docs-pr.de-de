@@ -11,7 +11,7 @@ ms.search.forms: '9076, 9026'
 ms.date: 06/06/2024
 ms.service: dynamics-365-business-central
 ---
-# Verwalten von Beziehungen
+# <a name="managing-relationships"></a>Verwalten von Beziehungen
 
 Die Marketing-& Vertriebsfeatures von [!INCLUDE[prod_short](includes/prod_short.md)] unterstützen Sie beim Verwalten und Ausführen von Verkaufsmaßnahmen. Mit diesen Features haben Sie Zugriff auf umfassende und exakte Informationen, dank derer Sie Ihre Aktivitäten auf bevorzugte Debitoren-Kontaktsegmente konzentrieren können.
 

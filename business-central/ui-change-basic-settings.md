@@ -10,13 +10,13 @@ ms.search.form: '9022, 9019, 9027, 9020, 9026, 9030, 9000, 9009, 9004, 9005, 902
 ms.date: 05/24/2024
 ms.service: dynamics-365-business-central
 ---
-# Grundlegende Einstellungen ändern
+# <a name="change-basic-settings"></a>Grundlegende Einstellungen ändern
 
 Verwenden Sie die Seite **Meine Einstellungen**, um grundlegende Einstellungen für [!INCLUDE[prod_short](includes/prod_short.md)] zu verwalten. Änderungen, die Sie durchführen, betreffen nur den Arbeitsbereich, nicht die Arbeitsbereiche anderer Benutzer.  
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="role-center"></a>Rolle
+## <a name="role"></a><a name="role-center"></a>Rolle
 
 Die Rolle bestimmt die Homepage, eine Startseite, die für die Anforderungen der Rolle entworfen wurde. Abhängig von der Rolle gibt die Homepage oder das Rollencenter Ihnen einen Überblick über das Unternehmen, Ihre Abteilung oder Ihre persönlichen Aufgaben. Es hilft Ihnen auch, zu Ihren Tagewerken zu navigieren und Arbeit zu finden, die Ihnen zugeordnet wird.
 
@@ -24,7 +24,7 @@ Die Rolle bestimmt die Homepage, eine Startseite, die für die Anforderungen der
 
 * In der Mitte finden Sie die **Aktivitäten** Bereich, in dem aktuelle Daten angezeigt und ausgewählt werden können, um detailliertere Informationen anzuzeigen. Die zentralen Leistungs-Indikatoren können eingerichtet werden, um ein ausgewähltes Diagramm für eine visuelle Darstellung anzuzeigen, zum Beispiel, Cashflow oder Einnahmen und Ausgaben. Sie können eine Liste von Lieblingsdebitoren auf der Homepage auch für Geschäftskonten einrichten, mit denen Sie häufig Geschäfte tätigen oder besondere Aufmerksamkeit geben müssen.
 
-### Die Rolle ändern
+### <a name="change-the-role"></a>Die Rolle ändern
 
 Das Standardrollencenter ist der **Geschäftsführer**, aber Sie können eine andere Rolle auswählen, um das Rollencenter zu nutzen, dass besser mit Ihren Anforderungen übereinstimmt.  
 
@@ -32,7 +32,7 @@ Das Standardrollencenter ist der **Geschäftsführer**, aber Sie können eine an
 2. Wählen Sie auf der Seite **Meine Einstellungen** im Feld **Rollencenter** das Rollencenter aus, das Sie als den Standard festlegen möchten. Wählen Sie beispielsweise **Buchhalter/in** aus.
 3. Wählen Sie **OK** aus.
 
-## <a name="company"></a>Unternehmen
+## <a name="company"></a><a name="company"></a>Unternehmen
 
 Ein Unternehmen dient als Container für Daten im Project [!INCLUDE[prod_short](includes/prod_short.md)] Es kann mehrere Unternehmen in einer Datenbank geben, aber nur eine kann gleichzeitig ausgewählt werden. Der Standardmandant wird CRONUS bezeichnet und enthält nur Demodaten enthält.
 
@@ -44,7 +44,7 @@ Das Feld **Unternehmen** zeigt das Unternehmen, in dem Sie derzeit arbeiten, und
 Der Standardmandant wird CRONUS bezeichnet und enthält nur Demodaten enthält. Sie können eine neue Firma mit benutzerdefinierten Daten erstellen. Weitere Informationen finden Sie unter [Neue Mandanten erstellen](about-new-company.md).
 
 <!--
-### To change the company name
+### <a name="to-change-the-company-name"></a>To change the company name
 
 The company name is always displayed at the top left corner and works as an action that you can choose to go back to the Role Center. You can change this name on the **Company Information** page.
 
@@ -52,7 +52,7 @@ The company name is always displayed at the top left corner and works as an acti
 2. In the **Name** field, enter the new company name.
 3. Leave the page. The system restarts and displays the new company in the top-left corner.
 
-### <a name="badge"></a>To display a company badge for quick access to company information
+### <a name="to-display-a-company-badge-for-quick-access-to-company-information"></a><a name="badge"></a>To display a company badge for quick access to company information
 
 You can add a customized badge in the top-right corner, which you can choose to quickly view company name and tenant information in a pop-up box. The company badge is also useful when [!INCLUDE[prod_short](includes/prod_short.md)] is embedded in another application, like Microsoft Teams or in some other web application. In these cases, because the [!INCLUDE[web_client](includes/web_client.md)] displays less surrounding contextual information, the company badge serves as the only way to determine which company or environment a record belongs to.
 
@@ -62,7 +62,7 @@ You can add a customized badge in the top-right corner, which you can choose to 
 > [!NOTE]
 > If a company badge is defined, then you cannot change the company name as described in [To change the company name](ui-change-basic-settings.md#to-change-the-company-name)-->
 
-## <a name="work-date"></a>Arbeitsdatum
+## <a name="work-date"></a><a name="work-date"></a>Arbeitsdatum
 
 Das am häufigsten verwendete Arbeitsdatum ist das heutige Datum. Um Aufgaben wie das Abschließen von Transaktionen für ein Datum auszuführen, das nicht das aktuelle Datum ist, müssen Sie vielleicht vorübergehend das Datum ändern.
 
@@ -72,7 +72,7 @@ Das am häufigsten verwendete Arbeitsdatum ist das heutige Datum. Um Aufgaben wi
 > [!IMPORTANT]  
 > Wenn Sie sich abmelden oder zu einem anderen Unternehmen wechseln, nachdem Sie das Arbeitsdatum geändert haben, werden die Arbeitsdaten auf das standardmäßige Arbeitsdatum zurückgesetzt. Wenn Sie sich daher das nächste Mal anmelden in zum ursprünglichen Unternehmen zurückkehren, muss Sie das Arbeitsdatum ggf. erneut einstellen.
 
-### Arbeitsdatumsangabe
+### <a name="work-date-indication"></a>Arbeitsdatumsangabe
 
 Das Arbeitsdatum ist auf Seiten, die bearbeitet werden können, kritisch. Wenn das Arbeitsdatum auf einer bearbeitbaren Seite nicht auf das heutige Datum festgelegt ist, werden auf der Seite zwei Arten von Indikatoren angezeigt:
 
@@ -82,11 +82,11 @@ Das Arbeitsdatum ist auf Seiten, die bearbeitet werden können, kritisch. Wenn d
 
 Wenn das Arbeitsdatum nicht auf den aktuellen Tag (heute) festgelegt ist, wird das aktuelle Arbeitsdatum auf allen Seiten, auf denen Sie Daten bearbeiten können, in der oberen linken Ecke angezeigt.
 
-## <a name="region"></a> Region
+## <a name="region"></a><a name="region"></a>Region
 
 Die Einstellung **Region** bestimmt, wie Daten, Uhrzeiten, Ziffern und Währungen angezeigt oder formatiert werden. Sie legt auch fest, welches Zeichen als Dezimaltrennzeichen verwendet wird, wenn Sie eine numerische Tastatur zur Eingabe von Daten verwenden. Erfahren Sie mehr unter [Daten eingeben](ui-enter-data.md#decimal).
 
-## <a name="language"></a> Sprache
+## <a name="language"></a><a name="language"></a>Sprache
 
 Ändert die Anzeigensprache. Dieses Feld erscheint nur, wenn es mehr als einer Sprache, gibt zum Auswählen.
 
@@ -94,19 +94,19 @@ Die ursprüngliche Sprache wird von Ihrem Administrator oder durch die Browserei
 
 Sie können mehr Sprachen für [!INCLUDE[prod_short](includes/prod_short.md)] über AppSource installierten. Während alle unterstützten Anzeigesprachen in der Liste angezeigt werden, muss der Administrator die entsprechende Sprachapplikation für den Mandanten installieren, bevor die Benutzer auf die neue Sprache in [!INCLUDE[prod_short](includes/prod_short.md)] wechseln können.  
 
-## Zeitzone
+## <a name="time-zone"></a>Zeitzone
 
 Definiert die Zeitzone, in der Sie sich befinden. Wenn Sie sich zum ersten Mal bei [!INCLUDE [prod_short](includes/prod_short.md)] anmelden, wird die Zeitzone basierend auf der Adresse Ihres Unternehmens festgelegt. Ändern Sie es, wenn es nicht zu Ihrem physischen Standort passt.  
 
-## Benachrichtigungen
+## <a name="notifications"></a>Benachrichtigungen
 
 Wählen Sie den Link **Ändern, wenn ich Benachrichtigungen erhalte**, um die Benachrichtigungen zu verwalten, die Sie über bestimmte Ereignisse oder Statusänderungen erhalten. Zum Beispiel, wenn Sie im Begriff sind, einem Kunden eine Rechnung zu stellen, der einen überfälligen Saldo hat, oder wenn der verfügbare Bestand niedriger ist als die Menge, die Sie verkaufen möchten. Erfahren Sie mehr unter [Verwalten von Benachrichtigungen](ui-smart-notifications.md).
 
-## Unterrichtstipps
+## <a name="teaching-tips"></a>Unterrichtstipps
 
 [!INCLUDE [ua-teachingtips](includes/ua-teachingtips.md)]
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Angezeigte Features ändern](ui-experiences.md)  

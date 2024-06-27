@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Ad-hoc-Analysen von Nachhaltigkeitsdaten
+# <a name="ad-hoc-analysis-of-sustainability-data"></a>Ad-hoc-Analysen von Nachhaltigkeitsdaten
 
 In diesem Artikel wird erklärt, wie Sie die Funktion **Datenanalyse** zum Analysieren von Nachhaltigkeitsdaten direkt über Listenseiten und Abfragen verwenden. Sie müssen keinen Bericht ausführen und nicht zu einer anderen Anwendung wie beispielsweise Excel wechseln. Das Feature bietet eine interaktive und vielseitige Möglichkeit, Daten zu berechnen, zusammenzufassen und zu untersuchen. Anstatt Berichte mit Optionen und Filtern auszuführen, können Sie mehrere Registerkarten hinzufügen, die unterschiedliche Aufgaben oder Ansichten der Daten darstellen. Einige Beispiele sind „Emissionsübersicht“ oder „Emission nach Umfang“ oder jede andere Ansicht, die Sie sich vorstellen können. Weitere Informationen zur Verwendung des Features **Datenanalyse** finden Sie unter [Listen- und Abfragedaten mit dem Analysemodus analysieren](analysis-mode.md).
 
@@ -20,7 +20,7 @@ Nutzen Sie die folgenden Listenseiten zur Ad-hoc-Analyse von Nachhaltigkeitsdate
 
 - [Nachhaltigkeitsposten](https://businesscentral.dynamics.com/?page=6220)
 
-## Ad-hoc-Analyseszenarien zur Nachhaltigkeit
+## <a name="sustainability-ad-hoc-analysis-scenarios"></a>Ad-hoc-Analyseszenarien zur Nachhaltigkeit
 
 Nutzen Sie das Feature **Datenanalyse** zum schnellen Faktencheck und zur Ad-hoc-Analyse:
 
@@ -36,7 +36,7 @@ Die folgenden Abschnitte enthalten Beispiele für Nachhaltigkeitsszenarien in [!
 | [Durchschnittliche Emissionen nach Kategorie](#example-average-emissions-by-category) | Analysieren Sie Ihre durchschnittlichen Emissionen nach Kategorie. | [Nachhaltigkeitsposten](https://businesscentral.dynamics.com/?page=6220) | **Kontokategorie**, **Kontoname**, **NH4-Emission**, **CO2-Emission** und **N2O-Emission**.|
 | [Emissionen nach Umfang](#example-emissions-by-scope) | Analysieren Sie Ihre Emissionen nach Umfang. | [Nachhaltigkeitsposten](https://businesscentral.dynamics.com/?page=6220) | **Emissionsumfang**, **Kontokategorie**, **NH4-Emission**, **CO2-Emission** und **N2O-Emission**.|
 
-## Beispiel: Emissionsübersicht (Summe nach Kategorie)
+## <a name="example-emission-overview-sum-by-category"></a>Beispiel: Emissionsübersicht (Summe nach Kategorie)
 
 Um Ihre Emissionen nach Kategorie zu analysieren, gehen Sie wie folgt vor:
 
@@ -51,7 +51,7 @@ Das folgende Bild zeigt das Ergebnis dieser Schritte.
 
 :::image type="content" source="media/data-analysis-sustainability-entries.png" alt-text="Beispiel 1 für die Durchführung einer Datenanalyse auf der Seite „Nachhaltigkeitsposten“." lightbox="media/data-analysis-sustainability-entries.png":::
 
-## Beispiel: Durchschnittliche Emissionen nach Kategorie
+## <a name="example-average-emissions-by-category"></a>Beispiel: Durchschnittliche Emissionen nach Kategorie
 
 Um Ihre durchschnittlichen Emissionen nach Kategorie zu analysieren, gehen Sie wie folgt vor:
 
@@ -67,7 +67,7 @@ Das folgende Bild zeigt das Ergebnis dieser Schritte.
 
 :::image type="content" source="media/data-analysis-sustainability-entries-avg.png" alt-text="Beispiel 2 für die Durchführung einer Datenanalyse auf der Seite „Nachhaltigkeitsposten“." lightbox="media/data-analysis-sustainability-entries-avg.png":::
 
-## Beispiel: Emissionen nach Umfang
+## <a name="example-emissions-by-scope"></a>Beispiel: Emissionen nach Umfang
 
 Um Ihre Emissionen nach Umfang zu analysieren, gehen Sie wie folgt vor:
 
@@ -82,13 +82,13 @@ Das folgende Bild zeigt das Ergebnis dieser Schritte.
 
 :::image type="content" source="media/data-analysis-sustainability-entries-scope.png" alt-text="Beispiel 3 für die Durchführung einer Datenanalyse auf der Seite „Nachhaltigkeitsposten“." lightbox="media/data-analysis-sustainability-entries-scope.png":::
 
-## Datengrundlage für Ad-hoc-Analysen zur Nachhaltigkeit
+## <a name="data-foundation-for-ad-hoc-analysis-on-sustainability"></a>Datengrundlage für Ad-hoc-Analysen zur Nachhaltigkeit
 
 Die in ein Nachhaltigkeits-Buch.-Blatt eingegebenen Informationen sind temporär und können geändert werden, solange sie sich im Buch.-Blatt befinden. Wenn Sie ein Nachhaltigkeits-Buch.-Blatt buchen, werden die Informationen in Nachhaltigkeitsposten auf einzelnen Nachhaltigkeitskonten übertragen, wo sie nicht geändert werden können. Sie können jedoch Storno- oder Korrekturbuchungen vornehmen. Die Listenseite [Nachhaltigkeitsposten](https://businesscentral.dynamics.com/?page=6220) ist die wichtigste Datenquelle für die Ad-hoc-Analyse von Nachhaltigkeitsdaten.
 
 Weitere Informationen zum Buchen von Nachhaltigkeitsposten finden Sie unter [Nachhaltigkeitsposten erfassen](finance-sustainability-journal.md).
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Nachhaltigkeitsposten erfassen](finance-sustainability-journal.md)  
 [Integrierte Nachhaltigkeitsberichte](sustainability-reports.md)   

@@ -10,7 +10,7 @@ ms.search.form: '911, 912, 917, 9287, 99000786, 99000787, 99000788, 99000789, 99
 ms.date: 05/29/2024
 ms.service: dynamics-365-business-central
 ---
-# Produktionsstücklisten erstellen
+# <a name="create-production-boms"></a>Produktionsstücklisten erstellen
 
 In einer Fertigungsstückliste sind Stammdaten enthalten, mit denen die Komponenten und Unterbaugruppen beschrieben werden, die bei der Fertigung eines Artikels verwendet werden. Wenn Sie einen Fertigungsauftrag für einen übergeordneten Artikel erstellen, wird über die entsprechende Fertigungsstückliste die Berechnung des Materialbedarfs gesteuert, die auf der Seite **Prod. Bestellkomponenten** dargestellt wird.
 
@@ -24,7 +24,7 @@ Bevor Sie einen Arbeitsplan erstellen können, müssen die folgenden Einrichtung
 - Artikelkarten wurden für übergeordnete Artikel erstellt, die an der Fertigung teilnehmen. Weitere Informationen finden Sie unter [Neue Artikel registrieren](inventory-how-register-new-items.md).
 - Die Ressourcen sind eingerichtet. Weitere Informationen finden Sie unter [Einrichten von Arbeitsplatzgruppen und Arbeitsplätzen](production-how-to-set-up-work-and-machine-centers.md)
 
-## Erstellen Sie eine neue Fertigungsstückliste.
+## <a name="to-create-a-production-bom"></a>Erstellen Sie eine neue Fertigungsstückliste.
 
 1. Wählen Sie das Symbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Produktionsstückliste** ein und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die Aktion **Neu**.  
@@ -48,7 +48,7 @@ Bevor Sie einen Arbeitsplan erstellen können, müssen die folgenden Einrichtung
 > [!NOTE]  
 > [!INCLUDE [bom-standard-cost](includes/bom-standard-cost.md)] Um den Einstandspreis für den Artikel über die Artikelkarte neu zu berechnen, wählen Sie die Aktion **Produktion** und wählen Sie dann **Stückl. Einst.-Preis berechnen** aus.  
 
-## Neue Versionen von Fertigungsstücklisten erzeugen
+## <a name="to-create-a-new-version-of-a-production-bom"></a>Neue Versionen von Fertigungsstücklisten erzeugen
 
 Verwenden Sie beispielsweise neue Versionen von Fertigungsstücklisten, wenn ein Artikel durch einen anderen Artikel ersetzt wird oder wenn ein Debitor eine spezielle Version des Produkts anfordert. Das Versionsprinzip ermöglicht die Verwaltung verschiedener Versionen einer Fertigungsstückliste. Die Struktur der Fertigungsstücklistenversion entspricht der Struktur der Fertigungsstückliste. Der grundsätzliche Unterschied besteht in der zeitlichen Gültigkeit der Versionen. Die Gültigkeit wird durch das Startdatum definiert.  
 
@@ -72,7 +72,7 @@ Die zeitliche Gültigkeit der Version wird durch das **Startdatum** bestimmt.
 >
 > Phantomstücklisten ermöglichen die Strukturierung des Produkts. Diese Fertigungsstückliste führt niemals zu einem Fertigprodukt, sondern wird ausschließlich zur Ermittlung des abhängigen Bedarfs verwendet. Phantomstücklisten haben keinen Eintrag in den Artikelstammdaten.
 
-## Mengenberechnungsformel in Fertigungsstücklisten
+## <a name="quantity-calculation-formula-on-production-boms"></a>Mengenberechnungsformel in Fertigungsstücklisten
 
 Die Menge wird unter Berücksichtigung unterschiedlicher Dimensionen, die ebenfalls in die Zeilen Fertigungsstücklisten eingegeben werden, berechnet. Die Dimensionen beziehen sich auf eine Bestelleinheit des entsprechenden Artikels. Die Länge, Breite, Tiefe und das Gewicht können als Dimensionen eingegeben werden.  
 
@@ -90,13 +90,13 @@ Die Berechnungsformel definiert die Beziehung der einzelnen Komponenten. Die fol
 > [!NOTE]
 > Die **Feste Menge**-Berechnungsformel stellt sicher, dass der Verbrauch einer Komponente unabhängig von Ausschuss oder Ausbringungsmengen gleich ist. Wenn das **Berechnungsformel**-Feld für Fertigungsauftragskomponenten auf **Feste Menge** eingestellt ist, ist der **Erwartete Menge**-Feldwert immer gleich dem **Menge pro**-Feld. Der in derselben Zeile definierte Ausschussprozentsatz wird ignoriert. Feste Menge wird vom **Verfügbarkeit nach Stückliste**-Prüfbericht berücksichtigt. Der Bericht zeigt den Artikel als Engpass an, wenn die verfügbare Menge geringer ist als die Menge im **Menge pro übergeordnetem Element**-Feld. Die Felder **Festlegen als übergeord. Element möglich** und **Festlegen als übergeord. Artikel möglich** sind immer leer, unabhängig von der verfügbaren Menge. Feste Menge wird auch in Berechnungen für Standardkosten einbezogen. Die Losgröße für den produzierten Artikel wirkt sich auf die Kosten aus, die einem Artikel zugeordnet werden.
 
-### Beispiel
+### <a name="example"></a>Beispiel
 
 Eine Fertigungsstückliste erfordert 70 Metallteile mit den Dimensionen Länge = 0,20 m und Breite = 0,15 m. Geben Sie die Werte folgendermaßen ein: Formel = Länge x Breite, Länge = 20, Breite = 15, Komponentenmenge = 70.
 
 Die Menge ergibt sich aus: Menge pro Länge x Breite, dies ergibt, Menge = 70 x 0,20 m x 0,15 m = 2,1 m2.  
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Arbeitspläne erstellen](production-how-to-create-routings.md)  
 [Produktvarianten verwalten](inventory-item-variants.md)  

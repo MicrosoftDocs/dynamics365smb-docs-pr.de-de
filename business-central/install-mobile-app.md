@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
 
-# Abrufen von Business Central auf meinem mobilen Gerät
+# <a name="getting-business-central-on-your-mobile-device"></a>Abrufen von Business Central auf meinem mobilen Gerät
 
 Greifen Sie von Ihrem mobilen Gerät auf [!INCLUDE[prod_short](includes/prod_short.md)] zu. Sie können durch Ihre Unternehmensdaten navigieren, Funktionen verwenden, sowie an Excel oder Microsoft 365 versenden, aktuelle Diagramme und KPIs anzeigen, Verkaufsangebote und Rechnungen per E-Mail versenden und mit Ihrer Kamera Bilder erstellen und anfügen. Führen Sie die Schritte unten aus, um die App herunterzuladen und zu beginnen.
 
@@ -20,7 +20,7 @@ Greifen Sie von Ihrem mobilen Gerät auf [!INCLUDE[prod_short](includes/prod_sho
 > [!TIP]
 > Sie möchten eine App auf Ihrem Windows- oder macOS-Desktop? Siehe [Holen Sie die Business Central Desktop App](install-desktop-app.md).
 
-## So wird die App auf mein mobiles Gerät heruntergeladen
+## <a name="get-the-app-on-my-mobile-device"></a>So wird die App auf mein mobiles Gerät heruntergeladen
 
 1. Installieren Sie die [!INCLUDE[prod_short](includes/prod_short.md)] App auf Ihrem mobilen Gerät, indem Sie die App aus dem App Store oder von Google Play herunterladen.  
    - [Appstore](https://go.microsoft.com/fwlink/?LinkId=734847)
@@ -35,7 +35,7 @@ Sie sollten nun Zugriff auf [!INCLUDE[prod_short](includes/prod_short.md)] haben
 > [!TIP]
 > Wenn Sie die App mit einer Sandkastenumgebung verbinden möchten, wählen Sie die Schaltfläche **Erweiterte Optionen** und wählen Sie dann die Anmeldeoptionen **Cloud Sandbox**. Wenn Sie dann mehr als eine Sandkastenumgebung haben, wählen Sie die entsprechende Umgebung aus.
 
-## Business Central lokal verwenden?
+## <a name="use-business-central-on-premises"></a>Business Central lokal verwenden?
 
 Wenn Sie [!INCLUDE[prod_short](includes/prod_short.md)] lokal verwenden, können Sie auch die Vorteile der mobilen App nutzen. Die Installation ist ähnlich, aber mit einigen Ausnahmen.
 
@@ -53,7 +53,7 @@ Wenn Sie [!INCLUDE[prod_short](includes/prod_short.md)] lokal verwenden, können
 > [!NOTE]
 > Wenn Sie Probleme haben, die App ordnungsgemäß zu starten, wenden Sie sich an Ihren Administrator. Dies kann eine fehlende Voraussetzung oder eine unvollständige Konfiguration sein. Weitere Informationen finden Sie unter [Vorbereiten der Umgebung für die mobile App](/dynamics365/business-central/dev-itpro/deployment/install-business-central-app#prereqs) oder [Fehlerbehebung bei der Business Central Mobile App vor Ort](/dynamics365/business-central/dev-itpro/developer/devenv-troubleshooting-the-mobile-app).
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Häufig gestellte Fragen zu mobilen Apps](ui-mobile-faq.yml)  
 [Bereitschaft für die Geschäftsabwicklung](ui-get-ready-business.md)  

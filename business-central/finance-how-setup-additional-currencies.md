@@ -11,7 +11,7 @@ ms.search.form: '5, 16,118, 483, 495'
 ms.date: 06/13/2024
 ms.service: dynamics-365-business-central
 ---
-# Berichtswährung einrichten
+# <a name="set-up-an-additional-reporting-currency"></a>Berichtswährung einrichten
 
 Da die Anzahl der Länder, in denen Unternehmen Geschäftsbeziehungen unterhalten, ständig wächst, wird es immer wichtiger, dass Finanzdaten in mehreren Währungen erfasst und angezeigt werden können.
 
@@ -25,7 +25,7 @@ In der Anwendung wird die Finanzbuchhaltung in der Mandantenwährung (MW) einger
 >
 > Sie haben z.B. eine große Menge an Debitoren in Britischen Pfund (GBP) und Sie haben Ihre zusätzliche BW auf GBP festgelegt. In diesem Szenario werden die Beträge in den Debitoren, die GBP verwenden, nicht um Wechselkursgewinne/-verluste im ACY bereinigt, sondern nur die Beträge in den Debitoren, die in anderen Währungen sind. Das bedeutet, dass, wenn Sie ACY verwenden, um Ihren Jahresabschluss zu erstellen, dies zu unter- oder überbewerteten ausstehenden Salden der Debitoren führen kann.
 
-## Berichte und Beträge in BW anzeigen
+## <a name="displaying-reports-and-amounts-in-acy"></a>Berichte und Beträge in BW anzeigen
 
 Eine BW kann in folgenden Fällen für das Berichtswesen eines Unternehmens hilfreich sein:
 
@@ -34,11 +34,11 @@ Eine BW kann in folgenden Fällen für das Berichtswesen eines Unternehmens hilf
 
 Einige Finanzberichte basieren auf Sachposten. Um die Finanzdaten in dem Bericht in der BW anzuzeigen, wählen Sie das Kontrollkästchen **Beträge in Berichtswährung ausgeben** im Inforegister **Optionen** für den entsprechenden Finanzbuchhaltungsbericht.
 
-## Wechselkurse regulieren
+## <a name="adjusting-exchange-rates"></a>Wechselkurse regulieren
 
 Da sich Wechselkurse ständig ändern, müssen weitere BW-Entsprechungen im System in regelmäßigen Abständen reguliert werden. Werden diese Regulierungen nicht durchgeführt, sind Beträge, die aus Fremdwährungen (oder Berichtswährungen) umgerechnet und in der LW in der Finanzbuchhaltung gebucht wurden, möglicherweise irreführend. Darüber hinaus müssen Tagesposten, die vor der Eingabe eines Tageswechelkurses in der Anwendung gebucht werden, aktualisiert werden, nachdem der Tageswechselkurs eingegeben wurde. Der Batchauftrag **Wechselkurse** dient zur Regulierung der Wechselkurse gebuchter Kreditoren-, Debitoren- und Bankkontoposten. BW-Beträge in Sachposten können hiermit ebenfalls aktualisiert werden. Weitere Informationen finden Sie unter [Stapelverarbeitungsauftrag "Wechselkurse regulieren"](finance-how-update-currencies.md).
 
-## BW einrichten
+## <a name="setting-up-an-acy"></a>BW einrichten
 
 Führen Sie die folgenden Schritte aus, um eine BW einzurichten:
 
@@ -47,7 +47,7 @@ Führen Sie die folgenden Schritte aus, um eine BW einzurichten:
 - Legen Sie die Kursregulierungsmethode für MwSt.-Posten fest.  
 - Aktivieren Sie die BW.  
 
-### Sachkonten für die Buchung von Kursregulierungen festlegen:  
+### <a name="to-specify-general-ledger-accounts-for-posting-exchange-rate-adjustments"></a>Sachkonten für die Buchung von Kursregulierungen festlegen:
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Währungen** ein, und wählen Sie dann den entsprechenden Link.  
 2. Auf der Seite **Währungen** geben Sie die folgenden Felder für die BW an.  
@@ -64,7 +64,7 @@ Führen Sie die folgenden Schritte aus, um eine BW einzurichten:
 
 Für jedes Finanzbuchhaltungskonto müssen Sie angeben, wie Beträge für dieses Konto hinsichtlich der Wechselkursschwankungen zwischen der LW und der BW reguliert werden.  
 
-### So geben Sie die Kursregulierungsmethode für alle Sachkonten an
+### <a name="to-specify-the-exchange-rate-adjustment-method-for-all-general-ledger-accounts"></a>So geben Sie die Kursregulierungsmethode für alle Sachkonten an
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Kontenplan** ein, und wählen Sie dann den zugehörigen Link.  
 2. Auf der Seite **Kontenplan** wählen Sie das gewünschte Konto aus, und wählen Sie die **Bearbeiten** Aktion aus.  
@@ -82,7 +82,7 @@ Für jedes Finanzbuchhaltungskonto müssen Sie angeben, wie Beträge für dieses
 
 4.  Schließen Sie die Seite **Sachkontokarte**.  
 
-### Die Kursregulierungsmethode für MwSt.-Posten festlegen:
+### <a name="to-specify-exchange-rate-adjustment-method-for-vat-entries"></a>Die Kursregulierungsmethode für MwSt.-Posten festlegen:
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Hauptbuchhaltung Einrichtung** ein und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie auf der Seite **Berichtswesen einrichten** die richtige Methode im Feld **Kursregulierung** aus.  
@@ -98,7 +98,7 @@ Für jedes Finanzbuchhaltungskonto müssen Sie angeben, wie Beträge für dieses
     |**Betrag regulieren**|Der MW-Betrag wird gemäß der Wechselkursgewinne oder -verluste reguliert. Wechselkursgewinne oder -verluste werden auf das Sachkonto im Feld **Betrag** gebucht und auf die Konten, die Sie für Gewinne oder Verluste in den Feldern **Sachkto. Kursgewinn real. Kto.** und **Sachkto. Kursverlust real. Kto.** im Fenster **Währungen** festgelegt haben.|  
     |**Zusätzlichen Währungsbetrag regulieren**|Der BW-Betrag wird gemäß der Wechselkursgewinne oder -verluste reguliert. Wechselkursgewinne oder -verluste werden auf das Sachkonto im Feld **Betrag (BW)** gebucht und auf die Konten, die Sie für Gewinne oder Verluste in den Feldern **Sachkto. Kursgewinn real. Kto.** und **Sachkto. Kursverlust real. Kto.** im Fenster **Währungen** festgelegt haben.|  
 
-### So aktivieren Sie die BW  
+### <a name="to-activate-the-acy"></a>So aktivieren Sie die BW
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Hauptbuchhaltung Einrichtung** ein und wählen Sie dann den zugehörigen Link.  
 2. Auf der Seite **Finanzbuchhaltung Einrichtung** wählen Sie im Feld **Berichtswährung** die zusätzliche Währung aus, in der Sie Daten erfassen möchten.  
@@ -125,7 +125,7 @@ Darüber hinaus werden die Beträge für alle zukünftigen Posten desselben Typs
 > [!NOTE]  
 > Das Feld **Berichtswährung** wird erst aktiviert, nachdem Sie im Batchauftrag **Berichtswährung regulieren** die Schaltfläche **OK** gewählt haben.  
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Währungswechselkurse aktualisieren](finance-how-update-currencies.md)  
 [Jahres- und Periodenabschlüsse](year-close-years-periods.md)  
