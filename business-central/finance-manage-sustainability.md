@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Nachhaltigkeitsmanagement – Überblick
+# <a name="sustainability-management-overview"></a>Nachhaltigkeitsmanagement – Überblick
 
 > [!IMPORTANT]
 > Dieses Feature steht in Business Central ab dem **1. Veröffentlichungszyklus 2024** zur Verfügung. Alle Links zu Referenzen werden aktiviert, sobald sie verfügbar sind.
@@ -49,7 +49,7 @@ Um mit dem Nachhaltigkeitsmanagement zu beginnen, verwenden Sie die folgenden Ar
 | **Integrationen** |             |
 | [Nachhaltigkeits-API](/dynamics365/business-central/dev-itpro/api-sustainability/sustainability-api?toc=/dynamics365/business-central/toc.json) | In diesem Artikel erfahren Sie, wie Sie verbundene Apps erstellen, die mithilfe von APIs eine Punkt-zu-Punkt-Verbindung zwischen Business Central und Nachhaltigkeitslösungen oder -diensten anderer Anbieter als Microsoft herstellen. |
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Nachhaltigkeitseinrichtung](finance-sustainability-setup.md)    
 [Diagramm der Nachhaltigkeitskonten und des Sachkontos](finance-sustainability-accounts-ledger.md)    
