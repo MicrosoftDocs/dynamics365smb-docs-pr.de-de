@@ -2127,6 +2127,7 @@ ms.service: dynamics-365-business-central
 ### [Häufig gestellte Fragen zur Zuordnung von E-Belegen zu Bestellungen mit Copilot](faqs-map-edocuments.md)
 # Verantwortungsvolle KI
 ## [Übersicht](responsible-ai-overview.md)
+## [Häufig gestellte Fragen zu Datensicherheit und Datenschutz von Copilot](/dynamics365/faqs-copilot-data-security-privacy?toc=/dynamics365/business-central/toc.json)
 ## [Häufig gestellte Fragen zur Analyseunterstützung (Vorschauversion)](faqs-analysis-assist.md)
 ## [Häufig gestellte Fragen zur Unterstützung bei Bankkontoabstimmung (Vorschauversion)](faqs-bank-reconciliation.md)
 ## [Häufig gestellte Fragen zum Chat mit Copilot (Vorschauversion)](faqs-chat-with-copilot.md)
