@@ -25,7 +25,7 @@ Wenn Ihre Bank Ihnen mitteilt, dass Zahlungen erfolgreich verarbeitet wurden, k�
 > [!NOTE]  
 > Um Zahlungen mithilfe von SEPA-Lastschrift zu erfassen, muss die Währung der Verkaufsrechnung EURO sein.  
 
-## <a name="setting-up-sepa-direct-debit"></a>Einrichten von SEPA-Lastschriften
+## <a name="how-to-set-up-sepa-direct-debit"></a>Einrichten von SEPA-Lastschriften
 
 Von der Seite **Lastschrifteinzüge** aus können Sie Anweisungen an Ihre elektronische Bank exportieren, um einen Lastschrifteinzug vom Bankkonto des Debitors auf Ihr Bankkonto gemäss dem SEPA-Lastschriftformat durchzuführen.
 

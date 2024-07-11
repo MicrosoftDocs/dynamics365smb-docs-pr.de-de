@@ -37,7 +37,7 @@ Wenn Sie noch kein angepasstes Berichtslayout für die Art des Belegs erstellt h
 3. Auf der Seite **Beleglayouts** in der Zeile für ein Berichtslayout, für das Sie ein benutzerdefiniertes Layout verwenden möchten, wählen Sie das Feld **Benutzerdefinierte Layoutbeschreibung** aus.
 4. Wählen Sie auf der Seite **Benutzerdefinierte Berichtslayouts** das Dokumentenlayout aus, das Sie für die Art des Verkaufsbelegs verwenden möchten. Weitere Informationen finden Sie unter [Benutzerdefinierte Berichtslayouts erstellen und ändern](ui-how-create-custom-report-layout.md).
 
-## <a name="to-specify-which-contact-will-receive-which-document-layout-for-a-customer"></a>So legen Sie fest, welcher Kontakt welches Beleg-Layout für einen Debitor erhalten soll
+## <a name="to-specify-which-contact-receives-which-document-layout-for-a-customer"></a>So legen Sie fest, welcher Kontakt welches Beleg-Layout für einen Debitor erhalten soll
 
 Um Zeit zu sparen, wenn Sie Belege per E-Mail an Debitor- und Kreditor-Kontakte senden, geben Sie deren E-Mail-Adressen in den Dokumentenlayouts an. So können Sie z.B. Kontoauszüge immer an die Debitor-Kontakte und Verkaufsaufträge an die Einkäufer bzw. Verkäufer/Einkäufer senden.
 
