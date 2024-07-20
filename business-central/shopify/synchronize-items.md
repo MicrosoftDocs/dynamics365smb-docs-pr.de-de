@@ -7,15 +7,14 @@ ms.search.form: '30116, 30117, 30126, 30127,'
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.collection:
-  - bap-ai-copilot
+ms.custom: bap-template
 ---
 
 # Artikel und Inventar synchronisieren
 
-Die **Artikel** in [!INCLUDE[prod_short](../includes/prod_short.md)] entsprechen den *Produkten* in Shopify und umfassen physische Waren, digitale Downloads, Dienstleistungen und Geschenkkarten, die Sie verkaufen. Es gibt zwei Hauptgründe für die Synchronisierung von Artikeln:
+**Artikel** in [!INCLUDE[prod_short](../includes/prod_short.md)] entsprechen **Produkten** in Shopify. Sie sind die physischen Waren, digitalen Downloads, Dienstleistungen und Geschenkkarten, die Sie verkaufen. Es gibt zwei Hauptgründe für die Synchronisierung von Artikeln:
 
-1. Die Datenverwaltung läuft hauptsächlich in [!INCLUDE[prod_short](../includes/prod_short.md)] ab. Sie müssen alle oder einige Daten von dort dorthin nach Shopify exportieren und sichtbar machen. Sie können den Artikelnamen, die Beschreibung, das Bild, die Preise, die Verfügbarkeit, die Varianten, die Angaben zum Kreditor und den Barcode exportieren. Nach dem Export können Sie die Artikel überprüfen oder sofort sichtbar machen.
+1. Wenn Sie in [!INCLUDE[prod_short](../includes/prod_short.md)] hauptsächlich Daten verwalten. Sie müssen alle oder einige Daten von dort dorthin nach Shopify exportieren und sichtbar machen. Sie können den Artikelnamen, die Beschreibung, das Bild, die Preise, die Verfügbarkeit, die Varianten, die Angaben zum Kreditor und den Barcode exportieren. Nach dem Export können Sie die Artikel überprüfen oder sofort sichtbar machen.
 2. Bei einer Bestellung von Shopify importiert wird, sind die Informationen zu den Artikeln für die Weiterverarbeitung des Dokuments in [!INCLUDE[prod_short](../includes/prod_short.md)] unerlässlich.
 
 Die vorhergehenden Szenarien sind immer aktiviert.
@@ -29,7 +28,7 @@ Ein drittes Szenario ist die Verwaltung von Daten in Shopify, importieren Sie di
 
    Die Optionen werden in der folgenden Tabelle beschrieben.
 
-   |Option|Description|
+   |Option|Beschreibung|
    |------|-----------|
    |**"Leer"**| Der Import von Produkten erfolgt zusammen mit dem Import von Bestellungen. Produkte werden nach Shopify exportiert, wenn Benutzer die Aktion **Artikel hinzufügen** über die Seite **Shopify-Produkte** ausführt. Diese Option ist der Standardvorgang.|
    |**Zu Shopify**| Wählen Sie diese Option aus, wenn Sie nach der ersten Synchronisierung, die durch die Aktion **Artikel hinzufügen** ausgelöst wurde, Produkte manuell mit der Aktion **Produkte synchronisieren** oder über eine Aufgabenwarteschlange für wiederkehrende Aktualisierungen aktualisieren möchten. Denken Sie daran, das Feld **Kann Shopify-Produkt aktualisiseren** zu aktivieren. Wenn es nicht aktiviert ist, entspricht es der Option **Leer** (Standardprozess). Weitere Informationen finden Sie im Abschnitt [Artikel nach Shopify exportieren](synchronize-items.md#export-items-to-shopify).|
@@ -44,13 +43,13 @@ Zuerst importieren Sie Artikel aus Shopify in großen Mengen oder zusammen mit d
 
 |Feld|Beschreibung|
 |------|-----------|
-|**Unbekannte Artikel automatisch erstellen**|Wenn Shopify-Produkte und -Varianten in [!INCLUDE[prod_short](../includes/prod_short.md)] importiert werden, versucht die [!INCLUDE[prod_short](../includes/prod_short.md)]-Funktion immer, zuerst einen übereinstimmenden Datensatz in der Artikelliste zu finden. **SKU-Zuordnung** wirkt sich darauf aus, wie der Abgleich durchgeführt wird, und erstellt neue Artikel und/oder Artikelvarianten. Aktivieren Sie diese Option, wenn Sie einen neuen Artikel erstellen möchten oder kein übereinstimmender Datensatz vorhanden ist. Der neue Artikel wird mit importierten Daten und dem **Artikelvorlagencode** erstellt. Wenn diese Option nicht aktiviert ist, müssen Sie einen Artikel manuell erstellen und die Aktion **Produkt zuordnen** auf der Seite **Shopify Produkte** verwenden.|
+|**Unbekannte Artikel automatisch erstellen**|Wenn Shopify-Produkte und -Varianten in [!INCLUDE[prod_short](../includes/prod_short.md)] importiert werden, versucht die [!INCLUDE[prod_short](../includes/prod_short.md)]-Funktion immer, zuerst einen übereinstimmenden Datensatz in der Artikelliste zu finden. **SKU-Zuordnung** wirkt sich darauf aus, wie der Abgleich durchgeführt wird, und erstellt neue Artikel und/oder Artikelvarianten. Aktivieren Sie diese Option, wenn Sie einen neuen Artikel erstellen möchten oder kein übereinstimmender Datensatz vorhanden ist. Der neue Artikel wird mit importierten Daten und dem **Artikelvorlagencode** erstellt. Wenn diese Option nicht aktiviert ist, erstellen Sie manuell einen Artikel und verwenden Sie die Aktion **Produkt zuordnen** auf der Seite **Shopify-Produkte**.|
 |**Artikelvorlagencode**|Verwenden Sie dieses Feld zusammen mit dem Umschalter **Unbekannte Artikel automatisch erstellen**.<br>Wählen Sie die Vorlage aus, die für automatisch erstellte Elemente verwendet werden soll.|
 |**SKU-Zuordnung**|Wählen Sie, wie Sie den aus Shopify importierten **SKU** Wert während der Zuordnung und Erstellung von Artikeln/Varianten verwenden möchten. Erfahren Sie mehr im Abschnitt [So wirken sich in Shopify definierte SKUs und Barcodes auf die Zuordnung und Erstellung von Artikeln und Varianten in Business Central aus](synchronize-items.md#effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central).|
-|**SKU-Feldtrennzeichen**|Verwenden Sie dieses Feld zusammen mit **SKU-Zuordnung**, das auf **[Artikelnr. und Variantencode](synchronize-items.md#effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central)** festgelegt ist.<br>Definieren Sie ein Trennzeichen, das zum Aufteilen der SKU verwendet werden soll.<br>Wenn Sie in Shopify die Variante mit SKU „1000/001“ erstellen, geben Sie „/“ in das Feld **SKU-Feldtrennzeichen** ein, um die Artikelnummer in [!INCLUDE[prod_short](../includes/prod_short.md)] als „1000“ und den Artikelvariantencode als „001“ zu erhalten. Beachten Sie Folgendes: Wenn Sie die Variante mit der SKU „1000/001/111“ in Shopify erstellen, lautet die Artikelnummer in [!INCLUDE[prod_short](../includes/prod_short.md)] „1000“ und der Artikelvariantencode „001“. Der Teil „111“ wird ignoriert. |
-|**Variantenpräfix**|Wird zusammen mit **SKU-Zuordnung** verwendet, die entweder auf die Option **Variantencode** oder **Artikelnr. und Variantencode** als Fallback-Strategie festgelegt ist, wenn die SKU aus Shopify leer ist.<br>Wenn Sie die Artikelvariante automatisch in [!INCLUDE[prod_short](../includes/prod_short.md)] erstellen möchten, müssen Sie einen Wert in **Code** eingeben. Standardmäßig wird der im SKU-Feld definierte Wert aus Shopify verwendet. Wenn die SKU jedoch leer ist, wird Code generiert, der mit dem festgelegten Variantenpräfix und „001“ beginnt.|
+|**SKU-Feldtrennzeichen**|Verwenden Sie dieses Feld zusammen mit **SKU-Zuordnung**, das auf **[Artikelnr. und Variantencode](synchronize-items.md#effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central)** festgelegt ist.<br>Definieren Sie ein Trennzeichen, das zum Aufteilen der SKU verwendet werden soll.<br>Wenn Sie in Shopify die Variante mit SKU „1000/001“ erstellen, geben Sie „/“ in das Feld **SKU-Feldtrennzeichen** ein, um die Artikelnummer in [!INCLUDE[prod_short](../includes/prod_short.md)] als „1000“ und den Artikelvariantencode als „001“ zu erhalten. Wenn Sie die Variante mit der SKU „1000/001/111“ in Shopify erstellen, lautet die Artikelnummer in [!INCLUDE[prod_short](../includes/prod_short.md)] „1000“ und der Artikelvariantencode „001“. Der Teil „111“ wird ignoriert. |
+|**Variantenpräfix**|Wird zusammen mit **SKU-Zuordnung** verwendet, die entweder auf die Option **Variantencode** oder **Artikelnr. und Variantencode** als Fallback-Strategie festgelegt ist, wenn die SKU aus Shopify leer ist.<br>Wenn Sie die Artikelvariante automatisch in [!INCLUDE[prod_short](../includes/prod_short.md)] erstellen möchten, geben Sie einen Wert in **Code** ein. Standardmäßig wird der im SKU-Feld definierte Wert aus Shopify verwendet. Wenn die SKU jedoch leer ist, wird Code generiert, der mit dem festgelegten Variantenpräfix und „001“ beginnt.|
 |**Shopify Kann Artikel aktualisieren**|Wählen Sie diese Option aus, wenn Sie Artikel und/oder Varianten automatisch aktualisieren möchten.|
-|**Einheit als Variante**| Wählen Sie diese Option aus, wenn alle Artikelmengeneinheiten als separate Varianten exportiert werden sollen. Personalisieren Sie die Seite, um das Feld hinzuzufügen. Erfahren Sie mehr im Abschnitt [Maßeinheit als Variante](synchronize-items.md#unit-of-measure-as-variant).|
+|**Einheit als Variante**| Wählen Sie diese Option aus, wenn alle Artikelmengeneinheiten als separate Varianten exportiert werden sollen. Um das Feld hinzuzufügen, personalisieren Sie die Seite. Erfahren Sie mehr im Abschnitt [Maßeinheit als Variante](synchronize-items.md#unit-of-measure-as-variant).|
 |**Variantenoptionsname für Einheit**| Verwenden Sie dieses Feld mit **Einheit als Variante**, um anzugeben, unter welcher Option Varianten hinzugefügt werden, die Maßeinheiten darstellen. Der Standardwert lautet *Maßeinheit*. Verwenden Sie die Personalisierung, um das Feld der Seite hinzuzufügen.|
 
 ## Artikel nach Shopify exportieren
@@ -62,6 +61,8 @@ Es gibt mehrere Möglichkeiten, Elemente nach Shopify zu exportieren:
 * Führen Sie die Artikelsynchronisierung einmal oder wiederholt mit Automatisierung durch.
 
 Unabhängig davon, wie Sie Artikel exportieren, werden bestimmte Artikelinformationen in die Shopify-Produktliste übertragen, je nachdem, welche Einstellungen Sie für die Artikelsynchronisierung gewählt haben.
+
+Bevor ein Artikel nach Shopify exportiert wird, prüft der Connector, ob bereits ein Artikel vorhanden ist. Zunächst prüft er, ob ein Produkt oder eine Variante mit einem Barcode vorhanden ist, da dieser im Eintrag **Artikelreferenzen** eines Barcodetyps festgelegt ist. Wenn das Feld **SKU-Zuordnung** ausgefüllt ist, prüft der Connector, ob ein Produkt oder eine Variante mit ausgefüllter SKU vorhanden ist. Unter [So wirken sich in Shopify definierte SKUs und Barcodes auf die Zuordnung und Erstellung von Artikeln und Varianten in Business Central aus](synchronize-items.md#effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central) erfahren Sie mehr.
 
 > [!IMPORTANT]
 > Das Produkt wird nur dem Vertriebskanal **Onlineshop** hinzugefügt. Sie müssen Produkte über Vertriebskanäle wie Shopify POS von Shopify veröffentlichen.
@@ -117,8 +118,8 @@ In der folgenden Tabelle werden die Auswirkungen des Felds **Strichcode** beschr
 |------|-----------------|-----------------|
 |Status|Entsprechend des Feldes **Status für erstellte Produkte** auf der **Shopify-Shop-Karte**. Weitere Informationen finden Sie im Abschnitt [Ad-Hoc-Aktualisierungen von Shopify-Produkten](synchronize-items.md#ad-hoc-updates-of-shopify-products).|Wird nicht verwendet.|
 |Titel | **Beschreibung**. Wenn der Sprachcode definiert ist und eine entsprechende Artikelübersetzung existiert, wird die Artikelübersetzung anstelle der Beschreibung verwendet.|**Beschreibung**|
-|Variantentitel | **Variantencode**.|**Beschreibung** der Variante|
-|Description|Kombiniert erweiterte Texte, Marketingtexte und Attribute, wenn Sie die entsprechenden Umschalter auf der Shopify Shop-Karte aktivieren. Beachtet den Sprachcode.|Wird nicht verwendet.|
+|Variantentitel | **Variantencode**.<br>Es wird **Code** anstelle der **Beschreibung** verwendet, weil Shopify für jedes Produkt eindeutige Variantentitel verlangt. In [!INCLUDE[prod_short](../includes/prod_short.md)] ist der **Code** eindeutig, die **Beschreibung** hingegen nicht. Nicht eindeutige Beschreibungen führen beim Produktexport zu Problemen.|**Beschreibung** der Variante|
+|Beschreibung|Kombiniert erweiterte Texte, Marketingtexte und Attribute, wenn Sie die entsprechenden Umschalter auf der Shopify Shop-Karte aktivieren. Beachtet den Sprachcode.|Wird nicht verwendet.|
 |SEO-Seitentitel|Fester Wert: leer. Weitere Informationen finden Sie im Abschnitt [Ad-Hoc-Aktualisierungen von Shopify-Produkten](synchronize-items.md#ad-hoc-updates-of-shopify-products).|Wird nicht verwendet.|
 |SEO-Metabeschreibung|Fester Wert: leer. Weitere Informationen finden Sie im Abschnitt [Ad-Hoc-Aktualisierungen von Shopify-Produkten](synchronize-items.md#ad-hoc-updates-of-shopify-products).|Wird nicht verwendet.|
 |Medien|**Bild**. Erfahren Sie mehr im Abschnitt [Artikelbilder synchronisieren](synchronize-items.md#sync-item-images)|**Bild**|
@@ -151,9 +152,9 @@ Um diese Funktion zu aktivieren, verwenden Sie die Felder **Einheit als Variante
 
 **Anmerkungen zu Maßeinheiten als Varianten**
 
-* Wenn das Produkt in [!INCLUDE[prod_short](../includes/prod_short.md)] importiert wird, erstellt der Konnektor Maßeinheiten. Sie müssen die **Menge pro Einheit** aktualisieren.
-* Wenn Sie mit einer Variantenmatrix arbeiten, zum Beispiel Farbe und Einheit, und Sie Produkte importieren möchten, sollten Sie *Artikelnummer + Variantencode* im Feld **SKU-Zuordnung** festlegen und sicherstellen, dass das Feld **SKU** in Shopify den gleichen Wert für alle Maßeinheiten hat und sowohl die Art.-Nr. als auch den Variantencode einschließt.
-* Die Verfügbarkeit in [!INCLUDE[prod_short](../includes/prod_short.md)] wird pro Artikel/Artikelvariante und nicht pro Maßeinheit berechnet. Dies bedeutet, dass jeder Variante, die eine Maßeinheit darstellt, dieselbe Verfügbarkeit zugewiesen wird (in Bezug auf **Menge pro Maßeinheit**), was zu Fällen führen kann, in denen die verfügbare Menge in Shopify nicht genau ist. Beispiel: Artikel, der in Stück und Schachteln zu 6 Stück verkauft wird. Der Bestand in [!INCLUDE[prod_short](../includes/prod_short.md)] beträgt 6 STK. Artikel wurde als Produkt mit zwei Varianten nach Shopify exportiert. Sobald die Bestandssynchronisierung ausgeführt wurde, beträgt der Lagerstand in Shopify 6 für die Variante STK und 1 für die Variante SCHACHTEL. Der Kaufende kann sich nur im Geschäft umsehen und sehen, ob das Produkt in beiden Optionen verfügbar ist, und dann 1 SCHACHTEL bestellen. Der nächste Kaufende wird sehen, dass die SCHACHTEL nicht verfügbar ist, es aber noch 6 STK sind. Dies wird mit der nächsten Bestandssynchronisierung behoben.
+* Wenn Sie mit einer Variantenmatrix arbeiten, zum Beispiel Farbe und Einheit, und Sie Produkte nach [!INCLUDE[prod_short](../includes/prod_short.md)] importieren möchten, sollten Sie *Artikelnummer + Variantencode* im Feld **SKU-Zuordnung** festlegen und sicherstellen, dass das Feld **SKU** in Shopify den gleichen Wert für alle Maßeinheiten hat und sowohl die Artikelnummer als auch den Variantencode einschließt.
+* Die Verfügbarkeit in [!INCLUDE[prod_short](../includes/prod_short.md)] wird pro Artikel/Artikelvariante und nicht pro Maßeinheit berechnet. Dies bedeutet, dass jeder Variante, die eine Maßeinheit darstellt, dieselbe Verfügbarkeit zugewiesen wird (in Bezug auf **Menge pro Maßeinheit**), was zu Fällen führen kann, in denen die verfügbare Menge in Shopify nicht genau ist. Beispiel: Artikel, der in Stück und Schachteln zu 6 Stück verkauft wird. Der Bestand in [!INCLUDE[prod_short](../includes/prod_short.md)] beträgt 6 STK. Artikel wurde als Produkt mit zwei Varianten nach Shopify exportiert. Sobald die Bestandssynchronisierung ausgeführt wurde, beträgt der Lagerstand in Shopify 6 für die Variante STK und 1 für die Variante SCHACHTEL. Der Kaufende kann sich nur im Geschäft umsehen und sehen, ob das Produkt in beiden Optionen verfügbar ist, und dann 1 SCHACHTEL bestellen. Der nächste Kaufende wird sehen, dass die SCHACHTEL nicht verfügbar ist, es aber noch 6 STK sind. Dies wird bei der nächsten Bestandssynchronisierung behoben.
+* Sie können vorhandenen Produkten mit Varianten keine Einheitenoptionen hinzufügen (das konkrete Ergebnis hängt von anderen Einstellungen ab, z. B. von der **SKU-Zuordnung**).
 
 ### URL und Vorschau-URL
 
@@ -306,6 +307,14 @@ Es sind 10 Stück von Artikel A verfügbar und zwei ausstehende Verkaufsaufträg
 |------|-----------------|-----------------|
 |Dienstag|9|Bestand 10 minus Kundenauftrag, der am Montag versendet werden soll|
 |Freitag|7|Bestand 10 minus beide Verkaufsaufträge|
+
+####  Beispiel zur Berechnung des freien (nicht reservierten) Lagerbestands
+
+Es sind 10 Stück von Artikel A verfügbar und drei Verkaufsaufträge stehen aus. Ein Auftrag mit der Menge *1*, reserviert über einen Artikelposten, eine mit der Menge *2*, nicht reserviert und eine mit der Menge *3*, reserviert über eine Bestellung. Für diese Methode ist das Datum der Synchronisierung nicht wichtig.
+
+|Wert zur Aktualisierung des Lagerbestands|Kommentar|
+|-----------------|-----------------|
+|9|Lagerbestand 10 abzüglich des Verkaufsauftrags mit reserviertem Lagerbestand aus dem Artikelposten. Andere Verkaufsaufträge werden ignoriert.|
 
 ### Zwei Ansätze zur Verwaltung von Auftragserfüllungen
 
