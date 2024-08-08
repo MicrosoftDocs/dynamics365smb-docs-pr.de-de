@@ -50,7 +50,7 @@ Völlig ausgeglichene Kreditorenposten und Bankposten werden erstellt.
 > [!NOTE]  
 > Wenn Sie Schecks in mehreren Währungen von mehreren Bankkonten aus ausdrucken und bezahlen möchten, muss die Stapelverarbeitung **Scheck drucken** für jede einzelne Währung ausgeführt und das entsprechende Bankkonto muss angegeben werden.
 
-## <a name="to-cancel-printed-checks-that-are-not-posted"></a>Um gedruckte Scheck die nicht gebucht wurden zu stornieren
+## <a name="to-cancel-printed-checks-that-arent-posted"></a>Um gedruckte Scheck die nicht gebucht wurden zu stornieren
 
 Sie können nicht gebuchte Schecks stornieren, nachdem sie gedruckt wurden, indem Sie die Aktion **Scheck annullieren** auf der Seite **Zahlungsausgangs Buch.-Blatt** verwenden.
 

@@ -11,7 +11,7 @@ ms.date: 05/24/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="making-payments"></a>Zahlungen vornehmen
+# <a name="make-payments"></a>Zahlungen vornehmen
 
 Sie bezahlen Kreditoren oder Debitoren oder entschädigen Ihre Mitarbeiter, indem Sie die jeweiligen Zahlungszeilen auf der Seite **Zahlungsausgangs Buch.-Blatt** buchen. Das Buch.-Blatt ist ein Fibu Buch.-Blatt, das zum Anwenden von Zahlungen optimiert wird und viele leistungsstarke Aktionen bietet. Beispielsweise die Aktion **Lieferantenzahlungen vorschlagen**, die fällige Lieferantenzahlungen findet, und der Bericht **Lieferant – Zusammenfassung Alterung**, der eine Übersicht über fällige Lieferantenzahlungen anzeigt.  
 
