@@ -11,11 +11,11 @@ ms.search.form: null
 ms.date: 06/06/2024
 ms.service: dynamics-365-business-central
 ---
-# <a name="work-with-bills-of-material"></a>Mit Stücklisten arbeiten
+# Mit Stücklisten arbeiten
 
 Verwenden Sie Stücklisten (BOMs), um beispielsweise Oberartikel zu strukturieren, die aus anderen Artikeln oder nach Ressourcen oder Arbeitsplätze aus Komponenten montiert oder gefertigt werden müssen.
 
-## <a name="assembly-boms-or-production-boms"></a>Montagestücklisten oder Fertigungsstücklisten
+## Montagestücklisten oder Fertigungsstücklisten
 
 [!INCLUDE[prod_short](includes/prod_short.md)] unterstützt zwei verschiedene Arten von Stücklisten:
 
@@ -24,7 +24,7 @@ Verwenden Sie Stücklisten (BOMs), um beispielsweise Oberartikel zu strukturiere
 | [Montagestücklisten](assembly-how-work-assembly-boms.md) | Lager/Montage | Artikel, die aus anderen Artikeln bestehen, die mit einfachen oder keinen Ressourcen zusammengesetzt sind. |
 | [Produktionsstücklisten](production-how-to-create-production-boms.md) | Herstellung/Produktion | Artikel, die aus verschiedenen Komponenten und Unterbaugruppen bestehen und in einem Arbeits- oder Maschinenzentrum hergestellt werden. |
 
-Verwenden Sie Montageaufträge, um Fertigprodukte aus Komponenten in einem einfachen Prozess herzustellen, der von einer oder mehreren Basisressourcen ausgeführt werden kann, die keine Arbeitsplätze oder Arbeitsplatzgruppen sind, oder ohne jegliche Ressourcen durchgeführt werden kann. Beispielsweise könnte ein Montagevorgang lauten, zwei Weinflaschen und ein Paket Kaffee zu kommissionieren und sie als Geschenkartikel zu verpacken.  
+Sie verwenden Montageaufträge zum Herstellen von Endprodukten aus Komponenten in einem einfachen Prozess, der von einer oder mehreren Basisressourcen ausgeführt werden kann, bei denen es sich nicht um Maschinen oder Arbeitsplätze handelt, oder der ohne Ressourcen auskommt. Beispielsweise könnte ein Montagevorgang lauten, zwei Weinflaschen und ein Paket Kaffee zu kommissionieren und sie als Geschenkartikel zu verpacken.  
 
 Eine Montagestückliste liefert die Masterdaten, die festlegen, welche Komponentenartikel in einen montierten Endartikel enthalten sind und welche Ressourcen verwendet werden, um den Montageartikel zu montieren. Wenn Sie in der Kopfzeile eines neuen Montageauftrags den Montageartikel und die Menge eingeben, werden die Montageauftragszeilen automatisch aus der Montagestückliste übernommen und pro Komponente oder Ressource als eine Montageauftragszeile dargestellt. Erfahren Sie mehr unter [Montageverwaltung](assembly-assemble-items.md).
 
@@ -36,14 +36,14 @@ Das Ressourcenkonzept ist in der Produktion weitergehender als in der Montagever
 
 Montageaufträge und Fertigungsaufträge können direkt mit Verkaufsaufträgen verknüpft sein. Sie können jedoch nur Montageaufträge nutzen, um den Endartikel direkt für eine Debitorenanfrage im Verkaufsauftrag anzupassen.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
-[Arbeiten mit Montagestücklisten](assembly-how-work-assembly-boms.md)  
-[Fertigungsauftrag erstellen](production-how-to-create-production-boms.md)  
-[Neue Artikel registrieren](inventory-how-register-new-items.md)  
-[Produktvarianten verwalten](inventory-item-variants.md)  
-[Bestand](inventory-manage-inventory.md)  
-[Produktion](production-manage-manufacturing.md)  
-[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbeiten mit Montagestücklisten](assembly-how-work-assembly-boms.md)    
+[Erstellen von Produktionsstücklisten](production-how-to-create-production-boms.md)    
+[Neue Artikel registrieren](inventory-how-register-new-items.md)    
+[Produktvarianten verwalten](inventory-item-variants.md)    
+[Lagerbest](inventory-manage-inventory.md)    
+[Fertigung](production-manage-manufacturing.md)    
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

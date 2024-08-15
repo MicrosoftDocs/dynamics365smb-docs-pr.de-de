@@ -1,5 +1,5 @@
 ---
-title: Lagerbestand erfassen und regulieren
+title: Anzahl und Anpassen Inventar
 description: 'Beschreibt, wie Sie den physischen Bestand zählen und mit Hilfe von Belegen den Lagerbestand anpassen können.'
 author: brentholtorf
 ms.author: bholtorf
@@ -11,7 +11,7 @@ ms.date: 04/19/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="count-and-adjust-inventory-using-documents"></a>Erfassung und Regulierung des Lagerbestand mithilfe von Belegen
+# Erfassung und Regulierung des Lagerbestand mithilfe von Belegen
 
 Sie können mithilfe der Inventurauftrags- und Inventurerfassungsbelege eine Inventur der Artikel durchführen. Die Seite **Inventurauftrag** wird verwendet, um das vollständige Inventurerfassungsprojekt zu organisieren, zum Beispiel eines pro Standort. Die Seite **Inventurerfassung** wird verwendet, um die tatsächliche Zählung von Artikeln zu erfassen und mitzuteilen. Sie können mehrere Aufzeichnungen für einen Auftrag erstellen, z. B. das Verteilen von Artikelgruppen an verschiedene Mitarbeitende.
 
@@ -29,16 +29,16 @@ Das Erfassen des Lagerbestands mithilfe von Belegen besteht aus den folgenden Ge
 3. Geben Sie die gezählten Artikelmengen zu den Erfassungen ein, wie beispielsweise auf den Ausdrucken erfasst, und legen Sie sie auf **Beendet** fest.
 4. Schließen Sie den Inventurauftrag ab und buchen Sie ihn.
 
-## <a name="to-create-a-physical-inventory-order"></a>So erstellen Sie einen Inventurauftrag
+## So erstellen Sie einen Inventurauftrag
 
 Auf Anwendungsebene ist ein Inventurauftrag ein vollständiger Beleg, der aus einem Inventurauftragskopf und Auftragspositionen besteht. Die Informationen im Inventurauftragskopf geben an, wie die Inventur durchgeführt werden soll. Die Auftragspositionen enthalten Informationen über die Artikel und deren Lagerorte.
 
 Um die Inventurauftragspositionen zu erstellen, verwenden Sie üblicherweise die Aktion **Zeilen berechnen**, um den aktuellen Lagerbestand als Positionen auf dem Auftrag hinzuzufügen. Sie können auch die Aktion **Aus Dokument kopieren** verwenden, um die Positionen mit dem Inhalt aus einem anderen offenen oder gebuchten Inventurauftrag ausfüllen zu lassen. Nachfolgend wird nur beschrieben, wie Sie die Aktion **Zeilen berechnen** verwenden.
 
 1. Wählen Sie das Symbol ![Glühbirne, die die „Sie wünschen ...“-Funktion öffnet](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Physikalische Inventuraufträge** ein und wählen Sie dann den zugehörigen Link.
-2. Wählen Sie die Aktion **Neu** aus.
+2. Wählen Sie die Aktion **Neu**.
 3. Füllen Sie die erforderlichen Felder auf dem Inforegister **Allgemein** aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4. Wählen Sie die Aktion **Zeilen berechnen** aus.
+4. Wählen Sie auf der Registerkarte  **Aktionen**  in der Gruppe  **Funktionen**  die Option  **Sonstige** und anschließend  **Zeilen berechnen aus**.
 5. Wählen Sie die Optionen nach Bedarf aus.
 6. Richten Sie die Filter beispielsweise so ein, dass nur eine Teilmenge der Artikel bei der ersten Erfassung gezählt wird.
 
@@ -58,7 +58,7 @@ Sie können jetzt mindestens eine Erfassung erstellen. Dabei handelt es sich um 
 >
 > Nachdem Sie auf der Seite **Inventurauftrag** die Option **Beenden** ausgewählt haben, berechnet [!INCLUDE [prod_short](includes/prod_short.md)] Differenzen hinsichtlich der Verpackung und anderer Artikelverfolgungsdetails und nimmt positive oder negative Anpassungen vor.
 
-## <a name="to-create-a-physical-inventory-recording"></a>So erstellen Sie eine Inventurerfassung
+## So erstellen Sie eine Inventurerfassung
 
 Für jeden Inventurauftrag können Sie eine oder mehrere Inventurerfassungsbelege erstellen, auf denen die Mitarbeitenden die gezählten Mengen erfassen können. Mitarbeitende können Mengen entweder manuell oder mit einem Scanner eingeben.
 
@@ -66,17 +66,18 @@ Standardmäßig wird die Erfassung aller Zeilen im zugehörigen Inventurauftrag 
 
 Im Falle der manuellen Zählung können Sie den Bericht **Inventurerfassung** ausdrucken, der eine leere Spalte enthält, in der Lagermitarbeitende die gezählten Mengen aufschreiben können. Wenn die Zählung abgeschlossen ist, geben Sie die erfassten Mengen in die entsprechenden Zeilen auf der Seite **Inventurerfassung** ein. Zuletzt übertragen Sie die erfassten Mengen in den zugehörigen Inventurauftrag, indem Sie den Status auf **Beendet** setzen.
 
-1. Wählen Sie auf der Seite **Inventurauftrag**, die Zeilen für die zu zählenden Artikel in einer Erfassung enthält, die Aktion **Neue Erfassung erstellen** aus.
-2. Wählen Sie die Optionen und Filter nach Bedarf aus.
-3. Wählen Sie die Schaltfläche **OK** aus.
-4. Jede Gruppe von Artikeln, die gezählt wird, laden Sie in den zugehörigen Inventurauftrag. Dann wiederholen Sie die Schritte 1 bis 3 bei aktiviertem Kontrollkästchen **Nur nicht erfasste Zeilen**.
-5. Wählen Sie die Aktion **Erfassungen** aus, um die Seite **Inventurerfassungsübersicht** zu öffnen.
-6. Öffnen Sie die entsprechende Erfassung.
-7. Füllen Sie im Inforegister **Allgemein** die notwendigen Felder aus.
-8. Bei Artikeln, die die Artikelverfolgung verwenden, erstellen Sie eine weitere Zeile für jeden Chargen- oder Seriennummerncode, indem Sie die Aktion **Funktionen** und dann die Aktion **Zeile kopieren** auswählen. Weitere Informationen finden Sie unter [Verarbeitung der Artikelverfolgung beim Erfassen des Lagerbestands](#handle-item-tracking-when-counting-inventory).  
-9. Wählen Sie die Aktion **Drucken** aus, um den Beleg vorzubereiten, den Mitarbeitende verwenden, um die von ihnen gezählten Mengen aufzuschreiben.
+1. Auf einer Seite  **Inventurauftrag**, die Zeilen für die in einer Aufzeichnung zu zählenden Artikel enthält, müssen Sie die Aktion  **Neue Aufzeichnung erstellen**  auswählen.
+1. Wählen Sie auf der Registerkarte  **Aktionen**  in der Gruppe  **Funktionen**  die Option  **Sonstige** und anschließend  **Neue Aufnahme erstellen**.
+1. Wählen Sie die Optionen und Filter nach Bedarf aus.
+1. Wählen Sie die Schaltfläche **OK**.
+1. Jede Gruppe von Artikeln, die gezählt wird, laden Sie in den zugehörigen Inventurauftrag. Dann wiederholen Sie die Schritte 1 bis 3 bei aktiviertem Kontrollkästchen **Nur nicht erfasste Zeilen**.
+1. Wählen Sie auf der Registerkarte  **Verwandte** die Option  **Bestellung** und anschließend die Aktion  **Aufzeichnungen**  aus, um die Seite  **Liste der physischen Bestandsaufzeichnungen**  zu öffnen.
+1. Öffnen Sie die entsprechende Erfassung.
+1. Füllen Sie im Inforegister **Allgemein** die notwendigen Felder aus.
+1. Bei Artikeln, die die Artikelverfolgung verwenden, erstellen Sie eine weitere Zeile für jeden Chargen- oder Seriennummerncode, indem Sie die Aktion **Funktionen** und dann die Aktion **Zeile kopieren** auswählen. Weitere Informationen finden Sie unter [Verarbeitung der Artikelverfolgung beim Erfassen des Lagerbestands](#handle-item-tracking-when-counting-inventory).  
+1. Wählen Sie die Aktion **Drucken** aus, um den Beleg vorzubereiten, den Mitarbeitende verwenden, um die von ihnen gezählten Mengen aufzuschreiben.
 
-## <a name="to-finish-a-physical-inventory-recording"></a>So schließen Sie eine Inventurerfassung ab
+## So schließen Sie eine Inventurerfassung ab
 
 Nachdem die Mitarbeitenden die Mengen gezählt haben, erfassen Sie die Mengen in [!INCLUDE [prod_short](includes/prod_short.md)].
 
@@ -91,23 +92,23 @@ Nachdem die Mitarbeitenden die Mengen gezählt haben, erfassen Sie die Mengen in
     > 
     > Wenn keine übereinstimmende Inventurauftragszeile vorhanden ist und das Kontrollkästchen **Erfassung ohne Auftrag erlauben** aktiviert ist, wird eine neue Zeile eingefügt und das Kontrollkästchen **Ohne Auftrag erfasst** in der entsprechenden Inventurauftragszeile aktiviert. Andernfalls wird eine Fehlermeldung angezeigt und der Vorgang wird abgebrochen.> Wenn mehr als eine Zeile einer Inventurerfassung mit einer Zeile eines Inventurauftrags übereinstimmt, wird eine Meldung angezeigt und der Vorgang abgebrochen. Wenn aus irgendwelchen Gründen zwei identische Inventurerfassungszeilen im Inventurauftrag landen, können Sie eine Aktion verwenden, um das Problem zu lösen. Weitere Informationen finden Sie unter [So finden Sie doppelte Inventurauftragszeilen](#to-find-duplicate-physical-inventory-order-lines).
 
-## <a name="to-complete-a-physical-inventory-order"></a>So schließen Sie einen Inventurauftrag ab
+## So schließen Sie einen Inventurauftrag ab
 
-Nachdem Sie eine Inventurerfassung abgeschlossen haben, wird das Feld **Erfasste Menge (Basis)** im zugehörigen Inventurauftrag mit den gezählten (erfassten) Werten aktualisiert und das Kontrollkästchen **In Erfassung** aktiviert. Wenn eine gezählte Menge sich von der erwarteten Menge unterscheidet, dann wird diese Differenz in den Feldern **Positive Menge (Basis)** oder **Negative Menge (Basis)** angezeigt.
+Nachdem Sie eine physische Bestandserfassung abgeschlossen haben, wird das Feld  **Menge erfasst (Basis)**  im zugehörigen Inventurauftrag mit den gezählten (erfassten) Werten aktualisiert und das Kontrollkästchen  **In Erfassungszeilen**  wird aktiviert. Wenn eine gezählte Menge von der erwarteten Menge abweicht, wird die Differenz in den Feldern  **Pos. Menge (Basis)**  und  **Neg. Menge (Basis)**  angezeigt.
 
 Um auf die erwarteten Mengen und alle erfassten Differenzen für Artikel mit Artikelverfolgung zuzugreifen, wählen Sie die Aktion **Zeilen** und dann **Artikelverfolgungszeilen** aus, um verschiedene Ansichten für Serien- und Chargennummern in der Inventarerfassung auszuwählen.
 
 Sie können auch die **Phys. Inventory Order Diff.** Aktion auswählen, um Unterschiede zwischen der erwarteten und der gezählten Menge anzuzeigen.
 
-### <a name="to-find-duplicate-physical-inventory-order-lines"></a>So finden Sie doppelte Inventurauftragszeilen
+### So finden Sie doppelte Inventurauftragszeilen
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Physikalische Inventuraufträge** ein und wählen Sie dann den zugehörigen Link.
 2. Öffnen Sie den Inventurauftrag, für den Sie doppelte Zeilen anzeigen möchten.
-3. Wählen Sie die **Doppelte Zeilen anzeigen** Aktion aus.
+1. Wählen Sie auf der Registerkarte  **Verwandte**  die Option  **Sonstiges** und anschließend  **Doppelte Zeilen anzeigen**.
 
 Doppelte physische Lagerauftragszeilen anzeigen, sodass Sie sie löschen und nur eine Zeile mit eindeutigem Satz von Werten in den Feldern **Artikelnr.**, **Variantencode**, **Lagerortcode** und **Lagerplatzcode** behalten können.
 
-### <a name="to-post-a-physical-inventory-order"></a>So buchen Sie einen Inventurauftrag
+### So buchen Sie einen Inventurauftrag
 
 Nach dem Fertigstellen eines Inventurauftrags und Ändern des Status in **Beendet** können Sie ihn buchen. Der Status eines Inventurauftrags kann unter folgenden Bedingungen nur auf **Beendet** festgelegt werden:
 
@@ -128,21 +129,21 @@ Nach dem Fertigstellen eines Inventurauftrags und Ändern des Status in **Beende
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-### <a name="to-view-posted-physical-inventory-orders"></a>So zeigen Sie gebuchte Inventuraufträge an
+### So zeigen Sie gebuchte Inventuraufträge an
 
 Nach dem Buchen wird der Inventurauftrag gelöscht, und der Beleg kann als gebuchter Inventurauftrag angezeigt und ausgewertet werden. Der gebuchte Auftrag umfasst die darin enthaltenen Inventurerfassungen sowie ggf. Bemerkungen.
 
 1. Wählen Sie das Symbol ![Glühbirne, die die „Sie wünschen ...“-Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Gebuchte Phys. Orders** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie auf der Seite **Geb. Inventuraufträge** den gebuchten Inventurauftrag aus, den Sie anzeigen möchten, und wählen Sie dann die Aktion **Anzeigen** aus.
-3. Um einer Liste zugehörige Inventurerfassungen anzuzeigen, wählen Sie die Aktion **Erfassungen** aus.
+3. Wählen Sie auf der Registerkarte  **Verwandte** die Option  **Bestellung** und anschließend die Aktion  **Aufzeichnungen**, um eine Liste der zugehörigen physischen Bestandsaufzeichnungen anzuzeigen.  
 
-## <a name="handle-item-tracking-when-counting-inventory"></a>Verarbeitung der Artikelverfolgung beim Erfassen des Lagerbestands
+## Verarbeitung der Artikelverfolgung beim Erfassen des Lagerbestands
 
 Die Artikelverfolgung gehört zu den Serien- oder Chargennummern, die Artikeln zugeordnet sind. Beim Erfassen eines Artikels, der im Bestand zum Beispiel unter zehn verschiedenen Chargennummern gespeichert wird, muss der Mitarbeitende erfassen, welche und wie viele Einheiten einer Chargennummer im Lager vorhanden sind. Weitere Informationen finden Sie unter [Arbeiten mit Serien- und Chargennummern](inventory-how-work-item-tracking.md).
 
 Das Kontrollkästchen **Artikelverfolgung verwenden** für Inventurauftragszeilen wird automatisch aktiviert, wenn für den Artikel ein Artikelverfolgungscode eingerichtet ist. Sie können das Kontrollkästchen manuell aktivieren oder deaktivieren.
 
-### <a name="example---prepare-a-physical-inventory-recording-for-an-item-tracked-item"></a>Beispiel – Vorbereiten einer Inventurerfassung für einen Artikel mit Artikelverfolgung
+### Beispiel – Vorbereiten einer Inventurerfassung für einen Artikel mit Artikelverfolgung
 
 Berücksichtigen Sie eine Inventur für Artikel A, der im Lagerbestand unter zehn verschiedene Seriennummern gespeichert wird.
 
@@ -159,7 +160,7 @@ Berücksichtigen Sie eine Inventur für Artikel A, der im Lagerbestand unter zeh
 
 Beachten Sie, dass der Bericht **Inventurerfassung** zehn Zeilen für Artikel A enthält, einen für jede Seriennummer.
 
-### <a name="example---record-and-post-counted-lot-number-differences"></a>Beispiel – Erfassen und Buchen von erfassten Chargennummer-Differenzen
+### Beispiel – Erfassen und Buchen von erfassten Chargennummer-Differenzen
 
 Ein Artikel mit Chargennummern wird im Bestand mit der Lager mit der CHARGEN-Nummernserie gespeichert.
 
@@ -194,47 +195,47 @@ Ein Artikel mit Chargennummern wird im Bestand mit der Lager mit der CHARGEN-Num
 
 Auf der Seite **Inventurauftrag** enthält das Feld **Negative Menge (Basis)** die Zahl **8**. Für die Auftragszeile zeigt die Seite **Inventurverfolgungsübersicht** die positiven oder negativen Mengen für die einzelnen Chargennummern an.
 
-## <a name="inventory-documents"></a>Inventurbelege
+## Inventurbelege
 
 Die folgenden Arten von Dokumenten sind nützlich für die Verwaltung Ihres Lagers:
 
 * Benutzen Sie **Inventarbelege**, um positive Anpassungen von Artikeln basierend auf Qualität, Quantität und Kosten zu registrieren.
 * Benutzen Sie **Inventursendungen**, um fehlende oder beschädigte Waren abzuschreiben.
 
-Sie können diese Dokumente jederzeit drucken, freigeben und erneut öffnen sowie in der Kopfzeile allgemeine Werte, einschließlich Abmessungen, zuweisen. Wenn Sie die Dokumente nach dem Posten erneut drucken möchten, verwenden Sie die Seiten **Gebuchte Lagerzugänge** und **Gebuchte Lagerabgänge**.
+Sie können diese Dokumente jederzeit ausdrucken, freigeben, erneut öffnen und ihnen in der Kopfzeile gemeinsame Werte, wie beispielsweise Abmessungen, zuweisen. Wenn Sie die Dokumente nach dem Posten erneut drucken möchten, verwenden Sie die Seiten **Gebuchte Lagerzugänge** und **Gebuchte Lagerabgänge**.
 
 > [!NOTE]
 > Bevor Sie diese Belege verwenden können, müssen Sie eine Nummernserie angeben, um ihre Bezeichner zu erstellen. Weitere Informationen finden Sie unter [Nummerierung von Inventurbelegen einrichten](#to-set-up-numbering-for-inventory-documents).
 
-### <a name="to-set-up-numbering-for-inventory-documents"></a>Nummerierung von Inventurbelegen einrichten
+### Nummerierung von Inventurbelegen einrichten
 
 Der folgende Ablauf zeigt, wie die Nummerierung von Inventurbelegen eingerichtet wird.
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Lagerbestandseinrichtung** ein und wählen Sie dann den zugehörigen Link.
 2. Im Inforegister **Nummerierung** geben Sie in den folgenden Feldern die Zahlenreihe für Dokumente an:
 
-   - **Lagereingangsnr.**  
-   - **Gebuchter Lagereingang Nr.**  
-   - **Warenausgangsnr.**  
-   - **Geb. Warenausgang Nr.**  
+   - **Inv.-Quittungsnummern**  
+   - **Gebuchte Zahlungseingangsnummern**  
+   - **Invt. Sendungsnummern**  
+   - **Gebuchte Invt.-Sendungsnummern**  
 
-### <a name="to-create-and-post-an-inventory-document"></a>Erstellen und Buchen eines Inventurbelegs
+### Erstellen und Buchen eines Inventurbelegs
 
 Das folgende Verfahren zeigt, wie Sie einen Inventarbeleg erstellen, drucken und buchen. Die Schritte sind ähnlich wie für eine Inventursendungen.
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Lagerzugänge** ein und wählen Sie dann den zugehörigen Link.  
-2. In der Kopfzeile der Seite **Lagereingang** wählen Sie den Ort im Feld **Standortcode** aus, und füllen Sie dann die verbleibenden Felder nach Bedarf aus.
+2. Wählen Sie in der Kopfzeile der Seite  **Lastschriftbeleg**  den Standort im Feld  **Standortcode**  aus und füllen Sie dann die restlichen Felder nach Bedarf aus.
 3. Wählen Sie im Inforegister **Zeilen** im Feld **Artikel** den Lagerartikel aus. Geben Sie in dem Feld **Menge** die Anzahl des Artikels an, der hinzugefügt werden soll.
-4. Um einen Bericht **Lagereingang** von der Seite **Lagereingang** zu drucken, wählen Sie die Aktion **Drucken** aus.
+4. Um einen  **Lagerbeleg** Bericht von der Seite  **Lagerbeleg**  auszudrucken, wählen Sie die Aktion  **Drucken** .
 
-Die folgenden Funktionen stehen auf der Seite **Lagereingang** zur Verfügung:
+Auf der Seite  **Lastschriftbeleg**  stehen Ihnen folgende Funktionen zur Verfügung:
 
 - Wählen Sie die Aktionen **Veröffentlichen** oder **Wieder öffnen** zum Festlegen des Status für die nächste Verarbeitungsstufe aus.  
 - Wählen Sie die Aktion **Buchen** aus, um den Lagereingang zu buchen, oder wählen Sie **Veröffentlichen und drucken** aus, um den Beleg zu buchen und den Testbericht auszudrucken.  
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-## <a name="printing-inventory-documents"></a>Drucken von Inventurbelegen
+## Drucken von Inventurbelegen
 
 Sie können die Berichte angeben, die in verschiedenen Phasen gedruckt werden müssen, indem Sie eine der folgenden Optionen im Feld **Benutzung** für die Seite **Berichtsauswahl – Lagerbestand** auswählen:
 
@@ -246,15 +247,15 @@ Sie können die Berichte angeben, die in verschiedenen Phasen gedruckt werden m�
 > [!NOTE]
 > Die verfügbaren Berichte können je nach Lokalisierung für Ihr Land bzw. Ihre Region variieren. Die Basisanwendung enthält keine Layouts.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
-[Erfassen, Regulieren und Umbuchen von Lagerbestand mithilfe von Buch.-Blättern](inventory-how-count-adjust-reclassify.md)  
-[Arbeiten mit Seriennummern und Chargennummern](inventory-how-work-item-tracking.md)  
-[Bestand](inventory-manage-inventory.md)  
-[Lagerverwaltung – Übersicht](design-details-warehouse-management.md)  
-[Verkauf](sales-manage-sales.md)  
-[Einkauf](purchasing-manage-purchasing.md)  
-[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Zählen, Anpassen und Umklassifizieren des Inventars mithilfe von Journalen](inventory-how-count-adjust-reclassify.md)    
+[Arbeiten mit Serien- und Chargennummern](inventory-how-work-item-tracking.md)    
+[Lagerbest](inventory-manage-inventory.md)    
+[Lagerverwaltung – Übersicht](design-details-warehouse-management.md)    
+[Verkauf](sales-manage-sales.md)    
+[Einkauf](purchasing-manage-purchasing.md)    
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -6,13 +6,13 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'tax, posting, sales tax'
 ms.search.form: '10, 315, 466, 467, 468, 469, 10015, 10016, 10101'
-ms.date: 07/21/2022
+ms.date: 07/11/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# <a name="sales-tax-in-the-default-version-of-business-central"></a>Mehrwertsteuer in der Standardversion von Business Central
+# Umsatzsteuer in der Standardversion von Business Central
 
 Eine **Mehrwertsteuer** ist eine Steuer, die für den Kauf von Waren und Dienstleistungen für Verbraucher und für den Verkauf von Waren und Dienstleistungen für Unternehmen gilt. Die Umsatzsteuer sollte im Idealfall mit wenigen Ausnahmen für den gesamten Endverbrauch gelten. Befreiungen beim Endverbrauch hängen von den örtlichen Behörden ab, aber im Allgemeinen sollten Geschäfte zwischen Unternehmen von der Umsatzsteuer befreit werden.  
 
@@ -23,11 +23,11 @@ In der Regel fallen Umsatzsteuern für den Einzelhandelsverkauf von Waren und Di
 > [!IMPORTANT]
 > Obwohl die Mehrwertsteuer in der Standardversion verfügbar ist, unterstützt Microsoft die Verwendung der Mehrwertsteuer nur in den Vereinigten Staaten und Kanada.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
-[MwSt in den USA melden](localfunctionality/UnitedStates/us-sales-tax.md)  
-[Verkaufssteuer in Kanada melden](localfunctionality/canada/ca-sales-tax.md)  
-[Finanzverwaltung](finance.md)
-[Melden Sie die Mehrwertsteuer an die Steuerbehörden](finance-how-report-vat.md)
+[Umsatzsteuer in den USA melden](localfunctionality/UnitedStates/us-sales-tax.md)    
+[Umsatzsteuer in Kanada melden](localfunctionality/canada/ca-sales-tax.md)    
+[Finanzmanagement](finance.md)  
+[MwSt. an die Steuerbehörden melden](finance-how-report-vat.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

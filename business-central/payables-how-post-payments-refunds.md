@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'payment journal, print check, vendor payment, customer refund, refund check, creditor, debt, balance due, AP'
 ms.search.form: '256, 233, 624, 1228'
-ms.date: 06/06/2024
+ms.date: 07/17/2024
 ms.service: dynamics-365-business-central
 ---
-# <a name="record-payments-and-refunds-in-the-payment-journal"></a>Zahlungen und Erstattungen im Zahlungsausgangs Buch.-Blatt erfassen
+# Zahlungen und Erstattungen im Zahlungsausgangs Buch.-Blatt erfassen
 
-Auf der Seite **Zahlungsjournal** erfassen Sie Zahlungen and Kreditoren und Erstattungen an Debitoren. Wenn Sie eine Zlg Buch.-Blattzeile buchen, wird der zahlende Betrag angegebenen Bankkonto erfasst. Sie müssen dann die Schritte unternehmen, um die tatsächliche Geldüberweisung aus dem entsprechenden Bankkonto vorzunehmen.  
+Auf der Seite  **Zahlungsjournale**  erfassen Sie Zahlungen, die Sie an Lieferanten leisten, und Rückerstattungen, die Sie an Kunden leisten. Wenn Sie eine Zlg Buch.-Blattzeile buchen, wird der zahlende Betrag angegebenen Bankkonto erfasst. Sie müssen dann die Schritte unternehmen, um die tatsächliche Geldüberweisung aus dem entsprechenden Bankkonto vorzunehmen.  
 
 Zlg.-Ausg. Buch.-Blätter sind allgemeine Fibu Buch.-Blätter, die zum Anwenden von Zahlungen optimiert wird. Sie können Zeilen schnell hinzufügen, können von Kreditorenzahlungen [!INCLUDE[prod_short](includes/prod_short.md)] vorschlagen lassen, und Sie können die Zahlung zu gebuchten Belege anwenden. Obwohl Sie Zahlungen leisten, geben Sie einen positiven Betrag in das Feld **Beleg-Betrag** ein. Je nach Belegart für die Buch.-Blattzeile, wird dieser Betrag dann mit einem negativen Betrag in den zugrunde liegenden Transaktionen erstellt. Dieser Weg ist schneller, um Buch.-Blattzeilen manuell hinzufügen. Wenn Sie es vorziehen, negative Beträge einzugeben, können Sie das Buch.-Blatt personalisieren, um das Feld **Betrag** anzuzeigen, Weitere Informationen zum Personalisieren von Seiten finden Sie unter [Beginnen Sie mit der Personalisierung, indem Sie den Personalisierungsmodus verwenden](ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode).  
 
@@ -29,18 +29,18 @@ Zlg.-Ausg. Buch.-Blätter sind allgemeine Fibu Buch.-Blätter, die zum Anwenden 
 
     Zusätzlich zur Erfassung für die Leistung der Zahlung können Sie auch die Seite **Zahlungsausgangs Buch.-Blatt** verwenden, um die Zahlung für die weitere Verarbeitung von Ihrer Bank zu registrieren. Weitere Informationen finden Sie unter [Scheckzahlungen vornehmen](payables-how-work-checks.md) und [Elektronische Zahlungen vornehmen](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).  
 
-## <a name="to-make-payments-in-the-payment-journal"></a>Um Zahlungen im Zahlungsausgangs Buch.-Blatt vornehmen
+## Um Zahlungen im Zahlungsausgangs Buch.-Blatt vornehmen
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Zahlungsausgangs Buch.-Blätter** ein und wählen Sie dann den zugehörigen Link.
 2. Öffnen Sie den Buch.-Blattnamen, den Sie für Zahlungen verwenden.
 3. Wenn Sie wissen, wer zu bezahlen ist, füllen Sie die Felder manuell aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4. Um die Zahlung mit der entsprechenden Rechnung oder Gutschrift auch anzuwenden, aktivieren Sie **Felder Ausgleich. No.** Feld auf der Seite **Kreditorenpostenausgleich** wählen Sie die relevante Rechnung oder die Gutschrift und dann die Schaltfläche **OK** aus.
+4. Um die Zahlung auch auf die zugehörige Rechnung oder Gutschrift anzuwenden, wählen Sie auf der Seite  **Kreditoreneinträge anwenden**  das Feld  **Gilt für Belegnr.**, Auswählen die entsprechende Rechnung oder Gutschrift und wählen Sie dann die Schaltfläche  **OK** .
 
     Viele Felder, wie die Felder **Dokumentbetrag** und **Fälligkeitsdatum** enthalten nun Informationen aus dem ausgewählten Beleg.
 5. Verwenden Sie alternativ die Aktion **Zahlungsvorschlag**. Alle Informationen und Beträge werden auch in die Buch.-Blattzeilen eingegeben. Weitere Informationen finden Sie unter [Zahlungsvorschlag](payables-how-suggest-vendor-payments.md).
 6. Nachdem Sie alle Buch.-Blattzeilen ausgefüllt haben, wählen Sie die Aktion **Buchen** aus.
 
-## <a name="to-issue-a-refund-check"></a>So stellen Sie einen Scheck zur Rückerstattung aus
+## So stellen Sie einen Scheck zur Rückerstattung aus
 
 1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten"), geben Sie **Zahlungsjournale** ein, und wählen Sie dann den entsprechenden Link aus.
 2. Wählen Sie im Feld **Belegart** die Option **Rückerstattung**.  
@@ -48,12 +48,12 @@ Zlg.-Ausg. Buch.-Blätter sind allgemeine Fibu Buch.-Blätter, die zum Anwenden 
 4. Wählen Sie im Feld **Kontoart** die Option **Debitor** aus.  
 5. Wählen Sie im Feld **Konto-Nr.** die Kontonummer des Debitors, auf den der Scheck für die Rückerstattung ausgestellt wird.  
 6. Geben Sie im Feld **Betrag** den zu erstattenden Betrag ein.  
-7. Wählen Sie im Feld **Gegenkonto-Typ** die Option **Bankkonto**.  
-8. Wählen Sie im Feld **Gegenkonto-Nr.** das Bankkonto aus, von dem der Scheck stammen soll.  
+7. Wählen Sie im Feld **Gegenkontoart** die Option **Bankkonto** aus.  
+8. Geben Sie im Feld  **Kontonr.**  Auswählen das Bankkonto ein, von dem der Scheck ausgestellt wurde.  
 9. Wählen Sie im Feld **Gilt für Beleg. Nr.** die Belege aus, die eine Rückerstattung erfordern.  
 10. Nachdem Sie alle Zahlungs-Buch.-Blattzeilen ausgefüllt haben, wählen Sie die Aktion **Buchen/Drucken**, die Aktion **Buchen und Drucken** und dann **Ja** aus.  
   
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Scheckzahlungen vornehmen](payables-how-work-checks.md)  
 [Elektronische Zahlungen vornehmen](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)  

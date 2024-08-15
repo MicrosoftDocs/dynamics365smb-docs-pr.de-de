@@ -1,5 +1,5 @@
 ---
-title: Einziehen von Restbeträgen
+title: Restbeträge einziehen
 description: 'Lernen Sie, wie Sie Ihre Debitor an ausstehende Zahlungen erinnern können. Senden Sie einen Debitor-Auszug, eine Mahnung oder eine Zinsrechnung.'
 author: brentholtorf
 ms.author: bholtorf
@@ -7,24 +7,24 @@ ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: 'payment due, debt, overdue, fee, charge, reminder'
 ms.search.form: '6, 25, 440, 443, 448, 452'
-ms.date: 03/13/2024
+ms.date: 07/01/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="collect-outstanding-balances"></a>Restbeträge einziehen
+# Restbeträge einziehen
 
 Im Rahmen der Debitorenverwaltung muss auch geprüft werden, ob fällige Beträge pünktlich bezahlt werden. Wenn Debitoren überfällige Zahlungen haben, können Sie damit beginnen, indem Sie den Bericht **Kontoauszug** als Mahnung senden. Sie können auch Mahnungen ausgeben.
 
 Mithilfe von Mahnungen können Debitoren bei überfälligen Beträgen benachrichtigt werden. Darüber hinaus können Mahnungen zum Berechnen von Zinsen oder Zuschlägen verwendet werden, die dann in die Mahnung aufgenommen werden. Verwenden Sie Zinsrechnungen, wenn Sie Debitoren Zinsen oder Zuschläge berechnen möchten, ohne die überfälligen Beträge anzumahnen.
 
-## <a name="statements"></a>Kontoauszüge
+## Kontoauszüge
 
 Anhand der Kundenkarte können Sie einen Auszug mit den Transaktionen für Debitoren mit Ihnen erstellen. Anschließend können Sie eine PDF-Datei erstellen und an den Debitoren senden. Alternativ können Sie den Bericht **Kontoauszug** dazu verwenden, um Ihren Debitoren eine Übersicht über ihre Geschäftstätigkeit mit Ihnen senden. 
 
 > [!TIP]
 > Bei Bedarf können Sie den Auszug an Excel senden, um Änderungen vorzunehmen.  
 
-### <a name="to-send-the-customer-statement-report"></a>Um den Kontoauszugsbericht zu senden
+### Um den Kontoauszugsbericht zu senden
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet 10.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Kontoauszug** ein und wählen Sie dann den zugehörigen Link.
 2. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -33,13 +33,13 @@ Anhand der Kundenkarte können Sie einen Auszug mit den Transaktionen für Debit
 > [!NOTE]
 > Wenn Sie mehrere Währungen verwenden, wird der Debitoren-Abrechnungsbericht immer in der Währung des Debitors gedruckt. Das Datum einer Abrechnungsperiode dient auch als Abrechnungsdatum und als Fälligkeitsdatum, wenn die Fälligkeit enthalten ist.
 
-## <a name="reminders"></a>Mahnungen
+## Mahnungen
 
 [!INCLUDE [receivables-reminders](includes/receivables-reminders.md)]
 
-## <a name="finance-charges"></a>Finanzierungskosten
+## Finanzierungskosten
 
-Hat ein Debitor nicht bis zum Fälligkeitsdatum gezahlt, können automatisch Zuschläge berechnet und zu den überfälligen Beträgen auf dem Debitorkonto addiert werden. Verwenden Sie Zinsrechnungen, um Debitoren über die Zuschläge zu informieren.  
+Wenn ein Kunde nicht bis zum Fälligkeitsdatum zahlt, können Sie automatisch Finanzierungsgebühren berechnen lassen und diese zu den überfälligen Beträgen auf dem Konto des Kunden hinzufügen. Verwenden Sie Zinsrechnungen, um Debitoren über die Zuschläge zu informieren.  
 
 > [!NOTE]  
 > Mithilfe von Zinsrechnungen werden Zinsen und Zuschläge berechnet und Debitoren über die Zinsen und Zuschläge informiert, ohne die überfälligen Beträge anzumahnen. Alternativ können Zinsen auf überfällige Zahlungen auch bei der Mahnungserstellung berechnet werden.  
@@ -48,11 +48,11 @@ Bevor Sie Zinsrechnungen erstellen können, müssen Sie Bestimmungen einrichten.
 
 Sie können eine Zinsrechnung für einen bestimmten Debitor manuell erstellen und die Zeilen automatisch ausfüllen. Alternativ können Sie die Funktion **Zinsrechnungen erstellen** verwenden, um Zinsrechnungen für alle oder ausgewählte Debitoren mit überfälligem Saldo zu erstellen.  
 
-Erstellte Zinsrechnungen können geändert werden. Der Text, der am Anfang und am Ende der Zinsrechnung erscheint, ist abhängig von den Zinskonditionen und wird in der jeweiligen Zeile in der Spalte **Beschreibung** angezeigt. Wurde in den Vor- oder Nachtext automatisch ein berechneter Betrag eingefügt, wird der Text beim Löschen von Zeilen nicht angepasst. Verwenden Sie in diesem Fall die Funktion **Zinsrech. Text aktualisieren**.  
+Erstellte Zinsrechnungen können geändert werden. Der Text, der am Anfang und am Ende der Zinsrechnung erscheint, ist abhängig von den Zinskonditionen und wird in der jeweiligen Zeile in der Spalte **Beschreibung** angezeigt. Wenn am Anfangs- oder Endtext automatisch ein berechneter Betrag eingefügt wurde, wird der Text beim Löschen von Zeilen nicht angepasst. Verwenden Sie in diesem Fall die Funktion **Zinsrech. Text aktualisieren**.  
 
 Nach dem Erstellen von Zinsrechnungen und dem Vornehmen von möglicherweise erforderlichen Änderungen können Sie entweder Testberichte drucken oder die Zinsrechnungen versenden, in der Regel als E-Mail.
 
-### <a name="to-create-a-finance-charge-memo-manually"></a>So erstellen Sie eine Zinsrechnung manuell
+### So erstellen Sie eine Zinsrechnung manuell
 
 Eine Zinsrechnung ist ähnlich wie eine Rechnung. Sie können den Kopf manuell ausfüllen und die Zeilen ausfüllen lassen, oder Sie können Zinsrechnungen für alle Debitoren automatisch erstellen lassen.
 
@@ -65,16 +65,16 @@ Eine Zinsrechnung ist ähnlich wie eine Rechnung. Sie können den Kopf manuell a
     > Obwohl sie aufgelistet sind, hat die Auswahl von **Zahlung** und **Gutschrift** als **Belegart**-Filter keine Wirkung, da die Funktion **Zinsrechnung** nur positive Beträge verarbeitet.
 5. Klicken Sie auf die Schaltfläche **OK**, um den Batchauftrag zu starten.  
 
-### <a name="to-update-finance-charge-memo-texts"></a>So aktualisieren Sie Zinsrechnungstexte:
+### So aktualisieren Sie Zinsrechnungstexte:
 
-In manchen Fällen möchten Sie möglicherweise den Vor- und Nachtext ändern, den Sie für die Zinskonditionen eingerichtet haben. Wenn Sie dies zu einem Zeitpunkt tun, an dem Sie Zinsrechnungen angelegt, aber noch nicht registriert haben, können Sie die Anwendung dazu veranlassen, die Zinsrechnungen mit den geänderten Texten zu aktualisieren.
+In einigen Fällen möchten Sie möglicherweise den Anfangs- und Endtext ändern, den Sie für die Finanzierungsbedingungen festgelegt haben. Wenn Sie dies zu einem Zeitpunkt tun, an dem Sie Zinsrechnungen angelegt, aber noch nicht registriert haben, können Sie die Anwendung dazu veranlassen, die Zinsrechnungen mit den geänderten Texten zu aktualisieren.
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet 3.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren") Symbol. Geben Sie **Finance Zinsrechnungen** ein und wählen Sie dann den zugehörigen Link.  
 2. Öffnen Sie das Fenster, in dem Sie Text ändern möchten und wählen Sie die **Zinsrech. Text aktualisieren** Aktion aus.
 3. Auf der Seite **Zinsrechnungskopf aktualisieren** können Sie einen Filter festlegen, wenn Sie mehrere Zinsrechnungen aktualisieren möchten.
 4. Wählen Sie die Schaltfläche **OK**, um den Vortext und den Nachtext zu aktualisieren.  
 
-### <a name="to-issue-finance-charge-memos"></a>Um Zinsrechnungen zu registrieren
+### Um Zinsrechnungen zu registrieren
 
 Nach dem Erstellen von Zinsrechnungen und dem Vornehmen von möglicherweise erforderlichen Änderungen können Sie entweder Testberichte drucken oder die Zinsrechnungen registrieren.
 
@@ -95,16 +95,16 @@ Zusätzlich kann das Registrieren der Mahnung zu MwSt.-Posten führen.
 3. Füllen Sie auf der Seite **Zinsgebührmemo ausgeben** die Felder nach Bedarf aus.
 4. Wählen Sie die Schaltfläche **OK** aus.
 
-Das Zinsgebührenmemo wird entweder gedruckt oder an eine festgelegte E-Mail als PDF-Dateianhang gesendet.
+Das Zinsgebührenmemo wird entweder ausgedruckt oder als PDF-Anhang an eine angegebene E-Mail-Adresse gesendet.
 
-### <a name="to-cancel-an-issued-finance-charge-memo"></a>Um die ausgestellte Zinsrechnung zu stornieren
+### Um die ausgestellte Zinsrechnung zu stornieren
 
-Wenn fälschlicherweise Zinsrechnungen ausgegeben wurden, können Sie diese vor dem Versenden stornieren. Sie können dies entweder einzeln oder als Stapel ausführen.
+Wenn Zinsgebühren irrtümlicherweise ausgestellt wurden, können Sie diese mit Abbrechen löschen, bevor sie erneut verschickt werden. Sie können dies entweder einzeln oder als Stapel tun.
 
 1. Auf der Seite **Ausgestellte Zinsrechnung** wählen Sie mindestens eine Zeile für die Seitenanpassungen aus, die Sie löschen möchten, und wählen Sie danach die Aktion **Löschen** aus.
 2. Auf der Seite **Ausgestellte Zinsrechnungs-Memos stornieren** geben Sie die Felder wie nötig ein, und wählen Sie dann die Schaltfläche **OK**.
 
-### <a name="to-view-reminder-and-finance-charge-entries"></a>So zeigen Sie Mahnungs- und Zinsrechnungsposten an:
+### So zeigen Sie Mahnungs- und Zinsrechnungsposten an:  
 
 Wenn Sie eine Mahnung registrieren, wird für jede Mahnungszeile, die einen Debitorenposten enthält, ein Mahnungsposten auf der Seite **Mahnung/Zinsrechnung Posten** erstellt. Sie können sich einen Überblick über die erstellten Mahnungsposten für einen bestimmten Debitor anzeigen lassen.
 
@@ -112,11 +112,11 @@ Wenn Sie eine Mahnung registrieren, wird für jede Mahnungszeile, die einen Debi
 2. Öffnen Sie die entsprechende Debitorenkarte und klicken dann auf **Buchblatteinträge**.
 3. Klicken Sie auf die Seite auf **Buch-Blatteinträge** und wählen Sie die Zeilen, die Sie anzeigen möchten, und klicken Sie dann auf **Posten, Mahnungs-/Zinsrechnungseinträge**.
 
-## <a name="multiple-interest-rates"></a>Verschiedene Zinssätze
+## Verschiedene Zinssätze
 
 [!INCLUDE [multiple-interest-rates-def](includes/multiple-interest-rates-def.md)] Weitere Informationen finden Sie unter [Mehrere Zinssätze einrichten](finance-how-to-set-up-multiple-interest-rates.md).  
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Mahnmethoden und Mahnstufen einrichten](finance-setup-reminders.md)  
 [Zinskonditionen einrichten](finance-setup-finance-charges.md)  

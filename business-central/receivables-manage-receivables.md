@@ -7,10 +7,10 @@ ms.reviewer: bholtorf
 ms.topic: overview
 ms.devlang: al
 ms.search.keywords: 'customer payment, debtor, balance due, AR'
-ms.date: 06/10/2024
+ms.date: 07/08/2024
 ms.service: dynamics-365-business-central
 ---
-# <a name="managing-receivables"></a>Debitoren verwalten
+# Debitoren verwalten
 
 Ein regelmäßiger Schritt in jedem Finanzrhythmus ist der Abgleich der Bankkonten. Um Verkaufsrechnungen und Einkaufsgutschriften als bezahlt abzuschließen, gleichen Sie eingehende Zahlungen mit Debitoren- oder Kreditorenposten aus.
 
@@ -41,8 +41,7 @@ Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Artikel
 |Einrichtung einer Toleranz, mit der das System eine Rechnung schließt, selbst wenn die Zahlung einschließlich aller Rabatte nicht vollständig den Betrag der Rechnung abdeckt.|[Mit Zahlungstoleranzen und Skontotoleranzen arbeiten](finance-payment-tolerance-and-payment-discount-tolerance.md)|
 | Sagen Sie voraus, wenn Zahlungen für Verkaufsbelege zu spät geleistet werden. | [Die Erweiterung zur Vorhersage verspäteter Zahlungen](ui-extensions-late-payment-prediction.md) |
 
-## <a name="see-also"></a>Siehe auch
-
+## Siehe auch
 [Verkauf](sales-manage-sales.md)  
 [Verwalten von Verbindlichkeiten](payables-manage-payables.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

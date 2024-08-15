@@ -7,11 +7,11 @@ ms.reviewer: bholtorf
 ms.topic: overview
 ms.search.keywords: 'print check, vendor payment, creditor, debt, balance due, AP'
 ms.search.form: '254, 256, 1190, 1191, 1227, 1228, 1229'
-ms.date: 05/24/2024
+ms.date: 07/15/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="make-payments"></a>Zahlungen vornehmen
+# Zahlungen vornehmen
 
 Sie bezahlen Kreditoren oder Debitoren oder entschädigen Ihre Mitarbeiter, indem Sie die jeweiligen Zahlungszeilen auf der Seite **Zahlungsausgangs Buch.-Blatt** buchen. Das Buch.-Blatt ist ein Fibu Buch.-Blatt, das zum Anwenden von Zahlungen optimiert wird und viele leistungsstarke Aktionen bietet. Beispielsweise die Aktion **Lieferantenzahlungen vorschlagen**, die fällige Lieferantenzahlungen findet, und der Bericht **Lieferant – Zusammenfassung Alterung**, der eine Übersicht über fällige Lieferantenzahlungen anzeigt.  
 
@@ -35,7 +35,7 @@ Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Artikel
 | Bezahlen Sie einen Kreditor bar oder mit Scheck und buchen Sie die Zahlung, wenn Sie die Rechnung buchen. |[Einkaufsrechnungen sofort ausgleichen](finance-how-to-settle-purchase-invoices-promptly.md) |
 | Um sicherzustellen, dass Ihre Bank nur Schecks und Beträge freigibt, können Sie ihr eine Datei senden, die die Daten für Kreditoren, Schecks und Zahlungsinformationen enthält. |[Positive Pay-Datei exportieren](finance-how-positive-pay.md) |
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Verwalten von Verbindlichkeiten](payables-manage-payables.md)  
 [Einkauf](purchasing-manage-purchasing.md)  

@@ -5,12 +5,12 @@ author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.form: '118, 314, 395'
-ms.date: 06/10/2024
+ms.date: 07/05/2024
 ms.service: dynamics-365-business-central
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ---
-# <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Mit Zahlungstoleranzen und Skontotoleranzen arbeiten
+# Mit Zahlungstoleranzen und Skontotoleranzen arbeiten
 
 Sie können eine Zahlungstoleranz einrichten, um eine Rechnung zu schließen, wenn die Zahlung nicht vollständig den Betrag der Rechnung umfasst. Beispielsweise sind Zahlungstoleranzen in der Regel für kleine Beträge vorgesehen, deren Korrektur mehr kosten würde als deren Akzeptanz. Die eingerichtete Skontotoleranz erlaubt Ihnen, Skonto nach Ablauf des Skontodatums zu gewähren.  
 
@@ -18,7 +18,7 @@ Sie können Zahlungstoleranzen verwenden, sodass für jeden Restauftragsbetrag e
 
 Sie können Skototoleranzen einrichten, sodass bei Gewährung eines Rabatts nach Ablauf des Skontodatums dieses immer auf ein Skonto- oder ein Zahlungstoleranzkonto gebucht wird.
 
-## <a name="applying-payment-tolerance-to-multiple-documents"></a>Anwenden der Zahlungstoleranz auf mehrere Belege
+## Anwenden der Zahlungstoleranz auf mehrere Belege
 
 Ein einzelner Beleg hat dieselben Zahlungstoleranzen, egal ob er alleine oder mit anderen Belegen ausgeglichen wird. Das Akzeptieren eines verspäteten Skontos, wenn Sie Zahlungstoleranz auf mehrere Belegen anwenden, tritt automatisch für jeden Beleg auf, für den die folgende Regel gilt:  
 
@@ -36,7 +36,7 @@ Sie können eine Warnung anzeigen, die auf verschiedenen Toleranzsituationen bas
 
 Weitere Informationen finden Sie unter [So aktivieren oder deaktivieren Sie die Zahlungstoleranzwarnung](finance-payment-tolerance-and-payment-discount-tolerance.md#to-enable-or-disable-payment-tolerance-warnings). 
 
-## <a name="to-set-up-tolerances"></a>Toleranzen einrichten:
+## Toleranzen einrichten:
 
 Die Zahlungstoleranz für Tage und Beträge erlaubt Ihnen, eine Rechnung zu schließen, auch wenn die Zahlung nicht vollständig den Betrag der Rechnung umfasst. Zum Beispiel wegen Skontoüberschreitung, Warenabzug oder wegen eines kleinen Fehlers. Dieses Prinzip gilt auch für Gutschriften und Erstattungen.  
 
@@ -49,13 +49,13 @@ Um diese Toleranz einzurichten, müssen Sie verschiedene Toleranzkonten einricht
 6. Öffnen Sie die Seite **Debitorenbuchungsgruppen**. Richten Sie ein Haben- und ein Soll-Zahlungstoleranzkonto ein.  
 7. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Hauptbuchhaltung Einrichtung** ein und wählen Sie dann den zugehörigen Link.  
 8. Öffnen Sie die Seite **Finanzbuchhaltung Einrichtung**.  
-9. Füllen Sie auf dem Inforegister **Ausgleich** die Felder **Skontotoleranzbuchung**, **Skontotoleranzperiode** und **Zahlungstoleranzbuchung** aus.   
+9. Füllen Sie auf dem Inforegister  **Anwendung**  die Felder  **Zahlungsrabatt-Toleranzbuchung**,  **Zahlungsrabatt-Karenzzeit**  und  **Zahlungstoleranzbuchung**  aus.   
 10. Wählen Sie die Aktion **Zahlungstoleranz ändern** aus.
 
     > [!NOTE]
     > Wenn Sie **Auf Älteste Anwenden** im Feld **Anwendungsverfahren** auf der Seite **Debitorenkarte** auswählen, bucht [!INCLUDE[prod_short](includes/prod_short.md)] Zahlungstoleranzen nicht automatisch, selbst wenn sie innerhalb der festgelegten Schwellen auf der Seite **Finanzbuchhaltungs-Einrichtung** liegen. [!INCLUDE[prod_short](includes/prod_short.md)] geht davon aus, dass die Einstellung "Auf Älteste anwenden" angibt, dass der Debitor (oder Sie als Debitor Ihres Kreditors) ein Konto bei Ihnen hat, auf das er regelmäßig den Saldo zahlt. Daher sollten Restbeträge nicht durch das Buchen eines Zahlungstoleranzeintrags entfernt werden.
 
-11. Füllen Sie die Seite **Zahlungstoleranz ändern** die Felder **Zahlungstoleranz %** und **Max- Zahlungstoleranzbetrag** und bestätigen Sie dann mit **OK**.
+11. Füllen Sie auf der Seite  **Zahlungstoleranz ändern**  die Felder  **Zahlungstoleranz %**  und  **Max. Zahlungstoleranzbetrag**  aus und wählen Sie dann die Schaltfläche  **OK** .
 
 > [!IMPORTANT]  
 > Sie haben jetzt nur die Toleranz für die Mandantenwährung eingerichtet. Wenn [!INCLUDE[prod_short](includes/prod_short.md)] Toleranzen auf Zahlungen, Gutschriften und Erstattungen in Fremdwährungen gewähren soll, müssen Sie die Stapelverarbeitung **Zahlungstoleranz ändern** mit einem Wert im Feld **Währungscode** aufrufen.  
@@ -70,7 +70,7 @@ Um diese Toleranz einzurichten, müssen Sie verschiedene Toleranzkonten einricht
 > [!IMPORTANT]  
 > Wenn Sie das Feld **An Zahlungsrabatt anpassen** auf der Seite **Einrichtung der MwSt.-Buchung** aktivieren, gilt der MwSt.-Betrag als es bezieht sich auf die Beträge **Zahlungstoleranzen** und **Zahlungsrabatte** , und die Mehrwertsteuer wird für beide Transaktionsbeträge reduziert, wenn Sie existieren. Das System kann nicht so konfiguriert werden, dass es die Mehrwertsteuersenkung nur für eine Transaktionsart verwendet.  
 
-## <a name="to-enable-or-disable-payment-tolerance-warnings"></a>So aktivieren oder deaktivieren Sie die Zahlungstoleranzwarnungen
+## So aktivieren oder deaktivieren Sie die Zahlungstoleranzwarnungen
 
 Die Zahlungstoleranzwarnung erscheint, wenn Sie einen Ausgleich mit einem Saldo innerhalb der erlaubten Toleranz buchen. Sie können dann wählen, wie Sie den Saldo buchen und dokumentieren wollen.
 
@@ -80,7 +80,7 @@ Die Zahlungstoleranzwarnung erscheint, wenn Sie einen Ausgleich mit einem Saldo 
 > [!NOTE]  
 > Die Standardoption der Seite **Zahlungstoleranzwarnung** ist **Restbetrag offen lassen**. Die Standardoption der Seite **Skontotoleranzwarnung** ist **Überzogenes Skonto nicht akzeptieren**.
 
-## <a name="to-block-payment-tolerance-for-customers"></a>Zahlungstoleranz für Debitoren sperren:
+## Zahlungstoleranz für Debitoren sperren:
 
 Die Standardeinrichtung für die Zahlungstoleranz ist zulässig. Sperren Sie auf der entsprechenden Debitoren- oder Kreditorenkarte die Toleranz, um eine Zahlungstoleranz für einen bestimmten Kreditor oder Debitor zu sperren. Anhand der folgenden Schritte wird die Vorgehensweise für einen Debitor beschrieben: Die Schritte sind für einen Kreditor ähnlich.
 
@@ -90,7 +90,7 @@ Die Standardeinrichtung für die Zahlungstoleranz ist zulässig. Sperren Sie auf
 > [!NOTE]  
 > Sind für einen Debitor oder Kreditor offene Posten vorhanden, müssen Sie zuerst die Zahlungstoleranz aus den offenen Posten entfernen.
 
-## <a name="example-1---tolerance-calculations-for-a-single-document"></a>Beispiel 1 – Toleranzberechnungen für einen einzelnen Beleg
+## Beispiel 1 – Toleranzberechnungen für einen einzelnen Beleg
 
 Im Folgenden wird anhand von Beispielszenarien gezeigt, welche Toleranzberechnungen und Buchungen sich in verschiedenen Situationen ergeben.  
 
@@ -125,11 +125,11 @@ Szenarien mit Alternative A oder B bedeuten:
 |14|1.000|20|5|15.01.2003|01/20/03|>20.01.03|980|"Keine"|Nein, 20 in der Rech.|0|0|  
 |15|1.000|20|5|15.01.2003|01/20/03|>20.01.03|975|"Keine"|Nein, 25 in der Rech.|0|0|  
 
-### <a name="payment-range-diagrams"></a>Zahlungsbereichsdiagramme
+### Zahlungsbereichsdiagramme
 
 Bezugnehmend auf das Szenario, sind die Zahlungszeiträume wie folgt:  
 
-#### <a name="1-payment-date-011503-scenarios-1-3"></a>(1) Zahlungsdatum <=15.01.03 (Szenarien 1-3)
+#### (1) Zahlungsdatum <=15.01.03 (Szenarien 1-3)
 
 Restbetrag gemäß  
 
@@ -141,7 +141,7 @@ Normale Ausgleichsvorschriften
 
 (2) Fällt die Zahlung in diesen Bereich, können nicht alle Posten geschlossen werden, auch nicht mit Toleranz.  
 
-#### <a name="2-payment-date-is-between-011603-and-012003-scenarios-4-9"></a>(2) Zahlung zwischen dem 16.01.2003 und 20.01.2003 (Szenarien 4-9)
+#### (2) Zahlung zwischen dem 16.01.2003 und 20.01.2003 (Szenarien 4-9)
 
 Restbetrag gemäß  
 
@@ -153,7 +153,7 @@ Normale Ausgleichsvorschriften
 
 (2) Fällt die Zahlung in diesen Bereich, können nicht alle Posten geschlossen werden, auch nicht mit Toleranz.  
 
-#### <a name="3-payment-date-is-after-012003-scenarios-10-15"></a>(3) Zahlungsdatum liegt nach dem 20.01.03 (Szenarien 10-15)
+#### (3) Zahlungsdatum liegt nach dem 20.01.03 (Szenarien 10-15)
 
 Restbetrag gemäß  
 
@@ -165,7 +165,7 @@ Normale Ausgleichsvorschriften
 
 (2) Fällt die Zahlung in diesen Bereich, können nicht alle Posten geschlossen werden, auch nicht mit Toleranz.  
 
-## <a name="example-2---tolerance-calculations-for-multiple-documents"></a>Beispiel 2 – Toleranzberechnungen für mehrere Belege
+## Beispiel 2 – Toleranzberechnungen für mehrere Belege
 
 Im Folgenden wird anhand von Beispielszenarien gezeigt, welche Toleranzberechnungen und Buchungen sich in verschiedenen Situationen ergeben. Die Beispiele beschränken sich auf die Szenarien, die dazu führen, dass alle Posten geschlossen werden.  
 
@@ -213,11 +213,11 @@ Szenarien mit Alternative A, B, C oder D bedeuten Folgendes:
 |**29**|**1,000** <br />**1,000**|**60** <br />**30**|**5** <br />**5**|**15.01.2003** <br />**01/17/03**|**01/20/03** <br />**01/22/03**|**>22.01.03**|**2000**|**Keine**|**Ja**|**0**|**0**|  
 |30|1.000 <br />1.000|60 <br />30|5 <br />5|15.01.2003 <br />17.01.2003|01/20/03 <br />01/22/03|>22.01.03|1990|PaymentTolerance|Ja|0|5|  
 
-### <a name="payment-range-diagrams-1"></a>Zahlungsbereichsdiagramme
+### Zahlungsbereichsdiagramme
 
 Bezugnehmend auf das Szenario, sind die Zahlungszeiträume wie folgt:  
 
-#### <a name="1-payment-date-011503-scenarios-1-3-1"></a>(1) Zahlungsdatum <=15.01.03 (Szenarien 1-3)
+#### (1) Zahlungsdatum <=15.01.03 (Szenarien 1-3)
 
 Restbetrag gemäß  
 
@@ -229,7 +229,7 @@ Normale Ausgleichsvorschriften
 
 (2) Fällt die Zahlung in diesen Bereich, können nicht alle Posten geschlossen werden, auch nicht mit Toleranz.  
 
-#### <a name="2-payment-date-is-between-011603-and-011703-scenarios-4-9"></a>(2) Zahlung zwischen dem 16.01.2003 und 17.01.2003 (Szenarien 4-9)
+#### (2) Zahlung zwischen dem 16.01.2003 und 17.01.2003 (Szenarien 4-9)
 
 Restbetrag gemäß  
 
@@ -241,7 +241,7 @@ Normale Ausgleichsvorschriften
 
 (2) Fällt die Zahlung in diesen Bereich, können nicht alle Posten geschlossen werden, auch nicht mit Toleranz.  
 
-#### <a name="3-payment-date-is-between-011803-and-012003-scenarios-10-21"></a>(3) Zahlung zwischen dem 18.01.2003 und 20.01.2003 (Szenarien 10-21)
+#### (3) Zahlung zwischen dem 18.01.2003 und 20.01.2003 (Szenarien 10-21)
 
 Restbetrag gemäß  
 
@@ -253,7 +253,7 @@ Normale Ausgleichsvorschriften
 
 (2) Fällt die Zahlung in diesen Bereich, können nicht alle Posten geschlossen werden, auch nicht mit Toleranz.  
 
-#### <a name="4-payment-date-is-between-012103-and-012203-scenarios-22-27"></a>(4) Zahlung zwischen dem 21.01.03 und 22.01.03 (Szenarien 22-27)
+#### (4) Zahlung zwischen dem 21.01.03 und 22.01.03 (Szenarien 22-27)
 
 Restbetrag gemäß  
 
@@ -265,7 +265,7 @@ Normale Ausgleichsvorschriften
 
 (2) Fällt die Zahlung in diesen Bereich, können nicht alle Posten geschlossen werden, auch nicht mit Toleranz.  
 
-#### <a name="5-payment-date-is-after-012203-scenarios-28-30"></a>(5) Zahlungsdatum liegt nach dem 22.01.2003 (Szenarien 28-30)
+#### (5) Zahlungsdatum liegt nach dem 22.01.2003 (Szenarien 28-30)
 
 Restbetrag gemäß  
 
@@ -277,7 +277,7 @@ Normale Ausgleichsvorschriften
 
 (2) Fällt die Zahlung in diesen Bereich, können nicht alle Posten geschlossen werden, auch nicht mit Toleranz.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Finanzen](finance.md)  
 [Finanzen einrichten](finance-setup-finance.md)  

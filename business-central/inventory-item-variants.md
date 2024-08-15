@@ -10,30 +10,31 @@ ms.search.form: '30, 5717, 31, 32, 346, 9091, 5718, 5716, 5720, 1384, 1383, 35, 
 ms.date: 06/13/2024
 ms.service: dynamics-365-business-central
 ---
-# <a name="manage-product-variants"></a>Produktvarianten verwalten
+
+# Produktvarianten verwalten
 
 Artikelvarianten sind eine großartige Möglichkeit, Ihre Produktliste unter Kontrolle zu halten. Das ist beispielsweise nützlich, wenn Sie eine große Anzahl fast identischer Artikel verwalten, die sich z. B. nur durch die Farbe unterscheiden. Sie können jede Variante als separaten Artikel definieren. Aber Sie können sich auch dafür entscheiden, einen Artikel einzurichten und die verschiedenen Farben als Varianten des Artikels anzugeben.  
 
 > [!TIP]
 > Eine praktische Einführung in die Verwendung von Varianten in der Produktion finden Sie unter [Komplettlösung: Varianten](contoso-coffee/manufacturing/variants.md) für die Demodaten von Contoso Coffee.  
 
-## <a name="add-variants-to-an-item"></a>Varianten zu einem Artikel hinzufügen
+## Varianten zu einem Artikel hinzufügen
 
 Es ist ganz einfach, Varianten für einen Artikel zu definieren.  
 
-### <a name="to-add-variants"></a>Varianten hinzuzufügen
+### Varianten hinzuzufügen
 
-1. Öffnen Sie [die Seite **Artikelliste**](https://businesscentral.dynamics.com/?page=31) und dann den entsprechenden Artikel.  
-2. Wählen Sie auf der Seite **Artikelkarte** die Aktion **Varianten** aus.  
-3. Listen Sie auf der Seite **Artikelvarianten** die Varianten auf.  
+1. Öffnen Sie das entsprechende Artikel auf der [Seite **Artikelliste**](https://businesscentral.dynamics.com/?page=31).  
+2. Wählen Sie beim  **Artikel** Karte die Aktion  **Verwandte**, dann  **Artikel** und schließlich die Aktion  **Varianten** .  
+3. Listen Sie auf der Seite  **Artikelvarianten**  die Varianten auf.  
 
-Wenn Sie dann einen Verkaufsbeleg erstellen und den Artikel hinzufügen, können Sie die Variante des Artikels im Feld **Variantencode** angeben. Gleiches gilt für Einkaufsbelege.  
+Wenn Sie dann einen Verkaufsbeleg erstellen und den Artikel hinzufügen, können Sie die Variante des Artikels im Feld Varianten **Code**  angeben. Gleiches gilt für Einkaufsbelege.  
 
-## <a name="item-availability-by-variant"></a>Artikelverfügbarkeit nach Variante
+## Artikelverfügbarkeit nach Variante
 
 [!INCLUDE [inventory_variant-availability](includes/inventory_variant-availability.md)]
 
-## <a name="require-use-of-variants"></a>Verwendung von Varianten erfordern
+## Verwendung von Varianten erfordern
 
 Ab dem Veröffentlichungszyklus 2, 2022 können Administratoren verlangen, dass Benutzer die Variante in Dokumenten und Journalen für Artikel mit Varianten angeben. Um die Funktion zu aktivieren, wählen Sie auf der Seite **Inventar einrichten** das Feld **Variante Obligatorisch, falls vorhanden** aus. Sie können diese globale Einstellung für bestimmte Elemente überschreiben.  
 
@@ -50,12 +51,12 @@ Auf Artikelkarten hat das Feld **Variante Obligatorisch, falls vorhanden** die f
 
 Wenn die Funktion eingeschaltet ist, können Sie keinen Eintrag veröffentlichen, wenn die Variante nicht angegeben ist.
 
-## <a name="categories-attributes-and-variants"></a>Kategorien, Attribute und Varianten
+## Kategorien, Attribute und Varianten
 
 [!INCLUDE[inventory_variant](includes/inventory_variant.md)]
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
-[Neue Artikel registrieren](inventory-how-register-new-items.md)  
-[So richten Sie allgemeine Lagerbestandsinformationen ein](inventory-how-setup-general.md)  
-[Exemplarische Vorgehensweise: Varianten](contoso-coffee/manufacturing/variants.md)  
+[Neue Artikel registrieren](inventory-how-register-new-items.md)    
+[Allgemeine Bestandsinformationen einrichten](inventory-how-setup-general.md)    
+[Exemplarische Vorgehensweise: Varianten](contoso-coffee/manufacturing/variants.md)    

@@ -1,10 +1,6 @@
 ---
-author: brentholtorf
-ms.topic: include
-ms.date: 06/12/2024
-ms.author: bholtorf
-ms.service: dynamics-365-business-central
-ms.reviewer: bholtorf
+Autor: brentholtorf ms.Thema: include <<<<<<< Upstream aktualisiert ms.date: 12.06.2024 ======= ms.date: 20.05.2024
+>>>>>>> Gespeicherte Änderungen ms.Autor: bholtorf ms.service: dynamics-365-business-central ms.reviewer: bholtorf
 ---
 
 > [!TIP]
