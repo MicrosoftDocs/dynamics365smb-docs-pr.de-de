@@ -28,7 +28,7 @@ Wenn Sie die Verbindung zwischen den Apps herstellen, richtet [!INCLUDE[prod_sho
 >
 > Um eine langsame Leistung zu vermeiden, können Sie auf der Seite **Integrationstabellenzuordnungen** die ereignisbasierte Datensynchronisierung für jede Tabelle aktivieren oder deaktivieren. Standardmäßig ist die ereignisbasierte Synchronisierung aktiviert, sodass vorhandene Integrationen nicht betroffen sind. Ihr Administrator kann es für bestimmte Tabellen ein- oder ausschalten.
 
-### <a name="additional-mappings"></a>Zusätzliche Zuordnungen
+### <a name="add-table-and-field-mappings-to-existing-integration-tables"></a>Zusätzliche Zuordnungen
 
 Zahlungsbedingungen, Lieferformen und Zusteller können sich ändern, und es kann wichtig sein, sie anpassen zu können. Wenn Sie die Funktion **Funktionsaktualisierung: Zuordnung zu Optionssätzen in Dataverse ohne Code** auf der Seite [Funktionsverwaltung](https://businesscentral.dynamics.com/?page=2610) aktivieren, können Sie manuell Integrationstabellenzuordnungen für Zahlungsbedingungen (PAYMENT TERMS), Versandformen (SHIPMENT METHOD) und Zusteller (SHIPPING AGENT) hinzufügen. Mit dieser Zuordnung können Sie sicherstellen, dass Ihre Richtlinien für diese Einrichtungen in [!INCLUDE[prod_short](includes/cds_long_md.md)] und [!INCLUDE[cds_long_md](includes/cds_long_md.md)] gleich sind.
 

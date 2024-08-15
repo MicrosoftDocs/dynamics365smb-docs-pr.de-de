@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="troubleshooting-and-correcting-dimensions"></a>Problembehandlung und Korrektur von Dimensionen
+# <a name="troubleshoot-and-correct-dimensions"></a>Problembehandlung und Korrektur von Dimensionen
 
 Finanzberichte und Analyseansichten stützen sich oft auf Daten aus Dimensionen. Trotz der vorhandenen Sicherheitsvorkehrungen passiert manchmal ein Fehler, der zu Ungenauigkeiten führen kann. In diesem Artikel werden einige der typischen Fehler beschrieben und es wird erklärt, wie Sie Dimensionszuordnungen auf gebuchten Transaktionen korrigieren können, damit die Finanzberichte korrekt sind.
 
@@ -45,14 +45,14 @@ Wenn Sie feststellen, dass bei gebuchten Sachposten eine falsche Dimension verwe
 > [!IMPORTANT]
 > Die Funktionen zum Korrigieren von Dimensionen sind nur dazu gedacht, die Genauigkeit der Finanzberichte zu unterstützen. Dimensionskorrekturen beziehen sich nur auf die Sachbucheinträge. Sie ändern nicht die Dimensionen, die den Einträgen in anderen Sachkonten für dieselbe Transaktion zugeordnet sind. Es besteht eine Diskrepanz zwischen den Dimensionen, die im Hauptbuch und den Nebenbüchern zugeordnet sind.
 
-### <a name="setting-up-dimension-corrections"></a>Dimensionskorrekturen einrichten
+### <a name="set-up-dimension-corrections"></a>Dimensionskorrekturen einrichten
 
 Beim Einrichten von Dimensionskorrekturen sind zwei Dinge zu beachten:
 
 * Gibt es Dimensionen, bei denen Sie nicht zulassen möchten, dass sie von anderen geändert werden? Geben Sie auf der Seite **Dimensionskorrektureinstellungen** die Dimensionen an, die Sie für Änderungen blockieren möchten.
 * Wer darf Dimensionen ändern? Weisen Sie die **D365 DIM-KORREKTUR** Erlaubnis Benutzern zu, damit Personen Änderungen vornehmen können. Mit den Berechtigungen können sie Dimensionskorrekturen erstellen, ausführen und bei Bedarf rückgängig machen. Sie können auch blockierte Dimensionen angeben. Weitere Informationen finden Sie unter [Berechtigungen an Benutzer und Gruppen zuweisen](ui-define-granular-permissions.md). 
 
-### <a name="correcting-a-dimension"></a>Eine Dimension korrigieren
+### <a name="correct-a-dimension"></a>Eine Dimension korrigieren
 
 Sie können einen oder mehrere Hauptbucheinträge manuell auswählen oder Filter verwenden, um Sätze von Einträgen auszuwählen. Bei Bedarf können Sie auch Dimensionen hinzufügen oder löschen. 
 
@@ -82,13 +82,13 @@ Sie können einen oder mehrere Hauptbucheinträge manuell auswählen oder Filter
 5. Um die Korrektur zu bestätigen, wählen Sie **Dimensionsänderungen überprüfen** aus. Weitere Informationen finden Sie unter [Dimensionskorrekturen validieren](finance-troubleshooting-correcting-dimensions.md#validating-dimension-corrections).
 6. Wählen Sie **Ausführen** aus.
 
-### <a name="validating-dimension-corrections"></a>Dimensionskorrekturen überprüfen
+### <a name="validate-dimension-corrections"></a>Dimensionskorrekturen überprüfen
 
 Bevor Sie eine Korrektur ausführen, sollten Sie diese zuerst validieren. Die Validierung prüft auf Einschränkungen bei der Wertbuchung für die Sachkonten, Einschränkungen für Dimensionen und ob die Dimensionswerte blockiert sind. Während der Validierung wird der Status der Korrektur auf **Validierung in Bearbeitung** gesetzt. Nachdem Sie eine Korrektur validiert haben, wird das Ergebnis im Feld **Überprüfungsstatus** angezeigt. Wenn Fehler gefunden wurden, können Sie die Aktion **Fehler anzeigen** verwenden, um sie zu untersuchen. Nachdem Sie einen Fehler behoben haben, müssen Sie die Aktion **Erneut öffnen** zum Ausführen der Korrektur oder einer neuen Validierung verwenden.
 
 Sie können eine Korrektur entweder sofort ausführen oder für eine spätere Ausführung planen. Wenn Sie Korrekturen an einem großen Datensatz ausführen, empfehlen wir, die Ausführung außerhalb der Geschäftszeiten zu planen. Weitere Informationen finden Sie unter [Dimensionskorrekturen bei großen Datensätzen](finance-troubleshooting-correcting-dimensions.md#dimension-corrections-on-large-data-sets).
 
-### <a name="undoing-a-correction"></a>Eine Korrektur rückgängig machen
+### <a name="undo-a-correction"></a>Eine Korrektur rückgängig machen
 
 Wenn Ihnen nach dem Korrigieren einer Dimension das, was Sie sehen, nicht gefällt, können Sie die Aktion **Rückgängig machen** zum Zurücksetzen des vorherigen Werts verwenden. Sie können jedoch nur die letzte Korrektur rückgängig machen. Bevor Sie eine Korrektur rückgängig machen, können Sie die Änderungen überprüfen, die sich aus dem Rückgängigmachen ergeben. Die Prüfung ist beispielsweise nützlich, wenn sich die Dimensionsbeschränkungen nach der Korrektur geändert haben.
 
@@ -102,11 +102,11 @@ Seien Sie vorsichtig, wenn Sie große Sätze von Einträgen korrigieren, z. B. 
 
 Wenn **Bei Buchung aktualisieren** für eine Analyseansicht aktiviert ist, kann [!INCLUDE[prod_short](includes/prod_short.md)] die Ansicht aktualisieren, wenn Belege und Buch.-Blätter gebucht werden. Sie können Ansichten auch mit dieser Einstellung aktualisieren, die mit Ergebnissen von Dimensionskorrekturen aktiviert ist. Aktivieren Sie dazu den Umschalter **Analyseansichten aktualisieren**. Das Aktualisieren von Analyseansichten kann sich auf die Leistung auswirken, insbesondere bei großen Datenmengen. Wir empfehlen daher, die Analyseansichten nur bei kleinen Datenmengen zu aktualisieren.  
 
-### <a name="viewing-historical-dimension-corrections"></a>Historische Dimensionskorrekturen anzeigen
+### <a name="view-historical-dimension-corrections"></a>Historische Dimensionskorrekturen anzeigen
 
 Wenn ein Sachposten korrigiert wurde, können Sie die Änderung mithilfe der Aktion **Verlauf der Dimensionskorrekturen** untersuchen.
 
-### <a name="handling-incomplete-corrections"></a>Umgang mit unvollständigen Korrekturen
+### <a name="handle-incomplete-corrections"></a>Umgang mit unvollständigen Korrekturen
 
 Wenn eine Korrektur nicht abgeschlossen ist, wird auf der Korrekturkarte eine Warnung angezeigt. In diesem Fall können Sie die Aktion **Zurücksetzen** verwenden, um die Korrektur auf einen Entwurfsstatus zurückzusetzen und die Änderungen rückgängig zu machen. Sie können die Korrektur dann erneut ausführen.
 

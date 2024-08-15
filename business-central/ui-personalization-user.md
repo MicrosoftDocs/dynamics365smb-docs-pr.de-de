@@ -27,7 +27,7 @@ Sie können verschiedene Änderungen vornehmen, z. B. Verschieben und Ausblenden
 > Administratoren können dieselben Layoutänderungen wie Benutzer durchführen, indem sie Profil (Rolle) anpassen, dem mehrere Benutzer zugewiesen sind. Um mehr über Seiten für Rollen zu erfahren, gehen Sie zu [Seiten für Rollen anpassen](ui-personalization-manage.md)<br /><br />
 Administratoren können auch Personalisierungen der Benutzer überschreiben und definieren, welche Funktionen in allen oder bestimmten Unternehmen zugänglich sind. Weitere Informationen finden Sie unter [Anpassen von Business Central](ui-customizing-overview.md).
 
-## <a name="video"></a>Video
+## <a name="video-and-training"></a>Video
 
 Das folgende Video zeigt einige Möglichkeiten, wie Sie Ihr Rollencenter personalisieren können.
 

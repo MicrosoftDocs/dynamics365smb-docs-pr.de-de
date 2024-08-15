@@ -28,7 +28,7 @@ In den folgenden Abschnitten werden diese Schritte beschrieben:
 3. Geben Sie in das Feld **Enddatum** das letzte Datum der Lagerbuchungsperiode ein, die Sie definieren möchten. Wenn die Periode geschlossen ist, können Sie vor diesem Datum keine Lagerbestandsänderungen buchen.  
 4. Geben Sie im Feld **Name** einen beschreibenden Namen ein. Wählen Sie die Schaltfläche **OK** aus.  
 
-## <a name="closing-inventory-periods"></a>Lagerbuchungsperioden schließen
+## <a name="to-close-inventory-periods"></a>Lagerbuchungsperioden schließen
 
 Das Feld **Abgeschlossen** gibt an, ob die Lagerbuchungsperiode hinsichtlich Änderungen der Lagerbestandswerte geschlossen ist. Sie können dieses Feld nicht bearbeiten.  
 

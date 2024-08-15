@@ -24,7 +24,7 @@ Ein weiteres Beispiel ist die Festlegung einer Dimension mit dem Namen *Abteilun
 * Wer ihn verkauft hat.
 * Welcher Kunde ihn gekauft hat.
 
-## <a name="analyzing-by-dimensions"></a>Analysieren nach Dimensionen
+## <a name="analyze-by-dimensions"></a>Analysieren nach Dimensionen
 
 Dimensionen spielen eine wichtige Rolle in der Business Intelligence, wie auch beim Definieren von Analyseansichten. Erfahren Sie mehr unter [Daten nach Dimensionen analysieren](bi-how-analyze-data-dimension.md).
 
@@ -40,7 +40,7 @@ Ein Dimensionssatz ist eine eindeutige Kombination von Dimensionswerten. Sie wer
 
 Wenn Sie eine neue Buch.-Blattzeile, einen Belegkopf oder eine Belegzeile erstellen, können Sie eine Kombination von Dimensionswerten angeben. Anstatt jeden Dimensionswert explizit in der Datenbank zu speichern, wird eine Dimensionssatz-ID der Buch.-Blattzeile, dem Belegkopf oder der Belegzeile zugewiesen, um den Dimensionssatz anzugeben.  
 
-## <a name="setting-up-dimensions"></a>Festlegen von Dimensionen
+## <a name="set-up-dimensions"></a>Festlegen von Dimensionen
 
 Sie können Dimensionen und Dimensionswerte definieren, um Erfassungen und Dokumente wie Verkaufsaufträge und Bestellungen zu kategorisieren. Sie errichten Dimensionen auf der Seite **Dimensionen**, wo Sie eine Zeile für jede Dimension erstellen, wie *Projekt*, *Abteilung*, *Bereich* und *Verkäufer*.
 

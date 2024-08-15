@@ -62,7 +62,7 @@ Gehen Sie folgendermaßen vor, um einen Standardwert für ein MwSt.-Datum einzur
 > [!NOTE]
 > Standardmäßig ist das **Standard-MwSt.-Datum** das **Buchungsdatum**.
 
-### <a name="enabling-or-disabling-the-vat-date-feature"></a>Das Feature „MwSt.-Datum“ aktivieren oder deaktivieren
+### <a name="enable-or-disable-the-vat-date-feature"></a>Das Feature „MwSt.-Datum“ aktivieren oder deaktivieren
 
 Manche Länder/Regionen verlangen, dass Unternehmen ein bestimmtes MwSt.-Datum verwenden, andere Länder/Regionen jedoch nicht. In einigen Ländern/Regionen müssen Unternehmen in bestimmten Situationen das MwSt.-Datum ändern, nachdem sie die Belege gebucht haben, in anderen Ländern/Regionen ist eine Änderung des MwSt.-Datums jedoch nicht zulässig. Um unterschiedliche Kontexte zu berücksichtigen, können Sie wählen, ob und in welchem Umfang Sie diese Funktionalität nutzen möchten.
 

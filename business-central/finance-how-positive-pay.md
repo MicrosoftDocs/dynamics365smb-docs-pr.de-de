@@ -12,18 +12,18 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Um eine Positive Pay-Datei zu exportieren
+# <a name="export-a-positive-pay-file"></a>Um eine Positive Pay-Datei zu exportieren
 Um sicherzustellen, dass eine Bank nur validierte Schecks und Beträge freigibt, können Sie eine Positive Pay-Datei exportieren, die die relevanten Zahlungsinformationen enthält wie Schecknummer und Zahlungsbetrag, die Sie als Referenz an die Bank senden, wenn Sie Zahlungen verarbeiten.
 
 [!INCLUDE[prod_short](includes/prod_short.md)] wird vorkonfiguriert, um Positive Pay-Dateien an die Bank of America und City Bank zu senden.
 
-## Um ein Bankkkonto für Positive Pay einzurichten
+## <a name="to-set-up-a-bank-account-for-positive-pay"></a>Um ein Bankkkonto für Positive Pay einzurichten
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Bankkonten** ein und wählen Sie dann den zugehörigen Link.
 2. Öffnen Sie die Karte des Bankkontos, für das Sie Positive Pay nutzen möchten.
 3. In dem Feld **Positive Pay-Exportcode** geben Sie POSPAYBANK ein.
 4. Schließen Sie die Seite.
 
-## Um eine Positive Pay-Datei zu exportieren
+## <a name="to-export-a-positive-pay-file"></a>Um eine Positive Pay-Datei zu exportieren
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Bankkonten** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie das Bankkonto aus, für das Sie eine Positive Pay-Datei exportieren möchten.
 3. Wählen Sie die Aktion **Positive Pay-Export** aus.
@@ -35,7 +35,7 @@ Um sicherzustellen, dass eine Bank nur validierte Schecks und Beträge freigibt,
 7. Laden Sie die Datei in Ihre elektronische Bankseite hoch.
 8. Schreiben oder kopieren Sie die Bestätigungsnummer, die angezeigt wird, wenn Sie die Datei erfolgreich hochgeladen haben.
 
-## Um exportierte Positive Pay-Datensätze anzuzeigen
+## <a name="to-view-exported-positive-pay-records"></a>Um exportierte Positive Pay-Datensätze anzuzeigen
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Bankkonten** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie das Bankkonto aus, für das Sie einen Positive Pay-Datei-Export anzeigen möchten.
@@ -45,7 +45,7 @@ Um sicherzustellen, dass eine Bank nur validierte Schecks und Beträge freigibt,
 4. Geben Sie im Feld **Bestätigungsnummer** für jeden Exportdatensatz die Bestätigungsnummer ein, die Sie gerade erhalten, wann der Dateiupload zur Bank ordnungsgemäß durchgeführt wurde.
 5. Um die entsprechenden Zahlungszeilen anzuzeigen, wählen Sie die **Positive Pay-Postendetails** Aktion aus.
 
-## Um Positive Pay-Dateien erneut zu exportieren
+## <a name="to-reexport-positive-pay-files"></a>Um Positive Pay-Dateien erneut zu exportieren
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Bankkonten** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie das Bankkonto aus, für die Sie Positive Pay-Dateien erneut exportieren möchten.
@@ -53,7 +53,7 @@ Um sicherzustellen, dass eine Bank nur validierte Schecks und Beträge freigibt,
 4. Wählen Sie die Zeile für die Positive Pay Exportdatei aus, die Sie erneut exportieren möchten.
 5. Auf der Seite **Positive Pay-Posten** wählen Sie die Aktion **Erneuter Positive Pay-Export in Datei** aus.
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 [Finanzen](finance.md)  
 [Finanzen einrichten](finance-setup-finance.md)  
 [Mit Fibu Buch.-Blättern arbeiten](ui-work-general-journals.md)  

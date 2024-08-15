@@ -76,7 +76,7 @@ Weitere Informationen finden Sie unter [Eine Business Central-Registerkarte in T
 3. Installieren Sie die [!INCLUDE [prod_short](includes/prod_short.md)]-App in Teams. Siehe [Die [!INCLUDE [prod_short](includes/prod_short.md)]-App für Microsoft Teams installieren](across-install-app-for-teams.md).
 4. Sobald die App installiert ist, können Sie loslegen. Weitere Informationen finden Sie unter [Debitoren, Kreditoren oder andere Kontakte über Microsoft Teams suchen](across-search-contacts-teams.md) und unter [Datensätze in Microsoft Teams teilen](across-working-with-teams.md).
 
-## <a name="see-also"></a>Weitere Informationen
+## <a name="related-information"></a>Weitere Informationen
 
 [Teams FAQ](teams-faq.md)  
 [Teams Problembehebung](admin-teams-troubleshooting.md)  

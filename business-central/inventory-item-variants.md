@@ -11,18 +11,18 @@ ms.date: 06/13/2024
 ms.service: dynamics-365-business-central
 ---
 
-# Produktvarianten verwalten
+# <a name="manage-product-variants"></a>Produktvarianten verwalten
 
 Artikelvarianten sind eine großartige Möglichkeit, Ihre Produktliste unter Kontrolle zu halten. Das ist beispielsweise nützlich, wenn Sie eine große Anzahl fast identischer Artikel verwalten, die sich z. B. nur durch die Farbe unterscheiden. Sie können jede Variante als separaten Artikel definieren. Aber Sie können sich auch dafür entscheiden, einen Artikel einzurichten und die verschiedenen Farben als Varianten des Artikels anzugeben.  
 
 > [!TIP]
 > Eine praktische Einführung in die Verwendung von Varianten in der Produktion finden Sie unter [Komplettlösung: Varianten](contoso-coffee/manufacturing/variants.md) für die Demodaten von Contoso Coffee.  
 
-## Varianten zu einem Artikel hinzufügen
+## <a name="add-variants-to-an-item"></a>Varianten zu einem Artikel hinzufügen
 
 Es ist ganz einfach, Varianten für einen Artikel zu definieren.  
 
-### Varianten hinzuzufügen
+### <a name="to-add-variants"></a>Varianten hinzuzufügen
 
 1. Öffnen Sie das entsprechende Artikel auf der [Seite **Artikelliste**](https://businesscentral.dynamics.com/?page=31).  
 2. Wählen Sie beim  **Artikel** Karte die Aktion  **Verwandte**, dann  **Artikel** und schließlich die Aktion  **Varianten** .  
@@ -30,11 +30,11 @@ Es ist ganz einfach, Varianten für einen Artikel zu definieren.
 
 Wenn Sie dann einen Verkaufsbeleg erstellen und den Artikel hinzufügen, können Sie die Variante des Artikels im Feld Varianten **Code**  angeben. Gleiches gilt für Einkaufsbelege.  
 
-## Artikelverfügbarkeit nach Variante
+## <a name="item-availability-by-variant"></a>Artikelverfügbarkeit nach Variante
 
 [!INCLUDE [inventory_variant-availability](includes/inventory_variant-availability.md)]
 
-## Verwendung von Varianten erfordern
+## <a name="require-use-of-variants"></a>Verwendung von Varianten erfordern
 
 Ab dem Veröffentlichungszyklus 2, 2022 können Administratoren verlangen, dass Benutzer die Variante in Dokumenten und Journalen für Artikel mit Varianten angeben. Um die Funktion zu aktivieren, wählen Sie auf der Seite **Inventar einrichten** das Feld **Variante Obligatorisch, falls vorhanden** aus. Sie können diese globale Einstellung für bestimmte Elemente überschreiben.  
 
@@ -51,11 +51,11 @@ Auf Artikelkarten hat das Feld **Variante Obligatorisch, falls vorhanden** die f
 
 Wenn die Funktion eingeschaltet ist, können Sie keinen Eintrag veröffentlichen, wenn die Variante nicht angegeben ist.
 
-## Kategorien, Attribute und Varianten
+## <a name="categories-attributes-and-variants"></a>Kategorien, Attribute und Varianten
 
 [!INCLUDE[inventory_variant](includes/inventory_variant.md)]
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Neue Artikel registrieren](inventory-how-register-new-items.md)    
 [Allgemeine Bestandsinformationen einrichten](inventory-how-setup-general.md)    

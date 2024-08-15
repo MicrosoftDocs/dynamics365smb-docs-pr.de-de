@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="understanding-the-general-ledger-and-chart-of-accounts"></a>Das Hauptbuch und den Kontenplan verstehen
+# <a name="understand-the-general-ledger-and-chart-of-accounts"></a>Das Hauptbuch und den Kontenplan verstehen
 
 Die Finanzbuchhaltung speichert Ihre Finanzdaten, und der Kontenplan (COA) zeigt die Konten, auf die alle Sachposten gebucht werden. [!INCLUDE[prod_short](includes/prod_short.md)] umfasst einen Standardkontenplan, der zur Unterstützung Ihres Unternehmens bereit steht.
 

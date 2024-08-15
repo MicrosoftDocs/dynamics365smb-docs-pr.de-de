@@ -27,7 +27,7 @@ Es gibt zwei Möglichkeiten, die Seite **Einstellungen** zu öffnen: 1) Vom Feld
 
    ![Einstellungen für Business Central aus dem Nachrichtenfeld festlegen.](media/teams-settings-command-box.png)
 
-## <a name="see-also"></a>Weitere Informationen
+## <a name="related-information"></a>Weitere Informationen
 
 [Übersicht über die Integration von Business Central und Microsoft Teams](across-teams-overview.md)  
 [Installieren Sie die [!INCLUDE [prod_short](includes/prod_short.md)] App für Microsoft Teams](across-install-app-for-teams.md)  

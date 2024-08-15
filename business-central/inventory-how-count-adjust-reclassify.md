@@ -9,7 +9,7 @@ ms.topic: how-to
 ms.date: 05/24/2024
 ms.custom: bap-template
 ---
-# Erfassen, Regulieren und Umbuchen von Lagerbestand mithilfe von Buch.-Blättern
+# <a name="count-adjust-and-reclassify-inventory-using-journals"></a>Erfassen, Regulieren und Umbuchen von Lagerbestand mithilfe von Buch.-Blättern
 
 Führen Sie eine Inventur aller Artikel im Bestand durch, um sicherzustellen, dass Ihre Mengen korrekt sind. Einige Unternehmen führen eine jährliche Inventur durch, andere zählen alle oder nur einige Artikel häufiger. Nachdem Sie die Artikel gezählt haben, verwenden Sie Journale, um die tatsächlichen Mengen in das Hauptbuch zu buchen. Zum Beispiel, wenn Sie den Bestand am Ende einer Periode bewerten.
 
@@ -24,7 +24,7 @@ Um Attribute und Mengen im Artikelposten zu ändern, verwenden Sie ein Artikel U
 
 [!INCLUDE [edit-in-excel](includes/edit-in-excel.md)]
 
-## So führen Sie eine Inventur durch
+## <a name="to-count-physical-inventory"></a>So führen Sie eine Inventur durch
 
 Führen Sie ein Inventur durch, um zu überprüfen, ob die vermerkte Menge dieselbe ist wie die Menge im Lager. Das heißt: Zählen Sie die tatsächlich vorhandenen Artikel. In der Regel findet die Inventur am Ende eines Geschäftsjahres statt, in manchen Unternehmen erfolgt sie jedoch häufiger. Wenn es Differenzen gibt, müssen Sie die tatsächlichen Mengen buchen, bevor Sie eine Lagerbewertung durchführen können.
 
@@ -43,7 +43,7 @@ Führen Sie eine Inventur abhängig von Ihren Lagereinstellungen, auf eine der f
 - Wenn Ihr Lagerort keine gerichtete Einlagerung und Kommissionierung verwendet, verwenden Sie die Seite **Phys. Lagererfassung Buch.-Blatt**. Das Verfahren ähnelt der Inventur ohne Zykluszählung.  
 - Wenn Ihr Lagerort gerichtete Einlagerung und Kommissionierung verwendet, verwenden Sie die Seite **Logistik Inventur Buch.-Blatt**. Verwenden Sie dann die Seite **Artikel Buch.-Blätter** , um die Aktion **Ausgleich berechnen** auszuführen. <!--We should say what to do on each of these pages.-->
 
-### So berechnen Sie den erwarteten Lagerbestand in den Basislagerkonfigurationen
+### <a name="to-calculate-expected-inventory-in-basic-warehouse-configurations"></a>So berechnen Sie den erwarteten Lagerbestand in den Basislagerkonfigurationen
 
 1. Wählen Sie das Symbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Geben Sie **Physische Lagererfassungen Buch.-Blätter** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie unter  **Vorbereiten die Aktion** Bestand berechnen **aus**.
@@ -54,7 +54,7 @@ Führen Sie eine Inventur abhängig von Ihren Lagereinstellungen, auf eine der f
 > [!NOTE]  
 > Artikelposten werden gemäß den von Ihnen angegebenen Informationen verarbeitet, und im Inventur Buch.-Blatt werden Zeilen erstellt. Beachten Sie, dass das Feld **Inventurmenge** die gleiche Menge wie das Feld **Menge (berechnet)** hat. Für Artikel, bei denen diese Werte übereinstimmen, müssen Sie die gezählte Menge nicht eingeben. Wenn die gezählte Menge jedoch abweicht, geben Sie die gezählte Menge ein.
 
-### Drucken des Berichts, der beim Zählen verwendet werden soll
+### <a name="to-print-the-report-to-be-used-when-counting"></a>Drucken des Berichts, der beim Zählen verwendet werden soll
 
 1. Wählen Sie auf der Seite  **Inventarjournale**  mit dem berechneten erwarteten Bestand die Aktion  **Drucken**  auf der  **Startseite** aus.
 2. Geben Sie auf der Seite  **Liste des physischen Bestands**  an, ob im Bericht die berechnete Menge und die Bestandsartikel nach Serien- und Chargennummern angezeigt werden.
@@ -66,7 +66,7 @@ Lagermitarbeiter können nun den Lagerbestand zählen und alle Unterschiede in d
 > [!NOTE]
 > Es kann mehrere Tage dauern, bis gedruckte Berichte zur endgültigen Verarbeitung und Veröffentlichung zurückkehren. Wenn Sie den tatsächlichen gezählten Lagerbestand angeben und buchen, passt das System den Lagerbestand an, um die Differenz zwischen dem erwarteten und dem tatsächlich gezählten Lagerbestand widerzuspiegeln. Sie müssen die ursprünglich berechneten Buch.-Blattzeilen beibehalten und den erwarteten Bestand nicht neu berechnen, da sich der erwartete Lagerbestand ändern und zu falschen Lagerebenen führen kann. Wenn Sie mehrere Berichte erstellen müssen, z. B. für verschiedene Standorte oder Artikelgruppen, müssen Sie separate Buch.-Blattnamen erstellen und beibehalten.
 
-### Um den tatsächlichen gezählten Lagerbestands in den Basislagerkonfigurationen einzugeben und zu buchen
+### <a name="to-enter-and-post-the-actual-counted-inventory-in-basic-warehouse-configurations"></a>Um den tatsächlichen gezählten Lagerbestands in den Basislagerkonfigurationen einzugeben und zu buchen
 
 1. Geben Sie in jeder Zeile auf der Seite  **Inventarjournale**, in der der tatsächlich vorhandene Bestand, der durch die physische Zählung ermittelt wurde, von der berechneten Menge abweicht, den tatsächlich vorhandenen Bestand in das Feld  **Menge (Inventar)**  ein.
   
@@ -81,7 +81,7 @@ Lagermitarbeiter können nun den Lagerbestand zählen und alle Unterschiede in d
 4. Um die Anzahl zu überprüfen, öffnen Sie die Seite  **Artikel-Nr.: Karte** für den Artikel und wählen Sie die Aktion  **Inventarposten** unter  **Artikel**
 1. .
 
-### Um den erwarteten Lagerbestand in den erweiterten Basislagerkonfigurationen zu berechnen
+### <a name="to-calculate-the-expected-inventory-in-advanced-warehouse-configurations"></a>Um den erwarteten Lagerbestand in den erweiterten Basislagerkonfigurationen zu berechnen
 
 Artikelbuch und Lager synchronisieren <!--warehouse what?--> bevor Sue die Inventur durchführen. Andernfalls buchen Sie die Inventurergebnisse kombiniert mit anderen Lagerortanpassungen für die Artikel in die Inventurerfassung und das Artikelbuch. Weitere Informationen finden Sie unter [Mengen in den Artikelposten und im Lager synchronisieren](inventory-how-count-adjust-reclassify.md#to-synchronize-the-adjusted-warehouse-entries-with-the-related-item-ledger-entries).
 
@@ -93,7 +93,7 @@ Artikelbuch und Lager synchronisieren <!--warehouse what?--> bevor Sue die Inven
 
    Wenn Sie nur ein Artikel in einigen Lagerplätzen zu zählen, aber nicht an anderen, können Sie Differenzen eingeben und sie später mit der Aktion **Ausgleich berechnen** auf der Seite **Artikel Buch.-Blatt** buchen.  
 
-### Um den tatsächlichen gezählten Lagerbestands in den erweiterten Lagerkonfigurationen einzugeben und zu buchen
+### <a name="to-enter-and-post-the-actual-counted-inventory-in-advanced-warehouse-configurations"></a>Um den tatsächlichen gezählten Lagerbestands in den erweiterten Lagerkonfigurationen einzugeben und zu buchen
 
 1. Geben Sie auf der Seite **Logistik Inventur Buch.-Blatt** die tatsächlichen Mengen in das Feld **Inventurmenge** ein.  
 
@@ -109,7 +109,7 @@ Artikelbuch und Lager synchronisieren <!--warehouse what?--> bevor Sue die Inven
 
 Wenn Sie den physischen Bestand registrieren, buchen Sie nicht auf den Artikel, den physischen Bestand oder die Wertbücher. Die Aufzeichnungen stehen jedoch bei Bedarf zum Abgleich zur Verfügung. Um die Mengen genau zu halten, buchen Sie die Ergebnisse, nachdem Sie die Artikel in allen Lagerplätzen gezählt haben.<!--physical inventory journal--> Weitere Informationen finden Sie unter [Mengen in den Artikelposten und im Lager synchronisieren](inventory-how-count-adjust-reclassify.md#to-synchronize-the-adjusted-warehouse-entries-with-the-related-item-ledger-entries).
 
-## So führen Sie zyklischer Inventuren durch
+## <a name="to-do-cycle-counting"></a>So führen Sie zyklischer Inventuren durch
 
 Sie können Artikel so oft zählen, wie Sie möchten. Beispielsweise, weil sie wertvoller sind oder sich gut verkaufen. Legen Sie die Zählhäufigkeit fest, indem Sie den Artikeln spezielle Zählzeiträume zuweisen.
 
@@ -118,14 +118,14 @@ Je nach Ihrer Lagereinrichtung können Sie eine Zyklusinventur auf folgende Weis
 - Wenn Ihr Lagerort keine gerichtete Einlagerung und Kommissionierungen verwendet, verwenden Sie die Seite **Inventur Buch.-Blatt**. Das Schritte ähnelt der Inventur ohne Zykluszählung.  
 - Wenn Ihr Lagerort gerichtete Einlagerung und Kommissionierung verwendet, verwenden Sie die Seite **Logistik Inventur Buch.-Blatt**. Verwenden Sie dann die Seite **Artikel Buch.-Blätter** , um die Aktion **Ausgleich berechnen** auszuführen. <!--we should say what to do on each of these pages-->  
 
-### So richten Sie Inventurhäufigkeiten ein:
+### <a name="to-set-up-counting-periods"></a>So richten Sie Inventurhäufigkeiten ein:
 
 Eine Inventur ist normalerweise eine wiederkehrende Aufgabe, z. B. monatlich, vierteljährlich oder jährlich. Sie können die Inventurhäufigkeiten einrichten, die Sie benötigen, und dann jedem Artikel eine davon zuweisen. Danach verwenden Sie die Aktion **Inventurdatum berechnen** auf der Seite **Inventur Buch.-Blatt**, um automatisch Zeilen für die Artikel zu erstellen.
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Inventurhäufigkeit** ein, und wählen Sie den zugehörigen Link.  
 2. Füllen Sie die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-### Um einem Artikel oder Lagerhaltungsdaten eine Inventurhäufigkeit zuzuordnen:
+### <a name="to-assign-a-counting-period-to-an-item"></a>Um einem Artikel oder Lagerhaltungsdaten eine Inventurhäufigkeit zuzuordnen:
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Elemente** ein, und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie den Artikel aus, dem Sie eine Inventurhäufigkeit zuweisen möchten.  
@@ -134,7 +134,7 @@ Eine Inventur ist normalerweise eine wiederkehrende Aufgabe, z. B. monatlich, v
 > [!NOTE]
 > Wenn Sie den Zählzeitraum ändern, zeigt eine Meldung Informationen zu den Ergebnissen der Änderung an. Wählen Sie **Ja** aus, um den Code zu ändern und das erste Inventurdatum für den Artikel zu berechnen. Wenn Sie das nächste Mal die Berechnung einer Inventurhäufigkeit im Logistik Inventur Buch.-Blatt auswählen, erscheint der Artikel als Zeile auf der Seite **Inventurartikelauswahl**. Sie können den Artikel dann periodisch zählen.
 
-### Eine Zählung auf Grundlage der Zählperioden in den Basislagerkonfigurationen starten
+### <a name="to-start-a-count-based-on-counting-periods-in-basic-warehouse-configurations"></a>Eine Zählung auf Grundlage der Zählperioden in den Basislagerkonfigurationen starten
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Inventur Buch.-Blatt** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie die Aktion **Inventurdatum berechnen**.
@@ -142,7 +142,7 @@ Eine Inventur ist normalerweise eine wiederkehrende Aufgabe, z. B. monatlich, v
     Die Seite **Inventurartikelauswahl** zeigt Artikel, die entsprechend ihren Inventurhäufigkeiten gezählt werden müssen.
 3. Führen Sie eine Inventur durch. Weitere Informationen finden Sie unter [So führen Sie eine Inventur durch](inventory-how-count-adjust-reclassify.md#to-count-physical-inventory).
 
-### Eine Zählung auf Grundlage der Zählperioden in den erweiterten Lagerkonfigurationen starten
+### <a name="to-start-a-count-based-on-counting-periods-in-advanced-warehouse-configurations"></a>Eine Zählung auf Grundlage der Zählperioden in den erweiterten Lagerkonfigurationen starten
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Geben Sie **Logistik Inventur Buch.-Blatt** ein und wählen Sie den zugehörigen Link.  
 2. Wählen Sie die Aktion **Inventurdatum berechnen**.
@@ -153,7 +153,7 @@ Eine Inventur ist normalerweise eine wiederkehrende Aufgabe, z. B. monatlich, v
    > [!NOTE]  
    > Zählen Sie den Artikel an allen Lagerplätzen, die ihn enthalten. Wenn Sie Lagerplatzzeilen löschen, die auf der Seite **Lagerplatzumlagerungsbestand** zum Zählen abgerufen wurden, ist die Zählung falsch, wenn Sie sie in eine Inventarerfassung buchen.  
 
-## So passen Sie die Menge eines Artikels an
+## <a name="to-adjust-the-quantity-of-one-item"></a>So passen Sie die Menge eines Artikels an
 
 Nachdem Sie eine Inventur eines Artikels vorgenommen haben, nutzen Sie die Aktion **Lager regulieren**, um die Menge des aktuellen Lagerstatus zu erfassen.
 
@@ -171,7 +171,7 @@ Sie können auch die Aktion **Bestand anpassen** als eine einfache Methode verwe
 > [!NOTE]  
 > Nachdem Sie den Bestand angepasst haben, aktualisieren Sie seinen aktuellen Wert. Weitere Informationen finden Sie unter [Neubewerten von Lagerbestand](inventory-how-revalue-inventory.md).
 
-### So passen Sie die Mengen mehrerer Artikel in den Basislagerkonfigurationen an
+### <a name="to-adjust-the-quantities-of-multiple-items-in-basic-warehouse-configurations"></a>So passen Sie die Mengen mehrerer Artikel in den Basislagerkonfigurationen an
 
 Auf der Seite  **Artikeljournale**  können Sie Artikeltransaktionen für Käufe, Verkäufe und positive oder negative Änderungen ohne Verwendung von Dokumenten direkt in das Anpassen-Inventar buchen.
 
@@ -181,7 +181,7 @@ Wenn Sie das Artikel Buch.-Blatt häufig zum Buchen der gleichen oder ähnlicher
 2. Füllen Sie die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Wählen Sie die Aktion **Buchen** aus, um die Mengen anzupassen.
 
-### Die Lagerplatzmengen in erweiterten Lagerkonfigurationen anpassen
+### <a name="to-adjust-bin-quantities-in-advanced-warehouse-configurations"></a>Die Lagerplatzmengen in erweiterten Lagerkonfigurationen anpassen
 
 Wenn Ihr Standort gezielte Einlagerung und Kommissionierung verwendet, verwenden Sie die Seite **Lagerartikeljournal** , um ungeplante positive und negative Mengenänderungen zu buchen. Zum Beispiel für als fehlend gebuchte Artikel, die unerwartet auftauchen, oder für Verluste durch Bruch.  
 
@@ -194,7 +194,7 @@ Lagerartikeljournale bieten Ihnen mehr Anpassungsebenen, um Ihre Mengen genauer 
 5. Geben Sie im Feld **Menge** eine positive Menge ein, wenn Sie zusätzliche Artikel gefunden haben. Wenn Artikel fehlen, geben Sie eine negative Menge ein.  
 6. Wählen Sie die Aktion **Registrieren** aus.
 
-## Um die korrigierten Lagerplatzposten mit den entsprechenden Artikelposten zu synchronisieren
+## <a name="to-synchronize-the-adjusted-warehouse-entries-with-the-related-item-ledger-entries"></a>Um die korrigierten Lagerplatzposten mit den entsprechenden Artikelposten zu synchronisieren
 
 Buchen Sie die Anpassungslagerplatzdatensätze im Artikelbuch für die definierten Perioden. Einige Unternehmen buchen tägliche Anpassungen im Artikelbuch, während andere seltener abgleichen.
 
@@ -205,7 +205,7 @@ Buchen Sie die Anpassungslagerplatzdatensätze im Artikelbuch für die definiert
 5. Wählen Sie **OK** aus. Die positiven und negativen Anpassungen werden für alle Artikel summiert und im Artikel Buch.-Blatt werden Zeilen erstellt.  
 6. Buchen Sie die Buch.-Blattzeilen, um die Mengenabweichungen als Artikelposten zu buchen. Die Mengen an den Lagerplätzen und im Artikelbuch stimmen jetzt überein.  
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Erfassung des Lagerbestand mithilfe von Belegen](inventory-how-count-inventory-with-documents.md)  
 [Bestand](inventory-manage-inventory.md)  

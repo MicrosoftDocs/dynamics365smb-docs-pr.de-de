@@ -22,7 +22,7 @@ Feste Einstandspreise können für Artikel verwaltet werden, die durch Einkauf, 
 |**Montage**|Direkte Materialkosten, direkte oder feste Arbeitskosten und Gemeinkosten.|  
 |**Fertigungsauftrag**|Direkte Materialkosten, Arbeitskosten, Subunternehmerkosten und Gemeinkosten.|  
 
-## <a name="setting-up-standard-costs"></a>Festlegen von Standardkalkulationen
+## <a name="set-up-standard-costs"></a>Festlegen von Standardkalkulationen
 
 Da der Einstandspreis eines produzierten oder montierten Artikels aus mehreren Kostenelementen - Material-, Kapzitäts- und Fremdarbeitskosten (EK-Preise und Gemeinkosten) - besteht, muss der Einstandspreis für jedes dieser Elemente festgelegt werden.  
 
@@ -88,7 +88,7 @@ Fremdarbeitskosten sind die Kosten, die Serviceleistungen zugeordnet sind, die v
 
 Da Fremdarbeit im Wesentlichen eine ausgelagerte Kapazität ist, werden die Kosten der Fremdarbeitsservices (sowohl direkte als auch indirekte Kosten) auf der Subunternehmer-Arbeitsplatzkarte eingerichtet.  
 
-## <a name="updating-standard-costs"></a>Aktualisieren von Standardkalkulationen
+## <a name="update-standard-costs"></a>Aktualisieren von Standardkalkulationen
 
 Um den festen Einstandspreis von Montageartikeln zu aktualisieren oder zu berechnen, verwenden Sie die Funktion auf der Artikelkarte.  
 

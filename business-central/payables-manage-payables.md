@@ -12,7 +12,7 @@ ms.date: 07/12/2024
 ms.service: dynamics-365-business-central
 ---
 
-# Verwalten von Verbindlichkeiten
+# <a name="managing-payables"></a>Verwalten von Verbindlichkeiten
 
 Ein großer Teil der Verwaltung großer aus das Wareneinkaufskonto zahlt Ihre Kreditoren oder erstattet Mitarbeiter für Ausgaben zurück. Sie können Funktionalität verwenden, um die Seite **Zahlung Buch.-Blatt** automatisch mit Zahlungszeilen für fällige Einkaufsrechnungen auszufüllen. Um die entsprechenden Banktransaktionen schnell auszuführen, können Sie mehrere Zahlungsausgangs Buch.-Blattzeilen in eine Datei exportieren, die Sie dann für Ihre Bank für die Verarbeitung hochladen. Sie können Zahlungen auch mit Scheck leisten inkl. der Möglichkeit, Schecks als elektronisches Zahlungsmittel zu senden.
 
@@ -30,7 +30,7 @@ Die folgende Tabelle enthält eine Abfolge von Aufgaben sowie Links zu den Kredi
 |Um eine korrekte Bewertung sicherzustellen, müssen Ihre Lagerartikel Kosten wie Fracht, Versicherung, Umlagerung und Transport enthalten, die beim Kauf oder Verkauf entstehen.|[Verwenden von Artikelzuschlägen für zusätzliche Kosten](payables-how-assign-item-charges.md)|
 |Erstatten Sie Mitarbeitern persönliche Ausgaben für die Geschäftsaktivitäten zurück, indem Sie Zahlung zu dem Bankkonto vornehmen.|[Ausgaben der Beschäftigten aufzeichnen und erstatten](finance-how-record-reimburse-employee-expenses.md)|
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 [Einkauf](purchasing-manage-purchasing.md)    
 [Verwaltung von Forderungen](receivables-manage-receivables.md)    
 [Verwenden Sie Artikelgebühren, um zusätzliche Handelskosten zu berücksichtigen](payables-how-assign-item-charges.md)    

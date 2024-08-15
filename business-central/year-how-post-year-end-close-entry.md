@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="posting-the-year-end-closing-entry"></a>Buchen der Jahresendabschlussbuchung
+# <a name="post-the-year-end-closing-entry"></a>Buchen der Jahresendabschlussbuchung
 
 Nachdem Sie die Stapelverarbeitung **GuV-Konten Nullstellung** ausgeführt haben, um den bzw. die Ultimoposten für den Jahresabschluss zu generieren, müssen Sie das in der Stapelverarbeitung angegebene Buchungsblatt öffnen und die Posten überprüfen und buchen.  
 

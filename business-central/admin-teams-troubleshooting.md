@@ -174,7 +174,7 @@ Dieses Problem besteht, weil Sie die BC-App für Teams nicht installiert haben. 
 Dieses Problem liegt wahrscheinlich daran, dass Sie eine Listenansicht freigegeben haben, die eine persönliche Ansicht ist. Arbeiten Sie in diesem Fall mit Ihrem Administrator zusammen, um entweder rollenspezifische Listenansichten zu erstellen, die die verschiedenen Rollen im Kanal/Chat abdecken, oder erstellen Sie diese Ansicht für die gesamte Organisation, damit alle eine einheitliche Ansicht erhalten.
 
 
-## <a name="see-also"></a>Siehe auch
+## <a name="related-information"></a>Siehe auch
 
 [[!INCLUDE [prod_short](includes/prod_short.md)] und Microsoft Teams Integration Übersicht](across-teams-overview.md)  
 [Die App [!INCLUDE [prod_short](includes/prod_short.md)] für Microsoft Teams installieren](across-install-app-for-teams.md)  

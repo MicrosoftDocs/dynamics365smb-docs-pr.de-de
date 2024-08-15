@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Finanzverwaltung
+# <a name="financial-management"></a>Finanzverwaltung
 
 [!INCLUDE[prod_short](includes/prod_short.md)] umfasst eine Standardkonfiguration der meisten Finanzvorgänge, aber Sie können sie ändern, um Sie den Anforderungen Ihres Unternehmens anzupassen. Erfahren Sie mehr unter [Einrichten von Finanzen](finance-setup-finance.md).
 
@@ -20,13 +20,13 @@ Die Standardkonfiguration enthält Kontenpläne und Standardbuchungsgruppen, die
 
 In den folgenden Abschnitten wird eine Abfolge von Aufgaben beschrieben. Sie enthalten Links zu den entsprechenden Artikeln.  
 
-## Machen Sie eine Videotour
+## <a name="take-a-video-tour"></a>Machen Sie eine Videotour
 
 Dieses Video stellt einige der wichtigsten Funktionen für die Verwaltung von Finanzen vor. <br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4Fss4?rel=0]
 
-## Erste Schritte mit Finanzfunktionen
+## <a name="get-started-with-finance-capabilities"></a>Erste Schritte mit Finanzfunktionen
 
 Bevor Sie mit der Geschäftstätigkeit beginnen können, müssen Sie festlegen, wie die Finanzprozesse Ihres Unternehmens gehandhabt werden sollen.
 
@@ -35,7 +35,7 @@ Bevor Sie mit der Geschäftstätigkeit beginnen können, müssen Sie festlegen, 
 | Ändern Sie die Standardkonfiguration von [!INCLUDE[prod_short](includes/prod_short.md)] für die meisten Finanzprozesse, sodass sie zu den Anforderungen Ihres Unternehmens passen. | [Finanzen einrichten](finance-setup-finance.md) | 
 | Erhalten Sie Informationen zur Finanzbuchhaltung und zum Kontenplan. |[Verständnis der Fibu und des COA](finance-general-ledger.md) |
 
-## Buchungen
+## <a name="accounting"></a>Buchungen
 
 In diesem Abschnitt werden einige der Buchhaltungstools beschrieben, die Sie zum Registrieren von Finanztransaktionen verwenden, damit diese Ihren Registrierungs-, Berichts- und Managementfinanzanforderungen entsprechen.
 
@@ -49,7 +49,7 @@ In diesem Abschnitt werden einige der Buchhaltungstools beschrieben, die Sie zum
 | Erfahren Sie mehr über die verfügbaren Optionen zum automatischen Senden von Abonnementrechnungen an Debitoren und zum Registrieren wiederkehrender Einnahmen. |[Mit wiederkehrenden Umsätzen arbeiten](finance-recurring-invoicing.md)|
 |Verbuchen Sie Mitarbeiterausgaben für arbeitsbezogene Aktivitäten und leisten Sie Erstattungen direkt auf Mitarbeiterbankkonten.|[Ausgaben der Beschäftigten aufzeichnen und erstatten](finance-how-record-reimburse-employee-expenses.md)|
 
-## Finanzielle Analysen
+## <a name="financial-analytics"></a>Finanzielle Analysen
 
 In diesem Abschnitt werden die Analysetools beschrieben, mit denen Sie sich Einblick in Ihre Finanzdaten verschaffen können.
 
@@ -67,7 +67,7 @@ In diesem Abschnitt werden die Analysetools beschrieben, mit denen Sie sich Einb
 | Wichtigste Integrierte Debitorenberichte kennenlernen. | [Integrierte Debitorenberichte](receivables-reports.md)
 | Integrierte Kreditorenberichte kennenlernen. | [Integrierte Kreditorenkontenberichte](payables-reports.md)
 
-## Mehrwert- und andere Steuern
+## <a name="vat-and-taxes"></a>Mehrwert- und andere Steuern
 
 Es ist leicht in [!INCLUDE[prod_short](includes/prod_short.md)] mit Mehrwertsteuer zu arbeiten und Sie können entweder eine manuelle oder eine automatische Einrichtung verwenden. Diese Artikel enthalten Informationen darüber, wie Sie Ihre länder-/regionsspezifischen Vorschriften erfüllen können.
 
@@ -77,7 +77,7 @@ Es ist leicht in [!INCLUDE[prod_short](includes/prod_short.md)] mit Mehrwertsteu
 |Estellen Sie einen Bericht, der die MwSt aus Verkäufen in einer Zeilenliste in einer Periode darstellt, und übermitteln Sie den Bericht an die Behörden in der Europäischen Union. | [Melden von MwSt. an die Steuerbehörden](finance-how-report-vat.md)|
 |Serviceverträge manuell umwandeln, dass der Mehrwertsteuersatz geändert wird.|[Dienstleistungsverträge konvertieren, die MwSt.-Beträge enthalten](service-how-to-convert-service-contracts.md)|
 
-## Forderungen und Verbindlichkeiten verwalten
+## <a name="manage-receivables-and-payables"></a>Forderungen und Verbindlichkeiten verwalten
 
 Der Kern des Finanzwesens besteht aus der Verwaltung von Forderungen und Verbindlichkeiten, der Erfassung von Transaktionen, der Abstimmung von Bankkonten, der Bezahlung von Lieferanten, dem Empfang von Kundenzahlungen, der Erstattung von Spesen an Mitarbeitende usw. Dieser Abschnitt enthält Links zu den Kernkonzepten.
 
@@ -88,7 +88,7 @@ Der Kern des Finanzwesens besteht aus der Verwaltung von Forderungen und Verbind
 |Bitten Sie Ihre Debitoren zu zahlen, bevor Sie liefern, oder machen Sie die Zahlung an Ihre Kreditoren, bevor diese an Sie liefern.|[Fakturieren von Vorauszahlungen](finance-invoice-prepayments.md)|
 | Stimmen Sie Bankkonten ab und transferieren Sie Beträge zwischen Bankkonten. |[Abstimmen von Bankkonten](bank-manage-bank-accounts.md) |
 
-## Mehreren Unternehmen verwalten
+## <a name="manage-multiple-companies"></a>Mehreren Unternehmen verwalten
 
 [!INCLUDE [prod_short](includes/prod_short.md)] bietet kleinen und mittelständischen Unternehmen eine betriebswirtschaftliche Lösung, die einfach zu bedienen und kostengünstig zu warten ist.
 
@@ -98,7 +98,7 @@ Der Kern des Finanzwesens besteht aus der Verwaltung von Forderungen und Verbind
 |Kombinieren Sie Sachposteneinträge aus mehreren Unternehmen in einem konsolidierten virtuellen Unternehmen für die Finanzanalyse.|[Konsolidieren von Finanzdaten aus mehreren Unternehmen](finance-consolidated-company-reporting.md)|
 | Arbeiten Sie enger mit verknüpften Unternehmen zusammen, zu denen Sie Zugang haben, und erhalten Sie Informationen über KPI-Daten (Key Point of Interest). | [Arbeit über mehrere Unternehmen hinweg im Unternehmens-Hub verwalten](company-hub.md)|
 
-## Berichte am Periodenende und damit verbundene Aufgaben
+## <a name="period-end-reporting-and-related-tasks"></a>Berichte am Periodenende und damit verbundene Aufgaben
 
 Am Ende jeder Buchhaltungsperiode bzw. jedes Geschäftsjahres fallen eine Reihe administrativer Aufgaben an. Beispielsweise möchten Sie wahrscheinlich sicherstellen, dass alle Belege und Buch.-Blätter gebucht, die Währungsdaten auf dem neuesten Stand, die Bücher abgeschlossen sind und so weiter. Die tatsächlichen Aufgaben hängen von Ihrem Unternehmen ab.
 
@@ -108,7 +108,7 @@ Am Ende jeder Buchhaltungsperiode bzw. jedes Geschäftsjahres fallen eine Reihe 
 | Importieren Sie Gehaltstransaktionen von Ihrem Gehaltsabrechnungsanbieter in die Finanzbuchhaltung. |[Lohntransaktionen importieren](finance-how-import-payroll-transactions.md)|
 |Erfahren Sie, wie Sie das Buchhalter-Rollencenter verwenden, einen externen Buchhalter einladen und den Unternehmens-Hub nutzen, um Konten mehrerer Clients zu verwalten.|[Buchhalter-Erfahrungen in Business Central](finance-accounting.md)| 
 
-## Buchhaltung für das Management
+## <a name="managerial-accounting"></a>Buchhaltung für das Management
 
 Als Geschäftsführer oder Controller ist es wichtig, dass Sie die Geschäftsdaten, die Sie benötigen, um fundierte Entscheidungen zu treffen, aufbereiten und analysieren können. Die Artikel in der folgenden Tabelle helfen Ihnen bei der Aufbereitung Ihrer Daten. Weitere Informationen zu Analysen finden Sie unter [Übersicht über Business Intelligence und Reporting](reports-bi-reporting.md).
 
@@ -119,13 +119,13 @@ Als Geschäftsführer oder Controller ist es wichtig, dass Sie die Geschäftsdat
 |Folgen Sie einer durchgängigen Prozessbeschreibung, wie Sie Finanzberichte verwenden, um Cashflow-Planungen zu erstellen.|[Walkthrough: Erstellen Sie Cashflow-Prognosen mithilfe von Finanzberichten](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)|
 | Arbeiten mit Finanzberichten und -übersichten in Microsoft Excel. |[Finanzauswertungen in Excel analysieren](finance-analyze-excel.md) |
 
-## Kostenlose E-Learning-Module
+## <a name="free-e-learning-modules"></a>Kostenlose E-Learning-Module
 
 Möchten Sie in Ihrem eigenen Tempo mehr über [!INCLUDE[prod_short](includes/prod_short.md)] lernen? 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Finanzen einrichten](finance-setup-finance.md)  
 [Mit dem Vertriebsmodul arbeiten](sales-manage-sales.md)  

@@ -65,7 +65,7 @@ Als Administrator erhalten Sie einen Überblick über einzelne Änderungen von [
 <!-- >[!NOTE]
 > User personalizations do not have anything to do with the *personal* lightweight changes a user can make to the user experience.-->
 
-## <a name="to-review-or-delete-user-personalizations"></a>Zum Überprüfen oder Löschen von Benutzerpersonalisierungen
+## <a name="review-or-delete-user-personalizations"></a>Zum Überprüfen oder Löschen von Benutzerpersonalisierungen
 
 1. Wählen Sie das ![Suchen Sie nach Seite oder Bericht.](media/ui-search/search_small.png "Nach dem Symbol für „Seite“ oder „Bericht“ suchen") Symbol. Geben Sie **Personalisierte Seiten** ein und wählen Sie dann den entsprechenden Link.
 2. Dadurch werden die Liste der Benutzer und ihrer personalisierten Seiten angezeigt. Um die Personalisierung eines Benutzers zu löschen, klicken Sie auf die entsprechende Zeile oder wählen Sie **Verwalten** und dann **Löschen** aus.

@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="setting-up-cost-accounting"></a>Einrichten der Kostenrechnung
+# <a name="set-up-cost-accounting"></a>Einrichten der Kostenrechnung
 
 Bevor Sie die Arbeit mit der Kostenrechnung beginnen können, müssen Sie Einrichtungsaufgaben ausführen.
 
@@ -24,7 +24,7 @@ Auf diese Weise erstellen Sie die folgende Buchhaltungsgleichung:
 
 Wenn Sie den Kostenartenplan, den Kostenstellenplan und den Kostenträgerplan drucken, können Sie diese Beziehung analysieren.
 
-## <a name="setting-up-cost-types"></a>Einrichten von Kostenarten
+## <a name="set-up-cost-types"></a>Einrichten von Kostenarten
 
 Kostenartenpläne ähneln Kontenpläne im Sachkonto. Sie können den Kostenartenplan auf die folgenden Weisen einrichten:  
 

@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Arbeiten mit Verantwortungseinheiten
+# <a name="work-with-responsibility-centers"></a>Arbeiten mit Verantwortungseinheiten
 
 Zuständigkeitseinheiten ermöglichen die Verwaltung von Verwaltungscentern. Eine Zuständigkeitseinheit kann ein Cost Center, ein Profit Center, ein Investment Center oder ein anderes unternehmensdefiniertes Verwaltungscenter sein. Beispiele von Zuständigkeitseinheiten können ein Verkaufsbüro, eine Einkaufsabteilung für mehrere Lagerorte und ein Fabrikplanungsbüro sein. Mithilfe dieser Funktionalität können Unternehmen beispielsweise benutzerspezifische Ansichten von Verkaufs- und Einkaufsdokumenten einrichten, die ausschließlich mit einem bestimmten Verwaltungscenter zusammenhängen.  
 
@@ -19,7 +19,7 @@ Die Verwendung mehrerer Lagerorte und Zuständigkeitseinheiten bietet Unternehme
 
 Mehrere Standorte ermöglichen es Unternehmen, ihren Bestand an mehreren Standorten mithilfe einer Datenbank zu verwalten. Zwei Konzepte, Lagerorte und Lagerhaltungsdaten, bilden die Eckpfeiler dieses Elements. Ein Lagerort ist definiert als ein Ort, der die physische Platzierung von Artikeln sowie Artikelmengen verwaltet. Der Begriff ist weit genug gefasst, um auch Standorte wie Fabriken oder Produktionsanlagen sowie Vertriebszentren, Lager, Ausstellungsräume und Servicefahrzeuge einzuschließen. Lagerhaltungsdaten sind definiert als ein Artikel an einem bestimmten Lagerort und/oder als Variante. Mithilfe von Lagerhaltungsdaten können Unternehmen mit mehreren Standorten Beschaffungsdaten, Adressen sowie einige Finanzbuchungsdaten auf Standortebene hinzuzufügen. Dadurch können sie Varianten desselben Artikels für jeden Standort auffüllen und Artikel auf Grundlage standortspezifischer Nachschubinformationen bestellen.  
 
-## Zuständigkeitseinheiten einrichten
+## <a name="to-set-up-a-responsibility-center"></a>Zuständigkeitseinheiten einrichten
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Zuständigkeitseinheiten** ein, und wählen Sie dann den entsprechenden Link.  
 2. Wählen Sie die Aktion **Neu**.  
@@ -34,7 +34,7 @@ Dieser Code wird auf Einkaufs- und Verkaufsbelegen oder Servicedokumenten verwen
 > [!NOTE]  
 > Wenn Sie einen Zuständigkeitseinheitencode in einem Beleg angeben, beeinflusst er die Adresse, Dimensionen und Preise im Beleg.  
 
-## Zuständigkeitseinheiten für Benutzer zuweisen:
+## <a name="to-assign-responsibility-centers-to-users"></a>Zuständigkeitseinheiten für Benutzer zuweisen:
 
 Sie können die Benutzer so einrichten, dass [!INCLUDE [prod_short](includes/prod_short.md)] nur die entsprechenden Belege für ihre speziellen Arbeitsbereiche anzeigt. Benutzer sind einem Verantwortungszentrum zugeordnet und arbeiten nur mit Dokumenten, die sich auf bestimmte Anwendungsbereiche dieses Zentrums beziehen.  
 
@@ -49,7 +49,7 @@ Um dies einzurichten, weisen Sie Benutzern Zuständigkeitseinheiten in drei Basi
 > [!NOTE]  
 > Benutzer können nur die gebuchten Belege anzeigen, die sich auf ihr eigenes Verantwortungszentrum beziehen. Sie können jedoch alle Ledger-Einträge anzeigen und aus den Ledger-Einträgen zu anderen gebuchten Belegen navigieren.
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Einrichten des Inventars](inventory-setup-inventory.md)    
 [Warehouse Management einrichten](warehouse-setup-warehouse.md)    

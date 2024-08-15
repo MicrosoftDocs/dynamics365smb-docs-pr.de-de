@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Abgleichen von Zahlungen, die nicht automatisch angewendet werden können
+# <a name="reconcile-payments-that-cant-be-applied-automatically"></a>Abgleichen von Zahlungen, die nicht automatisch angewendet werden können
 Möglicherweise müssen Sie gelegentlich Zahlungen auf Ihr Bankkonto abwickeln, die keinem zugehörigen offenen Debitoren-, Kreditoren- oder Bankkontoposten zugeordnet werden können. Gründe hierfür können sein, dass kein Dokument vorhanden ist, dem die Zahlung zugeordnet werden kann, oder dass das zugehörige Dokument einen anderen Betrag aufweist als der Transaktionsbetrag, beispielsweise aufgrund einer Währungsumrechnung. [!INCLUDE[prod_short](includes/prod_short.md)]  [!INCLUDE[prod_short](includes/prod_short.md)]  Auf der Seite  **Zahlungsabstimmungsjournal**  werden alle Transaktionsbeträge für Zahlungen, die noch nicht angewendet wurden, im Feld  **Differenz**  angezeigt, einschließlich der Beträge, die aus Gründen wie den oben genannten nicht angewendet werden können.
 
 Die Methoden zur Lösung dieser Arten von nicht beantragten Zahlungen:
@@ -29,7 +29,7 @@ Um solche Zahlungen abzustimmen, können Sie die Aktion **Übergangsdifferenz zu
 > [!TIP]  
 >   Ähnliche Funktionen sind vorhanden, um automatische Abstimmung von wiederkehrenden Zahlungen einzurichten, die mit keinem zugehörigen offenen Debitor, Kreditor oder die Bankposten ausgeglichen werden können. Weitere Informationen finden Sie unter [Zuordnen von sich wiederholenden Zahlungen an Konten bei der automatischen Abstimmung](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md)
 
-## So gleichen Sie Zahlungen ab, die nicht automatisch angewendet werden können
+## <a name="to-reconcile-payments-that-cant-be-applied-automatically"></a>So gleichen Sie Zahlungen ab, die nicht automatisch angewendet werden können
 1. Wählen Sie das ![Glühbirne, die das „Sie wünschen ...“-Feature öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Zahlungsausgangs Buch.-Blätter** ein und wählen Sie dann den zugehörigen Link.
 2. Öffnen Sie ein Zahlungsabstimmungsbuch.-Blatt. Weitere Informationen finden Sie unter [Abstimmen von Zahlungen mithilfe der automatischen Anwendung](receivables-how-reconcile-payments-auto-application.md).
 3. Wählen Sie **Differenz auf Konto buchen**. Die Seite **Differenz auf Konto buchen** öffnet sich.
@@ -42,7 +42,7 @@ Wenn der Wert im Feld **Differenz** dem Wert im Feld **Transaktions-Betrag** ent
 
 Wenn der Wert im Feld **Differenz** kleiner ist als der Wert im Feld **Transaktions-Betrag** wird eine zusätzliche Buch.-Blattzeile mit dem gleichen Text und Datum und mit der Differenz erstellt, die im Feld **Transaktions-Betrag** eingefügt wird. In der ursprünglichen Buch.-Blattzeile wird die Differenz vom Wert im Feld **Transaktions-Betrag** abgezogen und die Zahlung muss dem entsprechenden Debitor, Kreditor oder Bankposteneintrag zugewiesen werden. Wenn Sie im Zahlungsabstimmungsbuch.-Blatt buchen, wird ein Teil der Zahlung als zugewiesene Zahlung gebucht. Der andere Teil der Zahlung wird direkt auf das angegebene Konto gebucht.
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 [Verwalten von Forderungen](receivables-manage-receivables.md)  
 [Verkauf](sales-manage-sales.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

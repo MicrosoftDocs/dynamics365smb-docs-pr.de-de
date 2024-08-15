@@ -10,20 +10,20 @@ ms.search.form: 'Report_33, Report_101, Report_104, Report_109, Report_112, Repo
 ms.date: 05/21/2024
 ms.service: dynamics-365-business-central
 ---
-# Debitorenberichte und -analysen
+# <a name="accounts-receivable-reports-and-analytics"></a>Debitorenberichte und -analysen
 
 Um Sie bei der Verwaltung Ihrer Debitoren in [!INCLUDE [prod_short](includes/prod_short.md)] zu unterstützen, sind Standardberichte und Analysen integriert. Sie sprengt die Grenzen herkömmlicher Berichte und hilft Ihnen, verschiedene Arten von Berichten effizient zu gestalten.  
 
-## Berichte
+## <a name="reports"></a>Berichte
 
 [!INCLUDE [receivable_reports](includes/receivable-reports-include.md)]
 
-## Finanzberichte mit dem Berichts-Explorer kennenlernen
+## <a name="explore-finance-reports-with-report-explorer"></a>Finanzberichte mit dem Berichts-Explorer kennenlernen
 
 [!INCLUDE [finance_reports_report_explorer](includes/finance-reports-report-explorer-include.md)]
 
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Wichtige Finanzberichte](finance-reports.md)  
 [Ad-hoc-Analysen der Finanzdaten](ad-hoc-analysis-finance.md)   

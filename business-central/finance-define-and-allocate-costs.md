@@ -28,7 +28,7 @@ Für jedes Zuteilungsziel definieren Sie eine Zuteilungsgrundlage. Die Zuteilung
 
 Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Themen, die sie beschreiben..
 
-## <a name="setting-up-allocation-source-and-targets"></a>Richten Sie die Zuteilungsquelle und Ziele ein
+## <a name="set-up-allocation-source-and-targets"></a>Richten Sie die Zuteilungsquelle und Ziele ein
 
 Jede Zuordnung besteht aus einer Zuordnungsquelle und einer oder mehreren Zuordnungszielen. Die Zuordnungsquelle definiert, welche Kosten zugeordnet werden. Die Zuordnungsziele bestimmen, wie die Kosten zugeordnet werden.  
 
@@ -50,11 +50,11 @@ Jede Zuordnung besteht aus einer Zuordnungsquelle und einer oder mehreren Zuordn
 > [!NOTE]  
 > Aktivieren Sie das Kontrollkästchen **Gesperrt**, um die Verteilungseinrichtung zu deaktivieren.
 
-## <a name="setting-filters-for-dynamic-allocation-bases"></a>Setzen von Filtern für dynamische Zuteilungsgrundlagen
+## <a name="to-set-filters-for-dynamic-allocation-bases"></a>Setzen von Filtern für dynamische Zuteilungsgrundlagen
 
 Die Methode der dynamischen Zuteilung basiert auf veränderbaren Werten. Zum Beispiel die Anzahl der Mitarbeiter in einer Kostenstelle oder die Artikel eines Kostenträgers, die in einem bestimmten Zeitraum verkauft wurden. Es gibt neun vordefinierte Zuteilungsgrundlagen und zwölf dynamische Datumsbereiche. Die verschiedenen Filter werden basierend auf der Zuteilungsgrundlage eingestellt.  
 
-### <a name="setting-filters"></a>Festlegen von Filtern
+### <a name="set-filters"></a>Festlegen von Filtern
 
 Die nachstehende Tabelle zeigt, welche Filter für verschiedene Zuteilungsgrundlagen möglich sind und welche Werte in den Feldern **Filter-Nr.** und **Gruppenfilter** gültig sind. Wählen Sie <kbd>F1</kbd> im Feld **Datenfiltercode**, um detaillierte Beschreibungen zu lesen.  
 

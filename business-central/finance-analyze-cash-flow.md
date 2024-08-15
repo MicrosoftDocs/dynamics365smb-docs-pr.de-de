@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="analyzing-cash-flow-in-your-company"></a>Analysieren von Cashflow in Ihren Mandanten
+# <a name="analyze-cash-flow-in-your-company"></a>Analysieren von Cashflow in Ihren Mandanten
 Die Diagramme im Buchhalter-Rollencenter liefern Einblicke, die Ihnen dabei helfen, fundierte Entscheidungen in Bezug auf die Verwendung Ihres Bargelds zu treffen.  
 
 | Um Fragen wie diese zu beantworten | Verwenden Sie dieses Chart |

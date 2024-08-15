@@ -11,7 +11,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="pick-for-production-assembly-or-jobs-in-advanced-warehouse-configurations"></a>Kommissionierung für Produktion, Montage oder Projekte in erweiterten Lagerkonfigurationen
+# <a name="pick-for-production-assembly-or-projects-in-advanced-warehouse-configurations"></a>Kommissionierung für Produktion, Montage oder Projekte in erweiterten Lagerkonfigurationen
 
 Wie Sie Ihre Komponenten für Produktion, Projekte oder Montageaufträge kommissionieren, hängt davon ab, wie Ihr Lagerort eingerichtet wurde. Weitere Informationen finden Sie unter [Einrichten von Warehouse Management](warehouse-setup-warehouse.md).
 
@@ -113,7 +113,7 @@ Verwenden Sie **Lagerkommissionierungs**-Dokumente für die Kommissionierung von
 
 8. Wählen Sie die Schaltfläche **OK**.  
 
-## <a name="to-pick-items-for-a-productions-order-assembly-order-job"></a>Zur Entnahme von Artikeln für einen Produktionsauftrag, Montageauftrag oder Auftrag
+## <a name="to-pick-items-for-a-production-order-assembly-order-or-project"></a>Zur Entnahme von Artikeln für einen Produktionsauftrag, Montageauftrag oder Auftrag
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Kommissionierungen** ein und wählen Sie dann den zugehörigen Link.  
 

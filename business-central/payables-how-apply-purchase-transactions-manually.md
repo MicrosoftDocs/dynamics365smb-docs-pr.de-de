@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Abgleichen von Kreditorenzahlungen mit dem Zahlungsjournal oder aus Kreditorenposten
+# <a name="reconcile-vendor-payments-with-the-payment-journal-or-from-vendor-ledger-entries"></a>Abgleichen von Kreditorenzahlungen mit dem Zahlungsjournal oder aus Kreditorenposten
 Wenn Sie eine Zahlung an einen Kreditor senden oder eine Erstattung von einem Kreditor erhalten, müssen Sie entscheiden, ob die Zahlung oder die Rückerstattung mit einem oder mehreren offenen Posten ausgeglichen werden soll. Sie können den genauen Betrag zum Ausgleichen der Zahlung oder der Rückerstattung angeben und dann die Kreditorenposten nur teilweise ausgleichen. Sie müssen alle Kreditorenposten ausgleichen, um eine korrekte Kreditorenstatistik und Berichte der Kontoauszüge und Zinsrechnungen zu erhalten.
 
 > [!NOTE]  
@@ -31,7 +31,7 @@ Sie können Lieferantenzahlungen manuell auf die zugehörigen Einkaufsbelege anw
 
 Sie können Kreditorenzahlungen und Debitorenzahlungen anwenden nachdem die Zahlungen als negative Banktransaktionen in Ihrer Bank erscheinen. Auf der Seite  **Zahlungsabstimmungsjournale**  können Sie Funktionen für den Bankauszugsimport, die automatische Anwendung und den Bankkontenabgleich nutzen. Weitere Informationen finden Sie unter [Abstimmen von Zahlungen mithilfe der automatischen Anwendung](receivables-how-reconcile-payments-auto-application.md).
 
-## So gleichen Sie eine Zahlung mit einem einzelnen Kreditorenposten aus
+## <a name="to-apply-a-payment-to-a-single-or-multiple-vendor-ledger-entries"></a>So gleichen Sie eine Zahlung mit einem einzelnen Kreditorenposten aus
 1. Wählen Sie das ![Glühbirne, die das „Sie wünschen ...“-Feature öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Zahlungsausgangs Buch.-Blätter** ein und wählen Sie dann den zugehörigen Link.
 2. Geben Sie auf der Seite  **Zahlungsjournale**  in der ersten Journalzeile die relevanten Informationen zum Zahlungseintrag ein.
 3. So gleichen Sie gebuchte Kreditorenposten aus:
@@ -49,7 +49,7 @@ Sie können Kreditorenzahlungen und Debitorenzahlungen anwenden nachdem die Zahl
 5. Wählen Sie die Schaltfläche **OK** aus.
 6. Wählen Sie die Aktion **Buchen**, um das Buch.-Blatt zu buchen.
 
-## So gleichen Sie eine Gutschrift mit mehreren Kreditorenposten aus
+## <a name="to-apply-a-credit-memo-to-a-single-or-multiple-vendor-ledger-entries"></a>So gleichen Sie eine Gutschrift mit mehreren Kreditorenposten aus
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Einkaufsgutschriften** ein und wählen Sie dann den zugehörigen Link.
 2. Öffnen Sie die Gutschrift, die Sie ausgleichen möchten.
 3. Geben Sie die relevanten Informationen in der Kopfzeile ein.
@@ -66,7 +66,7 @@ Sie können Kreditorenzahlungen und Debitorenzahlungen anwenden nachdem die Zahl
    Auf der Seite  **Einkaufsgutschriften**  wird der Eintrag angezeigt, den Sie in den Feldern  **Gilt für Belegart**  und  **Gilt für Belegnr.**  ausgewählt haben. Die Seite zeigt auch den Betrag der zu buchenden Gutschrift an, wobei gegebenenfalls Skonti berücksichtigt werden.
 7. Wählen Sie die Schaltfläche **Buchen**, um die Gutschrift zu buchen.
 
-## So gleichen Sie gebuchte Kreditorenposten aus
+## <a name="to-apply-posted-vendor-ledger-entries"></a>So gleichen Sie gebuchte Kreditorenposten aus
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren") Symbol. Geben Sie **Kreditoren** ein und wählen Sie dann den zugehörigen Link.
 2. Öffnen Sie den relevanten Kreditor mit bereits gebuchten Posten.
 3. Wählen Sie die **Posten**-Aktion aus, und wählen Sie dann die **Posten ausgleichen**-Aktion aus.
@@ -83,7 +83,7 @@ Sie können Kreditorenzahlungen und Debitorenzahlungen anwenden nachdem die Zahl
     Die Seite **Ausgleich buchen** wird mit der Belegnummer des Ausgleichspostens und dem Buchungsdatum des Postens geöffnet, der das aktuellste Buchungsdatum aufweist.
 9. Klicken Sie auf die Schaltfläche **OK**, um den Ausgleich zu buchen.
 
-## So wenden Sie Kreditorenposten in unterschiedlichen Währungen aufeinander an
+## <a name="to-apply-vendor-ledger-entries-in-different-currencies-to-one-another"></a>So wenden Sie Kreditorenposten in unterschiedlichen Währungen aufeinander an
 Falls Sie Käufe von einem Kreditor in einer Währung tätigen und die Zahlung in einer anderen Währung leisten, können Sie die Zahlung mit der Rechnung ausgleichen.
 
 Wenn Sie einen Posten (Posten 2) in einer Währung mit einem Posten (Posten 1) in einer anderen Währung ausgleichen, wird das Buchungsdatum von Posten 1 verwendet, um den entsprechenden Wechselkurs zur Umrechnung der Beträge von Posten 2 zu ermitteln. Den Wechselkurs finden Sie auf der Seite **Währungswechselkurse**. In diesem Fall müssen Sie die Anwendung von Kreditorenposten in unterschiedlichen Währungen aktivieren. Weitere Informationen finden Sie unter [Anwendung von Kreditorenposten in unterschiedlichen Währungen aktivieren](finance-how-enable-application-ledger-entries-different-currencies.md)
@@ -98,7 +98,7 @@ Wenn Sie einen Posten (Posten 2) in einer Währung mit einem Posten (Posten 1)
 > [!IMPORTANT]  
 >   Wenn Sie Posten in verschiedenen Währungen miteinander ausgleichen, rechnet die Anwendung die Beträge in USD um. Selbst wenn der Wechselkurs fest ist, z. B. zwischen USD und EUR, kann es zu Rundungsdifferenzen kommen, wenn diese Fremdwährungsbeträge in EUR umgerechnet werden. Diese Rundungsdifferenzen werden als Gewinne und Verluste auf die Konten gebucht, die in den Feldern **Kursgewinn realisiert** oder **Kursverlust realisiert** der Seite **Währungen** angegeben sind. Außerdem werden die Beträge im Feld **Betrag (EUR)** der entsprechenden Kreditorenposten angepasst.
 
-## So heben Sie den Ausgleich von Kreditorenposten auf
+## <a name="to-unapply-an-application-of-vendor-entries"></a>So heben Sie den Ausgleich von Kreditorenposten auf
 Wenn Sie einen fehlerhaften Ausgleich rückgängig machen, werden Korrektureinträge erstellt und gebucht, die mit dem ursprünglichen Eintrag identisch sind, jedoch im Betragsfeld das entgegengesetzte Protokoll aufweisen. Dies gilt für alle Einträge, einschließlich aller aus dem Ausgleich abgeleiteten Hauptbuchbuchungen, z. B. Skonto und Währungsgewinne/-verluste. Die Einträge, die durch die Anwendung geschlossen wurden, werden wieder geöffnet.
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Kreditoren** ein und wählen Sie dann den zugehörigen Link.
@@ -112,7 +112,7 @@ Wenn Sie einen fehlerhaften Ausgleich rückgängig machen, werden Korrektureintr
 > [!IMPORTANT]  
 >   Wenn ein Eintrag durch mehr als einen Anwendungseintrag angewendet wurde, müssen Sie den letzten Anwendungseintrag zuerst rückgängig machen.
 
-## Weitere Informationen
+## <a name="see-also"></a>Weitere Informationen
 [Verbindlichkeiten](payables-manage-payables.md)  
 [Einkauf](purchasing-manage-purchasing.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
