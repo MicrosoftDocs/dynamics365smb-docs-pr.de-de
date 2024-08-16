@@ -12,7 +12,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# Umsätze und Ausgaben abgrenzen
+# <a name="defer-revenues-and-expenses"></a>Umsätze und Ausgaben abgrenzen
 
 Um Einnahmen und Ausgaben in einer anderen Periode als in jener, in der die Transaktion gebucht wurde, anzusetzen, können Sie Einnahmen und Ausgaben über einen bestimmten Zeitplan automatisch abgrenzen.
 
@@ -21,7 +21,7 @@ Um Einnahmen oder Ausgaben in den betroffenen Buchhaltungsperioden einzubeziehen
 > [!NOTE]
 > Verkaufs- und Einkaufs-Buch.-Blätter validieren den Quellcode. Für die Validierung darf der Quellcode für Verkäufe und Verkaufs-Buch.-Blätter bzw. Einkäufe und Einkaufs-Buch.-Blätter nicht identisch sein, wenn Sie Abgrenzungen verwenden. Wenn die Einrichtung identisch ist, können Sie diese Einschränkung umgehen, indem Sie eine Vorlage und einen Stapel erstellen, die einen anderen Quellcode verwenden.
 
-## So richten Sie ein Sachkonto für Abgrenzungen ein
+## <a name="to-set-up-a-gl-account-for-deferral"></a>So richten Sie ein Sachkonto für Abgrenzungen ein
 
 1. Wählen Sie das Symbol ![Glühbirne, die die „Sie wünschen ...“-Funktion öffnet](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Kontenplan** ein, und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie die Aktion **Neu** aus.
@@ -30,7 +30,7 @@ Um Einnahmen oder Ausgaben in den betroffenen Buchhaltungsperioden einzubeziehen
 
 Für beide Arten von Abgrenzung wählen Sie im Feld **Art** **Bilanz** aus und benennen Sie die Konten entsprechend, wie "Nicht verdiente Erträge" für zurückgestellte Einnahmen und "nicht bezahlte Ausgaben" für abgegrenzte Ausgaben.
 
-## So richten Sie eine Abgrenzungsvorlage ein
+## <a name="to-set-up-a-deferral-template"></a>So richten Sie eine Abgrenzungsvorlage ein
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Abgrenzungsvorlagen** ein, und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie die Aktion **Neu** aus.
@@ -52,7 +52,7 @@ Für beide Arten von Abgrenzung wählen Sie im Feld **Art** **Bilanz** aus und b
 
 Beispiel: Das Buchungsdatum ist 02.06.2016. Wenn Sie „Abgrenzungsausgabe für %4 %6“ eingeben, ist die angezeigte Beschreibung „Abgrenzungsausgaben für Februar 2016“.
 
-## So weisen Sie einem Artikel eine Abgrenzungsvorlage zu
+## <a name="to-assign-a-deferral-template-to-an-item"></a>So weisen Sie einem Artikel eine Abgrenzungsvorlage zu
 
 > [!NOTE]  
 > Die Schritte in diesem Verfahren sind die gleichen wie bei der Zuordnung einer Stundungsvorlage zu einem Sachkonto oder einer Ressource.
@@ -61,7 +61,7 @@ Beispiel: Das Buchungsdatum ist 02.06.2016. Wenn Sie „Abgrenzungsausgabe für 
 2. Öffnen Sie die Karte für den Artikel, für den Ausgaben oder Einnahmen zu den Buchhaltungsperioden abgegrenzt werden müssen, wenn der Artikel gekauft oder verkauft wurde.
 3. Wählen Sie auf der Registerkarte  **Kosten und Buchung**  im Feld  **Standard-Aufschubvorlage**  die entsprechende Aufschubvorlage Auswählen.
 
-## So ändern Sie einen Abgrenzungsplan von einer Verkaufsrechnung aus
+## <a name="to-change-a-deferral-schedule-from-a-sales-invoice"></a>So ändern Sie einen Abgrenzungsplan von einer Verkaufsrechnung aus
 
 > [!NOTE]  
 > Die Schritte in diesem Ablauf sind identisch, wie wenn Sie einen Abgrenzungsplan für Ausgaben aus einer Kaufrechnung ändern.
@@ -75,7 +75,7 @@ Beispiel: Das Buchungsdatum ist 02.06.2016. Wenn Sie „Abgrenzungsausgabe für 
 5. Wählen Sie die Aktion **Berechnungsplan** aus.
 6. Wählen Sie die Schaltfläche **OK** aus. Der Abgrenzungsplan wird für die Verkaufsrechnung aktualisiert. Die zugehörige Abgrenzungsvorlage ist unverändert.
 
-## Um anzuzeigen, wie die Abgrenzungsausgaben oder -einnahmen im Sachkonto gebucht werden
+## <a name="to-preview-how-deferred-revenues-or-expenses-will-be-posted-to-the-general-ledger"></a>Um anzuzeigen, wie die Abgrenzungsausgaben oder -einnahmen im Sachkonto gebucht werden
 
 > [!NOTE]  
 > Die Schritte in diesem Ablauf sind die selben, wie Sie in der Vorschau sehen, wie Abgrenzungsausgaben gebucht werden.
@@ -85,7 +85,7 @@ Beispiel: Das Buchungsdatum ist 02.06.2016. Wenn Sie „Abgrenzungsausgabe für 
 
 Sachkonteneinträge, die im entsprechenden Abgrenzungskonto gebucht werden müssen, wie beispielsweise "Nicht verdiente Erträge" werden durch die Beschreibung bezeichnet, die Sie unter **Perioden Beschr.** eingegeben haben. Feld in der Abgrenzungsvorlage beispielsweise "Ausgaben abgegrenzt für Februar 2016".
 
-## So überprüfen Sie gebuchte Abgrenzungen im Bericht „Verkaufsabgrenzungszusammenfassung” .
+## <a name="to-review-posted-deferrals-in-the-sales-deferral-summary-report"></a>So überprüfen Sie gebuchte Abgrenzungen im Bericht „Verkaufsabgrenzungszusammenfassung” .
 
 > [!NOTE]  
 > Die Schritte in diesem Ablauf sind die selben, wie Sie sie sehen, wenn Sie die Zusammenfassung des Einkaufsabgrenzungsberichts ansehen.
@@ -94,7 +94,7 @@ Sachkonteneinträge, die im entsprechenden Abgrenzungskonto gebucht werden müss
 2. Geben Sie auf der Seite **Verkaufsabgrenzungszusammenfassung** im Feld **Saldo ab** das Datum ein, bis zu welchem Sie abgegrenzte Einnahmen anzeigen möchten.
 3. Klicken Sie auf die Schaltfläche **Vorschau**.
 
-## So legen Sie einen Zeitraum fest, in dem die Abgrenzungsbuchung zugelassen werden soll
+## <a name="to-specify-a-period-in-which-to-allow-deferral-posting"></a>So legen Sie einen Zeitraum fest, in dem die Abgrenzungsbuchung zugelassen werden soll
 
 Sie können einen Zeitraum festlegen, in dem Transaktionen gebucht werden können, indem Sie in den Feldern **Buchung zulassen von** und **Buchung zulassen bis** wie folgt Daten eingeben:
 
@@ -106,13 +106,13 @@ Wenn Sie das getan haben, müssen Sie eine Ausnahme für Abgrenzungen machen, da
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol, geben Sie **Hauptbuchhaltung Einrichtung** oder **Benutzereinrichtung** ein, und wählen Sie dann den entsprechenden Link.
 2. Geben Sie in die Felder **Abgrenzungsbuchung zulassen von** und **Abgrenzungsbuchung zulassen bis** ein Anfangs- und Enddatum für den Zeitraum ein.
 
-### Videoanleitung
+### <a name="video-guidance"></a>Videoanleitung
 
 Das folgende Video zeigt, wie Sie den Zeitraum festlegen, in dem Sie abgegrenzte Einnahmen und Ausgaben buchen können, und wie Sie Ausnahmen festlegen.
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1fG6C]
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Finanzen](finance.md)  
 [Finanzen einrichten](finance-setup-finance.md)  

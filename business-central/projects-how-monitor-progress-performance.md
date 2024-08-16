@@ -12,7 +12,7 @@ ms.search.form: '89, 92, 1010'
 ms.service: dynamics-365-business-central
 ---
 
-# Projektfortschritt und -leistung überwachen
+# <a name="monitor-project-progress-and-performance"></a>Projektfortschritt und -leistung überwachen
 
 Mit der Funktion Umlaufbestand (WIP) können Sie den finanziellen Wert laufender Projekte in der Finanzbuchhaltung schätzen.
 
@@ -29,7 +29,7 @@ Die WIP-Berechnung kann auf der Grundlage der folgenden Optionen erfolgen:
 <!--If you want to view the result using a different method, change the method and calculate WIP again. There's no limit to the number of times you calculate WIP; it doesn't get automatically posted to the general ledger. After you've calculated WIP using the method you prefer, you can post to the general ledger.-->
 <!--Unhide the above paragraph?-->
 
-## WIP-Methode für ein Projekt erstellen
+## <a name="create-a-project-wip-method"></a>WIP-Methode für ein Projekt erstellen
 
 Erstellen Sie eine Projekt-WIP-Methode, die den Bedarf Ihrer Organisation wiedergibt und legen Sie sie als Standard fest.  
 
@@ -42,7 +42,7 @@ Erstellen Sie eine Projekt-WIP-Methode, die den Bedarf Ihrer Organisation wieder
 4. Um diese neue Methode zur Standardmethode zu machen, wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren") Symbol, geben Sie  **Projekt-Setup** ein und wählen Sie dann das zugehörige verknüpfen.  
 5. Wählen Sie im Feld **WIP-Standardmethode** die Methode aus der Liste aus.
 
-## Eine WIP-Methode für ein Projekt definieren
+## <a name="define-a-wip-method-for-a-project"></a>Eine WIP-Methode für ein Projekt definieren
 
 Wenn Sie ein neues Projekt erstellen, müssen Sie auswählen, welche Projekt-WIP-Methode angewendet werden soll. In einigen Fällen ist die von Ihnen verwendete Projekt-WIP-Methode bereits als Standard festgelegt.
 
@@ -50,7 +50,7 @@ Wenn Sie ein neues Projekt erstellen, müssen Sie auswählen, welche Projekt-WIP
 2. Wählen Sie die Aktion **Neu**. Erfahren Sie mehr unter [Projekte erstellen](projects-how-create-jobs.md).  
 3. Wählen Sie auf der Seite  **Projekt Karte**  im Feld  **WIP-Methode**  auf der Registerkarte  **Buchen**  eine WIP-Methode aus der Liste aus. Wenn eine standardmäßige Methode festgelegt wurde, können Sie sofern erforderlich eine andere Option aktivieren.  
 
-### Eine WIP-Methode für eine Projektaufgabe definieren
+### <a name="define-a-wip-method-for-a-project-task"></a>Eine WIP-Methode für eine Projektaufgabe definieren
 
 Sie können eine WIP-Methode für eine Projektaufgabe definieren, einige Projektaufgaben von der WIP-Berechnung ausschließen oder Aufgaben gruppieren, die zusammen berechnet werden sollen. 
 
@@ -95,7 +95,7 @@ Sie werden feststellen:
 
 * *1300* bis *1399*: WIP wird für diese Gruppe von Projektaufgaben separat berechnet.
 
-## WIP berechnen
+## <a name="calculate-wip"></a>WIP berechnen
 
 Bestimmen den WIP-Betrag, der im Rahmen der Berichterstellung am Periodenende auf Bilanzkonten gebucht werden muss. Dazu verwenden Sie das Stapelprojekt **WIP berechnen Projekt**.  
 
@@ -107,7 +107,7 @@ Bestimmen den WIP-Betrag, der im Rahmen der Berichterstellung am Periodenende au
 > [!NOTE]  
 > Das Stapelprojekt berechnet lediglich die WIP, und es erfolgt keine Buchung in die Finanzbuchhaltung. Zum Buchen müssen Sie das Stapelprojekt **WIP nach Sachposten Projekt** ausführen, nachdem Sie den WIP berechnet haben. Erfahren Sie mehr im folgenden Verfahren.
 
-## WIP buchen
+## <a name="post-wip"></a>WIP buchen
 
 Wenn Sie den WIP berechnet haben, können Sie ihn zur Erstellung von Periodenendberichten auf Bilanzkonten buchen. Dazu verwenden Sie das Stapelprojekt **WIP nach Sachkonten Projekt**.
 
@@ -115,7 +115,7 @@ Wenn Sie den WIP berechnet haben, können Sie ihn zur Erstellung von Periodenend
 2. Füllen Sie auf der Seite **WIP nach Sachkonten Projekt** aus und füllen Sie die Felder wie erforderlich aus.  
 3. Wählen Sie die Schaltfläche **OK** aus.
 
-## Berechnen und Buchen von Projekt-Abschlussposten
+## <a name="calculate-and-post-project-completion-entries"></a>Berechnen und Buchen von Projekt-Abschlussposten
 
 Nachdem alle Aktivitäten für ein Projekt – einschließlich Buchung des Verbrauchs und Fakturierung – abgeschlossen wurden, müssen Sie den Status des Projekts auf **Abgeschlossen** aktualisieren. Dann stornieren Sie alle WIPs, die in der Finanzbuchhaltung gebucht wurde.
 
@@ -132,7 +132,7 @@ Nachdem alle Aktivitäten für ein Projekt – einschließlich Buchung des Verbr
 
      Bei den durch Ausführen des Batchprojekts erstellten WIP-Hauptbucheinträgen des Projekts ist das Kontrollkästchen  **Projekt abgeschlossen**  aktiviert, um anzuzeigen, dass es sich um Abschlusseinträge handelt.
 
-## Projektposten anzeigen
+## <a name="view-project-ledger-entries"></a>Projektposten anzeigen
 
 Alle projektbezogenen Posten werden in Projektjournalen aufgezeichnet und fortlaufend nummeriert, beginnend mit 1. Aus den Projektjournalen können Sie eine Übersicht über alle Projektposten erhalten.    
 
@@ -141,7 +141,7 @@ Alle projektbezogenen Posten werden in Projektjournalen aufgezeichnet und fortla
 
 Auf der Seite **Projektposten** können Sie die Posten überprüfen, die einem Projekt zugeordnet sind.  
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [exemplarische Vorgehensweise: Berechnen der laufenden Arbeit für ein Projekt](walkthrough-calculating-work-in-process-for-a-job.md)    
 [Projekte verwalten](projects-manage-projects.md)    

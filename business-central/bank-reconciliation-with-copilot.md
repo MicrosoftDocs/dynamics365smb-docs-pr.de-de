@@ -12,7 +12,7 @@ ms.date: 06/13/2024
 ms.custom: bap-template
 ---
 
-# Bankkontoabstimmung mit Copilot (Vorschauversion)
+# <a name="reconcile-bank-accounts-with-copilot-preview"></a>Bankkontoabstimmung mit Copilot (Vorschauversion)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
@@ -20,7 +20,7 @@ In diesem Artikel wird erläutert, wie Sie mithilfe der Bankkontoabstimmung Bank
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
-## Über die Unterstützung bei Bankkontoabstimmung
+## <a name="about-bank-account-reconciliation-assist"></a>Über die Unterstützung bei Bankkontoabstimmung
 
 Bei der Unterstützung bei Bankkontoabstimmung handelt es sich um eine Reihe von KI-gestützten Features, die Sie bei der Abstimmung von Bankkonten unterstützen. Copilot bietet zwei verschiedene Aufgaben:
 
@@ -36,17 +36,17 @@ Bei der Unterstützung bei Bankkontoabstimmung handelt es sich um eine Reihe von
 
     [Erfahren Sie mehr über diese Aufgabe](#post-unmatched-bank-transaction-amounts-to-suggested-gl-accounts).
 
-## Verfügbare Sprachen
+## <a name="available-languages"></a>Verfügbare Sprachen
 
 [!INCLUDE[bank-recon-assist-language-support](includes/bank-recon-assist-language-support.md)]
 
-## Voraussetzungen
+## <a name="prerequisites"></a>Voraussetzungen
 
 - Die Unterstützung bei Bankkontoabstimmung ist aktiviert. Diese Aufgabe muss von einem Administrator ausgeführt werden. [Erfahren Sie mehr über das Konfigurieren von Copilot- und KI-Funktionen](enable-ai.md).
 - Die Bankkonten in Business Central, die Sie abstimmen möchten, sind mit einem Onlinebankkonto verknüpft oder sie werden mit einem Format für den Kontoauszugsimport eingerichtet.
 - Sie sind mit der Bankkontenabstimmung in Business Central vertraut, wie unter [Bankkonten abstimmen](bank-how-reconcile-bank-accounts-separately.md) beschrieben.
 
-## Bankkontoabstimmung mit Copilot
+## <a name="reconcile-bank-accounts-with-copilot"></a>Bankkontoabstimmung mit Copilot
 
 <!-- Similar to the **Match Automatically** capability on the **Bank Acc. Reconciliation** page, Bank account reconciliation assist can also automatically matches transactions in banks statements with bank entries. The difference is that **Match Automatically** uses a native rules-based algorithm, while Bank account reconciliation assist is based AI technology though Copilot. Bank account reconciliation assist is intended to supplement the **Match Automatically** capability. While **Match Automatically** is fairly successful at matching transactions, there are some instances where it can't&mdash;which is where Bank account reconciliation assist comes. By using the **Reconcile with Copilot** action on **Bank Acc. Reconciliation** page, you can find even more matches.-->
 
@@ -93,7 +93,7 @@ Bei diesem Ansatz verwenden Sie Copilot entweder für eine neue Bankkontoabstimm
 1. Überprüfen Sie wie im nächsten Abschnitt beschrieben die vorgeschlagenen Zuordnungen.
 ---
 
-### Vorgeschlagene Übereinstimmungen überprüfen, speichern oder verwerfen
+### <a name="review-save-or-discard-proposed-matches"></a>Vorgeschlagene Übereinstimmungen überprüfen, speichern oder verwerfen
 
 Nachdem Sie Copilot ausgeführt haben, werden im Fenster **Mit Copilot abstimmen** die detaillierten Ergebnisse angezeigt, einschließlich aller vorgeschlagenen Zuordnungen. Zu diesem Zeitpunkt wurde noch keine von Copilot vorgeschlagene Übereinstimmung gespeichert. Sie haben daher die Möglichkeit, die Vorschläge zu prüfen und sie nach Belieben zu speichern oder zu verwerfen.
 
@@ -117,7 +117,7 @@ Gehen Sie im Abschnitt **Übereinstimmungsvorschläge** die vorgeschlagenen Übe
 - Um die vollständig abgeglichene Abstimmung beim Speichern automatisch zu buchen, aktivieren Sie die Option **Buchen, wenn vollständig angewendet**.
 - Um die aktuell im Fenster **Mit Copilot abstimmen** angezeigten Übereinstimmungen zu speichern, wählen Sie **Behalten** aus.
 
-## Nicht zugeordnete Banktransaktionen auf die vorgeschlagenen Sachbuchkonten buchen
+## <a name="post-unmatched-bank-transaction-amounts-to-suggested-gl-accounts"></a>Nicht zugeordnete Banktransaktionen auf die vorgeschlagenen Sachbuchkonten buchen
 
 In diesem Abschnitt wird erläutert Sie, wie Sie mit Copilot nicht abgestimmte (wie im Feld **Differenz** angegebene) Kontoauszugspositionen auf ein Sachkonto buchen. Diese Aufgabe kann nur aus einer bestehenden Abstimmung heraus durchgeführt werden.
 
@@ -153,11 +153,11 @@ In diesem Abschnitt wird erläutert Sie, wie Sie mit Copilot nicht abgestimmte (
 
          Dieser Schritt bestätigt die Übertragung der aktuell ausgewählten Vorschläge vom Bankkonto auf das Sachkonto. Es bucht neue Zahlungen auf die vorgeschlagenen Sachkonten und wendet entsprechende Zeilen auf die resultierenden Bankkontoeinträge an.
 
-## Nächste Schritte
+## <a name="next-steps"></a>Nächste Schritte
 
 [Ihrer Bankkontoabstimmung validieren](bank-how-reconcile-bank-accounts-separately.md#validate-your-bank-reconciliation)
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Probleme mit Copilot- und KI-Funktionen behandeln](ai-copilot-troubleshooting.md)  
 [Häufig gestellte Fragen zur verantwortungsbewussten KI bei Unterstützung bei Bankkontoabstimmung](faqs-bank-reconciliation.md)  

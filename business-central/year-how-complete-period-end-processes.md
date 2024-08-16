@@ -11,11 +11,11 @@ ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
 
-# Übersicht über die Aufgaben zum Abschluss von Abrechnungsperioden
+# <a name="overview-of-tasks-to-close-accounting-periods"></a>Übersicht über die Aufgaben zum Abschluss von Abrechnungsperioden
 
 [!INCLUDE[prod_short](includes/prod_short.md)] zwingt Sie nicht dazu, Zeiträume zu schließen. Es gibt jedoch zahlreiche Aktivitäten zum Zeitraumende (Monatsende), die Sie durchführen können. Dieser Artikel bietet einen Überblick über optionale Prozesse und Aktivitäten zum Abschluss von Perioden.  
 
-## Sachposten
+## <a name="general-ledger"></a>Sachposten
 
 * Geben Sie systemweite und benutzerspezifische Buchungsperioden an.  
 
@@ -26,7 +26,7 @@ ms.reviewer: jswymer
 * Führen Sie Finanzberichte wie folgt aus:  
   * Öffnen Sie die Seite **Finanzberichte** und klicken Sie auf **Drucken**.  
 
-## Debitoren und Verkauf
+## <a name="sales-and-receivables"></a>Debitoren und Verkauf
 
 * Alle Aufträge, Rechnungen, Gutschriften und Reklamationen werden gebucht.  
 * Buchen Sie alle Barzahlungseingangs-Buch.-Blätter.  
@@ -34,7 +34,7 @@ ms.reviewer: jswymer
 * Stimmen Sie die Debitoren mit der Finanzbuchhaltung ab.  
 * Führen Sie die Stapelverarbeitung **Fakturierte Aufträge löschen** aus.  
 
-## Kreditoren und Einkauf
+## <a name="purchases-and-payables"></a>Kreditoren und Einkauf
 
 * Alle Aufträge, Rechnungen, Gutschriften und Reklamationen für Kreditoren werden gebucht.  
 * Buchen Sie das Zahlungsausgangs Buch.-Blatt.  
@@ -42,7 +42,7 @@ ms.reviewer: jswymer
 * Führen Sie den Bericht **Kreditor - Saldenrückblick** aus, und stimmen Sie die Kreditoren mit der Finanzbuchhaltung ab.  
 * Führen Sie die Stapelverarbeitung **Erledigte fakturierte Bestellungen löschen** aus.  
 
-## Anlagen
+## <a name="fixed-assets"></a>Anlagen
 
 * Alle Wartungskosten wurden über die Anlagen-Buch.-Blätter oder Rechnungen gebucht.
 * Buchen Sie Regulierungen.
@@ -50,15 +50,15 @@ ms.reviewer: jswymer
 * Buchen Sie die Abschreibung.
 * Aktualisieren und buchen Sie das Buch.-Blatt für wiederkehrende Anlagen
 
-## Intercompany
+## <a name="intercompany"></a>Intercompany
 
 * Verarbeiten von Intercompanytransaktionen.
 
-## Berechnen und erfassen Sie die MwSt.
+## <a name="calculate-and-process-sales-tax"></a>Berechnen und erfassen Sie die MwSt.
 
 * Schließen Sie Steuer-Abrechnungen ab.  
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Jahres- und Periodenabschlüsse](year-close-years-periods.md)  
 [Schließen der Bücher](year-close-books.md)  

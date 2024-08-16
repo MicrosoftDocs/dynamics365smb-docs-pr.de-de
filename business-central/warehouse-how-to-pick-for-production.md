@@ -10,7 +10,7 @@ ms.date: 08/12/2024
 ms.custom: bap-template
 ms.search.forms: '9330, 931, 990008, 89, 900, 902'
 ---
-# Kommissionieren für Produktion, Montage oder Projekte in grundlegenden Lagerkonfigurationen
+# <a name="pick-for-production-assembly-or-projects-in-basic-warehouse-configurations"></a>Kommissionieren für Produktion, Montage oder Projekte in grundlegenden Lagerkonfigurationen
 
 Wie Sie Komponenten für die Produktion, Projekte oder Montageaufträge kommissionieren, hängt davon ab, wie Ihr Lager als Standort eingerichtet ist. Weitere Informationen finden Sie unter [Einrichten von Warehouse Management](warehouse-setup-warehouse.md).
 
@@ -25,14 +25,14 @@ Verwenden Sie folgende Belege für interne Arbeitsgänge:
 * Lagerkommissionierung
 * Lagerbewegung
 
-## Lagerkommissionierungen
+## <a name="inventory-picks"></a>Lagerkommissionierungen
 
 * Wenn Sie eine Lagerkommissionierung für einen internen Vorgang, beispielsweise die Produktion oder ein Projekt, erfassen, wird gleichzeitig der Verbrauch der kommissionierten Komponenten gebucht.
 
 * Der Schalter **Lagerplatz erforderlich** auf der Seite **Lagerortkarte** ist optional.
 * Wenn Sie Lagerkommissionierungen verwenden, definiert das Feld **Lagerplatzcode** in der Komponentenzeile eines Fertigungsauftrags oder den Projektplanungszeilen den *Entnahme*-Lagerplatz. Beim Buchen des Verbrauchs werden die Komponenten im Entnahme-Lagerplatz verringert.
 
-## Lagerbestandsumlagerungen
+## <a name="inventory-movements"></a>Lagerbestandsumlagerungen
 
 * Lagerbestandsumlagerungen erfordern, dass Sie den Schalter **Lagerplatz erforderlich** auf der Seite **Lagerplatzcode** für den Lagerplatz aktivieren.
 * Lagerbestandsumlagerungen funktionieren nur mit Produktionsauftragskomponentenzeilen und Montageauftragszeilen.
@@ -40,13 +40,13 @@ Verwenden Sie folgende Belege für interne Arbeitsgänge:
 * Wenn Sie Lagerbestandsumlagerungen verwenden, definiert das Feld **Lagerplatzcode** in Komponentenzeilen eines Fertigungsauftrags den *Platzieren*-Lagerplatz im Arbeitsgangbereich. Der Lagerplatz ist der Ort, an dem die Lagermitarbeiter die Komponenten ablegen müssen.
 * Erfassen Sie den Verbrauch der kommissionierten Komponenten separat, indem Sie ein Verbrauchsjournal oder einen Montageauftrag buchen.
 
-### Fertigung
+### <a name="production"></a>Fertigung
 
 Verwenden Sie **Bestandskommissionierungsdokumente** für die Kommissionierung von Produktionskomponenten im Fluss zur Produktion.
 
 Für einen Lagerort, der Lagerplätze verwendet, können Sie den Fluss zur Produktion erweitern, indem Sie **Lagerbestandsumlagerungsbelege** verwenden. Lagerbestandsumlagerungen sind besonders nützlich für die Komponentenbuchung. Weitere Informationen darüber, wie der Komponentenverbrauch aus Fert.-Bereitst.- oder Off. Fert.-Ber.-Lagerplätzen gebucht wird, finden Sie unter [Buchungen von Produktionskomponenten in einer Basislagerkonfiguration](#flushing-production-components-in-a-basic-warehouse-configuration).
 
-### Montage  
+### <a name="assembly"></a>Montage
 
 Verwenden Sie **Lagerbestandsumlagerungsdokumente** , um Montagekomponenten in den Montagebereich umzulagern.
 
@@ -55,7 +55,7 @@ Verwenden Sie **Lagerbestandsumlagerungsdokumente** , um Montagekomponenten in d
 
 [!INCLUDE [prod_short](includes/prod_short.md)] unterstützt Lagermontage und Auftragsmontage-Typen von Montageflüssen. Weitere Informationen zur Auftragsmontage im ausgehenden Lagerfluss finden Sie unter [Handhabung von Auftragsmontageartikeln mit Bestandskommissionierung](warehouse-how-to-pick-items-with-inventory-picks.md#handling-assemble-to-order-items-with-inventory-picks).
 
-### Projektmanagement  
+### <a name="project-management"></a>Projektmanagement
 
 Verwenden Sie Belege für **Lagerkommissionierung** für die Kommissionierung von Projektkomponenten im Fluss zum Projektmanagement.
 
@@ -64,7 +64,7 @@ Für Standorte, die Behälter verwenden, können Sie den Ablauf erweitern, um Do
 > [!NOTE]
 > [!INCLUDE[prod_short](includes/prod_short.md)] verwendet den Wert im Feld **Verbleibende Menge** in der Projektplanungszeile, wenn es Bestandsentnahmen erstellt. Um Lagerkommissionierungen für Projekte zu verwenden, müssen Sie den Schalter  **Verwendung anwenden verknüpfen** auf der Seite  **Projekt Karte** für die Projekte aktivieren. Auf diese Weise können Sie die Nutzung anhand Ihres Plans verfolgen. Wenn Sie den Schalter nicht einschalten, bleibt die Restmenge bei **0** und die Bestandsauswahl wird nicht erstellt. Weitere Informationen finden Sie unter [Projektverbrauch-Nachverfolgung einrichten](projects-how-setup-jobs.md?tabs=current-experience#to-set-up-project-usage-tracking).
 
-## Kommissionierung oder Umlagerung für Produktion, Montage und Projekte in einer Basislagerkonfiguration
+## <a name="pick-or-move-for-production-assembly-and-projects-in-a-basic-warehouse-configuration"></a>Kommissionierung oder Umlagerung für Produktion, Montage und Projekte in einer Basislagerkonfiguration
 
 Sie können eine Lagerkommissionierung oder Bestandumlagerung auf drei Arten erstellen:  
 
@@ -72,26 +72,26 @@ Sie können eine Lagerkommissionierung oder Bestandumlagerung auf drei Arten ers
 * Für mehrere Herkunftsbelege gleichzeitig, indem Sie einen Batchauftrag verwenden.  
 * In zwei Schritten. Geben Sie den Herkunftsbeleg frei, um den Herkunftsbeleg kommissionierbereit zu machen. Erstellen Sie die Bestandskommissionierung oder -umlagerung aus den Dokumenten **Bestandskommissionierung** oder **Lagerbestandsumlagerung**. Die Bestandskommissionierung oder -umlagerung basieren auf dem Herkunftsbeleg.  
 
-### Eine Lagerkommissionierung vom Herkunftsbeleg aus erstellen
+### <a name="to-create-an-inventory-pick-from-the-source-document"></a>Eine Lagerkommissionierung vom Herkunftsbeleg aus erstellen
 
 1. Wählen Sie im Quellbeleg, bei dem es sich um einen Produktionsauftrag oder ein Projekt handeln kann, die Aktion  **Lagereinlagerung/-kommissionierung erstellen**  aus.  
 2. Aktivieren Sie das Kontrollkästchen **Lagerkomm. erst.**.
 3. Wählen Sie die Schaltfläche **OK**.
 
-### Eine Lagerbestandsumlagerung vom Herkunftsbeleg aus erstellen
+### <a name="to-create-an-inventory-movement-from-the-source-document"></a>Eine Lagerbestandsumlagerung vom Herkunftsbeleg aus erstellen
 
 1. Wählen Sie im Quellbeleg, bei dem es sich um einen Fertigungsauftrag, einen Montageauftrag oder ein Projekt handeln kann, die Aktion  **Lagereinlagerung/-kommissionierung erstellen**  aus.  
 2. Aktivieren Sie das Kontrollkästchen **Lagerbestandsumlagerung erstellen**.
 3. Wählen Sie die Schaltfläche **OK**.
 
-### Mehrere Bestandskommissionierungen oder -umlagerungenmit einem Batchauftrag erstellen
+### <a name="to-create-multiple-inventory-picks-or-movements-with-a-batch-job"></a>Mehrere Bestandskommissionierungen oder -umlagerungenmit einem Batchauftrag erstellen
 
 1. Wählen Sie das Symbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Erstelle Invt. Einlagern/Kommissionieren/Umlagern** ein, und wählen Sie dann den zugehörigen Link.  
 2. Verwenden Sie im Inforegister **Erwartete Lagerbewegung** die Felder **Herkunftsbeleg** und **Herkunftsnr.**, um Filter auf Arten von Belegen oder Bereiche von Belegnummern zu setzen. Beispielsweise könnten Sie Kommissionierungen nur für Fertigungsaufträge erstellen.
 3. Aktivieren Sie auf dem Inforegister **Optionen** die Schalter **Lagerkomm. erst.** oder **Lagerbestandsumlagerung erstellen**.
 4. Wählen Sie die Schaltfläche **OK**.
 
-### So erstellen Sie Lagerbestandskommissionierung oder -umlagerungen in zwei Schritten
+### <a name="to-create-inventory-picks-or-movements-in-two-steps"></a>So erstellen Sie Lagerbestandskommissionierung oder -umlagerungen in zwei Schritten
 
 Um Komponenten für Herkunftsbelege in zwei Schritten zu kommissionieren oder zu verschieben, müssen Sie den Herkunftsbeleg freigeben, um es für die Entnahme bereit zu machen. Die Freigabe von Herkunftsbelegen für interne Arbeitsgänge geschieht auf die folgenden Arten.  
 
@@ -113,7 +113,7 @@ Ein Lagermitarbeiter, der der Kommissionierung von Artikeln zugeordnet ist, kann
 5. Oder wählen Sie die Aktion **Herkunftsbeleg holen** aus, um den Beleg aus einer Liste von eingehenden Herkunftsbelegen auszuwählen, die zur Kommissionierung am Lagerort bereit sind.  
 6. Wählen Sie die Schaltfläche **OK**, um die Kommissionierungs- oder Umlagerungszeilen gemäß dem ausgewählten Herkunftsbeleg auszufüllen.  
 
-## So erfassen Sie die Lagerbestandskommissionierung
+## <a name="to-record-the-inventory-pick"></a>So erfassen Sie die Lagerbestandskommissionierung
 
 1. Öffnen Sie auf der Seite **Lagerbestandskommissionierung** das Dokument, für das eine Kommissionierung erfasst werden soll.  
 2. Im Feld **Lagerplatzcode** auf den Kommissionierungszeilen der Lagerplatz, bei dem der Artikel aus dem Lagerplatz kommissioniert werden muss, an dem der Artikel verfügbar ist. Sie können den Lagerplatz bei Bedarf ändern.
@@ -129,7 +129,7 @@ Folgendes passiert während des Buchungsprozesses:
 
 [!INCLUDE [preview-posting-warehouse](includes/preview-posting-warehouse.md)]
 
-## So erfassen Sie die Lagerbestandsumlagerung
+## <a name="to-record-the-inventory-movement"></a>So erfassen Sie die Lagerbestandsumlagerung
 
 1. Öffnen Sie auf der Seite **Lagerbestandsumlagerung** das Dokument, für das eine Umlagerung erfasst werden soll.  
 2. Geben Sie im Feld **Lagerplatzcode** auf den Umlagerungszeilen wird der Lagerplatz, aus dem kommissioniert wird, basierend auf dem Standardlagerplatz und der Verfügbarkeit des Artikels vorgeschlagen. Sie können den Lagerplatz bei Bedarf ändern.  
@@ -145,7 +145,7 @@ Folgendes passiert während des Buchungsprozesses:
 >[!NOTE]
 > Anders als beim Umlagern von Komponenten mit Lagerbestandkommissionierungen, wird Verbrauch nicht gebucht, wenn Sie eine Lagerbestandsumlagerung erfassen. Sie erfassen den Verbrauch in einem separaten Schritt, indem Sie den Herkunftsbeleg buchen.
 
-## Buchen von Produktionskomponenten in einer Basislagerkonfiguration
+## <a name="flushing-production-components-in-a-basic-warehouse-configuration"></a>Buchen von Produktionskomponenten in einer Basislagerkonfiguration
 
 Die Buchungsmethoden beeinflussen den Fluss der Komponenten in der Produktion. Weitere Informationen finden Sie unter [Komponenten entsprechend dem Arbeitsgangs-Ausstoß leeren](production-how-to-flush-components-according-to-operation-output.md). Abhängig von der von Ihnen gewählten Buchungsmethode können Sie Komponenten für die Produktion auf folgende Weise kommissionieren:
 
@@ -154,7 +154,7 @@ Die Buchungsmethoden beeinflussen den Fluss der Komponenten in der Produktion. W
 * Verwenden Sie ein **Lagerbestandsumlagerungsbeleg** mit einem Verweis auf ein Herkunftsbeleg, um Kommissionierungen für Komponenten zu erfassen, die die Buchungsmethode **Kommissionieren + Vorwärts**, **Kommissionieren + Rückwärts** verwenden. Der Verbrauch der Komponenten erfolgt automatisch, wenn Sie entweder den Status des Produktionsauftrags ändern oder einen Vorgang starten oder beenden. Alle benötigten Komponenten müssen verfügbar sein. Andernfalls stoppt das Buchen geleerten Verbrauchs für diese Komponente.
 * Verwenden Sie einen **Lagerbestandsumlagerungs**-Beleg ohne eine Referenz, um einen Herkunftsbeleg oder andere Methoden, um die Umlagerung von Komponenten aufzuzeichnen, die die Buchungsmethode **Vorwärts** oder **Rückwärts** verwenden. Der Verbrauch der Komponenten erfolgt automatisch, wenn Sie entweder den Status des Produktionsauftrags ändern oder einen Vorgang starten oder beenden. Alle benötigten Komponenten müssen verfügbar sein. Andernfalls stoppt das Buchen geleerten Verbrauchs für diese Komponente. Weitere Informationen finden Sie unter [Interne Umlagerung von Artikeln in Basis-Lagerkonfigurationen](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md).
 
-### Beispiel
+### <a name="example"></a>Beispiel
 
 Sie haben einen Fertigungsauftrag für 15 STÜCK des Artikels SP-SCM1004. Einige der Artikel auf der Komponentenliste müssen manuell in ein FA-Verbrauchs Buch.-Blatt gebucht werden, und andere Artikel können mithilfe der **Kommiss. + Rückwärts**-Buchungsmethode automatisch kommissioniert und gebucht werden.  
 
@@ -174,7 +174,7 @@ Die folgenden Schritte bieten ein Beispiel für die Aktionen, die von verschiede
 
 :::image type="content" source="media/binflow.png" alt-text="Übersicht, wann und wie das Feld Lagerplatz ausgefüllt wird.":::
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Bestand](inventory-manage-inventory.md)  
 [Einrichten von Warehouse Management](warehouse-setup-warehouse.md)  

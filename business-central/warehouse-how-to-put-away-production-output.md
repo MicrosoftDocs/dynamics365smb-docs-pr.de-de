@@ -10,7 +10,7 @@ ms.date: 08/12/2024
 ms.custom: bap-template
 ms.search.forms: '9326, 99000831, 9315, 7375'
 ---
-# Lagern Sie Produktions- oder Montageausgaben ein
+# <a name="put-away-production-or-assembly-output"></a>Lagern Sie Produktions- oder Montageausgaben ein
 
 Wie Sie Ihren Output aus der Produktion einlagern, hängt davon ab, wie Ihr Lagerort festgelegt ist. Weitere Informationen finden Sie unter [Einrichten von Warehouse Management](warehouse-setup-warehouse.md).  
 
@@ -22,11 +22,11 @@ Aktivieren Sie in einer grundlegenden Lagerkonfiguration für den Eingangsfluss 
 
 Erstellen Sie in erweiterten Lagerkonfigurationen, bei denen für einen Standort eine Einlagerung erforderlich ist, einen internen Einlagerungsbeleg oder einen Bewegungsbeleg, um die Ausgabe einzulagern.  
 
-## So lagern Sie fertiggestellte Artikel aus der Produktion mit einer Lagereinlagerung ein:
+## <a name="to-put-away-production-output-with-an-inventory-put-away"></a>So lagern Sie fertiggestellte Artikel aus der Produktion mit einer Lagereinlagerung ein:
 
 Der erste Schritt zur Einlagerung von Ausgabe ist das Erstellen der Lagereinlagerungsanforderung. Diese Anforderung informiert das Lager, dass die Fertigprodukte aus der Produktion oder der Montage des Fertigungsauftrags zur Einlagerung bereit sind.
 
-### So erstellen Sie die Lagereinlagerungsanforderung:  
+### <a name="to-create-the-inbound-warehouse-request"></a>So erstellen Sie die Lagereinlagerungsanforderung:
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Freigegebener Fertigungsauftrag** ein, und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie im Fertigungsauftrag, der für die Einlagerungen bereitsteht, und dann die Aktion **Eingehende Lageranf. erstellen** aus.  
@@ -34,7 +34,7 @@ Der erste Schritt zur Einlagerung von Ausgabe ist das Erstellen der Lagereinlage
 > [!NOTE]  
 > Sie können die Einlagerungsanforderung auch erstellen, indem Sie das Feld **Lagereinlag.-Anford. erstellen** aktivieren, wenn Sie den Fertigungsauftrag aktualisieren. Weitere Infromationen finden Sie unter [Aktualisieren oder Neugestalten von Fertigungsaufträgen](production-how-to-replan-refresh-production-orders.md).  
 
-### So lagern Sie Ausstoß mit einer Lagereinlagerung ein  
+### <a name="to-put-away-output-with-an-inventory-put-away"></a>So lagern Sie Ausstoß mit einer Lagereinlagerung ein
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Lagereinlagerungen** ein und wählen Sie dann den zugehörigen Link.  
 2. Erstellen Sie eine neue Lagereinlagerung. Weitere Informationen finden Sie unter [Artikel mit Lagereinlagerungen einlagern](warehouse-how-to-put-items-away-with-inventory-put-aways.md).
@@ -50,14 +50,14 @@ Wenn Sie eine Lagereinlagerung buchen, [!INCLUDE [prod_short](includes/prod_shor
 
 Wenn Sie nur die Rüst- oder Laufzeit des letzten Vorgangs buchen müssen, setzen Sie die Ausbringungsmenge des letzten Vorgangs auf 0. Sie können die letzte Zeile auch löschen, um sie überhaupt nicht zu veröffentlichen.
 
-## So lagern Sie Montage- und Produktionsausgaben in erweiterten Lagerkonfigurationen ein
+## <a name="to-put-away-assembly-and-production-output-in-advanced-warehouse-configurations"></a>So lagern Sie Montage- und Produktionsausgaben in erweiterten Lagerkonfigurationen ein
 
 Wenn Sie die Ausgabe eines Produktions- oder Montageauftrags in einem Lager buchen, das die gesteuerte Einlagerung und Kommissionierung verwendet, wird die Ausgabe an den Lagerplatz gesendet, der im Produktions- oder Montageauftrag definiert ist. Weitere Informationen zu den verschiedenen Möglichkeiten zum Verschieben von Artikeln im Lager mit erweiterten Konfigurationen finden Sie unter  [Artikel in erweiterten Lagerkonfigurationen verschieben](warehouse-how-to-move-items-in-advanced-warehousing.md#to-move-items-with-the-warehouse-movement-worksheet).
 
 > [!NOTE]  
 > Sie können die Herkunftsbelegnummer, wie die Fertigungsauftragsnummer nicht in den Belegen für die interne Einlagerungsanforderung, Einlagerung oder Umlagerung für Montage- oder Fertigungsausgabeprozesse eingeben.  
 
-## Weitere Informationen  
+## <a name="see-also"></a>Weitere Informationen
 
 [Lagerverwaltung – Übersicht](design-details-warehouse-management.md)
 [Bestand](inventory-manage-inventory.md)  

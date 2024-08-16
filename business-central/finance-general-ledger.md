@@ -12,18 +12,18 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Verstehen Sie das Hauptbuch und den Kontenplan
+# <a name="understand-the-general-ledger-and-chart-of-accounts"></a>Verstehen Sie das Hauptbuch und den Kontenplan
 
 Die Finanzbuchhaltung speichert Ihre Finanzdaten, und der Kontenplan (COA) zeigt die Konten, auf die alle Sachposten gebucht werden. [!INCLUDE[prod_short](includes/prod_short.md)] umfasst einen Standardkontenplan, der zur Unterstützung Ihres Unternehmens bereit steht.
 
-## Finanzbuchhaltungs-Einrichtung und Buchungsmatrix Einrichtung
+## <a name="general-ledger-setup-and-general-posting-setup"></a>Finanzbuchhaltungs-Einrichtung und Buchungsmatrix Einrichtung
 
 Die Einrichtung der Finanzbuchhaltung ist das Kernstück der Finanzvorgängen, da sie definieren, wie Sie Daten buchen. Bei der Konfiguration Ihrer Finance-Prozesse spielen vor allem zwei Seiten eine wichtige Rolle:  
 
 * **Finanzbuchhaltung Einrichtung**
 * **Buchungsmatrix Einrichtung**
 
-### Die Seite **Finanzbuchhaltung Einrichtung**
+### <a name="the-general-ledger-setup-page"></a>Die Seite **Finanzbuchhaltung Einrichtung**
 
 Geben Sie auf der Seite **Finanzbuchhaltung einrichten** an, wie bestimmte finanzbuchhalterische Sachverhalte in Ihrem Unternehmen gehandhabt werden sollen, wie beispielsweise:  
 
@@ -36,7 +36,7 @@ Geben Sie auf der Seite **Finanzbuchhaltung einrichten** an, wie bestimmte finan
 
 Um die Seite jetzt zu öffnen, verwenden Sie den folgenden Link [Finanzbuchhaltung Einrichtung](https://businesscentral.dynamics.com/?page=118).
 
-### Die Seite **Buchungsmatrix Einrichtung**
+### <a name="the-general-posting-setup-page"></a>Die Seite **Buchungsmatrix Einrichtung**
 
 Verwenden Sie die Seite **Buchungsmatrix** um Kombinationen aus Geschäfts- und Produktbuchungsgruppen einzugeben. Buchungsgruppen ordnen Entitäten wie Kunden, Lieferanten, Artikel, Ressourcen sowie Verkaufs- und Kaufbelege den Hauptbuch-Konten zu. Für jede Kombination aus Geschäftsbuchungsgruppe und Produktbuchungsgruppe geben Sie eine Zeile ein. Sie können jedoch auch jede Zeile in einer eigenen Buchungseinrichtungskarte öffnen. Erfahren Sie mehr unter [Buchungsgruppen Einrichtungen](finance-posting-groups.md).  
 
@@ -45,7 +45,7 @@ Verwenden Sie die Seite **Buchungsmatrix** um Kombinationen aus Geschäfts- und 
 
 Um die Seite jetzt zu öffnen, verwenden Sie den folgenden Link [Buchungsmatrix](https://businesscentral.dynamics.com/?page=314).
 
-## Der Kontenplan
+## <a name="the-chart-of-accounts"></a>Der Kontenplan
 
 Die Seite **Kontenplan** zeigt alle Sachkonten an. Vom Kontenplan aus können Sie Dinge tun wie:  
 
@@ -57,7 +57,7 @@ Die Seite **Kontenplan** zeigt alle Sachkonten an. Vom Kontenplan aus können Si
 
 Weitere Informationen finden Sie unter [Den Kontenplan verstehen](finance-chart-of-accounts.md).
 
-## Kontokategorien
+## <a name="account-categories"></a>Kontokategorien
 
 Sie können die Struktur der Finanzberichte personalisieren, indem Sie Sachkonten den Kontenkategorien hinzufügen.  
 
@@ -67,7 +67,7 @@ Sie können eine Kategoriegruppe erstellen, indem Sie andere Unterkategorien unt
 
 Sie können festlegen, ob bestimmte Arten von Berichten die Konten in jeder Unterkategorie enthalten müssen. Die Kontengruppen helfen Ihnen dabei, das Layout Ihrer Finanzberichte zu definieren.  
 
-### Beispiel
+### <a name="example"></a>Beispiel
 
 Zum Beispiel hat der Standard-Bilanzauszug eine Unterkategorie für *Kasse* unter *Anlagevermögen*. Wenn Sie möchten, dass der Kontoauszug Portokasse und Scheck berücksichtigt, gehen Sie wie folgt vor:
 
@@ -94,17 +94,17 @@ Wenn Sie die Aktion **Finanzberichte generieren** wählen oder wenn der Bericht 
 > [!NOTE]
 > Wenn Sie ein Sachkonto anlegen, ohne einen Kontentyp zuzuordnen, wenn Sie das Konto einer Buchungsgruppe zuordnen, ordnet [!INCLUDE[prod_short](includes/prod_short.md)] automatisch die Kontenkategorie aus dem Sachkonto direkt über dem Konto in Ihrem Kontenplan zu. Um das neue Konto jedoch in Ihre Finanzberichte aufzunehmen, müssen Sie die Aktion **Finanzberichte generieren** auf der Seite **Sachkonto Kategorien** wählen. Alternativ können Sie die Seite „Sachkontokarte“ öffnen, die Kontokategorie angeben und dann Ihren Finanzbericht neu generieren.
 
-## Zugriff auf das Erstellen und Bearbeiten von Sachkonten und Kontokategorien
+## <a name="access-to-create-and-edit-gl-accounts-and-account-categories"></a>Zugriff auf das Erstellen und Bearbeiten von Sachkonten und Kontokategorien
 
 In einem kleinen Unternehmen, wie dem CRONUS-Demounternehmen, können die meisten Benutzenden Finanzentitäten wie Sachkonten, Kontokategorien und den Kontenplan bearbeiten, mit Ausnahme der Benutzenden mit einer TEAMMITGLIED-Lizenz. In größeren Organisationen ist der Zugriff auf die Bearbeitung dieser Entitäten typischerweise durch Rollen und Berechtigungen eingeschränkt. Wenn Sie Administrator sind oder die Rolle *Business Manager* oder *Buchhalter* haben, können Sie die Berechtigungen der Benutzer steuern, um den richtigen Personen Zugriff auf die entsprechenden Tabellen zu geben. Mehr dazu erfahren Sie unter [Eine Übersicht der Benutzerberechtigungen erhalten](ui-define-granular-permissions.md#get-an-overview-of-a-users-permissions).  
 
-## Ihren Kontenplan mithilfe von Dimensionen vereinfachen
+## <a name="use-dimensions-to-simplify-your-chart-of-accounts"></a>Ihren Kontenplan mithilfe von Dimensionen vereinfachen
 
 Dimensionen sind Attribute und Werte, die Posten kategorisieren, sodass Sie sie auf Dokumenten wie Verkaufsaufträgen verfolgen und analysieren können. Dimensionen können beispielsweise angegeben, aus welchem Projekt oder aus welcher Abteilung ein Posten stammt. Anstatt also für jede Abteilung und jedes Projekt separate Sachkonten einzurichten, können Sie Dimensionen als Grundlage für die Analyse verwenden und müssen keinen komplizierten Kontenplan erstellen.
 
 Mehr über Dimensionen erfahren Sie unter [Standarddimensionen für Debitoren, Kreditoren und andere Konten einrichten](finance-dimensions.md#to-set-up-default-dimensions-for-customers-vendors-and-other-accounts).
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Den Kontenplan verstehen](finance-chart-of-accounts.md)  
 [Arbeiten mit Dimensionen](finance-dimensions.md)  
