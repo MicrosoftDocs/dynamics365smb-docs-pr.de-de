@@ -7,11 +7,11 @@ ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.date: 02/01/2023
 ms.custom: bap-template
-ms.search.forms: '9989, 13,'
+ms.search.forms: '9989_Primary, 13, 9992_Primary, 9983_Primary'
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="use-word-templates-for-bulk-communication"></a>Word-Vorlagen für die Massenkommunikation verwenden
+# Word-Vorlagen für die Massenkommunikation verwenden
 
 Microsoft Word-Vorlagen können die Massenkommunikation in Druckform oder per E-Mail mit Entitäten wie Kontakten, Kunden und Kreditoren erleichtern. Sie können beispielsweise Folgendes erstellen:
 
@@ -22,7 +22,7 @@ Microsoft Word-Vorlagen können die Massenkommunikation in Druckform oder per E-
 > [!NOTE]
 > Wenn Sie Word-Vorlagen erstellen, müssen Sie ein Gerät mit Microsoft Word 2019 oder neuer haben und das Windows-Betriebssystem installiert haben.
 
-## <a name="set-up-the-source-of-data"></a>Einrichten der Datenquelle
+## Einrichten der Datenquelle
 
 Sie können Entitäten in [!INCLUDE[prod_short](includes/prod_short.md)] als Datenquelle für die Vorlage verwenden und fügen die Zusammenführungsfelder hinzufügen, um Dokumente für jede Entität zu personalisieren. Die Zusammenführungsfelder stammen von der Entität in [!INCLUDE[prod_short](includes/prod_short.md)]. Wenn Sie eine Word-Vorlage auf eine Entität anwenden, werden die Daten aus den Seriendruckfeldern in den Beleg eingefügt.
 
@@ -43,7 +43,7 @@ Wenn Sie eine Vorlage herunterladen, erhalten Sie eine ZIP-Datei, die zwei Datei
 
 Informationen zum Einrichten einer Vorlage in Word finden Sie unter [Einrichten der Vorlage in Word](#set-up-the-template-in-word).
 
-## <a name="add-entries-that-are-related-or-unrelated-to-the-source-entity"></a>Einträge hinzufügen, die mit der Quellentität zusammenhängen oder nicht zusammenhängen
+## Einträge hinzufügen, die mit der Quellentität zusammenhängen oder nicht zusammenhängen
 
 Sie können auch Daten von anderen Entitäten zusammenführen. Um andere Entitäten als Datenquellen hinzuzufügen, verwenden Sie eine der folgenden Aktionen auf der Seite **Word-Vorlagen** oder wenn Sie die unterstützte Einrichtung verwenden:
 
@@ -58,7 +58,7 @@ Sie können eine Hierarchie von verwandten und nicht verknüpften Entitäten ers
 
 Verwenden Sie beim Hinzufügen von Entitäten das Feld **Feldpräfix**, um ein Präfix für die Feldnamen anzugeben. Wenn Sie dann der Vorlage Felder hinzufügen, kann das Präfix die Unterscheidung zwischen Feldern der Ursprungsentität und Feldern von anderen Entitäten erleichtern.
 
-### <a name="select-the-fields-to-include"></a>Wählen Sie die einzuschließenden Felder aus
+### Wählen Sie die einzuschließenden Felder aus
 
 Sie können für jede Entität die Felder angeben, die für die Vorlage verfügbar sein sollen. Wählen Sie die Zahl in der Spalte **Anzahl der ausgewählten Felder** aus, um auf eine Liste der verfügbaren Felder zuzugreifen. Verwenden Sie auf der Seite **Feldauswahl** das Kontrollkästchen **Einschließen**, um die Felder anzugeben. Bei einigen Entitäten sind Felder, die Unternehmen normalerweise verwenden, standardmäßig enthalten. Sie können die Liste beispielsweise bearbeiten, um die Standardfelder zu entfernen. Ihre Änderungen gelten nur für die Vorlage, an der Sie gerade arbeiten.
 
@@ -68,7 +68,7 @@ Sie können für jede Entität die Felder angeben, die für die Vorlage verfügb
 > [!NOTE]
 > Sie oder Ihr Microsoft-Partner können Entitäten benutzerdefinierte Felder hinzufügen. Dabei stellen wir den Namen der Felder **CALC** voran und geben ihnen den Feldtyp **Berechnet**. Der Feldtyp wird als berechnet bezeichnet, um anzugeben, dass das Feld verschiedene Arten von Werten anzeigen kann, z. B. Text, Zahlen, Datumsangaben usw.
 
-## <a name="to-create-a-word-template-in-business-central"></a>So erstellen Sie eine Word-Vorlage in Business Central
+## So erstellen Sie eine Word-Vorlage in Business Central
 
 1. Wählen Sie das Symbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Word-Vorlagen** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie **Neu**, dann **Vorlage erstellen** und folgen Sie dann den Schritten in der Anleitung zur unterstützten Einrichtung. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -76,19 +76,19 @@ Sie können für jede Entität die Felder angeben, die für die Vorlage verfügb
 > [!TIP]
 > Sie können eine Vorlage auch direkt von der Seite für eine Entität erstellen, indem Sie die Aktion **Word-Vorlage anwenden** wählen, um die Anleitung für die unterstützte Einrichtung zu öffnen, und dann **Neue Vorlage**. Wenn Sie dies tun, wird die Datenquelle auf der Grundlage der Art der Entität für Sie ausgewählt.
 
-## <a name="set-up-the-template-in-word"></a>Einrichten der Vorlage in Word
+## Einrichten der Vorlage in Word
 
 Wenn Sie eine Vorlage in Word einrichten, können Sie auf der Registerkarte **E-Mails** über die Option **Zusammenführungsfeld einfügen** Seriendruckfelder hinzufügen. Die verfügbaren Seriendruckfelder stammen aus der Datenquellendatei, die Sie für die Entität heruntergeladen haben. Sie dienen als Platzhalter, die Word mitteilen, wo im Beleg die Informationen über die Entität eingefügt werden sollen.
 
 :::image type="content" source="media/word-tmpl-merge-field.PNG" alt-text="Hinzufügen von Platzhalterfeldern in Microsoft Word":::
 
-## <a name="apply-a-template"></a>Eine Vorlage anwenden
+## Eine Vorlage anwenden
 
 Wenn Ihre Word-Vorlage fertig ist, können Sie auf der Seite **Word-Vorlagen** **Anwenden** auswählen, um die Dokumente zu generieren. Wenn Sie eine Word-Vorlage auf eine Entität anwenden, werden die Daten aus den Seriendruckfeldern in den Beleg eingefügt. Sie können entweder einen Beleg erstellen, der Abschnitte für jede Entität enthält, oder Sie wählen **Split**, um für jede Entität einen neuen Beleg zu erstellen.
 
 Sie können die Aktion **Word-Vorlagen anwenden** auf eine oder mehrere Vorlagen desselben Entitätstyps, z.B. einen Kontakt, direkt im Kontext dieser Seite für die Entität anwenden. Zum Beispiel die Seiten **Debitor** oder **Kreditor**.
 
-## <a name="use-word-templates-with-email"></a>Word-Vorlagen mit E-Mail verwenden
+## Word-Vorlagen mit E-Mail verwenden
 
 Sie können Word-Vorlagen verwenden, um E-Mail-Nachrichten mit Inhalten zu versehen. Wenn Sie eine E-Mail verfassen, können Sie die Aktion **Word-Vorlage verwenden** wählen, um den Inhalt einer Vorlage auf die Nachricht anzuwenden. Sie müssen Vorlagen für die Entität erstellt haben. Sie können jeweils eine Vorlage verwenden. Wenn Sie zwischen den Vorlagen wechseln, ändert sich die Nachricht so, dass sie den Inhalt der gewählten Vorlage wiedergibt.
 
@@ -96,7 +96,7 @@ Zusätzlich können Sie die Aktion **Datei aus Word-Vorlage hinzufügen** verwen
 
 :::image type="content" source="media/email-word-tmpl.PNG" alt-text="Optionen für die Verwendung von Inhalten aus einer Word-Vorlage in einer E-Mail":::
 
-## <a name="edit-a-word-template"></a>Eine Word-Vorlage bearbeiten
+## Eine Word-Vorlage bearbeiten
 
 Sie können die folgenden Änderungen an Ihren Word-Vorlagen vornehmen:
 
@@ -105,7 +105,7 @@ Sie können die folgenden Änderungen an Ihren Word-Vorlagen vornehmen:
 * Um die Word-Vorlage durch eine neue Vorlage zu ersetzen, verwenden Sie die Aktion **Hochladen**
 * Ausgewählte Vorlage löschen
 
-## <a name="see-also"></a>Weitere Informationen
+## Weitere Informationen
 
 [Verwaltung von Berichts- und Dokumentlayouts](ui-manage-report-layouts.md)  
 [E-Mail einrichten](admin-how-setup-email.md)  

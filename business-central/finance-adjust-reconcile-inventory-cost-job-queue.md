@@ -1,21 +1,22 @@
 ---
-title: Aufträge für die Anpassung und Abstimmung der Kalkulation des Bestands einplanen
+title: Planen Sie Aufträge zum Anpassen und Abgleichen der Bestandskosten
 description: 'Erfahren Sie, wie Sie die Aufgabenwarteschlange verwenden können, um die Aufgaben zum Anpassen der Lagerkosten oder zum Abstimmen der Kosten mit dem Hauptbuch in den Hintergrund zu verlagern. Angenommen, Ihr Unternehmen führt viele Aufgaben aus oder verarbeitet viele Transaktionen.'
 author: brentholtorf
 ms.topic: article
 ms.devlang: al
 ms.reviewer: bholtorf
 ms.search.form: 461
-ms.date: 09/19/2023
+ms.date: 07/31/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="schedule-jobs-to-adjust-and-reconcile-inventory-cost"></a>Planen von Aufträgen zur Anpassung und zum Abgleich der Bestandskosten
+
+# Planen von Aufträgen zur Anpassung und zum Abgleich der Bestandskosten
 
 Planen Sie Jobs für die automatische Kostenanpassung mit dem Hauptbuch, die Buchung ins Hauptbuch ist standardmäßig aktiviert.
-Da sich jedoch im Laufe der Zeit Daten ansammeln, kann dies die Leistung beeinträchtigen. Um die Belastung der Anwendung zu reduzieren, ist es oft hilfreich, Aufgabenwarteschlangeneinträge zu verwenden, um Aufgaben in den Hintergrund zu verschieben.
+Da sich jedoch im Laufe der Zeit Daten ansammeln, kann dies die Leistung beeinträchtigen. Um die Belastung der Anwendung zu reduzieren, ist es oft hilfreich, Aufgaben mithilfe von Job-Warteschlangeneinträgen in den Hintergrund zu verschieben.
 
-## <a name="move-the-task-of-adjusting-item-costs-to-the-background-with-the-help-of-assisted-setup"></a>Verschieben der Aufgabe der Artikelkostenanpassung mithilfe der unterstützten Einrichtung in den Hintergrund
+## Verschieben der Aufgabe der Artikelkostenanpassung mithilfe der unterstützten Einrichtung in den Hintergrund
 
 Das Erstellen der Aufgabenwarteschlangeneinträge kann selbst für einen erfahrenen Berater schwierig sein. Daher stellen wir einen Leitfaden für die unterstützte Einrichtung bereit, um den Prozess der Anpassung der Artikelkosten zu vereinfachen.  
 
@@ -29,7 +30,7 @@ Das Erstellen der Aufgabenwarteschlangeneinträge kann selbst für einen erfahre
 
 5. Wählen Sie das Feld **Zeigt die Projektwarteschlangenposten nach Fertigstellung an** aus, um die Einstellungen zu überprüfen und anzupassen. Weitere Informationen finden Sie unter [Job-Warteschlangen zur Einplanung von Aufgaben verwenden](admin-job-queues-schedule-tasks.md).  
 
-## <a name="to-create-a-job-queue-entry-for-adjusting-and-reconciling-inventory-cost-manually"></a>So erstellen Sie einen Aufgabenwarteschlangenposten zum manuellen Anpassen und Abgleichen der Lagerkosten
+## So erstellen Sie einen Aufgabenwarteschlangenposten zum manuellen Anpassen und Abgleichen der Lagerkosten
 
 Alternativ können Sie Aufgabenwarteschlangenposten manuell erstellen. Das folgende Verfahren zeigt, wie Sie den Batchauftrag **Lagerreg. fakt. Einst. Preise** einrichten, sodass er täglich ausgeführt wird, aber die gleichen Schritte gelten für den Batchauftrag **Lagerreg. buchen**.  
 
@@ -48,7 +49,7 @@ Um eine Aufgabe für das Abstimmen des Bestands mit dem Hauptbuch zu planen, wä
 > [!TIP]
 > Um Sperren zu vermeiden, planen Sie Aufträge für den Batchauftrag **Kosten anpassen – Elemente buchen**, die Codeunit **Lagerkosten ins Hauptbuch buchen** und Aufträge für die Buchung von Verkaufs- oder Einkaufstransaktionen nicht zur gleichen Zeit. Stellen Sie außerdem sicher, dass sie dieselbe Kategorie der Auftragswarteschlange verwenden.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Artikelpreise anpassen](inventory-how-adjust-item-costs.md)  
 [Mit der Finanzbuchhaltung Lagerkosten melden und abstimmen](finance-how-to-post-inventory-costs-to-the-general-ledger.md)  

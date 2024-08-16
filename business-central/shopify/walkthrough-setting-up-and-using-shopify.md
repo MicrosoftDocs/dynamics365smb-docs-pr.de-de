@@ -1,7 +1,7 @@
 ---
 title: Festlegen und Verwenden des Shopify Konnektors
 description: Verschiedene Integrationsszenarien zur Demonstration des Workflows zwischen Shopify und Business Central
-ms.date: 06/21/2022
+ms.date: 08/01/2024
 ms.topic: article
 ms.service: dynamics-365-business-central
 ms.search.form: '30101, 30102, 30106, 30107, 30113, 30115, 30126, 30156, 30157'
@@ -10,13 +10,13 @@ author: brentholtorf
 ms.author: bholtorf
 ---
 
-# <a name="walkthrough-set-up-and-use-the-shopify-connector"></a>Exemplarische Vorgehensweise: Festlegen und Verwenden des Shopify Konnektors
+# Exemplarische Vorgehensweise: Festlegen und Verwenden des Shopify Konnektors
 
 Dieser Abschnitt demonstriert einige typische Szenarien und führt Sie durch die Schritte, mit denen Sie den Workflow des integrierten [!INCLUDE[prod_short](../includes/prod_short.md)] und des Shopify Stores testen oder Benutzer schulen können.
 
-## <a name="prerequisites"></a>Voraussetzungen
+## Voraussetzungen 
 
-### <a name="shopify"></a>Shopify
+### Shopify
 
 Sie benötigen Folgendes:
 
@@ -25,13 +25,13 @@ Sie benötigen Folgendes:
 
 Erfahren Sie mehr darüber, wie Sie Shopify-Tests erstellen, und über die empfohlenen Einstellungen unter [Ein Shopify-Konto erstellen und einrichten](shopify-account.md).
 
-### <a name="business-central"></a>Business Central
+### Business Central
 
 Sie müssen ein [!INCLUDE[prod_short](../includes/prod_short.md)]-Konto haben. 
 
 Sie können zum Beispiel ein Demokonto erstellen oder eine Testversion starten. Weitere Informationen finden Sie unter [Demonstrationsumgebung vorbereiten für Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/administration/demo-environment) und [Anmelden für den Test](../trial-signup.md). 
 
-## <a name="connect-business-central-to-the-shopify-shop"></a>Verbinden Sie Business Central mit dem Shopify-Laden
+## Verbinden Sie Business Central mit dem Shopify-Laden
 
 Gehen Sie in [!INCLUDE[prod_short](../includes/prod_short.md)] wie folgt vor:
 
@@ -62,13 +62,13 @@ Konfigurieren Sie die Zuordnung von Standorten:
 3. Geben Sie im **Ortsfilter** `''|EAST|MAIN` ein.
 4. Wählen Sie *Geplanter verfügbarer Saldo heute* im Feld **Lagerbestandsberechnung** aus, um eine Lagerbestandssynchronisierung für einen ausgewählten Shopify-Standort zu aktivieren.
 
-## <a name="walkthrough-start-selling-products-online"></a>Exemplarische Vorgehensweise: Mit dem Online-Verkauf von Produkten beginnen
+## Exemplarische Vorgehensweise: Mit dem Online-Verkauf von Produkten beginnen
 
-### <a name="scenario"></a>Szenario
+### Szenario
 
 Nehmen wir an, Sie möchten Shopify als Onlineshop ausprobieren, ohne viel Zeit mit der Einrichtung zu verbringen, vor allem, weil Sie Ihre Artikel in [!INCLUDE[prod_short](../includes/prod_short.md)] bereits gut pflegen. Nachdem Sie Ihren Shopify-Online-Store eröffnet haben, erhalten Sie sofort neue Kunden, die mit Ihrem Shop und ihrem Einkaufserlebnis zufrieden sind. Also beschließen sie, an der Kasse Tipps zu hinterlassen.
 
-### <a name="steps"></a>Schritte
+### Schritte
 
 Gehen Sie in [!INCLUDE[prod_short](../includes/prod_short.md)] wie folgt vor:
 
@@ -78,7 +78,7 @@ Gehen Sie in [!INCLUDE[prod_short](../includes/prod_short.md)] wie folgt vor:
 4. Legen Sie den Filter `CHAIR` auf dem Feld **Artikelkategoriencode** fest.
 5. Schalten Sie den Umschalter **Produktbilder synchronisieren** ein.
 6. Schalten Sie den Umschalter **Bestand synchronisieren** ein.
-7. Wählen Sie **OK** und warten Sie, bis die anfängliche Synchronisierung von Artikeln, Preisen, Bildern und Beständen abgeschlossen ist.
+7. Auswählen **OK** und warten Sie, bis die erste Synchronisierung von Artikeln, Preisen, Bildern und Lagerbeständen abgeschlossen ist.
 
 Tun Sie im **Shopify-Onlineshop** Folgendes:
 > [!Tip]  
@@ -115,7 +115,7 @@ Die importierte Bestellung ist bereit zur Verarbeitung.
 
 1. Wählen Sie den importierten Auftrag, um das Fenster **Shopify Aufträge** zu öffnen.
 2. Beachten Sie, dass die neue Kundschaft und die neuen Verkaufsaufträge erstellt wurden.
-3. Erkunden Sie die Aktionen **Risiko** und **Versandkosten**.
+3. Informieren Sie sich über die  **Risiken**  und  **Versandkosten** .
 4. Wählen Sie **Verkaufsauftrag** aus, um das Fenster **Verkaufsauftrag** zu öffnen. Ein Verkaufsauftrag ist ein Bedarf, der, falls erforderlich durch Montage, Produktion oder Kauf mit Hilfe des Planungsmoduls gedeckt werden kann. Es unterstützt auch verschiedene Lagerort-Verarbeitungsprozesse mit vollständiger Aufgabentrennung.
 6. Geben Sie in das Feld **Bearbeiter** `DHL` ein. Öffnen Sie den Auftrag bei Bedarf erneut, indem Sie die Aktion **Erneut öffnen** auswählen.
 7. Geben Sie in das Feld **Paketverfolgungsnummer** `123456789` ein.
@@ -128,13 +128,13 @@ Jetzt sind die physischen und finanziellen Daten in [!INCLUDE[prod_short](../inc
 
 Beachten Sie, dass in der **Shopify-Verwaltung** die Bestellung jetzt als *Erfüllt* gekennzeichnet ist. Sie können auch die Details der Sendung einsehen und die URL der Sendungsverfolgung sehen. Wenn Sie **Bestellungen von Shopify synchronisieren** erneut ausführen, wird die Bestellung in beiden Systemen archiviert.
 
-## <a name="walkthrough-add-your-customers-to-your-new-online-store"></a>Exemplarische Vorgehensweise: Debitoren Ihrem neuen Onlineshop hinzufügen
+## Exemplarische Vorgehensweise: Debitoren Ihrem neuen Onlineshop hinzufügen
 
-### <a name="scenario-1"></a>Szenario
+### Szenario
 
 Nach einem erfolgreichen Schnellstart Ihres neuen Online Stores möchten Sie, dass Ihre derzeitigen Kunden ihn besuchen und Bestellungen aufgeben. Je nach Ihrem Shopify-Plan und -Prozess können Sie B2B- und DTC-Flows ausprobieren.
 
-### <a name="dtc-steps"></a>DTC-Schritte
+### DTC-Schritte
 
 Gehen Sie in [!INCLUDE[prod_short](../includes/prod_short.md)] wie folgt vor:
 
@@ -144,9 +144,9 @@ Gehen Sie in [!INCLUDE[prod_short](../includes/prod_short.md)] wie folgt vor:
 4. Legen Sie den Filter `20000` auf das Feld **Nr.** fest.
 5. Wählen Sie **OK** und warten Sie, bis die anfängliche Synchronisierung von Debitoren abgeschlossen ist.
 
-Beachten Sie, dass der Debitor in die **Shopify-Verwaltung** importiert wurden. Öffnen Sie den Debitor und stellen Sie fest, dass der Vor- und Nachname des Debitoren aus dem Feld **Kontaktname** der **Kundenkarte** stammt. Der Name der Firma ist in der Standardadresse zu finden, die mit dem Kunden verknüpft ist. Wenn Sie *klassische Debitorenkonten* verwenden, können Sie **Kontoeinladung senden** auswählen, um den Debitor einzuladen. Bei *neuen Debitorenkonten* ist für die Anmeldung der Debitoren kein Kennwort erforderlich, stattdessen können sich Ihre Debitoren mit Shopify mit einem einmaligen per E-Mail gesendeter sechsstelligen Bestätigungscode anmelden. 
+Beachten Sie, dass der Debitor in die **Shopify-Verwaltung** importiert wurden. Öffnen Sie den Debitor und stellen Sie fest, dass der Vor- und Nachname des Debitoren aus dem Feld **Kontaktname** der **Kundenkarte** stammt. Der Name der Firma ist in der Standardadresse zu finden, die mit dem Kunden verknüpft ist. Wenn Sie *klassische Debitorenkonten* verwenden, können Sie **Kontoeinladung senden** auswählen, um den Debitor einzuladen. Bei  *Neukundenkonten* ist für die Anmeldung der Kunden kein Kennwort erforderlich. Stattdessen Shopify ermöglicht die Anmeldung Ihrer Kunden mit einem einmaligen 6-stelligen Bestätigungscode, der per E-Mail gesendet wird. 
 
-### <a name="b2b-steps"></a>B2B-Schritte
+### B2B-Schritte
 
 [!INCLUDE [shopify-preview](../includes/shopify-preview.md)]
 
@@ -154,19 +154,19 @@ Gehen Sie in [!INCLUDE[prod_short](../includes/prod_short.md)] wie folgt vor:
 
 1. Wählen Sie das ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](../media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Shopify-Unternehmen** ein und wählen Sie den entsprechenden Link aus.
 2. Wählen Sie **Unternehmen hinzufügen** aus.
-3. Geben Sie in das Feld **Shop-Code** `DEMO1` ein.
+3. Geben Sie im Feld Shop- **Code**  `DEMO1` ein.
 4. Legen Sie den Filter `30000` auf das Feld **Nr.** fest.
 5. Wählen Sie **OK** und warten Sie, bis die anfängliche Synchronisierung von Debitoren abgeschlossen ist.
 
-Beachten Sie, dass in **Shopify-Verwaltung** sowohl das Unternehmen als auch der Debitor importiert wurden. Öffnen Sie die Debitoren und sehen Sie sich die Infobox „Unternehmen“ mit einem Link zum Unternehmen, dem Standort und den zugewiesenen Berechtigungen an. Wählen Sie **[...]** in der Infobox **Unternehmen** und dann **B2B-Zugriffs-E-Mail senden**, um den Debitor einzuladen.
+Beachten Sie in  **Shopify Admin**, dass sowohl das Unternehmen als auch der Kunde importiert wurden. Öffnen Sie die Debitoren und sehen Sie sich die Infobox „Unternehmen“ mit einem Link zum Unternehmen, dem Standort und den zugewiesenen Berechtigungen an. Auswählen **[...]** in der  ** Unternehmensinfobox, dann Auswählen **B2B-Zugangs-E-Mail senden**, um den Kunden einzuladen.
 
-## <a name="walkthrough-fine-tuning-of-item-management"></a>Exemplarische Vorgehensweise: Feinabstimmung der Artikelverwaltung
+## Exemplarische Vorgehensweise: Feinabstimmung der Artikelverwaltung
 
-### <a name="scenario-2"></a>Szenario
+### Szenario 
 
 Sie möchten Ihren Prozessen rund um die Verwaltung von Artikeln mehr Flexibilität und Kontrolle hinzufügen. Sie möchten die Produktbeschreibungen verbessern und weitere Überprüfungsschritte hinzufügen, bevor die Produkte für alle Debitoren verfügbar sind.
 
-### <a name="steps-1"></a>Schritte
+### Schritte
 
 Gehen Sie in [!INCLUDE[prod_short](../includes/prod_short.md)] wie folgt vor:
 
@@ -179,7 +179,7 @@ Bereiten Sie die Daten vor.
 5. Wählen Sie Artikel *1896-S, Athens Desk* aus und gehen Sie wie folgt vor:
 
 6. Wählen Sie die Aktion **Varianten** aus und fügen Sie dann zwei Varianten hinzu: `PREMIUM, Athens Desk, Premium edition` und `ESSENTIAL, Athens Desk, Essential edition`.
-7. Wählen Sie die Aktion **Marketingtext** und verwenden Sie **Entwurf mit Copilot**, um einen kreativen und ansprechenden Text zu erhalten. Wenn der Vorschlag für Marketingtexte nicht aktiviert ist, geben Sie einfach Folgendes ein: „**Einfaches, stilvolles Design**, passt zu jedem Ensemble. *Erhältlich in zwei Ausführungen.*“ 
+7. Wählen Sie die Aktion **Marketingtext** und verwenden Sie **Entwurf mit Copilot**, um einen kreativen und ansprechenden Text zu erhalten. Wenn die Funktion für Marketingtextvorschläge nicht aktiviert ist, geben Sie einfach ein: ‚**Einfaches, stilvolles Design** passt zu jedem Ensemble. *Erhältlich in zwei Ausführungen.*“ 
 8. Wählen Sie die Aktion **Verkaufspreise** und fügen Sie neue Preise hinzu, wie in der folgenden Tabelle gezeigt:
 
    |Auftrag|Verkaufsart|Verkaufscode|Typ|Code|Variantencode<br>(fügen Sie das Feld über die Personalisierung hinzu)|VK-Preis|
@@ -228,7 +228,7 @@ Führen Sie die Synchronisierung aus.
 5. Legen Sie den Filter *TABLE|DESK* im Feld **Artikelkategoriencode** fest.
 6. Schalten Sie den Umschalter **Produktbilder synchronisieren** ein.
 7. Schalten Sie den Umschalter **Bestand synchronisieren** ein.
-8. Wählen Sie **OK** und warten Sie, bis die anfängliche Synchronisierung von Artikeln, Preisen, Bildern und Beständen abgeschlossen ist.
+8. Auswählen **OK** und warten Sie, bis die erste Synchronisierung von Artikeln, Preisen, Bildern und Lagerbeständen abgeschlossen ist.
 
 Die Produkte werden hinzugefügt. Beachten Sie, dass der Status auf *Entwurf* festgelegt ist, so dass die Elemente im Online Store Shopify nicht sichtbar sind.
 
@@ -251,7 +251,7 @@ Beachten Sie, dass der Bestand für ANTWERP Conference Table 100 beträgt, da wi
 
 Öffnen Sie im **Shopify Onlineshop** den Produktkatalog und suchen Sie das Produkt *ATHENS Desk*. Beachten Sie, dass verschiedene Optionen verfügbar sind. Für die verschiedenen Optionen gelten auch unterschiedliche Preise. Achten Sie auf die Rabattinformationen.
 
-### <a name="additional-steps-for-b2b"></a>Zusätzliche Schritte für B2B
+### Zusätzliche Schritte für B2B
 
 [!INCLUDE [shopify-preview](../includes/shopify-preview.md)]
 
@@ -296,13 +296,13 @@ Erkunden Sie in der **Shopify-Verwaltung** die Preise für den *B2B*-Katalog aus
 
 Öffnen Sie im **Shopify Onlineshop** den Produktkatalog und suchen Sie das Produkt *ATHENS Desk*. Bei Hinweispreisen handelt es sich um Rabattangaben.
 
-## <a name="walkthrough-check-out-and-order-synchronization-for-individual-buyer-and-company-representative"></a>Exemplarische Vorgehensweise: Zur Kasse gehen und Auftragssynchronisierung für einzelne Kaufende und Unternehmensvertreter
+## Exemplarische Vorgehensweise: Zur Kasse gehen und Auftragssynchronisierung für einzelne Kaufende und Unternehmensvertreter
 Dies ist eine Fortsetzung von [Beispielhafte Vorgehensweise: Mit dem Online-Verkauf von Produkten beginnen](walkthrough-setting-up-and-using-shopify.md#walkthrough-start-selling-products-online). Sie können es auch mit Ihren eigenen Daten versuchen, zum Beispiel mit Ihrem Shopify Shop oder Ihrer Sandbox.
 
 Einzelner Kaufender
 
 1. Tun Sie im **Shopify-Onlineshop** Folgendes. Wählen Sie das Symbol **Konto** aus. Geben Sie eine E-Mail-Adresse ein, auf die Sie Zugriff haben.
-2. Melden Sie sich mit einem einmaligen sechsstelligen Bestätigungscode an, der Ihnen per E-Mail zugesandt wird.
+2. Melden Sie sich mit einem einmaligen 6-stelligen Bestätigungscode an, der Ihnen per E-Mail zugesandt wurde.
 3. Durchsuchen Sie den Produktkatalog. Sie sollten alle Produkte mit Einzelhandelspreisen sehen können.
 4. Wählen Sie die Variante „Essential“ und dann **Jetzt kaufen** und gehen Sie zur Kasse.
 5. Füllen Sie die Felder **Vorname** und **Nachname** aus.
@@ -321,14 +321,14 @@ Unternehmensvertreter
 1. Gehen Sie in der **Shopify-Verwaltung** wie folgt vor.
 2. Wählen Sie **Debitoren** und dann **Unternehmen** in der Seitenleiste der **Shopify-Verwaltung** aus.
 3. Öffnen Sie den Eintrag *School of Fine Arts*.
-4. Wählen Sie **[...]** im Infofeld **School of Fine Arts**, **Zahlungsbedingungen bearbeiten** und dann *Fällig bei Auftragserfüllung* aus.
-5. Wählen Sie **[...]** im Infofeld **Debitoren** und dann **Debitor hinzufügen** aus und fügen Sie einen mit der E-Mail-Adresse hinzu, mit der Sie sich zuvor im Shop angemeldet haben.
+4. Wählen Sie in der Infobox  **School of Fine Art**  **[...]**  und anschließend  **Zahlungsbedingungen bearbeiten**  und Auswählen *Fällig am Auftragserfüllung*.
+5. Wählen Sie  **[...]**  im Infofeld  **Kunden**  und dann  **Kunden hinzufügen**  und fügen Sie einen Kunden mit der E-Mail-Adresse hinzu, die Sie zuvor für die Anmeldung im Geschäft verwendet haben.
 6. Tun Sie im **Shopify-Onlineshop** Folgendes. Wählen Sie das Symbol **Konto** aus. Geben Sie eine E-Mail-Adresse ein, auf die Sie Zugriff haben.
-7. Melden Sie sich mit einem einmaligen sechsstelligen Bestätigungscode an, der Ihnen per E-Mail zugesandt wird.
+7. Melden Sie sich mit einem einmaligen 6-stelligen Bestätigungscode an, der Ihnen per E-Mail zugesandt wurde.
 8. Durchsuchen Sie den Produktkatalog. Sie sollten nur die dem *B2B*-Katalog hinzugefügten Produkte mit Einzelhandelssonderpreisen sehen.
 9. Wählen Sie die Variante „Essential“ und dann **Jetzt kaufen** und gehen Sie zur Kasse.
 10. Beachten Sie, dass „Konto“, „Lief. an“ und „Zahlungsmethode“ ausgefüllt sind.
-11. Geben Sie im Feld **Auftragsnummer** `PO-12345` ein.
+11. Füllen Sie das Feld  **Bestellnummer**  mit  `PO-12345` aus.
 12. Wählen Sie **Auftrag absenden**.
  
 Führen Sie in [!INCLUDE[prod_short](../includes/prod_short.md)] die nächsten Schritte aus:
@@ -340,23 +340,23 @@ Führen Sie in [!INCLUDE[prod_short](../includes/prod_short.md)] die nächsten S
 Die importierte Bestellung ist bereit zur Verarbeitung.
 
 1. Wählen Sie den importierten Auftrag, um das Fenster **Shopify Aufträge** zu öffnen.
-2. Beachten Sie, dass beide Aufträge zwar von derselben Person aufgegeben wurden, aber mit zwei verschiedenen Debitoren verknüpft sind. 
+2. Beachten Sie, dass beide Bestellungen von derselben Person aufgegeben wurden und mit zwei verschiedenen Kunden verknüpft sind. 
 3. In dem im Namen des Unternehmens eingereichten Auftrag sehen Sie den Wert im Feld **Auftragsnummer**, der auch an das Feld **Externe Belegnr.** des erstellten Verkaufsbelegs übertragen wird.
-4. Weil wir das B2B-Unternehmen so konfiguriert haben, dass es Zahlungen außerhalb von Shopify handhabt, ist **Finanzstatus** auf *Ausstehend* gesetzt. Sobald Sie die Zahlung erhalten haben, wählen Sie die Aktion **Als bezahlt markieren** aus. Der Finanzstatus wird auf Shopify aktualisiert. 
+4. Weil wir das B2B-Unternehmen so konfiguriert haben, dass es Zahlungen außerhalb von Shopify handhabt, ist **Finanzstatus** auf *Ausstehend* gesetzt. Sobald Sie die Zahlung erhalten haben, Auswählen die Aktion  **Als bezahlt markieren** . Der Finanzstatus wird auf Shopify aktualisiert. 
 
-## <a name="walkthrough-import-items-customers-companies-from-shopify"></a>Exemplarische Vorgehensweise: Artikel, Debitoren, Unternehmen aus Shopify importieren
+## Exemplarische Vorgehensweise: Artikel, Debitoren, Unternehmen aus Shopify importieren
 
-### <a name="scenario-3"></a>Szenario
+### Szenario 
 
 Sie haben bereits einen erfolgreichen Online-Store und möchten [!INCLUDE[prod_short](../includes/prod_short.md)] als Software für die Unternehmensverwaltung einsetzen. Sie möchten so viele Daten wie möglich aus Shopify importieren. 
 
-### <a name="steps-2"></a>Schritte
+### Schritte
 
 Dies ist eine Fortsetzung von [Exemplarische Vorgehensweise: Mit dem Onlineverkauf von Produkten beginnen](walkthrough-setting-up-and-using-shopify.md#walkthrough-start-selling-products-online) und [Exemplarische Vorgehensweise: Debitoren Ihrem neuen Onlineshop hinzufügen](walkthrough-setting-up-and-using-shopify.md#walkthrough-add-your-customers-to-your-new-online-store). Sie können es auch mit Ihren eigenen Daten versuchen, zum Beispiel mit Ihrem Shopify-Shop oder Ihrer Sandbox.
 
 Gehen Sie in [!INCLUDE[prod_short](../includes/prod_short.md)] wie folgt vor.
 
-#### <a name="prepare-data"></a>Daten vorbereiten
+#### Daten vorbereiten
 
 1. Wechseln Sie zu einem kostenlosen 30-tägigen Test ohne Beispieldaten. Weitere Informationen finden Sie unter [Eigene Daten zu einem leeren Test hinzufügen](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions#add-your-own-data-to-an-empty-trial-company).
 2. Wählen Sie das ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](../media/ui-search/search_small.png "Was möchten Sie tun?") Symbol, geben Sie **Shopify Shops** ein und wählen Sie dann den dazugehörigen Link.
@@ -374,12 +374,12 @@ Konfigurieren Sie den Shopify-Shop wie hier beschrieben:
 5. Wählen Sie *Aus Shopify* im Feld **Artikelbilder synchronisieren**.
 6. Wählen Sie *Artikelnr. und Variantencode* im Feld **SKU-Zuordnung**.
 7. Wählen Sie *Alle Debitoren* und **Debitorenimport aus Shopify**.
-8. Aktivieren Sie den Umschalter **Unbekannten Debitor automatisch erstellen**.
+8. Aktivieren Sie die Umschaltfunktion **Unbekannte Kunden automatisch erstellen**.
 9. Füllen Sie das Feld **Debitoren-/Unternehmensvorlagencode** mit der entsprechenden Vorlage aus.
 10. Wählen Sie *Alle Debitoren* und **Unternehmensimport aus Shopify**.
 11. Aktivieren Sie den Umschalter **Unbekanntes Unternehmen automatisch erstellen**.
 
-#### <a name="run-the-synchronization"></a>Führen Sie die Synchronisierung aus
+#### Führen Sie die Synchronisierung aus
 
 1. Wählen Sie das ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](../media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Shopify Shops** ein und wählen Sie den entsprechenden Link.
 2. Wählen Sie den *DEMO2*-Shop, für den Sie Daten synchronisieren möchten, um die Seite **Shopify Shopkarte** zu öffnen.
@@ -388,7 +388,7 @@ Konfigurieren Sie den Shopify-Shop wie hier beschrieben:
 5. Wählen Sie **Debitoren synchronisieren**.
 6. Wählen Sie **Unternehmen synchronisieren**
 
-### <a name="results"></a>Ergebnisse
+### Ergebnisse
 
 * Shopify Produkte werden importiert. Wählen Sie zur Überprüfung die ![Glühbirne, welche die „Sie wünschen ...“-Funktion öffnet.](../media/ui-search/search_small.png "Was möchten Sie tun?") Symbol aus, geben Sie **Shopify Produkte** ein und wählen Sie den entsprechenden Link.
 * Es werden Elemente mit Bildern erstellt. Wählen Sie zur Überprüfung die ![Glühbirne, welche die „Sie wünschen ...“-Funktion öffnet.](../media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Artikel** ein und wählen Sie den entsprechenden Link aus.
@@ -397,6 +397,6 @@ Konfigurieren Sie den Shopify-Shop wie hier beschrieben:
 * Die Kunden werden erstellt. Wählen Sie zur Überprüfung die ![Glühbirne, welche die „Sie wünschen ...“-Funktion öffnet.](../media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Debitoren** ein und wählen Sie den entsprechenden Link aus.
 
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Erste Schritte mit dem Shopify-Konnektor](get-started.md)  

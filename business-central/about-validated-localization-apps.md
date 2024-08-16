@@ -8,11 +8,11 @@ ms.topic: conceptual
 ms.author: altotovi
 ---
 
-# <a name="development-of-validated-localization-apps"></a>Entwicklung validierter Lokalisierungs-Apps
+# Entwicklung validierter Lokalisierungs-Apps
 
 Dieser Artikel beschreibt die Anforderungen und Leitlinien für die Entwicklung einer validierten Lokalisierungs-App für [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## <a name="what-is-a-validated-localization-app"></a>Was ist eine validierte Lokalisierungs-App?
+## Was ist eine validierte Lokalisierungs-App?
 
 [!INCLUDE[prod_short](includes/prod_short.md)] ist [weltweit in über 170 Märkten](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json) verfügbar. Microsoft arbeitet in einer Reihe von Märkten mit ISV-Partnern zusammen, um [!INCLUDE[prod_short](includes/prod_short.md)] mithilfe von Lokalisierungs-Apps zu lokalisieren, die auf [Microsoft AppSource](https://go.microsoft.com/fwlink/?linkid=2081646) verfügbar sind. Für diese Regionen stehen eventuell Lokalisierungen über das bevorzugte Lokalisierungs-App-Programm zur Verfügung. Das bevorzugte Lokalisierungs-App-Programm erkennt jene Apps, die gemäß den spezifischen Qualitätsleitlinien von Microsoft erstellt wurden. ISV-Partner, die diese Programmvoraussetzungen und -leitlinien erfüllen, können im Wiederverkauf und für Kundschaft sowohl technisch als auch kommerziell Vorteile bieten.  
 
@@ -33,7 +33,7 @@ Apps im validierten Lokalisierungspilotprogramm enthalten eine Reihe von Funktio
 > [!NOTE]
 > Lokale Funktionen wirken sich positiv auf die Produktivität der Geschäftsprozesse in einem Land aus und bieten Unternehmen dadurch einen höheren Mehrwert, sind jedoch aus gesetzlicher Sicht nicht erforderlich. So sollten etwa bestimmte Bank- und Zahlungsformate, Spesenabrechnungen, HR-Funktionen, Gehaltsabrechnungen und ähnliche kleinere oder größere sowie praktische, aber nicht notwendige Funktionen in anderen Apps umgesetzt werden. Wenn Apps diese Funktionen enthalten, werden sie nicht als validierte Lokalisierungs-Apps zugelassen.   
 
-## <a name="validated-localization-app-business-requirements"></a>Geschäftliche Anforderungen an validierte Lokalisierungs-Apps
+## Geschäftliche Anforderungen an validierte Lokalisierungs-Apps  
 
 - Der Anbieter der validierten Lokalisierungs-App erfüllt alle Anforderungen an einen indirekten CSP-Anbieter.  
 - Der Anbieter der validierten Lokalisierungs-App bringt mindestens in fünf Ländern/Regionen Angebote auf den Markt, die Dynamics 365 Business Central mit einer validierten Lokalisierungs-App bündeln. 
@@ -42,9 +42,9 @@ Apps im validierten Lokalisierungspilotprogramm enthalten eine Reihe von Funktio
 - Validierte Lokalisierungs-Apps werden allen Kunden und Partnern zur Verfügung gestellt, die ihre Vorteile nutzen möchten.     
 - Der Anbieter der validierten Lokalisierungs-App führt wiederkehrende Arbeitsstreams mit Microsoft durch.
 
-## <a name="validated-localization-app-functional-and-technical-requirements"></a>Funktionale und technische Anforderungen an validierte Lokalisierungs-App
+## Funktionale und technische Anforderungen an validierte Lokalisierungs-App  
 
-### <a name="functionality-requirements"></a>Anforderungen an die Funktionalität
+### Anforderungen an die Funktionalität   
 
 Die validierte Lokalisierungs-App muss nicht nur die technischen Anforderungen erfüllen, sondern auch mindestens den folgenden Produktumfang bieten:  
 
@@ -70,7 +70,7 @@ Die validierte Lokalisierungs-App muss nicht nur die technischen Anforderungen e
 - Erstellen Sie Einrichtungsleitfäden (Assistenten) für Bereiche, deren Einrichtung komplex ist, um Benutzenden die Aktivierung und Entdeckung Ihrer Lokalisierungs-App zu erleichtern und ihnen zu helfen, eine angenehme Erfahrungen mit der ersten Verwendung dieser App zu machen.  
 - Partner müssen für alle Aspekte ihrer Lokalisierung eine Funktionsdokumentation bereitstellen.  
 
-### <a name="technical-requirements"></a>Technische Anforderungen
+### Technische Anforderungen  
 
 Im Folgenden finden Sie eine Liste der Anforderungen, die Sie erfüllen müssen, bevor Sie die validierte Lokalisierungs-App als Erweiterung zur Validierung einreichen können. Diese Liste ändert die [technische Validierungsliste](/dynamics365/business-central/dev-itpro/developer/devenv-checklist-submission) nicht und erweitert die Anforderungen lediglich von diesem Ausgangspunkt aus.  
 
@@ -87,7 +87,7 @@ Im Folgenden finden Sie eine Liste der Anforderungen, die Sie erfüllen müssen,
 > [!NOTE]  
 > Sie können auch eine Integration erstellen, wenn es Ihrer Meinung nach von Vorteile wäre, einige Funktionen außerhalb der [!INCLUDE[prod_short](includes/prod_short.md)]-Umgebung zu platzieren und stattdessen die Verbindung zu [!INCLUDE[prod_short](includes/prod_short.md)] beispielsweise über APIs oder Webdienste herzustellen.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Technische Validierung](/dynamics365/business-central/dev-itpro/developer/devenv-checklist-submission)  
 [Entwicklung einer Standardlokalisierungslösung](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-localization)  
@@ -95,4 +95,4 @@ Im Folgenden finden Sie eine Liste der Anforderungen, die Sie erfüllen müssen,
 [Was ist lokale Funktion in Dynamics 365 [!INCLUDE[prod_short](includes/prod_short.md)]?](about-localization.md)  
 [Internationale Verfügbarkeit von Microsoft Dynamics 365](/dynamics365/get-started/availability)  
 [Compliance – Übersicht](compliance/compliance-overview.md)  
-[Geografische Verfügbarkeit für Dynamics 365](https://dynamics.microsoft.com/en-us/availability-reports/georeport/)  
+[Geografische Verfügbarkeit für Dynamics 365](https://releaseplans.microsoft.com/availability-reports/?report=productgeoreport/)  

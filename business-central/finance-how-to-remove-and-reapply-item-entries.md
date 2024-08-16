@@ -1,16 +1,17 @@
 ---
-title: Artikelposten entfernen und erneut ausgleichen
+title: Artikeleinträge entfernen und erneut anwenden
 description: 'Sie können bestimmte Artikelausgleichsposten, die bei Lagertransaktionen automatisch erstellt werden, anzeigen und manuell ändern.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.form: '506, 521, 9125'
-ms.date: 04/01/2021
+ms.date: 07/30/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="remove-and-reapply-item-ledger-entries"></a>Entfernen und erneutes Ausgleichen von Artikelposten
+
+# Artikelposten entfernen und erneut ausgleichen
 Sie können auf der Seite **Ausgleichsarbeitsblatt** bestimmte Artikelausgleichsposten, die bei Lagertransaktionen automatisch erstellt werden, anzeigen und manuell ändern.  
 
 Wenn Sie eine Transaktion buchen, in der Artikel in den oder aus dem Lagerbestand verschoben werden, wird ein Artikelausgleich zwischen jedem Lagerzugang und Lagerabgang erstellt. Diese Ausgleiche bestimmen die Richtung für die Kosten von den Waren, die in den Lagerbestand übernommen wurden, zu den Kosten der Waren, die aus dem Lagerbestand herausgenommen wurden. Wegen der Art, in der Einstandspreise berechnet werden, könnte ein fehlerhafter Artikelausgleich zu falschen Durchschnittskosten und zu falschen Einstandspreisen führen. Weitere Informationen finden Sie unter "Designdetails: Artikelverfolgung".
@@ -23,7 +24,7 @@ Der folgende Szenarios erfordern möglicherweise, dass Sie einen Ausgleich rück
 
 Wenn möglich, verwenden Sie einen Beleg, um einen Artikelposten erneut auszugleichen. Wenn Sie beispielsweise eine Einkaufsreklamation für einen Artikel vornehmen müssen, für den bereits ein Verkauf ausgeglichen wurde, können Sie den erneuten Ausgleich vornehmen, indem Sie einfach den Einkaufsreklamationsbeleg in der Einkaufsreklamationszeile im Feld **Ausgleich mit Artikelposten** mit dem richtigen Ausgleich erstellen und buchen. Sie können die Funktion **Gebuchte Belegzeilen zum Stornieren holen** oder die Funktion **Aus Beleg kopieren** im Rückkaufsbeleg verwenden, um dies zu erleichtern. Wenn Sie den Beleg buchen, wird automatisch der Artikelposten erneut ausgeglichen. Weitere Informationen finden Sie unter [Einkaufsretouren verarbeiten oder Stornieren](purchasing-how-process-purchase-returns-cancellations.md).
 
-Wenn Sie keinen Beleg verwenden können, um erneut auszugleichen, zum Beispiel wenn Sie einen festen Ausgleich korrigieren müssen, verwenden Sie die Seite **Ausgleichsarbeitsblatt**, um einen Ausgleich zu korrigieren.
+Wenn Ihnen für eine erneute Bewerbung kein Dokument zur Verfügung steht, etwa wenn Sie eine korrigierte Bewerbung korrigieren müssen, dann nutzen Sie die Seite  **Arbeitsblatt zur Bewerbung**  zum Korrigieren einer Bewerbung.
 
 > [!Warning]  
 > Im Folgenden einige wichtige Überlegungen zur Arbeit mit dem Ausgleichsarbeitsblatt:
@@ -33,7 +34,7 @@ Wenn Sie keinen Beleg verwenden können, um erneut auszugleichen, zum Beispiel w
     - Es ist möglich, einen oder mehrere Ausgleiche gleichzeitig für einen Posten im Ausgleichsvorschlag zu entfernen. Da der Ausgleich von Posten jedoch den Satz der zum Ausgleich verfügbaren Posten beeinflusst, ist es nicht möglich, einen Ausgleich für mehr als einen Posten gleichzeitig zu erstellen.
     - In der folgenden Situation kann über den Ausgleichsarbeitsblatt kein Ausgleich erfolgen: Wenn im Lager nicht genügend Menge zum Ausgleich vorhanden ist, kann über den Ausgleichsarbeitsblatt kein Ausgleich vorgenommen werden, wenn Sie versuchen, einen Lagerabgangsposten ohne Artikelverfolgungsinformationen mit einem Lagerzugangsposten mit Artikelverfolgungsinformationen auszugleichen.
 
-## <a name="to-remove-an-item-application-by-using-the-application-worksheet"></a>Artikelausgleich mit dem Ausgleichsarbeitsblatt entfernen
+## Artikelausgleich mit dem Ausgleichsarbeitsblatt entfernen
 
 1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten"). Symbol. Geben Sie **Ausgleichsarbeitsblatt** ein und wählen Sie dann den zugehörigen Link.  
 2.  Die Seite **Ausgleichsarbeitsblatt** wird geöffnet und zeigt bestehende das Artikelposten für alle Artikel an.  
@@ -43,14 +44,14 @@ Wenn Sie keinen Beleg verwenden können, um erneut auszugleichen, zum Beispiel w
 6.  Wählen Sie die Aktion **Ausgleich entfernen** aus. Dadurch wird der Artikelausgleichsposten, der die beiden Artikelposten verknüpft, entfernt und auf der Seite **Ausgleichsposten anzeigen - nicht ausgeglichene Posten** verschoben.  
 7.  Schließen Sie die Seite **Ausgeglichene Posten anzeigen – Ausgeglichene Posten**.  
 
- Für beide Artikelposten wird das jeweilige Feld **Restmenge** um die Menge erhöht, deren Ausgleich aufgehoben wurde. Der entfernte Artikelposten ist jetzt für den erneuten Ausgleich auf der Seite **Ausgeglichene Posten anzeigen – Nicht ausgeglichene Posten** verfügbar.  
+ Das Feld  **Restmenge**  der beiden Artikelposten wird um die nicht ausgeglichene Menge erhöht. Der entfernte Artikelposten ist jetzt für den erneuten Ausgleich auf der Seite **Ausgeglichene Posten anzeigen – Nicht ausgeglichene Posten** verfügbar.  
 
 > [!IMPORTANT]  
 >  Sie sollten Ausgleichsposten nicht über einen längeren Zeitraum ohne Ausgleich lassen, da andere Benutzer die Artikel erst bearbeiten können, wenn Sie die Ausgleichsposten erneut ausgeglichen oder die Seite **Ausgleichsarbeitsblatt** geschlossen haben. Die folgende Fehlermeldung wird angezeigt, wenn Sie versuchen, Aktionen auszuführen, die einen manuell nicht ausgeglichenen Ausgleichsposten betreffen:  
 >   
 >  **Diese Aktion kann nicht ausgeführt werden, da der Artikel \<item\> vom Benutzer \<user\> im Ausgleichsarbeitsblatt aufgehoben wurde.**  
 
-## <a name="to-reapply-an-item-application-by-using-the-application-worksheet"></a>Artikelausgleich mit dem Ausgleichsarbeitsblatt erneut ausgleichen
+## Artikelausgleich mit dem Ausgleichsarbeitsblatt erneut ausgleichen
 
 1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet 2.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol, geben Sie **Ausgleichsarbeitsblatt** ein und wählen Sie dann den entsprechenden Link.  
 2.  Die Seite **Ausgleichsarbeitsblatt** wird geöffnet und zeigt bestehende das Artikelposten für alle Artikel an.  
@@ -67,13 +68,13 @@ Wenn Sie keinen Beleg verwenden können, um erneut auszugleichen, zum Beispiel w
     >  Wenn Sie einen Ausgleich ausgewählt haben, mit dem eine Endlosschleife in der Lagerregulierung erzeugt wird, wird der von Ihnen gewünschte Ausgleich nicht vorgenommen. Dies kommt in Fällen vor, in denen mit den ursprünglichen Posten ein negativer Lagerbestand erzeugt wurde. Der Ausgleich wird nicht vorgenommen. Daher müssen Sie einen anderen Posten für den Ausgleich auswählen.  
 6.  Wenn in **Lager Einrichtung** das Feld **Automatische Lagerregulierung** auf **Immer** festgelegt ist, wird die Stapelverarbeitung für Kostenregulierung automatisch ausgeführt, nachdem Sie einen erneuten Ausgleich vorgenommen haben. Führen Sie andernfalls den Batchauftrag **Lagerreg. fakt. Einst. Preise** aus, um sicherzustellen, dass alle Kosten auf dem neuesten Stand sind.  
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
-[Schließen von offenen Artikelposten aus einem festen Ausgleich im Artikel Buch.-Blatt](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)  
- [Verarbeiten einer Einkaufsrücklieferung oder von Stornierungen](purchasing-how-process-purchase-returns-cancellations.md)  
+[Schließen offener Artikelposten aus festem Ausgleich im Artikeljournal](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)    
+ [Retouren oder Stornierungen von Käufen verarbeiten](purchasing-how-process-purchase-returns-cancellations.md)    
  [Verwalten der Lagerregulierung](finance-manage-inventory-costs.md)   
- [Gestaltungsdetails: Element Anwendung](design-details-item-application.md)  
- [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+ [Designdetails: Artikelausgleich](design-details-item-application.md)    
+ [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

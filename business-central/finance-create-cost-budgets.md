@@ -1,16 +1,17 @@
 ---
 title: Erstellen von Kostenbudgets
-description: 'Dieses Thema enthält eine Übersicht, wo Kostenbudgets erstellt und analysiert werden. Die Budgetierung in der Kostenrechnung entspricht der Budgetierung im Sachkonto.'
+description: 'Dieser Artikel bietet einen Überblick darüber, wo Kostenbudgets erstellt und analysiert werden. Die Kalkulation in der Kostenrechnung ähnelt der Kalkulation im Hauptbuch.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.form: '1115, 1116, 1117, 1118, 1119, 1120, 1121, 1131, 1132, 1133'
-ms.date: 06/16/2021
+ms.date: 07/26/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="creating-cost-budgets"></a>Erstellen von Kostenbudgets
+
+# Erstellen von Kostenbudgets
 
 Die Kalkulation in der Kostenrechnung ähnelt der Kalkulation im Hauptbuch. Ein Kostenbudget wird ausgehend von Kostenarten erstellt, wie ein Budget für das Sachkonto basierend auf Sachkonten erstellt wird.  
 
@@ -26,7 +27,7 @@ Sie verwenden die folgenden Seiten, um Kostenbudgets zu erstellen und zu analysi
 |Sehen Sie sich die Kostenbudgeterfassungen und Kostenbudgetposten an.|Seite **Kostenbudgeterfassungen**|  
 |Drucken Sie Kostenbudgetvergleiche unter Verwendung der verschiedenen Berichte.|Bericht **Kostenrechnungsbilanz/Budget**<br /><br /> Bericht **Kostenrechnungsauszug/Budget**<br /><br /> Bericht **Kostenbudget nach Kostenstelle**<br /><br /> Bericht **Kostenbudget nach Kostenträger**|  
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Kostenrechnung](finance-manage-cost-accounting.md)  
 [Sachkontenbudgets erstellen](finance-how-create-budgets.md)  

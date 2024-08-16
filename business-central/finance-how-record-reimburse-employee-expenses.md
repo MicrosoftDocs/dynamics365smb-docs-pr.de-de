@@ -1,17 +1,18 @@
 ---
-title: Geschäftsverwandte Ausgaben der Beschäftigten aufzeichnen und zurückzahlen
+title: Spesen der Mitarbeiter erfassen und erstatten
 description: 'Buchen Sie die Ausgaben der Mitarbeiter mit dem Allgemeinen Journal auf das Konto des Mitarbeiters und buchen Sie dann eine Zahlung auf dessen Bankkonto, um die geschäftsbezogenen Ausgaben zu erstatten.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: reimbursement
 ms.search.form: '63, 234, 625, 5224, 5237, 5238, 5239, 5240'
-ms.date: 03/13/2024
+ms.date: 08/07/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="record-and-reimburse-employees-expenses"></a>Datensatz und Erstattung von Ausgaben der Mitarbeiter
+
+# Spesen der Mitarbeiter erfassen und erstatten
 
 [!INCLUDE[prod_short](includes/prod_short.md)] unterstützt Transaktionen für Mitarbeiter auf ähnliche Weise wie für Kreditoren. Entsprechend bestehen Mitarbeiterbuchungsgruppen, um sicherzustellen, dass Mitarbeiterposten auf den entsprechenden Konten in der Finanzbuchhaltung gebucht werden.
 
@@ -28,7 +29,7 @@ Sie können allgemeine Buchungsblätter für Mitarbeiterkonten verwenden, um Mit
 
 Um sicherzustellen, dass der Wechselkurs für die Beträge aktuell ist, können Sie die Mitarbeitersalden anpassen, wenn Sie den Batchauftrag für den Währungswechselkurs ausführen. Wenn Sie die Wechselkurstabelle verwenden, die Mitarbeitersalden jedoch in Ihrer lokalen Währung abrechnen möchten, können Sie die Mitarbeiterkonten von der Anpassung der Wechselkurse ausschließen.
 
-## <a name="to-record-an-employees-expense"></a>Um die Ausgaben eines Mitarbeiters tz erfassen
+## Um die Ausgaben eines Mitarbeiters tz erfassen
 
 Sie buchen die Ausgaben der Mitarbeiter auf der Seite **Fibu Buch.-Blatt**.
 
@@ -44,7 +45,7 @@ Sie buchen die Ausgaben der Mitarbeiter auf der Seite **Fibu Buch.-Blatt**.
     > Wenn Sie Zeilen mit mehreren Transaktion über eine Gegenkontozeile, beispielsweise für das Bankkonto des Mitarbeiters eingeben möchten, wählen Sie das Kontrollkästchen **Ausgleichsbetrag vorschlagen** auf der Seite für Ihren Stapel im **Fibu Buch.-Blattnamen** aus. Dann werden das Feld **Betrag** auf der Gegenkontozeile automatisch mit dem Wert ausgefüllt, der erforderlich ist, um Transaktionen auszugleichen.
 5. Wählen Sie die **Buchen** Aktion aus, um die Ausgaben des Kontos des Mitarbeiters zu erfassen.
 
-## <a name="to-reimburse-an-employee"></a>Rückerstattung für Mitarbeiter
+## Rückerstattung für Mitarbeiter
 
 Sie zahlen die Kosten dem Mitarbeiter zurück, indem Sie Zahlungen zu dem Bankkonto auf der Seite **Zahlungsausgangs Buch.-Blatt** buchen.  
 
@@ -54,17 +55,17 @@ Sie zahlen die Kosten dem Mitarbeiter zurück, indem Sie Zahlungen zu dem Bankko
 4. Wählen Sie alternativ die **Mitarbeiter-Zahlung vorschlagen** Aktion aus, um automatisch Buch.-Blattzeilen für offene Mitarbeitervergütungen einzufügen.
 5. Wählen Sie die Aktion **Buchen**, um die Rückerstattung zu erfassen.  
 
-## <a name="to-reconcile-reimbursements-with-employee-ledger-entries"></a>Um Vergütungen mit Mitarbeiterposten ausgleichen
+## Um Vergütungen mit Mitarbeiterposten ausgleichen
 
-Sie gleichen Mitarbeiterzahlungen in den entsprechenden offenen Mitarbeiterposten gleich aus, wie Sie dies für Kreditorenzahlungen tun, zum Beispiel auf der Seite **Zahlungsabstimmungsbuch.-Blatt** in den entsprechenden Bankkontoauszugsposten. Weitere Informationen finden Sie unter [Zahlungen automatisch vornehmen und Bankkonten abstimmen](receivables-apply-payments-auto-reconcile-bank-accounts.md). Alternativ können Sie auf der Seite **Mitarbeiter-Posten** den Eintrag manuell eingeben. Weitere Informationen finden Sie im dazugehörigen Artikel [Abstimmen von Kreditorenzahlungen mit dem Zahlungsjournal oder aus Kreditorenposten](payables-how-apply-purchase-transactions-manually.md).  
+Sie wenden Mitarbeiterzahlungen auf die entsprechenden offenen Mitarbeiterposten auf die gleiche Weise an wie Lieferantenzahlungen, beispielsweise auf der Seite  **Zahlungsabstimmungsjournale**, basierend auf den entsprechenden Kontoauszugseinträgen. Weitere Informationen finden Sie unter [Zahlungen automatisch vornehmen und Bankkonten abstimmen](receivables-apply-payments-auto-reconcile-bank-accounts.md). Alternativ können Sie auf der Seite **Mitarbeiter-Posten** den Eintrag manuell eingeben. Weitere Informationen finden Sie im dazugehörigen Artikel [Abstimmen von Kreditorenzahlungen mit dem Zahlungsjournal oder aus Kreditorenposten](payables-how-apply-purchase-transactions-manually.md).  
 
-## <a name="see-also"></a>Weitere Informationen
+## Siehe auch
 
-[Buchen von Transaktionen direkt in der Finanzbuchhaltung](finance-how-post-transactions-directly.md)  
-[Arbeiten mit Fibu Buch.-Blättern](ui-work-general-journals.md)  
-[Buch.-Blatt-Buchungen stornieren und Rückgängigmachung von Eingängen/Versendungen](finance-how-reverse-journal-posting.md)  
-[Finanzen](finance.md)  
-[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Buchungen direkt im Hauptbuch vornehmen](finance-how-post-transactions-directly.md)    
+[Arbeiten mit Fibu-Buch.-Blättern](ui-work-general-journals.md)    
+[Journalbuchungen stornieren und Wareneingänge/Lieferungen rückgängig machen](finance-how-reverse-journal-posting.md)    
+[Finanzen](finance.md)    
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

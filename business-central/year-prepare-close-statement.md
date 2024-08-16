@@ -5,12 +5,13 @@ author: jswymer
 ms.topic: overview
 ms.devlang: al
 ms.search.keywords: 'year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments, assets, liabilities, equity, analysis, reporting, financial report, business intelligence, BI, Power Bi, KPI'
-ms.date: 07/05/2024
+ms.date: 08/05/2024
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
-# <a name="preparing-closing-statements"></a>Vorbereitung von Schlussplädoyers
+
+# Vorbereitung von Schlussplädoyers
 
 [!INCLUDE [prod_short](includes/prod_short.md)] bietet Standardberichte, die Ihnen dabei helfen können, die Informationen zu sammeln, die Sie für die Vorbereitung der Jahresabschlüsse Ihres Unternehmens benötigen. In der folgenden Tabelle werden die Berichte beschrieben.  
 
@@ -26,11 +27,11 @@ ms.reviewer: jswymer
 
 Um einen Bericht zu finden, wählen Sie die ![Glühbirne, die die Funktion „Wie möchten Sie weiter vorgehen“ öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol, geben Sie den Namen ein, wie er in der Tabelle erscheint, und wählen Sie dann den zugehörigen Link.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
-[Jahres- und Periodenabschlüsse](year-close-years-periods.md)  
-[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Business Intelligence](bi.md)
+[Abschlussjahre und -perioden](year-close-years-periods.md)    
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
+[Business Intelligence](bi.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

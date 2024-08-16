@@ -7,12 +7,12 @@ ms.service: dynamics-365-business-central
 ms.topic: how-to
 ms.search.keywords: 'VAT, non-deductible, setup'
 ms.search.form: '187, 472, 473'
-ms.date: 04/26/2023
+ms.date: 08/13/2024
 ms.custom: bap-template
 ms.reviewer: bholtorf
 ---
 
-# <a name="set-up-nondeductible-vat"></a>Nicht abziehbare MwSt. einrichten
+# Nicht abziehbare MwSt. einrichten
 
 Bei der nicht abziehbaren Mehrwertsteuer (MwSt.) handelt es sich um die Mehrwertsteuer, die von einem Kaufenden zu zahlen ist, aber nicht von seiner eigenen Mehrwertsteuerschuld des Kaufenden abgezogen werden kann. Unternehmen können in der Regel die MwSt. beim Kauf von Waren und Dienstleistungen im Zusammenhang mit ihrer Geschäftstätigkeit zurückfordern. In manchen Situationen fällt einem Unternehmen jedoch MwSt. an, die nicht abzugsfähig ist. Diese Situationen hängen typischerweise mit den örtlichen Vorschriften zusammen und können sich von Land zu Land sowie Region zu Region unterscheiden. Das Modell der Verwendung der nicht abziehbaren oder teilweise abziehbaren MwSt. ist jedoch ähnlich. Sie können die anteilige MwSt. verwenden, um die MwSt. zu berechnen, wenn es abziehbare und nicht abziehbare MwSt. gibt.
 
@@ -26,7 +26,7 @@ Da es schwierig sein kann, zu wissen, wo und wie ein Artikel verwendet wird, wen
 > [!IMPORTANT]
 > Dieses globale Feature ist **außer in Belgien, Italien und Norwegen** in allen Ländern mit aktivierter MwSt. verfügbar. Diese Lokalisierungen verfügen bereits über lokale Features und werden in Zukunft aktualisiert. Führen Sie dieses Feature in diesen Ländern nicht aus, da es kein Upgrade-Verfahren gibt.
 
-## <a name="use-nondeductible-vat"></a>Nicht abziehbare MwSt. verwenden
+## Nicht abziehbare MwSt. verwenden
 
 1. Wählen Sie das ![Glühbirne, öffnet die „Wie möchten Sie weiter verfahren“-Funktion 3.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Geben Sie **MwSt.-Einrichtung** ein und wählen Sie dann den zugehörigen Link aus.
 2. Wählen Sie das Kontrollkästchen **Nicht abzugsfähige MwSt. zulassen**.
@@ -41,16 +41,16 @@ Da es schwierig sein kann, zu wissen, wo und wie ein Artikel verwendet wird, wen
     3. Wählen Sie das Kontrollkästchen **Für Projektkosten verwenden**, um anzugeben, dass die nicht abziehbare MwSt. zu den Projektkosten hinzugefügt werden muss, wenn Sie Artikel für das Projekt kaufen. Andernfalls hat die nicht abziehbare MwSt. keinen Einfluss auf die Projektkosten, und der volle Betrag wird nur auf Sachkontoebene erfasst.
     4. Wählen Sie das Kontrollkästchen **Nicht abziehbare MwSt. in Zeilen anzeigen**, um anzugeben, dass die nicht abziehbare MwSt. auf Belegzeilenseiten angezeigt werden muss, um die MwSt.-Beträge einfacher bearbeiten zu können.
 
-## <a name="use-the-nondeductible-vat-percentage"></a>Den nicht abziehbaren MwSt.-Prozentsatz verwenden
+## Den nicht abziehbaren MwSt.-Prozentsatz verwenden
 
 1. Wählen Sie das ![Glühbirne, öffnet die „Wie möchten Sie weiter verfahren“-Funktion 3.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **MwSt.-Buchungseinrichtung** ein und wählen Sie dann den entsprechenden Link aus.
 2. Füllen Sie auf der Seite **MwSt.-Buchungsmatrix** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.
 
     | Feld | Description |
     |-------|-------------|
-    | Nicht abziehbare MwSt. zulassen | Geben Sie an, ob der Betrag für die nicht abziehbare MwSt. für die aktuelle Kombination einer MwSt.-Geschäftsbuchungsgruppe und einer MwSt.-Produktbuchungsgruppe berücksichtigt wird. |
-    | Nicht abziehbare MwSt. %% | Geben Sie den Prozentsatz des Betrages der Transaktion an, auf den die MwSt. nicht angewandt wird. |
-    | Nicht abziehbare MwSt. Konto Einkauf | Geben Sie das Konto an, das mit dem MwSt.-Betrag verknüpft ist, der aufgrund der Art der gekauften Waren oder Dienstleistungen nicht abgezogen wird. |
+    | **Erlaube nicht abziehbare MwSt.** | Geben Sie an, ob der Betrag für die nicht abziehbare MwSt. für die aktuelle Kombination einer MwSt.-Geschäftsbuchungsgruppe und einer MwSt.-Produktbuchungsgruppe berücksichtigt wird. |
+    | **nicht abziehbare MwSt. %** | Geben Sie den Prozentsatz des Betrages der Transaktion an, auf den die MwSt. nicht angewandt wird. |
+    | **Nicht abzugsfähiges Umsatzsteuerkonto** | Geben Sie das Konto an, das mit dem MwSt.-Betrag verknüpft ist, der aufgrund der Art der gekauften Waren oder Dienstleistungen nicht abgezogen wird. |
 
     > [!NOTE]
     > Um Sachkontoeinträge zu haben, die das dedizierte Konto anstelle des Verkaufs-/Einkaufskontos verwenden, können Sie entweder das Feld **Konto für nicht abzugsfähige Vorsteuer** leer lassen oder das Feld **Sachkonto** festlegen.
@@ -62,7 +62,7 @@ Da es schwierig sein kann, zu wissen, wo und wie ein Artikel verwendet wird, wen
 >
 > Verwenden Sie nicht dasselbe **MwSt.-Kennzeichen** für beide normale MwSt., wo das Feld **Nicht abzugsfähige MwSt. %** auf **0** (Null) eingestellt ist, und die normale MwSt., wenn das Feld **Nicht abzugsfähige MwSt. %** auf einen anderen Wert als Null eingestellt ist. Andernfalls wird der gesamte nicht abzugsfähige MwSt.-Betrag falsch berechnet.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Finanzmanagement](finance.md)  
 [Designdetails: Nicht abziehbare MwSt.](design-details-nondeductible-vat.md)  

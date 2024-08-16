@@ -7,20 +7,21 @@ ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: 'year closing, close accounting period, close fiscal year, bank account detailed trial balance'
 ms.search.form: '100,'
-ms.date: 05/07/2024
+ms.date: 08/02/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="closing-years-and-periods"></a>Jahres- und Periodenabschlüsse
 
-Am Ende eines Geschäftsjahrs gibt es einige Verwaltungsaufgaben, die Sie ausführen müssen, wie das Sicherstellen, dass alle Belege und Buch.-Blätter gebucht sind und dass alle Währungsdaten aktuell sind, die Bücher abschließen und weiteres. Die tatsächlichen Aufgaben hängen von Ihrem Unternehmen ab.
+# Jahres- und Periodenabschlüsse
+
+Am Ende eines Geschäftsjahres müssen Sie zahlreiche Verwaltungsaufgaben erledigen. Sie müssen beispielsweise sicherstellen, dass alle Dokumente und Journale gebucht wurden, die Währungsdaten auf dem neuesten Stand sind, die Bücher abschließen und vieles mehr. Die tatsächlichen Aufgaben hängen von Ihrem Unternehmen ab.
 
 Die folgende Tabelle enthält einen Überblick über die Aufgaben, die Sie üblicherweise ausführen, um ein Jahr und eine Periode zu schließen.
 
 | Bis | Siehe |
 | --- | --- |
 | Definieren Sie Ihr Geschäftsjahr und unterteilen Sie es in Perioden, zu denen die Finanzleistung gemeldet wird. | [Mit Buchhaltungsperioden und Geschäftsjahren arbeiten](finance-accounting-periods-and-fiscal-years.md)|
-| Geben Sie systemweite und benutzerspezifische Buchungsdatumsbereiche an. Je nach Geschäftsanforderungen empfiehlt es sich, die Buchungsdatumsbereiche für Benutzer zu Beginn und am Ende des Periodenabschlusses einzugrenzen. |[Buchhaltungsperioden festlegen](finance-how-specify-posting-periods.md) |
+| Geben Sie systemweite und benutzerspezifische Buchungsdatumsbereiche an. Abhängig von Ihren Geschäftsanforderungen möchten Sie möglicherweise die Buchungsdatumsbereiche der Benutzer zu Beginn des Periodenendeprozesses oder danach einschränken. |[Buchhaltungsperioden festlegen](finance-how-specify-posting-periods.md) |
 | Definieren Sie, wie Sie Mehrwertsteuerbeiträge erstellen, die Sie für Verkäufe an das Finanzamt eingetrieben haben. |[MwSt. an die Steuerbehörden melden](finance-how-report-vat.md)|
 | Verschaffen Sie sich einen Überblick über die Aktivitäten, die üblicherweise am Ende einer Periode fällig werden wie Buchen aller Belege und Buch.-Blätter oder das Ausführen von Finanzberichten. |[Schließen der Perioden](year-how-complete-period-end-processes.md) |
 | Aktualisieren von Wechselkursen und Anpassen der Wechselkurse gebuchter Debitoren-, Kreditoren- und Bankkontoposten |[Währungswechselkurse aktualisieren](finance-how-update-currencies.md) |
@@ -29,7 +30,7 @@ Die folgende Tabelle enthält einen Überblick über die Aufgaben, die Sie übli
 | Drucken von Berichten zur Unterstützung beim Erstellen von Finanzauswertungen |[Abschlussberichte vorbereiten](year-prepare-close-statement.md) |
 | Abschließen der Buchhaltungsperioden, Übertragen der GuV-Salden auf Bilanzkonten und Buchen des .Jahresabschlusspostens. |[Schließen der Bücher](year-close-books.md) |
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Mit Buchhaltungsperioden und Geschäftsjahren arbeiten](finance-accounting-periods-and-fiscal-years.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

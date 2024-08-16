@@ -1,23 +1,24 @@
 ---
-title: Bank-Geldmittel überweisen
+title: Bankguthaben überweisen
 description: 'Sie können Überweisungsbeträge von einem Bankkonto auf ein anders übertragen, einschließlich verschiedene Währungen, indem Sie die Transaktion im Fibu Buch.-Blatt buchen.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'bank account transfer, multiple currencies'
 ms.search.form: 39
-ms.date: 04/29/2021
+ms.date: 07/25/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="transfer-bank-funds"></a>Bank-Geldmittel überweisen
 
-Manchmal ist es erforderlich, einen Betrag von einem Bankkonto in [!INCLUDE[prod_short](includes/prod_short.md)] auf ein anderes Bankkonto zu überweisen. Dazu müssen Sie die Transaktion auf der Seite **Allgemeines Journal** buchen. Die Aufgabe variiert abhängig davon, ob die Bankkonten dieselbe Währung oder unterschiedlichen Währungen verwenden.
+# Bankguthaben überweisen
 
-## <a name="to-post-a-transfer-between-bank-accounts-with-the-same-currency-code"></a>So buchen Sie Überweisungen zwischen Bankkonten mit demselben Währungscode:
+Manchmal müssen Sie möglicherweise einen Betrag von einem Bankkonto auf ein anderes überweisen. [!INCLUDE[prod_short](includes/prod_short.md)]  Hierzu müssen Sie die Transaktion auf der Seite  **Allgemeine Journale**  buchen. Die Aufgabe variiert abhängig davon, ob die Bankkonten dieselbe Währung oder unterschiedlichen Währungen verwenden.
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Fibu Buch.-Blatt** ein und wählen Sie dann den zugehörigen Link.
+## So buchen Sie Überweisungen zwischen Bankkonten mit demselben Währungscode:
+
+1. Wählen Sie das ![Glühbirne, die das „Sie wünschen ...“-Feature öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Allgemeine Erfassungen** ein, und wählen Sie dann den entsprechenden Link.
 2. Füllen Sie in einer Buch.-Blattzeile die Felder **Buchungsdatum** und **Belegnr.** aus.
 3. Wählen Sie im Feld **Kontoart** die Option **Bankkonto** aus.
 4. Im Feld **Kontonr.** wählen Sie das Bankkonto aus, von dem Sie die Beträge überweisen möchten.
@@ -28,11 +29,11 @@ Manchmal ist es erforderlich, einen Betrag von einem Bankkonto in [!INCLUDE[prod
 7. Im Feld **Gegenkontonr.** wählen Sie das Bankkonto aus, auf das Sie die Beträge überweisen möchten.
 8. Buchen Sie das Buch.-Blatt.
 
-## <a name="to-post-a-transfer-between-bank-accounts-with-different-currency-codes"></a>Überweisungen zwischen Bankkonten mit verschiedenen Währungscodes buchen:
+## Überweisungen zwischen Bankkonten mit verschiedenen Währungscodes buchen:
 
 Um Beträge zwischen Bankkonten zu transferieren, die unterschiedliche Währungen verwenden, müssen Sie zwei Fibu Buch.-Blattzeilen buchen.
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Fibu Buch.-Blatt** ein und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Allgemeine Erfassungen** ein, und wählen Sie dann den entsprechenden Link.
 2. Erstellen Sie zwei Buch.-Bl.-Zeilen und füllen Sie die Felder **Buchungsdatum** und **Belegnr.** aus.
 3. Wählen Sie in der ersten Buch.-Blattzeile des Feldes **Art** **Bankkonto** aus.
 4. Im Feld **Kontonr.** wählen Sie das Bankkonto aus, von dem Sie die Beträge überweisen möchten.
@@ -63,13 +64,13 @@ Um Beträge zwischen Bankkonten zu transferieren, die unterschiedliche Währunge
 
     > [!TIP]
     > Ein Betrag ohne Vorzeichen ist eine Belastung, ein Betrag mit Minuszeichen ist eine Gutschrift.
-10. Buchen Sie das Buch.-Blatt.
+10. Buchen Sie die Buch.-Blattzeile.
 
-## <a name="see-also"></a>Weitere Informationen
+## Siehe auch
 
 [Abstimmen von Bankkonten](bank-manage-bank-accounts.md)  
 [Einrichten von Banken](bank-setup-banking.md)  
-[Arbeiten mit Fibu Buch.-Blättern](ui-work-general-journals.md)  
+[Mit Fibu Buch.-Blättern arbeiten](ui-work-general-journals.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

@@ -5,7 +5,7 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 07/08/2024
+ms.date: 08/12/2024
 ms.custom: bap-template
 ms.search.keywords: 'move, warehouse'
 ms.search.forms: '5746, 5745, 5759, 5753, 5743, 5758, 5752, 5744, 5749, 5740, 5741, 5742, 5757, 5748, 5747, 9285, 5756, 5755'
@@ -23,7 +23,7 @@ Sie können Bestandsartikel zwischen Lagerplätzen umlagern, indem Sie Umlagerun
 
 Sie können eine ausgehende Umlagerung von einem Lagerplatz senden und eine eingehende Umlagerung am Ziel empfangen. Sie können:
 
-* Eine Menge in Transit nachverfolgen
+* Verfolgen Sie eine Menge während des Transports.
 * Definieren Sie Kalender, Arbeitspläne sowie eingehende und ausgehende Bearbeitungszeiten für die Datumsberechnung und -planung. Weitere Informationen zur Planung finden Sie unter [Info zu Planungsfunktionen](production-about-planning-functionality.md).
 * Verwenden Sie unterschiedliche Lagerfunktionen für eingehende und ausgehende Lagerorte.
 * Verwenden Sie Umlagerungsaufträge für direkte Umlagerungen mit einigen Einschränkungen.
@@ -33,7 +33,7 @@ Sie können eine ausgehende Umlagerung von einem Lagerplatz senden und eine eing
 Verwenden Sie die Seite **Artikel Umlag. Buch.-Blätter** für Folgendes:
 
 * Direkte Umlagerung von Artikeln zwischen Lagerorten
-* Lagern Sie Artikel zwischen Lagerplätzen um. Weitere Informationen zum Umlagern von Artikeln zwischen Lagerplätzen finden Sie unter [Ungeplanmte Umlagerung von Artikeln in Basis-Lagerkonfigurationen](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)
+* Verschieben Sie Artikel zwischen Behältern. Weitere Informationen zum Übertragen von Artikeln zwischen Behältern finden Sie unter  [Ungeplantes Verschieben von Artikeln in grundlegenden Lagerkonfigurationen](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md).
 * Ändern Sie eine Chargen- oder Seriennummer in eine neue Chargen- oder Seriennummer. Weitere Informationen zur Neuklassifizierung von Serien- und Chargennummern finden Sie unter [Serien- oder Chargennummern neu klassifizieren](inventory-how-work-item-tracking.md#to-reclassify-serial-or-lot-numbers).
 * Ändern Sie das Ablaufdatum in ein neues Datum.
 * Klassifizieren Sie Artikel von einem leeren Lagerort an einem tatsächlichen Lagerort neu.
@@ -45,7 +45,7 @@ Verwenden Sie die Seite **Artikel Umlag. Buch.-Blätter** für Folgendes:
 2. Füllen Sie auf der Seite **Umlagerungsauftrag** die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
-    >   Wenn Sie die Felder **Umlag. in Code**, **Zustellercode** und **Zustellertransportartencode** auf der Seite **Umlagerungsroutenspezifikation** ausgefüllt haben, als Sie die Umlagerungsrouten zwischen diesen Lagerorten eingerichtet haben, werden die entsprechenden Felder im Umlagerungsauftrag automatisch ausgefüllt.
+    > Wenn Sie die Felder **Umlag. in Code**, **Zustellercode** und **Zustellertransportartencode** auf der Seite **Umlagerungsroutenspezifikation** ausgefüllt haben, als Sie die Umlagerungsrouten zwischen diesen Lagerorten eingerichtet haben, werden die entsprechenden Felder im Umlagerungsauftrag automatisch ausgefüllt.
 
     Wenn Sie das Feld **Zustellertransportarten** ausfüllen, wird das Zugangsdatum am Ziellagerplatz berechnet, indem Sie die Transportzeit der Zustellertransportart zum Lieferdatum hinzuaddieren.
 
@@ -64,6 +64,18 @@ Verwenden Sie die Seite **Artikel Umlag. Buch.-Blätter** für Folgendes:
     Als Lagermitarbeiter am vom Umlagerungsort fahren sie fort, die Artikel zu empfangen Die Überweisungsauftragspositionen sind dieselben wie im Auslieferungszustand und können nicht bearbeitet werden.
 5. Wählen Sie die Aktion **Buchen** aus, wählen Sie die Option **Eingang**, und wählen Sie dann die Schaltfläche **OK** aus.
 
+### Ein Umlagerungsversand rückgängig machen
+
+Wenn Sie in einem gebuchten Transportauftrag einen Mengenfehler finden, können Sie die Menge problemlos korrigieren, solange die Lieferung nicht eingeht. Auf der Seite  **Gebuchte Transfersendung**  werden mit der Aktion  **Sendung rückgängig machen**  Korrekturzeilen wie folgt erstellt:
+
+* Der Wert im Feld **Verschickte Menge** auf dem Verkaufsauftrag wird um die Menge verringert, die Sie rückgängig gemacht haben.
+* Der Wert im Feld **Verschickte Menge** auf dem Verkaufsauftrag wird um die Menge verringert, die Sie rückgängig gemacht haben.
+* Das Kontrollkästchen **Korrektur** ist für die Zeilen aktiviert.
+
+Wenn die Menge in einem Lagerversand versendet wurde, wird im gebuchten Lagerversand eine Korrekturzeile erstellt.
+
+Um die Korrektur abzuschließen, öffnen Sie den Umlagerungsauftrag erneut, geben Sie die richtige Menge ein und buchen Sie dann den Auftrag. Wenn Sie Lagerversand verwenden, um den auftrag zu versenden, erstellen und buchen Sie einen neuen Warenausgang.
+
 ### Buchen Sie mehrere Umlagerungsaufträge in einem Stapel
 
 Das folgende Verfahren erläutert, wie Sie mehrere Einkaufsbestellungen in einer Charge buchen.
@@ -72,7 +84,7 @@ Das folgende Verfahren erläutert, wie Sie mehrere Einkaufsbestellungen in einer
 2. Wählen Sie auf der Seite **Aufträge übertragen** die zu buchenden Aufträge aus.
 3. Geben Sie im Feld **Nr.** öffnen Sie das Kontextmenü und wählen Sie **Mehr auswählen**.
 4. Wählen Sie das Kontrollkästchen für die Zeilen für jeden Auftrag, den Sie buchen möchten.
-5. Wählen Sie die Aktion  **Buchen**  und dann  **Stapel buchen**.
+5. Wählen Sie die Aktion  **Buchen**  und anschließend  **Stapel buchen**.
 6. Füllen Sie auf der Seite **Chargen-Umlagerungsauftrag** die Felder nach Bedarf aus.
 
    > [!TIP]
@@ -104,6 +116,43 @@ Der folgende Ablauf zeigt, wie Sie den Bericht **Stapelbuchung von Verkaufsauftr
 8. In dem Feld **Startzeit** geben Sie **16:00 Uhr** ein.
 9. Wählen Sie die Aktion **Status auf bereit festlegen** aus.
 
+### Vergleich verschiedener Einstellungen für Transportaufträge
+
+Sie können Transportaufträge in verschiedenen Modi buchen, mit oder ohne Transportort. Deaktivieren Sie den Schalter  **Direktüberweisung**  und Auswählen den temporären Standort im Feld  **Unterwegscode**  auf der Seite  **Überweisungsauftrag** . Wenn Sie die Lieferung eines Umlagerungsauftrags buchen, der den Lagerort „Unterwegs“ verwendet, sind die Artikel in der Zeile an einem Ihrer Lagerorte nicht mehr verfügbar, da sie sich im Transport befinden. Direktbuchung stellt sicher, dass kein Standort während des Transports verwendet wird und dass Versand und Empfang gleichzeitig erfolgen. Das genaue Verhalten von Direktbuchung kann je nach dem im Feld  **Direkte Umbuchung**  auf der Seite  **Lagereinrichtung**  ausgewählten Wert unterschiedlich sein.
+
+In der folgenden Tabelle werden die Unterschiede zwischen den Kombinationen beschrieben.
+
+|Fähigkeit|Das Feld  **Direktüberweisung**  ist auf der Seite  **Überweisungsauftrag**  deaktiviert.|**Direkte Überweisung** ist auf der Seite  **Überweisungsauftrag** aktiviert.</br>**Direkte Umbuchung** ist auf der Seite  **Lagereinrichtung** auf  **Direkte Umbuchung** eingestellt.|**Direkte Überweisung** ist auf der Seite  **Überweisungsauftrag** aktiviert.</br>**Direkte Umbuchung** ist auf der Seite  **Lagereinrichtung** auf  **Empfang und Versand**  eingestellt.|
+|---|---|---|---|
+|Standort während des Transports verwenden|Ja|Nein|Nein|
+|Kann Quittung ohne Versand posten.</br>Kann den  **Empfang rückgängig machen** verwenden.|Ja|Nein|Nein|
+|Teilbuchung|Ja|Nein|Ja|
+|Artikelposten|4:</br>Transfer vom Ab-Standort,</br>Transfer zu In-Transit,</br>Transfer von In-Transit,</br>Transfer zum Zielort.|2:</br>Transfer vom Ab-Standort,</br>Transfer zum Zielort.|4:</br>Transfer vom Ab-Standort,</br>Übertragen auf *leer*,</br>Überweisung von *leer*,</br>Transfer zum Zielort.|
+|Eingestellte Dokumente|Versendete Transfersendung,</br>Überweisungsbeleg gebucht.|Gebuchte Direktüberweisung|Versendete Transfersendung,</br>Überweisungsbeleg gebucht.|
+|Reservierung: Ein- und Ausreise|Ja|Ja|Ja|
+|Artikelgebühren – dem gebuchten Überweisungsbeleg zuordnen|Ja|Nein|Ja|
+|Lagerabwicklung|Vollständig|Nein|Begrenzt, (siehe unten|
+
+Lagerabwicklungsmatrix für die Konfiguration:  **Direktübertragung**  ist auf der Seite  **Transferauftrag**  aktiviert und  **Direktübertragungsbuchung**  ist auf der Seite  **Lagereinrichtung**  auf  **Direktübertragung**  eingestellt.
+
+|Von \ Bis|An: Kein Lagerumschlag|An: Lagerschein|An: Lagereinlagerung|Nach: Gezielte Einlagerung und Kommissionierung|
+|-|-|-|-|-|
+|**Von: Kein Lagerumschlag**|0|Nicht unterstützt|1, 4|Nicht unterstützt|
+|**Von: Lagerversand**|1, 2|Nicht unterstützt|1,2,4|Nicht unterstützt|
+|**Von: Lagereinlagerung**|1, 3|Nicht unterstützt|1,3,4|Nicht unterstützt|
+|**Von: Gezielte Einlagerung und Kommissionierung**|2|Nicht unterstützt|2|Nicht unterstützt|
+
+Die Zahlen in den Zellen zeigen die unterstützten Buchungsoptionen.
+
+1. Buchen aus Überweisungsauftrag. Bei manchen Kombinationen müssen Sie möglicherweise das Feld  **Zu versendende Menge**  ausfüllen.
+2. Erstellen und buchen Sie einen Lagerversand.
+3. Erstellen und buchen Sie eine Lagerkommissionierung.
+4. Erstellen und buchen Sie eine Lagereinlagerung. Bei manchen Kombinationen müssen Sie möglicherweise das Feld  **Zu versendende Menge**  ausfüllen.
+
+Unabhängig von der Methode werden die Versand- und Empfangstransaktionen durchgeführt. Sie können beispielsweise einen Transportauftrag von einem Standort, der eine Kommissionierung erfordert, zu einem Standort erstellen, der eine Einlagerung erfordert. Sie können die Lagereinlagerung erstellen und buchen. Außerdem werden sowohl die Versand- als auch die Empfangstransaktionen erstellt. Sie können solche Belege auch aus einem Transportauftrag oder einer Lagerkommissionierung heraus buchen.  
+
+Weitere Informationen zur Lagerverwaltung finden Sie unter  [Übersicht zur Lagerverwaltung](design-details-warehouse-management.md).
+
 ## So lagern Sie Artikel mit dem Artikel Umlag. Buch.-Blatt um
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Element Reclass. Erfassungen** ein und wählen Sie dann den zugehörigen Link.
@@ -117,17 +166,6 @@ Der folgende Ablauf zeigt, wie Sie den Bericht **Stapelbuchung von Verkaufsauftr
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-## Ein Umlagerungsversand rückgängig machen
-
-Wenn Sie in einem gebuchten Transportauftrag einen Mengenfehler finden, können Sie die Menge problemlos korrigieren, solange die Lieferung nicht eingeht. Auf der Seite **Poster-Übertragungssendung** erstellt die Aktion **Lieferung rückgängig machen** Korrekturzeilen wie folgt:
-
-* Der Wert im Feld **Verschickte Menge** auf dem Verkaufsauftrag wird um die Menge verringert, die Sie rückgängig gemacht haben.
-* Der Wert im Feld **Verschickte Menge** auf dem Verkaufsauftrag wird um die Menge verringert, die Sie rückgängig gemacht haben.
-* Das Kontrollkästchen **Korrektur** ist für die Zeilen aktiviert.
-
-Wenn die Menge in einem Warenausgang geliefert wurde, wird eine Korrekturzeile in den gebuchten Warenausgang eingefügt.
-
-Um die Korrektur abzuschließen, öffnen Sie den Umlagerungsauftrag erneut, geben Sie die richtige Menge ein und buchen Sie dann den Auftrag. Wenn Sie Lagerversand verwenden, um den auftrag zu versenden, erstellen und buchen Sie einen neuen Warenausgang.
 
 ## Siehe auch
 

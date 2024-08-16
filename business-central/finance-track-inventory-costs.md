@@ -7,16 +7,16 @@ ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: null
 ms.search.form: null
-ms.date: 03/08/2024
+ms.date: 07/30/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="track-item-cost-adjustments"></a>Preisregulierungen von Artikeln verfolgen
+# Preisregulierungen von Artikeln verfolgen
 
 Es ist wichtig, die Artikelkosten genau zu halten und die Zeit zwischen der Buchung eines Eintrags und der Berücksichtigung der Kosten im Hauptbuch zu verkürzen. Sie können die Leistung der Kostenanpassungen für einzelne Anpassungsausführungen und Artikel verfolgen. Sollten Fehler auftreten, können Sie die problematischen Artikel identifizieren und Korrekturen vornehmen. Beispielsweise können Sie die Artikel von Berechnungen ausschließen, um sicherzustellen, dass Anpassungen für andere Artikel nicht unterbrochen werden. Sie können die Kosten für einzelne Artikel anpassen oder Stapel von Artikeln erstellen und diese alle gleichzeitig anpassen.
 
-## <a name="start-tracking-cost-adjustments"></a>Mit der Verfolgung von Kostenanpassungen beginnen
+## Mit der Verfolgung von Kostenanpassungen beginnen
 
 Der Einstieg ist ganz einfach. Auf der Seite **Lagereinrichtung** bietet das Feld **Protokollierung der Einstandspreisregulierung** einige Optionen:
 
@@ -29,11 +29,11 @@ Der Einstieg ist ganz einfach. Auf der Seite **Lagereinrichtung** bietet das Fel
 
 Sie müssen außerdem den Aufgabenwarteschlangeneintrag **Lagerkosten buchen (1002)** einrichten. Dieser Aufgabenwarteschlangeneintrag passt die Kosten automatisch gemäß einem Zeitplan an. Mehr Informationen über Aufgabenwarteschlangeneinträge erhalten Sie unter [Aufgabenwarteschlangen für die Aufgabenplanung verwenden](admin-job-queues-schedule-tasks.md).
 
-## <a name="manage-cost-adjustments"></a>Kostenanpassungen verwalten
+## Kostenanpassungen verwalten
 
 Verwenden Sie die Seite **Lagerkostenregulierung**, um den Kostenregulierungsprozess zu verwalten und zu überwachen. Auf dieser Seite werden Artikel zusammen mit ihren Kostenparametern und dem Kostenregulierungsstatus angezeigt. Sie können die Liste filtern, um sich auf Elemente zu konzentrieren, die angepasst werden müssen oder die vom Kostenanpassungsprozess ausgeschlossen sind.
 
-### <a name="about-item-batches"></a>Info zu Artikelstapeln
+### Info zu Artikelstapeln
 
 Sie können die Kostenanpassung für mehrere Artikel durchführen, indem Sie diese in Stapeln gruppieren. Mithilfe von Stapeln ist es beispielsweise einfacher, einige Artikel separat anzupassen, da die Anpassung länger dauert. Mithilfe von Stapeln können Sie außerdem problematische Artikel identifizieren.
 
@@ -54,7 +54,7 @@ Wenn eine Ausführung für einen Stapel abgeschlossen ist, hat der Stapel einen 
 
 > [TIPP!] Jeder Stapel wird in einer separaten Sitzung ausgeführt. Um den Fortschritt zu überwachen, verwenden Sie die Aktion **Aktualisieren**.
 
-### <a name="run-cost-adjustment"></a>Einstandspreisregulierung ausführen
+### Einstandspreisregulierung ausführen
 
 Verwenden Sie die Seite **Lagerkostenregulierung**, um Anpassungen vorzunehmen.
 
@@ -69,7 +69,7 @@ Verwenden Sie die Seite **Lagerkostenregulierung**, um Anpassungen vorzunehmen.
     
     Weitere Informationen zu Stapeln finden Sie unter [Info zu Artikelstapeln](#about-item-batches).
 
-### <a name="explore-item-details"></a>Artikeldetails entdecken
+### Artikeldetails entdecken
 
 Verwenden Sie das Menü **Artikel**, um auf Informationen zu Kostenanpassungen für einen ausgewählten Artikel zuzugreifen.
 
@@ -78,34 +78,34 @@ Verwenden Sie das Menü **Artikel**, um auf Informationen zu Kostenanpassungen f
 * **Einstiegspunkte der Einstandspreisregulierung**: Öffnen Sie die Seite **Durchschnittlicher Kostenanpassungs-Einstiegspunkt**, die Sie hauptsächlich zur Berechnung der Durchschnittskosten verwenden. Auf der Seite werden Kombinationen aus Artikeln, Standorten, Varianten und Bewertungsdaten angezeigt, für die Kostenanpassungen durchgeführt werden oder durchgeführt werden müssen.
 * **Einstandspreisregulierungsbestellungen**: Öffnen Sie die **Lagerregulierungspostenaufträge**, auf der Sie Produktions- und Montageaufträge anpassen. Es zeigt, dass die Aufträge angepasst wurden oder angepasst werden müssen.
 
-### <a name="view-the-outcome"></a>Ergebnis anzeigen
+### Ergebnis anzeigen
 
 Verwenden Sie das Menü **Protokoll pro**, um das Ergebnis der Kostenanpassungen anzuzeigen:
 
 * **Ausführen**: Kostenanpassungsprotokolle für jede Ausführung anzeigen. Das Protokoll enthält Daten über den Artikelfilter, den Status (Erfolg/Fehlgeschlagen/Zeitlimit überschritten), Start- und Enddatum/-zeit, Dauer und die durch die Ausführung verursachten Kostenunterschiede.
 * **Artikel**: Detaillierte Informationen zum Anpassungsprozess für den ausgewählten Artikel anzeigen.
 
-### <a name="include-or-exclude-items-from-adjustments"></a>Artikel in Anpassungen einschließen oder daraus ausschließen
+### Artikel in Anpassungen einschließen oder daraus ausschließen
 
 Wenn ein oder mehrere Artikel fehlschlagen, können Sie die Artikel von der Anpassungsausführung ausschließen und sie dann in spätere Ausführungen einbeziehen. Wählen Sie eine der folgenden Optionen im Menü **Funktionen** aus:
 
-* **Artikel von der Regulierung ausschließen** und **Artikel in Regulierung einbeziehen**: Kostenanpassung für einen ausgewählten Artikel vorübergehend deaktivieren und dann wieder aktivieren. Durch die Kostenanpassung bleiben die Kosten für andere Artikel weiterhin korrekt, während Sie ein Problem mit einem bestimmten Artikel untersuchen.
+* **Artikel von Anpassung ausschließen** und **Artikel in Anpassung einschließen**: Kostenanpassung für einen ausgewählten Artikel vorübergehend deaktivieren und anschließend wieder aktivieren. Durch die Kostenanpassung bleiben die Kosten für andere Artikel weiterhin korrekt, während Sie ein Problem mit einem bestimmten Artikel untersuchen.
 
-## <a name="post-adjusted-costs-to-the-general-ledger"></a>Angepasste Kosten im Hauptbuch buchen
+## Angepasste Kosten im Hauptbuch buchen
 
 Normalerweise werden neue Werteinräge entsprechend dem Zeitplan für den Aufgabenwarteschlangeneintrag **Lagerkosten buchen (1002)** ins Hauptbuch gebucht. Sie können jedoch von der Seite **Lagerkostenregulierung** aus sofort Anpassungen im Hauptbuch vornehmen. Wählen Sie im Menü **Funktionen** die Option **Lagerkosten buchen** aus.
 
-## <a name="troubleshoot-cost-adjustments"></a>Fehler bei Kostenanpassungen beheben
+## Fehler bei Kostenanpassungen beheben
 
 Verwenden Sie die folgenden Optionen im Menü **Diagnose** aus, um Probleme mit Kostenanpassungsausführungen zu beheben.
 
 * **Artikeldaten exportieren**: Artikelbezogene Daten in eine Textdatei exportieren. Sie können die Datei für weitere Analysen in einer Sandbox-Umgebung verwenden oder sie an eine Supportanfrage anhängen, wenn Sie Probleme mit der Kostenberechnung untersuchen.
 * **Artikeldaten importieren**: Importiert die zuvor exportierte Textdatei zurück in die Datenbank. Diese Aktion ist nur in Sandbox-Umgebungen oder Evaluierungsunternehmen aktiviert.
 * **Einstandspreis zurücksetzen – wird reguliert**: Setzen Sie den Schalter **Einstandspreis ist reguliert** für Artikel, Produktionsaufträge oder Montageaufträge zurück. Mit dieser Einstellung können Sie für sie eine erneute Ausführung der Kostenanpassung erzwingen.
-* **Bericht zur Erkennung von Kostenproblemen**: Diagnostizieren Sie typische Datenprobleme, die zu Berechnungsfehlern bei der Kostenrechnung führen. Es prüft, ob die Artikelposten, Wertposten, Artikelanwendungseinträge und Kapazitätsposten korrekt sind.
-* **Artikeldaten löschen**: Alle artikelbezogenen Tabellen in der Datenbank löschen. Diese Aktion ist nur in Sandbox-Umgebungen oder Evaluierungsunternehmen verfügbar.
+* **Bericht zur Erkennung von Kostenproblemen**: Diagnostizieren Sie, wie typische Datenprobleme zu Berechnungsfehlern bei der Kostenkalkulation führen. Es prüft, ob die Artikelposten, Wertposten, Artikelanwendungseinträge und Kapazitätsposten korrekt sind.
+* **Artikeldaten löschen**: Löscht alle artikelbezogenen Tabellen in der Datenbank. Diese Aktion ist nur in Sandbox-Umgebungen oder Evaluierungsunternehmen verfügbar.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Artikelpreise anpassen](inventory-how-adjust-item-costs.md)  
 [Designdetails: Lagerregulierung](design-details-cost-adjustment.md)  

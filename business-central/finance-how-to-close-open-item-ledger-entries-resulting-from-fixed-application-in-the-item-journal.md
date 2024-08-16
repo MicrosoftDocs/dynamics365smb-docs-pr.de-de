@@ -5,12 +5,13 @@ author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.form: 40
-ms.date: 12/12/2023
+ms.date: 07/30/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal"></a>Offene Artikelposten aus einem festen Ausgleich im Artikel Buch.-Blatt schließen
+
+# Schließen offener Lagerposten aus dem festen Ausgleich im Lagerjournal
 
 Sie können das Feld **Ausgegl. von Posten** auf der Seite **Artikel Buch.-Blatt** verwenden, um einen festen Ausgleich zwischen einer eingehenden Transaktion und der ursprünglichen ausgehenden Transaktion zu erstellen. Beispielsweise um die ausgehende Transaktion zu korrigieren oder ihre Rückgabe zu verarbeiten.  
 
@@ -23,7 +24,7 @@ Sie können Ausgleichsposten unter bestimmten Bedingungen ändern und erneut anw
 
 Der folgende Ablauf zeigt, wie solche Posten durch Ausführen von zwei korrigierenden Buchungen im Artikel Buch.-Blatt geschlossen werden.  
 
-## <a name="to-close-open-item-ledger-entries-that-result-from-a-fixed-application-in-the-item-journal"></a>So schließen Sie offene Artikelposten, die aus einem festen Ausgleich im Artikel Buch.-Blatt entstanden sind
+## So schließen Sie offene Artikelposten, die aus einem festen Ausgleich im Artikel Buch.-Blatt entstanden sind  
 
 1. Verwenden Sie das Feld **Ausgegl. von Posten**, um einen Zugang mit der entsprechenden Menge zu buchen. Dadurch wird der ursprüngliche negative Posten mit einem festen Ausgleich geschlossen.  
 
@@ -32,13 +33,13 @@ Der folgende Ablauf zeigt, wie solche Posten durch Ausführen von zwei korrigier
 
     Das Feld **Ausgegl.-von-Posten** gibt an, ob die Menge in der Artikel Buch.-Blattzeile mit einem bereits gebuchten Beleg ausgeglichen werden soll. Geben Sie in diesem Fall die Postennummer des Artikelpostens ein, der mit der Artikel Buch.-Blattzeile ausgeglichen werden soll.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
-[Artikelposten entfernen und erneut ausgleichen](finance-how-to-remove-and-reapply-item-entries.md)  
-[Verarbeiten von Verkaufsrücklieferung und Stornierungen](sales-how-process-sales-returns-cancellations.md)  
-[Einrichten der Lagerwertberechnung und der Kostenrechnung](finance-set-up-inventory-valuation-and-costing.md)  
-[Verwalten der Lagerregulierung](finance-manage-inventory-costs.md)  
-[Designdetails: Kostenberechnungsmethoden](design-details-costing-methods.md)
+[Artikelposten entfernen und erneut ausgleichen](finance-how-to-remove-and-reapply-item-entries.md)    
+[Retouren und Stornierungen verarbeiten](sales-how-process-sales-returns-cancellations.md)    
+[Einrichten der Bestandsbewertung und -kalkulation](finance-set-up-inventory-valuation-and-costing.md)    
+[Verwalten der Lagerregulierung](finance-manage-inventory-costs.md)    
+[Designdetails: Kostenberechnungsmethoden](design-details-costing-methods.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

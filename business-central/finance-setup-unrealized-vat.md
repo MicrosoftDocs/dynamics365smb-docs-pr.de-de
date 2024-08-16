@@ -1,22 +1,22 @@
 ---
-title: Einrichten von unrealisierter Mehrwertsteuer
+title: Einrichten der nicht realisierten Mehrwertsteuer
 description: 'Wenn Sie Einnahmen- und Ausgabenrechnung verwenden, können Sie angeben, wie Sie unrealisierte MwSt. für Verkäufe und Einkäufe behandeln möchten.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'cash, VAT, unrealized, cash-based'
 ms.search.form: '118, 472, 473'
-ms.date: 04/01/2021
+ms.date: 08/13/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# <a name="set-up-unrealized-vat-for-cash-based-accounting"></a>Einrichten unrealisierter MwSt. für Einnahmen- und Ausgabenrechnung
+# Einrichten der nicht realisierten Mehrwertsteuer für die Einnahmen-Ausgaben-Rechnung
 
-Wenn Sie Einnahmen- und Ausgabenrechnungs-Methoden ausgleichen, können Sie in [!INCLUDE[prod_short](includes/prod_short.md)] festlegen, wie unrealisierte MwSt. zu behandeln ist.
+Wenn Sie einnahmenbasierte Buchhaltungsmethoden verwenden, können Sie die [!INCLUDE[prod_short](includes/prod_short.md)] Verarbeitung nicht realisierter Mehrwertsteuer einrichten.
 
-## <a name="to-use-general-ledger-accounts-for-unrealized-vat"></a>Verwenden von Sachkonten für unrealisierte MwSt.
+## Verwenden von Sachkonten für unrealisierte MwSt.
 
 Sie können festlegen, dass MwSt.-Beträge beim Buchen einer Rechnung berechnet und auf ein temporäres Sachkonto gebucht werden und dass die Beträge erst dann auf das korrekte Sachkonto gebucht und in die MwSt.-Abrechnungen einbezogen werden sollen, wenn die eigentliche Zahlung der Rechnung gebucht wird. Bevor Sie dies tun können, müssen Sie die [MwSt.-Buchungsmatrix](finance-setup-vat.md) ausfüllen.
 
@@ -31,7 +31,7 @@ Um die Konten für unrealisierte MwSt. zu verwenden, führen Sie diese Schritte 
 | Option | Beschreibung |
 | --- | --- |
 | Leer | Wählen Sie diese Option, wenn Sie die Funktion "Unrealisierte MwSt." nicht verwenden möchten. |
-| Prozent | Zahlungen decken sowohl MwSt und den Rechnungsbetrag im Verhältnis zur prozentualen Zahlung des zu begleichenden Gesamtbetrags. Der gezahlte Steuerbetrag wird vom unrealisierten MwSt-Konto auf das realisierte MwSt-Konto gebucht. |
+| Prozentsatz | Zahlungen decken sowohl die Mehrwertsteuer als auch den Rechnungsbetrag im Verhältnis zum prozentualen Anteil der Zahlung am verbleibenden Rechnungsbetrag ab. Der gezahlte Steuerbetrag wird vom unrealisierten MwSt-Konto auf das realisierte MwSt-Konto gebucht. |
 | Erster | Zahlungen decken zuerst die MwSt und dann den Rechnungsbetrag. In diesem Fall entspricht der vom Konto für die unrealisierte Mehrwertsteuer auf das Konto für die realisierte Mehrwertsteuer transferierte Betrag dem Zahlungsbetrag (bis die Mehrwertsteuer vollständig beglichen ist). |
 | Letzter | Zahlungen decken zuerst den Rechnungsbetrag und dann die MwSt. In diesem Fall wird erst dann ein Betrag vom Konto für die unrealisierte Mehrwertsteuer auf das Konto für die realisierte Mehrwertsteuer transferiert, wenn der Zahlungsbetrag (ohne Mehrwertsteuer) vollständig beglichen ist. |
 | Erste (ganz bezahlt) | Zahlungen decken zuerst die MwSt. (wie die _Erste_ Option), aber es werden erst dann Beträge auf das Steuerkonto transferiert, wenn die MwSt. vollständig gezahlt wurde. |
@@ -46,7 +46,7 @@ Um die Konten für unrealisierte MwSt. zu verwenden, führen Sie diese Schritte 
 > [!NOTE]  
 > Der MwSt-Betrag wird auf dieses Steuerkonto gebucht, wo er verbleibt, bis die Zahlung des Debitors gebucht wird. Der Betrag wird dann auf das Sachkonto für Mehrwertsteuerkäufe transferiert.
 
-## <a name="see-also"></a>Siehe auch
-[Berechnungen einrichten und Buchungsmethoden für Mehrwertsteuer](finance-setup-vat.md)
+## Siehe auch
+[Berechnungen einrichten und Buchungsmethoden für Mehrwertsteuer](finance-setup-vat.md)    
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
