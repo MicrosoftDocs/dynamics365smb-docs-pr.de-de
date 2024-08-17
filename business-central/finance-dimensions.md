@@ -12,7 +12,7 @@ ms.search.keywords: 'analysis, history, track, business intelligence'
 ms.search.form: '408, 479, 480, 481, 484, 536, 537, 538, 539, 540, 541, 542, 543, 544, 545, 548, 560, 562, 564, 567, 568, 577, 578, 580, 699, 1343, 2580, 2581, 2582, 2583, 2584, 2585, 2586, 2587, 2588, 2590, 2591, 2592, 2593, 9083, 9233, 9251, 9252, 9253'
 ---
 
-# Arbeiten mit Dimensionen
+# <a name="work-with-dimensions"></a>Arbeiten mit Dimensionen
 
 Dimensionen sind Attribute und Werte, die Posten kategorisieren, sodass Sie sie auf Dokumenten wie Verkaufsaufträgen verfolgen und analysieren können. Dimensionen können beispielsweise angegeben, aus welchem Projekt oder aus welcher Abteilung ein Posten stammt.  
 
@@ -25,7 +25,7 @@ Ein weiteres Beispiel ist die Festlegung einer Dimension mit dem Namen *Abteilun
 * Wer ihn verkauft hat.
 * Welcher Kunde ihn gekauft hat.
 
-## Analysieren nach Dimensionen
+## <a name="analyze-by-dimensions"></a>Analysieren nach Dimensionen
 
 Dimensionen spielen eine wichtige Rolle in der Business Intelligence, wie auch beim Definieren von Analyseansichten. Erfahren Sie mehr unter [Daten nach Dimensionen analysieren](bi-how-analyze-data-dimension.md).
 
@@ -35,13 +35,13 @@ Dimensionen spielen eine wichtige Rolle in der Business Intelligence, wie auch b
 > [!NOTE]
 > Analyseansichten verwenden oft Daten aus Dimensionen. Wenn Sie feststellen, dass bei gebuchten Sachkontenbuchungen eine falsche Dimension verwendet wurde, können Sie die Dimensionswerte korrigieren und Ihre Analyseansichten aktualisieren. Dies trägt dazu bei, dass Ihre Finanzberichte und Analysen korrekt bleiben. Erfahren Sie mehr unter [Problembehandlung und Korrektur von Dimensionen](finance-troubleshooting-correcting-dimensions.md#changing-dimension-assignments-after-posting).
 
-## Dimensionen-Sets
+## <a name="dimension-sets"></a>Dimensionen-Sets
 
 Ein Dimensionssatz ist eine eindeutige Kombination von Dimensionswerten. Sie werden als Dimensionssatz-Einträge in der Datenbank gespeichert. Jeder Dimensionssatzposten stellt einen einzelnen Dimensionswert dar. Außerdem wird jedes Dimensionen-Set und jeder Dimensionen-Set-Eintrag darin durch eine allgemeine Dimensionen-Set-ID identifiziert.  
 
 Wenn Sie eine neue Buch.-Blattzeile, einen Belegkopf oder eine Belegzeile erstellen, können Sie eine Kombination von Dimensionswerten angeben. Anstatt jeden Dimensionswert explizit in der Datenbank zu speichern, wird eine Dimensionssatz-ID der Buch.-Blattzeile, dem Belegkopf oder der Belegzeile zugewiesen, um den Dimensionssatz anzugeben.  
 
-## Dimensionen einrichten
+## <a name="set-up-dimensions"></a>Dimensionen einrichten
 
 Sie können Dimensionen und Dimensionswerte definieren, um Erfassungen und Dokumente wie Verkaufsaufträge und Bestellungen zu kategorisieren. Sie errichten Dimensionen auf der Seite **Dimensionen**, wo Sie eine Zeile für jede Dimension erstellen, wie *Projekt*, *Abteilung*, *Bereich* und *Verkäufer*.
 
@@ -55,7 +55,7 @@ Wenn die Dimensionen und Werte festgelegt sind, können Sie auf der Seite **Haup
 > [!NOTE]
 > Nachdem Sie eine neue Dimension in einem Eintrag verwendet haben, z. B. in einer Zeile oder einem neuen Datensatz, können Sie die Dimension nicht löschen, selbst wenn Sie den Eintrag nicht buchen. Dies ist darauf zurückzuführen, dass [!INCLUDE[prod_short](includes/prod_short.md)] sofort einen Dimensionssatz für die Zeile oder den Datensatz erstellt. Weitere Informationen finden Sie im Abschnitt [Dimensions-Sets](finance-dimensions.md#dimension-sets).
 
-### So richten Sie Standarddimensionen für Debitoren, Kreditoren und andere Konten ein
+### <a name="to-set-up-default-dimensions-for-customers-vendors-and-other-accounts"></a>So richten Sie Standarddimensionen für Debitoren, Kreditoren und andere Konten ein
 
 Sie können eine Standarddimension für ein bestimmtes Konto einrichten. Die Dimension wird in das Journal oder den Beleg kopiert, wenn Sie die Kontonummer in eine Zeile eingeben, aber Sie können den Code in der Zeile löschen oder ändern, falls erforderlich. Sie können auch eine Dimension für die Buchung einer Buchung auf einem bestimmten Kontotyp verlangen. > 
 
@@ -92,7 +92,7 @@ Sie können eine Standarddimension für ein bestimmtes Konto einrichten. Die Dim
 > [!NOTE]  
 > Wenn ein Konto eine andere Dimension haben muss als die Standarddimension, die der Kontoart zugewiesen ist, müssen Sie eine neue Standarddimension für das Konto festlegen. Die Standarddimension für das Konto ersetzt dann die Vorgabedimension für die Tabelle.  
 
-### Prioritäten für Standarddimensionen einrichten:
+### <a name="to-set-up-default-dimension-priorities"></a>Prioritäten für Standarddimensionen einrichten:
 
 Verschiedene Kontotypen, wie z.B. ein Kundenkonto und ein Artikelkonto, können unterschiedliche Standarddimensionen haben. Folglich kann ein Eintrag mehr als eine vorgeschlagene Standarddimension haben. Um solche Konflikte zu vermeiden, können Sie in den verschiedenen Quellen Prioritätsregeln hinterlegen.
 
@@ -104,7 +104,7 @@ Verschiedene Kontotypen, wie z.B. ein Kundenkonto und ein Artikelkonto, können 
 > [!IMPORTANT]  
 > Wenn Sie zwei Tabellen mit der gleichen Priorität für denselben Quellcode festlegen, wird mit [!INCLUDE[prod_short](includes/prod_short.md)] immer die Tabelle mit der niedrigsten Tabellen-ID ausgewählt.  
 
-### Dimensionskombinationen einrichten:
+### <a name="to-set-up-dimension-combinations"></a>Dimensionskombinationen einrichten:
 
 Um das Buchen von Posten mit widersprüchlichen oder irrelevanten Dimensionen zu vermeiden, können Sie bestimmte Kombinationen von Dimensionen sperren oder einschränken. Eine gesperrte Dimensionskombination bedeutet, dass Sie unabhängig von den Dimensionswerten nicht beide Dimensionen auf denselben Eintrag buchen können. Im Gegensatz dazu bedeutet eine eingeschränkte Dimensionskombination, dass Sie beide Dimensionen auf denselben Eintrag buchen können, allerdings nur für bestimmte Kombinationen von Dimensionswerten.
 
@@ -127,7 +127,7 @@ Um das Buchen von Posten mit widersprüchlichen oder irrelevanten Dimensionen zu
 >
 > Um anstelle des Codes den Namen der Dimension anzeigen zu lassen, wählen Sie das Feld **Spaltennamen anzeigen**.
 
-### So richten Sie globale und Shortcut-Dimensionen ein
+### <a name="to-set-up-global-and-shortcut-dimensions"></a>So richten Sie globale und Shortcut-Dimensionen ein
 
 Globale und Shortcut-Dimensionen können überall in [!INCLUDE[prod_short](includes/prod_short.md)] als Filter verwendet werden, auch in Berichten, Batchaufträgen, Posten und Analyseansichten. Globale Dimensionen und Verknüpfungen können direkt eingefügt werden, ohne dass Sie die Seite **Dimensionen** öffnen müssen. In Buch.-Blattzeilen und Belegzeilen können Sie globale und Shortcutdimensionen in einem Feld der Zeile auswählen. Sie können zwei globale und acht Shortcutdimensionen einrichten. Wählen Sie die Dimensionen, die Sie am häufigsten verwenden.
 
@@ -142,7 +142,7 @@ Globale und Shortcut-Dimensionen können überall in [!INCLUDE[prod_short](inclu
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol, geben Sie **Hauptbuchhaltung Einrichtung** ein und wählen Sie dann den entsprechenden Link.
 2. Füllen Sie die Felder im Inforegister **Dimensionen** aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-#### So ändern Sie globale Dimensionen
+#### <a name="to-change-global-dimensions"></a>So ändern Sie globale Dimensionen
 
 Wenn Sie eine globale oder verkürzte Dimension ändern, werden alle mit dieser Dimension gebuchten Einträge aktualisiert. Da dieser Prozess zeitaufwändig sein und die Leistung beeinträchtigen kann, stehen zwei verschiedene Modi zur Verfügung, um den Prozess an die Größe der Datenbank anzupassen.  
 
@@ -164,7 +164,7 @@ Wenn Sie eine globale oder verkürzte Dimension ändern, werden alle mit dieser 
 6. Melden Sie sich von [!INCLUDE[prod_short](includes/prod_short.md)] ab und dann wieder an.
 7. Wählen Sie die Aktion **Start**, um die parallele Verarbeitung der Änderungen an den Dimensionen zu beginnen.
 
-### Beispiel für die Einrichtung von Dimensionen
+### <a name="example-of-dimension-setup"></a>Beispiel für die Einrichtung von Dimensionen
 
 Nehmen wir an, Ihre Firma möchte Transaktionen auf der Grundlage der Organisationsstruktur und der geografischen Standorte verfolgen. Zu diesem Zweck legen Sie auf der Seite **Dimensionen** zwei Dimensionen fest:
 
@@ -205,7 +205,7 @@ Für **ABTEILUNG** fügen Sie die folgenden Dimensionswerte hinzu:
 
 Mit dieser Einrichtung können Sie Ihre beiden Dimensionen als die beiden globalen Dimensionen auf der Seite **Hauptbuchhaltung Einrichtung** hinzufügen. Das bedeutet, dass Sie BEREICH und ABTEILUNG als Filter für Hauptbuch-Einträge sowie in allen Berichten verwenden können. Beide globalen Dimensionen stehen auch als Shortcutdimensionen in Buch.-Blattzeilen und Belegköpfen zur Verfügung.
 
-## Einen Überblick über mehrfach verwendete Dimensionen erhalten
+## <a name="getting-an-overview-of-dimensions-used-multiple-times"></a>Einen Überblick über mehrfach verwendete Dimensionen erhalten
 
 Die Seite **Standarddimensionen-Mehrfach** gibt an, wie eine Gruppe von Konten Dimensionen und Dimensionswerte verwendet. Sie können dies festlegen, indem Sie mehrere Konten markieren und dann die Standarddimensionen und Dimensionswerte für diese Konten festlegen. Danach schlägt die Anwendung diese Dimensionen und Dimensionswerte immer dann vor, wenn eines dieser Konten verwendet wird, z.B. in einer Buchungsblattzeile. Dies vereinfacht das Buchen für den Anwender, da die Anwendung die Dimensionsfelder automatisch ausfüllt. Beachten Sie jedoch auch, dass die vorgeschlagenen Dimensionen z.B. in einer Buchungsblattzeile geändert werden können.
 
@@ -217,7 +217,7 @@ Die Seite **Vorgabedimensionen - Mehrfach** enthält die folgenden Felder:
 |**Dimensionswertcode**|Zeigt entweder einen einzelnen Dimensionswert oder den Ausdruck (Konflikt) an. Wenn eine Dimensionswert in dem Feld angezeigt wird, dann haben alle markierten Konten denselben Vorgabedimensionswert für eine Dimension. Wenn in dem Feld der Begriff (Konflikt) angezeigt wird, dann haben nicht alle markierten Konten denselben Standardwert für eine Dimension. Wenn Sie das Feld **Dimensionscode** auswählen, sehen Sie eine Liste aller verfügbaren Dimensionswerte für eine Dimension. Wenn Sie einen Dimensionswert auswählen, wird dieser als Standard-Dimensionswert für alle markierten Konten definiert.|
 |**Dimensionswertbuchung**|Zeigt entweder eine einzelne Dimensionswertbuchung oder den Ausdruck (Konflikt) an. Wenn eine Dimensionswertbuchungsregel in dem Feld angezeigt wird, dann haben alle markierten Konten dieselbe Dimensionswertbuchungsregel für eine Dimensionswertbuchung. Wenn in dem Feld der Begriff (Konflikt) angezeigt wird, gilt nicht für alle markierten Konten die gleiche Buchungsregel für einen Dimensionswert. Wenn Sie das Feld **Wertbuchung** auswählen, sehen Sie eine Liste der Wertbuchungsregeln für eine Dimension. Wenn Sie eine Wertbuchungsregel auswählen, wird diese auf alle markierten Konten angewendet.|
 
-## Dimensionen verwenden
+## <a name="use-dimensions"></a>Dimensionen verwenden
 
 In einem Beleg, z. B. einem Verkaufsauftrag, können Sie Dimensionsinformationen sowohl für eine einzelne Belegzeile als auch für den Beleg selbst hinzufügen. So könnten Sie auf der Seite **Verkaufsauftrag** Dimensionswerte für die ersten beiden Verknüpfungsdimensionen der einzelnen Verkaufszeilen eingeben und dann weitere Dimensionsinformationen hinzufügen, wenn Sie die Schaltfläche **Dimensionen** wählen.  
 
@@ -225,7 +225,7 @@ Wenn Sie stattdessen in einem Buch.-Blatt arbeiten, können Sie auf dieselbe Art
 
 Sie können auch Standarddimensionen für Konten oder Kontoarten festlegen, so dass Dimensionen und Dimensionswerte automatisch ausgefüllt werden.
 
-### Einsehen von Globalen Dimensionen in Postenseiten
+### <a name="to-view-global-dimensions-in-ledger-entry-pages"></a>Einsehen von Globalen Dimensionen in Postenseiten
 
 Globale Dimensionen sind immer firmenbezogen und nach Unternehmen benannt. Um die globalen Dimensionen für das Unternehmen anzuzeigen, öffnen Sie die Seite **Finanzbuchhaltung Einrichtung**.
 
@@ -239,7 +239,7 @@ Auf einer Postenseite können Sie sehen, ob für Posten globale Dimensionen vorh
 > [!NOTE]  
 > Auf der Seite **Sachkonto Dimensionen** werden die Dimensionen für jeweils einen Sachkontoeintrag angezeigt. Sie werden sehen, dass sich der Inhalt der Seite **Sachkonto Dimensionen** entsprechend ändert, wenn Sie durch die Ledgereinträge blättern.
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Business Intelligence](bi.md)    
 [Finanzen](finance.md)    

@@ -12,11 +12,11 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Bankguthaben überweisen
+# <a name="transfer-bank-funds"></a>Bankguthaben überweisen
 
 Manchmal müssen Sie möglicherweise einen Betrag von einem Bankkonto auf ein anderes überweisen. [!INCLUDE[prod_short](includes/prod_short.md)]  Hierzu müssen Sie die Transaktion auf der Seite  **Allgemeine Journale**  buchen. Die Aufgabe variiert abhängig davon, ob die Bankkonten dieselbe Währung oder unterschiedlichen Währungen verwenden.
 
-## So buchen Sie Überweisungen zwischen Bankkonten mit demselben Währungscode:
+## <a name="to-post-a-transfer-between-bank-accounts-with-the-same-currency-code"></a>So buchen Sie Überweisungen zwischen Bankkonten mit demselben Währungscode:
 
 1. Wählen Sie das ![Glühbirne, die das „Sie wünschen ...“-Feature öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Allgemeine Erfassungen** ein, und wählen Sie dann den entsprechenden Link.
 2. Füllen Sie in einer Buch.-Blattzeile die Felder **Buchungsdatum** und **Belegnr.** aus.
@@ -29,7 +29,7 @@ Manchmal müssen Sie möglicherweise einen Betrag von einem Bankkonto auf ein an
 7. Im Feld **Gegenkontonr.** wählen Sie das Bankkonto aus, auf das Sie die Beträge überweisen möchten.
 8. Buchen Sie das Buch.-Blatt.
 
-## Überweisungen zwischen Bankkonten mit verschiedenen Währungscodes buchen:
+## <a name="to-post-a-transfer-between-bank-accounts-with-different-currency-codes"></a>Überweisungen zwischen Bankkonten mit verschiedenen Währungscodes buchen:
 
 Um Beträge zwischen Bankkonten zu transferieren, die unterschiedliche Währungen verwenden, müssen Sie zwei Fibu Buch.-Blattzeilen buchen.
 
@@ -66,7 +66,7 @@ Um Beträge zwischen Bankkonten zu transferieren, die unterschiedliche Währunge
     > Ein Betrag ohne Vorzeichen ist eine Belastung, ein Betrag mit Minuszeichen ist eine Gutschrift.
 10. Buchen Sie die Buch.-Blattzeile.
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Abstimmen von Bankkonten](bank-manage-bank-accounts.md)  
 [Einrichten von Banken](bank-setup-banking.md)  

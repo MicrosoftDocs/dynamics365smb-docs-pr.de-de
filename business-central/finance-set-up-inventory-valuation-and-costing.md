@@ -10,7 +10,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Einrichten der Bestandsbewertung und -kalkulation
+# <a name="set-up-inventory-valuation-and-costing"></a>Einrichten der Bestandsbewertung und -kalkulation
 
 Um sicherzustellen, dass Lagerregulierungen ordnungsgemäß aufgezeichnet werden, müssen Sie verschiedene Felder und Seiten einrichten, bevor Sie Artikeltransaktionen durchführen können. In der Regel wählen Unternehmen eine bestimmte Lagerabgangsmethode und wenden diese auf Lagerartikel an, beispielsweise um den Wert von auf Lager befindlichen Artikel besser nachzuverfolgen.  
 
@@ -33,7 +33,7 @@ Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Artikel
 |Sicherstellen, dass Einkaufsreklamationen mit der ursprünglichen eingehenden Transaktion ausgeglichen werden, um den Lagerwert zu erhalten.|Das Feld **Exakte Einstandspreisstornierung notwendig** auf der Seite **Kreditoren und Einkauf**|
 |Einrichten der Rundungsregeln, die beim Regulieren oder Vorschlagen von Artikelpreisen sowie beim Regulieren oder Vorschlagen von Einstandspreisen angewendet werden|**Rundungsmethode**|  
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Verwalten der Lagerregulierung](finance-manage-inventory-costs.md)    
 [Allgemeine Bestandsinformationen einrichten](inventory-how-setup-general.md)    

@@ -10,17 +10,17 @@ ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
 
-# Schließen von Erfolgskonten
+# <a name="close-income-statement-accounts"></a>Schließen von Erfolgskonten
 
 Wenn ein Geschäftsjahr vorbei ist, müssen die Perioden, aus denen es besteht, geschlossen werden. Verwenden Sie dazu den Stapelverarbeitungsjob **GuV-Konten Nullstellung**. Dieser Job überträgt die Ergebnisse des Jahrs auf ein Bilanzkonto und führt die GuV-Kontennullstellung durch. Hierfür erstellen Sie Zeilen in einem Buch.-Blatt, die Sie dann buchen können.
 
-## Verwenden Sie dazu den Stapelverarbeitungsjob GuV-Konten Nullstellung.
+## <a name="to-run-the-close-income-statement-batch-job"></a>Verwenden Sie dazu den Stapelverarbeitungsjob GuV-Konten Nullstellung.
 
 1. Schließen Sie das Geschäftsjahr ab. Das Geschäftsjahr muss geschlossen werden, bevor die Stapelverarbeitung aufgerufen werden kann. Weitere Informationen finden Sie unter [Abschließen von Buchhaltungsperioden](year-close-account-periods.md).
 2. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Gewinn- und Verlustrechnung Nullstellung abschließen** ein, und wählen Sie dann den zugehörigen Link.
 3. Wählen Sie die Schaltfläche **OK**, um den Batchauftrag zu starten.
 
-## Mehr Informationen zum Stapelverarbeitungsjob GuV-Konten Nullstellung
+## <a name="about-the-close-income-statement-batch-job"></a>Mehr Informationen zum Stapelverarbeitungsjob GuV-Konten Nullstellung
 
 Mithilfe dieses Batchauftrags werden alle Sachkonten der Art "GuV" bearbeitet und Buchungszeilen erzeugt, die eine Nullstellung ihrer Salden bewirken. Anders ausgedrückt,entspricht jeder Posten der Summe aller Sachposten auf dem Konto im Geschäftsjahr. Diese neuen Posten werden in ein Buch.-Blatt eingefügt, in dem Sie ein Gegenkonto und ein Abschlusskonto GuV in der Bilanz angeben müssen, bevor diese gebucht werden. Wenn Sie das Buch.-Blatt buchen, wird ein Posten auf jedes GuV-Konto gebucht, sodass der Saldo des Kontos Null ist und gleichzeitig das Jahresergebnis in die Bilanz übertragen wird.
 
@@ -30,7 +30,7 @@ Das Datum, das von dem Batchauftrag in die Zeilen eingefügt wird, ist stets das
 
 Die Stapelverarbeitung **GuV Konten-Nullstellung** kann mehrmals aufgerufen werden. Sie können im vorigen Geschäftsjahr buchen, selbst wenn die GuV Konten Nullstellung bereits vorgenommen wurde, sofern Sie die Stapelverarbeitung erneut ausführen.
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Bücher schließen](year-close-books.md)    
 [Buchen des Jahresabschlusspostens](year-how-post-year-end-close-entry.md)    

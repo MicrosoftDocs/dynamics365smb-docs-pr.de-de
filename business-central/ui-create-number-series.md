@@ -11,7 +11,7 @@ ms.date: 05/07/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Nummernserie erstellen
+# <a name="create-number-series"></a>Nummernserie erstellen
 
 Für jeden eingerichteten Mandanten müssen eindeutige Identifizierungscodes für Elemente wie Sachkonten, Debitor-/Kreditorkonten, Rechnungen und andere Belege zugeordnet werden. Die Nummerierung ist jedoch für die Identifizierung nicht wichtig. Ein durchdachtes Nummerierungssystem trägt zur einfacheren Verwaltung und besseren Analysierbarkeit des Mandanten bei, und kann zu einer Verringerung von Eingabefehlern beitragen.
 
@@ -32,11 +32,11 @@ Sie legen in der Regel die Nummernserie fest, um automatisch die nächste fortla
 
 Verwenden Sie Nummernserienbeziehungen, wenn Sie für eine Masterdatenart mehrere Nummernseriencodes verwenden möchten – beispielsweise, um für unterschiedliche Artikelkategorien unterschiedliche Nummernserien zu verwenden.
 
-## Lücken in Nummernserien
+## <a name="gaps-in-number-series"></a>Lücken in Nummernserien
 
 Nicht alle Datensätze, die Sie in [!INCLUDE[prod_short](includes/prod_short.md)] erstellen sind Finanztransaktionen, die fortlaufend nummeriert werden müssen. Debitorenkarten, Verkaufsangebote und Lageraktivitäten sind Beispiele für Datensätze, denen eine Nummer aus einer Nummernreihe zugewiesen wurde, die jedoch keiner Finanzprüfung unterliegen und/oder die gelöscht werden können. Für solche Nummernserien können Sie das Kontrollkästchen **Lücken in Nr. zulassen** auf der Seite **Serienlinien** auswählen. Diese Einstellung kann auch nach dem Erstellen der Nummernserie geändert werden. Weitere Informationen zum Erstellen einer Vorlage finden Sie unter [Eine neue Nummernserie erstellen](ui-create-number-series.md#to-create-a-new-number-series).
 
-## Verhalten des Nr.- Felder auf Belegen und Karten
+## <a name="behavior-of-the-no-field-on-documents-and-cards"></a>Verhalten des Nr.- Felder auf Belegen und Karten
 
 In den Feldern „Vertrieb“, „Einkauf“, „Umlagerung“ und „Servicebelege“ und auf allen Karten kann das **Nr.**- Feld automatisch aus einer vordefinierten Nummernserie ausgefüllt werden. Sie können es auch manuell hinzufügen. Allerdings kann unter bestimmten Umständen das **Nr.**- Feld unsichtbar sein, damit Sie es nicht bearbeiten können.  
 
@@ -60,7 +60,7 @@ Wenn Sie einen neuen Beleg oder eine Karte öffnen, für den bzw. die eine Numme
 >
 > Das Gleiche gilt, wenn Sie Servicemanagementfunktionen verwenden. Um das Problem zu beheben, gehen Sie zur Seite **Serviceverwaltungseinrichtung** und wählen Sie das Feld **Serviceartikelnummern** aus, um alle zugehörigen Nummernserien zu öffnen und auf **Manuelle Nr.** festzulegen.
 
-## Erstellen von Nummernserien
+## <a name="to-create-a-new-number-series"></a>Erstellen von Nummernserien
 
 1. Wählen Sie das Symbol ![Glühbirne, die die „Sie wünschen ...“-Funktion öffnet](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Nummernserie** ein, und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie die Aktion **Neu**.  
@@ -74,7 +74,7 @@ Wenn Sie einen neuen Beleg oder eine Karte öffnen, für den bzw. die eine Numme
 
 Sie können den Vorlagen, die Sie für die verschiedenen Arten von Kunden und Kreditoren festgelegt haben, Nummernserien zuweisen, die Ihre Vertriebsmitarbeiter und Einkäufer am häufigsten eintragen. Legen Sie in diesem Fall die entsprechenden Zahlenserien fest, verknüpfen Sie sie über Beziehungen und fügen Sie dann die erste Zahlenserie in der entsprechenden Beziehung auf der entsprechenden Einrichtungsseite hinzu. Wenn ein Benutzer dann einen Debitor erstellt, wählt er die relevante Vorlage aus, und dem neuen Debitor wird eine Nummer aus der Nummernserie zugewiesen, die für diese Vorlage definiert ist.  
 
-## Verbindungen zwischen Nummernserien herstellen:
+## <a name="to-create-relationships-between-number-series"></a>Verbindungen zwischen Nummernserien herstellen:
 
 Wenn Sie mehr als einen Nummernseriencode für dieselbe Art von grundlegenden Daten oder Geschäftsvorfällen eingerichtet haben, können Sie Verbindungen zwischen diesen Codes herstellen. Dann können Sie zwischen den verschiedenen Codes auswählen, wenn Sie eine Nummer verwenden wollen. Wenn Sie eine Beziehung zwischen einer Gruppe von Zahlenreihen festlegen, ordnen Sie alle zugehörigen Reihen einem Zahlenreihencode zu. Dann können Sie diesen Code in ein Feld auf dem Inforegister **Nummerierung** auf einer der entsprechenden Einrichtungsseite eingeben, z.B. **Einrichtung Debitoren & Verkauf**.  
 
@@ -86,7 +86,7 @@ Wenn Sie mehr als einen Nummernseriencode für dieselbe Art von grundlegenden Da
 
 Wenn Sie jetzt etwas einrichten, was eine Nummer benötigt, können Sie die von Ihnen erzeugten Verbindungen verwenden, um zwischen den verbundenen Nummernserien auszuwählen.
 
-## Einrichten, ob eine Nummernserie verwendet wird
+## <a name="to-set-up-where-a-number-series-is-used"></a>Einrichten, ob eine Nummernserie verwendet wird
 
 Der folgende Ablauf zeigt, wie Nummernserien für den Verkaufsbereich eingerichtet werden. Die Schritte sind gleich wie bei anderen Bereichen.  
 
@@ -95,7 +95,7 @@ Der folgende Ablauf zeigt, wie Nummernserien für den Verkaufsbereich eingericht
 
 Die ausgewählten Anzahl wird nun verwendet, um **Nr.** auszufüllen Feld auf der fraglichen Karte oder auf dem fraglichen Dokument entsprechend den Einstellungen, die Sie in der Nummernserie erstellt haben.  
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Einrichten [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

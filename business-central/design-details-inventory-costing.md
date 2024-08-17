@@ -12,13 +12,13 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Designdetails: Lagerbewertung
+# <a name="design-details-inventory-costing"></a>Designdetails: Lagerbewertung
 
 Diese Dokumentation stellt einen detaillierten technischen Einblick in die Konzepte und Prinzipien bereit, die in den Lagerkostenfunktionen in [!INCLUDE[prod_short](includes/prod_short.md)] verwendet werden.  
 
 Die Kostenverwaltung, die auch als "Lagerabgang" bezeichnet wird, dient zum Erfassen und Melden der Betriebskosten eines Unternehmens.  
 
-## In diesem Abschnitt
+## <a name="in-this-section"></a>In diesem Abschnitt
 
 [Designdetails: Lagerabgangsmethoden](design-details-costing-methods.md)  
 [Designdetails: Artikelausgleich](design-details-item-application.md)  
