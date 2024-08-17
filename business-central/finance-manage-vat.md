@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# <a name="vat-management-overview"></a>Mehrwertsteuerverwaltung – Übersicht
+# Mehrwertsteuerverwaltung – Übersicht
 Die Mehrwertsteuer (MwSt.) ist eine indirekte Steuer auf den Verbrauch von Waren und Dienstleistungen. Die Mehrwertsteuer wird auf jeder Stufe der Lieferkette erhoben, wo die Wertschöpfung von der Erstproduktion bis zum Verkaufsort erfolgt. Informationen zum Einstieg in die Mehrwertsteuerverwaltung finden Sie in den folgenden Artikeln.  
 
 |  Artikel  |  Description  |  
@@ -30,7 +30,7 @@ Die Mehrwertsteuer (MwSt.) ist eine indirekte Steuer auf den Verbrauch von Waren
 | [USt-IdNr validieren](finance-how-validate-vat-registration-number.md) | Dieser Artikel erläutert, wie Sie die Business Central-Validierung für Umsatzsteuer-Identifikationsnummern für Ihre Kontakte, Debitoren und Kreditoren basierend auf dem VIES-Mehrwertsteuernummer-Validierungsdienst der Europäischen Union verwenden.|
 
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch  
 [Finanzen](finance.md)    
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

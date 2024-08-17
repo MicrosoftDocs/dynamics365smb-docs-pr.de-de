@@ -12,12 +12,12 @@ ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
 
-# <a name="closing-the-books"></a>Abschluss der Bücher
+# Abschluss der Bücher
 Nachdem sichergestellt wurde, dass sich alle Konten auf dem neuesten Stand befinden und Kosten und Umsatz verteilt wurden, können die Bücher für ein Geschäftsjahr oder für eine Periode abgeschlossen werden.
 
 Der Abschluss eines Jahres ist für Sie keine Pflicht, erleichtert Ihnen aber die Arbeit im System, da Sie so komfortable Filtermöglichkeiten nutzen können. Es besteht auch kein Anlass zur Sorge, dass beim Jahresabschluss Details der Transaktionen verloren gehen, da alle Details auch nach Abschluss eines Jahrs beibehalten werden.
 
-## <a name="closing-book-process"></a>Abschlussbuchprozess
+## Abschlussbuchprozess
 Der Prozess für den Abschluss der Bücher umfasst diese Hauptaufgaben:
 
 1. Abschließen der Buchhaltungsperiode.
@@ -39,7 +39,7 @@ Der Prozess für den Abschluss der Bücher umfasst diese Hauptaufgaben:
 
     Weitere Informationen finden Sie unter [Buchen von Jahresabschlussposten](year-how-post-year-end-close-entry.md).
 
-## <a name="what-happens-when-you-close"></a>Was geschieht beim Abschluss?
+## Was geschieht beim Abschluss?
 
 Wenn Sie am Ende des Jahres den Jahresabschluss durchführen, werden Ihre Erträge aus den berechneten Erträgen auf das Konto "Abschlusskonto GuV" verschoben. Das Geschäftsjahr wird als "Geschlossen" gekennzeichnet, und alle nachfolgenden Posten für das geschlossene Jahr werden als "Nachbuchungen" gekennzeichnet.
 
@@ -47,7 +47,7 @@ Anschließend wird vom System ein Abschlussposten erstellt, der Posten wird jedo
 
 Sie können Buchungen in einem früheren Geschäftsjahr auch durchführen, nachdem die GuV-Konten geschlossen wurden, wenn Sie danach die Stapelverarbeitung GuV-Konten Nullstellung erneut ausführen.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Arbeiten mit Abrechnungszeiträumen und Geschäftsjahren](finance-accounting-periods-and-fiscal-years.md)    
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    

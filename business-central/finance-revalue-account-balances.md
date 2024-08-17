@@ -11,11 +11,11 @@ ms.search.form: null
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="revalue-general-ledger-account-balances"></a>Finanzbuchhaltungssalden neu bewerten
+# Finanzbuchhaltungssalden neu bewerten
 
 Wenn Sie Hauptbuchkonten (Sachkonten) zur Erfassung von Bilanzpositionen in Fremdwährungen verwenden, sollten Sie die Kontensalden vor der Erstellung von Jahresabschlüssen neu bewerten. Währungswechselkurse ändern sich häufig und eine Neubewertung hilft, Ihre Finanzauswertungen genauer zu gestalten.
 
-## <a name="set-up-revaluations"></a>Neubewertungen einrichten
+## Neubewertungen einrichten
 
 Sie richten jedes Konto, das Sie in Neubewertungen einbeziehen möchten, auf der Seite **Finanzbuchhaltungskontokarte** ein. Sie können auswählen, ob Neubewertungsanpassungen auf Konten für realisierte oder nicht realisierte Gewinne/Verluste gebucht werden sollen. Das Buchen von Gewinnen und Verlusten im Rahmen einer Währungskursanpassung erfolgt gemäß der normalen Buchungsroutine. Sie tun dies beispielsweise für jede Einstellung auf der Seite **Währungen**. Weitere Informationen zu Wechselkursanpassungen finden Sie unter [Währungswechselkurse aktualisieren](finance-how-update-currencies.md).
 
@@ -26,7 +26,7 @@ Um Fehler zu minimieren, können Sie im Feld **Buchung in Ursprungswährung** ei
 * Gleiche Währung
 * Lokale Währung
 
-## <a name="run-a-revaluation"></a>Neubewertung ausführen
+## Neubewertung ausführen
 
 Um die Beträge in der Fremdwährung für Finanzbuchhaltungskontosalden in der lokalen Währung neu zu bewerten, verwenden Sie auf der Seite **Kontenplan** die Aktion **Neubewertung der Finanzbuchhaltungswährung**, um einen Stapelverarbeitungsauftrag zu starten. Der Stapelverarbeitungsauftrag erstellt Anpassungsposten in dem von Ihnen ausgewählten Buch.-Blatt. Wenn Sie die Posten buchen, passen Sie den Saldo für das Konto in der lokalen (LW) an. Finanzbuchhaltungkontosalden, die immer in LW angezeigt werden, spiegeln jetzt die Änderungen der Währungen wider, in denen Posten gebucht wurden. Durch diese Neubewertung können Sie mit weniger Aufwand genauere Finanzauswertungen erstellen.
 
@@ -38,7 +38,7 @@ Wenn Sie eine Berichtswährung (AW) verwenden, verfügen die Finanzbuchhaltungsk
 > [!NOTE]
 > Bei der Neubewertung besteht nicht die Möglichkeit, Posten anzuwenden oder die Anwendung aufzuheben, wie dies bei Debitoren- und Kreditorenposten der Fall ist. Anpassungen erfolgen auf Basis des Saldos pro Währung.
 
-## <a name="revaluate-accounts-vs-customer-and-vendor-exchange-rate-adjustments"></a>Neubewertung von Konten im Vergleich zu Wechselkursanpassungen für Debitoren und Kreditoren
+## Neubewertung von Konten im Vergleich zu Wechselkursanpassungen für Debitoren und Kreditoren
 
 Die Neubewertung vereinfacht die Anpassung der Finanzbuchhaltungskontosalden. Das Feature bewertet den Saldo pro Währung und Finanzbuchhaltungskonto neu, ähnlich wie Sie es bei Anpassungen von Finanzbuchhaltungskonten tun, die mit Bankkonten verknüpft sind. Wenn Sie zur Nachverfolgung mehrerer Anlagen ein Finanzbuchhaltungskonto verwenden, sollten Sie stattdessen die Verwendung eines Kreditoren- oder Debitorenkontos in Erwägung ziehen.
 
@@ -56,7 +56,7 @@ Dieser Unterschied ist wichtig, wenn Sie beurteilen, ob die Finanzbuchhaltungsko
 > [!TIP]
 > Wir empfehlen Ihnen, Ihre Buchhaltung oder Wirtschaftsprüfung zu fragen, welche Kontoart für Ihr Unternehmen am besten geeignet ist. Möglicherweise gibt es auch eine App für [!INCLUDE [prod_short](includes/prod_short.md)] auf [AppSource](https://appsource.microsoft.com/en-us/marketplace/apps?page=1&product=dynamics-365-business-central), die genau zu Ihren Geschäftsszenarien passt.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Beträge in Hauptbuchkonten überprüfen](finance-review-accounts.md)    
 [Das Hauptbuch und den Kontenplan verstehen](finance-general-ledger.md)  

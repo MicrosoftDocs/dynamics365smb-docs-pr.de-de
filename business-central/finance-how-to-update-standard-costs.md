@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# <a name="update-standard-costs"></a>Standardkosten aktualisieren
+# Standardkosten aktualisieren
 Sie müssen die festen Einstandspreise von Komponenten in regelmäßigen Abständen aktualisieren und die neuen Einstandspreise auf den übergeordneten Artikel übertragen. Der Prozess besteht in der Regel aus den folgenden vier Schritten:  
 
 1.  Aktualisieren von Kosten auf der Komponenten- und Kapazitätsebene. Weitere Informationen finden Sie unter dem Stapelverarbeitungsauftrag **Artikel Einst.-Preis (fest) vorschlagen**.  
@@ -21,7 +21,7 @@ Sie müssen die festen Einstandspreise von Komponenten in regelmäßigen Abstän
 
 Weitere Informationen finden Sie unter [Über das Berechnen von festen Einstandspreisen](finance-about-calculating-standard-cost.md).
   
-## <a name="to-update-standard-costs"></a>Einstandspreise aktualisieren
+## Einstandspreise aktualisieren
 
 1.  Führen Sie die Stapelverarbeitung **Lagerreg. fakt. Einst. Preise** aus. Um die Stapelverarbeitung zu starten, wählen Sie die ![Glühbirne, die das „Wie möchten Sie weiter verfahren“-Feature öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Lagerreg. fakt. Einst. Preise anpassen** ein, und wählen Sie dann den entsprechenden Link. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] Sehen Sie sich die Ergebnisse an, und nehmen Sie ggf. Änderungen vor.  
 2.  Aufruf der Stapelverarbeitung **Lagerregulierung buchen**. Um die Stapelverarbeitung zu starten, wählen Sie die ![Glühbirne, die das „Wie möchten Sie weiter verfahren“-Feature öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Lagerkosten ins Hauptbuch buchen** ein, und wählen Sie dann den zugehörigen Link. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] Sehen Sie sich die Ergebnisse an, und nehmen Sie ggf. Änderungen vor.  
@@ -36,7 +36,7 @@ Weitere Informationen finden Sie unter [Über das Berechnen von festen Einstands
     7.  Führen Sie die Stapelverarbeitung **Einst.-Preis (fest) Vorschlag übernehmen** aus.  
 4.  Überprüfen und veröffentlichen Sie die Seite  **Artikelneubewertungsjournale**, die mit Einträgen aus den vorherigen Schritten dieses Prozesses gefüllt wurde.  
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
  [Informationen zur Berechnung von festen Einstandspreisen](finance-about-calculating-standard-cost.md)   
  [Verwalten der Lagerregulierung](finance-manage-inventory-costs.md)   

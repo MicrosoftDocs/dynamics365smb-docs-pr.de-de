@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# <a name="enabling-new-and-upcoming-features-ahead-of-time"></a>Neue und künftige Funktionen im Voraus aktivieren
+# Neue und künftige Funktionen im Voraus aktivieren
 
 Einige neue Funktionen können im Voraus aktiviert werden, sodass Sie sie so früh wie möglich nutzen können. Durch das frühzeitige Aktivieren von Funktionen haben Sie Zeit, Ihre Organisation zu testen und auf Änderungen vorzubereiten.
 
@@ -19,7 +19,7 @@ Wenn Microsoft im Rahmen kleinerer Updates Funktionen oder Verbesserungen des Fu
 
 Weitere Informationen finden Sie unter [Funktionsverwaltung](/dynamics365/business-central/dev-itpro/administration/feature-management).  
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Neue und geplante Funktionen](/dynamics365-release-plan/2021wave1/)  
 

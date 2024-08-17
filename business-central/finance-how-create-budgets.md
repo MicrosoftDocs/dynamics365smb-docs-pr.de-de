@@ -12,7 +12,7 @@ ms.date: 08/07/2024
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="create-gl-budgets"></a>Sachkontenbudgets erstellen
+# Sachkontenbudgets erstellen
 
 Sie können für dieselbe Periode mehrere Budgets verwalten, indem Sie Budgets mit verschiedenen Namen einrichten. Zuerst richten Sie den Budgetnamen ein und geben die Budgetzahlen ein. Der Budgetname wird dann allen Budgetposten zugewiesen, die Sie erstellen.  
 
@@ -22,7 +22,7 @@ Budgets spielen eine wichtige Rolle bei Business Intelligence. Zum Beispiel in e
 
 In der Kostenrechnung arbeiten Sie mit Kostenbudgets auf ähnliche Weise. Erfahren Sie mehr unter [Erstellen von Kalkulationsbudgets](finance-create-cost-budgets.md).  
 
-## <a name="to-create-a-new-gl-budget"></a>Einrichten eines neuen Sachkonten-Budgets
+## Einrichten eines neuen Sachkonten-Budgets
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Sachkontenbudgets** ein, und wählen Sie dann den entsprechenden Link.  
 2. Wählen Sie die Aktion **Liste bearbeiten** und füllen Sie dann die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -37,7 +37,7 @@ In der Kostenrechnung arbeiten Sie mit Kostenbudgets auf ähnliche Weise. Erfahr
 > [!NOTE]  
 > Auf dem Inforegister **Filter** können Sie die Budgetinformationen nach den Dimensionen filtern, die Sie unter dem Budgetnamen festgelegt haben.
 
-## <a name="exporting-and-importing-gl-budgets-with-excel"></a>Sachkontenbudgets mit Excel exportieren und importieren
+## Sachkontenbudgets mit Excel exportieren und importieren
 
 Wie bei praktisch allen anderen Seiten auch, können Sie die Daten auf den Budgetseiten zur weiteren Verarbeitung oder Analyse nach Microsoft Excel exportieren. Erfahren Sie mehr unter [Exportieren Ihrer Geschäftsdaten nach Excel](about-export-data.md).
 
@@ -46,7 +46,7 @@ Wie bei praktisch allen anderen Seiten auch, können Sie die Daten auf den Budge
 
 Wenn Sie also ein Sachkontenbudget importieren, werden alle Werte in den Zeilen der Überschrift gelöscht. Sie werden gelöscht, um falsche Summen zu vermeiden, nachdem Sie Daten importiert haben, die in Excel erstellt oder bearbeitet wurden.
 
-### <a name="scenario"></a>Szenario
+### Szenario
 
 Sie wissen, dass die neuen kalkulierten Gehaltskosten in Mandantenwährung (MW) 1.200.000 betragen werden. Sie möchten der Abteilung Gehälter ermöglichen, die drei spezifischen Zeilen (der Kontoart Buchung) für Vollzeitmitarbeiter, Teilzeitmitarbeiter und Aushilfen zu budgetieren. Die drei Zeilen werden unter einer Gehaltsüberschrift gruppiert.
 
@@ -54,7 +54,7 @@ Sie geben in der Zeile „Überschrift“ 1.200.000 ein, exportieren das Budget 
 
 Die Gehaltsabteilung verteilt den Betrag in drei Sachkonten. Wenn Sie dann das Finanzbudget wieder importieren, werden diese drei Konten mit den neuen Excel-Daten ausgefüllt und summieren zu MW 1.200.000, und die "Überschrift" ist leer.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Exportieren Ihrer Geschäftsdaten nach Excel](about-export-data.md)    
 [Finanzen](finance.md)    

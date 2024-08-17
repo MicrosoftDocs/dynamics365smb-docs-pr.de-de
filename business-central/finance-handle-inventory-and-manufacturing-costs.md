@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# <a name="handling-inventory-and-manufacturing-costs"></a>Handhabung von Lagerbeständen und Herstellungskosten
+# Handhabung von Lagerbeständen und Herstellungskosten
 
 Obwohl ein Großteil der Kostenrechnungsfunktionen in zugrunde liegenden Prozessen ohne Benutzerinteraktion zum Ausdruck kommt, wie z. B. Buchungssatz und automatische Kostenanpassung, richten sich viele Felder, Seiten und Berichte an Benutzer, die die Kosten von Artikeln oder Vorgängen direkt oder indirekt verwalten.  
 
@@ -30,7 +30,7 @@ Obwohl ein Großteil der Kostenrechnungsfunktionen in zugrunde liegenden Prozess
 |Manuelles Rückgängigmachen eines Artikelausgleichs oder erneutes Ausgleichen von Artikelposten, die durch die Anwendung erstellt wurden|[Artikelposten entfernen und erneut ausgleichen](finance-how-to-remove-and-reapply-item-entries.md)|  
 |Sie können das Feld **Eintrag anwenden** im Buch.-Blatt verwenden, um manuell einen festen Ausgleich zwischen einer eingehenden Transaktion und der ursprünglichen ausgehenden Transaktion zu erstellen.|[Schließen von offenen Artikelposten aus einem festen Ausgleich im Artikel Buch.-Blatt](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)|  
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Lagerkosten verwalten](finance-manage-inventory-costs.md)    
 [Designdetails: Lagerbewertung](design-details-inventory-costing.md)    

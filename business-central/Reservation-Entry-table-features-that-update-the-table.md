@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# <a name="reservation-entry-table---introduction"></a>Reservierungseintragstabelle – Einführung
+# Reservierungseintragstabelle – Einführung
 
 Dieses technische Whitepaper bietet Anleitungen zum Verständnis und zur Behebung von Dateninkonsistenzproblemen in der Tabelle  *Reservierungseintrag*  (Tabelle 337) [!INCLUDE[prod_short](includes/prod_short.md)]. Der erste Teil ist eine Einführung in die Funktionen, die Daten in dieser Tabelle generieren oder ändern. Darüber hinaus werden mehrere Felder in der Tabelle  *Reservierungseintrag*  abgedeckt, die im Zusammenhang mit diesen Funktionen hervorzuheben sind. Der zweite Teil zeigt anhand von Beispielen, wie Einträge in der Tabelle  *Reservierungseintrag*  erzeugt, gelöscht oder geändert werden, wenn Transferaufträge verarbeitet oder Planungsfunktionen ausgeführt werden.
 
@@ -28,9 +28,9 @@ Generell hängen die in der Tabelle  *Reservierungseintrag*  generierten Daten d
 - Planungsparameter zum Artikel oder zur Lagereinheit Karte
 - Artikelverfolgung
 
-## <a name="features-that-update-the-reservation-entry-table"></a>Funktionen zum Aktualisieren der Reservierungseintragstabelle
+## Funktionen zum Aktualisieren der Reservierungseintragstabelle
 
-### <a name="order-tracking-policy"></a>Richtlinie zur Auftragsverfolgung
+### Richtlinie zur Auftragsverfolgung
 
 Wenn das Feld  **Bestellverfolgungsrichtlinie** für einen Artikel auf Keine gesetzt ist, [!INCLUDE[prod_short](includes/prod_short.md)] werden nie Reservierungseinträge in der Tabelle  *Reservierungseintrag*  erstellt, es sei denn, der Änderungsplan oder Neuplan, die Reservierung oder die Artikelverfolgung wird ausgeführt. Darüber hinaus können Sie auch ohne aktivierte Auftragsverfolgung Reservierungseinträge haben, wenn Sie die Richtlinien „Auftragsfertigung“ oder „Auftragsmontage“ verwenden.
 
@@ -51,7 +51,7 @@ Indem das Feld  **Bestellverfolgungsrichtlinie**  des Artikels auf „Nur Verfol
 > [!NOTE]  
 > Die Tracking-Funktionalität ersetzt nicht die Planungsfunktionalität, die alle Artikel, Bedarfe und Vorräte gemeinsam berücksichtigt, um optimale Planungsvorschläge zur Optimierung des Kundenservice und zum Ausgleich der Lagerbestände bereitzustellen.
 
-### <a name="reservation-policy"></a>Reservierungsbedingungen
+### Reservierungsbedingungen
 
 Eine Reservierung besteht aus einem Datensatzpaar in der Tabelle  *Reservierungseintrag*  mit einem  **Reservierungsstatus** der Reservierung, die dieselbe Eintragsnummer haben. Bei einem Datensatz ist das positive Feld aktiviert und dieser verweist auf die Versorgung. Im anderen Datensatz ist das Feld  **Positiv**  nicht aktiviert und verweist auf die Nachfrage. Die Felder  **Quellentyp**,  **Quellen-Referenznr.** und  **Quellen-ID**  markieren die Reservierung verknüpfen zwischen Nachfrage und Angebot.
 
@@ -122,7 +122,7 @@ Angenommen, der Artikel wird aus geschäftlichen Gründen für den in Schritt 7 
 
 Damit ist die Demonstration des Zusammenspiels zwischen der Nutzung automatischer Reservierungen und der Auftragsverfolgung abgeschlossen. Die Beispiele zeigen auch, was passiert, wenn Sie Fälligkeitsdaten ändern, und welche Fehlermeldung bei einem Reservierungskonflikt ausgelöst wird.
 
-### <a name="planning-calculated"></a>Planung berechnet
+### Planung berechnet
 
 Bei der Planung Fertig mithilfe der Auftragsplanung, des Anforderungsarbeitsblatts oder des Planungsarbeitsblatts werden Einträge in der Tabelle  *Reservierungseintrag*  generiert, wobei das Feld  **Reservierungsstatus**  auf „Verfolgung“, „Reservierung“ oder „Überschuss“ gesetzt ist. Es sollte immer ein passendes Paar mit derselben Eintragsnummer aus positivem und negativem Wert im Feld  **Menge (Basis)**  vorhanden sein, wenn der Status „Verfolgung“ oder „Reservierung“ lautet. Das Feld  **Quelltyp**  entspricht dem Bedarfstyp, also Tabelle 37 für die negative Menge und einer Planungstabelle, z. B. Tabelle 246, für die positive Menge. Das Feld  **Quell-ID**  lautet PLANNING.
 
@@ -145,7 +145,7 @@ Diese Posten werden während der Planung erzeugt und zeigen die Herkunft der Üb
 
 In der Tabelle  *Reservierungseintrag*  gibt es wie bei den Einkaufs-, Umlagerungs- und Produktionsaufträgen ein Feld  **Planungsflexibilität** . Dieses Optionsfeld definiert, ob der durch diese Beschaffungsaufträge dargestellte Vorrat beim Berechnen von Aktionsmeldungen vom Planungssystem berücksichtigt wird. Wenn das Feld die Option „Unbegrenzt“ enthält, berücksichtigt das Planungssystem die Zeile bei der Berechnung von Aktionsmeldungen. Wenn das Feld die Option „Keine“ enthält, ist die Zeile fest und unveränderlich, und das Planungssystem berücksichtigt die Zeile bei der Berechnung von Aktionsmeldungen nicht. Die Verwaltung der Funktion erfolgt im *Reservierungseintrag*  Tabelle durch das gleichnamige Feld.
 
-### <a name="reordering-and-manufacturing-policy"></a>Nachbestellungs- und Fertigungspolitik
+### Nachbestellungs- und Fertigungspolitik
 
 Wenn eine Planungsfunktion für einen Artikelsatz ausgeführt wird, bei dem die Nachbestellrichtlinie auf „Bestellung“ eingestellt ist, [!INCLUDE[prod_short](includes/prod_short.md)] werden in der Tabelle *Reservierungseintrag* Einträge mit dem Reservierungsstatus vom Typ „Reservierung“ statt „Verfolgung“ erstellt.
 
@@ -153,7 +153,7 @@ Die Felder  **Quelltyp**  und  **Quell-ID**  werden wie andere Neuordnungsrichtl
 
 Das Feld  **Bindung**  wird ausgefüllt, um Beschaffungsaufträge zu steuern, die an einen bestimmten Bedarf gebunden sind, beispielsweise Fertigungsaufträge, die direkt aus einem Verkaufsauftrag erstellt werden. Das Feld zeigt „Auftrag-zu-Auftrag“ an, wenn der Eintrag speziell an eine Nachfrage oder ein Angebot gebunden ist (Automatische Reservierung). Die Nachfrage kann sich auf den Umsatz oder den Bedarf an Komponenten beziehen.
 
-### <a name="item-tracking-and-prospect-reservation-entry"></a>Artikelverfolgung und Interessentenreservierungserfassung
+### Artikelverfolgung und Interessentenreservierungserfassung
 
 Der Reservierungsstatus des potenziellen Kunden kann  [!INCLUDE[prod_short](includes/prod_short.md)] in der Tabelle  *Reservierungseintrag*  erstellt werden, wenn Sie keine Auftragsnetzwerkeinheiten verwenden, d. h. keine Auftragsverfolgung. Beispielsweise können Sie in einer Verbrauchserfassungszeile der Komponente eine Artikelverfolgung zuordnen. Wenn für den Artikel jedoch bereits eine Auftragsverfolgung durchgeführt wird, [!INCLUDE[prod_short](includes/prod_short.md)] können weitere Reservierungseinträge für potenzielle Kunden erstellt werden. Dies wird im BEISPIEL 2 zu Überweisungsaufträgen im zweiten Teil dieses Dokuments veranschaulicht.
 
@@ -167,15 +167,15 @@ Da die Artikelposten die Artikelverfolgungsinformationen enthalten, reserviert d
 
 Weitere Informationen finden Sie in den [!INCLUDE[prod_short](includes/prod_short.md)] technischen Whitepapers in den zusätzlichen Ressourcen am Ende dieses Dokuments.
 
-### <a name="source-subtype-suppressed-action-msg-action-message-adjustment-and-disallow-cancellation-fields"></a>Felder „Quellsubtyp“, „Unterdrückte Aktionsmeldung“, „Anpassung der Aktionsmeldung“ und „Stornierung nicht zulassen“
+### Felder „Quellsubtyp“, „Unterdrückte Aktionsmeldung“, „Anpassung der Aktionsmeldung“ und „Stornierung nicht zulassen“
 
 In diesem Abschnitt werden die Felder  **Quelluntertyp**,  **Unterdrückte Aktionsmeldung**,  **Anpassung der Aktionsmeldung** und  **Stornierung nicht zulassen**  in der Tabelle  *Reservierungseintrag*  beschrieben. Es werden Szenarien bereitgestellt, um die Verwendung der Felder  **Unterdrückte Aktionsmeldung**,  **Anpassung der Aktionsmeldung**  und  **Stornierung nicht zulassen**  zu demonstrieren. Das Feld  **Anpassung der Aktionsnachricht**  wird für die Funktion „Sendungsverfolgung und Aktionsnachricht“ der Auftragsverfolgungsrichtlinie verwendet. Das Feld  **Stornierung nicht zulassen**  wird in  [!INCLUDE[prod_short](includes/prod_short.md)] 2013 für die Funktion „Assembly-to-Order“ verwendet.
 
-#### <a name="source-subtype"></a>Herkunftsunterart
+#### Herkunftsunterart
 
 Das Feld  **Quell-Subtyp**  gibt an, auf welchen Quell-Subtyp sich der Reservierungseintrag bezieht. Wenn sich der Eintrag auf eine Einkaufs- oder Verkaufszeile bezieht, wird das Feld aus dem Feld  **Dokumentenart**  in der Zeile kopiert. Wenn es sich auf eine Journalzeile bezieht, wird das Feld aus dem Feld  **Buchungsart**  in der Journalzeile kopiert.
 
-#### <a name="suppressed-action-msg"></a>Ereignismeldung unterdrückt
+#### Ereignismeldung unterdrückt
 
 Das Feld  **Unterdrückte Aktionsmeldung**  zeichnet auf, wenn eine vorhandene Lieferung bereits teilweise verarbeitet wurde, z. B. wenn eine Einkaufsbestellung bereits teilweise eingegangen ist oder für einen Produktionsauftrag Verbrauchswerte gebucht wurden.
 
@@ -208,7 +208,7 @@ Eintrag Nr. 28 in Tabelle 337 hat den Reservierungsstatus „Verfolgung“, um m
 
 Eintrag Nr. 30 ist die vorhandene, teilweise empfangene Einkaufsbestellung mit der Menge 2. Dies führt dazu, dass das Feld  **Reservierungsstatus**  „Überschuss“ lautet und das Feld  [!INCLUDE[prod_short](includes/prod_short.md)] Menge (Basis) **auf** 8 *(Restbetrag) gesetzt wird. Zudem wird das Feld* Unterdrückte Aktionsmeldung **aktiviert.** 
 
-#### <a name="action-message-adjustment"></a>Ereignismeldungsjustierung
+#### Ereignismeldungsjustierung
 
 Im Feld  **Aktionsnachrichtenanpassung**  wird die Änderung auf der Angebotsseite der Auftragsverfolgung angezeigt, die sich ergibt, wenn Sie die zugehörigen Aktionsnachrichten akzeptieren. Ein Wert wird hier nur dann angezeigt, wenn die Funktionen sowohl für die Auftragsverfolgung als auch für Aktionsmeldungen aktiv sind (Auftragsverfolgungsrichtlinie auf Verfolgung und Aktionsmeldung eingestellt). Der Wert wird basierend auf den Daten in der Tabelle  *Action Message Entry*  (Tabelle 99000849) berechnet. Zur Veranschaulichung dient folgendes Beispiel:
 1. Öffnen Sie Punkt 80002. Legen Sie das folgende Feld fest:
@@ -224,7 +224,7 @@ Die Statusinformationen in Tabelle 337 werden in der folgenden Abbildung angezei
 6. Für Eintrag Nr. 34 ist das Feld  **Aktionsnachrichtenanpassung**  in Tabelle 337 für 5 Einheiten mit Reservierungsstatus „Überschuss“ aktiviert. Da der Verkaufsauftrag bei Schritt 5 erhöht wurde, [!INCLUDE[prod_short](includes/prod_short.md)] wurde diese Reservierung erstellt, da mehr Vorrat benötigt wird.
 7. Öffnen Sie die Seite  **Planungsarbeitsblätter**  und wählen Sie auf der Registerkarte  **Start**  in der Gruppe  **Prozess**  die Option  **Aktionsmeldungen abrufen**. [!INCLUDE[prod_short](includes/prod_short.md)] schlägt vor, die Bestellmenge von 100 auf 105 zu erhöhen.
 
-#### <a name="disallow-cancellation"></a>Keine Stornierung zulassen
+#### Keine Stornierung zulassen
 
 Das Feld  **Stornierung nicht zulassen**  gibt an, dass der Reservierungseintrag den verknüpfen zwischen einer Verkaufsauftragszeile und einem Montageauftrag darstellt. Sie können diese Reservierung nicht löschen, da sie erforderlich ist, um die Synchronisierung beizubehalten, die bei der Zusammenstellung eines Artikels auf Bestellung erfolgt. Zur Veranschaulichung dient folgendes Beispiel:
 
@@ -253,7 +253,7 @@ Eintrag Nr. 82 weist den Reservierungsstatus „Überschuss“ auf, da 9 Einheit
 
 Eintrag Nr. 86 enthält eine verbindliche Bestellung mit Reservierungsstatus „Reservierung“. Darüber hinaus ist das Feld  **Stornierung nicht zulassen**  aktiviert, da die Montagerichtlinie für den Artikel „Montage FG“ auf „Auftragsmontage“ eingestellt ist. Schließlich wird das Feld  **Planungsflexibilität**  auf Keine gesetzt, da [!INCLUDE[prod_short](includes/prod_short.md)] die Planungslogik das Löschen der Reservierung nicht zulässt.
 
-#### <a name="quantity-available-to-pick-and-reservations"></a>Verfügbare Menge zum Kommissionieren und Reservierungen
+#### Verfügbare Menge zum Kommissionieren und Reservierungen
 
 Das Feld  **Reservierte Kommissionier- und Versandmenge**  in Tabelle 337, das in Versionen vor  [!INCLUDE[prod_short](includes/prod_short.md)] 2013 vorhanden ist, steuert die Artikelverfügbarkeit in einem verwalteten Lager. In jeder Installation der Lagerverwaltung sind Artikelmengen sowohl als Lagereinträge als auch als Artikelposten vorhanden. [!INCLUDE[prod_short](includes/prod_short.md)]  Diese beiden Eintragsarten enthalten unterschiedliche Informationen darüber, wo Artikel vorhanden sind und ob diese verfügbar sind. Lagerplatzposten definieren die Verfügbarkeit eines Artikels nach Lagerplatz und Lagerplatzart, was als Lagerplatzinhalt bezeichnet wird. Artikelposten definieren die Verfügbarkeit eines Artikels durch ihre Reservierung auf ausgehenden Belegen. Im Kommissionierungsalgorithmus gibt es eine spezielle Funktion zum Berechnen der Menge, die zur Kommissionierung verfügbar ist, wenn der Behälterinhalt mit Reservierungen gekoppelt ist. Der Kommissionierungsalgorithmus subtrahiert Mengen, die für andere ausgehende Dokumente reserviert sind, Mengen auf vorhandenen Kommissionierungsdokumenten und Mengen, die kommissioniert, aber noch nicht versendet oder verbraucht wurden. Das Ergebnis wird im Feld  **Zur Kommissionierung verfügbare Menge**  auf der Seite  **Kommissionierarbeitsblatt**  angezeigt, wo das Feld dynamisch berechnet wird. Der Wert wird auch berechnet, wenn ein Benutzer Lagerentnahmen direkt aus ausgehenden Dokumenten wie Verkaufsaufträgen, Produktionsverbrauch oder ausgehenden Übertragungen erstellt.
 
@@ -301,9 +301,9 @@ Wenn die Lagereinlagerung in Schritt 7 registriert ist, ermöglicht dies die Ers
 
 Die folgende Abbildung stammt aus [!INCLUDE[prod_short](includes/prod_short.md)] 2009 R2.
 
-## <a name="illustrations-using-transfer-orders-and-planning"></a>Abbildungen anhand von Transportaufträgen und Planung
+## Abbildungen anhand von Transportaufträgen und Planung
 
-### <a name="transfer-orders"></a>Umlagerungsaufträge
+### Umlagerungsaufträge
 
 Wenn Sie Transferaufträge verwenden und der Artikel versendet, aber nicht vollständig empfangen wurde, erhalten Sie in der Tabelle  *Reservierungseintrag*  den Reservierungsstatus „Überschuss“. Der Standortcode ist der Transferzielort.
 
@@ -313,7 +313,7 @@ Wenn die Auftragsverfolgung aktiviert ist und kein Bedarf (Verkaufsauftrag oder 
 
 Dies wird im ersten Beispiel demonstriert.
 
-#### <a name="example-1"></a>Beispiel 1
+#### Beispiel 1
 
 1. Öffnen Sie die Artikel 80003 und 80004 und setzen Sie das Feld  **Tracking-Richtlinie**  auf  *Nur Tracking*. Belassen Sie die anderen Felder in der Standardeinstellung.
 2. Öffnen Sie ein Artikeljournal, erhöhen Sie den Bestand dieser Artikel auf jeweils 10 am Lagerplatz ROT und buchen Sie die Journalzeilen.
@@ -342,7 +342,7 @@ Die Erklärung für die folgenden Felder im Reservierungseintrag 43 lautet wie f
 |**Herkunftsart**|Artikelposten-Tabelle 32.|  
 |**Quelle Ref.-Nr.**|Der offene Artikelposten Nummer 322.|
 
-#### <a name="example-2"></a>Beispiel 2
+#### Beispiel 2
 
 Das nächste Beispiel veranschaulicht, was passiert, wenn eine Komponente zwischen Standorten übertragen wird, gleichzeitig aber zwischen Bedarf und verfügbarem Angebot überwacht wird. Dabei werden die Komponenten vom Standort ROT nach BLAU transferiert und im Rahmen eines freigegebenen Fertigungsauftrags verbraucht. Die Komponente verwendet Auftragsverfolgung, Auftragsplanung und Artikelverfolgung.
 
@@ -378,7 +378,7 @@ Der produzierte Artikel wird am Standort BLAU ausgegeben.
 
 Die Statusinformationen in Tabelle 337 werden in der folgenden Abbildung angezeigt.
 
-##### <a name="reservation-entries-with-numbers-55-and-56"></a>Reservierungseinträge mit den Nummern 55 und 56
+##### Reservierungseinträge mit den Nummern 55 und 56
 
 Für den Komponentenbedarf für Los A bzw. Los B werden Auftragstrackingverknüpfungen vom Bedarf in Tabelle 5407 (Fertigungsauftragskomponente) zum Vorrat in Tabelle 32 (Artikelposten) erstellt. Der **Reservierungsstatus**  Das Feld enthält Tracking für alle vier Einträge, um anzuzeigen, dass diese dynamische Auftragsverfolgung zwischen Angebot und Nachfrage verknüpft ist.
 
@@ -387,7 +387,7 @@ Der Bedarf in Tabelle 5407 (Fertigungsauftragskomponente) ist mit der Quell-ID d
 > [!NOTE]  
 > Das Feld **Chargennr.** ist auf den Bedarfszeilen leer, da die Chargennummern nicht auf den Komponentenzeilen des freigegebenen Fertigungsauftrags angegeben sind.
 
-##### <a name="reservation-entry-with-number-57"></a>Reservierungseintrag mit Nummer 57
+##### Reservierungseintrag mit Nummer 57
 
 Aus dem Verkaufsbedarf in Tabelle 37 (Verkaufszeile) wird eine Auftragsverfolgung verknüpfen für den Vorrat in Tabelle 5406 (Produktionsauftragszeile) erstellt. Der **Reservierungsstatus**  Feld enthält Reservierung, und das **Bindung**  Das Feld enthält „Auftrag-zu-Auftrag“. Dies liegt daran, dass der freigegebene Fertigungsauftrag speziell für den Verkaufsauftrag generiert wurde und verknüpft bleiben muss, im Gegensatz zu Auftragstrackingverknüpfungen mit dem Reservierungsstatus „Tracking“, die dynamisch erstellt und geändert werden.
 
@@ -405,11 +405,11 @@ Buchen Sie die gesamte ausstehende Menge NUR als „Gesendet“.
 
 Die Statusinformationen in Tabelle 337 werden in der folgenden Abbildung dargestellt.
 
-##### <a name="reservation-entries-with-number-55-and-56"></a>Reservierungseinträge mit den Nummern 55 und 56
+##### Reservierungseinträge mit den Nummern 55 und 56
 
 Auftragsverfolgungseinträge für die beiden Chargen der Komponente, die den Bedarf in Tabelle 5407 widerspiegeln, werden vom Reservierungsstatus „Verfolgung“ in „Überschuss“ geändert. Der Grund besteht darin, dass Vorräte, mit denen vorher eine Verknüpfung hergestellt wurde (in Tabelle 32), von der Lieferung des Umlagerungsauftrags verwendet wurden. Echter Überschuss, wie in diesem Fall, spiegelt überschüssigen Vorrat oder Bedarf wider, der nicht nachverfolgt wird. Es handelt sich um einen Hinweis auf ein Ungleichgewicht im Auftragsnetzwerk, das, sofern es nicht dynamisch behoben wird, eine Aktionsmeldung durch das Planungssystem generiert.
 
-##### <a name="reservation-entry-numbers-59-to-63"></a>Reservierungseintragsnummern 59 bis 63
+##### Reservierungseintragsnummern 59 bis 63
 
 Da die beiden Chargen der Komponente im Umlagerungsauftrag als geliefert, aber nicht als empfangen gebucht sind, weisen alle zugehörigen positiven Auftragstrackingeinträge den Reservierungstyp „Überschuss“ auf, was bedeutet, dass sie keinen Bedarfen zugeordnet sind. Für jede Chargennummer bezieht sich ein Eintrag auf die Tabelle 5741 (Transferzeile) und ein Eintrag auf den Artikelposten am Transportort, an dem sich die Artikel jetzt befinden.
 
@@ -434,21 +434,21 @@ Schließen Sie das Formular zur Artikelverfolgung.
 
 Die Statusinformationen in Tabelle 337 werden in der folgenden Abbildung dargestellt.
 
-##### <a name="reservation-entries-with-numbers-68-and-69"></a>Reservierungseinträge mit den Nummern 68 und 69
+##### Reservierungseinträge mit den Nummern 68 und 69
 
 Da der Komponentenbedarf auf den Lagerort BLAU geändert wurde und der Vorrat als Artikelposten am Lagerort BLAU verfügbar ist, werden nun alle Auftragstrackingeinträge für die beiden Chargennummern vollständig verfolgt, was durch den Reservierungsstatus von Tracking angezeigt wird. Die Chargennummern werden im Feld  **Chargennr.**  nicht gegenüber dem Bedarf in Tabelle 5406,  **Fertigungsauftragszeile** eingetragen, da wir im freigegebenen Fertigungsauftrag keine Chargennummern für die Komponente angegeben haben.
 
-##### <a name="reservation-entries-with-numbers-70-and-71"></a>Reservierungseinträge mit den Nummern 70 und 71
+##### Reservierungseinträge mit den Nummern 70 und 71
 
 Einträge mit Reservierungsstatus Interessent werden in Tabelle 337 erzeugt. Dies liegt daran, dass der Komponente im Verbrauchsjournal beide Chargennummern zugeordnet sind, das Journal jedoch nicht gebucht wurde.
 
 Damit ist der Abschnitt abgeschlossen, in dem beschrieben wird, wie Auftragstrackingeinträge in der Tabelle  **Reservierungseintrag**  generiert, geändert und gelöscht werden, wenn mehrere Funktionen in Kombination mit Transferaufträgen verwendet werden.
 
-### <a name="planning-calculated-1"></a>Planung berechnet
+### Planung berechnet
 
 Bei Verwendung von Planungsfunktionen, d. h. des  **Anforderungsarbeitsblatts**, des  **Planungsarbeitsblatts** oder der  **Auftragsplanung**, können Reservierungseinträge in der  **Reservierungseintrag** Tabelle 337 geändert oder hinzugefügt werden, je nach dem Planungsvorschlag, der durch die Logik in  [!INCLUDE[prod_short](includes/prod_short.md)] gegeben wird. Beispiel 3 verwendet die  **Nachbestellrichtlinie** Bestellung mit der  **Fertigungsrichtlinie** Auftragsfertigung für einen produzierten Artikel. Die Komponente verwendet die  **Nachbestellrichtlinie** Feste Nachbestellmenge.
 
-#### <a name="example-3"></a>Beispiel 3
+#### Beispiel 3
 
 1. Im  **Fertigungs-Setup** Karte ist die  **Komponente am Standort** aus dem vorherigen Beispiel ROT.
 2. Erstellen Sie ein neues übergeordnetes Element-Element 70061. Legen Sie die folgenden Felder fest:
@@ -497,17 +497,17 @@ Das Feld  **Reservierungsstatus**  lautet „Reservierung“ und es wird eine Or
 
 Der Bedarf von 40 Einheiten gegenüber dem Feld  **Quell-ID**  hat die Verkaufsauftragsnummer 1005 und der Quelltyp ist  *Verkaufszeile* Tabelle 37. Der Reservierungseintrag wird mit dem Planungsvorschlag, Quelle Ref.-Nr., abgeglichen. 10000, Quell-ID ist PLANUNG und Quelltyp ist  *Anforderungszeile* Tabelle 246. Es besteht also ein Gleichgewicht zwischen der Nachfrage aus dem Verkaufsauftrag und dem vom Planungsmodul vorgeschlagenen Angebot.
 
-##### <a name="reservation-entry-numbers-73-and-74"></a>Reservierungseintragsnummern 73 und 74
+##### Reservierungseintragsnummern 73 und 74
 
 Durch Ausführen des Stapelverarbeitungsauftrags „Plan berechnen“ werden die nächsten vier Einträge mit einem Reservierungsstatus „Verfolgung“ aufgrund der Einstellung der Nachbestellrichtlinie „Feste Nachbestellmenge“ für die Komponente generiert. Der Bedarf für das Bauteil 70062 wird durch die angegebenen Planungsvorschläge aufgefüllt, Bezugsquellen-Nr. 20000 und 30000, mit der Quell-ID „PLANUNG“ und dem Quelltyp aus der  *Anforderungszeile* Tabelle 246. Der Komponentenbedarf wird erstellt, um die Nachfrage nach dem Artikel 70061 übergeordnetes Element für die Gesamtmenge (Basis) 40 zu erfüllen. Als Ergebnis dieser Nachfrage hat das Feld  **Quell-Produktionsauftragszeile**  den Wert 10000, mit Quelltyp die  *Komponentenbedarf* Tabelle 99000829.
 
 Der Reservierungsstatus ist nicht „Überschuss“, da eine Auftragsverfolgung zwischen der Nachfrage nach übergeordnetes Element Artikel 70061 und der Versorgung mit Komponentenartikel 70062 besteht.
 
-##### <a name="reservation-entry-numbers-75-and-76"></a>Reservierungseintragsnummern 75 und 76
+##### Reservierungseintragsnummern 75 und 76
 
 Die letzten beiden Einträge weisen den Reservierungsstatus „Überschuss“ auf, da es sich hierbei um nicht nachverfolgte Mengen handelt, die im Planungsarbeitsblatt in Bezug auf die Nachbestellparameter „Nachbestell-Nr. zeigen“ und „Nachbestellmenge“ generiert werden.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch  
 [Designdetails: Artikelverfolgungsdesign](design-details-item-tracking-design.md)  
 [Designdetails: Ausgleich von Nachfrage und Angebot](design-details-balancing-demand-and-supply.md)  
 [Designdetails: Reservierung, Auftragsnachverfolgung und Aktionsmeldungen](design-details-reservation-order-tracking-and-action-messaging.md)   
