@@ -1,12 +1,13 @@
 ---
 author: brentholtorf
 ms.topic: include
-ms.date: 04/01/2021
+ms.date: 08/08/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-[!INCLUDE[prod_short](prod_short.md)] online unterliegt der [Modernen Lebenszykluspolitik](https://support.microsoft.com/help/30881/modern-lifecycle-policy). Die Bedingungen der Service Level Agreements sind in dem Dokument beschrieben, das Sie von Abschnitt **Service Level Agreements für Microsoft Online Services** auf der Seite [Lizenzbestimmungen](https://www.microsoft.com/licensing/product-licensing/products) herunterladen können.  
+[!INCLUDE[prod_short](prod_short.md)] online unterliegt der [Modernen Lebenszykluspolitik](https://support.microsoft.com/help/30881/modern-lifecycle-policy). Die Bedingungen der Service Level Agreements sind in dem Dokument beschrieben, das Sie im Abschnitt  **Service Level Agreements für Microsoft Online Services** unter den  [Lizenzbedingungen](https://go.microsoft.com/fwlink/?LinkId=2180986)herunterladen können. 
+ <!--(https://www.microsoft.com/licensing/product-licensing/products) -->Seite.  
 
 Darüber hinaus können Sie als Administrator den Zustand Ihres Mandanten überwachen und Aktualisierungsfenster in festlegen im [Business Central Verwaltungscenter](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center).  
 

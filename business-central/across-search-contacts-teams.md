@@ -5,7 +5,7 @@ author: jswymer
 ms.topic: get-started
 ms.devlang: al
 ms.search.keywords: 'Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, contacts, search, messaging extensions'
-ms.date: 04/16/2024
+ms.date: 08/14/2024
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
@@ -24,11 +24,11 @@ ms.reviewer: jswymer
 ## Voraussetzungen
 
 - Sie haben Zugriff auf Microsoft Teams.
-- Sie haben die [!INCLUDE [prod_short](includes/prod_short.md)]-App in Teams installiert. Weitere Informationen finden Sie unter [Die [!INCLUDE [prod_short](includes/prod_short.md)]-App für Microsoft Teams installieren](across-install-app-for-teams.md).
+- Sie haben die [!INCLUDE [prod_short](includes/prod_short.md)]-App in Teams installiert. Weitere Informationen finden Sie unter  [Installieren Sie die  [!INCLUDE [prod_short](includes/prod_short.md)] App für Microsoft Teams](across-install-app-for-teams.md)
 - Sie haben ein [!INCLUDE [prod_short](includes/prod_short.md)]-Konto mit Zugriff auf Kontakte in mindestens einem Unternehmen.
 
 > [!NOTE]
-> Unabhängig davon, ob Sie über das Befehlsfeld oder das Nachrichtenerstellungsfeld suchen, werden Sie möglicherweise aufgefordert, sich beim ersten Mal anzumelden oder die App einzurichten. Dieser Schritt ist erforderlich, um nach Kontakten im richtigen Business Central-Unternehmen zu suchen. Informationen zum Einrichten der App zur Auswahl Ihres Unternehmens finden Sie unter [Ändern der Unternehmens und anderen Einstellungen in Teams](across-teams-settings.md).
+> Unabhängig davon, ob Sie über das Befehlsfeld oder das Nachrichtenerstellungsfeld suchen, werden Sie möglicherweise aufgefordert, sich beim ersten Mal anzumelden oder die App einzurichten. Dieser Schritt ist erforderlich, um nach Kontakten im richtigen Business Central-Unternehmen zu suchen. Weitere Informationen zum Einrichten der App zur Auswahl Ihres Unternehmens finden Sie unter  [Unternehmen und andere Einstellungen in Teams ändern](across-teams-settings.md).
 
 ## Vom Befehlsfeld nach Kontakten suchen
 
@@ -36,49 +36,40 @@ Das Befehlsfeld befindet sich in Teams oben auf jedem Bildschirm. Sie können da
 
 1. Geben Sie in das Befehlsfeld **/Business Central** ein, und wählen Sie dann die Business Central-App aus den Ergebnissen aus.
 
-    ![Öffnen Sie die Business Central-App, um nach Kontakten aus der Befehlsbox zu suchen.](media/teams-contacts-command-1a.png)
+    ![Öffnen Sie die Business Central-App, um nach Kontakten aus der Befehlsbox zu suchen.](media/teams-contacts-command-1b.png)
 
 2. Geben Sie im Feld **Business Central** einen Suchtext wie einen Namen, eine Adresse oder eine Telefonnummer ein.
 
     Während der Eingabe werden übereinstimmende Ergebnisse angezeigt.
 
-    ![Suchen Sie Business Central Kontakte aus der Befehlsbox in Teams.](media/teams-contacts-command-2.png)
+    ![Suchen Sie Business Central Kontakte aus der Befehlsbox in Teams.](media/teams-contacts-command-3.png)
 3. Wählen Sie einen Kontakt aus den Ergebnissen aus.
 
     Die Kontaktkarte wird unter dem Befehlsfeld angezeigt.
 
 4. Wenn Sie die Kontaktkarte zu einem Gespräch hinzufügen möchten, gehen Sie in die obere rechte Ecke der Karte und wählen Sie **... (Weitere Optionen)** > **Kopieren** aus. Fügen Sie dann die Kopie in das Feld zum Erstellen einer Nachricht einer Konversation ein.  
 
-Weitere allgemeine Informationen zum Befehlsfeld in Teams finden Sie unter [Teams – Das Befehlsfeld verwenden](https://support.microsoft.com/en-us/office/use-the-command-box-13c4e429-7324-4886-b377-5dbed539193b).
+Weitere Informationen zum Teams-Befehlsfeld finden Sie unter  [Teams – Befehlsfeld verwenden](https://support.microsoft.com/en-us/office/use-the-command-box-13c4e429-7324-4886-b377-5dbed539193b).
 
 ## Vom Feld zum Erstellen einer Nachricht nach Kontakten suchen
 
 Der Vorteil der Verwendung des Felds zum Erstellen von Nachrichten besteht darin, dass Sie einer Konversation eine Kontaktkarte direkt hinzufügen können, damit andere sie sehen können.
 
-1. Wählen Sie unter dem Feld zum Verfassen von Nachrichten das Symbol **Business Central** aus, um die App zu starten.
+1. Wählen Sie neben dem Feld zum Verfassen von Nachrichten Auswählen **+**  und dann Auswählen **Business Central**  aus der Liste aus, um die App zu starten.
 
-    Wenn Sie das Symbol **Business Central** nicht sehen, wählen Sie **... (Messaging-Erweiterungen)** aus.
-
-    ![Öffnen Sie die Business Central-App, um nach Kontakten aus dem Nachrichtenfeld zu suchen.](media/teams-contacts-message-box.png)
+    ![Öffnen Sie die Business Central-App, um nach Kontakten aus dem Nachrichtenfeld zu suchen.](media/teams-contacts-message-box-2.png)
 
 2. Beginnen Sie im Feld **Business Central** mit der Eingabe von Suchtext, z. B. einem Namen, einer Adresse oder einer Telefonnummer.
 
     Während der Eingabe werden übereinstimmende Ergebnisse angezeigt.
 
-    ![Suchen Sie nach Business Central Kontakten aus dem Nachrichtenfeld.](media/teams-contacts-5.png)
+    ![Suchen Sie nach Business Central Kontakten aus dem Nachrichtenfeld.](media/teams-contacts-6.png)
 3. Wählen Sie einen Kontakt aus den Ergebnissen aus.
 
     Die Kontaktkarte wird im Feld zum Erstellen von Nachrichten angezeigt.
 
-    > [!NOTE]
-    > Die Kontaktkarte wird nicht sofort an das Gespräch gesendet, damit andere sie sehen können. Sie haben die Möglichkeit, den Inhalt der Karte zu überprüfen und nach Belieben Text davor oder danach hinzuzufügen. Senden Sie dann Ihre Nachricht an den Chat, wenn Sie bereit sind.
-
-<!--
-### Here's another way
-
-1. Instead of using the **Business Central** icon, type **@Business Central** directly in the message compose box.
-2. Enter your search terms in the box.
-3. Use the up and down arrow keys on the keyboard to choose a contact, then select <kbd>Enter</kbd> to select it.-->
+> [!NOTE]
+> Die Kontaktkarte wird nicht sofort an das Gespräch gesendet, damit andere sie sehen können. Sie haben die Möglichkeit, den Inhalt der Karte zu überprüfen und nach Belieben Text davor oder danach hinzuzufügen. Senden Sie dann Ihre Nachricht an den Chat, wenn Sie bereit sind.
 
 ## Kontaktkartendetails anzeigen
 
@@ -86,15 +77,15 @@ Die Kontaktkarte in Teams gibt Ihnen einen schnellen Überblick über den Debito
 
 Die Schaltfläche **Details** öffnet ein Fenster in Teams, in dem weitere Informationen zum Kontakt angezeigt werden, jedoch nicht so viele, wie Sie in [!INCLUDE [prod_short](includes/prod_short.md)] sehen würden. Um alle Informationen zu einem Kontakt in [!INCLUDE [prod_short](includes/prod_short.md)] zu sehen, wählen Sie **Pop-out** aus.
 
-Die Kontaktkarte funktioniert genau wie Karten für Aufzeichnungen, z. B. Artikel, Debitoren oder Verkaufsaufträge. Weitere Informationen zu Karten finden Sie unter [Kartendetails anzeigen](across-working-with-teams.md#view-card-details).
+Die Kontaktkarte funktioniert genau wie Karten für Aufzeichnungen, z. B. Artikel, Debitoren oder Verkaufsaufträge. Weitere Informationen finden Sie unter  [Karte-Details anzeigen](across-working-with-teams.md#view-card-details).
 
 > [!NOTE]
-> Alle Teilnehmer einer Teams-Unterhaltung können Karten für Business Central-Kontakte anzeigen, die Sie an die Unterhaltung senden. Um weitere Details zu Datensätzen anzuzeigen (durch Verwenden der Schaltflächen **Details** oder **Pop-out** auf einer Karte), benötigen diese jedoch Zugriff auf [!INCLUDE [prod_short](includes/prod_short.md)]. Weitere Informationen finden Sie unter [Verwalten der Microsoft Teams-Integration](admin-teams-integration.md#minimum-requirements-1).
+> Alle Teilnehmer einer Teams-Unterhaltung können Karten für Business Central-Kontakte anzeigen, die Sie an die Unterhaltung senden. Um weitere Details zu Datensätzen anzuzeigen (durch Verwenden der Schaltflächen **Details** oder **Pop-out** auf einer Karte), benötigen diese jedoch Zugriff auf [!INCLUDE [prod_short](includes/prod_short.md)]. Weitere Informationen finden Sie unter  [Integration verwalten Microsoft Teams](admin-teams-integration.md#minimum-requirements-1).
 
-## Siehe auch
+## Ähnliche Informationen
 
 [Übersicht über die Integration von Business Central und Microsoft Teams](across-teams-overview.md)  
-[Installieren Sie die [!INCLUDE [prod_short](includes/prod_short.md)] App für Microsoft Teams](across-install-app-for-teams.md)  
+[Die App [!INCLUDE [prod_short](includes/prod_short.md)] für Microsoft Teams installieren](across-install-app-for-teams.md)  
 [Teams FAQ](teams-faq.md)  
 [Ändern von Firmen- und anderen Einstellungen in Teams](across-teams-settings.md)  
 [Datensätze in Microsoft Teams freigeben](across-working-with-teams.md)  
