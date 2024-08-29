@@ -11,7 +11,7 @@ ms.custom: bap-template
 ms.search.keywords: 'Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, share records, tab'
 ---
 
-# Business Central-Registerkarte in Microsoft Teams hinzufügen
+# <a name="add-business-central-tab-in-microsoft-teams"></a>Business Central-Registerkarte in Microsoft Teams hinzufügen
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
@@ -19,7 +19,7 @@ In Teams werden Registerkarten oben in Kanälen und Chats angezeigt, mit denen d
 
 ![Registerkarten in Teams](media/teams-tab-border-2.png)
 
-## Über Business Central-Registerkarten
+## <a name="about-business-central-tabs"></a>Über Business Central-Registerkarten
 
 Eine [!INCLUDE [prod_short](includes/prod_short.md)]-Registerkarte bietet eine fokussierte Ansicht von Listen- und -Kartenseiten von [!INCLUDE [prod_short](includes/prod_short.md)]. Die Registerkarte zeigt nicht den vollständigen [!INCLUDE [prod_short](includes/prod_short.md)]-Webclient. Es gibt weder Browserrand, [!INCLUDE [prod_short](includes/prod_short.md)]-Banner (z. B. mit „Wie möchten Sie weiter verfahren“, Suche, Hilfe) oder oberes Navigationsmenü, nur Seiteninhalt und seine Aktionen. Der Inhalt ist interaktiv, Sie können also Aktionen und Links auswählen, Daten ändern und vieles mehr. Sie sind auf das beschränkt, was Sie sehen und tun können, indem Sie dieselben Berechtigungen verwenden, die Ihrem Konto in [!INCLUDE [prod_short](includes/prod_short.md)] zugewiesen wurden.
 
@@ -28,7 +28,7 @@ Weitere Informationen darüber, wer den Inhalt einer  [!INCLUDE [prod_short](inc
 > [!TIP]
 > Sind Sie ein Entwickler? Sie können Registerkarten auch programmgesteuert mithilfe der Microsoft Graph-API hinzufügen. Weitere Informationen finden Sie unter  [Business Central-Registerkarten zu Teams hinzufügen](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams-tabs).  
 
-## Voraussetzungen
+## <a name="prerequisites"></a>Voraussetzungen
 
 Zum Hinzufügen einer [!INCLUDE [prod_short](includes/prod_short.md)]-Registerkarte müssen folgende Voraussetzungen erfüllt sein:
 
@@ -42,7 +42,7 @@ Zum Anzeigen einer [!INCLUDE [prod_short](includes/prod_short.md)]-Registerkarte
 - Sie haben eine [!INCLUDE [prod_short](includes/prod_short.md)]-Lizenz oder eingeschränkten Zugriff auf Business Central nur mit einer Microsoft 365-Lizenz. Erfahren Sie mehr unter  [Business Central Access mit  Microsoft 365 Lizenzen](admin-access-with-m365-license.md).
 - Sie haben die [!INCLUDE [prod_short](includes/prod_short.md)]-App in Teams installiert.
 
-## Registerkarte mit empfohlenem Inhalt hinzufügen
+## <a name="add-tab-using-recommended-content"></a>Registerkarte mit empfohlenem Inhalt hinzufügen
 
 Verwenden Sie diese Schritte, um eine Registerkarte hinzuzufügen, indem Sie auswählen, was aus einer leicht verfügbaren Liste empfohlener Inhalte angezeigt werden soll, die auf Ihrem Rollencenter basieren, ohne Teams zu verlassen. Weitere Informationen zu den Inhalten, aus denen Sie auswählen können, finden Sie unter  [Woher stammen die empfohlenen Inhalte?](/dynamics365/business-central/teams-faq?tabs=tabs#where-does-the-recommended-content-come-from).
 
@@ -61,7 +61,7 @@ Verwenden Sie diese Schritte, um eine Registerkarte hinzuzufügen, indem Sie aus
 6. Wählen Sie **Über diese Registerkarte auf dem Kanal posten** aus, um automatisch eine Ankündigung im Teams-Kanal oder -Chat zu posten, um die Teilnehmer wissen zu lassen, dass Sie diese Registerkarte hinzugefügt haben.
 7. Wählen Sie **Speichern** aus.
 
-## Registerkarte über einen Seitenlink hinzufügen
+## <a name="add-tab-using-a-page-link"></a>Registerkarte über einen Seitenlink hinzufügen
 
 Eine weitere Möglichkeit, einen Tab hinzuzufügen, indem Sie einen Link (URL) zu der Seite verwenden, die Sie anzeigen möchten. Diese Methode ist nützlich, wenn Sie einen bestimmten [!INCLUDE [prod_short](includes/prod_short.md)]-Datensatz oder eine Listenseite anzeigen möchten, die in Ihrem Rollencenter nicht mit einem Lesezeichen versehen ist.
 
@@ -80,7 +80,7 @@ Eine weitere Möglichkeit, einen Tab hinzuzufügen, indem Sie einen Link (URL) z
 8. Wählen Sie **Über diese Registerkarte auf dem Kanal posten** aus, um automatisch eine Ankündigung im Teams-Kanal oder -Chat zu posten, um die Teilnehmer wissen zu lassen, dass Sie diese Registerkarte hinzugefügt haben.
 9. Wählen Sie **Speichern** aus.
 
-## Eine Registerkarte und ihren Inhalt ändern
+## <a name="change-a-tab-and-its-content"></a>Eine Registerkarte und ihren Inhalt ändern
 
 Nachdem eine Registerkarte hinzugefügt wurde, können Sie bestimmte Änderungen an der Registerkarte vornehmen. Beispielsweise können Sie die Registerkarte umbenennen, verschieben und entfernen. Sie finden diese Aktionen in den Registerkartenoptionen, die verfügbar sind, indem Sie auf der Registerkarte den Abwärtspfeil auswählen.
 
@@ -90,7 +90,7 @@ Was den Inhalt einer Registerkarte betrifft, können Sie die Daten ändern, wenn
 
 Sie können auch Ihre Ansicht der Seite und ihrer Daten ändern, z. B. sortieren und das Layout zwischen Listen- und Kachelansicht wechseln. Wenn Sie diese Art von Änderungen vornehmen, haben sie keinen Einfluss darauf, was andere sehen. Sie sehen, was Sie ursprünglich gepostet haben, bis sie selbst ähnliche Änderungen vornehmen.
 
-## Ähnliche Informationen
+## <a name="related-information"></a>Ähnliche Informationen
 
 [Übersicht über die Integration von Business Central und Microsoft Teams](across-teams-overview.md)  
 [Die App [!INCLUDE [prod_short](includes/prod_short.md)] für Microsoft Teams installieren](across-install-app-for-teams.md)  

@@ -11,22 +11,22 @@ ms.date: 08/15/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# Bestands- und Lagerberichte und -analysen
+# <a name="inventory-and-warehouse-reports-and-analytics"></a>Bestands- und Lagerberichte und -analysen
 
 Die Bestands- und Lagerberichterstattung in [!INCLUDE [prod_short](includes/prod_short.md)] gibt Bestands- und Geschäftsfachleuten Einblicke und Statistiken über aktuelle und vergangene Bestands- und Lageraktivitäten.  
 
-## Berichte
+## <a name="reports"></a>Berichte
 
 [!INCLUDE [inventory_WMS_reports](includes/inventory-WMS-reports-include.md)]
 
-## Aufgaben
+## <a name="tasks"></a>Aufgaben
 
 In den folgenden Artikeln werden einige der wichtigsten Aufgaben zur Analyse des Status Ihres Unternehmens beschrieben:
 
 * [Analyseberichte erstellen](bi-how-create-analysis-views-reports.md)  
 * [Artikelverfügbarkeit anzeigen](inventory-how-availability-overview.md)
 
-## Barcodes drucken und scannen
+## <a name="print-and-scan-barcodes"></a>Barcodes drucken und scannen
 
 Die Verwendung von Barcodes kann dazu beitragen, Ihre Eingangs-, Ausgangs- und internen Lagerprozesse zu optimieren. 
 
@@ -46,7 +46,7 @@ Nachdem Sie die App installiert haben, können Sie die Aktion **Etikett drucken*
 >
 > Fragen Sie Ihren Gerätelieferanten, wie Sie Word-Dokumente auf Ihrem Gerät drucken können.  
 
-## Bestandsberichte mit dem Berichts-Explorer kennenlernen
+## <a name="explore-inventory-reports-with-report-explorer"></a>Bestandsberichte mit dem Berichts-Explorer kennenlernen
 
 Um einen Überblick über die für den Bestand verfügbaren Berichte zu erhalten, wählen Sie auf Ihrer Homepage **Alle Berichte** aus. Dadurch öffnet sich der Rollen-Explorer, der nach den Features in der Option **Bericht und Analyse** gefiltert ist. Wählen Sie unter der Überschrift **Verkauf und Marketing** die Option **Erkunden** aus.
 
@@ -54,7 +54,7 @@ Um einen Überblick über die für den Bestand verfügbaren Berichte zu erhalten
 
 Weitere Informationen finden Sie unter [Mit dem Rollen-Explorer nach Berichten suchen](ui-role-explorer.md).
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Ad-hoc-Analyse von Bestandsdaten](ad-hoc-analysis-inventory.md)  
 [Übersicht über die Bestandsanalyse](inventory-analytics-overview.md)  

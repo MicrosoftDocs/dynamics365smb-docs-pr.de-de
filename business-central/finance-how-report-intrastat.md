@@ -62,7 +62,7 @@ Nachdem Sie den **Intrastat-Bericht** ausgefüllt haben, können Sie die Aktion 
 
 Führen Sie den Bericht **Prüfliste Intrastat-Bericht** aus, um die Intrastat-Zeilen zu prüfen, bevor sie in das gewünschte Format exportiert werden. Die Prüfung wird innerhalb des **Intrastat-Berichts** ausgeführt.
 
-## <a name="recalculating-weight-or-supplementary-unit-of-measure"></a>Neuberechnung von Gewicht oder zusätzlicher Maßeinheit
+## <a name="recalculate-weight-or-supplementary-unit-of-measure"></a>Neuberechnung von Gewicht oder zusätzlicher Maßeinheit
 
 Wenn Sie die Fehlermeldung *„Gesamtgewicht“ in der Intrastat-Berichtszeile darf nicht leer sein* erhalten, liegt das wahrscheinlich daran, dass Sie das Feld **Nettogewicht** nicht auf der verwendeten Quelle, dem Artikel oder der Anlage festgelegt haben. Suchen Sie in diesem Fall nach der Karteikarte für das Element oder die Anlage und fügen Sie den erforderlichen Wert hinzu. Danach müssen Sie nur den **Intrastat Bericht** erneut öffnen und die folgenden Schritte ausführen:
 

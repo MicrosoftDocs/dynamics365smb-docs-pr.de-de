@@ -21,7 +21,7 @@ Diese exemplarische Vorgehensweise demonstriert mehrere Kernprozesse:
 - Vervollständigen Sie den Zeiteintrag für den Serviceauftrag
 - Buchen und fakturieren Sie den Vertragsserviceauftrag
 
-## <a name="creation-of-service-items"></a>Erstellung von Serviceartikeln
+## <a name="create-service-items"></a>Erstellung von Serviceartikeln
 
 ### <a name="scenario"></a>Szenario
 
@@ -45,7 +45,7 @@ Susan, die Auftragsbearbeiterin, gibt einen Debitorenauftrag auf, in dem ein Art
 
 - Für Debitor 10000 wird ein Serviceartikel erstellt
 
-## <a name="invoicing-a-service-contract"></a>Fakturierung eines Servicevertrags
+## <a name="invoice-a-service-contract"></a>Fakturierung eines Servicevertrags
 
 ### <a name="scenario-1"></a>Szenario
 

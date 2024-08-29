@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
 
-# Ändern der Firma und anderer Einstellungen in Teams
+# <a name="changing-company-and-other-settings-in-teams"></a>Ändern der Firma und anderer Einstellungen in Teams
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
@@ -27,7 +27,7 @@ Es gibt zwei Möglichkeiten, die Seite **Einstellungen** zu öffnen: 1) Vom Feld
 
    ![Einstellungen für Business Central aus dem Nachrichtenfeld festlegen.](media/teams-settings-command-box-2.png)
 
-## Ähnliche Informationen
+## <a name="related-information"></a>Ähnliche Informationen
 
 [Übersicht über die Integration von Business Central und Microsoft Teams](across-teams-overview.md)  
 [Die App [!INCLUDE [prod_short](includes/prod_short.md)] für Microsoft Teams installieren](across-install-app-for-teams.md)  

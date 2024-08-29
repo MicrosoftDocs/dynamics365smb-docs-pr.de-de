@@ -30,7 +30,7 @@ Geben Sie für jedes Projekt verschiedene Informationen an:
 > [!NOTE]
 > Der Umschalter **Verbrauchslink standardmäßig anwenden** auf der Seite **Projekteinrichtung** zeigt an, ob Projektsachkontoeinträge standardmäßig mit Projektplanungszeilen verknüpft werden. Aktivieren Sie den Umschalter, um diese Einstellung auf alle neuen Projekte anzuwenden. Sie können die Nachverfolgung des Projektverbrauchs für ein bestimmtes Projekt aktivieren oder deaktivieren, indem Sie den Umschalter **Verbrauchslink anwenden** auf der Seite **Projektkarte** ein- oder ausschalten.
 
-### <a name="specify-a-default-location-for-project-items"></a>Standardspeicherort für Projektartikel festlegen
+### <a name="to-set-up-project-usage-tracking"></a>Standardspeicherort für Projektartikel festlegen
 
 Sie können bei der Dateneingabe Zeit sparen, indem Sie auf der Seite **Projektkarte** einen Standardspeicherort und ein Standardfach für Projekte angeben. Wenn Sie Projektaufgaben, Projektplanungszeilen und Projektbuchungsblattzeilen für das Projekt erstellen, werden der Standardstandort und das Lagerfach automatisch zugewiesen. Sie können jedoch bei Bedarf den Standortcode und den Lagerplatz für Aufgaben und Zeilen ändern.
 
@@ -48,7 +48,7 @@ Es gibt ein paar Dinge, die Sie über die Verwendung von Standardspeicherorten w
 
 Wenn an Projekten mehrere Debitoren beteiligt sind, kann es eine Herausforderung sein, dem richtigen Debitor die richtigen Aufgaben in Rechnung zu stellen. [!INCLUDE [prod_short](includes/prod_short.md)] macht die Abrechnung weniger komplex, da Sie in jeder Projektaufgabenzeile die Rechnungsadresse und Rechnung an Debitor angeben können, sodass Sie automatisch Rechnungen für die richtigen Debitoren erstellen können. Weitere Informationen zum Rechnungsstellen an mehrere Debitoren finden Sie unter [Einem oder mehreren Debitoren Projektaufgaben in Rechnung stellen](projects-how-create-jobs.md#invoice-one-or-more-customers-for-project-tasks).
 
-### <a name="to-set-up-project-usage-tracking"></a>So richten Sie die Projektverbrauch-Nachverfolgung ein
+### <a name="synchronize-the-cost-of-used-items"></a>So richten Sie die Projektverbrauch-Nachverfolgung ein
 
 Wenn Sie an einem Projekt arbeiten, möchten Sie vielleicht wissen, wie sich Ihr Verbrauch im Vergleich zu Ihrem Plan verhält. Um den Verbrauch herauszufinden, können Sie einen Link zwischen Ihren Projektplanungszeilen und dem tatsächlichen Verbrauch erstellen. Über den Link können Sie Ihre Kosten verfolgen und nachvollziehen, wie viel Arbeit noch übrig ist. Standardmäßig ist der Projektplanungszeilentyp **Plan**, aber die Verwendung der Zeilenart **Budgetiert und verrechenbar** hat ähnliche Effekte.
 

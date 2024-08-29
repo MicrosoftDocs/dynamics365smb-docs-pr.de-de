@@ -11,7 +11,7 @@ ms.date: 06/22/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Fertigung in Fremdarbeit
+# <a name="subcontract-manufacturing"></a>Fertigung in Fremdarbeit
 
 Ausgewählte Arbeitsgänge an Kreditoren weiter zu vergeben, ist in vielen Fertigungsunternehmen üblich. Fremdarbeit kann ein seltener Vorgang oder integraler Bestandteil aller Fertigungsschritte sein.
 
@@ -21,11 +21,11 @@ Ausgewählte Arbeitsgänge an Kreditoren weiter zu vergeben, ist in vielen Ferti
 - Arbeitsplatzgruppenkosten auf Basis von Einheiten oder Zeit: Über diese Funktion können Sie angeben, ob Kosten, die der Arbeitsplatzgruppe zugewiesen sind, auf einer Fertigungszeit oder einem Pauschalbetrag pro Einheit basieren. Üblicherweise stellen Subunternehmer für ihre Leistungen einen Pauschalbetrag pro Einheit in Rechnung; die Anwendung kann aber mit den beiden Optionen (Fertigungszeit und Pauschalbetrag pro Einheit) umgehen.  
 - Fremdarbeitenarbeitsblatt: Mit dieser Funktion können Sie nach den Fertigungsaufträgen mit Material suchen, die an einen Subunternehmer gesendet werden können, und können Sie automatisch aus Arbeitsplänen für Fertigungsaufträge Einkaufsbestellungen für Fremdarbeitsvorgänge erstellen. Die Anwendung bucht automatisch die Einkaufsbestellung zum Produktionsauftrag während die Einkaufsbestellung gebucht wird. Ein Fertigungsauftrag muss den Status "Freigegeben" haben, damit aus einem Fremdarbeitenvorschlag auf ihn zugegriffen und er in dem Vorschlag verwendet werden kann.  
 
-## Lohnarbeitsplätze  
+## <a name="subcontract-work-centers"></a>Lohnarbeitsplätze
 
 Arbeitsplatzgruppen für Fremdarbeiten werden auf gleiche Weise eingerichtet wie normale Arbeitsplatzgruppen, allerdings mit weiteren Informationen. Sie werden den Arbeitsplänen auf die gleiche Weise wie andere Arbeitsplätze zugewiesen.  
 
-### Felder für das Lohnarbeitsplatzzentrum  
+### <a name="subcontract-work-center-fields"></a>Felder für das Lohnarbeitsplatzzentrum
 
 Das Feld **Kreditorennr.** kennzeichnet die Arbeitsplatzgruppe als Arbeitsplatzgruppe für Fremdarbeit. Sie können die Nummer eines Subunternehmers (Fremdarbeiters) eingeben, der die Arbeitsplatzgruppe bereitstellt. In diesem Feld können Arbeitsstellen verwaltet werden, die nicht im Unternehmen angesiedelt sind, sondern im Rahmen eines Vertrags Verarbeitungsvorgänge durchführen.  
 
@@ -33,7 +33,7 @@ Wenn Sie für Fremdarbeiten mit dem Kreditor einen anderen Satz für jeden Proze
 
 Wenn Sie für Fremdarbeiten einen einzelnen Satz pro Kreditor vereinbart haben, belassen Sie das Feld **Spezieller Einstandspreis** deaktiviert. Die Kosten werden durch Ausfüllen der Felder  **Direkte Stückkosten**,  **Indirekte Kosten %** und  **Gemeinkostensatz**  eingerichtet.  
 
-### Arbeitspläne, die Fremdarbeitsplätze nutzen
+### <a name="routings-that-use-subcontract-work-centers"></a>Arbeitspläne, die Fremdarbeitsplätze nutzen
 
 Arbeitsplatzgruppen für Fremdarbeit können für Arbeitsgänge in Arbeitsplänen in gleicher Weise verwendet werden wie normale Arbeitsplatzgruppen.  
 
@@ -41,7 +41,7 @@ Sie können einen Arbeitsplan erstellen, für den eine externe Arbeitsplatzgrupp
 
 Weitere Informationen finden Sie unter [Arbeitspläne erstellen](production-how-to-create-routings.md).  
 
-## Berechnen Sie Subunternehmerarbeitsblätter und erstellen Sie Subunternehmerbestellungen  
+## <a name="calculate-subcontracting-worksheets-and-create-subcontract-purchase-orders"></a>Berechnen Sie Subunternehmerarbeitsblätter und erstellen Sie Subunternehmerbestellungen
 
 Nachdem Sie den Lohnarbeitsschein berechnet haben, wird das entsprechende Dokument erstellt. In diesem Fall eine Bestellung.  
 
@@ -50,7 +50,7 @@ Die Seiten **Fremdarbeitenarbeitsblatt** funktioniert wie die **Planungsarbeitsb
 > [!NOTE]  
 > Ein Fertigungsauftrag muss den Status **Freigegeben** haben, damit aus einem Fremdarbeitenarbeitsblatt auf ihn zugegriffen und er dort verwendet werden kann.  
 
-### Fremdarbeitenarbeitsblatt berechnen  
+### <a name="to-calculate-the-subcontracting-worksheet"></a>Fremdarbeitenarbeitsblatt berechnen
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Fremdarbeitenvorschlag** ein, und wählen Sie dann den zugehörigen Link.  
 2. Damit das Arbeitsblatt berechnet wird, klicken Sie auf Aktionen **Fremdarbeit berechnen**.  
@@ -59,7 +59,7 @@ Die Seiten **Fremdarbeitenarbeitsblatt** funktioniert wie die **Planungsarbeitsb
 
     Sehen Sie sich die Zeilen auf der Seite **Fremdarbeitenarbeitsblatt** an. Die Informationen in diesem Arbeitsblatt stammen aus dem Fertigungsauftrag und den FA-Arbeitsgängen und werden in die Einkaufsbestellung übernommen, wenn dieser Beleg erstellt wird. Wie bei den anderen Vorschlägen auch können Sie eine Zeile aus dem Vorschlag löschen, ohne dass sich dies auf die ursprünglichen Informationen auswirkt. Die Informationen werden wieder angezeigt, wenn Sie die Funktion **Fremdarbeit berechnen** das nächste Mal ausführen.  
 
-### Einkaufsbestellung für Fremdarbeit generieren  
+### <a name="to-create-the-subcontract-purchase-order"></a>Einkaufsbestellung für Fremdarbeit generieren
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Fremdarbeitenvorschlag** ein, und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die **Ereignismeldung durchführen** Aktion aus.  
@@ -70,11 +70,11 @@ Wenn alle als Fremdarbeit zu vergebende Arbeitsgänge an denselben Kreditor gese
 
 Die Arbeitsblattzeile, die in eine Einkaufsbestellung umgewandelt wurde, wird aus dem Arbeitsblatt gelöscht. Nachdem eine Bestellung erstellt wurde, wird sie nicht mehr im Arbeitsblatt angezeigt.  
 
-## Buchen von Subunternehmerbestellungen  
+## <a name="posting-subcontract-purchase-orders"></a>Buchen von Subunternehmerbestellungen
 
 Nachdem die Subunternehmer-Bestellungen erstellt wurden, können sie gebucht werden. Nach Empfang der Bestellung wird ein Kapazitätsposten im Fertigungsauftrag gebucht, und bei der Fakturierung der Bestellung wird der EK-Preis der Einkaufsbestellung im Fertigungsauftrag gebucht.  
 
-## So buchen Sie eine Fremdarbeitsbestellung
+## <a name="to-post-a-subcontract-purchase-order"></a>So buchen Sie eine Fremdarbeitsbestellung
  
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Einkaufsbestellungen** ein, und wählen Sie dann den zugehörigen Link.  
 2. Öffnen Sie eine Einkaufsbestellung, die über den Fremdarbeitenarbeitsblatt erstellt wurde.  
@@ -95,7 +95,7 @@ Wenn die Einkaufsbestellung als fakturiert gebucht wird, wird der EK-Preis der E
 > [!NOTE]  
 > Soll-Kosten werden nur für Artikeltransaktionen verwaltet. Bei immateriellen Transaktionsarten, wie z. B. über Subunternehmer-Einkaufsaufträge gebuchte Kapazitäten, fallen keine erwarteten Kosten an. Lassen Sie sich nicht dadurch verwirren, dass das Veröffentlichen einer Quittung möglicherweise das Veröffentlichen einer Ausgabe Trigger bedeutet. Diese Transaktionen sind getrennt und die erwarteten Produktionskosten werden unabhängig voneinander berechnet.  
 
-## Siehe auch  
+## <a name="see-also"></a>Siehe auch
 
 [Fertigung](production-manage-manufacturing.md)    
 [Produktion einrichten](production-configure-production-processes.md)  
