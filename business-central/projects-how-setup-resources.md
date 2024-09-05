@@ -11,7 +11,7 @@ ms.date: 08/19/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Ressourcen für Projekte einrichten
+# <a name="set-up-resources-for-projects"></a>Ressourcen für Projekte einrichten
 
 Zur ordnungsgemäßen Verwaltung von Ressourcenaktivitäten ist die Einrichtung von Ressourcen sowie der zugehörigen Kosten und Preise erforderlich. Die projektbezogenen Preise, Rabatte und Kostenfaktorregeln werden auf der Projektkarte eingerichtet. Die Kosten und Preise können für einzelne Ressourcen, für Ressourcengruppen oder für alle verfügbaren Ressourcen des Unternehmens angegeben werden.
 
@@ -22,7 +22,7 @@ Der standardmäßige Betrag pro Stunde wird bei der Ressourcenerstellung angegeb
 > [!NOTE]
 > Sie können keine externen Ressourcen für ein bestimmtes Projekt erwerben. Wir empfehlen Ihnen, stattdessen Elemente vom Typ „Dienstleistung“ zu verwenden.
 
-## So richten Sie eine Ressource ein
+## <a name="to-set-up-a-resource"></a>So richten Sie eine Ressource ein
 
 Erstellen Sie für jede Ressource eine Karte,die Sie in " Projekte verwenden möchten.
 
@@ -30,7 +30,7 @@ Erstellen Sie für jede Ressource eine Karte,die Sie in " Projekte verwenden mö
 2. Wählen Sie die Aktion **Neu**.
 3. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-## Eine Ressourcengruppe einrichten
+## <a name="to-set-up-a-resource-group"></a>Eine Ressourcengruppe einrichten
 
 Mehrere Ressourcen können in einer Ressourcengruppe zusammengefasst werden. Alle Kapazitäten und Budgets der einzelnen Ressourcen werden für die Ressourcengruppe aufsummiert. Es ist ebenfalls möglich, Kapazitäten unabhängig von den summierten Werten oder zusätzlich einzugeben.
 
@@ -38,7 +38,7 @@ Mehrere Ressourcen können in einer Ressourcengruppe zusammengefasst werden. All
 2. Wählen Sie die Aktion **Neu** aus.
 3. Füllen Sie die Felder je nach Bedarf aus.
 
-## So legen Sie die Kapazität für eine Ressource fest
+## <a name="to-set-capacity-for-a-resource"></a>So legen Sie die Kapazität für eine Ressource fest
 
 Um zu berechnen wie viel Zeit eine Ressource in Projekten verbringen kann, muss deren Kapazität zuerst als verfügbare Zeit pro Periode im Arbeitskalender eingerichtet werden. Diese Einstellungen werden verwendet, wenn Sie Projektplanungszeilen ausfüllen, die die Ressource enthalten. Weitere Informationen finden Sie unter [Projekte erstellen](projects-how-create-jobs.md).
 
@@ -51,7 +51,7 @@ Um zu berechnen wie viel Zeit eine Ressource in Projekten verbringen kann, muss 
 7. Wählen Sie die Aktion **Kapazität aktualisieren** aus. Die Seite **Ressourcenkapazität** wird mit der eingegebenen Kapazität aktualisiert.
 8. Schließen Sie die Seite.
 
-## Um alternative Ressourcenkosten einzurichten:
+## <a name="to-set-up-alternate-resource-costs"></a>Um alternative Ressourcenkosten einzurichten:
 
 Zusätzlich zu den Kosten, die in der Ressourcenkarte angegeben werden, können Sie auch alternative Kosten für jede Ressource einrichten. Wenn z. B. ein Mitarbeiter einen anderen Stundensatz für Überstunden hat, können Sie für diesen Arbeitstyp einen Einstandspreis einrichten. Die alternativen Kosten, die Sie für die Ressource einrichten, übersteuert den Einstandspreis auf der Ressourcenkarte, wenn Sie die Ressource im Ressourcen Buch.-Blatt buchen.
 
@@ -63,7 +63,7 @@ Zusätzlich zu den Kosten, die in der Ressourcenkarte angegeben werden, können 
 > [!NOTE]
 > Um Ressourcenkosten einzurichten, die für alle Ressourcen und Ressourcengruppen gelten, öffnen Sie die Seite  **Ressourcenkosten**  und füllen Sie die Felder aus.
 
-## Um alternative Ressourcenkosten einzurichten:
+## <a name="to-set-up-alternate-resource-prices"></a>Um alternative Ressourcenkosten einzurichten:
 
 Zusätzlich zu den Kosten, die in der Ressourcenkarte angegeben werden, können Sie auch alternative Kosten für jede Ressource einrichten. Diese alternativen Preise können von Bedingungen abhängig sein. D. h. sie können davon abhängen, ob diese Ressource in einem bestimmten Projekt oder für einen bestimmten Arbeitstyp verwendet wird.
 
@@ -72,7 +72,7 @@ Zusätzlich zu den Kosten, die in der Ressourcenkarte angegeben werden, können 
 3. Füllen Sie auf der Seite **Ressourcenpreise** die Felder auf einer Zeile nach Bedarf aus.
 4. Wiederholen Sie Schritt 3 für jeden alternativen Ressourcenpreis, den Sie einrichten möchten.
 
-## Um Ressourcenpreise zu justieren:
+## <a name="to-adjust-resource-prices"></a>Um Ressourcenpreise zu justieren:
 
 Wenn Sie die Einstands- und Verkaufspreise für eine große Anzahl von Ressourcen ändern möchten, können Sie den Batchauftrag verwenden.  
 
@@ -82,7 +82,7 @@ Wenn Sie die Einstands- und Verkaufspreise für eine große Anzahl von Ressource
 > [!NOTE]  
 > Dieser Batchauftrag erstellt oder Anpassen alternative Kosten oder Preise für Ressourcen. Sie ändert lediglich den Inhalt des Feldes auf der Ressourcenkarte für das Feld **Feld korrigieren**, das Sie in der Stapelverarbeitung ausgewählt haben. Die Anpassung wird für Ressourcen sofort wirksam. Überprüfen Sie daher Ihre Anpassungsfaktoren, bevor Sie den Batchauftrag ausführen.
 
-## Um Ressourcen-Preisänderungsvorschläge auf Basis bestehender alternativer Preise zu erstellen:
+## <a name="to-get-resource-price-change-suggestions-based-on-existing-alternate-prices"></a>Um Ressourcen-Preisänderungsvorschläge auf Basis bestehender alternativer Preise zu erstellen:
 
 Wenn Sie für einige Ressourcen bereits alternative Ressourcenpreise eingerichtet haben, können Sie mithilfe eines Stapelverarbeitungsauftrags mehrere alternative Ressourcenpreise einrichten.
 
@@ -91,7 +91,7 @@ Wenn Sie für einige Ressourcen bereits alternative Ressourcenpreise eingerichte
 3. Wählen Sie die Schaltfläche **OK** aus.  
 4. Wenn die Stapelverarbeitung beendet ist, öffnen Sie die Seite **Ressourcen-Preisänderungen**, um die Ergebnisse der Stapelverarbeitung anzuzeigen.
 
-## So erstellen Sie Ressourcenpreisvorschläge auf Basis bestehender Standard-VK-Preise
+## <a name="to-get-resource-price-change-suggestions-based-on-standard-prices"></a>So erstellen Sie Ressourcenpreisvorschläge auf Basis bestehender Standard-VK-Preise
 
 Wenn Sie einen oder mehrere alternative Ressourcenpreise basierend auf den Standardpreisen auf den Ressourcenkarten festlegen möchten, dann können Sie den Batchauftrag verwenden.  
 
@@ -100,7 +100,7 @@ Wenn Sie einen oder mehrere alternative Ressourcenpreise basierend auf den Stand
 3. Wählen Sie die Schaltfläche **OK** aus.  
 4. Wenn die Stapelverarbeitung beendet ist, öffnen Sie die Seite **Ressourcen-VK-Preisarbeitsblätter**, um die Ergebnisse der Stapelverarbeitung anzuzeigen.
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Einrichten des Projektmanagements](projects-setup-projects.md)  
 [Projektmanagement](projects-manage-projects.md)  

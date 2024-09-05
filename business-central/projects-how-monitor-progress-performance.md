@@ -12,7 +12,7 @@ ms.search.form: '89, 92, 1010'
 ms.service: dynamics-365-business-central
 ---
 
-# Projektfortschritt und -leistung überwachen
+# <a name="monitor-project-progress-and-performance"></a>Projektfortschritt und -leistung überwachen
 
 Mit der Funktion Umlaufbestand (WIP) können Sie den finanziellen Wert laufender Projekte in der Finanzbuchhaltung schätzen.
 
@@ -36,7 +36,7 @@ Wenn Sie das Ergebnis mit einer anderen Methode anzeigen möchten, ändern Sie d
 4. Um diese neue Methode zur Standardmethode zu machen, wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren") Symbol, geben Sie  **Projekt-Setup** ein und wählen Sie dann das zugehörige verknüpfen.  
 5. Wählen Sie im Feld **WIP-Standardmethode** die Methode aus der Liste aus.
 
-## Eine WIP-Methode für ein Projekt definieren
+## <a name="define-a-wip-method-for-a-project"></a>Eine WIP-Methode für ein Projekt definieren
 
 Wenn Sie ein neues Projekt erstellen, müssen Sie auswählen, welche Projekt-WIP-Methode angewendet werden soll. In einigen Fällen ist die von Ihnen verwendete Projekt-WIP-Methode bereits als Standard festgelegt.
 
@@ -44,7 +44,7 @@ Wenn Sie ein neues Projekt erstellen, müssen Sie auswählen, welche Projekt-WIP
 2. Wählen Sie die Aktion **Neu**. Erfahren Sie mehr unter [Projekte erstellen](projects-how-create-jobs.md).  
 3. Wählen Sie auf der Seite  **Projekt Karte**  im Feld  **WIP-Methode**  auf der Registerkarte  **Buchen**  eine WIP-Methode aus der Liste aus. Wenn eine Standardmethode definiert ist, können Sie bei Bedarf eine andere Option Auswählen verwenden.  
 
-### Eine WIP-Methode für eine Projektaufgabe definieren
+### <a name="define-a-wip-method-for-a-project-task"></a>Eine WIP-Methode für eine Projektaufgabe definieren
 
 Sie können eine WIP-Methode für ein Projekt Aufgabe definieren, Projektaufgaben von der WIP-Berechnung ausschließen oder Aufgaben gruppieren, die gemeinsam berechnet werden sollen.
 
@@ -87,7 +87,7 @@ Sie bemerken:
 * Für  *1000* bis *1299* wird der WIP für diese Gruppe von Projektaufgaben separat berechnet. Beachten Sie jedoch, dass zwei der Aufgaben, 1010 und 1110, von der WIP-Berechnung ausgeschlossen sind, da ihr Projekttyp Aufgabe  **Buchung** ist.
 * Von *1300* bis *1399* wird der WIP für diese Gruppe von Projektaufgaben separat berechnet.
 
-## WIP berechnen
+## <a name="calculate-wip"></a>WIP berechnen
 
 Mithilfe der Stapelverarbeitung  **Projekt-WIP-Betrag berechnen**  können Sie den WIP-Betrag ermitteln, der für die Berichterstattung zum Periodenende auf die Bilanzkonten gebucht werden soll.  
 
@@ -99,7 +99,7 @@ Mithilfe der Stapelverarbeitung  **Projekt-WIP-Betrag berechnen**  können Sie d
 > [!NOTE]  
 > Der Batchauftrag berechnet lediglich den WIP, bucht ihn aber nicht ins Hauptbuch. Um WIP zu buchen, führen Sie den Stapelverarbeitungsauftrag  **WIP ins Hauptbuch buchen**  aus, nachdem Sie den WIP berechnet haben. Erfahren Sie mehr im folgenden Verfahren.
 
-### Warnungen überprüfen
+### <a name="review-warnings"></a>Warnungen überprüfen
 
 Wenn Ihre WIP-Berechnung die Meldung  *WIP wurde mit Warnungen berechnet*  ergibt, sollten Sie die Warnungen überprüfen.
 
@@ -107,7 +107,7 @@ Wenn Ihre WIP-Berechnung die Meldung  *WIP wurde mit Warnungen berechnet*  ergib
 2. Auswählen das Projekt, für das Sie Warnungen überprüfen möchten. Der Schalter  **WIP-Warnungen**  ist für Projekte aktiviert, die WIP-Warnungen haben.
 3. Wählen Sie die Aktion  **Warnung anzeigen** .
 
-### WIP-Einträge löschen
+### <a name="delete-wip-entries"></a>WIP-Einträge löschen
 
 Wenn Sie verschiedene WIP-Methoden ausprobieren möchten, erhalten Sie möglicherweise die Fehlermeldung  *Das Projekt Aufgabe kann nicht geändert werden, da dem Projekt WIP-Projekteinträge zugeordnet sind* . Um die WIP-Methode prüfen zu können, löschen Sie vorhandene WIP-Einträge.
 
@@ -115,7 +115,7 @@ Wenn Sie verschiedene WIP-Methoden ausprobieren möchten, erhalten Sie mögliche
 2. Auswählen das Projekt, für das Sie WIP-Einträge löschen möchten.
 3. Wählen Sie die Aktion  **WIP-Einträge löschen** .
 
-## WIP buchen
+## <a name="post-wip"></a>WIP buchen
 
 Wenn Sie die WIP berechnen, können Sie diese für die Berichterstattung zum Periodenende auf Bilanzkonten buchen. Verwenden Sie den Stapelverarbeitungsauftrag  **Projekt WIP ins Hauptbuch buchen** .
 
@@ -123,7 +123,7 @@ Wenn Sie die WIP berechnen, können Sie diese für die Berichterstattung zum Per
 2. Füllen Sie auf der Seite **WIP nach Sachkonten Projekt** aus und füllen Sie die Felder wie erforderlich aus.  
 3. Wählen Sie die Schaltfläche **OK**.
 
-## Berechnen und Buchen von Projekt-Abschlussposten
+## <a name="calculate-and-post-project-completion-entries"></a>Berechnen und Buchen von Projekt-Abschlussposten
 
 Nachdem Sie alle Aktivitäten für ein Projekt abgeschlossen haben, einschließlich der Nutzungsbuchung und Rechnungsstellung, müssen Sie den Status des Projekts auf  **Abgeschlossen** aktualisieren. Anschließend müssen Sie sämtliche im Hauptbuch gebuchten WIP stornieren.
 
@@ -140,7 +140,7 @@ Nachdem Sie alle Aktivitäten für ein Projekt abgeschlossen haben, einschließl
 
      Bei den durch Ausführen des Batchprojekts erstellten WIP-Hauptbucheinträgen des Projekts ist das Kontrollkästchen  **Projekt abgeschlossen**  aktiviert, um anzuzeigen, dass es sich um Abschlusseinträge handelt.
 
-## Projektposten anzeigen
+## <a name="view-project-ledger-entries"></a>Projektposten anzeigen
 
 Alle projektbezogenen Posten werden in Projektjournalen aufgezeichnet und fortlaufend nummeriert, beginnend mit 1. Aus den Projektjournalen können Sie eine Übersicht über alle Projektposten erhalten.
 
@@ -149,7 +149,7 @@ Alle projektbezogenen Posten werden in Projektjournalen aufgezeichnet und fortla
 
 Auf der Seite  **Projektbucheinträge**  können Sie die Einträge überprüfen, die einem Projekt zugeordnet sind.  
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [exemplarische Vorgehensweise: Berechnen der laufenden Arbeit für ein Projekt](walkthrough-calculating-work-in-process-for-a-job.md)    
 [Projekte verwalten](projects-manage-projects.md)    

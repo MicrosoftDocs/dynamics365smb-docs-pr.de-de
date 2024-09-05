@@ -10,7 +10,7 @@ ms.search.form: '1002, 1007,'
 ms.date: 02/22/2024
 ms.service: dynamics-365-business-central
 ---
-# Projekte abrechnen
+# <a name="invoice-projects"></a>Projekte abrechnen
 
 Im Laufe des Projekts können Projektkosten wie Ressourcenverbrauch, Material oder projektbezogene Einkäufe anfallen. Diese Transaktionen werden im weiteren Verlauf des Projekts auf das Projekt Buch.-Blatt gebucht. Dabei ist es wichtig, dass alle Kosten im Projekt Buch.-Blatt erfasst werden, bevor die Rechnung an den Debitor erstellt wird.
 Die Fakturierung kann erfolgen, wenn das Projekt abgeschlossen ist, oder in bestimmten Intervallen während der Projektlaufzeit gemäß eines Fakturierungsplans.
@@ -21,7 +21,7 @@ Sie können folgende Rechnungen stellen:
 * Ganze Projekte, einige Projekte innerhalb eines Projekts oder einzelne Projektplanungszeilen mithilfe der entsprechenden Aktion auf den Projektseiten.
 * Kombinieren Sie mehrere Projektplanungszeilen aus unterschiedlichen Projekten in einer einzigen Verkaufsrechnung mit der Aktion  **Projektplanungszeilen abrufen**  auf der Seite  **Verkaufsrechnung** .
 
-## So erstellen Sie mehrere Projektverkaufsrechnungen
+## <a name="to-create-multiple-project-sales-invoices"></a>So erstellen Sie mehrere Projektverkaufsrechnungen
 
 Sie können eine Rechnung für ein Projekt oder für eine oder mehrere Projektunteraktivitäten für einen Debitor erstellen, wenn entweder die zu fakturierende Arbeit abgeschlossen ist oder das Datum für die Fakturierung basierend auf einem Fakturierungsplan erreicht ist.
 
@@ -37,7 +37,7 @@ Sie können erstellte Rechnungen auf der Seite  **Verkaufsrechnungen**  überpr�
 > [!NOTE]
 > Alternativ können Sie einem Kunden eine Rechnung stellen, indem Sie das Projekt auswählen und dann die Aktion  **Projektverkaufsrechnung erstellen**  wählen, oder die Aktion  **Verkaufsrechnung erstellen**  in den Projektaufgaben verwenden.
 
-## So erstellen und buchen Sie eine Projektverkaufsrechnung aus Projektplanzeilen
+## <a name="to-create-and-post-project-sales-invoice-from-project-planning-lines"></a>So erstellen und buchen Sie eine Projektverkaufsrechnung aus Projektplanzeilen
 
 Sie können eine Rechnung aus Projektplanungszeilen erstellen, und dabei die Menge des Artikels, der Ressource oder des Sachkontos angeben, die Sie fakturieren möchten.
 
@@ -56,7 +56,7 @@ Sie können eine Rechnung aus Projektplanungszeilen erstellen, und dabei die Men
 > [!NOTE]  
 > Das obige Verfahren dient zum Erstellen, Prüfen und Buchen einer projektbezogenen Verkaufsgutschrift.
 
-## Einem Debitoren mehrere Projektaufgaben in Rechnung stellen
+## <a name="invoice-one-customer-for-multiple-project-tasks"></a>Einem Debitoren mehrere Projektaufgaben in Rechnung stellen
 
 Sie können Ihren Rechnungsstellungsprozess vereinfachen, indem Sie eine Rechnung für mehrere Projekte an einen Debitoren senden. Fügen Sie Projektplanungszeilen aus mehreren Projekten auf einmal einer Verkaufsrechnung hinzu. Dieser Vorgang ähnelt dem Erstellen einer Verkaufsrechnung aus einer Projektplanungszeile und der Eingabe eines Werts in das Feld **An Verkaufsrechnungsnr. anfügen**.
 
@@ -75,7 +75,7 @@ Wiederholen Sie diese Schritte, wenn Sie einen weiteren Satz Projektplanungszeil
 > * Sie können nicht nach **Neuer Lief. an Code** oder **Kontaktnr.** filtern Felder.
 
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Projekte verwalten](projects-manage-projects.md)  
 [Finanzen](finance.md)  

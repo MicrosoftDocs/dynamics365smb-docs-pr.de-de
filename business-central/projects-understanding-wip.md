@@ -11,7 +11,7 @@ ms.date: 08/19/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# WIP-Methoden im Projektmanagement verstehen
+# <a name="understanding-wip-methods-in-project-management"></a>WIP-Methoden im Projektmanagement verstehen
 
 Im Laufe eines Projekts werden Material sowie Ressourcen und andere Aufwendungen verbraucht und müssen auf das Projekt gebucht werden. Umlaufbestand (WIP) ist eine Funktion, mit der Sie den finanziellen Wert von Projekten in der Finanzbuchhaltung schätzen können, solange die Projekte noch nicht abgeschlossen sind. In vielen Fällen werden die Aufwendungen für ein Projekt vor der Fakturierung eines Projekts gebucht. Wenn nur Ausgaben gebucht werden, ist Ihre Bilanz ungenau.
 
@@ -29,7 +29,7 @@ Standardmäßig werden die folgenden Methoden zur Berechnung und Aufzeichnung de
 
 Genaue Formeln und Hauptbuchtransaktionen werden durch die Auswahl in den Feldern  [**Anerkannte Kosten**](#recognized-cost)  und  [**Anerkannte Verkäufe**](#recognized-sales)  definiert.
 
-## WIP-Methode für ein Projekt erstellen
+## <a name="create-a-project-wip-method"></a>WIP-Methode für ein Projekt erstellen
 
 Erstellen Sie eine Projekt-WIP-Methode, die den Bedarf Ihrer Organisation wiedergibt und legen Sie sie als Standard fest.  
 
@@ -42,7 +42,7 @@ Erstellen Sie eine Projekt-WIP-Methode, die den Bedarf Ihrer Organisation wieder
 4. Um diese Methode als Standard festzulegen, wählen Sie die ![Glühbirne, die die Funktion „Wie möchten Sie weiter vorgehen“ öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol, geben Sie  **Projekt-Setup** ein und wählen Sie dann das zugehörige verknüpfen aus.  
 5. Wählen Sie im Feld **WIP-Standardmethode** die Methode aus der Liste aus.
 
-### Anerkannte Kosten
+### <a name="recognized-cost"></a>Anerkannte Kosten
 
 | Anerkannte Kosten | Anerkannte Kostenberechnungsformel | Finanzbuchhaltungsposten |
 | --- | --- | ---------- |
@@ -59,7 +59,7 @@ Dt **Konto für anerkannte Kosten** Cr **Konto für angewandte Projektkosten**, 
 > [!NOTE]
 > Abhängig von der Auswahl im Feld  **Verwendete WIP-Buchungsmethode**  kann anstelle des  **Kontos für Projektkosten** das  **Konto für angewendete Artikelkosten**, das  **Konto für angewendete Ressourcenkosten**  oder das  **Konto für angewendete Sachkosten** verwendet werden. Weitere Informationen finden Sie unter  [Projektbuchungsgruppen](projects-how-setup-jobs.md#to-set-general-information-for-projects).
 
-### Anerkannte Verkäufe
+### <a name="recognized-sales"></a>Anerkannte Verkäufe
 
 | Deklarierte Verkäufe | Anerkannte Formel zur Umsatzberechnung | Finanzbuchhaltungsposten |
 | --- | --- | ---------- |
@@ -74,7 +74,7 @@ Wenn der Projektstatus auf „Abgeschlossen“ geändert wird, wird die WIP-Tran
 
 Dt **Konto für angewandte Projektverkäufe** Cr **Konto für anerkannte Verkäufe**, Betrag: **Rechnungsbetrag (Gesamtpreis)**
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Projektmanagement](projects-manage-projects.md)  
 [Finanzen](finance.md)  
