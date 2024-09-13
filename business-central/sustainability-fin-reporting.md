@@ -10,11 +10,11 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# Nachhaltigkeitseinträge mit Finanzberichten analysieren 
+# <a name="analyzing-sustainability-entries-with-financial-reports"></a>Nachhaltigkeitseinträge mit Finanzberichten analysieren
 
 Die Funktion  *Finanzberichte*  bietet Ihnen Einblick in die Finanzdaten, die in Ihrem Kontenplan angezeigt werden. Sie können Finanzberichte einrichten, um die Zahlen in den Sachkonten zu analysieren und Sachposten mit Budgetposten zu vergleichen. Sie können mit derselben Funktion aber auch statistische und Nachhaltigkeitsdaten analysieren und sogar alle drei Datentypen kombinieren.  
 
-## Voraussetzungen für Finanzberichte  
+## <a name="prerequisites-for-financial-reporting"></a>Voraussetzungen für Finanzberichte
 
 Zum Erstellen von Finanzberichten müssen Sie die Struktur der Daten verstehen, die Sie analysieren möchten. Es gibt einige Schlüsselkonzepte, die Sie wahrscheinlich beachten sollten, bevor Sie Ihre Finanzberichte entwerfen: 
 
@@ -36,7 +36,7 @@ Zum Erstellen von Finanzberichten müssen Sie die Struktur der Daten verstehen, 
 > [!NOTE]
 > Weitere Einzelheiten zur Verwendung von Finanzberichten mit Finanzdaten und Kontenplänen finden Sie hier  [Finanzberichte mit Finanzdaten und Kontokategorien erstellen](bi-how-work-account-schedule.md).   
 
-## Erstellen Sie einen neuen Finanzbericht  
+## <a name="create-a-new-financial-report"></a>Erstellen Sie einen neuen Finanzbericht
 
 Um schnell eigene Finanzberichte zu erstellen, beginnen Sie mit dem Kopieren eines bestehenden Berichts, wie in Schritt 3 unten beschrieben. 
 
@@ -65,7 +65,7 @@ So erstellen oder bearbeiten Sie ein Zeilendefinition, folgen:
 > [!NOTE]
 > Zeilendefinitionen sind nicht versioniert. Wenn Sie ein Zeilendefinition ändern, wird die alte Version ersetzt und Ihre Änderungen werden in der Datenbank gespeichert. 
 
-### Nachhaltigkeitsdaten analysieren  
+### <a name="analyzing-sustainability-data"></a>Nachhaltigkeitsdaten analysieren
 
 1. Geben Sie die  **Zeilennummer ein.** Um Ihr Rohmaterial zu identifizieren und eine  **Beschreibung**  als Text hinzuzufügen, der in der Zeile des Finanzberichts angezeigt wird. 
 2. Wählen Sie in der Spalte „Summierungsart“ die Option  **Summierungskonten** .   
@@ -75,14 +75,14 @@ So erstellen oder bearbeiten Sie ein Zeilendefinition, folgen:
    2. **CO2-Abgabe**, wenn Sie den finanziellen Gegenwert (CO2-Abgabe) aus dem Feld  **CO2-Abgabe**  in den  **Nachhaltigkeitshauptbucheinträgen** melden möchten. 
 5. Wenn Sie als  **Summentyp** die Option  **Formel**  wählen, können Sie in der Spalte  **Summen**  mathematische Formeln verwenden.  
 
-### Statistische Daten analysieren
+### <a name="analyzing-statistical-data"></a>Statistische Daten analysieren
 
 1. Geben Sie die  **Zeilennummer ein.** , um Ihre Zeile zu identifizieren und eine  **Beschreibung**  als Text hinzuzufügen, der in der Zeile des Finanzberichts angezeigt wird. 
 2. Wählen Sie in der Spalte  **Summierungsart**  die Option  **Statistische Konten** .   
 3. Wählen Sie im Feld  **Summierung**  ein oder mehrere Nachhaltigkeitskonten aus. Verwenden Sie dazu alle anwendbaren Filter. 
 4. Wenn Sie als  **Summentyp**  die Option  **Formel** wählen, können Sie in der Spalte  **Summen**  mathematische Formeln verwenden.  
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Nachhaltigkeitsmanagement Übersicht](finance-manage-sustainability.md)    
 [Nachhaltigkeitsberichte und -analysen in Business Central](sustainability-reports.md)   

@@ -12,11 +12,11 @@ ms.service: dynamics-365-business-central
 ms.reviewer: solsen
 ---
 
-# Übersicht über Nachhaltigkeits-Scorecards und -Ziele
+# <a name="sustainability-scorecards-and-goals-overview"></a>Übersicht über Nachhaltigkeits-Scorecards und -Ziele
 
 Dieser Artikel bietet Anleitungen zum Erstellen von Scorecards und Zielen sowie zum Aktualisieren des Zielstatus. Scorecards und Ziele ermöglichen es Unternehmen, Nachhaltigkeitskennzahlen zu erfassen und sie anhand wichtiger Geschäftsziele zu verfolgen. Ziele können auf Basis aktueller Werte und Zielwerte erstellt werden, sodass Benutzer die Entwicklung der aktuellen Emissionen im Vergleich zu früheren Zeiträumen verfolgen können.  
 
-## Erstellen einer Scorecard  
+## <a name="create-a-scorecard"></a>Erstellen einer Scorecard
 
 So erstellen Sie eine neue  *Nachhaltigkeits-Scorecard*: folgen Sie die folgenden Schritte:
 
@@ -26,7 +26,7 @@ So erstellen Sie eine neue  *Nachhaltigkeits-Scorecard*: folgen Sie die folgende
 
 > [HINWEIS!] Im Feld  **Eigentümer**  können Sie nur Benutzer auswählen, die in der Tabelle  **Benutzereinrichtung**  das Feld  **Sustainability Manager**  ausgewählt haben. 
 
-## Ziele erstellen  
+## <a name="create-goals"></a>Ziele erstellen
 
 Um ein neues  *Nachhaltigkeitsziel* zu erstellen, führen Sie die folgenden Schritte aus:
 
@@ -49,7 +49,7 @@ Wenn Sie viele Ziele auf der Seite haben, können Sie die Aktion  **Meine Ziele 
 > [!NOTE]
 > Benutzer können verschiedene Zielkombinationen für das gesamte Unternehmen, bestimmte Länder oder Regionen und ein Verantwortungszentrum für eine Nachhaltigkeits-Scorecard einrichten *.* Benutzer können für dasselbe Tracking-Modell auch unterschiedliche Zeiträume verwenden. 
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Nachhaltigkeitseinrichtung](finance-sustainability-setup.md)    
 [Diagramm der Nachhaltigkeitskonten und des Sachkontos](finance-sustainability-accounts-ledger.md)    

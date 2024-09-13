@@ -12,13 +12,13 @@ ms.service: dynamics-365-business-central
 ms.reviewer: solsen
 ---
 
-# Arbeiten mit Emissionszertifikaten  
+# <a name="work-with-carbon-credit"></a>Arbeiten mit Emissionszertifikaten
 
 Wenn Unternehmen aus verschiedenen Gründen ihre Emissionen nicht reduzieren können, können sie zum Ausgleich ihrer Emissionen Emissionsrechte erwerben. Durch den Kauf von Emissionszertifikaten kann ein Unternehmen weiterhin die gleiche Menge an Gasen ausstoßen und gleichzeitig CO2-neutral bleiben. Diese Gutschriften werden von spezialisierten Anbietern erworben und bieten Anreize für die Reduzierung der Emissionen.  
 
 Im Allgemeinen handelt es sich bei Emissionsgutschriften um Genehmigungen, die ihrem Eigentümer den Ausstoß einer bestimmten Menge Kohlendioxid (CO₂) oder anderer Treibhausgase (THG) gestatten. Ein Emissionszertifikat berechtigt in der Regel zum Ausstoß einer Tonne CO₂ oder der entsprechenden Menge eines anderen Treibhausgases. Daher ist es wichtig, einigen Organisationen diese Option zu ermöglichen.  
 
-## Richten Sie den CO2-Kredit ein  
+## <a name="set-up-the-carbon-credit"></a>Richten Sie den CO2-Kredit ein
 
 CO2-Guthaben kann als  [!INCLUDE[prod_short](includes/prod_short.md)] Artikel festgelegt werden **.** Um den **Artikel** als CO2-Gutschrift einzurichten, folgen Sie die folgenden Schritte:
   
@@ -32,9 +32,9 @@ CO2-Guthaben kann als  [!INCLUDE[prod_short](includes/prod_short.md)] Artikel fe
 > [!NOTE]
 > Sie können für jeden Artikeltyp (Inventar, Dienstleistung oder Nicht-Inventar) eine CO2-Gutschrift einrichten.  
 
-## Um Emissionsrechte zu erwerben 
+## <a name="to-purchase-carbon-credit"></a>Um Emissionsrechte zu erwerben
 
-### Kauf Belege 
+### <a name="purchase-documents"></a>Kauf Belege
 
 Um mit kaufbezogenen Dokumenten zu arbeiten, folgen Sie die Schritte:
 
@@ -49,7 +49,7 @@ Um mit kaufbezogenen Dokumenten zu arbeiten, folgen Sie die Schritte:
 > [!NOTE]
 > Obwohl sich durch die Emissionsgutschrift der Wert der Einträge verringert, wird unter  **CO2-Emission** ein positiver Wert ausgewiesen. Wenn Sie das Dokument jedoch buchen, wird im  **Nachhaltigkeitshauptbucheintrag**  mit der  **Treibhausgasgutschrift**  als  **Dokumentart** ein Wert mit einem negativen Logarithmus angezeigt.  
 
-### Nachhaltigkeits-Buch.-Blätter 
+### <a name="sustainability-journals"></a>Nachhaltigkeits-Buch.-Blätter
 
 So arbeiten Sie mit dem **Sustainability Journal** folgen:  
 
@@ -60,7 +60,7 @@ So arbeiten Sie mit dem **Sustainability Journal** folgen:
 5. Auswählen **Manuelle Eingabe** und geben Sie den Wert, den Sie als CO2-Gutschrift buchen möchten, in das Feld **CO2-Emission**  ein.  
 6. Buchen Sie die Buch.-Blattzeile.   
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Finanzen](finance.md)    
 [Nachhaltigkeitsposten erfassen](finance-sustainability-journal.md)    

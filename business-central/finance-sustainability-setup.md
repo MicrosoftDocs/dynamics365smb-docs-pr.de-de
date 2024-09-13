@@ -12,13 +12,13 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Aufbau des Nachhaltigkeitsmoduls 
+# <a name="sustainability-module-setup"></a>Aufbau des Nachhaltigkeitsmoduls
 
 Bevor das Nachhaltigkeitsmodul richtig funktioniert, müssen Sie einige grundlegende Steuerelemente und Anweisungen festlegen, die mit der gesamten Funktionalität zusammenhängen.
 
 Um ein Nachhaltigkeitsmodul einzurichten, gehen Sie wie folgt vor:
 
-## Rollencenter  
+## <a name="role-center"></a>Rollencenter
 
 Für Personen, deren Hauptverantwortung Nachhaltigkeitsprozesse umfasst, wird empfohlen, das Rollencenter  *Sustainability Manager*  zu nutzen. Um dieses Rollencenter zu konfigurieren, folgen die Schritte:  
 
@@ -29,7 +29,7 @@ Für Personen, deren Hauptverantwortung Nachhaltigkeitsprozesse umfasst, wird em
 
 Das Rollencenter  *Sustainability Manager*  ermöglicht die effiziente Verwaltung aller wichtigen Bereiche im Zusammenhang mit Nachhaltigkeit. Es umfasst zentrale Nachhaltigkeitsmerkmale sowie Finanz- und Beschaffungsprozesse. Darüber hinaus bietet es Einblick in die wichtigsten KPIs im Zusammenhang mit Nachhaltigkeit.
 
-## Nachhaltigkeitseinrichtung  
+## <a name="sustainability-setup"></a>Nachhaltigkeitseinrichtung
 
 1. Wählen Sie das ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Nachhaltigkeitseinrichtung** ein und wählen Sie dann den zugehörigen Link.
 2. Konfigurieren Sie auf dem Inforegister **Allgemein** die erforderlichen Felder, die mit dem Nachhaltigkeitsmodul zusammenhängen.
@@ -72,7 +72,7 @@ Das Rollencenter  *Sustainability Manager*  ermöglicht die effiziente Verwaltun
     | **Emissionsrundungsgenauigkeit** | Geben Sie die Intervallgröße an, die beim Runden von Emissionsmengen bei der Meldung an Behörden verwendet wird. |
     | **Emissionsrundungsart** | Geben Sie an, wie das Programm bei der Meldung an Behörden Emissionsmengen rundet. Folgende Optionen stehen zur Verfügung: **Kaufmännisch**, **Aufrunden** und **Abrunden**. |
 
-## Emissionsgebühren   
+## <a name="emission-fees"></a>Emissionsgebühren
 
 Um interne CO2-Gebühren zu verfolgen oder Ihre Emissionen anhand von Kohlendioxid-Äquivalenten (CO2) zu berechnen, müssen Sie die Seite  **Emissionsgebühren**  konfigurieren. Um diese Informationen einzurichten, folgen diese Schritte:  
 
@@ -89,7 +89,7 @@ Um interne CO2-Gebühren zu verfolgen oder Ihre Emissionen anhand von Kohlendiox
 
 Wenn Sie die  **Emissionsgebühren**  vor der Buchung Ihrer Nachhaltigkeitseinträge nicht konfiguriert haben und Ihre CO2-Gebühren und CO2e nachträglich berechnen möchten, müssen Sie die Aktion  **Emissionsgebühren berechnen**  ausführen, um die Werte in den  **Nachhaltigkeitshauptbucheinträgen** zu aktualisieren.  
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Finanzen](finance.md)    
 [Nachhaltigkeitsverwaltung – Übersicht](finance-manage-sustainability.md)    
