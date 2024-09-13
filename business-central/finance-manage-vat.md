@@ -6,13 +6,13 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: VAT
 ms.search.form: '118, 472, 737, 743'
-ms.date: 08/12/2024
+ms.date: 08/29/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# <a name="vat-management-overview"></a>Mehrwertsteuerverwaltung – Übersicht
+# Mehrwertsteuerverwaltung – Übersicht
 Die Mehrwertsteuer (MwSt.) ist eine indirekte Steuer auf den Verbrauch von Waren und Dienstleistungen. Die Mehrwertsteuer wird auf jeder Stufe der Lieferkette erhoben, wo die Wertschöpfung von der Erstproduktion bis zum Verkaufsort erfolgt. Informationen zum Einstieg in die Mehrwertsteuerverwaltung finden Sie in den folgenden Artikeln.  
 
 |  Artikel  |  Description  |  
@@ -28,9 +28,10 @@ Die Mehrwertsteuer (MwSt.) ist eine indirekte Steuer auf den Verbrauch von Waren
 | [MwSt.-Abrechnung einrichten](finance-how-setup-vat-statement.md) | Dieser Artikel bietet Informationen, um sicherzustellen, dass Sie wissen, wie Sie eine MwSt.-Abrechnungsvorlage und die Namen der MwSt.-Abrechnungen festlegen, um den sich ändernden Anforderungen der Steuerbehörden gerecht zu werden.|
 | [Verwalten von Änderungen des MwSt.-Satzes](finance-how-use-vat-rate-change-tool.md) | Dieser Artikel erläutert, wie Sie das Tool zur Änderung des MwSt.-Satzes für Dynamics 365 Business Central verwenden, um die MwSt.-Sätze auf der Grundlage der lokalen Gesetzgebung zu ändern.|
 | [USt-IdNr validieren](finance-how-validate-vat-registration-number.md) | Dieser Artikel erläutert, wie Sie die Business Central-Validierung für Umsatzsteuer-Identifikationsnummern für Ihre Kontakte, Debitoren und Kreditoren basierend auf dem VIES-Mehrwertsteuernummer-Validierungsdienst der Europäischen Union verwenden.|
+| [Mehrere Umsatzsteuer-Identifikationsnummern](finance-how-use-multiple-vat-registrations.md) | Informieren Sie sich, wie Sie für Ihre in verschiedenen Ländern tätigen Kunden mehrere Umsatzsteuer-Identifikationsnummern (als alternativen Umsatzsteuersatz) einrichten. |
 
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch 
 [Finanzen](finance.md)    
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
